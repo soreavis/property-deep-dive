@@ -6,6 +6,13 @@ name: CHANGELOG on merge
 # pushes to main, so the bot opens its own PR with the change. The auto-
 # merge-docs workflow squash-merges that PR once CI is green.
 #
+# Token: uses PR_BOT_TOKEN (fine-grained PAT, Contents:RW + Pull-requests:RW
+# scoped to this repo only). The default GITHUB_TOKEN cannot be used here
+# because GitHub's safety rule says any PR created by GITHUB_TOKEN does NOT
+# trigger downstream workflows — meaning auto-merge-docs and pr-validate
+# would never fire on the bot's PR, and it would sit forever with 0 checks.
+# A PAT-created PR triggers workflows normally.
+#
 # Skip conditions:
 #   - PR not merged
 #   - PR has label `skip changelog`
@@ -37,7 +44,9 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          token: ${{ github.token }}
+          # PAT (not GITHUB_TOKEN) so the bot's subsequent push triggers
+          # downstream workflows on the new branch.
+          token: ${{ secrets.PR_BOT_TOKEN }}
 
       - name: Compute bucket from PR labels
         id: bucket
@@ -165,7 +174,11 @@ jobs:
       - name: Open PR with the changelog edit
         if: steps.edit.outputs.skip != 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
+          # PAT (not GITHUB_TOKEN) so the resulting PR triggers
+          # auto-merge-docs.yml + pr-validate.yml. With GITHUB_TOKEN the
+          # PR is created in a "no workflows fired" state that stalls
+          # auto-merge forever.
+          GH_TOKEN: ${{ secrets.PR_BOT_TOKEN }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_TITLE: ${{ github.event.pull_request.title }}
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
