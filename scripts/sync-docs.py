@@ -77,14 +77,14 @@ def count_total_md_lines() -> int:
     return total
 
 def count_skill_md_files() -> int:
-    n = 1 if (ROOT / 'SKILL.md').exists() else 0
+    n = 1 if (ROOT / 'skills' / 'property-deep-dive' / 'SKILL.md').exists() else 0
     n += count_shared_files()
     n += len(list((ROOT / 'countries').glob('*/playbook.md')))
     return n
 
 def count_skill_md_lines() -> int:
     paths = []
-    skill = ROOT / 'SKILL.md'
+    skill = ROOT / 'skills' / 'property-deep-dive' / 'SKILL.md'
     if skill.exists():
         paths.append(skill)
     paths.extend((ROOT / 'shared').glob('*.md'))
@@ -98,7 +98,7 @@ def count_skill_md_lines() -> int:
     return total
 
 def count_section_flags() -> int:
-    skill = ROOT / 'SKILL.md'
+    skill = ROOT / 'skills' / 'property-deep-dive' / 'SKILL.md'
     if not skill.exists():
         return 0
     text = skill.read_text(encoding='utf-8')

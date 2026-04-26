@@ -14,13 +14,13 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'SKILL.md'
+      - 'skills/property-deep-dive/SKILL.md'
       - 'countries/**'
       - '.github/workflows/matrix-consistency.yml'
   push:
     branches: [main]
     paths:
-      - 'SKILL.md'
+      - 'skills/property-deep-dive/SKILL.md'
       - 'countries/**'
   workflow_dispatch:
 
@@ -43,7 +43,7 @@ jobs:
 
           # 1. Parse SKILL.md country matrix.
           # Rows look like: | **fr** | France | ✅ Fully populated | ... |
-          with open('SKILL.md', encoding='utf-8') as f:
+          with open('skills/property-deep-dive/SKILL.md', encoding='utf-8') as f:
               content = f.read()
           m_section = re.search(
               r'^## Country support matrix\b(.*?)(?=^## )',

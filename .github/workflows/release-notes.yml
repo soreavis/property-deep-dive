@@ -80,7 +80,7 @@ jobs:
               shared/visa-programs.md)
                 echo "- $f" >> _bucket_visa.txt
                 ;;
-              SKILL.md)
+              skills/property-deep-dive/SKILL.md|SKILL.md)
                 echo "- $f (master router)" >> _bucket_router.txt
                 ;;
               shared/*)

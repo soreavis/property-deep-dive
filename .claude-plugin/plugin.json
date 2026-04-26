@@ -1,8 +1,8 @@
 {
   "name": "property-deep-dive",
   "displayName": "Property Deep Dive (your property-buying co-pilot)",
-  "version": "2026.04.0",
-  "description": "Pre-purchase property due diligence across 44 countries — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled.",
+  "version": "2026.04.1",
+  "description": "Pre-purchase property due diligence across 44 countries — tax, risks, rental yield, visa, mortgage, and 17 other facets per address.\n\nDrop in any address or listing URL: the skill detects the country, loads the local playbook, runs your chosen sections, and outputs a structured Markdown brief.\n\nSources are primary government registries (cadastres, tax authorities, risk bureaux), not aggregator sites. Every figure dated. Every section confidence-labelled with a band that decays without re-verification. A regulatory-watch tracker flags reforms before they invalidate the brief.\n\nTry asking:\n• /property-deep-dive Calle Mayor 5, Madrid --visa --retirement\n• /property-deep-dive https://rightmove.co.uk/142857 --integrity --journey=pre-offer\n• /property-deep-dive --compare=fr,it,pt --retirement\n• /property-deep-dive Athens 10556 --type=heritage --journey=foreign-buyer\n\n44 countries fully populated · 22 user-invocable sections · 4 cross-cutting layers.",
   "author": {
     "name": "Julian Soreavis",
     "url": "https://github.com/soreavis"

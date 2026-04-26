@@ -6,7 +6,7 @@ on:
     paths:
       - 'countries/**'
       - 'shared/**'
-      - 'SKILL.md'
+      - 'skills/property-deep-dive/SKILL.md'
       - 'README.md'
       - 'CONTRIBUTING.md'
       - 'SECURITY.md'

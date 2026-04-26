@@ -69,15 +69,17 @@ The skill is now invocable via `/property-deep-dive`. The plugin manifest pins t
 
 ### Manual symlink (for skill development / contributing)
 
-If you want to hack on the skill locally, clone the repo and symlink it directly into Claude Code's skills directory:
+If you want to hack on the skill locally, clone the repo and symlink **the skill subdirectory** (not the whole repo) into Claude Code's skills directory:
 
 ```bash
 git clone https://github.com/soreavis/property-deep-dive ~/code/property-deep-dive
-ln -s ~/code/property-deep-dive ~/.claude/skills/property-deep-dive
+
+# Symlink the skill subdirectory — Claude Code expects SKILL.md at the symlink's root
+ln -s ~/code/property-deep-dive/skills/property-deep-dive ~/.claude/skills/property-deep-dive
 ls -la ~/.claude/skills/property-deep-dive
 ```
 
-The skill is now invocable via `/property-deep-dive` in Claude Code, with edits picked up immediately.
+The skill is now invocable via `/property-deep-dive` in Claude Code, with edits picked up immediately. The `shared/` and `countries/` directories at the repo root are still reachable from `SKILL.md` because plugin path resolution happens from the repo root, not the SKILL.md location.
 
 ## Try asking…
 

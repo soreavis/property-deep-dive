@@ -36,7 +36,7 @@ shared:
 
 router:
   - changed-files:
-      - any-glob-to-any-file: 'SKILL.md'
+      - any-glob-to-any-file: 'skills/property-deep-dive/SKILL.md'
 
 governance:
   - changed-files:

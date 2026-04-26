@@ -219,7 +219,7 @@ jobs:
           python3 - <<'PY'
           import re, sys
 
-          with open('SKILL.md', encoding='utf-8') as f:
+          with open('skills/property-deep-dive/SKILL.md', encoding='utf-8') as f:
               content = f.read()
           m = re.search(r'argument-hint:\s*"([^"]+)"', content)
           if not m:
