@@ -117,3 +117,16 @@ Maintainers prioritise:
 5. **Source-decay awareness** — reform dates surface, ENDED programs flagged, EPC ban schedules dated
 
 Everything else (formatting, prose polish, structural reorganisation) is welcome but secondary.
+
+## Release process (maintainer-only)
+
+When cutting a new release tag:
+
+1. **Bump `.claude-plugin/plugin.json` `version`** to match the new tag (e.g., `2026.05.0`).
+   - Plugin users only get updates when this field changes — keep it in sync with the latest CalVer git tag.
+   - End-of-month `auto-tag.yml` cron creates the git tag automatically; manual bump of `plugin.json` is part of the same PR or a follow-up.
+2. **Confirm `CHANGELOG.md` `[Unreleased]` is rolled into a `[YYYY.0M.MICRO]` section** for the new tag.
+3. **Push the tag** (or let `auto-tag.yml` do it). `release-notes.yml` and `sign-release.yml` fire on the tag push (sigstore + SLSA L3 attestations).
+4. **Optionally update the plugin manifest description / keywords** if the release adds new countries or sections.
+
+The plugin manifest lives at `.claude-plugin/plugin.json`. The marketplace stub at `.claude-plugin/marketplace.json` makes the repo self-installable via `/plugin marketplace add github:soreavis/property-deep-dive`.

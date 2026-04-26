@@ -1,0 +1,16 @@
+{
+  "name": "property-deep-dive",
+  "owner": {
+    "name": "Julian Soreavis",
+    "url": "https://github.com/soreavis"
+  },
+  "plugins": [
+    {
+      "name": "property-deep-dive",
+      "source": {
+        "source": "github",
+        "repo": "soreavis/property-deep-dive"
+      }
+    }
+  ]
+}

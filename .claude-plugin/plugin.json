@@ -1,0 +1,24 @@
+{
+  "name": "property-deep-dive",
+  "version": "2026.04.0",
+  "description": "Universal property due-diligence skill: 44 countries x 22 sections (price, tax, rental, visa, risks, mortgage, etc.) with anti-hallucination contract and date-stamped regulatory-watch governance.",
+  "author": {
+    "name": "Julian Soreavis",
+    "url": "https://github.com/soreavis"
+  },
+  "homepage": "https://github.com/soreavis/property-deep-dive",
+  "repository": "https://github.com/soreavis/property-deep-dive",
+  "license": "MIT",
+  "keywords": [
+    "property",
+    "real-estate",
+    "due-diligence",
+    "tax",
+    "regulatory-watch",
+    "anti-hallucination",
+    "eu",
+    "calver",
+    "claude-code",
+    "claude-cowork"
+  ]
+}

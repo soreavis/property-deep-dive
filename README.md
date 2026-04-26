@@ -55,20 +55,29 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 ## Install
 
-This is a [Claude Code](https://docs.claude.com/claude-code) skill. Clone it anywhere on your machine and symlink it into Claude Code's skills directory:
+Works as a plugin in both **[Claude Code](https://docs.claude.com/claude-code)** and **[Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format, same install path.
+
+### Plugin install (recommended — both Claude Code and Claude Cowork)
 
 ```bash
-# Clone wherever you keep code
-git clone https://github.com/<your-username>/property-deep-dive ~/code/property-deep-dive
+# Add this repo as a plugin marketplace, then install the plugin
+/plugin marketplace add github:soreavis/property-deep-dive
+/plugin install property-deep-dive@property-deep-dive
+```
 
-# Symlink into Claude Code's user skills directory
+The skill is now invocable via `/property-deep-dive`. The plugin manifest pins to a specific [CalVer](#versioning) release — you'll get updates only when a new version is published, not on every commit.
+
+### Manual symlink (for skill development / contributing)
+
+If you want to hack on the skill locally, clone the repo and symlink it directly into Claude Code's skills directory:
+
+```bash
+git clone https://github.com/soreavis/property-deep-dive ~/code/property-deep-dive
 ln -s ~/code/property-deep-dive ~/.claude/skills/property-deep-dive
-
-# Verify Claude Code finds it
 ls -la ~/.claude/skills/property-deep-dive
 ```
 
-The skill is now invocable via `/property-deep-dive` in Claude Code.
+The skill is now invocable via `/property-deep-dive` in Claude Code, with edits picked up immediately.
 
 ## Usage
 
