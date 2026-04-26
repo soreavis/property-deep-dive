@@ -121,6 +121,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - docs(plugin): displayName + keyword expansion + README "Try asking…" ([#31](https://github.com/soreavis/property-deep-dive/pull/31)) — by @soreavis
 - feat(plugin): restructure to skills/\<name>/ + longer description with examples ([#33](https://github.com/soreavis/property-deep-dive/pull/33)) — by @soreavis
 - fix(docs): update SKILL.md links after move ([#35](https://github.com/soreavis/property-deep-dive/pull/35)) — by @soreavis
+- docs(plugin): drop bullets from "Try asking" — bump 2026.04.1 → 2026.04.2 ([#37](https://github.com/soreavis/property-deep-dive/pull/37)) — by @soreavis
 
 ## [2026.04.0] - 2026-04-26
 
