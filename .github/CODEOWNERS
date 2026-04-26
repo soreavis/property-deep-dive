@@ -1,0 +1,27 @@
+# CODEOWNERS — every PR auto-requests review from the listed owner(s).
+# Last entry that matches a path wins. Order matters.
+
+# Default owner for everything in the repo
+*                                  @soreavis
+
+# Country playbooks (open to community contributions; still default-reviewed)
+/countries/                        @soreavis
+
+# Cross-cutting governance + anti-hallucination contract — maintainer-only sensitive
+/shared/anti-hallucination.md      @soreavis
+/shared/regulatory-watch.md        @soreavis
+/shared/updater.md                 @soreavis
+/shared/sections.md                @soreavis
+/shared/output-template.md         @soreavis
+/shared/verdict-bands.md           @soreavis
+
+# Master router — argument-hint changes touch every section
+/SKILL.md                          @soreavis
+
+# CI + community files
+/.github/                          @soreavis
+/CONTRIBUTING.md                   @soreavis
+/CODE_OF_CONDUCT.md                @soreavis
+/SECURITY.md                       @soreavis
+/DISCLAIMER.md                     @soreavis
+/LICENSE                           @soreavis

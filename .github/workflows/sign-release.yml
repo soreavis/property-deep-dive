@@ -1,0 +1,113 @@
+name: Sign release
+
+on:
+  push:
+    tags:
+      # CalVer YYYY.0M.MICRO — same pattern as release-notes.yml
+      - '[0-9][0-9][0-9][0-9].[0-9][0-9].[0-9]+'
+
+# id-token: write enables sigstore keyless signing via OIDC.
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  sign:
+    name: Sigstore-sign release tarball + SBOM-style file list
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout (full history for archive)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install cosign
+        uses: sigstore/cosign-installer@398d4b0eeef1380460a10c8013a76f728fb906ac  # v3
+
+      - name: Resolve tag
+        id: tag
+        run: |
+          tag="${GITHUB_REF##*/}"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Build release tarball + manifest
+        run: |
+          set -euo pipefail
+          tag="${{ steps.tag.outputs.tag }}"
+          # Repo snapshot at the tag, excluding _local/ and CI artifacts
+          git archive --format=tar.gz --prefix="property-deep-dive-${tag}/" \
+            -o "property-deep-dive-${tag}.tar.gz" "$tag"
+
+          # Manifest: every file in the archive with sha256 — useful for content provenance
+          tar -tzf "property-deep-dive-${tag}.tar.gz" | sort > "property-deep-dive-${tag}.manifest.txt"
+          sha256sum "property-deep-dive-${tag}.tar.gz" > "property-deep-dive-${tag}.tar.gz.sha256"
+
+      - name: Sign tarball (keyless via GitHub OIDC)
+        env:
+          COSIGN_EXPERIMENTAL: "1"
+        run: |
+          set -euo pipefail
+          tag="${{ steps.tag.outputs.tag }}"
+          cosign sign-blob --yes \
+            --bundle "property-deep-dive-${tag}.tar.gz.sigstore" \
+            "property-deep-dive-${tag}.tar.gz"
+
+      - name: Upload artifacts to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="${{ steps.tag.outputs.tag }}"
+          # release-notes.yml may run before us — wait for the release to exist
+          for i in 1 2 3 4 5 6; do
+            if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+              break
+            fi
+            echo "Release $tag not yet visible — waiting (attempt $i/6)…"
+            sleep 10
+          done
+
+          gh release upload "$tag" \
+            "property-deep-dive-${tag}.tar.gz" \
+            "property-deep-dive-${tag}.tar.gz.sha256" \
+            "property-deep-dive-${tag}.tar.gz.sigstore" \
+            "property-deep-dive-${tag}.manifest.txt" \
+            --repo "$GITHUB_REPOSITORY" \
+            --clobber
+
+      - name: Append verification instructions to release notes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="${{ steps.tag.outputs.tag }}"
+          existing=$(gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json body --jq '.body' || echo "")
+
+          {
+            echo "$existing"
+            echo
+            echo "---"
+            echo
+            echo "## 🔏 Verifying this release"
+            echo
+            echo "This release is **sigstore-signed** keyless via the GitHub Actions OIDC identity for \`${GITHUB_REPOSITORY}\`."
+            echo
+            echo '```bash'
+            echo "# 1. Download the tarball + signature bundle"
+            echo "gh release download $tag --repo ${GITHUB_REPOSITORY} \\"
+            echo "  --pattern 'property-deep-dive-${tag}.tar.gz' \\"
+            echo "  --pattern 'property-deep-dive-${tag}.tar.gz.sigstore'"
+            echo
+            echo "# 2. Verify with cosign"
+            echo "cosign verify-blob \\"
+            echo "  --bundle property-deep-dive-${tag}.tar.gz.sigstore \\"
+            echo "  --certificate-identity-regexp 'https://github\\.com/${GITHUB_REPOSITORY}/\\.github/workflows/sign-release\\.yml@.*' \\"
+            echo "  --certificate-oidc-issuer 'https://token.actions.githubusercontent.com' \\"
+            echo "  property-deep-dive-${tag}.tar.gz"
+            echo '```'
+            echo
+            echo "**Expected output**: \`Verified OK\`. Any error means the tarball doesn't match what was signed by this workflow at this tag."
+          } > _new_body.md
+
+          gh release edit "$tag" --repo "$GITHUB_REPOSITORY" --notes-file _new_body.md

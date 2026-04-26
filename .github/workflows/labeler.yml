@@ -1,0 +1,22 @@
+name: Path-based labeler
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Apply labels by changed paths
+        uses: actions/labeler@v5
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          configuration-path: .github/labeler.yml
+          # Don't sync — only add labels (preserves manually-applied labels like good-first-issue)
+          sync-labels: false

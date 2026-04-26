@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Skill usage question
+    url: https://github.com/soreavis/property-deep-dive#usage
+    about: Read the README usage examples first; open an issue only for bugs / factual errors / new countries.
+  - name: Anti-hallucination contract
+    url: https://github.com/soreavis/property-deep-dive/blob/main/shared/anti-hallucination.md
+    about: Understand the source-tier ranking and forbidden phrasings before opening a factual-correction issue.

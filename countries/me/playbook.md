@@ -1,0 +1,366 @@
+# Montenegro 🇲🇪 — Property Due-Diligence Playbook
+
+ISO2: `me`. Status: ✅ Fully populated (researched 2026-04).
+
+## Country profile
+
+- **Postcode**: 5 digits (`81000` Podgorica, `85320` Tivat, `85330` Kotor, `85310` Budva, `81250` Cetinje)
+- **Admin levels**: 25 opštine (municipalities); no provinces
+- **Currency**: **EUR (€)** — informally adopted **2002**, no central-bank issuance — UNIQUE in Europe
+- **Languages**: Montenegrin (official); Serbian, Bosnian, Albanian, Croatian (regional minorities)
+- **Cadastre**: **Uprava za nekretnine (UzN)** — `https://www.gov.me/en/uzn`
+  - **eKatastar**: `https://ekatastar.me` — covers ~98% of registered properties (Sept 2025)
+  - **Geoportal CG**: `https://geoportal.co.me/`
+- **Identifier**: parcela + KO (katastarska opština)
+- **Key document**: **list nepokretnosti** (property sheet/extract)
+- **EU accession negotiations active** — 19 chapters open, 14 provisionally closed (April 2026); target close 2026-2027, membership 2028
+
+## Section: `--price`
+
+### Primary sources
+
+- **MONSTAT (Statistical Office)**: `https://www.monstat.org/` — quarterly residential price index
+- **CBCG (Central Bank Montenegro)**: `https://www.cbcg.me/` — Financial Stability Reports
+
+### Listing platforms
+
+- **Realitica**: `https://www.realitica.com/`
+- **Property Finder Montenegro**, **MontenegroProspects**, **Realting.com/montenegro**
+- High **English-language coverage** (Russian + EU buyers)
+- Major developments: **Porto Montenegro (Tivat)**, **Lustica Bay**, **Dukley Gardens (Budva)**
+
+### 2025-2026 price benchmarks (MONSTAT Q3 2025)
+
+| Region | EUR/m² (avg) | Notes |
+|---|---:|---|
+| **Coastal cities avg** | 2,458 | **+23.2% YoY** |
+| **Tivat (Porto Montenegro)** | 5,000–12,000 | Premium luxury |
+| **Tivat (general)** | 2,450 (avg) | High |
+| **Kotor Old Town (UNESCO)** | 4,000–8,000 | Premium |
+| **Kotor general** | 2,000–3,500 | High |
+| **Budva luxury** (Sveti Stefan, Dukley) | 4,000–10,000+ | Resort premium |
+| **Budva general** | 2,500–5,000 | High |
+| **Herceg Novi** | 2,000–3,500 | Coastal mid |
+| **Bar** | 1,500–2,500 | Coastal value |
+| **Ulcinj** | 1,200–2,500 | South coast |
+| **Podgorica (capital)** | 2,150 (avg) | Inland |
+| **Cetinje (royal capital)** | 800–1,500 | Inland heritage |
+| **Mountain (Žabljak, Kolašin)** | 800–1,800 | Ski + summer |
+
+### Compute
+
+1. EUR/m² = price / **uporabna površina** (usable area)
+2. **Currency**: EUR informally adopted = no FX risk for EUR holders
+3. **Coastal vs mountain divergence**: 5-10× multiplier (Tivat luxury vs interior)
+4. **UNESCO** premium: Kotor Old Town strict construction = scarcity premium
+
+### Key terms
+
+- UzN = Uprava za nekretnine
+- KO = katastarska opština
+- List nepokretnosti = property sheet
+- Notarska isprava = notarial deed
+- Energetski pasoš = energy passport
+
+---
+
+## Section: `--traffic`
+
+### Sources
+
+- **JP Putevi Crne Gore**: `https://www.putevi.me/`
+- City traffic data Podgorica, Budva
+
+### Key term
+
+**PGDS (Prosječni godišnji dnevni saobraćaj)** = AADT-equivalent.
+
+### Verdict bands
+
+- 🟢 < 1,500 v/d (residential, rural, mountain)
+- 🟡 1,500–10,000 v/d (regional roads, coastal off-season)
+- 🟠 10,000–25,000 v/d (Adriatic coastal road peak, Podgorica arterials)
+- 🔴 > 25,000 v/d (Adriatic coastal Jul-Aug peak, Sozina tunnel)
+
+---
+
+## Section: `--tax`
+
+### Annual property tax — Porez na nepokretnost
+
+- **0.25–1.0% of market value** (set per opština/municipality)
+- Coastal premium properties typically 0.5-1.0%
+- Inland Podgorica: 0.25-0.5%
+- Annual or quarterly payment
+
+### Transaction taxes — PROGRESSIVE since 1 Jan 2024
+
+**MAJOR CORRECTION**: previously flat 3%; now progressive RETT:
+
+| Property value (EUR) | Rate |
+|---|---:|
+| Up to **150,000** | **3%** |
+| **150,001–500,000** | **5%** |
+| Above **500,000** | **6%** |
+
+- **15-day payment deadline** post-contract; 0.03%/day late interest
+- **Buyer pays** transfer tax
+
+### VAT (PDV)
+
+- **21% standard**; first-sale residential subject to 21% VAT in lieu of RETT (NOT a reduced rate)
+- New build: 21% VAT included in price
+- Resale: subject to RETT, not VAT
+
+### Capital gains
+
+- **15% PIT** on real-estate appreciation
+- **Primary residence exempt** under specific conditions
+
+### Total transaction cost (buyer side)
+
+- Resale ≤€150k: ~4-5% (3% RETT + 0.5-1% notary + 0.5% other)
+- Resale €150-500k: ~6-7% (5% RETT + others)
+- Resale >€500k: ~7-8% (6% RETT + others)
+- New build: 21% VAT in price + ~2-3% other costs
+
+### Future risk
+
+- EU accession (2026-2028) likely to bring tax harmonization
+- New 2026 investor residency program (€150k threshold — see below)
+
+---
+
+## Section: `--rental`
+
+### Long-term residential
+
+- **Zakon o stanovanju**
+- Tenant protection moderate
+- Standard 1-3 yr contracts; coastal seasonal common
+
+### Short-let (Airbnb)
+
+**MANDATORY before any platform listing**:
+- **Municipal registration** (Opština)
+- **Classification certificate**
+- **Tourism tax certificate** from Ministry of Tourism
+
+#### Tourist tax
+
+- **€0.10–€1.00/day/adult guest**
+- Varies by region/category
+- **24-hour guest registration** mandatory via government portal
+
+#### Rental income tax
+
+- **15% net PIT**
+- Penalty: **€1,340–€13,400** (2-20× minimum wage; min wage €670 June 2025)
+
+### Tax on rental
+
+- 15% PIT on net rental income
+- Tourist tax collected from guest
+
+---
+
+## Section: `--work=<profession>`
+
+### Sources
+
+- **ZZZCG (Zavod za zapošljavanje)**: `https://www.zzzcg.me/`
+- **Posao.me**, **LinkedIn ME**, **CGposao**
+
+### Self-employment
+
+- **DOO** (limited): low capital
+- **Preduzetnik** (sole trader)
+- **PDV** registration: from EUR 30,000 turnover
+
+### Salary benchmarks (2025)
+
+- Median monthly gross:
+  - Podgorica: ~EUR 750–1,200
+  - Tivat (tourism + luxury): ~EUR 700–1,300
+  - Smaller cities: ~EUR 500–800
+- **Minimum wage**: EUR 670/month (June 2025)
+
+---
+
+## Section: `--risks`
+
+### Primary national sources
+
+| Source | URL | What it gives |
+|---|---|---|
+| **Seizmološki zavod CG** | — | Seismic monitoring |
+| **ZHMS / IHMS Montenegro** (hydromet) | — | Floods, climate |
+| **CBR / MUP civilna zaštita** | — | Wildfire/karst |
+
+### Specific risks
+
+#### Earthquake
+
+- **1979 M6.9 Adriatic earthquake** catastrophic (~100 dead, major coastal damage)
+- Coast remains seismic
+- **Bay of Kotor** historic damage zone
+- Modern EC8-compliant builds + retrofit
+
+#### Wildfires
+
+- **Mediterranean coastal critical** Jul-Aug
+- Karst pinewood = high fire intensity
+- 2017, 2022, 2024 active seasons
+
+#### Karst hazards
+
+- **Durmitor, Lovćen, Orjen** — sinkholes, drainage
+- **Coastal hinterland**: cave systems
+- Construction requires soil study
+
+#### Floods
+
+- **Bojana river**, mountain torrents
+- Coastal flash flooding
+
+### Build-era hazards
+
+| Era | Hazards |
+|---|---|
+| **Pre-1900** | No DPC, lead, asbestos cement starts |
+| **Pre-1979 quake** | Non-modern seismic; many destroyed/damaged |
+| **Post-1979 reconstruction** | Yugoslav-era reconstruction code |
+| **Post-2008** | Modern EC8 |
+| **Post-2010 luxury developments** | Premium standards |
+
+### Mandatory at sale
+
+| Document | Required because |
+|---|---|
+| **Energetski pasoš** | Mandatory for sale/lease |
+| **Notarska isprava** (notarial deed) | Mandatory; transaction void without |
+| **List nepokretnosti** | Cadastre extract (NOT "Izvod iz katastra" colloquially) |
+
+---
+
+## Section: `--mains`
+
+### Sources
+
+- **ViK (Vodovod i kanalizacija)** per municipality:
+  - Tivat ViK, Kotor ViK, Herceg Novi ViK, Podgorica ViK
+- **Coastal**: aging Soviet-era infrastructure
+- **Inland Lim valley + mountain**: limited mains coverage; **septic + cisterne** dominant
+
+### Costs
+
+| Scenario | Cost (EUR) |
+|---|---:|
+| ViK connection (coastal) | 1,500–4,500 |
+| Septic + cisterna (mountain) | 2,500–8,000 |
+| Bored well (interior) | 3,500–10,000 |
+
+---
+
+## Cost benchmarks (ME 2026)
+
+| Work | Cost (EUR) |
+|---|---:|
+| Energetski pasoš | 100–300 |
+| Notar fees | 0.5–1.5% |
+| RETT (progressive 3/5/6%) | varies |
+| **Total transaction cost (≤€150k)** | **~4–5%** of price |
+| **Total transaction cost (€150-500k)** | **~6–7%** |
+| **Total transaction cost (>€500k)** | **~7–8%** |
+| Roof renovation | 4,000–12,000 |
+| Earthquake retrofit | 15,000–60,000 |
+| Energy retrofit | 8,000–25,000 |
+| Solar PV (5kW) | 4,500–8,000 |
+
+## Active fiscal incentives + visa programs (2025-2026)
+
+### Investor residency (NEW Jan 2026)
+
+- **Replaces abolished CBI Programme** (CBI ended **31 Dec 2022** — historical only)
+- **€150k minimum property purchase**
+- Path: 1-year temp permit (annually renewable) → permanent after 5 years → citizenship after 10 years
+
+### Other
+
+- **EU accession funds** for energy retrofit
+- **Bay of Kotor restoration** programs (UNESCO)
+- **Tourism Master Plan** + coastal restrictions
+
+## Common listing platforms
+
+- **Realitica** — biggest English-language
+- **Property Finder Montenegro**, **MontenegroProspects**, **Realting.com/montenegro**
+
+## Caveats unique to ME
+
+- **EUR informally adopted 2002** — no central-bank issues currency; UNIQUE in Europe; **no FX risk** for EUR holders
+- **CBI Programme ABOLISHED 31 Dec 2022** (was EUR 250k+ minimum) — major historical reference
+- **NEW Jan 2026 investor residency** (€150k property → 5 years to permanent → 10 to citizenship)
+- **Progressive RETT since 1 Jan 2024**: 3% / 5% / 6% (not flat 3% as previously)
+- **VAT 21% on first-sale residential** (in lieu of RETT, NOT reduced)
+- **Foreign-buyer freedom**: relatively open (no reciprocity rules like HR/RS)
+- **Russian buyer concentration post-2022** + EU buyer surge
+- **Coastal vs mountain divergence**: Adriatic 5-10× inland prices
+- **UNESCO Old Towns** (Kotor, Cetinje) — strict construction, premium scarcity
+- **1979 Adriatic earthquake** as historical reference
+- **Bay of Kotor restoration** (UNESCO) constraints
+- **Tivat Porto Montenegro / Lustica Bay** = ultra-luxury markets €5-12k/m²+
+- **Coastal wildfires** Jul-Aug
+- **Karst hazards** (Durmitor, Lovćen, Orjen)
+- **15-day payment deadline** post-contract for RETT (0.03%/day late interest)
+
+## Reddit / forum sources
+
+- **r/montenegro**, **r/balkans**
+- **Total Montenegro News** (English)
+- **CdM (Crnogorski monitor)**, **Vijesti**
+
+## Verification authorities
+
+| Authority | When to call |
+|---|---|
+| **UzN (Uprava za nekretnine)** | Title verification |
+| **Notar** | Mandatory closing |
+| **Opština** | Property tax + permits |
+| **Poreska uprava** | Tax compliance |
+| **Ministarstvo turizma** | If short-let |
+| **Ministarstvo unutrašnjih poslova** | Investor residency |
+
+## Source URL templates
+
+| Source | URL pattern |
+|---|---|
+| UzN (cadastre) | `https://www.gov.me/en/uzn` |
+| eKatastar | `https://ekatastar.me/` |
+| Geoportal CG | `https://geoportal.co.me/` |
+| MONSTAT | `https://www.monstat.org/` |
+| CBCG | `https://www.cbcg.me/` |
+| Realitica | `https://www.realitica.com/` |
+| Property Finder ME | `https://www.propertyfindermontenegro.com/` |
+| Putevi Crne Gore | `https://www.putevi.me/` |
+| ZZZCG | `https://www.zzzcg.me/` |
+| Poreska uprava CG | `https://www.poreskauprava.gov.me/` |
+
+## Status
+
+✅ **Fully populated** as of 2026-04-26.
+**Coverage check**: pricing (MONSTAT Q3 2025 + CBCG + Realitica), traffic (Putevi PGDS), tax (porez na nepokretnost 0.25-1.0% + progressive RETT 3/5/6% since Jan 2024 + 21% VAT first-sale + 15% CGT), rental (Opština license + tourist tax + 15% PIT), work (ZZZCG), risks (1979 Adriatic M6.9 + Mediterranean wildfire + karst), mains (ViK per municipality).
+**Confidence**: HIGH for EUR informal adoption 2002 (no central-bank issuance UNIQUE); HIGH for progressive RETT 3/5/6% effective 1 Jan 2024; HIGH for CBI abolition 31 Dec 2022 + NEW Jan 2026 investor residency €150k; HIGH for cadastre URLs (gov.me/uzn + ekatastar.me); MEDIUM for MerkaturNekretnine listing platform (could not independently verify); MEDIUM for 21% VAT first-sale framing (in lieu of RETT, not reduced rate).
+
+## Extension TODOs
+
+- [ ] Per-opština property tax rates (25 municipalities)
+- [ ] Progressive RETT scenarios (€150k threshold + €500k threshold)
+- [ ] CBI abolition transition + NEW Jan 2026 investor residency
+- [ ] Bay of Kotor UNESCO construction limits
+- [ ] Porto Montenegro / Lustica Bay HOA rules
+- [ ] Coastal wildfire vulnerability per opština
+- [ ] Karst hazard zoning (Durmitor, Lovćen, Orjen)
+- [ ] Russian buyer concentration tracking
+- [ ] EU accession reforms 2026-2027
+- [ ] 1979 quake-affected coastal zone overlay

@@ -1,0 +1,133 @@
+name: Health report (decay matrix)
+
+on:
+  schedule:
+    # First day of every month at 09:00 UTC
+    - cron: '0 9 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  decay-matrix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Compute decay matrix
+        id: matrix
+        run: |
+          set -euo pipefail
+          today_epoch=$(date +%s)
+          out=_ci/decay-matrix.md
+          mkdir -p _ci
+          {
+            echo "# Decay Health Report — $(date -u +%Y-%m-%d)"
+            echo
+            echo "Auto-downgrade ladder: HIGH → MEDIUM at 6mo, → LOW at 12mo, → STALE at 18mo."
+            echo
+            echo "| Country | Stamped (\`as of\`) | Days old | Effective tier |"
+            echo "|---|---|---:|---|"
+          } > "$out"
+
+          stale_count=0
+          low_count=0
+          medium_count=0
+          high_count=0
+
+          for playbook in countries/*/playbook.md; do
+            iso2=$(basename "$(dirname "$playbook")")
+            # Extract first "as of YYYY-MM-DD" line in the file
+            stamped=$(grep -oE 'as of [0-9]{4}-[0-9]{2}-[0-9]{2}' "$playbook" | head -1 | awk '{print $3}')
+            if [ -z "$stamped" ]; then
+              stamped="(none)"
+              days="?"
+              tier="UNKNOWN"
+            else
+              stamped_epoch=$(date -d "$stamped" +%s 2>/dev/null || gdate -d "$stamped" +%s 2>/dev/null || echo 0)
+              days=$(( (today_epoch - stamped_epoch) / 86400 ))
+              if   [ "$days" -lt 180 ]; then tier="HIGH"; high_count=$((high_count+1))
+              elif [ "$days" -lt 360 ]; then tier="MEDIUM"; medium_count=$((medium_count+1))
+              elif [ "$days" -lt 540 ]; then tier="LOW"; low_count=$((low_count+1))
+              else tier="STALE"; stale_count=$((stale_count+1))
+              fi
+            fi
+            printf '| %s | %s | %s | %s |\n' "$iso2" "$stamped" "$days" "$tier" >> "$out"
+          done
+
+          {
+            echo
+            echo "## Summary"
+            echo
+            echo "- 🟢 HIGH: $high_count"
+            echo "- 🟡 MEDIUM: $medium_count"
+            echo "- 🟠 LOW: $low_count"
+            echo "- 🔴 STALE: $stale_count"
+            echo
+            echo "## Action queue"
+            echo
+            echo "Run \`/property-deep-dive --update --refresh-only --country=<iso2>\` for any STALE or LOW country."
+            echo
+            echo "Cross-reference \`shared/regulatory-watch.md\` — Tier 1/2 entries since the last \`as of\` date force STALE regardless of calendar age."
+          } >> "$out"
+
+          {
+            echo "stale_count=$stale_count"
+            echo "low_count=$low_count"
+            echo "medium_count=$medium_count"
+            echo "high_count=$high_count"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Upload decay matrix
+        uses: actions/upload-artifact@v4
+        with:
+          name: decay-matrix-${{ github.run_id }}
+          path: _ci/decay-matrix.md
+          retention-days: 365
+
+      - name: Find or create pinned health-report issue
+        uses: actions/github-script@v7
+        env:
+          STALE: ${{ steps.matrix.outputs.stale_count }}
+          LOW: ${{ steps.matrix.outputs.low_count }}
+          MEDIUM: ${{ steps.matrix.outputs.medium_count }}
+          HIGH: ${{ steps.matrix.outputs.high_count }}
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('_ci/decay-matrix.md', 'utf-8');
+            const title = '📊 Health Report — Country Decay Matrix';
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'health-report',
+              per_page: 10,
+            });
+            const pinned = issues.data.find(i => i.title === title);
+
+            const date = new Date().toISOString().slice(0, 10);
+            const summary = `**${date}** — HIGH: ${process.env.HIGH} · MEDIUM: ${process.env.MEDIUM} · LOW: ${process.env.LOW} · STALE: ${process.env.STALE}`;
+
+            if (pinned) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pinned.number,
+                body: `${summary}\n\n<details><summary>Full matrix</summary>\n\n${body}\n\n</details>`,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body: `${summary}\n\n${body}`,
+                labels: ['maintenance', 'health-report'],
+              });
+            }

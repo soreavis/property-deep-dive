@@ -1,0 +1,119 @@
+name: URL liveness
+
+on:
+  schedule:
+    # Every Monday at 09:00 UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-urls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extract URLs from all markdown files
+        run: |
+          mkdir -p _ci
+          # Pull every http(s) URL out of every .md, dedupe, drop trailing punctuation/parens
+          grep -rhoE 'https?://[^[:space:]<>")`]+' --include='*.md' . \
+            | sed 's/[.,;:)]*$//' \
+            | sort -u \
+            > _ci/urls.txt
+          echo "Found $(wc -l < _ci/urls.txt) unique URLs"
+
+      - name: Check URL liveness
+        run: |
+          set +e
+          : > _ci/results.tsv
+          ok=0; redirect=0; bot=0; auth=0; dead=0; timeout=0; total=0
+          while IFS= read -r url; do
+            total=$((total+1))
+            # HEAD first, fall back to GET for servers that reject HEAD
+            code=$(curl -s -o /dev/null -w '%{http_code}' \
+              --max-time 10 --head -L \
+              -H "User-Agent: property-deep-dive-ci/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
+              "$url" 2>/dev/null)
+            if [ -z "$code" ] || [ "$code" -ge 400 ] 2>/dev/null; then
+              code=$(curl -s -o /dev/null -w '%{http_code}' \
+                --max-time 15 -L \
+                -H "User-Agent: property-deep-dive-ci/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
+                "$url" 2>/dev/null)
+            fi
+            case "$code" in
+              2*) class=LIVE; ok=$((ok+1)) ;;
+              30[1278]) class=REDIRECT_LIVE; redirect=$((redirect+1)); ok=$((ok+1)) ;;
+              401) class=AUTH_REQUIRED; auth=$((auth+1)) ;;
+              403) class=BOT_BLOCKED; bot=$((bot+1)); ok=$((ok+1)) ;;
+              404|410) class=DEAD; dead=$((dead+1)) ;;
+              000|"") class=TIMEOUT; timeout=$((timeout+1)) ;;
+              *) class="OTHER_$code"; dead=$((dead+1)) ;;
+            esac
+            printf '%s\t%s\t%s\n' "$code" "$class" "$url" >> _ci/results.tsv
+            sleep 0.2
+          done < _ci/urls.txt
+          score=$(( ok * 100 / total ))
+          echo "TOTAL=$total OK=$ok REDIRECT=$redirect BOT=$bot AUTH=$auth DEAD=$dead TIMEOUT=$timeout SCORE=$score"
+          {
+            echo "total=$total"
+            echo "ok=$ok"
+            echo "redirect=$redirect"
+            echo "bot=$bot"
+            echo "auth=$auth"
+            echo "dead=$dead"
+            echo "timeout=$timeout"
+            echo "score=$score"
+          } >> "$GITHUB_OUTPUT"
+        id: check
+
+      - name: Upload results artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: url-liveness-${{ github.run_id }}
+          path: _ci/
+          retention-days: 90
+
+      - name: Open issue if score below threshold
+        if: ${{ steps.check.outputs.score != '' && steps.check.outputs.score < 85 }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const score = '${{ steps.check.outputs.score }}';
+            const total = '${{ steps.check.outputs.total }}';
+            const dead = '${{ steps.check.outputs.dead }}';
+            const timeout = '${{ steps.check.outputs.timeout }}';
+            const tsv = fs.readFileSync('_ci/results.tsv', 'utf-8');
+            const failures = tsv.split('\n')
+              .filter(l => /\t(DEAD|TIMEOUT|OTHER_)/.test(l))
+              .slice(0, 50)
+              .join('\n') || '(none captured)';
+            const body = [
+              `URL liveness check on \`${context.sha.slice(0,7)}\` returned a score of **${score}%**`,
+              `(threshold: 85%).`,
+              ``,
+              `**Counts**: total=${total}, dead=${dead}, timeout=${timeout}`,
+              ``,
+              `Top failing URLs (max 50):`,
+              '```',
+              failures,
+              '```',
+              ``,
+              `Full results: see workflow artifact \`url-liveness-${{ github.run_id }}\`.`,
+              ``,
+              `Action: run \`/property-deep-dive --update --validate-only\` locally to confirm and replace.`,
+            ].join('\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `URL liveness degraded — score ${score}%`,
+              body,
+              labels: ['maintenance', 'url-liveness'],
+            });

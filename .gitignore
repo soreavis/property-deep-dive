@@ -1,0 +1,78 @@
+# ── Secrets ─────────────────────────────────────────────────────────────
+.env
+.env*.local
+.envrc
+*.pem
+*.key
+
+# ── OS: macOS ───────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── OS: Windows ─────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── OS: Linux ───────────────────────────────────────────────────────────
+.directory
+.Trash-*
+
+# ── Editors: VSCode ─────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Editors: JetBrains ──────────────────────────────────────────────────
+.idea/
+*.iml
+
+# ── Editors: Sublime ────────────────────────────────────────────────────
+*.sublime-workspace
+*.sublime-project
+
+# ── Editors: vim / emacs ────────────────────────────────────────────────
+*.swp
+*.swo
+*.swn
+.*.sw[a-z]
+*~
+\#*\#
+.\#*
+
+# ── Logs ────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Python (in case maintenance scripts grow) ───────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Node (in case maintenance scripts grow) ─────────────────────────────
+node_modules/
+.npm/
+.pnp/
+.pnp.*
+
+# ── Coverage / build ────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+dist/
+build/

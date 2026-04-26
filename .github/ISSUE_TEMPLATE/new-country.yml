@@ -1,0 +1,93 @@
+name: New country playbook proposal
+description: Propose a country to add to the skill. The bar is FR/IT/CZ/SK density (~400-500 lines, all 22 sections, primary government sources).
+title: "[country] <iso2> <country name>"
+labels: ["new-country", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read [`CONTRIBUTING.md`](../blob/main/CONTRIBUTING.md) for the full bar. Country playbooks are large (~400-500 lines) and need primary government sources, not aggregator data.
+
+  - type: input
+    id: iso2
+    attributes:
+      label: ISO 3166-1 alpha-2 code
+      description: Two-letter country code, lowercase. e.g. `tr`, `jp`, `us`.
+      placeholder: tr
+    validations:
+      required: true
+
+  - type: input
+    id: country_name
+    attributes:
+      label: Country name (English)
+      placeholder: Türkiye
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this country
+      description: Foreign-buyer volume? Visa/residency programme? Market gap? Specific user demand?
+      placeholder: |
+        - Significant foreign-buyer market (Antalya / Bodrum / Istanbul)
+        - Citizenship-by-investment scheme ($400k threshold, active)
+        - Currently no English-language consolidated property due-diligence resource
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary government sources you'd cite
+      description: List the cadastre, tax authority, listing aggregators, risk registries, statistics office. Confirm each URL is live.
+      placeholder: |
+        - Cadastre: https://parselsorgu.tkgm.gov.tr (Tapu ve Kadastro Genel Müdürlüğü)
+        - Tax: https://www.gib.gov.tr (Gelir İdaresi Başkanlığı)
+        - Stats: https://data.tuik.gov.tr (TÜİK)
+        - Listings: hepsiemlak.com, sahibinden.com
+        - Risk: https://www.afad.gov.tr (earthquake)
+    validations:
+      required: true
+
+  - type: textarea
+    id: known_quirks
+    attributes:
+      label: Country-specific quirks the playbook must surface
+      description: e.g. ownership restrictions for foreigners, build-era hazards, dual-jurisdiction issues, recent reforms.
+      placeholder: |
+        - Foreigners cannot buy in 81 designated security zones (military)
+        - Reciprocity rule applies (some nationalities excluded)
+        - 1999 İzmit earthquake → all pre-2000 builds need engineering report
+        - 2024 CBI threshold raised from $250k to $400k
+    validations:
+      required: true
+
+  - type: dropdown
+    id: drafting
+    attributes:
+      label: Are you offering to draft this?
+      options:
+        - "Yes — I will open a PR with the full playbook"
+        - "Partial — I can contribute specific sections (specify in notes)"
+        - "No — I'm only proposing it; someone else would need to draft"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes (optional)
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: bar
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I've read CONTRIBUTING.md and understand the FR/IT/CZ/SK density bar (~400-500 lines, 22 sections, primary sources)
+          required: true
+        - label: I've checked the country isn't already in the matrix (44 countries currently)
+          required: true

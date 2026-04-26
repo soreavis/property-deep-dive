@@ -1,0 +1,128 @@
+name: Factual correction
+description: Report a wrong tax rate, fee, threshold, ENDED-program listed as active, or any factual error in a country playbook or shared section
+title: "[fact] <iso2>: <topic> — <one-line summary>"
+labels: ["factual-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Factual corrections are the highest-value contribution. The skill drives six- to seven-figure decisions, so a wrong number is a real-world risk.
+
+        **Before submitting**: confirm the correct value against a **primary government source** (cadastre, tax authority, central bank, statistics office). Aggregator sites are not sufficient evidence.
+
+  - type: input
+    id: country
+    attributes:
+      label: Country (ISO2)
+      description: Two-letter code, lowercase. e.g. `fr`, `it`, `pt`. Use `shared` if the error is in a shared/<file>.md (cross-country).
+      placeholder: fr
+    validations:
+      required: true
+
+  - type: input
+    id: file
+    attributes:
+      label: File + line (if known)
+      description: e.g. `countries/fr/playbook.md:147` or `shared/visa-programs.md:88`
+      placeholder: countries/fr/playbook.md:147
+    validations:
+      required: false
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Affected section
+      description: Which `--<flag>` section is affected? Choose the closest match.
+      options:
+        - price
+        - traffic
+        - tax
+        - rental
+        - work
+        - risks
+        - mains
+        - crime
+        - amenities
+        - climate
+        - finance
+        - currency
+        - visa
+        - insurance
+        - notary
+        - compare
+        - retirement
+        - digital-nomad
+        - macro
+        - demographics
+        - esg
+        - exit
+        - integrity
+        - journey
+        - property-types
+        - regulatory-watch
+        - other
+    validations:
+      required: true
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: What the playbook currently claims
+      description: Quote the exact text or paste the relevant table row. If a number is wrong, include both the number and the surrounding sentence.
+      placeholder: |
+        > Annual property tax: ~0.6% of cadastral value (2024 data)
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correct value + reasoning
+      description: What should it say? If the rate changed, include the effective date.
+      placeholder: |
+        Annual property tax was raised to 0.85% of cadastral value, effective 2025-01-01 (Finance Act 2025, Art. 42).
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Primary government source URL
+      description: Direct link to the authoritative source — cadastre, tax authority, central bank, statistics office, official journal. NOT an aggregator or news site.
+      placeholder: https://www.impots.gouv.fr/...
+    validations:
+      required: true
+
+  - type: input
+    id: verified_date
+    attributes:
+      label: Date you verified the source (YYYY-MM-DD)
+      description: When you last checked the source URL is live and the value is current.
+      placeholder: 2026-04-26
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: anti_hallucination
+    attributes:
+      label: Anti-hallucination checklist
+      options:
+        - label: The source is a primary government / regulated entity (not an aggregator, news site, forum, or blog)
+          required: true
+        - label: I verified the URL returns 2xx / is live as of today
+          required: true
+        - label: I am NOT relying on a model-generated answer for this correction
+          required: true
+
+  - type: textarea
+    id: regulatory_watch
+    attributes:
+      label: Should this trigger a regulatory-watch entry? (optional)
+      description: |
+        If this correction reflects a recent reform (last 24 months, or pending), it should also land in `shared/regulatory-watch.md`. Suggest the entry here:
+
+        `<effective_date> | <topic> | <one-line summary> | <source name> | <verified_date> | <revisit_by> | <tier 1-4> | <sections>`
+      placeholder: |
+        2025-01-01 | tax | FR cadastral rate raised to 0.85% | impots.gouv.fr Finance Act 2025 | 2026-04-26 | 2027-01-01 | T2 | tax
+    validations:
+      required: false

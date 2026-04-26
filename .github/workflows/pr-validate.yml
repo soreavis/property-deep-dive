@@ -1,0 +1,252 @@
+name: PR validate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  markdownlint:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run markdownlint-cli2
+        uses: DavidAnson/markdownlint-cli2-action@db43aef879112c3119a410d69f66701e0d530809  # v17
+        with:
+          globs: |
+            **/*.md
+            !_local/**
+            !node_modules/**
+
+  forbidden-phrasings:
+    name: Anti-hallucination — forbidden phrasings
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine changed files
+        id: changed
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            base="origin/${{ github.base_ref }}"
+            git fetch --depth=1 origin "${{ github.base_ref }}" || true
+            git diff --name-only --diff-filter=ACMR "$base...HEAD" -- '*.md' > _ci_changed.txt
+          else
+            # push to main — scan everything
+            find . -name '*.md' \
+              ! -path './_local/*' \
+              ! -path './node_modules/*' \
+              ! -path './.git/*' \
+              > _ci_changed.txt
+          fi
+          # Allowlist files where forbidden phrasings ARE expected (the rules + their documentation)
+          grep -vE '(anti-hallucination\.md|README\.md|CONTRIBUTING\.md|CLAUDE\.md|SECURITY\.md|CODE_OF_CONDUCT\.md|CHANGELOG\.md|SKILL\.md|pull_request_template\.md)$' _ci_changed.txt > _ci_scan.txt || true
+          echo "Files to scan: $(wc -l < _ci_scan.txt)"
+
+      - name: Scan for forbidden phrasings
+        run: |
+          set -euo pipefail
+          if [ ! -s _ci_scan.txt ]; then
+            echo "No relevant changed files — skipping."
+            exit 0
+          fi
+
+          # Patterns that always fail (no number context needed)
+          ALWAYS_FAIL='industry average|experts say|studies show|typical for the region|as of recent data|in the area of|is likely connected to'
+
+          # Patterns that fail only when followed by a numeric context (digit, currency, %)
+          NEAR_NUMBER='approximately +[0-9€$£¥]|should be around +[0-9€$£¥]|in the range of +[0-9€$£¥]|circa +[0-9€$£¥]'
+
+          fail=0
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            [ ! -f "$f" ] && continue
+            if grep -inE "$ALWAYS_FAIL" "$f"; then
+              echo "::error file=$f::Forbidden phrasing (always-fail) — see shared/anti-hallucination.md § Forbidden phrasings"
+              fail=1
+            fi
+            if grep -inE "$NEAR_NUMBER" "$f"; then
+              echo "::error file=$f::Forbidden phrasing near a number — replace with sourced/computed/hedged value"
+              fail=1
+            fi
+          done < _ci_scan.txt
+
+          if [ "$fail" -eq 1 ]; then
+            echo
+            echo "Replacement table: shared/anti-hallucination.md § Forbidden phrasings"
+            exit 1
+          fi
+          echo "✅ No forbidden phrasings found."
+
+  last-verified-stamp:
+    name: Country playbook — Last verified stamp present
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check changed playbooks have Status footer stamps
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            base="origin/${{ github.base_ref }}"
+            git fetch --depth=1 origin "${{ github.base_ref }}" || true
+            changed=$(git diff --name-only --diff-filter=ACMR "$base...HEAD" -- 'countries/*/playbook.md' || true)
+          else
+            changed=$(find countries -name 'playbook.md' 2>/dev/null || true)
+          fi
+          [ -z "$changed" ] && { echo "No playbook changes — skipping."; exit 0; }
+
+          fail=0
+          for f in $changed; do
+            [ ! -f "$f" ] && continue
+            # Accept either format: 'as of YYYY-MM-DD' (canonical, used by health-report decay rule)
+            # or '**Last verified**: YYYY-MM-DD' (alternate form documented in CONTRIBUTING).
+            if ! grep -qE '(as of +|\*\*Last verified\*\*: *)[0-9]{4}-[0-9]{2}-[0-9]{2}' "$f"; then
+              echo "::error file=$f::Missing date stamp — playbook must contain 'as of YYYY-MM-DD' or '**Last verified**: YYYY-MM-DD'"
+              fail=1
+            fi
+            if ! grep -qE '\*\*Confidence\*\*' "$f"; then
+              echo "::error file=$f::Missing **Confidence** stamp in Status footer"
+              fail=1
+            fi
+          done
+          [ "$fail" -eq 1 ] && exit 1
+          echo "✅ All changed playbooks have Status footer stamps."
+
+  personal-data:
+    name: Personal-data leak guard
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Scan for the canonical worked-example personal address
+        run: |
+          set -euo pipefail
+          # The skill's worked example uses placeholder addresses — this guard
+          # catches accidental commits of the maintainer's real test address.
+          if grep -rniE 'REDACTED-ADDRESS' --include='*.md' . | grep -v 'placeholder\|example\|generic'; then
+            echo "::error::Found a private worked-example address. Use placeholder addresses (CONTRIBUTING.md § Privacy + repo hygiene)."
+            exit 1
+          fi
+          echo "✅ No personal-data leak detected."
+
+  section-completeness:
+    name: Country playbook — minimum density + key sections
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine changed playbooks
+        id: changed
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            base="origin/${{ github.base_ref }}"
+            git fetch --depth=1 origin "${{ github.base_ref }}" || true
+            git diff --name-only --diff-filter=ACMR "$base...HEAD" -- 'countries/*/playbook.md' > _changed.txt
+          else
+            find countries -name 'playbook.md' > _changed.txt 2>/dev/null || true
+          fi
+          echo "playbooks=$(wc -l < _changed.txt)"
+
+      - name: Check minimum density + key sections
+        run: |
+          set -euo pipefail
+          [ ! -s _changed.txt ] && { echo "No playbook changes — skipping."; exit 0; }
+          fail=0
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            [ ! -f "$f" ] && continue
+            iso2=$(basename "$(dirname "$f")")
+            lines=$(wc -l < "$f")
+            # Hard floor: 250 lines (well below FR/IT/CZ/SK ~400-500 bar; flags grossly truncated playbooks)
+            if [ "$lines" -lt 250 ]; then
+              echo "::error file=$f::Playbook ${iso2^^} is only $lines lines — below the 250-line floor. FR/IT/CZ/SK density is ~400-500 lines."
+              fail=1
+            fi
+            # Key markers — every country playbook should mention these
+            for marker in 'cadastr|land registry' 'tax|stamp duty|transfer' 'risk|flood|earthquake|seismic'; do
+              if ! grep -qiE "$marker" "$f"; then
+                echo "::warning file=$f::Playbook ${iso2^^} missing expected marker: $marker"
+              fi
+            done
+          done < _changed.txt
+          [ "$fail" -eq 1 ] && exit 1
+          echo "✅ All changed playbooks meet the minimum-density bar."
+
+  argument-hint-drift:
+    name: SKILL.md argument-hint ↔ README sync
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Compare argument-hint flags vs README mentions
+        run: |
+          python3 - <<'PY'
+          import re, sys
+
+          with open('SKILL.md', encoding='utf-8') as f:
+              content = f.read()
+          m = re.search(r'argument-hint:\s*"([^"]+)"', content)
+          if not m:
+              print("::warning::Could not parse SKILL.md argument-hint")
+              sys.exit(0)
+          hint = m.group(1)
+          flags = set(re.findall(r'--([a-z][a-z0-9-]*)', hint))
+
+          # Output / control flags that don't need README user-facing entries.
+          # Keep this list explicit so adding a new section flag stays caught.
+          output_only = {
+              'save', 'quick', 'deep', 'override-confidence', 'listing', 'add',
+              'diff', 'interactive', 'test', 'all', 'country', 'update',
+              'tco', 'mortgage', 'watch', 'health-report',
+              'validate-only', 'refresh-only',
+          }
+          section_flags = sorted(flags - output_only)
+
+          with open('README.md', encoding='utf-8') as f:
+              readme = f.read()
+          missing = [fl for fl in section_flags if f'--{fl}' not in readme]
+
+          print(f"Section flags in SKILL.md argument-hint: {len(section_flags)}")
+          for fl in section_flags:
+              status = "✗" if fl in missing else "✓"
+              print(f"  {status} --{fl}")
+
+          if missing:
+              print(f"\n::error file=SKILL.md::Argument-hint drift: {missing} appear in SKILL.md but not in README.md. Update README §Sections.")
+              sys.exit(1)
+          print("\n✅ All section flags in SKILL.md argument-hint are mentioned in README.md.")
+          PY

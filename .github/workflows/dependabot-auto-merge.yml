@@ -1,0 +1,38 @@
+name: Dependabot auto-merge
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    name: Auto-merge Dependabot patch + minor PRs once CI green
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+    timeout-minutes: 3
+    steps:
+      - name: Fetch Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@21025c705c08248db411dc16f3619e6b5f9ea21a  # v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Approve patch / minor updates
+        if: steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr review "$PR_URL" --approve -b "Auto-approved patch/minor dependency update."
+        continue-on-error: true
+        # Note: github-actions ecosystem update-types map as semver patch/minor for action-version bumps.
+        # Major action version bumps (e.g. v4→v5) still require human review.
+
+      - name: Enable auto-merge (squash)
+        if: steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: gh pr merge --auto --squash "$PR_URL"

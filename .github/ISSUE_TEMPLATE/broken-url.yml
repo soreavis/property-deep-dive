@@ -1,0 +1,77 @@
+name: Broken / dead URL
+description: A URL in a country playbook or shared file returns 404, has been redirected away from the canonical source, or is permanently unreachable
+title: "[url] <iso2>: <one-line summary>"
+labels: ["broken-url", "maintenance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        URL hygiene matters because government portals reorganise and old links 404. **Before submitting**: re-check the URL with `curl -sIL <url>` to confirm it's actually dead (sometimes it's just a transient 5xx or a bot challenge).
+
+  - type: input
+    id: country
+    attributes:
+      label: Country (ISO2)
+      description: Two-letter code, lowercase. Use `shared` if the URL is in a shared/<file>.md.
+      placeholder: fr
+    validations:
+      required: true
+
+  - type: input
+    id: file
+    attributes:
+      label: File + line
+      description: e.g. `countries/fr/playbook.md:147` or `shared/visa-programs.md:88`
+      placeholder: countries/fr/playbook.md:147
+    validations:
+      required: true
+
+  - type: input
+    id: dead_url
+    attributes:
+      label: The dead URL
+      placeholder: https://www.impots.gouv.fr/old-page
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: HTTP status returned
+      options:
+        - "404 Not Found"
+        - "410 Gone"
+        - "301/302 redirects to unrelated content"
+        - "DNS failure (host gone)"
+        - "TLS error / certificate expired"
+        - "Persistent 5xx (>24h)"
+        - "Other (describe in notes)"
+    validations:
+      required: true
+
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested replacement URL (if known)
+      description: Prefer the canonical equivalent on the SAME primary domain. Verify it returns 2xx before suggesting.
+      placeholder: https://www.impots.gouv.fr/new-page
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      description: Anything else relevant — e.g. is the source domain still active? Has the institution been merged/renamed?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      options:
+        - label: I confirmed the URL is dead with `curl -sIL <url>` (not just a one-off browser issue)
+          required: true
+        - label: If I suggested a replacement, I confirmed it returns 2xx
+          required: false

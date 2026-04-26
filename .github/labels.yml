@@ -1,0 +1,168 @@
+# Repository label scheme. Synced by .github/workflows/labels-sync.yml.
+# Issue templates reference these labels by name — keep them in sync.
+
+# ── Contribution types ─────────────────────────────────────────────────
+- name: factual-correction
+  color: d93f0b
+  description: Wrong tax rate, fee, threshold, or ENDED programme listed as active
+
+- name: broken-url
+  color: e99695
+  description: A URL in a playbook or shared file is dead, redirected, or unreachable
+
+- name: new-country
+  color: 0e8a16
+  description: Proposal for a new country playbook (~400-500 lines, 22 sections)
+
+- name: regulatory-watch
+  color: 5319e7
+  description: A tax / rental / visa / finance reform that should be tracked
+
+- name: enhancement
+  color: a2eeef
+  description: New feature or improvement (universal section, tooling doc, output mode)
+
+- name: bug
+  color: d73a4a
+  description: Skill produces wrong / unexpected output that is not a factual-correction
+
+- name: documentation
+  color: 0075ca
+  description: README / CONTRIBUTING / DISCLAIMER / SECURITY / CHANGELOG changes
+
+- name: question
+  color: cc317c
+  description: Further information requested before action
+
+# ── Triage / lifecycle ─────────────────────────────────────────────────
+- name: good-first-issue
+  color: 7057ff
+  description: A focused, well-scoped issue suitable for first-time contributors
+
+- name: help-wanted
+  color: 008672
+  description: Maintainer would welcome a community PR for this
+
+- name: needs-research
+  color: fbca04
+  description: Requires primary-source verification before fixing
+
+- name: needs-reproduction
+  color: f9d0c4
+  description: Issue lacks enough info to reproduce or verify
+
+- name: blocked
+  color: c5def5
+  description: Cannot proceed until an external dependency / decision lands
+
+- name: wontfix
+  color: ffffff
+  description: Out of scope or by design
+
+- name: duplicate
+  color: cfd3d7
+  description: This issue or PR already exists
+
+# ── CI / maintenance ───────────────────────────────────────────────────
+- name: maintenance
+  color: 5d76cb
+  description: URL fixes, decay-matrix entries, action-version updates
+
+- name: dependencies
+  color: 0366d6
+  description: Pull requests that update a dependency (Dependabot)
+
+- name: github-actions
+  color: 000000
+  description: Changes to workflows or actions
+
+- name: url-liveness
+  color: e99695
+  description: Auto-opened by url-liveness.yml workflow
+
+- name: health-report
+  color: bfdadc
+  description: Pinned issue maintained by health-report.yml workflow
+
+- name: security
+  color: ee0701
+  description: Reported via Security Advisory or security-relevant maintenance
+
+- name: anti-hallucination
+  color: b60205
+  description: Touches anti-hallucination contract / verdict bands / integrity checks
+
+- name: stale
+  color: dddddd
+  description: Auto-applied when an issue or PR has been inactive 60+ days
+
+# ── Path-based labels (applied by .github/workflows/labeler.yml) ───────
+- name: country
+  color: 0e8a16
+  description: Touches one or more country playbooks
+
+- name: region-europe-core
+  color: c2e0c6
+  description: Touches a Europe-core country playbook (24 countries)
+
+- name: region-anglo
+  color: c2e0c6
+  description: Touches an Anglo non-EU country playbook (CA, AU, NZ)
+
+- name: region-latam
+  color: c2e0c6
+  description: Touches a Latin American country playbook (5)
+
+- name: region-balkans
+  color: c2e0c6
+  description: Touches a Western Balkans country playbook (5)
+
+- name: region-eu-completion
+  color: c2e0c6
+  description: Touches an EU completion country playbook (7)
+
+- name: shared
+  color: bfd4f2
+  description: Touches shared/ universal sections or tooling
+
+- name: router
+  color: f9d0c4
+  description: Touches SKILL.md master router
+
+- name: governance
+  color: 5319e7
+  description: Touches CONTRIBUTING / CoC / SECURITY / CHANGELOG / DISCLAIMER / LICENSE / CLAUDE
+
+- name: ci
+  color: 000000
+  description: Touches .github/ workflows or templates
+
+- name: config
+  color: cfd3d7
+  description: Touches .editorconfig / .markdownlint.json / .gitignore
+
+# ── PR size (applied by .github/workflows/pr-size.yml) ─────────────────
+- name: size/xs
+  color: 009900
+  description: Tiny PR — 0-9 changed lines
+
+- name: size/s
+  color: 77bb00
+  description: Small PR — 10-49 changed lines
+
+- name: size/m
+  color: eebb00
+  description: Medium PR — 50-199 changed lines
+
+- name: size/l
+  color: ee9900
+  description: Large PR — 200-599 changed lines
+
+- name: size/xl
+  color: ee0000
+  description: Extra-large PR — 600+ changed lines (typically a new country playbook)
+
+# ── Workflow / lifecycle ───────────────────────────────────────────────
+- name: skip changelog
+  color: ededed
+  description: Apply to PRs that don't need a CHANGELOG entry (typo fixes, CI tweaks, dep bumps)

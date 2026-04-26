@@ -1,0 +1,436 @@
+# Italy 🇮🇹 — Property Due-Diligence Playbook
+
+ISO2: `it`. Status: ✅ Fully populated (researched 2026-04).
+
+## Country profile
+
+- **Postcode (CAP)**: 5 digits
+- **Admin levels**: 20 regioni → 100+ province → 7,900+ comuni → frazioni
+- **Currency**: EUR (€)
+- **Languages**: Italian + DE (Bolzano), FR (Aosta), SL (FVG), AL (Calabria/Sicilia)
+- **Cadastre**: Catasto Nazionale (Agenzia delle Entrate) — visura catastale **FREE since 1 Jan 2025** via SPID/CIE
+- **Identifier**: codice catastale comune (4-char alphanumeric, e.g., `H501` for Roma) — different from CAP
+- **Massive North/South divide**: prices, services, risks, build quality vary enormously
+
+## Section: `--price`
+
+### Primary sources
+
+- **OMI (Osservatorio del Mercato Immobiliare)** — Agenzia delle Entrate official quotations:
+  - Search portal: `https://www1.agenziaentrate.gov.it/servizi/Consultazione/ricerca.htm`
+  - Updated semestrally (1° / 2° semestre)
+  - Search by: semester + provincia + comune + zona OMI + destinazione d'uso (residenziale, commerciale, etc.)
+  - Returns €/m² min-max per zona for each property type
+  - Direct dataset: `https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati`
+
+- **Visura catastale online** (FREE since 2025) — for actual rendita catastale:
+  - `https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/visura-catastale/visura-catastale-online`
+  - Access: SPID, CIE, or CNS required
+  - Returns: rendita catastale (€/yr base), categoria (A/1-A/11 residential), classe, vani, superficie
+
+- **Sister platform** (paid, for professionals): `https://sister.agenziaentrate.gov.it`
+
+### Listing platforms
+
+- **Immobiliare.it** — largest, full coverage: `https://www.immobiliare.it/<vendita-case>/<provincia>/<comune>/`
+- **Idealista.it**: `https://www.idealista.it/<comune>/`
+- **Casa.it**: `https://www.casa.it/<comune>/`
+- **Subito.it Immobili**: classifieds, smaller listings
+- **Tecnocasa, Gabetti** quarterly market reports (PDF)
+- **Borsino Immobiliare** valuations
+
+### Compute
+
+1. Listing €/m² = listing price / superficie commerciale (note: commerciale = lordo + balconi × coefficient, may differ from Carrez-equivalent)
+2. OMI €/m² gives the official band for the zone — compare
+3. Valore catastale = rendita catastale × 1.05 × 160 (residential coefficient) — used for tax calculations
+4. **Trap**: superficie commerciale ≠ superficie utile ≠ rendita catastale "vani" — clarify which the listing uses
+
+### Market context
+
+- North (Milano, Bologna, Firenze, Torino): high €/m², high liquidity
+- Centro (Roma, Pisa, Perugia): mixed
+- Sud (Napoli, Palermo, Bari, Cagliari): lower €/m², lower liquidity
+- **Borghi a 1 euro** schemes — mandatory renovation timeline + caution funds (Sicilia, Calabria, Sardegna, Abruzzo, Molise)
+- **Centro storico** premium — but heavy Soprintendenza restrictions on any work
+
+---
+
+## Section: `--traffic`
+
+### Primary sources
+
+- **ANAS Osservatorio del Traffico**: `https://www.stradeanas.it/it/le-strade/osservatorio-del-traffico`
+  - Covers strade statali (SS) + autostrade (A) of national interest
+  - System: PANAMA (~1,200 sezioni di conteggio, ~1,450 impianti)
+  - Reports: monthly, quarterly, annual TGM
+- **MIT Open Data**: `https://dati.mit.gov.it/catalog/dataset/traffico-giornaliero-medio-anas`
+  - Downloadable CSV/JSON for all ANAS-managed roads
+- **Regional/Provincial roads**: each Regione has its own count (often less granular):
+  - Piemonte: regione.piemonte.it
+  - Lombardia: regione.lombardia.it
+  - Toscana: regione.toscana.it
+  - etc.
+- **Highway operators** (Autostrade per l'Italia, ASPI): `https://www.autostrade.it` — for A-roads
+
+### Compute
+
+- TGM = Traffico Giornaliero Medio Annuo
+- Coarse band from OSM `highway` if no count point nearby
+- Heavy vehicles % via ANAS report
+
+### Verdict bands (urban / rural Italy)
+
+- 🟢 < 500 v/d (rural strada comunale)
+- 🟡 500–2,000 v/d (small SP / SR)
+- 🟠 2,000–10,000 v/d (busy SP / urban arterial)
+- 🔴 > 10,000 v/d (SS, autostrada, urban core)
+
+---
+
+## Section: `--tax`
+
+### Annual property taxes
+
+**IMU (Imposta Municipale Unica)** — most important:
+- **Prima casa NON di lusso** (cat. A/1, A/8, A/9): exempt
+- **Seconda casa**: ~1.06% (10.6‰) max, ~0.46% (4.6‰) min
+- Comune sets aliquota within range; default = 7.6‰
+- **Calcolo**: `IMU = rendita catastale × 1.05 × 160 × aliquota`
+- Bills: 16 giugno (acconto) + 16 dicembre (saldo), or full payment by giugno
+- Reduction for canone concordato: 75% of IMU
+- Affitto: comune può abbassare al 4‰
+
+**TASI**: merged into IMU since 2020 (no separate bill)
+
+**TARI (rifiuti)**: communal, ~€100–€500/yr, varies by surface + family size
+
+### Transaction taxes (one-time at purchase)
+
+For **existing residential** (used homes):
+
+| Buyer status | Imposta di registro | Ipotecaria | Catastale |
+|---|---:|---:|---:|
+| Prima casa | **2 %** of valore catastale (min €1,000) | €50 fixed | €50 fixed |
+| Seconda casa / non resident | **9 %** of valore catastale | €50 fixed | €50 fixed |
+
+For **new builds (vendita da impresa)**:
+- IVA 4 % (prima casa) or 10 % (standard) or 22 % (lusso)
+- Imposta di registro €200, ipotecaria €200, catastale €200
+
+**Notaio fees**: 1.5–2.5 % of price (negotiable; fee tariff abolished 2012)
+
+**Total transaction cost**: typically **+10–13 % on top of price** for prima casa, **+13–17 %** for seconda casa.
+
+### Future risk
+
+- **Riforma del catasto** (cadastral reform) on the political table for years; could double valori catastali if enacted (high impact on IMU + transaction taxes)
+- **Imposta patrimoniale** periodically debated nationally; not yet enacted
+
+---
+
+## Section: `--rental`
+
+### Short-term rentals (locazioni turistiche / affitti brevi ≤30 giorni)
+
+**Mandatory: CIN (Codice Identificativo Nazionale) since 1 Jan 2025**:
+- Replaces all regional CIR codes
+- Apply at: `https://bdsr.ministeroturismo.gov.it/` (BDSR — Banca Dati Strutture Ricettive)
+- Login via SPID or CIE
+- Required for: ALL short-term rentals, B&B, casa vacanze, locazione turistica
+- Without CIN: cannot list on Airbnb / Booking / Vrbo (platforms must verify)
+- Replaces but does NOT abolish regional licensing (some regioni still need additional notice to comune)
+- Free; alphanumeric code
+
+**Tax regime — Cedolare secca (sostitutiva)**:
+- **1° immobile**: 21 % flat
+- **2° immobile**: 26 % flat
+- **3°+ immobile**: presunzione di attività imprenditoriale → P.IVA obbligatoria, regime ordinario
+- **Limite 2026**: max 2 immobili in cedolare secca per contribuente
+- Only for contracts ≤ 30 days
+- Optional alternative: regime ordinario IRPEF on rental income
+
+**Other obligations**:
+- **Tassa di soggiorno**: collected from guests, varies by comune (€1–€7/night typical)
+- **Comunicazione alle autorità di PS** — ogni guest registered via Alloggiati Web (Polizia)
+- **Ricevuta** issued to guest with marca da bollo if ≥€77.47
+
+### Long-term residential
+
+- **Cedolare secca canone libero**: 21 %
+- **Cedolare secca canone concordato**: 10 % (in comuni ad alta tensione abitativa)
+- **Regime ordinario IRPEF**: marginal rate
+
+### Strategic notes
+
+- North + tourist hotspots (lakes, Cinque Terre, Toscana, Amalfi, Dolomiti): highest yields
+- South (Sicilia, Puglia coast, Sardegna): high seasonality (4-month season concentration)
+- Centro storico restrictions — Firenze suspended new short-let licenses 2024-2025; Venezia caps tightening
+- **Pool / view / parcheggio** = top revenue levers
+- **CIR/CIN registration** is the gating step — start there
+
+---
+
+## Section: `--work=<profession>`
+
+### Job platforms
+
+- **InfoJobs.it**, **Indeed.it**, **Subito.it Lavoro**
+- **LinkedIn IT** (very active in North + cadres)
+- **Monster.it**, **Helpwiz**
+- Profession-specific bodies (ordini): albo for lawyers, doctors, architects, engineers, journalists, etc.
+
+### Self-employment
+
+**Partita IVA**:
+- **Regime forfettario**: 15 % flat (5 % first 5 yrs) up to €85,000/yr revenue
+- **Regime ordinario**: marginal IRPEF + INPS gestione separata
+- Profession-specific casse (architects, ingegneri, avvocati, etc.)
+
+### Healthcare / regulated professions
+
+- Doctolib (medici, fisioterapisti)
+- iscrizione albo + insurance mandatory
+
+### Catchment
+
+- Italy is more concentrated than France — most provinces have a clear capital with most services
+- Within 30 min of a provincia capital = decent catchment
+- Sub 1,000-pop comuni in Sud / Appennino are very thin markets
+
+---
+
+## Section: `--risks`
+
+### Primary national sources
+
+| Source | URL | What it gives |
+|---|---|---|
+| **IdroGEO (ISPRA)** — hydrogeological dissesto | `https://idrogeo.isprambiente.it/app/` | Address-level rischio frane + alluvioni P1/P2/P3/P4 |
+| **IdroGEO Hazard & Risk** | `https://idrogeo.isprambiente.it/app/pir` | Aggregated risk indicators |
+| **ISPRA flood maps (PGRA)** | `https://www.isprambiente.gov.it/pre_meteo/idro/Mappe_peric.html` | River basin flood hazard maps |
+| **INGV MPS04 sismicità** | `http://esse1-gis.mi.ingv.it/` | PGA per cell at 0.05° resolution |
+| **INGV zone sismiche** | `http://zonesismiche.mi.ingv.it/` | Zona 1/2/3/4 per comune |
+| **Istat Mappa dei rischi** | `https://www.istat.it/.../mappa-dei-rischi-dei-comuni-italiani/` | Aggregated risk dashboard per comune |
+| **Protezione Civile rischio vulcanico** | `https://www.protezionecivile.gov.it` | Vulcanic risk Vesuvio/Etna/Stromboli/Campi Flegrei |
+| **ARPA regionali** | varies (see below) | Air quality, water, waste, soil pollution |
+| **SNPA** (national env. system) | `https://www.snpambiente.it/` | Aggregator of all 21 ARPAs |
+
+### ARPA regional portals (verify pollution / contaminated sites)
+
+| Regione | Portal |
+|---|---|
+| Lombardia | `https://www.arpalombardia.it` |
+| Veneto | `https://www.arpa.veneto.it` |
+| Emilia-Romagna | `https://www.arpae.it` |
+| Toscana | `https://www.arpat.toscana.it` |
+| Lazio | `https://www.arpalazio.it` |
+| Sicilia | `https://www.arpa.sicilia.it` |
+| Piemonte | `https://www.arpa.piemonte.it` |
+| Sardegna | `https://www.arpa.sardegna.it` |
+| Campania | `https://www.arpacampania.it` |
+| (and 12 others — all linked via SNPA) | |
+
+### Seismic zoning (CRUCIAL for Italy)
+
+INGV MPS04 classifies every comune into:
+- **Zona 1** — high (PGA > 0.25g) — most of Calabria, Sicilia centro-orientale, Friuli, Marche/Umbria interno, Abruzzo, central Appennini
+- **Zona 2** — medium-high — most of Centre + South Italy
+- **Zona 3** — medium — Po valley, Sardegna nord, parts of North
+- **Zona 4** — low (only Sardegna and parts of Veneto, FVG, Liguria)
+
+**Build-era hazards** depend on zone × age:
+- **Pre-1974**: pre-seismic standards. **DANGEROUS** in zone 1/2.
+- **1974–1996**: incremental improvements (Legge 64/1974, DM 03/03/1975)
+- **1996–2003**: OPCM 3274/2003 transition
+- **Post-2008**: NTC 2008 (proper modern seismic)
+- **Post-2018**: NTC 2018 (current standard)
+
+L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
+
+### Other build-era hazards
+
+- **Amianto (asbestos)**: pre-1992 builds very likely (eternit, copertura, tubazioni). Smaltimento mandatory if friabile. Cost: €15–€60/m² removal.
+- **Aluminosis** (Italian variant): rare, but check 1960s–70s edilizia popolare
+- **Vespasiano / Roma 1950s-70s**: scarce concrete, possible.
+
+### Mandatory diagnostics at sale (NULLITY-RISK level)
+
+| Document | Required because | Risk if missing |
+|---|---|---|
+| **APE (Attestato Prestazione Energetica)** | All sales (announcement must show class) | Sale cannot complete |
+| **Conformità urbanistica** | Post-17 March 1985 builds — must declare titoli abilitativi | **NULLITÀ DELL'ATTO** |
+| **Conformità catastale** | DL 78/2010, all sales | **NULLITÀ** |
+| **Certificato impianti** (elettrico, idrico, termico) | DM 37/2008, all installations after 1990 | Sale possible but acquirente liability |
+| **Libretto impianto termico** | All boilers + AC | Mandatory transfer |
+| **Visura catastale aggiornata** | All sales | Identifies any difformità |
+| **Visura ipotecaria** | Mortgage / liens check | Sale risk |
+
+### Abuso edilizio risk (Italy-specific, CRITICAL)
+
+- Italy has chronic illegal-building issues, particularly in Sud + coastal
+- Three condono windows expired (1985, 1994, 2003)
+- Today: only **sanatoria ordinaria** with **doppia conformità** (current rules + rules at time of build)
+- **If unresolved abuso**: atto può essere null; acquirente eredita l'obbligo di demolizione
+- Pre-rogito: technician must verify conformità urbanistica vs catastale vs stato di fatto
+- Common abusi: verandas, soppalchi, frazionamenti, cambi destinazione d'uso
+
+**Always commission a tecnico (geometra/architetto)** for pre-rogito conformità check on any property >20 yrs old. Cost: €300–€1,000.
+
+### Climate change projections (CMCC / ISPRA)
+
+- Drought intensifying esp. Po basin + Sardegna + Sicilia
+- Sea-level rise: Venezia, Adriatico nord, Mar Tirreno coasts
+- Glacial retreat: Alpi (impact on alpine real estate)
+- Wildfires up: Sicilia, Sardegna, Calabria, Basilicata
+- Mediterranean storms increasing
+
+---
+
+## Section: `--mains`
+
+### Primary sources
+
+- **ARERA ATID (Anagrafica Territoriale Servizio Idrico Integrato)**: `https://www.arera.it/area-operatori/atidrhtm`
+  - Definitive list of which gestore covers which comune
+  - 2,391 gestori in IT (1,997 enti locali + 394 aziende + 8 multiutility quotate)
+- **Comune** + **gestore idrico locale** (acquedotto + fognatura + depurazione typically same operator)
+
+### Major water operators (regional/multiutility)
+
+| Operator | Coverage |
+|---|---|
+| **Acea** | Roma + Lazio |
+| **Iren** | Liguria, Piemonte, Emilia |
+| **A2A / SAL** | Lombardia (Milano + Brescia areas) |
+| **Hera** | Emilia-Romagna |
+| **Smat** | Torino metropolitana |
+| **Acqualatina** | Lazio sud |
+| **Mediterranea delle Acque** | Genova |
+| **Publiacqua** | Toscana centro |
+| **GAIA / GORI / Acquedotto Lucano** | regional Sud |
+
+### Verification
+
+- Most centro storico + recent suburbs: mains universal
+- Rural Sud + Appennino frazioni montane often on **fossa biologica / Imhoff**
+- Listing keywords: "fognatura" / "scarico in pubblica fognatura" / "fossa biologica" / "vasca Imhoff" / "subirrigazione"
+
+### Costs
+
+| Scenario | Cost |
+|---|---:|
+| Connection to mains where available | €1,500–€4,000 |
+| Septic to mains conversion | €5,000–€15,000 |
+| New fossa biologica + filtro | €3,000–€8,000 |
+| Imhoff replacement | €5,000–€10,000 |
+
+---
+
+## Cost benchmarks (IT 2026)
+
+| Work | Cost |
+|---|---:|
+| APE | €100–€300 |
+| Visura catastale (FREE since 2025 via SPID) | €0 |
+| Notaio | 1.5–2.5 % of price |
+| Imposta di registro (prima casa) | 2 % of valore catastale |
+| Imposta di registro (seconda casa) | 9 % of valore catastale |
+| IVA new build (standard) | 10 % |
+| Tecnico per conformità (geometra) | €300–€1,000 |
+| Septic to mains | €5,000–€15,000 |
+| Roof (terracotta tiles, 200 m²) | €15,000–€30,000 |
+| Antiseismic retrofit (small house) | €30,000–€80,000 (Sismabonus 50 % prima casa / 36 % seconda nel 2025) |
+| Asbestos removal (200 m² roof) | €5,000–€15,000 |
+| Energy retrofit (Ecobonus 50 %) | €20,000–€60,000 |
+| **Total transaction cost (prima casa)** | ~10–13 % over price |
+| **Total transaction cost (seconda casa)** | ~13–17 % over price |
+
+## Active fiscal incentives (2025)
+
+- **Sismabonus** prima casa **50 %** / seconda **36 %** (2025); 36/30 % (2026-27); cap €96,000/unit
+- **Ecobonus** energy retrofit: 50 % prima casa / 36 % seconda (2025)
+- **Bonus Ristrutturazione**: 50 % up to €96k; cap aliquote scendono progressivamente
+- **Superbonus 110 %** sostanzialmente concluso; trasceso a 65 % e poi a regime ordinario
+- **Bonus Mobili**: legato a ristrutturazione, 50 % up to €5k
+
+## Common listing platforms
+
+- **Immobiliare.it** — largest, full extraction
+- **Idealista.it** — modern, mobile-friendly
+- **Casa.it** — good for Sud
+- **Wikicasa, Bakeca** — secondary
+- **Subito.it** — privates, attention to abusi
+- **Tecnocasa, Gabetti, RE/MAX** — agency networks
+
+## Caveats unique to IT
+
+- **Conformità urbanistica + catastale = nullità rischio** — never sign without tecnico verification
+- **Abuso edilizio** epidemic, especially Sud + coastal — pre-rogito audit is mandatory
+- **Centro storico + paesaggistica vincolo**: any work requires Soprintendenza approval (3–12 month delays)
+- **CIN obbligatorio dal 1 gen 2025** for any short-term rental — without it, cannot list
+- **Cedolare secca limit 2 properties from 2026** — affects rental investment math
+- **Nord/Sud disparity**: massive gap in services, tax, value, liquidity
+- **Borghi a 1 euro** schemes: cheap entry but mandatory €20k–€50k renovation timeline + caution fund (often €5,000–€10,000)
+- **Diritti reali**: usufrutto, servitù di passaggio, prelazione agraria — careful notaio review
+
+## Reddit / forum sources
+
+- **r/italy** (Italian-language)
+- **r/AskItalia**, **r/ItalyExpat**
+- **CodicePedone.it forum**, **Idealista.it news section**
+- **Forum BastaBidaste** for real-estate insiders
+- Expat communities: **The Local Italy**, **Italian Property Insider**, **InTuscany**
+
+## Verification authorities
+
+| Authority | When to call |
+|---|---|
+| **Comune** (Ufficio Tecnico) | Conformità urbanistica + IMU + permesso di costruire |
+| **Agenzia delle Entrate** | Visura catastale + rendita + OMI |
+| **Catasto comunale** | Conformità catastale |
+| **Notaio** | Final compravendita + visure ipotecarie + sanity check |
+| **Tecnico (geometra/architetto)** | Pre-rogito conformità audit (MANDATORY) |
+| **Gestore idrico** (ARERA list) | Mains drains verification |
+| **ARPA regionale** | Pollution / soil contamination |
+| **Soprintendenza** | If centro storico / vincolo |
+
+## Quirks to know
+
+- **OMI quotations are zonal (per zona OMI within comune)** — listing might be in a different zona than the comune average; always check zone-specific OMI for accurate comparison
+- **Superficie commerciale** (used in listings) ≠ superficie utile/Carrez ≠ rendita catastale "vani" — never compare €/m² across these naïvely
+- **CAP can span multiple comuni** in Italy (unlike France 1 CAP = 1 comune typically); verify codice catastale comune for accurate lookup
+- **Rendita catastale revaluation 1.05** dates from 1996; multiple political pushes for cadastre reform have stalled
+- **Polizza Catastrofale obbligatoria per imprese da 31 marzo 2025** (PMI catnat insurance) — not yet residential, but worth noting
+
+## Source URL templates
+
+| Source | URL pattern |
+|---|---|
+| OMI search | `https://www1.agenziaentrate.gov.it/servizi/Consultazione/ricerca.htm` |
+| Visura catastale (SPID) | `https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/visura-catastale/visura-catastale-online` |
+| IdroGEO | `https://idrogeo.isprambiente.it/app/` |
+| INGV MPS04 | `http://esse1-gis.mi.ingv.it/` |
+| INGV zone sismiche | `http://zonesismiche.mi.ingv.it/` |
+| ANAS open data | `https://dati.mit.gov.it/catalog/dataset/traffico-giornaliero-medio-anas` |
+| BDSR Ministero Turismo (CIN) | `https://bdsr.ministeroturismo.gov.it/` |
+| ARERA ATID | `https://www.arera.it/area-operatori/atidrhtm` |
+| SNPA | `https://www.snpambiente.it/` |
+| Immobiliare.it search | `https://www.immobiliare.it/vendita-case/<provincia>/<comune>/` |
+| Idealista.it | `https://www.idealista.it/<comune>/` |
+| Istat mappa rischi | `https://www.istat.it/statistiche-per-temi/focus/informazioni-territoriali-e-cartografiche/rappresentazioni-cartografiche-interattive/mappa-dei-rischi-dei-comuni-italiani/` |
+
+## Status
+
+✅ **Fully populated** as of 2026-04-25.
+**Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
+**Confidence**: HIGH for tax + risk + rental sources (multi-source corroborated). MEDIUM for work catchment heuristics (region-dependent).
+
+## Extension TODOs (deepen on first real run)
+
+- [ ] Per-regione CIN/short-let regional addenda (Veneto, Lombardia, Toscana, Lazio specifics)
+- [ ] OMI zona-coding lookup for major comuni (Roma centro vs Roma periferia)
+- [ ] Sismabonus tracking as 2025 → 2026 → 2027 percentages decline
+- [ ] Sanatoria / abuso edilizio detection workflow (likely needs tecnico in person)
+- [ ] Local IMU aliquota per comune (need scraping per ~7,900 comuni — start with top 100)
+- [ ] Nord/Sud cost-benchmark differentiation (renovation prices differ ~30–50 %)

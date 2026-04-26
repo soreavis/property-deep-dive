@@ -1,0 +1,61 @@
+name: Internal link check
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '**.md'
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+  schedule:
+    # Weekly on Friday at 09:00 UTC (counterpoint to Monday url-liveness)
+    - cron: '0 9 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    name: Lychee internal link check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Run lychee (internal links only — external are covered by url-liveness.yml)
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411  # v2
+        with:
+          args: >-
+            --offline
+            --no-progress
+            --include-fragments
+            --exclude-path _local
+            --exclude-path node_modules
+            --exclude-path .git
+            './**/*.md'
+          fail: true
+
+      - name: Open issue on schedule failure
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Internal link check failed — ${new Date().toISOString().slice(0,10)}`,
+              body: `Lychee detected broken **internal** Markdown links on the scheduled run.\n\nSee the workflow run for details: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              labels: ['maintenance', 'documentation'],
+            });

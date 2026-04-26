@@ -1,0 +1,317 @@
+# France 🇫🇷 — Property Due-Diligence Playbook
+
+ISO2: `fr`. Status: ✅ Fully populated.
+
+## Country profile
+
+- Postcode pattern: 5 digits (`XXXXX`)
+- INSEE code: 5-digit commune identifier (different from postcode)
+- Geocode commune → INSEE: use `https://geo.api.gouv.fr/communes?codePostal=<postcode>` or address-api `https://api-adresse.data.gouv.fr/search/?q=<query>`
+- Currency: EUR (€)
+- Language: French (with German/Italian/Catalan/Basque regional pockets)
+- Cadastre: free public via `cadastre.gouv.fr`
+
+## Section: `--price`
+
+**Data sources** (parallel queries):
+- `https://www.netvendeur.com/prix/ville-<commune-slug>-<dept>/` — average €/m², range, trend
+- `https://www.meilleursagents.com/prix-immobilier/<commune-slug>-<postcode>/` — €/m² + history
+- `https://www.pap.fr/vendeur/prix-m2/<commune-slug>-<postcode>-g<id>` — backup
+- WebSearch: `"<commune>" maison à vendre prix` for live comp listings
+- DVF (Demandes de Valeurs Foncières) `https://app.dvf.etalab.gouv.fr/` for actual sale prices (public, ~3 yr lag)
+
+**Compute**:
+- Price/m² = listing FAI / surface m² (Carrez)
+- Discount/premium vs commune average: `(commune_avg - listing_psqm) / commune_avg`
+- Walk-away price = listing × (1 − reasonable_discount). For 1970s-1990s rural homes "à rafraîchir," reasonable_discount = 5–10 %.
+
+**Caveats**:
+- Rural communes have thin DVF samples (5–20 sales/yr); flag confidence as low if <10 transactions
+- The "FAI" (Frais d'Agence Inclus) price includes the agency fee (~5–6 %); compute against the net seller price for notary fees
+
+---
+
+## Section: `--traffic`
+
+**Data sources**:
+- OSM Overpass for the way's `ref`, `highway`, `maxspeed` (already in pre-flight)
+- Conseil Départemental traffic count PDF — search `"département <name>" comptage routier carte trafic <year>` and download
+- Examples:
+  - Vienne 86: `https://www.lavienne86.fr/fileadmin/medias/.../A1_Trafic_<year>.pdf` (~27 MB)
+  - Most départements publish annually as A1 QGIS-rendered PDFs
+
+**Extraction technique**:
+1. `curl -sL -o trafic.pdf <url>`
+2. `pdftotext -layout trafic.pdf - | grep "^.*D<road>"` → finds TMJA values in tabular form
+3. For map labels (village names): `pdftoppm -png -r 200 trafic.pdf p` then crop to the commune location and read images
+4. Color legend (most depts identical):
+   - 🟧 orange: < 500 v/d
+   - 🟦 cyan: 500–1500 v/d
+   - 🟩 green: 1500–3000 v/d
+   - 🟪 magenta: > 3000 v/d
+
+**Compute**:
+- TMJA on property's road (or estimated from nearest measured)
+- Vehicle/hour daylight ≈ TMJA × 0.06; night ≈ TMJA × 0.01
+- Heavy vehicles (PL) often listed alongside as percentage
+
+**Verdict bands for rural FR**:
+- 🟢 < 200 v/d
+- 🟡 200–800 v/d
+- 🟠 800–3000 v/d
+- 🔴 > 3000 v/d
+
+---
+
+## Section: `--tax`
+
+**Data sources**:
+- `https://www.impots-locaux.org/impots-locaux-<commune-slug>-<postcode>/` — communal & intercommunal rates for TFPB / TFPNB / TH
+- WebSearch for `"<commune>" taxe fonciere taux` and TEOM rate
+
+**Compute**:
+1. Estimate VLC (Valeur Locative Cadastrale): for rural 1970s build, tarif ≈ €15–25/m²/yr after current revaluations (varies by commune category 5/6/7).
+2. Annual taxe foncière = `VLC × 50% × (taux_communal + taux_interco) + TEOM_amount`
+3. Annual taxe d'habitation RS = `VLC × 100% × (taux_communal + taux_syndicat)`. Surcharge majoration 5–60 % if zone tendue (verify on liste).
+4. Frais de notaire on €P (FAI minus agency fee): ≈ 7.5–8 % for ancien
+   - DMTO: 5.81 % (4.50 % département + 1.20 % commune + 0.107 % État)
+   - Émoluments notaire: dégressif ~0.8–1.2 %
+   - Débours + sécurité immobilière: €600–1,500
+5. Future risk: 2026–2028 cadastral revaluation (RVLLH) likely +20–40 % for rural homes
+
+**Decision tree for residence type**:
+- Primary: only taxe foncière + TEOM
+- Secondary (résidence secondaire): + taxe d'habitation RS
+- Loi de finances may evolve thresholds annually — check current
+
+---
+
+## Section: `--rental` (gîte / Airbnb)
+
+**Data sources**:
+- Local tourism office hébergements guide PDF — search `"<département>" hébergements meublés tourisme PDF`
+- `https://www.airbnb.fr/<commune>-france/stays`
+- `https://www.gitesdefrance-<dept-name>.com`
+- Tourism observatoire PDF for occupancy rates: `<dept>.fr/.../tourisme/observatoire/`
+- INSEE saison touristique data
+- Reddit/forums for honest operator income reports
+
+**Compute**:
+1. Map existing competition (5–10 nearest gîtes with capacity + weekly tariff)
+2. Pick configuration:
+   - Convert one wing/basement → smaller unit, sleeps 4–6
+   - Whole-house gîte → sleeps 8–12
+   - Chambres d'hôtes → up to 5 rooms with breakfast
+3. Realistic year-3 stabilised gross: 16–22 weeks × commune-typical rate
+4. Apply tax regime:
+   - Below €15k AND non-classé → micro-BIC 30 % abatement
+   - Above €15k OR classé → micro-BIC 50 % abatement (must classify via Atout France) — plafond €83,600 (revenues 2026+)
+   - Above €23k revenue → URSSAF 6 % (classé) or 21.2 % (non-classé)
+   - Above €83.6k → régime réel
+
+5. Subtract 35–45 % operating costs (cleaning, linen, utilities, commissions)
+6. Compute net at TMI 11 % and TMI 30 %
+7. Note: classement = 50 % abatement + 6 % URSSAF + plafond 83.6k vs 30 %/21.2 %/15k unclassified
+
+**Strategic levers**:
+- **Classify it** — free in most departments via the ADT (Agence Départementale du Tourisme)
+- **Pool / spa** is the single biggest revenue lever
+- **Service à la personne** registration if you also offer in-person services
+- **Taxe foncière exonération** under CGI art. 1383 E bis — many rural communes allow exoneration of meublés classés
+
+**Caveats**:
+- Loi Le Meur (Nov 2024) lowered non-classé thresholds drastically (was 77.7k → now 15k)
+- Loi Climat: DPE F-G gîtes increasingly restricted
+
+---
+
+## Section: `--work=<profession>`
+
+**Data sources** (depending on profession):
+- **Healthcare**: Doctolib, ARS, ordres professionnels (Conseil de l'Ordre)
+- **Teaching**: Pôle Emploi, écoles de musique régionales, conservatoires CRR/CRD/CIOL, EMIG-style intercommunal schools
+- **Trades**: Chambre de Métiers et de l'Artisanat, INSEE artisans, Pages Jaunes
+- **Tech / cadres**: APEC, LinkedIn, Welcome to the Jungle, AppelService
+- **Tutoring / private**: Superprof, Aladom, Apprentus, Allegro Musique, Spectable
+- **Salaries general**: INSEE DADS / DSN, Hellowork, JournaldDuNet salaire
+
+**Legal status options** (always include):
+- **Auto-entrepreneur (BNC libéral)**: simple, ~22.2 % charges, plafond €77,700
+- **Service à la personne (SAP)**: 50 % tax credit for client; activate via URSSAF
+- **CCN ÉCLAT (associative music schools)**: coefficient 265 × point €6.85 ≈ €1,815/mo gross full-time
+- **CDI public conservatoire**: needs DE + concours
+- **Association loi 1901**: for community projects, no income to self
+- **Régime réel BNC**: above €77.7k
+- **Profession libérale réglementée** (médecin, avocat, etc.): specific regimes
+
+**Catchment formula**:
+- Local population in 30-min drive
+- 60-min for online or rare specialties
+- Account for English-speaking expat communities (Vienne, Charente, Haute-Vienne, Dordogne) — significant for British/Dutch/German-speaking professions
+
+**Output sections to include**:
+1. Catchment + competition table
+2. Salaried options (CCN / convention)
+3. Independent options (auto-entrepreneur)
+4. Online / hybrid options
+5. Realistic year-3 net (3 scenarios)
+6. 12-month build plan
+
+---
+
+## Section: `--risks`
+
+**Data sources** (in order of authority):
+1. **DICRIM**: `https://files.georisques.fr/DICRIM/DICRIM_<INSEE>.pdf` — download with curl, render with pdftoppm if scanned
+2. **IAL** (Information Acquéreurs Locataires): `https://www.<dept>.gouv.fr/.../IAL_Risques-zones+par+commune.pdf`
+3. **ERRIAL** (parcel-level): `https://errial.georisques.gouv.fr` — form-based, address lookup
+4. **Géorisques**: `https://www.georisques.gouv.fr/mes-risques/connaitre-les-risques-pres-de-chez-moi`
+5. **IRSN potentiel radon**: `https://recherche-expertise.asnr.fr/savoir-comprendre/environnement/connaitre-potentiel-radon-ma-commune`
+6. **DRIAS climate**: `https://www.drias-climat.fr/`
+7. **PPI nucléaire** (if any plant within 50 km): EDF site + préfecture
+8. **OSM industrial overlay**: Overpass query within 5 km
+
+**11 risk categories to evaluate** (DICRIM standard):
+1. Inondation
+2. Mouvement de terrain (RGA argiles)
+3. Sismicité (zone 1-5)
+4. Tempête / grand froid / canicule
+5. Cavités souterraines
+6. Feu de forêt
+7. TMD (transport matières dangereuses)
+8. Rupture de barrage
+9. Risque nucléaire
+10. Risque industriel (ICPE Autorisation/Seveso)
+11. Sécheresse
+
+**Build-era hazards**:
+- < 1949: lead paint (CREP), often poor foundations
+- 1949–1997: asbestos very likely (slates, flue, vinyl, fibrocement)
+- 1949–1980: poor thermal envelope
+- 1975–1995: aluminum wiring potential
+- After 2000: modern standards but check if RT2012 compliant for thermal
+
+**Climate change to 2050 (Vienne basin example, similar across rural FR)**:
+- +1.6 °C (RCP 4.5) to +2.2 °C (RCP 8.5)
+- +5 to +10 drought days/summer
+- Less summer rain, more winter rain
+- More heatwaves (longer + hotter)
+- Forest fire risk rising
+
+**Verdict logic for radon**:
+- Zone 1 / Faible: 🟢 negligible
+- Zone 2 / Moyen: 🟡 test recommended
+- Zone 3 / Significatif: 🟠 test required, may need VMC/ventilation upgrade
+
+---
+
+## Section: `--mains`
+
+**Data sources**:
+1. **Sispea** (national registry): `https://www.services.eaufrance.fr/commune/<INSEE>/<latest_year>` — confirms which services exist
+2. **Selectra** mirror: `https://eau.selectra.info/commune/<INSEE>` — operator details
+3. **Listing language** for assainissement keywords ("tout-à-l'égout", "fosse septique", "assainissement individuel")
+4. **PLU / Géoportail Urbanisme**: `https://www.geoportail-urbanisme.gouv.fr/` — for zonage assainissement when published
+5. **Mairie phone** (always note this is the authoritative source)
+
+**Compute**:
+1. Does the commune have a collective sewer service at all?
+2. Is the property in the bourg (likely connected) or hamlet (likely individual)?
+3. What did the listing say (silence is itself a signal)?
+4. Confidence level: high (listing explicit + Sispea + bourg) / medium / low
+
+**Verification path**:
+1. Call **Mairie de <commune>**: phone in DICRIM
+2. Ask: « Est-ce que la parcelle au <address> est en zone d'assainissement collectif et raccordée au réseau ? »
+3. Request from seller:
+   - Collective: certificat de conformité du branchement
+   - ANC: diagnostic ANC < 3 years old (mandatory at sale)
+
+**Cost ranges (rural FR 2026)**:
+- On collective, conform: redevance ≈ €1.50–2.50/m³ + connection fixed
+- On collective, non-conform branchement (1975 build typical): €2,000–€5,000 upgrade
+- In collective zone, not connected: €2,500–€8,000 + PFAC fee
+- Outside collective (ANC septic to install or replace): €7,000–€15,000
+
+---
+
+## Mandatory diagnostics matrix at sale (2026)
+
+| Diagnostic | Required because | Validity |
+|---|---|---|
+| DPE | All sales | 10 years |
+| Audit énergétique | DPE = E/F/G | 5 years |
+| ERP / ERRIAL | All sales | 6 months |
+| Amiante | Built before 1 July 1997 | Indefinite if no amiante; 3 yrs if found |
+| Plomb (CREP) | Built before 1 Jan 1949 | 1 year if positive, indefinite if negative |
+| Termites | Commune in arrêté préfectoral | 6 months |
+| Électricité | Installation > 15 yrs old | 3 years |
+| Gaz | Installation > 15 yrs old (if gas) | 3 years |
+| Assainissement non-collectif | Rural, no mains | 3 years |
+| Mérule | Commune in arrêté zone | 6 months |
+
+## Cost benchmarks (rural FR, 2026)
+
+| Work | Cost |
+|---|---:|
+| Asbestos removal (small) | €1,500–€5,000 |
+| Septic tank replacement | €7,000–€15,000 |
+| Mains drains connection | €2,500–€8,000 |
+| Full electrical rewire (200 m²) | €12,000–€20,000 |
+| Roof replacement (slate, 150 m²) | €18,000–€30,000 |
+| Insulation upgrade DPE E→D | €15,000–€25,000 |
+| Insulation upgrade DPE E→C | €30,000–€50,000 |
+| Wood stove installation | €3,000–€7,000 |
+| Heat pump installation | €12,000–€20,000 |
+| Pool (above-ground 6×3) | €5,000–€10,000 |
+| Pool (in-ground 8×4 with deck) | €25,000–€45,000 |
+| Building inspection (independent surveyor) | €600–€1,200 |
+| Notary fees on €145k ancien | €10,500–€11,200 |
+
+## Common listing platforms
+
+- **SAFTI** — clean fields, full extraction
+- **SeLoger** — JS-heavy, prefer mobile version
+- **Leboncoin** — sparse, often need manual reading
+- **ParuVendu, Logic-Immo, Bien'ici** — standard
+- **Orpi, Century 21, IAD, Capifrance** — standard agency
+- **Le Bon Coin** — private sales
+
+## Reddit / forum sources for operator stories
+
+- r/AskFrance, r/france (FR-language)
+- r/AmerExit, r/IWantOut (expat moves)
+- Mumsnet "living overseas" Vienne / Charente / Limousin
+- FrenchEntrée, Complete France, The Good Life France
+- Living Magazine, etcetera magazine (English-speaking Vienne / Charente)
+- AngloInfo Poitou-Charentes / Limousin
+
+## Caveats unique to FR
+
+- 2026–2028 RVLLH cadastral reform → +20–40 % taxe foncière for rural
+- DPE F (2028) and E (2034) banned for rental
+- Loi Le Meur (Nov 2024) tightens short-let regime
+- Service à la personne credit = 50 % deduction for client (huge competitive lever)
+- Auto-entrepreneur plafonds change by activity (BIC ≠ BNC ≠ chambres d'hôtes)
+
+## Quirks to know
+
+- The IAL "argiles faible" is for the village center; the DICRIM commune-level RGA map often shows wider areas as Moyen
+- Rural communes' collective sewer often only covers Rue Principale + immediate adjacent streets
+- Many small départements only count traffic on D-roads with > 500 v/d; smaller D-roads are absent from the count program
+- Departmental TFPB rate was merged into communal in the 2021 reform — current rates already reflect this
+- Termites zone in Vienne 86 covers 117 communes (arrêté 14 Oct 2020) — but the diagnostic may still be common practice elsewhere
+
+## Verification authorities
+
+- Mairie of the commune (phone in DICRIM)
+- Notaire (for tax + sale conformity)
+- SPANC (Service Public d'Assainissement Non Collectif) at the communauté de communes level
+- ADT / Office de tourisme (for classement meublé tourisme)
+- DDT (Direction Départementale des Territoires) for risks
+
+## Status
+
+✅ **Fully populated** as of 2026-04-25.
+
+**Confidence**: HIGH for tax + risk + rental sources (impots.gouv.fr / Géorisques / DGFiP — multi-source corroborated). MEDIUM for work catchment heuristics (département-dependent).

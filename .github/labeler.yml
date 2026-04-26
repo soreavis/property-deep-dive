@@ -1,0 +1,86 @@
+# Path-based labels applied by .github/workflows/labeler.yml.
+# Format: actions/labeler@v5 — see https://github.com/actions/labeler
+
+country:
+  - changed-files:
+      - any-glob-to-any-file: 'countries/**'
+
+region-europe-core:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'countries/{fr,it,cz,sk,de,at,ch,es,pt,se,fi,no,uk,nl,be,dk,is,si,ie,gr,pl,ee,hr,hu}/**'
+
+region-anglo:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'countries/{ca,au,nz}/**'
+
+region-latam:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'countries/{mx,br,ar,cr,pa}/**'
+
+region-balkans:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'countries/{rs,me,ba,mk,al}/**'
+
+region-eu-completion:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'countries/{lt,lv,ro,bg,lu,cy,mt}/**'
+
+shared:
+  - changed-files:
+      - any-glob-to-any-file: 'shared/**'
+
+router:
+  - changed-files:
+      - any-glob-to-any-file: 'SKILL.md'
+
+governance:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'CONTRIBUTING.md'
+          - 'CODE_OF_CONDUCT.md'
+          - 'SECURITY.md'
+          - 'CHANGELOG.md'
+          - 'DISCLAIMER.md'
+          - 'LICENSE'
+          - 'CLAUDE.md'
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.github/**'
+
+config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.editorconfig'
+          - '.markdownlint.json'
+          - '.gitignore'
+
+# regulatory-watch: applied automatically when shared/regulatory-watch.md changes.
+# (The same label is also applied via the regulatory-watch issue template.)
+regulatory-watch:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'shared/regulatory-watch.md'
+          - 'shared/visa-programs.md'
+
+# anti-hallucination: changes to the contract itself
+anti-hallucination:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'shared/anti-hallucination.md'
+          - 'shared/integrity-checks.md'
+          - 'shared/verdict-bands.md'
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'CONTRIBUTING.md'
+          - 'DISCLAIMER.md'
+          - 'CHANGELOG.md'

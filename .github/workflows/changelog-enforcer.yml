@@ -1,0 +1,34 @@
+name: Changelog enforcer
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  enforce:
+    name: CHANGELOG entry under [Unreleased]
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify CHANGELOG.md updated under [Unreleased]
+        uses: dangoslen/changelog-enforcer@204e7d3ef26579f4cd0fd759c57032656fdf23c7  # v3
+        with:
+          changeLogPath: CHANGELOG.md
+          expectedLatestVersion: Unreleased
+          # Skip enforcement when these labels are applied — for trivial PRs
+          # that don't need a changelog line (typo fixes, CI tweaks, dep bumps).
+          skipLabels: |
+            skip changelog
+            documentation
+            ci
+            dependencies
+            github-actions
+            duplicate
+            wontfix

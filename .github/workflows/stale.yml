@@ -1,0 +1,51 @@
+name: Stale issues + PRs
+
+on:
+  schedule:
+    # Daily at 03:00 UTC
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/stale@5bef64f19d7facfb25b37b414482c7164d639639  # v9
+        with:
+          days-before-stale: 60
+          days-before-close: 30
+          stale-issue-message: |
+            This issue has been inactive for 60 days and is marked stale. It will close in 30 days unless there's new activity. Add a comment, link a primary source, or apply the `help-wanted` label to keep it open.
+          stale-pr-message: |
+            This PR has been inactive for 60 days and is marked stale. It will close in 30 days unless there's new activity. Push a commit, address review feedback, or apply the `help-wanted` label to keep it open.
+          close-issue-message: |
+            Closing as inactive. Reopen any time if the underlying issue still applies — please re-link the primary source if it's a factual correction.
+          close-pr-message: |
+            Closing as inactive. Feel free to reopen and rebase onto current `main` when you're ready to continue.
+          stale-issue-label: stale
+          stale-pr-label: stale
+          # Don't mark these as stale — they're long-lived governance / pinned issues
+          exempt-issue-labels: |
+            health-report
+            url-liveness
+            security
+            regulatory-watch
+            blocked
+            good-first-issue
+            help-wanted
+            new-country
+          exempt-pr-labels: |
+            blocked
+            help-wanted
+            security
+            new-country
+          exempt-all-pr-milestones: true
+          exempt-all-issue-milestones: true
+          # Sort oldest first so the most stagnant items get marked first (rate-limit-friendly)
+          ascending: true
+          operations-per-run: 60
