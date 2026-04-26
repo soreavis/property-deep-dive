@@ -32,7 +32,11 @@ jobs:
       - name: Compute alerts payload
         id: scan
         run: |
-          python3 - <<'PY' > _alerts.json
+          # Note: NO shell redirect to _alerts.json here. The Python below
+          # writes the JSON via json.dump(); a shell `> _alerts.json` would
+          # capture the print() lines too and overwrite the JSON, breaking
+          # the JSON.parse in the next step.
+          python3 - <<'PY'
           import json, re
           from datetime import date
 

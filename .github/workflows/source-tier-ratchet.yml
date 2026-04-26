@@ -130,8 +130,10 @@ jobs:
                   return (0, 0, 0.0)
               return (total, primary, primary * 100.0 / total)
 
-          # Resolve refs.
-          base_ref = os.environ.get('GITHUB_BASE_REF', 'main')
+          # Resolve refs. GITHUB_BASE_REF is empty string (not unset) on
+          # workflow_dispatch — `os.environ.get(..., 'main')` returns '' in
+          # that case, so guard with `or 'main'`.
+          base_ref = os.environ.get('GITHUB_BASE_REF') or 'main'
           subprocess.run(['git', 'fetch', '--depth=1', 'origin', base_ref], check=False)
           base_sha = subprocess.run(
               ['git', 'rev-parse', f'origin/{base_ref}'],
