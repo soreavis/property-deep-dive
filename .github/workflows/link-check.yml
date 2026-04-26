@@ -37,10 +37,13 @@ jobs:
       - name: Run lychee (internal links only — external are covered by url-liveness.yml)
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411  # v2
         with:
+          # Note: deliberately NOT using --include-fragments. Anchor IDs vary across
+          # renderers (em-dashes, doubled hyphens, special chars), and validating them
+          # produces false positives. We check that target files exist; anchor accuracy
+          # is hand-reviewed during PR.
           args: >-
             --offline
             --no-progress
-            --include-fragments
             --exclude-path _local
             --exclude-path node_modules
             --exclude-path .git

@@ -54,8 +54,10 @@ jobs:
               ! -path './.git/*' \
               > _ci_changed.txt
           fi
-          # Allowlist files where forbidden phrasings ARE expected (the rules + their documentation)
-          grep -vE '(anti-hallucination\.md|README\.md|CONTRIBUTING\.md|CLAUDE\.md|SECURITY\.md|CODE_OF_CONDUCT\.md|CHANGELOG\.md|SKILL\.md|pull_request_template\.md)$' _ci_changed.txt > _ci_scan.txt || true
+          # Allowlist files where forbidden phrasings ARE expected (the rules + their documentation).
+          # docs/ is excluded entirely — the docs folder explains the contract (and so quotes the
+          # forbidden phrases) rather than producing skill output.
+          grep -vE '(anti-hallucination\.md|README\.md|CONTRIBUTING\.md|CLAUDE\.md|SECURITY\.md|CODE_OF_CONDUCT\.md|CHANGELOG\.md|SKILL\.md|pull_request_template\.md)$|^\./docs/' _ci_changed.txt > _ci_scan.txt || true
           echo "Files to scan: $(wc -l < _ci_scan.txt)"
 
       - name: Scan for forbidden phrasings
