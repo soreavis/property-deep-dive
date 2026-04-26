@@ -113,6 +113,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - fix(ci): auto-merge-docs — use PR_BOT_TOKEN (GITHUB_TOKEN can't auto-merge) ([#25](https://github.com/soreavis/property-deep-dive/pull/25)) — by @soreavis
 - feat(plugin): Claude plugin manifest — installable in Claude Code + Cowork ([#27](https://github.com/soreavis/property-deep-dive/pull/27)) — by @soreavis
 - docs(plugin): rewrite the marketplace description in plain English ([#29](https://github.com/soreavis/property-deep-dive/pull/29)) — by @soreavis
+- docs(plugin): displayName + keyword expansion + README "Try asking…" ([#31](https://github.com/soreavis/property-deep-dive/pull/31)) — by @soreavis
 
 ## [2026.04.0] - 2026-04-26
 
