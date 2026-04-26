@@ -83,6 +83,28 @@ jobs:
           pr_url    = os.environ['PR_URL']
           bucket    = os.environ['BUCKET']
 
+          # Defang markdown injection in the source PR title before pasting
+          # it into CHANGELOG.md. Concrete cases this stops:
+          #   - `[click here](http://evil.com)` would render as a clickable link
+          #   - `![alt](http://tracker.com/img.png)` would load a tracker pixel
+          #   - `<script>` would render as raw HTML (no execution but ugly)
+          # We only need to escape `[`, `]`, and `<`. Backslash first so we
+          # don't double-escape the escape itself. Backticks left alone — the
+          # `fix(ci): bump v2 → v3` style is intentional. Newlines stripped
+          # defensively (GitHub forbids them in titles, but if it ever didn't
+          # they'd break the bullet-list format).
+          def sanitize_md(s):
+              s = s.replace('\r', ' ').replace('\n', ' ').strip()
+              if len(s) > 200:
+                  s = s[:197] + '…'
+              return (s
+                  .replace('\\', '\\\\')
+                  .replace('[', '\\[')
+                  .replace(']', '\\]')
+                  .replace('<', '\\<'))
+
+          pr_title = sanitize_md(pr_title)
+
           line = f"- {pr_title} ([#{pr_number}]({pr_url})) — by @{pr_author}"
 
           # Locate [Unreleased] section. If absent, create it just above the

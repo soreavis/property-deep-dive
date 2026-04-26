@@ -92,6 +92,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 ### Changed
 
 - `transposition-alerts.yml` — fixed shell redirect that overwrote the JSON payload with print output (`SyntaxError: Unexpected non-whitespace character` on every dispatch). Now relies on Python's `json.dump`.
+- `changelog-on-merge.yml` — sanitize source PR title before writing it into CHANGELOG.md. Defangs `[link](url)` and `![img](tracker)` injection plus raw `<script>` tags. Backslash escape first; truncation at 200 chars; newlines collapsed.
 - `codeql.yml` — added `python` language to the matrix now that `scripts/sync-docs.py` is committed (was deferred during initial setup). CodeQL will SAST-scan all .py files for code-injection / unsafe-path-traversal patterns each Wed + on every PR.
 - `year-roll-reminder.yml` — fixed broken flag rendering in the auto-generated issue (was hardcoded `🇨{iso2}` — single regional indicator + literal letters → `🇨AL` instead of `🇦🇱 AL`). Now uses the same `iso2_to_flag` + `FLAG_OVERRIDES` pattern as `scripts/sync-docs.py`.
 - `year-roll-reminder.yml` — broadened regex from strict `(YYYY data...)` to any `(YYYY)` / `(YYYY context)` parenthetical with a `[\s,)]` terminator. Catches the 96 year stamps actually in use today (mostly `(2025)` and `(2025 reform)` forms) without false-positives on `(€2,025)`, `(1 Aug 2025)`, etc.
