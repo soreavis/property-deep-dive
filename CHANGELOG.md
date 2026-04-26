@@ -60,6 +60,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - README — separated the install flow into Claude Code (slash commands) vs Claude Cowork (in-app plugin browser, "upload your own plugin" path). Earlier copy claimed the slash-command path worked identically in both, which was overclaim — Cowork's user-facing install is GUI-driven per [Anthropic's launch post](https://claude.com/blog/cowork-plugins). Also flagged that Cowork plugin scope is per-user / local today (not workspace-wide), with org-wide sharing pending. Plugin format itself remains identical between products.
 - docs(cowork): split install flow Claude Code vs Cowork; correct scope ([#41](https://github.com/soreavis/property-deep-dive/pull/41)) — by @soreavis
+- fix(ci): scope changelog-on-merge write permissions to job level ([#43](https://github.com/soreavis/property-deep-dive/pull/43)) — by @soreavis
 
 ### Changed — plugin payload co-location (2026-04-26)
 
