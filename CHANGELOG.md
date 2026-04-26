@@ -87,6 +87,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - `sign-release.yml` — added `workflow_dispatch` with required `tag` input so `auto-tag.yml` can chain into it.
 - `changelog-enforcer.yml` — dropped `expectedLatestVersion: Unreleased` config. The action's logic treats `versions[1]` as the "latest" once a real release exists, so the setting only works on pre-1.0 repos.
 - README architecture diagram updated to reflect the 16-workflow set + `scripts/` folder
+- feat(ci): tier-1+2 follow-up workflows · SLSA L3 · Node 24 bump ([#7](https://github.com/soreavis/property-deep-dive/pull/7)) — by @soreavis
 
 ## [2026.04.0] - 2026-04-26
 
