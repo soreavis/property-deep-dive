@@ -7,6 +7,8 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/soreavis/property-deep-dive/badge)](https://scorecard.dev/viewer/?uri=github.com/soreavis/property-deep-dive)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12655/badge)](https://www.bestpractices.dev/projects/12655)
 
+**Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
+
 **Pre-purchase property due diligence across 44 countries** — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **22 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
@@ -55,9 +57,9 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 ## Install
 
-Works as a plugin in both **[Claude Code](https://docs.claude.com/claude-code)** and **[Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format, same install path.
+Works as a plugin in both **[Claude Code](https://docs.claude.com/claude-code)** and **[Claude Cowork](https://www.anthropic.com/product/claude-cowork)**. The plugin format is identical — `.claude-plugin/plugin.json` + `.claude-plugin/marketplace.json` + `skills/property-deep-dive/SKILL.md` — so the same skill bundle ships to both products. The install UX differs.
 
-### Plugin install (recommended — both Claude Code and Claude Cowork)
+### Claude Code (slash commands)
 
 ```bash
 # Add this repo as a plugin marketplace, then install the plugin
@@ -67,7 +69,15 @@ Works as a plugin in both **[Claude Code](https://docs.claude.com/claude-code)**
 
 The skill is now invocable via `/property-deep-dive`. The plugin manifest pins to a specific [CalVer](#versioning) release — you'll get updates only when a new version is published, not on every commit.
 
-### Manual symlink (for skill development / contributing)
+### Claude Cowork (in-app)
+
+Cowork installs plugins from its own in-app plugin browser. Per [Anthropic's launch post](https://claude.com/blog/cowork-plugins) (2026-01-30): _"Easily install these directly from Cowork, browse the full collection on our website, or upload your own plugin."_
+
+To install this third-party plugin, follow Cowork's "upload your own plugin" path with the GitHub URL `github:soreavis/property-deep-dive`. The exact UI steps may evolve — defer to the [linked blog post](https://claude.com/blog/cowork-plugins) and [Anthropic's curated plugin repo](https://github.com/anthropics/knowledge-work-plugins) for the current flow.
+
+> **Cowork install scope (as of 2026-04)**: plugins save **locally per user**, not workspace-wide. Each teammate installs their own copy. Anthropic notes _"better support for org-wide sharing and management … coming in the weeks ahead"_ — this README will be updated when that lands.
+
+### Manual symlink (for skill development / contributing — Claude Code only)
 
 If you want to hack on the skill locally, clone the repo and symlink **the skill subdirectory** (not the whole repo) into Claude Code's skills directory:
 
@@ -79,7 +89,9 @@ ln -s ~/code/property-deep-dive/skills/property-deep-dive ~/.claude/skills/prope
 ls -la ~/.claude/skills/property-deep-dive
 ```
 
-The skill is now invocable via `/property-deep-dive` in Claude Code, with edits picked up immediately. SKILL.md, `shared/`, and `countries/` all live under `skills/property-deep-dive/`, so the skill is fully self-contained — every plugin host (Claude Code, Claude Cowork) ships the entire payload from a single folder.
+The skill is now invocable via `/property-deep-dive` in Claude Code, with edits picked up immediately. SKILL.md, `shared/`, and `countries/` all live under `skills/property-deep-dive/`, so the skill is fully self-contained — every plugin host ships the entire payload from a single folder.
+
+Cowork has no `~/.claude/skills/` equivalent; for Cowork local development use the "upload your own plugin" path described above.
 
 ## Try asking…
 
@@ -248,7 +260,7 @@ This repo uses **CalVer** (`YYYY.0M.MICRO`), not SemVer. Each tag encodes the re
 | `0M` | Zero-padded month (`04` for April) |
 | `MICRO` | In-month patch counter — `0` for the monthly cycle release; `1+` for factual corrections, URL fixes, regulatory-watch entries that landed mid-month |
 
-**Why CalVer instead of SemVer**: this is a content repo, not an API. The "version" tracks how recently the *content* was reviewed against primary sources, not API stability. Monthly grain aligns with how regulations actually drop — Finance Acts at fiscal year, ECJ rulings, EU Official Journal monthly L-series. The 30-day Tier-1 revisit cadence in `skills/property-deep-dive/shared/regulatory-watch.md` matches the same cadence.
+**Why CalVer instead of SemVer**: this is a content repo, not an API. The "version" tracks how recently the _content_ was reviewed against primary sources, not API stability. Monthly grain aligns with how regulations actually drop — Finance Acts at fiscal year, ECJ rulings, EU Official Journal monthly L-series. The 30-day Tier-1 revisit cadence in `skills/property-deep-dive/shared/regulatory-watch.md` matches the same cadence.
 
 **Tag triggers**:
 - `YYYY.0M.0` (monthly) — automated; tags the end of each month if any change landed on `main` since the previous tag

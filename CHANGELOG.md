@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Changed — Cowork install accuracy (2026-04-26)
+
+- README — separated the install flow into Claude Code (slash commands) vs Claude Cowork (in-app plugin browser, "upload your own plugin" path). Earlier copy claimed the slash-command path worked identically in both, which was overclaim — Cowork's user-facing install is GUI-driven per [Anthropic's launch post](https://claude.com/blog/cowork-plugins). Also flagged that Cowork plugin scope is per-user / local today (not workspace-wide), with org-wide sharing pending. Plugin format itself remains identical between products.
+
 ### Changed — plugin payload co-location (2026-04-26)
 
 - **Plugin payload co-located** under `skills/property-deep-dive/`. Moved `shared/` (34 files) and `countries/<iso2>/playbook.md` (44 files) into the skill folder so plugin hosts (Claude Cowork, Claude Code) ship the entire payload from a single self-contained directory. Without this, post-PR-#33 plugin installs only received `SKILL.md` and every `shared/*` reference inside it resolved to nothing — Cowork agents fell back to live research without the anti-hallucination contract. Path references inside SKILL.md / shared/*.md / countries/*/playbook.md remain relative and resolve unchanged. Outside-the-skill references (13 workflows, `scripts/sync-docs.py`, labeler/labels/PR template, 3 issue templates, README/CONTRIBUTING/CLAUDE/DISCLAIMER/SECURITY, docs/) updated to the new path.
