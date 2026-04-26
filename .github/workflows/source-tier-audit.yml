@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'countries/**/playbook.md'
+      - 'skills/property-deep-dive/countries/**/playbook.md'
 
 permissions:
   contents: read
@@ -92,7 +92,7 @@ jobs:
           subprocess.run(['git', 'fetch', '--depth=1', 'origin', base], check=False)
           out = subprocess.run(
               ['git', 'diff', '--name-only', '--diff-filter=ACMR',
-               f'origin/{base}...HEAD', '--', 'countries/*/playbook.md'],
+               f'origin/{base}...HEAD', '--', 'skills/property-deep-dive/countries/*/playbook.md'],
               capture_output=True, text=True, check=False
           ).stdout.strip().splitlines()
           if not out:
@@ -132,7 +132,7 @@ jobs:
           print()
           print('_Bands: 🟢 ≥60% primary · 🟡 35-59% · 🟠 <35%. Advisory only — does not block merge._')
           print()
-          print('See [`shared/anti-hallucination.md`](../blob/main/shared/anti-hallucination.md) § Source ranking for the full hierarchy.')
+          print('See [`shared/anti-hallucination.md`](../blob/main/skills/property-deep-dive/shared/anti-hallucination.md) § Source ranking for the full hierarchy.')
           PY
 
       - name: Sticky comment on PR

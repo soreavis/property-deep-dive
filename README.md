@@ -18,7 +18,7 @@
 Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rightmove.co.uk/properties/142857`, or coordinates — the skill:
 
 1. Detects the country (postcode pattern, country name, or `--country=<iso2>` flag)
-2. Loads the country's playbook from `countries/<iso2>/playbook.md`
+2. Loads the country's playbook from `skills/property-deep-dive/countries/<iso2>/playbook.md`
 3. Runs the requested sections (or `--all`)
 4. Applies the anti-hallucination guard
 5. Outputs to terminal or saves a Markdown report
@@ -79,7 +79,7 @@ ln -s ~/code/property-deep-dive/skills/property-deep-dive ~/.claude/skills/prope
 ls -la ~/.claude/skills/property-deep-dive
 ```
 
-The skill is now invocable via `/property-deep-dive` in Claude Code, with edits picked up immediately. The `shared/` and `countries/` directories at the repo root are still reachable from `SKILL.md` because plugin path resolution happens from the repo root, not the SKILL.md location.
+The skill is now invocable via `/property-deep-dive` in Claude Code, with edits picked up immediately. SKILL.md, `shared/`, and `countries/` all live under `skills/property-deep-dive/`, so the skill is fully self-contained — every plugin host (Claude Code, Claude Cowork) ships the entire payload from a single folder.
 
 ## Try asking…
 
@@ -126,15 +126,15 @@ See [Usage](#usage) below for the full flag reference and more examples.
 → side-by-side three-country comparison for retirees
 ```
 
-See `SKILL.md` for the full argument-hint and `shared/sections.md` for the section contract.
+See `skills/property-deep-dive/SKILL.md` for the full argument-hint and `skills/property-deep-dive/shared/sections.md` for the section contract.
 
 ## Anti-hallucination + regulatory watch
 
 This skill drives major financial decisions, so it's built around the contract that **every claim is either sourced, computed transparently, or labelled as uncertain**. Three layers enforce this:
 
-1. **Anti-hallucination guard** (`shared/anti-hallucination.md`) — 7 mandatory pre-output checks, source-tier ranking, forbidden-phrasing list, calibrated hedging
-2. **Regulatory watch** (`shared/regulatory-watch.md`) — single date-stamped registry tracking ENDED programs (golden visas, MEIN, NHR), recently enacted reforms (last 24 months), EU directive transposition deadlines, watchlist
-3. **Auto-downgrade rule** (`shared/updater.md` § Auto-downgrade) — confidence labels decay over time without re-verification (HIGH → MEDIUM at 6 months, LOW at 12 months, STALE at 18 months); regulatory-watch entries can force STALE regardless of age
+1. **Anti-hallucination guard** (`skills/property-deep-dive/shared/anti-hallucination.md`) — 7 mandatory pre-output checks, source-tier ranking, forbidden-phrasing list, calibrated hedging
+2. **Regulatory watch** (`skills/property-deep-dive/shared/regulatory-watch.md`) — single date-stamped registry tracking ENDED programs (golden visas, MEIN, NHR), recently enacted reforms (last 24 months), EU directive transposition deadlines, watchlist
+3. **Auto-downgrade rule** (`skills/property-deep-dive/shared/updater.md` § Auto-downgrade) — confidence labels decay over time without re-verification (HIGH → MEDIUM at 6 months, LOW at 12 months, STALE at 18 months); regulatory-watch entries can force STALE regardless of age
 
 Together: a 14-month-old playbook never silently displays "Confidence: HIGH", and a tax reform logged in regulatory-watch.md flags every affected playbook section until it's re-stamped.
 
@@ -163,7 +163,6 @@ These are **detection-only**; the fix step (re-research, URL replacement, regula
 
 ```
 property-deep-dive/
-├── SKILL.md                          # master router (~470 lines)
 ├── README.md
 ├── LICENSE                           # MIT
 ├── DISCLAIMER.md                     # decision-support, not legal/tax/financial advice
@@ -172,9 +171,13 @@ property-deep-dive/
 ├── SECURITY.md                       # scope + vulnerability reporting
 ├── CHANGELOG.md                      # CalVer-shaped, per release
 ├── CLAUDE.md                         # repo-specific notes for Claude Code sessions
+├── _regions.json                     # docs-build input — country region grouping
 ├── .editorconfig                     # cross-editor consistency
 ├── .markdownlint.json                # markdown lint rules used by pr-validate
 ├── .gitignore
+├── .claude-plugin/
+│   ├── plugin.json                   # plugin manifest (CalVer version)
+│   └── marketplace.json              # marketplace stub
 ├── .github/
 │   ├── CODEOWNERS
 │   ├── dependabot.yml                # monthly action-version updates
@@ -193,7 +196,7 @@ property-deep-dive/
 │       ├── link-check.yml            # lychee internal links (PR + weekly schedule)
 │       ├── changelog-enforcer.yml    # require [Unreleased] entry unless skip-labelled
 │       ├── url-liveness.yml          # weekly URL check, opens issue if score <85%
-│       ├── test-fixtures-check.yml   # monthly check of shared/test-fixtures.md listings
+│       ├── test-fixtures-check.yml   # monthly check of skills/property-deep-dive/shared/test-fixtures.md listings
 │       ├── health-report.yml         # monthly decay matrix → pinned issue
 │       ├── feed-watcher.yml          # 6-hourly EU/ECJ feed → opens issue when relevant
 │       ├── scorecard.yml             # OpenSSF Scorecard, weekly + on push to main
@@ -207,17 +210,19 @@ property-deep-dive/
 │       └── sign-release.yml          # sigstore keyless signing of release tarball
 ├── scripts/
 │   └── pin-actions.sh                # idempotent SHA-pin third-party actions
-├── shared/                           # 34 universal layer files (~8,700 lines)
-│   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
-│   ├── 22 section implementations (universal logic + per-country overlays)
-│   ├── regulatory-watch.md           # single source of truth for reform tracking
-│   ├── updater.md                    # maintenance mode + auto-downgrade rule
-│   └── 9 tooling docs
-└── countries/                        # 44 country playbooks (~17,400 lines)
-    └── <iso2>/playbook.md            # FR / IT / CZ / SK / DE / AT / CH / ES / PT / SE / ...
+└── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
+    ├── SKILL.md                      # master router (~470 lines)
+    ├── shared/                       # 34 universal layer files (~8,700 lines)
+    │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
+    │   ├── 22 section implementations (universal logic + per-country overlays)
+    │   ├── regulatory-watch.md       # single source of truth for reform tracking
+    │   ├── updater.md                # maintenance mode + auto-downgrade rule
+    │   └── 9 tooling docs
+    └── countries/                    # 44 country playbooks (~17,400 lines)
+        └── <iso2>/playbook.md        # FR / IT / CZ / SK / DE / AT / CH / ES / PT / SE / ...
 ```
 
-**Skill content**: 79 markdown files, ~26,500 lines (SKILL.md + 34 shared/ + 44 country playbooks).
+**Skill content** (under `skills/property-deep-dive/`): 79 markdown files, ~26,500 lines (SKILL.md + 34 shared/ + 44 country playbooks).
 **Repo total**: 91 markdown files, ~27,800 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
@@ -243,7 +248,7 @@ This repo uses **CalVer** (`YYYY.0M.MICRO`), not SemVer. Each tag encodes the re
 | `0M` | Zero-padded month (`04` for April) |
 | `MICRO` | In-month patch counter — `0` for the monthly cycle release; `1+` for factual corrections, URL fixes, regulatory-watch entries that landed mid-month |
 
-**Why CalVer instead of SemVer**: this is a content repo, not an API. The "version" tracks how recently the *content* was reviewed against primary sources, not API stability. Monthly grain aligns with how regulations actually drop — Finance Acts at fiscal year, ECJ rulings, EU Official Journal monthly L-series. The 30-day Tier-1 revisit cadence in `shared/regulatory-watch.md` matches the same cadence.
+**Why CalVer instead of SemVer**: this is a content repo, not an API. The "version" tracks how recently the *content* was reviewed against primary sources, not API stability. Monthly grain aligns with how regulations actually drop — Finance Acts at fiscal year, ECJ rulings, EU Official Journal monthly L-series. The 30-day Tier-1 revisit cadence in `skills/property-deep-dive/shared/regulatory-watch.md` matches the same cadence.
 
 **Tag triggers**:
 - `YYYY.0M.0` (monthly) — automated; tags the end of each month if any change landed on `main` since the previous tag

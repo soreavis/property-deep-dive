@@ -8,11 +8,11 @@ Used by:
 - Manually after content changes (new country, new section flag)
 
 Sources of truth:
-- countries/                directory contents → country count
-- shared/*.md               → shared file count
-- .github/workflows/*.yml   → workflow count
-- SKILL.md argument-hint    → section flag count
-- _regions.json             → region grouping for country matrix
+- skills/property-deep-dive/countries/   directory contents → country count
+- skills/property-deep-dive/shared/*.md  → shared file count
+- .github/workflows/*.yml                → workflow count
+- skills/property-deep-dive/SKILL.md     → section flag count (argument-hint)
+- _regions.json                          → region grouping for country matrix
 
 Examples:
     ./scripts/sync-docs.py            # write changes
@@ -30,6 +30,10 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SKILL_DIR = ROOT / 'skills' / 'property-deep-dive'
+SHARED_DIR = SKILL_DIR / 'shared'
+COUNTRIES_DIR = SKILL_DIR / 'countries'
+SKILL_MD = SKILL_DIR / 'SKILL.md'
 REGIONS_FILE = ROOT / '_regions.json'
 EXCLUDE_DIRS = {'_local', '.git', 'node_modules'}
 
@@ -42,12 +46,10 @@ def _all_md_files():
         yield f
 
 def count_country_dirs() -> int:
-    countries = ROOT / 'countries'
-    return sum(1 for d in countries.iterdir() if d.is_dir()) if countries.exists() else 0
+    return sum(1 for d in COUNTRIES_DIR.iterdir() if d.is_dir()) if COUNTRIES_DIR.exists() else 0
 
 def count_shared_files() -> int:
-    shared = ROOT / 'shared'
-    return len(list(shared.glob('*.md'))) if shared.exists() else 0
+    return len(list(SHARED_DIR.glob('*.md'))) if SHARED_DIR.exists() else 0
 
 def count_workflows() -> int:
     wf = ROOT / '.github' / 'workflows'
@@ -77,18 +79,17 @@ def count_total_md_lines() -> int:
     return total
 
 def count_skill_md_files() -> int:
-    n = 1 if (ROOT / 'skills' / 'property-deep-dive' / 'SKILL.md').exists() else 0
+    n = 1 if SKILL_MD.exists() else 0
     n += count_shared_files()
-    n += len(list((ROOT / 'countries').glob('*/playbook.md')))
+    n += len(list(COUNTRIES_DIR.glob('*/playbook.md')))
     return n
 
 def count_skill_md_lines() -> int:
     paths = []
-    skill = ROOT / 'skills' / 'property-deep-dive' / 'SKILL.md'
-    if skill.exists():
-        paths.append(skill)
-    paths.extend((ROOT / 'shared').glob('*.md'))
-    paths.extend((ROOT / 'countries').glob('*/playbook.md'))
+    if SKILL_MD.exists():
+        paths.append(SKILL_MD)
+    paths.extend(SHARED_DIR.glob('*.md'))
+    paths.extend(COUNTRIES_DIR.glob('*/playbook.md'))
     total = 0
     for p in paths:
         try:
@@ -98,10 +99,9 @@ def count_skill_md_lines() -> int:
     return total
 
 def count_section_flags() -> int:
-    skill = ROOT / 'skills' / 'property-deep-dive' / 'SKILL.md'
-    if not skill.exists():
+    if not SKILL_MD.exists():
         return 0
-    text = skill.read_text(encoding='utf-8')
+    text = SKILL_MD.read_text(encoding='utf-8')
     m = re.search(r'argument-hint:\s*"([^"]+)"', text)
     if not m:
         return 0
@@ -200,7 +200,7 @@ INLINE_REPLACEMENTS: list[tuple[str, str, str]] = [
     ('README.md',
      r'\*\*\d+ user-invocable sections\*\*',
      '**{sections} user-invocable sections**'),
-    # README architecture comment for shared/
+    # README architecture comment for skills/property-deep-dive/shared/
     ('README.md',
      r'(\d+) universal layer files \(~[\d,]+ lines\)',
      '{shared} universal layer files (~{shared_lines_rnd:,} lines)'),
@@ -240,8 +240,8 @@ def apply_inline(text: str, file_name: str, facts: dict) -> str:
     # `shared_lines` derived once for the inline replacements that need it
     shared_lines = sum(
         sum(1 for _ in p.open(encoding='utf-8'))
-        for p in (ROOT / 'shared').glob('*.md')
-    ) if (ROOT / 'shared').exists() else 0
+        for p in SHARED_DIR.glob('*.md')
+    ) if SHARED_DIR.exists() else 0
     fmt_facts = {**facts, 'shared_lines': shared_lines, 'shared_lines_rnd': _round_100(shared_lines)}
     new = text
     for f, pattern, template in INLINE_REPLACEMENTS:
@@ -279,8 +279,7 @@ def check_regions_consistency(regions: dict) -> list[str]:
     for c in sorted(duplicates):
         warnings.append(f"Country '{c}' appears in multiple regions in _regions.json")
 
-    countries_dir = ROOT / 'countries'
-    fs_codes = {d.name for d in countries_dir.iterdir() if d.is_dir()} if countries_dir.exists() else set()
+    fs_codes = {d.name for d in COUNTRIES_DIR.iterdir() if d.is_dir()} if COUNTRIES_DIR.exists() else set()
     region_code_set = set(region_codes)
     only_regions = region_code_set - fs_codes
     only_fs = fs_codes - region_code_set

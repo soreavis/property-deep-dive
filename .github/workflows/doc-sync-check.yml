@@ -4,9 +4,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'countries/**'
-      - 'shared/**'
-      - 'skills/property-deep-dive/SKILL.md'
+      - 'skills/property-deep-dive/**'
       - 'README.md'
       - 'CONTRIBUTING.md'
       - 'SECURITY.md'
@@ -59,7 +57,7 @@ jobs:
                 ``,
                 `**Action**: run \`./scripts/sync-docs.py\` locally and commit the result.`,
                 ``,
-                `Most likely cause: a recent merge added/removed a country, section flag, shared/ file, or workflow without re-running sync-docs.`,
+                `Most likely cause: a recent merge added/removed a country, section flag, skills/property-deep-dive/shared/ file, or workflow without re-running sync-docs.`,
               ].join('\n'),
               labels: ['maintenance', 'documentation'],
             });

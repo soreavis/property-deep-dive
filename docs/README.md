@@ -25,12 +25,12 @@ Full documentation for **property-deep-dive**. Most content lives at the repo ro
 | File | Role |
 |---|---|
 | [SKILL.md](../skills/property-deep-dive/SKILL.md) | Master router — argument-hint, section catalog, country matrix |
-| [shared/anti-hallucination.md](../shared/anti-hallucination.md) | The 7 mandatory pre-output checks the skill enforces |
-| [shared/regulatory-watch.md](../shared/regulatory-watch.md) | Date-stamped tracker of ENDED programmes + recent reforms + transposition deadlines |
-| [shared/sections.md](../shared/sections.md) | Universal section contract |
-| [shared/output-template.md](../shared/output-template.md) | Canonical section formatting |
-| [shared/verdict-bands.md](../shared/verdict-bands.md) | 🟢 🟡 🟠 🔴 severity contract |
+| [shared/anti-hallucination.md](../skills/property-deep-dive/shared/anti-hallucination.md) | The 7 mandatory pre-output checks the skill enforces |
+| [shared/regulatory-watch.md](../skills/property-deep-dive/shared/regulatory-watch.md) | Date-stamped tracker of ENDED programmes + recent reforms + transposition deadlines |
+| [shared/sections.md](../skills/property-deep-dive/shared/sections.md) | Universal section contract |
+| [shared/output-template.md](../skills/property-deep-dive/shared/output-template.md) | Canonical section formatting |
+| [shared/verdict-bands.md](../skills/property-deep-dive/shared/verdict-bands.md) | 🟢 🟡 🟠 🔴 severity contract |
 
 ## Country playbooks
 
-44 fully-populated country playbooks live in [`countries/<iso2>/playbook.md`](../countries/) — open the directory to browse them.
+44 fully-populated country playbooks live in [`skills/property-deep-dive/countries/<iso2>/playbook.md`](../skills/property-deep-dive/countries/) — open the directory to browse them.

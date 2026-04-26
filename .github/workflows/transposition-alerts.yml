@@ -1,6 +1,6 @@
 name: EU transposition deadline alerts
 
-# Daily cron parses shared/regulatory-watch.md for entries with a future
+# Daily cron parses skills/property-deep-dive/shared/regulatory-watch.md for entries with a future
 # effective_date and fires a one-time issue when the countdown hits any of:
 #   T-90 days · T-30 days · T-14 days · T-0 (effective today)
 #
@@ -43,7 +43,7 @@ jobs:
           today = date.today()
           THRESHOLDS = [90, 30, 14, 0]
 
-          path = 'shared/regulatory-watch.md'
+          path = 'skills/property-deep-dive/shared/regulatory-watch.md'
           with open(path, encoding='utf-8') as f:
               text = f.read()
 
@@ -147,7 +147,7 @@ jobs:
                   '- Draft the playbook patch in a feature branch (do not merge yet — wait for the rule to land).\n- Confirm the source URL still resolves and points at the final text.\n- Re-stamp `**Last verified**` AFTER the rule is in force, not before.' :
                 a.threshold >= 14 ?
                   '- Final-pass the draft patch.\n- If the rule has been delayed (parliamentary slippage, ECJ ruling pending), update `regulatory-watch.md` `effective_date` and re-stamp this issue.' :
-                  '- Patch every affected playbook today.\n- Re-stamp `**Last verified**` to today.\n- If the entry ENDS a programme, also update `shared/visa-programs.md` AND the ENDED registry table at the top of `regulatory-watch.md`.',
+                  '- Patch every affected playbook today.\n- Re-stamp `**Last verified**` to today.\n- If the entry ENDS a programme, also update `skills/property-deep-dive/shared/visa-programs.md` AND the ENDED registry table at the top of `regulatory-watch.md`.',
                 ``,
                 `---`,
                 ``,

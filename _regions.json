@@ -1,5 +1,5 @@
 {
-  "_comment": "Single source of truth for country-region grouping. Edit this when adding or moving a country. The regions.label string appears verbatim in README.md country matrix; codes order determines render order. Country code → playbook directory must match countries/<code>/playbook.md.",
+  "_comment": "Single source of truth for country-region grouping. Edit this when adding or moving a country. The regions.label string appears verbatim in README.md country matrix; codes order determines render order. Country code → playbook directory must match skills/property-deep-dive/countries/<code>/playbook.md.",
   "regions": [
     {
       "id": "europe_core",

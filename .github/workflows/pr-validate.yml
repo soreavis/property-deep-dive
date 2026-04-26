@@ -57,7 +57,10 @@ jobs:
           # Allowlist files where forbidden phrasings ARE expected (the rules + their documentation).
           # docs/ is excluded entirely — the docs folder explains the contract (and so quotes the
           # forbidden phrases) rather than producing skill output.
-          grep -vE '(anti-hallucination\.md|README\.md|CONTRIBUTING\.md|CLAUDE\.md|SECURITY\.md|CODE_OF_CONDUCT\.md|CHANGELOG\.md|SKILL\.md|pull_request_template\.md)$|^\./docs/' _ci_changed.txt > _ci_scan.txt || true
+          # Match docs/ both with and without a leading ./ — `git diff --name-only` (PR runs)
+          # emits paths like `docs/security.md` while `find . -name '*.md'` (push runs) emits
+          # `./docs/security.md`. Allowlisting only one form silently lets the other through.
+          grep -vE '(anti-hallucination\.md|README\.md|CONTRIBUTING\.md|CLAUDE\.md|SECURITY\.md|CODE_OF_CONDUCT\.md|CHANGELOG\.md|SKILL\.md|pull_request_template\.md)$|^(\./)?docs/' _ci_changed.txt > _ci_scan.txt || true
           echo "Files to scan: $(wc -l < _ci_scan.txt)"
 
       - name: Scan for forbidden phrasings
@@ -79,7 +82,7 @@ jobs:
             [ -z "$f" ] && continue
             [ ! -f "$f" ] && continue
             if grep -inE "$ALWAYS_FAIL" "$f"; then
-              echo "::error file=$f::Forbidden phrasing (always-fail) — see shared/anti-hallucination.md § Forbidden phrasings"
+              echo "::error file=$f::Forbidden phrasing (always-fail) — see skills/property-deep-dive/shared/anti-hallucination.md § Forbidden phrasings"
               fail=1
             fi
             if grep -inE "$NEAR_NUMBER" "$f"; then
@@ -90,7 +93,7 @@ jobs:
 
           if [ "$fail" -eq 1 ]; then
             echo
-            echo "Replacement table: shared/anti-hallucination.md § Forbidden phrasings"
+            echo "Replacement table: skills/property-deep-dive/shared/anti-hallucination.md § Forbidden phrasings"
             exit 1
           fi
           echo "✅ No forbidden phrasings found."
@@ -111,9 +114,9 @@ jobs:
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             base="origin/${{ github.base_ref }}"
             git fetch --depth=1 origin "${{ github.base_ref }}" || true
-            changed=$(git diff --name-only --diff-filter=ACMR "$base...HEAD" -- 'countries/*/playbook.md' || true)
+            changed=$(git diff --name-only --diff-filter=ACMR "$base...HEAD" -- 'skills/property-deep-dive/countries/*/playbook.md' || true)
           else
-            changed=$(find countries -name 'playbook.md' 2>/dev/null || true)
+            changed=$(find skills/property-deep-dive/countries -name 'playbook.md' 2>/dev/null || true)
           fi
           [ -z "$changed" ] && { echo "No playbook changes — skipping."; exit 0; }
 
@@ -170,9 +173,9 @@ jobs:
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             base="origin/${{ github.base_ref }}"
             git fetch --depth=1 origin "${{ github.base_ref }}" || true
-            git diff --name-only --diff-filter=ACMR "$base...HEAD" -- 'countries/*/playbook.md' > _changed.txt
+            git diff --name-only --diff-filter=ACMR "$base...HEAD" -- 'skills/property-deep-dive/countries/*/playbook.md' > _changed.txt
           else
-            find countries -name 'playbook.md' > _changed.txt 2>/dev/null || true
+            find skills/property-deep-dive/countries -name 'playbook.md' > _changed.txt 2>/dev/null || true
           fi
           echo "playbooks=$(wc -l < _changed.txt)"
 

@@ -13,9 +13,9 @@ For factual corrections + new countries, complete the relevant section.
 - [ ] Broken URL replacement
 - [ ] New country playbook (must hit FR/IT/CZ/SK density: ~400-500 lines, 22 sections, primary sources)
 - [ ] Regulatory-watch entry (recent reform, ENDED programme, EU directive transposition)
-- [ ] New universal section flag (`shared/<section>.md` + SKILL.md registration)
-- [ ] New tooling doc (`shared/<tool>.md` + SKILL.md registration)
-- [ ] Anti-hallucination behaviour fix (`shared/anti-hallucination.md`)
+- [ ] New universal section flag (`skills/property-deep-dive/shared/<section>.md` + SKILL.md registration)
+- [ ] New tooling doc (`skills/property-deep-dive/shared/<tool>.md` + SKILL.md registration)
+- [ ] Anti-hallucination behaviour fix (`skills/property-deep-dive/shared/anti-hallucination.md`)
 - [ ] Documentation / README / CONTRIBUTING / structural
 - [ ] Other (explain above)
 
@@ -43,8 +43,8 @@ For factual corrections + new countries, complete the relevant section.
 
 - [ ] If a new country was added, `SKILL.md` country support matrix updated
 - [ ] If a regulatory-watch entry was added, every affected country playbook section was re-stamped (use the entry's `playbook_sections_touched` field)
-- [ ] If shared/ logic was changed, all affected country playbooks remain consistent
-- [ ] If a programme ENDED, `shared/visa-programs.md` AND the ENDED registry in `shared/regulatory-watch.md` are both updated
+- [ ] If skills/property-deep-dive/shared/ logic was changed, all affected country playbooks remain consistent
+- [ ] If a programme ENDED, `skills/property-deep-dive/shared/visa-programs.md` AND the ENDED registry in `skills/property-deep-dive/shared/regulatory-watch.md` are both updated
 
 ## Privacy + repo hygiene
 

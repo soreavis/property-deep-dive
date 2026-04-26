@@ -1,6 +1,6 @@
 name: Regulatory-watch revisit
 
-# Daily cron: parses shared/regulatory-watch.md and opens a single tracking
+# Daily cron: parses skills/property-deep-dive/shared/regulatory-watch.md and opens a single tracking
 # issue listing every entry whose `revisit_by` date has passed.
 #
 # The file is the SoT for "what changed when". When an entry's revisit window
@@ -18,7 +18,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'shared/regulatory-watch.md'
+      - 'skills/property-deep-dive/shared/regulatory-watch.md'
       - '.github/workflows/regulatory-watch-revisit.yml'
   workflow_dispatch:
 
@@ -43,7 +43,7 @@ jobs:
           from datetime import date
 
           today = date.today()
-          path = 'shared/regulatory-watch.md'
+          path = 'skills/property-deep-dive/shared/regulatory-watch.md'
           with open(path, encoding='utf-8') as f:
               text = f.read()
 
@@ -97,7 +97,7 @@ jobs:
           if not overdue:
               print('## ✅ No overdue regulatory-watch entries')
               print()
-              print(f'_Scanned `shared/regulatory-watch.md` on {today.isoformat()} — every entry is within its revisit window._')
+              print(f'_Scanned `skills/property-deep-dive/shared/regulatory-watch.md` on {today.isoformat()} — every entry is within its revisit window._')
               # Sentinel marker so the next step knows there's nothing to open.
               with open('_overdue.flag', 'w') as f:
                   f.write('clean')
@@ -110,7 +110,7 @@ jobs:
           print()
           print(f'**{len(overdue)}** entries past their `revisit_by` date as of **{today.isoformat()}**.')
           print()
-          print('Re-verify each against the linked primary source. After confirmation, update `verified_date` + `revisit_by` in `shared/regulatory-watch.md`. If the underlying rule has changed, patch the affected playbooks before re-stamping.')
+          print('Re-verify each against the linked primary source. After confirmation, update `verified_date` + `revisit_by` in `skills/property-deep-dive/shared/regulatory-watch.md`. If the underlying rule has changed, patch the affected playbooks before re-stamping.')
           print()
           print('| Country | Topic | Effective | Summary | Source | Last verified | Days overdue | Tier | Sections |')
           print('|---|---|---|---|---|---|--:|:-:|---|')
@@ -125,7 +125,7 @@ jobs:
           print('- **Tier 3 (MEANINGFUL)** — Threshold/credit/exemption tweak.')
           print('- **Tier 4 (INCREMENTAL)** — Indexation, fee tweak, watchlist signal.')
           print()
-          print('See [`shared/regulatory-watch.md`](../blob/main/shared/regulatory-watch.md) for the full registry and impact-tier definitions.')
+          print('See [`shared/regulatory-watch.md`](../blob/main/skills/property-deep-dive/shared/regulatory-watch.md) for the full registry and impact-tier definitions.')
           PY
 
       - name: Open or update the tracking issue

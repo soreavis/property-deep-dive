@@ -14,7 +14,7 @@ The full argument-hint and section catalog live in [SKILL.md](../skills/property
 /property-deep-dive 1 Rue Principale, 86430 Adriers, France --all
 ```
 
-The skill detects France by postcode, loads `countries/fr/playbook.md`, runs all 22 sections (price · traffic · tax · rental · work · risks · mains · crime · amenities · climate · finance · currency · visa · insurance · notary · compare · retirement · digital-nomad · macro · demographics · esg · exit), and prints to terminal.
+The skill detects France by postcode, loads `skills/property-deep-dive/countries/fr/playbook.md`, runs all 22 sections (price · traffic · tax · rental · work · risks · mains · crime · amenities · climate · finance · currency · visa · insurance · notary · compare · retirement · digital-nomad · macro · demographics · esg · exit), and prints to terminal.
 
 ## 2. Targeted facets, save report to file
 
@@ -90,4 +90,4 @@ See [SKILL.md](../skills/property-deep-dive/SKILL.md) for the complete argument-
 
 ## Country support
 
-44 fully-populated country playbooks. Browse [`countries/`](../countries/) or see the [country matrix in README](../README.md#country-support).
+44 fully-populated country playbooks. Browse [`skills/property-deep-dive/countries/`](../skills/property-deep-dive/countries/) or see the [country matrix in README](../README.md#country-support).

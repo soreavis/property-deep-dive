@@ -49,7 +49,7 @@ The following are explicitly NOT security issues for this skill:
 - "The skill ran slowly" — performance is governed by the LLM runtime, not this skill
 - "An external primary-source government portal returned an error" — that's the upstream's reliability, not ours; report it via **broken-url** if persistent
 - "The skill said `verify with a local notary` instead of giving a definitive answer" — that's the anti-hallucination contract working as designed
-- "A specific listing platform blocks the skill" — if a listing aggregator blocks our `User-Agent`, that's documented in `shared/test-fixtures.md` (~21 of 44 known bot-protected as of last audit)
+- "A specific listing platform blocks the skill" — if a listing aggregator blocks our `User-Agent`, that's documented in `skills/property-deep-dive/shared/test-fixtures.md` (~21 of 44 known bot-protected as of last audit)
 
 ## Acknowledgement
 

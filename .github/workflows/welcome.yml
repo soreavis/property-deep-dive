@@ -28,9 +28,9 @@ jobs:
 
             A few things that help us help you:
 
-            - **For factual corrections** (wrong tax rate, dead URL, ENDED programme listed as active), please link a **primary government source** — see [`shared/anti-hallucination.md`](../blob/main/shared/anti-hallucination.md) for what counts.
+            - **For factual corrections** (wrong tax rate, dead URL, ENDED programme listed as active), please link a **primary government source** — see [`shared/anti-hallucination.md`](../blob/main/skills/property-deep-dive/shared/anti-hallucination.md) for what counts.
             - **For new countries**, please skim [`CONTRIBUTING.md`](../blob/main/CONTRIBUTING.md) — the bar is FR/IT/CZ/SK density (~400-500 lines, 22 sections).
-            - **For regulatory-watch entries**, please include the effective date + tier (1-4) per the schema in [`shared/regulatory-watch.md`](../blob/main/shared/regulatory-watch.md).
+            - **For regulatory-watch entries**, please include the effective date + tier (1-4) per the schema in [`shared/regulatory-watch.md`](../blob/main/skills/property-deep-dive/shared/regulatory-watch.md).
 
             A maintainer will triage shortly.
 

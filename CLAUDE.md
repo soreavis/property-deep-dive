@@ -12,13 +12,13 @@ This skill drives six- to seven-figure property decisions. **Every claim must be
 
 If a number can't satisfy any of those, write `data not publicly available — verify at <authoritative source>` rather than guessing.
 
-The 7 mandatory pre-output checks are in [`shared/anti-hallucination.md`](./shared/anti-hallucination.md). They are non-negotiable for any output the skill produces.
+The 7 mandatory pre-output checks are in [`shared/anti-hallucination.md`](./skills/property-deep-dive/shared/anti-hallucination.md). They are non-negotiable for any output the skill produces.
 
 **Forbidden phrasings** (these phrases generate fabrication pressure):
 
 > "approximately X" · "in the area of" · "typical for the region" · "as of recent data" · "industry average" · "experts say" · "studies show" · "should be around" · "is likely connected to"
 
-Replacement table is in `shared/anti-hallucination.md` under "Forbidden phrasings".
+Replacement table is in `skills/property-deep-dive/shared/anti-hallucination.md` under "Forbidden phrasings".
 
 ## Source ranking — never silently upgrade
 
@@ -37,7 +37,7 @@ When two same-tier sources disagree → output BOTH, explain the gap, name which
 
 - **Density target**: ~400-500 lines, FR/IT/CZ/SK as the canonical examples
 - **Date-stamp every numeric fact**: `(<year> data, source <X>)`. If >12 months old, append `— rates/figures may have changed since`
-- **Parcel vs commune**: never silently elevate commune-level data to parcel-level claims (see `shared/anti-hallucination.md` § Address-vs-commune trap)
+- **Parcel vs commune**: never silently elevate commune-level data to parcel-level claims (see `skills/property-deep-dive/shared/anti-hallucination.md` § Address-vs-commune trap)
 - **Listing claims**: tag with `(per listing — verify with cadastre / on visit)`
 - **Status footer**: every playbook ends with `## Status` + `**Confidence**: HIGH/MEDIUM/LOW` + ideally `**Last verified**: YYYY-MM-DD`
 
@@ -45,12 +45,12 @@ When two same-tier sources disagree → output BOTH, explain the gap, name which
 
 The flow is: **regulatory-watch.md FIRST, then playbook patch**.
 
-1. Add a date-stamped entry to [`shared/regulatory-watch.md`](./shared/regulatory-watch.md) with: country, topic, effective date, source URL, verified date, revisit cadence, impact tier (1-4), affected sections
+1. Add a date-stamped entry to [`shared/regulatory-watch.md`](./skills/property-deep-dive/shared/regulatory-watch.md) with: country, topic, effective date, source URL, verified date, revisit cadence, impact tier (1-4), affected sections
 2. Patch every affected country playbook (the entry's `playbook_sections_touched` field is the lookup)
 3. Re-stamp the section's `**Last verified**` date in each patched playbook
-4. If the reform ENDED a program (visa / CBI / NHR), update `shared/visa-programs.md` AND the ENDED registry table at the top of `regulatory-watch.md`
+4. If the reform ENDED a program (visa / CBI / NHR), update `skills/property-deep-dive/shared/visa-programs.md` AND the ENDED registry table at the top of `regulatory-watch.md`
 
-The auto-downgrade rule (in [`shared/updater.md`](./shared/updater.md) § Auto-downgrade) will surface stale claims at render time even if you forget step 3 — but the goal is to never let it.
+The auto-downgrade rule (in [`shared/updater.md`](./skills/property-deep-dive/shared/updater.md) § Auto-downgrade) will surface stale claims at render time even if you forget step 3 — but the goal is to never let it.
 
 ## Maintenance commands you'll actually use
 
@@ -67,21 +67,25 @@ Always run `--diff` first if you're uncertain. `--interactive` is the safest mod
 ## File map (where things live)
 
 ```
-SKILL.md                              # master router — argument-hint, section catalog, country matrix
-shared/
-├── anti-hallucination.md             # 7 mandatory checks (read first when editing output logic)
-├── regulatory-watch.md               # date-stamped reform tracker (read first when fixing tax/visa)
-├── updater.md                        # maintenance mode + auto-downgrade rule
-├── verdict-bands.md                  # 🟢🟡🟠🔴 severity contract
-├── output-template.md                # canonical section formatting
-├── sections.md                       # universal section contract
-├── preflight.md                      # country detection + listing parse
-├── visa-programs.md                  # ENDED registry source of truth
-├── <22 section implementations>      # one per --<flag>
-└── <9 tooling docs>                  # tco / mortgage / fixtures / diff-watcher / etc.
-countries/<iso2>/playbook.md          # 44 country playbooks
-.github/workflows/                    # weekly URL liveness, monthly health report, 6h feed watcher
+skills/property-deep-dive/                # the skill payload (everything plugin hosts ship)
+├── SKILL.md                              # master router — argument-hint, section catalog, country matrix
+├── shared/
+│   ├── anti-hallucination.md             # 7 mandatory checks (read first when editing output logic)
+│   ├── regulatory-watch.md               # date-stamped reform tracker (read first when fixing tax/visa)
+│   ├── updater.md                        # maintenance mode + auto-downgrade rule
+│   ├── verdict-bands.md                  # 🟢🟡🟠🔴 severity contract
+│   ├── output-template.md                # canonical section formatting
+│   ├── sections.md                       # universal section contract
+│   ├── preflight.md                      # country detection + listing parse
+│   ├── visa-programs.md                  # ENDED registry source of truth
+│   ├── <22 section implementations>      # one per --<flag>
+│   └── <9 tooling docs>                  # tco / mortgage / fixtures / diff-watcher / etc.
+└── countries/<iso2>/playbook.md          # 44 country playbooks
+.github/workflows/                        # weekly URL liveness, monthly health report, 6h feed watcher
+_regions.json                             # docs-build input (README country matrix grouping) — NOT loaded by the skill at runtime
 ```
+
+References inside SKILL.md / shared/*.md / countries/*/playbook.md use *relative* paths (`shared/X.md`, `countries/<iso2>/playbook.md`) — they resolve correctly because the skill is self-contained under `skills/property-deep-dive/`. References from outside the skill folder (CI workflows, docs, scripts) use the full repo-relative path.
 
 ## What NOT to do
 
@@ -89,7 +93,7 @@ countries/<iso2>/playbook.md          # 44 country playbooks
 - ❌ Don't fabricate URL replacements during `--update`. If a broken URL has no clean replacement, mark `❌ DEPRECATED — primary source removed; verify with <fallback authority>` and surface in the run-quality notes.
 - ❌ Don't bypass `--diff` in batch updates — always preview before writing.
 - ❌ Don't re-stamp `Last verified` based on URL-200 alone. URL-liveness ≠ data-still-current. Re-verify the actual numbers against the source content.
-- ❌ Don't add a new universal section without registering it in `SKILL.md` argument-hint AND the Sections table.
+- ❌ Don't add a new universal section without registering it in `skills/property-deep-dive/SKILL.md` argument-hint AND the Sections table.
 - ❌ Don't `git add _local/` or `*.bak-*` artifacts. They're gitignored locally; if you see them on `git status`, something's off.
 
 ## When in doubt

@@ -110,10 +110,11 @@ jobs:
 
           per_country = defaultdict(list)
           per_other = []
+          country_prefix = './skills/property-deep-dive/countries/'
           for path, entries in sorted(findings.items()):
               # Bucket countries together
-              if path.startswith('./countries/'):
-                  iso2 = path.split('/')[2].upper()
+              if path.startswith(country_prefix):
+                  iso2 = path[len(country_prefix):].split('/', 1)[0].upper()
                   per_country[iso2].append((path, entries))
               else:
                   per_other.append((path, entries))

@@ -3,36 +3,36 @@
 
 country:
   - changed-files:
-      - any-glob-to-any-file: 'countries/**'
+      - any-glob-to-any-file: 'skills/property-deep-dive/countries/**'
 
 region-europe-core:
   - changed-files:
       - any-glob-to-any-file:
-          - 'countries/{fr,it,cz,sk,de,at,ch,es,pt,se,fi,no,uk,nl,be,dk,is,si,ie,gr,pl,ee,hr,hu}/**'
+          - 'skills/property-deep-dive/countries/{fr,it,cz,sk,de,at,ch,es,pt,se,fi,no,uk,nl,be,dk,is,si,ie,gr,pl,ee,hr,hu}/**'
 
 region-anglo:
   - changed-files:
       - any-glob-to-any-file:
-          - 'countries/{ca,au,nz}/**'
+          - 'skills/property-deep-dive/countries/{ca,au,nz}/**'
 
 region-latam:
   - changed-files:
       - any-glob-to-any-file:
-          - 'countries/{mx,br,ar,cr,pa}/**'
+          - 'skills/property-deep-dive/countries/{mx,br,ar,cr,pa}/**'
 
 region-balkans:
   - changed-files:
       - any-glob-to-any-file:
-          - 'countries/{rs,me,ba,mk,al}/**'
+          - 'skills/property-deep-dive/countries/{rs,me,ba,mk,al}/**'
 
 region-eu-completion:
   - changed-files:
       - any-glob-to-any-file:
-          - 'countries/{lt,lv,ro,bg,lu,cy,mt}/**'
+          - 'skills/property-deep-dive/countries/{lt,lv,ro,bg,lu,cy,mt}/**'
 
 shared:
   - changed-files:
-      - any-glob-to-any-file: 'shared/**'
+      - any-glob-to-any-file: 'skills/property-deep-dive/shared/**'
 
 router:
   - changed-files:
@@ -61,21 +61,21 @@ config:
           - '.markdownlint.json'
           - '.gitignore'
 
-# regulatory-watch: applied automatically when shared/regulatory-watch.md changes.
+# regulatory-watch: applied automatically when skills/property-deep-dive/shared/regulatory-watch.md changes.
 # (The same label is also applied via the regulatory-watch issue template.)
 regulatory-watch:
   - changed-files:
       - any-glob-to-any-file:
-          - 'shared/regulatory-watch.md'
-          - 'shared/visa-programs.md'
+          - 'skills/property-deep-dive/shared/regulatory-watch.md'
+          - 'skills/property-deep-dive/shared/visa-programs.md'
 
 # anti-hallucination: changes to the contract itself
 anti-hallucination:
   - changed-files:
       - any-glob-to-any-file:
-          - 'shared/anti-hallucination.md'
-          - 'shared/integrity-checks.md'
-          - 'shared/verdict-bands.md'
+          - 'skills/property-deep-dive/shared/anti-hallucination.md'
+          - 'skills/property-deep-dive/shared/integrity-checks.md'
+          - 'skills/property-deep-dive/shared/verdict-bands.md'
 
 documentation:
   - changed-files:

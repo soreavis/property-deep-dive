@@ -123,7 +123,7 @@
 
 - name: shared
   color: "bfd4f2"
-  description: Touches shared/ universal sections or tooling
+  description: Touches skills/property-deep-dive/shared/ universal sections or tooling
 
 - name: router
   color: "f9d0c4"

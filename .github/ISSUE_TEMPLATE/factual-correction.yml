@@ -14,7 +14,7 @@ body:
     id: country
     attributes:
       label: Country (ISO2)
-      description: Two-letter code, lowercase. e.g. `fr`, `it`, `pt`. Use `shared` if the error is in a shared/<file>.md (cross-country).
+      description: Two-letter code, lowercase. e.g. `fr`, `it`, `pt`. Use `shared` if the error is in a skills/property-deep-dive/shared/<file>.md (cross-country).
       placeholder: fr
     validations:
       required: true
@@ -23,8 +23,8 @@ body:
     id: file
     attributes:
       label: File + line (if known)
-      description: e.g. `countries/fr/playbook.md:147` or `shared/visa-programs.md:88`
-      placeholder: countries/fr/playbook.md:147
+      description: e.g. `skills/property-deep-dive/countries/fr/playbook.md:147` or `skills/property-deep-dive/shared/visa-programs.md:88`
+      placeholder: skills/property-deep-dive/countries/fr/playbook.md:147
     validations:
       required: false
 
@@ -119,7 +119,7 @@ body:
     attributes:
       label: Should this trigger a regulatory-watch entry? (optional)
       description: |
-        If this correction reflects a recent reform (last 24 months, or pending), it should also land in `shared/regulatory-watch.md`. Suggest the entry here:
+        If this correction reflects a recent reform (last 24 months, or pending), it should also land in `skills/property-deep-dive/shared/regulatory-watch.md`. Suggest the entry here:
 
         `<effective_date> | <topic> | <one-line summary> | <source name> | <verified_date> | <revisit_by> | <tier 1-4> | <sections>`
       placeholder: |

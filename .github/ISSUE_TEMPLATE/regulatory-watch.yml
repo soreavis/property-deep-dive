@@ -1,12 +1,12 @@
 name: Regulatory-watch entry
-description: Log a tax / rental / visa / finance / ownership reform that should be tracked in shared/regulatory-watch.md and may invalidate one or more playbook sections
+description: Log a tax / rental / visa / finance / ownership reform that should be tracked in skills/property-deep-dive/shared/regulatory-watch.md and may invalidate one or more playbook sections
 title: "[reg-watch] <iso2>: <topic> — <effective date>"
 labels: ["regulatory-watch", "maintenance"]
 body:
   - type: markdown
     attributes:
       value: |
-        `shared/regulatory-watch.md` is the single date-stamped source of truth for "what changed when". Tier 1/2 entries can force-downgrade affected sections to STALE regardless of calendar age.
+        `skills/property-deep-dive/shared/regulatory-watch.md` is the single date-stamped source of truth for "what changed when". Tier 1/2 entries can force-downgrade affected sections to STALE regardless of calendar age.
 
         **Bar**: primary government source (or Official Journal / Gazette), with effective date. News-site reporting alone is not enough — link to the official text.
 

@@ -40,7 +40,7 @@ jobs:
           medium_count=0
           high_count=0
 
-          for playbook in countries/*/playbook.md; do
+          for playbook in skills/property-deep-dive/countries/*/playbook.md; do
             iso2=$(basename "$(dirname "$playbook")")
             # Extract first "as of YYYY-MM-DD" line in the file
             stamped=$(grep -oE 'as of [0-9]{4}-[0-9]{2}-[0-9]{2}' "$playbook" | head -1 | awk '{print $3}')
@@ -73,7 +73,7 @@ jobs:
             echo
             echo "Run \`/property-deep-dive --update --refresh-only --country=<iso2>\` for any STALE or LOW country."
             echo
-            echo "Cross-reference \`shared/regulatory-watch.md\` — Tier 1/2 entries since the last \`as of\` date force STALE regardless of calendar age."
+            echo "Cross-reference \`skills/property-deep-dive/shared/regulatory-watch.md\` — Tier 1/2 entries since the last \`as of\` date force STALE regardless of calendar age."
           } >> "$out"
 
           {

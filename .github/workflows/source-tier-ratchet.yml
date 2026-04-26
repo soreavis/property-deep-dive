@@ -15,7 +15,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'countries/**/playbook.md'
+      - 'skills/property-deep-dive/countries/**/playbook.md'
   workflow_dispatch:
 
 permissions:
@@ -52,7 +52,7 @@ jobs:
           from urllib.parse import urlparse
 
           # Same domain classifier as source-tier-audit.yml — kept in sync by
-          # convention. Tests-of-truth live in shared/anti-hallucination.md.
+          # convention. Tests-of-truth live in skills/property-deep-dive/shared/anti-hallucination.md.
           PRIMARY_GOV_PATTERNS = [
               r'\.gov(\.|$)', r'\.gouv\.', r'\.gob\.', r'\.gv\.at',
               r'gov\.uk$', r'gov\.ie$', r'gov\.gr$', r'gov\.cy$',
@@ -105,13 +105,13 @@ jobs:
 
           def score_at(ref):
               # Returns (total_urls, primary_count, primary_share_pct) for all
-              # countries/*/playbook.md at the given git ref.
+              # skills/property-deep-dive/countries/*/playbook.md at the given git ref.
               ls = subprocess.run(
                   ['git', 'ls-tree', '-r', '--name-only', ref],
                   capture_output=True, text=True, check=True,
               )
               playbooks = [p for p in ls.stdout.splitlines()
-                           if p.startswith('countries/') and p.endswith('/playbook.md')]
+                           if p.startswith('skills/property-deep-dive/countries/') and p.endswith('/playbook.md')]
               total = primary = 0
               for path in playbooks:
                   try:
@@ -172,7 +172,7 @@ jobs:
           print(f"| `HEAD`  ({head_sha[:7]}) | {head_total} | {head_prim} | {head_share:.2f}% |")
           print(f"| **Delta** |   |   | **{delta_pp:+.2f} pp** |")
           print()
-          print(f"_Hard threshold: drop > {hard:.0f}pp fails this check. Soft threshold: drop > {soft:.0f}pp warns. See `shared/anti-hallucination.md` § Source ranking._")
+          print(f"_Hard threshold: drop > {hard:.0f}pp fails this check. Soft threshold: drop > {soft:.0f}pp warns. See `skills/property-deep-dive/shared/anti-hallucination.md` § Source ranking._")
 
           # Persist verdict for the next step.
           with open('_verdict.txt', 'w') as f:

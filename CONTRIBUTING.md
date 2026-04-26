@@ -4,18 +4,20 @@ Thanks for considering a contribution. The most valuable contributions are **fac
 
 ## Quick map of where to contribute
 
+All paths below are relative to the repo root. The skill payload lives under `skills/property-deep-dive/` so that plugin hosts (Claude Code, Claude Cowork) ship the entire skill from a single folder.
+
 | What | Where |
 |---|---|
-| Add or update a country playbook | `countries/<iso2>/playbook.md` |
-| Log a new tax/visa/regulatory reform | `shared/regulatory-watch.md` |
-| Fix a broken URL | the relevant `countries/<iso2>/playbook.md` or `shared/<topic>.md` |
-| Add a universal section flag | new file in `shared/`, register in `SKILL.md` argument-hint + Sections table |
-| Add a tooling doc | `shared/<tool-name>.md`, register in `SKILL.md` |
-| Fix anti-hallucination behaviour | `shared/anti-hallucination.md` |
+| Add or update a country playbook | `skills/property-deep-dive/countries/<iso2>/playbook.md` |
+| Log a new tax/visa/regulatory reform | `skills/property-deep-dive/shared/regulatory-watch.md` |
+| Fix a broken URL | the relevant `skills/property-deep-dive/countries/<iso2>/playbook.md` or `skills/property-deep-dive/shared/<topic>.md` |
+| Add a universal section flag | new file in `skills/property-deep-dive/shared/`, register in `skills/property-deep-dive/SKILL.md` argument-hint + Sections table |
+| Add a tooling doc | `skills/property-deep-dive/shared/<tool-name>.md`, register in `skills/property-deep-dive/SKILL.md` |
+| Fix anti-hallucination behaviour | `skills/property-deep-dive/shared/anti-hallucination.md` |
 
 ## Adding a new country
 
-The bar is **FR/IT/CZ/SK density** (~400-500 lines, all 22 sections covered with primary government sources). See `countries/fr/playbook.md` as the canonical example.
+The bar is **FR/IT/CZ/SK density** (~400-500 lines, all 22 sections covered with primary government sources). See `skills/property-deep-dive/countries/fr/playbook.md` as the canonical example.
 
 Required structure:
 
@@ -41,7 +43,7 @@ Before submitting:
 
 ## Logging a regulatory-watch entry
 
-`shared/regulatory-watch.md` is the single source of truth for "what changed when". Format:
+`skills/property-deep-dive/shared/regulatory-watch.md` is the single source of truth for "what changed when". Format:
 
 ```markdown
 - `<effective_date> | <topic> | <one-line summary> | <source name> | <verified_date> | <revisit_by> | <tier> | <sections>`
@@ -65,7 +67,7 @@ Forbidden phrasings: "approximately X", "in the area of", "typical for the regio
 
 If a number can't be sourced, write `data not publicly available — verify at <authoritative source>` rather than guessing.
 
-The seven mandatory pre-output checks are documented in `shared/anti-hallucination.md`.
+The seven mandatory pre-output checks are documented in `skills/property-deep-dive/shared/anti-hallucination.md`.
 
 ## URL hygiene
 
@@ -92,7 +94,7 @@ The seven mandatory pre-output checks are documented in `shared/anti-hallucinati
 - [ ] Status footer present with confidence label + Last verified date
 - [ ] No personal addresses or identifiers (use generic worked examples)
 - [ ] No `_local/` or `*.bak-*` artifacts staged
-- [ ] If touching universal logic in shared/, all affected country playbooks remain consistent
+- [ ] If touching universal logic in skills/property-deep-dive/shared/, all affected country playbooks remain consistent
 ```
 
 ## Commit message style

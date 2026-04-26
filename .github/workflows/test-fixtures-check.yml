@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   check:
-    name: Verify shared/test-fixtures.md listings still resolve
+    name: Verify skills/property-deep-dive/shared/test-fixtures.md listings still resolve
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -23,13 +23,13 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p _ci
-          if [ ! -f shared/test-fixtures.md ]; then
+          if [ ! -f skills/property-deep-dive/shared/test-fixtures.md ]; then
             echo "test-fixtures.md not found — skipping."
             exit 0
           fi
 
           # Pull listing URLs (heuristic: any http(s) URL inside test-fixtures.md)
-          grep -oE 'https?://[^[:space:]<>")`]+' shared/test-fixtures.md \
+          grep -oE 'https?://[^[:space:]<>")`]+' skills/property-deep-dive/shared/test-fixtures.md \
             | sed 's/[.,;:)]*$//' \
             | sort -u \
             > _ci/fixtures.txt
@@ -104,7 +104,7 @@ jobs:
               failures,
               '```',
               ``,
-              `Action: open \`shared/test-fixtures.md\` and replace dead listings with current ones for the affected countries.`,
+              `Action: open \`skills/property-deep-dive/shared/test-fixtures.md\` and replace dead listings with current ones for the affected countries.`,
             ].join('\n');
             await github.rest.issues.create({
               owner: context.repo.owner,

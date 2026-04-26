@@ -96,7 +96,7 @@ jobs:
               ``,
               `**Triage steps**:`,
               `1. Read each item; rate impact tier (1=CRITICAL/30d revisit ... 4=INCREMENTAL).`,
-              `2. If Tier 1-3, add an entry to \`shared/regulatory-watch.md\`.`,
+              `2. If Tier 1-3, add an entry to \`skills/property-deep-dive/shared/regulatory-watch.md\`.`,
               `3. If a country playbook is affected, queue an \`--update --refresh-only --country=<iso2>\` run.`,
               ``,
               `## Matches`,

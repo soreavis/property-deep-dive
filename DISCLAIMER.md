@@ -22,12 +22,12 @@ Every report ends with a verification footer listing the parcel-level checks the
 
 ## Anti-hallucination guardrails
 
-The skill includes a multi-layer anti-hallucination guard (see `shared/anti-hallucination.md`):
+The skill includes a multi-layer anti-hallucination guard (see `skills/property-deep-dive/shared/anti-hallucination.md`):
 
 - Source-tier ranking (primary government > secondary aggregator > listing > inference)
 - Confidence labels on every section (HIGH / MEDIUM / LOW / STALE)
-- Auto-downgrade of confidence over time (HIGH → MEDIUM at 6mo, LOW at 12mo, STALE at 18mo) — see `shared/updater.md` § Auto-downgrade
-- Regulatory-watch tracking for reforms that supersede claims (`shared/regulatory-watch.md`)
+- Auto-downgrade of confidence over time (HIGH → MEDIUM at 6mo, LOW at 12mo, STALE at 18mo) — see `skills/property-deep-dive/shared/updater.md` § Auto-downgrade
+- Regulatory-watch tracking for reforms that supersede claims (`skills/property-deep-dive/shared/regulatory-watch.md`)
 - Mandatory pre-output checks (numeric citations, parcel-vs-commune granularity, listing-trust flagging, contradiction surfacing)
 
 These reduce — but do not eliminate — the risk of error. **AI-assisted aggregations can still be wrong.** Critical figures must be confirmed with primary sources or qualified professionals.

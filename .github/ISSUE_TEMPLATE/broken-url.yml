@@ -12,7 +12,7 @@ body:
     id: country
     attributes:
       label: Country (ISO2)
-      description: Two-letter code, lowercase. Use `shared` if the URL is in a shared/<file>.md.
+      description: Two-letter code, lowercase. Use `shared` if the URL is in a skills/property-deep-dive/shared/<file>.md.
       placeholder: fr
     validations:
       required: true
@@ -21,8 +21,8 @@ body:
     id: file
     attributes:
       label: File + line
-      description: e.g. `countries/fr/playbook.md:147` or `shared/visa-programs.md:88`
-      placeholder: countries/fr/playbook.md:147
+      description: e.g. `skills/property-deep-dive/countries/fr/playbook.md:147` or `skills/property-deep-dive/shared/visa-programs.md:88`
+      placeholder: skills/property-deep-dive/countries/fr/playbook.md:147
     validations:
       required: true
 

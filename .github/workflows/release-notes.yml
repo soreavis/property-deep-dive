@@ -70,20 +70,20 @@ jobs:
 
           while IFS= read -r f; do
             case "$f" in
-              countries/*/playbook.md)
-                iso2=$(echo "$f" | awk -F/ '{print $2}')
+              skills/property-deep-dive/countries/*/playbook.md)
+                iso2=$(echo "$f" | awk -F/ '{print $4}')
                 echo "- 🇨${iso2^^} $f" >> _bucket_countries.txt
                 ;;
-              shared/regulatory-watch.md)
+              skills/property-deep-dive/shared/regulatory-watch.md)
                 echo "- $f" >> _bucket_regwatch.txt
                 ;;
-              shared/visa-programs.md)
+              skills/property-deep-dive/shared/visa-programs.md)
                 echo "- $f" >> _bucket_visa.txt
                 ;;
               skills/property-deep-dive/SKILL.md|SKILL.md)
                 echo "- $f (master router)" >> _bucket_router.txt
                 ;;
-              shared/*)
+              skills/property-deep-dive/shared/*)
                 echo "- $f" >> _bucket_shared.txt
                 ;;
               README.md|CONTRIBUTING.md|DISCLAIMER.md|CODE_OF_CONDUCT.md|SECURITY.md|CHANGELOG.md|CLAUDE.md)
