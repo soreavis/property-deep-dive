@@ -15,13 +15,19 @@ jobs:
     timeout-minutes: 3
     steps:
       - name: Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
 
       - name: Verify CHANGELOG.md updated under [Unreleased]
         uses: dangoslen/changelog-enforcer@204e7d3ef26579f4cd0fd759c57032656fdf23c7  # v3
         with:
           changeLogPath: CHANGELOG.md
-          expectedLatestVersion: Unreleased
+          # Note: NOT setting `expectedLatestVersion`. The action's
+          # validateLatestVersion treats versions[1] as the "latest" when
+          # [Unreleased] is first, so `expectedLatestVersion: Unreleased`
+          # only works on a project that has *only* Unreleased and no real
+          # releases yet. Once a real release ([2026.04.0]) exists, this check
+          # fails on every PR. We just want "did the PR touch CHANGELOG?",
+          # which is the action's behaviour with no expectedLatestVersion.
           # Skip enforcement when these labels are applied — for trivial PRs
           # that don't need a changelog line (typo fixes, CI tweaks, dep bumps).
           # The action expects a COMMA-separated list (NOT newline-separated).

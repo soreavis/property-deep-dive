@@ -1,0 +1,195 @@
+name: Regulatory-watch revisit
+
+# Daily cron: parses shared/regulatory-watch.md and opens a single tracking
+# issue listing every entry whose `revisit_by` date has passed.
+#
+# The file is the SoT for "what changed when". When an entry's revisit window
+# expires, the human/Claude must re-verify against the primary source —
+# this workflow makes that prompt automatic.
+#
+# Idempotent: a single issue (label `regulatory-watch`) holds the running list;
+# subsequent runs update the issue body rather than spawning duplicates.
+
+on:
+  schedule:
+    # Daily at 07:30 UTC — runs before url-liveness.yml so the morning issue
+    # batch is grouped sensibly.
+    - cron: '30 7 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'shared/regulatory-watch.md'
+      - '.github/workflows/regulatory-watch-revisit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  scan:
+    name: Scan regulatory-watch.md for overdue revisits
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Compute overdue revisits
+        id: scan
+        run: |
+          python3 - <<'PY' > _overdue.md
+          import re
+          from datetime import date
+
+          today = date.today()
+          path = 'shared/regulatory-watch.md'
+          with open(path, encoding='utf-8') as f:
+              text = f.read()
+
+          # Walk lines; track current country header (### 🇫🇷 FR), capture
+          # backtick-delimited entries from the "Recently enacted reforms" section
+          # downward (the ENDED-programs section uses table rows, not backticks,
+          # so it's automatically skipped by the regex below).
+          lines = text.splitlines()
+          country = None
+          country_re = re.compile(r'^###\s+(?:[^\s]+\s+)?([A-Z]{2})\b')
+          # Backtick entries: 8 pipe-separated fields. effective | topic | summary | source | verified | revisit | tier | sections
+          entry_re = re.compile(r'^[-*]\s+`([^`]+)`\s*$')
+
+          overdue = []  # (country, effective, topic, summary, source, verified, revisit, tier, sections)
+          for raw in lines:
+              m_country = country_re.match(raw)
+              if m_country:
+                  country = m_country.group(1)
+                  continue
+              m_entry = entry_re.match(raw)
+              if not m_entry or country is None:
+                  continue
+              parts = [p.strip() for p in m_entry.group(1).split('|')]
+              if len(parts) < 7:
+                  continue
+              # parts: 0 effective, 1 topic, 2 summary, 3 source, 4 verified, 5 revisit, 6 tier, 7? sections
+              revisit_str = parts[5]
+              # Some entries have "(pending)" or year-only — skip non-ISO dates.
+              m_date = re.match(r'^(\d{4}-\d{2}-\d{2})$', revisit_str)
+              if not m_date:
+                  continue
+              try:
+                  revisit = date.fromisoformat(m_date.group(1))
+              except ValueError:
+                  continue
+              if revisit > today:
+                  continue
+              overdue.append({
+                  'country': country,
+                  'effective': parts[0],
+                  'topic': parts[1],
+                  'summary': parts[2][:140] + ('…' if len(parts[2]) > 140 else ''),
+                  'source': parts[3],
+                  'verified': parts[4],
+                  'revisit': revisit,
+                  'days_overdue': (today - revisit).days,
+                  'tier': parts[6] if len(parts) > 6 else '?',
+                  'sections': parts[7] if len(parts) > 7 else '',
+              })
+
+          if not overdue:
+              print('## ✅ No overdue regulatory-watch entries')
+              print()
+              print(f'_Scanned `shared/regulatory-watch.md` on {today.isoformat()} — every entry is within its revisit window._')
+              # Sentinel marker so the next step knows there's nothing to open.
+              with open('_overdue.flag', 'w') as f:
+                  f.write('clean')
+              raise SystemExit(0)
+
+          overdue.sort(key=lambda r: (-r['days_overdue'], r['country'], r['topic']))
+
+          # Bucket by tier — Tier 1 (CRITICAL) goes top; Tier 4 to bottom.
+          print('## 🔔 Overdue regulatory-watch entries')
+          print()
+          print(f'**{len(overdue)}** entries past their `revisit_by` date as of **{today.isoformat()}**.')
+          print()
+          print('Re-verify each against the linked primary source. After confirmation, update `verified_date` + `revisit_by` in `shared/regulatory-watch.md`. If the underlying rule has changed, patch the affected playbooks before re-stamping.')
+          print()
+          print('| Country | Topic | Effective | Summary | Source | Last verified | Days overdue | Tier | Sections |')
+          print('|---|---|---|---|---|---|--:|:-:|---|')
+          for r in overdue:
+              print(f"| {r['country']} | {r['topic']} | {r['effective']} | {r['summary']} | {r['source']} | {r['verified']} | {r['days_overdue']} | {r['tier']} | `{r['sections']}` |")
+          print()
+          print('---')
+          print()
+          print('### Tier legend')
+          print('- **Tier 1 (CRITICAL)** — Reverses a prior assertion. Stale claim is a confident lie.')
+          print('- **Tier 2 (MAJOR)** — Material number change or directive transposition.')
+          print('- **Tier 3 (MEANINGFUL)** — Threshold/credit/exemption tweak.')
+          print('- **Tier 4 (INCREMENTAL)** — Indexation, fee tweak, watchlist signal.')
+          print()
+          print('See [`shared/regulatory-watch.md`](../blob/main/shared/regulatory-watch.md) for the full registry and impact-tier definitions.')
+          PY
+
+      - name: Open or update the tracking issue
+        if: hashFiles('_overdue.flag') == ''
+        uses: actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71  # v9.0.0
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('_overdue.md', 'utf-8');
+            const title = '🔔 Regulatory-watch — overdue revisits';
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'regulatory-watch',
+              per_page: 20,
+            });
+            const existing = issues.data.find(i => i.title === title);
+
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body,
+              });
+              core.notice(`Updated existing issue #${existing.number}`);
+            } else {
+              const created = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['regulatory-watch', 'maintenance'],
+              });
+              core.notice(`Opened new issue #${created.data.number}`);
+            }
+
+      - name: Close the tracking issue if no overdue entries remain
+        if: hashFiles('_overdue.flag') != ''
+        uses: actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71  # v9.0.0
+        with:
+          script: |
+            const title = '🔔 Regulatory-watch — overdue revisits';
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'regulatory-watch',
+              per_page: 20,
+            });
+            const existing = issues.data.find(i => i.title === title);
+            if (!existing) return;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: existing.number,
+              body: '✅ All entries are now within their revisit windows. Closing — the workflow will reopen this issue if anything goes overdue again.',
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: existing.number,
+              state: 'closed',
+              state_reason: 'completed',
+            });

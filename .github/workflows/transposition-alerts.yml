@@ -1,0 +1,161 @@
+name: EU transposition deadline alerts
+
+# Daily cron parses shared/regulatory-watch.md for entries with a future
+# effective_date and fires a one-time issue when the countdown hits any of:
+#   T-90 days · T-30 days · T-14 days · T-0 (effective today)
+#
+# One issue per (entry, threshold) pair — title includes the threshold so
+# subsequent runs don't duplicate. The full alert ladder gives the maintainer
+# three lead-time windows (quarter-out planning · final pass · last-chance)
+# plus the day-of marker that triggers the playbook patch.
+
+on:
+  schedule:
+    # Daily at 06:30 UTC — earliest of the morning maintenance crons so the
+    # alerts land at the top of the maintainer's queue.
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  scan:
+    name: Scan regulatory-watch for upcoming effective dates
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Compute alerts payload
+        id: scan
+        run: |
+          python3 - <<'PY' > _alerts.json
+          import json, re
+          from datetime import date
+
+          today = date.today()
+          THRESHOLDS = [90, 30, 14, 0]
+
+          path = 'shared/regulatory-watch.md'
+          with open(path, encoding='utf-8') as f:
+              text = f.read()
+
+          country_re = re.compile(r'^###\s+(?:[^\s]+\s+)?([A-Z]{2})\b')
+          # Entry: backtick-delimited 8-field row. Field 0 may include "(pending)" suffix.
+          entry_re = re.compile(r'^[-*]\s+`([^`]+)`\s*$')
+
+          alerts = []
+          country = None
+          for raw in text.splitlines():
+              m_c = country_re.match(raw)
+              if m_c:
+                  country = m_c.group(1)
+                  continue
+              m_e = entry_re.match(raw)
+              if not m_e or country is None:
+                  continue
+              parts = [p.strip() for p in m_e.group(1).split('|')]
+              if len(parts) < 7:
+                  continue
+              effective_field = parts[0]
+              # Accept "YYYY-MM-DD" or "YYYY-MM-DD (pending)"; skip ranges and "XX-XX" placeholders.
+              m_d = re.match(r'^(\d{4}-\d{2}-\d{2})(?:\s*\(.*\))?$', effective_field)
+              if not m_d:
+                  continue
+              try:
+                  effective = date.fromisoformat(m_d.group(1))
+              except ValueError:
+                  continue
+              days_until = (effective - today).days
+              if days_until < 0:
+                  # Already in effect — handled by regulatory-watch-revisit.yml instead.
+                  continue
+              for thr in THRESHOLDS:
+                  # We alert exactly once per threshold crossing. Match days_until == thr
+                  # (and the day-of T-0 marker). The cron is daily so we'll catch each
+                  # threshold once unless GitHub Actions has an outage on that exact date.
+                  if days_until == thr:
+                      alerts.append({
+                          'country': country,
+                          'topic': parts[1],
+                          'summary': parts[2],
+                          'source': parts[3],
+                          'effective': m_d.group(1),
+                          'tier': parts[6] if len(parts) > 6 else '?',
+                          'sections': parts[7] if len(parts) > 7 else '',
+                          'threshold': thr,
+                          'days_until': days_until,
+                      })
+          json.dump(alerts, open('_alerts.json', 'w'))
+          print(f'{len(alerts)} alert(s) to fire today ({today.isoformat()}):')
+          for a in alerts:
+              print(f"  T-{a['threshold']:>3} · {a['country']} {a['topic']} · {a['effective']}")
+          PY
+
+      - name: Open one issue per alert (idempotent)
+        uses: actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71  # v9.0.0
+        with:
+          script: |
+            const fs = require('fs');
+            const alerts = JSON.parse(fs.readFileSync('_alerts.json', 'utf-8'));
+            if (alerts.length === 0) {
+              core.notice('No threshold crossings today.');
+              return;
+            }
+
+            for (const a of alerts) {
+              const labelTier = (a.threshold === 0) ? '🚨 EFFECTIVE TODAY'
+                              : (a.threshold <= 14) ? '⏰ FINAL PASS'
+                              : (a.threshold <= 30) ? '📅 ONE MONTH OUT'
+                              : '🗓 ONE QUARTER OUT';
+              const title = `🔔 Transposition T-${String(a.threshold).padStart(2, '0')} · ${a.country} ${a.topic} · ${a.effective}`;
+
+              // Idempotency: skip if an issue with this exact title already exists (open OR closed).
+              const search = await github.rest.search.issuesAndPullRequests({
+                q: `repo:${context.repo.owner}/${context.repo.repo} is:issue in:title "${title}"`,
+                per_page: 5,
+              });
+              const dup = search.data.items.find(i => i.title === title);
+              if (dup) {
+                core.notice(`Skipping duplicate: #${dup.number} — ${title}`);
+                continue;
+              }
+
+              const body = [
+                `## ${labelTier} — ${a.country} ${a.topic}`,
+                ``,
+                `**Effective date**: \`${a.effective}\` (in **${a.days_until} day(s)**)`,
+                `**Tier**: ${a.tier}  ·  **Source**: ${a.source}`,
+                `**Affected sections**: \`${a.sections || '(none listed)'}\``,
+                ``,
+                `### Summary`,
+                ``,
+                a.summary,
+                ``,
+                `### What to do`,
+                ``,
+                a.threshold >= 90 ?
+                  '- Add a `regulatory-watch.md` revision pass to next month\'s sweep.\n- Identify which playbook section(s) need patching and queue the research.\n- No content change required yet — keep the entry visible.' :
+                a.threshold >= 30 ?
+                  '- Draft the playbook patch in a feature branch (do not merge yet — wait for the rule to land).\n- Confirm the source URL still resolves and points at the final text.\n- Re-stamp `**Last verified**` AFTER the rule is in force, not before.' :
+                a.threshold >= 14 ?
+                  '- Final-pass the draft patch.\n- If the rule has been delayed (parliamentary slippage, ECJ ruling pending), update `regulatory-watch.md` `effective_date` and re-stamp this issue.' :
+                  '- Patch every affected playbook today.\n- Re-stamp `**Last verified**` to today.\n- If the entry ENDS a programme, also update `shared/visa-programs.md` AND the ENDED registry table at the top of `regulatory-watch.md`.',
+                ``,
+                `---`,
+                ``,
+                `Generated by \`.github/workflows/transposition-alerts.yml\` on its daily run. The next threshold cross is auto-fired by the same workflow.`,
+              ].join('\n');
+
+              const created = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['transposition-alert', 'regulatory-watch', 'maintenance'],
+              });
+              core.notice(`Opened #${created.data.number}: ${title}`);
+            }

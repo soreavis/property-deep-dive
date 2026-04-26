@@ -1,0 +1,172 @@
+name: Year-roll reminder
+
+# Annual reminder fired Jan 1 at 09:00 UTC. Scans every Markdown file for
+# parenthetical date stamps `(YYYY data...)` and lists every entry where
+# YYYY is older than the current year.
+#
+# This catches the slow-drift problem that the auto-downgrade decay rule
+# can't: `(2024 data, DGFiP)` doesn't move with calendar time the way
+# `as of YYYY-MM-DD` stamps do — the year sits in the document forever
+# until someone notices. The Jan 1 nudge is the catch-up moment.
+
+on:
+  schedule:
+    # 09:00 UTC on January 1
+    - cron: '0 9 1 1 *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  scan:
+    name: Find aged (YYYY data) stamps
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Scan for aged year-stamps
+        id: scan
+        run: |
+          python3 - <<'PY' > _aged.md
+          import os, re
+          from collections import defaultdict
+          from datetime import date
+
+          today = date.today()
+          current_year = today.year
+          # Anything 5+ years old is presumed dead — listing won't help anyone.
+          # Show the spread but cap reporting at 5 years back.
+          cutoff_year = current_year - 5
+
+          # Match `(YYYY data...)` and `(YYYY-MM-DD data...)` forms. Anchored to
+          # avoid catching prose like "in (2024) the rate was".
+          stamp_re = re.compile(r'\((\d{4})(?:-\d{2}-\d{2})?\s+data\b[^)]*\)')
+
+          findings = defaultdict(list)  # path → [(year, line_no, line)]
+          total_aged = 0
+
+          for root, _, files in os.walk('.'):
+              # Skip noise.
+              if any(seg in root for seg in ('/.git', '/_local', '/node_modules')):
+                  continue
+              for name in files:
+                  if not name.endswith('.md'):
+                      continue
+                  path = os.path.join(root, name)
+                  try:
+                      with open(path, encoding='utf-8') as f:
+                          for line_no, line in enumerate(f, start=1):
+                              for m in stamp_re.finditer(line):
+                                  yr = int(m.group(1))
+                                  if yr < current_year and yr >= cutoff_year:
+                                      findings[path].append((yr, line_no, line.strip()))
+                                      total_aged += 1
+                  except (UnicodeDecodeError, OSError):
+                      continue
+
+          if not findings:
+              with open('_skip', 'w') as f:
+                  f.write('skip')
+              print(f"## ✅ No aged year-stamps")
+              print()
+              print(f"Scanned every Markdown file on {today.isoformat()} — every `(YYYY data...)` stamp is dated {current_year}.")
+              raise SystemExit(0)
+
+          print(f"## 🗓 Year-roll reminder — {total_aged} aged stamp(s)")
+          print()
+          print(f"On the first day of **{current_year}**, the scanner found **{total_aged}** `(YYYY data ...)` stamp(s) dated before this year. These don't decay automatically — they sit forever until rewritten.")
+          print()
+          print(f"### What to do")
+          print()
+          print("1. For each line below, open the linked source and check whether the underlying number changed. If it did, update the figure AND bump the year (and the playbook's `**Last verified**` stamp).")
+          print("2. If the number is unchanged, you can simply re-stamp with the new year (still requires a quick source visit; URL liveness ≠ data-still-current).")
+          print(f"3. After triage, run `/property-deep-dive --health-report` to refresh the decay matrix.")
+          print()
+          print("Stamps 5+ years old are omitted (presumed superseded — re-research from scratch).")
+          print()
+
+          per_country = defaultdict(list)
+          per_other = []
+          for path, entries in sorted(findings.items()):
+              # Bucket countries together
+              if path.startswith('./countries/'):
+                  iso2 = path.split('/')[2].upper()
+                  per_country[iso2].append((path, entries))
+              else:
+                  per_other.append((path, entries))
+
+          print(f"### Country playbooks ({len(per_country)})")
+          print()
+          for iso2 in sorted(per_country):
+              for path, entries in per_country[iso2]:
+                  print(f"<details><summary><b>🇨{iso2}</b> · <code>{path[2:]}</code> · {len(entries)} stamp(s)</summary>")
+                  print()
+                  print('| Year | Line | Context |')
+                  print('|---|--:|---|')
+                  for yr, ln, line in entries:
+                      snippet = line.replace('|', '\\|')
+                      if len(snippet) > 200:
+                          snippet = snippet[:197] + '…'
+                      print(f"| {yr} | {ln} | {snippet} |")
+                  print()
+                  print('</details>')
+                  print()
+
+          if per_other:
+              print(f"### Other Markdown files ({len(per_other)})")
+              print()
+              for path, entries in per_other:
+                  print(f"<details><summary><code>{path[2:]}</code> · {len(entries)} stamp(s)</summary>")
+                  print()
+                  print('| Year | Line | Context |')
+                  print('|---|--:|---|')
+                  for yr, ln, line in entries:
+                      snippet = line.replace('|', '\\|')
+                      if len(snippet) > 200:
+                          snippet = snippet[:197] + '…'
+                      print(f"| {yr} | {ln} | {snippet} |")
+                  print()
+                  print('</details>')
+                  print()
+          PY
+
+      - name: Open or update the year-roll issue
+        if: hashFiles('_skip') == ''
+        uses: actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71  # v9.0.0
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('_aged.md', 'utf-8');
+            const year = new Date().getUTCFullYear();
+            const title = `🗓 Year-roll ${year} — sweep aged (YYYY data) stamps`;
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'year-roll',
+              per_page: 20,
+            });
+            const existing = issues.find(i => i.title === title);
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body,
+              });
+              core.notice(`Updated existing issue #${existing.number}`);
+            } else {
+              const created = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['year-roll', 'maintenance'],
+              });
+              core.notice(`Opened new issue #${created.data.number}`);
+            }

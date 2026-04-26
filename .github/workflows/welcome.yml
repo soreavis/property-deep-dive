@@ -19,8 +19,11 @@ jobs:
       - name: First-interaction welcome
         uses: actions/first-interaction@1c4688942c71f71d4f5502a26ea67c331730fa4d  # v3.1.0
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: |
+          # actions/first-interaction v3 renamed inputs from kebab-case (v1)
+          # to snake_case. Using kebab-case throws "Input required and not
+          # supplied: issue_message" at runtime.
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          issue_message: |
             Thanks for opening your first issue here. 🙏
 
             A few things that help us help you:
@@ -31,7 +34,7 @@ jobs:
 
             A maintainer will triage shortly.
 
-          pr-message: |
+          pr_message: |
             Thanks for your first pull request here. 🚀
 
             **Before review starts**, please confirm:

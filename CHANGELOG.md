@@ -52,6 +52,18 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Added — Tier-1+2 follow-up workflows (2026-04-26)
+
+- `regulatory-watch-revisit.yml` — daily cron, opens (or updates) a single tracking issue listing every regulatory-watch entry whose `revisit_by` date has passed. Auto-closes when the queue empties.
+- `auto-tag.yml` — last-day-of-month cron creates `YYYY.0M.0` if commits accumulated since last tag, then dispatches `sign-release.yml` + `release-notes.yml` (works around the GITHUB_TOKEN-pushed-tag silence rule).
+- `changelog-on-merge.yml` — on PR merge, opens a sibling PR appending a `### Bucket` line under `[Unreleased]` with title + author + link. Auto-merge handles the bot PR via `auto-merge-docs.yml`.
+- `year-roll-reminder.yml` — Jan 1 cron lists every `(YYYY data ...)` stamp dated before the current year, grouped by country.
+- `matrix-consistency.yml` — PR + push gate that audits SKILL.md country matrix ↔ `countries/*/playbook.md` directories two-way (no orphans, no missing).
+- `transposition-alerts.yml` — daily cron parses `regulatory-watch.md` `effective_date` fields and fires one issue per entry per threshold at T-90/30/14/0 days (idempotent via title).
+- `auto-merge-docs.yml` — enables `gh pr merge --auto --squash` on PRs labelled `documentation` from the maintainer or known automation bots (changelog-on-merge, dependabot).
+- `source-tier-ratchet.yml` — measures project-wide primary-government URL share at HEAD vs main; sticky PR comment with delta; hard-fails on >5pp regression.
+- `sign-release.yml` — added SLSA Level 3 provenance via `slsa-framework/slsa-github-generator` (Scorecard `Signed-Releases` 8 → 10). Now ships **two** independent attestations per release: sigstore keyless + SLSA L3 multiple.intoto.jsonl. Release-notes template documents both verification paths.
+
 ### Added — extended community / CI tooling (2026-04-26 prep)
 
 - `pr-validate.yml` — added 2 new jobs: section-completeness (changed playbooks ≥250 lines + key markers) and argument-hint-drift (SKILL.md ↔ README sync)
@@ -71,6 +83,9 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- All Node-20 GitHub Actions bumped to Node-24-compatible versions (deprecation warning emitted by GitHub on April 26, 2026): `actions/checkout` v4 → v6.0.2, `actions/setup-python` v5 → v6.2.0, `actions/cache` v4 → v5.0.5, `actions/github-script` v9 → v9.0.0 (fresh SHA), `actions/upload-artifact` v7 → v7.0.1 (comment refresh).
+- `sign-release.yml` — added `workflow_dispatch` with required `tag` input so `auto-tag.yml` can chain into it.
+- `changelog-enforcer.yml` — dropped `expectedLatestVersion: Unreleased` config. The action's logic treats `versions[1]` as the "latest" once a real release exists, so the setting only works on pre-1.0 repos.
 - README architecture diagram updated to reflect the 16-workflow set + `scripts/` folder
 
 ## [2026.04.0] - 2026-04-26

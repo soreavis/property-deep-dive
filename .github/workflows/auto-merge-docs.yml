@@ -1,0 +1,58 @@
+name: Auto-merge docs PRs
+
+# Enables auto-merge (squash) on PRs that satisfy ALL of:
+#   - Have label `documentation`
+#   - NOT marked as draft
+#   - Don't carry a blocking label (`wip`, `do-not-merge`, `blocked`)
+#   - Author is the maintainer OR a known automation bot
+#     (changelog-on-merge bot, dependabot — never an arbitrary external)
+#
+# `gh pr merge --auto` queues the merge: GitHub waits until all required
+# checks pass and only then squashes. If a required check fails, the PR
+# stays open and a maintainer can intervene.
+#
+# Why "documentation" only — content additions (new countries, regulatory
+# updates, anti-hallucination edits) carry a hallucination risk that
+# warrants manual review. Pure prose / docs / metadata edits don't.
+
+on:
+  pull_request:
+    types: [labeled, opened, synchronize, ready_for_review, reopened]
+  pull_request_target:
+    types: [labeled, opened, synchronize, ready_for_review, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  enable-auto-merge:
+    name: Enable auto-merge if eligible
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    if: >-
+      github.event.pull_request.draft == false
+      && contains(github.event.pull_request.labels.*.name, 'documentation')
+      && !contains(github.event.pull_request.labels.*.name, 'wip')
+      && !contains(github.event.pull_request.labels.*.name, 'do-not-merge')
+      && !contains(github.event.pull_request.labels.*.name, 'blocked')
+      && (
+        github.event.pull_request.user.login == 'soreavis'
+        || github.event.pull_request.user.login == 'github-actions[bot]'
+        || github.event.pull_request.user.login == 'dependabot[bot]'
+      )
+    steps:
+      - name: Enable squash auto-merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          # Auto-merge enrolment is idempotent — repeated runs are no-ops once
+          # already enabled. The flag fails harmlessly if branch protection
+          # blocks it (e.g., required reviews not met) — workflow exits 0.
+          if gh pr merge "${PR_NUMBER}" --repo "${GITHUB_REPOSITORY}" --auto --squash; then
+            echo "::notice::Auto-merge enabled for PR #${PR_NUMBER}"
+          else
+            echo "::warning::Auto-merge could not be enabled for PR #${PR_NUMBER} — likely awaiting required reviews or status checks. PR remains open."
+          fi

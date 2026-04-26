@@ -1,0 +1,176 @@
+name: CHANGELOG on merge
+
+# When a PR merges to main, append the PR title + author + link to
+# CHANGELOG.md under [Unreleased] in the appropriate bucket (Added /
+# Changed / Fixed / Security / Removed). Branch protection blocks direct
+# pushes to main, so the bot opens its own PR with the change. The auto-
+# merge-docs workflow squash-merges that PR once CI is green.
+#
+# Skip conditions:
+#   - PR not merged
+#   - PR has label `skip changelog`
+#   - PR head ref begins with `chore/changelog-from-pr-` (anti-loop)
+#   - PR opened by github-actions[bot] (anti-loop)
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  append:
+    name: Append PR to CHANGELOG [Unreleased]
+    if: >-
+      github.event.pull_request.merged == true
+      && github.event.pull_request.user.login != 'github-actions[bot]'
+      && !startsWith(github.event.pull_request.head.ref, 'chore/changelog-from-pr-')
+      && !contains(github.event.pull_request.labels.*.name, 'skip changelog')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ github.token }}
+
+      - name: Compute bucket from PR labels
+        id: bucket
+        env:
+          LABELS: ${{ toJSON(github.event.pull_request.labels.*.name) }}
+        run: |
+          set -euo pipefail
+          # Map of label → bucket. First match wins; falls back to "Changed".
+          # The labels here come from .github/labels.yml; keep this list synced.
+          bucket="Changed"
+          while IFS= read -r label; do
+            case "$label" in
+              security) bucket="Security"; break ;;
+              enhancement|feature|new-country|new-section) bucket="Added"; break ;;
+              bug|fix|factual-correction|broken-url) bucket="Fixed"; break ;;
+              removed|deprecated) bucket="Removed / Deprecated"; break ;;
+              breaking) bucket="Breaking"; break ;;
+            esac
+          done < <(printf '%s' "$LABELS" | jq -r '.[]?')
+          echo "bucket=$bucket" >> "$GITHUB_OUTPUT"
+          echo "Bucket resolved: $bucket"
+
+      - name: Append entry to CHANGELOG.md
+        id: edit
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          BUCKET: ${{ steps.bucket.outputs.bucket }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, re, sys
+
+          path = 'CHANGELOG.md'
+          with open(path, encoding='utf-8') as f:
+              text = f.read()
+
+          pr_number = os.environ['PR_NUMBER']
+          pr_title  = os.environ['PR_TITLE']
+          pr_author = os.environ['PR_AUTHOR']
+          pr_url    = os.environ['PR_URL']
+          bucket    = os.environ['BUCKET']
+
+          line = f"- {pr_title} ([#{pr_number}]({pr_url})) — by @{pr_author}"
+
+          # Locate [Unreleased] section. If absent, create it just above the
+          # first version header.
+          unreleased_re = re.compile(r'^## \[Unreleased\].*$', re.MULTILINE)
+          if not unreleased_re.search(text):
+              first_version_re = re.compile(r'^## \[\d{4}\.\d{2}\.\d+\]', re.MULTILINE)
+              m = first_version_re.search(text)
+              if m:
+                  text = text[:m.start()] + "## [Unreleased]\n\n" + text[m.start():]
+              else:
+                  # Fall back to appending at the end.
+                  text = text.rstrip() + "\n\n## [Unreleased]\n\n"
+
+          # Now find the [Unreleased] block — bounded by the next ## header.
+          start = unreleased_re.search(text).end()
+          next_header = re.search(r'^## ', text[start:], re.MULTILINE)
+          end = start + next_header.start() if next_header else len(text)
+          block = text[start:end]
+
+          # Locate the bucket subheading inside the block. Subheading-with-suffix
+          # variants (e.g. "### Added — XX prep") count as the same bucket.
+          bucket_re = re.compile(rf'^### {re.escape(bucket)}\b.*$', re.MULTILINE)
+          m_bucket = bucket_re.search(block)
+          if m_bucket:
+              # Insert at end of bucket section: find next `### ` or end of block.
+              after = m_bucket.end()
+              next_sub = re.search(r'^### ', block[after:], re.MULTILINE)
+              insert_at = after + next_sub.start() if next_sub else len(block)
+              # Trim trailing whitespace before insertion point so list stays tight.
+              prefix = block[:insert_at].rstrip()
+              suffix = block[insert_at:]
+              new_block = f"{prefix}\n{line}\n\n{suffix.lstrip()}"
+          else:
+              # Append a new bucket subheading at end of [Unreleased].
+              trimmed = block.rstrip()
+              new_block = f"{trimmed}\n\n### {bucket}\n\n{line}\n\n"
+
+          new_text = text[:start] + new_block + text[end:]
+          if new_text == text:
+              print('::warning::CHANGELOG insert produced an identical file — nothing to commit.')
+              with open('_skip', 'w') as f:
+                  f.write('skip')
+              sys.exit(0)
+
+          with open(path, 'w', encoding='utf-8') as f:
+              f.write(new_text)
+          print(f'Appended to bucket "{bucket}":')
+          print(f'  {line}')
+          PY
+
+          if [ -f _skip ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open PR with the changelog edit
+        if: steps.edit.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          BUCKET: ${{ steps.bucket.outputs.bucket }}
+        run: |
+          set -euo pipefail
+          branch="chore/changelog-from-pr-${PR_NUMBER}"
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b "$branch"
+          git add CHANGELOG.md
+          git commit -m "chore(changelog): record #${PR_NUMBER} under [Unreleased] § ${BUCKET}"
+          git push -u origin "$branch"
+
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "chore(changelog): record #${PR_NUMBER} — ${PR_TITLE}" \
+            --body "Automated CHANGELOG update for merged PR #${PR_NUMBER}.
+
+          - **Source PR**: ${PR_URL}
+          - **Author**: @${PR_AUTHOR}
+          - **Bucket**: \`### ${BUCKET}\` under \`[Unreleased]\`
+
+          This PR will be auto-merged once required checks pass (see \`auto-merge-docs.yml\`).
+
+          Skip this automation per-PR by adding the \`skip changelog\` label to the source PR." \
+            --label "documentation" \
+            --label "skip changelog"
