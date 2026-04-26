@@ -6,19 +6,21 @@ on:
       # CalVer YYYY.0M.MICRO — same pattern as release-notes.yml
       - '[0-9][0-9][0-9][0-9].[0-9][0-9].[0-9]+'
 
-# id-token: write enables sigstore keyless signing via OIDC.
+# id-token: write enables sigstore keyless signing via OIDC (only the sign job needs it).
 permissions:
-  contents: write
-  id-token: write
+  contents: read
 
 jobs:
   sign:
     name: Sigstore-sign release tarball + SBOM-style file list
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
+      id-token: write
     steps:
       - name: Checkout (full history for archive)
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
         with:
           fetch-depth: 0
 

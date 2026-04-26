@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
 
       - name: Compute decay matrix
         id: matrix
@@ -84,14 +84,14 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Upload decay matrix
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7
         with:
           name: decay-matrix-${{ github.run_id }}
           path: _ci/decay-matrix.md
           retention-days: 365
 
       - name: Find or create pinned health-report issue
-        uses: actions/github-script@v9
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9
         env:
           STALE: ${{ steps.matrix.outputs.stale_count }}
           LOW: ${{ steps.matrix.outputs.low_count }}

@@ -1,19 +1,24 @@
 #!/usr/bin/env bash
 # scripts/pin-actions.sh
 #
-# Pin third-party GitHub Actions to commit SHA in .github/workflows/*.yml.
+# Pin ALL GitHub Actions to commit SHA in .github/workflows/*.yml.
 #
-# - First-party actions (`actions/*`, `github/*`) are kept on major-version tags.
-# - Third-party actions are rewritten as `<owner>/<repo>@<sha>  # <tag>` so:
+# Actions are rewritten as `<owner>/<repo>@<sha>  # <tag>` so:
 #   - Dependabot still updates them (it tracks the trailing `# <tag>` comment)
 #   - Reviewers still see the human-readable version
 #   - The actual fetch is SHA-pinned (supply-chain hardening)
 #
-# Requires: gh CLI authenticated, jq.
+# Why pin first-party (actions/*, github/*) too:
+#   OpenSSF Scorecard's Pinned-Dependencies check counts every unpinned
+#   reference, regardless of org. The convention "first-party is safe to keep
+#   on major tags" is industry custom, not Scorecard policy. Pin everything.
+#
+# Requires: gh CLI authenticated.
 #
 # Usage:
-#   ./scripts/pin-actions.sh           # write changes in place
-#   DRY_RUN=1 ./scripts/pin-actions.sh # just print the planned changes
+#   ./scripts/pin-actions.sh                # write changes in place
+#   DRY_RUN=1 ./scripts/pin-actions.sh      # just print the planned changes
+#   SKIP_FIRST_PARTY=1 ./scripts/pin-actions.sh  # legacy: skip actions/*, github/*
 #
 # This script is idempotent. Re-running it after a tag change refreshes the SHAs.
 
@@ -21,6 +26,7 @@ set -euo pipefail
 
 WORKFLOWS_DIR="${WORKFLOWS_DIR:-.github/workflows}"
 DRY_RUN="${DRY_RUN:-0}"
+SKIP_FIRST_PARTY="${SKIP_FIRST_PARTY:-0}"
 
 if ! command -v gh >/dev/null 2>&1; then
   echo "Error: gh CLI is required (https://cli.github.com)." >&2
@@ -40,11 +46,20 @@ is_sha() {
 
 resolve_sha() {
   local action="$1" tag="$2"
+  # For sub-actions like `github/codeql-action/upload-sarif`, the repo is the
+  # first two path segments — strip any deeper path before calling the API.
+  local repo
+  repo=$(printf '%s' "$action" | cut -d/ -f1,2)
+
   # Tag may be either a lightweight tag (returns commit SHA) or annotated tag (returns tag SHA → dereference).
   local sha
-  sha=$(gh api "repos/${action}/commits/${tag}" --jq '.sha' 2>/dev/null || true)
-  if [ -z "$sha" ]; then
-    sha=$(gh api "repos/${action}/git/ref/tags/${tag}" --jq '.object.sha' 2>/dev/null || true)
+  sha=$(gh api "repos/${repo}/commits/${tag}" --jq '.sha' 2>/dev/null || true)
+  if [ -z "$sha" ] || [[ "$sha" == *'"message"'* ]]; then
+    sha=$(gh api "repos/${repo}/git/ref/tags/${tag}" --jq '.object.sha' 2>/dev/null || true)
+  fi
+  # Defensive: if we still got an error blob (or empty), return empty so caller skips.
+  if [[ "$sha" == *'"message"'* ]] || [[ ! "$sha" =~ ^[a-f0-9]{40}$ ]]; then
+    sha=""
   fi
   printf '%s' "$sha"
 }
@@ -72,7 +87,7 @@ for wf in "${files[@]}"; do
         printf '%s\n' "$line" >> "$tmp"
         continue
       fi
-      if is_first_party "$action"; then
+      if [ "$SKIP_FIRST_PARTY" = "1" ] && is_first_party "$action"; then
         printf '%s\n' "$line" >> "$tmp"
         continue
       fi
