@@ -7,7 +7,7 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/soreavis/property-deep-dive/badge)](https://scorecard.dev/viewer/?uri=github.com/soreavis/property-deep-dive)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12655/badge)](https://www.bestpractices.dev/projects/12655)
 
-A Claude Code skill for **multi-country property due-diligence** — pull tax, risks, rental yield, mains, climate, finance, visa, and 16 other facets for any address worldwide. **44 countries** fully populated, **22 user-invocable sections**, **4 cross-cutting layers**, anti-hallucination guard, and a regulatory-watch system that surfaces reforms before they invalidate the data.
+**Pre-purchase property due diligence across 44 countries** — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **22 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
 
@@ -193,7 +193,7 @@ property-deep-dive/
 ```
 
 **Skill content**: 79 markdown files, ~26,500 lines (SKILL.md + 34 shared/ + 44 country playbooks).
-**Repo total**: 91 markdown files, ~27,700 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 91 markdown files, ~27,800 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
