@@ -1,5 +1,6 @@
 {
   "name": "property-deep-dive",
+  "displayName": "Property Deep Dive (your property-buying co-pilot)",
   "version": "2026.04.0",
   "description": "Pre-purchase property due diligence across 44 countries — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled.",
   "author": {
@@ -13,11 +14,20 @@
     "property",
     "real-estate",
     "due-diligence",
-    "tax",
+    "property-tax",
+    "transfer-tax",
+    "rental-yield",
+    "flood-risk",
+    "golden-visa",
+    "visa-programs",
+    "digital-nomad",
+    "mortgage-calculator",
+    "crime-rate",
+    "retirement-property",
+    "foreign-buyer",
+    "cadastre",
     "regulatory-watch",
-    "anti-hallucination",
     "eu",
-    "calver",
     "claude-code",
     "claude-cowork"
   ]

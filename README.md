@@ -79,6 +79,29 @@ ls -la ~/.claude/skills/property-deep-dive
 
 The skill is now invocable via `/property-deep-dive` in Claude Code, with edits picked up immediately.
 
+## Try asking…
+
+Paste any of these into Claude Code or Claude Cowork after installing:
+
+```bash
+# Visa + retirement options for a Spanish address
+/property-deep-dive Calle Mayor 5, 28013 Madrid --visa --retirement
+
+# Integrity scan + pre-offer brief from a UK listing URL
+/property-deep-dive https://www.rightmove.co.uk/properties/142857 --integrity --journey=pre-offer
+
+# Three-country side-by-side for retirees
+/property-deep-dive --compare=fr,it,pt --retirement
+
+# Greek heritage property for a foreign buyer
+/property-deep-dive Athens 10556 --type=heritage --journey=foreign-buyer
+
+# Maintenance — refresh URL liveness for France's playbook
+/property-deep-dive --update --validate-only --country=fr
+```
+
+See [Usage](#usage) below for the full flag reference and more examples.
+
 ## Usage
 
 ```
