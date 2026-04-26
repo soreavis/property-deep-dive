@@ -1,10 +1,10 @@
 name: CodeQL
 
-# Static analysis on the `actions` language — scans every workflow YAML for
-# injection patterns, risky `${{}}` interpolations, and secret-leak vectors.
-# Python is NOT scanned because no .py files are committed (scripts/sync-docs.py
-# is currently staged in _local/post-push-doc-sync/; once activated in a follow-
-# up PR, add `python` back to the matrix below).
+# Static analysis on two languages:
+#   - actions: scans every workflow YAML for injection patterns, risky
+#     `${{}}` interpolations, and secret-leak vectors.
+#   - python:  scans scripts/sync-docs.py (the doc-sync autogen) for code
+#     injection, unsafe path traversal, hardcoded creds, etc.
 # Bash scripts (scripts/pin-actions.sh) are not natively supported by CodeQL.
 
 on:
@@ -40,7 +40,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [actions]
+        language: [actions, python]
     steps:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
