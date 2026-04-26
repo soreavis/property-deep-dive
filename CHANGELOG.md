@@ -52,6 +52,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+## [2026.04.2] - 2026-04-26
+
 ### Fixed — OpenSSF Scorecard Token-Permissions (2026-04-26)
 
 - `changelog-on-merge.yml` — moved `contents: write` + `pull-requests: write` from top-level to the `append` job. Top-level write was the sole reason Scorecard's `Token-Permissions` check scored 0/10 (HIGH severity). Other workflows (`auto-tag`, `dependabot-auto-merge`, `release-notes`) already use this pattern. Expected score lift: 0 → 9.
