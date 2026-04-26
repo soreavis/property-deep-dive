@@ -85,7 +85,7 @@ jobs:
 
       - name: Open issue when matches found
         if: steps.feeds.outputs.found_matches == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs');

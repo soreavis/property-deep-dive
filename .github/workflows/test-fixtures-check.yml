@@ -84,7 +84,7 @@ jobs:
 
       - name: Open issue if fixture liveness drops
         if: ${{ steps.check.outputs.score != '' && steps.check.outputs.score < 75 }}
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs');
