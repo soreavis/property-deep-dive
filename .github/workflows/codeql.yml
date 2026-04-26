@@ -1,24 +1,25 @@
 name: CodeQL
 
-# Static analysis on:
-#  - python: scripts/sync-docs.py + inline-python steps in pr-validate.yml
-#  - actions: every workflow YAML — catches injection / secret leak / risky `${{}}` patterns
-# Bash scripts (scripts/pin-actions.sh, inline shell in workflows) are NOT analysed by
-# CodeQL. They're covered by hand-review + pre-commit eyeballing.
+# Static analysis on the `actions` language — scans every workflow YAML for
+# injection patterns, risky `${{}}` interpolations, and secret-leak vectors.
+# Python is NOT scanned because no .py files are committed (scripts/sync-docs.py
+# is currently staged in _local/post-push-doc-sync/; once activated in a follow-
+# up PR, add `python` back to the matrix below).
+# Bash scripts (scripts/pin-actions.sh) are not natively supported by CodeQL.
 
 on:
   push:
     branches: [main]
     paths:
-      - '**.py'
       - '**.yml'
       - '**.yaml'
+      - '**.py'
   pull_request:
     branches: [main]
     paths:
-      - '**.py'
       - '**.yml'
       - '**.yaml'
+      - '**.py'
   schedule:
     # Wednesday 09:00 UTC — separate day from url-liveness (Mon), link-check (Fri), scorecard (Mon)
     - cron: '0 9 * * 3'
@@ -39,7 +40,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [python, actions]
+        language: [actions]
     steps:
       - name: Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
