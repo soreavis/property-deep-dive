@@ -92,6 +92,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 ### Changed
 
 - `transposition-alerts.yml` — fixed shell redirect that overwrote the JSON payload with print output (`SyntaxError: Unexpected non-whitespace character` on every dispatch). Now relies on Python's `json.dump`.
+- `year-roll-reminder.yml` — broadened regex from strict `(YYYY data...)` to any `(YYYY)` / `(YYYY context)` parenthetical with a `[\s,)]` terminator. Catches the 96 year stamps actually in use today (mostly `(2025)` and `(2025 reform)` forms) without false-positives on `(€2,025)`, `(1 Aug 2025)`, etc.
 - `source-tier-ratchet.yml` — guarded `GITHUB_BASE_REF` against the empty-string case that occurs on `workflow_dispatch` (was failing with `git rev-parse origin/`).
 - All Node-20 GitHub Actions bumped to Node-24-compatible versions (deprecation warning emitted by GitHub on April 26, 2026): `actions/checkout` v4 → v6.0.2, `actions/setup-python` v5 → v6.2.0, `actions/cache` v4 → v5.0.5, `actions/github-script` v9 → v9.0.0 (fresh SHA), `actions/upload-artifact` v7 → v7.0.1 (comment refresh).
 - `sign-release.yml` — added `workflow_dispatch` with required `tag` input so `auto-tag.yml` can chain into it.

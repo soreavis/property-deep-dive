@@ -42,9 +42,17 @@ jobs:
           # Show the spread but cap reporting at 5 years back.
           cutoff_year = current_year - 5
 
-          # Match `(YYYY data...)` and `(YYYY-MM-DD data...)` forms. Anchored to
-          # avoid catching prose like "in (2024) the rate was".
-          stamp_re = re.compile(r'\((\d{4})(?:-\d{2}-\d{2})?\s+data\b[^)]*\)')
+          # Match year-stamped parentheticals broadly:
+          #   (2025)                   bare year
+          #   (2025 reform)            year + context word(s)
+          #   (2024 data, source X)    canonical CLAUDE.md form
+          #   (2025-01-01)             ISO date
+          #   (2025-01-01 reform)      ISO date + context
+          # The lookahead `[\s,)]` ensures the year is followed by a real
+          # terminator — keeps us out of `(€2025/m²)`, `(2025plus)` etc.
+          # The leading `\(` plus immediate digit anchor keeps us out of
+          # `(1 Aug 2025)` and `(€2,025)` (digit not adjacent to `(`).
+          stamp_re = re.compile(r'\((\d{4})(?:-\d{2}-\d{2})?(?=[\s,)])')
 
           findings = defaultdict(list)  # path → [(year, line_no, line)]
           total_aged = 0
