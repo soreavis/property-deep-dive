@@ -24,11 +24,5 @@ jobs:
           expectedLatestVersion: Unreleased
           # Skip enforcement when these labels are applied — for trivial PRs
           # that don't need a changelog line (typo fixes, CI tweaks, dep bumps).
-          skipLabels: |
-            skip changelog
-            documentation
-            ci
-            dependencies
-            github-actions
-            duplicate
-            wontfix
+          # The action expects a COMMA-separated list (NOT newline-separated).
+          skipLabels: 'skip changelog,documentation,ci,dependencies,github-actions,duplicate,wontfix'
