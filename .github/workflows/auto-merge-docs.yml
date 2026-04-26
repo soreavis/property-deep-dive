@@ -11,6 +11,12 @@ name: Auto-merge docs PRs
 # checks pass and only then squashes. If a required check fails, the PR
 # stays open and a maintainer can intervene.
 #
+# Token: uses PR_BOT_TOKEN (PAT, Pull-requests:RW + Contents:RW on this
+# repo only). The default GITHUB_TOKEN cannot be used here — the GraphQL
+# `enablePullRequestAutoMerge` mutation rejects it with
+# "Resource not accessible by integration". Same trust pattern as
+# changelog-on-merge.yml (see PR #23 for the rationale + token setup).
+#
 # Why "documentation" only — content additions (new countries, regulatory
 # updates, anti-hallucination edits) carry a hallucination risk that
 # warrants manual review. Pure prose / docs / metadata edits don't.
@@ -44,15 +50,19 @@ jobs:
     steps:
       - name: Enable squash auto-merge
         env:
-          GH_TOKEN: ${{ github.token }}
+          # PAT (not GITHUB_TOKEN). The enablePullRequestAutoMerge GraphQL
+          # mutation rejects GITHUB_TOKEN ("Resource not accessible by
+          # integration"). The PAT is user-attributed and works.
+          GH_TOKEN: ${{ secrets.PR_BOT_TOKEN }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           set -euo pipefail
           # Auto-merge enrolment is idempotent — repeated runs are no-ops once
-          # already enabled. The flag fails harmlessly if branch protection
-          # blocks it (e.g., required reviews not met) — workflow exits 0.
-          if gh pr merge "${PR_NUMBER}" --repo "${GITHUB_REPOSITORY}" --auto --squash; then
+          # already enabled. We capture stderr so a real error is visible
+          # in the log (the previous version swallowed it via `if/else`).
+          if gh pr merge "${PR_NUMBER}" --repo "${GITHUB_REPOSITORY}" --auto --squash 2>&1; then
             echo "::notice::Auto-merge enabled for PR #${PR_NUMBER}"
           else
-            echo "::warning::Auto-merge could not be enabled for PR #${PR_NUMBER} — likely awaiting required reviews or status checks. PR remains open."
+            ec=$?
+            echo "::warning::Auto-merge could not be enabled for PR #${PR_NUMBER} (exit ${ec}). See preceding gh CLI output for the real cause."
           fi
