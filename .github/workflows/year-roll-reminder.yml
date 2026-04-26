@@ -97,6 +97,17 @@ jobs:
           print("Stamps 5+ years old are omitted (presumed superseded — re-research from scratch).")
           print()
 
+          # Render iso2 → regional-indicator flag emoji. Mirrors the
+          # FLAG_OVERRIDES logic in scripts/sync-docs.py: project uses 'uk'
+          # where ISO 3166 says 'gb', and the regional-indicator algorithm
+          # would otherwise produce 🇺🇰 (Ukraine) instead of 🇬🇧.
+          FLAG_OVERRIDES = {'uk': '🇬🇧'}
+          def iso2_to_flag(code):
+              c = code.lower()
+              if c in FLAG_OVERRIDES:
+                  return FLAG_OVERRIDES[c]
+              return ''.join(chr(0x1F1E6 + ord(ch) - ord('a')) for ch in c)
+
           per_country = defaultdict(list)
           per_other = []
           for path, entries in sorted(findings.items()):
@@ -111,7 +122,7 @@ jobs:
           print()
           for iso2 in sorted(per_country):
               for path, entries in per_country[iso2]:
-                  print(f"<details><summary><b>🇨{iso2}</b> · <code>{path[2:]}</code> · {len(entries)} stamp(s)</summary>")
+                  print(f"<details><summary><b>{iso2_to_flag(iso2)} {iso2}</b> · <code>{path[2:]}</code> · {len(entries)} stamp(s)</summary>")
                   print()
                   print('| Year | Line | Context |')
                   print('|---|--:|---|')
