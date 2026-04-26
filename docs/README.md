@@ -24,7 +24,7 @@ Full documentation for **property-deep-dive**. Most content lives at the repo ro
 
 | File | Role |
 |---|---|
-| [SKILL.md](../SKILL.md) | Master router — argument-hint, section catalog, country matrix |
+| [SKILL.md](../skills/property-deep-dive/SKILL.md) | Master router — argument-hint, section catalog, country matrix |
 | [shared/anti-hallucination.md](../shared/anti-hallucination.md) | The 7 mandatory pre-output checks the skill enforces |
 | [shared/regulatory-watch.md](../shared/regulatory-watch.md) | Date-stamped tracker of ENDED programmes + recent reforms + transposition deadlines |
 | [shared/sections.md](../shared/sections.md) | Universal section contract |

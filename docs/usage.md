@@ -6,7 +6,7 @@
 /property-deep-dive <address> [flags]
 ```
 
-The full argument-hint and section catalog live in [SKILL.md](../SKILL.md). This page shows six worked examples covering common decision contexts.
+The full argument-hint and section catalog live in [SKILL.md](../skills/property-deep-dive/SKILL.md). This page shows six worked examples covering common decision contexts.
 
 ## 1. Full audit on a French address
 
@@ -86,7 +86,7 @@ Renders a comparison matrix across France / Italy / Portugal for retiree-relevan
 | `--update --validate-only` | URL liveness only |
 | `--health-report` | Decay matrix per country / section |
 
-See [SKILL.md](../SKILL.md) for the complete argument-hint string.
+See [SKILL.md](../skills/property-deep-dive/SKILL.md) for the complete argument-hint string.
 
 ## Country support
 
