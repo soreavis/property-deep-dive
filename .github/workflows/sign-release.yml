@@ -55,28 +55,35 @@ jobs:
             --bundle "property-deep-dive-${tag}.tar.gz.sigstore" \
             "property-deep-dive-${tag}.tar.gz"
 
-      - name: Upload artifacts to GitHub Release
+      - name: Wait for release-notes.yml to create the release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           tag="${{ steps.tag.outputs.tag }}"
-          # release-notes.yml may run before us — wait for the release to exist
           for i in 1 2 3 4 5 6; do
             if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-              break
+              echo "Release $tag is visible."
+              exit 0
             fi
             echo "Release $tag not yet visible — waiting (attempt $i/6)…"
             sleep 10
           done
+          echo "::warning::Release not visible after 60s — softprops/action-gh-release will create it."
 
-          gh release upload "$tag" \
-            "property-deep-dive-${tag}.tar.gz" \
-            "property-deep-dive-${tag}.tar.gz.sha256" \
-            "property-deep-dive-${tag}.tar.gz.sigstore" \
-            "property-deep-dive-${tag}.manifest.txt" \
-            --repo "$GITHUB_REPOSITORY" \
-            --clobber
+      - name: Upload artifacts to GitHub Release
+        # softprops/action-gh-release is OpenSSF Scorecard-recognised as a packaging
+        # publisher (Packaging check). Functionally equivalent to `gh release upload`
+        # but better release-management UX (idempotent, attaches to existing release).
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65  # v2
+        with:
+          tag_name: ${{ steps.tag.outputs.tag }}
+          fail_on_unmatched_files: true
+          files: |
+            property-deep-dive-${{ steps.tag.outputs.tag }}.tar.gz
+            property-deep-dive-${{ steps.tag.outputs.tag }}.tar.gz.sha256
+            property-deep-dive-${{ steps.tag.outputs.tag }}.tar.gz.sigstore
+            property-deep-dive-${{ steps.tag.outputs.tag }}.manifest.txt
 
       - name: Append verification instructions to release notes
         env:

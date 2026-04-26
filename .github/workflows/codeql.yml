@@ -1,0 +1,56 @@
+name: CodeQL
+
+# Static analysis on:
+#  - python: scripts/sync-docs.py + inline-python steps in pr-validate.yml
+#  - actions: every workflow YAML — catches injection / secret leak / risky `${{}}` patterns
+# Bash scripts (scripts/pin-actions.sh, inline shell in workflows) are NOT analysed by
+# CodeQL. They're covered by hand-review + pre-commit eyeballing.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.py'
+      - '**.yml'
+      - '**.yaml'
+  pull_request:
+    branches: [main]
+    paths:
+      - '**.py'
+      - '**.yml'
+      - '**.yaml'
+  schedule:
+    # Wednesday 09:00 UTC — separate day from url-liveness (Mon), link-check (Fri), scorecard (Mon)
+    - cron: '0 9 * * 3'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    name: Analyze ${{ matrix.language }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      security-events: write
+      actions: read
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [python, actions]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@ce64ddcb0d8d890d2df4a9d1c04ff297367dea2a  # v3
+        with:
+          languages: ${{ matrix.language }}
+          queries: security-and-quality
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@ce64ddcb0d8d890d2df4a9d1c04ff297367dea2a  # v3
+        with:
+          category: "/language:${{ matrix.language }}"
