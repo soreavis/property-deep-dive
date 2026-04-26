@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Changed
+
+- chore(release): cut 2026.04.2 ([#45](https://github.com/soreavis/property-deep-dive/pull/45)) — by @soreavis
+
 ## [2026.04.2] - 2026-04-26
 
 ### Fixed — OpenSSF Scorecard Token-Permissions (2026-04-26)
