@@ -52,6 +52,14 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Added — doc-sync autogen (2026-04-26)
+
+- `scripts/sync-docs.py` — autogen for community markdown drift. Computes counts from filesystem (countries / sections / shared / workflows / issue forms / total YAML configs / total markdown lines) and applies idempotent regex inline replacements + `<!-- AUTOGEN:country-matrix -->` block regeneration. Run as `--check` in CI, plain `python3 scripts/sync-docs.py` to write.
+- `_regions.json` — single source of truth for country-region grouping (5 regions, 44 codes). Order determines render order in the README country matrix.
+- `.github/workflows/doc-sync-check.yml` — PR-time gate plus Tuesday cron. Fails the PR if `--check` would write changes; opens an issue if scheduled drift is detected on `main`.
+- README country matrix wrapped in AUTOGEN markers; previously-stale "25 YAML / JSON config files (17 workflows…)" tally now auto-derived from the filesystem.
+- Robustness: `FLAG_OVERRIDES` map in `iso2_to_flag()` so the project-internal `uk` code renders as 🇬🇧 (Great Britain) rather than 🇺🇰 (the regional-indicator default for that pair, which is Ukraine's flag).
+
 ### Added — Tier-1+2 follow-up workflows (2026-04-26)
 
 - `regulatory-watch-revisit.yml` — daily cron, opens (or updates) a single tracking issue listing every regulatory-watch entry whose `revisit_by` date has passed. Auto-closes when the queue empties.

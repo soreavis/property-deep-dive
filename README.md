@@ -41,6 +41,7 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 ## Country support — 44 fully populated
 
+<!-- AUTOGEN:country-matrix:start -->
 **Europe core (24)** — 🇫🇷 fr · 🇮🇹 it · 🇨🇿 cz · 🇸🇰 sk · 🇩🇪 de · 🇦🇹 at · 🇨🇭 ch · 🇪🇸 es · 🇵🇹 pt · 🇸🇪 se · 🇫🇮 fi · 🇳🇴 no · 🇬🇧 uk · 🇳🇱 nl · 🇧🇪 be · 🇩🇰 dk · 🇮🇸 is · 🇸🇮 si · 🇮🇪 ie · 🇬🇷 gr · 🇵🇱 pl · 🇪🇪 ee · 🇭🇷 hr · 🇭🇺 hu
 
 **Anglo non-EU (3)** — 🇨🇦 ca · 🇦🇺 au · 🇳🇿 nz
@@ -50,6 +51,7 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 **Western Balkans (5)** — 🇷🇸 rs · 🇲🇪 me · 🇧🇦 ba · 🇲🇰 mk · 🇦🇱 al
 
 **EU completion (7)** — 🇱🇹 lt · 🇱🇻 lv · 🇷🇴 ro · 🇧🇬 bg · 🇱🇺 lu · 🇨🇾 cy · 🇲🇹 mt
+<!-- AUTOGEN:country-matrix:end -->
 
 ## Install
 
@@ -151,7 +153,7 @@ property-deep-dive/
 │   │   ├── broken-url.yml
 │   │   ├── new-country.yml
 │   │   └── regulatory-watch.yml
-│   └── workflows/  (17 in total — see CHANGELOG.md for the full set)
+│   └── workflows/  (27 in total — see CHANGELOG.md for the full set)
 │       ├── pr-validate.yml           # markdownlint + forbidden-phrasings + Status footer + density + arg-hint drift
 │       ├── source-tier-audit.yml     # advisory: primary-vs-aggregator URL ratio per changed playbook (sticky PR comment)
 │       ├── link-check.yml            # lychee internal links (PR + weekly schedule)
@@ -182,7 +184,7 @@ property-deep-dive/
 ```
 
 **Skill content**: 79 markdown files, ~26,500 lines (SKILL.md + 34 shared/ + 44 country playbooks).
-**Repo total**: 87 markdown files, ~27,400 lines (skill content + community / governance files + CHANGELOG) · 25 YAML / JSON config files (17 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 91 markdown files, ~27,700 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

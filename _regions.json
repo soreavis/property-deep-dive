@@ -1,0 +1,30 @@
+{
+  "_comment": "Single source of truth for country-region grouping. Edit this when adding or moving a country. The regions.label string appears verbatim in README.md country matrix; codes order determines render order. Country code → playbook directory must match countries/<code>/playbook.md.",
+  "regions": [
+    {
+      "id": "europe_core",
+      "label": "Europe core",
+      "codes": ["fr", "it", "cz", "sk", "de", "at", "ch", "es", "pt", "se", "fi", "no", "uk", "nl", "be", "dk", "is", "si", "ie", "gr", "pl", "ee", "hr", "hu"]
+    },
+    {
+      "id": "anglo",
+      "label": "Anglo non-EU",
+      "codes": ["ca", "au", "nz"]
+    },
+    {
+      "id": "latam",
+      "label": "Latin America",
+      "codes": ["mx", "br", "ar", "cr", "pa"]
+    },
+    {
+      "id": "balkans",
+      "label": "Western Balkans",
+      "codes": ["rs", "me", "ba", "mk", "al"]
+    },
+    {
+      "id": "eu_completion",
+      "label": "EU completion",
+      "codes": ["lt", "lv", "ro", "bg", "lu", "cy", "mt"]
+    }
+  ]
+}

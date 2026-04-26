@@ -1,0 +1,65 @@
+name: Doc sync check
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'countries/**'
+      - 'shared/**'
+      - 'SKILL.md'
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+      - 'SECURITY.md'
+      - '_regions.json'
+      - 'scripts/sync-docs.py'
+      - '.github/workflows/doc-sync-check.yml'
+  schedule:
+    # Tuesday 09:00 UTC — separate day from url-liveness (Mon) and link-check (Fri)
+    - cron: '0 9 * * 2'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    name: Auto-generated counts + blocks are in sync
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
+        with:
+          python-version: '3.x'
+
+      - name: Run sync-docs.py --check
+        id: sync
+        run: |
+          set -euo pipefail
+          if [ ! -x scripts/sync-docs.py ]; then
+            chmod +x scripts/sync-docs.py
+          fi
+          python3 scripts/sync-docs.py --check
+
+      - name: Open issue on scheduled drift
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71  # v9.0.0
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Doc-sync drift detected — ${new Date().toISOString().slice(0,10)}`,
+              body: [
+                `Scheduled \`sync-docs --check\` flagged drift on \`${context.sha.slice(0,7)}\`.`,
+                ``,
+                `**Action**: run \`./scripts/sync-docs.py\` locally and commit the result.`,
+                ``,
+                `Most likely cause: a recent merge added/removed a country, section flag, shared/ file, or workflow without re-running sync-docs.`,
+              ].join('\n'),
+              labels: ['maintenance', 'documentation'],
+            });
