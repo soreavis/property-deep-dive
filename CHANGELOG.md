@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed — OpenSSF Scorecard Token-Permissions (2026-04-26)
+
+- `changelog-on-merge.yml` — moved `contents: write` + `pull-requests: write` from top-level to the `append` job. Top-level write was the sole reason Scorecard's `Token-Permissions` check scored 0/10 (HIGH severity). Other workflows (`auto-tag`, `dependabot-auto-merge`, `release-notes`) already use this pattern. Expected score lift: 0 → 9.
+
 ### Changed — Cowork install accuracy (2026-04-26)
 
 - README — separated the install flow into Claude Code (slash commands) vs Claude Cowork (in-app plugin browser, "upload your own plugin" path). Earlier copy claimed the slash-command path worked identically in both, which was overclaim — Cowork's user-facing install is GUI-driven per [Anthropic's launch post](https://claude.com/blog/cowork-plugins). Also flagged that Cowork plugin scope is per-user / local today (not workspace-wide), with org-wide sharing pending. Plugin format itself remains identical between products.
