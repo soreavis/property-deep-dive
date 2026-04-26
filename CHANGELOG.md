@@ -57,6 +57,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - **Plugin payload co-located** under `skills/property-deep-dive/`. Moved `shared/` (34 files) and `countries/<iso2>/playbook.md` (44 files) into the skill folder so plugin hosts (Claude Cowork, Claude Code) ship the entire payload from a single self-contained directory. Without this, post-PR-#33 plugin installs only received `SKILL.md` and every `shared/*` reference inside it resolved to nothing — Cowork agents fell back to live research without the anti-hallucination contract. Path references inside SKILL.md / shared/*.md / countries/*/playbook.md remain relative and resolve unchanged. Outside-the-skill references (13 workflows, `scripts/sync-docs.py`, labeler/labels/PR template, 3 issue templates, README/CONTRIBUTING/CLAUDE/DISCLAIMER/SECURITY, docs/) updated to the new path.
 - `_regions.json` stays at repo root — it's a docs-build input for the README country matrix and is never read by the skill at runtime.
 - `pr-validate.yml` — fixed `docs/` allowlist regex that only matched the `./docs/` form emitted by push-time `find`, missing the `docs/` form emitted by PR-time `git diff --name-only`. The forbidden-phrasings scanner now consistently exempts the docs folder (which quotes forbidden phrases by design).
+- fix(plugin): co-locate shared/ + countries/ under skills/property-deep-dive/ ([#39](https://github.com/soreavis/property-deep-dive/pull/39)) — by @soreavis
 
 ### Added — doc-sync autogen (2026-04-26)
 
