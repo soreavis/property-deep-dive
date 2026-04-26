@@ -5,6 +5,7 @@
 [![URL liveness](https://github.com/soreavis/property-deep-dive/actions/workflows/url-liveness.yml/badge.svg)](https://github.com/soreavis/property-deep-dive/actions/workflows/url-liveness.yml)
 [![PR validate](https://github.com/soreavis/property-deep-dive/actions/workflows/pr-validate.yml/badge.svg)](https://github.com/soreavis/property-deep-dive/actions/workflows/pr-validate.yml)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/soreavis/property-deep-dive/badge)](https://scorecard.dev/viewer/?uri=github.com/soreavis/property-deep-dive)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12655/badge)](https://www.bestpractices.dev/projects/12655)
 
 A Claude Code skill for **multi-country property due-diligence** — pull tax, risks, rental yield, mains, climate, finance, visa, and 16 other facets for any address worldwide. **44 countries** fully populated, **22 user-invocable sections**, **4 cross-cutting layers**, anti-hallucination guard, and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
