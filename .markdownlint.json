@@ -22,5 +22,6 @@
   "MD046": { "style": "fenced" },
   "MD050": { "style": "asterisk" },
   "MD051": false,
-  "MD056": false
+  "MD056": false,
+  "MD060": false
 }
