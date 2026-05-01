@@ -53,6 +53,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 ## [Unreleased]
 
 ### Added
+- **`ROADMAP.md`** — country-addition backlog at repo root. 8 Tier-1 candidates (mu/kz/cv/sc/cn/jm/bs/sm), 8 Tier-2 (bb/bz/lk/kh/mv/gh/rw/uz), Crown Dependencies as a deferred schema-design item, and skip-list with reasoning. No commitment to schedule.
 - **Tiered refresh cadence** — `_tiers.json` defines A/B/C tiers (15/30/42 countries) at 90/180/365 day cadences, replacing the flat "annually" cadence. New `--tier=<A|B|C>` flag plus `--include`/`--exclude` overrides for ad-hoc inclusion. Tier-A is high-velocity foreign-buyer markets (fr/it/es/de/uk/us/pt/ie/nl/at/gr/tr/ae/au/ch); Tier-B is stable mid-volume (30 countries); Tier-C is microstates + frontier (42 countries).
 - **3 cron workflows** for tier reminders — `tier-a-refresh.yml` (quarterly), `tier-b-refresh.yml` (semi-annual), `tier-c-refresh.yml` (annual). Each opens a tracking issue listing countries due for refresh. Cron jobs do NOT modify playbooks — humans run `--update --tier=X` to execute.
 - **Health-report cadence column** — `health-report.yml` decay matrix now shows cadence tier (A/B/C) and an off-cadence flag when a country exceeds its tier window. Issue summary line now reports off-cadence A/B/C counts alongside HIGH/MEDIUM/LOW/STALE.
