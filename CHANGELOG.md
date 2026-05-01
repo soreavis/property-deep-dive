@@ -74,6 +74,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - docs: add ROADMAP.md country backlog ([#83](https://github.com/soreavis/property-deep-dive/pull/83)) — by @soreavis
 - feat(maintenance): Tier-1 automation batch — regwatch promotion + drift warning + auto-PR redirects ([#85](https://github.com/soreavis/property-deep-dive/pull/85)) — by @soreavis
 - fix(workflow): disable auto-pr-redirects cron until refactor lands ([#88](https://github.com/soreavis/property-deep-dive/pull/88)) — by @soreavis
+- chore: remove auto-pr-redirects workflow + script entirely ([#91](https://github.com/soreavis/property-deep-dive/pull/91)) — by @soreavis
 
 ## [2026.05.1] - 2026-05-01
 
