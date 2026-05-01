@@ -130,7 +130,7 @@ jobs:
 
       - name: Open or update the tracking issue
         if: hashFiles('_overdue.flag') == ''
-        uses: actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71  # v9.0.0
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           script: |
             const fs = require('fs');
@@ -167,7 +167,7 @@ jobs:
 
       - name: Close the tracking issue if no overdue entries remain
         if: hashFiles('_overdue.flag') != ''
-        uses: actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71  # v9.0.0
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           script: |
             const title = '🔔 Regulatory-watch — overdue revisits';
