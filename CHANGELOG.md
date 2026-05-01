@@ -66,6 +66,7 @@ Audit pruned 5 workflows + tightened 4 cron schedules. None of the removals were
 - `transposition-alerts.yml` — `30 6 * * *` (daily) → `30 6 * * 1` (weekly Mon). T-90/30/14/0 threshold ladder doesn't need daily granularity; mid-week threshold crossings are caught by the next Monday.
 - `stale.yml` — `0 3 * * *` (daily) → `0 3 * * 1` (weekly Mon). Issue/PR volume is low enough that daily was burning GHA-minutes on no-ops.
 - `link-check.yml` — dropped per-PR + per-push triggers; weekly Friday cron + manual dispatch only. The per-push runs duplicated url-liveness coverage; weekly is sufficient for internal-link rot.
+- chore(ci): workflow audit — 27 → 22 (delete cosmetic + fold redundant + tighten cron) ([#60](https://github.com/soreavis/property-deep-dive/pull/60)) — by @soreavis
 
 ### Added — 10 new country playbooks (Tier 1 expansion)
 
