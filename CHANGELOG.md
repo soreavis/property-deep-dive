@@ -52,7 +52,13 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
-_(no entries yet — next mid-month corrections will accumulate here under `2026.05.2`, `2026.05.3`, …; the next `.0` (`2026.06.0`) will be auto-tagged at end of June by `auto-tag.yml`)_
+### Added
+- **Tiered refresh cadence** — `_tiers.json` defines A/B/C tiers (15/30/42 countries) at 90/180/365 day cadences, replacing the flat "annually" cadence. New `--tier=<A|B|C>` flag plus `--include`/`--exclude` overrides for ad-hoc inclusion. Tier-A is high-velocity foreign-buyer markets (fr/it/es/de/uk/us/pt/ie/nl/at/gr/tr/ae/au/ch); Tier-B is stable mid-volume (30 countries); Tier-C is microstates + frontier (42 countries).
+- **3 cron workflows** for tier reminders — `tier-a-refresh.yml` (quarterly), `tier-b-refresh.yml` (semi-annual), `tier-c-refresh.yml` (annual). Each opens a tracking issue listing countries due for refresh. Cron jobs do NOT modify playbooks — humans run `--update --tier=X` to execute.
+- **Health-report cadence column** — `health-report.yml` decay matrix now shows cadence tier (A/B/C) and an off-cadence flag when a country exceeds its tier window. Issue summary line now reports off-cadence A/B/C counts alongside HIGH/MEDIUM/LOW/STALE.
+- `shared/updater.md` § Refresh tiers replaces old § Frequency recommendations with new cadence-by-country breakdown plus auto-promotion + manual-override semantics.
+- `SKILL.md` argument-hint extended with `--tier=<A|B|C>` `--include=<iso2>` `--exclude=<iso2>`; cadence table now references tier counts.
+- Stamp-grep robustness: `health-report.yml` and tier-refresh workflows now extract `**Last verified**: YYYY-MM-DD` in addition to `as of YYYY-MM-DD` — the new playbook format wasn't being detected by the existing grep.
 
 ### Changed
 

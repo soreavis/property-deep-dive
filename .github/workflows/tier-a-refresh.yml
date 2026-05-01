@@ -1,0 +1,105 @@
+name: Tier-A refresh reminder (quarterly)
+
+on:
+  schedule:
+    # 1st of Jan/Apr/Jul/Oct at 09:00 UTC
+    - cron: '0 9 1 1,4,7,10 *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  open-refresh-issue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Build refresh task list
+        id: tasks
+        run: |
+          set -euo pipefail
+          mkdir -p _ci
+          out=_ci/tier-a-refresh.md
+          today=$(date -u +%Y-%m-%d)
+
+          # Extract Tier-A codes from _tiers.json
+          codes=$(python3 -c "import json; d=json.load(open('_tiers.json')); print(' '.join(d['tiers']['A']['codes']))")
+
+          {
+            echo "# Tier-A quarterly refresh — $today"
+            echo
+            echo "Cadence: quarterly (90 days). Run \`/property-deep-dive --update --tier=A\` locally to execute."
+            echo
+            echo "## Countries due for refresh"
+            echo
+            echo "| ISO2 | Last verified | Days old | Action |"
+            echo "|---|---|---:|---|"
+          } > "$out"
+
+          today_epoch=$(date +%s)
+          for iso2 in $codes; do
+            playbook="skills/property-deep-dive/countries/$iso2/playbook.md"
+            if [ ! -f "$playbook" ]; then
+              printf '| %s | (missing) | — | playbook not found |\n' "$iso2" >> "$out"
+              continue
+            fi
+            stamped=$(grep -oE '(as of +|\*\*Last verified\*\*: *)[0-9]{4}-[0-9]{2}-[0-9]{2}' "$playbook" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1 || true)
+            if [ -z "$stamped" ]; then
+              printf '| %s | (none) | — | needs initial stamp |\n' "$iso2" >> "$out"
+              continue
+            fi
+            stamped_epoch=$(date -d "$stamped" +%s 2>/dev/null || echo 0)
+            days=$(( (today_epoch - stamped_epoch) / 86400 ))
+            if [ "$days" -ge 90 ]; then
+              action="🟠 refresh due"
+            elif [ "$days" -ge 75 ]; then
+              action="🟡 due within 15 days"
+            else
+              action="🟢 fresh"
+            fi
+            printf '| %s | %s | %s | %s |\n' "$iso2" "$stamped" "$days" "$action" >> "$out"
+          done
+
+          {
+            echo
+            echo "## How to execute"
+            echo
+            echo '```'
+            echo '/property-deep-dive --update --tier=A --diff           # preview'
+            echo '/property-deep-dive --update --tier=A --interactive    # confirm each'
+            echo '/property-deep-dive --update --tier=A                  # apply'
+            echo '```'
+            echo
+            echo "Auto-promotions (regulatory-watch Tier-1/2 entries from non-Tier-A countries in last 90 days) are listed in \`shared/regulatory-watch.md\`."
+          } >> "$out"
+
+          echo "report_path=$out" >> "$GITHUB_OUTPUT"
+
+      - name: Upload report
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: tier-a-refresh-${{ github.run_id }}
+          path: _ci/tier-a-refresh.md
+          retention-days: 365
+
+      - name: Open or update tracking issue
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('_ci/tier-a-refresh.md', 'utf-8');
+            const date = new Date().toISOString().slice(0, 10);
+            const title = `🔄 Tier-A quarterly refresh — ${date}`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['maintenance', 'tier-a-refresh'],
+            });

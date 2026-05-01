@@ -26,26 +26,52 @@ jobs:
           today_epoch=$(date +%s)
           out=_ci/decay-matrix.md
           mkdir -p _ci
+
+          # Build iso2 → cadence-tier map from _tiers.json
+          declare -A cadence_tier
+          declare -A cadence_days
+          while IFS=$'\t' read -r tier code; do
+            cadence_tier[$code]=$tier
+            case "$tier" in
+              A) cadence_days[$code]=90 ;;
+              B) cadence_days[$code]=180 ;;
+              C) cadence_days[$code]=365 ;;
+            esac
+          done < <(python3 -c "
+import json
+d = json.load(open('_tiers.json'))
+for tier, info in d['tiers'].items():
+    for code in info['codes']:
+        print(f'{tier}\t{code}')
+")
+
           {
             echo "# Decay Health Report — $(date -u +%Y-%m-%d)"
             echo
             echo "Auto-downgrade ladder: HIGH → MEDIUM at 6mo, → LOW at 12mo, → STALE at 18mo."
+            echo "Cadence tier: A (90d) / B (180d) / C (365d) per \`_tiers.json\`. Off-cadence = days old ≥ tier cadence."
             echo
-            echo "| Country | Stamped (\`as of\`) | Days old | Effective tier |"
-            echo "|---|---|---:|---|"
+            echo "| Country | Cadence | Stamped (\`as of\`) | Days old | Decay tier | Off-cadence? |"
+            echo "|---|---|---|---:|---|---|"
           } > "$out"
 
           stale_count=0
           low_count=0
           medium_count=0
           high_count=0
+          off_cadence_a=0
+          off_cadence_b=0
+          off_cadence_c=0
 
           for playbook in skills/property-deep-dive/countries/*/playbook.md; do
             iso2=$(basename "$(dirname "$playbook")")
-            # Extract first "as of YYYY-MM-DD" line in the file.
+            ctier=${cadence_tier[$iso2]:-?}
+            ccap=${cadence_days[$iso2]:-0}
+            # Extract first stamp matching either "as of YYYY-MM-DD" or "**Last verified**: YYYY-MM-DD".
             # `|| true` swallows grep's exit-1 (no match) so `set -e + pipefail` doesn't abort the whole job
             # for a single missing-stamp playbook — that case is handled below as tier=UNKNOWN.
-            stamped=$(grep -oE 'as of [0-9]{4}-[0-9]{2}-[0-9]{2}' "$playbook" | head -1 | awk '{print $3}' || true)
+            stamped=$(grep -oE '(as of +|\*\*Last verified\*\*: *)[0-9]{4}-[0-9]{2}-[0-9]{2}' "$playbook" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1 || true)
+            off="—"
             if [ -z "$stamped" ]; then
               stamped="(none)"
               days="?"
@@ -58,24 +84,41 @@ jobs:
               elif [ "$days" -lt 540 ]; then tier="LOW"; low_count=$((low_count+1))
               else tier="STALE"; stale_count=$((stale_count+1))
               fi
+              if [ "$ccap" -gt 0 ] && [ "$days" -ge "$ccap" ]; then
+                off="🟠 yes (>${ccap}d)"
+                case "$ctier" in
+                  A) off_cadence_a=$((off_cadence_a+1)) ;;
+                  B) off_cadence_b=$((off_cadence_b+1)) ;;
+                  C) off_cadence_c=$((off_cadence_c+1)) ;;
+                esac
+              else
+                off="🟢 no"
+              fi
             fi
-            printf '| %s | %s | %s | %s |\n' "$iso2" "$stamped" "$days" "$tier" >> "$out"
+            printf '| %s | %s | %s | %s | %s | %s |\n' "$iso2" "$ctier" "$stamped" "$days" "$tier" "$off" >> "$out"
           done
 
           {
             echo
-            echo "## Summary"
+            echo "## Decay summary"
             echo
             echo "- 🟢 HIGH: $high_count"
             echo "- 🟡 MEDIUM: $medium_count"
             echo "- 🟠 LOW: $low_count"
             echo "- 🔴 STALE: $stale_count"
             echo
+            echo "## Off-cadence summary"
+            echo
+            echo "Countries past their tier's refresh window:"
+            echo "- Tier-A (90d): $off_cadence_a"
+            echo "- Tier-B (180d): $off_cadence_b"
+            echo "- Tier-C (365d): $off_cadence_c"
+            echo
             echo "## Action queue"
             echo
-            echo "Run \`/property-deep-dive --update --refresh-only --country=<iso2>\` for any STALE or LOW country."
-            echo
-            echo "Cross-reference \`skills/property-deep-dive/shared/regulatory-watch.md\` — Tier 1/2 entries since the last \`as of\` date force STALE regardless of calendar age."
+            echo "1. Run \`/property-deep-dive --update --tier=A\` if any Tier-A is off-cadence."
+            echo "2. Run \`/property-deep-dive --update --refresh-only --country=<iso2>\` for any STALE or LOW country."
+            echo "3. Cross-reference \`skills/property-deep-dive/shared/regulatory-watch.md\` — Tier 1/2 entries since the last \`as of\` date force STALE regardless of calendar age."
           } >> "$out"
 
           {
@@ -83,6 +126,9 @@ jobs:
             echo "low_count=$low_count"
             echo "medium_count=$medium_count"
             echo "high_count=$high_count"
+            echo "off_cadence_a=$off_cadence_a"
+            echo "off_cadence_b=$off_cadence_b"
+            echo "off_cadence_c=$off_cadence_c"
           } >> "$GITHUB_OUTPUT"
 
       - name: Upload decay matrix
@@ -99,6 +145,9 @@ jobs:
           LOW: ${{ steps.matrix.outputs.low_count }}
           MEDIUM: ${{ steps.matrix.outputs.medium_count }}
           HIGH: ${{ steps.matrix.outputs.high_count }}
+          OFF_A: ${{ steps.matrix.outputs.off_cadence_a }}
+          OFF_B: ${{ steps.matrix.outputs.off_cadence_b }}
+          OFF_C: ${{ steps.matrix.outputs.off_cadence_c }}
         with:
           script: |
             const fs = require('fs');
@@ -115,7 +164,7 @@ jobs:
             const pinned = issues.data.find(i => i.title === title);
 
             const date = new Date().toISOString().slice(0, 10);
-            const summary = `**${date}** — HIGH: ${process.env.HIGH} · MEDIUM: ${process.env.MEDIUM} · LOW: ${process.env.LOW} · STALE: ${process.env.STALE}`;
+            const summary = `**${date}** — HIGH: ${process.env.HIGH} · MEDIUM: ${process.env.MEDIUM} · LOW: ${process.env.LOW} · STALE: ${process.env.STALE} · off-cadence A/B/C: ${process.env.OFF_A}/${process.env.OFF_B}/${process.env.OFF_C}`;
 
             if (pinned) {
               await github.rest.issues.createComment({

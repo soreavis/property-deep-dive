@@ -1,0 +1,28 @@
+{
+  "_comment": "Refresh-cadence tiers — single source of truth for which countries get refreshed how often. Edit this when promoting/demoting a country across tiers (e.g., a frontier market with a major reform may move B→A for one cycle). Country code → playbook directory must match skills/property-deep-dive/countries/<code>/playbook.md. The sum of all tier codes must equal the total country count in _regions.json (currently 87).",
+  "tiers": {
+    "A": {
+      "label": "Quarterly refresh",
+      "cadence_days": 90,
+      "rationale": "High-volume foreign-buyer markets with frequent regulatory change. Tax/visa/rental rules shift mid-year; numeric benchmarks (€/m², HPI) move quarterly.",
+      "codes": ["fr", "it", "es", "de", "uk", "us", "pt", "ie", "nl", "at", "gr", "tr", "ae", "au", "ch"]
+    },
+    "B": {
+      "label": "Semi-annual refresh",
+      "cadence_days": 180,
+      "rationale": "Stable mid-volume markets. Numbers drift slowly; major reforms hit a 6-month cycle reliably.",
+      "codes": ["be", "dk", "fi", "no", "se", "is", "lu", "mt", "cy", "pl", "cz", "sk", "hu", "ro", "bg", "hr", "si", "ee", "lv", "lt", "ca", "nz", "jp", "kr", "sg", "hk", "tw", "il", "mx", "br"]
+    },
+    "C": {
+      "label": "Annual refresh",
+      "cadence_days": 365,
+      "rationale": "Smaller markets, microstates, frontier jurisdictions. Foundational data (cadastre, tax authority) is stable across calendar years; targeted patches happen via regulatory-watch override, not the cadence.",
+      "codes": ["li", "ad", "mc", "ar", "cr", "pa", "do", "co", "uy", "cl", "pe", "ec", "py", "rs", "me", "ba", "mk", "al", "th", "my", "id", "vn", "ph", "in", "za", "ma", "eg", "tn", "ng", "ke", "ge", "md", "am", "az", "mo", "qa", "sa", "jo", "om", "bh", "kw", "lb"]
+    }
+  },
+  "promotion_rules": {
+    "_comment": "When a Tier-1 or Tier-2 regulatory-watch entry lands for a Tier-B or Tier-C country, that country is auto-promoted to Tier-A for the NEXT refresh cycle only, then reverts. Tracked via the regulatory-watch-revisit workflow.",
+    "regwatch_promotion": "any country with a Tier-1 or Tier-2 regulatory-watch entry enacted in the last 90 days runs as Tier-A for the next cycle",
+    "manual_override": "/property-deep-dive --update --tier=A --include=<iso2> forces inclusion regardless of canonical tier"
+  }
+}

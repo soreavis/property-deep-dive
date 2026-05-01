@@ -490,13 +490,59 @@ def update_skill(targets, mode):
         update_master_matrix(country)
 ```
 
-## Frequency recommendations
+## Refresh tiers — cadence-by-country
+
+At 87 countries × 22 sections, refreshing everything quarterly is ~30 hours of research. The tier system splits the work by market activity so high-velocity jurisdictions get attention every 90 days while stable frontier markets ride a 365-day cycle.
+
+**Tier definitions** live in `_tiers.json` at the repo root (single source of truth):
+
+| Tier | Cadence | Count | Rationale |
+|---|---|---:|---|
+| **A** | Quarterly (90 d) | 15 | High-volume foreign-buyer markets with frequent regulatory change. Tax/visa/rental rules shift mid-year; numeric benchmarks move quarterly. |
+| **B** | Semi-annual (180 d) | 30 | Stable mid-volume markets. Numbers drift slowly; major reforms hit a 6-month cycle reliably. |
+| **C** | Annual (365 d) | 42 | Smaller markets, microstates, frontier jurisdictions. Foundational data is stable; targeted patches happen via regulatory-watch override, not the cadence. |
+
+**Tier membership** (canonical list — see `_tiers.json` for machine-readable form):
+
+- **Tier-A**: `fr, it, es, de, uk, us, pt, ie, nl, at, gr, tr, ae, au, ch`
+- **Tier-B**: `be, dk, fi, no, se, is, lu, mt, cy, pl, cz, sk, hu, ro, bg, hr, si, ee, lv, lt, ca, nz, jp, kr, sg, hk, tw, il, mx, br`
+- **Tier-C**: `li, ad, mc, ar, cr, pa, do, co, uy, cl, pe, ec, py, rs, me, ba, mk, al, th, my, id, vn, ph, in, za, ma, eg, tn, ng, ke, ge, md, am, az, mo, qa, sa, jo, om, bh, kw, lb`
+
+### Tier invocation
+
+```
+/property-deep-dive --update --tier=A                     # refresh all Tier-A countries
+/property-deep-dive --update --tier=A --refresh-only      # data refresh, no URL check
+/property-deep-dive --update --tier=B --validate-only     # URL liveness for Tier-B
+/property-deep-dive --update --tier=C --diff              # preview Tier-C planned changes
+```
+
+`--tier=<A|B|C>` and `--update=<iso2,...>` are mutually exclusive — use one or the other.
+
+### Auto-promotion via regulatory-watch
+
+When a Tier-1 or Tier-2 entry lands in `shared/regulatory-watch.md` for a Tier-B or Tier-C country, that country is auto-promoted to Tier-A for the NEXT refresh cycle only, then reverts. Tracked via the `regulatory-watch-revisit` workflow.
+
+The mechanism: the `regwatch_promotion` rule in `_tiers.json` triggers when an entry's `enacted_date` is within the last 90 days. The next Tier-A cron run picks up the promoted country alongside the canonical 15.
+
+### Manual override
+
+```
+/property-deep-dive --update --tier=A --include=<iso2>    # force-include regardless of canonical tier
+/property-deep-dive --update --tier=A --exclude=<iso2>    # skip a canonical Tier-A country this cycle
+```
+
+Use `--include` when a Tier-C country has a known reform mid-cycle; use `--exclude` when a Tier-A country was hand-verified yesterday and doesn't need re-research.
+
+## Frequency recommendations (legacy — superseded by tiers above)
 
 | Mode | Cadence | Cost (time) |
 |---|---|---|
-| `--validate-only` | **Monthly** | ~5 min for all 4 populated |
-| `--refresh-only --update=<one country>` | **Quarterly** per country | ~10 min/country |
-| `--update` (full) | **Annually** | ~30 min for all populated |
+| `--validate-only` (all countries) | **Weekly** | ~5 min via `url-liveness.yml` cron |
+| `--health-report` | **Monthly** | ~1 min via `health-report.yml` cron |
+| `--update --tier=A` | **Quarterly** | ~7-8 hr (15 countries × ~30 min) |
+| `--update --tier=B` | **Semi-annual** | ~15 hr (30 countries × ~30 min) |
+| `--update --tier=C` | **Annual** | ~21 hr (42 countries × ~30 min) |
 | `--update --add=<iso2>` | **As needed** | ~30 min/country |
 
 ## Trigger events
@@ -513,13 +559,24 @@ Run `--update` after any of these news triggers:
 
 ## Integration with `/schedule`
 
-For automated maintenance, encourage the user to schedule:
+For automated maintenance, encourage the user to schedule by tier:
 
 ```
-/schedule monthly: /property-deep-dive --update --validate-only
-/schedule quarterly: /property-deep-dive --update --refresh-only
-/schedule annually: /property-deep-dive --update
+/schedule weekly: /property-deep-dive --update --validate-only          # URL liveness, all 87
+/schedule monthly: /property-deep-dive --health-report                  # decay matrix
+/schedule quarterly: /property-deep-dive --update --tier=A              # 15 high-velocity markets
+/schedule semi-annually: /property-deep-dive --update --tier=B          # 30 mid-volume markets
+/schedule annually: /property-deep-dive --update --tier=C               # 42 stable/frontier markets
 ```
+
+The repo-side equivalents are GitHub Actions workflows:
+- `url-liveness.yml` — Monday 09:00 UTC weekly
+- `health-report.yml` — 1st of month 09:00 UTC monthly
+- `tier-a-refresh.yml` — 1st of Jan/Apr/Jul/Oct 09:00 UTC quarterly
+- `tier-b-refresh.yml` — 1st of Jan/Jul 09:00 UTC semi-annually
+- `tier-c-refresh.yml` — 15 Jan 09:00 UTC annually
+
+These cron jobs do NOT modify playbooks autonomously. They open issues with the list of countries due for refresh; a human (or `/property-deep-dive --update --tier=X`) executes the actual refresh.
 
 Schedule output goes to `_local/reports/property-deep-dive-update-YYYY-MM-DD.md`.
 

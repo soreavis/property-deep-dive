@@ -2,7 +2,7 @@
 name: property-deep-dive
 description: Universal property due-diligence skill. Pull any or all of twenty-two sections — ten core (price/traffic/tax/rental/work/risks/mains/crime/amenities/climate) + five financial/process (finance/currency/visa/insurance/notary) + seven decision-context (compare/retirement/digital-nomad/macro/demographics/esg/exit) — for any address worldwide. 87 countries fully populated (FR + IT + CZ + SK + DE + AT + CH + ES + PT + SE + FI + NO + UK + NL + BE + DK + IS + SI + IE + GR + PL + CA + AU + NZ + EE + HR + HU + MX + BR + AR + CR + PA + RS + ME + BA + MK + AL + LT + LV + RO + BG + LU + CY + MT + US + TR + AE + JP + TH + DO + CO + UY + CL + ZA + GE + ID + MY + VN + PH + IL + MA + EG + SG + HK + KR + TW + LI + MO + AD + MC + MD + QA + SA + PE + EC + PY + AM + AZ + TN + IN + NG + KE + JO + OM + BH + KW + LB) in countries/<iso2>/. Plus 4 cross-cutting layers: --integrity (data-honesty checks), --journey=<type> (decision templates: pre-offer/post-offer/foreign-buyer/investor/renovation/gite-bnb/inheritance), --type=<kind> (6 specialised property templates: off-plan/auction/probate/plot-only/heritage/apartment-vs-house). Plus tooling: TCO calculator, mortgage calculator, test fixtures, listing-diff watcher, comparable-transactions DB, auto-validate cron tracking. Outputs to terminal, MD file, or both.
 user-invocable: true
-argument-hint: "<address> [--country=<iso2>] [--all] [--price] [--traffic] [--tax] [--rental] [--work=<profession>] [--risks] [--mains] [--crime] [--amenities] [--climate] [--finance] [--currency] [--visa] [--insurance] [--notary] [--compare=<iso2,...>] [--retirement] [--digital-nomad] [--macro] [--demographics] [--esg] [--exit] [--tco] [--mortgage] [--watch] [--integrity] [--journey=<type>] [--type=<kind>] [--listing=<url>] [--save[=<path>]] [--quick|--deep] [--override-confidence=<HIGH|MEDIUM|LOW>] | --update[=<iso2>[,<iso2>...]] [--validate-only|--refresh-only] [--add=<iso2>] [--diff] [--interactive] [--test] | --health-report"
+argument-hint: "<address> [--country=<iso2>] [--all] [--price] [--traffic] [--tax] [--rental] [--work=<profession>] [--risks] [--mains] [--crime] [--amenities] [--climate] [--finance] [--currency] [--visa] [--insurance] [--notary] [--compare=<iso2,...>] [--retirement] [--digital-nomad] [--macro] [--demographics] [--esg] [--exit] [--tco] [--mortgage] [--watch] [--integrity] [--journey=<type>] [--type=<kind>] [--listing=<url>] [--save[=<path>]] [--quick|--deep] [--override-confidence=<HIGH|MEDIUM|LOW>] | --update[=<iso2>[,<iso2>...]] [--tier=<A|B|C>] [--include=<iso2>] [--exclude=<iso2>] [--validate-only|--refresh-only] [--add=<iso2>] [--diff] [--interactive] [--test] | --health-report"
 ---
 
 # Property Deep-Dive (`/property-deep-dive`)
@@ -136,6 +136,11 @@ The skill has a maintenance mode for keeping country playbooks fresh. Sources ch
 /property-deep-dive --update                              # update ALL populated countries
 /property-deep-dive --update=fr                           # one country
 /property-deep-dive --update=fr,it,cz,sk                  # selected list
+/property-deep-dive --update --tier=A                     # 15 high-velocity markets (quarterly)
+/property-deep-dive --update --tier=B                     # 30 mid-volume markets (semi-annual)
+/property-deep-dive --update --tier=C                     # 42 stable/frontier markets (annual)
+/property-deep-dive --update --tier=A --include=ge        # force-include a non-canonical country
+/property-deep-dive --update --tier=A --exclude=fr        # skip a canonical Tier-A country this cycle
 /property-deep-dive --update --validate-only              # URL liveness only (~5 min)
 /property-deep-dive --update --refresh-only               # re-research data only
 /property-deep-dive --update --add=pl                     # populate a scaffold country fully
@@ -152,16 +157,18 @@ The skill has a maintenance mode for keeping country playbooks fresh. Sources ch
 5. **Backs up and logs** every change to `playbook.md.bak-<date>` and an "Update history" section
 6. **Outputs a maintenance report** to `_local/reports/property-deep-dive-update-<date>.md`
 
-**Recommended cadence**:
+**Recommended cadence (tiered)**:
 
-| Mode | Cadence | Time |
-|---|---|---|
-| `--validate-only` | Monthly | ~5 min |
-| `--refresh-only` per country | Quarterly | ~10 min/country |
-| `--update` (full) | Annually | ~30 min total |
-| `--add=<iso2>` (populate scaffold) | As needed | ~30 min/country |
+| Mode | Cadence | Time | Countries |
+|---|---|---|---|
+| `--validate-only` | Weekly | ~5 min | all 87 (URL liveness only) |
+| `--health-report` | Monthly | ~1 min | all 87 (decay matrix) |
+| `--update --tier=A` | Quarterly | ~7-8 hr | 15 high-velocity |
+| `--update --tier=B` | Semi-annual | ~15 hr | 30 mid-volume |
+| `--update --tier=C` | Annual | ~21 hr | 42 stable/frontier |
+| `--update --add=<iso2>` | As needed | ~30 min/country | new scaffold |
 
-The full playbook is in `shared/updater.md`. **Always run `--diff` first** if uncertain; `--interactive` is the safest mode.
+Tier membership lives in `_tiers.json` at the repo root. See `shared/updater.md` § Refresh tiers for the full spec including auto-promotion via regulatory-watch and manual `--include`/`--exclude` overrides. **Always run `--diff` first** if uncertain; `--interactive` is the safest mode.
 
 ### Auto-downgrade — confidence decay over time
 
@@ -200,13 +207,14 @@ Consult this file before any `--tax`, `--rental`, `--visa`, `--finance` output. 
 - New mandatory diagnostic requirement
 - Any new entry added to `regulatory-watch.md` with Tier 1 or Tier 2 impact
 
-**Pair with `/schedule`** for automation:
+**Pair with `/schedule`** for automation (tiered):
 
 ```
-/schedule weekly: /property-deep-dive --update --validate-only       # URL liveness
+/schedule weekly: /property-deep-dive --update --validate-only       # URL liveness, all 87
 /schedule monthly: /property-deep-dive --health-report               # decay matrix
-/schedule quarterly: /property-deep-dive --update --refresh-only     # data refresh
-/schedule annually: /property-deep-dive --update                     # full re-research
+/schedule quarterly: /property-deep-dive --update --tier=A           # 15 high-velocity
+/schedule semi-annually: /property-deep-dive --update --tier=B       # 30 mid-volume
+/schedule annually: /property-deep-dive --update --tier=C            # 42 stable/frontier
 ```
 
 ## Country support matrix

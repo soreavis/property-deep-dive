@@ -9,7 +9,7 @@
 
 **Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
 
-**Pre-purchase property due diligence across 87 countries** — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **22 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
+**Pre-purchase property due diligence across 87 countries** — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **25 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
 
@@ -162,21 +162,31 @@ Together: a 14-month-old playbook never silently displays "Confidence: HIGH", an
 
 ## Maintenance
 
-The skill ships with a maintenance mode (`--update`) and three GitHub Actions:
+The skill ships with a maintenance mode (`--update`) and tiered refresh GitHub Actions:
 
 ```
-/property-deep-dive --update                       # full re-research + URL replace (annual)
+/property-deep-dive --update                       # full re-research + URL replace (all 87)
 /property-deep-dive --update --validate-only       # URL liveness only (weekly)
-/property-deep-dive --update --refresh-only        # data refresh, no URL check (quarterly)
+/property-deep-dive --update --refresh-only        # data refresh, no URL check
+/property-deep-dive --update --tier=A              # 15 high-velocity markets (quarterly)
+/property-deep-dive --update --tier=B              # 30 mid-volume markets (semi-annual)
+/property-deep-dive --update --tier=C              # 42 stable/frontier markets (annual)
+/property-deep-dive --update --tier=A --include=ge # force-include a non-canonical country
+/property-deep-dive --update --tier=A --exclude=fr # skip a canonical Tier-A country this cycle
 /property-deep-dive --health-report                # decay matrix per country/section (monthly)
 ```
+
+Tier membership lives in `_tiers.json`. See `skills/property-deep-dive/shared/updater.md` § Refresh tiers for full semantics including auto-promotion via `regulatory-watch.md`.
 
 The GitHub Actions in `.github/workflows/` automate the read-only parts:
 
 | Workflow | Cadence | What it does |
 |---|---|---|
 | `url-liveness.yml` | weekly | curl HEAD on every URL in every Markdown file in the repo; opens issue if score <85% |
-| `health-report.yml` | monthly | parses `Last verified` dates, renders decay matrix, posts to pinned issue |
+| `health-report.yml` | monthly | parses `Last verified` dates, renders decay matrix with cadence-tier column, posts to pinned issue |
+| `tier-a-refresh.yml` | quarterly | opens tracking issue listing the 15 Tier-A countries due for refresh |
+| `tier-b-refresh.yml` | semi-annual | opens tracking issue listing the 30 Tier-B countries due for refresh |
+| `tier-c-refresh.yml` | annual | opens tracking issue listing the 42 Tier-C countries due for refresh |
 | `feed-watcher.yml` | every 6h | EU Official Journal + ECJ press RSS → opens issue when property-relevant directives land |
 
 These are **detection-only**; the fix step (re-research, URL replacement, regulatory-watch entry) still requires human + Claude in the loop.
@@ -212,7 +222,7 @@ property-deep-dive/
 │   │   ├── broken-url.yml
 │   │   ├── new-country.yml
 │   │   └── regulatory-watch.yml
-│   └── workflows/  (22 in total — see CHANGELOG.md for the full set)
+│   └── workflows/  (25 in total — see CHANGELOG.md for the full set)
 │       ├── pr-validate.yml           # markdownlint + forbidden-phrasings + Status footer + density + arg-hint drift
 │       ├── source-tier-audit.yml     # advisory: primary-vs-aggregator URL ratio per changed playbook (sticky PR comment)
 │       ├── link-check.yml            # lychee internal links (PR + weekly schedule)
@@ -245,7 +255,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 122 markdown files, ~63,400 lines (SKILL.md + 34 shared/ + 87 country playbooks).
-**Repo total**: 134 markdown files, ~65,500 lines (skill content + community / governance files + CHANGELOG) · 30 YAML / JSON config files (22 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 134 markdown files, ~65,500 lines (skill content + community / governance files + CHANGELOG) · 33 YAML / JSON config files (25 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
