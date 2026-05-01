@@ -34,7 +34,7 @@ For each country, return:
 | Country | Portal | API | Notes |
 |---|---|---|---|
 | **ES** | Idealista | **public-ish API** (commercial via Idealista Data) | Commercial subscription via https://www.idealista.com/data; some endpoints free for researchers |
-| **DE** | ImmoScout24 | partner API only | https://www.immobilienscout24.de/anbieten/api |
+| **DE** | ImmoScout24 | partner API only | https://api.immobilienscout24.de/ |
 | **PT** | Idealista PT | same Idealista group | as ES |
 | **IT** | Immobiliare.it | partner-only | scraping ToS-restricted |
 | **NL** | Funda | partner-only via Funda XL | https://developers.funda.nl/ |
@@ -80,7 +80,7 @@ For each country, return:
 
 | Country | Portal | Mode | Notes |
 |---|---|---|---|
-| **UK** | UK HPI Land Registry | data download | https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads |
+| **UK** | UK HPI Land Registry | data download | https://www.gov.uk/government/collections/uk-house-price-index-reports |
 | **NL** | Kadaster + Funda | data download | Kadaster open data; Funda XL via API |
 | **NO** | Eiendom Norge | data download | https://eiendomnorge.no/ |
 

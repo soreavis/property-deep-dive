@@ -491,7 +491,7 @@ Veolia ČR group = largest, ~50% of total connections.
 | ČÚZK DPN (unregistered) | `https://dpn.cuzk.gov.cz/` |
 | ČÚZK Sister (paid) | `https://sister.cuzk.cz/` |
 | Sreality search | `https://www.sreality.cz/hledani/prodej/byty/<region>/<obec>` |
-| Sreality cenová mapa | `https://www.sreality.cz/cenova-mapa/hledani/byty/<region>/<obec>` |
+| Sreality cenová mapa | `https://www.sreality.cz/cenova-mapa<region>/<obec>` |
 | Bezrealitky | `https://www.bezrealitky.cz/<region>/<obec>` |
 | ČSÚ ceny bytů | `https://csu.gov.cz/produkty/indexy-realizovanych-cen-bytu-<X>-ctvrtleti-<year>` |
 | ŘSD sčítání dopravy | `https://scitani.rsd.cz/CSD_2020/pages/informations/default.aspx` |

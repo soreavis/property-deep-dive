@@ -17,7 +17,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Primary sources
 
-- **STATBEL** (Belgian statistics): `https://statbel.fgov.be/en/themes/construction-housing/property-prices` — official housing price index quarterly
+- **STATBEL** (Belgian statistics): `https://statbel.fgov.be/en/themes/housing/real-estate` — official housing price index quarterly
 - **Notaires.be / Notaris.be** — sale-price barometer: `https://www.notaire.be/` / `https://www.notaris.be/`
   - Quarterly **Baromètre des notaires** with detailed regional breakdowns
 - **CIB Vlaanderen** + **Federia** + **Beroepsinstituut van Vastgoedmakelaars (BIV)** — agent body data
@@ -403,7 +403,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|
 | Cadastre FOD Fin | `https://finances.belgium.be/fr/particuliers/habitation/cadastre` |
 | Notaires.be barometer | `https://www.notaire.be/` |
-| STATBEL housing | `https://statbel.fgov.be/en/themes/construction-housing/property-prices` |
+| STATBEL housing | `https://statbel.fgov.be/en/themes/housing/real-estate` |
 | Geopunt Vlaanderen | `https://www.geopunt.be/` |
 | WalOnMap | `https://geoportail.wallonie.be/` |
 | BruGIS | `https://gis.brussels.be/` |

@@ -17,7 +17,7 @@
 
 ## What it does
 
-Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rightmove.co.uk/properties/142857`, or coordinates — the skill:
+Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rightmove.co.uk/properties/<id>`, or coordinates — the skill:
 
 1. Detects the country (postcode pattern, country name, or `--country=<iso2>` flag)
 2. Loads the country's playbook from `skills/property-deep-dive/countries/<iso2>/playbook.md`
@@ -112,7 +112,7 @@ Paste any of these into Claude Code or Claude Cowork after installing:
 /property-deep-dive Calle Mayor 5, 28013 Madrid --visa --retirement
 
 # Integrity scan + pre-offer brief from a UK listing URL
-/property-deep-dive https://www.rightmove.co.uk/properties/142857 --integrity --journey=pre-offer
+/property-deep-dive https://www.rightmove.co.uk/properties/<id> --integrity --journey=pre-offer
 
 # Three-country side-by-side for retirees
 /property-deep-dive --compare=fr,it,pt --retirement
@@ -135,7 +135,7 @@ See [Usage](#usage) below for the full flag reference and more examples.
 /property-deep-dive --country=de Friedrichstraße 100, 10117 Berlin --tax --risks --save
 → Germany, tax + risks only, save to _local/reports/
 
-/property-deep-dive https://www.rightmove.co.uk/properties/142857 --integrity --journey=pre-offer
+/property-deep-dive https://www.rightmove.co.uk/properties/<id> --integrity --journey=pre-offer
 → detects UK from URL, integrity scan + pre-offer brief
 
 /property-deep-dive Calle Mayor 5, 28013 Madrid --retirement --visa

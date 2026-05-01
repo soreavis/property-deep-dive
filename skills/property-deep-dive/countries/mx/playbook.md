@@ -218,7 +218,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 | **SSN (Servicio Sismológico Nacional)** | `https://www.ssn.unam.mx/` | Real-time seismicity |
 | **CENAPRED** | `https://www.gob.mx/cenapred` | National risk atlas, seismic zones A-D |
 | **CONAGUA** | `https://www.gob.mx/conagua` | Flood, drought, hurricane |
-| **Protección Civil federal** | `https://www.gob.mx/proteccioncivil` | Emergency response |
+| **Protección Civil federal** | `https://www.gob.mx/sspc/acciones-y-programas/coordinacion-nacional-de-proteccion-civil-357857` | Emergency response |
 | **CFE Sismo** | building code zones |
 
 ### Specific risks

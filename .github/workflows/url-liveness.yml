@@ -22,12 +22,41 @@ jobs:
       - name: Extract URLs from all markdown files
         run: |
           mkdir -p _ci
-          # Pull every http(s) URL out of every .md, dedupe, drop trailing punctuation/parens
-          grep -rhoE 'https?://[^[:space:]<>")`]+' --include='*.md' . \
-            | sed 's/[.,;:)]*$//' \
-            | sort -u \
-            > _ci/urls.txt
-          echo "Found $(wc -l < _ci/urls.txt) unique URLs"
+          # Python extraction: like the old grep but
+          #  (a) skips URLs immediately followed by `<` or `{` — these are template
+          #      placeholders like `https://example.gov/path/<INSEE>` where the regex
+          #      would otherwise truncate to `https://example.gov/path/` and 404
+          #  (b) skips files that contain example/fixture URLs by design
+          #      (test-fixtures.md = test data, not authoritative sources)
+          python3 <<'EOF' > _ci/urls.txt
+          import re
+          from pathlib import Path
+
+          URL_RE = re.compile(r"https?://[^\s<>\"`)\]]+")
+          EXCLUDE_FILES = {"test-fixtures.md"}
+          EXCLUDE_DIRS = {"node_modules", "_local"}
+
+          seen = set()
+          for path in Path(".").rglob("*.md"):
+              if path.name in EXCLUDE_FILES:
+                  continue
+              if any(part in EXCLUDE_DIRS for part in path.parts):
+                  continue
+              try:
+                  text = path.read_text(encoding="utf-8")
+              except (OSError, UnicodeDecodeError):
+                  continue
+              for m in URL_RE.finditer(text):
+                  url = m.group(0).rstrip(".,;:)")
+                  end = m.end()
+                  # Skip if a placeholder follows (template URL)
+                  if end < len(text) and text[end] in "<{":
+                      continue
+                  seen.add(url)
+          for u in sorted(seen):
+              print(u)
+          EOF
+          echo "Found $(wc -l < _ci/urls.txt) unique URLs (after template-skip + fixture-exclude)"
 
       - name: Check URL liveness
         run: |

@@ -52,6 +52,9 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+- **20 dead URLs replaced + 7 false-positive template URLs filtered.** The 2026-04-27 url-liveness scan flagged 27 DEAD URLs. Of these, ~7 were false positives — the URL extractor truncated template patterns like `https://example.gov/path/<INSEE>` into a stub `https://example.gov/path/` that 404'd. Switched URL extraction in `url-liveness.yml` from grep to Python with template-aware skipping (`<` or `{` after URL = template), plus a per-file exclusion list (`test-fixtures.md`). The remaining 20 genuinely-dead URLs were researched and replaced with verified canonical successors on the same source authority (BE Statbel theme rename, Sreality price-map flatten, NL stat.ee taxonomy refresh, EE Maa-amet → Maaruum domain migration, NZ NZTA / Waka Kotahi reorg, ECJ jcms→JSF portal, etc.). Country playbooks affected: BE, BR, CZ, DE, ES, FI, LT, MX, NZ. Shared docs affected: `crime-sources.md`, `comparable-transactions.md`, `listing-aggregators.md`, `price-index-feeds.md`, `regulatory-watch.md`. All replacement URLs verified 200 (or browser-OK behind known WAF challenges).
+
 ### Removed
 - **`auto-pr-redirects.yml` and `scripts/find_redirects.py` deleted entirely.** The original implementation (PR #85) re-scanned all 3,228 country-playbook URLs from scratch every Tuesday with no throttling, risking IP-banning the GitHub Actions egress range from primary government sources. The cron was disabled in PR #88. After deciding the value-vs-complexity tradeoff didn't justify a refactor, the workflow + script were removed. URL maintenance stays manual via `url-liveness.yml`'s weekly Monday scan + human-driven URL refresh during `--update` runs.
 

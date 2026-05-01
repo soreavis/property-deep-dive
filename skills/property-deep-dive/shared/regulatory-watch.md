@@ -457,7 +457,7 @@ This file gets the same auto-validate treatment as country playbooks:
 
 Subscribe these feeds for at-event updates:
 - EU Official Journal: https://eur-lex.europa.eu/oj/direct-access.html
-- ECJ press releases: https://curia.europa.eu/jcms/jcms/Jo1_6308/en/
+- ECJ press releases: https://curia.europa.eu/juris/recherche.jsf?language=en
 - Per-country gazettes (LégiFrance, Gazzetta Ufficiale, BOE, etc. — already in country playbooks)
 - OECD Tax Policy Reforms annual report
 - Tax Foundation Europe weekly digest

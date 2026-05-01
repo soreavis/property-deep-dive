@@ -112,7 +112,7 @@ For each country, return:
 | Field | Value |
 |---|---|
 | Authority | **Catastro** + **Registro de la Propiedad** (Colegio de Registradores) |
-| URL | https://www.sedecatastro.gob.es/ · https://www.registradores.org/estadisticas |
+| URL | https://www.sedecatastro.gob.es/ · https://www.registradores.org/en/actualidad/portal-estadistico-registral/estadisticas-de-propiedad |
 | Mode | Catastro free; Registro paid per nota simple |
 | Cost | nota simple ~€9 |
 | Quirks | **Catastral value ≠ market price** (often 30-60% below). Real price in escritura via Registro. Idealista + Tinsa sell transaction-derived indices. |
@@ -187,7 +187,7 @@ For each country, return:
 | Field | Value |
 |---|---|
 | Authority | **Statbel** + AGDP/FPS Finance |
-| URL | https://statbel.fgov.be/en/themes/construction-housing/sale-prices-real-estate |
+| URL | https://statbel.fgov.be/en/themes/housing/real-estate |
 | Mode | aggregate public (median + percentiles); per-property paid |
 | Quirks | Statbel publishes **median + Q1/Q3 sale price per commune per quarter** — excellent free granular aggregate. Three regions (FL/WA/Brussels) have separate cadastre access portals. |
 
@@ -265,7 +265,7 @@ For each country, return:
 | Field | Value |
 |---|---|
 | Authority | **Maa-amet** |
-| URL | https://www.maaamet.ee/en/objectives-activities/registers-information/transactions-database |
+| URL | https://maaruum.ee/en/land-registry-and-land-valuation/real-estate-transactions/real-estate-transaction-statistics |
 | Mode | **fully public open data** |
 | Granularity | parcel + cadastral unit |
 | Coverage | **2003 → present** |

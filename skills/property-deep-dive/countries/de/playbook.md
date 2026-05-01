@@ -33,7 +33,7 @@ ISO2: `de`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Listing platforms
 
-- **ImmobilienScout24** — largest: `https://www.immobilienscout24.de/Suche/de/<bundesland>/<stadt>/haus-kaufen` or `/wohnung-kaufen`
+- **ImmobilienScout24** — largest: `https://www.immobilienscout24.de/<bundesland>/<stadt>/haus-kaufen` or `/wohnung-kaufen`
 - **Immowelt**: `https://www.immowelt.de/`
 - **Kleinanzeigen.de** (formerly eBay Kleinanzeigen): `https://www.kleinanzeigen.de/s-haus-kaufen/c208`
 - **Engel & Völkers, von Poll** — premium agency networks
@@ -434,7 +434,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 | BORIS Berlin | `https://fbinter.stadt-berlin.de/boris/` |
 | BORIS NRW | `https://www.boris.nrw.de/borisplus/` |
 | BORIS Bayern | `https://www.boris-bayern.de/` |
-| ImmobilienScout24 search | `https://www.immobilienscout24.de/Suche/de/<bundesland>/<stadt>/<typ>` |
+| ImmobilienScout24 search | `https://www.immobilienscout24.de/<bundesland>/<stadt>/<typ>` |
 | BfG Hochwasserportal | `https://geoportal.bafg.de/karten/HWRM_Aktuell/` |
 | BfS Radon-Karte | `https://www.bfs.de/DE/themen/ion/umwelt/radon/karten/` |
 | Destatis HPI | `https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreisindex/_inhalt.html` |

@@ -185,7 +185,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 ### Sources
 
 - **MTE (Ministério do Trabalho)**: `https://www.gov.br/trabalho/`
-- **Catho** — biggest job board: `https://www.catho.com.br/`
+- **Catho** — biggest job board: `https://www.catho.com.br/vagas/vagas/`
 - **Indeed.com.br**, **Vagas.com.br**, **InfoJobs**, **LinkedIn BR**
 - **CRECI** for realtors; **CONFEA/CREA** for engineering
 

@@ -42,12 +42,12 @@ For each country, return:
 | **DE** | Destatis | Häuserpreisindex | https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreisindex/ | quarterly | Q4 2025 |
 | **AT** | Statistik Austria + OeNB | Wohnimmobilien | https://www.statistik.at/ + https://www.oenb.at/ | quarterly | Q4 2025 |
 | **CH** | Wüest Partner / Swiss FSO | swiss real-estate index | https://www.wuestpartner.com/ + https://www.bfs.admin.ch/ | quarterly | Q4 2025 |
-| **ES** | INE | IPV (Índice de Precios de Vivienda) | https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736152838 | quarterly | Q4 2025 |
+| **ES** | INE | IPV (Índice de Precios de Vivienda) | https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736152838&menu=ultiDatos&idp=1254735976607&menu=ultiDatos&idp=1254735976607 | quarterly | Q4 2025 |
 | **PT** | INE | IPHab (Índice de Preços da Habitação) | https://www.ine.pt/ | quarterly | Q4 2025 |
 | **SE** | SCB + Lantmäteriet | Fastighetsprisindex | https://www.scb.se/ | quarterly | Q4 2025 |
 | **FI** | Tilastokeskus | Asuntojen hintaindeksi | https://stat.fi/en/statistics/ashi | quarterly | Q4 2025 |
 | **NO** | SSB + Eiendom Norge | Boligprisindeks | https://www.ssb.no/en/statbank/list/bpi | monthly | Q4 2025 |
-| **UK** | UK HPI (HMLR + ONS + Land Registry) | UK HPI | https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads | monthly | Latest published |
+| **UK** | UK HPI (HMLR + ONS + Land Registry) | UK HPI | https://www.gov.uk/government/collections/uk-house-price-index-reports | monthly | Latest published |
 | **NL** | CBS + Kadaster | Prijsindex bestaande koopwoningen | https://www.cbs.nl/ | monthly | Q4 2025 |
 | **BE** | STATBEL | Prijzen onroerende goederen | https://statbel.fgov.be/ | quarterly | Q4 2025 |
 | **DK** | Danmarks Statistik | Ejendomspriser | https://www.dst.dk/en | quarterly | Q4 2025 |

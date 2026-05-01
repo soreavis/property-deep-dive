@@ -405,7 +405,7 @@ Always justify the colour with one sentence.
 /property-deep-dive --country=de Friedrichstraße 100, 10117 Berlin --save
 → Germany playbook, all sections, save to _local/reports/
 
-/property-deep-dive https://www.rightmove.co.uk/properties/142857 --tax --risks
+/property-deep-dive https://www.rightmove.co.uk/properties/<id> --tax --risks
 → detects UK from URL, only tax + risks sections
 
 /property-deep-dive Adriers 86430 --work=violinist --quick

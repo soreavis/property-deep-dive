@@ -266,7 +266,7 @@ For the property's locality, return:
 
 ### 🇨🇦 Canada
 
-- **Statistics Canada — Police-reported crime statistics**: `https://www150.statcan.gc.ca/n1/pub/85-002-x/2024001/article/00010-eng.htm` — annual Juristat publication, Uniform Crime Reporting Survey (UCR)
+- **Statistics Canada — Police-reported crime statistics**: `https://www150.statcan.gc.ca/n1/en/catalogue/85-002-X` — annual Juristat publication, Uniform Crime Reporting Survey (UCR)
 - **Statistics Canada Crime Severity Index (CSI)**: per CMA + per province
 - **Police-reported crime data tables**: open-data downloads
 - **Provincial / municipal portals** (e.g., Toronto Police Open Data, VPD Crime Map)
@@ -282,14 +282,14 @@ For the property's locality, return:
 
 ### 🇳🇿 New Zealand
 
-- **NZ Police "Crime Snapshot"**: `https://www.police.govt.nz/about-us/publication/crime-snapshot`
-- **Stats NZ Justice + Crime publications**: `https://www.stats.govt.nz/topics/justice-and-crime`
+- **NZ Police "Crime Snapshot"**: `https://www.police.govt.nz/crime-snapshot`
+- **Stats NZ Justice + Crime publications**: `https://www.stats.govt.nz/topics/crime-and-justice/`
 - **Granularity**: per-region + meshblock; Police "By the numbers" provides territory-level
 - **Caveat**: small national pop = small absolute numbers; per-capita most useful
 
 ### 🇪🇪 Estonia
 
-- **Statistikaamet (Statistics Estonia) crime publications**: `https://stat.ee/en/find-statistics/statistics-theme/social-life`
+- **Statistikaamet (Statistics Estonia) crime publications**: `https://stat.ee/en/find-statistics/statistics-theme/well-being/security`
 - **Politsei- ja Piirivalveamet (PPA)**: `https://www.politsei.ee/en` — annual reports
 - **Justiitsministeerium (Ministry of Justice)** — crime overview reports
 - **Granularity**: per-maakond (county) + Tallinn district-level for capital

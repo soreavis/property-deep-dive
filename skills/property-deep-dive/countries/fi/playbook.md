@@ -203,7 +203,7 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 | **Tulvakartta** (flood maps) | `https://www.vesi.fi/vesitieto/tulvakarttapalvelu/` | Q10/Q100/Q1000 flood hazard |
 | **GTK (Geologinen tutkimuskeskus)** | `https://gtk.fi/` | Geology, radon |
 | **STUK (Säteilyturvakeskus)** | `https://www.stuk.fi/` | Radon program |
-| **STUK Radonkartta** | `https://www.stuk.fi/aiheet/radon/` | Indoor radon levels — Finland highest in EU |
+| **STUK Radonkartta** | `https://stuk.fi/en/radon-in-finland` | Indoor radon levels — Finland highest in EU |
 | **Ilmatieteen laitos (FMI)** | `https://www.ilmatieteenlaitos.fi/` | Climate, weather |
 | **Ympäristöministeriö** | `https://www.ymparisto.fi/` | Aggregated environment portal |
 
@@ -390,7 +390,7 @@ Before buying any As Oy apartment, demand:
 | Tilastokeskus | `https://stat.fi/` |
 | Tulvakartta | `https://www.vesi.fi/vesitieto/tulvakarttapalvelu/` |
 | GTK | `https://gtk.fi/` |
-| STUK Radon | `https://www.stuk.fi/aiheet/radon/` |
+| STUK Radon | `https://stuk.fi/en/radon-in-finland` |
 | Verohallinto Kiinteistövero | `https://www.vero.fi/henkiloasiakkaat/asuminen/kiinteistovero/` |
 | Liikennetilanne | `https://www.liikennetilanne.fi/` |
 

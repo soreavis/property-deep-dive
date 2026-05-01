@@ -27,7 +27,7 @@ Germany, tax + risks only. The `--save` flag writes the report to `_local/report
 ## 3. From a listing URL
 
 ```
-/property-deep-dive https://www.rightmove.co.uk/properties/142857 --integrity --journey=pre-offer
+/property-deep-dive https://www.rightmove.co.uk/properties/<id> --integrity --journey=pre-offer
 ```
 
 Detects the UK from the listing URL. `--integrity` runs the four data-honesty checks (dispute-resolver, photo OCR, listing-vs-cadastre cross-check, red-flag scanner). `--journey=pre-offer` reshapes the output as a pre-offer brief.

@@ -71,7 +71,7 @@ ISO2: `nz`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Sources
 
-- **NZTA (Waka Kotahi) Traffic Counts**: `https://www.nzta.govt.nz/traffic-and-travel-information/traffic-volumes-and-loads/`
+- **NZTA (Waka Kotahi) Traffic Counts**: `https://www.nzta.govt.nz/resources/state-highway-traffic-volumes`
 - **AADT data + heavy-vehicle proportion** by road
 - **Council traffic data** for local roads
 
@@ -408,7 +408,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 | GNS Science NSHM | `https://www.gns.cri.nz/` |
 | Toka Tū Ake (Natural Hazards Commission) | `https://www.naturalhazards.govt.nz/` |
 | NIWA | `https://www.niwa.co.nz/` |
-| NZTA Traffic Counts | `https://www.nzta.govt.nz/traffic-and-travel-information/traffic-volumes-and-loads/` |
+| NZTA Traffic Counts | `https://www.nzta.govt.nz/resources/state-highway-traffic-volumes` |
 | IRD | `https://www.ird.govt.nz/` |
 
 ## Status

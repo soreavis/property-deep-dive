@@ -240,7 +240,7 @@ For obra nueva (new build, vendida by impresa):
 | **SNCZI / SNZI Sistema Nacional de Cartografía de Zonas Inundables** | `https://sig.mapama.es/snczi/` | Flood hazard maps Q10/Q100/Q500 |
 | **MITECO Riesgos Naturales** | `https://www.miteco.gob.es/` | Aggregated environmental risks |
 | **IGN (Instituto Geográfico Nacional) Sismicidad** | `https://www.ign.es/web/ign/portal/sis-area-sismicidad` | Earthquake hazard, real-time |
-| **CSN (Consejo de Seguridad Nuclear) radón** | `https://www.csn.es/categoria/radon` | Radon maps |
+| **CSN (Consejo de Seguridad Nuclear) radón** | `https://www.csn.es/radon` | Radon maps |
 | **AEMET** (national meteorology): `https://www.aemet.es/` | Climate + storm |
 | **CCAA cartas de riesgos naturales** | per CCAA | Flood + landslide + fire |
 | **CASIAS / Suelos Contaminados** | per CCAA | Brownfield contamination |
@@ -387,7 +387,7 @@ For obra nueva (new build, vendida by impresa):
 | INE Vivienda | `https://www.ine.es/dynt3/inebase/es/index.htm?padre=2942` |
 | SNCZI flood | `https://sig.mapama.es/snczi/` |
 | IGN seismic | `https://www.ign.es/web/ign/portal/sis-area-sismicidad` |
-| CSN radón | `https://www.csn.es/categoria/radon` |
+| CSN radón | `https://www.csn.es/radon` |
 | AEMET clima | `https://www.aemet.es/` |
 | Registradores | `https://www.registradores.org/` |
 | AEAT | `https://www.agenciatributaria.es/` |
