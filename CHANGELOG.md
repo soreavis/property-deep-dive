@@ -52,6 +52,9 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+- **`auto-pr-redirects.yml` cron disabled** until refactor lands. The shipped version re-scanned all 3,228 country-playbook URLs from scratch every Tuesday with no throttling and no reuse of `url-liveness.yml`'s Monday artifact — risked IP-banning the GitHub Actions egress range from primary government sources. `workflow_dispatch` retained for manual testing. Planned refactor: read previous url-liveness artifact, filter to REDIRECT_LIVE entries only (~50 URLs), 1 req/sec throttle.
+
 ### Added
 - **Maintenance automation Tier-1 batch** — three improvements that turn detection-only workflows into proactive ones:
   - **Regulatory-watch auto-promotion** — `tier-a-refresh.yml` now parses `regulatory-watch.md` for Tier-1/2 entries enacted in the last 90 days and surfaces affected countries as 🆕 promotions in the Tier-A tracking issue. Closes the loop on the documented `_tiers.json § promotion_rules` design. Logic in `scripts/regwatch_promotions.py`.

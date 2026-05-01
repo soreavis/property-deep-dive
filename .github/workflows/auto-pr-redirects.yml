@@ -1,9 +1,16 @@
 name: Auto-PR for permanent URL redirects
 
 on:
-  schedule:
-    # Tuesday 09:00 UTC — one day after the Monday url-liveness pass
-    - cron: '0 9 * * 2'
+  # SCHEDULE DISABLED — see docs/auto-pr-redirects-rationale below.
+  # The original implementation re-scanned all 3,228 URLs in country playbooks
+  # from scratch every Tuesday, which (a) duplicated url-liveness.yml's Monday
+  # work, (b) had no per-request throttle, and (c) risked IP-banning the
+  # GitHub Actions egress range from primary government sources. Re-enable
+  # only after refactoring to consume url-liveness.yml's artifact (filter to
+  # REDIRECT_LIVE only, ~50 URLs) and adding throttling.
+  #
+  # schedule:
+  #   - cron: '0 9 * * 2'
   workflow_dispatch:
 
 permissions:
