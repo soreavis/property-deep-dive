@@ -65,6 +65,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(docs): refresh stale 62-countries refs → 87 + cut \[2026.05.1\] CHANGELOG entry ([#76](https://github.com/soreavis/property-deep-dive/pull/76)) — by @soreavis
 - feat(updater): tiered refresh cadence (A/B/C — 15/30/42 countries) ([#78](https://github.com/soreavis/property-deep-dive/pull/78)) — by @soreavis
+- docs: add ROADMAP.md country backlog ([#83](https://github.com/soreavis/property-deep-dive/pull/83)) — by @soreavis
 
 ## [2026.05.1] - 2026-05-01
 
