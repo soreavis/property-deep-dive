@@ -55,6 +55,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 ### Changed
 
 - chore(release): cut 2026.04.2 ([#45](https://github.com/soreavis/property-deep-dive/pull/45)) — by @soreavis
+- chore(deps): Bump actions/github-script from d746ffe35508b1917358783b479e04febd2b8f71 to 3a2844b7e9c422d3c10d287c895573f7108da1b3 ([#48](https://github.com/soreavis/property-deep-dive/pull/48)) — by @dependabot[bot]
 
 ## [2026.04.2] - 2026-04-26
 
