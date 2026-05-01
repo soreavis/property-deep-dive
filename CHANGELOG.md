@@ -77,6 +77,7 @@ Tier-2 batch — second wave of Asia-Pacific + Caucasus + Africa + Middle East c
 - `.github/ISSUE_TEMPLATE/new-country.yml` — pre-flight check label "(44 countries currently)" → "(62 countries currently)".
 - `shared/auto-validate.md` — sample report header "44 countries validated" → "62 countries validated".
 - `shared/compare.md` — opening "Leverages all 44 country playbooks at once" → "all 62".
+- feat: add 8 Tier-2 country playbooks (GE/ID/MY/VN/PH/IL/MA/EG) + fix decay-matrix workflow ([#62](https://github.com/soreavis/property-deep-dive/pull/62)) — by @soreavis
 
 ### Fixed — health-report decay-matrix workflow (2026-05-01)
 
