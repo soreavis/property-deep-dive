@@ -52,6 +52,19 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+_(no entries yet — next mid-month corrections will accumulate here under `2026.05.1`, `2026.05.2`, …; the next `.0` (`2026.06.0`) will be auto-tagged at end of June by `auto-tag.yml`)_
+
+## [2026.05.0] - 2026-05-01
+
+Major monthly cycle release. Country count **44 → 62** (+18 across two batches), 13 cross-cutting `shared/` tables backfilled to HIGH confidence for the new countries, workflow audit (27 → 22 workflows), `health-report.yml` decay-matrix bug fix, and accumulated Dependabot bumps.
+
+**Highlights**:
+- 🌍 **18 new country playbooks**: Tier-1 (US/TR/AE/JP/TH/DO/CO/UY/CL/ZA, PR #57) + Tier-2 (GE/ID/MY/VN/PH/IL/MA/EG, PR #62)
+- 🧱 **13 cross-cutting `shared/` tables backfilled** to cover the 18 new countries on universal flags (`--finance` `--currency` `--insurance` `--macro` `--demographics` `--esg` `--exit` `--retirement` `--digital-nomad` `--compare` `--notary` `--crime` `--price-index-feeds`) — PR #65
+- 🔧 **Workflow audit** (27 → 22): deleted cosmetic workflows, folded matrix-consistency + test-fixtures-check into pr-validate / url-liveness, tightened 4 cron schedules — PR #60
+- 🛡️ **`health-report.yml` decay-matrix fix**: `set -euo pipefail` + grep-empty-match was aborting the scheduled job; defensive `|| true` + bare-date stamp normalization on CO/TR/EG — PR #62
+- 📍 **9 regions** (was 5 pre-Apr): added `mena`, `apac`, `africa`, `caucasus` — `_regions.json` extended
+
 ### Changed — cross-cutting `shared/` tables backfill for Tier-1 + Tier-2 (2026-05-01)
 
 Universal-section `shared/` files extended to cover the **18 new countries** added in PR #57 (Tier-1: US/TR/AE/JP/TH/DO/CO/UY/CL/ZA) + PR #62 (Tier-2: GE/ID/MY/VN/PH/IL/MA/EG). Before this change, the 18 new countries inherited MEDIUM confidence on universal flags (`--finance` `--currency` `--insurance` etc.) because the per-country tables in `shared/` ended at the original 44. Now they're explicit. **+1,427 lines net across 13 files**, all primary-source URLs + date-stamped, zero forbidden phrasings.
@@ -168,7 +181,7 @@ Audit pruned 5 workflows + tightened 4 cron schedules. None of the removals were
 
 ### Changed — plugin payload co-location (2026-04-26)
 
-- **Plugin payload co-located** under `skills/property-deep-dive/`. Moved `shared/` (34 files) and `countries/<iso2>/playbook.md` (44 files) into the skill folder so plugin hosts (Claude Cowork, Claude Code) ship the entire payload from a single self-contained directory. Without this, post-PR-#33 plugin installs only received `SKILL.md` and every `shared/*` reference inside it resolved to nothing — Cowork agents fell back to live research without the anti-hallucination contract. Path references inside SKILL.md / shared/*.md / countries/*/playbook.md remain relative and resolve unchanged. Outside-the-skill references (13 workflows, `scripts/sync-docs.py`, labeler/labels/PR template, 3 issue templates, README/CONTRIBUTING/CLAUDE/DISCLAIMER/SECURITY, docs/) updated to the new path.
+- **Plugin payload co-located** under `skills/property-deep-dive/`. Moved `shared/` (34 files) and `countries/<iso2>/playbook.md` (44 files) into the skill folder so plugin hosts (Claude Cowork, Claude Code) ship the entire payload from a single self-contained directory. Without this, post-PR-#33 plugin installs only received `SKILL.md` and every `shared/*` reference inside it resolved to nothing — Cowork agents fell back to live research without the anti-hallucination contract. Path references inside `SKILL.md` / `shared/*.md` / `countries/*/playbook.md` remain relative and resolve unchanged. Outside-the-skill references (13 workflows, `scripts/sync-docs.py`, labeler/labels/PR template, 3 issue templates, README/CONTRIBUTING/CLAUDE/DISCLAIMER/SECURITY, docs/) updated to the new path.
 - `_regions.json` stays at repo root — it's a docs-build input for the README country matrix and is never read by the skill at runtime.
 - `pr-validate.yml` — fixed `docs/` allowlist regex that only matched the `./docs/` form emitted by push-time `find`, missing the `docs/` form emitted by PR-time `git diff --name-only`. The forbidden-phrasings scanner now consistently exempts the docs folder (which quotes forbidden phrases by design).
 - fix(plugin): co-locate shared/ + countries/ under skills/property-deep-dive/ ([#39](https://github.com/soreavis/property-deep-dive/pull/39)) — by @soreavis
