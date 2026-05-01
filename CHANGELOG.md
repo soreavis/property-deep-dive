@@ -58,6 +58,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - chore(deps): Bump actions/github-script from d746ffe35508b1917358783b479e04febd2b8f71 to 3a2844b7e9c422d3c10d287c895573f7108da1b3 ([#48](https://github.com/soreavis/property-deep-dive/pull/48)) — by @dependabot[bot]
 - chore(deps): Bump dependabot/fetch-metadata from 2.5.0 to 3.1.0 ([#50](https://github.com/soreavis/property-deep-dive/pull/50)) — by @dependabot[bot]
 - chore(deps): Bump sigstore/cosign-installer from 3.9.1 to 4.1.1 ([#51](https://github.com/soreavis/property-deep-dive/pull/51)) — by @dependabot[bot]
+- chore(deps): Bump github/codeql-action from 3.35.2 to 4.35.2 ([#52](https://github.com/soreavis/property-deep-dive/pull/52)) — by @dependabot[bot]
 
 ## [2026.04.2] - 2026-04-26
 
