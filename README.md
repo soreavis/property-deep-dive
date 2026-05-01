@@ -150,6 +150,86 @@ See [Usage](#usage) below for the full flag reference and more examples.
 
 See `skills/property-deep-dive/SKILL.md` for the full argument-hint and `skills/property-deep-dive/shared/sections.md` for the section contract.
 
+## Token consumption
+
+Running this skill in Claude Code (or Cowork) consumes tokens proportional to which sections you invoke and how big the country playbook is. The numbers below are **estimates with significant variance** — the actual cost in any one session depends on Claude's context-loading heuristics, on whether you also use other tools/sub-agents in the same session, and on which model you're on. They're calibrated against a 12-tokens-per-line conversion for table-heavy markdown and the actual line counts in this repo as of the most recent release.
+
+### What gets loaded
+
+| Component | Size | Loaded when |
+|---|---:|---|
+| `SKILL.md` (router + argument-hint + country matrix) | ~6,800 tokens | Always |
+| `shared/preflight.md` (country detection) | ~2,100 tokens | Always |
+| `shared/anti-hallucination.md` (7 mandatory checks) | ~3,500 tokens | Always |
+| `shared/sections.md` (universal section contract) | ~6,000 tokens | Any section flag |
+| `shared/output-template.md` | ~1,600 tokens | Any output |
+| **Always-on subtotal** | **~14-20K tokens** | |
+
+**Country playbook** (loaded once per address): **3,500 – 14,500 tokens**
+- Smallest (RO, BG, LV, LU, LT — ~290-310 lines): ~3,500 tokens
+- Median (~516 lines): ~6,200 tokens
+- p90 (~1,090 lines): ~13,000 tokens
+- Largest (PY, KE, SA, PE — ~1,150-1,210 lines): ~14,500 tokens
+
+**Per-section flag — additional shared file** (loaded only when flag is invoked):
+
+| Flag | Shared file size | Tokens |
+|---|---:|---:|
+| `--price` `--traffic` `--tax` `--rental` `--work` `--risks` `--mains` | (logic embedded in country playbook — no extra shared file) | 0 |
+| `--amenities` | `shared/amenities-osm.md` (178 lines) | ~2,100 |
+| `--climate` | `shared/climate-projections.md` (189 lines) | ~2,300 |
+| `--insurance` | `shared/insurance.md` (195 lines) | ~2,300 |
+| `--notary` | `shared/notary-process.md` (225 lines) | ~2,700 |
+| `--currency` | `shared/currency.md` (271 lines) | ~3,300 |
+| `--visa` | `shared/visa-programs.md` (277 lines) | ~3,300 |
+| `--finance` | `shared/finance.md` (287 lines) | ~3,400 |
+| `--integrity` | `shared/integrity-checks.md` (352 lines) | ~4,200 |
+| `--type=<kind>` | `shared/property-types.md` (585 lines) | ~7,000 |
+| `--update` | `shared/updater.md` (588 lines) | ~7,100 |
+| `--journey=<type>` | `shared/journeys.md` (589 lines) | ~7,100 |
+| `--compare=<iso2,...>` | `shared/compare.md` (741 lines) | ~8,900 + extra playbooks |
+| `--crime` | `shared/crime-sources.md` (761 lines) | ~9,100 |
+| `--retirement` | `shared/retirement.md` (758 lines) | ~9,100 |
+| `--exit` | `shared/exit.md` (936 lines) | ~11,200 |
+
+### Common invocation patterns
+
+Realistic per-invocation totals on **Claude Sonnet 4.6** (default in Claude Code) at $3/MTok input + $15/MTok output. Multiply by 5× for **Opus 4.6** ($15/$75) or divide by 3× for **Haiku 4.5** ($1/$5).
+
+| Pattern | Example | Input tokens | Output tokens | Cost (Sonnet) | Cost (Opus) |
+|---|---|---:|---:|---:|---:|
+| **Single section** (no shared file) | `--country=fr --tax` | ~21K | ~500 | **$0.07** | $0.35 |
+| **Single section** (with shared file) | `--country=es --visa` | ~24K | ~600 | **$0.08** | $0.40 |
+| **Three flags** | `--country=de --tax --rental --visa` | ~29K | ~2K | **$0.12** | $0.59 |
+| **Address + listing URL** | `<address> --integrity --journey=pre-offer` | ~37K | ~3K | **$0.16** | $0.78 |
+| **Full audit** | `<address> --all` | ~70-90K | ~6-10K | **$0.30-0.42** | $1.50-2.10 |
+| **Heritage / specialised type** | `<address> --type=heritage --journey=foreign-buyer` | ~36K | ~3K | **$0.15** | $0.77 |
+| **Three-country compare** | `--compare=fr,it,pt --retirement` | ~58K | ~4K | **$0.23** | $1.17 |
+| **Save full audit to file** | `<address> --all --save` | ~70-90K | ~10-15K | **$0.36-0.49** | $1.80-2.50 |
+| **Watch a listing (initial)** | `--watch <url>` | ~15K | ~500 | **$0.05** | $0.25 |
+| **`--update --validate-only` (1 country)** | URL liveness, no re-research | ~25K | ~1K | **$0.09** | $0.43 |
+| **`--update=<iso2>` (1 country full refresh)** | re-research + URL replace | ~150-200K | ~10-15K | **$0.60-0.83** | $3.00-4.13 |
+| **`--update --tier=A` (15 countries)** | quarterly cycle | ~1.5-3M | ~150-300K | **$6.75-13.50** | $33.75-67.50 |
+
+**Notes on the high end**
+
+- `--update` modes invoke WebFetch (and sometimes parallel sub-agents) per country. The token spend is dominated by HTTP responses being read into context — typically ~30 URLs per playbook × 1.5-5K tokens per fetched page.
+- `--all` may not load all 16 section-shared files simultaneously — Claude Code reads them on demand as each section renders, so the practical cost is often lower than the worst-case estimate. The range above accounts for this.
+- The `--update --tier=*` figures assume a single-shot run. In practice, you'd typically run `--diff` first, review, then apply — that doubles input but skips half the output.
+
+### What changes the cost
+
+- **Country size**: PY/KE/SA/PE/KW playbooks are ~4× larger than RO/BG/LV/LU. A `--all` audit on PE costs ~50% more than on RO purely from playbook size.
+- **WebFetch usage**: any flag that pulls live data (`--integrity` listing URL parse, `--update --refresh-only`, `--watch`) adds 1.5-5K tokens per URL fetched. Free-form addresses without a listing URL skip this entirely.
+- **`--save` writes a full report** to `_local/reports/`, which doubles output tokens vs terminal-only render.
+- **Sub-agent dispatch**: some maintenance flows (the regulatory-watch auto-promotion logic, parallel country research during batch refresh) spawn sub-agents. Each sub-agent has its own context window. Reported costs above are aggregated across the parent + sub-agents.
+
+### How to measure your own usage
+
+Claude Code shows per-session token counts via `/usage`. Track a few invocations to calibrate against your typical addresses + flag combinations — your real usage may be ±30% from the table above depending on how Claude routes the request.
+
+For batch / CI / scheduled runs, the GitHub Actions workflows in `.github/workflows/` (url-liveness, health-report, tier-refresh) **do not consume Claude tokens** — they're plain bash + Python doing local file analysis and HTTP HEAD checks. Token spend only kicks in when a human invokes `/property-deep-dive` interactively to act on what those workflows surface.
+
 ## Anti-hallucination + regulatory watch
 
 This skill drives major financial decisions, so it's built around the contract that **every claim is either sourced, computed transparently, or labelled as uncertain**. Three layers enforce this:
@@ -255,7 +335,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 122 markdown files, ~63,400 lines (SKILL.md + 34 shared/ + 87 country playbooks).
-**Repo total**: 135 markdown files, ~65,700 lines (skill content + community / governance files + CHANGELOG) · 33 YAML / JSON config files (25 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 135 markdown files, ~65,800 lines (skill content + community / governance files + CHANGELOG) · 33 YAML / JSON config files (25 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
