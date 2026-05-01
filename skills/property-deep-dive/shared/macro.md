@@ -100,6 +100,15 @@ For each country, primary macro sources:
 | IL | BoI (https://www.boi.org.il/) | CBS | OECD |
 | MA | BAM (https://www.bkam.ma/) | HCP | IMF WEO |
 | EG | CBE (https://www.cbe.org.eg/) | CAPMAS | IMF WEO |
+| SG | MAS (https://www.mas.gov.sg/) | Singstat | OECD |
+| HK | HKMA (https://www.hkma.gov.hk/) | C&SD | IMF WEO |
+| KR | BOK (https://www.bok.or.kr/) | KOSTAT | OECD |
+| TW | CBC (https://www.cbc.gov.tw/) | DGBAS | IMF WEO |
+| LI | SNB (https://www.snb.ch/) — CHF via 1980 Currency Treaty | Statistik Liechtenstein | OECD |
+| MO | AMCM (https://www.amcm.gov.mo/) | DSEC | IMF WEO |
+| AD | n/a (EUR via 2011 Monetary Treaty, not Eurozone) | Estadística d'Andorra | IMF WEO |
+| MC | n/a (EUR via 2002 Monetary Convention with FR, not Eurozone formally) | IMSEE | IMF WEO |
+| MD | BNM (https://www.bnm.md/) | BNS | IMF WEO |
 
 ## Apr 2026 snapshot — central-bank policy rates
 
@@ -150,6 +159,15 @@ For each country, primary macro sources:
 | **BoI (Israel)** | 4.50% est. | war-affected; cautious cuts — verify |
 | **BAM (Morocco)** | 2.50% est. | hold; CPI near target — verify |
 | **CBE (Egypt)** | ~22-24% est. | held high post-Mar 2024 IMF devaluation; CPI declining from 30%+ — verify |
+| **MAS (Singapore)** | n/a (FX-based policy via S$NEER managed float) | macroprudential via SSD/ABSD/LTV; no policy rate — verify next MAS MPS https://www.mas.gov.sg |
+| **HKMA (Hong Kong)** | Base Rate ~4.75% est. (Fed-bound via LERS Convertibility Undertaking 7.75-7.85) | Fed-tracking; no independent policy rate — verify https://www.hkma.gov.hk |
+| **BOK (Korea)** | 2.75% est. | gradual cuts from 3.50% peak (2023) — verify next BOK MPC https://www.bok.or.kr |
+| **CBC (Taiwan)** | 2.00% est. (Discount Rate) | hold; macroprudential focus — verify https://www.cbc.gov.tw |
+| **SNB (Liechtenstein)** | 0.00% (CHF-bound via 1980 Currency Treaty) | SNB-bound; no independent monetary policy |
+| **AMCM (Macao)** | Base Rate ~4.75% est. (HKD-bound via MOP/HKD peg + LERS indirect Fed-bound) | Fed-tracking via double peg — verify https://www.amcm.gov.mo |
+| **n/a (Andorra)** | EUR-using (2011 Monetary Treaty); no central bank | ECB Deposit indirect |
+| **n/a (Monaco)** | EUR-using (2002 Monetary Convention with FR); no central bank | ECB Deposit indirect |
+| **BNM (Moldova)** | 6.50% est. | hold/easing trajectory post-2022 inflation peak — verify next BNM MPC https://www.bnm.md |
 
 ## Apr 2026 snapshot — sovereign 10-yr yields
 
@@ -220,6 +238,15 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 | IL | 4.80% est. | (ILS); war-risk premium ~50 bps over pre-Oct-2023 — verify |
 | MA | 4.50% est. | (MAD); IG-rated; USD eurobonds ~5% |
 | EG | ~25% est. | (EGP); USD eurobonds ~9-11% — distressed; verify post-IMF |
+| SG | 2.80% est. | (SGD) — AAA-rated; SGS 10y benchmark |
+| HK | 4.50% est. | (HKD-USD peg) — tracks UST + ~10-20 bps |
+| KR | 3.20% est. | (KRW) — KTB 10y; AA-rated |
+| TW | 1.60% est. | (TWD) — central-government bond; AA-rated |
+| LI | n/a | (CHF via Currency Treaty) — no domestic sovereign issuance; AAA-rated |
+| MO | 4.50% est. | (MOP-HKD-USD double peg) — tracks UST |
+| AD | 3.00% est. | (EUR-using) — limited sovereign issuance via Treasury |
+| MC | n/a | (EUR-using) — no domestic sovereign issuance |
+| MD | ~9% est. | (MDL) — high inflation/FX risk premium; B-rated; USD eurobonds ~7-8% |
 
 ## Why macro context matters for property
 
@@ -248,6 +275,10 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - US (Fed 4.25-4.50%)
 - CA (BoC 2.75%)
 - IL (BoI cautious; war-recovery)
+- HK (HKMA Fed-bound ~4.75%)
+- MO (AMCM Fed-bound ~4.75%)
+- TW (CBC Discount Rate 2.00%)
+- KR (BOK 2.75% mid-cut path)
 
 ### Recovery / cutting
 - AU (RBA cutting 4.10%)
@@ -287,6 +318,13 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - DK (ERM-II)
 - AE (AED pegged to USD 3.6725 — Fed-bound monetary policy)
 - PA (USD-dollarized — Fed-bound)
+- SG (S$NEER managed-float against undisclosed basket — MAS macroprudential tools)
+- LI (CHF via 1980 Currency Treaty — SNB-bound)
+- AD (EUR via 2011 Monetary Treaty — ECB indirect)
+- MC (EUR via 2002 Monetary Convention with FR — ECB indirect)
+
+### Active tightening / hold high (additional)
+- MD (BNM 6.50% post-2022 war shock; MDL volatile)
 
 ## Inflation trajectory (Apr 2026, recent quarter)
 
@@ -315,6 +353,15 @@ PH: ~3-4% (within BSP 2-4% target)
 IL: ~3% (war-affected supply shocks)
 MA: ~2%
 EG: ~30%+ declining (post-Mar 2024 EGP devaluation; verify CAPMAS)
+SG: ~2.4% est. (Mar 2026 — verify MAS CPI release https://www.mas.gov.sg)
+HK: ~1.7% est. (Q1 2026 — verify https://www.censtatd.gov.hk)
+KR: ~2.1% est. (Q1 2026 — verify KOSTAT)
+TW: ~2.0% est. (Q1 2026 — verify DGBAS https://www.dgbas.gov.tw)
+LI: ~1.5% est. (CHF-bound, tracks CH; verify Statistik Liechtenstein)
+MO: ~2% est. (verify DSEC https://www.dsec.gov.mo)
+AD: ~3% est. (verify Estadística d'Andorra https://www.estadistica.ad)
+MC: ~3% est. (verify IMSEE https://www.monacostatistics.mc)
+MD: ~4-5% est. (Q1 2026 — post-2022 shock easing; verify BNS https://statistica.gov.md)
 
 ## Tier-1 + Tier-2 country macro snapshots (Apr 2026)
 
@@ -360,6 +407,26 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **EG** — CPI ~30%+ declining from 2024 peak ~38%; GDP ~3-4% (devaluation drag); CBE ~22-24% est. (held high post-Mar 2024 IMF-conditioned EGP devaluation; verify https://www.cbe.org.eg); 10y EGP ~25%, USD eurobonds ~9-11% (distressed-trading); B-rated. Macro flag: **post-devaluation stabilization, FX crisis residual** — EGP devalued ~60% Mar 2024 under IMF/UAE/EU rescue package.
 
+### Tier-3 (PR pending — added 2026-05-01)
+
+**SG** — CPI ~2.4% est. (Mar 2026 — verify MAS CPI release https://www.mas.gov.sg); GDP ~3-4% (2025 est. — verify Singstat); MAS uses S$NEER managed-float band against undisclosed basket (no policy rate — macroprudential SSD/ABSD/LTV); 10y SGS ~2.80%; AAA-rated. Macro flag: **stable expansion**, financial-hub safe-haven; population ~5.94M (Singstat 2024).
+
+**HK** — CPI ~1.7% est. (Q1 2026 — verify https://www.censtatd.gov.hk); GDP recovering 2024-25 from China-tech / Article-23 NSL Mar 2024 sentiment drag; HKMA Base Rate ~4.75% est. (Fed-bound via Linked Exchange Rate System Convertibility Undertaking 7.75-7.85); 10y HKGB ~4.50%; AA+/AA-. Macro flag: **Fed-bound, sentiment-affected** — Article 23 National Security Law Mar 2024 added sovereign-risk premium for some foreign buyers.
+
+**KR** — CPI ~2.1% est. (Q1 2026 — verify KOSTAT); GDP ~2% (2025); BOK 2.75% est. (gradual cuts from 3.50% peak — verify next BOK MPC https://www.bok.or.kr); 10y KTB ~3.20%; AA-rated. Macro flag: **late-cycle / cutting**, demographic cliff (TFR 0.72 — lowest globally per KOSTAT 2024).
+
+**TW** — CPI ~2.0% est. (Q1 2026 — verify DGBAS https://www.dgbas.gov.tw); GDP ~3-4% (2025, AI-export driven); CBC Discount Rate 2.00% est. (hold; macroprudential focus on Taipei/New Taipei); 10y CGB ~1.60%; AA-rated. Macro flag: **stable expansion**, geopolitical premium (cross-Strait risk).
+
+**LI** — CPI ~1.5% est. (CHF-bound, tracks CH; verify Statistik Liechtenstein https://www.llv.li/en/national-administration/office-of-statistics); GDP ~3-5% (2024 est. — small economy, verify); SNB-bound via 1980 Currency Treaty (no independent rate); no domestic sovereign issuance; AAA-rated. Macro flag: **stable / pegged via CHF**, OECD top-tier GDP/capita; tiny housing market (~40k pop per Statistik Liechtenstein 2024).
+
+**MO** — CPI ~2% est. (verify DSEC https://www.dsec.gov.mo); GDP volatile (gaming-driven ~50% of GDP — recovering 2024-25 post-COVID); AMCM Base Rate ~4.75% est. (HKD-bound via MOP/HKD peg + LERS indirect Fed-bound); 10y MOP not actively traded; AA-rated. Macro flag: **Fed-bound via double peg, gaming-cycle exposed**.
+
+**AD** — CPI ~3% est. (verify Estadística d'Andorra https://www.estadistica.ad); GDP ~1-2% (2024 est. — ski + retail + finance, verify); EUR-using via 2011 Monetary Treaty (not Eurozone, no ECB voting); ECB Deposit rate indirect; sovereign issuance via Treasury; BBB+ rated. Macro flag: **EUR-using, small economy**, ~85k pop.
+
+**MC** — CPI ~3% est. (verify IMSEE https://www.monacostatistics.mc); GDP ~6-8% (2024 est. — finance + real-estate, verify); EUR-using via 2002 Monetary Convention with France (not Eurozone formally); ECB Deposit rate indirect; no domestic sovereign issuance; AA+/AAA-equivalent. Macro flag: **EUR-using, ultra-HNW property market**, ~38k pop (9,500 Monégasques + ~28,500 others per IMSEE).
+
+**MD** — CPI ~4-5% est. (Q1 2026 — post-2022 shock easing; verify BNS https://statistica.gov.md); GDP ~2-3% (2024-25 recovery from 2022 war-shock contraction); BNM 6.50% est. (hold/easing — verify next MPC https://www.bnm.md); 10y MDL ~9%; B-rated. Macro flag: **EU candidate (Jun 2022) → accession negotiations opened Jun 2024**, war-adjacent (Transnistria frozen conflict), MDL volatile 2022-24 from war shock and energy-cutoff.
+
 ### What to verify before use
 
 For any of the 18 above, the standard pre-output flow is:
@@ -378,4 +445,4 @@ For any of the 18 above, the standard pre-output flow is:
 
 ## Status
 
-Last refreshed: 2026-04-26. Next refresh: monthly (rates/inflation), quarterly (GDP).
+Last refreshed: 2026-05-01 (Tier-3 expansion: +9 countries — SG, HK, KR, TW, LI, MO, AD, MC, MD). Next refresh: monthly (rates/inflation), quarterly (GDP).

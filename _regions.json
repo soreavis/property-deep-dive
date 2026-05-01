@@ -34,7 +34,7 @@
     {
       "id": "apac",
       "label": "Asia-Pacific",
-      "codes": ["jp", "th", "id", "my", "vn", "ph"]
+      "codes": ["jp", "kr", "tw", "hk", "mo", "sg", "th", "my", "id", "vn", "ph"]
     },
     {
       "id": "africa",
@@ -43,8 +43,13 @@
     },
     {
       "id": "caucasus",
-      "label": "Caucasus",
-      "codes": ["ge"]
+      "label": "Caucasus & Eastern non-EU",
+      "codes": ["ge", "md"]
+    },
+    {
+      "id": "microstates",
+      "label": "European Microstates",
+      "codes": ["li", "ad", "mc"]
     }
   ]
 }

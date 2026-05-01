@@ -83,8 +83,17 @@ EPC-style class distributions are not published by stat office for most non-EU r
 | 🇮🇱 IL | Israeli Standard 5281 (בנייה ירוקה / green building) | Mandatory rating for new builds from 2022 | Older stock unrated — verify at sii.org.il | sii.org.il |
 | 🇲🇦 MA | HEQ certification + Loi 47-09 energy efficiency (2014) | 47-09 mandatory at permit; HEQ voluntary | Pre-2014 stock largely unrated — verify at amee.ma | amee.ma |
 | 🇪🇬 EG | GPRS (Green Pyramid Rating System) | Voluntary; mandatory for some New Capital projects | Sub-1% of national stock — verify at hbrc.edu.eg | hbrc.edu.eg |
+| 🇸🇬 SG | BCA Green Mark | Mandatory for new builds + major retrofits since 2008 (Building Control Regulations) | Coverage broad on new build; older HDB/private stock unrated unless Green Mark Existing — verify at bca.gov.sg | bca.gov.sg |
+| 🇭🇰 HK | BEAM Plus + EMSD MEEO (Mandatory Energy Efficiency Labelling) | BEAM voluntary; MEEO mandatory for buildings >5,000 m² gross floor area (commercial subset) | Residential coverage low — verify at beamsociety.org.hk + emsd.gov.hk | beamsociety.org.hk; emsd.gov.hk |
+| 🇰🇷 KR | G-SEED (Green Standard for Energy and Environmental Design) + Building Energy Efficiency Rating System | G-SEED mandatory for public buildings + voluntary private; energy-rating mandatory at sale/rent for selected building types since 2016 | Coverage growing; older stock often unrated — verify at greentogether.go.kr | greentogether.go.kr |
+| 🇹🇼 TW | EEWH (Ecology, Energy saving, Waste reduction, Health) | Mandatory for public buildings ≥NTD 50M; voluntary private | Sub-5% of stock rated — verify at abri.gov.tw | abri.gov.tw |
+| 🇱🇮 LI | n/a (small jurisdiction; cross-references CH MINERGIE / GEAK) | Voluntary; CH MINERGIE acceptable | Coverage low — verify at llv.li / minergie.ch | llv.li; minergie.ch |
+| 🇲🇴 MO | n/a (no comprehensive public regime as of Apr 2026) | — | data not publicly available — verify at dscc.gov.mo | dscc.gov.mo |
+| 🇦🇩 AD | n/a (small jurisdiction; cross-references EU EPBD via Spain/France markets) | Not yet mandatory | data not publicly available — verify at govern.ad | govern.ad |
+| 🇲🇨 MC | French DPE acceptable for properties marketed to FR-jurisdiction buyers | French DPE not formally mandatory in MC but commonly used | data not publicly available — verify at gouv.mc | gouv.mc |
+| 🇲🇩 MD | EU candidate alignment in progress — EPBD transposition draft (no in-force regime as of Apr 2026) | Not yet mandatory | Distribution data not publicly available — verify at minfin.gov.md / mediu.gov.md | minfin.gov.md; mediu.gov.md |
 
-**Caveat**: These regimes use **different scales** (HERS is 0-150 with lower=better; BERDE is 1-5 stars; Estidama is 1-5 Pearls; SANS 10400-XA is pass/fail). They are **not** equivalent to EU A-G classes and must not be presented on the same axis.
+**Caveat**: These regimes use **different scales** (HERS is 0-150 with lower=better; BERDE is 1-5 stars; Estidama is 1-5 Pearls; SANS 10400-XA is pass/fail; BCA Green Mark is Certified/Gold/GoldPLUS/Platinum; BEAM Plus is Bronze/Silver/Gold/Platinum; G-SEED is 1-7 grade; EEWH is Certified/Bronze/Silver/Gold/Diamond). They are **not** equivalent to EU A-G classes and must not be presented on the same axis.
 
 ## Worst-class rental ban schedule
 
@@ -164,6 +173,23 @@ Hazard tags below are derived from primary national/UN sources (USGS, JMA, JRC I
 **Lower-but-not-zero exposure**:
 - 🇬🇪 GE — Caucasus seismic; Black Sea coastal storm — verify at nea.gov.ge
 
+### Tier-3 expansion (Apr 2026)
+
+**Highest exposure (Tier-3)**:
+- 🇹🇼 TW — Pacific Ring of Fire seismic (Apr 2024 Hualien Mw 7.4 reference, also 921 Sep 1999 Mw 7.7 baseline); typhoon belt; coastal storm Taipei basin flood — verify at cwa.gov.tw (Central Weather Administration / 中央氣象署)
+- 🇭🇰 HK — typhoon belt (avg ~5-6 affecting/yr); coastal SLR; landslide hill-side districts (HKO + GEO Geotechnical Engineering Office monitoring); urban heat — verify at hko.gov.hk / cedd.gov.hk
+- 🇲🇴 MO — typhoon belt + coastal SLR (Mangkhut Sep 2018 reference); reclaimed-land subsidence — verify at smg.gov.mo (Direcção dos Serviços Meteorológicos e Geofísicos)
+- 🇰🇷 KR — coastal storm + monsoon flood (Aug 2022 Seoul Gangnam flood reference); Pohang Mw 5.4 Nov 2017 induced-seismicity reference; typhoon SE coast — verify at kma.go.kr
+- 🇲🇩 MD — Vrancea Mw 7+ seismic legacy (Mar 1977 Bucharest reference also affected Chișinău); flood Prut/Nistru basins; drought 2007/2012/2020 reference — verify at meteo.md (Serviciul Hidrometeorologic de Stat)
+
+**Mid exposure (Tier-3)**:
+- 🇸🇬 SG — coastal SLR (~30% land below 5m elevation per CCRS Centre for Climate Research Singapore); urban heat island; transboundary haze (Indonesian peat-fire) Jul-Oct — verify at nea.gov.sg / ccrs.weather.gov.sg
+
+**Lower-but-not-zero exposure (Tier-3)**:
+- 🇱🇮 LI — Alpine landslide / avalanche; flood Rhine; cross-references MeteoSwiss + Hydroamt — verify at llv.li
+- 🇦🇩 AD — Alpine avalanche (FORTA Servei de Forces de Comunicacions monitoring); flood Valira; wildfire drought summers — verify at meteo.ad (SAGEMM)
+- 🇲🇨 MC — coastal SLR (Plan Bleu / Plan Climat Monaco — verify at gouv.mc); Mediterranean storm; very small footprint limits parcel-level variation
+
 ## Community impact / walkability / renewable share
 
 ### Highest renewable-share electricity grids (host country)
@@ -208,6 +234,15 @@ Sources: IEA national reports + national grid operator data, latest available; f
 | 🇩🇴 DO | ~18% | Solar + wind growth; oil/gas dominant | 2024 (CNE) |
 | 🇪🇬 EG | ~12% | Hydro Aswan + solar Benban | 2024 (EgyptERA) |
 | 🇬🇪 GE | ~80% | Hydro-dominant (Caucasus) | 2024 (gnerc.org) |
+| 🇸🇬 SG | ~5% | Natural-gas dominant (~95%); SolarNova rooftop programme expanding | 2024 (EMA Energy Market Authority) |
+| 🇭🇰 HK | ~1% | Coal + LNG dominant; Climate Action Plan 2050 targets phase-out coal by 2035 | 2024 (CLP/HK Electric / EMSD) |
+| 🇰🇷 KR | ~10% | Coal + LNG + nuclear dominant; renewables (solar/wind) growing — verify at kpx.or.kr | 2024 (KEPCO/KPX) |
+| 🇹🇼 TW | ~12% | Coal + LNG dominant; nuclear phase-out delayed; solar + offshore-wind growing | 2024 (taipower.com.tw) |
+| 🇲🇴 MO | ~15% (incl. Guangdong-grid imports) | Mostly Guangdong-grid imports (~80%); local solar minimal — verify at dscc.gov.mo | 2024 (CEM) |
+| 🇲🇩 MD | ~25% est. | Hydro Costești-Stînca (shared with RO); imports from RO post-2022 grid-sync (Mar 2022) reduced gas-import dependency — verify at moldelectrica.md | 2024 (ANRE) |
+| 🇱🇮 LI | ~70% est. | CHF-grid integrated; hydro + cross-border CH grid dominant — verify at llv.li | 2024 (LKW Liechtensteinische Kraftwerke) |
+| 🇦🇩 AD | ~25% (incl. domestic hydro + ES-grid imports) | Mostly ES-grid imports; FEDA hydro Engolasters — verify at feda.ad | 2024 (FEDA) |
+| 🇲🇨 MC | n/a (FR-grid integrated) | EDF-grid (FR mix ~75% nuclear + renewables) — verify at gouv.mc | 2024 (SMEG) |
 
 ## Recent climate-adaptation policy (Tier-1 + Tier-2)
 
@@ -231,11 +266,21 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 - 🇮🇱 IL — Israeli Standard 5281 mandatory for new builds from 2022; Climate Law draft pending Knesset.
 - 🇲🇦 MA — **Loi 47-09** energy efficiency (2014); Noor Ouarzazate solar complex (~580 MW); 52% renewable target 2030.
 - 🇪🇬 EG — Egypt Vision 2030 sustainability axis; New Administrative Capital green-build mandates; COP27 hosted Nov 2022.
+- 🇸🇬 SG — **Singapore Green Plan 2030**; Carbon Pricing Act SGD 25/tCO2 (2024-25), SGD 45 (2026-27), SGD 50-80 (by 2030); BCA Green Mark mandatory new build since 2008 — verify at greenplan.gov.sg.
+- 🇭🇰 HK — **Climate Action Plan 2050** (Oct 2021); coal phase-out by 2035 target; MEEO Mandatory Energy Efficiency Labelling (commercial subset); BEAM Plus voluntary — verify at climateready.gov.hk.
+- 🇰🇷 KR — **Carbon Neutrality and Green Growth Framework Act** (Aug 2022); KETS Korea Emissions Trading Scheme since 2015 (Phase 4 2026-30 in design); G-SEED + Building Energy Efficiency Rating mandatory for some types — verify at me.go.kr.
+- 🇹🇼 TW — **Climate Change Response Act** (passed Jan 2023, implementing carbon-fee draft 2024 — verify enacted form at moenv.gov.tw); EEWH mandatory for public buildings.
+- 🇲🇴 MO — **Macao Climate Action Plan 2030** (verify at dspa.gov.mo); no comprehensive carbon levy as of Apr 2026.
+- 🇲🇩 MD — EU candidate alignment in progress (accession negotiations opened Jun 2024); EPBD transposition draft pending — verify at minfin.gov.md / mediu.gov.md.
+- 🇱🇮 LI — Energy Strategy 2030 (CHF-aligned; cross-references Swiss CO2 Act); CHF 120/tCO2 effective via CH integration — verify at llv.li.
+- 🇦🇩 AD — Energy & Climate Strategy 2030 (energia.ad); no comprehensive carbon levy as of Apr 2026 — verify at govern.ad.
+- 🇲🇨 MC — **National Energy Transition Plan 2017-2030**; carbon-neutrality by 2050 commitment; FR-grid integrated — verify at gouv.mc.
 
 **Rule**: Reforms in this list with `2024+` effective dates require cross-check at the country's primary ministry URL before quoting in a final report — frameworks often pass before implementing regulations.
 
 ### Best walkability / public transport (urban):
 - Vienna 🇦🇹, Zurich 🇨🇭, Copenhagen 🇩🇰, Amsterdam 🇳🇱, Paris 🇫🇷 (intra-mura), Berlin 🇩🇪, Munich 🇩🇪, Stockholm 🇸🇪, Helsinki 🇫🇮, Oslo 🇳🇴
+- Singapore 🇸🇬 (LTA MRT + bus + walkability top-tier; ~80% household-to-MRT 10-min walk per LTA), Hong Kong 🇭🇰 (MTR + minibuses + escalator-network Central-Mid-Levels), Macao 🇲🇴 (small footprint + LRT Taipa/Cotai), Seoul 🇰🇷 (Seoul Metro + KTX intercity), Taipei 🇹🇼 (MRT + YouBike), Monaco 🇲🇨 (small footprint, CAM bus + free vertical lifts/elevators)
 
 ### Worst walkability (car-dependent):
 - US sprawl (not in skill), CA suburbs, AU suburbs, NZ outside Auckland/Wellington
@@ -264,6 +309,13 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 | 🇦🇪 AE | No carbon tax. UAE Net Zero 2050 framework relies on subsidies + energy-efficiency mandates — verify at moccae.gov.ae | — |
 | 🇹🇭 TH | No carbon tax in force; Climate Change Act 2024 enacted but levy not active — verify at onep.go.th | — |
 | 🇩🇴 DO 🇲🇾 MY 🇻🇳 VN 🇵🇭 PH 🇲🇦 MA 🇪🇬 EG 🇮🇩 ID 🇬🇪 GE | No comprehensive carbon tax on residential property as of Apr 2026 | data not publicly available — verify at each country's environment ministry |
+| 🇸🇬 SG | Carbon Pricing Act (since 2019); applies to facilities emitting ≥25kt CO2e/yr (large emitters, NOT residential) | SGD 25/tCO2 (2024-25), SGD 45 (2026-27), SGD 50-80 by 2030 — verify at nccs.gov.sg |
+| 🇭🇰 HK | No carbon tax as of Apr 2026; Climate Action Plan 2050 relies on regulatory mandates + electricity-sector retirement schedule — verify at climateready.gov.hk | — |
+| 🇰🇷 KR | KETS (ETS for ~700 large emitters covering ~74% national emissions) + Petroleum & Energy Tax | KETS allowance KRW ~10,000/tCO2 (2024 average — verify at gir.go.kr); does NOT directly hit residential heating |
+| 🇹🇼 TW | Carbon-fee scheme enacted via Climate Change Response Act 2023; applies to ≥25kt CO2e/yr facilities — NOT residential | Rate NTD 300/tCO2 from 2025 (transitional) — verify at moenv.gov.tw |
+| 🇱🇮 LI | CHF 120/tCO2 effective via CH CO2 Act integration (Currency Treaty + customs union with CH) — verify at llv.li | CHF 120/tCO2 (CH-aligned) |
+| 🇲🇨 MC | No comprehensive carbon levy as of Apr 2026 — National Energy Transition Plan relies on subsidies + mandates — verify at gouv.mc | — |
+| 🇦🇩 AD 🇲🇴 MO 🇲🇩 MD | No comprehensive carbon tax on residential property as of Apr 2026 | data not publicly available — verify at each country's environment / energy ministry |
 
 For property buyers: **carbon levy on heating fuel directly affects annual operating cost**. Class F/G buildings on oil/gas heating face increasing operating cost over the next 5-10 years.
 
@@ -284,6 +336,6 @@ In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO), carbon-cost 
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-1 + Tier-2 expansion — 18 countries: US/TR/AE/JP/TH/DO/CO/UY/CL/ZA + GE/ID/MY/VN/PH/IL/MA/EG).
+Last refreshed: 2026-05-01 (Tier-3 expansion — 9 countries: SG/HK/KR/TW/LI/MO/AD/MC/MD; cumulative 71 countries).
 
-**Confidence**: MEDIUM — non-EU energy-rating regimes use different scales (HERS, BELS, BERDE, GREENSHIP, GBI, LOTUS, GPRS, Estidama, CES, Pearl, IS 5281) which are not directly comparable to EU A-G EPC; stock-penetration figures are estimates per published regime sources. Carbon-tax rates valid as of latest national publication; revisit cadence per `shared/regulatory-watch.md`.
+**Confidence**: MEDIUM — non-EU energy-rating regimes use different scales (HERS, BELS, BERDE, GREENSHIP, GBI, LOTUS, GPRS, Estidama, CES, Pearl, IS 5281, BCA Green Mark, BEAM Plus, G-SEED, EEWH) which are not directly comparable to EU A-G EPC; stock-penetration figures are estimates per published regime sources. Carbon-tax rates valid as of latest national publication; revisit cadence per `shared/regulatory-watch.md`.

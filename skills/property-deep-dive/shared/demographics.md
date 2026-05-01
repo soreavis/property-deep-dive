@@ -1,6 +1,6 @@
 # Universal `--demographics` Section
 
-Population, aging, schools, family-friendly metrics across 54+ supported countries (44 original + 10 Tier-1 + 8 Tier-2). Useful for relocation/family decisions and long-term valuation outlook.
+Population, aging, schools, family-friendly metrics across 71 supported countries (44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3). Useful for relocation/family decisions and long-term valuation outlook.
 
 **Snapshot**: April 2026.
 
@@ -160,6 +160,10 @@ For the property's country, return:
 | Country | Pop (M) | Median age | TFR | PISA reading | EF EPI tier | Family-friendly |
 |---|---:|---:|---:|---:|---|---|
 | JP | ~123.8 (2024 Stat Bureau) | 49.4 (2024 Stat Bureau, oldest globally) | 1.20 (2024 MHLW, record-low) | 516 reading (PISA 2022, top tier) | Lower | Strong (1-yr paid parental leave; universal childcare expanding under Kishida policy; population declining ~600k/year per MHLW) |
+| KR | ~51.7 (2024 KOSTAT) | ~45 (2024 KOSTAT) | 0.72 (2024 KOSTAT, lowest globally) | 515 reading (PISA 2022, top tier) | High | Strong on paper (1-yr paid leave + childcare subsidies; Yoon-era population emergency framework) but TFR collapse signals mismatch — work culture + housing cost in Seoul/Pangyo/Gangnam structural |
+| TW | ~23.4 (2024 DGBAS) | ~44 (2024 DGBAS) | 0.87 (2023 MOI, well below replacement) | 515 reading (PISA 2022, top tier) | High | Mid (8-week maternity leave + parental allowance; aging fast; Taipei international-school tier strong; geopolitical-risk premium for relocation decisions) |
+| HK | ~7.5 (2024 C&SD) | ~46 (2024 C&SD) | 0.75 (2023 C&SD, near-lowest globally) | 535 reading (PISA 2022 — Hong Kong is separate jurisdiction at PISA, top-tier) | Very High | Mid (14-week maternity leave; aging fast; English co-official; international-school tier strong but expensive; Article 23 NSL Mar 2024 sentiment factor for foreign families) |
+| MO | ~0.673 (2024 DSEC) | ~42 (2024 DSEC) | 0.7 est. (2023 DSEC, near-lowest in region) | not in PISA — DSEC Education indicators only | High | Mid (Cantonese majority + Portuguese co-official + Mandarin growing; small system; international tier limited; gaming-economy structures family work patterns) |
 
 ### South-East Asia
 
@@ -170,11 +174,31 @@ For the property's country, return:
 | MY | ~34.1 (2024 DOSM) | ~30 (2024 DOSM) | 1.6 (2023 DOSM, declining) | 388 reading (PISA 2022) | High | Mid (60-day maternity leave; multi-ethnic system Malay/Chinese/Tamil-medium public; private international tier strong in KL/Penang) |
 | VN | ~100.3 (2024 GSO) | ~33 (2024 GSO) | 1.95 (2023 GSO, declining toward replacement) | 462 reading (PISA 2022, strong relative to peers) | Lower | Mid (6-month paid maternity leave — generous regionally; aging from a young base, "old before rich" risk per GSO) |
 | PH | ~115 (2024 PSA) | ~25.7 (2024 PSA, youngest in SE Asia) | 2.7 (2023 PSA) | 347 reading (PISA 2022) | High | Mid (105-day paid maternity leave; English-medium public schools but quality variable; OFW remittances structure family economics) |
+| SG | ~5.94 (2024 Singstat) | ~42.8 (2024 Singstat) | 0.97 (2023 Singstat, record-low) | 543 reading (PISA 2022, #1 globally) | Very High (English working language) | Strong (16-week paid maternity + 4-week paternity; MOE schools top-tier globally; childcare subsidies + Baby Bonus scheme; aging fast — citizen TFR ~0.97 below replacement long-term per Singstat) |
+
+### European microstates / non-EU enclaves (Tier-3)
+
+| Country | Pop (M) | Median age | TFR | PISA reading | EF EPI tier | Family-friendly |
+|---|---:|---:|---:|---:|---|---|
+| LI | ~0.040 (2024 Statistik Liechtenstein) | ~44 (2024 SL) | ~1.4 est. (2023 SL) | not in PISA — SL Education indicators only | Very High (German + English) | Strong (CHF-bound, generous family allowances; small system; German Alemannic dialect official; cross-border CH/AT schooling routine) |
+| AD | ~0.085 (2024 Estadística d'Andorra) | ~44 (2024 EA) | ~1.1 est. (2023 EA) | not in PISA — three school systems (Andorran, French, Spanish) | High | Mid (Catalan official; tri-system schooling; small economy ski + retail + finance; family-friendly relative to size) |
+| MC | ~0.038 (2024 IMSEE) | ~55 est. (2024 IMSEE — among oldest globally; HNW-skewed) | ~1.5 est. (2023 IMSEE) | not in PISA — small system | Very High (French + English) | Mid (French official; private/international schools dominant for expat HNW families; ultra-HNW property structure) |
+
+### Eastern Europe non-EU (Tier-3)
+
+| Country | Pop (M) | Median age | TFR | PISA reading | EF EPI tier | Family-friendly |
+|---|---:|---:|---:|---:|---|---|
+| MD | ~2.5 (2024 BNS, excl. Transnistria) | ~38 (2024 BNS) | 1.7 (2023 BNS) | 411 reading (PISA 2022) | Moderate | Mid (24-month parental leave; Russian + Romanian-medium public schools split; emigration sustained — net migration negative since 1990s; EU candidate Jun 2022 → accession negotiations Jun 2024 may reverse) |
 
 ## Aging & dependency cliffs
 
 Countries already past the demographic peak (population declining), highest concern:
 - 🇯🇵 JP (49.4, 1.20) — oldest median globally; ~600k pop loss/year (2024 MHLW)
+- 🇰🇷 KR (~45, 0.72) — TFR lowest globally (2024 KOSTAT); structural population decline since 2020
+- 🇭🇰 HK (~46, 0.75) — TFR among lowest globally (2023 C&SD); aging fast
+- 🇲🇴 MO (~42, 0.7 est.) — TFR near-lowest in region (2023 DSEC)
+- 🇹🇼 TW (~44, 0.87) — TFR well below replacement (2023 MOI); aging fast
+- 🇸🇬 SG (~42.8, 0.97) — TFR record-low (2023 Singstat); aging fast
 - 🇮🇹 IT (median 47.3, TFR 1.20) — accelerating decline
 - 🇧🇬 BG (45.4, 1.65) — emigration overlay
 - 🇭🇷 HR (44.3, 1.46)
@@ -182,6 +206,7 @@ Countries already past the demographic peak (population declining), highest conc
 - 🇱🇻 LV (44.5) — emigration to Western EU
 - 🇱🇹 LT (45.0) — emigration to Western EU
 - 🇷🇸 RS (44.4) — emigration
+- 🇲🇩 MD (~38, 1.7) — emigration sustained since 1990s (2024 BNS)
 - 🇹🇭 TH (~40, 1.3) — fastest-aging in SE Asia; record-low TFR (2023 NSO)
 - 🇬🇪 GE (~38, 1.7) — emigration sustained (2024 Geostat)
 
@@ -207,29 +232,29 @@ Countries with stable / growing demographics:
 ## English-proficiency tiers (EF EPI 2025 cycle — non-government, treat as relative ranking)
 
 - **Native**: UK, IE, AU, NZ, CA, US
-- **Very High**: NL, AT, BE, FI, SE, NO, DK, DE, LU, IE, EE, MT, IL
-- **High**: PT, GR, CY, SI, HR, LT, LV, AR, MY, PH, UY
-- **Moderate**: FR, IT, ES, PL, CZ, SK, HU, RO, RS, ME, BA, MK, MX, BR, CR, PA, GE, AE, ZA, CO, CL
+- **Very High**: NL, AT, BE, FI, SE, NO, DK, DE, LU, IE, EE, MT, IL, SG (English working language), LI, MC
+- **High**: PT, GR, CY, SI, HR, LT, LV, AR, MY, PH, UY, KR, TW, HK, MO, AD
+- **Moderate**: FR, IT, ES, PL, CZ, SK, HU, RO, RS, ME, BA, MK, MX, BR, CR, PA, GE, AE, ZA, CO, CL, MD
 - **Lower-Moderate**: DO
 - **Lower**: AL, BG (improving), MK (lower), TR, MA, EG, TH, ID, VN
 
 ## PISA rank distinction (2022 results published Dec 2023; 2025 cycle results expected late 2026)
 
 Top tier (>500 reading):
-- 🇮🇪 IE (516), 🇯🇵 JP (516), 🇪🇪 EE (511), 🇨🇦 CA (507), 🇺🇸 US (504), 🇳🇿 NZ (501)
+- 🇸🇬 SG (543, #1 globally), 🇭🇰 HK (535), 🇮🇪 IE (516), 🇯🇵 JP (516), 🇰🇷 KR (515), 🇹🇼 TW (515), 🇪🇪 EE (511), 🇨🇦 CA (507), 🇺🇸 US (504), 🇳🇿 NZ (501)
 
 Strong tier (480-500):
-- 🇸🇬 SG (not in skill), most Nordic + DE/AT/CH/UK
+- Most Nordic + DE/AT/CH/UK
 
 Mid (440-480):
 - Most other EU + Anglo non-EU + 🇮🇱 IL (474), 🇻🇳 VN (462), 🇹🇷 TR (456), 🇨🇱 CL (448)
 
 Lower-mid (400-440):
-- 🇮🇹 IT, 🇪🇸 ES, 🇬🇷 GR, 🇨🇾 CY, 🇲🇹 MT (small systems), 🇧🇬 BG, 🇷🇴 RO, all Balkans except SI, 🇺🇾 UY (430), 🇦🇪 AE (417), 🇨🇴 CO (409)
+- 🇮🇹 IT, 🇪🇸 ES, 🇬🇷 GR, 🇨🇾 CY, 🇲🇹 MT (small systems), 🇧🇬 BG, 🇷🇴 RO, all Balkans except SI, 🇺🇾 UY (430), 🇲🇩 MD (411), 🇦🇪 AE (417), 🇨🇴 CO (409)
 
 Lower (<400):
 - 🇲🇾 MY (388), 🇹🇭 TH (379), 🇬🇪 GE (374), 🇮🇩 ID (359), 🇵🇭 PH (347), 🇲🇦 MA (339)
-- Not in PISA: 🇩🇴 DO, 🇿🇦 ZA, 🇪🇬 EG (TIMSS / LLECE alternatives only)
+- Not in PISA: 🇩🇴 DO, 🇿🇦 ZA, 🇪🇬 EG, 🇲🇴 MO, 🇱🇮 LI, 🇦🇩 AD, 🇲🇨 MC (national-level indicators or TIMSS / LLECE alternatives only)
 
 ## Family-friendliness composite signals
 
@@ -241,30 +266,38 @@ Strongest (parental leave, free childcare, school quality, work-life balance):
 - 🇯🇵 JP — top-tier school quality + recent parental-leave expansion (Kishida policy)
 - 🇮🇱 IL — strong family infrastructure + highest TFR in OECD
 - 🇻🇳 VN — 6-month paid maternity leave (regionally generous)
+- 🇸🇬 SG — top-tier MOE schools (#1 PISA 2022) + 16-week maternity + Baby Bonus, but TFR collapse signals housing-cost / work-culture mismatch
+- 🇰🇷 KR — generous on paper (1-yr leave + childcare subsidies + Yoon population emergency framework) but TFR 0.72 lowest globally per KOSTAT 2024 — policy/practice gap severe
+- 🇱🇮 LI — CHF-bound generous family allowances (small system)
 
 Mid-tier:
 - 🇺🇸 US — strong universities + suburban schools, weak federal family policy (no paid leave; childcare ~22% household income, 2023 Treasury)
 - 🇦🇪 AE, 🇲🇾 MY, 🇹🇭 TH — strong international/private school options, public quality variable
 - 🇺🇾 UY, 🇨🇱 CL — top in LatAm by school metrics; UY notable for Plan Ceibal
+- 🇭🇰 HK, 🇹🇼 TW, 🇲🇴 MO — top-tier school quality but high cost / Article-23 NSL sentiment factor (HK) / geopolitical premium (TW); aging fast
+- 🇦🇩 AD — Catalan official, tri-system schooling (Andorran/French/Spanish), small economy
+- 🇲🇨 MC — French official, private/international schools dominant for HNW expat families
 
 Weakest:
 - LatAm informal urban (excluding strong middle-class enclaves)
 - Western Balkans (improving)
 - 🇪🇬 EG, 🇲🇦 MA, 🇵🇭 PH, 🇮🇩 ID, 🇩🇴 DO — public schools severely under-resourced; quality concentrated in private/international tier
+- 🇲🇩 MD — emigration sustained since 1990s, public schools split Russian/Romanian-medium, EU candidate status (Jun 2022 → accession Jun 2024) may reverse trajectory
 
 ## Anti-hallucination
 
 - **Cite Eurostat / OECD / World Bank / UN DESA** as primary; date-stamp data
-- **National stats offices** (Census Bureau US, TÜİK TR, FCSC AE, Stat Bureau JP, NSO TH, ONE DO, DANE CO, INE UY/CL, Stats SA, Geostat GE, BPS ID, DOSM MY, GSO VN, PSA PH, CBS IL, HCP MA, CAPMAS EG) are primary for in-country data
+- **National stats offices** (Census Bureau US, TÜİK TR, FCSC AE, Stat Bureau JP, NSO TH, ONE DO, DANE CO, INE UY/CL, Stats SA, Geostat GE, BPS ID, DOSM MY, GSO VN, PSA PH, CBS IL, HCP MA, CAPMAS EG, Singstat SG, C&SD HK, KOSTAT KR, DGBAS TW, Statistik Liechtenstein LI, DSEC MO, Estadística d'Andorra AD, IMSEE MC, BNS MD) are primary for in-country data
 - **PISA cycle is 3-year**; 2022 results are still authoritative until late 2026 (next cycle 2025 results expected late 2026)
-- **PISA participation is voluntary** — DO, ZA, EG do not participate; use TIMSS / UNESCO LLECE alternatives, do NOT extrapolate
+- **PISA participation is voluntary** — DO, ZA, EG, MO, LI, AD, MC do not participate at country level; use TIMSS / UNESCO LLECE / national alternatives, do NOT extrapolate. SG and HK participate as separate jurisdictions
 - **Population projections** are uncertain — use UN WPP medium variant
-- **TFR varies substantially by year** — use latest single-year data, not multi-year; flag record-lows (JP 2024, TR 2023, CL 2023, TH 2023)
+- **TFR varies substantially by year** — use latest single-year data, not multi-year; flag record-lows (KR 2024 0.72 globally lowest, JP 2024, HK 2023, TW 2023, SG 2023, TR 2023, CL 2023, TH 2023)
 - **EF EPI** is non-government and methodology-disputed — use as a relative ranking, not absolute
-- **Expat-skewed populations** (AE: ~88% expat per 2022 FCSC) — citizen TFR and expat aggregate diverge sharply; quote both when relevant
+- **Expat-skewed populations** (AE: ~88% expat per 2022 FCSC; MC: ~9.5k Monégasques + ~28.5k others per IMSEE; SG: ~70% citizen + 30% PR/work-pass per Singstat) — citizen and aggregate metrics can diverge sharply; quote both when relevant
 - **Israel TFR** is heavily driven by ultra-Orthodox/Haredi sub-population (~6.5 vs secular ~2.0 per 2023 CBS) — aggregate masks composition
+- **Moldova population**: BNS official figures exclude Transnistria (~360k claimed by separatist administration but not in BNS series) — always state which scope is used
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-1 + Tier-2 expansion: +18 countries — US, TR, AE, JP, TH, DO, CO, UY, CL, ZA, GE, ID, MY, VN, PH, IL, MA, EG).
-**Confidence**: MEDIUM-HIGH overall — primary national stats office citations for population/TFR; PISA 2022 cycle for school benchmarks where countries participate; TIMSS/LLECE alternatives flagged for non-PISA participants. Re-verify TFRs annually given record-low volatility in JP/TR/TH/CL.
+Last refreshed: 2026-05-01 (Tier-3 expansion: +9 countries — SG, HK, KR, TW, LI, MO, AD, MC, MD; cumulative 71 countries: 44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3).
+**Confidence**: MEDIUM-HIGH overall — primary national stats office citations for population/TFR; PISA 2022 cycle for school benchmarks where countries/jurisdictions participate; TIMSS/LLECE/national-only alternatives flagged for non-PISA participants. Re-verify TFRs annually given record-low volatility in KR/HK/TW/SG/JP/TR/TH/CL.

@@ -2,7 +2,7 @@
 
 Digital-nomad-specific filter: digital nomad visa (DNV) availability, internet quality, coworking density, time-zone overlap with major work hubs.
 
-**Snapshot**: April 2026.
+**Snapshot**: May 2026 (Tier-3 additions — 71 countries total).
 
 ## Universal contract
 
@@ -64,6 +64,7 @@ For the property's country, return:
 | **ZA** | Remote Work Visitor Visa | ZAR 1M/yr (~US$54k) from foreign employer | 3-yr | Launched May 2024; Govt Gazette 50714 |
 | **GE** | Remotely from Georgia | US$24k/yr OR US$2k/mo income | 360-day visa-free stay (most nationalities anyway) | Aug 2020; updated 2024 — informal in practice |
 | **MY** | DE Rantau Nomad Pass | MYR 24k/mo (~US$5k) | 3-mo to 12-mo (renewable 12-mo) | Launched Oct 2022 |
+| **KR** | Workation Visa (F-1-D) | ≥2× KR GNI per capita (~₩84M/yr 2026 — verify current GNI at HiKorea) | 1-yr renewable +1 | Launched Jan 2024; treaty-country nationals; not residency by itself |
 
 ### No specific DNV (use entrepreneur / business visa)
 
@@ -94,15 +95,26 @@ For the property's country, return:
 - **MA**: Carte de Séjour (long-stay, 1-yr renewable) for nomads with 3-mo+ stay; DNV proposed 2024
 - **EG**: tourist 30-90 days only; no formal DNV proposed yet
 
+**SG, HK, KR, TW, LI, MO, AD, MC, MD** — NO formal DNV as of May 2026:
+- **SG**: NO formal DNV; **ONE Pass (S$30k/mo)** + **Tech.Pass** are the practical high-skill remote routes; tourist 30-90 days; remote-work-on-tourist-status not formally blessed by ICA
+- **HK**: NO DNV; **Top Talent Pass / QMAS / IANG** are the routes for talent-class workers; tourist 90 days for many nationalities — verify with ImmD
+- **KR**: **Workation Visa (F-1-D)** launched Jan 2024 — 1-yr (extendable +1 yr) for remote workers earning ≥2× KR GNI per capita (~₩84M/yr in 2026 — verify current GNI); also **Hi-Korea Digital Nomad** track via H-1 / Smart Card Workation pilot — verify with HiKorea
+- **TW**: **Gold Card** (4-yr work + residency, no investment, high-skill applicants — 8 categories) is the practical DN-equivalent for qualifying skill-sets; standard visitor visa otherwise — verify with NIA / BOCA
+- **LI**: NO DNV; quota-based residency only (~28 EEA + ~17 third-country/year); short-stay via Schengen extension 2011 for ≤90 days
+- **MO**: NO DNV; tourist 30-90 days for many nationalities; Talent Programme 2024 NOT remote-work-targeted
+- **AD**: NO formal DNV; **Residència Passiva** (~€600k OR €350k + €50k AFA) used as remote-base by some nomads; passive ≥90d/yr / active ≥183d/yr
+- **MC**: NO DNV; carte de séjour (~€500k bank deposit) is the residency route; visitor 90 days for Schengen-eligible nationalities
+- **MD**: NO formal DNV as of 2026 (proposals raised 2023-2024 but not enacted as of May 2026); tourist 90 days visa-free for many; Investor Residency Law 200/2010 (€250k 5yr) is the practical longer-term route
+
 ## Internet quality (Apr 2026 best-available)
 
 Speedtest Global Index country medians (Apr 2026 snapshot — verify https://www.speedtest.net/global-index for current).
 
 ### Tier 1 — fixed median ≥150 Mbps + 5G ubiquitous
-🇸🇬 SG (not in skill yet) · 🇰🇷 KR (not in skill yet) · 🇺🇸 US · 🇨🇭 CH · 🇫🇷 FR · 🇪🇸 ES · 🇸🇪 SE · 🇩🇰 DK · 🇳🇱 NL · 🇳🇴 NO · 🇳🇿 NZ · 🇨🇦 CA · 🇦🇺 AU · 🇯🇵 JP (1Gbps fibre standard urban) · 🇦🇪 AE (Dubai/Abu Dhabi etisalat/du fibre)
+🇸🇬 SG (consistently top-3 globally on Speedtest fixed + mobile per Ookla 2024-2026) · 🇰🇷 KR (gigabit fiber norm, KT/SK/LG) · 🇺🇸 US · 🇨🇭 CH · 🇫🇷 FR · 🇪🇸 ES · 🇸🇪 SE · 🇩🇰 DK · 🇳🇱 NL · 🇳🇴 NO · 🇳🇿 NZ · 🇨🇦 CA · 🇦🇺 AU · 🇯🇵 JP (1Gbps fibre standard urban) · 🇦🇪 AE (Dubai/Abu Dhabi etisalat/du fibre) · 🇭🇰 HK (gigabit FTTH ubiquitous urban) · 🇹🇼 TW (gigabit FTTH norm, Chunghwa/Taiwan Mobile) · 🇲🇨 MC (Monaco Telecom 5G) · 🇲🇩 MD (gigabit fiber Moldtelecom + Orange MD + StarNet — one of the highest fiber-penetrations in Eastern Europe per Ookla 2024-2026)
 
 ### Tier 2 — fixed median 80-150 Mbps + 5G in cities
-🇩🇪 DE · 🇬🇧 UK · 🇮🇪 IE · 🇧🇪 BE · 🇮🇹 IT · 🇵🇹 PT · 🇪🇪 EE · 🇱🇹 LT · 🇱🇻 LV · 🇨🇿 CZ · 🇸🇰 SK · 🇫🇮 FI · 🇮🇸 IS · 🇱🇺 LU · 🇲🇹 MT · 🇹🇭 TH (Bangkok/Chiang Mai AIS/3BB) · 🇮🇱 IL (Bezeq/Hot fibre)
+🇩🇪 DE · 🇬🇧 UK · 🇮🇪 IE · 🇧🇪 BE · 🇮🇹 IT · 🇵🇹 PT · 🇪🇪 EE · 🇱🇹 LT · 🇱🇻 LV · 🇨🇿 CZ · 🇸🇰 SK · 🇫🇮 FI · 🇮🇸 IS · 🇱🇺 LU · 🇲🇹 MT · 🇹🇭 TH (Bangkok/Chiang Mai AIS/3BB) · 🇮🇱 IL (Bezeq/Hot fibre) · 🇲🇴 MO (CTM + MTel + Smartone fibre + 5G urban) · 🇦🇩 AD (4G/5G via Andorra Telecom state monopoly; fibre Vaduz-style coverage urban) · 🇱🇮 LI (FL1 + Telecom Liechtenstein gigabit, Vaduz)
 
 ### Tier 3 — fixed median 40-80 Mbps + 5G in capital
 🇨🇾 CY · 🇬🇷 GR · 🇵🇱 PL · 🇭🇺 HU · 🇸🇮 SI · 🇭🇷 HR · 🇧🇬 BG · 🇷🇴 RO · 🇦🇹 AT · 🇲🇽 MX (CDMX/Monterrey) · 🇧🇷 BR (SP/Rio) · 🇨🇷 CR (San José) · 🇵🇦 PA (Panama City) · 🇹🇷 TR (Istanbul/Ankara Türknet/Turkcell) · 🇲🇾 MY (KL TM Unifi) · 🇨🇱 CL (Santiago Movistar/VTR) · 🇨🇴 CO (Bogotá/Medellín Movistar) · 🇿🇦 ZA (Cape Town/JHB Vodacom/MTN fibre)
@@ -148,6 +160,15 @@ Speedtest Global Index country medians (Apr 2026 snapshot — verify https://www
 | Kuala Lumpur | MY | 50+ |
 | HCMC / Hanoi | VN | 40+ combined |
 | Manila / Cebu | PH | 30+ combined |
+| Singapore | SG | 100+ (WeWork, JustCo, The Working Capitol — among densest globally) |
+| Hong Kong | HK | 80+ (Central / Wan Chai / Causeway Bay — Cyberport + Naked Hub) |
+| Seoul | KR | 70+ (Gangnam / Hannam-dong / Pangyo — WeWork strong + FastFive + SparkPlus) |
+| Taipei | TW | 50+ (Da'an / Xinyi / Neihu — CLBC + The Hive + Fab Cafe) |
+| Macao | MO | 5-10 (small market; tourism + casino-economy dominant) |
+| Andorra la Vella | AD | 3-5 (small ecosystem; ski-season nomad uplift in Encamp/La Massana) |
+| Monaco | MC | 5-10 (boutique only; Riviera coworkers cross to Nice/Menton) |
+| Vaduz | LI | 1-3 (tiny market; CH cross-border to Buchs/Sargans common) |
+| Chișinău | MD | 10+ (growing ecosystem; iHUB + Castel Mimi-style + Generator co-led) |
 
 For property-DD purposes: a coworking space within 15-min walk is a strong Tier-1 nomad signal.
 
@@ -171,8 +192,10 @@ For remote work, time-zone overlap with the team is critical. Hours per day in o
 | TR | UTC+3 (perm., no DST since 2016) | 2 hrs | 6 hrs | 7 hrs |
 | GE, AE | UTC+4 | 1-2 hrs | 5 hrs | 6 hrs |
 | TH, VN, ID (Jakarta WIB) | UTC+7 | 0 hrs | 2 hrs | 3 hrs |
-| MY, PH, ID (Bali WITA UTC+8) | UTC+8 | -1 hrs | 1 hrs | 2 hrs |
-| JP | JST (UTC+9, no DST) | -2 hrs | 0 hrs | 1 hrs |
+| MY, PH, ID (Bali WITA UTC+8), SG, HK, TW, MO | UTC+8 | -1 hrs | 1 hrs | 2 hrs |
+| JP, KR | UTC+9 (JST/KST, no DST) | -2 hrs | 0 hrs | 1 hrs |
+| MD | EET (UTC+2, DST) | 3 hrs | 7 hrs | 8 hrs |
+| AD, MC, LI | CET (UTC+1, DST) | 4 hrs | 8 hrs | 9 hrs |
 | AU East | AEDT (+10/+11) | -2 hrs | -10 hrs | -8 hrs |
 | NZ | NZDT (+12/+13) | -4 hrs | -11 hrs | -10 hrs |
 
@@ -204,20 +227,29 @@ Standard rule across most skill-supported countries:
 - 🇿🇦 ZA: 183 days + continuous-91 test; worldwide-income basis once resident
 - 🇺🇸 US: substantial presence test + citizenship-based — see top of section
 - 🇯🇵 JP: 1 yr + "domicile" test → resident; foreign-source income exempted for first 5 yrs as "non-permanent resident" if not remitted to JP
+- 🇸🇬 SG: 183 days = resident; **foreign-source income generally NOT taxed** for individuals received in SG; CGT NONE; verify with IRAS
+- 🇭🇰 HK: territorial — only HK-source income taxable; no concept of worldwide PIT for individuals; physical-presence test for some Salaries Tax claims; verify with IRD
+- 🇰🇷 KR: 183 days = resident; worldwide income; **foreign-source exemption first 5 of 10 yrs** for newly-resident foreign workers (PIT Act Art. 18-2); verify with NTS
+- 🇹🇼 TW: 183 days = resident; **AMT regime** may apply on foreign-source >NT$7M; 6% surtax on certain investment income; verify with NTBT
+- 🇲🇴 MO: territorial — Macao Professional Tax on MO-source only; foreign-source income generally NOT taxed; verify with DSF
+- 🇦🇩 AD: 183 days OR centre of economic interest = resident; IRPF 0/5/10% lowest in Western Europe; verify with Departament de Tributs i Fronteres
+- 🇲🇨 MC: residency confers **NO PIT** (except French nationals via 1963 Convention); NO CGT — tax-residence is the principal draw
+- 🇱🇮 LI: 183 days OR habitual abode = resident; combined federal + commune ~2.5-22.4%; verify with Steuerverwaltung FL
+- 🇲🇩 MD: 183 days = resident; flat 12% PIT on worldwide income (one of lowest in Europe); verify with SFS
 
 ## Cost of living for nomad lifestyle (1-bedroom + restaurants + transit)
 
 ### Cheap (<€1,500/mo)
-🇦🇱 Tirana · 🇧🇦 Sarajevo · 🇲🇰 Skopje · 🇲🇪 Podgorica · 🇷🇸 Belgrade · 🇧🇬 Sofia · 🇷🇴 Bucharest · 🇲🇽 Mexico City (off-Polanco) · 🇦🇷 Buenos Aires (post-Milei) · 🇬🇪 Tbilisi · 🇪🇬 Cairo · 🇻🇳 HCMC / Hanoi · 🇵🇭 Manila / Cebu · 🇮🇩 Jakarta (off-Menteng) / Yogyakarta · 🇲🇦 Casablanca / Marrakech (off-Medina rentals) · 🇹🇭 Chiang Mai · 🇹🇷 Istanbul (post-2023 lira slide; verify in TRY at point of search) · 🇨🇴 Medellín / Bogotá · 🇩🇴 Santo Domingo (off-zona-colonial)
+🇦🇱 Tirana · 🇧🇦 Sarajevo · 🇲🇰 Skopje · 🇲🇪 Podgorica · 🇷🇸 Belgrade · 🇧🇬 Sofia · 🇷🇴 Bucharest · 🇲🇽 Mexico City (off-Polanco) · 🇦🇷 Buenos Aires (post-Milei) · 🇬🇪 Tbilisi · 🇪🇬 Cairo · 🇻🇳 HCMC / Hanoi · 🇵🇭 Manila / Cebu · 🇮🇩 Jakarta (off-Menteng) / Yogyakarta · 🇲🇦 Casablanca / Marrakech (off-Medina rentals) · 🇹🇭 Chiang Mai · 🇹🇷 Istanbul (post-2023 lira slide; verify in TRY at point of search) · 🇨🇴 Medellín / Bogotá · 🇩🇴 Santo Domingo (off-zona-colonial) · 🇲🇩 Chișinău (lowest COL in Europe — Numbeo 2024-2026)
 
 ### Mid (€1,500-2,500)
 🇵🇹 Porto / Setúbal · 🇪🇸 Valencia / Malaga · 🇮🇹 Bari / Catania · 🇬🇷 Athens · 🇨🇿 Brno · 🇭🇺 Budapest · 🇵🇱 Warsaw · 🇨🇷 San José · 🇵🇦 Panama City · 🇲🇽 Guadalajara · 🇲🇾 Kuala Lumpur · 🇹🇭 Bangkok · 🇮🇩 Bali (Canggu/Ubud) · 🇿🇦 Cape Town (off-Atlantic-seaboard) / JHB · 🇨🇱 Santiago · 🇺🇾 Montevideo
 
 ### Mid-high (€2,500-3,500)
-🇵🇹 Lisbon · 🇪🇸 Madrid / Barcelona · 🇮🇹 Milan / Rome · 🇩🇪 Berlin / Hamburg · 🇫🇷 Lyon · 🇳🇱 Rotterdam · 🇮🇪 Galway · 🇲🇹 Sliema · 🇨🇾 Limassol · 🇪🇪 Tallinn · 🇧🇷 São Paulo · 🇮🇱 Tel Aviv (off-center) · 🇯🇵 Tokyo (off-23-ku) / Osaka
+🇵🇹 Lisbon · 🇪🇸 Madrid / Barcelona · 🇮🇹 Milan / Rome · 🇩🇪 Berlin / Hamburg · 🇫🇷 Lyon · 🇳🇱 Rotterdam · 🇮🇪 Galway · 🇲🇹 Sliema · 🇨🇾 Limassol · 🇪🇪 Tallinn · 🇧🇷 São Paulo · 🇮🇱 Tel Aviv (off-center) · 🇯🇵 Tokyo (off-23-ku) / Osaka · 🇰🇷 Seoul (off-Gangnam) · 🇹🇼 Taipei (off-Da'an / Xinyi) · 🇲🇴 Macao (residential off-Cotai) · 🇦🇩 Andorra la Vella
 
 ### Expensive (€3,500+)
-🇨🇭 Zurich · 🇳🇴 Oslo · 🇮🇸 Reykjavik · 🇱🇺 Luxembourg · 🇬🇧 London · 🇮🇪 Dublin · 🇸🇪 Stockholm · 🇩🇰 Copenhagen · 🇨🇭 Geneva · 🇫🇷 Paris · 🇳🇱 Amsterdam · 🇩🇪 Munich · 🇨🇦 Toronto/Vancouver · 🇦🇺 Sydney/Melbourne · 🇳🇿 Auckland · 🇺🇸 NYC / SF / LA / Boston · 🇦🇪 Dubai (Marina/DIFC) · 🇮🇱 Tel Aviv (center) · 🇯🇵 Tokyo (central 23-ku premium)
+🇨🇭 Zurich · 🇳🇴 Oslo · 🇮🇸 Reykjavik · 🇱🇺 Luxembourg · 🇬🇧 London · 🇮🇪 Dublin · 🇸🇪 Stockholm · 🇩🇰 Copenhagen · 🇨🇭 Geneva · 🇫🇷 Paris · 🇳🇱 Amsterdam · 🇩🇪 Munich · 🇨🇦 Toronto/Vancouver · 🇦🇺 Sydney/Melbourne · 🇳🇿 Auckland · 🇺🇸 NYC / SF / LA / Boston · 🇦🇪 Dubai (Marina/DIFC) · 🇮🇱 Tel Aviv (center) · 🇯🇵 Tokyo (central 23-ku premium) · 🇸🇬 Singapore (consistently top-3 globally COL/rent — Numbeo 2024-2026) · 🇭🇰 Hong Kong (top-5 globally rent — Numbeo 2024-2026; lower than SG on housing per Knight Frank Q1 2025) · 🇲🇨 Monaco (Monte-Carlo — among the highest globally per Knight Frank Wealth Report) · 🇱🇮 Vaduz (CH-aligned, very high)
 
 ## Tax-treaty cross-references
 
@@ -238,6 +270,6 @@ For US citizens specifically: **citizenship-based taxation** means worldwide inc
 
 ## Status
 
-Last refreshed: 2026-05-01 (added Tier-1 + Tier-2 country coverage: US, TR, AE, JP, TH, DO, CO, UY, CL, ZA, GE, ID, MY, VN, PH, IL, MA, EG).
+Last refreshed: 2026-05-01 (Tier-3 additions — 71 countries total; Tier-3 added: SG, HK, KR, TW, LI, MO, AD, MC, MD).
 
-**Confidence**: MEDIUM — DNV thresholds and tax-residency cutoffs verified against destination immigration / tax authorities as of Apr 2026, but several reforms are in flight (TH 2024 foreign-source remittance change, JP DNV launched Apr 2024, ZA Remote-Work Visa launched May 2024, UY tax-holiday election, MY foreign-source exemption to 2036). Speedtest tier placements are urban-centric — rural fibre lags significantly in TH, ID, VN, PH, MA, EG, ZA, MX, BR. Always verify the **specific address** via `--mains` / `--amenities`. Cost-of-living tiers compress under FX volatility (TR especially) — bands are EUR-equivalent at ~Apr 2026 rates.
+**Confidence**: MEDIUM — DNV thresholds and tax-residency cutoffs verified against destination immigration / tax authorities as of May 2026, but several reforms are in flight (TH 2024 foreign-source remittance change, JP DNV launched Apr 2024, ZA Remote-Work Visa launched May 2024, KR Workation Visa launched Jan 2024, UY tax-holiday election, MY foreign-source exemption to 2036, HK CIES reactivated Mar 2024). Speedtest tier placements are urban-centric — rural fibre lags significantly in TH, ID, VN, PH, MA, EG, ZA, MX, BR; SG/HK/KR/TW/MD report exceptional fixed-line median speeds in their primary metros. Always verify the **specific address** via `--mains` / `--amenities`. Cost-of-living tiers compress under FX volatility (TR especially) — bands are EUR-equivalent at ~May 2026 rates.

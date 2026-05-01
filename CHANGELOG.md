@@ -54,6 +54,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 _(no entries yet — next mid-month corrections will accumulate here under `2026.05.1`, `2026.05.2`, …; the next `.0` (`2026.06.0`) will be auto-tagged at end of June by `auto-tag.yml`)_
 
+### Added
+
+- feat(countries): add Tier-3 — 9 🟢 EASY playbooks (SG, HK, KR, TW, LI, MO, AD, MC, MD) → 71 countries ([#69](https://github.com/soreavis/property-deep-dive/pull/69)) — by @soreavis
+
 ### Changed
 
 - chore(release): cut 2026.05.0 ([#67](https://github.com/soreavis/property-deep-dive/pull/67)) — by @soreavis

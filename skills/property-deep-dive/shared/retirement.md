@@ -2,7 +2,7 @@
 
 Retiree-specific filter overlay: pension taxation, healthcare access, climate, expat communities. Combines with `--all` or `--compare` to surface retirement-relevant facets.
 
-**Snapshot**: May 2026 (extended to 54 countries — Tier-1 + Tier-2 expansion).
+**Snapshot**: May 2026 (extended to 71 countries — Tier-1 + Tier-2 + Tier-3 expansion).
 
 ## Universal contract
 
@@ -55,6 +55,15 @@ For the property's country, return:
 | **UY** | **Tax residency** — 11-yr exemption on foreign-source interest+dividends (Ley 19.937); pension itself not exempt but progressive PIT modest; territorial-leaning | Investment OR 60-day physical presence routes |
 | **GE** | **Visa-free 1-year** for ~95 nationalities; territorial tax — foreign-source income not taxed | No formal retirement visa needed for most |
 | **EG** | **Investment Law 160/2023 PR route** — foreign-source pension generally not taxed by EG (territorial application varies) | USD 250k cash deposit → permanent residency |
+| **HK** | **Salaries Tax territorial — HK-source income only**; foreign pension generally NOT taxed; no global PIT regime | Tax residency by physical presence; pension articles in DTA network |
+| **SG** | **Foreign-source income generally NOT taxed** for individuals (received in SG); IRAS NOR scheme for qualifying tax-residents (~0% on certain inbound foreign income) | NOR replaced for new applicants 2020+ — verify with IRAS; resident PIT 0-22% progressive |
+| **MO** | **Macao Professional Tax territorial** — foreign pension NOT subject to MO PIT under territorial principle | DSF (Direcção dos Serviços de Finanças) — verify per-case |
+| **MC** | **NO personal income tax** (Monaco residents — except French nationals via 1963 Convention); NO CGT | Carte de séjour required; ~€500k bank deposit + property/rental practitioner standard (verify at Sûreté Publique) |
+| **AD** | **IRPF 0/5/10%** — lowest in Western Europe; foreign pension taxed at AD-resident progressive but max 10% | Tax residency 183d/yr or centre of economic interest (passive ≥90d/yr but tax-resident threshold higher — verify Departament de Tributs) |
+| **LI** | **Foreign-pension taxation** at LI personal-tax rates (combined federal + commune ~2.5-22.4% — among lowest CH-area); double-tax treaty with most OECD | Steuerverwaltung FL — verify per-case; quota-based residency makes program rare |
+| **MD** | **Worldwide income for residents** (>183 days); foreign pension taxable at flat 12% PIT (one of lowest in Europe); territorial-leaning for non-residents | SFS (Serviciul Fiscal de Stat) — verify; treaty network with major OECD |
+| **TW** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive 5-40%; **AMT regime** may apply on foreign-source >NT$7M; 6% surtax on certain investment income | NTBT (National Taxation Bureau) — verify with treaty article for pension |
+| **KR** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive 6-45%; foreign-source income exemption for first 5 of 10 yrs for "newly-resident" foreign workers (KR PIT Act Art. 18-2) | NTS (National Tax Service) — Naver/Kakao tax-blogs not authoritative; verify Art. 18-2 eligibility |
 
 ### Less favourable (foreign pension taxed at marginal/progressive)
 
@@ -108,6 +117,9 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 | NO | Excellent (HELFO) | English widely spoken |
 | IS | Excellent (state) | English widely spoken |
 | IE | Mixed (HSE waiting lists; private gap) | English |
+| LI | Excellent (KVG mandatory private — closely modelled on CH LAMal) | German required for admin; Swiss-system standard |
+| AD | Good (CASS mandatory) | Catalan/Spanish/French — admin multilingual; English limited in clinics |
+| MC | Excellent (CHPG state hospital + French-system network); Caisses Sociales de Monaco | French dominant; English in private clinics |
 
 ### Non-EU
 - **UK NHS**: free for residents; non-resident must pay or use private; post-Brexit S1 still available for some pre-2021 retirees
@@ -133,6 +145,15 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 - **IL**: Universal via 4 Sick Funds (Kupot Holim — Clalit, Maccabi, Meuhedet, Leumit); excellent quality; **Olim entitled from arrival**; English support varies
 - **MA**: AMO universal scheme being expanded (2024-2026 reform); expats use private (Cliniques Akdital, Cheikh Zaid); French-system standards
 - **EG**: New Universal Health Insurance (2018 law, phased rollout); expats use private (Cleopatra, As-Salam International); Cairo quality fair; **medivac for serious cases recommended**
+- **SG**: MediShield Life (universal for citizens/PRs) + MediSave/MediFund 3M structure; non-resident expats use private (Mount Elizabeth, Raffles, Gleneagles — JCI-accredited); among the highest-quality systems globally per WHO 2023 indicators; English universal in healthcare admin
+- **HK**: HA (Hospital Authority) public network — eligible-persons subsidy for HKID holders; expats commonly mix HA + private (Matilda, Hong Kong Adventist, Canossa); English universal; HKD-pegged-to-USD currency stability for retirees
+- **KR**: NHIS (National Health Insurance Service) universal — mandatory enrolment for foreign residents 6+ months; quality high (Samsung Medical, Asan, Severance JCI-accredited); **Korean dominant in admin** outside Itaewon/Gangnam English-medium clinics
+- **TW**: NHI (National Health Insurance) universal — mandatory enrolment for ARC/APRC holders after 6 months; consistently top-ranked globally on accessibility/cost (NHIA reports); English in major Taipei hospitals (NTUH, Taipei Medical, Cathay General); Chinese dominant elsewhere
+- **MO**: SSM (Serviços de Saúde de Macau) public + Hong Kong-style private gap-cover common; resident card holders entitled; Cantonese + Portuguese dominant; English in tourism-zone clinics only
+- **AD**: CASS (Caixa Andorrana de Seguretat Social) — mandatory for residents; covers Andorran network + cross-border to FR/ES per agreement; private gap-cover common; Catalan/Spanish admin
+- **MC**: Caisses Sociales de Monaco for residents/employees; CHPG (Centre Hospitalier Princesse Grace) state hospital; cross-border to FR/IT for specialised cases; private clinics English-friendly
+- **LI**: KVG-equivalent compulsory health insurance (Krankenversicherung) — closely modelled on CH LAMal; Vaduz hospital + cross-border to CH (St. Gallen, Zurich) standard; German-system standard
+- **MD**: CNAM (Compania Națională de Asigurări în Medicină) mandatory; expats commonly use private (Medpark, Repromed); **emigration of medical staff to RO/EU is structural concern**; Romanian + Russian dominant
 
 ## Climate suitability for retirement
 
@@ -151,6 +172,15 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 12. **MX (already listed)** — verify
 13. **US (FL/AZ/TX/CA-S)** — 15-25°C winter; FL hurricane season + AZ extreme summer heat trade-offs
 
+### Subtropical / temperate Asian
+- **HK**: Humid subtropical 14-19°C winter, 28-33°C humid summer (Jun-Sep); typhoon season Jul-Oct; Article 23 (Mar 2024) sentiment factor for some retirees
+- **SG**: Equatorial 24-32°C year-round; minimal seasonal variation; very high humidity; Changi best-in-world airport for medical travel
+- **TW**: Tropical-subtropical; Taipei 14-20°C winter, 28-32°C summer; **2024 Hualien M7.4 earthquake** material to seismic disclosure
+- **MO**: Humid subtropical 14-20°C winter, 28-32°C summer; typhoon season; **post-Hato 2017 storm-surge resilience reforms** (verify with DSAMA)
+
+### Cold-continental / Eastern Europe
+- **MD**: Cold continental — Chișinău -3 to +1°C winter, 22-28°C summer; lowest COL in Europe
+
 ### Tropical / hot year-round
 - **TH (Phuket, Chiang Mai, Hua Hin)** — 22-32°C; Chiang Mai cool-season Nov-Feb; **PM2.5 burning season Feb-Apr severe in N**
 - **PH (Cebu, Bohol, Davao)** — 25-32°C; typhoon season Jun-Nov (Davao less typhoon-exposed)
@@ -165,6 +195,10 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 - **JP (Tokyo, Osaka, Fukuoka)** — 5-10°C winter; humid summers; well-heated indoors
 - **GE (Tbilisi)** — 2-7°C winter, 25-30°C summer; continental
 - **IL (Tel Aviv, Jerusalem, Haifa)** — 10-18°C winter; hot dry summers
+- **KR (Seoul, Busan, Jeju)** — Seoul -5 to +3°C winter, 26-31°C humid summer; Jeju milder
+- **AD (Encamp, La Massana, Andorra la Vella)** — alpine 0-8°C winter, 18-25°C summer; ski-season Dec-Apr
+- **LI (Vaduz, Schaan)** — alpine 0-5°C winter, 18-24°C summer; CH-aligned climate
+- **MC (Monte-Carlo, La Condamine, Fontvieille)** — Mediterranean 8-15°C winter, 24-29°C summer; among the mildest in Europe
 
 ### Cold but stable, indoor-life-friendly
 1. **DE, AT, CH, FR, BE, NL, LU, IE, UK, DK, SE, FI, NO, IS** — heating-cost concern; northern long darkness
@@ -215,6 +249,15 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 - 🇪🇬 EG (Hurghada, El Gouna, Sahel) — RU/UA/DE/UK retirees; **currency volatility risk material**
 - 🇦🇪 AE (Dubai marinas, Abu Dhabi) — UK/IN/RU/EU; new Retirement Visa post-2018
 - 🇯🇵 JP (Tokyo, Yokohama, Fukuoka) — small but established US/UK; **no formal retirement visa**, HSP/Investor route only
+- 🇸🇬 SG — small high-income retiree community; no retirement visa via property; LTSV (Long-Term Social Visit Pass) for parents of EP holders is the practical retiree pathway
+- 🇭🇰 HK — moderate UK/AU/CA professional-retiree community; **CIES reactivated Mar 2024** (HK$30M + ≤HK$10M residential) opens an investment-track route again
+- 🇰🇷 KR (Itaewon/Hannam-dong/Pangyo) — small US/EU/JP retiree community; **F-2 Investor (₩600M 5yr) → F-5 PR** is the route; F-4 for Korean diaspora
+- 🇹🇼 TW (Tianmu/Da'an/Xinyi/Neihu) — moderate US/JP/EU retiree presence; **Gold Card** 4-yr work + residency (no investment) for high-skill applicants → APRC after 5yr
+- 🇲🇴 MO — very small expat retiree community (heavily Cantonese/Portuguese); investment-residence SUSPENDED since 2007; Talent Programme 2024 NOT property-linked
+- 🇦🇩 AD — moderate ES/FR/PT retiree community (~75% non-Andorran population); **Residència Activa/Passiva ~€600k** OR €350k + €50k AFA the route
+- 🇲🇨 MC — small ultra-high-net-worth international retiree community (~38k pop, ~70% non-Monégasque); **carte temporaire 1yr → ordinaire 3yr → privilégiée 10yr** with ~€500k bank deposit + property/rental practitioner
+- 🇱🇮 LI — very small (quota-based residency: ~28 EEA + ~17 third-country/year); CH-integrated retiree practice; **Personal Residence Programme** rare petition only
+- 🇲🇩 MD (Chișinău) — small expat retiree community; **Romanian-citizenship-by-descent** is the practical EU-passport path for many MD residents (one of the cheapest EU-adjacent retirement bases by COL)
 
 ### Limited / language-barrier
 - 🇩🇪🇦🇹🇨🇭 DE/AT/CH inland: German required for admin
@@ -229,11 +272,11 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 
 | Tier | Countries |
 |---|---|
-| **Cheap** | AL, BA, RS, MK, ME, BG, RO, HU, GE, EG, VN, PH, ID, MA |
+| **Cheap** | AL, BA, RS, MK, ME, BG, RO, HU, GE, EG, VN, PH, ID, MA, **MD** |
 | **Mid-low** | PL, CZ, SK, GR, PT, ES (interior), IT (S), CR, PA, MX, TR, TH (provincial), CO, DO, ZA |
-| **Mid** | ES (coast), PT (Lisbon/Algarve), IT (TC/Umbria), HR, CY, MT, EE, LV, LT, MY (KL/Penang), TH (Bangkok/Phuket), CL, UY |
-| **Mid-high** | FR, DE, AT, NL, BE, IE, UK, FI, SE, DK, JP (regional), IL (peripheral), AE (mid-tier emirate) |
-| **Expensive** | CH, NO, IS, LU, US (NYC/SF/Boston), JP (Tokyo central), IL (Tel Aviv), AE (Dubai prime) |
+| **Mid** | ES (coast), PT (Lisbon/Algarve), IT (TC/Umbria), HR, CY, MT, EE, LV, LT, MY (KL/Penang), TH (Bangkok/Phuket), CL, UY, **TW (Taipei prime)** |
+| **Mid-high** | FR, DE, AT, NL, BE, IE, UK, FI, SE, DK, JP (regional), IL (peripheral), AE (mid-tier emirate), **KR (Seoul prime)**, **AD**, **MO** |
+| **Expensive** | CH, NO, IS, LU, US (NYC/SF/Boston), JP (Tokyo central), IL (Tel Aviv), AE (Dubai prime), **SG**, **HK**, **MC**, **LI** |
 
 ## Special retirement programs
 
@@ -262,6 +305,15 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 | EG | **Investment Law 160/2023 PR** | USD 250k cash deposit → permanent residency; verify currency-control / Form 4 risks |
 | US | None federal; state-level | No US retirement visa for non-citizens (immigration via family/EB-5/marriage); domestic retirees: TX/FL/TN/NV/WA/SD/WY/AK no state income tax |
 | JP | None retirement-specific | Highly Skilled Professional / Investor / Spouse routes; no pensioner-class visa |
+| SG | None retirement-specific | LTSV (Long-Term Social Visit Pass for parent of EP/PR holder); GIP (S$10M business / S$25M family-office / S$200M-SFO via EDB) |
+| HK | **CIES reactivated Mar 2024** | HK$30M total investment + up to HK$10M residential (Investments Office, ImmD); also QMAS / Top Talent Pass / IANG |
+| KR | **F-2 Investor 5yr / F-5 PR** | ₩600M investment via designated business; F-4 for Korean diaspora; no property-only retirement track |
+| TW | **Gold Card / Plum Blossom long-stay** | Gold Card 4-yr work+residency (no investment, high-skill); APRC after 5yr; no formal retirement visa |
+| MO | **Investment Residence SUSPENDED since 2007** | Talent Programme 2024 NOT property-linked; verify with IPIM |
+| AD | **Residència Passiva / Activa** | ~€600k investment OR €350k + €50k AFA deposit; passive ≥90d/yr / active ≥183d/yr; CASS social-security mandatory; 20yr to naturalisation |
+| MC | **Carte temporaire → ordinaire → privilégiée** | ~€500k bank deposit + property purchase or rental practitioner; ~38k pop; NO PIT (except FR via 1963 Convention); NO CGT |
+| LI | **Quota-based** | ~28 EEA + ~17 third-country/year via lottery; Personal Residence Programme rare petition; CH-integrated practice |
+| MD | **Investor Residency Law 200/2010** | €250k 5yr investment → naturalisation eligibility 8yr; CBI ENDED via Law 100/2020; **no formal Digital Nomad Visa as of 2026** |
 
 ## Decision framework for retirees
 
@@ -429,6 +481,71 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 - **Expat density**: RU/UA/DE/UK retirees; Hurghada, El Gouna, Sahel; **EGP currency volatility risk material** (post-2024 devaluations)
 - **Visa**: **Investment Law 160/2023 PR** — USD 250k cash → permanent residency; verify currency-control / Form 4 repatriation risks before committing
 
+## Tier-3 country profiles (added 2026-05-01)
+
+### 🇸🇬 SG
+- **Pension tax**: Foreign-source income generally NOT taxed for individuals received in SG (verify with IRAS); resident PIT 0-22% progressive on SG-source; CGT NONE
+- **Healthcare**: MediShield Life universal for citizens/PRs; non-resident expats use private (Mount Elizabeth, Raffles, Gleneagles — JCI-accredited); among highest-quality globally per WHO 2023 indicators; English universal
+- **Climate**: Equatorial 24-32°C year-round; minimal seasonal variation; very high humidity; Changi best-in-world airport for medical travel
+- **Expat density**: Small high-income retiree community; cosmopolitan; English-medium pervasive
+- **Visa**: **No retirement visa via property**; GIP (S$10M business / S$25M family-office / S$200M-SFO via EDB); ONE Pass (S$30k/mo); LTSV for parents of EP holders; GST 9% from Jan 2024 — see `visa-programs.md`
+
+### 🇭🇰 HK
+- **Pension tax**: Salaries Tax territorial — HK-source only (max 17% progressive or 15% standard); **foreign pension generally not taxed**; Property Tax 15% on rental income; HKD pegged to USD via LERS 7.75-7.85 (HKMA Convertibility Undertaking)
+- **Healthcare**: HA public network — eligible-persons subsidy for HKID holders; expats commonly mix HA + private (Matilda, Hong Kong Adventist, Canossa); English universal
+- **Climate**: Humid subtropical 14-19°C winter, 28-33°C humid summer (Jun-Sep); typhoon season Jul-Oct
+- **Expat density**: Moderate UK/AU/CA professional-retiree community; partial post-2020 outflow, partial recovery 2023-2026
+- **Visa**: **CIES reactivated Mar 2024** — HK$30M total investment + up to HK$10M residential (Investments Office); also QMAS / Top Talent Pass / IANG; **Article 23 (Mar 2024) sentiment factor** for some retirees — see `visa-programs.md`
+
+### 🇰🇷 KR
+- **Pension tax**: Worldwide for residents (>183 days); progressive 6-45%; CGT 6-45% separate + multi-home top rate up to 75%; **foreign-source income exemption first 5 of 10 yrs** for newly-resident foreign workers (PIT Act Art. 18-2)
+- **Healthcare**: NHIS universal — mandatory enrolment for foreign residents 6+ months; quality high (Samsung Medical, Asan, Severance — JCI-accredited); **Korean dominant in admin** outside Itaewon/Gangnam English-medium clinics
+- **Climate**: Cold continental — Seoul -5 to +3°C winter, 26-31°C humid summer; Jeju milder; aging society
+- **Expat density**: Small US/EU/JP retiree community; clusters Itaewon/Hannam-dong/Pangyo; **gigabit fiber norm** (KT/SK/LG); Naver Maps + Kakao Maps
+- **Visa**: **F-2 Investor (₩600M, 5yr) → F-5 PR**; F-4 for Korean diaspora; no property-only retirement track; **jeonse system** unique rental-deposit risk for renters (post-2022 HUG fraud-crisis reforms)
+
+### 🇹🇼 TW
+- **Pension tax**: Worldwide for residents (>183 days); progressive 5-40%; **AMT regime** may apply on foreign-source >NT$7M; 6% surtax on certain investment income — verify with NTBT
+- **Healthcare**: NHI universal — mandatory enrolment for ARC/APRC holders after 6 months; consistently top-ranked globally on accessibility/cost (NHIA reports); English in major Taipei hospitals (NTUH, Taipei Medical, Cathay General)
+- **Climate**: Tropical-subtropical; Taipei 14-20°C winter, 28-32°C summer; **2024 Hualien M7.4 earthquake** material to seismic disclosure; aging society
+- **Expat density**: Moderate US/JP/EU retiree presence; clusters Tianmu/Da'an/Xinyi/Neihu; gigabit FTTH norm (Chunghwa, Taiwan Mobile); HSR + Taipei MRT
+- **Visa**: **No retirement visa via property**; **Gold Card** 4-yr work+residency (no investment, high-skill route); Plum Blossom long-stay; **APRC after 5yr** — see `visa-programs.md`
+
+### 🇲🇴 MO
+- **Pension tax**: Macao Professional Tax territorial — foreign pension NOT subject to MO PIT; verify with DSF
+- **Healthcare**: SSM (Serviços de Saúde de Macau) public + Hong Kong-style private gap-cover common; resident card holders entitled; Cantonese + Portuguese dominant; English in tourism-zone clinics
+- **Climate**: Humid subtropical 14-20°C winter, 28-32°C summer; typhoon season; **post-Hato 2017 storm-surge resilience reforms**
+- **Expat density**: Very small expat retiree community; ~673k pop; Cantonese + Portuguese co-official + English in tourism; gaming ~50% GDP (concessões 2022 renewed 10yr)
+- **Visa**: **Investment Residence SUSPENDED since 2007**; Talent Programme 2024 NOT property-linked; MOP-HKD-USD double peg — verify with IPIM
+
+### 🇦🇩 AD
+- **Pension tax**: IRPF 0/5/10% — **lowest in Western Europe**; foreign pension taxed at AD-resident progressive but max 10%; CASS social-security mandatory
+- **Healthcare**: CASS mandatory for residents; covers AD network + cross-border to FR/ES per agreement; private gap-cover common; Catalan/Spanish/French admin
+- **Climate**: Alpine 0-8°C winter, 18-25°C summer; ski-season Dec-Apr; high mountain isolation
+- **Expat density**: Moderate ES/FR/PT retiree community (~75% non-Andorran of ~85k pop); 4G/5G via Andorra Telecom (state monopoly); EUR via Monetary Treaty 2011 (not Eurozone)
+- **Visa**: **Residència Passiva ~€600k** OR €350k + €50k AFA; passive ≥90d/yr / active ≥183d/yr; CASS mandatory; **20yr to naturalisation**; **STR Llei 26/2024 + parish quotas** (verify per parròquia)
+
+### 🇲🇨 MC
+- **Pension tax**: **NO personal income tax** (except French nationals via 1963 Convention); **NO CGT**; tax-residence is the principal draw
+- **Healthcare**: Caisses Sociales de Monaco for residents/employees; CHPG state hospital; cross-border to FR/IT for specialised cases; private clinics English-friendly
+- **Climate**: Mediterranean 8-15°C winter, 24-29°C summer; among the mildest in Europe; **sea-level rise concern** (Plan Bleu / Plan Climat)
+- **Expat density**: Small ultra-high-net-worth international retiree community (~38k pop, ~70% non-Monégasque); French official + English/Italian common; very high COL (highest globally per Numbeo / Knight Frank wealth indices)
+- **Visa**: **Carte temporaire 1yr → ordinaire 3yr → privilégiée 10yr**; ~€500k bank deposit + property purchase or rental practitioner — verify with Sûreté Publique
+
+### 🇱🇮 LI
+- **Pension tax**: Foreign pension at LI personal-tax rates (combined federal + commune ~2.5-22.4% — among lowest CH-area); double-tax treaty with most OECD; CHF currency union with CH
+- **Healthcare**: KVG-equivalent compulsory health insurance — closely modelled on CH LAMal; Vaduz hospital + cross-border to CH (St. Gallen, Zurich) standard; German-system standard
+- **Climate**: Alpine 0-5°C winter, 18-24°C summer; CH-aligned climate
+- **Expat density**: Very small (~40k pop, quota-based residency: ~28 EEA + ~17 third-country/year by lottery); German official; very high COL; **OECD top GDP/capita**; Vaduz capital ~5,800
+- **Visa**: **NO investment-track residency**; quota-based lottery; **Personal Residence Programme rare petition only**; **Schengen via 2011 extension**; verify with Ausländer- und Passamt
+
+### 🇲🇩 MD
+- **Pension tax**: Worldwide for residents (>183 days); foreign pension at flat 12% PIT (one of lowest in Europe); territorial-leaning for non-residents; verify with SFS
+- **Healthcare**: CNAM mandatory; expats commonly use private (Medpark, Repromed); **medical-staff emigration to RO/EU is structural concern**; Romanian + Russian dominant
+- **Climate**: Cold continental — Chișinău -3 to +1°C winter, 22-28°C summer; **lowest COL in Europe**
+- **Expat density**: Small expat retiree community; ~2.5M pop (excl. Transnistria); Romanian official + Russian widely spoken; gigabit fiber Moldtelecom + Orange MD + StarNet (one of fastest fiber penetrations in Eastern Europe); **EU candidate Jun 2022**; NO Schengen
+- **Visa**: **Investor Residency Law 200/2010** — €250k 5yr → naturalisation eligibility 8yr; **CBI ENDED via Law 100/2020**; **no formal Digital Nomad Visa as of 2026**; **Romanian-citizenship-by-descent → EU passport path** for many MD residents; Transnistria scope excluded
+
 ## Anti-hallucination
 
 - **Pension tax regimes change** — IT 7%, GR 7%, PT NHR all reformed in 2023-2024 cycle; **TH 2024 remittance reform** materially changes LTR economics; **CL 2023 Isapres ruling** reshaping retiree healthcare premiums; **MY MM2H** retiered multiple times since 2021. Always verify with home + host-country tax adviser.
@@ -440,5 +557,5 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-1 + Tier-2 expansion to 18 new countries).
-**Confidence**: MEDIUM — high-level regimes and visa names are sourced from current law where named (e.g., IL Amendment 168, MA Art. 76 CGI, Ley 19.937 UY, FDL 47/2022 AE, DL 824 CL); specific thresholds (e.g., AED 1M, ZAR 37,000/mo, COP 3× SMLMV, USD 80k/yr LTR) should be re-verified at issuing authority before user action since visa thresholds drift on 12-24 month cadence.
+Last refreshed: 2026-05-01 (Tier-1 + Tier-2 + Tier-3 expansion — 71 countries total; Tier-3 added: SG, HK, KR, TW, LI, MO, AD, MC, MD).
+**Confidence**: MEDIUM — high-level regimes and visa names are sourced from current law where named (e.g., IL Amendment 168, MA Art. 76 CGI, Ley 19.937 UY, FDL 47/2022 AE, DL 824 CL, KR PIT Act Art. 18-2, MD Law 200/2010, HK CIES Mar 2024); specific thresholds (e.g., AED 1M, ZAR 37,000/mo, COP 3× SMLMV, USD 80k/yr LTR, HK$30M CIES, ₩600M F-2, AD ~€600k, MC ~€500k, MD €250k) should be re-verified at issuing authority before user action since visa thresholds drift on 12-24 month cadence.

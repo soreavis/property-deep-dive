@@ -1,8 +1,8 @@
 # Universal `--compare` Mode
 
-Side-by-side multi-country comparison for relocation, investment, and "where should I move/buy?" decisions. Leverages all 62 country playbooks at once.
+Side-by-side multi-country comparison for relocation, investment, and "where should I move/buy?" decisions. Leverages all 71 country playbooks at once.
 
-**Snapshot**: April 2026.
+**Snapshot**: May 2026 (Tier-3 additions).
 
 ## When to use
 
@@ -102,7 +102,7 @@ For each country in the comparison set, return:
 | Shortcut | Resolves to |
 |---|---|
 | `eu` | All 27 EU members in skill |
-| `eea` | EU + IS, NO, LI (when populated) |
+| `eea` | EU + IS, NO, LI |
 | `eurozone` | All 21 eurozone members |
 | `western-balkans` | RS, ME, BA, MK, AL |
 | `latam` | MX, BR, AR, CR, PA, DO, CO, UY, CL |
@@ -112,7 +112,10 @@ For each country in the comparison set, return:
 | `dach` | DE, AT, CH |
 | `gcc-mena` | AE, IL, MA, EG, TR |
 | `southeast-asia` | TH, ID, MY, VN, PH, JP |
+| `east-asia` | JP, KR, TW, HK, MO, SG |
+| `microstates` | LI, MC, AD, MT, MO, SG (city-state) |
 | `caucasus-eu-adjacent` | GE, TR |
+| `eu-candidate` | MD, ME, RS, BA, MK, AL (Western Balkans + Moldova) |
 | `top-10-foreign-buyer-friendly` | precomputed list (see below) |
 
 ## Precomputed verdict shortcuts (Apr 2026 snapshot)
@@ -128,6 +131,9 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 6. GE (open, registration <1 day, no permit)
 7. US (open, ITIN/SSN only; FIRPTA on resale)
 8. TR (open subject to reciprocity + military-zone clearance)
+9. KR (open to most foreigners; Foreigner's Land Acquisition Act notification only)
+10. TW (open subject to reciprocity per BOCA list — verify nationality eligibility)
+11. MD (open, foreigners can own buildings + non-agricultural land freely)
 
 ### Highest acquisition friction (permit / restriction-heavy)
 1. CA (foreign-buyer ban through 1 Jan 2027)
@@ -141,6 +147,13 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 9. DK (non-EU + 5y residence requirement)
 10. AE (foreign ownership restricted to designated freehold zones)
 11. EG (max 2 properties × 4,000 m² total; Sinai/Suez excluded)
+12. SG (foreign Restricted Residential Property Act — foreigners barred from landed homes; condo-style strata only without SLA approval; ABSD 60% non-resident)
+13. HK (open but **BSD 15% + AVD up to 4.25%** non-PR surcharges; verified via IRD post-2024 cooling-measure rollback partial — verify per IRD)
+14. MO (open but post-2007 Investment Residence suspended — no residence pathway via property; foreign buyer pool thin)
+15. LI (Lex Koller-equivalent + EEA-only freehold; quota residency limits buyer pool)
+16. MC (open but Sûreté Publique residence verification + €500k bank deposit gates qualifying buyer pool)
+17. AD (open since 2012 reform; foreigners must register at Govern d'Andorra; **STR Llei 26/2024 + parish quotas** narrow short-let economics)
+18. TW (reciprocity-list-based; nationality determines eligibility — verify BOCA list)
 
 ### Lowest acquisition cost (% of price)
 1. GE (~0.1-0.5% — lowest tracked globally; Public Service Hall registration GEL 50-200)
@@ -152,6 +165,8 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 7. CL (~3-4% notarial + Conservador de Bienes Raíces)
 8. VN (~3-5% registration + notary)
 9. US (~3-6% varies by state — CA escrow vs NY mansion-tax extremes)
+10. MD (~2-4% — 1% notary + 0.5% State Registration Chamber + agent + ~5% only on > 500k MDL register-value transactions; verify CCRF)
+11. AD (~3-5% — ITP 4% + notari + Govern registration; STR-zoned higher)
 
 ### Highest acquisition cost (% of price)
 1. ID (~17-19% combined BPHTB 5% + PPh 2.5% + PPN 11% on new-build via PMA)
@@ -168,6 +183,12 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 12. AE (~6-8% — DLD 4% + agent + NOC + housing-fee 5% annual)
 13. TR (~6-8% — 4% tapu + notary + agent)
 14. JP (~6-7% — registration + acquisition tax + agent up to 3% + 6万円)
+15. SG (BSD 1-6% + ABSD 60% non-resident + agent + legal — non-resident total can reach **65-70%+** vs ~3-7% citizen)
+16. HK (AVD up to 4.25% + BSD 15% non-PR + Special Stamp Duty if <3 yrs — non-PR surcharges material; partial cooling-measure rollback Oct 2023-2024 — verify IRD)
+17. KR (~6-8% — acquisition tax 1-3% sliding by price + 0.2% local + agent ~0.4-0.9% + reg fee 0.6-1.5%)
+18. TW (~6-8% — deed tax 6% + agent 1-2% + reg + Land Value Increment Tax buyer-side rare)
+19. MC (~10-12% — 4.5% droits d'enregistrement + notary 1.5% + agent 3% + 20% TVA on agent fee — verify Direction des Services Fiscaux)
+20. LI (~5-7% — Handänderungssteuer ~2% + commune + Grundbuchamt registration; CH-aligned)
 
 ### Lowest annual carry (no/minimal annual property tax)
 1. MT (no annual property tax)
@@ -179,6 +200,9 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 7. IE (LPT modest, 0.0906% base rate)
 8. LT (NTM exemption ≤€150k for residents)
 9. DO (1% IPI only on portion above DOP 9.86M, ~USD 165k)
+10. MC (no annual property tax for owner-occupiers; small registration fees only)
+11. MO (no annual property tax for residential; rental income subject to Property Tax 6-10% on rental net only)
+12. SG (Property Tax 0-32% progressive on Annual Value, owner-occupied 0-23% — modest effective % vs price for owner-occupiers; non-residential and investment higher)
 
 ### Highest annual carry
 1. FR (taxe foncière + redevance audiovisuelle, dependent on commune)
@@ -190,6 +214,9 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 7. DK (boligskat 2024-reform unified ejendomsværdiskat + grundskyld)
 8. UY (Contribución Inmobiliaria 0.25-1.4% + ITP 2% on transactions)
 9. CL (Contribuciones ~0.98% above UF 49.5M exemption)
+10. KR (재산세 jaesanse 0.1-0.4% + comprehensive real estate tax 종부세 0.5-5% on multi-home owners — among most progressive regimes globally; verify NTS)
+11. TW (House Tax 1.5-3.6% by use + Land Value Tax 1-5.5% — verify County Government)
+12. HK (Rates ~5% on Rateable Value urban + Property Tax 15% on rental income for owners)
 
 ### Most stable currency / lowest FX risk for €-buyers
 1. **Eurozone** (21 countries — no FX risk)
@@ -197,6 +224,12 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 3. HR (joined 2023)
 4. DK (DKK ERM-II ±2.25%)
 5. BA (currency board 1.95583)
+6. **MC** (EUR via Monetary Treaty — no FX risk)
+7. **AD** (EUR via Monetary Treaty 2011 — no FX risk; not Eurozone-member)
+8. **LI** (CHF currency union with CH — stable but EUR-CHF cycle exposure)
+9. **HK** (HKD pegged to USD via LERS 7.75-7.85, HKMA Convertibility Undertaking — stable vs USD; EUR-HKD exposure via USD/EUR)
+10. **MO** (MOP-HKD-USD double peg — same USD/EUR exposure layered through HKD)
+11. **SG** (SGD MAS-managed-float against undisclosed basket — among the most stable EM currencies; modest EUR/SGD volatility)
 
 ### Highest FX risk for €-buyers
 1. AR (managed band 1,000–1,400 ARS/USD; capital controls history)
@@ -210,6 +243,9 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 9. UK (GBP political-uncertainty premium)
 10. CH (CHF safe-haven appreciation 2024-26 — actually a *gain* for buyers but unhedged exit risk)
 11. AE (AED pegged to USD 3.6725 — stable vs USD, but EUR-buyers carry USD/EUR risk)
+12. KR (KRW free-float; USD/KRW range 1,200-1,450 typical 2023-2026; EUR exposure layered)
+13. TW (TWD managed-float CBC; USD/TWD ~30-33 typical 2023-2026)
+14. MD (MDL float, NBM-managed; gradual depreciation trend; one of the smaller emerging-market currencies in Europe)
 
 ### Most golden-visa-friendly (Apr 2026, post-ES/IE/MT closures)
 1. GR (€800k/€400k tiers, property-linked)
@@ -229,6 +265,13 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 15. CO Migratorio M (350× SMLMV ~USD 100k+ property route)
 16. UY (no formal RBI; tax-residency 11-yr exemption is the actual draw)
 17. CL (no formal RBI; investor-visa via Sociedad)
+18. **HK CIES reactivated Mar 2024** — HK$30M total + ≤HK$10M residential (Investments Office, ImmD)
+19. **AD Residència Passiva** — ~€600k OR €350k + €50k AFA deposit (passive ≥90d/yr)
+20. **MC carte de séjour** — ~€500k bank deposit + property/rental practitioner (Sûreté Publique)
+21. **MD Investor Residency Law 200/2010** — €250k 5yr → naturalisation eligibility 8yr; CBI ENDED via Law 100/2020
+22. **KR F-2 Investor** — ₩600M property/business via designated route, 5yr → F-5 PR
+23. **TW Gold Card** — no investment, high-skill 8-category route, 4-yr work + residency → APRC 5yr
+24. SG / MO / LI — **NO golden-visa via real estate**; SG via GIP (S$10M/S$25M/S$200M), MO Investment Residence SUSPENDED since 2007, LI quota-only
 
 ### Cleanest 2026 tax reforms (helpful for buyers)
 1. CY (Comprehensive Tax Reform 1 Jan 2026 — CGT exemptions raised, SDC abolished)
@@ -281,6 +324,15 @@ When comparing, surface country-level structural flags:
 - 🚩 CL: PE/BO/AR border 10-km restriction (Decree 1939/1977 + DL 1.939); foreigners need presidential authorisation
 - 🚩 US: FIRPTA — non-resident sellers face 15% withholding on gross sale price (not gain) at closing; refund via 1040-NR
 - 🚩 US: state-by-state divergence is the dominant variable — TX no income tax + 2.5% property tax vs CA 1% Prop-13 cap + 13.3% income tax
+- 🚩 SG: **ABSD (Additional Buyer's Stamp Duty) 60% non-resident** — among the highest globally; foreigners barred from landed homes (Restricted Residential Property Act); strata/condo only without SLA approval — verify with IRAS
+- 🚩 HK: **BSD 15% non-PR + AVD up to 4.25%** + Special Stamp Duty if <3 yrs — partial cooling-measure rollback Oct 2023-2024 (verify per IRD); Article 23 (NSL) Mar 2024 sentiment factor for some buyers
+- 🚩 KR: **jeonse rental-deposit system** unique risk (post-2022 HUG fraud-crisis reforms); comprehensive real estate tax 종부세 0.5-5% on multi-home owners — among most progressive globally
+- 🚩 TW: 2024 Hualien M7.4 earthquake — seismic disclosure increasingly priced in; reciprocity-list-based foreign-buyer eligibility (verify BOCA list)
+- 🚩 MO: Investment Residence SUSPENDED since 2007 — no residency pathway via property; tourism + casino-economy ~50% GDP creates high cyclicality; concessões 2022 renewed 10yr
+- 🚩 AD: **Llei 26/2024** STR regulation + parish quotas narrow short-let economics; **20yr to naturalisation** (longest in Western Europe); CASS social-security mandatory for residents
+- 🚩 MC: residence pathway requires Sûreté Publique due-diligence + ~€500k bank deposit + property purchase or rental practitioner; **NO PIT** is the principal draw (except FR nationals via 1963 Convention)
+- 🚩 LI: quota-based residency (~28 EEA + ~17 third-country/year by lottery) — Lex-Koller-equivalent narrows buyer pool; Personal Residence Programme rare petition only
+- 🚩 MD: **Transnistria scope excluded** from any due-diligence on titles east of Dniester; CBI ENDED via Law 100/2020; Investor Residency Law 200/2010 (€250k) is the practical track; Romanian-citizenship-by-descent → EU passport path commonly used in parallel
 
 ## Anti-hallucination
 
@@ -365,6 +417,87 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 
 **Confidence**: MEDIUM — GE political stability and visa-program continuity carry higher-than-EU uncertainty; PT IFICI implementation still settling; CY 2026 reform clarifications ongoing.
 
+### Example E — SG vs HK vs MO for East-Asian financial-hub base
+
+| Metric | SG | HK | MO |
+|---|---|---|---|
+| EU member? | NO (city-state) | NO (HK SAR China) | NO (MO SAR China) |
+| Foreign-buyer access | Strata only without SLA approval; **ABSD 60% non-resident** | Open + **BSD 15% non-PR + AVD up to 4.25%** | Open but Investment Residence SUSPENDED 2007 |
+| Total acquisition cost | **65-70%+ for non-residents** (BSD + ABSD + agent + legal); **3-7% citizen** | ~20-25% non-PR (AVD + BSD 15%); ~5-10% PR | ~5-8% (post-stamp duty + agent) |
+| Annual property tax | Property Tax 0-23% on AV (owner-occupier) / up to 32% non-occupied | Rates ~5% on Rateable Value + Property Tax 15% on rental | None on residential; 6-10% Property Tax on rental net |
+| CGT | NONE | NONE for individuals (Profits Tax doesn't apply to personal capital gains) | NONE on personal property gain |
+| Personal income tax | Resident 0-22% progressive; foreign-source generally NOT taxed in SG | Salaries Tax 2-17% progressive / 15% standard; territorial — HK-source only | Macao Professional Tax territorial — MO-source only |
+| Currency | SGD MAS-managed-float | HKD-USD peg LERS 7.75-7.85 (HKMA) | MOP-HKD-USD double peg |
+| Visa pathway via property | None (GIP S$10M/S$25M/S$200M only) | **CIES reactivated Mar 2024** HK$30M + ≤HK$10M residential | **SUSPENDED 2007** — Talent Programme NOT property-linked |
+| Climate | Equatorial 24-32°C year-round (Changi best-in-world airport) | Subtropical 14-33°C; typhoon season Jul-Oct | Subtropical 14-32°C; typhoon + post-Hato 2017 storm-surge reforms |
+
+🥇 **HK** for high-net-worth wanting investment-track residency via property (CIES reactivated Mar 2024); accept Article 23 (NSL) sentiment factor and partial post-2020 expat outflow recovery
+🥈 **SG** for highest-quality administrative environment + best-in-world airport + lowest CGT/PIT structure for foreign-source income — at cost of **ABSD 60% non-resident** which restructures any property-purchase economics into citizen-class transaction
+🥉 **MO** only for those with a non-property residence pathway (Talent Programme, family-unification) — Investment Residence has been SUSPENDED since 2007
+
+**Confidence**: MEDIUM — HK CIES revival details still being clarified by ImmD post-Mar 2024; SG ABSD 60% verified at IRAS but all-in stamp-duty stack drift on cooling-measure cycles; MO Talent Programme 2024 scope still being defined by IPIM. Verify all thresholds at issuing authority.
+
+### Example F — KR vs TW for East-Asian remote-work base
+
+| Metric | KR | TW |
+|---|---|---|
+| Foreign-buyer access | Open (Foreigner's Land Acquisition Act notification only) | Reciprocity-list-based — verify BOCA list per nationality |
+| Total acquisition cost | ~6-8% (acquisition tax 1-3% sliding by price + 0.2% local + agent + reg fee) | ~6-8% (deed tax 6% + agent 1-2% + reg) |
+| Annual carry | jaesanse 0.1-0.4% + comprehensive real estate tax 종부세 0.5-5% on multi-home owners | House Tax 1.5-3.6% by use + Land Value Tax 1-5.5% |
+| CGT | Separate 6-45% + multi-home top rate up to 75% | AMT regime on foreign-source >NT$7M; 6% surtax on certain investment income |
+| Personal income tax | Worldwide for residents (>183 days); progressive 6-45%; **5/10-yr foreign-source exemption** for newly-resident foreign workers (PIT Act Art. 18-2) | Worldwide for residents (>183 days); progressive 5-40% |
+| Visa pathway | **F-2 Investor (₩600M, 5yr) → F-5 PR**; F-4 Korean diaspora; **Workation Visa F-1-D (Jan 2024)** | **Gold Card** 4-yr work + residency (no investment); APRC after 5yr; Plum Blossom long-stay |
+| Climate | Cold continental — Seoul -5/+3°C winter, 26-31°C summer; aging society | Tropical-subtropical; Taipei 14-20°C winter, 28-32°C summer; **2024 Hualien M7.4 earthquake** |
+| Internet | Gigabit fiber norm (KT/SK/LG); ranked top globally on most digital metrics | Gigabit FTTH norm (Chunghwa, Taiwan Mobile) |
+
+🥇 **TW** for remote-worker via **Gold Card** (no investment threshold) — 8 high-skill categories + 4-yr residency leading to APRC; lower COL than KR for English-medium services
+🥈 **KR** for those targeting F-2/F-5 PR via investment OR for Korean-diaspora F-4 holders; multi-home tax (종부세 0.5-5%) is material structural drag for portfolio buyers
+
+**Confidence**: MEDIUM — KR Workation Visa F-1-D launched Jan 2024 (verify HiKorea); TW Gold Card category list updates periodically (verify NIA/BOCA); TW 2024 Hualien M7.4 disclosure rules still settling.
+
+### Example G — AD vs MC vs LI for European-microstate residence
+
+| Metric | AD | MC | LI |
+|---|---|---|---|
+| EU member? | NO (Monetary Treaty 2011, EUR) | NO (Monetary Treaty, EUR) | NO (EEA member; CHF currency union with CH) |
+| Schengen | NO | YES (Schengen via FR) | YES (via 2011 extension) |
+| Personal income tax | IRPF 0/5/10% — **lowest in Western Europe** | **NONE** (except FR nationals via 1963 Convention) | ~2.5-22.4% combined federal + commune (among lowest CH-area) |
+| CGT | 10% within IRPF | NONE | Within personal-tax regime |
+| Acquisition cost | ~3-5% (ITP 4% + notari + Govern registration) | ~10-12% (4.5% droits + notary + agent + 20% TVA on agent) | ~5-7% (Handänderungssteuer ~2% + commune + Grundbuchamt) |
+| Visa pathway | **Residència Passiva ~€600k** OR €350k + €50k AFA; passive ≥90d/yr | **Carte temporaire** ~€500k bank deposit + property practitioner | **Quota-based lottery** (~28 EEA + ~17 third-country/year); Personal Residence Programme rare petition only |
+| Naturalisation | 20 yrs (longest in Western Europe) | 10 yrs after privilégiée; rare in practice | 10 yrs (after surrendering prior citizenship — verify with Ausländer- und Passamt) |
+| Population | ~85k (~75% non-Andorran) | ~38k (~70% non-Monégasque) | ~40k |
+| Climate | Alpine 0-8°C winter, 18-25°C summer | Mediterranean 8-15°C winter, 24-29°C summer (mildest of three) | Alpine 0-5°C winter, 18-24°C summer |
+| Healthcare | CASS mandatory; cross-border to FR/ES | Caisses Sociales + CHPG; cross-border to FR/IT | KVG-equivalent; cross-border to CH |
+
+🥇 **MC** for ultra-high-net-worth wanting **NO PIT/CGT** + Mediterranean climate + Schengen access — at cost of highest COL globally and strict Sûreté Publique due-diligence
+🥈 **AD** for HNWI accepting alpine isolation in exchange for IRPF 0/5/10% (lowest in Western Europe) and lowest acquisition cost of the three; **20yr naturalisation** is the long-game catch
+🥉 **LI** only for lottery-winning EEA candidates or rare Personal Residence Programme petitioners; CH-integrated practice for healthcare/banking
+
+**Confidence**: MEDIUM — AD Llei 26/2024 STR + parish quotas still rolling out per parròquia; MC Sûreté Publique due-diligence threshold drift on FX cycles; LI quota allocation publicly disclosed annually but qualifying-criteria opaque. Verify all thresholds at issuing authority.
+
+### Example H — MD vs UA-adjacent EU-candidates for low-COL Eastern European base
+
+| Metric | MD | (cross-reference: GE / RS / ME) |
+|---|---|---|
+| EU candidate? | YES (Jun 2022) | GE Mar 2024 (associate path); RS/ME accession negotiations open |
+| COL | **Lowest in Europe** (Numbeo 2024-2026) | GE/RS/ME mid-low |
+| Personal income tax | Flat 12% (one of lowest in Europe) | GE territorial-leaning; RS 10-25% progressive; ME 9-15% progressive |
+| Acquisition cost | ~2-4% (notary + State Registration Chamber) | GE 0.1-0.5% (lowest globally); RS 5-7%; ME 5-7% |
+| Foreign-buyer access | Open for buildings + non-agricultural land | All three open |
+| Visa pathway | **Investor Residency Law 200/2010** — €250k 5yr → naturalisation 8yr | GE Investor Residency USD 300k; RS/ME standard residence |
+| Romanian-citizenship-by-descent → EU passport | YES (widely used) | NO equivalent |
+| Schengen | NO | NO (all three) |
+| Currency | MDL float | GEL float; RSD managed; EUR (ME) |
+| Internet | Gigabit fiber Moldtelecom + Orange MD + StarNet (one of fastest fiber penetrations in Eastern Europe) | GE Magticom/Silknet good; RS strong; ME variable |
+| Transnistria | **Excluded from due-diligence scope** | N/A |
+
+🥇 **MD** for cheapest Europe COL + flat 12% PIT + Romanian-citizenship-by-descent EU-passport optionality + gigabit fiber norm — at cost of: NO Schengen, NO formal Digital Nomad Visa as of 2026, geographic isolation, Russian-language-spillover political-risk overlay
+- Cross-reference GE for similar low-COL Eurasian base with faster registration but no EU candidacy
+- Cross-reference RS/ME for EU-candidate Western Balkans alternatives with broader expat networks
+
+**Confidence**: MEDIUM — MD CBI ended via Law 100/2020 (verified at SFS/Govt portal); Investor Residency Law 200/2010 thresholds verified per Investment Agency Moldova. Romanian-citizenship-by-descent path is widely used but ANC processing times have stretched 2022-2026. Transnistria-scope exclusion is a hard rule for any due-diligence on real-estate east of Dniester.
+
 ## Limitations
 
 - **Not predictive**: comparison is current-state, not 5-year-forward
@@ -373,4 +506,4 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 
 ## Status
 
-Last refreshed: 2026-04-26.
+Last refreshed: 2026-05-01 (Tier-3 additions — 71 countries total; Tier-3 added: SG, HK, KR, TW, LI, MO, AD, MC, MD).

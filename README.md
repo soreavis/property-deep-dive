@@ -41,7 +41,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 TCO calculator · mortgage calculator · test fixtures · listing-diff watcher · comparable-transactions DB · auto-validate cron · price-index feeds · listing aggregators · photo OCR
 
-## Country support — 62 fully populated
+## Country support — 71 fully populated
 
 <!-- AUTOGEN:country-matrix:start -->
 **Europe core (24)** — 🇫🇷 fr · 🇮🇹 it · 🇨🇿 cz · 🇸🇰 sk · 🇩🇪 de · 🇦🇹 at · 🇨🇭 ch · 🇪🇸 es · 🇵🇹 pt · 🇸🇪 se · 🇫🇮 fi · 🇳🇴 no · 🇬🇧 uk · 🇳🇱 nl · 🇧🇪 be · 🇩🇰 dk · 🇮🇸 is · 🇸🇮 si · 🇮🇪 ie · 🇬🇷 gr · 🇵🇱 pl · 🇪🇪 ee · 🇭🇷 hr · 🇭🇺 hu
@@ -56,11 +56,13 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 **Türkiye & Middle East (3)** — 🇹🇷 tr · 🇦🇪 ae · 🇮🇱 il
 
-**Asia-Pacific (6)** — 🇯🇵 jp · 🇹🇭 th · 🇮🇩 id · 🇲🇾 my · 🇻🇳 vn · 🇵🇭 ph
+**Asia-Pacific (11)** — 🇯🇵 jp · 🇰🇷 kr · 🇹🇼 tw · 🇭🇰 hk · 🇲🇴 mo · 🇸🇬 sg · 🇹🇭 th · 🇲🇾 my · 🇮🇩 id · 🇻🇳 vn · 🇵🇭 ph
 
 **Africa (3)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg
 
-**Caucasus (1)** — 🇬🇪 ge
+**Caucasus & Eastern non-EU (2)** — 🇬🇪 ge · 🇲🇩 md
+
+**European Microstates (3)** — 🇱🇮 li · 🇦🇩 ad · 🇲🇨 mc
 <!-- AUTOGEN:country-matrix:end -->
 
 ## Install
@@ -232,18 +234,18 @@ property-deep-dive/
 │   └── pin-actions.sh                # idempotent SHA-pin third-party actions
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~470 lines)
-    ├── shared/                       # 34 universal layer files (~8,900 lines)
+    ├── shared/                       # 34 universal layer files (~11,000 lines)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
     │   ├── 22 section implementations (universal logic + per-country overlays)
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
     │   ├── updater.md                # maintenance mode + auto-downgrade rule
     │   └── 9 tooling docs
-    └── countries/                    # 54 country playbooks (~23,300 lines)
-        └── <iso2>/playbook.md        # FR / IT / CZ / SK / DE / AT / CH / ES / PT / SE / ... + US / TR / AE / JP / TH / DO / CO / UY / CL / ZA
+    └── countries/                    # 71 country playbooks (~35,200 lines)
+        └── <iso2>/playbook.md        # FR / IT / CZ / SK / DE / AT / CH / ES / PT / SE / ... + US / TR / AE / JP / TH / DO / CO / UY / CL / ZA / GE / ID / MY / VN / PH / IL / MA / EG / SG / HK / KR / TW / LI / MO / AD / MC / MD
 ```
 
-**Skill content** (under `skills/property-deep-dive/`): 89 markdown files, ~32,500 lines (SKILL.md + 34 shared/ + 54 country playbooks).
-**Repo total**: 109 markdown files, ~39,300 lines (skill content + community / governance files + CHANGELOG) · 30 YAML / JSON config files (22 workflows + 5 issue forms + dependabot + labels + labeler).
+**Skill content** (under `skills/property-deep-dive/`): 106 markdown files, ~46,700 lines (SKILL.md + 34 shared/ + 71 country playbooks).
+**Repo total**: 118 markdown files, ~48,100 lines (skill content + community / governance files + CHANGELOG) · 30 YAML / JSON config files (22 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

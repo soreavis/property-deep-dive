@@ -512,6 +512,73 @@ For the property's locality, return:
 - **Granularity**: national + governorate-level (27) headlines; **city/district/sheyakha level data not publicly available — verify with local police station (qism al-shorta)**
 - **Caveat**: very low transparency; political-context + terrorism-related offences excluded or separately classified; under-reporting significant in sexual harassment (despite 2014 law) + domestic; tourist-zone (Sharm el-Sheikh, Hurghada, Luxor, Aswan) incidents handled by Tourist & Antiquities Police (سياحة وآثار) separately
 
+### 🇸🇬 Singapore
+
+- **Singapore Police Force (SPF) Annual Crime Brief**: `https://www.police.gov.sg/Media-Room/News` — annual + half-yearly crime briefs
+- **Singstat (Department of Statistics) Public Order tables**: `https://www.singstat.gov.sg/find-data/search-by-theme/society/public-order-and-safety` — national crime time-series
+- **Granularity**: national + 7 police land divisions (Central / Ang Mo Kio / Bedok / Clementi / Jurong / Woodlands / Tanglin) + Neighbourhood Police Centre (NPC) catchments; SPF "Hot-spot Information" published per NPC for select offences
+- **Caveat**: very low absolute crime (one of densest crime data globally per CSAR + low under-reporting); methodology stable; cyber-crime/scam categories rapidly evolving (Anti-Scam Centre 2019+); flag transient-population denominator for tourist zones (Orchard / Marina Bay / Sentosa)
+
+### 🇭🇰 Hong Kong
+
+- **Hong Kong Police Force (HKPF / 香港警務處) Crime Statistics**: `https://www.police.gov.hk/ppp_en/09_statistics/csc.html` — quarterly + annual statistics
+- **Census & Statistics Department (C&SD / 政府統計處)**: `https://www.censtatd.gov.hk/` — Hong Kong Annual Digest of Statistics (Justice & Crime chapter)
+- **Granularity**: per-region (HK Island / Kowloon East / Kowloon West / New Territories North / New Territories South / Marine) + per-District Council district (18) + per-police-district
+- **Caveat**: very high reporting rate (high-trust); methodology stable pre-2020; **Article 23 National Security Law (Mar 2024) categorisation of "national-security offences" separately classified — ordinary crime data unaffected but flag for relocation-decision context**
+
+### 🇰🇷 South Korea
+
+- **Korean National Police Agency (KNPA / 경찰청) Crime Statistics**: `https://www.police.go.kr/` — annual White Paper + monthly statistics
+- **KOSIS (Korean Statistical Information Service)**: `https://kosis.kr/eng/` — Crime Statistics tables (national stats office portal)
+- **Korean Institute of Criminology (KIC / 한국형사·법무정책연구원)**: `https://www.kicj.re.kr/` — secondary analysis + victimization survey
+- **Granularity**: per-province / metropolitan-city (17) + per-police-district (시도경찰청 → 경찰서) + Seoul gu (district, 25) + sub-station (지구대/파출소)
+- **Caveat**: very low absolute crime; reporting rates high; under-reporting concentrated in sexual offences + domestic violence (despite 2010s reforms); tourist-zone (Myeongdong / Hongdae / Itaewon / Gangnam) flag for transient-victim denominator; methodology stable
+
+### 🇹🇼 Taiwan
+
+- **National Police Agency (NPA / 內政部警政署) Crime Statistics**: `https://www.npa.gov.tw/` — annual statistics + Police Statistical Yearbook
+- **Directorate-General of Budget, Accounting & Statistics (DGBAS / 主計總處)**: `https://eng.dgbas.gov.tw/` — Statistical Yearbook (Public Order chapter)
+- **Ministry of Justice (MOJ / 法務部)** prosecutorial statistics — court-side triangulation
+- **Granularity**: per-municipality (6 special + 16 county/city) + per-police-precinct (分局) + Taipei + New Taipei district-level for capitals
+- **Caveat**: very low absolute crime; methodology stable; under-reporting in domestic + sexual; cross-Strait political-context offences separately classified; published narratives emphasize "safe city" framing
+
+### 🇱🇮 Liechtenstein
+
+- **Landespolizei (National Police) Memoria di Attività / Tätigkeitsbericht**: `https://www.landespolizei.li/` — annual activity report + crime statistics
+- **Statistik Liechtenstein**: `https://www.llv.li/en/national-administration/office-of-statistics` — Crime & Justice statistics
+- **Granularity**: national + per-Gemeinde (11 municipalities); small absolute numbers
+- **Caveat**: very low absolute crime; small population (~40k) means single incidents move per-capita rates; methodology aligned with CH; cross-border CH/AT police cooperation
+
+### 🇲🇴 Macao
+
+- **Corpo de Polícia de Segurança Pública (CSP / 治安警察局)**: `https://www.fsm.gov.mo/psp/` — published statistics + annual report
+- **DSEC (Direcção dos Serviços de Estatística e Censos / 統計暨普查局)**: `https://www.dsec.gov.mo/` — Crime & Justice tables
+- **Polícia Judiciária (PJ / 司法警察局)**: investigative crime statistics
+- **Granularity**: national + parish-level (7 freguesias) + casino-zone (Cotai) often aggregated; DSEC publishes per-category time series
+- **Caveat**: very low absolute crime; gaming-zone (Cotai/Macao Peninsula) inflates fraud + loan-shark categories; transient-population denominator (~30M+ visitors/yr pre-COVID, recovering) skews tourist-zone rates; under-reporting in domestic; political-context offences post-2020 NSL framework separately classified
+
+### 🇦🇩 Andorra
+
+- **Cos de Policia d'Andorra — Memòria d'Activitat**: `https://www.policia.ad/` — annual activity report + crime statistics
+- **Estadística d'Andorra (Departament d'Estadística)**: `https://www.estadistica.ad/` — Justícia i Criminalitat tables
+- **Granularity**: national + per-parròquia (7 parishes); small absolute numbers
+- **Caveat**: very low absolute crime; ski-tourist transient population (winter Dec-Apr + summer Jul-Aug) inflates seasonal rates; small national pop (~85k) means single incidents move per-capita rates; methodology stable
+
+### 🇲🇨 Monaco
+
+- **Direction de la Sûreté Publique (DSP)**: `https://www.gouv.mc/Action-Gouvernementale/Securite-Justice` — Sûreté Publique pages + published statistics
+- **IMSEE (Institut Monégasque de la Statistique et des Études Économiques)**: `https://www.monacostatistics.mc/` — Sécurité & Justice tables
+- **Granularity**: national (single police jurisdiction); ward-level (Monaco-Ville / La Condamine / Monte-Carlo / Fontvieille) for select offences
+- **Caveat**: very low absolute crime; very high police-to-resident ratio (~1 cop per 60 residents — densest globally per DSP); transient-population denominator (~9M visitors/yr) skews tourist-zone rates; under-reporting low (high trust + dense surveillance)
+
+### 🇲🇩 Moldova
+
+- **Inspectoratul General al Poliției (IGP)**: `https://politia.md/` — annual crime statistics + monthly bulletins
+- **BNS (Biroul Național de Statistică)**: `https://statistica.gov.md/` — Justiție și Criminalitate tables (national stats office)
+- **Procuratura Generală**: `https://procuratura.md/` — prosecutorial statistics for triangulation
+- **Granularity**: per-raion (32 districts + Chișinău + Bălți + Comrat ATU Găgăuzia) + Chișinău sectors (5); rural raion data published but small absolute numbers
+- **Caveat**: under-reporting common in domestic + sexual; **Transnistria (separatist-administered) NOT in IGP series — separate parallel statistics published by Tiraspol "ministry" but not citable as primary**; emigration sustained since 1990s affects denominator; methodology aligned with EU since candidate status (Jun 2022 → accession negotiations Jun 2024)
+
 ## Universal extraction approach
 
 For each country, the workflow:

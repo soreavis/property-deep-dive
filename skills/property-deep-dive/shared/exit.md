@@ -2,7 +2,7 @@
 
 Sell-side conditions: time-on-market (DOM), agent commission structure, contract norms, off-market vs MLS, sell-side closing costs, liquidity rating. Buyers should understand how easy it will be to **exit** a property before committing to buy.
 
-**Snapshot**: April 2026.
+**Snapshot**: May 2026 (Tier-3 additions — 71 countries total).
 
 ## Universal contract
 
@@ -85,6 +85,36 @@ For the property's country, return:
 - **Sell-side**: cantonal Grundstückgewinnsteuer (sliding 0-50%, drops sharply with holding — e.g. ZH 0% after 25 yrs); notary 0.1-0.5%; commission 2-3%
 - **Liquidity**: 🟢 HIGH Zurich/Geneva metros; 🟠 MEDIUM Basel/Bern/Lausanne; 🔴 LOW alpine secondary residences
 - **Quirks**: **Lex Koller** restricts non-resident buyers — future buyer pool excludes most foreigners outside resort zones; chalet quota in Valais/Graubünden
+
+### 🇱🇮 Liechtenstein
+- **DOM**: Vaduz ~120-200 / Schaan ~150-250 / regional 200-365+ [verify per-transaction]
+- **Commission**: seller-pays 2-3% + 8.1% VAT (CH-aligned practice; no LI-specific broker law)
+- **Contract**: Maklervertrag exclusive 3-6 mo (CH-aligned)
+- **MLS**: NO MLS; thin market; **eRanger.li / Homegate.ch / ImmoScout24.ch** cross-listing common — most LI buyers cross to CH portals
+- **Discount**: 3-5% off asking — narrow (CH-aligned)
+- **Sell-side**: **Grundstückgewinnsteuer cantonal-equivalent** at LI-level (verify Steuerverwaltung FL); notary + Grundbuchamt registration ~0.5-1%; commission 2-3%+VAT
+- **Liquidity**: 🔴 LOW Vaduz/Schaan — tiny market (~40k pop nationwide); buyer pool quota-restricted (~28 EEA + ~17 third-country/year by lottery)
+- **Quirks**: **Lex Koller-equivalent** restricts non-EEA buyers — CH-integrated practice but no automatic CH-resident purchase rights; quota residency narrows future buyer pool dramatically; cross-border buyer demand mostly CH-resident; FL1 + Telecom Liechtenstein gigabit; tiny market = price discovery slow
+
+### 🇲🇨 Monaco
+- **DOM**: Monte-Carlo / La Condamine / Fontvieille ~90-180 / Larvotto / Saint-Roman ~120-200 / regional 200-365+ [verify with Chambre Immobilière de Monaco]
+- **Commission**: **agent agency 3% + buyer agency 3% (BOTH SIDES PAY)** typical + 20% TVA on agent fees; luxury negotiable to 2-3% combined
+- **Contract**: mandat de vente exclusive 3-6 mo
+- **MLS**: NO MLS; thin market; **Chambre Immobilière de Monaco + Riviera-aligned portals** (FNAIM-style cross-listings to FR Côte d'Azur) — agent-driven
+- **Discount**: 5-10% off asking; ultra-prime narrower
+- **Sell-side**: **NO CGT** on real-estate gain in MC (NO PIT regime — except FR nationals via 1963 Convention); droits d'enregistrement ~4.5% + notaire ~1.5% (typically buyer-side); commission 3% each + 20% TVA
+- **Liquidity**: 🟢 MEDIUM-HIGH Monte-Carlo / La Condamine / Larvotto core (UHNW global demand sustained 2020-2026); 🟠 MEDIUM Fontvieille; thin secondary
+- **Quirks**: **Sûreté Publique due-diligence** required for non-resident buyers/sellers (KYC + source-of-funds); **carte de séjour pathway requires ~€500k bank deposit** + property purchase or rental practitioner; **NO PIT/CGT is the principal draw** sustaining global UHNW demand; sea-level rise concern (Plan Bleu / Plan Climat); cross-border seasonal demand from FR (Nice/Menton) and IT (Imperia)
+
+### 🇦🇩 Andorra
+- **DOM**: Andorra la Vella / Escaldes-Engordany ~100-180 / parish villages (Encamp / La Massana / Ordino / Canillo / Sant Julià) 120-300 / La Massana ski-zone 90-200 [verify with AGIA]
+- **Commission**: seller-pays 3-5% + AD GST 4.5% (IGI; among lowest VAT in Europe); split occasionally
+- **Contract**: contracte de mediació exclusive 3-6 mo
+- **MLS**: NO MLS; **Habitaclia + Idealista (ES portal cross-listings)** dominate; AGIA member-network
+- **Discount**: 5-12% off asking; village stock deeper
+- **Sell-side**: **plusvàlua municipal sliding** (parish-by-parish; commune-level; 0% after long hold); IRPF 0/5/10% on gain at AD-resident progressive rates — verify Departament de Tributs i Fronteres; commission 3-5%
+- **Liquidity**: 🟠 MEDIUM Andorra la Vella / Escaldes-Engordany core; 🟠 MEDIUM-HIGH ski-zone (La Massana / Encamp / Canillo) seasonal Dec-Apr; 🔴 LOW village stock off-season
+- **Quirks**: **Llei 26/2024 STR regulation + parish quotas** narrow short-let economics (verify per parròquia at Govern d'Andorra); foreign-buyer registration at Govern d'Andorra mandatory since 2012 reform; **20yr to naturalisation** (longest in Western Europe); CASS social-security mandatory for residents; high mountain isolation; ~75% non-Andorran of ~85k pop sustains buyer-pool diversity (ES/FR/PT/UK)
 
 ### 🇳🇱 Netherlands
 - **DOM**: Amsterdam ~28 d / Rotterdam ~25 / Utrecht ~30 / national ~30-40 d
@@ -326,6 +356,16 @@ For the property's country, return:
 - **Sell-side**: PIT 10% on gain (exempt: 1 residence held 3+ yrs, 2 residences 5+ yrs)
 - **Liquidity**: 🟠 MEDIUM Sofia; 🔴 LOW Plovdiv/Varna/Burgas; VERY LOW Black Sea overdeveloped resort + Bansko ski (oversupply)
 - **Quirks**: Apartment complexes on Black Sea / Bansko built 2005-2010 face structural oversupply; agricultural land foreign-restricted
+
+### 🇲🇩 Moldova
+- **DOM**: Chișinău (Centru / Botanica / Buiucani) ~120-200 / Bălți / Tiraspol-area excluded / regional 200-365+ [verify per-transaction]
+- **Commission**: 2-4% **typically split or seller-only** (informal; weakly regulated) + 20% VAT only on services where applicable
+- **Contract**: agency contracts 3-6 mo informal; Camera de Înregistrare a Proprietății (State Registration Chamber) registration ~5-15 days
+- **MLS**: no MLS; **999.md (national classifieds) + Lara.md + Make.md** dominate; agency portals fragmented
+- **Discount**: 10-20% off asking; rural deeper
+- **Sell-side**: **PIT flat 12%** on gain (one of lowest in Europe); primary-residence exempt if held 3+ yrs (verify SFS); **agricultural land foreign-restricted** (only buildings + non-agricultural for foreigners); commission 2-4%
+- **Liquidity**: 🟠 LOW-MEDIUM Chișinău Centru / Botanica / Buiucani; 🔴 LOW Bălți; VERY LOW rural; **Transnistria-scope EXCLUDED** (no due-diligence on titles east of Dniester)
+- **Quirks**: **CBI ENDED via Law 100/2020** — Investor Residency Law 200/2010 (€250k, 5yr) is the practical track; **Romanian-citizenship-by-descent** widely used by MD residents → EU passport path runs in parallel to the property economics; gigabit fiber Moldtelecom + Orange MD + StarNet (one of the fastest fiber penetrations in Eastern Europe per Ookla 2024-2026); EU candidate Jun 2022 — accession-track sentiment may compress yields over time; medical-staff emigration to RO/EU is structural concern for buyer-pool demographic profile
 
 ## Western Balkans
 
@@ -625,6 +665,56 @@ For the property's country, return:
 - **Liquidity**: 🔴 LOW Makati/BGC/Ortigas prime (oversupply 2020-2026); VERY LOW Cebu/Davao secondary; VERY LOW resort areas off-season
 - **Quirks**: **Foreigners CANNOT own land** (1987 Constitution) — condo-only with 40% per-building cap; **Manila CBD condo oversupply 2020-2026** (POGO exodus + remote-work cooling); CGT 6% on GROSS sale price = punitive on low-margin / loss sales; **BSP repatriation documentation (registration of original FX inflow)** required for clean USD exit
 
+### 🇸🇬 Singapore
+- **DOM**: Districts 9/10/11 (Orchard / River Valley / Bukit Timah) ~30-60 / Districts 1/2/4 (Marina / Sentosa) ~45-90 / OCR (Outside Central Region) 60-120 / non-prime mass-market 90-150
+- **Commission**: **2% seller-pays + 1% buyer-pays typical** (CEA-regulated); GST 9% on commission (Jan 2024 rate)
+- **Contract**: exclusive estate-agency agreement 3-6 mo (CEA-regulated under EAA 2010)
+- **MLS**: **partial MLS via CEA agent platforms (PropertyGuru + 99.co + EdgeProp)** — high portal transparency but no formal national MLS; URA private-residential transaction caveats publicly searchable
+- **Discount**: 2-7% off asking; new launches narrower; prime resale closer to flat
+- **Sell-side**: **NO CGT in SG**; **SSD (Seller's Stamp Duty) 4-12% sliding if sold within 3 yrs** of acquisition (residential); **ABSD applies on BUYER side** (60% non-resident, 30% PR, 20%/30% Singaporeans on 2nd/3rd home — Apr 2023 cooling-measure rates); commission 2%+GST seller-side
+- **Liquidity**: 🟢 HIGH CCR (Districts 9/10/11) — global UHNW demand; 🟢 MEDIUM-HIGH RCR; 🟠 MEDIUM OCR mass-market; chronic structural undersupply on private resale; HDB resale has separate rules (eligibility-gated)
+- **Quirks**: **ABSD 60% non-resident** (Apr 2023 cooling-measure) restructures any non-PR purchase economics; **Restricted Residential Property Act** bars foreigners from landed homes (strata/condo only without SLA approval); **HDB (public-housing 80% of stock)** has eligibility rules excluding non-residents; **English universal in admin/contracts**; SGD MAS-managed-float; **GST 9% Jan 2024** affects new-build pricing
+
+### 🇭🇰 Hong Kong
+- **DOM**: Mid-Levels / Pokfulam / Stanley / Repulse Bay (Hong Kong Island prime) ~60-120 / Tsim Sha Tsui / Mong Kok (Kowloon prime) 90-150 / NT (New Territories) 120-250 / outlying islands 200-365+
+- **Commission**: **1% seller-pays + 1% buyer-pays typical** (EAA-regulated under Ord. Cap 511) — agency fees relatively low globally
+- **Contract**: agency agreement 3-6 mo (EAA-licensed); preliminary agreement → formal sale-and-purchase via lawyer-led conveyance
+- **MLS**: NO MLS; **Centaline / Midland / Ricacorp / Hong Kong Property** dominate listings + **EPRC transaction caveats** searchable via Land Registry
+- **Discount**: 5-12% off asking 2024-2026 (post-correction); 2024 high-tide partial recovery
+- **Sell-side**: **NO CGT for individuals** (Profits Tax doesn't apply to personal capital gains); **Special Stamp Duty (SSD) 10-20% sliding if sold within 36 months** of acquisition; commission 1%+VAT seller-side; legal fees ~0.1-0.2%
+- **Liquidity**: 🟢 MEDIUM-HIGH HK Island prime + Kowloon prime; 🟠 MEDIUM Mid-Levels mass-market; 🔴 LOW NT/outlying; partial post-2020 expat-outflow recovery 2023-2026
+- **Quirks**: **BSD 15% non-PR + AVD up to 4.25%** (partial cooling-measure rollback Oct 2023-2024 — verify per IRD); **CIES reactivated Mar 2024** (HK$30M + ≤HK$10M residential) opens investment-track residency; **Article 23 (NSL) Mar 2024 sentiment factor** for some buyers; HKD-USD peg LERS 7.75-7.85 (HKMA Convertibility Undertaking); English co-official; condo-style strata is the dominant tenure
+
+### 🇰🇷 South Korea
+- **DOM**: Seoul (Gangnam-gu / Seocho-gu / Yongsan-gu / Mapo-gu) ~60-120 / Bundang / Pangyo (GG) 90-180 / Busan (Haeundae / Suyeong) 120-250 / Daegu / Gwangju 150-300 / regional 200-365+
+- **Commission**: **0.4-0.9% each side regulated sliding by price** (under Licensed Real Estate Agents Act — 공인중개사법; max 0.9% above ₩1.5B for residential as of 2024 schedule) + 10% VAT; one of the lowest globally
+- **Contract**: 매매계약 (mae-mae gye-yak — purchase agreement) via licensed agent (공인중개사) + notary; 전세 (jeonse rental-deposit) separate
+- **MLS**: no MLS; **Naver Real Estate (네이버 부동산) + Zigbang + Dabang + Hogangnono** dominate portals; **MOLIT 실거래가 (actual transaction prices)** publicly searchable — high price-history transparency
+- **Discount**: 5-10% off asking 2024-2026 (post 2022-2023 correction); Gangnam prime narrower
+- **Sell-side**: **CGT separate 6-45% sliding by gain + holding period**; **multi-home owners face 종부세 (comprehensive real estate tax) 0.5-5% annually** + **multi-home top CGT rate up to 75%** (post-2020 Moon-era reforms; partial Yoon-era rollback under negotiation 2024-2026 — verify NTS); commission 0.4-0.9%+VAT
+- **Liquidity**: 🟢 MEDIUM-HIGH Seoul Gangnam-gu / Seocho-gu / Yongsan-gu (chronic undersupply prime); 🟢 MEDIUM Mapo-gu / Songpa-gu; 🟠 MEDIUM Bundang/Pangyo (tech-cluster); 🔴 LOW regional metros; VERY LOW rural; aging-society secondary-region demographic headwind
+- **Quirks**: **Jeonse (전세) rental-deposit system** unique structural risk for renters (post-2022 HUG fraud-crisis reforms — Bali jaja jeonse fraud); **comprehensive real estate tax 종부세** is among the most progressive multi-home regimes globally; foreigners can buy via Foreigner's Land Acquisition Act notification (open to most nationalities); **gigabit fiber norm** (KT/SK/LG); cold winters; aging society
+
+### 🇹🇼 Taiwan
+- **DOM**: Taipei (Da'an / Xinyi / Zhongshan / Songshan) ~90-150 / Taipei (Neihu / Tianmu / Beitou) 100-180 / New Taipei (Banqiao / Xindian / Tamsui) 120-200 / Taoyuan / Hsinchu (Science Park) 100-180 / Taichung / Kaohsiung 150-250 / regional 200-365+
+- **Commission**: **2% seller-pays + 1-2% buyer-pays typical (NOT capped)** + 5% VAT; market practice varies (some buyer-only)
+- **Contract**: 不動產買賣契約書 (real-estate sale agreement) via licensed broker (不動產經紀人) + notary; **STR-style "actual price registration system" (實價登錄)** since 2012 reform makes prices public
+- **MLS**: no MLS; **591房屋交易 + Yungching + Sinyi** dominate portals; **MOI Land 實價登錄 (actual price registration)** publicly searchable — high transparency
+- **Discount**: 5-12% off asking 2024-2026
+- **Sell-side**: **House and Land Transactions Income Tax (HLTIT, 房地合一稅 2.0)** post-Jul 2021 reform: 45% if held <2 yrs / 35% if 2-5 yrs / 20% if 5-10 yrs / 15% if >10 yrs (resident individuals; non-residents 45%/35%) — among the most progressive holding-period regimes globally; **Land Value Increment Tax (LVIT, 土地增值稅) seller-side** sliding 20-40% on land-value gain (separate from HLTIT); commission 2%+VAT
+- **Liquidity**: 🟢 MEDIUM-HIGH Taipei Da'an / Xinyi / Zhongshan core (chronic undersupply prime); 🟢 MEDIUM Songshan / Neihu / Beitou; 🟠 MEDIUM New Taipei prime + Hsinchu Science Park; 🔴 LOW regional cities; aging-society secondary headwind
+- **Quirks**: **Reciprocity-list-based foreign-buyer eligibility** — nationality determines eligibility (verify BOCA list per nationality); **2024 Hualien M7.4 earthquake** material to seismic disclosure (post-1999 921 Chi-Chi standards); **"actual price registration system" (實價登錄)** since 2012 reform = public price-history transparency unusual for the region; gigabit FTTH norm (Chunghwa, Taiwan Mobile); HSR + Taipei MRT
+
+### 🇲🇴 Macao SAR
+- **DOM**: Macao Peninsula (NAPE / ZAPE / São Lourenço) ~120-250 / Taipa (Taipa Grande / Taipa Pequena) 150-300 / Cotai 200-365+
+- **Commission**: **1-2% each side typical** (informal practice; broker law nascent) + 5% VAT
+- **Contract**: agency agreement 3-6 mo; deed registration via Conservatória do Registo Predial
+- **MLS**: NO MLS; **Macao Property Holdings + agency-network listings** dominate; thin portal coverage
+- **Discount**: 10-20% off asking 2024-2026 (post-correction; Cotai oversupply)
+- **Sell-side**: **NO CGT on personal property gain**; **Special Stamp Duty (SSD) 5-20% if sold within 24 months** of acquisition (anti-speculation regime); deed registration ~3-6%; commission 1-2%
+- **Liquidity**: 🟠 MEDIUM Macao Peninsula NAPE / ZAPE / São Lourenço prime; 🟠 LOW-MEDIUM Taipa; 🔴 LOW Cotai (oversupply); thin secondary market
+- **Quirks**: **Investment Residence SUSPENDED since 2007** — no residency pathway via property; **Talent Programme 2024 NOT property-linked**; gaming ~50% GDP (concessões 2022 renewed 10yr) creates high cyclicality; MOP-HKD-USD double peg (HKMA-linked stability); ~673k pop; Cantonese + Portuguese co-official + English in tourism; **post-Hato 2017 storm-surge resilience reforms** (verify with DSAMA); UNESCO heritage zones overlay critical for refurbs
+
 ## Caucasus
 
 ### 🇬🇪 Georgia
@@ -643,18 +733,18 @@ For the property's country, return:
 
 | Tier | Countries |
 |---|---|
-| **HIGH** (DOM <60d, MLS/portal transparency, deep buyer pool) | NL, SE, NO, IE, UK (excl. chain), CA, AU, NZ, US (metros + Sun Belt), parts of ES (Madrid/BCN/Costa del Sol), PT (Lisbon/Porto/Algarve), DE top-7, CH (Zurich/Geneva), AE (Dubai prime), ZA (Cape Town Atlantic) |
-| **MEDIUM** (DOM 60-150d) | FR (urban), IT (Milan/Rome), AT, BE (urban), DK, CZ, PL, HU (Budapest), HR coast, EE, LT, RO (Cluj/BUC), GR (Athens), CY (Limassol), MT, MX (CDMX/Riviera), TR (Istanbul prime), JP (Tokyo 23-ku), TH (Bangkok CBD), GE (Tbilisi), IL (Tel Aviv), CO (Medellín/Bogotá), CL (Santiago prime), UY (Montevideo) |
-| **LOW** (DOM 150-300d, thin pool) | LU, FI, IS, SK, SI, LV, BG, RS, ME interior, MK, AL, BA Sarajevo, BR (secondary), CR, PA, AR (BA prime — cash-only LOW), DO (interior/off-peak), MA (Casablanca/Marrakech), MY (KL/Penang), VN (HCMC/Hanoi prime), PH (Manila prime), ID (Jakarta/Bali secondary), JP (regional), TH (Pattaya), IL (periphery) |
-| **VERY LOW** (DOM 300+d, illiquid) | Rural FR / IT South / ES inland / BG Black Sea overhang / HU rural east / BA rural / AL rural / Northern FI / Latgale LV / AR (everywhere ex-BA), BR rural, CR rural, PA Bocas/interior, JP akiya / regional, MY Sabah/Sarawak, VN secondary, PH Cebu/Davao, EG (everywhere ex-Cairo prime), MA medina/riad illiquid, ZA rural, ID Surabaya/Yogya |
+| **HIGH** (DOM <60d, MLS/portal transparency, deep buyer pool) | NL, SE, NO, IE, UK (excl. chain), CA, AU, NZ, US (metros + Sun Belt), parts of ES (Madrid/BCN/Costa del Sol), PT (Lisbon/Porto/Algarve), DE top-7, CH (Zurich/Geneva), AE (Dubai prime), ZA (Cape Town Atlantic), **SG (CCR Districts 9/10/11)** |
+| **MEDIUM** (DOM 60-150d) | FR (urban), IT (Milan/Rome), AT, BE (urban), DK, CZ, PL, HU (Budapest), HR coast, EE, LT, RO (Cluj/BUC), GR (Athens), CY (Limassol), MT, MX (CDMX/Riviera), TR (Istanbul prime), JP (Tokyo 23-ku), TH (Bangkok CBD), GE (Tbilisi), IL (Tel Aviv), CO (Medellín/Bogotá), CL (Santiago prime), UY (Montevideo), **HK (HK Island prime + Kowloon prime)**, **KR (Seoul Gangnam-gu / Seocho-gu / Yongsan-gu)**, **TW (Taipei Da'an / Xinyi / Zhongshan)**, **MC (Monte-Carlo / La Condamine / Larvotto)**, **AD (Andorra la Vella ski-zone seasonal)** |
+| **LOW** (DOM 150-300d, thin pool) | LU, FI, IS, SK, SI, LV, BG, RS, ME interior, MK, AL, BA Sarajevo, BR (secondary), CR, PA, AR (BA prime — cash-only LOW), DO (interior/off-peak), MA (Casablanca/Marrakech), MY (KL/Penang), VN (HCMC/Hanoi prime), PH (Manila prime), ID (Jakarta/Bali secondary), JP (regional), TH (Pattaya), IL (periphery), **MO (Macao Peninsula prime)**, **MD (Chișinău Centru / Botanica)**, **AD (parish villages off-season)** |
+| **VERY LOW** (DOM 300+d, illiquid) | Rural FR / IT South / ES inland / BG Black Sea overhang / HU rural east / BA rural / AL rural / Northern FI / Latgale LV / AR (everywhere ex-BA), BR rural, CR rural, PA Bocas/interior, JP akiya / regional, MY Sabah/Sarawak, VN secondary, PH Cebu/Davao, EG (everywhere ex-Cairo prime), MA medina/riad illiquid, ZA rural, ID Surabaya/Yogya, **LI (tiny ~40k market with quota residency)**, **MO (Cotai oversupply)**, **MD (rural / Bălți)**, **TW (regional / aging-society secondary)**, **KR (regional / aging-society secondary)** |
 
 ## Key cross-country patterns
 
-1. **True MLS exists in NL (Funda), CA (CREA Realtor.ca), US (~580 regional MLSs), JP (REINS, broker-only)** — everywhere else is portal-driven (Hemnet/Finn/Domain are MLS-equivalent in transparency but not formally MLS)
-2. **"Both-sides-pay" commission** structure: IT, DE (post-2020), PL, RO, BG, HR, GR, RS, BA, AL, AR, CA, TR, IL, MA, UY, CL — material to net-proceeds modelling. **US shifting** post-NAR settlement Aug 2024 (buyer-agent commissions unbundled)
+1. **True MLS exists in NL (Funda), CA (CREA Realtor.ca), US (~580 regional MLSs), JP (REINS, broker-only)** — everywhere else is portal-driven (Hemnet/Finn/Domain are MLS-equivalent in transparency but not formally MLS); **TW 實價登錄 (actual price registration system, since 2012)** + **KR MOLIT 실거래가** + **HK Land Registry EPRC** + **SG URA caveats** offer high price-history transparency without formal MLS
+2. **"Both-sides-pay" commission** structure: IT, DE (post-2020), PL, RO, BG, HR, GR, RS, BA, AL, AR, CA, TR, IL, MA, UY, CL, **MC, MO, SG (1+2 split), HK (1+1), TW (2+1-2)** — material to net-proceeds modelling. **US shifting** post-NAR settlement Aug 2024 (buyer-agent commissions unbundled)
 3. **Energy/EPC labels are now liquidity gates** in FR (DPE), DE (GEG), BE-Flanders, NL, UK (EPC), IT (APE) — F/G class properties face collapsing buyer pools
 4. **Foreign-seller withholding** is a material exit cost in: **US (FIRPTA 15% gross)**, **ZA (Section 35A 7.5% on sale > R2M)**, **DO (27% gross)**, **ES (3% retention)**, **PT (28% non-res rate)**, **IL (25% Mas Shevach)**, **MY (RPGT 10% permanent)** — model into net-proceeds
-5. **Foreign-buyer bans/restrictions** narrowing exit pool: CA (to 2027), AU (established to 2027), NZ (perm), MX (fideicomiso), AT (Tyrol/Salzburg/Vorarlberg quotas), CH (Lex Koller), MT (AIP outside SDA), HR (10-yr lock on agri non-EU), **TH (49% condo cap)**, **PH (no land for foreigners, 40% condo cap)**, **VN (30% per building, 50-yr leasehold)**, **ID (Hak Pakai only — no freehold for foreigners)**, **MY (state-by-state minimum thresholds)**, **AE (freehold only in Designated Areas)**
+5. **Foreign-buyer bans/restrictions** narrowing exit pool: CA (to 2027), AU (established to 2027), NZ (perm), MX (fideicomiso), AT (Tyrol/Salzburg/Vorarlberg quotas), CH (Lex Koller), MT (AIP outside SDA), HR (10-yr lock on agri non-EU), **TH (49% condo cap)**, **PH (no land for foreigners, 40% condo cap)**, **VN (30% per building, 50-yr leasehold)**, **ID (Hak Pakai only — no freehold for foreigners)**, **MY (state-by-state minimum thresholds)**, **AE (freehold only in Designated Areas)**, **SG (Restricted Residential Property Act — no landed homes for foreigners + ABSD 60% non-resident)**, **LI (Lex-Koller-equivalent + EEA-only + quota residency ~28+17/year)**, **MD (agricultural land foreign-restricted; Transnistria-scope excluded)**, **TW (reciprocity-list-based — verify BOCA list)**
 6. **Cadastral/title issues** are the binding sellability constraint in AL (#1), BA, RS rural, MK rural, IT South borgo, ES rural inland, RO restitution residue, BG rural, MX ejido, **EG (~90% unregistered)**, **MA medina/riad multi-heir**, **VN Pink Book chain verification** — clean title is worth more than price-cutting
 7. **Seasonal-only liquidity**: ME coast, HR Adriatic, GR islands, BG Black Sea, CR Guanacaste, MX Riviera, PT Algarve, IS countryside, AT/CH alpine, **UY Punta del Este (Dec-Feb)**, **EG North Coast (Sahel)**, **TH Phuket/Pattaya**, **JP Niseko**
 8. **Bidding-up cultures** (sale > asking): NL, SE, NO, IE, UK pre-2024, AU auction states, CA (2021-2022 peak), **US Sun Belt 2021-2022 peak**
@@ -662,8 +752,12 @@ For the property's country, return:
 10. **CGT primary-residence exemption is universal** in EU/UK/Anglo (with conditions); the differentiator is **non-resident treatment** — ES/PT/FR/IT/UK/AU/CA/US all have non-resident withholding or higher rates
 11. **GROSS-revenue CGT regimes** (tax on sale price, not gain) — punitive on low-margin / loss sales: **EG (2.5% Law 175/2023)**, **PH (6% CGT)**, **ID (PPh Final 2.5%)**, **VN (2% transfer)**, **TH (3.3% SBT if <5 yrs)** — material vs net-gain regimes elsewhere
 12. **FX repatriation friction** (foreign sellers): **EG Form 4** (without it: EGP-only exit during devaluation = catastrophic), **MA Office des Changes**, **VN SBV approval**, **ID Bank Indonesia documentation**, **TH FET form**, **PH BSP registration**, **ID restricted to original investment + accrued** — must verify at PURCHASE for clean exit
-13. **No-CGT zones**: **AE (no personal income tax)**, **GE (after 2 yrs)**, **DK primary residence**, **GR (suspended through 2026)** — material to exit timing
-14. **Earthquake / seismic disclosure** material to exit: **JP (Shin-Taishin 1981+ standard)**, **TR (post-Feb 2023 Kahramanmaraş)**, **NZ Wellington apartments**, **CL (post-2010 Maule)**
+13. **No-CGT zones**: **AE (no personal income tax)**, **GE (after 2 yrs)**, **DK primary residence**, **GR (suspended through 2026)**, **SG (no CGT — but SSD 4-12% if <3 yrs)**, **HK (no CGT for individuals — but SSD 10-20% if <36 months)**, **MO (no CGT — but SSD 5-20% if <24 months)**, **MC (no PIT/CGT)** — material to exit timing
+14. **Earthquake / seismic disclosure** material to exit: **JP (Shin-Taishin 1981+ standard)**, **TR (post-Feb 2023 Kahramanmaraş)**, **NZ Wellington apartments**, **CL (post-2010 Maule)**, **TW (post-2024 Hualien M7.4 + post-1999 921 Chi-Chi standards)**
+
+15. **Anti-speculation Special Stamp Duty regimes** (seller-side withholding triggered by short-hold flips): **SG SSD 4-12% if <3 yrs**, **HK SSD 10-20% if <36 months**, **MO SSD 5-20% if <24 months**, **TW HLTIT 2.0 45%/35%/20%/15% sliding by hold ≤2/2-5/5-10/>10 yrs (Jul 2021 reform)**, **KR multi-home top CGT up to 75% + 종부세 0.5-5% annually** — model into hold-period strategy
+16. **High-transparency price-history regimes without formal MLS**: **TW 實價登錄 (since 2012)**, **KR MOLIT 실거래가**, **SG URA caveats**, **HK Land Registry EPRC** — useful for buyer-side due-diligence even where MLS absent
+17. **Microstate / quota-restricted markets**: **LI (~40k pop, ~28 EEA + ~17 third-country/year by lottery)**, **MC (~38k pop, Sûreté Publique due-diligence + ~€500k bank deposit)**, **AD (~85k pop, ~75% non-Andorran, Llei 26/2024 STR + parish quotas)** — small-market price-discovery slow
 
 ## Anti-hallucination
 
@@ -677,4 +771,4 @@ For the property's country, return:
 
 ## Status
 
-Last refreshed: 2026-05-01. 18 countries added (Tier-1: US, TR, AE, JP, TH, DO, CO, UY, CL, ZA; Tier-2: GE, ID, MY, VN, PH, IL, MA, EG).
+Last refreshed: 2026-05-01. 9 Tier-3 countries added (SG, HK, KR, TW, MO, LI, MC, AD, MD) — total 71 countries (Tier-1: US, TR, AE, JP, TH, DO, CO, UY, CL, ZA; Tier-2: GE, ID, MY, VN, PH, IL, MA, EG; Tier-3: SG, HK, KR, TW, MO, LI, MC, AD, MD).
