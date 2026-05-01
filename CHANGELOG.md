@@ -52,20 +52,79 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
-_(no entries yet — next mid-month corrections will accumulate here under `2026.05.1`, `2026.05.2`, …; the next `.0` (`2026.06.0`) will be auto-tagged at end of June by `auto-tag.yml`)_
+_(no entries yet — next mid-month corrections will accumulate here under `2026.05.2`, `2026.05.3`, …; the next `.0` (`2026.06.0`) will be auto-tagged at end of June by `auto-tag.yml`)_
 
-### Added
+## [2026.05.1] - 2026-05-01
 
-- feat(countries): add Tier-3 — 9 🟢 EASY playbooks (SG, HK, KR, TW, LI, MO, AD, MC, MD) → 71 countries ([#69](https://github.com/soreavis/property-deep-dive/pull/69)) — by @soreavis
-- feat(countries): add Tier-4 — 8 🟡 MEDIUM playbooks (QA, SA, PE, EC, PY, AM, AZ, TN) → 79 countries ([#70](https://github.com/soreavis/property-deep-dive/pull/70)) — by @soreavis
-- feat(countries): add Tier-5 — 8 🟠 HARD playbooks (IN, NG, KE, JO, OM, BH, KW, LB) → 87 countries ([#71](https://github.com/soreavis/property-deep-dive/pull/71)) — by @soreavis
+Mid-month sprint adding **25 new country playbooks** in three tiers (62 → 87 countries) plus matching cross-cutting `shared/` table backfill. Same parallel-subagent research methodology as Tier-1/Tier-2; every playbook ends with a `## Status` footer (Confidence: HIGH, bare-date `**Last verified**: 2026-05-01`) and is fully sourced to primary government / regulated entity URLs.
+
+**Headline**:
+- 🌍 **25 new country playbooks** across 3 tiers (PR #69 Tier-3 EASY, PR #70 Tier-4 MEDIUM, PR #74 Tier-5 HARD — original Tier-5 PR #71 was retargeted)
+- 🧱 **13 cross-cutting `shared/` tables backfilled** for the 25 new countries (~+1,909 lines net)
+- 📍 **3 region buckets added / extended**: APAC (6 → 12), MENA (3 → 10), Africa (3 → 6); Caucasus renamed to "Caucasus & Eastern non-EU" (1 → 4); NEW "European Microstates" region (LI/AD/MC); Latin America (9 → 12)
+- 📈 **+22,690 country-playbook lines** + 1,909 shared/ lines = **+24,599 net skill content**
+
+### Added — Tier-3 (🟢 EASY, 9 countries — PR [#69](https://github.com/soreavis/property-deep-dive/pull/69))
+
+Open or near-open foreign-buyer regimes; mostly East Asia + European microstates + Moldova.
+
+- **🇸🇬 SG — Singapore** (632L) — ABSD 60% foreigner / 65% entity (eff. 27 Apr 2023), HDB closed to foreigners, RPA condo + Sentosa LDAU only, GIP S$10M/S$25M, STR <90d BANNED, SORA-only since 1 Jan 2025
+- **🇭🇰 HK — Hong Kong** (1,022L) — ALL cooling measures abolished 28 Feb 2024, 2047 Crown-lease question, rates 5% + Govt Rent 3%, CIES reactivated Mar 2024, STR <28d illegal
+- **🇰🇷 KR — South Korea** (640L) — Foreign Land Acquisition notification (reciprocity-based), RTMS real-price 실거래가 since 2006, jeonse fraud crisis 2022-24 + HUG insurance reform, F-2 Investor ₩600M 5yr, KRW free-float
+- **🇹🇼 TW — Taiwan** (652L) — 房屋稅 2.0 multi-home reform 1 Jul 2024, 房地合一稅 2.0 (foreigners flat 35-45%), Cross-Strait Act §69 PRC restrictions, NO golden-visa via RE, 2024 Hualien M7.4
+- **🇱🇮 LI — Liechtenstein** (510L) — GVG LR 214.11 effectively BANS non-residents, quota-based residency Auslosung lottery (NO investment-track), CHF currency union with CH since 1923, Sollertrag property-tax formula
+- **🇲🇴 MO — Macao SAR** (947L) — Land Law 10/2013 ALL state-leasehold, Stamp Duty stack ~12-15% non-resident all-in, Investment Residence SUSPENDED since 2007, Talent Programme 2024 NOT property-linked
+- **🇦🇩 AD — Andorra** (805L) — Llei 36/2024 òmnibus ~10% non-resident RE surcharge, parish-level cadastre (NO national), IRPF 0/5/10% (lowest WE), naturalization 20yr (NOT investment-pegged)
+- **🇲🇨 MC — Monaco** (450L) — OPEN to all nationalities, Loi n° 1.560 (Dec 2024) closed SCI 7.5% loophole — uniform 4.5%, NO annual property tax / NO CGT / NO PIT (UNIQUE — French nationals carved out via 1963 Convention)
+- **🇲🇩 MD — Moldova** (989L) — agri/forest BANNED to foreigners, MDL volatility 2022-24, Investor Residency Law 200/2010 €250k 5yr, CBI ENDED Law 100/2020, EU candidate Jun 2022, **Transnistria OUT OF SCOPE**
+
+Plus shared/ backfill for 9 Tier-3 countries: finance.md +25 · currency.md +25 · notary-process.md +9 · insurance.md +9 · retirement.md +117 · digital-nomad.md +32 · compare.md +133 · exit.md +94 · macro.md +67 · demographics.md +33 · esg.md +52 · crime-sources.md +67 · price-index-feeds.md +16 ≈ **+679 lines**.
+
+### Added — Tier-4 (🟡 MEDIUM, 8 countries — PR [#70](https://github.com/soreavis/property-deep-dive/pull/70))
+
+Mix of regulated GCC + Andean LATAM + Caucasus + North Africa.
+
+- **🇶🇦 QA — Qatar** (631L) — Law 16/2018: 9 freehold zones + 16 leasehold-99yr zones; QAR pegged USD 3.64 since 2001; NO recurring property tax / NO PIT / NO VAT yet (UNIQUE); PR Law 10/2018 ≥QAR 1M (capped ~100/yr); Investor Residency Law 21/2018 ≥QAR 730k; FIFA 2022 legacy + Lusail metro; NO citizenship-by-investment
+- **🇸🇦 SA — Saudi Arabia** (1,199L) — NEW Foreign Real Estate Ownership Law 7 Jan 2025 (eff. Jan 2026); Mecca/Medina BANNED non-Muslim (constitutional/religious — UNIQUE); NO recurring property tax (UNIQUE) BUT White Land Tax 2.5% idle urban; RETT 5%; VAT 15%; Premium Residency Vision 2030
+- **🇵🇪 PE — Peru** (1,164L) — Border Zone 50km BANNED non-citizens (Const. Art. 71); IGV 18% effective ~9% (50/50 terreno-construcción split); Pacific Ring of Fire HIGH seismic + tsunami + 2017/2023 El Niño catastrophic floods; USD ~30% Lima/coast pricing
+- **🇪🇨 EC — Ecuador** (848L) — CGT 0% if held >5 yrs (UNIQUE); USD officially adopted Sep 2000 (NO FX risk); IVA raised 12→13% from 1 Apr 2024 (security funding under Decreto Ejecutivo 110); 2024 Internal Armed Conflict Declaration; Censo 2022 final 16.9M
+- **🇵🇾 PY — Paraguay** (1,209L) — Border Zone Ley 2.532/2005 RURAL only (urban CDE/Encarnación OK); CGT effective ~2.4% (Ley 6.380/2019 30% taxable design — among LOWEST in S.America); territorial-source PIT; 2023 RBI tightening (Resolución SET 1186); Itaipú/Yacyretá #2 net electricity exporter
+- **🇦🇲 AM — Armenia** (1,075L) — HO-185-N Real Estate Tax phased reform 2021-2026 (2026 first FULL effect); HO-105-N IT 1% turnover regime extended to 31 Dec 2031 (UNIQUE); 1988 Spitak M6.8 baseline; Russian-relocant wave 2022-24; Karabakh out of cadastral scope post-2023
+- **🇦🇿 AZ — Azerbaijan** (1,087L) — Property tax m²-BASED not %-based (Tax Code Art. 198); AZN de-facto pegged USD 1.70 since 2017 (NOT formal currency-board, breached 2015 twice); 2020+2023 Karabakh + East Zangezur reintegration **out-of-scope for ordinary foreign-buyer DD**; SOFAZ FX-buffer ~US$60bn
+- **🇹🇳 TN — Tunisia** (757L) — GOVERNOR'S AUTHORIZATION required (6-12mo, no statutory appeal — Code des Droits Réels 1957) UNLESS in ONTT-designated Zone Touristique; BCT/Office des Changes FX gateway mandatory; titré-only safe; IMF EFF SUSPENDED Mar 2024
+
+Plus shared/ backfill for 8 Tier-4 countries: finance.md +8 · currency.md +8 · notary-process.md +8 · insurance.md +8 · retirement.md +99 · digital-nomad.md +28 · compare.md +131 · exit.md +80 · macro.md +70 · demographics.md +44 · esg.md +52 · crime-sources.md +65 · price-index-feeds.md +14 ≈ **+619 lines**.
+
+### Added — Tier-5 (🟠 HARD, 8 countries — PR [#74](https://github.com/soreavis/property-deep-dive/pull/74))
+
+Mix of populous emerging market (IN), highest-friction Africa (NG, KE), full GCC remainder (OM, BH, KW + JO Levant), and unique crisis context (LB).
+
+- **🇮🇳 IN — India** (1,421L) — DECENTRALIZED state cadastres (28 states + 8 UTs); NRI/OCI freely buy NOT agri/plantation/farmhouse; Foreign Nationals BANNED except inheritance + RBI permission; PK/BD/SL/AF/CN/IR/NP/BT need RBI approval EVEN for inheritance; **Finance Act 2024 LTCG 12.5% flat WITHOUT INDEXATION** (down from 20% with indexation — major structural reform); RERA 2016 mandatory; NO golden-visa via RE (UNIQUE)
+- **🇳🇬 NG — Nigeria** (1,066L) — Land Use Act 1978 abolished freehold (only 99yr leasehold via C of O); State Consent Fee 8-15% Lagos = transaction cost gateway; Naira float Jun 2023 + USD informal pricing; security risk Boko Haram+ISWAP+IPOB+banditry; energy autonomy mandatory (generators ubiquitous)
+- **🇰🇪 KE — Kenya** (1,201L) — 2010 Constitution Art. 65 non-citizens ONLY 99yr leasehold (auto-converted from freehold 27 Aug 2010); title fraud MAJOR risk; dual legacy cadastre RTA/RLA/GLA/LTA being unified via LIMS 2019-26; AHL 1.5% gross under judicial review; NO golden-visa via RE
+- **🇯🇴 JO — Jordan** (708L) — RECIPROCITY-based foreign-buyer; Property Sales Tax 9% (unified 2019) ~10-12% all-in HIGHEST MENA; **CGT 0% individuals on RE (UNIQUE)**; JOD pegged USD 0.7080 since 1995; **CBI Jordan since 2018** (JOD 750k bond — passport WEAK ~50 visa-free)
+- **🇴🇲 OM — Oman** (1,140L) — Royal Decree 12/2006 ITC-only freehold (Al Mouj/Muscat Hills/Hawana Salalah/Jebel Sifah/Saraya Bandar Jissah/The Wave + 2023-24 expansions); **Investor Residency Royal Decree 89/2021** OMR 250k 5yr / OMR 500k 10yr; Cyclone Gonu 2007+Mekunu 2018+Shaheen 2021 catastrophic
+- **🇧🇭 BH — Bahrain** (656L) — MOST OPEN GCC (Law 27/2017 extensive designated areas); VAT 10% (raised 2022); **0% PIT/CGT/CT (UNIQUE GCC even vs UAE 9% CT)**; BHD pegged USD 0.376 since 2001 (highest face-value globally); Bahrain Property Visa Decree 6/2017 BHD 200k 10yr + Golden Residency Decree 16/2022
+- **🇰🇼 KW — Kuwait** (1,154L) — MOST RESTRICTIVE GCC (Decree-Law 74/1979 non-GCC effectively BANNED); GCC reciprocity only; NO VAT yet (with Qatar last GCC holdouts); KWD basket-managed since 2007 (highest face-value globally ~USD 3.25); NO golden-visa via RE (UNIQUE GCC absence)
+- **🇱🇧 LB — Lebanon** (727L) — Decree-Law 11614/1969 + Law 296/2001 LAYERED CAPS (3,000 m² national + 3% territory cumulative + 3% per-district + 5yr build-or-forfeit); **POST-2019 BANKING CRISIS** (Lollar vs fresh USD); 2024 Israel-Hezbollah war Sep-Nov 2024; de-facto USD-dollarization 80%+ prime; Beirut Central District (Solidere) separate permissive regime
+
+Plus shared/ backfill for 8 Tier-5 countries: finance.md +25 · currency.md +24 · notary-process.md +16 · insurance.md +11 · retirement.md +98 · digital-nomad.md +35 · compare.md +101 · exit.md +82 · macro.md +70 · demographics.md +41 · esg.md +48 · crime-sources.md +72 · price-index-feeds.md +11 ≈ **+611 lines**.
 
 ### Changed
 
-- chore(release): cut 2026.05.0 ([#67](https://github.com/soreavis/property-deep-dive/pull/67)) — by @soreavis
-- feat(countries): add Tier-3 — 9 🟢 EASY playbooks (SG, HK, KR, TW, LI, MO, AD, MC, MD) → 71 countries ([#69](https://github.com/soreavis/property-deep-dive/pull/69)) — by @soreavis
-- feat(countries): add Tier-4 — 8 🟡 MEDIUM playbooks (QA, SA, PE, EC, PY, AM, AZ, TN) → 79 countries ([#70](https://github.com/soreavis/property-deep-dive/pull/70)) — by @soreavis
-- feat(countries): add Tier-5 — 8 🟠 HARD playbooks (IN, NG, KE, JO, OM, BH, KW, LB) → 87 countries ([#74](https://github.com/soreavis/property-deep-dive/pull/74)) — by @soreavis
+- `_regions.json` — APAC 6 → 12 (added SG/HK/KR/TW/MO + IN); MENA 3 → 10 (added QA/SA/JO/OM/BH/KW/LB); Africa 3 → 6 (added TN/NG/KE); Latin America 9 → 12 (added PE/EC/PY); Caucasus renamed to "Caucasus & Eastern non-EU" 1 → 4 (added MD/AM/AZ); NEW "European Microstates" region (LI/AD/MC). Total: 87 countries across 10 regions.
+- `skills/property-deep-dive/SKILL.md` — country count 62 → 87, country matrix table extended with 25 rows, file map updated, country-name list in description extended.
+- `README.md` — auto-synced via `scripts/sync-docs.py`: country count 62 → 87, AUTOGEN country-matrix block re-rendered, skill-content / repo-total counts refreshed.
+- `.claude-plugin/plugin.json` — marketplace-facing description "62 countries" → "87 countries".
+- `CLAUDE.md` — example "fill in tax rates for all 62 countries" updated to 87.
+- `.github/ISSUE_TEMPLATE/new-country.yml` — pre-flight checkbox label "(62 countries currently)" → "(87 countries currently)".
+- `shared/regulatory-watch.md` — header "62 countries × 22 sections" → "87 countries × 22 sections"; last-audit footer updated to reflect Tier-3/4/5 additions.
+- `shared/auto-validate.md` — sample report "62 countries validated" → "87 countries validated".
+
+### Fixed
+
+- Anti-hallucination NEAR_NUMBER trigger in `mo/playbook.md` — `circa 2001` → `c.2001` (CI guard rejects `circa +[0-9]`).
+- Markdown lint — MD058 in `mc/playbook.md` (blank line before quartier table); MD007 in `ke/playbook.md` (nested list 2sp → 4sp indent).
 
 ## [2026.05.0] - 2026-05-01
 

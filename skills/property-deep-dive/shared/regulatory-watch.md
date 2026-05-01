@@ -2,7 +2,7 @@
 
 A single date-stamped registry of property-relevant reforms, transposition deadlines, ENDED programs, and watchlist items. Maintained as the **single source of truth for "what changed when"** — playbooks reference this; this references playbooks.
 
-**Why it exists**: At 62 countries × 22 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
+**Why it exists**: At 87 countries × 22 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
 
 **Maintainer**: human + Claude. Each entry must have a primary-source URL, a verified date, and a next-revisit date.
 
@@ -484,4 +484,4 @@ Multi-line is fine if the entry is complex; the seven-pipe format is the canonic
 
 ---
 
-*Last full audit: 2026-05-01 (added 8 Tier-2 country sections: GE/ID/MY/VN/PH/IL/MA/EG — total 62 countries tracked). Next mandatory full audit: 2026-07-26 (quarterly).*
+*Last full audit: 2026-05-01 (added 25 Tier-3/4/5 country sections: SG/HK/KR/TW/LI/MO/AD/MC/MD + QA/SA/PE/EC/PY/AM/AZ/TN + IN/NG/KE/JO/OM/BH/KW/LB — total 87 countries tracked). Next mandatory full audit: 2026-07-26 (quarterly).*
