@@ -54,6 +54,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 _(no entries yet — next mid-month corrections will accumulate here under `2026.05.1`, `2026.05.2`, …; the next `.0` (`2026.06.0`) will be auto-tagged at end of June by `auto-tag.yml`)_
 
+### Changed
+
+- chore(release): cut 2026.05.0 ([#67](https://github.com/soreavis/property-deep-dive/pull/67)) — by @soreavis
+
 ## [2026.05.0] - 2026-05-01
 
 Major monthly cycle release. Country count **44 → 62** (+18 across two batches), 13 cross-cutting `shared/` tables backfilled to HIGH confidence for the new countries, workflow audit (27 → 22 workflows), `health-report.yml` decay-matrix bug fix, and accumulated Dependabot bumps.
