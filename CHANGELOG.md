@@ -61,6 +61,7 @@ _(no entries yet — next mid-month corrections will accumulate here under `2026
 ### Changed
 
 - chore(release): cut 2026.05.0 ([#67](https://github.com/soreavis/property-deep-dive/pull/67)) — by @soreavis
+- feat(countries): add Tier-3 — 9 🟢 EASY playbooks (SG, HK, KR, TW, LI, MO, AD, MC, MD) → 71 countries ([#69](https://github.com/soreavis/property-deep-dive/pull/69)) — by @soreavis
 
 ## [2026.05.0] - 2026-05-01
 
