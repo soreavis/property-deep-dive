@@ -255,7 +255,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 122 markdown files, ~63,400 lines (SKILL.md + 34 shared/ + 87 country playbooks).
-**Repo total**: 135 markdown files, ~65,600 lines (skill content + community / governance files + CHANGELOG) · 33 YAML / JSON config files (25 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 135 markdown files, ~65,700 lines (skill content + community / governance files + CHANGELOG) · 33 YAML / JSON config files (25 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

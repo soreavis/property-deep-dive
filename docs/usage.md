@@ -82,12 +82,20 @@ Renders a comparison matrix across France / Italy / Portugal for retiree-relevan
 
 | Flag | Effect |
 |---|---|
-| `--update` | Re-research mode for a country |
-| `--update --validate-only` | URL liveness only |
-| `--health-report` | Decay matrix per country / section |
+| `--update` | Full re-research + URL replace for a country (or all populated) |
+| `--update=<iso2>` | Re-research one specific country |
+| `--update --tier=A\|B\|C` | Refresh by cadence tier (A: 15 quarterly · B: 30 semi-annual · C: 42 annual). Tier membership in `_tiers.json` |
+| `--update --tier=A --include=<iso2>` | Force-include a non-canonical country in a tier run |
+| `--update --tier=A --exclude=<iso2>` | Skip a canonical tier country for one cycle |
+| `--update --validate-only` | URL liveness check only (no re-research) |
+| `--update --refresh-only` | Re-research data without URL check |
+| `--update --add=<iso2>` | Populate a scaffold country fully |
+| `--update --diff` | Preview planned changes without writing |
+| `--update --interactive` | Confirm each playbook before writing |
+| `--health-report` | Decay matrix per country / section + cadence early-warning |
 
 See [SKILL.md](../skills/property-deep-dive/SKILL.md) for the complete argument-hint string.
 
 ## Country support
 
-44 fully-populated country playbooks. Browse [`skills/property-deep-dive/countries/`](../skills/property-deep-dive/countries/) or see the [country matrix in README](../README.md#country-support).
+87 fully-populated country playbooks. Browse [`skills/property-deep-dive/countries/`](../skills/property-deep-dive/countries/) or see the [country matrix in README](../README.md#country-support--87-fully-populated).
