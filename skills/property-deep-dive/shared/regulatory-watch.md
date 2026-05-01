@@ -248,6 +248,86 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 - `2014-05 | risks | Sava + Bosna river floods (NOT Drava — common error; Drava is HR/SI) | RHMZ | 2026-04-26 | 2027-01-01 | 4 | --risks`
 
+### 🇺🇸 US
+
+- `2025-07-04 | tax | OBBBA (PL 119-21) reset SALT cap to $40k (sunset 2030); MID $750k cap permanent; §§ 25C/25D Energy Credits TERMINATED 31 Dec 2025; NRA estate exempt $15M (2026) | IRS + Congress.gov | 2026-05-01 | 2026-12-15 | 1 | --tax --finance --visa`
+- `2024-12-09 | risks | CFIUS 31 CFR Part 802 added 59 sites near military installations (foreign-buyer review) | Treasury OFAC | 2026-05-01 | 2026-11-01 | 2 | --risks --visa`
+- `2024-10 | mains | EPA Lead and Copper Rule Improvements (LCRI) — full lead-service-line replacement compliance 1 Nov 2027 | EPA | 2026-05-01 | 2026-11-01 | 2 | --mains`
+- `2025-09-01 | tax | Texas SB 17 foreign-buyer land restrictions effective | TX SOS | 2026-05-01 | 2026-11-01 | 2 | --visa --price`
+- `2024-08 | rental | NAR settlement unbundled buyer-agent commissions nationwide | NAR + DOJ | 2026-05-01 | 2026-08-01 | 2 | --price --exit`
+- `2023-04 | risks | NFIP Risk Rating 2.0 fully implemented | FEMA | 2026-05-01 | 2026-10-01 | 3 | --risks --insurance`
+
+### 🇹🇷 TR
+
+- `2024-01-01 | rental | Law 7464 Konut Hizmetleri Kanunu — STR licensing mandatory; post-31-Dec-2024 transition closed; fines 100k–1M TRY/property | Resmi Gazete + Kültür ve Turizm Bakanlığı | 2026-05-01 | 2026-08-01 | 2 | --rental`
+- `2022-06-13 | visa | CBI threshold raised USD 250k → USD 400k; 3-year non-resale lock; some districts excluded | Cumhurbaşkanlığı kararı | 2026-05-01 | 2026-08-01 | 1 | --visa --price`
+- `2023-02 | risks | Kahramanmaraş M7.8 + M7.5 earthquake → regulatory tightening (yapı denetim + Law 6306 kentsel dönüşüm acceleration + DASK enforcement); TBDY 2018 building code becoming effective baseline | AFAD + Çevre Bakanlığı | 2026-05-01 | 2026-09-01 | 1 | --risks --insurance`
+- `2025-09 | tax | Land+Building Tax (Emlak Vergisi) reduction Cabinet resolution renewed annually — verify 2026 status | GİB + Resmi Gazete | 2026-05-01 | 2026-12-31 | 2 | --tax`
+- `2026-2029 | tax | Rayiç bedel cycle — base values for Emlak Vergisi reset every 4 yrs; 2026-2029 cycle showing 3-5× nominal jumps under litigation | TKGM + Belediyeler | 2026-05-01 | 2027-01-01 | 2 | --tax`
+
+### 🇦🇪 AE
+
+- `2024-04 | risks | Record Dubai floods exposed drainage limits → Tasreef stormwater plan phased to 2033 (interim AED 277m completed Jun 2025) | Dubai Municipality | 2026-05-01 | 2026-11-01 | 2 | --risks --insurance`
+- `2025 | finance | Dubai Law 2/2025 — DIFC Wills direct enforcement for non-Muslim expats | DIFC Courts | 2026-05-01 | 2026-10-01 | 2 | --finance --notary`
+- `2023-06 | tax | Federal Corporate Tax 9% effective from Jun 2023 — applies to commercial property held in qualifying entities above AED 375k threshold; individual ownership unaffected | FTA UAE | 2026-05-01 | 2026-09-01 | 2 | --tax --finance`
+- `2025 | rental | RERA Smart Rental Index expanded to A/B/C/D building-quality scoring; brackets refreshed | DLD + RERA | 2026-05-01 | 2026-09-01 | 2 | --rental`
+- `2022-10 | visa | Cabinet Decision 65/2022 expanded Golden Visa RE route to AED 2M (single or aggregate); off-plan + escrow eligible | ICP + DLD | 2026-05-01 | 2026-08-01 | 1 | --visa`
+
+### 🇯🇵 JP
+
+- `2023-12 | tax | 空家特措法 (Vacant Houses Special Measures Act) 改正 — 管理不全空家 designation can revoke 1/6 land tax exemption (~6× annual fixed-asset bill on land portion) | MLIT | 2026-05-01 | 2026-09-01 | 2 | --tax --risks`
+- `2024-04-01 | finance | 民法改正 (Civil Code reform) — mandatory inheritance registration within 3 yrs (¥50k fine), 2-yr address-change registration; foreign-heir traps | 法務省 | 2026-05-01 | 2026-09-01 | 2 | --finance --notary`
+- `2024-2025 | finance | BoJ rate normalization (Mar 2024 NIRP exit → Jul 2024 0.25% → Jan 2025 0.5% → Dec 2025 ~0.75%); mortgage variable rates rising; Flat 35 applications +50% YoY Q3 2025 | BoJ | 2026-05-01 | 2026-08-01 | 1 | --finance --price`
+- `2018-06 | rental | 民泊法 Minpaku law 180-night/yr cap; 2025 Tokyo + Kyoto + Osaka ward-level overlay restrictions intensifying | 観光庁 民泊ポータル | 2026-05-01 | 2026-09-01 | 2 | --rental`
+- `2022-09-20 | risks | 重要土地等調査法 (Important Land Investigation Act) effective; 注視区域 around defense / border / nuclear facilities; reporting may apply to certain residential transactions | 内閣府 | 2026-05-01 | 2026-10-01 | 2 | --risks --visa`
+
+### 🇹🇭 TH
+
+- `2020-01 | tax | Land and Building Tax Act BE 2562 (2019) effective — first national property tax; rates 0.01–0.7% by use; annual Royal Decree reductions | Revenue Department | 2026-05-01 | 2026-08-01 | 1 | --tax`
+- `2024-mid | visa | Destination Thailand Visa (DTV) launched — 5-yr multi-entry, 180 days/stay, THB 500k savings + freelance/remote-worker proof | MFA Thailand + Immigration Bureau | 2026-05-01 | 2026-08-01 | 2 | --visa --digital-nomad`
+- `2024-2025 | rental | Hotel Act §4 STR enforcement intensifying — STR <30 nights without hotel license illegal; varies by province; Bangkok / Phuket leading enforcement | DBD + provincial governors | 2026-05-01 | 2026-08-01 | 2 | --rental`
+- `2024-2025 | visa | Proposed 99-yr lease + 75% condo quota — under Cabinet discussion; NOT enacted as of May 2026 | Cabinet of Thailand | 2026-05-01 | 2026-09-01 | 2 | --visa --price`
+- `2024 | tax | Foreign-source income remittance taxation — Revenue Dept interpretation evolving | Revenue Department | 2026-05-01 | 2026-08-01 | 2 | --tax --visa`
+
+### 🇩🇴 DO
+
+- `2017 | finance | AML Ley 155-17 + UAF — beneficial-owner disclosure + source-of-funds proof for property transactions | UAF | 2026-05-01 | 2026-12-01 | 3 | --finance --notary`
+- `2022 | risks | Hurricane Fiona (Sept 2022) → MOPC R-007 amendments to track | MOPC | 2026-05-01 | 2026-10-01 | 3 | --risks --insurance`
+- `2025 | tax | IPI threshold DOP 9,860,649 (2025) — indexed annually; CONFOTUR-registered tourism projects 100% IPI + transfer + ITBIS exempt ~15 yrs | DGII + MITUR | 2026-05-01 | 2027-01-01 | 2 | --tax`
+- `ongoing | visa | Investor residency USD 200k → 2-3-yr citizenship — fast-track to passport; CONFOTUR-registered RE benefits stack | Migración + MITUR | 2026-05-01 | 2026-09-01 | 2 | --visa`
+
+### 🇨🇴 CO
+
+- `2020 | finance | Decreto 1339/2020 — Catastro multipropósito national rollout; closing avalúo-vs-comercial gap; some areas seeing 2-3× predial bills | IGAC + DNP | 2026-05-01 | 2026-09-01 | 2 | --tax --price`
+- `2024 | rental | Bogotá Decreto 538/2024 — 10% STR lodging tax + RNT mandatory | Alcaldía Bogotá + MITUR | 2026-05-01 | 2026-08-01 | 2 | --rental`
+- `2024 | rental | Medellín El Poblado Acuerdo 056/2024 — STR restrictions evolving | Concejo Medellín | 2026-05-01 | 2026-08-01 | 2 | --rental`
+- `2022 | tax | Ley 2277/2022 reforma tributaria — gan. ocas. 15%, wealth tax above UVT threshold | DIAN + MinHacienda | 2026-05-01 | 2026-12-01 | 2 | --tax`
+- `ongoing | visa | Migratorio M visa real-estate route 350× SMLMV (~USD 125k 2026); 650× → PR-eligible after 5 yrs | Cancillería + Migración | 2026-05-01 | 2026-09-01 | 2 | --visa`
+
+### 🇺🇾 UY
+
+- `2021 | tax | Ley 19.937 — 11-year exemption on foreign interest+dividends for new tax residents (extends Ley 18.083); major wealth-relocation magnet from AR/BR | MEF + DGI | 2026-05-01 | 2026-12-01 | 1 | --tax --visa`
+- `2020 | tax | Decreto 138/020 + 153/020 — lowered RE investment threshold to UI 3.5M (~USD 470k) for tax residency | MEF + DGI | 2026-05-01 | 2026-12-01 | 2 | --tax --visa`
+- `2018 | finance | Ley 19.210 financial inclusion — cash-payment caps 40,000 UI for property AML | BCU + MEF | 2026-05-01 | 2026-12-01 | 3 | --finance --notary`
+- `ongoing | rental | Maldonado STR Receptive Operator registration — STR municipal regulation in flux 2026 | Intendencia de Maldonado | 2026-05-01 | 2026-08-01 | 2 | --rental`
+
+### 🇨🇱 CL
+
+- `2020 | tax | Sobretasa Ley 21.210 — 0.275–0.425% on aggregate property > UF 670; ongoing tramo adjustments via Ley 21.713 reform | SII + MinHacienda | 2026-05-01 | 2026-12-01 | 2 | --tax`
+- `2022-2024 | risks | Código de Aguas reform — water rights modifications; mega-drought central+north intensifying | DGA + MinAgricultura | 2026-05-01 | 2026-10-01 | 2 | --risks --mains`
+- `2023 | finance | Condominio Ley 21.442 — replaced Ley 19.537; new HOA framework | MinVivienda + Conservadores | 2026-05-01 | 2026-11-01 | 3 | --finance --notary`
+- `2011 | risks | NCh 433 Mod DS 61/2011 — post-2010 Maule earthquake building-code revision raised seismic standards | MINVU | 2026-05-01 | 2027-01-01 | 1 | --risks`
+- `ongoing | rental | STR comuna ordinances evolving — Las Condes / Providencia / Vitacura tightening 2024-2026 | Municipios | 2026-05-01 | 2026-08-01 | 2 | --rental`
+
+### 🇿🇦 ZA
+
+- `2025-01 | finance | Expropriation Act 13 of 2024 assented Jan 2025 — Constitutional challenges pending; theoretical risk for residential land but practical urban risk remains low | Constitutional Court + DALRRD | 2026-05-01 | 2026-09-01 | 1 | --finance --visa`
+- `2024-08 | rental | Tourism Amendment Bill regulating Airbnb pending; municipal rules vary (Cape Town requires temporary land-use rights for STR in some zones) | Tourism Dept + municipalities | 2026-05-01 | 2026-08-01 | 2 | --rental`
+- `2024-02-28 | tax | Solar PV individual rebate (up to R15,000) expired 28 Feb 2024 — verify if extended in 2026/27 Budget | SARS + Treasury | 2026-05-01 | 2026-08-01 | 3 | --tax --esg`
+- `2025-26 | tax | SARS Transfer Duty Schedule 8 — exempt below R1.1M, progressive to 13% above R12M; verify exact brackets each tax year | SARS | 2026-05-01 | 2026-12-01 | 2 | --tax`
+- `2024-2025 | risks | Eskom load-shedding declined via Operation Vulindlela + private generation; backup power still common in upper-middle market | Eskom + DMRE | 2026-05-01 | 2026-09-01 | 3 | --risks --finance`
+- `2022-02 | finance | Property Practitioners Act 22/2019 (PPRA) replaced EAAB Feb 2022 — new agent regulation + FFC requirements | PPRA | 2026-05-01 | 2027-01-01 | 3 | --finance --notary`
+
 ---
 
 ## EU directive transposition deadlines
@@ -338,4 +418,4 @@ Multi-line is fine if the entry is complex; the seven-pipe format is the canonic
 
 ---
 
-*Last full audit: 2026-04-26. Next mandatory full audit: 2026-07-26 (quarterly).*
+*Last full audit: 2026-05-01 (added 10 country sections: US/TR/AE/JP/TH/DO/CO/UY/CL/ZA). Next mandatory full audit: 2026-07-26 (quarterly).*

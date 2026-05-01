@@ -34,7 +34,15 @@ For the property's country, return:
 11. **Montenegro CBI** — ENDED 31 Dec 2022.
 12. **Albania CBI** — proposed 2020+ but **never launched**; do not list.
 
-**NEW / CHANGED programs (Apr 2026)**:
+**NEW / CHANGED programs (May 2026)**:
+
+- **Turkey CBI threshold history**: USD 250,000 (Sep 2018) → **USD 400,000 (13 Jun 2022)** — verify any 2026 Cumhurbaşkanlığı kararı; some districts (esp. İstanbul Beyoğlu / Beşiktaş + earthquake-zone municipalities) periodically excluded; 3-year non-resale lock active.
+- **Thailand DTV (Destination Thailand Visa)** — NEW launched **mid-2024**; 5-yr multi-entry, 180 days/stay, THB 500k savings + freelance/remote-worker proof; digital-nomad targeted.
+- **Thailand LTR Visa** — launched 2022 (4 categories); foreign-source income exempt for some categories per RD interpretation; 10-yr renewable.
+- **AE Golden Visa expansion** — Cabinet Decision 65/2022 expanded RE route to AED 2M (single or aggregate); off-plan + escrow eligible; 10-yr renewable; family included.
+- **JP J-Find / J-Skip** (post-2023) — new fast-track for top-100-uni grads + HSP-equivalent income earners.
+- **ZA Remote Work Visa** (Critical Skills extension, 2024) — NEW; ZAR 1M+ income working for foreign employer; 3-yr.
+- **US OBBBA (PL 119-21, 4 Jul 2025)** — non-immigration but tax-relevant for property holders: SALT cap raised to $40k (sunset 2030), MID $750k permanent, NRA estate exempt $15M (2026); EB-5 RIA reauth through 30 Sep 2027.
 
 - **Montenegro Residency by Property** — NEW threshold **€150,000 tax-assessed value** (not contract price) effective **17 Jan 2026**. Pre-Jan-2026 holders grandfathered.
 - **NZ Active Investor Plus** — REVISED **1 Apr 2025**: NZD 5m / 3 yrs (Growth) or NZD 10m / 5 yrs (Balanced). Presence reduced to 21 days (Growth) or 105 days (Balanced). Early 2026 reform allows AIP holders to buy 1 residential property min NZD 5m.
@@ -138,6 +146,11 @@ For the property's country, return:
 | AU | ~~SIV (188C) / BIIP~~ | **CLOSED 31 Jul 2024** | n/a | n/a | Onshore 188 holders may still progress to 888 if eligible | No new applications |
 | AU | National Innovation Visa (NIV) | OPEN — INVITATION ONLY | **No investment threshold** | No | Direct PR | Skill/talent-based; **NO investor stream** |
 | NZ | Active Investor Plus (AIP) — REVISED 1 Apr 2025 | OPEN | **NZD 5m / 3 yrs (Growth)** OR **NZD 10m / 5 yrs (Balanced)** | YES (early 2026: 1 residential property min NZD 5m for offshore-based AIP holders) | Direct resident visa; presence 21 days/3 yrs (Growth) or 105 days/5 yrs (Balanced) | Reduced from NZD 15m + 164 days/4 yrs |
+| US | EB-5 Immigrant Investor (Reform & Integrity Act 2022) | OPEN | **USD 1.05M** standard / **USD 800K** TEA (Targeted Employment Area) | No (passive RE syndication via regional center is debated under RIA) | Conditional GC 2 yrs → permanent → naturalisation 5 yrs | RIA reauth through 30 Sep 2027; jobs requirement 10 per investor; concurrent filing with adjustment of status now possible |
+| US | E-2 Treaty Investor | OPEN — TREATY-COUNTRY ONLY | No statutory minimum (~USD 100k+ guideline; "substantial" + active) | No (active business) | Renewable indefinitely (NOT a green-card path); spouse work auth | **NO Indian / Chinese / Brazilian / South African passports**; verify treaty list at travel.state.gov |
+| US | E-1 Treaty Trader | OPEN — TREATY-COUNTRY ONLY | Substantial trade volume between US and treaty country | No | Renewable indefinitely | Like E-2, NOT GC path |
+| US | EB-1A / EB-2 NIW | OPEN | No investment — extraordinary ability or US national interest | No | Direct GC | Self-petition; no employer sponsor needed |
+| US | E-3 (AU only) / H-1B / L-1 | OPEN — VARIOUS | Employment-based | No | EB-2/EB-3 GC pathway | E-3 AU-citizen-only |
 
 ### Latin America
 
@@ -156,25 +169,68 @@ For the property's country, return:
 | PA | Qualified Investor Visa | OPEN — DEFERRED INCREASE | **US$300,000 RE** (gov maintained at $300k through Oct 2026) | YES | Direct PR; citizenship 5 yrs | |
 | PA | Pensionado | OPEN | US$1,000/mo lifetime pension | No | Direct PR; citizenship 5 yrs | Strong tax/discount perks |
 | PA | Self-Solvent | OPEN | US$300,000 PA bank fixed-term (3 yrs) | No | Temp → PR | |
+| DO | Investor Residency (Ley 171-07) | OPEN | **US$200,000** investment (RE eligible) | YES | Direct PR (1 yr provisional → permanent); citizenship after 2 yrs PR (Ley 1683 + Ley 285-04) | Fast-track to passport (~3 yrs total); CONFOTUR-registered RE benefits stack |
+| DO | Pensionado / Rentista (Ley 171-07) | OPEN | **US$1,500/mo pension** OR **US$2,000/mo passive income** | No | Direct PR; citizenship 2 yrs PR | Generous low threshold |
+| CO | Migratorio M visa (real-estate route) | OPEN | **≥350× SMLMV** (~COP 498M / ~USD 125k 2026); ≥650× → PR-eligible after 5 yrs | YES | M-visa 3 yrs → R-visa PR after 5 yrs of M (or 2 yrs if Colombian-citizen spouse) | SMLMV adjusts annually; verify MinTrabajo |
+| CO | Migratorio M (Pensionado) | OPEN | **≥3× SMLMV monthly pension** (~USD 1,070) | No | M-visa 3 yrs → R-visa PR | Easier pensioner route |
+| CO | Migratorio M (Rentista) | OPEN | **≥10× SMLMV monthly passive income** (~USD 3,560) | No | M-visa → R-visa | |
+| UY | Tax Residency (real-estate route — Decreto 138/020 + 153/020) | OPEN | **UI 3,500,000** RE investment (~USD 470k) + 60 days/yr presence | YES | Tax-residency for IRPF; PR pathway separate via Migración | **11-yr exemption on foreign interest+dividends (Ley 19.937)** — extends to 5+5 with 12% IRPF after; major wealth-relocation magnet |
+| UY | Permanent Residency (Investor / Rentista) | OPEN | No statutory min; ~USD 1,500-2,000/mo passive shown | Possibly | Direct PR; citizenship 3 yrs (married) / 5 yrs (single) after PR | Among easier LatAm citizenship paths |
+| CL | Permanent Residency (1-yr Sujeto a Contrato or Profesional path) | OPEN | Employment / income demonstration | No | Sujeto a Contrato → PR after 1 yr; citizenship 5 yrs after PR | Lifestyle / DN-friendly |
+| CL | Investor Visa (Inversionista) | OPEN | Real investment in CL business (no fixed min — case-by-case) | Possibly | Visa → PR | RE alone NOT sufficient — must be productive investment |
+
+### Türkiye & Middle East
+
+| Country | Programme | Status | Min. threshold | Property-linked? | PR/citizenship | Caveats |
+|---|---|---|---|---|---|---|
+| TR | Citizenship by Investment (CBI — RE route) | OPEN | **USD 400,000** RE (raised from USD 250k in **Jun 2022** — verify current Cumhurbaşkanlığı kararı + ilçe exclusions) | YES | **Direct citizenship** (no residency requirement); 3-yr non-resale lock | Single property OR aggregate; some districts excluded; CBI also via USD 500k bank deposit / USD 500k govt bonds / USD 500k VC fund / USD 500k pension fund / 50 Turkish-citizen jobs |
+| TR | Turquoise Card (Talent / Investment) | OPEN | Investment / extraordinary skills (case-by-case) | Possibly | 3-yr provisional → permanent | Separate from CBI |
+| TR | Short-Term Residency (Property-owner) | OPEN | Property ownership OR sufficient funds | YES (property route) | 1-2 yr renewable; 8-yr cumulative for naturalisation | Common for non-CBI buyers |
+| AE | Golden Visa (Real-Estate route, Cabinet Decision 65/2022 expanded) | OPEN | **AED 2,000,000** RE (single or aggregate); off-plan eligible if developer registered + escrow | YES | 10-yr renewable; family included; outside-residency allowed | NO citizenship path; AED 750k for **2-yr investor visa** |
+| AE | Green Visa (skilled professional / freelancer) | OPEN | Skilled work + degree / freelance permit + USD 100k income proof / investor profile | No | 5-yr renewable; sponsor self | Decoupled from employer |
+| AE | Retirement Visa (Resident retirees, ≥55) | OPEN | **AED 1M property** OR **AED 1M savings** OR **AED 20k/mo income** | YES (property route) | 5-yr renewable | |
+| AE | Long-term Investor Visa | OPEN | AED 2M+ in business / partnership / RE | YES | 10-yr | Overlaps with Golden Visa |
+
+### Asia-Pacific
+
+| Country | Programme | Status | Min. threshold | Property-linked? | PR/citizenship | Caveats |
+|---|---|---|---|---|---|---|
+| JP | Highly Skilled Professional (HSP) — points-based | OPEN | 70+ pts (academic/career/income/age) | No | 1-3 yr → PR fast-track (1 yr at 80 pts, 3 yrs at 70 pts) | Cleanest skilled-immigration path |
+| JP | Business Manager Visa | OPEN | **JPY 5M** (~USD 33k) capital + active business + 2 employees OR JPY 5M | No | 1-3-5 yr; PR ~10 yrs (or 1-3 via HSP) | Substance scrutiny |
+| JP | Investor Visa | OPEN — DE FACTO | Active business management — passive RE NOT sufficient | No | Same as Business Manager | Passive landlord-only applicants typically rejected |
+| JP | J-Find / J-Skip (post-2023) | OPEN | Top-100-uni grad (J-Find) OR HSP-equivalent income (J-Skip) | No | 2-yr job-search (J-Find) / direct work permit (J-Skip) | New 2023 programs |
+| TH | Thailand Privilege (formerly Thailand Elite — restructured 2023) | OPEN | **THB 900k–5M** (Gold 5yr → Reserve 20yr) | No | Long-stay multi-entry visa; NO PR/citizenship path | Pure visa-convenience product |
+| TH | Long-Term Resident (LTR) Visa (4 categories) | OPEN | Wealthy Global Citizen (USD 1M assets + USD 80k/yr income); Wealthy Pensioner (USD 80k/yr OR USD 40-80k + USD 250k investment); Work-from-Thailand Pro (USD 80k/yr); Highly Skilled Pro (USD 80k/yr) | No | 10-yr renewable; tax benefits (foreign-source income exempt for some categories per RD interpretation) | Major upgrade vs Privilege |
+| TH | Destination Thailand Visa (DTV) — launched mid-2024 | OPEN | **THB 500,000** savings + freelance/remote-worker proof | No | 5-yr multi-entry, 180 days/stay | Digital-nomad targeted |
+
+### Africa
+
+| Country | Programme | Status | Min. threshold | Property-linked? | PR/citizenship | Caveats |
+|---|---|---|---|---|---|---|
+| ZA | Critical Skills Work Visa | OPEN | On Critical Skills List (gazetted Feb 2022 — verify next gazette) | No | 5-yr; PR application after 5 yrs continuous | New list expected; verify DHA |
+| ZA | Business Visa | OPEN | **ZAR 5M** investment (waiver possible) + 5 SA jobs (60% locals) | No | 3-yr; PR after 5 yrs | Substance + jobs requirements |
+| ZA | Financially Independent Permit (PR direct) | OPEN | **ZAR 12M+ net worth** + ZAR 120k application fee | No | Direct PR | "Wealthy individual" route — passive |
+| ZA | Retired Person Visa | OPEN | **ZAR 37,000/mo** pension/income for life OR ZAR 1.5M+ lump sum | No | 4-yr renewable | Generous low threshold relative to peers |
+| ZA | Remote Work Visa (Critical Skills extension, 2024) | OPEN — NEW | Annual income **ZAR 1M+** working for foreign employer | No | 3-yr | New 2024 framework |
 
 ---
 
 ## Cross-cutting decision-helper
 
-**Class A — Property purchase IS a direct visa route (Apr 2026)**:
-GR (€800k/€400k/€250k tiers, 120 sqm), CY PR (€300k), LV (€250k Riga radius, built only), MT MPRP (verify post-ECJ), RS / BA (no min, habitable), ME (€150k tax-assessed, since 17 Jan 2026), BR (BRL 700k N/NE; BRL 1m elsewhere), CR (US$150k incl. RE), PA Friendly Nations (US$200k) / Qualified Investor (US$300k), NZ AIP (after AIP residency, min NZD 5m).
+**Class A — Property purchase IS a direct visa route (May 2026)**:
+GR (€800k/€400k/€250k tiers, 120 sqm), CY PR (€300k), LV (€250k Riga radius, built only), MT MPRP (verify post-ECJ), RS / BA (no min, habitable), ME (€150k tax-assessed, since 17 Jan 2026), BR (BRL 700k N/NE; BRL 1m elsewhere), CR (US$150k incl. RE), PA Friendly Nations (US$200k) / Qualified Investor (US$300k), NZ AIP (after AIP residency, min NZD 5m), **TR CBI (USD 400k)**, **AE Golden Visa (AED 2M)**, **DO Investor Residency (USD 200k)**, **CO Migratorio M (350× SMLMV ~USD 125k)**, **UY Tax-Residency (UI 3.5M ~USD 470k)**, **AE Retirement Visa (AED 1M property)**.
 
 **Class B — Property NOT a direct route, but supports a residency case**:
-FR, IT, DE, AT, CH, NL, BE, LU, SE, FI, NO, DK, IE, SI, CZ, SK, PL, HU, EE, LT, HR, RO (current law), BG.
+FR, IT, DE, AT, CH, NL, BE, LU, SE, FI, NO, DK, IE, SI, CZ, SK, PL, HU, EE, LT, HR, RO (current law), BG, **JP** (RE alone insufficient — Business Manager visa needs active business), **TH** (LTR Wealthy Pensioner allows USD 250k investment which CAN be RE), **CL**, **ZA**, **US** (E-2 active business required; EB-5 USD 800k TEA structured RE deals exist via regional centers).
 
 **Class C — ENDED / never offered; do not promise visa via property**:
-ES Golden Visa (Apr 2025), IE IIP (Feb 2023), PT Golden Visa via RE (Oct 2023), CY CBI (Nov 2020), BG CBI (Apr 2022), HU RE option (Jan 2025), AU SIV (Jul 2024), UK Tier 1 (Feb 2022), MT MEIN (ECJ Apr 2025).
+ES Golden Visa (Apr 2025), IE IIP (Feb 2023), PT Golden Visa via RE (Oct 2023), CY CBI (Nov 2020), BG CBI (Apr 2022), HU RE option (Jan 2025), AU SIV (Jul 2024), UK Tier 1 (Feb 2022), MT MEIN (ECJ Apr 2025), **TH 99-yr lease + 75% condo quota** (proposed 2024-25 — NOT enacted as of May 2026).
 
 ---
 
 ## Government portals (always link for runtime verification)
 
-PT AIMA https://aima.gov.pt/ · ES Exteriores https://www.exteriores.gob.es/ · GR Migration Ministry https://migration.gov.gr/en/ · MT Identità https://www.identita.gov.mt/ · CY MOI https://moi.gov.cy/ · IT Visa portal https://vistoperitalia.esteri.it/ · FR Welcome to France https://www.welcometofrance.com/ · DE Make it in Germany https://www.make-it-in-germany.com/ · AT Migration https://www.migration.gv.at/ · CH EFD lump-sum https://www.efd.admin.ch/en/lump-sum-taxation · NL IND https://ind.nl/ · BE IBZ DOFI https://dofi.ibz.be/ · LU Guichet https://guichet.public.lu/ · IE INIS https://www.irishimmigration.ie/ · UK GOV.UK https://www.gov.uk/ · CZ IPC https://ipc.gov.cz/ · SK MIC https://mic.iom.sk/ · SI GOV.SI https://www.gov.si/ · PL gov.pl https://www.gov.pl/web/diplomacy · HU OIF https://oif.gov.hu/ · EE e-Residency https://www.e-resident.gov.ee/ + Politsei https://www.politsei.ee/ · LV PMLP https://www.pmlp.gov.lv/en · LT Migration https://www.migracija.lt/en/ · HR MUP https://mup.gov.hr/ · RO IGI https://igi.mai.gov.ro/en/ · BG MVR https://www.mvr.bg/migration · AU DHA https://immi.homeaffairs.gov.au/ · NZ INZ https://www.immigration.govt.nz/ · CA IRCC https://www.canada.ca/en/immigration-refugees-citizenship.html · QC MIFI https://www.quebec.ca/en/immigration · MX INM https://www.inm.gob.mx/ · BR Portal de Imigração https://portaldeimigracao.mj.gov.br/ · AR DNM https://www.argentina.gob.ar/interior/migraciones · CR DGME https://www.migracion.go.cr/ · PA SNM https://www.migracion.gob.pa/ · RS Welcome to Serbia https://welcometoserbia.gov.rs/ · ME MUP https://www.gov.me/en/mup · BA SPS http://sps.gov.ba/ · MK MOI https://mvr.gov.mk/ · AL e-Albania https://e-albania.al/
+PT AIMA https://aima.gov.pt/ · ES Exteriores https://www.exteriores.gob.es/ · GR Migration Ministry https://migration.gov.gr/en/ · MT Identità https://www.identita.gov.mt/ · CY MOI https://moi.gov.cy/ · IT Visa portal https://vistoperitalia.esteri.it/ · FR Welcome to France https://www.welcometofrance.com/ · DE Make it in Germany https://www.make-it-in-germany.com/ · AT Migration https://www.migration.gv.at/ · CH EFD lump-sum https://www.efd.admin.ch/en/lump-sum-taxation · NL IND https://ind.nl/ · BE IBZ DOFI https://dofi.ibz.be/ · LU Guichet https://guichet.public.lu/ · IE INIS https://www.irishimmigration.ie/ · UK GOV.UK https://www.gov.uk/ · CZ IPC https://ipc.gov.cz/ · SK MIC https://mic.iom.sk/ · SI GOV.SI https://www.gov.si/ · PL gov.pl https://www.gov.pl/web/diplomacy · HU OIF https://oif.gov.hu/ · EE e-Residency https://www.e-resident.gov.ee/ + Politsei https://www.politsei.ee/ · LV PMLP https://www.pmlp.gov.lv/en · LT Migration https://www.migracija.lt/en/ · HR MUP https://mup.gov.hr/ · RO IGI https://igi.mai.gov.ro/en/ · BG MVR https://www.mvr.bg/migration · AU DHA https://immi.homeaffairs.gov.au/ · NZ INZ https://www.immigration.govt.nz/ · CA IRCC https://www.canada.ca/en/immigration-refugees-citizenship.html · QC MIFI https://www.quebec.ca/en/immigration · MX INM https://www.inm.gob.mx/ · BR Portal de Imigração https://portaldeimigracao.mj.gov.br/ · AR DNM https://www.argentina.gob.ar/interior/migraciones · CR DGME https://www.migracion.go.cr/ · PA SNM https://www.migracion.gob.pa/ · RS Welcome to Serbia https://welcometoserbia.gov.rs/ · ME MUP https://www.gov.me/en/mup · BA SPS http://sps.gov.ba/ · MK MOI https://mvr.gov.mk/ · AL e-Albania https://e-albania.al/ · **US** USCIS https://www.uscis.gov/ + travel.state.gov https://travel.state.gov/ · **TR** Göç İdaresi https://www.goc.gov.tr/ + Cumhurbaşkanlığı CBI https://www.cb.gov.tr/ · **AE** ICP https://icp.gov.ae/ + GDRFA Dubai https://www.gdrfad.gov.ae/ · **JP** Immigration Services Agency https://www.isa.go.jp/ · **TH** Immigration Bureau https://www.immigration.go.th/ + LTR Visa https://ltr.boi.go.th/ + Thailand Privilege https://thailandprivilege.co.th/ · **DO** Migración https://migracion.gob.do/ · **CO** Migración Colombia https://www.migracioncolombia.gov.co/ · **UY** DNM https://www.gub.uy/ministerio-interior/dnm · **CL** Servicio Migraciones https://serviciomigraciones.cl/ · **ZA** DHA https://www.dha.gov.za/
 
 ---
 
@@ -186,4 +242,4 @@ PT AIMA https://aima.gov.pt/ · ES Exteriores https://www.exteriores.gob.es/ · 
 
 ## Status
 
-Last refreshed: 2026-04-26. Next refresh: monthly (high-volatility programs PT/ES/MT/CY/AR), quarterly (others), per-event (any reform announcement).
+Last refreshed: 2026-05-01. Next refresh: monthly (high-volatility programs PT/ES/MT/CY/AR/TR/TH/AE), quarterly (others), per-event (any reform announcement).

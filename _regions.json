@@ -9,12 +9,12 @@
     {
       "id": "anglo",
       "label": "Anglo non-EU",
-      "codes": ["ca", "au", "nz"]
+      "codes": ["ca", "au", "nz", "us"]
     },
     {
       "id": "latam",
       "label": "Latin America",
-      "codes": ["mx", "br", "ar", "cr", "pa"]
+      "codes": ["mx", "br", "ar", "cr", "pa", "do", "co", "uy", "cl"]
     },
     {
       "id": "balkans",
@@ -25,6 +25,21 @@
       "id": "eu_completion",
       "label": "EU completion",
       "codes": ["lt", "lv", "ro", "bg", "lu", "cy", "mt"]
+    },
+    {
+      "id": "mena",
+      "label": "Türkiye & Middle East",
+      "codes": ["tr", "ae"]
+    },
+    {
+      "id": "apac",
+      "label": "Asia-Pacific",
+      "codes": ["jp", "th"]
+    },
+    {
+      "id": "africa",
+      "label": "Africa",
+      "codes": ["za"]
     }
   ]
 }
