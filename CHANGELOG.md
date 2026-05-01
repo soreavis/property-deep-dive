@@ -54,6 +54,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 _(no entries yet — next mid-month corrections will accumulate here under `2026.05.2`, `2026.05.3`, …; the next `.0` (`2026.06.0`) will be auto-tagged at end of June by `auto-tag.yml`)_
 
+### Changed
+
+- chore(docs): refresh stale 62-countries refs → 87 + cut \[2026.05.1\] CHANGELOG entry ([#76](https://github.com/soreavis/property-deep-dive/pull/76)) — by @soreavis
+
 ## [2026.05.1] - 2026-05-01
 
 Mid-month sprint adding **25 new country playbooks** in three tiers (62 → 87 countries) plus matching cross-cutting `shared/` table backfill. Same parallel-subagent research methodology as Tier-1/Tier-2; every playbook ends with a `## Status` footer (Confidence: HIGH, bare-date `**Last verified**: 2026-05-01`) and is fully sourced to primary government / regulated entity URLs.
