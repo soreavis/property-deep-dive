@@ -1,16 +1,12 @@
 name: Internal link check
 
 on:
-  pull_request:
-    branches: [main]
-    paths:
-      - '**.md'
-  push:
-    branches: [main]
-    paths:
-      - '**.md'
   schedule:
-    # Weekly on Friday at 09:00 UTC (counterpoint to Monday url-liveness)
+    # Weekly Friday 09:00 UTC (counterpoint to Monday url-liveness).
+    # Per-PR/per-push triggers were dropped 2026-05-01 — they fired on every
+    # markdown change and mostly duplicated url-liveness coverage. The weekly
+    # cron is sufficient for internal-link rot, and url-liveness already
+    # catches external-URL rot.
     - cron: '0 9 * * 5'
   workflow_dispatch:
 

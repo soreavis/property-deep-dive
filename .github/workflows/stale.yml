@@ -2,8 +2,9 @@ name: Stale issues + PRs
 
 on:
   schedule:
-    # Daily at 03:00 UTC
-    - cron: '0 3 * * *'
+    # Weekly Monday 03:00 UTC — was daily until 2026-05-01. Issue/PR volume
+    # is low enough that daily sweeps were burning GHA-minutes on no-ops.
+    - cron: '0 3 * * 1'
   workflow_dispatch:
 
 permissions:

@@ -255,3 +255,73 @@ jobs:
               sys.exit(1)
           print("\n✅ All section flags in SKILL.md argument-hint are mentioned in README.md.")
           PY
+
+  matrix-consistency:
+    name: Country matrix ↔ countries/* audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Compare matrix to filesystem
+        # Two-way audit between SKILL.md country support matrix and
+        # skills/property-deep-dive/countries/<iso2>/playbook.md filesystem.
+        # Catches: matrix lists `lt` but folder is missing; folder exists but
+        # no row in matrix; tagline drift (advisory).
+        run: |
+          python3 - <<'PY'
+          import os, re, sys
+
+          with open('skills/property-deep-dive/SKILL.md', encoding='utf-8') as f:
+              content = f.read()
+          m_section = re.search(
+              r'^## Country support matrix\b(.*?)(?=^## )',
+              content, re.MULTILINE | re.DOTALL,
+          )
+          if not m_section:
+              print('::error file=skills/property-deep-dive/SKILL.md::Could not find "## Country support matrix" section.')
+              sys.exit(1)
+          rows = re.findall(r'^\|\s*\*\*([a-z]{2})\*\*\s*\|', m_section.group(1), re.MULTILINE)
+          matrix_iso2 = sorted(set(rows))
+
+          countries_dir = 'skills/property-deep-dive/countries'
+          fs_iso2 = []
+          if os.path.isdir(countries_dir):
+              for entry in sorted(os.listdir(countries_dir)):
+                  full = os.path.join(countries_dir, entry)
+                  if os.path.isdir(full) and re.fullmatch(r'[a-z]{2}', entry):
+                      if os.path.isfile(os.path.join(full, 'playbook.md')):
+                          fs_iso2.append(entry)
+          fs_iso2 = sorted(set(fs_iso2))
+
+          missing_playbook    = [iso for iso in matrix_iso2 if iso not in fs_iso2]
+          orphan_playbook     = [iso for iso in fs_iso2 if iso not in matrix_iso2]
+          duplicate_in_matrix = [iso for iso in set(rows) if rows.count(iso) > 1]
+
+          print(f"Countries in SKILL.md matrix : {len(matrix_iso2)}")
+          print(f"Countries on filesystem      : {len(fs_iso2)}")
+          print(f"Missing playbook (matrix, no folder)  : {missing_playbook}")
+          print(f"Orphan  playbook (folder, no matrix)  : {orphan_playbook}")
+          print(f"Duplicate matrix rows                 : {duplicate_in_matrix}")
+
+          tagline = re.search(r'(\d+)\s+countries fully populated', content)
+          tagline_count = int(tagline.group(1)) if tagline else None
+          if tagline_count is not None and tagline_count != len(matrix_iso2):
+              print(f"::warning file=skills/property-deep-dive/SKILL.md::Tagline says \"{tagline_count} countries fully populated\" but matrix has {len(matrix_iso2)}. Update the tagline.")
+
+          fail = False
+          for iso in missing_playbook:
+              print(f"::error file=skills/property-deep-dive/SKILL.md::Matrix lists `{iso}` but skills/property-deep-dive/countries/{iso}/playbook.md is missing.")
+              fail = True
+          for iso in orphan_playbook:
+              print(f"::error file=skills/property-deep-dive/countries/{iso}/playbook.md::Playbook exists but no row in SKILL.md country matrix.")
+              fail = True
+          for iso in duplicate_in_matrix:
+              print(f"::error file=skills/property-deep-dive/SKILL.md::Duplicate matrix row for `{iso}` — keep one canonical row.")
+              fail = True
+
+          if fail:
+              sys.exit(1)
+          print('✅ Matrix and filesystem agree.')
+          PY

@@ -2,8 +2,9 @@ name: Feed watcher (regulatory signals)
 
 on:
   schedule:
-    # Every 6 hours
-    - cron: '0 */6 * * *'
+    # Daily at 09:00 UTC — was every 6h until 2026-05-01 (cut to save GHA-minutes;
+    # regulatory feeds don't move fast enough to need 4× daily polling).
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 permissions:

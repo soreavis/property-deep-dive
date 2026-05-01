@@ -11,9 +11,11 @@ name: EU transposition deadline alerts
 
 on:
   schedule:
-    # Daily at 06:30 UTC — earliest of the morning maintenance crons so the
-    # alerts land at the top of the maintainer's queue.
-    - cron: '30 6 * * *'
+    # Weekly Monday 06:30 UTC — was daily until 2026-05-01. T-90/30/14/0
+    # threshold ladder doesn't need daily granularity (a deadline crossing
+    # a threshold mid-week gets caught by the next Monday at worst, and
+    # the window that matters in practice is T-14 / T-0).
+    - cron: '30 6 * * 1'
   workflow_dispatch:
 
 permissions:

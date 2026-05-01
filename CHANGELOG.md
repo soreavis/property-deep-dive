@@ -52,6 +52,21 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Removed / Deprecated — workflow audit (2026-05-01, 27 → 22)
+
+Audit pruned 5 workflows + tightened 4 cron schedules. None of the removals were required-status checks per branch protection. Net effect: identical CI / security / anti-hallucination coverage with materially fewer GHA-minutes/year.
+
+- **Deleted**: `welcome.yml` (cosmetic first-PR/issue greeter), `pr-size.yml` (cosmetic size-band labels nobody reads), `source-tier-audit.yml` (per-PR advisory comment — `source-tier-ratchet.yml` already gates regressions project-wide).
+- **Folded into `pr-validate.yml`**: `matrix-consistency.yml` (`Country matrix ↔ countries/* audit` is now a job in pr-validate; standalone deleted).
+- **Folded into `url-liveness.yml`**: `test-fixtures-check.yml` deleted — `url-liveness.yml` already greps `**/*.md` so test-fixtures listings get checked weekly Mon at the global 85% threshold; the dedicated 75% listings-only threshold + monthly cadence dropped (re-add as a focused step if listing-rot signal degrades).
+
+### Changed — workflow cron tightening (2026-05-01)
+
+- `feed-watcher.yml` — `0 */6 * * *` (every 6h, 1,460 runs/yr) → `0 9 * * *` (daily, 365 runs/yr). Regulatory feeds don't move fast enough for 4× daily polling.
+- `transposition-alerts.yml` — `30 6 * * *` (daily) → `30 6 * * 1` (weekly Mon). T-90/30/14/0 threshold ladder doesn't need daily granularity; mid-week threshold crossings are caught by the next Monday.
+- `stale.yml` — `0 3 * * *` (daily) → `0 3 * * 1` (weekly Mon). Issue/PR volume is low enough that daily was burning GHA-minutes on no-ops.
+- `link-check.yml` — dropped per-PR + per-push triggers; weekly Friday cron + manual dispatch only. The per-push runs duplicated url-liveness coverage; weekly is sufficient for internal-link rot.
+
 ### Added — 10 new country playbooks (Tier 1 expansion)
 
 - **🇺🇸 US** — federal overview only (state/county tax + transfer/recording fees vary materially; verification path provided). Covers OBBBA (PL 119-21, 4 Jul 2025) reset of SALT/MID/§§ 25C-D + estate exemption, FIRPTA, NFIP Risk Rating 2.0, CFIUS Part 802 +59 sites Dec 2024, EPA LCRI, 36-state foreign-buyer laws, NAR settlement Aug 2024. ~666 lines, ~50 primary sources, HIGH confidence on federal constants. (`countries/us/playbook.md`)
