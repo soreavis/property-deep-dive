@@ -80,6 +80,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - fix(workflow): disable auto-pr-redirects cron until refactor lands ([#88](https://github.com/soreavis/property-deep-dive/pull/88)) — by @soreavis
 - chore: remove auto-pr-redirects workflow + script entirely ([#91](https://github.com/soreavis/property-deep-dive/pull/91)) — by @soreavis
 - fix(urls): replace 20 dead URLs + filter 7 template false-positives from url-liveness ([#93](https://github.com/soreavis/property-deep-dive/pull/93)) — by @soreavis
+- chore(docs): refresh stale references in docs/ — 44 → 87 + plugin-first install + tier flags ([#95](https://github.com/soreavis/property-deep-dive/pull/95)) — by @soreavis
 
 ## [2026.05.1] - 2026-05-01
 
