@@ -41,7 +41,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 TCO calculator · mortgage calculator · test fixtures · listing-diff watcher · comparable-transactions DB · auto-validate cron · price-index feeds · listing aggregators · photo OCR
 
-## Country support — 54 fully populated
+## Country support — 62 fully populated
 
 <!-- AUTOGEN:country-matrix:start -->
 **Europe core (24)** — 🇫🇷 fr · 🇮🇹 it · 🇨🇿 cz · 🇸🇰 sk · 🇩🇪 de · 🇦🇹 at · 🇨🇭 ch · 🇪🇸 es · 🇵🇹 pt · 🇸🇪 se · 🇫🇮 fi · 🇳🇴 no · 🇬🇧 uk · 🇳🇱 nl · 🇧🇪 be · 🇩🇰 dk · 🇮🇸 is · 🇸🇮 si · 🇮🇪 ie · 🇬🇷 gr · 🇵🇱 pl · 🇪🇪 ee · 🇭🇷 hr · 🇭🇺 hu
@@ -54,11 +54,13 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 **EU completion (7)** — 🇱🇹 lt · 🇱🇻 lv · 🇷🇴 ro · 🇧🇬 bg · 🇱🇺 lu · 🇨🇾 cy · 🇲🇹 mt
 
-**Türkiye & Middle East (2)** — 🇹🇷 tr · 🇦🇪 ae
+**Türkiye & Middle East (3)** — 🇹🇷 tr · 🇦🇪 ae · 🇮🇱 il
 
-**Asia-Pacific (2)** — 🇯🇵 jp · 🇹🇭 th
+**Asia-Pacific (6)** — 🇯🇵 jp · 🇹🇭 th · 🇮🇩 id · 🇲🇾 my · 🇻🇳 vn · 🇵🇭 ph
 
-**Africa (1)** — 🇿🇦 za
+**Africa (3)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg
+
+**Caucasus (1)** — 🇬🇪 ge
 <!-- AUTOGEN:country-matrix:end -->
 
 ## Install
@@ -230,7 +232,7 @@ property-deep-dive/
 │   └── pin-actions.sh                # idempotent SHA-pin third-party actions
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~470 lines)
-    ├── shared/                       # 34 universal layer files (~8,800 lines)
+    ├── shared/                       # 34 universal layer files (~8,900 lines)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
     │   ├── 22 section implementations (universal logic + per-country overlays)
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
@@ -241,7 +243,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 89 markdown files, ~32,500 lines (SKILL.md + 34 shared/ + 54 country playbooks).
-**Repo total**: 101 markdown files, ~33,900 lines (skill content + community / governance files + CHANGELOG) · 30 YAML / JSON config files (22 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 109 markdown files, ~39,300 lines (skill content + community / governance files + CHANGELOG) · 30 YAML / JSON config files (22 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

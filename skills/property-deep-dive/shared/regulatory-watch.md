@@ -2,7 +2,7 @@
 
 A single date-stamped registry of property-relevant reforms, transposition deadlines, ENDED programs, and watchlist items. Maintained as the **single source of truth for "what changed when"** — playbooks reference this; this references playbooks.
 
-**Why it exists**: At 44 countries × 22 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
+**Why it exists**: At 62 countries × 22 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
 
 **Maintainer**: human + Claude. Each entry must have a primary-source URL, a verified date, and a next-revisit date.
 
@@ -328,6 +328,72 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2024-2025 | risks | Eskom load-shedding declined via Operation Vulindlela + private generation; backup power still common in upper-middle market | Eskom + DMRE | 2026-05-01 | 2026-09-01 | 3 | --risks --finance`
 - `2022-02 | finance | Property Practitioners Act 22/2019 (PPRA) replaced EAAB Feb 2022 — new agent regulation + FFC requirements | PPRA | 2026-05-01 | 2027-01-01 | 3 | --finance --notary`
 
+### 🇬🇪 GE
+
+- `2023-12 | visa | EU candidate status granted Dec 2023 — accession process active; longer-term policy alignment may shift property-tax regime + capital controls | European Council + GoG | 2026-05-01 | 2026-11-01 | 2 | --visa --tax --currency`
+- `2025-XX | tax | Tbilisi Sakrebulo Decision 14-69 sets 2025 property-tax schedule (income-threshold gated above GEL 40k household income); annual revisions expected | Tbilisi City Hall + Revenue Service | 2026-05-01 | 2026-09-01 | 3 | --tax`
+- `ongoing | rental | No national STR statute as of 2025 — Tbilisi/Batumi enforcement varies, monitor for Sakrebulo ordinances | City Halls + Revenue Service | 2026-05-01 | 2026-08-01 | 3 | --rental`
+- `2024-XX | finance | NBG mortgage rate normalization post-EUR rate cycle; LTV caps tightened for non-resident foreign-currency loans | National Bank of Georgia | 2026-05-01 | 2026-09-01 | 3 | --finance`
+
+### 🇮🇩 ID
+
+- `2021-02 | foreign-buyer | PP No. 18/2021 expanded foreigner rights — Hak Pakai 30+20+30=80 yr direct ownership w/ KITAS/KITAP, SHMRS strata-title condos foreigner-owned | Ministry of ATR/BPN | 2026-05-01 | 2026-11-01 | 1 | --tax --visa` ownership
+- `2023-2025 | foreign-buyer | Bali Provincial Court voided multiple nominee-structure transactions 2023-2025 (UUPA Art. 26(2) violations) — pre-2023 expat-forum advice now actively dangerous | Bali Provincial Court | 2026-05-01 | 2026-09-01 | 1 | --tax ownership`
+- `2023-XX | visa | Permenkumham 22/2023 Second Home Visa — qualifying IDR 2B asset can BE the property itself (Hak Pakai/SHMRS) | Imigrasi | 2026-05-01 | 2026-10-01 | 2 | --visa`
+- `2022-01 | tax | UU HKPD Law 1/2022 reformed local taxation — BPHTB statutory ceiling 5%, kabupaten can set within ceiling; verify per-kabupaten | Ministry of Finance + DJP | 2026-05-01 | 2026-12-01 | 2 | --tax`
+- `ongoing | rental | Bali villa STR enforcement varies by kabupaten — Pondok Wisata licensing patchy; monitor Provincial regulations | Bali Provincial Govt + Imigrasi | 2026-05-01 | 2026-09-01 | 3 | --rental`
+
+### 🇲🇾 MY
+
+- `2024-06 | visa | MM2H relaunched 2024 — 3 tiers Silver/Gold/Platinum (MYR 1M-5M FD + MYR 40-50k/mo income); replaced 2021 framework | MOTAC + Immigration | 2026-05-01 | 2026-10-01 | 1 | --visa`
+- `2025-26 | tax | RPGT remains 10% permanent for foreigners even after 5+ yrs (citizens drop to 0% from 2022); permanent foreign-buyer disadvantage at exit | LHDN | 2026-05-01 | 2026-12-01 | 2 | --tax`
+- `2024-XX | foreign-buyer | State EXCO foreign-buyer minimum thresholds revised periodically (KL 1M / Selangor 2M / Penang Island 1-3M etc.); verify per-state circular at offer date | State EXCO + Land Office | 2026-05-01 | 2026-09-01 | 2 | --tax ownership`
+- `2020-XX | rental | Penang Island STR ban (2020) for non-tourism residential strata + KL/PJ Management Corporation by-laws increasingly prohibit Airbnb | State + MC by-laws | 2026-05-01 | 2026-09-01 | 2 | --rental`
+- `ongoing | tax | Foreign-buyer flat 4% MOT stamp duty surcharge vs progressive citizen scale — for MYR 1.5M condo this is ~36% more (60k vs 44k) | LHDN Stamp Duty | 2026-05-01 | 2026-12-01 | 3 | --tax`
+
+### 🇻🇳 VN
+
+- `2025-08-01 | foreign-buyer | 2024 Land Law (31/2024/QH15) + 2023 Housing Law (27/2023/QH15) effective 1 Aug 2025 — confirms 50-yr foreign leasehold + 50-yr renewal, 30%/250 quotas, expanded mortgage to foreign-owned banks | National Assembly + MOC + MONRE | 2026-05-01 | 2026-09-01 | 1 | --tax --finance ownership`
+- `2025-08-01 | tax | Annual provincial land-price tables under 2024 Land Law replaced 5-yr tables — non-agricultural land tax base will track market more closely | MONRE + provincial PCs | 2026-05-01 | 2026-12-01 | 2 | --tax`
+- `2017-XX | tax | Recurring property tax PROPOSED multiple times since 2017 — NOT enacted as of 2026-05-01; monitor Ministry of Finance consultation | Ministry of Finance | 2026-05-01 | 2026-09-01 | 3 | --tax`
+- `ongoing | visa | NO Vietnam Golden Visa via real estate exists — DT investment visa requires capital injection into a Vietnamese enterprise, not RE; common foreign-buyer assumption is wrong | Ministry of Public Security | 2026-05-01 | 2026-12-01 | 2 | --visa`
+- `2025-XX | rental | District-level STR enforcement varies; HCMC Ward People's Committees increasingly require Pink Book + business license for Airbnb | Provincial PCs + MOCST | 2026-05-01 | 2026-09-01 | 3 | --rental`
+
+### 🇵🇭 PH
+
+- `2024-2027 | tax | RA 12001 Real Property Valuation Reform — rolling LGU revaluation 2024-2027 may significantly raise RPT bills as schedules close gap to FMV | DOF + LGUs | 2026-05-01 | 2026-09-01 | 1 | --tax`
+- `2025-26 | tax | PH "CGT" 6% on GROSS sale price (or zonal/FMV whichever higher) per NIRC §24(D) — transaction tax in substance, not gain-based; even loss-making sales taxed | BIR | 2026-05-01 | 2026-12-01 | 2 | --tax`
+- `ongoing | foreign-buyer | 1987 Constitution Art. XII §7 + Anti-Dummy Law (CA 108) criminal grade 5-15 yrs imprisonment + property forfeiture for nominee structures | DOJ + Constitutional | 2026-05-01 | 2027-01-01 | 1 | --tax ownership`
+- `ongoing | visa | SRRV (PRA) USD 10-50k deposit by age category; SIRV (BOI) USD 75k qualifying assets — both permit long-term residence + condo ownership | PRA + BOI | 2026-05-01 | 2026-12-01 | 2 | --visa`
+- `2009-XX | foreign-buyer | Matthews v. Taylor (2009) Supreme Court ruling — foreigners cannot reclaim funds used to buy land titled to a Filipino spouse; Path 4 spouse-titled is buy-at-own-risk | Supreme Court | 2026-05-01 | 2027-01-01 | 1 | --tax ownership`
+
+### 🇮🇱 IL
+
+- `2025-01-01 | tax | VAT raised from 17% → 18% on 1 Jan 2025 — affects new-build pricing AND attorney/broker/appraiser fees; common stale-data trap | Tax Authority | 2026-05-01 | 2026-09-01 | 1 | --tax`
+- `2022-10-01 | tax | TAMA 38 (national earthquake retrofit incentive) sunset 1 Oct 2022 — many sources still reference it as active; new retrofit goes through TAMA 70 + local outline plans | Israel Land Authority + municipalities | 2026-05-01 | 2026-12-01 | 2 | --tax --risks`
+- `2023-2024 | risks | Israel-Hamas (Oct 2023→ongoing) + Israel-Hezbollah (Sep-Nov 2024 ceasefire) wars disrupted insurance markets; Karnit (state war-damage compensation) central | IDF + Karnit Fund | 2026-05-01 | 2026-08-01 | 1 | --risks --insurance`
+- `ongoing | foreign-buyer | RMI/Israel Land Authority manages ~93% state-owned land (state ~70% + KKL/JNF ~12-13% + Development Authority ~10%); KKL/JNF land restricted to Jewish lessees by charter — litigation ongoing | RMI + KKL | 2026-05-01 | 2026-12-01 | 1 | --tax ownership`
+- `2009-XX | tax | Heskem Hadash post-2009 reform allows lessees to convert leasehold (חכירה) to freehold (חופשי) for capitalization fee on built-up land in many areas | RMI | 2026-05-01 | 2027-01-01 | 2 | --tax ownership`
+- `ongoing | tax | Olim 7-year incentivized purchase-tax scale (0.5% on first ILS 1.92M / 5% above) vs non-resident scale (8% on first ILS 6.05M / 10% above) — saves ~ILS 207k on ILS 4M flat est. | Tax Authority + Aliyah Ministry | 2026-05-01 | 2026-12-01 | 2 | --tax --visa`
+
+### 🇲🇦 MA
+
+- `2023-09 | risks | Al Haouz earthquake M 6.8 Sep 2023 — materially changes pre-2024 building-stock risk profile in Marrakech + High Atlas valleys; structural assessment essential through at least 2027 for any pre-2011 build | RMI + High Commission for Reconstruction | 2026-05-01 | 2026-09-01 | 1 | --risks --insurance`
+- `2024-XX | risks | RPS 2024 (Règles Parasismiques) strengthened building code post-Al Haouz — NOT retroactive | Ministry of Housing + RPS | 2026-05-01 | 2026-12-01 | 2 | --risks`
+- `2017-XX | tax | CGT (TPI) 20% on net gain — exempt if held >6 yrs primary residence / >10 yrs secondary post-2017 reform | DGI | 2026-05-01 | 2027-01-01 | 3 | --tax`
+- `ongoing | foreign-buyer | Office des Changes registration at purchase via authorised bank is ONLY legal repatriation gateway — skip and sale proceeds + rental income cannot leave dirham zone (non-convertible currency) | Office des Changes | 2026-05-01 | 2026-12-01 | 1 | --tax --currency`
+- `ongoing | foreign-buyer | Title status decision tree: titré (immatriculé under ANCFCC) ✅ foreigner-buyable; non-titré (melkia) requires réquisition d'immatriculation; habous (religious endowment) cannot be sold to non-Muslims; collectif (tribal) requires conversion | ANCFCC + Ministry of Habous | 2026-05-01 | 2027-01-01 | 1 | --tax ownership`
+- `ongoing | rental | National STR regulation fragmented; enforcement uneven; no single national Airbnb register as of 2026-05 — verify per-prefecture | Ministry of Tourism + prefectures | 2026-05-01 | 2026-09-01 | 3 | --rental`
+
+### 🇪🇬 EG
+
+- `2024-03-06 | currency | EGP free-float Mar 2024 (after IMF EFF approval) — devaluation history ~15.7→30→50/USD by Mar 2024 → ~50-51/USD by 2026-05-01 (managed float); foreign buyers face structural FX volatility | CBE + IMF | 2026-05-01 | 2026-08-01 | 1 | --currency --tax`
+- `2023-XX | visa | Investment Law 160/2023 RBI/CBI tiers — USD 250k cash deposit (5-yr) → PR / USD 300k RE → citizenship / USD 350k investment → citizenship; thresholds have shifted multiple times since 2023, verify with GAFI in writing before transferring funds | GAFI + Ministry of Investment | 2026-05-01 | 2026-09-01 | 1 | --visa --tax`
+- `2023-XX | tax | Law 175/2023 — CGT 2.5% of GROSS sale price (not net gain); even loss-making sales taxed; materially distorts IRR modeling | ETA | 2026-05-01 | 2026-12-01 | 2 | --tax`
+- `1996-XX | foreign-buyer | Law 230/1996 — max 2 properties/foreigner, max 4,000 m² each, NOT in protected/military/Sinai/border zones, NOT within 5 km of Suez Canal, agricultural land Egyptian-only, 5-yr resale lock (waivable Cabinet) | Ministry of Justice + REPA | 2026-05-01 | 2027-01-01 | 1 | --tax ownership`
+- `ongoing | foreign-buyer | Form 4 paper trail at purchase via CBE-authorized bank is GATING procedural risk — without it future USD repatriation of sale proceeds structurally blocked, sellers stuck with EGP-only exit (catastrophic given EGP devaluation history) | CBE | 2026-05-01 | 2026-09-01 | 1 | --tax --currency`
+- `ongoing | foreign-buyer | Sinai is usufruct-only 50-yr leasehold from TDA despite many Sharm El Sheikh sales offices marketing units as "freehold" — buyers regularly misled; deal-killer-class misrepresentation | TDA + REPA | 2026-05-01 | 2026-12-01 | 1 | --tax ownership`
+
 ---
 
 ## EU directive transposition deadlines
@@ -418,4 +484,4 @@ Multi-line is fine if the entry is complex; the seven-pipe format is the canonic
 
 ---
 
-*Last full audit: 2026-05-01 (added 10 country sections: US/TR/AE/JP/TH/DO/CO/UY/CL/ZA). Next mandatory full audit: 2026-07-26 (quarterly).*
+*Last full audit: 2026-05-01 (added 8 Tier-2 country sections: GE/ID/MY/VN/PH/IL/MA/EG — total 62 countries tracked). Next mandatory full audit: 2026-07-26 (quarterly).*

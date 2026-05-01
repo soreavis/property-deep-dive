@@ -1,0 +1,516 @@
+# Georgia 🇬🇪 — Property Due-Diligence Playbook
+
+ISO2: `ge`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
+
+## Country profile
+
+- **Population**: ~3.7 million (2024 Geostat estimate); Tbilisi ~1.2 million, Batumi ~170k, Kutaisi ~135k
+- **GDP per capita**: ~US$8,800 (2024 World Bank / Geostat); real GDP +9.4 % 2023, +9.5 % 2024 (Geostat)
+- **Currency**: GEL (Georgian Lari). 1 EUR ≈ 2.95–3.05 GEL, 1 USD ≈ 2.65–2.75 GEL (NBG reference; managed-float with NBG intervention)
+- **Languages**: Georgian (official, ქართული); Abkhaz official in Abkhazia; Russian widely understood; English common in Tbilisi/Batumi tourist zones
+- **EU status**: Candidate country since **December 2023** (European Council); accession process effectively paused mid-2024 after the "foreign agents" law and contested 2024 election (per EU Council conclusions Dec 2024)
+- **Postcode**: 4 digits (e.g., Tbilisi `0100`–`0199`, Batumi `6000`–`6010`)
+- **Admin levels**: 9 mkhares (regions) + 2 autonomous republics (Adjara, Abkhazia) + Tbilisi (capital) → 64 municipalities → ~3,700 settlements
+- **Cadastre**: **NAPR** (National Agency of Public Registry, საჯარო რეესტრის ეროვნული სააგენტო) — public viewer FREE for owner-only data via napr.gov.ge
+- **Identifier**: cadastral code (საკადასტრო კოდი) format `XX.XX.XX.XXX` (region.district.block.parcel)
+- **Foreign-buyer rule**: residential **freehold** open to all foreigners since 1996 Civil Code. **Agricultural land**: foreign ownership banned by 2018 constitutional amendment Art. 19 (only Georgian citizens, Georgian state, or local self-governments may own ag land); pre-2017 foreign-acquired ag land grandfathered
+- **Visa**: 365-day visa-free entry for **~95 nationalities** (USA, EU/EEA, UK, Canada, AU, NZ, Japan, S. Korea, GCC, Israel, etc.) per MFA Decree #256 of 2015 as amended
+
+## Section: `--price`
+
+### Primary sources
+
+- **NAPR public e-extract** (FREE, owner-only): `https://www.napr.gov.ge/`
+  - Search by cadastral code or address; English UI available
+  - Returns: owner name, area, encumbrances (იპოთეკა/mortgage, ყადაღა/seizure)
+  - Full extract (`amonatsereb`) issued at NAPR offices or via PSDA (Public Service Hall) for ~5 GEL same-day / 14 GEL express
+- **Geostat real-estate price index**: `https://www.geostat.ge/en/modules/categories/214/real-estate-price-statistics`
+  - Quarterly Residential Property Price Index (RPPI), base 2018 = 100
+  - Tbilisi-only sub-index published separately
+  - 2024 RPPI: ~165 (Q4 2024 Geostat) → +8 % YoY
+- **TBC Capital / Galt & Taggart / Colliers Georgia** — investment-bank quarterly market reviews (secondary, but methodology disclosed)
+- **NBG financial stability reports**: `https://nbg.gov.ge/en/page/financial-stability-report` — incl. mortgage debt + house-price overheating indicators
+
+### Price benchmarks (2024–2025 reference)
+
+| Locality | New-build avg US$/m² | Resale avg US$/m² | Source |
+|---|---:|---:|---|
+| Tbilisi (Vake, Saburtalo, Mtatsminda prime) | ~1,700–2,500 | ~1,400–2,000 | TBC Capital Q4 2024 review |
+| Tbilisi (Gldani, Isani, Samgori middle) | ~900–1,200 | ~700–950 | TBC Capital Q4 2024 |
+| Tbilisi (Old Town listed buildings) | ~1,500–3,000 | ~1,200–2,500 | Colliers 2024 |
+| Batumi (seafront new-build) | ~1,200–2,200 | ~900–1,600 | Galt & Taggart 2024 H2 |
+| Batumi (off-seafront) | ~700–1,100 | ~500–850 | Galt & Taggart 2024 H2 |
+| Kutaisi | ~500–800 | ~350–600 | MyHome.ge aggregate, 2025-Q1 |
+| Telavi / Sighnaghi (Kakheti) | ~400–700 | ~300–550 | MyHome.ge aggregate, 2025-Q1 |
+| Bakuriani / Gudauri (ski) | ~1,500–2,800 (apt-hotel) | ~1,000–1,800 | Colliers 2024 |
+
+> All US$/m² are **est.** (calibration: cross-checked against ≥ 2 secondary aggregators + Geostat RPPI direction). Listing-platform medians vary widely by district; verify with 5+ comparables on the same street.
+
+### Listing platforms
+
+- **MyHome.ge** — largest portal: `https://www.myhome.ge/en/` *(per listing — verify with cadastre / on visit)*
+  - Filters: city → district → micro-district; sale/rent; new build vs resale; surface m²
+- **SS.ge** — long-running classifieds incl. real estate: `https://home.ss.ge/en` *(per listing — verify with cadastre / on visit)*
+- **Place.ge**, **Livo.ge** — smaller portals, sometimes earlier listings *(per listing — verify with cadastre / on visit)*
+- **Korter.ge** — new-build aggregator with developer-direct prices *(per listing — verify with cadastre / on visit)*
+- **Facebook Marketplace + Telegram channels** (e.g., `t.me/tbilisirent`) — heavily used; high volume but unverified
+
+### Compute
+
+1. Listing price/m² = listing US$ ÷ m². Most Tbilisi/Batumi listings priced in **US$**, converted to GEL at signing
+2. Compare to Geostat RPPI level for Tbilisi vs your district benchmark
+3. **Trap**: "white frame" (თეთრი კარკასი / ნახევრად მოპირკეთებული) = bare-shell new-build with no internal finishing; finishing typically adds US$200–US$400/m² (est., from Colliers 2024 fit-out survey — verify per quote)
+4. **Trap**: "green frame" (მწვანე კარკასი) = unfinished without windows/utilities — even cheaper but +US$300–US$500/m² to reach habitable
+5. **Trap**: balcony/terrace included in advertised m²? Georgian convention typically includes them at 100 % — confirm with developer
+6. **Trap**: parking is rarely included in apartment price; expect US$8,000–US$25,000 for an underground space in central Tbilisi/Batumi (est. — verify per development)
+
+---
+
+## Section: `--traffic`
+
+### Primary source
+
+- **Roads Department of Georgia (საქართველოს საავტომობილო გზების დეპარტამენტი)**: `https://www.georoad.ge/`
+  - Statistics page (Georgian) lists annual traffic surveys ("მოძრაობის ინტენსივობა") on international + state roads
+  - Historical AADT counts published as PDFs by road segment
+- **Ministry of Regional Development & Infrastructure**: `https://www.mrdi.gov.ge/en` — sectoral data, road master plans
+- **Tbilisi City Hall transport planning**: `https://tbilisi.gov.ge/` (Georgian); 2030 Sustainable Urban Mobility Plan published 2022
+
+### Key term
+
+**AADT** equivalent in Georgian: საშუალო წლიური დღიური ინტენსივობა (sashualo ts'liuri dghiuri intensivoba)
+
+### Verdict bands (residential noise impact)
+
+- 🟢 < 1,000 v/d (rural side road, village street)
+- 🟡 1,000–5,000 v/d (small municipal road, urban side street)
+- 🟠 5,000–20,000 v/d (urban arterial, secondary highway)
+- 🔴 > 20,000 v/d (primary international highway S1/S2/S3/S4, Tbilisi inner ring, Rustaveli/Agmashenebeli)
+
+### Coarse fallback
+
+OSM `highway` class → road class:
+- motorway/trunk = international highway (S-routes)
+- primary = state route (Sh-routes)
+- secondary = municipal main
+- tertiary = local connector
+- residential = village/settlement street
+
+### Notes
+
+- Tbilisi private-vehicle fleet roughly doubled 2010 → 2023 per Geostat transport stats; congestion now severe on Heroes' Square, Vake-Saburtalo axis, Vazha-Pshavela
+- East-West Highway (S1) Tbilisi → Batumi: ongoing widening to 4 lanes (continuous since 2014); completion past Rikoti pass 2024
+- **Trap**: properties advertised "5 min from highway" usually mean **on** a slip road — check actual setback and noise barrier presence
+
+---
+
+## Section: `--tax`
+
+### Annual property tax — ქონების გადასახადი (Property Tax)
+
+Governed by Tax Code of Georgia Title VIII (Article 201–207); **set by each municipality within statutory caps**.
+
+**For natural persons** (Art. 201):
+- Applies only if **household annual income > 40,000 GEL** (~US$14,800 / ~€13,600) (2025 threshold per Tax Code Art. 201.2)
+- Rate band: **0.05 %–1.0 %** of market value, on a sliding scale by income
+  - Income 40,000–100,000 GEL → 0.05–0.2 %
+  - Income > 100,000 GEL → 0.8–1.0 %
+- Tbilisi 2025 schedule (per Tbilisi Sakrebulo Decision #14-69, Dec 2024 — verify via tbilisi.gov.ge):
+  - 40k–100k income: 0.1 % of market value
+  - > 100k income: 0.8 % of market value
+- "Market value" assessment: declared by taxpayer; revenue service may challenge
+- Annual filing on form 100 by **1 November**, payment by **15 November**
+
+**For legal entities** (Art. 202):
+- 1 % of average annual book value of immovable property (rate set by municipality, cap 1 %)
+
+### Land tax — მიწის გადასახადი
+
+- **Agricultural land**: per-hectare fixed rate by zone (e.g., Tbilisi peri-urban 1st zone: ~28 GEL/ha, 5th zone: ~5 GEL/ha) — Tax Code Art. 204
+- **Non-agricultural land** (residential plot under house): municipality-set per-m² rate × zone coefficient × area
+  - Tbilisi inner zones: ~0.24 GEL/m² base × zone coefficient (1.0–1.5) — verify per Tbilisi Sakrebulo decision
+
+### Example calculation
+
+A US$150,000 (≈ 405,000 GEL at 2.70 GEL/USD) Tbilisi 2-bed apartment, owner household income > 100k GEL:
+- Annual property tax = 0.8 % × 405,000 GEL = **3,240 GEL/yr (~US$1,200 / ~€1,100)**
+
+Same flat, owner household income < 40k GEL:
+- Annual property tax = **0 GEL** (below threshold)
+
+> Property tax in Georgia is materially lower than W. Europe in absolute GEL terms but the income-threshold + market-value-declared mechanism means many foreign owners with modest local income pay nothing on their main home.
+
+### Transaction taxes (one-time at purchase)
+
+- **Transfer tax / stamp duty**: **NONE** for typical resale (no property transfer tax in Georgia per Tax Code)
+- **VAT (DDS, დღგ)**: **18 %** on new-build sale by VAT-registered developer (Tax Code Art. 161); usually included in advertised price — verify "DDS-iani" (with VAT) vs "DDS-is gareshe" (without VAT)
+- **NAPR registration fee**: ~50 GEL standard, 200 GEL same-day, 500 GEL 1-hour express (Public Service Hall tariff 2024)
+- **Notary**: registration of sale-purchase contract is **NOT mandatory** (NAPR registration suffices); notarised contract optional, fee ~0.05–0.5 % of contract value (Notarial Chamber tariff)
+- **Real estate agent**: usually **3–5 %** paid by seller; foreign buyers sometimes asked to pay buyer-side commission — negotiate
+- **Total transaction cost** (buyer side, resale): typically **0.1–0.5 % of price** — among the lowest in the world
+
+### Capital gains / income tax on sale
+
+- **Personal sale of residential immovable** held **> 2 years**: **EXEMPT** from PIT (Tax Code Art. 82.1.b)
+- Held **≤ 2 years** by individual: **5 % flat** on gain (not on gross — on profit) per Art. 82
+- Sale by legal entity: profit included in 15 % corporate income tax (CIT) base; Estonia-model deferral applies — CIT only on distribution (since 2017 reform)
+
+### Future risk
+
+- **EU candidate status (Dec 2023)**: harmonisation pressure may push transfer tax / formal transaction-tax introduction over the medium term — no concrete bill 2025
+- 2024–2025 political turbulence: tax-code amendments unpredictable; monitor Revenue Service circulars at `https://www.rs.ge/`
+- Discussion of a national real-estate registry of beneficial ownership for AML — no statute yet
+
+---
+
+## Section: `--rental`
+
+### Long-term residential
+
+**Income tax on rental** — Tax Code Art. 81:
+- **Individual landlord, residential lease to natural person**: **5 % flat** on gross rental income (Art. 81.2) — no expense deductions, no social contributions
+  - Filed on form 200 quarterly OR annual form 100 by 1 April year+1
+- **Individual landlord, lease to legal entity** or **non-residential lease**: **20 % PIT** on net (gross minus documented expenses)
+- **Legal entity (LLC/JSC)**: rental in CIT base; Estonia model (only on distribution since 2017)
+
+**Small Business Status** — for sole proprietors only (Tax Code Art. 84):
+- Annual revenue **≤ 500,000 GEL**: **1 % flat** on **turnover**
+- Income > 500,000 in any year → status revoked + retroactive 3 % rate
+- Excluded activities (Decree #415 of 2010 as amended): consulting, finance, gambling, currency exchange — **residential rental IS allowed** under SBS for individual entrepreneurs registered as IE
+- Foreign nationals **can register as individual entrepreneur** with Georgian tax residency; SBS application via rs.ge
+
+> The 1 % SBS rate is the headline foreigner-attraction fact, but it requires being a registered Individual Entrepreneur (IE) **and** meeting tax residency — not automatic for a non-resident foreigner letting one apartment. For a non-resident landlord using PIT 5 % on residential lease to natural persons, the effective rate is already very low.
+
+### Short-term rentals (Airbnb / Booking)
+
+**Status**: largely unregulated at national level as of 2025-2026.
+
+#### Current obligations (2025)
+
+- **Tax classification**: STR to natural persons → 5 % PIT for individual; 1 % under SBS for IE
+- **VAT**: 18 % if landlord turnover > 100,000 GEL/12 months from STR (Tax Code Art. 157) — STR specifically counted as "hotel-like" service
+- **Hotel tax / tourist fee**: **NONE national**; **Tbilisi has no city tourist tax 2025**; Batumi (Adjara) introduced a **2 GEL/night municipal tourist fee** for accommodation (Adjara Supreme Council 2024 — verify current rate at adjara.gov.ge)
+- **Guest registration**: hosts of foreign guests must file PMC (Patrol Police) notification within 3 working days for stays > 24h — enforced patchily for STR; mandatory for licensed hotels
+- **Building management association** (ამხანაგობა / amkhanagoba) approval: not required by law but increasingly required by amkhanagoba bylaws in newer Tbilisi/Batumi developments — check before buying
+
+#### Tbilisi-specific (most regulatory pressure)
+
+- 2023–2024 City Hall debate on Old Town STR cap (modelled on Lisbon/Barcelona); no statute passed as of 2025
+- Some Old Town heritage-listed buildings: STR de facto restricted by Cultural Heritage Agency conservation conditions
+- **Trap**: "ცენტრალური აპარტამენტი" (central apartment) listings in old buildings — heritage status may block STR-grade renovations
+
+#### Batumi-specific
+
+- Adjara 2 GEL/night tourist fee applies (above)
+- "Aparthotel" developments (Wyndham, Orbi, Alliance, Next Iveria etc.) often have built-in management agreements with revenue-share; read terms — typical operator share 30–45 %
+- Seasonal demand: Jun–Sep peak (~80 % occupancy in waterfront), Oct–May ~25–35 % (est., from Colliers 2024 Batumi review — verify)
+
+### Strategic notes
+
+- **Tbilisi (Vake/Vera/Mtatsminda/Old Town)**: highest year-round STR yield; 5 % PIT or 1 % SBS makes net-of-tax materially higher than EU comparables
+- **Batumi seafront**: highest peak-season yield but ~6-month low season; aparthotel revenue-share dilutes gross
+- **Bakuriani / Gudauri (ski)**: Dec–Mar peak only; summer hiking shoulder; ~120-day usable rental window
+- **Long-term residential**: Tbilisi gross yields commonly cited at **6–10 %** by Colliers/TBC 2024 — verify against your specific listing
+
+---
+
+## Section: `--work=<profession>`
+
+### Job platforms
+
+- **HR.ge** — largest job board: `https://www.hr.ge/`
+- **Jobs.ge** — long-running general: `https://jobs.ge/`
+- **MyJobs.ge**, **SuperJob.ge**
+- **LinkedIn Georgia** — active in IT, finance, BPO, NGO sectors
+- **Ministry of Internally Displaced Persons, Labour, Health & Social Affairs** (Worknet, official labour portal): `https://worknet.gov.ge/`
+
+### Self-employment regimes (foreigners eligible)
+
+- **Individual Entrepreneur (IE / ინდივიდუალური მეწარმე)**: register at PSDA in 1 day, ~20 GEL fee
+  - Default tax: PIT 20 % on net
+- **Small Business Status** (annual turnover ≤ 500,000 GEL): **1 % on turnover**, registered via Revenue Service form
+- **Micro Business Status** (annual turnover ≤ 30,000 GEL): **0 % income tax**, only excluded activities apply
+- **LLC (შპს / SPS)**: Estonia-model CIT — 0 % until profit distribution, then 15 % on dividend
+- **Tax residency**: 183+ days in any 12-month rolling period OR "high-net-worth individual" status (assets > 3 million GEL)
+
+### Salaried benchmarks
+
+- Average monthly nominal wage 2024 Q4 (Geostat): **~2,030 GEL** (~US$750) — economy-wide
+- IT/finance sector Tbilisi: ~3,500–8,000 GEL/month for mid-level (HR.ge market reports 2024)
+- **Minimum wage**: only **20 GEL/month** statutory (1999 figure, never updated — symbolic); effective market floor in Tbilisi ~800–1,200 GEL for low-skill
+
+### Catchment heuristics
+
+- Within 30 min of Tbilisi central districts: full salaried opportunity
+- Batumi: regional jobs (tourism, port, BPO); 30-min catchment limited
+- Kutaisi: industrial/logistics jobs; Hualing FIZ + airport BPO cluster
+- Mountainous regions (Svaneti, Kazbegi, Tusheti): seasonal tourism only; no full-year salaried market
+
+### Visa / residence pathway for working foreigners
+
+- **365-day visa-free** entry covers digital nomad / remote work for ~95 nationalities
+- **Work residence permit** (eMigration via PSDA): for those needing > 1 year continuous presence; tied to employer or business
+- **"Remotely from Georgia"** programme: launched 2020 for remote workers; entry-permit fast track (verify current status at stopcov.ge / mfa.gov.ge — programme has cycled in/out of formal availability)
+- **Investment residence permit**: real-estate investment **≥ US$100,000** → 1-year permit, renewable; ≥ US$300,000 → 5-year permit (Law on Legal Status of Aliens Art. 15) — verify current thresholds at sda.gov.ge (Public Service Development Agency)
+
+---
+
+## Section: `--risks`
+
+### Primary national sources
+
+| Source | URL | What it gives |
+|---|---|---|
+| **National Environmental Agency (NEA / გარემოს ეროვნული სააგენტო)** | `https://nea.gov.ge/En` | Hazard maps: flood, landslide, mudflow, drought |
+| **NEA hazard atlas (geohazards portal)** | `http://drm.cenn.org/` (CENN — Caucasus Environmental NGO Network, NEA partner) | Multi-hazard interactive map |
+| **Ministry of Environmental Protection & Agriculture** | `https://mepa.gov.ge/En/` | Environmental impact assessments, climate strategy |
+| **Institute of Earth Sciences, Ilia State University** | `https://iliauni.edu.ge/en/iliauni/institutebi-451/dedamicis-shemstsavlel-metsnierebata-instituti` | Seismic monitoring, fault maps |
+| **National Seismic Network of Georgia (operated by Ilia Uni)** | `http://www.seismo.iliauni.edu.ge/` | Real-time earthquakes, station data |
+| **GeoSurvey (LEPL National Environmental Agency, Geological Service)** | `https://nea.gov.ge/Ge/Geology` | Geological maps, landslide registry |
+| **NACEC / NACER (Nuclear & Radiation Safety Agency)** | `https://nrsa.gov.ge/` | Radiation context (not radon-specific maps) |
+
+### Flood / landslide / mudflow zones
+
+- Georgia is one of the most landslide-prone countries in Europe — ~70 % of the territory has some landslide / mudflow susceptibility per CENN/NEA atlas
+- **High-risk zones**: Adjara coastal escarpment, Imereti gorges, Racha-Lechkhumi, Mtskheta-Mtianeti, Kakheti foothills, Greater Caucasus southern slope
+- **Tbilisi specific**: 2015 June flash flood (Vere river) killed 23 — Saburtalo / Vake riverside still has Q100 flood exposure; CENN atlas shows zone
+- **Mudflow (selevye / ღვარცოფი)**: distinct from river flood; small mountain catchments hit hard during summer storms — common in Adjara, Kazbegi, Mestia
+
+> **Verification path**: NEA + CENN maps are commune/district-level, not parcel-level. For a specific cadastral code, request a hazard certification from NEA Geological Service (fee-based, ~2–4 weeks).
+
+### Seismicity
+
+- Georgia sits on the **Lesser/Greater Caucasus collision zone** — moderate-to-high seismicity (Mw 6–7 historically possible)
+- **Major historical events**: Racha 1991 (Mw 7.0, ~270 deaths), Tbilisi 2002 (Mw 4.5 with structural damage), Spitak 1988 (Armenia, Mw 6.8 — felt severely in southern Georgia)
+- Building code: Georgian seismic norms (PN 01.01-09 / PN 01.07-09), aligned with Russian SNiP and partly Eurocode 8; **Tbilisi designated seismic zone 8 (MSK)** — design PGA ~0.2g
+- **Pre-1991 Soviet panel-block buildings** (`khrushchyovka` / `panelka` / Lilo, Gldani, Varketili series): retrofit status uneven; some demolished, many in service — independent structural survey strongly advised before purchase
+
+### Radon
+
+- **No national radon map published as of 2025** (NACEC/NRSA confirms no parcel-grade dataset)
+- Geological substrate of Georgia (granitic intrusions in Greater + Lesser Caucasus) is consistent with elevated radon potential, but no public verification grid
+- **Verification path**: independent radon measurement (3-month alpha-track detector, cost ~US$50–US$200 for the kit, available via private labs in Tbilisi)
+
+### Build-era hazards
+
+| Era | Hazards |
+|---|---|
+| **Pre-1921 (Tsarist)** | Soft-fired brick + lime mortar; many heritage-listed; weak seismic performance; lead paint likely |
+| **1921–1955 (early Soviet, Stalinist)** | "Stalinka" buildings; thicker walls, better than later panel; asbestos in some roofing |
+| **1955–1991 (Khrushchyov + Brezhnev panels)** | Khrushchyovka (5-storey), 9-storey + 16-storey panel; asbestos in joints common; aging utility risers; some seismic retrofits ongoing |
+| **1991–2003 (post-Soviet collapse)** | Often unpermitted ("self-build"); hazardous; legalised in waves under "Self-built Object Legalisation" laws — verify NAPR recordation |
+| **2003–2012 (Saakashvili boom)** | Building boom Tbilisi/Batumi; quality varies; 2012 Construction Code overhaul tightened standards |
+| **2012–present** | Modern code (Order #41 of MoE 2016 + amendments); seismic + fire stricter; energy-efficiency requirements added 2020 (NZEB by 2025 deferred to 2030) |
+
+**Asbestos**: pre-2005 likely in roofing + insulation; no national mandatory removal regime (unlike EU) — buyer due diligence required.
+
+### Mandatory documents at sale
+
+| Document | Required because | Notes |
+|---|---|---|
+| **NAPR ამონაწერი (extract)** | All sales | Verify owner + cadastral code + encumbrances (იპოთეკა, ყადაღა) |
+| **Sale-purchase contract** | All sales | Bilingual Georgian + (often) English; must be registered at NAPR within 1 month |
+| **Cadastral plan** | All sales | Issued by NAPR; ensure matches building footprint |
+| **Technical inventory passport** (ტექნიკური ინვენტარი) | Older buildings | Confirms surface, layout — historically issued by Sakgeografia/BTI; not always current |
+| **Building usage permit (ექსპლუატაციაში მიღება)** | New builds | Confirms construction completed legally — often **missing** for self-built or grandfathered objects → NAPR may have registered title without it; renovation/extension permits hinge on this |
+| **No-debt certificate** (utilities, building management fees) | Apartments in managed buildings | From amkhanagoba (HOA equivalent) — ensure no fond-debts attached to flat |
+| **Heritage listing check** | Old Town buildings | Cultural Heritage Agency register: `https://heritagesites.ge/` — listing imposes severe renovation restrictions |
+
+### Climate change projections (NEA + national communications to UNFCCC)
+
+- 2024 6th National Communication: +1.5–4.0 °C by 2100 (depending on RCP); Mtskheta-Tbilisi axis warming faster than Black Sea coast
+- Black Sea coastal erosion: +20–60 cm sea-level rise by 2100 (RCP4.5 / RCP8.5) — Adjara coast (Kobuleti, Ureki, Anaklia) at risk
+- Glacier loss: Greater Caucasus has lost ~30 % glacier mass since 1960; further 50–70 % loss by 2050 → glacier-fed flow decline (Enguri, Rioni)
+- Drought: eastern Georgia (Kakheti) projected drier; viticulture under stress
+- Increased extreme rainfall + mudflow frequency in Greater Caucasus southern slope
+- Heat: Tbilisi summer days > 35 °C projected to double by 2050 (NEA 2024 report)
+
+---
+
+## Section: `--mains`
+
+### National database
+
+- **GNERC (Georgian National Energy and Water Supply Regulatory Commission)**: `https://gnerc.org/en/` — utility tariffs + licensed operator registry
+- **United Water Supply Company of Georgia (UWSCG / გაერთიანებული წყალმომარაგების კომპანია)**: `https://water.gov.ge/` — operates water + sewerage in **most regional cities** (excluding Tbilisi, Mtskheta-Mtianeti, Adjara)
+- **Georgian Water and Power (GWP)**: `https://gwp.ge/en` — Tbilisi + Mtskheta + Rustavi water/sewer (private, BR Group)
+- **Adjara Water Supply** (აჭარისწყალი): `https://achariswkali.ge/` — Adjara region
+
+### Major operators
+
+| Operator | Coverage |
+|---|---|
+| **Georgian Water & Power (GWP)** | Tbilisi, Rustavi, Mtskheta — ~1.5 million people |
+| **United Water Supply Company (UWSCG)** | Most other regional centres (Kutaisi, Telavi, Gori, Zugdidi, Akhaltsikhe, etc.) |
+| **Adjara Water (აჭარისწყალი)** | Batumi + Adjara |
+| Numerous small municipal/village systems | Rural settlements; many lack sewer |
+
+### Verification
+
+1. Check **municipality website** for water/sewer service maps; many small munis only publish service in tariff schedules
+2. Listing language:
+   - "ცენტრალური წყალი + კანალიზაცია" (centralised water + sewer) = full mains
+   - "ჭაბურღილი" (chaburghili / borehole) = own well; verify potability + permit
+   - "სანიტარული ჭა" / "ციფრო" (cesspit) = no mains sewer
+3. **Tbilisi + Batumi + Kutaisi urban core**: full mains assumed; **verify with operator before signing**
+4. **Villages and dachas in mtas (mountain settlements)**: often water-only or seasonal water; sewer rare
+
+### Costs
+
+| Scenario | Cost (US$) |
+|---|---:|
+| Connection to existing nearby mains (urban) | ~500–2,000 |
+| Mains drain extension (parcel where trunk line exists nearby) | ~1,500–6,000 |
+| Borehole drilling (50–100 m, common depth) | ~3,000–10,000 |
+| Septic tank install (typical residential) | ~1,500–4,000 |
+| Modern WWTP (BIO compliance) | ~5,000–15,000 |
+
+> All US$ ranges are **est.** based on Tbilisi/Batumi 2024–2025 contractor quotes aggregated from MyHome.ge contractor classifieds + GWP connection-charge schedule. Verify with 2+ quotes per project.
+
+### Utility tariffs (2025, regulated by GNERC)
+
+| Utility | Tariff |
+|---|---|
+| **Electricity (Telasi/Energo-Pro residential, ≤101 kWh)** | ~0.15 GEL/kWh (~US$0.055) |
+| **Electricity (101–301 kWh)** | ~0.18 GEL/kWh |
+| **Electricity (>301 kWh)** | ~0.22 GEL/kWh |
+| **Natural gas (residential, 5–500 m³)** | ~0.50–0.65 GEL/m³ depending on supplier (Wissol, SOCAR, Tbilisi Energy) |
+| **Water (GWP Tbilisi)** | ~0.35 GEL/m³ (without meter: ~3.15 GEL/person/month) |
+| **District heating** | Phased out post-Soviet; most apartments now individual gas boilers or electric |
+
+(Tariffs verified against gnerc.org 2025 published schedules — confirm current rates.)
+
+---
+
+## Cost benchmarks (GE 2025–2026)
+
+| Work | Cost (US$) |
+|---|---:|
+| NAPR extract (same-day) | ~2 |
+| NAPR registration of sale | ~20–80 |
+| Notarisation (optional) | 0.05–0.5 % of price |
+| Real-estate agent (paid by seller normally) | 3–5 % |
+| Building inspector (independent structural survey) | 200–800 |
+| Asbestos test (single sample) | 50–150 |
+| Radon test (3-month kit) | 50–200 |
+| White-frame → finished apartment fit-out | 200–400 / m² |
+| Roof replacement (terracotta, 200 m²) | 8,000–18,000 |
+| Full apartment renovation (Tbilisi mid-range, 80 m²) | 15,000–35,000 |
+| Septic to mains connection | 1,500–6,000 |
+| Annual property tax (residential, owner income > 100k GEL) | 0.8 % × declared value |
+| **Total transaction cost (buyer side, resale)** | **~0.1–0.5 % of price** |
+
+## Active fiscal incentives (2025)
+
+- **Small Business Status (1 % on turnover)** — for IEs with turnover ≤ 500k GEL/yr
+- **Micro Business Status (0 % income tax)** — for IEs with turnover ≤ 30k GEL/yr
+- **Estonia-model CIT** — 0 % corporate tax until profit distribution (since 2017)
+- **International Company status** (since 2020): 5 % CIT + 0 % dividend WHT for qualifying IT/maritime firms with substance in Georgia (Decree #619)
+- **Free Industrial Zones (FIZ)**: Poti, Kutaisi (Hualing), Tbilisi — exemption from CIT, VAT, property tax for in-zone activity
+- **Tourism Zones** (Anaklia, parts of Adjara): tax incentives + investment guarantees per region — verify per project
+- **Investment residence permit** at US$100k real-estate threshold
+- **Renovation grants for heritage buildings (Tbilisi Old Town)**: Tbilisi City Hall "Tbilisi Loves You" programme — variable annual budget; co-financing for façade restoration
+
+## Common listing platforms
+
+- **MyHome.ge** — full extraction, largest portal *(per listing — verify with cadastre / on visit)*
+- **SS.ge** — long-running classifieds *(per listing — verify with cadastre / on visit)*
+- **Place.ge**, **Livo.ge**, **Korter.ge** *(per listing — verify with cadastre / on visit)*
+- **Facebook Marketplace** + Telegram channels (`tbilisirent`, `batumirealestate`) — high volume, unverified
+- **Aparthotel developer portals** (Wyndham, Orbi, Alliance, Next, Iveria) for Batumi seafront
+
+## Caveats unique to GE
+
+- **Foreigners CAN buy residential freehold without restriction** (since 1996) — among the most permissive globally
+- **Foreigners CANNOT own agricultural land** (2018 constitutional ban Art. 19); pre-2017 foreign ag-land grandfathered
+- **Transaction costs ~0.1–0.5 %** — among the world's lowest (no transfer tax, NAPR fee nominal)
+- **No CGT after 2-year holding period** for individuals selling residential property
+- **5 % flat PIT on residential rental** to natural persons (or 1 % under SBS for IE) — very low effective tax
+- **NAPR cadastre is fast + cheap + bilingual GE/EN** — full title transfer can complete in 1 day at PSDA
+- **"White frame" trap**: many new-builds sold as bare shells; budget +US$200–US$400/m² for finishing
+- **Self-built (TPN) legalisation history**: pre-2007 unpermitted construction was waved through several legalisation rounds; some titles look clean but have no original building permit — affects future renovation
+- **Soviet-era panel buildings** (1955–1991): asbestos + uneven seismic retrofit; commission independent structural survey
+- **Heritage listing in Tbilisi Old Town** severely restricts renovation — check Cultural Heritage Agency register before signing
+- **Currency**: most listings priced in **US$** but contracts denominated in **GEL** at NBG reference rate on signing day — exchange-rate exposure
+- **2024 political situation**: EU accession effectively paused; "foreign agents" law in force; monitor before relying on EU-harmonisation expectations
+- **Investment residence permit threshold US$100k** is one of the lowest in the world — but permit doesn't grant tax residency automatically
+- **Property tax owed only if household income > 40,000 GEL/yr** (~US$14,800) — many foreign owners on remote-work income outside Georgian tax net pay 0 GEL property tax
+- **Adjara 2 GEL/night tourist fee** for accommodation hosts (Batumi area) — verify current rate
+
+## Reddit / forum sources
+
+- **r/Sakartvelo** (Georgia general, Georgian-English mix)
+- **r/tbilisi**, **r/Batumi** (city-specific)
+- **r/georgiarepublic**, **r/expatsingeorgia**
+- **Facebook**: "Expats in Tbilisi", "Foreigners in Georgia", "Tbilisi Apartments for Rent", "Batumi Real Estate"
+- **Telegram**: `t.me/tbilisirent`, `t.me/batumi_real_estate` (high volume; classifieds; never authoritative)
+- Expat blogs: **EmergingEuropeRealEstate**, **InvestInGeorgia.org** (think-tank)
+
+## Verification authorities
+
+| Authority | When to call / visit |
+|---|---|
+| **NAPR (National Agency of Public Registry)** | Title extract, encumbrances, cadastral verification — visit any PSDA Public Service Hall |
+| **PSDA (Public Service Development Agency / სახელმწიფო სერვისების განვითარების სააგენტო)** | One-stop hall for NAPR + civil registry + visa + IE registration |
+| **Revenue Service (rs.ge)** | Tax residency, SBS application, VAT registration |
+| **Notarial Chamber of Georgia** | Notarisation of contracts (optional) |
+| **Heritage Agency (heritagesites.ge)** | Heritage-listed building check (Old Town Tbilisi, Sighnaghi, Mestia) |
+| **Tbilisi / Batumi / Kutaisi Sakrebulo** | Local property-tax rates, zoning, building permits |
+| **GWP (Tbilisi) / UWSCG (regions) / Adjara Water (Batumi)** | Mains water + sewer connection verification |
+| **Telasi / Energo-Pro Georgia** | Electricity connection + tariff |
+| **National Environmental Agency (NEA)** | Geohazard certification (parcel-level on request) |
+| **Cultural Heritage Agency** | Old Town building restrictions |
+| **MFA (mfa.gov.ge)** | Visa-free eligibility, residence permit pathway |
+
+## Quirks to know
+
+- **Cadastral code format `XX.XX.XX.XXX`** (region.district.block.parcel) — every property has one; ask for it before any other paperwork
+- **PSDA same-day NAPR transfer**: title transfer can legally complete in **1 hour** for express fee — among the world's fastest cadastres
+- **"Amkhanagoba" (ამხანაგობა)**: Georgian equivalent of HOA/condo association — bylaws can restrict STR, alterations, pet ownership; obtain bylaws before signing
+- **Tbilisi addresses sometimes use district + micro-district + street** (e.g., "Saburtalo, IV მკრ., კოსტავა 27") — confirm the cadastral code, not just the street address
+- **"Italiuri ezo" (Italian courtyard)**: traditional Tbilisi balcony-courtyard apartment block; charming but typically pre-1921, weak seismic performance, tricky shared-wall rules
+- **VAT trap on new-build**: confirm "DDS-iani" (with VAT included) vs "DDS-is gareshe" (without) — 18 % swing on advertised price
+- **Khinkali test**: any seller insisting "we don't need a NAPR extract, trust me" — walk away; NAPR is free and 1-day
+
+## Source URL templates
+
+| Source | URL pattern |
+|---|---|
+| NAPR public viewer | `https://www.napr.gov.ge/` |
+| PSDA service hall | `https://psda.gov.ge/` |
+| Revenue Service | `https://www.rs.ge/` |
+| Geostat real estate stats | `https://www.geostat.ge/en/modules/categories/214/real-estate-price-statistics` |
+| NBG financial stability | `https://nbg.gov.ge/en/page/financial-stability-report` |
+| MyHome.ge search | `https://www.myhome.ge/en/s/<city>` |
+| SS.ge real estate | `https://home.ss.ge/en/real-estate/l/<city>` |
+| Korter.ge new build | `https://korter.ge/<city>` |
+| Roads Department | `https://www.georoad.ge/` |
+| NEA hazard portal | `https://nea.gov.ge/En` |
+| CENN geohazard atlas | `http://drm.cenn.org/` |
+| Seismic network | `http://www.seismo.iliauni.edu.ge/` |
+| Cultural Heritage Agency | `https://heritagesites.ge/` |
+| GNERC tariffs | `https://gnerc.org/en/` |
+| GWP Tbilisi water | `https://gwp.ge/en` |
+| UWSCG regional water | `https://water.gov.ge/` |
+| Adjara water | `https://achariswkali.ge/` |
+| MFA visa info | `https://mfa.gov.ge/en/visa-information` |
+| eMigration / residence | `https://sda.gov.ge/` |
+| Tbilisi City Hall | `https://tbilisi.gov.ge/` |
+
+## Status
+
+✅ **Fully populated** as of 2026-05-01.
+**Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats. Foreign-buyer rules + visa pathways verified against MFA + Civil Code references.
+**Confidence**: HIGH for cadastre + tax + foreign-buyer rules (NAPR + Tax Code + Constitution Art. 19 are primary statutory sources, multi-source corroborated). MEDIUM for short-let regulation (no national STR statute as of 2025; Tbilisi/Batumi rules in flux) and for parcel-level geohazard data (NEA + CENN are commune/district-level — parcel certification requires NEA Geological Service request).
+**Last verified**: 2026-05-01
+
+## Extension TODOs (deepen on first real run)
+
+- [ ] Per-Tbilisi-district property-tax coefficient extraction (Sakrebulo decisions per year)
+- [ ] Adjara tourist-fee current rate confirmation + Tbilisi Sakrebulo STR draft tracking
+- [ ] Heritage Agency listed-building cadastral-code lookup workflow
+- [ ] Aparthotel revenue-share contract review template (Batumi)
+- [ ] Foreign-ownership ag-land grandfathering audit (pre-2017 acquired plots)
+- [ ] Self-built legalisation status check (TPN waves) for pre-2007 buildings
+- [ ] Investment-residence-permit threshold confirmation (US$100k vs current statute)
+- [ ] NEA parcel-level geohazard certification request walkthrough

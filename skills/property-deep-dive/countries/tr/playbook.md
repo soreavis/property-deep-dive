@@ -551,7 +551,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 ## Status
 
-✅ **Fully populated** as of **2026-05-01**.
+✅ **Fully populated** as of 2026-05-01.
 
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources (TKGM, TÜİK, AFAD, GİB, MTA, MGM, DSİ, Resmi Gazete) + cost benchmarks + caveats + 2025 rates date-stamped.
 

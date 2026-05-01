@@ -514,7 +514,7 @@ Two distinct concepts (don't confuse):
 
 ## Status
 
-✅ **Fully populated** as of **2026-05-01**.
+✅ **Fully populated** as of 2026-05-01.
 
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government / regulated-entity sources + cost benchmarks + caveats.
 

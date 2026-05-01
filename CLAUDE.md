@@ -80,7 +80,7 @@ skills/property-deep-dive/                # the skill payload (everything plugin
 │   ├── visa-programs.md                  # ENDED registry source of truth
 │   ├── <22 section implementations>      # one per --<flag>
 │   └── <9 tooling docs>                  # tco / mortgage / fixtures / diff-watcher / etc.
-└── countries/<iso2>/playbook.md          # 44 country playbooks
+└── countries/<iso2>/playbook.md          # 62 country playbooks
 .github/workflows/                        # weekly URL liveness, monthly health report, 6h feed watcher
 _regions.json                             # docs-build input (README country matrix grouping) — NOT loaded by the skill at runtime
 ```
@@ -99,7 +99,7 @@ References inside SKILL.md / shared/*.md / countries/*/playbook.md use *relative
 ## When in doubt
 
 1. **Verify before recommending**: a memory or assumption that names a specific function/file/flag is a claim it existed when written. Grep the current state before acting.
-2. **Ask if the user's request collides with the anti-hallucination contract**: e.g., "fill in tax rates for all 44 countries quickly" without sources — that's slot-filling. Push back, propose research-first.
+2. **Ask if the user's request collides with the anti-hallucination contract**: e.g., "fill in tax rates for all 62 countries quickly" without sources — that's slot-filling. Push back, propose research-first.
 3. **Default to surfacing limitations explicitly**: "Confidence: MEDIUM because…" beats vague enthusiasm.
 
 ## Memory

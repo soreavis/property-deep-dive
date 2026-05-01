@@ -1,6 +1,6 @@
 # Universal `--compare` Mode
 
-Side-by-side multi-country comparison for relocation, investment, and "where should I move/buy?" decisions. Leverages all 44 country playbooks at once.
+Side-by-side multi-country comparison for relocation, investment, and "where should I move/buy?" decisions. Leverages all 62 country playbooks at once.
 
 **Snapshot**: April 2026.
 

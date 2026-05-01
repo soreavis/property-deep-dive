@@ -29,17 +29,22 @@
     {
       "id": "mena",
       "label": "Türkiye & Middle East",
-      "codes": ["tr", "ae"]
+      "codes": ["tr", "ae", "il"]
     },
     {
       "id": "apac",
       "label": "Asia-Pacific",
-      "codes": ["jp", "th"]
+      "codes": ["jp", "th", "id", "my", "vn", "ph"]
     },
     {
       "id": "africa",
       "label": "Africa",
-      "codes": ["za"]
+      "codes": ["za", "ma", "eg"]
+    },
+    {
+      "id": "caucasus",
+      "label": "Caucasus",
+      "codes": ["ge"]
     }
   ]
 }
