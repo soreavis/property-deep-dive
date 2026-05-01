@@ -71,6 +71,7 @@ Universal-section `shared/` files extended to cover the **18 new countries** add
 - `shared/price-index-feeds.md` (+53) — per-country HPI source registry for `--update --refresh-only`. Highlights: **DO and EG have no transaction-grade public HPI** — flagged plainly with verification path (3+ active listings + DGII or notarised deed comps); **VN 2024 Land Law replaced 5-year provincial land-price tables with annual ones** (meaningful methodological shift propagated to country playbook); **US needed 5 distinct rows** (FHFA + Case-Shiller = repeat-sales, NAR = transaction median, Zillow ZHVI = automated/asking-side, Redfin = MLS-derived) — none can substitute, ZHVI explicitly NOT a transaction index despite common misuse.
 
 This sweep retires the "MEDIUM-on-universal-flags" debt that accumulated as Tier-1 + Tier-2 country playbooks landed faster than the cross-cutting tables could absorb. All 62 countries now render HIGH-confidence universal sections.
+- feat(shared): backfill 13 cross-cutting tables for Tier-1 + Tier-2 (18 countries) ([#65](https://github.com/soreavis/property-deep-dive/pull/65)) — by @soreavis
 
 ### Added — 8 new country playbooks (Tier 2 expansion, 2026-05-01)
 
