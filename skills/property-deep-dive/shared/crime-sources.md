@@ -373,6 +373,145 @@ For the property's locality, return:
 - **Granularity**: per-district (NSO Districts 1-6: Southern Harbour / Northern Harbour / South Eastern / Western / Northern / Gozo and Comino) + per-locality (68)
 - **Caveat**: Sliema/St Julians/Paceville cluster has elevated theft-from-person + drug-related events; Marsa/Hamrun migrant-services hub elevated petty theft; Gozo materially lower across all categories
 
+### 🇺🇸 United States
+
+- **FBI UCR / NIBRS (Crime Data Explorer)**: `https://www.fbi.gov/services/cjis/ucr` + `https://cde.ucr.cjis.gov/` — primary national portal; NIBRS now mandatory (replacing summary UCR) with offense-level detail
+- **BJS NCVS (National Crime Victimization Survey)**: `https://bjs.ojp.gov/` — annual victimization survey to triangulate dark figure
+- **City-level**: most large PDs publish open-data portals (NYC NYPD CompStat, LAPD, Chicago Data Portal, SFPD, Seattle, Boston) — neighborhood / beat / precinct granularity
+- **Granularity**: per-state + per-county + per-agency (≈18,000); city-level frequently parcel-adjacent via PD APIs; rural sheriff's offices often lag NIBRS reporting
+- **Caveat**: NIBRS transition (2021+) created series-break; some large agencies (e.g., NYPD historically lagged) report incompletely → national totals are estimates; federal "violent crime" definition excludes simple assault — compare like-for-like
+
+### 🇹🇷 Turkey
+
+- **TÜİK Adalet İstatistikleri (TurkStat Justice Statistics)**: `https://data.tuik.gov.tr/Kategori/GetKategori?p=Adalet-ve-Secim-110` — annual criminal justice tables
+- **Emniyet Genel Müdürlüğü (General Directorate of Security)**: `https://www.egm.gov.tr/` — police statistics (limited public granularity)
+- **Jandarma Genel Komutanlığı**: rural districts outside police jurisdiction
+- **Granularity**: per-il (province, 81) routinely published; per-ilçe (district) data not publicly available at parcel level — verify with local police district (karakol)
+- **Caveat**: under-reporting in domestic violence + tourist-zone petty theft; methodology revisions 2017 + 2020; political-context offences may be undercounted
+
+### 🇦🇪 United Arab Emirates
+
+- **Dubai Police**: `https://www.dubaipolice.gov.ae/` — published headline statistics + smart-app reporting
+- **Ministry of Interior (MoI)**: `https://www.moi.gov.ae/` — federal annual report (low transparency)
+- **Abu Dhabi Police**: `https://www.adpolice.gov.ae/` — emirate-level
+- **Granularity**: emirate-level headline rates only; **data not publicly available at parcel/district/community level — verify with local police station (markaz)**
+- **Caveat**: very low transparency vs Western peers; published rates emphasize year-on-year decline narrative; expat vs national breakdown rarely disclosed; "safest country" claims rest on government press releases not open data
+
+### 🇯🇵 Japan
+
+- **警察庁 (National Police Agency, NPA / Keisatsucho)**: `https://www.npa.go.jp/` — annual White Paper (犯罪統計) per prefecture
+- **法務省 (Ministry of Justice / Houmusho)**: `https://www.moj.go.jp/` — annual White Paper on Crime (犯罪白書)
+- **e-Stat**: `https://www.e-stat.go.jp/` — open-data portal; per-todofuken (47 prefectures) + per-city for major metros
+- **Granularity**: per-prefecture + per-city; ward-level (区) for 23 Tokyo special wards + ordinance-designated cities; rural town-level often aggregated
+- **Caveat**: very low absolute crime; reporting rates high (high-trust); under-reporting concentrated in sexual offences + domestic violence; methodology stable
+
+### 🇹🇭 Thailand
+
+- **Royal Thai Police (สำนักงานตำรวจแห่งชาติ)**: `https://www.royalthaipolice.go.th/` — published headline statistics
+- **Office of the Judiciary / Office of the Attorney General**: court statistics for triangulation
+- **Granularity**: national + regional headlines; **per-province (จังหวัด, 77) inconsistently published; tourist-zone (Phuket, Pattaya, Koh Samui, Krabi) data not publicly available at parcel/district level — verify with local tourist police (1155)**
+- **Caveat**: significant under-reporting (cultural reluctance + insurance non-incentive); tourist-zone gaps (transient victim population, language barriers, settlement-out-of-court norm); foreign-victim incidents often handled by Tourist Police separately and not aggregated
+
+### 🇩🇴 Dominican Republic
+
+- **Policía Nacional (PN)**: `https://www.policianacional.gob.do/` — published statistics
+- **Procuraduría General de la República**: `https://pgr.gob.do/` — homicide + serious-offence series (most reliable)
+- **ONE (Oficina Nacional de Estadística)**: `https://www.one.gob.do/` — Estadísticas de seguridad
+- **Granularity**: per-provincia (32) + Distrito Nacional + Santo Domingo provincia; tourist-zone (Punta Cana / Bávaro / Sosúa / Las Terrenas) often aggregated under Higüey or Puerto Plata
+- **Caveat**: under-reporting common in petty theft + domestic; homicide series most trustworthy; tourist-zone incident data often suppressed for tourism-marketing reasons
+
+### 🇨🇴 Colombia
+
+- **Policía Nacional de Colombia**: `https://www.policia.gov.co/` — annual + monthly statistics
+- **Medicina Legal (Instituto Nacional de Medicina Legal y Ciencias Forenses)**: `https://www.medicinalegal.gov.co/` — homicide + violent-death series (gold standard, autopsy-anchored)
+- **DANE (Departamento Administrativo Nacional de Estadística)**: `https://www.dane.gov.co/` — Encuesta de Convivencia y Seguridad Ciudadana (ECSC) victimization survey
+- **Granularity**: per-departamento (32) + per-municipio + Bogotá localidades (20)
+- **Caveat**: post-conflict regional divergence (Cauca, Norte de Santander, Catatumbo materially higher than Antioquia/Bogotá); Medellín comuna-level data well-published; armed-actor "social cleansing" + extortion under-reported
+
+### 🇺🇾 Uruguay
+
+- **Ministerio del Interior — Observatorio Nacional sobre Violencia y Criminalidad**: `https://www.minterior.gub.uy/observatorio` — primary portal with monthly + annual series
+- **INE (Instituto Nacional de Estadística)**: `https://www.ine.gub.uy/` — Estadísticas vitales + crime tables
+- **Granularity**: per-departamento (19) + Montevideo (per-municipio A-G + per-barrio for some series)
+- **Caveat**: methodology stable; small population means absolute numbers volatile in interior departments; Montevideo barrio-level rates differ materially (Casavalle/Cerro vs Pocitos/Carrasco)
+
+### 🇨🇱 Chile
+
+- **Carabineros de Chile**: `https://www.carabineros.cl/` — police statistics
+- **Subsecretaría de Prevención del Delito (SPD)**: `http://www.seguridadpublica.gov.cl/` — ENUSC (Encuesta Nacional Urbana de Seguridad Ciudadana) victimization survey + DEIS administrative data
+- **PDI (Policía de Investigaciones)**: `https://www.pdichile.cl/` — investigative crime
+- **Granularity**: per-región (16) + per-comuna (346) + Santiago Metropolitan Region comuna-level routine
+- **Caveat**: ENUSC vs Carabineros gap (victim survey shows ~3-5x higher than recorded); 2019 social unrest + 2022-2024 organized-crime expansion (esp. Tren de Aragua) created series-break in Antofagasta/Iquique/Arica; Las Condes/Vitacura/Lo Barnechea materially lower than national avg
+
+### 🇿🇦 South Africa
+
+- **SAPS (South African Police Service) Crime Stats**: `https://www.saps.gov.za/services/crimestats.php` — quarterly per-station data (≈1,150 police stations)
+- **Stats SA Victims of Crime Survey (VOCS)**: `https://www.statssa.gov.za/` — annual victimization survey (essential complement)
+- **Institute for Security Studies (ISS)**: `https://issafrica.org/` — secondary analysis + per-station mapping
+- **Granularity**: per-province (9) + per-station (1,150) — among the most granular in Africa; per-suburb only for major metros via private aggregators
+- **Caveat**: under-reporting significant for sexual offences + assault (VOCS gap); precinct boundaries don't match suburb boundaries (Sandton vs Alexandra share Linden / Sandton stations); "contact crime" categorization changed 2015+; gated-estate vs township within same precinct can differ by orders of magnitude
+
+### 🇬🇪 Georgia
+
+- **Ministry of Internal Affairs (MIA / შინაგან საქმეთა სამინისტრო)**: `https://police.ge/` — annual + monthly crime statistics
+- **Geostat (National Statistics Office of Georgia)**: `https://www.geostat.ge/en` — criminal justice tables
+- **Supreme Court of Georgia**: court statistics
+- **Granularity**: per-region (mkhare, 9 + 2 autonomous + Tbilisi) + Tbilisi raioni (districts); rural municipality data published but small absolute numbers
+- **Caveat**: post-2003 reform reduced petty corruption + recorded-crime methodology stabilized; under-reporting in domestic violence (cultural); breakaway regions (Abkhazia, South Ossetia) not in MIA series
+
+### 🇮🇩 Indonesia
+
+- **Polri (Kepolisian Negara Republik Indonesia)**: `https://www.polri.go.id/` — national headline statistics; Polda (provincial) sites for per-province
+- **BPS (Badan Pusat Statistik) Statistik Kriminal**: `https://www.bps.go.id/` — annual Statistik Kriminal publication
+- **Granularity**: per-provinsi (38) + per-Polda; per-kabupaten/kota (≈514) data inconsistently public — verify with local Polres
+- **Caveat**: significant under-reporting (low trust in low-rank police, settlement-out-of-court norm "musyawarah"); tourist-zone (Bali Kuta/Seminyak/Canggu, Lombok Senggigi/Kuta) data not publicly available at parcel/banjar level — verify with local Polsek; Aceh Sharia-court offences separate
+
+### 🇲🇾 Malaysia
+
+- **PDRM (Polis Diraja Malaysia)**: `https://www.rmp.gov.my/` — annual statistics + IGP press releases
+- **DOSM (Department of Statistics Malaysia) crime stats**: `https://www.dosm.gov.my/` — Compendium of Social Statistics
+- **Royal Malaysia Police Crime Index (Indeks Jenayah)**: 7-category index (murder, rape, robbery, assault, burglary, vehicle theft, snatch theft)
+- **Granularity**: per-state (13 + 3 federal territories) + per-district (daerah polis); KL/Selangor district-level routine; East Malaysia (Sabah/Sarawak) lower granularity
+- **Caveat**: "Crime Index" methodology change 2014 + 2020 created series-break; under-reporting in commercial-fraud + domestic; expat-targeted scams (Macau scam, parcel scam) often handled by separate CCID
+
+### 🇻🇳 Vietnam
+
+- **Bộ Công An (Ministry of Public Security)**: `https://bocongan.gov.vn/` — limited public statistics
+- **Tổng cục Thống kê (General Statistics Office)**: `https://www.gso.gov.vn/` — annual statistical yearbook (criminal justice chapter)
+- **Supreme People's Procuracy (Viện Kiểm sát Nhân dân Tối cao)**: court-side series
+- **Granularity**: national headlines + occasional per-province (63); **city/district/ward (phường) level data not publicly available — verify with local public security ward office (Công an phường)**
+- **Caveat**: very low transparency; published narratives emphasize stability + low crime; political-context offences excluded from public series; expat-targeted petty theft (HCMC District 1, Hanoi Old Quarter) anecdotally elevated but not publicly quantified
+
+### 🇵🇭 Philippines
+
+- **PNP (Philippine National Police) Crime Statistics**: `https://www.pnp.gov.ph/` — monthly + annual reports; Crime Information Reporting and Analysis System (CIRAS)
+- **PSA (Philippine Statistics Authority)**: `https://psa.gov.ph/` — Crime statistics integrated in Statistical Yearbook
+- **Granularity**: per-region (17) + per-province (82) + per-city/municipality + Metro Manila per-city + per-barangay (for major cities only)
+- **Caveat**: 2016-2022 "war on drugs" period created reporting distortions (extra-judicial killings + drug-related deaths separately tracked, definitions contested); under-reporting in domestic + sexual; Mindanao conflict-zone data partially aggregated; tourist-zone (Boracay, Cebu, Palawan) incidents sometimes routed through DOT separately
+
+### 🇮🇱 Israel
+
+- **Israel Police (משטרת ישראל)**: `https://www.gov.il/he/departments/israel_police` — published statistics + open-data
+- **Central Bureau of Statistics (CBS / הלמ"ס)**: `https://www.cbs.gov.il/` — Social Statistics including criminal justice
+- **State Attorney + Ministry of Justice**: indictment + conviction series
+- **Granularity**: per-district (6) + per-city + Jerusalem/Tel Aviv neighborhood-level via municipal open data
+- **Caveat**: West Bank settlements partially in Israeli police series (depending on jurisdiction split with IDF/Civil Administration); East Jerusalem under-reporting (Palestinian residents use parallel mechanisms); 2023+ security situation created series-break + "security incidents" categorized separately from "crime"
+
+### 🇲🇦 Morocco
+
+- **DGSN (Direction Générale de la Sûreté Nationale)**: `https://www.dgsn.gov.ma/` — annual press conference + bulletins (urban areas)
+- **Gendarmerie Royale**: rural areas outside DGSN jurisdiction
+- **HCP (Haut-Commissariat au Plan) victimization surveys**: `https://www.hcp.ma/` — periodic enquêtes (most recent 2018-2019)
+- **Granularity**: national + per-region (12) headlines; per-prefecture/province inconsistently published; per-arrondissement (Casablanca/Rabat) only via DGSN press
+- **Caveat**: under-reporting common (HCP victim survey shows ~3-4x higher than DGSN recorded); tourist-zone (Marrakech medina, Tangier, Essaouira, Agadir) petty-theft + harassment under-reported; methodology not aligned with EU; data not publicly available at parcel/quarter level — verify with local arrondissement DGSN
+
+### 🇪🇬 Egypt
+
+- **CAPMAS (Central Agency for Public Mobilization and Statistics) Annual Statistical Yearbook + Criminal Statistics**: `https://www.capmas.gov.eg/` — annual report (criminal justice chapter)
+- **Ministry of Interior (وزارة الداخلية)**: `https://moi.gov.eg/` — security communiqués (low public-data granularity)
+- **Granularity**: national + governorate-level (27) headlines; **city/district/sheyakha level data not publicly available — verify with local police station (qism al-shorta)**
+- **Caveat**: very low transparency; political-context + terrorism-related offences excluded or separately classified; under-reporting significant in sexual harassment (despite 2014 law) + domestic; tourist-zone (Sharm el-Sheikh, Hurghada, Luxor, Aswan) incidents handled by Tourist & Antiquities Police (سياحة وآثار) separately
+
 ## Universal extraction approach
 
 For each country, the workflow:

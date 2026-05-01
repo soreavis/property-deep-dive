@@ -87,13 +87,65 @@ For each country, return:
 
 ## Latin America
 
-| ISO | Source | Index | URL | Frequency |
-|---|---|---|---|---|
-| MX | SHF | HPI | https://www.gob.mx/shf | quarterly |
-| BR | FIPE-ZAP + IGMI-R (BCB) | HPI | https://www.fipe.org.br/ + https://www.bcb.gov.br/ | monthly |
-| AR | Reporte Inmobiliario + INDEC | HPI | https://www.reporteinmobiliario.com/ | monthly |
-| CR | BCCR + INEC | HPI | https://www.bccr.fi.cr/ | quarterly |
-| PA | INEC + Acobir | HPI | https://www.inec.gob.pa/ + https://www.acobir.com/ | annual |
+| ISO | Source | Index | URL | Frequency | Latest period | Methodology |
+|---|---|---|---|---|---|---|
+| MX | SHF | HPI | https://www.gob.mx/shf | quarterly | — | hedonic, transaction-side |
+| BR | FIPE-ZAP + IGMI-R (BCB) | HPI | https://www.fipe.org.br/ + https://www.bcb.gov.br/ | monthly | — | FIPE-ZAP asking-side; IGMI-R repeat-sales (BCB collateral) |
+| AR | Reporte Inmobiliario + INDEC | HPI | https://www.reporteinmobiliario.com/ | monthly | — | asking-side, USD-denominated |
+| CR | BCCR + INEC | HPI | https://www.bccr.fi.cr/ | quarterly | — | hedonic |
+| PA | INEC + Acobir | HPI | https://www.inec.gob.pa/ + https://www.acobir.com/ | annual | — | mixed |
+| CO | DANE + BanRep | IPVN (Índice de Precios de Vivienda Nueva) | https://www.dane.gov.co/ + https://www.banrep.gov.co/ | quarterly | Q4 2025 (verify) | DANE IPVN new-build hedonic; BanRep IPVU used-housing tracker (Bogotá/Medellín/Cali) |
+| UY | INE + BCU | IPV (Índice de Precios de Inmuebles) | https://www.ine.gub.uy/ + https://www.bcu.gub.uy/ | quarterly | Q4 2025 (verify) | transaction-side, asking-side cross-check via Mercado Libre / InfoCasas |
+| CL | INE + CChC | IRPV (Índice Real de Precios de Vivienda) | https://www.ine.gob.cl/ + https://www.cchc.cl/ | quarterly | Q4 2025 (verify) | INE IRPV national hedonic in UF; CChC Cámara Chilena de la Construcción regional |
+| DO | BCRD (emerging) + Encuentra24 / Inmobiliaria.com.do | no national HPI | https://www.bancentral.gov.do/ | n/a (BCRD HPI not yet routine-public) | n/a | **No mature public HPI.** BCRD index emerging; listing aggregators (Encuentra24, Inmobiliaria.com.do) provide asking-side only. Verify any €/m² claim via 3+ active listings + DGII transfer-tax records |
+
+## North America (non-Anglo grouping)
+
+| ISO | Source | Index | URL | Granularity | Frequency | Latest period | Methodology |
+|---|---|---|---|---|---|---|---|
+| US | FHFA | HPI (purchase-only + all-transactions) | https://www.fhfa.gov/data/hpi | national / division / state / metro / 3-digit ZIP | monthly + quarterly | Q4 2025 (verify) | repeat-sales on conforming GSE-backed mortgages |
+| US | S&P CoreLogic Case-Shiller | National + 20-City Composite | https://www.spglobal.com/spdji/en/index-family/indicators/sp-corelogic-case-shiller/ | national + 20 metros | monthly | Latest published | repeat-sales, value-weighted |
+| US | NAR | Median Sales Price of Existing Homes | https://www.nar.realtor/research-and-statistics | national / metro | monthly + quarterly | Latest published | median, transaction-side (NOT quality-adjusted — use FHFA/Case-Shiller for trend) |
+| US | Zillow | ZHVI (Zillow Home Value Index) | https://www.zillow.com/research/data/ | national / metro / city / ZIP / neighborhood | monthly | Latest published | smoothed, asking-side automated valuation — NOT a transaction index |
+| US | Redfin Data Center | Median sale price + days on market | https://www.redfin.com/news/data-center/ | national / metro / ZIP | weekly + monthly | Latest published | transaction-side, MLS-derived |
+
+## MENA (Middle East + North Africa)
+
+| ISO | Source | Index | URL | Granularity | Frequency | Latest period | Methodology |
+|---|---|---|---|---|---|---|---|
+| TR | TÜİK + TCMB | Konut Fiyat Endeksi (KFE) | https://data.tuik.gov.tr/Kategori/GetKategori?p=Konut-114 + https://www.tcmb.gov.tr/ | national + 3 metros (Istanbul / Ankara / Izmir) + 26 regions | monthly + quarterly | Latest published (verify) | hedonic, transaction-side from valuation reports — note nominal vs real divergence under high inflation |
+| AE | DLD + Bayut + Property Monitor + Property Finder | Bayut Index / Property Monitor PMI / DLD transaction tables | https://www.bayut.com/mybayut/dubai-property-market-trends/ + https://www.propertymonitor.com/ + https://dubailand.gov.ae/ | emirate / community / building | monthly (transactions) | Latest published | DLD = transaction-side primary register; Bayut/PF = asking-side aggregators. **No national HPI** — Dubai-centric coverage |
+| IL | CBS (Lamas) | Dwelling Price Index | https://www.cbs.gov.il/he/subjects/Pages/%D7%9E%D7%97%D7%99%D7%A8%D7%99-%D7%93%D7%99%D7%A8%D7%95%D7%AA.aspx | national + 7 districts | monthly + quarterly | Latest published | hedonic, transaction-side from Tax Authority deeds |
+| MA | HCP | IPAI (Indice des Prix des Actifs Immobiliers) | https://www.hcp.ma/ | national + main cities | quarterly | Latest published | hedonic, transaction-side jointly with Bank Al-Maghrib |
+| EG | CAPMAS / Property Finder Egypt | no mature public HPI | https://www.capmas.gov.eg/ + https://www.propertyfinder.eg/en/research | n/a | monthly (asking-side via Property Finder) | n/a | **No transaction-grade public HPI.** CAPMAS coverage limited; REPA records not queryable; Property Finder Egypt monthly is asking-side only. Verify via 3+ listings + notarised deed comps |
+
+## Asia-Pacific
+
+| ISO | Source | Index | URL | Granularity | Frequency | Latest period | Methodology |
+|---|---|---|---|---|---|---|---|
+| JP | MLIT (国土交通省) | 不動産価格指数 (Real Estate Price Index) | https://www.mlit.go.jp/totikensangyo/totikensangyo_tk5_000085.html | national + region + prefecture | monthly + quarterly | Latest published | hedonic, transaction-side (registered transfers) |
+| JP | MLIT | 公示地価 (Kōji-chika land price) | https://www.land.mlit.go.jp/landPrice/ | parcel-level (~26k assessment points) | annual (1 Jan reference) | 2026 (1 Jan) | official appraised land prices, parcel-level |
+| JP | NTA (国税庁) | 路線価 (Rosen-ka inheritance/gift tax road-frontage value) | https://www.rosenka.nta.go.jp/ | road-segment (parcel proxy) | annual (1 Jul publish) | 2025 (verify 2026 publish) | tax-assessment value, ~80% of Kōji-chika |
+| TH | REIC + AREA | REIC HPI / AREA market reports | https://www.reic.or.th/ + http://www.area.co.th/ | Bangkok metropolitan + selected provinces | quarterly | Latest published (verify) | REIC = Bank of Thailand-affiliated, transaction-side; AREA = private survey-based |
+| ID | BPS + BI | IHPR (Indeks Harga Properti Residensial) / SHPR survey | https://www.bps.go.id/ + https://www.bi.go.id/ | national + 18 cities (BI primary-market survey) | quarterly | Latest published (verify) | BI SHPR primary-market survey of developers (asking-side); BPS hedonic |
+| MY | NAPIC (JPPH) | Malaysian House Price Index (MHPI) | https://napic.jpph.gov.my/ | national + 14 states + key districts | quarterly | Latest published (verify) | hedonic, transaction-side from stamp-duty records — best-in-class regional tracker |
+| VN | GSO + MOC | Real Estate Price Index + provincial land-price tables | https://www.gso.gov.vn/ + https://moc.gov.vn/ | national + provincial | quarterly (HPI), annual (provincial land-price tables) | Latest published (verify) | GSO HPI hedonic; **2024 Land Law replaced 5-yr land-price tables with annual provincial tables** — significant methodological shift, see regulatory-watch.md |
+| PH | PSA + BSP | RREPI (Residential Real Estate Price Index) | https://psa.gov.ph/ + https://www.bsp.gov.ph/ | national + NCR + Areas Outside NCR | quarterly | Latest published (verify) | hedonic, transaction-side from BSP-supervised banks' housing-loan appraisals |
+
+## Africa (sub-Saharan)
+
+| ISO | Source | Index | URL | Granularity | Frequency | Latest period | Methodology |
+|---|---|---|---|---|---|---|---|
+| ZA | SARB | QB (Quarterly Bulletin) HPI references | https://www.resbank.co.za/ | national | quarterly | Latest published | aggregated from private indices |
+| ZA | FNB (First National Bank) | FNB House Price Index | https://blog.fnb.co.za/category/property/ | national + metro | monthly | Latest published | hedonic, FNB-financed transactions |
+| ZA | Lightstone | Residential Property Indices | https://lightstone.co.za/ | national + province + suburb | monthly + annual | Latest published | repeat-sales on full deeds-office register — broadest coverage |
+| ZA | ABSA | ABSA House Price Index | https://www.absa.co.za/indices/ | national | monthly | Latest published | hedonic, ABSA-financed transactions |
+
+## Caucasus
+
+| ISO | Source | Index | URL | Granularity | Frequency | Latest period | Methodology |
+|---|---|---|---|---|---|---|---|
+| GE | Geostat | Real Estate Price Index | https://www.geostat.ge/en | national + Tbilisi + 4 secondary cities | quarterly | Latest published (verify) | hedonic, transaction-side from Public Registry |
 
 ---
 
@@ -138,4 +190,6 @@ Per country playbook:
 
 ## Status
 
-Last refreshed: 2026-04-26.
+Last refreshed: 2026-05-01 (added 18-country Tier-1 + Tier-2 expansion: US, TR, AE, JP, TH, DO, CO, UY, CL, ZA, GE, ID, MY, VN, PH, IL, MA, EG). "Latest period" cells marked `(verify)` await first round of `--update --refresh-only` to capture the actual published Q4 2025 / Q1 2026 values from each authority.
+
+**Confidence**: MEDIUM — every URL is the canonical authority's own domain; methodology notes reflect each authority's published metadata. Specific Q4 2025 / Q1 2026 numeric values were NOT fetched in this expansion pass, so they're labelled `Latest published (verify)` rather than asserted. DO and EG flagged plainly as having no mature public HPI — verification path documented in-row.

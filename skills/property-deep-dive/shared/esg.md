@@ -59,6 +59,33 @@ Distribution of building stock by EPC class (residential). Source mix: **EU Buil
 
 **Disclaimer**: EPC class methodologies are NOT harmonised across countries (the same physical building can be class B in DE and class C in FR). EU EPBD recast 2024/1275 aims to converge — transposition deadline 29 May 2026.
 
+### Non-EU energy-rating regimes (Tier-1 + Tier-2 expansion, Apr 2026)
+
+EPC-style class distributions are not published by stat office for most non-EU regimes — output the **regime name, scope, and verification path** rather than fabricating an A-G split.
+
+| Country | Regime | Mandatory? | Stock penetration | Source |
+|---|---|---|---|---|
+| 🇺🇸 US | HERS Index (RESNET) — voluntary national. State overlays: CA Title 24 (mandatory new build), NY LL97 (commercial >25k sqft) | Federal: voluntary; CA/NY: mandatory in scope | est. <20% of single-family stock rated (HERS) — verify at resnet.us | resnet.us; energy.ca.gov |
+| 🇹🇷 TR | BEP Yönetmeliği EPC — mandatory for buildings permitted post-2011 | Mandatory at sale/rent if permit ≥2011 | Pre-2011 stock largely unrated — verify at csb.gov.tr | csb.gov.tr |
+| 🇦🇪 AE | Estidama Pearl Rating (Abu Dhabi) + Al Sa'fat (Dubai) | Mandatory new build (both emirates) | Older Dubai/AUH stock unrated — verify at dm.gov.ae / upc.gov.ae | dm.gov.ae; upc.gov.ae |
+| 🇯🇵 JP | BELS (Building Energy-saving Labeling System) | 2025 Building Energy Conservation Act mandates higher efficiency for all new builds | Voluntary on existing stock; new builds rated from 2025 — verify at mlit.go.jp | mlit.go.jp |
+| 🇹🇭 TH | TREES (TGBI) | Voluntary | Single-digit % of commercial; residential rare — verify at tgbi.or.th | tgbi.or.th |
+| 🇩🇴 DO | No national EPC regime (per public sources Apr 2026) | — | data not publicly available — verify at mem.gob.do | mem.gob.do |
+| 🇨🇴 CO | NSR-10 seismic + emerging sostenibilidad codes | Seismic mandatory; energy-efficiency voluntary | Energy class data not publicly available — verify at minvivienda.gov.co | minvivienda.gov.co |
+| 🇺🇾 UY | CO2 / energy-efficiency cert pilot (MIEM) | Voluntary | Pilot scope only — verify at miem.gub.uy | miem.gub.uy |
+| 🇨🇱 CL | CES (Certificación de Edificio Sustentable) | Voluntary; mandatory for some public buildings | est. <5% of stock — verify at certificacionsustentable.cl | certificacionsustentable.cl |
+| 🇿🇦 ZA | SANS 10400-XA energy efficiency (post-2008 builds) | Mandatory at building plan approval | Pre-2008 stock unrated; post-2011 stock subject to XA — verify at sabs.co.za | sabs.co.za |
+| 🇬🇪 GE | Nascent regime — EU candidate alignment in progress | Not yet mandatory | Distribution data not publicly available — verify at economy.ge | economy.ge |
+| 🇮🇩 ID | GREENSHIP (GBCI) | Voluntary | Sub-1% of stock — verify at gbcindonesia.org | gbcindonesia.org |
+| 🇲🇾 MY | GBI (GreenBuildingIndex) + GreenRE | Voluntary | est. <5% of commercial; residential rare — verify at greenbuildingindex.org | greenbuildingindex.org |
+| 🇻🇳 VN | LOTUS (VGBC) + EE Law 2010 framework | Voluntary | Sub-1% — verify at vgbc.vn | vgbc.vn |
+| 🇵🇭 PH | BERDE (PhilGBC) + DOE Philippine Green Building Code (2024 update) | DOE code mandatory in scope (large buildings); BERDE voluntary | Residential coverage low — verify at philgbc.org / doe.gov.ph | philgbc.org; doe.gov.ph |
+| 🇮🇱 IL | Israeli Standard 5281 (בנייה ירוקה / green building) | Mandatory rating for new builds from 2022 | Older stock unrated — verify at sii.org.il | sii.org.il |
+| 🇲🇦 MA | HEQ certification + Loi 47-09 energy efficiency (2014) | 47-09 mandatory at permit; HEQ voluntary | Pre-2014 stock largely unrated — verify at amee.ma | amee.ma |
+| 🇪🇬 EG | GPRS (Green Pyramid Rating System) | Voluntary; mandatory for some New Capital projects | Sub-1% of national stock — verify at hbrc.edu.eg | hbrc.edu.eg |
+
+**Caveat**: These regimes use **different scales** (HERS is 0-150 with lower=better; BERDE is 1-5 stars; Estidama is 1-5 Pearls; SANS 10400-XA is pass/fail). They are **not** equivalent to EU A-G classes and must not be presented on the same axis.
+
 ## Worst-class rental ban schedule
 
 ### Active bans (Apr 2026)
@@ -109,6 +136,34 @@ Distribution of building stock by EPC class (residential). Source mix: **EU Buil
 - Baltics: 🇪🇪 EE, 🇱🇻 LV, 🇱🇹 LT (some coastal storm surge)
 - Central: 🇱🇺 LU, 🇦🇹 AT (Alpine but low-density); UK (mostly)
 
+### Tier-1 + Tier-2 expansion (Apr 2026, public-source composite)
+
+Hazard tags below are derived from primary national/UN sources (USGS, JMA, JRC INFORM, ThinkHazard!, Climate Central). Parcel-level claim requires a parcel risk pull (state/national flood map, seismic microzonation) — see `shared/climate.md` for the per-country verification path.
+
+**Highest exposure (Tier-1 + Tier-2)**:
+- 🇯🇵 JP — Megaquake risk (Nankai Trough, JMA active monitoring); typhoon + tsunami; Mt Fuji volcanic monitoring [verify at jma.go.jp]
+- 🇵🇭 PH — typhoon belt (avg ~20/yr); seismic (PHIVOLCS); Taal/Mayon volcanic — verify at phivolcs.dost.gov.ph
+- 🇮🇩 ID — Pacific Ring of Fire seismic + tsunami; volcanic (>120 active); Jakarta land subsidence — verify at bmkg.go.id
+- 🇩🇴 DO — North-Atlantic hurricane belt (peak Aug-Oct); Hispaniola seismic — verify at onamet.gov.do
+- 🇨🇱 CL — subduction-zone seismic (Mw 8.8 2010 reference); Atacama mega-drought ongoing since 2010; tsunami — verify at sernageomin.cl
+- 🇨🇴 CO — Andean seismic; Pacific tsunami; Magdalena/Cauca flood — verify at sgc.gov.co
+- 🇪🇬 EG — Nile Delta sea-level rise (Climate Central: ~30% Alexandria below SLR-2050 line); water scarcity — verify at climatecentral.org
+- 🇲🇦 MA — 2023 Marrakech-Al Haouz Mw 6.8 quake; coastal Atlantic storm — verify at cnrst.ma
+- 🇹🇷 TR — North Anatolian Fault (2023 Kahramanmaraş Mw 7.8 — 50k+ deaths); coastal Aegean — verify at afad.gov.tr
+- 🇮🇱 IL — Dead Sea Transform fault; coastal SLR Tel Aviv — verify at gsi.gov.il
+
+**Mid exposure**:
+- 🇺🇸 US — multi-hazard by region: CA wildfire/quake; FL/TX hurricane; Tornado Alley; AK seismic — verify at fema.gov / usgs.gov
+- 🇦🇪 AE — extreme heat (50°C+ summer); Apr 2024 Dubai flooding (cloud-seeding controversy); coastal SLR Palm/Marina — verify at ncm.ae
+- 🇹🇭 TH — Bangkok subsidence + monsoon flood; tsunami Andaman coast (2004 reference) — verify at tmd.go.th
+- 🇲🇾 MY — monsoon flood (2021 Selangor reference); peat-fire haze — verify at met.gov.my
+- 🇻🇳 VN — typhoon coast; Mekong Delta SLR + saline intrusion — verify at nchmf.gov.vn
+- 🇿🇦 ZA — Western Cape "Day Zero" drought (2018 reference); KZN floods (2022); coastal storm — verify at weathersa.co.za
+- 🇺🇾 UY — coastal flood Río de la Plata; drought 2022-23 — verify at inumet.gub.uy
+
+**Lower-but-not-zero exposure**:
+- 🇬🇪 GE — Caucasus seismic; Black Sea coastal storm — verify at nea.gov.ge
+
 ## Community impact / walkability / renewable share
 
 ### Highest renewable-share electricity grids (host country)
@@ -129,6 +184,56 @@ Distribution of building stock by EPC class (residential). Source mix: **EU Buil
 - 🇷🇸 RS: ~30%
 - 🇧🇦 BA: ~40%
 
+### Tier-1 + Tier-2 grid mix (% renewable, electricity, latest national figures)
+
+Sources: IEA national reports + national grid operator data, latest available; figures rounded.
+
+| Country | % renewable (electricity) | Notable | As-of |
+|---|---:|---|---|
+| 🇺🇾 UY | ~98% | Wind + hydro + solar — 2017 milestone; among highest in world | 2024 (UTE) |
+| 🇨🇴 CO | ~70% | Hydro-dominant; El Niño exposure | 2024 (XM) |
+| 🇨🇱 CL | ~55% | Solar (Atacama) + wind growth | 2024 (CNE) |
+| 🇿🇦 ZA | ~15% | Coal-heavy (Eskom); load-shedding still endemic | 2024 (Eskom) |
+| 🇲🇦 MA | ~40% | Noor Ouarzazate solar; wind Tarfaya — target 52% by 2030 | 2024 (ONEE) |
+| 🇺🇸 US | ~22% | Wide state variation: WA/OR ~70%+; WV/KY <5% | 2024 (EIA) |
+| 🇯🇵 JP | ~24% | Solar + hydro; nuclear restart trajectory | 2024 (METI) |
+| 🇮🇱 IL | ~13% | Solar growth target 30% by 2030 | 2024 (energy.gov.il) |
+| 🇹🇷 TR | ~44% | Hydro + wind + geothermal + solar | 2024 (TEİAŞ) |
+| 🇦🇪 AE | ~7% | Mostly natural gas; Barakah nuclear adds capacity (not classed renewable) | 2024 (DEWA / FEWA) |
+| 🇹🇭 TH | ~12% | Natural-gas dominant | 2024 (EPPO) |
+| 🇲🇾 MY | ~18% | Hydro Sarawak; solar growth peninsular | 2024 (energycommission.gov.my) |
+| 🇻🇳 VN | ~40% | Hydro + recent solar boom (2020-22) | 2024 (EVN) |
+| 🇵🇭 PH | ~22% | Geothermal + hydro | 2024 (DOE) |
+| 🇮🇩 ID | ~14% | Coal-dominant | 2024 (PLN) |
+| 🇩🇴 DO | ~18% | Solar + wind growth; oil/gas dominant | 2024 (CNE) |
+| 🇪🇬 EG | ~12% | Hydro Aswan + solar Benban | 2024 (EgyptERA) |
+| 🇬🇪 GE | ~80% | Hydro-dominant (Caucasus) | 2024 (gnerc.org) |
+
+## Recent climate-adaptation policy (Tier-1 + Tier-2)
+
+Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watch.md`.
+
+- 🇺🇸 US — **IRA §25C / §25D residential energy credits TERMINATED 31 Dec 2025** per OBBBA (Jul 2025). Pre-31-Dec-2025 expenditures grandfathered. State programs (CA Title 24, NY LL97) unchanged.
+- 🇹🇷 TR — Climate Law (İklim Kanunu) parliamentary draft 2024-2025; ETS-style scheme proposed. Verify enacted form at csb.gov.tr.
+- 🇦🇪 AE — UAE Net Zero 2050 framework (announced 2021); COP28 hosted Nov 2023; National Climate Change Plan 2017-2050.
+- 🇯🇵 JP — **2025 Building Energy Conservation Act** mandates higher efficiency for all new builds Apr 2025. GX-ETS (carbon-pricing voluntary phase) launched 2023, mandatory 2026.
+- 🇹🇭 TH — Climate Change Act enacted 2024 (framework only — implementing levy not active).
+- 🇩🇴 DO — ENERSOL solar program for residential (subsidies; verify scope at mem.gob.do); hurricane code post-Maria.
+- 🇨🇴 CO — **Ley 2169/2021** carbon-neutrality 2050 + climate transition framework.
+- 🇺🇾 UY — National Climate Change Policy (2017); 100%-renewable electricity milestone (2017); CO2/EE cert pilot ongoing.
+- 🇨🇱 CL — **Código de Aguas reform 2022/2024** (water priority for human consumption); Ley Marco de Cambio Climático 21.455 (2022).
+- 🇿🇦 ZA — Climate Change Act signed Jul 2024; Carbon Tax Act 2019 in force (large emitters).
+- 🇬🇪 GE — EU candidate alignment in progress; National Energy & Climate Plan draft; targets harmonisation 2030.
+- 🇮🇩 ID — RUEN (Rencana Umum Energi Nasional) energy plan; FOLU Net Sink 2030 forestry-focused commitment.
+- 🇲🇾 MY — Net Zero 2050 commitment (announced 2021); National Energy Transition Roadmap (Aug 2023).
+- 🇻🇳 VN — **EE Law 2010** (energy efficiency framework); JETP (Just Energy Transition Partnership) USD 15.5B announced Dec 2022.
+- 🇵🇭 PH — **DOE Philippine Green Building Code 2024 update**; Climate Change Act 2009 (framework).
+- 🇮🇱 IL — Israeli Standard 5281 mandatory for new builds from 2022; Climate Law draft pending Knesset.
+- 🇲🇦 MA — **Loi 47-09** energy efficiency (2014); Noor Ouarzazate solar complex (~580 MW); 52% renewable target 2030.
+- 🇪🇬 EG — Egypt Vision 2030 sustainability axis; New Administrative Capital green-build mandates; COP27 hosted Nov 2022.
+
+**Rule**: Reforms in this list with `2024+` effective dates require cross-check at the country's primary ministry URL before quoting in a final report — frameworks often pass before implementing regulations.
+
 ### Best walkability / public transport (urban):
 - Vienna 🇦🇹, Zurich 🇨🇭, Copenhagen 🇩🇰, Amsterdam 🇳🇱, Paris 🇫🇷 (intra-mura), Berlin 🇩🇪, Munich 🇩🇪, Stockholm 🇸🇪, Helsinki 🇫🇮, Oslo 🇳🇴
 
@@ -148,8 +253,21 @@ Distribution of building stock by EPC class (residential). Source mix: **EU Buil
 | 🇨🇭 CH | CO2 tax | CHF 120/tonne |
 | 🇪🇺 ALL | EU ETS2 | €45/tonne starting 2027 (transport + buildings) |
 | 🇨🇦 CA | Federal carbon levy | CAD 95/tonne 2026 |
+| 🇺🇸 US | No federal carbon tax. State RGGI cap-and-trade (NE states) + CA cap-and-trade. **IRA tax credits §25C/§25D TERMINATED 31 Dec 2025** per OBBBA Jul 2025 — verify at irs.gov/pub/irs-pdf/p5886.pdf | RGGI auction price ~$15-25/tonne 2025; CA ~$30/tonne 2025 |
+| 🇿🇦 ZA | Carbon Tax Act 2019 (incl. Apr 2025 rate hike to ZAR 236/tonne) — applies to large emitters, **not residential heating** | ZAR 236/tonne 2025 — verify at sars.gov.za |
+| 🇯🇵 JP | "Tax for Climate Change Mitigation" (carbon surcharge on petroleum/coal/gas) | JPY 289/tonne CO2 (2012-set, low) — verify at env.go.jp; GX-ETS phasing in from 2026 |
+| 🇨🇱 CL | Green tax (Ley 20.780 / 2014) on stationary emitters >50MWth — not residential | USD 5/tonne 2025 — verify at sii.cl |
+| 🇨🇴 CO | National carbon tax on fossil fuels (Ley 1819/2016) | ~COP 27,800/tonne (~USD 6-7) 2025 — verify at dian.gov.co |
+| 🇺🇾 UY | CO2 tax on petroleum (IMESI overlay, 2022) | est. USD 137/tonne (highest in LatAm) — verify at impo.com.uy |
+| 🇮🇱 IL | No comprehensive carbon tax as of Apr 2026; phased fuel-tax adjustments announced — verify at finance.gov.il | — |
+| 🇹🇷 TR | No carbon tax as of Apr 2026; Climate Law (2024 prep) under parliamentary review — verify at csb.gov.tr | — |
+| 🇦🇪 AE | No carbon tax. UAE Net Zero 2050 framework relies on subsidies + energy-efficiency mandates — verify at moccae.gov.ae | — |
+| 🇹🇭 TH | No carbon tax in force; Climate Change Act 2024 enacted but levy not active — verify at onep.go.th | — |
+| 🇩🇴 DO 🇲🇾 MY 🇻🇳 VN 🇵🇭 PH 🇲🇦 MA 🇪🇬 EG 🇮🇩 ID 🇬🇪 GE | No comprehensive carbon tax on residential property as of Apr 2026 | data not publicly available — verify at each country's environment ministry |
 
 For property buyers: **carbon levy on heating fuel directly affects annual operating cost**. Class F/G buildings on oil/gas heating face increasing operating cost over the next 5-10 years.
+
+In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO), carbon-cost overlay on **cooling** (electricity for AC) is the dominant operational-cost lever — not heating fuel. The grid-mix renewable share + electricity tariff drives this; see `shared/mains.md`.
 
 ## Brown-discount evidence (research-backed)
 
@@ -166,4 +284,6 @@ For property buyers: **carbon levy on heating fuel directly affects annual opera
 
 ## Status
 
-Last refreshed: 2026-04-26.
+Last refreshed: 2026-05-01 (Tier-1 + Tier-2 expansion — 18 countries: US/TR/AE/JP/TH/DO/CO/UY/CL/ZA + GE/ID/MY/VN/PH/IL/MA/EG).
+
+**Confidence**: MEDIUM — non-EU energy-rating regimes use different scales (HERS, BELS, BERDE, GREENSHIP, GBI, LOTUS, GPRS, Estidama, CES, Pearl, IS 5281) which are not directly comparable to EU A-G EPC; stock-penetration figures are estimates per published regime sources. Carbon-tax rates valid as of latest national publication; revisit cadence per `shared/regulatory-watch.md`.
