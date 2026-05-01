@@ -65,6 +65,35 @@ jobs:
             printf '| %s | %s | %s | %s |\n' "$iso2" "$stamped" "$days" "$action" >> "$out"
           done
 
+          # Regulatory-watch auto-promotions: countries with Tier-1/2 entries enacted in last 90d.
+          # The promotion rule (per _tiers.json § promotion_rules) treats these as Tier-A for this cycle only.
+          tiera_codes=" $(python3 -c "import json; print(' '.join(json.load(open('_tiers.json'))['tiers']['A']['codes']))") "
+          promotions=$(python3 scripts/regwatch_promotions.py --days 90 2>/dev/null || true)
+          {
+            echo
+            echo "## Auto-promotions from regulatory-watch.md (last 90d)"
+            echo
+          } >> "$out"
+          if [ -z "$promotions" ]; then
+            echo "_No Tier-1 or Tier-2 entries enacted in the last 90 days — refreshing canonical Tier-A only._" >> "$out"
+          else
+            echo "Countries below have a recent regulatory-watch entry and are promoted to Tier-A for this cycle:" >> "$out"
+            echo >> "$out"
+            echo "| ISO2 | Effective | Tier | Topic | Summary | Already in Tier-A? |" >> "$out"
+            echo "|---|---|---|---|---|---|" >> "$out"
+            while IFS=$'\t' read -r iso2 eff tier topic summary; do
+              [ -z "$iso2" ] && continue
+              if [[ "$tiera_codes" == *" $iso2 "* ]]; then
+                in_tier_a="✅ canonical"
+              else
+                in_tier_a="🆕 promoted"
+              fi
+              printf '| %s | %s | %s | %s | %s | %s |\n' "$iso2" "$eff" "$tier" "$topic" "${summary//|/\\|}" "$in_tier_a" >> "$out"
+            done <<< "$promotions"
+            echo >> "$out"
+            echo "Promoted (🆕) countries should be included alongside canonical Tier-A in this cycle's \`--update\`." >> "$out"
+          fi
+
           {
             echo
             echo "## How to execute"
@@ -74,8 +103,6 @@ jobs:
             echo '/property-deep-dive --update --tier=A --interactive    # confirm each'
             echo '/property-deep-dive --update --tier=A                  # apply'
             echo '```'
-            echo
-            echo "Auto-promotions (regulatory-watch Tier-1/2 entries from non-Tier-A countries in last 90 days) are listed in \`shared/regulatory-watch.md\`."
           } >> "$out"
 
           echo "report_path=$out" >> "$GITHUB_OUTPUT"

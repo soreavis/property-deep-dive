@@ -62,6 +62,9 @@ for tier, info in d['tiers'].items():
           off_cadence_a=0
           off_cadence_b=0
           off_cadence_c=0
+          decay_warn_count=0
+          cadence_warn_count=0
+          warn_lines=""
 
           for playbook in skills/property-deep-dive/countries/*/playbook.md; do
             iso2=$(basename "$(dirname "$playbook")")
@@ -93,6 +96,25 @@ for tier, info in d['tiers'].items():
                 esac
               else
                 off="🟢 no"
+                # Cadence early warning: within 30d of cap, not yet over
+                if [ "$ccap" -gt 0 ] && [ "$days" -ge $((ccap - 30)) ]; then
+                  remaining=$((ccap - days))
+                  warn_lines="${warn_lines}- 🟡 ${iso2} (Tier-${ctier}, ${remaining}d until off-cadence)"$'\n'
+                  cadence_warn_count=$((cadence_warn_count+1))
+                fi
+              fi
+              # Decay early warning: within 30d of next decay step (180/360/540)
+              decay_warn=""
+              if [ "$days" -lt 180 ] && [ "$days" -ge 150 ]; then
+                decay_warn="HIGH→MEDIUM in $((180 - days))d"
+              elif [ "$days" -lt 360 ] && [ "$days" -ge 330 ]; then
+                decay_warn="MEDIUM→LOW in $((360 - days))d"
+              elif [ "$days" -lt 540 ] && [ "$days" -ge 510 ]; then
+                decay_warn="LOW→STALE in $((540 - days))d"
+              fi
+              if [ -n "$decay_warn" ]; then
+                warn_lines="${warn_lines}- ⏱️ ${iso2}: ${decay_warn}"$'\n'
+                decay_warn_count=$((decay_warn_count+1))
               fi
             fi
             printf '| %s | %s | %s | %s | %s | %s |\n' "$iso2" "$ctier" "$stamped" "$days" "$tier" "$off" >> "$out"
@@ -114,6 +136,16 @@ for tier, info in d['tiers'].items():
             echo "- Tier-B (180d): $off_cadence_b"
             echo "- Tier-C (365d): $off_cadence_c"
             echo
+            echo "## Early warning — decaying or due-soon within 30 days"
+            echo
+            if [ "$decay_warn_count" -eq 0 ] && [ "$cadence_warn_count" -eq 0 ]; then
+              echo "_None within the 30-day window. Next refresh planning can wait._"
+            else
+              echo "Plan refresh now to avoid surprise decay flags or off-cadence alarms."
+              echo
+              printf '%s' "$warn_lines"
+            fi
+            echo
             echo "## Action queue"
             echo
             echo "1. Run \`/property-deep-dive --update --tier=A\` if any Tier-A is off-cadence."
@@ -129,6 +161,8 @@ for tier, info in d['tiers'].items():
             echo "off_cadence_a=$off_cadence_a"
             echo "off_cadence_b=$off_cadence_b"
             echo "off_cadence_c=$off_cadence_c"
+            echo "decay_warn_count=$decay_warn_count"
+            echo "cadence_warn_count=$cadence_warn_count"
           } >> "$GITHUB_OUTPUT"
 
       - name: Upload decay matrix
@@ -148,6 +182,8 @@ for tier, info in d['tiers'].items():
           OFF_A: ${{ steps.matrix.outputs.off_cadence_a }}
           OFF_B: ${{ steps.matrix.outputs.off_cadence_b }}
           OFF_C: ${{ steps.matrix.outputs.off_cadence_c }}
+          DECAY_WARN: ${{ steps.matrix.outputs.decay_warn_count }}
+          CADENCE_WARN: ${{ steps.matrix.outputs.cadence_warn_count }}
         with:
           script: |
             const fs = require('fs');
@@ -164,7 +200,7 @@ for tier, info in d['tiers'].items():
             const pinned = issues.data.find(i => i.title === title);
 
             const date = new Date().toISOString().slice(0, 10);
-            const summary = `**${date}** — HIGH: ${process.env.HIGH} · MEDIUM: ${process.env.MEDIUM} · LOW: ${process.env.LOW} · STALE: ${process.env.STALE} · off-cadence A/B/C: ${process.env.OFF_A}/${process.env.OFF_B}/${process.env.OFF_C}`;
+            const summary = `**${date}** — HIGH: ${process.env.HIGH} · MEDIUM: ${process.env.MEDIUM} · LOW: ${process.env.LOW} · STALE: ${process.env.STALE} · off-cadence A/B/C: ${process.env.OFF_A}/${process.env.OFF_B}/${process.env.OFF_C} · early-warning ⏱️${process.env.DECAY_WARN} 🟡${process.env.CADENCE_WARN}`;
 
             if (pinned) {
               await github.rest.issues.createComment({
