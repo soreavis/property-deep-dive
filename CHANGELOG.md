@@ -57,6 +57,7 @@ _(no entries yet — next mid-month corrections will accumulate here under `2026
 ### Added
 
 - feat(countries): add Tier-3 — 9 🟢 EASY playbooks (SG, HK, KR, TW, LI, MO, AD, MC, MD) → 71 countries ([#69](https://github.com/soreavis/property-deep-dive/pull/69)) — by @soreavis
+- feat(countries): add Tier-4 — 8 🟡 MEDIUM playbooks (QA, SA, PE, EC, PY, AM, AZ, TN) → 79 countries ([#70](https://github.com/soreavis/property-deep-dive/pull/70)) — by @soreavis
 
 ### Changed
 

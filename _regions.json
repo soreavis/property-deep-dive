@@ -14,7 +14,7 @@
     {
       "id": "latam",
       "label": "Latin America",
-      "codes": ["mx", "br", "ar", "cr", "pa", "do", "co", "uy", "cl"]
+      "codes": ["mx", "br", "ar", "cr", "pa", "do", "co", "uy", "cl", "pe", "ec", "py"]
     },
     {
       "id": "balkans",
@@ -29,7 +29,7 @@
     {
       "id": "mena",
       "label": "Türkiye & Middle East",
-      "codes": ["tr", "ae", "il"]
+      "codes": ["tr", "ae", "il", "qa", "sa"]
     },
     {
       "id": "apac",
@@ -39,12 +39,12 @@
     {
       "id": "africa",
       "label": "Africa",
-      "codes": ["za", "ma", "eg"]
+      "codes": ["za", "ma", "eg", "tn"]
     },
     {
       "id": "caucasus",
       "label": "Caucasus & Eastern non-EU",
-      "codes": ["ge", "md"]
+      "codes": ["ge", "md", "am", "az"]
     },
     {
       "id": "microstates",

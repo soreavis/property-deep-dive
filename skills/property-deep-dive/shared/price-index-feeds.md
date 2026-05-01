@@ -2,7 +2,7 @@
 
 Per-country house price index sources, including API/CSV/RSS availability, frequency, latest verifiable value. **This catalog supports `--update --refresh-only`** — when the validator is pulling fresh comp values for `--price`, this is the source-of-truth registry.
 
-**Snapshot**: April 2026.
+**Snapshot**: May 2026 (Tier-4 additions).
 
 ## Universal contract
 
@@ -107,6 +107,9 @@ For each country, return:
 | UY | INE + BCU | IPV (Índice de Precios de Inmuebles) | https://www.ine.gub.uy/ + https://www.bcu.gub.uy/ | quarterly | Q4 2025 (verify) | transaction-side, asking-side cross-check via Mercado Libre / InfoCasas |
 | CL | INE + CChC | IRPV (Índice Real de Precios de Vivienda) | https://www.ine.gob.cl/ + https://www.cchc.cl/ | quarterly | Q4 2025 (verify) | INE IRPV national hedonic in UF; CChC Cámara Chilena de la Construcción regional |
 | DO | BCRD (emerging) + Encuentra24 / Inmobiliaria.com.do | no national HPI | https://www.bancentral.gov.do/ | n/a (BCRD HPI not yet routine-public) | n/a | **No mature public HPI.** BCRD index emerging; listing aggregators (Encuentra24, Inmobiliaria.com.do) provide asking-side only. Verify any €/m² claim via 3+ active listings + DGII transfer-tax records |
+| PE | BCRP + INEI + CAPECO | IPV Lima (Índice de Precios de Viviendas) + Encuesta Nacional Continua | https://www.bcrp.gob.pe/ + https://www.inei.gob.pe/ | quarterly (BCRP) + monthly (CAPECO listings) | Q4 2025 (verify; ~3-month lag) | BCRP IPV Lima quarterly hedonic transaction-side from notarial records; INEI Encuesta Nacional Continua tracks rentals + dwelling characteristics; CAPECO (Cámara Peruana de la Construcción) monthly asking-side primary-market |
+| EC | INEC + Plusvalía / Properati listings | INEC Indice Precios Vivienda | https://www.ecuadorencifras.gob.ec/ + https://www.plusvalia.com/ | quarterly (INEC) + monthly (listings) | Q4 2025 (verify; ~3-month lag) | INEC IPV hedonic limited coverage Quito/Guayaquil/Cuenca; Plusvalía + Properati asking-side listings provide complementary signal; **2024 security situation Guayaquil/Esmeraldas/Manta affecting transactional volume — verify against latest INEC** |
+| PY | INE + InfoCasas / Properati | no national transactional HPI (LIGHT — listings only) | https://www.ine.gov.py/ + https://www.infocasas.com.py/ | quarterly (INE) + monthly (listings) | n/a (INE HPI not routine-public) | **No mature transactional HPI.** INE publishes housing characteristics but not transaction-side price index; InfoCasas + Properati monthly are asking-side only. Verify any USD/m² claim via 3+ active listings + DGRP (Dirección General de Registros Públicos) transfer records |
 
 ## North America (non-Anglo grouping)
 
@@ -127,6 +130,9 @@ For each country, return:
 | IL | CBS (Lamas) | Dwelling Price Index | https://www.cbs.gov.il/he/subjects/Pages/%D7%9E%D7%97%D7%99%D7%A8%D7%99-%D7%93%D7%99%D7%A8%D7%95%D7%AA.aspx | national + 7 districts | monthly + quarterly | Latest published | hedonic, transaction-side from Tax Authority deeds |
 | MA | HCP | IPAI (Indice des Prix des Actifs Immobiliers) | https://www.hcp.ma/ | national + main cities | quarterly | Latest published | hedonic, transaction-side jointly with Bank Al-Maghrib |
 | EG | CAPMAS / Property Finder Egypt | no mature public HPI | https://www.capmas.gov.eg/ + https://www.propertyfinder.eg/en/research | n/a | monthly (asking-side via Property Finder) | n/a | **No transaction-grade public HPI.** CAPMAS coverage limited; REPA records not queryable; Property Finder Egypt monthly is asking-side only. Verify via 3+ listings + notarised deed comps |
+| QA | PSA Real Estate Price Index + Ministry of Justice transaction data | PSA Real Estate Price Index (REPI) | https://www.psa.gov.qa/ + https://www.moj.gov.qa/ | national + Doha (limited) | quarterly | Latest published (verify; ~2-3 month lag) | PSA REPI quarterly hedonic transaction-side from Real Estate Registration; Doha-centric coverage; thin transaction volume in some segments (5-10 deals/qtr) means individual deals move averages — verify against 3+ active listings (Property Finder QA / Hapondo) |
+| SA | GASTAT Real Estate Price Index + REGA + Suhail | GASTAT RE Price Index + Suhail (REGA) transactional platform | https://www.stats.gov.sa/ + https://rega.gov.sa/ + https://suhail.rega.gov.sa/ | national + 13 regions + Riyadh / Jeddah / Eastern Province per-district | quarterly | Latest published (verify; ~2-3 month lag) | GASTAT RE PI quarterly hedonic transaction-side from MoJ deeds; REGA Suhail platform publishes transactional registry (mandatory listing per 2024 reform); Vision 2030 mega-project cycles (NEOM, Diriyah, Red Sea) create regional volatility |
+| TN | INS + Tayara / Mubawab listings | INS Real Estate Price Index (LIGHT coverage) | https://www.ins.tn/ + https://www.tayara.tn/ + https://www.mubawab.tn/ | n/a (INS HPI light coverage) | annual (INS) + monthly (listings) | Latest published (verify) | **No mature quarterly transactional HPI.** INS publishes annual housing-statistics; Tayara + Mubawab monthly are asking-side only; capital controls (TND semi-convertible) + IMF EFF SUSPENDED Mar 2024 affect foreign-buyer pricing dynamics. Verify any TND/m² claim via 3+ active listings + Conservation de la Propriété Foncière records |
 
 ## Asia-Pacific
 
@@ -160,6 +166,8 @@ For each country, return:
 | ISO | Source | Index | URL | Granularity | Frequency | Latest period | Methodology |
 |---|---|---|---|---|---|---|---|
 | GE | Geostat | Real Estate Price Index | https://www.geostat.ge/en | national + Tbilisi + 4 secondary cities | quarterly | Latest published (verify) | hedonic, transaction-side from Public Registry |
+| AM | ARMSTAT (Statistical Committee of Armenia) | RE Price Index Yerevan + national | https://www.armstat.am/ | national + Yerevan + 9 marzes | quarterly | Latest published (verify; ~2-month lag) | ARMSTAT publishes quarterly Real Estate Price Index; Yerevan + national coverage; AMD strengthened materially 2022-24 from Russian capital + IT boom — re-verify nominal vs real terms; primary + secondary segments tracked |
+| AZ | SSC (State Statistical Committee) | RE Statistics (quarterly) | https://www.stat.gov.az/ | national + Baku + 9 economic regions | quarterly | Latest published (verify; ~2-month lag) | SSC publishes quarterly Real Estate Statistics including price-per-m² by segment; AZN de-facto pegged USD 1.70 since 2017 (NOT formal currency-board, breached 2015 twice) — pricing dynamics anchored to USD via peg; primary + secondary segments tracked |
 
 ---
 
@@ -204,6 +212,6 @@ Per country playbook:
 
 ## Status
 
-Last refreshed: 2026-05-01 (added 9-country Tier-3 expansion: SG, HK, KR, TW, LI, MO, AD, MC, MD; cumulative 71 countries). "Latest period" cells marked `(verify)` await first round of `--update --refresh-only` to capture the actual published Q4 2025 / Q1 2026 values from each authority.
+Last refreshed: 2026-05-01 (added 8-country Tier-4 expansion: QA, SA, PE, EC, PY, AM, AZ, TN; cumulative 79 countries). "Latest period" cells marked `(verify)` await first round of `--update --refresh-only` to capture the actual published Q4 2025 / Q1 2026 values from each authority.
 
-**Confidence**: MEDIUM — every URL is the canonical authority's own domain; methodology notes reflect each authority's published metadata. Specific Q4 2025 / Q1 2026 numeric values were NOT fetched in this expansion pass, so they're labelled `Latest published (verify)` rather than asserted. DO, EG, LI, AD, MC, MO flagged plainly as having no mature standalone public HPI — verification path documented in-row. KR RTMS (실거래가) and TW 實價登錄 2.0 are best-in-class parcel-level transaction-price disclosure systems Asia-wide.
+**Confidence**: MEDIUM — every URL is the canonical authority's own domain; methodology notes reflect each authority's published metadata. Specific Q4 2025 / Q1 2026 numeric values were NOT fetched in this expansion pass, so they're labelled `Latest published (verify)` rather than asserted. DO, EG, LI, AD, MC, MO, PY, TN flagged plainly as having no mature standalone public HPI — verification path documented in-row. KR RTMS (실거래가) and TW 實價登錄 2.0 are best-in-class parcel-level transaction-price disclosure systems Asia-wide; SA REGA Suhail platform (mandatory listing per 2024 reform) is the regional best-in-class transactional registry for the Gulf.

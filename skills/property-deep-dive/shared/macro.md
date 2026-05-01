@@ -2,7 +2,7 @@
 
 Macroeconomic context for property decisions: inflation, GDP growth, central-bank policy rate, sovereign yield. Sets the cyclical backdrop for `--price`, `--finance`, and `--currency`.
 
-**Snapshot**: April 2026.
+**Snapshot**: May 2026 (Tier-4 additions).
 
 ## Universal contract
 
@@ -109,6 +109,14 @@ For each country, primary macro sources:
 | AD | n/a (EUR via 2011 Monetary Treaty, not Eurozone) | Estadística d'Andorra | IMF WEO |
 | MC | n/a (EUR via 2002 Monetary Convention with FR, not Eurozone formally) | IMSEE | IMF WEO |
 | MD | BNM (https://www.bnm.md/) | BNS | IMF WEO |
+| QA | QCB (https://www.qcb.gov.qa/) | PSA Planning & Statistics Authority | IMF WEO |
+| SA | SAMA (https://www.sama.gov.sa/) | GASTAT | IMF WEO |
+| PE | BCRP (https://www.bcrp.gob.pe/) | INEI | IMF WEO |
+| EC | BCE (https://www.bce.fin.ec/) | INEC | IMF WEO |
+| PY | BCP (https://www.bcp.gov.py/) | INE | IMF WEO |
+| AM | CBA (https://www.cba.am/) | ARMSTAT | IMF WEO |
+| AZ | CBAR (https://www.cbar.az/) | SSC | IMF WEO |
+| TN | BCT (https://www.bct.gov.tn/) | INS | IMF WEO |
 
 ## Apr 2026 snapshot — central-bank policy rates
 
@@ -168,6 +176,14 @@ For each country, primary macro sources:
 | **n/a (Andorra)** | EUR-using (2011 Monetary Treaty); no central bank | ECB Deposit indirect |
 | **n/a (Monaco)** | EUR-using (2002 Monetary Convention with FR); no central bank | ECB Deposit indirect |
 | **BNM (Moldova)** | 6.50% est. | hold/easing trajectory post-2022 inflation peak — verify next BNM MPC https://www.bnm.md |
+| **QCB (Qatar)** | ~5.00% est. (QCB Lending Rate) | Fed-bound via QAR/USD peg 3.64 since 2001 — verify https://www.qcb.gov.qa |
+| **SAMA (Saudi Arabia)** | ~5.50% est. (SAMA Repo) | Fed-bound via SAR/USD peg 3.75 since 1986 — verify https://www.sama.gov.sa |
+| **BCRP (Peru)** | ~4.50% est. | mid-cycle cuts from 7.75% peak (2023) — verify https://www.bcrp.gob.pe |
+| **BCE (Ecuador)** | n/a (USD adopted Sep 2000) | Fed-bound; no monetary independence — verify https://www.bce.fin.ec |
+| **BCP (Paraguay)** | ~6.00% est. | hold; CPI ~4% Q1 2026 — verify https://www.bcp.gov.py |
+| **CBA (Armenia)** | ~7.00% est. | gradual cuts as CPI near target — verify https://www.cba.am |
+| **CBAR (Azerbaijan)** | ~7.25% est. (Refinancing Rate) | hold; AZN de-facto pegged USD 1.70 since 2017 — verify https://www.cbar.az |
+| **BCT (Tunisia)** | 8.00% est. | hold; CPI ~7-8% post-2022-23 shock; IMF EFF SUSPENDED Mar 2024 — verify https://www.bct.gov.tn |
 
 ## Apr 2026 snapshot — sovereign 10-yr yields
 
@@ -247,6 +263,14 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 | AD | 3.00% est. | (EUR-using) — limited sovereign issuance via Treasury |
 | MC | n/a | (EUR-using) — no domestic sovereign issuance |
 | MD | ~9% est. | (MDL) — high inflation/FX risk premium; B-rated; USD eurobonds ~7-8% |
+| QA | ~4.40% est. | (QAR pegged USD) — USD eurobonds tracking UST + ~30-50 bps; AA-rated |
+| SA | ~4.80% est. | (SAR pegged USD) — USD eurobonds tracking UST + ~50-80 bps; A-rated |
+| PE | ~6.50% est. | (PEN); USD eurobonds ~5-6%; BBB-rated |
+| EC | ~9.00% est. | (USD-dollarized) — USD eurobonds; B-/CCC distressed-trading post-2024 default proximity — verify |
+| PY | ~7.50% est. | (PYG); USD eurobonds ~6-7%; BB+ rated |
+| AM | ~8.50% est. | (AMD); USD eurobonds ~6-7%; BB- rated |
+| AZ | ~7.00% est. | (AZN de-facto pegged USD); USD eurobonds ~5-6%; BB+ rated; SOFAZ FX-buffer ~US$60bn |
+| TN | ~12-14% est. | (TND); USD eurobonds ~10-12% distressed-trading post-IMF EFF suspension Mar 2024; CCC+ — verify |
 
 ## Why macro context matters for property
 
@@ -325,6 +349,18 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 
 ### Active tightening / hold high (additional)
 - MD (BNM 6.50% post-2022 war shock; MDL volatile)
+- TN (BCT 8.00% post-2022-23 inflation shock; CPI 7-8%; IMF EFF SUSPENDED Mar 2024)
+- AM (CBA ~7.00% gradual cuts as CPI near target)
+- AZ (CBAR ~7.25% hold; AZN de-facto pegged USD)
+
+### Stable / pegged (additional Tier-4)
+- QA (QAR pegged USD 3.64 since 2001 — Fed-bound)
+- SA (SAR pegged USD 3.75 since 1986 — Fed-bound)
+- EC (USD adopted Sep 2000 — Fed-bound, no monetary independence)
+
+### Recovery / cutting (additional Tier-4)
+- PE (BCRP ~4.50% mid-cycle cuts from 7.75% peak 2023)
+- PY (BCP ~6.00% hold)
 
 ## Inflation trajectory (Apr 2026, recent quarter)
 
@@ -362,10 +398,18 @@ MO: ~2% est. (verify DSEC https://www.dsec.gov.mo)
 AD: ~3% est. (verify Estadística d'Andorra https://www.estadistica.ad)
 MC: ~3% est. (verify IMSEE https://www.monacostatistics.mc)
 MD: ~4-5% est. (Q1 2026 — post-2022 shock easing; verify BNS https://statistica.gov.md)
+QA: ~2.5% est. (Q1 2026 — verify PSA https://www.psa.gov.qa)
+SA: ~2.0% est. (Q1 2026 — verify GASTAT https://www.stats.gov.sa)
+PE: ~2.5% est. (Q1 2026 — within BCRP 1-3% target; verify INEI https://www.inei.gob.pe)
+EC: ~1.5% est. (Q1 2026 — USD-dollarized low-CPI regime; verify INEC https://www.ecuadorencifras.gob.ec)
+PY: ~4% est. (Q1 2026 — verify INE https://www.ine.gov.py)
+AM: ~2.5% est. (Q1 2026 — near CBA target; verify ARMSTAT https://www.armstat.am)
+AZ: ~3% est. (Q1 2026 — verify SSC https://www.stat.gov.az)
+TN: ~7-8% est. (Q1 2026 — post-2022-23 shock; verify INS https://www.ins.tn)
 
 ## Tier-1 + Tier-2 country macro snapshots (Apr 2026)
 
-The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tier-2 PR #60). Snapshots are 2025 H2 / Q1 2026 where published; figures stamped `est.` require verification against the next official print.
+The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tier-2 PR #60); 9 Tier-3 countries (PR #65) and 8 Tier-4 countries (added 2026-05-01) follow. Snapshots are 2025 H2 / Q1 2026 where published; figures stamped `est.` require verification against the next official print.
 
 ### Tier-1 (PR #57)
 
@@ -427,9 +471,27 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **MD** — CPI ~4-5% est. (Q1 2026 — post-2022 shock easing; verify BNS https://statistica.gov.md); GDP ~2-3% (2024-25 recovery from 2022 war-shock contraction); BNM 6.50% est. (hold/easing — verify next MPC https://www.bnm.md); 10y MDL ~9%; B-rated. Macro flag: **EU candidate (Jun 2022) → accession negotiations opened Jun 2024**, war-adjacent (Transnistria frozen conflict), MDL volatile 2022-24 from war shock and energy-cutoff.
 
+### Tier-4 (added 2026-05-01)
+
+**QA** — CPI ~2.5% est. (Q1 2026 — verify PSA https://www.psa.gov.qa); GDP ~1-2% (2025 est. — LNG-export driven, post-2022 World Cup base effect); QCB Lending Rate ~5.00% est. (Fed-bound via QAR/USD peg 3.64 since 2001 — verify https://www.qcb.gov.qa); 10y QAR not actively traded; USD eurobonds ~UST + 30-50 bps; AA-rated. Macro flag: **stable / pegged via USD**, hydrocarbon-buffered, Vision 2030 (QNV2030) infra-driven; LNG export competitiveness vs US/AU.
+
+**SA** — CPI ~2.0% est. (Q1 2026 — verify GASTAT https://www.stats.gov.sa); GDP ~3-4% (2025 est. — non-oil sector growing under Vision 2030 mega-projects: NEOM, Diriyah, Red Sea, Riyadh expansion); SAMA Repo ~5.50% est. (Fed-bound via SAR/USD peg 3.75 since 1986 — verify https://www.sama.gov.sa); 10y SAR ~5%; USD eurobonds ~UST + 50-80 bps; A-rated. Macro flag: **stable / pegged via USD**, Vision 2030 mega-project capex driving Riyadh + Jeddah + Eastern Province; aridification + extreme heat (50°C+) infra-stress.
+
+**PE** — CPI ~2.5% est. (Q1 2026 — within BCRP 1-3% target; verify INEI https://www.inei.gob.pe); GDP ~3% (2025 est. — recovery post-2023 contraction); BCRP ~4.50% est. (mid-cycle cuts from 7.75% peak 2023 — verify https://www.bcrp.gob.pe); 10y PEN ~6.50%; USD eurobonds ~5-6%; BBB-rated. Macro flag: **cutting cycle**, IG-rated, Pacific Ring of Fire seismic + Andean glacier retreat physical-risk overlay.
+
+**EC** — CPI ~1.5% est. (Q1 2026 — USD-dollarized low-CPI regime; verify INEC https://www.ecuadorencifras.gob.ec); GDP ~1-2% (2025 est. — security-crisis + drought-driven energy rationing 2024); BCE n/a (USD adopted Sep 2000 — Fed-bound, no monetary independence); 10y USD eurobonds ~9% est., distressed-trading post-2024 default proximity — verify; B-/CCC. Macro flag: **USD-dollarized, sovereign-distress** — 2024 violent-crime peak Guayaquil/Esmeraldas/Manta + Cotopaxi/Tungurahua/Reventador volcanic + INOCAR tsunami coastal exposure.
+
+**PY** — CPI ~4% est. (Q1 2026 — verify INE https://www.ine.gov.py); GDP ~3-4% (2025 est. — Itaipú/Yacyretá hydro + agribusiness export); BCP ~6.00% est. (hold — verify https://www.bcp.gov.py); 10y PYG ~7.50%; USD eurobonds ~6-7%; BB+ rated. Macro flag: **stable expansion**, IG-borderline, Río Paraguay flooding (2014-24 reference) physical-risk; INE no national transactional RE PI (LIGHT — listings via InfoCasas/Properati only).
+
+**AM** — CPI ~2.5% est. (Q1 2026 — near CBA target; verify ARMSTAT https://www.armstat.am); GDP ~5-7% (2024-25 — Russian capital + IT boom post-2022); CBA ~7.00% est. (gradual cuts; verify https://www.cba.am); 10y AMD ~8.50%; USD eurobonds ~6-7%; BB-rated. Macro flag: **expansion / cutting**, AMD strengthened materially 2022-24 from Russian capital + IT inflow; HIGH seismic (1988 Spitak Mw 6.8 baseline); ~7M global diaspora structural FX inflow.
+
+**AZ** — CPI ~3% est. (Q1 2026 — verify SSC https://www.stat.gov.az); GDP ~2-3% (2025 est. — hydrocarbon-driven; SOFAZ State Oil Fund FX-buffer ~US$60bn); CBAR Refinancing Rate ~7.25% est. (hold — verify https://www.cbar.az); 10y AZN ~7%; USD eurobonds ~5-6%; BB+ rated. Macro flag: **stable / de-facto pegged via AZN/USD 1.70 since 2017** (NOT formal currency-board, breached 2015 twice); Caspian sea-level falling 2010-24 ~1m + Absheron mud volcanoes (unique physical-risk profile); Republic Seismological Survey Center + AzDTN 2.4-1 2010 code (2000 Baku Mw 6.8 baseline).
+
+**TN** — CPI ~7-8% est. (Q1 2026 — post-2022-23 shock; verify INS https://www.ins.tn); GDP ~1-2% (2025 est. — IMF EFF SUSPENDED Mar 2024 leaves financing gap); BCT 8.00% est. (hold — verify https://www.bct.gov.tn); 10y TND ~12-14%; USD eurobonds ~10-12% distressed-trading; CCC+ — verify. Macro flag: **post-IMF-suspension financing-gap stress**, TND semi-convertible (capital controls), CPI elevated, low-mod seismic (ONM); APAL coastal-erosion overlay.
+
 ### What to verify before use
 
-For any of the 18 above, the standard pre-output flow is:
+For any of the 35 above (Tier-1 + Tier-2 + Tier-3 + Tier-4), the standard pre-output flow is:
 
 1. Pull latest CPI print from the country's statistics office (named in the source registry above).
 2. Check the central bank's most-recent MPC statement for current policy rate (the rate cycle moves faster than this snapshot).
@@ -445,4 +507,4 @@ For any of the 18 above, the standard pre-output flow is:
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-3 expansion: +9 countries — SG, HK, KR, TW, LI, MO, AD, MC, MD). Next refresh: monthly (rates/inflation), quarterly (GDP).
+Last refreshed: 2026-05-01 (Tier-4 expansion: +8 countries — QA, SA, PE, EC, PY, AM, AZ, TN; cumulative 79 countries: 44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3 + 8 Tier-4). Next refresh: monthly (rates/inflation), quarterly (GDP).

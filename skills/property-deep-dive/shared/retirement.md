@@ -2,7 +2,7 @@
 
 Retiree-specific filter overlay: pension taxation, healthcare access, climate, expat communities. Combines with `--all` or `--compare` to surface retirement-relevant facets.
 
-**Snapshot**: May 2026 (extended to 71 countries — Tier-1 + Tier-2 + Tier-3 expansion).
+**Snapshot**: May 2026 (Tier-4 additions — 79 countries total).
 
 ## Universal contract
 
@@ -64,6 +64,15 @@ For the property's country, return:
 | **MD** | **Worldwide income for residents** (>183 days); foreign pension taxable at flat 12% PIT (one of lowest in Europe); territorial-leaning for non-residents | SFS (Serviciul Fiscal de Stat) — verify; treaty network with major OECD |
 | **TW** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive 5-40%; **AMT regime** may apply on foreign-source >NT$7M; 6% surtax on certain investment income | NTBT (National Taxation Bureau) — verify with treaty article for pension |
 | **KR** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive 6-45%; foreign-source income exemption for first 5 of 10 yrs for "newly-resident" foreign workers (KR PIT Act Art. 18-2) | NTS (National Tax Service) — Naver/Kakao tax-blogs not authoritative; verify Art. 18-2 eligibility |
+| **QA** | **NO personal income tax** for individuals (Qatar PIT regime is corporate-only, ~10% rate); foreign pension NOT subject to QA PIT; pension taxation deferred to source-country | Investor Residency Law 21/2018 ≥QAR 730k → 5yr renewable; PR Law 10/2018 ≥QAR 1M (capped ~100/yr); verify with MoI / GAT |
+| **SA** | **NO personal income tax** for individuals (Saudi PIT regime is GCC-citizen Zakat 2.5% + corporate 20% non-Saudi); foreign pension NOT subject to SA PIT | Premium Residency Vision 2030: SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M; verify with ZATCA / Premium Residency Center |
+| **AE** | **NO income/pension tax** (already listed above — repeated for tier-4 cross-reference) | (see AE Retirement Visa row) |
+| **PE** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive PIT (2026: 8-30%); but foreign-source income earned BEFORE arrival can be claimed as non-taxable per Art. 6 LIR — verify with SUNAT | Investor Visa USD 30k BUSINESS activity (NOT real-estate exclusively); Rentista USD 1,500/mo passive; PR after 3yr continuous; passport after 2yr PR |
+| **EC** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive PIT (2026: 5-37%) but foreign pension may be exempt under Art. 9 LRTI if double-tax treaty + source-country pension already taxed; verify with SRI | Pensioner Visa USD 1,500/mo; Investor Visa USD 42,500 (~100×SBU 2026 SBU USD 470/mo); PR after 21mo Temporary; naturalization 3yr PR |
+| **PY** | **Territorial PIT** — foreign-source pension NOT subject to PY IRP (Impuesto a la Renta Personal) for non-PY-source income; flat 8/9/10% PIT regime on PY-source only | Resolución SET 1186/2023 reformed PR — USD 70k SUACE business invest OR active SET RUC; citizenship 3yr continuous PR |
+| **AM** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at flat 21% PIT (2026 — verify SRC); diaspora-repatriation incentives via Law on Foreign Investment | Investor Residency AMD 50M (~USD 130k) deposit OR property → 5yr renewable; Citizenship by descent (Diaspora) Art. 13 streamlined / naturalization 3yr PR + dual since 2007 |
+| **AZ** | **Worldwide income for tax residents** (>182 days); foreign pension taxable at progressive 14-25% PIT (2026 — verify Min. Tax) | TRP via real estate ≥AZN 100k (~USD 60k) → 1yr renewable; PR after 8yr continuous TRP; Strategic Investor Visa AZN 540k priority sectors; naturalization 5yr PR + Azeri language; dual citizenship LIMITED |
+| **TN** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive 0-35% PIT (2026 — verify with Direction Générale des Impôts); 80% abatement on foreign pension transferred permanently to TN in TND under similar logic to MA (verify Code IRPP Art. 36) | Investor Residence Permit ≥TND 1M (~USD 320k); citizenship 5yr continuous PR + Arabic + dual since 2014; Tunisia Investor Visa drafted 2024 NOT gazetted |
 
 ### Less favourable (foreign pension taxed at marginal/progressive)
 
@@ -154,6 +163,14 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 - **MC**: Caisses Sociales de Monaco for residents/employees; CHPG (Centre Hospitalier Princesse Grace) state hospital; cross-border to FR/IT for specialised cases; private clinics English-friendly
 - **LI**: KVG-equivalent compulsory health insurance (Krankenversicherung) — closely modelled on CH LAMal; Vaduz hospital + cross-border to CH (St. Gallen, Zurich) standard; German-system standard
 - **MD**: CNAM (Compania Națională de Asigurări în Medicină) mandatory; expats commonly use private (Medpark, Repromed); **emigration of medical staff to RO/EU is structural concern**; Romanian + Russian dominant
+- **QA**: HMC (Hamad Medical Corporation) public network — eligibility-gated for Qatari + sponsored residents; expats use private (Aspetar, Sidra Medicine, Doha Clinic); high quality, premium pricing for retirees age 60+; Arabic + English in healthcare admin
+- **SA**: MOH (Ministry of Health) public network for Saudi citizens; expats mandatory private health insurance (CCHI); private (Saudi German Hospital, Dr. Sulaiman Al Habib, King Faisal Specialist Hospital — JCI-accredited); Vision 2030 healthcare expansion via Roshn / Red Sea / NEOM medical clusters; Arabic + English in major centres
+- **PE**: EsSalud (social security, contributory) for residents + SIS (subsidized public, low-income); expats use private (Clínica Anglo Americana, Clínica Ricardo Palma, Auna network); Lima quality fair-good but evac to US/MX for serious cases common; Spanish dominant + English in expat-clinic enclaves Miraflores/San Isidro
+- **EC**: IESS (Instituto Ecuatoriano de Seguridad Social) for residents + private; expats use private (Hospital Metropolitano, Hospital Vozandes — Quito; Hospital Monte Sinaí — Cuenca); Cuenca ranks well on retiree healthcare per International Living indices but verify; Spanish dominant + English in Cuenca expat zone
+- **PY**: IPS (Instituto de Previsión Social) public scheme; expats commonly use private (Sanatorio Migone, Sanatorio Adventista, Hospital Bautista — Asunción); PY healthcare quality lags PE/EC; medivac to BR/AR for complex cases; Spanish + Guaraní co-official
+- **AM**: state Healthcare Universal Programme + private; **CMC and Erebouni Medical Center are flagship Yerevan hospitals**; expats commonly mix state + private; medivac to TR/RU/EU historically common; Armenian + Russian dominant; English in private clinics
+- **AZ**: AzMedSv (state) + private; mandatory CMI (Compulsory Medical Insurance) phased in 2020-2024; expats use private (Memorial Bahcelievler — Baku, Bona Dea International Hospital, MediClub Hospital); Azerbaijani + Russian dominant; English in business/expat zones; medivac to TR
+- **TN**: CNAM (Caisse Nationale d'Assurance Maladie) public + private; **French-system standards**; expats use private (Clinique Hannibal, Clinique Taoufik, Clinique El Manar — Tunis); Arabic + French in healthcare admin; medical-tourism destination (cosmetic surgery, dental, IVF) for FR/IT/MT clientele
 
 ## Climate suitability for retirement
 
@@ -171,6 +188,9 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 11. **CO (Medellín "City of Eternal Spring")** — 18-22°C year-round; altitude-moderated
 12. **MX (already listed)** — verify
 13. **US (FL/AZ/TX/CA-S)** — 15-25°C winter; FL hurricane season + AZ extreme summer heat trade-offs
+14. **EC (Quito, Cuenca)** — 10-22°C year-round altitude-moderated (Cuenca ~2,560m, Quito ~2,850m); **Cotopaxi volcano active 2024 + Pacific Ring seismic (2016 Pedernales M7.8) + tsunami coastal**
+15. **PE (Lima coastal)** — 16-26°C year-round (Pacific cool current); inland Andes higher; **Pacific Ring of Fire HIGH seismic + 2017/2023 El Niño catastrophic floods + huaicos + volcanic Misti/Ubinas/Sabancaya south**
+16. **PY (Asunción)** — humid subtropical 14-34°C; **Río Paraguay floods catastrophic 2014-15/2018/2019/2024 + Cerrado/Chaco wildfires 2019-20/2024 + drought**; minimal seismic
 
 ### Subtropical / temperate Asian
 - **HK**: Humid subtropical 14-19°C winter, 28-33°C humid summer (Jun-Sep); typhoon season Jul-Oct; Article 23 (Mar 2024) sentiment factor for some retirees
@@ -190,6 +210,9 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 - **DO (Las Terrenas, Punta Cana)** — 24-31°C; hurricane season Jun-Nov
 - **EG (Hurghada, Sahel, Sharm)** — 18-35°C; very dry; summer extreme
 - **AE (Dubai, Abu Dhabi)** — 18-42°C; **summer 45°C+ near-uninhabitable outdoors May-Sep**
+- **QA (Doha)** — 18-42°C; **summer 45°C+ + sandstorms + 2018/2021/2024 Doha storm-surge floods**; FIFA World Cup 2022 legacy infra (Lusail metro)
+- **SA (Riyadh, Jeddah, Mecca, Medina, NEOM, Red Sea, AlUla)** — 12-45°C; **interior 50°C+ summer + sandstorms + 2009/2011 Jeddah catastrophic floods + drought + groundwater depletion**; Mecca/Medina constitutional Muslim-only; Riyadh Metro Phase 1 Dec 2024
+- **TN (Tunis, Sousse, Sfax, Djerba)** — 11-32°C; Mediterranean coast milder; **2018 Cap Bon catastrophic floods + 2023-24 record drought (reservoirs <30%) + APAL coastal erosion**
 
 ### Cold but stable (added)
 - **JP (Tokyo, Osaka, Fukuoka)** — 5-10°C winter; humid summers; well-heated indoors
@@ -199,6 +222,8 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 - **AD (Encamp, La Massana, Andorra la Vella)** — alpine 0-8°C winter, 18-25°C summer; ski-season Dec-Apr
 - **LI (Vaduz, Schaan)** — alpine 0-5°C winter, 18-24°C summer; CH-aligned climate
 - **MC (Monte-Carlo, La Condamine, Fontvieille)** — Mediterranean 8-15°C winter, 24-29°C summer; among the mildest in Europe
+- **AM (Yerevan)** — continental — Yerevan -3 to +3°C winter, 28-35°C summer; **HIGH SEISMIC 1988 Spitak M6.8 baseline (~25,000 deaths) + Yerevan/Gyumri/Vanadzor microzoning**
+- **AZ (Baku)** — moderate-arid Caspian — Baku 4-10°C winter, 27-33°C summer; **Caucasus + Caspian seismic (2000 Baku M6.8) + Caspian sea-level falling ~1m 2010-24 + Absheron mud volcanoes (unique)**
 
 ### Cold but stable, indoor-life-friendly
 1. **DE, AT, CH, FR, BE, NL, LU, IE, UK, DK, SE, FI, NO, IS** — heating-cost concern; northern long darkness
@@ -258,6 +283,14 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 - 🇲🇨 MC — small ultra-high-net-worth international retiree community (~38k pop, ~70% non-Monégasque); **carte temporaire 1yr → ordinaire 3yr → privilégiée 10yr** with ~€500k bank deposit + property/rental practitioner
 - 🇱🇮 LI — very small (quota-based residency: ~28 EEA + ~17 third-country/year); CH-integrated retiree practice; **Personal Residence Programme** rare petition only
 - 🇲🇩 MD (Chișinău) — small expat retiree community; **Romanian-citizenship-by-descent** is the practical EU-passport path for many MD residents (one of the cheapest EU-adjacent retirement bases by COL)
+- 🇶🇦 QA (West Bay, The Pearl, Lusail) — small UK/IN/PH/EG/JOR expat retiree community; ~3.05M pop (12% Qatari + 88% expat); high-income segment dominant
+- 🇸🇦 SA (Riyadh DQ, Jeddah Corniche, NEOM, Red Sea) — small UK/US/IN expat retiree community; ~36.4M pop (63% Saudi + 37% expat); Vision 2030 mega-projects (NEOM, Qiddiya, Diriyah, Red Sea, AlUla, Roshn) drive employment + foreign retiree pull
+- 🇵🇪 PE (Lima Miraflores/Barranco/San Isidro; Cusco; Arequipa) — moderate US/EU/JP expat retiree community; Lima Metro ~10.7M; Spanish dominant + English in Miraflores/San Isidro expat zones
+- 🇪🇨 EC (Cuenca, Quito Cumbayá/La Floresta, Salinas/Olón coast) — **Cuenca particularly strong US/CA expat retiree hub** (International Living top-rank); ~17.7M pop (Quito ~2M, Guayaquil ~2.7M, Cuenca ~600k); Spanish + Kichwa/Shuar; English in Cuenca expat zone
+- 🇵🇾 PY (Asunción Carmelitas/Villa Morra, Encarnación) — small but growing AR/BR/RU/EU expat retiree community; ~7.4M pop; Spanish + Guaraní co-official; Mennonite German communities
+- 🇦🇲 AM (Yerevan Kentron/Arabkir) — moderate diaspora repatriation segment (US ~1M, RU ~2M, FR, AR, LB, IR diasporas); ~2.78M pop + ~7M global diaspora; **post-2022/2023 Karabakh war + ~120k displaced Sep 2023 + Russian-relocant wave 2022-24 (~50% peak Yerevan appreciation)**; Armenian + Russian widely + English in tech/tourism
+- 🇦🇿 AZ (Baku Yasamal/Nasimi) — small UK/TR/IR/RU expat retiree community; ~10.16M pop (Baku ~2.4M); Azerbaijani (Latin script since 2001) + Russian + English business + Turkish mutually intelligible; very low crime; oil-revenue stabilized economy
+- 🇹🇳 TN (Tunis La Marsa/Carthage/Sidi Bou Said, Sousse, Hammamet, Djerba) — moderate FR/IT/DE/UK retiree community; FR cultural + linguistic ties strong; ~12.07M pop (Tunis Metro ~2.7M); Arabic + French in business/property + Tamazight + Tunisian Arabic dialect
 
 ### Limited / language-barrier
 - 🇩🇪🇦🇹🇨🇭 DE/AT/CH inland: German required for admin
@@ -272,11 +305,11 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 
 | Tier | Countries |
 |---|---|
-| **Cheap** | AL, BA, RS, MK, ME, BG, RO, HU, GE, EG, VN, PH, ID, MA, **MD** |
-| **Mid-low** | PL, CZ, SK, GR, PT, ES (interior), IT (S), CR, PA, MX, TR, TH (provincial), CO, DO, ZA |
-| **Mid** | ES (coast), PT (Lisbon/Algarve), IT (TC/Umbria), HR, CY, MT, EE, LV, LT, MY (KL/Penang), TH (Bangkok/Phuket), CL, UY, **TW (Taipei prime)** |
+| **Cheap** | AL, BA, RS, MK, ME, BG, RO, HU, GE, EG, VN, PH, ID, MA, **MD**, **PY**, **AM**, **AZ**, **TN** (outside Tunis), **EC** |
+| **Mid-low** | PL, CZ, SK, GR, PT, ES (interior), IT (S), CR, PA, MX, TR, TH (provincial), CO, DO, ZA, **PE** (outside Lima Miraflores), **TN** (Tunis) |
+| **Mid** | ES (coast), PT (Lisbon/Algarve), IT (TC/Umbria), HR, CY, MT, EE, LV, LT, MY (KL/Penang), TH (Bangkok/Phuket), CL, UY, **TW (Taipei prime)**, **PE (Lima Miraflores/Barranco/San Isidro)** |
 | **Mid-high** | FR, DE, AT, NL, BE, IE, UK, FI, SE, DK, JP (regional), IL (peripheral), AE (mid-tier emirate), **KR (Seoul prime)**, **AD**, **MO** |
-| **Expensive** | CH, NO, IS, LU, US (NYC/SF/Boston), JP (Tokyo central), IL (Tel Aviv), AE (Dubai prime), **SG**, **HK**, **MC**, **LI** |
+| **Expensive** | CH, NO, IS, LU, US (NYC/SF/Boston), JP (Tokyo central), IL (Tel Aviv), AE (Dubai prime), **SG**, **HK**, **MC**, **LI**, **QA (Doha West Bay/Pearl)**, **SA (Riyadh DQ prime)** |
 
 ## Special retirement programs
 
@@ -314,6 +347,14 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 | MC | **Carte temporaire → ordinaire → privilégiée** | ~€500k bank deposit + property purchase or rental practitioner; ~38k pop; NO PIT (except FR via 1963 Convention); NO CGT |
 | LI | **Quota-based** | ~28 EEA + ~17 third-country/year via lottery; Personal Residence Programme rare petition; CH-integrated practice |
 | MD | **Investor Residency Law 200/2010** | €250k 5yr investment → naturalisation eligibility 8yr; CBI ENDED via Law 100/2020; **no formal Digital Nomad Visa as of 2026** |
+| QA | **NO citizenship-by-investment (Law 38/2005)**; **Investor Residency Law 21/2018 ≥QAR 730k → 5yr renewable**; PR Law 10/2018 ≥QAR 1M (capped ~100/yr) | Verify with MoI / GAT (General Authority of Customs); no formal pension-class visa |
+| SA | **Premium Residency Vision 2030** | SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M; Mecca/Medina Muslim-only ownership constitutional; verify with Premium Residency Center (Iqama Premium) |
+| PE | **Investor Visa USD 30k BUSINESS** (NOT real-estate exclusively) / **Rentista USD 1,500/mo** passive | PR after 3yr continuous; Peruvian passport after 2yr PR; verify with MIGRACIONES Peru |
+| EC | **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 42,500** (~100×SBU 2026 SBU USD 470/mo) | 2yr Temporary → Permanent after 21mo; naturalization 3yr PR; verify with Cancillería Ecuador |
+| PY | **Resolución SET 1186/2023 reformed PR** — formerly cheapest formal RBI (~USD 5,200) → now **USD 70k SUACE business invest** OR active SET RUC | Citizenship 3yr continuous PR; verify with DGM / SUACE |
+| AM | **Investor Residency AMD 50M (~USD 130k) deposit OR property → 5yr renewable**; **Citizenship by descent (Diaspora) Art. 13 streamlined** | Naturalization 3yr PR + dual citizenship since 2007; verify with Ministry of Foreign Affairs / Migration Service |
+| AZ | **TRP via real estate ≥AZN 100k (~USD 60k) → 1yr renewable to 5+** | PR after 8yr continuous TRP; Strategic Investor Visa AZN 540k priority sectors; naturalization 5yr PR + Azeri language; **dual citizenship LIMITED exceptions**; verify with State Migration Service |
+| TN | **Investor Residence Permit ≥TND 1M (~USD 320k)** | Citizenship 5yr continuous PR + Arabic + dual since 2014; **Tunisia Investor Visa drafted 2024 NOT gazetted** — verify gazette status; verify with Ministère de l'Intérieur |
 
 ## Decision framework for retirees
 
@@ -546,6 +587,64 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 - **Expat density**: Small expat retiree community; ~2.5M pop (excl. Transnistria); Romanian official + Russian widely spoken; gigabit fiber Moldtelecom + Orange MD + StarNet (one of fastest fiber penetrations in Eastern Europe); **EU candidate Jun 2022**; NO Schengen
 - **Visa**: **Investor Residency Law 200/2010** — €250k 5yr → naturalisation eligibility 8yr; **CBI ENDED via Law 100/2020**; **no formal Digital Nomad Visa as of 2026**; **Romanian-citizenship-by-descent → EU passport path** for many MD residents; Transnistria scope excluded
 
+## Tier-4 country profiles (added 2026-05-01)
+
+### 🇶🇦 QA
+- **Pension tax**: NO PIT for individuals — foreign pension NOT subject to QA personal taxation; corporate ~10% only
+- **Healthcare**: HMC public network (eligibility-gated for sponsored residents); expats use private (Aspetar, Sidra Medicine, Doha Clinic); high quality, premium pricing for retirees age 60+
+- **Climate**: 18-42°C; **summer 45°C+ near-uninhabitable outdoors May-Sep + sandstorms + 2018/2021/2024 Doha storm-surge floods**; FIFA World Cup 2022 legacy + Lusail metro
+- **Expat density**: Small UK/IN/PH/EG/JOR retiree community; ~3.05M pop (12% Qatari + 88% expat); Doha West Bay / The Pearl / Lusail
+- **Visa**: **NO citizenship-by-investment (Law 38/2005)**; **Investor Residency Law 21/2018 ≥QAR 730k → 5yr renewable**; PR Law 10/2018 ≥QAR 1M (capped ~100/yr); verify with MoI / GAT — see `visa-programs.md`
+
+### 🇸🇦 SA
+- **Pension tax**: NO PIT for individuals (Saudi PIT regime is GCC-citizen Zakat 2.5% + corporate 20% non-Saudi); foreign pension NOT subject to SA PIT
+- **Healthcare**: MOH public for citizens; mandatory CCHI private health insurance for expats; private (Saudi German, Dr. Sulaiman Al Habib, King Faisal Specialist — JCI-accredited); Vision 2030 healthcare expansion
+- **Climate**: 12-45°C; **interior 50°C+ summer + sandstorms + 2009/2011 Jeddah catastrophic floods + drought + groundwater depletion**; **Mecca/Medina constitutional restriction (Muslim-only ownership)**
+- **Expat density**: Small UK/US/IN expat retiree community; ~36.4M pop (63% Saudi + 37% expat); Vision 2030 mega-projects (NEOM, Qiddiya, Diriyah, Red Sea, AlUla, Roshn) drive employment
+- **Visa**: **Premium Residency Vision 2030** — SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M; Riyadh Metro Phase 1 Dec 2024 — see `visa-programs.md`
+
+### 🇵🇪 PE
+- **Pension tax**: Worldwide for tax residents (>183 days); foreign pension at progressive 8-30%; foreign-source income earned BEFORE arrival potentially non-taxable per Art. 6 LIR — verify with SUNAT
+- **Healthcare**: EsSalud (contributory) + SIS (subsidized public) + private (Clínica Anglo Americana, Clínica Ricardo Palma, Auna network); Lima quality fair-good but evac to US/MX for serious cases common
+- **Climate**: Lima coastal 16-26°C year-round (Pacific cool current); inland Andes higher; **Pacific Ring of Fire HIGH seismic + tsunami coastal + 2017/2023 El Niño catastrophic floods + huaicos + volcanic Misti/Ubinas/Sabancaya south**
+- **Expat density**: Moderate US/EU/JP retiree community; Lima Miraflores/Barranco/San Isidro; Cusco; Arequipa; Lima Metro ~10.7M; Spanish dominant + English in expat enclaves
+- **Visa**: **Investor Visa USD 30k BUSINESS** (NOT real-estate exclusively); **Rentista USD 1,500/mo** passive; PR after 3yr continuous; passport after 2yr PR — see `visa-programs.md`
+
+### 🇪🇨 EC
+- **Pension tax**: Worldwide for tax residents (>183 days); foreign pension at progressive 5-37%; potentially exempt under Art. 9 LRTI if double-tax treaty + source-country pension already taxed; verify with SRI
+- **Healthcare**: IESS social security + private (Hospital Metropolitano, Hospital Vozandes — Quito; Hospital Monte Sinaí — Cuenca); Cuenca particularly strong for retiree healthcare per International Living indices — verify
+- **Climate**: Quito ~2,850m / Cuenca ~2,560m altitude-moderated 10-22°C year-round; **Pacific Ring seismic (2016 Pedernales M7.8) + Cotopaxi volcano active 2024 + Galapagos rising sea-temp + tsunami coastal**; Guayaquil hotter coastal
+- **Expat density**: **Cuenca top US/CA expat retiree hub globally** (International Living top-rank, verify); ~17.7M pop; Spanish + Kichwa/Shuar; English in Cuenca expat zone
+- **Visa**: **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 42,500** (~100×SBU 2026 SBU USD 470/mo); 2yr Temp → Perm after 21mo; naturalization 3yr PR; **2024 Internal Armed Conflict Declaration** — violent crime peaks Guayaquil/Esmeraldas/Manta; Quito/Cuenca relatively safer
+
+### 🇵🇾 PY
+- **Pension tax**: Territorial PIT — foreign-source pension NOT subject to PY IRP; flat 8/9/10% on PY-source only
+- **Healthcare**: IPS (Instituto de Previsión Social) public; private (Sanatorio Migone, Adventista, Hospital Bautista — Asunción); PY healthcare lags PE/EC; medivac to BR/AR for complex cases
+- **Climate**: Asunción humid subtropical 14-34°C; **Río Paraguay flooding catastrophic 2014-15/2018/2019/2024 + Cerrado/Chaco wildfires 2019-20/2024 + drought**; minimal seismic
+- **Expat density**: Small but growing AR/BR/RU/EU retiree community; ~7.4M pop (Asunción Metro ~3M); Spanish + Guaraní co-official + Portuguese border + German Mennonite communities
+- **Visa**: **Resolución SET 1186/2023 reformed PR** — formerly cheapest formal RBI (~USD 5,200) → now **USD 70k SUACE business invest** OR active SET RUC; citizenship 3yr continuous PR; **Itaipú/Yacyretá #2 net electricity exporter** (cheap energy attracts data centers)
+
+### 🇦🇲 AM
+- **Pension tax**: Worldwide for tax residents (>183 days); foreign pension at flat 21% PIT (2026 — verify SRC); diaspora-repatriation incentives via Law on Foreign Investment
+- **Healthcare**: state Healthcare Universal Programme + private; CMC and Erebouni Medical Center flagship Yerevan hospitals; medivac to TR/RU/EU historically common
+- **Climate**: Yerevan continental — -3 to +3°C winter, 28-35°C summer; **HIGH SEISMIC 1988 Spitak M6.8 baseline (~25,000 deaths) + Yerevan/Gyumri/Vanadzor microzoning**; **post-2020/2023 Karabakh war + ~120k displaced Sep 2023 + CSTO suspension Feb 2024**
+- **Expat density**: Moderate diaspora-repatriation segment (US ~1M, RU ~2M, FR, AR, LB, IR diasporas); ~2.78M pop + ~7M global diaspora; **Russian-relocant wave 2022-24 (~50% peak Yerevan appreciation)**; Armenian + Russian + English in tech/tourism
+- **Visa**: **Investor Residency AMD 50M (~USD 130k) deposit OR property → 5yr renewable**; **Citizenship by descent (Diaspora) Art. 13 streamlined** / naturalization 3yr PR + dual since 2007 — see `visa-programs.md`
+
+### 🇦🇿 AZ
+- **Pension tax**: Worldwide for tax residents (>182 days); foreign pension at progressive 14-25% (2026 — verify Min. Tax)
+- **Healthcare**: AzMedSv (state) + private; mandatory CMI phased 2020-2024; expats use private (Memorial Bahcelievler, Bona Dea International Hospital, MediClub Hospital — Baku); medivac to TR
+- **Climate**: Baku moderate-arid Caspian — 4-10°C winter, 27-33°C summer; **Caucasus + Caspian seismic (2000 Baku M6.8) + AzDTN 2.4-1 2010 code + Caspian sea-level falling 2010-24 ~1m + Absheron mud volcanoes (unique)**; **2020+2023 Karabakh + East Zangezur reintegration** (ANAMA de-mining cert + AZ-citizen-priority subsidized)
+- **Expat density**: Small UK/TR/IR/RU expat retiree community; ~10.16M pop (Baku ~2.4M, Ganja ~330k, Sumgayit ~340k); Azerbaijani (Latin script since 2001) + Russian + English business + Turkish mutually intelligible; **very low crime; oil-revenue stabilized economy**
+- **Visa**: **TRP via real estate ≥AZN 100k (~USD 60k) → 1yr renewable to 5+**; PR after 8yr continuous TRP; Strategic Investor Visa AZN 540k priority sectors; naturalization 5yr PR + Azeri language; **dual citizenship LIMITED exceptions**
+
+### 🇹🇳 TN
+- **Pension tax**: Worldwide for tax residents (>183 days); foreign pension at progressive 0-35% (2026 — verify Direction Générale des Impôts); 80% abatement on foreign pension transferred permanently to TN in TND under similar logic to MA Art. 76 CGI (verify Code IRPP Art. 36)
+- **Healthcare**: CNAM public + private; **French-system standards**; expats use private (Clinique Hannibal, Clinique Taoufik, Clinique El Manar — Tunis); **medical-tourism destination** (cosmetic surgery, dental, IVF) for FR/IT/MT clientele
+- **Climate**: Tunis Mediterranean coast 11-32°C; **2018 Cap Bon catastrophic floods + 2023-24 record drought (reservoirs <30%) + APAL coastal erosion**; **post-2021 constitutional revisions + 2024 elections**
+- **Expat density**: Moderate FR/IT/DE/UK retiree community (FR cultural + linguistic ties strong); ~12.07M pop (Tunis Metro ~2.7M, Sfax ~1M, Sousse ~290k, Djerba ~165k); Arabic + French in business/property + Tamazight + Tunisian Arabic + English in tech/tourism
+- **Visa**: **Investor Residence Permit ≥TND 1M (~USD 320k)**; citizenship 5yr continuous PR + Arabic + dual since 2014; **Tunisia Investor Visa drafted 2024 NOT gazetted** — verify; **IMF EFF program SUSPENDED Mar 2024**
+
 ## Anti-hallucination
 
 - **Pension tax regimes change** — IT 7%, GR 7%, PT NHR all reformed in 2023-2024 cycle; **TH 2024 remittance reform** materially changes LTR economics; **CL 2023 Isapres ruling** reshaping retiree healthcare premiums; **MY MM2H** retiered multiple times since 2021. Always verify with home + host-country tax adviser.
@@ -557,5 +656,5 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-1 + Tier-2 + Tier-3 expansion — 71 countries total; Tier-3 added: SG, HK, KR, TW, LI, MO, AD, MC, MD).
-**Confidence**: MEDIUM — high-level regimes and visa names are sourced from current law where named (e.g., IL Amendment 168, MA Art. 76 CGI, Ley 19.937 UY, FDL 47/2022 AE, DL 824 CL, KR PIT Act Art. 18-2, MD Law 200/2010, HK CIES Mar 2024); specific thresholds (e.g., AED 1M, ZAR 37,000/mo, COP 3× SMLMV, USD 80k/yr LTR, HK$30M CIES, ₩600M F-2, AD ~€600k, MC ~€500k, MD €250k) should be re-verified at issuing authority before user action since visa thresholds drift on 12-24 month cadence.
+Last refreshed: 2026-05-01 (Tier-4 additions — 79 countries total; Tier-4 added: QA, SA, PE, EC, PY, AM, AZ, TN).
+**Confidence**: MEDIUM — high-level regimes and visa names are sourced from current law where named (e.g., IL Amendment 168, MA Art. 76 CGI, Ley 19.937 UY, FDL 47/2022 AE, DL 824 CL, KR PIT Act Art. 18-2, MD Law 200/2010, HK CIES Mar 2024, QA Law 21/2018, SA Vision 2030 Premium Residency, PY SET 1186/2023, EC SBU 2026 ~USD 470/mo); specific thresholds (e.g., AED 1M, ZAR 37,000/mo, COP 3× SMLMV, USD 80k/yr LTR, HK$30M CIES, ₩600M F-2, AD ~€600k, MC ~€500k, MD €250k, QAR 730k, SAR 800k, AMD 50M, AZN 100k, TND 1M, USD 1,500/mo EC Pensioner) should be re-verified at issuing authority before user action since visa thresholds drift on 12-24 month cadence.

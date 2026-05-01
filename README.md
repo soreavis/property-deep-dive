@@ -41,26 +41,26 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 TCO calculator · mortgage calculator · test fixtures · listing-diff watcher · comparable-transactions DB · auto-validate cron · price-index feeds · listing aggregators · photo OCR
 
-## Country support — 71 fully populated
+## Country support — 79 fully populated
 
 <!-- AUTOGEN:country-matrix:start -->
 **Europe core (24)** — 🇫🇷 fr · 🇮🇹 it · 🇨🇿 cz · 🇸🇰 sk · 🇩🇪 de · 🇦🇹 at · 🇨🇭 ch · 🇪🇸 es · 🇵🇹 pt · 🇸🇪 se · 🇫🇮 fi · 🇳🇴 no · 🇬🇧 uk · 🇳🇱 nl · 🇧🇪 be · 🇩🇰 dk · 🇮🇸 is · 🇸🇮 si · 🇮🇪 ie · 🇬🇷 gr · 🇵🇱 pl · 🇪🇪 ee · 🇭🇷 hr · 🇭🇺 hu
 
 **Anglo non-EU (4)** — 🇨🇦 ca · 🇦🇺 au · 🇳🇿 nz · 🇺🇸 us
 
-**Latin America (9)** — 🇲🇽 mx · 🇧🇷 br · 🇦🇷 ar · 🇨🇷 cr · 🇵🇦 pa · 🇩🇴 do · 🇨🇴 co · 🇺🇾 uy · 🇨🇱 cl
+**Latin America (12)** — 🇲🇽 mx · 🇧🇷 br · 🇦🇷 ar · 🇨🇷 cr · 🇵🇦 pa · 🇩🇴 do · 🇨🇴 co · 🇺🇾 uy · 🇨🇱 cl · 🇵🇪 pe · 🇪🇨 ec · 🇵🇾 py
 
 **Western Balkans (5)** — 🇷🇸 rs · 🇲🇪 me · 🇧🇦 ba · 🇲🇰 mk · 🇦🇱 al
 
 **EU completion (7)** — 🇱🇹 lt · 🇱🇻 lv · 🇷🇴 ro · 🇧🇬 bg · 🇱🇺 lu · 🇨🇾 cy · 🇲🇹 mt
 
-**Türkiye & Middle East (3)** — 🇹🇷 tr · 🇦🇪 ae · 🇮🇱 il
+**Türkiye & Middle East (5)** — 🇹🇷 tr · 🇦🇪 ae · 🇮🇱 il · 🇶🇦 qa · 🇸🇦 sa
 
 **Asia-Pacific (11)** — 🇯🇵 jp · 🇰🇷 kr · 🇹🇼 tw · 🇭🇰 hk · 🇲🇴 mo · 🇸🇬 sg · 🇹🇭 th · 🇲🇾 my · 🇮🇩 id · 🇻🇳 vn · 🇵🇭 ph
 
-**Africa (3)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg
+**Africa (4)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg · 🇹🇳 tn
 
-**Caucasus & Eastern non-EU (2)** — 🇬🇪 ge · 🇲🇩 md
+**Caucasus & Eastern non-EU (4)** — 🇬🇪 ge · 🇲🇩 md · 🇦🇲 am · 🇦🇿 az
 
 **European Microstates (3)** — 🇱🇮 li · 🇦🇩 ad · 🇲🇨 mc
 <!-- AUTOGEN:country-matrix:end -->
@@ -234,18 +234,18 @@ property-deep-dive/
 │   └── pin-actions.sh                # idempotent SHA-pin third-party actions
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~470 lines)
-    ├── shared/                       # 34 universal layer files (~11,000 lines)
+    ├── shared/                       # 34 universal layer files (~11,600 lines)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
     │   ├── 22 section implementations (universal logic + per-country overlays)
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
     │   ├── updater.md                # maintenance mode + auto-downgrade rule
     │   └── 9 tooling docs
-    └── countries/                    # 71 country playbooks (~35,200 lines)
-        └── <iso2>/playbook.md        # FR / IT / CZ / SK / DE / AT / CH / ES / PT / SE / ... + US / TR / AE / JP / TH / DO / CO / UY / CL / ZA / GE / ID / MY / VN / PH / IL / MA / EG / SG / HK / KR / TW / LI / MO / AD / MC / MD
+    └── countries/                    # 79 country playbooks (~43,200 lines)
+        └── <iso2>/playbook.md        # FR / IT / CZ / SK / DE / AT / CH / ES / PT / SE / ... + US / TR / AE / JP / TH / DO / CO / UY / CL / ZA / GE / ID / MY / VN / PH / IL / MA / EG / SG / HK / KR / TW / LI / MO / AD / MC / MD / QA / SA / PE / EC / PY / AM / AZ / TN
 ```
 
-**Skill content** (under `skills/property-deep-dive/`): 106 markdown files, ~46,700 lines (SKILL.md + 34 shared/ + 71 country playbooks).
-**Repo total**: 118 markdown files, ~48,100 lines (skill content + community / governance files + CHANGELOG) · 30 YAML / JSON config files (22 workflows + 5 issue forms + dependabot + labels + labeler).
+**Skill content** (under `skills/property-deep-dive/`): 114 markdown files, ~55,300 lines (SKILL.md + 34 shared/ + 79 country playbooks).
+**Repo total**: 126 markdown files, ~56,700 lines (skill content + community / governance files + CHANGELOG) · 30 YAML / JSON config files (22 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

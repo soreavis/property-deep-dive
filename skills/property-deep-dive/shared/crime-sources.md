@@ -579,6 +579,71 @@ For the property's locality, return:
 - **Granularity**: per-raion (32 districts + Chișinău + Bălți + Comrat ATU Găgăuzia) + Chișinău sectors (5); rural raion data published but small absolute numbers
 - **Caveat**: under-reporting common in domestic + sexual; **Transnistria (separatist-administered) NOT in IGP series — separate parallel statistics published by Tiraspol "ministry" but not citable as primary**; emigration sustained since 1990s affects denominator; methodology aligned with EU since candidate status (Jun 2022 → accession negotiations Jun 2024)
 
+### 🇶🇦 Qatar
+
+- **Ministry of Interior — Public Security (وزارة الداخلية — الأمن العام)**: `https://www.moi.gov.qa/` — published annual reports + traffic + crime communiqués
+- **PSA (Planning & Statistics Authority)**: `https://www.psa.gov.qa/` — Annual Crime & Justice Statistics (Crime in Qatar bulletin)
+- **Public Prosecution (النيابة العامة)**: `https://www.pp.gov.qa/` — prosecutorial statistics
+- **Granularity**: national + per-municipality (8 baladiyat: Doha / Al Rayyan / Al Wakrah / Al Khor / Umm Salal / Al Daayen / Al Shamal / Al Shahaniya); **Doha + Al Rayyan district-level data not publicly available — verify with local police station (markaz al-shorta)**
+- **Caveat**: very low absolute crime per public communiqués; transparency limited vs Western peers; published rates emphasize year-on-year decline narrative; expat (88% of population) vs Qatari breakdown rarely disclosed; political-context offences excluded; 2022 World Cup security baseline still used as reference
+
+### 🇸🇦 Saudi Arabia
+
+- **Ministry of Interior — Public Security (الأمن العام)**: `https://www.moi.gov.sa/` — annual reports + Tawakkalna app reporting
+- **GASTAT (General Authority for Statistics)**: `https://www.stats.gov.sa/` — Statistical Yearbook (Justice & Crime chapter)
+- **Public Prosecution (النيابة العامة)**: `https://www.pp.gov.sa/` — prosecutorial statistics
+- **Granularity**: national + per-region (13 mintaqat: Riyadh / Makkah / Eastern Province / Madinah / Al Qassim / Asir / Tabuk / Hail / Northern Borders / Jazan / Najran / Al Bahah / Al Jouf); **city/district-level (e.g., Riyadh districts, Jeddah Corniche/Al Hamra) data not publicly available — verify with local police station (markaz)**
+- **Caveat**: very low absolute violent crime; Sharia-court offences separately classified; under-reporting in domestic + sexual significant (despite 2018-2021 reforms); expat-targeted incidents in compounds (Aramco/SABIC) often handled internally; political-context + counter-terrorism offences excluded from public series; tourist-zone (Diriyah / Red Sea / NEOM) baseline establishing under Vision 2030
+
+### 🇵🇪 Peru
+
+- **PNP (Policía Nacional del Perú)**: `https://www.policia.gob.pe/` — annual statistics + monthly bulletins; Sistema de Denuncias Policiales (SIDPOL)
+- **INEI (Instituto Nacional de Estadística e Informática)**: `https://www.inei.gob.pe/` — Estadísticas de Seguridad Ciudadana + Encuesta Nacional de Programas Presupuestales (ENAPRES) victimization survey
+- **Ministerio Público — Fiscalía de la Nación**: `https://www.gob.pe/mpfn` — prosecutorial statistics
+- **Granularity**: per-departamento (24 + Constitutional Province of Callao) + per-provincia + per-distrito + Lima Metropolitana per-distrito (43); rural province data published but small absolute numbers
+- **Caveat**: under-reporting common (~73% per ENAPRES victim survey 2023); homicide series most reliable; tourist-zone (Cusco / Machu Picchu / Arequipa) inflated by transient denominator; Lima district-level rates differ materially (San Isidro / Miraflores / Barranco vs San Juan de Lurigancho / Comas / Villa El Salvador); state-of-emergency areas (esp. VRAEM coca region) separately tracked
+
+### 🇪🇨 Ecuador
+
+- **PNE (Policía Nacional del Ecuador)**: `https://www.policianacional.gob.ec/` — annual + monthly statistics + ECU-911 incident dispatch
+- **INEC (Instituto Nacional de Estadística y Censos)**: `https://www.ecuadorencifras.gob.ec/` — Estadísticas de Seguridad Ciudadana + Encuesta de Victimización
+- **Fiscalía General del Estado**: `https://www.fiscalia.gob.ec/` — prosecutorial statistics
+- **Granularity**: per-provincia (24) + per-cantón (221) + Quito + Guayaquil + Cuenca district-level
+- **Caveat**: **2024 violent-crime peak Guayaquil/Esmeraldas/Manta (homicide rate ~45/100k national, ~80/100k Guayas/Esmeraldas — verify per latest INEC release)**; series-break Jan 2024 (Internal Armed Conflict declaration vs 22 narco-groups); under-reporting common; series before 2017 shows materially lower baseline pre-narco-trafficking expansion; tourist-zone (Galápagos / Mindo / Otavalo) materially safer than coastal Pacific cities
+
+### 🇵🇾 Paraguay
+
+- **Policía Nacional del Paraguay**: `https://www.policianacional.gov.py/` — annual statistics + departmental headquarters bulletins
+- **INE (Instituto Nacional de Estadística)**: `https://www.ine.gov.py/` — Estadísticas Sociales y Demográficas (Justice & Crime chapter)
+- **Ministerio Público — Fiscalía General**: `https://www.ministeriopublico.gov.py/` — prosecutorial statistics
+- **Granularity**: per-departamento (17 + Asunción) + per-distrito + Asunción barrio-level for some series
+- **Caveat**: under-reporting moderate (settlement-out-of-court norm + Guaraní-language barriers in rural areas); border-zone Ciudad del Este (Triple Frontier with BR + AR) inflated by transit/contraband-economy; Pedro Juan Caballero (BR border) elevated; Asunción + Encarnación rates moderate; small population means absolute numbers volatile in interior departments
+
+### 🇦🇲 Armenia
+
+- **Police of Armenia (ՀՀ Ոստիկանություն)**: `https://www.police.am/` — annual statistics + monthly bulletins
+- **ARMSTAT (Statistical Committee of Armenia / Armstatbank)**: `https://www.armstat.am/` — Crime & Justice tables in Statistical Yearbook
+- **Prosecutor General's Office (ՀՀ Գլխավոր Դատախազություն)**: `https://www.prosecutor.am/` — prosecutorial statistics
+- **Granularity**: per-marz (10 provinces + Yerevan as separate administrative unit) + Yerevan district-level (12 administrative districts)
+- **Caveat**: very low absolute crime (one of lowest in Caucasus); 2018 Velvet Revolution + 2020 Nagorno-Karabakh war + 2023 Azerbaijani offensive on NK created series-breaks; under-reporting in domestic violence (despite 2017 law); IT-sector + diaspora-driven Yerevan demographics differ from rural marzes; ~7M global diaspora overlay structurally affects denominator pattern
+
+### 🇦🇿 Azerbaijan
+
+- **Ministry of Internal Affairs (Azərbaycan Respublikası Daxili İşlər Nazirliyi)**: `https://www.mia.gov.az/` — annual reports + ASAN-integrated reporting
+- **SSC (State Statistical Committee / Dövlət Statistika Komitəsi)**: `https://www.stat.gov.az/` — Crime & Justice tables
+- **Prosecutor General's Office (Baş Prokurorluq)**: `https://www.genprosecutor.gov.az/` — prosecutorial statistics
+- **Granularity**: national + per-rayon (66 districts + 11 cities of republican subordination) + Baku district-level (12 rayons)
+- **Caveat**: very low absolute crime per public statistics; transparency limited; political-context + post-2020/2023 NK-related offences separately classified; under-reporting in domestic + sexual significant; ASAN Service efficient governance reduces friction for citizen reporting but published rates skew toward administrative completeness vs ground-truth
+
+### 🇹🇳 Tunisia
+
+- **DGSN (Direction Générale de la Sûreté Nationale)**: `https://www.interieur.gov.tn/` — Ministry of Interior portal; annual security communiqués
+- **Garde Nationale (Garde Nationale Tunisienne)**: rural areas outside DGSN jurisdiction
+- **INS (Institut National de la Statistique)**: `https://www.ins.tn/` — Statistiques Sociales et Démographiques (Justice & Sécurité)
+- **Ministère de la Justice**: `https://www.e-justice.tn/` — prosecutorial + court statistics
+- **Granularity**: national + per-gouvernorat (24) headlines; per-délégation (264) inconsistently published; per-arrondissement (Tunis city) only via DGSN press releases
+- **Caveat**: under-reporting common (HCP-style victim survey not published routinely); tourist-zone (Hammamet / Sousse / Monastir / Djerba) petty-theft + harassment under-reported (post-2015 Sousse + Bardo attacks reshaped published-narrative); 2023+ irregular-migration-route incidents around Sfax materially affect regional rates; methodology not aligned with EU; political-context + counter-terrorism offences separately classified; data not publicly available at parcel/quarter level — verify with local DGSN brigade
+
 ## Universal extraction approach
 
 For each country, the workflow:

@@ -2,7 +2,7 @@
 
 ESG (Environmental, Social, Governance) overlay for property: energy class distribution, climate exposure, community impact. Bridges `--climate` (forward physical risk) with `--mains` (current energy/utility) and `--insurance` (cat-risk schemes).
 
-**Snapshot**: April 2026.
+**Snapshot**: May 2026 (Tier-4 additions).
 
 ## Why ESG matters for property
 
@@ -92,8 +92,16 @@ EPC-style class distributions are not published by stat office for most non-EU r
 | 🇦🇩 AD | n/a (small jurisdiction; cross-references EU EPBD via Spain/France markets) | Not yet mandatory | data not publicly available — verify at govern.ad | govern.ad |
 | 🇲🇨 MC | French DPE acceptable for properties marketed to FR-jurisdiction buyers | French DPE not formally mandatory in MC but commonly used | data not publicly available — verify at gouv.mc | gouv.mc |
 | 🇲🇩 MD | EU candidate alignment in progress — EPBD transposition draft (no in-force regime as of Apr 2026) | Not yet mandatory | Distribution data not publicly available — verify at minfin.gov.md / mediu.gov.md | minfin.gov.md; mediu.gov.md |
+| 🇶🇦 QA | GSAS (Global Sustainability Assessment System, GORD-administered) | Mandatory for major QNV2030 / FIFA 2022 World Cup projects; voluntary private | Sub-5% of total stock — verify at gord.qa | gord.qa |
+| 🇸🇦 SA | Mostadam (national green building cert, since 2019) + LEED widely used in Vision 2030 mega-projects | Mostadam mandatory for selected government + Vision 2030 projects; voluntary private | Sub-5% of total stock — verify at mostadam.sa | mostadam.sa |
+| 🇵🇪 PE | Bono Mivivienda Sostenible + EDGE certifications | Bono incentive voluntary; EDGE voluntary | Coverage low — verify at mivivienda.com.pe | mivivienda.com.pe |
+| 🇪🇨 EC | No comprehensive national EPC regime as of May 2026 (per public sources); Quito Plan Maestro de Eficiencia Energética draft | Not yet mandatory | data not publicly available — verify at ambiente.gob.ec | ambiente.gob.ec |
+| 🇵🇾 PY | No comprehensive national EPC regime as of May 2026 (per public sources) | — | data not publicly available — verify at mades.gov.py | mades.gov.py |
+| 🇦🇲 AM | Energy Efficiency Law 2004 framework + RA Code on Buildings amendments | Code mandatory for new builds; rating regime nascent | Distribution data not publicly available — verify at minenergy.am | minenergy.am |
+| 🇦🇿 AZ | National Energy Efficiency Law 2018 framework | Code mandatory for new builds; rating regime nascent | Distribution data not publicly available — verify at minenergy.gov.az | minenergy.gov.az |
+| 🇹🇳 TN | ANME (Agence Nationale pour la Maîtrise de l'Énergie) thermal regulation for new builds (RT2009-style); Loi 7-2009 EE framework | Mandatory at building permit; HEQ voluntary | Pre-2009 stock largely unrated — verify at anme.tn | anme.tn |
 
-**Caveat**: These regimes use **different scales** (HERS is 0-150 with lower=better; BERDE is 1-5 stars; Estidama is 1-5 Pearls; SANS 10400-XA is pass/fail; BCA Green Mark is Certified/Gold/GoldPLUS/Platinum; BEAM Plus is Bronze/Silver/Gold/Platinum; G-SEED is 1-7 grade; EEWH is Certified/Bronze/Silver/Gold/Diamond). They are **not** equivalent to EU A-G classes and must not be presented on the same axis.
+**Caveat**: These regimes use **different scales** (HERS is 0-150 with lower=better; BERDE is 1-5 stars; Estidama is 1-5 Pearls; SANS 10400-XA is pass/fail; BCA Green Mark is Certified/Gold/GoldPLUS/Platinum; BEAM Plus is Bronze/Silver/Gold/Platinum; G-SEED is 1-7 grade; EEWH is Certified/Bronze/Silver/Gold/Diamond; GSAS uses 1-6 stars; Mostadam uses 5 levels Bronze→Diamond). They are **not** equivalent to EU A-G classes and must not be presented on the same axis.
 
 ## Worst-class rental ban schedule
 
@@ -173,6 +181,20 @@ Hazard tags below are derived from primary national/UN sources (USGS, JMA, JRC I
 **Lower-but-not-zero exposure**:
 - 🇬🇪 GE — Caucasus seismic; Black Sea coastal storm — verify at nea.gov.ge
 
+### Tier-4 expansion (May 2026)
+
+**Highest exposure (Tier-4)**:
+- 🇪🇨 EC — Pacific Ring of Fire seismic HIGH (IGEPN — Cotopaxi/Tungurahua/Reventador active); INOCAR tsunami coastal; aridification coast + Andean glacier retreat — verify at igepn.edu.ec / inocar.mil.ec
+- 🇵🇪 PE — Pacific Ring of Fire seismic HIGH (IGP Instituto Geofísico del Perú); Pacific tsunami; aridification coast + Andean glacier retreat (Cordillera Blanca shrinking ~30% since 1970 per IGP); INDECI hazard maps — verify at igp.gob.pe / indeci.gob.pe
+- 🇸🇦 SA — extreme heat (50°C+ summer; aridification trajectory); coastal Red Sea + Eastern Province SLR; sandstorm — verify at ncm.gov.sa (NCM National Center of Meteorology)
+- 🇶🇦 QA — extreme heat (50°C+ summer); 2018/2021/2024 storm-surge floods Doha; coastal SLR (low-lying peninsula) — verify at qweather.gov.qa (QMD Qatar Meteorology Department)
+- 🇦🇿 AZ — Caspian sea-level falling 2010-24 ~1m (unique — opposite of global SLR trend); Republic Seismological Survey Center seismic + AzDTN 2.4-1 2010 code (2000 Baku Mw 6.8 baseline); Absheron mud volcanoes (unique geological-hazard) — verify at meteo.az / sssc.az
+- 🇦🇲 AM — HIGH seismic (1988 Spitak Mw 6.8 baseline; National Survey for Seismic Protection NSSP); Caucasus orogeny — verify at nssp-gov.am
+
+**Mid exposure (Tier-4)**:
+- 🇵🇾 PY — Río Paraguay flooding (2014-24 reference, recurrent); aridification Chaco; SEN Secretaría de Emergencia Nacional flood-focus — verify at meteorologia.gov.py (DINAC) / sen.gov.py
+- 🇹🇳 TN — coastal erosion (APAL Agence de Protection et Aménagement du Littoral); Mediterranean storm; aridification interior; low-mod seismic (ONM Office National des Mines) — verify at meteo.tn / apal.nat.tn
+
 ### Tier-3 expansion (Apr 2026)
 
 **Highest exposure (Tier-3)**:
@@ -243,6 +265,14 @@ Sources: IEA national reports + national grid operator data, latest available; f
 | 🇱🇮 LI | ~70% est. | CHF-grid integrated; hydro + cross-border CH grid dominant — verify at llv.li | 2024 (LKW Liechtensteinische Kraftwerke) |
 | 🇦🇩 AD | ~25% (incl. domestic hydro + ES-grid imports) | Mostly ES-grid imports; FEDA hydro Engolasters — verify at feda.ad | 2024 (FEDA) |
 | 🇲🇨 MC | n/a (FR-grid integrated) | EDF-grid (FR mix ~75% nuclear + renewables) — verify at gouv.mc | 2024 (SMEG) |
+| 🇶🇦 QA | ~1% est. | Natural-gas dominant (~99%); Al Kharsaah solar 800 MW + QNV2030 targets 20% by 2030 | 2024 (Kahramaa) |
+| 🇸🇦 SA | ~1-2% est. | Hydrocarbon dominant; NEOM + Sudair + Vision 2030 targets 50% by 2030; Saudi Green Initiative | 2024 (Saudi Electricity Co.) |
+| 🇵🇪 PE | ~60% est. | Hydro-dominant (~50%); gas Camisea + solar/wind growing — verify at osinergmin.gob.pe | 2024 (COES SINAC) |
+| 🇪🇨 EC | ~80% est. | Hydro-dominant (Coca Codo Sinclair + Paute); 2024 drought-driven energy rationing exposed reliance — verify at celec.gob.ec | 2024 (CENACE) |
+| 🇵🇾 PY | ~100% (effectively) | Itaipú/Yacyretá hydro fully covers domestic + 70%+ export to BR/AR — verify at ande.gov.py | 2024 (ANDE) |
+| 🇦🇲 AM | ~30% est. | Nuclear (Metsamor) + hydro + RU gas imports; renewables (solar/wind) growing — verify at minenergy.am | 2024 (HV Electric Networks) |
+| 🇦🇿 AZ | ~10% est. | Natural-gas dominant; SOCAR Green pivot; renewables target 30% by 2030 — verify at minenergy.gov.az | 2024 (Azerenerji) |
+| 🇹🇳 TN | ~5% est. | Natural-gas dominant; PROSOL solar + Tunisian Solar Plan + wind Bizerte — verify at steg.com.tn | 2024 (STEG) |
 
 ## Recent climate-adaptation policy (Tier-1 + Tier-2)
 
@@ -275,6 +305,14 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 - 🇱🇮 LI — Energy Strategy 2030 (CHF-aligned; cross-references Swiss CO2 Act); CHF 120/tCO2 effective via CH integration — verify at llv.li.
 - 🇦🇩 AD — Energy & Climate Strategy 2030 (energia.ad); no comprehensive carbon levy as of Apr 2026 — verify at govern.ad.
 - 🇲🇨 MC — **National Energy Transition Plan 2017-2030**; carbon-neutrality by 2050 commitment; FR-grid integrated — verify at gouv.mc.
+- 🇶🇦 QA — **Qatar National Vision 2030 (QNV2030)** sustainability axis; National Climate Change Plan 2030 (Oct 2021); GSAS rating; Al Kharsaah 800 MW solar — verify at mecc.gov.qa.
+- 🇸🇦 SA — **Saudi Green Initiative** (Oct 2021) + Mostadam green building cert (since 2019); Vision 2030 mega-projects (NEOM, Diriyah, Red Sea, Riyadh) green-build mandates; ETS pilot in design — verify at vision2030.gov.sa / mostadam.sa.
+- 🇵🇪 PE — Política Nacional de Cambio Climático (DS 023-2021-MINAM); Ley Marco sobre Cambio Climático 30754 (2018); Bono Mivivienda Sostenible — verify at minam.gob.pe.
+- 🇪🇨 EC — Código Orgánico del Ambiente (COA, 2017); Estrategia Nacional de Cambio Climático 2012-2025; 2024 drought-driven energy rationing accelerated grid-diversification policy — verify at ambiente.gob.ec.
+- 🇵🇾 PY — Política Nacional de Cambio Climático (Ley 5875/2017); Plan Nacional de Adaptación 2022 — verify at mades.gov.py.
+- 🇦🇲 AM — National Programme on Energy Saving and Renewable Energy 2007 (updated 2021); Updated NDC 2021 — verify at minenergy.am / mnp.am.
+- 🇦🇿 AZ — National Energy Efficiency Law 2018; Updated NDC 2023 (40% reduction by 2050 vs 1990); SOCAR Green pivot — verify at minenergy.gov.az.
+- 🇹🇳 TN — Loi 7-2009 EE framework + Loi 12-2015 renewables; Updated NDC 2021 (45% reduction by 2030 conditional); Tunisian Solar Plan; PROSOL — verify at anme.tn.
 
 **Rule**: Reforms in this list with `2024+` effective dates require cross-check at the country's primary ministry URL before quoting in a final report — frameworks often pass before implementing regulations.
 
@@ -309,6 +347,11 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 | 🇦🇪 AE | No carbon tax. UAE Net Zero 2050 framework relies on subsidies + energy-efficiency mandates — verify at moccae.gov.ae | — |
 | 🇹🇭 TH | No carbon tax in force; Climate Change Act 2024 enacted but levy not active — verify at onep.go.th | — |
 | 🇩🇴 DO 🇲🇾 MY 🇻🇳 VN 🇵🇭 PH 🇲🇦 MA 🇪🇬 EG 🇮🇩 ID 🇬🇪 GE | No comprehensive carbon tax on residential property as of Apr 2026 | data not publicly available — verify at each country's environment ministry |
+| 🇶🇦 QA | No carbon tax as of May 2026; QNV2030 sustainability axis relies on subsidies + GSAS mandates — verify at mecc.gov.qa | — |
+| 🇸🇦 SA | No carbon tax as of May 2026; Saudi Green Initiative + Mostadam mandates; ETS pilot in design — verify at sgi.gov.sa | — |
+| 🇨🇴 CO 🇨🇱 CL 🇺🇾 UY (existing entries) — Tier-4 LatAm: 🇵🇪 PE 🇪🇨 EC 🇵🇾 PY | No comprehensive carbon tax on residential property as of May 2026 | data not publicly available — verify at each country's environment ministry (minam.gob.pe / ambiente.gob.ec / mades.gov.py) |
+| 🇦🇲 AM 🇦🇿 AZ | No comprehensive carbon tax as of May 2026 | data not publicly available — verify at minenergy.am / minenergy.gov.az |
+| 🇹🇳 TN | No comprehensive carbon tax as of May 2026; energy-subsidy reform under IMF EFF (program SUSPENDED Mar 2024) — verify at finances.gov.tn / anme.tn | — |
 | 🇸🇬 SG | Carbon Pricing Act (since 2019); applies to facilities emitting ≥25kt CO2e/yr (large emitters, NOT residential) | SGD 25/tCO2 (2024-25), SGD 45 (2026-27), SGD 50-80 by 2030 — verify at nccs.gov.sg |
 | 🇭🇰 HK | No carbon tax as of Apr 2026; Climate Action Plan 2050 relies on regulatory mandates + electricity-sector retirement schedule — verify at climateready.gov.hk | — |
 | 🇰🇷 KR | KETS (ETS for ~700 large emitters covering ~74% national emissions) + Petroleum & Energy Tax | KETS allowance KRW ~10,000/tCO2 (2024 average — verify at gir.go.kr); does NOT directly hit residential heating |
@@ -319,7 +362,7 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 
 For property buyers: **carbon levy on heating fuel directly affects annual operating cost**. Class F/G buildings on oil/gas heating face increasing operating cost over the next 5-10 years.
 
-In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO), carbon-cost overlay on **cooling** (electricity for AC) is the dominant operational-cost lever — not heating fuel. The grid-mix renewable share + electricity tariff drives this; see `shared/mains.md`.
+In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO, QA, SA, TN), carbon-cost overlay on **cooling** (electricity for AC) is the dominant operational-cost lever — not heating fuel. The grid-mix renewable share + electricity tariff drives this; see `shared/mains.md`. Gulf markets (QA, SA) face 50°C+ summer cooling-demand sustaining household electricity ~3-5x EU residential — heat-stress trajectory makes EE-retrofit ROI unusually attractive over 10-yr horizons even absent carbon-pricing.
 
 ## Brown-discount evidence (research-backed)
 
@@ -336,6 +379,6 @@ In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO), carbon-cost 
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-3 expansion — 9 countries: SG/HK/KR/TW/LI/MO/AD/MC/MD; cumulative 71 countries).
+Last refreshed: 2026-05-01 (Tier-4 expansion — 8 countries: QA/SA/PE/EC/PY/AM/AZ/TN; cumulative 79 countries).
 
-**Confidence**: MEDIUM — non-EU energy-rating regimes use different scales (HERS, BELS, BERDE, GREENSHIP, GBI, LOTUS, GPRS, Estidama, CES, Pearl, IS 5281, BCA Green Mark, BEAM Plus, G-SEED, EEWH) which are not directly comparable to EU A-G EPC; stock-penetration figures are estimates per published regime sources. Carbon-tax rates valid as of latest national publication; revisit cadence per `shared/regulatory-watch.md`.
+**Confidence**: MEDIUM — non-EU energy-rating regimes use different scales (HERS, BELS, BERDE, GREENSHIP, GBI, LOTUS, GPRS, Estidama, CES, Pearl, IS 5281, BCA Green Mark, BEAM Plus, G-SEED, EEWH, GSAS, Mostadam) which are not directly comparable to EU A-G EPC; stock-penetration figures are estimates per published regime sources. Carbon-tax rates valid as of latest national publication; revisit cadence per `shared/regulatory-watch.md`.
