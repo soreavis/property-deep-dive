@@ -1,8 +1,8 @@
 # Universal `--demographics` Section
 
-Population, aging, schools, family-friendly metrics across 79 supported countries (44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3 + 8 Tier-4). Useful for relocation/family decisions and long-term valuation outlook.
+Population, aging, schools, family-friendly metrics across 87 supported countries (44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3 + 8 Tier-4 + 8 Tier-5). Useful for relocation/family decisions and long-term valuation outlook.
 
-**Snapshot**: May 2026 (Tier-4 additions).
+**Snapshot**: May 2026 (Tier-5 additions).
 
 ## Universal contract
 
@@ -148,6 +148,11 @@ For the property's country, return:
 | IL | ~9.84 (2024 CBS) | ~30.5 (2023 CBS) | 2.89 (2023 CBS, highest in OECD) | 474 reading (PISA 2022) | Very High | Strong (15-week paid maternity leave; ultra-Orthodox/Haredi TFR ~6.5 drives aggregate; Hebrew/Arabic public; English-medium private) |
 | QA | ~3.05 (2024 PSA) | ~33 (skewed by ~88% expat workforce, PSA 2024) | ~1.8 est. (2023 PSA — Qatari TFR higher ~2.7, expat lower) | not in PISA — Qatar participated 2018 (407 reading); 2022 cycle data not published nationally | Moderate (Arabic + English business widely) | Mid (50-day maternity leave for nationals + 60-day for expats; private international schools dominant for expat family pattern; positive net migration) |
 | SA | ~36.4 (2024 GASTAT) | ~31 (2024 GASTAT) | ~2.4 est. (2023 GASTAT, declining from 3.5 in 2010) | 419 reading (PISA 2022) | Moderate (Arabic + English business widely under Vision 2030) | Mid (10-week maternity leave; gender-segregated public schools historically; private international schools growing in Riyadh + Jeddah; Vision 2030 reforming workforce participation) |
+| JO | ~11.4 (2024 DOS, including refugees) | ~24 (2024 DOS, young) | ~2.6 est. (2023 DOS, declining from 3.5 in 2010) | 342 reading (PISA 2022) | Moderate (Arabic + English business widely) | Mid (10-week maternity leave; public schools strained by Syrian refugee influx; private international + IB schools growing in Amman west — Abdoun, Sweifieh) |
+| OM | ~5.0 (NCSI 2024) | ~30 (skewed by ~46% expat workforce, NCSI 2024) | ~2.5 est. (2023 NCSI — Omani TFR higher, expat lower) | not in PISA — Oman last participated 2015 (373 reading) | Moderate (Arabic + English business widely under Vision 2040) | Mid (50-day maternity leave; gender-segregated public schools historically; private international schools growing in Muscat — Madinat Sultan Qaboos, Qurum, Shatti Al Qurum; Vision 2040 reforming) |
+| BH | ~1.49 (iGA 2024) | ~33 (skewed by ~55% expat workforce, iGA 2024) | ~1.8 est. (2023 iGA — Bahraini TFR ~2.5, expat lower) | not in PISA — Bahrain participated 2022 (414 reading) | Moderate (Arabic + English business widely) | Mid (60-day maternity leave; mixed-gender public schools at primary; private international schools dominant for expat family pattern in Manama / Saar / Janabiya / Riffa) |
+| KW | ~4.85 (2024 PACI) | ~30 (skewed by ~70% expat workforce, PACI 2024) | ~2.0 est. (2023 PACI — Kuwaiti TFR higher ~2.5, expat lower) | not in PISA — Kuwait participated 2022 (363 reading) | Moderate (Arabic + English business widely) | Mid (70-day maternity leave for nationals; gender-segregated public schools; private international schools dominant for expat family pattern in Salwa, Mishref, Bayan, Salmiya) |
+| LB | ~5.5 (CAS estimate, incl ~1.5M Syrian + ~470k Palestinian refugees) | ~33 (CAS estimate) | ~2.0 est. (CAS — declining; emigration accelerated post-2019) | not in PISA — Lebanon participated 2022 (353 reading) | High (Arabic + French + English trilingual elite) | Lower (10-week maternity leave; public schools severely strained — 2019 economic collapse + 2024 Israel-Hezbollah war + 2020 Beirut Port explosion; private French/American schools dominant — IC International College Ras Beirut, ACS, LAU, AUB feeders) |
 
 ### MENA — North Africa
 
@@ -162,6 +167,8 @@ For the property's country, return:
 | Country | Pop (M) | Median age | TFR | PISA reading | EF EPI tier | Family-friendly |
 |---|---:|---:|---:|---:|---|---|
 | ZA | ~62.0 (2024 Stats SA mid-year est.) | ~28 (2024 Stats SA) | 2.3 (2023 Stats SA) | not in PISA — TIMSS 2019: bottom quartile | Moderate | Mid (4-month maternity leave at UIF rate; public schools highly variable, top quintile-5 strong; HIV-affected adult mortality skews age structure per Stats SA) |
+| NG | ~227 (UN 2024 proj — 2006 was last full census) | ~17 (UN 2024 proj, youngest among major countries) | ~5.0 est. (2023 UN, declining from 6+ in 2010) | not in PISA — TIMSS not participated; UNESCO TLO data limited | Moderate (English official + 500+ languages + Pidgin universal) | Lower (12-week maternity leave; public schools severely under-resourced + insurgency-affected NE; private international schools dominant in Lagos VI/Ikoyi/Lekki — Greensprings, BIS, AISL, ALC; Boko Haram NE/ISWAP Lake Chad/IPOB SE/banditry NW affect family relocation) |
+| KE | ~55 (KNBS 2024 — 2019 census 47.6M) | ~20 (KNBS 2024) | ~3.3 est. (2023 KNBS, declining from 4 in 2010) | not in PISA — TIMSS not participated; SACMEQ data limited | High (English official + Kiswahili) | Mid (3-month maternity leave; public schools variable — CBC reform ongoing; private international + IB schools growing in Nairobi Westlands/Karen/Kilimani — Braeburn, Hillcrest, ISK, Brookhouse; al-Shabaab cross-border NE Kenya — Garissa/Mandera/Wajir affect family relocation; M-PESA mobile money 95%+ adoption) |
 
 ### East Asia
 
@@ -183,6 +190,12 @@ For the property's country, return:
 | VN | ~100.3 (2024 GSO) | ~33 (2024 GSO) | 1.95 (2023 GSO, declining toward replacement) | 462 reading (PISA 2022, strong relative to peers) | Lower | Mid (6-month paid maternity leave — generous regionally; aging from a young base, "old before rich" risk per GSO) |
 | PH | ~115 (2024 PSA) | ~25.7 (2024 PSA, youngest in SE Asia) | 2.7 (2023 PSA) | 347 reading (PISA 2022) | High | Mid (105-day paid maternity leave; English-medium public schools but quality variable; OFW remittances structure family economics) |
 | SG | ~5.94 (2024 Singstat) | ~42.8 (2024 Singstat) | 0.97 (2023 Singstat, record-low) | 543 reading (PISA 2022, #1 globally) | Very High (English working language) | Strong (16-week paid maternity + 4-week paternity; MOE schools top-tier globally; childcare subsidies + Baby Bonus scheme; aging fast — citizen TFR ~0.97 below replacement long-term per Singstat) |
+
+### South Asia
+
+| Country | Pop (M) | Median age | TFR | PISA reading | EF EPI tier | Family-friendly |
+|---|---:|---:|---:|---:|---|---|
+| IN | ~1,428 (UN 2024 proj — 2011 last full census, 2021 census deferred to 2025-26) | ~28 (UN 2024 proj) | ~2.0 (2021 NFHS-5, at replacement; declining from 2.7 in 2005) | not in PISA — India withdrew after 2009; ASER + NAS national alternatives | High (English official + Hindi + 21 other scheduled languages; English-medium schooling routine for elite + middle class) | Mid (26-week maternity leave under Maternity Benefit Amendment Act 2017 — generous regionally; public schools severely variable; private CBSE/ICSE/IB/Cambridge schools dominant for elite in Bengaluru/Mumbai/Delhi-Gurgaon-Noida; demographic dividend window through ~2050 per UN; India Stack Aadhaar + UPI + DigiLocker + ONDC digital infrastructure) |
 
 ### European microstates / non-EU enclaves (Tier-3)
 
@@ -244,13 +257,21 @@ Countries with stable / growing demographics:
 - 🇦🇲 AM (~37, 1.6) — declining; ~7M diaspora overlay structural
 - 🇦🇿 AZ (~33, 1.7) — declining
 - 🇹🇳 TN (~33, 2.0) — at replacement; declining
+- 🇮🇳 IN (~28, 2.0) — at replacement (NFHS-5 2021); demographic dividend window through ~2050 per UN; world's most populous since 2023
+- 🇳🇬 NG (~17, 5.0) — youngest median in skill (UN 2024 proj); high-growth despite declining TFR
+- 🇰🇪 KE (~20, 3.3) — young; replacement-plus
+- 🇯🇴 JO (~24, 2.6) — young; refugees-driven (Syrian + Palestinian)
+- 🇴🇲 OM (~30, 2.5) — Omani TFR replacement-plus, expat-driven aggregate
+- 🇧🇭 BH (~33, 1.8) — expat-driven (~55%)
+- 🇰🇼 KW (~30, 2.0) — Kuwaiti TFR replacement-plus, expat-driven (~70%) aggregate
+- 🇱🇧 LB (~33, 2.0) — declining; emigration accelerated post-2019 economic collapse + 2024 war
 
 ## English-proficiency tiers (EF EPI 2025 cycle — non-government, treat as relative ranking)
 
 - **Native**: UK, IE, AU, NZ, CA, US
 - **Very High**: NL, AT, BE, FI, SE, NO, DK, DE, LU, IE, EE, MT, IL, SG (English working language), LI, MC
-- **High**: PT, GR, CY, SI, HR, LT, LV, AR, MY, PH, UY, KR, TW, HK, MO, AD, AM (IT-driven)
-- **Moderate**: FR, IT, ES, PL, CZ, SK, HU, RO, RS, ME, BA, MK, MX, BR, CR, PA, GE, AE, ZA, CO, CL, MD, QA, SA, PE, EC, PY, AZ
+- **High**: PT, GR, CY, SI, HR, LT, LV, AR, MY, PH, UY, KR, TW, HK, MO, AD, AM (IT-driven), KE, IN, LB (FR/EN trilingual elite)
+- **Moderate**: FR, IT, ES, PL, CZ, SK, HU, RO, RS, ME, BA, MK, MX, BR, CR, PA, GE, AE, ZA, CO, CL, MD, QA, SA, PE, EC, PY, AZ, JO, OM, BH, KW, NG
 - **Lower-Moderate**: DO
 - **Lower**: AL, BG (improving), MK (lower), TR, MA, EG, TH, ID, VN, TN
 
@@ -266,11 +287,11 @@ Mid (440-480):
 - Most other EU + Anglo non-EU + 🇮🇱 IL (474), 🇻🇳 VN (462), 🇹🇷 TR (456), 🇨🇱 CL (448)
 
 Lower-mid (400-440):
-- 🇮🇹 IT, 🇪🇸 ES, 🇬🇷 GR, 🇨🇾 CY, 🇲🇹 MT (small systems), 🇧🇬 BG, 🇷🇴 RO, all Balkans except SI, 🇺🇾 UY (430), 🇲🇩 MD (411), 🇦🇪 AE (417), 🇨🇴 CO (409), 🇸🇦 SA (419), 🇪🇨 EC (411), 🇵🇪 PE (408), 🇶🇦 QA (407 — 2018 cycle, 2022 not published nationally)
+- 🇮🇹 IT, 🇪🇸 ES, 🇬🇷 GR, 🇨🇾 CY, 🇲🇹 MT (small systems), 🇧🇬 BG, 🇷🇴 RO, all Balkans except SI, 🇺🇾 UY (430), 🇲🇩 MD (411), 🇦🇪 AE (417), 🇨🇴 CO (409), 🇸🇦 SA (419), 🇪🇨 EC (411), 🇵🇪 PE (408), 🇶🇦 QA (407 — 2018 cycle, 2022 not published nationally), 🇧🇭 BH (414, PISA 2022)
 
 Lower (<400):
-- 🇲🇾 MY (388), 🇹🇭 TH (379), 🇬🇪 GE (374), 🇹🇳 TN (365), 🇮🇩 ID (359), 🇵🇭 PH (347), 🇲🇦 MA (339)
-- Not in PISA: 🇩🇴 DO, 🇿🇦 ZA, 🇪🇬 EG, 🇲🇴 MO, 🇱🇮 LI, 🇦🇩 AD, 🇲🇨 MC, 🇵🇾 PY, 🇦🇲 AM, 🇦🇿 AZ (national-level indicators, TIMSS / LLECE / ERCE alternatives only)
+- 🇲🇾 MY (388), 🇹🇭 TH (379), 🇬🇪 GE (374), 🇹🇳 TN (365), 🇰🇼 KW (363, PISA 2022), 🇮🇩 ID (359), 🇱🇧 LB (353, PISA 2022), 🇵🇭 PH (347), 🇯🇴 JO (342, PISA 2022), 🇲🇦 MA (339)
+- Not in PISA: 🇩🇴 DO, 🇿🇦 ZA, 🇪🇬 EG, 🇲🇴 MO, 🇱🇮 LI, 🇦🇩 AD, 🇲🇨 MC, 🇵🇾 PY, 🇦🇲 AM, 🇦🇿 AZ, 🇮🇳 IN (withdrew after 2009 — ASER/NAS alternatives), 🇳🇬 NG, 🇰🇪 KE, 🇴🇲 OM (last 2015, 373 reading) — national-level indicators, TIMSS / SACMEQ / national alternatives only
 
 ## Family-friendliness composite signals
 
@@ -298,6 +319,9 @@ Mid-tier:
 - 🇵🇾 PY — Spanish + Guaraní co-official, bilingual schooling routine; demographic dividend through ~2040
 - 🇦🇲 AM — IT-sector + diaspora schools, Yerevan-concentrated
 - 🇦🇿 AZ — ASAN Service efficient governance; private bilingual concentrated Baku
+- 🇮🇳 IN — 26-week maternity leave (regionally generous); private CBSE/ICSE/IB/Cambridge schools dominant for elite (Bengaluru/Mumbai/Delhi-Gurgaon-Noida); demographic dividend through ~2050; English-medium routine for elite + middle class
+- 🇯🇴 JO — public schools strained by Syrian refugee influx; private international + IB schools growing in Amman west (Abdoun, Sweifieh)
+- 🇴🇲 OM, 🇧🇭 BH, 🇰🇼 KW — Vision 2040 (OM) / NSS 2050 (BH) / Vision 2035 (KW) reforming; private international schools dominant for expat family pattern in Muscat / Manama-Saar-Janabiya / Salwa-Mishref-Bayan-Salmiya
 
 Weakest:
 - LatAm informal urban (excluding strong middle-class enclaves)
@@ -305,21 +329,27 @@ Weakest:
 - 🇪🇬 EG, 🇲🇦 MA, 🇵🇭 PH, 🇮🇩 ID, 🇩🇴 DO — public schools severely under-resourced; quality concentrated in private/international tier
 - 🇲🇩 MD — emigration sustained since 1990s, public schools split Russian/Romanian-medium, EU candidate status (Jun 2022 → accession Jun 2024) may reverse trajectory
 - 🇹🇳 TN — short maternity (30 days); IMF EFF SUSPENDED Mar 2024 affecting public-sector funding; quality concentrated in Tunis private French/American
+- 🇳🇬 NG — public schools severely under-resourced + insurgency-affected NE; private international tier dominant in Lagos VI/Ikoyi/Lekki for elite
+- 🇱🇧 LB — public schools severely strained — 2019 economic collapse + 2024 Israel-Hezbollah war + 2020 Beirut Port explosion; emigration accelerated post-2019; quality concentrated in private French/American/IB
 
 ## Anti-hallucination
 
 - **Cite Eurostat / OECD / World Bank / UN DESA** as primary; date-stamp data
-- **National stats offices** (Census Bureau US, TÜİK TR, FCSC AE, Stat Bureau JP, NSO TH, ONE DO, DANE CO, INE UY/CL/PY, Stats SA, Geostat GE, BPS ID, DOSM MY, GSO VN, PSA PH, CBS IL, HCP MA, CAPMAS EG, Singstat SG, C&SD HK, KOSTAT KR, DGBAS TW, Statistik Liechtenstein LI, DSEC MO, Estadística d'Andorra AD, IMSEE MC, BNS MD, PSA Qatar QA, GASTAT SA, INEI PE, INEC EC, ARMSTAT AM, SSC AZ, INS TN) are primary for in-country data
+- **National stats offices** (Census Bureau US, TÜİK TR, FCSC AE, Stat Bureau JP, NSO TH, ONE DO, DANE CO, INE UY/CL/PY, Stats SA, Geostat GE, BPS ID, DOSM MY, GSO VN, PSA PH, CBS IL, HCP MA, CAPMAS EG, Singstat SG, C&SD HK, KOSTAT KR, DGBAS TW, Statistik Liechtenstein LI, DSEC MO, Estadística d'Andorra AD, IMSEE MC, BNS MD, PSA Qatar QA, GASTAT SA, INEI PE, INEC EC, ARMSTAT AM, SSC AZ, INS TN, NSO India / MoSPI IN, NBS NG, KNBS KE, DOS JO, NCSI OM, iGA BH, PACI/CSB KW, CAS LB) are primary for in-country data
 - **PISA cycle is 3-year**; 2022 results are still authoritative until late 2026 (next cycle 2025 results expected late 2026)
 - **PISA participation is voluntary** — DO, ZA, EG, MO, LI, AD, MC do not participate at country level; use TIMSS / UNESCO LLECE / national alternatives, do NOT extrapolate. SG and HK participate as separate jurisdictions
 - **Population projections** are uncertain — use UN WPP medium variant
 - **TFR varies substantially by year** — use latest single-year data, not multi-year; flag record-lows (KR 2024 0.72 globally lowest, JP 2024, HK 2023, TW 2023, SG 2023, TR 2023, CL 2023, TH 2023)
 - **EF EPI** is non-government and methodology-disputed — use as a relative ranking, not absolute
-- **Expat-skewed populations** (AE: ~88% expat per 2022 FCSC; MC: ~9.5k Monégasques + ~28.5k others per IMSEE; SG: ~70% citizen + 30% PR/work-pass per Singstat) — citizen and aggregate metrics can diverge sharply; quote both when relevant
+- **Expat-skewed populations** (AE: ~88% expat per 2022 FCSC; QA: ~88% expat per 2024 PSA; KW: ~70% expat per 2024 PACI; BH: ~55% expat per 2024 iGA; OM: ~46% expat per 2024 NCSI; MC: ~9.5k Monégasques + ~28.5k others per IMSEE; SG: ~70% citizen + 30% PR/work-pass per Singstat) — citizen and aggregate metrics can diverge sharply; quote both when relevant
 - **Israel TFR** is heavily driven by ultra-Orthodox/Haredi sub-population (~6.5 vs secular ~2.0 per 2023 CBS) — aggregate masks composition
 - **Moldova population**: BNS official figures exclude Transnistria (~360k claimed by separatist administration but not in BNS series) — always state which scope is used
+- **India population**: 2011 was last full census; 2021 census deferred to 2025-26 — UN 2024 medium-variant projection ~1.428B is currently the most-cited reference
+- **Nigeria population**: 2006 was last full census; UN 2024 medium-variant projection ~227M is currently the most-cited reference (NPC contested counts post-2006)
+- **Lebanon population**: no full census since 1932; CAS estimate ~5.5M includes ~1.5M Syrian + ~470k Palestinian refugees — always state which scope is used
+- **Jordan population**: 2024 DOS estimate ~11.4M including refugees (Palestinian + Syrian); Jordanian-citizen-only count materially smaller
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-4 expansion: +8 countries — QA, SA, PE, EC, PY, AM, AZ, TN; cumulative 79 countries: 44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3 + 8 Tier-4).
-**Confidence**: MEDIUM-HIGH overall — primary national stats office citations for population/TFR; PISA 2022 cycle for school benchmarks where countries/jurisdictions participate; TIMSS/LLECE/ERCE/national-only alternatives flagged for non-PISA participants. Re-verify TFRs annually given record-low volatility in KR/HK/TW/SG/JP/TR/TH/CL.
+Last refreshed: 2026-05-01 (Tier-5 expansion: +8 countries — IN, NG, KE, JO, OM, BH, KW, LB; cumulative 87 countries: 44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3 + 8 Tier-4 + 8 Tier-5).
+**Confidence**: MEDIUM-HIGH overall — primary national stats office citations for population/TFR; PISA 2022 cycle for school benchmarks where countries/jurisdictions participate; TIMSS/SACMEQ/LLECE/ERCE/ASER/NAS/national-only alternatives flagged for non-PISA participants. Re-verify TFRs annually given record-low volatility in KR/HK/TW/SG/JP/TR/TH/CL. India + Nigeria + Lebanon population figures are projections / estimates pending overdue censuses.

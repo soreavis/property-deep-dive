@@ -2,7 +2,7 @@
 
 Digital-nomad-specific filter: digital nomad visa (DNV) availability, internet quality, coworking density, time-zone overlap with major work hubs.
 
-**Snapshot**: May 2026 (Tier-4 additions — 79 countries total).
+**Snapshot**: May 2026 (Tier-5 additions — 87 countries total).
 
 ## Universal contract
 
@@ -116,6 +116,16 @@ For the property's country, return:
 - **MC**: NO DNV; carte de séjour (~€500k bank deposit) is the residency route; visitor 90 days for Schengen-eligible nationalities
 - **MD**: NO formal DNV as of 2026 (proposals raised 2023-2024 but not enacted as of May 2026); tourist 90 days visa-free for many; Investor Residency Law 200/2010 (€250k 5yr) is the practical longer-term route
 
+**IN, NG, KE, JO, OM, BH, KW, LB** — DNV / remote-work pathways for Tier-5:
+- **IN**: NO formal DNV (proposals raised 2024 but not enacted as of May 2026); tourist e-visa 30/90/180-day for ~169 nationalities; **NO golden-visa via real estate (UNIQUE absence)** — India does NOT offer property-pegged residency or citizenship; **OCI lifetime multi-entry for Indian-origin descendants** is the practical longer-term route; LRS USD 250k/yr cap on outbound remittance — verify with MHA / Bureau of Immigration
+- **NG**: NO formal DNV; tourist 90-day visa for many nationalities; **STR-1 Investor visa USD 100k business** is the longer-term pathway; nomads informally use 90-day tourist + extension; **security risk requires private security + gated communities + energy autonomy mandatory** — verify with NIS (Nigeria Immigration Service)
+- **KE**: NO formal DNV (proposals raised 2024 but not enacted as of May 2026); tourist e-visa 90 days for ~150 nationalities; **NO golden-visa via real estate (UNIQUE absence in EAC)**; **Class K Resident Permit KES 200k+/yr passive income** is the practical longer-term pathway; **M-PESA mobile-money universal in admin (unique to KE)** — verify with Department of Immigration Services
+- **JO**: NO formal DNV; tourist 30-day visa-on-arrival for ~118 nationalities; **CBI Jordan since 2018** (JOD 750k bond OR JOD 1M private investment OR JOD 250k SME with 20+ employees → Jordanian passport, ~50 visa-free destinations — WEAK passport for mobility plays); **Investor Residence ≥JOD 200k Greater Amman / JOD 100k outside (5yr renewable)**; Aqaba ASEZ separate framework — verify with Ministry of Interior / Investment Commission
+- **OM**: NO formal DNV; tourist e-visa 30 days for ~103 nationalities; **Investor Residency Royal Decree 89/2021** — 5-yr ≥OMR 250k (~USD 650k) ITC freehold / 10-yr ≥OMR 500k (~USD 1.3M) ITC; **Long-term Retiree Residence ≥OMR 4,000/mo pension (~USD 10,400)**; cyclone exposure HIGH baseline (Gonu/Mekunu/Shaheen) — verify with MoCIIP / ROP
+- **BH**: NO formal DNV; tourist e-visa 14-day for ~115 nationalities; **Bahrain Property Visa Decree 6/2017 ≥BHD 200k (~USD 530k) → 10-yr renewable Self-Sponsored Residence Permit**; **Golden Residency Decree 16/2022** 10-yr renewable for property owners ≥BHD 200k OR investors / talented / retirees (BHD 4k/mo); Saudi Causeway integration drives weekend medical-tourism flow — verify with Nationality, Passports & Residence Affairs
+- **KW**: **NO golden-visa via real estate (UNIQUE absence in GCC)** — residency entirely via employment Iqama (Decree-Law 17/1959); citizenship effectively impossible (Decree-Law 15/1959); tourist e-visa 90 days for ~52 nationalities; remote-work-on-tourist-status not formally blessed; periodic political deadlock (parliament dissolved 2024) — verify with Public Authority for Civil Information / MoI
+- **LB**: NO formal DNV; tourist 90-day on arrival for ~83 nationalities; **Investor Residency ≥USD 50k Lebanese business (1-yr renewable)**; property ownership ≥USD 200k can support residency application but not automatic; **post-2019 banking collapse + 2020 Beirut Port explosion + 2024 Israel-Hezbollah war Sep-Nov 2024** material to nomad cadence; Lebanese descent streamlined naturalization widely used by ~13M global Mahjar diaspora — verify with Direction Générale de la Sûreté Générale
+
 ## Internet quality (Apr 2026 best-available)
 
 Speedtest Global Index country medians (Apr 2026 snapshot — verify https://www.speedtest.net/global-index for current).
@@ -124,13 +134,13 @@ Speedtest Global Index country medians (Apr 2026 snapshot — verify https://www
 🇸🇬 SG (consistently top-3 globally on Speedtest fixed + mobile per Ookla 2024-2026) · 🇰🇷 KR (gigabit fiber norm, KT/SK/LG) · 🇺🇸 US · 🇨🇭 CH · 🇫🇷 FR · 🇪🇸 ES · 🇸🇪 SE · 🇩🇰 DK · 🇳🇱 NL · 🇳🇴 NO · 🇳🇿 NZ · 🇨🇦 CA · 🇦🇺 AU · 🇯🇵 JP (1Gbps fibre standard urban) · 🇦🇪 AE (Dubai/Abu Dhabi etisalat/du fibre) · 🇭🇰 HK (gigabit FTTH ubiquitous urban) · 🇹🇼 TW (gigabit FTTH norm, Chunghwa/Taiwan Mobile) · 🇲🇨 MC (Monaco Telecom 5G) · 🇲🇩 MD (gigabit fiber Moldtelecom + Orange MD + StarNet — one of the highest fiber-penetrations in Eastern Europe per Ookla 2024-2026) · 🇶🇦 QA (Ooredoo / Vodafone Qatar 5G ubiquitous Doha)
 
 ### Tier 2 — fixed median 80-150 Mbps + 5G in cities
-🇩🇪 DE · 🇬🇧 UK · 🇮🇪 IE · 🇧🇪 BE · 🇮🇹 IT · 🇵🇹 PT · 🇪🇪 EE · 🇱🇹 LT · 🇱🇻 LV · 🇨🇿 CZ · 🇸🇰 SK · 🇫🇮 FI · 🇮🇸 IS · 🇱🇺 LU · 🇲🇹 MT · 🇹🇭 TH (Bangkok/Chiang Mai AIS/3BB) · 🇮🇱 IL (Bezeq/Hot fibre) · 🇲🇴 MO (CTM + MTel + Smartone fibre + 5G urban) · 🇦🇩 AD (4G/5G via Andorra Telecom state monopoly; fibre Vaduz-style coverage urban) · 🇱🇮 LI (FL1 + Telecom Liechtenstein gigabit, Vaduz) · 🇸🇦 SA (STC / Mobily / Zain 5G Riyadh / Jeddah / Dammam) · 🇦🇲 AM (Beeline / VivaCell / Ucom fiber gigabit Yerevan)
+🇩🇪 DE · 🇬🇧 UK · 🇮🇪 IE · 🇧🇪 BE · 🇮🇹 IT · 🇵🇹 PT · 🇪🇪 EE · 🇱🇹 LT · 🇱🇻 LV · 🇨🇿 CZ · 🇸🇰 SK · 🇫🇮 FI · 🇮🇸 IS · 🇱🇺 LU · 🇲🇹 MT · 🇹🇭 TH (Bangkok/Chiang Mai AIS/3BB) · 🇮🇱 IL (Bezeq/Hot fibre) · 🇲🇴 MO (CTM + MTel + Smartone fibre + 5G urban) · 🇦🇩 AD (4G/5G via Andorra Telecom state monopoly; fibre Vaduz-style coverage urban) · 🇱🇮 LI (FL1 + Telecom Liechtenstein gigabit, Vaduz) · 🇸🇦 SA (STC / Mobily / Zain 5G Riyadh / Jeddah / Dammam) · 🇦🇲 AM (Beeline / VivaCell / Ucom fiber gigabit Yerevan) · 🇧🇭 BH (Batelco / Stc / Zain Bahrain 5G Manama ubiquitous) · 🇰🇼 KW (Zain / STC Kuwait / Ooredoo 5G Kuwait City) · 🇴🇲 OM (Omantel / Ooredoo Oman 5G Muscat)
 
 ### Tier 3 — fixed median 40-80 Mbps + 5G in capital
-🇨🇾 CY · 🇬🇷 GR · 🇵🇱 PL · 🇭🇺 HU · 🇸🇮 SI · 🇭🇷 HR · 🇧🇬 BG · 🇷🇴 RO · 🇦🇹 AT · 🇲🇽 MX (CDMX/Monterrey) · 🇧🇷 BR (SP/Rio) · 🇨🇷 CR (San José) · 🇵🇦 PA (Panama City) · 🇹🇷 TR (Istanbul/Ankara Türknet/Turkcell) · 🇲🇾 MY (KL TM Unifi) · 🇨🇱 CL (Santiago Movistar/VTR) · 🇨🇴 CO (Bogotá/Medellín Movistar) · 🇿🇦 ZA (Cape Town/JHB Vodacom/MTN fibre) · 🇦🇿 AZ (Azercell / Bakcell / Nar 5G Baku) · 🇹🇳 TN (Tunisie Telecom / Ooredoo / Orange 4G/5G Tunis) · 🇪🇨 EC (Claro / Movistar / CNT fiber Quito / Cuenca)
+🇨🇾 CY · 🇬🇷 GR · 🇵🇱 PL · 🇭🇺 HU · 🇸🇮 SI · 🇭🇷 HR · 🇧🇬 BG · 🇷🇴 RO · 🇦🇹 AT · 🇲🇽 MX (CDMX/Monterrey) · 🇧🇷 BR (SP/Rio) · 🇨🇷 CR (San José) · 🇵🇦 PA (Panama City) · 🇹🇷 TR (Istanbul/Ankara Türknet/Turkcell) · 🇲🇾 MY (KL TM Unifi) · 🇨🇱 CL (Santiago Movistar/VTR) · 🇨🇴 CO (Bogotá/Medellín Movistar) · 🇿🇦 ZA (Cape Town/JHB Vodacom/MTN fibre) · 🇦🇿 AZ (Azercell / Bakcell / Nar 5G Baku) · 🇹🇳 TN (Tunisie Telecom / Ooredoo / Orange 4G/5G Tunis) · 🇪🇨 EC (Claro / Movistar / CNT fiber Quito / Cuenca) · 🇮🇳 IN (Jio / Airtel / Vi 5G — rapid 2024-26 rollout to top 100 cities; Bengaluru / Mumbai / Hyderabad gigabit fiber growing) · 🇯🇴 JO (Zain / Orange / Umniah 5G Amman; fiber Greater Amman growing)
 
 ### Tier 4 — variable, urban-centric
-🇷🇸 RS · 🇲🇪 ME · 🇧🇦 BA · 🇲🇰 MK · 🇦🇱 AL · 🇦🇷 AR · 🇬🇪 GE (Tbilisi Magticom/Silknet) · 🇺🇾 UY (Montevideo Antel) · 🇩🇴 DO (Santo Domingo Claro/Altice) · 🇮🇩 ID (Jakarta/Bali Telkomsel/Indihome) · 🇻🇳 VN (HCMC/Hanoi Viettel/VNPT) · 🇵🇭 PH (Manila PLDT/Globe — speeds rising 2024-25) · 🇲🇦 MA (Casablanca/Rabat Maroc Telecom fibre) · 🇪🇬 EG (New Capital + Cairo/Alex Telecom Egypt fibre) · 🇵🇪 PE (Movistar / Claro / Entel — 5G Lima only) · 🇵🇾 PY (Tigo / Personal / Claro 4G/5G Asunción)
+🇷🇸 RS · 🇲🇪 ME · 🇧🇦 BA · 🇲🇰 MK · 🇦🇱 AL · 🇦🇷 AR · 🇬🇪 GE (Tbilisi Magticom/Silknet) · 🇺🇾 UY (Montevideo Antel) · 🇩🇴 DO (Santo Domingo Claro/Altice) · 🇮🇩 ID (Jakarta/Bali Telkomsel/Indihome) · 🇻🇳 VN (HCMC/Hanoi Viettel/VNPT) · 🇵🇭 PH (Manila PLDT/Globe — speeds rising 2024-25) · 🇲🇦 MA (Casablanca/Rabat Maroc Telecom fibre) · 🇪🇬 EG (New Capital + Cairo/Alex Telecom Egypt fibre) · 🇵🇪 PE (Movistar / Claro / Entel — 5G Lima only) · 🇵🇾 PY (Tigo / Personal / Claro 4G/5G Asunción) · 🇰🇪 KE (Safaricom 5G dominant + Airtel + Telkom; **M-PESA mobile-money universal**; Nairobi fibre via JTL/Zuku) · 🇳🇬 NG (MTN / Glo / Airtel / 9mobile 5G limited Lagos / Abuja; **energy autonomy mandatory** — fibre via MainOne/IHS/Spectranet) · 🇱🇧 LB (Touch + Alfa 4G ageing — **NO 5G yet**; fibre via Ogero / IDM rebuilding post-2019 collapse)
 
 **Reality check for nomads**: median speed often quoted is fibre-to-the-home in urban centers. Rural / coastal-village can drop to 4G / 30 Mbps. Always check the **specific address** before committing — many country playbooks include this in `--mains` (utilities) or `--amenities`.
 
@@ -187,6 +197,19 @@ Speedtest Global Index country medians (Apr 2026 snapshot — verify https://www
 | Yerevan | AM | 15-25 (IT-based hubs Tumo + Impact Hub Yerevan) |
 | Baku | AZ | 5-10 (ABB Innovation Center / SOCAR business; oil-revenue stabilized economy + low crime) |
 | Tunis | TN | 15-25 (Cogite / Wikistage Tunis; medical-tourism + tech overlap) |
+| Bengaluru | IN | 100+ (WeWork / Awfis / 91springboard / Smartworks — **densest coworking ecosystem in South Asia**) |
+| Mumbai | IN | 80+ (BKC / Powai / Lower Parel — WeWork / Awfis / Smartworks) |
+| Delhi NCR (Gurgaon/Noida) | IN | 80+ (Cyber City / Cyber Hub Gurgaon — WeWork / Awfis / 91springboard) |
+| Hyderabad | IN | 50+ (HITEC City / Gachibowli — IKeva / WeWork) |
+| Pune | IN | 30+ (Koregaon Park / Hinjewadi — Awfis / Smartworks) |
+| Lagos | NG | 25-40 (Workstation / Capital Square / Workbench / Regus VI/Ikoyi) |
+| Abuja | NG | 10-20 (Cobloom / Capital Hub Abuja growing) |
+| Nairobi | KE | 30-50 (iHub / Nailab / Workstyle / The Mint Hub — Westlands / Karen / Kilimani) |
+| Amman | JO | 15-25 (ZINC / Beit Al Bawadi / Centro Connect Amman) |
+| Muscat | OM | 5-15 (Ihroz / Oman Tech Fund / Spaces Muscat) |
+| Manama | BH | 5-15 (Bru Coffee / Brinc / CoLab Manama) |
+| Kuwait City | KW | 5-15 (Spaces / Sirdab / 360 MALL coworking) |
+| Beirut | LB | 10-20 (Antwork / Coworking + Co / JoiBox / Cloud9 — operating with USD-LBP dual-pricing post-2019 collapse) |
 
 For property-DD purposes: a coworking space within 15-min walk is a strong Tier-1 nomad signal.
 
@@ -210,7 +233,11 @@ For remote work, time-zone overlap with the team is critical. Hours per day in o
 | ZA, EG, IL | UTC+2 / UTC+3 (no DST in ZA/EG; IL has DST) | 2-3 hrs | 7 hrs | 8 hrs |
 | TN | CET (UTC+1, no DST) | 4 hrs | 8 hrs | 9 hrs |
 | TR, QA, SA | UTC+3 (perm., no DST) | 2 hrs | 6 hrs | 7 hrs |
-| GE, AE, AM, AZ | UTC+4 | 1-2 hrs | 5 hrs | 6 hrs |
+| GE, AE, AM, AZ, OM | UTC+4 | 1-2 hrs | 5 hrs | 6 hrs |
+| IN | IST UTC+5:30 (no DST; unique half-hour offset) | 0-1 hrs | 3-4 hrs | 4-5 hrs |
+| NG | WAT UTC+1 (no DST) | 4 hrs | 8 hrs | 9 hrs (same as CET) |
+| KE, JO, BH, KW | UTC+3 (no DST except JO/LB) | 2 hrs | 6 hrs | 7 hrs |
+| LB | EET UTC+2 / EEST UTC+3 DST | 2-3 hrs | 7 hrs | 8 hrs |
 | TH, VN, ID (Jakarta WIB) | UTC+7 | 0 hrs | 2 hrs | 3 hrs |
 | MY, PH, ID (Bali WITA UTC+8), SG, HK, TW, MO | UTC+8 | -1 hrs | 1 hrs | 2 hrs |
 | JP, KR | UTC+9 (JST/KST, no DST) | -2 hrs | 0 hrs | 1 hrs |
@@ -264,20 +291,28 @@ Standard rule across most skill-supported countries:
 - 🇦🇲 AM: 183 days = resident; worldwide income at flat 21% PIT (2026 — verify SRC)
 - 🇦🇿 AZ: 182 days = resident; worldwide income at progressive 14-25% (2026 — verify Min. Tax)
 - 🇹🇳 TN: 183 days = resident; worldwide income at progressive 0-35% (2026 — verify Direction Générale des Impôts); 80% abatement on foreign pension under Art. 36 Code IRPP — verify
+- 🇮🇳 IN: 182 days = resident (60-day shorter rule for Indian citizens with India-sourced income); worldwide income for residents at progressive 0-30% + surcharge + 4% cess; **LRS USD 250k/yr cap on outbound remittance**; treaty relief under DTAA — verify CBDT
+- 🇳🇬 NG: 183 days = resident; worldwide income for residents at progressive 7-24% + 2.5% NHF (2026 — verify FIRS); minimal treaty network
+- 🇰🇪 KE: 183 days OR ≥122 days/yr × 3 yrs = resident; worldwide income at progressive 10-35% PIT (2026 — verify KRA)
+- 🇯🇴 JO: 183 days = resident; worldwide income at progressive 5-30% + 1% national-contribution PIT (2026 — verify ISTD / Income & Sales Tax Dept)
+- 🇴🇲 OM: 183 days = resident (per Royal Decree 28/2009 / Tax Authority practice); **NO PIT for individuals** (Oman individual income-tax law drafted 2022 NOT enacted as of May 2026 — verify Tax Authority); foreign pension/income NOT subject to OM personal taxation
+- 🇧🇭 BH: 183 days = resident; **NO PIT for individuals** — foreign pension/income NOT subject to BH personal taxation
+- 🇰🇼 KW: 183 days = resident; **NO PIT for individuals** — foreign pension/income NOT subject to KW personal taxation; but **residency entirely via employment Iqama** (Decree-Law 17/1959)
+- 🇱🇧 LB: 183 days = resident; worldwide income at progressive 4-25% PIT (2026 — verify MoF); **post-2019 banking collapse + currency dual-pricing (USD ↔ LBP)** material to tax-residency reasoning
 
 ## Cost of living for nomad lifestyle (1-bedroom + restaurants + transit)
 
 ### Cheap (<€1,500/mo)
-🇦🇱 Tirana · 🇧🇦 Sarajevo · 🇲🇰 Skopje · 🇲🇪 Podgorica · 🇷🇸 Belgrade · 🇧🇬 Sofia · 🇷🇴 Bucharest · 🇲🇽 Mexico City (off-Polanco) · 🇦🇷 Buenos Aires (post-Milei) · 🇬🇪 Tbilisi · 🇪🇬 Cairo · 🇻🇳 HCMC / Hanoi · 🇵🇭 Manila / Cebu · 🇮🇩 Jakarta (off-Menteng) / Yogyakarta · 🇲🇦 Casablanca / Marrakech (off-Medina rentals) · 🇹🇭 Chiang Mai · 🇹🇷 Istanbul (post-2023 lira slide; verify in TRY at point of search) · 🇨🇴 Medellín / Bogotá · 🇩🇴 Santo Domingo (off-zona-colonial) · 🇲🇩 Chișinău (lowest COL in Europe — Numbeo 2024-2026) · 🇵🇾 Asunción (very low COL) · 🇪🇨 Cuenca / Quito (Cuenca lower than Lima/Bogotá per Numbeo) · 🇦🇲 Yerevan (moderate; appreciation 2022-24 from Russian-relocant wave) · 🇦🇿 Baku (off-Yasamal/Nasimi) · 🇹🇳 Tunis La Marsa / Sousse / Djerba (very low outside Tunis prime)
+🇦🇱 Tirana · 🇧🇦 Sarajevo · 🇲🇰 Skopje · 🇲🇪 Podgorica · 🇷🇸 Belgrade · 🇧🇬 Sofia · 🇷🇴 Bucharest · 🇲🇽 Mexico City (off-Polanco) · 🇦🇷 Buenos Aires (post-Milei) · 🇬🇪 Tbilisi · 🇪🇬 Cairo · 🇻🇳 HCMC / Hanoi · 🇵🇭 Manila / Cebu · 🇮🇩 Jakarta (off-Menteng) / Yogyakarta · 🇲🇦 Casablanca / Marrakech (off-Medina rentals) · 🇹🇭 Chiang Mai · 🇹🇷 Istanbul (post-2023 lira slide; verify in TRY at point of search) · 🇨🇴 Medellín / Bogotá · 🇩🇴 Santo Domingo (off-zona-colonial) · 🇲🇩 Chișinău (lowest COL in Europe — Numbeo 2024-2026) · 🇵🇾 Asunción (very low COL) · 🇪🇨 Cuenca / Quito (Cuenca lower than Lima/Bogotá per Numbeo) · 🇦🇲 Yerevan (moderate; appreciation 2022-24 from Russian-relocant wave) · 🇦🇿 Baku (off-Yasamal/Nasimi) · 🇹🇳 Tunis La Marsa / Sousse / Djerba (very low outside Tunis prime) · 🇮🇳 Bengaluru / Hyderabad / Pune / Chennai (Tier-1 metros; very wide COL band — Tier-3 cities much lower) · 🇳🇬 Lagos (off-VI/Ikoyi/Lekki) / Abuja (off-Maitama) · 🇰🇪 Nairobi (off-Karen/Lavington/Westlands/Runda) · 🇱🇧 Beirut (locals collapsed-wealth COL — fresh-USD COL inverts in expat zones)
 
 ### Mid (€1,500-2,500)
-🇵🇹 Porto / Setúbal · 🇪🇸 Valencia / Malaga · 🇮🇹 Bari / Catania · 🇬🇷 Athens · 🇨🇿 Brno · 🇭🇺 Budapest · 🇵🇱 Warsaw · 🇨🇷 San José · 🇵🇦 Panama City · 🇲🇽 Guadalajara · 🇲🇾 Kuala Lumpur · 🇹🇭 Bangkok · 🇮🇩 Bali (Canggu/Ubud) · 🇿🇦 Cape Town (off-Atlantic-seaboard) / JHB · 🇨🇱 Santiago · 🇺🇾 Montevideo · 🇵🇪 Lima Miraflores / Barranco / San Isidro · 🇹🇳 Tunis (prime La Marsa / Sidi Bou Said)
+🇵🇹 Porto / Setúbal · 🇪🇸 Valencia / Malaga · 🇮🇹 Bari / Catania · 🇬🇷 Athens · 🇨🇿 Brno · 🇭🇺 Budapest · 🇵🇱 Warsaw · 🇨🇷 San José · 🇵🇦 Panama City · 🇲🇽 Guadalajara · 🇲🇾 Kuala Lumpur · 🇹🇭 Bangkok · 🇮🇩 Bali (Canggu/Ubud) · 🇿🇦 Cape Town (off-Atlantic-seaboard) / JHB · 🇨🇱 Santiago · 🇺🇾 Montevideo · 🇵🇪 Lima Miraflores / Barranco / San Isidro · 🇹🇳 Tunis (prime La Marsa / Sidi Bou Said) · 🇮🇳 Mumbai BKC / Bandra · 🇰🇪 Nairobi Westlands / Kilimani · 🇯🇴 Amman Abdoun / Sweifieh / Khalda
 
 ### Mid-high (€2,500-3,500)
-🇵🇹 Lisbon · 🇪🇸 Madrid / Barcelona · 🇮🇹 Milan / Rome · 🇩🇪 Berlin / Hamburg · 🇫🇷 Lyon · 🇳🇱 Rotterdam · 🇮🇪 Galway · 🇲🇹 Sliema · 🇨🇾 Limassol · 🇪🇪 Tallinn · 🇧🇷 São Paulo · 🇮🇱 Tel Aviv (off-center) · 🇯🇵 Tokyo (off-23-ku) / Osaka · 🇰🇷 Seoul (off-Gangnam) · 🇹🇼 Taipei (off-Da'an / Xinyi) · 🇲🇴 Macao (residential off-Cotai) · 🇦🇩 Andorra la Vella
+🇵🇹 Lisbon · 🇪🇸 Madrid / Barcelona · 🇮🇹 Milan / Rome · 🇩🇪 Berlin / Hamburg · 🇫🇷 Lyon · 🇳🇱 Rotterdam · 🇮🇪 Galway · 🇲🇹 Sliema · 🇨🇾 Limassol · 🇪🇪 Tallinn · 🇧🇷 São Paulo · 🇮🇱 Tel Aviv (off-center) · 🇯🇵 Tokyo (off-23-ku) / Osaka · 🇰🇷 Seoul (off-Gangnam) · 🇹🇼 Taipei (off-Da'an / Xinyi) · 🇲🇴 Macao (residential off-Cotai) · 🇦🇩 Andorra la Vella · 🇴🇲 Muscat (Al Mouj / The Wave) · 🇧🇭 Manama (Seef / Diplomatic Area / Juffair) · 🇱🇧 Beirut Achrafieh / Verdun (fresh-USD)
 
 ### Expensive (€3,500+)
-🇨🇭 Zurich · 🇳🇴 Oslo · 🇮🇸 Reykjavik · 🇱🇺 Luxembourg · 🇬🇧 London · 🇮🇪 Dublin · 🇸🇪 Stockholm · 🇩🇰 Copenhagen · 🇨🇭 Geneva · 🇫🇷 Paris · 🇳🇱 Amsterdam · 🇩🇪 Munich · 🇨🇦 Toronto/Vancouver · 🇦🇺 Sydney/Melbourne · 🇳🇿 Auckland · 🇺🇸 NYC / SF / LA / Boston · 🇦🇪 Dubai (Marina/DIFC) · 🇮🇱 Tel Aviv (center) · 🇯🇵 Tokyo (central 23-ku premium) · 🇸🇬 Singapore (consistently top-3 globally COL/rent — Numbeo 2024-2026) · 🇭🇰 Hong Kong (top-5 globally rent — Numbeo 2024-2026; lower than SG on housing per Knight Frank Q1 2025) · 🇲🇨 Monaco (Monte-Carlo — among the highest globally per Knight Frank Wealth Report) · 🇱🇮 Vaduz (CH-aligned, very high) · 🇶🇦 Doha (West Bay / The Pearl / Lusail — very-high COL) · 🇸🇦 Riyadh (DQ prime / Vision 2030 zones)
+🇨🇭 Zurich · 🇳🇴 Oslo · 🇮🇸 Reykjavik · 🇱🇺 Luxembourg · 🇬🇧 London · 🇮🇪 Dublin · 🇸🇪 Stockholm · 🇩🇰 Copenhagen · 🇨🇭 Geneva · 🇫🇷 Paris · 🇳🇱 Amsterdam · 🇩🇪 Munich · 🇨🇦 Toronto/Vancouver · 🇦🇺 Sydney/Melbourne · 🇳🇿 Auckland · 🇺🇸 NYC / SF / LA / Boston · 🇦🇪 Dubai (Marina/DIFC) · 🇮🇱 Tel Aviv (center) · 🇯🇵 Tokyo (central 23-ku premium) · 🇸🇬 Singapore (consistently top-3 globally COL/rent — Numbeo 2024-2026) · 🇭🇰 Hong Kong (top-5 globally rent — Numbeo 2024-2026; lower than SG on housing per Knight Frank Q1 2025) · 🇲🇨 Monaco (Monte-Carlo — among the highest globally per Knight Frank Wealth Report) · 🇱🇮 Vaduz (CH-aligned, very high) · 🇶🇦 Doha (West Bay / The Pearl / Lusail — very-high COL) · 🇸🇦 Riyadh (DQ prime / Vision 2030 zones) · 🇰🇼 Kuwait City (Salmiya / Bayan / Mishref / Salwa prime)
 
 ## Tax-treaty cross-references
 
@@ -298,6 +333,6 @@ For US citizens specifically: **citizenship-based taxation** means worldwide inc
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-4 additions — 79 countries total; Tier-4 added: QA, SA, PE, EC, PY, AM, AZ, TN).
+Last refreshed: 2026-05-01 (Tier-5 additions — 87 countries total; Tier-5 added: IN, NG, KE, JO, OM, BH, KW, LB).
 
-**Confidence**: MEDIUM — DNV thresholds and tax-residency cutoffs verified against destination immigration / tax authorities as of May 2026, but several reforms are in flight (TH 2024 foreign-source remittance change, JP DNV launched Apr 2024, ZA Remote-Work Visa launched May 2024, KR Workation Visa launched Jan 2024, UY tax-holiday election, MY foreign-source exemption to 2036, HK CIES reactivated Mar 2024, PY SET 1186/2023 reformed RBI, TN Investor Visa drafted 2024 NOT gazetted, SA Vision 2030 Premium Residency tiers). Speedtest tier placements are urban-centric — rural fibre lags significantly in TH, ID, VN, PH, MA, EG, ZA, MX, BR, PE, EC, PY, TN, AZ; SG/HK/KR/TW/MD/QA report exceptional fixed-line median speeds in their primary metros. Always verify the **specific address** via `--mains` / `--amenities`. Cost-of-living tiers compress under FX volatility (TR especially) — bands are EUR-equivalent at ~May 2026 rates.
+**Confidence**: MEDIUM — DNV thresholds and tax-residency cutoffs verified against destination immigration / tax authorities as of May 2026, but several reforms are in flight (TH 2024 foreign-source remittance change, JP DNV launched Apr 2024, ZA Remote-Work Visa launched May 2024, KR Workation Visa launched Jan 2024, UY tax-holiday election, MY foreign-source exemption to 2036, HK CIES reactivated Mar 2024, PY SET 1186/2023 reformed RBI, TN Investor Visa drafted 2024 NOT gazetted, SA Vision 2030 Premium Residency tiers, OM Investor Residency Royal Decree 89/2021, BH Property Visa Decree 6/2017 + Golden Residency Decree 16/2022, JO CBI since 2018, IN proposals 2024 NOT enacted as of May 2026, KE proposals 2024 NOT enacted, OM individual income-tax law drafted 2022 NOT enacted). Speedtest tier placements are urban-centric — rural fibre lags significantly in TH, ID, VN, PH, MA, EG, ZA, MX, BR, PE, EC, PY, TN, AZ, IN (Tier-3 cities), NG (outside Lagos/Abuja), KE (outside Nairobi/Mombasa); SG/HK/KR/TW/MD/QA/BH/KW/OM report exceptional fixed-line median speeds in their primary metros; LB has NO 5G yet (Touch + Alfa 4G ageing). Always verify the **specific address** via `--mains` / `--amenities`. Cost-of-living tiers compress under FX volatility (TR / EG / NG / LB especially — LB unique USD-LBP dual-pricing post-2019 collapse) — bands are EUR-equivalent at ~May 2026 rates.

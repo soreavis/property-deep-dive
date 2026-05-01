@@ -644,6 +644,78 @@ For the property's locality, return:
 - **Granularity**: national + per-gouvernorat (24) headlines; per-délégation (264) inconsistently published; per-arrondissement (Tunis city) only via DGSN press releases
 - **Caveat**: under-reporting common (HCP-style victim survey not published routinely); tourist-zone (Hammamet / Sousse / Monastir / Djerba) petty-theft + harassment under-reported (post-2015 Sousse + Bardo attacks reshaped published-narrative); 2023+ irregular-migration-route incidents around Sfax materially affect regional rates; methodology not aligned with EU; political-context + counter-terrorism offences separately classified; data not publicly available at parcel/quarter level — verify with local DGSN brigade
 
+### 🇮🇳 India
+
+- **NCRB (National Crime Records Bureau)**: `https://ncrb.gov.in/` — annual Crime in India report (most authoritative); per-state + per-city (53 metropolitan cities ≥1M pop) coverage
+- **MHA (Ministry of Home Affairs)**: `https://www.mha.gov.in/` — policy + Inter-State CCTNS (Crime and Criminal Tracking Network & Systems)
+- **State Police**: each state has dedicated police force — Mumbai Police `https://mumbaipolice.gov.in/`, Delhi Police `https://www.delhipolice.gov.in/`, Bengaluru City Police `https://bcp.karnataka.gov.in/`, Chennai City Police `https://www.chennaipolice.gov.in/`, Kolkata Police `https://kolkatapolice.gov.in/`, Hyderabad City Police `https://www.hyderabadpolice.gov.in/`, Pune City Police `https://punepolice.gov.in/`, Gurgaon Police `https://police.gov.in/` (Haryana)
+- **Granularity**: per-state (28 + 8 UTs) + per-district + 53 metropolitan cities (NCRB Crime in India "Crime in Cities" chapter); per-PS (police-station, ~17,000) data via state portals inconsistent
+- **Caveat**: significant under-reporting (NCRB acknowledges; victim-survey data limited — no routine NSO crime survey); methodology stable post-2014; political-context + insurgency offences (J&K, Nagaland, Manipur) separately classified; 2023 Bharatiya Nyaya Sanhita + Bharatiya Nagarik Suraksha Sanhita replaced IPC + CrPC effective 1 Jul 2024 — categorisation may shift in 2024+ NCRB publications; metro-level rates differ materially (Bengaluru/Pune/Chennai materially lower than Delhi/Lucknow/Patna)
+
+### 🇳🇬 Nigeria
+
+- **NPF (Nigeria Police Force)**: `https://npf.gov.ng/` — annual statistics + state command data; limited public granularity
+- **NBS (National Bureau of Statistics)**: `https://nigerianstat.gov.ng/` — Crime Statistics Quarterly Report + Crime Experience and Safety Survey (CESS)
+- **MHA (Ministry of Interior)**: `https://interior.gov.ng/`
+- **State Commands** (NPF state offices): Lagos State Police `https://lspc.gov.ng/`, FCT Abuja `https://npf.gov.ng/abuja/`, Rivers State (Port Harcourt), Kano State; **per-LGA (774) + per-ward data not publicly available — verify with local Divisional Police Office (DPO)**
+- **Granularity**: national + per-state (36 + FCT) headlines via NBS; per-LGA inconsistently published; per-ward (8,809) not routine
+- **Caveat**: very high dark-figure (CESS 2024 victim survey shows ~3-5x recorded crime); Boko Haram NE (Borno/Yobe/Adamawa) + ISWAP Lake Chad / IPOB-ESN SE / banditry NW (Zamfara/Kaduna/Katsina) / Gulf of Guinea piracy + maritime kidnapping separately tracked under counter-terrorism; Lagos VI/Ikoyi/Lekki materially lower than mainland; published rates emphasize stability narrative; English official + 500+ languages + Pidgin universal affects victim reporting in non-Hausa/Yoruba/Igbo zones
+
+### 🇰🇪 Kenya
+
+- **NPS (National Police Service)**: `https://www.nationalpolice.go.ke/` — annual statistics + DCIO incident reports
+- **DCI (Directorate of Criminal Investigations)**: `https://www.dci.go.ke/` — investigative crime statistics + Crime Trend Analysis
+- **KNBS (Kenya National Bureau of Statistics)**: `https://www.knbs.or.ke/` — Statistical Abstract Crime chapter + Kenya Population & Housing Census 2019 base
+- **Nairobi**: `https://www.nairobi.go.ke/` (county) + Nairobi Metropolitan Services + DCI Nairobi region
+- **Mombasa**: Mombasa County `https://mombasa.go.ke/` + Coast Regional Police
+- **Granularity**: per-county (47) + per-sub-county (290) + per-ward (1,450) headlines via KNBS; per-station (~1,000+) inconsistently published; Nairobi sub-county (Westlands/Karen/Kilimani/Embakasi/Kibra) varies materially
+- **Caveat**: under-reporting common (NPS acknowledges; 2018 victim-survey gap ~2-3x); al-Shabaab cross-border NE Kenya (Garissa/Mandera/Wajir/Lamu) separately tracked under counter-terrorism — affects regional rates materially; 2024 East Africa floods + 2024 Gen-Z protests created reporting series-break; M-PESA mobile money 95%+ adoption reduces cash-crime incentive but enables fintech-fraud; Westlands/Karen/Kilimani/Lavington materially lower than Eastlands (Kibra/Mathare/Mukuru); SGR Mombasa-Nairobi corridor security visible
+
+### 🇯🇴 Jordan
+
+- **PSD (Public Security Directorate / مديرية الأمن العام)**: `https://www.psd.gov.jo/` — annual statistics + Criminal Information Department
+- **DOS (Department of Statistics / دائرة الإحصاءات العامة)**: `http://dosweb.dos.gov.jo/` — Statistical Yearbook (Justice & Crime chapter)
+- **Ministry of Interior**: `https://moi.gov.jo/`
+- **Amman**: Greater Amman Municipality `https://www.amman.jo/` + PSD Amman Governorate
+- **Granularity**: national + per-governorate (12) + Amman district-level (Western Amman / Eastern Amman / Madaba peripheral); per-locality inconsistently published
+- **Caveat**: among LOWEST crime rates in MENA per PSD — Amman safer than most regional capitals; under-reporting in domestic + sexual significant (despite 2017 reforms); Syrian + Palestinian refugee dynamics (~30%+ of population) affect denominator + crime-vector mix in Zarqa/Mafraq/Irbid; political-context + counter-terrorism offences (Salafi-jihadi networks) separately classified; tourist-zone (Petra/Wadi Rum/Dead Sea) very low
+
+### 🇴🇲 Oman
+
+- **ROP (Royal Oman Police / شرطة عمان السلطانية)**: `https://www.rop.gov.om/` — annual statistics + ROP Crime Wing
+- **NCSI (National Centre for Statistics and Information)**: `https://www.ncsi.gov.om/` — Statistical Yearbook (Public Order chapter); NCSI Real Estate Activity Bulletin separately for property-context
+- **Ministry of Interior**: `https://moi.gov.om/`
+- **Muscat**: Muscat Municipality `https://www.mm.gov.om/` + ROP Muscat Governorate
+- **Granularity**: national + per-governorate (11 muhafazat) headlines; per-wilaya (61) + per-district (community level) data not publicly available — verify with local ROP station (markaz al-shorta)
+- **Caveat**: among LOWEST crime rates in GCC per ROP; very low transparency vs Western peers; published rates emphasize year-on-year decline narrative; Omani + expat (~46%) breakdown rarely disclosed; tribal-customary dispute resolution (Sharia + walaa) handles many incidents informally — official statistics under-count; political-context + 2011 Sohar protest legacy separately classified; Vision 2040 baseline establishing tourism-zone (Muscat / Salalah / Musandam) data
+
+### 🇧🇭 Bahrain
+
+- **Public Security (وزارة الداخلية — الأمن العام)**: `https://www.policemc.gov.bh/` — annual statistics + Ministry of Interior reports
+- **iGA (Information & eGovernment Authority)**: `https://www.iga.gov.bh/` — Statistical Abstract (Public Order chapter)
+- **MoH Real Estate Registry**: `https://www.moh.gov.bh/` (separate from policing — referenced for property context)
+- **Manama**: Capital Governorate Municipal Council + Public Security Manama
+- **Granularity**: national + per-governorate (4: Capital / Muharraq / Northern / Southern) + per-municipal-area (12) headlines; per-block / per-village data not publicly available — verify with local police station
+- **Caveat**: very low crime per public communiqués (post-2011 Pearl Roundabout protests stabilized); methodology not aligned with EU; under-reporting in domestic + sexual significant; Bahraini + expat (~55%) breakdown rarely disclosed; political-context + 2011-14 unrest legacy + Shi'a-village vs Sunni-government dynamic affects published-narrative selectivity; sectarian incidents in villages (Sitra / Diraz / Bani Jamra) may not appear in city-aggregated stats
+
+### 🇰🇼 Kuwait
+
+- **MOI (Ministry of Interior / وزارة الداخلية الكويتية)**: `https://www.moi.gov.kw/` — annual statistics + General Department of Criminal Investigation
+- **CSB (Central Statistical Bureau / الإدارة المركزية للإحصاء)**: `https://www.csb.gov.kw/` — Statistical Abstract; limited Public Order coverage
+- **PACI (Public Authority for Civil Information)**: `https://www.paci.gov.kw/` — population denominator data (mandatory civil-ID registry includes nationality + residence)
+- **Kuwait City**: Kuwait Municipality `https://www.baladia.gov.kw/` + MOI Capital Governorate
+- **Granularity**: national + per-governorate (6: Capital / Hawalli / Farwaniya / Mubarak Al-Kabeer / Ahmadi / Jahra) + Kuwait City district-level inconsistent; per-block / per-area (qit'a) data not publicly available — verify with local police station (markaz)
+- **Caveat**: very low absolute crime per public statistics; transparency limited vs Western peers; published rates emphasize stability narrative; Kuwaiti + expat (~70%) breakdown rarely disclosed; bidoon (stateless) population (~100k) under-counted in denominator; political-context + 1990-91 Iraq invasion legacy separately classified; tribal-customary mediation handles many incidents informally; tourist-zone limited (no GCC-style mass tourism)
+
+### 🇱🇧 Lebanon
+
+- **ISF (Internal Security Forces / قوى الأمن الداخلي)**: `https://www.isf.gov.lb/` — annual statistics + ISF Information Branch
+- **General Directorate of General Security**: `https://www.general-security.gov.lb/` — immigration + state-security overlap
+- **CAS (Central Administration of Statistics / إدارة الإحصاء المركزي)**: `http://www.cas.gov.lb/` — limited Public Order coverage; no routine victim survey
+- **Beirut**: Beirut Governorate + ISF Beirut + Beirut Municipality `https://www.beirut.gov.lb/`
+- **Granularity**: national + per-governorate (8 muhafazat: Beirut / Mount Lebanon / North Lebanon / Akkar / Beqaa / Baalbek-Hermel / South Lebanon / Nabatieh) + per-district (qada) headlines; per-town/quarter data not publicly available — verify with local ISF station (markaz al-mukhtar)
+- **Caveat**: ISF security forces stretched + private security common (compounded by 2019 collapse + 2024 Israel-Hezbollah war); under-reporting significant in all categories; Hezbollah-controlled areas (Dahieh SE Beirut / Bekaa / S Lebanon south of Litani) — statistics partially routed through Hezbollah parallel security apparatus, not in ISF series; **2024 Israel-Hezbollah war Sep-Nov 2024** physical damage + displacement created series-break; sectarian + Syrian-refugee + Palestinian-refugee (Ain al-Hilweh, Burj el-Barajneh, Shatila) camps have parallel security — not in ISF series; Aug 2020 Beirut Port explosion (~218 deaths) reshaped baseline; cybercrime growing (post-USD-collapse fraud)
+
 ## Universal extraction approach
 
 For each country, the workflow:

@@ -2,7 +2,7 @@
 
 Macroeconomic context for property decisions: inflation, GDP growth, central-bank policy rate, sovereign yield. Sets the cyclical backdrop for `--price`, `--finance`, and `--currency`.
 
-**Snapshot**: May 2026 (Tier-4 additions).
+**Snapshot**: May 2026 (Tier-5 additions).
 
 ## Universal contract
 
@@ -117,6 +117,14 @@ For each country, primary macro sources:
 | AM | CBA (https://www.cba.am/) | ARMSTAT | IMF WEO |
 | AZ | CBAR (https://www.cbar.az/) | SSC | IMF WEO |
 | TN | BCT (https://www.bct.gov.tn/) | INS | IMF WEO |
+| IN | RBI (https://www.rbi.org.in/) | NSO / MoSPI | IMF WEO |
+| NG | CBN (https://www.cbn.gov.ng/) | NBS | IMF WEO |
+| KE | CBK (https://www.centralbank.go.ke/) | KNBS | IMF WEO |
+| JO | CBJ (https://www.cbj.gov.jo/) | DOS | IMF WEO |
+| OM | CBO (https://cbo.gov.om/) | NCSI | IMF WEO |
+| BH | CBB (https://www.cbb.gov.bh/) | iGA | IMF WEO |
+| KW | CBK (https://www.cbk.gov.kw/) | CSB | IMF WEO |
+| LB | BDL (https://www.bdl.gov.lb/) | CAS | IMF WEO |
 
 ## Apr 2026 snapshot — central-bank policy rates
 
@@ -184,6 +192,14 @@ For each country, primary macro sources:
 | **CBA (Armenia)** | ~7.00% est. | gradual cuts as CPI near target — verify https://www.cba.am |
 | **CBAR (Azerbaijan)** | ~7.25% est. (Refinancing Rate) | hold; AZN de-facto pegged USD 1.70 since 2017 — verify https://www.cbar.az |
 | **BCT (Tunisia)** | 8.00% est. | hold; CPI ~7-8% post-2022-23 shock; IMF EFF SUSPENDED Mar 2024 — verify https://www.bct.gov.tn |
+| **RBI (India)** | ~6.00% est. (Repo) | mid-cycle cuts from 6.50% peak; INR managed-float; FEMA + LRS USD 250k/yr cap — verify https://www.rbi.org.in |
+| **CBN (Nigeria)** | ~27.50% est. (MPR) | hold/easing post-NGN unification Jun 2023; CPI 30%+ — verify https://www.cbn.gov.ng |
+| **CBK (Kenya)** | ~10.75% est. (CBR) | gradual cuts as CPI eased to 6-7% — verify https://www.centralbank.go.ke |
+| **CBJ (Jordan)** | ~6.50% est. | Fed-bound via JOD/USD peg 0.7080 since 1995 — verify https://www.cbj.gov.jo |
+| **CBO (Oman)** | ~5.50% est. | Fed-bound via OMR/USD peg 0.385 since 1986 — verify https://cbo.gov.om |
+| **CBB (Bahrain)** | ~6.00% est. (1-week deposit) | Fed-bound via BHD/USD peg 0.376 since 2001 — verify https://www.cbb.gov.bh |
+| **CBK (Kuwait)** | ~4.25% est. (Discount Rate) | basket-managed since 20 May 2007 (was USD-pegged); KWD ≈ USD 3.25 (highest face-value globally) — verify https://www.cbk.gov.kw |
+| **BDL (Lebanon)** | n/a (multiple rates post-2019 collapse) | LBP unified 2023-24 around USD 89,500-90,000 (was 1,507.5 since 1997 → decoupled Sep 2019); de-facto USD-dollarized 80%+ prime — verify https://www.bdl.gov.lb |
 
 ## Apr 2026 snapshot — sovereign 10-yr yields
 
@@ -271,6 +287,14 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 | AM | ~8.50% est. | (AMD); USD eurobonds ~6-7%; BB- rated |
 | AZ | ~7.00% est. | (AZN de-facto pegged USD); USD eurobonds ~5-6%; BB+ rated; SOFAZ FX-buffer ~US$60bn |
 | TN | ~12-14% est. | (TND); USD eurobonds ~10-12% distressed-trading post-IMF EFF suspension Mar 2024; CCC+ — verify |
+| IN | ~6.80% est. | (INR); G-Sec 10y benchmark; USD eurobonds limited (capital-controls + FEMA); BBB- rated |
+| NG | ~18-20% est. | (NGN) post-Jun 2023 unified-float; USD eurobonds ~9-11%; B-/Caa1 rated; CPI 30%+ overlay |
+| KE | ~13.50% est. | (KES); USD eurobonds ~9-10%; B/Caa1 rated; 2024 Eurobond refinancing partial |
+| JO | ~5.50% est. | (JOD pegged USD 0.7080 since 1995); USD eurobonds ~6-7%; BB- rated |
+| OM | ~5.20% est. | (OMR pegged USD 0.385 since 1986); USD eurobonds ~UST + 70-100 bps; BB+ rated |
+| BH | ~5.80% est. | (BHD pegged USD 0.376 since 2001); USD eurobonds ~UST + 200-300 bps; B+/BB- rated |
+| KW | ~4.50% est. | (KWD basket-managed since 2007 ~ USD 3.25); USD eurobonds ~UST + 30-50 bps; AA-rated |
+| LB | n/a | (LBP unified 2023-24 around USD 89,500-90,000); USD eurobonds in default since Mar 2020 (sovereign default); restructuring stalled — verify; SD/C rated |
 
 ## Why macro context matters for property
 
@@ -362,6 +386,22 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - PE (BCRP ~4.50% mid-cycle cuts from 7.75% peak 2023)
 - PY (BCP ~6.00% hold)
 
+### Tier-5 additions (2026-05-01)
+
+#### Active tightening / hold high (Tier-5)
+- NG (CBN ~27.50% est. post-NGN unification Jun 2023; CPI 30%+)
+- KE (CBK ~10.75% gradual cuts; KES managed-float ~2-5%/yr USD depreciation)
+- IN (RBI ~6.00% mid-cycle cuts; INR managed-float; FEMA + LRS USD 250k/yr cap)
+
+#### Stable / pegged (Tier-5)
+- JO (JOD pegged USD 0.7080 since 1995 — Fed-bound, NO FX risk)
+- OM (OMR pegged USD 0.385 since 1986 — Fed-bound, NO FX risk)
+- BH (BHD pegged USD 0.376 since 2001 — Fed-bound, NO FX risk; UNIQUE highest face-value globally)
+- KW (KWD basket-managed since 20 May 2007 ≈ USD 3.25 — world's HIGHEST face-value currency; CBK active basket-management)
+
+#### Distressed / sovereign-default (Tier-5)
+- LB (BDL n/a; LBP HISTORICAL HYPERINFLATION — pegged USD 1,507.5 since 1997 → decoupled Sep 2019 → black-market peak USD 100,000+ 2022 → unified 2023-24 around USD 89,500-90,000; de-facto USD-dollarization 80%+ prime; **2024 Israel-Hezbollah war Sep-Nov 2024**; sovereign default since Mar 2020)
+
 ## Inflation trajectory (Apr 2026, recent quarter)
 
 EU rough YoY: 2.2-2.8% (post-2022 peak)
@@ -406,10 +446,18 @@ PY: ~4% est. (Q1 2026 — verify INE https://www.ine.gov.py)
 AM: ~2.5% est. (Q1 2026 — near CBA target; verify ARMSTAT https://www.armstat.am)
 AZ: ~3% est. (Q1 2026 — verify SSC https://www.stat.gov.az)
 TN: ~7-8% est. (Q1 2026 — post-2022-23 shock; verify INS https://www.ins.tn)
+IN: ~4-5% est. (Q1 2026 — within RBI 4±2% target; verify NSO/MoSPI https://www.mospi.gov.in)
+NG: ~30%+ est. (Q1 2026 — post-NGN unification Jun 2023 shock easing; verify NBS https://nigerianstat.gov.ng)
+KE: ~6-7% est. (Q1 2026 — verify KNBS https://www.knbs.or.ke)
+JO: ~2.5% est. (Q1 2026 — pegged regime low CPI; verify DOS https://dos.gov.jo)
+OM: ~1.5% est. (Q1 2026 — pegged regime low CPI; verify NCSI https://www.ncsi.gov.om)
+BH: ~2.0% est. (Q1 2026 — pegged regime; verify iGA https://www.iga.gov.bh)
+KW: ~3.0% est. (Q1 2026 — verify CSB https://www.csb.gov.kw)
+LB: ~30%+ est. (Q1 2026 — post-hyperinflation stabilization phase but volatile; verify CAS http://www.cas.gov.lb)
 
 ## Tier-1 + Tier-2 country macro snapshots (Apr 2026)
 
-The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tier-2 PR #60); 9 Tier-3 countries (PR #65) and 8 Tier-4 countries (added 2026-05-01) follow. Snapshots are 2025 H2 / Q1 2026 where published; figures stamped `est.` require verification against the next official print.
+The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tier-2 PR #60); 9 Tier-3 countries (PR #65), 8 Tier-4 countries (added 2026-05-01) and 8 Tier-5 countries (added 2026-05-01) follow. Snapshots are 2025 H2 / Q1 2026 where published; figures stamped `est.` require verification against the next official print.
 
 ### Tier-1 (PR #57)
 
@@ -489,9 +537,27 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **TN** — CPI ~7-8% est. (Q1 2026 — post-2022-23 shock; verify INS https://www.ins.tn); GDP ~1-2% (2025 est. — IMF EFF SUSPENDED Mar 2024 leaves financing gap); BCT 8.00% est. (hold — verify https://www.bct.gov.tn); 10y TND ~12-14%; USD eurobonds ~10-12% distressed-trading; CCC+ — verify. Macro flag: **post-IMF-suspension financing-gap stress**, TND semi-convertible (capital controls), CPI elevated, low-mod seismic (ONM); APAL coastal-erosion overlay.
 
+### Tier-5 (added 2026-05-01)
+
+**IN** — CPI ~4-5% est. (Q1 2026 — within RBI 4±2% target; verify NSO/MoSPI https://www.mospi.gov.in); GDP ~6-7% (2025 est. — among highest among major EM); RBI Repo ~6.00% est. (mid-cycle cuts from 6.50% peak — verify https://www.rbi.org.in); 10y G-Sec ~6.80%; BBB- rated. Macro flag: **expansion**, INR managed-float capital controls via FEMA + LRS USD 250k/yr cap; **NHB Residex 50+ cities + RBI HPI 10-city quarterly**; ~1.428B pop (2011 last full census, 2021 deferred to 2025-26); India Stack (Aadhaar + UPI + DigiLocker + ONDC) digital infrastructure; coworking Bengaluru/Hyderabad/Mumbai/Pune/Gurgaon (WeWork/Awfis/91springboard).
+
+**NG** — CPI ~30%+ est. (Q1 2026 — post-NGN unification Jun 2023 shock easing; verify NBS https://nigerianstat.gov.ng); GDP ~3% (2025 est. — devaluation drag + non-oil recovery); CBN MPR ~27.50% est. (hold/easing — verify https://www.cbn.gov.ng); 10y NGN ~18-20%; USD eurobonds ~9-11%; B-/Caa1 rated. Macro flag: **post-FX-unification stabilization, hyperinflation-adjacent regime** — NGN/USD 460→1,500+ peak post-Jun 2023 unified-float (was dual-rate); ~227M pop (UN 2024 proj — 2006 was last full census); 2024-25 grid collapses recurring; coworking Lagos VI/Ikoyi (Workstation/Capital Square/Workbench).
+
+**KE** — CPI ~6-7% est. (Q1 2026 — easing; verify KNBS https://www.knbs.or.ke); GDP ~5% (2025 est. — agriculture + services); CBK CBR ~10.75% est. (gradual cuts — verify https://www.centralbank.go.ke); 10y KES ~13.50%; USD eurobonds ~9-10%; B/Caa1 rated. Macro flag: **stable expansion**, KES managed-float ~2-5%/yr USD depreciation; ~55M pop (2019 census 47.6M, 2024 KNBS); M-PESA mobile money 95%+ adoption (financial inclusion best-in-class); SGR Mombasa-Nairobi corridor; coworking Nairobi Westlands/Karen/Kilimani (iHub/Nailab/Workstyle/The Mint Hub).
+
+**JO** — CPI ~2.5% est. (Q1 2026 — pegged regime low CPI; verify DOS https://dos.gov.jo); GDP ~2-3% (2025 est. — IMF EFF on track + tourism recovery despite regional war); CBJ ~6.50% est. (Fed-bound via JOD/USD peg 0.7080 since 1995 — verify https://www.cbj.gov.jo); 10y JOD ~5.50%; USD eurobonds ~6-7%; BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~11.4M pop (2024 DOS estimate including refugees); among most water-poor globally — Disi+Red-Dead project; aridification + Dead Sea declining 1m/yr; Vision 2025/2033.
+
+**OM** — CPI ~1.5% est. (Q1 2026 — pegged regime; verify NCSI https://www.ncsi.gov.om); GDP ~1-2% (2025 est. — hydrocarbon-driven, Vision 2040 diversification); CBO ~5.50% est. (Fed-bound via OMR/USD peg 0.385 since 1986 — verify https://cbo.gov.om); 10y OMR not actively traded; USD eurobonds ~UST + 70-100 bps; BB+ rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~5.0M pop (NCSI 2024); cyclone exposure HIGH — Gonu 2007/Mekunu 2018/Shaheen 2021 catastrophic Muscat; Khareef monsoon Salalah Jul-Sep; Vision 2040.
+
+**BH** — CPI ~2.0% est. (Q1 2026 — pegged regime; verify iGA https://www.iga.gov.bh); GDP ~2-3% (2025 est. — financial-services + manufacturing); CBB 1-week deposit ~6.00% est. (Fed-bound via BHD/USD peg 0.376 since 2001 — verify https://www.cbb.gov.bh); 10y BHD ~5.80%; USD eurobonds ~UST + 200-300 bps; B+/BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk, UNIQUE highest face-value globally (BHD ≈ USD 2.66); ~1.49M pop (iGA 2024); minimal natural risk except 45°C+ heat + sandstorms; National Spatial Strategy 2050 + Saudi Causeway 2.
+
+**KW** — CPI ~3.0% est. (Q1 2026 — verify CSB https://www.csb.gov.kw); GDP ~2-3% (2025 est. — hydrocarbon-driven; future generations sovereign-fund FX-buffer ~US$700bn KIA est.); CBK Discount Rate ~4.25% est. (basket-managed since 20 May 2007 — was USD-pegged — verify https://www.cbk.gov.kw); 10y KWD ~4.50%; USD eurobonds ~UST + 30-50 bps; AA-rated. Macro flag: **stable / basket-managed**, KWD ≈ USD 3.25 — world's HIGHEST face-value currency; ~4.85M pop (2024 PACI); minimal seismic + extreme heat 50°C+ summers + sandstorms + Apr 2018 + 2024 catastrophic flash floods Wadi; Vision 2035 + Mubarak Al-Kabeer Port + Silk City planned.
+
+**LB** — CPI ~30%+ est. (Q1 2026 — post-hyperinflation stabilization phase but volatile; verify CAS http://www.cas.gov.lb); GDP contracted ~40% peak-to-trough since 2019 collapse (2024-25 partial recovery est.); BDL n/a (multiple rates post-2019); USD eurobonds in default since Mar 2020 (sovereign default); restructuring stalled — verify; SD/C rated. Macro flag: **sovereign-default + post-hyperinflation + war-affected** — LBP pegged USD 1,507.5 since 1997 → decoupled Sep 2019 → black-market peak USD 100,000+ 2022 → unified 2023-24 around USD 89,500-90,000; de-facto USD-dollarization 80%+ prime; **2024 Israel-Hezbollah war Sep-Nov 2024** damage S Lebanon + Bekaa + Beirut SE Dahieh; Aug 2020 Beirut Port explosion; ~5.5M pop (incl ~1.5M Syrian + ~470k Palestinian refugees, CAS estimate); EDL electricity 3-12 hr/day + private generator subscription mandatory; Joseph Aoun presidency Jan 2025 ended 2-yr political vacuum.
+
 ### What to verify before use
 
-For any of the 35 above (Tier-1 + Tier-2 + Tier-3 + Tier-4), the standard pre-output flow is:
+For any of the 43 above (Tier-1 + Tier-2 + Tier-3 + Tier-4 + Tier-5), the standard pre-output flow is:
 
 1. Pull latest CPI print from the country's statistics office (named in the source registry above).
 2. Check the central bank's most-recent MPC statement for current policy rate (the rate cycle moves faster than this snapshot).
@@ -507,4 +573,4 @@ For any of the 35 above (Tier-1 + Tier-2 + Tier-3 + Tier-4), the standard pre-ou
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-4 expansion: +8 countries — QA, SA, PE, EC, PY, AM, AZ, TN; cumulative 79 countries: 44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3 + 8 Tier-4). Next refresh: monthly (rates/inflation), quarterly (GDP).
+Last refreshed: 2026-05-01 (Tier-5 expansion: +8 countries — IN, NG, KE, JO, OM, BH, KW, LB; cumulative 87 countries: 44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3 + 8 Tier-4 + 8 Tier-5). Next refresh: monthly (rates/inflation), quarterly (GDP).

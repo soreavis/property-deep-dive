@@ -1,8 +1,8 @@
 # Universal `--compare` Mode
 
-Side-by-side multi-country comparison for relocation, investment, and "where should I move/buy?" decisions. Leverages all 79 country playbooks at once.
+Side-by-side multi-country comparison for relocation, investment, and "where should I move/buy?" decisions. Leverages all 87 country playbooks at once.
 
-**Snapshot**: May 2026 (Tier-4 additions).
+**Snapshot**: May 2026 (Tier-5 additions).
 
 ## When to use
 
@@ -110,14 +110,19 @@ For each country in the comparison set, return:
 | `mediterranean` | ES, PT, IT, GR, CY, MT, FR, HR, SI, MA, IL, EG, TR, TN |
 | `nordic` | SE, FI, NO, DK, IS |
 | `dach` | DE, AT, CH |
-| `gcc-mena` | AE, IL, MA, EG, TR, QA, SA, TN |
-| `gulf-cooperation-council` | AE, QA, SA (skill-supported GCC subset; KW/BH/OM not yet added) |
+| `gcc-mena` | AE, IL, MA, EG, TR, QA, SA, TN, JO, OM, BH, KW, LB |
+| `gulf-cooperation-council` | AE, QA, SA, OM, BH, KW (skill-supported GCC; all 6 GCC members covered) |
 | `southeast-asia` | TH, ID, MY, VN, PH, JP |
 | `east-asia` | JP, KR, TW, HK, MO, SG |
-| `microstates` | LI, MC, AD, MT, MO, SG (city-state) |
+| `south-asia` | IN |
+| `microstates` | LI, MC, AD, MT, MO, SG (city-state), BH (city-state) |
 | `caucasus` | GE, AM, AZ |
 | `caucasus-eu-adjacent` | GE, TR, AM, AZ |
 | `north-africa` | MA, EG, TN |
+| `levant` | IL, JO, LB |
+| `sub-saharan-africa` | NG, KE, ZA |
+| `east-africa` | KE |
+| `west-africa` | NG |
 | `andean` | CO, EC, PE, CL |
 | `southern-cone` | AR, UY, CL, PY |
 | `eu-candidate` | MD, ME, RS, BA, MK, AL (Western Balkans + Moldova) |
@@ -142,6 +147,8 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 12. AM (open to foreigners; equal property rights for non-citizens per Land Code Art. 4 — exceptions on agricultural and protected land)
 13. AZ (open subject to TRP / Strategic Investor Visa; agricultural and border-zone restricted)
 14. PY (open; foreigners equal rights for urban land; some border-zone restrictions per Ley 2532/2005 within 50km of borders)
+15. LB (open to most foreigners; ≤3,000 m² aggregate Beirut / ≤10,000 m² aggregate Mount Lebanon / ≤coastal limits; Council-of-Ministers approval for >limits; Lebanese-descent buyers exempt)
+16. KE (open to foreigners; freehold for residential — but **agricultural land restricted to citizens** per Constitution Art. 65; 99-yr leasehold cap on non-citizen freehold-equivalents)
 
 ### Highest acquisition friction (permit / restriction-heavy)
 1. CA (foreign-buyer ban through 1 Jan 2027)
@@ -167,6 +174,12 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 21. PE (border 50km Andean restriction per Constitution Art. 71 — foreigners need Supreme Decree authorization for border zones)
 22. EC (open generally but **2024 Internal Armed Conflict Declaration** requires extra title-due-diligence in conflict-affected provinces — Guayaquil/Esmeraldas/Manta)
 23. TN (open via Investor Residence Permit ≥TND 1M; Office des Changes documentation required for FX import — see MA-style repatriation friction)
+24. IN (foreign-buyer ban for non-NRI/non-OCI residential — Foreign Exchange Management Regulations 2018 Sch.I; **NRIs + OCIs only**, no residential land for non-Indian-origin foreign nationals; agricultural / plantation / farmhouse land barred even for NRIs/OCIs)
+25. NG (open to foreigners but **Land Use Act 1978 — all land vested in state Governor** — only Statutory Right of Occupancy 99-yr leasehold for foreign / non-citizen buyers; Governor's consent required for transfers; security risk requires private security + gated communities)
+26. JO (open to foreigners subject to **Council-of-Ministers approval** for properties >Greater Amman threshold; ≤4,000 m² agricultural barred; reciprocity required for some nationalities — verify Jordan Department of Lands and Survey)
+27. OM (foreigners limited to **Integrated Tourism Complexes (ITC)** designated zones — Royal Decree 12/2006 / 89/2021; rest barred or leasehold-only; Mecca/Medina-equivalent restrictions on certain national-heritage zones)
+28. BH (open to foreigners in **designated freehold zones** — Diyar Al Muharraq / Amwaj Islands / Durrat Al Bahrain / Reef Island / Bahrain Bay / Seef / Manama Diplomatic Area; rest barred without Royal Decree)
+29. KW (**foreigners CANNOT own real estate freehold** — only via 5-yr leasehold via Iqama-employer-sponsored arrangements; Decree-Law 74/1979 / 8/2008 amendments; among the most restrictive globally)
 
 ### Lowest acquisition cost (% of price)
 1. GE (~0.1-0.5% — lowest tracked globally; Public Service Hall registration GEL 50-200)
@@ -256,6 +269,9 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 11. **SG** (SGD MAS-managed-float against undisclosed basket — among the most stable EM currencies; modest EUR/SGD volatility)
 12. **QA** (QAR pegged to USD 3.64 since Jul 2001 — stable vs USD; EUR-buyer carries USD/EUR risk)
 13. **SA** (SAR pegged to USD 3.75 since Jun 1986 — stable vs USD; EUR-buyer carries USD/EUR risk)
+14. **OM** (OMR pegged to USD 0.385 / USD = OMR 0.385 since 1986 — stable vs USD; EUR-buyer carries USD/EUR risk)
+15. **BH** (BHD pegged to USD 0.376 since 1980 — stable vs USD; EUR-buyer carries USD/EUR risk)
+16. **JO** (JOD pegged to USD 0.708 since Oct 1995 — stable vs USD; EUR-buyer carries USD/EUR risk)
 
 ### Highest FX risk for €-buyers
 1. AR (managed band 1,000–1,400 ARS/USD; capital controls history)
@@ -278,6 +294,11 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 18. AM (AMD CBA-managed; **strong appreciation 2022-23 from Russian-relocant capital inflow ~50% peak**; reversion risk material)
 19. AZ (AZN CBA-managed peg-to-USD effective; oil-revenue stabilized via SOFAZ sovereign fund; modest but present FX risk)
 20. TN (TND BCT-managed float; gradual depreciation 2014-2024; **IMF EFF program SUSPENDED Mar 2024** is structural FX overhang)
+21. **IN** (INR RBI-managed float; gradual depreciation 70-90 INR/USD 2020-2026; **LRS USD 250k/yr cap on outbound remittance**; NRO/NRE bank-account split material; Tier-1 metro USD-pricing common foreign-buyer)
+22. **NG** (NGN devaluation cycle 2023-24 catastrophic — ~70% loss vs USD post-Tinubu reforms; managed-float regime evolving; Form A documentation for FX repatriation; oil-revenue dependent)
+23. **KE** (KES BCK-managed float; relatively stable but small-market liquidity; M-PESA mobile-money rails reduce some FX friction; modest depreciation 2020-2026)
+24. **KW** (KWD highest-valued currency globally — pegged to undisclosed basket weighted toward USD by CBK; among the most stable EM currencies; KWD 0.30-0.31/USD typical)
+25. **LB** (**LBP catastrophic collapse 2019-2026** — official rate vs Sayrafa rate vs parallel rate triple-tier; banking-sector restrictions on USD withdrawals + transfers; **post-2019 banking collapse + 2020 Beirut Port explosion + 2024 Israel-Hezbollah war** structural overhang; **dual-pricing USD ↔ LBP** in property contracts)
 
 ### Most golden-visa-friendly (Apr 2026, post-ES/IE/MT closures)
 1. GR (€800k/€400k tiers, property-linked)
@@ -312,6 +333,14 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 30. **PE Investor Visa** — USD 30k BUSINESS activity (NOT real-estate exclusively) / **Rentista USD 1,500/mo passive**; PR after 3yr; passport after 2yr PR
 31. **EC Investor Visa** — USD 42,500 (~100×SBU 2026 SBU USD 470/mo) / **Pensioner Visa USD 1,500/mo**; PR after 21mo Temporary; naturalization 3yr PR
 32. **TN Investor Residence Permit** — ≥TND 1M (~USD 320k); **Tunisia Investor Visa drafted 2024 NOT gazetted** — verify gazette status
+33. **IN — NO golden-visa via real estate (UNIQUE absence)**; OCI lifetime multi-entry for Indian-origin descendants only; foreign-buyer residential ban for non-NRI/non-OCI per FEMA 2018 Sch.I
+34. **NG — NO golden-visa via real estate**; STR-1 Investor visa USD 100k business is the practical pathway; naturalization 15+yr + Nigerian language + dual NOT allowed for native-born
+35. **KE — NO golden-visa via real estate (UNIQUE absence in EAC)**; Class A1 Investor USD 100k business / **Class K Resident KES 200k+/yr passive** / PR 7yr / Citizenship 7yr + Swahili
+36. **JO CBI Jordan since 2018** — JOD 750k bond OR JOD 1M private investment OR JOD 250k SME with 20+ employees → Jordanian passport (~50 visa-free destinations — WEAK passport for mobility); **Investor Residence ≥JOD 200k Greater Amman / JOD 100k outside (5yr renewable)**; Aqaba ASEZ separate framework
+37. **OM Investor Residency Royal Decree 89/2021** — 5-yr ≥OMR 250k (~USD 650k) ITC freehold / 10-yr ≥OMR 500k (~USD 1.3M) ITC; **Long-term Retiree ≥OMR 4,000/mo pension (~USD 10,400)**; NO citizenship-by-investment
+38. **BH Bahrain Property Visa Decree 6/2017 ≥BHD 200k (~USD 530k) → 10-yr renewable Self-Sponsored Residence Permit**; **Golden Residency Decree 16/2022** 10-yr renewable for property owners ≥BHD 200k OR investors / talented / retirees (BHD 4k/mo); NO CBI
+39. **KW — NO golden-visa via real estate (UNIQUE absence in GCC)**; residency entirely via employment Iqama (Decree-Law 17/1959); foreigners CANNOT own real estate freehold (Decree-Law 74/1979); citizenship effectively impossible (Decree-Law 15/1959)
+40. **LB Investor Residency ≥USD 50k Lebanese business (1-yr renewable)**; property ownership ≥USD 200k can support but not automatic; **Lebanese descent streamlined naturalization** for ~13M global Mahjar diaspora; dual citizenship since 2007
 
 ### Cleanest 2026 tax reforms (helpful for buyers)
 1. CY (Comprehensive Tax Reform 1 Jan 2026 — CGT exemptions raised, SDC abolished)
@@ -381,6 +410,14 @@ When comparing, surface country-level structural flags:
 - 🚩 AM: **HIGH SEISMIC 1988 Spitak M6.8 baseline (~25,000 deaths) + Yerevan/Gyumri/Vanadzor microzoning**; **post-2020/2023 Karabakh war + ~120k displaced Sep 2023 + CSTO suspension Feb 2024 + Russian-relocant wave 2022-24 (~50% peak Yerevan appreciation)** — reversion risk material; agricultural land barred for foreigners; STR Decision 1158-N (2018)
 - 🚩 AZ: **2020+2023 Karabakh + East Zangezur reintegration** — ANAMA de-mining certification required for newly-reintegrated zones + AZ-citizen-priority subsidized housing exclusionary for foreigners; **dual citizenship LIMITED exceptions** (must renounce in many cases); **Caspian seismic + Caspian sea-level falling 2010-24 ~1m + Absheron mud volcanoes (unique)**; STR Decree 1146 (2017); very low crime; oil-revenue stabilized via SOFAZ
 - 🚩 TN: **post-2021 constitutional revisions + 2024 elections** political-economy overhang; **IMF EFF program SUSPENDED Mar 2024** structural FX risk; **Office des Changes mandatory for FX repatriation** — without proper documentation foreign-seller proceeds locked in TND (similar to MA Office des Changes friction); **2018 Cap Bon catastrophic floods + 2023-24 record drought (reservoirs <30%) + APAL coastal erosion**; STR Décret 2018-417; Tunisia Investor Visa drafted 2024 NOT gazetted
+- 🚩 IN: **NO golden-visa via real estate (UNIQUE absence)** — India does NOT offer property-pegged residency or citizenship; **foreign-buyer residential ban for non-NRI/non-OCI** (FEMA 2018 Sch.I); **agricultural / plantation / farmhouse land barred even for NRIs/OCIs**; **LRS USD 250k/yr cap on outbound remittance**; OCI lifetime multi-entry for Indian-origin descendants is the practical pathway; NRO/NRE bank-account split material for NRIs; English in business + legal + healthcare; Mumbai/Delhi NCR/Bengaluru densely populated; Jio/Airtel/Vi 5G rapid 2024-26 rollout; PMJAY public + extensive private (Apollo / Fortis / Max / Manipal — JCI-accredited)
+- 🚩 NG: **Land Use Act 1978 — all land vested in state Governor** — only Statutory Right of Occupancy 99-yr leasehold for foreigners; Governor's consent required for transfers; **NO golden-visa via real estate** — STR-1 Investor visa USD 100k business is the pathway; **security risk requires private security + gated communities**; energy autonomy mandatory (generators + solar) — Lagos VI/Ikoyi/Lekki standard; 2024-25 cost-of-living protests + Tinubu reforms ongoing; English official + Yoruba/Igbo/Hausa + Pidgin universal; Lagos 22M largest African city; expat hubs Lagos VI/Ikoyi/Lekki + Abuja Maitama/Asokoro
+- 🚩 KE: **NO golden-visa via real estate (UNIQUE absence in EAC)**; agricultural land restricted to citizens per Constitution Art. 65; 99-yr leasehold cap on non-citizen freehold-equivalents; **Class K Resident Permit KES 200k+/yr passive income** is the practical retiree pathway; SGR Mombasa-Nairobi-Naivasha-Kisumu drives corridor RE; Safaricom 5G + **M-PESA mobile-money universal in admin (unique to KE)**; Aga Khan University Hospital Nairobi flagship; English + Kiswahili official; expat hubs Karen/Lavington/Westlands/Runda/Muthaiga/Kitisuru
+- 🚩 JO: **CBI Jordan since 2018** (JOD 750k bond OR JOD 1M private investment OR JOD 250k SME with 20+ employees → Jordanian passport, ~50 visa-free destinations — WEAK passport for mobility plays, rational mainly for diaspora reconnection / GCC business utility); Investor Residence ≥JOD 200k Greater Amman / JOD 100k outside (5yr renewable); Aqaba ASEZ separate framework; Council-of-Ministers approval for >threshold properties; ≤4,000 m² agricultural barred; **among most water-poor globally per FAO + Disi aquifer depletion + Dead Sea shrinking ~1m/yr**; large Iraqi+Syrian+Palestinian diaspora; Arabic + English in business/medical
+- 🚩 OM: **Investor Residency Royal Decree 89/2021** — 5-yr ≥OMR 250k (~USD 650k) ITC freehold / 10-yr ≥OMR 500k (~USD 1.3M) ITC; foreigners limited to **Integrated Tourism Complexes (ITC)** designated zones — Royal Decree 12/2006 / 89/2021; **Long-term Retiree Residence ≥OMR 4,000/mo pension (~USD 10,400)**; **NO citizenship-by-investment** (Omani nationality strict); **CYCLONE EXPOSURE HIGH** — Gonu 2007/Phet 2010/Mekunu 2018/Shaheen 2021/Tej 2023 catastrophic Muscat coast (insurance underwriting baseline); Vision 2040; quieter than UAE — appeals to retirees
+- 🚩 BH: **Bahrain Property Visa Decree 6/2017 ≥BHD 200k (~USD 530k) → 10-yr renewable Self-Sponsored Residence Permit** (incl. spouse + children); **Golden Residency Decree 16/2022** 10-yr renewable for property owners ≥BHD 200k OR investors / talented / retirees (BHD 4k/mo); foreigners limited to **designated freehold zones** — Diyar Al Muharraq / Amwaj Islands / Durrat Al Bahrain / Reef Island / Bahrain Bay / Seef / Manama Diplomatic Area; NO CBI; Saudi Causeway integration drives weekend medical-tourism flow; banking + financial services hub historically; Arabic + English business + everyday widely
+- 🚩 KW: **NO golden-visa via real estate (UNIQUE absence in GCC)** — residency entirely via employment Iqama (Decree-Law 17/1959); **foreigners CANNOT own real estate freehold** — only 5-yr leasehold via Iqama-employer-sponsored arrangements (Decree-Law 74/1979 / 8/2008 amendments); citizenship effectively impossible (Decree-Law 15/1959); **Bedoon stateless population pressing issue**; ~70% expat (largest IN/EG/BD/PH/SY); **Vision 2035**; periodic political deadlock (parliament dissolved 2024); among the most restrictive globally on foreign property ownership
+- 🚩 LB: NO golden-visa via real estate; **Investor Residency ≥USD 50k Lebanese business (1-yr renewable)**; property ownership ≥USD 200k can support residency application but not automatic; **post-2019 banking-sector collapse + 2020 Beirut Port explosion + 2024 Israel-Hezbollah war Sep-Nov 2024**; foreign-buyer cohort dominated by ~13M Lebanese diaspora returnees (US/CA/AU/FR/BR/AR Mahjar dominant); ≤3,000 m² aggregate Beirut / ≤10,000 m² Mount Lebanon / coastal limits; Council-of-Ministers approval for >limits; Lebanese-descent buyers exempt; Touch + Alfa 4G ageing — **NO 5G yet**; Arabic + French + English trilingual; healthcare collapse since 2019 — historical AUB/Hôtel-Dieu de France standard; Cedars ski-zone unique to Middle East
 
 ## Anti-hallucination
 
@@ -629,6 +666,70 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 
 **Confidence**: MEDIUM — TN Code IRPP Art. 36 80% abatement structure parallels MA Art. 76 CGI but verify with Direction Générale des Impôts; TN IMF EFF Mar 2024 suspension is structural FX overhang; MA Art. 76 CGI verified; EG Investment Law 160/2023 thresholds verified but Form 4 + currency-control risks remain material.
 
+### Example M — OM vs BH vs KW vs JO for non-AE/QA/SA GCC + Levant residency-by-property
+
+| Metric | OM | BH | KW | JO |
+|---|---|---|---|---|
+| Personal income tax | **NONE** for individuals (OM individual income-tax law drafted 2022 NOT enacted) | **NONE** for individuals | **NONE** for individuals | Worldwide for residents progressive 5-30% + 1% national-contribution |
+| CGT on resale | NONE | NONE | NONE | Within personal-tax regime |
+| Foreign-buyer access | **ITC (Integrated Tourism Complexes) designated zones only** per RD 12/2006 / 89/2021 | **Designated freehold zones only** (Diyar Al Muharraq / Amwaj Islands / Durrat Al Bahrain / Reef Island / Bahrain Bay / Seef / Manama Diplomatic Area) | **Foreigners CANNOT own real estate freehold** — only 5-yr leasehold via Iqama-employer (Decree-Law 74/1979) | Open subject to Council-of-Ministers approval >threshold; ≤4,000 m² agricultural barred |
+| Visa pathway via property | **Royal Decree 89/2021** 5-yr ≥OMR 250k (~USD 650k) ITC / 10-yr ≥OMR 500k (~USD 1.3M); Long-term Retiree ≥OMR 4,000/mo pension (~USD 10,400) | **Property Visa Decree 6/2017 ≥BHD 200k (~USD 530k) → 10-yr renewable**; **Golden Residency Decree 16/2022** 10-yr | **NO golden-visa via real estate (UNIQUE absence in GCC)** — Iqama via employment only | **CBI Jordan since 2018** (JOD 750k bond OR JOD 1M private investment OR JOD 250k SME → Jordanian passport, ~50 visa-free); **Investor Residence ≥JOD 200k Greater Amman / JOD 100k outside (5yr renewable)** |
+| Citizenship | NO CBI (Omani nationality strict) | NO CBI | Effectively impossible (Decree-Law 15/1959) | **CBI since 2018** — Jordanian passport (~50 visa-free destinations — WEAK for mobility) |
+| Population | ~5.0M (Muscat Metro 1.7M, ~38% expat) | ~1.49M (~52% Bahraini + 48% expat) | ~4.85M (~30% Kuwaiti + 70% expat) | ~11.4M (Amman Metro 4.5M; large Iraqi+Syrian+Palestinian diaspora) |
+| Currency | OMR pegged USD 0.385 since 1986 | BHD pegged USD 0.376 since 1980 | KWD pegged to undisclosed basket weighted USD (highest-valued currency globally) | JOD pegged USD 0.708 since Oct 1995 |
+| Climate | 17-42°C; **Salalah unique Khareef Jun-Sep**; **CYCLONE EXPOSURE HIGH** Gonu/Mekunu/Shaheen/Tej | 14-39°C; **40°C+ summer + sandstorms + 2008/2009 Manama flooding** | 8-49°C **among hottest inhabited capitals**; **50°C+ summer + sandstorms (Toz/shamal)** | Amman semi-arid altitude 4-32°C; **among most water-poor globally** |
+| Healthcare | MoH + mandatory private (Dhamani 2025 phased) + Royal Hospital Muscat / SQU Hospital / Burjeel Muscat | SEHATI + private (King Hamad University Hospital / American Mission Hospital / Bahrain Specialist) | MoH + mandatory private (Afya 2016+) + Al Salam International / Hadi Clinic / New Mowasat | RMS + private (King Hussein Cancer Center / Specialty Hospital / Istishari / Al-Khalidi) — **medical-tourism hub for GCC + Iraq + Syria refugee population** |
+
+🥇 **BH** for **Bahrain Property Visa BHD 200k (~USD 530k) 10-yr renewable + Golden Residency Decree 16/2022** + lowest property-visa threshold among GCC + Saudi Causeway integration drives weekend foot-traffic; quieter than UAE, accessible commercial scale
+🥈 **OM** for **Vision 2040 + Royal Decree 89/2021 5-yr/10-yr ITC residency + Long-term Retiree (OMR 4,000/mo)** + cheaper than UAE/QA — at cost of ITC-zone-only constraint and HIGH cyclone exposure
+🥉 **JO** for **CBI Jordan since 2018** (JOD 750k bond → passport — but WEAK passport for mobility plays, rational mainly for diaspora reconnection / GCC business utility); **Investor Residence ≥JOD 200k Greater Amman** alternative; medical-tourism hub
+4️⃣ **KW** only for those willing to accept **NO real estate ownership for foreigners** — residency entirely via employment Iqama, citizenship effectively impossible; among the most restrictive globally
+
+**Confidence**: MEDIUM — OM RD 89/2021 ITC tier thresholds verified at MoCIIP; BH Decree 6/2017 + 16/2022 verified at NPRA; KW restrictive regime stable since Decree-Law 74/1979; JO CBI 2018 program tiers verified at Investment Commission. Verify all four with issuing authority before action.
+
+### Example N — IN vs NG vs KE for largest non-OECD-OECD-rule-of-law markets (population × economic depth)
+
+| Metric | IN | NG | KE |
+|---|---|---|---|
+| Population | ~1.428B (Mumbai 21M / Delhi NCR 33M / Bengaluru 13M) | ~218M (Lagos 22M largest African city) | ~55M (Nairobi Metro 5M, Mombasa 1.4M) |
+| Foreign-buyer access | **Foreign-buyer residential ban for non-NRI/non-OCI per FEMA 2018 Sch.I**; agricultural / plantation / farmhouse barred even for NRIs/OCIs | **Land Use Act 1978 — all land vested in state Governor** — only Statutory Right of Occupancy 99-yr leasehold; Governor's consent required for transfers | Open to foreigners (residential freehold); **agricultural land restricted to citizens per Constitution Art. 65**; 99-yr leasehold cap on non-citizen freehold-equivalents |
+| Total acquisition cost | ~7-12% (stamp duty 5-8% state-varied + registration 1% + GST 5-12% on under-construction + brokerage 1-2%) | ~10-15% (stamp duty + Governor's consent fee + agent + legal — varies by state) | ~7-12% (4% stamp duty + 0.1% LRA + agent 1.5-3% + legal 1-2%) |
+| Personal income tax | Worldwide for residents (>182 days); progressive 0-30% + surcharge + 4% cess; **LRS USD 250k/yr outbound cap** | Worldwide for residents (>183 days); progressive 7-24% + 2.5% NHF | Worldwide for residents (>183 days OR ≥122d × 3yr); progressive 10-35% PIT |
+| CGT on resale | Long-term (>24 months) 20% with indexation OR 12.5% without; short-term per slab | CGT 10% flat | CGT 15% flat (post-2023 reform; verify KRA) |
+| Visa pathway | **NO golden-visa via real estate (UNIQUE absence)** — OCI lifetime multi-entry for Indian-origin descendants only | **NO golden-visa via real estate** — STR-1 Investor visa USD 100k business is the pathway | **NO golden-visa via real estate (UNIQUE absence in EAC)** — **Class K Resident KES 200k+/yr passive** is the practical retiree pathway |
+| Path to citizenship | Naturalization 11+yr (very strict); **dual citizenship NOT allowed** | Naturalization 15+yr + Nigerian language + dual NOT allowed for native-born | Citizenship 7yr + Swahili (dual allowed since 2010) |
+| English | Official + universal in business + legal + healthcare | Official + Pidgin universal + Yoruba/Igbo/Hausa | Co-official with Kiswahili |
+| Internet | Jio / Airtel / Vi 5G rapid 2024-26 rollout to top 100 cities; Bengaluru / Mumbai / Hyderabad gigabit fiber growing | MTN / Glo / Airtel / 9mobile 5G limited Lagos/Abuja; **energy autonomy mandatory** (generators + solar) | Safaricom 5G + Airtel + Telkom; **M-PESA universal in admin (unique to KE)**; Nairobi fibre via JTL/Zuku |
+| Healthcare | PMJAY public + extensive private (Apollo / Fortis / Max / Manipal — JCI flagship Bangalore/Hyderabad/Mumbai); **medical-tourism destination** | NHIA limited + mandatory private for expats (Reddington / Lagoon / LUTH / First Cardiology — Lagos VI/Ikoyi); medivac to ZA/UK/UAE | NHIF + SHIF (2024-25 reform) + private (Aga Khan University Hospital / Karen / Nairobi / MP Shah); medivac to ZA/UK |
+| Climate | Mumbai 18-33°C / Delhi NCR 7-43°C + PM2.5 / Bengaluru altitude-moderated / Kerala monsoon | Lagos tropical-humid 22-32°C + flooding / Abuja FCT savanna 18-31°C / Kano Sahel 13-39°C | Nairobi altitude-moderated 11-26°C "City in the Sun" / Mombasa coastal 22-32°C |
+| Coworking | **Bengaluru densest coworking ecosystem in South Asia (100+)** + Mumbai / Delhi NCR / Hyderabad / Pune | Lagos VI/Ikoyi 25-40 (Workstation / Capital Square / Workbench) + Abuja growing | Nairobi 30-50 (iHub / Nailab / Workstyle / The Mint Hub — Westlands / Karen / Kilimani) |
+| Currency | INR RBI-managed float (gradual depreciation 70-90 INR/USD 2020-2026) | NGN devaluation cycle 2023-24 catastrophic ~70% loss vs USD post-Tinubu reforms | KES BCK-managed float (relatively stable; M-PESA reduces some FX friction) |
+
+🥇 **IN** for **English-fluent + tech-deep market** (Bengaluru / Hyderabad / Pune SAAS hub) + medical-tourism + densest coworking ecosystem in South Asia; accept: NO golden-visa, foreign-buyer residential ban for non-NRI/non-OCI, LRS USD 250k/yr cap, naturalization 11+yr strict + dual citizenship NOT allowed
+🥈 **KE** for **Nairobi expat infrastructure** (Karen British-cultural roots + Aga Khan University Hospital flagship) + altitude-moderated climate + M-PESA universal + Class K Resident permit (KES 200k+/yr passive); accept: NO golden-visa via property, agricultural land citizen-only constitutional restriction
+🥉 **NG** only for **diaspora-engagement or specific business pull** (Lagos 22M largest African city + tech ecosystem Yaba / Ikeja) — accept: Land Use Act 1978 leasehold-only structure, NGN devaluation 2023-24 catastrophic, security risk requires private security + gated communities + energy autonomy mandatory
+
+**Confidence**: MEDIUM — IN FEMA 2018 Sch.I verified at RBI; NG Land Use Act 1978 stable; KE Constitution Art. 65 agricultural-land restriction verified; cgt rates and pathway thresholds drift annually — verify at issuing authority.
+
+### Example O — JO vs LB for Levant residency (CBI vs collapse-recovery)
+
+| Metric | JO | LB |
+|---|---|---|
+| Foreign-buyer access | Open subject to Council-of-Ministers approval >threshold; ≤4,000 m² agricultural barred | Open to most foreigners; ≤3,000 m² aggregate Beirut / ≤10,000 m² Mount Lebanon / coastal limits; Council-of-Ministers approval for >limits; Lebanese-descent buyers exempt |
+| Personal income tax | Worldwide for residents progressive 5-30% + 1% national-contribution | Worldwide for residents progressive 4-25% PIT |
+| Visa pathway | **CBI Jordan since 2018** — JOD 750k bond OR JOD 1M private investment OR JOD 250k SME with 20+ employees → Jordanian passport (~50 visa-free — WEAK passport for mobility); **Investor Residence ≥JOD 200k Greater Amman / JOD 100k outside (5yr renewable)**; Aqaba ASEZ separate framework | NO golden-visa via real estate; **Investor Residency ≥USD 50k Lebanese business (1-yr renewable)**; property ownership ≥USD 200k can support residency application but not automatic; **Lebanese descent streamlined naturalization** (~13M Mahjar diaspora); dual citizenship since 2007 |
+| Currency | JOD pegged USD 0.708 since Oct 1995 (stable vs USD) | **LBP catastrophic collapse 2019-2026** — official vs Sayrafa vs parallel rate triple-tier; banking-sector restrictions on USD withdrawals + transfers |
+| Geopolitics | Stable monarchy; large Iraqi+Syrian+Palestinian diaspora; among most water-poor globally | **Post-2019 banking collapse + 2020 Beirut Port explosion + 2024 Israel-Hezbollah war Sep-Nov 2024**; healthcare collapse; Touch + Alfa 4G ageing — **NO 5G yet** |
+| Healthcare | RMS + private (KHCC / Specialty / Istishari / Al-Khalidi) — **medical-tourism hub for GCC + Iraq + Syria** | Historically AUB Medical Center / Hôtel-Dieu de France / Clemenceau / Saint George — **post-2019 collapse** + currency dual-pricing; medivac to CY/IT/FR for fresh-USD-paying patients |
+| Population | ~11.4M (Amman Metro 4.5M, Zarqa 1.5M, Irbid 1.9M, Aqaba 200k) | ~5.5M (incl ~1.5M Syrian + ~470k Palestinian refugees) — Beirut Metro 2.4M; ~13M global Mahjar diaspora dwarfs domestic |
+| Climate | Amman semi-arid altitude (~750m) 4-32°C; Aqaba Red Sea / Dead Sea -430m unique | Beirut Mediterranean 11-30°C / Mount Lebanon altitude-cooler / Cedars ski-zone 1,800-3,000m **only Middle Eastern country with skiing** |
+| Languages | Arabic + English business/tourism/medical (English-medium hospitals) + French educated diaspora | Arabic + French de facto + English in tech/business/healthcare + Armenian Bourj Hammoud — historically trilingual |
+
+🥇 **JO** for **stable JOD-USD peg + CBI 2018 (JOD 750k bond → passport for diaspora reconnection / GCC business utility — accept WEAK passport for mobility plays) + medical-tourism hub for GCC + Iraq + Syria + Investor Residence ≥JOD 200k Greater Amman alternative**; among most water-poor globally — material long-term risk
+🥈 **LB** ONLY for **Lebanese-descent applicants** wanting streamlined naturalization (~13M Mahjar diaspora) OR **fresh-USD earners** willing to navigate post-2019 banking collapse + 2020 Beirut Port explosion + 2024 Israel-Hezbollah war + USD-LBP dual-pricing + healthcare collapse since 2019; foreign-buyer cohort dominated by Lebanese diaspora returnees (US/CA/AU/FR/BR/AR Mahjar dominant)
+
+**Confidence**: MEDIUM — JO CBI 2018 thresholds verified at Investment Commission; LB regulatory environment dynamic post-2024 war + ongoing IMF discussions; banking collapse 2019-2026 still unresolved as of May 2026.
+
 ## Limitations
 
 - **Not predictive**: comparison is current-state, not 5-year-forward
@@ -637,4 +738,4 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-4 additions — 79 countries total; Tier-4 added: QA, SA, PE, EC, PY, AM, AZ, TN).
+Last refreshed: 2026-05-01 (Tier-5 additions — 87 countries total; Tier-5 added: IN, NG, KE, JO, OM, BH, KW, LB).

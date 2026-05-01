@@ -9,7 +9,7 @@
 
 **Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
 
-**Pre-purchase property due diligence across 54 countries** — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **22 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
+**Pre-purchase property due diligence across 87 countries** — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **22 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
 
@@ -41,7 +41,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 TCO calculator · mortgage calculator · test fixtures · listing-diff watcher · comparable-transactions DB · auto-validate cron · price-index feeds · listing aggregators · photo OCR
 
-## Country support — 79 fully populated
+## Country support — 87 fully populated
 
 <!-- AUTOGEN:country-matrix:start -->
 **Europe core (24)** — 🇫🇷 fr · 🇮🇹 it · 🇨🇿 cz · 🇸🇰 sk · 🇩🇪 de · 🇦🇹 at · 🇨🇭 ch · 🇪🇸 es · 🇵🇹 pt · 🇸🇪 se · 🇫🇮 fi · 🇳🇴 no · 🇬🇧 uk · 🇳🇱 nl · 🇧🇪 be · 🇩🇰 dk · 🇮🇸 is · 🇸🇮 si · 🇮🇪 ie · 🇬🇷 gr · 🇵🇱 pl · 🇪🇪 ee · 🇭🇷 hr · 🇭🇺 hu
@@ -54,11 +54,11 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 **EU completion (7)** — 🇱🇹 lt · 🇱🇻 lv · 🇷🇴 ro · 🇧🇬 bg · 🇱🇺 lu · 🇨🇾 cy · 🇲🇹 mt
 
-**Türkiye & Middle East (5)** — 🇹🇷 tr · 🇦🇪 ae · 🇮🇱 il · 🇶🇦 qa · 🇸🇦 sa
+**Türkiye & Middle East (10)** — 🇹🇷 tr · 🇦🇪 ae · 🇮🇱 il · 🇶🇦 qa · 🇸🇦 sa · 🇯🇴 jo · 🇴🇲 om · 🇧🇭 bh · 🇰🇼 kw · 🇱🇧 lb
 
-**Asia-Pacific (11)** — 🇯🇵 jp · 🇰🇷 kr · 🇹🇼 tw · 🇭🇰 hk · 🇲🇴 mo · 🇸🇬 sg · 🇹🇭 th · 🇲🇾 my · 🇮🇩 id · 🇻🇳 vn · 🇵🇭 ph
+**Asia-Pacific (12)** — 🇯🇵 jp · 🇰🇷 kr · 🇹🇼 tw · 🇭🇰 hk · 🇲🇴 mo · 🇸🇬 sg · 🇹🇭 th · 🇲🇾 my · 🇮🇩 id · 🇻🇳 vn · 🇵🇭 ph · 🇮🇳 in
 
-**Africa (4)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg · 🇹🇳 tn
+**Africa (6)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg · 🇹🇳 tn · 🇳🇬 ng · 🇰🇪 ke
 
 **Caucasus & Eastern non-EU (4)** — 🇬🇪 ge · 🇲🇩 md · 🇦🇲 am · 🇦🇿 az
 
@@ -234,18 +234,18 @@ property-deep-dive/
 │   └── pin-actions.sh                # idempotent SHA-pin third-party actions
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~470 lines)
-    ├── shared/                       # 34 universal layer files (~11,600 lines)
+    ├── shared/                       # 34 universal layer files (~12,200 lines)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
     │   ├── 22 section implementations (universal logic + per-country overlays)
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
     │   ├── updater.md                # maintenance mode + auto-downgrade rule
     │   └── 9 tooling docs
-    └── countries/                    # 79 country playbooks (~43,200 lines)
-        └── <iso2>/playbook.md        # FR / IT / CZ / SK / DE / AT / CH / ES / PT / SE / ... + US / TR / AE / JP / TH / DO / CO / UY / CL / ZA / GE / ID / MY / VN / PH / IL / MA / EG / SG / HK / KR / TW / LI / MO / AD / MC / MD / QA / SA / PE / EC / PY / AM / AZ / TN
+    └── countries/                    # 87 country playbooks (~51,200 lines)
+        └── <iso2>/playbook.md        # FR / IT / CZ / SK / DE / AT / CH / ES / PT / SE / ... + US / TR / AE / JP / TH / DO / CO / UY / CL / ZA / GE / ID / MY / VN / PH / IL / MA / EG / SG / HK / KR / TW / LI / MO / AD / MC / MD / QA / SA / PE / EC / PY / AM / AZ / TN / IN / NG / KE / JO / OM / BH / KW / LB
 ```
 
-**Skill content** (under `skills/property-deep-dive/`): 114 markdown files, ~55,300 lines (SKILL.md + 34 shared/ + 79 country playbooks).
-**Repo total**: 126 markdown files, ~56,700 lines (skill content + community / governance files + CHANGELOG) · 30 YAML / JSON config files (22 workflows + 5 issue forms + dependabot + labels + labeler).
+**Skill content** (under `skills/property-deep-dive/`): 122 markdown files, ~63,400 lines (SKILL.md + 34 shared/ + 87 country playbooks).
+**Repo total**: 134 markdown files, ~65,400 lines (skill content + community / governance files + CHANGELOG) · 30 YAML / JSON config files (22 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

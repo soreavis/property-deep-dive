@@ -2,7 +2,7 @@
 
 ESG (Environmental, Social, Governance) overlay for property: energy class distribution, climate exposure, community impact. Bridges `--climate` (forward physical risk) with `--mains` (current energy/utility) and `--insurance` (cat-risk schemes).
 
-**Snapshot**: May 2026 (Tier-4 additions).
+**Snapshot**: May 2026 (Tier-5 additions).
 
 ## Why ESG matters for property
 
@@ -100,8 +100,16 @@ EPC-style class distributions are not published by stat office for most non-EU r
 | 🇦🇲 AM | Energy Efficiency Law 2004 framework + RA Code on Buildings amendments | Code mandatory for new builds; rating regime nascent | Distribution data not publicly available — verify at minenergy.am | minenergy.am |
 | 🇦🇿 AZ | National Energy Efficiency Law 2018 framework | Code mandatory for new builds; rating regime nascent | Distribution data not publicly available — verify at minenergy.gov.az | minenergy.gov.az |
 | 🇹🇳 TN | ANME (Agence Nationale pour la Maîtrise de l'Énergie) thermal regulation for new builds (RT2009-style); Loi 7-2009 EE framework | Mandatory at building permit; HEQ voluntary | Pre-2009 stock largely unrated — verify at anme.tn | anme.tn |
+| 🇮🇳 IN | ECBC (Energy Conservation Building Code, BEE) + GRIHA (Green Rating for Integrated Habitat Assessment) + IGBC (Indian Green Building Council) | ECBC mandatory in scope (commercial >100 kW connected load); GRIHA + IGBC voluntary; ENS 2024 update for residential | Sub-5% of stock rated — verify at beeindia.gov.in / grihaindia.org / igbc.in | beeindia.gov.in; grihaindia.org; igbc.in |
+| 🇳🇬 NG | Nigerian Energy Efficiency Building Code (BEEC, 2017 framework, NESREA-led) — limited enforcement | Not yet effectively mandatory — limited inspection capacity | data not publicly available — verify at nesrea.gov.ng / energy.gov.ng | nesrea.gov.ng; energy.gov.ng |
+| 🇰🇪 KE | Energy Act 2019 + EPRA energy regulator + Kenya Green Building Society + EDGE certifications | Not yet mandatory at property level — voluntary EDGE/GBCK adoption | Coverage low — verify at epra.go.ke / kgbs.co.ke | epra.go.ke; kgbs.co.ke |
+| 🇯🇴 JO | Jordan Green Building Guide (JNBC) + EDGE certifications + Royal Scientific Society green-building program | JNBC voluntary; ENERCON role limited | Sub-5% of stock — verify at memr.gov.jo / rss.jo | memr.gov.jo; rss.jo |
+| 🇴🇲 OM | Oman Sustainable Building Council (OSBC) Mowasala rating + Estidama-style references; Vision 2040 sustainability axis | Voluntary; some Vision-2040 mega-project mandates | Sub-5% of stock — verify at oman2040.om / mhut.gov.om | oman2040.om; mhut.gov.om |
+| 🇧🇭 BH | Bahrain Sustainability Code framework + LEED in scope; National Spatial Strategy 2050 sustainability axis | Voluntary; some NSS-2050 mandate scope | Sub-5% of stock — verify at moh.gov.bh / works.gov.bh | moh.gov.bh; works.gov.bh |
+| 🇰🇼 KW | Kuwait Energy Conservation Code (Code of Practice MEW R-6, MEW 2014/2018 updates) — mandatory for new buildings | Mandatory at building permit; rating regime nascent | Pre-2014 stock largely unrated — verify at mew.gov.kw / kfas.org | mew.gov.kw |
+| 🇱🇧 LB | Thermal Standard for Buildings (NL 14001, voluntary 2010) + Lebanon Center for Energy Conservation (LCEC) framework — implementation suspended post-2019 collapse + 2024 war | Not effectively mandatory; framework only | data not publicly available — verify at lcec.org.lb / energyandwater.gov.lb | lcec.org.lb; energyandwater.gov.lb |
 
-**Caveat**: These regimes use **different scales** (HERS is 0-150 with lower=better; BERDE is 1-5 stars; Estidama is 1-5 Pearls; SANS 10400-XA is pass/fail; BCA Green Mark is Certified/Gold/GoldPLUS/Platinum; BEAM Plus is Bronze/Silver/Gold/Platinum; G-SEED is 1-7 grade; EEWH is Certified/Bronze/Silver/Gold/Diamond; GSAS uses 1-6 stars; Mostadam uses 5 levels Bronze→Diamond). They are **not** equivalent to EU A-G classes and must not be presented on the same axis.
+**Caveat**: These regimes use **different scales** (HERS is 0-150 with lower=better; BERDE is 1-5 stars; Estidama is 1-5 Pearls; SANS 10400-XA is pass/fail; BCA Green Mark is Certified/Gold/GoldPLUS/Platinum; BEAM Plus is Bronze/Silver/Gold/Platinum; G-SEED is 1-7 grade; EEWH is Certified/Bronze/Silver/Gold/Diamond; GSAS uses 1-6 stars; Mostadam uses 5 levels Bronze→Diamond; GRIHA uses 1-5 stars; IGBC uses Certified/Silver/Gold/Platinum). They are **not** equivalent to EU A-G classes and must not be presented on the same axis.
 
 ## Worst-class rental ban schedule
 
@@ -195,6 +203,20 @@ Hazard tags below are derived from primary national/UN sources (USGS, JMA, JRC I
 - 🇵🇾 PY — Río Paraguay flooding (2014-24 reference, recurrent); aridification Chaco; SEN Secretaría de Emergencia Nacional flood-focus — verify at meteorologia.gov.py (DINAC) / sen.gov.py
 - 🇹🇳 TN — coastal erosion (APAL Agence de Protection et Aménagement du Littoral); Mediterranean storm; aridification interior; low-mod seismic (ONM Office National des Mines) — verify at meteo.tn / apal.nat.tn
 
+### Tier-5 expansion (May 2026)
+
+**Highest exposure (Tier-5)**:
+- 🇮🇳 IN — multi-hazard scale: BIS IS 1893:2016 seismic Zones V→II (V highest — Himalaya, NE; IV Delhi-NCR; III Mumbai/Chennai/Kolkata); IMD India Meteorological Department monsoon + cyclone Bay of Bengal/Arabian Sea; CWC Central Water Commission flood maps (Brahmaputra/Ganga/Indus systems); NDMA National Disaster Management Authority; Mumbai/Chennai/Kolkata coastal SLR exposure; aridification + glacier retreat Hindu Kush–Himalaya; extreme heat 50°C+ 2024-25 reference (Delhi, Rajasthan) — verify at imd.gov.in / cwc.gov.in / ndma.gov.in
+- 🇳🇬 NG — 2012+2022 catastrophic Lagos urban flooding + Niger/Benue river-basin flooding; coastal SLR Lagos Lagoon + Lekki Phase 1/2 + Victoria Island (most exposed); NIMET Nigerian Meteorological Agency; NEMA disaster mgmt; Boko Haram NE/ISWAP Lake Chad displacement-driven climate-migration overlay; 2024-25 grid collapses recurring (TCN); aridification Sahel-belt advancing — verify at nimet.gov.ng / nema.gov.ng
+- 🇰🇪 KE — 2024 East Africa floods catastrophic (Kenya March-May "long rains" deadliest in decades); 2020-23 worst drought in 4 decades NE/N Kenya; KMD Kenya Meteorological Department; NEMA Environment + NDOC Drought Operations; Mombasa coastal SLR; al-Shabaab cross-border NE (Garissa/Mandera/Wajir) climate-conflict overlay; Rift Valley active seismic + volcanic (Longonot/Suswa/Menengai) — verify at meteo.go.ke / nema.go.ke
+- 🇴🇲 OM — cyclone exposure HIGH (Gonu Jun 2007 most expensive, Mekunu May 2018, Shaheen Oct 2021 catastrophic Muscat); Khareef monsoon Salalah Jul-Sep (unique microclimate); Makran subduction far offshore 1945 Mw 8.1 baseline tsunami concern; extreme heat 50°C+ + aridification — verify at met.gov.om / pacda.gov.om
+- 🇰🇼 KW — extreme heat 50°C+ summers (among hottest globally); sandstorms + dust storms; Apr 2018 + 2024 catastrophic flash floods Wadi (urban drainage capacity-stressed); minimal seismic — verify at met.gov.kw
+
+**Mid exposure (Tier-5)**:
+- 🇯🇴 JO — Dead Sea Transform fault moderate seismic + 1927 Jericho Mw 6.2 baseline (CSEN Center for Seismic Engineering monitoring); among most water-poor globally — Disi+Red-Dead project; aridification + Dead Sea declining 1m/yr; Jordan Meteorological Department; flash-flood Wadi Rum/Petra/Dead Sea catchments — verify at jometeo.gov.jo / nrm.gov.jo
+- 🇧🇭 BH — minimal natural risk except 45°C+ heat + sandstorms; coastal SLR (low-lying island, peak elevation ~134m at Jabal ad-Dukhan — most of Manama/Muharraq <5m); minimal seismic — verify at bahrainweather.gov.bh
+- 🇱🇧 LB — Dead Sea Transform moderate seismic + 1956 Chim Mw 5.5 baseline + 2023 Türkiye Mw 7.8 quake felt strongly; **2024 Israel-Hezbollah war Sep-Nov 2024** physical damage S Lebanon + Bekaa + Beirut SE Dahieh; Aug 2020 Beirut Port explosion (~218 deaths, urban-blast reference); LARI Lebanese Agricultural Research Institute + Met dept; coastal storm + cedar-zone wildfire — verify at lari.gov.lb / pcm.gov.lb
+
 ### Tier-3 expansion (Apr 2026)
 
 **Highest exposure (Tier-3)**:
@@ -273,6 +295,14 @@ Sources: IEA national reports + national grid operator data, latest available; f
 | 🇦🇲 AM | ~30% est. | Nuclear (Metsamor) + hydro + RU gas imports; renewables (solar/wind) growing — verify at minenergy.am | 2024 (HV Electric Networks) |
 | 🇦🇿 AZ | ~10% est. | Natural-gas dominant; SOCAR Green pivot; renewables target 30% by 2030 — verify at minenergy.gov.az | 2024 (Azerenerji) |
 | 🇹🇳 TN | ~5% est. | Natural-gas dominant; PROSOL solar + Tunisian Solar Plan + wind Bizerte — verify at steg.com.tn | 2024 (STEG) |
+| 🇮🇳 IN | ~22% (excl. large-hydro) / ~42% (incl. large-hydro) est. | Coal-dominant (~70% generation); solar capacity boom 2020-25 (~95 GW installed); 500 GW non-fossil target by 2030 — verify at cea.nic.in / mnre.gov.in | 2024 (CEA / MNRE) |
+| 🇳🇬 NG | ~17% (incl. large-hydro Kainji/Jebba/Shiroro) est. | Natural-gas dominant; 2024-25 grid collapses recurring (TCN); off-grid solar + diesel-generator parallel-economy massive — verify at tcn.org.ng / niraproject.com.ng | 2024 (TCN) |
+| 🇰🇪 KE | ~75-90% est. (varies year-to-year with hydro / drought) | Geothermal Olkaria (~45% baseload) + hydro + wind Lake Turkana (310 MW) + solar Garissa; 2020-23 drought reduced hydro share — verify at energy.go.ke / kengen.co.ke | 2024 (KenGen / EPRA) |
+| 🇯🇴 JO | ~30% est. | Natural-gas dominant; wind Tafilah/Ma'an + solar Quweira/Mafraq; targets 50% by 2030 — verify at memr.gov.jo / nepco.com.jo | 2024 (NEPCO) |
+| 🇴🇲 OM | ~5% est. | Natural-gas dominant; Ibri II 500 MW solar + Manah I/II + Vision 2040 targets 30% by 2030 — verify at oman2040.om / omanpwp.om | 2024 (OPWP) |
+| 🇧🇭 BH | ~1% est. | Natural-gas dominant (~99%); Askar landfill solar + targets 5% by 2025 / 10% by 2035 — verify at sea.gov.bh / electricity.gov.bh | 2024 (EWA) |
+| 🇰🇼 KW | ~1% est. | Hydrocarbon dominant (~99%); Shagaya Renewable Energy Park (Phase I 70 MW solar+wind) + Vision 2035 targets 15% by 2030 — verify at kisr.edu.kw / mew.gov.kw | 2024 (MEW) |
+| 🇱🇧 LB | ~10% est. (incl. Litani hydro) | EDL grid 3-12 hr/day + private generator subscription mandatory (~80% urban households on diesel "moteur" parallel-grid); rooftop solar boom 2021-24 driven by EDL collapse + import-fuel dollarization — verify at edl.gov.lb / lcec.org.lb | 2024 (EDL / LCEC) |
 
 ## Recent climate-adaptation policy (Tier-1 + Tier-2)
 
@@ -313,12 +343,21 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 - 🇦🇲 AM — National Programme on Energy Saving and Renewable Energy 2007 (updated 2021); Updated NDC 2021 — verify at minenergy.am / mnp.am.
 - 🇦🇿 AZ — National Energy Efficiency Law 2018; Updated NDC 2023 (40% reduction by 2050 vs 1990); SOCAR Green pivot — verify at minenergy.gov.az.
 - 🇹🇳 TN — Loi 7-2009 EE framework + Loi 12-2015 renewables; Updated NDC 2021 (45% reduction by 2030 conditional); Tunisian Solar Plan; PROSOL — verify at anme.tn.
+- 🇮🇳 IN — **Updated NDC 2022** (45% emission-intensity reduction by 2030 vs 2005; 50% non-fossil capacity by 2030; net-zero by 2070 commitment); Energy Conservation (Amendment) Act 2022 carbon-credit framework; ECBC + GRIHA + IGBC — verify at moef.gov.in / beeindia.gov.in.
+- 🇳🇬 NG — **Climate Change Act 2021** (net-zero by 2060 commitment; National Council on Climate Change); Updated NDC 2021 (47% reduction by 2030 conditional); Energy Transition Plan (Aug 2022) — verify at climatechange.gov.ng.
+- 🇰🇪 KE — **Climate Change (Amendment) Act 2023** (carbon-credit framework + Article 6 Paris); Updated NDC 2020 (32% reduction by 2030 vs BAU); Kenya Vision 2030 — verify at climate.go.ke / nccg.gov.ke.
+- 🇯🇴 JO — Climate Change Policy 2013 (updated 2022); Updated NDC 2021 (31% reduction by 2030, 5% unconditional + 26% conditional); Vision 2025/2033 — verify at moenv.gov.jo.
+- 🇴🇲 OM — **Net Zero by 2050 commitment** (announced Oct 2022); Vision 2040 sustainability axis; Hydrogen Oman strategy + green-H2 target — verify at oman2040.om / mecca.gov.om.
+- 🇧🇭 BH — **Net Zero by 2060 commitment** (announced Oct 2021); Updated NDC 2021 (unconditional reduction); National Spatial Strategy 2050 sustainability axis — verify at moicc.gov.bh.
+- 🇰🇼 KW — Updated NDC 2021 (7.4% reduction by 2035); Vision 2035 sustainability axis; Shagaya Renewable Energy Park; KFAS green-research funding — verify at epa.org.kw / kfas.org.
+- 🇱🇧 LB — Updated NDC 2020 (20% reduction by 2030 unconditional); 2030 Renewables target 30% (paused post-2019 collapse + 2024 war); LCEC — verify at lcec.org.lb / energyandwater.gov.lb.
 
 **Rule**: Reforms in this list with `2024+` effective dates require cross-check at the country's primary ministry URL before quoting in a final report — frameworks often pass before implementing regulations.
 
 ### Best walkability / public transport (urban):
 - Vienna 🇦🇹, Zurich 🇨🇭, Copenhagen 🇩🇰, Amsterdam 🇳🇱, Paris 🇫🇷 (intra-mura), Berlin 🇩🇪, Munich 🇩🇪, Stockholm 🇸🇪, Helsinki 🇫🇮, Oslo 🇳🇴
 - Singapore 🇸🇬 (LTA MRT + bus + walkability top-tier; ~80% household-to-MRT 10-min walk per LTA), Hong Kong 🇭🇰 (MTR + minibuses + escalator-network Central-Mid-Levels), Macao 🇲🇴 (small footprint + LRT Taipa/Cotai), Seoul 🇰🇷 (Seoul Metro + KTX intercity), Taipei 🇹🇼 (MRT + YouBike), Monaco 🇲🇨 (small footprint, CAM bus + free vertical lifts/elevators)
+- Mumbai/Delhi-NCR 🇮🇳 (Mumbai Suburban Railway + Delhi Metro + Bengaluru Namma Metro — large coverage but congestion-degraded; Tier-1 city centers walk-able); Beirut 🇱🇧 (small footprint, walkable but EDL/grid-failure + 2024-war damage degrade public realm)
 
 ### Worst walkability (car-dependent):
 - US sprawl (not in skill), CA suburbs, AU suburbs, NZ outside Auckland/Wellington
@@ -359,10 +398,14 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 | 🇱🇮 LI | CHF 120/tCO2 effective via CH CO2 Act integration (Currency Treaty + customs union with CH) — verify at llv.li | CHF 120/tCO2 (CH-aligned) |
 | 🇲🇨 MC | No comprehensive carbon levy as of Apr 2026 — National Energy Transition Plan relies on subsidies + mandates — verify at gouv.mc | — |
 | 🇦🇩 AD 🇲🇴 MO 🇲🇩 MD | No comprehensive carbon tax on residential property as of Apr 2026 | data not publicly available — verify at each country's environment / energy ministry |
+| 🇮🇳 IN | No comprehensive carbon tax as of May 2026; coal cess / GST Compensation Cess on coal (₹400/tonne) + Energy Conservation (Amendment) Act 2022 carbon-credit framework launching — verify at moef.gov.in | ₹400/tonne coal cess (~USD 5/tonne CO2e equivalent) — does NOT directly hit residential heating |
+| 🇳🇬 NG 🇰🇪 KE | No comprehensive carbon tax on residential property as of May 2026 | data not publicly available — verify at climatechange.gov.ng / climate.go.ke |
+| 🇯🇴 JO 🇴🇲 OM 🇧🇭 BH 🇰🇼 KW | No comprehensive carbon tax on residential property as of May 2026; Gulf states relying on subsidies + EE mandates + Vision frameworks | data not publicly available — verify at memr.gov.jo / mecca.gov.om / moicc.gov.bh / epa.org.kw |
+| 🇱🇧 LB | No comprehensive carbon tax as of May 2026; framework paused post-2019 collapse + 2024 war | data not publicly available — verify at lcec.org.lb / energyandwater.gov.lb |
 
 For property buyers: **carbon levy on heating fuel directly affects annual operating cost**. Class F/G buildings on oil/gas heating face increasing operating cost over the next 5-10 years.
 
-In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO, QA, SA, TN), carbon-cost overlay on **cooling** (electricity for AC) is the dominant operational-cost lever — not heating fuel. The grid-mix renewable share + electricity tariff drives this; see `shared/mains.md`. Gulf markets (QA, SA) face 50°C+ summer cooling-demand sustaining household electricity ~3-5x EU residential — heat-stress trajectory makes EE-retrofit ROI unusually attractive over 10-yr horizons even absent carbon-pricing.
+In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO, QA, SA, TN, IN, NG, KE, JO, OM, BH, KW, LB), carbon-cost overlay on **cooling** (electricity for AC) is the dominant operational-cost lever — not heating fuel. The grid-mix renewable share + electricity tariff drives this; see `shared/mains.md`. Gulf markets (QA, SA, OM, BH, KW) face 50°C+ summer cooling-demand sustaining household electricity ~3-5x EU residential — heat-stress trajectory makes EE-retrofit ROI unusually attractive over 10-yr horizons even absent carbon-pricing. India (IN) household cooling-demand growing ~10%/yr per CEA; Lebanon (LB) electricity calculus is dominated by EDL grid-failure (3-12 hr/day) + private generator subscription cost (~USD 0.30-0.50/kWh during outage hours) — rooftop solar payback compressed to ~3-5 yrs vs EU 8-12 yrs.
 
 ## Brown-discount evidence (research-backed)
 
@@ -379,6 +422,6 @@ In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO, QA, SA, TN), 
 
 ## Status
 
-Last refreshed: 2026-05-01 (Tier-4 expansion — 8 countries: QA/SA/PE/EC/PY/AM/AZ/TN; cumulative 79 countries).
+Last refreshed: 2026-05-01 (Tier-5 expansion — 8 countries: IN/NG/KE/JO/OM/BH/KW/LB; cumulative 87 countries).
 
-**Confidence**: MEDIUM — non-EU energy-rating regimes use different scales (HERS, BELS, BERDE, GREENSHIP, GBI, LOTUS, GPRS, Estidama, CES, Pearl, IS 5281, BCA Green Mark, BEAM Plus, G-SEED, EEWH, GSAS, Mostadam) which are not directly comparable to EU A-G EPC; stock-penetration figures are estimates per published regime sources. Carbon-tax rates valid as of latest national publication; revisit cadence per `shared/regulatory-watch.md`.
+**Confidence**: MEDIUM — non-EU energy-rating regimes use different scales (HERS, BELS, BERDE, GREENSHIP, GBI, LOTUS, GPRS, Estidama, CES, Pearl, IS 5281, BCA Green Mark, BEAM Plus, G-SEED, EEWH, GSAS, Mostadam, GRIHA, IGBC, ECBC, JNBC, Mowasala, NL 14001) which are not directly comparable to EU A-G EPC; stock-penetration figures are estimates per published regime sources. Carbon-tax rates valid as of latest national publication; revisit cadence per `shared/regulatory-watch.md`. Lebanon framework paused post-2019 collapse + 2024 war; Nigeria BEEC enforcement limited.

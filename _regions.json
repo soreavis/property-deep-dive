@@ -29,17 +29,17 @@
     {
       "id": "mena",
       "label": "Türkiye & Middle East",
-      "codes": ["tr", "ae", "il", "qa", "sa"]
+      "codes": ["tr", "ae", "il", "qa", "sa", "jo", "om", "bh", "kw", "lb"]
     },
     {
       "id": "apac",
       "label": "Asia-Pacific",
-      "codes": ["jp", "kr", "tw", "hk", "mo", "sg", "th", "my", "id", "vn", "ph"]
+      "codes": ["jp", "kr", "tw", "hk", "mo", "sg", "th", "my", "id", "vn", "ph", "in"]
     },
     {
       "id": "africa",
       "label": "Africa",
-      "codes": ["za", "ma", "eg", "tn"]
+      "codes": ["za", "ma", "eg", "tn", "ng", "ke"]
     },
     {
       "id": "caucasus",
