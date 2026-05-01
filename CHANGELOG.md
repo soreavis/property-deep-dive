@@ -77,6 +77,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - chore(deps): Bump dependabot/fetch-metadata from 2.5.0 to 3.1.0 ([#50](https://github.com/soreavis/property-deep-dive/pull/50)) — by @dependabot[bot]
 - chore(deps): Bump sigstore/cosign-installer from 3.9.1 to 4.1.1 ([#51](https://github.com/soreavis/property-deep-dive/pull/51)) — by @dependabot[bot]
 - chore(deps): Bump github/codeql-action from 3.35.2 to 4.35.2 ([#52](https://github.com/soreavis/property-deep-dive/pull/52)) — by @dependabot[bot]
+- feat: add 10 Tier-1 country playbooks (US/TR/AE/JP/TH/DO/CO/UY/CL/ZA) ([#57](https://github.com/soreavis/property-deep-dive/pull/57)) — by @soreavis
 
 ## [2026.04.2] - 2026-04-26
 
