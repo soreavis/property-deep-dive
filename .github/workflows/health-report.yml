@@ -37,13 +37,7 @@ jobs:
               B) cadence_days[$code]=180 ;;
               C) cadence_days[$code]=365 ;;
             esac
-          done < <(python3 -c "
-import json
-d = json.load(open('_tiers.json'))
-for tier, info in d['tiers'].items():
-    for code in info['codes']:
-        print(f'{tier}\t{code}')
-")
+          done < <(python3 -c "import json; print('\n'.join(f'{t}\t{c}' for t, info in json.load(open('_tiers.json'))['tiers'].items() for c in info['codes']))")
 
           {
             echo "# Decay Health Report — $(date -u +%Y-%m-%d)"
