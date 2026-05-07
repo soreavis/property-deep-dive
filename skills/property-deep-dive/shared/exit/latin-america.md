@@ -49,15 +49,7 @@
 - **Liquidity**: 🟠 MEDIUM Costa del Este / Punta Pacífica / Casco Viejo; 🔴 LOW-MEDIUM Coronado/Boquete expat; LOW Bocas/interior
 - **Quirks**: **Rights-of-possession (ROP) land vs titled land** — ROP cheaper but harder to resell, esp. to financed buyers; PTY apartment oversupply 2010-2020 still digesting; USD-pegged so no FX layer
 
-## 🇩🇴 Dominican Republic
-- **DOM**: Punta Cana/Bávaro 120-250 / Cap Cana 150-300 / Santo Domingo (Piantini/Naco) 100-180 / Las Terrenas/Samaná 150-300+
-- **Commission**: seller-pays 3-6% (5% common; luxury negotiable to 3-4%) + 18% ITBIS on commission only
-- **Contract**: contrato de exclusividad 3-6 mo
-- **MLS**: no formal MLS; AEI (Asociación de Empresas Inmobiliarias) members share informally; Encuentra24 + Punta Cana-specific portals
-- **Discount**: 10-20% off asking; CONFOTUR developments may transact closer to ask
-- **Sell-side**: residents capital gains 27% on net gain; **non-residents 27% withholding on gain** (or 1% of sale price advance, lower of two); **CONFOTUR exempt zones for first sale within program**; commission 3-6%
-- **Liquidity**: 🟠 MEDIUM Punta Cana/Cap Cana tourist core (USD-priced); 🟠 LOW-MEDIUM Santo Domingo prime; 🔴 LOW interior / Samaná off-peak
-- **Quirks**: **CONFOTUR (Law 158-01) tax incentives** for tourism-zone properties — verify eligibility transfers; USD-priced coastal markets, DOP-priced inland (FX exposure on inland exit); title irregularities common — Jurisdicción Inmobiliaria certificates required
+> 🇩🇴 Dominican Republic relocated to [Caribbean exit file](caribbean.md) per region restructure 2026-05-07.
 
 ## 🇨🇴 Colombia
 - **DOM**: Bogotá (Chicó/Chapinero) ~120-200 / Medellín (Poblado/Laureles) ~100-180 / Cartagena (centro histórico) 150-300 / Cali ~150

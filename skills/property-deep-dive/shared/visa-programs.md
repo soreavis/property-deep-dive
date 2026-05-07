@@ -76,6 +76,8 @@ For the property's country, return:
 | FI | Entrepreneur / Startup permit | OPEN | Business Finland endorsement / SME | No | 2-yr→4-yr; PR at 4 yrs | ~9-month processing |
 | NO | Self-employment permit | OPEN | NOK 296,550 (~€25.8k) annual pre-tax profit | No | Annual renewals; **no CBI** | No Golden Visa |
 | IS | Work in Iceland (remote) | OPEN — SHORT-STAY | Up to 6 months | No | No PR pathway | Not RBI |
+| SM | NO formal RBI / CBI via real estate | — | — | No | — | Italian-citizenship-by-descent + 30-yr continuous residence naturalisation are the citizenship paths (NOT investment-pegged); UNESCO historic centre + Mount Titano preservation-zone constraints |
+| SM | Permesso di Soggiorno per Lavoro Subordinato / Autonomo | OPEN | Sponsored employment OR self-employment with Sammarinese resident-business linkage | No | Renewable; 30-yr continuous residence to citizenship | Italian-resident-cross-border commuter common (Rimini-Riccione 30-min); 2-property cap per foreign individual (Legge 173/2018) UNLOCKED at residence |
 
 ### Iberia, Mediterranean, Greece
 
@@ -179,6 +181,18 @@ For the property's country, return:
 | CL | Permanent Residency (1-yr Sujeto a Contrato or Profesional path) | OPEN | Employment / income demonstration | No | Sujeto a Contrato → PR after 1 yr; citizenship 5 yrs after PR | Lifestyle / DN-friendly |
 | CL | Investor Visa (Inversionista) | OPEN | Real investment in CL business (no fixed min — case-by-case) | Possibly | Visa → PR | RE alone NOT sufficient — must be productive investment |
 
+### Caribbean
+
+| Country | Programme | Status | Min. threshold | Property-linked? | PR/citizenship | Caveats |
+|---|---|---|---|---|---|---|
+| DO | Investor Residency (Ley 171-07) | OPEN | **US$200,000** investment (RE eligible) | YES | Direct PR (1 yr provisional → permanent); citizenship after 2 yrs PR (Ley 1683 + Ley 285-04) | Fast-track to passport (~3 yrs total); CONFOTUR-registered RE benefits stack |
+| DO | Pensionado / Rentista (Ley 171-07) | OPEN | **US$1,500/mo pension** OR **US$2,000/mo passive income** | No | Direct PR; citizenship 2 yrs PR | Generous low threshold |
+| BS | Property-Acquired Visa Program (BIA) | OPEN | **B$750,000** RE → fast-track Permanent Residence consideration; **B$1,500,000** → expedited (typical ~21-day review) | YES | PR consideration after BIA grant; citizenship typically 10 yrs continuous PR (Bahamian Nationality Act) | NO direct CBI; BIA Property-Acquired Visa is a residency pathway not a citizenship one; foreign single-family dwellings ≤2 acres by IPLA REGISTRATION; >2 acres or commercial = IPLA PERMIT |
+| BS | Annual Residence Permit | OPEN | Minimal — financial-means showing (often via property ownership + B$1,000 annual fee) | YES (property ownership common qualifying factor) | 1-yr renewable indefinitely; PR consideration after sustained occupancy | Common path for snowbirds + retirees |
+| BS | Economic Permanent Residence | OPEN | High net worth + meaningful Bahamas economic ties (case-by-case BIA) | Possibly | Direct PR | Discretionary grant; high-end alternative to standard PR pathway |
+| JM | NO formal RBI / CBI via real estate | — | — | No | — | Foreign-ownership PARITY (no nationality bar — but no statutory residence-by-investment); standard residency via PICA Work Permit / Marriage / Investor (case-by-case PICA discretion) |
+| JM | Permanent Residence (PICA discretionary) | OPEN — DISCRETIONARY | No statutory min; substantial Jamaican economic contribution + 3+ yrs continuous lawful residence | No | PR consideration; citizenship after 5 yrs PR (Jamaican Citizenship Act) | Real-estate purchase alone does NOT trigger PR — must show employment / business / family / cultural ties |
+
 ### Türkiye & Middle East
 
 | Country | Programme | Status | Min. threshold | Property-linked? | PR/citizenship | Caveats |
@@ -219,6 +233,9 @@ For the property's country, return:
 | PH | SIRV — Special Investor's Resident Visa (BOI) | OPEN | **USD 75,000** in qualifying assets (BOI list) | Possibly | Indefinite | Non-RE-only — must be BOI-approved investment |
 | PH | 13(a) Spouse / 9(g) Pre-arranged Employment | OPEN | Marriage to Filipino (13a) or sponsored job (9g) | No | Renewable; PR after 5+ yrs | Spouse-titled land = Path 4; Matthews v. Taylor (2009) — foreigners cannot reclaim funds |
 | PH | Quota Immigrant Visa | OPEN — STRICT QUOTA | 50/year/country | No | Permanent residence | Very limited; reciprocity-based |
+| CN | Z / X / Q1 / S1 visas | OPEN | Sponsored employment (Z) / study (X) / family (Q1/S1) | No | 1-yr renewable; counts toward 171号文 ≥1-yr residence rule for property-buying | **Foreigner residential purchase requires ≥1 year continuous residence** under work / study / family permit; tourist L visa NOT eligible |
+| CN | R Visa (High-Talent / Foreign High-End Talent A-class) | OPEN | Salary / qualification / innovation criteria via SAFEA / 科技部 | No | Fast-track residence + multi-entry | Highest-tier expat pathway; counts toward 1-yr residence + property eligibility |
+| CN | Permanent Residence (中国绿卡 / Chinese Green Card) | OPEN — VERY SELECTIVE | Investment ≥ **US$500,000** continuous 3 yrs in encouraged sectors OR key R&D / talent OR 4-yr work + tax-payment OR family reunion | Possibly (investment route) | Direct PR (effectively citizen-equivalent for property; no 1-yr rule; multiple-property purchase subject to local restrictions only) | NIA-administered (国家移民管理局); total grants since 1985 estimated <30,000 individuals through 2024 — extremely selective in absolute terms |
 
 ### Africa
 
@@ -235,6 +252,21 @@ For the property's country, return:
 | EG | Investment Law 160/2023 — Real-Estate CBI | OPEN — RECENT | **USD 300,000** real-estate purchase → citizenship | YES | Direct citizenship (after holding period) | Thresholds shifted multiple times since 2023 — confirm current GAFI rules |
 | EG | Investment Law 160/2023 — Investment CBI | OPEN — RECENT | **USD 350,000** in approved sectors → citizenship | No | Direct citizenship | Sectors gazetted by GAFI |
 | EG | Golden Residency (Decree 2024) | OPEN — NEW | RE thresholds tiered USD 100k / 200k / 400k for 1/3/5-yr residency (verify current Decree) | YES | 1, 3, or 5-yr renewable | New tier overlaps with Investment Law — verify current text |
+| MU | Occupation Permit (OP) — Investor (Self-Employed / Investor) | OPEN | Investor: USD 50,000 invested in MU + business plan; Self-employed: USD 35,000 in MU bank | Possibly | 10-yr renewable; 20-yr Permanent Residence Permit after thresholds (cumulative MUR 45M turnover / 3 yrs) | Linked to active business — passive RE alone NOT sufficient |
+| MU | Occupation Permit (OP) — Professional | OPEN | Salaried with MU employer; minimum **MUR 30,000/mo basic salary** for 3 yrs (sector exceptions ICT/BPO lower) | No | 3-yr (typically aligned with employment); PRP after thresholds | Standard expat-employee route |
+| MU | Premium Visa (long-stay) | OPEN | Foreign income ≥ USD 1,500/mo + remote-work proof | No | 1-yr renewable; up to 10 yrs cumulative | Not linked to property; remote-worker / digital-nomad framing |
+| MU | Retirement Permit (Non-Citizen Retiree) | OPEN | **USD 2,000/mo** transferred to MU bank (raised from USD 1,500/mo by Finance Act 2025) | No (but property-purchase eligibility unlocked at scheme thresholds) | 10-yr renewable; spouse + dependents | **Threshold raised 2025** — verify before reliance |
+| MU | EDB-scheme RP (IRS / RES / PDS / SCS / IHS / Smart City) | OPEN | RP entitlement at **USD 375,000** scheme-property purchase (price-floor varies: IRS USD 500k unit floor; PDS no statutory floor; G+2 ≥ MUR 6M) | YES | RP for buyer + spouse + dependents while ownership ≥ USD 375,000 | **Finance Act 2025: registration duty + LTT for non-citizens 5%→10%** (effective date contested) |
+| CV | Permanent Residence for Foreign Investors ("Cape Verde Green Card") | OPEN | **8.8M CVE (~€80,000)** below-average-GDP municipality OR **13.2M CVE (~€120,000)** above-average | YES (RE eligible) | PR card 5-yr renewable; family included; citizenship after 5 yrs habitual residence | 2017 framework; 2-4-week processing typical; verify current at AAI |
+| CV | Estatuto de Investidor Externo + Investor Residency | OPEN | Project-based investment thresholds (tourism / ICT / industry / ocean / renewables) per Cabo Verde TradeInvest | Possibly | Renewable; PR pathway separate | Tax + customs incentives in priority sectors |
+
+### Africa — Indian Ocean / Atlantic islands
+
+| Country | Programme | Status | Min. threshold | Property-linked? | PR/citizenship | Caveats |
+|---|---|---|---|---|---|---|
+| SC | Standard Residence Permit | OPEN — DISCRETIONARY | **SCR 150,000 main applicant / SCR 75,000 spouse / SCR 25,000 per child** (5-yr validity) + SCR 20,000 bank guarantee + 5-day minimum residence/yr | No (RE purchase does NOT entitle residency) | 5-yr renewable; PR via separate stricter pathway | **Property purchase does NOT confer residency** in Seychelles (UNIQUE distinction vs PT/GR Golden Visa) |
+| SC | Gainful Occupation Permit (GOP) | OPEN | Sponsoring employer; **SCR 1,000 application + SCR 700/month** | No | Renewable; tied to employer | Standard work-permit route |
+| SC | NO CBI / NO RBI via real estate | — | — | No | — | Citizenship by naturalisation only; not investment-linked |
 
 ### Caucasus
 
@@ -244,6 +276,10 @@ For the property's country, return:
 | GE | Remotely from Georgia (digital nomad) | OPEN | Foreign employment + USD 2,000/mo income proof OR USD 24k savings | No | 360-day visa; renewable | Launched 2020; updated framework |
 | GE | Investor Residence Permit | OPEN | **USD 300,000** investment in GE business or real estate | YES | 5-yr (renewable); PR after 6 yrs | Direct PR after threshold met + 6-yr renewal cycle |
 | GE | Work Residence Permit | OPEN | Sponsored employment + tax return proof | No | 1-yr renewable; PR after 6 yrs | Standard route |
+| KZ | Investor Visa / "Golden Visa" (10 May 2025) | OPEN | **US$300,000** qualifying investment (KZ securities / listed entities / AIFC participants / productive business) | **NO — REAL ESTATE EXPLICITLY EXCLUDED** | 10-yr residence permit; PRP-equivalent rights | Channelled toward productive capital, not passive RE — Kazakhstan property purchase ≠ residence pathway (UNIQUE distinction in region); applications open 1 Jun 2025 |
+| KZ | Permanent Residence Permit (PRP) — standard | OPEN | After **8 yrs of TRP** (Law on Migration No. 477-IV of 2011) OR via Investor Visa OR Marriage + 3-yr cohabitation OR Kandas (ethnic Kazakh repatriation) | No | Direct PR pathway; citizenship 5+ yrs | **Foreigners on TRP CANNOT own residential property** — PRP required (Law on Legal Status of Foreigners Art. 9); LLP workaround common |
+| KZ | "Neo Nomad" Digital Nomad Visa (Astana Hub) | OPEN | Foreign IT specialist with in-demand profession endorsement | No | Up to 5-yr residence permit | Astana Hub joint project; launched 2024 |
+| KZ | 30-day visa-free entry | OPEN — ~80 NATIONALITIES | None (incl. EU, UK, US, CA, AU, NZ, JP, KR) | No | 30-day stay per entry; verify per nationality at MFA | Foreign-buyer DD trip + property selection feasible visa-free |
 
 ---
 

@@ -2,7 +2,7 @@
 
 A single date-stamped registry of property-relevant reforms, transposition deadlines, ENDED programs, and watchlist items. Maintained as the **single source of truth for "what changed when"** — playbooks reference this; this references playbooks.
 
-**Why it exists**: At 87 countries × 22 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
+**Why it exists**: At 95 countries × 22 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
 
 **Maintainer**: human + Claude. Each entry must have a primary-source URL, a verified date, and a next-revisit date.
 
@@ -394,6 +394,56 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `ongoing | foreign-buyer | Form 4 paper trail at purchase via CBE-authorized bank is GATING procedural risk — without it future USD repatriation of sale proceeds structurally blocked, sellers stuck with EGP-only exit (catastrophic given EGP devaluation history) | CBE | 2026-05-01 | 2026-09-01 | 1 | --tax --currency`
 - `ongoing | foreign-buyer | Sinai is usufruct-only 50-yr leasehold from TDA despite many Sharm El Sheikh sales offices marketing units as "freehold" — buyers regularly misled; deal-killer-class misrepresentation | TDA + REPA | 2026-05-01 | 2026-12-01 | 1 | --tax ownership`
 
+### 🇲🇺 MU
+
+- `pending (gazette publication vs 2026-07-01 contested across sources) | tax | Finance Act 2025 — registration duty + LTT for non-citizens raised 5%→10% on EDB-scheme acquisitions; effective date contested across sources (some sections from gazette publication, others from 1 Jul 2026) — verify in gazetted Act before transaction | mof.govmu.org + mra.mu | 2026-05-07 | 2026-08-01 | 1 | --tax ownership --visa`
+- `2025-07-01 | tax | New 0/10/20% PIT brackets effective 1 Jul 2025 (Finance Act 2025) — replacing prior 15% flat | MRA Mauritius Revenue Authority | 2026-05-07 | 2026-09-01 | 2 | --tax`
+- `2025-XX-XX (Finance Act 2025) | visa | Retirement Permit threshold raised USD 1,500/mo → USD 2,000/mo (Non-Citizen Retiree route — passport.govmu.org) | EDB + Passport Office | 2026-05-07 | 2026-09-01 | 2 | --visa`
+- `2025-02-XX | foreign-buyer | EDB published Amendments to IRS/RES/IHS/PDS/SCS regulations Feb 2025 — new mandatory requirements for non-citizens | EDB Mauritius (FAQ-Amendments document) | 2026-05-07 | 2026-09-01 | 2 | --tax ownership --visa`
+
+### 🇰🇿 KZ
+
+- `2026-01-01 | tax | New Tax Code effective 1 Jan 2026 — progressive PIT 10%/15% above 8,500 MCI (replacing prior 10% flat above thresholds) + VAT rate change | Adilet (adilet.zan.kz) — Ministry of Justice legal database | 2026-05-07 | 2026-08-01 | 2 | --tax --rental --finance`
+- `2026-04-01 | mains | Utility-tariff moratorium ENDED 1 Apr 2026 (MEKS — Ministry of Energy modernization plan, 13.5T KZT through 2029) — electricity + heat + water tariff increases phased through 2029 | Ministry of Energy KZ + KEGOC | 2026-05-07 | 2026-09-01 | 2 | --mains --tax`
+- `2025-05-10 | visa | Investor Visa "Golden Visa" launched 10 May 2025 — US$300,000 qualifying investment (KZ securities / AIFC participants / productive business) → 10-yr residence permit; **REAL ESTATE EXPLICITLY EXCLUDED** as qualifying investment; applications open 1 Jun 2025 | citizenx.com + goldenvisas.com (program guides); MFA KZ | 2026-05-07 | 2026-09-01 | 1 | --visa`
+- `2021-05-XX | ownership | Agricultural land BANNED for foreigners — Law signed May 2021 by Tokayev post-2016 land protests; pre-2021 leases grandfathered to expiry | Land Code amendments — Adilet | 2026-05-07 | 2027-01-01 | 1 | --tax ownership`
+
+### 🇨🇻 CV
+
+- `2026-01-01 | tax | Lei n.º 55/X/2025 of 6 June 2025 — IUP (Imposto Único sobre o Património) REPEALED, replaced by IPI (Imposto sobre a Propriedade de Imóveis, 0.1% annual ownership) + ITI (Imposto sobre a Transmissão de Imóveis, 1% transfer); Boletim Oficial I Série n.º 46 | boe.incv.cv (Bulletin n.º 46 / 2025) | 2026-05-07 | 2026-09-01 | 1 | --tax`
+- `2025-01-01 | tax | IRPC corporate-income-tax rate cut 22%→20% (2025 Budget) — tourism-zone preferential regimes maintained | DGCI | 2026-05-07 | 2026-09-01 | 2 | --tax`
+- `2026-02-XX | macro | IMF Seventh ECF Review + Third RSF Review concluded Feb 2026 — real GDP +7.2% 2024 / +5.2% 2025; CVE-EUR peg credibility reaffirmed | IMF (PR26036) | 2026-05-07 | 2026-09-01 | 3 | --macro --currency`
+
+### 🇸🇨 SC
+
+- `2025-03-20 | foreign-buyer | SPA (Sanction Permit Act) MORATORIUM LIFTED for non-Seychellois — residential acquisition permitted under new floors (SCR 10M dwelling minimum + SCR 4,000/m² bare-land); Sanction Duty raised 11%→12% | Government of Seychelles (Ministry of Investment, Entrepreneurship and Industry) | 2026-05-07 | 2026-08-01 | 1 | --tax ownership --visa`
+- `2024-01-01 | tax | IPT (Immovable Property Tax) doubled 0.25%→0.5% — foreigner-only annual tax on non-Seychellois-owned residential property (raised eff. 1 Jan 2024) | SRC Seychelles Revenue Commission | 2026-05-07 | 2026-09-01 | 2 | --tax`
+- `2026-01-15 | mains | PUC tariff revisions effective 15 Jan 2026 — electricity + water tariffs adjusted | Public Utilities Corporation (puc.sc) | 2026-05-07 | 2026-09-01 | 3 | --mains`
+
+### 🇨🇳 CN
+
+- `2026-01-01 | tax | VAT cut to 3% for residential resale held <2 years (replacing prior 5.6% within 2 years) — material reduction in flipping-tax-stack | MoF + State Taxation Administration (chinatax.gov.cn) | 2026-05-07 | 2026-08-01 | 2 | --tax`
+- `2025-09-XX | currency | SAFE September 2025 cross-border FX-reform — HK/Macao settlement framework extended NATIONWIDE; non-self-use residential restriction REMOVED for cross-border purchases (US$50k individual quota retained) | SAFE State Administration of Foreign Exchange | 2026-05-07 | 2026-08-01 | 1 | --currency --tax ownership`
+- `2024-12-01 | tax | Deed-tax restructure — first-home <140m² 1% / first-home ≥140m² 1.5% / second-home <140m² 1.5% / second-home ≥140m² 2-3% (city-tier-dependent); replaces prior structure | MoF + State Taxation Administration | 2026-05-07 | 2026-09-01 | 2 | --tax`
+- `2024-09-XX | foreign-buyer | Tier-1 social-security overlay easing September 2024 — Beijing 5-yr / Shanghai 1-yr / Shenzhen 3-yr / Guangzhou abolished (purchase-restriction Hukou-linked threshold periods relaxed) | Local Housing Bureaux Beijing/Shanghai/Shenzhen/Guangzhou | 2026-05-07 | 2026-09-01 | 1 | --tax ownership`
+
+### 🇯🇲 JM
+
+- `2025-10-28 | risks | Hurricane Melissa Cat 5 landfall 28 Oct 2025 (Westmoreland Parish) — strongest Atlantic hurricane in Jamaican recorded history; widespread Westmoreland + Hanover + St James property damage; insurance market hardening + BSJ JNBC building-code review expected through 2026-2027 | NOAA NHC AL132025 + ODPEM | 2026-05-07 | 2026-08-01 | 1 | --risks --insurance --finance`
+- `2025-04-01 | tax | Income-tax personal-allowance threshold raised to JMD 1.8M effective 1 Apr 2025 (was JMD 1.5M) — material PIT relief; rental + business income unaffected if held in personal name | TAJ Tax Administration Jamaica | 2026-05-07 | 2026-09-01 | 2 | --tax --rental`
+- `2019-XX-XX | tax | Transfer Tax + Stamp Duty stack reformed — 2% Transfer Tax + JMD 5,000 flat Stamp Duty (was 5% transfer + 4% stamp pre-2019) — material reduction in transaction costs | TAJ + Ministry of Finance JM | 2026-05-07 | 2027-01-01 | 2 | --tax`
+
+### 🇧🇸 BS
+
+- `2022-01-01 | tax | VAT raised 7.5%→10% effective 1 Jan 2022 (Government Budget Communication) — broad consumption-tax increase touching property-related expenditures | DIR Department of Inland Revenue | 2026-05-07 | 2026-09-01 | 2 | --tax`
+- `ongoing | tax | RPT (Real Property Tax) bands budget-revisable annually via Budget Communication — verify current bands at DIR before any transaction-cost computation | DIR — inlandrevenue.finance.gov.bs/real-property-tax | 2026-05-07 | 2026-09-01 | 2 | --tax`
+- `ongoing | risks | Hurricane Dorian (Sep 2019) calibration event — destroyed ~75%+ of homes on parts of Abaco + Grand Bahama; insurance market hardening continues 6+ years post-event; remains baseline for foreign-buyer DD on insurance availability + cost | NOAA NHC AL052019 + Government of The Bahamas | 2026-05-07 | 2027-01-01 | 1 | --risks --insurance --finance`
+
+### 🇸🇲 SM
+
+- `2018-12-24 | foreign-buyer | Legge 24 dicembre 2018 n.173 + Decreto Delegato implementation — prior authorization regime ABOLISHED for foreign acquisition; replaced with **2-property cap per foreign individual** (vs unlimited Sammarinese citizens / pre-2018 1-property cap) | Bollettino Ufficiale RSM | 2026-05-07 | 2027-01-01 | 1 | --tax ownership`
+- `pending 2026 (verify gazette) | tax | IGR (Imposta Generale sui Redditi — main income tax) 2026 reform — major restructure pending; verify gazetted text before relying on rate brackets | Repubblica di San Marino — Bollettino Ufficiale | 2026-05-07 | 2026-08-01 | 2 | --tax --rental --finance`
+
 ---
 
 ## EU directive transposition deadlines
@@ -484,4 +534,4 @@ Multi-line is fine if the entry is complex; the seven-pipe format is the canonic
 
 ---
 
-*Last full audit: 2026-05-01 (added 25 Tier-3/4/5 country sections: SG/HK/KR/TW/LI/MO/AD/MC/MD + QA/SA/PE/EC/PY/AM/AZ/TN + IN/NG/KE/JO/OM/BH/KW/LB — total 87 countries tracked). Next mandatory full audit: 2026-07-26 (quarterly).*
+*Last full audit: 2026-05-07 (added Tier-1 batch: MU/KZ/CV/SC/CN/JM/BS/SM — total 95 countries tracked). Prior batch 2026-05-01 added 25 countries. Next mandatory full audit: 2026-07-26 (quarterly).*

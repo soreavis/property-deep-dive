@@ -716,6 +716,71 @@ For the property's locality, return:
 - **Granularity**: national + per-governorate (8 muhafazat: Beirut / Mount Lebanon / North Lebanon / Akkar / Beqaa / Baalbek-Hermel / South Lebanon / Nabatieh) + per-district (qada) headlines; per-town/quarter data not publicly available — verify with local ISF station (markaz al-mukhtar)
 - **Caveat**: ISF security forces stretched + private security common (compounded by 2019 collapse + 2024 Israel-Hezbollah war); under-reporting significant in all categories; Hezbollah-controlled areas (Dahieh SE Beirut / Bekaa / S Lebanon south of Litani) — statistics partially routed through Hezbollah parallel security apparatus, not in ISF series; **2024 Israel-Hezbollah war Sep-Nov 2024** physical damage + displacement created series-break; sectarian + Syrian-refugee + Palestinian-refugee (Ain al-Hilweh, Burj el-Barajneh, Shatila) camps have parallel security — not in ISF series; Aug 2020 Beirut Port explosion (~218 deaths) reshaped baseline; cybercrime growing (post-USD-collapse fraud)
 
+### 🇲🇺 Mauritius
+
+- **Mauritius Police Force (MPF)**: `https://police.govmu.org/` — annual Crime Statistics report + per-division stats
+- **Statistics Mauritius — Crime, Justice & Security**: `https://statsmauritius.govmu.org/` — annual Digest of Crime, Justice and Security Statistics (per district + Rodrigues)
+- **Granularity**: national + 9 districts (Port Louis, Plaines Wilhems, Pamplemousses, Rivière du Rempart, Flacq, Grand Port, Savanne, Black River, Moka) + Rodrigues; per-locality data not publicly available — verify with local police station
+- **Caveat**: per-Statistics-Mauritius series, larcenies + house-breaking dominate property-crime category (~70%+ of recorded offences); homicide rate among lowest in Africa; tourist-zone (Grand Baie / Flic en Flac / Belle Mare) localised opportunistic theft + occasional villa burglary; **2019 Pereybere/Grand Baie series + 2024 Flic en Flac villa burglaries** flagged in local press — not necessarily reflected in headline series; rural-coastal Black River + Savanne underreport baseline
+
+### 🇰🇿 Kazakhstan
+
+- **General Prosecutor's Office of Kazakhstan / Бас прокуратура / Генеральная прокуратура**: `https://www.gov.kz/memleket/entities/prokuror?lang=ru` — Unified Register of Pre-Trial Investigations (ЕРДР / БТЖ); the official statistical system for criminal cases
+- **Committee on Legal Statistics and Special Records (KPSiSU / Комитет по правовой статистике и специальным учётам)**: `https://qamqor.gov.kz/portal/page/portal/POPageGroup/Services/Pravstat` — public crime-stats portal "Qamqor" (Қамқор) with per-region + per-city breakdowns
+- **MIA (Ministry of Internal Affairs / ішкі істер министрлігі / МВД)**: `https://www.gov.kz/memleket/entities/mvd?lang=en` — operational statistics
+- **Bureau of National Statistics (BNS)**: `https://www.stat.gov.kz/` — limited demographic + denominator data
+- **Granularity**: national + 17 oblasts + 3 cities of republican significance (Almaty / Astana / Shymkent) → 178 rayons + city districts (Almaty 8 districts: Almaly / Bostandyk / Auezov / Medeu / Turksib / Zhetysu / Nauryzbai / Alatau); per-microdistrict (мкр / шағын аудан) data not publicly available
+- **Caveat**: pre-2014 figures incomparable (criminal procedure code reform changed registration model — 2015 ЕРДР/БТЖ migration is a series-break); under-reporting historically material in non-violent categories; corruption + administrative-resource cases counted in same series (not just street crime); 2022 January Bloody Тragedy (Қаңтар / Janury 2022) demographic series-break for Almaty + Mangystau; tourist-zone limited (Almaty mountains, Charyn, Burabay)
+
+### 🇨🇻 Cape Verde
+
+- **Polícia Nacional / Polícia Judiciária**: `https://www.pn.gov.cv/` + `https://www.pj.gov.cv/` — annual Relatório de Atividades + per-island operational statistics
+- **INE (Instituto Nacional de Estatística)**: `https://ine.cv/` — Anuário Estatístico (Crime/Justice chapter) + RGPH 2021 census denominators
+- **Ministério Público / Procuradoria-Geral da República**: `https://www.mp.gov.cv/` — prosecution statistics
+- **Granularity**: national + per-island (Santiago, Sal, Boa Vista, São Vicente, Santo Antão, São Nicolau, Maio, Fogo, Brava) + 22 concelhos; per-locality data not publicly available — verify with local PN command
+- **Caveat**: tourist-zone (Sal Espargos / Santa Maria + Boa Vista Sal Rei) elevated opportunistic theft + petty crime; Praia urban (Achada Grande, Brasil, Eugénio Lima) higher relative violent-crime baseline vs island averages; Cidade Velha + interior Santiago lower; gang-violence ("thugs") localised Praia/Mindelo; series-break post-2018 PN reform; no public commune-level dataset
+
+### 🇸🇨 Seychelles
+
+- **Seychelles Police Force**: `https://www.police.gov.sc/` — annual reports + Commissioner of Police statistics
+- **NBS (National Bureau of Statistics)**: `https://www.nbs.gov.sc/` — Statistics Bulletin Crime/Justice section
+- **Office of the Attorney General**: `https://www.ago.gov.sc/` — prosecution + court statistics
+- **Granularity**: national + 26 districts (Mahé 23 + Praslin 2 + La Digue 1) — primary admin unit for crime stats; per-village-area not publicly available
+- **Caveat**: small absolute numbers (~100k pop) → high statistical noise; Mahé urban Victoria + Beau Vallon + Anse Etoile higher relative; Praslin + La Digue + outer islands very low absolute; tourism-related opportunistic theft elevated relative to base; **heroin epidemic Mahé** (~5-10% adult-population dependency rate per Health Ministry estimates) is the dominant social-disorder vector — drives property-crime statistics distortion; 2017+ Drug Enforcement Agency (DEA) reform
+
+### 🇨🇳 China (Mainland)
+
+- **MPS (Ministry of Public Security / 公安部)**: `https://www.mps.gov.cn/` — annual statistics; province + city-level for select categories; political-stability framing constrains transparency
+- **NBS (National Bureau of Statistics / 国家统计局)**: `https://www.stats.gov.cn/english/` — China Statistical Yearbook Public Order chapter
+- **SPP (Supreme People's Procuratorate / 最高人民检察院)**: `https://www.spp.gov.cn/` — prosecution statistics
+- **SPC (Supreme People's Court / 最高人民法院)** + **CJO Judgments Online (中国裁判文书网)**: `https://wenshu.court.gov.cn/` — public-court-judgments database (filtered post-2021 — coverage reduced)
+- **Granularity**: national + 31 provinces / autonomous regions / municipalities + ~333 prefecture-level cities + ~2,800 counties + city districts; per-residential-compound (小区) data not publicly available — verify via local 派出所 (paichusuo / police station)
+- **Caveat**: stability-narrative emphasis — published rates structurally low + downward-biased; CJO post-2021 coverage reduction reflects political directive (mass anonymisation + removal of judgments); Tier-1 (Beijing/Shanghai/Shenzhen/Guangzhou) crime baseline lower than Tier-2/3 + western interior; Hukou-system non-locals + migrant workers (~290M flow) over-represented in stats but under-represented in denominator; Xinjiang/Tibet political-security categorisation overlaps with property crime in published series — separate from ordinary crime; **HK SAR + Macao SAR + Taiwan have entirely separate police + statistical systems** (HKPF / PSPM / NPA Taiwan); WeChat-fraud + telecom-fraud growing — Anti-Telecom Fraud Law 2022; cybercrime + financial-fraud series-break post-2017
+
+### 🇯🇲 Jamaica
+
+- **JCF (Jamaica Constabulary Force)**: `https://jcf.gov.jm/` — Statistical Department + per-Division Major Crimes statistics; published weekly + annually
+- **STATIN (Statistical Institute of Jamaica)**: `https://statinja.gov.jm/` — Crime/Justice chapter in Statistical Yearbook
+- **Office of the Director of Public Prosecutions**: `https://dpp.gov.jm/` — prosecution data
+- **Granularity**: national + 19 JCF Divisions (largely overlapping with 14 parishes — Kingston Eastern / Kingston Central / Kingston Western / St Andrew Central / St Andrew North / St Andrew South / St Catherine North / St Catherine South / Clarendon / Manchester / St Elizabeth / Westmoreland / Hanover / St James / Trelawny / St Ann / St Mary / Portland / St Thomas) + per-community/division-area; per-street data not publicly available — verify with local police station
+- **Caveat**: **homicide rate elevated** structurally (~50-65 per 100k 2018-2024 — top-decile globally; 2024 ~63/100k, 2025 reduction ~42/100k after States of Emergency declared multiple parishes); concentration in inner-city Kingston (Tivoli Gardens / Mountain View / Hannah Town / Spanish Town) + St James (Montego Bay zones of special operations 2018-) — **tourist-corridor (Negril, Tryall, Round Hill, Ocho Rios resort zone, Falmouth) significantly safer than inner-city averages** (typically 5-10x lower homicide); JCF transparency improving but pre-2017 series methodologically distinct; gang-violence (One Order / Klansman / Spanglers) drives concentrated hot-spots; **Hurricane Melissa Cat 5 28 Oct 2025** displaced + property-crime series-break Westmoreland 2025-2026 expected
+
+### 🇧🇸 The Bahamas
+
+- **RBPF (Royal Bahamas Police Force)**: `https://www.royalbahamaspolice.org/` — annual statistics + per-Division reports + monthly Crime Statistics releases
+- **BNSI (Bahamas National Statistical Institute)**: `https://www.bahamas.gov.bs/statistics` — limited public crime tabulation; population denominators
+- **Office of the Attorney General**: `https://www.bahamas.gov.bs/` — prosecution data
+- **Granularity**: national + 15 RBPF Divisions (New Providence: Cable Beach / Carmichael / Central / East End / Elizabeth Estates / Grove / South Beach / Wulff Road; Family Islands: Grand Bahama East / Grand Bahama West / Abaco / Andros / Eleuthera / Bimini / Long Island / Exuma / Cat Island / San Salvador + others); per-locality data not publicly available
+- **Caveat**: small total population (~412k) → small absolute numbers but elevated rate per 100k (~30-40/100k homicide 2020-2024 — top quartile globally, concentrated in inner-city Nassau Over-the-Hill / Bain Town / Grants Town / Pinewood); **Family Islands + private-island enclaves (Lyford Cay, Albany, Old Fort Bay, Ocean Club Estates, Baker's Bay) materially safer** than New Providence averages — gated-community + private-security premium baked into prime RE pricing; tourist-corridor Paradise Island / Atlantis / Cable Beach low-incident — disproportionate police presence; gang-related homicide drives concentration; post-Hurricane-Dorian 2019 Abaco/Grand Bahama displacement series-break
+
+### 🇸🇲 San Marino
+
+- **Gendarmeria della Repubblica di San Marino**: `https://www.gendarmeria.sm/` — operational + crime statistics; annual Relazione attività
+- **Ufficio Statistica della Repubblica di San Marino**: `https://www.statistica.sm/` — Bollettino di Statistica Crime/Justice section + Anuario
+- **Tribunale Unico**: `https://www.tribunale.sm/` — court + prosecution statistics (single first-instance court for the entire republic)
+- **Granularity**: national + 9 castelli (Città di San Marino, Borgo Maggiore, Serravalle, Domagnano, Acquaviva, Faetano, Fiorentino, Chiesanuova, Montegiardino) + Rimini-Riccione corridor cross-border patterns
+- **Caveat**: very small absolute numbers (~34k pop) → severe statistical noise + privacy implications; published rates structurally minimal — Italy-overflow petty crime (Rimini-corridor pickpocket / vehicle break-in) most material vector; transit-state crime rare; sectoral-financial / banking fraud (post-2009 banking-secrecy reforms) is material historical series-break; gendarmeria-vs-Polizia Civile-vs-Guardia di Rocca jurisdictional split — three separate statistical streams; Italian-resident-cross-border traveller statistically over-represented vs Sammarinese resident in absolute counts
+
 ## Universal extraction approach
 
 For each country, the workflow:

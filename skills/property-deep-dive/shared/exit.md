@@ -2,7 +2,7 @@
 
 Sell-side conditions: time-on-market (DOM), agent commission structure, contract norms, off-market vs MLS, sell-side closing costs, liquidity rating. Buyers should understand how easy it will be to **exit** a property before committing to buy.
 
-**Snapshot**: May 2026 (Tier-5 additions — 87 countries total).
+**Snapshot**: May 2026 (Tier-1 batch additions — 95 countries total).
 
 ## Universal contract
 
@@ -40,18 +40,19 @@ Country-level exit data lives in per-region files under [`exit/`](./exit/). Each
 
 | Region | File | Countries |
 |---|---|---|
-| Western Europe | [`exit/western-europe.md`](./exit/western-europe.md) | FR, IT, DE, AT, CH, LI, MC, AD, NL, BE, LU, IE, UK |
+| Western Europe | [`exit/western-europe.md`](./exit/western-europe.md) | FR, IT, DE, AT, CH, LI, MC, AD, SM, NL, BE, LU, IE, UK |
 | Iberia / Mediterranean | [`exit/iberia-mediterranean.md`](./exit/iberia-mediterranean.md) | ES, PT, GR, CY, MT |
 | Nordics | [`exit/nordics.md`](./exit/nordics.md) | SE, FI, NO, DK, IS |
 | CEE / Baltics | [`exit/cee-baltics.md`](./exit/cee-baltics.md) | CZ, SK, PL, HU, SI, HR, EE, LV, LT, RO, BG, MD |
 | Western Balkans | [`exit/western-balkans.md`](./exit/western-balkans.md) | RS, ME, BA, MK, AL |
 | Anglo non-EU | [`exit/anglo-non-eu.md`](./exit/anglo-non-eu.md) | US, CA, AU, NZ |
-| Latin America | [`exit/latin-america.md`](./exit/latin-america.md) | MX, BR, AR, CR, PA, DO, CO, UY, CL, PE, EC, PY |
+| Latin America | [`exit/latin-america.md`](./exit/latin-america.md) | MX, BR, AR, CR, PA, CO, UY, CL, PE, EC, PY |
+| Caribbean | [`exit/caribbean.md`](./exit/caribbean.md) | DO, JM, BS |
 | MENA / Levant / North Africa | [`exit/mena-levant-north-africa.md`](./exit/mena-levant-north-africa.md) | TR, AE, QA, SA, IL, MA, TN, EG, JO, OM, BH, KW, LB |
-| Sub-Saharan Africa | [`exit/sub-saharan-africa.md`](./exit/sub-saharan-africa.md) | ZA, NG, KE |
-| Asia-Pacific | [`exit/asia-pacific.md`](./exit/asia-pacific.md) | JP, TH, ID, MY, VN, PH, SG, HK, KR, TW, MO |
+| Sub-Saharan Africa | [`exit/sub-saharan-africa.md`](./exit/sub-saharan-africa.md) | ZA, NG, KE, MU, CV, SC |
+| Asia-Pacific | [`exit/asia-pacific.md`](./exit/asia-pacific.md) | JP, TH, ID, MY, VN, PH, SG, HK, KR, TW, MO, CN |
 | South Asia | [`exit/south-asia.md`](./exit/south-asia.md) | IN |
-| Caucasus | [`exit/caucasus.md`](./exit/caucasus.md) | GE, AM, AZ |
+| Caucasus & Eastern non-EU | [`exit/caucasus.md`](./exit/caucasus.md) | GE, AM, AZ, KZ |
 
 ## Liquidity heatmap (4-tier composite)
 
@@ -95,4 +96,4 @@ Country-level exit data lives in per-region files under [`exit/`](./exit/). Each
 
 ## Status
 
-Last refreshed: 2026-05-01. 8 Tier-5 countries added (IN, NG, KE, JO, OM, BH, KW, LB) — total 87 countries (Tier-1: US, TR, AE, JP, TH, DO, CO, UY, CL, ZA; Tier-2: GE, ID, MY, VN, PH, IL, MA, EG; Tier-3: SG, HK, KR, TW, MO, LI, MC, AD, MD; Tier-4: QA, SA, PE, EC, PY, AM, AZ, TN; Tier-5: IN, NG, KE, JO, OM, BH, KW, LB).
+Last refreshed: 2026-05-07. 8 Tier-1 batch countries added (MU, KZ, CV, SC, CN, JM, BS, SM) — total 95 countries; new Caribbean region created (DO relocated from LatAm + JM + BS). Prior 2026-05-01 batch added 8 Tier-5 countries (IN, NG, KE, JO, OM, BH, KW, LB).

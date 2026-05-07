@@ -14,7 +14,12 @@
     {
       "id": "latam",
       "label": "Latin America",
-      "codes": ["mx", "br", "ar", "cr", "pa", "do", "co", "uy", "cl", "pe", "ec", "py"]
+      "codes": ["mx", "br", "ar", "cr", "pa", "co", "uy", "cl", "pe", "ec", "py"]
+    },
+    {
+      "id": "caribbean",
+      "label": "Caribbean",
+      "codes": ["bs", "do", "jm"]
     },
     {
       "id": "balkans",
@@ -34,22 +39,22 @@
     {
       "id": "apac",
       "label": "Asia-Pacific",
-      "codes": ["jp", "kr", "tw", "hk", "mo", "sg", "th", "my", "id", "vn", "ph", "in"]
+      "codes": ["jp", "kr", "tw", "hk", "mo", "sg", "th", "my", "id", "vn", "ph", "in", "cn"]
     },
     {
       "id": "africa",
       "label": "Africa",
-      "codes": ["za", "ma", "eg", "tn", "ng", "ke"]
+      "codes": ["za", "ma", "eg", "tn", "ng", "ke", "mu", "cv", "sc"]
     },
     {
       "id": "caucasus",
       "label": "Caucasus & Eastern non-EU",
-      "codes": ["ge", "md", "am", "az"]
+      "codes": ["ge", "md", "am", "az", "kz"]
     },
     {
       "id": "microstates",
       "label": "European Microstates",
-      "codes": ["li", "ad", "mc"]
+      "codes": ["li", "ad", "mc", "sm"]
     }
   ]
 }
