@@ -3,8 +3,11 @@ name: CHANGELOG on merge
 # When a PR merges to main, append the PR title + author + link to
 # CHANGELOG.md under [Unreleased] in the appropriate bucket (Added /
 # Changed / Fixed / Security / Removed). Branch protection blocks direct
-# pushes to main, so the bot opens its own PR with the change. The auto-
-# merge-docs workflow squash-merges that PR once CI is green.
+# pushes to main, so the bot accumulates entries on a single rolling
+# branch (`chore/changelog-digest`) instead of opening a PR per merge.
+# A separate weekly job (Monday 09:00 UTC) opens / marks ready the
+# digest PR if the branch has unmerged entries, so a maintainer reviews
+# at most one batched changelog PR per week instead of one per merge.
 #
 # Token: uses PR_BOT_TOKEN (fine-grained PAT, Contents:RW + Pull-requests:RW
 # scoped to this repo only). The default GITHUB_TOKEN cannot be used here
@@ -13,26 +16,51 @@ name: CHANGELOG on merge
 # would never fire on the bot's PR, and it would sit forever with 0 checks.
 # A PAT-created PR triggers workflows normally.
 #
-# Skip conditions:
+# Concurrency: the `changelog-digest` group is shared by the append job
+# and the weekly flip job, with `cancel-in-progress: false`, so two PR
+# merges that close within seconds of each other queue rather than race
+# (each rebases on the latest main + branch tip in turn).
+#
+# Skip conditions for the append job:
 #   - PR not merged
 #   - PR has label `skip changelog`
-#   - PR head ref begins with `chore/changelog-from-pr-` (anti-loop)
+#   - PR head ref is the rolling digest branch itself (anti-loop)
+#   - PR head ref begins with `chore/changelog-from-pr-` (legacy anti-loop;
+#     left in place for any in-flight branches still on the remote)
 #   - PR opened by github-actions[bot] (anti-loop)
 
 on:
   pull_request:
     types: [closed]
     branches: [main]
+  schedule:
+    # Mondays 09:00 UTC — flip the rolling digest into a ready PR if it
+    # has unmerged entries. Cron timing chosen to land at the start of
+    # the maintainer's review window.
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+    # Manual flip — useful when a release is being cut mid-week and the
+    # digest needs to merge before the version-tag workflow runs.
 
 permissions:
   contents: read
 
+# Shared by the append + flip jobs so simultaneous PR merges (and a
+# scheduled flip racing with an append) queue rather than collide. We
+# pick `cancel-in-progress: false` because skipping a queued append
+# would lose a CHANGELOG entry — every merged PR must be recorded.
+concurrency:
+  group: changelog-digest
+  cancel-in-progress: false
+
 jobs:
   append:
-    name: Append PR to CHANGELOG [Unreleased]
+    name: Append PR to rolling CHANGELOG digest
     if: >-
-      github.event.pull_request.merged == true
+      github.event_name == 'pull_request'
+      && github.event.pull_request.merged == true
       && github.event.pull_request.user.login != 'github-actions[bot]'
+      && github.event.pull_request.head.ref != 'chore/changelog-digest'
       && !startsWith(github.event.pull_request.head.ref, 'chore/changelog-from-pr-')
       && !contains(github.event.pull_request.labels.*.name, 'skip changelog')
     runs-on: ubuntu-latest
@@ -41,13 +69,13 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: Checkout main
+      - name: Checkout repo (full history)
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
         with:
           ref: main
           fetch-depth: 0
           # PAT (not GITHUB_TOKEN) so the bot's subsequent push triggers
-          # downstream workflows on the new branch.
+          # downstream workflows on the digest branch.
           token: ${{ secrets.PR_BOT_TOKEN }}
 
       - name: Compute bucket from PR labels
@@ -70,6 +98,32 @@ jobs:
           done < <(printf '%s' "$LABELS" | jq -r '.[]?')
           echo "bucket=$bucket" >> "$GITHUB_OUTPUT"
           echo "Bucket resolved: $bucket"
+
+      - name: Switch to rolling digest branch (rebased on main)
+        env:
+          DIGEST_BRANCH: chore/changelog-digest
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # If the rolling digest branch already exists on the remote, fetch
+          # it and rebase onto the latest main so the diff stays clean (no
+          # stale unrelated commits leaking in once main moves forward).
+          # Otherwise start fresh from main.
+          # We fetch into the remote-tracking ref (not directly into a local
+          # branch) so `git push --force-with-lease=origin/<branch>` below
+          # has a baseline to compare against — the alternative form
+          # `git fetch origin <src>:<dst>` skips the remote-tracking update.
+          if git ls-remote --exit-code --heads origin "$DIGEST_BRANCH" >/dev/null 2>&1; then
+            echo "Digest branch exists on origin — rebasing on main."
+            git fetch origin "$DIGEST_BRANCH"
+            git checkout -B "$DIGEST_BRANCH" "origin/$DIGEST_BRANCH"
+            git rebase origin/main
+          else
+            echo "Digest branch absent — creating from main."
+            git checkout -b "$DIGEST_BRANCH"
+          fi
 
       - name: Append entry to CHANGELOG.md
         id: edit
@@ -117,6 +171,18 @@ jobs:
           pr_title = sanitize_md(pr_title)
 
           line = f"- {pr_title} ([#{pr_number}]({pr_url})) — by @{pr_author}"
+
+          # Idempotency: if this exact bullet (matched by `[#N](url)`) is
+          # already in the file, don't double-record. This protects against
+          # the rare case where the workflow retries after a partial push
+          # (rebase succeeded, push failed, run re-queued) and the same PR
+          # event fires twice.
+          marker = f"[#{pr_number}]({pr_url})"
+          if marker in text:
+              print(f'::notice::PR #{pr_number} already recorded in CHANGELOG.md — skipping.')
+              with open('_skip', 'w') as f:
+                  f.write('skip')
+              sys.exit(0)
 
           # Locate [Unreleased] section. If absent, create it just above the
           # first version header.
@@ -169,45 +235,122 @@ jobs:
 
           if [ -f _skip ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
+            rm -f _skip
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Open PR with the changelog edit
+      - name: Commit + push to rolling digest branch
         if: steps.edit.outputs.skip != 'true'
         env:
-          # PAT (not GITHUB_TOKEN) so the resulting PR triggers
-          # auto-merge-docs.yml + pr-validate.yml. With GITHUB_TOKEN the
-          # PR is created in a "no workflows fired" state that stalls
-          # auto-merge forever.
-          GH_TOKEN: ${{ secrets.PR_BOT_TOKEN }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
-          PR_TITLE: ${{ github.event.pull_request.title }}
-          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
-          PR_URL: ${{ github.event.pull_request.html_url }}
           BUCKET: ${{ steps.bucket.outputs.bucket }}
+          DIGEST_BRANCH: chore/changelog-digest
         run: |
           set -euo pipefail
-          branch="chore/changelog-from-pr-${PR_NUMBER}"
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -b "$branch"
           git add CHANGELOG.md
           git commit -m "chore(changelog): record #${PR_NUMBER} under [Unreleased] § ${BUCKET}"
-          git push -u origin "$branch"
 
-          gh pr create \
-            --base main \
-            --head "$branch" \
-            --title "chore(changelog): record #${PR_NUMBER} — ${PR_TITLE}" \
-            --body "Automated CHANGELOG update for merged PR #${PR_NUMBER}.
+          # Two cases:
+          #   - Branch is brand-new (no remote-tracking ref) → plain push -u.
+          #   - Branch already on remote (we rebased onto main) → push with
+          #     `--force-with-lease` against the remote-tracking ref so we
+          #     don't clobber a concurrent push (the lease check fails fast
+          #     if someone else moved the tip while we were running).
+          if git rev-parse --verify --quiet "refs/remotes/origin/${DIGEST_BRANCH}" >/dev/null; then
+            git push --force-with-lease="origin/${DIGEST_BRANCH}" origin "$DIGEST_BRANCH"
+          else
+            git push -u origin "$DIGEST_BRANCH"
+          fi
+          echo "::notice::Appended PR #${PR_NUMBER} to ${DIGEST_BRANCH}. PR will be opened by the weekly flip job."
 
-          - **Source PR**: ${PR_URL}
-          - **Author**: @${PR_AUTHOR}
-          - **Bucket**: \`### ${BUCKET}\` under \`[Unreleased]\`
+  flip:
+    name: Flip rolling digest into a ready PR (weekly)
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repo (full history)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.PR_BOT_TOKEN }}
 
-          This PR will be auto-merged once required checks pass (see \`auto-merge-docs.yml\`).
+      - name: Open / mark-ready the digest PR if entries are pending
+        env:
+          GH_TOKEN: ${{ secrets.PR_BOT_TOKEN }}
+          DIGEST_BRANCH: chore/changelog-digest
+        run: |
+          set -euo pipefail
 
-          Skip this automation per-PR by adding the \`skip changelog\` label to the source PR." \
-            --label "documentation" \
-            --label "skip changelog"
+          # No digest branch on the remote → nothing to flip this week.
+          if ! git ls-remote --exit-code --heads origin "$DIGEST_BRANCH" >/dev/null 2>&1; then
+            echo "::notice::No ${DIGEST_BRANCH} branch on origin — nothing to flip this week."
+            exit 0
+          fi
+
+          git fetch origin "$DIGEST_BRANCH":"$DIGEST_BRANCH"
+          ahead=$(git rev-list --count "origin/main..${DIGEST_BRANCH}")
+          if [ "$ahead" -eq 0 ]; then
+            echo "::notice::${DIGEST_BRANCH} has no commits ahead of main — nothing to flip."
+            exit 0
+          fi
+          echo "::notice::${DIGEST_BRANCH} has ${ahead} unmerged commit(s) ahead of main."
+
+          # Build a body listing every PR recorded in this digest cycle.
+          # We grep CHANGELOG.md on the digest tip for `[#N](url)` markers
+          # added since main; this makes the PR description self-describing
+          # without re-parsing commit messages.
+          recorded_prs=$(git diff "origin/main..${DIGEST_BRANCH}" -- CHANGELOG.md \
+            | grep -E '^\+.*\[#[0-9]+\]\(' \
+            | sed -E 's/^\+//' \
+            || true)
+
+          # Look for an existing PR from this branch (any state).
+          existing_json=$(gh pr list \
+            --repo "${GITHUB_REPOSITORY}" \
+            --head "$DIGEST_BRANCH" \
+            --state open \
+            --json number,isDraft \
+            --limit 1)
+          existing_number=$(echo "$existing_json" | jq -r '.[0].number // empty')
+          existing_draft=$(echo "$existing_json" | jq -r '.[0].isDraft // empty')
+
+          # Use a quoted heredoc (no shell interpolation) so backticks in
+          # the markdown are literal. Inject the dynamic fields via env-var
+          # substitution after the fact.
+          export AHEAD="$ahead"
+          export RECORDED_PRS="${recorded_prs:-(see CHANGELOG.md diff)}"
+          body=$(cat <<'EOF' | envsubst '$AHEAD $RECORDED_PRS'
+          Automated weekly CHANGELOG digest — $AHEAD merged PR(s) recorded under `[Unreleased]`.
+
+          ### Entries in this digest
+
+          $RECORDED_PRS
+
+          ---
+
+          This PR will be auto-merged once required checks pass (see `auto-merge-docs.yml`). Skip individual source PRs from the digest by adding the `skip changelog` label to the source PR before it merges.
+          EOF
+          )
+
+          if [ -z "$existing_number" ]; then
+            echo "Creating new digest PR."
+            gh pr create \
+              --repo "${GITHUB_REPOSITORY}" \
+              --base main \
+              --head "$DIGEST_BRANCH" \
+              --title "chore(changelog): weekly digest — ${ahead} entry batch" \
+              --body "$body" \
+              --label "documentation" \
+              --label "skip changelog"
+          elif [ "$existing_draft" = "true" ]; then
+            echo "Existing draft PR #${existing_number} — marking ready."
+            gh pr ready "${existing_number}" --repo "${GITHUB_REPOSITORY}"
+          else
+            echo "::notice::Existing ready PR #${existing_number} — no flip needed (auto-merge will handle it)."
+          fi
