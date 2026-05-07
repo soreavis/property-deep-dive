@@ -12,7 +12,7 @@ Lithuania is a small Baltic state (~2.8M pop) with a unified land/cadastre syste
 
 ---
 
-## --price
+## Section: `--price`
 
 **Primary index**: **Ober-Haus Apartment Price Index (OHBI)** — the most-cited monthly series; covers 5 largest cities. Quasi-official.
 - Page: https://www.ober-haus.lt/en/rinkos_apzvalgos/lithuanian-price-index/
@@ -44,7 +44,7 @@ Lithuania is a small Baltic state (~2.8M pop) with a unified land/cadastre syste
 
 ---
 
-## --traffic
+## Section: `--traffic`
 
 **Sources**:
 - **Lietuvos automobilių kelių direkcija (LAKD)** road authority: https://lakd.lrv.lt/ (verify in browser)
@@ -55,7 +55,7 @@ Lithuania is a small Baltic state (~2.8M pop) with a unified land/cadastre syste
 
 ---
 
-## --tax
+## Section: `--tax`
 
 ### Transfer / acquisition costs (individual buyer)
 
@@ -108,7 +108,7 @@ Source: https://taxsummaries.pwc.com/lithuania/individual/income-determination
 
 ---
 
-## --rental
+## Section: `--rental`
 
 ### Long-term rental
 - 15% PIT or 5% via individual-activity certificate (cleanest route for landlords)
@@ -134,13 +134,13 @@ Source: https://etias.com/articles/eu-short-term-rental-regulations
 
 ---
 
-## --work
+## Section: `--work=<profession>`
 
 Standard universal `--work=<profession>` resolution. Strongest demand: tech (Vilnius hub, fintech post-Brexit migration), bio-tech (Kaunas, Vilnius), logistics (Klaipėda free port), shared-services (Vilnius). Remote/hybrid common.
 
 ---
 
-## --risks
+## Section: `--risks`
 
 ### Flood
 - **Aplinkos apsaugos agentūra (EPA) Flood Risk Information System**: https://potvyniai.aplinka.lt/ + http://vanduo.gamta.lt/info/potvyniai.aplinka.lt
@@ -170,7 +170,7 @@ Standard universal `--work=<profession>` resolution. Strongest demand: tech (Vil
 
 ---
 
-## --mains
+## Section: `--mains`
 
 ### Cadastre / Land Registry — UNIFIED
 
@@ -203,7 +203,7 @@ Soviet-built; substantially modernized. Network heat losses dropped from **33% �
 
 ---
 
-## --crime
+## Section: `--crime`
 
 See `shared/crime-sources.md` for the per-country contract. Lithuania uses:
 - **Informacinės technologijos ir komunikacijos departamentas (ITKD) — Police**: https://www.ird.lt/
@@ -211,13 +211,13 @@ See `shared/crime-sources.md` for the per-country contract. Lithuania uses:
 
 ---
 
-## --amenities
+## Section: `--amenities`
 
 Universal — see `shared/amenities-osm.md`.
 
 ---
 
-## --climate
+## Section: `--climate`
 
 Universal — see `shared/climate-projections.md`.
 
@@ -292,7 +292,7 @@ Universal — see `shared/climate-projections.md`.
 
 ---
 
-## Status footer
+## Status
 
 **Confidence**: HIGH on transfer-tax (none), Vilnius price index (Ober-Haus Dec 2025 verified), 2026 NTM brackets (Seimas June 2025, KPMG-verified), STR Vilnius city tax (Feb 2024 launch confirmed). MEDIUM on per-municipality 2026 NTM rates (some not yet published), STR national registration number (EU 2024/1028 pending May 2026 implementation). LOW on per-locality rental yield benchmarks (no STATEC-grade source).
 

@@ -12,7 +12,7 @@ Romania (~19M pop) joined EU 2007 and **completed full Schengen integration 1 Ja
 
 ---
 
-## --price
+## Section: `--price`
 
 **Primary index**: **INS (Institutul Național de Statistică)** — quarterly HPI (IPL)
 - https://www.insse.ro/ (intermittent 503; flag in skill)
@@ -40,7 +40,7 @@ Romania (~19M pop) joined EU 2007 and **completed full Schengen integration 1 Ja
 
 ---
 
-## --traffic
+## Section: `--traffic`
 
 **Sources**:
 - **Compania Națională de Administrare a Infrastructurii Rutiere (CNAIR)** road authority
@@ -49,7 +49,7 @@ Romania (~19M pop) joined EU 2007 and **completed full Schengen integration 1 Ja
 
 ---
 
-## --tax
+## Section: `--tax`
 
 ### Currency note
 RON, EUR/RON ≈ 4.97 (Apr 2026, floating). Not in eurozone. No firm target.
@@ -94,7 +94,7 @@ RON, EUR/RON ≈ 4.97 (Apr 2026, floating). Not in eurozone. No firm target.
 
 ---
 
-## --rental
+## Section: `--rental`
 
 ### STR / Airbnb
 
@@ -107,13 +107,13 @@ RON, EUR/RON ≈ 4.97 (Apr 2026, floating). Not in eurozone. No firm target.
 
 ---
 
-## --work
+## Section: `--work=<profession>`
 
 Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); Timișoara, Iași, Sibiu/Brașov regional centers. Romania has substantial IT outsourcing and shared-services economy.
 
 ---
 
-## --risks
+## Section: `--risks`
 
 ### Seismic — CRITICAL for Bucharest
 
@@ -151,7 +151,7 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 
 ---
 
-## --mains
+## Section: `--mains`
 
 ### Cadastre / Land Registry (eTerra3)
 
@@ -180,7 +180,7 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 
 ---
 
-## --crime
+## Section: `--crime`
 
 See `shared/crime-sources.md`. Romania uses:
 - **Inspectoratul General al Poliției Române (IGPR)**: https://www.politiaromana.ro/
@@ -188,13 +188,13 @@ See `shared/crime-sources.md`. Romania uses:
 
 ---
 
-## --amenities
+## Section: `--amenities`
 
 Universal — see `shared/amenities-osm.md`.
 
 ---
 
-## --climate
+## Section: `--climate`
 
 Universal — see `shared/climate-projections.md`.
 
@@ -271,7 +271,7 @@ Universal — see `shared/climate-projections.md`.
 
 ---
 
-## Status footer
+## Status
 
 **Confidence**: HIGH on VAT 19→21% (1 Aug 2025, multiple sources), local property tax 2026 reform (RON 2,677/m² baseline), CGT 1%/3% individual rates, Bucharest Termoenergetica/RADET debt, AMCCRS seismic class methodology. MEDIUM on per-municipality 2026 tax rates (varies), 9% VAT cliff 31 Jul 2026 implementation details. LOW on AMCCRS list completeness (community-augmented at hartablocuri.ro).
 

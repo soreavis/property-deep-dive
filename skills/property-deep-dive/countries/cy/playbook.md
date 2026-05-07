@@ -12,7 +12,7 @@ Cyprus is a **divided island**: SOUTH = Republic of Cyprus (RoC), EU+eurozone si
 
 ---
 
-## --price
+## Section: `--price`
 
 **Primary index**: **Central Bank of Cyprus — Residential Property Price Index (RPPI)** (quarterly)
 - https://www.centralbank.cy/en/publications/residential-property-price-indices
@@ -51,7 +51,7 @@ Cyprus is a **divided island**: SOUTH = Republic of Cyprus (RoC), EU+eurozone si
 
 ---
 
-## --traffic
+## Section: `--traffic`
 
 - **Department of Public Works** road authority
 - Real-time via Waze
@@ -59,7 +59,7 @@ Cyprus is a **divided island**: SOUTH = Republic of Cyprus (RoC), EU+eurozone si
 
 ---
 
-## --tax
+## Section: `--tax`
 
 ### Property Transfer Fees (DLS) — UNCHANGED by 2026 reform
 
@@ -123,7 +123,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 
 ---
 
-## --rental
+## Section: `--rental`
 
 ### STR / Airbnb — Hermes register
 
@@ -139,13 +139,13 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 
 ---
 
-## --work
+## Section: `--work=<profession>`
 
 Limassol financial-services + tech relocation hub (post-Wirecard/CySEC migration); Nicosia Greek-Cypriot middle-class capital; Paphos British retiree services; Larnaca airport hub.
 
 ---
 
-## --risks
+## Section: `--risks`
 
 ### Seismic — HIGH for southern coast
 
@@ -195,7 +195,7 @@ Limassol financial-services + tech relocation hub (post-Wirecard/CySEC migration
 
 ---
 
-## --mains
+## Section: `--mains`
 
 ### Cadastre / Land Registry — DLS
 
@@ -221,7 +221,7 @@ Limassol financial-services + tech relocation hub (post-Wirecard/CySEC migration
 
 ---
 
-## --crime
+## Section: `--crime`
 
 See `shared/crime-sources.md`. Cyprus uses:
 - **Cyprus Police**: https://www.police.gov.cy/police/police.nsf/cyens.aspx
@@ -229,13 +229,13 @@ See `shared/crime-sources.md`. Cyprus uses:
 
 ---
 
-## --amenities
+## Section: `--amenities`
 
 Universal — see `shared/amenities-osm.md`.
 
 ---
 
-## --climate
+## Section: `--climate`
 
 Universal — see `shared/climate-projections.md`. Critical for CY: water scarcity is a top-line climate-impact metric here, on top of standard projections.
 
@@ -344,7 +344,7 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 
 ---
 
-## Status footer
+## Status
 
 **Confidence**: HIGH on 2026 Tax Reform (multiple PwC/KPMG/Sovereign sources verified), Hermes STR registration mandatory since 6 Feb 2023, 2021 Limassol wildfires (4 dead, 44.5 km², major DD anchor for foothill properties), 2025 worst-drought-since-1901 + reservoir levels, Russian-buyer post-2022 sanctions enforcement (CySEC C728 expanded 23 Sep 2025). MEDIUM on per-municipality local IPT (verify per locality), SDA-equivalent (no formal CY SDA list — different from MT), 2026 stamp-duty narrow exceptions for real-estate (verify per transaction). LOW on TRNC IPC application data + reunification negotiations (politically dynamic — snapshot only).
 

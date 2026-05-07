@@ -12,7 +12,7 @@ Malta is the smallest EU state (~530k pop), archipelago (Malta + Gozo + Comino),
 
 ---
 
-## --price
+## Section: `--price`
 
 **Primary index**: **NSO Residential Property Price Index (RPPI)** — transaction-based (dwelling deeds at Inland Revenue), 2015=100
 - https://nso.gov.mt/property/
@@ -42,7 +42,7 @@ Malta is the smallest EU state (~530k pop), archipelago (Malta + Gozo + Comino),
 
 ---
 
-## --traffic
+## Section: `--traffic`
 
 - **Transport Malta** road authority
 - Real-time via Google Maps / Waze
@@ -50,7 +50,7 @@ Malta is the smallest EU state (~530k pop), archipelago (Malta + Gozo + Comino),
 
 ---
 
-## --tax
+## Section: `--tax`
 
 ### Stamp Duty (= primary purchase tax in Malta)
 
@@ -87,7 +87,7 @@ Malta is the smallest EU state (~530k pop), archipelago (Malta + Gozo + Comino),
 
 ---
 
-## --rental
+## Section: `--rental`
 
 ### STR / Airbnb
 
@@ -103,13 +103,13 @@ Malta is the smallest EU state (~530k pop), archipelago (Malta + Gozo + Comino),
 
 ---
 
-## --work
+## Section: `--work=<profession>`
 
 Sliema/St Julians financial-services + iGaming hub; Valletta capital + heritage; Birkirkara/Mosta inland services. Heavy expat community.
 
 ---
 
-## --risks
+## Section: `--risks`
 
 ### Seismic
 - ThinkHazard rates Malta **LOW**. **No active fault crosses islands directly**, BUT **Pantelleria/Sicily Channel Rift Zone (SCRZ)** runs ~80–150 km NW
@@ -149,7 +149,7 @@ Sliema/St Julians financial-services + iGaming hub; Valletta capital + heritage;
 
 ---
 
-## --mains
+## Section: `--mains`
 
 ### Cadastre / Land Registry — HYBRID + IN REFORM
 
@@ -174,20 +174,20 @@ Sliema/St Julians financial-services + iGaming hub; Valletta capital + heritage;
 
 ---
 
-## --crime
+## Section: `--crime`
 
 See `shared/crime-sources.md`. Malta uses:
 - **Malta Police Force** + NSO crime statistics
 
 ---
 
-## --amenities
+## Section: `--amenities`
 
 Universal — see `shared/amenities-osm.md`.
 
 ---
 
-## --climate
+## Section: `--climate`
 
 Universal — see `shared/climate-projections.md`.
 
@@ -309,7 +309,7 @@ Universal — see `shared/climate-projections.md`.
 
 ---
 
-## Status footer
+## Status
 
 **Confidence**: HIGH on no annual property tax (genuinely none — confirmed multiple sources), VAT exempt residential (Schedule 5 Part 2 verified), MEIN ECJ ruling 29 Apr 2025 (Case C-181/23), STR Tourism Accommodation Regs 2025 reform, NSO RPPI Q4 2025 = 177.36 (+6.1% YoY). MEDIUM on AIP minimum thresholds €143,410/€247,701 (CPI-indexed annually — verify before transaction), exact 2026 Budget extensions (Mondaq/CCMalta cited but CTD is authoritative). LOW on canonical SDA list (no single gov PDF — agency lists differ; verify per-transaction with notary).
 

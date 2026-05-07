@@ -12,7 +12,7 @@ Bulgaria (~6.4M pop) joined EU 2007 and **completed Schengen integration 1 Jan 2
 
 ---
 
-## --price
+## Section: `--price`
 
 **Primary index**: **NSI (Национален статистически институт)** — Eurostat-aligned HPI
 - https://www.nsi.bg/ + methodology: https://www.nsi.bg/en/metadata/house-price-index-hpi-227
@@ -40,7 +40,7 @@ Bulgaria (~6.4M pop) joined EU 2007 and **completed Schengen integration 1 Jan 2
 
 ---
 
-## --traffic
+## Section: `--traffic`
 
 - **Agentsiya Patna Infrastruktura (API)** road authority
 - Sofia real-time via Waze
@@ -48,7 +48,7 @@ Bulgaria (~6.4M pop) joined EU 2007 and **completed Schengen integration 1 Jan 2
 
 ---
 
-## --tax
+## Section: `--tax`
 
 ### Currency note (2026)
 
@@ -94,7 +94,7 @@ BGN no longer Bulgaria's currency. **EUR is legal tender from 1 Jan 2026** (Coun
 
 ---
 
-## --rental
+## Section: `--rental`
 
 ### STR / Airbnb
 
@@ -109,13 +109,13 @@ BGN no longer Bulgaria's currency. **EUR is legal tender from 1 Jan 2026** (Coun
 
 ---
 
-## --work
+## Section: `--work=<profession>`
 
 Sofia IT/services hub; Plovdiv automotive (PIB Trakia + Trakya zones); Varna/Burgas tourism; Bansko ski-season. Bulgaria has substantial IT outsourcing.
 
 ---
 
-## --risks
+## Section: `--risks`
 
 ### Seismic
 
@@ -147,7 +147,7 @@ Sofia IT/services hub; Plovdiv automotive (PIB Trakia + Trakya zones); Varna/Bur
 
 ---
 
-## --mains
+## Section: `--mains`
 
 ### Cadastre / Land Registry — TWO institutions
 
@@ -178,7 +178,7 @@ Sofia IT/services hub; Plovdiv automotive (PIB Trakia + Trakya zones); Varna/Bur
 
 ---
 
-## --crime
+## Section: `--crime`
 
 See `shared/crime-sources.md`. Bulgaria uses:
 - **MVR (Ministry of Interior)**: https://www.mvr.bg/
@@ -186,13 +186,13 @@ See `shared/crime-sources.md`. Bulgaria uses:
 
 ---
 
-## --amenities
+## Section: `--amenities`
 
 Universal — see `shared/amenities-osm.md`.
 
 ---
 
-## --climate
+## Section: `--climate`
 
 Universal — see `shared/climate-projections.md`.
 
@@ -277,7 +277,7 @@ Universal — see `shared/climate-projections.md`.
 
 ---
 
-## Status footer
+## Status
 
 **Confidence**: HIGH on eurozone entry 1 Jan 2026 (multiple verified sources), VAT 20% no reduced rate for housing, CGT 10% with 3yr/5yr exemption schedule, KAIS cadastre + Registry Agency dual-system, non-EU "cannot own land directly" rule, Toplofikatsiya Sofia crisis (2025 documented). MEDIUM on per-municipality acquisition tax rates (255 municipalities; verify per locality), Russian-buyer post-2022 secondary effects (anecdote-heavy). LOW on Black Sea complex maintenance fees per-development (varies; verify per-complex).
 

@@ -77,6 +77,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- **Playbook header normalization** — 8 playbooks (BG, CY, LT, LU, LV, MC, MT, RO) had section headers in the legacy `## --price` form instead of the canonical `` ## Section: `--price` `` form used by the other 79. Renamed 95 H2 headings across those 8 files (10 core sections per file + 8 Monaco-specific overlay sections + 7 `## Status footer` → `## Status`). Pure heading-text rename; no content changes. All 87 playbooks now use canonical section headers for the 7 core flags (`--price` / `--traffic` / `--tax` / `--rental` / `--work=<profession>` / `--risks` / `--mains`); the 24 playbooks that carry the extension sections (`--crime` / `--climate` / `--amenities`) likewise use the canonical form.
 - chore(docs): refresh stale 62-countries refs → 87 + cut \[2026.05.1\] CHANGELOG entry ([#76](https://github.com/soreavis/property-deep-dive/pull/76)) — by @soreavis
 - feat(updater): tiered refresh cadence (A/B/C — 15/30/42 countries) ([#78](https://github.com/soreavis/property-deep-dive/pull/78)) — by @soreavis
 - docs: add ROADMAP.md country backlog ([#83](https://github.com/soreavis/property-deep-dive/pull/83)) — by @soreavis

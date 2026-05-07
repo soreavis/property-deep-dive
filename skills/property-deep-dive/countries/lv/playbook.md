@@ -12,7 +12,7 @@ Latvia is the middle Baltic state (~1.85M pop). **Cadastre and Land Book are SEP
 
 ---
 
-## --price
+## Section: `--price`
 
 **Primary index**: **CSP (Central Statistical Bureau)** — Eurostat-aligned HPI quarterly
 - https://www.csp.gov.lv/ + EN https://stat.gov.lv/en
@@ -45,7 +45,7 @@ Latvia is the middle Baltic state (~1.85M pop). **Cadastre and Land Book are SEP
 
 ---
 
-## --traffic
+## Section: `--traffic`
 
 **Sources**:
 - **Latvijas Valsts ceļi (LVC)**: https://lvceli.lv/
@@ -54,7 +54,7 @@ Latvia is the middle Baltic state (~1.85M pop). **Cadastre and Land Book are SEP
 
 ---
 
-## --tax
+## Section: `--tax`
 
 ### Stamp duty (transfer tax) — Zemesgrāmata registration
 
@@ -103,7 +103,7 @@ Source: https://taxsummaries.pwc.com/latvia/individual/income-determination
 
 ---
 
-## --rental
+## Section: `--rental`
 
 ### Long-term rental
 - 10% PIT flat (deduction-allowed) is dominant route
@@ -121,13 +121,13 @@ Source: https://taxsummaries.pwc.com/latvia/individual/income-determination
 
 ---
 
-## --work
+## Section: `--work=<profession>`
 
 Riga financial-services hub (post-2018 ABLV scandal still recovering); Daugavpils/Rēzekne (Latgale) lower demand; Liepāja/Ventspils ports + manufacturing. Remote/hybrid common.
 
 ---
 
-## --risks
+## Section: `--risks`
 
 ### Flood
 - **LVĢMC (Latvian Environment, Geology and Meteorology Centre)**: https://www.lvgmc.lv/
@@ -156,7 +156,7 @@ Riga financial-services hub (post-2018 ABLV scandal still recovering); Daugavpil
 
 ---
 
-## --mains
+## Section: `--mains`
 
 ### Cadastre + Land Book — SEPARATE INSTITUTIONS
 
@@ -187,7 +187,7 @@ Dominant in cities (Riga, Daugavpils, Liepāja, Jelgava). **Rīgas siltums (RS)*
 
 ---
 
-## --crime
+## Section: `--crime`
 
 See `shared/crime-sources.md`. Latvia uses:
 - **Iekšlietu ministrija (MoI) — State Police**: https://www.vp.gov.lv/
@@ -195,13 +195,13 @@ See `shared/crime-sources.md`. Latvia uses:
 
 ---
 
-## --amenities
+## Section: `--amenities`
 
 Universal — see `shared/amenities-osm.md`.
 
 ---
 
-## --climate
+## Section: `--climate`
 
 Universal — see `shared/climate-projections.md`.
 
@@ -283,7 +283,7 @@ Universal — see `shared/climate-projections.md`.
 
 ---
 
-## Status footer
+## Status
 
 **Confidence**: HIGH on stamp-duty 1.5%/2% with €50k cap, 2026 PIT reform 25.5%/33% (KPMG/PwC verified), cadastre + Land Book separation, compulsory land lease quirk (academic + legal sources). MEDIUM on per-municipality NĪN rates (Riga regulation specific lookup needed), 2025 cadastral fiscal/universal split (reform recent). LOW on per-locality rental yield benchmarks.
 

@@ -12,7 +12,7 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 
 ---
 
-## --price
+## Section: `--price`
 
 **Primary index**: **IMSEE — Observatoire de l'Immobilier**, "Marché Immobilier Monégasque" (annual + quarterly resale & new-build series).
 - https://www.monacostatistics.mc/Logement-Immobilier (publication landing)
@@ -60,7 +60,7 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 
 ---
 
-## --traffic
+## Section: `--traffic`
 
 - **Direction de la Prospective, de l'Urbanisme et de la Mobilité (DPUM)** within the Département de l'Équipement, de l'Environnement et de l'Urbanisme — owns roads + traffic data
 - **Compagnie des Autobus de Monaco (CAM)**: https://www.cam.mc/ — bus network
@@ -72,7 +72,7 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 
 ---
 
-## --tax
+## Section: `--tax`
 
 ### Transfer tax on purchase (droits d'enregistrement)
 
@@ -120,7 +120,7 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 
 ---
 
-## --rental
+## Section: `--rental`
 
 ### Long-let market
 
@@ -138,13 +138,13 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 
 ---
 
-## --work
+## Section: `--work=<profession>`
 
 Banking + family-office (~120+ regulated banks/private banks per CCAF), insurance, superyacht industry (Port Hercule), gaming (SBM — Société des Bains de Mer, Casino + hotels group), cruise tourism, light services. Workforce ~58,000 (IMSEE 2023) of which ~75% are cross-border commuters (FR/IT). **Job market for new arrivals is residency-permit-gated** — see `shared/visa-programs.md` for Monaco residency mechanics; a property purchase or rental + bank deposit is the typical entry path.
 
 ---
 
-## --risks
+## Section: `--risks`
 
 ### Seismic
 
@@ -174,7 +174,7 @@ Banking + family-office (~120+ regulated banks/private banks per CCAF), insuranc
 
 ---
 
-## --mains
+## Section: `--mains`
 
 ### Cadastre & Land Registry — RESTRICTED ACCESS
 
@@ -194,7 +194,7 @@ Banking + family-office (~120+ regulated banks/private banks per CCAF), insuranc
 
 ---
 
-## --crime
+## Section: `--crime`
 
 See `shared/crime-sources.md`. Monaco uses:
 - **Direction de la Sûreté Publique (DSP)**: https://service-public-entreprises.gouv.mc/ + IMSEE annual security indicators
@@ -202,7 +202,7 @@ See `shared/crime-sources.md`. Monaco uses:
 
 ---
 
-## --amenities
+## Section: `--amenities`
 
 Universal — see `shared/amenities-osm.md`.
 
@@ -210,7 +210,7 @@ Monaco-specific amenities note: 80+ public lifts/travelators bridge the elevatio
 
 ---
 
-## --climate
+## Section: `--climate`
 
 Universal — see `shared/climate-projections.md`.
 
@@ -218,7 +218,7 @@ Monaco anchors on Plan National Énergie-Climat 2050 (carbon neutral commitment)
 
 ---
 
-## --finance (Monaco-specific overlay)
+## Section: `--finance` (Monaco-specific overlay)
 
 Universal logic in `shared/finance.md`. Monaco-specific:
 
@@ -230,7 +230,7 @@ Universal logic in `shared/finance.md`. Monaco-specific:
 
 ---
 
-## --currency (Monaco-specific overlay)
+## Section: `--currency` (Monaco-specific overlay)
 
 Universal logic in `shared/currency.md`. Monaco-specific:
 
@@ -240,7 +240,7 @@ Universal logic in `shared/currency.md`. Monaco-specific:
 
 ---
 
-## --visa (Monaco-specific overlay)
+## Section: `--visa` (Monaco-specific overlay)
 
 Universal logic in `shared/visa-programs.md`. Monaco-specific (see also `--mains` § Foreign-buyer rules above for fuller treatment):
 
@@ -252,7 +252,7 @@ Universal logic in `shared/visa-programs.md`. Monaco-specific (see also `--mains
 
 ---
 
-## --insurance (Monaco-specific overlay)
+## Section: `--insurance` (Monaco-specific overlay)
 
 Universal logic in `shared/insurance.md`. Monaco-specific:
 
@@ -263,7 +263,7 @@ Universal logic in `shared/insurance.md`. Monaco-specific:
 
 ---
 
-## --notary (Monaco-specific overlay)
+## Section: `--notary` (Monaco-specific overlay)
 
 Universal logic in `shared/notary-process.md`. Monaco-specific:
 
@@ -277,7 +277,7 @@ Universal logic in `shared/notary-process.md`. Monaco-specific:
 
 ---
 
-## --macro (Monaco-specific overlay)
+## Section: `--macro` (Monaco-specific overlay)
 
 Universal logic in `shared/macro.md`. Monaco-specific (IMSEE 2023 + Monegasque Budget 2024-25):
 
@@ -289,7 +289,7 @@ Universal logic in `shared/macro.md`. Monaco-specific (IMSEE 2023 + Monegasque B
 
 ---
 
-## --demographics (Monaco-specific overlay)
+## Section: `--demographics` (Monaco-specific overlay)
 
 Universal logic in `shared/demographics.md`. Monaco-specific (IMSEE Recensement 2023 + Bilan Démographique 2024):
 
@@ -302,7 +302,7 @@ Universal logic in `shared/demographics.md`. Monaco-specific (IMSEE Recensement 
 
 ---
 
-## --exit (Monaco-specific overlay)
+## Section: `--exit` (Monaco-specific overlay)
 
 Universal logic in `shared/exit.md`. Monaco-specific:
 

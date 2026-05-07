@@ -12,7 +12,7 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
 
 ---
 
-## --price
+## Section: `--price`
 
 **Primary index**: **STATEC HPI** (quarterly)
 - https://statistiques.public.lu/en/publications/series/logement-chiffres.html
@@ -49,7 +49,7 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
 
 ---
 
-## --traffic
+## Section: `--traffic`
 
 - **Administration des ponts et chaussées** road authority
 - Real-time CFL/AVL traffic
@@ -57,7 +57,7 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
 
 ---
 
-## --tax
+## Section: `--tax`
 
 ### Transfer tax on purchase (acquisition)
 
@@ -110,7 +110,7 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
 
 ---
 
-## --rental
+## Section: `--rental`
 
 ### STR / Airbnb (2025 reform)
 
@@ -126,13 +126,13 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
 
 ---
 
-## --work
+## Section: `--work=<profession>`
 
 EU-quarter institutional staff (Kirchberg), finance (Place Financière), tech (Esch-Belval). Cross-border commute tradition: large daily inflow from FR-Lorraine/DE-Saarland/BE-Luxembourg-province.
 
 ---
 
-## --risks
+## Section: `--risks`
 
 ### Flood
 
@@ -161,7 +161,7 @@ EU-quarter institutional staff (Kirchberg), finance (Place Financière), tech (E
 
 ---
 
-## --mains
+## Section: `--mains`
 
 ### Cadastre + Land Registry — SPLIT
 
@@ -184,7 +184,7 @@ EU-quarter institutional staff (Kirchberg), finance (Place Financière), tech (E
 
 ---
 
-## --crime
+## Section: `--crime`
 
 See `shared/crime-sources.md`. Luxembourg uses:
 - **Police Grand-Ducale**: https://police.public.lu/
@@ -192,13 +192,13 @@ See `shared/crime-sources.md`. Luxembourg uses:
 
 ---
 
-## --amenities
+## Section: `--amenities`
 
 Universal — see `shared/amenities-osm.md`.
 
 ---
 
-## --climate
+## Section: `--climate`
 
 Universal — see `shared/climate-projections.md`.
 
@@ -285,7 +285,7 @@ Universal — see `shared/climate-projections.md`.
 
 ---
 
-## Status footer
+## Status
 
 **Confidence**: HIGH on STATEC Q1 2025 prices, Bëllegen Akt €40k permanent (June 2025 verified), 7% transfer-tax structure, CGT 2-year speculative + half-rate post-2yr (PwC verified). MEDIUM on per-commune impôt foncier amounts (commune coefficients exist but no consolidated public table — say "consult notaire"), exact post-30-Jun-2025 CGT mechanics for properties straddling temporary regime (verify with adviser if H2 2025 sale). LOW on per-Belair/Limpertsberg/Kirchberg rents (no STATEC-grade source verified to early 2026 — cite Observatoire de l'Habitat by name and let user pull current quarter).
 
