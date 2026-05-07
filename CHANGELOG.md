@@ -92,6 +92,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - refactor(ci): consolidate `tier-b-refresh.yml` + `tier-c-refresh.yml` onto a shared `_tier-refresh.yml` reusable workflow — `tier-a-refresh.yml` left standalone (regwatch auto-promotion step is A-only); behavior, cron timing, artifact names, and labels unchanged
 - refactor(ci): consolidate tier-b/tier-c refresh workflows onto reusable _tier-refresh.yml ([#101](https://github.com/soreavis/property-deep-dive/pull/101)) — by @soreavis
 - **`shared/exit.md` split into per-region files.** The 936-line monolith broken into a slim 98-line index (universal contract, output template, exit-profile structure, liquidity heatmap, cross-country patterns, anti-hallucination, status, plus a Region files index) plus 12 self-contained region files under `shared/exit/` (western-europe, iberia-mediterranean, nordics, cee-baltics, western-balkans, anglo-non-eu, latin-america, mena-levant-north-africa, sub-saharan-africa, asia-pacific, south-asia, caucasus). Pure structural move — no content changes, no fact updates, no `Last verified` re-stamps. Region content byte-identical to original; cross-references that target `shared/exit.md` continue to resolve to the index.
+- refactor(shared): split exit.md into per-region files + slim index ([#105](https://github.com/soreavis/property-deep-dive/pull/105)) — by @soreavis
 
 ## [2026.05.1] - 2026-05-01
 
