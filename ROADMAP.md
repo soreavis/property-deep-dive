@@ -1,59 +1,81 @@
-# Roadmap — Country Backlog
+# Roadmap — Coverage Backlog
 
-Working document for country additions beyond the current 87. Captures candidates, priority tiers, and skip rationale so future batches can pick up where prior research left off without re-litigating the analysis.
-
-**Status**: backlog — no commitment to schedule. Drafted 2026-05-01 after the 62 → 87 sprint (PRs #69 + #70 + #74 + #76 + #78 tier system).
+Working document for additions beyond the current 103 countries. Captures completed batches, future country candidates, section-level extensions, and skip rationale.
 
 ## Current coverage
 
-87 countries fully populated across 10 regions (`_regions.json`). Tiered refresh cadence in `_tiers.json` (A=15 quarterly · B=30 semi-annual · C=42 annual).
+103 countries fully populated across 13 regions (`_regions.json`). Tiered refresh cadence in `_tiers.json` (A=16 quarterly · B=38 semi-annual · C=49 annual + 1 unified moved by #113).
 
-## Tier-1 — high-signal candidates (8)
+## Completed batches
 
-Foreign-buyer demand + regulatory activity + addressable data quality. Strongest candidates for the next batch.
+### Tier-1 (PR #111 — 2026-05-07)
 
-| ISO2 | Country | Why now | Likely refresh tier |
-|---|---|---|---|
-| **mu** | Mauritius | Financial centre; IRS/PDS schemes for foreign property buyers; retirement-friendly tax regime; mature primary-source data | B |
-| **kz** | Kazakhstan | Almaty/Astana booming post-2022 Russia exodus; 2024-25 fiscal reforms; active foreign-investor track | A or B |
-| **cv** | Cape Verde | Active residency-by-investment programme; EUR-pegged tourism property; EU-aligned regulation | B |
-| **sc** | Seychelles | Luxury second-home market; distinct land-leasing rules for non-residents; recent reforms | C |
-| **cn** | China | Foreign-buyer rules unique (PRC residency requirements, tier-1 city restrictions) but immense addressable demand for Chinese-diaspora users | B |
-| **jm** | Jamaica | Strong diaspora demand; retirement market; USD-denominated transactions common | C |
-| **bs** | Bahamas | Retirement/second-home market; no-income-tax regime; high transaction volumes; BDR + economic-permanent-residence routes | B |
-| **sm** | San Marino | Trivial effort; completes the microstate group (LI/AD/MC/SM) for symmetry | C |
+8 countries: mu (Mauritius), kz (Kazakhstan), cv (Cape Verde), sc (Seychelles), cn (China), jm (Jamaica), bs (Bahamas), sm (San Marino). Created `caribbean` region (do/bs/jm). 26 regulatory-watch entries added.
 
-**Region impact**: Mauritius/Cape Verde/Seychelles → expand Africa region (6 → 9). Kazakhstan → new "Central Asia" region or extend Caucasus & Eastern non-EU (4 → 5). China → APAC (12 → 13). Jamaica/Bahamas → new "Caribbean" region or extend Latin America (12 → 14). San Marino → European Microstates (3 → 4).
+### Tier-2 (PR #113 — 2026-05-07/08)
 
-**Estimated effort**: ~2.5 hours via parallel subagents (single batch, similar to May 2026 sprint).
+8 countries: bb (Barbados), bz (Belize), lk (Sri Lanka), kh (Cambodia), mv (Maldives), gh (Ghana), rw (Rwanda), uz (Uzbekistan). Created `south-asia` (in/lk/mv) + `central-asia` (kz/uz) regions. 34 regulatory-watch entries added.
 
-## Tier-2 — niche but real demand (8)
+## Coverage extensions — post-103 backlog
 
-Worth doing eventually but lower signal/effort ratio than Tier-1.
+Sourced from Reddit gap-analysis 2026-05-08. Cross-validated across 6+ subreddits + adjacent expat forums.
 
-| ISO2 | Country | Notes |
+### NEW sections
+
+| Flag | Why | Effort |
 |---|---|---|
-| **bb** | Barbados | DNV (Welcome Stamp) + retirement; smaller volumes than BS but distinct legal regime |
-| **bz** | Belize | Retirement market + new RBI; primary-source data thin |
-| **lk** | Sri Lanka | Post-2022 economic-crisis recovery; golden visa restored 2024 |
-| **kh** | Cambodia | Sihanoukville/Phnom Penh foreign-buyer activity; strata title rules unique |
-| **mv** | Maldives | Luxury private-island market; non-resident leasehold-only |
-| **gh** | Ghana | Diaspora-driven; Akwaaba investor visa; Accra hot market |
-| **rw** | Rwanda | Kigali emerging; investor visa; clean primary-source data |
-| **uz** | Uzbekistan | Post-2017 opening; foreign-investor reforms 2023-25; thin English-language sources |
+| `--relocation` | Pets + driving licence + vehicle import + utility setup. All "surprise cost / surprise timeline" 90-day post-completion. ≥3 subreddits. | ~300-400 lines, country-tagged |
+| `--schools` | International + local school cost / waitlists / residency-priority. Shapes intra-country location decisions. ≥3 subreddits. | ~250-350 lines, country-tagged |
 
-## Special case — Crown Dependencies & territories
+### Section extensions (existing flags)
 
-Significant offshore property markets with their own legal regimes, but **schema doesn't cleanly accommodate sub-sovereign jurisdictions** under the country-ISO2 model:
+- `--finance` — add banking sub-section (NIE/NIF/CURP order, FATCA rejection workarounds, expat-banking-arm minimums)
+- `--rental` — neighborhood-level STR moratorium tracking via `regulatory-watch.md`
+- `--notary` — forced-heirship sub-section (EU 650/2012, French Aug 2021 amendment, Italian quota legittima)
+- `--risks` / `--type=off-plan` — build-quality + new-build defect-rate flags (Spain ~95%, Cyprus damp construction)
+- `--digital-nomad` (or new sub-flag) — working-age healthcare carve-out (currently only retirement-age covered under `--retirement`)
 
-- **je** (Jersey)
-- **gg** (Guernsey)
-- **im** (Isle of Man)
-- **gi** (Gibraltar)
+### TCO calculator additions
 
-Each has high foreign-buyer demand, distinct property law, and is poorly covered under the parent state's playbook (uk). Adding them requires a design discussion: do we introduce a "territory" classifier? Add them as siblings of their parent state? Reuse the country slot with a sub-region distinction? **Defer until schema decision.**
+- Community/HOA charges line + reserve-fund-health flag
+- Insurance line (already implicit; surface explicitly)
+- Country-specific lines (e.g., fideicomiso renewal for Mexico restricted-zone)
 
-Similar territory-level cases for future consideration: Faroe Islands (DK), Greenland (DK), French overseas (FR), Caribbean Netherlands (NL).
+### Disconfirmed (already adequately covered)
+
+- Internet/fiber neighborhood granularity — `--mains` is sufficient
+- Customary-tenure / nominee structures — `compare.md` + `finance.md` cover (Bali nominee voidness, Mexico fideicomiso 50/100km, Thailand 49% condo, Philippines 60/40)
+- Foreign-buyer mortgages — `--finance` matrix is dense
+- Visa/Golden-Visa lifecycle — `visa-programs.md` ENDED registry adequate
+- Capital-controls + FET-form — `--currency` strong
+- EV chargers — low signal, single-line under `--mains` enough
+
+## Schema-blocked: Crown Dependencies + territories
+
+The project's country-ISO2 model doesn't cleanly accommodate sub-sovereign jurisdictions. **Required first: schema decision PR** answering: territory classifier? sibling-of-parent (uk-je, uk-im, dk-fo, dk-gl, fr-yt, fr-re, nl-aw, nl-cw)? Sub-region under parent's playbook?
+
+Once schema is settled, three batches are unlocked:
+
+### Batch A — UK Crown Dependencies (4)
+
+| Code | Jurisdiction | Why |
+|---|---|---|
+| **je** | Jersey | Major offshore finance centre; HVR + 2(1)(e) housing licence; SoCT regime |
+| **gg** | Guernsey | Open vs Local market split; "Inscribed" property tier 5 entry |
+| **im** | Isle of Man | Distinct tax regime (no CGT, no inheritance); finance sector |
+| **gi** | Gibraltar | UK overseas territory (not Crown Dep but same schema problem); EU/Schengen interaction post-Brexit |
+
+### Batch B — DK territories (2)
+
+| Code | Jurisdiction | Why |
+|---|---|---|
+| **fo** | Faroe Islands | Distinct legal regime; Faroese-language primary sources; salmon-economy property dynamics |
+| **gl** | Greenland | Self-government in 2009; Inuit property-law overlay; geopolitical / mineral-rights interest |
+
+### Batch C — FR overseas + NL Caribbean (deferred pending demand signal)
+
+- French overseas (Martinique, Guadeloupe, Réunion, Mayotte, French Guiana, etc.) — applies metropolitan French law with overlays; foreign-buyer demand modest
+- Caribbean Netherlands (Aruba, Bonaire, Curaçao, Sint Maarten) — different legal status: Aruba/Curaçao/Sint Maarten are constituent countries; Bonaire/Saba/St Eustatius are special municipalities. Heterogeneous schema mess on its own.
 
 ## Skip — not worth pursuing
 
@@ -69,3 +91,6 @@ Similar territory-level cases for future consideration: Faroe Islands (DK), Gree
 ## Decision log
 
 - **2026-05-01**: backlog drafted post-87-country sprint; no batch scheduled. Tier-1 prioritised for next research cycle when the user greenlights.
+- **2026-05-07**: Tier-1 batch landed (#111). New caribbean region.
+- **2026-05-08**: Tier-2 batch landed (#113). New south-asia + central-asia regions. Tier-1 + Tier-2 backlog exhausted within current schema.
+- **2026-05-08**: Reddit gap-analysis surfaced 7 strong-signal coverage gaps. Backlog item for post-103 work.

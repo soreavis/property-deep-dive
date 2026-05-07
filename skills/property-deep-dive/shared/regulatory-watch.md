@@ -592,4 +592,4 @@ Multi-line is fine if the entry is complex; the seven-pipe format is the canonic
 
 ---
 
-*Last full audit: 2026-05-07 (added Tier-1 batch: MU/KZ/CV/SC/CN/JM/BS/SM — total 95 countries tracked). Prior batch 2026-05-01 added 25 countries. Next mandatory full audit: 2026-07-26 (quarterly).*
+*Last full audit: 2026-05-08 (added Tier-2 batch: BB/BZ/LK/KH/MV/GH/RW/UZ — total 103 countries tracked). Prior batch 2026-05-07 added Tier-1 (MU/KZ/CV/SC/CN/JM/BS/SM). Next mandatory full audit: 2026-07-26 (quarterly).*

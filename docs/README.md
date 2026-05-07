@@ -37,4 +37,4 @@ Full documentation for **property-deep-dive**. Most content lives at the repo ro
 
 ## Country playbooks
 
-87 fully-populated country playbooks live in [`skills/property-deep-dive/countries/<iso2>/playbook.md`](../skills/property-deep-dive/countries/) — open the directory to browse them.
+103 fully-populated country playbooks live in [`skills/property-deep-dive/countries/<iso2>/playbook.md`](../skills/property-deep-dive/countries/) — open the directory to browse them.

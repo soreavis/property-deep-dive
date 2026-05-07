@@ -83,7 +83,7 @@ If 2+ critical sources fail simultaneously for one country, escalate to immediat
 
 ## Summary
 
-- 95 countries validated
+- 103 countries validated
 - 41 healthy 🟢
 - 2 acceptable 🟡 (LV, AL)
 - 1 degraded 🟠 (RO — INSSE intermittent 503)

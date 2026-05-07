@@ -98,4 +98,4 @@ See [SKILL.md](../skills/property-deep-dive/SKILL.md) for the complete argument-
 
 ## Country support
 
-87 fully-populated country playbooks. Browse [`skills/property-deep-dive/countries/`](../skills/property-deep-dive/countries/) or see the [country matrix in README](../README.md#country-support--87-fully-populated).
+103 fully-populated country playbooks. Browse [`skills/property-deep-dive/countries/`](../skills/property-deep-dive/countries/) or see the [country matrix in README](../README.md#country-support--103-fully-populated).

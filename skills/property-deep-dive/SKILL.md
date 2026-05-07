@@ -161,11 +161,11 @@ The skill has a maintenance mode for keeping country playbooks fresh. Sources ch
 
 | Mode | Cadence | Time | Countries |
 |---|---|---|---|
-| `--validate-only` | Weekly | ~5 min | all 87 (URL liveness only) |
-| `--health-report` | Monthly | ~1 min | all 87 (decay matrix) |
-| `--update --tier=A` | Quarterly | ~7-8 hr | 15 high-velocity |
-| `--update --tier=B` | Semi-annual | ~15 hr | 30 mid-volume |
-| `--update --tier=C` | Annual | ~21 hr | 42 stable/frontier |
+| `--validate-only` | Weekly | ~5 min | all 103 (URL liveness only) |
+| `--health-report` | Monthly | ~1 min | all 103 (decay matrix) |
+| `--update --tier=A` | Quarterly | ~7-8 hr | 16 high-velocity |
+| `--update --tier=B` | Semi-annual | ~15 hr | 38 mid-volume |
+| `--update --tier=C` | Annual | ~21 hr | 49 stable/frontier |
 | `--update --add=<iso2>` | As needed | ~30 min/country | new scaffold |
 
 Tier membership lives in `_tiers.json` at the repo root. See `shared/updater.md` § Refresh tiers for the full spec including auto-promotion via regulatory-watch and manual `--include`/`--exclude` overrides. **Always run `--diff` first** if uncertain; `--interactive` is the safest mode.
@@ -191,7 +191,7 @@ The decay is computed at **render time** (every section invocation), not only du
 
 `shared/regulatory-watch.md` is the **single source of truth for "what changed when"** — date-stamped reform tracker covering:
 - ENDED programs registry (golden visas, NHR, MEIN, CBI — anti-hallucination critical)
-- Recently enacted reforms (last 24 months, all 87 countries)
+- Recently enacted reforms (last 24 months, all 103 countries)
 - Pending / in-flight reforms with revisit dates
 - EU directive transposition deadlines (EPBD recast 2024/1275 due 29 May 2026, AMLD6, DAC8, etc.)
 - Watchlist (rumored / proposed)
@@ -210,11 +210,11 @@ Consult this file before any `--tax`, `--rental`, `--visa`, `--finance` output. 
 **Pair with `/schedule`** for automation (tiered):
 
 ```
-/schedule weekly: /property-deep-dive --update --validate-only       # URL liveness, all 87
+/schedule weekly: /property-deep-dive --update --validate-only       # URL liveness, all 103
 /schedule monthly: /property-deep-dive --health-report               # decay matrix
-/schedule quarterly: /property-deep-dive --update --tier=A           # 15 high-velocity
-/schedule semi-annually: /property-deep-dive --update --tier=B       # 30 mid-volume
-/schedule annually: /property-deep-dive --update --tier=C            # 42 stable/frontier
+/schedule quarterly: /property-deep-dive --update --tier=A           # 16 high-velocity
+/schedule semi-annually: /property-deep-dive --update --tier=B       # 38 mid-volume
+/schedule annually: /property-deep-dive --update --tier=C            # 49 stable/frontier
 ```
 
 ## Country support matrix
@@ -448,7 +448,7 @@ Always justify the colour with one sentence.
 ```
 property-deep-dive/
 ├── SKILL.md                   # this file (master router)
-├── countries/                 # 87 countries, all fully populated as of 2026-05-01
+├── countries/                 # 103 countries, all fully populated as of 2026-05-08
 │   ├── fr/playbook.md         # France
 │   ├── it/playbook.md         # Italy
 │   ├── cz/playbook.md         # Czech Republic
@@ -544,12 +544,12 @@ property-deep-dive/
     ├── anti-hallucination.md    # 🔒 mandatory: source-honesty rules + 7-check validator gate
     ├── updater.md               # 🔧 maintenance mode: --update flag, URL validation, scaffold population
     ├── amenities-osm.md         # universal OSM Overpass patterns for --amenities (works in every country)
-    ├── crime-sources.md         # per-country crime data source registry for --crime (87 countries)
+    ├── crime-sources.md         # per-country crime data source registry for --crime (103 countries)
     ├── climate-projections.md   # universal --climate section: Copernicus + IPCC AR6 + Climate Central
     ├── integrity-checks.md      # --integrity layer: dispute resolver + photo OCR + cadastre cross-check + red-flag scanner
     ├── journeys.md              # --journey=<type> templates
     ├── property-types.md        # --type=<kind> specialized
-    ├── finance.md               # 🆕 universal --finance: foreign-buyer mortgages across 87 countries
+    ├── finance.md               # 🆕 universal --finance: foreign-buyer mortgages across 103 countries
     ├── currency.md              # 🆕 universal --currency: peg / FX / capital controls
     ├── visa-programs.md         # 🆕 universal --visa: RBI / CBI / golden-visa current status (Apr 2026)
     ├── insurance.md             # 🆕 universal --insurance: cat-risk schemes + flood/EQ + climate reforms
