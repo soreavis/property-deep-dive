@@ -254,11 +254,17 @@ jobs:
           # Two cases:
           #   - Branch is brand-new (no remote-tracking ref) → plain push -u.
           #   - Branch already on remote (we rebased onto main) → push with
-          #     `--force-with-lease` against the remote-tracking ref so we
-          #     don't clobber a concurrent push (the lease check fails fast
-          #     if someone else moved the tip while we were running).
+          #     `--force-with-lease` so we don't clobber a concurrent push
+          #     (the lease check fails fast if someone else moved the tip
+          #     while we were running). Bare `--force-with-lease` (no value)
+          #     auto-reads the expected SHA from the branch's upstream
+          #     tracking ref. The previous `=origin/<branch>` form passed a
+          #     local remote-tracking name as the lease refname — git tried
+          #     to resolve `refs/remotes/origin/origin/<branch>` (doesn't
+          #     exist), the lease silently degraded, and the bare push got
+          #     rejected as non-fast-forward.
           if git rev-parse --verify --quiet "refs/remotes/origin/${DIGEST_BRANCH}" >/dev/null; then
-            git push --force-with-lease="origin/${DIGEST_BRANCH}" origin "$DIGEST_BRANCH"
+            git push --force-with-lease origin "$DIGEST_BRANCH"
           else
             git push -u origin "$DIGEST_BRANCH"
           fi
