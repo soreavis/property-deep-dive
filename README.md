@@ -41,7 +41,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 TCO calculator · mortgage calculator · test fixtures · listing-diff watcher · comparable-transactions DB · auto-validate cron · price-index feeds · listing aggregators · photo OCR
 
-## Country support — 95 fully populated
+## Country support — 103 fully populated
 
 <!-- AUTOGEN:country-matrix:start -->
 **Europe core (24)** — 🇫🇷 fr · 🇮🇹 it · 🇨🇿 cz · 🇸🇰 sk · 🇩🇪 de · 🇦🇹 at · 🇨🇭 ch · 🇪🇸 es · 🇵🇹 pt · 🇸🇪 se · 🇫🇮 fi · 🇳🇴 no · 🇬🇧 uk · 🇳🇱 nl · 🇧🇪 be · 🇩🇰 dk · 🇮🇸 is · 🇸🇮 si · 🇮🇪 ie · 🇬🇷 gr · 🇵🇱 pl · 🇪🇪 ee · 🇭🇷 hr · 🇭🇺 hu
@@ -50,7 +50,7 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 **Latin America (11)** — 🇲🇽 mx · 🇧🇷 br · 🇦🇷 ar · 🇨🇷 cr · 🇵🇦 pa · 🇨🇴 co · 🇺🇾 uy · 🇨🇱 cl · 🇵🇪 pe · 🇪🇨 ec · 🇵🇾 py
 
-**Caribbean (3)** — 🇧🇸 bs · 🇩🇴 do · 🇯🇲 jm
+**Caribbean (5)** — 🇧🇸 bs · 🇩🇴 do · 🇯🇲 jm · 🇧🇧 bb · 🇧🇿 bz
 
 **Western Balkans (5)** — 🇷🇸 rs · 🇲🇪 me · 🇧🇦 ba · 🇲🇰 mk · 🇦🇱 al
 
@@ -58,11 +58,15 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 **Türkiye & Middle East (10)** — 🇹🇷 tr · 🇦🇪 ae · 🇮🇱 il · 🇶🇦 qa · 🇸🇦 sa · 🇯🇴 jo · 🇴🇲 om · 🇧🇭 bh · 🇰🇼 kw · 🇱🇧 lb
 
-**Asia-Pacific (13)** — 🇯🇵 jp · 🇰🇷 kr · 🇹🇼 tw · 🇭🇰 hk · 🇲🇴 mo · 🇸🇬 sg · 🇹🇭 th · 🇲🇾 my · 🇮🇩 id · 🇻🇳 vn · 🇵🇭 ph · 🇮🇳 in · 🇨🇳 cn
+**Asia-Pacific (13)** — 🇯🇵 jp · 🇰🇷 kr · 🇹🇼 tw · 🇭🇰 hk · 🇲🇴 mo · 🇸🇬 sg · 🇹🇭 th · 🇲🇾 my · 🇮🇩 id · 🇻🇳 vn · 🇵🇭 ph · 🇨🇳 cn · 🇰🇭 kh
 
-**Africa (9)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg · 🇹🇳 tn · 🇳🇬 ng · 🇰🇪 ke · 🇲🇺 mu · 🇨🇻 cv · 🇸🇨 sc
+**South Asia (3)** — 🇮🇳 in · 🇱🇰 lk · 🇲🇻 mv
 
-**Caucasus & Eastern non-EU (5)** — 🇬🇪 ge · 🇲🇩 md · 🇦🇲 am · 🇦🇿 az · 🇰🇿 kz
+**Africa (11)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg · 🇹🇳 tn · 🇳🇬 ng · 🇰🇪 ke · 🇲🇺 mu · 🇨🇻 cv · 🇸🇨 sc · 🇬🇭 gh · 🇷🇼 rw
+
+**Caucasus & Eastern non-EU (4)** — 🇬🇪 ge · 🇲🇩 md · 🇦🇲 am · 🇦🇿 az
+
+**Central Asia (2)** — 🇰🇿 kz · 🇺🇿 uz
 
 **European Microstates (4)** — 🇱🇮 li · 🇦🇩 ad · 🇲🇨 mc · 🇸🇲 sm
 <!-- AUTOGEN:country-matrix:end -->
@@ -304,7 +308,7 @@ property-deep-dive/
 │   │   ├── broken-url.yml
 │   │   ├── new-country.yml
 │   │   └── regulatory-watch.yml
-│   └── workflows/  (26 in total — see CHANGELOG.md for the full set)
+│   └── workflows/  (27 in total — see CHANGELOG.md for the full set)
 │       ├── pr-validate.yml           # markdownlint + forbidden-phrasings + Status footer + density + arg-hint drift
 │       ├── source-tier-audit.yml     # advisory: primary-vs-aggregator URL ratio per changed playbook (sticky PR comment)
 │       ├── link-check.yml            # lychee internal links (PR + weekly schedule)
@@ -326,7 +330,7 @@ property-deep-dive/
 │   └── pin-actions.sh                # idempotent SHA-pin third-party actions
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~470 lines)
-    ├── shared/                       # 34 universal layer files (~11,600 lines)
+    ├── shared/                       # 34 universal layer files (~11,800 lines)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
     │   ├── 22 section implementations (universal logic + per-country overlays)
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
@@ -337,7 +341,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 122 markdown files, ~63,400 lines (SKILL.md + 34 shared/ + 87 country playbooks).
-**Repo total**: 156 markdown files, ~71,800 lines (skill content + community / governance files + CHANGELOG) · 34 YAML / JSON config files (26 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 165 markdown files, ~78,400 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

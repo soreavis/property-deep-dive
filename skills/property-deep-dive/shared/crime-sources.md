@@ -781,6 +781,81 @@ For the property's locality, return:
 - **Granularity**: national + 9 castelli (Città di San Marino, Borgo Maggiore, Serravalle, Domagnano, Acquaviva, Faetano, Fiorentino, Chiesanuova, Montegiardino) + Rimini-Riccione corridor cross-border patterns
 - **Caveat**: very small absolute numbers (~34k pop) → severe statistical noise + privacy implications; published rates structurally minimal — Italy-overflow petty crime (Rimini-corridor pickpocket / vehicle break-in) most material vector; transit-state crime rare; sectoral-financial / banking fraud (post-2009 banking-secrecy reforms) is material historical series-break; gendarmeria-vs-Polizia Civile-vs-Guardia di Rocca jurisdictional split — three separate statistical streams; Italian-resident-cross-border traveller statistically over-represented vs Sammarinese resident in absolute counts
 
+### 🇧🇧 Barbados
+
+- **Royal Barbados Police Force (RBPF)**: `https://www.rbpf.gov.bb/` — annual report + monthly crime statistics; homicide, assault, burglary, theft, drug, traffic
+- **Barbados Statistical Service (BSS)**: `https://www.barstats.gov.bb/` — Statistical Abstract crime tables (cross-validation) + per-parish breakdowns
+- **Caribbean Public Health Agency (CARPHA)**: regional homicide + injury surveillance
+- **UNODC Caribbean**: country profile aggregates (rate-per-100k cross-jurisdiction comparator)
+- **Granularity**: 11 parishes (St. Michael / Christ Church / St. James / St. Peter / St. Lucy / St. Andrew / St. Joseph / St. John / St. Philip / St. George / St. Thomas) + Bridgetown municipality + RBPF policing zones
+- **Caveat**: 2025 RBPF homicide statistics under reform — gang-feud cycle in Bridgetown south + Bridgetown SE 2024-25 should be tracked; tourist-corridor crime (south coast Christ Church / west-coast St. James + St. Peter) typically property-targeted opportunistic — denominator-mismatch caution (resident pop vs transient pop); rural parishes (St. Andrew / St. Joseph / St. John / St. Lucy) very low crime; Hurricane Beryl 2024 + insurance-claim fraud uptick
+
+### 🇧🇿 Belize
+
+- **Belize Police Department**: `https://www.belizepolice.bz/` — annual report + monthly crime statistics
+- **Statistical Institute of Belize (SIB)**: `https://sib.org.bz/` — Statistical Abstract crime/justice section
+- **UNODC Caribbean / Central America**: country profile aggregates
+- **Caribbean Court of Justice / Belize courts statistics**
+- **Granularity**: 6 districts (Belize / Cayo / Corozal / Orange Walk / Stann Creek / Toledo) + San Pedro Town (Ambergris Caye) special-status + ~60 villages-as-locality (where reported)
+- **Caveat**: **Belize City carries disproportionate share** of national homicide — known historically high gang-related rate concentrated South Side neighborhoods (Belize District); rural areas (Cayo / Corozal / Orange Walk / interior Toledo / Stann Creek) materially lower; **tourist-corridor (Ambergris Caye / Caye Caulker / Placencia / Cayo expat parcels)** typically property-targeted opportunistic — denominator-mismatch caution; Maya communal-land disputes in Toledo District (CCJ 2015 ruling) carry separate dispute pattern; small absolute numbers (~410k pop) → statistical noise — multi-year trend reading more reliable than single-year point estimate
+
+### 🇱🇰 Sri Lanka
+
+- **Sri Lanka Police**: `https://www.police.lk/` — Crimes Statistics + annual report by district + Grama Niladhari division (where digitised)
+- **Department of Census and Statistics (DCS)**: `https://www.statistics.gov.lk/` — Statistical Abstract crime/justice section + provincial/district profiles
+- **Ministry of Justice**: `https://moj.gov.lk/` — court statistics + prison statistics
+- **UNODC South Asia**: country profile aggregates
+- **Granularity**: 9 Provinces → 25 Districts → 331 Divisional Secretariats → ~14,022 Grama Niladhari divisions (police-precinct cross-walk uneven)
+- **Caveat**: post-2022 sovereign-default crisis civil-unrest spike (Aragalaya protest 2022 + economic-distress crime rise 2022-23) — material series break in time-series; Cyclone Ditwah Nov 2025 disaster-window crime patterns (looting / fraud / displacement) require separate handling for the affected districts; **Northern + Eastern Provinces post-civil-war (post-2009) reconciliation context** + military presence affects reporting culture; Colombo-Western Province (Colombo / Gampaha / Kalutara / Kandy / Galle) urban crime patterns vs rural agricultural districts; tourist-corridor (Galle / Mirissa / Hikkaduwa / Bentota / Negombo / Trincomalee / Arugam Bay / Tangalle) typically property-targeted opportunistic; cyclone + flood disaster-window fraud spike 2025-26
+
+### 🇰🇭 Cambodia
+
+- **General Commissariat of National Police**: `https://www.cnp.gov.kh/` — operational reporting (limited public crime statistics)
+- **Ministry of Justice**: `https://www.moj.gov.kh/` — court + prosecution statistics
+- **National Institute of Statistics (NIS)**: `https://www.nis.gov.kh/` — General Population Census tables + limited crime aggregates
+- **UNODC Southeast Asia / Pacific**: country profile aggregates + transnational organised crime regional reporting
+- **Tourism Police of Cambodia**: tourist-zone reporting (Phnom Penh / Siem Reap / Sihanoukville / Kep)
+- **Granularity**: 25 provinces (ខេត្ត / khaet) + Phnom Penh capital → districts (ស្រុក / srok) + city sections (ក្រុង / krong) + capital quarters (ខណ្ឌ / khan; PP has 14) → communes (ឃុំ / khum) + sangkats (សង្កាត់) → villages (ភូមិ / phum)
+- **Caveat**: **Cambodia crime statistics underpublished** — many series available only via UNODC aggregator or NGO reports (HRW, Amnesty); **Sihanoukville cycle**: 2017-19 Chinese-capital boom → 2020-21 ban-on-online-gambling crash → cyber-scam-compound + organized-crime patterns 2022-26 (Wall Street Journal / OCCRP / Reuters reporting) — tourist-corridor caution; Phnom Penh urban crime patterns vs rural; Siem Reap tourist-corridor opportunistic; **anti-nominee enforcement intensifying 2024-26** — RE-fraud + nominee-disputes increasing in formal court statistics
+
+### 🇲🇻 Maldives
+
+- **Maldives Police Service (MPS)**: `https://www.police.gov.mv/` — annual report + monthly statistics + atoll-level breakdowns
+- **Maldives Bureau of Statistics**: `https://census.gov.mv/` — Census 2022 + Statistical Yearbook crime/justice section
+- **Prosecutor General's Office**: `https://www.pgoffice.gov.mv/` — prosecution statistics
+- **UNODC South Asia**: country profile aggregates
+- **Granularity**: 26 natural atolls (administratively split into 20 atoll-level constituencies + Malé capital) + ~187 inhabited islands (police presence concentrated Greater Malé + atoll-capital islands)
+- **Caveat**: **resort-island crime is reported separately** from inhabited-island crime via Tourism Ministry channels; Greater Malé (Malé / Hulhumalé / Villingili / Hulhulé) holds ~41% of resident pop → urban crime concentration; **gang-related youth crime** in Malé tracked by MPS post-2010 "Gangs of Malé" reporting series; non-Muslim foreign nationals + Sharia overlay on personal-status crime affects reporting culture (alcohol consumed only on resort islands legally; tourist-resort + inhabited-island regimes are essentially separate); small absolute numbers (~515k pop) → statistical noise
+
+### 🇬🇭 Ghana
+
+- **Ghana Police Service (GPS)**: `https://police.gov.gh/` — annual report + Crime Statistics + per-region breakdowns
+- **Ghana Statistical Service (GSS)**: `https://statsghana.gov.gh/` — Statistical Abstract crime/justice section + 2021 PHC + 2024 mid-year estimates
+- **Judicial Service of Ghana**: `https://www.judicial.gov.gh/` — court statistics
+- **UNODC West and Central Africa**: country profile aggregates
+- **Granularity**: 16 Regions (post-2018 creation of 6 new regions) → 261 MMDAs (Metropolitan / Municipal / District Assemblies) → police-precinct cross-walk
+- **Caveat**: **Greater Accra + Ashanti (Kumasi metro)** carry disproportionate share of urban property crime; **prime Accra (Cantonments / Airport / East Legon / Labone / Ridge / Roman Ridge)** patrolled by private security in addition to GPS — reported crime ≠ actual crime in those neighborhoods; **double-allocation fraud** by stool/skin chiefs is the dominant property-related fraud vector — surfaces via civil litigation more than crime statistics; rural Northern Regions (Northern / Upper East / Upper West / Savannah / North East) lower property crime but seasonal cattle-raid + ethnic-conflict episodes; **galamsey illegal-mining-related violence** in Western / Western North / Eastern / Ashanti (peri-urban Kumasi) — distinct vector
+
+### 🇷🇼 Rwanda
+
+- **Rwanda National Police (RNP)**: `https://www.police.gov.rw/` — annual report + monthly statistics + per-province + per-district
+- **National Institute of Statistics of Rwanda (NISR)**: `https://www.statistics.gov.rw/` — RPHC-5 (2022) + Statistical Yearbook crime/justice section
+- **Ministry of Justice (MINIJUST)**: `https://www.minijust.gov.rw/` — court + prosecution statistics + Abunzi (community mediator) framework reporting
+- **UNODC Eastern Africa**: country profile aggregates
+- **Rwanda Investigation Bureau (RIB)**: `https://www.rib.gov.rw/` — investigations + cybercrime
+- **Granularity**: 5 provinces (Kigali City + Eastern + Northern + Southern + Western) → 30 districts → 416 sectors → 2,148 cells → 14,837 villages (umudugudu) [NISR 2022]
+- **Caveat**: Rwanda has **structurally low published crime rates** (one of the lowest in Africa) — independent verification (UNODC + Afrobarometer + Transparency International) supports the underlying low-crime conclusion but **community-court (gacaca, until 2012) + Abunzi mediation** historically diverted minor crime out of formal series — minor disputes underrepresented; **post-1994 genocide reconciliation** context affects historical series; Kigali urban crime patterns (Nyarugenge CBD / Kacyiru / Nyarutarama) vs rural; tourist-corridor (Volcanoes National Park / Akagera / Nyungwe / Lake Kivu) opportunistic-property targeted; **2024 Marburg outbreak + COVID-period restrictions** affected enforcement patterns 2020-22
+
+### 🇺🇿 Uzbekistan
+
+- **Ministry of Internal Affairs (Ichki Ishlar Vazirligi / IIV)**: `https://www.iiv.uz/` — operational + crime statistics; annual report
+- **State Statistics Committee (Davlat statistika qoʻmitasi)**: `https://stat.uz/` — Statistical Yearbook crime/justice section + 2025 admin classification
+- **General Prosecutor's Office (Bosh prokuratura)**: `https://prokuratura.uz/` — prosecution statistics
+- **Supreme Court (Oliy sud)**: `https://supcourt.uz/` — court statistics
+- **UNODC Central Asia**: country profile aggregates
+- **Granularity**: 12 viloyats + Republic of Karakalpakstan + Tashkent city = 14 first-level → 175 districts (tumanlar) + city districts → ~1,000 urban-type settlements
+- **Caveat**: **Uzbekistan crime statistics historically underpublished pre-2017 Mirziyoyev liberalisation** — post-2017 publishing improved but series-break at 2017 reform; Tashkent urban crime patterns vs Samarkand / Bukhara tourist-corridor (Silk Road historic centres) vs Fergana Valley (Andijan / Namangan / Fergana) higher-density rural; **ethnic-Karakalpak July 2022 unrest in Nukus** (Republic of Karakalpakstan capital) — 21 deaths officially confirmed (HRW); affects series interpretation; agricultural land BANNED for foreigners but cotton-sector forced-labour-monitoring (ILO + Cotton Campaign) historically affected reporting culture in agricultural districts (improved post-2017-22 reforms); border-zone (TJ / KG / KZ / TM / AF) restricted-zone reporting separate
+
 ## Universal extraction approach
 
 For each country, the workflow:

@@ -1,5 +1,5 @@
 {
-  "_comment": "Refresh-cadence tiers — single source of truth for which countries get refreshed how often. Edit this when promoting/demoting a country across tiers (e.g., a frontier market with a major reform may move B→A for one cycle). Country code → playbook directory must match skills/property-deep-dive/countries/<code>/playbook.md. The sum of all tier codes must equal the total country count in _regions.json (currently 95).",
+  "_comment": "Refresh-cadence tiers — single source of truth for which countries get refreshed how often. Edit this when promoting/demoting a country across tiers (e.g., a frontier market with a major reform may move B→A for one cycle). Country code → playbook directory must match skills/property-deep-dive/countries/<code>/playbook.md. The sum of all tier codes must equal the total country count in _regions.json (currently 103).",
   "tiers": {
     "A": {
       "label": "Quarterly refresh",
@@ -11,13 +11,13 @@
       "label": "Semi-annual refresh",
       "cadence_days": 180,
       "rationale": "Stable mid-volume markets. Numbers drift slowly; major reforms hit a 6-month cycle reliably.",
-      "codes": ["be", "dk", "fi", "no", "se", "is", "lu", "mt", "cy", "pl", "cz", "sk", "hu", "ro", "bg", "hr", "si", "ee", "lv", "lt", "ca", "nz", "jp", "kr", "sg", "hk", "tw", "il", "mx", "br", "mu", "cv", "bs", "cn"]
+      "codes": ["be", "dk", "fi", "no", "se", "is", "lu", "mt", "cy", "pl", "cz", "sk", "hu", "ro", "bg", "hr", "si", "ee", "lv", "lt", "ca", "nz", "jp", "kr", "sg", "hk", "tw", "il", "mx", "br", "mu", "cv", "bs", "cn", "bb", "lk", "kh", "uz"]
     },
     "C": {
       "label": "Annual refresh",
       "cadence_days": 365,
       "rationale": "Smaller markets, microstates, frontier jurisdictions. Foundational data (cadastre, tax authority) is stable across calendar years; targeted patches happen via regulatory-watch override, not the cadence.",
-      "codes": ["li", "ad", "mc", "ar", "cr", "pa", "do", "co", "uy", "cl", "pe", "ec", "py", "rs", "me", "ba", "mk", "al", "th", "my", "id", "vn", "ph", "in", "za", "ma", "eg", "tn", "ng", "ke", "ge", "md", "am", "az", "mo", "qa", "sa", "jo", "om", "bh", "kw", "lb", "sc", "jm", "sm"]
+      "codes": ["li", "ad", "mc", "ar", "cr", "pa", "do", "co", "uy", "cl", "pe", "ec", "py", "rs", "me", "ba", "mk", "al", "th", "my", "id", "vn", "ph", "in", "za", "ma", "eg", "tn", "ng", "ke", "ge", "md", "am", "az", "mo", "qa", "sa", "jo", "om", "bh", "kw", "lb", "sc", "jm", "sm", "bz", "mv", "gh", "rw"]
     }
   },
   "promotion_rules": {

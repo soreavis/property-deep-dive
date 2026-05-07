@@ -2,7 +2,7 @@
 
 A single date-stamped registry of property-relevant reforms, transposition deadlines, ENDED programs, and watchlist items. Maintained as the **single source of truth for "what changed when"** — playbooks reference this; this references playbooks.
 
-**Why it exists**: At 95 countries × 22 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
+**Why it exists**: At 103 countries × 22 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
 
 **Maintainer**: human + Claude. Each entry must have a primary-source URL, a verified date, and a next-revisit date.
 
@@ -443,6 +443,64 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 - `2018-12-24 | foreign-buyer | Legge 24 dicembre 2018 n.173 + Decreto Delegato implementation — prior authorization regime ABOLISHED for foreign acquisition; replaced with **2-property cap per foreign individual** (vs unlimited Sammarinese citizens / pre-2018 1-property cap) | Bollettino Ufficiale RSM | 2026-05-07 | 2027-01-01 | 1 | --tax ownership`
 - `pending 2026 (verify gazette) | tax | IGR (Imposta Generale sui Redditi — main income tax) 2026 reform — major restructure pending; verify gazetted text before relying on rate brackets | Repubblica di San Marino — Bollettino Ufficiale | 2026-05-07 | 2026-08-01 | 2 | --tax --rental --finance`
+
+### 🇧🇧 BB
+
+- `2026-12-31 (renewed) | visa | Welcome Stamp 12-month digital-nomad visa — Cabinet renewed to 31 Dec 2026 (USD 50,000+ income threshold; tax-exempt on Barbados-sourced foreign-employer income); track next renewal cycle | Visit Barbados — Welcome Stamp portal `https://www.visitbarbados.org/barbados-welcome-stamp` | 2026-05-08 | 2026-12-01 | 2 | --visa`
+- `2026 income year | tax | Personal Income Tax band reduction announced for income year 2026 (BRA Policy Note 20 Apr 2026 — verify exact bands when gazetted in Income Tax Act schedule); 2025 schedule remained 12.5% / 28.5% with BBD 25,000 personal allowance | Barbados Revenue Authority — `https://bra.gov.bb/` | 2026-05-08 | 2026-08-01 | 2 | --tax`
+- `2024-07-01 | risks | Hurricane Beryl Cat 3 passed ~150 km south of Barbados — first major-hurricane impact in modern memory (~70 yrs since Janet 1955); ECLAC-assessed effects ~BBD 193M (~0.15% of GDP); insurance market re-rating ongoing 2024-2026 | ECLAC 2024 — `https://www.cepal.org/en/publications/82157-assessment-effects-and-impacts-hurricane-beryl-barbados-2024` | 2026-05-08 | 2026-11-01 | 1 | --risks --insurance`
+- `2025-04-01 | tax | Resilience and Regeneration Fund employee contribution raised 0.10% → 0.25% of gross earnings (2025 Budget) | KPMG TaxNewsFlash 2025-03 — `https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html` | 2026-05-08 | 2027-04-01 | 3 | --tax`
+- `2025-04-XX | tax | PTT removed for deeds of gift to children/dependants for land <1 acre (gifts only — does not affect arm's-length sales) — 2025 Budget | KPMG TaxNewsFlash 2025-03 | 2026-05-08 | 2027-04-01 | 3 | --tax`
+
+### 🇧🇿 BZ
+
+- `2024-12-XX | tax | Stamp Duties (Amendment) Act 2024 (Act No. 33 of 2024) — clarified treatment of share transfers in IBC-held property + other technical updates; verify consolidated current text with attorney for any 2025-2026 transaction | National Assembly of Belize — `https://www.belizelaw.org/` | 2026-05-08 | 2026-09-01 | 2 | --tax --notary`
+- `2025-01-01 | tax | Income Tax exemption raised BZD 26,000 → BZD 29,000 effective 1 January 2025 | Belize Tax Service / Government of Belize budget measures | 2026-05-08 | 2026-09-01 | 3 | --tax --rental`
+- `2024-XX-XX (in consultation) | foreign-buyer | Government 2024 draft Maya Customary Land Tenure Policy — intended to formalise village-level communal title in Toledo District (~41 Maya villages); recognised by CCJ 2015 ruling Maya Leaders Alliance v Attorney General of Belize as legally equal to Western property ownership; verify current statutory progression before any Toledo-District deal | Belmopan-published policy framework — verify at Government of Belize | 2026-05-08 | 2026-09-01 | 1 | --visa ownership --notary`
+- `2023-XX-XX (current) | visa | QRP age threshold lowered 45 → 40 — Belize Tourism Board Qualified Retirement Programme | Belize Tourism Board — `https://www.belizetourismboard.org/programs-events/retirement-program/` | 2026-05-08 | 2026-12-01 | 3 | --visa`
+
+### 🇱🇰 LK
+
+- `2025-11-28 | risks | Cyclone Ditwah landfall — Cat-equivalent storm; USD 4.1bn damage; 1.1M ha flooded; Central Highlands tea-country property repricing; disrupted IMF EFF fifth review | Department of Disaster Management Sri Lanka + IMF Sri Lanka EFF reviews | 2026-05-08 | 2026-08-01 | 1 | --risks --insurance --price`
+- `2025-04-01 | tax | Stamp Duty (Amendment) Act 2025 — doubled stamp duty on rental/lease agreements from Rs.10 → Rs.20 per Rs.1,000 of total rental value, effective 1 April 2025 | Inland Revenue Department Sri Lanka — `https://www.ird.gov.lk/` | 2026-05-08 | 2026-09-01 | 2 | --rental --tax`
+- `2025-XX-XX | tax | Inland Revenue Act Amendment 2025 — CGT 10% statutory; 15% proposed (verify gazetted text before quoting) | Parliament of Sri Lanka — `https://www.parliament.lk/uploads/acts/gbills/english/6379.pdf` | 2026-05-08 | 2026-08-01 | 1 | --tax --exit`
+- `2024-XX-XX (current) | foreign-buyer | Apartment Ownership Law amendments (Act No. 21 of 2018) — foreigners may purchase condominium on any floor (post-2018 reform — full purchase price must be remitted from abroad up-front under inward-remittance rule) | Lanka Law consolidated PDF + SriLankaLaw.lk | 2026-05-08 | 2026-12-01 | 2 | --visa ownership --finance`
+- `2024-XX-XX | visa | Golden Paradise Residence Visa — launched 2024 (USD 200k bank deposit OR USD 75k condominium); replaces Resident Guest Scheme + pre-2022 schemes paused during crisis | Department of Immigration & Emigration Sri Lanka — `https://eservices.immigration.gov.lk/golden-paradise-visa.html` | 2026-05-08 | 2026-12-01 | 2 | --visa`
+- `2024-01-01 | tax | VAT raised 15% → 18% effective 1 January 2024 (developer first-sale apartments only) | Sri Lanka Inland Revenue Department | 2026-05-08 | 2027-01-01 | 2 | --tax`
+
+### 🇰🇭 KH
+
+- `pending (deferred multiple times) | tax | CGT activation under Prakas 346/2020 + Law on Taxation 2023 (NS/RKM/0523/004) — when activated: 20% on gain for individuals — track activation; deferred multiple times since 2020 | General Department of Taxation (GDT) Cambodia — `https://www.tax.gov.kh/` | 2026-05-08 | 2026-09-01 | 1 | --tax --exit`
+- `2020-10-XX (ongoing rollout) | currency | Bakong digital-riel rollout (NBC) + USD/KHR de-dollarization signal — National Bank of Cambodia long-term policy objective; foreign-buyer transactions remain USD-dominant ~80-90% urban | National Bank of Cambodia — `https://www.nbc.gov.kh/english/` | 2026-05-08 | 2026-12-01 | 3 | --currency --finance`
+- `2024-2026 (intensifying) | foreign-buyer | Anti-nominee enforcement intensity — Cambodian-majority-company workaround under enforcement pressure; nominee-Cambodian-spouse arrangements increasingly challenged | MLMUPC + General Department of Cadastre and Geography (GDCG) | 2026-05-08 | 2026-09-01 | 1 | --visa ownership --integrity`
+- `2019-XX-XX (untested) | foreign-buyer | Trust Law 2019 over land — constitutionally untested; unclear whether trust structure circumvents Article 44 prohibition on foreign land ownership; do NOT rely until tested in Constitutional Council | Royal Government Council of Jurists | 2026-05-08 | 2026-12-01 | 2 | --visa ownership --integrity`
+
+### 🇲🇻 MV
+
+- `2025-12-06 to 2026-06-05 | tax | 16th Tourism Act Amendment 2025-12 — discounted lease-extension window (head-lease-extension cost reduced one-time; window 2025-12-06 to 2026-06-05); affects resort head-lease economic value | Ministry of Tourism Maldives — `https://www.tourism.gov.mv/dms/document/23d485632704b30cf178db46d41f0bff.pdf` | 2026-05-08 | 2026-06-05 | 1 | --tax --exit`
+- `2025-01-01 | tax | TGST (Tourism Goods and Services Tax) raised to 17% + Green Tax USD 12/bednight, both effective 1 January 2025 — affect resort + guesthouse operating economics | MIRA Maldives Inland Revenue Authority — `https://www.mira.gov.mv/` | 2026-05-08 | 2026-08-01 | 2 | --tax --rental`
+- `2019-04-23 | foreign-buyer | Article 251 round-trip — 2015 amendment (briefly opened freehold for ≥USD 1bn projects with ≥70% reclaimed land) REPEALED 23 April 2019 by 19th People's Majlis; only legal pathway for foreign exposure remains leasehold ≤99 years | Constitution Net + CTL Strategies + Maldives Independent | 2026-05-08 | 2027-01-01 | 1 | --visa ownership`
+
+### 🇬🇭 GH
+
+- `2022-XX-XX | tax | VAT raised 12.5% → 15% via Value Added Tax (Amendment) Act 2022 (Act 1082) | Ghana Revenue Authority — `https://gra.gov.gh/` | 2026-05-08 | 2027-01-01 | 2 | --tax`
+- `2023-05-17 (ongoing) | macro | IMF Extended Credit Facility approved 17 May 2023, USD 3 billion 36-month programme — milestones quarterly through 2026; affects GHS managed-float dynamics + sovereign-debt restructuring + structural reform pace | IMF Country Page Ghana — `https://www.imf.org/en/Countries/GHA` | 2026-05-08 | 2026-08-01 | 1 | --macro --currency --finance`
+- `2022-XX-XX | tax | Electronic Transfer Levy 1% on electronic transactions (Act 1075/2022 reduced from 1.5% → 1% via Act 1089 in 2023) — verify current rate at GRA | Ghana Revenue Authority | 2026-05-08 | 2026-12-01 | 3 | --tax`
+- `2020-XX-XX | foreign-buyer | Lands Act 2020 (Act 1036) consolidated 6 prior land statutes — entered into force 2020; constitutional 50-year leasehold cap for non-Ghanaians (Art. 266) PRESERVED; customary tenure (stool / skin / family / clan) overlays ~78% of total land area per Lands Commission classification | Lands Commission Ghana — `https://lc.gov.gh/` | 2026-05-08 | 2027-01-01 | 1 | --visa ownership --notary`
+
+### 🇷🇼 RW
+
+- `2024-XX-XX | tax | Cabinet-approved Property Tax Reform 2024 — Land Tax compressed FRW 0-300/m² → FRW 0-80/m² band (varies by district + use); Building Tax 0.5% residential / 0.3% commercial / 0.1% industrial of market value; Sale levy 2% registered taxpayer / 2.5% unregistered | RRA + Kigali Times Finance Law 2024/2025 | 2026-05-08 | 2026-09-01 | 2 | --tax`
+- `2021-02-05 | visa | Investor visa Law N° 006/2021 of 05/02/2021 Art. 14 — USD 250,000 registered-investor permit (USD 100,000 for EAC + COMESA citizens); clarify "USD 500k luxury property" route is secondary-aggregator only — flag for primary-source verification with Rwanda Development Board | UNCTAD Investment Laws Navigator + RDB | 2026-05-08 | 2026-12-01 | 2 | --visa --integrity`
+- `2021-06-10 | foreign-buyer | Law N° 27/2021 of 10/06/2021 (Land Law) — extended emphyteutic / leasehold term to 99 years for both residential + investment use (was 49 yrs investment / 20 yrs residential); foreigners get leasehold only; freehold reserved Rwandan citizens | Official Gazette + RLMUA | 2026-05-08 | 2027-01-01 | 1 | --visa ownership --notary`
+- `2024-XX-XX | tax | Electronic Land Title rollout 2024 — all titles paperless via LAIS (ESRI ArcGIS-based, version 4.0); FRW 5,000 physical printout fee abolished by default | RLMUA — `https://www.lands.rw/` | 2026-05-08 | 2026-12-01 | 3 | --notary --integrity`
+
+### 🇺🇿 UZ
+
+- `2025-06-01 | visa | Golden Visa launch — 5-year Investor Residence Permit per Presidential Decree UP-89 of April 2025, entered into force 1 June 2025; thresholds USD 300k Tashkent city / USD 200k Samarkand+Bukhara+Namangan+Andijan+Fergana+Khorezm regions / USD 100k other regions; **INCLUDES real estate** (vs KZ which excludes RE); capital-injection alternative US$250k equity + US$150k per accompanying family member | Astana Times Apr 2025 + Library of Congress Global Legal Monitor 27 Jun 2025 + e-visa.gov.uz / mfa.uz | 2026-05-08 | 2026-08-01 | 1 | --visa`
+- `2026-XX-XX | tax | 2026 +7% land/property/water indexation (per EY) — annual indexation of land tax + property tax + water tax + similar | EY Tax Alert Uzbekistan | 2026-05-08 | 2026-09-01 | 2 | --tax`
+- `2022-07-16 | foreign-buyer | Cabinet of Ministers Resolution No. 384 of 16 July 2022 (PQ-384) — expanded eligibility to citizens of 108 countries to acquire built real estate (apartments / houses / commercial premises) WITHOUT residence permit; pre-2022 regime required residence permit first — gate now removed for EU/UK/US/CA/AU/NZ/JP/KR + GCC + most Asia; Land Code Articles 17-18 PROHIBITION on foreign land ownership PRESERVED | Kun.uz coverage of PQ-384 + Azizov & Partners legal memo | 2026-05-08 | 2027-01-01 | 1 | --visa ownership`
+- `2017-09-XX | currency | Dual-rate "black market" gap closed September 2017 under Mirziyoyev liberalisation (Decree UP-5177); pre-2017 official ~3,000 UZS/USD vs unofficial ~8,000/USD (~2.5× spread); since Sep 2017 managed-float with active CBU intervention; cumulative depreciation 2017→2026 ~3,200 → ~12,500 UZS = ~290% nominal devaluation over ~9 years | Central Bank of Uzbekistan — `https://cbu.uz/en/` | 2026-05-08 | 2026-12-01 | 2 | --currency --finance`
 
 ---
 
