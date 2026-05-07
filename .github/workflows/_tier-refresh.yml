@@ -1,8 +1,12 @@
 name: _tier-refresh (reusable)
 
-# Reusable workflow shared by tier-b-refresh.yml and tier-c-refresh.yml.
-# Tier-A keeps its own workflow because it has an extra regulatory-watch
-# auto-promotion step (regwatch_promotions.py) that doesn't apply to B/C.
+# Reusable workflow shared by tier-{a,b,c}-refresh.yml.
+#
+# Tier-A passes `include_regwatch_promotions: true` to render the regulatory-
+# watch auto-promotion table (calls scripts/regwatch_promotions.py --days 90)
+# between the "Countries due for refresh" block and the "How to execute" block.
+# B/C leave the input at its default (false) and emit identical output to
+# their pre-consolidation workflows.
 #
 # Behavior parity: callers must pass the inputs that match the original
 # per-tier YAML. Output, artifact name, issue title, labels, and cron
@@ -12,19 +16,19 @@ on:
   workflow_call:
     inputs:
       tier_letter:
-        description: "Tier letter, uppercase (e.g. 'B', 'C')."
+        description: "Tier letter, uppercase (e.g. 'A', 'B', 'C')."
         required: true
         type: string
       cadence_label:
-        description: "Human cadence label used in titles/headings (e.g. 'semi-annual', 'annual')."
+        description: "Human cadence label used in titles/headings (e.g. 'quarterly', 'semi-annual', 'annual')."
         required: true
         type: string
       cadence_days:
-        description: "Threshold in days for '🟠 refresh due' (e.g. 180, 365)."
+        description: "Threshold in days for '🟠 refresh due' (e.g. 90, 180, 365)."
         required: true
         type: number
       threshold_warn_days:
-        description: "Threshold in days for '🟡 due within N days' (e.g. 150, 335). N is computed as cadence_days - threshold_warn_days."
+        description: "Threshold in days for '🟡 due within N days' (e.g. 75, 150, 335). N is computed as cadence_days - threshold_warn_days."
         required: true
         type: number
       extra_footer_note:
@@ -32,6 +36,11 @@ on:
         required: false
         type: string
         default: ""
+      include_regwatch_promotions:
+        description: "When true, render a regulatory-watch auto-promotion table between 'Countries due' and 'How to execute'. Tier-A only."
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -54,6 +63,7 @@ jobs:
           CADENCE_DAYS: ${{ inputs.cadence_days }}
           WARN_DAYS: ${{ inputs.threshold_warn_days }}
           EXTRA_FOOTER_NOTE: ${{ inputs.extra_footer_note }}
+          INCLUDE_REGWATCH_PROMOTIONS: ${{ inputs.include_regwatch_promotions }}
         run: |
           set -euo pipefail
           mkdir -p _ci
@@ -98,6 +108,38 @@ jobs:
             fi
             printf '| %s | %s | %s | %s |\n' "$iso2" "$stamped" "$days" "$action" >> "$out"
           done
+
+          # Tier-A only: regulatory-watch auto-promotions for the cycle.
+          # The promotion rule (per _tiers.json § promotion_rules) treats Tier-1/2
+          # entries enacted in the last 90 days as Tier-A for this cycle only.
+          if [ "$INCLUDE_REGWATCH_PROMOTIONS" = "true" ]; then
+            tiera_codes=" $(python3 -c "import json; print(' '.join(json.load(open('_tiers.json'))['tiers']['A']['codes']))") "
+            promotions=$(python3 scripts/regwatch_promotions.py --days 90 2>/dev/null || true)
+            {
+              echo
+              echo "## Auto-promotions from regulatory-watch.md (last 90d)"
+              echo
+            } >> "$out"
+            if [ -z "$promotions" ]; then
+              echo "_No Tier-1 or Tier-2 entries enacted in the last 90 days — refreshing canonical Tier-A only._" >> "$out"
+            else
+              echo "Countries below have a recent regulatory-watch entry and are promoted to Tier-A for this cycle:" >> "$out"
+              echo >> "$out"
+              echo "| ISO2 | Effective | Tier | Topic | Summary | Already in Tier-A? |" >> "$out"
+              echo "|---|---|---|---|---|---|" >> "$out"
+              while IFS=$'\t' read -r iso2 eff tier topic summary; do
+                [ -z "$iso2" ] && continue
+                if [[ "$tiera_codes" == *" $iso2 "* ]]; then
+                  in_tier_a="✅ canonical"
+                else
+                  in_tier_a="🆕 promoted"
+                fi
+                printf '| %s | %s | %s | %s | %s | %s |\n' "$iso2" "$eff" "$tier" "$topic" "${summary//|/\\|}" "$in_tier_a" >> "$out"
+              done <<< "$promotions"
+              echo >> "$out"
+              echo "Promoted (🆕) countries should be included alongside canonical Tier-A in this cycle's \`--update\`." >> "$out"
+            fi
+          fi
 
           {
             echo
