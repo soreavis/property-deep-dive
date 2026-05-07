@@ -88,6 +88,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - chore(docs): refresh stale references in docs/ — 44 → 87 + plugin-first install + tier flags ([#95](https://github.com/soreavis/property-deep-dive/pull/95)) — by @soreavis
 - docs(README): add Token consumption section with per-invocation estimates ([#97](https://github.com/soreavis/property-deep-dive/pull/97)) — by @soreavis
 - fix(workflow): health-report.yml YAML syntax — multi-line Python broke literal block scalar ([#99](https://github.com/soreavis/property-deep-dive/pull/99)) — by @soreavis
+- refactor(playbooks): normalize section headers across BG/CY/LT/LU/LV/MC/MT/RO ([#102](https://github.com/soreavis/property-deep-dive/pull/102)) — by @soreavis
 
 ## [2026.05.1] - 2026-05-01
 
