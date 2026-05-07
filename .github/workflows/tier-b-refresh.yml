@@ -6,97 +6,14 @@ on:
     - cron: '0 9 1 1,7 *'
   workflow_dispatch:
 
-permissions:
-  contents: read
-  issues: write
-
 jobs:
-  open-refresh-issue:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
-
-      - name: Build refresh task list
-        id: tasks
-        run: |
-          set -euo pipefail
-          mkdir -p _ci
-          out=_ci/tier-b-refresh.md
-          today=$(date -u +%Y-%m-%d)
-
-          codes=$(python3 -c "import json; d=json.load(open('_tiers.json')); print(' '.join(d['tiers']['B']['codes']))")
-
-          {
-            echo "# Tier-B semi-annual refresh — $today"
-            echo
-            echo "Cadence: semi-annual (180 days). Run \`/property-deep-dive --update --tier=B\` locally to execute."
-            echo
-            echo "## Countries due for refresh"
-            echo
-            echo "| ISO2 | Last verified | Days old | Action |"
-            echo "|---|---|---:|---|"
-          } > "$out"
-
-          today_epoch=$(date +%s)
-          for iso2 in $codes; do
-            playbook="skills/property-deep-dive/countries/$iso2/playbook.md"
-            if [ ! -f "$playbook" ]; then
-              printf '| %s | (missing) | — | playbook not found |\n' "$iso2" >> "$out"
-              continue
-            fi
-            stamped=$(grep -oE '(as of +|\*\*Last verified\*\*: *)[0-9]{4}-[0-9]{2}-[0-9]{2}' "$playbook" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1 || true)
-            if [ -z "$stamped" ]; then
-              printf '| %s | (none) | — | needs initial stamp |\n' "$iso2" >> "$out"
-              continue
-            fi
-            stamped_epoch=$(date -d "$stamped" +%s 2>/dev/null || echo 0)
-            days=$(( (today_epoch - stamped_epoch) / 86400 ))
-            if [ "$days" -ge 180 ]; then
-              action="🟠 refresh due"
-            elif [ "$days" -ge 150 ]; then
-              action="🟡 due within 30 days"
-            else
-              action="🟢 fresh"
-            fi
-            printf '| %s | %s | %s | %s |\n' "$iso2" "$stamped" "$days" "$action" >> "$out"
-          done
-
-          {
-            echo
-            echo "## How to execute"
-            echo
-            echo '```'
-            echo '/property-deep-dive --update --tier=B --diff           # preview'
-            echo '/property-deep-dive --update --tier=B --interactive    # confirm each'
-            echo '/property-deep-dive --update --tier=B                  # apply'
-            echo '```'
-          } >> "$out"
-
-          echo "report_path=$out" >> "$GITHUB_OUTPUT"
-
-      - name: Upload report
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
-        with:
-          name: tier-b-refresh-${{ github.run_id }}
-          path: _ci/tier-b-refresh.md
-          retention-days: 365
-
-      - name: Open tracking issue
-        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
-        with:
-          script: |
-            const fs = require('fs');
-            const body = fs.readFileSync('_ci/tier-b-refresh.md', 'utf-8');
-            const date = new Date().toISOString().slice(0, 10);
-            const title = `🔄 Tier-B semi-annual refresh — ${date}`;
-
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title,
-              body,
-              labels: ['maintenance', 'tier-b-refresh'],
-            });
+  refresh:
+    uses: ./.github/workflows/_tier-refresh.yml
+    with:
+      tier_letter: B
+      cadence_label: semi-annual
+      cadence_days: 180
+      threshold_warn_days: 150
+    permissions:
+      contents: read
+      issues: write

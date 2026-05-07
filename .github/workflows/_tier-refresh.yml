@@ -1,0 +1,152 @@
+name: _tier-refresh (reusable)
+
+# Reusable workflow shared by tier-b-refresh.yml and tier-c-refresh.yml.
+# Tier-A keeps its own workflow because it has an extra regulatory-watch
+# auto-promotion step (regwatch_promotions.py) that doesn't apply to B/C.
+#
+# Behavior parity: callers must pass the inputs that match the original
+# per-tier YAML. Output, artifact name, issue title, labels, and cron
+# semantics are unchanged from the pre-consolidation files.
+
+on:
+  workflow_call:
+    inputs:
+      tier_letter:
+        description: "Tier letter, uppercase (e.g. 'B', 'C')."
+        required: true
+        type: string
+      cadence_label:
+        description: "Human cadence label used in titles/headings (e.g. 'semi-annual', 'annual')."
+        required: true
+        type: string
+      cadence_days:
+        description: "Threshold in days for '🟠 refresh due' (e.g. 180, 365)."
+        required: true
+        type: number
+      threshold_warn_days:
+        description: "Threshold in days for '🟡 due within N days' (e.g. 150, 335). N is computed as cadence_days - threshold_warn_days."
+        required: true
+        type: number
+      extra_footer_note:
+        description: "Optional extra paragraph appended after the 'How to execute' block. Leave empty to skip."
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  open-refresh-issue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Build refresh task list
+        id: tasks
+        env:
+          TIER_LETTER: ${{ inputs.tier_letter }}
+          CADENCE_LABEL: ${{ inputs.cadence_label }}
+          CADENCE_DAYS: ${{ inputs.cadence_days }}
+          WARN_DAYS: ${{ inputs.threshold_warn_days }}
+          EXTRA_FOOTER_NOTE: ${{ inputs.extra_footer_note }}
+        run: |
+          set -euo pipefail
+          mkdir -p _ci
+          tier_lc=$(echo "$TIER_LETTER" | tr '[:upper:]' '[:lower:]')
+          out=_ci/tier-${tier_lc}-refresh.md
+          today=$(date -u +%Y-%m-%d)
+          warn_window=$(( CADENCE_DAYS - WARN_DAYS ))
+
+          codes=$(python3 -c "import json,os; d=json.load(open('_tiers.json')); print(' '.join(d['tiers'][os.environ['TIER_LETTER']]['codes']))")
+
+          {
+            echo "# Tier-${TIER_LETTER} ${CADENCE_LABEL} refresh — $today"
+            echo
+            echo "Cadence: ${CADENCE_LABEL} (${CADENCE_DAYS} days). Run \`/property-deep-dive --update --tier=${TIER_LETTER}\` locally to execute."
+            echo
+            echo "## Countries due for refresh"
+            echo
+            echo "| ISO2 | Last verified | Days old | Action |"
+            echo "|---|---|---:|---|"
+          } > "$out"
+
+          today_epoch=$(date +%s)
+          for iso2 in $codes; do
+            playbook="skills/property-deep-dive/countries/$iso2/playbook.md"
+            if [ ! -f "$playbook" ]; then
+              printf '| %s | (missing) | — | playbook not found |\n' "$iso2" >> "$out"
+              continue
+            fi
+            stamped=$(grep -oE '(as of +|\*\*Last verified\*\*: *)[0-9]{4}-[0-9]{2}-[0-9]{2}' "$playbook" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1 || true)
+            if [ -z "$stamped" ]; then
+              printf '| %s | (none) | — | needs initial stamp |\n' "$iso2" >> "$out"
+              continue
+            fi
+            stamped_epoch=$(date -d "$stamped" +%s 2>/dev/null || echo 0)
+            days=$(( (today_epoch - stamped_epoch) / 86400 ))
+            if [ "$days" -ge "$CADENCE_DAYS" ]; then
+              action="🟠 refresh due"
+            elif [ "$days" -ge "$WARN_DAYS" ]; then
+              action="🟡 due within ${warn_window} days"
+            else
+              action="🟢 fresh"
+            fi
+            printf '| %s | %s | %s | %s |\n' "$iso2" "$stamped" "$days" "$action" >> "$out"
+          done
+
+          {
+            echo
+            echo "## How to execute"
+            echo
+            echo '```'
+            echo "/property-deep-dive --update --tier=${TIER_LETTER} --diff           # preview"
+            echo "/property-deep-dive --update --tier=${TIER_LETTER} --interactive    # confirm each"
+            echo "/property-deep-dive --update --tier=${TIER_LETTER}                  # apply"
+            echo '```'
+          } >> "$out"
+
+          if [ -n "$EXTRA_FOOTER_NOTE" ]; then
+            {
+              echo
+              echo "$EXTRA_FOOTER_NOTE"
+            } >> "$out"
+          fi
+
+          echo "report_path=$out" >> "$GITHUB_OUTPUT"
+          echo "tier_lc=$tier_lc" >> "$GITHUB_OUTPUT"
+
+      - name: Upload report
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: tier-${{ steps.tasks.outputs.tier_lc }}-refresh-${{ github.run_id }}
+          path: _ci/tier-${{ steps.tasks.outputs.tier_lc }}-refresh.md
+          retention-days: 365
+
+      - name: Open tracking issue
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        env:
+          TIER_LETTER: ${{ inputs.tier_letter }}
+          CADENCE_LABEL: ${{ inputs.cadence_label }}
+          TIER_LC: ${{ steps.tasks.outputs.tier_lc }}
+        with:
+          script: |
+            const fs = require('fs');
+            const tierLc = process.env.TIER_LC;
+            const tierLetter = process.env.TIER_LETTER;
+            const cadenceLabel = process.env.CADENCE_LABEL;
+            const body = fs.readFileSync(`_ci/tier-${tierLc}-refresh.md`, 'utf-8');
+            const date = new Date().toISOString().slice(0, 10);
+            const title = `🔄 Tier-${tierLetter} ${cadenceLabel} refresh — ${date}`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['maintenance', `tier-${tierLc}-refresh`],
+            });
