@@ -13,7 +13,12 @@ permissions:
 jobs:
   check-urls:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Was 30 min; bumped to 90 after the 2026-05-04 run timed out at exactly 30 min
+    # following the 62 → 87 country sprint. Post-103 countries (Tier-1 + Tier-2 batches
+    # PRs #111 + #113) the URL set is large enough that HEAD-checking every link
+    # serially needs more headroom. Follow-up: parallelize the checker itself
+    # (aiohttp / httpx with semaphore concurrency) — see ROADMAP "Coverage extensions".
+    timeout-minutes: 90
 
     steps:
       - name: Checkout
