@@ -90,6 +90,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - fix(workflow): health-report.yml YAML syntax — multi-line Python broke literal block scalar ([#99](https://github.com/soreavis/property-deep-dive/pull/99)) — by @soreavis
 - refactor(playbooks): normalize section headers across BG/CY/LT/LU/LV/MC/MT/RO ([#102](https://github.com/soreavis/property-deep-dive/pull/102)) — by @soreavis
 - refactor(ci): consolidate `tier-b-refresh.yml` + `tier-c-refresh.yml` onto a shared `_tier-refresh.yml` reusable workflow — `tier-a-refresh.yml` left standalone (regwatch auto-promotion step is A-only); behavior, cron timing, artifact names, and labels unchanged
+- refactor(ci): consolidate tier-b/tier-c refresh workflows onto reusable _tier-refresh.yml ([#101](https://github.com/soreavis/property-deep-dive/pull/101)) — by @soreavis
 
 ## [2026.05.1] - 2026-05-01
 
