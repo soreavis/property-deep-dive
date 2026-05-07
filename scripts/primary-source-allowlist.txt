@@ -1,0 +1,345 @@
+# Primary-source allowlist for audit-confidence.py
+#
+# Domains here count as "primary government / regulator" alongside the gov/gouv/gob
+# pattern matches in the script. Use this for central banks, statistics agencies, and
+# regulators whose domain doesn't carry a country gov suffix.
+#
+# Format: one hostname per line. Comments start with #. Blank lines ignored.
+# Hostnames are matched exact (case-insensitive). Add `www.` variants if both used.
+#
+# Acceptance criteria for adding a domain:
+#   - Officially the primary publisher of the data being cited (regulator's own portal,
+#     not a wrapper or aggregator).
+#   - Not a private-sector commercial site (Knight Frank, JLL, etc. — those are secondary).
+#   - Not a forum / blog / wiki.
+
+# ─── Central Banks (sub-sovereign or non-.gov hosted) ───
+bom.mu                   # Bank of Mauritius
+bcv.cv                   # Banco de Cabo Verde
+mma.gov.mv               # Maldives Monetary Authority (already .gov.mv but listed for clarity)
+boj.org.jm               # Bank of Jamaica
+centralbankbahamas.com   # Central Bank of The Bahamas
+cbsl.gov.lk              # Central Bank of Sri Lanka (already .gov.lk; listed for clarity)
+cbb.bb                   # Central Bank of Barbados (lacks .gov suffix)
+centralbank.org.bz       # Central Bank of Belize
+nbc.gov.kh               # National Bank of Cambodia (already .gov.kh)
+bcsm.sm                  # Central Bank of San Marino
+bnr.rw                   # National Bank of Rwanda
+bnr.ro                   # National Bank of Romania
+nbk.kz                   # National Bank of Kazakhstan (sometimes nationalbank.kz)
+nationalbank.kz          # National Bank of Kazakhstan alt host
+cbu.uz                   # Central Bank of Uzbekistan
+pbc.gov.cn               # People's Bank of China (already .gov.cn)
+cbs.sc                   # Central Bank of Seychelles
+
+# ─── Statistics agencies (non-.gov hosted) ───
+statistica.sm            # Statistical Office of San Marino
+statinja.gov.jm          # Statistical Institute of Jamaica (already .gov.jm)
+sib.org.bz               # Statistical Institute of Belize
+nis.gov.kh               # National Institute of Statistics Cambodia (already .gov.kh)
+statistics.gov.rw        # National Institute of Statistics of Rwanda (already .gov.rw)
+statisticsmaldives.gov.mv # Maldives Bureau of Statistics (already .gov.mv)
+statsmauritius.govmu.org # Statistics Mauritius (govmu.org pattern)
+statsghana.gov.gh        # Ghana Statistical Service (already .gov.gh)
+ine.cv                   # Instituto Nacional de Estatística — Cape Verde
+nbs.gov.sc               # National Bureau of Statistics — Seychelles (already .gov.sc)
+stat.uz                  # State Statistics Committee — Uzbekistan
+stat.gov.kz              # Bureau of National Statistics — Kazakhstan (already .gov.kz)
+stats.gov.cn             # National Bureau of Statistics — China (already .gov.cn)
+statistics.gov.lk        # Department of Census and Statistics — Sri Lanka (already .gov.lk)
+
+# ─── Tax authorities + revenue (non-.gov) ───
+mra.mu                   # Mauritius Revenue Authority
+bra.gov.bb               # Barbados Revenue Authority (already .gov.bb)
+mira.gov.mv              # Maldives Inland Revenue Authority (already .gov.mv)
+gra.gov.gh               # Ghana Revenue Authority (already .gov.gh)
+rra.gov.rw               # Rwanda Revenue Authority (already .gov.rw)
+soliq.uz                 # State Tax Committee — Uzbekistan
+chinatax.gov.cn          # State Taxation Administration — China (already .gov.cn)
+
+# ─── Sectoral regulators / cadastres / land registries (non-.gov hosts) ───
+edbmauritius.org         # Economic Development Board — Mauritius
+rdb.rw                   # Rwanda Development Board
+sib.gov.bs               # Bahamas Investment Authority placeholder (verify if used)
+slhomes.gov.lk            # Survey Department of Sri Lanka placeholder (verify if used)
+kadastr.uz               # Cadastre service — Uzbekistan
+adilet.zan.kz            # Kazakhstan legal info system (statute repository)
+seylii.org               # Seychelles Legal Information Institute (statute repository)
+jamlex.gov.jm            # Jamaica statute repository
+laws.bahamas.gov.bs      # Bahamas consolidated laws portal (already .gov.bs)
+nationalassembly.gov.bz  # Belize National Assembly (statutes)
+
+# ─── Multilateral / IGO (already covered by EXACT_HOSTS in script — listed here for completeness) ───
+# imf.org, worldbank.org, bis.org, ipcc.ch, oecd.org — see script
+
+# ─── Climate / hazard authorities (publish primary data) ───
+nhc.noaa.gov             # US National Hurricane Center (already .gov)
+volcano.si.edu           # Smithsonian Global Volcanism Program (institutional, primary)
+sealevel.nasa.gov        # NASA Sea Level Change (already .gov)
+coralreefwatch.noaa.gov  # NOAA Coral Reef Watch (already .gov)
+climateknowledgeportal.worldbank.org  # already worldbank.org match
+
+# ─── European countries that don't use .gov/.gouv/.gob/.govt suffixes ───
+# Netherlands
+cbs.nl                   # Statistics Netherlands
+dnb.nl                   # De Nederlandsche Bank
+kadaster.nl              # Dutch Cadastre
+rijksoverheid.nl         # Government portal
+overheid.nl              # Government regulations
+belastingdienst.nl       # Tax authority
+knmi.nl                  # Royal Netherlands Meteorological Institute
+rivm.nl                  # National Institute for Public Health
+atlasleefomgeving.nl     # Government environment atlas
+ep-online.nl             # Energy performance register
+nationaalcoordinatorgroningen.nl  # National Coordinator Groningen
+ndw.nu                   # National Road Traffic Data Portal
+www.cbs.nl
+www.dnb.nl
+www.kadaster.nl
+www.belastingdienst.nl
+
+# Norway
+ssb.no                   # Statistics Norway
+norges-bank.no           # Norges Bank
+regjeringen.no           # Government
+skatteetaten.no          # Tax authority
+nve.no                   # Energy & water resources
+kartverket.no            # Mapping authority
+www.ssb.no
+www.norges-bank.no
+www.regjeringen.no
+
+# Sweden
+scb.se                   # Statistics Sweden
+riksbank.se              # Sveriges Riksbank
+regeringen.se            # Government
+skatteverket.se          # Tax authority
+lantmateriet.se          # Cadastre
+boverket.se              # National Board of Housing
+www.scb.se
+www.riksbank.se
+www.skatteverket.se
+
+# Denmark
+dst.dk                   # Statistics Denmark
+nationalbanken.dk        # Danmarks Nationalbank
+skat.dk                  # Tax authority
+geodatastyrelsen.dk      # Geodata Agency
+retsinformation.dk       # Statute repository
+www.dst.dk
+www.nationalbanken.dk
+
+# Finland
+stat.fi                  # Statistics Finland
+suomenpankki.fi          # Bank of Finland
+vero.fi                  # Tax administration
+maanmittauslaitos.fi     # National Land Survey
+finlex.fi                # Statute repository
+www.stat.fi
+
+# Iceland
+hagstofa.is              # Statistics Iceland
+sedlabanki.is            # Central Bank of Iceland
+rsk.is                   # Tax authority
+www.hagstofa.is
+
+# Portugal
+ine.pt                   # Statistics Portugal
+bportugal.pt             # Banco de Portugal
+portaldasfinancas.gov.pt # already .gov.pt
+gov.pt                   # already matched
+www.ine.pt
+www.bportugal.pt
+
+# Spain
+ine.es                   # Statistics Spain
+bde.es                   # Banco de España
+catastro.minhap.gob.es   # Cadastre (already .gob.es)
+agenciatributaria.gob.es # Tax (already .gob.es)
+www.ine.es
+www.bde.es
+
+# Italy
+istat.it                 # Statistics Italy
+bancaditalia.it          # Banca d'Italia
+agenziaentrate.gov.it    # Revenue Agency (already .gov.it)
+www.istat.it
+www.bancaditalia.it
+
+# France — most use .gouv.fr (already matched)
+insee.fr                 # National Statistics
+banque-france.fr         # Banque de France
+www.insee.fr
+www.banque-france.fr
+
+# Germany — most use .de
+destatis.de              # Federal Statistical Office
+bundesbank.de            # Deutsche Bundesbank
+www.destatis.de
+www.bundesbank.de
+
+# Austria
+statistik.at             # Statistics Austria
+oenb.at                  # National Bank
+bmf.gv.at                # already .gv.at
+www.statistik.at
+
+# Switzerland
+bfs.admin.ch             # Federal Statistical Office (Swiss admin.ch is government)
+snb.ch                   # Swiss National Bank
+admin.ch                 # Federal Administration
+www.snb.ch
+
+# Belgium
+statbel.fgov.be          # Statistics Belgium (.fgov.be is federal)
+nbb.be                   # National Bank
+fin.belgium.be           # Finance ministry
+fgov.be                  # already federal-suffix
+www.nbb.be
+
+# Ireland — uses .ie
+cso.ie                   # Central Statistics Office
+centralbank.ie           # Central Bank of Ireland
+revenue.ie               # Revenue Commissioners
+www.cso.ie
+
+# Greece
+statistics.gr            # Hellenic Statistical Authority
+bankofgreece.gr          # Bank of Greece
+gsis.gr                  # Tax service
+www.statistics.gr
+www.bankofgreece.gr
+
+# CEE / Baltics
+mnb.hu                   # Hungarian National Bank
+hcso.hu                  # Hungarian Central Statistical Office
+ksh.hu                   # Statistics
+nbp.pl                   # National Bank of Poland
+stat.gov.pl              # already .gov.pl
+nbs.sk                   # National Bank of Slovakia
+slovak.statistics.sk     # Slovakia statistics
+cnb.cz                   # Czech National Bank
+czso.cz                  # Czech Statistical Office
+estatistika.eu           # Croatia stat
+hnb.hr                   # Croatian National Bank
+dzs.hr                   # Croatian Bureau of Statistics
+sigov.si                 # Slovenia gov portal
+stat.si                  # Statistics Slovenia
+banka-slovenije.si       # Bank of Slovenia
+eestipank.ee             # Bank of Estonia
+stat.ee                  # Statistics Estonia
+bank.lv                  # Latvian central bank
+csb.gov.lv               # already .gov.lv
+www.bank.lv
+lb.lt                    # Bank of Lithuania
+osp.stat.gov.lt          # already .gov.lt
+
+# UK + crown
+ons.gov.uk               # already .gov.uk
+bankofengland.co.uk      # Bank of England (uses .co.uk!)
+hmrc.gov.uk              # already .gov.uk
+landregistry.gov.uk      # already .gov.uk
+www.bankofengland.co.uk
+
+# Eurozone meta
+ecb.europa.eu            # already .europa.eu
+www.ecb.europa.eu
+
+# Latin America
+indec.gob.ar             # already .gob.ar
+bcra.gob.ar              # already .gob.ar
+banxico.org.mx           # Bank of Mexico
+inegi.org.mx             # Statistics Mexico
+www.banxico.org.mx
+www.inegi.org.mx
+ibge.gov.br              # already .gov.br
+bcb.gov.br               # already .gov.br
+banrep.gov.co            # Banco de la República (already .gov.co)
+dane.gov.co              # already .gov.co
+ine.gub.uy               # already .gub.uy
+bcu.gub.uy               # already .gub.uy
+bcrp.gob.pe              # already .gob.pe
+inei.gob.pe              # already .gob.pe
+bcch.cl                  # Banco Central de Chile
+ine.cl                   # Statistics Chile
+www.bcch.cl
+bce.fin.ec               # Banco Central del Ecuador
+www.bce.fin.ec
+ecuadorencifras.gob.ec   # already .gob.ec
+bcp.gov.py               # already .gov.py
+
+# APAC (non .gov/go.th already covered)
+boj.or.jp                # Bank of Japan (uses .or.jp!)
+stat.go.jp               # already .go.jp
+www.boj.or.jp
+bot.or.th                # Bank of Thailand (.or.th)
+www.bot.or.th
+bnm.gov.my               # already .gov.my
+dosm.gov.my              # already .gov.my
+bsp.gov.ph               # already .gov.ph
+psa.gov.ph               # already .gov.ph
+mas.gov.sg               # already .gov.sg
+singstat.gov.sg          # already .gov.sg
+hkma.gov.hk              # already .gov.hk
+censtatd.gov.hk          # already .gov.hk
+bok.or.kr                # Bank of Korea (.or.kr)
+kostat.go.kr             # already .go.kr
+cbc.gov.tw               # already .gov.tw
+stat.gov.tw              # already .gov.tw
+www.cbc.gov.tw
+
+# Middle East
+boi.org.il               # Bank of Israel (.org.il)
+cbs.gov.il               # already .gov.il
+www.boi.org.il
+centralbank.ae           # UAE central bank
+fcsa.gov.ae              # already .gov.ae
+sama.gov.sa              # already .gov.sa
+stats.gov.sa             # already .gov.sa
+qnb.com.qa               # not gov but Qatar central bank uses qcb.gov.qa
+qcb.gov.qa               # already .gov.qa
+psa.gov.qa               # already .gov.qa
+nbk.com                  # National Bank of Kuwait — commercial actually
+cbk.gov.kw               # Central Bank of Kuwait — already .gov.kw
+csb.gov.kw               # already .gov.kw
+cbo.gov.om               # already .gov.om
+ncsi.gov.om              # already .gov.om
+cbb.gov.bh               # already .gov.bh
+data.gov.bh              # already .gov.bh
+
+# Africa beyond what's in main allowlist
+sarb.co.za               # South African Reserve Bank (.co.za)
+statssa.gov.za           # already .gov.za
+www.sarb.co.za
+cbn.gov.ng               # already .gov.ng
+nigerianstat.gov.ng      # already .gov.ng
+centralbank.go.ke        # already .go.ke
+knbs.or.ke               # Kenya statistics (.or.ke)
+www.knbs.or.ke
+bct.gov.tn               # already .gov.tn
+ins.tn                   # National Statistics Tunisia (.tn bare)
+www.ins.tn
+cbe.org.eg               # Central Bank of Egypt (.org.eg)
+capmas.gov.eg            # already .gov.eg
+www.cbe.org.eg
+bkam.ma                  # Bank Al-Maghrib (Morocco — bare .ma)
+hcp.ma                   # High Commission for Planning (Morocco)
+www.bkam.ma
+www.hcp.ma
+
+# US — covered by .gov but useful explicit
+federalreserve.gov       # already .gov
+treasury.gov             # already .gov
+census.gov               # already .gov
+bls.gov                  # already .gov
+
+# Canada
+bankofcanada.ca          # Bank of Canada (.ca)
+www.bankofcanada.ca
+statcan.gc.ca            # already .gc.ca
+
+# Australia / NZ
+rba.gov.au               # already .gov.au
+abs.gov.au               # already .gov.au
+rbnz.govt.nz             # already .govt.nz
+stats.govt.nz            # already .govt.nz

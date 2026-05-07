@@ -1,0 +1,51 @@
+name: Confidence audit
+
+# Audits primary-source URL count vs declared `**Confidence**:` level per playbook,
+# using thresholds in scripts/audit-confidence.py. Catches confidence-overclaims
+# mechanically (e.g., a HIGH-confidence playbook citing only 8 government URLs).
+#
+# Initial rollout: --warn-only (logs failures, doesn't fail CI). Once the legacy
+# playbooks (the 28 currently below threshold) are remediated, drop --warn-only to
+# enforce strict-mode on every PR.
+
+on:
+  pull_request:
+    paths:
+      - 'skills/property-deep-dive/countries/**/playbook.md'
+      - 'scripts/audit-confidence.py'
+      - 'scripts/primary-source-allowlist.txt'
+      - '_tiers.json'
+      - '.github/workflows/confidence-audit.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'skills/property-deep-dive/countries/**/playbook.md'
+      - 'scripts/audit-confidence.py'
+      - 'scripts/primary-source-allowlist.txt'
+      - '_tiers.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: Audit Confidence vs primary-source URL count
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5.6.0
+        with:
+          python-version: '3.x'
+
+      - name: Run audit (warn-only mode)
+        run: |
+          set -euo pipefail
+          if [ ! -x scripts/audit-confidence.py ]; then
+            chmod +x scripts/audit-confidence.py
+          fi
+          python3 scripts/audit-confidence.py --warn-only
