@@ -9,7 +9,7 @@
 
 **Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
 
-**Pre-purchase property due diligence across 103 countries** — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **24 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
+**Pre-purchase property due diligence across 103 countries** — tax, risks, rental yield, visa, mortgage, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **25 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
 
@@ -25,7 +25,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 4. Applies the anti-hallucination guard
 5. Outputs to terminal or saves a Markdown report
 
-### Sections (24 user-invocable)
+### Sections (25 user-invocable)
 
 **Core (10)** — `--price` `--traffic` `--tax` `--rental` `--work=<profession>` `--risks` `--mains` `--crime` `--amenities` `--climate`
 
@@ -33,7 +33,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 **Regulatory (1)** — `--permits` (building-works permit thresholds, heritage overlays, conformity-at-completion)
 
-**Transaction (1)** — `--agent` (buyer-side agency landscape: commission, licensing, MLS, dual-agency, exclusivity, EBA, off-plan)
+**Transaction (2)** — `--agent` (buyer-side agency landscape: commission, licensing, MLS, dual-agency, exclusivity, EBA, off-plan) · `--scams` (country-specific transaction-fraud register: BEC, deed forgery, off-plan disappearance, nominee structures, golden-visa price-inflation)
 
 **Decision-context (7)** — `--compare=<iso2,...>` `--retirement` `--digital-nomad` `--macro` `--demographics` `--esg` `--exit`
 
@@ -140,7 +140,7 @@ See [Usage](#usage) below for the full flag reference and more examples.
 
 ```
 /property-deep-dive 1 Rue Principale, 86430 Adriers, France --all
-→ detects FR by postcode, runs all 24 sections, prints to terminal
+→ detects FR by postcode, runs all 25 sections, prints to terminal
 
 /property-deep-dive --country=de Friedrichstraße 100, 10117 Berlin --tax --risks --save
 → Germany, tax + risks only, save to _local/reports/
@@ -334,7 +334,7 @@ property-deep-dive/
 │   └── pin-actions.sh                # idempotent SHA-pin third-party actions
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~470 lines)
-    ├── shared/                       # 36 universal layer files (~12,600 lines)
+    ├── shared/                       # 37 universal layer files (~12,900 lines)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
     │   ├── 22 section implementations (universal logic + per-country overlays)
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
@@ -345,7 +345,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 138 markdown files, ~75,600 lines (SKILL.md + 34 shared/ + 103 country playbooks).
-**Repo total**: 167 markdown files, ~79,300 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 168 markdown files, ~79,600 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

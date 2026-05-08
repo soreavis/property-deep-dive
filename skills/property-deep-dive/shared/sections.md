@@ -10,6 +10,7 @@ Three core sections are **fully universal** (no country-specific implementation 
 The regulatory and transaction-buyer sections are also **fully universal** (single canonical doc with regional patterns + per-country tables):
 - `--permits` (building-works permit thresholds, heritage overlays, conformity-at-completion — see `shared/permits.md`)
 - `--agent` (buyer-side agency landscape: commission, licensing, MLS, dual-agency, EBA — see `shared/agent.md`)
+- `--scams` (country-specific transaction-fraud register: BEC, deed forgery, off-plan disappearance, nominee structures, golden-visa price-inflation — see `shared/scams.md`)
 
 ## Section: `--price`
 
@@ -452,6 +453,52 @@ Country-specific authorities:
 - Heritage overlay invisibility — Listed Buildings (UK), Monuments Historiques + ABF (FR), vincolo paesaggistico (IT), BIC (ES), Denkmalschutz (DE/AT) often unsignaled in listings
 - Conformity-at-completion gap — properties sold without DAACT / agibilità / licencia de primera ocupación carry hidden time bombs
 - Amnesty / condono windows close — historic regularization paths are rarely re-opened
+
+---
+
+## Section: `--scams`
+
+**Goal**: Country-specific transaction-fraud register — what documented buyer-side scams target this country's market in 2024-2026, with regulator advisories, prosecutions, or investigative-journalism evidence.
+
+**Universal logic** (works in every country): full implementation in `shared/scams.md`. Single canonical doc with 7 cross-cutting traps + regional patterns + per-country one-liners for all 103 supported countries — country playbook does NOT need a separate scams section.
+
+**Disambiguation**: `--scams` ≠ `--integrity` ≠ `--risks`. `--scams` = country-specific **transaction-fraud** patterns targeting buyers (deed forgery, wire fraud, off-plan disappearance, nominee structures, golden-visa inflation). `--integrity` = data-honesty checks on the listing/cadastre output itself. `--risks` = natural + technological hazards.
+
+**What to look up** (universal):
+- Top 3-5 scam patterns documented for the country in 2022-2026
+- Per pattern: scheme name (with native term), mechanism, victim profile, documented evidence (regulator advisory / prosecution / embassy / investigative-journalism URL), mitigation (which authority/registry to verify with)
+- Confidence per pattern: HIGH (regulator advisory + prosecution) / MEDIUM (multi-source forum + practitioner) / LOW (anecdotal)
+
+**Output structure** (full template in `shared/scams.md`):
+```markdown
+## Transaction Fraud Register
+
+**Country**: <ISO2>
+**Headline patterns** (top 3-5 by buyer-loss evidence):
+
+### <Scheme name>
+**Mechanism**: <one sentence>
+**Victim profile**: <demographic>
+**Evidence**: <regulator URL / prosecution case>
+**Mitigation**: <verification path>
+**Confidence**: <HIGH/MEDIUM/LOW>
+
+### Universal mitigations
+1. Voice-verify wire instructions on independently-sourced number
+2. Pull cadastre/registry document yourself the day of signing
+3. Engage independent buyer's lawyer (not seller's)
+4. Verify agent license at country's registry
+5. For foreign-restricted zones: pre-clear eligibility before signing
+```
+
+**Cross-cutting traps to surface every time** (from `shared/scams.md`):
+- Wire-fraud at closing (BEC) — biggest by $ volume universally; voice-verify IBAN on independently-sourced number
+- Title fraud / deed forgery / impersonated owner — UK HMLR Property Alert + ON LTAF backstop are the model defenses
+- Off-plan developer disappearance — bank-guaranteed escrow only; existing-stock preference for non-residents
+- Foreign-restricted-zone confusion / nominee structure — illegal in TH/ID/MX/MA/KW; courts unwind consistently
+- Golden-visa / RBI price-inflation — independent statutory-licensed appraisal; ENDED programs cannot be "still available"
+- Customary-tenure / restitution-lien — chain-of-title back to pre-disruption baseline (PL 1939, RO 1947/1989, BA pre-conflict)
+- Concession-vs-freehold tourism-zone — zone-status verification BEFORE deposit (CR ZMT, BR marinha, BS Crown, CV ZDTI)
 
 ---
 
