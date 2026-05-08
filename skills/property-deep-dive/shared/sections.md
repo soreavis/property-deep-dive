@@ -11,6 +11,7 @@ The regulatory and transaction-buyer sections are also **fully universal** (sing
 - `--permits` (building-works permit thresholds, heritage overlays, conformity-at-completion — see `shared/permits.md`)
 - `--agent` (buyer-side agency landscape: commission, licensing, MLS, dual-agency, EBA — see `shared/agent.md`)
 - `--scams` (country-specific transaction-fraud register: BEC, deed forgery, off-plan disappearance, nominee structures, golden-visa price-inflation — see `shared/scams.md`)
+- `--language` (foreign-buyer deed-language rule + sworn-translator mandate + Hague Apostille / POA chain + diagnostic-doc language + sworn-translation cost bands — see `shared/language.md`)
 
 ## Section: `--price`
 
@@ -499,6 +500,46 @@ Country-specific authorities:
 - Golden-visa / RBI price-inflation — independent statutory-licensed appraisal; ENDED programs cannot be "still available"
 - Customary-tenure / restitution-lien — chain-of-title back to pre-disruption baseline (PL 1939, RO 1947/1989, BA pre-conflict)
 - Concession-vs-freehold tourism-zone — zone-status verification BEFORE deposit (CR ZMT, BR marinha, BS Crown, CV ZDTI)
+
+---
+
+## Section: `--language`
+
+**Goal**: Foreign-buyer language requirements — what language must the deed be in, when is a sworn translator mandatory at signing, what's the apostille / POA chain, what does sworn translation cost.
+
+**Universal logic** (works in every country): full implementation in `shared/language.md`. Single canonical doc with 7 cross-cutting traps + regional patterns + per-country one-liners for all 103 supported countries — country playbook does NOT need a separate language section.
+
+**Disambiguation**: `--language` ≠ `--notary` ≠ `--visa`. `--language` = deed-language rule + sworn-translator regime + POA-translation chain. `--notary` = transaction-completion process. `--visa` = residency programs.
+
+**What to look up** (universal):
+- Closing-deed language; bilingual permitted; which version controls
+- Sworn interpreter at signing: mandatory / on demand / not used
+- POA / apostille chain: Hague Apostille member status; chain from foreign-language POA → apostille / consular legalisation → sworn translation → notary acceptance
+- Mandatory diagnostic / disclosure document language (DPE/APE/CEE/Energieausweis/EPC/BER/PEA — local-language-only or bilingual)
+- Sworn-translation cost band (industry-reported or statutory tariff)
+- Confidence: HIGH / MEDIUM / LOW
+
+**Output structure** (full template in `shared/language.md`):
+```markdown
+## Language & Sworn-Translation Profile
+
+**Country**: <ISO2>
+**Closing-deed language**: <local language(s); which version controls if bilingual>
+**Sworn interpreter at signing**: <mandatory / on demand / not used>
+**POA chain**: <Hague Apostille y/n → apostille or consular legalisation → sworn translation → notary acceptance>
+**Diagnostic docs language**: <local-only / bilingual standard>
+**Sworn-translation cost**: <range, industry-reported or statutory>
+**Confidence**: <HIGH/MEDIUM/LOW>
+```
+
+**Cross-cutting traps to surface every time** (from `shared/language.md`):
+- Hague Apostille membership confusion — non-members (AE, EG, JO, KW, LB, QA, NG, KE, GH, TW, KH, LK, MV, MY, TH-until-late-2026, VN-until-Sept-2026) require full consular legalisation chain (4-8 weeks)
+- "Sworn translator" means three different regimes — statutory profession (FR/DE/ES/IT/...), court-admitted (ZA/JP/KR/IN), or notary-public-certified (IL/US/UK/IE/AU/NZ + most common-law)
+- Bilingual deeds — local-language version always controls (IT, DE, ID, MX, HU)
+- Diagnostic documents universally local-language-only — buyer pays own translation
+- State / regional variation breaks single-country assumptions — CA Quebec Bill 96, US CA Civ. Code § 1632, CH cantonal, BE language regions, IN state language, ES regional
+- Consular POA bypass — civil-law consulates abroad can draft local-language POA directly, bypassing both apostille and sworn-translation steps
+- Sworn-translator cost varies 10× across region — US/UK/AU/NZ ~$50-150/page market vs NO statutory NOK 1,200-2,500/page (~€100-220) vs full POA chain $1,500-3,500 in non-Hague jurisdictions
 
 ---
 
