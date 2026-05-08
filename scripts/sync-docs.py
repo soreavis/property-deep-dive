@@ -114,7 +114,7 @@ def count_section_flags() -> int:
         'update', 'add', 'diff', 'interactive', 'test',
         'validate-only', 'refresh-only', 'health-report',
         'tier', 'include', 'exclude',
-        # Cross-cutting layers — counted separately from the 23 sections
+        # Cross-cutting layers — counted separately from the 24 sections
         'integrity', 'journey', 'type',
         # Tooling helpers (TCO calc, mortgage calc, listing watcher) — not sections
         'tco', 'mortgage', 'watch',

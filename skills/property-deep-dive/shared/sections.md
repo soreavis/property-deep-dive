@@ -7,8 +7,9 @@ Three core sections are **fully universal** (no country-specific implementation 
 - `--climate` (Copernicus + IPCC — see `shared/climate-projections.md`)
 - `--crime` (universal output, country-specific URLs — see `shared/crime-sources.md`)
 
-The regulatory section is also **fully universal** (single canonical doc with regional patterns + per-country tables):
+The regulatory and transaction-buyer sections are also **fully universal** (single canonical doc with regional patterns + per-country tables):
 - `--permits` (building-works permit thresholds, heritage overlays, conformity-at-completion — see `shared/permits.md`)
+- `--agent` (buyer-side agency landscape: commission, licensing, MLS, dual-agency, EBA — see `shared/agent.md`)
 
 ## Section: `--price`
 
