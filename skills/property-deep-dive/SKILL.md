@@ -1,8 +1,8 @@
 ---
 name: property-deep-dive
-description: Universal property due-diligence skill. Pull any or all of twenty-two sections — ten core (price/traffic/tax/rental/work/risks/mains/crime/amenities/climate) + five financial/process (finance/currency/visa/insurance/notary) + seven decision-context (compare/retirement/digital-nomad/macro/demographics/esg/exit) — for any address worldwide. 103 countries fully populated (FR + IT + CZ + SK + DE + AT + CH + ES + PT + SE + FI + NO + UK + NL + BE + DK + IS + SI + IE + GR + PL + CA + AU + NZ + EE + HR + HU + MX + BR + AR + CR + PA + RS + ME + BA + MK + AL + LT + LV + RO + BG + LU + CY + MT + US + TR + AE + JP + TH + DO + CO + UY + CL + ZA + GE + ID + MY + VN + PH + IL + MA + EG + SG + HK + KR + TW + LI + MO + AD + MC + MD + QA + SA + PE + EC + PY + AM + AZ + TN + IN + NG + KE + JO + OM + BH + KW + LB + MU + KZ + CV + SC + CN + JM + BS + SM + BB + BZ + LK + KH + MV + GH + RW + UZ) in countries/<iso2>/. Plus 4 cross-cutting layers: --integrity (data-honesty checks), --journey=<type> (decision templates: pre-offer/post-offer/foreign-buyer/investor/renovation/gite-bnb/inheritance), --type=<kind> (6 specialised property templates: off-plan/auction/probate/plot-only/heritage/apartment-vs-house). Plus tooling: TCO calculator, mortgage calculator, test fixtures, listing-diff watcher, comparable-transactions DB, auto-validate cron tracking. Outputs to terminal, MD file, or both.
+description: Universal property due-diligence skill. Pull any or all of twenty-three sections — ten core (price/traffic/tax/rental/work/risks/mains/crime/amenities/climate) + five financial/process (finance/currency/visa/insurance/notary) + seven decision-context (compare/retirement/digital-nomad/macro/demographics/esg/exit) + one regulatory (permits) — for any address worldwide. 103 countries fully populated (FR + IT + CZ + SK + DE + AT + CH + ES + PT + SE + FI + NO + UK + NL + BE + DK + IS + SI + IE + GR + PL + CA + AU + NZ + EE + HR + HU + MX + BR + AR + CR + PA + RS + ME + BA + MK + AL + LT + LV + RO + BG + LU + CY + MT + US + TR + AE + JP + TH + DO + CO + UY + CL + ZA + GE + ID + MY + VN + PH + IL + MA + EG + SG + HK + KR + TW + LI + MO + AD + MC + MD + QA + SA + PE + EC + PY + AM + AZ + TN + IN + NG + KE + JO + OM + BH + KW + LB + MU + KZ + CV + SC + CN + JM + BS + SM + BB + BZ + LK + KH + MV + GH + RW + UZ) in countries/<iso2>/. Plus 4 cross-cutting layers: --integrity (data-honesty checks), --journey=<type> (decision templates: pre-offer/post-offer/foreign-buyer/investor/renovation/gite-bnb/inheritance), --type=<kind> (6 specialised property templates: off-plan/auction/probate/plot-only/heritage/apartment-vs-house). Plus tooling: TCO calculator, mortgage calculator, test fixtures, listing-diff watcher, comparable-transactions DB, auto-validate cron tracking. Outputs to terminal, MD file, or both.
 user-invocable: true
-argument-hint: "<address> [--country=<iso2>] [--all] [--price] [--traffic] [--tax] [--rental] [--work=<profession>] [--risks] [--mains] [--crime] [--amenities] [--climate] [--finance] [--currency] [--visa] [--insurance] [--notary] [--compare=<iso2,...>] [--retirement] [--digital-nomad] [--macro] [--demographics] [--esg] [--exit] [--tco] [--mortgage] [--watch] [--integrity] [--journey=<type>] [--type=<kind>] [--listing=<url>] [--save[=<path>]] [--quick|--deep] [--override-confidence=<HIGH|MEDIUM|LOW>] | --update[=<iso2>[,<iso2>...]] [--tier=<A|B|C>] [--include=<iso2>] [--exclude=<iso2>] [--validate-only|--refresh-only] [--add=<iso2>] [--diff] [--interactive] [--test] | --health-report"
+argument-hint: "<address> [--country=<iso2>] [--all] [--price] [--traffic] [--tax] [--rental] [--work=<profession>] [--risks] [--mains] [--crime] [--amenities] [--climate] [--finance] [--currency] [--visa] [--insurance] [--notary] [--permits] [--compare=<iso2,...>] [--retirement] [--digital-nomad] [--macro] [--demographics] [--esg] [--exit] [--tco] [--mortgage] [--watch] [--integrity] [--journey=<type>] [--type=<kind>] [--listing=<url>] [--save[=<path>]] [--quick|--deep] [--override-confidence=<HIGH|MEDIUM|LOW>] | --update[=<iso2>[,<iso2>...]] [--tier=<A|B|C>] [--include=<iso2>] [--exclude=<iso2>] [--validate-only|--refresh-only] [--add=<iso2>] [--diff] [--interactive] [--test] | --health-report"
 ---
 
 # Property Deep-Dive (`/property-deep-dive`)
@@ -52,7 +52,7 @@ Skip if it's a code question or a generic real-estate market question (no specif
 
 | Flag | What it produces |
 |---|---|
-| `--all` | All fifteen sections (default if no section flag specified) |
+| `--all` | All twenty-three sections (default if no section flag specified) |
 | `--price` | Listing price vs commune €/m² (or local currency), comp listings, fair-value verdict |
 | `--traffic` | Traffic counts, road classification, noise translation |
 | `--tax` | Property tax + transaction tax + future revaluations |
@@ -68,6 +68,7 @@ Skip if it's a code question or a generic real-estate market question (no specif
 | `--visa` | Residency-by-investment / citizenship-by-investment / property-linked visa programs and current status (open/restricted/ENDED) (universal logic in `shared/visa-programs.md`) |
 | `--insurance` | Catastrophic-risk reinsurance scheme, flood/earthquake policy availability, mortgage-mandatory rules, climate-risk reforms (universal logic in `shared/insurance.md`) |
 | `--notary` | Notary required (civil-law) vs solicitor (common-law), days from offer to deed, closing costs as % of price, title insurance norms, 2025-26 reforms (universal logic in `shared/notary-process.md`) |
+| `--permits` | Building-works permit regime: declaration vs full-permit thresholds (m² creation/extension/façade), heritage / listed-building overlay, conformity-at-completion certificate, retention/amnesty path, post-purchase enforcement risk. Distinct from `--work=<profession>` which is local employment, NOT building works (universal logic in `shared/permits.md`) |
 | `--compare=<iso2,...>` | Side-by-side multi-country comparison for relocation/investment (universal logic in `shared/compare.md`) |
 | `--retirement` | Retiree-specific filter: pension taxation, healthcare, climate, expat communities (`shared/retirement.md`) |
 | `--digital-nomad` | DNV availability + thresholds, internet quality, coworking density, time-zone overlap (`shared/digital-nomad.md`) |
@@ -338,7 +339,7 @@ If a user passes an address from a country with no `countries/<iso2>/playbook.md
 
 ## Universal section concepts
 
-All countries' playbooks must implement the same twenty-two section interfaces, even if the underlying data sources differ. See `shared/sections.md` for the universal contract each section must satisfy.
+All countries' playbooks must implement the same twenty-three section interfaces, even if the underlying data sources differ. See `shared/sections.md` for the universal contract each section must satisfy.
 
 **Fifteen sections are fully universal** (no country-specific implementation required):
 

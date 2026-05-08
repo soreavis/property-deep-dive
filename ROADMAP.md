@@ -24,6 +24,12 @@ Sourced from Reddit gap-analysis 2026-05-08. Cross-validated across 6+ subreddit
 
 | Flag | Why | Effort |
 |---|---|---|
+| `--permits` | ✅ **Shipped 2026-05-08.** Building-works regime: declaration vs full permit thresholds, listed-building overlays, post-completion conformity certs, retention rules. Was scattered across `--notary` / `--type=heritage` / `--journey=renovation` / integrity-checks in only 46/103 playbooks. Name-collision risk vs `--work=<profession>` documented. Canonical: `shared/permits.md`. | shipped |
+| `--agent` | Buyer-side agency landscape & commission structure. EU/LatAm have no MLS, exclusivity-contract risk, dual-agency legality, buyer's-agent (EBA) availability. Cross-validated 4+ forums. | ~250-350 lines + per-country matrix |
+| `--scams` | Country-specific transaction-fraud register: MX ejido fraud, CY inflated-valuation visa con, PT fake-IBAN ring 2024, ES NIE-intermediary scam, wire-fraud last-minute IBAN swap (universal). Pairs with `regulatory-watch.md`. | ~300-400 lines + country tagging |
+| `--language` | Translator/interpreter requirements at notarial signing. NL/DE/IT statutory; CH/UK/IE waive. Currently mentioned for only 3 of 103 countries in `--notary`. Could be sub-flag of `--notary` or new flag. | ~150-200 lines (mostly matrix) |
+| `--home-tax` | Buyer-nationality tax overlay: US FATCA Form 8938 + FBAR + PFIC + FIRPTA-equivalent, UK non-dom abolition 2025, CA worldwide reporting. Indexed by buyer nationality, not property country. | ~200-300 lines |
+| `--remote` | Buying without being there: POA + remote signing + e-conveyancing. AU PEXA, FR notary-eIDAS POA, IT remote-procura, US RON state-by-state, NL DigiD overlay. Pairs strongly with `--language`. | ~200-250 lines + country matrix |
 | `--relocation` | Pets + driving licence + vehicle import + utility setup. All "surprise cost / surprise timeline" 90-day post-completion. ≥3 subreddits. | ~300-400 lines, country-tagged |
 | `--schools` | International + local school cost / waitlists / residency-priority. Shapes intra-country location decisions. ≥3 subreddits. | ~250-350 lines, country-tagged |
 
@@ -34,6 +40,7 @@ Sourced from Reddit gap-analysis 2026-05-08. Cross-validated across 6+ subreddit
 - `--notary` — forced-heirship sub-section (EU 650/2012, French Aug 2021 amendment, Italian quota legittima)
 - `--risks` / `--type=off-plan` — build-quality + new-build defect-rate flags (Spain ~95%, Cyprus damp construction)
 - `--digital-nomad` (or new sub-flag) — working-age healthcare carve-out (currently only retirement-age covered under `--retirement`)
+- `--mains` — utilities-reliability extension (EC 8-14hr blackouts 2024, DR rolling outages, BR drought rationing, LB collapsed grid, ZA load-shedding). Distinct from connection cost. ~80-120 lines.
 
 ### TCO calculator additions
 
@@ -94,3 +101,5 @@ Once schema is settled, three batches are unlocked:
 - **2026-05-07**: Tier-1 batch landed (#111). New caribbean region.
 - **2026-05-08**: Tier-2 batch landed (#113). New south-asia + central-asia regions. Tier-1 + Tier-2 backlog exhausted within current schema.
 - **2026-05-08**: Reddit gap-analysis surfaced 7 strong-signal coverage gaps. Backlog item for post-103 work.
+- **2026-05-08**: `--permits` greenlit and implemented in same session — see CHANGELOG. Triggered by user follow-up flagging the building-permits coverage gap (no dedicated flag, ~45% scattered coverage).
+- **2026-05-08**: Reddit/expat-forum gap-analysis #2 surfaced 6 additional candidates: `--agent`, `--scams`, `--language`, `--home-tax`, `--remote`, plus `--mains` utilities-reliability extension. Top-2 (`--agent`, `--scams`) clear cross-validation bar most decisively.

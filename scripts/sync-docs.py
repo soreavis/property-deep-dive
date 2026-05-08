@@ -75,7 +75,7 @@ def count_total_md_lines() -> int:
         try:
             total += sum(1 for _ in f.open(encoding='utf-8'))
         except OSError:
-            pass
+            continue  # unreadable file — skip from line count
     return total
 
 def count_skill_md_files() -> int:
@@ -95,7 +95,7 @@ def count_skill_md_lines() -> int:
         try:
             total += sum(1 for _ in p.open(encoding='utf-8'))
         except OSError:
-            pass
+            continue  # unreadable file — skip from line count
     return total
 
 def count_section_flags() -> int:
@@ -113,7 +113,8 @@ def count_section_flags() -> int:
         # Maintenance mode flags
         'update', 'add', 'diff', 'interactive', 'test',
         'validate-only', 'refresh-only', 'health-report',
-        # Cross-cutting layers — counted separately from the 22 sections
+        'tier', 'include', 'exclude',
+        # Cross-cutting layers — counted separately from the 23 sections
         'integrity', 'journey', 'type',
         # Tooling helpers (TCO calc, mortgage calc, listing watcher) — not sections
         'tco', 'mortgage', 'watch',

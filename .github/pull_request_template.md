@@ -11,7 +11,7 @@ For factual corrections + new countries, complete the relevant section.
 
 - [ ] Factual correction (wrong tax rate / fee / threshold / ENDED programme listed as active)
 - [ ] Broken URL replacement
-- [ ] New country playbook (must hit FR/IT/CZ/SK density: ~400-500 lines, 22 sections, primary sources)
+- [ ] New country playbook (must hit FR/IT/CZ/SK density: ~400-500 lines, 23 sections, primary sources)
 - [ ] Regulatory-watch entry (recent reform, ENDED programme, EU directive transposition)
 - [ ] New universal section flag (`skills/property-deep-dive/shared/<section>.md` + SKILL.md registration)
 - [ ] New tooling doc (`skills/property-deep-dive/shared/<tool>.md` + SKILL.md registration)
@@ -65,5 +65,5 @@ For factual corrections + new countries, complete the relevant section.
 - **ISO2**: 
 - **Population coverage / why this country**: 
 - **Lines added**: <should be ~400-500 to match FR/IT/CZ/SK>
-- **Section coverage**: all 22? Any deferred? List them.
+- **Section coverage**: all 23? Any deferred? List them.
 - **Source-tier audit**: % of facts sourced to primary government vs aggregator vs listing

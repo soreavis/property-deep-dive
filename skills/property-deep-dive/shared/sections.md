@@ -1,11 +1,14 @@
 # Universal Section Contract
 
-Every country playbook implements these ten sections with a consistent interface. The data sources differ; the interface and output structure don't.
+Every country playbook implements these ten core + one regulatory sections with a consistent interface. The data sources differ; the interface and output structure don't.
 
-Three sections are **fully universal** (no country-specific implementation needed):
+Three core sections are **fully universal** (no country-specific implementation needed):
 - `--amenities` (OSM Overpass — see `shared/amenities-osm.md`)
 - `--climate` (Copernicus + IPCC — see `shared/climate-projections.md`)
 - `--crime` (universal output, country-specific URLs — see `shared/crime-sources.md`)
+
+The regulatory section is also **fully universal** (single canonical doc with regional patterns + per-country tables):
+- `--permits` (building-works permit thresholds, heritage overlays, conformity-at-completion — see `shared/permits.md`)
 
 ## Section: `--price`
 
@@ -408,6 +411,46 @@ Country-specific authorities:
 - IT: tabacchi sometimes function as mini-marts
 - FR: tabacs double as small convenience
 - Each country has dominant brand chains worth recognizing
+
+---
+
+## Section: `--permits`
+
+**Goal**: Can the buyer legally do the works the listing implies? What unauthorised works might already exist? What is the post-purchase enforcement risk?
+
+**Universal logic** (works in every country): full implementation in `shared/permits.md`. Single canonical doc with regional patterns + per-country tables for all 103 supported countries — country playbook does NOT need a separate permits section.
+
+**Disambiguation**: `--permits` ≠ `--work=<profession>`. The latter is local employment for a profession at the address. The former is permits for **building works** on the property.
+
+**What to look up** (universal):
+- Permit hierarchy: which works require nothing / declaration / full permit (country-specific 2-tier or 3-tier system)
+- Numeric thresholds (m² creation, m² extension, height, façade modification) where statute defines them
+- Listed-building / heritage overlay (separate parallel consent regime)
+- Indicative timeline (declaration vs full permit, weeks/months)
+- Conformity certificate at completion (DAACT FR / SCAGI IT / licencia de primera ocupación ES / autorização de utilização PT / Schlussabnahme DE / etc.)
+- Retention / amnesty / regularization path for unauthorised existing works
+- Post-purchase enforcement risk (limitation period for prior-owner unauthorised works)
+
+**Output structure** (full template in `shared/permits.md`):
+```markdown
+## Permits & Building-Works Regime
+
+**Country**: <ISO2>
+**Permit hierarchy**: <none → declaration → full permit>
+**Key thresholds**: <new build / extension / façade / internal-only / demolition / pool>
+**Heritage overlay**: <authority + separate consent>
+**Timeline (typical)**: declaration <weeks>; full permit <weeks/months>
+**Conformity at completion**: <required / optional / not used>
+**Retention / amnesty path**: <country-specific>
+**Post-purchase enforcement risk**: <limitation period>
+**Confidence**: <HIGH/MEDIUM/LOW>
+```
+
+**Cross-cutting traps to surface every time** (from `shared/permits.md`):
+- The "tolerated" extension trap — passage of time does NOT legalise unauthorised structures in most civil-law jurisdictions
+- Heritage overlay invisibility — Listed Buildings (UK), Monuments Historiques + ABF (FR), vincolo paesaggistico (IT), BIC (ES), Denkmalschutz (DE/AT) often unsignaled in listings
+- Conformity-at-completion gap — properties sold without DAACT / agibilità / licencia de primera ocupación carry hidden time bombs
+- Amnesty / condono windows close — historic regularization paths are rarely re-opened
 
 ---
 
