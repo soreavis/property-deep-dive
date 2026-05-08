@@ -274,7 +274,7 @@ The GitHub Actions in `.github/workflows/` automate the read-only parts:
 
 | Workflow | Cadence | What it does |
 |---|---|---|
-| `url-liveness.yml` | weekly | curl HEAD on every URL in every Markdown file in the repo; opens issue if score <85% |
+| `url-liveness.yml` | **paused** (manual `workflow_dispatch` only) | curl HEAD on every URL in every Markdown file in the repo; opens issue if score <85%. Schedule disabled 2026-05-08 — serial bash checker times out at 90 min after Tier-1+2 country sprint pushed URL set past the bash-loop budget; awaiting Python rewrite (aiohttp + per-host semaphore + Retry-After + result cache) |
 | `health-report.yml` | monthly | parses `Last verified` dates, renders decay matrix with cadence-tier column, posts to pinned issue |
 | `tier-a-refresh.yml` | quarterly | opens tracking issue listing the 15 Tier-A countries due for refresh |
 | `tier-b-refresh.yml` | semi-annual | opens tracking issue listing the 30 Tier-B countries due for refresh |

@@ -9,7 +9,7 @@ This narrows the meaningful security surface to:
 | Surface | Risk | Treatment |
 |---|---|---|
 | **Factual content** | A wrong tax rate or "ENDED programme listed as active" could lead a user to make a costly real-world decision | Anti-hallucination contract + `regulatory-watch.md` — report via the **factual-correction** issue template |
-| **Broken URLs** | A dead URL could redirect to a malicious or impersonating domain | Weekly `url-liveness.yml` workflow — report via the **broken-url** issue template |
+| **Broken URLs** | A dead URL could redirect to a malicious or impersonating domain | `url-liveness.yml` workflow (currently **paused**, schedule disabled 2026-05-08 pending Python rewrite — manual `workflow_dispatch` still works); report via the **broken-url** issue template |
 | **Dispatch logic in `SKILL.md`** | A crafted address or argument could make the router select the wrong country playbook or section | Report privately via Security Advisory (below) if exploitable |
 | **GitHub Actions workflows** | The 3 workflows in `.github/workflows/` run scheduled HTTP requests against public URLs and read repo files | They use `permissions:` blocks scoped to `contents: read` + `issues: write`, no secrets, no third-party actions outside `actions/*` and `actions/github-script` |
 

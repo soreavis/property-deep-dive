@@ -1,9 +1,12 @@
 name: URL liveness
 
 on:
-  schedule:
-    # Every Monday at 09:00 UTC
-    - cron: '0 9 * * 1'
+  # Schedule disabled 2026-05-08: serial bash checker times out at 90 min after
+  # Tier-1+2 country sprint pushed URL set past the bash-loop budget. Awaiting
+  # Python rewrite (aiohttp + per-host semaphore + Retry-After + result cache)
+  # — see ROADMAP. Re-enable the cron line below once the rewrite ships.
+  # schedule:
+  #   - cron: '0 9 * * 1'
   workflow_dispatch:
 
 permissions:
