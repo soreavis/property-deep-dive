@@ -109,6 +109,9 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - fix(ci): bump url-liveness timeout 30 → 90 min ([#114](https://github.com/soreavis/property-deep-dive/pull/114)) — by @soreavis
 - chore(docs): refresh post-Tier-1+2 — country count 87 → 103, ROADMAP restructure, plugin.json 2026.05.2 + CHANGELOG cut ([#115](https://github.com/soreavis/property-deep-dive/pull/115)) — by @soreavis
 - feat(sections): add --permits — building-works permit regime as 23rd section ([#116](https://github.com/soreavis/property-deep-dive/pull/116)) — by @soreavis
+- feat(sections): add --agent — buyer-side agency landscape as 24th section ([#118](https://github.com/soreavis/property-deep-dive/pull/118)) — by @soreavis
+- feat(scams): add --scams section (25th) — transaction-fraud register ([#119](https://github.com/soreavis/property-deep-dive/pull/119)) — by @soreavis
+- feat(language): add --language section (26th) — foreign-buyer language requirements ([#120](https://github.com/soreavis/property-deep-dive/pull/120)) — by @soreavis
 
 ## [2026.05.2] - 2026-05-08
 
