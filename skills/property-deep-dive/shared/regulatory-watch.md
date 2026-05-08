@@ -2,7 +2,7 @@
 
 A single date-stamped registry of property-relevant reforms, transposition deadlines, ENDED programs, and watchlist items. Maintained as the **single source of truth for "what changed when"** — playbooks reference this; this references playbooks.
 
-**Why it exists**: At 103 countries × 26 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
+**Why it exists**: At 103 countries × 27 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
 
 **Maintainer**: human + Claude. Each entry must have a primary-source URL, a verified date, and a next-revisit date.
 
@@ -264,6 +264,8 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2023-02 | risks | Kahramanmaraş M7.8 + M7.5 earthquake → regulatory tightening (yapı denetim + Law 6306 kentsel dönüşüm acceleration + DASK enforcement); TBDY 2018 building code becoming effective baseline | AFAD + Çevre Bakanlığı | 2026-05-01 | 2026-09-01 | 1 | --risks --insurance`
 - `2025-09 | tax | Land+Building Tax (Emlak Vergisi) reduction Cabinet resolution renewed annually — verify 2026 status | GİB + Resmi Gazete | 2026-05-01 | 2026-12-31 | 2 | --tax`
 - `2026-2029 | tax | Rayiç bedel cycle — base values for Emlak Vergisi reset every 4 yrs; 2026-2029 cycle showing 3-5× nominal jumps under litigation | TKGM + Belediyeler | 2026-05-01 | 2027-01-01 | 2 | --tax`
+- `2026-04-01 | connectivity | 5G commercial launch (BTK schedule) — fibre rollout continues to lead; foreign-buyer broadband still depends on FTTH not 5G FWA | BTK | 2026-05-08 | 2026-07-01 | 3 | --connectivity --digital-nomad`
+- `pending | connectivity | Starlink ❌ NOT licensed — SpaceX applied 2023, BTK rejected 2024-2025, "security concerns" cited; Türksat-6A 2024 competing satellite; no approval timeline | BTK + Resmi Gazete | 2026-05-08 | 2026-08-01 | 2 | --connectivity`
 
 ### 🇦🇪 AE
 
@@ -272,6 +274,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2023-06 | tax | Federal Corporate Tax 9% effective from Jun 2023 — applies to commercial property held in qualifying entities above AED 375k threshold; individual ownership unaffected | FTA UAE | 2026-05-01 | 2026-09-01 | 2 | --tax --finance`
 - `2025 | rental | RERA Smart Rental Index expanded to A/B/C/D building-quality scoring; brackets refreshed | DLD + RERA | 2026-05-01 | 2026-09-01 | 2 | --rental`
 - `2022-10 | visa | Cabinet Decision 65/2022 expanded Golden Visa RE route to AED 2M (single or aggregate); off-plan + escrow eligible | ICP + DLD | 2026-05-01 | 2026-08-01 | 1 | --visa`
+- `2026-03 | connectivity | Starlink ✅ licensed Mar 2026 (TDRA approval) — UAE residential roaming previously grey-market; Etisalat-du duopoly remains, but Starlink rural/villa fallback now legal | TDRA | 2026-05-08 | 2026-09-01 | 2 | --connectivity`
 
 ### 🇯🇵 JP
 
@@ -327,6 +330,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2025-26 | tax | SARS Transfer Duty Schedule 8 — exempt below R1.1M, progressive to 13% above R12M; verify exact brackets each tax year | SARS | 2026-05-01 | 2026-12-01 | 2 | --tax`
 - `2024-2025 | risks | Eskom load-shedding declined via Operation Vulindlela + private generation; backup power still common in upper-middle market | Eskom + DMRE | 2026-05-01 | 2026-09-01 | 3 | --risks --finance`
 - `2022-02 | finance | Property Practitioners Act 22/2019 (PPRA) replaced EAAB Feb 2022 — new agent regulation + FFC requirements | PPRA | 2026-05-01 | 2027-01-01 | 3 | --finance --notary`
+- `2026-2027 (in flight) | connectivity | Starlink GREY-MARKET — ICASA requires 30% local-ownership (BEE); Musk equity-equivalent proposal not approved; imports via roaming reseller (Mauritius/Mozambique SIMs) widely used; **earliest legal launch est. 2026-2027** | ICASA + DCDT | 2026-05-08 | 2026-08-01 | 1 | --connectivity`
 
 ### 🇬🇪 GE
 
@@ -358,6 +362,8 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2017-XX | tax | Recurring property tax PROPOSED multiple times since 2017 — NOT enacted as of 2026-05-01; monitor Ministry of Finance consultation | Ministry of Finance | 2026-05-01 | 2026-09-01 | 3 | --tax`
 - `ongoing | visa | NO Vietnam Golden Visa via real estate exists — DT investment visa requires capital injection into a Vietnamese enterprise, not RE; common foreign-buyer assumption is wrong | Ministry of Public Security | 2026-05-01 | 2026-12-01 | 2 | --visa`
 - `2025-XX | rental | District-level STR enforcement varies; HCMC Ward People's Committees increasingly require Pink Book + business license for Airbnb | Provincial PCs + MOCST | 2026-05-01 | 2026-09-01 | 3 | --rental`
+- `2026-09-11 | connectivity | Hague Apostille convention enters into force for VN — POA chain shifts from full consular legalisation to apostille; calendar-actionable re-stamp of shared/connectivity.md + shared/language.md | HCCH + Vietnam MFA | 2026-05-08 | 2026-09-15 | 2 | --connectivity --language`
+- `pending | connectivity | Starlink licence still under review — SpaceX received conditional pilot approval 2024 but no commercial-licence as of 2026-05-08; verify on SpaceX availability map | MIC | 2026-05-08 | 2026-08-01 | 2 | --connectivity`
 
 ### 🇵🇭 PH
 

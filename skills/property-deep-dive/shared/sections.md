@@ -12,6 +12,7 @@ The regulatory and transaction-buyer sections are also **fully universal** (sing
 - `--agent` (buyer-side agency landscape: commission, licensing, MLS, dual-agency, EBA — see `shared/agent.md`)
 - `--scams` (country-specific transaction-fraud register: BEC, deed forgery, off-plan disappearance, nominee structures, golden-visa price-inflation — see `shared/scams.md`)
 - `--language` (foreign-buyer deed-language rule + sworn-translator mandate + Hague Apostille / POA chain + diagnostic-doc language + sworn-translation cost bands — see `shared/language.md`)
+- `--connectivity` (broadband: address-level fibre availability checker, dominant ISPs, tariff bands, FTTH coverage, rural fallback, Starlink licence registry, strata trap — see `shared/connectivity.md`)
 
 ## Section: `--price`
 
@@ -540,6 +541,50 @@ Country-specific authorities:
 - State / regional variation breaks single-country assumptions — CA Quebec Bill 96, US CA Civ. Code § 1632, CH cantonal, BE language regions, IN state language, ES regional
 - Consular POA bypass — civil-law consulates abroad can draft local-language POA directly, bypassing both apostille and sworn-translation steps
 - Sworn-translator cost varies 10× across region — US/UK/AU/NZ ~$50-150/page market vs NO statutory NOK 1,200-2,500/page (~€100-220) vs full POA chain $1,500-3,500 in non-Hague jurisdictions
+
+---
+
+## Section: `--connectivity`
+
+**Goal**: Foreign-buyer broadband / fixed-internet profile — official address-level fibre availability checker, dominant ISPs, tariff bands (entry / mid / gigabit) with currency + EUR/USD equivalent, FTTH urban coverage, rural fallback (5G FWA / Starlink / fixed-wireless), Starlink licence status, build-era / strata trap, country-specific quirk.
+
+**Universal logic** (works in every country): full implementation in `shared/connectivity.md`. Single canonical doc with 7 cross-cutting traps + regional patterns + per-country one-liners for all 103 supported countries — country playbook does NOT need a separate connectivity section.
+
+**Disambiguation**: `--connectivity` ≠ `--digital-nomad` ≠ `--mains`. `--connectivity` = address-level broadband verification (checker, ISPs, tariff bands, rural fallback, Starlink, strata trap) for property buyers. `--digital-nomad` = nomad-specific filter (national Speedtest tier, coworking density, time-zone overlap, DNV availability) — uses national medians, not address-level data. `--mains` = utility verification (sewer / water / gas / electricity), occasionally references the dominant ISP.
+
+**What to look up** (universal):
+- Broadband-checker URL — official primary-source address-level fibre availability map (regulator or state portal)
+- Dominant ISPs (3-5 named carriers with FTTH product line + market position; wholesale-retail split flagged where it exists)
+- Tariff bands (date-stamped 2025-2026): entry (~50-100 Mbps) / mid (~300-500 Mbps) / gigabit, local currency + EUR/USD equivalent, internet-only or bundle, install fee + contract length
+- FTTH urban coverage % + rural fallback (DSL/VDSL, 5G FWA, Starlink, fixed-wireless, satellite)
+- Starlink licence status (calendar-actionable registry): licensed / pending / banned / grey-market / not-yet-on-coverage-map
+- Build-era / strata trap (HOA / SVJ / borettslag / talohyhtiö / consorcio / asamblea / kat malikleri kurulu / 小区 / mahalla approval; gated estate anchor-ISP exclusivity)
+- Country-specific quirk (load-shedding ZA, EDL outages LB, GFW + IPLC CN, FX volatility AR/TR/EG, FUP capping LK/EG, etc.)
+- Confidence: HIGH / MEDIUM / LOW
+
+**Output structure** (full template in `shared/connectivity.md`):
+```markdown
+## Broadband & Connectivity Profile
+
+**Country**: <ISO2>
+**Address-level checker**: <regulator URL or "no national checker — carrier direct">
+**Dominant ISPs**: <3-5 carriers with positioning>
+**Tariffs (May 2026)**: entry <local + EUR/USD>, mid <local + EUR/USD>, gigabit <local + EUR/USD>; <internet-only / bundle>; install <fee>; <12mo / 24mo / no-contract>
+**FTTH urban + rural fallback**: <urban %; rural option>
+**Starlink**: <licensed YYYY-MM-DD / pending / banned / grey>
+**Build trap**: <strata / HOA / riser / heritage>
+**Quirk**: <country-specific>
+**Confidence**: HIGH / MEDIUM / LOW
+```
+
+**Cross-cutting traps to surface every time** (from `shared/connectivity.md`):
+- "Fibre available" on the listing ≠ active line at this unit — verify regulator address-checker + ask seller for active line ID before signing
+- National FTTH percentages mask rural/urban gaps — ES 92% national vs 79% rural; UK 74% national but 90%+ urban with isolated rural gaps; BR 70% national but tier-1-skewed; AU mixes FTTP/FTTC/FTTN/HFC/FW/Sky Muster
+- Starlink legality varies and changes — banned (CN/IR/SY/RU/BY/AF/CU/KP), pending (SA/MA/EG/BH/KW/AM/AZ/GE/UZ/IL-security/IN/KR), grey (ZA-30%-BEE), not-licensed (BA-major-EU-absence, JM, TR), recently licensed (AE Mar 2026, JO Feb 2026, CO Apr 2024); status moves fast
+- 5G FWA does not replace fibre for upload-heavy work — symmetric-gigabit FTTH (IS Reykjavík Fibre, KR/JP/SG/HK/TW urban, CH FR symmetric add-ons) required for video conferencing at scale
+- Strata / HOA / riser approval — strong individual right-to-fibre laws (FR Loi Pintat, IT D.Lgs. 259/2003 + Law 12/2019, PT DL 123/2009, ES Ley 9/2014); assembly approval routinely required (DE Mietshaus, AT WEG, NL VvE, BE syndic, CH Stockwerkeigentum, SE BRF, FI taloyhtiö, CZ panelák SVJ, IL board, IN society/RWA, ZA body corp, AU Owners Corp, JP マンション 管理組合, KR 아파트 단지)
+- Microstate / state monopolies — MC, AD, LI, SM, MV, UY, EC, CV, MO, LB, CN, EG, BZ have single licensed operators or near-monopolies; expect 10-30% premium and longer install-windows
+- Contract length traps + bundle pricing — 24mo locks EU-norm; UK anti-CPI-rise post-Ofcom 2024; ES Digi / PT Digi / UK altnets often no-permanencia; promo "first-12-months" tariffs nearly double at month 13 — read steady-state price
 
 ---
 
