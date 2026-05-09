@@ -11,7 +11,7 @@ For factual corrections + new countries, complete the relevant section.
 
 - [ ] Factual correction (wrong tax rate / fee / threshold / ENDED programme listed as active)
 - [ ] Broken URL replacement
-- [ ] New country playbook (must hit FR/IT/CZ/SK density: ~400-500 lines, 28 sections, primary sources)
+- [ ] New country playbook (must hit FR/IT/CZ/SK density: ~400-500 lines, 29 sections, primary sources)
 - [ ] Regulatory-watch entry (recent reform, ENDED programme, EU directive transposition)
 - [ ] New universal section flag (`skills/property-deep-dive/shared/<section>.md` + SKILL.md registration)
 - [ ] New tooling doc (`skills/property-deep-dive/shared/<tool>.md` + SKILL.md registration)

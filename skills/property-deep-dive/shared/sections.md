@@ -14,6 +14,7 @@ The regulatory and transaction-buyer sections are also **fully universal** (sing
 - `--language` (foreign-buyer deed-language rule + sworn-translator mandate + Hague Apostille / POA chain + diagnostic-doc language + sworn-translation cost bands — see `shared/language.md`)
 - `--connectivity` (broadband: address-level fibre availability checker, dominant ISPs, tariff bands, FTTH coverage, rural fallback, Starlink licence registry, strata trap — see `shared/connectivity.md`)
 - `--home-tax` (buyer-nationality tax overlay: tax-residence trigger, worldwide-income reach, foreign-asset disclosure, CGT on disposal, annual wealth on overseas RE, estate/inheritance, exit-tax events, special inbound regimes — see `shared/home-tax.md`)
+- `--remote` (foreign-buyer remote-execution: POA + apostille + RON + e-conveyancing + eIDAS QES + mortgage-bank residual wet-ink + Hawarden v ENS BEC trap — see `shared/remote.md`)
 
 ## Section: `--price`
 
@@ -632,6 +633,49 @@ Country-specific authorities:
 - Exit-tax events on direct foreign RE — YES in US (§ 877A) / CA (§ 128.1) / AU (CGT event I1) / IL (§ 100A) / ZA (§ 9H); NO in DE (§ 6 AStG shareholdings only) / FR (Art. 167 bis) / JP (§ 60-2) / KR (Art. 118-9)
 - Special-inbound-regime lock-in — IT 24-bis €100k/€200k 15y / IT 24-ter 7% pensioners / ES Beckham 24% / UK FIG 4y / IL Olim 10y + 2026 reporting reform / NL 30%-ruling → 27% from 2027
 - Treaty FTC vs treaty exemption — exemption-with-progression (DE/AT/FR/CH most EU treaties) vs credit method (US/UK/CA/AU/JP/IN); DE-ES DTT 2013 atypically uses credit; verify per-treaty Article 24 method
+
+---
+
+## Section: `--remote`
+
+**Goal**: Foreign-buyer remote-execution mechanisms — can a buyer execute a property purchase WITHOUT physically being present? Five distinct mechanisms covered: POA to local representative + apostille / consular legalisation, remote video-conference signing at notary, eIDAS QES / equivalent, digital land-register filing, mortgage-bank residual wet-ink.
+
+**Universal logic** (works for any property country): full implementation in `shared/remote.md`. Single canonical doc with 7 cross-cutting traps + ~80-country regional patterns + cross-jurisdictional reform calendar covering all 103 supported countries — country playbook does NOT need a separate remote section. Pairs strongly with `--language` (apostille / sworn-translator / POA-translation chain).
+
+**Disambiguation**: `--remote` ≠ `--language` ≠ `--notary` ≠ `--scams`. `--remote` = execution-side (POA + RON + e-conveyancing + eIDAS QES + mortgage residual). `--language` = language-side (deed-language + sworn-translator + POA-translation chain). `--notary` = process-side (days from offer to deed, closing costs, notary vs solicitor regime). `--scams` = fraud register (BEC at closing — *Hawarden v ENS* SCA 10 Jun 2024 affirms buyer bears BEC risk).
+
+**What to look up** (universal):
+- POA mechanism — local term + statutory anchor + form requirement (private vs notarial vs apostilled chain) + consulate-bypass availability
+- Remote video-witnessed deed at notary — available y/n + scope (property in / excluded) + statute + platform + effective date
+- eIDAS / equivalent QES — accepted at deed-signing y/n + format constraints + national-eID or cross-border-recognised
+- Digital ID for foreign buyers — what's accepted; whether non-residents can practically obtain it
+- Land-register electronic filing — system name + notary / attorney direct-filing y/n
+- Mortgage residual wet-ink — bank-side practice, separate from notary side
+- 2024-2026 reform — date-stamped, with effective date
+- Confidence: HIGH / MEDIUM / LOW
+
+**Output structure** (full template in `shared/remote.md`):
+```markdown
+## Remote-Execution Profile
+
+**Country**: <ISO2>
+**POA mechanism**: <local term + statute + form (private / notarial / apostilled chain) + consulate bypass y/n>
+**Remote video-deed**: <available y/n + scope (property in/excluded) + platform + effective date>
+**eIDAS / QES at deed**: <accepted y/n + format constraints>
+**Digital ID for foreign buyers**: <obtainable y/n + which system>
+**Land-register e-filing**: <system + notary direct y/n>
+**Mortgage residual wet-ink**: <bank typical practice>
+**Confidence**: <HIGH/MEDIUM/LOW>
+```
+
+**Cross-cutting traps to surface every time** (from `shared/remote.md`):
+- eIDAS recognition asymmetry — QES is EU-mutual, deed-validity is national; DE Auflassung / AT § 31 GBG / IT rogito / NL transportakte / ES compraventa all still require physical presence even with eIDAS-2 EUDI Wallet rolling out 2026-2027
+- Mortgage-bank residual wet-ink — RON-eligible note ≠ RON-eligible loan; Fannie/Freddie accept RON since 31 Mar 2020 + manufactured homes 7 Aug 2024 but originator + warehouse + recorder all gate
+- Time-zone collision on real-time video signing — default to apostilled-POA chain rather than RON for buyers > 6 hours offset from destination
+- State / canton / province fragmentation — US ~46 states + DC + PR have permanent RON; **CA SB 696 effective 1 Jan 2030 backstop** (regulations pending); AU PEXA + Sympli interoperability **suspended** 2024; CH 26 cantons each own Notariatsgesetz
+- Identity-verification infrastructure incompatibility — Catch-22 for foreign buyers without local eID; pass-through via solicitor / consulate / RON credential-analysis fallback (FL § 117.295 expressly permits foreign-passport credential analysis)
+- Apostille / consular legalisation chain still required for foreign POA — non-Hague: AE / EG / JO / KW / LB / QA / NG / KE / GH / TW / KH / LK / MV / MY / TH (cabinet approval Dec 2025; deposit pending) / VN (in force 11 Sept 2026)
+- AML/KYC gatekeepers — *Hawarden v ENS* [2024] ZASCA 90 BUYER bears BEC risk; FinCEN Residential Real Estate Reporting Rule effective 1 Mar 2026; EU AMLR/AMLA 19 Jun 2024 applies 10 Jul 2027
 
 ---
 
