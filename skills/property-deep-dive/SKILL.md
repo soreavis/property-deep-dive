@@ -59,7 +59,7 @@ Skip if it's a code question or a generic real-estate market question (no specif
 | `--rental` | Realistic short-let / gîte / Airbnb income, regulatory regime, net |
 | `--work=<profession>` | Local employment options for the named profession |
 | `--risks` | Natural + technological risks (acute hazards); build-year hazards |
-| `--mains` | Mains drains / sewer connection check + verification path |
+| `--mains` | Mains drains / sewer connection check + verification path PLUS utilities-reliability extension (grid type, SAIDI/SAIFI, outage band 🟢🟡🟠🔴, load-shedding regime, 2024-2026 reform calendar, water-supply reliability — universal logic in `shared/mains-reliability.md`) |
 | `--crime` | Commune-level crime rates + trend + national/regional comparison (per-country source registry in `shared/crime-sources.md`) |
 | `--amenities` | Distance to grocery / DIY / pharmacy / GP / hospital / schools / public transport via OSM Overpass (universal logic in `shared/amenities-osm.md`) |
 | `--climate` | Climate change projections per coordinate: temperature trajectory, sea-level rise, heatwaves, drought, wildfire, degree-day shift (universal logic in `shared/climate-projections.md`) |
