@@ -13,6 +13,7 @@ The regulatory and transaction-buyer sections are also **fully universal** (sing
 - `--scams` (country-specific transaction-fraud register: BEC, deed forgery, off-plan disappearance, nominee structures, golden-visa price-inflation — see `shared/scams.md`)
 - `--language` (foreign-buyer deed-language rule + sworn-translator mandate + Hague Apostille / POA chain + diagnostic-doc language + sworn-translation cost bands — see `shared/language.md`)
 - `--connectivity` (broadband: address-level fibre availability checker, dominant ISPs, tariff bands, FTTH coverage, rural fallback, Starlink licence registry, strata trap — see `shared/connectivity.md`)
+- `--home-tax` (buyer-nationality tax overlay: tax-residence trigger, worldwide-income reach, foreign-asset disclosure, CGT on disposal, annual wealth on overseas RE, estate/inheritance, exit-tax events, special inbound regimes — see `shared/home-tax.md`)
 
 ## Section: `--price`
 
@@ -585,6 +586,52 @@ Country-specific authorities:
 - Strata / HOA / riser approval — strong individual right-to-fibre laws (FR Loi Pintat, IT D.Lgs. 259/2003 + Law 12/2019, PT DL 123/2009, ES Ley 9/2014); assembly approval routinely required (DE Mietshaus, AT WEG, NL VvE, BE syndic, CH Stockwerkeigentum, SE BRF, FI taloyhtiö, CZ panelák SVJ, IL board, IN society/RWA, ZA body corp, AU Owners Corp, JP マンション 管理組合, KR 아파트 단지)
 - Microstate / state monopolies — MC, AD, LI, SM, MV, UY, EC, CV, MO, LB, CN, EG, BZ have single licensed operators or near-monopolies; expect 10-30% premium and longer install-windows
 - Contract length traps + bundle pricing — 24mo locks EU-norm; UK anti-CPI-rise post-Ofcom 2024; ES Digi / PT Digi / UK altnets often no-permanencia; promo "first-12-months" tariffs nearly double at month 13 — read steady-state price
+
+---
+
+## Section: `--home-tax`
+
+**Goal**: Buyer-nationality home-country tax overlay — what the buyer's home tax authority does to them annually, at disposal, at death, and at emigration because they own foreign property. Indexed by the **buyer's tax-residence country** (NOT the property country — uniquely orthogonal to all other sections).
+
+**Universal logic** (works for any buyer cohort): full implementation in `shared/home-tax.md`. Single canonical doc with 7 cross-cutting traps + 20+ buyer-cohort patterns covering US/UK/CA/AU/NZ + DE/FR/IT/ES/NL + Nordics (SE/NO/DK/FI) + CH + JP/KR/SG/HK/CN + IL + emerging markets (IN/BR/MX/ZA/AE/SA/GCC). Country playbook does NOT need a separate home-tax section — the canonical doc is keyed by buyer residence, not property location.
+
+**Disambiguation**: `--home-tax` ≠ `--tax` ≠ `--finance` ≠ `--notary`. `--home-tax` = buyer-residence-side (what the buyer's home tax authority does). `--tax` = property-country-side (local property tax, transaction tax, future revaluations). `--finance` = mortgage availability for non-resident buyers in the property country. `--notary` = transaction-completion process. Tax due in BOTH countries is the norm, with bilateral relief via DTT (credit method or exemption-with-progression).
+
+**What to look up** (universal):
+- Tax-residence trigger (days-test + domicile/centre-of-life test + treaty tie-breaker)
+- Worldwide-income reach (form/schedule for foreign rental)
+- Foreign-asset disclosure (FBAR + Form 8938 / T1135 / Modelo 720 / Quadro RW / Schedule FA / Form 3916 / Anlage AUS / Form 5060 / Bens no Exterior + CBE)
+- CGT on disposal (rate, holding-period exemptions, treaty allocation, principal-residence relief)
+- Annual wealth/property tax on overseas RE (IFI, Patrimonio + ITSGF, Formueskatt, Box 3, IVIE, Vermögenssteuer, Ejendomsværdiskat)
+- Estate/inheritance exposure (worldwide for resident decedent/heir; treaty network US 16 / UK ~10 / DE 5 / FR ~7 / IT ~7 / ES ~3)
+- Departure/exit-tax (does emigration trigger deemed disposition on foreign RE? US/CA/AU/IL/ZA YES; DE/FR/JP/KR shareholdings only)
+- Special inbound regimes (Beckham, 24-bis, FIG, Olim, RNOR, 30%-ruling)
+- Confidence: HIGH / MEDIUM / LOW
+
+**Output structure** (full template in `shared/home-tax.md`):
+```markdown
+## Home-Country Tax Overlay (buyer's residence: <ISO2>)
+
+**Tax-residence trigger**: <days / domicile / centre-of-life test>
+**Worldwide income**: <yes/no/territorial>
+**Foreign rental reporting**: <form / schedule>
+**Foreign-asset disclosure**: <form name + threshold + penalty>
+**CGT on foreign disposal**: <rate, holding-period, principal-residence relief>
+**Annual wealth/property on foreign RE**: <name / rate / threshold>
+**Estate/inheritance worldwide**: <yes/no + treaty count>
+**Exit tax on foreign RE**: <yes/no + statute>
+**Special inbound regimes**: <Beckham / 24-bis / FIG / Olim / RNOR>
+**Confidence**: <HIGH/MEDIUM/LOW>
+```
+
+**Cross-cutting traps to surface every time** (from `shared/home-tax.md`):
+- Phantom currency-gain on foreign mortgage payoff — IRC § 988 ordinary gain (US) / Div 775 FRE 4 (AU) / § 39(2) (CA) / § 57-3 (JP); anchor case *Quijano v. United States*; integrated systems (UK *Bentley v Pike* / DE / FR / IT) avoid bifurcation
+- PFIC trap on foreign collective-investment vehicles (US-only) — § 1297; Spanish SOCIMI / French SCPI / German Offene Immobilienfonds / UK REIT / AU LIT-MIT all PFIC for US individual holders; § 1291 punitive default vs § 1295 QEF vs § 1296 mark-to-market
+- Wealth tax overlap on overseas property — most DTTs do NOT cover wealth tax; FR resident + ES property = IFI worldwide AND Patrimonio Spanish-situs (no relief)
+- Estate/inheritance-tax patchwork — US 16 treaties; UK ~10; DE 5; FR ~7; IT ~7; ES ~3 — most foreign property gets DOUBLE-taxed on death
+- Exit-tax events on direct foreign RE — YES in US (§ 877A) / CA (§ 128.1) / AU (CGT event I1) / IL (§ 100A) / ZA (§ 9H); NO in DE (§ 6 AStG shareholdings only) / FR (Art. 167 bis) / JP (§ 60-2) / KR (Art. 118-9)
+- Special-inbound-regime lock-in — IT 24-bis €100k/€200k 15y / IT 24-ter 7% pensioners / ES Beckham 24% / UK FIG 4y / IL Olim 10y + 2026 reporting reform / NL 30%-ruling → 27% from 2027
+- Treaty FTC vs treaty exemption — exemption-with-progression (DE/AT/FR/CH most EU treaties) vs credit method (US/UK/CA/AU/JP/IN); DE-ES DTT 2013 atypically uses credit; verify per-treaty Article 24 method
 
 ---
 

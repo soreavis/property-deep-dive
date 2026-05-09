@@ -9,7 +9,7 @@
 
 **Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
 
-**Pre-purchase property due diligence across 103 countries** — tax, risks, rental yield, visa, mortgage, broadband, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **27 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
+**Pre-purchase property due diligence across 103 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **28 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
 
@@ -25,11 +25,11 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 4. Applies the anti-hallucination guard
 5. Outputs to terminal or saves a Markdown report
 
-### Sections (27 user-invocable)
+### Sections (28 user-invocable)
 
 **Core (10)** — `--price` `--traffic` `--tax` `--rental` `--work=<profession>` `--risks` `--mains` `--crime` `--amenities` `--climate`
 
-**Financial / process (5)** — `--finance` `--currency` `--visa` `--insurance` `--notary`
+**Financial / process (6)** — `--finance` `--currency` `--visa` `--insurance` `--notary` `--home-tax` (buyer-nationality tax overlay: home-country exposure when buying / owning / disposing of foreign property — 20+ buyer cohorts incl. US FATCA/PFIC/§988 · UK FA 2025 FIG/LTR · CA T1135 + § 128.1 · DE/FR/IT/ES/NL · Nordics · CH · JP/KR/SG/HK/CN · IL · IN/BR/MX/ZA/GCC + 7 cross-cutting traps)
 
 **Regulatory (1)** — `--permits` (building-works permit thresholds, heritage overlays, conformity-at-completion)
 
@@ -142,7 +142,7 @@ See [Usage](#usage) below for the full flag reference and more examples.
 
 ```
 /property-deep-dive 1 Rue Principale, 86430 Adriers, France --all
-→ detects FR by postcode, runs all 27 sections, prints to terminal
+→ detects FR by postcode, runs all 28 sections, prints to terminal
 
 /property-deep-dive --country=de Friedrichstraße 100, 10117 Berlin --tax --risks --save
 → Germany, tax + risks only, save to _local/reports/
@@ -368,7 +368,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 143 markdown files, ~77,400 lines (SKILL.md + 39 top-level shared/ + 103 country playbooks; the 14 shared/exit/ region files add ~1,000 more lines on top).
-**Repo total**: 170 markdown files, ~80,300 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 171 markdown files, ~81,400 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

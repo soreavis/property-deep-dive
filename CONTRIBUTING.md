@@ -17,7 +17,7 @@ All paths below are relative to the repo root. The skill payload lives under `sk
 
 ## Adding a new country
 
-The bar is **FR/IT/CZ/SK density** (~400-500 lines, all 27 sections covered with primary government sources — note: --crime/amenities/climate/permits/agent/scams/language/connectivity inherit from `shared/`, country playbook implements 7 core sections). See `skills/property-deep-dive/countries/fr/playbook.md` as the canonical example.
+The bar is **FR/IT/CZ/SK density** (~400-500 lines, all 28 sections covered with primary government sources — note: --crime/amenities/climate/permits/agent/scams/language/connectivity/home-tax inherit from `shared/`, country playbook implements 7 core sections). See `skills/property-deep-dive/countries/fr/playbook.md` as the canonical example.
 
 Required structure:
 
