@@ -34,6 +34,7 @@ Full documentation for **property-deep-dive**. Most content lives at the repo ro
 | [shared/verdict-bands.md](../skills/property-deep-dive/shared/verdict-bands.md) | 🟢 🟡 🟠 🔴 severity contract |
 | [config/_tiers.json](../config/_tiers.json) | Refresh-cadence tier membership (Tier-A 90d / B 180d / C 365d) — single source of truth |
 | [config/_regions.json](../config/_regions.json) | Region-grouping for country matrix in README — single source of truth |
+| [config/_visa-programs.json](../config/_visa-programs.json) | Visa / RBI / CBI / DNV / golden-visa registry (192 records, 13 regions) — source of truth for the `--visa` section; `shared/visa-programs.md` region tables auto-render via `scripts/render-visa-programs.py` |
 
 ## Country playbooks
 

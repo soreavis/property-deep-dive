@@ -9,7 +9,8 @@ All paths below are relative to the repo root. The skill payload lives under `sk
 | What | Where |
 |---|---|
 | Add or update a country playbook | `skills/property-deep-dive/countries/<iso2>/playbook.md` |
-| Log a new tax/visa/regulatory reform | `skills/property-deep-dive/shared/regulatory-watch.md` |
+| Log a new tax/regulatory reform | `skills/property-deep-dive/shared/regulatory-watch.md` |
+| Update a visa / RBI / CBI / DNV / golden-visa programme status | `config/_visa-programs.json` (source of truth — change `status`), then run `python3 scripts/render-visa-programs.py` to refresh `shared/visa-programs.md` |
 | Fix a broken URL | the relevant `skills/property-deep-dive/countries/<iso2>/playbook.md` or `skills/property-deep-dive/shared/<topic>.md` |
 | Add a universal section flag | new file in `skills/property-deep-dive/shared/`, register in `skills/property-deep-dive/SKILL.md` argument-hint + Sections table |
 | Add a tooling doc | `skills/property-deep-dive/shared/<tool-name>.md`, register in `skills/property-deep-dive/SKILL.md` |
@@ -54,6 +55,8 @@ Before submitting:
 - `<sections>` = the `--<flag>` sections this reform affects in country playbooks
 
 ENDED-program registry entries (Tier 1, anti-hallucination critical) go in the ENDED Programs table in the same file.
+
+If the reform changes a **visa / RBI / CBI / DNV / golden-visa** programme, also update its record in `config/_visa-programs.json` (set `status` to `ENDED` / `SUSPENDED` / `OPEN — RESTRICTED` / etc., update `min_threshold` and `caveats` as needed), then run `python3 scripts/render-visa-programs.py` so `shared/visa-programs.md` region tables stay in sync. The `visa-programs-audit.yml` workflow's `claim-audit` job will fail CI if any country playbook still mentions the programme without an acknowledgement marker (`ENDED` / `CLOSED` / `~~strikethrough~~` / "grandfathered" / "not enacted" / etc.).
 
 ## Anti-hallucination contract
 

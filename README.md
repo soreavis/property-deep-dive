@@ -302,7 +302,8 @@ property-deep-dive/
 ├── CLAUDE.md                         # repo-specific notes for Claude Code sessions
 ├── config/
 │   ├── _regions.json                 # docs-build input — country region grouping
-│   └── _tiers.json                   # refresh-cadence tier membership (A 90d / B 180d / C 365d)
+│   ├── _tiers.json                   # refresh-cadence tier membership (A 90d / B 180d / C 365d)
+│   └── _visa-programs.json           # source of truth for --visa (192 records, 13 regions; shared/visa-programs.md auto-renders from this)
 ├── .editorconfig                     # cross-editor consistency
 ├── .markdownlint.json                # markdown lint rules used by pr-validate
 ├── .gitignore
@@ -334,10 +335,11 @@ property-deep-dive/
 │       ├── regulatory-watch-revisit.yml # surface regulatory-watch entries past their revisit_by
 │       ├── confidence-audit.yml         # check Confidence label vs primary-source URL count per playbook
 │       ├── doc-sync-check.yml           # PR check that scripts/sync-docs.py would not change anything
-│       ├── tier-a-refresh.yml           # quarterly Tier-A tracking issue (15 high-velocity markets)
+│       ├── tier-a-refresh.yml           # quarterly Tier-A tracking issue (uses _tier-refresh.yml)
 │       ├── tier-b-refresh.yml           # semi-annual Tier-B tracking issue (uses _tier-refresh.yml)
 │       ├── tier-c-refresh.yml           # annual Tier-C tracking issue (uses _tier-refresh.yml)
-│       ├── _tier-refresh.yml            # reusable workflow shared by tier-b/tier-c
+│       ├── _tier-refresh.yml            # reusable workflow (workflow_call) shared by tier-a/b/c
+│       ├── visa-programs-audit.yml      # render-check + claim-audit on config/_visa-programs.json
 │       ├── codeql.yml                   # GitHub CodeQL static analysis (Actions + Python)
 │       ├── scorecard.yml                # OpenSSF Scorecard, weekly + on push to main
 │       ├── labels-sync.yml              # syncs labels.yml on changes
@@ -350,7 +352,13 @@ property-deep-dive/
 │       ├── sign-release.yml             # sigstore keyless signing of release tarball
 │       └── year-roll-reminder.yml       # December reminder to update year-stamped references
 ├── scripts/
-│   └── pin-actions.sh                # idempotent SHA-pin third-party actions
+│   ├── audit-confidence.py           # primary-source URL count vs declared Confidence per playbook
+│   ├── audit-visa-programs.py        # lint country playbook claims against config/_visa-programs.json status
+│   ├── pin-actions.sh                # idempotent SHA-pin third-party actions
+│   ├── primary-source-allowlist.txt  # central banks + statistics agencies for confidence-audit allowlist
+│   ├── regwatch_promotions.py        # parses regulatory-watch.md for Tier-1/2 entries → auto-promotion list
+│   ├── render-visa-programs.py       # JSON → AUTOGEN block in shared/visa-programs.md (idempotent; --check / --diff)
+│   └── sync-docs.py                  # auto-sync counts + AUTOGEN blocks across community markdown
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~590 lines)
     ├── shared/                       # 39 top-level universal layer files (~13,500 lines)
@@ -387,7 +395,7 @@ In the meantime, the most valuable contributions are:
 - **Factual corrections** — wrong tax rate, fee threshold, or "ENDED programme listed as active" (use the [factual-correction issue template](https://github.com/soreavis/property-deep-dive/issues/new?template=factual-correction.yml))
 - **Broken URL replacements** — particularly when a primary government portal moves
 - **Regulatory-watch entries** — recent reform / EU directive transposition / ENDED programme that supersedes a Tier-1 source
-- **Section extensions** — see [`ROADMAP.md`](./ROADMAP.md) § Coverage extensions for the prioritised next-section queue (`--home-tax`, `--remote`, `--relocation`, `--schools`, `--mains` extension)
+- **Section extensions** — `--home-tax` (#127), `--remote` (#128), `--relocation` (#129) all shipped 2026-05-09. Remaining queue: `--schools`, `--mains` utilities-reliability extension. See [`ROADMAP.md`](./ROADMAP.md) § Coverage extensions for the full list and rationale.
 
 ## Versioning
 
