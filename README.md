@@ -170,12 +170,12 @@ Running this skill in Claude Code (or Cowork) consumes tokens proportional to wh
 
 | Component | Size | Loaded when |
 |---|---:|---|
-| `SKILL.md` (router + argument-hint + country matrix) | ~6,800 tokens | Always |
+| `SKILL.md` (router + argument-hint + country matrix) | ~7,100 tokens | Always |
 | `shared/preflight.md` (country detection) | ~2,100 tokens | Always |
 | `shared/anti-hallucination.md` (7 mandatory checks) | ~3,500 tokens | Always |
-| `shared/sections.md` (universal section contract) | ~6,000 tokens | Any section flag |
+| `shared/sections.md` (universal section contract) | ~8,100 tokens | Any section flag |
 | `shared/output-template.md` | ~1,600 tokens | Any output |
-| **Always-on subtotal** | **~14-20K tokens** | |
+| **Always-on subtotal** | **~16-22K tokens** | |
 
 **Country playbook** (loaded once per address): **3,500 – 14,500 tokens**
 - Smallest (RO, BG, LV, LU, LT — ~290-310 lines): ~3,500 tokens
@@ -192,17 +192,22 @@ Running this skill in Claude Code (or Cowork) consumes tokens proportional to wh
 | `--climate` | `shared/climate-projections.md` (189 lines) | ~2,300 |
 | `--insurance` | `shared/insurance.md` (195 lines) | ~2,300 |
 | `--notary` | `shared/notary-process.md` (225 lines) | ~2,700 |
-| `--currency` | `shared/currency.md` (271 lines) | ~3,300 |
-| `--visa` | `shared/visa-programs.md` (277 lines) | ~3,300 |
-| `--finance` | `shared/finance.md` (287 lines) | ~3,400 |
+| `--language` | `shared/language.md` (227 lines) | ~2,700 |
+| `--scams` | `shared/scams.md` (237 lines) | ~2,800 |
+| `--currency` | `shared/currency.md` (303 lines) | ~3,600 |
+| `--finance` | `shared/finance.md` (317 lines) | ~3,800 |
+| `--connectivity` | `shared/connectivity.md` (335 lines) | ~4,000 |
 | `--integrity` | `shared/integrity-checks.md` (352 lines) | ~4,200 |
+| `--visa` | `shared/visa-programs.md` (356 lines) | ~4,300 |
+| `--permits` | `shared/permits.md` (385 lines) | ~4,600 |
+| `--agent` | `shared/agent.md` (412 lines) | ~4,900 |
 | `--type=<kind>` | `shared/property-types.md` (585 lines) | ~7,000 |
 | `--update` | `shared/updater.md` (588 lines) | ~7,100 |
 | `--journey=<type>` | `shared/journeys.md` (589 lines) | ~7,100 |
 | `--compare=<iso2,...>` | `shared/compare.md` (741 lines) | ~8,900 + extra playbooks |
-| `--crime` | `shared/crime-sources.md` (761 lines) | ~9,100 |
 | `--retirement` | `shared/retirement.md` (758 lines) | ~9,100 |
-| `--exit` | `shared/exit.md` (936 lines) | ~11,200 |
+| `--crime` | `shared/crime-sources.md` (901 lines) | ~10,800 |
+| `--exit` | `shared/exit.md` (100-line index) + region file (43-143 lines, loaded on demand) | ~1,200 + ~600-1,700 per region |
 
 ### Common invocation patterns
 
@@ -257,12 +262,12 @@ Together: a 14-month-old playbook never silently displays "Confidence: HIGH", an
 The skill ships with a maintenance mode (`--update`) and tiered refresh GitHub Actions:
 
 ```
-/property-deep-dive --update                       # full re-research + URL replace (all 87)
+/property-deep-dive --update                       # full re-research + URL replace (all 103)
 /property-deep-dive --update --validate-only       # URL liveness only (weekly)
 /property-deep-dive --update --refresh-only        # data refresh, no URL check
-/property-deep-dive --update --tier=A              # 15 high-velocity markets (quarterly)
-/property-deep-dive --update --tier=B              # 30 mid-volume markets (semi-annual)
-/property-deep-dive --update --tier=C              # 42 stable/frontier markets (annual)
+/property-deep-dive --update --tier=A              # 16 high-velocity markets (quarterly)
+/property-deep-dive --update --tier=B              # 38 mid-volume markets (semi-annual)
+/property-deep-dive --update --tier=C              # 49 stable/frontier markets (annual)
 /property-deep-dive --update --tier=A --include=ge # force-include a non-canonical country
 /property-deep-dive --update --tier=A --exclude=fr # skip a canonical Tier-A country this cycle
 /property-deep-dive --health-report                # decay matrix per country/section (monthly)
@@ -314,54 +319,73 @@ property-deep-dive/
 │   │   ├── broken-url.yml
 │   │   ├── new-country.yml
 │   │   └── regulatory-watch.yml
-│   └── workflows/  (27 in total — see CHANGELOG.md for the full set)
-│       ├── pr-validate.yml           # markdownlint + forbidden-phrasings + Status footer + density + arg-hint drift
-│       ├── source-tier-audit.yml     # advisory: primary-vs-aggregator URL ratio per changed playbook (sticky PR comment)
-│       ├── link-check.yml            # lychee internal links (PR + weekly schedule)
-│       ├── changelog-enforcer.yml    # require [Unreleased] entry unless skip-labelled
-│       ├── url-liveness.yml          # weekly URL check, opens issue if score <85%
-│       ├── test-fixtures-check.yml   # monthly check of skills/property-deep-dive/shared/test-fixtures.md listings
-│       ├── health-report.yml         # monthly decay matrix → pinned issue
-│       ├── feed-watcher.yml          # 6-hourly EU/ECJ feed → opens issue when relevant
-│       ├── scorecard.yml             # OpenSSF Scorecard, weekly + on push to main
-│       ├── labels-sync.yml           # syncs labels.yml on changes
-│       ├── labeler.yml               # path-based PR labels
-│       ├── pr-size.yml               # PR size/xs … size/xl labels
-│       ├── welcome.yml               # first-PR / first-issue greeter
-│       ├── stale.yml                 # mark stale at 60d, close at 90d (with exemptions)
-│       ├── dependabot-auto-merge.yml # auto-merge patch + minor dep updates after CI green
-│       ├── release-notes.yml         # auto-classify on tag push, draft release body
-│       └── sign-release.yml          # sigstore keyless signing of release tarball
+│   └── workflows/  (27 in total — see CHANGELOG.md for the full set; selection below)
+│       ├── pr-validate.yml              # markdownlint + forbidden-phrasings + Last verified + density + arg-hint drift
+│       ├── source-tier-ratchet.yml      # advisory: primary-vs-aggregator URL ratio per changed playbook (sticky PR comment)
+│       ├── link-check.yml               # lychee internal links (PR + weekly schedule)
+│       ├── changelog-enforcer.yml       # require [Unreleased] entry unless skip-labelled
+│       ├── changelog-on-merge.yml       # batches merged PRs into chore/changelog-digest, weekly Monday flip
+│       ├── url-liveness.yml             # URL check (cron paused 2026-05-08; manual workflow_dispatch only — see Maintenance §)
+│       ├── health-report.yml            # monthly decay matrix → pinned issue
+│       ├── feed-watcher.yml             # 6-hourly EU/ECJ feed → opens issue when relevant
+│       ├── transposition-alerts.yml     # EU directive transposition deadline tracker
+│       ├── regulatory-watch-revisit.yml # surface regulatory-watch entries past their revisit_by
+│       ├── confidence-audit.yml         # check Confidence label vs primary-source URL count per playbook
+│       ├── doc-sync-check.yml           # PR check that scripts/sync-docs.py would not change anything
+│       ├── tier-a-refresh.yml           # quarterly Tier-A tracking issue (15 high-velocity markets)
+│       ├── tier-b-refresh.yml           # semi-annual Tier-B tracking issue (uses _tier-refresh.yml)
+│       ├── tier-c-refresh.yml           # annual Tier-C tracking issue (uses _tier-refresh.yml)
+│       ├── _tier-refresh.yml            # reusable workflow shared by tier-b/tier-c
+│       ├── codeql.yml                   # GitHub CodeQL static analysis (Actions + Python)
+│       ├── scorecard.yml                # OpenSSF Scorecard, weekly + on push to main
+│       ├── labels-sync.yml              # syncs labels.yml on changes
+│       ├── labeler.yml                  # path-based PR labels
+│       ├── stale.yml                    # mark stale at 60d, close at 90d (with exemptions)
+│       ├── dependabot-auto-merge.yml    # auto-merge patch + minor dep updates after CI green
+│       ├── auto-merge-docs.yml          # auto-merge docs-only PRs after CI green
+│       ├── auto-tag.yml                 # end-of-month auto-tag YYYY.0M.0 if main has changes since last tag
+│       ├── release-notes.yml            # auto-classify on tag push, draft release body
+│       ├── sign-release.yml             # sigstore keyless signing of release tarball
+│       └── year-roll-reminder.yml       # December reminder to update year-stamped references
 ├── scripts/
 │   └── pin-actions.sh                # idempotent SHA-pin third-party actions
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
-    ├── SKILL.md                      # master router (~470 lines)
-    ├── shared/                       # 39 universal layer files (~13,500 lines)
+    ├── SKILL.md                      # master router (~590 lines)
+    ├── shared/                       # 39 top-level universal layer files (~13,500 lines)
+    │   │                             #   + shared/exit/ subdirectory (14 region files, ~1,000 lines, loaded on demand)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
-    │   ├── 22 section implementations (universal logic + per-country overlays)
+    │   ├── 23 section implementations (universal logic + per-country tables/overlays)
+    │   │   # core: amenities-osm, climate-projections, crime-sources
+    │   │   # financial/process: finance, currency, visa-programs, insurance, notary-process
+    │   │   # transaction/process: permits, agent, scams, language, connectivity
+    │   │   # decision-context: compare, retirement, digital-nomad, macro, demographics, esg, exit (+ exit/ subdir)
+    │   │   # cross-cutting: integrity-checks, journeys, property-types
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
     │   ├── updater.md                # maintenance mode + auto-downgrade rule
-    │   └── 9 tooling docs
-    └── countries/                    # 103 country playbooks (~60,500 lines)
-        └── <iso2>/playbook.md        # FR / IT / CZ / SK / DE / AT / CH / ES / PT / SE / ... + US / TR / AE / JP / TH / DO / CO / UY / CL / ZA / GE / ID / MY / VN / PH / IL / MA / EG / SG / HK / KR / TW / LI / MO / AD / MC / MD / QA / SA / PE / EC / PY / AM / AZ / TN / IN / NG / KE / JO / OM / BH / KW / LB / MU / KZ / CV / SC / CN / JM / BS / SM / BB / BZ / LK / KH / MV / GH / RW / UZ
+    │   └── 9 tooling docs            # tco/mortgage calculators, fixtures, diff-watcher, comparable-transactions, auto-validate, price-index-feeds, listing-aggregators, photo-ocr
+    └── countries/                    # 103 country playbooks (~63,200 lines)
+        └── <iso2>/playbook.md        # see Country support § above for the full ISO2 list
 ```
 
-**Skill content** (under `skills/property-deep-dive/`): 138 markdown files, ~75,600 lines (SKILL.md + 34 shared/ + 103 country playbooks).
+**Skill content** (under `skills/property-deep-dive/`): 143 markdown files, ~77,400 lines (SKILL.md + 39 top-level shared/ + 103 country playbooks; the 14 shared/exit/ region files add ~1,000 more lines on top).
 **Repo total**: 170 markdown files, ~80,300 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
-Factual corrections, URL fixes, and new country playbooks are the most valuable contributions. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the bar (~400-500 lines per country, primary government sources, anti-hallucination contract).
+Factual corrections, URL fixes, and section extensions are the most valuable contributions. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the bar (~400-500 lines per country, primary government sources, anti-hallucination contract).
 
-The country gaps that would be most valuable next:
+All 103 in-scope countries are populated as of 2026-05-08 (Tier-1 + Tier-2 batches: PRs [#111](https://github.com/soreavis/property-deep-dive/pull/111) + [#113](https://github.com/soreavis/property-deep-dive/pull/113)). The country backlog is now schema-blocked rather than country-blocked — see [`ROADMAP.md`](./ROADMAP.md):
 
-- 🇱🇮 LI (only EEA non-EU missing)
-- 🇸🇬 SG · 🇭🇰 HK · 🇰🇷 KR · 🇹🇼 TW · 🇮🇳 IN (Asia-Pacific extension)
-- 🇮🇩 ID · 🇲🇾 MY · 🇻🇳 VN · 🇵🇭 PH (Southeast Asia)
-- 🇵🇪 PE · 🇪🇨 EC · 🇵🇾 PY (LatAm tertiary)
-- 🇲🇦 MA · 🇪🇬 EG · 🇹🇳 TN · 🇰🇪 KE · 🇳🇬 NG (Africa)
-- 🇮🇱 IL · 🇸🇦 SA · 🇶🇦 QA (Middle East extension)
-- 🇬🇪 GE · 🇦🇲 AM · 🇦🇿 AZ (Caucasus)
+- **Crown Dependencies** (🇯🇪 je · 🇬🇬 gg · 🇮🇲 im · 🇬🇮 gi) — need a "territory classifier" PR first to handle non-sovereign jurisdictions cleanly
+- **Danish territories** (🇫🇴 fo · 🇬🇱 gl) — same blocker
+- **FR overseas + NL Caribbean** — deferred pending demand signal
+
+In the meantime, the most valuable contributions are:
+
+- **Factual corrections** — wrong tax rate, fee threshold, or "ENDED programme listed as active" (use the [factual-correction issue template](https://github.com/soreavis/property-deep-dive/issues/new?template=factual-correction.yml))
+- **Broken URL replacements** — particularly when a primary government portal moves
+- **Regulatory-watch entries** — recent reform / EU directive transposition / ENDED programme that supersedes a Tier-1 source
+- **Section extensions** — see [`ROADMAP.md`](./ROADMAP.md) § Coverage extensions for the prioritised next-section queue (`--home-tax`, `--remote`, `--relocation`, `--schools`, `--mains` extension)
 
 ## Versioning
 
