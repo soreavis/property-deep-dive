@@ -494,7 +494,7 @@ def update_skill(targets, mode):
 
 At 103 countries × 30 sections, refreshing everything quarterly is ~44 hours of research. The tier system splits the work by market activity so high-velocity jurisdictions get attention every 90 days while stable frontier markets ride a 365-day cycle.
 
-**Tier definitions** live in `_tiers.json` at the repo root (single source of truth):
+**Tier definitions** live in `config/_tiers.json` at the repo root (single source of truth):
 
 | Tier | Cadence | Count | Rationale |
 |---|---|---:|---|
@@ -502,7 +502,7 @@ At 103 countries × 30 sections, refreshing everything quarterly is ~44 hours of
 | **B** | Semi-annual (180 d) | 30 | Stable mid-volume markets. Numbers drift slowly; major reforms hit a 6-month cycle reliably. |
 | **C** | Annual (365 d) | 42 | Smaller markets, microstates, frontier jurisdictions. Foundational data is stable; targeted patches happen via regulatory-watch override, not the cadence. |
 
-**Tier membership** (canonical list — see `_tiers.json` for machine-readable form):
+**Tier membership** (canonical list — see `config/_tiers.json` for machine-readable form):
 
 - **Tier-A**: `fr, it, es, de, uk, us, pt, ie, nl, at, gr, tr, ae, au, ch`
 - **Tier-B**: `be, dk, fi, no, se, is, lu, mt, cy, pl, cz, sk, hu, ro, bg, hr, si, ee, lv, lt, ca, nz, jp, kr, sg, hk, tw, il, mx, br`
@@ -523,7 +523,7 @@ At 103 countries × 30 sections, refreshing everything quarterly is ~44 hours of
 
 When a Tier-1 or Tier-2 entry lands in `shared/regulatory-watch.md` for a Tier-B or Tier-C country, that country is auto-promoted to Tier-A for the NEXT refresh cycle only, then reverts. Tracked via the `regulatory-watch-revisit` workflow.
 
-The mechanism: the `regwatch_promotion` rule in `_tiers.json` triggers when an entry's `enacted_date` is within the last 90 days. The next Tier-A cron run picks up the promoted country alongside the canonical 15.
+The mechanism: the `regwatch_promotion` rule in `config/_tiers.json` triggers when an entry's `enacted_date` is within the last 90 days. The next Tier-A cron run picks up the promoted country alongside the canonical 15.
 
 ### Manual override
 

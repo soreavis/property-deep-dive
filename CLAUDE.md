@@ -82,7 +82,8 @@ skills/property-deep-dive/                # the skill payload (everything plugin
 │   └── <9 tooling docs>                  # tco / mortgage / fixtures / diff-watcher / etc.
 └── countries/<iso2>/playbook.md          # 103 country playbooks
 .github/workflows/                        # weekly URL liveness, monthly health report, 6h feed watcher
-_regions.json                             # docs-build input (README country matrix grouping) — NOT loaded by the skill at runtime
+config/_regions.json                      # docs-build input (README country matrix grouping) — NOT loaded by the skill at runtime
+config/_tiers.json                        # refresh-cadence tier membership (A 90d / B 180d / C 365d) — read by audit/refresh CI
 ```
 
 References inside SKILL.md / shared/*.md / countries/*/playbook.md use *relative* paths (`shared/X.md`, `countries/<iso2>/playbook.md`) — they resolve correctly because the skill is self-contained under `skills/property-deep-dive/`. References from outside the skill folder (CI workflows, docs, scripts) use the full repo-relative path.

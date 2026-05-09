@@ -12,7 +12,7 @@ Sources of truth:
 - skills/property-deep-dive/shared/*.md  → shared file count
 - .github/workflows/*.yml                → workflow count
 - skills/property-deep-dive/SKILL.md     → section flag count (argument-hint)
-- _regions.json                          → region grouping for country matrix
+- config/_regions.json                   → region grouping for country matrix
 
 Examples:
     ./scripts/sync-docs.py            # write changes
@@ -34,7 +34,7 @@ SKILL_DIR = ROOT / 'skills' / 'property-deep-dive'
 SHARED_DIR = SKILL_DIR / 'shared'
 COUNTRIES_DIR = SKILL_DIR / 'countries'
 SKILL_MD = SKILL_DIR / 'SKILL.md'
-REGIONS_FILE = ROOT / '_regions.json'
+REGIONS_FILE = ROOT / 'config' / '_regions.json'
 EXCLUDE_DIRS = {'_local', '.git', 'node_modules'}
 
 # ── Fact computation ──────────────────────────────────────────────────────
@@ -278,16 +278,16 @@ def check_regions_consistency(regions: dict) -> list[str]:
             region_codes.append(c)
     duplicates = {c for c in region_codes if region_codes.count(c) > 1}
     for c in sorted(duplicates):
-        warnings.append(f"Country '{c}' appears in multiple regions in _regions.json")
+        warnings.append(f"Country '{c}' appears in multiple regions in config/_regions.json")
 
     fs_codes = {d.name for d in COUNTRIES_DIR.iterdir() if d.is_dir()} if COUNTRIES_DIR.exists() else set()
     region_code_set = set(region_codes)
     only_regions = region_code_set - fs_codes
     only_fs = fs_codes - region_code_set
     if only_regions:
-        warnings.append(f"In _regions.json but no playbook directory: {sorted(only_regions)}")
+        warnings.append(f"In config/_regions.json but no playbook directory: {sorted(only_regions)}")
     if only_fs:
-        warnings.append(f"Has playbook but missing from _regions.json: {sorted(only_fs)}")
+        warnings.append(f"Has playbook but missing from config/_regions.json: {sorted(only_fs)}")
     return warnings
 
 # ── Main ──────────────────────────────────────────────────────────────────

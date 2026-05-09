@@ -176,7 +176,7 @@ The skill has a maintenance mode for keeping country playbooks fresh. Sources ch
 | `--update --tier=C` | Annual | ~21 hr | 49 stable/frontier |
 | `--update --add=<iso2>` | As needed | ~30 min/country | new scaffold |
 
-Tier membership lives in `_tiers.json` at the repo root. See `shared/updater.md` § Refresh tiers for the full spec including auto-promotion via regulatory-watch and manual `--include`/`--exclude` overrides. **Always run `--diff` first** if uncertain; `--interactive` is the safest mode.
+Tier membership lives in `config/_tiers.json` at the repo root. See `shared/updater.md` § Refresh tiers for the full spec including auto-promotion via regulatory-watch and manual `--include`/`--exclude` overrides. **Always run `--diff` first** if uncertain; `--interactive` is the safest mode.
 
 ### Auto-downgrade — confidence decay over time
 

@@ -72,7 +72,7 @@ jobs:
           today=$(date -u +%Y-%m-%d)
           warn_window=$(( CADENCE_DAYS - WARN_DAYS ))
 
-          codes=$(python3 -c "import json,os; d=json.load(open('_tiers.json')); print(' '.join(d['tiers'][os.environ['TIER_LETTER']]['codes']))")
+          codes=$(python3 -c "import json,os; d=json.load(open('config/_tiers.json')); print(' '.join(d['tiers'][os.environ['TIER_LETTER']]['codes']))")
 
           {
             echo "# Tier-${TIER_LETTER} ${CADENCE_LABEL} refresh — $today"
@@ -110,10 +110,10 @@ jobs:
           done
 
           # Tier-A only: regulatory-watch auto-promotions for the cycle.
-          # The promotion rule (per _tiers.json § promotion_rules) treats Tier-1/2
+          # The promotion rule (per config/_tiers.json § promotion_rules) treats Tier-1/2
           # entries enacted in the last 90 days as Tier-A for this cycle only.
           if [ "$INCLUDE_REGWATCH_PROMOTIONS" = "true" ]; then
-            tiera_codes=" $(python3 -c "import json; print(' '.join(json.load(open('_tiers.json'))['tiers']['A']['codes']))") "
+            tiera_codes=" $(python3 -c "import json; print(' '.join(json.load(open('config/_tiers.json'))['tiers']['A']['codes']))") "
             promotions=$(python3 scripts/regwatch_promotions.py --days 90 2>/dev/null || true)
             {
               echo

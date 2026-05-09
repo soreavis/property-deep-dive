@@ -27,7 +27,7 @@ jobs:
           out=_ci/decay-matrix.md
           mkdir -p _ci
 
-          # Build iso2 → cadence-tier map from _tiers.json
+          # Build iso2 → cadence-tier map from config/_tiers.json
           declare -A cadence_tier
           declare -A cadence_days
           while IFS=$'\t' read -r tier code; do
@@ -37,13 +37,13 @@ jobs:
               B) cadence_days[$code]=180 ;;
               C) cadence_days[$code]=365 ;;
             esac
-          done < <(python3 -c "import json; print('\n'.join(f'{t}\t{c}' for t, info in json.load(open('_tiers.json'))['tiers'].items() for c in info['codes']))")
+          done < <(python3 -c "import json; print('\n'.join(f'{t}\t{c}' for t, info in json.load(open('config/_tiers.json'))['tiers'].items() for c in info['codes']))")
 
           {
             echo "# Decay Health Report — $(date -u +%Y-%m-%d)"
             echo
             echo "Auto-downgrade ladder: HIGH → MEDIUM at 6mo, → LOW at 12mo, → STALE at 18mo."
-            echo "Cadence tier: A (90d) / B (180d) / C (365d) per \`_tiers.json\`. Off-cadence = days old ≥ tier cadence."
+            echo "Cadence tier: A (90d) / B (180d) / C (365d) per \`config/_tiers.json\`. Off-cadence = days old ≥ tier cadence."
             echo
             echo "| Country | Cadence | Stamped (\`as of\`) | Days old | Decay tier | Off-cadence? |"
             echo "|---|---|---|---:|---|---|"

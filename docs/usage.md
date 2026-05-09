@@ -84,7 +84,7 @@ Renders a comparison matrix across France / Italy / Portugal for retiree-relevan
 |---|---|
 | `--update` | Full re-research + URL replace for a country (or all populated) |
 | `--update=<iso2>` | Re-research one specific country |
-| `--update --tier=A\|B\|C` | Refresh by cadence tier (A: 15 quarterly · B: 30 semi-annual · C: 42 annual). Tier membership in `_tiers.json` |
+| `--update --tier=A\|B\|C` | Refresh by cadence tier (A: 15 quarterly · B: 30 semi-annual · C: 42 annual). Tier membership in `config/_tiers.json` |
 | `--update --tier=A --include=<iso2>` | Force-include a non-canonical country in a tier run |
 | `--update --tier=A --exclude=<iso2>` | Skip a canonical tier country for one cycle |
 | `--update --validate-only` | URL liveness check only (no re-research) |

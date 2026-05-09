@@ -273,7 +273,7 @@ The skill ships with a maintenance mode (`--update`) and tiered refresh GitHub A
 /property-deep-dive --health-report                # decay matrix per country/section (monthly)
 ```
 
-Tier membership lives in `_tiers.json`. See `skills/property-deep-dive/shared/updater.md` § Refresh tiers for full semantics including auto-promotion via `regulatory-watch.md`.
+Tier membership lives in `config/_tiers.json`. See `skills/property-deep-dive/shared/updater.md` § Refresh tiers for full semantics including auto-promotion via `regulatory-watch.md`.
 
 The GitHub Actions in `.github/workflows/` automate the read-only parts:
 
@@ -300,7 +300,9 @@ property-deep-dive/
 ├── SECURITY.md                       # scope + vulnerability reporting
 ├── CHANGELOG.md                      # CalVer-shaped, per release
 ├── CLAUDE.md                         # repo-specific notes for Claude Code sessions
-├── _regions.json                     # docs-build input — country region grouping
+├── config/
+│   ├── _regions.json                 # docs-build input — country region grouping
+│   └── _tiers.json                   # refresh-cadence tier membership (A 90d / B 180d / C 365d)
 ├── .editorconfig                     # cross-editor consistency
 ├── .markdownlint.json                # markdown lint rules used by pr-validate
 ├── .gitignore

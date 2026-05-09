@@ -32,8 +32,8 @@ Full documentation for **property-deep-dive**. Most content lives at the repo ro
 | [shared/sections.md](../skills/property-deep-dive/shared/sections.md) | Universal section contract |
 | [shared/output-template.md](../skills/property-deep-dive/shared/output-template.md) | Canonical section formatting |
 | [shared/verdict-bands.md](../skills/property-deep-dive/shared/verdict-bands.md) | 🟢 🟡 🟠 🔴 severity contract |
-| [_tiers.json](../_tiers.json) | Refresh-cadence tier membership (Tier-A 90d / B 180d / C 365d) — single source of truth |
-| [_regions.json](../_regions.json) | Region-grouping for country matrix in README — single source of truth |
+| [config/_tiers.json](../config/_tiers.json) | Refresh-cadence tier membership (Tier-A 90d / B 180d / C 365d) — single source of truth |
+| [config/_regions.json](../config/_regions.json) | Region-grouping for country matrix in README — single source of truth |
 
 ## Country playbooks
 

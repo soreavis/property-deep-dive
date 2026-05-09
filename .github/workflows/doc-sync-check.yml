@@ -8,7 +8,7 @@ on:
       - 'README.md'
       - 'CONTRIBUTING.md'
       - 'SECURITY.md'
-      - '_regions.json'
+      - 'config/_regions.json'
       - 'scripts/sync-docs.py'
       - '.github/workflows/doc-sync-check.yml'
   schedule:

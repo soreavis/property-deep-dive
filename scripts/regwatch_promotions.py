@@ -8,7 +8,7 @@ Usage:
 Output: one line per promoted country in the form
     <iso2>\t<effective_date>\t<tier>\t<topic>\t<summary>
 
-Promotion rule (from _tiers.json § promotion_rules):
+Promotion rule (from config/_tiers.json § promotion_rules):
 - impact_tier in {1, 2}
 - effective_date is a parseable YYYY-MM-DD within the last <days> days
 

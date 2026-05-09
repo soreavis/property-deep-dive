@@ -14,7 +14,7 @@ on:
       - 'skills/property-deep-dive/countries/**/playbook.md'
       - 'scripts/audit-confidence.py'
       - 'scripts/primary-source-allowlist.txt'
-      - '_tiers.json'
+      - 'config/_tiers.json'
       - '.github/workflows/confidence-audit.yml'
   push:
     branches: [main]
@@ -22,7 +22,7 @@ on:
       - 'skills/property-deep-dive/countries/**/playbook.md'
       - 'scripts/audit-confidence.py'
       - 'scripts/primary-source-allowlist.txt'
-      - '_tiers.json'
+      - 'config/_tiers.json'
   workflow_dispatch:
 
 permissions:

@@ -10,7 +10,7 @@ multilateral) and verify the count meets a per-tier × per-confidence threshold.
 A HIGH-confidence playbook with 8 government URLs is overclaiming. This script catches
 that mechanically without per-claim provenance tagging.
 
-Tier comes from _tiers.json. Confidence comes from the `**Confidence**:` line in the
+Tier comes from config/_tiers.json. Confidence comes from the `**Confidence**:` line in the
 playbook's Status footer. Compound labels (e.g., "MEDIUM-HIGH for X, MEDIUM for Y") are
 parsed by the LOWEST level mentioned — the most lenient validation that still verifies
 the floor the author has acknowledged.
@@ -46,7 +46,7 @@ from urllib.parse import urlparse
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PLAYBOOKS_DIR = REPO_ROOT / "skills" / "property-deep-dive" / "countries"
-TIERS_FILE = REPO_ROOT / "_tiers.json"
+TIERS_FILE = REPO_ROOT / "config" / "_tiers.json"
 ALLOWLIST_FILE = REPO_ROOT / "scripts" / "primary-source-allowlist.txt"
 
 # Per-tier × per-confidence URL-count thresholds. Starting values; calibrate as the
@@ -104,7 +104,7 @@ PRIMARY_EXACT_HOSTS = {
 
 
 def load_tier_map() -> dict[str, str]:
-    """Map iso2 → tier letter (A/B/C) from _tiers.json."""
+    """Map iso2 → tier letter (A/B/C) from config/_tiers.json."""
     data = json.loads(TIERS_FILE.read_text(encoding="utf-8"))
     out = {}
     for tier, info in data["tiers"].items():
@@ -197,7 +197,7 @@ def audit_playbook(path: Path, tier_map: dict[str, str], allowlist: set[str]) ->
         reason = "no Confidence label found in Status footer"
     elif tier == "?":
         passed = False
-        reason = f"iso2 not in _tiers.json"
+        reason = f"iso2 not in config/_tiers.json"
     elif threshold is None:
         passed = False
         reason = f"no threshold for tier {tier} × confidence {confidence}"

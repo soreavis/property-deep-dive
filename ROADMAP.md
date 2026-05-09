@@ -4,7 +4,7 @@ Working document for additions beyond the current 103 countries. Captures comple
 
 ## Current coverage
 
-103 countries fully populated across 13 regions (`_regions.json`). Tiered refresh cadence in `_tiers.json` (A=16 quarterly · B=38 semi-annual · C=49 annual + 1 unified moved by #113).
+103 countries fully populated across 13 regions (`config/_regions.json`). Tiered refresh cadence in `config/_tiers.json` (A=16 quarterly · B=38 semi-annual · C=49 annual + 1 unified moved by #113).
 
 ## Completed batches
 
