@@ -44,7 +44,7 @@ For factual corrections + new countries, complete the relevant section.
 - [ ] If a new country was added, `SKILL.md` country support matrix updated
 - [ ] If a regulatory-watch entry was added, every affected country playbook section was re-stamped (use the entry's `playbook_sections_touched` field)
 - [ ] If skills/property-deep-dive/shared/ logic was changed, all affected country playbooks remain consistent
-- [ ] If a programme ENDED, `skills/property-deep-dive/shared/visa-programs.md` AND the ENDED registry in `skills/property-deep-dive/shared/regulatory-watch.md` are both updated
+- [ ] If a programme ENDED, `config/_visa-programs.json` is updated (source of truth — change `status`), `shared/visa-programs.md` regenerated via `python3 scripts/render-visa-programs.py`, and the ENDED registry in `shared/regulatory-watch.md` is also updated
 
 ## Privacy + repo hygiene
 

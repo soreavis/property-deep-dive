@@ -321,7 +321,7 @@ property-deep-dive/
 │   │   ├── broken-url.yml
 │   │   ├── new-country.yml
 │   │   └── regulatory-watch.yml
-│   └── workflows/  (27 in total — see CHANGELOG.md for the full set; selection below)
+│   └── workflows/  (28 in total — see CHANGELOG.md for the full set; selection below)
 │       ├── pr-validate.yml              # markdownlint + forbidden-phrasings + Last verified + density + arg-hint drift
 │       ├── source-tier-ratchet.yml      # advisory: primary-vs-aggregator URL ratio per changed playbook (sticky PR comment)
 │       ├── link-check.yml               # lychee internal links (PR + weekly schedule)
@@ -370,7 +370,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 143 markdown files, ~77,400 lines (SKILL.md + 39 top-level shared/ + 103 country playbooks; the 14 shared/exit/ region files add ~1,000 more lines on top).
-**Repo total**: 173 markdown files, ~82,700 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 173 markdown files, ~82,700 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

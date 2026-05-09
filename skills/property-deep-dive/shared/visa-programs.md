@@ -57,9 +57,11 @@ For the property's country, return:
 
 ## Master tables
 
+<!-- AUTOGEN-START: region-tables -->
+
 ### Western & Central Europe (EU/EEA)
 
-| Country | Programme | Status (Apr 2026) | Min. threshold | Property-linked? | PR/citizenship | 2025-26 caveats |
+| Country | Programme | Status | Min. threshold | Property-linked? | PR/citizenship | Caveats |
 |---|---|---|---|---|---|---|
 | FR | Talent Passport — Investor / Business Creator | OPEN | €300k investor / €30k business creator | No (capital, not RE) | 4-yr renewable; PR/citizenship 5 yrs (B1) | Fee changes 1 May 2026 |
 | IT | Investor Visa | OPEN | €250k startup / €500k corp / €1m philanthropic / €2m gov bonds | No | 2-yr→3-yr renewals; citizenship 10 yrs | Apps surging Q4 2025 |
@@ -323,6 +325,8 @@ For the property's country, return:
 | UZ | e-Visa | OPEN | None (~58 additional nationalities) — US$20 fee | No | Up to 30 days | Online application via e-visa.gov.uz; introduced 15 July 2018 |
 | UZ | Tashkent IT Park Visa (IT Visa) | OPEN | IT-Park resident-company employment + qualifying profession | No | 3-yr renewable | Decoupled from standard work permit; aligned with IT Park resident company sponsorship |
 | UZ | Standard work permit / business visa | OPEN | Sponsored employment / company vehicle | No | 1-yr renewable | Standard route; passive RE alone NOT a residence pathway pre-Golden-Visa |
+
+<!-- AUTOGEN-END: region-tables -->
 
 ---
 

@@ -9,6 +9,7 @@ on:
       - 'CONTRIBUTING.md'
       - 'SECURITY.md'
       - 'config/_regions.json'
+      - 'config/_visa-programs.json'
       - 'scripts/sync-docs.py'
       - '.github/workflows/doc-sync-check.yml'
   schedule:

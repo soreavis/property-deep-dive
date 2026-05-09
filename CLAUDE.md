@@ -48,7 +48,7 @@ The flow is: **regulatory-watch.md FIRST, then playbook patch**.
 1. Add a date-stamped entry to [`shared/regulatory-watch.md`](./skills/property-deep-dive/shared/regulatory-watch.md) with: country, topic, effective date, source URL, verified date, revisit cadence, impact tier (1-4), affected sections
 2. Patch every affected country playbook (the entry's `playbook_sections_touched` field is the lookup)
 3. Re-stamp the section's `**Last verified**` date in each patched playbook
-4. If the reform ENDED a program (visa / CBI / NHR), update `skills/property-deep-dive/shared/visa-programs.md` AND the ENDED registry table at the top of `regulatory-watch.md`
+4. If the reform ENDED a program (visa / CBI / NHR), edit `config/_visa-programs.json` (source of truth — change the matching record's `status` field), then run `python3 scripts/render-visa-programs.py` to refresh `shared/visa-programs.md`. ALSO update the ENDED narrative registry at the top of `shared/visa-programs.md` (hand-written, outside the AUTOGEN block) and the ENDED registry table at the top of `regulatory-watch.md`. The `visa-programs-audit.yml` workflow will fail CI if any country playbook still mentions the programme without an ENDED/SUSPENDED/etc. acknowledgement marker.
 
 The auto-downgrade rule (in [`shared/updater.md`](./skills/property-deep-dive/shared/updater.md) § Auto-downgrade) will surface stale claims at render time even if you forget step 3 — but the goal is to never let it.
 

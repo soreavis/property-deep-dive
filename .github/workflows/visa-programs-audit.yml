@@ -1,0 +1,61 @@
+name: Visa programs audit
+
+# Two checks against config/_visa-programs.json (source of truth for the
+# --visa section):
+#  1. Render check — shared/visa-programs.md region tables match the JSON.
+#  2. Claim audit — country playbooks don't mention an ENDED/SUSPENDED/PROPOSED
+#     programme without acknowledging the status.
+
+on:
+  pull_request:
+    paths:
+      - 'config/_visa-programs.json'
+      - 'skills/property-deep-dive/shared/visa-programs.md'
+      - 'skills/property-deep-dive/countries/**/playbook.md'
+      - 'scripts/render-visa-programs.py'
+      - 'scripts/audit-visa-programs.py'
+      - '.github/workflows/visa-programs-audit.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'config/_visa-programs.json'
+      - 'skills/property-deep-dive/shared/visa-programs.md'
+      - 'scripts/render-visa-programs.py'
+      - 'scripts/audit-visa-programs.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render-check:
+    name: visa-programs.md ↔ config/_visa-programs.json render check
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5.6.0
+        with:
+          python-version: '3.x'
+
+      - name: Render check
+        run: python3 scripts/render-visa-programs.py --check
+
+  claim-audit:
+    name: Country playbooks acknowledge ENDED/SUSPENDED programmes
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5.6.0
+        with:
+          python-version: '3.x'
+
+      - name: Claim audit
+        run: python3 scripts/audit-visa-programs.py
