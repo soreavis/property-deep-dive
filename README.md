@@ -9,7 +9,7 @@
 
 **Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
 
-**Pre-purchase property due diligence across 103 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, foreign-buyer remote-execution mechanisms, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **29 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
+**Pre-purchase property due diligence across 103 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, foreign-buyer remote-execution mechanisms, 90-day post-completion relocation logistics, and 17 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **30 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
 
@@ -25,7 +25,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 4. Applies the anti-hallucination guard
 5. Outputs to terminal or saves a Markdown report
 
-### Sections (29 user-invocable)
+### Sections (30 user-invocable)
 
 **Core (10)** — `--price` `--traffic` `--tax` `--rental` `--work=<profession>` `--risks` `--mains` `--crime` `--amenities` `--climate`
 
@@ -35,7 +35,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 **Transaction (2)** — `--agent` (buyer-side agency landscape: commission, licensing, MLS, dual-agency, exclusivity, EBA, off-plan) · `--scams` (country-specific transaction-fraud register: BEC, deed forgery, off-plan disappearance, nominee structures, golden-visa price-inflation)
 
-**Process (3)** — `--language` (foreign-buyer deed-language rule + sworn-translator regime + Hague Apostille / POA chain + diagnostic-doc language + sworn-translation cost bands) · `--connectivity` (broadband-checker URL + dominant ISPs + tariff bands + FTTH urban % + rural fallback + Starlink licence registry + strata trap) · `--remote` (foreign-buyer remote-execution: POA + RON + e-conveyancing + eIDAS QES + mortgage-bank residual wet-ink + Hawarden v ENS BEC trap; PT/BE fully-remote-property-deed; US RON 46 states + DC + PR; CA SB 696 effective 1 Jan 2030 backstop)
+**Process (4)** — `--language` (foreign-buyer deed-language rule + sworn-translator regime + Hague Apostille / POA chain + diagnostic-doc language + sworn-translation cost bands) · `--connectivity` (broadband-checker URL + dominant ISPs + tariff bands + FTTH urban % + rural fallback + Starlink licence registry + strata trap) · `--remote` (foreign-buyer remote-execution: POA + RON + e-conveyancing + eIDAS QES + mortgage-bank residual wet-ink + Hawarden v ENS BEC trap; PT/BE fully-remote-property-deed; US RON 46 states + DC + PR; CA SB 696 effective 1 Jan 2030 backstop) · `--relocation` (foreign-buyer 90-day post-completion onboarding: pets + DL exchange + vehicle import + utility setup + healthcare gap; FAVN-rabies-titer 7-month flow for AU/NZ/JP/SG-Schedule-III/MY; CDC dog import 1 Aug 2024; AU EDR removed; LEZ landscape; foreign-buyer Catch-22)
 
 **Decision-context (7)** — `--compare=<iso2,...>` `--retirement` `--digital-nomad` `--macro` `--demographics` `--esg` `--exit`
 
@@ -142,7 +142,7 @@ See [Usage](#usage) below for the full flag reference and more examples.
 
 ```
 /property-deep-dive 1 Rue Principale, 86430 Adriers, France --all
-→ detects FR by postcode, runs all 29 sections, prints to terminal
+→ detects FR by postcode, runs all 30 sections, prints to terminal
 
 /property-deep-dive --country=de Friedrichstraße 100, 10117 Berlin --tax --risks --save
 → Germany, tax + risks only, save to _local/reports/
@@ -368,7 +368,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 143 markdown files, ~77,400 lines (SKILL.md + 39 top-level shared/ + 103 country playbooks; the 14 shared/exit/ region files add ~1,000 more lines on top).
-**Repo total**: 172 markdown files, ~82,000 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 173 markdown files, ~82,700 lines (skill content + community / governance files + CHANGELOG) · 35 YAML / JSON config files (27 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

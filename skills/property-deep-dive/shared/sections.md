@@ -15,6 +15,7 @@ The regulatory and transaction-buyer sections are also **fully universal** (sing
 - `--connectivity` (broadband: address-level fibre availability checker, dominant ISPs, tariff bands, FTTH coverage, rural fallback, Starlink licence registry, strata trap — see `shared/connectivity.md`)
 - `--home-tax` (buyer-nationality tax overlay: tax-residence trigger, worldwide-income reach, foreign-asset disclosure, CGT on disposal, annual wealth on overseas RE, estate/inheritance, exit-tax events, special inbound regimes — see `shared/home-tax.md`)
 - `--remote` (foreign-buyer remote-execution: POA + apostille + RON + e-conveyancing + eIDAS QES + mortgage-bank residual wet-ink + Hawarden v ENS BEC trap — see `shared/remote.md`)
+- `--relocation` (foreign-buyer 90-day post-completion onboarding: pets + DL exchange + vehicle import + utility setup + healthcare gap; FAVN-rabies-titer 7-month flow; CDC dog import 1 Aug 2024; AU EDR removed; LEZ landscape; foreign-buyer Catch-22 — see `shared/relocation.md`)
 
 ## Section: `--price`
 
@@ -676,6 +677,47 @@ Country-specific authorities:
 - Identity-verification infrastructure incompatibility — Catch-22 for foreign buyers without local eID; pass-through via solicitor / consulate / RON credential-analysis fallback (FL § 117.295 expressly permits foreign-passport credential analysis)
 - Apostille / consular legalisation chain still required for foreign POA — non-Hague: AE / EG / JO / KW / LB / QA / NG / KE / GH / TW / KH / LK / MV / MY / TH (cabinet approval Dec 2025; deposit pending) / VN (in force 11 Sept 2026)
 - AML/KYC gatekeepers — *Hawarden v ENS* [2024] ZASCA 90 BUYER bears BEC risk; FinCEN Residential Real Estate Reporting Rule effective 1 Mar 2026; EU AMLR/AMLA 19 Jun 2024 applies 10 Jul 2027
+
+---
+
+## Section: `--relocation`
+
+**Goal**: Foreign-buyer 90-day post-completion relocation logistics — pets, driving licence, vehicle import, utility setup, healthcare gap. The "surprise cost / surprise timeline" patterns that turn a clean purchase into a scrambled move-in.
+
+**Universal logic** (works for any property country): full implementation in `shared/relocation.md`. Single canonical doc with 7 cross-cutting traps + per-country detail for all 103 supported countries — country playbook does NOT need a separate relocation section. Pairs strongly with `--language` (apostille / sworn-translator), `--remote` (deed execution), `--home-tax` (tax-residence considerations on emigration).
+
+**Disambiguation**: `--relocation` ≠ `--mains` ≠ `--connectivity` ≠ `--remote`. `--relocation` = buyer's account-holder logistics (pet entry + DL exchange + vehicle import + utility account opening + healthcare gap). `--mains` = parcel infrastructure (sewer / water / electricity / gas presence; pre-purchase). `--connectivity` = broadband layer (address-level fibre + Starlink registry). `--remote` = deed-execution mechanisms (POA / RON / e-conveyancing). `--relocation` is post-completion; `--remote` is pre-/at-closing.
+
+**What to look up** (universal):
+- Pets: entry rules + ISO microchip + rabies vaccinations + FAVN/RFFIT titer (where applicable) + waiting period + quarantine + banned breeds
+- Driving licence: recognition / exchange / re-test + grace period + IDP + senior re-test thresholds + bilateral exchange list
+- Vehicle import: emissions + age cap + RHD/LHD + tax stack + LEZ
+- Utility setup: DSO + suppliers + ID requirements + deposits + foreign-buyer onboarding friction
+- Healthcare: public-system enrolment timeline + private travel-insurance gap exposure
+- 2024-2026 reforms — date-stamped
+- Confidence: HIGH / MEDIUM / LOW
+
+**Output structure** (full template in `shared/relocation.md`):
+```markdown
+## Relocation Profile
+
+**Country**: <ISO2>
+**Pets**: <microchip + rabies + FAVN waiting + quarantine + banned breeds>
+**Driving licence**: <foreign DL grace + IDP + bilateral exchange list + re-test threshold>
+**Vehicle import**: <emissions + age cap + LHD/RHD + tax stack + LEZ>
+**Utility setup**: <DSO + suppliers + ID requirements + deposit + lead time>
+**Healthcare**: <public-system enrolment timeline + gap insurance need>
+**Confidence**: <HIGH/MEDIUM/LOW>
+```
+
+**Cross-cutting traps to surface every time** (from `shared/relocation.md`):
+- Pet rabies titer waiting period — 6-7 month flow for AU / NZ / JP / SG (Schedule III) / MY; FAVN ≥ 0.5 IU/ml + 180-day wait
+- EU pet passport vs Animal Health Certificate (AHC) — post-Brexit chain + EU Reg 2016/429 transition 22 Apr 2026 (UK pet passports invalidated for EU travel)
+- Driving licence exchange — bilateral patchwork; EU 4DLD Dir 2025/2205 in force 25 Nov 2025; AU EDR removed Apr 2025-Feb 2026 (binary recognised vs full re-test)
+- Vehicle import — emissions + age + LHD/RHD trifecta; KSA/QA/KW 5-year cap; KE 2026-01-01 KEBS RHD ≥2019; EG one-vehicle-per-5-years from 26 Dec 2024
+- LEZ urban driving cost — UK ULEZ Greater London 29 Aug 2023; FR ZFE-m Crit'Air 3 ban 1 Jan 2025; PL Warsaw SCT Stage 2 + Kraków LEZ 1 Jan 2026; SE Stockholm Klass 3 EV-only 31 Dec 2024; NL zero-emission zones 1 Jan 2025
+- Utility setup — foreign-buyer onboarding friction (the 30-day delay trap); Catch-22 chain DE/NL/FR/ES/IT
+- Healthcare registration — the parallel 90-day cliff; DE Krankenversicherung mandatory day 1 (failure = €1,000+ backdated); FR Carte Vitale 3-mo residence
 
 ---
 
