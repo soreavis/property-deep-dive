@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+
+- **`changelog-on-merge.yml` self-heal against manual release cuts.** When a release-cut PR promotes `[Unreleased]` → `[YYYY.0M.MICRO]` mid-week, the bot's rolling-digest branch's stale entries (inserting into `[Unreleased]`) conflict with the rebased main (no `[Unreleased]` content at the same position). Pre-fix, every subsequent PR merge tripped `CONFLICT (content): Merge conflict in CHANGELOG.md` on the rebase step and the bot stopped accumulating new entries silently. Now: if the rebase fails, abort and reset the digest branch to fresh `origin/main`, then let the append step re-record this PR's entry from scratch. The existing idempotency check (line 180 — `[#N](url)` already in file) protects against double-recording on race conditions. Stale entries that conflicted are dropped because they're already in the just-cut release section. Triggered by today's `[2026.05.11]` (#133) + `[2026.05.12]` (#135) cuts: 7 stale digest commits accumulated then started failing every subsequent bot run from #134 onward. CI-only change; no skill content affected.
+
 ## [2026.05.12] - 2026-05-09
 
 Same-day mid-month follow-on to `2026.05.11`. Adds the `--mains` utilities-reliability extension as a section-content addition (no new flag), plus the plugin version bump that goes with it.

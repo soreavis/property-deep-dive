@@ -119,7 +119,23 @@ jobs:
             echo "Digest branch exists on origin — rebasing on main."
             git fetch origin "$DIGEST_BRANCH"
             git checkout -B "$DIGEST_BRANCH" "origin/$DIGEST_BRANCH"
-            git rebase origin/main
+
+            # Self-heal: if the rebase conflicts on CHANGELOG.md, the most
+            # likely cause is a manual `[Unreleased]` -> `[YYYY.0M.MICRO]`
+            # promotion landed on main mid-cycle (release-cut PR). The stale
+            # commits on the digest branch were inserting into a `[Unreleased]`
+            # section that no longer matches main's structure — and the
+            # entries they added are now living in the release section anyway.
+            # Abort the rebase, reset to fresh main, and let the append step
+            # re-record this PR's entry from scratch. The idempotency check
+            # in the next step (looking for `[#N](url)` already in the file)
+            # protects against double-recording on the rare race where the
+            # release cut hasn't fully landed.
+            if ! git rebase origin/main; then
+              echo "::notice::Rebase failed — likely a manual release cut on main. Aborting + resetting digest to fresh main."
+              git rebase --abort
+              git checkout -B "$DIGEST_BRANCH" origin/main
+            fi
           else
             echo "Digest branch absent — creating from main."
             git checkout -b "$DIGEST_BRANCH"
