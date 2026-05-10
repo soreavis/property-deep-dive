@@ -6,7 +6,7 @@
 /property-deep-dive <address> [flags]
 ```
 
-The full argument-hint and section catalog live in [SKILL.md](../skills/property-deep-dive/SKILL.md). This page shows six worked examples covering common decision contexts.
+The full argument-hint and section catalog live in [SKILL.md](../skills/property-deep-dive/SKILL.md). This page shows seven worked examples covering common decision contexts.
 
 ## 1. Full audit on a French address
 
@@ -56,16 +56,32 @@ Greek heritage / listed-property template overlaid on the foreign-buyer journey 
 
 Renders a comparison matrix across France / Italy / Portugal for retiree-relevant facets (pension tax, healthcare access, residency thresholds, climate, cost-of-living).
 
+## 7. Foreign-buyer family with school-age kids
+
+```
+/property-deep-dive Singapore 049145 --schools --digital-nomad --home-tax --journey=foreign-buyer
+```
+
+Singapore address with the working-age-family combo. `--schools` returns the international school landscape (SAS / UWC / Tanglin / Chatsworth fee bands USD 17-43k + waitlist horizons + Primary One Registration with parents-alumni priority + DSA pathway + catchment-area effects on property premium). `--digital-nomad` auto-loads the working-age healthcare carve-out sub-section (SG EP minimum salary thresholds raised 1 Jan 2025 / 1 Jan 2026 + private-insurance acceptance + tax-residency interaction with Singapore's territorial regime). `--home-tax` returns the buyer-nationality tax overlay (US FATCA Form 8938 + FBAR + § 988 *Quijano* phantom-currency-gain trap; UK FA 2025 FIG regime + 10/20 LTR IHT test; CA T1135 + § 128.1; etc. — indexed by *buyer's* tax residence). `--journey=foreign-buyer` reshapes the output as the foreign-buyer brief (visa pathway → financing → permits → completion → 90-day relocation).
+
 ## Argument quick reference
 
 ### Section flags
 
+31 user-invocable section flags grouped by domain, plus 4 cross-cutting layers.
+
 | Group | Flags |
 |---|---|
 | **Core (10)** | `--price` `--traffic` `--tax` `--rental` `--work=<profession>` `--risks` `--mains` `--crime` `--amenities` `--climate` |
-| **Financial / process (5)** | `--finance` `--currency` `--visa` `--insurance` `--notary` |
-| **Decision-context (7)** | `--compare=<iso2,...>` `--retirement` `--digital-nomad` `--macro` `--demographics` `--esg` `--exit` |
+| **Financial / process (6)** | `--finance` `--currency` `--visa` `--insurance` `--notary` `--home-tax` |
+| **Regulatory (1)** | `--permits` |
+| **Transaction (2)** | `--agent` `--scams` |
+| **Process (4)** | `--language` `--connectivity` `--remote` `--relocation` |
+| **Decision-context (8)** | `--compare=<iso2,...>` `--retirement` `--digital-nomad` `--macro` `--demographics` `--schools` `--esg` `--exit` |
 | **Cross-cutting layers (4)** | `--integrity` `--journey=<type>` `--type=<kind>` `--update` |
+| **Tooling (3)** | `--tco` `--mortgage` `--watch <url>` |
+
+**Sub-section extensions** (5 — auto-loaded alongside the parent flag, no separate invocation): `shared/mains-reliability.md` loads with `--mains` (grid + SAIDI/SAIFI + outage band + load-shedding regime); `shared/finance-banking.md` loads with `--finance` (tax-ID prerequisite chain + FATCA acceptance bucket per country + expat-banking arms); `shared/notary-forced-heirship.md` loads with `--notary` (civil-law forced shares vs common-law testamentary freedom vs Sharia, Brussels IV); `shared/risks-build-quality.md` loads with `--risks` (statutory new-build warranty regimes + off-plan deposit-protection mechanisms — pairs strongly with `--type=off-plan`); `shared/digital-nomad-healthcare.md` loads with `--digital-nomad` (working-age 25-65 healthcare access for DN-visa holders — companion to `--retirement` for retirement-age 65+).
 
 ### Output flags
 
@@ -84,7 +100,7 @@ Renders a comparison matrix across France / Italy / Portugal for retiree-relevan
 |---|---|
 | `--update` | Full re-research + URL replace for a country (or all populated) |
 | `--update=<iso2>` | Re-research one specific country |
-| `--update --tier=A\|B\|C` | Refresh by cadence tier (A: 15 quarterly · B: 30 semi-annual · C: 42 annual). Tier membership in `config/_tiers.json` |
+| `--update --tier=A\|B\|C` | Refresh by cadence tier (A: 16 quarterly · B: 38 semi-annual · C: 49 annual). Tier membership in `config/_tiers.json` |
 | `--update --tier=A --include=<iso2>` | Force-include a non-canonical country in a tier run |
 | `--update --tier=A --exclude=<iso2>` | Skip a canonical tier country for one cycle |
 | `--update --validate-only` | URL liveness check only (no re-research) |
