@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+
+- **`skills/property-deep-dive/SKILL.md` YAML frontmatter parse error**: the `description:` field's unquoted scalar value contained two `: ` (colon-space) sequences inside parentheticals — `(7 templates: pre-offer/...)` at position 572 of the description value and `(6 specialised: off-plan/...)` at position 680 — which YAML parsers interpret as nested mapping triggers (error `mapping values are not allowed here`, surfaced by GitHub's frontmatter linter at line 2 col 586). Wrapped the entire description value in single quotes so YAML preserves the string literally; description contains zero single-quote characters so no escaping needed. Audited every `.md` file in the repo for YAML frontmatter — `SKILL.md` is the only file with frontmatter; all other MDs are body-only markdown and unaffected. No content changes; no plugin.json bump.
+
 ## [2026.05.17] - 2026-05-10
 
 ### Changed
