@@ -78,7 +78,8 @@ skills/property-deep-dive/                # the skill payload (everything plugin
 │   ├── sections.md                       # universal section contract
 │   ├── preflight.md                      # country detection + listing parse
 │   ├── visa-programs.md                  # ENDED registry source of truth
-│   ├── <22 section implementations>      # one per --<flag>
+│   ├── <24 section implementations>      # one per --<flag> (or grouped where shared)
+│   ├── <5 sub-section extensions>        # mains-reliability / finance-banking / notary-forced-heirship / risks-build-quality / digital-nomad-healthcare
 │   └── <9 tooling docs>                  # tco / mortgage / fixtures / diff-watcher / etc.
 └── countries/<iso2>/playbook.md          # 103 country playbooks
 .github/workflows/                        # weekly URL liveness, monthly health report, 6h feed watcher

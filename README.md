@@ -281,9 +281,9 @@ The GitHub Actions in `.github/workflows/` automate the read-only parts:
 |---|---|---|
 | `url-liveness.yml` | **paused** (manual `workflow_dispatch` only) | curl HEAD on every URL in every Markdown file in the repo; opens issue if score <85%. Schedule disabled 2026-05-08 — serial bash checker times out at 90 min after Tier-1+2 country sprint pushed URL set past the bash-loop budget; awaiting Python rewrite (aiohttp + per-host semaphore + Retry-After + result cache) |
 | `health-report.yml` | monthly | parses `Last verified` dates, renders decay matrix with cadence-tier column, posts to pinned issue |
-| `tier-a-refresh.yml` | quarterly | opens tracking issue listing the 15 Tier-A countries due for refresh |
-| `tier-b-refresh.yml` | semi-annual | opens tracking issue listing the 30 Tier-B countries due for refresh |
-| `tier-c-refresh.yml` | annual | opens tracking issue listing the 42 Tier-C countries due for refresh |
+| `tier-a-refresh.yml` | quarterly | opens tracking issue listing the 16 Tier-A countries due for refresh |
+| `tier-b-refresh.yml` | semi-annual | opens tracking issue listing the 38 Tier-B countries due for refresh |
+| `tier-c-refresh.yml` | annual | opens tracking issue listing the 49 Tier-C countries due for refresh |
 | `feed-watcher.yml` | every 6h | EU Official Journal + ECJ press RSS → opens issue when property-relevant directives land |
 
 These are **detection-only**; the fix step (re-research, URL replacement, regulatory-watch entry) still requires human + Claude in the loop.
@@ -361,15 +361,17 @@ property-deep-dive/
 │   └── sync-docs.py                  # auto-sync counts + AUTOGEN blocks across community markdown
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~590 lines)
-    ├── shared/                       # 39 top-level universal layer files (~13,500 lines)
+    ├── shared/                       # 48 top-level universal layer files (~17,500 lines)
     │   │                             #   + shared/exit/ subdirectory (14 region files, ~1,000 lines, loaded on demand)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
-    │   ├── 23 section implementations (universal logic + per-country tables/overlays)
+    │   ├── 24 section implementations (universal logic + per-country tables/overlays)
     │   │   # core: amenities-osm, climate-projections, crime-sources
-    │   │   # financial/process: finance, currency, visa-programs, insurance, notary-process
+    │   │   # financial/process: finance, currency, visa-programs, insurance, notary-process, home-tax
     │   │   # transaction/process: permits, agent, scams, language, connectivity
-    │   │   # decision-context: compare, retirement, digital-nomad, macro, demographics, esg, exit (+ exit/ subdir)
+    │   │   # process: remote, relocation
+    │   │   # decision-context: compare, retirement, digital-nomad, macro, demographics, schools, esg, exit (+ exit/ subdir)
     │   │   # cross-cutting: integrity-checks, journeys, property-types
+    │   ├── 5 sub-section extensions  # mains-reliability, finance-banking, notary-forced-heirship, risks-build-quality, digital-nomad-healthcare
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
     │   ├── updater.md                # maintenance mode + auto-downgrade rule
     │   └── 9 tooling docs            # tco/mortgage calculators, fixtures, diff-watcher, comparable-transactions, auto-validate, price-index-feeds, listing-aggregators, photo-ocr
@@ -377,7 +379,7 @@ property-deep-dive/
         └── <iso2>/playbook.md        # see Country support § above for the full ISO2 list
 ```
 
-**Skill content** (under `skills/property-deep-dive/`): 143 markdown files, ~77,400 lines (SKILL.md + 39 top-level shared/ + 103 country playbooks; the 14 shared/exit/ region files add ~1,000 more lines on top).
+**Skill content** (under `skills/property-deep-dive/`): 166 markdown files, ~83,500 lines (SKILL.md + 48 top-level shared/ + 14 shared/exit/ region files + 103 country playbooks).
 **Repo total**: 179 markdown files, ~85,500 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
@@ -395,7 +397,7 @@ In the meantime, the most valuable contributions are:
 - **Factual corrections** — wrong tax rate, fee threshold, or "ENDED programme listed as active" (use the [factual-correction issue template](https://github.com/soreavis/property-deep-dive/issues/new?template=factual-correction.yml))
 - **Broken URL replacements** — particularly when a primary government portal moves
 - **Regulatory-watch entries** — recent reform / EU directive transposition / ENDED programme that supersedes a Tier-1 source
-- **Section extensions** — `--home-tax` (#127), `--remote` (#128), `--relocation` (#129) all shipped 2026-05-09. Remaining queue: `--schools`, `--mains` utilities-reliability extension. See [`ROADMAP.md`](./ROADMAP.md) § Coverage extensions for the full list and rationale.
+- **Section extensions** — Reddit gap-analysis 2026-05-08 backlog now exhausted: `--home-tax` (#127), `--remote` (#128), `--relocation` (#129) shipped 2026-05-09; `--mains` utilities-reliability extension (#134) shipped 2026-05-09; 4-extension wave 2026-05-10 — `--finance` banking-access (#137), `--notary` forced-heirship (#138), `--risks` build-quality + off-plan (#139), `--digital-nomad` working-age healthcare carve-out (#140); `--schools` NEW section #31 (#141) shipped 2026-05-10. Only remaining queue item: `--rental` neighborhood-level STR moratorium tracking via regulatory-watch.md. See [`ROADMAP.md`](./ROADMAP.md) § Coverage extensions for the full list.
 
 ## Versioning
 
