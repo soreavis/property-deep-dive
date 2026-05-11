@@ -59,6 +59,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 ### Changed
 
 - **`docs/usage.md` refresh post-2026.05.17**: section-flags table updated to reflect today's wave — Financial / process group 5 → 6 (adds `--home-tax`); Decision-context group 7 → 8 (adds `--schools`); 4 missing groups added (Regulatory, Transaction, Process, Tooling); new `Sub-section extensions` callout describing the 5 auto-loaded extensions (`mains-reliability` / `finance-banking` / `notary-forced-heirship` / `risks-build-quality` / `digital-nomad-healthcare`) and how they pair with parent flags. Maintenance-flag table tier counts corrected (15/30/42 → 16/38/49 to match `config/_tiers.json`). New worked example #7 added for the working-age-family combo (`--schools --digital-nomad --home-tax --journey=foreign-buyer` on a Singapore address); intro updated "six worked examples" → "seven". README.md auto-refreshed by `scripts/sync-docs.py` (~85,500 → ~85,600 line count).
+- chore(docs): refresh docs/usage.md after the 2026.05.17 wave ([#145](https://github.com/soreavis/property-deep-dive/pull/145)) — by @soreavis
 
 ## [2026.05.17] - 2026-05-10
 
