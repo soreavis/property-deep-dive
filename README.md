@@ -371,7 +371,7 @@ property-deep-dive/
     │   │   # process: remote, relocation
     │   │   # decision-context: compare, retirement, digital-nomad, macro, demographics, schools, esg, exit (+ exit/ subdir)
     │   │   # cross-cutting: integrity-checks, journeys, property-types
-    │   ├── 5 sub-section extensions  # mains-reliability, finance-banking, notary-forced-heirship, risks-build-quality, digital-nomad-healthcare
+    │   ├── 6 sub-section extensions  # mains-reliability, finance-banking, notary-forced-heirship, risks-build-quality, digital-nomad-healthcare, rental-yield-delta
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
     │   ├── updater.md                # maintenance mode + auto-downgrade rule
     │   └── 9 tooling docs            # tco/mortgage calculators, fixtures, diff-watcher, comparable-transactions, auto-validate, price-index-feeds, listing-aggregators, photo-ocr
@@ -380,7 +380,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 166 markdown files, ~83,500 lines (SKILL.md + 48 top-level shared/ + 14 shared/exit/ region files + 103 country playbooks).
-**Repo total**: 179 markdown files, ~85,600 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 180 markdown files, ~85,900 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
@@ -397,7 +397,7 @@ In the meantime, the most valuable contributions are:
 - **Factual corrections** — wrong tax rate, fee threshold, or "ENDED programme listed as active" (use the [factual-correction issue template](https://github.com/soreavis/property-deep-dive/issues/new?template=factual-correction.yml))
 - **Broken URL replacements** — particularly when a primary government portal moves
 - **Regulatory-watch entries** — recent reform / EU directive transposition / ENDED programme that supersedes a Tier-1 source
-- **Section extensions** — Reddit gap-analysis 2026-05-08 backlog now exhausted: `--home-tax` (#127), `--remote` (#128), `--relocation` (#129) shipped 2026-05-09; `--mains` utilities-reliability extension (#134) shipped 2026-05-09; 4-extension wave 2026-05-10 — `--finance` banking-access (#137), `--notary` forced-heirship (#138), `--risks` build-quality + off-plan (#139), `--digital-nomad` working-age healthcare carve-out (#140); `--schools` NEW section #31 (#141) shipped 2026-05-10. Only remaining queue item: `--rental` neighborhood-level STR moratorium tracking via regulatory-watch.md. See [`ROADMAP.md`](./ROADMAP.md) § Coverage extensions for the full list.
+- **Section extensions** — Reddit gap-analysis 2026-05-08 backlog **fully exhausted**: `--home-tax` (#127), `--remote` (#128), `--relocation` (#129) shipped 2026-05-09; `--mains` utilities-reliability extension (#134) shipped 2026-05-09; 4-extension wave 2026-05-10 — `--finance` banking-access (#137), `--notary` forced-heirship (#138), `--risks` build-quality + off-plan (#139), `--digital-nomad` working-age healthcare carve-out (#140); `--schools` NEW section #31 (#141) shipped 2026-05-10; `--rental` yield-delta + neighborhood STR-zoning (#148, 6th sub-section extension) shipped 2026-05-11 combining the original 2026-05-08 STR-moratorium TODO with the 2026-05-10 Tier-2 yield-delta enrichment. **Current backlog** is the 2026-05-10 Reddit gap-analysis #3 output — 3 Tier-1 NEW section candidates (`--renovation` highest signal, `--property-management`, `--surveyor`) and 4 Tier-2 enrichments (`--scams` post-completion, `--finance` cross-border mortgage broker, `--integrity` buyers-remorse alerts, `--journey=foreign-buyer` sell-vs-rent). See [`ROADMAP.md`](./ROADMAP.md) § Coverage extensions for the full list.
 
 ## Versioning
 

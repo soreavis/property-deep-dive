@@ -75,7 +75,9 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 ### 🇫🇷 FR
 
-- `2024-11-19 | rental | Loi Le Meur — short-let (meublé tourisme) tightened: classement obligation expanded, 30-day primary-residence cap option for communes | LégiFrance | 2026-04-26 | 2026-10-01 | 2 | --rental --tax`
+- `2024-11-19 | rental | Loi Le Meur — short-let (meublé tourisme) tightened: classement obligation expanded, communes may reduce primary-residence cap | LégiFrance | 2026-04-26 | 2026-10-01 | 2 | --rental --tax`
+- `2024-11-19 | rental | Loi Le Meur primary-residence default cap reduced 120 → 90 nights/yr nationwide; civil fine €15,000; national STR registration mandatory by 20 May 2026; co-ownership prohibition threshold lowered from unanimity to 2/3 majority where bourgeois habitation clause exists | LégiFrance | 2026-05-11 | 2026-08-20 | 1 | --rental`
+- `2026-01-01 | rental | Paris taxe de séjour 2026 — 5% pre-tax/n/pp capped €15.93 for unclassified furnished tourist accommodation + 200% Île-de-France regional surcharge; Q1 2026 enforcement ~€1M fines, 150-person brigade, record €585k fine 9e arrondissement SCI | Paris.fr + Service Public | 2026-05-11 | 2026-09-01 | 1 | --rental`
 - `2025-01-01 | esg | DPE G banned for rental on new contracts | LégiFrance | 2026-04-26 | 2027-01-01 | 1 | --rental --esg`
 - `2028-01-01 (pending) | esg | DPE F to be banned for rental | LégiFrance | 2026-04-26 | 2027-06-01 | 2 | --rental --esg`
 - `2034-01-01 (pending) | esg | DPE E to be banned for rental | LégiFrance | 2026-04-26 | 2028-01-01 | 3 | --rental --esg`
@@ -84,6 +86,10 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 ### 🇮🇹 IT
 
 - `2026-01-01 | rental | Cedolare secca limit dropped from 5 → 2 properties (above which standard IRPEF) | Legge di Bilancio 2026 | 2026-04-26 | 2026-09-01 | 2 | --rental --tax`
+- `2025-01-01 | rental | National CIN (Codice Identificativo Nazionale) mandatory display from 1 Jan 2025 (portal opened 1 Sep 2024); fines €800-€8,000 no CIN + €500-€5,000 non-display | Ministero del Turismo | 2026-05-11 | 2026-09-01 | 1 | --rental`
+- `2023-10-XX → OVERTURNED | rental | Florence centro storico new-STR ban (Sindaco Nardella Oct 2023 town-planning variant decree) was OVERTURNED by TAR Toscana — lapsed because not confirmed in new operational plan; appeals dismissed. NO REPLACEMENT ORDINANCE IN FORCE at 2026-05-11; new municipal administration signalling re-pursuit | TAR Toscana + Il Sole 24 Ore | 2026-05-11 | 2026-08-01 | 1 | --rental`
+- `2026-XX-XX | rental | Milan 2026 Winter Olympics tourist tax spike — €9.50/n for accommodation within 30km of Olympic venues, 2026 only (vs €6.30/n standard); 14-night cap | Comune di Milano | 2026-05-11 | 2026-11-01 | 3 | --rental`
+- `2024-XX-XX | rental | Venice Contributo di Accesso €5 day-tripper access fee (€10 if within 3 days), 2026 dates 3 Apr–26 Jul on Fri-Sun + special weeks; hotel guests/residents/workers/students exempt | Comune di Venezia | 2026-05-11 | 2026-09-01 | 3 | --rental`
 - `2024-01-01 | tax | Southern Italy 7% pensioner regime — re-confirmed annually; expires after 9 yrs of residency | Agenzia delle Entrate | 2026-04-26 | 2027-01-15 | 2 | --tax (pension regime)`
 
 ### 🇪🇸 ES
@@ -91,12 +97,19 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2025-04-03 | visa | Golden Visa programme abolished | Ley 1/2025 | 2026-04-26 | 2026-10-01 | 1 | --visa`
 - `2025-06-XX | tax | Cataluña ITP made progressive (replacing flat 10%) — top bracket 13% for >€1.5M | Generalitat de Catalunya | 2026-04-26 | 2026-10-01 | 2 | --tax`
 - `2024-06-01 | rental | Madrid + Barcelona STR licensing freeze (de facto) | Municipal ordinances | 2026-04-26 | 2026-09-01 | 2 | --rental`
+- `2024-06-XX | rental | BCN universal HUT expiry — ALL 10,101 HUT licences citywide expire Oct 2028 (Collboni decree Jun 2024); PEUAT Zone 1 Ciutat Vella + Eixample-stress remain frozen for new HUTs; Zone 2 transferable-only; Zone 4 prohibited | Ajuntament de Barcelona | 2026-05-11 | 2026-09-01 | 1 | --rental`
+- `2025-05-01 | rental | Catalonia IEET tourist tax — €7.40/n 1-4★ apartments / €11/n 5★ + Catalonia €4 municipal surcharge rising €1/yr to max €8 by 2029; cap 7 nights; under-16 exempt | Generalitat de Catalunya ATC | 2026-05-11 | 2026-09-01 | 2 | --rental`
+- `2018-XX-XX | rental | Madrid PEH Distrito Centro — STR >90 nights/yr classed as commercial use; independent entrance + portal/lift separation from residents required (de-facto STR ban in shared-building residential) | Ayuntamiento de Madrid | 2026-05-11 | 2026-09-01 | 2 | --rental`
 
 ### 🇵🇹 PT
 
 - `2024-03-22 | tax | NHR replaced by IFICI/NHR 2.0 — **pensions NO LONGER exempt** (only specified scientific/innovation activities) | Decreto-Lei 21-A/2024 | 2026-04-26 | 2026-10-01 | 1 | --visa --tax (pension)`
 - `2023-10-06 | visa | Golden Visa — residential real estate route closed; funds/research routes remain | Mais Habitação law | 2026-04-26 | 2026-09-01 | 1 | --visa`
-- `2025-XX-XX | rental | Lisbon AL (Alojamento Local) suspended in stress zones — confirm post-2024 election outcome | Camara Municipal de Lisboa | 2026-04-26 | 2026-07-01 | 2 | --rental`
+- `2024-11-01 | rental | Decree-Law 76/2024 in force 1 Nov 2024 — repealed Mais Habitação AL nationwide freeze and 5-yr renewal requirement; max 27 guests/9 rooms per AL unit (down from 30); municipalities retain "áreas de contenção" power | gov.pt + Diário da República | 2026-05-11 | 2026-09-01 | 1 | --rental`
+- `2024-09-XX | rental | Lisbon Áreas de Contenção Absoluta — Santa Maria Maior (68.8% AL ratio), Bairro Alto, Madragoa: no new AL registrations; SALE-TRIGGERED EXPIRY — selling apartment-mode AL in containment zone = automatic licence death, NON-TRANSFERABLE to buyer | Câmara Municipal de Lisboa | 2026-05-11 | 2026-08-01 | 1 | --rental`
+- `2024-09-XX | rental | Lisbon Áreas de Contenção Relativa — Misericórdia, Príncipe Real, Graça, Bica (2.5-5% AL ratio): one-for-one transfer only | Câmara Municipal de Lisboa | 2026-05-11 | 2026-08-01 | 2 | --rental`
+- `2024-09-XX | rental | Lisbon TMT raised to €4/pp/n (from €2 Sept 2024), cap 7 nights, ≥13 years old | Câmara Municipal de Lisboa | 2026-05-11 | 2026-09-01 | 3 | --rental`
+- `2024-12-XX | rental | Porto Áreas de Contenção — Vitória (60.5% pressure), São Nicolau (48.3%), Sé (44.1%), Santo Ildefonso (38.3%), Miragaia (21.8%): containment freeze; Cedofeita (9.8%) reclassified as sustainable-growth (new AL permitted) | Câmara Municipal do Porto | 2026-05-11 | 2026-09-01 | 1 | --rental`
 
 ### 🇮🇸 IS
 
@@ -126,6 +139,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 ### 🇳🇱 NL
 
 - `2025-01-01 | rental | Affordable Rent Act (Wet betaalbare huur) — points-based cap extended to mid-segment; affects rental yield | Rijksoverheid | 2026-04-26 | 2026-09-01 | 1 | --rental`
+- `2026-04-01 | rental | Amsterdam vakantieverhuur 30-night → 15-night cap in 8 stress neighborhoods (7 Centrum stadsdelen + Oude Pijp in Zuid) from 1 Apr 2026; city council final vote Dec 2025; permit €73.30 + 12.5% per-room tourist tax (vs ~€22/n on €176 avg) | Gemeente Amsterdam | 2026-05-11 | 2026-08-01 | 1 | --rental`
 - `2026-01-01 | tax | Box 3 reform — actual return basis (replacing notional yield) | Belastingdienst | 2026-04-26 | 2026-07-01 | 1 | --tax`
 
 ### 🇧🇪 BE
@@ -158,11 +172,22 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 - `ongoing | tax | 7% flat on foreign-source income for foreign pensioners — 15-yr regime, application open | AADE | 2026-04-26 | 2026-12-01 | 2 | --tax (pension regime)`
 - `2024-XX-XX | rental | STR registration tightening; AADE Property Number mandatory | AADE | 2026-04-26 | 2026-09-01 | 3 | --rental`
+- `2025-01-01 | rental | Climate Resilience Levy raised 1 Jan 2025 — STR €8/n high season (Apr-Oct) / €2 low season; villas €8 (<80m²) or €15 (≥80m²) high / €2 / €4 low; per room/unit/night not per person | AADE | 2026-05-11 | 2026-09-01 | 1 | --rental`
+- `2025-01-01 | rental | Athens 1st/2nd/3rd Municipal Districts AMA freeze — no new STR initial registrations 1 Jan 2025–31 Dec 2025; EXTENDED through 2026 by ministerial decision; re-registration of pre-2024-12-31 properties allowed under conditions; ~8% AMA drop (29,500 → 27,000 central area) | AADE + Ministry of Tourism | 2026-05-11 | 2026-08-01 | 1 | --rental`
+- `2025-10-01 | rental | National STR standards (safety, fire, civil liability) in force 1 Oct 2025 under Law 4276/2014 + Art. 111 Law 4446/2016 + 2025 amendments | AADE | 2026-05-11 | 2026-08-01 | 2 | --rental`
+- `2026-04 (proposed, decision due 30 Jun 2026) | rental | Cyclades 20-30% tourist-bed reduction proposal — Tourism Min. Kefalogianni announcement 6-7 Apr 2026; STR freeze Mykonos drafted; under public consultation | Ministry of Tourism | 2026-05-11 | 2026-07-01 | 1 | --rental`
+
+### 🇭🇺 HU
+
+- `2026-01-01 | rental | Budapest District VI (Terézváros) STR zero-day cap — Decree 26/2024 (X.31), referendum 2-15 Sep 2024 (20.52% turnout, 54% in favor), upheld by Hungarian Supreme Court; STR allowable days/yr = ZERO in force 1 Jan 2026 | Terézváros + hungarytoday.hu | 2026-05-11 | 2026-08-01 | 1 | --rental`
+- `2025-09-XX | rental | Budapest District VII (Erzsébetváros — "party quarter" / Jewish Quarter) — caps new commercial accommodations at 10% of any residential building's floor area (different mechanism from VI); national 2-year moratorium on new STR registrations announced 2025 | Budapest VII district | 2026-05-11 | 2026-08-01 | 1 | --rental`
+- `2024-01-01 | rental | Airbnb flat tax per room quadrupled in 2024 (~+290%) | NAV | 2026-05-11 | 2026-09-01 | 2 | --rental --tax`
 
 ### 🇪🇪 EE
 
 - `2024-01-01 | tax | Land tax indexation cap raised 10% → 50% annual change | Maksu- ja Tolliamet | 2026-04-26 | 2026-10-01 | 3 | --tax`
 - `2025-01-01 | tax | Income tax 20% → 22% (touches rental income) | Maksu- ja Tolliamet | 2026-04-26 | 2026-09-01 | 2 | --tax --rental`
+- `2025-07-XX | rental | Mandatory STR registration from Jul 2025 (EU Reg 2024/1028 alignment); unique listing ID required; guest registration to Police & Border Guard within 24h; Tallinn Vanalinn (Old Town) STR cap announced (mechanism not finalized at 2026-05) | Maksu- ja Tolliamet + Tallinn | 2026-05-11 | 2026-08-01 | 2 | --rental`
 
 ### 🇱🇹 LT
 
@@ -201,6 +226,10 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2025-04-29 | visa | MEIN (Investor Citizenship) ENDED by ECJ Case C-181/23 | ECJ + Identità | 2026-04-26 | 2026-10-01 | 1 | --visa`
 - `2025-2035 | cadastre | LRA reform target — full compulsory registration phase-in | Land Registration Agency | 2026-04-26 | 2027-01-01 | 3 | --tax (cadastre) --mains`
 
+### 🇧🇭 BH
+
+- `2024-05-01 | rental | Tourist Levy BHD 3 per room per day on hotel accommodation, effective 1 May 2024 (supersedes prior BD 0.5/n) | KPMG Bahrain GCC Tax News May 2024 + BTEA | 2026-05-11 | 2026-09-01 | 2 | --rental --tax`
+
 ### 🇨🇦 CA
 
 - `2027-01-01 (pending end) | ownership | Foreign-buyer Prohibition Act extended through 1 Jan 2027 | CMHC | 2026-04-26 | 2026-10-01 | 1 | --tax (ownership)`
@@ -209,15 +238,23 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 - `2025-04-01 → 2027-03-31 | ownership | Established-homes ban on foreign purchase | FIRB | 2026-04-26 | 2026-10-01 | 1 | --tax (ownership)`
 - `2024-07-31 | visa | SIV (Significant Investor Visa) closed | Home Affairs | 2026-04-26 | 2026-09-01 | 1 | --visa`
+- `2025-01-01 | rental | VIC Short Stay Levy 7.5% on total booking fee for stays <28 days; principal-residence + hotels exempt; 25% of revenue to regional VIC for social/affordable housing | State Revenue Office VIC | 2026-05-11 | 2026-09-01 | 1 | --rental`
+- `ongoing | rental | NSW STRA Code of Conduct — STRA Register $65; Greater Sydney 180-day non-hosted cap (Eastern Harbour / Central River / Western Parkland districts); fines up to $1.1M (corp) / $220k (individual) | NSW Planning + Fair Trading | 2026-05-11 | 2026-09-01 | 1 | --rental`
+- `2024-09-23 | rental | NSW Byron Shire 60-day non-hosted cap (most LGA); 365-day mapped precincts only in Byron Bay Town Centre + Brunswick Heads carve-outs; hosted STRA unaffected (365 days) | NSW Planning | 2026-05-11 | 2026-08-01 | 1 | --rental`
 
 ### 🇳🇿 NZ
 
 - `2018-10-22 | ownership | Overseas Investment Amendment Act — permanent ban on foreign purchase of existing residential | LINZ | 2026-04-26 | 2027-01-01 | 1 | --tax (ownership)`
 - `2024-07-01 | tax | Bright-line test reduced 10 yr → 2 yr | IRD | 2026-04-26 | 2026-10-01 | 2 | --tax`
+- `2024-04-01 | rental | Marketplace GST 15% collected by Airbnb / Bachcare on behalf of all hosts (even <NZD 60k/yr); 8.5% flat-rate credit for non-GST-registered hosts | IRD | 2026-05-11 | 2026-09-01 | 1 | --rental --tax`
+- `ongoing | rental | Auckland APTR (Accommodation Provider Targeted Rate) — STR >28 nights/yr triggers commercial-rated uplift; Supreme Court validated 2022; declaration deadline 3 Jul annual | Auckland Council | 2026-05-11 | 2026-09-01 | 2 | --rental --tax`
+- `ongoing | rental | Queenstown Lakes District 90 nights/yr whole-house cap without resource consent + 25% rates uplift on registered properties | QLDC | 2026-05-11 | 2026-09-01 | 1 | --rental`
 
 ### 🇲🇽 MX
 
 - `ongoing | ownership | Fideicomiso (bank trust) required within 50 km coast / 100 km border for foreign buyers | SRE | 2026-04-26 | 2027-01-01 | 1 | --tax (ownership)`
+- `2024-04-04 | rental | CDMX Tourism Law Reform published Gaceta Oficial 4 Apr 2024 (NOT 2022 as some references cite); implementing Reglamento 25 Sep 2024 + further reforms 3 Oct 2024; 50% ANNUAL OCCUPANCY CAP on STR units registered via digital platforms (loss of registration if exceeded); host + platform registries mandatory; social-housing + post-2017 quake reconstruction prohibited from STR | Congreso CDMX + Gaceta Oficial | 2026-05-11 | 2026-08-01 | 1 | --rental`
+- `2025-XX-XX | rental | Q-Roo ISH 5% traditional + 6% via digital platforms (eff 2025) + VISITAX $5 USD/visitor one-time | Congreso Q-Roo | 2026-05-11 | 2026-09-01 | 2 | --rental`
 
 ### 🇧🇷 BR
 
@@ -251,6 +288,11 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 ### 🇺🇸 US
 
 - `2025-07-04 | tax | OBBBA (PL 119-21) reset SALT cap to $40k (sunset 2030); MID $750k cap permanent; §§ 25C/25D Energy Credits TERMINATED 31 Dec 2025; NRA estate exempt $15M (2026) | IRS + Congress.gov | 2026-05-01 | 2026-12-15 | 1 | --tax --finance --visa`
+- `2023-03-06 → 2023-09-05 | rental | NYC Local Law 18 of 2022 — Final Rules effective 6 Mar 2023; platform-verification enforcement began 5 Sep 2023; <30-day stays require host-present + city registration; listings ↓83% citywide, outer boroughs ↓~92% post-enforcement; effectively eliminates non-resident STR | NYC OSE + Mayor's Office | 2026-05-11 | 2026-09-01 | 1 | --rental`
+- `2025-08-XX | rental | Miami Beach STR ban struck by Miami-Dade Circuit Court (Hanzman J., Aug 2025) as conflicting with state law — enforcement status uncertain pending appeal | Miami-Dade Circuit Court + Haber Law | 2026-05-11 | 2026-08-01 | 1 | --rental`
+- `2022-04-26 → 2022-10-23 | rental | Honolulu Bill 41 (CO 22-7) — signed 26 Apr 2022, eff 23 Oct 2022 raising STR min stay to 90 days outside resort zones; 2023 court ruling partially REVERSED back to 30 days in non-resort | Honolulu Council + Hawaii Living | 2026-05-11 | 2026-08-01 | 2 | --rental`
+- `ongoing | rental | LA Home-Sharing Ordinance (HSO, Ord 185,931) — 120-day cap primary residence only, registration mandatory, enforcement since Nov 1 2019 | LA Planning | 2026-05-11 | 2026-09-01 | 2 | --rental`
+- `ongoing | rental | SF 90-day unhosted cap; STR registration mandatory; Planning Dept enforcement | SF Planning + STR Office | 2026-05-11 | 2026-09-01 | 2 | --rental`
 - `2024-12-09 | risks | CFIUS 31 CFR Part 802 added 59 sites near military installations (foreign-buyer review) | Treasury OFAC | 2026-05-01 | 2026-11-01 | 2 | --risks --visa`
 - `2024-10 | mains | EPA Lead and Copper Rule Improvements (LCRI) — full lead-service-line replacement compliance 1 Nov 2027 | EPA | 2026-05-01 | 2026-11-01 | 2 | --mains`
 - `2025-09-01 | tax | Texas SB 17 foreign-buyer land restrictions effective | TX SOS | 2026-05-01 | 2026-11-01 | 2 | --visa --price`
@@ -282,6 +324,9 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2024-04-01 | finance | 民法改正 (Civil Code reform) — mandatory inheritance registration within 3 yrs (¥50k fine), 2-yr address-change registration; foreign-heir traps | 法務省 | 2026-05-01 | 2026-09-01 | 2 | --finance --notary`
 - `2024-2025 | finance | BoJ rate normalization (Mar 2024 NIRP exit → Jul 2024 0.25% → Jan 2025 0.5% → Dec 2025 ~0.75%); mortgage variable rates rising; Flat 35 applications +50% YoY Q3 2025 | BoJ | 2026-05-01 | 2026-08-01 | 1 | --finance --price`
 - `2018-06 | rental | 民泊法 Minpaku law 180-night/yr cap; 2025 Tokyo + Kyoto + Osaka ward-level overlay restrictions intensifying | 観光庁 民泊ポータル | 2026-05-01 | 2026-09-01 | 2 | --rental`
+- `2025-09-01 | rental | Osaka hotel tax tiered shift from 1 Sep 2025 — ¥200 for ¥5k-15k; ¥400 for ¥15k-20k; ¥500 for ≥¥20k per pp/n | Osaka Prefecture | 2026-05-11 | 2026-09-01 | 2 | --rental --tax`
+- `2026-03-01 | rental | Kyoto hotel tax 9× hike from 1 Mar 2026 — new tiered structure ¥200 / ¥400 / ¥1,000 / ¥4,000 / ¥10,000 (up to 9× prior top tier); top tier targets premium ¥100k+/n stays | Kyoto City | 2026-05-11 | 2026-08-15 | 1 | --rental --tax`
+- `2027-XX-XX (announced 2025-11-27) | rental | Tokyo to shift to 3% lodging tax from FY2027 (replacing tiered ¥100-200/pp/n) | Tokyo Metropolitan Govt + Japan Times | 2026-05-11 | 2026-12-01 | 2 | --rental --tax`
 - `2022-09-20 | risks | 重要土地等調査法 (Important Land Investigation Act) effective; 注視区域 around defense / border / nuclear facilities; reporting may apply to certain residential transactions | 内閣府 | 2026-05-01 | 2026-10-01 | 2 | --risks --visa`
 
 ### 🇹🇭 TH
@@ -302,8 +347,8 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 ### 🇨🇴 CO
 
 - `2020 | finance | Decreto 1339/2020 — Catastro multipropósito national rollout; closing avalúo-vs-comercial gap; some areas seeing 2-3× predial bills | IGAC + DNP | 2026-05-01 | 2026-09-01 | 2 | --tax --price`
-- `2024 | rental | Bogotá Decreto 538/2024 — 10% STR lodging tax + RNT mandatory | Alcaldía Bogotá + MITUR | 2026-05-01 | 2026-08-01 | 2 | --rental`
-- `2024 | rental | Medellín El Poblado Acuerdo 056/2024 — STR restrictions evolving | Concejo Medellín | 2026-05-01 | 2026-08-01 | 2 | --rental`
+- `2024 | rental | Bogotá STR — 10% lodging tax + RNT mandatory CLAIM UNVERIFIED — "Decreto 538/2024" not retrievable; closest match Decreto 236/2024 (different subject). Data not publicly available as stated — verify at alcaldiabogota.gov.co/sisjur | Alcaldía Bogotá + MITUR | 2026-05-11 | 2026-08-01 | 2 | --rental`
+- `2024 | rental | Medellín El Poblado STR enforcement — RNT-driven closures of unlicensed units (1,700+ identified 2024); specific "Acuerdo 056/2024" reference NOT verified in primary source — verify at concejodemedellin.gov.co | Concejo Medellín | 2026-05-11 | 2026-08-01 | 2 | --rental`
 - `2022 | tax | Ley 2277/2022 reforma tributaria — gan. ocas. 15%, wealth tax above UVT threshold | DIAN + MinHacienda | 2026-05-01 | 2026-12-01 | 2 | --tax`
 - `ongoing | visa | Migratorio M visa real-estate route 350× SMLMV (~USD 125k 2026); 650× → PR-eligible after 5 yrs | Cancillería + Migración | 2026-05-01 | 2026-09-01 | 2 | --visa`
 
@@ -346,6 +391,8 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2023-XX | visa | Permenkumham 22/2023 Second Home Visa — qualifying IDR 2B asset can BE the property itself (Hak Pakai/SHMRS) | Imigrasi | 2026-05-01 | 2026-10-01 | 2 | --visa`
 - `2022-01 | tax | UU HKPD Law 1/2022 reformed local taxation — BPHTB statutory ceiling 5%, kabupaten can set within ceiling; verify per-kabupaten | Ministry of Finance + DJP | 2026-05-01 | 2026-12-01 | 2 | --tax`
 - `ongoing | rental | Bali villa STR enforcement varies by kabupaten — Pondok Wisata licensing patchy; monitor Provincial regulations | Bali Provincial Govt + Imigrasi | 2026-05-01 | 2026-09-01 | 3 | --rental`
+- `2024-02-14 | rental | Bali Provincial Levy IDR 150,000 per foreign visitor (one-time per arrival) under Perda Bali No. 6/2023, effective 14 Feb 2024 | Bali Provincial Govt + lovebali.baliprov.go.id | 2026-05-11 | 2026-09-01 | 2 | --rental`
+- `2026-XX-XX | rental | Bali Perda No. 4/2026 — nominee land-holdings CRIMINALIZED (up to 5 years prison + IDR 1bn fine); OTA platforms (Airbnb / Booking / Agoda) must verify NIB (business ID) of every listing by Mar 2026 deadline; foreigners cannot hold Pondok Wisata licence (Permenpar 18/2016) — compliant path = PT PMA + Villa licence KBLI 55193 | Bali Provincial Govt | 2026-05-11 | 2026-08-01 | 1 | --rental`
 
 ### 🇲🇾 MY
 
@@ -362,6 +409,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2017-XX | tax | Recurring property tax PROPOSED multiple times since 2017 — NOT enacted as of 2026-05-01; monitor Ministry of Finance consultation | Ministry of Finance | 2026-05-01 | 2026-09-01 | 3 | --tax`
 - `ongoing | visa | NO Vietnam Golden Visa via real estate exists — DT investment visa requires capital injection into a Vietnamese enterprise, not RE; common foreign-buyer assumption is wrong | Ministry of Public Security | 2026-05-01 | 2026-12-01 | 2 | --visa`
 - `2025-XX | rental | District-level STR enforcement varies; HCMC Ward People's Committees increasingly require Pink Book + business license for Airbnb | Provincial PCs + MOCST | 2026-05-01 | 2026-09-01 | 3 | --rental`
+- `2024-08-01 | rental | HCMC residential STR BAN — Decision 26/2024/QD-UBND of HCMC People's Committee, in force 1 Aug 2024, interpreting 2023 Housing Law: residential apartment buildings cannot operate STR; only mixed-use condotels permitted as tourism accommodation. Hanoi has no specific STR regulation as of 2026; business registration with DoF still required | HCMC People's Committee + Vietnamlawmagazine | 2026-05-11 | 2026-08-01 | 1 | --rental`
 - `2026-09-11 | connectivity | Hague Apostille convention enters into force for VN — POA chain shifts from full consular legalisation to apostille; calendar-actionable re-stamp of shared/connectivity.md + shared/language.md | HCCH + Vietnam MFA | 2026-05-08 | 2026-09-15 | 2 | --connectivity --language`
 - `pending | connectivity | Starlink licence still under review — SpaceX received conditional pilot approval 2024 but no commercial-licence as of 2026-05-08; verify on SpaceX availability map | MIC | 2026-05-08 | 2026-08-01 | 2 | --connectivity`
 
@@ -425,6 +473,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2025-03-20 | foreign-buyer | SPA (Sanction Permit Act) MORATORIUM LIFTED for non-Seychellois — residential acquisition permitted under new floors (SCR 10M dwelling minimum + SCR 4,000/m² bare-land); Sanction Duty raised 11%→12% | Government of Seychelles (Ministry of Investment, Entrepreneurship and Industry) | 2026-05-07 | 2026-08-01 | 1 | --tax ownership --visa`
 - `2024-01-01 | tax | IPT (Immovable Property Tax) doubled 0.25%→0.5% — foreigner-only annual tax on non-Seychellois-owned residential property (raised eff. 1 Jan 2024) | SRC Seychelles Revenue Commission | 2026-05-07 | 2026-09-01 | 2 | --tax`
 - `2026-01-15 | mains | PUC tariff revisions effective 15 Jan 2026 — electricity + water tariffs adjusted | Public Utilities Corporation (puc.sc) | 2026-05-07 | 2026-09-01 | 3 | --mains`
+- `2023-08-01 → 2026-01-01 | rental | Tourism Environmental Sustainability Levy (TESL) — eff 1 Aug 2023: small (1-24 rooms) SCR 25/pp/n; medium (25-50) SCR 75; large (51+) + yachts SCR 100; charged on invoice NOT advertised price. FROM 1 JAN 2026: small establishments (1-24 rooms) NO LONGER subject to levy — yield-positive for foreign-owned villas | Tourism Seychelles | 2026-05-11 | 2026-09-01 | 1 | --rental --tax`
 
 ### 🇨🇳 CN
 
