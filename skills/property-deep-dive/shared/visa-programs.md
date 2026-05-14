@@ -6,6 +6,79 @@ Residency-by-investment + citizenship-by-investment + property-linked visa lands
 
 **Anti-hallucination — CRITICAL**: many programs ENDED or restricted in 2023-2025. Verify current status before listing as open. If a memory or stale source asserts a program exists, cross-check with the government portal in this file before relaying to a user.
 
+## EU / EEA / CH free-movement prelude — read first if you hold an EU/EEA/Swiss passport
+
+If your nationality is in the **EU 27 + EEA non-EU 3 (IS / LI / NO) + CH** free-movement bloc AND your destination is also in the same bloc, **this section does NOT apply to you**. You move under treaty free-movement rules — there is **no visa to obtain**. France abolished mandatory residence cards for EU citizens by the [Loi du 26 nov 2003](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000795707/), and the same logic applies bloc-wide under the directives below.
+
+### Legal basis
+
+- [TFEU Art. 21](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012E021) — free movement of citizens
+- [TFEU Art. 45](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012E045) — free movement of workers
+- [TFEU Art. 49](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012E049) — freedom of establishment (self-employed + companies)
+- [Directive 2004/38/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004L0038) — Citizens' Rights Directive: residence rights, registration, family rights
+- [EEA Agreement](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:21994A0103(01)) — extends free movement to IS / LI / NO
+- [EU-CH Agreement on Free Movement of Persons (AFMP)](https://www.fedlex.admin.ch/eli/cc/2002/243/en) — extends to CH (in force 1 Jun 2002)
+
+### What you need instead — optional declaratory residence registration
+
+Required for stays > 90 days. Form, name, and issuing authority vary per country, but the registration is **administrative and declaratory** — you cannot be refused if you meet [Dir 2004/38/EC Art. 7](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004L0038) conditions: worker, self-employed, sufficient resources + comprehensive sickness insurance, student, OR family member of any of the above. Permanent residence accrues after 5 years of continuous legal residence ([Art. 16](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004L0038)).
+
+### Per-country declaratory residence card / registration
+
+Umbrella resource: [Your Europe — Residence formalities](https://europa.eu/youreurope/citizens/residence/documents-formalities/index_en.htm) (Commission-maintained, per-country selector available).
+
+| Destination | Local term | Statutory basis | Authority |
+|---|---|---|---|
+| 🇦🇹 AT | Anmeldebescheinigung | NAG § 51-54 | [Bundesministerium für Inneres](https://www.bmi.gv.at/) |
+| 🇧🇪 BE | Annexe 19 → carte E / E+ | Loi 1980 + AR 8 oct 1981 | [DOFI / IBZ](https://dofi.ibz.be/en) |
+| 🇧🇬 BG | Удостоверение за пребиваване | LFRBA Art. 6 | [МВР Дирекция Миграция](https://www.mvr.bg/) |
+| 🇭🇷 HR | Potvrda o prijavi privremenog boravka | Zakon o strancima | [MUP Stranci](https://mup.gov.hr/) |
+| 🇨🇾 CY | MEU1 (yellow slip) → MEU3 (long-term) | Law 7(I)/2007 | [Civil Registry & Migration Dept](http://www.moi.gov.cy/) |
+| 🇨🇿 CZ | Potvrzení o přechodném pobytu | Zákon č. 326/1999 Sb. | [Ministerstvo vnitra](https://www.mvcr.cz/) |
+| 🇩🇰 DK | Registreringsbevis | Bekendtgørelse om opholdsbevis | [SIRI Styrelsen for International Rekruttering](https://www.nyidanmark.dk/) |
+| 🇪🇪 EE | Tähtajaline elamisõigus EU citizen | VMS § 18 | [Politsei- ja Piirivalveamet](https://www.politsei.ee/en/) |
+| 🇫🇮 FI | EU-kansalaisen rekisteröinti | Ulkomaalaislaki § 159 | [Migri](https://migri.fi/en/eu-citizen) |
+| 🇫🇷 FR | Carte de séjour "Citoyen UE/EEE/Suisse" — **OPTIONAL** | CESEDA L233-1 (since [Loi du 26 nov 2003](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000795707/)) | [Service Public — Titre de séjour citoyen UE](https://www.service-public.fr/particuliers/vosdroits/F2653) |
+| 🇩🇪 DE | Anmeldung beim Einwohnermeldeamt (Freizügigkeitsbescheinigung abolished 2013) | FreizügG/EU + Bundesmeldegesetz | [BMI](https://www.bmi.bund.de/) |
+| 🇬🇷 GR | Βεβαίωση εγγραφής πολίτη της ΕΕ | PD 106/2007 | [Υπουργείο Μετανάστευσης](https://migration.gov.gr/en/) |
+| 🇭🇺 HU | Regisztrációs igazolás | 2007. évi I. törvény | [OIF Országos Idegenrendészeti Főigazgatóság](https://oif.gov.hu/) |
+| 🇮🇪 IE | EUTR1 → Permanent Residence Certificate | SI 656/2006 | [Irish Immigration Service](https://www.irishimmigration.ie/eu-eea-citizens-and-uk-citizens/) |
+| 🇮🇹 IT | Iscrizione anagrafica + attestato di soggiorno | D.Lgs. 30/2007 | [Polizia di Stato — UE](https://questure.poliziadistato.it/) |
+| 🇱🇻 LV | Reģistrācijas apliecība | Imigrācijas likums | [PMLP Pilsonības un migrācijas lietu pārvalde](https://www.pmlp.gov.lv/en) |
+| 🇱🇹 LT | Pažymėjimas dėl gyvenimo | Užsieniečių teisinės padėties įstatymas | [Migracijos departamentas](https://migracija.lrv.lt/en/) |
+| 🇱🇺 LU | Attestation d'enregistrement | Loi du 29 août 2008 | [Guichet.lu — citoyens UE](https://guichet.public.lu/en/citoyens/citoyennete.html) |
+| 🇲🇹 MT | eRRU registration | Subsidiary Legislation 460.17 | [Identity Malta — Expatriates Unit](https://www.identita.gov.mt/) |
+| 🇳🇱 NL | Inschrijving BRP + verblijfsdocument EU/EER-burger | Vw 2000 | [IND — EU/EEA or Swiss nationals](https://ind.nl/en/eu-eea-citizens-or-swiss-nationals) |
+| 🇵🇱 PL | Zaświadczenie o zarejestrowaniu pobytu | Ustawa z 14 lipca 2006 | [Urząd do Spraw Cudzoziemców](https://www.gov.pl/web/udsc-en) |
+| 🇵🇹 PT | Certificado de Registo de Cidadão da União Europeia | Lei 37/2006 | [Câmara Municipal](https://www.aima.gov.pt/) (issued at municipal level) |
+| 🇷🇴 RO | Certificat de înregistrare | OUG 102/2005 | [IGI Inspectoratul General pentru Imigrări](https://www.igi.mai.gov.ro/en/) |
+| 🇸🇰 SK | Registrácia pobytu občana EÚ | Zákon 404/2011 Z. z. | [Ministerstvo vnútra SR — Cudzinecká polícia](https://www.minv.sk/?english) |
+| 🇸🇮 SI | Potrdilo o prijavi prebivanja | ZTuj-2 | [InfoTujci.si](https://infotujci.si/en/) |
+| 🇪🇸 ES | Certificado de Registro de Ciudadano de la Unión + NIE | RD 240/2007 | [Ministerio del Interior — Extranjería](https://sede.administracionespublicas.gob.es/) |
+| 🇸🇪 SE | Folkbokföring (registration replaces card) | Folkbokföringslagen 1991:481 | [Migrationsverket — EU/EEA](https://www.migrationsverket.se/) |
+| 🇮🇸 IS | Skráning lögheimilis | Lög um útlendinga 80/2016 | [Útlendingastofnun](https://www.utl.is/en/eea-eu) |
+| 🇱🇮 LI | Aufenthaltsbewilligung (B EU/EFTA) | Personenfreizügigkeitsabkommen mit der EWR | [Ausländer- und Passamt](https://www.llv.li/) |
+| 🇳🇴 NO | Registreringsbevis | Utlendingsforskriften § 19-22 | [UDI — EU/EEA registration](https://www.udi.no/en/want-to-apply/eueea-and-other-nordic-citizens/) |
+| 🇨🇭 CH | Ausländerausweis B EU/EFTA (residence) / L EU/EFTA (short-term) | AFMP + Verordnung über die Einführung des freien Personenverkehrs | [SEM Staatssekretariat für Migration](https://www.sem.admin.ch/) |
+
+### What this prelude does NOT cover
+
+Free movement removes the **visa requirement** — it does NOT eliminate:
+
+- **Dual tax residence** (DTA tie-breaker per OECD MTC Art. 4(2) still applies)
+- **POEM / PE risk** for owner-managers of any company resident in a third country (DTA Art. 4(3) + Art. 5)
+- **Origin-country deregistration** obligations (4 parallel registers — tax, civil, health, social-security)
+- **Origin-country exit-tax events** where statute applies (US § 877A / CA § 128.1 / AU CGT event I1 / IL § 100A / ZA § 9H — direct foreign RE in scope; DE § 6 AStG / FR Art. 167 bis / JP § 60-2 / KR Art. 118-9 — shareholdings only)
+- **Public health-insurance gap** (waiting periods + S1 form transition under [Reg 883/2004](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0883) — see `shared/relocation.md` § Healthcare)
+
+For full cross-border / dual-residency / POEM-PE / deregistration analysis, invoke `--cross-border` ([`shared/cross-border.md`](cross-border.md)) — opt-in framework section that surfaces the exposure flags + sourced authority pointers, with mandatory professional-advisor call-out on every output.
+
+### For non-EU / non-EEA / non-CH passport holders
+
+Continue to the Universal contract below — the visa programs in this section's master tables are what apply to you.
+
+---
+
 ## Universal contract
 
 For the property's country, return:
