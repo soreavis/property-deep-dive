@@ -52,6 +52,16 @@ out tags geom center 50;
 
 Replace `<LAT>` and `<LON>` with the property coordinates from pre-flight.
 
+**Common failures + fallbacks**:
+
+- **406 Not Acceptable**: query was sent as GET with `?data=...` URL parameter or wrong content-type. **MUST be POST + `--data-urlencode "data=<query>"` form body**. Always include `-H "User-Agent: <descriptive>"`.
+- **504 Gateway Timeout / 429 Too Many Requests**: public Overpass instance is rate-limited. Mitigation:
+  1. Increase `[out:json][timeout:60]` for large-radius queries
+  2. Try alternate mirror: `https://overpass.kumi.systems/api/interpreter` (community-hosted, often more lenient)
+  3. On persistent failure: degrade to manual visual inspection at `https://www.openstreetmap.org/#map=14/<LAT>/<LON>` — OSM map tiles are always available even when Overpass is down
+- **Response is HTML, not JSON**: error page from upstream. Pre-check `head -c 1 response.json` is `{` or `[` before parsing. See `shared/preflight.md` § Defensive curl pattern.
+- **Empty results in rural areas**: OSM coverage is uneven for rural lieu-dit; cross-check with [Google Maps](https://www.google.com/maps) before reporting "no amenities within X km" — this is a frequent OSM gap, not necessarily reality.
+
 ## Tag matrix
 
 | Service | OSM tags to query |

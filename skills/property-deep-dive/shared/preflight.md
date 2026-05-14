@@ -168,6 +168,39 @@ If the user didn't pass `--country=<iso2>`:
 ## Failure modes
 
 - **Nominatim returns no result**: try with simplified address (drop street number), or accept lat/lon only
-- **Overpass timeout**: skip the road query, mark traffic section as "low-confidence" (highway class fallback)
+- **Nominatim rate-limit / 429**: max 1 req/sec under public-instance fair-use; **must** include `User-Agent: <descriptive>` header (anonymous requests are blocked); on 429 → back off ≥5 s OR fall back to country-official geocoder (FR: [api-adresse.data.gouv.fr](https://api-adresse.data.gouv.fr/), DE: [BKG Geokodierungsdienst](https://gdz.bkg.bund.de/), UK: [postcodes.io](https://postcodes.io/), AT: [OEReB](https://www.basemap.at/), etc. — country playbooks list theirs)
+- **Overpass timeout / 504**: skip the road query, mark traffic section as "low-confidence" (highway class fallback). Increase `timeout:N` in query body for large radius searches; use `[out:json][timeout:60]`
+- **Overpass 406 Not Acceptable**: triggered when query is sent as GET with `?data=...` URL parameter or with wrong content-type. **MUST be POST + `--data-urlencode "data=<query>"` form body** (per the recipes in this file and `shared/amenities-osm.md`); also include `-H "User-Agent: <descriptive>"`. If still 406: try alternate mirror like `https://overpass.kumi.systems/api/interpreter` (community-hosted, often more lenient)
+- **Overpass response is HTML not JSON**: response is an error page; pre-check with `head -c 100 response.json | grep -c "^{"` before piping to `jq`/`json.load`. Common error pages: `429 Too Many Requests`, `504 Gateway Timeout`, `500 Internal Server Error`. Manual fallback: open `https://www.openstreetmap.org/#map=18/<LAT>/<LON>` in a browser and read the road/POIs visually
 - **Listing URL behind login wall**: ask user to paste the listing text directly
 - **Country playbook not loaded**: see master SKILL.md "Unsupported country" path
+
+## Defensive curl pattern (recommended)
+
+For any tool-call that consumes Overpass / Nominatim / similar JSON APIs:
+
+```bash
+# Send the request, capture status + body separately
+HTTP_CODE=$(curl -sL -w "%{http_code}" -o /tmp/resp.json \
+  -X POST "https://overpass-api.de/api/interpreter" \
+  --data-urlencode "data=[out:json][timeout:30];..." \
+  -H "User-Agent: <your-script-name>/1.0")
+
+if [ "$HTTP_CODE" != "200" ]; then
+  echo "API returned $HTTP_CODE; dumping first 200 bytes:"
+  head -c 200 /tmp/resp.json
+  exit 1
+fi
+
+# Validate JSON before parsing
+head -c 1 /tmp/resp.json | grep -qE '^[\[{]' || {
+  echo "Response is not JSON; first 200 bytes:"
+  head -c 200 /tmp/resp.json
+  exit 1
+}
+
+# Now safe to parse
+python3 -c "import json; print(json.load(open('/tmp/resp.json')))"
+```
+
+This pattern surfaces failures cleanly and avoids opaque `JSONDecodeError` traces.

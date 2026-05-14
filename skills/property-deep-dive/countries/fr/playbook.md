@@ -13,12 +13,22 @@ ISO2: `fr`. Status: ✅ Fully populated.
 
 ## Section: `--price`
 
-**Data sources** (parallel queries):
-- `https://www.netvendeur.com/prix/ville-<commune-slug>-<dept>/` — average €/m², range, trend
-- `https://www.meilleursagents.com/prix-immobilier/<commune-slug>-<postcode>/` — €/m² + history
-- `https://www.pap.fr/vendeur/prix-m2/<commune-slug>-<postcode>-g<id>` — backup
-- WebSearch: `"<commune>" maison à vendre prix` for live comp listings
-- DVF (Demandes de Valeurs Foncières) `https://app.dvf.etalab.gouv.fr/` for actual sale prices (public, ~3 yr lag)
+**Data sources** (priority order — primary first):
+
+1. **DVF Etalab — canonical actual sale prices** (DGFiP open data via Etalab):
+   - Map portal: `https://app.dvf.etalab.gouv.fr/` (form-based; search by commune)
+   - Bulk dataset: [data.gouv.fr DVF](https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres/) (CSV per département per year, ~3-yr lag)
+   - Clean passthrough UI: [immo-dvf.fr](https://www.immo-dvf.fr/) (same DVF data, easier to read; commune-level page is `/prix-immobilier/<region>/<dept>/<commune>-<postcode>/`)
+2. **Aggregator estimates** (cross-check only — methodology + freshness varies):
+   - [meilleursagents.com](https://www.meilleursagents.com/prix-immobilier/) — €/m² + history
+   - [journaldunet.com patrimoine](https://www.journaldunet.com/patrimoine/prix-immobilier/) — JDN aggregated
+   - [orpi.com prix-immobilier](https://www.orpi.com/prix-immobilier/) — Orpi network estimate
+   - [immobilier.lefigaro.fr prix-immobilier](https://immobilier.lefigaro.fr/prix-immobilier/)
+   - [pap.fr](https://www.pap.fr/vendeur/prix-m2/) — backup
+3. **WebSearch live listings**: `"<commune>" maison à vendre prix` for current comp listings
+4. **Avoid for primary data**: third-party DVF API mirrors (e.g., `api.cquest.org`) — frequently return non-JSON or stale; prefer Etalab + immo-dvf.fr passthrough
+
+**Sparse-DVF fallback**: rural communes <1,000 pop typically have <10 transactions/year — DVF median for the commune is statistically noisy. **Use the nearest larger market town (sub-prefecture or chef-lieu de canton) as the reference** and apply a **0.7–0.85× rural correction factor** for outlying lieu-dit (depends on distance + amenities). Document the extrapolation explicitly + flag confidence MEDIUM, NOT HIGH.
 
 **Compute**:
 - Price/m² = listing FAI / surface m² (Carrez)
@@ -65,9 +75,17 @@ ISO2: `fr`. Status: ✅ Fully populated.
 
 ## Section: `--tax`
 
-**Data sources**:
-- `https://www.impots-locaux.org/impots-locaux-<commune-slug>-<postcode>/` — communal & intercommunal rates for TFPB / TFPNB / TH
-- WebSearch for `"<commune>" taxe fonciere taux` and TEOM rate
+**Data sources** (priority order — canonical first):
+
+1. **DGFiP open data — communal tax rates** (canonical, all communes):
+   - DGFiP fiscal data on data.economie.gouv.fr: [data.economie.gouv.fr — taux fiscalité directe locale](https://data.economie.gouv.fr/explore/?q=taux+fiscalit%C3%A9+directe+locale)
+   - Service-Public.fr lookup tool overview: [service-public.gouv.fr A18426](https://www.service-public.gouv.fr/particuliers/actualites/A18426)
+   - Délibérations fiscales votées par les collectivités: [collectivites-locales.gouv.fr — Taux votés](https://www.collectivites-locales.gouv.fr/files/files/Etudes-et-statistiques/Taux%20de%20fiscalit%C3%A9%20directe%20locale%20vot%C3%A9s%20par%20les%20collectivit%C3%A9s/)
+2. **Department-level reference** (rank + average): [IndiceVille](https://indice-ville.com/analyses/taxe-fonciere-2024) — useful for "is this dept high-tax or low-tax" framing
+3. **Third-party aggregator** (use only if DGFiP open data lookup fails for the specific commune): `https://www.impots-locaux.org/impots-locaux-<commune-slug>-<postcode>/`
+4. **WebSearch fallback**: `"<commune>" taxe fonciere taux <year>` + TEOM rate
+
+**Confidence note**: department-level data (e.g., "Dordogne avg TFPB 47.34%") is HIGH; commune-specific extrapolation when DGFiP open data lookup is sparse is MEDIUM. State explicitly which you're using.
 
 **Compute**:
 1. Estimate VLC (Valeur Locative Cadastrale): for rural 1970s build, tarif ≈ €15–25/m²/yr after current revaluations (varies by commune category 5/6/7).
@@ -161,11 +179,13 @@ ISO2: `fr`. Status: ✅ Fully populated.
 
 ## Section: `--risks`
 
-**Data sources** (in order of authority):
-1. **DICRIM**: `https://files.georisques.fr/DICRIM/DICRIM_<INSEE>.pdf` — download with curl, render with pdftoppm if scanned
-2. **IAL** (Information Acquéreurs Locataires): `https://www.<dept>.gouv.fr/.../IAL_Risques-zones+par+commune.pdf`
-3. **ERRIAL** (parcel-level): `https://errial.georisques.gouv.fr` — form-based, address lookup
-4. **Géorisques**: `https://www.georisques.gouv.fr/mes-risques/connaitre-les-risques-pres-de-chez-moi`
+**Data sources** (in order of recommended individual-query path):
+
+1. **ERRIAL — parcel-level synthesis (PRIMARY for individual address lookup)**: [errial.georisques.gouv.fr](https://errial.georisques.gouv.fr/) — form-based, address lookup, returns full PDF with all 11 risk categories pre-filled. **This is the canonical individual-buyer entry point**; use first before going to file/PDF or API.
+2. **DICRIM (commune-level statutory doc)**: `https://files.georisques.fr/DICRIM/DICRIM_<INSEE>.pdf` — download with curl (verify file exists, not all communes publish), render with pdftoppm if scanned
+3. **IAL (Information Acquéreurs Locataires) — département-level zoning maps**: `https://www.<dept>.gouv.fr/.../IAL_Risques-zones+par+commune.pdf`
+4. **Géorisques portal (general risk lookup)**: `https://www.georisques.gouv.fr/mes-risques/connaitre-les-risques-pres-de-chez-moi`
+5. **Géorisques API** (developer): API endpoints exist (`api/v1/...`) but are not officially-documented; **use the ERRIAL portal for individual queries** unless you need batch-scale extraction. If invoking the API: respect [robots.txt](https://www.georisques.gouv.fr/robots.txt) + add `User-Agent: <descriptive>` header.
 5. **IRSN potentiel radon**: `https://recherche-expertise.asnr.fr/savoir-comprendre/environnement/connaitre-potentiel-radon-ma-commune`
 6. **DRIAS climate**: `https://www.drias-climat.fr/`
 7. **PPI nucléaire** (if any plant within 50 km): EDF site + préfecture

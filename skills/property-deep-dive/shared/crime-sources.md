@@ -63,7 +63,8 @@ For the property's locality, return:
 - **Ministère de l'Intérieur — Service Statistique Ministériel de la Sécurité Intérieure (SSMSI)**:
   - Portal: `https://www.interieur.gouv.fr/Interstats/`
   - Open data: `https://www.data.gouv.fr/datasets/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/`
-  - **Commune-level CSV available** (with caveats for small communes — censored < 5 cases)
+  - **Commune-level CSV available** with caveats for small communes — individual cells **censored when count < 5 cases per type/year** (statistical disclosure protection)
+  - **Practical population threshold**: for communes <1,000 pop, most cells are censored → per-commune rate computation is unreliable. **Default to département-level rate + estimated band** for these communes; explicitly label "estimated, commune <1,000 pop — SSMSI does not publish per-commune at this size"
 - **ONDRP** (Observatoire National de la Délinquance et des Réponses Pénales) — historical
 - **CSI 2022/2023 (Cadre Statistique Interministériel)** new methodology
 
