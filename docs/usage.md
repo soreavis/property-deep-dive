@@ -14,7 +14,7 @@ The full argument-hint and section catalog live in [SKILL.md](../skills/property
 /property-deep-dive 1 Rue Principale, 86430 Adriers, France --all
 ```
 
-The skill detects France by postcode, loads `skills/property-deep-dive/countries/fr/playbook.md`, runs all 31 sections (price · traffic · tax · rental · work · risks · mains · crime · amenities · climate · finance · currency · visa · insurance · notary · permits · agent · scams · language · connectivity · home-tax · remote · relocation · compare · retirement · digital-nomad · macro · demographics · schools · esg · exit), and prints to terminal.
+The skill detects France by postcode, loads `skills/property-deep-dive/countries/fr/playbook.md`, runs all 31 default sections (price · traffic · tax · rental · work · risks · mains · crime · amenities · climate · finance · currency · visa · insurance · notary · permits · agent · scams · language · connectivity · home-tax · remote · relocation · compare · retirement · digital-nomad · macro · demographics · schools · esg · exit), and prints to terminal. `--cross-border` is the 32nd section — opt-in for buyers whose move triggers dual-residency / POEM / PE exposure (intra-EU movers, owners of third-country companies, retirees keeping origin-country residence ties).
 
 ## 2. Targeted facets, save report to file
 
@@ -68,12 +68,12 @@ Singapore address with the working-age-family combo. `--schools` returns the int
 
 ### Section flags
 
-31 user-invocable section flags grouped by domain, plus 4 cross-cutting layers.
+32 user-invocable section flags grouped by domain, plus 4 cross-cutting layers.
 
 | Group | Flags |
 |---|---|
 | **Core (10)** | `--price` `--traffic` `--tax` `--rental` `--work=<profession>` `--risks` `--mains` `--crime` `--amenities` `--climate` |
-| **Financial / process (6)** | `--finance` `--currency` `--visa` `--insurance` `--notary` `--home-tax` |
+| **Financial / process (7)** | `--finance` `--currency` `--visa` `--insurance` `--notary` `--home-tax` `--cross-border` |
 | **Regulatory (1)** | `--permits` |
 | **Transaction (2)** | `--agent` `--scams` |
 | **Process (4)** | `--language` `--connectivity` `--remote` `--relocation` |
