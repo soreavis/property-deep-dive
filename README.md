@@ -196,6 +196,7 @@ Running this skill in Claude Code (or Cowork) consumes tokens proportional to wh
 | `--scams` | `shared/scams.md` (237 lines) | ~2,800 |
 | `--currency` | `shared/currency.md` (303 lines) | ~3,600 |
 | `--finance` | `shared/finance.md` (317 lines) | ~3,800 |
+| `--title-monitoring` | `shared/title-monitoring.md` (330 lines) | ~4,000 |
 | `--connectivity` | `shared/connectivity.md` (335 lines) | ~4,000 |
 | `--integrity` | `shared/integrity-checks.md` (352 lines) | ~4,200 |
 | `--visa` | `shared/visa-programs.md` (356 lines) | ~4,300 |
@@ -360,7 +361,7 @@ property-deep-dive/
 │   ├── render-visa-programs.py       # JSON → AUTOGEN block in shared/visa-programs.md (idempotent; --check / --diff)
 │   └── sync-docs.py                  # auto-sync counts + AUTOGEN blocks across community markdown
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
-    ├── SKILL.md                      # master router (~590 lines)
+    ├── SKILL.md                      # master router (~610 lines)
     ├── shared/                       # 48 top-level universal layer files (~17,500 lines)
     │   │                             #   + shared/exit/ subdirectory (14 region files, ~1,000 lines, loaded on demand)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
