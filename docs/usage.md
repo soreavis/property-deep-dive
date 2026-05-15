@@ -68,7 +68,7 @@ Singapore address with the working-age-family combo. `--schools` returns the int
 
 ### Section flags
 
-32 user-invocable section flags grouped by domain, plus 4 cross-cutting layers.
+33 user-invocable section flags grouped by domain, plus 4 cross-cutting layers.
 
 | Group | Flags |
 |---|---|
