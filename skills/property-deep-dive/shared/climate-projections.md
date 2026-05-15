@@ -156,6 +156,7 @@ For each climate hazard surface:
 - **Premium trend**: stable / rising / unaffordable by 2050
 - **Coverage exclusions** likely (e.g., gradual SLR, repeated flooding)
 - **National disaster scheme** coverage (e.g., FR Cat-Nat, IS NTÍ, ES Consorcio de Compensación)
+- **Insurability-cliff cross-check**: once the hazard zone is established, cross-check insurability via the **[Insurability cliff (flood / peril) carve-out](insurance.md#insurability-cliff-flood--peril--mortgage--resale-knock-on-cross-link---climate)** in `--insurance` — an uninsurable address is unmortgageable, collapsing the buyer pool to cash and impairing resale.
 
 ## Caveats to surface in every output
 
