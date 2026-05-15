@@ -2,7 +2,7 @@
 
 A single date-stamped registry of property-relevant reforms, transposition deadlines, ENDED programs, and watchlist items. Maintained as the **single source of truth for "what changed when"** — playbooks reference this; this references playbooks.
 
-**Why it exists**: At 103 countries × 38 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
+**Why it exists**: At 103 countries × 39 sections, the highest-blast-radius hallucination is asserting that an ENDED program is still active or quoting a tax rate that was reformed last quarter. This file makes "did anything change?" a single-file lookup before any re-stamp.
 
 **Maintainer**: human + Claude. Each entry must have a primary-source URL, a verified date, and a next-revisit date.
 
