@@ -371,7 +371,7 @@ property-deep-dive/
     │   │   # process: remote, relocation
     │   │   # decision-context: compare, retirement, digital-nomad, macro, demographics, schools, esg, exit (+ exit/ subdir)
     │   │   # cross-cutting: integrity-checks, journeys, property-types
-    │   ├── 6 sub-section extensions  # mains-reliability, finance-banking, notary-forced-heirship, risks-build-quality, digital-nomad-healthcare, rental-yield-delta
+    │   ├── 11 sub-section extensions # mains-reliability, finance-banking, notary-forced-heirship, risks-build-quality, digital-nomad-healthcare, rental-yield-delta, scams-postcompletion, journey-sellrent, integrity-remorse, finance-crossborder, exit-seller-withholding
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
     │   ├── updater.md                # maintenance mode + auto-downgrade rule
     │   └── 9 tooling docs            # tco/mortgage calculators, fixtures, diff-watcher, comparable-transactions, auto-validate, price-index-feeds, listing-aggregators, photo-ocr
@@ -380,7 +380,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 166 markdown files, ~83,500 lines (SKILL.md + 48 top-level shared/ + 14 shared/exit/ region files + 103 country playbooks).
-**Repo total**: 193 markdown files, ~89,700 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 193 markdown files, ~89,800 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
