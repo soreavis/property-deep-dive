@@ -9,7 +9,7 @@
 
 **Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
 
-**Pre-purchase property due diligence across 103 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, foreign-buyer remote-execution mechanisms, 90-day post-completion relocation logistics, international schools + catchment areas, and 16 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **35 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
+**Pre-purchase property due diligence across 103 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, foreign-buyer remote-execution mechanisms, 90-day post-completion relocation logistics, international schools + catchment areas, and 16 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **36 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
 
@@ -380,7 +380,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 166 markdown files, ~83,500 lines (SKILL.md + 48 top-level shared/ + 14 shared/exit/ region files + 103 country playbooks).
-**Repo total**: 184 markdown files, ~87,200 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 185 markdown files, ~87,400 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
@@ -397,7 +397,7 @@ In the meantime, the most valuable contributions are:
 - **Factual corrections** — wrong tax rate, fee threshold, or "ENDED programme listed as active" (use the [factual-correction issue template](https://github.com/soreavis/property-deep-dive/issues/new?template=factual-correction.yml))
 - **Broken URL replacements** — particularly when a primary government portal moves
 - **Regulatory-watch entries** — recent reform / EU directive transposition / ENDED programme that supersedes a Tier-1 source
-- **Section extensions** — Reddit gap-analysis 2026-05-08 backlog **fully exhausted**: `--home-tax` (#127), `--remote` (#128), `--relocation` (#129) shipped 2026-05-09; `--mains` utilities-reliability extension (#134) shipped 2026-05-09; 4-extension wave 2026-05-10 — `--finance` banking-access (#137), `--notary` forced-heirship (#138), `--risks` build-quality + off-plan (#139), `--digital-nomad` working-age healthcare carve-out (#140); `--schools` NEW section #31 (#141) shipped 2026-05-10; `--rental` yield-delta + neighborhood STR-zoning (#148, 6th sub-section extension) shipped 2026-05-11 combining the original 2026-05-08 STR-moratorium TODO with the 2026-05-10 Tier-2 yield-delta enrichment. **Current backlog** is the 2026-05-10 Reddit gap-analysis #3 output — 3 Tier-1 NEW section candidates (`--renovation` highest signal, `--property-management`, `--surveyor`) and 4 Tier-2 enrichments (`--scams` post-completion, `--finance` cross-border mortgage broker, `--integrity` buyers-remorse alerts, `--journey=foreign-buyer` sell-vs-rent). See [`ROADMAP.md`](./ROADMAP.md) § Coverage extensions for the full list.
+- **Section extensions** — Reddit gap-analysis 2026-05-08 backlog **fully exhausted**: `--home-tax` (#127), `--remote` (#128), `--relocation` (#129) shipped 2026-05-09; `--mains` utilities-reliability extension (#134) shipped 2026-05-09; 4-extension wave 2026-05-10 — `--finance` banking-access (#137), `--notary` forced-heirship (#138), `--risks` build-quality + off-plan (#139), `--digital-nomad` working-age healthcare carve-out (#140); `--schools` NEW section #31 (#141) shipped 2026-05-10; `--rental` yield-delta + neighborhood STR-zoning (#148, 6th sub-section extension) shipped 2026-05-11 combining the original 2026-05-08 STR-moratorium TODO with the 2026-05-10 Tier-2 yield-delta enrichment. 6-section wave shipped 2026-05-15 — Reddit gap-analysis #3 Tier-1 (`--property-management` #153, `--renovation` #154, `--surveyor` #155) plus Reddit gap-analysis #4 Tier-1 (`--inherited-noncompliance` #156, `--squatter`, `--latent-defect`). **Current backlog** (held for a later wave): 4 Tier-2 enrichments — `--scams` post-completion, `--finance` cross-border mortgage broker, `--integrity` buyers-remorse alerts, `--journey=foreign-buyer` sell-vs-rent — plus Reddit gap-analysis #4 Tier-2 fold-in candidates. See [`ROADMAP.md`](./ROADMAP.md) § Coverage extensions for the full list.
 
 ## Versioning
 
