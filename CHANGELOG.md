@@ -84,6 +84,30 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - **`shared/regulatory-watch.md` integrity downgrade for CO Bogotá Decreto 538/2024 + Medellín Acuerdo 056/2024 entries**: both ordinance references could not be primary-source verified during the rental yield-delta research wave (closest Bogotá match is Decreto 236/2024 on a different subject; RNT enforcement is real per Bogotá + Medellín municipal portals but specific acuerdo numbers require concejodemedellin.gov.co + alcaldiabogota.gov.co/sisjur direct verification). Both entries downgraded inline from confident citation to `data not publicly available — verify` markers per the anti-hallucination contract. Honesty over confidence.
 - **`docs/usage.md` refresh post-2026.05.17**: section-flags table updated to reflect today's wave — Financial / process group 5 → 6 (adds `--home-tax`); Decision-context group 7 → 8 (adds `--schools`); 4 missing groups added (Regulatory, Transaction, Process, Tooling); new `Sub-section extensions` callout describing the 5 auto-loaded extensions (`mains-reliability` / `finance-banking` / `notary-forced-heirship` / `risks-build-quality` / `digital-nomad-healthcare`) and how they pair with parent flags. Maintenance-flag table tier counts corrected (15/30/42 → 16/38/49 to match `config/_tiers.json`). New worked example #7 added for the working-age-family combo (`--schools --digital-nomad --home-tax --journey=foreign-buyer` on a Singapore address); intro updated "six worked examples" → "seven". README.md auto-refreshed by `scripts/sync-docs.py` (~85,500 → ~85,600 line count).
 - chore(docs): refresh docs/usage.md after the 2026.05.17 wave ([#145](https://github.com/soreavis/property-deep-dive/pull/145)) — by @soreavis
+- feat(rental): yield-delta + neighborhood STR-zoning sub-section (6th extension) ([#148](https://github.com/soreavis/property-deep-dive/pull/148)) — by @soreavis
+- feat(cross-border): NEW --cross-border framework section (32nd section, opt-in) ([#149](https://github.com/soreavis/property-deep-dive/pull/149)) — by @soreavis
+- feat(visa): EU/EEA/CH free-movement prelude in --visa ([#150](https://github.com/soreavis/property-deep-dive/pull/150)) — by @soreavis
+- feat(playbooks): 'Leaving this country' deregistration stub for FR + SK ([#151](https://github.com/soreavis/property-deep-dive/pull/151)) — by @soreavis
+- fix(skill): harden data-source recipes after real-run audit ([#152](https://github.com/soreavis/property-deep-dive/pull/152)) — by @soreavis
+- feat(property-management): NEW --property-management section (33rd — owner-hires-manager) ([#153](https://github.com/soreavis/property-deep-dive/pull/153)) — by @soreavis
+- feat(renovation): NEW --renovation section (34th — cost / contractor-trust / revival-scheme reality) ([#154](https://github.com/soreavis/property-deep-dive/pull/154)) — by @soreavis
+- feat(surveyor): NEW --surveyor section (35th — pre-offer building inspection / inspector credentialing) ([#155](https://github.com/soreavis/property-deep-dive/pull/155)) — by @soreavis
+- feat(inherited-noncompliance): NEW --inherited-noncompliance section (36th — inherited illegality / cadastral mismatch) ([#156](https://github.com/soreavis/property-deep-dive/pull/156)) — by @soreavis
+- feat(squatter): NEW --squatter section (37th — occupation / eviction timeline / adverse possession) ([#157](https://github.com/soreavis/property-deep-dive/pull/157)) — by @soreavis
+- feat(latent-defect): NEW --latent-defect section (38th — post-completion hidden-defect recourse) ([#158](https://github.com/soreavis/property-deep-dive/pull/158)) — by @soreavis
+- docs(roadmap): record 6-section wave + Reddit gap-analysis #4 ([#159](https://github.com/soreavis/property-deep-dive/pull/159)) — by @soreavis
+- feat(scams): post-completion / foreign-owner-fraud sub-section extension (7th extension) ([#160](https://github.com/soreavis/property-deep-dive/pull/160)) — by @soreavis
+- feat(journey): foreign-buyer sell-vs-rent origin-home sub-section extension (8th extension) ([#161](https://github.com/soreavis/property-deep-dive/pull/161)) — by @soreavis
+- feat(integrity): foreign-buyer buyer's-remorse pattern sub-section extension (9th extension) ([#162](https://github.com/soreavis/property-deep-dive/pull/162)) — by @soreavis
+- feat(finance): cross-border mortgage & alternative-financing sub-section extension #2 (10th extension) ([#163](https://github.com/soreavis/property-deep-dive/pull/163)) — by @soreavis
+- feat(property-management): remote strata/condo governance sub-section (gap-#5 fold-in) ([#164](https://github.com/soreavis/property-deep-dive/pull/164)) — by @soreavis
+- feat(exit): non-resident-seller withholding & tax-clearance completion-gate sub-section extension (11th ext, gap-#5 Tier-1) ([#165](https://github.com/soreavis/property-deep-dive/pull/165)) — by @soreavis
+- feat(title-monitoring): NEW --title-monitoring section (39th — post-ownership title-fraud defensive-instrument & registry-alert) (gap-#5 Tier-1) ([#166](https://github.com/soreavis/property-deep-dive/pull/166)) — by @soreavis
+- feat(type): right-of-way + leasehold gap-#5 fold-ins into property-types.md (completes the gap-#5 wave) ([#167](https://github.com/soreavis/property-deep-dive/pull/167)) — by @soreavis
+- feat(type): connect-from-scratch utilities sub-block in --type=plot-only (gap-#4 --utility-connection carry-over) ([#168](https://github.com/soreavis/property-deep-dive/pull/168)) — by @soreavis
+- fix(jp): verify-first JP regulatory-watch entry + universal acquisition content (gap-#4 carry-over; UNVERIFIED) ([#169](https://github.com/soreavis/property-deep-dive/pull/169)) — by @soreavis
+- feat(insurance): flood/peril insurability-cliff cross-link carve-out (gap-#4 --flood-insurability; closes the gap-#4 Tier-2 backlog) ([#170](https://github.com/soreavis/property-deep-dive/pull/170)) — by @soreavis
+- docs: refresh README + docs/usage + GitHub About post gap-#5 wave & gap-#4 residue ([#171](https://github.com/soreavis/property-deep-dive/pull/171)) — by @soreavis
 
 ### Fixed
 
