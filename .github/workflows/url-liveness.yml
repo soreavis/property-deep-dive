@@ -1,156 +1,160 @@
 name: URL liveness
 
+# Re-enabled 2026-05-26 after the Python rewrite of the checker.
+# Old serial-curl bash loop hit the 90-min cap at ~3,500 URLs and was paused
+# 2026-05-08 (last green run 2026-04-27). The new aiohttp checker
+# (scripts/url-liveness.py) processes ~6,600 URLs in ~17 min cold / ~5 min
+# warm, respects robots.txt + Retry-After, throttles per-host (EUR-Lex 1@10s
+# per Crawl-delay mandate; legifrance/CF-fronted gov 1@2s; gov-suffix 1@1s),
+# detects Cloudflare challenges + 999 bot-blocks, caches LIVE/REDIRECT 30d
+# (via workflow artifact, NOT actions/cache — the latter evicts at 7d) +
+# random-refreshes 10% per run, and uses a 3-run rolling fail-streak before
+# declaring a URL DEAD. See _local/wip-url-liveness-research/ for the full
+# research file set + the consolidated decision brief.
+
 on:
-  # Schedule disabled 2026-05-08: serial bash checker times out at 90 min after
-  # Tier-1+2 country sprint pushed URL set past the bash-loop budget. Awaiting
-  # Python rewrite (aiohttp + per-host semaphore + Retry-After + result cache)
-  # — see ROADMAP. Re-enable the cron line below once the rewrite ships.
-  # schedule:
-  #   - cron: '0 9 * * 1'
+  schedule:
+    # Monday 09:17 UTC. Off the top of the hour per GitHub's explicit guidance
+    # that scheduled runs are most likely to be delayed or dropped at the
+    # start of every hour under high load.
+    - cron: '17 9 * * 1'
   workflow_dispatch:
+
+# Prevent stacked runs if a previous one is still in-flight.
+concurrency:
+  group: url-liveness
+  cancel-in-progress: false
 
 permissions:
   contents: read
   issues: write
+  actions: read  # required to list/download prior artifacts (for cache restore)
 
 jobs:
   check-urls:
-    runs-on: ubuntu-latest
-    # Was 30 min; bumped to 90 after the 2026-05-04 run timed out at exactly 30 min
-    # following the 62 → 87 country sprint. Post-103 countries (Tier-1 + Tier-2 batches
-    # PRs #111 + #113) the URL set is large enough that HEAD-checking every link
-    # serially needs more headroom. Follow-up: parallelize the checker itself
-    # (aiohttp / httpx with semaphore concurrency) — see ROADMAP "Coverage extensions".
-    timeout-minutes: 90
+    # Locked to main so workflow_dispatch from a feature branch can't run it.
+    if: github.ref == 'refs/heads/main'
+    # ubuntu-24.04 pinned (not -latest) for reproducible egress IP + TLS behaviour.
+    runs-on: ubuntu-24.04
+    # Hard ceiling above the local-dry-run baseline of ~28 min cold (1,708s
+    # against the live 6,586-URL corpus on 2026-05-26) and expected ~5-8 min
+    # warm. 60 min gives ~2× headroom for CI network variability + GH-runner
+    # IP-specific upstream throttling.
+    timeout-minutes: 60
 
     steps:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
 
-      - name: Extract URLs from all markdown files
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
+        with:
+          python-version: '3.12'
+
+      - name: Install aiohttp
+        run: python3 -m pip install --quiet 'aiohttp>=3.9,<4'
+
+      - name: Run unit tests
+        run: python3 scripts/url-liveness-test.py
+
+      - name: Restore cache from latest prior artifact
+        id: restore-cache
+        # Soft-restore via `gh run download`. No third-party action — `gh` is
+        # pre-installed on ubuntu-24.04 runners. First-run / no-prior-artifact
+        # is non-fatal: the script handles an empty cache as a cold start.
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          set -euo pipefail
           mkdir -p _ci
-          # Python extraction: like the old grep but
-          #  (a) skips URLs immediately followed by `<` or `{` — these are template
-          #      placeholders like `https://example.gov/path/<INSEE>` where the regex
-          #      would otherwise truncate to `https://example.gov/path/` and 404
-          #  (b) skips files that contain example/fixture URLs by design
-          #      (test-fixtures.md = test data, not authoritative sources)
-          python3 <<'EOF' > _ci/urls.txt
-          import re
-          from pathlib import Path
-
-          URL_RE = re.compile(r"https?://[^\s<>\"`)\]]+")
-          EXCLUDE_FILES = {"test-fixtures.md"}
-          EXCLUDE_DIRS = {"node_modules", "_local"}
-
-          seen = set()
-          for path in Path(".").rglob("*.md"):
-              if path.name in EXCLUDE_FILES:
-                  continue
-              if any(part in EXCLUDE_DIRS for part in path.parts):
-                  continue
-              try:
-                  text = path.read_text(encoding="utf-8")
-              except (OSError, UnicodeDecodeError):
-                  continue
-              for m in URL_RE.finditer(text):
-                  url = m.group(0).rstrip(".,;:)")
-                  end = m.end()
-                  # Skip if a placeholder follows (template URL)
-                  if end < len(text) and text[end] in "<{":
-                      continue
-                  seen.add(url)
-          for u in sorted(seen):
-              print(u)
-          EOF
-          echo "Found $(wc -l < _ci/urls.txt) unique URLs (after template-skip + fixture-exclude)"
-
-      - name: Check URL liveness
-        run: |
-          set +e
-          : > _ci/results.tsv
-          ok=0; redirect=0; bot=0; auth=0; dead=0; timeout=0; total=0
-          while IFS= read -r url; do
-            total=$((total+1))
-            # HEAD first, fall back to GET for servers that reject HEAD
-            code=$(curl -s -o /dev/null -w '%{http_code}' \
-              --max-time 10 --head -L \
-              -H "User-Agent: property-deep-dive-ci/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
-              "$url" 2>/dev/null)
-            if [ -z "$code" ] || [ "$code" -ge 400 ] 2>/dev/null; then
-              code=$(curl -s -o /dev/null -w '%{http_code}' \
-                --max-time 15 -L \
-                -H "User-Agent: property-deep-dive-ci/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
-                "$url" 2>/dev/null)
+          last_run=$(gh run list --workflow url-liveness.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId // empty')
+          if [ -n "${last_run:-}" ]; then
+            echo "Attempting cache restore from run $last_run …"
+            if gh run download "$last_run" --name url-liveness-cache --dir _ci/ 2>/dev/null; then
+              echo "Restored cache.json from run $last_run"
+              ls -la _ci/
+            else
+              echo "No url-liveness-cache artifact on run $last_run — cold start"
             fi
-            case "$code" in
-              2*) class=LIVE; ok=$((ok+1)) ;;
-              30[1278]) class=REDIRECT_LIVE; redirect=$((redirect+1)); ok=$((ok+1)) ;;
-              401) class=AUTH_REQUIRED; auth=$((auth+1)) ;;
-              403) class=BOT_BLOCKED; bot=$((bot+1)); ok=$((ok+1)) ;;
-              404|410) class=DEAD; dead=$((dead+1)) ;;
-              000|"") class=TIMEOUT; timeout=$((timeout+1)) ;;
-              *) class="OTHER_$code"; dead=$((dead+1)) ;;
-            esac
-            printf '%s\t%s\t%s\n' "$code" "$class" "$url" >> _ci/results.tsv
-            sleep 0.2
-          done < _ci/urls.txt
-          score=$(( ok * 100 / total ))
-          echo "TOTAL=$total OK=$ok REDIRECT=$redirect BOT=$bot AUTH=$auth DEAD=$dead TIMEOUT=$timeout SCORE=$score"
-          {
-            echo "total=$total"
-            echo "ok=$ok"
-            echo "redirect=$redirect"
-            echo "bot=$bot"
-            echo "auth=$auth"
-            echo "dead=$dead"
-            echo "timeout=$timeout"
-            echo "score=$score"
-          } >> "$GITHUB_OUTPUT"
-        id: check
+          else
+            echo "No prior successful run — cold start"
+          fi
 
-      - name: Upload results artifact
+      - name: Run URL-liveness check
+        id: check
+        run: python3 scripts/url-liveness.py --ci
+
+      - name: Upload cache artifact (90-day retention)
+        # Always upload — even on score below threshold — so next run has the
+        # latest fail-streak state.
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: url-liveness-cache
+          path: _ci/cache.json
+          retention-days: 90
+          if-no-files-found: error
+
+      - name: Upload full run artifact (90-day retention)
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
         with:
           name: url-liveness-${{ github.run_id }}
           path: _ci/
           retention-days: 90
 
-      - name: Open issue if score below threshold
-        if: ${{ steps.check.outputs.score != '' && steps.check.outputs.score < 85 }}
+      - name: Emit run summary
+        if: always()
+        run: |
+          if [ -f _ci/report.md ]; then
+            cat _ci/report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Open or update rolling issue if score below threshold
+        if: ${{ steps.check.outputs.below_threshold == 'true' }}
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           script: |
             const fs = require('fs');
+            const report = fs.readFileSync('_ci/report.md', 'utf-8');
             const score = '${{ steps.check.outputs.score }}';
-            const total = '${{ steps.check.outputs.total }}';
-            const dead = '${{ steps.check.outputs.dead }}';
-            const timeout = '${{ steps.check.outputs.timeout }}';
-            const tsv = fs.readFileSync('_ci/results.tsv', 'utf-8');
-            const failures = tsv.split('\n')
-              .filter(l => /\t(DEAD|TIMEOUT|OTHER_)/.test(l))
-              .slice(0, 50)
-              .join('\n') || '(none captured)';
-            const body = [
-              `URL liveness check on \`${context.sha.slice(0,7)}\` returned a score of **${score}%**`,
-              `(threshold: 85%).`,
-              ``,
-              `**Counts**: total=${total}, dead=${dead}, timeout=${timeout}`,
-              ``,
-              `Top failing URLs (max 50):`,
-              '```',
-              failures,
-              '```',
-              ``,
-              `Full results: see workflow artifact \`url-liveness-${{ github.run_id }}\`.`,
-              ``,
-              `Action: run \`/property-deep-dive --update --validate-only\` locally to confirm and replace.`,
-            ].join('\n');
-            await github.rest.issues.create({
+            const counted = '${{ steps.check.outputs.counted }}';
+            const dead = '${{ steps.check.outputs.confirmed_dead }}';
+            const threshold = '${{ steps.check.outputs.threshold }}';
+
+            // Cap body to 60k chars (GH limit is 65,536); truncate from the middle of
+            // confirmed-dead listing if needed. report.md is normally well under this.
+            let body = report;
+            if (body.length > 60000) {
+              body = body.slice(0, 60000) + '\n\n…truncated. See workflow artifact `url-liveness-${{ github.run_id }}`.';
+            }
+
+            const title = `URL liveness: ${score}% (${dead} confirmed-dead of ${counted})`;
+
+            // Find existing open issue with the url-liveness label.
+            const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `URL liveness degraded — score ${score}%`,
-              body,
-              labels: ['maintenance', 'url-liveness'],
+              state: 'open',
+              labels: 'url-liveness',
+              per_page: 10,
             });
+
+            if (issues.length > 0) {
+              const existing = issues[0];
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                title,
+                body,
+              });
+              core.info(`Updated rolling issue #${existing.number}`);
+            } else {
+              const { data: created } = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['maintenance', 'url-liveness'],
+              });
+              core.info(`Opened rolling issue #${created.number}`);
+            }
