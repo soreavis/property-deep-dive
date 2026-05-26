@@ -197,6 +197,16 @@ jobs:
             const summary = `**${date}** — HIGH: ${process.env.HIGH} · MEDIUM: ${process.env.MEDIUM} · LOW: ${process.env.LOW} · STALE: ${process.env.STALE} · off-cadence A/B/C: ${process.env.OFF_A}/${process.env.OFF_B}/${process.env.OFF_C} · early-warning ⏱️${process.env.DECAY_WARN} 🟡${process.env.CADENCE_WARN}`;
 
             if (pinned) {
+              // Update the body so it always reflects the latest matrix
+              // (otherwise readers visiting the issue cold see the frozen
+              // first-run snapshot — bug surfaced 2026-05-26).
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pinned.number,
+                body: `${summary}\n\n${body}`,
+              });
+              // Append a comment as the month-over-month history log.
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
