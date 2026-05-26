@@ -48,15 +48,53 @@ purchase_price
 ```
 mortgage_P&I (computed from rate, term, principal)
 + property_tax (annual, from per-country playbook §tax)
-+ home_insurance (annual, from --insurance, ~0.15-0.30% insured value)
++ home_insurance — building + contents (annual, from --insurance; ~0.15-0.30% of rebuild value for standard
+   peril; non-standard perils — flood / cyclone / earthquake / subsidence — may add 30-200% via national pool
+   surcharge OR fail underwriting entirely on cliff-risk addresses; cross-link to --insurance § Insurability
+   cliff + --climate hazard layer; non-owner-occupied uplift if rented out; see shared/scams-postcompletion.md
+   for absentee-owner policy-void traps)
 + maintenance_capex (1-2% of property value/year, real)
 + utility_costs (heating, electric, water — varies wildly by country)
-+ HOA_fees / condominium_dues (where applicable, ~1-3% of price/year for apartments)
++ HOA_fees / condominium_dues / strata_levies (where applicable, ~1-3% of price/year for apartments)
+   ⚠️ Reserve-fund-health flag — pull the sinking-fund / capital-reserve balance + the last 3 years of
+   special-levy history from the AGM minutes BEFORE offer (jurisdiction-specific reserve regimes: AU-NSW
+   capital-works fund + mandatory 10-year plan, US FL SIRS every 10y, ON every 3y, BC every 5y, FR fonds de
+   travaux + DTG buildings >15y, IT fondo speciale per-works — see shared/property-management.md and
+   shared/property-types.md § Apartment-vs-house reserve fund). Under-funded reserve → expect special-levy
+   shock of 10-100% of one year's dues within 5 years; surfaces as an unbudgeted line that breaks the TCO.
++ country_specific_recurring (see § B.1 — e.g. MX fideicomiso annual fee in Restricted Zone, HK government
+   rent, GB ground rent, AE service charge, JP 修繕積立金, SG MCST sinking fund, FR THRS second-home tax)
 + rental_management_fees (if rental investment, 8-15% of gross rent)
 + rental_income_tax (if rental, see per-country --tax)
 - rental_income (if rental, see per-country --rental)
 = ANNUAL_NET_CASH_FLOW
 ```
+
+### B.1 Country-specific recurring lines (foreign-buyer trap registry)
+
+Recurring TCO lines that don't fit the universal `property_tax + insurance + HOA` shape and routinely
+break a foreign buyer's 30-year model when missed at offer. Pull figures from the country playbook, not
+from this table — these are pointers, not authoritative rates. All figures `est.` order-of-magnitude.
+
+| Country / scope | Line | Typical band | Trigger | Cross-ref |
+|---|---|---|---|---|
+| **MX** Restricted Zone (50 km coast / 100 km border) | **Fideicomiso annual fee** | USD 350-1,000 / year | Constitutional Art. 27 — foreign ownership in Restricted Zone is held via a bank trust; ~50-year renewable term; one-off setup USD 2,000-3,000 | `countries/mx/playbook.md` § Foreign-buyer fideicomiso |
+| **GB (E&W)** pre-2022 leasehold flats | **Ground rent** | £0-500 / year (peppercorn on post-30 Jun 2022 long leases per LRGRA 2022) — pre-2022 doubling / RPI clauses can spiral | Lease clause; LFRA 2024 marriage-value abolition **NOT commenced as of May 2026** — do not assume it is gone | `shared/property-types.md` § GB (England & Wales) leasehold |
+| **HK** | **Government rent** | 3% of rateable value / year | Most post-1985 / extended Government leases; Cap. 648 Extension Ordinance in force 5 Jul 2024 carries the same 3% on extension | `shared/property-types.md` § HK |
+| **SG** | **MCST management + sinking fund** | SGD 250-800 / month typical condo | Building Maintenance and Strata Management Act — mandatory MCST levy split between operating and sinking fund | `shared/property-types.md` § SG |
+| **AE Dubai / Abu Dhabi** | **Service charge** | AED 8-30 per sq ft / year (Dubai DLD Service Charge Index published annually) | Master-developer / community service charges + cooling DEWA-district + chiller; volatility on handover years | `shared/property-types.md` § AE |
+| **JP** | **Kanrihi 管理費 + Shuzenseki tsumitatekin 修繕積立金** | ¥15,000-40,000 / month combined (apartment) | Management fee + long-term-repair sinking-fund contribution; *tsumitatekin* re-priced upward on the 30-yr 大規模修繕 cycle — model the ramp, not the year-1 figure | `countries/jp/playbook.md` |
+| **CH** | **Eigenmietwert** (imputed rental income tax) | Variable — assessed % of imputed rent added to taxable income | Federal popular vote of 28 Sept 2025 ABOLISHED Eigenmietwert effective **1 Jan 2029** — model both pre- and post-2029 scenarios | `shared/home-tax.md` § CH |
+| **FR** second homes | **Taxe d'habitation sur les résidences secondaires (THRS)** | €500-3,000 / year (commune-set; major-city surcharge up to 60%) | THRS retained for second homes (general THR abolished 2023); 1,461 communes can levy a 5-60% **majoration** under CGI Art. 1407 ter; surcharge **applied by default in zones tendues** (zones tendues décret list — verify per commune) | `countries/fr/playbook.md` § tax |
+| **IT** | **TARI** (waste tax) + **TASI residual** | €150-500 / year typical apartment | Comune-set on m² + occupants; primary residence often exempt from IMU but TARI applies regardless | `countries/it/playbook.md` § tax |
+| **ES** | **IBI catastral revaluation shock** | 10-30% jump on revaluation year | IBI based on *valor catastral*; revaluations can lag a decade then jump in one cycle — surprise post-completion line | `countries/es/playbook.md` § tax |
+| **US** CA / FL / LA | **Insurance non-renewal premium** | 50-300% above national average, OR market-of-last-resort (FAIR Plan / Citizens) | Climate-driven carrier withdrawal; CA FAIR Plan + FL Citizens + LA Citizens are state-backed last-resort pools — explicit cost-band uplift, not implicit | `shared/insurance.md` § Insurability cliff |
+| **AU** any apartment | **Special levy on capital-works shortfall** | AUD 5,000-100,000+ lump-sum | Sch 1 SSMA 2015 — owners-corp can pass a special levy by ordinary resolution; binds all lots; flammable-cladding rectification + concrete-cancer + waterproofing are recurring drivers | `shared/property-management.md` § AU-NSW |
+| **PH / TH / ID** apartment / villa | **Common-area dues + sinking fund** | Variable | Condominium Act (PH) / juristic-person fee (TH) / IPL (ID) — verify rate and reserve-balance at AGM minutes; lower transparency than CH/AU/SG strata regimes | per-country playbook |
+
+These lines are **separate from the universal schema** — model each as its own row in the 30-year cash-flow
+table, not folded into `HOA_fees`. The MX fideicomiso and CH Eigenmietwert are the highest-impact recurring
+lines specific to foreign-buyer / non-foreign-buyer asymmetry: each can shift the TCO by 5-15% over 30 years.
 
 ### C. Sale costs at year N
 
@@ -102,10 +140,11 @@ hold_period_years: 30
 **Annual operating** (year 1):
 - Mortgage P&I (€116k loan, 3.5% fixed, 25y): ~€7,000/yr
 - Taxe foncière (Adriers commune-typical): ~€500/yr
-- Assurance habitation (Catnat 20% surcharge from Jan 2025): ~€450/yr
+- Assurance habitation — building + contents incl. Catnat surcharge 12 → 20% on 1 Jan 2025 (verify primary arrêté): ~€450/yr
 - Maintenance (1.5% of price): ~€2,200/yr
 - Utilities (rural, oil/wood heating): ~€1,800/yr
-- = **~€11,950/yr**
+- THRS (second-home — N/A for primary residence; would add €0-1,500/yr if second home in a zone tendue commune)
+- = **~€11,950/yr** (primary residence)
 
 **Year 30 cumulative (nominal)**:
 - Initial: €162,500
@@ -167,4 +206,4 @@ This is a calculator pattern — the values come from per-country playbooks. The
 
 ## Status
 
-Last refreshed: 2026-04-26.
+Last refreshed: 2026-05-26.
