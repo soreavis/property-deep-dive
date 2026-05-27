@@ -557,15 +557,21 @@ For most international buyers, the actionable foreign-buyer routes are:
 
 > **Verification**: any serious enquiry should start with a **conditional opinion from a Maldives-bar attorney + tax advisor (e.g., S&A Lawyers, CTL Strategies, Crowe Maldives, Nasheed & Co)** — the regulatory environment evolves on Tourism Act amendments + Cabinet decisions, and post-2019 freehold-repeal precedent is now mature but enforcement specifics differ at island level.
 
-### Visa pathways — NO golden visa
+### Visa pathways — GMI / Investor Visa (launched 1 July 2025)
 
-⚠️ **Maldives has NO residency-by-investment / citizenship-by-investment programme tied to real-estate or business**. Property leasehold acquisition does NOT confer any additional visa right. Foreign nationals qualify under:
-
-- **Employment Approval (EA)** — sponsored by Maldivian employer; sector-specific quotas
-- **Business Visa / Work Permit** — case-by-case
-- **Visit Visa** — 30-day on arrival (free for most nationalities); extendable
-- **Citizenship by naturalisation**: 12-year residence + **Sunni Muslim faith** (constitutional citizenship requirement); single citizenship only — **renunciation of prior citizenship required**
-- **Spousal route**: marriage to Maldivian citizen + naturalisation (subject to Muslim-faith requirement)
+- **Maldives Investor Visa (GMI)** — launched **1 July 2025** by Government of Maldives in partnership with Henley & Partners under President Muizzu's Vision 2040.
+  - **Investment threshold**: **USD 250,000 minimum** into government-approved real-estate projects (luxury residential / resort developments). Qualifying investment is into a **leasehold interest** in approved developments — Article 251 leasehold-only regime preserved (NOT freehold).
+  - **Visa term**: **5 years renewable**.
+  - **Family inclusion**: spouse, children, parents, grandparents.
+  - **Residency requirement**: NONE (no physical presence).
+  - (2026-05-27 verified, source IMI Daily + Henley & Partners + Imperial Legal + Savory & Partners.)
+- **SEZ Act First Amendment (Act 18/2025)** — ratified by President Muizzu **10 November 2025**: new thresholds **USD 100M minimum** for standard SEZ investments; **USD 500M minimum** for new "sustainable township" SEZ designation. Does NOT alter the constitutional Article 251 freehold ban — SEZ investments still operate under leasehold. (2026-05-27 verified, source President's Office + Invest Maldives + MIRA Legislations.)
+- **Other pathways** (non-investment):
+  - **Employment Approval (EA)** — sponsored by Maldivian employer; sector-specific quotas
+  - **Business Visa / Work Permit** — case-by-case
+  - **Visit Visa** — 30-day on arrival (free for most nationalities); extendable
+  - **Citizenship by naturalisation**: 12-year residence + **Sunni Muslim faith** (constitutional citizenship requirement); single citizenship only — **renunciation of prior citizenship required**
+  - **Spousal route**: marriage to Maldivian citizen + naturalisation (subject to Muslim-faith requirement)
 
 ### Tax residency
 

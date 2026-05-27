@@ -109,8 +109,22 @@ ISO2: `me`. Status: ✅ Fully populated (researched 2026-04).
 ### VAT (PDV)
 
 - **21% standard**; first-sale residential subject to 21% VAT in lieu of RETT (NOT a reduced rate)
+- **15% reduced bracket** (eff **1 Jan 2025**) for hotel/resort accommodation, restaurant food + non-alcoholic non-sugary drinks (excl. coffee), and books/serial publications — **material for short-let yield modelling** *(2026-05-27 verified, source KPMG ME Tax Alert Oct 2024 + Eurofast Tax Card 2025)*
+- **7% reduced** narrowed to essentials (basic food, medicines, drinking water, baby diapers, menstrual products, textbooks); **0%** export carve-out
 - New build: 21% VAT included in price
 - Resale: subject to RETT, not VAT
+
+### Personal income tax (PIT) — Porez na dohodak fizičkih lica
+
+Salary (gross/month) brackets effective since 1 Jan 2022 (Europe Now I), unchanged through 2026:
+
+| Salary | Rate |
+|---|---:|
+| Up to €700 | **0%** |
+| €700.01–€1,000 | **9%** |
+| Above €1,000 | **15%** |
+
+Plus **municipal surtax (prirez)** ~13% of PIT due → effective top rate ~17%. Passive personal income (rental, dividends, royalties, capital gains) → flat **15% PIT**. *(2026-05-27 verified, source PwC Tax Summaries ME)*
 
 ### Capital gains
 
@@ -155,7 +169,7 @@ ISO2: `me`. Status: ✅ Fully populated (researched 2026-04).
 #### Rental income tax
 
 - **15% net PIT**
-- Penalty: **€1,340–€13,400** (2-20× minimum wage; min wage €670 June 2025)
+- Penalty: **€1,200–€16,000** (2-20× minimum wage; Europe Now 2 minimum wage €600 low-qualification / €800 high-qualification, eff 1 October 2024 — verify statutory base for penalty multiplier)
 
 ### Tax on rental
 
@@ -279,11 +293,12 @@ ISO2: `me`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Active fiscal incentives + visa programs (2025-2026)
 
-### Investor residency (NEW Jan 2026)
+### Investor residency (effective 17 January 2026)
 
 - **Replaces abolished CBI Programme** (CBI ended **31 Dec 2022** — historical only)
-- **€150k minimum property purchase**
-- Path: 1-year temp permit (annually renewable) → permanent after 5 years → citizenship after 10 years
+- **€150k minimum property purchase** (amendments to Zakon o strancima adopted by Parliament on the final day of 2025; entered into force **17 January 2026**)
+- Grandfathering: foreigners holding property-based residency before 17 Jan 2026 retain rights without meeting the €150k threshold
+- Path (per IMI/ADRIAcom reading; verify against consolidated Zakon o strancima + Zakon o crnogorskom državljanstvu): 1-year temp permit (annually renewable) → permanent after 5 years → citizenship after 10 years *(2026-05-27 verified, source IMI Daily + Monte.business; statute citation pending consolidated text from mup.gov.me)*
 
 ### Other
 
@@ -300,10 +315,11 @@ ISO2: `me`. Status: ✅ Fully populated (researched 2026-04).
 
 - **EUR informally adopted 2002** — no central-bank issues currency; UNIQUE in Europe; **no FX risk** for EUR holders
 - **CBI Programme ABOLISHED 31 Dec 2022** (was EUR 250k+ minimum) — major historical reference
-- **NEW Jan 2026 investor residency** (€150k property → 5 years to permanent → 10 to citizenship)
+- **NEW investor residency (effective 17 January 2026)** (€150k property → 5 years to permanent → 10 to citizenship)
 - **Progressive RETT since 1 Jan 2024**: 3% / 5% / 6% (not flat 3% as previously)
-- **VAT 21% on first-sale residential** (in lieu of RETT, NOT reduced)
-- **Foreign-buyer freedom**: relatively open (no reciprocity rules like HR/RS)
+- **VAT restructure (eff 1 Jan 2025)**: new **15% bracket** added (hotels/restaurants/books); 21% standard; 7% essentials-only; 21% on first-sale residential remains in lieu of RETT
+- **Europe Now 2 (eff 1 October 2024)**: minimum wage raised to **€600** (low qualification) / **€800** (high qualification); employee pension-and-disability contribution cut 15% → 10%; employer pension-and-disability contribution eliminated (was 5.5%)
+- **Foreign-buyer rules** (Zakon o svojinsko-pravnim odnosima): foreign natural persons CANNOT own agricultural land, forests, or forest land. **Exception**: up to **5,000 m²** of such restricted land may be acquired if a residential building is on it and the transfer agreement covers residence + adjoining land. **Workaround**: incorporate a Montenegrin **d.o.o.** (domestic legal entity faces no restriction) — the dominant vehicle for agricultural/coastal portfolio buyers *(2026-05-27 verified, source Chambers Real Estate 2025 ME)*
 - **Russian buyer concentration post-2022** + EU buyer surge
 - **Coastal vs mountain divergence**: Adriatic 5-10× inland prices
 - **UNESCO Old Towns** (Kotor, Cetinje) — strict construction, premium scarcity
@@ -346,9 +362,25 @@ ISO2: `me`. Status: ✅ Fully populated (researched 2026-04).
 | ZZZCG | `https://www.zzzcg.me/` |
 | Poreska uprava CG | `https://www.poreskauprava.gov.me/` |
 
+## Statutes
+
+| Statute | Topic |
+|---|---|
+| **Zakon o svojinsko-pravnim odnosima** | Ownership, etažna svojina, hipoteka, foreign-buyer agricultural-land restriction |
+| **Zakon o državnom premjeru i katastru nepokretnosti** | Cadastre / list nepokretnosti / UzN |
+| **Zakon o porezu na promet nepokretnosti** | RETT — progressive 3/5/6% since 1 Jan 2024 |
+| **Zakon o porezu na nepokretnosti** | Annual property tax 0.25–1.0% (municipal) |
+| **Zakon o porezu na dohodak fizičkih lica** | PIT — Europe Now I (Jan 2022) + Europe Now 2 (Oct 2024) |
+| **Zakon o porezu na dodatu vrijednost** | VAT — Jan 2025 restructure (21/15/7/0) |
+| **Zakon o strancima** | Foreigner law — investor residency 17 Jan 2026 €150k |
+| **Zakon o crnogorskom državljanstvu** | CBI program (abolished 31 Dec 2022) |
+| **Zakon o turizmu i ugostiteljstvu** | Short-let classification + municipal registration |
+
+(Sl. list CG issue numbers omitted pending primary-statute lookup — verify before quoting in transaction documents.)
+
 ## Status
 
-✅ **Fully populated** as of 2026-04-26.
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27.
 **Coverage check**: pricing (MONSTAT Q3 2025 + CBCG + Realitica), traffic (Putevi PGDS), tax (porez na nepokretnost 0.25-1.0% + progressive RETT 3/5/6% since Jan 2024 + 21% VAT first-sale + 15% CGT), rental (Opština license + tourist tax + 15% PIT), work (ZZZCG), risks (1979 Adriatic M6.9 + Mediterranean wildfire + karst), mains (ViK per municipality).
 **Confidence**: HIGH for EUR informal adoption 2002 (no central-bank issuance UNIQUE); HIGH for progressive RETT 3/5/6% effective 1 Jan 2024; HIGH for CBI abolition 31 Dec 2022 + NEW Jan 2026 investor residency €150k; HIGH for cadastre URLs (gov.me/uzn + ekatastar.me); MEDIUM for MerkaturNekretnine listing platform (could not independently verify); MEDIUM for 21% VAT first-sale framing (in lieu of RETT, not reduced rate).
 

@@ -206,6 +206,13 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 - **VAT**: short-let / tourism accommodation typically **VAT-applicable at 15%** if turnover crosses the SCR 2M registration threshold (effective 1 Jan 2025)
 - **Seychelles Pension Fund** + **Tourism Marketing Tax**: licensed tourism operators face additional levies — verify with SLA + SRC
 
+### Tourism Environmental Sustainability Levy (TESL)
+
+- **Effective 1 Aug 2023**: per-pax-per-night levy on licensed tourism accommodation — **small (1–24 rooms) SCR 25**; medium (25–50 rooms) SCR 75; large (51+ rooms) + yachts SCR 100. Levy charged on invoice, NOT advertised price
+- **Effective 1 Jan 2026**: small establishments (1–24 rooms) **NO LONGER subject to levy** — yield-positive for foreign-owned villas (Eden Island apartments + typical Mahé/Praslin/La Digue villa lets all fall in the 1–24 room band)
+- Source: Tourism Seychelles + see `shared/regulatory-watch.md` SC entry 2026-01-01
+- **Practical**: levy savings on a typical 2-bed villa at ~60 % occupancy with 2 pax average ≈ SCR 4,500–9,000/yr — material on a USD 30k–60k gross *(2026-05-27 verified, source Tourism Seychelles + regwatch L525)*
+
 ### Realistic configuration
 
 | Option | Year-3 gross (USD est.) | Notes |
@@ -490,7 +497,7 @@ Universal — see `shared/climate-projections.md`. Seychelles-specific override:
 
 Seychelles' **sanction regime** is the gating control on all non-Seychellois acquisitions of immovable property or rights therein.
 
-- **Statute**: Immovable Property (Transfer Restriction) Act (Cap 95), as amended; consolidated text via SeyLII (`https://seylii.org/`)
+- **Statute**: Immovable Property (Transfer Restriction) Act (Cap 95), as amended (originating Act pre-1976; consolidated Cap 95; principal recent amendments **2011** + 2016 + 2018 moratorium + 2025-03-20 lift); consolidated text via SeyLII (`https://seylii.org/`)
 - **Approving body**: **Office of the Principal Secretary Lands, Ministry of Lands and Housing** (delegated to the **Seychelles Planning Authority — SPA** for operational guidance issuance)
 - **Coverage**: applies to **purchase, lease >1 year, hold-option-to-purchase, share transfers** of immovable-property-holding entities; covers residential + agricultural + commercial; tourism-investment carve-outs exist via SIB
 
@@ -667,7 +674,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 
 **Confidence**: MEDIUM — HIGH on the regulatory framework (SPA 20-Mar-2025 guidance is primary-source dated; SRC IPT 0.5% rate, 5% Stamp Duty, 12% Sanction Duty, residence-permit fees, GOP framework, PUC tariffs, Land Registration Act all confirmed against official .gov.sc + SeyLII / SRC / ICS / PUC primary sources). MEDIUM on price benchmarks (Seychelles publishes no equivalent of an IMSEE / STATEC / NHB Residex residential price index — sample-size-thin transaction volume + agency-listing reliance means USD price bands are `est.` cross-checked against Eden Island / RE/MAX / Sphere / Rightmove Overseas listings + Chambers Real Estate 2025 narrative; verify any specific deal via Land Registration Office search). MEDIUM on traffic (no public AADT database — modelled from OSM road class + agency anecdote). LOW on per-listing Eden Island unit pricing currentness (luxury-island product where headline figures move materially deal-to-deal — pull current asking from the Eden Island portal at point of analysis).
 
-**Last verified**: 2026-05-07
+**Last verified**: 2026-05-27
 
 **Researched by**: Opus 4.7 (1M context, parallel-subagent batch 2026-05)
 

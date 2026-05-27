@@ -113,18 +113,29 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 
 **VAT 17%** = lowest in Europe (one of); applies to first-sale new builds only
 
-### 2024 VAT refund reform (FBiH)
+### 2024 VAT refund reform (BiH state-level — not FBiH-only)
 
-- **First-time buyers** can refund **17% VAT** on new residential up to **40 m² (+15 m² per household member)**
-- Adopted FBiH House of Representatives late 2024
-- Major Sarajevo + Mostar construction boost
+- **Status as of 2026-05-27**: passed by BiH Parliamentary Assembly **lower house (Predstavnički dom) 22 October 2024** — **NOT yet confirmed in force**. Upper house (Dom naroda) ratification + UINO implementing pravilnik required before refund claims are accepted in practice. Verify status: [UINO VAT refund](https://www.uino.gov.ba/portal/en/vat/vat-refund/) + Sarajevo Times tracker *(2026-05-27 verified, source KPMG TaxNewsFlash + VATupdate + SEESrpska + UINO)*
+- **Scope (if/when enacted)**: state-level (covers FBiH + RS + Brčko), **not FBiH-only**. Adult BiH-resident first-time buyer of newly built individual housing or unit in a collective building; **40 m² for buyer + 15 m² per household member at 17 % VAT**
+- Major Sarajevo + Mostar construction boost expected once rulebook lands
 
-### Capital gains — DUAL ENTITY DIFFERENCE
+### Personal income tax (PIT) — flat, by entity
 
-| Entity | CGT |
+| Entity | PIT rate |
+|---|---:|
+| **FBiH** | **10%** flat (Zakon o porezu na dohodak FBiH, Sl. novine FBiH 10/08 +) |
+| **RS entity** | **8%** flat (Zakon o porezu na dohodak RS, Sl. glasnik RS 60/15 +) |
+| **Brčko District** | **10%** flat |
+
+Personal allowances differ significantly across entities — RS + Brčko materially higher than FBiH. Small entrepreneurs: 2% of annual revenue. *(2026-05-27 verified, source PwC BA Individual — taxes on personal income, last reviewed 19 Feb 2026)*
+
+### Capital gains — DUAL ENTITY DIFFERENCE (cross-source conflict)
+
+| Entity | CGT (individuals) |
 |---|---|
-| **FBiH** | **NOT taxable for individuals** (UNIQUE) |
-| **RS entity** | **13%** |
+| **FBiH** | **NOT taxable** per PwC Tax Summaries 2026 + Eurofast Tax Card 2025; **CMS Expert Guide 2021** cites 10 % with primary-residence + 3-yr-hold exemptions — CMS is stale (2021) and pre-dates 2016 PIT reforms. **Using PwC/Eurofast 2026 position; verify with Porezna uprava FBiH** before transacting *(2026-05-27 source-conflict surfaced per anti-hallucination contract)* |
+| **RS entity** | **13%** (per PwC + Eurofast; Zakon o porezu na dohodak RS) |
+| **Brčko District** | Verify with Brčko Direkcija za finansije / Poreska uprava BD |
 
 ### Total transaction cost (buyer side)
 
@@ -155,8 +166,8 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Tax on rental
 
-- Resident: marginal income tax
-- Non-resident: 10% withholding (FBiH) / 13% (RS entity)
+- Resident: flat PIT — **FBiH 10% / RS 8% / Brčko 10%** (NOT progressive — see PIT table above)
+- Non-resident: verify treaty + withholding-schedule per entity at fmf.gov.ba / mf.vladars.net
 
 ---
 
@@ -288,7 +299,7 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 ## Caveats unique to BA
 
 - **DUAL-ENTITY STATE**: FBiH vs RS entity have **different cadastres, different taxes, different laws** — must specify entity throughout DD
-- **Brčko District** separate (less digitized)
+- **Brčko District** separate (own cadastre at [Vlada Brčko Distrikta](https://www.bdcentral.net/)); **annual property tax 0.05 % – 1 %** of market value, adopted annually by District Assembly; separate Direkcija za finansije BD + Poreska uprava BD authority *(2026-05-27 verified, source PwC BA Individual — other taxes)*
 - **Currency BAM** pegged to EUR 1.95583 via currency board (1998+) — extremely stable
 - **17% VAT** = lowest in Europe
 - **FBiH transfer tax 0.05-5%** (cantonal) vs **RS entity NO transfer tax (0%)** — major divergence
@@ -296,11 +307,11 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 - **Mine contamination from Yugoslav Wars 1992-1995** — verify BHMAC for rural properties
 - **2014 floods** Sava + Bosna rivers (massive event)
 - **EU candidate Dec 2022** — slow reform pace
-- **2024 VAT refund** for FBiH first-time buyers (40 m² + 15 m² per family member)
+- **2024 VAT refund**: BiH state-level (covers FBiH + RS + Brčko) — passed by **Predstavnički dom 22 Oct 2024**; upper-house ratification + UINO rulebook still pending as of 2026-05; 40 m² + 15 m² per family member at 17 % VAT *(not "FBiH House" — state-level under uino.gov.ba)*
 - **2025 EU-aligned reforms** programme adopted
 - **Banja Luka 1969** earthquake reference (M6.6)
 - **Mostar UNESCO** Old Bridge area = strict construction
-- **Foreign-buyer freedom**: relatively open (no reciprocity barriers)
+- **Foreign-buyer regime is RECIPROCITY-BASED** under **Zakon o stvarnim pravima FBiH (Sl. novine FBiH 66/13, 100/13)** + RS counterpart. FBiH Ministry of Justice publishes a **no-reciprocity list annually by 31 January** (reciprocity is presumed unless that list says otherwise; most OECD countries are fine). **Arable land + protected nature areas barred regardless** of reciprocity for foreign natural persons. **Inheritance** is excepted — foreigners inherit on equal footing with BiH citizens. **Workaround**: incorporate a BA **d.o.o.** (domestic legal entity, not subject to reciprocity test) *(2026-05-27 verified, source DLA Piper REALWORLD + Multilaw + Prnjavorac reciprocity list)*
 - **Sarajevo Stari Grad** UNESCO buffer
 - **War-damaged properties** require careful inspection
 
@@ -339,7 +350,8 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 
 ✅ **Fully populated** as of 2026-04-26.
 **Coverage check**: pricing (CBBH + BHAS + GPG 2024-2025), traffic (entity divisions), tax (DUAL ENTITY: FBiH BAM 0.5-3/m² + 0.05-5% transfer + 17% VAT first-sale + CGT NOT TAXABLE individuals; RS entity 0.2% market value + 0% transfer + 17% VAT + 13% CGT), rental (entity-specific), work (entity-specific), risks (Banja Luka 1969 + 2014 Sava+Bosna floods + BHMAC mine contamination + war-damage), mains.
-**Confidence**: HIGH for BAM-EUR peg 1.95583 currency board; HIGH for entity divergence (FBiH vs RS taxes); HIGH for mine contamination as ongoing diligence concern; HIGH for 2024 VAT refund reform; MEDIUM for "Russian buyer ban" claims (could not verify English-language source); MEDIUM for cantonal transfer tax 0.05-5% (varies by canton).
+**Last verified**: 2026-05-27.
+**Confidence**: HIGH for BAM-EUR peg 1.95583 currency board; HIGH for entity divergence (FBiH 10 % / RS 8 % / Brčko 10 % PIT; FBiH cantonal transfer tax / RS no transfer tax); HIGH for mine contamination as ongoing diligence concern; HIGH for reciprocity regime under Zakon o stvarnim pravima FBiH + arable-land bar + d.o.o. workaround; MEDIUM for 2024 VAT refund reform (lower-house passed 22 Oct 2024; upper house + UINO rulebook pending); MEDIUM for FBiH CGT (PwC/Eurofast not-taxable vs CMS 2021 10 % — primary statute verification needed); MEDIUM for FBiH cantonal transfer tax 0.05–5 % floor; MEDIUM for Brčko property tax 0.05–1 % (PwC source — verify primary at bdcentral.net).
 
 ## Extension TODOs
 

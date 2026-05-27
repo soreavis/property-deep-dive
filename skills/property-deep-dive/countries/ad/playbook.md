@@ -100,15 +100,18 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Transaction taxes — ITP
 
-- **4% total** on resale, split: **1.5% Govern + 2.5% Comú** (Comú tranche varies marginally — confirm with target parish)
-- Buyer pays ITP at *escripturació*. Ref: [Llei 5/2014 IRPF + ITP framework](https://www.bopa.ad/) — verify amendments before closing
+- **~4% total** on resale, split per Llei 1229/2000 art. 8: **1% Govern (state, art. 8.1)** + **0.50–3% Comú (parish-set per ordinació comunal, art. 8.2)**. Most parishes have set 3%, so the typical headline total is **1% + 3% = 4%** — but **confirm with target Comú** (some parishes lower). (2026-05-27 verified, source [portaljuridicandorra.ad/L20001229B_11](https://portaljuridicandorra.ad/L20001229B_11).)
+- Buyer pays ITP at *escripturació*. Ref: [Llei sobre l'Impost sobre Transmissions Patrimonials Immobiliàries del 29 desembre 2000](https://portaljuridicandorra.ad/L20001229B_11) — verify amendments before closing.
 
-### NEW non-resident foreign-investor surcharge — Llei 3/2024
+### IEI — Impost sobre l'inversió estrangera en immobles (Llei 3/2024 + Llei 5/2025 "Llei Òmnibus")
 
-- **Llei 3/2024 del 29 de febrer** ([BOPA](https://www.bopa.ad/Documents/Detall?doc=CGL20240229_10_15_22)) introduced an **additional RE tax** on non-residents, layered on top of ITP
-- Progressive: low single-digit % on first slice → up to **~10%** at top tranche; multi-unit / beyond-personal-use surcharges
-- ⚠️ Bands adjusted multiple times in 2024 — treat headline 10% as *est. ceiling; verify current rate at* [tributs.ad](https://www.tributs.ad/) *+ BOPA before any non-resident purchase*
-- Combined ITP + surcharge: **non-resident acquisition tax can reach ~14%** of price in upper tranche
+- **Llei 3/2024 del 29 de febrer** introduced an **additional RE tax** on non-residents. **Llei 5/2025 del 6 de març ("Llei Òmnibus", BOPA 26 March 2025, EIF 16 April 2025)** replaced the prior progressive scale with a **two-tier**:
+  - **6%** for first property (single home / apartment / studio + permitted annexes per personal-use threshold)
+  - **10%** for additional properties beyond the first
+- **Foreign-investor property cap (Llei 5/2025)**: max **1 single-family home** OR **2 apartments/studios + 3 storage units + 3 parking spaces per unit** (or 6 parking + 1 commercial unit alternative). Exception for 10-year affordable-rental commitments.
+- Combined ITP + IEI: **non-resident acquisition tax floor ~10%** on first property (4% ITP + 6% IEI); **~14% on each additional** (4% + 10%). Verify current rate at [tributs.ad](https://www.tributs.ad/) + Govern d'Andorra BOPA before any non-resident purchase. (2026-05-27 verified, source [Llei 5/2025 — leslleis](https://www.leslleis.com/L2025005) + Cases & Lacambra.)
+- **Authorisation silence rule** (Llei 3/2024 disposició final quarta): the prior **positive silence** under Llei 10/2012 art. 18.3 became **negative silence** — if Govern fails to expressly resolve within 2 months (+ possible extension), the foreign-investment authorisation is **deemed DENIED**, not granted. Build hard timeline pads + escalation contact at Servei d'Immigració. (2026-05-27 verified, source Augé Legal & Fiscal.)
+- **Llei 2/2026 del 22 de gener ("Omnibus 2")** further tightened residency parameters — verify current values at BOPA before relying.
 
 ### VAT — IGI (Impost General Indirecte)
 
@@ -416,9 +419,9 @@ Universal logic per `shared/visa-programs.md`. Andorra-specific:
 
 ### Residència Passiva (sense activitat lucrativa)
 
-- [Llei 9/2012 d'inversions estrangeres + Reglament](https://www.bopa.ad/), reformed 2022 + 2024
-- **Investment required**: **€600,000+ in Andorran assets** (RE, public debt, shares, deposits, life insurance); within that, ≥**€400,000** can be in Andorran RE — remainder must diversify into local financial assets
-- **Plus mandatory non-interest-bearing AFA deposit**: ~**€47,500 holder + €9,500/dependent** (2024 figures — *verify current at* [AFA residences](https://www.afa.ad/))
+- [Llei 9/2012 d'inversions estrangeres + Reglament](https://www.bopa.ad/), reformed 2022 + 2024 + **Llei 5/2025 ("Llei Òmnibus", eff. 16 April 2025)** + **Llei 2/2026 del 22 de gener ("Omnibus 2")**.
+- **Investment required**: **€600,000 (pre-2025)** → **€800,000 (Llei 5/2025, eff. 16 April 2025)** → **possibly €1,000,000 (Llei 2/2026, eff. early 2026)** in Andorran assets (RE, public debt, shares, deposits, life insurance); within that, qualifying share can be in Andorran RE — remainder diversified into local financial assets. *Verify current floor at [immigracio.ad](https://www.immigracio.ad/) before relying.* (2026-05-27 verified, source carlotapastora + Cases & Lacambra + Advantia on Omnibus 2.)
+- **AFA deposit restructure (post-Llei 5/2025)**: principal-holder portion split into **€30,000 NON-REIMBURSABLE state contribution + €20,000 AFA deposit (refundable)**. Each dependant: **€6,000 non-reimbursable + €6,000 refundable**. The non-refundable portion is sunk cost — model as such in retirement / digital-nomad NPV. (2026-05-27 verified, source Altaveu + carlotapastora.)
 - Permit: 1-year initial → 3 + 3 + 7y renewals
 - **Residency obligation**: ≥**90 days/year** physical presence (passive — no work)
 - Tax-residence triggered separately at >183 days physical presence

@@ -102,15 +102,23 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Transaction taxes
 
-- **Porez na prenos apsolutnih prava** (transfer): **2.5%** on resale
-- **PDV (VAT)**: **20%** standard; **10% on first-sale residential** (and replaces transfer tax)
+- **Porez na prenos apsolutnih prava** (transfer): **2.5%** on resale. **Seller is statutorily liable**; contracts routinely shift to buyer — read the ugovor carefully *(2026-05-27 verified, source PwC Tax Summaries + CMS)*
+- **First-apartment exemption** (transfer tax): adult RS citizen with permanent residence, first apartment ≤40 m² → exempt from 2.5 % transfer tax; +15 m² per qualifying family member who hasn't owned since 1 July 2006. Above the cap, tax due on excess area only.
+- **PDV (VAT)**: **20%** standard; **10% on first-sale residential** (replaces transfer tax). Refund mechanism: first-time buyer up to 40 m² + 15 m² per family member who hasn't owned since 1 July 2006.
 - **Notary fees**: ~0.5–1.0% of price
 - **Cadastre registration**: ~0.3%
 
+### Personal income tax (PIT) framework
+
+- **Employment income**: 10% flat (after monthly non-taxable cap RSD 34,221 for 2025).
+- **Annual PIT top-up (synthetic on global net)**: **10% up to RSD 9,749,016** (~6× average annual salary); **15% above** that threshold. Filing threshold 2025 net: RSD 5,439,096.
+- **Other categories** flat 10–20% (royalties 20%, capital gains 15%, rental 20% gross or 15% effective after 25% normative deduction). Young taxpayers <40 receive an extra allowance of RSD 5,439,096. *(2026-05-27 verified, source KPMG RS Annual PIT alert Feb 2026 + PwC Tax Summaries)*
+
 ### Capital gains
 
-- **15% PIT** on real-estate appreciation
+- **15% PIT** on real-estate appreciation (long-standing rate per Zakon o porezu na dohodak građana — Sl. glasnik RS; no 2024 rate change verified)
 - **Exempt after 10-year holding** (CRITICAL)
+- **Also exempt**: sale of primary residence; reinvestment of proceeds in housing within 90 days; inheritance, spousal transfer, first-line blood-relative transfer, divorce *(2026-05-27 verified, source PwC Tax Summaries + taxadvisorserbia)*
 
 ### Total transaction cost (buyer side)
 
@@ -141,7 +149,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Tax on rental
 
-- Resident: 20% effective (after 25% costs deduction = 15% on gross)
+- Resident: **effective 15% on gross rental** after the 25% normative-cost deduction (20% × 75% = 15%)
 - Non-resident: 20% withholding
 
 ---
@@ -277,6 +285,8 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 - **Currency RSD** managed float vs EUR
 - **Vojvodina autonomous province** has separate provincial regulations
 - **Kosovo property** disputed — separate jurisdictional issues
+- **Zakon o posebnim uslovima za evidentiranje i upis prava na nepokretnostima** (in force **24 October 2025**) — one-time legalizacija framework for ~2M unpermitted buildings (houses, apartments, commercial, extensions, garages). Filing window opened **8 December 2025** for ~60 days (closed ~February 2026; one-year grace possible for objective reasons). Authority: Agencija za prostorno planiranje i urbanizam RS → certifikat → RGZ priority registration. Cost €100–€1,000. **Post-24-Oct-2025 illegal construction is NOT eligible** — hard enforcement shift. Buyers of older non-cadastre-conform property inherit any failure to file by deadline *(2026-05-27 verified, source CT Legal + Lexology + VMT Attorneys)*
+- **RGZ digital-only filings** since 4 November 2023 — all cadastre applications routed via professional users (attorneys + licensed geodetic organisations); direct walk-in no longer possible *(2026-05-27 verified, source law-firm.rs + RGZ)*
 
 ## Reddit / forum sources
 
@@ -310,7 +320,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26.
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27.
 **Coverage check**: pricing (NBS + RZS + Investropa Q3-Q4 2025), traffic (JP Putevi PGDS), tax (porez na imovinu progressive 0.4-2% + 2.5% transfer + 20% VAT (10% first-sale residential) + 15% CGT 10-year exemption), rental (boravišna taksa + license), work (NSZ + Paušalna), risks (Kraljevo 2010 + 2014 Sava+Bosna floods + Belgrade winter PM2.5), mains (Belgrade vodovod + per-municipality).
 **Confidence**: HIGH for tax structure (PwC + Investropa confirm); HIGH for 2014 flood factual correction (Sava+Bosna not Drava); HIGH for 10-year CGT exemption; HIGH for foreign-buyer reciprocity rules; MEDIUM for "Vlasinsko zemljotres" zone naming (could not verify as official feature).
 

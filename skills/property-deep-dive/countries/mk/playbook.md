@@ -93,15 +93,16 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Transaction taxes
 
-- **Danok na promet (transfer)**: **2–4%** (set by municipality / Council of Skopje)
-- **DDV (VAT)**: **18% standard**; **5% reduced first-sale residential**
+- **Danok na promet (transfer)**: **2–4%** (set by municipality / Council of Skopje). **Statutorily owed by the SELLER** per finance.gov.mk § danoci-na-imot — buyer becomes the taxpayer **only if the sale contract (dogovor) explicitly stipulates so**. Default-silent contracts → seller pays. Read the dogovor carefully — a buyer modelling 3–5 % closing costs can be €2–4 k off on a €100 k flat if the contract is silent *(2026-05-27 verified, source finance.gov.mk + PwC Tax Summaries)*
+- **DDV (VAT)**: **18 % standard**; **5 % reduced on first sale of newly built residential** within 5 years of construction (mixed-use → proportional; commercial portion = 18 %). **Sunset 31 December 2028** (extended Dec 2025 from prior 31 Dec 2025 sunset — Parliament amendment to Zakon za DDV) *(2026-05-27 verified, source VATupdate + finance.gov.mk + KPMG TaxNewsFlash Jan 2026)*
 - **Notary fees**: ~0.5–1.0%
 - **Cadastre registration**: ~0.3%
 
 ### Capital gains
 
-- **10% PIT** (NOT 15% — common confusion); MK PIT is 10% flat
-- **Exempt if ≥5 years ownership** OR **≥3 years + ≥1 year residence**
+- **10 % PIT** (NOT 15 % — common confusion); MK PIT is 10 % flat. **Tax base = 90 % of the realised gain** (Zakon za danokot na licen dohod / PIT Law), so **effective rate is 9 % of the actual gain** *(2026-05-27 verified, source PwC Tax Summaries — income determination)*
+- 15 % rate applies only to gambling winnings, not real-estate gains
+- **Exempt if ≥5 years ownership** OR **≥3 years ownership + ≥1 year lived-in residence**
 
 ### Total transaction cost (buyer side)
 
@@ -132,7 +133,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Tax on rental
 
-- Resident: 10% PIT (after 30% costs deduction = 7% effective on gross)
+- Resident: **10 % PIT on net rental**, with **10 % standard deduction (unfurnished)** OR **15 % deduction (furnished)** per PwC Tax Summaries — income determination. Effective: **9 % of gross (unfurnished) / 8.5 % of gross (furnished)**. *(2026-05-27 verified — the 30 % deduction figure circulated for MK is actually Serbia's; MK is 10/15 %)*
 - Non-resident: 10% withholding
 
 ---
@@ -212,7 +213,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 | Document | Required because |
 |---|---|
 | **Energetski sertifikat** | Mandatory |
-| **Notar + dogovor** | Notarial deed |
+| **Notarski akt** (notarial act, constituting the dogovor za kupoprodajba per Zakon za notarijatot) | Mandatory; filed with AKN within 30 days of execution |
 | **Vlasnicki list (title sheet)** | AKN extract |
 
 ---
@@ -306,7 +307,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26.
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27.
 **Coverage check**: pricing (MAKSTAT + NBRSM Q4 2025 + FRED), traffic (JP roads PGDS), tax (Danok na imot 0.10-0.20% + 2-4% transfer + 18% VAT (5% first-sale residential) + 10% CGT 5-yr OR 3yr+1yr-resident exemption), rental (license + 10% PIT), work (AVRSM + 10% flat PIT), risks (1963 Skopje M6.1 catastrophic + 2016 floods + winter air quality), mains (Skopje vodovod + per-municipality).
 **Confidence**: HIGH for 1963 Skopje earthquake reference (1,070+ deaths, 80% destruction, Tange masterplan, 14k prefabs); HIGH for MKD-EUR peg 61.5; HIGH for CGT 10% (NOT 15%) with proper exemption rules; HIGH for AKN centralized cadastre; MEDIUM for IMF property tax recommendations (Feb 2025 Article IV); MEDIUM for "Skopje 2014" reconstruction controversy framing.
 

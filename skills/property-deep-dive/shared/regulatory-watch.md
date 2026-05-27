@@ -200,6 +200,18 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 - `2026-01-01 (in flight) | tax | Davek na nepremičnine (annual property tax) reform — replacing NUSZ; phased | MF SI | 2026-04-26 | 2026-09-01 | 2 | --tax`
 
+### 🇦🇱 AL
+
+- `2026-01-01 | tax | One-time property revaluation window — Law 85/2025 "Për rivlerësimin e pasurisë së paluajtshme"; 1 Jan 2026 – 31 Dec 2026; 5% on uplift between previous registered value and market value (newly built residential per Finance Min. Malaj clarification); material for sellers carrying low historical basis | HLB Albania + Albanian Daily News + Balkanweb + RTSH | 2026-05-27 | 2026-12-31 | 2 | --tax --exit --finance`
+- `2025-11-17 | macro | EU accession sprint — all 33 chapters opened by 17 Nov 2025 (Clusters 1-6 in 13 months); IBAR adopted by COELA 21 May 2026; target conclusion 2027 + membership 2030 (Commission estimate ~2029) | Consilium + European Western Balkans + Balkan Insight | 2026-05-27 | 2026-09-01 | 1 | --macro --finance --price`
+- `2026 (delayed) | macro | Vlora International Airport — PM Rama Dec 2025 statement pushed commissioning to mid-2026; certification pending, no summer-2026 flights scheduled, 2A Group shareholder dispute, extension request to September 2026 | SeeNews + Albanian Daily News + CAPA + Two Continents | 2026-05-27 | 2026-09-01 | 3 | --price --traffic`
+- `2024-XX-XX | tax | PIT progressive brackets (Law 29/2023) — 0% up to ALL 600k; 13% ALL 600k-3M; 23% above; flat-rate carve-outs (rental 15%, CGT 15%, dividends 8%) | tatime.gov.al + PwC | 2026-05-27 | 2026-12-01 | 2 | --tax`
+- `ongoing | foreign-buyer | Ligji 7980/1995 "Për shitblerjen e trojeve" — apartments OK; agricultural land prohibited (workaround Albanian Sh.p.k. company); construction land 3× rule; 200m coastal buffer | Investropa + Vivaview + Alba Legal | 2026-05-27 | 2027-01-01 | 1 | --visa --tax`
+- `2026-12-31 | visa | Strategic Investor Status (Statusi i Investitorit Strategjik) — Law on Strategic Investments 2015 (amended Jan 2025); ≥€5M tourism + 80 jobs; €1 state-land for up to 99 yrs; AIDA fast-track; deadline 31 Dec 2026 | Oracle Law Global + UNCTAD Investment Laws Navigator + US State 2025 ICS | 2026-05-27 | 2026-09-01 | 2 | --visa --tax`
+- `2025-11-01 | rental | Booking.com Albania VAT/NIPT rule — from 1 Nov 2025 hosts must declare NIPT or pay 20% VAT on platform commission; pre-DIVA pressure driving hosts onto NIPT or off Booking | Tiranapost + HLB Albania | 2026-05-27 | 2026-09-01 | 2 | --rental`
+- `2026-03-11 | rental | Council of Ministers Decision 153/2026 — accommodation-structure certification conditions for tourism beach stations | AlProfit Consult | 2026-05-27 | 2026-09-01 | 3 | --rental`
+- `2026-2030 | tax | Property-tax reform phased timeline — end-2026 fiscal cadastre integration; 2026-2027 transition; 2027 nationwide property assessment; 2028 market-based valuations + new rates; 2030 land-tax rollout; target lift property tax 0.3% → 1% of GDP by 2028 | Albanian Times + ALTAX + HLB | 2026-05-27 | 2027-01-01 | 2 | --tax`
+
 ### 🇭🇷 HR
 
 - `2023-01-01 | currency | Eurozone accession (HRK → EUR) | ECB | 2026-04-26 | 2027-01-01 | 1 | --currency --tax`
@@ -314,18 +326,29 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 ### 🇲🇪 ME
 
 - `2024-01-01 | tax | RETT made progressive 3% / 5% / 6% (replacing flat 3%) | MFA ME | 2026-04-26 | 2026-10-01 | 1 | --tax`
+- `2025-01-01 | tax | VAT restructure — new 15% reduced bracket added (hotels/restaurants/books); 21% standard unchanged; 7% essentials-only; 0% export | KPMG ME Tax Alert Oct 2024 + Eurofast Tax Card 2025 | 2026-05-27 | 2026-09-01 | 2 | --tax --rental`
+- `2024-10-01 | tax | Europe Now 2 — employee pension-and-disability contribution 15% → 10%; employer pension-and-disability contribution eliminated (was 5.5%); minimum wage €600 (low-qualification) / €800 (high-qualification) | China-CEE Institute briefing + Government of Montenegro | 2026-05-27 | 2026-09-01 | 2 | --rental --work`
+- `2026-01-17 | visa | Investor residency — amendments to Zakon o strancima (adopted Parliament 31 Dec 2025); €150k minimum property; 1-yr renewable temp → permanent after 5 yrs → citizenship after 10 yrs (verify path against consolidated Zakon o strancima + Zakon o crnogorskom državljanstvu); pre-2026 property-based residents grandfathered | IMI Daily + Monte.business | 2026-05-27 | 2026-08-01 | 1 | --visa`
 
 ### 🇲🇰 MK
 
-- `ongoing | tax | CGT 10% (NOT 15% — common error) with 5-yr OR 3yr+1yr-resident exemption | UJP | 2026-04-26 | 2026-10-01 | 1 | --tax`
+- `ongoing | tax | CGT 10% (NOT 15% — common error) with 5-yr OR 3yr+1yr-resident exemption; effective rate 9% of realised gain (90% tax base) | UJP + PwC | 2026-05-27 | 2026-10-01 | 1 | --tax`
+- `2025-12-XX | tax | 5% VAT first-sale residential extended to 31 December 2028 (was sunsetting 31 Dec 2025); applies within 5 yrs of construction; mixed-use proportional | Parliament amendment to Zakon za DDV + KPMG TaxNewsFlash Jan 2026 + VATupdate 27 Dec 2025 | 2026-05-27 | 2026-09-01 | 2 | --tax`
+- `ongoing | tax | Danok na promet (transfer tax) statutorily owed by SELLER per finance.gov.mk — buyer-pays clause must be EXPLICIT in the dogovor or seller pays; default-silent contracts can swing 2–4% (~€2–4k on €100k flat) | finance.gov.mk | 2026-05-27 | 2026-09-01 | 2 | --tax`
 
 ### 🇧🇦 BA
 
 - `ongoing | cadastre | Dual-entity (FBiH / RS-entity / Brčko) — different cadastres + tax regimes | Entity-level authorities | 2026-04-26 | 2027-01-01 | 1 | --tax --mains`
+- `2024-10-22 | tax | BiH state-level VAT refund for first new-residential — passed by Predstavnički dom 22 Oct 2024; covers FBiH + RS + Brčko (NOT FBiH-only); 40 m² buyer + 15 m² per household member at 17%; upper-house (Dom naroda) ratification + UINO implementing rulebook still pending as of 2026-05 | KPMG TaxNewsFlash + VATupdate + UINO | 2026-05-27 | 2026-09-01 | 1 | --tax`
+- `ongoing | foreign-buyer | Statutory reciprocity regime under Zakon o stvarnim pravima FBiH (Sl. novine FBiH 66/13, 100/13) — FBiH MoJ publishes annual no-reciprocity list by 31 Jan; arable land + protected areas barred regardless of reciprocity; d.o.o. workaround available; inheritance excepted | FBiH MoJ + DLA Piper REALWORLD + Multilaw + Prnjavorac | 2026-05-27 | 2027-01-31 | 1 | --visa --tax`
+- `ongoing | tax | PIT flat by entity: FBiH 10% / RS 8% / Brčko 10% (NOT progressive) — personal allowances materially higher in RS + Brčko | PwC BA Individual taxes (last reviewed 19 Feb 2026) | 2026-05-27 | 2026-12-01 | 2 | --tax`
 
 ### 🇷🇸 RS
 
 - `2014-05 | risks | Sava + Bosna river floods (NOT Drava — common error; Drava is HR/SI) | RHMZ | 2026-04-26 | 2027-01-01 | 4 | --risks`
+- `2025-10-24 | permits | Zakon o posebnim uslovima za evidentiranje i upis prava na nepokretnostima — one-time legalizacija framework (~2M unpermitted buildings); filing window 8 Dec 2025 + ~60 days; certifikat from Agencija za prostorno planiranje → RGZ priority registration; cost €100–€1,000; post-24-Oct-2025 illegal construction NOT eligible | CT Legal + Lexology + VMT Attorneys + Tasić & Partners | 2026-05-27 | 2026-09-01 | 2 | --permits --risks`
+- `2023-11-04 | cadastre | RGZ filings exclusively electronic via professional users (attorneys + licensed geodetic organisations); direct walk-in no longer possible | law-firm.rs + RGZ | 2026-05-27 | 2027-01-01 | 3 | --notary`
+- `ongoing | tax | PIT — employment 10% flat + annual top-up 10%/15% above RSD 9,749,016 (2025); other categories 10–20%; capital gains 15%; first-apartment transfer-tax exemption 40 m² + 15 m² per family member | KPMG RS Feb 2026 + PwC Tax Summaries | 2026-05-27 | 2026-12-01 | 2 | --tax`
 
 ### 🇺🇸 US
 
@@ -414,6 +437,12 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2011 | risks | NCh 433 Mod DS 61/2011 — post-2010 Maule earthquake building-code revision raised seismic standards | MINVU | 2026-05-01 | 2027-01-01 | 1 | --risks`
 - `ongoing | rental | STR comuna ordinances evolving — Las Condes / Providencia / Vitacura tightening 2024-2026 | Municipios | 2026-05-01 | 2026-08-01 | 2 | --rental`
 
+### 🇪🇨 EC
+
+- `2024-04-01 | tax | IVA raised from 12% → 15% (NOT 13%) — Decreto Ejecutivo 198/2024 (11 Mar 2024) + Ley Orgánica para Enfrentar el Conflicto Armado Interno; standard rate effective 1 Apr 2024; emergency security funding; potential revert to 12% remains political possibility | SRI + Decreto Ejecutivo 198/2024 | 2026-05-27 | 2026-09-01 | 1 | --tax`
+- `ongoing | tax | CGT 0% on habitual residence after 1-year holding (NOT 5 years) — UNIQUE LATAM exemption; LRTI art. 8 + reglamento, as amended by Ley Orgánica de Reforma Tributaria | SRI + Ley Orgánica Reforma Tributaria | 2026-05-27 | 2026-12-01 | 1 | --tax --exit`
+- `ongoing | visa | Visa de Inversionista USD 47,000 (= 100 × SBU at SBU 2026 USD 470/mo) in Ecuadorian real estate or fixed-term productive activity; verify current SBU multiple at Cancillería; Ley Orgánica de Movilidad Humana 2017 + reglamento | decreto Ministerio del Trabajo Dec 2025 + Cancillería | 2026-05-27 | 2026-12-01 | 2 | --visa`
+
 ### 🇿🇦 ZA
 
 - `2025-01 | finance | Expropriation Act 13 of 2024 assented Jan 2025 — Constitutional challenges pending; theoretical risk for residential land but practical urban risk remains low | Constitutional Court + DALRRD | 2026-05-01 | 2026-09-01 | 1 | --finance --visa`
@@ -426,6 +455,11 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 ### 🇬🇪 GE
 
+- `2025-06-01 | regulatory | Foreign Agents Registration Act (FARA) — passed Parliament 1 Apr 2025, in force 1 Jun 2025; criminal liability for non-registration; affects foreign-funded NGOs/JVs/advisors but NOT private residential foreign property purchase | Parliament of Georgia + Venice Commission CDL-AD(2025)034 + Andersen 2025 | 2026-05-27 | 2026-08-01 | 2 | --tax --rental --scams`
+- `2026-03-01 | visa | Investment residence permit real-estate threshold rises from US$100k → US$150k (1-year renewable); US$300k 5-year unchanged; transition rule requires completed purchase + full payment by 28 Feb 2026 to lock legacy threshold | Government of Georgia + sda.gov.ge | 2026-05-27 | 2026-04-01 | 2 | --tax --rental`
+- `2026-03-01 | visa | Labor migration amendments (adopted 26 Jun 2025) require work permits for foreign workers incl. remote workers, self-employed, entrepreneurs beyond visa-free year | Parliament of Georgia | 2026-05-27 | 2026-04-01 | 2 | --work --rental`
+- `2026-01-01 | regulatory | Decree #602 of 26 Dec 2025 mandates travel medical insurance (min GEL 30,000 coverage) for all foreign entrants for duration of stay | Government of Georgia + matsne.gov.ge | 2026-05-27 | 2026-12-01 | 3 | --price --rental`
+- `2025-04-17 | visa | Ordinance #122 amended Government Decree #256 visa-free list — 17 nationalities (Afghanistan, Bangladesh, Eritrea, Ethiopia, Ghana, Yemen, Cameroon, Côte d'Ivoire, DRC, Morocco, Nigeria, Pakistan, Somalia, Syria, Sudan, Tanzania, Uganda) lose Gulf-state-permit visa-free route | matsne.gov.ge/en/document/view/2867361 | 2026-05-27 | 2026-10-01 | 3 | --rental --scams`
 - `2023-12 | visa | EU candidate status granted Dec 2023 — accession process active; longer-term policy alignment may shift property-tax regime + capital controls | European Council + GoG | 2026-05-01 | 2026-11-01 | 2 | --visa --tax --currency`
 - `2025-XX | tax | Tbilisi Sakrebulo Decision 14-69 sets 2025 property-tax schedule (income-threshold gated above GEL 40k household income); annual revisions expected | Tbilisi City Hall + Revenue Service | 2026-05-01 | 2026-09-01 | 3 | --tax`
 - `ongoing | rental | No national STR statute as of 2025 — Tbilisi/Batumi enforcement varies, monitor for Sakrebulo ordinances | City Halls + Revenue Service | 2026-05-01 | 2026-08-01 | 3 | --rental`
@@ -598,7 +632,10 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 ### 🇷🇼 RW
 
-- `2024-XX-XX | tax | Cabinet-approved Property Tax Reform 2024 — Land Tax compressed FRW 0-300/m² → FRW 0-80/m² band (varies by district + use); Building Tax 0.5% residential / 0.3% commercial / 0.1% industrial of market value; Sale levy 2% registered taxpayer / 2.5% unregistered | RRA + Kigali Times Finance Law 2024/2025 | 2026-05-08 | 2026-09-01 | 2 | --tax`
+- `2023-04-20 | tax | Property Tax Reform — Cabinet-approved 20 Apr 2023, effective Feb 2024, first declaration 20 Aug 2024 — Land Tax compressed FRW 0-300/m² → FRW 0-80/m² band (district/use-set); Building Tax 0.5%/0.3%/0.1% residential/commercial/industrial-SME of market value; Sale levy 2% registered / 2.5% unregistered (RWF 5M exempt floor on commercial sale value) | gov.rw Cabinet press release + RRA + Law on Sources of Revenue for Decentralized Entities | 2026-05-27 | 2026-09-01 | 2 | --tax`
+- `2022-10-20 | tax | Capital Gains Tax — Law N° 027/2022 of 20/10/2022 (amended by Law N° 051/2023 of 05/09/2023): shares 10% / commercial immovable property 30%; residential individual sales captured through 2%/2.5% sale levy. The historical "5% flat" framing does NOT match primary statute | RRA Tax Handbook + PwC Worldwide Tax Summaries 2026 + Law 027/2022 + Law 051/2023 | 2026-05-27 | 2026-09-01 | 1 | --tax`
+- `2025-07-01 | rental | Tourism Levy 3% — Law N° 015/2025 of 27 May 2025 (Parliament unanimous 28 Apr 2025); applies to hotels, motels, lodges, guest houses, apartments, similar accommodation services; 3% of room cost; declare + pay within 15 days of month-end | Law 015/2025 + RDB + Parliament Plenary 28 Apr 2025 + travelnews.africa | 2026-05-27 | 2026-09-01 | 2 | --rental --tax`
+- `2024-06-05 | foreign-buyer | e-Apostille launch — MINAFFET + Irembo partnership; Rwanda 126th HCCH Convention member (deposit 6 Oct 2023); first country to launch e-Apostille from day-one of accession; 1-3 day processing via irembo.gov.rw | MINAFFET + ktpress.rw 4 Jun 2024 + Schmidt-Export | 2026-05-27 | 2027-06-01 | 3 | --notary --integrity foreign-buyer-journey`
 - `2021-02-05 | visa | Investor visa Law N° 006/2021 of 05/02/2021 Art. 14 — USD 250,000 registered-investor permit (USD 100,000 for EAC + COMESA citizens); clarify "USD 500k luxury property" route is secondary-aggregator only — flag for primary-source verification with Rwanda Development Board | UNCTAD Investment Laws Navigator + RDB | 2026-05-08 | 2026-12-01 | 2 | --visa --integrity`
 - `2021-06-10 | foreign-buyer | Law N° 27/2021 of 10/06/2021 (Land Law) — extended emphyteutic / leasehold term to 99 years for both residential + investment use (was 49 yrs investment / 20 yrs residential); foreigners get leasehold only; freehold reserved Rwandan citizens | Official Gazette + RLMUA | 2026-05-08 | 2027-01-01 | 1 | --visa ownership --notary`
 - `2024-XX-XX | tax | Electronic Land Title rollout 2024 — all titles paperless via LAIS (ESRI ArcGIS-based, version 4.0); FRW 5,000 physical printout fee abolished by default | RLMUA — `https://www.lands.rw/` | 2026-05-08 | 2026-12-01 | 3 | --notary --integrity`

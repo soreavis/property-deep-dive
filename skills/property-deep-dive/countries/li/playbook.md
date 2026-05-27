@@ -138,15 +138,15 @@ Sollertrag is added to taxable INCOME and taxed under Erwerbssteuer
 
 ### Capital gains — Grundstücksgewinnsteuer
 
-- **Grundstücksgewinnsteuer** (Art. 35 ff. SteG): tax on capital gains from real-estate sale
-- Rate: **progressive 1–24%** depending on gain size + holding period (longer hold → lower effective rate)
-- **Owner-occupier reinvestment rollover** within 2 years generally exempt (Ersatzbeschaffung principle, similar to CH)
-- Source: Steuerverwaltung Merkblatt — `https://www.llv.li/de/landesverwaltung/steuerverwaltung`
+- **Grundstücksgewinnsteuer** (Art. 35-43 SteG): tax on capital gains from real-estate sale.
+- **Rate structure** (no holding-period adjustment in statute — the regime is gain-size-progressive, NOT holding-period-degressive): **Tarif Art. 19 Bst. a SteG** progressive bands on the taxable gain after **CHF 15,000 Grundfreibetrag** + Anlagekosten deductions: 1 % bottom (CHF 15-20k slice) → 8 % top (gain > CHF 200k). Then **200 % Zuschlag** per **Art. 43 SteG** → effective top marginal ≈ **8 % × 3 = 24 %** at the top bracket only. (2026-05-27 verified, source Steuerverwaltung Merkblatt Grundstücksgewinnsteuer gültig ab 2013-06-01 + Art. 35-43 SteG.)
+- **Steueraufschub grounds (Art. 36 SteG, closed catalog)**: inheritance / Erbvorbezug / gift; Güterzusammenlegung / Baulandumlegung / Grenzbereinigungen; Art. 52 restructurings; spouse transfers. **No general owner-occupier Ersatzbeschaffungs-Aufschub** in the statute — the "Swiss kantonale 2-year reinvestment rollover" concept was NOT adopted in the 2010 SteG; verify any reinvestment scenario directly with Steuerverwaltung. (2026-05-27 verified — supersedes prior wording.)
+- Source: Steuerverwaltung Merkblatt — `https://www.llv.li/de/landesverwaltung/steuerverwaltung`; SteG primary text [gesetze.li/konso/2010.340](https://www.gesetze.li/konso/2010.340).
 
 ### Future risk
 
 - **Steuerschätzung modernisation**: ongoing technical revaluation of Steuerwerte under SteG amendments — could moderately raise Vermögenssteuer base; not a large reform on the public horizon for 2026
-- **No Erbschafts-/Schenkungssteuer** in Liechtenstein for direct line — significant inheritance-planning advantage retained
+- **Erbschafts-/Schenkungssteuer abolished entirely on 1 January 2011** (SteG 2011 reform) — applies to all degrees of relation, not only direct line. In their place, **Widmungssteuer** applies to asset endowments into Liechtenstein Stiftung / Anstalt / Trust vehicles — verify with Steuerverwaltung if the planning structure uses these vehicles. (2026-05-27 verified, source PwC Widmungsbesteuerung in Liechtenstein + de.wikipedia Erbschaftsteuer.)
 - Watch: OECD Pillar Two minimum-tax effects on Liechtenstein corporate base could indirectly affect property-investment vehicles (Stiftung / Anstalt), not direct ownership
 
 ---
@@ -380,6 +380,15 @@ Liechtenstein's **Grundverkehrsgesetz** is the single most restrictive residenti
 | **Non-EEA nationals (e.g., US, UK, GCC, AS)** | **Effectively excluded** from residential acquisition. Special permits exist for state-interest cases (typically NOT granted to private individuals). Only inheritance + marriage routes are practically open |
 
 > The GVG also requires a **declared intent to occupy** (Selbstnutzung) for residential purchases; pure investment ownership by non-resident foreigners is essentially blocked.
+
+#### GVG-approved acquisition — quantitative cap
+
+Where the Grundverkehrsbehörde (Amt für Justiz, Abteilung Grundverkehr) grants approval based on **berechtigtes Interesse** (Wohnbedarf / Erholungsbedarf / Bauwesen-Interesse per Art. 6 GVG), the **quantitative cap** is:
+
+- **One baureifes Grundstück, maximum 1,440 m²** (= 400 Klafter² historic measure) — for a single residential building, **PLUS**
+- **One condominium unit (Stockwerkeigentumseinheit)**, OR alternatively **two condominium units instead of the building plot**.
+
+Source: **Art. 6 GVG** (LR 214.11, [gesetze.li/konso/1993.049](https://www.gesetze.li/konso/1993.049)) + **GVO 2007** (LR 214.111, [gesetze.li/konso/pdf/2007168000](https://www.gesetze.li/konso/pdf/2007168000?version=5)). Without justified interest, exemptions exist for: spouses, registered partners, blood relatives (direct line or up to 3rd-degree collateral), value-equal property exchanges, inheritance / will / forced sales. (2026-05-27 verified, source jwt.li Grundverkehrsrecht overview + primary GVG text.)
 
 ### Residency: NOT linked to property
 

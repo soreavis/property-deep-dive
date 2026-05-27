@@ -104,23 +104,29 @@ Statute: [Regulamento da Contribuição Predial Urbana — Law 19/78/M](https://
 
 | Charge | Rate | Base |
 |---|---|---|
-| **Property Tax — leased** | **10%** of gross actual rent (10% maintenance deduction → effective ~9%) | annual rent received |
+| **Property Tax — leased** | **8%** of gross actual rent (10% maintenance deduction → effective ~7.2%) | annual rent received. Rate reduced from 10% → 8% in 2023 under **Law 19/2022** (FY 2023 Budget); **re-enacted annually**, FY 2026 confirmed 8% (PwC Tax Summaries). (2026-05-27 verified.) |
 | **Property Tax — owner-occupied / vacant** | **6%** of "rendimento colectável" (DSF-assessed notional rental value) | DSF `valor de avaliação` |
-| **Owner-occupier rebate** | 80% reduction → **effective ~1.2%** of notional value | applies when owner registered as occupant; renewed annually via Budget Law (e.g., [Law 18/2024 — Budget for 2025](https://bo.io.gov.mo/)) |
+| **Owner-occupier rebate** | **Fixed MOP 3,500 reduction** on the property-tax liability (NOT a percentage) | Introduced under **Law 19/2022** for FY 2023; re-enacted each year (Law 25/2024 = FY 2025; Law 13/2025 = FY 2026). **Excludes corporates + non-Macao residents.** (2026-05-27 verified, source PwC + MdME + cdqq.gov.mo Talent Development Committee.) |
 
-⚠️ **Effective owner-occupied Property Tax ≈ 1.2% of DSF notional value** — typically **MOP 3,000–12,000/yr** for mid-tier 80–120m² Taipa/Cotai apartment. Verify the **boletim de cobrança da contribuição predial** issued annually. ⚠️ **Tax base = DSF notional value, NOT market price** — DSF reassessments lag; current values often anchored early-2010s.
+⚠️ **Effective owner-occupied Property Tax**: 6% × (DSF notional value × 0.9 maintenance deduction) **minus MOP 3,500 fixed reduction** (caps at actual liability). For mid-tier 80–120m² Taipa/Cotai apartment with notional value MOP 50,000/yr → 6% × 0.9 = MOP 2,700 base, minus MOP 3,500 = **MOP 0 payable**. Higher-value flats with bigger notional values keep effective rate close to 6% × 0.9 net of MOP 3,500. Verify the **boletim de cobrança da contribuição predial** issued annually. ⚠️ **Tax base = DSF notional value, NOT market price** — DSF reassessments lag; current values often anchored early-2010s.
 
 ### Stamp Duty (Imposto do Selo / 印花稅) — transaction-side
 
 [Regulamento do Imposto do Selo — Law 17/88/M, updated 2018](https://bo.io.gov.mo/):
 
-| Consideration band | Rate (resident first-time) |
+| Consideration band | Rate |
 |---|---:|
 | ≤ MOP 2,000,000 | 1% |
 | MOP 2,000,001 – MOP 4,000,000 | 2% (slice) |
 | > MOP 4,000,000 | 3% (slice) |
 
-Plus a **fixed 0.5%** (`imposto do selo verba 1.1`) document-stamp on the deed.
+Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of price) — effective rates therefore **1.05% / 2.10% / 3.15%**. (2026-05-27 verified, source PwC Tax Summaries + MdME + cdqq.gov.mo — supersedes prior "0.5% verba 1.1" wording.)
+
+#### 2026 Policy Address resident exemption (Nov 2025, in force FY 2026)
+
+- **Resident first-time homebuyer stamp-duty exemption raised** from MOP 3,000,000 → **MOP 6,000,000** (eligible resident, one residential unit), confirmed under FY 2026 Budget Law 13/2025 per Macao 2026 Policy Address. Supersedes the prior MOP 3M exemption introduced by Law 19/2022.
+- **Resident self-use mortgage LTV cap raised 70% → 80%** (eligible residents, primary residence) — see `--finance` section.
+- January 2026 residential mortgage approvals jumped **+76.7% MoM to MOP 1.59B** per AMCM. (2026-05-27 verified, source Macao News + gov.mo Policy Address [https://www.gov.mo/en/news/374463/](https://www.gov.mo/en/news/374463/) + MdME.)
 
 ### Special Stamp Duty (額外印花稅) — anti-flipping (Law 6/2011)
 
@@ -461,7 +467,7 @@ Account opening requires Macao Resident ID Card (BIR / 居民身份證) for resi
 
 ### Peg credibility
 
-AMCM foreign reserves Q1 2026 ≈ USD 25B (~5× MOP monetary base). Peg stable through 1997–98 Asian crisis, 2008 GFC, 2020+ pandemic, USD-strength 2022–2024. **MOP-HKD peg stable at ~1.03 since 1995**.
+AMCM foreign reserves Q1 2026 ≈ USD 25B (~5× MOP monetary base). Peg stable through 1997–98 Asian crisis, 2008 GFC, 2020+ pandemic, USD-strength 2022–2024. **MOP-HKD peg at ~1.03 has been in effect since 1983** (predates SAR handover 1999). **Law 24/2024 — New General Tax Code** effective **1 January 2026** introduces source-based / territorial profits-tax treatment, OECD-aligned transfer-pricing rules, statutory 183-day tax-residency definition — material for corporate-vehicle buyers of Macao property; individual no-CGT outcome preserved. (2026-05-27 verified, source AMCM "The Pataca" + PwC + EY + MdME.)
 
 ⚠️ **Tail risk**: any sustained breakdown of HKD peg propagates to MOP. Position-size for non-USD/HKD buyers.
 

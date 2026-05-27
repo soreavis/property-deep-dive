@@ -14,7 +14,7 @@ ISO2: `ge`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Cadastre**: **NAPR** (National Agency of Public Registry, საჯარო რეესტრის ეროვნული სააგენტო) — public viewer FREE for owner-only data via napr.gov.ge
 - **Identifier**: cadastral code (საკადასტრო კოდი) format `XX.XX.XX.XXX` (region.district.block.parcel)
 - **Foreign-buyer rule**: residential **freehold** open to all foreigners since 1996 Civil Code. **Agricultural land**: foreign ownership banned by 2018 constitutional amendment Art. 19 (only Georgian citizens, Georgian state, or local self-governments may own ag land); pre-2017 foreign-acquired ag land grandfathered
-- **Visa**: 365-day visa-free entry for **~95 nationalities** (USA, EU/EEA, UK, Canada, AU, NZ, Japan, S. Korea, GCC, Israel, etc.) per MFA Decree #256 of 2015 as amended
+- **Visa**: 365-day visa-free entry for **~95 nationalities** (USA, EU/EEA, UK, Canada, AU, NZ, Japan, S. Korea, GCC, Israel, etc.) per **Government of Georgia Decree #256 of 5 June 2015** (last amended **Ordinance #122 of 17 April 2025**, which removed the Gulf-state-permit visa-free route for 17 listed nationalities) *(2026-05-27 verified, source matsne.gov.ge/en/document/view/2867361)*
 
 ## Section: `--price`
 
@@ -143,7 +143,7 @@ Same flat, owner household income < 40k GEL:
 ### Transaction taxes (one-time at purchase)
 
 - **Transfer tax / stamp duty**: **NONE** for typical resale (no property transfer tax in Georgia per Tax Code)
-- **VAT (DDS, დღგ)**: **18 %** on new-build sale by VAT-registered developer (Tax Code Art. 161); usually included in advertised price — verify "DDS-iani" (with VAT) vs "DDS-is gareshe" (without VAT)
+- **VAT (DDS, დღგ)**: **18 %** on new-build sale by VAT-registered developer (Tax Code Art. 165 sets rate; Art. 160 defines taxable supply; Art. 168/176 carry the resale-by-individual exemption); usually included in advertised price — verify "DDS-iani" (with VAT) vs "DDS-is gareshe" (without VAT)
 - **NAPR registration fee**: ~50 GEL standard, 200 GEL same-day, 500 GEL 1-hour express (Public Service Hall tariff 2024)
 - **Notary**: registration of sale-purchase contract is **NOT mandatory** (NAPR registration suffices); notarised contract optional, fee ~0.05–0.5 % of contract value (Notarial Chamber tariff)
 - **Real estate agent**: usually **3–5 %** paid by seller; foreign buyers sometimes asked to pay buyer-side commission — negotiate
@@ -175,7 +175,7 @@ Same flat, owner household income < 40k GEL:
 
 **Small Business Status** — for sole proprietors only (Tax Code Art. 84):
 - Annual revenue **≤ 500,000 GEL**: **1 % flat** on **turnover**
-- Income > 500,000 in any year → status revoked + retroactive 3 % rate
+- Income > 500,000 in any year → **3 % rate on the excess** above GEL 500k for that year; status revoked from 1 January of year+2 if breached in **two consecutive** years *(2026-05-27 verified, source Andersen + rs.ge + Tax Code Art. 88-95)*
 - Excluded activities (Decree #415 of 2010 as amended): consulting, finance, gambling, currency exchange — **residential rental IS allowed** under SBS for individual entrepreneurs registered as IE
 - Foreign nationals **can register as individual entrepreneur** with Georgian tax residency; SBS application via rs.ge
 
@@ -250,8 +250,8 @@ Same flat, owner household income < 40k GEL:
 
 - **365-day visa-free** entry covers digital nomad / remote work for ~95 nationalities
 - **Work residence permit** (eMigration via PSDA): for those needing > 1 year continuous presence; tied to employer or business
-- **"Remotely from Georgia"** programme: launched 2020 for remote workers; entry-permit fast track (verify current status at stopcov.ge / mfa.gov.ge — programme has cycled in/out of formal availability)
-- **Investment residence permit**: real-estate investment **≥ US$100,000** → 1-year permit, renewable; ≥ US$300,000 → 5-year permit (Law on Legal Status of Aliens Art. 15) — verify current thresholds at sda.gov.ge (Public Service Development Agency)
+- **"Remotely from Georgia"** programme: launched 2020; currently OPEN per geoconsul.gov.ge (income proof US$2,000/mo or US$24k savings + foreign employment + travel medical insurance; 360-day non-renewable). **2026-03-01 reform**: labor-migration amendments (adopted 26 June 2025) require **work permits for foreign remote workers, self-employed, and entrepreneurs** for stays beyond the visa-free year — verify current status at sda.gov.ge / mfa.gov.ge *(2026-05-27 verified, source geoconsul.gov.ge + Parliament of Georgia)*
+- **Investment residence permit**: real-estate investment **≥ US$100,000 (until 28 Feb 2026) / ≥ US$150,000 (from 1 March 2026)** → 1-year permit, renewable; **≥ US$300,000 → 5-year permit (unchanged)** (Law on Legal Status of Aliens Art. 15) — apply at PSDA Public Service Halls (sda.gov.ge); issuance authority is **PMMG / Ministry of Justice**; verify current thresholds at sda.gov.ge AND mfa.gov.ge *(2026-05-27 verified, source legal.ge + Government of Georgia; 50 % uplift eff 2026-03-01)*
 
 ---
 
@@ -408,7 +408,7 @@ Same flat, owner household income < 40k GEL:
 - **International Company status** (since 2020): 5 % CIT + 0 % dividend WHT for qualifying IT/maritime firms with substance in Georgia (Decree #619)
 - **Free Industrial Zones (FIZ)**: Poti, Kutaisi (Hualing), Tbilisi — exemption from CIT, VAT, property tax for in-zone activity
 - **Tourism Zones** (Anaklia, parts of Adjara): tax incentives + investment guarantees per region — verify per project
-- **Investment residence permit** at US$100k real-estate threshold
+- **Investment residence permit** at US$100k real-estate threshold (US$150k from 1 March 2026)
 - **Renovation grants for heritage buildings (Tbilisi Old Town)**: Tbilisi City Hall "Tbilisi Loves You" programme — variable annual budget; co-financing for façade restoration
 
 ## Common listing platforms
@@ -433,9 +433,11 @@ Same flat, owner household income < 40k GEL:
 - **Heritage listing in Tbilisi Old Town** severely restricts renovation — check Cultural Heritage Agency register before signing
 - **Currency**: most listings priced in **US$** but contracts denominated in **GEL** at NBG reference rate on signing day — exchange-rate exposure
 - **2024 political situation**: EU accession effectively paused; "foreign agents" law in force; monitor before relying on EU-harmonisation expectations
-- **Investment residence permit threshold US$100k** is one of the lowest in the world — but permit doesn't grant tax residency automatically
+- **Investment residence permit threshold US$100k (US$150k from 1 March 2026)** is one of the lowest in the world — but permit doesn't grant tax residency automatically
 - **Property tax owed only if household income > 40,000 GEL/yr** (~US$14,800) — many foreign owners on remote-work income outside Georgian tax net pay 0 GEL property tax
 - **Adjara 2 GEL/night tourist fee** for accommodation hosts (Batumi area) — verify current rate
+- **Foreign Agents Registration Act (effective 1 June 2025)** — criminal-liability "foreign-principal" registration regime; **does NOT restrict private foreign property purchase**, but materially affects foreign-funded NGOs, property-development JVs with foreign-government links, and some advisory/legal vendors; verify your transaction-stack counsel is not impaired *(2026-05-27 verified, source Venice Commission CDL-AD(2025)034 + Andersen 2025)*
+- **Mandatory travel medical insurance (effective 1 Jan 2026)** — Government Decree #602 of 26 Dec 2025 requires all foreign entrants to hold travel medical insurance with min **GEL 30,000** coverage for stay duration; cost typically US$10–US$40 per trip — verify carrier list at mfa.gov.ge *(2026-05-27 verified, source matsne.gov.ge)*
 
 ## Reddit / forum sources
 
@@ -512,5 +514,5 @@ Same flat, owner household income < 40k GEL:
 - [ ] Aparthotel revenue-share contract review template (Batumi)
 - [ ] Foreign-ownership ag-land grandfathering audit (pre-2017 acquired plots)
 - [ ] Self-built legalisation status check (TPN waves) for pre-2007 buildings
-- [ ] Investment-residence-permit threshold confirmation (US$100k vs current statute)
+- [ ] Investment-residence-permit threshold confirmation (US$100k legacy vs US$150k from 1 March 2026 — Government of Georgia)
 - [ ] NEA parcel-level geohazard certification request walkthrough

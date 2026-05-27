@@ -76,9 +76,9 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 
 ### Transfer tax on purchase (droits d'enregistrement)
 
-- **Standard 4.5%** of the higher of price / market value, on resale acquisition by a private buyer (residents and non-residents alike). Source: Code de l'enregistrement; rate confirmed `service-public-particuliers.gouv.mc` 2024-25.
+- **Standard 4.5%** of the higher of price / market value, on resale acquisition by a private buyer (residents and non-residents alike). Source: Code de l'enregistrement; rate confirmed `monservicepublic.gouv.mc` 2024-25 (2026-05-27 verified, source `monservicepublic.gouv.mc` — post-PR #184 portal rename from `service-public-particuliers.gouv.mc`).
 - **Reduced 1%** for acquisitions by Monégasques and certain qualifying residents (specific schemes — verify per-buyer with the notaire; do NOT assume).
-- **Loi n° 1.560 du 3 décembre 2024**: closed the SCI / civil-society loophole that historically let opaque vehicles attract 7.5% (the higher rate that applied when the vehicle owner was anonymous / non-named). After the reform, **transfers via SCI / société civile particulière are taxed at the same 4.5%** as direct acquisitions, provided beneficial owners are identified to the tax administration. Source: Journal de Monaco published text — verify exact effective date and transitional regime with the notaire for any SCI-held transaction in 2024-25.
+- **Loi n° 1.560 du 3 décembre 2024**: closed the SCI / civil-society loophole that historically let opaque vehicles attract 7.5% (the higher rate that applied when the vehicle owner was anonymous / non-named). After the reform, **transfers via SCI / société civile particulière are taxed at the same 4.5%** as direct acquisitions, **provided beneficial owners are identified to the tax administration**. Where beneficial ownership cannot be identified (anonymous foreign trusts, opaque offshore vehicles), the **7.5% rate continues to apply** as the punitive default — verify the exact rate applicable to any non-SCI / non-direct vehicle with the notaire monégasque before signing the compromis. Source: Journal de Monaco published text — verify exact effective date and transitional regime with the notaire for any SCI-held transaction in 2024-25 (2026-05-27 verified, source Cases & Lacambra + Journal de Monaco).
 - **Notaire fees (émoluments)**: regulated by **Loi n° 1.014 du 4 mai 1981** governing the profession of notaire monégasque + subsequent grand-ducal-equivalent ordinances. Practitioner-quoted band: **~1.5% of price** all-in for typical resale (variable by price tranche; degressive scale similar to French notarial barème). **Always request the notaire's projet d'émoluments before signing the compromis**.
 - **Total acquisition cost** (resale, private buyer, no SCI): typically ~6% all-in (4.5% droits + ~1.5% notaire + minor débours). New-build: see VAT below — TVA 20% replaces droits d'enregistrement on first sale by promoter to end-buyer.
 
@@ -400,7 +400,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 |---|---|---|
 | Statistics (incl. Marché Immobilier) | IMSEE | https://www.monacostatistics.mc/ |
 | Cadastre / Domaine | Direction du Domaine | https://service-public-entreprises.gouv.mc/ |
-| Tax / Enregistrement | Direction des Services Fiscaux | https://service-public-particuliers.gouv.mc/Fiscalite |
+| Tax / Enregistrement | Direction des Services Fiscaux | https://monservicepublic.gouv.mc/Fiscalite |
 | Residency | Direction de la Sûreté Publique (Section Résidence) | https://monservicepublic.gouv.mc/Etrangers |
 | Notaires | Chambre des Notaires de Monaco | (verify with the Chambre — small profession; CIM directory cross-references members) |
 | Real-estate agents | CIM (Chambre Immobilière Monégasque) | https://www.chambre-immobiliere.mc/ |
@@ -410,7 +410,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 | Electricity & Gas | SMEG | https://www.smeg.mc/ |
 | Water | SMEaux | https://www.smeaux.mc/ |
 | Telecom | Monaco Telecom | https://www.monaco-telecom.mc/ |
-| Police | Direction de la Sûreté Publique | https://service-public-particuliers.gouv.mc/ |
+| Police | Direction de la Sûreté Publique | https://monservicepublic.gouv.mc/ |
 | Banking regulator (cross-ref) | Commission de Contrôle des Activités Financières (CCAF) | https://ccaf.mc/ |
 
 ---
@@ -420,7 +420,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 | Field | Template |
 |---|---|
 | IMSEE Marché Immobilier | https://www.monacostatistics.mc/Logement-Immobilier |
-| Fiscalité particuliers | https://service-public-particuliers.gouv.mc/Fiscalite |
+| Fiscalité particuliers | https://monservicepublic.gouv.mc/Fiscalite |
 | Résidence (foreign-buyer) | https://monservicepublic.gouv.mc/Etrangers/Vivre-en-Principaute/Conditions-de-residence |
 | Loi n° 1.560 (SCI reform) | https://journaldemonaco.gouv.mc/ (search by loi number) |
 | Convention fiscale FR-MC 1963 | https://www.legifrance.gouv.fr/ + https://gouv.mc/Gouvernement-et-Institutions |

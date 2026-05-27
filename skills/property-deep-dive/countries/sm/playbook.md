@@ -109,9 +109,9 @@ San Marino's recurring property tax is the **ISI (Imposta Straordinaria sugli Im
 
 San Marino's transaction-tax stack on residential resale to a **private buyer (non-developer chain)** is materially lower than Italy's:
 
-- **Imposta di Registro** (registration tax): variable rate by case; standard residential resale typically **~3–6%** range — verify exact rate at Ufficio del Registro (`https://www.finanze.sm/`) for the specific deal type *(rates have been adjusted multiple times via annual Legge di Bilancio — verify currency at point of deal)*
+- **Imposta di Registro** (registration tax): **5% ordinary** proportional rate on onerous transfers of immovables; **€70 fixed nominal** for qualifying **prima casa** purchase (surface ≤200 m², buyer holds no other residential property); **3%** for **permute** (exchanges) between contiguous rural parcels. Verify deal-specific application at Ufficio del Registro (`https://www.finanze.sm/`) and via *notaio*. (2026-05-27 verified, source Emme Property notarial summary.)
 - **Imposta Ipotecaria + Catastale** (mortgage + cadastre transfer tax): minor, typically **~0.5–1.5%** combined
-- **Tassa di Concessione Governativa** (government concession tax): **applies to non-resident foreign buyers** under Legge 173/2018 framework + DD 105/2019 — flat fee element + ad-valorem element; verify current quantum at Ufficio Tributario *(this is the explicit foreign-buyer fee replacing the pre-2018 Consiglio dei XII authorisation)*
+- **Tassa di Concessione Governativa** (foreign-buyer fee): **€1,000 fixed administrative fee** under **Article 51 Legge 173/2018** — *NOT* an ad-valorem component. The non-resident buyer separately pays the ordinary Imposta di Registro (5%) without prima-casa benefits. (2026-05-27 verified, source Toccaceli Bronzetti studio on Article 51 Legge 173/2018.)
 - **Notary fee**: regulated; typically **1–2% of price** all-in for standard residential — Sammarinese notarial profession is small (handful of practising *notai*); arancel similar to Italian notarial scale
 - **Estate agent commission** (where engaged): typically **3% buyer + 3% seller** practice; verify per *mandato*
 
@@ -139,8 +139,8 @@ San Marino's transaction-tax stack on residential resale to a **private buyer (n
 
 Foundational law: **Legge 16 dicembre 2013 n.166** as amended (most recent material amendment: **Legge 12 novembre 2025 n.141**, effective **2026 tax period**).
 
-- **Progressive scale (residents, individuals)**: **9% / 13% / 17% / 21% / ... / 35%** (top rate above ~€80k taxable income — bracket thresholds adjusted periodically; verify schedule in Legge 141/2025 + 2026 implementing decrees)
-- **Corporate IGR**: **18%** flat from 2026 (was 17% pre-2026, raised by Legge 141/2025)
+- **Progressive scale (residents, individuals)**, full 8-bracket schedule effective 2026 per Legge 141/2025: up to €10,000 → **9%**; €10,000.01–€18,000 → **13%**; €18,000.01–€28,000 → **17%**; €28,000.01–€38,000 → **21%**; €38,000.01–€50,000 → **25%**; €50,000.01–€65,000 → **28%**; €65,000.01–€80,000 → **31%**; **above €80,000 → 35%**. Brackets auto-adjust every two years by cost-of-living index (max 6 % adjustment), first adjustment 2028. (2026-05-27 verified, source HLB San Marino digest of Legge 141/2025.)
+- **Corporate IGR**: **17% ordinary**; **temporarily 18% for tax periods 2026–2030** per Legge 141/2025 Art. 54 (*"In via straordinaria per i periodi d'imposta 2026 2027 2028 2029 e 2030 l'Imposta Generale sui Redditi è elevata al 18%"*); ordinary 17% resumes 2031 unless extended. (2026-05-27 verified, source HLB SM + Studio Bollini.)
 - **Non-resident IGR (rental income from SM property)**: levied on the SM-source rental income; verify rate band with Ufficio Tributario — Italian-resident landlords also bear ITA tax via DTA
 - **Frontalieri (cross-border workers)**: special regime under **Italy–San Marino DTA** (signed 2002, in force 2013, rev. 2012) — coordination via FAQ at `https://www.gov.sm/pub2/GovSM/La-PA-Risponde/FAQ.html?tema=Tributario`
 - **No standalone wealth tax** beyond Imposta Patrimoniale Straordinaria above
@@ -149,7 +149,7 @@ Foundational law: **Legge 16 dicembre 2013 n.166** as amended (most recent mater
 ### Future risk
 
 - **Legge 141/2025 IGR reform** entered force 2026 → top-rate / corporate-rate uplift; further calibration possible in 2026/2027 budget cycles
-- **EU Association Agreement** (initialled 2023, signed 2024) — single-market spillover scenarios if ratified: tax-cooperation tightening, potential alignment of monofase ↔ EU VAT, customs-union deepening
+- **EU Association Agreement**: negotiations concluded **12 Dec 2023**; Commission signing/conclusion proposals adopted **26 Apr 2024**; Council confirmed **mixed-competence procedure Dec 2025** (requires ratification by all EU member-state parliaments + EP consent). **Full signature + ratification pending as of May 2026** — single-market entry projected 2026 contingent on completion. Verify status at [esteri.sm/UE/Accordo](https://www.esteri.sm/pub2/EsteriSM/en/UE/Accordo.html). (2026-05-27 verified, source esteri.sm + europarl A10-0003/2026.)
 - **OECD BEPS Pillar Two** + EU Code of Conduct on tax — corporate-vehicle structuring evolving; direct-ownership impact limited but holding-company structures affected
 
 ---

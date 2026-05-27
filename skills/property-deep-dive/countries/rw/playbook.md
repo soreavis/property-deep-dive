@@ -18,9 +18,11 @@ ISO2: `rw`. Status: ✅ Fully populated (researched 2026-05).
 ### Major reforms tracked (2022–2026)
 
 - **Law N° 27/2021 (Land Law)** — extended **emphyteutic / leasehold term to 99 years** for both residential and investment use (previously 49 years for investment, 20 years for residential). Foreigners get **leasehold only**; freehold reserved for Rwandan citizens (subject to international convention reciprocity). Source: Official Gazette + RLMUA.
-- **Law N° 027/2022 of 20/10/2022 establishing taxes on income** — replaced 2018 Income Tax Law; restructured PIT brackets (see `--tax`); preserved **5 % flat capital gains tax** on immovable property + share transfers; preserved **rental income tax** progressive scale.
+- **Law N° 027/2022 of 20/10/2022 establishing taxes on income** (amended by **Law N° 051/2023 of 05/09/2023**) — replaced 2018 Income Tax Law; restructured PIT brackets (see `--tax`); CGT regime: **10 % on shares**; **30 % on commercial immovable property**; residential individual sales captured through the 2 % / 2.5 % sale levy (see `--tax`); preserved **rental income tax** progressive scale. *(2026-05-27 verified, source RRA Tax Handbook + PwC Worldwide Tax Summaries + Law 027/2022 + Law 051/2023)*
 - **Law N° 006/2021 of 05/02/2021 on investment promotion and facilitation** (Investment Code 2021) — replaced 2015 Code; preferential CIT rates 3 / 15 / 25 %; **3 foreign-worker permits + residence permit for USD 250k+ registered investor**. Source: UNCTAD Investment Laws Navigator + RDB.
-- **Cabinet-approved Property Tax Reform 2024** — Land Tax rate compressed from FRW 0–300/m² to **FRW 0–80/m²** band (varies by district + use); **Building Tax**: 0.5 % residential / 0.3 % commercial / 0.1 % industrial of market value; **Sale levy**: 2 % registered taxpayer, 2.5 % unregistered. Source: RRA + Kigali Times Finance Law 2024/2025.
+- **Property Tax Reform — Cabinet-approved 20 April 2023; effective February 2024; first declaration window opened 20 August 2024** — Land Tax rate compressed from FRW 0–300/m² to **FRW 0–80/m²** band (varies by district + use, set annually by District Council / City of Kigali); **Building Tax**: 0.5 % residential / 0.3 % commercial / 0.1 % industrial-SME of market value (building + plot); **Sale levy**: 2 % registered taxpayer / 2.5 % unregistered (applied above **RWF 5 M exempt floor** of sale value for commercial-use property — verify residential applicability with RRA). Source: gov.rw Cabinet press release 20 Apr 2023 + RRA 2024 declaration notice + Law on Sources of Revenue for Decentralized Entities.
+- **Law N° 015/2025 of 27 May 2025 — 3 % Tourism Levy (effective 1 July 2025)** — unanimous Parliament vote 28 Apr 2025; 3 % levy on accommodation services (hotels, motels, lodges, guest houses, **apartments and similar**); declared + paid within 15 days of month-end. Materially affects short-let / serviced-apartment yields *(2026-05-27 verified, source Law 015/2025 + allAfrica + travelnews.africa)*
+- **e-Apostille launch (5 June 2024)** — MINAFFET + Irembo partnership; Rwanda became 126th HCCH Apostille Convention member (instrument of accession deposited 6 Oct 2023; entered into force 5 June 2024); first country to launch e-Apostille from day-one of accession; 1–3 day processing via `https://irembo.gov.rw/`. Material for foreign-buyer document chain (birth certificates, PoA, marriage certificates required for LAIS / RDB filings) *(2026-05-27 verified, source MINAFFET press release + Schmidt-Export accession tracker)*
 - **Kigali Master Plan 2050 (KMP 2050)** — adopted 2020; portal: `https://bpmis.gov.rw/asset_uplds/kigali_master_plan/` and `https://www.kigalicity.gov.rw/`. Reduced commercial zones from 9 → 3, residential zones from 7 → 5; introduced overlay districts encouraging mixed-use along future BRT corridors. **Strict enforcement** — building permits checked against KMP 2050 zoning.
 - **Electronic Land Title rollout (2024)** — all titles paperless via LAIS; physical printout fee FRW 5,000 abolished by default (charged only for special-print requests).
 
@@ -206,7 +208,7 @@ For a primary-resident **first home, owner-occupied**, partial exemptions / redu
 
 | Item | RWF | USD est. |
 |---|---:|---:|
-| Sale levy 2 % (registered) | ~5,800,000 | ~$4,000 |
+| Sale levy 2 % (registered; on RWF 290 M − RWF 5 M = RWF 285 M; assumes commercial-use applicability — verify residential treatment with RRA) | ~5,700,000 | ~$3,940 |
 | Land registration 0.5 % | ~1,450,000 | ~$1,000 |
 | Land transfer fee (residential flat) | 20,000 | ~$15 |
 | Notary fees ~0.75 % (mid-range est.) | ~2,175,000 | ~$1,500 |
@@ -217,10 +219,11 @@ For a primary-resident **first home, owner-occupied**, partial exemptions / redu
 
 ### Capital Gains Tax (CGT)
 
-- **5 %** flat rate on capital gains from sale/transfer of **immovable property** + share transfers (not exempt).
-- Threshold: applies to gains; per RRA Tax Handbook `https://tax-handbook.rra.gov.rw/handbook/explanation-of-capital-gains-tax/`.
+- **Shares**: **10 %** flat on capital gains from sale/transfer of shares (acquisition value vs selling / transfer price). Source: RRA Tax Handbook + Law N° 027/2022 + PwC Worldwide Tax Summaries 2026.
+- **Commercial immovable property** (CGT regime): **30 %** on capital gains from sale / cession of commercial immovable property. Legal basis: **Law N° 027/2022 of 20/10/2022** (amended by **Law N° 051/2023 of 05/09/2023**).
+- **Residential immovable property** (individual seller, non-business): **NOT a separate CGT** — gain is captured through the immovable-property sale levy (2 % registered / 2.5 % unregistered above the RWF 5 M exempt floor; see Transfer + Registration costs above). Verify your specific scenario with RRA — the residential-vs-commercial classification is fact-driven.
 - **Declaration deadline**: 15th of the month following the transaction.
-- Legal basis: Law N° 027/2022 of 20/10/2022 establishing taxes on income.
+- Source: RRA Tax Handbook `https://tax-handbook.rra.gov.rw/handbook/explanation-of-capital-gains-tax/` + PwC Rwanda Corporate Tax Summary 2026 `https://taxsummaries.pwc.com/rwanda/corporate/other-taxes` *(2026-05-27 verified — the historical "5 % flat" framing does not match Law 027/2022 + 051/2023; appears to have been a pre-2022 regime confusion)*
 
 ### Rental Income Tax (RIT) — for landlords
 
@@ -297,6 +300,7 @@ PIT brackets (monthly employment income, post-Nov 2023):
 - **Local district council registration**: required in Kigali; check City of Kigali Business Permit office at sector level.
 - **Tax treatment**: if income > FRW 12 M/yr (~USD 8,300) AND the activity is "commercial accommodation provision," **CIT or PIT under business income rules** may apply (rather than Rental Income Tax) — consult RRA Tax Handbook before entering.
 - **VAT**: registration mandatory for hospitality turnover ≥ **FRW 20 M/yr** (~USD 13,800).
+- **Tourism Levy 3 %** (effective **1 July 2025** per **Law N° 015/2025 of 27 May 2025**): 3 % of accommodation cost on hotels, motels, lodges, guest houses, **apartments and similar services**; declare + pay within 15 days of month-end. Net occupancy economics: a USD 100/night Airbnb listing now remits ~USD 3/night tourism levy + standard 18 % VAT (if registered) + business income tax — model net before underwriting short-let yield *(2026-05-27 verified, source Law 015/2025 + Parliament plenary 28 Apr 2025 + travelnews.africa)*
 - Body Corporate / building rules: many Kigali condominium developments **prohibit short-term lets** in their by-laws — verify before purchase.
 
 ### Strategic notes
@@ -720,4 +724,4 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 
 **Status**: ✅ fully populated as of 2026-05-07
 **Confidence**: HIGH — primary government sources (RLMUA, RRA, RDB, NISR, BNR, Migration / DGIE) are unusually accessible for sub-Saharan Africa; Land Tenure Regularisation 2009–2013 + LAIS digital cadastre give parcel-level title verification at a quality rare for the region. MEDIUM for residential price benchmarks (no published RPPI; ranges are listing-aggregator est.). MEDIUM for the "USD 500k luxury-property residence-by-investment" claim (secondary-source repeated; primary RDB programme name not publicly confirmed — verify via RDB One-Stop Centre).
-**Last verified**: 2026-05-07
+**Last verified**: 2026-05-27
