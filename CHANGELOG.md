@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+
+- **Count-cascade drift cleanup (post-113-country sweep)** — `/maintain` Phase 3c pass found 12 prose-form mentions of stale country counts (`109` or `103`) that `sync-docs.py`'s `**N countries**` bold-pattern regex doesn't catch. Updated forward-facing prose to `113` in: `README.md` (3 sites — headline + tree-diagram comment + skill-content stat), `CLAUDE.md` (2 sites — file map + anti-hallucination example), `ROADMAP.md` (2 sites — intro framing + Tier-C count `49→59`), `.claude-plugin/plugin.json` (1 — opening description clause), `.github/ISSUE_TEMPLATE/new-country.yml` (1 — duplicate-country checklist label), `shared/regulatory-watch.md` (1 — corpus-size rationale), `shared/updater.md` (1 — refresh-cadence framing), `shared/exit.md` (1 — May 2026 snapshot batch label), `shared/remote.md` (2 — POA universal-fallback + Top-7 mitigation). Historical CHANGELOG / batch-shipment logs / dated validate reports intentionally LEFT UNCHANGED. `100 of 103 countries` extension-coverage denominators left alone (extensions written against the legacy 103 corpus, the 4 new playbooks aren't backfilled into the cross-cutting tables — overclaiming to `113` would be silent fabrication). Closes the documented [[stale-count-files]] cascade for 2026-05-27 evening's `109 → 113` corpus expansion. No version bump (drift cleanup, not a new feature).
+
 ## [2026.05.59] - 2026-05-27
 
 ### Changed

@@ -81,7 +81,7 @@ skills/property-deep-dive/                # the skill payload (everything plugin
 │   ├── <24 section implementations>      # one per --<flag> (or grouped where shared)
 │   ├── <6 sub-section extensions>        # mains-reliability / finance-banking / notary-forced-heirship / risks-build-quality / digital-nomad-healthcare / rental-yield-delta
 │   └── <9 tooling docs>                  # tco / mortgage / fixtures / diff-watcher / etc.
-└── countries/<iso2>/playbook.md          # 109 country playbooks
+└── countries/<iso2>/playbook.md          # 113 country playbooks
 .github/workflows/                        # weekly URL liveness, monthly health report, 6h feed watcher
 config/_regions.json                      # docs-build input (README country matrix grouping) — NOT loaded by the skill at runtime
 config/_tiers.json                        # refresh-cadence tier membership (A 90d / B 180d / C 365d) — read by audit/refresh CI
@@ -101,7 +101,7 @@ References inside SKILL.md / shared/*.md / countries/*/playbook.md use *relative
 ## When in doubt
 
 1. **Verify before recommending**: a memory or assumption that names a specific function/file/flag is a claim it existed when written. Grep the current state before acting.
-2. **Ask if the user's request collides with the anti-hallucination contract**: e.g., "fill in tax rates for all 103 countries quickly" without sources — that's slot-filling. Push back, propose research-first.
+2. **Ask if the user's request collides with the anti-hallucination contract**: e.g., "fill in tax rates for all 113 countries quickly" without sources — that's slot-filling. Push back, propose research-first.
 3. **Default to surfacing limitations explicitly**: "Confidence: MEDIUM because…" beats vague enthusiasm.
 
 ## Memory

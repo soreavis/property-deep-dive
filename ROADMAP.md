@@ -1,10 +1,10 @@
 # Roadmap — Coverage Backlog
 
-Working document for additions beyond the current 103 countries. Captures completed batches, future country candidates, section-level extensions, and skip rationale.
+Working document for additions beyond the current 113 countries. Captures completed batches, future country candidates, section-level extensions, and skip rationale.
 
 ## Current coverage
 
-109 countries fully populated across 13 regions (`config/_regions.json`). Tiered refresh cadence in `config/_tiers.json` (A=16 quarterly · B=38 semi-annual · C=49 annual + 1 unified moved by #113).
+113 countries fully populated across 14 regions (`config/_regions.json` — 13 incumbent + 1 `nl_caribbean` added 2026-05-27). Tiered refresh cadence in `config/_tiers.json` (A=16 quarterly · B=38 semi-annual · C=59 annual).
 
 ## Completed batches
 

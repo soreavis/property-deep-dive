@@ -2,7 +2,7 @@
 
 Sell-side conditions: time-on-market (DOM), agent commission structure, contract norms, off-market vs MLS, sell-side closing costs, liquidity rating. Buyers should understand how easy it will be to **exit** a property before committing to buy.
 
-**Snapshot**: May 2026 (Tier-2 batch additions — 109 countries total).
+**Snapshot**: May 2026 (Crown Deps + DK territories + NL Caribbean additions — 113 countries total).
 
 ## Universal contract
 
