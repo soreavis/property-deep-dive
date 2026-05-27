@@ -86,7 +86,7 @@ ISO2: `hk`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Primary source
 
-- **Transport Department (運輸署) — Annual Traffic Census**: `https://www.td.gov.hk/en/transport_in_hong_kong/transport_figures/annual_traffic_census/index.html` — annual traffic flow at ~1,300 count points across HK road network; volumes in PCU (Passenger Car Unit) and AADT-equivalent
+- **Transport Department (運輸署) — Annual Traffic Census**: `https://www.td.gov.hk/en/publications_and_press_releases/publications/free_publications/atci1/index.html` — annual traffic flow at ~1,300 count points across HK road network; volumes in PCU (Passenger Car Unit) and AADT-equivalent
 - **HKeMobility / OpenAPI Traffic**: `https://www.hkemobility.gov.hk/` — real-time traffic + speed
 - **Highways Department (路政署)**: `https://www.hyd.gov.hk/` — road classification + traffic studies
 
@@ -110,7 +110,7 @@ ISO2: `hk`. Status: ✅ Fully populated (researched 2026-05).
 - residential = local access road
 - service = back-of-house / interior estate access
 
-⚠️ Cross-check elevated structure noise — Hong Kong's flyover network (e.g., Eastern Corridor, West Kowloon Highway) creates **noise contour zones**; HKEPD publishes **Strategic Noise Maps** at `https://www.epd.gov.hk/epd/english/environmentinhk/noise/` — request for any property within 100m of an elevated road or rail.
+⚠️ Cross-check elevated structure noise — Hong Kong's flyover network (e.g., Eastern Corridor, West Kowloon Highway) creates **noise contour zones**; HKEPD publishes **Strategic Noise Maps** at `https://www.epd.gov.hk/epd/english/environmentinhk/noise/noise_maincontent.html` — request for any property within 100m of an elevated road or rail.
 
 ---
 
@@ -124,9 +124,9 @@ ISO2: `hk`. Status: ✅ Fully populated (researched 2026-05).
 |---|---|---|---|
 | **Rates (差餉)** | **5%** of rateable value (domestic ≤ HK$550,000 RV; progressive scale above — see below) | RV = annual rental value if let on open market on 1 Oct designated date | [Rating Ordinance Cap. 116](https://www.rvd.gov.hk/en/our_services/rates.html) |
 | **Government Rent (地租)** | **3%** of rateable value | RV (same base) | [Government Rent (Assessment & Collection) Ordinance Cap. 515](https://www.rvd.gov.hk/en/our_services/government_rent.html) |
-| **Property Tax (物業稅)** | **15%** flat × (rental income − 20% standard deduction) | Actual rental income | [Inland Revenue Ordinance Cap. 112](https://www.ird.gov.hk/eng/tax/ind_pty.htm) — applies only if property is let; not for owner-occupied |
+| **Property Tax (物業稅)** | **15%** flat × (rental income − 20% standard deduction) | Actual rental income | [Inland Revenue Ordinance Cap. 112](https://www.ird.gov.hk/eng/tax/ind_pty.htm) ❌ DEPRECATED — primary source removed; verify with Hong Kong Inland Revenue Department (IRD) — applies only if property is let; not for owner-occupied |
 
-⚠️ **Government Rent applies to leases granted/extended after 27 May 1985** (per Joint Declaration) — most NT land + post-1985 HK Island/Kowloon grants. Some pre-1985 HK Island leases carry only nominal annual rent (HK$1,000 or under) and may be exempt — confirm via [Lands Department lease search](https://www.landsd.gov.hk/en/property-information/government-rent.html).
+⚠️ **Government Rent applies to leases granted/extended after 27 May 1985** (per Joint Declaration) — most NT land + post-1985 HK Island/Kowloon grants. Some pre-1985 HK Island leases carry only nominal annual rent (HK$1,000 or under) and may be exempt — confirm via [Lands Department lease search](https://www.landsd.gov.hk/en/gov_rent/index.htm).
 
 ### Progressive Rates (domestic tenements, 2024-25 onwards per [RVD progressive rating system](https://www.rvd.gov.hk/en/progressive_rating_system.html))
 
@@ -176,7 +176,7 @@ Non-domestic tenements: flat 5% (no progression).
 
 ### Inheritance / Estate Duty
 
-- **Estate Duty abolished 11 Feb 2006** by [Revenue (Abolition of Estate Duty) Ordinance 2005](https://www.gov.hk/en/residents/taxes/etax/services/duty.htm) — no estate / inheritance / gift tax in Hong Kong
+- **Estate Duty abolished 11 Feb 2006** by [Revenue (Abolition of Estate Duty) Ordinance 2005](https://www.ird.gov.hk/eng/tax/sdu.htm) — no estate / inheritance / gift tax in Hong Kong
 - Probate via Probate Registry of the High Court ([Judiciary website](https://www.judiciary.hk/))
 
 ### Future risk
@@ -294,7 +294,7 @@ PR after 7 years' continuous ordinary residence (immigration test + intent to st
 |---|---|---|
 | **Hong Kong Observatory (HKO 香港天文台)** | `https://www.hko.gov.hk/` | Tropical Cyclone Warning Signal (T1/T3/T8/T9/T10), Rainstorm Warning (Amber/Red/Black), Sea-level Rise projections |
 | **Geotechnical Engineering Office (GEO 土力工程處)** under CEDD | `https://www.cedd.gov.hk/eng/about-us/organisation/geo/` | Slope inventory + Landslip Warning System |
-| **Slope Information System (SIS)** | `https://hkss.cedd.gov.hk/hkss/eng/index.html` | Search any registered slope by number — current condition, last inspection |
+| **Slope Information System (SIS)** | `https://hkss.cedd.gov.hk/hkss/en/slope-safety-in-hong-kong/slope-safety-system/overview/index.html` | Search any registered slope by number — current condition, last inspection |
 | **Civil Engineering & Development Department (CEDD)** | `https://www.cedd.gov.hk/` | Coastal protection, sea-level rise studies (CCFISD reports) |
 | **Drainage Services Department (DSD)** | `https://www.dsd.gov.hk/` | Flood-prone area maps |
 | **Buildings Department (BD)** | `https://www.bd.gov.hk/` | Unauthorised Building Works (UBW) register, building safety |
@@ -306,7 +306,7 @@ PR after 7 years' continuous ordinary residence (immigration test + intent to st
 - **Landslides**: post-1972 Po Shan Road tragedy → systematic Slope Safety System; ~60,000 registered man-made slopes; **GEO Landslip Warning** issues alongside T8 + Amber/Red/Black rainstorm; high-risk neighbourhoods: Mid-Levels, Pok Fu Lam, Tai Hang, Wong Chuk Hang, Mid-Levels East slope corridor
 - **Storm-surge / coastal flooding**: 2018 Mangkhut surge breached low-lying Heng Fa Chuen, Lei Yue Mun; CEDD Coastal Hazard Study identifies ~20 vulnerable shorelines
 - **Fluvial / pluvial flooding**: Black rainstorm cumulative >70mm/hr; Sept 2023 record >158mm/hr Wong Tai Sin → MTR station inundation; DSD Flood-prone Area Map
-- **Earthquake**: HK is on the **passive margin** of South China Block — historical earthquake risk LOW (no major historical event >M6 within 100km); modern code design level **MMI VII / PGA ~0.07g** ([HKO seismicity](https://www.hko.gov.hk/en/gts/equake/seismicity.htm)); not a primary structural-design driver
+- **Earthquake**: HK is on the **passive margin** of South China Block — historical earthquake risk LOW (no major historical event >M6 within 100km); modern code design level **MMI VII / PGA ~0.07g** ([HKO seismicity](https://www.hko.gov.hk/en/gts/equake/seismic_mon.htm)); not a primary structural-design driver
 - **Subsidence**: limited; some legacy reclamation areas (West Kowloon, Tseung Kwan O, parts of Tung Chung) — confirm via Lands Department reclamation history layer
 - **Subdivided units (劏房)**: not a hazard for buyers but ENV illegal alteration / fire-escape risk in older walk-up buildings — common in Sham Shui Po, To Kwa Wan, Yau Ma Tei
 
@@ -320,7 +320,7 @@ PR after 7 years' continuous ordinary residence (immigration test + intent to st
 | **2000+** | Code of Practice for Structural Use of Concrete 2004/2013; Wind Code 2004 | 🟢 Modern. High-rise tower stock |
 | **2010+ post-Mong Kok 2010 fatality** | Strengthened façade-spalling regulation; Mandatory Window Inspection Scheme (MWIS) | 🟢 |
 
-⚠️ **Mandatory Building Inspection Scheme (MBIS)** + **Mandatory Window Inspection Scheme (MWIS)** for buildings 30+ yrs ([BD MBIS portal](https://www.bd.gov.hk/en/safety-inspection/mbis-mwis/index.html)) — request the building's **MBIS notice + Owners' Corporation compliance status** before any pre-1996 building purchase. Non-compliance → BD Order to Repair → contractor procurement liability falls to Owners' Corporation (i.e., your future levy share).
+⚠️ **Mandatory Building Inspection Scheme (MBIS)** + **Mandatory Window Inspection Scheme (MWIS)** for buildings 30+ yrs ([BD MBIS portal](https://www.bd.gov.hk/en/safety-inspection/mbis/learn-more-about-MBIS/index.html)) — request the building's **MBIS notice + Owners' Corporation compliance status** before any pre-1996 building purchase. Non-compliance → BD Order to Repair → contractor procurement liability falls to Owners' Corporation (i.e., your future levy share).
 
 ### Mandatory disclosures (at sale)
 
@@ -463,7 +463,7 @@ HIGH for HKO downscaled projections; MEDIUM for sub-2km sea-level inundation spe
 
 ### Mortgage market (post-Oct 2024 reform)
 
-- **Regulator**: [HKMA — Hong Kong Monetary Authority](https://www.hkma.gov.hk/) — sets countercyclical macroprudential measures via [Banking (Capital) Rules](https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/by-subject/macroprudential/)
+- **Regulator**: [HKMA — Hong Kong Monetary Authority](https://www.hkma.gov.hk/) — sets countercyclical macroprudential measures via [Banking (Capital) Rules](https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/by-subject/macroprudential/) ❌ DEPRECATED — primary source removed; verify with Hong Kong Monetary Authority (HKMA)
 - **LTV caps (post 2024-10-16 [HKMA circular](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241016-4/))**:
 
 | Property value | Max LTV (self-use, residential) |
@@ -571,7 +571,7 @@ HKMA's [USD foreign reserves](https://www.hkma.gov.hk/eng/data-publications-and-
 | **Typhoon / windstorm** | usually included in fire + contents bundle |
 | **Flood** | included in major bundles (Generali, AXA, Bowtie); confirm sub-limit |
 | **Earthquake** | usually included up to small sub-limit (HK low risk; not headline) |
-| **Domestic helper insurance** (if hiring) | Mandatory under [Employees' Compensation Ordinance Cap. 282](https://www.labour.gov.hk/eng/public/wcp/) — HK$500–HK$1,500/yr per helper |
+| **Domestic helper insurance** (if hiring) | Mandatory under [Employees' Compensation Ordinance Cap. 282](https://www.labour.gov.hk/eng/public/content2_7.htm) — HK$500–HK$1,500/yr per helper |
 
 ### Major insurers
 
@@ -818,7 +818,7 @@ Hong Kong has **NO formal "digital nomad visa"** comparable to Portugal D8 / Spa
 
 ### Social / governance factors
 
-- Hong Kong Stock Exchange [HKEX ESG Reporting Guide (Appendix C2)](https://www.hkex.com.hk/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Environmental-Social-and-Governance-Reporting-Guide?sc_lang=en) mandatory for listed companies; trickles to property developers (Sun Hung Kai, Henderson, CK Asset, New World) annual sustainability reporting
+- Hong Kong Stock Exchange [HKEX ESG Reporting Guide (Appendix C2)](https://en-rules.hkex.com.hk/rulebook/environmental-social-and-governance-reporting-guide-1) mandatory for listed companies; trickles to property developers (Sun Hung Kai, Henderson, CK Asset, New World) annual sustainability reporting
 - Owners' Corporation governance under [Building Management Ordinance Cap. 344](https://www.elegislation.gov.hk/hk/cap344) — minority-protection mechanisms via Lands Tribunal
 
 ### Verdict (ESG lens for typical HK private apt)
@@ -974,11 +974,11 @@ If IRD assesses sale as "trading" rather than capital disposal:
 | Inland Revenue Department | `https://www.ird.gov.hk/` |
 | HKMA | `https://www.hkma.gov.hk/` |
 | Hong Kong Observatory | `https://www.hko.gov.hk/` |
-| Buildings Department MBIS | `https://www.bd.gov.hk/en/safety-inspection/mbis-mwis/index.html` |
-| GEO Slope Information System | `https://hkss.cedd.gov.hk/hkss/eng/index.html` |
+| Buildings Department MBIS | `https://www.bd.gov.hk/en/safety-inspection/mbis/learn-more-about-MBIS/index.html` |
+| GEO Slope Information System | `https://hkss.cedd.gov.hk/hkss/en/slope-safety-in-hong-kong/slope-safety-system/overview/index.html` |
 | Drainage Services Department | `https://www.dsd.gov.hk/` |
 | Water Supplies Department | `https://www.wsd.gov.hk/` |
-| EPD strategic noise maps | `https://www.epd.gov.hk/epd/english/environmentinhk/noise/` |
+| EPD strategic noise maps | `https://www.epd.gov.hk/epd/english/environmentinhk/noise/noise_maincontent.html` |
 | Hong Kong Police Force crime statistics | `https://www.police.gov.hk/ppp_en/09_statistics/csc.html` |
 | DATA.GOV.HK | `https://data.gov.hk/` |
 | Centa-City Index | `https://hk.centanet.com/findproperty/en/centadata` |

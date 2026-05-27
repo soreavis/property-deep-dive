@@ -9,7 +9,7 @@ ISO2: `cn`. Status: ✅ Fully populated (researched 2026-05).
 - **Population**: ~1.408 billion (2025 estimate, [National Bureau of Statistics — NBS](https://www.stats.gov.cn/english/)); first sustained natural decline began 2022; UN median projection ~1.39B by 2030
 - **GDP per capita**: ~US$13,300 nominal (2024, NBS / IMF); real GDP +5.0 % full-year 2024 (NBS); +4.6–5.0 % 2025 official target
 - **Currency**: **CNY / RMB (¥, 人民币)** — managed-float against undisclosed CFETS basket; PBOC publishes daily central parity ([PBOC fixings](http://www.pbc.gov.cn/)); USD/CNY trading band ±2 % around fix; offshore deliverable variant **CNH** trades freely in Hong Kong / Singapore / London. 1 EUR ≈ 7.7–8.0 CNY (Q1–Q2 2026 indicative); 1 USD ≈ 7.1–7.3 CNY
-- **Languages**: Standard Mandarin / Putonghua 普通话 (de jure national common language under [国家通用语言文字法 2000](http://www.gov.cn/test/2005-09/12/content_31649.htm)); written **Simplified Chinese (简体)** in mainland use since the 1956–1986 reforms; recognised regional / minority languages (Cantonese 粤语, Wu 吴语, Tibetan, Uyghur, Mongolian, Zhuang, etc.) coexist locally
+- **Languages**: Standard Mandarin / Putonghua 普通话 (de jure national common language under [国家通用语言文字法 2000](http://www.gov.cn/test/2005-09/12/content_31649.htm) ❌ DEPRECATED — primary source removed; verify with State Council of the People's Republic of China (www.gov.cn)); written **Simplified Chinese (简体)** in mainland use since the 1956–1986 reforms; recognised regional / minority languages (Cantonese 粤语, Wu 吴语, Tibetan, Uyghur, Mongolian, Zhuang, etc.) coexist locally
 - **Postcode**: 6 digits (e.g., Beijing CBD `100020`, Shanghai Pudong Lujiazui `200120`, Shenzhen Futian `518000`); first 2 digits identify the province / municipality
 - **Admin levels**: 4 国家直辖市 (province-level municipalities — 北京 Beijing, 上海 Shanghai, 天津 Tianjin, 重庆 Chongqing) + 23 省 (provinces) + 5 自治区 (autonomous regions: 内蒙古 Inner Mongolia, 广西 Guangxi, 西藏 Tibet, 宁夏 Ningxia, 新疆 Xinjiang) + 2 SARs (HK + Macao, separate playbooks). Below province: 地级市 (prefecture-level city) → 区/县/县级市 (district / county / county-level city) → 乡/镇/街道 (township / town / sub-district) → 村/居委会 (village / residential committee)
 - **Cadastre**: **自然资源部 (Ministry of Natural Resources, MNR)** — `https://www.mnr.gov.cn/` — operates the **不动产登记 (Real-Estate Unified Registration)** system since 2015 reform; per-property record at the **不动产权证书 (Real-Estate Title Certificate)** level. Day-to-day searches at the **不动产登记中心 (district-level Real-Estate Registration Center)** in person; online lookup via local **政务服务网** portals (e.g., Beijing: `http://zwfw.beijing.gov.cn/`)
@@ -631,7 +631,7 @@ Mainland China operates a **partially closed capital account**. **The single mos
 | Anjuke / 安居客 | `https://www.anjuke.com/` |
 | Fang.com / 房天下 | `https://www.fang.com/` |
 | 58.com / 58同城 | `https://www.58.com/` |
-| State Grid (electricity) | `http://www.sgcc.com.cn/` |
+| State Grid (electricity) | `http://www.sgcc.com.cn:8000` |
 | Southern Grid | `https://eng.csg.cn/` |
 | NIA (immigration / PR) | `https://www.nia.gov.cn/` |
 | Civil Code (NPC text) | `http://www.npc.gov.cn/npc/c30834/202006/75ba6483b8344591abd07917e1d25cc8.shtml` |

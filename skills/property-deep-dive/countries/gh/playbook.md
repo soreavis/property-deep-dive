@@ -114,7 +114,7 @@ Per Lands Commission classification, ~78% of land in Ghana is held under **custo
 ### Compute
 
 1. **Listing GHS/m² or USD/m²** = price ÷ m² built. Clarify "built-up area" vs "plot size"; **plot size convention**: 1 plot ≈ 70 ft × 100 ft ≈ 21.34 m × 30.48 m ≈ ~650 m² is the most common Accra/Kumasi residential plot — verify per listing as conventions vary.
-2. Convert GHS ↔ USD at **BoG official mid-rate** (`https://www.bog.gov.gh/economic-data/exchange-rates/`) — managed-float regime; spread to commercial-bank rate typically 1-3%.
+2. Convert GHS ↔ USD at **BoG official mid-rate** (`https://www.bog.gov.gh/economic-data/exchange-rate/`) — managed-float regime; spread to commercial-bank rate typically 1-3%.
 3. Cross-check 3+ listings + developer-direct quote + Knight Frank/Broll quarterly note before underwriting.
 4. **Trap — dual-currency**: Cantonments / Airport / East Legon often quote in USD with GHS for show; USD price typically binding — confirm currency in writing in Indenture.
 5. **Trap — off-plan vs cash**: headline GHS 1,200,000 off-plan may be 24-48 mo installment; cash-equivalent often 15-30% lower — demand cash-equivalent quote and delivery warranties.

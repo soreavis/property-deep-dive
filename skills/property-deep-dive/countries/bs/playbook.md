@@ -101,7 +101,7 @@ The Bahamas operates an **Economic Permanent Residence (EPR)** route administere
 ### Listing platforms
 
 - **MLS Bahamas** — Bahamas Real Estate Association multiple listing service: `https://www.mlsbahamas.com/`
-- **Bahamas Realty**: `https://www.bahamasrealty.bs/`
+- **Bahamas Realty**: `https://www.bahamasrealty.com`
 - **HG Christie**: `https://www.hgchristie.com/` (long-established; high-end + Family Islands strong)
 - **Coldwell Banker Lightbourn Realty Bahamas**: regional Coldwell Banker franchise
 - **Damianos Sotheby's International Realty**: `https://www.sothebysrealty.com/eng/associate/180-a-9-1700-1700038/damianos-sothebys-international-realty` (luxury + branded estates)
@@ -756,7 +756,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 ## Common listing platforms
 
 - **MLS Bahamas** (Bahamas Real Estate Association MLS) — `https://www.mlsbahamas.com/`
-- **Bahamas Realty** — `https://www.bahamasrealty.bs/`
+- **Bahamas Realty** — `https://www.bahamasrealty.com`
 - **HG Christie** — `https://www.hgchristie.com/`
 - **Damianos Sotheby's International Realty**
 - **Coldwell Banker Lightbourn Realty Bahamas**
@@ -841,7 +841,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 | Climate Central Coastal Risk Screening Tool | `https://coastal.climatecentral.org/` |
 | MLS Bahamas | `https://www.mlsbahamas.com/` |
 | HG Christie | `https://www.hgchristie.com/` |
-| Bahamas Realty | `https://www.bahamasrealty.bs/` |
+| Bahamas Realty | `https://www.bahamasrealty.com` |
 | Bahamas laws portal (official) | `http://laws.bahamas.gov.bs/` |
 
 ---

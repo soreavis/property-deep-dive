@@ -105,10 +105,10 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 ### Sources
 
 - **MTOP — Ministerio de Transporte y Obras Públicas**: `https://www.gub.uy/ministerio-transporte-obras-publicas/`
-- **Dirección Nacional de Vialidad (DNV)** under MTOP: `https://www.gub.uy/ministerio-transporte-obras-publicas/politicas-y-gestion/red-vial`
+- **Dirección Nacional de Vialidad (DNV)** under MTOP: `https://www.gub.uy/ministerio-transporte-obras-publicas/politicas-y-gestion/red-vial` ❌ DEPRECATED — primary source removed; verify with Ministerio de Transporte y Obras Públicas (MTOP) — gub.uy/ministerio-transporte-obras-publicas
   - Publishes **TMD (Tránsito Medio Diario)** counts on the national network (Rutas Nacionales)
   - Annual report; latest typically lags 1–2 years (verify latest at MTOP)
-- **Intendencia de Montevideo — Movilidad**: `https://montevideo.gub.uy/areas-tematicas/movilidad`
+- **Intendencia de Montevideo — Movilidad**: `http://montevideo.gub.uy/tipo/area-tematica/movilidad`
   - Conteos vehiculares for capital arteries (Av. 18 de Julio, Rambla, Av. Italia, Av. 8 de Octubre, Bvar. Artigas)
 - **Intendencia de Maldonado — Tránsito**: traffic data for Punta del Este corridor (Ruta 10, Ruta Interbalnearia)
 - **Fallback**: OSM `highway` tag (motorway/trunk/primary/secondary/tertiary/residential)
@@ -178,7 +178,7 @@ OSM `highway` class:
   - Source: DGI `https://www.dgi.gub.uy/`
 - **Aportes a BPS (Banco de Previsión Social)** — for sellers selling new construction or recently-completed properties: contributions on labor used in construction (rare for second-hand)
 - **Inscripción en el Registro de la Propiedad** — registration fee:
-  - ~0.55% of VRC (verify current arancel at Dirección General de Registros: `https://www.gub.uy/ministerio-educacion-cultura/dgr`)
+  - ~0.55% of VRC (verify current arancel at Dirección General de Registros: `https://www.gub.uy/ministerio-educacion-cultura/politicas-y-gestion/direccion-general-registros`)
 - **Honorarios del escribano** (notary fee):
   - Customarily ~3% of price, paid by buyer (negotiable — large transactions often closer to 1.5–2%)
   - Per AEU arancel suggested + colegiado practice
@@ -300,7 +300,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 
 ### Foreign worker permit
 
-- **Dirección Nacional de Migración (DNM)** — Ministerio del Interior: `https://www.gub.uy/ministerio-interior/migracion`
+- **Dirección Nacional de Migración (DNM)** — Ministerio del Interior: `https://www.gub.uy/ministerio-interior/politicas-y-gestion/acerca-direccion-nacional-migracion`
   - **MERCOSUR nationals** (AR, BR, PY, BO, CL, CO, EC, PE, VE — full + associated): expedited residencia permanente or temporaria
   - **Other nationals**: residencia temporaria (1+1 years) → residencia permanente
 - **Permiso de trabajo** generally tied to residencia status; not a separate permit for residents
@@ -334,10 +334,10 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 
 | Source | URL | What it gives |
 |---|---|---|
-| **DINAGUA — Dirección Nacional de Aguas** (MA) | `https://www.gub.uy/ministerio-ambiente/politicas-y-gestion/aguas` | Water management, flood basins, river-network data |
+| **DINAGUA — Dirección Nacional de Aguas** (MA) | `https://www.gub.uy/ministerio-ambiente/politicas-y-gestion/agua` | Water management, flood basins, river-network data |
 | **INUMET — Instituto Uruguayo de Meteorología** | `https://www.inumet.gub.uy/` | Climate data, alertas meteorológicas, wind/rain history |
 | **SINAE — Sistema Nacional de Emergencias** | `https://www.gub.uy/sistema-nacional-emergencias/` | Emergency management, historic flood/storm events |
-| **Instituto SARANDÍ / Geológico (DINAMIGE)** | `https://www.gub.uy/ministerio-industria-energia-mineria/dinamige` | Geology, low-seismicity assessment |
+| **Instituto SARANDÍ / Geológico (DINAMIGE)** | `https://www.gub.uy/ministerio-industria-energia-mineria/tematica/mineria-geologia` | Geology, low-seismicity assessment |
 | **Sistema de Información Ambiental (SIA — MA)** | `https://www.ambiente.gub.uy/sia/` | Environmental data layers |
 | **MVOTMA / DINAMA flood-risk maps** (where available) | regional via MVOT | Coastal + fluvial flood zones |
 
@@ -414,7 +414,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
   - **Coverage** (per OSE 2024 annual report, verify current):
     - Drinking water: ~99% urban, ~85% nationwide population
     - Sewer / saneamiento: ~60% nationwide; **MVD ~95%+** in central; **interior coverage variable** (often <60% in small interior cities)
-- **Intendencia de Montevideo — Saneamiento**: shared responsibility for sewer in capital; OSE provides agua potable, IM operates sewer in MVD via Plan de Saneamiento Urbano (PSU) (`https://montevideo.gub.uy/areas-tematicas/saneamiento`)
+- **Intendencia de Montevideo — Saneamiento**: shared responsibility for sewer in capital; OSE provides agua potable, IM operates sewer in MVD via Plan de Saneamiento Urbano (PSU) (`https://montevideo.gub.uy/areas-tematicas/saneamiento` ❌ DEPRECATED — primary source removed; verify with Intendencia de Montevideo — Saneamiento (montevideo.gub.uy))
 
 ### Regional / municipal
 
@@ -562,7 +562,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | Source | URL pattern |
 |---|---|
 | DNC Catastro | `https://www.catastro.gub.uy/` |
-| Registro de la Propiedad (DGR) | `https://www.gub.uy/ministerio-educacion-cultura/dgr` |
+| Registro de la Propiedad (DGR) | `https://www.gub.uy/ministerio-educacion-cultura/politicas-y-gestion/direccion-general-registros` |
 | MEF | `https://www.gub.uy/ministerio-economia-finanzas/` |
 | DGI | `https://www.dgi.gub.uy/` |
 | BPS | `https://www.bps.gub.uy/` |
@@ -570,16 +570,16 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | INE Estadísticas Inmobiliarias | `https://www.ine.gub.uy/inmuebles` |
 | OSE | `https://www.ose.com.uy/` |
 | UTE | `https://portal.ute.com.uy/` |
-| MTOP DNV (vialidad nacional) | `https://www.gub.uy/ministerio-transporte-obras-publicas/politicas-y-gestion/red-vial` |
+| MTOP DNV (vialidad nacional) | `https://www.gub.uy/ministerio-transporte-obras-publicas/politicas-y-gestion/red-vial` ❌ DEPRECATED — primary source removed; verify with Ministerio de Transporte y Obras Públicas (MTOP) — gub.uy/ministerio-transporte-obras-publicas |
 | Intendencia de Montevideo | `https://montevideo.gub.uy/` |
 | Intendencia de Maldonado | `https://www.maldonado.gub.uy/` |
 | MVOT (vivienda) | `https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/` |
 | ANV | `https://www.anv.gub.uy/` |
 | COMAP | `https://www.gub.uy/ministerio-economia-finanzas/comap` |
 | AEU (escribanos) | `https://www.aeu.org.uy/` |
-| DNM (migración) | `https://www.gub.uy/ministerio-interior/migracion` |
+| DNM (migración) | `https://www.gub.uy/ministerio-interior/politicas-y-gestion/acerca-direccion-nacional-migracion` |
 | INUMET | `https://www.inumet.gub.uy/` |
-| DINAGUA | `https://www.gub.uy/ministerio-ambiente/politicas-y-gestion/aguas` |
+| DINAGUA | `https://www.gub.uy/ministerio-ambiente/politicas-y-gestion/agua` |
 | SINAE | `https://www.gub.uy/sistema-nacional-emergencias/` |
 | InfoCasas | `https://www.infocasas.com.uy/` |
 | Mercado Libre Inmuebles UY | `https://inmuebles.mercadolibre.com.uy/` |

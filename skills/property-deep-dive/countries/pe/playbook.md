@@ -4,7 +4,7 @@ ISO2: `pe`. Status: Fully populated (researched 2026-05).
 
 ## Country profile
 
-- **Postcode (Código Postal)**: 5 digits, rolled out post-2017 by **SERPOST** (Servicios Postales del Perú) via Resolución de Gerencia. Lima Metropolitana uses prefix `15` (e.g., `15001` Cercado de Lima, `15074` Miraflores, `15023` San Isidro, `15063` Barranco); Arequipa `04001`; Cusco `08001`; Trujillo `13001`. Often omitted on listings — verify at `https://www.serpost.com.pe/codigo-postal/`.
+- **Postcode (Código Postal)**: 5 digits, rolled out post-2017 by **SERPOST** (Servicios Postales del Perú) via Resolución de Gerencia. Lima Metropolitana uses prefix `15` (e.g., `15001` Cercado de Lima, `15074` Miraflores, `15023` San Isidro, `15063` Barranco); Arequipa `04001`; Cusco `08001`; Trujillo `13001`. Often omitted on listings — verify at `https://www.serpost.com.pe/codigo-postal/` ❌ DEPRECATED — primary source removed; verify with Servicios Postales del Perú (Serpost) — https://www.gob.pe/institucion/serpost.
 - **Admin levels**: 24 **departamentos** + 1 **Provincia Constitucional del Callao** → 196 **provincias** → 1,874 **distritos** (per INEI division político-administrativa, 2024). Lima Metropolitana = Provincia de Lima (43 distritos) + Provincia Constitucional del Callao (7 distritos). The **distrito** is the level at which the **Municipalidad Distrital** sets impuesto predial rates, arbitrios, and licencia de funcionamiento.
 - **Currency**:
   - **PEN** — Sol (called "Nuevo Sol" 1991-2015; the "Nuevo" was dropped by **Ley 30381 (2015)** — official name now just "Sol"). Symbol `S/`.
@@ -12,7 +12,7 @@ ISO2: `pe`. Status: Fully populated (researched 2026-05).
   - BCRP runs **managed float** with active intervention; no general capital controls; SBS supervises FX on banks.
 - **Languages**: Spanish (official, Constitución 1993 art. 48); **Quechua** + **Aymara** co-official "in zones where they predominate" (art. 48) — relevant in Andean departments (Cusco, Puno, Apurímac, Ayacucho, Huancavelica). English usable in Miraflores/San Isidro/Barranco business + tourism; rare elsewhere with notaries, SUNARP, and municipales.
 - **Cadastre / registry**:
-  - **SUNARP** (Superintendencia Nacional de los Registros Públicos): national property registry. **Registro de Predios** at **Oficinas Registrales** in each Zona Registral (14 zones nationally). Title identifier: **Partida Registral** (unique per property). Portal: `https://www.sunarp.gob.pe/` + **Servicio de Publicidad Registral en Línea (SPRL)** `https://www.sunarp.gob.pe/seccion/servicios/spr-en-linea.html`.
+  - **SUNARP** (Superintendencia Nacional de los Registros Públicos): national property registry. **Registro de Predios** at **Oficinas Registrales** in each Zona Registral (14 zones nationally). Title identifier: **Partida Registral** (unique per property). Portal: `https://www.sunarp.gob.pe/` + **Servicio de Publicidad Registral en Línea (SPRL)** `https://www.sunarp.gob.pe/serviciosenlinea/portal/servicios-de-publicidad-registral-sprl.html`.
   - **Catastro** is **distrito-level** in urban zones (each Municipalidad Distrital maintains **Catastro Predial Urbano**) — codified via **Ley 28294 (2004)** + Reglamento DS 005-2006-JUS creating the **Sistema Nacional Integrado de Información Catastral Predial (SNCP)** coordinated by SUNARP. Coverage of the unified catastro is uneven 2025 — many distritos still operate independent cadastres.
   - **IGN** (Instituto Geográfico Nacional): national mapping authority `https://www.ign.gob.pe/`.
   - **COFOPRI** (Organismo de Formalización de la Propiedad Informal): titulación masiva of informal urban settlements `https://www.gob.pe/cofopri`.
@@ -43,8 +43,8 @@ ISO2: `pe`. Status: Fully populated (researched 2026-05).
 | **BCRP IPV — Indice de Precios de Viviendas** | Central bank | `https://www.bcrp.gob.pe/estadisticas/indice-de-precios-de-viviendas.html` | Quarterly real housing-price index, **Lima Metropolitana** (10 distritos): Jesús María, Lince, Magdalena, Miraflores, Pueblo Libre, San Borja, San Isidro, San Miguel, Santiago de Surco, La Molina. USD/m² + PEN/m² medians per distrito. **Primary source for Lima pricing.** |
 | **INEI** (Instituto Nacional de Estadística e Informática) | National statistics | `https://www.inei.gob.pe/` | Demographics, ENAHO household survey, ENCO continuous household survey (housing stock + tenure). Less granular for prices than BCRP. |
 | **CAPECO** (Cámara Peruana de la Construcción) | Trade body | `https://www.capeco.org/` | **Estudio del Mercado de Edificaciones Urbanas en Lima Metropolitana** (annual) — new-build supply, sale prices by distrito, m² oferta. |
-| **MVCS Observatorio** | Ministry | `https://www.gob.pe/mvcs` | Observatorio Urbano + indicators on déficit habitacional, MiVivienda metrics. |
-| **SUNARP SPRL** | Registry | `https://www.sunarp.gob.pe/seccion/servicios/spr-en-linea.html` | Búsqueda + publicidad registral por partida — for títulos chain (not price index) |
+| **MVCS Observatorio** | Ministry | `https://www.gob.pe/vivienda` | Observatorio Urbano + indicators on déficit habitacional, MiVivienda metrics. |
+| **SUNARP SPRL** | Registry | `https://www.sunarp.gob.pe/serviciosenlinea/portal/servicios-de-publicidad-registral-sprl.html` | Búsqueda + publicidad registral por partida — for títulos chain (not price index) |
 | **ASEI** (Asociación de Empresas Inmobiliarias del Perú) | Trade body | `https://www.asei.com.pe/` | Reportes mensuales venta nueva Lima Metro |
 
 ### Listing platforms
@@ -112,8 +112,8 @@ ISO2: `pe`. Status: Fully populated (researched 2026-05).
 | Source | URL | What it gives |
 |---|---|---|
 | **MTC — Ministerio de Transportes y Comunicaciones** | `https://www.gob.pe/mtc` | National road inventory + IMD (Indice Medio Diario) per tramo on red vial nacional (PE routes) |
-| **PROVÍAS Nacional** | `https://www.gob.pe/provias-nacional` | Concessionary + national road operator; conteos volumétricos publicados |
-| **PROVÍAS Descentralizado** | `https://www.gob.pe/provias-descentralizado` | Regional + departamental network |
+| **PROVÍAS Nacional** | `https://www.gob.pe/pvn` | Concessionary + national road operator; conteos volumétricos publicados |
+| **PROVÍAS Descentralizado** | `https://www.gob.pe/pvd` | Regional + departamental network |
 | **OSITRAN** | `https://www.ositran.gob.pe/` | Concession regulator — toll-road operator IMD reporting (Pativilca, Norvial, Rutas de Lima, IIRSA Norte/Sur, Survial) |
 | **Municipalidad Metropolitana de Lima — GMU/GTU** | `https://www.munlima.gob.pe/` | Lima city traffic counts, Plan Maestro de Transporte, semaforización |
 | **AATE — Autoridad Autónoma del Tren Eléctrico** | `https://www.aate.gob.pe/` | Lima Metro lines (1, 2, 3, 4) + projected lines |
@@ -331,7 +331,7 @@ Per **Ley del Impuesto a la Renta — Decreto Supremo 179-2004-EF** (TUO LIR) ar
 | **DHN — Dirección de Hidrografía y Navegación (Marina de Guerra)** | `https://www.dhn.mil.pe/` | Tsunami warning + cartas de inundación tsunami costera |
 | **SENAMHI — Servicio Nacional de Meteorología e Hidrología** | `https://www.senamhi.gob.pe/` | Hidrometeorología, El Niño, alertas hidrológicas |
 | **ANA — Autoridad Nacional del Agua** | `https://www.gob.pe/ana` | Recursos hídricos, fajas marginales, riesgo inundación fluvial |
-| **MVCS / MINAM** | `https://www.gob.pe/mvcs` + `https://www.gob.pe/minam` | Vivienda + Ambiente, código sismorresistente, NDCs Paris |
+| **MVCS / MINAM** | `https://www.gob.pe/vivienda` + `https://www.gob.pe/minam` | Vivienda + Ambiente, código sismorresistente, NDCs Paris |
 
 ### Sismicidad — riesgo dominante
 
@@ -417,7 +417,7 @@ Peru lies on the **subduction zone Nazca-Sudamericana** (Cinturón de Fuego del 
 - **SUNASS — Superintendencia Nacional de Servicios de Saneamiento**: `https://www.sunass.gob.pe/` — regulador agua potable + alcantarillado.
 - **OSINERGMIN — Organismo Supervisor de la Inversión en Energía y Minería**: `https://www.osinergmin.gob.pe/` — regulador electricidad + gas natural + hidrocarburos.
 - **MINEM — Ministerio de Energía y Minas**: `https://www.gob.pe/minem` — política energética.
-- **MVCS — Ministerio de Vivienda Construcción y Saneamiento**: `https://www.gob.pe/mvcs`.
+- **MVCS — Ministerio de Vivienda Construcción y Saneamiento**: `https://www.gob.pe/vivienda`.
 
 ### Major operators (urban)
 
@@ -1114,7 +1114,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 | Source | URL pattern |
 |---|---|
 | SUNARP | `https://www.sunarp.gob.pe/` |
-| SUNARP SPRL (búsqueda) | `https://www.sunarp.gob.pe/seccion/servicios/spr-en-linea.html` |
+| SUNARP SPRL (búsqueda) | `https://www.sunarp.gob.pe/serviciosenlinea/portal/servicios-de-publicidad-registral-sprl.html` |
 | SUNAT | `https://www.sunat.gob.pe/` |
 | MEF | `https://www.gob.pe/mef` |
 | BCRP | `https://www.bcrp.gob.pe/` |
@@ -1122,7 +1122,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 | BCRP tipo de cambio | `https://www.bcrp.gob.pe/estadisticas/tipo-de-cambio-diario.html` |
 | INEI | `https://www.inei.gob.pe/` |
 | MIGRACIONES | `https://www.gob.pe/migraciones` |
-| MVCS | `https://www.gob.pe/mvcs` |
+| MVCS | `https://www.gob.pe/vivienda` |
 | MiVivienda | `https://www.mivivienda.com.pe/` |
 | MINCETUR | `https://www.gob.pe/mincetur` |
 | SBS | `https://www.sbs.gob.pe/` |
@@ -1142,7 +1142,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 | ATU | `https://www.atu.gob.pe/` |
 | AATE | `https://www.aate.gob.pe/` |
 | MTC | `https://www.gob.pe/mtc` |
-| PROVÍAS Nacional | `https://www.gob.pe/provias-nacional` |
+| PROVÍAS Nacional | `https://www.gob.pe/pvn` |
 | OSITRAN | `https://www.ositran.gob.pe/` |
 | COFOPRI | `https://www.gob.pe/cofopri` |
 | CAPECO | `https://www.capeco.org/` |

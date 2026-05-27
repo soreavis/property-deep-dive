@@ -282,14 +282,14 @@ What residents do pay annually:
 
 ### Short-term rentals (holiday homes)
 
-- **Authority**: **Ministry of Heritage and Tourism (MHT)** — `https://www.mht.gov.om/` — issues short-term rental licences for holiday homes; ITCs typically have streamlined approval pathways under their master-developer concession.
+- **Authority**: **Ministry of Heritage and Tourism (MHT)** — `https://mohup.gov.om/en` — issues short-term rental licences for holiday homes; ITCs typically have streamlined approval pathways under their master-developer concession.
 - **MHT Holiday Home licence** required for STR < 30 days; building/community OA approval also required.
 - **Al Mouj, Hawana Salalah, Jebel Sifah, Muscat Hills** generally permit licensed STR via the master OA — verify the specific tower/villa category before buying for STR.
 - **Tourism levy + tourism dirham equivalent**: a tourism levy (typically 4% on tourist accommodation revenue) applies; verify at MHT.
 - **VAT 5%** applies to STR if the operator's taxable supplies exceed the OMR 38,500/yr registration threshold.
 - **Penalties**: fines for unlicensed STR operation per MHT enforcement bulletins.
 
-(Source: MHT licensing pages — *verify current STR licensing pathway at `https://www.mht.gov.om/`*.)
+(Source: MHT licensing pages — *verify current STR licensing pathway at `https://mohup.gov.om/en`*.)
 
 ### Yield benchmarks (per listing platforms — verify per ITC)
 
@@ -1107,7 +1107,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Ministry of Finance (MoF) | `https://www.mof.gov.om/` |
 | Central Bank of Oman (CBO) | `https://cbo.gov.om/` |
 | National Centre for Statistics and Information (NCSI) | `https://ncsi.gov.om/` |
-| Ministry of Heritage and Tourism (MHT) | `https://www.mht.gov.om/` |
+| Ministry of Heritage and Tourism (MHT) | `https://mohup.gov.om/en` |
 | Ministry of Labour | `https://www.mol.gov.om/` |
 | Ministry of Transport, Communications and IT (MTCIT) | `https://www.mtcit.gov.om/` |
 | Capital Market Authority (CMA) Oman | `https://cma.gov.om/` |

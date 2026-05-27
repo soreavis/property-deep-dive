@@ -89,7 +89,7 @@ ISO2: `sg`. Status: ✅ Fully populated (researched 2026-05).
 - **Land Transport Authority (LTA)** — `https://www.lta.gov.sg/`
 - **LTA DataMall** — `https://datamall.lta.gov.sg/` — open API for traffic flow, road accident counts, real-time camera feeds, ERP gantry data; registration free
 - **Annual Vehicle Population & Road Length** (LTA Singapore Land Transport Statistics in Brief — published yearly): `https://www.lta.gov.sg/content/ltagov/en/who_we_are/statistics_and_publications/statistics.html`
-- **LTA Master Plan** (Land Transport Master Plan 2040): `https://www.lta.gov.sg/content/ltagov/en/who_we_are/our_work/Land_Transport_Master_Plan_2040.html`
+- **LTA Master Plan** (Land Transport Master Plan 2040): `https://www.lta.gov.sg/content/ltagov/en/who_we_are/our_work/land_transport_master_plan_2040.html`
 
 ### Key term
 
@@ -613,7 +613,7 @@ Universal coverage in Singapore — **mains water + sewerage + electricity + gas
 | MOM work passes | `https://www.mom.gov.sg/passes-and-permits` |
 | ICA | `https://www.ica.gov.sg/` |
 | EDB GIP | `https://www.edb.gov.sg/en/incentives-and-programmes/global-investor-programme.html` |
-| SPF Annual Crime Brief | `https://www.police.gov.sg/Media-Room/Statistics` |
+| SPF Annual Crime Brief | `https://www.police.gov.sg/Media-Room/Statistics` ❌ DEPRECATED — primary source removed; verify with Singapore Police Force (SPF) |
 | LTA DataMall | `https://datamall.lta.gov.sg/` |
 | ACRA BizFile+ | `https://www.bizfile.gov.sg/` |
 | CEA agent licence search | `https://www.cea.gov.sg/` |

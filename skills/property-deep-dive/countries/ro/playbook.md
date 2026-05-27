@@ -133,7 +133,7 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 - New flood hazard + risk maps (2024 release, World Bank–supported) cover all APSFRs at multiple return periods (1:10, 1:100, 1:1000-year + climate-change scenario)
 - Annual expected damage: ~EUR 1.7 billion; ~150,000 citizens annually exposed
 - INSPIRE EU dataset record: https://inspire-geoportal.ec.europa.eu/srv/api/records/b275eed0-198b-11e5-b939-0800200c9a66
-- World Bank dataset mirror: https://wbwaterdata.org/dataset/flood-hazard-and-risk-maps-for-romania
+- World Bank dataset mirror: https://www.inundatii.ro/
 
 ### Forest fires
 - Less affected than Mediterranean peers but Carpathian/Apuseni dry seasons rising

@@ -584,9 +584,9 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 - **Anglo-List forums** — `https://www.anglo-list.com/`
 - **Janglo** — `https://www.janglo.net/` — Anglo-Olim community in Jerusalem; classifieds + housing
 - **Tapuz Anash** — `https://www.tapuz.co.il/` — Israeli-language community forums (real estate threads)
-- **Calcalist (כלכליסט) realestate section** — `https://www.calcalist.co.il/realestate` — financial press, market commentary
+- **Calcalist (כלכליסט) realestate section** — `https://www.calcalist.co.il/real-estate` — financial press, market commentary
 - **TheMarker realestate** — `https://www.themarker.com/realestate` — financial press
-- **Globes realestate** — `https://www.globes.co.il/news/category.aspx?Cid=2` — financial press
+- **Globes realestate** — `https://en.globes.co.il/en/realestate.tag` — financial press
 
 ## Verification authorities
 

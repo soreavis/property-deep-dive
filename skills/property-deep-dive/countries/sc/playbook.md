@@ -10,7 +10,7 @@ ISO2: `sc`. Status: ✅ fully populated as of 2026-05-07.
 - **Currency**: **Seychelles Rupee (SCR)** — managed-float since November 2008 (de-pegged amid the 2008 sovereign-debt crisis + IMF programme); CBS publishes daily indicative rates at `https://www.cbs.sc/marketinfo/DailyRates.html`. As of late April 2026, indicative rate ≈ **SCR 14.7–14.9 / USD 1** (per Trading Economics + Wise mid-market — verify CBS spot before any deal). USD + EUR informally accepted in tourism sector; all property is **listed in SCR for legal purposes** but agency marketing routinely quotes USD/EUR for foreign buyers. Banking system intermediates conversion.
 - **Languages**: Three official — **Seychellois Creole (Seselwa)**, **English**, **French**. **English is the working language of government, courts, and registers** (legal documents executed in English). Property listings + agency websites mostly English with French/Russian secondary marketing.
 - **Legal system**: Mixed civil-law (French Code Napoléon heritage via 1808 colonisation) + English common law (post-1814 British administration). **Land law is heavily codified — French-style** (Civil Code Cap 33 — *Code Civil* descended from Code Napoléon); **conveyancing process is common-law** (notary attestation + deed registration). Independent since **29 June 1976**.
-- **Cadastre / land registry**: **Seychelles Registration Office** (formerly Land Registration Division) — `https://registrationdivision.gov.sc/`. Operates two parallel registers under the **Land Registration Act, Cap 107** (consolidated 30 June 2014, see `https://seylii.org/akn/sc/act/1965/25/eng@2014-12-01`):
+- **Cadastre / land registry**: **Seychelles Registration Office** (formerly Land Registration Division) — `https://registrationdivision.gov.sc/`. Operates two parallel registers under the **Land Registration Act, Cap 107** (consolidated 30 June 2014, see `https://seylii.org/akn/sc/act/1965/25`):
   - **Old Register** (deeds-of-title, French-derived, narrative chain) — most older Mahé / Praslin / La Digue parcels still here
   - **New Register** (Torrens-style title-by-registration) — progressive rollout; **Praslin + La Digue conversion launched June 2024** (per Seychelles News Agency reporting), Mahé gradual
   - **WebGIS / Cadastre and Planning portal**: `https://www.webgis.gov.sc/index.phtml?config=default` — public planning + parcel viewer (Ministry of Habitat, Infrastructure and Land Transport — MHILT)
@@ -656,7 +656,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 | Financial Services Authority | `https://www.fsaseychelles.sc/` |
 | Seychelles Police Force | `https://www.police.gov.sc/` |
 | SeyLII (legislation) | `https://seylii.org/` |
-| Land Registration Act (consolidated) | `https://seylii.org/akn/sc/act/1965/25/eng@2014-12-01` |
+| Land Registration Act (consolidated) | `https://seylii.org/akn/sc/act/1965/25` |
 | Eden Island | `https://www.edenisland.sc/` |
 | Chambers Real Estate 2025 — Seychelles | `https://practiceguides.chambers.com/practice-guides/real-estate-2025/seychelles` |
 | Seychelles News Agency | `http://www.seychellesnewsagency.com/` |

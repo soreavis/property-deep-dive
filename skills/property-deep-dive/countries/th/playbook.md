@@ -59,7 +59,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 - Legal basis: **Condominium Act BE 2522 (1979)**, as amended (1991, 1999, 2008). Source text via Office of the Council of State `http://www.krisdika.go.th/`.
 - **49% foreign quota**: foreigners may collectively own up to 49% of the **total saleable floor area** of any one condominium project. The quota is **per project, not per unit type**.
 - **Quota verification** before purchase: ask the project's juristic person (นิติบุคคลอาคารชุด — condo management entity) for a written **Foreign Quota Certificate** stating current foreign-owned area % and confirming the unit you are buying is "in foreign quota". Without it, DOL will not transfer the unit to a foreign name.
-- **FX rule (mandatory)**: purchase funds must be remitted **from abroad in foreign currency** and converted to THB inside Thailand. The receiving Thai bank issues a **Foreign Exchange Transaction Form (FET / formerly Tor Tor 3 / ธ.ต.3)** for any single inbound transfer ≥ USD 50,000 (or its equivalent). FET is mandatory evidence at DOL transfer; without it, the transfer cannot be registered. Source: Bank of Thailand FX regulation `https://www.bot.or.th/en/financial-markets/foreign-exchange-regulations.html`
+- **FX rule (mandatory)**: purchase funds must be remitted **from abroad in foreign currency** and converted to THB inside Thailand. The receiving Thai bank issues a **Foreign Exchange Transaction Form (FET / formerly Tor Tor 3 / ธ.ต.3)** for any single inbound transfer ≥ USD 50,000 (or its equivalent). FET is mandatory evidence at DOL transfer; without it, the transfer cannot be registered. Source: Bank of Thailand FX regulation `https://www.bot.or.th/en/our-roles/financial-markets/foreign-exchange-regulations.html`
 - **Resale vs new**: foreign quota is set per project at registration; new launches by reputable developers typically reserve foreign units up-front. Resale risk: a unit may have been sold to a Thai owner and now needs to slot back into foreign quota — verify with the juristic person *in writing*.
 
 ### Path 2: 30-year leasehold of land
@@ -99,7 +99,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 ### Foreign Business Act BE 2542 (1999)
 
 - Restricts foreign majority ownership in many sectors. **Real-estate brokerage** (List 3 §22) is a restricted activity → foreigners cannot run a Thai real-estate agency without BoI/MoC approval.
-- Source: Ministry of Commerce text `https://www.dbd.go.th/foreign_business_act.html`
+- Source: Ministry of Commerce text `https://www.dbd.go.th`
 
 ### Confidence
 
@@ -113,7 +113,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 
 - **REIC (Real Estate Information Center, ศูนย์ข้อมูลอสังหาริมทรัพย์)** — Government Housing Bank (GH Bank) subsidiary, semi-official data.
   - Portal: `https://www.reic.or.th/`
-  - English summaries: `https://www.reic.or.th/en/`
+  - English summaries: `https://www.reic.or.th`
   - Quarterly transfer-price index, condo price index by zone, supply pipeline.
 - **AREA (Agency for Real Estate Affairs, บริษัท เอเจนซี่ ฟอร์ เรียลเอสเตท แอฟแฟร์ส)** — semi-private, widely cited; market intelligence reports.
   - Portal: `https://www.area.co.th/`
@@ -122,7 +122,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
   - Online appraisal lookup: `https://assessprice.treasury.go.th/`
   - Note: appraised value is typically **30–60% of market value** in Bangkok central districts — useful as a tax-base reference, not a price benchmark.
 - **DOL transfer registers** — actual sale prices filed at transfer; not centrally published, accessible per-parcel at provincial DOL.
-- **Bank of Thailand (ธนาคารแห่งประเทศไทย)** — quarterly real estate stability monitors. `https://www.bot.or.th/en/statistics/real-estate.html`
+- **Bank of Thailand (ธนาคารแห่งประเทศไทย)** — quarterly real estate stability monitors. `https://www.bot.or.th/en/statistics/real-sector.html`
 
 ### Listing platforms (secondary, listings = seller-controlled)
 
@@ -365,7 +365,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 2. A specific job description
 3. A specific work location
 
-**Restricted occupations**: under **Foreign Worker Act BE 2521 (1978)** and Ministerial Regulations, **39 occupations are reserved for Thai nationals**. Examples: agriculture (most), retail (street/market), barber/hairdresser (manual), tour guide, brokerage (incl. real-estate), and several traditional crafts. List: `https://www.doe.go.th/prd/main/general/cat/category_56` (verify current list — periodically updated).
+**Restricted occupations**: under **Foreign Worker Act BE 2521 (1978)** and Ministerial Regulations, **39 occupations are reserved for Thai nationals**. Examples: agriculture (most), retail (street/market), barber/hairdresser (manual), tour guide, brokerage (incl. real-estate), and several traditional crafts. List: `https://www.doe.go.th` (verify current list — periodically updated).
 
 ### Visa pathways relevant to property buyers
 
@@ -674,7 +674,7 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 | Royal Gazette (statutes) | `http://www.ratchakitcha.soc.go.th/` |
 | Krisdika (Office of the Council of State, statute texts) | `http://www.krisdika.go.th/` |
 | Cabinet Resolution database | `https://resolution.soc.go.th/` |
-| Bank of Thailand FX rules | `https://www.bot.or.th/en/financial-markets/foreign-exchange-regulations.html` |
+| Bank of Thailand FX rules | `https://www.bot.or.th/en/our-roles/financial-markets/foreign-exchange-regulations.html` |
 | Immigration Bureau | `https://www.immigration.go.th/` |
 | BoI main | `https://www.boi.go.th/` |
 | LTR Visa portal | `https://ltr.boi.go.th/` |

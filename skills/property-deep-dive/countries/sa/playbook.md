@@ -7,9 +7,9 @@ ISO2: `sa`. Status: ✅ Fully populated (researched 2026-05).
 ## Country profile
 
 - **Postcode**: 5-digit primary + 4-digit extension format (e.g., Riyadh `11564`, Jeddah `21513`, Dammam `31411`) administered by [Saudi Post (SPL)](https://www.splonline.com.sa/) — a **National Address (العنوان الوطني)** with building number + street + district + city + ZIP is **mandatory** for all government, banking, and utility services since 2017
-- **Population**: ~32.18M total; ~18.8M Saudi nationals + ~13.4M expatriates per **2022 Saudi Census** (most recent published; [GASTAT 2022 Census](https://www.stats.gov.sa/en/43); GASTAT 2024 mid-year population estimate: ~36.4M preliminary — verify final)
+- **Population**: ~32.18M total; ~18.8M Saudi nationals + ~13.4M expatriates per **2022 Saudi Census** (most recent published; [GASTAT 2022 Census](https://www.stats.gov.sa/en/statistics); GASTAT 2024 mid-year population estimate: ~36.4M preliminary — verify final)
 - **GDP per capita**: ~USD 32,500 (2024, IMF WEO Oct 2024) / ~USD 70,000 PPP — among GCC top tier
-- **Currency**: **SAR (ر.س — Saudi Riyal)** — pegged USD 1 = SAR 3.75 since 1 Jun 1986 ([SAMA](https://www.sama.gov.sa/en-US/EconomicReports/Pages/MonetaryPolicy.aspx)); peg defended through 1986–2026 (>40 years)
+- **Currency**: **SAR (ر.س — Saudi Riyal)** — pegged USD 1 = SAR 3.75 since 1 Jun 1986 ([SAMA](https://www.sama.gov.sa/en-US/Pages/default.aspx)); peg defended through 1986–2026 (>40 years)
 - **Languages**: **Arabic (official)** — all formal property contracts, deeds, and government filings in Arabic; English widely used in business + Vision-2030 mega-project marketing; bilingual translations common but Arabic prevails legally
 - **Admin levels**: 1 Kingdom → **13 emirates (مناطق إدارية / Provinces)** → **118 governorates (محافظات)** → municipalities (بلديات) and districts (أحياء)
   - Major property markets: **Riyadh Province** (capital region — 8.7M pop), **Makkah Province** (Jeddah + Mecca + Taif), **Eastern Province** (Dammam + Khobar + Dhahran), **Madinah Province**, **Asir** (Abha)
@@ -110,7 +110,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 - **REGA Real Estate Pulse (نبض العقار)**: `https://srem.rega.gov.sa/` — official transaction-level data, by city + district + property type, monthly + quarterly reports
 - **REGA Real Estate Market Report** (quarterly): published via [REGA publications](https://rega.gov.sa/en/Publications)
 - **GASTAT (General Authority for Statistics — الهيئة العامة للإحصاء)**: `https://www.stats.gov.sa/` — Real Estate Price Index (RPPI) quarterly + annual housing surveys
-- **SAMA Financial Stability Report** (annual, [SAMA](https://www.sama.gov.sa/en-US/EconomicReports/Pages/FinancialStability.aspx)) — mortgage + price-to-income series
+- **SAMA Financial Stability Report** (annual, [SAMA](https://www.sama.gov.sa/en-US/EconomicReports/Financial%20Stability%20Report/Financial_Stability_Report_2024_EN.pdf)) — mortgage + price-to-income series
 - **Knight Frank Saudi Arabia** + **JLL MENA** + **Colliers** + **CBRE** — secondary market reports (commercial-grade, cited by REGA)
 
 ### Listing platforms
@@ -628,7 +628,7 @@ Account opening requires **valid Iqama + Saudi mobile + National Address** for r
 
 ### Saudi Riyal (SAR) — peg framework
 
-- **Peg**: SAR 3.75 = USD 1, fixed since **1 Jun 1986** ([SAMA Monetary Policy](https://www.sama.gov.sa/en-US/EconomicReports/Pages/MonetaryPolicy.aspx))
+- **Peg**: SAR 3.75 = USD 1, fixed since **1 Jun 1986** ([SAMA Monetary Policy](https://www.sama.gov.sa/en-US/Pages/default.aspx))
 - **Peg type**: hard peg with active intervention by SAMA via FX reserves (~USD 437B as of Q4 2025 — IMF IFS); ~30+ months of import cover
 - **Mechanism**: SAMA buys/sells SAR vs USD at fixed parity to maintain band; interbank SAR/USD trades within ±0.0005 typically
 - **Inflation transmission**: Saudi monetary conditions de facto track US Fed via peg; SAIBOR moves in lockstep with USD LIBOR/SOFR
@@ -1114,7 +1114,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **InterNations Saudi Arabia** — `https://www.internations.org/saudi-arabia-expats/`
 - **Saudi Arabia GSA forum** — Gulf-Stream Aviation expat threads
 - **r/expats Saudi Arabia tag**
-- **Bayut Saudi Blog** — `https://www.bayut.sa/mybayut/`
+- **Bayut Saudi Blog** — `https://www.bayut.sa/blog/en/`
 - **Property Finder Saudi Insights** — `https://www.propertyfinder.sa/blog/`
 
 ## Verification authorities

@@ -266,7 +266,7 @@ Same flat, owner household income < 40k GEL:
 | **Ministry of Environmental Protection & Agriculture** | `https://mepa.gov.ge/En/` | Environmental impact assessments, climate strategy |
 | **Institute of Earth Sciences, Ilia State University** | `https://iliauni.edu.ge/en/iliauni/institutebi-451/dedamicis-shemstsavlel-metsnierebata-instituti` | Seismic monitoring, fault maps |
 | **National Seismic Network of Georgia (operated by Ilia Uni)** | `http://www.seismo.iliauni.edu.ge/` | Real-time earthquakes, station data |
-| **GeoSurvey (LEPL National Environmental Agency, Geological Service)** | `https://nea.gov.ge/Ge/Geology` | Geological maps, landslide registry |
+| **GeoSurvey (LEPL National Environmental Agency, Geological Service)** | `https://nea.gov.ge/En/Departments/Geology` | Geological maps, landslide registry |
 | **NACEC / NACER (Nuclear & Radiation Safety Agency)** | `https://nrsa.gov.ge/` | Radiation context (not radon-specific maps) |
 
 ### Flood / landslide / mudflow zones

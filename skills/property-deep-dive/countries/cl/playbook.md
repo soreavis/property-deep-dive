@@ -144,7 +144,7 @@ Aplica al titular cuya **suma de avalúos fiscales totales** supere **UF 670** (
 | > UF 1,175 a UF 1,510 | **0.150 %** (2020 original; verificar tabla 2026) |
 | > UF 1,510 | **0.275 %** to **0.425 %** post-2024 ajuste |
 
-> **DATA GAP**: Sobretasa exact 2026 tramos and rates have evolved through several Leyes de Reajuste. Verify current at: `https://www.sii.cl/normativa_legislacion/circulares/2020/circ52.pdf` + last `Circular SII` indexed for the año tributario.
+> **DATA GAP**: Sobretasa exact 2026 tramos and rates have evolved through several Leyes de Reajuste. Verify current at: `https://www.sii.cl/normativa_legislacion/circulares/2020/indcir2020.htm` + last `Circular SII` indexed for the año tributario.
 
 **Reform risk**: Ley 21.713 (cumplimiento tributario, 2024) and recent reforma tributaria proposals continue to revise sobretasa thresholds; treat the table above as MEDIUM-confidence and re-pull SII tabla each año.
 
@@ -330,7 +330,7 @@ Norma sísmica chilena: **NCh 433 Of.96 mod. 2009** + **DS 61/2011 MINVU** (post
 ### Aluvión / remoción en masa
 
 - Andean valleys: **Santiago oriente** (Lo Barnechea, San José de Maipo), **norte chico** (Atacama 2015 aluvión Chañaral), **Andes secos** susceptibles.
-- SERNAGEOMIN mapas de amenaza: `https://www.sernageomin.cl/peligros-geologicos/`.
+- SERNAGEOMIN mapas de amenaza: `https://www.sernageomin.cl/peligros-geologicos/` ❌ DEPRECATED — primary source removed; verify with Servicio Nacional de Geología y Minería (Sernageomin) — sernageomin.cl.
 
 ### Sequía + Código de Aguas
 

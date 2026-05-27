@@ -2,12 +2,12 @@
 
 ISO2: `bb`. Status: ✅ Fully populated (researched 2026-05-07).
 
-> **Critical framing — read first**: Barbados is an **English common-law island state** in the south-eastern Caribbean (outside the main hurricane track but still inside the Atlantic basin). The currency **BBD is pegged 2:1 to USD since 5 July 1975** — confirmed by [Central Bank of Barbados (CBB)](https://www.centralbank.org.bb/) and unbroken through 2026. **Foreign buyers face NO ownership restriction**: non-residents may buy freehold residential property on the same terms as Barbadians, **subject to** mandatory **registration of incoming foreign currency with the Central Bank of Barbados** (this is the gating step — without registered FX, capital and gains cannot be repatriated on resale). Property tax stack: **annual Land Tax** (banded, owner-occupied 0–1.0% on improved value, capped at BBD 100,000), **one-time Property Transfer Tax (PTT)** of **2.5%** on consideration above **BBD 150,000** (where a building exists; vacant land has no exemption), **one-time Stamp Duty** of **1%** on the gross consideration paid by the **seller**, and **17.5% VAT** on professional services (legal, agency) — but **VAT does NOT apply** to the property sale itself (real estate is VAT-exempt). **Citizenship-by-investment: NONE** (distinguish from St. Kitts, Dominica, Antigua & Barbuda, St. Lucia, Grenada). Residency routes are the **Welcome Stamp** (12-month digital-nomad visa, **USD 50,000+ income threshold**, renewable, tax-exempt on Barbados-sourced income from foreign employment — **renewed by Cabinet to 31 Dec 2026**) and the **Special Entry & Reside Permit (SERP)** (5-year renewable; Category 2 property-owner threshold **USD 300,000**). **Hurricane risk**: Barbados sits at **13.1°N, 59.5°W** — the easternmost Caribbean island, **south of the main Atlantic hurricane track** — but **Hurricane Beryl (1 July 2024)** passed ~150 km south as a Cat 3, generating heavy swell, storm surge and damaging the south + south-west coasts (~BBD 193M ECLAC-assessed effects, ~50 homes damaged, 240 fishing vessels lost). Pre-2024 the island had been ~70 years without a direct major-hurricane hit (since Hurricane Janet, 1955) — Beryl materially reset insurance market expectations. **Confirm** any current PTT band, Land Tax assessment, FX-registration status, and Welcome Stamp / SERP eligibility at primary sources **before any binding step**. Authoritative primary sources: **[Barbados Revenue Authority (BRA)](https://bra.gov.bb/)**, **[Central Bank of Barbados (CBB)](https://www.centralbank.org.bb/)**, **[Barbados Statistical Service (BSS)](https://www.barstats.gov.bb/)**, **[Immigration Department](https://immigration.gov.bb/)**, **[Lands and Surveys Department](https://www.landsandsurveys.gov.bb/)**, **[Invest Barbados](https://www.investbarbados.org/)**.
+> **Critical framing — read first**: Barbados is an **English common-law island state** in the south-eastern Caribbean (outside the main hurricane track but still inside the Atlantic basin). The currency **BBD is pegged 2:1 to USD since 5 July 1975** — confirmed by [Central Bank of Barbados (CBB)](https://www.centralbank.org.bb/) and unbroken through 2026. **Foreign buyers face NO ownership restriction**: non-residents may buy freehold residential property on the same terms as Barbadians, **subject to** mandatory **registration of incoming foreign currency with the Central Bank of Barbados** (this is the gating step — without registered FX, capital and gains cannot be repatriated on resale). Property tax stack: **annual Land Tax** (banded, owner-occupied 0–1.0% on improved value, capped at BBD 100,000), **one-time Property Transfer Tax (PTT)** of **2.5%** on consideration above **BBD 150,000** (where a building exists; vacant land has no exemption), **one-time Stamp Duty** of **1%** on the gross consideration paid by the **seller**, and **17.5% VAT** on professional services (legal, agency) — but **VAT does NOT apply** to the property sale itself (real estate is VAT-exempt). **Citizenship-by-investment: NONE** (distinguish from St. Kitts, Dominica, Antigua & Barbuda, St. Lucia, Grenada). Residency routes are the **Welcome Stamp** (12-month digital-nomad visa, **USD 50,000+ income threshold**, renewable, tax-exempt on Barbados-sourced income from foreign employment — **renewed by Cabinet to 31 Dec 2026**) and the **Special Entry & Reside Permit (SERP)** (5-year renewable; Category 2 property-owner threshold **USD 300,000**). **Hurricane risk**: Barbados sits at **13.1°N, 59.5°W** — the easternmost Caribbean island, **south of the main Atlantic hurricane track** — but **Hurricane Beryl (1 July 2024)** passed ~150 km south as a Cat 3, generating heavy swell, storm surge and damaging the south + south-west coasts (~BBD 193M ECLAC-assessed effects, ~50 homes damaged, 240 fishing vessels lost). Pre-2024 the island had been ~70 years without a direct major-hurricane hit (since Hurricane Janet, 1955) — Beryl materially reset insurance market expectations. **Confirm** any current PTT band, Land Tax assessment, FX-registration status, and Welcome Stamp / SERP eligibility at primary sources **before any binding step**. Authoritative primary sources: **[Barbados Revenue Authority (BRA)](https://bra.gov.bb/)**, **[Central Bank of Barbados (CBB)](https://www.centralbank.org.bb/)**, **[Barbados Statistical Service (BSS)](https://stats.gov.bb)**, **[Immigration Department](https://immigration.gov.bb/)**, **[Lands and Surveys Department](https://www.landsandsurveys.gov.bb/)**, **[Invest Barbados](https://www.investbarbados.org/)**.
 
 ## Country profile
 
 - **Geography**: Single coral-limestone island, **~432 km²**, easternmost of the Caribbean island chain (separate from the volcanic Lesser Antilles arc). Capital **Bridgetown** (St. Michael parish). 11 parishes: **St. Michael** (capital, Bridgetown), **Christ Church** (south coast — DNV / retirement / Grantley Adams International Airport), **St. James** (west coast — luxury "Platinum Coast"), **St. Peter** (north-west coast — Speightstown, luxury), **St. Lucy** (north), **St. Andrew** (north-east — Scotland District), **St. Joseph** (east), **St. John** (east), **St. Philip** (south-east), **St. George** (interior), **St. Thomas** (interior).
-- **Population**: **~282,500** (2024, World Bank — verify at [Barbados Statistical Service](https://www.barstats.gov.bb/)). Population near-flat / mildly declining; 2010 Census ~277,800. Fertility below replacement; net migration slightly negative; ageing demographic.
+- **Population**: **~282,500** (2024, World Bank — verify at [Barbados Statistical Service](https://stats.gov.bb)). Population near-flat / mildly declining; 2010 Census ~277,800. Fertility below replacement; net migration slightly negative; ageing demographic.
 - **GDP per capita**: **~USD 26,500 nominal** (2024, World Bank) / **~USD 22,700 PPP** (2024, IMF — verify at [IMF DataMapper Barbados](https://www.imf.org/external/datamapper/profile/BRB)). Tourism + offshore financial services + ICT dominate; tourism contributes ~30–40% of GDP directly + indirectly.
 - **Currency**: **BBD (Barbados Dollar — Bds$ / B$)** — **pegged 2:1 to USD since 5 July 1975** ([CBB — Fixed for Forty-One Years](https://www.centralbank.org.bb/news/general-press-release/fixed-for-forty-one-years), 2016 anniversary post). **USD widely accepted** in tourism + west-coast luxury property; high-end deals (Sandy Lane, Royal Westmoreland, Apes Hill, Port Ferdinand, Port St. Charles) typically **quoted USD-firm**; mid-market local listings **BBD-priced**. **Exchange Control Regulations** under the **Exchange Control Act, Cap. 71** require **registration of incoming foreign currency** with the [CBB Foreign Exchange Department](https://www.centralbank.org.bb/foreign-exchange) for non-resident property purchase — the registration is **the legal gateway for future repatriation of capital + gains**.
 - **Languages**: **English (official, sole)** — all contracts, deeds, statutes in English. Bajan Creole (Bajan dialect) is the everyday vernacular but legal/professional life is standard English.
@@ -22,10 +22,10 @@ ISO2: `bb`. Status: ✅ Fully populated (researched 2026-05-07).
 - **Recent reforms (12-month watchlist)**:
   - **Welcome Stamp renewed by Cabinet to 31 December 2026** (the 12-month digital-nomad visa launched June 2020 — among the earliest DNV programs globally). Verify current status at [Welcome Stamp official portal — Visit Barbados](https://www.visitbarbados.org/barbados-welcome-stamp).
   - **Personal Income Tax reduction announced for income year 2026** ([BRA Policy Note, 20 April 2026](https://bra.gov.bb/) — verify exact new bands when published). The 2025 schedule remained 12.5% / 28.5% with BBD 25,000 personal allowance.
-  - **Resilience and Regeneration Fund** employee contribution **raised to 0.25% (from 0.10%)** of gross earnings effective **1 April 2025** ([2025 Budget](https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html)).
-  - **2025 Budget**: **PTT removed for deeds of gift** to children/dependants for land < 1 acre (gifts only — does not affect arm's-length sales) ([KPMG TaxNewsFlash 2025-03](https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html)).
+  - **Resilience and Regeneration Fund** employee contribution **raised to 0.25% (from 0.10%)** of gross earnings effective **1 April 2025** ([2025 Budget](https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html) ❌ DEPRECATED — primary source removed; verify with KPMG TaxNewsFlash (Barbados budget coverage) and Barbados Ministry of Finance (https://www.gov.bb/Departments/finance)).
+  - **2025 Budget**: **PTT removed for deeds of gift** to children/dependants for land < 1 acre (gifts only — does not affect arm's-length sales) ([KPMG TaxNewsFlash 2025-03](https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html) ❌ DEPRECATED — primary source removed; verify with KPMG TaxNewsFlash (Barbados budget coverage) and Barbados Ministry of Finance (https://www.gov.bb/Departments/finance)).
   - **Hurricane Beryl (1 July 2024)** passed ~150 km south of Barbados as Cat 3 — first major-hurricane impact in modern memory; **insurance market re-rating ongoing 2024–2026**; ECLAC-assessed effects ~BBD 193M (~0.15% of GDP); damage concentrated south + south-west coasts + fishing infrastructure ([ECLAC, 2024](https://www.cepal.org/en/publications/82157-assessment-effects-and-impacts-hurricane-beryl-barbados-2024)).
-  - **Land Tax (Rate of Tax) Order, 2024** consolidated current bands ([S.I. 2024 No. 57 — BRA PDF](https://bra.gov.bb/attachment?file=Attachments/Land+Tax+(Rate+of+Tax)+Order,+2024.pdf&name=Land+Tax+(Rate+of+Tax)+Order,+2024)).
+  - **Land Tax (Rate of Tax) Order, 2024** consolidated current bands ([S.I. 2024 No. 57 — BRA PDF](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024)).
   - **Republic transition** (30 November 2021): Barbados became a parliamentary republic; King replaced by President as ceremonial head of state. **No effect on property law** (Crown references in older statutes read as references to the State).
 
 ---
@@ -94,8 +94,8 @@ This section determines whether a transaction is even legally possible — and w
 
 ### Primary sources
 
-- **[Barbados Statistical Service (BSS)](https://www.barstats.gov.bb/)** — Census 2010 + inter-census + Continuous Household Survey housing-stock data. **No official residential price index parcel-level**.
-- **[Central Bank of Barbados — Economic Reviews](https://www.centralbank.org.bb/research/economic-reviews)** — quarterly + annual; mortgage portfolio aggregates; periodic real-estate market commentary.
+- **[Barbados Statistical Service (BSS)](https://stats.gov.bb)** — Census 2010 + inter-census + Continuous Household Survey housing-stock data. **No official residential price index parcel-level**.
+- **[Central Bank of Barbados — Economic Reviews](https://www.centralbank.org.bb/news/economic-reviews)** — quarterly + annual; mortgage portfolio aggregates; periodic real-estate market commentary.
 - **[BRA — Land Tax valuation roll](https://bra.gov.bb/About/Tax-Types/Land-Tax/)** — improved-value assessments; not market value; not publicly searchable parcel-level (assessments lag market).
 - **Barbados Land Price Index (Terra Caribbean — secondary)**: industry index, useful trend reference but secondary tier.
 
@@ -137,7 +137,7 @@ This section determines whether a transaction is even legally possible — and w
 
 - **West-coast Platinum-Coast luxury (St. James / St. Peter)**: appreciating ~5–10% YoY USD-denominated through 2024 (Knight Frank, Sotheby's commentary; *secondary tier*); **Spot Blue + Hannah Properties** report **double-digit YoY** for prime Platinum Coast 2024–2025.
 - **South-coast Christ Church**: ~6% median appreciation 2024–2025 for apartments + townhomes (Hannah Properties / Spot Blue, *secondary*); **Welcome Stamp + retirement demand** drives steady absorption.
-- **CBB Q4 2024 commentary** (cited by Terra Caribbean): 2024 sales volume **+75% YoY vs 2023**, average sale value **+25% YoY** — verify direct at [CBB Economic Reviews](https://www.centralbank.org.bb/research/economic-reviews) for exact methodology.
+- **CBB Q4 2024 commentary** (cited by Terra Caribbean): 2024 sales volume **+75% YoY vs 2023**, average sale value **+25% YoY** — verify direct at [CBB Economic Reviews](https://www.centralbank.org.bb/news/economic-reviews) for exact methodology.
 - **Hurricane Beryl (1 July 2024) pricing impact**: limited on west coast (Beryl tracked south); some softening in south-coast fishing-village stock and direct-storm-surge-exposed parcels in St. Philip; insurance-premium escalation more material than headline-price impact.
 - **Inland / east-coast rural**: thin volume; pricing highly individual.
 
@@ -208,7 +208,7 @@ Barbados does **NOT publish a public AADT (Annual Average Daily Traffic) portal*
 
 ### Annual property tax — Land Tax
 
-Governed by the **Land Tax Act, Cap. 78A** + the **Land Tax (Rate of Tax) Order, 2024** ([S.I. 2024 No. 57 — BRA PDF](https://bra.gov.bb/attachment?file=Attachments/Land+Tax+(Rate+of+Tax)+Order,+2024.pdf&name=Land+Tax+(Rate+of+Tax)+Order,+2024)). Administered by the [BRA](https://bra.gov.bb/About/Tax-Types/Land-Tax/).
+Governed by the **Land Tax Act, Cap. 78A** + the **Land Tax (Rate of Tax) Order, 2024** ([S.I. 2024 No. 57 — BRA PDF](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024)). Administered by the [BRA](https://bra.gov.bb/About/Tax-Types/Land-Tax/).
 
 **Residential improved property** — graduated bands on **improved value**:
 
@@ -252,7 +252,7 @@ Governed by the **Property Transfer Tax Act, Cap. 84A**. Administered by [BRA](h
 | **Sale of long-term lease** | 2.5% (per Cap. 84A) |
 | **Sale of private-company shares** | 2.5% above BBD 50,000 |
 | **Stock-Exchange-listed shares** | Exempt |
-| **2025 Budget — gift to children/dependants of land < 1 acre** | **PTT removed** ([2025 Budget](https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html)) |
+| **2025 Budget — gift to children/dependants of land < 1 acre** | **PTT removed** ([2025 Budget](https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html) ❌ DEPRECATED — primary source removed; verify with KPMG TaxNewsFlash (Barbados budget coverage) and Barbados Ministry of Finance (https://www.gov.bb/Departments/finance)) |
 
 **Statutory liability**: **vendor pays PTT** (per Cap. 84A); commonly borne by vendor in practice.
 
@@ -437,7 +437,7 @@ Barbados is **moderately accessible as a local-employment destination** for skil
 | **Coastal Zone Management Unit (CZMU)** | `https://www.coastal.gov.bb/` | Coastal setback + erosion + storm-surge mapping |
 | **Caribbean Disaster Emergency Management Agency (CDEMA)** | `https://www.cdema.org/` | Regional coordination |
 | **US National Hurricane Center (NHC)** | `https://www.nhc.noaa.gov/` | Atlantic basin authoritative; primary regional reference |
-| **Climate Studies Group, UWI Mona** | `https://www.mona.uwi.edu/physics/csgm/` | Caribbean climate downscaling |
+| **Climate Studies Group, UWI Mona** | `https://www.mona.uwi.edu/earthquake` | Caribbean climate downscaling |
 | **University of the West Indies — Seismic Research Centre (SRC)** | `https://www.uwiseismic.com/` | Caribbean seismic + volcanic monitoring |
 
 ### Hurricane (Atlantic basin) — moderate, not absent
@@ -529,10 +529,10 @@ Barbados is **moderately accessible as a local-employment destination** for skil
 
 | Operator | Coverage |
 |---|---|
-| **[Barbados Water Authority (BWA)](https://www.bwa.bb/)** | National potable-water supply + sewerage where collective sewer exists |
+| **[Barbados Water Authority (BWA)](https://barbadoswaterauthority.com)** | National potable-water supply + sewerage where collective sewer exists |
 | **Septic + soakaway** | Standard outside the limited collective-sewer footprint |
 
-URL: `https://www.bwa.bb/`.
+URL: `https://barbadoswaterauthority.com`.
 
 ### Sewer reality
 
@@ -901,11 +901,11 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 | Welcome Stamp portal — Visit Barbados | `https://www.visitbarbados.org/barbados-welcome-stamp` |
 | Coastal Zone Management Unit | `https://www.coastal.gov.bb/` |
 | Department of Emergency Management | `https://dem.gov.bb/` |
-| Barbados Statistical Service | `https://www.barstats.gov.bb/` |
+| Barbados Statistical Service | `https://stats.gov.bb` |
 | Barbados Meteorological Services | `https://www.barbadosweather.org/` |
 | Royal Barbados Police Force | `https://www.barbadospoliceforce.gov.bb/` |
 | Financial Services Commission | `https://www.fsc.gov.bb/` |
-| Barbados Water Authority | `https://www.bwa.bb/` |
+| Barbados Water Authority | `https://barbadoswaterauthority.com` |
 | Barbados Light & Power Co. | `https://www.blpc.com.bb/` |
 | Invest Barbados | `https://www.investbarbados.org/` |
 | US National Hurricane Center (Atlantic basin) | `https://www.nhc.noaa.gov/` |

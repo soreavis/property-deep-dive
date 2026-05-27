@@ -167,7 +167,7 @@ Federal-level wealth tax on aggregate residential property value above threshold
 
 ### Capital Gains Tax — 양도소득세 (yangdosodeukse)
 
-Rates depend on holding period + property count + zone classification ([NTS source](https://www.nts.go.kr/english/main.do), 소득세법 § 104):
+Rates depend on holding period + property count + zone classification ([NTS source](https://www.nts.go.kr/english/cm/cntnts/cntntsView.do?mi=11195&cntntsId=8315main.do), 소득세법 § 104):
 
 | Scenario | Rate |
 |---|---|
@@ -229,7 +229,7 @@ Local tax (지방세) levied at contract / acquisition; paid within 60 days to �
 
 ### Inheritance Tax — 상속세 + Gift Tax — 증여세
 
-Progressive **10 %–50 %** on aggregate inheritance value above ₩1B–₩5B+ thresholds depending on heir relationship; among the world's higher inheritance regimes ([NTS source](https://www.nts.go.kr/english/main.do)):
+Progressive **10 %–50 %** on aggregate inheritance value above ₩1B–₩5B+ thresholds depending on heir relationship; among the world's higher inheritance regimes ([NTS source](https://www.nts.go.kr/english/cm/cntnts/cntntsView.do?mi=11195&cntntsId=8315main.do)):
 
 | Bracket | Rate |
 |---|---|
@@ -453,7 +453,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 ### National database
 
 - **상하수도정보시스템 (Water+Sewer Info System)** — 환경부: `https://www.waternow.go.kr/`
-- **K-water (한국수자원공사)** — bulk water + some retail: `https://www.kwater.or.kr/`
+- **K-water (한국수자원공사)** — bulk water + some retail: `https://www.kwater.or.kr`
 - **시·군·구 상하수도사업소** — retail operator per municipality
 
 ### Operators

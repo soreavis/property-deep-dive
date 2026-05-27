@@ -103,7 +103,7 @@ ISO2: `tw`. Status: ✅ Fully populated (researched 2026-05).
 ### Primary source
 
 - **交通部統計處 (Department of Statistics, MOTC)** — annual + quarterly traffic data
-  - Portal: `https://www.motc.gov.tw/ch/home.jsp?id=29&parentpath=0,2`
+  - Portal: `https://www.motc.gov.tw/ch/home.jsp?id=29&parentpath=0,2` ❌ DEPRECATED — primary source removed; verify with Ministry of Transportation and Communications, Taiwan (MOTC)
   - Statistical yearbook (交通統計要覽): `https://www.motc.gov.tw/ch/home.jsp?id=63&parentpath=0,6`
 - **交通部公路局 (Highway Bureau, MOTC)** — provincial highway 省道 + national freeway 國道 traffic
   - Portal: `https://www.thb.gov.tw/`
@@ -251,7 +251,7 @@ Source: [所得稅法 §4-4, §14-4 to §14-8](https://law.moj.gov.tw/LawClass/L
 
 Progressive **10 % → 15 % → 20 %** on net estate above exemption. Basic exemption: **13.33 M TWD (single)** + spouse deduction 4.93 M + adult dependant 50 K each + minor child increments + funeral 1.38 M (FY2024 figures, indexed; verify yearly at 國稅局).
 
-Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340072), [財政部國稅局 inheritance briefing](https://www.dot.gov.tw/etwmain/web/ETW118W/).
+Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340072), [財政部國稅局 inheritance briefing](https://admin.taiwan.net.tw/english).
 
 ### Future risk
 

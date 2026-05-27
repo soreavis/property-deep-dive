@@ -177,8 +177,8 @@ The **Pas Géométriques** are the State's coastal reserve, fixed by colonial-er
 
 | Item | Rate / amount | Source / note |
 |---|---|---|
-| **Registration duty (droit d'enregistrement) — Mauritian buyer or non-scheme transaction** | **5 %** on deed value | Registration Duty Act, MRA (`https://www.mra.mu/download/TheRegistrationDutyAct.pdf`) |
-| **Registration duty — non-citizen buyer under EDB scheme (IRS/RES/PDS/SCS/IHS/G+2)** | **5 % currently → 10 %** under Finance (Misc Provisions) Act 2025 | Effective date contested between sources: most cite **1 July 2026**; some cite "from publication in Government Gazette" — **verify in the gazetted Act** at `https://mof.govmu.org/Documents/Legislations/2025/Land%20(Duties%20and%20Taxes)%20Act.pdf` |
+| **Registration duty (droit d'enregistrement) — Mauritian buyer or non-scheme transaction** | **5 %** on deed value | Registration Duty Act, MRA (`https://www.mra.mu/download/TheRegistrationDutyAct.pdf` ❌ DEPRECATED — primary source removed; verify with Mauritius Revenue Authority (MRA) / Registrar General Department) |
+| **Registration duty — non-citizen buyer under EDB scheme (IRS/RES/PDS/SCS/IHS/G+2)** | **5 % currently → 10 %** under Finance (Misc Provisions) Act 2025 | Effective date contested between sources: most cite **1 July 2026**; some cite "from publication in Government Gazette" — **verify in the gazetted Act** at `https://mof.govmu.org/Documents/2025/Legislations/Land%20(Duties%20and%20Taxes)%20Act.pdf` |
 | **Land transfer tax (taxe de transfert sur les biens immobiliers) — seller pays** | **5 %** standard; rising to **10 %** for non-citizen resale of EDB-scheme property | Land (Duties and Taxes) Act 1984 (`https://www.mra.mu/download/TheLandAct.pdf`) |
 | **Notary fees** | **0.5–2 % sliding scale + 15 % VAT**; total typically **0.6–1.15 %** of deed value | Sliding: 2 % first MUR 250k → 1.5 % next 500k → 1 % next 1M → 0.5 % balance (Notarial profession barème) |
 | **EDB application fee (PDS / IRS / RES)** | **MUR 25,000** non-refundable | EDB Guidelines 2025 |
@@ -523,7 +523,7 @@ Mauritius sits in the **South-West Indian Ocean cyclone belt**. The MMS issues f
 - **EDB Premium Visa** (digital-nomad / long-stay): 1 year renewable; foreign-source income only; tax-residency optional. Threshold ~USD 1,500/mo (verify current).
 - **Global Business Licence (GBL) regime**: 15 % CIT with 80 % partial exemption on qualifying foreign-source income → effective 3 % CIT; regulated by FSC (`https://www.fscmauritius.org/`).
 - **Authorised Company (AC)**: even more streamlined cross-border vehicle, managed and controlled outside Mauritius.
-- **Freeport (Mauritius Freeport)**: customs-free zone for trans-shipment + light processing — `https://edbmauritius.org/info_centre/mauritius-freeport`
+- **Freeport (Mauritius Freeport)**: customs-free zone for trans-shipment + light processing — `https://edbmauritius.org/freeport-and-logistics`
 - **Africa Strategy / Africa Centre of Excellence**: investment incentives for fund management + treasury + holding companies serving Africa
 - **Tax-treaty network**: Mauritius has DTAs with 47+ countries (verify at MRA `https://www.mra.mu/`); India 2017 protocol limited the historic Indian-equity-CGT exemption (residual treaty benefits remain on royalties + interest).
 
@@ -631,9 +631,9 @@ Mauritius sits in the **South-West Indian Ocean cyclone belt**. The MMS issues f
 | Registrar General | `https://registrar.govmu.org/` |
 | MRA (taxes) | `https://www.mra.mu/` |
 | MRA Budget Highlights 2025/26 | `https://www.mra.mu/download/BudgetHighlights2025.pdf` |
-| MRA Registration Duty Act | `https://www.mra.mu/download/TheRegistrationDutyAct.pdf` |
+| MRA Registration Duty Act | `https://www.mra.mu/download/TheRegistrationDutyAct.pdf` ❌ DEPRECATED — primary source removed; verify with Mauritius Revenue Authority (MRA) / Registrar General Department |
 | MRA Land (Duties and Taxes) Act | `https://www.mra.mu/download/TheLandAct.pdf` |
-| Ministry of Finance Land Act 2025 | `https://mof.govmu.org/Documents/Legislations/2025/Land%20(Duties%20and%20Taxes)%20Act.pdf` |
+| Ministry of Finance Land Act 2025 | `https://mof.govmu.org/Documents/2025/Legislations/Land%20(Duties%20and%20Taxes)%20Act.pdf` |
 | Bank of Mauritius | `https://www.bom.mu/` |
 | Bank of Mauritius FX | `https://www.bom.mu/markets/foreign-exchange/consolidated-indicative-exchange-rates` |
 | Statistics Mauritius | `https://statsmauritius.govmu.org/` |

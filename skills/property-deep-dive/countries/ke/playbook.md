@@ -29,7 +29,7 @@ ISO2: `ke`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Constitutional regime: 2010 Constitution Art. 65 (FOUNDATIONAL)
 
-The **2010 Constitution of Kenya, promulgated 27 August 2010**, fundamentally restructured land tenure for non-citizens. Source: `http://www.parliament.go.ke/sites/default/files/2017-05/TheConstitutionOfKenya.pdf`
+The **2010 Constitution of Kenya, promulgated 27 August 2010**, fundamentally restructured land tenure for non-citizens. Source: `https://www.parliament.go.ke/sites/default/files/2017-05/The_Constitution_of_Kenya_2010.pdf`
 
 | Buyer type | Freehold | Leasehold | Agricultural land |
 |---|---|---|---|
@@ -60,7 +60,7 @@ The **2010 Constitution of Kenya, promulgated 27 August 2010**, fundamentally re
 - **HassConsult Property Index** (quarterly; private, the de facto Nairobi index since 2002): `https://www.hassconsult.com/`
 - **KNBS (Kenya National Bureau of Statistics)** — limited official RE data; CPI Housing component: `https://www.knbs.or.ke/`
 - **Central Bank of Kenya (CBK) Financial Stability Reports** + Quarterly Economic Reviews: `https://www.centralbank.go.ke/`
-- **KBA (Kenya Bankers Association) Housing Price Index**: `https://www.kba.co.ke/research-publications/`
+- **KBA (Kenya Bankers Association) Housing Price Index**: `https://www.kba.co.ke/about-research-center/`
 - **Knight Frank Kenya** quarterly Market Update: `https://www.knightfrank.co.ke/research`
 - **Cytonn Real Estate Reports** (quarterly): `https://cytonn.com/topicals` — quote with caveat (developer-aligned)
 - **Kenya Property Developers Association (KPDA)**: `https://www.kpda.or.ke/`
@@ -142,7 +142,7 @@ Listing-derived ranges, cross-checked against HassConsult Q4 2025 and Knight Fra
 
 ### Stamp Duty (one-time, buyer pays) — Stamp Duty Act Cap 480
 
-**Source**: Kenya Revenue Authority Stamp Duty: `https://www.kra.go.ke/individual/individual-pin-taxes/stamp-duty` — verify current rates at filing.
+**Source**: Kenya Revenue Authority Stamp Duty: `https://www.kra.go.ke/helping-tax-payers/faqs/stamp-duty` — verify current rates at filing.
 
 | Property type / location | Stamp Duty rate |
 |---|---|
@@ -150,14 +150,14 @@ Listing-derived ranges, cross-checked against HassConsult Q4 2025 and Knight Fra
 | Agricultural / rural land | **2 %** of declared value |
 | Mortgage / charge (additional) | 0.1 % of secured amount |
 
-(Source: Stamp Duty Act Cap 480 + KRA — verify at `https://www.kra.go.ke/individual/individual-pin-taxes/stamp-duty`)
+(Source: Stamp Duty Act Cap 480 + KRA — verify at `https://www.kra.go.ke/helping-tax-payers/faqs/stamp-duty`)
 
 - **Valuation basis**: KRA Valuation Department / Government Valuer assesses; where declared value < market value, KRA applies its own valuation. Under-declaration is endemic and subject to reassessment per KRA enforcement notices.
 - **Stamp Duty exemption — first home (proposed Finance Bill 2023, partially enacted)**: certain first-time-buyer reliefs under the Affordable Housing Programme — verify current scheme conditions at the State Department for Housing.
 
 ### Capital Gains Tax (CGT) — seller, on disposal
 
-- **Rate**: **15 %** of net gain (raised from 5 % by Finance Act 2022, effective 1 January 2023). Source: KRA CGT: `https://www.kra.go.ke/individual/individual-pin-taxes/capital-gains-tax`
+- **Rate**: **15 %** of net gain (raised from 5 % by Finance Act 2022, effective 1 January 2023). Source: KRA CGT: `https://www.kra.go.ke/individual/filing-paying/types-of-taxes/capital-gains-tax`
 - Net gain = transfer value − (acquisition cost + capital improvements + incidental costs)
 - Primary-residence relief: case-by-case treatment (no broad PPR exemption equivalent to UK). Inheritance + spouse-transfer + group-restructuring exemptions narrowly defined per Income Tax Act Eighth Schedule.
 - Filed on iTax via the Capital Gains Tax form within 30 days of transfer.
@@ -204,7 +204,7 @@ Annual property tax is **set by each county government** based on the **valuatio
 - **First sale of a residential dwelling by a developer**: 0 % (zero-rated) under VAT Act
 - **Commercial real estate first sale + lease**: 16 %
 - **Rental of residential premises**: exempt from VAT (separate Rental Income Tax — see `--rental`)
-- Source: KRA VAT `https://www.kra.go.ke/business/vat`
+- Source: KRA VAT `https://www.kra.go.ke/individual/filing-paying/types-of-taxes/value-added-tax`
 
 ### Personal Income Tax (rental implications) — Income Tax Act Cap 470
 
@@ -248,7 +248,7 @@ For the same purchase with mortgage (70 % LTV): add mortgage stamp duty 0.1 % of
 - Below KES 288,000/yr: exempt
 - Above KES 15,000,000/yr: standard PIT at marginal rates with full deductions
 - Filed monthly via iTax MRI form by 20th of following month
-- Source: KRA Residential Rental Income Tax: `https://www.kra.go.ke/individual/filing-paying/types-of-taxes/rental-income-tax`
+- Source: KRA Residential Rental Income Tax: `https://www.kra.go.ke/individual/filing-paying/types-of-taxes/residential-rental-income`
 
 ### Short-term rentals (STR / Airbnb)
 
@@ -1188,7 +1188,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 | Social Health Authority (SHIF) | `https://www.sha.go.ke/` |
 | Kenya Railways (SGR) | `https://krc.co.ke/` |
 | Moja Expressway (Nairobi Expressway toll) | `https://mojaexpressway.com/` |
-| 2010 Constitution of Kenya (PDF) | `http://www.parliament.go.ke/sites/default/files/2017-05/TheConstitutionOfKenya.pdf` |
+| 2010 Constitution of Kenya (PDF) | `https://www.parliament.go.ke/sites/default/files/2017-05/The_Constitution_of_Kenya_2010.pdf` |
 
 ## Status
 

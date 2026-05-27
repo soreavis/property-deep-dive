@@ -387,7 +387,7 @@ PIT brackets (monthly employment income, post-Nov 2023):
 | **REMA — Rwanda Environment Management Authority** | `https://www.rema.gov.rw/` | Wetlands, marshlands, EIA, pollution registry |
 | **MINIRENA / Ministry of Environment** | `https://www.environment.gov.rw/` | Climate / forestry / land |
 | **Meteo Rwanda — Rwanda Meteorology Agency** | `https://www.meteorwanda.gov.rw/` | Climate / weather / drought |
-| **RWCA — Rwanda Wildlife Conservation Authority / RDB Tourism** | `https://www.rdb.rw/tourism-and-conservation/` | National Park boundaries; buffer zones |
+| **RWCA — Rwanda Wildlife Conservation Authority / RDB Tourism** | `https://rdb.rw/investment-opportunities/invest-in-tourism/` | National Park boundaries; buffer zones |
 | **RBC — Rwanda Biomedical Centre** | `https://www.rbc.gov.rw/` | Disease vectors (malaria; cholera in border zones) |
 | **U.S. Geological Survey + Smithsonian Global Volcanism Programme** | `https://volcano.si.edu/` | Nyiragongo / Nyamuragira monitoring (Virunga, DRC side) |
 | **Goma Volcano Observatory (OVG, DRC) + IGN-FI / SAVCO regional monitoring** | (DRC primary) | Real-time Virunga seismicity data |
@@ -612,7 +612,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 - **Preferential CIT 3 %**: pure holding companies, investment SPVs, collective investment schemes, foreign-source-income IP companies (Kigali International Financial Centre route).
 - **150 % tax deduction** for SME / emerging investor internationalisation expenditure.
 - **Strategic Investment Project (SIP)** designation: bespoke incentive package available for nationally-significant projects.
-- **Source**: `https://rdb.rw/why-rwanda/investment-incentives/` + Law N° 006/2021 of 05/02/2021.
+- **Source**: `https://rdb.rw/why-rwanda/investment-incentives/` ❌ DEPRECATED — primary source removed; verify with Rwanda Development Board (RDB) + Law N° 006/2021 of 05/02/2021.
 
 ## Common listing platforms
 
@@ -695,7 +695,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 | RLMUA legacy — RLMA | `https://rlma.rw/` |
 | RDB — Rwanda Development Board | `https://rdb.rw/` |
 | RDB Business Procedures | `https://businessprocedures.rdb.rw/` |
-| RDB Investment Incentives | `https://rdb.rw/why-rwanda/investment-incentives/` |
+| RDB Investment Incentives | `https://rdb.rw/why-rwanda/investment-incentives/` ❌ DEPRECATED — primary source removed; verify with Rwanda Development Board (RDB) |
 | RRA — Rwanda Revenue Authority | `https://www.rra.gov.rw/` |
 | RRA Tax Handbook | `https://tax-handbook.rra.gov.rw/` |
 | RRA Immovable Property Tax page | `https://www.rra.gov.rw/index.php?id=64&L=27` |

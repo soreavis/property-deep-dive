@@ -87,7 +87,7 @@ Non-Qataris **cannot acquire any registered interest** in real estate outside th
 ### Compliance / AML
 
 - **Qatar Central Bank (QCB)** AML rules (Law 20/2019 on Combating Money Laundering and Terrorism Financing) require **source-of-funds documentation** for property purchases
-- **National Anti-Money Laundering and Terrorism Financing Committee (NAMLC)** under MOF — `https://www.namlc.gov.qa/` — coordinates real-estate sector compliance under FATF MENAFATF assessments
+- **National Anti-Money Laundering and Terrorism Financing Committee (NAMLC)** under MOF — `https://www.namlc.gov.qa/en/index.html` — coordinates real-estate sector compliance under FATF MENAFATF assessments
 - Cash transactions and high-value real-estate deals subject to enhanced due diligence; brokers + developers are designated reporting entities
 - Source-of-funds: bank statements, employment letter, prior asset sale proof — required at REA registration
 
@@ -113,7 +113,7 @@ Non-Qataris **cannot acquire any registered interest** in real estate outside th
 ### Listing platforms
 
 - **Property Finder Qatar**: `https://www.propertyfinder.qa/`
-- **Hapondo**: `https://www.hapondo.qa/` (Qatar-specific)
+- **Hapondo**: `https://www.hapondo.qa/` ❌ DEPRECATED — primary source removed; verify with Qatar listing portals (Property Finder Qatar — propertyfinder.qa) (Qatar-specific)
 - **Bayut Qatar** (limited): not active in Qatar — Property Finder + Hapondo dominate
 - **Qatar Living Property**: `https://www.qatarliving.com/properties` (largest classifieds + STR)
 - **Saakin Qatar**: `https://www.saakin.qa/`
@@ -513,7 +513,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
   - **Qatar National Bank (QNB)** — `https://www.qnb.com/`
   - **Qatar Islamic Bank (QIB)** — `https://www.qib.com.qa/` (largest Islamic bank in Qatar)
   - **Commercial Bank of Qatar (CBQ)** — `https://www.cbq.qa/`
-  - **Doha Bank** — `https://dohabank.qa/`
+  - **Doha Bank** — `https://dohabank.com.qa/`
   - **Ahli Bank Qatar (ABQ)** — `https://www.ahlibank.com.qa/`
   - **Qatar Development Bank** (specialised)
 - **Sharia-compliant Murabaha / Ijara** financing widely available alongside conventional mortgages
@@ -525,7 +525,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 ## Common listing platforms
 
 - **Property Finder Qatar** — `https://www.propertyfinder.qa/`
-- **Hapondo** — `https://www.hapondo.qa/`
+- **Hapondo** — `https://www.hapondo.qa/` ❌ DEPRECATED — primary source removed; verify with Qatar listing portals (Property Finder Qatar — propertyfinder.qa)
 - **Qatar Living Property** — `https://www.qatarliving.com/properties`
 - **Saakin Qatar** — `https://www.saakin.qa/`
 - **Just Property Qatar** — `https://www.justproperty.qa/`
@@ -613,7 +613,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 | Hamad International Airport | `https://dohahamadairport.com/` |
 | QFC (Qatar Financial Centre) | `https://www.qfc.qa/` |
 | Property Finder QA | `https://www.propertyfinder.qa/` |
-| Hapondo | `https://www.hapondo.qa/` |
+| Hapondo | `https://www.hapondo.qa/` ❌ DEPRECATED — primary source removed; verify with Qatar listing portals (Property Finder Qatar — propertyfinder.qa) |
 | Qatar Living | `https://www.qatarliving.com/` |
 | UDC (Pearl-Qatar developer) | `https://www.udcqatar.com/` |
 | Qatari Diar (Lusail) | `https://www.qataridiar.com/` |

@@ -45,7 +45,7 @@ ISO2: `jp`. Status: ✅ Fully populated (researched 2026-05).
 - **at home / アットホーム** — `https://www.athome.co.jp/`
 - **HOME'S / LIFULL HOME'S** — `https://www.homes.co.jp/`
 - **Yahoo!不動産** — `https://realestate.yahoo.co.jp/`
-- **GaijinPot Apartments** + **Real Estate Japan / RealEstate.co.jp** — English-language, foreigner-friendly: `https://gaijinpot.com/apartments/` and `https://realestate.co.jp/`
+- **GaijinPot Apartments** + **Real Estate Japan / RealEstate.co.jp** — English-language, foreigner-friendly: `https://gaijinpot.com/apartments/` ❌ DEPRECATED — primary source removed; verify with GaijinPot Housing (commercial listings aggregator, not a government source) and `https://realestate.co.jp/`
 
 ### Premium-area benchmarks (Q1-Q2 2025 reference, MLIT 公示地価 + Recruit Suumo new-build aggregates)
 
@@ -306,10 +306,10 @@ Progressive **10 % → 55 %** on each statutory heir's allotted share. Basic exe
 | **MLIT 重ねるハザードマップ** (overlay map) | `https://disaportal.gsi.go.jp/maps/?ll=35.681236,139.767125&z=12` | Multi-hazard layered visualization |
 | **J-SHIS (Japan Seismic Hazard Information Station)** — 防災科学技術研究所 / 地震調査研究推進本部 (HERP) | `https://www.j-shis.bosai.go.jp/` | Probabilistic seismic hazard maps; 30-year probability of JMA seismic intensity 5+, 5-, 6-, 6+ |
 | **気象庁 (JMA)** 緊急地震速報 + 過去地震データ | `https://www.jma.go.jp/` | Active hazard + historical |
-| **気象庁 津波警報・注意報** + 海岸線図 | `https://www.data.jma.go.jp/svd/eqev/data/tsunami/index.html` | Tsunami zones |
+| **気象庁 津波警報・注意報** + 海岸線図 | `https://www.data.jma.go.jp/eqev/data/en/tsunami/tsunami_warning.html` | Tsunami zones |
 | **海上保安庁 海岸線地形図** | `https://www.jha.or.jp/` | Coastal elevation |
 | **国土地理院 (GSI)** 活断層データベース | `https://gbank.gsj.jp/activefault/` | Active fault traces |
-| **Land Bureau 河川局 浸水想定区域図** | `https://www.mlit.go.jp/river/bousai/main/saigai/index.html` | Flood inundation zones (河川 + 内水 + 高潮) |
+| **Land Bureau 河川局 浸水想定区域図** | `https://www.mlit.go.jp/river/bousai/bousai-portal/en/index.html` | Flood inundation zones (河川 + 内水 + 高潮) |
 
 ### J-SHIS verdict bands (30-year probability of JMA震度6弱以上, 確率論的地震動予測地図)
 
@@ -359,7 +359,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 - Super-typhoons: intensity rise; track shift northward; Kyūshū, 紀伊半島, 関東 increasing exposure
 - Sea-level rise: +0.3–0.6 m by 2100 RCP4.5; +0.5–1.0 m RCP8.5 — Tokyo Bay, Ōsaka Bay coastal land + Kanagawa湾岸 + 沖縄 low-lying atolls
 - Precipitation: extreme rain events (1-hour 50 mm+) +20–30 % frequency by 2050
-- Source: JMA reports — `https://www.jma.go.jp/jma/press/2306/01a/kikohendou_20230601.html` and IPCC AR6 East Asia Atlas
+- Source: JMA reports — `https://www.jma.go.jp/jma/press/2306/01a/kikohendou_20230601.html` ❌ DEPRECATED — primary source removed; verify with Japan Meteorological Agency (JMA) and IPCC AR6 East Asia Atlas
 
 ---
 
@@ -529,7 +529,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 | at home | `https://www.athome.co.jp/` |
 | HOME'S / LIFULL | `https://www.homes.co.jp/` |
 | Yahoo!不動産 | `https://realestate.yahoo.co.jp/` |
-| GaijinPot Apartments | `https://gaijinpot.com/apartments/` |
+| GaijinPot Apartments | `https://gaijinpot.com/apartments/` ❌ DEPRECATED — primary source removed; verify with GaijinPot Housing (commercial listings aggregator, not a government source) |
 | LIFULL 空き家バンク aggregator | `https://www.akiya-athome.jp/` |
 
 ## Status

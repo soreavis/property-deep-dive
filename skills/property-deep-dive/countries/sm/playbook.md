@@ -12,7 +12,7 @@ ISO2: `sm`. Status: ✅ Fully populated (researched 2026-05).
 - **Currency**: **EUR (€)** — adopted via [Monetary Agreement EU/San Marino 2001 (rev. 2012)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22012A1217%2801%29); San Marino mints its own euro coins (since 2002, capped annual volume); **NOT a Eurozone member, NOT an EU member**. Same regime category as Andorra / Monaco / Vatican
 - **Languages**: **Italian** (sole official); local **dialetto sammarinese** (Romagnol-derived) in informal use. Notarial acts and primary government legislation **in Italian** — translate verbatim when citing numbers
 - **Cadastre**: **Ufficio Tecnico del Catasto e Cartografia (UTCC)** within Dipartimento Territorio e Ambiente — `https://www.gov.sm/pub1/GovSM/Dipartimenti/Dipartimento-Territorio-e-Ambiente/Ufficio-Tecnico-del-Catasto-e-Cartografia.html`. Public counter (Sportello Visure) at Via Piana 42, 47890 San Marino
-- **Land registry**: **Ufficio del Registro e Conservatoria** within Segreteria di Stato per le Finanze e il Bilancio — `https://www.finanze.sm/pub2/FinanzeSM/Dipartimento/Ufficio-del-Registro-e-Conservatoria.html`
+- **Land registry**: **Ufficio del Registro e Conservatoria** within Segreteria di Stato per le Finanze e il Bilancio — `https://gov.sm/pub2/GovSM/Dipartimenti/Dipartimento-Economia-e-Finanze/Ufficio-del-Registro-e-Conservatoria.html`
 - **Identifier**: Foglio + Mappale (sheet + parcel) per Castello — Italian-pattern but separate UTCC register
 - **Key documents**: *atto pubblico di compravendita* (notarial deed), *visura catastale* (UTCC extract), *certificato del Registro* (Conservatoria extract), *certificato penale generale* (clean criminal record — required for foreign buyers under Legge 173/2018)
 - **EU/Schengen status (CRITICAL)**: **EU customs union** since 1991 (extended to agricultural goods 2002 — Decisione 2/2002 Comitato di Cooperazione); **NOT in Schengen** — but de facto open border with Italy because the entire perimeter is Italian Schengen territory and there are no internal customs/immigration controls. Council of EU authorised Schengen-association negotiations 30 May 2024. **EU Association Agreement** initialled Dec 2023 with EU/Andorra/SM; signed 2024 — ratification pending as of mid-2026 (verify at `https://www.esteri.sm/`)
@@ -22,7 +22,7 @@ ISO2: `sm`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Primary sources
 
-- **Ufficio Tributario / Ufficio del Registro**: `https://www.finanze.sm/pub2/FinanzeSM/Dipartimento/Ufficio-del-Registro-e-Conservatoria.html` — sole official source for transfer values; **NO public price index** equivalent to Italian OMI / Andorran IPH
+- **Ufficio Tributario / Ufficio del Registro**: `https://gov.sm/pub2/GovSM/Dipartimenti/Dipartimento-Economia-e-Finanze/Ufficio-del-Registro-e-Conservatoria.html` — sole official source for transfer values; **NO public price index** equivalent to Italian OMI / Andorran IPH
 - **Ufficio Statistica (Statistica San Marino)**: `https://www.statistica.sm/` — quarterly *Bollettino di Statistica* covers macro indicators; residential transaction series **not published at quarterly granularity** — small-country sample-size limits
 - **BCSM (Banca Centrale della Repubblica di San Marino)**: `https://www.bcsm.sm/` — quarterly *Bollettino Informativo* covers banking system + mortgage stock; no standalone HPI
 - **Listing aggregators**: **Wikicasa** (`https://www.wikicasa.it/vendita-case/san-marino/`), **Immobiliare.it** (`https://www.immobiliare.it/mercato-immobiliare/emilia-romagna/san-marino/`), **Tecnocasa** (San Marino office) — secondary, listing-side ⚠️
@@ -841,7 +841,7 @@ Pre-2018, all non-citizen acquisitions required **prior authorisation of the Con
 | Segreteria di Stato per il Territorio e l'Ambiente | `https://www.territorio.sm/` |
 | Segreteria di Stato per il Turismo | `https://www.turismo.sm/` |
 | UTCC (Ufficio Tecnico del Catasto e Cartografia) | `https://www.gov.sm/pub1/GovSM/Dipartimenti/Dipartimento-Territorio-e-Ambiente/Ufficio-Tecnico-del-Catasto-e-Cartografia.html` |
-| Ufficio del Registro e Conservatoria | `https://www.finanze.sm/pub2/FinanzeSM/Dipartimento/Ufficio-del-Registro-e-Conservatoria.html` |
+| Ufficio del Registro e Conservatoria | `https://gov.sm/pub2/GovSM/Dipartimenti/Dipartimento-Economia-e-Finanze/Ufficio-del-Registro-e-Conservatoria.html` |
 | Servizio Protezione Civile | `https://www.gov.sm/pub2/GovSM/Dipartimenti/Dipartimento-Territorio-e-Ambiente/Servizio-Protezione-Civile.html` |
 | ISS (Istituto Sicurezza Sociale) | `https://www.iss.sm/` |
 | AASS (utility) | `https://www.aass.sm/` |

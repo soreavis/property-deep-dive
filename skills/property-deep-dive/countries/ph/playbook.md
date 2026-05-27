@@ -52,7 +52,7 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 - **Two project structures** per master deed: (a) condo corp owns the land, foreigner owns CCT + shares (foreign shares ≤ 40 %); (b) owners hold land as undivided common interest (foreign undivided interest ≤ 40 %).
 - **Verification before purchase**: request a **Foreign Ownership Certification** from the condo corp secretary confirming current foreign % and that the unit's transfer will not breach 40 %. Without it the RD may refuse annotation.
 - **Pre-selling vs RFO**: pre-selling under **PD 957 (Subdivision and Condominium Buyers' Protective Decree, 1976)** + DHSUD Licence to Sell. Verify the developer holds a current LTS (`https://dhsud.gov.ph/`) before any reservation.
-- **No FX form requirement**: unlike Thailand, no specific BSP foreign-exchange remittance form for condo purchase. BSP Manual of Regulations on FX Transactions governs inward-remittance reporting ≥ USD 50,000 — `https://www.bsp.gov.ph/Pages/Regulations/FXRegulations.aspx`.
+- **No FX form requirement**: unlike Thailand, no specific BSP foreign-exchange remittance form for condo purchase. BSP Manual of Regulations on FX Transactions governs inward-remittance reporting ≥ USD 50,000 — `https://www.bsp.gov.ph/Pages/Regulations/FXRegulations.aspx` ❌ DEPRECATED — primary source removed; verify with Bangko Sentral ng Pilipinas (BSP).
 
 ### Path 2: Long-term land lease + own the building
 
@@ -124,7 +124,7 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 
 ### Primary sources
 
-- **BSP Residential Real Estate Price Index (RREPI)** — quarterly, Bangko Sentral ng Pilipinas, by region (NCR vs AONCR — Areas Outside NCR) and by property type (condo, single attached/detached, townhouse, duplex). Source: `https://www.bsp.gov.ph/SitePages/MediaAndResearch/RREPI.aspx`.
+- **BSP Residential Real Estate Price Index (RREPI)** — quarterly, Bangko Sentral ng Pilipinas, by region (NCR vs AONCR — Areas Outside NCR) and by property type (condo, single attached/detached, townhouse, duplex). Source: `https://www.bsp.gov.ph/Pages/MediaAndResearch/PublicationsAndReports/regular_RREPI.aspx`.
 - **PSA — Construction Statistics from Approved Building Permits** — quarterly value/unit counts (proxy for new-build volume). `https://psa.gov.ph/statistics/construction`.
 - **BIR Zonal Values** — per-square-meter values by location used as the **floor** for capital gains tax + DST. **Not a market value**, but the highest-of (zonal vs gross selling price) is the tax base. Lookup zonal value PDFs by RDO at `https://www.bir.gov.ph/index.php/zonal-values.html`.
 - **Local Assessor's Office (City/Provincial Assessor)** — "fair market value" (FMV) and **assessed value** (a fraction of FMV) used for the local Real Property Tax (RPT) — typically lower than BIR zonal.
@@ -158,7 +158,7 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 | **El Nido / Coron (Palawan)** | Beachfront villa lease | 150,000–400,000 | ≈ $2,630–$7,020 | Dot Property Q1 2026 |
 | **La Union (San Juan, Urbiztondo)** | Condo / villa lease | 80,000–200,000 | ≈ $1,400–$3,510 | OnePropertee Q1 2026 |
 
-> Ranges are listing-derived; verify realised vs listing using BSP RREPI quarterly (latest published Q4 2025 at time of writing — verify via `https://www.bsp.gov.ph/SitePages/MediaAndResearch/RREPI.aspx`).
+> Ranges are listing-derived; verify realised vs listing using BSP RREPI quarterly (latest published Q4 2025 at time of writing — verify via `https://www.bsp.gov.ph/Pages/MediaAndResearch/PublicationsAndReports/regular_RREPI.aspx`).
 
 ### Compute
 
@@ -337,7 +337,7 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 - **Kalibrr** — `https://www.kalibrr.com/` (Manila-grown, tech-skewed)
 - **Indeed Philippines** — `https://ph.indeed.com/`
 - **OnlineJobs.ph** — Filipino virtual-assistant / outsourcing focused
-- **DOLE PhilJobNet** — `https://www.philjobnet.gov.ph/` (government-managed; SMEs)
+- **DOLE PhilJobNet** — `https://philjobnet.gov.ph` (government-managed; SMEs)
 - **Glassdoor Philippines** — pay benchmarks (small sample for niche roles)
 
 ### Work permit & visa

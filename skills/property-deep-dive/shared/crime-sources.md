@@ -97,7 +97,7 @@ For the property's locality, return:
 
 ### 🇦🇹 Austria
 
-- **BMI Sicherheitsbericht**: `https://www.bmi.gv.at/304/files/Sicherheitsbericht.aspx`
+- **BMI Sicherheitsbericht**: `https://www.bmi.gv.at/508/start.html`
 - **Statistik Austria Kriminalstatistik**: `https://www.statistik.at/`
 - Per-Bezirk + Bundesländer; annual
 
@@ -658,7 +658,7 @@ For the property's locality, return:
 - **NPF (Nigeria Police Force)**: `https://npf.gov.ng/` — annual statistics + state command data; limited public granularity
 - **NBS (National Bureau of Statistics)**: `https://nigerianstat.gov.ng/` — Crime Statistics Quarterly Report + Crime Experience and Safety Survey (CESS)
 - **MHA (Ministry of Interior)**: `https://interior.gov.ng/`
-- **State Commands** (NPF state offices): Lagos State Police `https://lspc.gov.ng/`, FCT Abuja `https://npf.gov.ng/abuja/`, Rivers State (Port Harcourt), Kano State; **per-LGA (774) + per-ward data not publicly available — verify with local Divisional Police Office (DPO)**
+- **State Commands** (NPF state offices): Lagos State Police `https://lspc.gov.ng/`, FCT Abuja `https://www.npf.gov.ng/home/zone/7`, Rivers State (Port Harcourt), Kano State; **per-LGA (774) + per-ward data not publicly available — verify with local Divisional Police Office (DPO)**
 - **Granularity**: national + per-state (36 + FCT) headlines via NBS; per-LGA inconsistently published; per-ward (8,809) not routine
 - **Caveat**: very high dark-figure (CESS 2024 victim survey shows ~3-5x recorded crime); Boko Haram NE (Borno/Yobe/Adamawa) + ISWAP Lake Chad / IPOB-ESN SE / banditry NW (Zamfara/Kaduna/Katsina) / Gulf of Guinea piracy + maritime kidnapping separately tracked under counter-terrorism; Lagos VI/Ikoyi/Lekki materially lower than mainland; published rates emphasize stability narrative; English official + 500+ languages + Pidgin universal affects victim reporting in non-Hausa/Yoruba/Igbo zones
 
@@ -785,7 +785,7 @@ For the property's locality, return:
 ### 🇧🇧 Barbados
 
 - **Royal Barbados Police Force (RBPF)**: `https://www.rbpf.gov.bb/` — annual report + monthly crime statistics; homicide, assault, burglary, theft, drug, traffic
-- **Barbados Statistical Service (BSS)**: `https://www.barstats.gov.bb/` — Statistical Abstract crime tables (cross-validation) + per-parish breakdowns
+- **Barbados Statistical Service (BSS)**: `https://stats.gov.bb` — Statistical Abstract crime tables (cross-validation) + per-parish breakdowns
 - **Caribbean Public Health Agency (CARPHA)**: regional homicide + injury surveillance
 - **UNODC Caribbean**: country profile aggregates (rate-per-100k cross-jurisdiction comparator)
 - **Granularity**: 11 parishes (St. Michael / Christ Church / St. James / St. Peter / St. Lucy / St. Andrew / St. Joseph / St. John / St. Philip / St. George / St. Thomas) + Bridgetown municipality + RBPF policing zones
@@ -823,7 +823,7 @@ For the property's locality, return:
 
 - **Maldives Police Service (MPS)**: `https://www.police.gov.mv/` — annual report + monthly statistics + atoll-level breakdowns
 - **Maldives Bureau of Statistics**: `https://census.gov.mv/` — Census 2022 + Statistical Yearbook crime/justice section
-- **Prosecutor General's Office**: `https://www.pgoffice.gov.mv/` — prosecution statistics
+- **Prosecutor General's Office**: `https://pgoffice.gov.mv/en` — prosecution statistics
 - **UNODC South Asia**: country profile aggregates
 - **Granularity**: 26 natural atolls (administratively split into 20 atoll-level constituencies + Malé capital) + ~187 inhabited islands (police presence concentrated Greater Malé + atoll-capital islands)
 - **Caveat**: **resort-island crime is reported separately** from inhabited-island crime via Tourism Ministry channels; Greater Malé (Malé / Hulhumalé / Villingili / Hulhulé) holds ~41% of resident pop → urban crime concentration; **gang-related youth crime** in Malé tracked by MPS post-2010 "Gangs of Malé" reporting series; non-Muslim foreign nationals + Sharia overlay on personal-status crime affects reporting culture (alcohol consumed only on resort islands legally; tourist-resort + inhabited-island regimes are essentially separate); small absolute numbers (~515k pop) → statistical noise

@@ -90,7 +90,7 @@ The **Beirut Central District (BCD)**, administered by **Solidere SAL** (Sociét
 
 **The Lebanese mortgage market is essentially frozen.** Key context:
 
-- **Pre-2019**: robust mortgage market via Bank Audi `https://www.bankaudi.com.lb/`, BLOM Bank `https://www.blombank.com/`, Byblos Bank `https://www.byblosbank.com/`, BLC Bank, Bank of Beirut, Fransabank, BBAC, etc., LTV up to 70–80%, tenures 15–25 years, USD-denominated common.
+- **Pre-2019**: robust mortgage market via Bank Audi `https://www.bankaudigroup.com/group/audi-research`, BLOM Bank `https://www.blombank.com/`, Byblos Bank `https://www.byblosbank.com/`, BLC Bank, Bank of Beirut, Fransabank, BBAC, etc., LTV up to 70–80%, tenures 15–25 years, USD-denominated common.
 - **Oct 2019 onward**: banking system effectively collapsed; depositor "Lollar" haircuts (pre-2019 USD deposits redeemable at heavily discounted exchange rates under BDL Circulars 151 / 158 / 161); informal capital controls; bank balance sheets impaired; new lending essentially halted.
 - **2026-05 reality**: new mortgages from Lebanese banks remain extremely scarce; where available, limited to fresh-USD deposits + heavily collateralized borrowers + short tenures + high effective rates.
 - **Foreign buyers** typically pay **CASH in fresh USD** (banknotes or international wire to a non-Lebanese escrow account) — Lebanese-bank financing is essentially unavailable to non-residents.
@@ -708,7 +708,7 @@ This is a **distinctive Lebanese quirk**. Even properties with mains EDL connect
 | Bayt Lebanon (jobs) | `https://www.bayt.com/en/lebanon/` |
 | Hirelebanese (jobs) | `https://www.hirelebanese.com/` |
 | Daleel Madani (NGO jobs) | `https://daleel-madani.org/` |
-| Bank Audi | `https://www.bankaudi.com.lb/` |
+| Bank Audi | `https://www.bankaudigroup.com/group/audi-research` |
 | BLOM Bank | `https://www.blombank.com/` |
 | Byblos Bank | `https://www.byblosbank.com/` |
 | ReliefWeb Lebanon | `https://reliefweb.int/country/lbn` |

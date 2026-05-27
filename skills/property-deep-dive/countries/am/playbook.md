@@ -26,7 +26,7 @@ ISO2: `am`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
   - Quarterly **Real Estate Price Index** for Yerevan + national; published as separate Quarterly Bulletin "Prices in Real Estate Market of the RA"
   - Q4 2024 Yerevan apartment price index: ~+9% YoY (ARMSTAT bulletin Mar 2025); cumulative ~+50–60% nominal Yerevan since 2021 (Russian-relocation wave + IT-sector boom)
 - **Cadastre Committee — e-cadastre.am**: `https://e-cadastre.am/` — full online title + ownership extract self-service (~AMD 10,000–15,000 standard, faster express options — verify current Cadastre tariff)
-- **CBA (Central Bank of Armenia) Financial Stability Report**: `https://www.cba.am/en/SitePages/fspublications.aspx` — mortgage debt stock + bank-side property-market commentary; CBA Macroprudential Reports
+- **CBA (Central Bank of Armenia) Financial Stability Report**: `https://www.cba.am/en/Publication/` — mortgage debt stock + bank-side property-market commentary; CBA Macroprudential Reports
 - **Yerevan Municipality Open Data**: `https://www.yerevan.am/` — selected market commentary, building-permit pipeline
 - **e-register.am** (Government unified e-register portal): `https://www.e-register.am/` — entity + cadastre cross-check
 
@@ -616,7 +616,7 @@ Universal — see `shared/climate-projections.md`. National source: Hydromet Ser
 - **Naïri Insurance**
 - **RESO** (Russia-linked)
 - **Armenia Insurance** (state-linked legacy)
-- Compare via CBA supervisory list: `https://www.cba.am/en/SitePages/fsipfdetails.aspx`
+- Compare via CBA supervisory list: `https://www.cba.am/en/Publication/`
 
 ### Climate + seismic + geopolitical loading
 

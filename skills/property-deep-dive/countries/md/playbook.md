@@ -43,11 +43,11 @@ ISO2: `md`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 | Orhei / Ungheni (district centres) | ~€400–€600 | ~€250–€450 | 999.md aggregate Q4 2024 |
 | Rural village houses (case la sat) | n/a | ~€8,000–€35,000 outright | 999.md village-house segment |
 
-> All €/m² are **est.** (calibration: cross-checked against BNS IPLR direction + ≥ 2 listing aggregators; primary-source €/m² not published by BNS — IPLR is index-only). Most listings priced in **EUR or USD** despite contracts denominated in **MDL** at BNM reference rate on signing day; verify exact figure on the day per BNM `https://www.bnm.md/en/official_exchange_rates`.
+> All €/m² are **est.** (calibration: cross-checked against BNS IPLR direction + ≥ 2 listing aggregators; primary-source €/m² not published by BNS — IPLR is index-only). Most listings priced in **EUR or USD** despite contracts denominated in **MDL** at BNM reference rate on signing day; verify exact figure on the day per BNM `https://www.bnm.md/en/content/official-exchange-rates`.
 
 ### Listing platforms
 
-- **999.md** (largest classifieds, all categories incl. real estate): `https://999.md/ro/list/real-estate` *(per listing — verify with cadastre / on visit)*
+- **999.md** (largest classifieds, all categories incl. real estate): `https://999.md/ro/real-estate` *(per listing — verify with cadastre / on visit)*
 - **Makler.md** (long-running real-estate-specific): `https://makler.md/` *(per listing — verify with cadastre / on visit)*
 - **Lara.md** (real-estate portal with English UI): `https://lara.md/` *(per listing — verify with cadastre / on visit)*
 - **Imobil.md** (newer aggregator, agency-heavy): `https://imobil.md/` *(per listing — verify with cadastre / on visit)*
@@ -475,7 +475,7 @@ Universal — see `shared/climate-projections.md`. National source: Serviciul Hi
 
 - **Code**: MDL; subdivided into 100 bani; banknotes 1, 5, 10, 20, 50, 100, 200, 500, 1000 MDL
 - **Regime**: managed-float since 1998; BNM intervenes to smooth volatility but does not target a fixed rate
-- **Issuer**: [Banca Națională a Moldovei (BNM)](https://www.bnm.md/) — sole issuer; reference rate published daily on `https://www.bnm.md/en/official_exchange_rates`
+- **Issuer**: [Banca Națională a Moldovei (BNM)](https://www.bnm.md/) — sole issuer; reference rate published daily on `https://www.bnm.md/en/content/official-exchange-rates`
 
 ### Recent volatility (2022–2026)
 
@@ -865,7 +865,7 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 
 ## Common listing platforms
 
-- **999.md** (largest classifieds): `https://999.md/ro/list/real-estate` *(per listing — verify with cadastre / on visit)*
+- **999.md** (largest classifieds): `https://999.md/ro/real-estate` *(per listing — verify with cadastre / on visit)*
 - **Makler.md**: `https://makler.md/` *(per listing — verify with cadastre / on visit)*
 - **Lara.md** (English UI option): `https://lara.md/` *(per listing — verify with cadastre / on visit)*
 - **Imobil.md**: `https://imobil.md/` *(per listing — verify with cadastre / on visit)*
@@ -940,7 +940,7 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 | SFS Tax Service | `https://www.fisc.md/` |
 | BMA Migration Bureau | `https://bma.gov.md/` |
 | BNM National Bank | `https://www.bnm.md/` |
-| BNM exchange rates | `https://www.bnm.md/en/official_exchange_rates` |
+| BNM exchange rates | `https://www.bnm.md/en/content/official-exchange-rates` |
 | BNS Statistics | `https://statistica.gov.md/` |
 | CNPF Financial Markets | `https://www.cnpf.md/` |
 | Notarial Chamber | `https://www.notariat.md/` |
@@ -951,7 +951,7 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 | Premier Energy | `https://premierenergy.md/` |
 | ANTRIM Investment Agency | `https://invest.gov.md/` |
 | MITP Moldova IT Park | `https://moldovaitpark.md/` |
-| 999.md classifieds | `https://999.md/ro/list/real-estate` |
+| 999.md classifieds | `https://999.md/ro/real-estate` |
 | Makler.md | `https://makler.md/` |
 | Lara.md (EN) | `https://lara.md/` |
 | State Roads Authority | `https://asd.md/` |

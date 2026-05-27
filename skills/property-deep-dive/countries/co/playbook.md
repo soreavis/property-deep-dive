@@ -39,7 +39,7 @@ ISO2: `co`. Status: ✅ Fully populated (researched 2026-05).
 | **BanRep IPVN/IPVU** | Central bank | `https://www.banrep.gov.co/es/estadisticas/indice-precios-vivienda-nueva-usada` | Used-home price index (BanRep computes IPVU from mortgage records) |
 | **IGAC Geoportal / SIGOT** | Cadastre | `https://geoportal.igac.gov.co/` | Parcel viewer (where multipurpose cadastre rolled out) |
 | **UAECD Mapas Bogotá** | City cadastre | `https://www.catastrobogota.gov.co/` and `https://mapas.bogota.gov.co/` | Bogotá parcel + avalúo catastral |
-| **Catastro Medellín** | City cadastre | `https://www.medellin.gov.co/es/secretaria-gestion-control-territorial/` | Medellín parcel + avalúo |
+| **Catastro Medellín** | City cadastre | `https://www.medellin.gov.co/es/secretaria-gestion-y-control-territorial` | Medellín parcel + avalúo |
 | **Lonja de Propiedad Raíz Bogotá** | Trade body | `https://www.lonjadebogota.org.co/` | Quarterly market reports |
 | **Lonja de Propiedad Raíz Medellín** | Trade body | `https://www.lonja.com.co/` | Quarterly market reports + Antioquia |
 | **Galería Inmobiliaria** | Private aggregator | `https://galeriainmobiliaria.com.co/` | Sales data, paid pro tier |
@@ -404,7 +404,7 @@ Two distinct concepts (don't confuse):
 
 ## Active fiscal incentives (2025-2026)
 
-- **Mi Casa Ya** — MinVivienda subsidy for first-time VIS buyers (down-payment cover + interest-rate subsidy via **FRECH-Banca**) — verify current cupos at `https://www.minvivienda.gov.co/viceministerio-de-vivienda/programas/mi-casa-ya`
+- **Mi Casa Ya** — MinVivienda subsidy for first-time VIS buyers (down-payment cover + interest-rate subsidy via **FRECH-Banca**) — verify current cupos at `https://www.minvivienda.gov.co/viceministerio-de-vivienda/mi-casa-ya/subsidio-familiar-de-vivienda-nueva-cloned`
 - **FRECH (Fondo de Reserva para la Estabilización de la Cartera Hipotecaria)** — BanRep + MinVivienda interest-rate subsidies for new-build (VIS + VIP).
 - **VAT exemption** on construction VIS up to 135 SMLMV (Ley 1607/2012 + updates).
 - **Ley 1715/2014 + Ley 2099/2021** — renewable energy retrofit tax credits (50 % deduction over 15 years for solar PV, eficiencia energética).

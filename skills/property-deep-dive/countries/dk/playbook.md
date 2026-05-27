@@ -25,7 +25,7 @@ ISO2: `dk`. Status: ✅ Fully populated (researched 2026-04).
 - **OIS (Offentlig Information om Salg)**: `https://www.ois.dk/` — sales register, FREE; every sale recorded
 - **BBR (Bygnings- og Boligregistret)**: `https://www.bbr.dk/` — all buildings + dwellings register
 - **Tinglysning.dk**: `https://www.tinglysning.dk/` — land register; FREE viewer, paid certified extracts
-- **Boliga**: `https://www.boliga.com/` — sold prices map + listings (combines OIS + listings)
+- **Boliga**: `https://www.boliga.dk/` — sold prices map + listings (combines OIS + listings)
 - **Boligsiden**: `https://www.boligsiden.dk/` — major listings
 - **Danmarks Statistik (DST)** — Boligprisindeks: `https://www.dst.dk/`
 - **Danmarks Nationalbank** — financial stability
@@ -34,7 +34,7 @@ ISO2: `dk`. Status: ✅ Fully populated (researched 2026-04).
 ### Listing platforms
 
 - **Boligsiden** — biggest aggregator: `https://www.boligsiden.dk/`
-- **Boliga** — sold-price map specialty: `https://www.boliga.com/`
+- **Boliga** — sold-price map specialty: `https://www.boliga.dk/`
 - **Home.dk**, **EDC.dk**, **RealMaegler**, **Nybolig**, **DanBolig**, **Estate Mæglerne** — agency networks
 - **Lokalbolig.dk** — alternative
 
@@ -391,7 +391,7 @@ For andelsbolig, you must check:
 | Source | URL pattern |
 |---|---|
 | OIS (sales register) | `https://www.ois.dk/` |
-| Boliga | `https://www.boliga.com/` |
+| Boliga | `https://www.boliga.dk/` |
 | Boligsiden | `https://www.boligsiden.dk/` |
 | Vurderingsstyrelsen | `https://www.vurderingsstyrelsen.dk/` |
 | Vurderingsportalen | `https://www.vurderingsportalen.dk/` |

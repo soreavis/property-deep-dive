@@ -9,7 +9,7 @@ ISO2: `kw`. Status: ✅ Fully populated (researched 2026-05).
 - **Postcode**: **5-digit Kuwait Post codes** (e.g., Kuwait City Sharq `15001`, Salmiya `22033`, Hawalli `32001`) administered by [Kuwait Post (Ministry of Communications)](https://www.kw.post/) — postcodes used for postal sorting, but addressing in practice relies on **Block (قطعة) + Street (شارع) + House (منزل / جادة)** within a named area (منطقة)
 - **Population**: ~4.85M (2024 PACI mid-year estimate per [Public Authority for Civil Information](https://www.paci.gov.kw/)); ~30% Kuwaiti national (~1.45M) + ~70% expatriate (~3.4M) — among the world's highest expat-to-citizen ratios
 - **GDP per capita**: ~USD 32,800 (2024 IMF WEO Oct 2024) / ~USD 56,000 PPP — high-income oil-exporter
-- **Currency**: **KWD (د.ك — Kuwaiti Dinar)** — managed float against undisclosed basket since 20 May 2007 ([CBK Monetary Policy](https://www.cbk.gov.kw/en/cbk-news/announcements)); pre-2007 USD-pegged; KWD ≈ USD 3.25 (Q1 2026 indicative); **highest face-value currency globally**
+- **Currency**: **KWD (د.ك — Kuwaiti Dinar)** — managed float against undisclosed basket since 20 May 2007 ([CBK Monetary Policy](https://www.cbk.gov.kw/en/cbk-news/announcements-and-press-releases/announcements)); pre-2007 USD-pegged; KWD ≈ USD 3.25 (Q1 2026 indicative); **highest face-value currency globally**
 - **Languages**: **Arabic (official)** — all formal contracts, deeds, and Real Estate Registration filings in Arabic; English widely used in business + medical + technology sectors; bilingual translations common but Arabic prevails legally
 - **Admin levels**: 1 Emirate → **6 governorates (محافظات)** → areas (مناطق) and blocks (قطع)
   - Governorates: **Al Asimah (Capital — Kuwait City)**, **Hawalli**, **Farwaniya**, **Mubarak Al-Kabeer**, **Ahmadi**, **Jahra**
@@ -599,7 +599,7 @@ Account opening requires **valid Iqama + Kuwaiti mobile + Civil ID** for residen
 
 ### Kuwaiti Dinar (KWD) — managed-float framework
 
-- **Framework**: managed float against an **undisclosed currency basket** since **20 May 2007** ([CBK Monetary Policy](https://www.cbk.gov.kw/en/cbk-news/announcements))
+- **Framework**: managed float against an **undisclosed currency basket** since **20 May 2007** ([CBK Monetary Policy](https://www.cbk.gov.kw/en/cbk-news/announcements-and-press-releases/announcements))
 - **Pre-2007**: USD-pegged at KWD 0.29963 = USD 1
 - **Post-2007**: basket-managed; CBK actively intervenes; KWD has appreciated modestly vs USD since 2007
 - **Q1 2026 indicative**: KWD 1 ≈ USD 3.25 (verify current at CBK)

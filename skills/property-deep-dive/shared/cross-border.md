@@ -128,20 +128,20 @@ Pre-2017 OECD MTC: place-of-effective-management (POEM) tie-breaks dual corporat
 | UK treaty list | [HMRC Tax Treaty Manual A-Z](https://www.gov.uk/government/collections/tax-treaties) |
 | Canada treaty list | [Department of Finance — tax treaties](https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties.html) |
 | Australia treaty list | [ATO international tax agreements](https://www.ato.gov.au/individuals-and-families/international-tax-for-individuals/international-tax-agreements) |
-| France treaty list | [impots.gouv.fr — Conventions fiscales internationales](https://www.impots.gouv.fr/international-particulier/conventions-internationales) |
+| France treaty list | [impots.gouv.fr — Conventions fiscales internationales](https://www.impots.gouv.fr/les-conventions-internationales/conventions-internationales) |
 | Germany treaty list | [BMF — Stand der Doppelbesteuerungsabkommen](https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/staatenbezogene_info.html) |
-| Italy treaty list | [Agenzia delle Entrate — Convenzioni internazionali](https://www.agenziaentrate.gov.it/portale/web/guest/strumenti/normativa-e-prassi/normativa/convenzioni-internazionali) |
+| Italy treaty list | [Agenzia delle Entrate — Convenzioni internazionali](https://www.agenziaentrate.gov.it/portale/schede/rimborsi/convenzioni-contro-le-doppie-imposizioni/scheda-informativa-convenzioni-contro-le-doppie-imposizioni) |
 | Spain treaty list | [AEAT — Convenios para evitar la doble imposición](https://www.hacienda.gob.es/es-ES/Normativa%20y%20doctrina/Normativa/CDI/Paginas/CDI_Alfa.aspx) |
-| Netherlands treaty list | [Belastingdienst — Belastingverdragen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/individuals/contact/rates/tax_treaties/) |
-| Switzerland treaty list | [SIF — Doppelbesteuerungsabkommen](https://www.sif.admin.ch/sif/en/home/bilateral/tax-agreements/double-taxation-agreements.html) |
-| Slovakia treaty list | [Ministerstvo financií SR — Zoznam ZZDP](https://www.mfsr.sk/sk/dane-cla-uctovnictvo/priame-dane/zmluvy-zamedzenie-dvojiteho-zdanenia/) |
+| Netherlands treaty list | [Belastingdienst — Belastingverdragen](https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/when-is-a-tax-treaty-concluded) |
+| Switzerland treaty list | [SIF — Doppelbesteuerungsabkommen](https://www.sif.admin.ch/en/double-taxation-agreements-dtas) |
+| Slovakia treaty list | [Ministerstvo financií SR — Zoznam ZZDP](https://www.mfsr.sk/sk/dane-cla-uctovnictvo/priame-dane/dane-z-prijmu/zmluvy-zamedzeni-dvojiteho-zdanenia/zmluvy-zamedzeni-dvojiteho-zdanenia/) |
 | Czech Republic treaty list | [MF ČR — Přehled platných smluv](https://www.mfcr.cz/cs/legislativa/dvoji-zdaneni/prehled-platnych-smluv) |
 | Poland treaty list | [Ministerstwo Finansów — Wykaz umów o unikaniu podwójnego opodatkowania](https://www.gov.pl/web/finanse/wykaz-umow-o-unikaniu-podwojnego-opodatkowania) |
-| Japan treaty list | [MOF — Income Tax Treaties](https://www.mof.go.jp/english/policy/tax_policy/tax_conventions/index.html) |
-| Korea treaty list | [NTS — International Tax](https://www.nts.go.kr/english/) |
+| Japan treaty list | [MOF — Income Tax Treaties](https://www.mof.go.jp/english/policy/tax_policy/tax_conventions/index.htm) |
+| Korea treaty list | [NTS — International Tax](https://www.nts.go.kr/english/cm/cntnts/cntntsView.do?mi=11195&cntntsId=8315) |
 | Singapore treaty list | [IRAS — Avoidance of Double Taxation Agreements](https://www.iras.gov.sg/taxes/international-tax/list-of-dtas-limited-dtas-and-eoi-arrangements) |
 | Hong Kong treaty list | [IRD — Comprehensive DTAs](https://www.ird.gov.hk/eng/tax/dta_inc.htm) |
-| Brazil treaty list | [Receita Federal — Acordos Internacionais](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributacao-internacional/acordos-internacionais) |
+| Brazil treaty list | [Receita Federal — Acordos Internacionais](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/acordos-internacionais/acordos-para-evitar-a-dupla-tributacao) |
 | Mexico treaty list | [SAT — Tratados para evitar la doble tributación](https://www.sat.gob.mx/normatividad/63960/tratados-para-evitar-la-doble-tributacion-vigentes) |
 | South Africa treaty list | [SARS — Double Taxation Agreements](https://www.sars.gov.za/legal-counsel/international-treaties-agreements/double-taxation-agreements/) |
 
@@ -299,6 +299,6 @@ Pairs naturally with `--home-tax` (computes the buyer-side numbers), `--visa` (w
 - **EU Your Europe — Residence rights**: https://europa.eu/youreurope/citizens/residence/index_en.htm
 - **EU Your Europe — Cross-border taxation**: https://europa.eu/youreurope/citizens/work/taxes/index_en.htm
 - **STEP (Society of Trust and Estate Practitioners)**: https://www.step.org/
-- **IBA Tax Committee**: https://www.ibanet.org/Committee?id=A8B2D8B6-DD29-43B2-A5C9-37CCCD9B6FB6
+- **IBA Tax Committee**: https://www.ibanet.org/unit/Real+Estate+Section/committee/Real+Estate+Section/3101
 
 Per-country tax authority URLs are in `shared/home-tax.md` § Authority URLs (US IRS, UK HMRC, CA CRA, AU ATO, NZ IRD, DE BMF, FR DGFiP, IT Agenzia Entrate, ES AEAT, NL Belastingdienst, Nordic, CH ESTV, JP NTA, KR NTS, SG IRAS, HK IRD, CN STA, IL ITA, IN IT, BR Receita, MX SAT, ZA SARS, AE FTA, SA ZATCA).

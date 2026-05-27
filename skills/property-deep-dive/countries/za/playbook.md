@@ -76,8 +76,8 @@ Listing-derived ranges, cross-checked against FNB HPI (Q4 2024 / Q1 2025 release
 
 - **SANRAL** (South African National Roads Agency Ltd) — national routes (N-routes, R-routes managed nationally): `https://www.nra.co.za/` (open-data traffic counts limited; ITS sites publish monthly)
 - **Provincial DOTs** — regional roads:
-  - Western Cape: `https://www.westerncape.gov.za/dept/transport`
-  - Gauteng: `https://www.gauteng.gov.za/Departments/Roads-And-Transport`
+  - Western Cape: `https://www.westerncape.gov.za/mobility`
+  - Gauteng: `https://www.gauteng.gov.za/Departments/CPM-001010`
   - KZN: `https://www.kzntransport.gov.za/`
 - **Municipal traffic depts** for urban: City of Cape Town TDA (Transport Directorate); City of Johannesburg JRA (Johannesburg Roads Agency); eThekwini ETA
 - **OSM fallback**: `highway` tag for class (motorway, trunk, primary, secondary, tertiary, residential)
@@ -133,8 +133,8 @@ Listing-derived ranges, cross-checked against FNB HPI (Q4 2024 / Q1 2025 release
 | Municipality | Residential rate (cents/Rand of valuation) | Source |
 |---|---:|---|
 | **City of Cape Town** | ~0.6055 c/R (2024/25) | `https://www.capetown.gov.za/Family%20and%20home/Residential-utility-services/Residential-property-rates-and-valuations` |
-| **City of Johannesburg** | ~0.7 c/R (2024/25) | `https://www.joburg.org.za/services_/Pages/Council%20Services/Customer%20Service/Property-rates.aspx` |
-| **eThekwini (Durban)** | ~0.95–1.0 c/R (2024/25) | `https://www.durban.gov.za/pages/government/property-tax` |
+| **City of Johannesburg** | ~0.7 c/R (2024/25) | `https://joburg.org.za/services_/Pages/City%20Services/Rates%20and%20Taxes/Rates-and-Tax.aspx` |
+| **eThekwini (Durban)** | ~0.95–1.0 c/R (2024/25) | `https://www.durban.gov.za/uploads/0000/6/2025/09/22/ethekwini-municipality-property-rates-policy-2025-2026.pdf` |
 | **City of Tshwane (Pretoria)** | ~0.93 c/R (2024/25) | `https://www.tshwane.gov.za/?page_id=2050` |
 | **Ekurhuleni** | ~0.85 c/R (2024/25) | `https://www.ekurhuleni.gov.za/` |
 
@@ -261,7 +261,7 @@ For same R3M with 80 % bond:
 - **Permanent Residence**: various paths (5-yr work visa + critical skills, spouse, retired person with R37,000/month income)
 - **Retired Person's Visa**: requires income/assets ≥ R37,000/month for life
 
-Source: Department of Home Affairs: `https://www.dha.gov.za/index.php/immigration-services/types-of-visa-and-permits`
+Source: Department of Home Affairs: `https://www.dha.gov.za/index.php/immigration-services/types-of-visa-and-permits` ❌ DEPRECATED — primary source removed; verify with South African Department of Home Affairs (DHA)
 
 ### Salary benchmarks (2025, gross monthly, ZAR)
 
@@ -282,7 +282,7 @@ Source: Department of Home Affairs: `https://www.dha.gov.za/index.php/immigratio
 | **Council for Geoscience (CGS)** — sinkhole/dolomite + seismic | `https://www.geoscience.org.za/` | Dolomite stability + seismic hazard maps |
 | **South African Weather Service (SAWS)** | `https://www.weathersa.co.za/` | Storm/flood/wind warnings; long-term climate data |
 | **Working on Fire / DFFE wildfire** | `https://www.workingonfire.org/` + `https://www.dffe.gov.za/` | Wildfire registry + alerts |
-| **Provincial Disaster Management Centres (DMCs)** | per province (e.g., `https://www.westerncape.gov.za/dept/local-government/disaster-management`) | Local hazard maps + response |
+| **Provincial Disaster Management Centres (DMCs)** | per province (e.g., `https://www.westerncape.gov.za/local-government/disaster-management`) | Local hazard maps + response |
 | **Department of Water and Sanitation** | `https://www.dws.gov.za/` | Floodlines, dam levels |
 | **City of Cape Town water dashboard** | `https://www.capetown.gov.za/Family%20and%20home/Residential-utility-services/Residential-water-and-sanitation-services` | Dam levels, restriction levels |
 | **SAPS Crime Statistics** (quarterly) | `https://www.saps.gov.za/services/crimestats.php` | Per-station crime stats |
@@ -350,7 +350,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 
 - **City of Cape Town Water & Sanitation**: `https://www.capetown.gov.za/Family%20and%20home/Residential-utility-services/Residential-water-and-sanitation-services`
 - **Joburg Water (City of Johannesburg)**: `https://www.johannesburgwater.co.za/`
-- **eThekwini Water and Sanitation**: `https://www.durban.gov.za/pages/government/water-services`
+- **eThekwini Water and Sanitation**: `https://www.durban.gov.za/page/water-and-sanitation-services`
 - **City of Tshwane**: `https://www.tshwane.gov.za/?page_id=2050`
 - **Ekurhuleni Water**: `https://www.ekurhuleni.gov.za/`
 - **Department of Water and Sanitation**: `https://www.dws.gov.za/`
@@ -498,15 +498,15 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 | Pam Golding | `https://www.pamgolding.co.za/` |
 | Lightstone | `https://www.lightstoneproperty.co.za/` |
 | Cape Town rates / valuations | `https://www.capetown.gov.za/Family%20and%20home/Residential-utility-services/Residential-property-rates-and-valuations` |
-| JHB property rates | `https://www.joburg.org.za/services_/Pages/Council%20Services/Customer%20Service/Property-rates.aspx` |
-| eThekwini property tax | `https://www.durban.gov.za/pages/government/property-tax` |
+| JHB property rates | `https://joburg.org.za/services_/Pages/City%20Services/Rates%20and%20Taxes/Rates-and-Tax.aspx` |
+| eThekwini property tax | `https://www.durban.gov.za/uploads/0000/6/2025/09/22/ethekwini-municipality-property-rates-policy-2025-2026.pdf` |
 | Tshwane | `https://www.tshwane.gov.za/?page_id=2050` |
 | CSOS | `https://www.csos.org.za/` |
 | CGS (geoscience / dolomite / seismic) | `https://www.geoscience.org.za/` |
 | SAWS (weather / climate) | `https://www.weathersa.co.za/` |
 | Eskom load-shedding | `https://www.eskom.co.za/distribution/loadshedding/` |
 | SAPS Crime Stats | `https://www.saps.gov.za/services/crimestats.php` |
-| Department of Home Affairs (visas) | `https://www.dha.gov.za/index.php/immigration-services/types-of-visa-and-permits` |
+| Department of Home Affairs (visas) | `https://www.dha.gov.za/index.php/immigration-services/types-of-visa-and-permits` ❌ DEPRECATED — primary source removed; verify with South African Department of Home Affairs (DHA) |
 | CSIR Green Book (climate atlas) | `https://greenbook.co.za/` |
 | PPRA (Property Practitioners Regulatory Authority) | `https://www.theppra.org.za/` |
 | Acts of Parliament | `https://www.gov.za/documents/acts` |

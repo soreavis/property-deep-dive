@@ -118,7 +118,7 @@ This is the second deal-killer trap (parallel to Morocco's Office des Changes). 
 - **INS — Institut National de la Statistique** (`https://www.ins.tn/`) — publishes **Indice des Prix à la Production des Logements Neufs (IPPLN)** quarterly, plus census housing-stock data. Coverage is index-only (base 100), NOT absolute TND/m². Use for *trend*, combine with listings for *level*.
 - **BCT real-estate financial-stability annex** — `https://www.bct.gov.tn/bct/siteprod/page.jsp?id=53` — aggregate residential lending + market-stress signals
 - **Conservation de la Propriété Foncière (CPF)** — `https://www.domaine.gov.tn/` — registered transactions are not publicly searchable; notaries can pull *références notariales* on similar transactions in the délégation — ask your notary
-- **Direction Générale des Impôts (DGI)** under Ministry of Finance — `https://www.finances.gov.tn/` and `https://www.impots.finances.gov.tn/` — publishes **valeurs locatives de référence** per délégation used as registration-duty floor; useful as a *lower-bound* sanity check (typically 30–50 % below market)
+- **Direction Générale des Impôts (DGI)** under Ministry of Finance — `https://www.finances.gov.tn/` and `http://www.impots.finances.gov.tn/index.php/fr/` — publishes **valeurs locatives de référence** per délégation used as registration-duty floor; useful as a *lower-bound* sanity check (typically 30–50 % below market)
 
 ### Listing platforms
 
@@ -668,7 +668,7 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 | **Conservation de la Propriété Foncière (CPF)** | Title extract, plan cadastral, owner verification, mortgages | `https://www.domaine.gov.tn/` |
 | **OFNT / OTC (Topographie)** | Plan parcellaire, surveys | `https://www.otc.nat.tn/` |
 | **BCT (Banque Centrale de Tunisie)** | FX-inflow registration, repatriation rights | `https://www.bct.gov.tn/` |
-| **DGI (Direction Générale des Impôts)** | Tax rates, PVI, registration duty, valeur locative de référence | `https://www.finances.gov.tn/` and `https://www.impots.finances.gov.tn/` |
+| **DGI (Direction Générale des Impôts)** | Tax rates, PVI, registration duty, valeur locative de référence | `https://www.finances.gov.tn/` and `http://www.impots.finances.gov.tn/index.php/fr/` |
 | **INS (Institut National de la Statistique)** | Population, IPPLN, demographic data | `https://www.ins.tn/` |
 | **TIA (Tunisia Investment Authority)** | Investment Law incentives, investor residency | `https://tia.gov.tn/` |
 | **ONTT (Office National du Tourisme Tunisien)** | Tourism-zone classification, maison d'hôtes status | `https://www.tunisietourisme.com.tn/` |
@@ -713,7 +713,7 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 | OFNT / OTC (cadastre/topography) | `https://www.otc.nat.tn/` |
 | BCT (Banque Centrale) | `https://www.bct.gov.tn/` |
 | DGI / Ministry of Finance | `https://www.finances.gov.tn/` |
-| DGI tax portal | `https://www.impots.finances.gov.tn/` |
+| DGI tax portal | `http://www.impots.finances.gov.tn/index.php/fr/` |
 | INS (statistics) | `https://www.ins.tn/` |
 | TIA (investment) | `https://tia.gov.tn/` |
 | ONTT (tourism) | `https://www.tunisietourisme.com.tn/` |

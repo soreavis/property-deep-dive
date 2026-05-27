@@ -7,7 +7,7 @@ ISO2: `kh`. Status: ✅ Fully populated (researched 2026-05).
 ## Country profile
 
 - **Population**: ~17.4M (2024 NIS estimate; 2019 General Population Census 15.55M, source NIS `https://www.nis.gov.kh/`). Population is younger than ASEAN average (median age ~27).
-- **Postcode (postal code)**: 5-digit codes maintained by Cambodia Post (under the Ministry of Posts and Telecommunications). Phnom Penh is `12xxx` (capital city, 14 districts (khans) including Daun Penh `12206`, Chamkar Mon `12300`, 7 Makara, BKK1, etc.). Sihanoukville (Preah Sihanouk province) is `18xxx`. Siem Reap is `17xxx`. Battambang `02xxx`. Source: Cambodia Post `https://www.cambodiapost.post/`.
+- **Postcode (postal code)**: 5-digit codes maintained by Cambodia Post (under the Ministry of Posts and Telecommunications). Phnom Penh is `12xxx` (capital city, 14 districts (khans) including Daun Penh `12206`, Chamkar Mon `12300`, 7 Makara, BKK1, etc.). Sihanoukville (Preah Sihanouk province) is `18xxx`. Siem Reap is `17xxx`. Battambang `02xxx`. Source: Cambodia Post `https://cambodiapost.com.kh`.
 - **Admin levels**: 25 provinces (ខេត្ត / khaet) + Phnom Penh capital (រាជធានី / reach thani) → districts (ស្រុក / srok) and city sections (ក្រុង / krong) and capital quarters (ខណ្ឌ / khan; Phnom Penh has 14) → communes (ឃុំ / khum) and sangkats (សង្កាត់ / urban quarters) → villages (ភូមិ / phum). Reference: Ministry of Interior `https://www.interior.gov.kh/`. The 2014 Sub-Decree on Decentralization re-classified some districts; counts shift periodically — verify against the official PSC (provincial-statistical-classification).
 - **Currency** (dual system): KHR (Cambodian riel, ៛) AND USD circulate side-by-side. **USD dominates real-estate transactions, large-ticket commerce, hotel/restaurant pricing, and rental contracts (~80–90 % of urban transactions, per NBC monitoring)**. KHR is used for utilities, small purchases, taxes paid to the General Department of Taxation (which moved to riel-only assessment in many areas), and some payroll. **Reference rate** April 2026: 1 USD ≈ 4,050–4,150 KHR; the National Bank of Cambodia (NBC, Athnaki Cheati / ធនាគារជាតិ) defends a soft de facto peg via FX intervention. NBC daily rate: `https://www.nbc.gov.kh/english/economic_research/exchange_rate.php`. The de-dollarization policy is a long-term NBC objective (Project Bakong digital riel launched Oct 2020 to encourage KHR use); short-term, USD is unavoidable for real-estate.
 - **Languages**: Khmer (ភាសាខ្មែរ, official, sole national language under Article 5 Constitution). Khmer-script title and notarial documents are standard; English is widely used in expat-targeted developer brochures, premium law firms, and condo project marketing — **but every cadastral document and notarial deed of registered title is in Khmer** and requires sworn translation for foreign buyers. French is residual among older administrators (legal vocabulary partly Civil-Law-French-derived).
@@ -403,7 +403,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | **National Committee for Disaster Management (NCDM, គណៈកម្មាធិការជាតិគ្រប់គ្រងគ្រោះមហន្តរាយ)** | `https://www.ncdm.gov.kh/` | Disaster declarations, flood/storm history |
 | **Ministry of Water Resources and Meteorology (MOWRAM)** | `https://www.mowram.gov.kh/` | Hydrology, flood-risk mapping, river-flow monitoring |
 | **Department of Meteorology (DoM, under MOWRAM)** | (under MOWRAM site) | Weather, monsoon, tropical-cyclone tracking |
-| **Ministry of Environment (MoE)** | `https://www.moe.gov.kh/` | Climate-change adaptation strategy, EIA, air quality (limited public dashboards) |
+| **Ministry of Environment (MoE)** | `https://moeys.gov.kh` | Climate-change adaptation strategy, EIA, air quality (limited public dashboards) |
 | **MLMUPC** | `https://www.mlmupc.gov.kh/` | Urban planning master plans, hazard zoning for Phnom Penh / Sihanoukville / Siem Reap |
 | **Mekong River Commission (MRC, regional)** | `https://www.mrcmekong.org/` | Mekong basin flood + drought + hydrology — Cambodia is downstream of the Mekong |
 | **CCCA (Cambodia Climate Change Alliance)** | `https://www.cambodiaclimate.org.kh/` | Climate vulnerability assessments (UNDP-supported) |
@@ -608,7 +608,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 - **r/PhnomPenh**, **r/Sihanoukville** — city-specific
 - **r/expats** + **r/IWantOut** — long-stay / relocation
 - **CambodiaParents.com**, **expat.com Cambodia forum** — long-running expat forums
-- **Khmer440** (long-running classified expat forum): `https://www.khmer440.com/`
+- **Khmer440** (long-running classified expat forum): `https://www.khmer440.com/` ❌ DEPRECATED — primary source removed; verify with Cambodia Expats Online (cambodiaexpatsonline.com) for community signal; for official Cambodia information use moeys.gov.kh / cambodiapost.com.kh / mef.gov.kh as appropriate to topic
 - ⚠️ Forum-quality caveat: many anecdotes about "Cambodian-spouse / Cambodian-company workarounds" — anti-nominee enforcement has materially intensified since 2020; treat older forum threads as outdated. Sihanoukville-specific forum content frequently dates from the 2017–2019 boom; the post-cycle reality is materially different.
 
 ---
@@ -627,14 +627,14 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | **Ministry of Labour and Vocational Training (MLVT)** | Work permit, foreign labour rules, minimum wage | `https://www.mlvt.gov.kh/` |
 | **Council for Development of Cambodia (CDC)** | QIP investment, SEZ, large-project approvals | `https://www.cdc.gov.kh/` |
 | **Ministry of Tourism** | Hotel / guesthouse / accommodation licensing | `https://www.tourismcambodia.org/` |
-| **Ministry of Environment (MoE)** | EIA, climate adaptation, environmental | `https://www.moe.gov.kh/` |
+| **Ministry of Environment (MoE)** | EIA, climate adaptation, environmental | `https://moeys.gov.kh` |
 | **MOWRAM (Water Resources & Meteorology)** | Flood, hydrology, weather | `https://www.mowram.gov.kh/` |
 | **Ministry of Public Works and Transport (MPWT)** | Road network, AADT | `https://www.mpwt.gov.kh/` |
 | **National Institute of Statistics (NIS)** | Population, CSES, housing module | `https://www.nis.gov.kh/` |
 | **Ministry of Commerce — Business Registration** | Company registration | `https://www.businessregistration.moc.gov.kh/` |
 | **National Committee for Disaster Management (NCDM)** | Disaster declarations, history | `https://www.ncdm.gov.kh/` |
 | **Phnom Penh Capital Hall** | Phnom Penh urban planning, water/sewer, district admin | `https://www.phnompenh.gov.kh/` |
-| **Cambodia Post (postcode)** | Postal codes, postal addressing | `https://www.cambodiapost.post/` |
+| **Cambodia Post (postcode)** | Postal codes, postal addressing | `https://cambodiapost.com.kh` |
 
 ---
 
@@ -672,14 +672,14 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | Cambodia eVisa | `https://www.evisa.gov.kh/` |
 | Ministry of Labour and Vocational Training (MLVT) | `https://www.mlvt.gov.kh/` |
 | Ministry of Tourism | `https://www.tourismcambodia.org/` |
-| Ministry of Environment (MoE) | `https://www.moe.gov.kh/` |
+| Ministry of Environment (MoE) | `https://moeys.gov.kh` |
 | MOWRAM (water + meteorology) | `https://www.mowram.gov.kh/` |
 | Ministry of Public Works and Transport (MPWT) | `https://www.mpwt.gov.kh/` |
 | National Institute of Statistics (NIS) | `https://www.nis.gov.kh/` |
 | Ministry of Commerce — Business Registration | `https://www.businessregistration.moc.gov.kh/` |
 | National Committee for Disaster Management (NCDM) | `https://www.ncdm.gov.kh/` |
 | Phnom Penh Capital Hall | `https://www.phnompenh.gov.kh/` |
-| Cambodia Post (postcode) | `https://www.cambodiapost.post/` |
+| Cambodia Post (postcode) | `https://cambodiapost.com.kh` |
 | Constitutional Council | `https://www.ccc.gov.kh/` |
 | Mekong River Commission | `https://www.mrcmekong.org/` |
 | Open Development Cambodia | `https://opendevelopmentcambodia.net/` |

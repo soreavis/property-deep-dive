@@ -41,7 +41,7 @@ ISO2: `mo`. Status: ✅ Fully populated (researched 2026-05).
 - **Ricacorp Macau / 利嘉閣(澳門)**: `https://www.ricacorp.com.mo/`
 - **HouseMacau / 澳門房屋網**: `https://www.housemacau.com/`
 - **macauproperty.com**: `https://www.macauproperty.com/`
-- **591 Macao**: `https://macao.591.com.hk/`
+- **591 Macao**: `https://macao.591.com.hk/` ❌ DEPRECATED — primary source removed; verify with 591.com.hk (commercial listings aggregator)
 
 ### Area benchmarks (Q4 2025 reference, [DSEC Real Estate Statistics 4Q-2025](https://www.dsec.gov.mo/en-US/Statistic))
 
@@ -921,7 +921,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 | Ricacorp Macau | `https://www.ricacorp.com.mo/` |
 | HouseMacau | `https://www.housemacau.com/` |
 | macauproperty.com | `https://www.macauproperty.com/` |
-| 591 Macao | `https://macao.591.com.hk/` |
+| 591 Macao | `https://macao.591.com.hk/` ❌ DEPRECATED — primary source removed; verify with 591.com.hk (commercial listings aggregator) |
 
 ## Status
 

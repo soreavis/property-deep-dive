@@ -6,7 +6,7 @@ ISO2: `fr`. Status: ✅ Fully populated.
 
 - Postcode pattern: 5 digits (`XXXXX`)
 - INSEE code: 5-digit commune identifier (different from postcode)
-- Geocode commune → INSEE: use `https://geo.api.gouv.fr/communes?codePostal=<postcode>` or address-api `https://api-adresse.data.gouv.fr/search/?q=<query>`
+- Geocode commune → INSEE: use `https://geo.api.gouv.fr/communes?codePostal=<postcode>` or address-api `https://data.geopf.fr/geocodage/search/search/?q=<query>`
 - Currency: EUR (€)
 - Language: French (with German/Italian/Catalan/Basque regional pockets)
 - Cadastre: free public via `cadastre.gouv.fr`
@@ -80,7 +80,7 @@ ISO2: `fr`. Status: ✅ Fully populated.
 1. **DGFiP open data — communal tax rates** (canonical, all communes):
    - DGFiP fiscal data on data.economie.gouv.fr: [data.economie.gouv.fr — taux fiscalité directe locale](https://data.economie.gouv.fr/explore/?q=taux+fiscalit%C3%A9+directe+locale)
    - Service-Public.fr lookup tool overview: [service-public.gouv.fr A18426](https://www.service-public.gouv.fr/particuliers/actualites/A18426)
-   - Délibérations fiscales votées par les collectivités: [collectivites-locales.gouv.fr — Taux votés](https://www.collectivites-locales.gouv.fr/files/files/Etudes-et-statistiques/Taux%20de%20fiscalit%C3%A9%20directe%20locale%20vot%C3%A9s%20par%20les%20collectivit%C3%A9s/)
+   - Délibérations fiscales votées par les collectivités: [collectivites-locales.gouv.fr — Taux votés](https://www.collectivites-locales.gouv.fr/etudes-et-statistiques/acces-par-thematique/fiscalite/taux-de-fiscalite-directe-locale-votes-par-les-collectivites)
 2. **Department-level reference** (rank + average): [IndiceVille](https://indice-ville.com/analyses/taxe-fonciere-2024) — useful for "is this dept high-tax or low-tax" framing
 3. **Third-party aggregator** (use only if DGFiP open data lookup fails for the specific commune): `https://www.impots-locaux.org/impots-locaux-<commune-slug>-<postcode>/`
 4. **WebSearch fallback**: `"<commune>" taxe fonciere taux <year>` + TEOM rate
@@ -336,13 +336,13 @@ For FR-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 | Register | Action | Authority | URL |
 |---|---|---|---|
-| Tax residence | File final-year déclaration with foreign address; verify CGI Art. 4 B residence test against destination DTA tie-breaker; flag CGI Art. 167 bis exit-tax check (shareholdings > €800k or > 50% interest) | DGFiP — Particulier international | [impots.gouv.fr/international-particulier](https://www.impots.gouv.fr/international-particulier) |
+| Tax residence | File final-year déclaration with foreign address; verify CGI Art. 4 B residence test against destination DTA tie-breaker; flag CGI Art. 167 bis exit-tax check (shareholdings > €800k or > 50% interest) | DGFiP — Particulier international | [impots.gouv.fr/international-particulier](https://www.impots.gouv.fr/les-conventions-internationales) |
 | Tax address change | Change adresse fiscale via espace particulier | DGFiP | [impots.gouv.fr](https://www.impots.gouv.fr/) |
 | Civil register | No central FR civil register; tax-address change is the binding state notice. Mairie of last residence may also be informed (informal). | Mairie | (commune-level) |
 | Health insurance | Notify CPAM; if EU/EEA/CH destination, request **S1 form** via [Reg 883/2004](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0883) for transition coverage | Assurance Maladie / CPAM | [ameli.fr](https://www.ameli.fr/) |
 | Social security coordination | S1 (EU/EEA/CH) or bilateral totalisation agreement | CLEISS — Centre des Liaisons Européennes et Internationales de Sécurité Sociale | [cleiss.fr](https://www.cleiss.fr/) |
-| IFI (wealth tax) | If worldwide RE > €1.3M as FR resident — final-year IFI filing; first non-resident year, IFI scope reduces to French-situs RE only | DGFiP IFI | [impots.gouv.fr/IFI](https://www.impots.gouv.fr/particulier/limpot-sur-la-fortune-immobiliere-ifi) |
-| France-treaty register (DTA lookup) | Find the relevant FR-destination DTA + tie-breaker article + MLI matches | DGFiP — Conventions fiscales internationales | [impots.gouv.fr/conventions-internationales](https://www.impots.gouv.fr/international-particulier/conventions-internationales) |
+| IFI (wealth tax) | If worldwide RE > €1.3M as FR resident — final-year IFI filing; first non-resident year, IFI scope reduces to French-situs RE only | DGFiP IFI | [impots.gouv.fr/IFI](https://www.impots.gouv.fr/particulier/calcul-de-lifi) |
+| France-treaty register (DTA lookup) | Find the relevant FR-destination DTA + tie-breaker article + MLI matches | DGFiP — Conventions fiscales internationales | [impots.gouv.fr/conventions-internationales](https://www.impots.gouv.fr/les-conventions-internationales/conventions-internationales) |
 
 **Cross-link**: invoke `--cross-border` for the framework (DTA tie-breaker pointer + POEM/PE check + EU/EEA/CH free-movement clarification) and `--home-tax` for France-side annual / disposal / death / emigration detail (Art. 167 bis, IFI, Form 3916, etc.).
 

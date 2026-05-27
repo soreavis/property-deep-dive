@@ -41,7 +41,7 @@ ISO2: `uz`. Status: ✅ Fully populated (researched 2026-05).
 - **Central Bank of Uzbekistan (CBU — Oʻzbekiston Respublikasi Markaziy banki)** at [cbu.uz](https://cbu.uz/en/) — Financial Stability Report covers mortgage debt + housing-credit channel commentary; CBU Real Estate Market Reports issued semi-annually.
 - **Cadastre Agency** at [kadastr.uz](https://kadastr.uz/en) — public e-Kadastr access (registration required); published transaction volume statistics; cadastral valuation reports per region.
 - **Ministry of Economy and Finance** at [mineconomy.uz](https://www.mineconomy.uz/en) — sectoral real-estate market analysis (Concept Notes for Housing Sector Strategy).
-- **Uzbuild industry portal** at [uzbuild.uz/en](https://uzbuild.uz/en/) — secondary aggregator covering construction sector + price commentary.
+- **Uzbuild industry portal** at [uzbuild.uz/en](https://uzbuild.uz/en/about-exhibition) — secondary aggregator covering construction sector + price commentary.
 - **Kun.uz** + **UzDaily.uz** + **Gazeta.uz** — leading English-language news outlets reporting CBU + Stat.uz monthly real-estate prints.
 
 ### Price benchmarks (Q3–Q4 2025 reference, USD-denominated)
@@ -463,7 +463,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
   - Other regions: regional REC subsidiaries
 - **Gas distribution**: **JSC "Hududgazta'minot"** + **JSC "Uztransgaz"** (national transmission) under Ministry of Energy
 - **Water + sewerage**:
-  - Tashkent: **JSC "Suvsoz"** ([suvsoz.uz](https://www.suvsoz.uz/))
+  - Tashkent: **JSC "Suvsoz"** ([suvsoz.uz](https://www.suvsoz.uz/) ❌ DEPRECATED — primary source removed; verify with State Unitary Enterprise Suvsoz Tashkent via reserv.my.gov.uz/en/authority/844; Agency for the Operation of Water Management Facilities at gov.uz/en/suvchi)
   - Other cities: municipal vodokanal (regional water utility)
 - **District heating**: **JSC "Toshissiqquvvati"** (Tashkent) + regional CHPP plants — Tashkent CHPP-1 + CHPP-2; modernisation ongoing under Ministry of Energy / National Project for Modernisation of Heat-Power Sector
 - **Sewerage**: managed by regional vodokanal + Suvsoz in Tashkent
@@ -701,14 +701,14 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 | e-Visa portal | [e-visa.gov.uz](https://e-visa.gov.uz/) |
 | IT Park Uzbekistan | [it-park.uz/en](https://www.it-park.uz/en/) |
 | Tashkent Khokimiyat | [tashkent.uz](https://tashkent.uz/) |
-| Suvsoz (water) | [suvsoz.uz](https://www.suvsoz.uz/) |
+| Suvsoz (water) | [suvsoz.uz](https://www.suvsoz.uz/) ❌ DEPRECATED — primary source removed; verify with State Unitary Enterprise Suvsoz Tashkent via reserv.my.gov.uz/en/authority/844; Agency for the Operation of Water Management Facilities at gov.uz/en/suvchi |
 | Uzenergo (electricity) | [uzenergo.uz](https://www.uzenergo.uz/) |
 | Ministry of Emergency Situations | [fvv.uz](https://fvv.uz/) |
 | Uzhydromet | [meteo.uz/en](https://www.meteo.uz/en) |
 | Ministry of Ecology | [eco.gov.uz/en](https://www.eco.gov.uz/en) |
 | Ministry of Investments and Foreign Trade | [invest.gov.uz](https://invest.gov.uz/) |
 | Ministry of Foreign Affairs | [mfa.uz](https://www.mfa.uz/) |
-| Ministry of Construction | [stroy.uz](https://stroy.uz/) |
+| Ministry of Construction | [stroy.uz](https://gov.uz/en/mc) |
 | Ministry of Justice (Adliya) | [adliya.uz](https://www.adliya.uz/) |
 | Ministry of Energy | [energy.uz](https://www.energy.uz/) |
 | Ministry of Internal Affairs | [iiv.uz](https://www.iiv.uz/) |
