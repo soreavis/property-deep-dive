@@ -17,7 +17,7 @@ ISO2: `nz`. Status: ✅ Fully populated (researched 2026-04).
   - **Leasehold** — Cornwall Park (Auckland), Glasgow Crescent, Cashmere Hills; **99-year leases common on Māori land** under Te Ture Whenua Māori Act 1993
   - **Cross-lease** — ~10% of Auckland; clunky shared ownership of section + flat plan
   - **Unit title** — apartments, body corporate
-- **Foreign-buyer ban**: Overseas Investment Amendment Act 2018; AU + SG resident citizens exempt; new builds + apartments off-the-plan partly exempt
+- **Foreign-buyer ban**: Overseas Investment Amendment Act 2018; AU + SG resident citizens exempt; new builds + apartments off-the-plan partly exempt. **Modified 19 Dec 2025** (Royal Assent — Overseas Investment (National Interest Test and Other Matters) Amendment Act): Active Investor Plus (AIP) + Investor 1 + Investor 2 visa holders can now obtain OIO consent to buy ONE residential property valued (land + build) **over NZ$5,000,000**; fast-track ~5 working day OIO process; fees NZ$2,040 (existing >$5M) / NZ$3,500 (new build). Order in Council expected early 2026 (2026-05-27 verified, source: [Bell Gully OIA update](https://www.bellgully.com/insights/overseas-investment-act-update-door-opens-for-investor-visa-holders-buying-residential-land/))
 
 ## Section: `--price`
 
@@ -161,7 +161,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 ### Long-term residential
 
 - **Residential Tenancies Act 1986** (RTA) — tenant-protective
-- **No-fault termination abolished** 11 Feb 2021 (90-day notices restricted)
+- **No-cause 90-day termination RESTORED 30 Jan 2025** by Residential Tenancies Amendment Act 2024 (passed 17 Dec 2024), reversing the 11 Feb 2021 abolition; also adds 42-day notice for owner/family occupation or sale-with-vacant-possession, and 21-day tenant termination; pet-related changes effective 1 Dec 2025 (2026-05-27 verified, source: [HUD — RTA Amendment Act 2024](https://www.hud.govt.nz/our-work/residential-tenancies-amendment-act-2024))
 - **Rent increases** capped at every 12 months
 - **Rental loss ring-fencing** — losses ring-fenced per IRD
 - **Healthy Homes Standards** mandatory for rentals (insulation, heating, ventilation, moisture, draught)
@@ -217,7 +217,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
   - Wellington (govt): ~$85,000–$120,000
   - Christchurch / Hamilton / Tauranga: ~$70,000–$95,000
   - Smaller cities: ~$60,000–$80,000
-- **Minimum wage**: $23.50/hr (2026)
+- **Minimum wage**: **$23.95/hr from 1 Apr 2026** (previously $23.50, +45c) (2026-05-27 verified, source: [MBIE — Minimum wage set for 2026](https://www.mbie.govt.nz/about/news/minimum-wage-set-for-2026))
 
 ---
 
@@ -409,7 +409,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 | Toka Tū Ake (Natural Hazards Commission) | `https://www.naturalhazards.govt.nz/` |
 | NIWA | `https://www.niwa.co.nz/` |
 | NZTA Traffic Counts | `https://www.nzta.govt.nz/resources/state-highway-traffic-volumes` |
-| IRD | `https://www.ird.govt.nz/` |
+| IRD (**Te Tari Taake**) | `https://www.ird.govt.nz/` (2026-05-27 verified bilingual masthead) |
 
 ## Status
 

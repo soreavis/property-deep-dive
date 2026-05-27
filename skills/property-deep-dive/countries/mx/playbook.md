@@ -117,7 +117,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 ### Other taxes
 
 - **ISR (Impuesto Sobre la Renta) capital gains**: up to **35%** marginal
-- **Principal residence exemption**: up to ~MXN 700k UDIs (~USD 250-300k equivalent depending on UDI date)
+- **Principal residence exemption (Mexican tax residents only)**: up to **700,000 UDIs** (~MXN 5–6M ≈ USD 280–350k at 2025 UDI fixing — UDI ≠ MXN, it is an inflation-indexed unit); requires RFC + utility/voter-ID proof of residence; land ≤ 3× construction area; usable once per 3 years. Double exemption with co-titled resident spouse. **Non-residents do NOT qualify** — must elect 25% withholding on gross OR 35% on net gain (the latter requires Mexican legal representative or notarized public deed) (2026-05-27 verified, source: Connell & Associates; PwC Tax Summaries — Mexico)
 - **IVA**: 16% on commercial; residential generally exempt
 - **Notario público**: **0.75–2.5%** (varies by state)
 - **Registration**: 0.5–1%
@@ -125,7 +125,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Foreign-buyer fideicomiso (CRITICAL)
 
-**Restricted Zone**: 50 km coast / 100 km border (constitutional Article 27).
+**Restricted Zone**: 50 km coast / 100 km border. **Statute chain**: Constitución Art. 27 → **Ley de Inversión Extranjera 1993 Arts. 10–11** (SRE-permitted fideicomiso; 50-yr renewable) → Reglamento LIE (2026-05-27 verified, source: [Cámara de Diputados — Ley de Inversión Extranjera official PDF](https://www.diputados.gob.mx/LeyesBiblio/pdf/LIE.pdf)).
 
 - **Fideicomiso required** for foreigners — bank trust 50-year renewable
 - **Setup cost**: USD 2,000–3,000
@@ -161,7 +161,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 #### CDMX (Mexico City)
 
 - **Mexico City Airbnb Law Oct 2024**: mandatory **Host Registry** + **Technology Platform Registry** under amended Tourism Law (April 2024)
-- **180 nights/year cap PROPOSED** — under debate, not yet enforced as of 2026 Q1
+- **180 nights/year (50 % of year) cap ADOPTED** by April 2024 amendment to CDMX Tourism Law — mandatory biannual occupancy reports to Ministry of Tourism; sanction = non-renewal of registration + 1-year re-registration bar (2026-05-27 verified, source: Garrigues "Mexico: Current Overview of Short-Term Rental Regulation"; AméricaEconomía coverage of CDMX approval)
 - Sheinbaum (former mayor, now president) reversed her earlier UNESCO/Airbnb partnership
 
 #### Quintana Roo (Tulum, Cancún, Playa del Carmen)
@@ -205,7 +205,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
   - CDMX: ~MXN 18,000–35,000 (€900–€1,750)
   - Monterrey: ~MXN 20,000–40,000 (nearshoring premium)
   - Guadalajara: ~MXN 18,000–30,000
-- **Salario mínimo**: MXN 248.93/day (2025; northern frontier zone MXN 374.89/day)
+- **Salario mínimo (2026)**: **MXN 315.04/day general; MXN 440.87/day Northern Border Free Zone** (CONASAMI decree 3 Dec 2025; +13% general; +5% frontier; effective 2026-01-01) — Northern Border Free Zone covers BC, Sonora, Chihuahua, Coahuila, NL, Tamaulipas (2026-05-27 verified, source: Littler "Mexico Increases the Minimum Wage for 2026"; Ogletree; Mexperience)
 
 ---
 
@@ -244,7 +244,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 #### Other
 
 - **Landslide + flooding**: CDMX hillsides, Tabasco
-- **Drought**: CDMX water crisis (Cutzamala system 56% capacity April 2025; "Day Zero" fears)
+- **Drought**: CDMX water crisis — Cutzamala system ~**97 % capacity early 2026** (highest in 5 years; recovered from 2024 historic low of ~26 %); structural drought risk remains but short-term supply secured ~2 years (2026-05-27 verified, source: Mexico News Daily; Mexico Business News "Cutzamala Reaches 95.5%")
 - **Wildfire**: increasing northern + central
 - **Cenotes / collapses**: Yucatán karst
 
@@ -283,7 +283,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 ### Verification
 
 - **CDMX water crisis ongoing**: cisterns + tinacos universal even with mains
-- **Cutzamala system 56% capacity April 2025** (improved from 34.7% April 2024)
+- **Cutzamala system ~97% capacity early 2026** (recovered from 2024 historic low of ~26 %; ~95.5 % by Oct 2025; one of the wettest years since 1982) (2026-05-27 verified, source: Mexico News Daily; Mexico Business News)
 - **Rural**: cisterns + septic standard; **12-15% of rural housing lacks mains drainage**
 
 ### Costs

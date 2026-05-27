@@ -249,7 +249,7 @@ Source: [所得稅法 §4-4, §14-4 to §14-8](https://law.moj.gov.tw/LawClass/L
 
 ### Inheritance tax (遺產稅) — moderate exposure
 
-Progressive **10 % → 15 % → 20 %** on net estate above exemption. Basic exemption: **13.33 M TWD (single)** + spouse deduction 4.93 M + adult dependant 50 K each + minor child increments + funeral 1.38 M (FY2024 figures, indexed; verify yearly at 國稅局).
+Progressive **10 % → 15 % → 20 %** on net estate above exemption. Basic exemption: **13.33 M TWD (single)** + **spouse deduction 5.33 M (FY2025, raised from 4.93 M in FY2024)** + adult dependant 50 K each + minor child increments + funeral 1.38 M (indexed; verify yearly at 國稅局) (2026-05-27 verified, source: [eTax Portal MOF — Exemption and Deduction Table](https://www.etax.nat.gov.tw/etwmain/en/announcement/alien-individual-income-tax/exemption-deduction-table); [NTBT Estate and Gift Tax](https://www.ntbt.gov.tw/English/multiplehtml/a0c8c4ba5dbd4cc882bcc1bc1ef49ffa))
 
 Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340072), [財政部國稅局 inheritance briefing](https://admin.taiwan.net.tw/english).
 
@@ -270,7 +270,7 @@ Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcod
 - **民法 §421-§463** — civil-code base of 租賃 contract; standard 1–2 yr term; 押金 (deposit) statutory cap 2 months
 - **內政部不動產資訊平台 — 租金實價登錄** since 2024-07-01 — mandatory rent disclosure for properties brokered/managed by 不動產經紀業 + 包租代管, plus household-direct lease above certain thresholds. Portal `https://lvr.land.moi.gov.tw/`.
 - **Customary tenant payments at signing**:
-  - 押金 (deposit): 2 months (statutory cap, 民法 §432 / 租賃住宅市場條例)
+  - 押金 (deposit): 2 months — statutory cap is **土地法 §99** (Land Act Art. 99), mirrored by 租賃住宅市場發展及管理條例; 民法 §432 covers tenant's duty of care, NOT deposits (2026-05-27 verified, source: [law.moj.gov.tw — 土地法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0060001))
   - 仲介費 (agent fee): typically **half-month each side** (negotiable; cap 1.5 months total per 不動產經紀業管理條例)
   - 保證人 (guarantor): often required — 連帶保證 (joint guarantor) or 履約保證金 (performance deposit) substitution
   - 公證費 (notarization): optional but increasingly used for high-rent leases; ~3,000–10,000 TWD
@@ -347,7 +347,7 @@ Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcod
 - 臺中: ~NT$40,000–NT$55,000
 - 高雄/臺南: ~NT$38,000–NT$50,000
 - 東部 (花蓮/臺東): ~NT$32,000–NT$42,000
-- **基本工資 (national minimum wage, 2026-01-01)**: NT$28,590/month, NT$190/hr ([勞動部](https://www.mol.gov.tw/) — verify exact 2026 figure at 勞動部 announcement)
+- **基本工資 (national minimum wage, 2026-01-01)**: **NT$29,500/month, NT$196/hr** (+3.18 %; announced 2025-09-26 by Minimum Wage Deliberation Committee; the NT$28,590 / NT$190 figures applied through 2025) (2026-05-27 verified, source: [Ministry of Labor news release no. 84](https://english.mol.gov.tw/21139/40790/87087/))
 - **TSMC + 半導體 corridor**: well above median; senior engineers NT$2M–NT$4M annual all-in incl. RSU is common
 
 ### Catchment heuristics
@@ -386,7 +386,7 @@ Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcod
 
 - Largest Taiwan event since 1999 集集 (M7.6, 921 quake)
 - Epicentre: 花蓮縣 ~25 km offshore east coast
-- Casualties: 18 deaths (final tally 7+ via mountain landslide; 11 Taroko Gorge tourists)
+- Casualties: **19 deaths** (final confirmed Jan 2025 after last 2 missing AU/SG dual-national tourists declared deceased + remains located; 7+ via mountain landslide; 11 Taroko Gorge tourists; magnitude per CWA Mw 7.4 / USGS M 7.4, local ML 7.2) (2026-05-27 verified, source: [Wikipedia: 2024 Hualien earthquake — cross-references CWA + Hualien County Govt + AP](https://en.wikipedia.org/wiki/2024_Hualien_earthquake))
 - Damage: 花蓮市 several mid-rise tilt/collapse (建築物軟弱層 + soft-storey patterns); national signal that **pre-1997 + soft-storey + lateral-asymmetric ground floors remain leading collapse mode**
 - ⚠️ Implication for buyers: building inspection report (耐震評估報告) for any pre-1999 building is now de-facto market standard; some banks have started conditioning on it
 
@@ -541,7 +541,7 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 - **凶宅 (incident home / haunted house)** disclosure is contractually required (不動產說明書 §13) — non-disclosure is a common dispute basis; 凶宅查詢網 + 591 凶宅標記 for cross-check; pricing discount typically 20–40 %
 - **違建 (illegal additions)** are widespread — rooftop builds, balcony enclosures, pillared shop awnings; 違建 has zero registered area, may be priority demolition target; insist on 建物登記謄本 vs site visit cross-check
 - **Pre-sale 預售屋 unit assignment heavily restricted post-2023-07** — 紅單 flipping effectively dead; buyers must hold to handover or qualify for 5 strict carve-outs
-- **Mortgage CBC macroprudential**: LTV typically **60 %** for non-self-use Taipei/New Taipei urban + multi-property; **70 %** elsewhere first-home; tightened materially Jun 2023 + Jun 2024 + Sep 2024
+- **Mortgage CBC macroprudential** (post Sep 2024 7th-round selective credit control): **2nd-home LTV cap 50 % NATIONWIDE** (was 60 % in specific areas only); **3rd-home + high-value LTV 30 %** (was 40 %); **no grace period (寬限期) on 1st-home loans if borrower already owns another property**; tightening waves Jun 2023 + Jun 2024 + Sep 2024 (2026-05-27 verified, source: [CBC 2024-09-19 7th-round release](https://www.cbc.gov.tw/dl-212229-22f1e175e8ca45d7949c8f29dd777ce4.html))
 - **No real-estate-based golden visa** — Investment Visa requires NT$6M actual operating-business capital, NOT property; buying a NT$30M condo for visa does NOT work
 - **No estate-based residency**: APRC requires **physical presence** ≥ 183 d/yr × 5 yrs continuous; Gold Card is the favored white-collar path
 - **典型住宅貸款 "宽限期" 5-yr interest-only** is common but tightening; CBC moral suasion 2024+ has narrowed bank tolerance for 寬限期 stacking with multi-property buyers

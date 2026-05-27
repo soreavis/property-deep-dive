@@ -128,7 +128,7 @@ Tiered 0.5% to 2.5% — provincial:
 - $400k-$2M: 2.0%
 - > $2M: 2.5%
 
-**Toronto Municipal LTT (MLTT)**: graduated rates with **new high-value tier from 1 Apr 2026**; doubles in central Toronto.
+**Toronto Municipal LTT (MLTT)**: graduated rates with **new high-value tier from 1 Apr 2026** (passed by Council 17 Dec 2025): **4.4%** ($3M–$4M), **5.45%** ($4M–$5M), **6.5%** ($5M–$10M), **7.5%** ($10M–$20M), **8.6%** (>$20M) — on top of base 0.5–2.5% (2026-05-27 verified, source: [toronto.ca — MLTT rates](https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/)).
 
 **FTB rebate**: up to $4,000 ON + $4,475 Toronto.
 
@@ -139,7 +139,7 @@ Tiered:
 - $200k–$2M: 2%
 - $2M+: 3%
 - **+2% over $3M** (additional)
-- **Foreign buyer Additional Property Transfer Tax: 20%** (Greater Van, Victoria, Fraser Valley, Nanaimo, Central Okanagan)
+- **Foreign buyer Additional Property Transfer Tax: 20%** in the specified Regional Districts: Capital (CRD), Fraser Valley, Metro Vancouver, Central Okanagan, Nanaimo (2026-05-27 verified, source: [gov.bc.ca — Additional Property Transfer Tax](https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/additional-property-transfer-tax))
 
 #### Alberta — Land Title Transfer Fee
 
@@ -164,10 +164,11 @@ Tiered 0.5–2.5% depending on municipality (Montreal 3% over $2.6M).
 
 ### Capital gains
 
-- Federal: **50% inclusion rate** (2/3 inclusion proposed 2024 but **NOT implemented**); capped at $250k/yr
+- Federal: **50% inclusion rate** (2/3 inclusion proposal **CANCELLED 21 Mar 2025** by PM Carney announcement; the $250k/yr threshold was part of the cancelled package and also fell away) (2026-05-27 verified, source: [PM news release](https://www.pm.gc.ca/en/news/news-releases/2025/03/21/prime-minister-mark-carney-cancels-proposed-capital-gains-tax-increase))
 - Marginal rates: ~25–53% combined federal+provincial
 - **Principal residence exemption** — full exemption for years owner-occupied
 - **Foreign residents**: lose principal residence exemption from 2026
+- **Non-resident disposition — Section 116 clearance**: when a non-resident DISPOSES of Canadian real property, the buyer must withhold **25% of gross proceeds** (50% on depreciable / rental property) until CRA issues a Form T2062 certificate of compliance; CRA processing typically 8-16 weeks; 10-day notice requirement (2026-05-27 verified, source: [CRA IC72-17R6 — Section 116](https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/ic72-17/ic72-17r6-procedures-concerning-disposition-taxable-canadian-property-non-residents-canada-section-116.html))
 
 ### Total transaction cost (buyer side)
 
@@ -181,7 +182,7 @@ Tiered 0.5–2.5% depending on municipality (Montreal 3% over $2.6M).
 
 - Foreign buyer ban review post-2027 (likely modified)
 - BC SVT rates may rise further
-- Federal capital-gains inclusion rate proposed 2/3 — paused but possible
+- Federal capital-gains inclusion-rate 2/3 proposal **CANCELLED 21 Mar 2025** (no longer in policy pipeline)
 
 ---
 
@@ -392,7 +393,7 @@ Tiered 0.5–2.5% depending on municipality (Montreal 3% over $2.6M).
 - **Vermiculite / Zonolite attic insulation** — pre-1990 — common asbestos hazard
 - **Knob-and-tube wiring** — pre-1950s; insurance-blocking
 - **Poly-B plumbing** (1978-1995) — class-action; flagged
-- **Stress test 5.25% benchmark** OSFI for mortgage qualification
+- **Mortgage stress test** = OSFI minimum qualifying rate: **greater of contract rate + 2% or 5.25% floor**; from **21 Nov 2024** uninsured-mortgage renewals switching lenders are exempt from re-stress-testing if loan + amortization unchanged (2026-05-27 verified, source: [OSFI MQR for uninsured mortgages](https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages))
 - **Cross-border tax** — US/CA dual citizens face FATCA + complex CGT
 - **Strata depreciation reports** mandatory in BC (every 5 years)
 - **Indigenous land** — leasehold-only on reserve land (Cornwall Park Auckland equivalent)

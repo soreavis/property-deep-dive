@@ -115,19 +115,22 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 
 | Município | ITBI rate |
 |---|---:|
-| **São Paulo** | **3%** of higher-of price/valor venal de referência |
-| **Rio de Janeiro** | **2%** |
+| **São Paulo** | **3%** (Lei Municipal SP 11.154/1991 Art. 10) of declared transaction value |
+| **Rio de Janeiro** | **2%** (Lei Municipal RJ 1.364/1988); **0.5% MCMV-financed first acquisition** |
 | Other municípios | 2–3% |
+
+- **STJ Tema Repetitivo 1.113 (REsp 1.937.821/SP, Feb 2022)**: ITBI base = the **declared transaction value** (presumption of truth). The "valor venal de referência" (VVR) used unilaterally by São Paulo is unlawful as an automatic basis; municipality must challenge via administrative procedure. Buyers in SP routinely seek refunds where ITBI was paid on VVR rather than price (2026-05-27 verified, source: STJ Tema 1.113 / REsp 1.937.821/SP).
 
 ### Other taxes
 
 - **ITR (Imposto Territorial Rural)**: rural; federal; INCRA-administered
-- **IR (Imposto de Renda) capital gains**:
-  - Residents: progressive **15–22.5%** sliding by gain size
-  - Non-residents: flat **15%**
-  - **R$35k small-sale exemption**
-  - Resident-only **R$440k primary residence exemption**
-- **IRPF 2026 filing window**: March 23 – May 29, 2026
+- **ITCMD (Imposto sobre Transmissão Causa Mortis e Doação)** — state-level inheritance + lifetime-gift tax (separate from ITBI which is municipal + onerous-transfer-only). Constitutional ceiling **8%** (Resolução Senado Federal nº 9/1992). Indicative 2025 rates: SP 4% flat (Lei 10.705/2000); RJ 4–8% progressive (Lei 7.174/2015); MG 5% flat (Lei 14.941/2003); DF 4–6% progressive. **EC 132/2023 amended CF Art. 155 §1º VI to make ITCMD progressivity MANDATORY** (previously optional under STF RE 562.045/2013); EC 132/2023 Art. 23 III imposes a transitional immediate-implementation rule — many flat-rate states (SP, MG, ES, AL) have NOT yet legislated progressivity as of 2026-05, creating pending constitutional-incompatibility litigation risk (2026-05-27 verified, source: Senado Federal Resolução 9/1992 + EC 132/2023 text via Planalto + ConJur "Adesão dos estados às regras de ITCMD" May 2024).
+- **IR (Imposto de Renda) ganho de capital**:
+  - Residents AND non-residents: progressive **15% / 17.5% / 20% / 22.5%** at gains ≤ R$5M / R$5M–R$10M / R$10M–R$30M / > R$30M (Lei 13.259/2016 — progressivity extended to non-residents from 2017; "flat 15%" is the pre-2017 rule) (2026-05-27 verified, source: Planalto Lei 13.259/2016)
+  - **R$35k small-sale exemption** applies to MOVEABLES (Lei 9.250/1995 Art. 22), NOT real estate
+  - **R$440k "isenção do único imóvel"** (Lei 9.250/1995 Art. 23) — single residential property; seller must NOT have sold another residential property in last 5 years AND sale price ≤ R$440k
+  - **180-day rollover (Lei 11.196/2005 Art. 39)** — sale of residential property exempt if proceeds reinvested in another residential property within 180 days; once per 5 years
+- **IRPF 2026 filing window**: March 23 – May 29, 2026 (verify Instrução Normativa RFB defining 2026 window at receitafederal.gov.br)
 
 ### Cartório fees
 
@@ -143,13 +146,18 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Future risk — REFORMA TRIBUTÁRIA
 
-**Emenda 132/2023** — major tax reform:
-- **2026: TEST YEAR** — IBS/CBS rates piloted at low rates, no real collection
-- **2027: CBS** (federal, replaces PIS/COFINS/IPI) goes live
+**Emenda Constitucional 132/2023** + **Lei Complementar 214/2025** (implementing statute, sanctioned January 2025) — major tax reform:
+- **2026: TEST YEAR** — CBS **0.9%** + IBS **0.1%** = **1.0% combined test rate** (creditable against PIS/COFINS so net collection ≈ zero)
+- **2027: CBS** goes live; CBS replaces **PIS + COFINS** (federal contributions) — **NOT IPI** (IPI is preserved with rates zeroed outside Zona Franca de Manaus under EC 132/2023 Art. 3º amending CF Art. 153 §3º)
 - **2029: IBS** (state+municipal, replaces ICMS/ISS) phased in
-- **2033: full system in place**
+- **2033: full system in place** — combined CBS+IBS standard rate ceiling ~26.5%
+- **Real estate sector reductions (LC 214/2025 Art. 261)** (2026-05-27 verified, source: Planalto LC 214/2025):
+  - **50% reduction** on standard rate for compra/venda + cessão de direitos sobre imóveis (effective ≈ 13.25%)
+  - **70% reduction** for locação, cessão onerosa, arrendamento (effective ≈ 7.95%)
+  - **40% reduction** for short-term rental < 90 days (treated as hotelaria)
+- **Pessoa-física exemptions**: locação ≤ R$240k/year up to 3 properties; sale ≤ 3 imóveis/year
+- **Redutor social on new residential sales**: R$100k (apartment/house) + R$30k (lot)
 - **IPTU/ITBI/IR NOT directly changed** by reform — but **CIB registry will likely expand IPTU/ITBI tax base** as municipalities update outdated valor venal
-- Real estate operations (sale, lease, intermediation) **WILL be taxed by IBS+CBS** — affects developers, large landlords, agencies
 
 ---
 
@@ -204,7 +212,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
   - Rio de Janeiro: ~R$4,500–R$9,000
   - Brasília (govt): ~R$6,000–R$12,000
   - Smaller cities: ~R$3,000–R$5,500
-- **Salário mínimo**: R$1,518/month (2026) — €273
+- **Salário mínimo**: **R$1.621/month (2026)** — reajuste 6,79% per INPC + PIB rule; Decreto nº 12.797 de 24-Dez-2025, in force 1-Jan-2026 (the R$1.518 figure was the 2025 value) (2026-05-27 verified, source: [Planalto Decreto 12.797/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12797.htm))
 
 ---
 
@@ -340,11 +348,12 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 - **Reforma Tributária** 2027 (CBS) → 2029 (IBS) → 2033 (full)
 - **MCMV extension April 2026**: R$200B, R$13k/mo income, R$600k cap, 35-year term
 - **Multipropriedade** (Brazilian timeshare) — large legal market (Lei 13.777/2018)
-- **Foreign rural land caps**:
-  - ≤25% of any município's rural land in foreign hands
-  - ≤10% per single nationality
-  - **MEI (Módulo de Exploração Indefinida) module**: 5-100 ha by ZTM; foreigners can buy up to 3 MEIs without INCRA authorization
-  - **Border strip 150km + national-security zones**: presidential/congressional approval
+- **Foreign rural land caps** (statute: **Lei 5.709/1971** + Decreto 74.965/1974):
+  - ≤25% of any município's rural land in foreign hands; ≤10% per single nationality (Art. 12)
+  - **Módulo de Exploração Indefinida (MEI, Lei 5.709/1971 Art. 3º — NOT to be confused with Microempreendedor Individual)**: foreign natural persons can buy up to **3 MEIs** without INCRA authorization; per-município MEI size set by INCRA Normative Instructions (varies; upper bound often well above 100 ha in low-productivity ZTMs)
+  - Foreign legal entities require INCRA + CNDR + national-security clearance for ANY acquisition (Art. 5º)
+  - **Border strip 150 km** (Lei 6.634/1979 + CF Art. 20 II): presidential/congressional approval
+  (2026-05-27 verified, source: Planalto Lei 5.709/1971)
 - **Pre-1990 informal tenure**: many favela properties without title
 - **Usucapião** (adverse possession) common path
 - **Lei 6.815/80** repealed by **Lei de Migração 13.445/2017**
@@ -353,6 +362,8 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 - **47% of national population unassisted by sewage** — massive infrastructure gap
 - **Asbestos banned 2017** nationally — earlier buildings likely contain it
 - **Currency volatility** — BRL can swing 15-25% vs USD/EUR
+- **Terreno de marinha / laudêmio / foro (CRITICAL for coastal buyers)** (2026-05-27 verified, source: Planalto Decreto-Lei 9.760/1946 + Lei 9.636/1998): **terreno de marinha** = coastal land within 33 m of the 1831 high-water line, titled to the **União** (federal government), administered by **SPU (Secretaria do Patrimônio da União)**. Holders have **enfiteuse (aforamento)** or **ocupação** — never full domínio pleno. Affected sweeps: Copacabana, Ipanema, Leblon, Botafogo, Flamengo, central Salvador, central Recife, Santos waterfront, much of Florianópolis. **Laudêmio = 5% on transfer value** payable to SPU on every sale of an aforado property (DL 9.760/1946 Art. 686 + Lei 9.636/1998); **foro = ~0.6%/yr ground-rent** to SPU. Verify via SPU portal `https://www.gov.br/spu/` or via Certidão Autorizativa de Transferência (CAT). **PEC 3/2022** (Câmara approved two-round vote Feb 2022; pending Senado CCJ since Aug 2023, pedido de vista Dec 2024 — no scheduled return as of 2026-05) seeks to revoke União ownership and transfer to current occupants — **laudêmio + foro REMAIN IN FORCE 2026-05**; do NOT pre-emptively assume PEC will pass.
+- **Indivisão / condomínio pro indiviso**: heirs who never completed partilha leave property in fractional undivided shares; requires extrajudicial inventário (Lei 11.441/2007 + CPC 13.105/2015) before any sale.
 
 ## Reddit / forum sources
 

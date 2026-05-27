@@ -123,8 +123,8 @@ Daň = Plocha (m²) × Základní sazba × Základní koeficient × Místní koe
 | Stavby pro rodinnou rekreaci | 6 Kč/m² |
 | Garáže | 8 Kč/m² |
 | Stavby pro podnikání | 10 Kč/m² |
-| Pozemky (orná půda, zahrada, vinice, sad, chmelnice) | 0.75 % z ceny pozemku |
-| Trvalé travní porosty + lesy + rybníky | 0.25 % z ceny pozemku |
+| Pozemky (orná půda, zahrada, vinice, sad, chmelnice) | **1.35 % z ceny pozemku** (2025; raised from 0.75 % by konsolidační balíček Act 349/2023 Sb. effective 1 Jan 2024) |
+| Trvalé travní porosty + lesy + rybníky s intenzivním chovem ryb | **0.45 % z ceny pozemku** (2025; raised from 0.25 % since 1 Jan 2024) |
 | **Stavební pozemek** | 3.50 Kč/m² |
 | **Inflační koeficient 2025** | **1.0** |
 
@@ -153,7 +153,7 @@ A 200 m² rodinný dům in obci 5,000 obyv:
 
 - **Daň z nabytí nemovitých věcí (transfer tax)**: **ABOLISHED 26 September 2020** by law 386/2020.
 - **Buyer pays**: only notary/lawyer fees + cadastre registration fee (1,000 CZK) + survey
-- **Seller pays**: daň z příjmů on capital gain (15 %) IF sold within 10 yrs of acquisition (was 5 yrs pre-2021); exemptions for primary residence ≥ 2 yrs occupancy
+- **Seller pays**: daň z příjmů on capital gain (15 % / 23 %) if sold within **5 years** (acquisitions before 1 Jan 2021) or **10 years** (acquisitions from 1 Jan 2021 onwards — § 4 odst. 1 ZDP); primary-residence exemption after 2 yrs registered trvalé bydliště, or reinvestment-of-proceeds exemption (§ 4 odst. 1 písm. v ZDP) — verify with daňový poradce given strict 1-year reinvest-notification rule (2026-05-27 verified, source: Finanční správa; zákonyprolidi.cz Lei 586/1992 ZDP)
 
 **Notary / advokát**: 0.5–1.5 % typical, negotiable
 **Realitní makléř**: usually 3–5 % paid by seller
@@ -445,9 +445,12 @@ Veolia ČR group = largest, ~50% of total connections.
 - **NOZ 2014 reform** merged building+land registers; pre-2014 properties may have legal complexity
 - **eTurista mandatory** for short-let from 1 July 2025
 - **PENB mandatory at sale**, penalty up to 100k CZK
-- **PIT capital gain 15 %** if sold within 10 yrs (15 % flat, sometimes 23 % above threshold) — primary residence exempt after 2 yrs occupancy
-- **VAT 21 % on novostavby** unless social housing ≤ 350 m² (then 15 %)
+- **PIT capital gain 15 % / 23 %** if sold within **5 yrs** (pre-2021 acquisitions) or **10 yrs** (from 1 Jan 2021 onwards) — primary residence exempt after 2 yrs occupancy, or reinvestment-of-proceeds exemption (§ 4 odst. 1 písm. v ZDP) (2026-05-27 verified)
+- **VAT 21 % on novostavby**; **12 % reduced rate** (since 1 Jan 2024 — konsolidační balíček 349/2023 Sb. merged former 10 % + 15 % reduced rates into a single 12 %) for sociální bydlení = family house ≤ 350 m² podlahové plochy / apartment ≤ 120 m² podlahové plochy (2026-05-27 verified, source: Finanční správa; § 48 zákona č. 235/2004 Sb. o DPH ve znění zák. 349/2023 Sb.)
 - **Polození bytového domu** (basement / shelter requirements) — varies by obec
+- **Foreign-buyer parity (since 1 May 2011)**: Czechia imposes **no nationality-based restrictions** on residential, commercial, or agricultural property purchase — EU, EEA, and non-EU citizens have equal rights as natural persons. Same ČÚZK katastr filing; no special permit, no surcharge, no pre-approval. Large-scale agricultural transactions may trigger SPÚ notification (not nationality-based); strategic-asset purchases (kritická infrastruktura) fall under FDI-screening zákon č. 34/2021 Sb. (2026-05-27 verified, source: Dostupný advokát; Finanční správa).
+- **Skrytá vada — § 2129 občanského zákoníku (zákon 89/2012 Sb.)**: buyer of a building with permanent foundations must notify the seller of a hidden defect (skrytá vada present at transfer, manifested later) within **5 years** of acquisition or the court will not grant rights from defective performance if the seller objects (§ 2129 odst. 1). The 5-yr lhůta does NOT apply if the seller knew or should have known of the defect (§ 2129 odst. 2). For **consumer buyers (B2C)**, **§ 2161 OZ** establishes a **2-year presumption** that any defect manifesting within 2 years of risk transfer was present at transfer (rebuttable by nature of defect / opotřebení / stáří) (2026-05-27 verified, source: zákonyprolidi.cz 2012-89; dTest).
+- **Beneficial-ownership registration (zákon č. 37/2021 Sb., succeeding the repealed 38/2020)**: if buying via Czech s.r.o. or other právnická osoba, **evidence skutečných majitelů** registration is **mandatory** at the rejstříkový soud — penalty up to **CZK 500,000** for non-registration. The advokátní tarif (vyhláška č. 177/1996 Sb.) governs the legal-services fee schedule (2026-05-27 verified, source: zákonyprolidi.cz 2021-37; esm.justice.cz).
 
 ## Reddit / forum sources
 

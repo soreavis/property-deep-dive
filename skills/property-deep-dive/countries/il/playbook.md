@@ -12,9 +12,9 @@ ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Currency**: ILS (Israeli new shekel, ₪). 1 USD ≈ 3.6–3.8 ILS; 1 EUR ≈ 3.9–4.1 ILS (May 2026 BoI representative rate; FX volatile during wartime — verify at `https://www.boi.org.il/he/Markets/ExchangeRates/Pages/Default.aspx`). Free-floating; Bank of Israel intervenes only in extreme moves; no capital controls on residents/non-residents for property transactions but FET-equivalent KYC applies under the Anti-Money Laundering Order 5761-2000.
 - **Languages**: Hebrew + Arabic (both official in practice; Hebrew dominant in Tabu/RMI/tax filings). English widely used in Tel Aviv and among Anglo Olim; **all registered title documents are in Hebrew** — sworn translation required for non-Hebrew-reading buyers. Source: Basic Law: Israel as the Nation-State of the Jewish People (5778-2018) §4 (sets Hebrew as state language; Arabic as "special status").
 - **Cadastre / land registry**: **dual system** —
-  - **Tabu / Land Registry (לשכת רישום מקרקעין)** — Ministry of Justice; tracks freehold (`חופשי`) and registered leases. Portal: `https://www.gov.il/he/departments/land_registration_and_settlement_of_rights_department` and online inquiries at `https://taboo.gov.il/`. Nesach Tabu (נסח טאבו / title abstract) costs ILS 11 online (2026 fee).
-  - **Israel Land Authority / RMI (רשות מקרקעי ישראל)** — administers state-owned land leases (חכירה / hachira). Portal: `https://land.gov.il/`. RMI online services: `https://www.gov.il/he/departments/israel_land_authority`.
-  - For ~93% of land, BOTH registers must be checked: Tabu shows the registered lease/owner, RMI shows lease terms, capitalization status, and Heskem Hadash conversion eligibility.
+- **Tabu / Land Registry (לשכת רישום מקרקעין)** — Ministry of Justice; tracks freehold (`חופשי`) and registered leases. Portal: `https://www.gov.il/he/departments/land_registration_and_settlement_of_rights_department` and online inquiries at `https://taboo.gov.il/`. Nesach Tabu (נסח טאבו / title abstract) costs ILS 11 online (2026 fee).
+- **Israel Land Authority / RMI (רשות מקרקעי ישראל)** — administers state-owned land leases (חכירה / hachira). Portal: `https://land.gov.il/`. RMI online services: `https://www.gov.il/he/departments/israel_land_authority`.
+- For ~93% of land, BOTH registers must be checked: Tabu shows the registered lease/owner, RMI shows lease terms, capitalization status, and Heskem Hadash conversion eligibility.
 - **Title types** (CRITICAL distinction for foreign buyers):
 
 | Type (Hebrew) | English | Foreign use | Notes |
@@ -26,13 +26,13 @@ ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 | **East Jerusalem / Area C / Golan / Settlement parcels** | Disputed jurisdiction | 🔴 deed status varies; see Quirks | Some parcels registered under Jordanian/Ottoman pre-1967 systems; international-law status contested; do NOT buy without specialist counsel |
 
 - **Major reforms / regulatory landscape** (verify date-stamps in `shared/regulatory-watch.md`):
-  - **Heskem Hadash (Decision 1185 / החלטה 1185)** — ILA Council Decision 2009 enabling lessees to convert built-up state-leased land to freehold for a capitalization fee. Source: RMI `https://land.gov.il/Pages/SearchPagesResults.aspx` (search "החלטה 1185"). Subsequent updates via decisions 1370, 1456 etc. — verify currency at `https://land.gov.il/`.
-  - **Land Taxation (Appreciation and Purchase) Law 5723-1963** — חוק מיסוי מקרקעין; Mas Rechisha (purchase tax) + Mas Shevach (appreciation/capital gains tax). Source: Israel Tax Authority `https://www.gov.il/he/departments/topics/real_estate_taxation`.
-  - **Buyer's tax brackets — non-resident scale** — annual update by Tax Authority (typically 16 January each year, indexed to CBS housing index). Verify current brackets at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` (page often updated mid-January).
-  - **Olim 7-year purchase-tax incentive** — Section 12 of the Land Taxation Regulations, anchored in the Aliyah & Integration framework. Source: Ministry of Aliyah & Integration `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` and Tax Authority guidance.
-  - **Karnit / Property Tax Compensation Fund** — Property Tax and Compensation Fund Law 5721-1961; pays for direct war/missile damage to property (structures + contents up to caps). Source: `https://www.gov.il/he/departments/karnit_property_tax_and_compensation_fund_for_road_accident_victims` and `https://www.misim.gov.il/` (Tax Authority Karnit portal).
-  - **Wartime tax measures (2023–2026)**: temporary purchase-tax bracket adjustments under Order 5784; Karnit claim deadlines extended for evacuee zones (Otef Aza, Northern border). Verify currency at Tax Authority and Knesset legislation database `https://main.knesset.gov.il/Activity/Legislation/Pages/default.aspx`.
-  - **Proposed reforms NOT enacted as of May 2026**: foreign-buyer outright restriction (proposed several times since 2010s, never passed); raising non-resident Mas Rechisha further (in periodic political discussion).
+- **Heskem Hadash (Decision 1185 / החלטה 1185)** — ILA Council Decision 2009 enabling lessees to convert built-up state-leased land to freehold for a capitalization fee. Source: RMI `https://land.gov.il/Pages/SearchPagesResults.aspx` (search "החלטה 1185"). Subsequent updates via decisions 1370, 1456 etc. — verify currency at `https://land.gov.il/`.
+- **Land Taxation (Appreciation and Purchase) Law 5723-1963** — חוק מיסוי מקרקעין; Mas Rechisha (purchase tax) + Mas Shevach (appreciation/capital gains tax). Source: Israel Tax Authority `https://www.gov.il/he/departments/topics/real_estate_taxation`.
+- **Buyer's tax brackets — non-resident scale** — annual update by Tax Authority (typically 16 January each year, indexed to CBS housing index). Verify current brackets at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` (page often updated mid-January).
+- **Olim 7-year purchase-tax incentive** — Section 12 of the Land Taxation Regulations, anchored in the Aliyah & Integration framework. Source: Ministry of Aliyah & Integration `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` and Tax Authority guidance.
+- **Karnit / Property Tax Compensation Fund** — Property Tax and Compensation Fund Law 5721-1961; pays for direct war/missile damage to property (structures + contents up to caps). Source: `https://www.gov.il/he/departments/karnit_property_tax_and_compensation_fund_for_road_accident_victims` and `https://www.misim.gov.il/` (Tax Authority Karnit portal).
+- **Wartime tax measures (2023–2026)**: temporary purchase-tax bracket adjustments under Order 5784; Karnit claim deadlines extended for evacuee zones (Otef Aza, Northern border). Verify currency at Tax Authority and Knesset legislation database `https://main.knesset.gov.il/Activity/Legislation/Pages/default.aspx`.
+- **Proposed reforms NOT enacted as of May 2026**: foreign-buyer outright restriction (proposed several times since 2010s, never passed); raising non-resident Mas Rechisha further (in periodic political discussion).
 
 ---
 
@@ -45,11 +45,11 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 ### State-land monopoly (~93%)
 
 - **Land ownership composition** (per RMI public communications and KKL annual reports — verify currency at `https://land.gov.il/` and `https://www.kkl.org.il/`):
-  - **State of Israel**: ~70% of total land area
-  - **Jewish National Fund (JNF / KKL)**: ~12–13%
-  - **Development Authority (רשות הפיתוח)**: ~10%
-  - **Combined RMI-managed**: ~93%
-  - **Private (chofshi)**: ~7%
+- **State of Israel**: ~70% of total land area
+- **Jewish National Fund (JNF / KKL)**: ~12–13%
+- **Development Authority (רשות הפיתוח)**: ~10%
+- **Combined RMI-managed**: ~93%
+- **Private (chofshi)**: ~7%
 - **Implication**: when buying residential property in Israel, the contract is overwhelmingly likely to involve a *registered lease on state-owned land* (managed by RMI) rather than a freehold purchase. The owner-of-record on Tabu is the **lessee**, not the underlying landowner.
 
 ### Lease structure (חכירה / hachira)
@@ -77,28 +77,35 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 | 1 | 0 – ~6,055,070 | 8% |
 | 2 | ~6,055,070+ | 10% |
 
-- **Olim (new immigrants) discount — Section 12 of the Real Estate Taxation Regulations**: a one-time, 7-year window (from 1 year before to 7 years after Aliyah date) reduced rate. As of January 2026 (verify currency):
+- **Olim (new immigrants) discount — Section 12 of the Real Estate Taxation Regulations**: a one-time, 7-year window (from 1 year before to 7 years after Aliyah date) reduced rate. **Restructured 12 August 2024** by Section 12 amendment — post-amendment regime (Olim arriving on/after 12 Aug 2024) (2026-05-27 verified, source: Nefesh B'Nefesh + Gornitzky GNY):
 
-| Bracket | Threshold (ILS) | Rate (Olim) |
+| Bracket | Threshold (ILS) | Rate (Olim, post-12-Aug-2024) |
 |---|---|---:|
-| 1 | 0 – ~1,928,220 | 0.5% |
-| 2 | ~1,928,220+ | 5% |
+| 1 | 0 – ~1,978,745 | **0%** (full exemption) |
+| 2 | ~1,978,745 – ~6,055,070 | **0.5%** |
+| 3 | ~6,055,070 – ~20,183,565 | **8%** |
+| 4 | above ~20,183,565 | benefit DENIED — full standard rates |
+
+- Benefit now applies **only to single-residency purchases**; Olim purchasing investment / additional properties pay standard rates
+- Benefit capped at properties ≤ ~ILS 20,183,565
+- **Grandfathering**: Olim who made Aliyah **before 12 Aug 2024** may elect old (0.5% / 5%) OR new (0% / 0.5% / 8%) rates for subsequent purchases; post-12-Aug-2024 Olim must use the new schedule only
+- 7-year window (1 year before to 7 years after Aliyah) unchanged
 
 - **Israeli-resident "single home" buyer**: progressive 0% / 3.5% / 5% / 8% / 10% scale up to ~ILS 6,055,070 (verify) — *not* available to non-residents.
-- **Brackets are inflation-indexed annually on 16 January** to the CBS housing price index. Source: Tax Authority circular page `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase`.
+- **Bracket indexation FROZEN 2025-2027**: normally indexed annually on 16 January to the CBS housing price index, but indexation is **frozen for tax years 2025, 2026, 2027** under the Economic Efficiency Law / 2025 budget directives; January-2024 brackets remain fixed in nominal shekels through 15 January 2028 — restart planned thereafter, no backfill (2026-05-27 verified per Economic Efficiency Law late-2024 budget package; previously indexed source: Tax Authority circular page `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase`).
 - **CRITICAL**: the bracket numbers above are 2026 reference points; verify current values at the Tax Authority page before signing — they shift every year and have been adjusted mid-year by emergency wartime orders since October 2023.
 
 ### Karnit (Property Tax Compensation Fund) — wartime damage cover
 
 - **Legal basis**: Property Tax and Compensation Fund Law 5721-1961 (חוק מס רכוש וקרן פיצויים).
 - **What it covers**: direct physical war/missile/terror damage to:
-  - **Buildings (structures)** — repair or replacement up to fund caps tied to the property's tax-assessed value
-  - **Contents (movables)** — capped per-claim
-  - **Indirect damages** (loss of business income for evacuee zones) — tighter rules; partial coverage
+- **Buildings (structures)** — repair or replacement up to fund caps tied to the property's tax-assessed value
+- **Contents (movables)** — capped per-claim
+- **Indirect damages** (loss of business income for evacuee zones) — tighter rules; partial coverage
 - **What it does NOT cover**:
-  - **Land devaluation** caused by proximity to active conflict (e.g., Otef Aza / Northern border post-October 2023) — owners cannot recover lost market value
-  - Property-tax assessed value gap when a property's market value exceeds the assessed cap — the gap is uncovered
-  - Damage from internal causes (fire, earthquake) — those go to private insurance / Mavat Ra'ash (national earthquake fund framework, separate)
+- **Land devaluation** caused by proximity to active conflict (e.g., Otef Aza / Northern border post-October 2023) — owners cannot recover lost market value
+- Property-tax assessed value gap when a property's market value exceeds the assessed cap — the gap is uncovered
+- Damage from internal causes (fire, earthquake) — those go to private insurance / Mavat Ra'ash (national earthquake fund framework, separate)
 - **Funding**: state-funded (treasury allocation), supplemented historically by a property-tax surcharge. The fund has paid out **tens of billions of ILS** since October 2023 for war damage in Otef Aza, Northern Israel, and central-Israel rocket-impact incidents (verify current figures at Karnit publications).
 - **Claim process**: file via Tax Authority Karnit portal `https://www.misim.gov.il/`; deadlines extended for active-conflict zones by emergency order.
 - **Implication for foreign buyers**: Karnit substantially de-risks war-damage to the structure but does NOT compensate land-value loss — a property in or near an evacuated zone may retain Karnit coverage for damage but lose 30–60% of market value with no compensation pathway.
@@ -113,9 +120,9 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 ### Mortgage / financing for non-residents
 
 - **Bank of Israel limits** (Banking Supervision Department, Proper Conduct of Banking Business Directive 329):
-  - **Non-resident foreign buyer**: maximum LTV typically **50%** (varies by bank; some go to 60% with strong credit). Source: BoI directive page `https://www.boi.org.il/he/banking-supervision/regulations/`.
-  - **Israeli first home**: up to 75% LTV
-  - **Israeli second home / investor**: up to 50% LTV
+- **Non-resident foreign buyer**: maximum LTV typically **50%** (varies by bank; some go to 60% with strong credit). Source: BoI directive page `https://www.boi.org.il/he/banking-supervision/regulations/`.
+- **Israeli first home**: up to 75% LTV
+- **Israeli second home / investor**: up to 50% LTV
 - **Currency**: most non-resident mortgages offered in ILS; some banks offer USD/EUR-denominated mortgages with FX conversion at drawdown — discuss with the lender.
 - **Documentation**: source-of-funds (under AML Order); tax-residency declaration (FATCA/CRS); often Israeli attorney's confirmation of clean title.
 
@@ -142,15 +149,15 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 ### Primary sources
 
 - **CBS (Central Bureau of Statistics, הלשכה המרכזית לסטטיסטיקה)** — official dwelling price index and rental price index, monthly.
-  - Dwelling Price Index portal: `https://www.cbs.gov.il/he/subjects/Pages/מחירי-דירות.aspx`
-  - Monthly Consumer Price Index page: `https://www.cbs.gov.il/he/Pages/default.aspx`
-  - Index methodology: hedonic regression on transactions reported to the Tax Authority.
+- Dwelling Price Index portal: `https://www.cbs.gov.il/he/subjects/Pages/מחירי-דירות.aspx`
+- Monthly Consumer Price Index page: `https://www.cbs.gov.il/he/Pages/default.aspx`
+- Index methodology: hedonic regression on transactions reported to the Tax Authority.
 - **Israel Tax Authority — Real Estate Transactions Database (מאגר עסקאות נדל"ן)**:
-  - Public portal: `https://www.gov.il/he/departments/dynamiccollectors/realestate_purchase_data` (search by address — actual recorded sale prices)
-  - This is the **single most important benchmark source** for foreign buyers: shows realized prices, not listing asking prices.
+- Public portal: `https://www.gov.il/he/departments/dynamiccollectors/realestate_purchase_data` (search by address — actual recorded sale prices)
+- This is the **single most important benchmark source** for foreign buyers: shows realized prices, not listing asking prices.
 - **Bank of Israel residential property data**:
-  - Financial Stability Report `https://www.boi.org.il/he/communication-and-publications/regular-publications/financial-stability-report/`
-  - Statistical bulletin (real estate section) `https://www.boi.org.il/he/data-and-statistics/`
+- Financial Stability Report `https://www.boi.org.il/he/communication-and-publications/regular-publications/financial-stability-report/`
+- Statistical bulletin (real estate section) `https://www.boi.org.il/he/data-and-statistics/`
 - **Ministry of Construction & Housing (משרד הבינוי והשיכון)** — tender prices for state-land plots; useful as a lower bound. `https://www.gov.il/he/departments/ministry_of_construction_and_housing`
 
 ### Listing platforms (secondary, listings = seller-controlled)
@@ -202,8 +209,8 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 ### Primary sources
 
 - **Netivei Israel (נתיבי ישראל / National Roads Company)** — traffic counts on inter-urban roads.
-  - Portal: `https://www.iroads.co.il/`
-  - Traffic data publication: search "סקרי תנועה" / "נפח תנועה" via the site
+- Portal: `https://www.iroads.co.il/`
+- Traffic data publication: search "סקרי תנועה" / "נפח תנועה" via the site
 - **Ministry of Transport (משרד התחבורה)** — annual traffic statistics; `https://www.gov.il/he/departments/ministry_of_transport_and_road_safety`
 - **CBS Transport Statistics** — `https://www.cbs.gov.il/he/subjects/Pages/תחבורה.aspx`
 - **Local municipality traffic department** — for urban arterial counts (Tel Aviv, Jerusalem, Haifa publish their own counts intermittently)
@@ -245,25 +252,25 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 **Israel does NOT have a national annual property tax**. Each of the 257 local authorities levies a **municipal property tax called Arnona** (legal basis: Local Authorities (Property Taxes Exemption) Law 5727-1967, plus annual local budget orders).
 
 - **Computed**: by built area (`שטח בנוי` in m²) × per-m² rate set in the municipality's annual ordinance (`חוק עזר ארנונה`). Rates vary by:
-  - Property classification (residential, commercial, industrial, vacant)
-  - Neighborhood (`איזור ארנונה`) — most municipalities define 2–6 zones with different rates
-  - Building age (some municipalities discount for older / preserved buildings)
+- Property classification (residential, commercial, industrial, vacant)
+- Neighborhood (`איזור ארנונה`) — most municipalities define 2–6 zones with different rates
+- Building age (some municipalities discount for older / preserved buildings)
 - **Annual indexation**: Ministry of Interior caps the year-on-year increase (typically published October/November for the coming calendar year). Source: `https://www.gov.il/he/departments/ministry_of_interior`.
 - **Discounts** (`הנחות ארנונה`): standard discounts for olim (up to 90% in first year), pensioners, single-parent, disabled, large families — typically the buyer cannot inherit the seller's discount.
 - **Range** (residential, 2026):
-  - **Tel Aviv-Yafo** (Zone A): ~ILS 75–110/m²/year (verify current at `https://www.tel-aviv.gov.il/`)
-  - **Jerusalem**: ~ILS 60–90/m²/year (verify at `https://www.jerusalem.muni.il/`)
-  - **Haifa**: ~ILS 50–75/m²/year
-  - **Periphery / smaller towns**: ~ILS 30–60/m²/year
-  - **Kibbutzim / regional councils**: variable, often lower (special arrangements)
+- **Tel Aviv-Yafo** (Zone A): ~ILS 75–110/m²/year (verify current at `https://www.tel-aviv.gov.il/`)
+- **Jerusalem**: ~ILS 60–90/m²/year (verify at `https://www.jerusalem.muni.il/`)
+- **Haifa**: ~ILS 50–75/m²/year
+- **Periphery / smaller towns**: ~ILS 30–60/m²/year
+- **Kibbutzim / regional councils**: variable, often lower (special arrangements)
 - **Example calculation**:
-  - 90 m² apartment in central Tel Aviv at ~ILS 92/m²/year → ~ILS 8,280/year (~$2,240/year est. at 3.7 ILS/USD)
-  - 100 m² apartment in central Jerusalem at ~ILS 78/m²/year → ~ILS 7,800/year (~$2,110/year est.)
-  - **Verify exact rate on the seller's last Arnona bill (חשבון ארנונה)** — the most reliable source.
+- 90 m² apartment in central Tel Aviv at ~ILS 92/m²/year → ~ILS 8,280/year (~$2,240/year est. at 3.7 ILS/USD)
+- 100 m² apartment in central Jerusalem at ~ILS 78/m²/year → ~ILS 7,800/year (~$2,110/year est.)
+- **Verify exact rate on the seller's last Arnona bill (חשבון ארנונה)** — the most reliable source.
 
 ### Transaction tax — Mas Rechisha (מס רכישה)
 
-**Mas Rechisha is the buyer's purchase tax.** Brackets indexed annually on **16 January** to CBS housing index. Verify current values at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase`.
+**Mas Rechisha is the buyer's purchase tax.** Brackets normally indexed annually on **16 January** to CBS housing index, but indexation is **FROZEN for tax years 2025-2027** under the Economic Efficiency Law / 2025 budget directives; January-2024 brackets remain fixed in nominal shekels through 15 January 2028 (2026-05-27 verified per late-2024 budget package). Verify current values at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase`.
 
 #### 2026 reference brackets (verify before signing — these change every January)
 
@@ -286,19 +293,24 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 **Non-resident / foreign buyer**: same as Israeli investor scale — **8% / 10%** (no discount).
 
-**Olim (within 7-year window — Section 12 of regulations)**:
+**Olim (within 7-year window — Section 12 of regulations, post-12-Aug-2024 reform)** (2026-05-27 verified, source: Nefesh B'Nefesh + Gornitzky GNY):
 
-| Bracket | Threshold (ILS) | Rate |
+| Bracket | Threshold (ILS) | Rate (Olim, post-12-Aug-2024) |
 |---|---|---:|
-| 1 | 0 – ~1,928,220 | 0.5% |
-| 2 | ~1,928,220+ | 5% |
+| 1 | 0 – ~1,978,745 | **0%** (full exemption) |
+| 2 | ~1,978,745 – ~6,055,070 | **0.5%** |
+| 3 | ~6,055,070 – ~20,183,565 | **8%** |
+| 4 | above ~20,183,565 | benefit DENIED |
+
+- Single-residency only; investment / additional purchases get standard rates
+- Olim who made Aliyah pre-12-Aug-2024 may elect old (0.5% / 5%) OR new (0% / 0.5% / 8%) scale
 
 #### Worked examples
 
 - **Foreign buyer, ILS 4,000,000 apartment**: 4,000,000 × 8% = **ILS 320,000 Mas Rechisha** (~$86,500 est.)
 - **Foreign buyer, ILS 8,000,000 apartment**: (6,055,070 × 8%) + (1,944,930 × 10%) = 484,406 + 194,493 = **~ILS 678,899** (~$183,500 est.)
-- **Oleh, ILS 4,000,000 apartment within 7-year window**: (1,928,220 × 0.5%) + (2,071,780 × 5%) = 9,641 + 103,589 = **~ILS 113,230** (~$30,600 est.)
-- **Foreign vs Oleh on same ILS 4M apartment**: foreign pays ILS 320,000; Oleh pays ILS 113,230 — **the Olim discount saves ~ILS 206,770 (~$55,900 est.)** on this transaction.
+- **Oleh, ILS 4,000,000 apartment within 7-year window (post-12-Aug-2024 regime)**: (1,978,745 × 0%) + (2,021,255 × 0.5%) = 0 + 10,106 = **~ILS 10,106** (~$2,730 est.) (2026-05-27 verified — formerly ~ILS 113,230 under pre-amendment 0.5%/5% scale; grandfathered Olim may still elect that)
+- **Foreign vs Oleh on same ILS 4M apartment**: foreign pays ILS 320,000; Oleh (post-12-Aug-2024 single-residency) pays ILS 10,106 — **the Olim discount saves ~ILS 309,894 (~$83,800 est.)** on this transaction; the prior 0.5%/5% regime saved ~ILS 206,770.
 
 ### Capital gains — Mas Shevach (מס שבח)
 
@@ -333,9 +345,9 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 ### Long-term residential
 
 - **Tax regime — choice of three** (legal basis: Income Tax Ordinance §122 + 122A):
-  - **Full exemption track** (קו פטור): if monthly rental income from all residential properties ≤ ILS 5,654 (2026 threshold; verify currency at Tax Authority) — fully exempt from income tax. Useful for small landlords.
-  - **10% flat-rate track** (קו 10%): pay 10% flat tax on gross rental income; no expense deductions; no abatement; mandatory advance-payment by 30 January following tax year. Most common for small-to-mid landlords.
-  - **Standard income tax track** (מסלול רגיל): rental income added to other income; taxed at marginal bracket (10–50% range); deduct actual expenses (depreciation, mortgage interest, repairs, agent fees). Best for high-cost / high-leverage scenarios.
+- **Full exemption track** (קו פטור): if monthly rental income from all residential properties ≤ ILS 5,654 (2026 threshold; verify currency at Tax Authority) — fully exempt from income tax. Useful for small landlords.
+- **10% flat-rate track** (קו 10%): pay 10% flat tax on gross rental income; no expense deductions; no abatement; mandatory advance-payment by 30 January following tax year. Most common for small-to-mid landlords.
+- **Standard income tax track** (מסלול רגיל): rental income added to other income; taxed at marginal bracket (10–50% range); deduct actual expenses (depreciation, mortgage interest, repairs, agent fees). Best for high-cost / high-leverage scenarios.
 - **Non-residents**: typically 10% track or standard track; no exemption-track for non-Israeli-resident landlords (§122 limits exemption to Israeli residents).
 - **Tenant-protection law**: Tenancy Law 5731-1971 (חוק השכירות והשאילה); reformed substantially 2017 (Fair Rent Law / חוק שכירות הוגנת) — sets minimum standards (working appliances, safety, mold-free), restrictions on landlord termination during tenancy, deposit caps (max 3 months' rent or 1/3 of lease value).
 - **Standard contract**: 12 months with renewal option; termination requires 60–90 days notice depending on lease term.
@@ -345,9 +357,9 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Status**: legal but increasingly regulated. National framework still evolving (proposed STR registration law debated 2023–2025; as of May 2026 verify current status at Knesset).
 - **Tel Aviv-Yafo**: most stringent — Tel Aviv has discussed mandating short-let registration, building-association consent, and per-unit caps. Verify at `https://www.tel-aviv.gov.il/`.
 - **Tax**: short-term rental income generally classified as **business income** (not §122 residential rental) when:
-  - Property is offered for short-let (< 6 months at a time)
-  - Active management / marketing (Airbnb / Booking listings)
-  - Multiple turnovers per year
+- Property is offered for short-let (< 6 months at a time)
+- Active management / marketing (Airbnb / Booking listings)
+- Multiple turnovers per year
 - **VAT trigger**: if annual short-let revenue > ILS ~120,000 (2026 osek patur threshold; verify), VAT registration becomes mandatory at 18%.
 - **Building-association (Va'ad Bayit) consent**: under Land Law 5729-1969 §59A and amendments, condominium owners cannot run a "hotel-like" operation without by-law amendment from the building's general assembly (`אסיפה כללית`). Many Tel Aviv buildings have passed by-laws prohibiting Airbnb.
 - **Local accommodation tax**: some municipalities (Tel Aviv, Jerusalem, Eilat) collect a guest tax (`מס תיירים` / accommodation levy) on short-let stays — verify per municipality.
