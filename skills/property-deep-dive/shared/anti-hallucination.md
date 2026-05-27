@@ -67,7 +67,7 @@ Output template extension for every section:
 **Confidence**: HIGH | MEDIUM | LOW — <one-sentence justification>
 ```
 
-## The seven mandatory pre-output checks
+## The eight mandatory pre-output checks
 
 Before printing the final report, the skill **must** scan its draft against these checks. Each `❌` requires a fix-pass.
 

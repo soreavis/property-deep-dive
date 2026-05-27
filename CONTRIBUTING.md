@@ -91,7 +91,7 @@ Forbidden phrasings: "approximately X", "in the area of", "typical for the regio
 
 If a number can't be sourced, write `data not publicly available — verify at <authoritative source>` rather than guessing.
 
-The seven mandatory pre-output checks are documented in `skills/property-deep-dive/shared/anti-hallucination.md`.
+The eight mandatory pre-output checks are documented in `skills/property-deep-dive/shared/anti-hallucination.md`.
 
 ## URL hygiene
 

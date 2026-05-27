@@ -12,7 +12,7 @@ This skill drives six- to seven-figure property decisions. **Every claim must be
 
 If a number can't satisfy any of those, write `data not publicly available — verify at <authoritative source>` rather than guessing.
 
-The 7 mandatory pre-output checks are in [`shared/anti-hallucination.md`](./skills/property-deep-dive/shared/anti-hallucination.md). They are non-negotiable for any output the skill produces.
+The 8 mandatory pre-output checks are in [`shared/anti-hallucination.md`](./skills/property-deep-dive/shared/anti-hallucination.md). They are non-negotiable for any output the skill produces.
 
 **Forbidden phrasings** (these phrases generate fabrication pressure):
 

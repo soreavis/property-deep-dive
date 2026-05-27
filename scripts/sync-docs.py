@@ -110,6 +110,8 @@ def count_section_flags() -> int:
     output_only = {
         # Output controls
         'save', 'quick', 'deep', 'override-confidence', 'listing', 'all', 'country',
+        # Translation flags (output controls)
+        'lang', 'lang-scope',
         # Maintenance mode flags
         'update', 'add', 'diff', 'interactive', 'test',
         'validate-only', 'refresh-only', 'health-report',

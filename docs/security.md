@@ -22,7 +22,7 @@ Every numeric / factual claim the skill outputs must be one of:
 
 If a number can't satisfy any of those, the skill writes `data not publicly available — verify at <authoritative source>` rather than guessing.
 
-The seven mandatory pre-output checks are documented in [`shared/anti-hallucination.md`](../skills/property-deep-dive/shared/anti-hallucination.md). Forbidden phrasings (e.g. "approximately X", "industry average", "experts say") are blocked at CI.
+The eight mandatory pre-output checks are documented in [`shared/anti-hallucination.md`](../skills/property-deep-dive/shared/anti-hallucination.md). Forbidden phrasings (e.g. "approximately X", "industry average", "experts say") are blocked at CI.
 
 ## What you must verify before signing anything
 

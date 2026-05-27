@@ -254,7 +254,7 @@ For batch / CI / scheduled runs, the GitHub Actions workflows in `.github/workfl
 
 This skill drives major financial decisions, so it's built around the contract that **every claim is either sourced, computed transparently, or labelled as uncertain**. Three layers enforce this:
 
-1. **Anti-hallucination guard** (`skills/property-deep-dive/shared/anti-hallucination.md`) — 7 mandatory pre-output checks, source-tier ranking, forbidden-phrasing list, calibrated hedging
+1. **Anti-hallucination guard** (`skills/property-deep-dive/shared/anti-hallucination.md`) — 8 mandatory pre-output checks, source-tier ranking, forbidden-phrasing list, calibrated hedging
 2. **Regulatory watch** (`skills/property-deep-dive/shared/regulatory-watch.md`) — single date-stamped registry tracking ENDED programs (golden visas, MEIN, NHR), recently enacted reforms (last 24 months), EU directive transposition deadlines, watchlist
 3. **Auto-downgrade rule** (`skills/property-deep-dive/shared/updater.md` § Auto-downgrade) — confidence labels decay over time without re-verification (HIGH → MEDIUM at 6 months, LOW at 12 months, STALE at 18 months); regulatory-watch entries can force STALE regardless of age
 
@@ -383,7 +383,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 166 markdown files, ~83,500 lines (SKILL.md + 48 top-level shared/ + 14 shared/exit/ region files + 109 country playbooks).
-**Repo total**: 199 markdown files, ~92,900 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 201 markdown files, ~93,400 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

@@ -60,7 +60,7 @@ jobs:
           # Match docs/ both with and without a leading ./ — `git diff --name-only` (PR runs)
           # emits paths like `docs/security.md` while `find . -name '*.md'` (push runs) emits
           # `./docs/security.md`. Allowlisting only one form silently lets the other through.
-          grep -vE '(anti-hallucination\.md|README\.md|CONTRIBUTING\.md|CLAUDE\.md|SECURITY\.md|CODE_OF_CONDUCT\.md|CHANGELOG\.md|SKILL\.md|pull_request_template\.md)$|^(\./)?docs/' _ci_changed.txt > _ci_scan.txt || true
+          grep -vE '(anti-hallucination\.md|foreign-language-preservation\.md|README\.md|CONTRIBUTING\.md|CLAUDE\.md|SECURITY\.md|CODE_OF_CONDUCT\.md|CHANGELOG\.md|SKILL\.md|pull_request_template\.md)$|^(\./)?docs/' _ci_changed.txt > _ci_scan.txt || true
           echo "Files to scan: $(wc -l < _ci_scan.txt)"
 
       - name: Scan for forbidden phrasings
@@ -238,6 +238,8 @@ jobs:
               'diff', 'interactive', 'test', 'all', 'country', 'update',
               'tco', 'mortgage', 'watch', 'health-report',
               'validate-only', 'refresh-only',
+              'lang', 'lang-scope',
+              'tier', 'include', 'exclude',
           }
           section_flags = sorted(flags - output_only)
 
