@@ -1,5 +1,5 @@
 {
-  "_comment": "Refresh-cadence tiers — single source of truth for which countries get refreshed how often. Edit this when promoting/demoting a country across tiers (e.g., a frontier market with a major reform may move B→A for one cycle). Country code → playbook directory must match skills/property-deep-dive/countries/<code>/playbook.md. The sum of all tier codes must equal the total country count in config/_regions.json (currently 103).",
+  "_comment": "Refresh-cadence tiers — single source of truth for which countries get refreshed how often. Edit this when promoting/demoting a country across tiers (e.g., a frontier market with a major reform may move B→A for one cycle). Country code → playbook directory must match skills/property-deep-dive/countries/<code>/playbook.md. The sum of all tier codes must equal the total country count in config/_regions.json (currently 109).",
   "tiers": {
     "A": {
       "label": "Quarterly refresh",
@@ -17,7 +17,7 @@
       "label": "Annual refresh",
       "cadence_days": 365,
       "rationale": "Smaller markets, microstates, frontier jurisdictions. Foundational data (cadastre, tax authority) is stable across calendar years; targeted patches happen via regulatory-watch override, not the cadence.",
-      "codes": ["li", "ad", "mc", "ar", "cr", "pa", "do", "co", "uy", "cl", "pe", "ec", "py", "rs", "me", "ba", "mk", "al", "th", "my", "id", "vn", "ph", "in", "za", "ma", "eg", "tn", "ng", "ke", "ge", "md", "am", "az", "mo", "qa", "sa", "jo", "om", "bh", "kw", "lb", "sc", "jm", "sm", "bz", "mv", "gh", "rw"]
+      "codes": ["li", "ad", "mc", "ar", "cr", "pa", "do", "co", "uy", "cl", "pe", "ec", "py", "rs", "me", "ba", "mk", "al", "th", "my", "id", "vn", "ph", "in", "za", "ma", "eg", "tn", "ng", "ke", "ge", "md", "am", "az", "mo", "qa", "sa", "jo", "om", "bh", "kw", "lb", "sc", "jm", "sm", "bz", "mv", "gh", "rw", "je", "gg", "im", "gi", "fo", "gl"]
     }
   },
   "promotion_rules": {

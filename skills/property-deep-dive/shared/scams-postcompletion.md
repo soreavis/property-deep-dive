@@ -50,7 +50,7 @@ The verdict turns on **structural exposure**, not phishing volume. Authority-imp
 
 ## Universal mitigations
 
-Applicable across all 103 countries, in priority order:
+Applicable across all 109 countries, in priority order:
 
 1. **Enrol in the jurisdiction's free registry-alert service the day the deed registers.** Confirmed free services: UK HM Land Registry **Property Alert**; Morocco ANCFCC **"Mouahafadati"** (SMS/email on any title operation; 2017/2019 cooperation specifically protects Moroccans-Residing-Abroad); Peru SUNARP **Alerta Registral** (Resolución 00080-2025-SUNARP/SN, 30 May 2025); Costa Rica **Registro Nacional** document-alert; several Indian states' property-mutation SMS. Where none exists, instruct the land registry / notary to flag the file and schedule a recurring manual title search.
 2. **Pay recurring charges only into the building's regulated account.** Verify the service-charge IBAN is the RERA-approved Mollak escrow (Dubai) / the owners'-association statutory account, never a management company's or individual's personal IBAN.

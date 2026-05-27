@@ -239,7 +239,7 @@ Management commission bands (no trade-body central rate-card surfaced for FEVITU
 
 ## Universal mitigations
 
-For foreign buyers, applicable across all 103 countries:
+For foreign buyers, applicable across all 109 countries:
 
 1. **Re-base the gross-yield headline** — pull marketed yield from a single named source (Idealista / SeLoger / Spitogatos / AirDNA / GPG / local portal) with date stamp; subtract each cost line transparently; produce a *single net yield range* not a point estimate. Cite the source publicly so buyer can verify.
 2. **Test the day-cap binding constraint** — multiply cap × ADR × cap-window occupancy, not cap × ADR. Paris 90 nights at €162 ADR with 78% occupancy = 90 × 162 × 0.78 = €11,372, not €14,580. AMS 15-night cap from 1 Apr 2026 collapses to ~€2,640 in 8 stress zones.

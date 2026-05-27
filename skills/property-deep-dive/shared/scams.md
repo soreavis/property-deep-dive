@@ -1,6 +1,6 @@
 # Universal `--scams` Section
 
-Country-specific transaction-fraud register: documented buyer-side property scams with regulator advisories, prosecutions, or investigative-journalism evidence. Covers all 103 supported countries.
+Country-specific transaction-fraud register: documented buyer-side property scams with regulator advisories, prosecutions, or investigative-journalism evidence. Covers all 109 supported countries.
 
 **Snapshot**: May 2026. Scam patterns evolve with reform cycles — this section is point-in-time. The headline 2024-2026 enforcement waves shaping the landscape: **US wire-fraud at closing** ($2.77B BEC losses 2024 per FBI IC3), **NY/FL/TX deed-theft prosecution wave** (NY AG Marcus Wilcher 3-9y May 2024; FL HB 621 + TX SB 1333), **UK HMLR Property Alert** (£59m blocked FY24-25), **GR Golden Visa price-inflation Circular 1/2026**, **TR CBI "Bona Fide" prosecution** (106 arrests + 451 investors flagged Sept 2025), **ZA Hawarden v ENS SCA 10 Jun 2024** (BEC liability test), **NO Eml. amendment 1 Jul 2025** (hidden bids banned), **MV/SI/RW** Land Authority POA-suspension (Oct 2025) for forged-POA forgery wave, **AE Dubai RERA** (30 developers fined 2024 + Knightsbridge license revoked Nov 2025), **CN Evergrande/Country Garden off-plan delivery default cascade**, **VN Tan Hoang Minh** prosecution (Hanoi People's Court 27 Mar 2024), **KR jeonse fraud** (38,000+ recognized victims by Apr 2026).
 
@@ -216,7 +216,7 @@ Largest regional fraud volume by transaction count. **Headline patterns**: **JP 
 
 ## Universal mitigations (apply regardless of country)
 
-These five mitigations work across all 103 countries and prevent ~80% of documented losses:
+These five mitigations work across all 109 countries and prevent ~80% of documented losses:
 
 1. **Voice-verify wire instructions on an independently-sourced number** — never trust the email signature, never call back the number "from the email". Use the law-society / state-registrar / public-directory number for the firm. This single step would have prevented the bulk of $2.77B BEC losses 2024 (FBI IC3) + A$152.6M AU + ZA Hawarden v ENS R5.5M + LB fresh-USD vs Lollar deposits.
 

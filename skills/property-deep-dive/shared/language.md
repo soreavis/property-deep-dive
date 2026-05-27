@@ -1,6 +1,6 @@
 # Universal `--language` Section
 
-Foreign-buyer language requirements: deed-language rule, sworn-translator-at-signing mandate, POA / apostille chain, mandatory diagnostic-document language, sworn-translation cost band. Covers all 103 supported countries.
+Foreign-buyer language requirements: deed-language rule, sworn-translator-at-signing mandate, POA / apostille chain, mandatory diagnostic-document language, sworn-translation cost band. Covers all 109 supported countries.
 
 **Snapshot**: May 2026. Apostille statuses move — verify HCCH status table for any time-critical POA execution. Two 2025-2026 status changes already in flight: **VN acceded 31 Dec 2025, in force 11 Sept 2026**; **TH approved accession Dec 2025, not yet in force**. Recent past changes still relevant: **CN in force 7 Nov 2023**, **AE not a member** (still requires full MOFAIC legalisation chain), **SA in force 7 Dec 2022**, **ID in force 4 Jun 2022**, **CA acceded 11 Jan 2024**, **RW in force 5 Jun 2024**, **SG in force 16 Jan 2021**, **MA in force 14 Aug 2016**.
 
@@ -206,7 +206,7 @@ Largest region with widest Apostille variation. **Members**: JP, KR, SG (since 1
 
 ## Universal mitigations (apply regardless of country)
 
-These five mitigations work across all 103 countries and prevent the most common foreign-buyer language pitfalls:
+These five mitigations work across all 109 countries and prevent the most common foreign-buyer language pitfalls:
 
 1. **Always verify Hague Apostille status for both the POA-issuing country and the property country at [hcch.net status table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41) the day you start the chain** — non-membership adds 4-8 weeks. Watch for in-flight changes (VN in force 11 Sept 2026; TH approved Dec 2025).
 

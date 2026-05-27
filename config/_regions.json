@@ -65,6 +65,11 @@
       "id": "microstates",
       "label": "European Microstates",
       "codes": ["li", "ad", "mc", "sm"]
+    },
+    {
+      "id": "crown_deps_territories",
+      "label": "Crown Dependencies & Autonomous Territories",
+      "codes": ["je", "gg", "im", "gi", "fo", "gl"]
     }
   ]
 }

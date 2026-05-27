@@ -1,6 +1,6 @@
 # Universal `--permits` Section
 
-Building-works permit regime: declaration thresholds, full permit thresholds, listed-building / heritage overlays, post-completion conformity certificates, retention / amnesty / regularization rules, post-purchase enforcement risk. Covers all 103 supported countries.
+Building-works permit regime: declaration thresholds, full permit thresholds, listed-building / heritage overlays, post-completion conformity certificates, retention / amnesty / regularization rules, post-purchase enforcement risk. Covers all 109 supported countries.
 
 **Snapshot**: May 2026. Regulations and thresholds change at municipal/regional level — treat as point-in-time.
 

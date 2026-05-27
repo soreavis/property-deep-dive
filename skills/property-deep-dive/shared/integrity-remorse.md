@@ -37,7 +37,7 @@ For the property's country, return:
 
 ## Universal mitigations
 
-Applicable across all 103 countries:
+Applicable across all 109 countries:
 
 1. **Convert each documented trigger into a written pre-offer question** to the seller/agent/管理 body and require a figure, not a reassurance.
 2. **Demand the post-sale projected property-tax / catastral figure**, never the seller's historical one.

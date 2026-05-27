@@ -1,6 +1,6 @@
 # Universal `--connectivity` Section
 
-Foreign-buyer broadband / fixed-internet profile: official address-level fibre availability checker, dominant ISPs with FTTH product line, tariff bands (entry / mid / gigabit) with currency + EUR/USD equivalent, FTTH urban coverage, rural fallback (5G FWA / Starlink / fixed-wireless), Starlink licence status, build-era / strata trap, country-specific quirk. Covers all 103 supported countries.
+Foreign-buyer broadband / fixed-internet profile: official address-level fibre availability checker, dominant ISPs with FTTH product line, tariff bands (entry / mid / gigabit) with currency + EUR/USD equivalent, FTTH urban coverage, rural fallback (5G FWA / Starlink / fixed-wireless), Starlink licence status, build-era / strata trap, country-specific quirk. Covers all 109 supported countries.
 
 **Snapshot**: May 2026. Tariffs from carrier price pages May 2026 unless noted; FX-volatile markets (AR, TR, EG, NG, LB) use ~May 2026 rates — bands age in months not years. Starlink licence status moves — verify the [Starlink coverage map](https://www.starlink.com/map) + the national regulator before relying on the registry below for time-critical purchases.
 

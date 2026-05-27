@@ -40,7 +40,7 @@ The verdict turns on **realistic access**, not headline availability: a country 
 
 ## Universal mitigations
 
-Applicable across all 103 countries:
+Applicable across all 109 countries:
 
 1. **Get the non-resident LTV in writing from a named lender before the offer**, not the headline macroprudential cap; size the deposit to that number.
 2. **Engage a named cross-border broker/expat desk early** where the direct-to-bank path is thin — it is often the only route to a lender that will write the file.

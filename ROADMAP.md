@@ -73,7 +73,9 @@ Sourced from Reddit gap-analysis 2026-05-08. Cross-validated across 6+ subreddit
 - Capital-controls + FET-form — `--currency` strong
 - EV chargers — low signal, single-line under `--mains` enough
 
-## Schema-decided 2026-05-27: Crown Dependencies + DK territories use standalone ISO 3166-1 alpha-2 codes
+## ✅ Schema-decided + SHIPPED 2026-05-27 — Batch A (Crown Deps) + Batch B (DK territories)
+
+**Status**: Same-day ship. Country count **103 → 109**. New region `crown_deps_territories`. 2,864 lines of new playbook content. Total wave: 4 research → validation → integration → ship parallel-agent stages with 6 agents per wave (24 agent runs total) + 4 PRs (schema-decision #177 + batched-ship in this PR + 2 follow-ups for regulatory-watch seeds + visa-programs entries). Critical validation catches before ship: GL `Inatsisartutlov nr. 78 af 21. november 2025` enacted (supersedes "pending"); GI two-tier Open/Restricted Market (3-yr residency); JE LTT 700k-1m 3% + 2026 Budget P.93/2025; IM FERSA re-signed 11 Apr 2025; FO Løgtingslóg date softening; GG Doc Duty 5.50% + Standard Charge £40k→£50k 2026.
 
 **Decision**: sub-sovereign jurisdictions with their own tax authority, land registry, and court system get **standalone playbooks** under their actual ISO 3166-1 alpha-2 code — not compound codes (`uk-je`) and not sub-region overlays. Rationale + per-jurisdiction policy: see `CONTRIBUTING.md` § "Sub-sovereign jurisdictions".
 
