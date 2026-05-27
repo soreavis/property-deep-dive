@@ -142,12 +142,11 @@ For **new builds (vendita da impresa)**:
 - Replaces but does NOT abolish regional licensing (some regioni still need additional notice to comune)
 - Free; alphanumeric code
 
-**Tax regime — Cedolare secca (sostitutiva)** (2026-05-27 verified, source Legge di Bilancio 2026 / L. 199/2025; VERIFY-NEEDED final art./commi against gazzettaufficiale.it):
-- **1° immobile**: 21 % flat
-- **2° immobile**: 26 % flat
-- **3°/4° immobile**: **30 % flat** (NEW bracket from 2026 per Legge di Bilancio 2026)
-- **5°+ immobile**: presunzione di attività imprenditoriale → P.IVA obbligatoria, regime ordinario
-- **Limite 2026**: max 2 immobili in cedolare secca per contribuente (the ≤2 cap applies to cedolare-secca eligibility, distinct from imprenditoriale presumption threshold)
+**Tax regime — Cedolare secca (sostitutiva)** (2026-05-27 verified, sources [L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 17](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199) modifying L. 178/2020 art. 1 c. 595; rate scheme set by L. 213/2023 art. 1 c. 63; underlying regime DL 50/2017 art. 4 commi 2-3; [Agenzia Entrate Locazioni Brevi e Cedolare Secca](https://www.agenziaentrate.gov.it/portale/le-locazioni-brevi-e-la-cedolare-secca)):
+- **1° immobile**: 21 % flat (cedolare ridotta) — applies only if a SINGLE property is leased short-term in the tax year
+- **2° immobile**: 26 % flat (cedolare ordinaria)
+- **Soglia 2026**: max 2 immobili in cedolare secca per contribuente (era 4 fino al 2025; ridotto da L. 199/2025 art. 1 c. 17). Il ≤2-cap e la presunzione di impresa ≥3 sono la **stessa soglia espressa in due modi**, non due limiti distinti
+- **3°+ immobile**: presunzione di attività imprenditoriale ex art. 2082 c.c. → P.IVA obbligatoria, IVA/IRPEF ordinaria, perdita del regime cedolare (per Guida AdE aprile 2026)
 - Only for contracts ≤ 30 days
 - Optional alternative: regime ordinario IRPEF on rental income
 
@@ -349,7 +348,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 
 ## Active fiscal incentives (2025)
 
-- **Sismabonus** prima casa **50 %** / seconda **36 %** (2025 e 2026 — decalage sospeso da Legge di Bilancio 2026); 36 %/30 % programmato per 2027 salvo proroga; cap €96,000/unit; spread su 10 quote annuali (2026-05-27 verified, source Legge di Bilancio 2026; VERIFY-NEEDED exact commi)
+- **Sismabonus** prima casa **50 %** / seconda **36 %** (2025 e 2026 — decalage sospeso da [L. 199/2025 art. 1 c. 22](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199) modificante DL 63/2013 art. 16); 36 %/30 % programmato per 2027 salvo proroga; cap €96,000/unit; spread su 10 quote annuali; statute underlying: art. 16-bis TUIR (DPR 917/1986) + art. 16 c. 1-septies DL 63/2013 per acquisti (2026-05-27 verified, sources normattiva.it L. 199/2025 + DL 63/2013)
 - **Ecobonus** energy retrofit: 50 % prima casa / 36 % seconda (2025)
 - **Bonus Ristrutturazione**: 50 % up to €96k; cap aliquote scendono progressivamente
 - **Superbonus 110 %** sostanzialmente concluso; trasceso a 65 % e poi a regime ordinario

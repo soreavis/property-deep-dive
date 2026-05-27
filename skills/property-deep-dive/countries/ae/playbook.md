@@ -137,7 +137,28 @@ This section determines whether a transaction is even legally possible. Confirm 
 
 ### Abu Dhabi benchmarks
 
-- Saadiyat / Yas / Al Reem premium ranges and citywide averages: **data not retrieved during this run — verify at ADREC open data** `https://adrec.gov.ae/` and Bayut Abu Dhabi index. Anecdotally: Saadiyat villas often AED 2,500–4,500/sqft; Al Reem apartments AED 1,300–2,000/sqft (per listing platforms — verify with primary source).
+[ADREC (Abu Dhabi Real Estate Centre)](https://adrec.gov.ae/) is the primary regulator and publishes interactive dashboards at [adrec.gov.ae/en/property_and_index/adrec-dashboard](https://adrec.gov.ae/en/property_and_index/adrec-dashboard) (transaction volumes + price indices — interactive, no static export; manual dashboard visit required for definitive transactional values). Most reliable per-zone AED/sqft figures are aggregated by [Knight Frank H1 2025](https://www.knightfrank.ae/newsroom/article/2025/8/abu-dhabi-residential-market-review-h1-2025) and [Bayut FY 2025 / H1 2025 reports](https://www.bayut.com/mybayut/abu-dhabi-sales-market-report-2025/). ADREC's 2025 annual report (released 27 Feb 2026) confirms direction: **+19% apartments, +13% villas YoY 2024 → 2025**; named Saadiyat (AED 9.1B transactions), Yas (AED 5.86B), and Al Bahia (AED 3.98B) as H1 2025 top sales destinations.
+
+| Zone | Type | AED/sqft | Source · period | YoY |
+|---|---|---:|---|---:|
+| **Saadiyat Island** | villa (luxury slice — HIDD Al Saadiyat, Mamsha, beachfront) | ~AED 2,061 | Bayut FY 2025 report | +12.9% |
+| **Saadiyat Island** | villa (whole-island incl. Reserve/Lagoons) | ~AED 1,631 | Bayut Index Apr 2026 | −6.0% |
+| **Saadiyat Island** | apartment (luxury) | ~AED 2,932 | Bayut FY 2025 report | +27.0% |
+| **Saadiyat Island** | apartment (whole-island) | ~AED 3,344 | Bayut Index Apr 2026 | +4.6% |
+| **Yas Island** | villa | ~AED 1,528 | Bayut FY 2025 report | +10.9% |
+| **Yas Island** | apartment | ~AED 1,818 | Bayut FY 2025 report | +24.3% |
+| **Yas Island** | apartment (live index — branded/waterfront uplift) | ~AED 2,370 | Bayut Index Apr 2026 | +27.7% |
+| **Al Reem Island** | apartment (mid-tier — Reem is overwhelmingly apartment stock) | ~AED 1,352 | Bayut FY 2025 report | +18.9% |
+| **Al Reem Island** | apartment (live index) | ~AED 1,767 | Bayut Index Apr 2026 | +26.9% |
+| **Abu Dhabi citywide** | apartment | ~AED 1,296 | Knight Frank Q2 2025 | +17.3% |
+| **Abu Dhabi citywide** | villa | ~AED 1,103 | Knight Frank Q2 2025 | (+42.3% since Q1 2020) |
+| **Abu Dhabi citywide** | blended (all stock, hedonic index) | ~AED 1,005 | ValuStrat Q3 2025 | +9.0% |
+
+**Rental yields (Bayut FY 2025 — ROI on listed prices, gross):** Saadiyat villa 4.47% · Saadiyat apt 4.05% · Yas villa 5.43% · Yas apt 7.07% · Al Reem apt **7.49%** (the highest mid-tier yield in Abu Dhabi).
+
+**Methodology notes:** (a) Knight Frank uses transaction-weighted close prices; ValuStrat uses a hedonic index across all stock — the AED 1,005 vs AED 1,296 citywide spread is methodology, not error. (b) Bayut "luxury segment" carves out the top tier; the live Bayut Index is the whole-zone median including mid-tier sub-communities — for Saadiyat this pulls villa median below the luxury slice (AED 1,631 vs AED 2,061). (c) ADREC per-zone AED/sqft is **not** exposed in static press releases. (d) Off-plan list price ≠ ready market — apply 5–15% off-plan-to-handover discount.
+
+*— 2025–April 2026 data; rates/figures may have shifted; cross-check current month on Bayut Index, Knight Frank quarterly review, or the ADREC dashboard. (2026-05-27 verified, sources [Knight Frank H1 2025](https://www.knightfrank.ae/newsroom/article/2025/8/abu-dhabi-residential-market-review-h1-2025) + [Bayut FY 2025](https://www.bayut.com/mybayut/abu-dhabi-sales-market-report-2025/) + [ADREC 2025 annual report](https://www.zawya.com/en/press-release/research-and-studies/adrec-releases-abu-dhabi-real-estate-market-report-2025-n8imcrtw))*
 
 ### Compute
 
