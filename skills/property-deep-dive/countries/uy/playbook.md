@@ -18,12 +18,13 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Recent reforms (anchor — full timeline in `shared/regulatory-watch.md`)
 
-- **Ley 19.937 (2021)**: extended the foreign-source income tax holiday for new tax residents — **option of 11-year exemption** on foreign passive income (interest + dividends), or election of **5 years exemption + 7% reduced rate thereafter** (vs standard 12% IRPF Cat I); applies via real-estate investment threshold or jobs-creation threshold (see § Active incentives)
+- **Ley 20.446 (Presupuesto 2025-2029, en vigor 2026-01-01)** — **MAJOR overhaul of the foreign-attraction regime** (supersedes Ley 19.937 2021): (a) **raised the real-estate investment threshold for tax residency from UI 3.5M to UI 12,500,000** (~USD 2,000,000) + 60-day presence; (b) **restructured the headline holiday** — exemption window = year of acquiring tax residency + the **following 10 fiscal years**, then **5 years at preferential rate = 50% of standard IRPF (i.e., 12% × 50% = 6%)** on foreign passive income (replaces the prior "11-year OR 5-yr + 7%" elective). Decreto 138/020 + 153/020 pathway grandfathered for residency obtained before 2026-01-01. Alt pathway: USD 100k/yr × 11 yrs into a National Innovation Fund (2026-05-27 verified, source IMI Daily + Forvis Mazars + KPMG + Vialto).
+- **Ley 19.937 (2021) — SUPERSEDED 2026-01-01** by Ley 20.446. Original regime granted 11-yr foreign-source-income exemption OR 5-yr exemption + 7% reduced rate; applied via the now-grandfathered UI 3.5M / 60-day path. Pre-2026 residents continue under Ley 19.937 (ENDED-style marker — see `shared/regulatory-watch.md`).
 - **Ley 18.083 (2007)**: tax framework reform that introduced IRPF (income tax on natural persons), IRAE (corporates), IRNR (non-residents), and IP (Impuesto al Patrimonio) — the architecture still in force
 - **Ley 16.906 (1998) — Ley de Inversiones**: COMAP-administered IRAE/IPAT exemptions for certified construction projects (still active; key for new-build off-plan investors)
-- **Ley 19.210 (2014) — Inclusión Financiera**: caps cash payments; real-estate transactions > **40,000 UI** (~USD 5,500–6,000 at 2026 UI value) **must be paid via banking channels** (transferencia, cheque, débito); cash above the cap voids the contract for tax purposes
-- **Ley 19.253 + Decreto 384/2018**: short-term rental classification; STR (estancias turísticas, alquileres por temporada) registered separately from long-term rentals
-- **Decreto 138/020 + 153/020 (2020)**: lowered the real-estate investment threshold for tax-residency from USD ~ 1.7M to **UI 3,500,000** (~USD 525,000 at 2026 UI value, verify current peg) **with 60+ days physical presence**
+- **Ley 19.210 (2014) — Inclusión Financiera, modified by LUC Ley 19.889 (9 Jul 2020)**: cash payments in real-estate transactions capped at **1,000,000 UI** (~USD 120,000 at 2026 UI value); amounts above must use banking channels (transferencia, cheque, débito). **The original 40,000 UI / Art. 39 rule was REPEALED by LUC** — playbook prior wording superseded (2026-05-27 verified, source Deloitte UY + Posadas + IMPO Ley 19.889).
+- **Ley 20.352 (publicada 19 Sept 2024) — Régimen de actividades de alojamiento turístico** — **NATIONAL STR FRAMEWORK** (supersedes the prior Ley 19.253 + Decreto 384/2018 partial regime): mandatory **Registro de Operadores Turísticos** (Ministerio de Turismo) for owners/administrators/operators of vivienda turística; platforms (Airbnb, Booking) may only list properties present in the registry; 180-day adaptation window; implementation decree rolling out gradually (**MinTurismo announced Nov 2025 it will NOT apply during the 2025-2026 austral summer season**). Each property receives a public ID number (2026-05-27 verified, source Fernandez Secco + IMPO Ley 20352).
+- **Decreto 138/020 + 153/020 (2020)** — **GRANDFATHERED** for pre-2026 residency only. Set the prior UI 3,500,000 real-estate path + 60-day presence; superseded for new applicants by Ley 20.446 (UI 12.5M).
 
 ---
 
@@ -96,7 +97,7 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 - **Padrón** = parcel ID per departamento; **Matrícula** = title ID for PH units; **Cédula catastral** = DNC valuation reference
 - **Escritura pública** = notarized deed (sole legal proof of transfer); **Boleto de reserva** = pre-escritura binding seña
 - **VRC (Valor Real Catastral)** = DNC-assessed value (basis for Contribución, ITP, Patrimonio)
-- **UI (Unidad Indexada)** = CPI-indexed unit for legal thresholds (~UYU 6.6 mid-2026, verify at BCU)
+- **UI (Unidad Indexada)** = CPI-indexed unit (Ley 17.761, 2004) published daily by INE; ~UYU 6.7 as of 2026-05 (verify daily at DGI/BCU). USD conversion of UI thresholds requires *two* peg lookups (UI/UYU AND UYU/USD)
 
 ---
 
@@ -104,10 +105,11 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Sources
 
-- **MTOP — Ministerio de Transporte y Obras Públicas**: `https://www.gub.uy/ministerio-transporte-obras-publicas/`
-- **Dirección Nacional de Vialidad (DNV)** under MTOP: `https://www.gub.uy/ministerio-transporte-obras-publicas/transporte-por-carretera`
-  - Publishes **TMD (Tránsito Medio Diario)** counts on the national network (Rutas Nacionales)
-  - Annual report; latest typically lags 1–2 years (verify latest at MTOP)
+- **MTOP — Ministerio de Transporte y Obras Públicas**: `https://www.gub.uy/ministerio-transporte-obras-publicas/` (institutional landing)
+- **MTOP Geoportal — DNV traffic-data product**: `https://geoportal.mtop.gub.uy/` (primary — interactive map + estación de aforo + TPDA data)
+- **Observatorio del Transporte Carretero (MTOP)**: `https://observatorio.mtop.gub.uy/carretero.php` (regional/national rollups)
+  - Publishes **TPDA (Tránsito Promedio Diario Anual)** — average annual daily traffic per estación de aforo on national routes (regional usage: TMDA)
+  - Annual report; latest typically lags 1–2 years (verify latest at Geoportal MTOP) (2026-05-27 verified)
 - **Intendencia de Montevideo — Movilidad**: `http://montevideo.gub.uy/tipo/area-tematica/movilidad`
   - Conteos vehiculares for capital arteries (Av. 18 de Julio, Rambla, Av. Italia, Av. 8 de Octubre, Bvar. Artigas)
 - **Intendencia de Maldonado — Tránsito**: traffic data for Punta del Este corridor (Ruta 10, Ruta Interbalnearia)
@@ -115,7 +117,7 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Key term
 
-**TMD (Tránsito Medio Diario)** — Average Daily Traffic, measured per estación de aforo on national routes.
+**TPDA (Tránsito Promedio Diario Anual)** — Average Annual Daily Traffic, measured per estación de aforo on national routes (regional ONDaT usage: TMDA; older docs may say TMD).
 
 ### Verdict bands
 
@@ -149,7 +151,7 @@ OSM `highway` class:
 
 | Departamento | Rate range (% of VRC) | Notes |
 |---|---|---|
-| **Montevideo** | 0.25%–1.4% (progresivo por VRC) | Top brackets apply to high-VRC properties; brackets re-set annually by IM (`https://montevideo.gub.uy/`) |
+| **Montevideo** | **0.18%–1.80%** (progresivo, 6 brackets; Decreto Departamental 38.156, eff. 2024-01-01) | Entry bracket 0.18% covers ~70% of properties (VRC < ~UYU 2.48M, 2024 ref); top bracket 1.80%; retirees may access 50–100% exemption. Brackets re-set annually by IM (`https://montevideo.gub.uy/`) (2026-05-27 verified) |
 | **Maldonado** | 0.30%–1.20% (progresivo) | Premium PdE typically 0.8–1.2% effective (verify Intendencia de Maldonado annual ordenanza) |
 | **Canelones** | 0.30%–1.10% | Costa de Oro tier varies |
 | **Colonia** | 0.30%–1.00% | Colonia del Sacramento heritage subject to caps |
@@ -242,9 +244,8 @@ Annual recurring tax:               ~USD 2,625
 
 | Status | Regime | Rate |
 |---|---|---|
-| **Resident natural person** | IRPF Cat I (rendimientos del capital inmobiliario) — option of 7% with 30% deemed deduction OR actual-expense method | **7% effective on 70% of rent** (≈ 4.9% effective if 30% deduction taken) |
-| **Resident, opting actual expenses** | Net rental income at IRPF Cat I scales | Variable (typically below the 7% effective floor) |
-| **Non-resident** | IRNR | **12% on gross rental** (no abatimiento; 12% retención by tenant or property manager) |
+| **Resident natural person** | IRPF Cat I (rendimientos del capital inmobiliario) — Decreto 148/007 | **12% annual** on taxable rent; **10.5% monthly withholding** by retention agent (e.g. immobiliaria), creditable; deductible expenses: Contribución Inmobiliaria, Imp. a Primaria, BPS aportes (rural). Tenant of permanent residence may claim **6% credit** vs own IRPF (2026-05-27 verified, source DGI Resol. 662/007 + Decreto 148/007) |
+| **Non-resident** | IRNR | **12% statutory** on Uruguayan-source rental income; in practice **10.5% monthly retención** by tenant/immobiliaria operates as final tax (no DJ obligation if fully retained). Verify per-transaction with contador |
 | **Corporate (SA/SRL)** | IRAE | 25% on net + IP if applicable |
 
 Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi.gub.uy/`
@@ -252,9 +253,9 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 ### Short-term rentals (alquiler por temporada / Airbnb)
 
 #### Statutory classification
-- **Decreto 384/2018** + **Ley 19.253** distinguish "alquiler por temporada" (short-let, vacation) from long-term Ley 14.219 contracts
+- **Ley 20.352 (publicada 19 Sept 2024) — NATIONAL STR FRAMEWORK** creates the mandatory **Registro de Operadores Turísticos** (Ministerio de Turismo) for vivienda turística owners/administrators/operators; platforms (Airbnb, Booking) may only list registered properties; each property gets a public ID. Implementation decree rolling out gradually; MinTurismo announced **Nov 2025 it will NOT apply during the 2025-2026 austral summer season**. Supersedes the partial Ley 19.253 + Decreto 384/2018 regime (2026-05-27 verified, source IMPO Ley 20352 + Fernandez Secco).
 - Temporada contracts: <1 año, no Ley 14.219 protections, simpler termination, but require formal contract
-- **No mandatory national STR registry** equivalent to FR/IT/ES exists yet (as of 2026 Q1); **municipal-level rules vary**
+- Ley 14.219 long-term protections do NOT apply to temporada contracts
 
 #### Maldonado (Punta del Este)
 - **Receptive Operator (Operador Receptivo) registration** required for hospitality businesses operating commercially in Maldonado; STR landlords offering Airbnb-style hosting may fall under this if professional
@@ -307,7 +308,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 - **Tax residency** (separate from migratory residency): granted under DGI rules at:
   - **183+ days physical presence** in calendar year, OR
   - **Centro de intereses vitales** (family + economic) in UY, OR
-  - **Real-estate investment** ≥ UI 3,500,000 (~USD 525k 2026) + 60-day presence, OR
+  - **Real-estate investment** ≥ **UI 12,500,000 (~USD 2,000,000)** + 60-day presence per Ley 20.446 (eff. 2026-01-01); pre-2026 UI 3,500,000 path grandfathered for residency obtained before 2026-01-01, OR
   - **Business investment** ≥ UI 15,000,000 + 15 direct jobs created
   - Source: DGI Resolución 543/008 + Decreto 138/020 + 153/020
 
@@ -478,13 +479,13 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
   - IRAE/IRPF/IP exemptions for developers building VIS-classified apartments (size + price caps)
   - Buyers of VIS units may access subsidized credit via Banco Hipotecario del Uruguay (BHU) or ANV
   - Source: ANV `https://www.anv.gub.uy/`
-- **Tax-residency 11-year exemption (Ley 19.937 + Decreto 138/020)**:
-  - **THE headline foreign attraction**
-  - New tax residents can opt for **11 years' exemption on foreign-source passive income** (interest + dividends earned abroad), or
-  - **5 years' exemption + 7% IRPF thereafter** (vs standard 12%)
-  - Eligibility: tax-resident status (one of the four pathways above)
-  - Real-estate pathway: invest ≥ **UI 3,500,000** (~USD 525k at 2026 UI) + **60+ days presence** in calendar year
-  - Source: DGI Resolución 543/008 + Decreto 138/020 + 153/020
+- **Tax-residency foreign-source-income holiday (Ley 20.446, en vigor 2026-01-01 — supersedes Ley 19.937)**:
+  - **THE headline foreign attraction** — restructured for 2026 onwards
+  - Exemption window = **year of acquiring tax residency + the following 10 fiscal years**, then **5 years at preferential rate = 50% of standard IRPF (i.e., 6%)** on foreign passive income (replaces the prior "11-year OR 5-yr + 7%" elective)
+  - Alt pathway: USD 100k/yr × 11 yrs into a National Innovation Fund
+  - Real-estate pathway: invest ≥ **UI 12,500,000** (~USD 2,000,000 at 2026 UI) + **60+ days presence** in calendar year
+  - Pre-2026 residents stay under Ley 19.937 (grandfathered)
+  - Source: Ley 20.446 (IMPO) + DGI Resolución 543/008 + Decreto 138/020 + 153/020 (2026-05-27 verified)
 - **Free Zones (Zonas Francas)**: e.g., Zonamerica, Aguada Park, Parque de las Ciencias — corporate IRAE exemption + IP exemption for businesses; not directly for property investment, but residents working there may qualify
 - **BHU mortgages**: state-backed housing finance for residents — UI-indexed loans up to 30 years, rates ~3.5–5.5% real (above UI inflation) for VIS; 5–7% real for non-VIS
 
@@ -510,7 +511,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 - **Estudio de títulos (30-yr chain)** is mandatory escribano practice — do NOT skip; non-Uruguayan buyers especially should verify escribano is AEU-registered
 - **Certificados (DGI, BPS, OSE, UTE, Intendencia)** required pre-escritura — ensures no hidden debts attached to padrón
 - **UI vs UYU vs USD pricing** means inflation translation matters — long-term comparisons require deflating to UI or USD
-- **Ley 19.210 (financial inclusion)**: real-estate transactions > **40,000 UI** (~USD 5.5–6k 2026) MUST be paid via banking channels — cash above cap voids contract for tax purposes; AML compliance
+- **Ley 19.210 (financial inclusion, modified by LUC Ley 19.889 of 9 Jul 2020)**: real-estate cash payments capped at **1,000,000 UI** (~USD 120,000 at 2026 UI) — amounts above MUST use banking channels (transferencia, cheque, débito); the original 40,000 UI / Art. 39 rule was REPEALED by LUC; AML compliance
 - **Receptive Operator (Maldonado)**: STR landlords may need to register as commercial operator if professional — verify Intendencia ordenanza current status
 - **Foreign owners may face IP (Patrimonio)** if structured via SA/SRL holding — natural-person ownership often avoids; consult contador
 - **No inheritance tax** since 1976 — major succession-planning attraction
@@ -550,7 +551,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 - **Condominio horizontal Ley 14.261**: governs PH; reglamento de copropiedad must be reviewed; expensas can be steep in premium torres
 - **Usufructo for inheritance planning**: very common — parents transfer nuda propiedad to children, retain usufructo for life; tax-efficient given no inheritance tax already
 - **LATU certifications**: Laboratorio Tecnológico del Uruguay handles materials testing — relevant for new construction quality verification
-- **Ley 19.210 (financial inclusion)**: cash payment cap means non-bank-channeled cash above 40,000 UI invalidates contract for tax/escribano purposes — full transactions go through banking system; AML verification on funds origin (especially large foreign inflows)
+- **Ley 19.210 (financial inclusion, as modified by LUC Ley 19.889/2020)**: cash payment cap now **1,000,000 UI** — non-bank-channeled cash above the cap invalidates contract for tax/escribano purposes — full transactions go through banking system; AML verification on funds origin (especially large foreign inflows); the prior 40,000 UI rule was repealed
 - **BHU vs ANV**: BHU lends UI-indexed mortgages; ANV oversees VIS programs + housing policy
 - **Bearer shares ended** (Ley 18.930) + AGESIC beneficiario final registry — corporate ownership now nominal; foreign ownership via SA still possible but transparent
 - **MERCOSUR residencia fast-track**: AR/BR/PY citizens (and associated countries) get expedited residencia — relevant for cross-border investors
@@ -570,7 +571,9 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | INE Estadísticas Inmobiliarias | `https://www.ine.gub.uy/inmuebles` |
 | OSE | `https://www.ose.com.uy/` |
 | UTE | `https://portal.ute.com.uy/` |
-| MTOP DNV (vialidad nacional) | `https://www.gub.uy/ministerio-transporte-obras-publicas/transporte-por-carretera` |
+| MTOP DNV (vialidad nacional, institutional) | `https://www.gub.uy/ministerio-transporte-obras-publicas/` |
+| MTOP Geoportal (TPDA + estaciones) | `https://geoportal.mtop.gub.uy/` |
+| MTOP Observatorio Carretero | `https://observatorio.mtop.gub.uy/carretero.php` |
 | Intendencia de Montevideo | `https://montevideo.gub.uy/` |
 | Intendencia de Maldonado | `https://www.maldonado.gub.uy/` |
 | MVOT (vivienda) | `https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/` |
@@ -592,7 +595,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: **HIGH** for tax-residency / ITP / cadastre / notary / OSE / DGI source paths (all primary state agencies, multi-source corroborated). **MEDIUM** for current Intendencia-by-Intendencia Contribución Inmobiliaria bracket exactness (varies annually + per departamento — must verify per ordenanza current year). **MEDIUM** for STR municipal regulation (Maldonado Receptive Operator + emerging Intendencia rules in flux).
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27.
 
 ## Extension TODOs (deepen on first real run)
 

@@ -21,9 +21,10 @@ ISO2: `bs`. Status: ✅ Fully populated (researched 2026-05-07).
 - **Title concept**: **Freehold (fee simple)** dominant; **leasehold** (typically Crown Land 21–99 years) common on certain Family Islands and developmental sites; **commonage** (a Bahamian peculiarity — see Title Chain section) materially affects parts of Eleuthera, Cat Island, Long Island, Exuma.
 - **Recent reforms (12-month watchlist)**:
   - **VAT rate 10%** since 1 Jan 2022 (raised from 12% as of 1 Jan 2022 reduction; previously 7.5% from 2015). Verify at [DIR — VAT](https://inlandrevenue.finance.gov.bs/value-added-tax/).
-  - **Stamp Duty / VAT-on-conveyance restructuring** — historically 10% Stamp Duty was the conveyance tax; subsequent reforms migrated most of this into VAT-on-conveyance to align with VAT framework. **Current combined effective rate ~10%** on consideration above B$100,000 — verify exact split at DIR before contract.
+  - **Stamp Duty / VAT-on-conveyance restructuring** — historically 10% Stamp Duty was the conveyance tax; subsequent reforms migrated most of this into VAT-on-conveyance to align with VAT framework. **Foreign buyers pay flat 10%** VAT-on-Conveyance on the full purchase price; Bahamian first-time / domicile (BDR) buyers access a graduated 2.5% → 10% scale. The 50/50 buyer/seller split is still customary, but the flat 10% applies first (2026-05-27 verified, source Higgs & Johnson 2025 + BREA + bahamas.gov.bs DIR procedures PDF).
+  - **2025 VAT real-estate procedure reform** (eff. **1 Jul 2025**): VAT invoice from DIR **required before completing** the transaction; **30-day declaration** window when conveying beneficial interests; **3% joint-and-several penalty** on non-compliance; B$1,000 deposit for advance-ruling applications (2026-05-27 verified, source Higgs & Johnson tax legislative updates 2025).
   - **Real Property Tax (RPT) bands** indexed by Ministry of Finance / DIR via annual budget communication — verify current bands at [DIR — Real Property Tax](https://inlandrevenue.finance.gov.bs/real-property-tax/).
-  - **Economic Permanent Residence (EPR) threshold**: minimum real-estate investment **B$750,000** (raised from B$500,000 historically) for accelerated processing route — verify current threshold + accelerated-processing investment band at [BIA](https://www.bahamas.gov.bs/investment).
+  - **Economic Permanent Residence (EPR) threshold**: minimum real-estate investment **B$1,000,000** effective **1 Jan 2025** (raised from B$750,000; **10-year minimum-hold clawback rule** — Immigration Board may revoke residence status if investment liquidated within 10 years) — verify current threshold + accelerated-processing investment band at [BIA](https://www.bahamas.gov.bs/investment) (2026-05-27 verified, source Fragomen + UNCTAD Investment Policy Monitor).
   - **International Persons Landholding Act 1993 (IPLA)** — primary statute governing foreign acquisition; periodic Department of Inland Revenue + BIA practice notes on registration vs permit thresholds.
   - **Hurricane Dorian (Sep 2019) post-disaster building-code review** — Ministry of Works updates to the Bahamas Building Code (BBC) for high-wind zones; insurance market re-rating ongoing.
   - **Beneficial-ownership register (Register of Beneficial Ownership Act 2018, amended 2020)** — closes anonymous corporate ownership; affects International Business Companies (IBCs) holding real estate.
@@ -62,7 +63,7 @@ The Bahamas operates an **Economic Permanent Residence (EPR)** route administere
 
 | Item | Threshold (verify at BIA) |
 |---|---|
-| **Standard EPR** (any qualifying investment, including real estate) | **B$750,000 minimum investment** (raised from B$500,000 historically — verify current floor at [BIA](https://www.bahamas.gov.bs/investment)) |
+| **Standard EPR** (any qualifying investment, including real estate) | **B$1,000,000 minimum investment** (raised from B$750,000 effective 1 Jan 2025; **10-year minimum-hold clawback rule** applies — verify current floor at [BIA](https://www.bahamas.gov.bs/investment)) (2026-05-27 verified) |
 | **Accelerated processing** (~21-day SLA target) | **B$1,500,000+ investment** (verify current threshold; was previously B$1.5M; subject to budget revision) |
 | **Annual residence card** (non-immigrant, separate from EPR) | Available to homeowners regardless of investment value; renewable annually; does NOT confer right to work |
 | **Right to work** | NOT automatic with EPR — separate work-permit application via Department of Immigration |
@@ -223,15 +224,22 @@ Governed by the **[Real Property Tax Act, Chapter 375](http://laws.bahamas.gov.b
 
 (Source: Real Property Tax Act + Ministry of Finance Budget Communication — *verify current bands + annual cap at DIR; rates have been adjusted multiple times since 2022 — 2024 budget figures cited; rates may have changed since*)
 
-**Non-owner-occupied / rental / second home** — different schedule:
+**Residential non-owner-occupied (≤4 units)** — per DIR FAQ:
 
 | Market value (B$) | Annual RPT rate |
 |---|---|
-| First **$75,000** | **B$300 flat** (or per current schedule) |
-| **$75,001 – $500,000** | **0.75%** |
-| **Above $500,000** | **1.0%** (or **2.0%** per recent budget — verify) |
+| Up to **$75,000** | **B$300 flat fee** |
+| **Above $75,000** | **0.625%** of property value |
 
-(Source: Real Property Tax Act + DIR — *VERIFY current schedule at DIR; non-owner-occupied schedule has been adjusted in recent budgets; the published rate for vacant + non-owner-occupied above $500k has been controversial and was raised in some recent budgets — confirm at DIR before relying*)
+**Commercial (5+ units OR foreign-owned rentals)** — three-tier schedule per DIR FAQ:
+
+| Market value (B$) | Annual RPT rate |
+|---|---|
+| First **$500,000** | **0.75%** |
+| **$500,001 – $2,000,000** | **1.0%** |
+| **Above $2,000,000** | **1.5%** |
+
+(2026-05-27 verified, source [DIR Real Property Tax FAQs](https://inlandrevenue.finance.gov.bs/real-property-tax/faqs-rpt/). Foreign-owned rentals route into the commercial schedule.)
 
 **Vacant land owned by non-Bahamians**: historically a higher rate than Bahamian-owned vacant land (foreign-owner band differential) — this differential has been part of policy debate; **verify current rate at DIR** before contract.
 
@@ -247,14 +255,20 @@ Governed by the **[Real Property Tax Act, Chapter 375](http://laws.bahamas.gov.b
 
 The conveyance tax has been **restructured multiple times** since the introduction of VAT in 2015. The **current effective combined rate is ~10% on consideration above B$100,000**, structured as a combination of **Stamp Duty + VAT-on-Conveyance**. The exact split is set by the **Stamp Act + VAT Act** and amended by annual budget — **verify at DIR before contract**.
 
-| Transaction value | Combined Stamp Duty + VAT-on-Conveyance (typical, ~2024–2025) |
-|---|---|
-| Up to **B$100,000** | **2.5%** (verify; reduced bands have applied to first-time Bahamian buyers) |
-| **B$100,001 – B$300,000** | ~**4.0%** (verify; band-graduated) |
-| **B$300,001 – B$1,000,000** | ~**6.0–8.0%** (band-graduated) |
-| **Above B$1,000,000** | **10%** combined |
+**Foreign buyers**: **flat 10% VAT-on-Conveyance** on full purchase price (no graduated bands; no first-time-buyer relief).
 
-(Source: Stamp Act + VAT Act + Ministry of Finance Budget Communications — *VERIFY current bands at DIR; rates have shifted by budget; BDR reduced rates apply to buyers resolving Bahamian domicile — confirm BDR eligibility separately*)
+**Bahamian first-time / domicile (BDR) buyers**: graduated 2.5% → 10% scale (commonly published: 2.5% under $100k → 4% $100,001–$300k → 6% $300,001–$500k → 8% $500,001–$700k → 9% $700,001–$1M → 10% over $1M; qualifying first-time Bahamian buyers can apply for VAT relief):
+
+| Transaction value | BDR-only graduated scale |
+|---|---|
+| Up to **B$100,000** | **2.5%** |
+| **B$100,001 – B$300,000** | **4.0%** |
+| **B$300,001 – B$500,000** | **6.0%** |
+| **B$500,001 – B$700,000** | **8.0%** |
+| **B$700,001 – B$1,000,000** | **9.0%** |
+| **Above B$1,000,000** | **10%** |
+
+(2026-05-27 verified, source Higgs & Johnson 2025 + BREA + bahamas.gov.bs DIR procedures + KRA Bahamas. Foreign-buyer flat 10% applies first; the historical 10% Stamp Duty concept is fully migrated into VAT-on-Conveyance under the VAT Act since the 2019 reforms.)
 
 **Convention**: Stamp Duty + VAT-on-Conveyance is **conventionally split 50/50 between buyer and seller**, but is negotiable in the Sale Agreement. Always confirm split clause.
 
@@ -271,7 +285,7 @@ A reduced Stamp Duty / VAT-on-Conveyance rate is available where the buyer forma
 | Seller attorney's fees | **2.5%** of price (sliding) | Seller |
 | Real estate agent commission | **6%** typical (developed property) / **10%** (vacant land) | **Seller** |
 | BIA permit fee (if permit-required) | B$500–B$1,000 (verify current scale) | Buyer |
-| BIA registration fee (if registration-only) | B$25 + recording fee | Buyer |
+| BIA registration fee (if registration-only) | **B$250** + recording fee (permit fee B$500 if permit-required) | Buyer (2026-05-27 verified, source BFSB IPLA Guidelines + bahamas.gov.bs IPLA forms) |
 | Recording / Stamp Duty filing | included in transaction tax | Buyer |
 | DLS survey (if needed) | B$1,500–B$5,000+ depending on parcel | Buyer (if commissioned) |
 | Title insurance (optional but advisable) | ~0.5% of value (one-time premium) | Buyer |
@@ -281,7 +295,7 @@ A reduced Stamp Duty / VAT-on-Conveyance rate is available where the buyer forma
 
 ### VAT (general, on goods/services)
 
-- **Standard rate**: **10%** since **1 January 2022** (raised from 7.5% to 12% in 2018; adjusted to 10% in 2022).
+- **Standard rate**: **10%** since **1 January 2022** (introduced at 7.5% on 1 Jan 2015; raised to 12% on 1 Jul 2018; **reduced to 10% effective 1 Jan 2022 via VAT (Amendment)(No. 2) Act 2021**, published Official Gazette 13 Dec 2021) (2026-05-27 verified, source VATupdate + Orbitax + vatcalc).
 - **VAT registration threshold**: B$100,000 turnover.
 - **VAT on rental income**: long-term residential rental **exempt**; short-term rental + hotel-style accommodation **taxable** (see `--rental`).
 
@@ -381,7 +395,7 @@ The Bahamas is **not a primary local-employment destination** for most foreign b
 |---|---|---|
 | **Work Permit (employer-sponsored)** | Bahamian employer + Bahamianisation justification | Department of Immigration |
 | **Annual Residence Card (homeowner)** | Property ownership; non-immigrant; does NOT confer right to work | Department of Immigration |
-| **Economic Permanent Residence (EPR)** | B$750,000+ investment; right to work NOT automatic | BIA + Department of Immigration |
+| **Economic Permanent Residence (EPR)** | **B$1,000,000+** investment (raised from B$750,000 eff. 1 Jan 2025; 10-yr minimum-hold clawback); right to work NOT automatic | BIA + Department of Immigration |
 | **Self-Employed (Investor) Permit** | Bahamian-recognised business + investment | BIA |
 | **Spouse of Bahamian citizen** | Marriage 5+ yr | Department of Immigration → Citizenship after 10 yr |
 | **Citizenship by descent** | Bahamian parent (specific rules by parent's gender + birth date) | Department of Immigration |
@@ -703,8 +717,8 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 |---|---|---|
 | **Annual Residence Card (Homeowner)** | Property ownership | Non-immigrant; renewable annually; no right to work; modest fee |
 | **Standard Permanent Residence** | Long residence + character | Non-investment route; multi-year |
-| **Economic Permanent Residence (EPR), standard** | **B$750,000+** investment (real estate or other) | Verify current threshold at BIA |
-| **Economic Permanent Residence (EPR), accelerated** | **B$1,500,000+** investment | ~21-day processing target; verify current threshold |
+| **Economic Permanent Residence (EPR), standard** | **B$1,000,000+** investment (raised from B$750,000 eff. 1 Jan 2025; 10-yr minimum-hold clawback) | Verify current threshold at BIA (2026-05-27 verified) |
+| **Economic Permanent Residence (EPR), accelerated** | **B$1,500,000+** investment (commonly cited; post-2025 reform some sources cite higher accelerated band ~B$2M — verify at BIA) | ~21-day processing target; verify current threshold |
 | **Right to Work** | Separate work-permit application; employer-sponsored OR self-employed-investor | NOT automatic with EPR |
 | **Citizenship** | 6–9 yr residence + character + Bahamas Nationality Act vetting | NO citizenship-by-investment programme |
 
@@ -748,7 +762,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 ### Residency / citizenship
 
 - **Annual Residence Card (Homeowner)** — light-touch annual renewal for property owners; no right to work.
-- **Economic Permanent Residence (EPR)**: B$750,000 standard / B$1,500,000+ accelerated.
+- **Economic Permanent Residence (EPR)**: **B$1,000,000** standard (raised from B$750,000 eff. 1 Jan 2025; 10-yr minimum-hold) / B$1,500,000+ accelerated.
 - **Bahamian citizenship by descent / marriage / naturalisation** — 6–9 yr residence + Nationality Act vetting; **NO CBI**.
 
 ---
@@ -855,12 +869,12 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 - **HIGH** for hurricane risk framing: Dorian 2019 calibration event well documented (NHC + NEMA + insurance market commentary).
 - **HIGH** for currency peg (BSD 1:1 USD since 1973, CBOB).
 - **MEDIUM** for current 2025–2026 RPT band rates + Stamp Duty/VAT-on-conveyance split — these have been adjusted multiple times since 2018 by annual budget; **buyer must verify exact current bands at DIR before contract**. Bands cited reflect framework commonly published 2024–2025; figures may have shifted.
-- **MEDIUM** for current EPR investment threshold (B$750,000 standard / B$1,500,000+ accelerated cited as commonly published 2024–2025; verify at BIA).
+- **HIGH** for current EPR investment threshold post-2025 (B$1,000,000 standard eff. 1 Jan 2025 + 10-yr clawback; B$1,500,000+ accelerated cited 2024–2025; verify at BIA) (2026-05-27 verified).
 - **MEDIUM** for 2025–2026 USD/m² benchmarks — secondary aggregator data; cross-check live MLS Bahamas + 3+ comparables before relying.
 - **MEDIUM** for insurance pricing 0.4–1.5% — varies materially by island + wind zone + build year + carrier post-Dorian re-rating.
 - **LOW** for parcel-level flood-zone / storm-surge mapping in non-NEMA-priority areas — coverage uneven; verify per parcel via DLS / NEMA + engineering survey.
 - **LOW** for traffic AADT — no public AADT portal; OSM + on-site observation is the practical method.
-**Last verified**: 2026-05-07
+**Last verified**: 2026-05-27 (validation sweep — EPR B$1M eff. 1 Jan 2025 + 10-yr clawback; VAT-on-Conveyance flat 10% foreign / graduated BDR; 2025 VAT procedural reforms eff. 1 Jul 2025; IPLA B$250 registration / B$500 permit; RPT commercial 3-tier 0.75/1.0/1.5%; VAT history sequence corrected)
 
 ## Extension TODOs
 

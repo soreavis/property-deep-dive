@@ -15,7 +15,7 @@ ISO2: `do`. Status: ✅ Fully populated (researched 2026-05-01).
   - **Dirección Nacional de Mensuras Catastrales (DNMC)** — surveyor-side cadastre: `https://dnmc.gob.do/`
 - **Identifier**: `Designación Catastral` (e.g., `parcela X, distrito catastral Y, municipio Z`) + `Matrícula` (modern post-saneamiento) OR legacy `Certificado de Título` numbering. After **saneamiento** (registration purification), title is held under a **Matrícula** in the unified Registry.
 - **Ownership types**: **Dominio pleno** (freehold; foreigners on equal footing per Constitución art. 51 + **Ley 195-69**); **Condominio** (**Ley 5038-58**); **SA / SRL** corporate holding (estate-planning, anonymity); **Fideicomiso inmobiliario** (Ley 189-11; common for development trusts + CONFOTUR); **Concesión** for state coastal bands — first 60 m from high-tide line is public (**Ley 305-68 Zona Marítima Terrestre**), all beachfront subject to setback rules.
-- **Recent reforms**: **Ley 108-05** Registro Inmobiliario (in force 2007 — Torrens-style title); **Ley 158-01 + 195-13** CONFOTUR; **Ley 155-17** AML (beneficial-owner + sworn source-of-funds); **Ley 189-11** trust law (fideicomiso); **DGII Norma 06-2017** digital IPI/transfer filing; annual DGII Resolución indexes IPI threshold (**DOP 9,860,649 for 2025** per DGII Aviso Jan-2025 — verify current year at filing).
+- **Recent reforms**: **Ley 108-05** Registro Inmobiliario (in force 2007 — Torrens-style title); **Ley 158-01 + 195-13** CONFOTUR; **Ley 155-17** AML (beneficial-owner + sworn source-of-funds); **Ley 189-11** trust law (fideicomiso); **Ley 358-05** General Consumer Protection Law (Pro Consumidor enforcement for developer-to-consumer purchases — new construction, off-plan); **DGII Norma 06-2017** digital IPI/transfer filing; annual DGII Resolución indexes IPI threshold (**DOP 10,695,494 for 2026** per DGII Resolución DG-AR1-2026-00001 — verify current year at filing) (2026-05-27 verified).
 
 ---
 
@@ -117,10 +117,10 @@ ISO2: `do`. Status: ✅ Fully populated (researched 2026-05-01).
 Governed by **Ley 18-88** (as amended) + **DGII Norma 06-2017** + annual indexation Resolution.
 
 - **Rate**: **1 %** on the portion of the **aggregate registered value of all real estate held by an individual** that **exceeds the exemption threshold**.
-- **Exemption threshold (2025)**: **DOP 9,860,649** per individual owner aggregate (DGII annual indexation — verify current-year figure at `https://www.dgii.gov.do/` under "IPI"). Approx. **USD 158,000** at 2025 FX (computed: DOP 9,860,649 ÷ 62 ≈ USD 159,000).
+- **Exemption threshold (2026)**: **DOP 10,695,494** per individual owner aggregate (DGII Resolución **DG-AR1-2026-00001**, annual indexation per Ley 18-88 art. 2 as amended by Ley 253-12 art. 14 — verify current-year figure at `https://www.dgii.gov.do/` under "IPI"). Approx. **USD 182,206** at Jan-2026 FX. (Prior 2025 threshold was DOP 9,860,649) (2026-05-27 verified, source DGII Resolución DG-AR1-2026-00001).
 - **Tax base**: DGII appraisal value (`Avalúo Catastral`), **NOT market price**. Avalúo typically lags market 30-50 % for prime tourist zones; updated periodically per DGII resolution (commonly 5-yr cycle, but cycle variable — verify).
-- **Filed annually**, paid in **two semestres** (March + September deadlines per DGII annual calendar).
-- **Primary residence**: same threshold applies; no separate primary-residence exemption beyond the DOP 9.86M floor, BUT individuals **65+ owning a single property held ≥ 15 years** receive total IPI exemption (Ley 18-88 art. 2).
+- **Filed annually**, paid in **two semestres** (typically **11 March + 11 September** per DGII annual calendar — verify exact year-specific date at https://dgii.gov.do/).
+- **Primary residence**: same threshold applies; no separate primary-residence exemption beyond the DOP 10.7M floor, BUT individuals **65+ owning a single property held ≥ 15 years** receive total IPI exemption (Ley 18-88 art. 2).
 - **Held in SA / SRL**: **1 % on full value (no threshold)** — the per-individual threshold doesn't transfer to corporate holders; this changes the math significantly above the threshold.
 
 ### CONFOTUR exemption
@@ -170,7 +170,7 @@ For property in a CONFOTUR-registered project under **Ley 158-01 + 195-13**:
 
 | Cost item | Ballpark |
 |---|---:|
-| Annual IPI (above threshold, individual) | 1 % of avalúo above DOP 9.86M |
+| Annual IPI (above threshold, individual) | 1 % of avalúo above DOP 10.7M (2026 threshold DOP 10,695,494; DGII Resolución DG-AR1-2026-00001) |
 | Annual IPI (CONFOTUR project, first 15 yrs) | **0** |
 | Transfer + notary + legal + registry (non-CONFOTUR) | **~6 % of price** |
 | Transfer + notary + legal + registry (CONFOTUR new) | **~1.5–2.5 %** |
@@ -389,7 +389,7 @@ URL hubs: `https://caasd.gob.do/`, `https://corasaan.gob.do/`, `https://inapa.go
 | Independent inspector (estructural) | **USD 500–1,500** |
 | **Total transaction cost (non-CONFOTUR)** | **~5.5–6 %** of price |
 | **Total transaction cost (CONFOTUR new)** | **~1.5–2.5 %** |
-| Annual IPI (above threshold, individual) | 1 % of avalúo above DOP 9.86M |
+| Annual IPI (above threshold, individual) | 1 % of avalúo above DOP 10.7M (2026 threshold DOP 10,695,494; DGII Resolución DG-AR1-2026-00001) |
 | HOA fees (Punta Cana / Cap Cana / Las Terrenas resort condos) | USD **200–2,000 / month** |
 | Hurricane + all-risk insurance | 0.25–0.6 % of insured value/yr est. |
 | Planta + inverter + battery package | USD **3,000–15,000** |
@@ -509,7 +509,7 @@ URL hubs: `https://caasd.gob.do/`, `https://corasaan.gob.do/`, `https://inapa.go
 ## Status
 
 ✅ **Fully populated** as of 2026-05-01.
-**Coverage check**: pricing (BCRD + ONE + SuperCasas + Coldwell Banker DR 2025-2026), traffic (INTRANT + MOPC TPDA where available + OSM fallback), tax (IPI 1% above DOP 9.86M 2025 threshold + 3% transfer + CONFOTUR 15-yr exemption + 27% non-resident WHT + 3% sucesiones), rental (Ley 4314 + MITUR vivienda vacacional + HOA reality), work (MT + DGII RNC + Migración 200k investor visa), risks (ONAMET + COE + SGN + INDRHI + R-001/R-007 + Fiona 2022 lessons), mains (CAASD + INAPA + EDE distributors + planta reality).
+**Coverage check**: pricing (BCRD + ONE + SuperCasas + Coldwell Banker DR 2025-2026), traffic (INTRANT + MOPC TPDA where available + OSM fallback), tax (IPI 1% above DOP 10.7M 2026 threshold per DGII Resolución DG-AR1-2026-00001 + 3% transfer + CONFOTUR 15-yr exemption + 27% non-resident WHT + 3% sucesiones), rental (Ley 4314 + MITUR vivienda vacacional + HOA reality), work (MT + DGII RNC + Migración 200k investor visa), risks (ONAMET + COE + SGN + INDRHI + R-001/R-007 + Fiona 2022 lessons), mains (CAASD + INAPA + EDE distributors + planta reality).
 **Confidence**:
 - **HIGH** for legal/tax structure (Ley 108-05 + Ley 18-88 + Ley 158-01/195-13 + Ley 155-17 + Ley 305-68 — all primary statutes verified).
 - **HIGH** for CONFOTUR mechanics (15-yr IPI + transfer-tax exemption + MITUR resolution requirement) and for residency programs (USD 200k inversionista, USD 1,500 pensionado, USD 2,000 rentista).
@@ -517,7 +517,7 @@ URL hubs: `https://caasd.gob.do/`, `https://corasaan.gob.do/`, `https://inapa.go
 - **MEDIUM** for current resort-community service pricing — HOA fees, planta install, hurricane insurance — vary widely by development; figures are aggregator + market-survey est.
 - **MEDIUM** for 2025-2026 USD/m² benchmarks — secondary aggregator data; cross-check live SuperCasas + 3+ comparables before relying.
 - **LOW** for some rural municipal-level data (Permiso de Uso de Suelo, parcel-level flood plain in non-Yuna/Yaque basins) — limited online presence; verification requires on-site municipal request.
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27.
 
 ## Extension TODOs
 

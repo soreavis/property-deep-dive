@@ -15,7 +15,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 - **Ownership types**:
   - **Titulado** (titled freehold)
   - **Derecho posesorio** (rights of possession; common rural/coastal — harder to mortgage)
-  - **Coastal concession (ROP)** within ~22m above-tide
+  - **Coastal concession (ROP)** within **22 m measured from highest-tide line (línea de pleamar máxima)**, municipal + AMP-administered government strip (concession-only, not freehold; ROP framework under Decreto Ley 7 of 1998 / Código Agrario)
   - **Comarcas indígenas** (collectively owned; foreigners CANNOT buy)
 
 ## Section: `--price`
@@ -33,7 +33,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 - **Realtor.com.pa**, **InmoPanama**, **PanamaEquity**
 - USD economy = **listings stable in USD**
 
-### 2026 price benchmarks (TheLatinvestor + Global Property Guide)
+### 2026 price benchmarks (TheLatinvestor + Global Property Guide — **aggregator-only / secondary tier per anti-hallucination contract**; verify with on-the-ground broker quotes + INEC HPI series before relying — INEC publishes no per-m² price series; aggregators interpolate listing samples)
 
 | Region | USD/m² (typical) | Notes |
 |---|---:|---|
@@ -117,8 +117,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Capital gains
 
-- **10%** on residential resale
-- **3% retention** on price (final tax = 10% on gain, 3% becomes credit)
+- **10%** on residential resale gain. **2% transfer tax + 3% income-tax advance withheld at closing**. Seller may elect the **3% advance as DEFINITIVE tax** (no refund, no further CGT) **OR** compute 10% on actual gain and credit the 3% advance. Election matters when actual gain is low — 3% on whole price can exceed 10% on small gain (2026-05-27 verified, source PwC Worldwide Tax Summaries Panama 2026).
 
 ### Territorial tax — UNIQUE
 
@@ -131,9 +130,9 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Future risk
 
-- **Pensionado visa stable** ($1,000/mo lifetime threshold)
-- **Friendly Nations Visa** modified Aug 2021 — now USD 200k investment requirement
-- **Qualified Investor Visa** USD 300k real estate (mooted increase to USD 500k didn't materialize as of verification)
+- **Pensionado visa stable** ($1,000/mo lifetime threshold; **$750/mo threshold if applicant buys ≥US$100k Panama real estate** per statute concession; pension must be government/military/recognised-private institution + provably LIFETIME, not term annuity)
+- **Friendly Nations Visa** — modified by **Decreto Ejecutivo 197 of 7 May 2021** (effective 21 August 2021), now USD 200k real-estate investment requirement (or 3-year fixed deposit / combo + economic ties)
+- **Qualified Investor Visa** **USD 300k floor retained through Oct 2026** real estate (mooted increase to USD 500k repeatedly deferred — re-verify before commitment; see `shared/visa-programs.md` PA Qualified Investor row) (2026-05-27 verified)
 
 ---
 
@@ -147,7 +146,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Short-let
 
-- **City**: ATP (Autoridad de Turismo) registration; municipal license; **7% ITBMS** on stays + income tax
+- **City**: ATP (Autoridad de Turismo) registration; municipal license; **10% ITBMS** on hotel-classed stays (vs general 7%) — applies once ATP-licensed (2026 PwC summary, 2026-05-27 verified) + income tax
 - **Boquete**: HOA-dependent
 - **Bocas del Toro**: marine-zone overlay + ATP licence
 
@@ -155,7 +154,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 - Resident: progressive income tax
 - Non-resident: 25% withholding (or as per DTT)
-- 7% ITBMS commercial stays only
+- **10% ITBMS** on hotel-classed short-let stays (PwC 2026); **7% ITBMS** standard for general commercial rent; tobacco 15%
 
 ---
 
@@ -197,9 +196,9 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Earthquake**: generally low-moderate
   - **Pacific Azuero peninsula** + **Bocas del Toro Caribbean** higher zones
-  - 2024 M6+ event reference
+  - 2024 M6+ events documented (verify via [USGS Panama 2024 catalogue](https://earthquake.usgs.gov/earthquakes/search/?starttime=2024-01-01&endtime=2024-12-31&minmagnitude=6&maxlatitude=10&minlatitude=7&maxlongitude=-77&minlongitude=-83) + Universidad de Panamá Sismología)
 - **Flooding + landslide**: rainy season May–Nov
-  - **2024 Bocas/Chiriquí floods** as recent reference
+  - 2024 Bocas/Chiriquí floods documented by SINAPROC — verify scope per address
 - **Hurricanes**: **mostly outside hurricane belt** (Panama is south of typical paths)
 - **Tsunami**: Caribbean coast residual risk
 - **Climate**: tropical wet — humidity year-round; rainfall variability increasing
@@ -269,22 +268,23 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 #### Pensionado (most generous in LatAm)
 
-- **USD 1,000/month lifetime pension** (+ $250/mo per dependent)
+- **USD 1,000/month lifetime pension** (+ $250/mo per dependent). **$750/mo threshold if applicant buys ≥US$100k Panama real estate** (statute concession). Pension must be **government/military/recognised-private institution + provably LIFETIME** (NOT term annuity).
 - **Generous discounts**: medical 15%, transport 25–50%, restaurants 25%
 - Permanent residency
 - Foreign-source income exempt (territorial)
 
 #### Friendly Nations Visa
 
-- **Modified Aug 2021** by Decreto 197
+- **Modified by Decreto Ejecutivo 197 of 7 May 2021** (effective 21 August 2021)
 - Now **requires USD 200k investment** (real estate, fixed deposit, or local employment)
 - Provisional 2-year residence → permanent
+- Operates under the **Decreto Ley 3 of 22 February 2008** migration framework (Servicio Nacional de Migración) — NOT "Ley 22/2006" (this is a misnumbering in some sources)
 
 #### Qualified Investor Visa
 
-- **USD 300k real estate** investment threshold
+- **USD 300k real estate floor retained through Oct 2026**
 - 60-day fast-track to permanent residency
-- Mooted increase to USD 500k didn't materialize as of verification (flag for confirmation)
+- **Planned $500k increase repeatedly deferred** — re-verify before commitment (`shared/visa-programs.md` row PA Qualified Investor) (2026-05-27 verified)
 
 ### Tax incentives
 
@@ -309,13 +309,13 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 - **Rights of possession (derecho posesorio)** vs titulado — many rural/coastal parcels still derecho posesorio
 - **Harder to mortgage and transact** with derecho posesorio
 - **ANATI titling programs ongoing** (Land Registration + Titling Program)
-- **Coastal concession (ROP — Restricted Public Zone)** within ~22m above-tide is municipal/government — similar to CR Maritime Zone but less codified
+- **Coastal concession (ROP — Restricted Public Zone)** within **22 m measured from highest-tide line (línea de pleamar máxima)** is municipal + **AMP (Autoridad Marítima de Panamá)**-administered government strip; concession-only, not freehold; foreigner access via concession is possible but discretionary (Decreto Ley 7 of 1998 / Código Agrario provisions)
 - **Banking secrecy + corporate-veil tradition** + use of S.A.s for property holding (common asset protection + estate)
 - **Registro Público portal flaky** — recommend lawyer-mediated lookup
 - **Earthquake risk** lower than CR; **Pacific Azuero + Caribbean Bocas higher zones**
 - **Hurricane risk LOW** — Panama mostly south of typical Caribbean hurricane paths
 - **Boquete + Coronado** = major expat retirees
-- **Casco Viejo** = UNESCO heritage + premium pricing
+- **Casco Viejo** = UNESCO heritage + premium pricing. **Régimen de incentivos** per **Decreto-Ley 9 of 27 August 1997** (Régimen de incentivos para la Restauración y Puesta en valor del conjunto monumental histórico del Casco Antiguo), amended by **Ley 136 of 31 December 2013** + **Ley 53 of 4 July 2017**: exemption from real-estate-tax-at-sale; income-tax exemption on transfer profits; **30-year property-tax exemption on restored buildings**; 10-year income-tax exemption on commercial/professional activities inside Casco Antiguo; import-duty exemption on restoration materials (2026-05-27 verified, source UNESCO Cultural Heritage Laws DB).
 
 ## Reddit / forum sources
 
@@ -350,12 +350,13 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 | SINAPROC | `https://www.sinaproc.gob.pa/` |
 | IMHPA / ETESA | `https://www.hidromet.com.pa/` |
 | IDAAN | `https://www.idaan.gob.pa/` |
-| DGI (tax) | `https://www.dgi.gob.pa/` |
+| DGI (tax) | `https://dgi.mef.gob.pa/` |
 | SNM (migration) | `https://www.migracion.gob.pa/` |
 
 ## Status
 
 ✅ **Fully populated** as of 2026-04-26.
+**Last verified**: 2026-05-27 (validation sweep — 10km border zone correct per Const. Art. 291; DGI URL → dgi.mef.gob.pa; Decreto-Ley 9/1997 + Ley 136/2013 + Ley 53/2017 Casco Antiguo incentives; Decreto Ejecutivo 197 of 7 May 2021 Friendly Nations; Decreto Ley 3/2008 migration framework; Pensionado $750 with $100k RE buy; Qualified Investor $300k retained; ITBMS 10% hotel-classed STR; CGT 3% advance may be elected DEFINITIVE; ROP 22 m from línea de pleamar máxima + AMP).
 **Coverage check**: pricing (TheLatinvestor + Global Property Guide 2026), traffic (MOP TPDA), tax (Inmuebles 0% up to $120k primary + ITBMS 7% commercial + 10% CGT residential + territorial system), rental (ATP + ITBMS), work (MITRADEL + SA), risks (Bocas/Chiriquí 2024 floods + Pacific Azuero/Caribbean seismic), mains (IDAAN).
 **Confidence**: HIGH for territorial tax system + Pensionado USD 1,000/mo + USD economy; HIGH for Family Patrimony tax structure (Ley 66/2017); HIGH for 10-km border constitutional restriction + Comarcas indígenas; MEDIUM for 2026 price benchmarks (aggregator data); MEDIUM for Qualified Investor Visa $300k real estate (USD 500k mooted but not verified). Registro Público portal flaky during verification.
 

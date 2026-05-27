@@ -14,7 +14,7 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
   - **Ventanilla Digital** — document e-filing
   - Certificación literal + plano catastrado online
 - **Identifier**: **Folio Real** (provincia-finca-derecho format) + **plano catastrado** (CL-XXXXXX-YYYY)
-- **Ownership types**: dominio pleno (freehold); usufructo; servidumbre; **concesión marítimo-terrestre** (Maritime Zone)
+- **Ownership types**: dominio pleno (freehold); usufructo; servidumbre; **concesión marítimo-terrestre** (Maritime Zone, **Ley 6043 / 1977**)
 
 ## Section: `--price`
 
@@ -87,32 +87,44 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Section: `--tax`
 
-### Annual property tax — Impuesto sobre Bienes Inmuebles
+### Annual property tax — Impuesto sobre Bienes Inmuebles (**Ley 7509, 1995**)
 
 - **0.25% of registered value** (paid quarterly to municipalidad)
 - **VERY LOW** (one of lowest in Americas)
 - Exemptions for low-value primary residences
+- Municipalities administer collection; property-owner declarations filed every 5 years
+- Source: Procuraduría General SCIJ — Ley 7509 (Ley de Impuesto sobre Bienes Inmuebles) (2026-05-27 verified)
 
 ### Transaction taxes
 
 - **Impuesto de Traspaso**: **1.5%** on transfer (typically buyer pays)
-- **Notary stamps** (timbres): ~0.5%
-- **Registry duty**: ~0.3%
+- **Notary stamps** (timbres): ~0.55%
+- **Registry duty**: ~0.25%
 - **Notary fees** (escritura): 1.0–2.0%
-- **Total mandatory**: ~3-4%
+- **Total mandatory**: **~3.5-4%**
 
 ### Other taxes
 
-- **IVA 13%** on **new builds** + commercial rent
-- **Impuesto Solidario** (luxury home tax): properties **>CRC 152M (~USD 280k construction value)**; progressive **0.25–0.55%**
+- **IVA 13%** on **new builds** + commercial rent — introduced by **Ley 9635 (Fortalecimiento de las Finanzas Públicas, publicada 4 dic 2018; effective 1 Jul 2019)** (2026-05-27 verified, source Procuraduría General SCIJ + Deloitte CR + Grupo Camacho).
+- **Impuesto Solidario** (luxury home tax) — **2026 threshold CRC 143M** per **Decreto Ejecutivo 45358-H (publicado 19 dic 2025)**; bracket-progressive schedule:
+  - ≤ CRC 359M: 0.25%
+  - CRC 359M – 720M: 0.30%
+  - CRC 720M – 1,082M: 0.35%
+  - CRC 1,082M – 1,442M: 0.40%
+  - CRC 1,442M – 1,802M: 0.45%
+  - CRC 1,802M – 2,162M: 0.50%
+  - > CRC 2,162M: 0.55%
+  - Filing deadline 15 January each year (2026-05-27 verified, source AG Legal + Tico Times + ICS.cr).
 
-### Capital gains
+### Capital gains (Ley 9635, CGT 15% effective 1 Jul 2019)
 
-- **No CGT for individual residents** if not habitual — UNIQUE in region
-- **Non-habitual sellers** can opt for either:
-  - **15% on gain**, OR
-  - **2.25% on transaction value**
-- **Corporate (SA) sale**: **30%**
+- **CGT rate: 15%** on the net gain (introduced by Ley 9635, eff. 1 Jul 2019).
+- **Primary-residence exemption (vivienda habitual)**: sale of the habitual residence is EXEMPT, provided this can be evidenced.
+- **Pre-1 Jul 2019 properties** — seller may elect either 15% on net gain OR **2.25% on the full sale price** (one-time election, made at closing, irrevocable).
+- **Habitual trader** (real-estate business activity) — gain taxed at **30% corporate income tax**, NOT 15% CGT.
+- **Non-domiciled seller** — buyer must **withhold 2.5%** of the sale price for tax compliance before registration.
+
+(2026-05-27 verified, source PwC Tax Summaries CR + Bluezone Legal + Latin Counsel. Prior playbook framing inverted the rule — sporadic individual sellers pay 15% CGT; only the vivienda habitual is exempt; traders pay 30%, not the other way around.)
 
 ### Total transaction cost (buyer side)
 
@@ -121,8 +133,8 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Future risk
 
-- **Investor visa threshold reduced from $200k to $150k (2025)** ($100k forestry)
-- **No CGT for individuals stable** (2025 reform retains)
+- **Investor visa threshold reduced from USD 200k to USD 150k by Ley 9996 (2021)** (post-COVID inversion-promotion law); threshold stable through 2026 ($100k forestry) — corrected from prior "(2025)" date stamp; the threshold did NOT change in 2025 (2026-05-27 verified).
+- **CGT framework stable** (Ley 9635 reform retained — primary residence exempt, 15% on other gains, 30% if habitual trader).
 
 ---
 
@@ -187,11 +199,11 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 
 #### Earthquake — CRITICAL
 
-- **Cocos plate subduction zone**
+- **Cocos plate subducts NE beneath the Caribbean plate at the Middle America Trench (~7–9 cm/yr)**
 - **2022 Seismic Hazard Model** — current reference standard
 - **Recent significant events**:
   - **Cinchona 2009 M6.1**
-  - **Nicoya 2012 M7.6** (Pacific subduction)
+  - **Nicoya 2012 M7.6** (Cocos-Caribbean subduction, Middle America Trench, Nicoya Peninsula)
   - **Limón 1991 M7.7** (Caribbean)
 
 #### Volcanic
@@ -200,7 +212,7 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 - **Poás** — active (2017 eruption)
 - **Turrialba** — active (recurring eruptions 2010s+)
 - **Rincón de la Vieja** — active
-- **Irazú** — dormant but watched (CDMX area)
+- **Irazú** — dormant but watched (**Cartago province, ~30 km E of San José; last major eruption 1963–65**)
 
 #### Flooding + landslide
 
@@ -281,9 +293,9 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Pensionado**: USD 1,000/month income (lifetime pension) + dependents +$250/mo
 - **Rentista**: USD 2,500/month for 24 months OR USD 60k bank deposit
-- **Inversionista (Investor Visa)**: **reduced from USD 200k to USD 150k (2025)**; USD 100k for forestry; investment in **personal name** (not corporate) required for visa
+- **Inversionista (Investor Visa)**: **threshold USD 150k** (reduced from USD 200k by **Ley 9996, 2021**; threshold stable through 2026); USD 100k for forestry; investment in **personal name** (not corporate) required for visa (2026-05-27 verified, source IMI Daily + CitizenX + Fragomen)
 - **2-year temp residency → 3 yrs to permanent → 7 yrs to citizenship eligibility**
-- **1 day/year physical presence** to maintain
+- **Al menos una entrada anual** (at least one entry into CR per year) to maintain temporary residency (per DGME statutory wording)
 
 ### Tax incentives
 
@@ -313,7 +325,7 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 - **10km international border zone** restrictions (less famous than Panama's)
 - **ARESEP / ICE / AyA** state-utility monopoly
 - **Pensionado USD 1,000/mo** = generous LatAm threshold
-- **Investor visa $150k (2025)** — most accessible in region
+- **Investor visa $150k (Ley 9996, 2021; stable through 2026)** — most accessible in region
 - **Earthquake risk CRITICAL** — Cocos subduction + Nicoya 2012 reference
 - **4 active volcanoes** (Arenal, Poás, Turrialba, Rincón de la Vieja)
 - **Tropical climate** — rainy May-Nov; landslide + flooding risk
@@ -363,7 +375,8 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 
 ✅ **Fully populated** as of 2026-04-26.
 **Coverage check**: pricing (BCCR + Encuentra24 + MLS Costa Rica 2026), traffic (MOPT TPDA), tax (Bienes Inmuebles 0.25% + Traspaso 1.5% + IVA 13% new + No CGT individuals + Solidario luxury), rental (ICT + 13% IVA), work (MTSS + CCSS), risks (Cocos subduction + Nicoya 2012 + 4 active volcanoes), mains (AyA + ASADAS).
-**Confidence**: HIGH for Registro Nacional (gold-standard digital cadastre); HIGH for tax structure (PwC + Coldwell Banker confirm); HIGH for visa thresholds 2025 (Investor reduced $200k → $150k confirmed); HIGH for Maritime Zone Law 6043 (well-documented); MEDIUM for 2026 price benchmarks (regional aggregator data).
+**Confidence**: HIGH for Registro Nacional (gold-standard digital cadastre); HIGH for tax structure (PwC + Coldwell Banker confirm; **Ley 7509** property tax, **Ley 9635** IVA+CGT, **Ley 6043** Maritime Zone, **Ley 9996** investor visa); HIGH for visa thresholds (Investor $150k via Ley 9996/2021 confirmed); HIGH for Maritime Zone Law 6043 (well-documented); HIGH for Impuesto Solidario 2026 (CRC 143M Decreto 45358-H); MEDIUM for 2026 price benchmarks (regional aggregator data).
+**Last verified**: 2026-05-27.
 
 ## Extension TODOs
 

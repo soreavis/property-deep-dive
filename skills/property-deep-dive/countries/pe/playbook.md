@@ -158,7 +158,7 @@ ISO2: `pe`. Status: Fully populated (researched 2026-05).
 
 #### Tasas progresivas (TUO Ley Tributación Municipal art. 13)
 
-Expressed in **UIT** (Unidad Impositiva Tributaria — annually adjusted by MEF; **2026 UIT = PEN 5,350** per Decreto Supremo 260-2025-EF — verify each Dec at MEF):
+Expressed in **UIT** (Unidad Impositiva Tributaria — annually adjusted by MEF; **2026 UIT = PEN 5,500** per Decreto Supremo 301-2025-EF, vigente 1 Ene 2026 — verify each Dec at MEF; 2025 UIT was PEN 5,350 per DS 260-2024-EF) (2026-05-27 verified, source MEF gob.pe/1314665).
 
 | Tramo (autoavalúo en UIT) | Tasa anual |
 |---|---:|
@@ -170,7 +170,7 @@ Applied progressively (each tramo on the marginal portion).
 
 #### Mínimo
 
-- **Mínimo anual**: 0.6 % de UIT (per art. 13 TUO) ≈ PEN 32 al 2026 — applies if the calculated impuesto < this floor.
+- **Mínimo anual**: 0.6 % de UIT (per art. 13 TUO) ≈ PEN 33 al 2026 (UIT PEN 5,500) — applies if the calculated impuesto < this floor.
 
 #### Beneficios
 
@@ -193,7 +193,7 @@ Per **Ley Orgánica de Municipalidades — Ley 27972** + TUO Tributación Munici
 
 | Item | Rate | Source / authority |
 |---|---|---|
-| **Impuesto de Alcabala** | **3 %** of higher of (precio venta, autoavalúo ajustado) MINUS **10 UIT exempt threshold** (~PEN 53,500 in 2026) | TUO Ley Tributación Municipal art. 21–29; pagado por **comprador** before notarial escritura; collected by **SAT** (Servicio de Administración Tributaria) of the distrito or Lima Metro |
+| **Impuesto de Alcabala** | **3 %** of higher of (precio venta, autoavalúo ajustado) MINUS **10 UIT exempt threshold** (~PEN 55,000 at UIT 2026) | TUO Ley Tributación Municipal art. 21–29; pagado por **comprador** before notarial escritura; collected by **SAT Lima Metropolitana** (any property within Provincia de Lima — provincial level, NOT distrito), or **SAT del distrito** (Piura/Trujillo/Chiclayo/Huancayo/Cusco + ~6 others), or directly by the **Gerencia de Administración Tributaria de la Municipalidad** in the remaining distritos (most of Peru's 1,874 distritos have no SAT) (2026-05-27 verified, source SAT Lima FAQ + SATP) |
 | **IGV (Impuesto General a las Ventas)** | **18 %** on **first sale** of new construction by **constructor habitual** (developer) — calculated on 50 % of price (other 50 % treated as terreno, IGV-exempt per Ley IGV art. 13) → effective IGV rate ~**9 %** on full price | Ley del IGV — Decreto Supremo 055-99-EF + amendments; SUNAT |
 | **Notarial fees** | ~**0.5–1.0 %** of price (escala notarial — Ministerio de Justicia + Colegio de Notarios) | Decreto Legislativo 1049 (Ley del Notariado) + arancel notarial |
 | **SUNARP registration** (Derechos registrales) | ~**0.2–0.5 %** of price (escala TUPA SUNARP) | TUPA SUNARP; verify at `https://www.sunarp.gob.pe/` |
@@ -207,8 +207,8 @@ Per **Ley Orgánica de Municipalidades — Ley 27972** + TUO Tributación Munici
 Per **Ley del Impuesto a la Renta — Decreto Supremo 179-2004-EF** (TUO LIR) art. 24 + 84:
 
 - **Resident natural person (PN domiciliado)**: **5 %** flat on **net capital gain** (precio venta − costo computable ajustado por inflación) on second-or-later property. **Withheld at notary** (notario público as agente de retención per Ley 28194 art. 84-A).
-- **Non-resident (no domiciliado)**: **30 %** on gross gain — Ley IR art. 56 (verify rate per current SUNAT instructivo).
-- **Exemption**: sale of **única casa-habitación** held ≥ 2 years and not used for commercial activity — **EXEMPT** from impuesto a la renta (TUO LIR art. 2 + 84 + Reglamento art. 1-A). Verify documentation: declaratoria jurada + autoavalúo as único predio.
+- **Non-resident (no domiciliado)**: **5 %** on net capital gain (precio venta − costo computable ajustado) per **TUO LIR art. 54(b)**, vigente desde 01.01.2017 (Ley 30404). Withheld by buyer/notario via SUNAT Formulario 1665. Note: art. 56(g) reads 30 % for non-residents on capital gains, but art. 54(b) carves RE down to 5 % — the 5 % rule controls for RE specifically (2026-05-27 verified, source SUNAT orientacion 3536-02).
+- **Exemption**: sale of **única casa-habitación** held ≥ 2 years and not used for commercial activity — **EXEMPT** (TUO LIR art. 2 + Segunda Disp. Transitoria + DS 122-94-EF Reglamento art. 1-A) OR property acquired before 2004-01-01 (Ley 27804 transitoria — pre-Ley 30404 vintage). Notario withholds via art. 84-A.
 - **Costo computable adjustment**: indexed by **factores de actualización** published annually by SUNAT (`https://www.sunat.gob.pe/`).
 
 ### Inheritance / sucesión
@@ -221,12 +221,18 @@ Per **Ley del Impuesto a la Renta — Decreto Supremo 179-2004-EF** (TUO LIR) ar
 
 - **General rate**: **18 %** (16 % IGV + 2 % IPM Impuesto de Promoción Municipal).
 - **First sale of new immovable by constructor habitual**: IGV **applies** on 50 % of price (terreno portion exempt) → effective ~9 % on full price. Ley IGV art. 13(d).
+- **35-UIT exoneración (Apéndice I Lit. B Ley IGV)**: first sale destined for **vivienda** with sale value ≤ **35 UIT** (~PEN 192,500 at UIT 2026) is **IGV-exempt** if the constructora has the licencia de construcción presented + admitted at the Municipalidad. Extended by **Ley 31651** to **31 Dec 2028** — verify each año (recurrent extensions) (2026-05-27 verified, source Congreso comunicaciones + Ley 31651).
 - **Resale (segunda transferencia)**: **IGV-exempt** per Ley IGV art. 2 lit b.
 - **Rentals**: residential lease IGV-**exempt**; commercial lease IGV-**applicable** at 18 % if landlord is IGV-registered (RUC + régimen general/especial).
 
+### ITF + Bancarización (Ley 28194)
+
+- **ITF (Impuesto a las Transacciones Financieras)** — **0.005 %** on each financial debit/credit in PE banking system, withheld by bank on the transfer leg. Source: Ley 28194 + TUO DS 150-2007-EF; SUNAT gob.pe/7960.
+- **Bancarización obligatoria (Ley 28194)**: any RE payment ≥ **1 UIT (~PEN 5,500 / 2026)** OR **≥ USD 1,000** MUST be made via medio de pago bancario (transferencia, cheque no negociable, depósito). Cash above threshold is **fiscally void** — buyer loses **costo computable** for CGT; seller cannot deduct (2026-05-27 verified, source SUNAT Ley 28194 + TUO DS 150-2007-EF).
+
 ### Future risk
 
-- **MEF UIT 2026** = PEN 5,350 (Decreto Supremo 260-2025-EF, vigente 2026). Re-pull each año Dec/Jan — all property-tax tramos move with UIT.
+- **MEF UIT 2026** = PEN 5,500 (Decreto Supremo 301-2025-EF, vigente 1 Ene 2026). Re-pull each año Dec/Jan — all property-tax tramos move with UIT.
 - **Reforma tributaria pendiente**: Ley 32103 (2024) + Decreto Legislativo 1623 (2024) digital-economy IGV scope continues to expand; monitor **MEF** + **Congreso** for property-touching changes.
 - **Catastro multipropósito SNCP**: ongoing 2020-2026 rollout per Ley 28294 + DS 005-2006-JUS — when a distrito's catastro updates, autoavalúo can rise materially → impuesto predial bill jumps.
 
@@ -300,7 +306,7 @@ Per **Ley del Impuesto a la Renta — Decreto Supremo 179-2004-EF** (TUO LIR) ar
 
 ### Salaried benchmarks (2025-2026)
 
-- **Remuneración Mínima Vital (RMV)**: **PEN 1,025/mes** desde 2022-05 (Decreto Supremo 003-2022-TR) → updated to **PEN 1,130/mes** desde 2025-01 (verify current at Ministerio de Trabajo, Decreto Supremo annual).
+- **Remuneración Mínima Vital (RMV)**: **PEN 1,025/mes** desde 2022-05 (Decreto Supremo 003-2022-TR) → updated to **PEN 1,130/mes** desde 2025-01 (DS 006-2024-TR, vigente 1 Ene 2025; adjustments are ad-hoc DS, no fixed cadence).
 - **Median formal monthly wage (INEI ENAHO)**: ~PEN 1,500–2,000 nationally; Lima Metro ~PEN 2,500–3,500; Lima Top 25 % distritos ~PEN 5,000+. Verify at INEI ENAHO síntesis estadística.
 - **Professional tech / fintech Lima** (English-fluent): PEN 6,000–20,000/mes (~USD 1,600–5,400) typical.
 - **Mining / oil & gas senior roles**: PEN 15,000–40,000/mes — concentrated Lima HQ + remote sites (rotational).
@@ -403,6 +409,15 @@ Peru lies on the **subduction zone Nazca-Sudamericana** (Cinturón de Fuego del 
 | **Estado de Cuenta de Mantenimiento** | Administrador del edificio | Sin deuda HOA |
 | **Recibos servicios públicos al día** | Operadores (Sedapal/EPS, Enel-Luz del Sur, Cálidda gas) | Sin deuda servicios |
 | **Estudio de títulos** (abogado) | Abogado privado | Revisión cadena dominial 30 años + verificación SUNARP |
+
+### Title monitoring — SUNARP free tools (mandatory post-purchase)
+
+- **Alerta Registral SUNARP** (`https://alertaregistral.sunarp.gob.pe/`) — free; email/SMS notification on any movement on the Partida (title-change, lien, publicidad-registral inquiry). Activate immediately post-purchase.
+- **Inmovilización de Partidas con Aviso Electrónico** — free voluntary lock on the Partida preventing any onerous transfer/charge/lien filing for a self-set period; lifted only with notary-witnessed authorisation. Particularly relevant for **absentee foreign owners** + holdings > 12 months idle (2026-05-27 verified, source SUNARP servicios).
+
+### Expropiación + saneamiento físico legal
+
+- **DL 1192 + TUO DS 011-2019-VIVIENDA (Ley Marco de Adquisición y Expropiación)**: state may acquire (preferred: trato directo) or expropriate (last resort, requires Ley del Congreso) for infrastructure works (Línea Metro 2/3/4, IIRSA, Panamericana ampliaciones). Compensation = valor comercial + 10 % afectación. Check **SBN — Superintendencia Nacional de Bienes Estatales** (`https://www.sbn.gob.pe/`) for parcel-level afectación notices before purchasing near major project corridors.
 
 ⚠️ **Trampa Zona de Frontera** (50 km perimeter, Const. art. 71): el notario está obligado a verificar; pero compra anterior puede tener vicios si el vendedor fue extranjero sin Decreto Supremo de excepción → verificar cadena dominial completa.
 
@@ -971,7 +986,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 
 - **Renta de Segunda Categoría 5 %** sobre net gain (precio venta ajustado − costo computable ajustado por SUNAT factores). **Withheld at notary** by notario as agente de retención (Ley 28194 art. 84-A).
 - **Exempt** if **única casa-habitación held ≥ 2 years** + not used for commercial activity (TUO LIR art. 2).
-- **Non-resident seller**: 30 % retención sobre gross gain (Ley IR art. 56) — verify with notario + SUNAT agente.
+- **Non-resident seller**: **5 %** retención sobre **net capital gain** (precio venta − costo computable ajustado) per **TUO LIR art. 54(b)**, vigente desde 01.01.2017 (Ley 30404) — withheld by buyer/notario via SUNAT Formulario 1665. Art. 56(g) headline 30 % does NOT apply to RE (carved out by art. 54(b)) (2026-05-27 verified).
 - **No alcabala on sale** (alcabala is buyer-side only).
 
 ### Repatriation
@@ -1001,7 +1016,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 
 | Concepto | Costo (PEN o %) | Fuente |
 |---|---:|---|
-| Alcabala (transferencia) | **3 %** sobre (precio − 10 UIT) | TUO Ley Tributación Municipal art. 21-29 |
+| Alcabala (transferencia) | **3 %** sobre (precio − 10 UIT, ~PEN 55,000 al 2026) | TUO Ley Tributación Municipal art. 21-29 |
 | Notario escritura | **0.5-1.0 %** del precio | Decreto Legislativo 1049 + arancel notarial |
 | SUNARP inscripción | **0.2-0.5 %** del precio | TUPA SUNARP |
 | Estudio de títulos (abogado) | **0.5-1.5 %** | privado |
@@ -1098,7 +1113,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 - **Partida Registral** = identifier único legal (SUNARP).
 - **Código Predial / Código Catastral** = identifier fiscal distrital (Municipalidad).
 - **HR + PU** = Hoja de Resumen + Predio Urbano = autoavalúo year corriente.
-- **UIT 2026** = PEN 5,350 (DS 260-2025-EF) — base para tramos predial, alcabala, IR.
+- **UIT 2026** = PEN 5,500 (DS 301-2025-EF, vigente 1 Ene 2026) — base para tramos predial, alcabala, IR.
 - **DNI / CE** — Documento Nacional de Identidad (peruanos) / Carné de Extranjería (extranjeros residentes) — required for any RE transaction.
 - **RUC** — Registro Único Contribuyentes SUNAT — required for landlords + sellers.
 - **SIGRID CENEPRED** — geoportal multi-amenaza nacional — clave para riesgos.
@@ -1157,7 +1172,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

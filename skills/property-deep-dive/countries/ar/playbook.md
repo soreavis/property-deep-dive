@@ -11,7 +11,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 - **Cadastre — provincial fragmentation**:
   - **Registro de la Propiedad Inmueble** per province (CABA + 23 provinces)
   - **Catastro** also provincial (e.g., **ARBA** in PBA, **ATM** Mendoza)
-  - **AFIP** federal tax integration via CDI/CUIT for foreigners
+  - **ARCA (ex-AFIP) — Agencia de Recaudación y Control Aduanero** (renamed by **Decreto 953/2024**, B.O. 2024-10-25, effective 2024-11-05; legal successor inheriting AFIP competencies + personnel + functions) — federal tax integration via CDI/CUIT for foreigners. URL `afip.gob.ar` redirects/coexists with `arca.gob.ar` (2026-05-27 verified).
 - **Identifier**: matrícula (per provincial registry)
 - **Escribano público (notary)** — buyer-chosen and **mandatory**; pulls certificado de dominio + inhibiciones
 - **Ownership types**: dominio pleno (freehold); usufructo; condominio; PH (propiedad horizontal — apartments)
@@ -66,7 +66,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 - Certificado de dominio = title certificate
 - Inhibiciones = encumbrances
 - Boleto de compraventa = pre-escritura agreement
-- COTI = AFIP listing declaration
+- COTI = **ARCA (ex-AFIP)** listing declaration
 
 ---
 
@@ -118,37 +118,43 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 | Mendoza | ~3.0% |
 | Córdoba | varies |
 
-#### ITI (Impuesto a la Transferencia de Inmuebles) — federal
+#### ITI (Impuesto a la Transferencia de Inmuebles) — **DEROGATED 2024-07-08**
 
-- **1.5%** on transfer
-- Only sellers who **acquired pre-2018**
-- **Post-2018 acquisitions** instead pay capital gains 15%
+- **REPEALED by Ley 27.743 (Medidas Fiscales Paliativas y Relevantes), Título IV art. 67**, in force from B.O. publication **8 Jul 2024**. The 1.5% transfer tax **no longer applies** to any property transfer regardless of acquisition date (2026-05-27 verified, source ARCA novedad 3808 + Colegio Escribanos PBA Ficha #01 2024-09-16 + argentina.gob.ar).
+- **Capital gains 15% (cedular Impuesto a las Ganancias)** for inmuebles acquired from 2018-01-01 onward **continues to apply** — NOT derogated. Pre-2018 acquisitions transferred after 2024-07-08 are now effectively **untaxed at the federal level on transfer** (primary residence still exempt).
+- COTI (Código de Oferta de Transferencia de Inmuebles) now administered by **ARCA (ex-AFIP)**.
 
-### Bienes Personales (wealth tax) — CRITICAL UPDATE
+### Bienes Personales (wealth tax) — current 2026 schedule (Ley 27.743 + IPC-indexed thresholds)
 
-**Ley 27.743 reform**:
-- **Non-taxable threshold raised to ARS 100M (~USD 107k)**
-- **Residential exemption raised to ARS 350M (~USD 375k)** primary residence
-- **Decreasing rate schedule**:
-  - 2025: **1.10%**
-  - 2026: **1.00%**
-  - 2027: **0.50%**
-- **Foreign-asset surcharge ELIMINATED** from FY 2023+
-- **REIBP optional prepayment**: 1% (2025) / 0.75% (2026) / 0.25% (2027)
+**Per ARCA Resolución FY 2025 declared 2026** (IPC-adjusted; verify each año):
+- **Mínimo no imponible (non-taxable threshold)**: **ARS 384,702,388.90** (~USD 320k at MEP)
+- **Casa-habitación exemption (primary residence)**: **ARS 1,346,458,361.17** (~USD 1.12M at MEP)
+- **Rate schedule (FY 2025 declared 2026)** — multi-tramo with cumplidor (compliant-taxpayer) discounts:
+  - First tramo (up to ARS 52,660,771.80 over the mínimo): **0.50%** general / **0%** cumplidores
+  - Second tramo (52.66M–114.10M over mínimo): **0.75%** general / **0.25%** cumplidores
+  - Top tramo of 1.25% **eliminated** by Ley 27.743
+- **Foreign-asset surcharge eliminated retroactively to FY 2023** by Ley 27.743 (sanctioned June 2024) — unified schedule for foreign + domestic assets
+- **REIBP optional prepayment** scheme exists (Ley 27.743 Régimen Especial); rates negotiated under the régimen
+
+(2026-05-27 verified, source [ARCA alícuotas](https://www.afip.gob.ar/gananciasYBienes/bienes-personales/conceptos-basicos/alicuotas.asp) + iprofesional 2026 escalas + Errepar mínimos 2025.)
 
 ### Capital gains
 
 - **15%** on real-estate appreciation (foreigners typically **13.5%** via withholding)
 
+### Capital-gains rate for non-residents
+
+- ~**13.5% effective** for non-residents on real-estate appreciation (15% × 90% presumed gain, via ARCA withholding RG) — verify per transaction with notario/escribano.
+
 ### COTI
 
-**AFIP COTI (Código de Oferta de Transferencia de Inmuebles)** must be obtained pre-listing if price > threshold.
+**ARCA (ex-AFIP) COTI (Código de Oferta de Transferencia de Inmuebles)** must be obtained pre-listing if price > threshold.
 
-### Total transaction cost (buyer side)
+### Total transaction cost (buyer side) — post-ITI repeal
 
-- CABA: **~6-8%** (3.5% sellos + 1.5% ITI for pre-2018 + ~1-2% escribano + 0.5-1% other)
-- PBA: **~6-8%**
-- Mendoza: **~5-7%**
+- CABA: **~4.5-6.5%** (3.5% sellos + ~1-2% escribano + 0.5-1% other; ITI 1.5% no longer applies after 2024-07-08)
+- PBA: **~4.5-6.5%**
+- Mendoza: **~3.5-5.5%**
 
 ---
 
@@ -157,9 +163,10 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 ### Long-term residential — DNU 70/2023 LIBERALIZED
 
 **MAJOR REFORM**:
-- **DNU 70/2023 (Milei, Dec 2023)** repealed Ley 27.551
-- **Consolidated by Ley Bases (Ley 27.742) June 2024** — now PERMANENT LAW, not at-risk decree
+- **DNU 70/2023 (Milei, B.O. 2023-12-21, in force from 2023-12-29)** repealed Ley 27.551
+- **Consolidated by Ley Bases (Ley 27.742, sanctioned 2024-06-27, promulgated + B.O. 2024-07-08)** — now PERMANENT LAW, not at-risk decree
 - New contracts: **free duration, free currency** (USD/UVA/CER/IPC), **free deposit**
+- **Pre-existing Ley 27.551 contracts** continue under Ley 27.551 — only new contracts post-DNU use the new liberalized regime (grandfathering) (2026-05-27 verified).
 
 ### Short-let
 
@@ -184,7 +191,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Self-employment
 
-- **Monotributo** simplified regime (up to ARS 78M revenue 2026)
+- **Monotributo** simplified regime — 2026 cap (category K, highest) **ARS 108,357,084.05/year** (~ARS 108M) per Feb 2026 re-indexation (+14.29% IPC); category A floor ARS 10,277,988.13 (semestral indexation by ARCA)
 - **Responsable Inscripto** for higher revenue + IVA registration
 - **IIBB** provincial gross-receipts tax
 
@@ -194,7 +201,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
   - CABA: ~ARS 1,000,000–1,800,000 (~USD 850–1,500 at MEP)
   - Córdoba/Mendoza: ~ARS 800,000–1,400,000
   - Smaller cities: ~ARS 600,000–1,000,000
-- **Salario Mínimo**: ~ARS 320,000 (Apr 2026)
+- **Salario Mínimo Vital y Móvil**: **ARS 357,800/month** (April 2026, Resolución 9/2025 del Ministerio de Capital Humano) — cronograma: Marzo ARS 352,400, Abril ARS 357,800, Mayo ARS 363,000, Agosto ARS 376,600 (2026-05-27 verified).
 
 ---
 
@@ -250,7 +257,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 | **Certificado de dominio + inhibiciones** | ≤15 days valid |
 | **Plano de mensura registered** | Cadastre |
 | **Libre deuda municipal/ABL + provincial + AySA/EDENOR** | No-debts certificates |
-| **AFIP COTI + retentions** | Tax compliance |
+| **ARCA (ex-AFIP) COTI + retentions** | Tax compliance |
 
 ### Climate change projections
 
@@ -300,7 +307,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 ## Active fiscal incentives (2025-2026)
 
 - **Mortgage market reopening 2024-2025**: 30+ banks offering UVA loans + USD-linked
-- **Cepo cambiario partial lift April 2025**: natural persons can now buy USD officially
+- **Cepo cambiario partial lift effective 2025-04-14** (BCRA Phase 3, announced 2025-04-11): natural persons can buy USD officially (USD 200/mo cap eliminated; cross-restriction lifted); exchange-rate **band ARS 1,000–1,400/USD** floating within band, adjusting ±1% monthly; IMF EFF USD 20bn supports the program. Legacy dividend stocks pre-2025 + pre-2023-12 commercial debt still routed via BOPREAL (2026-05-27 verified, source BCRA news).
 - **PROCREAR** still active (state housing program)
 - **Zonas Francas** for commercial
 
@@ -320,9 +327,9 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 - **Bienes Personales** wealth tax — major issue for foreigners; reformed 2024 (1.10% → 1.00% → 0.50% schedule)
 - **DNU 70/2023 + Ley Bases (Ley 27.742)** — rental market liberalization NOW PERMANENT
 - **Boleto de compraventa** pre-escritura common
-- **Foreigners cannot buy rural land >1,000 ha** (Ley 26.737, still in force)
+- **Foreigners cannot buy rural land >1,000 ha** in the core Pampas zone (Ley 26.737 — **still in force**; equivalent-productive-area limits apply elsewhere); also **15% provincial cap** (foreigners may not own >15% of provincial rural land) and **30% same-nationality sub-cap** within that 15%; water-body adjacency + border-security-zone prohibitions are separate. **Milei's DNU 70/2023 attempted to repeal Ley 26.737 but that specific provision is frozen pending Supreme Court / Congressional review** (2026-05-27 verified).
 - **Border-zone restrictions** (150 km Andes/Patagonia border) — INTRA federal approval required
-- **AFIP COTI** declaration mandatory pre-listing
+- **ARCA (ex-AFIP) COTI** declaration mandatory pre-listing
 - **Escribano público mandatory + buyer-chooses** — UNIQUE
 - **23 provincias + CABA different sellos rates**
 - **Mortgage market restarted 2024** after long hiatus
@@ -345,7 +352,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 | **Registro de la Propiedad Inmueble (provincial)** | Title verification |
 | **Catastro provincial** | ARBA / ATM cadastre |
 | **Escribano público** (buyer-chosen) | Mandatory closing |
-| **AFIP** | Federal taxes + COTI + CDI |
+| **ARCA (ex-AFIP)** | Federal taxes + COTI + CDI (Decreto 953/2024, eff. 2024-11-05) |
 | **INTRA** | Border-zone foreign approval (Patagonia/Andes) |
 | **Municipal** | ABL + permits |
 | **PRT (Ente de Turismo CABA)** | If short-let |
@@ -361,7 +368,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 | Reporte Inmobiliario | `https://www.reporteinmobiliario.com/` |
 | INDEC | `https://www.indec.gob.ar/` |
 | BCRA | `https://www.bcra.gob.ar/` |
-| AFIP | `https://www.afip.gob.ar/` |
+| ARCA (ex-AFIP) | `https://www.arca.gob.ar/` (legacy `https://www.afip.gob.ar/` also resolves) |
 | INPRES seismic | `https://www.inpres.gob.ar/` |
 | SEGEMAR | `https://www.segemar.gov.ar/` |
 | SMN | `https://www.smn.gob.ar/` |
@@ -371,7 +378,8 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 ## Status
 
 ✅ **Fully populated** as of 2026-04-26.
-**Coverage check**: pricing (Reporte Inmobiliario + Zonaprop + TheLatinvestor 2026), traffic (DNV TMDA), tax (provincial inmobiliario + sellos + ITI federal + Bienes Personales reformed Ley 27.743 + 15% CGT post-2018), rental (DNU 70 + Ley Bases liberalized), work, risks (INPRES Cuyo Zone 4 + Patagonia volcanic + flood Tigre), mains (AySA + ABSA + provincial).
+**Last verified**: 2026-05-27.
+**Coverage check**: pricing (Reporte Inmobiliario + Zonaprop + TheLatinvestor 2026), traffic (DNV TMDA), tax (provincial inmobiliario + sellos + **ITI federal REPEALED 2024-07-08** by Ley 27.743 art. 67 + Bienes Personales reformed Ley 27.743 with IPC-indexed 2026 thresholds + 15% CGT post-2018 + **AFIP→ARCA** rename Decreto 953/2024), rental (DNU 70 + Ley Bases liberalized), work (Monotributo K cap ARS 108M; SMVM ARS 357,800 Abr 2026), risks (INPRES Cuyo Zone 4 + Patagonia volcanic + flood Tigre; Ley 26.737 still in force, frozen DNU 70 repeal), mains (AySA + ABSA + provincial), cepo (Phase 3 lift 2025-04-14 with band ARS 1,000-1,400/USD).
 **Confidence**: HIGH for Bienes Personales reform schedule (Ley 27.743) + DNU 70/2023 + Ley Bases consolidation June 2024 + cepo partial lift April 2025; HIGH for Zonaprop + Reporte Inmobiliario market data; MEDIUM for provincial registry URL stability (varies); MEDIUM for further Milei tax-cut announcements (March 2026 unenacted as of writing).
 
 ## Extension TODOs

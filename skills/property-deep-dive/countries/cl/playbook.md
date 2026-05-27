@@ -135,18 +135,18 @@ Reference: Autopista Central tramos urbanos Santiago > 100,000 v/d; Costanera No
 
 **Sobretasa Ley 21.210 — Impuesto Adicional sobre conjunto de bienes raíces**:
 
-Aplica al titular cuya **suma de avalúos fiscales totales** supere **UF 670** (~CLP 26 mil M base 2026; verify UF/CLP del momento).
+Aplica al titular cuya **suma de avalúos fiscales totales** supere **UTA 670** — **NOTE: tramos están en UTA (Unidades Tributarias Anuales = UTM × 12), NOT UF**. Cálculo SII automático; snapshot avalúos al **31 Dic del año anterior** al devengo.
 
-| Tramo conjunto avalúo (UF) | Tasa adicional anual |
+| Tramo conjunto avalúo (UTA) | Tasa marginal anual |
 |---|---:|
-| Hasta UF 670 | 0 % |
-| > UF 670 a UF 1,175 | **0.075 %** |
-| > UF 1,175 a UF 1,510 | **0.150 %** (2020 original; verificar tabla 2026) |
-| > UF 1,510 | **0.275 %** to **0.425 %** post-2024 ajuste |
+| Hasta 670 UTA | 0 % |
+| 670–1,175 UTA | **0.075 %** |
+| 1,175–1,510 UTA | **0.150 %** |
+| > 1,510 UTA | **0.275 %** (o **0.425 %** en topes superiores) |
 
-> **DATA GAP**: Sobretasa exact 2026 tramos and rates have evolved through several Leyes de Reajuste. Verify current at: `https://www.sii.cl/normativa_legislacion/circulares/2020/indcir2020.htm` + last `Circular SII` indexed for the año tributario.
+(2026-05-27 verified, source [SII Sobretasa](https://www.sii.cl/destacados/avaluaciones/sobretasa/2023/) + [Tesorería TGR](https://ayuda.tgr.cl/hc/es-419/articles/9557623319959-Sobretasa-anual-de-Impuesto-Territorial). Prior playbook UF labels were a unit conflation — UTA and UF differ by ~12× scale.)
 
-**Reform risk**: Ley 21.713 (cumplimiento tributario, 2024) and recent reforma tributaria proposals continue to revise sobretasa thresholds; treat the table above as MEDIUM-confidence and re-pull SII tabla each año.
+**Reform risk**: Ley 21.713 (cumplimiento tributario, **publicada 24 Oct 2024 en Diario Oficial**, vigencia general 1 Nov 2024 + ciertas disposiciones 2 Ene 2026 — parte del **Pacto Fiscal 2024-2025**, BCN `https://www.bcn.cl/leychile/navegar?idNorma=1207746`) and recent reforma tributaria proposals continue to revise sobretasa thresholds.
 
 ### Example — depto Las Condes 100 m² avalúo fiscal CLP 200,000,000 (≈ UF 5,200 a UF del día CLP 38,500)
 
@@ -165,6 +165,7 @@ For a casa Lo Barnechea avalúo fiscal CLP 500,000,000 (≈ UF 13,000):
 
 | Concepto | Tasa | Base | Pagado por |
 |---|---|---|---|
+| **IVA venta inmueble (vendedor habitual)** | **19 %** sobre precio | inmueble (nuevo o usado) vendido por **vendedor habitual** — Ley 20.780 + Circular SII Nº 42 de 5 Jun 2015; aplica desde 1 Ene 2016 a TODAS las ventas por habitual, no sólo new builds | comprador (incluido en precio escritura) — verificar IVA crédito fiscal constructora (2026-05-27 verified, source [Circular SII 42/2015](https://www.sii.cl/documentos/circulares/2015/circu42.pdf)) |
 | **Notario** (escritura) | **1.2 % aplica IVA** sobre arancel notarial | escritura precio | comprador |
 | **CBR Inscripción de Dominio** | escala **0.2–0.7 %** del precio (escala arancel CBR; tope nominal) | precio | comprador |
 | **Impuesto al Mutuo / Timbre y Estampillas** | **0.8 %** del monto del crédito hipotecario | monto crédito | deudor (comprador) |
@@ -198,7 +199,7 @@ Exención básica ~600 UTM por heredero línea recta + cónyuge.
 
 ### Future reform risk
 
-- Reforma tributaria 2024-2025 (Ley 21.713 cumplimiento) → más fiscalización avalúos. Próxima reaviorización residencial proyectada 2026-2028; expect avalúos al alza en zonas premium.
+- Reforma tributaria **Ley 21.713 (parte del Pacto Fiscal 2024-2025, Min. Hacienda; publicada 24 Oct 2024, vigencia escalonada general 1 Nov 2024 + ciertas disposiciones 2 Ene 2026)** → más fiscalización avalúos. Próxima reaviorización residencial proyectada 2026-2028 (est. — fecha no confirmada oficialmente SII); expect avalúos al alza en zonas premium.
 - Sobretasa thresholds historically tightened — monitor.
 
 ---
@@ -208,7 +209,7 @@ Exención básica ~600 UTM por heredero línea recta + cónyuge.
 ### Long-term residential — Ley 18.101 (Arrendamiento Predios Urbanos)
 
 - **Sin plazo legal mínimo**, salvo arriendo amoblado < 1 año (modalidades especiales).
-- **Garantía**: usualmente 1 mes; tope legal Ley 21.461 ("Devuélveme mi Casa", 2022) — facilita restitución por no pago vía monitorio.
+- **Garantía**: usualmente 1 mes (no hay tope legal explícito; mercado-establecido). **Ley 21.461 "Devuélveme mi Casa" (publicada 30 Jun 2022)** incorpora (i) **procedimiento monitorio** de cobro de rentas + restitución y (ii) **medida precautoria de restitución anticipada** — el arrendatario tiene 10 días corridos para oponerse; sin oposición fundada → restitución acelerada. Cubre también gastos comunes y servicios básicos. Fuente: [Ley 21.461 — BCN LeyChile](https://www.bcn.cl/leychile/Navegar?idNorma=1178004); [ChileAtiende ficha 107794](https://www.chileatiende.gob.cl/fichas/107794-ley-devuelveme-mi-casa). Detalle adverse-possession + squatter en `shared/squatter.md` § CL (2026-05-27 verified).
 - **Tributación renta arriendo (PN)**:
   - **DFL 2 vivienda económica ≤140 m²**: rentas EXENTAS de impuesto a la renta (hasta tope 2 viviendas DFL2 por persona desde Ley 20.455 / 2010).
   - Resto: renta presunta (si SII lo permite por encaje) o renta efectiva → Impuesto Global Complementario (escala 0–40 %) si residente; **Impuesto Adicional 35 %** retención si no residente sin convenio doble tributación.
@@ -257,7 +258,8 @@ Exención básica ~600 UTM por heredero línea recta + cónyuge.
 
 - **Boleta de Honorarios electrónica** (independent profesional): retención provisional **2026: 14.5 %** (escalonamiento Ley 21.133 hasta 17 % en 2028); inicio actividades SII gratuita (segunda categoría); cotizaciones AFP + Salud + AFC + SIS obligatoriedad gradual hasta plena 2028.
 - **Empresa en un Día** (`registrodeempresasysociedades.cl`) — constitución gratuita ~24-72h; tributación primera categoría.
-- **Pro-Pyme General / Transparente** (Ley 21.210): tasa 25 % o transparente si ventas <UF 75,000.
+- **Régimen General (semi-integrado)** — Primera Categoría **27 %** (Ley 21.210 art. 14 A) — tasa general, no 25 %.
+- **Régimen Pyme Pro-Pyme General / Transparente** (Ley 21.210, ≤UF 75,000 ventas promedio últimos 3 años): tasa **25 %**; **transitoria 12.5 % para AT 2026-2028** (Ley 21.713, en vigor desde 2 Ene 2026, BCN `https://www.bcn.cl/leychile/navegar?idNorma=1207746`) + 50 % rebaja PPM desde Sept 2025 (2026-05-27 verified, source SII regímenes tributarios 2025).
 
 ### Salaried benchmarks (2025-2026)
 
@@ -547,7 +549,7 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 **Coverage**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: **HIGH** for cadastre (CBR + SII), seismic standards (NCh 433 evolution), UF/BCCh system, Conservador process, DGA/SHOA/SERNAGEOMIN/SENAPRED hazard sources, and Ley 18.101 / Ley 21.442 / DFL 2 frameworks.
 **MEDIUM** for: current 2026 sobretasa exact tramos (Ley 21.713 reform context — re-pull SII Circular each año), STR comuna-by-comuna rules (Las Condes / Providencia / Vitacura ordinances in motion 2024-2026), boleta de honorarios retención escalonamiento (verify SII tabla annual).
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27.
 
 ## Extension TODOs
 

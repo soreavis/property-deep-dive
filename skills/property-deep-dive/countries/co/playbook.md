@@ -22,7 +22,7 @@ ISO2: `co`. Status: ✅ Fully populated (researched 2026-05).
   - **Ley 2010/2019** "Ley de Crecimiento" — tax reform.
   - **Ley 2155/2021** "Ley de Inversión Social" — social investment + tax adjustments.
   - **Ley 2277/2022** ("Reforma Tributaria" of the Petro government) — wealth tax reintroduced; ganancia ocasional rate raised from 10 % to 15 %; predial-base adjustments per municipality.
-  - **Decreto 538 of 2024 (Bogotá)** — 10 % impuesto al consumo (lodging tax) on STR + obligations.
+  - **Decreto 538 of 2024 (Bogotá)** — 10 % impuesto al consumo (lodging tax) on STR + obligations *(claim per second-tier sources — "Decreto 538/2024" reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-05; national impuesto al consumo on lodging is 8 % under Estatuto Tributario art. 512-9 — verify before relying)*.
   - **Catastro multipropósito** ongoing rollout (2020 → 2025+).
   - **M-visa real-estate threshold**: investment ≥ 350× SMLMV (Decreto 1067/2015 + Resolución 5477/2022 with updates) for Migrante; ≥ 650× SMLMV unlocks Residente after 5 years (verify current Resolución at Cancillería).
 
@@ -170,13 +170,13 @@ Indicative residential rates (verify current Acuerdo):
 
 | Item | Rate | Source |
 |---|---|---|
-| **Gastos notariales (notary fee)** | 0.27 % of escritura value (split 50/50 buyer/seller by custom) | **Decreto 0188/2017** updated yearly via Resolución SNR; verify current resolución |
-| **Impuesto de Registro** (departmental) | **0.5–1.0 %** of acto value | Each departamento Ordenanza; Bogotá D.C. **1 %**; antioqueño + valluno typically 1 %; some departamentos 0.5 % |
+| **Gastos notariales (notary fee)** | **~0.3 % per side (~0.54 % total)** of escritura value; buyer + seller each pay 0.27 %–0.3 % by custom | **Decreto 0188/2017** + SNR Resolución 2026-000964-6 (Feb 2026); verify current Resolución (2026-05-27 verified) |
+| **Impuesto de Beneficencia** (Bogotá / Cundinamarca) | **1.0 %** of escritura value | Ley 223/1995; Decreto 352/2002 (Bogotá D.C. 30 % / Cundinamarca 70 %) — **MISSING from prior table; material understatement of buyer-side cost** (2026-05-27 verified) |
+| **Impuesto de Registro** (departmental) | **0.3 % (Bogotá inmuebles)** / **0.5–1.0 %** other depts | Ley 223/1995 art. 226+; each departamento Ordenanza sets the rate |
 | **Derechos de Registro** (ORIP fee) | tarifa per UVT (Unidad de Valor Tributario) | SNR Resolución de tarifas anual |
-| **Retención en la fuente** (when seller is sociedad / habitual) | **1 %** of price withheld at notary | Estatuto Tributario art. 398 |
-| **Beneficencia / IVA on services** | minor | per departamento |
-| **Lawyer / estudio de títulos** | **1–2 %** typical | private market |
-| **Total buyer-side closing costs** | ~**2–4 %** of price | sum of above |
+| **Retención en la fuente** (when seller is **persona natural** selling activo fijo) | **1 %** of price withheld by notary | **Estatuto Tributario art. 398**; reduced by 10 % per year of holding for vivienda de habitación (Decreto 1625/2016 art. 1.2.4.5.1) — note: applies to natural persons, NOT sociedades (corrected from prior playbook framing) (2026-05-27 verified) |
+| **Lawyer / estudio de títulos** | **~1–2 %** | private market |
+| **Total buyer-side closing costs (Bogotá)** | ~**2.6–4 %** of price (1 % benef + 0.3 % registro + ~0.27 % notarial + 1 % retención + lawyer + ORIP) | sum of above |
 
 ### Plusvalía / capital gains on resale
 
@@ -185,12 +185,12 @@ Two distinct concepts (don't confuse):
 1. **Ganancia Ocasional (income tax on capital gain on sale)** — Estatuto Tributario art. 300+:
    - Rate: **15 %** for natural persons (raised from 10 % by **Ley 2277/2022**, eff. 2023).
    - Long-term holding: cost basis indexed via UVT (no inflation discount but adjusted for *renta líquida ocasional*).
-   - **Exemption**: first 7,700 UVT (~COP 362 M @ 2026 UVT) of gain on sole dwelling held ≥ 2 years (Estatuto Tributario art. 311-1; ceiling adjusted yearly).
+   - **Exemption**: first **5,000 UVT** (~COP 249 M @ 2025 UVT) of gain on sole dwelling held ≥ 2 years — reduced from 7,500 UVT by **Ley 2277/2022 art. 31** (eff. 2023), reglamentado por **Decreto 1920/2023** (Estatuto Tributario art. 311-1; ceiling adjusted yearly) — re-quote at 2026 UVT once DIAN Resolución cited (2026-05-27 verified, source DIAN normograma).
 2. **Plusvalía urbanística** (Ley 388/1997 art. 73-90) — municipal capture of gain from rezoning / norm-density increase / public infrastructure benefit. Triggered when the POT or a Plan Parcial uplifts what your land may be developed into. Rate 30–50 % of the uplift, captured at next building permit / sale. **Verify with city Secretaría de Planeación** before buying redevelopment plays.
 
 ### Wealth tax (Impuesto al Patrimonio)
 
-- Reintroduced by **Ley 2277/2022** for residents (and non-residents on Colombian property) with patrimonio líquido > 72,000 UVT (~COP 3,389 M @ 2025 UVT, ~USD 850 k @ 4,000 COP).
+- Reintroduced by **Ley 2277/2022** for residents (and non-residents on Colombian property) with patrimonio líquido > 72,000 UVT (~COP 3,389 M @ 2025 UVT, ~USD 850 k @ 4,000 COP — re-quote at 2026 UVT once DIAN Resolución cited).
 - Rates progressive 0.5 % → 1.5 % above 239,000 UVT.
 - **Property is taxed at avalúo catastral or self-declared, whichever is higher** — multipurpose cadastre rollouts are pushing some owners into bracket.
 
@@ -205,6 +205,7 @@ Two distinct concepts (don't confuse):
 - **Multipurpose cadastre rollout** continues 2026+ — predial bills can jump significantly when your municipio re-actualizes.
 - **Tax-reform cycle**: each Petro / Duque government cycle proposes changes; track Cámara de Representantes + DIAN drafts.
 - **Wealth-tax recalibration** politically active.
+- **Bogotá Decreto Distrital 639/2025** unifies prior tributary decretos (predial + ICA + impuesto al consumo) into a single codified regime — verify at haciendabogota.gov.co for any changes affecting your year of assessment (2026-05-27 verified).
 
 ---
 
@@ -232,15 +233,15 @@ Two distinct concepts (don't confuse):
 - **IVA 19 %** on lodging services (some short-stay below thresholds may apply RST exemption).
 - **Régimen de Propiedad Horizontal** (Ley 675/2001) — the **assamblea de copropietarios** can prohibit STR in the reglamento; many luxury edificios (El Poblado, Chicó, Bocagrande) have done so 2023-2025.
 
-#### Bogotá D.C. — **Decreto 538 of 2024**
+#### Bogotá D.C. — **Decreto 538 of 2024** *(claim per second-tier sources — reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-05; verify before relying)*
 
-- **10 % impuesto al consumo** on STR services (lodging tax) effective via the decreto — verify scope at `https://www.haciendabogota.gov.co/`.
+- **10 % impuesto al consumo** on STR services (lodging tax) effective via the decreto — verify scope at `https://www.haciendabogota.gov.co/`. **Note**: the **national** impuesto al consumo on lodging is **8 %** (Estatuto Tributario art. 512-9); a 10 % distrital rate would be an unusual structure (impuestos al consumo are typically national).
 - RNT registration enforcement intensified.
 - Operators must declare ICA (Industria y Comercio) and present libros contables.
 
 #### Medellín — El Poblado controversies + 2024-25 rules
 
-- **Acuerdo 056 de 2024** (and updates) tightened STR in El Poblado, Laureles, Provenza; some PH régimens have *de facto* banned STR via reglamento de propiedad horizontal updates.
+- **Acuerdo 056 de 2024** (and updates) tightened STR in El Poblado, Laureles, Provenza; some PH régimens have *de facto* banned STR via reglamento de propiedad horizontal updates *(specific "Acuerdo 056/2024" reference NOT verifiable in concejodemedellin.gov.co as of 2026-05; verify before relying)*.
 - Increased Migración Colombia + DIAN inspections 2024-25 driven by housing-affordability backlash.
 - Verify current state at Concejo de Medellín + Secretaría de Hacienda before underwriting STR yield.
 
@@ -419,7 +420,7 @@ Two distinct concepts (don't confuse):
 - **Estrato system (1-6)** controls utility tariffs, predial bands, plusvalía calculation, and many services — estrato 6 can pay 5× the per-kWh / per-m³ of estrato 1 (Ley 142/1994 cross-subsidy regime). Always **check the estrato of the dwelling** (visible on any utility bill) before underwriting cost-of-ownership.
 - **Multipurpose cadastre rollout** is mid-flight 2020-2026 — predial bills jumping 2-3× when actualisation hits a barrio.
 - **CTL must show clean 30-year chain** — false-tradition (poseedor not propietario), missing inheritances, false owners are recurrent in coastal + rural regions.
-- **STR Bogotá: Decreto 538/2024** + **Medellín El Poblado restrictions 2024-25**; PH régimen reglamento can also prohibit independent of city rules — read it before underwriting STR yield.
+- **STR Bogotá: Decreto 538/2024** *(reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-05)* + **Medellín El Poblado restrictions 2024-25** *(specific Acuerdo 056/2024 NOT verifiable in concejodemedellin.gov.co)*; PH régimen reglamento can also prohibit independent of city rules — read it before underwriting STR yield.
 - **Plusvalía urbanística (Ley 388/1997)** can capture 30-50 % of rezoning gain.
 - **Andean seismic risk + NSR-10** — pre-1998 builds in active microzones carry significant retrofit / collapse risk; insist on peritaje técnico.
 - **Volcanic-risk towns**: Manizales, Pasto, Popayán, Ibagué — require reading SGC zonificación.
@@ -524,7 +525,7 @@ Two distinct concepts (don't confuse):
 
 **LOW** for: parcel-level price/m² (use only as zone-average context — must cross-check Lonja + Metrocuadrado comparables for the specific barrio + estrato).
 
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27.
 
 **Reform watch (next 12 mo)**:
 1. **Catastro multipropósito** — track IGAC cobertura updates per municipio; predial bill swings.
