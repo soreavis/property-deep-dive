@@ -17,7 +17,7 @@ ISO2: `vn`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Currency**: VND (Vietnamese đồng, ₫). 1 USD ≈ 25,000–25,800 VND; 1 EUR ≈ 27,500–28,500 VND (Apr 2026 SBV reference rate; rates vary, verify at `https://www.sbv.gov.vn/`). VND is a **managed float** with a daily reference rate set by the State Bank of Vietnam and a ±5% trading band.
 - **Capital controls**: Vietnam maintains capital controls under the Ordinance on Foreign Exchange 2005 (Pháp lệnh Ngoại hối, amended 2013) and SBV Circular 06/2019/TT-NHNN. Foreign-currency repatriation of property sale proceeds requires SBV approval beyond the original-investment basis (the original inbound capital can be repatriated with bank documentation; profit/capital gain in excess requires explicit licensing). Source: State Bank of Vietnam `https://www.sbv.gov.vn/`.
 - **Languages**: Vietnamese (official, tiếng Việt). English is reasonably common in HCMC and Hanoi for premium developers / law firms / English-language brochures. **All registered title documents and notarial deeds are in Vietnamese** — sworn translation + Vietnamese-licensed lawyer/notary are mandatory for foreign buyers.
-- **Cadastre / land registry**: **Department of Land Administration / Cục Quản lý Đất đai**, under the **Ministry of Natural Resources and Environment (Bộ Tài nguyên và Môi trường, MONRE)** `https://en.mae.gov.vn/`. Provincial-level registry is the **Office for Land Use Rights Registration (Văn phòng Đăng ký Quyền sử dụng đất, VPĐKĐĐ)** under the provincial Department of Natural Resources and Environment (Sở TN&MT). **No unified online national parcel viewer exists** as of 2026-05-01; queries must be made in person at the provincial / district office. Some provinces (e.g., HCMC, Hanoi) have started digital portals — verify at the provincial Sở TN&MT page.
+- **Cadastre / land registry**: **Department of Land Administration / Cục Quản lý Đất đai**, under the **Ministry of Agriculture and Environment (Bộ Nông nghiệp và Môi trường, MAE — formed 1 Mar 2025 by merger of MONRE + MARD under National Assembly Resolution 176/2025/QH15; Department of Land Administration + VPĐKĐĐ re-housed under MAE; 2024 Land Law authorities unchanged in substance — 2026-05-27 verified)** `https://en.mae.gov.vn/`. Provincial-level registry is the **Office for Land Use Rights Registration (Văn phòng Đăng ký Quyền sử dụng đất, VPĐKĐĐ)** under the provincial Department of Natural Resources and Environment (Sở TN&MT). **No unified online national parcel viewer exists** as of 2026-05-01; queries must be made in person at the provincial / district office. Some provinces (e.g., HCMC, Hanoi) have started digital portals — verify at the provincial Sở TN&MT page.
 - **Title document — Sổ Hồng (the "Pink Book")**: officially **Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất** (Certificate of Land Use Rights, Home Ownership and Other Assets Attached to Land). Issued under Decree 88/2009/ND-CP, then unified by Decree 43/2014/ND-CP and now governed by Decree 101/2024/ND-CP (under the 2024 Land Law). Replaced the older split between **Sổ Đỏ ("Red Book", land-use right only, pre-2009)** and **Sổ Hồng cũ (old Pink Book, building ownership only)**. As of 2009 the unified pink book is the standard. **Foreign buyers receive the Pink Book with a 50-year-term notation** and the renewable clause. Verify at MONRE `https://en.mae.gov.vn/`.
 - **Major reforms / regulatory landscape** (date-stamped — see `shared/regulatory-watch.md` for full tracker):
   - **2024 Land Law (Luật Đất đai 2024, Law No. 31/2024/QH15)** — passed 18 Jan 2024, effective **1 August 2025** (advanced from the original 1 Jan 2025 date by Resolution 129/2024/QH15 of June 2024). Replaces 2013 Land Law. Source: National Assembly `https://quochoi.vn/` and Government Gazette `https://congbao.chinhphu.vn/`.
@@ -122,7 +122,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 - **State Bank of Vietnam (SBV)** — quarterly real-estate credit reports + financial-stability monitors. `https://www.sbv.gov.vn/`
 - **Ministry of Construction (Bộ Xây dựng)** — quarterly housing market reports, price band updates by city. `https://moc.gov.vn/`
 - **Provincial Sở Xây dựng** — local market reports (HCMC `https://soxaydung.hochiminhcity.gov.vn/`, Hanoi `https://soxd.hanoi.gov.vn/`).
-- **MONRE annual land price tables (Bảng giá đất)** — provincial People's Committee publishes annual land-price tables under the 2024 Land Law (Decree 71/2024/ND-CP). These are the **statutory tax-base values**, typically 30–60% of market prices in major cities. Verify at provincial Sở TN&MT.
+- **MAE (formerly MONRE) annual land price tables (Bảng giá đất)** — provincial People's Committee publishes annual land-price tables under the 2024 Land Law (Decree 71/2024/ND-CP). These are the **statutory tax-base values**, typically 30–60% of market prices in major cities. Verify at provincial Sở TN&MT.
 
 ### Listing platforms (secondary, listings = seller-controlled)
 
@@ -135,7 +135,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 ### Price benchmarks (Q4 2025 / Q1 2026 reference)
 
-> **Source warning**: Vietnam has no equivalent of REIC's quarterly transfer-price index at the granularity of Bangkok/Tokyo. Listing-platform averages are seller-controlled; the closest realized-price reference is the MONRE provincial land price table (statutory) and Ministry of Construction quarterly reports (aggregate). Use Batdongsan.com.vn for comp shopping, Ministry of Construction for verdicts.
+> **Source warning**: Vietnam has no equivalent of REIC's quarterly transfer-price index at the granularity of Bangkok/Tokyo. Listing-platform averages are seller-controlled; the closest realized-price reference is the MAE (formerly MONRE) provincial land price table (statutory) and Ministry of Construction quarterly reports (aggregate). Use Batdongsan.com.vn for comp shopping, Ministry of Construction for verdicts.
 
 | Locality | Segment | VND/m² range | USD/m² est. (25,500 VND/USD) | Source |
 |---|---|---|---|---|
@@ -398,7 +398,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 |---|---|---|
 | **Vietnam Disaster Management Authority (Tổng cục Phòng chống Thiên tai)** under MARD | `https://phongchongthientai.mard.gov.vn/` | Hazard maps, disaster declarations, flood/typhoon history |
 | **National Centre for Hydro-Meteorological Forecasting (Trung tâm Dự báo KTTV Quốc gia)** | `https://nchmf.gov.vn/` | Weather, typhoon, monsoon, climate-projection products |
-| **Ministry of Natural Resources and Environment (MONRE)** | `https://en.mae.gov.vn/` | National adaptation plan, sea-level monitoring, EIA |
+| **Ministry of Agriculture and Environment (MAE, Bộ NN&MT — merger of MONRE + MARD eff 1 Mar 2025)** | `https://en.mae.gov.vn/` | National adaptation plan, sea-level monitoring, EIA |
 | **Vietnam Institute of Geosciences and Mineral Resources (VIGMR)** | `http://www.vigmr.vn/` | Geology, landslide, fault mapping |
 | **General Statistics Office (GSO)** | `https://www.gso.gov.vn/` | Disaster damage statistics |
 | **Vietnam Environment Administration (VEA)** | `http://vea.gov.vn/` | Air & water quality monitoring |
@@ -443,7 +443,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 
 ### Climate-change projections (NCHMF + IPCC AR6 + MONRE National Adaptation Plan 2022)
 
-- **Temperature**: +1.5–3.0 °C by 2050 vs 1986–2005 baseline (RCP4.5 → RCP8.5). Source: MONRE Climate Change & Sea Level Rise Scenarios for Vietnam (2020 update).
+- **Temperature**: +1.5–3.0 °C by 2050 vs 1986–2005 baseline (RCP4.5 → RCP8.5). Source: MAE (formerly MONRE) Climate Change & Sea Level Rise Scenarios for Vietnam (2020 update; pending MAE refresh post-2025 merger).
 - **Sea-level rise**: +25–75 cm by 2100 (medium SSP2-4.5 → high SSP5-8.5). Mekong Delta + HCMC + Hai Phong / Quang Ninh coast highly exposed; Mekong Delta could lose ~40% of land area to a 1m sea-level rise scenario.
 - **Extreme rainfall**: typhoon intensity expected to increase; central coast wettest events increasing.
 - **Drought**: NE region dry-season severity increasing; Central Highlands coffee-region affected.
@@ -500,7 +500,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 - **Hanoi**: similar — Yen So Wastewater Treatment Plant + several others. Inner districts ~50–60% mains coverage, outer districts much lower.
 - **Provincial cities**: coverage drops sharply outside provincial seats. Most condo/apartment developments use **on-site treatment plants (Hệ thống xử lý nước thải tập trung của tòa nhà)** required by Vietnamese building code (QCVN 14:2008/BTNMT national wastewater discharge standard) for residential buildings above a threshold.
 - **Rural / villa areas**: septic tank + soakaway is the norm. Modern villas typically have **3-stage septic + biological filter + soakaway**; older / informal may have simple cesspit (bể tự hoại đơn giản).
-- **Wastewater regulator**: MONRE + Vietnam Environment Administration `http://vea.gov.vn/`.
+- **Wastewater regulator**: MAE (formerly MONRE) + Vietnam Environment Administration `http://vea.gov.vn/`.
 
 ### Verification path
 
@@ -598,7 +598,8 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 - **Visa-linked property structures** (e.g., "buy a condo, get a visa") do NOT exist in Vietnam — there is no Golden Visa via real estate.
 - **FX requirement** for foreign buyers is mandatory — funds must be remitted from abroad in foreign currency, converted to VND inside Vietnam, with bank documentation at notarization. Cash will not work.
 - **All title documents are in Vietnamese** — sworn translation + Vietnamese-licensed lawyer are mandatory for foreign buyers; do not skip.
-- **STR (Airbnb) is in a regulatory grey zone** — most premium HCMC and Hanoi apartment buildings explicitly prohibit STR via Ban Quản trị bylaws; tax declaration is required if you rent.
+- **STR (Airbnb) is in a regulatory grey zone outside HCMC** — most premium HCMC and Hanoi apartment buildings explicitly prohibit STR via Ban Quản trị bylaws; tax declaration is required if you rent. **HCMC: explicit ban** — Quyết định 26/2024/QĐ-UBND of HCMC People's Committee, effective **1 August 2024**, bans STR in residential apartment buildings interpreting 2023 Housing Law; only mixed-use condotels may operate as tourism accommodation. Verify at `https://hochiminhcity.gov.vn/` (2026-05-27 verified).
+- **Hague Apostille convention enters into force for Vietnam on 11 September 2026** (Công ước Apostille) — POA + foreign-issued marriage / birth / corporate documents shift from full consular legalisation chain (3-step: notary in origin country → foreign ministry → Vietnamese embassy) to single apostille stamp. Foreign buyers signing remote POAs from Apostille-member jurisdictions should target signature dates **after 11 Sep 2026** to avoid the heavier legalisation path. Source: HCCH `https://www.hcch.net/en/instruments/conventions/specialised-sections/apostille` + Vietnam MFA (2026-05-27 verified).
 - **Capital controls on repatriation** — original capital can be repatriated with bank documentation; profit/gain may require explicit SBV approval. Plan exit liquidity carefully.
 - **Inheritance window 12 months** — foreign heirs of a deceased foreign owner have 12 months to sell or transfer to a qualifying buyer. Plan estate succession explicitly.
 
@@ -622,7 +623,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 | Authority | When to call | Contact |
 |---|---|---|
 | **Ministry of Construction (Bộ Xây dựng, MOC)** | Housing Law, foreign-buyer rules, project licensing | `https://moc.gov.vn/` |
-| **Ministry of Natural Resources and Environment (MONRE / Bộ TNMT)** | Land Law, LURC, cadastre, environmental | `https://en.mae.gov.vn/` |
+| **Ministry of Agriculture and Environment (MAE, Bộ NN&MT — formerly MONRE; merger eff 1 Mar 2025)** | Land Law, LURC, cadastre, environmental | `https://en.mae.gov.vn/` |
 | **Ministry of Finance (Bộ Tài chính)** | Tax policy, future property tax | `https://mof.gov.vn/` |
 | **General Department of Taxation (Tổng cục Thuế, GDT)** | PIT, VAT, transfer tax, rental income | `https://www.gdt.gov.vn/` |
 | **State Bank of Vietnam (Ngân hàng Nhà nước, SBV)** | FX rules, inbound/outbound transfer, capital controls, mortgage | `https://www.sbv.gov.vn/` |
@@ -644,7 +645,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 ## Quirks to know
 
 - **Sổ Đỏ vs Sổ Hồng vs Sổ Hồng cũ**: three historical title-document colors are widely referenced —
-  - **Sổ Đỏ (Red Book, đỏ)** = pre-2009 land-use right only certificate (rural land typically). Issued by MONRE predecessor.
+  - **Sổ Đỏ (Red Book, đỏ)** = pre-2009 land-use right only certificate (rural land typically). Issued by MAE (formerly MONRE) predecessor.
   - **Sổ Hồng cũ (Old Pink Book)** = pre-2009 building ownership only certificate (urban housing). Issued by Ministry of Construction predecessor.
   - **Sổ Hồng (current Pink Book, hồng)** = post-2009 unified Certificate of Land Use Rights, Home Ownership and Other Assets Attached to Land. Decree 88/2009/ND-CP unified the previous two; current legal basis Decree 101/2024/ND-CP under 2024 Land Law.
   - **Foreign buyers receive only the current (post-2009) Pink Book** with the 50-year-term notation. If a seller offers an old Red Book or old Pink Book, insist on conversion to the unified current format BEFORE transfer.
@@ -667,7 +668,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 
 | Source | URL pattern |
 |---|---|
-| MONRE (Land Law, cadastre) | `https://en.mae.gov.vn/` |
+| MAE (formerly MONRE; Land Law, cadastre) | `https://en.mae.gov.vn/` |
 | Ministry of Construction (Housing Law, foreign-buyer) | `https://moc.gov.vn/` |
 | Ministry of Finance (tax policy) | `https://mof.gov.vn/` |
 | General Department of Taxation (GDT) | `https://www.gdt.gov.vn/` |

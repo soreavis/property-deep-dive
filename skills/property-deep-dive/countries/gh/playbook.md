@@ -7,7 +7,7 @@ ISO2: `gh`. Status: PARTIALLY OPEN — non-Ghanaians are restricted to **leaseho
 - **Population**: ~33.5M (Ghana Statistical Service 2024 mid-year est.; 2021 Population & Housing Census recorded 30.8M; source `https://statsghana.gov.gh/`). Greater Accra ~5.4M; Ashanti (Kumasi metro) ~5.6M; Western (Sekondi-Takoradi) ~2.1M; Central (Cape Coast) ~2.9M; Eastern, Volta, Northern, Bono, Bono East, Ahafo, Savannah, North East, Upper East, Upper West, Oti, Western North = remaining 12 of the 16 regions (post-2018 region creation).
 - **Postcode**: **GhanaPostGPS digital address** (e.g., `GA-184-3589` for Accra) — National Digital Address System launched 2017 (`https://ghanapostgps.com/`); used in addition to traditional district-based postal addresses (GPO box culture predominates). Verify with seller pre-contract.
 - **Admin levels**: 16 **Regions** (since 2018 creation of 6 new regions) → 261 **Metropolitan / Municipal / District Assemblies (MMDAs)**. Property rates + building permits = MMDA-level; cadastre + title registration = national (Lands Commission).
-- **Currency**: **GHS — Ghanaian cedi** (₵, ISO 4217 GHS). **Régime**: managed-float; sharp depreciation 2022 (~GHS 6 → 14/USD peak Nov 2022 per Bank of Ghana official mid-rate); some recovery + renewed pressure 2023-25; ~GHS 12-16/USD range 2025-26 (verify daily at `https://www.bog.gov.gh/`). **IMF Extended Credit Facility approved 17 May 2023, USD 3 billion 36-month programme** (IMF — `https://www.imf.org/en/Countries/GHA`). USD informal pricing common in prime Accra (Cantonments, Airport, East Legon, Labone, Ridge, Roman Ridge) — flag in underwriting.
+- **Currency**: **GHS — Ghanaian cedi** (₵, ISO 4217 GHS). **Régime**: managed-float; sharp depreciation 2022 (~GHS 6 → 14/USD peak Nov 2022 per Bank of Ghana official mid-rate); some recovery + renewed pressure 2023-25; **~GHS 11–12/USD as of May 2026 (BoG mid-rate); cedi appreciated ~20 % YoY from ~GHS 14 May 2025** — trajectory has reversed vs 2022-24 depreciation (2026-05-27 verified). Verify daily at `https://www.bog.gov.gh/`. **IMF Extended Credit Facility approved 17 May 2023, USD 3 billion 36-month programme** (programme nears 36-month end mid-2026; verify review/successor status at IMF — `https://www.imf.org/en/Countries/GHA`). USD informal pricing common in prime Accra (Cantonments, Airport, East Legon, Labone, Ridge, Roman Ridge) — flag in underwriting.
 - **Languages**: English (official; courts, conveyancing); Twi (Akan), Ga, Ewe, Dagbani, Hausa major regional; English universally used in legal documents.
 - **Legal system**: Common-law (English heritage; pre-1957 Gold Coast colonial legacy) + **customary law** (stool / skin / family / clan tenure) layered onto state framework. Property = common-law contract + Lands Commission registration + customary allocation.
 - **Cadastre — Lands Commission (national)**:
@@ -19,8 +19,9 @@ ISO2: `gh`. Status: PARTIALLY OPEN — non-Ghanaians are restricted to **leaseho
 - **Recent reforms** (verify date-stamped):
   - **Lands Act 2020 (Act 1036)** consolidating 6 prior land statutes — entered into force 2020 (`https://lc.gov.gh/`)
   - **IMF Extended Credit Facility** approved May 2023, ongoing through 2026 (verify status at IMF country page)
-  - **E-Levy 1% on electronic transactions** (Electronic Transfer Levy Act 2022, Act 1075; rate reduced from 1.5% to 1% via Act 1089 in 2023; verify current rate at GRA `https://gra.gov.gh/`)
-  - **VAT increased from 12.5% to 15%** under Value Added Tax (Amendment) Act 2022 (Act 1082); verify GRA
+  - **E-Levy REPEALED April 2025** via Electronic Transfer Levy (Repeal) Act 2025 (President Mahama assented 2 Apr 2025; GRA directed all charging entities to cease collection immediately). Act 1075 (2022) + Act 1089 (2023) superseded (2026-05-27 verified, source: GRA + Presidency).
+  - **Mahama 2025 fiscal reform package** (April 2025): E-Levy + Betting Tax + Emissions Levy repealed; **VAT Act 2025 (Act 1151) effective 1 Jan 2026** (overhauled scheme — see below); Income Tax Amendment 2025; Growth & Sustainability Levy Act; Gold Board Bill. Source: MoFEP press release 2025-03-27.
+  - **VAT Act 2025 (Act 1151) effective 1 Jan 2026** supersedes VAT Act 2013 Act 870 + Act 1082 (2022): 15 % headline VAT retained; **VAT Flat Rate Scheme (VFRS) abolished**; registration threshold raised GH₵200,000 → **GH₵750,000**; **NHIL (2.5 %) + GETFund (2.5 %) recoupled and now input-tax-credit eligible** (previously cascading); **COVID-19 Health Recovery Levy abolished 1 Jan 2026**. Effective combined VAT+levies ≈ 20 % (15 % + 2.5 % + 2.5 %) but with input credit recovery for NHIL+GETFund (2026-05-27 verified).
   - **Year of Return 2019** + **Beyond the Return 2020-onwards** (Ministry of Tourism, Culture & Creative Arts; Ghana Tourism Authority — `https://www.ghana.travel/`) — diaspora-engagement framework continuing
   - **Pan-African Identity Card / Right of Abode (Akwaaba) pathway** under Immigration Act 2000 (Act 573) as amended — see `--visa` section
   - **Property rate digitization** through Ghana.gov platform (`https://www.ghana.gov.gh/`) ongoing
@@ -187,8 +188,8 @@ LOW — per-segment AADT comparable to EU/UK datasets is **not publicly availabl
 | **Lands Commission Concurrence Fee** | typically 1-2% of consideration (verify Lands Commission fee schedule) | Lands Commission (`https://lc.gov.gh/`) |
 | **Land Title / Deed Registration Fee** | typically 0.5-1% of consideration (varies by district + Title vs Deed) | Lands Commission |
 | **Capital Gains Tax (federal, seller)** | **15% on net realised gain** (Income Tax Act 2015 Act 896 as amended) | GRA |
-| **VAT (commercial / certain new build)** | **15%** standard rate (VAT Act 2013 Act 870 as amended by Act 1082 in 2022); residential sales generally NOT subject — verify scope at GRA | GRA |
-| **NHIL + GETFund Levy + COVID-19 Health Recovery Levy** | combined ~6% on top of VAT for VAT-able transactions (verify GRA) | GRA |
+| **VAT (commercial / certain new build)** | **15%** headline rate retained under **VAT Act 2025 (Act 1151) effective 1 Jan 2026** (supersedes Act 870 (2013) + Act 1082 amendments); residential sales generally NOT subject — verify scope at GRA (2026-05-27 verified) | GRA |
+| **NHIL + GETFund Levy** | combined **5 %** (2.5 % NHIL + 2.5 % GETFund) on top of VAT for VAT-able transactions; **COVID-19 Health Recovery Levy abolished 1 Jan 2026** under VAT Act 2025; NHIL + GETFund now **input-tax-credit eligible** (previously cascading) — 2026-05-27 verified | GRA |
 | **Buyer lawyer** | 1.5–5% (Ghana Bar Association scale) | GBA |
 | **Agent commission** | typically 5–10% (often split, sometimes seller-borne) | Market practice |
 | **Total foreign-buyer transaction cost (Accra)** | **~5–12% of price** | Sum of stamp + concurrence + registration + legal + agent |
@@ -210,7 +211,7 @@ Per Income Tax Act 2015 Act 896 + amendments:
 
 - **Residential sale by individual**: generally NOT VAT-able
 - **Commercial sale + new-build by VAT-registered developer**: 15% VAT + NHIL/GETFund/COVID levies may apply (verify GRA)
-- **VAT (Amendment) Act 2022 (Act 1082)** raised standard rate from 12.5% to 15%
+- **VAT (Amendment) Act 2022 (Act 1082)** raised standard rate from 12.5% to 15%; **superseded by VAT Act 2025 (Act 1151) effective 1 Jan 2026** — 15 % retained but VFRS abolished, threshold raised to GH₵750k, NHIL+GETFund recoupled as input-creditable, COVID levy abolished (2026-05-27 verified).
 
 ### Inheritance / estate
 
@@ -528,7 +529,7 @@ Accra coastal: AC year-round; SLR exposure for parcels < 5 m elevation, particul
 
 ### Rates 2025-2026 (verify monthly at BoG)
 
-- **GHS commercial mortgage**: ~25-35% nominal (BoG MPR ~28% Q1 2026 est.; verify monthly at BoG MPC Press Releases); inflation drives real rates volatile
+- **GHS commercial mortgage**: HISTORICAL 2023-24 range ~25-35 % nominal; **BoG MPR 14.0 % (May 2026, 130th MPC meeting)** — policy rate cut 900 bps across 2025 easing cycle (Dec 2024 27 % → Sept 2025 21.5 % → Nov 2025 18 % → Jan 2026 15.5 % → Mar 2026 14 % → May 2026 14 % held); mortgage rates have likely compressed materially — verify current lender quotes (2026-05-27 verified).
 - **USD mortgages (Stanbic, Ecobank, Standard Chartered)**: ~9-13% non-resident; LTV ~50-60%; offered to USD-income earners + foreign buyers with offshore-source-of-funds
 - **GHS first-time buyer schemes / National Housing Mortgage**: subsidized rates available for qualifying segments — verify current at Ministry of Works & Housing
 
@@ -561,7 +562,7 @@ Accra coastal: AC year-round; SLR exposure for parcels < 5 m elevation, particul
 
 - **GHS — Ghanaian cedi** (₵, ISO 4217 GHS)
 - **Régime**: managed-float; redenominated 2007 from old cedi (10,000:1)
-- **BoG MPR**: ~28% Q1 2026 est. (verify monthly `https://www.bog.gov.gh/monetary-policy/`); peaked 30% during 2022-23 crisis
+- **BoG MPR**: **14.0 % (May 2026, 130th MPC meeting)** — lowest in four years; peaked 30 % during 2022-23 crisis (verify monthly `https://www.bog.gov.gh/monetary-policy/`; 2026-05-27 verified).
 - **IMF Extended Credit Facility** approved 17 May 2023, USD 3 billion, 36-month programme — ongoing; performance reviews quarterly. Conditionalities include fiscal consolidation, FX reserve build-up, debt restructuring; impacts capital-control / FX-availability environment for foreign property repatriation. Verify status at IMF country page (`https://www.imf.org/en/Countries/GHA`).
 - **Capital controls**: not freely convertible but documented inflows are repatriable; outbound FX subject to BoG / authorized dealer bank approval; AML reporting via Financial Intelligence Centre (`https://www.fic.gov.gh/`) for >USD 10,000 equivalent
 - **Foreign Exchange Act 2006 (Act 723)**: governs FX dealings; authorized dealer banks intermediate
@@ -577,7 +578,7 @@ Accra coastal: AC year-round; SLR exposure for parcels < 5 m elevation, particul
 - 2019-21: ~GHS 5.7-6.0/USD range
 - 2022 crisis: ~GHS 6 → 14/USD peak Nov 2022 (approximately doubling) — fiscal/debt distress preceding IMF programme
 - 2023-25: range-bound ~GHS 11-16/USD on managed float; renewed pressure during fiscal squeezes
-- Q1-Q2 2026: ~GHS 12-16/USD range (BoG; verify daily; rates may have changed since)
+- Q1-Q2 2026: **~GHS 11–12/USD May 2026 (BoG mid-rate); cedi appreciated ~20 % YoY** from ~GHS 14 May 2025 → ~GHS 11 May 2026 — verify daily, trajectory has reversed vs 2022-24 depreciation (2026-05-27 verified).
 - **Inflation**: peaked >50% during 2022-23 crisis; moderating substantially under IMF programme; verify GSS CPI monthly (`https://statsghana.gov.gh/`)
 
 ### GhanaCard + tax ID — mandatory

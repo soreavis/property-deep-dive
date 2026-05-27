@@ -142,7 +142,7 @@ Listing-derived ranges, cross-checked against HassConsult Q4 2025 and Knight Fra
 
 ### Stamp Duty (one-time, buyer pays) — Stamp Duty Act Cap 480
 
-**Source**: Kenya Revenue Authority Stamp Duty: `https://www.kra.go.ke/helping-tax-payers/faqs/stamp-duty` — verify current rates at filing.
+**Statute**: Stamp Duty Act Cap 480 (KRA advisory only since 2024). **Payment platform (since 2024)**: Ministry of Lands & Physical Planning **Ardhisasa** — `https://ardhisasa.lands.go.ke/`. Buyers must register on Ardhisasa to assess + e-pay stamp duty before LSK can register the transfer. **The legacy KRA URL `https://www.kra.go.ke/helping-tax-payers/faqs/stamp-duty` returns HTTP 404 as of 2026-05 — payment workflow migrated to Lands** (2026-05-27 verified, source: shared/regulatory-watch.md KE Ardhisasa migration entry). Statute hosted at `http://kenyalaw.org/`.
 
 | Property type / location | Stamp Duty rate |
 |---|---|
@@ -150,7 +150,7 @@ Listing-derived ranges, cross-checked against HassConsult Q4 2025 and Knight Fra
 | Agricultural / rural land | **2 %** of declared value |
 | Mortgage / charge (additional) | 0.1 % of secured amount |
 
-(Source: Stamp Duty Act Cap 480 + KRA — verify at `https://www.kra.go.ke/helping-tax-payers/faqs/stamp-duty`)
+(Source: Stamp Duty Act Cap 480 — Kenya Law Reports `http://kenyalaw.org/`; payment via Ardhisasa `https://ardhisasa.lands.go.ke/`)
 
 - **Valuation basis**: KRA Valuation Department / Government Valuer assesses; where declared value < market value, KRA applies its own valuation. Under-declaration is endemic and subject to reassessment per KRA enforcement notices.
 - **Stamp Duty exemption — first home (proposed Finance Bill 2023, partially enacted)**: certain first-time-buyer reliefs under the Affordable Housing Programme — verify current scheme conditions at the State Department for Housing.
@@ -200,7 +200,7 @@ Annual property tax is **set by each county government** based on the **valuatio
 
 ### VAT — VAT Act 2013
 
-- **Standard rate 16 %** (raised from 14 % via Finance Act 2020, restored to 16 % from earlier COVID 14 % reduction)
+- **Standard rate 16 %** (VAT Act 2013). Temporarily reduced to 14 % from 1 Apr 2020 to 31 Dec 2020 as a COVID stimulus measure; **restored to 16 % from 1 Jan 2021** per Tax Laws (Amendment) Act 2020 / Finance Act 2020 (2026-05-27 verified, source: KRA VAT).
 - **First sale of a residential dwelling by a developer**: 0 % (zero-rated) under VAT Act
 - **Commercial real estate first sale + lease**: 16 %
 - **Rental of residential premises**: exempt from VAT (separate Rental Income Tax — see `--rental`)
@@ -706,7 +706,7 @@ Kenya inherits the **English common-law solicitor / advocate system** (vs civil-
 | 3. Sale Agreement | D7–D21 | Drawn by vendor's advocate; deposit (typically 10 %) into vendor advocate's client account |
 | 4. Due diligence | D14–D45 | Survey beacon verification, NCA / NEMA compliance, Rates Clearance, Land Rent Clearance, spousal consent |
 | 5. LCB consent (if agricultural) | D30–D90+ | Land Control Board sitting — **major delay risk** |
-| 6. Stamp Duty payment | D45–D75 | KRA assessment + 4 % / 2 % paid via iTax |
+| 6. Stamp Duty payment | D45–D75 | **Ardhisasa stamp-duty assessment + 4 % / 2 % e-paid via Ardhisasa** (statute Stamp Duty Act Cap 480; KRA advisory only since 2024 migration — 2026-05-27 verified) |
 | 7. Transfer execution + lodgement | D60–D90 | Transfer instrument signed at Lands; new Title Deed / Certificate of Lease issued |
 | 8. KRA + tax clearance | D75–D120 | Capital Gains Tax filing by seller; transfer-of-name to county for rates |
 

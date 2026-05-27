@@ -2,7 +2,7 @@
 
 ISO2: `id`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 
-> **🇮🇩 LEAD WARNING — read before any other section.** Indonesia is a **foreign-restricted** market. **Foreigners cannot own freehold (Hak Milik) land** under Undang-Undang Pokok Agraria (UUPA) No. 5/1960 §21 and §26(2). The legal pathways for foreigners are: **Hak Pakai** (Right to Use, requires KITAS/KITAP), **strata-title condo (SHMRS)** under Hak Pakai, **Hak Sewa** (lease), or **PT PMA** (foreign-invested Indonesian company holding HGB). **Nominee structures** (Hak Milik bought via an Indonesian friend/spouse with side-letter giving the foreigner economic control) are illegal under UUPA §26(2) and have been **voided by Indonesian courts** (multiple Bali Provincial Court rulings 2023–2025). Six- to seven-figure decisions in Indonesia demand an Indonesian-licensed notary (PPAT) and a real-estate lawyer fluent in PP 18/2021 — non-negotiable. Skip the lawyer-fee line and you can lose the entire principal to nominee voidance, undisclosed adat (customary) claims, or pre-construction developer default.
+> **🇮🇩 LEAD WARNING — read before any other section.** Indonesia is a **foreign-restricted** market. **Foreigners cannot own freehold (Hak Milik) land** under Undang-Undang Pokok Agraria (UUPA) No. 5/1960 §21 and §26(2). The legal pathways for foreigners are: **Hak Pakai** (Right to Use, requires KITAS/KITAP), **strata-title condo (SHMRS)** under Hak Pakai, **Hak Sewa** (lease), or **PT PMA** (foreign-invested Indonesian company holding HGB). **Nominee structures** (Hak Milik bought via an Indonesian friend/spouse with side-letter giving the foreigner economic control) are illegal under UUPA §26(2) and have been **voided by Indonesian courts** (multiple Bali Provincial Court rulings 2023–2025); **Bali Perda 4/2026 (signed 24 Feb 2026) escalated this to criminal prosecution** of both foreign investor and Indonesian nominee, with up to 5 years imprisonment + IDR 1 billion fine (2026-05-27 verified). Six- to seven-figure decisions in Indonesia demand an Indonesian-licensed notary (PPAT) and a real-estate lawyer fluent in PP 18/2021 — non-negotiable. Skip the lawyer-fee line and you can lose the entire principal to nominee voidance, undisclosed adat (customary) claims, or pre-construction developer default.
 
 ## Country profile
 
@@ -39,7 +39,7 @@ ISO2: `id`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
   - **PP 34/2017** + **Permenkeu 34/2017** — final-tax PPh 2.5 % on land/building disposal by sellers. Revenue Code base: UU PPh 36/2008 §4(2)(d).
   - **UU HKPD No. 1/2022** (Hubungan Keuangan Pusat–Daerah) — restructured local taxes including PBB-P2 (Pajak Bumi & Bangunan) and BPHTB (Bea Perolehan Hak atas Tanah dan Bangunan). Effective phase-in 2024–2025; final implementation ceiling rates apply 1 January 2024 onward. Source: `https://peraturan.bpk.go.id/Details/195696/uu-no-1-tahun-2022`
   - **Permenkumham 22/2023 — Second Home Visa (Visa Rumah Kedua)** — 5–10-year residence for foreigners depositing ≥ IDR 2 billion (~USD 130k) in an Indonesian state bank or owning Indonesian property of equivalent value. Source: `https://www.imigrasi.go.id/`
-  - **Bali nominee voidance precedents** — Pengadilan Negeri Denpasar and Pengadilan Negeri Gianyar have repeatedly voided Hak Milik nominee structures since 2023; assets revert to Indonesian "owner of record" with no compensation guarantee to the foreigner. Verify case law via `https://putusan3.mahkamahagung.go.id/`
+  - **Bali nominee voidance precedents** — Pengadilan Negeri Denpasar and Pengadilan Negeri Gianyar have repeatedly voided Hak Milik nominee structures since 2023; assets revert to Indonesian "owner of record" with no compensation guarantee to the foreigner. **Bali Perda No. 4/2026** ("Control of Productive Land Conversion and Prohibition of Nominee Land Ownership Transfer"), signed by Governor I Wayan Koster on **24 February 2026**, **CRIMINALISES** nominee arrangements — shifting them from civil nullity under UUPA §26(2) to **criminal prosecution** of both foreign investor AND Indonesian nominee, including intermediaries. Penalties reference UU 41/2009 (up to **5 years imprisonment + IDR 1 billion fine** for illegal land conversion) and KUHP for document manipulation. Administrative sanctions: business closure, licence revocation, mandatory building demolition (2026-05-27 verified, source: Seven Stones Real Estate + Emerhub). Verify case law via `https://putusan3.mahkamahagung.go.id/`
   - **Proposed reforms NOT enacted as of May 2026**: extension of Hak Pakai term beyond PP 18/2021 (under discussion); a "Bali special-zone" foreign-ownership pilot has been floated by provincial government but not legislated. Verify via `https://peraturan.bpk.go.id/`.
 
 ---
@@ -270,7 +270,7 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 |---|---|---|---|
 | **BPHTB** (Bea Perolehan Hak atas Tanah dan Bangunan) | **5 %** statutory ceiling (UU HKPD §47); kabupaten can set lower | Sale price OR NJOP, whichever higher, MINUS NJOPTKP-BPHTB (typically IDR 60,000,000–80,000,000) | Buyer |
 | **PPh Final (Pajak Penghasilan Final atas Pengalihan Hak)** | **2.5 %** (1 % for affordable housing developers) | Sale price OR NJOP, whichever higher | Seller |
-| **PPN (VAT)** | **11 %** (rising to 12 % per UU HPP / PP 49/2022 schedule — verify current rate at `https://www.pajak.go.id/`) | Sale price | Buyer, on new properties from a developer registered as PKP (taxable entrepreneur) |
+| **PPN (VAT)** | **11 % effective** (via DPP 11/12 mechanism under PMK 131/2024); **PPN 12 % applies ONLY to luxury properties** — apartemen / landed houses ≥ IDR 30 billion under PPnBM-aligned thresholds. Both rates derive from UU HPP 7/2021 (2026-05-27 verified, source: Baker McKenzie / ARMA Law / Kemenko Perekonomian 31-Dec-2024 statement). Verify at `https://www.pajak.go.id/`. | Sale price | Buyer, on new properties from a developer registered as PKP (taxable entrepreneur) |
 | **PPnBM (luxury VAT)** | 20 % | Properties above luxury thresholds (apartemen > 30 billion IDR, landed houses > 30 billion IDR per Permenkeu thresholds) | Buyer |
 | **Stamp duty (bea meterai)** | IDR 10,000 per document | Each notarial deed | Buyer (custom) |
 
@@ -303,7 +303,7 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 
 ### Future risk
 
-- **PPN 12 %**: scheduled per UU HPP; verify current rate before quoting.
+- **PPN 12 % is luxury-only** (apartemen / landed houses ≥ IDR 30 billion under President Prabowo's Dec-2024 adjustment + PMK 131/2024). All other VAT-able transactions remain **effectively 11 %** via the DPP 11/12 tax-base mechanism. Source: UU HPP 7/2021 + PMK 131/2024 (2026-05-27 verified).
 - **NJOP zonal updates**: Bali tourist-zone NJOP is rising 2024–2026 — annual PBB will rise.
 - **Local transaction-tax tweaks**: kabupaten may adjust BPHTB rate up to 5 % ceiling; verify the relevant Perda.
 - **Property capital gains for foreign sellers**: subject to ongoing DJP interpretation; verify treaty benefits.
@@ -580,7 +580,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | **Land surveyor (BPN-licensed)** | 5,000,000–25,000,000 | $325–$1,610 |
 | **BPHTB transfer tax** | 5 % of (sale value − NJOPTKP-BPHTB) | varies |
 | **PPh Final (seller side)** | 2.5 % of sale value | seller pays |
-| **PPN VAT (new from developer)** | 11 % (rising to 12 %) | buyer pays |
+| **PPN VAT (new from developer)** | 11 % effective (12 % luxury-only ≥ IDR 30 bn per PMK 131/2024) | buyer pays |
 | **Notaris fees (PPJB, kuasa, etc.)** | 5,000,000–25,000,000 per deed | $325–$1,610 |
 | **Common-area fees (apartemen, mid-range)** | 12,000–30,000 IDR/m²/month | $0.80–$2/m²/mo |
 | **Common-area fees (luxury Jakarta apartemen)** | 25,000–80,000 IDR/m²/month | $1.60–$5/m²/mo |
@@ -626,7 +626,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 - **Nominee Hak Milik structures are illegal AND increasingly voided** — multiple Bali Provincial Court rulings 2023–2025 have voided nominee structures with the foreigner losing the principal. Do NOT consider this path.
 - **Bali-specific traps**: tanah ayahan desa (village allotment) cannot be sold to foreigners; subak irrigation rights affect rural plots; provincial spatial plan (RTRW Bali) updated 2023–2025 with construction moratoria in some Canggu / Seminyak zones; banjar (village council) approval may be required.
 - **Pre-construction off-plan risk**: multiple Bali developer defaults 2023–2025; deposits often not in genuine escrow despite contract claims. Pay only against milestone completion verified by independent surveyor.
-- **PPN 11 % (rising to 12 %)** on new properties from PKP-registered developers — adds materially to all-in cost for new builds.
+- **PPN 11 % effective (12 % luxury-only ≥ IDR 30 bn per PMK 131/2024)** on new properties from PKP-registered developers — adds materially to all-in cost for new builds.
 - **BPHTB 5 % statutory ceiling** + PPh Final 2.5 % seller-side make total transaction cost meaningfully higher than Thailand or Czech.
 - **Foreign Quota / SHMRS verification non-negotiable for condos** — confirm in writing from developer + verify project pertelaan + IMB/PBG before deposit.
 - **Hak Sewa "30 + 30" leases** — only the first term is enforceable as a registered right; renewals are contractual options weakened against successor landowners.

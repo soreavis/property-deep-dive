@@ -82,7 +82,13 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 ### SRRV (Special Resident Retiree's Visa) — Philippine Retirement Authority (PRA)
 
 - **Legal basis**: Executive Order 1037 (1985) created the PRA; SRRV regulated under PRA Circulars. Source: `https://pra.gov.ph/srrv/`.
-- **SRRV deposits and categories** (verified at `https://pra.gov.ph/srrv/` Apr 2026 — verify before quoting to client):
+- **SRRV restructured effective 1 September 2025** (2026-05-27 verified, source: PRA SRRVisa page). Minimum age lowered from 50 to 40 (creating 40–49 and 50+ brackets); categories collapsed into **Classic** + **Courtesy** only (Smile, Human Touch, Expanded Courtesy retired); BI Clearance newly required for every applicant. **Current deposits** (verified at `https://pra.gov.ph/SRRVisa`):
+  - **SRRV Classic, age 50+ with pension**: USD **15,000**
+  - **SRRV Classic, age 50+ no pension**: USD **30,000**
+  - **SRRV Classic, age 40–49 with pension**: USD **25,000**
+  - **SRRV Classic, age 40–49 no pension**: USD **50,000**
+  - **SRRV Courtesy** (ex-Filipinos / former Filipino citizens / foreign diplomats / int'l-org retirees), age 50+: USD **1,500** (with pension) / **3,000** (no pension); age 40–49: USD **3,000** (with pension) / **6,000** (no pension)
+- **Historical (pre-1 Sept 2025) categories** retained for grandfathered holders only — Smile / Human Touch / Expanded Courtesy categories no longer issued. Pre-restructure table for reference:
 
 | Category | Eligibility | Visa deposit (USD) | Notes |
 |---|---|---:|---|
@@ -124,11 +130,11 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 
 ### Primary sources
 
-- **BSP Residential Real Estate Price Index (RREPI)** — quarterly, Bangko Sentral ng Pilipinas, by region (NCR vs AONCR — Areas Outside NCR) and by property type (condo, single attached/detached, townhouse, duplex). Source: `https://www.bsp.gov.ph/Pages/MediaAndResearch/PublicationsAndReports/regular_RREPI.aspx`.
+- **BSP Residential Property Price Index (RPPI)** — quarterly, Bangko Sentral ng Pilipinas, by region (NCR vs AONCR — Areas Outside NCR) and by property type (condo, single attached/detached, townhouse, duplex). **Successor to the discontinued RREPI series, replaced starting Q1 2025 release** (2026-05-27 verified). Source: `https://www.bsp.gov.ph/Media_And_Research/RPPI/`.
 - **PSA — Construction Statistics from Approved Building Permits** — quarterly value/unit counts (proxy for new-build volume). `https://psa.gov.ph/statistics/construction`.
 - **BIR Zonal Values** — per-square-meter values by location used as the **floor** for capital gains tax + DST. **Not a market value**, but the highest-of (zonal vs gross selling price) is the tax base. Lookup zonal value PDFs by RDO at `https://www.bir.gov.ph/index.php/zonal-values.html`.
 - **Local Assessor's Office (City/Provincial Assessor)** — "fair market value" (FMV) and **assessed value** (a fraction of FMV) used for the local Real Property Tax (RPT) — typically lower than BIR zonal.
-- **Colliers / JLL / Cushman & Wakefield / Leechiu Property Consultants** — quarterly market reports (secondary, professional). E.g., Colliers Philippines `https://www.colliers.com/en-ph` — quote with "secondary aggregator, verify against BSP RREPI".
+- **Colliers / JLL / Cushman & Wakefield / Leechiu Property Consultants** — quarterly market reports (secondary, professional). E.g., Colliers Philippines `https://www.colliers.com/en-ph` — quote with "secondary aggregator, verify against BSP RPPI (formerly RREPI; replaced Q1 2025)".
 
 ### Listing platforms (secondary, listings = seller-controlled)
 
@@ -141,7 +147,7 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 
 ### Price benchmarks (Q4 2025 / Q1 2026 reference)
 
-> **Source warning**: BSP RREPI gives the most reliable national/regional index. Listing-platform averages are seller-controlled and often run 10–25 % above realised prices. BIR zonal values are tax-floor figures, **not market price**. Use BSP for verdict, listings for comp shopping, BIR zonal for the tax estimate.
+> **Source warning**: BSP RPPI (formerly RREPI; replaced Q1 2025) gives the most reliable national/regional index. Listing-platform averages are seller-controlled and often run 10–25 % above realised prices. BIR zonal values are tax-floor figures, **not market price**. Use BSP for verdict, listings for comp shopping, BIR zonal for the tax estimate.
 
 | Locality | Segment | PHP/sqm range | USD/sqm est. (57 PHP/USD) | Source |
 |---|---|---|---|---|
@@ -158,12 +164,12 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 | **El Nido / Coron (Palawan)** | Beachfront villa lease | 150,000–400,000 | ≈ $2,630–$7,020 | Dot Property Q1 2026 |
 | **La Union (San Juan, Urbiztondo)** | Condo / villa lease | 80,000–200,000 | ≈ $1,400–$3,510 | OnePropertee Q1 2026 |
 
-> Ranges are listing-derived; verify realised vs listing using BSP RREPI quarterly (latest published Q4 2025 at time of writing — verify via `https://www.bsp.gov.ph/Pages/MediaAndResearch/PublicationsAndReports/regular_RREPI.aspx`).
+> Ranges are listing-derived; verify realised vs listing using BSP RPPI (formerly RREPI; replaced Q1 2025) quarterly (latest published Q4 2025 at time of writing — verify via `https://www.bsp.gov.ph/Pages/MediaAndResearch/PublicationsAndReports/regular_RREPI.aspx`).
 
 ### Compute
 
 1. Listing price/sqm = listing PHP ÷ saleable area (floor area). **Trap**: many condo listings advertise the **gross saleable area** which includes proportional balcony + parking — ask whether the price includes parking (separately titled in many projects, often PHP 1.0–2.5M extra in Makati/BGC).
-2. Compare to BSP RREPI for the region.
+2. Compare to BSP RPPI (formerly RREPI; replaced Q1 2025) for the region.
 3. Compare to nearest 3–5 same-tower / same-street listings on Lamudi or MyProperty.
 4. Pull BIR zonal value via `https://www.bir.gov.ph/index.php/zonal-values.html` for the parcel's RDO — this informs the CGT/DST tax base, not the market value.
 5. **Trap (foreign quota premium)**: condo units sold within the 40 % foreign quota sometimes list at a 5–10 % premium vs the Filipino-quota equivalent in the same building. Verify whether the unit is currently in foreign quota.
@@ -171,7 +177,7 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 
 ### Confidence
 
-**HIGH** for Metro Manila ranges (BSP RREPI + multiple listing platforms agree within ±15 %). **MEDIUM** for Cebu / Davao (less granular RREPI). **LOW** for Boracay / Palawan beachfront (data dominated by foreign-buyer listing platforms; thin transaction sample).
+**HIGH** for Metro Manila ranges (BSP RPPI (formerly RREPI; replaced Q1 2025) + multiple listing platforms agree within ±15 %). **MEDIUM** for Cebu / Davao (less granular RREPI). **LOW** for Boracay / Palawan beachfront (data dominated by foreign-buyer listing platforms; thin transaction sample).
 
 ---
 
@@ -260,7 +266,7 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 
 ### VAT on real property (developer sales)
 
-- **Sales by VAT-registered developers** of residential lots > PHP 2,500,000 and houses/condos > PHP 4,200,000 (TRAIN Law thresholds, periodically indexed) are **subject to 12 % VAT**. Verify current threshold at BIR — 2024 BIR Revenue Regulations 13-2018 + CREATE adjustments. Source: BIR `https://www.bir.gov.ph/`.
+- **Sales by VAT-registered developers**: per **BIR RR 1-2024 effective 1 January 2024** (2026-05-27 verified), the residential-lot separate VAT exemption was **REMOVED** (residential lot now VAT-able regardless of price, subject to general VAT registration thresholds at PHP 3,000,000 turnover); house-and-lot / other residential dwellings are **VAT-exempt up to PHP 3,600,000 sale price** (raised from prior PHP 3,199,200 CPI-tracked floor) — dwellings **above PHP 3,600,000 are subject to 12 % VAT**. Source: BIR RR 1-2024 + NIRC §109(P) `https://www.bir.gov.ph/`.
 - Pre-selling units typically include VAT in the quoted price (verify "VAT-inclusive" vs "VAT-exclusive" in the contract).
 
 ### Inheritance & donor's tax (TRAIN Law)
@@ -378,7 +384,7 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 | English ESL tutor (online) | 25,000–60,000 | $440–$1,050 |
 | Hotel mgmt (mid) | 40,000–90,000 | $700–$1,580 |
 | Metro Manila median (all sectors) | ~22,000 | ~$390 |
-| **Minimum wage 2026 NCR (non-agri)** | ~16,200/mo (PHP 645/day × 25.08, per RTWPB-NCR Wage Order 25, 17 Jul 2024 — verify current order) | ~$285 |
+| **Minimum wage 2026 NCR (non-agri)** | ~17,440/mo (**PHP 695/day** × 25.08, per **RTWPB-NCR Wage Order 26, effective 18 Jul 2025** — agri/service-retail ≤15 + small manufacturing <10: PHP 658/day; 2026-05-27 verified) | ~$305 |
 
 Sources: PSA Labor Force Survey `https://psa.gov.ph/`, JobStreet Salary Report 2024-2025, RTWPB Wage Orders (per regional Tripartite Wages and Productivity Board).
 

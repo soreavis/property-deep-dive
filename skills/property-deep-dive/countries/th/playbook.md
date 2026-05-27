@@ -257,7 +257,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 | **Stamp duty** (อากรแสตมป์) | 0.5 % | Sale price OR appraised, whichever higher | Seller — only if SBT does NOT apply (mutually exclusive with SBT) |
 | **Withholding tax** (ภาษีเงินได้หัก ณ ที่จ่าย) | Individual seller: progressive (per holding period & §50 formula); Corporate seller: 1 % of appraised | Sale price | Seller |
 
-> **Cabinet temporary reduction watch**: 2023 reduction lowered transfer fee to 0.01% and mortgage fee to 0.01% for residential ≤ 3M THB through Dec 2024. **Status May 2026: verify via Royal Gazette 2569 and Cabinet resolution database** — it may or may not have been extended. Default to the statutory 2% if no current Royal Decree confirmed.
+> **Cabinet stimulus measure (Royal Decree under MoI, 22 Apr 2025 – 30 Jun 2026)**: transfer fee 2 % → **0.01 %** and mortgage registration fee 1 % → **0.01 %** for residences ≤ **7,000,000 THB** (raised from the earlier 3M cap). **Applies to Thai nationals only** — **foreign buyers continue to pay the statutory 2 % transfer fee** and are excluded from this reduction (2026-05-27 verified, source: Royal Gazette + Forbes & Partners 2025/2026 guide). Verify renewal post-30 Jun 2026 at `https://resolution.soc.go.th/` and `https://www.dol.go.th/`.
 
 **Worked example** — foreign buyer of a 10M THB Bangkok condo from a Thai individual seller (held 7 yrs, no SBT):
 - Transfer fee: 10M × 2% = 200,000 THB (often split → 100,000 buyer + 100,000 seller)
@@ -313,7 +313,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 
 ### Short-term rentals (Airbnb / Booking / Agoda)
 
-**The headline rule**: under the **Hotel Act BE 2547 (2004)** §4 and Ministerial Regulations, **renting a place for stays of less than 30 nights without a hotel license is illegal**. Source: `https://www.dopa.go.th/` (Department of Provincial Administration administers Hotel Act).
+**The headline rule**: under the **Hotel Act BE 2547 (2004)** §4 and Ministerial Regulations, **renting a place for stays of less than 30 nights without a hotel license is illegal**. **Ministerial Regulation BE 2566 (2023)** broadened the **non-hotel exemption to properties with ≤ 8 rooms / ≤ 30 guests** (raised from the earlier ≤ 4 rooms / ≤ 20 guests under BE 2551); hosts must notify the District Office and obtain a **Certificate of Non-Hotel Status / Certificate of Exemption** — does NOT override condo juristic-person bylaws which typically still forbid <30-day lets (2026-05-27 verified, source: DOPA Ministerial Regulation BE 2566). Source: `https://www.dopa.go.th/` (Department of Provincial Administration administers Hotel Act).
 
 **Practical reality**:
 - **Most condo juristic person regulations forbid daily/weekly letting**, regardless of Hotel Act. Verify the project's bylaws BEFORE buying with STR intent.
@@ -575,7 +575,7 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 - **Thailand Privilege**: NO tax incentive; visa convenience only
 - **BCG (Bio-Circular-Green) building incentives**: corporate tax deduction for green-certified construction; minor at the residential level
 - **EV charger incentives**: VAT exemption + corporate tax credit for installing chargers (commercial / mixed-use); residential charger rebates limited
-- **DTV holders**: no Thai-sourced tax exemption; foreign income normally not taxed if not remitted to Thailand in same tax year (verify against new Revenue Department interpretation effective 2024 — taxation of foreign-source income remitted in any year is now the policy direction)
+- **DTV holders**: no Thai-sourced tax exemption; **Por.161/2566 + Por.162/2566** (Revenue Department orders effective 1 Jan 2024) abolished the same-calendar-year remittance loophole — foreign-source income remitted to Thailand in any later year is taxable; **Por.162/2566 explicitly carves out** the new rule to apply ONLY to foreign-source income derived **on or after 1 January 2024** (pre-2024 foreign income remitted in 2024+ remains exempt). A 2025 draft 2-year relief proposal is being considered but is **not yet enacted** as of May 2026 (2026-05-27 verified, source: Revenue Department + Forvis Mazars / HLB Thailand / Mahanakorn Partners).
 
 ---
 

@@ -108,7 +108,7 @@ Listing-derived ranges, cross-checked against FNB HPI (Q4 2024 / Q1 2025 release
 
 **Source**: SARS Transfer Duty: `https://www.sars.gov.za/types-of-tax/transfer-duty/` — verify current brackets at filing.
 
-**2025/26 tax year brackets** (effective 1 March 2025):
+**2025/26 tax year brackets** (effective **1 April 2025**, per SARS — 2026-05-27 verified, source: SARS Latest News "New Transfer Duty rates effective 1 April 2025"):
 
 | Property value (ZAR) | Rate |
 |---|---|
@@ -125,6 +125,7 @@ Listing-derived ranges, cross-checked against FNB HPI (Q4 2024 / Q1 2025 release
 
 - If seller is a **VAT vendor** (e.g., developer of new property), price is **VAT-inclusive at 15 %**, AND **no Transfer Duty** is payable (one or the other, not both)
 - If seller is private (most resales), Transfer Duty applies, no VAT
+- **2025 Budget proposed VAT rise 15 % → 15.5 % from 1 May 2025; withdrawn 24 Apr 2025**, VAT remained at 15 %. Contracts signed Mar–Apr 2025 with VAT rate-change clauses should be reviewed (2026-05-27 verified, source: National Treasury Media Statement 24 Apr 2025).
 
 ### Municipal Rates (annual, owner pays) — per municipality, set by tariff resolution each July
 
@@ -155,12 +156,13 @@ Listing-derived ranges, cross-checked against FNB HPI (Q4 2024 / Q1 2025 release
 
 ### Section 35A — Non-resident seller withholding
 
-- For sales **above R2,000,000** to non-resident sellers, conveyancer must withhold:
+- For sales where the price is **R2,000,000 or more** to non-resident sellers (i.e., ≥ R2m, applies to the **full purchase price** — not only the portion above R2m), conveyancer must withhold (rates per SARS s35A, amended 22 Feb 2017; 2026-05-27 verified):
   - **7.5 %** if seller is natural person
   - **10 %** if seller is company
   - **15 %** if seller is trust
-- Withheld amount paid to SARS within 14 days; offset against final CGT on assessment
-- Source: SARS S35A: `https://www.sars.gov.za/types-of-tax/capital-gains-tax/disposal-and-acquisition-of-immovable-property-by-a-non-resident/`
+- Withheld amount paid to SARS within **14 days** if purchaser is resident, **28 days** if purchaser is non-resident; offset against final CGT on assessment.
+- Seller may apply to SARS for a **directive** for a reduced or zero rate (e.g., exempt, low income, disposal at a loss) under the Tax Administration Act 28 of 2011 (TAA).
+- Source: SARS s35A guide IT-PP-02-G01 + Non-resident sellers page: `https://www.sars.gov.za/types-of-tax/capital-gains-tax/non-resident-sellers-of-immovable-property/`
 
 ### Estate Duty
 
@@ -215,7 +217,7 @@ For same R3M with 80 % bond:
 
 **Status**: in regulatory transition.
 
-- **Tourism Amendment Bill** (introduced August 2024) — proposes registration of STR platforms with Department of Tourism + thresholds for STR classification under the Tourism Act 3 of 2014. **Not yet enacted as of May 2026 — verify status at `https://www.tourism.gov.za/Pages/Home.aspx` and Parliament tracker.**
+- **STR regulatory state of play (2026-05-27 verified)**: the **2019 Tourism Amendment Bill** (Hanekom) has been **shelved**; the successor instrument is the **Draft Code of Good Practice for Short-Term Rentals** gazetted by Tourism Minister Patricia de Lille in **March 2026** (60-day public comment closed **12 May 2026**) — currently **non-binding** but signals registration is the direction of travel under the Tourism Act 3 of 2014. Aug 2023 MoU between Airbnb + Dept of Tourism on a national STR database remains operative. **TOMSA Levy** (1 % voluntary, on accommodation tariff excl. VAT) managed by TBCSA; not a statutory tax. **No national statutory tourism tax exists** as of May 2026. Verify at `https://www.tourism.gov.za/`. Source: dearsouthafrica bill tracker; Lexology critical overview; Financial Mail 2026-04-09.
 - **City of Cape Town**: STR may require **temporary departure from land-use rights** in some zones; consent-use applications via municipal land-use management. Cape Town's Municipal Planning By-Law (MPBL 2015 + amendments) applies.
 - **Body Corporate / HOA** (sectional title or estate): often **forbid STR** in the rules / conduct rules — verify sectional title management rules + conduct rules BEFORE buying for STR purpose
 - **CSOS dispute forum**: residents can complain to Community Schemes Ombud Service if neighbour STR violates scheme rules
@@ -407,7 +409,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 
 - **Section 13sex tax allowance** — 5 % p.a. straight-line write-down for new/unused **5+ residential units** owned for letting (income-tax deduction); confirm conditions at SARS: `https://www.sars.gov.za/`
 - **Section 12L** — energy-efficiency savings tax allowance (claim per kWh saved per certified baseline); SANEDI managed: `https://www.sanedi.org.za/`
-- **Section 12B / 12BA** — renewable energy 100 % first-year allowance for businesses (PV + storage); verify current 12BA enhanced rate at SARS budget speech updates
+- **Section 12B / 12BA** — standard s12B renewable-energy allowance continues (50 %/30 %/20 % over 3 yrs, or 100 % accelerated for small-scale renewables ≤1 MW); **s12BA 125 % enhanced allowance lapsed 28 Feb 2025** (applied to PV + storage placed in service 1 Mar 2023 – 28 Feb 2025); verify any new incentive at SARS Budget 2026 (2026-05-27 verified)
 - **Solar PV individual rebate** (announced Budget 2023): up to R15,000 individual income tax rebate for solar PV panels installed between 1 March 2023 and **expired 28 February 2024** — **NOT extended in 2025 Budget** (verify at `https://www.sars.gov.za/types-of-tax/personal-income-tax/solar-energy-tax-credit/` and 2025/26 Budget Review)
 - **First-Time Home Buyers**: no specific national grant; some lenders offer first-time-buyer rates (FNB, Absa, Standard Bank, Nedbank); FLISP (Finance Linked Individual Subsidy Programme) for income R3,501–R22,000/month — DHS: `https://www.dhs.gov.za/`
 
@@ -423,6 +425,8 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 
 ## Caveats unique to ZA
 
+- **BEC risk (Hawarden v ENS, [2024] ZASCA 90, 10 Jun 2024)** — Supreme Court of Appeal held conveyancers owe **no duty of care** to non-client buyers to warn of business email compromise; buyer bears the wire-fraud risk. Ms Hawarden lost ZAR 5.5m to a fraudster-substituted bank-detail letter. **Before any wire to a conveyancer trust account, phone-verify bank details against an independently-sourced number** (firm's switchboard listed on the Legal Practice Council roll, not the email signature). Foreign buyers wiring from offshore particularly exposed. ConCourt application pending. Source: SAFLII `https://www.saflii.org/za/cases/ZASCA/2024/90.html` (2026-05-27 verified).
+- **CIPC Beneficial Ownership filing regime** (General Laws Amendment Act 22 of 2022) — any company/CC holding the property must file BO with CIPC within 30 days of anniversary alongside annual return; from **1 Jul 2024 CIPC hard-stops annual returns without BO compliance**; anyone with **>5 % beneficial interest** must be disclosed; non-compliance blocks annual returns and risks deregistration → cloud on title. Final reminder issued 21 Jul 2025. Verify at `https://www.cipc.co.za/?p=20495` (2026-05-27 verified).
 - **Crime / safety per-suburb** verification critical — never rely on metro-level stats; pull SAPS quarterly per police station + walk the area at night before buying. ADT / Fidelity / Chubb armed-response coverage near-mandatory in JHB / parts of Cape Town
 - **Load-shedding + backup power costs** — even with 2025 improvement, plan R100k–R300k for solar/inverter/battery if working from home is critical
 - **Body Corporate health (sectional title)** — request 3 years of Annual General Meeting minutes + audited financials + reserve fund (10 yr Maintenance Plan mandatory under STSMA s. 3); special-levy risk if reserve under-funded

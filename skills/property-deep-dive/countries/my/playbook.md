@@ -29,7 +29,7 @@ ISO2: `my`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
   - **National Land Code 1965 (Act 56)**, recodified 2020 — `https://lom.agc.gov.my/`
   - **MM2H relaunch** — June 2024, three-tier (Silver / Gold / Platinum) under MOTAC — `https://www.mm2h.gov.my/`
   - **RPGT revised schedule 2022** under Finance Act 2021; current rates in Schedule 5 of RPGTA 1976 — `https://www.hasil.gov.my/`
-  - **Stamp duty foreigner surcharge** — Stamp Act 1949 + Finance Act amendments; current foreigner rate 4 % flat on MOT — verify at LHDN.
+  - **Stamp duty foreigner surcharge** — Stamp Act 1949 + Finance Act amendments. **Budget 2026 doubled the foreigner residential MOT stamp duty 4 % → 8 % flat, effective 1 January 2026** (PR exempt — PR pays citizen progressive 1–4 %; foreign-owned companies included). Pre-2026 transactions stamped at 4 % flat (2026-05-27 verified, source: Budget 2026 / KPMG MY TaxLetter / propcashflow.my). Verify Stamp Act amendment gazette at LHDN `https://www.hasil.gov.my/`.
   - **SST reform 2024** — services SST raised to 8 % from 1 March 2024 (impacts agency, legal fees) — `https://mysst.customs.gov.my/`
 
 ---
@@ -87,13 +87,13 @@ Foreigners can purchase residential property in their own name (freehold or leas
 
 - **Tier structure** (verify current version at `https://www.mm2h.gov.my/`):
 
-| Tier | Fixed deposit (MYR) | Min monthly income (MYR) | Visa duration | Property purchase right |
-|---|---|---|---|---|
-| **Silver** | 500,000 | 50,000 (offshore) | 5 years renewable | Property purchase ≥ MYR 600,000 (subject to state min) |
-| **Gold** | 2,000,000 | 50,000 (offshore) | 15 years renewable | Property purchase ≥ MYR 1,000,000 |
-| **Platinum** | 5,000,000 | 50,000 (offshore) | 20 years renewable | Property purchase ≥ MYR 2,000,000 |
+| Tier | Fixed deposit (USD) | Visa duration | Property purchase right |
+|---|---|---|---|
+| **Silver** | 150,000 | 5 years renewable | Property purchase ≥ MYR 600,000 (subject to state min) |
+| **Gold** | 500,000 | 15 years renewable | Property purchase ≥ MYR 1,000,000 |
+| **Platinum** | 1,000,000 | 20 years renewable | Property purchase ≥ MYR 2,000,000 |
 
-- Numbers are the post-June-2024 MOTAC framework; pre-2024 thresholds were lower and grandfathered. The program has been politically volatile (suspended 2020, reopened 2021 stricter, restructured 2024) — verify current tiers at `https://www.mm2h.gov.my/`.
+- **Current MOTAC framework (2026-05-27 verified)**: fixed-deposit tiers are denominated in **USD** (Silver USD 150k / Gold USD 500k / Platinum USD 1M). **No monthly-income requirement** under the current published framework (the earlier MYR 50,000/mo offshore-income line was part of a 2021–2023 iteration and is no longer in force). Property must be acquired within 12 months of visa approval; 10-year property lock-in applies. Pre-2024 thresholds were lower and grandfathered. Source: MOTAC `https://www.mm2h.gov.my/` + applymm2h.com.my (updated Feb 2026). Politically volatile — verify each year.
 - **Sarawak MM2H (S-MM2H)** — separate state variant, lower thresholds. `https://smm2h.sarawak.gov.my/`
 - **MM2H is residence only**, not a PR path; no work rights (separate EP needed). Renewable subject to deposit + income evidence.
 - **PR3M / Resident Pass** — older Ministry of Home Affairs program for high-skilled / HNWI; verify at `https://www.imi.gov.my/`.
@@ -550,13 +550,13 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 - **Malay Reserved Land (Tanah Rizab Melayu)** — hard ban on foreign acquisition; no consent route, no exceptions.
 - **Sabah / Sarawak separate land regimes** — Sabah Land Ordinance (Cap. 68) and Sarawak Land Code (Cap. 81) operate independently from Peninsular National Land Code 1965; engage local-admitted lawyer.
 - **MM2H volatility** — program suspended 2020, reopened with stricter terms 2021, restructured June 2024; the political cycle around MM2H means tier numbers can shift between budgets.
-- **Foreigner stamp duty surcharge (4 % flat MOT)** — materially increases acquisition cost for properties under MYR 1M (vs progressive citizen rates).
+- **Foreigner stamp duty surcharge (8 % flat MOT eff 1 Jan 2026 under Budget 2026; was 4 % flat 2024–2025)** — materially increases acquisition cost vs progressive citizen rates (1–4 %); PR exempt (pay citizen progressive); foreign-owned companies included (2026-05-27 verified).
 - **RPGT 10 % permanent for foreigners** beyond year 5 — citizens drop to 0 %; this is a permanent foreign-buyer disadvantage at exit.
 - **STR (Airbnb) regulation in flux** — Penang state effectively bans STR in non-tourism residential strata; KL/PJ MC by-laws increasingly prohibit; verify *before* signing for STR investment thesis.
 - **Cross-border Singapore demand** drives Iskandar Johor prices; RTS Link opening 2026 is the key catalyst.
 - **Tropical climate hazards**: NE monsoon flooding (East Coast), Klang Valley flash flooding, Sabah seismicity (Ranau M 6.0 2015), trans-boundary haze (Sumatra peat fires).
 - **No general EPC equivalent** (vs EU); GBI is voluntary marketing.
-- **Foreign-source income remittance rules** (LHDN 2022 public ruling onwards) — taxation of remitted foreign-source income by Malaysian tax residents has been clarified; verify current rules at LHDN before structuring rental income flows.
+- **Foreign-source income (FSI) remittance**: **Budget 2026 extended the FSI exemption for resident individuals to 31 December 2036** (10-year extension from the prior 31 Dec 2026 sunset); for companies/LLPs/cooperatives/trusts (dividends + capital gains), extended to 31 Dec 2030. LHDN PR 12/2022 + Income Tax (Exemption) Orders 2022–2026; declaration in the annual return + supporting docs still required (2026-05-27 verified, source: Budget 2026 / MoF).
 
 ## Reddit / forum sources
 

@@ -7,7 +7,7 @@ ISO2: `ng`. Status: PARTIALLY OPEN with state-level fragmentation (Land Use Act 
 - **Population**: ~227M (2024 NBS estimate / UN WPP projection from 2006 Census base; source `https://www.nigerianstat.gov.ng/`). Africa's most populous country. Lagos State ~22M (largest African city); Kano ~5M; Ibadan ~4M; FCT Abuja ~3M; Port Harcourt ~3M.
 - **Postcode**: 6 digits via NIPOST (`https://www.nipost.gov.ng/`) — e.g., `101241` VI Lagos, `900288` Asokoro Abuja, `700240` Kano. Often omitted on listings.
 - **Admin levels**: 36 **States** + 1 **FCT Abuja** → 774 **LGAs**. Property law + cadastre + key transaction taxes are STATE-LEVEL (LSLB, AGIS, etc.); federal layer = Stamp Duty, CGT, VAT, FX.
-- **Currency**: **NGN — Nigerian Naira** (₦). **Reform Jun 2023**: CBN unified dual exchange-rate system at "willing buyer/willing seller"; managed-float; ~NGN 460/USD (early 2023) → ~750 (Jun 2023 merger) → ~1,500+/USD peak (Q1 2024) → ~NGN 1,500/USD Q1-Q2 2026 (CBN; verify daily at `https://www.cbn.gov.ng/`). **USD informal pricing dominates prime Lagos/Abuja RE** as hedge — flag in underwriting.
+- **Currency**: **NGN — Nigerian Naira** (₦). **Reform Jun 2023**: CBN unified dual exchange-rate system at "willing buyer/willing seller"; managed-float; ~NGN 460/USD (early 2023) → ~750 (Jun 2023 merger) → ~1,650+/USD peak 2024 → **~NGN 1,370–1,400/USD May 2026** (CBN official; black-market spread ~₦20–25; naira **appreciated** materially from 2024 peak — 2026-05-27 verified). Verify daily at `https://www.cbn.gov.ng/`. **USD informal pricing dominates prime Lagos/Abuja RE** as hedge — flag in underwriting.
 - **Languages**: English (official); Yoruba, Igbo, Hausa major regional; Pidgin universal. Conveyancing is English common-law.
 - **Legal system**: Common-law (federal + state) + Sharia (personal-status only, 12 northern states) + customary in non-Sharia states. Property = common-law + **Land Use Act 1978** (overrides freehold).
 - **Cadastre — STATE-LEVEL**:
@@ -21,7 +21,7 @@ ISO2: `ng`. Status: PARTIALLY OPEN with state-level fragmentation (Land Use Act 
   - **CBN Naira Float Jun 2023** + sequential FX-policy adjustments 2024-26
   - **Finance Acts 2019/2020/2021/2023** — VAT 7.5% (Finance Act 2019), Stamp Duty rationalization (FIRS — `https://www.firs.gov.ng/`)
   - **Lagos State Land Use Charge Law 2018** — major property-tax reform (`https://landusecharge.lagosstate.gov.ng/`)
-  - **Tax Reform Bills 2024-2025** — VAT phased to 12.5% + corporate 25% recommended; **PENDING at National Assembly as of 2026-05** — verify FIRS + NA tracker
+  - **Nigeria Tax Reform Acts 2025** — Nigeria Tax Act (NTA), Nigeria Tax Administration Act (NTAA), Nigeria Revenue Service Act (NRSA), Joint Revenue Board Act (JRBA); **signed by President Tinubu on 26 Jun 2025; commencement 1 Jan 2026** (2026-05-27 verified, source: State House Abuja + PwC NG + EY). Key outcomes: VAT **retained at 7.5 %** (proposed 12.5 % phasing DROPPED); residential rent **zero-rated**; CGT flat 10 % **REPLACED** — individuals taxed at progressive PIT bands (0–25 % top), corporates aligned with 30 % CIT; PIT bands restructured (₦800k tax-free threshold + 7 %/11 %/15 %/.../25 % top); CIT **retained at 30 %** (proposed 25 % NOT enacted; small companies ≤ ₦25M turnover at 0 % CIT; 15 % domestic minimum tax for large MNEs); FIRS reorganised and rebranded as **Nigeria Revenue Service (NRS)**.
   - **Land Use Act amendment debate 2023-26** — state-vs-federal discussion; no enacted change as of 2026-05
   - **Eko Atlantic City** ongoing reclamation Lagos (Bar Beach) — LASG + South Energyx
 
@@ -56,7 +56,7 @@ Source: Land Use Act, Cap L5, Laws of the Federation of Nigeria 2004 (consolidat
 
 Required for any subsequent assignment / mortgage / sublease (LUA s. 22). **Largest single closing-cost item** in Lagos — often higher than federal Stamp Duty:
 
-- **Lagos**: ~8-15% sliding (verify at LSLB)
+- **Lagos**: **2026 Blue Book (Fair Market Value + Governor's Consent charges), effective 1 May 2026** — composite ~3 % headline rate (Consent Fee 1.5 % + CGT-assessment 0.5 % + Stamp Duty 0.5 % + Registration 0.5 %) BUT assessed FMV (Blue Book) revised sharply upward — **300 %+ uplift reported in Lekki / Ikoyi / Banana Island** per Aluko & Oyebode + Banwo & Ighodalo briefs (2026-05-27 verified). Total money cost still lands mid-single-digit % of true transaction price for prime Lagos. Verify per transaction at LSLB + current Lagos NBA conveyancer.
 - **FCT Abuja**: ~8% (verify at AGIS)
 - **Smaller states**: ~3-5%
 
@@ -190,7 +190,7 @@ LOW — per-segment AADT comparable to EU/UK datasets is **not publicly availabl
 | Item | Rate | Authority |
 |---|---|---|
 | **Stamp Duty (federal)** | **1.5–3% sliding** | FIRS (Stamp Duty Act + Finance Act 2019/2020); `https://www.firs.gov.ng/` |
-| **CGT (federal, seller)** | **10% on net gain** | FIRS — CGT Act Cap C1 LFN 2004; primary residence exemption |
+| **CGT (federal, seller)** | **Regime change eff 1 Jan 2026 (Nigeria Tax Act 2025)** — flat 10 % REPLACED. Individuals: progressive PIT bands (0–25 %); Corporates: 30 % CIT-aligned. Primary-residence exemption now **once-in-a-lifetime** for dwelling-house + ~1 acre adjoining land (verify at NRS, 2026-05-27 verified) | NRS (formerly FIRS) — Nigeria Tax Act 2025; pre-2026: CGT Act Cap C1 LFN 2004 |
 | **Governor's Consent Fee — STATE-LEVEL** | **Lagos 8–15% sliding; FCT 8%; smaller states 3–5%** | State Lands Bureau / AGIS |
 | **Registration Fee — STATE-LEVEL** | Lagos ~0.5–1%; varies | State Lands Registry |
 | **Survey / Deed fees** | NGN 50k-500k+ | Registered Surveyor + State |
@@ -204,7 +204,7 @@ Finance Act 2019 raised VAT from 5% to 7.5% (effective 1 Feb 2020):
 - **Standard VAT**: **7.5%**
 - **First sale of residential by developer**: **0% / exempt** (Finance Act 2019; verify scope at FIRS)
 - **Commercial property / leases**: **7.5% applies**
-- **Tax Reform Bills 2024-25**: proposed VAT phased to 12.5% — **NOT enacted as of 2026-05**
+- **Nigeria Tax Act 2025 (effective 1 Jan 2026)**: VAT **retained at 7.5 %** (proposed 12.5 % phasing DROPPED in parliament); **residential rent is now zero-rated**; **input VAT claimable on services + fixed assets** (structural change vs pre-2026 input-VAT-on-goods-only regime); FG share of VAT distribution dropped 15 % → 10 % (states 55 %, LGAs 35 %). Source: NRS Portal Guide + PwC NG + The Africa Report (2026-05-27 verified).
 
 ### CGT (federal, seller, on sale)
 
@@ -215,7 +215,7 @@ Per CGT Act Cap C1 LFN 2004 + amendments:
 
 ### PIT on rental income
 
-- **Progressive 7-24%** (PITA + amendments) — administered by State IRS (Lagos: LIRS)
+- **Progressive bands restructured under Nigeria Tax Act 2025 (effective 1 Jan 2026)**: ₦0–800k **0 %** (new tax-free threshold); ₦800k–1.6M **7 %**; ₦1.6M–4.8M **11 %**; ₦4.8M–6.4M **15 %**; ₦6.4M–50M **17–23 %** sliding; above ₦50M **25 %** top marginal — administered by State IRS (Lagos: LIRS). Pre-2026 7-24 % scale superseded (2026-05-27 verified).
 - **Non-resident landlords**: Nigeria-sourced → taxable in Nigeria; withholding rules apply
 - **Deductions**: maintenance, repairs (not improvements), management commission, mortgage interest
 
@@ -521,7 +521,7 @@ Lagos coastal: AC year-round; SLR exposure for parcels <5 m elevation; flood-pro
 
 ### Rates 2026 (verify monthly at CBN)
 
-- **NGN commercial**: ~22-32% nominal (CBN MPR ~27.50% Apr 2026 est.); inflation often >20%, so real rates positive but modest
+- **NGN commercial**: ~22-32% nominal (**CBN MPR 26.5 % — May 2026 MPC 305th meeting, communique 20 May 2026**, cut from late-2025/early-2026 27.50 % stance); inflation **15.69 % NBS CPI April 2026** (decelerating from >34 % mid-2024), so **real policy rate now ~+10.8 pp positive** vs prior modest spread (2026-05-27 verified).
 - **NGN PMB**: ~18-25%
 - **NHF subsidized**: **6%** for federal employees + NHF contributors (eligibility: 2.5% NHF monthly contribution + 6 mo min)
 - **USD mortgages (Stanbic IBTC, Ecobank)**: ~7-10% non-resident; LTV ~50-60%
@@ -556,7 +556,7 @@ Lagos coastal: AC year-round; SLR exposure for parcels <5 m elevation; flood-pro
 
 - **NGN — Nigerian Naira** (₦, ISO 4217 NGN)
 - **Régime**: **managed float since Jun 2023** (CBN unified dual rate system at "willing buyer/willing seller"); previously multi-window pre-Jun 2023
-- **CBN MPR**: ~27.50% (Apr 2026 est.; verify monthly `https://www.cbn.gov.ng/monetary-policy/`)
+- **CBN MPR**: **26.5 % (May 2026, MPC 305th meeting communique 20 May 2026)** — cut from late-2025 27.50 % stance (verify monthly `https://www.cbn.gov.ng/monetary-policy/`; 2026-05-27 verified)
 - **Capital controls**: structural — CBN FEMA Act 1995 governs FX; inbound documented via **CBN Form A (services) / Form M (imports) / Form NCX (capital)**; outbound subject to CBN approval. Documented inflow = repatriation eligible (analogous to Egyptian Form 4)
 
 ### USD in RE
@@ -570,8 +570,8 @@ Lagos coastal: AC year-round; SLR exposure for parcels <5 m elevation; flood-pro
 - Pre-2023: official ~NGN 460/USD; parallel ~700-800 (~50-60% premium)
 - **Jun 2023 unification**: official jumped to ~NGN 750 overnight
 - 2023-2024 devaluation: NGN 1,000 → 1,500+ peak
-- Q1-Q2 2026: ~NGN 1,500/USD range (CBN; verify daily)
-- Inflation: peaked >34% mid-2024; moderating to ~22-25% by 2026 (NBS CPI)
+- May 2026: **~NGN 1,370–1,400/USD (CBN official; 20 May 2026 ₦1,373.87; 25 May ₦1,371.68)** — appreciation from 2024 ~₦1,650+ peak; black-market spread ~₦20–25 (verify daily; 2026-05-27 verified)
+- Inflation: peaked >34 % mid-2024; **NBS CPI April 2026: 15.69 % YoY** (food 16.06 %; core 15.86 %); 2025 NBS CPI rebasing reset the index — moderation is partly methodology + partly real disinflation (2026-05-27 verified)
 
 ### BVN + NIN — mandatory IDs
 
@@ -787,10 +787,10 @@ Lagos (Lekki Phase 1 / VI / Ikoyi): coworking + amenity dense; security overlay 
 ### Macro indicators (CBN + NBS, 2024-26)
 
 - **GDP growth 2024**: ~3.4% (NBS); 2025 est. ~3.0-3.5% (CBN + IMF Article IV; verify Q4 2025)
-- **Inflation (CPI YoY)**: peaked >34% mid-2024; moderating ~22-25% Q1 2026 est. (NBS CPI; verify monthly)
-- **CBN MPR**: ~27.50% (Apr 2026 est.; verify monthly at CBN MPC Communiqué)
+- **Inflation (CPI YoY)**: peaked >34 % mid-2024; **15.69 % NBS CPI April 2026** (food 16.06 %; core 15.86 %); 2025 NBS CPI rebasing reset the index (2026-05-27 verified)
+- **CBN MPR**: **26.5 % (May 2026, MPC 305th meeting)** — cut from late-2025 27.50 % (verify monthly at CBN MPC Communiqué; 2026-05-27 verified)
 - **Unemployment**: NBS revised methodology 2023-24 puts urban unemployment ~5-6%; underemployment higher
-- **NGN/USD**: ~NGN 1,500/USD range Q1-Q2 2026 (CBN; verify daily)
+- **NGN/USD**: **~NGN 1,370–1,400/USD May 2026 (CBN official, 20 May 2026)** — appreciation from 2024 ~₦1,650+ peak (verify daily; 2026-05-27 verified)
 - **Sovereign rating**: B-/B / Caa1 (S&P/Fitch/Moody's mid-2024); verify 2026
 - **Sovereign yield (Eurobond 10Y)**: ~10-12% USD est. 2026; verify FMDQ
 
