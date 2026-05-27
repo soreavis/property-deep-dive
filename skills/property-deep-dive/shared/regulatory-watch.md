@@ -124,6 +124,33 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2025-04-06 | tax | Non-dom regime abolished, replaced by 4-yr FIG (Foreign Income & Gains) regime | HMRC | 2026-04-26 | 2026-09-01 | 2 | --tax --visa`
 - `2025-04-01 | tax | SDLT additional dwelling supplement increased 3% → 5% | HMRC | 2026-04-26 | 2026-10-01 | 2 | --tax`
 
+### 🇯🇪 JE
+
+- `2024-08-01 | rental | Rented Dwellings Licensing Law 2023 mandatory enforcement begins | gov.je | 2026-05-27 | 2026-11-01 | 2 | --rental --notary (JE)`
+- `2026-01-01 | tax | Mandatory independent taxation for all married couples including HVRs (Comptroller of Revenue HVR page explicit) | gov.je/taxesmoney | 2026-05-27 | 2026-09-01 | 2 | --tax --home-tax (JE)`
+- `2026-XX-XX (PENDING — P.93/2025) | tax | 2026 Budget: one-year reduction in higher-rate Stamp Duty/LTT/EPTT surcharge +3pp → +2pp; reverts +3pp from 2027 | States Assembly | 2026-05-27 | 2026-08-01 | 2 | --tax --finance (JE)`
+- `pending (P.19/2026) | visa | HVR (2(1)(e)) statutory cap proposed — 15/yr or 75 per 5-yr period (legislative proposal) | States Assembly | 2026-05-27 | 2026-08-01 | 1 | --visa --foreign-buyer (JE)`
+- `2025-XX-XX (phased) | tax | Mortgage interest relief phased out post-2025 | Comptroller of Revenue | 2026-05-27 | 2026-09-01 | 3 | --tax --finance (JE)`
+
+### 🇬🇬 GG
+
+- `2024-11-08 | tax | Document Duty 2024 reform — post-8 Nov 2024 bands 2.25%→7% (2.5M-5M = 5.50%; 5M+ = 7%) + 2% non-PPR surcharge effective 2 Nov 2022 | parliament.gg 2026-16 | 2026-05-27 | 2026-09-01 | 2 | --tax --finance (GG)`
+- `2026-XX-XX | tax | Standard Charge rises £40k (2024 baseline) → £50k from year-of-charge 2026 (P.2025-121 proposition 2) | parliament.gg | 2026-05-27 | 2026-09-01 | 2 | --tax --home-tax (GG)`
+- `2025-01-01 | tax | Alderney Property Tax Cap: legacy £65k (2024 only, withdrawn end-2025) → new £60k from 1 Jan 2025 with £50k trigger | gov.gg | 2026-05-27 | 2026-09-01 | 2 | --tax --foreign-buyer (GG-Alderney)`
+- `2025-01-01 | tax | TRP 5× derelict surcharge + 3.2% 2025 uplift; 2026 tariffs published (parliament.gg id=196847) | gov.gg | 2026-05-27 | 2026-10-01 | 3 | --tax (GG)`
+- `2016-XX-XX (active) | visa | Population Management (Guernsey) Law 2016 — 8yrs Established Resident → 14yrs Permanent Resident ladder (10-of-20 retention rule) | gov.gg | 2026-05-27 | 2026-12-01 | 2 | --visa --foreign-buyer (GG)`
+
+### 🇮🇲 IM
+
+- `2023-05-01 | tax | Land, Deeds & Probate Registries Fees & Duties Order 2023 (SD 2023/0077) — tiered Land Registry duty: Owner-Occupier 0/1/2%, Resident Non-Owner 2/2.5%, Non-Resident 4/4.5% (single biggest practical buyer-cost item) | tribunals.gov.im | 2026-05-27 | 2026-11-01 | 2 | --tax --notary (IM)`
+- `2025-04-11 | tax | FERSA (UK-IM customs/VAT revenue-sharing) re-signed; supersedes 2020 agreement; IoM share YE Mar 2025 = £439.2M (86.51% VAT / 13.49% other duties) | treasury.gov.im | 2026-05-27 | 2026-10-01 | 2 | --tax --finance (IM)`
+
+### 🇬🇮 GI
+
+- `2024-12-23 | tax | Stamp Duties (Amendment) Act No. 37 of 2024 effective 23 Dec 2024 (FTB threshold £300k since 11 Jul 2023; Affordable Housing 7.5% on resale-within-10yr; mortgage stamp duty 0.13% / 0.20%) | Gibraltar Income Tax Office | 2026-05-27 | 2026-09-01 | 2 | --tax --finance (GI)`
+- `2026-07-15 (PROVISIONAL) | visa | EU-UK Frontier Treaty provisional application — does NOT override Gibraltar immigration; Gibraltar press 148/2026 explicit | Consilium press release 01 Apr 2026 | 2026-05-27 | 2026-08-01 | 1 | --visa --foreign-buyer --remote (GI)`
+- `pending | visa | Cat-2 reform expected (community signal r/gibraltar 1tkeoa5, no primary date) — tier-4 anecdotal, revisit Q3 2026 | r/gibraltar 1tkeoa5 | 2026-05-27 | 2026-10-01 | 4 | --visa (GI)`
+
 ### 🇨🇭 CH
 
 - `2028-01-01 (pending) | tax | Eigenmietwert (imputed rental value tax) abolition — referendum approved Sep 2025; phased | Federal Council | 2026-04-26 | 2026-10-01 | 2 | --tax`
@@ -149,6 +176,17 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 ### 🇩🇰 DK
 
 - `2024-01-01 | tax | New ejendomsskat (property value tax) regime live — based on 2020-vintage public valuations | Vurderingsstyrelsen | 2026-04-26 | 2026-10-01 | 2 | --tax`
+
+### 🇫🇴 FO
+
+- `2021-12-XX | ownership | Løgtingslóg on real-estate purchase passed by Løgting December 2021 — permit-free for FO residents, ex-residents (5+ yrs), DK citizens 5+ yrs in Kingdom, FO-HQ companies; all other foreigners incl. EU/EEA + non-DK Nordic need government permit (verify exact passing date at logir.fo) | local.fo / Justismálið | 2026-05-27 | 2026-11-01 | 1 | --foreign-buyer --notary (FO)`
+- `1948-03-23 (foundational) | ownership | Faroe Islands NOT in EU (Hjemmestyret since 1948; explicit OECD + state.gov re-affirmation) — no EU free-movement override for property acquisition or tax | OECD / state.gov | 2026-05-27 | 2026-12-01 | 2 | --foreign-buyer --tax --visa (FO)`
+
+### 🇬🇱 GL
+
+- `2026-01-01 | ownership | Inatsisartutlov nr. 78 af 21. november 2025 om erhvervelse af adkomst eller brugsret til fast ejendom — eff. 1 Jan 2026 (§ 15 transition); 6 eligibility classes §§ 3-8: Danish citizens, foreign nationals (2-yr residence + 2-yr tax residency), regulated financial institutions, 100%-locally-owned capital companies, licensed sectoral operators, GL associations; § 9 dispensation channel (box909@nanoq.gl) | nalunaarutit.gl | 2026-05-27 | 2026-09-01 | 1 | --foreign-buyer --notary --remote (GL)`
+- `2026-XX-XX (pending) | rental | Inatsisartutlov om leje af boliger (Greenland-specific rental law, NOT Danish Lejeloven) — 2026 reform in public consultation; Boligklagenævnet disputes | Naalakkersuisut høring portal | 2026-05-27 | 2026-09-01 | 3 | --rental (GL)`
+- `2010-XX-XX (foundational) | ownership | NO PRIVATE LAND OWNERSHIP in Greenland (govmin.gl Mineral Resources Authority verbatim: "all rights to any use of land is administered by the Government of Greenland"); buyers acquire BUILDING title + arealtildeling (brugsret) only — fundamentally different from any other ISO entry | govmin.gl / Mineral Resources Act 2010 | 2026-05-27 | 2027-01-01 | 4 | --foreign-buyer --notary (GL)`
 
 ### 🇨🇿 CZ
 
@@ -648,4 +686,4 @@ Multi-line is fine if the entry is complex; the seven-pipe format is the canonic
 
 ---
 
-*Last full audit: 2026-05-08 (added Tier-2 batch: BB/BZ/LK/KH/MV/GH/RW/UZ — total 103 countries tracked). Prior batch 2026-05-07 added Tier-1 (MU/KZ/CV/SC/CN/JM/BS/SM). Next mandatory full audit: 2026-07-26 (quarterly).*
+*Last full audit: 2026-05-08 (added Tier-2 batch: BB/BZ/LK/KH/MV/GH/RW/UZ — total 109 countries tracked). Prior batch 2026-05-07 added Tier-1 (MU/KZ/CV/SC/CN/JM/BS/SM). Next mandatory full audit: 2026-07-26 (quarterly).*

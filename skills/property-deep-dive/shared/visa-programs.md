@@ -399,6 +399,15 @@ For the property's country, return:
 | UZ | Tashkent IT Park Visa (IT Visa) | OPEN | IT-Park resident-company employment + qualifying profession | No | 3-yr renewable | Decoupled from standard work permit; aligned with IT Park resident company sponsorship |
 | UZ | Standard work permit / business visa | OPEN | Sponsored employment / company vehicle | No | 1-yr renewable | Standard route; passive RE alone NOT a residence pathway pre-Golden-Visa |
 
+### Crown Dependencies & Autonomous Territories
+
+| Country | Programme | Status | Min. threshold | Property-linked? | PR/citizenship | Caveats |
+|---|---|---|---|---|---|---|
+| JE | High-Value Resident (HVR / 2(1)(e)) | OPEN | £250k/yr minimum tax (post-14 Jul 2023); property £3.5m houses / £1.75m apartments (verify with Locate Jersey) | Yes — must purchase qualifying Jersey property | Entitled status (2(1)(e)) granted on consent; no automatic citizenship route | Pre-2018 consents grandfathered at £170k from 2023 (was £145k). PENDING P.19/2026 statutory cap proposes 15/yr / 75 per 5-yr period. Tax: 20% on first £1.25m non-Jersey income, then 1%. Mandatory independent taxation from 2026 (married couples incl. HVRs). |
+| GG | Open Market Housing + Tax Cap | OPEN | Open Market property (~1,600 dwellings, no quota); £50k Document Duty trigger ≈ £1.06M PPR / £1.4M industry-typical; £60k annual Tax Cap; £160k / £320k worldwide caps | Yes — must purchase Open Market property | Population Management ladder: 8yrs Established Resident → 14yrs Permanent Resident (10-of-20 retention) | Standard Charge rises £40k (2024) → £50k from year-of-charge 2026 (P.2025-121). Alderney Cap split: legacy £65k (2024 only, withdrawn end-2025) vs new £60k Alderney Property Tax Cap from 1 Jan 2025. NO CGT/IHT/GST. |
+| GI | Cat-2 (Qualifying Category 2 Individuals) | OPEN | £2M net worth (Hassans verbatim); £118k income cap; £37k minimum annual tax / £42,380 maximum | Yes — approved Gibraltar residence required (Open Market only; Cat-2 applicants pre-arrival are categorically Open Market) | Renewable; NO direct PR/citizenship route from Cat-2 alone | Qualifying (Category 2) Individuals Rules 2004 statutory basis. £1,168 application fee + £42,380 refundable deposit. 5-yr non-residency window required pre-application. Frontier Treaty (provisional 15 Jul 2026) does NOT override Cat-2 physical-presence test. Expected reform per r/gibraltar 1tkeoa5 (community signal, no primary date). |
+| GI | HEPSS (High Executive Possessing Specialist Skills) | OPEN | £160k earnings floor + £160k assessable cap; £39,940 fixed annual tax | Yes — approved Gibraltar residence required | Renewable; NO direct PR/citizenship route from HEPSS alone | HEPSS Rules 2008 statutory basis. 3-yr non-residency window required pre-application. Self-employment refusal caveat — Gibraltar restricts self-employed work permits for many non-EU nationals. |
+
 <!-- AUTOGEN-END: region-tables -->
 
 ---

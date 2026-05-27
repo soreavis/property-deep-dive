@@ -1,7 +1,7 @@
 {
   "_comment": "Visa / RBI / CBI / DNV / golden-visa registry — source of truth for the --visa section. shared/visa-programs.md region tables auto-render from this. Edit this file when a programme launches/closes/changes thresholds, then run scripts/render-visa-programs.py to refresh the markdown. Hand-written prose (universal contract, ENDED narrative registry, decision-helper, portals, confidence labels) stays in visa-programs.md outside the AUTOGEN region.",
   "schema_version": 1,
-  "snapshot_date": "2026-05-01",
+  "snapshot_date": "2026-05-27",
   "programs": [
     {
       "id": "fr-talent-passport-investor-business-creator",
@@ -2114,6 +2114,50 @@
       "pr_citizenship": "1-yr renewable",
       "caveats": "Standard route; passive RE alone NOT a residence pathway pre-Golden-Visa",
       "region": "Central Asia"
+    },
+    {
+      "id": "je-hvr-2-1-e-high-value-resident",
+      "country": "je",
+      "programme": "High-Value Resident (HVR / 2(1)(e))",
+      "status": "OPEN",
+      "min_threshold": "£250k/yr minimum tax (post-14 Jul 2023); property £3.5m houses / £1.75m apartments (verify with Locate Jersey)",
+      "property_linked": "Yes — must purchase qualifying Jersey property",
+      "pr_citizenship": "Entitled status (2(1)(e)) granted on consent; no automatic citizenship route",
+      "caveats": "Pre-2018 consents grandfathered at £170k from 2023 (was £145k). PENDING P.19/2026 statutory cap proposes 15/yr / 75 per 5-yr period. Tax: 20% on first £1.25m non-Jersey income, then 1%. Mandatory independent taxation from 2026 (married couples incl. HVRs).",
+      "region": "Crown Dependencies & Autonomous Territories"
+    },
+    {
+      "id": "gg-open-market-tax-cap",
+      "country": "gg",
+      "programme": "Open Market Housing + Tax Cap",
+      "status": "OPEN",
+      "min_threshold": "Open Market property (~1,600 dwellings, no quota); £50k Document Duty trigger ≈ £1.06M PPR / £1.4M industry-typical; £60k annual Tax Cap; £160k / £320k worldwide caps",
+      "property_linked": "Yes — must purchase Open Market property",
+      "pr_citizenship": "Population Management ladder: 8yrs Established Resident → 14yrs Permanent Resident (10-of-20 retention)",
+      "caveats": "Standard Charge rises £40k (2024) → £50k from year-of-charge 2026 (P.2025-121). Alderney Cap split: legacy £65k (2024 only, withdrawn end-2025) vs new £60k Alderney Property Tax Cap from 1 Jan 2025. NO CGT/IHT/GST.",
+      "region": "Crown Dependencies & Autonomous Territories"
+    },
+    {
+      "id": "gi-cat-2-qualifying-individual",
+      "country": "gi",
+      "programme": "Cat-2 (Qualifying Category 2 Individuals)",
+      "status": "OPEN",
+      "min_threshold": "£2M net worth (Hassans verbatim); £118k income cap; £37k minimum annual tax / £42,380 maximum",
+      "property_linked": "Yes — approved Gibraltar residence required (Open Market only; Cat-2 applicants pre-arrival are categorically Open Market)",
+      "pr_citizenship": "Renewable; NO direct PR/citizenship route from Cat-2 alone",
+      "caveats": "Qualifying (Category 2) Individuals Rules 2004 statutory basis. £1,168 application fee + £42,380 refundable deposit. 5-yr non-residency window required pre-application. Frontier Treaty (provisional 15 Jul 2026) does NOT override Cat-2 physical-presence test. Expected reform per r/gibraltar 1tkeoa5 (community signal, no primary date).",
+      "region": "Crown Dependencies & Autonomous Territories"
+    },
+    {
+      "id": "gi-hepss-high-executive-specialist-skills",
+      "country": "gi",
+      "programme": "HEPSS (High Executive Possessing Specialist Skills)",
+      "status": "OPEN",
+      "min_threshold": "£160k earnings floor + £160k assessable cap; £39,940 fixed annual tax",
+      "property_linked": "Yes — approved Gibraltar residence required",
+      "pr_citizenship": "Renewable; NO direct PR/citizenship route from HEPSS alone",
+      "caveats": "HEPSS Rules 2008 statutory basis. 3-yr non-residency window required pre-application. Self-employment refusal caveat — Gibraltar restricts self-employed work permits for many non-EU nationals.",
+      "region": "Crown Dependencies & Autonomous Territories"
     }
   ]
 }

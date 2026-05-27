@@ -2,7 +2,7 @@
 
 Sell-side conditions: time-on-market (DOM), agent commission structure, contract norms, off-market vs MLS, sell-side closing costs, liquidity rating. Buyers should understand how easy it will be to **exit** a property before committing to buy.
 
-**Snapshot**: May 2026 (Tier-2 batch additions — 103 countries total).
+**Snapshot**: May 2026 (Tier-2 batch additions — 109 countries total).
 
 ## Universal contract
 
@@ -97,4 +97,4 @@ Country-level exit data lives in per-region files under [`exit/`](./exit/). Each
 
 ## Status
 
-Last refreshed: 2026-05-08. 8 Tier-2 batch countries added (BB, BZ, LK, KH, MV, GH, RW, UZ) — total 103 countries; new South Asia + Central Asia regions created (KZ relocated from Caucasus to new Central Asia region; IN relocated from Asia-Pacific to new South Asia region in JSON layer). 2026-05-07 Tier-1 batch added 8 countries (MU, KZ, CV, SC, CN, JM, BS, SM) + new Caribbean region (DO relocated from LatAm + JM + BS). 2026-05-01 batch added 8 Tier-5 countries (IN, NG, KE, JO, OM, BH, KW, LB).
+Last refreshed: 2026-05-08. 8 Tier-2 batch countries added (BB, BZ, LK, KH, MV, GH, RW, UZ) — total 109 countries; new South Asia + Central Asia regions created (KZ relocated from Caucasus to new Central Asia region; IN relocated from Asia-Pacific to new South Asia region in JSON layer). 2026-05-07 Tier-1 batch added 8 countries (MU, KZ, CV, SC, CN, JM, BS, SM) + new Caribbean region (DO relocated from LatAm + JM + BS). 2026-05-01 batch added 8 Tier-5 countries (IN, NG, KE, JO, OM, BH, KW, LB).
