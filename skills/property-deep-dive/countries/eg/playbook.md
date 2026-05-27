@@ -13,9 +13,10 @@ ISO2: `eg`. Status: PARTIALLY RESTRICTED for foreign buyers + currency-volatile 
   - **Sijil al-‘ayni** (real/property-based, السجل العيني, "Torrens-like" parcel-based) — modernization since 1964, very low coverage (~5–10% nationally; mostly New Cairo, NAC, North Coast new developments)
   - **Practical implication**: most older properties have only a notarized contract chain (`عقد ابتدائي + عقد نهائي`) NOT a state-guaranteed title. Title insurance and chain-of-deed verification are critical
 - **Major reforms 2023–2024**:
-  - **Investment Law 160/2023** (amends Law 72/2017) — formalizes citizenship/permanent-residency by investment (RBI/CBI tiers below) (source: GAFI `https://www.gafi.gov.eg/`)
+  - **Citizenship by Investment — Law 190/2019** (foundational CBI statute, GAFI-administered) + **Prime Ministerial Decree 876/2023 (2 March 2023)** implementing thresholds + **Law 26/1975 Articles 6+11 amendments (April 2023)** (nationality-law constitutional basis); **September 2023 Cabinet reversal restored the real-estate threshold to USD 500,000** (from the USD 300k March 2023 cut) (2026-05-27 verified, source [Library of Congress 2023-05-07](https://www.loc.gov/item/global-legal-monitor/2023-05-07/egypt-house-of-representatives-approves-new-amendments-to-citizenship-law/) + SIS.gov.eg + africanews.com). Note **Law 160/2023** is a SEPARATE statute amending Investment Law 72/2017 — governs investment incentives (Golden License, tax refunds, free zones), NOT CBI thresholds.
   - **EGP free-float March 2024** + IMF Extended Fund Facility (USD 8 bn) — collapsed parallel-market premium overnight
-  - **CGT reforms** (Law 175/2023 amendments) — gross-sale 2.5% withholding regime
+  - **Real Estate Transaction Tax (RETT) — Law 30/2023** (15 June 2023, amends Income Tax Law 91/2005) — 2.5% on official tax-authority-assessed value OR actual sale price (whichever **higher**); raised first-home exemption EGP 2M → EGP 3M for properties under 200 m² (2026-05-27 verified, source PwC Egypt Law 30/2023 PDF + Wafeq + Lexology). NB: **Law 175/2023** is the personal-income-tax amendment (raised PIT exemption to EGP 45,000/year, cancelled 2.5% PIT bracket); NOT a property-CGT statute.
+  - **Real Estate Tax (Law 196/2008) — 2024–2026 amendments** raised the **primary-residence (owner-occupied) exemption to EGP 100,000/year of net annual rental value OR EGP 8M property value** (from the EGP 24,000/year general floor). Per Daily News Egypt 2026-02-15: only ~2M of 55M Egyptian properties now liable (2026-05-27 verified, source Wafeq + Daily News Egypt + Nawy blog).
 - **Foreign-buyer regime**: PARTIALLY RESTRICTED — see `## Foreign buyer eligibility` below
 
 ---
@@ -32,7 +33,8 @@ ISO2: `eg`. Status: PARTIALLY RESTRICTED for foreign buyers + currency-volatile 
 |---|---|---|
 | **Max properties per foreigner** | **2** | Counted across all of Egypt (one or both may be jointly with spouse) |
 | **Max area per property** | **4,000 m²** | Combined plot + building footprint |
-| **Holding period before resale** | **5 years** minimum | Waivable only by explicit Cabinet of Ministers approval |
+| **Holding period before resale** | **5 years** minimum | Waivable only by **Prime Ministerial Decree** under Law 230/1996 (per the special-resolution mechanism — opaque + slow in practice; 2026-05-27 verified, source Al Tamimi & Co + Youssry Saleh) |
+| **Vacant residential land — construction obligation** | Foreigner must **start construction within 5 years from REPA registration** (Law 230/1996) | Failure to start construction triggers further restrictions |
 | **Use restriction** | Residence by buyer / family | NOT pure speculation; commercial use needs separate licensing |
 | **Forbidden zones** | See list below | Title void if violated |
 
@@ -45,16 +47,19 @@ ISO2: `eg`. Status: PARTIALLY RESTRICTED for foreign buyers + currency-volatile 
 - **Agricultural land (الأراضي الزراعية)** — **Egyptian nationals only** under Law 15/1963 (still in force despite reform proposals). Foreigners cannot own farmland in any quantity, irrespective of Law 230/1996 quotas
 - **Antiquities buffer zones** — UNESCO/SCA-designated heritage perimeters (Giza Plateau, Luxor West Bank, etc.) have separate restrictions
 
-### Investment Law 160/2023 — Residency / Citizenship by Investment (RBI / CBI)
+### Law 190/2019 (CBI foundational) — Residency / Citizenship by Investment (RBI / CBI)
 
-Amends Law 72/2017; current pathways (2024–2026 implementation):
+Foundational statute: **Law No. 190 of 2019 on Granting Egyptian Citizenship to Foreigners** (GAFI-administered). Implementing thresholds: **Prime Ministerial Decree 876/2023 (2 Mar 2023)** initially cut the real-estate threshold from USD 500k → USD 300k; **Cabinet decision 14 Sept 2023 restored it to USD 500,000**. Constitutional basis: **April 2023 House of Representatives amendments to Articles 6 + 11 of Law 26/1975 (Nationality Law)** (2026-05-27 verified, source Library of Congress + SIS.gov.eg + africanews.com + BPROL).
 
 | Path | Threshold | Outcome | Holding | Notes |
 |---|---|---|---|---|
-| **Cash deposit** | USD 250,000 (non-refundable to state OR 5-yr deposit at CBE-authorized bank) | Permanent residency | 5 years | Originally USD 50k cash deposit pre-2023; raised under FY2023/24 reform |
-| **Real estate** | USD 300,000 | **Citizenship** (after holding period + processing) | Hold property ≥3 yrs typical | Must be FROM the foreigner's USD inflow via Form 4 (see Currency section) |
-| **Investment in approved sectors** | USD 350,000 | **Citizenship** | Project execution | Approved by GAFI; sectors rotate |
-| **Bank deposit (CBI variant)** | USD 500,000 (non-refundable) | **Citizenship** | n/a (deposit forfeited) | Fast-track |
+| **Non-refundable government donation** | USD 250,000 | **Citizenship** | n/a | Forfeited to state |
+| **Real estate** | **USD 500,000** (restored Sept 2023 from USD 300k March 2023 cut) | **Citizenship** | Hold property ≥3 yrs typical | Must be FROM the foreigner's USD inflow via Form 4 (see Currency section) (2026-05-27 verified) |
+| **Business investment** | USD 350,000 **+** USD 100,000 contribution to state | **Citizenship** | Project execution | GAFI-approved sectors; total ~USD 450k |
+| **Bank deposit (CBI variant)** | USD 500,000 — **refundable, locked for 3 years** | **Citizenship** | 3-year lock; returns after lock period | NOT non-refundable / forfeited (the USD 250k donation tier is the non-refundable option) (2026-05-27 verified) |
+| **State fee** | **USD 10,000** on top of all routes | — | — | Application/processing fee |
+
+NB: **Law 160/2023 is a separate statute** (amends Investment Law 72/2017) governing investment incentives (Golden License, tax refunds, free zones, Special Incentives extended to Oct 2026) — it does NOT govern CBI thresholds.
 
 **Verification path before relying on any of these tiers**:
 1. GAFI English investor portal `https://www.gafi.gov.eg/english/Pages/default.aspx`
@@ -190,7 +195,8 @@ Annual tax = 10% × (annual rental value − maintenance allowance − exemption
 | **Rate** | **10%** of annual rental value (after deductions) |
 | **Maintenance allowance (residential)** | **30%** of annual rental value |
 | **Maintenance allowance (commercial)** | **32%** of annual rental value |
-| **Annual exemption threshold (residential, primary)** | **EGP 24,000/year** of rental value (raised from EGP 6,000 in earlier reform; verify current threshold with ETA — has been adjusted multiple times) |
+| **Annual exemption threshold (general / non-primary)** | **EGP 24,000/year** of rental value (raised from EGP 6,000 in earlier reform; verify current threshold with ETA) |
+| **Primary-residence exemption (2024–2026 amendments)** | **EGP 100,000/year of net annual rental value** OR **EGP 8,000,000 property value** — narrows tax base; only ~2M of 55M Egyptian properties liable post-amendment (2026-05-27 verified, source Daily News Egypt 2026-02-15 + Wafeq + Nawy blog) |
 | **Re-valuation cycle** | Every **5 years** by joint committee of MoF + Ministry of Housing |
 
 **Rental value** = the committee's assessed annual rentable value, NOT actual rent received. Assessment incl. location, finish, age, services. Heavily under-assessed historically; some 2024 update efforts.
@@ -221,17 +227,17 @@ Even for a high-end Zamalek apartment with assessed annual rental EGP 200,000:
 
 **Total foreigner-buyer transaction cost**: est. **5–10% of price** depending on whether one or both sides commission independently + lawyer rate.
 
-### Capital gains tax (on sale)
+### Real Estate Transaction Tax (RETT — ضريبة التصرفات العقارية) on sale — colloquially "CGT" but technically a transaction tax on gross value
 
-**Law 175/2023 amendments** — flat regime:
+Statute: **Law 30/2023** (15 June 2023, amends Income Tax Law 91/2005, real-estate disposal provisions) — NOT Law 175/2023 (which amends personal income tax brackets) (2026-05-27 verified, source PwC Egypt Law 30/2023 PDF + Wafeq).
 
 | Item | Rate |
 |---|---|
-| **CGT on sale of built real estate (residential)** | **2.5% of GROSS sale price** (NOT net gain) |
+| **RETT on sale of built real estate (residential)** | **2.5%** of **official tax-authority-assessed value OR actual sale price (whichever HIGHER)** — NOT net gain |
 | **Withholding** | At REPA registration of resale |
-| **Primary-residence exemption** | Limited; verify with ETA — exemptions have been narrowed |
+| **First-home exemption** | EGP **3,000,000** property value for properties under **200 m²** (raised from EGP 2M by Law 30/2023) |
 
-**This is unusual internationally** — taxing gross sale price (not net gain) means even a loss-making sale is taxed. A USD 200k sale = USD 5k CGT regardless of original purchase price. Plan for this in any IRR model.
+**This is unusual internationally** — taxing gross sale value (not net gain) means even a loss-making sale is taxed. A USD 200k sale = USD 5k RETT regardless of original purchase price. Plan for this in any IRR model.
 
 ### Future risk
 
@@ -482,7 +488,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 - **NAC (New Administrative Capital)** — `https://acud.gov.eg/` — government-backed mega-project; tax incentives for early investors; planned capital relocation; **delivery + occupancy risk** still material
 - **Suez Canal Economic Zone (SCZone)** — `https://sczone.eg/` — special economic zone with industrial/commercial tax benefits (NOT residential foreign-buyer focused)
 - **Red Sea Riviera (Galala, Sokhna, Ras Banas, Marsa Alam expansions)** — government tourism+real-estate development zones; foreign buyer freehold OK on mainland (NOT Sinai-side)
-- **Golden License** under Investment Law 160/2023 — single-window approval for large investment projects (typically corporate, not individual residential)
+- **Golden License** under **Investment Law 72/2017 as amended by Law 160/2023** — single-window approval for large investment projects (typically corporate, not individual residential CBI) (2026-05-27 verified)
 - **Mortgage Finance Initiative (CBE)** — subsidized mortgage rates for low/middle income Egyptians; **NOT available to non-residents/foreigners** in most configurations (verify with CBE)
 
 ## Common listing platforms

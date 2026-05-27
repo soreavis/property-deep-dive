@@ -2,7 +2,7 @@
 
 ISO2: `jo`. Status: ✅ Fully populated (researched 2026-04 / 2026-05). Foreign-buyer regime: **RECIPROCITY-BASED** — non-Jordanians can own only if their home country grants reciprocal rights to Jordanians; geographic + size restrictions apply; Cabinet approval required above threshold areas. Among MENA's higher transaction-tax regimes (~10–12% all-in) but **0% capital gains tax on individual real-estate sales** (uniquely favourable on exit). CBI Jordan exists from 2018 but the Jordanian passport's mobility profile (~50 visa-free) limits CBI demand vs. EU/Caribbean alternatives. JOD pegged to USD since 1995 → no FX risk for USD-denominated buyers.
 
-> **🇯🇴 LEAD WARNING — read before any other section.** The reciprocity list maintained by the **Department of Lands and Survey (DLS / دائرة الأراضي والمساحة)** under the Council of Ministers is **dynamic and not always published in English**. Confirm reciprocity for your nationality with DLS in writing before any deposit (`https://www.dls.gov.jo/`). Foreigners are **categorically barred** from owning land in border zones (5–15 km belts depending on category) and military zones; **Aqaba Special Economic Zone (ASEZA)** sits under a separate framework requiring its own approval. Property exceeding **5,000 m²** (or commercial above defined thresholds) requires explicit **Council of Ministers approval** with timelines that can extend to 6–12 months. Always retain an independent Jordanian advocate (`محامي`) — never use the developer's lawyer.
+> **🇯🇴 LEAD WARNING — read before any other section.** The reciprocity list maintained by the **Department of Lands and Survey (DLS / دائرة الأراضي والمساحة)** under the Council of Ministers is **dynamic and not always published in English**. Confirm reciprocity for your nationality with DLS in writing before any deposit (`https://www.dls.gov.jo/`). Foreigners are **categorically barred** from owning land in border zones (5–15 km belts depending on category) and military zones; **Aqaba Special Economic Zone (ASEZA)** sits under a separate framework requiring its own approval. Property between **5 and 30 dunums (5,000–30,000 m²)** requires **Minister of Finance approval** on DLS Director's recommendation; **above 30 dunums (30,000 m²)** requires explicit **Council of Ministers approval** with timelines that can extend to 6–12 months (2026-05-27 verified, source Al Tamimi & Co + US State Department 2024 Investment Climate Statement). Always retain an independent Jordanian advocate (`محامي`) — never use the developer's lawyer. **2 July 2025 CBI overhaul** abolished all passive paths (incl. JOD 750k bond + JOD 1M deposit) and replaced them with 8 active-business pathways — see `## CBI Jordan (post-2-Jul-2025 reform)` below.
 
 ## Country profile
 
@@ -16,14 +16,15 @@ ISO2: `jo`. Status: ✅ Fully populated (researched 2026-04 / 2026-05). Foreign-
   - **Identifier triplet**: Plot Number (`رقم القطعة`) + Basin Number (`رقم الحوض`) + Sub-Basin / Quarter (`الحي` or sometimes `محلة`). Always verify all three against the deed.
   - **Online services**: DLS portal offers partial digitization (deed search, registration appointment booking); full title abstracts still typically pulled at the regional Tabu office. Source: `https://www.dls.gov.jo/AR/Pages/eservices.aspx`.
 - **Major reforms / regulatory landscape** (verify date-stamps in `shared/regulatory-watch.md`):
-  - **Land Acquisition by Non-Jordanians Law and amendments** — periodically updated by Council of Ministers decision (most recent significant Cabinet decision **2019**); reciprocity-based with size + zone restrictions. Source: DLS `https://www.dls.gov.jo/` and Prime Ministry `https://www.pm.gov.jo/`.
-  - **Property Sales Tax reform 2019** — unified at **9%** (combining what was historically 4% buyer-side + 5% seller-side under separate stamp + transfer regimes). Verify current at Income & Sales Tax Department (ISTD) `https://www.istd.gov.jo/`.
-  - **Citizenship by Investment Programme (CBI Jordan, since 2018)** — Cabinet decision; thresholds JOD 750,000 government bond / JOD 1M private investment / JOD 250k SME with 20+ Jordanian employees. Source: Jordan Investment Commission (now Ministry of Investment) `https://www.moin.gov.jo/`.
+  - **Ownership of Real Estate Law No. 13 of 2019** (قانون ملكية العقار رقم 13 لسنة 2019) — unifying statute that superseded 14 prior laws + 19 bylaws (incl. residual Ottoman Land Code 1858, Lands and Water Settlement Law 40/1952) into one code governing all real-estate ownership + transactions; foreign-ownership + reciprocity provisions regulated under this law plus Cabinet decisions issued thereunder; reciprocity-based with size + zone restrictions in dunums (1 dunum = 1,000 m²). Source: DLS `https://www.dls.gov.jo/` + Al Tamimi law update (2026-05-27 verified).
+  - **Property Sales Tax (post-2019 reform)** — **9% total = 5% registration fee (رسوم تسجيل) + 4% sale tax (ضريبة بيع العقار)**; historically split between buyer and seller in varying ratios pre-2019. Verify current at Income & Sales Tax Department (ISTD) `https://www.istd.gov.jo/` (2026-05-27 verified, source Lloyds Bank Trade + Homes Jordan).
+  - **CBI Jordan — Cabinet overhaul 2 July 2025** — abolished all passive investment paths (JOD 750k zero-coupon bond, JOD 1M bank deposit, passive real-estate CBI); replaced with **8 active-business pathways** from JOD 350k (existing project outside Amman) to JOD 3M (specialised sectors); annual cap **500 approvals**; **real-estate residency permits (JOD 200k / 100k) separated from citizenship** (no longer lead to citizenship under any timeline). Source: Ministry of Investment `https://www.moin.gov.jo/` + IMI Daily (2026-05-27 verified) — see `## CBI Jordan (post-2-Jul-2025 reform)` below for full table.
+  - **Apartment first-150-m² exemption** (periodically renewed Cabinet ordinance) — first 150 m² from a housing-company developer = 0% registration fee + 0% sale tax; above 150 m² = 3% (1.5% for first-time buyers); resale apartments = 3% up to 150 m² + 6% above (4.5% first-time); Musaqafat 50% discount for 3 yrs for first-time buyers. Verify currency at ISTD + DLS (2026-05-27 verified, source Amaken Jordan + Homes Jordan + Lexis Middle East).
   - **Real Estate Brokers Law 2024** — licensing + transparency requirements for brokers. Source: Ministry of Public Works and Housing `https://www.mpwh.gov.jo/` and ISTD secondary.
   - **Vision Jordan 2025 / Economic Modernisation Vision 2033** — economic plan; real-estate ancillary effects. Source: Prime Ministry `https://www.pm.gov.jo/`.
   - **Crown Prince Real Estate Initiative** — subsidised housing for young Jordanian families (Jordanian-only; not foreign-buyer relevant directly but affects supply pipeline). Source: Royal Hashemite Court `https://rhc.jo/` and JLGC `https://www.jlgc.com/`.
   - **East Amman Development Plan + Greater Amman Master Plan 2025** — zoning + density framework. Source: GAM `https://www.amman.jo/`.
-  - **Aqaba Special Economic Zone (ASEZ)** — separate tax + investment framework under ASEZA `https://www.aseza.jo/` (corporate income tax 5%, customs exemptions, land-ownership separate approval channel).
+  - **Aqaba Special Economic Zone Law No. 32 of 2000 (as amended)** (قانون منطقة العقبة الاقتصادية الخاصة رقم 32 لسنة 2000) — 47 articles establishing ASEZA (`https://www.aseza.jo/`), 5% flat corporate income tax (vs. mainland 20%), customs exemptions, and separate land-ownership approval channel for foreign buyers in ASEZ (2026-05-27 verified, source InforMEA legislation record + ASEZ portal).
 - **Foreign-buyer regime**: PARTIALLY RESTRICTED — see `## Foreign buyer eligibility` below.
 
 ---
@@ -34,7 +35,7 @@ ISO2: `jo`. Status: ✅ Fully populated (researched 2026-04 / 2026-05). Foreign-
 
 ### Reciprocity-based ownership rule
 
-Under the **Land Acquisition by Non-Jordanians Law** (regulated by Council of Ministers decisions; most recent comprehensive update **2019**, with subsequent amendments), a non-Jordanian individual or entity may acquire real estate in Jordan **only if their home country grants reciprocal acquisition rights to Jordanian nationals**. The reciprocity list is maintained jointly by DLS + Council of Ministers and is **dynamic — countries are added or removed by Cabinet decision without broad public notification**.
+Under the **Ownership of Real Estate Law No. 13 of 2019** (قانون ملكية العقار رقم 13 لسنة 2019) and Cabinet decisions issued thereunder regarding foreign ownership, a non-Jordanian individual or entity may acquire real estate in Jordan **only if their home country grants reciprocal acquisition rights to Jordanian nationals**. The reciprocity list is maintained jointly by DLS + Council of Ministers and is **dynamic — countries are added or removed by Cabinet decision without broad public notification** (2026-05-27 verified, source Al Tamimi & Co + DLS).
 
 **Categories typically observed** (verify currency for your nationality with DLS in writing before contracting; status as of 2026-04 research window):
 
@@ -53,10 +54,12 @@ Under the **Land Acquisition by Non-Jordanians Law** (regulated by Council of Mi
 
 Under the same Cabinet framework (Decisions 2019 onward; verify current):
 
-| Category | Threshold | Approval needed |
+| Category | Threshold (statutory unit = dunum; 1 dunum = 1,000 m²) | Approval needed |
 |---|---|---|
-| **Single dwelling unit (apartment/villa) for personal use** | typically **1 unit, ≤5,000 m² combined plot** | Streamlined: DLS regional director |
-| **Above 5,000 m² (large plot) or multiple units** | Anything exceeding the personal-use threshold | **Council of Ministers approval** (timelines 6–12 months, sometimes longer) |
+| **Single dwelling unit (apartment/villa) for personal use** | typically **1 unit, ≤5 dunums (5,000 m²) combined plot** | Streamlined: DLS regional director |
+| **5–30 dunums (5,000–30,000 m²)** | Typical large-villa / multi-unit threshold | **Minister of Finance approval** (on DLS Director's recommendation) — intermediate tier (2026-05-27 verified, source Al Tamimi & US State Dept 2024) |
+| **Above 30 dunums (30,000 m²)** | Estate / development scale tier | **Council of Ministers approval** (timelines 6–12 months, sometimes longer) |
+| **Lease over 10 dunums (10,000 m²) for term >3 years** | Long-term lease above small-plot threshold | **Minister of Interior permit** required (Real Estate Ownership Law 13/2019) |
 | **Commercial / income-producing property** | Subject to separate quotas + approvals | Often through Ministry of Investment licence channels |
 | **Agricultural land** | Generally **prohibited** to non-Jordanians except via Cabinet special-case approval | Prefer not to attempt |
 | **Border zones (5–15 km belts depending on category)** | **Forbidden** to non-Jordanians without Cabinet special-case approval | Effectively unavailable for residential foreign buyer |
@@ -79,17 +82,22 @@ Under the same Cabinet framework (Decisions 2019 onward; verify current):
 - **Land ownership for foreigners**: separate ASEZA approval channel; freehold and long-leasehold both available subject to project-fit + sectoral priority. Foreign developers active in Aqaba (Saraya Aqaba, Ayla Oasis, Marsa Zayed plans) sell to foreign buyers but **always verify ASEZA-issued title approval, not a generic DLS extract alone**.
 - **Trap**: an Aqaba listing tagged "freehold for foreigners" may be reliant on a developer's master-licence — confirm individual deed registration at ASEZA + DLS.
 
-### Citizenship by Investment Programme (CBI Jordan, since 2018)
+### CBI Jordan (post-2-Jul-2025 reform)
 
-Cabinet decision-based pathway. Source: Ministry of Investment `https://www.moin.gov.jo/` (formerly Jordan Investment Commission); verify current thresholds with Ministry of Investment + Ministry of Interior.
+Cabinet decision-based pathway. Source: Ministry of Investment `https://www.moin.gov.jo/` (formerly Jordan Investment Commission); IMI Daily + Liberty Mundo + CitizenX + Roya News + UNCTAD Investment Policy Monitor measure 5144 (2026-05-27 verified). Verify current thresholds with Ministry of Investment + Ministry of Interior.
 
-| Path | Threshold (JOD) | Approx USD | Outcome | Notes |
-|---|---|---|---|---|
-| **Government zero-coupon bond** | **750,000** | ~USD 1.06M | Jordanian citizenship (no residency requirement) | Most common path; bonds typically 6-year |
-| **Bank deposit** | **1,000,000** in CBJ-supervised Jordanian bank, ≥3 yrs | ~USD 1.41M | Citizenship | Locked; verify withdrawal rules |
-| **Private investment** | **1,000,000** in licensed company | ~USD 1.41M | Citizenship | Active business, not passive |
-| **SME investment** | **250,000** + **20+ Jordanian employees** | ~USD 353k + payroll | Citizenship | Employment-creation tier |
-| **Real estate** | (historically discussed, NOT confirmed as standalone CBI track) | — | — | Verify directly with Ministry of Investment — most published guidance does NOT include a pure real-estate CBI tier |
+**On 2 July 2025 the Cabinet completely overhauled the CBI programme** — the most significant change since the 2018 launch. **ALL passive paths were abolished** (bank deposits, government zero-coupon bonds incl. the JOD 750k bond, passive real-estate CBI). They were replaced by **8 active-business pathways** all requiring active economic participation. Annual cap: **500 approvals/year** (vs. historical <100/year since 2018).
+
+| Path (post-2-Jul-2025) | Threshold (JOD) | Outcome | Notes |
+|---|---|---|---|
+| **Existing project outside Amman** | **350,000** (~USD 493k) | Jordanian citizenship | Active business required |
+| **Specialised sectors** (pharmaceuticals, logistics, etc.) | up to **3,000,000** | Citizenship | Sector-specific qualifying activity |
+| **Stock market investment** | **1,000,000** with 3-year profit/withdrawal lockup | Citizenship | Locked equity exposure |
+| **Employment-based** (novel pathway) | No specific investment amount — **150 Jordanians in Amman OR 100 outside Amman** must be hired | Citizenship | Employment-creation track |
+| **Other paths** (4 remaining tiers in the 8-tier framework) | Verify per-pathway thresholds | Citizenship | Confirm at Ministry of Investment |
+| **Real-estate residency permits (separate from citizenship)** | JOD 200k / JOD 100k tiers survive | **Residency only** (5-year renewable) — **no longer leads to citizenship under any timeline** | Property must be purchased from a developer, not from an existing owner |
+
+**🔴 The pre-2-Jul-2025 thresholds (JOD 750k zero-coupon bond, JOD 1M bank deposit, JOD 1M private investment, JOD 250k SME) are no longer available.** Any guidance citing those numbers as currently active is out of date.
 
 **Headline check — Jordanian passport global mobility (as of 2026)**:
 

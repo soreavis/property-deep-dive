@@ -5,7 +5,7 @@ ISO2: `tn`. Status: RESTRICTED for foreign buyers (governor authorisation regime
 ## Country profile
 
 - **Population**: ~12.07 M (2024 INS estimate, source `https://www.ins.tn/`); coastal concentration (Tunis–Sfax–Sousse axis ~60 % of population)
-- **Currency**: TND (Tunisian dinar) — **managed float, semi-convertible**. Not a freely-convertible currency for residents; capital controls under Code des Changes administered by the **Banque Centrale de Tunisie (BCT)** (`https://www.bct.gov.tn/`). 1 EUR ≈ 3.30–3.45 TND (2025–2026 range). Informal/parallel forex premium typically 5–15 % above official BCT rate during stress periods. **IMF EFF programme negotiations stalled since Mar 2024** — keep monitoring.
+- **Currency**: TND (Tunisian dinar) — **managed float, semi-convertible**. Not a freely-convertible currency for residents; capital controls under Code des Changes administered by the **Banque Centrale de Tunisie (BCT)** (`https://www.bct.gov.tn/`). 1 EUR ≈ 3.30–3.45 TND (2025–2026 range). Informal/parallel forex premium typically 5–15 % above official BCT rate during stress periods. **IMF EFF programme** — staff-level agreement Oct 2022 (USD 1.9 bn / SDR 1.472 bn over 48 months); **President Saied publicly rejected the IMF terms in April 2023** citing sovereignty + opposition to subsidy reform; negotiations remained in limbo through 2024–2026 with Tunisia pursuing bilateral alternatives (Saudi USD 500m, World Bank USD 520m, AfDB €92m, EU MoU €150m) (2026-05-27 verified, source IMF country page + ORF + The National) — keep monitoring.
 - **Languages**: Arabic (official, Tunisian dialect + MSA); **French dominant in business + property + legal practice** (notarial deeds drafted in French or bilingual); Tamazight in southern + interior pockets; English growing in tech + tourism but not in cadastre/notary practice
 - **Legal system**: Civil-law tradition (French-influenced via Protectorate 1881–1956). Property law codified in **Code des Droits Réels (CDR)** (Decree-Law of 12 Sept 1957, repeatedly amended; major reforms 1965, 1992, 2024). Sharia governs personal status (Code du Statut Personnel 1956 — Tunisia's relatively progressive family-law code).
 - **Cadastre / registry**:
@@ -18,7 +18,7 @@ ISO2: `tn`. Status: RESTRICTED for foreign buyers (governor authorisation regime
 - **Postcodes**: 4 digits (e.g., Tunis 1000–1080, Sousse 4000–4099, Sfax 3000–3099, Djerba Houmt-Souk 4180, Hammamet 8050)
 - **Admin levels**: 24 gouvernorats → 264 délégations → 2,083 imadas (smallest level) (source: INS administrative geography 2024)
 - **Major reforms tracked**:
-  - **Decree-Law of 12 Sept 1957** + **Loi 1964-22** governing foreign acquisition of agricultural land (still the foundational text on agri-land ban)
+  - Foreign-acquisition regime: **Beylical Decree of 4 June 1957** (authorisation rule) + **Décret-Loi 13-1961 (8 Aug 1961)** extending authorisation to ALL real estate + **CDR Decree-Law of 12 Sept 1957** + **Loi 64-5 du 12 mai 1964** (agricultural-land ban — note: prior playbook citation "Loi 1964-22" was incorrect — verify at IORT) + **Loi 1983-87** amendments + **Loi 2005-40** (tourist/industrial-zone carve-out) + **Loi 2016-71** (Investment Law reinforcing Zone Touristique exemption) (2026-05-27 verified, source Chafter Legal Firm + Al-Mindhar + Legal 500 Tunisia)
   - **Loi 2018-56** (Loi de Finances 2018) — VAT raised from 18 % to **19 %**; registration duty raised from 4 % to **5 %**
   - **Constitution of 2022** (referendum 25 Jul 2022) — moved Tunisia from semi-presidential to presidential system; affects regulatory rule-making process
   - **BCT Circular 2018-04** — tightened FX-loan availability for non-residents
@@ -225,7 +225,7 @@ LOW–MEDIUM — per-segment traffic counts comparable to French TMJA datasets a
 
 | Item | Rate / amount | Source |
 |---|---|---|
-| **Droits d'enregistrement (registration duty)** | **5 %** of sale price (raised from 4 % by Loi de Finances 2018; retained 2024–2025) | DGI — Code des Droits d'Enregistrement et de Timbre, `https://www.finances.gov.tn/` |
+| **Droits d'enregistrement (registration duty)** | **Progressive brackets per LdF 2024** — for **existing/older properties**: **6 % (< TND 500k), 8 % (TND 500k–999k), 10 % (> TND 1M)**; for **new properties from approved promoter**: 1 % fixed (< TND 500k), progressive 3 %+complementary higher; **residential land**: 1–5 % by surface. CPF 1 % remains. (LdF 2018 had unified at flat 5 % — now superseded; Jan 2026 reforms also doubled inter-family donation flat fee 100→200 TND, removed 10 %/yr punitive revaluation for late registration, repealed cash-payment-refusal provision) (2026-05-27 verified, source Bigdatis 2025 + Immobilier Djerba + Managers.tn 2026) | DGI — Code des Droits d'Enregistrement et de Timbre, `https://www.finances.gov.tn/` |
 | **Conservation Foncière fee (CPF — droit d'inscription)** | **1 %** of price | Ministry of State Domains, `https://www.domaine.gov.tn/` |
 | **Notaire (notarial fees)** | **~1 %** of price (sliding scale, *barème indicatif* of the **Chambre Nationale des Notaires de Tunisie** — `https://www.notaires.org.tn/`) + **19 % VAT (TVA)** on the fee |  |
 | **Timbre fiscal (stamp duty on the deed)** | nominal flat amounts per page | Code des Droits de Timbre |
@@ -248,8 +248,8 @@ LOW–MEDIUM — per-segment traffic counts comparable to French TMJA datasets a
 
 ### Capital gains — Plus-Value Immobilière (PVI)
 
-- **Residents**: **10 %** of net gain (sale price − acquisition cost − works − inflation revaluation)
-- **Non-residents**: **25 %** of net gain (LdF; **reform 2024 considered raising to 30 %** for non-residents — verify current at DGI)
+- **Both resident AND non-resident individuals**: **15 %** if sold within 5 years of acquisition; **10 %** if sold after 5 years (2026-05-27 verified, source PwC Worldwide Tax Summaries Tunisia + Synergie Audit + profiscal.com + LdF 2025 PKF guide). The **25 % rate** applies ONLY when the sale is to specific public-entity buyers — *agences foncières*, *agences touristiques/industrielles/de l'habitat*, *Société Nationale Immobilière de Tunisie (SNIT)*; **not** a generic non-resident rate.
+- LdF 2025 proposed a rise to 20 % WHT on title-cession PVI for **non-resident corporate entities (personnes morales)** — that is *titres* (shares), NOT real estate, and does not apply to individuals.
 - **Withholding-at-source**: by the notary at deed signing
 - **Exemptions**:
   - **Primary residence held ≥ 5 years continuous** (résidence principale habituelle): full exemption
@@ -258,7 +258,7 @@ LOW–MEDIUM — per-segment traffic counts comparable to French TMJA datasets a
 - **Inflation coefficient**: applied to acquisition cost based on year of purchase (DGI table, updated annually)
 - **Declaration**: at deed registration; libératoire withholding final for non-residents
 
-### Worked example — non-resident sale 2026
+### Worked example — non-resident sale 2026 (PVI corrected to 10 %/15 % schedule, 2026-05-27)
 
 Sale of a Hammamet apartment held 7 years by a non-resident foreigner:
 - Sale price: TND 600,000
@@ -267,8 +267,10 @@ Sale of a Hammamet apartment held 7 years by a non-resident foreigner:
 - Inflation coefficient ~1.18 (DGI table, illustrative)
 - Cost basis revalued: (380,000 + 40,000) × 1.18 = 495,600 TND
 - Net gain: 104,400 TND
-- PVI 25 % (non-resident): **26,100 TND** (~€7,790 @ 3.35) withheld by notary
-- 7 years > 5-year primary-residence threshold but **non-resident does not qualify as primary residence** → exemption does not apply → full 25 % due
+- Held 7 years > 5 years → **PVI rate = 10 %** (resident AND non-resident individuals): **10,440 TND** (~€3,116 @ 3.35) withheld by notary
+- Had the holding been ≤5 years, PVI would have been **15 %** → 15,660 TND
+- 7 years > 5-year primary-residence threshold but **non-resident does not qualify as primary residence** → exemption does not apply → full PVI due
+- The **25 % rate** would apply ONLY if the buyer were a specific public entity (agence foncière, SNIT, etc.) — not relevant for a private-market sale (2026-05-27 verified, source PwC + Synergie Audit + profiscal.com)
 
 ### VAT (TVA) on new builds
 
@@ -476,7 +478,7 @@ MEDIUM — wage benchmarks are sourced to ANETI + INS but shift with TND volatil
 
 - **Post-2021 constitutional revisions** (President Saied's emergency measures + 2022 referendum + 2023–2024 elections) have shifted Tunisia toward presidential system; investor uncertainty
 - **IMF EFF programme**: USD 1.9 bn deal **negotiated 2022, suspended Mar 2024** when authorities rejected conditionality; subsidy reform + dinar flexibility uncertain
-- **Sovereign rating**: **Caa1 / CCC− / CCC−** territory (Moody's / S&P / Fitch 2024–2025) — single-B substitute distress level; affects banking-system FX availability
+- **Sovereign rating (2026-05-27 verified)**: **Moody's Caa1 stable (upgraded from Caa2 on 28 Feb 2025 — first improvement in over a decade); Fitch upgraded to B- stable; S&P verify** — direction is now positive after a decade of downgrades; affects banking-system FX availability (source: countryeconomy.com + dispatchrisk + Fitch announcement via Zawya)
 - **Crime**: low–moderate; Tunis safe at neighbourhood level; tourism areas heavily policed; petty theft in souks + some Tunis neighbourhoods (Bab Souika, Hafsia after dark)
 
 ### Build-era hazards
@@ -586,8 +588,9 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 | Anti-seismic structural retrofit (older masonry) | ~TND 40,000–150,000+ | ~€11,940–€44,775+ |
 | Independent building inspection | ~TND 1,000–4,000 | ~€300–€1,195 |
 | DGRE well-drilling permit + drilling | ~TND 5,000–25,000 | ~€1,490–€7,460 |
-| **PVI (resident)** | 10 % of net gain | — |
-| **PVI (non-resident)** | 25 % of net gain | — |
+| **PVI (resident AND non-resident individuals, held >5 yrs)** | 10 % of net gain | 2026-05-27 verified, source PwC + Synergie |
+| **PVI (resident AND non-resident individuals, held ≤5 yrs)** | 15 % of net gain | 2026-05-27 verified |
+| **PVI (sale to public-entity buyer — agences foncières/touristiques/industrielles/habitat, SNIT)** | 25 % of net gain | Specific buyer-class rate only — not generic non-resident rate |
 
 ---
 

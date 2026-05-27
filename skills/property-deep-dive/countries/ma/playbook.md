@@ -55,11 +55,12 @@ Morocco is **mostly permissive** for foreign buyers — but the **title status o
 This is the second-biggest foreign-buyer trap. Get it right at *purchase* or you can't legally repatriate sale proceeds + rental income later.
 
 - **Office des Changes** (`https://www.oc.gov.ma`) is the FX regulator under the Ministry of Finance.
-- **At purchase**: funds MUST enter Morocco via an **authorised bank** (banque agréée intermédiaire), with the bank issuing an **avis d'opération** referencing **Instruction 02 of the Office des Changes** (foreign investment in Morocco regime).
+- **At purchase**: funds MUST enter Morocco via an **authorised bank** (banque agréée intermédiaire), with the bank issuing an **avis d'opération** referencing the **Instruction Générale des Opérations de Change (IGOC 2026)** — Chapter on Investissements étrangers au Maroc — in force **1 January 2026** (consolidated FX rulebook; supersedes prior Instruction format) (2026-05-27 verified, source [Office des Changes 2026-01](https://www.oc.gov.ma/en/actualites/publication-de-l-instruction-generale-des-operations-de-change-2026) + Médias 24 + Upsilon Consulting IGOC 2026 guide).
 - The bank files a **déclaration d'investissement étranger** with the Office des Changes within prescribed deadlines.
 - **What this guarantees**: the right to repatriate, in foreign currency, **(a) sale proceeds** (capital + capital gain net of TPI), and **(b) rental income** net of Moroccan tax. This is the **garantie de transfert**.
 - **What you lose if skipped**: bringing cash/crypto/informal channels = no repatriation right. The dirham is *not* freely convertible for resident-owned funds.
 - **Documentation to keep forever**: bank's avis, déclaration d'investissement, notary deed referencing the bank wire, original Office des Changes file number.
+- **IGOC 2026 — legacy safety net**: foreign-resident investors who can't prove original foreign-currency funding (lost paperwork, pre-modern files) can now repatriate up to **2,000,000 MAD/year** of investment income for investments held **>10 years**. Not a substitute for proper documentation at purchase, but a relief valve for legacy positions. MRE (Moroccans abroad) financing cap also raised to **80%** of property value (up from 70%) (2026-05-27 verified, source IGOC 2026 + Upsilon Consulting).
 
 ### Visa / residency
 
@@ -76,7 +77,7 @@ This is the second-biggest foreign-buyer trap. Get it right at *purchase* or you
 
 ### Confidence
 
-**HIGH** for the four-regime decision tree (Loi 14-07 + Dahir 1913 are stable primary sources; Office des Changes Instruction 02 is current). **MEDIUM** for the agricultural-land workaround details (Vivendi authorisations are case-by-case and the Ministry of Interior does not publish granular decision criteria).
+**HIGH** for the four-regime decision tree (Loi 14-07 + Dahir 1913 are stable primary sources; **IGOC 2026** is the current consolidated FX rulebook in force 1 Jan 2026, replacing prior Instruction format). **MEDIUM** for the agricultural-land workaround details (Vivendi authorisations are case-by-case and the Ministry of Interior does not publish granular decision criteria).
 
 ---
 
@@ -182,7 +183,7 @@ Source: aggregated from Mubawab + Sarouty + agency listings, Q1–Q2 2025. For *
 
 | Item | Rate / amount | Source |
 |---|---|---|
-| **Droits d'enregistrement** (registration duty) | **4 %** standard residential; **3 %** for first acquisition of social housing under conditions; **6 %** for terrains nus (bare land); **0 %** for VEFA primary residence under specific Loi de finances incentives | DGI — Code Général des Impôts art. 133 (verify at `https://www.tax.gov.ma`, 2024 LdF) |
+| **Droits d'enregistrement** (registration duty) | **4 %** standard residential; **3 %** for first acquisition of social housing under conditions; **5 %** for terrains nus ou comportant des constructions destinées à être démolies (CGI art. 133-I-B, LdF 2024); **0 %** for VEFA primary residence under specific Loi de finances incentives | DGI — Code Général des Impôts art. 133 (2026-05-27 verified, source CGI 2024 PDF + AMDIE + sfm.ma LdF 2024 dispositions; verify at `https://www.tax.gov.ma`) |
 | **Conservation foncière (taxe de la conservation foncière)** | **1.5 %** of price + **150 MAD** fixed certificate fee | ANCFCC tariff (`https://www.ancfcc.gov.ma`) |
 | **Notaire (notarial fees)** | **0.5–1.0 %** of price + **20 % VAT (TVA)** on the fee | Free-market within barème indicatif of the Ordre National des Notaires |
 | **Timbre (stamp duty on the deed)** | ~20 MAD per page + small fixed amounts | Code de l'enregistrement |
@@ -202,7 +203,7 @@ Source: aggregated from Mubawab + Sarouty + agency listings, Q1–Q2 2025. For *
 - **Headline rate**: **20 %** on net gain (sale price − acquisition cost − works − inflation coefficient)
 - **Minimum tax**: **3 %** of sale price (acts as a floor when net gain low/negative)
 - **Exemptions**:
-  - **Primary residence held ≥ 6 years** (confirmed lieu de résidence principale): full exemption
+  - **Primary residence held ≥ 5 years** (reduced from 6 years by LdF 2024; **sale-price ceiling 4,000,000 MAD** above which the exemption no longer applies; 1-year post-departure grace window): full exemption (2026-05-27 verified, source demarchesmaroc.com + expertisium.ma + valfoncier.ma + LdF 2024 dispositions)
   - **Secondary residence held ≥ 10 years** (raised from 6 to 10 years by Loi de finances 2018, retained 2024 LdF — verify current at DGI)
   - First sale of a low-cost social housing under conditions
 - **Inflation coefficient (coefficient de réévaluation)** published annually by DGI — increases the deductible acquisition cost

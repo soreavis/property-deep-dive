@@ -23,7 +23,8 @@ ISO2: `om`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
 - **Recent reforms** (12-month watchlist):
   - **Royal Decree 89/2021 — Investor Residency Programme** — formalised 5-yr (≥OMR 250,000) and 10-yr (≥OMR 500,000) renewable residency tied to qualifying investment incl. ITC freehold property; major attractor for non-GCC foreign buyers since launch.
   - **Royal Decree 12/2006 (as amended)** — primary statute for non-GCC freehold ownership in ITCs; subsequent ministerial decisions expanded the ITC list (notably 2010, 2018, 2023–2024 designations).
-  - **VAT introduced 16 April 2021** at **5%** standard rate (Royal Decree 121/2020 + Oman Tax Authority Executive Regulations). First-sale residential by VAT-registered developer typically zero-rated; resale residential exempt; commercial standard-rated.
+  - **VAT introduced 16 April 2021** at **5%** standard rate (Royal Decree 121/2020 + Oman Tax Authority Executive Regulations). **First-sale residential by VAT-registered developer: 5% standard-rated** (NOT zero-rated, unlike UAE); resale residential + residential rental exempt; bare land exempt; commercial standard-rated 5% (2026-05-27 verified, source Oman Tax Authority VAT Guide for Real Estate + Deloitte/PwC/Crowe Oman).
+  - **Royal Decree 56/2025 — Personal Income Tax Law** issued **22 Jun 2025**, **effective 1 January 2028**: **5% PIT on annual income > OMR 42,000** (first PIT in the GCC). Deductions/exemptions for education, healthcare, inheritance, zakat, donations, primary housing; OTA expects ~99% of population NOT subject (high threshold). Executive Regulations on real-estate-rental treatment pending (2026-05-27 verified, source Oman Tax Authority + EY + Deloitte + KPMG + DLA Piper June 2025 coverage).
   - **Oman Vision 2040** — long-term economic diversification framework; tourism + ITC investment is a named pillar.
   - **Excise Tax 2019** — 50–100% on tobacco/energy drinks/alcohol/sugary drinks; separate from VAT.
   - **Income Tax (corporate)** — Royal Decree 28/2009 (Income Tax Law); 15% standard CIT for most companies above OMR 30,000 threshold. **NO personal income tax** as of 2026-05 (a draft PIT framework has been discussed multiple times since 2022 — verify current status at Oman Tax Authority).
@@ -215,14 +216,15 @@ What residents do pay annually:
 
 | Item | Amount | Notes |
 |---|---|---|
-| **MHUP Land Registration Fee** | **3% of sale value** | Statutory; paid at MHUP Land Registry Department on title transfer |
+| **MHUP Land Registration Fee** | **3% of sale value for non-GCC foreign buyers** / **1% for Omani nationals** (reduced from 2% in Jan 2025 per Ministerial Decision 570/2025 consolidating MHUP fee schedule; Ministerial Decision 36/2026 further amended Apr 2026 — verify current at MHUP) | Statutory; paid at MHUP Land Registry Department on title transfer (2026-05-27 verified) |
 | **Notarial / authentication fees** | ~OMR 50–300 fixed | Public notaries (under Ministry of Justice and Legal Affairs) |
 | **Real estate agent commission** | **~2% (typical, negotiable)** of price + 5% VAT | MoCIIP-licensed brokers |
 | **Conveyancer / lawyer** (advisable for non-GCC) | OMR 1,000–5,000 typical | Omani Bar (Authority for Lawyers); local firms — Said Al-Shahry & Partners, Al Busaidy Mansoor Jamal, Curtis Mallet, Trowers & Hamlins Oman |
 | **Mortgage registration** (if mortgaged) | ~0.5% of mortgage amount | MHUP + bank |
 | **Bank mortgage processing fee** | 0.5–1% of loan | Per bank |
 | **Property valuation** (mortgaged) | OMR 200–500 | Bank-appointed valuer |
-| **VAT on first-sale residential by VAT-registered developer** | **0%-rated** (zero-rated supply) | Oman Tax Authority (OTA) |
+| **VAT on first-sale residential by VAT-registered developer** | **5% standard-rated** (NOT zero-rated, unlike UAE) | Oman Tax Authority (OTA) — 2026-05-27 verified |
+| **VAT on resale residential + residential rental** | **EXEMPT** (input-VAT recovery limits) | Oman Tax Authority |
 | **VAT on resale residential** | **EXEMPT** | OTA |
 | **VAT on commercial property + STR** | **5%** standard rate | OTA |
 
@@ -230,10 +232,10 @@ What residents do pay annually:
 
 **Total transaction cost (buyer side, cash)**: **~4–5% of price** (3% MHUP + ~2% agent + lawyer + admin) — among the **lowest in the world** for foreign buyers.
 
-### Personal income tax — 0% as of 2026-05
+### Personal income tax — 0% through 31 Dec 2027; 5% from 1 Jan 2028 (Royal Decree 56/2025)
 
-- **NO personal income tax** in Oman as of 2026-05.
-- A draft PIT framework was discussed multiple times since 2022 (initially flagged for 2024, then 2025, then 2026); **no PIT law has been promulgated as of 2026-05** — *verify current status at `https://tms.taxoman.gov.om/` and Oman Tax Authority bulletins*.
+- **0% PIT through 31 Dec 2027.**
+- **Royal Decree 56/2025** issued **22 June 2025** enacts the **Personal Income Tax Law — first PIT in the GCC** — **5% rate on annual income > OMR 42,000, effective 1 January 2028**. Includes deductions/exemptions for education, healthcare, inheritance, zakat, donations, primary housing; OTA expects ~99% of population NOT subject (high threshold). Executive Regulations on real-estate-rental treatment pending as of May 2026 (2026-05-27 verified, source Oman Tax Authority `https://tms.taxoman.gov.om/portal/w/issuance-of-personal-income-tax-pit-law` + EY + Deloitte + KPMG + DLA Piper June 2025 alerts).
 - **NO capital gains tax** on individual property sales (own-name natural person).
 - **NO inheritance tax** (federal); Sharia inheritance applies as default for Muslim Omanis and is the practical outcome for Muslim foreign residents in Omani courts.
 
@@ -256,8 +258,9 @@ What residents do pay annually:
 ### VAT — implemented 16 April 2021 at 5%
 
 - **Royal Decree 121/2020** + Oman Tax Authority Executive Regulations introduced VAT at 5% standard rate.
-- **First-sale residential** by VAT-registered developer: 0%-rated supply (matches Saudi/UAE/Bahrain framework).
-- **Subsequent sale + lease of residential**: exempt.
+- **First-sale residential** by VAT-registered developer: **5% standard-rated** (NOT zero-rated; differs from UAE which zero-rates first-sale residential within 3 years of completion) (2026-05-27 verified, source Oman Tax Authority VAT Guide for Real Estate).
+- **Subsequent sale + residential rental**: **exempt** (input-VAT recovery limits).
+- **Bare/undeveloped land**: exempt.
 - **Commercial real estate**: 5% standard-rated.
 - **STR (short-term rental)**: 5% applies to vacation rentals if total taxable supplies exceed the OMR 38,500/yr mandatory registration threshold.
 - **Excise Tax** (separate; since 2019): 50–100% on tobacco, energy drinks, alcohol, pork, sugary drinks.
@@ -282,14 +285,14 @@ What residents do pay annually:
 
 ### Short-term rentals (holiday homes)
 
-- **Authority**: **Ministry of Heritage and Tourism (MHT)** — `https://mohup.gov.om/en` — issues short-term rental licences for holiday homes; ITCs typically have streamlined approval pathways under their master-developer concession.
+- **Authority**: **Ministry of Heritage and Tourism (MHT)** — `https://mht.gov.om/` — issues short-term rental licences for holiday homes; ITCs typically have streamlined approval pathways under their master-developer concession. **NOTE: MHT is `mht.gov.om` — `mohup.gov.om` is the separate Ministry of Housing & Urban Planning (MoHUP); do NOT conflate** (2026-05-27 verified).
 - **MHT Holiday Home licence** required for STR < 30 days; building/community OA approval also required.
 - **Al Mouj, Hawana Salalah, Jebel Sifah, Muscat Hills** generally permit licensed STR via the master OA — verify the specific tower/villa category before buying for STR.
 - **Tourism levy + tourism dirham equivalent**: a tourism levy (typically 4% on tourist accommodation revenue) applies; verify at MHT.
 - **VAT 5%** applies to STR if the operator's taxable supplies exceed the OMR 38,500/yr registration threshold.
 - **Penalties**: fines for unlicensed STR operation per MHT enforcement bulletins.
 
-(Source: MHT licensing pages — *verify current STR licensing pathway at `https://mohup.gov.om/en`*.)
+(Source: MHT licensing pages — *verify current STR licensing pathway at `https://mht.gov.om/`*.)
 
 ### Yield benchmarks (per listing platforms — verify per ITC)
 
@@ -1005,7 +1008,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | **Service charges (annual)** | OMR 4–25 / sqm / yr (tier-dependent) |
 | **District cooling (annual)** | OMR 6–14 / sqm / yr (residential, where applicable) |
 | **Annual property tax** | **None** |
-| **VAT (first-sale residential)** | **0%-rated** (zero-rated supply by VAT-registered developer) |
+| **VAT (first-sale residential)** | **5% standard-rated** (NOT zero-rated, unlike UAE) — 2026-05-27 verified |
 | **VAT (resale residential)** | **Exempt** |
 | **VAT (commercial + STR)** | **5%** |
 | **Total transaction cost (buyer side, cash)** | **~4–5% of price** |
@@ -1020,7 +1023,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **0% capital gains tax** on individual property sales (own-name natural person).
 - **0% inheritance tax**.
 - **0% annual property tax**.
-- **0% VAT first-sale residential** by VAT-registered developer; resale residential exempt.
+- **5% VAT on first-sale residential** by VAT-registered developer (NOT zero-rated, unlike UAE); resale residential + residential rental exempt.
 - **Free Zones — Sohar, Salalah, Duqm (SEZAD)**: 0% CIT for qualifying activities; 100% foreign ownership; profit repatriation allowed.
 
 ## Common listing platforms
@@ -1037,7 +1040,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **Royal Decree 89/2021 Investor Residency** — major attractor for ITC buyers; combine ITC freehold + 5/10-yr residency.
 - **Citizenship by investment is NOT available** — Omani nationality is governed by Royal Decree with extremely narrow naturalisation pathway; "buy property → citizenship" pitch is not legal in Oman.
 - **NO recurring property tax + NO PIT + NO CGT** — among the world's most tax-favourable regimes.
-- **VAT 5% from Apr 2021** — first-sale residential 0%-rated; resale exempt; commercial + STR standard-rated.
+- **VAT 5% from Apr 2021** — first-sale residential 5% standard-rated (NOT zero-rated, unlike UAE); resale residential + residential rental exempt; bare land exempt; commercial + STR standard-rated 5% (2026-05-27 verified).
 - **Cyclone exposure materially higher than UAE/KSA/Qatar** — Cyclones Gonu 2007, Mekunu 2018, Shaheen 2021 baseline; verify drainage history + ITC seawall design + post-Shaheen upgrade coverage.
 - **OMR pegged USD at 0.3850 since 1986** — zero FX risk for USD asset holders; meaningful FX risk vs EUR / GBP / floating currencies.
 - **Smaller market depth than UAE/KSA** — secondary-market liquidity thinner; position ITC investments as lifestyle/retirement plays rather than pure rental yield.
@@ -1107,7 +1110,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Ministry of Finance (MoF) | `https://www.mof.gov.om/` |
 | Central Bank of Oman (CBO) | `https://cbo.gov.om/` |
 | National Centre for Statistics and Information (NCSI) | `https://ncsi.gov.om/` |
-| Ministry of Heritage and Tourism (MHT) | `https://mohup.gov.om/en` |
+| Ministry of Heritage and Tourism (MHT) | `https://mht.gov.om/` (NOT `mohup.gov.om` — that's MoHUP, a separate ministry; 2026-05-27 verified) |
 | Ministry of Labour | `https://www.mol.gov.om/` |
 | Ministry of Transport, Communications and IT (MTCIT) | `https://www.mtcit.gov.om/` |
 | Capital Market Authority (CMA) Oman | `https://cma.gov.om/` |

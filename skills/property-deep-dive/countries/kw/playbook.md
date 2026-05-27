@@ -2,7 +2,7 @@
 
 ISO2: `kw`. Status: ✅ Fully populated (researched 2026-05).
 
-> **Critical framing — read first**: Kuwait is **the most foreign-buyer-restricted property market in the GCC**. Under [Decree-Law 74/1979 on Real Estate Ownership by Non-Kuwaitis (قانون رقم 74 لسنة 1979 في شأن تنظيم تملك غير الكويتيين للعقار)](https://www.csb.gov.kw/) and subsequent amendments, **non-GCC foreign nationals cannot own residential real estate in Kuwait** (with extremely narrow case-by-case exceptions for diplomats, royal families, or specific Council of Ministers approvals). **GCC nationals (Saudi / UAE / Bahrain / Qatar / Oman)** are treated equivalently to Kuwaitis under GCC reciprocity for residential ownership. Long-term lease (≤30 years renewable) is the practical pathway for non-GCC expatriates wishing to occupy a residence. Kuwait has **NO recurring property tax**, **NO personal income tax**, **NO capital gains tax for individuals**, and **VAT has NOT been implemented** (along with Qatar — both have deferred from the GCC framework). Kuwait offers **NO golden-visa via real estate** — uniquely absent in the GCC. Currency: **Kuwaiti Dinar (KWD)** is the world's highest face-value currency (~USD 3.25 / KWD); managed-float against an undisclosed currency basket since 20 May 2007 (previously USD-pegged). Confirm any non-GCC ownership pathway with the **Ministry of Justice Real Estate Registration Department** and the **Council of Ministers** **before** any binding step.
+> **Critical framing — read first**: Kuwait is **the most foreign-buyer-restricted property market in the GCC** for residential private housing. Under [Decree-Law 74/1979 on Real Estate Ownership by Non-Kuwaitis (قانون رقم 74 لسنة 1979 في شأن تنظيم تملك غير الكويتيين للعقار)](https://www.csb.gov.kw/) and subsequent amendments, **non-GCC foreign individuals cannot own residential private housing** (with extremely narrow case-by-case exceptions for diplomats, royal families, or specific Council of Ministers approvals). **Decree No. 195 of 2025** materially amended the 74/1979 framework: it permits **foreign-partnered companies listed on licensed Kuwaiti stock exchanges, plus real-estate funds and investment portfolios licensed by Kuwaiti authorities, to own real estate for operational purposes** — explicitly excluding plots/land designated for private housing (the residential-citizen exclusivity is preserved) (2026-05-27 verified, source legal500.com Decree 195/2025 brief + lexis.ae Jan 2025 + agbi.com Feb 2025 + UNCTAD Investment Policy Monitor measure 4972). **GCC nationals (Saudi / UAE / Bahrain / Qatar / Oman)** are treated equivalently to Kuwaitis under GCC reciprocity for residential ownership. Long-term lease (≤30 years renewable) is the practical pathway for non-GCC expatriates wishing to occupy a residence. Kuwait has **NO recurring property tax**, **NO personal income tax**, **NO capital gains tax for individuals**, and **VAT has NOT been implemented** (along with Qatar — both have deferred from the GCC framework). **DMTT 15% on in-scope MNEs (consolidated revenues ≥ EUR 750M) effective FY beginning 1 Jan 2025** under Kuwait's DMTT Law (Executive Regulations issued 29 Jun 2025) — Pillar Two alignment (2026-05-27 verified, source DLA Piper Gulf Tax Insights Jan 2025 + EY + KPMG Kuwait + PwC). Kuwait offers **NO golden-visa via real estate** — uniquely absent in the GCC. Currency: **Kuwaiti Dinar (KWD)** is the world's highest face-value currency (~USD 3.25 / KWD); managed-float against an undisclosed currency basket since 20 May 2007 (previously USD-pegged). **CBK Discount Rate cut to 3.50% effective 10 Dec 2025** (from 3.75% on 17 Sep 2025) — held into 2026 (2026-05-27 verified, source CBK press release 10 Dec 2025). **National Assembly was dissolved + some constitutional articles suspended 10 May 2024 (Emir Meshaal decree, up to 4-yr suspension)** — executive decrees now dominate legislation, which explains the rapid issuance of Decree 195/2025 + DMTT. Confirm any non-GCC ownership pathway with the **Ministry of Justice Real Estate Registration Department** and the **Council of Ministers** **before** any binding step.
 
 ## Country profile
 
@@ -581,7 +581,7 @@ HIGH for IPCC AR6 + KISR regional projections; MEDIUM for sub-2km flood-inundati
 
 - **Conventional + Sharia-compliant Murabaha / Ijara** structures both widely available
 - **Indicative rate Q1 2026**: ~5.5–7.5% Murabaha equivalent (CBK discount rate ~4.0–4.25% Q1 2026 + spread; tracks Fed via managed-float-USD-track)
-- **CBK Discount Rate Q1 2026**: ~4.0–4.25% (verify current at [CBK Discount Rate page](https://www.cbk.gov.kw/))
+- **CBK Discount Rate (effective 10 Dec 2025)**: **3.50%** (cut from 3.75% set on 17 Sep 2025; held into May 2026) — verify current at [CBK Discount Rate page](https://www.cbk.gov.kw/) (2026-05-27 verified, source CBK press release 10 Dec 2025)
 
 ### Foreigner mortgages
 
@@ -616,7 +616,7 @@ Account opening requires **valid Iqama + Kuwaiti mobile + Civil ID** for residen
 ### Peg credibility
 
 - CBK foreign reserves ~USD 50B+ (Q4 2025 — verify CBK quarterly bulletin)
-- Sovereign Wealth Fund (Kuwait Investment Authority — KIA) ~USD 800B+ (one of the world's largest)
+- Sovereign Wealth Fund (Kuwait Investment Authority — KIA) ~USD 1.0T (Jul 2025 Global SWF ranking — up from ~USD 846B Jul 2024; KIA is the 5th-largest SWF globally, 3rd in Gulf behind PIF and ADIA; 2026-05-27 verified) (one of the world's largest)
 - Sovereign rating: Moody's A1, S&P A+, Fitch AA- — among GCC's strongest
 - Basket framework defended successfully through 2008 GFC, 2014–2016 oil-price crash, 2020 COVID, 2022 USD-strength cycle
 - **No serious near-term FX-regime-break risk** assessed by IMF Article IV
@@ -748,11 +748,11 @@ Kuwait uses a **civil-law notary system** (notary office under Ministry of Justi
 
 ### Kuwait's distinctive position (2026)
 
-- **Most foreign-buyer-restricted GCC market** — Decree-Law 74/1979 has not undergone reform comparable to Saudi 2025 / UAE 2002–2019 / Qatar 2018
+- **Most foreign-buyer-restricted GCC market for residential private housing** — Decree-Law 74/1979 was materially amended by **Decree No. 195 of 2025** (corporate / fund / portfolio pathway opened, residential private-housing exclusivity preserved); does not yet match Saudi 2026 / UAE 2002–2019 / Qatar 2018 in scope for individual non-GCC buyers (2026-05-27 verified)
 - **No real-estate-linked residency or golden visa** — uniquely absent in the GCC
 - **No personal income tax + no recurring property tax + no CGT + VAT not yet implemented** — among the most tax-favourable globally for those eligible to own
 - **High face-value currency (KWD)** — basket-managed, modest FX appreciation since 2007
-- **Kuwait Investment Authority (KIA) ~USD 800B+** — among the world's largest sovereign wealth funds; underpins macro stability
+- **Kuwait Investment Authority (KIA) ~USD 1.0T (Jul 2025 Global SWF ranking — up from ~USD 846B Jul 2024; KIA is the 5th-largest SWF globally, 3rd in Gulf behind PIF and ADIA; 2026-05-27 verified)** — among the world's largest sovereign wealth funds; underpins macro stability
 - **Counterbalance risks**: foreign-buyer restriction caps demand pool; oil-cyclicality; geopolitical Iraq/Iran proximity; conservative pace of reform; Bedoon issue
 - **Cyclical position 2026**: relatively stable; Kuwait market structurally less liquid than UAE/Qatar/Saudi
 
@@ -859,7 +859,7 @@ Workable pathways for remote-working visitors:
 
 - **Kuwait Vision 2035 (New Kuwait)** — diversification programme; Mubarak Al-Kabeer Port + Silk City + financial-hub aspirations; **slow execution** vs UAE / Saudi pace
 - **OPEC+ oil-cut framework** — Kuwait caps oil production at ~2.4–2.5 MBD; oil-price-revenue cyclicality remains primary fiscal driver
-- **KIA Sovereign Wealth Fund** ~USD 800B+ — among the world's largest; cushions oil cyclicality; underpins KWD basket-managed regime
+- **KIA Sovereign Wealth Fund** ~USD 1.0T (Jul 2025 Global SWF ranking — up from ~USD 846B Jul 2024; KIA is the 5th-largest SWF globally, 3rd in Gulf behind PIF and ADIA; 2026-05-27 verified) — among the world's largest; cushions oil cyclicality; underpins KWD basket-managed regime
 - **Saudization-equivalent (Kuwaitization)** — public-sector hiring quotas + private-sector National Employment Programme
 - **No-Bedoon-resolution political deadlock** — long-standing
 - **Foreign-buyer reform debate** — periodic discussion in Council of Ministers but no enacted reform 2024–2026
@@ -1061,7 +1061,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **NO recurring property tax + NO PIT + NO CGT for individuals** — among world's most tax-favourable
 - **NO VAT (yet)** — Kuwait + Qatar are the only two GCC states yet to implement; expect 5% introduction at some point — verify timing
 - **KWD basket-managed since May 2007** (was USD-pegged); KWD highest face-value currency globally (~USD 3.25 / KWD)
-- **CBK Discount Rate** ~4.0–4.25% Q1 2026; mortgage rates 5.5–7.5%
+- **CBK Discount Rate 3.50%** (effective 10 Dec 2025; cut from 3.75% on 17 Sep 2025); mortgage rates ~5.0–7.0%
 - **Long-term lease (≤30 yrs renewable)** is the practical pathway for non-GCC expatriates seeking residential stability
 - **PAHW backlog** ~100,000+ Kuwaiti families on housing-allocation waitlist — material structural feature
 - **Bedoon (stateless) population** ~100k — cannot own under any framework
@@ -1070,7 +1070,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **MEW expat-tariff reform (Law 20/2016, effective 2017)** — significantly raised utility cost for non-Kuwaitis
 - **Alcohol prohibited** countrywide — material lifestyle factor
 - **Geopolitical Iraq/Iran proximity** — background risk
-- **Kuwait Investment Authority ~USD 800B+** — among world's largest sovereign wealth funds; underpins macro stability
+- **Kuwait Investment Authority ~USD 1.0T (Jul 2025 Global SWF ranking — up from ~USD 846B Jul 2024; KIA is the 5th-largest SWF globally, 3rd in Gulf behind PIF and ADIA; 2026-05-27 verified)** — among world's largest sovereign wealth funds; underpins macro stability
 - **Vision 2035 / Silk City / Mubarak Al-Kabeer Port** — slow execution vs UAE / Saudi pace; treat as long-dated optionality
 - **AML / source-of-funds** under Law 106/2013 — enforced at MOJ Notary
 - **Kafala system** less reformed than UAE / Saudi / Qatar — Iqama tied to employer historically
@@ -1151,4 +1151,4 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Kuwait is the **most foreign-buyer-restricted GCC market** — non-GCC foreign individuals **cannot generally own residential property** under Decree-Law 74/1979, with only narrow case-by-case exceptions (diplomats, Council of Ministers approvals, inheritance with disposal). **GCC nationals** (Saudi, UAE, Bahrain, Qatar, Oman) treated equivalently subject to reciprocity. **NO real-estate-linked residency or golden visa** — uniquely absent in the GCC (UAE, Saudi, Qatar, Bahrain, Oman all offer property-linked pathways). HIGH confidence for federal-level structural facts: Decree-Law 74/1979 foreign-ownership prohibition; KWD managed-float since 20 May 2007 (was USD-pegged); 0% personal income tax; 0% recurring property tax; 0% capital gains tax for individuals; VAT not yet implemented (Kuwait + Qatar deferred); MOJ Real Estate Registration ~0.5–2% banded fee; CBK macroprudential LTV; MEW utility monopoly; Kuwait Investment Authority ~USD 800B+; ~30%/70% Kuwaiti/expat population split (PACI 2024). MEDIUM confidence for citywide pricing benchmarks (CSB + MOJ data less granular than UAE / Saudi / Qatar; listing-platform asking prices used as proxy with `per listing — verify with cadastre / on visit` tag); exact MOJ registration fee bands (verify per transaction); VAT introduction timing (no announcement as of 2026-05); STR licensing pathway (no dedicated regime; informal tolerance); foreign-ownership reform horizon (no enacted reform; periodic Council-of-Ministers debate). All numeric facts date-stamped against primary .gov.kw / .gov.kw + KIA + CBK + KMD sources where available; foreign-ownership restriction flagged prominently in country profile + foreign-buyer eligibility + visa + retirement + digital-nomad + exit sections per the central anti-hallucination contract.
+**Notes**: Kuwait is the **most foreign-buyer-restricted GCC market** — non-GCC foreign individuals **cannot generally own residential property** under Decree-Law 74/1979, with only narrow case-by-case exceptions (diplomats, Council of Ministers approvals, inheritance with disposal). **GCC nationals** (Saudi, UAE, Bahrain, Qatar, Oman) treated equivalently subject to reciprocity. **NO real-estate-linked residency or golden visa** — uniquely absent in the GCC (UAE, Saudi, Qatar, Bahrain, Oman all offer property-linked pathways). HIGH confidence for federal-level structural facts: Decree-Law 74/1979 foreign-ownership prohibition; KWD managed-float since 20 May 2007 (was USD-pegged); 0% personal income tax; 0% recurring property tax; 0% capital gains tax for individuals; VAT not yet implemented (Kuwait + Qatar deferred); MOJ Real Estate Registration ~0.5–2% banded fee; CBK macroprudential LTV; MEW utility monopoly; Kuwait Investment Authority ~USD 1.0T (Jul 2025 Global SWF ranking — up from ~USD 846B Jul 2024; KIA is the 5th-largest SWF globally, 3rd in Gulf behind PIF and ADIA; 2026-05-27 verified); ~30%/70% Kuwaiti/expat population split (PACI 2024). MEDIUM confidence for citywide pricing benchmarks (CSB + MOJ data less granular than UAE / Saudi / Qatar; listing-platform asking prices used as proxy with `per listing — verify with cadastre / on visit` tag); exact MOJ registration fee bands (verify per transaction); VAT introduction timing (no announcement as of 2026-05); STR licensing pathway (no dedicated regime; informal tolerance); foreign-ownership reform horizon (no enacted reform; periodic Council-of-Ministers debate). All numeric facts date-stamped against primary .gov.kw / .gov.kw + KIA + CBK + KMD sources where available; foreign-ownership restriction flagged prominently in country profile + foreign-buyer eligibility + visa + retirement + digital-nomad + exit sections per the central anti-hallucination contract.

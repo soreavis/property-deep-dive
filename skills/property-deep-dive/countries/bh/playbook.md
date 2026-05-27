@@ -2,7 +2,7 @@
 
 ISO2: `bh`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-01).
 
-> **Critical framing**: Bahrain is the **most open foreign-buyer market in the GCC**. Under **Law 27/2017** (and prior Decree 6/2003 + Decree 6/2017 amendments), non-GCC nationals can acquire **freehold** in an extensive list of **designated areas** (Amwaj Islands, Reef Island, Durrat Al Bahrain, Diyar Al Muharraq, Bahrain Bay, Al Areen, Diplomatic Area, Seef, Juffair, Riffa Views, parts of Saar, etc.). Outside designated zones, foreigners are limited to leasehold or commercial-zone usufruct. Bahrain has **NO personal income tax**, **NO capital gains tax** (individuals), **NO inheritance tax**, **light Municipal Tax** on rented property (~7–10%) but typically minimal on owner-occupied, and **VAT 10%** (raised from 5% in Jan 2022). Currency risk vs USD is structurally zero — BHD is pegged at **0.376 to the USD since December 2001** (Central Bank of Bahrain fixed peg) — by face value the BHD is the world's strongest currency. Confirm current designated-area list with the **Survey & Land Registration Bureau (SLRB)** + **RERA Bahrain** **before** signing any reservation form.
+> **Critical framing**: Bahrain is the **most open foreign-buyer market in the GCC**. Under **Legislative Decree No. 2 of 2001 + Legislative Decree No. 43 of 2003 (as amended by Edicts 67/2006 + 38/2023)** — NOT Law 27/2017 (which regulates the real-estate sector / RERA / escrow, separate regime) — non-GCC nationals can acquire **freehold** in an extensive list of **designated areas** (Amwaj Islands, Reef Island, Durrat Al Bahrain, Diyar Al Muharraq, Bahrain Bay, Al Areen, Diplomatic Area, Seef, Juffair, Riffa Views, parts of Saar, etc.) (2026-05-27 verified, source Baker McKenzie + Manal Dhahi + Trowers & Hamlins). GCC parity is codified separately in **Legislative Decree No. 40/1999** (Ownership of GCC Nationals of Constructed Property and Land — grants GCC nationals near-Bahraini-national treatment). Outside designated zones, foreigners are limited to leasehold or commercial-zone usufruct. Bahrain has **NO personal income tax**, **NO capital gains tax** (individuals), **NO inheritance tax**, **light Municipal Tax** on rented property (~7–10%) but typically minimal on owner-occupied, and **VAT 10%** (raised from 5% in Jan 2022). **DMTT 15% on in-scope MNEs (consolidated revenues ≥ EUR 750M) LIVE since 1 Jan 2025 under Decree-Law 11/2024** (OECD Pillar Two GloBE alignment; NBR-administered). **Tourist Accommodation Levy BHD 3/room/night** on hotels + hotel apartments since 1 May 2024 (Ministry of Tourism / BTEA). Currency risk vs USD is structurally zero — BHD is pegged at **0.376 to the USD since December 2001** (Central Bank of Bahrain fixed peg) — by face value the BHD is the world's strongest currency. Confirm current designated-area list with the **Survey & Land Registration Bureau (SLRB)** + **RERA Bahrain** **before** signing any reservation form.
 
 ## Country profile
 
@@ -22,7 +22,12 @@ ISO2: `bh`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **CPR (Central Population Register)** — Bahrain national/resident ID — required for any registration; expats need a valid CPR
 - **Population**: ~1.49 M (2024 — Information & eGovernment Authority `https://www.iga.gov.bh/`); ~52% Bahraini nationals + ~48% expatriates (Indian + Pakistani + Bangladeshi + Filipino + Egyptian + GCC largest expat communities, per IGA Census 2020 + 2024 bulletins)
 - **Recent reforms** (12-month watchlist):
-  - **Law 27/2017** ("Regulating the Real Estate Sector") + amendments — established RERA; expanded designated freehold zones for non-GCC; introduced escrow regime for off-plan; superseded fragments of Decree 6/2003 + Decree 6/2017
+  - **Legislative Decree No. 2 of 2001 + Legislative Decree No. 43 of 2003** (amended by Edicts 67/2006 + 38/2023) — primary foreign-freehold statutes (NOT Law 27/2017, which is the real-estate-sector regulator) (2026-05-27 verified, source Baker McKenzie + Manal Dhahi Legal Consultants)
+  - **Legislative Decree No. 40/1999** — Ownership of GCC Nationals of Constructed Property and Land — grants GCC nationals near-Bahraini-national treatment
+  - **Law 27/2017** ("Regulating the Real Estate Sector") + amendments — established RERA; mandates escrow accounts; regulates developers/brokers (NOT a foreign-freehold statute; restrict references to RERA/escrow/broker regulation)
+  - **Decree-Law No. 11 of 2024** — Domestic Minimum Top-Up Tax (DMTT) 15% on MNE groups with ≥ EUR 750M consolidated annual revenues; effective FY beginning on/after **1 January 2025**; aligns with OECD Pillar Two GloBE Model Rules; NBR-administered; advance instalments + filing in 2025 (2026-05-27 verified, source NBR + EY + KPMG Fakhro + BDO Bahrain)
+  - **Tourist Accommodation Levy** — BHD 3/room/night on hotels + hotel apartments effective **1 May 2024** (Ministry of Tourism + BTEA — quarterly declaration); hotels + tourism restaurants also subject to 5% tourism levy (separate from the BHD 3 nightly fee) (2026-05-27 verified, source KPMG Bahrain & GCC Tax News 05 May 2024 + AGBI + BTEA E-services portal)
+  - **Law No. 19 of 2017 — Family Law (نظام الأسرة)** — first unified family law in Bahrain covering BOTH Sunni and Jaafari (Shia) doctrines in separate chapters; superseded the partial 2009 codification (which had applied only to Sunnis) (2026-05-27 verified, source bahrain.bh official PDF + Musawah Bahrain)
   - **Decree 6/2017** + amendments — Self-Sponsored Residence Permit (Real Estate Investment) — 10-yr renewable for property owners ≥ BHD 200,000
   - **Decree 16/2022 — Golden Residency Visa** — 10-yr renewable; property route ≥ BHD 200,000 (~USD 530k); also routes for talented professionals, retirees with BHD 4,000+/month income, and high-skill workers
   - **VAT raised from 5% to 10%** effective 1 January 2022 (Royal Decree-Law 33/2021); first-sale residential by registered developer 0%-rated; resale residential VAT-exempt; commercial standard-rated
@@ -39,10 +44,12 @@ This section determines whether a transaction is even legally possible. Confirm 
 
 ### Legal basis
 
-- **Law 27/2017** "Regulating the Real Estate Sector" — primary statute; established RERA; consolidated and superseded earlier 2003 + 2017 framework
+- **Legislative Decree No. 2 of 2001 + Legislative Decree No. 43 of 2003** (as amended by Edicts 67/2006 + 38/2023) — primary foreign-freehold statutes designating zones where non-GCC nationals can acquire freehold (2026-05-27 verified, source Baker McKenzie)
+- **Legislative Decree No. 40/1999** — GCC parity statute (Ownership of GCC Nationals of Constructed Property and Land)
+- **Law 27/2017** "Regulating the Real Estate Sector" — established RERA; mandates escrow accounts; regulates developers/brokers — this is the sector-regulator law, NOT the freehold-eligibility law (2026-05-27 verified)
 - **Decree 6/2017** (and amendments) — Self-Sponsored Residence Permit (Real Estate Investment)
 - **Decree 16/2022** — Golden Residency Visa (multi-route including property)
-- Administered jointly by **RERA** + **Survey & Land Registration Bureau (SLRB)** + **Ministry of Justice**
+- Administered jointly by **RERA** + **Survey & Land Registration Bureau (SLRB / السجل العقاري)** + **Ministry of Justice**
 
 ### Tier 1 — Designated freehold zones (non-Bahrainis, including non-GCC, can own outright)
 
@@ -223,7 +230,7 @@ OSM `highway` class:
 
 | Item | Amount | Notes |
 |---|---|---|
-| **SLRB Registration Fee** | **2% of sale value (standard) — sliding scale up to ~3.7% for higher tiers** (1.7% additional on certain bands per BHD-denominated thresholds) | Statutory; paid at SLRB registration |
+| **SLRB Registration Fee** | **1.7% if filed within 60 days of notarised sale contract; 2.0% if filed after 60 days** (flat two-tier; NO sliding scale, NO 3.7% top tier — that was a fabricated entry per validation 2026-05-27, source SLRB Fee Calculator + Sands Of Wealth Sept 2025) | Plus BD 1 form fee. Typically split buyer/seller. Statutory; paid at SLRB registration |
 | **Notarial / authentication fees** | ~BHD 20–100 fixed | Public Notary office (under Ministry of Justice) |
 | **Real estate agent commission** | **2% (typical, negotiable)** of price — split or buyer-side per MOU | RERA-licensed brokers (Law 27/2017) |
 | **Conveyancer / lawyer** (optional but advisable for non-Bahrainis) | BHD 200–1,000 typical | Bahrain Bar — local lawyer; Hassan Radhi & Associates, ASAR, Al Tamimi BH, Trowers & Hamlins BH |
@@ -235,7 +242,7 @@ OSM `highway` class:
 
 (Sources: SLRB registration fee schedule `https://www.slrb.gov.bh/`; RERA broker regulations; bank schedules — *verify current fees at SLRB*)
 
-**Total transaction cost (buyer side, cash)**: **~3–4% of price** (2% SLRB + ~2% agent + lawyer + admin) for standard-band purchases — among the **lowest in the world** for foreign buyers; sliding-scale higher tiers can push to ~5%.
+**Total transaction cost (buyer side, cash)**: **~3.7–4.5% of price** (1.7–2.0% SLRB depending on filing within/after 60-day window + ~2% agent + lawyer + admin) — among the **lowest in the world** for foreign buyers. Worst case (filed >60 days, full 2.0% SLRB) tops out near 5%; filing within 60 days saves 0.3pp.
 
 ### Personal income tax — 0%
 
@@ -244,11 +251,12 @@ OSM `highway` class:
 - **NO inheritance tax**
 - **NO withholding tax** on dividends/royalties paid to non-residents (one of the most tax-friendly regimes globally for individuals)
 
-### Corporate income tax — 0% generally
+### Corporate income tax — 0% generally; DMTT 15% on MNEs LIVE from 1 Jan 2025
 
-- **No general corporate income tax** in Bahrain — unique among major GCC peers
-- **EXCEPTION**: Oil & gas companies pay **46% corporate tax** under Law 22/1979 (specific to upstream oil sector)
-- **Implication**: holding property through a Bahraini company doesn't attract income tax on rental income (other than VAT on commercial rents); but watch home-country tax residency
+- **No general corporate income tax** in Bahrain for non-MNE companies (unique among major GCC peers)
+- **EXCEPTION 1**: Oil & gas companies pay **46% corporate tax** under Law 22/1979 (specific to upstream oil sector)
+- **EXCEPTION 2 (LIVE since 1 Jan 2025)**: **Domestic Minimum Top-up Tax (DMTT) 15%** under **Decree-Law 11/2024** — applies to MNE groups with consolidated annual revenues **≥ EUR 750 million** in at least 2 of the prior 4 fiscal years; covers constituent entities (companies, branches, permanent establishments) in Bahrain; aligns with OECD Pillar Two GloBE Model Rules; filing registration + tax return + advance instalment payments in 2025; NBR-administered (2026-05-27 verified, source NBR + EY Global tax alert + KPMG Fakhro + BDO Bahrain + FTI Consulting + Middle East Briefing).
+- **Implication**: holding property through a non-MNE Bahraini company doesn't attract income tax on rental income; MNE-vehicle property holding may now trigger 15% DMTT — assess group-level revenue.
 
 (Source: National Bureau for Revenue (NBR) Bahrain — `https://www.nbr.gov.bh/`; Law 22/1979; Royal Decree-Law 33/2021 (VAT))
 
@@ -294,6 +302,7 @@ OSM `highway` class:
 - **Building OA approval**: Amwaj OA + most Bahrain Bay / Reef Island towers have specific clauses on short-let; verify with master OA before STR strategy
 - **Penalties**: fines + closure orders for unlicensed STR operation (per BTEA enforcement bulletins)
 - **VAT**: 10% applies to STR revenue if total taxable supplies > BHD 37,500/yr (NBR mandatory registration threshold)
+- **Tourist Accommodation Levy**: **BHD 3/room/night** on hotels + hotel apartments effective 1 May 2024 (Ministry of Tourism / BTEA — quarterly declaration via BTEA portal). Hotels + tourism restaurants also subject to **5% tourism levy** (separate from the BHD 3 nightly fee). Verify scope for any serviced-apartment / branded-residence with hotel operator before STR strategy (2026-05-27 verified, source KPMG Bahrain & GCC Tax News + AGBI + BTEA E-services).
 
 (Source: BTEA Tourism Establishments Law; NBR VAT Guide on Tourism — *verify current STR licensing pathway at BTEA*)
 

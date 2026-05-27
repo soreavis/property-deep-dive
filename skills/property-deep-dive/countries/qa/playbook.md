@@ -13,7 +13,8 @@ ISO2: `qa`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
 - **Currency**: QAR (Qatari Riyal). Pegged USD 1 = QAR 3.64 since July 2001 (Qatar Central Bank — Emiri Decree 34/2001)
 - **Languages**: Arabic (official, all formal contracts and Title Deeds in Arabic — bilingual EN/AR available in real-estate sector but Arabic prevails legally); English is the de-facto business language
 - **Cadastre / land registry**:
-  - **Real Estate Registration Department (REA)** — under Ministry of Justice — `https://www.moj.gov.qa/` — issues the Title Deed (Sanad Mulkiyya / سند ملكية)
+  - **Real Estate Registration Department (REA)** — under Ministry of Justice — `https://www.moj.gov.qa/` — issues the Title Deed (Sanad Mulkiyya / سند ملكية); operates under **Law No. 5 of 2024 Regulating Real Estate Registration** (gazetted 5 Jun 2024; implementing regs Jun 2025) which repealed Law 14/1964, introduced electronic registration with full legal force, mandatory registrability of all real-rights dispositions, and penalties up to QAR 500,000 + 3 years' imprisonment for non-compliance (2026-05-27 verified, source K&L Gates 2024-09-06 + Sultan Al-Abdulla & Partners)
+  - **Aqarat / RERA — General Authority for Regulating the Real Estate Sector (الهيئة العامة لتنظيم القطاع العقاري)** — `https://www.aqarat.gov.qa/` — established by **Law No. 28 of 2023**; central oversight body for developers, brokers, freehold zones, and the Qatar Real Estate Platform (QREP); foreign-buyer eligibility verification + broker-licence checks route through Aqarat alongside MCI (2026-05-27 verified, source aqarat.gov.qa primary)
   - **Ministry of Municipality** (MoM, formerly MME) — handles Affection Plans, building permits, Zone/Street/Building number assignment — `https://www.mm.gov.qa/`
   - **Ministry of Commerce and Industry (MCI)** — administers foreign-buyer designated-zone framework — `https://www.moci.gov.qa/`
 - **Identifier(s)**:
@@ -22,7 +23,10 @@ ISO2: `qa`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Affection Plan (شهادة تخطيط)** — issued by Ministry of Municipality; cadastral plot info
 - **Population**: ~3.05 M (2024 — Planning and Statistics Authority `https://www.psa.gov.qa/`); ~12% Qatari nationals + ~88% expatriates (2020 census + 2024 PSA bulletin)
 - **Recent reforms** (12-month watchlist):
-  - **Law 16/2018** + **Cabinet Decision 28/2020** + 2024 update — non-Qatari freehold expanded to 9 designated zones + 99-yr leasehold in 16 additional zones (was Pearl + West Bay Lagoon + Al Khor Resort only pre-2018)
+  - **Law 16/2018** + **Cabinet Resolution No. 28 of 2020** (a.k.a. Cabinet Decision 28/2020) + 2024 update — non-Qatari freehold expanded to 9 designated zones + 99-yr leasehold in 16 additional zones (was Pearl + West Bay Lagoon + Al Khor Resort only pre-2018)
+  - **Law No. 28 of 2023** — establishes **Aqarat / RERA** (General Authority for Regulating the Real Estate Sector) as central regulator for developers, brokers, freehold zones, and the Qatar Real Estate Platform (QREP) (2026-05-27 verified, source aqarat.gov.qa)
+  - **Law No. 5 of 2024 Regulating Real Estate Registration** — gazetted 5 Jun 2024; repeals Law 14/1964; introduces e-registration with full legal force; mandatory registrability of all real-rights dispositions; penalties up to QAR 500,000 + 3 years' imprisonment for non-compliance; implementing regulations issued Jun 2025 (2026-05-27 verified, source K&L Gates 2024-09-06)
+  - **Ministry of Justice 2026 fee-cut + exemption-expansion** (Jan 2026) — certain transfer fees on farms / marine lands reduced from 1% to 0.25% (now uniformly 0.25%) (2026-05-27 verified, source Qatar Tribune 2026-01-15 + QNA 2026-01-15)
   - **Law 10/2018 — Permanent Residency** — first GCC-state permanent-residency programme; QAR 1M qualifying-asset threshold including freehold real estate
   - **Law 21/2018 — Investor Residency** — real-estate investment ≥ QAR 730,000 grants 5-year renewable Permanent Residency Card (per MCI 2020 implementing regulations)
   - **Qatar National Vision 2030 (QNV2030)** + **Third National Development Strategy (NDS-3, 2024–2030)** — guides infrastructure + climate adaptation policy
