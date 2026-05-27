@@ -103,10 +103,31 @@ Once playbook research is started, three batches are unlocked:
 | **fo** | Faroe Islands | Distinct legal regime; Faroese-language primary sources; salmon-economy property dynamics |
 | **gl** | Greenland | Self-government in 2009; Inuit property-law overlay; geopolitical / mineral-rights interest |
 
-### Batch C — FR overseas + NL Caribbean (deferred pending demand signal)
+### ✅ Batch C — Schema decided 2026-05-27 (mixed: NL Caribbean standalone + FR DROM overlay)
 
-- French overseas (Martinique, Guadeloupe, Réunion, Mayotte, French Guiana, etc.) — applies metropolitan French law with overlays; foreign-buyer demand modest
-- Caribbean Netherlands (Aruba, Bonaire, Curaçao, Sint Maarten) — different legal status: Aruba/Curaçao/Sint Maarten are constituent countries; Bonaire/Saba/St Eustatius are special municipalities. Heterogeneous schema mess on its own.
+The Batch C jurisdictions deferred from PR #177 are unblocked under a **mixed-schema decision** driven by the constitutional-reality rule documented in `CONTRIBUTING.md` § Sub-sovereign jurisdictions § "Update 2026-05-27 — Batch C decision".
+
+**Decision rule**: standalone iff own primary tax authority + own land registry + own court system; otherwise DROM-style overlay.
+
+| Jurisdiction | ISO | Schema | Status |
+|---|---|---|---|
+| Aruba | `aw` | Standalone playbook | queued — Phase B |
+| Curaçao | `cw` | Standalone playbook | queued — Phase B |
+| Sint Maarten | `sx` | Standalone playbook | queued — Phase B (foreign-buyer fraud signal from r/SXM `1koayw9` flagged in gap-#3) |
+| Caribbean Netherlands (BES) | `bq` | Standalone playbook | queued — Phase B |
+| Guadeloupe | `gp` | DROM overlay (`shared/fr-drom-overlay.md`) | queued — Phase C |
+| Martinique | `mq` | DROM overlay | queued — Phase C |
+| French Guiana | `gf` | DROM overlay | queued — Phase C |
+| Réunion | `re` | DROM overlay | queued — Phase C |
+| Mayotte | `yt` | DROM overlay | queued — Phase C |
+
+**Country count after Phase B**: 109 → **113** (4 new standalone). DROM overlay does NOT increment country count (a single shared file documenting deltas, not standalone playbooks).
+
+**Phase B implementation pattern** (4 NL Caribbean standalone playbooks): same parallel-agent wave as Batches A+B — 4 research agents (one per jurisdiction, ≤16 web calls each, primary-gov sources) → validation agents (Reddit + Tavily cross-check + regulatory-watch.md cross-check) → integration agents → 4 PRs. Per-PR adds the ISO code to `config/_regions.json` (new region `nl_caribbean` or fold into `caribbean`) + `config/_tiers.json` (Tier-C 365d) + relevant entries in `config/_visa-programs.json` (Aruba Foreign Investor, Curaçao Investor Permit, Sint Maarten investment migration, BES — no investment-linked routes).
+
+**Phase C implementation pattern** (FR DROM overlay): 1 research agent producing `shared/fr-drom-overlay.md` (~250-350 lines) documenting DROM deltas across all 5 (TVA DROM rates 2.10% / 8.50% vs metro 5.5% / 20%; octroi de mer; taxe foncière abattements; Pinel Outre-Mer ended 31 Dec 2024 → Jeanbrun Outremer 2026; notary fee reduction; Letchimy law n°2018-1244 on indivision; Cerema-acknowledged cadastre deficit caveats for YT/GF; per-DROM neighborhood / risk specifics — cyclones GP/MQ/RE, seismicity GP/MQ, Soufrière GP, Mayotte 2018-2019 seismic swarm). Cross-linked from `countries/fr/playbook.md` § DROM annex (new section in fr/playbook.md). Loaded the same way other `shared/*.md` files are — no skill-loader change needed.
+
+Full research memo with per-jurisdiction primary-source verifiability scores (HIGH for 8/9, MEDIUM for YT due to Cerema cadastre deficit), Reddit demand signal (STRONG SX, MODERATE AW/CW, WEAK FR DROM + BQ), and 4-option pros/cons matrix lives at `_local/batch-c-schema-recommendation.md` (gitignored).
 
 ## Skip — not worth pursuing
 

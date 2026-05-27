@@ -59,9 +59,47 @@ Sub-sovereign jurisdictions with their own tax authority, land registry, and cou
 
 Each playbook adds the ISO code to `config/_regions.json` + `config/_tiers.json` (Tier-C 365d default for low-volume jurisdictions) + relevant entries in `config/_visa-programs.json` (Jersey HQ-1(1)(k) / 2(1)(e); Guernsey Open Market / Inscribed; Isle of Man T1 Investor; Gibraltar Cat-2; etc.) in the SAME PR as the playbook itself — never decouple config from playbook content.
 
-**Out of scope of this policy** (decision deferred):
-- French overseas departments (GP / MQ / GF / RE / YT) — legally integral parts of France with French property law applying. Standalone playbook vs `fr/playbook.md` overlay is a separate call.
-- NL Caribbean (Aruba / Curaçao / Sint Maarten = constituent countries; Bonaire / Saba / St Eustatius = special municipalities) — heterogeneous status warrants its own decision.
+### Update 2026-05-27 — Batch C decision (FR DROM + NL Caribbean)
+
+The deferred Batch C jurisdictions are unblocked under a mixed-schema decision driven by a clean rule:
+
+**Decision rule**: a jurisdiction gets a standalone ISO-3166-1 alpha-2 playbook iff it has its own primary tax authority + its own land registry + its own court system that publish in their own name. Otherwise the jurisdiction is covered as a **DROM-style overlay** — deltas-only content in a shared file (`shared/<region>-overlay.md`) cross-linked from the parent playbook.
+
+**Applied to Batch C**:
+
+| Jurisdiction | ISO | Schema | Primary-source anchor |
+|---|---|---|---|
+| Aruba | `aw` | Standalone | DIMP tax authority (`gobierno.aw`), own kadaster, AWG currency, eigendom + erfpacht |
+| Curaçao | `cw` | Standalone | Own Kadaster Curaçao, 4% transfer tax |
+| Sint Maarten | `sx` | Standalone | `tax.sx` + `kadaster.sx`, no property tax + no CGT (foreign-buyer hook), own court system |
+| Caribbean Netherlands (Bonaire + Saba + St Eustatius) | `bq` | Standalone | `belastingdienst-cn.nl`, USD currency, vastgoedbelasting 0.7% national + 30% Bonaire surcharge → 0.91% effective, 5% overdrachtsbelasting |
+| Guadeloupe | `gp` | DROM overlay in `shared/fr-drom-overlay.md` | Same `impots.gouv.fr` + French cadastre + French courts as FR; DROM-specific BOFiP entries |
+| Martinique | `mq` | DROM overlay | Same FR infrastructure |
+| French Guiana | `gf` | DROM overlay | Same + Cerema cadastre-deficit caveat |
+| Réunion | `re` | DROM overlay | Same FR infrastructure |
+| Mayotte | `yt` | DROM overlay | Same + Cerema-acknowledged "very deficient cadastre, absence of property titling" caveat |
+
+**Rationale**: FR DROM are constitutionally integral parts of France (Code civil applies, euro, EU territory) — they share `impots.gouv.fr`, the French cadastre, and French courts; a standalone playbook would duplicate ~80% of `countries/fr/playbook.md`. NL Caribbean (AW / CW / SX / BQ) each have their own primary tax authority + own land registry + own court system — they pass the standalone test exactly like the Crown Dependencies (Batch A).
+
+**Decision-rule generalisation** — the rule extends cleanly to likely future cases without contradiction:
+
+| Future case | Decision under this rule |
+|---|---|
+| Canary Islands (ES) | overlay (IGIC sub-regime but shares ES tax authority + ES cadastre) |
+| Azores / Madeira (PT) | overlay (autonomous region within PT) |
+| Ceuta / Melilla (ES) | overlay (no VAT but ES infrastructure) |
+| Åland Islands (FI) | overlay (tax-sub-regime, EU-derogation, FI courts) |
+| Svalbard (NO) | standalone (Svalbard Treaty 1920 creates distinct regime) |
+| US territories (PR / USVI / Guam / AS) | standalone (own Hacienda + own courts) |
+| UK overseas territories (BM / KY / TC / VG / AI / MS) | standalone (matches Batch A `gi` precedent) |
+
+**Implementation phases**:
+
+- **Phase A** (this PR) — schema decision committed (CONTRIBUTING.md + ROADMAP.md only)
+- **Phase B** — 4 NL Caribbean standalone playbooks (research-wave matching the Batch A/B precedent)
+- **Phase C** — 1 FR DROM shared overlay file (`shared/fr-drom-overlay.md`)
+
+Full research memo with per-jurisdiction primary-source verifiability scores + Reddit demand signal + pros/cons matrix lives at `_local/batch-c-schema-recommendation.md` (gitignored).
 
 ## Logging a regulatory-watch entry
 
