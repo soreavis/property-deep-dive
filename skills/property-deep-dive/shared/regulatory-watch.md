@@ -254,6 +254,10 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2025-07-01 | tax | Bëllegen Akt €40k credit per person made PERMANENT | AED | 2026-04-26 | 2027-01-01 | 2 | --tax`
 - `2030-01-01 (pending) | tax | IFON (impôt foncier) phased reform — replacing current 1941-vintage values | AED + ACT | 2026-04-26 | 2026-12-01 | 2 | --tax`
 
+### 🇲🇨 MC
+
+- `2024-XX-XX | visa | Monaco citizen portal renamed `service-public-particuliers.gouv.mc` → `monservicepublic.gouv.mc`; all sub-domain content (residence applications, Étrangers/Vivre-en-Principauté/Conditions-de-residence flows, online forms) migrated; 301 redirects confirmed via WebFetch but the deep-link tree restructured — verify current path before citing | Gouvernement Monaco | 2026-05-27 | 2027-12-31 | 4 | --visa --relocation (MC)`
+
 ### 🇨🇾 CY
 
 - `2026-01-01 | tax | Comprehensive Tax Reform — CGT principal-residence exemption €17,086 → €30,000; agricultural €25,629 → €50,000; other €17,086 → €150,000; SDC on rental abolished | Ministry of Finance | 2026-04-26 | 2026-09-01 | 1 | --tax --rental`
@@ -376,6 +380,10 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2024-2025 | visa | Proposed 99-yr lease + 75% condo quota — under Cabinet discussion; NOT enacted as of May 2026 | Cabinet of Thailand | 2026-05-01 | 2026-09-01 | 2 | --visa --price`
 - `2024 | tax | Foreign-source income remittance taxation — Revenue Dept interpretation evolving | Revenue Department | 2026-05-01 | 2026-08-01 | 2 | --tax --visa`
 
+### 🇹🇼 TW
+
+- `2023-XX-XX | rental | Taiwan Tourism Bureau reorganised into **Tourism Administration MOTC** at `admin.taiwan.net.tw`; legacy `dot.gov.tw` URLs retired; same authority chain under the Ministry of Transportation and Communications; STR analytics + tourism statistics still published at the new portal | MOTC Taiwan | 2026-05-27 | 2027-12-31 | 4 | --rental (TW)`
+
 ### 🇩🇴 DO
 
 - `2017 | finance | AML Ley 155-17 + UAF — beneficial-owner disclosure + source-of-funds proof for property transactions | UAF | 2026-05-01 | 2026-12-01 | 3 | --finance --notary`
@@ -451,6 +459,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2024-08-01 | rental | HCMC residential STR BAN — Decision 26/2024/QD-UBND of HCMC People's Committee, in force 1 Aug 2024, interpreting 2023 Housing Law: residential apartment buildings cannot operate STR; only mixed-use condotels permitted as tourism accommodation. Hanoi has no specific STR regulation as of 2026; business registration with DoF still required | HCMC People's Committee + Vietnamlawmagazine | 2026-05-11 | 2026-08-01 | 1 | --rental`
 - `2026-09-11 | connectivity | Hague Apostille convention enters into force for VN — POA chain shifts from full consular legalisation to apostille; calendar-actionable re-stamp of shared/connectivity.md + shared/language.md | HCCH + Vietnam MFA | 2026-05-08 | 2026-09-15 | 2 | --connectivity --language`
 - `pending | connectivity | Starlink licence still under review — SpaceX received conditional pilot approval 2024 but no commercial-licence as of 2026-05-08; verify on SpaceX availability map | MIC | 2026-05-08 | 2026-08-01 | 2 | --connectivity`
+- `2025-03-01 | cadastre | MONRE (Ministry of Natural Resources and Environment, Bộ Tài nguyên và Môi trường) merged with MARD (Ministry of Agriculture and Rural Development) to form **MAE (Ministry of Agriculture and Environment)** effective 1 March 2025; Department of Land Administration + Office for Land Use Rights Registration (VPĐKĐĐ) re-housed under MAE; cadastre web-portal moved to `en.mae.gov.vn`; existing 2024 Land Law and 2023 Housing Law authorities unchanged in substance, only the parent ministry's name + URL | Vietnam National Assembly Resolution 176/2025/QH15 + en.mae.gov.vn confirmation | 2026-05-27 | 2027-03-01 | 2 | --notary --remote (VN)`
 
 ### 🇵🇭 PH
 
@@ -493,6 +502,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2025-07-01 | tax | New 0/10/20% PIT brackets effective 1 Jul 2025 (Finance Act 2025) — replacing prior 15% flat | MRA Mauritius Revenue Authority | 2026-05-07 | 2026-09-01 | 2 | --tax`
 - `2025-XX-XX (Finance Act 2025) | visa | Retirement Permit threshold raised USD 1,500/mo → USD 2,000/mo (Non-Citizen Retiree route — passport.govmu.org) | EDB + Passport Office | 2026-05-07 | 2026-09-01 | 2 | --visa`
 - `2025-02-XX | foreign-buyer | EDB published Amendments to IRS/RES/IHS/PDS/SCS regulations Feb 2025 — new mandatory requirements for non-citizens | EDB Mauritius (FAQ-Amendments document) | 2026-05-07 | 2026-09-01 | 2 | --tax ownership --visa`
+- `2024-XX-XX | tax | Mauritius statutes consolidated to **lawsofmauritius.govmu.org** (Attorney-General's Office portal); legacy mra.mu /download/*.pdf URL tree for the Land (Duties & Taxes) Act, Registration Duty Act + Finance (Misc Provisions) Acts retired; MRA retains tax administration but the AG portal is now the canonical primary source for statutes | Attorney-General's Office Mauritius — lawsofmauritius.govmu.org | 2026-05-27 | 2027-12-31 | 4 | --tax --notary (MU)`
 
 ### 🇰🇿 KZ
 
@@ -582,6 +592,10 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2022-XX-XX | tax | Electronic Transfer Levy 1% on electronic transactions (Act 1075/2022 reduced from 1.5% → 1% via Act 1089 in 2023) — verify current rate at GRA | Ghana Revenue Authority | 2026-05-08 | 2026-12-01 | 3 | --tax`
 - `2020-XX-XX | foreign-buyer | Lands Act 2020 (Act 1036) consolidated 6 prior land statutes — entered into force 2020; constitutional 50-year leasehold cap for non-Ghanaians (Art. 266) PRESERVED; customary tenure (stool / skin / family / clan) overlays ~78% of total land area per Lands Commission classification | Lands Commission Ghana — `https://lc.gov.gh/` | 2026-05-08 | 2027-01-01 | 1 | --visa ownership --notary`
 
+### 🇰🇪 KE
+
+- `2024-XX-XX | tax | Stamp Duty payment workflow for property transfers migrated from the Kenya Revenue Authority (KRA) eService portal to the **Ministry of Lands & Physical Planning Ardhi Sasa platform** (`ardhisasa.lands.go.ke`); KRA retains the Stamp Duty Act Cap 480 statute interpretation + advisory role but stamp duty calculation + e-payment + receipt now under Min of Lands; buyers must register on Ardhi Sasa to pay the duty before LSK can register the transfer; some KRA `kra.go.ke/business/*` and `kra.go.ke/individual/individual-pin-taxes/*` legacy paths still 404 | Ministry of Lands & Physical Planning Kenya + KRA | 2026-05-27 | 2027-06-30 | 2 | --tax --notary --remote (KE)`
+
 ### 🇷🇼 RW
 
 - `2024-XX-XX | tax | Cabinet-approved Property Tax Reform 2024 — Land Tax compressed FRW 0-300/m² → FRW 0-80/m² band (varies by district + use); Building Tax 0.5% residential / 0.3% commercial / 0.1% industrial of market value; Sale levy 2% registered taxpayer / 2.5% unregistered | RRA + Kigali Times Finance Law 2024/2025 | 2026-05-08 | 2026-09-01 | 2 | --tax`
@@ -595,6 +609,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2026-XX-XX | tax | 2026 +7% land/property/water indexation (per EY) — annual indexation of land tax + property tax + water tax + similar | EY Tax Alert Uzbekistan | 2026-05-08 | 2026-09-01 | 2 | --tax`
 - `2022-07-16 | foreign-buyer | Cabinet of Ministers Resolution No. 384 of 16 July 2022 (PQ-384) — expanded eligibility to citizens of 108 countries to acquire built real estate (apartments / houses / commercial premises) WITHOUT residence permit; pre-2022 regime required residence permit first — gate now removed for EU/UK/US/CA/AU/NZ/JP/KR + GCC + most Asia; Land Code Articles 17-18 PROHIBITION on foreign land ownership PRESERVED | Kun.uz coverage of PQ-384 + Azizov & Partners legal memo | 2026-05-08 | 2027-01-01 | 1 | --visa ownership`
 - `2017-09-XX | currency | Dual-rate "black market" gap closed September 2017 under Mirziyoyev liberalisation (Decree UP-5177); pre-2017 official ~3,000 UZS/USD vs unofficial ~8,000/USD (~2.5× spread); since Sep 2017 managed-float with active CBU intervention; cumulative depreciation 2017→2026 ~3,200 → ~12,500 UZS = ~290% nominal devaluation over ~9 years | Central Bank of Uzbekistan — `https://cbu.uz/en/` | 2026-05-08 | 2026-12-01 | 2 | --currency --finance`
+- `2024-XX-XX | mains | Tashkent water utility "Suvsoz" rebranded **Toshkent shahar suv ta'minoti MCHJ** under O'zsuvta'minot AJ; new web portal `toshkent.uzsuv.uz` (legacy `suvsoz.uz` offline); operational responsibilities unchanged | Agency for the Operation of Water Management Facilities UZ + my.gov.uz/en/authority/844 | 2026-05-27 | 2027-12-31 | 4 | --mains (UZ)`
 
 ---
 
