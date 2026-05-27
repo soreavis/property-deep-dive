@@ -13,7 +13,7 @@ ISO2: `az`. Status: ✅ Fully populated (researched 2026-05).
 - **Admin levels**: 11 economic regions → 66 rayons (districts/raions) + 11 cities of republican subordination + 1 autonomous republic (Naxçıvan/Nakhchivan, exclave) → ~4,500 municipalities + settlements. Karabakh + East Zangezur economic regions reintegrated 2020–2023 (see Caveats)
 - **Cadastre**: **State Service on Property Issues (SCSI)** under Ministry of Economy — `https://emdk.gov.az/` operates the State Register of Real Estate (Daşınmaz əmlakın dövlət reyestri); citizen interface via **e-emlak.gov.az** + **e-gov.az** (single sign-on) + **ASAN Service** one-stop offices nationwide
 - **Identifier**: Real Estate Cadastral Number (`Daşınmaz əmlakın kadastr nömrəsi`) format `XX-XXX-XX-XXXX-XXX` (region.district.block.parcel.unit) per Law on Real Estate State Register No. 270-IIIQ of 2004
-- **Foreign-buyer rule**: **residential freehold OPEN to foreigners** with same rights as Azerbaijani citizens (Constitution Art. 13 + Land Code 1999 Art. 5 + Civil Code Art. 152). **Agricultural land BANNED for foreigners** (Land Code Art. 47–48 — only AZ citizens, AZ legal entities with AZ ownership, the State, and municipalities); **border zones + strategic-security areas** require case-by-case approval (often denied) per Cabinet Decree on Border Regime. Foreigners must register acquired property at SCSI within **1 month** of deed signing.
+- **Foreign-buyer rule** (2026-05-27 verified, sources Land Code Art. 48.3 + Art. 49, AZ MFA New Delhi reference document, emze.az, vlolawfirm.com, norma.az): **foreigners may own buildings / apartments / individual houses** as full freehold structures, with same registration/rights as AZ citizens (Constitution Art. 13 + Civil Code Art. 152). **Foreigners CANNOT own LAND of any class** — agricultural, forest, residential plot, urban — per **Land Code Art. 48.3** (foreigners lease only) **+ Art. 49** (ag/forest/border ownership ban). For an apartment in a multi-unit building, this is moot (land is collective/state). For a **standalone house with plot**, the foreigner owns the structure but the land must be held under a long lease (up to 99 years) from the State or AZ private landowner. **Border zones + strategic-security areas** require case-by-case approval (often denied) per Cabinet Decree on Border Regime. Foreigners must register acquired property at SCSI within **1 month** of deed signing.
 - **Visa**: **Visa-free 30–90 day** entry for ~70 nationalities (Russia, Türkiye, GCC, Israel, Belarus, CIS); **e-visa via ASAN Visa** (`https://evisa.gov.az/`) for ~100 nationalities incl. EU, UK, US, CA, AU, NZ, JP, KR — 3-day processing, ~US$25 fee; visa-on-arrival NOT generally available
 
 ---
@@ -123,14 +123,14 @@ AZN, USD/AZN ≈ 1.70 (CBAR de-facto peg since 2017). All tax computations in AZ
 
 Governed by [Tax Code of the Republic of Azerbaijan](https://www.taxes.gov.az/) Title VIII; rates set centrally by Tax Code with municipal collection.
 
-**Residential immovables (apartments + houses) — natural persons** (Art. 198):
-- Property in Baku: progressive sliding 0.1–0.4 % of cadastral value (Art. 198.1.1):
-  - up to 30 m² inventory area: **0 %** (exempt floor)
-  - 30–120 m² portion: **AZN 0.4/m²** flat
-  - 120 m²+ portion: **AZN 0.4/m² + 0.6 % of value above 120 m² band**
-- Property outside Baku (Sumqayit, Ganja, regional cities): **AZN 0.3/m²** for 30–120 m² band; **AZN 0.3/m² + 0.6 %** above
-- Rural settlements: **AZN 0.1/m²** for 30–120 m² band
-- (Rates per Tax Code Art. 198 as amended 2024 — verify current at taxes.gov.az)
+**Residential immovables (apartments + houses) — natural persons** (Art. 198; 2026-05-27 verified, sources PwC Worldwide Tax Summaries Azerbaijan + Tax Code Art. 198):
+
+The tax is **AZN-per-m² of inventory area** (NOT a percentage of cadastral value), with a value-based 0.6 % uplift only above the 120 m² band:
+- up to 30 m² inventory area: **0 %** (exempt floor)
+- 30–120 m² portion: **AZN 0.4/m² base rate** in Baku; AZN 0.3/m² in Sumqayit / Ganja / Absheron / other republican-subordination cities; AZN 0.2/m² in other cities; AZN 0.1/m² in rural settlements
+- 120 m²+ portion: same per-m² base **plus** 0.6 % of inventory value attributable to the area above 120 m²
+
+**Baku district (rayon) coefficient** (2026-05-27 verified, source PwC + Wikipedia Taxation in Azerbaijan): the Baku base AZN 0.4/m² is multiplied by a **location coefficient of 0.7 to 1.5** depending on rayon, so effective Baku per-m² rates range AZN 0.28–0.60/m² before the above-120 m² 0.6 % component triggers. Confirm rayon coefficient via the rayon municipal tariff or e-gov.az before final computation.
 
 **Property of legal entities** (Art. 199):
 - 1 % of average annual book value of fixed-asset immovable property; collected by State Tax Service
@@ -168,17 +168,20 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 - **SCSI cadastral registration fee**: ~AZN 10–30 standard, ~AZN 50–100 urgent (verify SCSI tariff)
 - **Total transaction cost** (buyer side, individual–individual resale): typically **1–2 % of price** before agent commission
 
-### Capital gains tax
+### Capital gains tax on residential property — individual sellers (2026-05-27 verified, source Caspian Legal Center "Taxation of capital gains in Azerbaijan")
 
-- **Resident individual sale of residential immovable** held **≥ 3 years** as primary residence: **EXEMPT** from PIT (Tax Code Art. 102.1.18 — confirm scope in current Tax Code text)
-- Held < 3 years OR not primary residence: **14 % flat PIT** on net gain (sale price − adjusted cost base − allowable expenses) per Tax Code Art. 101 (since 2018 Tax Reform unified PIT to 14 % flat)
-- **Non-resident**: 10 % WHT on gross sale value of AZ-located immovable (Tax Code Art. 125 + Art. 101.4 — verify current brackets); higher than resident effective rate for low-margin sales but no requirement to document cost base
+- Individual-seller property gains are **NOT** taxed on net gain at the general PIT rate. A **simplified property-transfer tax is withheld by the notary** (notary acts as the seller's tax agent) at deed signing, calculated as **per-m² unit price × statutory coefficient** under the Art. 220-series simplified-tax schedule. The proceeds are then **excluded from the seller's annual taxable income**.
+- The prior playbook claim of a "3-year primary-residence exemption under Art. 102.1.18" is **NOT corroborated** by PwC, Caspian Legal Center, or current taxes.gov.az text (appears transposed from CZ/RU/SK analogs); **treat as fabricated pending direct Tax Code verification** at taxes.gov.az. Do not rely on it for buyer/seller planning.
+- **Non-resident individual**: 10 % WHT on gross transaction value of AZ-located immovable is widely cited but the article anchor needs re-verification against current Tax Code text (data not publicly verified — verify at taxes.gov.az).
+- **Legal-entity seller**: gain included in 20 % CIT base.
 
-### Personal income tax — general (Tax Code Art. 101, post-2018 Reform)
+### Personal income tax — general (Tax Code Art. 101; 2026-05-27 verified, sources Wikipedia Taxation-in-Azerbaijan + QuickBooks Global Tax Tables + Caspian Legal Center 2025/2026 amendment summaries)
 
-- **14 % flat PIT** for natural persons on most income types (replaced prior progressive 14 %/25 % bracketed system)
-- Employment income up to AZN 8,000/month (in non-oil private sector): **0 % PIT** under 7-year incentive scheme (Law of 1 Jan 2019 — verify expiry; original sunset 2026, may extend)
-- **Rental income**: 14 % flat (or 0 % under non-oil private sector incentive if landlord meets criteria — narrow scope)
+- **PIT is progressive, NOT a 14 % flat rate** (the prior playbook framing conflated the general regime with the non-oil employee incentive). Standard bands (Art. 101):
+  - Monthly income up to **AZN 2,500**: **14 %**
+  - Monthly income above AZN 2,500: **AZN 350 + 25 %** on the excess
+- The **0 % up to AZN 8,000 / 14 % above** band is a **separate 7-year incentive** for non-oil non-government **employees** of private-sector employers (Law of 1 Jan 2019, originally sunset 2026). From **1 Jan 2026** the non-oil private-sector employee scheme transitions to a graduated structure (2026 budget package, first reading; cross-check final text at meclis.gov.az): up to AZN 2,500 → **3 %** (rising 5 % in 2027, 7 % in 2028); 2,500–8,000 → AZN 75 + 10 % over 2,500; >8,000 → AZN 625 + 14 % over 8,000.
+- **Rental income from residential property paid to individuals**: **14 %** for 2024–2025; **reduced to 10 %** from **1 Jan 2026** (APA 2026-budget-package reporting; Caspian Legal Center 2026 amendments — cross-check final text). Notary or tax-agent withholds at source.
 - **Corporate income tax (CIT)**: 20 % (Tax Code Art. 105)
 - **Dividend WHT**: 10 % (Art. 122)
 
@@ -885,11 +888,10 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 |---|---|
 | Estate agent commission | typically **2–4 %** of sale price (often paid by seller; sometimes split) |
 | Notary fee (seller side typically partial) | 0.5–1.0 % of contract value (sliding) |
-| **CGT 14 % on net gain** if held < 3 years OR not primary residence (Tax Code Art. 101 + 102) |
-| **CGT exempt** if primary residence held ≥ 3 years (Art. 102.1.18 — verify current scope) |
-| **Non-resident CGT**: 10 % WHT on gross sale value (Art. 125) |
+| **Notary-withheld simplified property-transfer tax** (per-m² × statutory coefficient under Art. 220-series; 2026-05-27 verified, source Caspian Legal Center) — replaces a CGT-on-gain; proceeds excluded from seller annual income |
+| **Non-resident gross-value WHT (~10 %)** widely cited but article anchor needs re-verification — data not publicly verified — verify at taxes.gov.az |
 | Mortgage early-discharge fee | typically 1–2 % of outstanding balance, capped per loan agreement |
-| Total exit cost | **typically 3–5 % of sale price** for primary residence held > 3 yrs (no CGT); 5–8 % for investment property (CGT applies) |
+| Total exit cost | **typically 3–6 % of sale price** for resident individual residential sale (notary tax + agent + notary fee); higher for non-resident or commercial/legal-entity sales |
 
 ### Liquidity by sub-segment (qualitative, 2026)
 
@@ -935,8 +937,9 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 
 - **0 % VAT on first sale of residential by licensed developer** (Tax Code Art. 164.1.5)
 - **Simplified Tax 2 %** on turnover for individual entrepreneurs in qualifying activities (Tax Code Art. 218–222)
-- **Non-oil private-sector PIT 0 % up to AZN 8,000/month** under 7-year incentive scheme (verify expiry — original sunset 2026)
-- **CGT primary-residence exemption** after 3-year holding (Tax Code Art. 102.1.18)
+- **Non-oil private-sector employee PIT** — 0 % up to AZN 8,000/month under the 7-year scheme through 2025; **transitions to graduated 3 % / 10 % / 14 % bands from 1 Jan 2026** (2026-05-27 verified, sources APA + Caspian Legal Center 2026 amendments)
+- **Residential rental income paid to individuals**: 14 % (2024–2025) → **10 % from 1 Jan 2026** (2026-05-27 verified, source APA 2026-budget-package reporting)
+- **Individual seller property transfer**: notary-withheld per-m²-based simplified tax under Art. 220-series (no separate CGT on net gain; the previously claimed "3-year primary-residence exemption under Art. 102.1.18" is unverified — data not publicly verified — verify at taxes.gov.az)
 - **AMF state-subsidised mortgage** at 5–9 % rates for AZ-citizen first-time buyers (`https://amcgf.gov.az/`)
 - **Karabakh + East Zangezur reconstruction zones**: special tax incentives + subsidised mortgages for displaced returnees + qualifying investors (Presidential Decree on State Programme for Restoration)
 - **High Technology Park (YTP)**: significant CIT/VAT incentives for resident IT firms
@@ -953,8 +956,8 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 
 ## Caveats unique to AZ
 
-- **Foreigners CAN buy residential freehold without restriction** (Constitution Art. 13 + Civil Code Art. 152) — same rights as citizens
-- **Foreigners CANNOT own agricultural OR border-zone OR strategic-security land** (Land Code Art. 47–48) — case-by-case approval often denied
+- **Foreigners CAN own buildings, apartments, and individual house structures as full freehold** (Constitution Art. 13 + Civil Code Art. 152; 2026-05-27 verified, sources AZ MFA New Delhi + Land Code Art. 48.3 / 49). For apartments this is operationally identical to citizen ownership (land is collective/state). For **standalone houses** the structure is owned freehold but the **plot underneath must be held under a long lease (up to 99 years)** — foreigners cannot own land of any class
+- **Foreigners CANNOT own LAND of any class — agricultural, forest, urban, residential plot** (Land Code Art. 48.3 lease-only + Art. 49 ownership ban for ag/forest/border); ag + border + strategic = banned outright
 - **1-month registration deadline** for foreign buyers post-deed at SCSI — late registration triggers penalty + procedural complication
 - **AZN/USD de-facto peg at 1.70** since 2017 — among the most stable regional currencies for USD buyers; tail risk on sustained oil shock
 - **Soviet-era panel stock** (1955–1991): asbestos + uneven seismic retrofit; pre-1990 dominant in Baku/Sumqayit/Ganja resale; commission independent structural survey

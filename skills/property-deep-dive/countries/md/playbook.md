@@ -13,7 +13,7 @@ ISO2: `md`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Admin levels**: 32 raioane (districts) + 3 municipalities (Chișinău, Bălți, Bender) + 1 autonomous territorial unit (UTA Găgăuzia) + Stânga Nistrului (Transnistria — disputed; **Moldovan ASP cadastre does NOT issue valid extracts here**)
 - **Cadastre**: **Agenția Servicii Publice (ASP)** — `cadastru.md` is the unified registry of immovable property + cadastral plans (since 2012 ASP merger consolidated former Cadastrul Bunurilor Imobile + Camera Înregistrării de Stat)
 - **Identifier**: cadastral number (`numărul cadastral`) format `XXXX XXX XXX XX` (locality.zone.block.parcel) per Law No. 1543 of 25 Feb 1998 (Cadastru Law)
-- **Foreign-buyer rule**: **residential freehold OPEN to foreigners** (no restriction since 2002 Civil Code modernisation); **agricultural + forest land BANNED** for foreign individuals + foreign legal entities under **Land Code Art. 6 + Art. 19** (Law No. 828 of 25 Dec 1991, as amended) — only Moldovan citizens, Moldovan legal entities (with Moldovan ownership), the State, and local public authorities may own ag/forest land. SRL workaround with Moldovan citizen co-owners is common but legally fragile (see `--visa` + Caveats)
+- **Foreign-buyer rule**: **residential freehold OPEN to foreigners** (no restriction since 2002 Civil Code modernisation); **agricultural + forest land BANNED** for foreign individuals + foreign legal entities (including Moldovan SRLs with foreign capital, even minority) under the **new Land Code in force 1 April 2025** (superseding Law No. 828-XII of 25 Dec 1991; 2026-05-27 verified, source jarniascyril.com guide + gov.md press archives) — only Moldovan citizens, Moldovan legal entities (with Moldovan ownership), the State, and local public authorities may own ag/forest land. Inherited / court-judgment / mortgage acquisitions trigger **mandatory divestment within 1 year**. The SRL-with-Moldovan-citizen-co-owners workaround is **more legally fragile under the new Code's explicit treatment of foreign-capital SRLs** (see `--visa` + Caveats)
 - **Visa**: **90/180-day visa-free** for EU/EEA, UK, US, CA, AU, NZ, JP, KR, IL, GCC states (Law No. 200 of 16 Jul 2010 on regime of foreigners + Government Decision 384/2014 visa list); investor residence under same law for ≥ €250,000 economy investment
 
 ---
@@ -145,11 +145,22 @@ Same flat in Botanica, sectorul rate 0.1%, cadastral value 1,200,000 MDL:
 - **ASP cadastral registration fee**: ~150–300 MDL standard, ~500–800 MDL urgent (verify ASP tariff)
 - **Total transaction cost** (buyer side, individual–individual resale): typically **1.5–3% of price** before agent commission
 
-### Capital gains tax — individual sale (Tax Code Art. 18 + Art. 20)
+### Capital gains tax — individual sale (Tax Code Art. 18, 20, plus standard 12 % PIT under Art. 15; 2026-05-27 verified, sources PwC Tax Summaries Moldova (last reviewed 14 Jan 2026) + globalpropertyguide.com + intelcont.md)
 
-- **6% flat** on **net capital gain** (sale price − adjusted cost base; NOT on gross) — applied via personal income declaration (Art. 18 lit. e)
-- **Primary residence exemption**: gain on sale of dwelling owned + used as primary residence for **≥ 5 years** is **exempt** (Art. 20 lit. y — confirm scope in current Tax Code text)
-- Withheld by notary or self-declared on annual form CET18
+- **There is no separate CGT rate in Moldova.** The capital gain on real-estate sale by an individual is **50 % included in gross income** (effective 1 Jan 2020; pre-2020 inclusion was 20 %) and taxed at the standard **12 % PIT** under Art. 15 → **effective burden ≈ 6 % of the gross gain**. The prior playbook framing of a "6 % flat CGT" was structurally misleading — the 6 % effective rate is coincidental, not a standalone tax line.
+- **Primary-residence exemption** (Tax Code Art. 20): the gain on sale of a dwelling **owned for ≥ 3 years AND used as the taxpayer's domicile during the 3 years immediately prior to sale** is **fully non-taxable**. The exemption is **3 + 3 years, NOT 5 years** (the prior playbook 5-year figure was wrong — affects resale-timing decisions).
+- Withheld by notary or self-declared on annual form CET18.
+
+### Wealth / luxury tax on high-value residential (Tax Code Title VI¹ — "Impozit pe avere"; 2026-05-27 verified, sources PwC Tax Summaries Moldova other-taxes + logos-pres.md + intelcont.md)
+
+Moldova has a **0.8 % wealth tax on high-value residential real estate** since 2016 (the playbook previously asserted "no wealth tax" — this was wrong):
+
+- **Rate**: 0.8 % of cadastral value of the **building** (land excluded)
+- **Threshold (both must be met)**: (a) dwelling total estimated value ≥ **200 × average forecast monthly economy wage** AND (b) **floor area ≥ 120 m²**
+- **2025 threshold (value test)**: ~**3.22 million MDL** (~€163k–€168k at current BNM rates)
+- **Payment**: notified by the territorial tax office based on a 1 November snapshot; due by **25 December** of the reporting year
+
+This is a meaningful annual cost for any foreign buyer targeting a 130 m²+ Chișinău Centru flat priced above ~€170k.
 
 ### Rental income tax (Tax Code Art. 88¹)
 
@@ -172,6 +183,7 @@ Same flat in Botanica, sectorul rate 0.1%, cadastral value 1,200,000 MDL:
 
 ### Future risk
 
+- **January 2027 cadastral revaluation** (2026-05-27 verified, source EuropaLibera Moldova reporting + government press): scheduled reset of the cadastral-value base across ~6 million immovables, **officially projected to raise effective property-tax bills by ~150–190 %** without any rate change. A €120k Chișinău Centru flat paying ~€216/yr today would move to ~€540–€620/yr post-revaluation — re-verify after the October 2026 approval round and recompute TCO. Single largest 2026–2027 buyer-decision signal for MD purchases in the next 18 months.
 - **EU candidate status (Jun 2022) + accession opening (Jun 2024)**: harmonisation pressure on transfer-tax + AML alignment; expect tightening of beneficial-ownership transparency over 2026–2030 horizon
 - **2024 Constitutional reform** enshrined EU-integration objective — irreversible direction without further constitutional change
 - **Tax Code amendments** announced annually via November budget law; monitor `https://www.fisc.md/` + `https://www.parlament.md/`
@@ -650,8 +662,8 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 ### Tax position for retirees
 
 - **Foreign-source pension income**: typically taxed at **12% PIT** if MD-resident (Tax Code Art. 18); **double-tax treaties** (Romania, Germany, Italy, France, UK, US, Russia, Israel — verify per source country) may credit/exempt
-- **No CGT after 5-yr primary-residence holding** (Tax Code Art. 20 lit. y)
-- **No wealth tax, no inheritance tax** — Moldova doesn't levy estate/inheritance tax (verify per Tax Code; intra-family donations exempt under Art. 20)
+- **CGT exemption** on residential sale where the dwelling was **owned ≥ 3 years AND used as the seller's domicile for the 3 years up to sale** (Tax Code Art. 20; 2026-05-27 verified, source PwC). Otherwise the gain is 50 %-included → 12 % PIT → ≈ 6 % effective
+- **Moldova DOES levy a 0.8 % wealth tax** on residential buildings simultaneously meeting (a) value ≥ 200 × average forecast monthly economy wage (~3.22M MDL in 2025) AND (b) floor area ≥ 120 m² — see §`--tax` Luxury/wealth tax (2026-05-27 verified, source PwC). **No inheritance tax** — Moldova doesn't levy estate/inheritance tax (intra-family donations exempt under Art. 20)
 
 ### Healthcare access
 
@@ -813,10 +825,10 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 |---|---|
 | Estate agent commission | typically **2–4%** of sale price (often paid by seller; sometimes split) |
 | Notary fee (seller side typically) | 0.1–1.5% of contract value (sliding) |
-| **CGT 6% on net gain** if held < 5 years OR not primary residence (Tax Code Art. 18 + Art. 20) |
-| **CGT exempt** if primary residence held ≥ 5 years (Art. 20 lit. y) |
+| **Capital gain on residential sale**: 50 % included in gross income, taxed at standard 12 % PIT under Art. 15 → ≈ 6 % effective on the gross gain (2026-05-27 verified, source PwC Tax Summaries Moldova). No separate CGT rate |
+| **Primary-residence exemption**: dwelling **owned ≥ 3 years AND used as domicile for the 3 years up to sale** → fully non-taxable (Art. 20; **3 + 3 years, NOT 5**) |
 | Mortgage early-discharge fee | typically 1–2% of outstanding balance, capped per loan agreement |
-| Total exit cost | **typically 3–6% of sale price** for primary residence held > 5 yrs (no CGT); 5–10% for investment property (CGT applies) |
+| Total exit cost | **typically 3–6 % of sale price** when primary-residence 3+3 exemption applies; 5–10 % for investment property where the 50 %-inclusion → 12 % PIT chain applies on the gain |
 
 ### Liquidity by sub-segment (qualitative, 2026)
 
@@ -858,7 +870,7 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 ## Active fiscal incentives (2025–2026)
 
 - **MITP Moldova IT Park** — 7% unique tax for qualifying IT residents (replaces CIT + PIT + social + property tax for IT activity)
-- **CGT primary-residence exemption** after 5-year holding (Tax Code Art. 20 lit. y)
+- **Primary-residence CGT exemption** under Tax Code Art. 20: dwelling **owned ≥ 3 years AND used as domicile for the 3 years up to sale** is fully non-taxable (3 + 3, not the previously quoted 5-yr threshold; 2026-05-27 verified, source PwC). Outside the exemption: 50 %-inclusion → 12 % PIT → ≈ 6 % effective
 - **Reduced 8% VAT** on residential dwellings sold by VAT-registered developer (Tax Code Art. 96 lit. b — verify scope)
 - **Free Economic Zones** (Bălți, Cahul, Ungheni, Tvardița, Otaci, Vulcănești, Taraclia) — exemption from CIT, VAT, customs duty for in-zone activity
 - **EU-supported energy-efficiency retrofit grants** via FEE (Fondul pentru Eficiență Energetică) — variable annual budget for HOA-led building retrofits
@@ -874,7 +886,7 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 ## Caveats unique to MD
 
 - **Foreigners CAN buy residential freehold without restriction** (since 2002 Civil Code) — among the most permissive in the region
-- **Foreigners CANNOT own agricultural OR forest land** (Land Code Art. 6 + Art. 19) — no SRL workaround that's safely legal; Moldovan-citizen-co-owned SRL is common practice but title is contestable
+- **Foreigners CANNOT own agricultural OR forest land** (new Land Code in force 1 April 2025, superseding Law 828-XII of 1991; 2026-05-27 verified). The new Code explicitly catches Moldovan SRLs with foreign capital (even minority) and triggers **mandatory 1-year divestment** on inherited / court-judgment / mortgage acquisitions; the Moldovan-citizen-co-owned SRL workaround is **more legally fragile** than under the old regime
 - **Transnistria (Stânga Nistrului) — OUT OF SCOPE for normal DD**: separatist authorities issue parallel cadastral documents that the **Moldovan ASP does NOT recognise**. Properties physically east of the Dniester (Tiraspol, Bender, Râbnița, Slobozia, Camenca, Dubăsari, Grigoriopol) carry severe title-validity risk for any future EU-aligned property regime. **Moldovan banks generally do not finance Transnistria property.** Treat any listing in Stânga Nistrului as outside this skill's scope until UN/EU-recognised reintegration occurs
 - **EU candidate (Jun 2022) + accession negotiations open (Jun 2024)** — material structural tailwind 2024–2030
 - **2014 banking-crisis legacy**: BNM tightly supervises sector post-2014 "Theft of the Century"; current concentration in Maib + MICB + OTP + Victoriabank
@@ -973,7 +985,7 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Primary sources verified — ASP cadastre + Tax Code Art. 18/20/96/280-281 (CGT 6%, primary-residence 5-yr exemption, VAT 8% reduced + 20% standard, property-tax 0.05–0.4% bands), Civil Code Art. 213 (mandatory notary), Land Code Art. 6 + Art. 19 (foreign ag-land ban), Law 200/2010 Art. 50 (€250k investor residence), CBI ENDED 2018 (formally repealed Law 100/2020), MITP 7% unique tax (Law 77/2016), BNM exchange-rate regime, EU candidate status (23 Jun 2022) + accession opened (25 Jun 2024) + Constitutional reform Oct 2024. **Transnistria (Stânga Nistrului) explicitly OUT OF SCOPE**: properties east of the Dniester carry parallel-cadastre title-validity risk; Moldovan ASP does not register, Moldovan banks generally do not finance, and any future EU-aligned regime treatment is uncertain — flagged in Caveats and Country profile. **Re-verify each annual budget law (November)** for Tax Code amendments, Local Council property-tax rates (each Decizia CMC December), ANRE tariff adjustments, BNM policy rate. **Watch list 2026**: any reintroduction of CBI (politically unlikely given EU conditionality), MITP rate changes, CGT primary-residence threshold tweaks, accession-driven tax/AML harmonisation milestones, Romanian-citizenship-by-descent procedural changes (RO law side).
+**Notes**: Primary sources verified — ASP cadastre + Tax Code Art. 15/18/20/96/280-281 + Title VI¹ (effective ≈ 6 % on residential gains via 50 %-inclusion → 12 % PIT, **primary-residence exemption 3 yrs owned + 3 yrs domicile** per PwC 2026-01-14, VAT 8 % reduced + 20 % standard, property-tax 0.05–0.4 % bands, **0.8 % wealth tax on residential ≥ 120 m² AND ≥ 200× avg wage value** since 2016), Civil Code Art. 213 (mandatory notary), **new Land Code in force 1 April 2025 (superseding Law 828-XII of 1991)** retaining foreign ag/forest-land ban + 1-yr divestment trigger, Law 200/2010 Art. 50 (€250k investor residence), CBI ENDED 2018 (formally repealed Law 100/2020), MITP 7% unique tax (Law 77/2016), BNM exchange-rate regime, EU candidate status (23 Jun 2022) + accession opened (25 Jun 2024) + Constitutional reform Oct 2024. **January 2027 cadastral revaluation projected to raise effective property-tax bills ~150–190 %** (2026-05-27 verified, source EuropaLibera Moldova). **Transnistria (Stânga Nistrului) explicitly OUT OF SCOPE**: properties east of the Dniester carry parallel-cadastre title-validity risk; Moldovan ASP does not register, Moldovan banks generally do not finance, and any future EU-aligned regime treatment is uncertain — flagged in Caveats and Country profile. **Re-verify each annual budget law (November)** for Tax Code amendments, Local Council property-tax rates (each Decizia CMC December), ANRE tariff adjustments, BNM policy rate. **Watch list 2026**: any reintroduction of CBI (politically unlikely given EU conditionality), MITP rate changes, CGT primary-residence threshold tweaks, accession-driven tax/AML harmonisation milestones, Romanian-citizenship-by-descent procedural changes (RO law side).
 
 ## Extension TODOs (deepen on first real run)
 

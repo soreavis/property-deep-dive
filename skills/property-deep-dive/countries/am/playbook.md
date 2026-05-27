@@ -6,7 +6,7 @@ ISO2: `am`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 
 - **Population**: ~2.78 million (2024 ARMSTAT — Statistical Committee of the Republic of Armenia estimate); Yerevan (capital) ~1.08M, Gyumri ~120k, Vanadzor ~80k. Global Armenian diaspora ~7M (Russia ~2M, US ~1M, France, Argentina, Lebanon, Iran, Georgia) materially shapes property demand
 - **GDP per capita**: ~US$8,000 (2024 World Bank / ARMSTAT preliminary); real GDP +12.6% 2022 (Russian-relocation shock), +8.3% 2023, +5.9% 2024 (ARMSTAT preliminary)
-- **Currency**: **AMD** (Armenian dram). 1 EUR ≈ 415–435 AMD, 1 USD ≈ 385–400 AMD (Q1 2026 CBA reference; managed-float — see `--currency`)
+- **Currency**: **AMD** (Armenian dram). 1 USD ≈ **368 AMD** (2026-05-27 verified, source CBA reference rate); 1 EUR ≈ 395–410 AMD; managed-float — see `--currency`. AMD has strengthened materially through 2025–2026 vs the Q1 2026 ~385–400 band
 - **Languages**: **Armenian** (official, Eastern Armenian standard, Armenian alphabet — Հայոց այբուբեն); **Russian** widely used (older generation, business, Russian-relocant cohort 2022–2024); **English** common in Yerevan tech + tourism + diaspora-return circles
 - **EU status**: **NOT a candidate**. Armenia signed the EU **Comprehensive and Enhanced Partnership Agreement (CEPA)** in November 2017 (in force since 1 March 2021); EU candidacy pathway under public discussion 2024–2026 but **not formally lodged**. CSTO (Russia-led security alliance) participation **frozen February 2024** by PM Pashinyan — de facto suspension; formal exit pending
 - **Postcode**: 4 digits (Yerevan `0001`–`0099` by district, e.g., Kentron `0001`–`0026`; Gyumri `3100`–`3199`; Vanadzor `2001`–`2078`)
@@ -116,19 +116,18 @@ AMD, EUR/AMD ≈ 415–435 (Q1 2026 CBA, managed-float). Not in eurozone; no fir
 
 Governed by [Tax Code of the Republic of Armenia](https://www.src.am/en/) Section 13 + **Law HO-185-N of 25 December 2020** which introduced the major Real Estate Tax reform effective 1 January 2021 with phased implementation through 2026. Rate **set as progressive AMD-bracket scale on cadastral value approaching market**, levied at **community level**:
 
-**Residential apartments + houses (HO-185-N regime)**:
-
-Statutory progressive scale on cadastral value (apartments, indicative — verify Tax Code Art. 230 current text via src.am):
+**Residential apartments — 6 brackets (HO-185-N regime, Tax Code Art. 230; 2026-05-27 verified, source armenian-lawyer.com 2025 property-tax guide cross-checked vs src.am)**:
 
 | Cadastral value bracket (AMD) | Rate |
 |---|---|
-| ≤ AMD 10M (~US$26k) | 0.05% |
+| ≤ AMD 10M (~US$27k) | 0.05% |
 | AMD 10M – 25M | AMD 5,000 + 0.1% on amount above 10M |
 | AMD 25M – 47M | AMD 20,000 + 0.2% on amount above 25M |
-| AMD 47M – 75M | AMD 64,000 + 0.4% on amount above 47M |
-| AMD 75M – 100M | AMD 176,000 + 0.6% on amount above 75M |
-| AMD 100M – 200M | AMD 326,000 + 0.8% on amount above 100M |
-| > AMD 200M (~US$520k) | AMD 1,126,000 + 1.0% on amount above 200M |
+| AMD 47M – 120M | AMD 64,000 + 0.4% on amount above 47M |
+| AMD 120M – 200M | AMD 356,000 + 0.6% on amount above 120M |
+| > AMD 200M (~US$545k) | AMD 836,000 + 1.0% on amount above 200M |
+
+**Houses use a separate bracket schedule** (Tax Code Art. 230; 2026-05-27 verified, source armenian-lawyer.com): cut-offs at AMD 7M / 23M / 50M / 85M / 200M (not the apartment ones); confirm exact rate steps at src.am before final per-house computation. JAMnews-cited "1.5%" top rate conflates commercial schedule — residential cap is 1.0%.
 
 **Phased implementation 2021–2026**: HO-185-N introduced a phase-in coefficient applied to the calculated tax — 25% in 2021, 30% in 2022, 35% in 2023, 50% in 2024, 75% in 2025, **100% from 2026 onward** (verify current schedule via src.am — the headline reform is fully phased in for tax year 2026).
 
@@ -140,16 +139,16 @@ Statutory progressive scale on cadastral value (apartments, indicative — verif
 
 ### Example calculation
 
-A US$200,000 (≈ AMD 78M at 390 AMD/USD) Yerevan Kentron 2-bed apartment, Cadastre Committee cadastral value ~AMD 70M (~90% of market in HO-185-N regime):
+A US$200,000 (≈ AMD 73.6M at 368 AMD/USD, 2026-05-27 verified) Yerevan Kentron 2-bed apartment, Cadastre Committee cadastral value ~AMD 66M (~90% of market in HO-185-N regime):
 
-- Apartment falls in **AMD 47M–75M bracket** (AMD 70M):
-  - Calculated annual tax = AMD 64,000 + 0.4% × (70,000,000 – 47,000,000) = AMD 64,000 + AMD 92,000 = **AMD 156,000/yr**
-  - **2026 fully phased in (100% coefficient)** → final bill ≈ **AMD 156,000 (~US$400 / ~€370)**
-  - **2025 at 75% coefficient** → ≈ AMD 117,000 (~US$300)
+- Apartment falls in **AMD 47M–120M bracket** (AMD 66M):
+  - Calculated annual tax = AMD 64,000 + 0.4% × (66,000,000 – 47,000,000) = AMD 64,000 + AMD 76,000 = **AMD 140,000/yr**
+  - **2026 fully phased in (100% coefficient)** → final bill ≈ **AMD 140,000 (~US$380 / ~€350)**
+  - **2025 at 75% coefficient** → ≈ AMD 105,000 (~US$285)
 
-A US$600,000 Yerevan Kentron premium apartment (AMD ~234M cadastral value):
+A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 - Falls in `> AMD 200M` bracket
-- Calculated annual tax = AMD 1,126,000 + 1.0% × (234,000,000 – 200,000,000) = AMD 1,466,000 (~US$3,800 / ~€3,500) at full 2026 phase-in
+- Calculated annual tax = AMD 836,000 + 1.0% × (221,000,000 – 200,000,000) = AMD 1,046,000 (~US$2,840 / ~€2,600) at full 2026 phase-in
 
 > Property tax in Armenia under HO-185-N is materially higher than the pre-2021 regime but still moderate by W. European standard. **2026 first-full-year effect** is the dominant variable for prospective buyers — verify per Cadastre Committee extract before underwriting.
 
@@ -165,11 +164,11 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~234M cadastral value):
   - Construction services + materials remain at standard 20% VAT — feeds into developer cost stack
 - **Total transaction cost** (buyer side, individual–individual resale): typically **0.1–0.5% of price** — **among the lowest in the world** alongside Georgia
 
-### Capital gains tax — individual sale (Tax Code Art. 147 + 158 as amended)
+### Capital gains tax — individual sale (Tax Code Art. 147(1)(16); 2026-05-27 verified, sources PwC Worldwide Tax Summaries Armenia + armenian-lawyer.com tax cheat sheet 2026 + GSL)
 
-- **General rule**: gain on sale of residential immovable by individual is taxed within the personal income tax framework
-- **Primary residence held ≥ 1 year**: **EXEMPT** (Tax Code Art. 147 — confirm current scope via src.am)
-- **Held < 1 year OR not primary residence**: gain taxed at **10–20%** depending on residency status (residents 10%; non-residents up to 20% effective via Art. 158 source-taxation rules) — verify per current Tax Code text
+- **Individual-to-individual residential sale: EXEMPT from PIT** under Tax Code Art. 147(1)(16), **regardless of holding period or primary-residence status**. There is no statutory 1-year holding test — the prior playbook framing was wrong.
+- **Sale by individual to a legal entity / sole-proprietor (acting as tax agent): 10% withholding tax** on transaction price for residential (20% on commercial), withheld and remitted by the buyer; this is a gross-price WHT, not a net-gain CGT
+- **Recharacterisation risk**: if the individual habitually trades real estate in a business-like pattern, tax authorities may treat the activity as entrepreneurial → exemption is lost and standard regime applies
 - **Sale by legal entity**: profit included in 18% Corporate Income Tax base (since 2020 reform)
 
 ### Personal income tax — general
@@ -499,7 +498,7 @@ Universal — see `shared/climate-projections.md`. National source: Hydromet Ser
 
 ### Mortgage market
 
-- **Regulator**: [CBA — Central Bank of Armenia](https://www.cba.am/) — sets prudential rules, monetary-policy rate (CBA refinancing rate ~8.0% Q1 2026 — verify current at cba.am), loan-classification rules
+- **Regulator**: [CBA — Central Bank of Armenia](https://www.cba.am/) — sets prudential rules, monetary-policy rate (CBA refinancing rate **6.5%** (2026-05-27 verified, source cba.am Monetary Policy Decisions log), down from the 2024 ~10% peak), loan-classification rules
 - **Major banks** (CBA 2024 supervisory list, ~17 commercial banks): **Ameriabank** (largest; partial sale to Bank of Georgia 2023–2024), **ACBA Bank** (formerly ACBA-Crédit Agricole), **Inecobank**, **Converse Bank**, **Ardshinbank**, **VTB Armenia** (Russia-owned — sanction-watch sensitive), **Unibank**, **Evocabank** (digital-first), **AraratBank**, **Byblos Bank Armenia**, **Mellat Bank** (Iran-owned), **HSBC Armenia** (announced exit 2024–2026; Ameriabank acquisition completed)
 - **LTV caps (residential, 2024–2026 CBA prudential guidance)**:
 
@@ -537,7 +536,7 @@ Universal — see `shared/climate-projections.md`. National source: Hydromet Ser
 
 - 2022 war shock + Russian-relocant inflow: AMD **appreciated materially ~25% vs USD** Mar 2022–Dec 2023 (atypical — most regional currencies depreciated); driven by ~US$3–5B+ Russian capital inflow + IT-sector expansion
 - 2024–2025: range-bound 385–410 AMD/USD; mild AMD softening as relocant inflow stabilised + outflows on partial relocant departures
-- Q1 2026: 385–400 AMD/USD; 415–435 AMD/EUR; CBA refinancing rate ~8.0%
+- **2026 to date**: AMD continued strengthening through H1; **~368 AMD/USD; ~395–410 AMD/EUR; CBA refinancing rate 6.5%** (2026-05-27 verified, source cba.am reference rates + Monetary Policy Decisions)
 
 ### What this means for buyers
 
@@ -776,7 +775,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 - **Inflation 2025**: ~2.5–4.0% headline (CBA target 4%±1.5%)
 - **Unemployment 2024 Q4**: ~12% (ARMSTAT) — moderate; informal-economy participation material
 - **Public debt / GDP**: ~50% (Ministry of Finance) — moderate
-- **CBA refinancing rate Q1 2026**: ~8.0% (verify current at cba.am)
+- **CBA refinancing rate (2026-05-27 verified)**: **6.5%** (source cba.am Monetary Policy Decisions; cutting cycle from 2024 peak ~10%)
 
 ### Trend drivers (2024–2026)
 
@@ -880,10 +879,10 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 |---|---|
 | Estate agent commission | typically **2–4%** of sale price (often paid by seller; sometimes split) |
 | Notary fee (seller side typically) | AMD 50,000–150,000 (~US$130–US$390 fixed; sliding for high-value) |
-| **CGT 10–20% on net gain** if held < 1 year OR not primary residence (Tax Code Art. 147 + 158) |
-| **CGT exempt** if primary residence held ≥ 1 year (Art. 147 — verify current text) |
+| **Individual-to-individual residential sale: PIT EXEMPT** (Tax Code Art. 147(1)(16); 2026-05-27 verified, source PwC + armenian-lawyer.com) — no holding-period test |
+| **Sale to legal entity / sole-proprietor (tax agent)**: 10% withholding on transaction price (residential); 20% (commercial) |
 | Mortgage early-discharge fee | typically 1–3% of outstanding balance, capped per loan agreement |
-| Total exit cost | **typically 2–5% of sale price** for primary residence held > 1 yr (no CGT); 5–12% for investment property (CGT applies) |
+| Total exit cost | **typically 2–5% of sale price** for individual-to-individual residential resale; 12–22% effective stack when sale is to a legal entity (10% WHT on price + agent + notary) |
 
 ### Liquidity by sub-segment (qualitative, 2026)
 
@@ -928,7 +927,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 ## Active fiscal incentives (2025–2026)
 
 - **HO-105-N IT Sector** — 1% turnover tax in lieu of CIT + VAT for qualifying IT residents; 10% PIT (vs standard 20%) for IT employees; **extended to 31 December 2031**
-- **CGT primary-residence exemption** after 1-year holding (Tax Code Art. 147 — verify current scope)
+- **Individual-to-individual residential sale: PIT EXEMPT under Art. 147(1)(16)** regardless of holding period (2026-05-27 verified, source PwC + armenian-lawyer.com) — among the most generous CGT-free regimes globally
 - **VAT residential first-sale exemption** by VAT-registered developer (Tax Code Art. 64.2.1)
 - **Free Economic Zones** (Meridian, Alliance, Meghri, ECOS) — exemption from CIT, VAT, customs duty for in-zone activity
 - **Investor Residence (AMD 50M / ~US$130k property purchase)** — 5-yr renewable residence permit
@@ -950,7 +949,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 - **Foreigners CANNOT own agricultural land** (Land Code Art. 4) — only Armenian citizens, Armenian legal entities, State, communities; LLC workaround common but title contestable
 - **Transaction costs ~0.1–0.5%** — among the world's lowest (state duty 0.05% + nominal notary fee + cadastre fee)
 - **HO-185-N Real Estate Tax 2026 first-full-year effect**: annual property tax materially higher than 2024–2025 baseline; verify per Cadastre Committee extract before underwriting
-- **No CGT after 1-year primary-residence holding** (Tax Code Art. 147 — verify current text) — generous by regional standard
+- **Individual-to-individual residential sale fully PIT-exempt under Art. 147(1)(16)** — no holding-period test (2026-05-27 verified, source PwC + armenian-lawyer.com); 10% WHT on price applies only when buyer is a legal entity / sole-proprietor acting as tax agent
 - **20% flat PIT** since 2023 (vs prior progressive system)
 - **HO-105-N IT Sector 1% turnover regime through 2031** — uniquely competitive in region for IT-relocant buyers
 - **Cadastre Committee + e-cadastre.am**: post-2018 e-services overhaul; bilingual Armenian + English; substantially clean post-2018 reforms
