@@ -2,7 +2,7 @@
 
 Working document for additions beyond the current 113 countries. Captures completed batches, future country candidates, section-level extensions, and skip rationale.
 
-> **Status as of 2026-05-27**: backlog **exhausted**. All Reddit gap-analysis waves (#1–#5), Tier-1 NEW sections (10 of 10), Tier-2 extensions, Batch A + B + C country expansions, TCO calculator additions, url-liveness Python rewrite, and the 113-country validation sweep have shipped. Ongoing maintenance returns to the normal `--update` cadence (Tier-A 90d / Tier-B 180d / Tier-C 365d) tracked by the auto-refresh CI workflows + `shared/regulatory-watch.md`. No new section or country work is queued. The "Skip — not worth pursuing" list (sanctions/conflict, UA, Sub-Saharan frontier, smaller LATAM, Pacific micro-states, XK Kosovo) remains the explicit boundary.
+> **Status as of 2026-05-27**: section-side backlog **exhausted** (all gap-#1–#5 Tier-1 NEW sections, Tier-2 extensions, TCO additions, url-liveness rewrite, 113-country validation sweep shipped). **Country-side**: Batch A + B + C shipped (Crown Deps + DK territories + NL Caribbean + FR DROM overlay) → 113 countries. **Batch D queued 2026-05-27 evening** — 8 strong-signal Caribbean (4 UK Overseas Territories + 4 CBI countries) + 5 medium-signal additions (NA / BW / VU / TT / PK), see § Batch D below. Pre-existing maintenance still returns to the normal `--update` cadence (Tier-A 90d / Tier-B 180d / Tier-C 365d) tracked by the auto-refresh CI workflows + `shared/regulatory-watch.md`. The "Skip — not worth pursuing" list (sanctions/conflict, UA, Sub-Saharan frontier per existing scope, smaller LATAM, Pacific micro-states except VU, XK Kosovo) remains the explicit boundary.
 
 ## Current coverage
 
@@ -136,6 +136,55 @@ The Batch C jurisdictions deferred from PR #177 were unblocked under a **mixed-s
 **Phase C implementation pattern** (FR DROM overlay): 1 research agent producing `shared/fr-drom-overlay.md` (~250-350 lines) documenting DROM deltas across all 5 (TVA DROM rates 2.10% / 8.50% vs metro 5.5% / 20%; octroi de mer; taxe foncière abattements; Pinel Outre-Mer ended 31 Dec 2024 → Jeanbrun Outremer 2026; notary fee reduction; Letchimy law n°2018-1244 on indivision; Cerema-acknowledged cadastre deficit caveats for YT/GF; per-DROM neighborhood / risk specifics — cyclones GP/MQ/RE, seismicity GP/MQ, Soufrière GP, Mayotte 2018-2019 seismic swarm). Cross-linked from `countries/fr/playbook.md` § DROM annex (new section in fr/playbook.md). Loaded the same way other `shared/*.md` files are — no skill-loader change needed.
 
 Full research memo with per-jurisdiction primary-source verifiability scores (HIGH for 8/9, MEDIUM for YT due to Cerema cadastre deficit), Reddit demand signal (STRONG SX, MODERATE AW/CW, WEAK FR DROM + BQ), and 4-option pros/cons matrix lives at `_local/batch-c-schema-recommendation.md` (gitignored).
+
+## 🟢 Batch D — Caribbean + medium-signal additions (queued 2026-05-27 evening)
+
+Cross-referenced ISO 3166-1 against the 113-country matrix + Skip list. 13 candidates surfaced that are **not currently covered and not on Skip**. Same pipeline pattern as Batches A/B/C: parallel research agents → validation → integration → 1 PR per cluster. Country count after Batch D would land at **113 → 126**.
+
+### Strong signal — 8 Caribbean (HIGH demand + primary-source feasibility)
+
+**UK Overseas Territories** (all 4 pass the CONTRIBUTING.md sub-sovereign-standalone test — own primary tax authority + own land registry + own court system, structurally identical to Crown Deps Batch A):
+
+| ISO | Country | Schema | Primary anchor | Foreign-buyer signal |
+|---|---|---|---|---|
+| `ky` | Cayman Islands | Standalone | `gov.ky` (Department for Investment + Lands & Survey Department) | Major offshore property market · English common law · freehold available · no income/CGT · 7.5% stamp duty for foreigners · published HVR equivalents |
+| `bm` | Bermuda | Standalone | `gov.bm` (Department of Immigration + Office of Land Title Registrar) | Atlantic premium destination · Annual Rental Value (ARV) regime · foreign-buyer floor ~$2M condos / $4M houses · restrictive but precisely documented |
+| `tc` | Turks and Caicos | Standalone | `gov.tc` (Inland Revenue Department + Lands & Surveys) | Popular Caribbean foreign-buyer destination · no income tax · freehold · stamp-duty progressive 6.5-10% |
+| `vg` | British Virgin Islands | Standalone | `bvi.gov.vg` (Premier's Office + Land Registry) | Financial centre + freehold property · Non-Belongers Land Holding Licence (NBLHL) regime · Cap. 122 of Laws of the Virgin Islands |
+
+**CBI Caribbean** (independent sovereign — Citizenship-by-Investment programs with property qualifying route, high demand, well-documented):
+
+| ISO | Country | Schema | Primary anchor | Foreign-buyer signal |
+|---|---|---|---|---|
+| `kn` | St Kitts and Nevis | Standalone | `gov.kn` (CIU + Inland Revenue) | OLDEST CBI program (since 1984) · property route ~USD 325k · 7-yr hold + resale to next CBI applicant well-trodden |
+| `ag` | Antigua and Barbuda | Standalone | `gov.ag` (Citizenship by Investment Unit + IRD) | CBI · property route USD 325k · joint application discount · 1.5% stamp duty |
+| `lc` | Saint Lucia | Standalone | `gov.lc` (Citizenship by Investment + IRD) | CBI · property route USD 300k · 9 approved real-estate projects · 5-yr hold |
+| `gd` | Grenada | Standalone | `gov.gd` (CBI Committee + IRD) | CBI + **E-2 US treaty access** (rare) → strongest CBI demand · property route USD 270k · 5-yr hold |
+
+**Region grouping decision**: extend existing `caribbean` region in `config/_regions.json` OR create new `caribbean_ot` (UK OTs) + keep CBI 4 in `caribbean`. To be decided in Phase A schema-decision PR.
+
+**Note**: `dm` Dominica is explicitly **out-of-scope** per the [[dr-vs-dominica-conflation]] decision — CBI demand exists but maintainer-side decision excludes it.
+
+### Medium signal — 5 additions (worth queuing but lower priority)
+
+| ISO | Country | Region | Signal |
+|---|---|---|---|
+| `na` | Namibia | Africa | Popular for SA expat migration; NHA + MAWLR primary sources OK; NOT on Sub-Saharan Skip list |
+| `bw` | Botswana | Africa | Well-governed African market; tribal-land-restriction rules clearly published at `gov.bw`; NOT on Skip list |
+| `vu` | Vanuatu | Pacific | CBI program (USD 130k Development Support Programme); Pacific micro-state class but NOT named on Skip list (TO/WS/FJ/NC are) |
+| `tt` | Trinidad and Tobago | Caribbean | Foreign-buyer Licence under Foreign Investment Act regime; primary sources published; lower foreign-buyer volume than the 8 above |
+| `pk` | Pakistan | South Asia | Large country; foreign-buyer market is mostly diaspora-driven; primary sources at FBR + provincial-land-records portals; thinner than mainline-corpus countries |
+
+### Recommended build order (when greenlit)
+
+1. **Phase A — schema-decision PR**: same pattern as Batch C PR #185. Verify each of the 4 UK OTs passes the sub-sovereign-standalone test (own tax authority + own land registry + own courts). Confirm region placement. CBI 4 are sovereign states with no schema ambiguity. Medium-signal 5 are routine country-adds.
+2. **Phase B — 8 strong-signal Caribbean shipped same-day** (~6 parallel research agents · per-PR same as Batch C Phase B): KY + BM + TC + VG (UK OT) + KN + AG + LC + GD (CBI). Country count 113 → 121.
+3. **Phase C — 5 medium-signal**: NA + BW + VU + TT + PK. Country count 121 → 126.
+4. Per-PR adds the ISO code to `config/_regions.json` + `config/_tiers.json` (Tier-C 365d default; CBI countries may warrant Tier-B given active reform calendars) + relevant entries in `config/_visa-programs.json` (CBI program records for KN/AG/LC/GD/VU; Belonger/Permanent-Resident routes for KY/BM/TC/VG).
+
+### Status
+
+**Confidence**: HIGH for the 8 strong-signal (cross-referenced primary-source anchors against actual gov portals). MEDIUM for the 5 medium-signal (primary sources verified to exist; signal strength weaker but enough to clear the playbook bar). Build effort: ~3 work sessions if all 13 shipped (1 session per phase, parallel where possible). Not greenlit — queued for project owner approval.
 
 ## Skip — not worth pursuing
 
