@@ -142,15 +142,15 @@ Property tax base = **rayiç bedel** (declared/appraised value) updated every 4 
 
 ### High-Value Residential Tax — Değerli Konut Vergisi (since 2020)
 
-For residences with rayiç bedel > **12,880,000 TRY (2025 threshold)**:
+For residences with rayiç bedel > **15,709,000 TRY (2025 threshold per GİB Genel Tebliğ Seri No 86)** / **17,711,000 TRY (2026 threshold per GİB rehberi)** (2026-05-27 verified, source [GİB 2026 Değerli Konut Vergisi Rehberi PDF](https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Degerli_Konut_Vergisi_Rehberi.pdf)):
 
-| Bracket (TRY rayiç bedel) | Rate |
+| Bracket 2026 (TRY rayiç bedel) | Rate |
 |---|---:|
-| 12,880,000 – 16,150,000 | 0.3 % on excess over 12.88M |
-| 16,150,000 – 32,300,000 | 0.6 % on excess over 16.15M (+ tier above) |
-| > 32,300,000 | 1.0 % on excess over 32.3M (+ tiers above) |
+| 17,711,000 – 26,567,000 | 3.35 ‰ (0.335 %) on excess |
+| 26,567,000 – 35,425,000 | 6.3 ‰ (0.63 %) on excess (+ tier above) |
+| > 35,425,000 | 10 ‰ (1.0 %) on excess (+ tiers above) |
 
-(2025 thresholds, source Emlak Vergisi Kanunu mad. 42; brackets revalued annually by yeniden değerleme oranı)
+(2026 thresholds + rates per GİB Genel Tebliğ Seri No 88 / Emlak Vergisi Kanunu mad. 42; brackets revalued annually by yeniden değerleme oranı; rates expressed in per-mille ‰ in the official tebliğ)
 
 ### Transaction tax — Tapu Harcı (Title Deed Transfer Fee)
 
@@ -263,7 +263,8 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 | Violation | Fine (TRY) |
 |---|---:|
-| Operating without İzin Belgesi | **100,000 – 1,000,000 per property** |
+| Operating without İzin Belgesi — **3-stage progressive ladder** (NOT discretionary range) | **Stage 1: 100,000 TRY/property + 15-gün süre to obtain permit; Stage 2 (still no permit): 500,000 TRY/property + 15-gün süre; Stage 3 (continued violation): 1,000,000 TRY/property** (2026-05-27 verified, source [Lexpera Law 7464 consolidated text Mad. 4 §1(a-e)](https://www.lexpera.com.tr/mevzuat/kanunlar/konutlarin-turizm-amacli-kiralanmasina-ve-bazi-kanunlarda-degisiklik-yapilmasina-dair-kanun-7464)) |
+| Misleading property description (konum/nitelik/fiziksel özellikler) | **100,000 TRY** separate |
 | Listing on platform without permit | **100,000 per property + access blocking after 24h notice** |
 | Provisional permit lapse (post 31 Dec 2024 transition) | sanctions began Jan 2025 |
 | Failure to remove unlicensed listing within 24h after Bakanlık notice | platform fine + listing removal |

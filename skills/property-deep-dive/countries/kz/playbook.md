@@ -143,11 +143,13 @@ KZT, USD/KZT ≈ 463–520 (free-floating; April 2026 NBK rate 462–470). All t
 
 KZ underwent a **major tax reform in 2025**:
 - **Current Tax Code** (Code No. 99-IV of 25 December 2017, as amended through 2025) — governs taxation **through 31 December 2025**
-- **New Tax Code** — adopted by Senate after Mazhilis 2nd reading 30 April 2025; **entered into force 1 January 2026** (per [PwC Tax Summary](https://taxsummaries.pwc.com/kazakhstan/individual/significant-developments) + [B1 Analytics commentary 30 Oct 2025](https://b1.ru/en/insights/tax-messenger/kazakhstan-tax-legislation-changes-30-october-2025/))
+- **New Tax Code** ([K2500000214](https://adilet.zan.kz/eng/docs/K2500000214)) — adopted by Mazhilis 2nd reading 30 April 2025; **signed into law by President Tokayev 18 July 2025**; **entered into force 1 January 2026** (2026-05-27 verified, source [Astana Times — Tokayev signs new Tax Code 18 July 2025](https://astanatimes.com/2025/07/kazakh-president-signs-new-tax-code/))
+- **MCI 2026 = KZT 4,325** (up from KZT 3,932 in 2025) (2026-05-27 verified, source [Tengrinews](https://en.tengrinews.kz/kazakhstan_news/new-mci-in-kazakhstan-changes-to-fines-in-2026-270388/) + Moore Kazakhstan 2026 indicators)
 - **Key 2026 changes affecting property buyers**:
-  - **Progressive PIT**: previously 10 % flat → **now 10 % up to 8,500 MCI/year, 15 % above** (8,500 × KZT 3,932 = **KZT 33.4 M / ~$70k threshold for 2025 MCI**; 2026 MCI verification pending — see Adilet for confirmed schedule). This applies to rental income + capital gains for resident individuals
+  - **Progressive PIT**: previously 10 % flat → **now 10 % up to 8,500 MCI/year, 15 % above** (8,500 × KZT 4,325 = **KZT ~36.76 M / ~$77k threshold for 2026 MCI**). Applies to rental income + capital gains for resident individuals
   - **Dividend WHT**: 5 % up to 230,000 MCI; 15 % above
-  - **VAT**: standard rate increased 1 January 2026 (verify exact new rate — multiple sources cite shift from 12 %; B1 Analytics references VAT changes; **verify at [kgd.gov.kz](https://kgd.gov.kz/en)** before relying)
+  - **VAT**: standard rate **raised from 12 % to 16 %** from 1 January 2026 (reduced 5 % rate for medicines/medical services in 2026, rising to 10 % in 2027; periodicals 10 %; book publishing exempt) (2026-05-27 verified, source [vatcalc.com Kazakhstan VAT rise](https://www.vatcalc.com/kazakhstan/kazakh-vat-rise-back-on/) + Astana Times)
+  - **VAT registration threshold**: reduced from **20,000 MCI → 10,000 MCI** from 1 Jan 2026 (~KZT 43.25 M / ~$90k at MCI 4,325 — significantly more STR landlords pulled into VAT net) (2026-05-27 verified, source [VATupdate](https://www.vatupdate.com/2025/08/13/kazakhstan-lowers-vat-registration-threshold-new-tax-code-amendments-effective-january-2026/))
   - **Social tax**: rate cut from 11 % → 6 % but no reduction for social contributions
   - Preserves: 15 % CIT for manufacturing/social-sector reduced rate; 20 % standard CIT; 1 % patent-regime PIT for individual landlords
 
@@ -197,7 +199,7 @@ A Krisha listing: Almaty Bostandyk 70 m² 2-bedroom apartment, 2010 build, askin
   - **First sale of new residential by VAT-registered developer**: **EXEMPT** for residential (Tax Code Art. 394 — VAT-exempt turnover incl. residential immovable; verify in new Tax Code post-1 Jan 2026)
   - **Resale between individuals**: VAT-exempt (not in scope)
   - **VAT applies** to commercial real estate first sale by VAT-registered developer
-- **Notary fee (Нотариальный сбор)**: ~**0.10 %–1.0 %** of contract value, sliding scale per Notarial Chamber tariff schedule (Cabinet Decree on Notarial Tariff). Notarisation **mandatory** for any immovable property purchase contract per Civil Code Art. 155 + Notary Law
+- **Notary fee (Нотариальный сбор)**: ~**0.10 %–1.0 %** of contract value, sliding scale per Notarial Chamber tariff schedule (Cabinet Decree on Notarial Tariff). **Correction (2026-05-27)**: notarisation is **NOT statutorily mandatory** — transaction in simple written form is legally sufficient per [egov.kz buying-property page](https://egov.kz/cms/en/articles/buy_sale/purchase_of_real_estate). What IS mandatory is **state registration in USREC** (via Government for Citizens / ЦОН) for the transaction to be valid; ~90 % of transactions still use notary for security + spousal-consent verification + foreigner-status validation (customary, not statutory). Law on Notariate = Law No. 155-I of 14 July 1997.
 - **State registration fee at USREC** (via Government for Citizens / ЦОН): **fixed nominal fees**:
   - Standard registration: ~KZT 10,000–25,000 ($20–$50) (verify [Government for Citizens fee schedule](https://gov4c.kz/en/))
   - Express (1–24 hr): ~KZT 30,000–60,000 ($60–125)

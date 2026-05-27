@@ -84,7 +84,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 **Federal popular vote 28 September 2025 → 57.7 % YES** to abolish Eigenmietwert (imputed rental value taxation on owner-occupied homes).
 
-- **Implementation: from 2028** (cantons need adaptation time)
+- **Implementation: target 1 January 2029** (per Bundesrat); **earliest realistic 1 January 2028** (per ESTV). Date subject to: (a) Federal Council Inkrafttreten decision (not yet finalised as of Sep 2025); (b) cantonal implementing-law adoption. (2026-05-27 verified, source [EFD Wohneigentumsbesteuerung](https://www.efd.admin.ch/de/wohneigentumsbesteuerung))
 - Applies to **primary AND secondary residences**
 - Owner-occupiers no longer declare notional rental income
 - **BUT**: deductions for maintenance/renovations also eliminated
@@ -122,7 +122,8 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 | **Basel-Land** | 2.5 % |
 | **Basel-Stadt** | 3.0 % |
 | **Genève** | **3.0 %** + 0.4 % registration |
-| **Vaud** | **3.3 %** (highest) |
+| **Vaud** | **2.2 % cantonal + up to 1.1 % communal Zuschlag** (max 3.3 % combined; varies by commune) (2026-05-27 verified, source PBM Avocats + immobilienverkauf-rechner) |
+| **Neuchâtel** | **3.3 %** (buyer-paid) (2026-05-27 added — was missing) |
 | **Wallis** | 1.5 % |
 | **Ticino** | 1.5 % + minor fees |
 
@@ -169,7 +170,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 **Lex Koller** (Federal Act on the Acquisition of Real Estate by Persons Abroad):
 - **Foreign nationals (non-CH residents) face restrictions** on second-home + investment property
 - Each canton has annual quota
-- **Zweitwohnungsgemeinden** (>20 % second homes) face additional restrictions
+- **Zweitwohnungsgemeinden** (>20 % second homes) face additional restrictions under the **Zweitwohnungsgesetz (ZWG, in force 1 Jan 2016)**, implementing **Art. 75b BV** (2012 initiative); ARE publishes annual Wohnungsinventar. Lex Koller / BewG quotas: **national annual ceiling 1,500 holiday-home authorisations** to foreign non-residents; max plot **1,000 m²**, max living area **200 m²**; Wallis (Valais) 330/yr (highest); smallest cantons 20/yr. B/C permit holders + Swiss citizens not subject to authorisation. (2026-05-27 verified, source ARE + Engel & Völkers Lex Koller guide)
 
 **Cantonal patente cantonale** required in many cantons (Genève, Vaud, Zürich):
 - Application + tourism tax + safety inspection

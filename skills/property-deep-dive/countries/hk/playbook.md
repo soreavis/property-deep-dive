@@ -466,15 +466,14 @@ HIGH for HKO downscaled projections; MEDIUM for sub-2km sea-level inundation spe
 - **Regulator**: [HKMA — Hong Kong Monetary Authority](https://www.hkma.gov.hk/) — sets countercyclical macroprudential measures via [Banking (Capital) Rules](https://www.hkma.gov.hk/eng/news-and-media/press-releases/prudential-measures-and-other-mortgage-related-matters)
 - **LTV caps (post 2024-10-16 [HKMA circular](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241016-4/))**:
 
-| Property value | Max LTV (self-use, residential) |
+| Property value / occupancy | Max LTV |
 |---|---:|
-| ≤ HK$30,000,000 | **70%** |
-| HK$30M – HK$35M | 60–70% (sliding) |
-| > HK$35,000,000 | 60% |
-| Investment / non-self-use | typically 50–60% |
-| Net-worth-based | 70% (was 60%, raised Oct 2024) |
+| **All residential properties** (regardless of value, self-use or non-self-use) | **70 % (flat)** |
+| Net-worth-based | 70 % (also unified) |
 
-- **DSR (Debt Servicing Ratio)**: 50% of monthly income (60% for net-worth borrowers); **stress test SUSPENDED 28 Feb 2024** (was +200 bps stress; HKMA still applies internal +100bps benchmark via [HKMA stress-test FAQ](https://www.hkma.gov.hk/media/eng/doc/other-information/FAQ_J1_Table_Eng.pdf))
+(2026-05-27 verified — correction from prior tiered table. Per [HKMA press release 2024-10-16](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241016-4/): *"The maximum loan-to-value (LTV) ratio for all residential properties will be set at 70%, regardless of the value of the property."* The prior tiered 70 % ≤30M / 60-70 % 30-35M / 60 % >35M schedule no longer applies post 16 Oct 2024.)
+
+- **DSR (Debt Servicing Ratio)**: **standardised at 50 %** of monthly income for all residential AND non-residential properties, self-use AND non-self-use (HKMA 16 Oct 2024 unification); **stress test SUSPENDED 28 Feb 2024** (was +200 bps stress; HKMA still applies internal +100bps benchmark via [HKMA stress-test FAQ](https://www.hkma.gov.hk/media/eng/doc/other-information/FAQ_J1_Table_Eng.pdf))
 - **Mortgage Insurance Programme (MIP)** via [HKMC Insurance Ltd](https://www.hkmc.com.hk/) — top-up to 80–90% LTV for properties ≤ HK$10M (first-time buyer); insurance premium 2–5% of mortgage amount
 - **Rate structure**:
   - **H-Plan (HIBOR-linked)**: HIBOR 1M + 1.30–1.50% spread; capped at P-cap (cap rate near Prime); **dominant** product post-2008
@@ -903,7 +902,7 @@ If IRD assesses sale as "trading" rather than capital disposal:
 - **Home Ownership Scheme (HOS)** — subsidized resale for HKPR low/middle-income; quotas via Housing Authority
 - **Green Form** subsidy schemes for transition from public rental to ownership
 - **No first-time-buyer stamp-duty discount** (post-Feb-2024 reform — Scale 2 already low at ≤HK$3M consideration)
-- **CIES property bucket** (HK$10M cap; aggregation only at HK$50M+ total transaction)
+- **CIES property bucket** (post 17 Sept 2025 reform): minimum single-property transaction HK$30M (lowered from HK$50M); aggregate real-estate cap HK$15M (residential cap remains HK$10M; non-residential can fill the additional HK$5M); applies to purchases on/after 17 Sept 2025 (2026-05-27 verified, source [newcies.gov.hk Investment Requirement](https://www.newcies.gov.hk/en/application-procedures/application-to-investhk/investment-requirement/))
 - **BEAM Plus green-mortgage rate concession** — 5–15bps via select banks
 
 ## Common listing platforms

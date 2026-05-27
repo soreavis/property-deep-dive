@@ -181,7 +181,7 @@ Rates depend on holding period + property count + zone classification ([NTS sour
 | **비사업용토지 (non-business land)** | base + 10 %p |
 
 - **장기보유특별공제 (long-term holding deduction)**: 6 %/yr from year 3 (max 30 % for non-residence) or 4 %/yr × 2 (max 80 % for owner-occupied 1세대 1주택)
-- The multi-home zone surcharge has been **temporarily suspended** under Yoon administration via 시행령 amendments since May 2022; latest extension covers 2024-05-10 → 2026-05-09 ([NTS announcement](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2403&cntntsId=7959)) — verify current status before transaction
+- **양도세 multi-home surcharge moratorium EXPIRED 2026-05-09 without renewal** (Lee Jae-myung administration let it lapse). Multi-home owners selling **from 10 May 2026** face surcharges again, effective rate up to **82.5 %** (including local income surtax). (2026-05-27 verified, source [Seoul Economic Daily 2026-05-01](https://en.sedaily.com/finance/2026/05/01/koreas-capital-gains-tax-hike-on-multi-home-owners-returns) + [2026-05-09](https://en.sedaily.com/finance/2026/05/09/people-power-party-slams-end-of-multi-home-owner-tax)). Verify any one-off extensions at NTS pre-transaction.
 
 ### Acquisition Tax — 취득세 (chwideukse)
 
@@ -203,7 +203,7 @@ Local tax (지방세) levied at contract / acquisition; paid within 60 days to �
 - **인지세 (stamp duty)** on contract: **₩150K–₩350K** flat by price band (over ₩1B = ₩350K)
 - **국민주택채권 (national housing bonds)** — buyer must purchase + immediately resell at market discount: effective cost ≈ 0.2–1.0 % of price depending on 시가표준액
 
-⚠️ Multi-home **8 %/12 % surcharge regime is the single largest fiscal lever** in KR property — Yoon admin sought to roll back 2024–2026 but partial reform only; Status: **partially eased 2024 (조정대상지역 narrowed to 강남3구+용산), full repeal pending National Assembly**; verify via NTS at transaction time.
+⚠️ Multi-home **8 %/12 % surcharge regime is the single largest fiscal lever** in KR property. **Status (2026-05-27 verified)**: 조정대상지역 **re-EXPANDED 2025-10-15** to all **25 Seoul wards + 12 Gyeonggi cities** + 투기과열지구 re-designations; 강남/서초/송파/용산 retain 토지거래허가구역 status to 2026-12-31 (source [korea.kr policy news 148950973](https://www.korea.kr/news/policyNewsView.do?newsId=148950973)). Earlier "narrowed to 강남3구+용산" framing was Yoon-era and is now outdated. Verify current zone list via NTS at transaction time.
 
 ### Example calculations (worked, transparent inputs)
 
@@ -361,7 +361,7 @@ Korea's rental market is bifurcated:
 - **서울 (full-time regular employee, all-industry)**: ~₩4.0M–₩5.5M (median; high variance by industry — IT/finance ₩6M–₩9M+ for mid-career)
 - **광역시 (Busan/Daegu/Incheon/Gwangju/Daejeon/Ulsan)**: ~₩3.5M–₩4.5M
 - **지방 중소도시**: ~₩2.8M–₩3.8M
-- **최저임금 2026 (national minimum wage)**: **₩10,030/hr** (set by 최저임금위원회 2025-08-05, effective 2026-01-01); monthly equivalent ₩2.096M (40 hr/wk × 4.345 wk) ([Ministry of Employment + Labor source](https://www.minimumwage.go.kr/))
+- **최저임금 2026 (national minimum wage)**: **₩10,320/hr** (+2.9 % from 2025 ₩10,030), effective 2026-01-01; monthly equivalent **₩2,156,880** at 209-hr standard month (2026-05-27 verified, source [Minimum Wage Council official notice](https://www.minimumwage.go.kr/english/introduce/minWage.do) + [Korea.net 274970](https://www.korea.net/NewsFocus/policies/view?articleId=274970)) — prior playbook ₩10,030 was the 2025 figure
 
 ### Catchment heuristics
 

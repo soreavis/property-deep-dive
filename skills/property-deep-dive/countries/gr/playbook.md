@@ -208,9 +208,10 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Tax on rental
 
-- 1-2 properties: real estate income (15%/25%/35%/45%)
+- 1-2 properties: real estate income — **2026 reform** (effective 1 Jan 2026): **15% to €12k / 25% to €24k / 35% to €35k / 45% over €35k** (new €24k tier; pre-2026 was 15/25/35/45 without the €24k break) (2026-05-27 verified, source [Athens Times — 2026 Tax Reform](https://athens-times.com/rental-income-tax-enfia-tax-assumptions-and-benefits-for-uniformed-personnel-tax-bill-passed-what-it-includes/) + [PwC Tax Summaries Greece](https://taxsummaries.pwc.com/greece/individual/taxes-on-personal-income))
 - 3+ properties: business activity (13% VAT)
 - **Income tax credits** for property repairs (up to certain caps)
+- **STR statute spine**: L.4446/2016 Art. 111 (AMA registry foundation) → L.4174/2013 Art. 54A (fines) → L.5073/2023 (refinements) → L.5170/2025 (2025 Aegean/Athens regime) (2026-05-27 verified, source [AADE Article 111 of Law 4446/2016 PDF](https://www.aade.gr/sites/default/files/2024-09/Article%20111%20of%20Law%204446_2016%20updated%20by%205073_2023%20-%20relevant%20provisions.pdf))
 
 ---
 
@@ -227,7 +228,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04).
 - **Atomiki epicheirisi** (sole trader): EFKA registration
 - **Eteria periorismenis efthynis (EPE)**: limited liability
 - **VAT (FPA)**: from €10,000 turnover (most sectors)
-- **Personal tax**: 9% / 22% / 28% / 36% / 44%
+- **Personal tax** (2026 reform, effective 1 Jan 2026): **9% / 20% / 26% / 34% / 39% / 44%** (new 39% band at €40-60k; pre-2026 was 9/22/28/36/44; under-25s now 0% to €20k) (2026-05-27 verified, source [TaxRavens Greece Personal Income Tax 2026](https://taxravens.com/en/blog/greece-personal-taxation) + [Immigrant Invest 2026 Tax Guide](https://immigrantinvest.com/blog/taxes-in-greece/))
 - **EFKA contributions** mandatory
 
 ### Salary benchmarks (2025)
@@ -397,7 +398,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04).
 - **Santorini caldera zone**: no new builds, additions, pools, water infrastructure on Thera/Thirassia
 - **Out-of-plan construction** halted in many islands
 - **Golden Visa** restructured 1 Sept 2024:
-  - **€800k**: Attica (incl. Athens), Thessaloniki, Mykonos, Santorini, islands >3,100 residents (min 120 m², single unit)
+  - **€800k**: Attica (incl. Athens), Thessaloniki, **all Greek islands with registered population >3,100 (including Crete, Rhodes, Corfu, Kos, Mykonos, Santorini, Paros — full list at goldenvisas.gr)** (min 120 m², single unit) (2026-05-27 verified, source [Global Citizen Solutions Greece Golden Visa Map 2025-2026](https://www.globalcitizensolutions.com/greece-golden-visa-new-rules/))
   - **€400k**: all other regions (min 120 m², single unit)
   - **€250k**: only for heritage-building restoration or commercial-to-residential conversions
 - **VAT 24%** on new builds suspended through 31 Dec 2026

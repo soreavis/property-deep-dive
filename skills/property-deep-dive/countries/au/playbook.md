@@ -98,7 +98,7 @@ Land tax = **rate × land value** above threshold.
 
 | State | 2026 threshold | Rate (above threshold) |
 |---|---:|---|
-| NSW | $1,075,000 | 1.6% (+ premium 2% over $7,067k) |
+| NSW | $1,075,000 (frozen 2025-26 budget) | 1.6% (+ premium 2% over **$6,571,000** — premium threshold also frozen since 2025-26 budget) (2026-05-27 verified, source [Revenue NSW thresholds and rates](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/land-tax/understanding-land-tax/thresholds-and-rates) — prior $7,067k figure was incorrect) |
 | VIC | **$0** (zero threshold from 2024) | 0.2-1.55% sliding |
 | QLD | $600k | 1.0% sliding to 2.75% |
 | WA | $300k | 0.25-2.67% sliding |
@@ -119,7 +119,7 @@ State-based, varies hugely:
 
 - Up to $14,000: 1.25%
 - ... up to top tier: 5.5% over $1M
-- **FHB Assistance Scheme (FHBAS)**: full exemption up to $800k (raised 2025; indexed annually from 1 Jul 2025); concessional up to $1M
+- **FHB Assistance Scheme (FHBAS)**: full exemption up to $800k, concessional up to $1M — **in place since 1 July 2023**; no public Revenue NSW statement that thresholds are annually indexed — verify at [Revenue NSW FHBAS guide](https://www.revenue.nsw.gov.au/property-professionals-resource-centre/duties-guides/first-home-buyers-assistance-scheme-guide) (2026-05-27 verified)
 
 #### VIC (sliding to 6.5%)
 
@@ -288,7 +288,7 @@ State-based, varies hugely:
 |---|---|---|
 | **Section 32 / Vendor Statement** | VIC | Sale of Land Act 1962 mandatory |
 | **Contract for Sale + s.10.7 zoning cert + drainage diagram + title** | NSW | Conveyancing Act |
-| **Form 1 disclosure** (new from 1 Aug 2025) | QLD | Replaces old contract warranties |
+| **Form 2 (Seller Disclosure Statement)** under Property Law Act 2023 (Qld) (effective 1 Aug 2025) | QLD | Replaces old contract warranties (2026-05-27 verified, source [Holding Redlich on Property Law Act 2023](https://www.holdingredlich.com/queensland-s-property-law-act-new-seller-disclosure-requirements-from-1-august-2025) — prior "Form 1" reference was wrong) |
 | **Strata report** | NSW | Strata Schemes Management Act |
 | **Owners Corporation cert (s.151)** | VIC | Owners Corporation Act |
 | **Pool safety certificate** | QLD | Mandatory pre-sale |

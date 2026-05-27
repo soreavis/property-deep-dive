@@ -25,12 +25,12 @@ ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Oqood** (عقد) — interim registration certificate for off-plan sales (Dubai), recorded in DLD's Oqood system, replaced by Title Deed at handover
   - **Initial Sale Contract (ISC)** — equivalent to oqood in Abu Dhabi / other emirates
 - **Recent reforms** (12-month watchlist):
-  - **Federal Decree-Law 21/2021** — Tamleek (ownership) expansion in Abu Dhabi investment zones for non-GCC (builds on Abu Dhabi Law 13/2019)
+  - **Abu Dhabi Law 13/2019** (effective 16 Apr 2019, amending Abu Dhabi Law 19/2005) — non-GCC freehold ownership in Abu Dhabi designated investment areas (NB: there is no Federal Decree-Law 21/2021 on this topic; the reform is an emirate-level Abu Dhabi law, not federal) (2026-05-27 verified, source Al Tamimi & Co + Library of Congress Global Legal Monitor)
   - **Dubai 2040 Urban Master Plan** (effective 2021–2040) — zoning + density evolution
   - **Golden Visa expansions** Oct 2022 + further easing 2024 (mortgage financing portion now counted)
   - **VAT** introduced 1 Jan 2018 at 5%; first-sale residential 0%-rated; subsequent residential exempt; commercial standard-rated
   - **Federal Corporate Tax** introduced for periods starting **1 June 2023** at 9% above AED 375k taxable profit. Personal income from real estate held in own name is **excluded** (CT applies only to business activity); juridical non-residents earning UAE immovable-property income create a nexus
-  - **Dubai Smart Rental Index** revamped 2025 — building quality ratings (A/B/C/D) now influence allowed rent increases
+  - **Dubai Smart Rental Index** revamped Jan 2025 — every residential building rated **1–5 stars** by AI (~60 criteria: condition, finishes, maintenance, amenities, FM quality, location); star rating influences allowed rent increases at renewal (NOT A/B/C/D) (2026-05-27 verified, source DLD Smart Rental Index portal + Driven Properties + Kaizen AMS)
   - **Dubai Tasreef stormwater plan** (AED ~30 bn / USD 8 bn) approved post-Apr 2024 floods; phased to 2033
   - **Dubai Law No. 2 of 2025** — DIFC Wills now have direct enforcement against DLD / banks / RTA without separate Dubai Courts recognition
 
@@ -51,15 +51,15 @@ This section determines whether a transaction is even legally possible. Confirm 
 
 **Investment Zones for non-GCC freehold** (ADREC):
 - **Saadiyat Island**, **Yas Island**, **Al Reem Island**, **Al Raha Beach**, **Al Reef**, **Masdar City**, **Hidd Al Saadiyat**, **Mohammed Bin Zayed City** (selected zones), **Lulu Island** (selected), **Jubail Island**, **Ghantoot**.
-- Federal Decree-Law 21/2021 (and Abu Dhabi Law 13/2019 it formalised) granted non-GCC the right to **freehold land + buildings** within designated investment areas; previously non-GCC were limited to musataha / usufruct / 99-yr lease.
+- **Abu Dhabi Law 13/2019** (amending Abu Dhabi Law 19/2005) grants non-GCC the right to **freehold land + buildings** within designated investment areas; prior to Apr 2019 non-GCC were limited to musataha / usufruct / 99-yr lease. (NB: prior playbook attribution to "Federal Decree-Law 21/2021" was incorrect — that federal decree exists but covers a different subject; the real-estate ownership extension is emirate-level only.) (2026-05-27 verified, source Al Tamimi + Addleshaw Goddard 2021)
 - Verify zone via ADREC's **Tamleek** lookup.
 
 ### Sharjah
 
-- **Non-GCC + non-Arab** nationals: **100-year usufruct** (intifa') only — NOT freehold. Renewable.
+- **Non-GCC nationals** (incl. non-Arab): freehold available **in designated zones only** per **Sharjah Law 2/2022 + Executive Council Decision 30/2022** (Aljada, Maryam Island, Al Mamsha and other approved projects). Outside designated zones, 100-year usufruct (intifa') is the maximum interest, renewable. (2026-05-27 verified, source Afridi & Angell + Lexology)
 - **Arab nationals** (non-GCC, but holding Arab country passport): freehold permitted in selected designated zones.
 - **GCC nationals**: freehold across most of the emirate.
-- 2025 update: Sharjah dropped the residency-visa prerequisite for foreign property purchase (per Sharjah Real Estate Registration Dept communications, June 2025).
+- **June 2025 update**: SRERD dropped the **residency-visa prerequisite** for non-UAE nationals purchasing in designated zones (procedural relaxation under Decision 30/2022 framework); underlying ownership statute itself dates to Sharjah Law 2/2022.
 
 ### Other Northern Emirates
 
@@ -72,7 +72,7 @@ This section determines whether a transaction is even legally possible. Confirm 
 | Item | Threshold |
 |---|---|
 | **Long-term Golden Visa (10 yr)** | Property worth ≥ AED 2,000,000 (single or aggregate properties, your name) |
-| **2-year Investor Visa (older route)** | Property ≥ AED 750,000 |
+| **2-year Property Investor Visa** | **Sole owners**: no minimum property value (completed property + registered title deed); **joint owners**: ≥ AED 400,000 each (DLD reform 29 Apr 2026 — the prior AED 750k floor was **abolished**) (2026-05-27 verified, source VisaHQ + LuxHabitat Journal + DLD announcement 29 Apr 2026) |
 | **Mortgage financing allowed** | Yes — bank financing up to 50% counts toward the AED 2 M threshold; equity portion must reach AED 2 M; bank NOC required (per ICP) |
 | **Off-plan eligible** | Yes if developer is RERA-registered and a property status certificate from DLD/ADREC confirms the value |
 | **Family inclusion** | Spouse + children (no age cap for unmarried daughters; sons up to 25); domestic workers covered |
@@ -275,14 +275,14 @@ What residents do pay annually:
 | 31–40% below | **15%** |
 | > 40% below | **20%** |
 
-- 2025 reform: **Smart Rental Index** adds A/B/C/D building-quality ratings that influence the index value (DLD Smart Rental Index portal `https://dubailand.gov.ae/en/eservices/rental-index/`).
-- 90-day notice prior to renewal required for rent increases (Dubai Decree 26/2013).
+- 2025 reform: **Smart Rental Index** assigns a **1–5 star rating** per residential building (DLD/RERA, Jan 2025) that feeds into the index value used for the Decree 43/2013 rent-increase brackets (DLD Smart Rental Index portal `https://dubailand.gov.ae/en/eservices/rental-index/`) (2026-05-27 verified).
+- 90-day notice prior to renewal required for rent increases (**Dubai Law 26/2007 as amended by Law 33/2008** for renewal notice; rent-increase brackets per **Dubai Decree 43/2013** — Determining Rent Increase for Real Property). (Prior playbook reference to "Decree 26/2013" was incorrect — Decree 26/2013 established the Rental Disputes Settlement Centre, a different instrument.) (2026-05-27 verified, source Al Tamimi + DLP Dubai legislation portal)
 
 ### Short-term rentals (holiday homes)
 
 - **Dubai**: **DET (Department of Economy and Tourism)** Holiday Home Permit — formerly called DTCM Holiday Home licence.
   - Property must be furnished + inspected; building NOC required (some OAs / towers prohibit short-let).
-  - **Permit fee**: ~AED 3,720/year for "Holiday Home Entire" classification (per DET 2026 schedule); per-unit DET fee AED 370–1,270/yr depending on size.
+  - **Initial registration fee**: AED 1,520 (incl. AED 10 Knowledge + AED 10 Innovation); **Annual permit fee**: from AED 370 per unit (size-dependent for larger units) (2026-05-27 verified, source DET portal + Houst + KeyOne 2025/2026 schedules — prior AED 3,720 figure was stale).
   - **Tourism Dirham**: AED 10/bedroom/night (collected from guest, remitted to DET).
   - **Municipality fee**: 10% of booking revenue (separate from Tourism Dirham).
   - **Guest registration**: every guest must be registered on DTCM portal within 3 hours of check-in.
