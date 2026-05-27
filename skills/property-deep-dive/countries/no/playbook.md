@@ -5,7 +5,7 @@ ISO2: `no`. Status: ✅ Fully populated (researched 2026-04).
 ## Country profile
 
 - **Postcode**: 4 digits (`0150` Oslo central, `5003` Bergen, `7012` Trondheim, `4012` Stavanger)
-- **Admin levels**: 11 fylker (counties, since 2024 re-restructuring) + 357 kommuner (municipalities)
+- **Admin levels**: **15 fylker** (counties — NO reverted from 11 to 15 on 1 Jan 2024, dissolving Viken / Vestfold og Telemark / Troms og Finnmark back to Akershus, Buskerud, Østfold, Vestfold, Telemark, Troms, Finnmark) + 357 kommuner (municipalities) (2026-05-27 verified, source: Kartverket / regjeringen.no — 2022 Storting vote undid the 2020 consolidation)
 - **Currency**: **NOK** (Norwegian krone); 1 EUR ≈ 11–12 NOK (volatile, often 11.5)
 - **Languages**: Norwegian (Bokmål 85% + Nynorsk 15%, both official); Sámi minority (north)
 - **Cadastre**: **Kartverket** (Norwegian Mapping Authority) + **Matrikkelen** (national property register)
@@ -95,9 +95,9 @@ For borettslag, always compute:
 
 ### Annual property tax — Eiendomsskatt (OPTIONAL per kommune)
 
-**~280 of 357 kommuner** charge eiendomsskatt (2025). Not nationwide.
+**325 of 357 kommuner** charge eiendomsskatt (only 32 do NOT — trend over last decade is more kommuner opting in, not out) (2026-05-27 verified, source: SSB 2025). Not nationwide.
 
-- **Rates**: 0.1–0.7 % of takstverdi (kommunal assessment value) — capped at 0.7 % since 2019
+- **Rates**: max **4 promille (0.4 %)** for bolig/fritidsbolig since 2020 (commercial higher, historic 7‰ general cap); first year max 1‰, max +1‰ per year (2026-05-27 verified, source: SSB / eskl. §§ 11-13)
 - **Bunnfradrag** (basic deduction): kommune sets — typically NOK 200,000–1,500,000
 - **Verdsettelsesrabatt** (valuation discount): typically 30 % off market value
 - **Effectively low**: typical NOK 5,000–25,000/yr for residential
@@ -145,7 +145,9 @@ For borettslag, always compute:
 
 ### Future risk
 
-- Eiendomsskatt cap stable at 0.7 %
+- Eiendomsskatt residential cap stable at **4‰ (0.4 %)** since 2020
+- **Formueskatt (wealth tax) — 2025**: tax-free **NOK 1.76M single / NOK 3.52M couples**; standard band (≤NOK 20.7M) total 1.0 % (kommune 0.525 + state 0.475); high band (>NOK 20.7M) total 1.1 % (kommune 0.525 + state 0.575) (2026-05-27 verified, source: Skatteetaten / regjeringen.no Prop 1 LS 2024–2025). Boligverdsetting: primærbolig first NOK 10M @ 25% of MV / above @ 70%; sekundærbolig 100%; fritidsbolig separate lower regime. New ML-based national valuation model from 2026 income year.
+- **Utflyttingsskatt (2024 exit-tax reform)**: from 20 Mar 2024 (dividend rules from 7 Oct 2024); 12-year cap on payment regardless of realisation; **NOK 3M basic allowance** (replaces prior NOK 500k); pay-immediate / 12-yr instalments / 12-yr deferral options (2026-05-27 verified, source: Skatteetaten / Prop 1 LS 2024–2025 § 10-70 skatteloven)
 - **Borettslag exemption from dokumentavgift** — periodically debated but stable
 
 ---

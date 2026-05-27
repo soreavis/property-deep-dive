@@ -102,7 +102,7 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 |---|---:|---:|
 | **Kiinteistö (real estate)** | 4.0 % | **3.0 %** |
 | **Asunto-osakeyhtiö (As Oy) shares** | 2.0 % | **1.5 %** |
-| **Other share transfers** | 1.6 % | **1.6 %** (unchanged) |
+| **Other securities (incl. real-estate-company shares)** | 1.6 % / 2.0 % | **1.5 %** (unified from 1 Jan 2024) (2026-05-27 verified, source: vero.fi / Krogerus / Roschier) |
 
 **First-time buyer exemption ABOLISHED** in 2024 (was 4 %/2 % for 18-39 year-old first-time buyers since 1989).
 
@@ -125,7 +125,7 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 - 25.5 % standard (raised from 24 % in Sept 2024)
 - 14 % reduced (food)
 - 10 % reduced (books, accommodation services, transport)
-- New residential property: **24 % ALV** in price typically; existing: VAT-exempt
+- New residential property: **25.5 % ALV** (standard rate from 1 Sep 2024) in price typically; existing: VAT-exempt (2026-05-27 verified, source: vero.fi VAT rates)
 - Commercial: 25.5 %
 
 ### Total transaction cost (buyer side)
@@ -163,7 +163,7 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 - **Vähennykset** (deductions): kunnossapito, korjaukset, yhtiövastike, korot
 - **Tulonhankkimisvähennys**: lump-sum option
 - **Sähkölämmitys** (electric heating) typically not deductible separately
-- **Rental from own primary residence**: SEK 40,000-equivalent threshold below which exempt (small rental)
+- **No de-minimis exemption for rental income** — all rent is capital income (30 %/34 %), reportable even when net is zero after deductions (2026-05-27 verified, source: vero.fi rental-income guidance)
 
 ---
 
@@ -178,7 +178,7 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 ### Self-employment
 
 - **Toiminimi (sole trader)**: simplest
-- **Osakeyhtiö (Oy / Ltd)**: **min €2,500 capital** (was €2,500 unchanged)
+- **Osakeyhtiö (Oy / Ltd)**: **no minimum share capital since 1 Jul 2019** (previously €2,500); Oyj (public Ltd) still €80,000 (2026-05-27 verified, source: Waselius)
 - **YEL** (yrittäjän eläkevakuutus) pension insurance mandatory above ~€9,500/yr earnings
 - **Sairausvakuutus** + **TyEL/YEL** social
 - **Verohallinto Y-tunnus** business ID needed
@@ -316,7 +316,7 @@ Before buying any As Oy apartment, demand:
 
 ## Active fiscal incentives (2025-2026)
 
-- **Kotitalousvähennys** (household tax deduction): 60 % of labour costs up to €1,150/yr/person; doubles to €2,300 for energy retrofit
+- **Kotitalousvähennys** (household tax deduction): **35 %** of VAT-inclusive labour from a company (or 13 % of gross wages if hiring directly); **max €1,600/yr/person, €3,200 for a couple**; €150 self-pay threshold. Oil-heating replacement gets the elevated **60 %/€3,500** rate only (2026-05-27 verified, source: vero.fi)
 - **Asuntoremontin verovähennys**: included in kotitalousvähennys
 - **Energia-avustus** (energy grants via ARA): up to €4,000/apt for energy retrofit
 - **Lämpöpumppu-avustus** heat pump grants

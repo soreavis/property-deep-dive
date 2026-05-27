@@ -237,6 +237,8 @@ Universal — see `shared/climate-projections.md`.
 
 **Fee**: ~€233; processing 6–12 weeks.
 
+**MPRP (Malta Permanent Residence Programme)** — separate from AIP, residence-by-investment route. Property requirement (**LN 146 of 2025**, gazetted Jul 2025): **€375,000 minimum purchase** anywhere in Malta or Gozo (standardised from prior €350k Malta / €300k Gozo split). Lease alternative: **€14,000 p.a.** anywhere. Plus government contribution (€60k purchase route / €98k lease route) + admin + donation. Implementing agency: Residency Malta (2026-05-27 verified, source: cclex.com / mt.andersen.com / csbgroup.com).
+
 ### Special Designated Areas (SDAs) — exempt from AIP, freely tradable, can be rented, multiple per buyer
 
 | Area | Locality |

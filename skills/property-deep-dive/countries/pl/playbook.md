@@ -124,6 +124,7 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 ### Transaction taxes
 
 - **PCC (Podatek od czynności cywilnoprawnych)**: **2%** on resale (paid by buyer)
+- **PCC 6% bulk-buyer rate (od 1.01.2024)**: 6% PCC on the **6th+ lokal mieszkalny on the same nieruchomość gruntowa** purchased from a developer (joint-ownership counts toward threshold; rate **stacks with VAT** — exception to no-PCC-with-VAT rule). Source: Ustawa z 26.05.2023, **Dz.U. 2023 poz. 1463** (2026-05-27 verified)
 - **First-home exemption since 31 August 2023** (secondary market only):
   - Single-family house or flat
   - <50% inherited share allowed
@@ -181,8 +182,7 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Tax on rental
 
-- **Ryczałt 8.5%** up to 100k PLN, **12.5%** above (best for most)
-- **PIT progressive** alternative (12% / 32%)
+- **Najem prywatny (since 1 stycznia 2023)**: ryczałt is the **only allowed form** — **8.5%** up to PLN 100,000/yr (single) or PLN 200,000/yr (spouses jointly); **12.5%** above; **no deduction of costs** and no tax-free amount (2026-05-27 verified, source: podatki.gov.pl / Ustawa o zryczałtowanym podatku dochodowym). PIT progressive scale **NO LONGER available** for najem prywatny — only if rental conducted as działalność gospodarcza (separate ZUS + accounting).
 - **Kasa fiskalna** required if turnover >20,000 PLN/yr (some thresholds)
 - **VAT 8%** on short-let services if registered (above €40k turnover ~ 200,000 PLN)
 
@@ -352,8 +352,9 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 - **Mój Prąd** (PV): up to PLN 7,000 grant
 - **Stop Smog**: low-income retrofit
 - **Mieszkanie bez wkładu własnego**: state-guaranteed mortgage for first home
-- **Kredyt 2%**: subsidized mortgage (limited periods 2023-2026)
-- **Bezpieczny kredyt 2%** various iterations
+- **Bezpieczny Kredyt 2%**: launched 1 lipca 2023; **applications closed early January 2024** (budget exhausted) — subsidy continues for already-approved borrowers through 10-yr subsidy period (2026-05-27 verified, source: BGK / Ministerstwo Rozwoju)
+- **Kredyt #naStart / Mieszkanie na Start**: planned successor (project 8.04.2024); **withdrawn end of 2024**, funds redirected to powódź Boris relief
+- **Pierwsze Klucze**: latest mooted replacement (MRiT, 2025); **NOT enacted as of May 2026**; legislative limbo
 - **Rodzinny dom** scheme: families with 3+ kids
 
 ## Common listing platforms
@@ -371,7 +372,9 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 - **CHF mortgage scandal** — 2002-2008 vintage; ongoing court battles; SN judgment November 2024 set "frankowicze" precedent
 - **Użytkowanie wieczyste**: legacy form — converted to ownership for housing 2019; commercial still in use
 - **Spółdzielcze własnościowe prawo do lokalu** — cooperative ownership (separate from KW); convert to full ownership recommended
-- **Wspólnota mieszkaniowa** (HOA): mandatory for buildings >7 units
+- **Wspólnota mieszkaniowa** (HOA): arises automatically from sale of first lokal (art. 6 UWL); **"duża wspólnota" = ≥ 4 lokali (since 1.01.2020 UWL nowelizacja)** with mandatory zarząd; mała wspólnota (≤ 3 lokale) operates under Kodeks cywilny współwłasność rules (2026-05-27 verified, source: Ustawa o własności lokali ISAP)
+- **Foreign-buyer regime — Ustawa z 24.03.1920 o nabywaniu nieruchomości przez cudzoziemców**: non-EU/EEA/Swiss buyers need **MSWiA permit** (zezwolenie ministra właściwego ds. wewnętrznych) for property acquisition; EU/EEA/Swiss exempt since 1 May 2004 for residential (agricultural restrictions lifted 1 May 2016 but Ustawa o kształtowaniu ustroju rolnego still applies). Non-EU buying standalone **lokal mieszkalny**: no permit required (2017 amendment); buying **house+land or agricultural**: permit required, discretionary 2-6 months (2026-05-27 verified, source: gov.pl/web/mswia / ISAP).
+- **Okres ochronny (1 listopada – 31 marca)**: seasonal moratorium on eviction execution under art. 16 ust. o ochronie praw lokatorów (Ustawa z 21.06.2001); does NOT apply to najem okazjonalny + najem instytucjonalny — which is precisely why these forms exist.
 - **Świadectwo CEN mandatory since 28 Apr 2023**
 - **Storm Boris 2024** = recent reform-driver event
 - **Małopolska anti-smog**: most restrictive in Poland; Kraków zero-emission since 2019

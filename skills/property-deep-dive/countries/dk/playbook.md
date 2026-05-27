@@ -113,7 +113,7 @@ For andelsbolig, you must check:
 1. **Grundskyld** (land tax):
    - Base: 80% of grundværdi (precautionary 20% deduction)
    - Rate: **0.51%** below skattegrænse / **1.4%** above (2026)
-   - Skattegrænse: ~DKK 8,950,000 (København area higher; varies)
+   - Progressionsgrænse: **DKK 9,200,000 (2024 base, indexed annually under Personskattelovens §20)** (2026-05-27 verified, source: vurderingsportalen.dk; 2024 boligskat reform halved pre-reform 0.92%/3.0% rates and added a 20% precautionary deduction)
    - **Kommunale promille**: 16-26‰ varying per kommune for grundskyld
 2. **Ejendomsværdiskat** (property value tax):
    - Base: 80% of ejendomsværdi (full property value, also 20% reduction)
@@ -133,7 +133,7 @@ For andelsbolig, you must check:
 
 ### Transaction taxes
 
-- **Tinglysningsafgift** (registration fee): **0.6% + DKK 1,825 flat** for property purchase (2025); **1.45% + flat** for mortgage
+- **Tinglysningsafgift** (registration fee): **0.6% + DKK 1,850 flat** for property purchase (2025); **1.45% + flat** for mortgage
 - **No general transfer tax** beyond tinglysning — **lowest in W. Europe**
 - **Mæglersalær** (broker): typically **1.5–3%** paid by seller (negotiable)
 - **Notar fees**: not mandatory in DK (advokat optional)
@@ -168,7 +168,7 @@ For andelsbolig, you must check:
 ### Long-term residential
 
 - **Lejeloven** (Tenancy Act): tenant-protective; particularly strict in older buildings (pre-1992)
-- **Boligreguleringsloven**: rent control in cities >40k inhabitants — **abolished from 1 July 2025** for new contracts (replaced by liberalised rules; existing tenants protected)
+- **Boligreguleringsloven**: rent control in cities >40k inhabitants — **repealed 1 July 2022** (2026-05-27 verified, source: elov.dk / gorrissenfederspiel.com; consolidated into new Lejeloven + Lov om boligforhold) — existing tenants in regulated kommuner protected via transitional rules
 - **Andelsbolig rules**: members of housing association; specific share-purchase rules
 - **Tidsbegrænsede aftaler** common
 - **Indekslejekontrakt** (index-linked rent): **caps tightened** since 2022 amid inflation
@@ -319,8 +319,8 @@ For andelsbolig, you must check:
 | Energimærke | 4,000–10,000 |
 | Tilstandsrapport | 8,000–18,000 |
 | Elinstallationsrapport | 4,000–8,000 |
-| Tinglysningsafgift (kjøp) | 0.6% + 1,825 flat |
-| Tinglysningsafgift (mortgage) | 1.45% + 1,825 flat |
+| Tinglysningsafgift (kjøp) | 0.6% + 1,850 flat |
+| Tinglysningsafgift (mortgage) | 1.45% + 1,850 flat |
 | Mæglersalær | 1.5–3% of price (seller) |
 | **Total transaction cost (buyer)** | **~1.5–3%** of price |
 | Septik to mains | 80,000–250,000 |
@@ -362,7 +362,8 @@ For andelsbolig, you must check:
 - **PCB in fugemasse 1950–1977** — banned but still in many older buildings
 - **NemID/MitID** required for tinglysning + tax + Skat services
 - **Tinglysning fully digital since 2009** — fast registration
-- **Boligreguleringsloven abolished 1 July 2025** (new contracts); existing protected
+- **Boligreguleringsloven repealed 1 July 2022** (consolidated into new Lejeloven + Lov om boligforhold); existing tenants protected via transitional rules
+- **Foreign-buyer regime — Lov om erhvervelse af fast ejendom (Erhvervelsesloven)** (2026-05-27 verified, source: civilstyrelsen.dk): non-resident buyers without 5+ years prior DK residency need **Civilstyrelsens tilladelse** (permission moved Justitsmin → Civilstyrelsen 9 Jul 2018). **EU/EEA + Nordic** citizens exempt for year-round (helårsbolig). **Sommerhus**: even EU/EEA need Civilstyrelsen permission absent "special connection" (close DK family, professional/cultural/economic ties) — preserved under Edinburgh Agreement 1992 / Amsterdam Treaty Protocol No. 32 sommerhusprotokol
 - **Sønderjylland German minority** — bilingual context
 
 ## Reddit / forum sources

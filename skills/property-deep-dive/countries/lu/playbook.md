@@ -61,10 +61,11 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
 
 ### Transfer tax on purchase (acquisition)
 
-- **Standard total 7%** = **6% droit d'enregistrement + 1% droit de transcription**
+- **Standard total 7%** = **6% droit d'enregistrement + 1% droit de transcription** (statutory basis: **Loi modifiée du 7 août 1920 sur l'enregistrement et la transcription**)
+- **LU-Ville surtaxe communale** (mixed-use/commercial only): **+3% (commercial) / +3.6% (mixed-use)** on top of 7% on real-estate mutations in Luxembourg-Ville for mixed-use buildings (e.g. retail-on-ground + apartments above), commercial buildings, offices, garages, and building plots in residential zones where buyer does NOT commit to building a single-family home/apartment building within 5 years. **Purely-residential acquisitions are EXEMPT** (2026-05-27 verified, source: pfi.public.lu / CMS Real Estate Tax Guide LU) — verify with notaire if any commercial element.
 - **Bëllegen Akt** ("cheap act") tax credit:
   - Increased from €30k → **€40,000 per natural person** (€80k per couple) by Law 2024
-  - Originally temporary (expiry 30 Jun 2025) — **made PERMANENT for deeds executed from 1 July 2025** (June 2025 amendments)
+  - Amendment trail: **Loi du 22 mai 2024** (initial 30k→40k temporary); **Loi du 4 avril 2025** (extended temporary window to 30 Jun 2025); **made PERMANENT for deeds executed from 1 July 2025 by Loi du 3 juillet 2025** (project deposited June 2025) (2026-05-27 verified, source: gouvernement.lu / Legilux)
   - At €40k/person, effectively wipes out transfer tax on first ~€570k per buyer (€40k / 7% ≈ €571k). Couple buying ~€1.14M can have zero transfer tax
   - Conditions: principal residence, 2-year occupation requirement, LU-resident OR non-resident — no nationality restriction but must occupy
   - Source: https://guichet.public.lu/en/citoyens/aides/logement-construction/aides-indirectes/credit-impot-actes-notaries.html
@@ -85,7 +86,7 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
 - **Other property**:
   - Held **<2 years (speculative)**: full progressive marginal rate up to ~45.78% (incl. solidarity)
   - Held **≥2 years**: half-rate (~22.89% top, half top marginal)
-  - **Temporary 2024 boost (~10% for >2yr) and special July-Sept 2025 quarter-rate window have BOTH expired (post-30 Jun 2025 normalisation)**
+  - **Quarter-rate window (10.5%, 1/4 of 42%)** applied to gains realised **1 Jan 2024 → 30 Jun 2025**, with transitional rule allowing the rate where a compromis was signed/registered by 30 Jun 2025 AND notarial act executed by **30 Sept 2025**; both expired post-30 Sept 2025 (2026-05-27 verified, source: impotsdirects.public.lu / fiduciaire-expert.lu)
 - **CORRECTION**: LU uses 2-year (not 10-year) speculative threshold. >2yr → half-rate. **No automatic exoneration after 10 years — that's the French rule.**
 
 ### Rental income

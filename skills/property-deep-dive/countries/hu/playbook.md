@@ -129,12 +129,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 ### Capital gains (PIT)
 
 - **15%** flat
-- **5-year holding exemption** (full exemption after 5 years; sliding scale years 1-5):
-  - Year 1: 100% taxable
-  - Year 2: 90%
-  - Year 3: 60%
-  - Year 4: 30%
-  - Year 5+: 0% (exempt)
+- **5-year holding exemption** (full exemption after 5 years; sliding scale years 1-5 per NAV SZJA információs füzet — residential schedule): Year 1: 100%; Year 2: 90%; Year 3: 60%; Year 4: 30%; Year 5+: 0% (some secondary sources publish 100/90/70/50/30/0 for non-residential — confirm with NAV booklet per transaction) (2026-05-27 verified, source: NAV / PwC Tax Summary)
 
 ### Total transaction cost (buyer side)
 
@@ -179,7 +174,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 
 - **EV (Egyéni vállalkozó)** = sole trader
 - **Kft. (Korlátolt felelősségű társaság)** = limited; **min HUF 3M capital**
-- **ÁFA** registration: from **HUF 12M turnover**
+- **ÁFA** registration (alanyi adómentesség threshold): from **HUF 18M turnover** (raised from HUF 12M on 1 Jan 2025) (2026-05-27 verified, source: NAV / WTS Klient)
 - **Kata** preferential regime: 50,000 HUF/month flat tax (up to 18M revenue, only specific occupations since 2022)
 
 ### Salary benchmarks (2025)
@@ -188,7 +183,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
   - Budapest: ~HUF 700,000–950,000 (€1,800–€2,400)
   - Debrecen / Győr / Szeged: ~HUF 550,000–750,000
   - Smaller cities: ~HUF 450,000–600,000
-- **Minimum wage**: HUF 290,800/month (2026) — €735
+- **Minimum wage (minimálbér, 2026)**: **HUF 322,800/month gross** (+11% vs 2025; ~€815 at 396 HUF/EUR); guaranteed minimum wage (garantált bérminimum, skilled/diploma): **HUF 373,200/month gross** (~€944) (2026-05-27 verified, source: Forvis Mazars / RSM Hungary / Leinonen)
 
 ---
 

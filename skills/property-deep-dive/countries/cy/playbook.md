@@ -75,7 +75,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 ### Stamp Duty — `2026 REFORM`
 
 - **FULLY ABOLISHED for most documents from 1 January 2026** (Tax Reform 22 Dec 2025)
-- Some narrow exceptions retained for specific real-estate instruments — **flag as ambiguous, verify with conveyancing lawyer per transaction**
+- **FULLY ABOLISHED for documents executed from 1 Jan 2026** under **Law 239(I)/2025**. Only **judicial / court fees** survive (constitutional authority, unaffected) — **no real-estate-specific exceptions retained**. Documents executed before 1 Jan 2026 still under old regime (€0–€5,000 / 0.15% €5,001–€170,000 / 0.20% above, capped €20,000/agreement — Law 19/1963) (2026-05-27 verified, source: ATCA / KPMG / Harneys / Lexology)
 - Documents executed before 1 Jan 2026 still under old regime (€0 / 0.15% / 0.20% tiered)
 
 ### Immovable Property Tax (national)
@@ -91,7 +91,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 - **Rate: 20%** on gains from CY-situs immovable property + shares in CY companies directly owning CY immovable property — UNCHANGED
 - **Lifetime general exemption per individual: €30,000** (up from €17,086 — **2026 reform**)
 - **Private residence exemption: €150,000** if used as main residence ≥5 years (up from €85,430)
-- **Agricultural land exemption: €40,000** (was €25,629)
+- **Agricultural land exemption: €50,000** (was €25,629) — 2026 reform (2026-05-27 verified, source: Sovereign / Harneys / Chambers&Co / IBCCS Tax / Mondaq)
 - Exemption from CGT for property acquired between 16 Jul 2015 and 31 Dec 2016 still applies (one-off historical relief)
 
 ### Personal Income Tax — `2026 REFORM`
@@ -118,7 +118,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
   - For homes 130–190 m² and €350k–€475k: **proportional 5% on first 130 m² only**
   - Above 190 m² OR above €475k: **standard 19% on entire amount** ← cliff
   - 10-year claw-back if property ceases to be primary residence within 10 years
-- **Transitional rule**: properties with planning permits issued before 31 Oct 2023 can use old 200 m² / unlimited-value rule if completed and occupied as primary residence by **15 June 2026** ← deadline approaching
+- **Transitional rule**: properties with planning permits filed before 31 Oct 2023 can use old 200 m² / unlimited-value rule if completed and occupied as primary residence by **31 December 2026** (extended by **Law 109(I)/2026**, gazetted 24 Apr 2026 — extension from prior 30 Jun 2026 deadline) (2026-05-27 verified, source: Michael Kyprianou / Philippou Law)
 - Resale (second-hand) properties: NO VAT (transfer fees only)
 
 ---
@@ -165,7 +165,7 @@ Limassol financial-services + tech relocation hub (post-Wirecard/CySEC migration
 
 ### Wildfire — CRITICAL & WORSENING
 
-- **2021 Limassol wildfires (3–4 July 2021)**: "Most destructive in Cyprus history." Burned 44.5 km² in Larnaca/Limassol foothills (Arakapas/Ora/Odou/Eptagonia/Vavatsinia villages). **4 dead**, 80+ homes destroyed
+- **2021 Limassol wildfires (3–4 July 2021)**: "Most destructive in Cyprus history." Burned **~55 km² (5,500 ha)** in Larnaca/Limassol foothills (Arakapas/Ora/Odou/Eptagonia/Vavatsinia villages). **4 dead** (Egyptian agricultural workers near Odou), 80+ homes destroyed (2026-05-27 verified, source: Copernicus EMS EMSR515 / Cyprus Mail)
 - **2023 Paramytha/Limassol fire (4 Aug 2023)**: 8.8 km² burned, livestock and homes destroyed
 - **2023 season**: 83 forest fires up to mid-September, 2,073 hectares affected
 - **Implication**: any property within 200 m of pine forest, agricultural fringe, or chaparral on Limassol/Larnaca foothills = HIGH wildfire premium / insurance flag / defensive-space mandatory

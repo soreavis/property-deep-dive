@@ -84,8 +84,7 @@ ISO2: `se`. Status: ✅ Fully populated (researched 2026-04).
 
 **Småhus (villa, 2025)**:
 - 0.75 % of taxeringsvärde (assessed value, ~75% of market)
-- **Cap: SEK 9,525/year** (2025)
-- Cap rises with inflation each year
+- **Cap: SEK 10,074/year (2025) / SEK 10,425/year (2026)** — index-linked to inkomstbasbelopp annually (2026-05-27 verified, source: Skatteverket)
 - New builds exempt for 15 years (gradually decreasing)
 
 **Bostadsrätt** (apartment in BRF):
@@ -100,7 +99,7 @@ ISO2: `se`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Transaction taxes
 
-- **Lagfartsavgift** (title transfer): **1.5 % of price** + **SEK 825 fixed fee**
+- **Stämpelskatt** (stamp duty on lagfart, canonical Lantmäteriet/Skatteverket term): **1.5 % of price for privatpersoner / bostadsrättsföreningar / kommuner; 4.25 % for juridiska personer** (AB, HB, ekonomiska föreningar) + **expeditionsavgift SEK 825** (lagfart application fee, separate from stamp duty) (2026-05-27 verified, source: Lantmäteriet)
   - For real estate (fastighet)
   - For bostadsrätt: NOT lagfart, but BRF transfer fee (often SEK 0–10,000 negotiable)
 - **Pantbrev** (mortgage deed): **2 % of mortgage amount** + SEK 375 (only on new pantbrev; existing transfer)
@@ -110,7 +109,8 @@ ISO2: `se`. Status: ✅ Fully populated (researched 2026-04).
 ### Capital gains
 
 - **Reavinstskatt 22 %** on profit (gain)
-- **Uppskov** (deferral): can defer if buying replacement primary residence; pay ~0.5 % annual interest on deferred amount
+- **Uppskov** (deferral): can defer if buying replacement primary residence; **interest-free since 1 Jan 2021** (uppskovsränta abolished) — no annual cost beyond eventual 22% CGT when realised (2026-05-27 verified, source: Skatteverket)
+- **Undersökningsplikt — Jordabalken 4 kap. 19 § andra stycket** (canonical caveat-emptor anchor): buyer loses right to price reduction / rescission for any defect they should have detected through ordinary inspection — duty is *långtgående* (far-reaching) per SE doctrine + case law. Besiktning is the only practical defence (source: riksdagen.se / lagen.nu).
 - **Privatbostad** (primary residence) deduction methods + reno tracking
 
 ### VAT (moms)

@@ -92,21 +92,22 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 #### Wallonie
 
-- Base: indexed RC × 1.25 × **2.5%** (régional) + commune surcharges + provincial surcharges
+- Base: indexed RC × **1.25%** (régional SPW Fiscalité) + opcentimes provinciales + opcentimes communales (2026-05-27 verified, source: finances.wallonie.be)
+- SPW Fiscalité has collected Wallonia précompte since 1 Jan 2021 (previously SPF Finances)
 - Effective rate ~30–60% of indexed RC depending on commune
 - Typical residential: **€600–€2,500/yr**
 - **Réduction modeste** for primary residence under conditions
 
 #### Vlaanderen
 
-- Base: indexed KI × 2.5% (régional) + commune + provincie
+- Base: indexed KI × **3.97%** (basisheffing VLABEL) + opcentiemen provincie + opcentiemen gemeente (2026-05-27 verified, source: VLABEL belastingen.vlaanderen.be — highest regional base rate in BE)
 - Effective rate ~35–65% of indexed KI
 - Typical residential: **€700–€2,800/yr**
 - **Vermindering** for primary residence + dependents
 
 #### Bruxelles-Capitale
 
-- Base: indexed RC × 1.25 × 1.25% (régional) + commune
+- Base: indexed RC × **1.25%** (régional Bruxelles Fiscalité) + opcentimes communales (Agglomération bruxelloise) (2026-05-27 verified, source: be.brussels/Bruxelles Fiscalité)
 - Effective rate ~25–55% of indexed RC
 - Typical residential: **€1,000–€3,500/yr**
 
@@ -116,9 +117,10 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 #### Vlaanderen (effective 1 Jan 2025)
 
-- **Eigen woning (own home, primary)**: **2%** (down from 3%) — confirmed by Beobank, Argenta, ABM-Altos
+- **Eigen woning (own home, primary)**: **2%** (down from 3%, from 1 Jan 2025) — confirmed by Beobank, Argenta, ABM-Altos
   - Conditions: only residence, must occupy
-- **Andere woning (other / second / BTL)**: **12%** (since 2024)
+  - **Tightening from 1 Jan 2026** (2026-05-27 verified, source: vgd.eu/forumadvocaten/Andersen): buyer must maintain registered domicile ≥1 uninterrupted year; **natural persons only** (any legal-entity co-buyer → entire transaction reverts to 12%); full-ownership only (no naakte/vruchtgebruik splits); trigger date = compromis (not deed)
+- **Andere woning (other / second / BTL)**: **12%** (since 1 Jan 2022, up from 10%)
 
 #### Wallonie (effective 1 Jan 2025)
 
@@ -142,6 +144,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 - **21%** (new build / off-plan first sale) — replaces droits d'enregistrement
 - Only applies first year + reduces to droits later
+- **6% demolition + reconstruction (permanent from 1 Jul 2025)** (2026-05-27 verified, source: fin.belgium.be / Loyens & Loeff): on construction works for owner-occupier primary residence ≤175 m² with ≥5-yr occupation OR long-term rental ≥15 yrs. From 18 Jul 2025 Programme Law (in force 29 Jul 2025), 6% **also covers the sale** of newly-reconstructed buildings (surface cap lowered from 200→175 m²).
 
 ### Total transaction cost (buyer side)
 
