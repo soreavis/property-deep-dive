@@ -1059,7 +1059,7 @@ Agent 5% + CGT 10% on net gain + solicitor 1-2% + LUC/utility clearances minor �
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — Tax Reform Acts signed 26 Jun 2025 eff. 1 Jan 2026; VAT 7.5% retained + residential rent zero-rated; CGT progressive replacement; PIT bands restructured ₦800k tax-free; CBN MPR 26.5%; NGN/USD ~1,375; Lagos Blue Book 1 May 2026; FIRS → NRS rebrand)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

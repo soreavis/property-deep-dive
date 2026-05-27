@@ -1050,9 +1050,9 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 
 ## Status
 
-**Confidence**: HIGH
+**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Tax Code Art. 147(1)(16) individual-to-individual residential PIT-exemption; 10% WHT on price when buyer is legal entity / sole-proprietor tax agent (residential), 20% commercial; Tax Code Art. 230 property-tax brackets — separate schedules for apartments vs houses; CBA refinancing rate 6.5% (2026-05-27, source cba.am) following cutting cycle from 2024 ~10% peak; AMD ~368/USD ~395-410/EUR May 2026 per CBA reference rate). MEDIUM on parcel-level cadastre exact apartment vs house classification (verify at src.am for any specific deal), 2026 CBA forward-rate path, and recharacterisation risk for business-pattern traders (individual sales with high frequency may be re-classified as entrepreneurial income). LOW on residential listing benchmarks (no national HPI; List.am + Spyur aggregator-grade with broker bias).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

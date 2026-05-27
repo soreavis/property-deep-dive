@@ -700,7 +700,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 
 **Status**: ✅ fully populated as of 2026-05-07
 **Confidence**: HIGH — foreign-ownership rules (Article 44 Constitution 1993, Land Law 2001 NS/RKM/0801/14, Foreign Ownership Law NS/RKM/0510/015 May 2010, Sub-Decree 126 ANK.BK 12 Aug 2009), tax framework (Law on Taxation 2023 NS/RKM/0523/004 + Prakas 346 MEF.PrK 2020 on CGT), Trust Law 2019 (NS/RKM/0119/004), Investment Law (LCI) 2021 (NS/RKM/1021/014), Labour Law 1997, Tourism Law 2009 are all primary statutes published by the Royal Government / National Assembly. MEDIUM for Sihanoukville post-2019 cycle (mixed primary + practitioner reporting; ~300+ shell-buildings figure cited from municipal authorities and World Bank reporting 2022 but parcel-level verification varies). MEDIUM for parcel-level flood mapping outside Phnom Penh (provincial maps variable). MEDIUM for anti-nominee enforcement intensity (no published prosecution statistics). MEDIUM for CM2H residency program (announced but not operational at scale 2026-05). MEDIUM for capital gains tax practical activation (framework in place; deferred multiple times). LOW for parcel-level air quality (limited public Cambodian-government dashboards).
-**Last verified**: 2026-05-07
+**Last verified**: 2026-05-27
 
 **Reform watch items** (track in `shared/regulatory-watch.md`):
 1. **Capital gains tax 20 % activation** — Prakas 346/2020 framework in place; activation deferred; verify current GDT status; foreign sellers should plan exit-tax exposure regardless.

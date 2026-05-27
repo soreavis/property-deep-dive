@@ -1136,7 +1136,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — PIT 5% >OMR 42k from 1 Jan 2028 (RD 56/2025); VAT first-sale residential 5% standard-rated; MHT URL mht.gov.om; MHUP fee split 3% foreign / 1% Omani)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

@@ -537,7 +537,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all anchored in MLIT / NTA / 法務局 / 国税庁 / J-SHIS / JMA / BoJ primary sources with date-stamped numerics + transparent computations.
 **Confidence**: **HIGH** for cadastre/seismic-standard/national-tax/transaction-cost (all 国税庁 + MLIT primary, multi-source corroborated). **MEDIUM** for current akiya market dynamics (highly local, 1,700+ municipalities — start with municipal akiya bank for parcel-level), municipal-level minpaku rules (per-ward overlay on top of national 180-day cap; verify via 保健所), and condominium 修繕積立金 trajectory (per-building, requires 管理組合 financials review).
-**Last verified**: 2026-05-15.
+**Last verified**: 2026-05-27.
 
 ## Extension TODOs (deepen on first real run)
 

@@ -562,7 +562,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 - **MEDIUM** for parcel-level price benchmarks — TÜİK KFE is province-level only; mahalle-level requires Endeksa or sahibinden cenova haritası lookup per address.
 - **MEDIUM** for STR enforcement — Law 7464 mature but municipal enforcement variance; provisional permit transition (31 Dec 2024) closed but ongoing audit risk.
 
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27.
 
 ## Extension TODOs (deepen on first real run)
 

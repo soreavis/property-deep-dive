@@ -862,7 +862,7 @@ Pre-2018, all non-citizen acquisitions required **prior authorisation of the Con
 
 **Confidence**: MEDIUM — small market with thin publicly accessible price/transaction data. Primary-source confidence HIGH on legal framework (Legge 173/2018 + DD 105/2019 + Legge 154/2019 foreign-buyer regime; Legge 200/2011 + DD 44/2018 ISI; Legge 166/2013 + Legge 141/2025 IGR; Legge 94/2017 Residenza Elettiva; Monetary Agreement 2001/2012; EU customs union since 1991), institutional URLs (gov.sm + statistica.sm + finanze.sm + bcsm.sm + esteri.sm + iss.sm + aass.sm), and population (~33,987 Sept 2024 per Ufficio Statistica). MEDIUM on transaction-tax exact rates (Imposta di Registro band varies by deal type — verify per deal at Ufficio del Registro), ISI category-specific rates (~0.3–0.8% headline est. — verify per parcel rendita), Tassa di Concessione Governativa current quantum (verify at notary). LOW on per-Castello €/m² granularity (no SM HPI; ranges synthesised from listing aggregators + Tecnocasa notes + cross-border ITA OMI Rimini context — verify any specific deal via UTCC visura + bank appraisal + multiple agency comps).
 
-**Last verified**: 2026-05-07
+**Last verified**: 2026-05-27
 
 **Researched by**: Opus 4.7 (microstate-batch, 2026-05)
 

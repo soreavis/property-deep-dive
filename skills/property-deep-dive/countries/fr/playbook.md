@@ -95,7 +95,7 @@ ISO2: `fr`. Status: ✅ Fully populated.
    - DMTO: **6.32 % default** since Apr 2025 (5.00 % département + 1.20 % commune + 0.1067 % État) — 83 départements voted the +0.5 pp département-share hike enabled by Loi de finances 2025; sunset 30 Apr 2028. 11 départements still hold **5.81 %** (Ain, Allier, Alpes-de-Haute-Provence, Alpes-Maritimes, Drôme, Eure, Isère, Landes, Lozère, Oise, Saône-et-Loire, Territoire de Belfort). (2026-05-27 verified; source [Service Public A18183](https://www.service-public.gouv.fr/particuliers/actualites/A18183) + [impots.gouv.fr DMTO 2026 PDF](https://www.impots.gouv.fr/sites/default/files/media/1_metier/3_partenaire/notaires/dmto/dmto_2026-02.pdf))
    - Émoluments notaire: dégressif ~0.8–1.2 %
    - Débours + sécurité immobilière: €600–1,500
-5. Future risk: 2026–2028 cadastral revaluation (RVLLH) likely +20–40 % for rural homes
+5. Future risk: **Révision des Valeurs Locatives des Locaux d'Habitation (RVLLH)** ⚠️ postponed by PLF 2024/2025 from 2026 to **2028 declarations → 2030 tax impact**; expected +20–40 % for rural homes — verify at [collectivites-locales.gouv.fr](https://www.collectivites-locales.gouv.fr/) (2026-05-27 stale-marker)
 
 **Decision tree for residence type**:
 - Primary: only taxe foncière + TEOM
@@ -154,7 +154,7 @@ ISO2: `fr`. Status: ✅ Fully populated.
 - **Salaries general**: INSEE DADS / DSN, Hellowork, JournaldDuNet salaire
 
 **Legal status options** (always include):
-- **Auto-entrepreneur (BNC libéral)**: simple, ~22.2 % charges, plafond €77,700
+- **Auto-entrepreneur (BNC libéral)**: simple, ~22.2 % charges, plafond €77,700 ⚠️ BIC services vs BNC libéral plafonds differ — secondary sources contradict; verify at [URSSAF auto-entrepreneur plafonds](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/les-plafonds.html) before relying on (2026-05-27 stale-marker)
 - **Service à la personne (SAP)**: 50 % tax credit for client; activate via URSSAF
 - **CCN ÉCLAT (associative music schools)**: coefficient 265 × point €6.85 ≈ €1,815/mo gross full-time
 - **CDI public conservatoire**: needs DE + concours
@@ -308,7 +308,7 @@ ISO2: `fr`. Status: ✅ Fully populated.
 
 ## Caveats unique to FR
 
-- 2026–2028 RVLLH cadastral reform → +20–40 % taxe foncière for rural
+- RVLLH cadastral reform ⚠️ postponed PLF 2024/2025 to **2028 declarations → 2030 tax impact** → +20–40 % taxe foncière for rural (2026-05-27 stale-marker; verify at collectivites-locales.gouv.fr)
 - DPE F (2028) and E (2034) banned for rental
 - Loi Le Meur (Nov 2024) tightens short-let regime
 - Service à la personne credit = 50 % deduction for client (huge competitive lever)

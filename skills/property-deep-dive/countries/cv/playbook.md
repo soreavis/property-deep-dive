@@ -610,4 +610,4 @@ Net yields after IPI + IRPS + management + maintenance + condomínio fees + util
 
 **Status**: ✅ fully populated as of 2026-05-07
 **Confidence**: MEDIUM — HIGH for the foundational legal/fiscal framework (post-2026 IPI/ITI reform sourced to Lei 55/X/2025 + Boletim Oficial; CVE-EUR peg multi-source via IMF + BCV; foreigner-eligibility framework via government decree + AAI), and HIGH for volcanic + cyclone risk profile (Smithsonian GVP + WHO PHSA + IPCC). MEDIUM for price ranges (no national index; listing aggregation only with foreign-buyer-portal bias acknowledged) and rental-pool yield realism (developer brochures unreliable; historical operator distributions hard to obtain). MEDIUM for short-let regulatory regime (less codified than EU equivalents; in active reform). LOW for fine-grained municipal-level IPI assessments (post-reform implementation friction expected through 2027).
-**Last verified**: 2026-05-07
+**Last verified**: 2026-05-27

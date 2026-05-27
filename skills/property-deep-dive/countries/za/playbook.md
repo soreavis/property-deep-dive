@@ -520,7 +520,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government / regulated-entity sources + cost benchmarks + caveats.
 **Confidence**: **HIGH** for cadastre / Transfer Duty / CGT / conveyancer requirements / FICA (all primary state / SARS / DHA sources). **MEDIUM** for municipal rates per-city (annual tariff cycle each July; verify current). **MEDIUM** for short-term rental rules (Tourism Amendment Bill in flux; municipal STR regulation evolving; verify Cape Town MPBL current state). **MEDIUM** for Expropriation Act 2024 implementation (Constitutional Court challenges pending; practical residential urban risk currently very low).
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27 (validation sweep — Transfer Duty bracket date 1 Apr 2025; Tourism Bill shelved + Mar 2026 Code + TOMSA; Hawarden v ENS [2024] ZASCA 90; CIPC BO regime; s35A rates 7.5/10/15; s12BA lapsed 28 Feb 2025; VAT 15.5% withdrawn 24 Apr 2025).
 
 ## Extension TODOs (deepen on first real run)
 

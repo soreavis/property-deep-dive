@@ -1204,9 +1204,9 @@ Paraguay as of 2026-05 has **no dedicated digital-nomad visa** comparable to PT 
 
 ## Status
 
-**Confidence**: HIGH
+**Confidence**: MEDIUM — HIGH for foundational legal/fiscal framework (Ley 2532/2005 border-zone, Ley 6380/2019 tax reform, Ley 6984/2022 migration, Ley 7143/2023 DNIT, Ley 5513/2015 smallholder rate, Paraguay Investor Pass 2026 USD 200k RE), BCP + INE macro datapoints, and territorial PIT/IRP framework; MEDIUM for fine-grained municipal IMI assessment values + listing-aggregator USD price benchmarks (no national HPI); LOW for parcel-level forward GDP forecasts (verify against current Informe Económico BCP).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

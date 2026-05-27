@@ -659,7 +659,7 @@ Mainland China operates a **partially closed capital account**. **The single mos
 
 **Status**: ✅ fully populated as of 2026-05-07
 **Confidence**: MEDIUM — primary sources (NBS, PBOC, MoHURD, SAFE, STA) are authoritative for tax / regulatory / price-index claims; tier-1 city benchmark prices are wide indicative bands drawn from Beike / Lianjia / Anjuke listing aggregates and NBS 70-city index trend, NOT parcel-level transactions; foreign-buyer 171号文 + tier-1 social-security overlay rules are city-administered and revised at 12–24-month cadence — re-verify with destination city 住建委 / 房屋管理局 before any offer; SAFE FX-inflow / outflow rules eased Sept 2025 but operational implementation varies by branch — verify; property-tax rollout suspended (May 2026) but politically live; Civil Code Art. 359 auto-renewal residential is statutorily promised but renewal-fee mechanics undefined and untested at scale.
-**Last verified**: 2026-05-07
+**Last verified**: 2026-05-27
 
 **Researched by**: Opus 4.7 (1M context, parallel-subagent batch, 2026-05).
 

@@ -241,7 +241,7 @@ Progressive **10 %–50 %** on aggregate inheritance value above ₩1B–₩5B+ 
 
 - **일괄공제** (lump-sum exemption): ₩500M; 배우자공제 spouse exemption up to ₩3B
 - **Non-resident heir of Korea-situs real estate**: taxable on KR property value regardless of residency; no spouse exemption if non-resident
-- 2025 government proposed cutting top rate to 40 % + restructuring brackets — passage pending National Assembly
+- 2025 government proposed cutting top rate to 40 % + restructuring brackets — **National Assembly reportedly passed 2025-12-02** ⚠️ effective date + final bracket math NOT YET PRIMARY-VERIFIED; bracket table above still reflects pre-amendment 10–50 % regime — verify at [NTS 상속세 안내](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7708) before relying on for inheritance planning (2026-05-27 stale-marker)
 - **2025–2026 reform proposal**: 유산취득세 (acquisition-by-heir) regime under discussion to replace 유산세 (estate-level) regime — would lower effective rate
 
 ### Future risk
@@ -633,7 +633,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

@@ -150,7 +150,7 @@ KZ underwent a **major tax reform in 2025**:
   - **Dividend WHT**: 5 % up to 230,000 MCI; 15 % above
   - **VAT**: standard rate **raised from 12 % to 16 %** from 1 January 2026 (reduced 5 % rate for medicines/medical services in 2026, rising to 10 % in 2027; periodicals 10 %; book publishing exempt) (2026-05-27 verified, source [vatcalc.com Kazakhstan VAT rise](https://www.vatcalc.com/kazakhstan/kazakh-vat-rise-back-on/) + Astana Times)
   - **VAT registration threshold**: reduced from **20,000 MCI → 10,000 MCI** from 1 Jan 2026 (~KZT 43.25 M / ~$90k at MCI 4,325 — significantly more STR landlords pulled into VAT net) (2026-05-27 verified, source [VATupdate](https://www.vatupdate.com/2025/08/13/kazakhstan-lowers-vat-registration-threshold-new-tax-code-amendments-effective-january-2026/))
-  - **Social tax**: rate cut from 11 % → 6 % but no reduction for social contributions
+  - **Social tax**: rate reportedly cut from 11 % → 6 % but no reduction for social contributions ⚠️ **PENDING PRIMARY VERIFICATION** at [Налоговый кодекс / kgd.gov.kz](https://kgd.gov.kz/) — secondary-source attribution only; verify exact effective date + final rate before relying on (2026-05-27 stale-marker)
   - Preserves: 15 % CIT for manufacturing/social-sector reduced rate; 20 % standard CIT; 1 % patent-regime PIT for individual landlords
 
 ### Annual property tax — Property Tax (Налог на имущество / Мүлік салығы)
@@ -757,4 +757,4 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 
 **Status**: ✅ fully populated as of 2026-05-07
 **Confidence**: HIGH for cadastre + tax (current 2025 + new Tax Code 2026 transition) + foreign-buyer rules (Land Code Art. 23 + Law on Legal Status of Foreigners Art. 9 + 2021 ag-land ban — multi-source corroborated against KPMG TIES 2025, PwC Tax Summary, Gratanet legal practitioner note, Adilet primary statute). MEDIUM for short-let regulation (no national STR statute as of 2025; municipal layer in flux), parcel-level seismic data (Almaty SP RK 2.03-31-2020 microzoning is district-level — parcel certification requires NCSOR request), parcel-level mudflow zoning (Kazselezashchita maps commune-level for Almaty foothill; parcel certification on request). LOW for VAT-rate-change exact landing post-1 Jan 2026 (verify at KGD before relying), 2026 MCI value (verify at MoF), and local Akimat 2026 property-tax coefficient adjustments.
-**Last verified**: 2026-05-07
+**Last verified**: 2026-05-27

@@ -1147,7 +1147,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — Decree 195/2025 corporate/fund/portfolio pathway; CBK Discount Rate 3.50% (10 Dec 2025); KIA AUM ~USD 1.0T (Jul 2025); DMTT 15% effective FY 2025)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

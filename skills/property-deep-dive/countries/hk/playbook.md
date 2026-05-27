@@ -1001,7 +1001,7 @@ If IRD assesses sale as "trading" rather than capital disposal:
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

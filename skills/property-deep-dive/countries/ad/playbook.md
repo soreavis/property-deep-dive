@@ -788,9 +788,9 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ## Status
 
-**Confidence**: HIGH
+**Confidence**: MEDIUM — HIGH for the foundational legal/fiscal framework (ITP split 1% Govern + 0.50–3% Comú per Llei 1229/2000 art. 8.1+8.2, IEI two-tier 6%/10% post-Llei 5/2025, Llei 5/2025 "Llei Òmnibus" foreign-investor cap, negative-silence rule per Llei 3/2024, AFA deposit split, Passive-residency tier ladder €600k → €800k → possible €1m), bopa.ad primary statutes, and Comú-level transfer tax confirmation. MEDIUM for parcel-level Comú variation within the 0.50–3% ITP band (verify per parcel with Comú treasurer), Llei 2/2026 forward-flag detail, and 2026 minimum-wage / IRPF effective-rate parentheticals (verify at gov.ad). MEDIUM for residential price benchmarks (no national HPI; aggregator listing data with foreign-buyer bias).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

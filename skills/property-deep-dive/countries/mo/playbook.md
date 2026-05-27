@@ -931,9 +931,9 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 
 ## Status
 
-**Confidence**: HIGH
+**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Property Tax 8% leased / 6% owner-occupier via Law 19/2022 since 2023; owner-occupier rebate fixed MOP 3,500 reduction; Stamp Duty effective rates 1.05% / 2.10% / 3.15% via 5% surcharge on calculated stamp duty; Law 24/2024 New Tax Code effective 1 Jan 2026; MOP-HKD peg since 1983 via Pataca de Macau; 2026 Policy Address resident exemption MOP 3M → MOP 6M + resident self-use LTV 70% → 80%). MEDIUM on Investment Residence Scheme 2007 suspension precise Boletim Oficial citation (verify at io.gov.mo), Estate Duty c.2001 precise repeal-law citation, LRT Hengqin Line operational status, and HK foreign-buyer comparison nuance. LOW on listing-level currentness in a luxury market (pull current asking from JLL/Centaline/Midland at point of analysis).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

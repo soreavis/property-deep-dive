@@ -123,7 +123,7 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 ### VAT (ALV)
 
 - 25.5 % standard (raised from 24 % in Sept 2024)
-- 14 % reduced (food)
+- **13.5 %** reduced (food, restaurant services, books, pharmaceuticals, passenger transport — lowered from 14 % effective 1 Jan 2026, vero.fi) (2026-05-27 verified)
 - 10 % reduced (books, accommodation services, transport)
 - New residential property: **25.5 % ALV** (standard rate from 1 Sep 2024) in price typically; existing: VAT-exempt (2026-05-27 verified, source: vero.fi VAT rates)
 - Commercial: 25.5 %

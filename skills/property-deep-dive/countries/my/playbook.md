@@ -650,4 +650,4 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 7. **RTS Link Johor–Singapore opening 2026** — Iskandar property demand catalyst.
 8. **Sabah seismic code review** — post-Ranau 2015 + post-Myanmar 2025 quakes; verify current MS EN 1998-1 National Annex.
 
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27 (validation sweep — Foreigner MOT 8% eff. 1 Jan 2026 (Budget 2026); MM2H USD tiers restated (Silver 150k/Gold 500k/Platinum 1M); FSI individuals extended to 31 Dec 2036).

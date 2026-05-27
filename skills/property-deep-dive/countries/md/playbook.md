@@ -979,9 +979,9 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 
 ## Status
 
-**Confidence**: HIGH
+**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (new Land Code in force 1 April 2025 superseding Law 828-XII of 1991 with 1-yr divestment trigger for inheritance/court/mortgage acquisitions; CGT mechanic = 50% capital-gain inclusion in gross income (eff. 1 Jan 2020, pre-2020 was 20%) → taxed at standard 12% PIT under Art. 15 → ≈ 6% effective on gross gain; primary-residence exemption 3 yrs owned + 3 yrs domicile (NOT 5 yrs); 0.8% wealth tax on high-value residential under Tax Code Title VI¹ since 2016 — threshold both value ≥ 200 × average forecast monthly wage AND floor area ≥ 120 m², 1 November snapshot, due 25 December; January 2027 cadastral revaluation projected ~150–190% effective property-tax bill uplift). MEDIUM on property-tax statutory range upper bound (0.05–0.3% vs 0.05–0.4% vs 0.05–0.8% — weak sourcing on top of band; verify at fisc.md), SRL workaround legal fragility under new Land Code (foreign-capital SRL treatment evolving), and rental 7% monthly self-pay vs tenant withholding mechanic. LOW on listing-platform 999.md current price granularity (verify with attorney + cadastre per deal).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

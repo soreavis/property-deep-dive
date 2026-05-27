@@ -604,7 +604,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 
 **Confidence**: HIGH on the legal + foreign-buyer regime (Law 230/1996, Law 196/2008, Law 175/2023, Investment Law 160/2023, Form 4 rules — all primary government sources cross-verified). MEDIUM on price benchmarks (asking-side listing data only; no public transaction-price DB). MEDIUM on traffic (no published per-segment AADT). MEDIUM on STR + rental tax (regime is ambiguous, HOA-controlled, evolving). LOW on per-parcel risk verification (NARSS hazard layers not publicly granular; site visit + local expert mandatory).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — CBI USD 500k threshold restored (Sept 2023); Law 190/2019 foundational + Law 30/2023 RETT; bank deposit USD 500k refundable 3-yr lock; RET primary-residence EGP 100k/yr exemption raise)
 
 ### Extension TODOs (deepen on first real run)
 

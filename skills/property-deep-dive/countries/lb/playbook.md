@@ -721,7 +721,7 @@ This is a **distinctive Lebanese quirk**. Even properties with mains EDL connect
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — LBP two-step devaluation timeline corrected (1 Feb 2023 → 15,000; Mar 2024 → 89,500); BDL Governor Karim Souaid (4 Apr 2025); lrc.gov.lb DLRC portal anchored)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

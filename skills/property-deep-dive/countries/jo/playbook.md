@@ -709,7 +709,7 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — CBI 2 Jul 2025 overhaul (passive paths abolished); Ownership of Real Estate Law No. 13/2019; apartment first-150-m² exemption; size limits in dunum)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

@@ -90,7 +90,7 @@ Sources:
 
 **2025 schedule (pre-reform — now historical from 1 Jan 2026)**:
 - **15% standard** (with two key exemptions):
-  - **Owned ≥10 years** → fully exempt
+  - **Owned ≥10 years** → fully exempt (pre-2011 acquisition wrinkle: historical PwC summaries noted a 10-year clock combined with pre-2011 acquisition; re-verify the current 2026 rule at https://taxsummaries.pwc.com/lithuania/individual/income-determination — 2026-05-27)
   - **Declared primary residence ≥2 years** → exempt; OR proceeds reinvested in another residence (within 1 year before / 1 year after sale)
 - Above €253,065 (2025 threshold) → **20%**
 
@@ -198,7 +198,7 @@ Soviet-built; substantially modernized. Network heat losses dropped from **33% �
 
 ### Water/sewage
 - Municipal utilities: Vilniaus vandenys, Kauno vandenys, etc.
-- Rural areas: well + septic (60%+ of rural households)
+- Rural areas: well + septic (~60% of rural households — est., re-verify with osp.stat.gov.lt household water-supply census)
 - No nationwide single registry — check connection per-property via the municipal utility
 
 ### Electricity

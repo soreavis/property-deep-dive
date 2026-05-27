@@ -504,7 +504,7 @@ Same flat, owner household income < 40k GEL:
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats. Foreign-buyer rules + visa pathways verified against MFA + Civil Code references.
 **Confidence**: HIGH for cadastre + tax + foreign-buyer rules (NAPR + Tax Code + Constitution Art. 19 are primary statutory sources, multi-source corroborated). MEDIUM for short-let regulation (no national STR statute as of 2025; Tbilisi/Batumi rules in flux) and for parcel-level geohazard data (NEA + CENN are commune/district-level — parcel certification requires NEA Geological Service request).
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 ## Extension TODOs (deepen on first real run)
 

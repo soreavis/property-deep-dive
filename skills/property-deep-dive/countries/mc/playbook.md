@@ -431,9 +431,9 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 
 ## Status
 
-**Confidence**: HIGH
+**Confidence**: MEDIUM — HIGH on foundational legal framework (Code Civil + Loi 1.014 notarial barème + Ordonnance Souveraine droits d'enregistrement 4.5% / 7.5% trust+offshore vehicles, monservicepublic.gouv.mc portal as primary admin gateway, EUR adoption via 2001/2011 monetary agreement, no income tax for residents except French nationals under 1963 convention). MEDIUM for notarial émolument exact bands (verify per deal at Chambre des Notaires), practitioner-quoted LTV bands (no public mortgage-stats publication), and CAP 39's interaction with parcel-level cadastre. LOW on residential listing-price currentness (luxury market with high deal-to-deal variance — pull current asking from agent at point of analysis).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

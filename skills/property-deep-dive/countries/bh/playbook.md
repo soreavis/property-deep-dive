@@ -658,7 +658,7 @@ Bahrain urban property is essentially **always on mains** for water + electricit
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — freehold statute Legislative Decrees 2/2001 + 43/2003 + Edicts 67/2006 + 38/2023; SLRB flat 1.7%/2.0%; DMTT 15% on MNEs eff. 1 Jan 2025; Tourist Levy BHD 3/night 1 May 2024)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

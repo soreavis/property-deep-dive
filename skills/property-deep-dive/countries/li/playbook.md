@@ -500,9 +500,9 @@ For nearly all international buyers without an existing Liechtenstein residence 
 
 ## Status
 
-**Confidence**: HIGH
+**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Grundstücksgewinnsteuer Tarif Art. 19 Bst. a SteG + 200% Zuschlag Art. 43 SteG with no holding-period adjustment in statute, Erbschafts-/Schenkungssteuer abolished entirely 1 Jan 2011 across all relations, Widmungssteuer on Stiftung endowments, GVG Art. 6 + GVO 2007 foreign-acquisition cap 1,440 m² + 1 building OR 2 condos, CHF currency via 1980 monetary agreement). MEDIUM on Ersatzbeschaffung relief (Art. 36 SteG closed-catalog reading — no 2-yr rollover available for private real estate), MwSt 3.8% Beherbergungs-Sondersatz interaction with STR, Bank Frick + LLB mortgage-list current product mix (verify at point of analysis), and population / foreign-share datapoints. LOW on residential listing-price currentness (thin market, low transaction volume — pull current asking at point of analysis).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

@@ -663,4 +663,4 @@ Sources: PSA Labor Force Survey `https://psa.gov.ph/`, JobStreet Salary Report 2
 5. **Boracay STR licensing model** — whether DOT/LGU expand to other tourist islands.
 6. **Bangko Sentral FX Manual updates** — BSP Circular series; affects foreign-buyer remittance documentation.
 
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27 (validation sweep — BSP RREPI → RPPI rename + URL; SRRV restructure 1 Sept 2025 (Classic+Courtesy USD deposits, age 40-49); VAT exemption PHP 3.6M (BIR RR 1-2024); NCR-26 PHP 695/day Wage Order eff. 18 Jul 2025).

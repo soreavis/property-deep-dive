@@ -150,7 +150,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Future risk
 
-- **2028 Eigenmietwert reform** active implementation
+- **Eigenmietwert abolition** active implementation (target 1 Jan 2029, earliest 1 Jan 2028 — see L87 for canonical dates; verify at [EFD Wohneigentumsbesteuerung](https://www.efd.admin.ch/de/wohneigentumsbesteuerung)) (2026-05-27 verified)
 - Cantonal second-home property taxes coming
 - Wealth tax rates stable
 
@@ -185,7 +185,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Lex Koller restricts foreign buyers** of second homes — major regulatory hurdle
 - **Zweitwohnungsinitiative** (2012): max 20 % second homes per Gemeinde — pop. cap
-- **Imputed rent abolished 2028** changes investment math significantly
+- **Imputed rent abolition** (target 1 Jan 2029, earliest 1 Jan 2028 — see L87) changes investment math significantly
 - High purchase costs (Vaud, Genève) eat margins
 
 ---
@@ -329,7 +329,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Lex Koller restricts foreign buyers** of residential second homes — major issue for non-CH/EU residents
 - **Zweitwohnungsinitiative 20 % cap** in many alpine + tourist Gemeinden
-- **Eigenmietwert ABOLITION 2028** changes ROI math for owner-occupiers
+- **Eigenmietwert ABOLITION** (target 1 Jan 2029, earliest 1 Jan 2028 per ESTV — see L87) changes ROI math for owner-occupiers
 - **Stockwerkeigentum** since 1965 — most apartments; verify Wertquote + Reglement
 - **Bauernhof + Bäuerliches Bodenrecht** (BGBB): special restrictions on agricultural property
 - **Permafrost-Risiko** for high-alpine builds
@@ -353,7 +353,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|
 | **Cantonal Grundbuchamt** | Title verification, encumbrances |
 | **Gemeinde Bauamt** | Permits, Zonenplan, Bauakt history |
-| **Steueramt (kantonal + Gemeinde)** | Liegenschaftssteuer, Eigenmietwert (until 2028) |
+| **Steueramt (kantonal + Gemeinde)** | Liegenschaftssteuer, Eigenmietwert (until abolition — target 2029, earliest 2028) |
 | **Notar (Notariat) per canton** | Final transfer, Grundbuch eintragung |
 | **Wasserwerk Gemeinde** | Mains drains verification |
 | **Schweizerischer Erdbebendienst (SED)** | Seismic info |

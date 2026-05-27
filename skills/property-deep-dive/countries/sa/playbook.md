@@ -1193,7 +1193,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — Royal Decree M/14 of 19/01/1447 AH foreign ownership law; Saudi Civil Transactions Law M/191; statute citations refreshed)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

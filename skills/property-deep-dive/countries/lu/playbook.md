@@ -85,7 +85,7 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
 - **Principal residence**: fully exempt regardless of holding period or gain — unchanged
 - **Other property**:
   - Held **<2 years (speculative)**: full progressive marginal rate up to ~45.78% (incl. solidarity)
-  - Held **≥2 years**: half-rate (~22.89% top, half top marginal)
+  - Held **≥2 years**: half-rate (max **21%** base; **~22.89% all-in** including Employment Fund + dependency-insurance surcharges, per [fiduciaire-expert.lu](https://fiduciaire-expert.lu/fr/articles/plus-values-immobilieres/)) (2026-05-27 verified)
   - **Quarter-rate window (10.5%, 1/4 of 42%)** applied to gains realised **1 Jan 2024 → 30 Jun 2025**, with transitional rule allowing the rate where a compromis was signed/registered by 30 Jun 2025 AND notarial act executed by **30 Sept 2025**; both expired post-30 Sept 2025 (2026-05-27 verified, source: impotsdirects.public.lu / fiduciaire-expert.lu)
 - **CORRECTION**: LU uses 2-year (not 10-year) speculative threshold. >2yr → half-rate. **No automatic exoneration after 10 years — that's the French rule.**
 

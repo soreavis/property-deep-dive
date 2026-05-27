@@ -245,7 +245,7 @@ Universal — see `shared/climate-projections.md`.
 
 ## Country-specific quirks
 
-- **Compulsory land lease (`dalītais īpašums`)** — Iconic LV problem: many Soviet-era apartment blocks in Riga sit on land owned by **a different party** (often pre-1940 owner via restitution). Residents own the apartment but **pay forced ground rent** to land owner. **Reform: phased buyout law** — apartment owners can compel land purchase at cadastral price. **Verify on EVERY Riga deal.** No LT equivalent.
+- **Compulsory land lease (`dalītais īpašums`)** — Iconic LV problem: many Soviet-era apartment blocks in Riga sit on land owned by **a different party** (often pre-1940 owner via restitution). Residents own the apartment but **pay forced ground rent** to land owner. **Reform: phased buyout law** in force since 1 Jan 2023 (2026-05-27 — verify exact statute citation at https://likumi.lv) — apartment owners can compel land purchase at cadastral price. **Verify on EVERY Riga deal.** No LT equivalent.
 - **Restitution legacy**: 1990s land reform restored property to pre-1940 owners or heirs (citizens AND citizenship-eligible heirs from emigration — broader than LT). 30-year reform formally completed 2020; residual claims continue to surface, especially in Riga urban land
 - **Riga Old Town (Vecrīga) UNESCO 1997**: strict heritage rules. Heritage Inspection (NKMP) approval for any external change
 - **Latgale (E Latvia)**: border zone (RU + BY), Russian-speaking-majority; lower prices, but **post-2022 RU/BY buyer ban + border permit requirements** are most relevant here. Latgale rural land cheap but harder to liquidate

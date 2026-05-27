@@ -670,7 +670,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 **Coverage check**: foreign-buyer eligibility, pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for legal framework (Land Code via Reshumot; RMI structure via gov.il; Karnit via primary statute; Mas Rechisha brackets via Tax Authority — all primary state agencies). MEDIUM for current bracket numerical values (annual indexation 16 January; verify at signing). MEDIUM for war-zone insurability and Otef Aza / Northern-border pricing (active conflict period; data thin). LOW for settlement-area / disputed-jurisdiction deeds (specialist counsel mandatory; not commodity due-diligence).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 ## Extension TODOs (deepen on first real run)
 

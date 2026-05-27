@@ -628,7 +628,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — Law 28/2023 Aqarat/RERA + Law 5/2024 Real Estate Registration Law + 2026-01 MoJ fee-cut entry; statute names refreshed)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

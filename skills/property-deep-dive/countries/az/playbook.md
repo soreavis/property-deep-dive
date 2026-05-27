@@ -1066,9 +1066,9 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 
 ## Status
 
-**Confidence**: HIGH
+**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Land Code Art. 48.3 + 49 — foreigners may freehold-own buildings / apartments / individual house structures but cannot own LAND of any class; standalone-house plots held under up-to-99-yr lease; property-tax AZN-per-m² mechanic with Baku district coefficient AZN 0.4/m² base × 0.7–1.5 → effective AZN 0.28–0.60/m²; PIT progressive 14% up to AZN 2,500/month, AZN 350 + 25% above per Tax Code Art. 101; rental 14% → 10% from 1 Jan 2026 residential rentals paid to individuals; AZN-USD peg ~1.7 since 2017). MEDIUM on simplified property-transfer-tax exact notary-withheld coefficient (verify at notary per deal); the "3-yr primary-residence exemption under Art. 102.1.18" framing remains unverified vs PwC + taxes.gov.az and is currently tagged `data not publicly verified — verify at taxes.gov.az`. MEDIUM on parcel-level rayon coefficient assignment within Baku (verify at relevant Bələdiyyə). LOW on residential price benchmarks (no national HPI; Bina.az / Tap.az aggregator-grade).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

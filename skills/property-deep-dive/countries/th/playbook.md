@@ -728,4 +728,4 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 5. **Bangkok high-rise seismic code review** — DPT post-Myanmar 2025; verify current text.
 6. **Foreign-source income remittance taxation** — Revenue Department interpretation effective 2024 for non-LTR holders; ongoing clarifications.
 
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27 (validation sweep — Royal Decree 22 Apr 2025–30 Jun 2026 0.01% Thai-only transfer-fee reduction; Hotel Act Ministerial Reg BE 2566 (≤8 rooms/≤30 guests exemption); Por.161 + Por.162 + 1 Jan 2024 cut-off).

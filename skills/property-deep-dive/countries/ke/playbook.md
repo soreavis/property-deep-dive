@@ -1194,7 +1194,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — stamp duty KRA → Ardhisasa migration anchored; legacy KRA 404 URL replaced; VAT 16% history refreshed)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

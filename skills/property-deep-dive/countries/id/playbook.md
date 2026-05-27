@@ -760,4 +760,4 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 6. **Digital Nomad Visa E33G evolution** — launched 2024; ongoing DJP guidance on foreign-source income remittance.
 7. **IKN Nusantara real-estate incentives** — Perpres 78/2023 schedule still being implemented through 2030.
 
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-05-27 (validation sweep — PPN 12% luxury-only ≥IDR 30bn (PMK 131/2024); Bali Perda 4/2026 nominee criminalisation signed 24 Feb 2026).

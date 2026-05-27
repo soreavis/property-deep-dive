@@ -145,7 +145,7 @@ For andelsbolig, you must check:
 
 ### Capital gains
 
-- **Ejerbolig (parcelhusreglen)**: capital gain on primary residence often **EXEMPT** if owner-occupied + plot ≤1,400 m²
+- **Ejerbolig (Ejendomsavancebeskatningsloven §8 'parcelhusreglen', LBK nr 132 af 25/01/2019)**: capital gain on primary residence often **EXEMPT** if owner-occupied + plot ≤1,400 m² (or subdivision impossible per kommune); sommerhus → §8 stk. 2 (2026-05-27 verified, source [retsinformation.dk](https://www.retsinformation.dk/eli/lta/2019/132))
 - **Sommerhus (sommerhusreglen)**: similar exemption if for personal use during ownership
 - **Investment property**: progressive income tax up to **52.07%** (or 22% selskab if held in company)
 

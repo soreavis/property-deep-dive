@@ -629,4 +629,4 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: Foreign buyer eligibility (4-regime decision tree + Office des Changes mechanics), pricing, traffic, tax, rental, work, risks, mains all have primary government sources or transparent estimates with calibration.
 **Confidence**: HIGH for the title/regime framework + tax base rates + ANCFCC/Office des Changes process (all primary state agencies, multi-source). MEDIUM for short-let regulation (fragmented, in transition, enforcement uneven) and price benchmarks (listing-derived est. ranges, not transaction-data-grade). LOW only for the agricultural-land Vivendi authorisation specifics (case-by-case, no published criteria).
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — droit d'enregistrement terrains nus 5% (CGI art. 133-I-B, LdF 2024); TPI primary-residence exemption 5 yrs + 4M MAD ceiling; IGOC 2026 in force 1 Jan 2026)

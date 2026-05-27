@@ -826,9 +826,9 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 ## Status
 
-**Confidence**: HIGH
+**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (IVA 15% per Decreto Ejecutivo 198/2024 + Ley Orgánica Reforma Tributaria; CGT short-term test reduced 5y → 1y; Visa de Inversionista USD 47,000 (100×SBU 470); USD-dollarised currency since 2000; SRI tax-residency tests; Visa 10-II + Visa 11-VI investor / pensionado routes). MEDIUM on parcel-level municipal predial assessment values, current blackout duration (national hydropower-deficit-driven, oscillating 8–14 hr through 2025–2026 dry seasons — verify with CENACE at point of analysis), and STR municipal-level rules (no national statute; Quito + Cuenca + Galápagos varying). LOW on residential price benchmarks (no national HPI; aggregator listings + Numbeo + Properstar with broker bias).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

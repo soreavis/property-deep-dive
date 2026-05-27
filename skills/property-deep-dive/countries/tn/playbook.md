@@ -753,7 +753,7 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — PVI 10%/15% individuals (25% only for public-entity buyers); registration duty progressive 6/8/10% (LdF 2024); statute stack Loi 64-5/2005-40/2016-71 + Beylical Decree 4 Jun 1957; IMF EFF rejection April 2023; Feb 2025 Moody's Caa1 stable)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

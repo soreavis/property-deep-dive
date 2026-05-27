@@ -633,7 +633,7 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

@@ -1415,7 +1415,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — adverse possession Limitation Act 1963 Art. 65/112 + s.27 added to Caveats; FEMA 21 §6 8-list vs Press Note 3 7-list disambiguated; FEMA 21(R)/2018-RB lead-warning corrected)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

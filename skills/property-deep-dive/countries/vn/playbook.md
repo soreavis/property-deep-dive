@@ -718,7 +718,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 
 **Confidence**: HIGH — foreign-ownership rules (2024 Land Law Law No. 31/2024/QH15, 2023 Housing Law Law No. 27/2023/QH15, 2023 Real Estate Business Law Law No. 29/2023/QH15, implementing Decrees 102/2024/ND-CP, 95/2024/ND-CP, 96/2024/ND-CP, 101/2024/ND-CP, 71/2024/ND-CP); Pink Book mechanics (Decree 101/2024/ND-CP); 50-year tenure + renewal (Article 20 Housing Law 2023); 30 % apartment / 250 landed-house quotas (Articles 19–20 Housing Law 2023 + Decree 95/2024); FX requirement (Circular 06/2019/TT-NHNN); PIT 2 % on transfer + registration fee 0.5 % + rental tax 5 % PIT + 5 % VAT (PIT Law + Circular 40/2021/TT-BTC); typhoon and Mekong Delta sea-level rise (MONRE National Adaptation Plan 2022); fire-code post-Carina (2018).
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-27 (validation sweep — MONRE → MAE merger propagated; HCMC Quyết định 26/2024/QĐ-UBND STR ban; Hague Apostille effective 11 Sep 2026 flagged)
 
 **Reform watch items** (track in `shared/regulatory-watch.md`):
 1. **2024 Land Law + 2023 Housing Law + 2023 Real Estate Business Law effective date 2025-08-01** — verify implementing Decrees stable by Q3 2025.
