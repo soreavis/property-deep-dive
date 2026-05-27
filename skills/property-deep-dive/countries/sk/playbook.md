@@ -178,7 +178,7 @@ Daň = ročná sadzba/m² × výmera bytu/m²
   - **Notár / advokát**: typically 0.5–1.5 % of price
   - **Kataster registration fee**: €66 (urgent: €266)
   - **Znalecký posudok** (appraisal, often required by bank): €100–€300
-- Seller may pay **daň z príjmu** on capital gain if sold within **5 years** of acquisition (15 % / 19 % / 25 % brackets); primary residence exempt after 2 years residence
+- Seller may pay **daň z príjmu na kapitálový zisk** (§ 8 ZDP) at **19 % / 25 %** brackets if sold within **5 years** of acquisition; exempt after 5 years. **Primary residence exempt** if (a) trvalý pobyt ≥ 2 years immediately before sale, AND (b) not used for business in the 5 years prior, AND (c) never registered as obchodný majetok (§ 9 ods. 1 ZDP). (2026-05-27 verified, source PwC SK + Accace 2025)
 - **Realitný maklér**: usually 3–5 % paid by seller
 
 ### Total transaction cost
@@ -187,13 +187,11 @@ Daň = ročná sadzba/m² × výmera bytu/m²
 
 ### DPH (VAT) on new builds
 
-**MAJOR 2025 reform**:
+**MAJOR 2025 reform** (konsolidačný balíček; effective 1 Jan 2025, source Zákon 222/2004 § amend + Grant Thornton SK + financnasprava.sk, 2026-05-27 verified):
 - **23 %** standard rate (up from 20 %)
-- **19 %** reduced (some categories)
-- **5 %** super-reduced — **new 2025 category for housing supply**:
-  - First-purchase residential units (state-supported scheme)
-  - Social housing
-- Old rules: 20 % standard, no special housing rate
+- **19 %** reduced — NEW from 2025, replaces old 10 % bracket (food non-basic, electricity, restaurant non-alcoholic beverages)
+- **5 %** super-reduced applies to **accommodation services (ubytovanie)**, restaurant food services, fitness centres, sports events, books — NEW from 2025; plus basic foodstuffs, medicines, medical devices, and pre-existing state-supported social housing (Zákon 222/2004 Z. z. §85). **Not** a new first-time-buyer bracket.
+- Old rules: 20 % standard, no special accommodation rate
 
 ### Future risk
 
@@ -210,11 +208,11 @@ Daň = ročná sadzba/m² × výmera bytu/m²
 **Daň z príjmu z prenájmu (FO)**:
 - Income from prenájom is "iný príjem" (other income) under § 6 ods. 3 ZDP
 - **Paušálne výdavky 60 %** allowed (max €20,000/yr)
-- Tax brackets 2025:
-  - **15 %** (mikrodaňovník) for income up to €100,000/yr
-  - **19 %** standard up to ~€41,445 ZD
-  - **25 %** above
-  - **35 %** for top earners
+- Tax brackets 2025 (pre 1 Jan 2026 progressivity reform; source ZDP § 15 + financnasprava.sk + podnikajte.sk, 2026-05-27 verified):
+  - **15 %** (mikrodaňovník) for príjem ≤ €100,000/yr
+  - **19 %** standard up to **€48,441.43** ZD (176.8× životné minimum, raised from €60,000 EUR in 2024)
+  - **25 %** above €48,441.43
+  - Future: **30 % + 35 % progressivity brackets** added from 1 Jan 2026 per konsolidačný balíček (verify final thresholds at financnasprava.sk)
 - Reportable annually (DAP fyzickej osoby)
 - No social/health insurance contributions (unless registered as živnostník)
 
@@ -226,8 +224,9 @@ Daň = ročná sadzba/m² × výmera bytu/m²
 
 - Mandatory short-term rental **register** being created (per EU mandate)
 - Public register fields: address, unit type, # of beds, registration number
-- Penalties: hundreds € (FO), thousands € (businesses), tens of thousands € (platforms)
-- Full application: 20 May 2026
+- Penalties: **€100–€1,500 per FO violation** plus larger brackets for businesses and platforms (per MCRŠ návrh)
+- **EU base reg 2024/1028: applies 20 May 2026** across EU for data-sharing infrastructure
+- **SK transposition timeline** (per MCRŠ návrh, pending NR SR final reading at 2026-05-27): existing hosts active on online platforms by **31 Dec 2026** must register by **28 Feb 2027**; from **1 March 2027** registration is a precondition for offering STR via online platforms (verify final text in Zbierka zákonov)
 
 #### Hostinská činnosť živnosť
 
@@ -387,7 +386,9 @@ Map: `https://www.seismology.sk/Maps/` (475-year return period PGA map, 2012 GF�
 | **PPV (potvrdenie o platených úhradách)** | If apartment | At signing |
 
 **EC platnosť**: 10 years.
-**EC obligation since 1 April 2025**: must be present at kolaudácia + within 2 months of expiry from any major change + at sale + at lease.
+**EC obligation at sale / lease since 2013** under Zákon 555/2005 Z. z. § 7, § 8 (not 1 April 2025 — that date is the new Stavebný zákon 201/2022 effective date; see below). Pokuta **€500–€3,000** under § 12. (2026-05-27 verified, source SIEA)
+
+**Stavebný zákon transition (1 April 2025)**: Zákon 50/1976 Zb. zrušený; replaced by **Zákon 201/2022 Z. z. o výstavbe** and **Zákon 200/2022 Z. z. o územnom plánovaní** (effective 1 April 2025). Late-2024 bridge novela Zákon 46/2024. Source: Úrad pre územné plánovanie a výstavbu SR `https://uupv.sk/`.
 
 ### Climate change projections (SHMÚ)
 

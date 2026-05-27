@@ -86,20 +86,24 @@ Sources:
 - Ministry of Finance: https://finmin.lrv.lt/en/news/amendments-to-tax-laws-adopted-by-the-seimas/
 - KPMG: https://kpmg.com/kpmg-us/content/dam/kpmg/taxnewsflash/pdf/2025/12/tnf-lithuania-dec-4-2025.pdf
 
-### Capital gains on property sale (PIT/GPM)
+### Capital gains on property sale — GPM (Gyventojų pajamų mokestis)
 
+**2025 schedule (pre-reform — now historical from 1 Jan 2026)**:
 - **15% standard** (with two key exemptions):
   - **Owned ≥10 years** → fully exempt
   - **Declared primary residence ≥2 years** → exempt; OR proceeds reinvested in another residence (within 1 year before / 1 year after sale)
 - Above €253,065 (2025 threshold) → **20%**
-- **2026 reform**: progressive 20% / 25% / 32% on aggregated income — verify with KPMG 2026 tax card
+
+**2026 reform** (effective 1 Jan 2026): progressive GPM **20% / 25% / 32%** bands on aggregated income live. (2026-05-27 verified — confirm exact thresholds at vmi.lt + KPMG LT 2026 tax card)
 
 Source: https://taxsummaries.pwc.com/lithuania/individual/income-determination
 
-### Rental income (PIT/GPM)
+### Rental income — GPM
 
-- 15% on amounts up to €253,065/yr (2025); above → 20%
+- **2025**: 15% on amounts up to €253,065/yr; above → 20% (pre-reform)
+- **2026**: progressive 20/25/32% bands apply
 - **Or** flat **5% via "individual activity certificate"** for short-term lets / **business certificate** for personal-use properties (limits apply)
+- **Bank of Lithuania (Lietuvos bankas) macroprudential** Responsible Lending Regulations: **LTV ≤85%** (primary residence), **DSTI ≤40%** of net monthly income, **max maturity 30 years** (effective since 2011, recalibrated 2017 + 2022). Source: https://www.lb.lt/ (2026-05-27 verified)
 
 ### VAT new-build
 

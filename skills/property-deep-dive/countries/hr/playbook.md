@@ -123,14 +123,15 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Transaction taxes
 
-- **Real estate transfer tax (RETT)**: **3%** on resale (no VAT)
-- **VAT (PDV)**: **25%** on new builds first sale
-- **Notary**: ~0.5–1.5%
+- **Porez na promet nekretnina** (Real estate transfer tax, RETT): **3%** on resale (no VAT)
+- **PDV** (VAT): **25%** on new builds first sale
+- **Javni bilježnik** (notary): ~0.5–1.5%
 - **Realtor commission**: 2–3% per side
+- **First-home refund (1 Jan 2025)** under Regulation on Support for the Acquisition of the First Residential Property: 100% refund of 3% RETT on resale OR 50% refund of paid VAT on new build. Eligibility: under 45 at application; no other suitable HR/abroad property owned now or before 2025-01-01; apply via **APN** within **24 months** of purchase; claw-back if sold/rented/deregistered within 5 years. (2026-05-27 verified, source Porezna uprava)
 
 ### Capital gains
 
-- **24% on disposal within 10 years** (gain = sale - indexed purchase)
+- **Disposal within 10 years**: gain taxed under Porez na dohodak — verify current bracketed rate at `https://porezna-uprava.gov.hr/en/income-tax/7363` (the previously stated "24%" combined rate predates the 1 Jan 2024 abolition of prirez and requires re-verification). (2026-05-27 — needs primary-source confirmation)
 - **Exempt if held >10 years** OR if **primary residence**
 
 ### Total transaction cost (buyer side)
@@ -142,6 +143,8 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 
 - Porez na nekretnine: rate changes likely as municipalities recalibrate 2025-2027
 - VAT may rise post-eurozone integration
+- **HR Bačić package (1 Jan 2026 entry into force)**: three new laws (Zakon o prostornom uređenju + Zakon o gradnji + Zakon o energetskoj učinkovitosti u zgradama) adopted by Sabor — universal-jurisdiction criminalisation of illegal construction (previously prosecutable only in national parks / on maritime domain), with DORH (State Attorney's Office) competence, 30-day permit issuance target, and fines-to-prison sanctions. Pair with **Legalizacija** regime (Zakon o postupanju s nezakonito izgrađenim zgradama; 2026 amendment eliminated 2018-06-30 cut-off, but only buildings visible on 2011-06-21 DGU orthophoto may be retrospectively legalised — post-2011 builds fall under Bačić criminal regime). (2026-05-27 verified, source Sabor + Croatia Week)
+- **Pomorsko dobro** (Maritime Domain) is statutory **inalienable public good** under Zakon o pomorskom dobru i morskim lukama (minimum 6 m landward of coastline + territorial sea/seabed). Cannot be owned by anyone (HR or foreign) — only concessions available. Seafront listings promising "beach ownership" are selling something legally non-ownable.
 
 ---
 

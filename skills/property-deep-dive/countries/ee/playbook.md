@@ -120,13 +120,14 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 ### VAT (käibemaks)
 
 - **22% standard** (raised from 20% on 1 Jan 2024)
-- **24% from 1 Jan 2025**
+- **24% from 1 July 2025** (Security Tax Act; raised from 22 %; **made permanent April-May 2026** — VAT will NOT revert to 22 % from 2029) — Käibemaksuseadus (KMS) / EMTA. (2026-05-27 verified, source KPMG + Eesti Kaubandus-Tööstuskoda)
+- **Accommodation-services reduced VAT** (hotel-classified short-let): **9 % → 13 % from 1 Jan 2025** (separate from standard rate; applies where the host provides hotel-like services)
 - New builds + significantly renovated buildings + building land: **VAT applies**
 - Resale: generally **VAT-exempt**
 
-### Capital gains
+### Capital gains — Tulumaks (Tulumaksuseadus)
 
-- **22% from 2025** (was 20%)
+- **Tulumaks 22 % from 1 Jan 2025; 24 % from 1 Jan 2026** (julgeolekumaks security tax abolished May 2026, replaced by permanent income-tax rise — applies to both personal income AND corporate distributed profits; CGT integrated into general Tulumaks). (2026-05-27 verified, source Eesti Kaubandus-Tööstuskoda 8 May 2026)
 - **Primary residence exempt** (>2-year ownership rule simplified)
 
 ### Total transaction cost (buyer side)
@@ -154,7 +155,7 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 
 **From 1 July 2025**: mandatory unique registration number per unit, must appear on listings.
 
-- Income tax: 22% on rental earnings
+- **Tulumaks** (income tax) 22 % on rental earnings (2025) → **24 % from 1 Jan 2026** (Tulumaksuseadus)
 - **VAT registration required if revenue > €40,000/year** (then 24% VAT on bookings)
 - Guest registration to **Politsei- ja Piirivalveamet (PPA)** within 24h
 
@@ -294,8 +295,8 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 - **NO annual tax on buildings** — only land (maamaks) — UNIQUE in EU
 - **NO transfer tax** — only notary + land register fee — UNIQUE
 - **Maamaks reform 2024-2026** — rates rising, municipality discretion expanded
-- **VAT 22% (2024) → 24% (2025)** — major rise
-- **Capital gains 22% from 2025** (was 20%)
+- **VAT 20% → 22% (1 Jan 2024) → 24% (1 Jul 2025, permanent from 2026)** — major rise (2026-05-27 verified)
+- **Tulumaks (income tax + CGT integrated) 22 % (2025) → 24 % from 1 Jan 2026** (security tax abolished, replaced by permanent income-tax rise)
 - **Currency: EUR since 2011** (no FX risk for eurozone buyers)
 - **Tallinn + Pärnu rising 2025** while Tartu softening (-6.8% YoY)
 - **Soviet-era panel buildings**: Khrushchyovka + Brezhnev — many in Tallinn Lasnamäe, Mustamäe, Õismäe — energy-inefficient + asbestos
@@ -343,7 +344,7 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing (Statistikaamet + Maa-amet + KV.ee), traffic (Maanteeamet), tax (maamaks reform 2024-2026 + VAT 22%→24% + 22% CGT), rental (short-let mandatory reg from 1 Jul 2025), work, risks (flood + radon + Baltic storms), mains all have primary government sources + cost benchmarks.
-**Confidence**: HIGH for maamaks reform timeline (2024 +10%, 2025 +50%, 2026 municipality-set 10-100%); HIGH for VAT 24% from 1 Jan 2025; HIGH for e-government sources (Maa-amet + RIK gold-standard); MEDIUM for short-let reg specifics (rapidly evolving 2025).
+**Confidence**: HIGH for maamaks reform timeline (2024 +10%, 2025 +50%, 2026 municipality-set 10-100%); HIGH for VAT 24% from 1 Jul 2025 (corrected from earlier "1 Jan 2025" data point; made permanent April-May 2026); HIGH for Tulumaks 22 % → 24 % from 1 Jan 2026; HIGH for e-government sources (Maa-amet + RIK gold-standard); MEDIUM for short-let reg specifics (rapidly evolving 2025).
 
 ## Extension TODOs
 

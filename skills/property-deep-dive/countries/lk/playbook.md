@@ -2,7 +2,7 @@
 
 ISO2: `lk`. Status: ✅ Fully populated (researched 2026-05).
 
-> **🇱🇰 LEAD WARNING — read before any other section.** Sri Lanka is a **foreign-restricted** market. **Foreigners cannot freehold-purchase land** under the **Land (Restrictions on Alienation) Act No. 38 of 2014** (consolidated through Act No. 21 of 2018). Foreign individuals, foreign companies, and Sri Lanka-incorporated companies with >50% foreign shareholding are **prohibited from freehold land ownership** outright. The two clean foreign-buyer pathways are: (1) **condominium parcel** under the Apartment Ownership Law on **any floor** (post-2018 reform — but full purchase price must be remitted from abroad up-front); (2) **leasehold up to 99 years** of land. Sri Lanka is mid-recovery from the 2022 sovereign-default crisis: **IMF EFF (USD 3 bn) approved March 2023**, fourth review completed July 2025; **Cyclone Ditwah (Nov 2025) caused USD 4.1 bn of damage** and disrupted the fifth IMF review. The **Golden Paradise Residence Visa** was launched 2024 (USD 200k bank deposit OR USD 75k condominium). LKR is volatile — quoted USD prices age fast; date-stamp aggressively. Six- to seven-figure decisions require a Sri Lankan attorney-at-law (notarial deed mandatory for transfer) + a chartered surveyor + verification at the **Registrar General's Department (RGD)** Land Registry — non-negotiable.
+> **🇱🇰 LEAD WARNING — read before any other section.** Sri Lanka is a **foreign-restricted** market. **Foreigners cannot freehold-purchase land** under the **Land (Restrictions on Alienation) Act No. 38 of 2014** (consolidated through Act No. 21 of 2018). Foreign individuals, foreign companies, and Sri Lanka-incorporated companies with >50% foreign shareholding are **prohibited from freehold land ownership** outright. The two clean foreign-buyer pathways are: (1) **condominium parcel** under the Apartment Ownership Law on **any floor** (post-2018 reform — but full purchase price must be remitted from abroad up-front); (2) **leasehold up to 99 years** of land. Sri Lanka is mid-recovery from the 2022 sovereign-default crisis: **IMF EFF (USD 3 bn) approved March 2023**, fourth review completed July 2025; **Cyclone Ditwah (Nov 2025) caused USD 4.1 bn of damage** and disrupted the fifth IMF review. The **Golden Paradise Residence Visa** was **Cabinet-approved April 2023** and has been operational since 2023 (subsequently re-tuned; USD 200k bank deposit OR USD 75k condominium — verify per-applicant). (2026-05-27 verified, source Daily FT + Fragomen) LKR is volatile — quoted USD prices age fast; date-stamp aggressively. Six- to seven-figure decisions require a Sri Lankan attorney-at-law (notarial deed mandatory for transfer) + a chartered surveyor + verification at the **Registrar General's Department (RGD)** Land Registry — non-negotiable.
 
 ## Country profile
 
@@ -27,11 +27,11 @@ ISO2: `lk`. Status: ✅ Fully populated (researched 2026-05).
   - **Inland Revenue Act No. 24 of 2017** + **Inland Revenue (Amendment) Act No. 2 of 2025** — the post-crisis revenue mobilisation track under the IMF EFF programme. Source: Parliament of Sri Lanka [`https://www.parliament.lk/uploads/acts/gbills/english/6379.pdf`](https://www.parliament.lk/uploads/acts/gbills/english/6379.pdf).
   - **Stamp Duty (Amendment) Act 2025** — doubled stamp duty on rental/lease agreements from Rs.10 to Rs.20 per Rs.1,000 of total rental value, effective **1 April 2025**.
   - **Golden Paradise Residence Visa** — launched 2024, replacing earlier "Resident Guest Scheme" and pre-2022 schemes that had paused during the crisis. Source: Department of Immigration & Emigration [`https://eservices.immigration.gov.lk/golden-paradise-visa.html`](https://eservices.immigration.gov.lk/golden-paradise-visa.html); EY tax alert [`https://www.ey.com/en_gl/technical/tax-alerts/sri-lanka-introduces-new-10-year-golden-paradise-residence-visa-for-investors`](https://www.ey.com/en_gl/technical/tax-alerts/sri-lanka-introduces-new-10-year-golden-paradise-residence-visa-for-investors).
-  - **VAT rate hike** — 15% → **18%** effective 1 January 2024; applies to new apartments sold by developers (not resale by individuals). Source: Sri Lanka Inland Revenue Department [`https://www.ird.gov.lk/`](https://www.ird.gov.lk/).
+  - **VAT rate hike** — 15% → **18%** effective 1 January 2024 under **Value Added Tax (Amendment) Act No. 16 of 2024**; applies to new apartments sold by developers (not resale by individuals). Source: Sri Lanka Inland Revenue Department [`https://www.ird.gov.lk/`](https://www.ird.gov.lk/). (2026-05-27 verified)
   - **Capital Gains Tax** — **10%** on gains from realisation of investment assets (incl. land/buildings); 2025 budget proposed an increase to 15% — implementation date not yet confirmed in primary statute as of May 2026; verify current notice via IRD.
   - **IMF Extended Fund Facility (EFF)** — SDR 2.286 bn (~USD 3 bn) approved 20 Mar 2023; fourth review completed 1 Jul 2025; fifth review staff-level agreement Oct 2025 but Executive Board completion deferred to early 2026 due to Cyclone Ditwah. Source: IMF country page [`https://www.imf.org/en/Countries/LKA`](https://www.imf.org/en/Countries/LKA) + press releases.
   - **Cyclone Ditwah (Nov 2025)** — USD 4.1 bn damage estimate (World Bank); 410 dead + 336 missing; 1.1M hectares inundated; Central Highlands particularly affected (Kandy district damage estimated USD 689M); Nuwara Eliya partially submerged. Source: World Bank press release [`https://www.worldbank.org/en/news/press-release/2025/12/22/damage-from-cyclone-ditwah-in-sri-lanka-estimated-at-4-1-billion`](https://www.worldbank.org/en/news/press-release/2025/12/22/damage-from-cyclone-ditwah-in-sri-lanka-estimated-at-4-1-billion).
-  - **Ceylon Electricity Board (CEB)** — dissolved 9 Mar 2026 and replaced by 6 state-owned successor companies under the CEB restructuring programme (per Sri Lanka Electricity Act 2024 reform); transitional period — verify current entity for any new connection. Public Utilities Commission of Sri Lanka [`https://www.pucsl.gov.lk/`](https://www.pucsl.gov.lk/).
+  - **Ceylon Electricity Board (CEB)** — dissolved at midnight 8/9 March 2026 under **Sri Lanka Electricity Act No. 36 of 2024** and replaced by 6 100%-state-owned successor companies; transitional period — verify current entity for any new connection. Public Utilities Commission of Sri Lanka [`https://www.pucsl.gov.lk/`](https://www.pucsl.gov.lk/). (2026-05-27 verified)
   - **Property tax reform commitment** — Government has agreed in principle (under EFF structural-benchmark) to introduce a national property tax by 2027; framework not yet drafted as of May 2026. Source: IMF Technical Assistance Report on Property Taxation [`https://www.imf.org/-/media/files/publications/tar/2024/english/tarea2024074-print-pdf.pdf`](https://www.imf.org/-/media/files/publications/tar/2024/english/tarea2024074-print-pdf.pdf).
 
 ---
@@ -208,11 +208,10 @@ The Golden Paradise Residence Visa (launched 2024 by Department of Immigration &
 
 | Property value (LKR) | Stamp duty rate |
 |---|---|
-| Up to LKR 1,000,000 | 3% |
-| LKR 1,000,001 – 10,000,000 | 4% |
-| Above LKR 10,000,000 | 5% (3% on first 1M + 4% on next 9M + 5% above) |
+| First LKR 100,000 | 3% |
+| Remainder (above LKR 100,000) | 4% |
 
-> Rates are **buyer-paid**. First-time buyers of residential property valued **below LKR 10M** are exempt (verify current notification at provincial revenue dept). Other provinces (Central, Southern, Eastern, Northern, Uva, Sabaragamuwa, North-Central, North-Western) have substantially identical rates per the Stamp Duty (Special Provisions) Act devolution; verify per-province before transfer.
+> Two-tier schedule: **3% on first LKR 100,000 + 4% on excess**. No 5% bracket exists. Rates are **buyer-paid**. (2026-05-27 verified, source Kaluthanthri Legal + Lexelon 2025 — verify deep-link at Western Province Revenue Dept `http://www.revenuedept.wp.gov.lk/en/?page_id=18045`.) Earlier playbook claim of a 5%-bracket above LKR 10M was a fabrication and has been removed. First-time-buyer LKR 10M exemption (verify current notification — not corroborated in 2025 secondary sources). Other provinces (Central, Southern, Eastern, Northern, Uva, Sabaragamuwa, North-Central, North-Western) have substantially identical rates per the Stamp Duty (Special Provisions) Act devolution; verify per-province before transfer.
 
 **Stamp duty on lease/rental agreements** — increased from Rs.10 to **Rs.20 per Rs.1,000** of total lease value, **effective 1 April 2025**. Source: Newsfirst report on government decision [`https://www.newsfirst.lk/2025/03/30/government-to-double-stamp-duty-on-rent-and-lease-agreements-for-properties-from-april-1`](https://www.newsfirst.lk/2025/03/30/government-to-double-stamp-duty-on-rent-and-lease-agreements-for-properties-from-april-1).
 
@@ -241,7 +240,7 @@ The Golden Paradise Residence Visa (launched 2024 by Department of Immigration &
 | **< 5 years** | 30% of gain | 30% of gain |
 | **≥ 5 years** | **10% of gain** | 5% of gain |
 
-> 2025 budget proposed CGT rate increase from **10% to 15%** — implementation in primary statute pending as of May 2026; verify via IRD Public Notice [`https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/`](https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/).
+> **Inland Revenue (Amendment) Bill 2026** (published **24 February 2026**) proposes CGT rate increase from **10% to 15%** for individuals/partnerships (and to 30% for trusts/unit trusts/mutual funds/NGOs); effective from enactment — verify enactment status at IRD before quoting. Source: KPMG Sri Lanka tax flash Feb 2026 + D.L. & F. de Saram + Lanka Law. (2026-05-27 verified)
 
 **Exemptions**:
 - Principal place of residence: gains exempt if owned ≥3 years AND inhabited ≥2 years.
@@ -251,11 +250,10 @@ The Golden Paradise Residence Visa (launched 2024 by Department of Immigration &
 
 ### Worked example — foreign buyer of a LKR 50M (~USD 161k) Colombo 7 condominium from a developer
 
-Stamp duty (5% bracket above LKR 10M):
-- 1M × 3% = 30,000
-- 9M × 4% = 360,000
-- 40M × 5% = 2,000,000
-- **Stamp duty total: LKR 2,390,000** (~USD 7,710)
+Stamp duty (two-tier 3% + 4%):
+- First LKR 100,000 × 3% = 3,000
+- Remainder LKR 49,900,000 × 4% = 1,996,000
+- **Stamp duty total: LKR 1,999,000** (~USD 6,450) (2026-05-27 verified — corrected from playbook's earlier fabricated 5%-bracket calc of LKR 2.39M)
 
 VAT on developer sale (18%): **LKR 9,000,000** (~USD 29,030)
 

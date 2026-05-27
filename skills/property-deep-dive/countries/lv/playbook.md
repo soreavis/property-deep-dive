@@ -92,7 +92,7 @@ Source: https://taxsummaries.pwc.com/latvia/individual/income-determination
 ### Rental income (individual)
 
 - **10% PIT flat** after deductions if registered as "performer of economic activity without forming a business" — cleanest route for landlords
-- OR full progressive 25.5%/33% if treated as general income
+- OR full progressive **PIT (Iedzīvotāju ienākuma nodoklis, IIN)** 25.5% up to €105,300 / 33% above + additional **3% surcharge above €200,000** total annual income (2026 PIT reform). (2026-05-27 verified, source PwC + KPMG)
 
 ### VAT new-build
 
@@ -117,7 +117,7 @@ Source: https://taxsummaries.pwc.com/latvia/individual/income-determination
 **Reform incoming**: Ministry of Economics drafting national STR register per EU Regulation 2024/1028 (mandatory by **May 2026**). Trigger event: 2021 Merķeļa iela 8 fire in unlicensed hostel.
 - https://www.em.gov.lv/en/article/latvia-along-other-eu-countries-there-plan-establish-short-term-rental-regulations-reduce-shadow-economy
 
-**No tourist tax / city tax** in Riga as of Apr 2026 (unlike Vilnius's €2/night).
+**Tourist tax** (Riga): **€1/night per guest** (max €10/stay; children <18 exempt) since **January 2023** — rising to **€2/night from 1 Jan 2027** (agreement 19 May 2026 between Riga City Council and tourism industry). Compare Vilnius (already €2/night). (2026-05-27 verified, source riga.lv)
 
 ---
 
@@ -239,7 +239,7 @@ Universal — see `shared/climate-projections.md`.
   - Cross-reference: https://www.mfa.gov.lv/en/sanctions
   - LV has explicit purchase prohibitions in force (harder than LT, which relies on residency/AML chokepoints)
 - **Border-zone**: properties in border zones / national-defense areas need MoD or local authority permit. Affects Latgale (E border with RU/BY) and parts of Baltic coast
-- **Investor residence permit (Golden Visa equivalent)**: RE investment ≥€250,000 + 5% state-budget contribution, NOT counting agricultural/forest land. Recent tightening — verify with PMLP: https://www.pmlp.gov.lv/
+- **Investor residence permit (Golden Visa equivalent)** — **Active programme (2026)**: RE investment ≥€250,000 + 5% state-budget contribution, NOT counting agricultural/forest land. 5-year hold; annual ID-card renewal; no minimum physical presence. **201 approvals in 2025 (up from 149 in 2024, +35% YoY)** — no 2026 suspension. Governed by **Imigrācijas likums**. Russian/Belarusian-applicant restriction the only narrowing. Verify current criteria at PMLP: https://www.pmlp.gov.lv/ (2026-05-27 verified)
 
 ---
 

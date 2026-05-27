@@ -124,7 +124,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
   - 9.5% reduced (residential new builds)
   - 22% standard (commercial)
 - **Notar fees**: ~1.0–1.5%
-- **Realtor commission**: typically 4% paid by seller (capped at 4% per ZNPosr law)
+- **Realtor commission**: market-rate 3–4% still typical. The 4% cap under ZNPosr Article 5 was **annulled by the Constitutional Court in 2025** (following CJEU ruling on EU Services Directive 2006/123/EC) — paragraphs 1, 2, 6, 7 of Art. 5 and parts of 4, 5 struck; only the para-3 rule remains (no charging the non-engaging party). Verify in mandate contract. (2026-05-27 verified, source pfp.law / iusinfo.si)
 
 ### Total transaction cost (buyer side)
 
@@ -133,13 +133,13 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Capital gains
 
-- Reduced over time (held by individual):
-  - **<5 yrs ownership**: 25%
-  - **5–10 yrs**: 15%
-  - **10–15 yrs**: 10%
-  - **15–20 yrs**: 5%
-  - **>20 yrs**: 0% (exempt)
-- **Primary residence held >3 years**: exempt
+- Reduced over time (held by individual; 2025 data, source PwC + FURS, 2026-05-27 verified):
+  - **0–5 yrs ownership**: 25%
+  - **5–10 yrs**: 20%
+  - **10–15 yrs**: 15%
+  - **>15 yrs**: 0% (exempt — no further brackets)
+- **Primary residence**: exempt if continuous declared **permanent residence** for >3 years (verify with FURS)
+- **Pre-2002 acquisition**: total exemption
 - **Inheritance + gifting**: separate tax tariff
 
 ### Future risk
@@ -160,12 +160,12 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Short-let (kratkoročno oddajanje)
 
-- Government discussing restrictions 2024-2026
+- **ZGos-1** (Zakon o gostinstvu) **adopted Oct 2025, in force 1 Jan 2026**. Day-count caps (60-day apartments in multi-unit buildings / 150-day single- or two-unit dwellings) were scheduled to apply **from 1 Jan 2027** plus 75% co-owner consent + adjacent-neighbour consent every 3 years.
+- **2026-05-11**: National Assembly passed a **moratorium (intervencijski zakon) suspending ZGos-1 implementation in 2026** — 2027 day-caps effectively waived pending revised legislation. Legal vacuum on the day-cap regime as of 2026-05-27. (Source: zgsd.si + pfp.law)
 - **Ljubljana** strict (similar to Praha/Wien direction)
 - **Sobodajalec** (short-let provider) licensing per občina
-- **EU 2024/1028 transposition**: pending May 2026 deadline
+- **EU 2024/1028 transposition**: full application 20 May 2026 (national Single Digital Entry Point)
 - **AVRSK + STO** (tourist board) registration
-- **Ministrstvo za gospodarski razvoj** drafting unified rules
 
 ### Tax on rental
 
@@ -186,7 +186,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 ### Self-employment
 
 - **S.P. (samostojni podjetnik)** = sole trader
-  - **Pavšalna obdavčitev** (flat-tax option) up to **€60,000 revenue**
+  - **Pavšalna obdavčitev** (normirani s.p. / flat-tax option): from 1 Jan 2026, full-time threshold raised to **€120,000 revenue** (part-time €50,000); progressive tax 20% on tax base ≤ €72,000 (= revenue ≤ €120,000) + **35% above**. Exit if 2025 revenue >€60,000 full-time / >€30,000 part-time. (2026-05-27 verified, source Pravni SOS + FURS)
   - Mandatory ZZZS (health) + ZPIZ (pension) contributions
 - **D.O.O.** (limited): min **€7,500 capital**
 
@@ -196,7 +196,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
   - Ljubljana: ~€2,400–€3,200
   - Maribor / Celje: ~€1,900–€2,500
   - Smaller cities: ~€1,700–€2,200
-- **Minimalna plača** (minimum wage): ~€1,253 gross (2025)
+- **Minimalna plača** (minimum wage): **€1,277.72 gross (2025)** → **€1,481.88 gross (2026)** (≈ €1,000 neto, effective 1 Jan 2026). (Source: Uradni list RS odločbe, 2026-05-27 verified)
 
 ---
 

@@ -108,9 +108,11 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Transaction taxes
 
-- **Stimpilgjald** (stamp duty): **0.8%** of property purchase price (one of lowest in Europe)
-  - Half-rate **0.4%** for first-time buyers
-- **Þinglýsingargjald** (registration fee): ~ISK 30,000 flat
+- **Stimpilgjald** (stamp duty) under **Lög um stimpilgjald nr. 138/2013** (2026-05-27 verified, source skattur.is Key rates 2025):
+  - **0.4%** — individual, first-time buyer
+  - **0.8%** — individual, standard
+  - **1.6%** — legal entity (company / business)
+- **Þinglýsingargjald** (registration fee, **Lög nr. 39/1978** Þinglýsingalög): ~ISK 30,000 flat
 - **Fasteignasalalaun** (broker): typically **1–2%** paid by seller (negotiable)
 
 ### Total transaction cost (buyer side)
@@ -119,19 +121,20 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 - **Standard buyer**: ~1–2% of price (very low)
 - Seller: ~1–2% (broker)
 
-### Capital gains
+### Capital gains — Fjármagnstekjuskattur
 
-- **22% flat** for individuals (since 2021)
+- **22% flat** for individuals (22% since 1 January 2018; raised from 20% in effect 2011–2017) (2026-05-27 verified, source skattur.is + KPMG Tax Facts 2025)
+- Statute: **Lög um tekjuskatt nr. 90/2003**
 - **Primary residence sale exempt** under conditions: ownership 2+ years OR 7+ years used residence
 - **Sumarbústaður** (cottage): less generous exemption
 - Investment property: full 22% on gain
 
-### VAT (VSK)
+### VAT (VSK) — Lög um virðisaukaskatt nr. 50/1988
 
 - 24% standard
 - 11% reduced (food, books, hotels, tourist services)
-- New residential property: **11% VSK reduced rate** (since 2010)
-- Builder VAT-refund scheme: 35% refund on labour for new build/extension/maintenance via **endurgreiðsla VSK**
+- **Sale of immovable property is EXEMPT from VSK** under Lög nr. 50/1988 — including new build (2026-05-27 verified, source skattur.is + KPMG Tax Facts 2025). Developers reclaim input VSK via **Endurgreiðsla VSK** scheme — see below.
+- Builder VAT-refund scheme: **35% refund on labour** for residential build/extension/maintenance via **Endurgreiðsla VSK** — standard rate post 30 June 2023 (after temporary pandemic 100%/60% uplifts expired). Verify current rate at `https://island.is/endurgreidsla-vsk-vegna-ibudarhusnaedis`.
 
 ### Future risk
 
@@ -154,12 +157,12 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Short-let (Airbnb / Heimagisting)
 
-**Heimagisting (home accommodation registration) required**:
-- Reykjavík: **max 90 nights/year** for primary residence without commercial license
-- Beyond 90 days: requires **rekstrarleyfi** (operator license) + **VSK 11%**
-- **VSK 11% on rental services**
-- **Borgarvíking** registration required for short-let in Reykjavík
-- **EU 2024/1028 STR**: not directly applicable (NOT in EU); EEA agreement may extend
+**Heimagisting (home accommodation registration) required nationally** under **Lög um veitingastaði, gististaði og skemmtanahald nr. 85/2007** (Heimagisting amendment effective 1 Jan 2017) (2026-05-27 verified, source government.is + island.is):
+- **National cap (NOT Reykjavík-specific)**: max **90 nights/year** AND **ISK 2,000,000 gross income/year** — whichever triggers first requires commercial licence
+- Beyond cap: requires **rekstrarleyfi** (operator licence) + accommodation services VSK
+- Registration via **Sýslumaður** (district commissioner); annual renewal
+- Fines up to **ISK 1,000,000** enforced by Sýslumaður
+- **EU 2024/1028 STR**: not directly applicable in Iceland (not EU). EEA-relevance pending EEA Joint Committee decision — verify at `https://www.efta.int/`.
 
 ### Tax on short-let
 
@@ -360,7 +363,7 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 - **Geothermal heating** universal in populated areas — extremely cheap energy, but check connection
 - **Currency volatility** — ISK can swing 20–30% vs EUR
 - **Foreign-currency mortgages BANNED** post-2008 crisis
-- **Foreigner restrictions**: non-EEA buyers need approval from Justice Ministry for residential
+- **Foreigner restrictions**: non-EEA buyers need approval from **Dómsmálaráðuneytið** (Ministry of Justice) under **Lög um eignarrétt og afnotarétt fasteigna nr. 19/1966**; EEA citizens exempt under EEA free-movement. Agricultural land falls under **Jarðalög nr. 81/2004** (separate ministry: Atvinnuvegaráðuneytið). (2026-05-27 verified, source government.is)
 - **Sumarbústaður** (summer cottage) — different regime, often in privately-owned summer-cottage zones
 - **Sjálandseyjar** (community lands) — some properties on lease from sveitarfélag
 - **Reykjavík dominates** — 65% of population in capital region

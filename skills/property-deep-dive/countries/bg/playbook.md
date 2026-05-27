@@ -90,7 +90,7 @@ BGN no longer Bulgaria's currency. **EUR is legal tender from 1 Jan 2026** (Coun
 - **Standard 20%** applies to new buildings (sold by VAT-registered developer or building <5 years from "Akt 16")
 - Resales of "old" residential (>5 years post-completion): VAT-exempt
 - **No reduced rate for housing** (unlike RO, FR, ES)
-- VAT registration trigger: **EUR 84,872** (BGN 166,000) over 12 rolling months — raised 1 Jan 2025
+- VAT registration trigger: **BGN 100,000 (~EUR 51,130)** over 12 rolling months — reverted from BGN 166,000 effective **1 April 2025** (BGN 166k was only effective 1 Jan – 31 Mar 2025). (2026-05-27 verified, source VATupdate / Taxually / EY)
 
 ---
 
@@ -104,7 +104,7 @@ BGN no longer Bulgaria's currency. **EUR is legal tender from 1 Jan 2026** (Coun
 - **ESTI (Единна система за туристическа информация)** — registration online; **each guest stay must be reported on the day of check-in** with name, DOB, ID number
 - **Tourist tax (such)**: BGN 0.20 to BGN 3.00 per overnight stay → EUR 0.10–1.53 per night post-eurozone, by municipality and class
 - **Sofia / Sunny Beach / Varna**: same regime nationwide; resort municipalities (Nesebar, Sozopol, Pomorie, Varna, Burgas) enforce rigorously
-- **VAT trigger**: STR turnover >EUR 84,872 over 12 rolling months → mandatory VAT registration → 20% VAT on stays. Steep cliff for full-time mid-scale operators
+- **VAT trigger**: STR turnover >**BGN 100,000 (~EUR 51,130)** over 12 rolling months → mandatory VAT registration → 20% VAT on stays. Reverted from BGN 166,000 on 1 Apr 2025 — steep cliff for full-time mid-scale operators. (2026-05-27 verified)
 - **No Sofia-specific cap** on STR (unlike Barcelona, Amsterdam, Paris)
 
 ---
@@ -258,7 +258,8 @@ Universal — see `shared/climate-projections.md`.
 | HPI | NSI | https://www.nsi.bg/ |
 | National Bank | BNB | https://www.bnb.bg/ |
 | Min of Finance | MOF | https://www.minfin.bg/ |
-| Tax authority | NRA | https://nra.bg/ |
+| Tax authority (national: PIT, VAT, CIT, CGT) | NRA (Национална агенция за приходите) | https://nra.bg/ |
+| Municipal property tax / transfer / tourist tax | Local municipality directly (e.g. sofia.bg) | Administered DIRECTLY by each municipality since 2024 — no longer via NRA. (2026-05-27 verified, source Aidos Bulgaria) |
 | Seismology | NIGGG-BAS | https://ndc.niggg.bas.bg/en/ |
 | INSPIRE geoportal | egov | https://inspire.egov.bg/en |
 
