@@ -73,11 +73,17 @@ Sourced from Reddit gap-analysis 2026-05-08. Cross-validated across 6+ subreddit
 - Capital-controls + FET-form — `--currency` strong
 - EV chargers — low signal, single-line under `--mains` enough
 
-## Schema-blocked: Crown Dependencies + territories
+## Schema-decided 2026-05-27: Crown Dependencies + DK territories use standalone ISO 3166-1 alpha-2 codes
 
-The project's country-ISO2 model doesn't cleanly accommodate sub-sovereign jurisdictions. **Required first: schema decision PR** answering: territory classifier? sibling-of-parent (uk-je, uk-im, dk-fo, dk-gl, fr-yt, fr-re, nl-aw, nl-cw)? Sub-region under parent's playbook?
+**Decision**: sub-sovereign jurisdictions with their own tax authority, land registry, and court system get **standalone playbooks** under their actual ISO 3166-1 alpha-2 code — not compound codes (`uk-je`) and not sub-region overlays. Rationale + per-jurisdiction policy: see `CONTRIBUTING.md` § "Sub-sovereign jurisdictions".
 
-Once schema is settled, three batches are unlocked:
+**Validation**: (1) all 6 codes (`je` / `gg` / `im` / `gi` / `fo` / `gl`) are already standalone ISO 3166-1 alpha-2 entries, no schema invention required; (2) the project already treats 5 sub-sovereign micro-states (`sm` / `mc` / `ad` / `li` / `mt`) as standalone playbooks — Crown Deps + DK territories are structurally identical; (3) sub-region overlays would distort both parent (UK / DK playbooks) and child (foreign-buyer journey in Jersey requires HVR + 2(1)(e) + SoCT depth that has zero overlap with English property law).
+
+Per-playbook PR will add the ISO code to `config/_regions.json` + `config/_tiers.json` (Tier-C 365d default) + relevant entries in `config/_visa-programs.json` in the same commit.
+
+Batch C (FR overseas + NL Caribbean) is **explicitly out of scope** of this decision and remains schema-blocked pending a separate call (FR overseas are legally integral parts of France; NL Caribbean has heterogeneous constituent-countries vs special-municipalities status).
+
+Once playbook research is started, three batches are unlocked:
 
 ### Batch A — UK Crown Dependencies (4)
 

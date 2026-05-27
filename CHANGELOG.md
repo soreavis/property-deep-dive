@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Changed
+
+- **Schema decision for sub-sovereign jurisdictions** — Crown Dependencies (`je` Jersey · `gg` Guernsey · `im` Isle of Man) + UK Overseas Territory (`gi` Gibraltar) + DK territories (`fo` Faroe Islands · `gl` Greenland) will be added as **standalone playbooks under their actual ISO 3166-1 alpha-2 codes** — not compound codes (`uk-je`) and not sub-region overlays in parent playbooks. Decision documented in `CONTRIBUTING.md` § "Sub-sovereign jurisdictions" + `ROADMAP.md` § "Schema-decided 2026-05-27". Validated against: (a) all 6 codes are already standalone ISO 3166-1 entries, no schema invention required; (b) the project already treats 5 sub-sovereign micro-states (`sm` / `mc` / `ad` / `li` / `mt`) as standalone playbooks — structurally identical case; (c) each Crown Dep / DK territory has its own tax authority, land registry, and court system (Royal Court of Jersey vs HMCS England; JFSC vs FCA; Faroese / Greenlandic property regimes). Per-playbook PR will add the ISO code to `config/_regions.json` + `config/_tiers.json` (Tier-C 365d default) + relevant entries in `config/_visa-programs.json` in the same commit — never decouple config from playbook content. **Batch C (FR overseas + NL Caribbean) is explicitly out of scope** of this decision and remains schema-blocked pending a separate call. plugin.json bumped 2026.05.38 → 2026.05.39.
+
 ## [2026.05.38] - 2026-05-27
 
 ### Added

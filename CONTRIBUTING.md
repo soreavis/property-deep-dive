@@ -42,6 +42,27 @@ Before submitting:
 - Add the country to `SKILL.md` country support matrix
 - If you find an error in another country during research, fix it in the same PR with a separate commit
 
+### Sub-sovereign jurisdictions (Crown Dependencies, overseas territories, autonomous regions)
+
+Sub-sovereign jurisdictions with their own tax authority, land registry, and court system get **standalone playbooks** under their actual ISO 3166-1 alpha-2 code — not compound codes (`uk-je`) and not sub-region overlays in a parent playbook.
+
+| Jurisdiction | ISO 3166-1 alpha-2 | Status |
+|---|---|---|
+| Jersey | `je` | Crown Dependency — standalone playbook (queued) |
+| Guernsey | `gg` | Crown Dependency — standalone playbook (queued) |
+| Isle of Man | `im` | Crown Dependency — standalone playbook (queued) |
+| Gibraltar | `gi` | UK Overseas Territory — standalone playbook (queued) |
+| Faroe Islands | `fo` | DK autonomous territory — standalone playbook (queued) |
+| Greenland | `gl` | DK autonomous territory — standalone playbook (queued) |
+
+**Rationale**: each has its own legal regime (Royal Court of Jersey vs HMCS England; JFSC vs FCA; Lands Tribunal Isle of Man vs HM Land Registry; etc.). A "UK playbook with Jersey overlay" would either bloat UK with carve-outs that apply to 1% of readers, or underserve Jersey readers who need the HVR / 2(1)(e) / SoCT regime in depth. Precedent: the project already treats `sm` (San Marino), `mc` (Monaco), `ad` (Andorra), `li` (Liechtenstein), `mt` (Malta) as standalone micro-state playbooks for the same reason.
+
+Each playbook adds the ISO code to `config/_regions.json` + `config/_tiers.json` (Tier-C 365d default for low-volume jurisdictions) + relevant entries in `config/_visa-programs.json` (Jersey HQ-1(1)(k) / 2(1)(e); Guernsey Open Market / Inscribed; Isle of Man T1 Investor; Gibraltar Cat-2; etc.) in the SAME PR as the playbook itself — never decouple config from playbook content.
+
+**Out of scope of this policy** (decision deferred):
+- French overseas departments (GP / MQ / GF / RE / YT) — legally integral parts of France with French property law applying. Standalone playbook vs `fr/playbook.md` overlay is a separate call.
+- NL Caribbean (Aruba / Curaçao / Sint Maarten = constituent countries; Bonaire / Saba / St Eustatius = special municipalities) — heterogeneous status warrants its own decision.
+
 ## Logging a regulatory-watch entry
 
 `skills/property-deep-dive/shared/regulatory-watch.md` is the single source of truth for "what changed when". Format:
