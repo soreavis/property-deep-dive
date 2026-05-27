@@ -4,7 +4,7 @@ ISO2: `pe`. Status: Fully populated (researched 2026-05).
 
 ## Country profile
 
-- **Postcode (Código Postal)**: 5 digits, rolled out post-2017 by **SERPOST** (Servicios Postales del Perú) via Resolución de Gerencia. Lima Metropolitana uses prefix `15` (e.g., `15001` Cercado de Lima, `15074` Miraflores, `15023` San Isidro, `15063` Barranco); Arequipa `04001`; Cusco `08001`; Trujillo `13001`. Often omitted on listings — verify at `https://www.serpost.com.pe/codigo-postal/` ❌ DEPRECATED — primary source removed; verify with Servicios Postales del Perú (Serpost) — https://www.gob.pe/institucion/serpost.
+- **Postcode (Código Postal)**: 5 digits, rolled out post-2017 by **SERPOST** (Servicios Postales del Perú) via Resolución de Gerencia. Lima Metropolitana uses prefix `15` (e.g., `15001` Cercado de Lima, `15074` Miraflores, `15023` San Isidro, `15063` Barranco); Arequipa `04001`; Cusco `08001`; Trujillo `13001`. Often omitted on listings — verify at `https://www.gob.pe/521-consulta-tu-codigo-postal-nacional`.
 - **Admin levels**: 24 **departamentos** + 1 **Provincia Constitucional del Callao** → 196 **provincias** → 1,874 **distritos** (per INEI division político-administrativa, 2024). Lima Metropolitana = Provincia de Lima (43 distritos) + Provincia Constitucional del Callao (7 distritos). The **distrito** is the level at which the **Municipalidad Distrital** sets impuesto predial rates, arbitrios, and licencia de funcionamiento.
 - **Currency**:
   - **PEN** — Sol (called "Nuevo Sol" 1991-2015; the "Nuevo" was dropped by **Ley 30381 (2015)** — official name now just "Sol"). Symbol `S/`.

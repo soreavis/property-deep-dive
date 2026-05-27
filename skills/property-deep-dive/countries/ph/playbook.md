@@ -52,7 +52,7 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 - **Two project structures** per master deed: (a) condo corp owns the land, foreigner owns CCT + shares (foreign shares ≤ 40 %); (b) owners hold land as undivided common interest (foreign undivided interest ≤ 40 %).
 - **Verification before purchase**: request a **Foreign Ownership Certification** from the condo corp secretary confirming current foreign % and that the unit's transfer will not breach 40 %. Without it the RD may refuse annotation.
 - **Pre-selling vs RFO**: pre-selling under **PD 957 (Subdivision and Condominium Buyers' Protective Decree, 1976)** + DHSUD Licence to Sell. Verify the developer holds a current LTS (`https://dhsud.gov.ph/`) before any reservation.
-- **No FX form requirement**: unlike Thailand, no specific BSP foreign-exchange remittance form for condo purchase. BSP Manual of Regulations on FX Transactions governs inward-remittance reporting ≥ USD 50,000 — `https://www.bsp.gov.ph/Pages/Regulations/FXRegulations.aspx` ❌ DEPRECATED — primary source removed; verify with Bangko Sentral ng Pilipinas (BSP).
+- **No FX form requirement**: unlike Thailand, no specific BSP foreign-exchange remittance form for condo purchase. BSP Manual of Regulations on FX Transactions governs inward-remittance reporting ≥ USD 50,000 — `https://www.bsp.gov.ph/Regulations/MORFXT/MORFXT.pdf`.
 
 ### Path 2: Long-term land lease + own the building
 

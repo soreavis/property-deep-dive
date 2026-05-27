@@ -613,7 +613,7 @@ Universal coverage in Singapore — **mains water + sewerage + electricity + gas
 | MOM work passes | `https://www.mom.gov.sg/passes-and-permits` |
 | ICA | `https://www.ica.gov.sg/` |
 | EDB GIP | `https://www.edb.gov.sg/en/incentives-and-programmes/global-investor-programme.html` |
-| SPF Annual Crime Brief | `https://www.police.gov.sg/Media-Room/Statistics` ❌ DEPRECATED — primary source removed; verify with Singapore Police Force (SPF) |
+| SPF Annual Crime Brief | `https://www.police.gov.sg/Media-Hub/Statistics` |
 | LTA DataMall | `https://datamall.lta.gov.sg/` |
 | ACRA BizFile+ | `https://www.bizfile.gov.sg/` |
 | CEA agent licence search | `https://www.cea.gov.sg/` |

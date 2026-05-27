@@ -256,7 +256,7 @@ OSM `highway` class (Jordan OSM coverage is good in Amman + Aqaba + main inter-c
 
 ### Annual property tax — Building & Land Tax (ضريبة الأبنية والأراضي)
 
-Administered at **municipal level** (GAM in Amman; relevant baladiya elsewhere) under the Building & Land Tax Law (Law 11/1954 as amended) plus annual municipal ordinances. Source: GAM tax page `https://www.amman.jo/ar-jo/Pages/SubServices.aspx` ❌ DEPRECATED — primary source removed; verify with Greater Amman Municipality (amman.jo) services document index (search "ضريبة الأبنية والأراضي"); verify per-municipality.
+Administered at **municipal level** (GAM in Amman; relevant baladiya elsewhere) under the Building & Land Tax Law (Law 11/1954 as amended) plus annual municipal ordinances. Source: GAM tax page `https://media.ammancity.gov.jo/En/List/Electronic_services` (search "ضريبة الأبنية والأراضي"); verify per-municipality.
 
 **Computed**: `annual tax = (built-up area in m²) × (zone-classified rate JOD/m²)` for buildings; `(plot area in m²) × (zone-classified rate JOD/m²)` for vacant land.
 

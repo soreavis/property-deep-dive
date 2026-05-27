@@ -124,7 +124,7 @@ ISO2: `hk`. Status: ✅ Fully populated (researched 2026-05).
 |---|---|---|---|
 | **Rates (差餉)** | **5%** of rateable value (domestic ≤ HK$550,000 RV; progressive scale above — see below) | RV = annual rental value if let on open market on 1 Oct designated date | [Rating Ordinance Cap. 116](https://www.rvd.gov.hk/en/our_services/rates.html) |
 | **Government Rent (地租)** | **3%** of rateable value | RV (same base) | [Government Rent (Assessment & Collection) Ordinance Cap. 515](https://www.rvd.gov.hk/en/our_services/government_rent.html) |
-| **Property Tax (物業稅)** | **15%** flat × (rental income − 20% standard deduction) | Actual rental income | [Inland Revenue Ordinance Cap. 112](https://www.ird.gov.hk/eng/tax/ind_pty.htm) ❌ DEPRECATED — primary source removed; verify with Hong Kong Inland Revenue Department (IRD) — applies only if property is let; not for owner-occupied |
+| **Property Tax (物業稅)** | **15%** flat × (rental income − 20% standard deduction) | Actual rental income | [Inland Revenue Ordinance Cap. 112](https://www.ird.gov.hk/eng/tax/ind_ppt.htm) — applies only if property is let; not for owner-occupied |
 
 ⚠️ **Government Rent applies to leases granted/extended after 27 May 1985** (per Joint Declaration) — most NT land + post-1985 HK Island/Kowloon grants. Some pre-1985 HK Island leases carry only nominal annual rent (HK$1,000 or under) and may be exempt — confirm via [Lands Department lease search](https://www.landsd.gov.hk/en/gov_rent/index.htm).
 
@@ -463,7 +463,7 @@ HIGH for HKO downscaled projections; MEDIUM for sub-2km sea-level inundation spe
 
 ### Mortgage market (post-Oct 2024 reform)
 
-- **Regulator**: [HKMA — Hong Kong Monetary Authority](https://www.hkma.gov.hk/) — sets countercyclical macroprudential measures via [Banking (Capital) Rules](https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/by-subject/macroprudential/) ❌ DEPRECATED — primary source removed; verify with Hong Kong Monetary Authority (HKMA)
+- **Regulator**: [HKMA — Hong Kong Monetary Authority](https://www.hkma.gov.hk/) — sets countercyclical macroprudential measures via [Banking (Capital) Rules](https://www.hkma.gov.hk/eng/news-and-media/press-releases/prudential-measures-and-other-mortgage-related-matters)
 - **LTV caps (post 2024-10-16 [HKMA circular](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241016-4/))**:
 
 | Property value | Max LTV (self-use, residential) |

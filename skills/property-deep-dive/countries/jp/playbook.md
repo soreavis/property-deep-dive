@@ -359,7 +359,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 - Super-typhoons: intensity rise; track shift northward; Kyūshū, 紀伊半島, 関東 increasing exposure
 - Sea-level rise: +0.3–0.6 m by 2100 RCP4.5; +0.5–1.0 m RCP8.5 — Tokyo Bay, Ōsaka Bay coastal land + Kanagawa湾岸 + 沖縄 low-lying atolls
 - Precipitation: extreme rain events (1-hour 50 mm+) +20–30 % frequency by 2050
-- Source: JMA reports — `https://www.jma.go.jp/jma/press/2306/01a/kikohendou_20230601.html` ❌ DEPRECATED — primary source removed; verify with Japan Meteorological Agency (JMA) and IPCC AR6 East Asia Atlas
+- Source: JMA reports — `https://www.data.jma.go.jp/cpdinfo/monitor/index.html` and IPCC AR6 East Asia Atlas
 
 ---
 

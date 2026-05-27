@@ -22,8 +22,8 @@ ISO2: `bb`. Status: ✅ Fully populated (researched 2026-05-07).
 - **Recent reforms (12-month watchlist)**:
   - **Welcome Stamp renewed by Cabinet to 31 December 2026** (the 12-month digital-nomad visa launched June 2020 — among the earliest DNV programs globally). Verify current status at [Welcome Stamp official portal — Visit Barbados](https://www.visitbarbados.org/barbados-welcome-stamp).
   - **Personal Income Tax reduction announced for income year 2026** ([BRA Policy Note, 20 April 2026](https://bra.gov.bb/) — verify exact new bands when published). The 2025 schedule remained 12.5% / 28.5% with BBD 25,000 personal allowance.
-  - **Resilience and Regeneration Fund** employee contribution **raised to 0.25% (from 0.10%)** of gross earnings effective **1 April 2025** ([2025 Budget](https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html) ❌ DEPRECATED — primary source removed; verify with KPMG TaxNewsFlash (Barbados budget coverage) and Barbados Ministry of Finance (https://www.gov.bb/Departments/finance)).
-  - **2025 Budget**: **PTT removed for deeds of gift** to children/dependants for land < 1 acre (gifts only — does not affect arm's-length sales) ([KPMG TaxNewsFlash 2025-03](https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html) ❌ DEPRECATED — primary source removed; verify with KPMG TaxNewsFlash (Barbados budget coverage) and Barbados Ministry of Finance (https://www.gov.bb/Departments/finance)).
+  - **Resilience and Regeneration Fund** employee contribution **raised to 0.25% (from 0.10%)** of gross earnings effective **1 April 2025** ([2025 Budget](https://assets.kpmg.com/content/dam/kpmg/bb/pdf/Barbados%20budget%20review%202025.pdf)).
+  - **2025 Budget**: **PTT removed for deeds of gift** to children/dependants for land < 1 acre (gifts only — does not affect arm's-length sales) ([KPMG TaxNewsFlash 2025-03](https://assets.kpmg.com/content/dam/kpmg/bb/pdf/Barbados%20budget%20review%202025.pdf)).
   - **Hurricane Beryl (1 July 2024)** passed ~150 km south of Barbados as Cat 3 — first major-hurricane impact in modern memory; **insurance market re-rating ongoing 2024–2026**; ECLAC-assessed effects ~BBD 193M (~0.15% of GDP); damage concentrated south + south-west coasts + fishing infrastructure ([ECLAC, 2024](https://www.cepal.org/en/publications/82157-assessment-effects-and-impacts-hurricane-beryl-barbados-2024)).
   - **Land Tax (Rate of Tax) Order, 2024** consolidated current bands ([S.I. 2024 No. 57 — BRA PDF](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024)).
   - **Republic transition** (30 November 2021): Barbados became a parliamentary republic; King replaced by President as ceremonial head of state. **No effect on property law** (Crown references in older statutes read as references to the State).
@@ -252,7 +252,7 @@ Governed by the **Property Transfer Tax Act, Cap. 84A**. Administered by [BRA](h
 | **Sale of long-term lease** | 2.5% (per Cap. 84A) |
 | **Sale of private-company shares** | 2.5% above BBD 50,000 |
 | **Stock-Exchange-listed shares** | Exempt |
-| **2025 Budget — gift to children/dependants of land < 1 acre** | **PTT removed** ([2025 Budget](https://kpmg.com/us/en/taxnewsflash/news/2025/03/barbados-tax-measures-2025-budget.html) ❌ DEPRECATED — primary source removed; verify with KPMG TaxNewsFlash (Barbados budget coverage) and Barbados Ministry of Finance (https://www.gov.bb/Departments/finance)) |
+| **2025 Budget — gift to children/dependants of land < 1 acre** | **PTT removed** ([2025 Budget](https://assets.kpmg.com/content/dam/kpmg/bb/pdf/Barbados%20budget%20review%202025.pdf)) |
 
 **Statutory liability**: **vendor pays PTT** (per Cap. 84A); commonly borne by vendor in practice.
 

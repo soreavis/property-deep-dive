@@ -330,7 +330,7 @@ Norma sísmica chilena: **NCh 433 Of.96 mod. 2009** + **DS 61/2011 MINVU** (post
 ### Aluvión / remoción en masa
 
 - Andean valleys: **Santiago oriente** (Lo Barnechea, San José de Maipo), **norte chico** (Atacama 2015 aluvión Chañaral), **Andes secos** susceptibles.
-- SERNAGEOMIN mapas de amenaza: `https://www.sernageomin.cl/peligros-geologicos/` ❌ DEPRECATED — primary source removed; verify with Servicio Nacional de Geología y Minería (Sernageomin) — sernageomin.cl.
+- SERNAGEOMIN mapas de amenaza: `https://www.sernageomin.cl/geologia-general`.
 
 ### Sequía + Código de Aguas
 

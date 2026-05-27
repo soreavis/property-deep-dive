@@ -612,7 +612,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 - **Preferential CIT 3 %**: pure holding companies, investment SPVs, collective investment schemes, foreign-source-income IP companies (Kigali International Financial Centre route).
 - **150 % tax deduction** for SME / emerging investor internationalisation expenditure.
 - **Strategic Investment Project (SIP)** designation: bespoke incentive package available for nationally-significant projects.
-- **Source**: `https://rdb.rw/why-rwanda/investment-incentives/` ❌ DEPRECATED — primary source removed; verify with Rwanda Development Board (RDB) + Law N° 006/2021 of 05/02/2021.
+- **Source**: `https://rdb.rw/invest` + Law N° 006/2021 of 05/02/2021.
 
 ## Common listing platforms
 
@@ -695,7 +695,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 | RLMUA legacy — RLMA | `https://rlma.rw/` |
 | RDB — Rwanda Development Board | `https://rdb.rw/` |
 | RDB Business Procedures | `https://businessprocedures.rdb.rw/` |
-| RDB Investment Incentives | `https://rdb.rw/why-rwanda/investment-incentives/` ❌ DEPRECATED — primary source removed; verify with Rwanda Development Board (RDB) |
+| RDB Investment Incentives | `https://rdb.rw/invest` |
 | RRA — Rwanda Revenue Authority | `https://www.rra.gov.rw/` |
 | RRA Tax Handbook | `https://tax-handbook.rra.gov.rw/` |
 | RRA Immovable Property Tax page | `https://www.rra.gov.rw/index.php?id=64&L=27` |

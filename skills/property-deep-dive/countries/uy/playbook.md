@@ -105,7 +105,7 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 ### Sources
 
 - **MTOP — Ministerio de Transporte y Obras Públicas**: `https://www.gub.uy/ministerio-transporte-obras-publicas/`
-- **Dirección Nacional de Vialidad (DNV)** under MTOP: `https://www.gub.uy/ministerio-transporte-obras-publicas/politicas-y-gestion/red-vial` ❌ DEPRECATED — primary source removed; verify with Ministerio de Transporte y Obras Públicas (MTOP) — gub.uy/ministerio-transporte-obras-publicas
+- **Dirección Nacional de Vialidad (DNV)** under MTOP: `https://www.gub.uy/ministerio-transporte-obras-publicas/transporte-por-carretera`
   - Publishes **TMD (Tránsito Medio Diario)** counts on the national network (Rutas Nacionales)
   - Annual report; latest typically lags 1–2 years (verify latest at MTOP)
 - **Intendencia de Montevideo — Movilidad**: `http://montevideo.gub.uy/tipo/area-tematica/movilidad`
@@ -414,7 +414,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
   - **Coverage** (per OSE 2024 annual report, verify current):
     - Drinking water: ~99% urban, ~85% nationwide population
     - Sewer / saneamiento: ~60% nationwide; **MVD ~95%+** in central; **interior coverage variable** (often <60% in small interior cities)
-- **Intendencia de Montevideo — Saneamiento**: shared responsibility for sewer in capital; OSE provides agua potable, IM operates sewer in MVD via Plan de Saneamiento Urbano (PSU) (`https://montevideo.gub.uy/areas-tematicas/saneamiento` ❌ DEPRECATED — primary source removed; verify with Intendencia de Montevideo — Saneamiento (montevideo.gub.uy))
+- **Intendencia de Montevideo — Saneamiento**: shared responsibility for sewer in capital; OSE provides agua potable, IM operates sewer in MVD via Plan de Saneamiento Urbano (PSU) (`http://montevideo.gub.uy/tipo/area-tematica/ambiente/agua-y-saneamiento/agua-y-saneamiento`)
 
 ### Regional / municipal
 
@@ -570,7 +570,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | INE Estadísticas Inmobiliarias | `https://www.ine.gub.uy/inmuebles` |
 | OSE | `https://www.ose.com.uy/` |
 | UTE | `https://portal.ute.com.uy/` |
-| MTOP DNV (vialidad nacional) | `https://www.gub.uy/ministerio-transporte-obras-publicas/politicas-y-gestion/red-vial` ❌ DEPRECATED — primary source removed; verify with Ministerio de Transporte y Obras Públicas (MTOP) — gub.uy/ministerio-transporte-obras-publicas |
+| MTOP DNV (vialidad nacional) | `https://www.gub.uy/ministerio-transporte-obras-publicas/transporte-por-carretera` |
 | Intendencia de Montevideo | `https://montevideo.gub.uy/` |
 | Intendencia de Maldonado | `https://www.maldonado.gub.uy/` |
 | MVOT (vivienda) | `https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/` |

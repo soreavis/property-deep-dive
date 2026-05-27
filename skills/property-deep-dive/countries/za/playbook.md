@@ -261,7 +261,7 @@ For same R3M with 80 % bond:
 - **Permanent Residence**: various paths (5-yr work visa + critical skills, spouse, retired person with R37,000/month income)
 - **Retired Person's Visa**: requires income/assets ≥ R37,000/month for life
 
-Source: Department of Home Affairs: `https://www.dha.gov.za/index.php/immigration-services/types-of-visa-and-permits` ❌ DEPRECATED — primary source removed; verify with South African Department of Home Affairs (DHA)
+Source: Department of Home Affairs: `https://www.dha.gov.za/index.php/immigration-services/types-of-visas`
 
 ### Salary benchmarks (2025, gross monthly, ZAR)
 
@@ -506,7 +506,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 | SAWS (weather / climate) | `https://www.weathersa.co.za/` |
 | Eskom load-shedding | `https://www.eskom.co.za/distribution/loadshedding/` |
 | SAPS Crime Stats | `https://www.saps.gov.za/services/crimestats.php` |
-| Department of Home Affairs (visas) | `https://www.dha.gov.za/index.php/immigration-services/types-of-visa-and-permits` ❌ DEPRECATED — primary source removed; verify with South African Department of Home Affairs (DHA) |
+| Department of Home Affairs (visas) | `https://www.dha.gov.za/index.php/immigration-services/types-of-visas` |
 | CSIR Green Book (climate atlas) | `https://greenbook.co.za/` |
 | PPRA (Property Practitioners Regulatory Authority) | `https://www.theppra.org.za/` |
 | Acts of Parliament | `https://www.gov.za/documents/acts` |

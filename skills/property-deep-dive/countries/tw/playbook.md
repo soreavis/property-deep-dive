@@ -103,7 +103,7 @@ ISO2: `tw`. Status: ✅ Fully populated (researched 2026-05).
 ### Primary source
 
 - **交通部統計處 (Department of Statistics, MOTC)** — annual + quarterly traffic data
-  - Portal: `https://www.motc.gov.tw/ch/home.jsp?id=29&parentpath=0,2` ❌ DEPRECATED — primary source removed; verify with Ministry of Transportation and Communications, Taiwan (MOTC)
+  - Portal: `https://www.motc.gov.tw/en`
   - Statistical yearbook (交通統計要覽): `https://www.motc.gov.tw/ch/home.jsp?id=63&parentpath=0,6`
 - **交通部公路局 (Highway Bureau, MOTC)** — provincial highway 省道 + national freeway 國道 traffic
   - Portal: `https://www.thb.gov.tw/`

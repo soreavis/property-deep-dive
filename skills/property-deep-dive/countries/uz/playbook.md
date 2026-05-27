@@ -463,7 +463,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
   - Other regions: regional REC subsidiaries
 - **Gas distribution**: **JSC "Hududgazta'minot"** + **JSC "Uztransgaz"** (national transmission) under Ministry of Energy
 - **Water + sewerage**:
-  - Tashkent: **JSC "Suvsoz"** ([suvsoz.uz](https://www.suvsoz.uz/) ❌ DEPRECATED — primary source removed; verify with State Unitary Enterprise Suvsoz Tashkent via reserv.my.gov.uz/en/authority/844; Agency for the Operation of Water Management Facilities at gov.uz/en/suvchi)
+  - Tashkent: **JSC "Suvsoz"** ([suvsoz.uz](https://toshkent.uzsuv.uz))
   - Other cities: municipal vodokanal (regional water utility)
 - **District heating**: **JSC "Toshissiqquvvati"** (Tashkent) + regional CHPP plants — Tashkent CHPP-1 + CHPP-2; modernisation ongoing under Ministry of Energy / National Project for Modernisation of Heat-Power Sector
 - **Sewerage**: managed by regional vodokanal + Suvsoz in Tashkent
@@ -701,7 +701,7 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 | e-Visa portal | [e-visa.gov.uz](https://e-visa.gov.uz/) |
 | IT Park Uzbekistan | [it-park.uz/en](https://www.it-park.uz/en/) |
 | Tashkent Khokimiyat | [tashkent.uz](https://tashkent.uz/) |
-| Suvsoz (water) | [suvsoz.uz](https://www.suvsoz.uz/) ❌ DEPRECATED — primary source removed; verify with State Unitary Enterprise Suvsoz Tashkent via reserv.my.gov.uz/en/authority/844; Agency for the Operation of Water Management Facilities at gov.uz/en/suvchi |
+| Suvsoz (water) | [suvsoz.uz](https://toshkent.uzsuv.uz) |
 | Uzenergo (electricity) | [uzenergo.uz](https://www.uzenergo.uz/) |
 | Ministry of Emergency Situations | [fvv.uz](https://fvv.uz/) |
 | Uzhydromet | [meteo.uz/en](https://www.meteo.uz/en) |
