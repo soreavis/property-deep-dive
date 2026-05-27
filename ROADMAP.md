@@ -186,6 +186,67 @@ Cross-referenced ISO 3166-1 against the 113-country matrix + Skip list. 13 candi
 
 **Confidence**: HIGH for the 8 strong-signal (cross-referenced primary-source anchors against actual gov portals). MEDIUM for the 5 medium-signal (primary sources verified to exist; signal strength weaker but enough to clear the playbook bar). Build effort: ~3 work sessions if all 13 shipped (1 session per phase, parallel where possible). Not greenlit — queued for project owner approval.
 
+## 🟢 Feature candidates — sections + extensions + fold-ins (queued 2026-05-27 evening)
+
+Compiled from **Reddit depth-survey #6.5** (5 angles: post-purchase regret · cohort-specific · transaction-day practical · emerging 2026 · long-tail country-finance subs — 85 threads across 25 subreddits + primary-source verification) plus **maintainer brainstorm** of novel features (cold-start ideas, not Reddit-driven). Filtered to viable = (a) primary-source feasibility · (b) not already covered by an existing flag · (c) reasonable build effort. **16 candidates total**.
+
+Depth-survey memo at `_local/reddit-depth-survey-6.5.md` (gitignored). 8 anti-hallucination catches recorded — HOA-board politics / mosquito / solo-woman / microclimate / wire-vs-BEC double-count etc. all explicitly REJECTED.
+
+### 🌟 Novel sections — high-novelty, high-decision-value (brainstorm)
+
+| Flag | What | Primary anchors | Why interesting | Effort |
+|---|---|---|---|---|
+| `--sanctions` (alt `--kyc-screen`) | Seller / UBO / PEP screening at deed signing against OFAC SDN, EU consolidated, UK OFSI, UN ConsolidatedList | Public sanctions lists (OFAC SDN List, EU Council consolidated, UK OFSI consolidated, UN SC) + national PEP databases | Catches highest-blast-radius pre-deed mistake (foreign buyer inadvertently funds sanctioned person — most common in CY / MT / AE / KN / BVI markets); no current property-buyer tool does this cross-country | ~300 lines |
+| `--climate-future` | IPCC AR6 30-yr address-level flood / heat-stress / drought / coastal-erosion projection | FR Géorisques · UK Environment Agency long-term flood · US FEMA + Climate Central · AU ARR · IT IdroGEO · JP MLIT · NL Klimaateffectatlas | Forward-looking complement to acute-hazard `--risks`; 2026 mandatory disclosure waves make this newly-relevant; composite cross-country is novel | ~500 lines |
+| `--match` | Reverse-`--compare`: cohort + budget + criteria → ranked list of best-fit countries across the 113-country matrix | Per-criterion lookup tables derived from existing 113 playbooks | UX-novel — most buyers know their constraints not their candidates; inverts the search direction | ~200 lines + lookup tables |
+
+### 🟢 Borderline-buildable extension (depth-survey angle 1)
+
+| Topic | Primary anchors | Build target | Notes |
+|---|---|---|---|
+| Transport-noise (flight / rail / wind-turbine) | **EU END Directive 2002/49/EC** strategic noise maps (Lden / Lnight, every major airport > 50k mvt/yr) · **US DOT National Transportation Noise Map** (`maps.dot.gov/BTS`) · **UK ETSU-R-97** wind statute · **DK Bekendtgørelse nr. 135/2019** 39 dB(A) · **DE TA Lärm** 35 dB(A) night · **IEC 61400-11** wind acoustic emission · **WHO 2018 Environmental Noise Guidelines** | New `shared/<noise>.md` (~300-400 lines) attached to `--traffic` or `--risks` — currently `--traffic` covers ROAD only; flight + rail + wind absent | Cross-country: EU-27 + UK + US + CA + AU all publish Lden Strategic Noise Maps. Only **GENUINE-GAP-BUILDABLE** from depth-survey #6.5. Borderline — extension not transformative |
+
+### 🟡 Medium-novelty new sections / extensions (brainstorm)
+
+| Flag | What | Primary | Effort |
+|---|---|---|---|
+| `--auction-registry` | Off-market / distressed cross-country foreclosure auction registry | FR ventes aux enchères judiciaires · IT TPC (Tribunale Procedure Concorsuali) · ES subasta + Portal Subastas BOE · UK Allsop / Savills · US sheriff sales · JP bankruptcy court · DE Zwangsversteigerung · NL veilingbiljet | ~300 lines |
+| `--deed-anatomy` | Per-country notarial-deed forensic checklist — red-flags to look for in the actual deed text before signing | FR acte authentique structure · IT rogito · ES escritura · DE Auflassung · UK TR1/TR2 + restrictions; goes beyond `--notary` (process-level) to clause-level | ~400 lines |
+| `--inflation-adjusted-history` | Real-terms price reconstruction for the ~20 markets that publish transaction-level data | UK Land Registry HM · FR DVF (Demandes de Valeurs Foncières) · ES Cataluña Cadastre · JP Reinsui · NL Kadaster + Funda historical · DE Bodenrichtwerte · AU CoreLogic · US ATTOM | ~200 lines + per-country data registry |
+| `--news-digest` | Per-country reform digest of past 30 days, wraps existing `feed-watcher.yml` output | `feed-watcher.yml` workflow already exists; surface its output as a section | ~100 lines (wrapper) |
+
+### 🟡 Fold-ins to existing extensions (depth-survey signal)
+
+| Item | Target file | Anchors |
+|---|---|---|
+| **LGBTQ+ / unmarried-partner joint title + pair-loan eligibility at PURCHASE** | `shared/finance-banking.md` (currently covers tax-residency / banking; no title-eligibility-by-couple-type) | JP Flat 35 Jan 2023 same-sex pair-loan acceptance (`flat35.com/topics/20221220.html`) · ECJ Nov 2025 cross-border same-sex marriage recognition (verify CURIA) · AE FD-L 41/2022 (already cited for inheritance); 38 marriage-equality countries vs 75 non-recognising in the 113-country matrix |
+| **Accessibility / wheelchair-retrofit / mandated build-code** | `shared/risks-build-quality.md` (alongside EPBD IV calendar) | AU NCC 2022 Livable Housing Design Standard · UK Building Regs Part M · US ADA + FHA (FHA applies to multi-family) · EU EAA 2025 Directive 2019/882 |
+| **Wire-cutoff + funds-available-vs-cleared + FX-on-signing-day** | `shared/remote.md` (already houses Hawarden v ENS BEC trap — logical neighbour) + cross-link to `shared/currency.md` | 12 CFR 229 (Reg CC US) · PSD2 / PSD3 EU · CHAPS rulebook (PSR UK) · Fedwire OC-6 · ECB TARGET2/T2 · Fedwire 5pm EST · SEPA 16:30 CET · CHAPS 17:40 GMT |
+| **EV-charger build-readiness mandate calendar (2024-2027 wave)** | `shared/risks-build-quality.md` (next to EPBD IV calendar) | CA Title 24 Pt 11 (CALGreen) eff 1 Jan 2026 · UK Building Regs Part S Jun 2022 · EU EPBD IV Directive 2024/1275 Art. 12 (1 charging point per 10 parking spaces non-residential >20 spaces by 2027) |
+
+### 🔵 Regulatory-watch additions (no new sections)
+
+| Item | Impact tier | Cadence | Notes |
+|---|---|---|---|
+| **Zillow climate-risk-data removal (Nov 30 2025)** | 2 | 30d (escalating) | CRMLS-driven removal of First Street climate scores from Zillow; verified [CNN 2 Dec 2025](https://www.cnn.com/2025/12/02/climate/zillow-climate-data-extreme-weather-first-street-redfin) + Casten letter to Zillow CEO 30 Apr 2026. Affects US buyer-DD workflow — climate data now requires RiskFactor.com or NHD report directly |
+| **Fedwire ISO 20022 migration (1 Mar 2025)** | 3 | annual | Temporary 2025-2026 wire-format risk window; affects closing-day wire reliability |
+| **NL Box-3 / rapid-trading reform Jan 2028** | 2 | annual | Patch NL playbook + regulatory-watch |
+| **CA NHD as explicit US-playbook flag** | data-source | one-time patch | CA Civ. Code §1103-1103.15 6-zone seller-disclosure — explicit cite in US playbook `--risks` |
+
+### Recommended build order (when greenlit)
+
+1. **🌟 Tier 1**: `--sanctions` (highest blast-radius prevented, lowest novel-section effort). Phase A + B + ship.
+2. **🌟 Tier 1**: `--climate-future` (scales with `--risks`, 2026-relevant).
+3. **🟡 Tier 2**: 4 fold-ins (LGBTQ + accessibility + wire-timing + EV-charger) — surgical, no new flag, 30-60 lines each into `finance-banking.md` + `risks-build-quality.md` + `remote.md`. Can ship as 1 PR.
+4. **🌟 Tier 2**: `--match` (UX-novel, low effort once data tables drafted).
+5. **🟢 Tier 3** (optional): transport-noise extension — borderline; only if maintenance window has slack.
+6. **🟡 Tier 3** (optional): `--auction-registry`, `--deed-anatomy`, `--inflation-adjusted-history`, `--news-digest`.
+7. **🔵 Always-on**: 4 regulatory-watch entries — add immediately on next regwatch-touching PR; no greenlight needed.
+
+### Status
+
+**Confidence**: 🌟 novel sections **MEDIUM** (primary sources exist; build pattern is novel — would benefit from a research-agent feasibility-validation pass before commitment, mirror of the 2026-05-15 gap-#5 BUILDABLE / BUILDABLE-THIN / NOT-BUILDABLE verdicts) · 🟢 borderline-buildable noise extension **HIGH** (depth-survey verified primary sources) · 🟡 fold-ins **HIGH** (verified, surgical) · 🔵 regwatch **HIGH** (already verified). **None of these is transformative** — gap-#6 was correct that the buildable section-side vein is exhausted. Depth-survey adds 1 borderline-buildable + 4 surgical fold-ins + 4 regwatch entries; brainstorm adds 3 novel + 4 medium-novelty candidates. Defer gap-#7 to ≥2026-11-27.
+
 ## Skip — not worth pursuing
 
 | Bucket | Examples | Why skip |
