@@ -4,72 +4,205 @@
     {
       "id": "europe_core",
       "label": "Europe core",
-      "codes": ["fr", "it", "cz", "sk", "de", "at", "ch", "es", "pt", "se", "fi", "no", "uk", "nl", "be", "dk", "is", "si", "ie", "gr", "pl", "ee", "hr", "hu"]
+      "codes": [
+        "fr",
+        "it",
+        "cz",
+        "sk",
+        "de",
+        "at",
+        "ch",
+        "es",
+        "pt",
+        "se",
+        "fi",
+        "no",
+        "uk",
+        "nl",
+        "be",
+        "dk",
+        "is",
+        "si",
+        "ie",
+        "gr",
+        "pl",
+        "ee",
+        "hr",
+        "hu"
+      ]
     },
     {
       "id": "anglo",
       "label": "Anglo non-EU",
-      "codes": ["ca", "au", "nz", "us"]
+      "codes": [
+        "ca",
+        "au",
+        "nz",
+        "us"
+      ]
     },
     {
       "id": "latam",
       "label": "Latin America",
-      "codes": ["mx", "br", "ar", "cr", "pa", "co", "uy", "cl", "pe", "ec", "py"]
+      "codes": [
+        "mx",
+        "br",
+        "ar",
+        "cr",
+        "pa",
+        "co",
+        "uy",
+        "cl",
+        "pe",
+        "ec",
+        "py"
+      ]
     },
     {
       "id": "caribbean",
       "label": "Caribbean",
-      "codes": ["bs", "do", "jm", "bb", "bz"]
+      "codes": [
+        "bs",
+        "do",
+        "jm",
+        "bb",
+        "bz"
+      ]
+    },
+    {
+      "id": "nl_caribbean",
+      "label": "Netherlands Caribbean",
+      "codes": [
+        "aw",
+        "cw",
+        "sx",
+        "bq"
+      ]
     },
     {
       "id": "balkans",
       "label": "Western Balkans",
-      "codes": ["rs", "me", "ba", "mk", "al"]
+      "codes": [
+        "rs",
+        "me",
+        "ba",
+        "mk",
+        "al"
+      ]
     },
     {
       "id": "eu_completion",
       "label": "EU completion",
-      "codes": ["lt", "lv", "ro", "bg", "lu", "cy", "mt"]
+      "codes": [
+        "lt",
+        "lv",
+        "ro",
+        "bg",
+        "lu",
+        "cy",
+        "mt"
+      ]
     },
     {
       "id": "mena",
       "label": "Türkiye & Middle East",
-      "codes": ["tr", "ae", "il", "qa", "sa", "jo", "om", "bh", "kw", "lb"]
+      "codes": [
+        "tr",
+        "ae",
+        "il",
+        "qa",
+        "sa",
+        "jo",
+        "om",
+        "bh",
+        "kw",
+        "lb"
+      ]
     },
     {
       "id": "apac",
       "label": "Asia-Pacific",
-      "codes": ["jp", "kr", "tw", "hk", "mo", "sg", "th", "my", "id", "vn", "ph", "cn", "kh"]
+      "codes": [
+        "jp",
+        "kr",
+        "tw",
+        "hk",
+        "mo",
+        "sg",
+        "th",
+        "my",
+        "id",
+        "vn",
+        "ph",
+        "cn",
+        "kh"
+      ]
     },
     {
       "id": "south_asia",
       "label": "South Asia",
-      "codes": ["in", "lk", "mv"]
+      "codes": [
+        "in",
+        "lk",
+        "mv"
+      ]
     },
     {
       "id": "africa",
       "label": "Africa",
-      "codes": ["za", "ma", "eg", "tn", "ng", "ke", "mu", "cv", "sc", "gh", "rw"]
+      "codes": [
+        "za",
+        "ma",
+        "eg",
+        "tn",
+        "ng",
+        "ke",
+        "mu",
+        "cv",
+        "sc",
+        "gh",
+        "rw"
+      ]
     },
     {
       "id": "caucasus",
       "label": "Caucasus & Eastern non-EU",
-      "codes": ["ge", "md", "am", "az"]
+      "codes": [
+        "ge",
+        "md",
+        "am",
+        "az"
+      ]
     },
     {
       "id": "central_asia",
       "label": "Central Asia",
-      "codes": ["kz", "uz"]
+      "codes": [
+        "kz",
+        "uz"
+      ]
     },
     {
       "id": "microstates",
       "label": "European Microstates",
-      "codes": ["li", "ad", "mc", "sm"]
+      "codes": [
+        "li",
+        "ad",
+        "mc",
+        "sm"
+      ]
     },
     {
       "id": "crown_deps_territories",
       "label": "Crown Dependencies & Autonomous Territories",
-      "codes": ["je", "gg", "im", "gi", "fo", "gl"]
+      "codes": [
+        "je",
+        "gg",
+        "im",
+        "gi",
+        "fo",
+        "gl"
+      ]
     }
   ]
 }

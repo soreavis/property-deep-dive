@@ -46,7 +46,7 @@ Every jurisdiction's gate resolves to one of three — identifying which is the 
 
 ## Universal mitigations
 
-Applicable across all 109 countries:
+Applicable across all 113 countries:
 
 1. **Identify the structural model (A/B/C) first** — it dictates whether the conveyance can stall, who is liable, and what to apply for.
 2. **Apply for the clearance / cost-basis / lower-rate certificate before listing or before any payment**, never after — most are pre-deed or pre-payment gated and irreversible if late.

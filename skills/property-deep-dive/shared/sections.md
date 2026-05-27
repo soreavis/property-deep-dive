@@ -426,7 +426,7 @@ Country-specific authorities:
 
 **Goal**: Can the buyer legally do the works the listing implies? What unauthorised works might already exist? What is the post-purchase enforcement risk?
 
-**Universal logic** (works in every country): full implementation in `shared/permits.md`. Single canonical doc with regional patterns + per-country tables for all 109 supported countries — country playbook does NOT need a separate permits section.
+**Universal logic** (works in every country): full implementation in `shared/permits.md`. Single canonical doc with regional patterns + per-country tables for all 113 supported countries — country playbook does NOT need a separate permits section.
 
 **Disambiguation**: `--permits` ≠ `--work=<profession>`. The latter is local employment for a profession at the address. The former is permits for **building works** on the property.
 
@@ -466,7 +466,7 @@ Country-specific authorities:
 
 **Goal**: Country-specific transaction-fraud register — what documented buyer-side scams target this country's market in 2024-2026, with regulator advisories, prosecutions, or investigative-journalism evidence.
 
-**Universal logic** (works in every country): full implementation in `shared/scams.md`. Single canonical doc with 7 cross-cutting traps + regional patterns + per-country one-liners for all 109 supported countries — country playbook does NOT need a separate scams section.
+**Universal logic** (works in every country): full implementation in `shared/scams.md`. Single canonical doc with 7 cross-cutting traps + regional patterns + per-country one-liners for all 113 supported countries — country playbook does NOT need a separate scams section.
 
 **Disambiguation**: `--scams` ≠ `--integrity` ≠ `--risks`. `--scams` = country-specific **transaction-fraud** patterns targeting buyers (deed forgery, wire fraud, off-plan disappearance, nominee structures, golden-visa inflation). `--integrity` = data-honesty checks on the listing/cadastre output itself. `--risks` = natural + technological hazards.
 
@@ -512,7 +512,7 @@ Country-specific authorities:
 
 **Goal**: Foreign-buyer language requirements — what language must the deed be in, when is a sworn translator mandatory at signing, what's the apostille / POA chain, what does sworn translation cost.
 
-**Universal logic** (works in every country): full implementation in `shared/language.md`. Single canonical doc with 7 cross-cutting traps + regional patterns + per-country one-liners for all 109 supported countries — country playbook does NOT need a separate language section.
+**Universal logic** (works in every country): full implementation in `shared/language.md`. Single canonical doc with 7 cross-cutting traps + regional patterns + per-country one-liners for all 113 supported countries — country playbook does NOT need a separate language section.
 
 **Disambiguation**: `--language` ≠ `--notary` ≠ `--visa`. `--language` = deed-language rule + sworn-translator regime + POA-translation chain. `--notary` = transaction-completion process. `--visa` = residency programs.
 
@@ -552,7 +552,7 @@ Country-specific authorities:
 
 **Goal**: Foreign-buyer broadband / fixed-internet profile — official address-level fibre availability checker, dominant ISPs, tariff bands (entry / mid / gigabit) with currency + EUR/USD equivalent, FTTH urban coverage, rural fallback (5G FWA / Starlink / fixed-wireless), Starlink licence status, build-era / strata trap, country-specific quirk.
 
-**Universal logic** (works in every country): full implementation in `shared/connectivity.md`. Single canonical doc with 7 cross-cutting traps + regional patterns + per-country one-liners for all 109 supported countries — country playbook does NOT need a separate connectivity section.
+**Universal logic** (works in every country): full implementation in `shared/connectivity.md`. Single canonical doc with 7 cross-cutting traps + regional patterns + per-country one-liners for all 113 supported countries — country playbook does NOT need a separate connectivity section.
 
 **Disambiguation**: `--connectivity` ≠ `--digital-nomad` ≠ `--mains`. `--connectivity` = address-level broadband verification (checker, ISPs, tariff bands, rural fallback, Starlink, strata trap) for property buyers. `--digital-nomad` = nomad-specific filter (national Speedtest tier, coworking density, time-zone overlap, DNV availability) — uses national medians, not address-level data. `--mains` = utility verification (sewer / water / gas / electricity), occasionally references the dominant ISP.
 
@@ -642,7 +642,7 @@ Country-specific authorities:
 
 **Goal**: Foreign-buyer remote-execution mechanisms — can a buyer execute a property purchase WITHOUT physically being present? Five distinct mechanisms covered: POA to local representative + apostille / consular legalisation, remote video-conference signing at notary, eIDAS QES / equivalent, digital land-register filing, mortgage-bank residual wet-ink.
 
-**Universal logic** (works for any property country): full implementation in `shared/remote.md`. Single canonical doc with 7 cross-cutting traps + ~80-country regional patterns + cross-jurisdictional reform calendar covering all 109 supported countries — country playbook does NOT need a separate remote section. Pairs strongly with `--language` (apostille / sworn-translator / POA-translation chain).
+**Universal logic** (works for any property country): full implementation in `shared/remote.md`. Single canonical doc with 7 cross-cutting traps + ~80-country regional patterns + cross-jurisdictional reform calendar covering all 113 supported countries — country playbook does NOT need a separate remote section. Pairs strongly with `--language` (apostille / sworn-translator / POA-translation chain).
 
 **Disambiguation**: `--remote` ≠ `--language` ≠ `--notary` ≠ `--scams`. `--remote` = execution-side (POA + RON + e-conveyancing + eIDAS QES + mortgage residual). `--language` = language-side (deed-language + sworn-translator + POA-translation chain). `--notary` = process-side (days from offer to deed, closing costs, notary vs solicitor regime). `--scams` = fraud register (BEC at closing — *Hawarden v ENS* SCA 10 Jun 2024 affirms buyer bears BEC risk).
 
@@ -685,7 +685,7 @@ Country-specific authorities:
 
 **Goal**: Foreign-buyer 90-day post-completion relocation logistics — pets, driving licence, vehicle import, utility setup, healthcare gap. The "surprise cost / surprise timeline" patterns that turn a clean purchase into a scrambled move-in.
 
-**Universal logic** (works for any property country): full implementation in `shared/relocation.md`. Single canonical doc with 7 cross-cutting traps + per-country detail for all 109 supported countries — country playbook does NOT need a separate relocation section. Pairs strongly with `--language` (apostille / sworn-translator), `--remote` (deed execution), `--home-tax` (tax-residence considerations on emigration).
+**Universal logic** (works for any property country): full implementation in `shared/relocation.md`. Single canonical doc with 7 cross-cutting traps + per-country detail for all 113 supported countries — country playbook does NOT need a separate relocation section. Pairs strongly with `--language` (apostille / sworn-translator), `--remote` (deed execution), `--home-tax` (tax-residence considerations on emigration).
 
 **Disambiguation**: `--relocation` ≠ `--mains` ≠ `--connectivity` ≠ `--remote`. `--relocation` = buyer's account-holder logistics (pet entry + DL exchange + vehicle import + utility account opening + healthcare gap). `--mains` = parcel infrastructure (sewer / water / electricity / gas presence; pre-purchase). `--connectivity` = broadband layer (address-level fibre + Starlink registry). `--remote` = deed-execution mechanisms (POA / RON / e-conveyancing). `--relocation` is post-completion; `--remote` is pre-/at-closing.
 

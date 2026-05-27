@@ -47,7 +47,7 @@ The defence available is set by the register type, not by vigilance:
 
 ## Universal mitigations
 
-Applicable across all 109 countries:
+Applicable across all 113 countries:
 
 1. **Classify the registry system first** (Torrens+fund / deeds-recording / Grundbuch-judicial / transitional) — it determines whether you need an alert, a restriction, title insurance, or all three.
 2. **Enrol in the free owner-alert the day the deed registers**, having verified the non-resident enrolment path (eID / contact-register / attorney).

@@ -221,7 +221,7 @@ Calendar-actionable triggers for re-stamping affected playbook sections.
 
 ## Universal mitigations
 
-For foreign buyers, applicable across all 109 countries:
+For foreign buyers, applicable across all 113 countries:
 
 1. **Verify the EAF / SAIDI delta vs national-policy claim** — utilities often publish flattering averages while specific feeders / districts run far worse. Always check the specific suburb / commune / district feeder via local regulator.
 2. **Budget for backup**: Tier-3+4 markets (LB, NG, GH, EC, CO during drought, KH, IN rural, Caribbean Family Islands, MV outer islands) require diesel/petrol generator OR Starlink-grade UPS + battery + solar buffer. Pricing: $5k-$30k upfront depending on size.
