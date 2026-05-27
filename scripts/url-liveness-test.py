@@ -147,6 +147,90 @@ class TestClassify(unittest.TestCase):
         self.assertEqual(cls, UL.TIMEOUT)
 
 
+class TestHeadGetFallback(unittest.TestCase):
+    """check_one() must retry with GET when HEAD returns any non-success.
+
+    Locks in the 2026-05-27 triage finding: 74 of 267 reported-DEAD URLs were
+    false positives because the checker only retried GET on (0, 403, 405, 5xx).
+    Real-world HEAD-vs-GET mismatch patterns observed: HEAD=400 (armstat.am
+    pattern), HEAD=404 (boi.org.il/ird.gov.lk bot-detection-fake-404), HEAD=406.
+    """
+
+    def _run_check(self, head_status: int, get_status: int):
+        import asyncio
+
+        cfg = make_cfg()
+        calls = []
+
+        async def fake_request(session, method, url, cfg_arg):
+            calls.append(method)
+            status = head_status if method == "HEAD" else get_status
+            return status, "", {}, url
+
+        class _FakeThrottle:
+            def __init__(self):
+                import asyncio as _a
+                self.sem = _a.Semaphore(1)
+
+            async def gate(self):
+                return None
+
+        class _FakeLimiter:
+            async def acquire(self):
+                return None
+
+        class _FakeRobots:
+            async def can_fetch(self, url):
+                return True
+
+        async def runner():
+            orig_req = UL._http_request
+            UL._http_request = fake_request
+            try:
+                r = await UL.check_one(None, "https://example.test/", cfg, _FakeThrottle(), _FakeLimiter(), _FakeRobots())
+                return r, list(calls)
+            finally:
+                UL._http_request = orig_req
+
+        return asyncio.run(runner())
+
+    def test_head_400_then_get_200_is_live(self):
+        # armstat.am pattern: HEAD-method-rejection 400 but GET-with-UA returns 200
+        result, calls = self._run_check(head_status=400, get_status=200)
+        self.assertEqual(result.cls, UL.LIVE)
+        self.assertEqual(calls, ["HEAD", "GET"])
+
+    def test_head_404_then_get_200_is_live(self):
+        # boi.org.il / ird.gov.lk pattern: bot-detection serves 404 to HEAD, 200 to browser GET
+        result, calls = self._run_check(head_status=404, get_status=200)
+        self.assertEqual(result.cls, UL.LIVE)
+        self.assertEqual(calls, ["HEAD", "GET"])
+
+    def test_head_406_then_get_200_is_live(self):
+        # 406 Not Acceptable on HEAD; some WAFs reject Accept: */* with HEAD
+        result, calls = self._run_check(head_status=406, get_status=200)
+        self.assertEqual(result.cls, UL.LIVE)
+        self.assertEqual(calls, ["HEAD", "GET"])
+
+    def test_head_200_skips_get(self):
+        # Happy path: HEAD already succeeds, no GET retry
+        result, calls = self._run_check(head_status=200, get_status=200)
+        self.assertEqual(result.cls, UL.LIVE)
+        self.assertEqual(calls, ["HEAD"])  # GET should NOT be called
+
+    def test_head_404_then_get_404_is_dead(self):
+        # Real DEAD: both HEAD and GET return 404
+        result, calls = self._run_check(head_status=404, get_status=404)
+        self.assertEqual(result.cls, UL.DEAD)
+        self.assertEqual(calls, ["HEAD", "GET"])
+
+    def test_head_301_skips_get(self):
+        # Redirect on HEAD is enough — no GET retry
+        result, calls = self._run_check(head_status=301, get_status=200)
+        self.assertEqual(result.cls, UL.REDIRECT_LIVE)
+        self.assertEqual(calls, ["HEAD"])
+
+
 class TestCacheTTL(unittest.TestCase):
     def test_fresh_live_within_30d(self):
         cfg = make_cfg()

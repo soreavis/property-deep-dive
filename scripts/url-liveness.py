@@ -418,8 +418,13 @@ async def check_one(
             await rate_limiter.acquire()
             # HEAD first
             status, title, headers, final_url = await _http_request(session, "HEAD", url, cfg)
-            # GET fallback if HEAD failed in a way that often indicates server-side method allergy
-            if status in (0, 405, 403) or status >= 500:
+            # GET fallback on any non-success: HEAD-method allergy (400/405/406), bot-detection
+            # 404 (sites serving 404 to non-browser clients), 403/auth, transport error (0), 5xx, or
+            # the long-tail non-standard 4xx codes some WAFs emit (466/468/421/412 etc). The HEAD
+            # response is unreliable for many gov / tax-authority hosts (triage 2026-05-27 showed
+            # 74 / 267 reported-DEAD URLs returned 200 on GET with browser UA).
+            head_succeeded_2xx_3xx = 200 <= status < 400
+            if not head_succeeded_2xx_3xx:
                 await host_throttle.gate()
                 await rate_limiter.acquire()
                 status, title, headers, final_url = await _http_request(session, "GET", url, cfg)
