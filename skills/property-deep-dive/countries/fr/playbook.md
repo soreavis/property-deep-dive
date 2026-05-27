@@ -92,7 +92,7 @@ ISO2: `fr`. Status: ✅ Fully populated.
 2. Annual taxe foncière = `VLC × 50% × (taux_communal + taux_interco) + TEOM_amount`
 3. Annual taxe d'habitation RS = `VLC × 100% × (taux_communal + taux_syndicat)`. Surcharge majoration 5–60 % if zone tendue (verify on liste).
 4. Frais de notaire on €P (FAI minus agency fee): ≈ 7.5–8 % for ancien
-   - DMTO: 5.81 % (4.50 % département + 1.20 % commune + 0.107 % État)
+   - DMTO: **6.32 % default** since Apr 2025 (5.00 % département + 1.20 % commune + 0.1067 % État) — 83 départements voted the +0.5 pp département-share hike enabled by Loi de finances 2025; sunset 30 Apr 2028. 11 départements still hold **5.81 %** (Ain, Allier, Alpes-de-Haute-Provence, Alpes-Maritimes, Drôme, Eure, Isère, Landes, Lozère, Oise, Saône-et-Loire, Territoire de Belfort). (2026-05-27 verified; source [Service Public A18183](https://www.service-public.gouv.fr/particuliers/actualites/A18183) + [impots.gouv.fr DMTO 2026 PDF](https://www.impots.gouv.fr/sites/default/files/media/1_metier/3_partenaire/notaires/dmto/dmto_2026-02.pdf))
    - Émoluments notaire: dégressif ~0.8–1.2 %
    - Débours + sécurité immobilière: €600–1,500
 5. Future risk: 2026–2028 cadastral revaluation (RVLLH) likely +20–40 % for rural homes
@@ -123,13 +123,13 @@ ISO2: `fr`. Status: ✅ Fully populated.
 3. Realistic year-3 stabilised gross: 16–22 weeks × commune-typical rate
 4. Apply tax regime:
    - Below €15k AND non-classé → micro-BIC 30 % abatement
-   - Above €15k OR classé → micro-BIC 50 % abatement (must classify via Atout France) — plafond €83,600 (revenues 2026+)
+   - Above €15k OR classé → micro-BIC **50 %** abatement (classement via organisme accrédité COFRAC) — plafond **€77,700** (classé + chambres d'hôtes, since 1 Jan 2025 per Loi Le Meur 2024-1039; was €188,700 pre-reform). (2026-05-27 verified; source [Légifrance Loi 2024-1039](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711))
    - Above €23k revenue → URSSAF 6 % (classé) or 21.2 % (non-classé)
-   - Above €83.6k → régime réel
+   - Above €77.7k → régime réel
 
 5. Subtract 35–45 % operating costs (cleaning, linen, utilities, commissions)
 6. Compute net at TMI 11 % and TMI 30 %
-7. Note: classement = 50 % abatement + 6 % URSSAF + plafond 83.6k vs 30 %/21.2 %/15k unclassified
+7. Note: classement = 50 % abatement + 6 % URSSAF + plafond €77,700 vs 30 %/21.2 %/€15k unclassified (Loi Le Meur 2024-1039, en vigueur 1 Jan 2025)
 
 **Strategic levers**:
 - **Classify it** — free in most departments via the ADT (Agence Départementale du Tourisme)

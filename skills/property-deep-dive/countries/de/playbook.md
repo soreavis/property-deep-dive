@@ -128,17 +128,18 @@ Grundsteuer = Grundsteuerwert × Steuermesszahl × Hebesatz
 
 ### Transaction taxes — Grunderwerbsteuer
 
-| Bundesland | Rate |
-|---|---:|
-| **Bayern** | **3.5 %** (lowest) |
-| **Sachsen** | **3.5 %** |
-| Hamburg | 4.5 % |
-| Bremen | 5.0 % |
-| Niedersachsen, RLP | 5.0 % |
-| Baden-Württemberg | 5.0 % |
-| **Berlin** | **6.0 %** |
-| Sachsen-Anhalt, Hessen, Thüringen, Saarland | **6.5 %** |
-| **Brandenburg, NRW, Schleswig-Holstein** | **6.5 %** (highest) |
+| Bundesland | Rate | Effective |
+|---|---:|---|
+| **Bayern** | **3.5 %** (lowest, sole occupant) | 1997 |
+| Baden-Württemberg | 5.0 % | Nov 2011 |
+| Niedersachsen, RLP, Sachsen-Anhalt | 5.0 % | 2012–14 |
+| **Thüringen** | **5.0 %** | 1 Jan 2024 (↓ from 6.5 %) |
+| **Hamburg, Sachsen** | **5.5 %** | 1 Jan 2023 (↑ from 4.5 % / 3.5 %) |
+| **Bremen** | **5.5 %** | 1 Jul 2025 (↑ from 5.0 %) |
+| Berlin, **Hessen**, Mecklenburg-Vorpommern | **6.0 %** | 2014–19 |
+| Brandenburg, NRW, Saarland, Schleswig-Holstein | 6.5 % (highest) | 2014–15 |
+
+(2026 rates per state Finanzministerien; Bremen ↑ 1 Jul 2025, Thüringen ↓ 1 Jan 2024; Hamburg + Sachsen at 5.5 % since 1 Jan 2023. 2026-05-27 verified; source [finanz-tools.de Grunderwerbsteuer 2026 Tabelle](https://www.finanz-tools.de/grunderwerbsteuer/bundeslaender-tabelle))
 
 ### Notarkosten + Grundbucheintrag
 
@@ -232,7 +233,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 
 ### Self-employment regimes
 
-- **Kleinunternehmer** (small business): < €22,000 revenue/yr, no VAT (since 2025: €25,000)
+- **Kleinunternehmer** (§ 19 UStG): Vorjahresumsatz ≤ **€25,000** + laufendes Jahr ≤ **€100,000** (both thresholds; net basis since 2025; previously €22k/€50k brutto). (2026-05-27 verified; source [nwb.de § 19 UStG-Reform 2025](https://www.nwb.de/rechnungswesen/neuregelungen-fuer-kleinunternehmer-ab-2025))
 - **Freiberufler** (liberal profession): doctors, lawyers, architects, engineers, journalists, artists — simpler bookkeeping, no Gewerbesteuer
 - **Gewerbe** (trade): requires Gewerbeanmeldung at Gewerbeamt; Gewerbesteuer applies
 - **GmbH** (limited): min €25,000 capital, half paid up
@@ -248,7 +249,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
   - Stuttgart, Frankfurt: ~€5,200
   - Smaller cities: ~€3,500–€4,200
   - Eastern rural: ~€3,000–€3,800
-- **Mindestlohn 2025**: €12.82/hr (€2,221/mo full-time)
+- **Mindestlohn (gesetzlich)**: **€13.90/hr** from 1 Jan 2026, **€14.60/hr** from 1 Jan 2027 (BMAS / Mindestlohnkommission; was €12.82 in 2025). (2026-05-27 verified; source [BMAS Pressemitteilung](https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/mindestlohn-steigt-zum-ersten-januar-2026.html))
 
 ---
 

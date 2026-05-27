@@ -103,7 +103,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
   - Band H: £4,000–£8,000+/yr
 - **NI**: domestic rate = capital value × (district + regional rate), typically 0.7–1.0% capital value
 - Single-person discount: 25% (must apply)
-- Empty/second-home premium: up to **+100% (200% total)** since April 2024 (council discretion)
+- Empty-home premium up to **+100%** since **1 April 2024** (qualifying period reduced 2y → 1y); second-home premium up to **+100%** since **1 April 2025** (Levelling-up & Regeneration Act 2023; council discretion; councils had to resolve before 31 Mar 2024 to apply from 1 Apr 2025). (2026-05-27 verified; source [gov.uk Council Tax premiums guidance](https://www.gov.uk/government/publications/council-tax-information-letters-2024))
 
 ### Transaction taxes
 
@@ -160,8 +160,9 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 ### Capital gains tax (CGT)
 
 - **Principal Private Residence (PPR) relief**: full exemption for owner-occupied primary
-- Investment property: 18% (basic-rate band) / **24%** (higher-rate band) since 30 Oct 2024 (was 28%)
+- Investment property: 18% (basic-rate band) / **24%** (higher-rate band) — higher rate cut from 28 % → 24 % on **6 April 2024** (FA 2024); the 30 Oct 2024 alignment was for non-residential / general CGT, not residential. (2026-05-27 verified; source [gov.uk CGT rates and allowances](https://www.gov.uk/capital-gains-tax/rates))
 - Annual allowance: £3,000 (2024-2026)
+- **FA 2025 — Non-dom abolition + IHT residence-based (LTR test)**: from **6 April 2025**, the non-domiciled tax regime is abolished. New 4-year Foreign Income & Gains (FIG) regime for new arrivals. IHT shifts from domicile-based to residence-based: a UK-resident individual is a Long-Term Resident (within scope of IHT on worldwide assets) once UK-resident for ≥10 of the previous 20 tax years. Tail period on departure: 3 years (10–13 yr residency) up to 10 years (20+ yr residency). LTR status resets after 10 consecutive non-resident years. (2026-05-27 verified; source [Finance Act 2025 — legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2025/8))
 
 ### VAT
 
@@ -184,7 +185,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 ### Long-term residential
 
 - **Assured Shorthold Tenancy (AST)** — England/Wales standard
-- **Renters' Rights Bill 2025** — set to abolish s21 "no-fault" evictions (passing 2025-2026)
+- **Renters' Rights Act 2025** — Royal Assent **27 October 2025**; abolishes s21 "no-fault" evictions from **1 May 2026** (first commencement). Pre-1 May 2026 s21 notices remain valid until 31 July 2026. (2026-05-27 verified; source [Renters' Rights Act 2025 — legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2025/40))
 - **Tenancy deposit scheme** (TDS / DPS / mydeposits) mandatory
 - **Right to Rent** (immigration check) mandatory in England
 

@@ -117,15 +117,26 @@ Long-debated Grundsteuerreform — multiple political parties want full revaluat
 
 ### Transaction taxes — Grunderwerbsteuer (GrESt)
 
-**3.5 % flat on price** — same across Austria, no Bundesland variation.
+**3.5 % flat on price** — same across Austria, no Bundesland variation (§ 7 GrEStG).
 
-Reduced rates for family transfers:
-- **0.5 %** on first €250k between close relatives (Eltern, Kinder, Ehegatten)
-- **2.0 %** above
+**Stufentarif** for *unentgeltliche* / Familienverband transfers (§ 26a GGG; basis = **Grundstückswert**, not Kaufpreis) — 3-band scale:
+- **0.5 %** on first **€250,000**
+- **2.0 %** on next **€150,000** (€250k–€400k)
+- **3.5 %** on excess above **€400,000**
+
+(2026-05-27 verified; source [BMF Steuersatz](https://www.bmf.gv.at/themen/steuern/immobilien-grundstuecke/grunderwerbsteuer/steuersatz.html) + [USP GrESt](https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/grunderwerbsteuer.html))
+
+**Share-deal RETT reform (eff. 1 Jul 2025)**: Anteilsvereinigungs-/share-consolidation threshold dropped from **95 % → 75 %**. Indirect (chain) share consolidations also caught. Increased **3.5 % rate on fair-market value (gemeiner Wert)** for share-deal transfers — closes Anteilsvereinigung loophole. Relevant for SPV/GmbH structures. (2026-05-27 verified; source [DLA Piper](https://www.dlapiper.com/en-de/insights/publications/2025/06/new-regime-on-austrian-real-estate-transfer-tax) + [Wolf Theiss](https://www.wolftheiss.com/insights/austria-to-introduce-stricter-real-estate-transfer-tax-rules-for-share-deals/))
 
 ### Eintragungsgebühr (Grundbuch entry fee)
 
 **1.1 % of price** — separate fee for Grundbuch registration.
+
+**Hauptwohnsitz-Befreiung (1 Jul 2025 – 30 Jun 2026)**: Eintragungsgebühr + Pfandrechts-Eintragungsgebühr (1.2 %) entfallen für bis zu **€500,000 Bemessungsgrundlage** beim Erwerb einer Hauptwohnsitz-Immobilie (BMJ, Stand 2026). Sunset 30 Jun 2026. (2026-05-27 verified; source [BMJ Befreiung](https://www.bmj.gv.at/themen/Zivilrecht/Befreiung-von-der-Grundbuch-Eintragungsgeb%C3%BChr-bei-Erwerb-von-Wohnraum.html))
+
+### Immobilienertragsteuer (ImmoESt)
+
+Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 2016; was 25 % between 1 Apr 2012 – 31 Dec 2015) — § 30 EStG. No 10-year speculation period since 1 Apr 2012. **Umwidmungszuschlag** of 30 % surcharge applies since **1 Jul 2025** for re-zoned (umgewidmete) properties. Hauptwohnsitzbefreiung (2-yr or 5-of-10-yr tests under § 30 Abs 2 Z 1 EStG) and Herstellerbefreiung are the main relief paths. Altgrundstück (acquired pre-31 Mar 2002) vs Neugrundstück (post) split applies. Selbstberechnung durch Parteienvertreter (Notar/Anwalt). (2026-05-27 verified; source [oesterreich.gv.at ImmoESt](https://www.oesterreich.gv.at/de/themen/steuern_und_finanzen/immobilienertragsteuer/Seite.2420002) + [USP ImmoESt](https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/immobilienertragsteuer.html))
 
 ### Notarkosten / Anwaltskosten
 

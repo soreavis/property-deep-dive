@@ -142,11 +142,12 @@ For **new builds (vendita da impresa)**:
 - Replaces but does NOT abolish regional licensing (some regioni still need additional notice to comune)
 - Free; alphanumeric code
 
-**Tax regime — Cedolare secca (sostitutiva)**:
+**Tax regime — Cedolare secca (sostitutiva)** (2026-05-27 verified, source Legge di Bilancio 2026 / L. 199/2025; VERIFY-NEEDED final art./commi against gazzettaufficiale.it):
 - **1° immobile**: 21 % flat
 - **2° immobile**: 26 % flat
-- **3°+ immobile**: presunzione di attività imprenditoriale → P.IVA obbligatoria, regime ordinario
-- **Limite 2026**: max 2 immobili in cedolare secca per contribuente
+- **3°/4° immobile**: **30 % flat** (NEW bracket from 2026 per Legge di Bilancio 2026)
+- **5°+ immobile**: presunzione di attività imprenditoriale → P.IVA obbligatoria, regime ordinario
+- **Limite 2026**: max 2 immobili in cedolare secca per contribuente (the ≤2 cap applies to cedolare-secca eligibility, distinct from imprenditoriale presumption threshold)
 - Only for contracts ≤ 30 days
 - Optional alternative: regime ordinario IRPEF on rental income
 
@@ -348,7 +349,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 
 ## Active fiscal incentives (2025)
 
-- **Sismabonus** prima casa **50 %** / seconda **36 %** (2025); 36/30 % (2026-27); cap €96,000/unit
+- **Sismabonus** prima casa **50 %** / seconda **36 %** (2025 e 2026 — decalage sospeso da Legge di Bilancio 2026); 36 %/30 % programmato per 2027 salvo proroga; cap €96,000/unit; spread su 10 quote annuali (2026-05-27 verified, source Legge di Bilancio 2026; VERIFY-NEEDED exact commi)
 - **Ecobonus** energy retrofit: 50 % prima casa / 36 % seconda (2025)
 - **Bonus Ristrutturazione**: 50 % up to €96k; cap aliquote scendono progressivamente
 - **Superbonus 110 %** sostanzialmente concluso; trasceso a 65 % e poi a regime ordinario

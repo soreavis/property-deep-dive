@@ -128,8 +128,8 @@ For primary residence:
 ### Transaction taxes — Overdrachtsbelasting
 
 - **Primary residence (owner-occupier)**: **2%**
-- **First-time buyer < €510,000 (2026)**: **0%** (jonge starter, 18-35 yrs)
-- **Second home / BTL / investor**: **10.4%** (raised from 8% in 2023)
+- **First-time buyer < €555,000 (2026)**: **0%** (jonge starter, 18-35 yrs; was €525k 2025, €510k 2024) (2026-05-27 verified; source [business.gov.nl Property transfer tax](https://business.gov.nl/regulation/property-transfer-tax/))
+- **Second home / BTL / investor**: **8%** from 1 Jan 2026 (Belastingplan 2026; was 10.4% in 2023-2025) (2026-05-27 verified; source [government.nl real-estate-transfer-tax-rates](https://www.government.nl/topics/property-transfer-tax))
 - **Commercial**: 10.4%
 - Calculated on contract price
 
@@ -212,7 +212,7 @@ For primary residence:
 - **Inkomstenbelasting**: progressive 36.97% / 49.5% (2025)
 - **Zelfstandigenaftrek**: phasing down to €900 (2027)
 - **MKB-winstvrijstelling**: 12.7% deduction
-- **30% ruling** for expat workers (4-year discount; reduced from 5-year in 2024)
+- **30%-ruling** for expat workers: duration remains **60 months (5 years)** throughout. Tapering 30/20/10 introduced for 2024 is being **repealed and replaced by a flat 27% for the full 60 months from 1 Jan 2027** (raised salary norms €50,436 / €38,388 for <30 with master's). (2026-05-27 verified; source [business.gov.nl 30%-ruling 27%](https://business.gov.nl/amendments/30-percent-ruling-compensation-down-to-27-percent/))
 
 ### Salary benchmarks (2025)
 
@@ -338,7 +338,7 @@ For primary residence:
 
 ## Active fiscal incentives (2025-2026)
 
-- **NHG (Nationale Hypotheek Garantie)**: cap **€435,000** (2026); fee 0.4% of mortgage
+- **NHG (Nationale Hypotheek Garantie)**: cap **€470,000** (2026; €498,200 with energy-saving uplift; was €450k 2025); fee 0.4% of mortgage (2026-05-27 verified; source [Rijksoverheid NHG 2026](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/08/nhg-grens-stijgt-naar-€-470.000))
 - **Starterslening** (gemeente top-up loans for FTB)
 - **Energiesubsidie ISDE**: heat pumps, insulation
 - **30% ruling** for expat workers (4-year, reduced from 5)

@@ -162,9 +162,10 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 ### Capital Acquisitions Tax (CAT)
 
 - **Inheritance/gift tax**: 33% above thresholds
-- Group A (parent-child): €335,000 threshold (2024-2026)
-- Group B (sibling, niece/nephew): €32,500
-- Group C (other): €16,250
+- Group A (parent-child): **€400,000** threshold (from 2 October 2024 — Budget 2025; Finance Act 2024 s.107; was €335,000)
+- Group B (sibling, niece/nephew): **€40,000** (was €32,500)
+- Group C (other): **€20,000** (was €16,250)
+- (2026-05-27 verified; source [Revenue.ie CAT thresholds](https://www.revenue.ie/en/gains-gifts-and-inheritance/cat-thresholds-rates-and-aggregation-rules/cat-thresholds.aspx))
 
 ### Local Authority charges
 
@@ -175,7 +176,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 ### Future risk
 
 - **LPT 2026-2030** locked
-- **HTB scheme** extended through 2025; future status uncertain
+- **HTB scheme** extended through **31 December 2029** (Budget 2025) (2026-05-27 verified; source [Revenue.ie Help-to-Buy](https://www.revenue.ie/en/property/help-to-buy-incentive/index.aspx))
 - **Stamp Duty** 6% above €1.5M relatively recent (2024)
 
 ---
@@ -192,26 +193,24 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
   - Pre-existing fixed-term tenancies grandfathered
 - **Notice periods strict**
 
-### Short-let (Furnished Holiday Let / Airbnb)
+### Short-let (Airbnb / tourist accommodation)
 
-**Furnished Holiday Let (FHL) regime ABOLISHED**:
-- **Abolition: 1 April 2025** (companies) / **6 April 2025** (individuals)
-- All residential property — long-let, short-let, holiday — now treated the same for tax
-- Old reliefs gone: capital allowances, mortgage interest, BADR, gift hold-over
+**Irish short-let tax framework** (NOT UK FHL — there is no Irish FHL regime; classification is per-facts via Revenue Case I trading vs Case V rental test):
+- **Case I (trading) vs Case V (rental)**: facts-and-circumstances test on level of services, frequency, marketing. Case I treatment allows capital allowances 12.5% / 8 yrs on STR fittings.
+- **DAC7 platform reporting**: Airbnb/Booking/Vrbo report host earnings to Revenue from 2024 onward.
+- **Short-Term Letting Register (STLR)**: planned via Short Term Letting and Tourism Bill 2025 (General Scheme approved 15 Apr 2025). Register to be managed by **Fáilte Ireland from 20 May 2026**; opens **1 December 2026**; registration deadline **31 December 2026**. Currently no operational national register. (2026-05-27 verified; source [Fáilte Ireland STLR page](https://www.failteireland.ie/registration-and-grading/short-term-letting-register-(STLR).aspx))
 
 ### Local short-let rules
 
-- **Local authority registration** required (pre-2024 reforms)
 - **RPZ rules**: 90-day cap for short-let in primary residence in some areas
-- **Failte Ireland register** for tourist accommodation (mandatory)
-- **EU Regulation 2024/1028**: transposition pending May 2026
 - **Dublin City Council**: short-let restrictions in central Dublin (planning permission required for >90 nights/yr)
+- **EU Regulation 2024/1028**: short-term rental data-sharing — applicable from 20 May 2026
 
 ### Tax on rental
 
 - **Income tax**: progressive 20-40%
-- **USC (Universal Social Charge)** + **PRSI** Class S (4.0% if self-employed)
-- Pre-2025 FHL allowed business-treatment + reliefs; abolished 2025
+- **USC (Universal Social Charge)** + **PRSI** Class S (**4.1 % from Jan 2025; 4.2 % from 1 Oct 2025; 4.35 % from 1 Oct 2026** — gradual pension-funding increase)
+- **NLWT (Non-Resident Landlord Withholding Tax)**: tenant or designated collection agent must withhold **20%** of gross rent under the NLWT system, in force since **1 July 2023** (collection agent remits within 21 days via ROS/myAccount). (2026-05-27 verified; source [Revenue.ie NLWT](https://www.revenue.ie/en/property/rental-income/nlwt/index.aspx))
 - **Revenue.ie eForm 11** for self-assessment
 - **Rent-a-Room scheme**: up to **€14,000/yr tax-free** for rooms in primary residence
 

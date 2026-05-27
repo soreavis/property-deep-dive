@@ -115,7 +115,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 | 648,022 – 1,128,287 | 6 % avg | 6 % |
 | > 1,128,287 | **7.5 % flat** | **7.5 % flat** |
 
-**Non-resident IMT increase** announced October 2025 — extra surcharge for non-residents on higher brackets.
+**Non-resident IMT surcharge — PROPOSED, not yet in force as of 2026-05**: no enacted statute / Portaria / AT release identified. Tracked in `regulatory-watch.md` as proposed (impact tier 3). Do not rely on it for purchase modelling until enacted. (2026-05-27 verified — unsourced political announcement only)
 
 **IS (Imposto do Selo)**: **0.8 %** of price (one of lowest stamp duties in EU)
 
@@ -144,7 +144,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 - Non-resident IMT surcharge (Oct 2025) — under fiscal review
 - AIMI thresholds may adjust
-- Mais Habitação package 2023-2024 still being unwound politically
+- Mais Habitação package (Lei 56/2023) partially **repealed by Decreto-Lei 76/2024 (23 Oct 2024, in force 1 Nov 2024)** — repealed: (a) 5-yr AL registration term with mandatory renewal; (b) general suspension of new AL registrations in apartments (national); (c) mandatory condominium consent for AL in autonomous fractions; (d) expiry of inactive registrations; (e) non-transferability of registration on sale. Município-level Áreas de Contenção (Lisbon RMAL, Porto Reg. 1462/2024) remain in force and were reinforced by DL 76/2024. (2026-05-27 verified; source [DR DL 76/2024](https://diariodarepublica.pt/dr/detalhe/decreto-lei/76-2024-892301177))
 
 ---
 
@@ -326,7 +326,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 - **IFRRU 2020**: urban regeneration — extends into 2024+
 - **PRR (Plano de Recuperação e Resiliência)**: post-COVID retrofit funding
 - **Reabilitação Urbana benefits**: ARU (Áreas de Reabilitação Urbana) — IMI/IMT reductions
-- **NHR/IFICI (Investidor Fiscal)**: restructured 2024 — 10-yr regime for new residents (specific high-value-add professions)
+- **NHR/IFICI (Incentivo Fiscal à Investigação Científica e Inovação)**: NHR closed to new entrants by **Lei n.º 82/2023 (OE 2024) Art. 236.º** (transitional 2024 entry under specified conditions). IFICI established by **EBF Art. 58.º-A** and regulated by **Portaria n.º 352/2024/1 de 23 de dezembro** — narrower successor for scientific research, qualified jobs in productive investment, technology, startups (NOT pensions; NHR pension exemption eliminated). IFICI is single-use: not applicable to prior NHR or "Regressar" beneficiaries. (2026-05-27 verified; source [Portaria 352/2024/1 — sgeconomia.gov.pt](https://www.sgeconomia.gov.pt/destaques/portaria-n-35220241-de-23-de-dezembro-...))
 
 ## Common listing platforms
 

@@ -100,9 +100,10 @@ ISO2: `es`. Status: ✅ Fully populated (researched 2026-04).
 - **Tasa de basura**: ~€100–€300/yr per municipality
 - **IIVTNU (plusvalía municipal)**: paid on sale (capital-gain-like, on land value)
 - **Wealth tax (Impuesto sobre el Patrimonio)**: regional — varies massively:
-  - **Madrid, Andalucía**: 100 % bonificación (effectively ZERO)
+  - **Madrid, Andalucía**: 100 % bonificación regional (effectively ZERO at CCAA level)
   - **Cataluña**: 0.21–2.75 % progressive on wealth >€500k
   - **Comunidad Valenciana**: 0.25–3.5 %
+- **ITSGF (Impuesto Temporal de Solidaridad de las Grandes Fortunas)**: federal top-up, **1.7–3.5 % progressive on net wealth >€3M**, made indefinite by RD-Ley 8/2023 (27 Dec 2023; original Ley 38/2022). Deducts what was paid under regional Patrimonio → neutralises the Madrid/Andalucía 100 % bonificación for HNW. (2026-05-27 verified; source [BOE Ley 38/2022](https://www.boe.es/buscar/doc.php?id=BOE-A-2022-22684) + [AEAT ITSGF page](https://sede.agenciatributaria.gob.es/Sede/declaraciones-informativas-otros-impuestos-tasas/impuesto-temporal-solidaridad-grandes-fortunas.html))
 
 ### Transaction taxes — ITP (Impuesto sobre Transmisiones Patrimoniales)
 
@@ -122,7 +123,7 @@ ISO2: `es`. Status: ✅ Fully populated (researched 2026-04).
 | **Murcia** | 8.0 % |
 | **Comunidad Valenciana** | **10.0 %** |
 | **Baleares** | 8.0–11.5 % progressive |
-| **Cataluña** (since June 2025) | **10.0 % up to €1M** then **11.0 %** progressive |
+| **Cataluña** (Decret-llei 5/2025, eff. 27 Jun 2025) | **10 %** ≤€600k · **11 %** €600k–€900k · **12 %** €900k–€1.5M · **13 %** >€1.5M · **20 %** flat for grans tenidors (large holders) · 5 % reduced rate for buyers under 35 (2026-05-27 verified; source [ATC](https://atc.gencat.cat/es/agencia/noticies/detall-noticia/20250627-mesures-fiscals-2025-itpajd-isd)) |
 | **Canarias** | 6.5 % |
 | **Extremadura** | 8.0 % |
 | **La Rioja** | 7.0 % |
@@ -218,7 +219,7 @@ For obra nueva (new build, vendida by impresa):
 
 - **Autónomo regime**: monthly Seguridad Social ~€294-1300 (sliding scale 2023-2025 reform)
 - **Tarifa plana** (€80/mo first year reduced)
-- **Sociedad Limitada (SL)**: min €3,000 capital
+- **Sociedad Limitada (SL)**: min **€1 capital** since Ley 18/2022 "Crea y Crece" (in force Oct 2022; was €3,000 pre-reform). Creditor-protection conditions: 20 % of annual profits to legal reserve until reserve + capital reaches €3,000; shareholders jointly liable up to €3,000 in liquidation. (2026-05-27 verified; source [BOE Ley 18/2022](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-15818))
 - **Trabajador por cuenta propia** straightforward
 
 ### Salary benchmarks (2025)
@@ -347,7 +348,8 @@ For obra nueva (new build, vendida by impresa):
 - **Costas Law 100m strip**: coastal restrictions on building/extending
 - **Plusvalía municipal** still in legal evolution post-2021 ruling
 - **Wealth tax** depends massively on CCAA — Madrid/Andalucía effectively zero, Cataluña/Valencia high
-- **Cataluña ITP went progressive June 2025** — affects high-value Barcelona purchases
+- **Cataluña ITP went progressive June 2025** — affects high-value Barcelona purchases; top bracket 13 % >€1.5M + 20 % flat for grans tenidors (Decret-llei 5/2025)
+- **Golden Visa abolished** by Ley Orgánica 1/2025 (3 Apr 2025) — the Ley 14/2013 art. 63 real-estate residency route is closed to new applicants (2026-05-27 verified; cross-ref `shared/visa-programs.md` ENDED registry)
 - **VPO (vivienda protegida)** — subsidized housing, restrictions on resale
 - **Cooperative housing (cooperativas)** — common form, specific rules
 - **NIE/NIF** required for non-residents to buy
