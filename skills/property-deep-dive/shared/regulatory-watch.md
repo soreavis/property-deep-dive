@@ -675,7 +675,7 @@ Things signalled but not enacted. Track for upgrade to Tier 1–3 when official.
 | Country | Signal | Source signal | Last heard | Re-check |
 |---|---|---|---|---|
 | 🇦🇱 AL | DIVA STR registration system Jan 2026 launch | Albanian government press | 2026-01 | 2026-07 |
-| 🇪🇸 ES | National 100% tax on non-EU buyers (Sánchez Jan 2025 floated) | Government press conference | 2025-01 | 2026-09 |
+| 🇪🇸 ES | National 100% gravamen on non-EU non-resident buyers — **STALLED**. PSOE Proposición de Ley 122/000196 (BOCG B-229-1, 30/05/2025) registered 22 May 2025, queued at "Pleno toma en consideración" since 5 Sep 2025, **never voted**; dropped from Jan 2026 housing package; Reuters 27/03/2026 confirms no parliamentary debate; no BOE-published Ley. Do NOT factor into TCO. | [Congreso 122/000196](https://www.congreso.es/es/proyectos-de-ley?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura=XV&_iniciativas_id=122/000196) · [BOCG B-229-1](https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-229-1.PDF) · [Reuters 2026-03-27](https://www.usnews.com/news/world/articles/2026-03-27/spains-100-non-eu-property-tax-stalls-in-congress) | 2025-05 reg.; 2026-03 stalled-confirmed; 2026-05-27 re-verified | 2026-11 |
 | 🇮🇪 IE | LPT (Local Property Tax) revaluation 2025 — bands shifted | Revenue.ie | 2025-11 | 2026-09 |
 | 🇨🇭 CH | Cantonal Lex Koller permit caps tightening | SECO | 2026-01 | 2026-10 |
 | 🇸🇪 SE | Capital gains rules on primary-residence sales — reform proposed | Skatteverket | 2026-02 | 2026-10 |
