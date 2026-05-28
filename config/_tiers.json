@@ -1,5 +1,5 @@
 {
-  "_comment": "Refresh-cadence tiers — single source of truth for which countries get refreshed how often. Edit this when promoting/demoting a country across tiers (e.g., a frontier market with a major reform may move B→A for one cycle). Country code → playbook directory must match skills/property-deep-dive/countries/<code>/playbook.md. The sum of all tier codes must equal the total country count in config/_regions.json (currently 113).",
+  "_comment": "Refresh-cadence tiers — single source of truth for which countries get refreshed how often. Edit this when promoting/demoting a country across tiers (e.g., a frontier market with a major reform may move B→A for one cycle). Country code → playbook directory must match skills/property-deep-dive/countries/<code>/playbook.md. The sum of all tier codes must equal the total country count in config/_regions.json (currently 121).",
   "tiers": {
     "A": {
       "label": "Quarterly refresh",
@@ -132,7 +132,15 @@
         "tn",
         "uy",
         "vn",
-        "za"
+        "za",
+        "ky",
+        "bm",
+        "tc",
+        "vg",
+        "kn",
+        "ag",
+        "lc",
+        "gd"
       ]
     }
   },
