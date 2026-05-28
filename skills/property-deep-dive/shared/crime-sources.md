@@ -800,6 +800,78 @@ For the property's locality, return:
 - **Granularity**: 6 districts (Belize / Cayo / Corozal / Orange Walk / Stann Creek / Toledo) + San Pedro Town (Ambergris Caye) special-status + ~60 villages-as-locality (where reported)
 - **Caveat**: **Belize City carries disproportionate share** of national homicide — known historically high gang-related rate concentrated South Side neighborhoods (Belize District); rural areas (Cayo / Corozal / Orange Walk / interior Toledo / Stann Creek) materially lower; **tourist-corridor (Ambergris Caye / Caye Caulker / Placencia / Cayo expat parcels)** typically property-targeted opportunistic — denominator-mismatch caution; Maya communal-land disputes in Toledo District (CCJ 2015 ruling) carry separate dispute pattern; small absolute numbers (~410k pop) → statistical noise — multi-year trend reading more reliable than single-year point estimate
 
+### 🇰🇾 Cayman Islands
+
+- **Royal Cayman Islands Police Service (RCIPS) — Crime & Traffic Statistics**: `https://www.rcips.ky/crime-statistics` — annual Crime & Traffic Statistics Report (series from 2011; **2025 report released 22 Apr 2026**, 2024 report 14 May 2025) + press-release archive at `https://www.rcips.ky/news`
+- **Economics & Statistics Office (ESO)**: `https://www.eso.ky/` — Compendium of Statistics (population denominators + social conditions); no standalone crime time-series, used for per-capita normalisation
+- **Office of the Director of Public Prosecutions / Grand Court of the Cayman Islands**: court-side series (Cayman is OUTSIDE the Eastern Caribbean Supreme Court — its own Grand Court → Cayman Islands Court of Appeal → JCPC London)
+- **UNODC Caribbean**: country-profile rate-per-100k cross-jurisdiction comparator
+- **Granularity**: national (three islands: Grand Cayman / Cayman Brac / Little Cayman) + RCIPS reports break out major categories (acquisitive crime, serious violence, traffic); per-district / per-parcel data not publicly available — verify with RCIPS
+- **Caveat**: low absolute crime by international standard but **acquisitive + serious-violence crime rose in 2024** (per RCIPS annual report); small resident population (~83–87k) means absolute numbers volatile and single incidents swing per-capita rates; transient tourist + expatriate-worker denominator complicates rate interpretation; data lags (annual reporting cadence)
+
+### 🇧🇲 Bermuda
+
+- **Bermuda Police Service (BPS) — Crime Statistics**: `https://www.bermudapolice.bm/crime-statistics` (+ archive `https://www.bermudapolice.bm/news-data/crime-statistics`; mirror domains `police.bm` / `bermudapoliceservice.bm`) — annual Official Statistics Report (comparable series from 2000; 2023 report recorded 3,065 total offences — second-lowest since 2000; 2024 report ~3,719 crimes investigated incl. 9 murders per BPS/Royal Gazette)
+- **Department of Statistics (Government of Bermuda)**: `https://www.gov.bm/department/statistics` — population denominators + social statistics (no standalone crime portal; used for per-capita normalisation)
+- **Office of the Director of Public Prosecutions / Ministry of National Security**: prosecution + policy reporting channel (BPS data routed via Ministry of National Security)
+- **UNODC Caribbean**: country-profile rate-per-100k comparator
+- **Granularity**: national (single jurisdiction); BPS report breaks out categories (crimes against persons / property / drug / firearms); Hamilton vs parish-level not routinely published — verify with BPS
+- **Caveat**: low-to-moderate crime by US comparison; reporting lag (annual); small resident population (~64k) means single incidents move per-capita rates (e.g. seven of nine 2024 murders fell in a six-week window); back-streets of Hamilton at night the main petty-assault setting; no reported gang violence targeting visitors (US OSAC / CountryReports — secondary)
+
+### 🇹🇨 Turks & Caicos Islands
+
+- **Royal Turks and Caicos Islands Police Force (RTCIPF) — Crime Statistics**: `https://www.tcipolice.tc/crime-statistics/` (daily crime reports) + **quarterly** statistics `https://www.tcipolice.tc/quarter-crime-statistics/` + records portal `https://www.tcipolicerecords.tc/` (NOTE: dedicated police domain `tcipolice.tc` — supersedes the generic `gov.tc` reference; verify the dedicated portal is live before relying)
+- **Department of Statistics (gov.tc)**: `https://gov.tc/` — census + demographic denominators; **no official residential price index**; population ~46k is an estimate (2012 census recorded 31,458; substantial tourism-sector in-migration since)
+- **UK FCDO Travel Advice** + **US State Department / OSAC Crime & Safety Reports** — comparative advisory reference
+- **UNODC Caribbean**: country-profile rate-per-100k comparator
+- **Granularity**: national + per-island (Providenciales / Grand Turk / North & Middle Caicos / etc.); RTCIPF publishes daily + quarterly category summaries but **limited public parcel-level detail** — TCI does not publish a Western-style searchable crime time series
+- **Caveat**: data lags; **specific homicide counts / rates + parcel-level crime data not publicly verified here — verify at RTCIPF (tcipolice.tc) + gov.tc + UK FCDO / US OSAC advisories before relying**; small estimated population → statistical noise; resort-corridor (Grace Bay / Provo) transient-denominator caution
+
+### 🇻🇬 British Virgin Islands
+
+- **Royal Virgin Islands Police Force (RVIPF)**: `https://www.bvi.gov.vg/departments/royal-virgin-islands-police-force-0` (also `https://gov.vg/royal-virgin-islands-police-force`) — police statistics released via press conference / quarterly briefings (e.g. Q1-2025 serious-assault and robbery figures); **no comprehensive public crime dataset published** — local press (BVI Beacon) reports 4+ years of unmet FOI requests for full statistics
+- **Central Statistics Office (Government of the Virgin Islands)**: `https://www.bvi.gov.vg/` — census + population denominators (~31,000 baseline; capital Road Town, Tortola)
+- **UK FCDO Travel Advice** + **US State Department / OSAC Crime & Safety Reports** — comparative advisory reference
+- **UNODC Caribbean**: country-profile rate-per-100k comparator
+- **Granularity**: national; RVIPF releases selected category trends (assaults / robberies / vehicle theft) by press briefing only; **no granular parcel-level crime portal — data not publicly available; verify with RVIPF + UK FCDO / US OSAC**
+- **Caveat**: generally low-crime for residents + visitors by Caribbean standards — petty theft + opportunistic property crime are the main day-to-day concerns; **homes left unoccupied off-season** are the operationally meaningful risk for second-home owners (security service + alarm + caretaker standard); **do NOT cite a specific homicide rate without an RVIPF / UNODC primary figure**
+
+### 🇰🇳 Saint Kitts & Nevis
+
+- **Royal St. Christopher and Nevis Police Force (RSCNPF)**: `https://police.kn/` (also `http://www.police.kn/`) — crime statistics released via press releases + Commissioner's annual/quarterly presentations (e.g. 2023: 1,266 crimes vs 1,360 in 2022; 2024: −11% vs 2023; 2025: sharp firearm-homicide decline) — **no searchable parcel-level portal**
+- **SKN Statistics Department (Government of St. Kitts and Nevis)**: census + population denominators (~47–48k — smallest sovereign state in the Americas by population); verify current at `https://data.worldbank.org/country/st-kitts-and-nevis`
+- **UK FCDO Travel Advice** + **US State Department / OSAC Crime & Safety Reports** — comparative advisory reference
+- **UNODC Caribbean**: country-profile rate-per-100k comparator
+- **Granularity**: island/town-level only (St. Kitts / Nevis + specific Basseterre districts); **parcel-level data is thin — expect island/town-level granularity only**
+- **Caveat**: has in some years recorded a **comparatively high per-capita homicide rate** for its small population (a handful of homicides swings the rate sharply given ~47k people) — gang/drug-related, concentrated in specific Basseterre districts; **tourist + resort areas (Frigate Bay, Christophe Harbour, Nevis) are generally low-risk**; **exact current figures not publicly indexed at parcel level — verify at RSCNPF / UNODC / US OSAC before relying**
+
+### 🇦🇬 Antigua & Barbuda
+
+- **Royal Police Force of Antigua and Barbuda (RPFAB)**: `https://police.gov.ag/` — crime statistics compiled by the **Criminal Records Office**, released via press conferences + official reports (e.g. 2024: 3,602 reported incidents, +5% vs 3,425 in 2023; 2025 YTD: −10.3% over first ten months) — **no searchable parcel-level portal**; policy via Ministry of Public Safety & Labour `https://mpsl.gov.ag/`
+- **Statistics Division (Government of Antigua and Barbuda)**: `https://statistics.gov.ag/` — census + population denominators (~94k est.; Barbuda resident pop small ~1,500–1,800 pre-Irma, partial return ongoing)
+- **UK FCDO Travel Advice** + **US State Department / OSAC Crime & Safety Reports** — comparative advisory reference
+- **UNODC Caribbean**: country-profile rate-per-100k comparator
+- **Granularity**: national + Antigua / Barbuda; **per-district / parcel-level crime statistics not publicly available** in a Western-style portal — verify via RPFAB Criminal Records Office + advisories
+- **Caveat**: generally **lower-crime than the larger Caribbean states** (JM / TT / BS); the operationally meaningful risk for international owners is **opportunistic property crime + burglary of unoccupied vacation homes**, not violent crime in tourist / expat areas; data lags (press-conference cadence)
+
+### 🇱🇨 Saint Lucia
+
+- **Royal Saint Lucia Police Force (RSLPF)**: official presence via Government of Saint Lucia portal `https://www.govt.lc/ministries/home-affairs-and-national-security/royal-saint-lucia-police-force` (+ `https://homeaffairs.govt.lc/`) — crime statistics released periodically (e.g. Jan–24 Sep 2025: 10,557 cases vs 12,552 in 2024, −16%; Police Central Division highest serious-crime count) — **no dedicated standalone searchable crime portal**
+- **Central Statistical Office (Government of Saint Lucia)**: census + population denominators (~175,000 resident pop per RSLPF)
+- **UK FCDO Travel Advice** + **US State Department / OSAC Crime & Safety Reports** — comparative advisory reference
+- **UNODC Caribbean**: country-profile rate-per-100k comparator
+- **Granularity**: national + per-police-division (e.g. Central Division) + 14 police stations; **no reliable parcel-level public crime dataset exists**
+- **Caveat**: violent crime concentrated in specific urban districts (**Castries periphery**) rather than the **NW tourist/expat corridor (Rodney Bay / Cap Estate)** which is generally lower-risk; cruise-corridor pickpocketing + scams; **verify current homicide totals + advisories at RSLPF + UK FCDO + US OSAC; do NOT cite a specific homicide rate without a primary check**
+
+### 🇬🇩 Grenada
+
+- **Royal Grenada Police Force (RGPF) — Statistics & Data**: `https://www.rgpf.gd/index.php/about-us/statistics-and-data` (homepage `https://www.rgpf.gd/`) — the RGPF maintains a dedicated **Statistics and Data** section (responds to 15,000+ crimes/incidents per year; 2024: +1.6% reported crimes vs 2023, 74.8% solvency rate) — **the most developed police-stats web presence of the four Eastern Caribbean Associated States here; NOTE the site intermittently returns HTTP 500 — confirm live before relying**
+- **Grenada Central Statistical Office (CSO)**: `https://stats.gov.gd/` — census (last 2022) + household denominators (~117,000 pop, near-flat); **no parcel-level residential price index**
+- **UK FCDO Travel Advice** + **US State Department / OSAC Crime & Safety Reports** — comparative advisory reference
+- **UNODC Caribbean**: country-profile rate-per-100k comparator
+- **Granularity**: national + 4 RGPF police divisions; per-parish data via RGPF Statistics section where published; per-parcel not available
+- **Caveat**: generally regarded as **one of the safer Eastern Caribbean states**, with violent crime well below the regional high-water marks (JM / TT); small population → absolute numbers volatile; **current homicide-rate figures: verify at RGPF / UNODC — do not assert a rate without a primary check**
+
 ### 🇱🇰 Sri Lanka
 
 - **Sri Lanka Police**: `https://www.police.lk/` — Crimes Statistics + annual report by district + Grama Niladhari division (where digitised)
