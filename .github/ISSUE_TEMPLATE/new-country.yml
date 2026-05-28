@@ -1,5 +1,5 @@
 name: New country playbook proposal
-description: Propose a country to add to the skill. The bar is FR/IT/CZ/SK density (~400-500 lines, all 39 sections, primary government sources).
+description: Propose a country to add to the skill. The bar is FR/IT/CZ/SK density (~400-500 lines, all 40 sections, primary government sources).
 title: "[country] <iso2> <country name>"
 labels: ["new-country", "enhancement"]
 body:
@@ -87,7 +87,7 @@ body:
     attributes:
       label: Acknowledgement
       options:
-        - label: I've read CONTRIBUTING.md and understand the FR/IT/CZ/SK density bar (~400-500 lines, 39 sections, primary sources)
+        - label: I've read CONTRIBUTING.md and understand the FR/IT/CZ/SK density bar (~400-500 lines, 40 sections, primary sources)
           required: true
         - label: I've checked the country isn't already in the matrix (113 countries currently)
           required: true

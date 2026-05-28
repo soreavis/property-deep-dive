@@ -6,7 +6,7 @@ Working document for additions beyond the current 113 countries. Captures comple
 
 ## Current coverage
 
-113 countries fully populated across 14 regions (`config/_regions.json` — 13 incumbent + 1 `nl_caribbean` added 2026-05-27). Tiered refresh cadence in `config/_tiers.json` (A=16 quarterly · B=38 semi-annual · C=59 annual). **39 user-invocable sections** + 11 sub-section extensions + 1 cross-cutting overlay (FR DROM).
+113 countries fully populated across 14 regions (`config/_regions.json` — 13 incumbent + 1 `nl_caribbean` added 2026-05-27). Tiered refresh cadence in `config/_tiers.json` (A=16 quarterly · B=38 semi-annual · C=59 annual). **40 user-invocable sections** + 11 sub-section extensions + 1 cross-cutting overlay (FR DROM).
 
 ## Completed batches
 

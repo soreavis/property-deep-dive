@@ -9,7 +9,7 @@
 
 **Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
 
-**Pre-purchase property due diligence across 113 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, foreign-buyer remote-execution mechanisms, 90-day post-completion relocation logistics, international schools + catchment areas, and 16 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **39 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
+**Pre-purchase property due diligence across 113 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, foreign-buyer remote-execution mechanisms, 90-day post-completion relocation logistics, international schools + catchment areas, and 16 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **40 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
 
@@ -25,7 +25,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 4. Applies the anti-hallucination guard
 5. Outputs to terminal or saves a Markdown report
 
-### Sections (39 user-invocable)
+### Sections (40 user-invocable)
 
 **Core (10)** — `--price` `--traffic` `--tax` `--rental` `--work=<profession>` `--risks` `--mains` `--crime` `--amenities` `--climate`
 
@@ -33,7 +33,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 **Regulatory (1)** — `--permits` (building-works permit thresholds, heritage overlays, conformity-at-completion)
 
-**Transaction (2)** — `--agent` (buyer-side agency landscape: commission, licensing, MLS, dual-agency, exclusivity, EBA, off-plan) · `--scams` (country-specific transaction-fraud register: BEC, deed forgery, off-plan disappearance, nominee structures, golden-visa price-inflation)
+**Transaction (3)** — `--agent` (buyer-side agency landscape: commission, licensing, MLS, dual-agency, exclusivity, EBA, off-plan) · `--scams` (country-specific transaction-fraud register: BEC, deed forgery, off-plan disappearance, nominee structures, golden-visa price-inflation) · `--sanctions` (seller / UBO / PEP sanctions-screening at deed signing against the OFAC / EU / UK-FCDO / UN lists; OFAC 50% rule; FATF gatekeeper model; BO-register access tiers)
 
 **Process (4)** — `--language` (foreign-buyer deed-language rule + sworn-translator regime + Hague Apostille / POA chain + diagnostic-doc language + sworn-translation cost bands) · `--connectivity` (broadband-checker URL + dominant ISPs + tariff bands + FTTH urban % + rural fallback + Starlink licence registry + strata trap) · `--remote` (foreign-buyer remote-execution: POA + RON + e-conveyancing + eIDAS QES + mortgage-bank residual wet-ink + Hawarden v ENS BEC trap; PT/BE fully-remote-property-deed; US RON 46 states + DC + PR; CA SB 696 effective 1 Jan 2030 backstop) · `--relocation` (foreign-buyer 90-day post-completion onboarding: pets + DL exchange + vehicle import + utility setup + healthcare gap; FAVN-rabies-titer 7-month flow for AU/NZ/JP/SG-Schedule-III/MY; CDC dog import 1 Aug 2024; AU EDR removed; LEZ landscape; foreign-buyer Catch-22)
 
@@ -195,6 +195,7 @@ Running this skill in Claude Code (or Cowork) consumes tokens proportional to wh
 | `--amenities` | `shared/amenities-osm.md` (178 lines) | ~2,100 |
 | `--climate` | `shared/climate-projections.md` (189 lines) | ~2,300 |
 | `--insurance` | `shared/insurance.md` (195 lines) | ~2,300 |
+| `--sanctions` | `shared/sanctions.md` (219 lines) | ~2,600 |
 | `--notary` | `shared/notary-process.md` (225 lines) | ~2,700 |
 | `--language` | `shared/language.md` (227 lines) | ~2,700 |
 | `--scams` | `shared/scams.md` (237 lines) | ~2,800 |
@@ -385,7 +386,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 193 markdown files, ~94,900 lines (SKILL.md + 65 top-level shared/ + 14 shared/exit/ region files + 113 country playbooks).
-**Repo total**: 206 markdown files, ~97,300 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 207 markdown files, ~97,500 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

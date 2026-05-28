@@ -492,7 +492,7 @@ def update_skill(targets, mode):
 
 ## Refresh tiers — cadence-by-country
 
-At 113 countries × 39 sections, refreshing everything quarterly is ~46 hours of research. The tier system splits the work by market activity so high-velocity jurisdictions get attention every 90 days while stable frontier markets ride a 365-day cycle.
+At 113 countries × 40 sections, refreshing everything quarterly is ~46 hours of research. The tier system splits the work by market activity so high-velocity jurisdictions get attention every 90 days while stable frontier markets ride a 365-day cycle.
 
 **Tier definitions** live in `config/_tiers.json` at the repo root (single source of truth):
 
