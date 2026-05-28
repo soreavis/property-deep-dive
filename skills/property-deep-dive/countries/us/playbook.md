@@ -293,6 +293,8 @@ Source: [USCIS Visa Categories](https://www.uscis.gov/working-in-the-united-stat
 | **Climate projections** | **NCA5 (Fifth National Climate Assessment, Nov 2023)** | `https://nca2023.globalchange.gov/` |
 | **Air quality** | **EPA AirNow** / NAAQS attainment | `https://www.airnow.gov/` |
 
+> **Don't rely on listing-portal climate badges.** From ~mid-Nov 2025 Zillow de-emphasised the First Street climate-risk scores on its listings after a California Regional MLS accuracy dispute (data still linked but far less visible; Redfin + Realtor.com kept theirs) — [CNN 2 Dec 2025](https://www.cnn.com/2025/12/02/climate/zillow-climate-data-extreme-weather-first-street-redfin). Pull hazard data from the primary government sources above plus [RiskFactor.com](https://riskfactor.com/) (First Street) and the state NHD report directly, not from a portal badge.
+
 ### Flood — FEMA + NFIP framework
 
 - **FIRM (Flood Insurance Rate Map)** zones:
@@ -364,6 +366,8 @@ Source: [USCIS Visa Categories](https://www.uscis.gov/working-in-the-united-stat
 | **Lead-Based Paint Disclosure** | Residential "target housing" built **before 1978** | EPA + HUD; [24 CFR 35 Subpart A](https://www.ecfr.gov/current/title-24/subtitle-A/part-35/subpart-A) + [40 CFR 745](https://www.epa.gov/lead/lead-based-paint-disclosure-rule-section-1018-title-x); 10-day risk-assessment opportunity for buyer; EPA pamphlet must be provided |
 
 **Everything else** (asbestos disclosure, radon disclosure, flood disclosure, earthquake disclosure, megan's-law disclosure, mold disclosure, prior-death disclosure, structural defects, latent defects) is **state-specific**. Some states (e.g., CA, TX) have ~20-page Transfer Disclosure Statements; others (e.g., MA caveat-emptor with limited carve-outs) have minimal mandatory disclosure.
+
+**Archetypal state hazard disclosure — California NHD** (verified 2026-05-28): the Natural Hazard Disclosure Statement (NHDS) under [Civ. Code §§ 1103–1103.15](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.2.) (statutory form at § 1103.2) obliges seller + agent to disclose whether the parcel sits in any of **6 mapped hazard zones** — 2 seismic (Alquist-Priolo earthquake-fault + seismic-hazard/landslide), 2 fire (state-responsibility-area + very-high fire-hazard-severity), 2 flood (FEMA Special Flood Hazard Area + dam-inundation). All parties sign before close of escrow; a third-party NHD report (RiskFactor/JCP/FANHD-style) typically satisfies it. Many other states have narrower analogues — verify per state.
 
 ### Climate to 2050 — NCA5
 

@@ -168,6 +168,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2025-01-01 | rental | Affordable Rent Act (Wet betaalbare huur) — points-based cap extended to mid-segment; affects rental yield | Rijksoverheid | 2026-04-26 | 2026-09-01 | 1 | --rental`
 - `2026-04-01 | rental | Amsterdam vakantieverhuur 30-night → 15-night cap in 8 stress neighborhoods (7 Centrum stadsdelen + Oude Pijp in Zuid) from 1 Apr 2026; city council final vote Dec 2025; permit €73.30 + 12.5% per-room tourist tax (vs ~€22/n on €176 avg) | Gemeente Amsterdam | 2026-05-11 | 2026-08-01 | 1 | --rental`
 - `2026-01-01 | tax | Box 3 reform — actual return basis (replacing notional yield) | Belastingdienst | 2026-04-26 | 2026-07-01 | 1 | --tax`
+- `2028-01-01 (pending) | tax | Wet werkelijk rendement box 3 — permanent actual-return capital tax (interest/dividend/rent taxed yearly) replacing the notional-yield system; passed Tweede Kamer 12 Feb 2026, intended eff. 1 Jan 2028. Eerste Kamer passage NOT yet secured — Minister of Finance has flagged necessary amendments + Senate-rejection risk, so the 1 Jan 2028 date is not certain | Belastingdienst (actual return) https://www.belastingdienst.nl/wps/wcm/connect/en/income-in-box-3/content/what-is-my-actual-return + Deloitte NL (Tweede Kamer adoption 12 Feb 2026) | 2026-05-28 | 2026-09-01 | 2 | --tax --home-tax`
 
 ### 🇧🇪 BE
 
@@ -363,6 +364,9 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2025-09-01 | tax | Texas SB 17 foreign-buyer land restrictions effective | TX SOS | 2026-05-01 | 2026-11-01 | 2 | --visa --price`
 - `2024-08 | rental | NAR settlement unbundled buyer-agent commissions nationwide | NAR + DOJ | 2026-05-01 | 2026-08-01 | 2 | --price --exit`
 - `2023-04 | risks | NFIP Risk Rating 2.0 fully implemented | FEMA | 2026-05-01 | 2026-10-01 | 3 | --risks --insurance`
+- `2025-11 | risks | Zillow de-emphasised First Street climate-risk scores on listings (California Regional MLS accuracy dispute over inland flood projections) — data still linked but far less visible; Redfin + Realtor.com declined to follow. Buyer DD must now pull FEMA + RiskFactor.com (First Street) + state NHD directly, not rely on portal badges | CNN 2 Dec 2025 https://www.cnn.com/2025/12/02/climate/zillow-climate-data-extreme-weather-first-street-redfin (cross-checked TechCrunch 1 Dec 2025 + HousingWire) | 2026-05-28 | 2026-06-28 | 2 | --risks --climate`
+- `2025-07-14 | finance | Fedwire Funds Service migrated to ISO 20022 message format — completed 14 Jul 2025 (rescheduled from the originally-announced 10 Mar 2025 per Fed announcement 13 Feb 2025). Closing-day USD wires now use ISO 20022 structured fields; bedding-in formatting/timing risk through 2026 | Federal Reserve Financial Services https://www.frbservices.org/resources/financial-services/wires/iso-20022-implementation-center | 2026-05-28 | 2027-05-01 | 3 | --remote --currency`
+- `foundational | risks | California Natural Hazard Disclosure Statement (NHDS) — Civ. Code §§ 1103–1103.15 (statutory form at § 1103.2); seller + agent must disclose 6 mapped hazard zones: 2 seismic (Alquist-Priolo fault + seismic-hazard/landslide), 2 fire (state-responsibility-area + very-high fire-hazard-severity), 2 flood (FEMA SFHA + dam-inundation). Archetypal US state NHD; signed by all parties before close of escrow | California Legislative Information (Civ. Code §1103.2) https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1103.2. | 2026-05-28 | 2027-05-01 | 4 | --risks`
 
 ### 🇹🇷 TR
 

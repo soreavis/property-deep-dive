@@ -123,7 +123,7 @@ For primary residence:
 - Tax rate: **36%** of deemed return
 - Tax-free allowance: **€59,357 per fiscal partner** (2026)
 - Real return option: can use **werkelijk rendement** if lower
-- **Wet werkelijk rendement Box 3**: passed Tweede Kamer 12 Feb 2026; effective **1 Jan 2028** — actual return basis going forward
+- **Wet werkelijk rendement Box 3**: passed Tweede Kamer (lower house) 12 Feb 2026; **intended** effective **1 Jan 2028** — actual return basis going forward. ⚠️ Eerste Kamer (Senate) passage NOT yet secured: the Minister of Finance has flagged necessary amendments + Senate-rejection risk, so the 1 Jan 2028 start date is not yet certain (verify at Belastingdienst + Eerste Kamer before relying on it; 2026-05-28)
 
 ### Transaction taxes — Overdrachtsbelasting
 
