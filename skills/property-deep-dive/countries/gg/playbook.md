@@ -435,7 +435,7 @@ During this initial draft pass + 2026-05-27 validation patch:
 
 ### Post-merge follow-up — regulatory-watch.md initial GG entries needed
 
-On PR merge, [`shared/regulatory-watch.md`](../../skills/property-deep-dive/shared/regulatory-watch.md) currently has **zero GG-specific entries** (grep confirmed during 2026-05-27 validation). The following initial entries should be added (date-stamped, sourced, tier-tagged, with `playbook_sections_touched` populated for each):
+On PR merge, [`shared/regulatory-watch.md`](../../shared/regulatory-watch.md) currently has **zero GG-specific entries** (grep confirmed during 2026-05-27 validation). The following initial entries should be added (date-stamped, sourced, tier-tagged, with `playbook_sections_touched` populated for each):
 
 1. **Document Duty 2024 reform** — 25% threshold uplift effective 8 November 2024; new £5M+ band @ 7.00%; £2.5M–£5M band @ 5.50%. Source: 2025 Budget + parliament.gg 2026-16. Touches: `--tax` Document Duty section.
 2. **Standard Charge raise** — £40,000 → £50,000 from year-of-charge 2026, per States proposition P.2025-121 (2026 Budget). Source: [parliament.gg P.2025-121](https://parliament.gg/parliamentary-business/propositions/P2025-121). Touches: `--tax` Tax Cap regime table.

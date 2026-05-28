@@ -558,7 +558,7 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 8. Confirm Voisin Law brochure currency — current PDF filename dated 2018-11; downgrade or refresh
 9. Re-run URL liveness sweep on the ~13 URLs not extracted in the validation pass
 
-**Regulatory-watch entries to seed on PR merge** (none currently exist for JE in [`shared/regulatory-watch.md`](../regulatory-watch.md) — verified empty 2026-05-27):
+**Regulatory-watch entries to seed on PR merge** (none currently exist for JE in [`shared/regulatory-watch.md`](../../shared/regulatory-watch.md) — verified empty 2026-05-27):
 
 1. **JE LTT/SD/EPTT higher-rate surcharge +3pp → +2pp (one-year, 2026)** — Tier-2, effective 1 Jan 2026 (assuming P.93/2025 enacted), source `statesassembly.je P.93/2025`, revisit cadence 12 months. Affected playbook sections: `--tax` (Property-transaction taxes), `--rental` (BTL implications), `--foreign-buyer` (HVR cost computation).
 2. **JE HVR statutory-cap proposition P.19/2026 (PENDING)** — Tier-3, revisit when States Assembly votes, source `statesassembly.je P.19/2026`. Affected sections: `--foreign-buyer` (HVR), `--visa`.
