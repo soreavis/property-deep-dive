@@ -101,6 +101,35 @@ The deferred Batch C jurisdictions are unblocked under a mixed-schema decision d
 
 Full research memo with per-jurisdiction primary-source verifiability scores + Reddit demand signal + pros/cons matrix lives at `_local/batch-c-schema-recommendation.md` (gitignored).
 
+### Update 2026-05-28 — Batch D decision (UK Overseas Territories + CBI Caribbean + medium-signal)
+
+Batch D is schema-decided under the same rule (own tax/fiscal authority + own land registry + own court system → standalone; else overlay). Every jurisdiction below was verified against primary government sources by a research pass and re-checked by an independent fabrication-audit pass.
+
+**UK Overseas Territories — all 4 STANDALONE** (confirms the generalisation-table prediction above):
+
+| Jurisdiction | ISO | Tax/fiscal authority | Land registry | Court |
+|---|---|---|---|---|
+| Cayman Islands | `ky` | Lands & Survey Dept (stamp duty; no income/CGT/property tax) + Customs | Lands & Survey Dept / Land Registry (Registration (Land) Law, 1996 Revision) | Grand Court of the Cayman Islands (NOT ECSC; appeals → Cayman Court of Appeal → JCPC) |
+| Bermuda | `bm` | Office of the Tax Commissioner | Land Title Registry Office (Land Title Registration Act 2011) | Supreme Court of Bermuda |
+| Turks & Caicos | `tc` | Lands Division / Valuation | Land Registry (Registered Land Ordinance Ch. 9.01) | Supreme Court of the Turks and Caicos Islands |
+| British Virgin Islands | `vg` | Inland Revenue Dept | Dept of Land Registry | High Court of Justice (Virgin Islands), a division of the ECSC |
+
+**ECSC shared-court note**: VG (like the sovereign ECSC members LC/GD/AG/KN already treated standalone) sits under the Eastern Caribbean Supreme Court — a 9-member federated court (6 sovereign: AG/DM/GD/KN/LC/VC + 3 UK OTs: AI/VG/MS). A shared appellate layer does NOT break the "own court system" test: each member has its own resident High Court division. **VG's court must be named "High Court of Justice (Virgin Islands)" — never a fabricated "BVI Supreme Court".** KY/BM/TC are non-ECSC with fully self-standing courts.
+
+**CBI Caribbean + medium-signal — all sovereign UN-member states → STANDALONE (no schema ambiguity)**: `kn` / `ag` / `lc` / `gd` (Citizenship-by-Investment); `na` / `bw` / `vu` / `tt` / `pk` (medium-signal).
+
+**Region placement**: 4 UK OTs → new `caribbean_ot` region (mirrors the `nl_caribbean` precedent; accommodates BM's North-Atlantic location; may later generalise to `uk_ot`). 4 CBI + `tt` → extend existing `caribbean`. `na`/`bw` → `africa`; `vu` → `apac`; `pk` → `south_asia`. Region IDs finalised per-playbook in Phase B.
+
+**Phase-B content flags (verified by audit — carry into the playbooks)**: TT's apex court is the UK Privy Council (JCPC) — T&T joined only the CCJ *Original* Jurisdiction, NOT Appellate (do NOT write "CCJ is T&T's final court"). PK land records are PROVINCIAL not federal — per-province caveat like AU (e.g. Punjab Land Records Authority, Act 2017). VU is leasehold-only (1980 Constitution abolished freehold). KY land statute is the "Registration (Land) Law (1996 Revision)" (substance = Torrens-style registered title).
+
+**Implementation phases**:
+
+- **Phase A** (this PR) — schema decision committed (CONTRIBUTING.md + ROADMAP.md only); country count unchanged at 113.
+- **Phase B** — 8 strong-signal Caribbean standalone playbooks (`ky`/`bm`/`tc`/`vg` + `kn`/`ag`/`lc`/`gd`), 113 → 121.
+- **Phase C** — 5 medium-signal (`na`/`bw`/`vu`/`tt`/`pk`), 121 → 126.
+
+Each Phase B/C playbook adds its ISO code to `config/_regions.json` + `config/_tiers.json` (Tier-C 365d default; CBI states may warrant Tier-B) + relevant `config/_visa-programs.json` entries in the SAME PR. Full research + independent-audit memos at `_local/wip-batchd/` + `_local/wip-audit/audit-batchd.md` (gitignored).
+
 ## Logging a regulatory-watch entry
 
 `skills/property-deep-dive/shared/regulatory-watch.md` is the single source of truth for "what changed when". Format:
