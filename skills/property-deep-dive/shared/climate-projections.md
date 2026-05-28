@@ -117,6 +117,41 @@ For the property's exact location (lat/lon from preflight), return:
 - 🇩🇰 DMI Klimaatlas — `https://www.dmi.dk/klima/`
 - 🇳🇱 KNMI Klimaatscenario's — `https://www.knmi.nl/klimaatscenarios/`
 
+## Forward + near-property-resolution projection layer
+
+The sources above are either **forward but coarse** (Copernicus / IPCC AR6 ~25 km cell + sub-continental regions) or, for the national portals a buyer instinctively reaches for, **near-property but current-hazard-only**. The buyer's real question — *how will the risk at THIS address change over my ownership horizon?* — is answered at near-property resolution by only a handful of sources. Use this layer when the property's flood / coastal / heat exposure is decision-critical; otherwise the regional projections above suffice. **Do not imply parcel-level forward precision where it does not exist.**
+
+### Government — forward + near-property resolution (the buildable core)
+
+| Jurisdiction | Source | Resolution | Forward horizon | Notes |
+|---|---|---|---|---|
+| 🇬🇧 England | **Check long-term flood risk (NaFRA2)** — `https://check-long-term-flood-risk.service.gov.uk/` | **postcode / area** (NOT individual property) | present + "how climate change might increase the chance of flooding" (2050s, UKCP18 + SLR) | The service's own caveat: it *"does not tell you how likely it is that an individual property will flood"* — treat as area-level, then confirm the specific parcel with a surveyor / Environment Agency detailed-data request. Scotland (SEPA) + Wales (NRW) + NI run separate portals |
+| 🇳🇱 Netherlands | **Klimaateffectatlas** — `https://www.klimaateffectatlas.nl/` | ~100 m grid (partial address-level) | 2050 / 2100, KNMI'23 scenarios (heat, pluvial + fluvial flood, drought, subsidence, SLR) | The most genuinely forward + near-address government portal in the corpus; built on the KNMI'23 climate scenarios |
+
+As of May 2026 only **England (postcode)** and the **Netherlands (~100 m grid)** publish a forward, near-property *government* layer. There is no equivalent address-level government forward portal elsewhere in the 121-country corpus — say so rather than implying one.
+
+### Tier-2 (NGO / commercial — label as model-tier, NOT government)
+
+| Source | Coverage | Resolution | Notes |
+|---|---|---|---|
+| **First Street / RiskFactor** — `https://riskfactor.com/` | US (parcel) | parcel · 30-yr | 30-yr property flood / fire / heat / wind scores. **NGO model, not government** — and US listing portals de-emphasised it from mid-Nov 2025 (see the US `--risks` portal-badge note + `regulatory-watch.md`); pull it direct and label model-tier |
+| **Climate Central Coastal Risk Screening** — `https://coastal.climatecentral.org/` | global (coastal) | point · SLR only | Forward SLR + coastal-flood waterline by decade / warming scenario; coastal only (also listed in the Tier-1 table above) |
+| **Coastal Risk Australia** — `https://coastalrisk.com.au/` | AU (coastal) | address-ish | Forward coastal-inundation to 2100; NGO / commercial, NOT an ABS / government product |
+
+### The honest tail (everywhere else)
+
+For the ~115 other jurisdictions there is **no forward, address-level government portal**. The honest fallback is the regional layer already in this section — **IPCC AR6 Interactive Atlas (sub-continental regions) + Copernicus (~25 km grid)** — which is forward but NOT address-level. State this explicitly.
+
+### ⚠️ Trap — current-hazard portals are NOT forward projections
+
+Several popular national portals look authoritative but show **today's mapped hazard**, not a forward projection. Do not present them as climate-future; they belong under `--risks` (current exposure):
+
+- 🇫🇷 **Géorisques** (`georisques.gouv.fr`) — current PPRN / TRI / zonage (climate change is a policy driver, not a 2050/2100 map)
+- 🇺🇸 **FEMA NFHL / FIRM** (`msc.fema.gov`) — current regulatory flood map (static; not forward)
+- 🇮🇹 **IdroGEO / ISPRA** (`idrogeo.isprambiente.it`) — current PAI hazard mosaics
+- 🇯🇵 **MLIT / GSI Hazard Map Portal** (`disaportal.gsi.go.jp`) — current hazard
+- 🇦🇺 **ARR (Australian Rainfall & Runoff)** — an engineering **design guideline**, NOT a public address-level hazard portal
+
 ## Compute steps
 
 1. **Geocode** the property (already done in preflight) → (lat, lon, elevation)

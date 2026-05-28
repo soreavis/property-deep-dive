@@ -195,7 +195,7 @@ Running this skill in Claude Code (or Cowork) consumes tokens proportional to wh
 |---|---:|---:|
 | `--price` `--traffic` `--tax` `--rental` `--work` `--risks` `--mains` | (logic embedded in country playbook — no extra shared file) | 0 |
 | `--amenities` | `shared/amenities-osm.md` (178 lines) | ~2,100 |
-| `--climate` | `shared/climate-projections.md` (189 lines) | ~2,300 |
+| `--climate` | `shared/climate-projections.md` (225 lines) | ~2,700 |
 | `--insurance` | `shared/insurance.md` (195 lines) | ~2,300 |
 | `--sanctions` | `shared/sanctions.md` (219 lines) | ~2,600 |
 | `--notary` | `shared/notary-process.md` (225 lines) | ~2,700 |
@@ -388,7 +388,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 193 markdown files, ~94,900 lines (SKILL.md + 65 top-level shared/ + 14 shared/exit/ region files + 121 country playbooks).
-**Repo total**: 215 markdown files, ~102,900 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 215 markdown files, ~103,000 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
