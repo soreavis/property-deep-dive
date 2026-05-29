@@ -20,7 +20,7 @@ ISO2: `bs`. Status: ✅ Fully populated (researched 2026-05-07).
 - **Identifier**: **Lot + Subdivision + Island/District** on the deed; modern parcels increasingly carry a **Real Property Tax Assessment Number** issued by DIR. **NO universal national parcel ID** equivalent to a French numéro de parcelle. Survey plans lodged with DLS are the authoritative boundary record.
 - **Title concept**: **Freehold (fee simple)** dominant; **leasehold** (typically Crown Land 21–99 years) common on certain Family Islands and developmental sites; **commonage** (a Bahamian peculiarity — see Title Chain section) materially affects parts of Eleuthera, Cat Island, Long Island, Exuma.
 - **Recent reforms (12-month watchlist)**:
-  - **VAT rate 10%** since 1 Jan 2022 (raised from 12% as of 1 Jan 2022 reduction; previously 7.5% from 2015). Verify at [DIR — VAT](https://inlandrevenue.finance.gov.bs/value-added-tax/).
+  - **VAT rate 10%** since 1 Jan 2022 (7.5% on 1 Jan 2015 → 12% on 1 Jul 2018 → reduced to 10% on 1 Jan 2022). Verify at [DIR — VAT](https://inlandrevenue.finance.gov.bs/value-added-tax/).
   - **Stamp Duty / VAT-on-conveyance restructuring** — historically 10% Stamp Duty was the conveyance tax; subsequent reforms migrated most of this into VAT-on-conveyance to align with VAT framework. **Foreign buyers pay flat 10%** VAT-on-Conveyance on the full purchase price; Bahamian first-time / domicile (BDR) buyers access a graduated 2.5% → 10% scale. The 50/50 buyer/seller split is still customary, but the flat 10% applies first (2026-05-27 verified, source Higgs & Johnson 2025 + BREA + bahamas.gov.bs DIR procedures PDF).
   - **2025 VAT real-estate procedure reform** (eff. **1 Jul 2025**): VAT invoice from DIR **required before completing** the transaction; **30-day declaration** window when conveying beneficial interests; **3% joint-and-several penalty** on non-compliance; B$1,000 deposit for advance-ruling applications (2026-05-27 verified, source Higgs & Johnson tax legislative updates 2025).
   - **Real Property Tax (RPT) bands** indexed by Ministry of Finance / DIR via annual budget communication — verify current bands at [DIR — Real Property Tax](https://inlandrevenue.finance.gov.bs/real-property-tax/).
@@ -735,7 +735,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 | Stamp Duty + VAT-on-Conveyance (combined, > B$100k) | **~10% of price** (split 50/50 by convention) |
 | Real estate agent commission | 6% (developed) / 10% (vacant land) — paid by seller |
 | BIA permit fee (foreign, > 5 acres or undeveloped) | B$500–B$1,000 |
-| BIA registration fee (foreign, < 5 acres developed) | B$25 + recording |
+| BIA registration fee (foreign, < 5 acres developed) | B$250 + recording |
 | DLS survey | B$1,500–B$5,000+ |
 | Title insurance (optional, recommended) | ~0.5% of value |
 | **Total transaction cost (foreign buyer, non-BDR)** | **~7.5–8.5%** of price |

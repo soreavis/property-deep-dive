@@ -421,7 +421,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 - **Central coast (Hoi An, Da Nang, Hue)**: direct typhoon hits 2–4 per decade; storm surge + structural wind risk. New construction post-2010 typically built to higher wind-load standard.
 - **Northern coast (Hai Phong, Quang Ninh, Hanoi)**: typhoon tail-ends; flooding risk dominant
 - **HCMC and southern coast**: rarely directly hit by typhoons (Sunda Trench shielding similar to Bangkok); tropical depressions and monsoon flooding instead.
-- 2020 Typhoons (Linfa, Nangka, Saudel, Molave, Etau, Vamco — sequential October-November) caused USD 1.3B+ damage; 2024 Yagi (Sep) was the strongest typhoon to hit Vietnam in decades, impacting Hai Phong and Hanoi area severely.
+- 2020 Typhoons (Linfa, Nangka, Saudel, Molave, Etau, Vamco — sequential October-November) caused est. USD ~1.3B damage (verify against Vietnam Disaster Management Authority / GSO disaster-damage statistics); 2024 Yagi (Sep) was a major typhoon impacting Hai Phong and Hanoi area severely.
 
 ### Seismicity (động đất)
 

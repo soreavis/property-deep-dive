@@ -25,7 +25,7 @@ Malta is the smallest EU state (~530k pop), archipelago (Malta + Gozo + Comino),
 
 **Q1–Q3 2025 transaction volume**: 9,788 units (+4.6% YoY), aggregate value €2.89 bn (+13.4%)
 
-**Sliema/St Julians/Swieqi**: highest price points; late-2025 average asking apartment price **€414,621** (national average across all dwellings). Sliema apartments commonly **€5,000–7,000+/m²**. National average ~€3,300/m². **Gap (asking) Malta vs Gozo widened from ~€150k (2020) to ~€400k (2025).** Gozo apartments median ~€200k.
+**Sliema/St Julians/Swieqi**: highest price points; late-2025 average asking apartment price **€414,621** (national average across all dwellings). Sliema apartments commonly **€5,000–7,000+/m²** (per agency reports — secondary, not NSO; 2025 — see §gap note below). National average ~€3,300/m² (est., 2025). **Gap (asking) Malta vs Gozo widened from ~€150k (2020) to ~€400k (2025)** (per agency reports — secondary, not NSO). Gozo apartments median ~€200k (per agency reports — secondary).
 
 **Listings**:
 
@@ -83,7 +83,7 @@ Malta is the smallest EU state (~530k pop), archipelago (Malta + Gozo + Comino),
 
 - **Sale of residential immovable property = exempt without credit (Schedule 5 Part 2, VAT Act)** — unique. **No VAT on resale OR new build to end-buyer.** Developers cannot reclaim input VAT
 - Long-term residential lease also exempt; **short-term tourist accommodation (MTA-licensed) is 7%** (reduced)
-- **VAT refund scheme** on UCA/vacant restoration: up to **€54,000 refund on first €300,000** of qualifying costs
+- **VAT refund scheme** on UCA/vacant restoration: up to **€54,000 refund on first €300,000** of qualifying costs (per CCMalta — verify current cap/base with the MTCA)
 
 ---
 
@@ -98,7 +98,7 @@ Malta is the smallest EU state (~530k pop), archipelago (Malta + Gozo + Comino),
   - **3-year ban** on operators caught running unlicensed STR
   - MTA empowered to **restrict / cap** Airbnb-style lets in saturated zones (Sliema, St Julians, Gżira)
   - References EU Reg 2024/1028 (STR data-sharing — applicable from May 2026)
-- **Hotspot pushback**: 4 streets in Sliema alone host >400 listings; ~200 building-clusters operating effectively as unlicensed aparthotels
+- **Hotspot pushback** (per Amphora Media, Oct 2025): 4 streets in Sliema alone host ~400+ listings; ~200 building-clusters operating effectively as unlicensed aparthotels
 - **Tax**: STR income → 15% TA24 OR standard progressive; VAT 7% if registered
 
 ---
@@ -130,7 +130,7 @@ Sliema/St Julians financial-services + iGaming hub; Valletta capital + heritage;
 - Vegetation fires occur in summer in Buskett/Mizieb but not threat to housing
 
 ### Water scarcity — SEVERE
-- 2nd most water-stressed country in EU
+- Among the most water-stressed countries in the EU (no significant surface freshwater; supply leans on desalination + over-abstracted groundwater — see blend below)
 - WSC blend (2024 annual report): **64% desalinated, 36% groundwater** (was 50/50 in 2017). Groundwater chloride exceeds 2,000 mg/L in coastal mean-sea-level aquifer = **saline intrusion ongoing**
 - Tap drinkable but high TDS — most households use bottled or filtered
 
@@ -161,12 +161,12 @@ Sliema/St Julians financial-services + iGaming hub; Valletta capital + heritage;
   - Mandatory registration only inside designated **Compulsory Registration Areas** (~30% of country)
   - Outside these: registration was voluntary — title established by chain of notarial deeds
 - **2025–2035 reform — "LRA: 2025–2035"**: LN 150 of 2025 (most provisions in force **28 Sep 2025**); target = **all of Malta + Gozo become compulsory registration area by 2035**. Until then, expect plots with no Land Registry title number; due diligence relies on the notary's chain-of-deeds search at Public Registry
-- **Foreigner-accessible**: Yes — anyone may file Form E on any plot (with site plan); Land Registry only returns data on registered titles. For unregistered land you commission a notary to do Public Registry search (~€100–250)
+- **Foreigner-accessible**: Yes — anyone may file Form E on any plot (with site plan); Land Registry only returns data on registered titles. For unregistered land you commission a notary to do Public Registry search (~€100–250 est. typical notary search fee — confirm with your notary)
 
 ### Utilities
 
-- **Electricity**: **Enemalta** — https://enemalta.com.mt/ — single national operator. Connection: €65 single-phase, €195 triple-phase (incl. 5% VAT). Domestic tariff **banded** (cumulative annual consumption); ~**€0.131–0.134/kWh** (3rd lowest nominal in EU). High bands rise to €0.342–€0.607/kWh. **Consumers MUST register actual residents on ARMS form to qualify for residential tariff** (otherwise default "domestic" non-residential rate ~2× higher)
-- **Malta–Sicily interconnector**: 200 MW HVAC submarine cable, single circuit (Magħtab–Marina di Ragusa). Imports ~42% of supply at peaks. **Second interconnector (200 MW parallel) under construction** (target 2026–2027). **Single point of failure risk = major**
+- **Electricity**: **Enemalta** — https://enemalta.com.mt/ — single national operator. Connection: ~€65 single-phase, ~€195 triple-phase (incl. 5% VAT; est. — verify current Enemalta/REWS schedule). Domestic tariff **banded** (cumulative annual consumption); ~**€0.131–0.134/kWh** at lowest band (among the lowest nominal residential rates in the EU). High bands rise to ~€0.342–€0.607/kWh (est. — tariffs change with Budget cycles; verify current Enemalta/REWS schedule). **Consumers MUST register actual residents on ARMS form to qualify for residential tariff** (otherwise default "domestic" non-residential rate ~2× higher)
+- **Malta–Sicily interconnector**: 200 MW HVAC submarine cable, single circuit (Magħtab–Marina di Ragusa). Imports ~42% of supply at peaks (est. — verify with Enemalta/REWS). **Second interconnector (200 MW parallel) under construction** (target 2026–2027; verify status with Enemalta/EU PCI project listing). **Single point of failure risk = major**
 - **Water/Sewer**: **Water Services Corporation (WSC)** — single operator. Tariff banded similarly to electricity, ARMS-billed
 - **Gas**: **No mains gas grid** in Malta — **bottled LPG only** (Liquigas Malta or Easygas). Cooking, sometimes water heating
 - **Internet**: GO, Melita, Epic — fibre rollout near complete urban Malta; copper/4G in rural Gozo
@@ -235,7 +235,7 @@ Universal — see `shared/climate-projections.md`.
 
 **Conditions**: residential use only, one property per non-resident buyer, **may NOT be rented out**, no further subdivision.
 
-**Fee**: ~€233; processing 6–12 weeks.
+**Fee**: ~€233; processing ~6–12 weeks (est. — verify current fee/timeline with the Capital Transfer Duty / AIP office).
 
 **MPRP (Malta Permanent Residence Programme)** — separate from AIP, residence-by-investment route. Property requirement (**LN 146 of 2025**, gazetted Jul 2025): **€375,000 minimum purchase** anywhere in Malta or Gozo (standardised from prior €350k Malta / €300k Gozo split). Lease alternative: **€14,000 p.a.** anywhere. Plus government contribution (€60k purchase route / €98k lease route) + admin + donation. Implementing agency: Residency Malta (2026-05-27 verified, source: cclex.com / mt.andersen.com / csbgroup.com).
 
@@ -268,10 +268,10 @@ Universal — see `shared/climate-projections.md`.
 ## Country-specific quirks
 
 - **Globigerina limestone (lower coralline + globigerina + upper coralline)** — traditional building material; soft, workable, very porous. **Salt crystallization is the #1 deterioration mechanism** (airborne marine salts). Modern construction = reinforced concrete with limestone facing/blockwork. Pre-1960s village cores = full-stone construction
-- **Damp/mould — severe seasonal issue**: year-round humidity 60–80%, peaking 85% in winter. Lack of central heating + porous walls + limited insulation + no through-ventilation in narrow Sliema/Valletta apartments = mould blooms within 48–72h on cold-bridged walls. **Buyers should inspect after a wet winter**; check north-facing rooms, behind wardrobes, ground-floor walls
+- **Damp/mould — severe seasonal issue**: year-round humidity ~60–80%, peaking ~85% in winter (est. — verify against Malta Meteorological Office climate normals). Lack of central heating + porous walls + limited insulation + no through-ventilation in narrow Sliema/Valletta apartments = mould can bloom quickly (within days) on cold-bridged walls. **Buyers should inspect after a wet winter**; check north-facing rooms, behind wardrobes, ground-floor walls
 - **Narrow streets / parking**: Sliema, Valletta, Three Cities, Mdina/Rabat UCAs have no off-street parking; on-street is permit-zoned and saturated. Confirm garage/parking title (**garage = separately-titled, often separate deed**) — common buyer surprise
 - **Gozo separate market**: ferry from Ċirkewwa–Mġarr (~25 min, every 45 min); Fast Ferry Valletta–Mġarr (~45 min, passenger only). Slower turnover, lower prices, higher renovation share. **Gozo Tunnel** project repeatedly proposed and shelved — **do NOT price tunnel into investment thesis**
-- **"Three Cities" gentrification**: Birgu (Vittoriosa), Senglea (Isla), Cospicua (Bormla). Strong heritage UCA appeal, marina (Grand Harbour), 15–30% appreciation 2022–2025. Bidding wars common on character townhouses. Risk: speculative restoration, structural unknowns under Knights-era buildings
+- **"Three Cities" gentrification**: Birgu (Vittoriosa), Senglea (Isla), Cospicua (Bormla). Strong heritage UCA appeal, marina (Grand Harbour), ~15–30% appreciation 2022–2025 (est. — per agency reports, secondary; no per-locality NSO index exists, see §--price gap note). Bidding wars common on character townhouses. Risk: speculative restoration, structural unknowns under Knights-era buildings
 - **Beach-town dynamics**: Marsaxlokk (fishing village, weekend market), Mellieħa (north, beach access), Buġibba/Qawra/St Paul's Bay (mass tourism, high-density, lower price tier). Marsascala (southeast) emerging
 - **Knights of St John heritage (1530–1798)**: UCAs in Valletta/Mdina/Three Cities have **Superintendence of Cultural Heritage (SCH)** consent layered over **PA** permit — any external alteration on a scheduled property requires both. Discovering a property is "scheduled Grade 1/2" can lock down all renovation
 - **Ground rent / temporary emphyteusis**: common encumbrance on older properties — verify whether title is **freehold (perpetual)** or **emphyteusis (lease for term, often 99/150 years)**. Temporary emphyteusis converts to ground-rent under Reletting of Urban Property Ordinance (Cap. 69)

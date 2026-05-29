@@ -122,7 +122,7 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 - **Last major: 4 Mar 1977, M7.5, hypocenter 85 km depth; 1,578 dead (1,424 in Bucharest), 32,900 buildings destroyed/damaged**
 - **AMCCRS (Bucharest seismic consolidation administration)**: https://amccrs-pmb.ro/
 - Building classes: **Rs I** (high collapse risk in design earthquake), Rs II (major structural damage), Rs III (moderate), Rs IV (no significant damage)
-- Per latest published lists: ~350 Rs I, ~363 Rs II, ~112 Rs III in Bucharest. Total ~849 in classes I–II
+- Per latest published lists: ~350 Rs I, ~363 Rs II, ~112 Rs III in Bucharest. ~350 Rs I + ~363 Rs II = ~713 in classes I–II
 - **Citizen map (community-built)**: https://www.hartablocuri.ro/ — crowdsourced map by year of construction; widely used by buyers
 - **Class Rs I buildings cannot be insured by most insurers and banks may refuse mortgages**
 
@@ -131,7 +131,7 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 - **Apele Române**: https://rowater.ro/
 - 526 designated Areas of Potential Significant Flood Risk (APSFR)
 - New flood hazard + risk maps (2024 release, World Bank–supported) cover all APSFRs at multiple return periods (1:10, 1:100, 1:1000-year + climate-change scenario)
-- Annual expected damage: ~EUR 1.7 billion; ~150,000 citizens annually exposed
+- Annual expected damage: ~EUR 1.7 billion; ~150,000 citizens annually exposed (per the 2024 World Bank–supported flood maps above — verify the underlying study at Apele Române)
 - INSPIRE EU dataset record: https://inspire-geoportal.ec.europa.eu/srv/api/records/b275eed0-198b-11e5-b939-0800200c9a66
 - World Bank dataset mirror: https://www.inundatii.ro/
 
@@ -167,7 +167,7 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 
 - **RADET went bankrupt in 2019**; municipal company **Termoenergetica** took over (DO NOT use "RADET" in 2026 docs)
 - Serves >8,000 apartment blocks (~90% of city heating)
-- Pipe network corroded — losses >2,000 tons of hot water/hour in worst sections
+- Pipe network corroded — reported losses of est. >2,000 tons of hot water/hour in worst sections (press-sourced figure — verify with Termoenergetica)
 - Termoenergetica's debt to ELCEN (generator) reached ~RON 1.18 billion (~EUR 236M) late 2025
 - Bucharest mayor + EU funding (~EUR 260M) commenced rehabilitation of 210 km primary network (4-year programme)
 - **Buyers in Bucharest district-heated blocks should expect periodic winter outages, scheduled 2026-2029 disruptions for pipe replacement, and ongoing tariff uncertainty.**
@@ -205,8 +205,8 @@ Universal — see `shared/climate-projections.md`.
 | Item | Range / typical |
 |---|---|
 | Bucharest €/m² avg (Dec 2025) | ~€2,204 (+16.6% YoY) |
-| Cluj-Napoca | ~€2,400–€2,800/m² |
-| Timișoara / Iași / Brașov | ~€1,600–€2,200/m² |
+| Cluj-Napoca | ~€2,400–€2,800/m² (est., Imobiliare.ro segment, Apr 2026) |
+| Timișoara / Iași / Brașov | ~€1,600–€2,200/m² (est., Imobiliare.ro segment, Apr 2026) |
 | VAT new-build (qualifying) | 9% (until 31 Jul 2026) → 11% / 21% |
 | CGT (>3 years held) | 1% |
 | Local property tax baseline (1 Jan 2026) | RON 2,677/m² × adjustments + municipal rate |

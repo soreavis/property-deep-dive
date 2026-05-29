@@ -106,9 +106,9 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Land devaluation** caused by proximity to active conflict (e.g., Otef Aza / Northern border post-October 2023) — owners cannot recover lost market value
 - Property-tax assessed value gap when a property's market value exceeds the assessed cap — the gap is uncovered
 - Damage from internal causes (fire, earthquake) — those go to private insurance / Mavat Ra'ash (national earthquake fund framework, separate)
-- **Funding**: state-funded (treasury allocation), supplemented historically by a property-tax surcharge. The fund has paid out **tens of billions of ILS** since October 2023 for war damage in Otef Aza, Northern Israel, and central-Israel rocket-impact incidents (verify current figures at Karnit publications).
+- **Funding**: state-funded (treasury allocation), supplemented historically by a property-tax surcharge. The fund has paid out an **est. tens of billions of ILS** since October 2023 for war damage in Otef Aza, Northern Israel, and central-Israel rocket-impact incidents (order-of-magnitude estimate — verify current figures at Karnit publications).
 - **Claim process**: file via Tax Authority Karnit portal `https://www.misim.gov.il/`; deadlines extended for active-conflict zones by emergency order.
-- **Implication for foreign buyers**: Karnit substantially de-risks war-damage to the structure but does NOT compensate land-value loss — a property in or near an evacuated zone may retain Karnit coverage for damage but lose 30–60% of market value with no compensation pathway.
+- **Implication for foreign buyers**: Karnit substantially de-risks war-damage to the structure but does NOT compensate land-value loss — a property in or near an evacuated zone may retain Karnit coverage for damage but suffer material market-value loss with no compensation pathway. (Magnitude of the value loss is not publicly indexed during the active-conflict period — verify against Tax Authority transaction data for the specific locality.)
 
 ### War footing — current status (as of May 2026)
 
@@ -578,7 +578,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 - **State-land monopoly (~93%)**: most "sales" are technically lease transfers (with or without Heskem Hadash conversion). Always verify Tabu + RMI lease status.
 - **JNF restriction litigation**: ongoing legal contestation; non-Jewish buyers face the swap mechanism; watch HCJ rulings.
 - **Karnit caps**: war-damage compensation has caps tied to property tax-assessed value, NOT market value — coverage gap can be material on premium properties.
-- **Land devaluation NOT compensated**: Otef Aza / Northern border properties may retain Karnit cover for damage but lose 30–60% market value with no compensation pathway.
+- **Land devaluation NOT compensated**: Otef Aza / Northern border properties may retain Karnit cover for damage but suffer material market-value loss (magnitude not publicly indexed) with no compensation pathway.
 - **Settlement / Area C / East Jerusalem / Golan deeds**: international-law status disputed; some parcels registered under Jordanian or Ottoman pre-1967 systems; specialist counsel mandatory; foreign-buyer reputational risk consideration (some EU jurisdictions caution against settlement-area transactions).
 - **Bedouin unrecognized villages (Negev)**: ~30–50 villages lack formal recognition + infrastructure + Tabu titles — extreme caution.
 - **Tabu vs RMI dual system**: parcel must be verified in BOTH; pre-1969 unsettled parcels (`לא מוסדר`) need attorney verification.

@@ -56,7 +56,7 @@ Source: Land Use Act, Cap L5, Laws of the Federation of Nigeria 2004 (consolidat
 
 Required for any subsequent assignment / mortgage / sublease (LUA s. 22). **Largest single closing-cost item** in Lagos — often higher than federal Stamp Duty:
 
-- **Lagos**: **2026 Blue Book (Fair Market Value + Governor's Consent charges), effective 1 May 2026** — composite ~3 % headline rate (Consent Fee 1.5 % + CGT-assessment 0.5 % + Stamp Duty 0.5 % + Registration 0.5 %) BUT assessed FMV (Blue Book) revised sharply upward — **300 %+ uplift reported in Lekki / Ikoyi / Banana Island** per Aluko & Oyebode + Banwo & Ighodalo briefs (2026-05-27 verified). Total money cost still lands mid-single-digit % of true transaction price for prime Lagos. Verify per transaction at LSLB + current Lagos NBA conveyancer.
+- **Lagos**: **2026 Blue Book (Fair Market Value + Governor's Consent charges), effective 1 May 2026** — composite ~3 % headline rate (Consent Fee 1.5 % + CGT-assessment 0.5 % + Stamp Duty 0.5 % + Registration 0.5 %) BUT assessed FMV (Blue Book) revised sharply upward — **300 %+ uplift reported in Lekki / Ikoyi / Banana Island** per Aluko & Oyebode + Banwo & Ighodalo briefs (2026-05-27 verified). **This ~3 % headline composite on the uplifted Blue Book FMV SUPERSEDES the prior Lagos 8–15 % sliding Consent-Fee rate cited elsewhere in this playbook** — the FMV uplift, not the headline %, is now the driver. Total money cost still lands mid-single-digit % of true transaction price for prime Lagos. Verify per transaction at LSLB + current Lagos NBA conveyancer.
 - **FCT Abuja**: ~8% (verify at AGIS)
 - **Smaller states**: ~3-5%
 
@@ -191,7 +191,7 @@ LOW — per-segment AADT comparable to EU/UK datasets is **not publicly availabl
 |---|---|---|
 | **Stamp Duty (federal)** | **1.5–3% sliding** | FIRS (Stamp Duty Act + Finance Act 2019/2020); `https://www.firs.gov.ng/` |
 | **CGT (federal, seller)** | **Regime change eff 1 Jan 2026 (Nigeria Tax Act 2025)** — flat 10 % REPLACED. Individuals: progressive PIT bands (0–25 %); Corporates: 30 % CIT-aligned. Primary-residence exemption now **once-in-a-lifetime** for dwelling-house + ~1 acre adjoining land (verify at NRS, 2026-05-27 verified) | NRS (formerly FIRS) — Nigeria Tax Act 2025; pre-2026: CGT Act Cap C1 LFN 2004 |
-| **Governor's Consent Fee — STATE-LEVEL** | **Lagos 8–15% sliding; FCT 8%; smaller states 3–5%** | State Lands Bureau / AGIS |
+| **Governor's Consent Fee — STATE-LEVEL** | **Lagos 8–15% sliding (superseded by 2026 Blue Book — Consent-Fee headline now ~1.5% of uplifted FMV; see --foreign-buyer); FCT 8%; smaller states 3–5%** | State Lands Bureau / AGIS |
 | **Registration Fee — STATE-LEVEL** | Lagos ~0.5–1%; varies | State Lands Registry |
 | **Survey / Deed fees** | NGN 50k-500k+ | Registered Surveyor + State |
 | **Buyer solicitor** | 3–10% (often 5%) | NBA-negotiated |
@@ -208,10 +208,11 @@ Finance Act 2019 raised VAT from 5% to 7.5% (effective 1 Feb 2020):
 
 ### CGT (federal, seller, on sale)
 
-Per CGT Act Cap C1 LFN 2004 + amendments:
-- **Rate**: 10% on net gain (sale − adjusted cost base − allowable expenses)
-- **Primary-residence exemption**: dwelling-house if main residence (verify scope at FIRS)
-- **Non-resident sellers**: 10% same rate; withheld at completion in some state regimes
+Regime change eff 1 Jan 2026 under Nigeria Tax Act 2025 — flat 10 % REPLACED (verify at NRS):
+- **Rate (post-2026)**: net gain (sale − adjusted cost base − allowable expenses) now taxed at **progressive PIT bands (individuals, 0–25 %)** / **30 % CIT-aligned (corporates)** — *not* a flat rate
+- **Pre-2026 (superseded)**: flat 10% on net gain per CGT Act Cap C1 LFN 2004 + amendments
+- **Primary-residence exemption**: now **once-in-a-lifetime** for dwelling-house + ~1 acre adjoining land (verify scope at NRS)
+- **Non-resident sellers**: taxed on Nigeria-sourced gain under the post-2026 regime; withheld at completion in some state regimes
 
 ### PIT on rental income
 
@@ -244,7 +245,7 @@ Tax Reform Bills 2024-25 pending; state revenue intensification post-devaluation
 
 ### Tax on rental income
 
-- **Resident landlord**: PIT progressive 7-24% on net rental (state IRS administers, e.g., LIRS)
+- **Resident landlord**: PIT progressive on net rental — restructured bands eff 1 Jan 2026 (₦800k tax-free threshold; 0/7/11/15/.../25% top; pre-2026 7-24% scale superseded — see --tax); state IRS administers, e.g., LIRS
 - **Non-resident landlord**: rental income Nigeria-sourced → 10% withholding when tenant is a withholding agent; verify FIRS + state IRS per case
 - **Deductions**: maintenance, repairs (not capital improvements), management commission, mortgage interest
 
@@ -666,10 +667,10 @@ Nigeria operates **English common-law conveyancing**, not civil-law notariat:
 4. Deed of Assignment drafted by buyer solicitor + reviewed by seller solicitor
 5. Stamp Duty assessment + payment at FIRS (1.5-3% sliding)
 6. **Governor's Consent application** to LSLB — LUA s. 22; **major delay point** — Lagos historically 3-12 months (digitizing 2024-26); FCT AGIS 1-3 months
-7. Governor's Consent + Consent Fee paid (Lagos 8-15%; FCT 8%)
+7. Governor's Consent + Consent Fee paid (Lagos 8-15% — superseded by 2026 Blue Book, Consent-Fee headline now ~1.5% of uplifted FMV; FCT 8%)
 8. Registration at State Lands Registry → Registration Fee
 9. C of O updated/new in buyer's name
-10. CGT (10% net gain) settled at FIRS by seller
+10. CGT settled at NRS by seller — net gain now taxed at progressive PIT bands (individuals, 0–25 %) / 30 % CIT-aligned (corporates) eff 1 Jan 2026; pre-2026 flat 10% superseded (see --tax)
 
 ### Timeline
 
@@ -709,7 +710,7 @@ Lagos: 4-12+ months (Consent is critical path); FCT Abuja: 2-6 months; other sta
 | Currency | NGN floated 2023 | GHS volatile | KES managed | EGP floated 2024 | ZAR floating |
 | Cadastre | State-fragmented | Lands Commission + Stool | Land Registries | REPA Sherpa transition | Deeds Registry mature |
 | Property tax | Lagos LUC 0.076-0.394% | Property rate per assembly | Land rates per county | RE Tax 10% assessed rental | Muni rates 0.6-1 c/R |
-| CGT | 10% net gain | 15% | 5%/15% | 2.5% gross | 18% effective max |
+| CGT | Progressive PIT 0–25% / 30% CIT on net gain (eff 2026; pre-2026 flat 10% superseded) | 15% | 5%/15% | 2.5% gross | 18% effective max |
 | Closing costs foreigner | ~15-20% Lagos | ~10-15% | ~8-12% | ~5-10% | ~5-7% |
 | Mortgage 2026 | NGN 22-32% / USD 7-10% | GHS 25-35% | KES 13-16% | EGP 18-25% | ZAR ~10-12% prime |
 | Investor visa | STR ≥USD 100k business | Permit ≥USD 25k | Class G investor | Inv Law 160/2023 USD 250k+ | Bus Visa ZAR 5M |
@@ -871,13 +872,13 @@ Lagos coastal SLR (Lekki / VI / Ikoyi northern fringes); Niger Delta cumulative 
 4. Buyer offer + Letter of Acceptance + deposit (10-20% refundable)
 5. Buyer due diligence — own solicitor + LSLB/AGIS title search
 6. Stamp Duty + Governor's Consent + Registration (Lagos: 4-12 months on Consent)
-7. CGT 10% on net gain settled at FIRS (seller)
+7. CGT on net gain settled at NRS (seller) — progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 2026; pre-2026 flat 10% superseded (see --tax)
 8. Final payment + Deed of Assignment + handover
 9. C of O updated at State Lands Registry
 
 ### Seller tax obligations
 
-- **CGT 10% on net gain** (FIRS); primary residence exemption may apply (verify scope)
+- **CGT on net gain** (NRS) — progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 2026 (pre-2026 flat 10% superseded; see --tax); once-in-a-lifetime primary-residence exemption may apply (verify scope)
 - **No federal property-tax exit penalty** — settle outstanding LUC
 - Solicitor fees ~1-2% seller; agent commission ~5% (often shared)
 - Stamp Duty + Consent Fee are buyer-side (no seller transfer tax beyond CGT)
@@ -898,7 +899,7 @@ Lagos coastal SLR (Lekki / VI / Ikoyi northern fringes); Niger Delta cumulative 
 
 ### Seller cost (Lagos, typical)
 
-Agent 5% + CGT 10% on net gain + solicitor 1-2% + LUC/utility clearances minor → net to seller ~85-92% of gross.
+Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 2026; pre-2026 flat 10% superseded — see --tax) + solicitor 1-2% + LUC/utility clearances minor → net to seller ~85-92% of gross.
 
 **Confidence**: HIGH for federal CGT + Stamp Duty; MEDIUM for Lagos closing-timeline (Consent variable); LOW for second-tier state liquidity.
 
@@ -909,16 +910,16 @@ Agent 5% + CGT 10% on net gain + solicitor 1-2% + LUC/utility clearances minor �
 | Item | Cost | Source |
 |---|---:|---|
 | Stamp Duty (federal) | **1.5–3% sliding** | FIRS — Stamp Duty Act + Finance Acts |
-| Governor's Consent Fee — Lagos | **8–15% sliding** | LSLB (LUA s. 22) |
+| Governor's Consent Fee — Lagos | **8–15% sliding (superseded by 2026 Blue Book — headline now ~1.5% of uplifted FMV; see --foreign-buyer)** | LSLB (LUA s. 22) |
 | Governor's Consent — FCT / other states | **~8% / ~3-5%** | AGIS / state Lands |
 | Registration Fee — Lagos | **~0.5–1%** | LSLR |
 | Buyer solicitor / agent | **3–10% / 5–10%** | NBA + market |
 | **Total foreign-buyer transaction (Lagos)** | **~10–20% of price** | Sum |
 | LUC annual — Lagos owner-occ | **0.076%** of assessed | LASG LUC Law 2018 |
-| CGT on sale | **10% of net gain** | FIRS — CGT Act |
+| CGT on sale | **Progressive PIT 0–25% / 30% CIT on net gain (eff 1 Jan 2026; pre-2026 flat 10% superseded)** | NRS — Nigeria Tax Act 2025 |
 | VAT first-sale residential / commercial | **0% / 7.5%** | FIRS — Finance Act 2019 |
 | NHF mortgage rate | **6%** (federal employees + NHF) | FMBN |
-| Commercial NGN / USD mortgage rate | **22–32% / ~7–10%** | CBN MPR ~27.50% Apr 2026 est. / Stanbic+Ecobank |
+| Commercial NGN / USD mortgage rate | **22–32% / ~7–10%** | CBN MPR 26.5% (May 2026, MPC 305th meeting) / Stanbic+Ecobank |
 | Energy autonomy stack — mid Lagos home/mo | **NGN 200k–800k** | Diesel + inverter + LPG + solar |
 | Generator (5-15 kVA mid home) | NGN 1.5M–6M | Vendor |
 | Solar + 5-10 kWh battery | NGN 5M–25M | REA installers |
@@ -935,7 +936,7 @@ Agent 5% + CGT 10% on net gain + solicitor 1-2% + LUC/utility clearances minor �
 - **Eko Atlantic City** — Lagos State + South Energyx Nigeria Ltd reclamation; ongoing (`https://www.ekoatlantic.com/`)
 - **Lekki Free Trade Zone** — corporate/industrial tax incentives (NOT residential foreign-buyer focused)
 - **Pioneer Status Incentive** (NIPC, source `https://www.nipc.gov.ng/`) — corporate income tax holiday for designated industries (NOT residential RE)
-- **Tax Reform Bills 2024-25** — pending at National Assembly; if enacted, VAT to 12.5% phased + corporate tax 25% — verify status
+- **Nigeria Tax Reform Acts 2025** — signed 26 Jun 2025, commenced 1 Jan 2026; proposed VAT 12.5% phasing DROPPED (VAT retained 7.5%); proposed 25% CIT NOT enacted (CIT retained 30%) — see --tax
 - **Lagos State LUC pensioner / 70+ exemption** — verify at LIRS
 
 ---
@@ -954,8 +955,8 @@ Agent 5% + CGT 10% on net gain + solicitor 1-2% + LUC/utility clearances minor �
 ## Caveats unique to NG (HEAVY — read all)
 
 - **Land Use Act 1978**: NO freehold; only leasehold via C of O from State Governor — foundation of every Nigerian property transaction.
-- **Governor's Consent (LUA s. 22)** required for any assignment/mortgage/sublease; **largest closing-cost item** in Lagos (~8-15% sliding), often higher than federal Stamp Duty. Total Lagos foreign-buyer closing ~10-20% of price — among highest in Africa.
-- **State-level Consent Fee variance is the dominant closing-cost differentiator**: Lagos 8-15%, FCT 8%, smaller states 3-5%.
+- **Governor's Consent (LUA s. 22)** required for any assignment/mortgage/sublease; **largest closing-cost item** in Lagos (pre-2026 ~8-15% sliding — superseded by 2026 Blue Book, headline now ~1.5% of sharply uplifted FMV; see --foreign-buyer), often higher than federal Stamp Duty. Total Lagos foreign-buyer closing ~10-20% of price — among highest in Africa.
+- **State-level Consent Fee variance is the dominant closing-cost differentiator**: Lagos pre-2026 8-15% (superseded by 2026 Blue Book — see --foreign-buyer), FCT 8%, smaller states 3-5%.
 - **Naira volatility 2023-26**: NGN floated Jun 2023; ~70%+ devaluation; ~NGN 460 → 1,500/USD. **USD informal pricing dominates prime Lagos/Abuja RE**.
 - **CBN Form A/M/NCX paper-trail**: capital inflow MUST be CBN-documented for future USD repatriation. **#1 procedural risk** — get at fund transfer or accept NGN-only exit.
 - **Security heterogeneous + serious**: kidnap-for-ransom expats Lagos/Abuja periodic; Boko Haram/ISWAP NE; NW banditry; IPOB SE; farmer-herder Middle Belt; Gulf of Guinea piracy. Foreign-buyer practical universe = Lagos + FCT + select PH; gated estate + private security MANDATORY overlay.
@@ -968,7 +969,7 @@ Agent 5% + CGT 10% on net gain + solicitor 1-2% + LUC/utility clearances minor �
 - **Eko Atlantic**: reclaimed land with sea-wall; verify phase + completion certificate.
 - **No golden-visa via RE**: STR investor pathway requires ≥USD 100k in registered Nigerian business as going concern, not passive RE.
 - **BVN + NIN mandatory** for property + bank transactions.
-- **Pending Tax Reform Bills 2024-25** (VAT to 12.5% phased) — verify status.
+- **Nigeria Tax Reform Acts 2025** — signed 26 Jun 2025, eff 1 Jan 2026; proposed VAT 12.5% phasing DROPPED (VAT retained 7.5%), proposed 25% CIT not enacted (retained 30%) — see --tax.
 
 ---
 
@@ -1023,7 +1024,7 @@ Agent 5% + CGT 10% on net gain + solicitor 1-2% + LUC/utility clearances minor �
 - **Lagos LUC 0.076-0.394% sliding** (LASG 2018)
 - **No federal inheritance tax**; probate state-level
 - **Lagos peri-urban frontier (Ajah, Ibeju-Lekki)** = highest fraud + delivery + omo onile exposure
-- **Tax Reform Bills 2024-25** pending — VAT phased to 12.5% if enacted
+- **Nigeria Tax Reform Acts 2025** enacted (signed 26 Jun 2025, eff 1 Jan 2026) — VAT 12.5% phasing DROPPED, retained 7.5%; 25% CIT not enacted, retained 30% (see --tax)
 
 ---
 

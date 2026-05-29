@@ -38,7 +38,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 - **Salomon.si**, **Slonep.net** — secondary
 - Agency networks: **Stoja Trade**, **Re/Max Slovenia**, **TopRealitet**, **DODOMA**
 
-### 2025 price benchmarks (GURS ETN + nepremicnine.net)
+### 2025 price benchmarks (GURS ETN transacted + nepremicnine.net asking prices per listing — verify against GURS ETN transacted values)
 
 | Region | Avg €/m² (apt) | Avg total (hiša, single-family) |
 |---|---:|---:|
@@ -58,8 +58,8 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 - Total Slovenian property value: **€298 billion** (2025 GURS aggregate)
 - Average **+8% increase** vs 2020 values
   - Apartments: +64% (2019-2024)
-  - Houses: +54%
-  - Building land: +74%
+  - Houses: +54% (2019-2024)
+  - Building land: +74% (2019-2024)
 - Sets the base for any future davek na nepremičnine
 
 ### Compute
@@ -144,7 +144,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Future risk
 
-- **Davek na nepremičnine**: implementation pending; rate around 1% likely (post-comment revision)
+- **Davek na nepremičnine**: implementation pending; proposed 1.45% rate (see above); final rate uncertain pending consultation revision
 - **NUSZ phase-out** if davek replaces it
 - **Posplošena vrednost** revaluation cycles
 
@@ -215,7 +215,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 ### Specific risks
 
 - **Poplava (floods)**: Sava, Drava, Mura, Soča valleys; **August 2023 catastrophic floods** — major reform driver; **June 2014 ice storm + flood**; coastal Koper
-- **Potresna ogroženost (seismic)**: **Slovenia has highest seismic risk in Central Europe**
+- **Potresna ogroženost (seismic)**: among the higher seismic-hazard countries in Central Europe (verify against GeoZS national hazard map)
   - Posočje (Soča valley) M 5+ historical (**1998 M 5.6 + 2004 M 5.2 Bovec**)
   - **Ljubljana 1895 M 6.1** catastrophic
   - **Cona 1** (highest, PGA 0.250g): covers western SI (Posočje, Bovec, Tolmin)
@@ -227,7 +227,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 - **Karst hazards**: **Mali Krasovi** (small karst formations) widespread; cave/sinkhole risk
 - **Radon**: elevated in some karst + Pohorje + parts of Slovenia; not as severe as CZ/SK
   - **GeoZS radon map**: zoned per Eurocode/national survey
-- **Klimatske spremembe**: +2.0–3.5 °C by 2050
+- **Klimatske spremembe**: est. +2.0–3.5 °C by 2050 (verify scenario + year against ARSO climate projections)
 
 ### Build-era hazards
 
@@ -252,7 +252,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Climate change projections
 
-- +2.0–3.5 °C by 2050
+- est. +2.0–3.5 °C by 2050 (verify scenario + year against ARSO climate projections)
 - Reduced summer precipitation, increased winter
 - More extreme rainfall (August 2023 type)
 - Adriatic coast sea-level rise
@@ -320,7 +320,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Caveats unique to SI
 
-- **Highest seismic risk in Central Europe** — cona 1 covers Posočje + Ljubljana cona 2; pre-1963 builds dangerous
+- **Among the higher seismic-hazard countries in Central Europe** — cona 1 covers Posočje + Ljubljana cona 2; pre-1963 builds dangerous
 - **Posplošena vrednost reform 2025** — new mass-appraised values effective 13 May 2025
 - **Davek na nepremičnine reform pending** — proposed 1.45% rate; comments under review; 2026 implementation target (uncertain)
 - **EU 2007 currency** — no FX risk (vs CZ/PL/HU)

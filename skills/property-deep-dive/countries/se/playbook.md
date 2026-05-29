@@ -93,22 +93,22 @@ ISO2: `se`. Status: ✅ Fully populated (researched 2026-04).
 - Individual owner doesn't pay separately
 
 **Hyreshus** (apartment building):
-- 0.3 % of taxeringsvärde, capped at SEK 1,562/yr per residential unit
+- 0.3 % of taxeringsvärde, capped at SEK 1,562/yr per residential unit (2025, source: Skatteverket)
 
-**Effectively very low** — for a SEK 5M villa, you pay SEK 9,525/yr (~€800) maximum, regardless of value. Among the lowest residential property taxes in EU.
+**Effectively very low** — for a SEK 5M villa, taxeringsvärde ~SEK 3.75M × 0.75% = ~SEK 28,125, capped at SEK 10,074/yr (2025) — so you pay the cap (~€840), regardless of value. A capped charge rather than an ad-valorem tax, so high-value homes pay far less proportionally than under classical property tax.
 
 ### Transaction taxes
 
 - **Stämpelskatt** (stamp duty on lagfart, canonical Lantmäteriet/Skatteverket term): **1.5 % of price for privatpersoner / bostadsrättsföreningar / kommuner; 4.25 % for juridiska personer** (AB, HB, ekonomiska föreningar) + **expeditionsavgift SEK 825** (lagfart application fee, separate from stamp duty) (2026-05-27 verified, source: Lantmäteriet)
   - For real estate (fastighet)
   - For bostadsrätt: NOT lagfart, but BRF transfer fee (often SEK 0–10,000 negotiable)
-- **Pantbrev** (mortgage deed): **2 % of mortgage amount** + SEK 375 (only on new pantbrev; existing transfer)
+- **Pantbrev** (mortgage deed): **2 % of mortgage amount** + SEK 375 (only on new pantbrev; existing transfer) (2026, source: Lantmäteriet)
 - **No general transfer tax** beyond lagfart
 - **Mäklare** (broker): **2–4 %** typical, paid by seller; negotiable
 
 ### Capital gains
 
-- **Reavinstskatt 22 %** on profit (gain)
+- **Reavinstskatt 22 %** on profit (gain) — effective rate = 30 % capital-income tax on 22/30 of the gain for a privatbostad (2026, source: Skatteverket)
 - **Uppskov** (deferral): can defer if buying replacement primary residence; **interest-free since 1 Jan 2021** (uppskovsränta abolished) — no annual cost beyond eventual 22% CGT when realised (2026-05-27 verified, source: Skatteverket)
 - **Undersökningsplikt — Jordabalken 4 kap. 19 § andra stycket** (canonical caveat-emptor anchor): buyer loses right to price reduction / rescission for any defect they should have detected through ordinary inspection — duty is *långtgående* (far-reaching) per SE doctrine + case law. Besiktning is the only practical defence (source: riksdagen.se / lagen.nu).
 - **Privatbostad** (primary residence) deduction methods + reno tracking
@@ -145,12 +145,12 @@ ISO2: `se`. Status: ✅ Fully populated (researched 2026-04).
 - **BRF approval** typically required for cooperative apartments — most BRFs ban or strictly limit short-let
 - **Stockholm + Göteborg**: no city-level cap yet but BRF rules + tax authority tightening
 - **EU Regulation 2024/1028**: SE transposition pending May 2026 deadline
-- Income tax: **SEK 40,000/yr threshold** below which small-scale rental is tax-exempt (own home); above = standard income tax
+- Income tax: **SEK 40,000/yr threshold** below which small-scale rental is tax-exempt (own home); above = standard income tax (2025, source: Skatteverket)
 
 ### Tax on rental
 
-- Above SEK 40,000/yr: 30 % flat tax on rental income (capital income)
-- Standard 50,000 SEK schablonavdrag (lump-sum deduction)
+- Above SEK 40,000/yr: 30 % flat tax on rental income (capital income) (2025, source: Skatteverket)
+- Standard 50,000 SEK schablonavdrag (lump-sum deduction) (2025, source: Skatteverket)
 - Residential commercial-style rental: subject to standard tax + sometimes moms
 
 ---

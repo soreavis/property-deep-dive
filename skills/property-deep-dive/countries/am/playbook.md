@@ -710,7 +710,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 ### Tax position for retirees
 
 - **Foreign-source pension income**: typically taxed at **20% PIT** if AM-resident (Tax Code Art. 150); **double-tax treaties** (Russia, Iran, Greece, Bulgaria, China, India, Romania, Cyprus, Germany, France, UK, US — verify per source country) may credit/exempt
-- **No CGT after 1-yr primary-residence holding** (Tax Code Art. 147 — verify current text)
+- **Individual-to-individual residential sale: EXEMPT from PIT** under Tax Code Art. 147(1)(16) regardless of holding period (2026-05-27 verified, source PwC + armenian-lawyer.com); 10% WHT on price applies only when the buyer is a legal entity / sole-proprietor acting as tax agent
 - **No wealth tax**, no inheritance tax — Armenia doesn't levy estate/inheritance tax (verify per Tax Code; intra-family transfers typically exempt)
 - **HO-185-N Real Estate Tax** (annual property tax, fully phased in 2026) is the dominant carrying cost — material for high-value Yerevan Kentron retirees
 
@@ -1007,7 +1007,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 - **"Tuff-stone" Yerevan**: distinctive volcanic-rock cladding (pink/grey/black tuff) characteristic of Yerevan stalinka + post-Soviet stock; thermal-mass benefit + heritage character; tuff-cladding restoration cost premium for heritage listings
 - **Heat-network "jermut'yun" residual**: thin remnant in some Soviet-era Yerevan blocks; individual gas boilers ("inknavar") dominant
 - **Spitak earthquake 1988 baseline**: dominant residual seismic risk anchor; pre-1988 panelka stock requires structural survey
-- **HO-185-N RE-tax progressive scale**: bracket sensitivity at boundaries (AMD 47M, 75M, 100M, 200M); 2026 first-full-year cost increase
+- **HO-185-N RE-tax progressive scale**: bracket sensitivity at boundaries (AMD 10M, 25M, 47M, 120M, 200M for apartments; separate 7M/23M/50M/85M/200M for houses per Tax Code Art. 230); 2026 first-full-year cost increase
 - **Diaspora buyer pattern**: many Yerevan apartments held by emigrant owners (Russia, US, France, Argentina) and managed by local relatives — verify owner is signing personally OR via apostilled PoA
 - **Russian-relocant 2022–2024 cohort**: drove price appreciation; partial 2024–2026 reversal; supply overhang in Yerevan Kentron premium segment
 - **CSTO suspension Feb 2024**: geopolitical realignment ongoing; EU candidacy discussion 2024–2026

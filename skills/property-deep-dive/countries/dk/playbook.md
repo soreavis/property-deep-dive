@@ -302,13 +302,15 @@ For andelsbolig, you must check:
 
 ### Costs
 
-| Scenario | Cost (DKK) |
+| Scenario | Cost (DKK), est. |
 |---|---:|
-| Tilkobling to mains | 80,000–250,000 |
-| Mains-line extension | 200,000–800,000 |
-| Slamafskiller upgrade | 80,000–150,000 |
-| Mini-renseanlæg | 100,000–250,000 |
-| Borebrønd (drilled well) | 60,000–120,000 |
+| Tilkobling to mains | est. 80,000–250,000 |
+| Mains-line extension | est. 200,000–800,000 |
+| Slamafskiller upgrade | est. 80,000–150,000 |
+| Mini-renseanlæg | est. 100,000–250,000 |
+| Borebrønd (drilled well) | est. 60,000–120,000 |
+
+_Ranges are order-of-magnitude estimates (not tied to a published tariff); actual cost depends on distance to mains, kommune VVS schedule, and ground conditions — confirm with a kloakmester quote + your kommune's tilslutningsbidrag tariff._
 
 ---
 
@@ -323,20 +325,22 @@ For andelsbolig, you must check:
 | Tinglysningsafgift (mortgage) | 1.45% + 1,850 flat |
 | Mæglersalær | 1.5–3% of price (seller) |
 | **Total transaction cost (buyer)** | **~1.5–3%** of price |
-| Septik to mains | 80,000–250,000 |
-| Roof (slate, 150 m²) | 200,000–400,000 |
-| Energy retrofit (Class C → A) | 500,000–1,200,000 |
-| Asbestos abatement | 100,000–400,000 |
-| Radon mitigation | 30,000–80,000 |
-| PCB removal (fugemasse, apartment) | 200,000–500,000+ |
+| Septik to mains | est. 80,000–250,000 |
+| Roof (slate, 150 m²) | est. 200,000–400,000 |
+| Energy retrofit (Class C → A) | est. 500,000–1,200,000 |
+| Asbestos abatement | est. 100,000–400,000 |
+| Radon mitigation | est. 30,000–80,000 |
+| PCB removal (fugemasse, apartment) | est. 200,000–500,000+ |
+
+_Renovation/abatement ranges are order-of-magnitude estimates (not from a published price book); calibrate against a Bolius/Molio price book or contractor quotes for the specific property._
 
 ## Active fiscal incentives (2025-2026)
 
-- **Bygningspuljen**: insulation grants (up to DKK 50,000)
+- **Bygningspuljen**: insulation grants (up to ~DKK 50,000, est. — verify current cap at sparenergi.dk)
 - **Skrotningsordning**: oil furnace replacement
 - **Varmepumpepuljen**: heat pump grants
 - **Renteindbetaling fradrag**: mortgage interest tax-deductible (~25.6%) — significant subsidy
-- **Boligjobordning** (handyman deduction): up to DKK 17,500/yr per person
+- **Boligjobordning** (handyman deduction): up to ~DKK 17,500/yr per person, est. — verify current cap at skat.dk
 - **Boliglån** for first-time buyers (kommune-specific in some cases)
 
 ## Common listing platforms
@@ -409,7 +413,7 @@ For andelsbolig, you must check:
 
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing, traffic, tax (with 2024 boligskat reform), rental, work, risks (incl. storm surge ratings + 20 Oct 2023 reference event), mains all have primary government sources.
-**Confidence**: HIGH for boligskat 2024 reform (Vurderingsportalen + Bolius confirm rates 0.51%/1.4% + 20% deduction); HIGH for tinglysning (1 unified register since 2009); HIGH for andelsbolig structure (DK-specific). MEDIUM for Boligreguleringsloven post-1 July 2025 transition specifics (rapidly changing).
+**Confidence**: HIGH for boligskat 2024 reform (Vurderingsportalen + Bolius confirm rates 0.51%/1.4% + 20% deduction); HIGH for tinglysning (1 unified register since 2009); HIGH for andelsbolig structure (DK-specific). MEDIUM for Boligreguleringsloven post-1 July 2022 transition specifics (rapidly changing).
 
 ## Extension TODOs
 
@@ -419,7 +423,7 @@ For andelsbolig, you must check:
 - [ ] Coastal erosion projection per kommune
 - [ ] Bornholm radon zone overlay
 - [ ] Stormrådet A-D rating overlay
-- [ ] Boligreguleringsloven post-1 July 2025 transition rules
+- [ ] Boligreguleringsloven post-1 July 2022 transition rules
 - [ ] PCB legacy building inventory
 - [ ] Kommune VVS / kloak connection database
 - [ ] Pendlerfradrag + boligjobordning eligibility

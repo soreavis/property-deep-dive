@@ -531,7 +531,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 - **Tashkent city** highest rate: **104.3 per 10,000** (2024) — urban concentration + reporting accessibility effect
 - **Top growth categories 2024**: drug trafficking +36.8 %, illegal gambling +21.6 %, vehicle theft +8.5 %
 - **Tourist-zone safety**: high in Tashkent CBD, Samarkand Registan + tourist zones, Bukhara historic centre; standard urban scam awareness applies (taxi-meter scams, currency-exchange traps in non-bank kiosks)
-- **Expat safety**: U.S. Embassy Tashkent reports no kidnapping cases involving expat community; organised crime largely insulated from foreigners; street crime has risen 2022–2025
+- **Expat safety**: no expat-community kidnapping cases are publicly reported (verify against the current U.S. State Dept Uzbekistan Travel Advisory at travel.state.gov); organised crime largely insulated from foreigners; street-crime reports appear to have risen 2022–2025 (per Stat.uz registered-crime categories cited above — partly reflecting reporting reform + digitalisation; verify)
 
 ### Verdict bands (parcel-level inference)
 

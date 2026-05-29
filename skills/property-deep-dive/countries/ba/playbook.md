@@ -94,13 +94,13 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 
 #### FBiH (Federacija)
 
-- **BAM 0.5–3 per m²** (FLAT per-sqm, NOT percentage)
-- Set by canton/municipality
+- **est. ~BAM 0.5–3 per m²** (FLAT per-sqm, NOT percentage)
+- Set by canton/municipality — *rate varies by canton; verify locally with cantonal Porezna uprava FBiH (per-canton figure unconfirmed — see Extension TODO)*
 - Typical Sarajevo apartment: BAM 50–250/yr (~€25–€130)
 
 #### RS entity
 
-- **0.2% of market value** (percentage-based, unlike FBiH)
+- **est. ~0.2% of market value** (percentage-based, unlike FBiH) — *verify with Poreska uprava RS / Zakon o porezu na nepokretnosti RS (figure unconfirmed — see Extension TODO)*
 - Typical Banja Luka apartment €100k: ~€200/yr
 
 ### Transaction taxes — MAJOR DIVERGENCE
@@ -111,7 +111,7 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 | **VAT (PDV)** | 17% on first-sale new builds | 17% |
 | **Notary fees** | ~0.5–1.5% | ~0.5–1.5% |
 
-**VAT 17%** = lowest in Europe (one of); applies to first-sale new builds only
+**VAT 17%** = one of the lower headline VAT rates in Europe; applies to first-sale new builds only
 
 ### 2024 VAT refund reform (BiH state-level — not FBiH-only)
 
@@ -190,7 +190,7 @@ Personal allowances differ significantly across entities — RS + Brčko materia
   - Sarajevo: ~BAM 1,800–2,800 (~€920–€1,430)
   - Banja Luka: ~BAM 1,500–2,400
   - Smaller cities: ~BAM 1,200–1,800
-- **Minimum wages**: BAM 619 FBiH / BAM 750 RS entity (2026)
+- **Minimum wages**: BAM 619 FBiH / BAM 750 RS entity (2026 — statutory figures; verify with Sl. novine FBiH / Sl. glasnik RS minimum-wage decision)
 
 ---
 
@@ -261,7 +261,9 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 
 ### Costs
 
-| Scenario | Cost (EUR) |
+*est. model ranges from regional contractor figures — verify with local vodovod / utility quote.*
+
+| Scenario | Cost (EUR, est.) |
 |---|---:|
 | Mains connection | 1,500–5,000 |
 | Septic upgrade | 2,500–6,000 |
@@ -271,7 +273,9 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 
 ## Cost benchmarks (BA 2026)
 
-| Work | Cost (EUR) |
+*est. model ranges (BA 2026) — verify with quotes; demining cost in particular is highly variable.*
+
+| Work | Cost (EUR, est.) |
 |---|---:|
 | Energetski certifikat | 100–250 |
 | Notar fees | 0.5–1.5% |
@@ -301,7 +305,7 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 - **DUAL-ENTITY STATE**: FBiH vs RS entity have **different cadastres, different taxes, different laws** — must specify entity throughout DD
 - **Brčko District** separate (own cadastre at [Vlada Brčko Distrikta](https://www.bdcentral.net/)); **annual property tax 0.05 % – 1 %** of market value, adopted annually by District Assembly; separate Direkcija za finansije BD + Poreska uprava BD authority *(2026-05-27 verified, source PwC BA Individual — other taxes)*
 - **Currency BAM** pegged to EUR 1.95583 via currency board (1998+) — extremely stable
-- **17% VAT** = lowest in Europe
+- **17% VAT** = one of the lower headline VAT rates in Europe
 - **FBiH transfer tax 0.05-5%** (cantonal) vs **RS entity NO transfer tax (0%)** — major divergence
 - **FBiH CGT not taxable for individuals** (UNIQUE) vs **RS entity 13%**
 - **Mine contamination from Yugoslav Wars 1992-1995** — verify BHMAC for rural properties

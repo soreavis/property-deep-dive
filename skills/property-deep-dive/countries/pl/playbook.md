@@ -145,7 +145,7 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 - **PIT 19%** if sold within **5 years** from end of acquisition year
 - **Exempt after 5 years**
 - **Exempt** if proceeds reinvested in own housing within 3 years
-- Inheritance + gifting: separate scale (Group I close family up to PLN 36,120 exempt)
+- Inheritance + gifting: separate scale (Group I close family up to ~PLN 36,120 exempt — est., indexed/periodically revised; verify current amount at podatki.gov.pl / Ustawa o podatku od spadków i darowizn before relying on it)
 
 ### Future risk
 
@@ -243,7 +243,7 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 - **Smog / PM2.5** — major Polish issue:
   - PM10 +7% in 2024 vs 2023 (reversal of improvement)
   - Worst: Łódzkie, Śląsk, Małopolska
-  - **2.5M legacy "kopciuchy" boilers** = 86% national PM2.5
+  - **~2.5M legacy "kopciuchy" boilers** ≈ est. ~86% national PM2.5 (annually-shifting; cite Polski Alarm Smogowy / GIOŚ + year before relying on it)
   - **Małopolska anti-smog uchwała** XXXV/527/17 (2017):
     - Kraków solid-fuel ban since 1 Sep 2019
     - Rest of Małopolska — non-compliant boilers banned end of April 2024

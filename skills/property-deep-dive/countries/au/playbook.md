@@ -109,7 +109,7 @@ Land tax = **rate × land value** above threshold.
 
 ### Council rates
 
-Per LGA — typically **0.2-0.4%** of land value annually + waste/water/services.
+Per LGA — est. **~0.2-0.4%** of land value annually + waste/water/services (set per-LGA and varies; verify with the relevant council's current rates notice).
 
 ### Transaction taxes (Stamp Duty)
 
@@ -343,7 +343,7 @@ State-based, varies hugely:
 
 ## Active fiscal incentives (2025-2026)
 
-- **First Home Buyer Assistance Scheme (FHBAS)**: NSW exempt up to $800k (indexed annually)
+- **First Home Buyer Assistance Scheme (FHBAS)**: NSW exempt up to $800k (no public Revenue NSW statement confirming annual indexation — verify at Revenue NSW FHBAS guide)
 - **Help to Buy Scheme**: federal (2024+) — equity contribution up to 40% (new) / 30% (existing)
 - **First Home Owner Grant (FHOG)**: $10-15k per state (variable)
 - **First Home Super Saver (FHSS)**: $50k withdrawal from super for first home
@@ -364,13 +364,13 @@ State-based, varies hugely:
 - **Foreign owner surcharges**: NSW 9%, VIC 8%, QLD 8%, WA 7%, SA 7%
 - **VIC VRLT statewide from 1 Jan 2025** + metro Melbourne unimproved land from 2026
 - **VIC Short-Stay Levy 7.5%** from 1 Jan 2025
-- **NSW FHBAS indexed annually from 1 Jul 2025** (was First Home Buyer Choice 2022, repealed 2023)
+- **NSW FHBAS** (annual indexation not confirmed by Revenue NSW — verify) (was First Home Buyer Choice 2022, repealed 2023)
 - **FIRB fees + vacancy fee** for foreign-owned dwellings
 - **Negative gearing** + **CGT 50% discount** are unique investor features
 - **Bushfire BAL ratings** drive insurance + building code; high-BAL means $50k+ retrofit
 - **Pool safety certificate** mandatory pre-sale QLD
 - **NSW Bush Fire Prone Land** triggers special construction
-- **Section 32 (VIC)** + **Form 1 (QLD, new 1 Aug 2025)** + **Contract for Sale (NSW)** — mandatory pre-sale disclosures
+- **Section 32 (VIC)** + **Form 2 Seller Disclosure Statement (QLD, new 1 Aug 2025)** + **Contract for Sale (NSW)** — mandatory pre-sale disclosures
 - **Strata vs community title vs old-system title** — title quality varies
 - **Aluminium composite cladding (post-Grenfell)** — some buildings flagged for remediation
 - **Negative gearing** — deductible against other income
@@ -415,7 +415,7 @@ State-based, varies hugely:
 
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing (CoreLogic + ABS), traffic, tax (extreme state divergence), rental (state RTA), work, risks (bushfire + flood + cyclone + earthquake), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for CoreLogic Mar 2026 indices + foreign-buyer ban (1 Apr 2025 - 31 Mar 2027 confirmed) + foreign owner surcharges (NSW 9%, VIC 8%, QLD 8% confirmed) + VIC VRLT + Short-Stay Levy 7.5% + QLD Form 1 (1 Aug 2025); MEDIUM for post-2027 FIRB review.
+**Confidence**: HIGH for CoreLogic Mar 2026 indices + foreign-buyer ban (1 Apr 2025 - 31 Mar 2027 confirmed) + foreign owner surcharges (NSW 9%, VIC 8%, QLD 8% confirmed) + VIC VRLT + Short-Stay Levy 7.5% + QLD Form 2 Seller Disclosure Statement (1 Aug 2025); MEDIUM for post-2027 FIRB review.
 
 ## Extension TODOs
 

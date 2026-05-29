@@ -639,7 +639,7 @@ Account opening requires **valid Iqama + Saudi mobile + National Address** for r
 - **USD-denominated buyers** (US): **near-zero FX risk** for purchase + ongoing payments
 - **EUR / GBP / JPY buyers**: SAR effectively a USD-tracking currency; FX exposure = home-vs-USD exposure. Use forward contracts for transaction-cost-base lock-in if material
 - **GCC buyers** (AED-pegged-USD, BHD-pegged-USD, OMR-pegged-USD, KWD-basket): near-zero FX risk
-- **Hedging products**: deep FX-forward + options market via Saudi banks + Dubai/London for SAR pairs >USD 5M; typical 12-month USD/EUR forward bid-ask 5–15 bps for SAR amounts >USD 1M
+- **Hedging products**: deep FX-forward + options market via Saudi banks + Dubai/London for SAR pairs >USD 5M; est. 12-month USD/EUR forward bid-ask ~5–15 bps for SAR amounts >USD 1M (indicative bank-desk pricing, not a quoted rate — obtain a live quote)
 
 ### Peg credibility
 

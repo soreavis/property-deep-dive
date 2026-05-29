@@ -94,8 +94,8 @@ ISO2: `it`. Status: ✅ Fully populated (researched 2026-04).
 
 **IMU (Imposta Municipale Unica)** — most important:
 - **Prima casa NON di lusso** (cat. A/1, A/8, A/9): exempt
-- **Seconda casa**: ~1.06% (10.6‰) max, ~0.46% (4.6‰) min
-- Comune sets aliquota within range; default = 7.6‰
+- **Seconda casa**: statutory range 0.46% (4.6‰) min to 1.06% (10.6‰) max
+- Comune sets aliquota within that statutory range; base aliquota 7.6‰ — verify the current rate on the comune's IMU page
 - **Calcolo**: `IMU = rendita catastale × 1.05 × 160 × aliquota`
 - Bills: 16 giugno (acconto) + 16 dicembre (saldo), or full payment by giugno
 - Reduction for canone concordato: 75% of IMU
@@ -250,7 +250,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 
 ### Other build-era hazards
 
-- **Amianto (asbestos)**: pre-1992 builds very likely (eternit, copertura, tubazioni). Smaltimento mandatory if friabile. Cost: €15–€60/m² removal.
+- **Amianto (asbestos)**: pre-1992 builds very likely (eternit, copertura, tubazioni). Smaltimento mandatory if friabile. Cost: est. €15–€60/m² removal (verify with licensed smaltimento operator quote; cf. roof-removal benchmark below).
 - **Aluminosis** (Italian variant): rare, but check 1960s–70s edilizia popolare
 - **Vespasiano / Roma 1950s-70s**: scarce concrete, possible.
 
@@ -293,7 +293,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 
 - **ARERA ATID (Anagrafica Territoriale Servizio Idrico Integrato)**: `https://www.arera.it/area-operatori/atidrhtm`
   - Definitive list of which gestore covers which comune
-  - 2,391 gestori in IT (1,997 enti locali + 394 aziende + 8 multiutility quotate)
+  - ~2,399 gestori in IT (1,997 enti locali + 394 aziende + 8 multiutility quotate) — verify current count at arera.it (ATID portal above)
 - **Comune** + **gestore idrico locale** (acquedotto + fognatura + depurazione typically same operator)
 
 ### Major water operators (regional/multiutility)

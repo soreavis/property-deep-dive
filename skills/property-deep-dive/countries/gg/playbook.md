@@ -361,11 +361,11 @@ Guernsey **abolished mandatory forced heirship for movables in 2011** (Inheritan
 
 | Item | Typical range |
 |---|---|
-| Advocate fees (purchaser) | £2,500–£7,500 + VAT-not-applicable (no GST) on standard residential — varies by complexity |
+| Advocate fees (purchaser) | est. £2,500–£7,500 + VAT-not-applicable (no GST) on standard residential — varies by complexity; confirm with instructed Advocate's fee quote |
 | Document Duty | per current Ordinance (see `--tax` — verify current bands) |
 | Bond Duty | per current Ordinance |
 | Greffe registration fee | small fixed fees (verify at gov.gg) |
-| Survey (building survey by Chartered Surveyor) | £600–£1,500 |
+| Survey (building survey by Chartered Surveyor) | est. £600–£1,500; confirm with instructed surveyor's quote |
 
 ---
 

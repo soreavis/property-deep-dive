@@ -66,7 +66,7 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 - **Compagnie des Autobus de Monaco (CAM)**: https://www.cam.mc/ — bus network
 - Real-time via Google Maps / Waze (well-covered)
 - OSM Overpass universal — see `shared/amenities-osm.md`
-- **Monorail / lifts (ascenseurs publics)**: ~80 free public lifts and travelators connect quartiers across the steep terrain — relevant for "walkability" assessment of Moneghetti / Monte-Carlo upper streets
+- **Monorail / lifts (ascenseurs publics)**: est. ~80 free public lifts and travelators connect quartiers across the steep terrain (no published Mairie/DPUM inventory cited — count is an estimate; verify with the Mairie de Monaco public-lift inventory) — relevant for "walkability" assessment of Moneghetti / Monte-Carlo upper streets
 
 **Traffic context**: ~50,000 cross-border commuters daily from FR (Beausoleil, Roquebrune-Cap-Martin, Menton) and IT (Ventimiglia, Bordighera). Peak 8-10am inbound, 5-7pm outbound. Tunnel + boulevard Princesse Charlotte saturated. **Implication for noise**: any street-front apartment on a corniche or at A8 spurs (Tunnel Rainier III) carries elevated traffic-noise exposure.
 
@@ -96,7 +96,7 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 
 - **NONE for non-French Monaco residents.** Confirmed at `gouv.mc` 2024 + Convention 1963.
 - French nationals resident in Monaco: **subject to French income tax** under Article 7 of the 1963 Convention. (Italian, UK, German, Russian, US, etc. residents pay no Monaco income tax — but their home-country tax residency rules still apply, e.g., US worldwide taxation regardless of Monaco residency.)
-- **Société-side**: Impôt sur les Bénéfices (ISB) at **25%** applies to companies deriving >25% of turnover outside Monaco; pure-Monaco companies generally exempt. Property-investment SCIs are typically tax-transparent; verify with notaire.
+- **Société-side**: Impôt sur les Bénéfices (ISB) at **25%** (gouv.mc fiscalité entreprises 2024) applies to companies deriving >25% of turnover outside Monaco; pure-Monaco companies generally exempt. Property-investment SCIs are typically tax-transparent; verify with notaire.
 
 ### Rental income & rental-side levies
 
@@ -131,7 +131,7 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 ### STR / Airbnb (short-term lets)
 
 - **Hôtellerie** is regulated by the **Direction du Tourisme et des Congrès (DTC)** + **Direction de l'Expansion Économique** under the **Loi n° 1.482 du 17 décembre 2019** and accompanying ordonnances on hébergement touristique.
-- **Short-term tourist letting requires declared activity / autorisation** — practical effect: Airbnb-style operation by a private apartment owner is heavily restricted; most non-hotel short-let supply comes through licensed serviced-apartment operators. Inside Airbnb shows ~150-300 active Monaco listings (small absolute count) — most are serviced-apartment hybrids, not private-host short-lets.
+- **Short-term tourist letting requires declared activity / autorisation** — practical effect: Airbnb-style operation by a private apartment owner is heavily restricted; most non-hotel short-let supply comes through licensed serviced-apartment operators. Inside Airbnb (snapshot date not recorded here — verify against the current Inside Airbnb snapshot) shows ~150-300 active Monaco listings (small absolute count) — most are serviced-apartment hybrids, not private-host short-lets.
 - **Condominium consent** universally required (règlement de copropriété typically forbids tourist activity in residential towers).
 - Tax: STR receipts are subject to ISB if vehicle is corporate, or rental-tax if individual; consult local fiscaliste.
 - **Practical**: STR is NOT a viable yield strategy for foreign buyers in Monaco residential — the structural answer is buy-and-hold for capital + lifestyle, not BnB.
@@ -198,7 +198,7 @@ Banking + family-office (~120+ regulated banks/private banks per CCAF), insuranc
 
 See `shared/crime-sources.md`. Monaco uses:
 - **Direction de la Sûreté Publique (DSP)**: https://service-public-entreprises.gouv.mc/ + IMSEE annual security indicators
-- Monaco's per-capita policing density is one of the highest in the world (~520 sworn officers for ~38k residents). Crime rate against persons / property is structurally low; main residential-buyer relevance is bag-snatch / pickpocket in Casino quartier tourist concentration.
+- Monaco's per-capita policing density is one of the highest in the world (est. ~520 sworn officers for ~38k residents — officer headcount is an estimate, no source cited; verify with the DSP annual report). Crime rate against persons / property is structurally low; main residential-buyer relevance is bag-snatch / pickpocket in Casino quartier tourist concentration.
 
 ---
 
@@ -206,7 +206,7 @@ See `shared/crime-sources.md`. Monaco uses:
 
 Universal — see `shared/amenities-osm.md`.
 
-Monaco-specific amenities note: 80+ public lifts/travelators bridge the elevation difference between quartiers; "walking distance" to a quartier 200m horizontally but 80m vertically away may require a 5-min lift transit. Encode elevation in OSM Overpass output for Monaco amenity calculations.
+Monaco-specific amenities note: est. ~80 public lifts/travelators bridge the elevation difference between quartiers; "walking distance" to a quartier 200m horizontally but 80m vertically away may require a 5-min lift transit. Encode elevation in OSM Overpass output for Monaco amenity calculations.
 
 ---
 
@@ -371,7 +371,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
   - Health insurance (Monaco public CSM if working; private if not)
 - **Source**: https://monservicepublic.gouv.mc/Etrangers/Vivre-en-Principaute/Conditions-de-residence — verify before any application.
 - **No minimum-stay quota** for the temporary card initially, but the privilégiée tier requires **continuous residence ≥10 years** with `presence` evidence.
-- **No CBI (citizenship-by-investment)** in Monaco — naturalisation is at the discretion of the Sovereign (Prince) and exceedingly rare; ~3-5 grants per year typically. Property purchase does NOT entitle to citizenship.
+- **No CBI (citizenship-by-investment)** in Monaco — naturalisation is at the discretion of the Sovereign (Prince) and exceedingly rare (est. ~3-5 grants per year — no official annual naturalisation publication exists; verify against Journal de Monaco naturalisation ordonnances). Property purchase does NOT entitle to citizenship.
 
 (Cross-reference: `shared/visa-programs.md` MC entry — confirm current state before quoting to user.)
 

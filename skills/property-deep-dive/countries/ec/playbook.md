@@ -509,7 +509,7 @@ MEDIUM — Ecuadorian insurance market modest in scale; figures *est. from Super
 | **Lawyer (abogado patrocinador)** | 0.5–1.5 % of price (recommended for non-residents) |
 | **IVA 15 %** (new-build first sale, non-VIS only) | 15 % of price |
 | **Total transaction cost (resale, buyer side)** | **~2.5–4 %** of price |
-| **Total transaction cost (new-build first sale, non-VIS)** | **~15.5–17 %** of price (incl. IVA) |
+| **Total transaction cost (new-build first sale, non-VIS)** | **~17.5–19 %** of price (incl. IVA) |
 
 ### Foreign buyer practical
 
@@ -536,7 +536,7 @@ MEDIUM — Ecuadorian insurance market modest in scale; figures *est. from Super
 
 - **Full USD economy** (since 2000) — UNIQUE in South America (Panama is Central America); **near-zero FX risk** for USD holders
 - **Tax-attractive holding**: predial typically <0.3 % avalúo; **0 % CGT after 1-year hold** (UNIQUE LATAM exemption — Ley Orgánica Reforma Tributaria); **no annual wealth tax**
-- **Visa pathway** USD ~42,500 (Inversionista) is among the lowest investment-residency thresholds globally
+- **Visa pathway** USD ~47,000 (= 100 × SBU 470) (Inversionista) is among the lowest investment-residency thresholds globally
 - **Counter-balanced by**: 2024+ security situation (coastal cantones especially); 2024 IVA hike to 15 % (Decreto Ejecutivo 198/2024); ISD 5 % outbound; smaller + thinner RE market than CO/MX/CL/AR; power-grid uncertainty post-2024 drought
 - **Best fit**: USD-holding retirees + remote workers + Cuenca / Quito-Cumbayá / sierra mid-altitude buyers; HNW seeking dollar-denominated property without US-tax exposure
 - **Worse fit**: pure coastal speculation in 2024–26 security overhang; non-USD buyers without FX hedge framework
@@ -552,7 +552,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 ### Pathways
 
 1. **Visa de Rentista** (USD 1,500/mo pension or annuity) — most common retirement route
-2. **Visa de Inversionista** (USD ~42,500 in real estate) — combine with property purchase
+2. **Visa de Inversionista** (USD ~47,000 (100×SBU 470) in real estate) — combine with property purchase
 3. **Convención Mercosur** for relevant nationals — simplified path
 4. **Tercera Edad benefits** (post-65): tax + transport + utility discounts under [Ley del Anciano](https://www.gob.ec/) — IVA refund, transport 50 %, utility tariff reductions
 
@@ -758,7 +758,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 - **2024 power-grid drought crisis** — backup capacity (solar + inverter) advisable in Sierra
 - **Cotopaxi active-phase 2024–26** — verify lahar-corridor zoning for valles Latacunga / Salcedo / Chillos / Cumbayá
 - **NEC-15 seismic code** mandatory; pre-2000 stock requires retrofit assessment
-- **Visa de Inversionista** USD ~42,500 (= 100×SBU) is among lowest investment-residency thresholds globally
+- **Visa de Inversionista** USD ~47,000 (= 100×SBU 470) is among lowest investment-residency thresholds globally
 - **No CBI / golden-passport**; naturalization requires 3+ years' permanent residency + civics + Spanish exam
 - **Listing m²**: convention is *m² de construcción* (built); confirm vs *área útil* on visit *(per listing — verify with cadastre / on visit)*
 

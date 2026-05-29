@@ -6,7 +6,7 @@ ISO2: `al`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Postcode**: 4 digits (`1001` Tirana, `2001` Durrës, `9401` Vlorë, `9701` Sarandë)
 - **Admin levels**: 12 qarqe (counties) + 61 bashki (municipalities)
-- **Currency**: **ALL** (Albanian lek) — pegged loosely to EUR ~100-105
+- **Currency**: **ALL** (Albanian lek) — floating (BoA inflation-targeting), 2023-2025 range EUR/ALL ~98–110 (NOT pegged; see Caveats)
 - **Languages**: Albanian (official); Greek minority (south coast); Italian + English widely used in business
 - **Cadastre**: **ASHK (Agjencia Shtetërore e Kadastrës)** — `https://www.ashk.gov.al/`
   - **e-Albania portal**: `https://e-albania.al/` (applications via service code 9473)
@@ -91,7 +91,7 @@ ISO2: `al`. Status: ✅ Fully populated (researched 2026-04).
 - **0.05 % of cadastral / reference value** for **residential** apartments / dwellings (post-2018 reform)
 - **0.2 % of cadastral / reference value** for **commercial / business-use** property (post-2018 reform) *(2026-05-27 verified, source Tax-Checker AL + ALTAX + HLB)*
 - Cadastral / reference value per m² set by Cadastre Office (ASHK); collected via water bill in most bashki
-- Typical Tirana apartment: €50–€150/yr (very low)
+- Typical Tirana apartment: ~€50–€150/yr est. (very low) — derived from the 0.05 % rate × cadastral/reference value above; verify cadastral value per m² with ASHK
 - (The ALL 100–2,000/m² fixed-fee figure belongs under transfer taxes for commercial buildings, NOT this annual tax — see Transaction taxes below)
 
 ### Personal income tax (PIT) framework — post-2024 reform (Law 29/2023)
@@ -260,27 +260,31 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
 
 ### Costs
 
+*est. — indicative cost bands; varies by bashki and distance to network. Verify with local quotes.*
+
 | Scenario | Cost (EUR) |
 |---|---:|
-| Mains connection | 800–2,500 |
-| Septic + cisterna | 1,500–4,500 |
-| Bored well | 2,500–6,000 |
+| Mains connection | ~800–2,500 |
+| Septic + cisterna | ~1,500–4,500 |
+| Bored well | ~2,500–6,000 |
 
 ---
 
 ## Cost benchmarks (AL 2026)
 
+*Renovation/build rows are est. — indicative cost bands, verify with local contractor quotes.*
+
 | Work | Cost (EUR) |
 |---|---:|
-| Çertifikatë energjetike | 80–250 |
+| Çertifikatë energjetike | ~80–250 |
 | Notar fees | ~1.0% |
 | Transfer tax / CGT | ~2% reference value + 15% on profit |
 | Realtor commission | 2-3% per side typical |
 | **Total transaction cost (buyer)** | **~3–5%** of price |
-| Roof renovation | 2,500–8,000 |
-| Earthquake retrofit (post-2019) | 12,000–50,000 |
-| Energy retrofit | 6,000–20,000 |
-| Solar PV (5kW) | 3,000–6,000 |
+| Roof renovation | ~2,500–8,000 |
+| Earthquake retrofit (post-2019) | ~12,000–50,000 |
+| Energy retrofit | ~6,000–20,000 |
+| Solar PV (5kW) | ~3,000–6,000 |
 | Legalization fees (informal builds) | varies massively |
 
 ## Active fiscal incentives (2025-2026)

@@ -141,7 +141,7 @@ Listing-derived ranges, cross-checked against FNB HPI (Q4 2024 / Q1 2025 release
 
 (2024/25 data — **rates may have changed since July 2025 tariff cycle**; verify current at each municipality's tariff page.)
 
-**Computation**: each municipality applies an **impermissible value** threshold (first ~R350,000 typically exempt for primary residence in Cape Town; R200,000 in JHB) before the rate. The Municipal Property Rates Act 6 of 2004 governs the framework.
+**Computation**: each municipality applies an **impermissible value** threshold (first ~R350,000 typically exempt for primary residence in Cape Town; ~R200,000 est. in JHB — verify JHB rates policy) before the rate. The Municipal Property Rates Act 6 of 2004 governs the framework.
 
 **Example** — R5,000,000 home in Cape Town (2024/25):
 - Taxable value: R5,000,000 − R350,000 = R4,650,000
@@ -177,7 +177,7 @@ For R2M–R5M property: typically **R20,000–R50,000** (excluding VAT, Deeds Of
 ### Total transaction cost (buyer side, 2025/26)
 
 For an R3,000,000 cash purchase (no bond), Cape Town:
-- Transfer Duty (R3M): R53,544 + 8 % × (R3,000,000 − R2,329,300) = **R107,200**
+- Transfer Duty (R3M): R106,784 + 11 % × (R3,000,000 − R2,994,800) = **R107,356** (R3,000,000 falls in the R2,994,801–R13,310,000 bracket)
 - Conveyancer transfer fees: ~R28,000 + VAT
 - Deeds Office reg: ~R1,000
 - FICA / disbursements: ~R2,000
@@ -210,7 +210,7 @@ For same R3M with 80 % bond:
 **Tax treatment**:
 - Rental income reported on **ITR12** (annual return) and **IRP6** (provisional tax twice yearly)
 - Deductible expenses: rates, levies, insurance, repairs (not improvements), bond interest, agent commission, water/electricity if owner-paid
-- Net rental income added to taxable income at marginal rate (max 45 % for 2025/26 above R1,817,000)
+- Net rental income added to taxable income at marginal rate (max 45 % for 2025/26 above ~R1,817,000 — top-bracket threshold est., verify SARS personal income-tax brackets table)
 - Source: SARS Rental Income: `https://www.sars.gov.za/individuals/i-am-a-property-investor/`
 
 ### Short-term rentals (STR / Airbnb)
@@ -267,11 +267,11 @@ Source: Department of Home Affairs: `https://www.dha.gov.za/index.php/immigratio
 
 ### Salary benchmarks (2025, gross monthly, ZAR)
 
-- Junior professional (entry, JHB/CT): R15,000–R30,000
-- Mid-level (5+ yrs, urban): R35,000–R70,000
-- Senior / management (urban): R80,000–R200,000+
-- Skilled trades (electrician, plumber): R20,000–R45,000
-- (Stats SA Quarterly Labour Force Survey: `https://www.statssa.gov.za/?page_id=1854&PPN=P0211`)
+- Junior professional (entry, JHB/CT): ~R15,000–R30,000 (est.)
+- Mid-level (5+ yrs, urban): ~R35,000–R70,000 (est.)
+- Senior / management (urban): ~R80,000–R200,000+ (est.)
+- Skilled trades (electrician, plumber): ~R20,000–R45,000 (est.)
+- Bands are model/market estimates — the Stats SA QLFS (P0211) measures employment/unemployment levels, NOT per-occupation pay; verify against a current recruiter/salary-survey release (e.g. Stats SA QES earnings data or a PE/CareerJunction salary survey).
 
 ---
 
@@ -317,7 +317,7 @@ Source: Department of Home Affairs: `https://www.dha.gov.za/index.php/immigratio
 | **Post-2011** | Sectional Titles Schemes Management Act enforced; better body corporate governance expected |
 | **Coastal (any era)** | **Beetle borer** (Hylotrupes, Coptotermes) endemic Western Cape + KZN coastal — Beetle Free Cert mandatory at sale |
 
-**Asbestos**: Asbestos Abatement Regulations 2020 require licensed contractor for removal; cost R150–R400/m² typical (verify via licensed contractor — `https://www.labour.gov.za/`).
+**Asbestos**: Asbestos Abatement Regulations 2020 require licensed contractor for removal; cost est. R150–R400/m² (verify via licensed contractor — `https://www.labour.gov.za/`).
 
 ### Mandatory diagnostics at sale
 

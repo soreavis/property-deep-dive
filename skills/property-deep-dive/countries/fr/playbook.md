@@ -156,7 +156,7 @@ ISO2: `fr`. Status: ✅ Fully populated.
 **Legal status options** (always include):
 - **Auto-entrepreneur (BNC libéral)**: simple, ~22.2 % charges, plafond €77,700 ⚠️ BIC services vs BNC libéral plafonds differ — secondary sources contradict; verify at [URSSAF auto-entrepreneur plafonds](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/les-plafonds.html) before relying on (2026-05-27 stale-marker)
 - **Service à la personne (SAP)**: 50 % tax credit for client; activate via URSSAF
-- **CCN ÉCLAT (associative music schools)**: coefficient 265 × point €6.85 ≈ €1,815/mo gross full-time
+- **CCN ÉCLAT (associative music schools)**: coefficient 265 × point ~€6.85 ≈ €1,815/mo gross full-time — point value is a renegotiated collective-agreement figure; verify current point at the convention's latest avenant salaires before relying on
 - **CDI public conservatoire**: needs DE + concours
 - **Association loi 1901**: for community projects, no income to self
 - **Régime réel BNC**: above €77.7k

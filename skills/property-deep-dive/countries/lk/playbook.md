@@ -552,7 +552,7 @@ Sources: Department of Labour wage gazettes; CBSL Annual Report 2024; LinkedIn S
 | **Licensed land surveyor** | 50,000-300,000 | $160-$970 |
 | **NBRO landslide clearance (where required)** | 25,000-100,000 + survey | $80-$320 |
 | **CC&CRMD coastal clearance (where required)** | 50,000-200,000 | $160-$645 |
-| **Stamp duty** | 3-5% of price | varies |
+| **Stamp duty** | 3% first LKR 100k + 4% excess (~4% effective) | varies |
 | **VAT (new condo by developer only)** | 18% of price | varies |
 | **CGT on resale (≥5 yrs)** | 10% of gain (15% from 2025-26?) | varies |
 | **Notary + RGD registration** | 0.5-1% of price | varies |

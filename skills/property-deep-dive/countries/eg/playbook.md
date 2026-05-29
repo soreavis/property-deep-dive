@@ -247,7 +247,7 @@ Statute: **Law 30/2023** (15 June 2023, amends Income Tax Law 91/2005, real-esta
 
 ### Confidence
 
-MEDIUM-HIGH for the legal framework (Law 196/2008 + Law 175/2023 are public, ETA portal documents rates). MEDIUM for exact threshold values — Egyptian tax thresholds have been adjusted multiple times since 2020 and the most current figure should always be reconfirmed with ETA at transaction time.
+MEDIUM-HIGH for the legal framework (Law 196/2008 + Law 30/2023 are public, ETA portal documents rates). MEDIUM for exact threshold values — Egyptian tax thresholds have been adjusted multiple times since 2020 and the most current figure should always be reconfirmed with ETA at transaction time.
 
 ---
 

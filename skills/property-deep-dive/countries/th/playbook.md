@@ -335,7 +335,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 ### Strategic notes
 
 - **Bangkok central condos**: long-term yields ~3–5 % gross; STR explicitly forbidden by most premium-building juristic persons.
-- **Phuket / Pattaya / Samui beachfront**: STR yields theoretically high (7–12 % gross in peak season) but legal exposure and management complexity; many buyers use developer-managed rental pool with hotel license as the workaround.
+- **Phuket / Pattaya / Samui beachfront**: STR yields theoretically high (est. ~7–12 % gross in peak season — foreign-buyer listing-platform estimates, verify against realized REIC/Hipflat transfer data) but legal exposure and management complexity; many buyers use developer-managed rental pool with hotel license as the workaround.
 - **Hua Hin**: long-term lets to Thai retirees / expats; ~4–6 % gross.
 - **Chiang Mai**: digital-nomad demand strong; long-stay (1–3 month) lets dominant; condo juristic persons increasingly forbid sub-30-day.
 - **Koh Phangan / Koh Tao**: irregular tourist economy; high seasonality.
@@ -650,13 +650,13 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 - **Foreign Quota Certificate** for condo: get it in writing, signed by the juristic person manager, BEFORE paying deposit. If the unit isn't in foreign quota, no DOL transfer will happen.
 - **Juristic person (นิติบุคคลอาคารชุด)**: the condo's management entity, established under §35 Condominium Act. Manages common areas, fees, sinking fund, foreign quota tracking. AGM (annual general meeting) participation rights for owners.
 - **Thai company nominee risk**: Land Code §96bis active enforcement; do not assume historical "everyone does it" still applies. As of 2024 DBD circular, anti-nominee referrals to police have intensified.
-- **30-year lease registration at DOL is essential** — an unregistered lease > 3 years is unenforceable against subsequent landowners and not opposable to third parties; pay the 1.1% registration fee + stamp duty 0.1% on the lease value.
+- **30-year lease registration at DOL is essential** — an unregistered lease > 3 years is unenforceable against subsequent landowners and not opposable to third parties; pay the est. ~1.1% registration fee + stamp duty est. ~0.1% on the lease value (verify current rates with DOL / Revenue Department before budgeting).
 - **Stamp duty quirks**: SBT and stamp duty are mutually exclusive on a single sale (whichever applies); double-payment is a common error to avoid.
 - **Usufruct (สิทธิเก็บกิน)** vs **superficies (สิทธิเหนือพื้นดิน)** vs **habitation (สิทธิอาศัย)**: three distinct registered rights at DOL; useful for foreign-spouse or family arrangements but NOT for arms-length purchase.
 - **LTR vs Privilege vs DTV**: LTR = best tax + duration but high asset bar; Privilege = pure visa convenience, no tax benefit, mid-cost; DTV = cheapest, designed for digital nomads, no work-permit but 180-day stays.
 - **House Registration (ทะเบียนบ้าน, blue book / yellow book for foreigners)**: not proof of ownership but required for many administrative services; foreigners get a yellow book (ทร.13) — separate from the property title.
 - **Selling back as a foreigner**: capital gains via withholding (5% individual) on the sale + foreign-currency repatriation requires same FET evidence at outbound transfer; not automatic.
-- **Bangkok BTS/MRT proximity premium**: properties within 500 m of a station consistently transact at 15–30% premium per REIC + Hipflat; verify with the station's actual walking distance (sometimes "near MRT" listings are 1.5 km away).
+- **Bangkok BTS/MRT proximity premium**: properties within 500 m of a station have historically transacted at an est. ~15–30% premium (per REIC/Hipflat — band undated, verify current spread); verify with the station's actual walking distance (sometimes "near MRT" listings are 1.5 km away).
 - **Soi (ซอย) numbering**: Sukhumvit sois have famous numbering quirks — even-numbered sois on south side, odd-numbered on north, and several "Soi 39/1, 39/2" branch sois. Verify exact soi via Google Maps Thai-script search.
 
 ---

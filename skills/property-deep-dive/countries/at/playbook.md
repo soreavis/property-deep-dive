@@ -100,15 +100,15 @@ National averages 2024 (Statistik Austria):
 
 ### Annual property tax — Grundsteuer
 
-**Very low** compared to W. Europe — typical residential **€100–€500/yr**.
+**Very low** compared to W. Europe — residential **~€100–€500/yr est.** (derived from the Einheitswert × Steuermesszahl × Hebesatz formula below; verify on the seller's Grundsteuerbescheid).
 
 ```
 Grundsteuer = Einheitswert × Steuermesszahl × Hebesatz × 1.4 (Bundeszuschlag)
 ```
 
-- **Einheitswert**: very outdated valuation (mostly 1973 base) — typically 5–20 % of market value
+- **Einheitswert**: very outdated valuation (mostly 1973 base) — est. ~5–20 % of market value
 - **Steuermesszahl**: 0.05 % – 0.2 %
-- **Hebesatz**: set by Gemeinde, typical 500 %
+- **Hebesatz**: set by Gemeinde, ~500 % est.
 - **Bundeszuschlag**: factor 1.4
 
 ### Reform pending
@@ -175,7 +175,7 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 
 ### Vienna-specific (most regulated)
 
-- **Wiener Wohnen** (Gemeindewohnungen): 220,000 units, regulated rent
+- **Wiener Wohnen** (Gemeindewohnungen): ~220,000 units est., regulated rent (verify at wienerwohnen.at)
 - **Genossenschaft** (cooperative): regulated rent + Eigenmittel
 - **Privatmarkt** Vollanwendung: Richtwertmietzins per Bundesland, max +25 % zone bonus
 - 2025 Richtwert Wien: ~€6.67/m² (post-2024 reform freeze for 2 yrs)
@@ -250,7 +250,7 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 
 ### HORA — the gold standard
 
-Austria's **HORA** is internationally recognized as the most user-friendly natural hazards portal in Europe. Initiated 2002 after the disaster Donau flood; managed by BMLUK + VVO (Versicherungsverband). Free, address-level, all hazards in one place.
+Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-place natural hazards portals in the EU. Initiated 2002 after the disaster Donau flood; managed by BMLUK + VVO (Versicherungsverband). Free, address-level, all hazards in one place.
 
 ### Specific risks
 
@@ -283,7 +283,7 @@ Austria's **HORA** is internationally recognized as the most user-friendly natur
 
 | Document | Required because | Validity |
 |---|---|---|
-| **Energieausweis (EAW)** | All sales | 10 years; penalty up to €1,450 |
+| **Energieausweis (EAW)** | All sales | 10 years; penalty up to ~€1,450 est. — verify current cap |
 | **Grundbuchauszug** | Verify owner + Lasten | At sale |
 | **Lageplan / Mappenkopie** | Boundaries | Per case |
 | **WEG-Vereinbarung + Nutzwertgutachten** | If Wohnungseigentum | At sale |
@@ -318,34 +318,38 @@ Austria's **HORA** is internationally recognized as the most user-friendly natur
 
 ### Costs
 
-| Scenario | Cost (€) |
+| Scenario | Cost (€, est. 2026) |
 |---|---:|
-| Anschluss to mains (where available) | 3,000–8,000 |
+| Anschluss to mains (where available) | ~3,000–8,000 |
 | Mains-line extension if needed | varies by Gemeinde |
-| Hauskläranlage (4 EW) | 6,000–15,000 |
-| Senkgrube replacement | 4,000–10,000 |
+| Hauskläranlage (4 EW) | ~6,000–15,000 |
+| Senkgrube replacement | ~4,000–10,000 |
+
+*Est. — verify with local installer / Gemeinde; figures may have changed since 2026.*
 
 ---
 
 ## Cost benchmarks (AT 2026)
 
-| Work | Cost (€) |
+| Work | Cost (€, est. 2026) |
 |---|---:|
-| Energieausweis | 250–600 |
+| Energieausweis | ~250–600 |
 | Notar / Anwalt | 1.0–2.5 % of price |
 | Grunderwerbsteuer | 3.5 % |
 | Eintragungsgebühr Grundbuch | 1.1 % |
-| Maklerprovision (3 % each side excl. VAT) | 3.6 % typical |
+| Maklerprovision (3 % each side excl. VAT) | ~3.6 % typical |
 | **Total transaction cost** | **9–11 %** of price |
 | Lawinenverbauung repair (alpine specific) | varies |
-| Asbestsanierung (small house) | 15,000–60,000 |
-| Energetische Sanierung Klasse C → A | 50,000–120,000 |
-| Heizungstausch (Wärmepumpe) — incl. Förderung | 25,000–40,000 |
-| Dachsanierung Tiroler Schindel (200 m²) | 30,000–60,000 |
+| Asbestsanierung (small house) | ~15,000–60,000 |
+| Energetische Sanierung Klasse C → A | ~50,000–120,000 |
+| Heizungstausch (Wärmepumpe) — incl. Förderung | ~25,000–40,000 |
+| Dachsanierung Tiroler Schindel (200 m²) | ~30,000–60,000 |
+
+*Construction/retrofit ranges are est. — verify with quotes; figures may have changed since 2026.*
 
 ## Active fiscal incentives (2025-2026)
 
-- **Sanierungsoffensive 2024–2030** (federal + Bundesländer): up to €15,000 for fossil → renewable heating
+- **Sanierungsoffensive 2024–2030** (federal + Bundesländer): up to ~€15,000 est. for fossil → renewable heating (verify current cap at umweltfoerderung.at)
 - **Wohnbauförderung** (per Bundesland) — varies massively
 - **Sonder-AfA** for new Mietwohnungen
 - **Klimaticket Effizienzhaus** subsidy
@@ -368,7 +372,7 @@ Austria's **HORA** is internationally recognized as the most user-friendly natur
 - **Naturschutz** restrictions on alpine constructions — strict
 - **MRG categories** make rental investment math depend heavily on building age
 - **Mietkauf** model (rent-to-own via Genossenschaft) common
-- **HORA portal is internationally best-in-class** — use it as the single source of truth for risks
+- **HORA portal is free, address-level, all-hazards-in-one-place** — use it as the single source of truth for risks
 - **Erbenermittlung** can stall purchases for months if Grundbuch unclear
 - **Bauernhof** (farm) special restrictions; Anerbenrecht
 - **Schenkungsmeldegesetz** since 2008 — mandatory disclosure for gifts

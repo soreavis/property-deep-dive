@@ -20,7 +20,7 @@ ISO2: `cv`. Status: ✅ Fully populated (researched 2026-05).
     - **ITI (Imposto sobre a Transmissão de Imóveis)** — one-time transfer tax, **1 %** of transaction value (own code published in the same 2025 reform package).
   - **2025 IMF Seventh Review under ECF + Third Review under RSF** (concluded Feb 2026): real GDP growth 7.2 % in 2024, est. 5.2 % in 2025; fiscal targets met; CVE-EUR peg credibility reaffirmed. (`https://www.imf.org/en/news/articles/2026/02/07/pr26036-cabo-verde-imf-concl-2025-aiv-consultation-7th-rev-under-ecf-and-3rd-rev-under-rsf`)
   - **2017 Permanent Residence for Foreign Investors** (the "Green Card" / RBI route): government-approved framework still operative; thresholds **8.8 M CVE (~€80k)** below-average-GDP municipalities / **13.2 M CVE (~€120k)** above-average — see `--visa` notes below and verify at `https://aai.gov.cv/`.
-  - **2025 corporate-income-tax cut to 20 %** for IRPC standard (was 22 %); maintained tourism-zone preferential regimes.
+  - **2025 corporate-income-tax cut to 20 %** for IRPC standard (was 22 %); maintained tourism-zone preferential regimes. (verify current rate at Ministério das Finanças / Código do IRPC, `https://www.mf.gov.cv/`)
 
 ---
 
@@ -301,7 +301,7 @@ Net yields after IPI + IRPS + management + maintenance + condomínio fees + util
 - **ENI (Empresário em Nome Individual)**: sole-trader regime for individual professionals; registered at Casa do Cidadão / DGCI.
 - **Sociedade Unipessoal por Quotas (Lda. Unipessoal)**: single-shareholder LLC, mirror of PT structure; minimum capital nominal (1 CVE) since reforms.
 - **Sociedade por Quotas (Lda.)**: standard LLC, 2+ shareholders.
-- **Sociedade Anónima (S.A.)**: capital 5,000,000 CVE (~€45k) minimum.
+- **Sociedade Anónima (S.A.)**: capital 5,000,000 CVE (~€45k) minimum (verify current at Casa do Cidadão / Código das Sociedades Comerciais).
 - **Foreigners as managers/shareholders**: allowed; long-stay residence permit (Autorização de Residência) required for active management presence > 90 days. The **Investidor** subcategory of residency permit caters specifically to investor-managers.
 - **Casa do Cidadão one-stop shop**: business registration in days (not weeks) for standard structures.
 - **Cabo Verde TradeInvest** — `https://cvtradeinvest.com/` — investment-promotion agency, contact for **Estatuto de Investidor Externo (External Investor Status)** which unlocks tax + customs incentives in priority sectors (tourism, ICT, light industry, ocean economy, renewables).

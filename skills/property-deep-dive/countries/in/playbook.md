@@ -373,7 +373,7 @@ The **Foreign Exchange Management Act 1999** + **FEMA (Acquisition and Transfer 
 
 ### Strategic notes
 
-- Mumbai prime: ~2.5–4 % gross yield (high price/rent ratio); long-term lease dominant.
+- Mumbai prime: ~2.5–4 % gross yield (Q4 2025 est. — listing rent ÷ listing price on MagicBricks/Housing.com; cross-check Anarock/Knight Frank India city-yield reports; high price/rent ratio); long-term lease dominant.
 - Bengaluru / Pune / Hyderabad mid-tier: ~3–5 % gross (tech-corridor demand stable).
 - Delhi NCR mid-tier: ~2.5–3.5 % gross.
 - Tier-2 + tier-3 (Surat, Lucknow, Indore, Coimbatore): ~4–6 % gross.
@@ -552,7 +552,7 @@ Sources: PLFS (Periodic Labour Force Survey, MoSPI), Naukri JobSpeak Index, Glas
   - Ahmedabad: **AMC Water** + **AUDA**
   - Pune: **PMC Water Supply** + **Pune Cantonment**
 - **Reliability variable**: most metros have **scheduled supply (2–6 hours/day at fixed times)** — overhead tank + sump pump + booster standard; full 24/7 supply rare except Pune partial + select Bengaluru + Hyderabad zones.
-- **Bore well + tanker**: Bengaluru + Hyderabad summer reliance on private bore wells (**state groundwater authority permits required**) + private tankers (INR 800–1,500 per 6,000 L tanker).
+- **Bore well + tanker**: Bengaluru + Hyderabad summer reliance on private bore wells (**state groundwater authority permits required**) + private tankers (~INR 800–1,500 per 6,000 L tanker, 2026 metro est. — verify with local operators; varies by season and ward).
 - **Ministry of Jal Shakti**: [`https://jalshakti-ddws.gov.in/`](https://jalshakti-ddws.gov.in/) — Jal Jeevan Mission (rural piped supply to households).
 
 ### Sewer / wastewater
@@ -1119,7 +1119,7 @@ India has **NO formal "digital nomad visa"** (a notable absence vs Mauritius PA,
 - **Supply pipeline**: PMAY (Pradhan Mantri Awas Yojana — Urban + Gramin) target 4 Cr units by 2025; significant delivery 2015–2025; PMAY 2.0 announced 2024 with INR 10 lakh Cr outlay
 - **Premium metro (Mumbai SoBo, Lutyens Delhi, Lavelle Road Bengaluru)**: limited new supply; replacement-only in most prime tracts; long-term scarcity premium
 - **Tier-2 + Tier-3 cities** (Pune, Coimbatore, Indore, Lucknow, Surat): strong organic demand + diaspora-funded; tier-1 spillover
-- **Diaspora flows**: NRI remittances + property purchase ~ USD 110–125 B/yr inflow (RBI BOP data) — meaningful demand floor for Mumbai/Bengaluru/Chennai/Hyderabad/Kerala/Punjab
+- **Diaspora flows**: total personal remittance inflow ~ USD 110–125 B/yr (RBI BOP, FY2023–24 — verify current); a portion flows to NRI/OCI property purchase (no official property-specific breakdown published) — supports diaspora housing demand in Mumbai/Bengaluru/Chennai/Hyderabad/Kerala/Punjab
 
 ---
 
@@ -1138,7 +1138,7 @@ India has **NO formal "digital nomad visa"** (a notable absence vs Mauritius PA,
 ### Property-level ESG considerations
 
 - **Energy efficiency**: BEE (Bureau of Energy Efficiency) Star Rating (1–5) for AC + appliances mandatory; **Building energy code voluntary residential**; EDGE/IGBC certification growing in premium new-build
-- **Solar PV residential**: Net-metering active (state-level — Karnataka, Maharashtra, Gujarat, AP, TN, Telangana lead); typical 5 kWp residential install INR 250,000–450,000 (post-PM Surya Ghar Muft Bijli subsidies); rooftop FiT variable per state
+- **Solar PV residential**: Net-metering active (state-level — Karnataka, Maharashtra, Gujarat, AP, TN, Telangana lead); typical 5 kWp residential install ~INR 250,000–450,000 (2025–26 est., post-PM Surya Ghar Muft Bijli subsidies — verify current installer quotes); rooftop FiT variable per state
 - **Water efficiency**: critical given urban water stress; rainwater harvesting mandatory in many states (e.g., Karnataka KSPCB rule; Tamil Nadu state rule); greywater recycling growing in premium new-build
 - **District-level**: GIFT City Gandhinagar (greenfield IFSC), Kakkanad (Kerala IT corridor), Magarpatta (Pune), Hiranandani Powai (Mumbai), DLF Cybercity (Gurugram) — emerging master-planned ESG-marketed developments
 - **Air quality**: 🔴 Delhi NCR + IGP belt — material livability + ESG concern; HEPA filters + sealed-envelope HVAC standard in premium homes

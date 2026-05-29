@@ -44,6 +44,8 @@ ISO2: `sk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### 2025 average price benchmarks (byty)
 
+(City averages per Realitná únia / Realitymap.sk / Reality Radar cenová mapa, 2025 — sources listed above; rates/figures may have changed since. Top three rows are reported city averages; rows prefixed `~` are estimates.)
+
 | Mesto | Avg cena bytu | Avg plocha | €/m² (byty) |
 |---|---:|---:|---:|
 | **Bratislava** | €223,721 | 72 m² | **3,107 €/m²** |
@@ -58,7 +60,7 @@ ISO2: `sk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### 2025 trend
 
-- May 2025 Realitný barometer: **3,070 €/m²** national avg (rastlostí YoY +13.2 %)
+- May 2025 Realitný barometer: **3,070 €/m²** Bratislava / capital-region avg (per Realitná únia barometer; YoY +13.2 %) — note this is a capital-region figure, NOT a national mean (the national average is far lower given BA is 1.5–2.5× the rest of the country)
 - Q4 2025 expected to close with double-digit YoY growth nationally
 
 ### Listing platforms
@@ -107,7 +109,7 @@ ISO2: `sk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Bratislava extreme
 
-- Bypass section between Gagarinova–Galvaniho intersections: **>100,000 vehicles/day** (busiest in SK)
+- Bypass section between Gagarinova–Galvaniho intersections: **>100,000 vehicles/day** (per SSC Celoštátne sčítanie dopravy 2022-2023, listed above — among the busiest counted segments in SK)
 - Bratislava ring D1/D2: 50,000–80,000 v/d typical
 - City centre: heavy congestion at peak hours
 
@@ -288,7 +290,7 @@ Short-term rental WITH ancillary services (cleaning, breakfast, key handover, et
   - Bratislava: ~€1,800
   - Košice / Žilina: ~€1,400
   - Smaller towns: ~€1,100–€1,300
-- **Minimálna mzda 2025**: €816/mo gross (€100/wk approx)
+- **Minimálna mzda 2025**: €816/mo gross (≈ €188/wk; NV SR / financnasprava.sk)
 - 13. + 14. plat traditions vary by employer
 
 ### Catchment heuristics

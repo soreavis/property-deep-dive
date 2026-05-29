@@ -6,7 +6,7 @@ ISO2: `ge`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 
 - **Population**: ~3.7 million (2024 Geostat estimate); Tbilisi ~1.2 million, Batumi ~170k, Kutaisi ~135k
 - **GDP per capita**: ~US$8,800 (2024 World Bank / Geostat); real GDP +9.4 % 2023, +9.5 % 2024 (Geostat)
-- **Currency**: GEL (Georgian Lari). 1 EUR ≈ 2.95–3.05 GEL, 1 USD ≈ 2.65–2.75 GEL (NBG reference; managed-float with NBG intervention)
+- **Currency**: GEL (Georgian Lari). 1 EUR ≈ 2.95–3.05 GEL, 1 USD ≈ 2.65–2.75 GEL (NBG reference, ~2026-05 — rates float, verify at nbg.gov.ge; managed-float with NBG intervention)
 - **Languages**: Georgian (official, ქართული); Abkhaz official in Abkhazia; Russian widely understood; English common in Tbilisi/Batumi tourist zones
 - **EU status**: Candidate country since **December 2023** (European Council); accession process effectively paused mid-2024 after the "foreign agents" law and contested 2024 election (per EU Council conclusions Dec 2024)
 - **Postcode**: 4 digits (e.g., Tbilisi `0100`–`0199`, Batumi `6000`–`6010`)
@@ -27,7 +27,7 @@ ISO2: `ge`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Geostat real-estate price index**: `https://www.geostat.ge/en/modules/categories/214/real-estate-price-statistics`
   - Quarterly Residential Property Price Index (RPPI), base 2018 = 100
   - Tbilisi-only sub-index published separately
-  - 2024 RPPI: ~165 (Q4 2024 Geostat) → +8 % YoY
+  - 2024 RPPI: ~165 (Q4 2024 Geostat) → +8 % YoY — index may have moved since; check current Geostat RPPI
 - **TBC Capital / Galt & Taggart / Colliers Georgia** — investment-bank quarterly market reviews (secondary, but methodology disclosed)
 - **NBG financial stability reports**: `https://nbg.gov.ge/en/page/financial-stability-report` — incl. mortgage debt + house-price overheating indicators
 
@@ -202,7 +202,7 @@ Same flat, owner household income < 40k GEL:
 #### Batumi-specific
 
 - Adjara 2 GEL/night tourist fee applies (above)
-- "Aparthotel" developments (Wyndham, Orbi, Alliance, Next Iveria etc.) often have built-in management agreements with revenue-share; read terms — typical operator share 30–45 %
+- "Aparthotel" developments (Wyndham, Orbi, Alliance, Next Iveria etc.) often have built-in management agreements with revenue-share; read terms — operator share ~30–45 % (est., from published Batumi aparthotel contracts — verify per development)
 - Seasonal demand: Jun–Sep peak (~80 % occupancy in waterfront), Oct–May ~25–35 % (est., from Colliers 2024 Batumi review — verify)
 
 ### Strategic notes
@@ -237,7 +237,7 @@ Same flat, owner household income < 40k GEL:
 
 - Average monthly nominal wage 2024 Q4 (Geostat): **~2,030 GEL** (~US$750) — economy-wide
 - IT/finance sector Tbilisi: ~3,500–8,000 GEL/month for mid-level (HR.ge market reports 2024)
-- **Minimum wage**: only **20 GEL/month** statutory (1999 figure, never updated — symbolic); effective market floor in Tbilisi ~800–1,200 GEL for low-skill
+- **Minimum wage**: only **20 GEL/month** statutory (1999 figure, never updated — symbolic); effective market floor in Tbilisi ~800–1,200 GEL for low-skill (est., HR.ge low-skill postings 2024 — verify)
 
 ### Catchment heuristics
 
@@ -399,6 +399,8 @@ Same flat, owner household income < 40k GEL:
 | Septic to mains connection | 1,500–6,000 |
 | Annual property tax (residential, owner income > 100k GEL) | 0.8 % × declared value |
 | **Total transaction cost (buyer side, resale)** | **~0.1–0.5 % of price** |
+
+> All contractor-cost ranges (roof, full renovation, building inspector, fit-out) are **est.** from 2024–2025 Tbilisi/Batumi contractor quotes — get 2+ quotes per job.
 
 ## Active fiscal incentives (2025)
 

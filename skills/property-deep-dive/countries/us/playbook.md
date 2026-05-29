@@ -247,7 +247,7 @@ Federal transfer tax: **none.** State + county + municipal vary widely:
 | **H-1B** | Specialty occupation; requires bachelor's + sponsoring employer | 65,000 + 20,000 advanced-degree (annual; lottery) |
 | **L-1A/L-1B** | Intracompany transferee (manager / specialized knowledge) | None |
 | **E-2 Treaty Investor** | Substantial investment from treaty country | None; 50+ treaty countries |
-| **EB-5 Immigrant Investor** | $800,000–$1,050,000 investment + 10 jobs (Regional Center vs Direct) | ~10,000/yr (split per country) |
+| **EB-5 Immigrant Investor** | $800,000 (TEA) / $1,050,000 (standard) investment + 10 jobs (Regional Center vs Direct) — 2022 EB-5 RIA thresholds, inflation-adjusted; verify current with USCIS | ~10,000/yr (split per country) |
 | **O-1** | Extraordinary ability | None |
 | **TN (USMCA)** | Canadian / Mexican professional, listed occupations | None |
 
@@ -269,7 +269,7 @@ Source: [USCIS Visa Categories](https://www.uscis.gov/working-in-the-united-stat
 - **Within 30 min commute** of an MSA principal city → strong employment market
 - **Within 60 min** of an MSA → typical suburban / exurban catchment
 - **> 90 min** from any MSA → rural; remote-work or self-employment dominant
-- **Right-to-work states** (28 as of 2026) vs union-friendly: affects unionised trades
+- **Right-to-work states** (~28 as of 2026 — verify current with NCSL) vs union-friendly: affects unionised trades
 
 **Confidence**: HIGH for federal tax / SE / visa frameworks (IRS + USCIS primary). MEDIUM for state-licensure specifics (verification per state required).
 
@@ -342,7 +342,7 @@ Source: [USCIS Visa Categories](https://www.uscis.gov/working-in-the-united-stat
 - **Zone 1 (red)**: predicted average indoor > 4 pCi/L (action level) — highest potential
 - **Zone 2 (orange)**: 2–4 pCi/L
 - **Zone 3 (yellow)**: < 2 pCi/L
-- **EPA action level**: 4 pCi/L. Mitigation typical $800–$2,500 (sub-slab depressurization).
+- **EPA action level**: 4 pCi/L. Mitigation est. $800–$2,500 (sub-slab depressurization) — verify with a local contractor quote.
 - **Map dates from 1993** — county-level only; **EPA strongly recommends testing every home regardless of zone** (source: [EPA Map of Radon Zones](https://www.epa.gov/radon/epa-map-radon-zones))
 - High-zone states: PA, OH, IA, ND, MN, KY, TN, WV, NM, CO, MT (much of mountain west + Appalachia + upper Midwest)
 
@@ -462,7 +462,7 @@ There is **no national database** of household water/sewer connections. To verif
 | **Appraisal** | $400–$700 (residential); $2,000+ (complex) | Lender-ordered |
 | **Owner's title insurance** | ~0.4–1.0 % of price (one-time) | Varies by state; CA / TX / NY higher; sometimes seller-paid |
 | **Lender's title insurance** | ~0.1–1.0 % of loan amount | Required by lender |
-| **Title-insurance avg national (Fannie Mae sample)** | 0.42 % of price | $1,337 avg on $318k average price |
+| **Title-insurance avg national (Fannie Mae sample)** | est. ~0.42 % of price | est. ~$1,337 avg on a $318k sample average price — sample average predates 2026 and is below this playbook's current NAR median; verify current with Fannie Mae title-cost data |
 | **Settlement / closing fee** | $300–$1,500 | Settlement agent / title company / closing attorney |
 | **Recording fee** | $20–$300 per document | County-set |
 | **State / county transfer tax** | 0–2.5 % of price | None in 12 states; highest DC + DE + NY + CT |

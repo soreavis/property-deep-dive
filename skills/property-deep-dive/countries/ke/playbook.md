@@ -454,7 +454,7 @@ Source: KMD State of Climate annual reports; NDC Kenya: `https://www4.unfccc.int
 
 ### Key context
 
-Kenya is a **moderate-to-high crime environment by global standards** — UNODC 2018 estimates put intentional homicide at **~5.0 per 100,000** (above world median ~6 but well below Latin American + Southern African peers). Property crime + carjacking is the dominant concern; **homicides are concentrated in informal urban settlements + arid northern counties** (banditry + cattle-rustling). **Premium gated suburbs** (Karen, Runda, Muthaiga, Kitisuru, Lavington) — protected by 24-hr armed guard + electric perimeter fence + alarm + armed-response — operate at far lower risk than the average national rate.
+Kenya is a **moderate-to-high crime environment by global standards** — UNODC 2018 estimates put intentional homicide at **~5.0 per 100,000** (above the global median but well below Latin American + Southern African peers — UNODC 2018, >12 months old; rates/figures may have changed since). Property crime + carjacking is the dominant concern; **homicides are concentrated in informal urban settlements + arid northern counties** (banditry + cattle-rustling). **Premium gated suburbs** (Karen, Runda, Muthaiga, Kitisuru, Lavington) — protected by 24-hr armed guard + electric perimeter fence + alarm + armed-response — operate at far lower risk than the average national rate.
 
 ### Specific risk vectors
 

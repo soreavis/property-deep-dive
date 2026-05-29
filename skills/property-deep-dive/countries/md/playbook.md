@@ -633,7 +633,7 @@ Moldova is **civil-law**; **notar** mandatory for any immovable-property transfe
 
 ### Moldova's distinctive position
 
-- **Lowest property-acquisition tax of immediate region** (1.5–3% vs Romania 2–3% post-2026 reform; Bulgaria 3–5%)
+- **Lower property-acquisition tax than Romania/Bulgaria** (1.5–3% vs Romania 2–3% post-2026 reform; Bulgaria 3–5% — though Georgia lower still at 0.1–0.5%, see table above)
 - **EU candidate (Jun 2022) + accession negotiations open (Jun 2024)** — accession path active; multi-year horizon; pricing today reflects "EU candidate discount" (BNS IPLR materially below regional EU peer per-€/m² comparison)
 - **Currency risk**: MDL managed-float more volatile than BGN (currency-board) or RON (managed); position-size accordingly
 - **Romania-citizenship adjacency**: large eligible-by-descent pool gives structural exit-optionality
@@ -767,7 +767,7 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 
 - ~1.0M domestic households (2024 BNS)
 - Average household size: 2.6 persons (declining)
-- Owner-occupier rate: **~93–95%** (one of the highest in Europe — legacy of post-Soviet apartment privatisation)
+- Owner-occupier rate: **~93–95%** (legacy of post-Soviet apartment privatisation)
 - Renter market thin outside Chișinău
 
 ### Implication for property

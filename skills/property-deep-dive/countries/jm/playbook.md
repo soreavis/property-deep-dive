@@ -145,7 +145,7 @@ Source: **TAJ Property Tax** `https://www.jamaicatax.gov.jm/property-tax2` + **L
 
 - **Filing**: due **1 April annually**; can be paid in full or in two/four instalments. Late-payment penalty + interest. Property tax is shared between **central government (TAJ)** and the **parish council** for parochial services (street lights, garbage, parochial roads).
 - **Note**: Jamaica has **no exemption tier for primary residence** as such — UV bands apply uniformly.
-- **Equalisation**: because UV (often 2013-base) lags market price materially in tourist / KSA prime zones, **effective property tax as % of market price is very low** — frequently < 0.10 % of market value (computed: UV ÷ market typically 20-50 % in prime zones × 0.6-0.9 % UV rate).
+- **Equalisation**: because UV (often 2013-base) lags market price materially in tourist / KSA prime zones, **effective property tax as % of market price is very low** — frequently < 0.10 % of market value (computed: UV ÷ market est. ~20-50 % in prime zones [no published UV-to-market ratio — inferred from 2013-base valuation-roll lag] × 0.6-0.9 % UV rate).
 
 ### Transfer Tax (one-time at sale) — Transfer Tax Act
 
@@ -405,7 +405,7 @@ Regulatory status (verified 2026-05):
 
 - **Single distributor**: **Jamaica Public Service Company Limited (JPS)** — `https://www.jpsco.com/` — owns + operates transmission + distribution; serves **~701,670 customers (2024 figure per JPS / OUR)**. Regulator: **OUR**.
 - **Reliability**: **historically variable** — outages from grid faults + tropical storms common. **Post-Hurricane Melissa Oct 2025**: JPS spent ~6-10 weeks restoring service across worst-hit western parishes (JPS + JIS situation reports). **Inverter + battery backup** ("UPS" or "solar + battery") increasingly standard for any middle-class urban household and most resort properties.
-- **Tariff**: **published by OUR** — residential block-tariff structure; **~USD 0.30-0.45 / kWh all-in** typical (one of the higher Caribbean rates) — verify current tariff at OUR + JPS rate cards.
+- **Tariff**: **published by OUR** — residential block-tariff structure; **~USD 0.30-0.45 / kWh all-in** (2025 est., per OUR + JPS rate cards — verify current; among the higher Caribbean rates per OUR/JPS).
 
 ### Costs
 

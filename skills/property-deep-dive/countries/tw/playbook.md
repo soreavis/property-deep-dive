@@ -43,7 +43,7 @@ ISO2: `tw`. Status: ✅ Fully populated (researched 2026-05).
   - Portal: `https://pip.moi.gov.tw/`
 - **公告土地現值 / 公告地價 (announced land present value / announced land value)** — set by 直轄市/縣市 政府 annually (公告地價 every 3 years). Used as 土地增值稅 + 地價稅 base. Historically ~80–90 % of market in recent years (2023 nationwide adjustment narrowed gap).
   - Portal: `https://lvr.land.moi.gov.tw/` → 公告現值/地價 search
-- **房屋現值 (assessed house value)** — set by local 稅捐稽徵處 (local tax authority); base for 房屋稅 (house tax). Typically 20–40 % of market value (significant gap; House Tax 2.0 reform did NOT raise the underlying 評定現值 directly — it raised the rate).
+- **房屋現值 (assessed house value)** — set by local 稅捐稽徵處 (local tax authority); base for 房屋稅 (house tax). est. ~20–40 % of market value (significant gap; varies materially by municipality and build era — verify the actual 評定現值 on the 房屋稅 bill / 稅捐稽徵處 for a specific unit; House Tax 2.0 reform did NOT raise the underlying 評定現值 directly — it raised the rate).
 - **內政部營建署 (Construction and Planning Agency)** statistics on 住宅供需資訊 (housing supply/demand): `https://www.cpami.gov.tw/`
 
 ### Listing platforms (consumer-facing)
@@ -275,13 +275,14 @@ Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcod
   - 保證人 (guarantor): often required — 連帶保證 (joint guarantor) or 履約保證金 (performance deposit) substitution
   - 公證費 (notarization): optional but increasingly used for high-rent leases; ~3,000–10,000 TWD
 - **Income tax on rental** — personal **綜合所得稅** progressive 5–40 %; **公益出租人** registration drops effective rate via 0.43× revenue assumption (vs default 0.43× expenses-deduction; specifics annual)
-- Yields (Q1 2026, gross — 實價登錄租金 vs 實價登錄買賣 price):
-  - **臺北市 大安/信義/松山**: **1.8–2.5 %** (yields among lowest in OECD-comparable markets)
-  - **臺北市 outer + 新北市 板橋/中和/新莊**: **2.5–3.2 %**
-  - **桃園/新竹/竹北 (科技走廊)**: **2.8–3.5 %**
-  - **臺中 西屯/北屯**: **3.0–4.0 %**
-  - **臺南/高雄 prime**: **3.5–4.5 %**
-  - **東部 花蓮/臺東**: **4.0–5.5 %** but illiquid
+- Yields (Q1 2026, gross — derived ratio of 實價登錄租金 ÷ 實價登錄買賣 price):
+  - **臺北市 大安/信義/松山**: **est. 1.8–2.5 %** (yields among lowest in OECD-comparable markets)
+  - **臺北市 outer + 新北市 板橋/中和/新莊**: **est. 2.5–3.2 %**
+  - **桃園/新竹/竹北 (科技走廊)**: **est. 2.8–3.5 %**
+  - **臺中 西屯/北屯**: **est. 3.0–4.0 %**
+  - **臺南/高雄 prime**: **est. 3.5–4.5 %**
+  - **東部 花蓮/臺東**: **est. 4.0–5.5 %** but illiquid
+  - ⚠️ All yield bands above are **est.** rent-÷-price ratios; verify any specific address by pairing the same 街/巷/大樓 rent and sale 實價登錄 records (租金實價登錄 portal cited above) over the last 12 months.
 
 ### Short-term rentals (民宿 + 旅館業)
 
@@ -538,7 +539,7 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 - **房地合一稅 2.0 35 % flat rate for foreigners holding >2 yrs** vs 15–20 % for residents long-term — material drag on foreign-buyer ROI; factor BEFORE offer
 - **公設比 (common-area ratio)** is a Taiwan-specific quirk: a "30 坪" listing with 33 % 公設 = ~20 坪 actually exclusive; ALWAYS demand the breakdown on 不動產說明書
 - **The 1999 (post-921, post-集集) seismic-code watershed is the single most material datum** in build-year diligence — confirm 建造執照 date NOT 完工 date
-- **凶宅 (incident home / haunted house)** disclosure is contractually required (不動產說明書 §13) — non-disclosure is a common dispute basis; 凶宅查詢網 + 591 凶宅標記 for cross-check; pricing discount typically 20–40 %
+- **凶宅 (incident home / haunted house)** disclosure is contractually required (不動產說明書 §13) — non-disclosure is a common dispute basis; 凶宅查詢網 + 591 凶宅標記 for cross-check; pricing discount est. ~20–40 % (market-anecdotal — no central registry of 凶宅 discounts; figure varies widely by case severity, locality, and time since incident)
 - **違建 (illegal additions)** are widespread — rooftop builds, balcony enclosures, pillared shop awnings; 違建 has zero registered area, may be priority demolition target; insist on 建物登記謄本 vs site visit cross-check
 - **Pre-sale 預售屋 unit assignment heavily restricted post-2023-07** — 紅單 flipping effectively dead; buyers must hold to handover or qualify for 5 strict carve-outs
 - **Mortgage CBC macroprudential** (post Sep 2024 7th-round selective credit control): **2nd-home LTV cap 50 % NATIONWIDE** (was 60 % in specific areas only); **3rd-home + high-value LTV 30 %** (was 40 %); **no grace period (寬限期) on 1st-home loans if borrower already owns another property**; tightening waves Jun 2023 + Jun 2024 + Sep 2024 (2026-05-27 verified, source: [CBC 2024-09-19 7th-round release](https://www.cbc.gov.tw/dl-212229-22f1e175e8ca45d7949c8f29dd777ce4.html))
@@ -585,7 +586,7 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
   - **公告地價** (announced land value) — every 3 years, used for 地價稅 (Land Value Tax) base
   - **房屋現值** (assessed house value) — set by local 不動產評價委員會 every 3 years, used for 房屋稅 + 契稅 base
   - **市場價** (market price) — actual; 實價登錄 closes the gap between assessed and market
-- **所有權 vs 地上權 (freehold vs surface right)** — 地上權 50–70 yr products on BOT-style developments traded at 30–50 % discount vs 所有權; finite end-of-life; check 地上權契約 carefully before offer
+- **所有權 vs 地上權 (freehold vs surface right)** — 地上權 50–70 yr products on BOT-style developments traded at est. ~30–50 % discount vs 所有權 (discount depends heavily on remaining lease term — a 地上權 with ~20 yr left discounts far more than one with ~65 yr left); finite end-of-life; check 地上權契約 carefully before offer
 - **預售屋 / 新成屋 / 中古屋** language: 預售屋 = pre-sale (off-plan, paid in instalments during construction); 新成屋 = new completed (≤2 yrs); 中古屋 = secondhand
 - **都市更新 / 危老重建** ("urban renewal" / "aged + hazardous rebuild") — adjacent old buildings often combine into integrated rebuild for FAR bonus; participating units get larger replacement unit but timeline 4–10+ yrs and tens of thousands of consents to assemble
 - **凶宅 (incident home)** disclosure: 不動產說明書 §13 requires disclosure of suicides/homicides/unnatural deaths; 凶宅查詢網 + 591 community markings can verify

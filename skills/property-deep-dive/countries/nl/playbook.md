@@ -100,7 +100,7 @@ ISO2: `nl`. Status: ✅ Fully populated (researched 2026-04).
 ### Annual property tax — OZB (Onroerendezaakbelasting)
 
 - Set per gemeente; rate × WOZ
-- Typical rates: **0.05–0.15%** of WOZ
+- Typical rates: **est. 0.05–0.15%** of WOZ (varies per gemeente; verify at gemeente OZB)
 - 2025-2026 typical: €300–€2,000/yr depending on WOZ + gemeente
 - Owners + users (commercial) tax separately
 - Plus **rioolheffing** (sewerage) + **afvalstoffenheffing** (waste) + **waterschapsbelasting** (water board)
@@ -141,9 +141,9 @@ For primary residence:
 
 ### Total transaction cost (buyer side)
 
-- **First-time buyer < €510k**: **~1–2%** (no transfer tax + notaris + makelaar)
+- **First-time buyer < €555,000 (2026)**: **~1–2%** (no transfer tax + notaris + makelaar)
 - **Mover, primary**: **~3–4%** (2% transfer + ~1–2% other)
-- **Second home / BTL**: **~12–13%** (10.4% transfer + others)
+- **Second home / BTL**: **~10–11%** (8% transfer from 1 Jan 2026 + others)
 
 ### Capital gains
 
@@ -323,12 +323,12 @@ For primary residence:
 | Notaris (transport + hypotheek) | 1,500–3,000 |
 | Kadaster fees | 140–500 |
 | Makelaar (buyer, optional) | 1–2% |
-| **Overdrachtsbelasting (FTB <€510k)** | **0%** |
+| **Overdrachtsbelasting (FTB <€555k, 2026)** | **0%** |
 | **Overdrachtsbelasting (eigen woning)** | **2%** |
-| **Overdrachtsbelasting (2nd home/BTL)** | **10.4%** |
+| **Overdrachtsbelasting (2nd home/BTL, 2026)** | **8%** |
 | **Total transaction cost (FTB)** | **~1–2%** |
 | **Total transaction cost (mover)** | **~3–4%** |
-| **Total transaction cost (BTL/2nd home)** | **~12–13%** |
+| **Total transaction cost (BTL/2nd home)** | **~10–11%** |
 | Asbestos removal | 1,000–10,000 |
 | Funderingsherstel | 40,000–100,000+ |
 | IBA installatie | 5,000–20,000 |
@@ -341,7 +341,7 @@ For primary residence:
 - **NHG (Nationale Hypotheek Garantie)**: cap **€470,000** (2026; €498,200 with energy-saving uplift; was €450k 2025); fee 0.4% of mortgage (2026-05-27 verified; source [Rijksoverheid NHG 2026](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/08/nhg-grens-stijgt-naar-€-470.000))
 - **Starterslening** (gemeente top-up loans for FTB)
 - **Energiesubsidie ISDE**: heat pumps, insulation
-- **30% ruling** for expat workers (4-year, reduced from 5)
+- **30% ruling** for expat workers (60 months / 5 years; tapering repealed, flat 27% for full 60 months from 1 Jan 2027 — see `--work`)
 - **Box 3 vrijstelling**: green investments, social housing
 
 ## Common listing platforms
@@ -353,7 +353,7 @@ For primary residence:
 
 ## Caveats unique to NL
 
-- **Overdrachtsbelasting 10.4% second home/BTL** (since 2023) — punitive on investor purchases
+- **Overdrachtsbelasting 8% second home/BTL** (from 1 Jan 2026; was 10.4% in 2023-2025 — see `--tax`) — punitive on investor purchases
 - **Erfpacht** (ground lease) — Amsterdam ~80% of housing; Den Haag, Utrecht common
   - Canon (annual ground rent) can be €0 (afgekocht) to €25,000+/yr
   - **AB2016 reform** (Amsterdam) lets owners switch from voortdurend to eeuwigdurend (perpetual buyout)
@@ -365,8 +365,8 @@ For primary residence:
 - **Wet werkelijk rendement Box 3 (2028)** — major Box 3 reform
 - **Wet betaalbare huur (1 Jul 2024)** — extended regulation up to ~187 WWS points (~€1,150/mo)
 - **Tijdelijke huur abolished** (1 Jul 2024) — flexible tenancy ending
-- **NHG cap €435,000** — entry-level affordability
-- **30% ruling reduced** — was 5-year, now 4-year
+- **NHG cap €470,000 (2026)** — entry-level affordability (see `--tax` incentives)
+- **30% ruling** — duration remains 5 years (60 months); tapering repealed, flat 27% for full 60 months from 1 Jan 2027 (see `--work`)
 - **Groningen** earthquake compensation programme — affects northern provinces specifically
 - **Climate adaptation** mandatory per gemeente — affects new build constraints
 - **Watersnoodramp** memory (1953) shapes flood policy

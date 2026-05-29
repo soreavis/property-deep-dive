@@ -54,7 +54,7 @@ ISO2: `nz`. Status: ✅ Fully populated (researched 2026-04).
 1. NZD/sqm = price / **floor area** (sqm dominant unit)
 2. Cross-check **REINZ HPI** + **QV** + **Trade Me sold-price**
 3. **HPI vs median**: HPI strips luxury/distressed; median runs 5-10% higher
-4. **Wellington -25.88%** from Oct 2021 peak (worst-affected city)
+4. **Wellington ~-26% est.** from Oct 2021 peak (worst-affected city — verify peak-to-current against QV House Price Index)
 5. **Convert NZD to EUR/USD** at current FX
 
 ### Key terms
@@ -96,12 +96,14 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 
 **No central property tax** — rates are local-authority-only.
 
-| City | Annual rates (typical) |
+| City | Annual rates (~2024-2025 est., typical) |
 |---|---:|
 | Auckland Council | ~0.30% of CV (median ~$3,500) |
 | Wellington | ~0.65% of CV (median ~$4,500) |
 | Christchurch | ~0.60% (median ~$3,800) |
 | Queenstown Lakes | ~0.45% (median ~$5,500) |
+
+Figures are estimates — confirm the current year's rates demand against each council's rates schedule (Auckland Council / Wellington City Council / Christchurch City Council / Queenstown Lakes District Council).
 
 **Rates frozen** in some councils 2024-2025 due to crisis politics.
 
@@ -240,7 +242,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 - **NZ sits on Pacific Ring of Fire / plate boundary**
 - **National Seismic Hazard Model 2022**: raised hazard estimates ~50% nationally
 - **Historical major events**:
-  - **Christchurch (Canterbury) 2010-11** (M7.1 + M6.3 — 185 dead, ~$40B damage)
+  - **Christchurch (Canterbury) 2010-11** (M7.1 + M6.3 — 185 dead, ~$40B damage est. — verify cost with Treasury / Toka Tū Ake)
   - **Kaikoura 2016** (M7.8 — fault rupture, tsunami, port damage)
   - **Hawkes Bay 1931** (M7.8 — 256 dead)
 - **Wellington fault**: high probability of major event in coming decades
@@ -262,7 +264,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 
 #### Flood + landslip
 
-- Auckland 2023 floods (state of emergency, $2B insured losses)
+- Auckland 2023 floods (state of emergency, ~$2B insured losses est. — verify with ICNZ)
 - Cyclone Gabrielle 2023 (Hawkes Bay, Tairāwhiti)
 - Sub-tropical climate: heavy rainfall events increasing
 - Steep terrain landslip risk (Kaikoura, Wellington)
@@ -278,7 +280,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 |---|---|
 | **Pre-1900** | Lead paint, lead pipes |
 | **1920s–1980s** | Asbestos very common (banned 1990) |
-| **1990s–2000s** | **Leaky homes crisis** — monolithic-clad homes pre-2003: water ingress + rot ($11B+ damage) |
+| **1990s–2000s** | **Leaky homes crisis** — monolithic-clad homes pre-2003: water ingress + rot (~$11B+ damage est. — verify with PwC / Dept of Building & Housing estimate) |
 | **Post-2003 H1** | Tightened weathertightness rules |
 | **Post-2018** | Updated insulation + Healthy Homes |
 | **Cross-lease titles** | ~10% Auckland — shared ownership complications |
@@ -297,7 +299,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 
 - **+1.5–4.0°C** by 2100
 - **Sea-level rise**: +20–80 cm by 2100
-- **Heavy rainfall**: +20-30%
+- **Heavy rainfall**: ~+20-30% est. by 2100 (verify against NIWA / MfE projection scenario)
 - **Drought**: increasing eastern regions
 - **Insurance premiums rising** for high-risk zones
 
@@ -362,7 +364,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 - **Foreign-buyer ban (2018)** — AU + SG resident citizens exempt; new builds partly exempt
 - **NHCover (Toka Tū Ake)**: mandatory $300k+GST natural-disaster insurance via property insurance — UNIQUE coverage
 - **Earthquake risk extreme** — NSHM 2022 raised hazard ~50%; Christchurch + Wellington high
-- **Wellington -25.88%** from Oct 2021 peak (hit hardest by recent rate cycle)
+- **Wellington ~-26% est.** from Oct 2021 peak (hit hardest by recent rate cycle — verify against QV House Price Index)
 - **Cross-lease titles** (~10% Auckland) — shared ownership of section, flat plan; clunky for renovations
 - **Leaky homes crisis** (1990s-early 2000s) — monolithic cladding pre-2003 vulnerable
 - **Healthy Homes Standards** mandatory for rentals

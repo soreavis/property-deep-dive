@@ -144,7 +144,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 | Macao SAR resident — second + property | **+5%** of price |
 | **Non-resident buyer (foreigners + corporate)** | **+10%** of price |
 
-⚠️ Effective for foreign buyer of MOP 5M apartment: standard stamp duty (1% × 2M + 2% × 2M + 3% × 1M = 80k) + 0.5% verba (25k) + 10% non-resident BSD (500k) = **~MOP 605k (~12.1%)** total stamp-duty footprint. Verify exact computation with [DSF](https://www.dsf.gov.mo/).
+⚠️ Effective for foreign buyer of MOP 5M apartment: standard stamp duty (1% × 2M + 2% × 2M + 3% × 1M = 90k) + 5% surcharge on the 90k stamp-duty amount (4.5k) + 10% non-resident BSD (500k) = **~MOP 595k (~11.9%)** total stamp-duty footprint. Verify exact computation with [DSF](https://www.dsf.gov.mo/).
 
 ### Other transaction-side costs
 
@@ -169,7 +169,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 ### Future risk
 
 - Periodic CGT discussion tied to gaming-revenue concentration; not currently signalled
-- Annual Budget Law (`Lei do Orçamento`) — owner-occupier 80% rebate has been renewed every year since introduction but is technically annual; watch [Boletim Oficial](https://bo.io.gov.mo/) Series I
+- Annual Budget Law (`Lei do Orçamento`) — owner-occupier MOP 3,500 fixed reduction has been renewed every year since introduction but is technically annual; watch [Boletim Oficial](https://bo.io.gov.mo/) Series I
 
 ---
 
@@ -179,7 +179,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 
 - **Tenancy law**: [Código Civil](https://bo.io.gov.mo/) Art. 969+ (Lei do Arrendamento Urbano absorbed into Civil Code 1999); minimal statutory rent control
 - **Standard tenancy**: 2-year fixed term; 2-month security deposit + 1-month advance; 90-day renewal/termination notice
-- **Property Tax 10%** on actual gross rent paid by landlord (~9% effective with 10% maintenance deduction)
+- **Property Tax 8%** on actual gross rent paid by landlord (~7.2% effective with 10% maintenance deduction) — Law 19/2022, FY 2026 confirmed; see `--tax`
 - Utilities + management fee borne by tenant; rates by landlord typical
 
 ### Yields (Q4 2025 est., DSEC rental + price triangulation)
@@ -574,7 +574,7 @@ Source: [DSAJ list of notários privados](https://www.dsaj.gov.mo/). State notar
 
 | Country | Foreign-buyer rule | Acquisition cost (typical) | Annual recurring | Yield est. | Currency risk |
 |---|---|---:|---:|---:|---|
-| **🇲🇴 Macao** | Open with +10% non-resident BSD | 12–15% non-resident; 3–5% resident | Property Tax 1.2–10% notional/rent | ~3.0–3.5% | MOP→HKD→USD peg |
+| **🇲🇴 Macao** | Open with +10% non-resident BSD | 12–15% non-resident; 3–5% resident | Property Tax 6–8% notional/rent (owner-occ. MOP 3,500 reduction) | ~3.0–3.5% | MOP→HKD→USD peg |
 | **🇭🇰 Hong Kong** | Open since Feb 2024 (no BSD); AVD Scale 2 only | 3–6% | Rates 5% + Gov Rent 3% | ~3.9% | HKD→USD peg |
 | **🇸🇬 Singapore** | ABSD 60% for foreigners (Apr 2023) | 60–65%+ | Property tax progressive | ~3.2% | SGD managed-float |
 | **🇯🇵 Japan** | Open; no foreign-buyer surcharge | 6–10% | 固定資産税 1.4% + 都市計画税 0.3% | ~4.0% Tokyo | JPY free-float |
@@ -617,7 +617,7 @@ Macao is **NOT a retirement-first destination** by international standards — h
 - **No CGT general, no estate duty, no wealth tax** → low-tax retirement jurisdiction
 - Foreign-source pension generally NOT taxed (territorial system)
 - Profissional Tax (7–12%) only if working post-retirement
-- **Property Tax 10%** if letting other Macao properties
+- **Property Tax 8%** if letting other Macao properties (Law 19/2022, FY 2026)
 
 ### Healthcare access
 
@@ -816,7 +816,7 @@ If DSF assesses sale as professional trading: Profissional Tax 7–12% progressi
 | CRP registration fee | ~3,000–15,000 sliding |
 | DSCC cadastral plan certificate | ~500–2,000 |
 | Estate agent commission (each side) | ~1% of price |
-| Stamp Duty (standard 1–3% + 0.5% verba) | per Stamp Duty schedule |
+| Stamp Duty (standard 1–3% + 5% surcharge on duty → effective 1.05–3.15%) | per Stamp Duty schedule |
 | Non-Resident BSD (if applicable) | +10% of price |
 | Resident second-home BSD | +5% of price |
 | Special Stamp Duty (held < 1 yr / 1–2 yrs) | 20% / 10% |
@@ -833,7 +833,7 @@ If DSF assesses sale as professional trading: Profissional Tax 7–12% progressi
 
 ## Active fiscal incentives (2025–26)
 
-- **Owner-occupier 80% Property Tax rebate** — effective ~1.2% on notional value (renewed annually via Budget Law; 2025 confirmed)
+- **Owner-occupier relief** — fixed MOP 3,500 reduction on Property Tax liability (Law 13/2025 = FY 2026; excludes corporates + non-residents); see `--tax` for worked effective rate
 - **First-Time Resident Buyer**: no additional BSD beyond standard 1–3% stamp duty
 - **Public/social/economic housing schemes** via [IH](https://www.ihm.gov.mo/) — subsidised resale ecosystem separate from private market
 - **Talent Programme (DSAMB) — non-fiscal**: residence permit but does NOT confer property-tax preference
@@ -850,7 +850,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 - **NO golden-visa via property** — Investment Residence Scheme (Order 7/2007) suspended 2 April 2007, NOT reactivated; Talent Programme 2024 does NOT take property as criterion
 - **Non-Resident BSD +10%** + Resident second-home BSD +5% — material to any foreign-buyer cost calculation
 - **Special Stamp Duty 20% / 10%** for holds < 1 yr / 1–2 yrs respectively — hard anti-flip floor
-- **Property Tax 10% on rent** vs **6% × 20% = 1.2% effective on owner-occupied notional value** — owner-occupier reset materially preferable
+- **Property Tax 8% on rent** vs **6% of DSF notional value (×0.9 maintenance deduction) minus a fixed MOP 3,500 reduction for owner-occupiers** — owner-occupier reset materially preferable; see `--tax`
 - **Mandatory civil-law notary** (escritura pública) — neutral public officer, separate from buyer's optional advogado
 - **Bilingual deeds** Chinese + Portuguese (Basic Law Art. 9) — both versions equally authoritative
 - **UNESCO Macao Historic Centre buffer zone** — 22 buildings + 8 squares + 8 protection zones under [Heritage Law 11/2013](https://bo.io.gov.mo/bo/i/2013/36/lei11.asp); strict modification + maintenance limits enforced by Instituto Cultural
@@ -937,7 +937,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Locked-in via primary government sources: Stamp Duty regime (DSF + Law 17/88/M + Law 4/2018 non-resident BSD + Law 6/2011 SSD anti-flipping), Property Tax (DSF + Law 19/78/M + annual Budget Law 80% owner-occupier rebate), AMCM mortgage LTV (Notice 014/2018-AMCM), Talent Programme (Law 7/2023 + DSAMB), Land Law (Law 10/2013 — all land state-owned, leasehold concessions), Investment Residence Scheme suspension (Despacho 7/2007 — confirmed NOT reactivated via Boletim Oficial archive + DSI), Heritage Law 11/2013, gaming concession renewal (DICJ Jan 2023 → Dec 2032), CRP/DSCC cadastral framework (DL 46/99/M Código do Registo Predial), STR prohibition (DL 16/96/M + Law 3/2010), DSEC quarterly real-estate statistics. **Re-verify each annual November Budget Law** for owner-occupier 80% rebate renewal + any stamp-duty adjustment; **re-verify Talent Programme** scope evolution (recent 2024 launch — implementation details still emerging through 2025–2026); **2017 Hato + 2018 Mangkhut storm-surge precedent** materially shifted insurance underwriting on inner-harbour ground-floor stock — verify current sub-limits per quote. **Watch list 2026**: any new Macao golden-visa programme (recurring industry speculation; ruled out as of 2026-05); AMCM LTV adjustment with property-cycle turn; DSF Property Tax reassessment cycle (notional values currently anchored early-2010s); Hengqin Cooperation Zone integration impact on cross-border residential demand; LRT Hengqin Line under construction (further connectivity step-change when opened).
+**Notes**: Locked-in via primary government sources: Stamp Duty regime (DSF + Law 17/88/M + Law 4/2018 non-resident BSD + Law 6/2011 SSD anti-flipping), Property Tax (DSF + Law 19/78/M + annual Budget Law owner-occupier MOP 3,500 fixed reduction), AMCM mortgage LTV (Notice 014/2018-AMCM), Talent Programme (Law 7/2023 + DSAMB), Land Law (Law 10/2013 — all land state-owned, leasehold concessions), Investment Residence Scheme suspension (Despacho 7/2007 — confirmed NOT reactivated via Boletim Oficial archive + DSI), Heritage Law 11/2013, gaming concession renewal (DICJ Jan 2023 → Dec 2032), CRP/DSCC cadastral framework (DL 46/99/M Código do Registo Predial), STR prohibition (DL 16/96/M + Law 3/2010), DSEC quarterly real-estate statistics. **Re-verify each annual November Budget Law** for owner-occupier MOP 3,500 fixed reduction renewal + any stamp-duty adjustment; **re-verify Talent Programme** scope evolution (recent 2024 launch — implementation details still emerging through 2025–2026); **2017 Hato + 2018 Mangkhut storm-surge precedent** materially shifted insurance underwriting on inner-harbour ground-floor stock — verify current sub-limits per quote. **Watch list 2026**: any new Macao golden-visa programme (recurring industry speculation; ruled out as of 2026-05); AMCM LTV adjustment with property-cycle turn; DSF Property Tax reassessment cycle (notional values currently anchored early-2010s); Hengqin Cooperation Zone integration impact on cross-border residential demand; LRT Hengqin Line under construction (further connectivity step-change when opened).
 
 ## Extension TODOs (deepen on first real run)
 

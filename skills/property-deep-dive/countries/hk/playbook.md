@@ -23,7 +23,7 @@ ISO2: `hk`. Status: ✅ Fully populated (researched 2026-05).
   - **28 Feb 2024**: BSD (Buyer's Stamp Duty 15%), SSD (Special Stamp Duty up to 20%), NRSD (New Residential Stamp Duty 7.5%) **all abolished**; mortgage stress test suspended ([HKMA 2024-02-28 circular](https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20240228-3-EN/20240228-3-EN.pdf))
   - **1 Mar 2024**: New CIES launched
   - **23 Mar 2024**: Safeguarding National Security Ordinance (Article 23 / SNSO) effective ([news.gov.hk 2024-03-19](https://www.news.gov.hk/eng/2024/03/20240319/20240319_191521_516.html)) — material to foreign-capital sentiment / cross-border data; not directly to property law
-  - **16 Oct 2024**: HKMA further raised LTV — up to 70% for properties ≤ HK$30M (was tiered to HK$15M); 60–70% HK$30–35M; 60% above HK$35M ([HKMA 2024-10-16](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241016-4/))
+  - **16 Oct 2024**: HKMA unified the maximum LTV for all residential properties at a flat 70% regardless of value (the earlier tiered schedule no longer applies — see `--finance`) ([HKMA 2024-10-16](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241016-4/))
   - **2024 Extension of Government Leases Bill** — settled the 2047 question for the vast majority of land (auto 50-yr extension, no premium)
 
 ## Section: `--price`
@@ -482,7 +482,7 @@ HIGH for HKO downscaled projections; MEDIUM for sub-2km sea-level inundation spe
 - **HIBOR cycle**: HKD pegged → tracks USD Fed; 1M HIBOR Q1 2026 ≈ 4.0–4.5% (down from peak ~5.5% in 2023). Effective mortgage rate Q1 2026: ≈ 3.5–4.0% all-in
 - **Foreigner mortgages**: most HK retail banks offer to non-residents but typically demand:
   - HK bank account (open with passport + proof of address)
-  - 50–60% LTV maximum (more conservative than HKPR)
+  - est. 50–60% LTV maximum (bank-by-bank policy, not an HKMA cap; more conservative than HKPR) — confirm with target bank
   - Income evidence + tax returns from home country
   - Major non-resident-friendly: HSBC, Standard Chartered, BOCHK, Hang Seng, DBS, Citibank
 
@@ -536,7 +536,7 @@ HKMA's [USD foreign reserves](https://www.hkma.gov.hk/eng/data-publications-and-
 
 - Total HK$30M+ across:
   - **Listed equities + bonds + qualifying funds**: max-permissible allocation
-  - **Hong Kong residential property**: capped at **HK$10M** (and only counted toward the HK$30M if total transaction price ≥ HK$50M; only the HK$10M counts; balance must be in financial assets) — essentially a "ancillary" bucket, NOT primary qualifying investment
+  - **Hong Kong real estate** (post 17 Sept 2025 reform): minimum single-property transaction HK$30M (lowered from HK$50M); aggregate real-estate cap HK$15M of which residential ≤ HK$10M (non-residential can fill the additional HK$5M); only the capped amount counts toward the HK$30M, balance must be in financial assets ([newcies.gov.hk Investment Requirement](https://www.newcies.gov.hk/en/application-procedures/application-to-investhk/investment-requirement/)) — essentially an "ancillary" bucket, NOT primary qualifying investment
   - **Non-residential property**: case-by-case
   - **Capital Investment Entrant Scheme Investment Portfolio**: alternative pooled-fund route
 - Net-worth threshold: HK$30M+ for 6 months preceding application
@@ -558,7 +558,7 @@ HKMA's [USD foreign reserves](https://www.hkma.gov.hk/eng/data-publications-and-
 ### Mandatory
 
 - **Fire Insurance**: required by every mortgage lender; covers building structure (NOT contents); typical premium **0.03–0.15% of sum insured** ([Generali HK 2024](https://www.generali.com.hk/EN_US/blog/insurance-knowledge/fireinsurance))
-  - Sum insured = **rebuild cost** (not market price) — typically HK$3,000–HK$8,000 per saleable sq ft for standard concrete frame
+  - Sum insured = **rebuild cost** (not market price) — est. ~HK$3,000–HK$8,000 per saleable sq ft for standard concrete frame (market heuristic, not an insurer-published rate; confirm with a quantity surveyor / RICS HK rebuild-cost assessment)
   - Multi-unit DMC may stipulate **block-policy** purchased centrally by Owners' Corporation; individual unit owners pay pro-rata via management fee — confirm before duplicating
 - **Third-party liability**: typically embedded in home-content / fire policy; statutory minimum HK$10M typical for Owners' Corporation block policy
 
@@ -922,7 +922,7 @@ If IRD assesses sale as "trading" rather than capital disposal:
 - **Cap. 349 short-let prohibition < 28 consecutive days** — kills standard Airbnb-style short-let model; pivot to monthly+ serviced apartment
 - **No CGT, no estate duty, no GST/VAT** — HK is structurally low-tax compared to UK/EU/JP; trading-recharacterization the main downside
 - **Stamp duty Scale 2 only since 28 Feb 2024** — historical BSD/SSD/NRSD analyses are obsolete; verify current state in any 2024+ analysis
-- **HKMA LTV regime tiered at HK$30M / HK$35M** post Oct 2024 (was HK$15M previous)
+- **HKMA LTV unified at a flat 70%** for all residential properties regardless of value post 16 Oct 2024 (the earlier tiered HK$30M / HK$35M schedule no longer applies — see `--finance`) — verify with target bank
 - **MBIS / MWIS levy exposure** for buildings >30 yrs — request Owners' Corporation compliance status
 - **DMC restrictions**: hotel/guesthouse/short-let prohibition near-universal in private residential; verify before any STR strategy
 - **Ten-year-plus old buildings** with cracking façades / structural concerns: BD Order to Repair → Owners' Corporation special levy unavoidable

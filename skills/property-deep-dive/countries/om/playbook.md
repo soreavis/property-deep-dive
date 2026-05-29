@@ -2,7 +2,7 @@
 
 ISO2: `om`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-01).
 
-> **Critical framing**: Oman is a **strictly foreign-buyer-restricted market**. Non-GCC nationals can only acquire freehold real estate inside designated **Integrated Tourism Complexes (ITCs)** under Royal Decree 12/2006 (as amended). Outside an ITC, only **GCC nationals** can register a freehold title; non-GCC foreigners cannot acquire any registered residential interest. **Agricultural land is closed to foreigners full-stop.** Oman has **NO recurring property tax**, **NO personal income tax**, **NO capital gains tax for individuals**, and a 5% VAT regime (since Apr 2021). Currency risk vs USD is structurally zero — OMR is pegged at **3.4490 OMR per USD (i.e. USD 1 = OMR 0.3850) since 1986** by the Central Bank of Oman. Confirm ITC status with the Ministry of Housing & Urban Planning Land Registry **before** signing any reservation form.
+> **Critical framing**: Oman is a **strictly foreign-buyer-restricted market**. Non-GCC nationals can only acquire freehold real estate inside designated **Integrated Tourism Complexes (ITCs)** under Royal Decree 12/2006 (as amended). Outside an ITC, only **GCC nationals** can register a freehold title; non-GCC foreigners cannot acquire any registered residential interest. **Agricultural land is closed to foreigners full-stop.** Oman has **NO recurring property tax**, **NO personal income tax**, **NO capital gains tax for individuals**, and a 5% VAT regime (since Apr 2021). Currency risk vs USD is structurally zero — OMR is pegged at **USD 1 = OMR 0.3850 (i.e. 1 OMR ≈ USD 2.60) since 1986** by the Central Bank of Oman. Confirm ITC status with the Ministry of Housing & Urban Planning Land Registry **before** signing any reservation form.
 
 ## Country profile
 
@@ -145,7 +145,7 @@ Per Royal Decree 12/2006 (as amended) — verify current designated list at **MH
 3. **Trap**: ITC prices carry a 30–80% premium over equivalent non-ITC stock because of the foreign-buyer freehold premium + tourism demand — don't average ITC and non-ITC.
 4. **Trap**: Off-plan list price ≠ ready market — apply 5–15% off-plan-to-handover discount when comparing.
 5. **Trap**: Service charges + cooling/utilities are SEPARATE — gross yield headlines often ignore them.
-6. **Trap**: Hawana Salalah is **highly seasonal** (khareef monsoon Jul–Sep drives 80% of annual demand) — annualised yield ≠ peak-season yield.
+6. **Trap**: Hawana Salalah is **highly seasonal** (khareef monsoon Jul–Sep drives most annual demand — est.; verify occupancy with master OA) — annualised yield ≠ peak-season yield.
 7. **Trap**: Some listings quote total price including furniture, parking, storage — strip out chattel for like-for-like comparison.
 
 ---
@@ -491,7 +491,7 @@ Oman urban property is essentially **always on mains** for water + electricity +
 
 ### Key context
 
-Oman is **one of the safest countries globally** by per-capita crime metrics — comparable to or safer than UAE and Qatar. **Homicide rate ~0.4 per 100,000** (2018 latest UNODC + NCSI; among the world's lowest). Property crime is low; petty theft localised in tourist-density and souq areas. Strong ROP visibility + low population density create natural deterrence.
+Oman is **one of the safest countries globally** by per-capita crime metrics — comparable to or safer than UAE and Qatar. **Homicide rate ~0.4 per 100,000** (2018 latest UNODC + NCSI; among the world's lowest — figures may have changed since). Property crime is low; petty theft localised in tourist-density and souq areas. Strong ROP visibility + low population density create natural deterrence.
 
 ### Specific risk vectors
 
@@ -933,7 +933,7 @@ Workable pathways for remote-working visitors:
 
 ### Climate-physical risk (cross-section to `--climate` + `--risks`)
 
-- **Cooling-load growth**: +1.5–3.0 °C → operating-cost trajectory upward; cooling = 50–60% of household electricity in Muscat.
+- **Cooling-load growth**: +1.5–3.0 °C → operating-cost trajectory upward; cooling ~50–60% of household electricity in Muscat (est. — typical GCC HVAC load; verify against Nama consumption data).
 - **Cyclone-event resilience**: post-Shaheen 2021 building code updates; ITC seawall + drainage standards tightened.
 - **Coastal SLR + storm surge** (Muscat Corniche, Hawana Salalah, Al Mouj outer fronds): low-elevation stock progressively higher insurance + retrofit cost.
 
@@ -1044,7 +1044,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **Cyclone exposure materially higher than UAE/KSA/Qatar** — Cyclones Gonu 2007, Mekunu 2018, Shaheen 2021 baseline; verify drainage history + ITC seawall design + post-Shaheen upgrade coverage.
 - **OMR pegged USD at 0.3850 since 1986** — zero FX risk for USD asset holders; meaningful FX risk vs EUR / GBP / floating currencies.
 - **Smaller market depth than UAE/KSA** — secondary-market liquidity thinner; position ITC investments as lifestyle/retirement plays rather than pure rental yield.
-- **Hawana Salalah is highly seasonal** (khareef monsoon Jul–Sep drives 80% of annual STR demand) — annualised yield ≠ peak-season yield.
+- **Hawana Salalah is highly seasonal** (khareef monsoon Jul–Sep drives most annual STR demand — est.; verify occupancy with master OA) — annualised yield ≠ peak-season yield.
 - **Sharia inheritance default for Muslim residents**; non-Muslim foreign owners should structure ownership/estate plan with Omani-licensed counsel; **no DIFC/ADGM-equivalent will framework** exists in Oman.
 - **AML source-of-funds documentation required** at MHUP registration under Royal Decree 30/2016.
 - **Postal codes are 3-digit area codes** (Muscat 100, Salalah 211); not building-level — parcel ID is Plot + Block + Sector on Title Deed.

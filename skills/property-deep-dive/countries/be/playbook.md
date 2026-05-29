@@ -95,21 +95,21 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 - Base: indexed RC × **1.25%** (régional SPW Fiscalité) + opcentimes provinciales + opcentimes communales (2026-05-27 verified, source: finances.wallonie.be)
 - SPW Fiscalité has collected Wallonia précompte since 1 Jan 2021 (previously SPF Finances)
 - Effective rate ~30–60% of indexed RC depending on commune
-- Typical residential: **€600–€2,500/yr**
+- Typical residential: **~€600–€2,500/yr est.** (indexed RC × ~30–60% effective rate above — verify on your own RC)
 - **Réduction modeste** for primary residence under conditions
 
 #### Vlaanderen
 
 - Base: indexed KI × **3.97%** (basisheffing VLABEL) + opcentiemen provincie + opcentiemen gemeente (2026-05-27 verified, source: VLABEL belastingen.vlaanderen.be — highest regional base rate in BE)
 - Effective rate ~35–65% of indexed KI
-- Typical residential: **€700–€2,800/yr**
+- Typical residential: **~€700–€2,800/yr est.** (indexed KI × ~35–65% effective rate above — verify on your own KI)
 - **Vermindering** for primary residence + dependents
 
 #### Bruxelles-Capitale
 
 - Base: indexed RC × **1.25%** (régional Bruxelles Fiscalité) + opcentimes communales (Agglomération bruxelloise) (2026-05-27 verified, source: be.brussels/Bruxelles Fiscalité)
 - Effective rate ~25–55% of indexed RC
-- Typical residential: **€1,000–€3,500/yr**
+- Typical residential: **~€1,000–€3,500/yr est.** (indexed RC × ~25–55% effective rate above — verify on your own RC)
 
 ### Transaction taxes — Droits d'enregistrement / Registratierechten
 
@@ -142,8 +142,8 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 ### TVA / BTW (new builds)
 
-- **21%** (new build / off-plan first sale) — replaces droits d'enregistrement
-- Only applies first year + reduces to droits later
+- **21%** (new build / off-plan first sale) — replaces droits d'enregistrement on the building portion (source: fin.belgium.be — verify current rate)
+- Applies to the building/construction portion (21% VAT); the land portion is taxed under regional droits d'enregistrement / registratierechten — a building-vs-land split, not a time-based reversion (source: fin.belgium.be — verify)
 - **6% demolition + reconstruction (permanent from 1 Jul 2025)** (2026-05-27 verified, source: fin.belgium.be / Loyens & Loeff): on construction works for owner-occupier primary residence ≤175 m² with ≥5-yr occupation OR long-term rental ≥15 yrs. From 18 Jul 2025 Programme Law (in force 29 Jul 2025), 6% **also covers the sale** of newly-reconstructed buildings (surface cap lowered from 200→175 m²).
 
 ### Total transaction cost (buyer side)
@@ -158,8 +158,8 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Primary residence sale**: exempt
 - **Investment property held >5 yrs**: exempt
-- **Speculative (held <5 yrs)**: 16.5% +communal surcharges
-- **Land speculation (<8 yrs)**: 33% +surcharges
+- **Speculative (held <5 yrs)**: 16.5% (+ communal surcharges) — verify current rate at fin.belgium.be (the 2025 federal budget legislated a new general capital-gains regime taking effect 2026; this figure may be superseded)
+- **Land speculation (<8 yrs)**: 33% (+ surcharges) — verify current rate at fin.belgium.be (same 2026 CGT-regime caveat as above)
 
 ### Future risk
 
@@ -315,7 +315,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 - Universal in urban areas across all three régions
 - Some rural Wallonie / Eifel border on individual systems (fosses septiques)
-- Vlaanderen >97% mains coverage
+- Vlaanderen ~97% mains coverage (est.)
 - Wallonie ~85% mains coverage
 
 ### Costs
@@ -328,7 +328,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 ---
 
-## Cost benchmarks (BE 2026)
+## Cost benchmarks (BE 2026) — est. ranges, verify with contractor quotes
 
 | Work | Cost (€) |
 |---|---:|

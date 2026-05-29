@@ -222,7 +222,7 @@ Annual recurring tax:               ~USD 2,625
 ### Future risk
 
 - Periodic talk of re-aforo catastral nacional (general re-valuation) — would raise VRC closer to market and significantly increase ongoing taxes; last major re-valuation 2012; **monitor MEF + DNC announcements**
-- Tax-residency threshold (UI 3,500,000) is policy-mutable — has been lowered before; could be raised
+- Tax-residency real-estate threshold (now **UI 12,500,000** per Ley 20.446, eff. 2026-01-01; prior UI 3.5M grandfathered for pre-2026 residency) is policy-mutable — has been changed before; could be raised or lowered
 - **EU "list of non-cooperative jurisdictions" pressure**: Uruguay was on/off the EU grey list 2017–2020; full alignment with OECD BEPS could affect corporate-structure taxation of property holdings
 
 ---
@@ -266,7 +266,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 - **Ministerio de Turismo Registro Único de Operadores Turísticos (RUOT)** — required for certain hospitality services (`https://www.gub.uy/ministerio-turismo/`)
 
 #### Tax regime for STR
-- Same IRPF Cat I (7% effective) for residents OR IRNR (12%) for non-residents
+- Same IRPF Cat I (12%) for residents OR IRNR (12%) for non-residents (resident STR rental is ordinary IRPF Cat I rental — see rental tax table above; the 6% preferential rate is the Ley 20.446 foreign-passive-income rate, not an STR rate)
 - If letting becomes "habitual + organized" → may be re-classified by DGI as **IRAE actividad empresarial** (25% on net + IP + BPS aportes); threshold judgment-based; consult contador
 - **IVA**: STR rentals for vivienda exempt; if treated as hotelero (con servicios accesorios = limpieza diaria, recepción, cocina) may attract IVA (currently 22%, with reduced rates for tourism services in some seasons)
 
@@ -502,7 +502,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 
 ## Caveats unique to UY
 
-- **Tax-residency 11-year exemption** is THE headline foreign attraction — Uruguay has been a wealth-relocation destination from Argentina + Brazil since the 2000s and the 2020 reform doubled-down on this
+- **Tax-residency foreign-income holiday** (acquisition year + 10 fiscal years, then 5 yrs at 6% per Ley 20.446, eff. 2026-01-01 — supersedes the prior flat 11-year exemption) is THE headline foreign attraction — Uruguay has been a wealth-relocation destination from Argentina + Brazil since the 2000s and the 2020 reform doubled-down on this
 - **VRC-vs-market gap** typically 30–60% means **ITP cash cost is lower than the headline 4% suggests** — but Contribución Inmobiliaria (annual) also taxed on VRC, so it cuts both ways
 - **USD-pricing convention** for sales — verify whether USD billete or USD wire (slight cash premium); rentals usually UYU with UI/USD adjustment
 - **ITP customarily split 2% + 2%** but negotiable — premium PdE deals sometimes shift split

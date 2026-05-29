@@ -8,7 +8,7 @@
 
 ## Country profile
 
-Lithuania is a small Baltic state (~2.8M pop) with a unified land/cadastre system (Registrų centras) — making title checks materially simpler than in Latvia. EU + eurozone + Schengen. Most foreign buyers transact in Vilnius (~€2,930/m² apt avg, +10.7% YoY Dec 2025); secondary cities (Kaunas, Klaipėda) trail. Major 2026 reforms: progressive PIT (20/25/32%) + new immovable-property tax structure for non-main residences. Lithuania exited the BRELL (RU/BY) electricity grid 8 Feb 2025 and synchronized with Continental European Network — energy-security upgrade, but a relevant macro context for utility cost stability.
+Lithuania is a small Baltic state (~2.8M pop) with a unified land/cadastre system (Registrų centras) — making title checks materially simpler than in Latvia. EU + eurozone + Schengen. Most foreign buyers transact in Vilnius (~€2,930/m² apt avg, +10.7% YoY Dec 2025); secondary cities (Kaunas, Klaipėda) trail. Major 2026 reforms: progressive PIT (20/25/32%) + new immovable-property tax structure for non-main residences. Lithuania exited the BRELL (RU/BY) electricity grid 8 Feb 2025 and synchronized with Continental European Network — energy-security upgrade, a macro context relevant to utility-cost stability (see `--mains`).
 
 ---
 
@@ -131,7 +131,7 @@ Source: https://taxsummaries.pwc.com/lithuania/individual/income-determination
 **All rental income taxable — no exemption threshold.**
 
 **2025-2026 reform watch**:
-- EU Regulation 2024/1028 on STR data collection enters mandatory enforcement **May 2026** → Lithuania will introduce a national STR registration number requirement
+- EU Regulation 2024/1028 on STR data collection enters mandatory enforcement **May 2026** → Lithuania will introduce a national STR registration number requirement (regulation number + enforcement date verify against the EUR-Lex primary text — the source below is a secondary aggregator)
 - No Vilnius-wide cap or zoning ban announced as of Apr 2026 (unlike Lisbon/Barcelona)
 
 Source: https://etias.com/articles/eu-short-term-rental-regulations
@@ -156,7 +156,7 @@ Standard universal `--work=<profession>` resolution. Strongest demand: tech (Vil
 - Klaipėda + Curonian Spit (Neringa) — sea-level rise + storm surge; compound coastal-river risk documented (MDPI Water 2022)
 
 ### Seismic
-- Negligible. Baltic Shield craton — peak ground acceleration <0.04g for 475-year return; **no building seismic code requirement**
+- Negligible. Baltic Shield craton — peak ground acceleration ~<0.04g est. for 475-year return (European seismic hazard maps — verify at ESHM); **no building seismic code requirement**
 
 ### Forest fire
 - Highest in **Dzūkija** (SE LT — Varėna, Alytus, Lazdijai, Druskininkai districts) — Scots pine on infertile sandy soils + Čepkeliai peatland
@@ -203,7 +203,7 @@ Soviet-built; substantially modernized. Network heat losses dropped from **33% �
 
 ### Electricity
 - **ESO (Energijos skirstymo operatorius)** — sole DSO
-- **Lithuania exited BRELL grid 8 Feb 2025** and synchronized with Continental European Network — landmark energy-security event; consumer prices have stabilized post-crisis
+- **Lithuania exited BRELL grid 8 Feb 2025** and synchronized with Continental European Network — landmark energy-security event; post-synchronization, wholesale electricity prices appear to have stabilized vs the 2022-23 spike (verify current tariffs at ESO / Litgrid)
 
 ---
 
@@ -266,7 +266,7 @@ Universal — see `shared/climate-projections.md`.
 - **Denationalization legacy**: 1991 restitution applied **only to LT citizens at time of nationalization**, excluding most diaspora. Largely concluded; **no restitution exists yet for heirless Jewish property**. Some urban plots in Vilnius/Kaunas have unresolved historic-claim flags — pull "Ownership history" in Registrų centras extract
 - **Curonian Spit (Neringa) UNESCO**: strict heritage rules; new construction effectively banned in protected zone. Buy resale only; expect renovation permit complexity
 - **Old Town Vilnius (UNESCO 1994)**: demolition forbidden, exterior changes need Heritage Commission consent
-- **Banking**: 3 Scandinavian banks dominate (Swedbank, SEB, Luminor). Mortgage to non-residents possible but typically requires LT income source or 40%+ LTV cap
+- **Banking**: 3 Scandinavian banks dominate (Swedbank, SEB, Luminor). Mortgage to non-residents possible but typically requires LT income source or a larger deposit (non-resident LTVs commonly capped well below the 85% resident ceiling at `--tax` — verify with the specific bank)
 
 ---
 

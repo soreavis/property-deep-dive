@@ -5,7 +5,7 @@ ISO2: `tn`. Status: RESTRICTED for foreign buyers (governor authorisation regime
 ## Country profile
 
 - **Population**: ~12.07 M (2024 INS estimate, source `https://www.ins.tn/`); coastal concentration (Tunis–Sfax–Sousse axis ~60 % of population)
-- **Currency**: TND (Tunisian dinar) — **managed float, semi-convertible**. Not a freely-convertible currency for residents; capital controls under Code des Changes administered by the **Banque Centrale de Tunisie (BCT)** (`https://www.bct.gov.tn/`). 1 EUR ≈ 3.30–3.45 TND (2025–2026 range). Informal/parallel forex premium typically 5–15 % above official BCT rate during stress periods. **IMF EFF programme** — staff-level agreement Oct 2022 (USD 1.9 bn / SDR 1.472 bn over 48 months); **President Saied publicly rejected the IMF terms in April 2023** citing sovereignty + opposition to subsidy reform; negotiations remained in limbo through 2024–2026 with Tunisia pursuing bilateral alternatives (Saudi USD 500m, World Bank USD 520m, AfDB €92m, EU MoU €150m) (2026-05-27 verified, source IMF country page + ORF + The National) — keep monitoring.
+- **Currency**: TND (Tunisian dinar) — **managed float, semi-convertible**. Not a freely-convertible currency for residents; capital controls under Code des Changes administered by the **Banque Centrale de Tunisie (BCT)** (`https://www.bct.gov.tn/`). 1 EUR ≈ 3.30–3.45 TND (2025–2026 range). Informal/parallel forex premium typically 5–15 % above official BCT rate during stress periods. **IMF EFF programme** — staff-level agreement Oct 2022 (USD 1.9 bn / SDR 1.472 bn over 48 months); **President Saied publicly rejected the IMF terms in April 2023** citing sovereignty + opposition to subsidy reform; the EFF programme was **formally suspended Mar 2024** and negotiations remained in limbo through 2024–2026 with Tunisia pursuing bilateral alternatives (Saudi USD 500m, World Bank USD 520m, AfDB €92m, EU MoU €150m) (2026-05-27 verified, source IMF country page + ORF + The National) — keep monitoring.
 - **Languages**: Arabic (official, Tunisian dialect + MSA); **French dominant in business + property + legal practice** (notarial deeds drafted in French or bilingual); Tamazight in southern + interior pockets; English growing in tech + tourism but not in cadastre/notary practice
 - **Legal system**: Civil-law tradition (French-influenced via Protectorate 1881–1956). Property law codified in **Code des Droits Réels (CDR)** (Decree-Law of 12 Sept 1957, repeatedly amended; major reforms 1965, 1992, 2024). Sharia governs personal status (Code du Statut Personnel 1956 — Tunisia's relatively progressive family-law code).
 - **Cadastre / registry**:
@@ -34,7 +34,7 @@ ISO2: `tn`. Status: RESTRICTED for foreign buyers (governor authorisation regime
 
 ### Governor's authorisation regime — the default rule
 
-(Primary source: Code des Droits Réels art. 22 + Decree-Law 1957-09-12 + Loi 1964-22 + Loi 1983-87 amendments; consolidated guidance via Tunisian Investment Authority **TIA** `https://tia.gov.tn/` and Ministry of Local Affairs)
+(Primary source: Code des Droits Réels art. 22 + Decree-Law 1957-09-12 + Loi 64-5 du 12 mai 1964 + Loi 1983-87 amendments; consolidated guidance via Tunisian Investment Authority **TIA** `https://tia.gov.tn/` and Ministry of Local Affairs)
 
 | Item | Threshold | Notes |
 |---|---|---|
@@ -64,7 +64,7 @@ ISO2: `tn`. Status: RESTRICTED for foreign buyers (governor authorisation regime
 
 ### Agricultural land — FULL BAN for foreign individuals
 
-(Primary source: Constitution of 2022 art. 13 retaining agricultural-land sovereignty + Loi 1964-22 + Loi 1983-87)
+(Primary source: Constitution of 2022 art. 13 retaining agricultural-land sovereignty + Loi 64-5 du 12 mai 1964 + Loi 1983-87)
 
 - **Foreigners (individuals or foreign-controlled companies) CANNOT own agricultural land** in Tunisia, full stop, regardless of governor authorisation
 - **Workarounds (limited)**:
@@ -107,7 +107,7 @@ This is the second deal-killer trap (parallel to Morocco's Office des Changes). 
 
 ### Confidence
 
-**HIGH** for the governor-authorisation default rule + agricultural-land ban (CDR + Loi 1964-22 are stable foundational texts). **HIGH** for BCT FX-inflow registration mechanics (Code des Changes + standard banking practice well-documented). **MEDIUM** for the Zone Touristique current map (ONTT updates not always promptly published — always verify the parcel's current zone status with the commune + ONTT). **MEDIUM** for the Investor Visa pending reform (decree drafted but not gazetted at last verification).
+**HIGH** for the governor-authorisation default rule + agricultural-land ban (CDR + Loi 64-5 du 12 mai 1964 are stable foundational texts). **HIGH** for BCT FX-inflow registration mechanics (Code des Changes + standard banking practice well-documented). **MEDIUM** for the Zone Touristique current map (ONTT updates not always promptly published — always verify the parcel's current zone status with the commune + ONTT). **MEDIUM** for the Investor Visa pending reform (decree drafted but not gazetted at last verification).
 
 ---
 
@@ -230,7 +230,7 @@ LOW–MEDIUM — per-segment traffic counts comparable to French TMJA datasets a
 | **Notaire (notarial fees)** | **~1 %** of price (sliding scale, *barème indicatif* of the **Chambre Nationale des Notaires de Tunisie** — `https://www.notaires.org.tn/`) + **19 % VAT (TVA)** on the fee |  |
 | **Timbre fiscal (stamp duty on the deed)** | nominal flat amounts per page | Code des Droits de Timbre |
 | **Honoraires d'agent immobilier** | **2.5–3 %** of price + **19 % TVA** typical (negotiable; sometimes split 50/50, sometimes seller pays) | Market practice |
-| **Total transaction cost (buyer side)** | **~7–9 %** of price | Sum of above |
+| **Total transaction cost (buyer side)** | **~10–14 %** of price for existing resale (registration duty 6–10 % + notary ~1 % + CPF 1 % + agent 2.5–3 %); **~5–6 %** for new-build from approved promoter (1 % duty) | Sum of above |
 
 ### Annual taxes
 
@@ -293,7 +293,7 @@ Sale of a Hammamet apartment held 7 years by a non-resident foreigner:
 
 ### Confidence
 
-HIGH on the legal framework (Code des Droits d'Enregistrement, Code de la TVA, Code de l'IRPP — all primary, cross-verified). MEDIUM on the precise non-resident PVI rate (25 % current; the 30 % reform proposal has not been gazetted at last verification — re-check at deed signing).
+HIGH on the legal framework (Code des Droits d'Enregistrement, Code de la TVA, Code de l'IRPP — all primary, cross-verified). MEDIUM on the precise PVI rate at deed signing: individual PVI is **10 % (>5 yrs) / 15 % (≤5 yrs)** for residents AND non-residents; the **25 %** rate applies ONLY to sales to specific public-entity buyers (agences foncières/touristiques/industrielles/habitat, SNIT), not generic non-residents. The only pending proposal is a **20 % WHT on non-resident corporate (personne morale) share-cessions (titres, not real estate)** — not gazetted at last verification; re-check at deed signing.
 
 ---
 
@@ -456,7 +456,7 @@ MEDIUM — wage benchmarks are sourced to ANETI + INS but shift with TND volatil
 
 ### Drought + water stress (the silent risk)
 
-- Tunisia is **severely water-stressed** — total renewable water resources ~400 m³/capita/year (one of the lowest in Africa-MENA region; below 500 m³ "absolute scarcity" threshold)
+- Tunisia is **severely water-stressed** — total renewable water resources est. ~400 m³/capita/year (illustrative; verify current per-capita figure at FAO AQUASTAT / World Bank), well below the 500 m³ "absolute scarcity" threshold
 - **2023–2024 record drought**: reservoirs (Sidi Salem, Sidi El Barrak, Bouhertma) dropped below **30 % capacity**; SONEDE imposed water-rationing in Tunis + several gouvernorats (cuts overnight + per-day quotas)
 - **Long-term implication**: agricultural land value at risk; coastal cities increasingly desalination-dependent (SONEDE Djerba, Sfax desal plants operational; Sousse expansion); residential water security uncertain in some interior + island locations
 - **For property buyers**: verify the parcel's water source (SONEDE mains / private well / cistern) + typical summer cuts pattern with the commune
@@ -576,9 +576,9 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 |---|---:|---:|
 | Notary fees | 1.0 % of price + 19 % TVA | — |
 | Conservation Foncière (CPF) | 1.0 % of price | — |
-| Registration duty (droits d'enregistrement) | 5.0 % of price | — |
+| Registration duty (droits d'enregistrement) | progressive 6 % / 8 % / 10 % of price (existing properties, by value band — see `--tax`); 1 % new from approved promoter | — |
 | Estate agent fee | 2.5–3 % + 19 % TVA | — |
-| **Total transaction cost (buyer side)** | **~7–9 % of price** | — |
+| **Total transaction cost (buyer side)** | **~10–14 % of price** for existing resale (notary ~1 % + CPF 1 % + registration duty 6–10 % + agent 2.5–3 %); lower (~5–6 %) for new-build from approved promoter (1 % duty) | — |
 | Annual TIB (mid-range apartment, primary residence) | ~TND 100–500 | ~€30–€150 |
 | Annual TIB (mid-range apartment, secondary residence) | ~TND 200–800 | ~€60–€240 |
 | Médina dar full restoration (per m², Tunis/Sfax) | ~TND 1,500–4,000 | ~€450–€1,195 |
@@ -757,4 +757,4 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: HIGH confidence on the foreign-buyer regime (Code des Droits Réels + Loi 1964-22 + Loi 1990-21 ONTT zoning + BCT Code des Changes — all primary, multi-source). HIGH on tax base rates (LdF 2018 + 2024 + 2025 cross-verified at DGI). MEDIUM on the precise non-resident PVI rate (25 % current; the 30 % reform proposal has not been gazetted at last verification — re-check at deed signing). MEDIUM on the Zone Touristique current map (ONTT updates not always promptly published — verify per parcel with commune + ONTT). MEDIUM on price benchmarks (listing-derived est. ranges from Tayara + Mubawab + Menzili Q1–Q2 2025; no public transaction-price DB). MEDIUM on STR regulation (Décret 2018-417 framework clear; enforcement uneven). LOW on the pending Tunisia Investor Visa decree (drafted but not gazetted at last verification — confirm at TIA before relying). The two non-negotiable foreigner deal-killers are (1) **governor's authorisation** outside Zones Touristiques and (2) **BCT FX-inflow registration** at purchase — both flagged prominently above. IMF programme suspension Mar 2024 + sovereign-rating distress level mean dinar-volatility + repatriation-timing risk should be priced into any 5-year-plus hold. Drought + 2023–2024 water rationing affect liveability + agricultural-land valuation; APAL DPM setback + 2018 Cap Bon flood patterns affect coastal-parcel due diligence.
+**Notes**: HIGH confidence on the foreign-buyer regime (Code des Droits Réels + Loi 64-5 du 12 mai 1964 + Loi 1990-21 ONTT zoning + BCT Code des Changes — all primary, multi-source). HIGH on tax base rates (LdF 2018 + 2024 + 2025 cross-verified at DGI). MEDIUM on the precise PVI rate: individual PVI is **10 % (>5 yrs) / 15 % (≤5 yrs)** for residents AND non-residents; the **25 %** rate applies ONLY to sales to specific public-entity buyers (agences foncières/touristiques/industrielles/habitat, SNIT), not generic non-residents. The only pending proposal is a **20 % WHT on non-resident corporate (personne morale) share-cessions (titres, not real estate)** — not gazetted at last verification; re-check at deed signing. MEDIUM on the Zone Touristique current map (ONTT updates not always promptly published — verify per parcel with commune + ONTT). MEDIUM on price benchmarks (listing-derived est. ranges from Tayara + Mubawab + Menzili Q1–Q2 2025; no public transaction-price DB). MEDIUM on STR regulation (Décret 2018-417 framework clear; enforcement uneven). LOW on the pending Tunisia Investor Visa decree (drafted but not gazetted at last verification — confirm at TIA before relying). The two non-negotiable foreigner deal-killers are (1) **governor's authorisation** outside Zones Touristiques and (2) **BCT FX-inflow registration** at purchase — both flagged prominently above. IMF programme suspension Mar 2024 + sovereign-rating distress level mean dinar-volatility + repatriation-timing risk should be priced into any 5-year-plus hold. Drought + 2023–2024 water rationing affect liveability + agricultural-land valuation; APAL DPM setback + 2018 Cap Bon flood patterns affect coastal-parcel due diligence.

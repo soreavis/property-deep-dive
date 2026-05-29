@@ -16,7 +16,7 @@ ISO2: `cl`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Servicio de Impuestos Internos (SII)** — fiscal property roll, maintains **avalúo fiscal** + **rol de avalúo** (comuna-rol-subrol). Portal: `https://www.sii.cl/servicios_online/1039-.html`.
 - **Identifier**: **Rol SII** (comuna code + rol + subrol) for tax; **Foja/N°/Año CBR** for title.
 - **Recent reforms**:
-  - **Ley 21.210 (2020)** — introduced **sobretasa** on aggregate residential property > UF 670 (originally 0.075–0.275 %; raised to **0.275–0.425 %** post-ajustes).
+  - **Ley 21.210 (2020)** — introduced **sobretasa** on aggregate residential property > 670 UTA (originally 0.075–0.275 %; raised to **0.275–0.425 %** post-ajustes).
   - **Ley 21.442 (2023)** — new Copropiedad Inmobiliaria, replaced Ley 19.537.
   - **Ley 21.435 (2022)** + **Ley 21.604 (2023)** — Reforma del Código de Aguas; uso prioritario consumo humano; nuevos DAA con plazo.
   - **NCh 433 Of.96 mod. 2009 + DS 61/2011** — post-2010 Maule revision; reforzó estándar diseño sísmico.
@@ -152,12 +152,12 @@ Aplica al titular cuya **suma de avalúos fiscales totales** supere **UTA 670** 
 
 - Avalúo UF 5,200 (asume <UF 32,000 tramo residencial)
 - Tasa anual aprox 0.98 % efectiva sobre exceso UF 11,000... → **EXENTO** del impuesto principal porque avalúo <UF 11,000 in this case.
-- Sobretasa: avalúo conjunto < UF 670 ⇒ **0 sobretasa**
+- Sobretasa: avalúo conjunto < 670 UTA ⇒ **0 sobretasa**
 - **Contribuciones anuales: ~CLP 0** (dentro de exención hab.)
 
 For a casa Lo Barnechea avalúo fiscal CLP 500,000,000 (≈ UF 13,000):
 - Tasa sobre exceso UF (13,000 - 11,000) = UF 2,000 × 0.933 % ≈ UF 18.66 ≈ **CLP 700,000/año** (4 cuotas ≈ CLP 175,000 c/u)
-- Sobretasa si total propiedades > UF 670: aprox UF 13,000 × 0.075 % ≈ UF 9.75 ≈ **CLP 375,000 adicionales/año**
+- Sobretasa: convertir avalúo conjunto a **UTA** y comparar con el umbral **670 UTA** (la tabla de tramos está en UTA, NO UF — ver §contribuciones líneas 140-145); si el conjunto supera 670 UTA se aplica la tasa marginal del tramo (0.075 % en el primer tramo 670–1,175 UTA). No re-derivable a CLP aquí sin el valor UTA del año — verificar avalúo conjunto en UTA vía SII.
 
 **Rebaja por adulto mayor / propietario único habitación principal** disponible (Ley 21.561 + DS); verificar requisitos en SII.
 
@@ -392,6 +392,8 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 
 ### Costs
 
+*est. ranges (CLP); verify with concesionaria presupuesto / driller quote — connection and perforation costs vary by year and operator.*
+
 | Escenario | Costo (CLP) |
 |---|---:|
 | Conexión nueva agua (zona urbana, en frente concesionaria) | 300,000–800,000 |
@@ -453,7 +455,7 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 - **Tsunami CITSU costa Pacífico** — verificar cota inundación SHOA en cualquier propiedad costera.
 - **Mega-sequía + Reforma Código Aguas 2022/2024** — DAA ahora con plazo, caducidad por no uso; rural sin DAA = limitación severa de uso.
 - **Border-zone DL 1939/1977**: extranjeros nacionales de países limítrofes (PE, BO, AR) **no pueden adquirir** dominio en franja fronteriza (10 km de la línea) y zonas costeras según decretos por excepción presidencial. Verificar si el predio cae en franja vía DOM + Ministerio Defensa. Texto: `https://www.bcn.cl/leychile/navegar?idNorma=6778`.
-- **Sobretasa conjunto > UF 670** — afecta a multipropietarios (residencial conjunto fiscal); actualizar tabla anual.
+- **Sobretasa conjunto > 670 UTA** — afecta a multipropietarios (residencial conjunto fiscal); actualizar tabla anual.
 - **Ley 21.442 Copropiedad (2023)** — nuevas reglas administración condominios; revisar reglamento copropiedad + acta asambleas + fondo reserva en compras de depto.
 - **DFL 2** — escudo tributario potente ≤140 m² (exención contribuciones + rentas exentas).
 - **Derechos de aguas separados del dominio del suelo** — siempre rastrear DAA en CBR + DGA en compras rurales.
@@ -501,7 +503,7 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 - **Avalúo fiscal vs comercial gap** — 30-60 % típico; no usar como proxy.
 - **Rol SII** ≠ **Foja/Número/Año CBR** — identificadores fiscales y registrales distintos; ambos requeridos.
 - **Ley 21.442 (2023) Copropiedad** — sustituye Ley 19.537; revisar reglamento + actas.
-- **Sobretasa Ley 21.210** — adicional sobre conjunto > UF 670.
+- **Sobretasa Ley 21.210** — adicional sobre conjunto > 670 UTA.
 - **DFL 2 vivienda económica** — escudo tributario ≤140 m².
 - **Border-zone DL 1939/1977** — restricción nacionales países limítrofes en franja fronteriza/costera.
 - **Derechos de aguas (DAA) separados del suelo** — Reforma Código Aguas 2022/2024.

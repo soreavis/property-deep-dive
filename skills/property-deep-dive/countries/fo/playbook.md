@@ -48,7 +48,7 @@ ISO2: `fo`. Status: ✅ Standalone playbook (Denmark autonomous territory under 
 - Tórshavn: **+35%**
 - Towns: **+15%**
 - Villages: **+16%**
-- *Window labelled approximately ~2010–2020 in source bulletin; verify exact decade boundaries against the specific Hagstova news release referenced.*
+- *Window given as ~2010–2020 in the source bulletin (exact decade boundaries not stated); verify against the specific Hagstova news release referenced.*
 
 Data excludes **apartment buildings** (Hagstova caveat) — apartment-only sales not in this index.
 
@@ -126,13 +126,13 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 - **Global Expansion 2019 PDF**: **16–22%**
 - The 23% upper bound likely reflects a 2024–2025 kommuna rate increase relative to the 2019 figure; the specific ceiling-raising kommuna is not named in EN aggregator sources. `verify highest-rate kommuna at taks.fo for 2026 rates`.
 
-**Church tax** (for members of the Fólkakirkjan / National Church): **0.6–0.9%** of income exceeding DKK 30,000 (EURAXESS)
+**Church tax** (for members of the Fólkakirkjan / National Church): **0.6–0.9%** of income exceeding DKK 30,000 (EURAXESS, 2024–2025 data — verify at taks.fo for 2026 rates)
 
 **Child deductions**:
 
 - National: DKK 9,200 (child under 7), DKK 6,500 (child 7–18)
 - Municipal: DKK 4,500–10,000 (per kommuna)
-- (EURAXESS)
+- (EURAXESS, 2024–2025 data — verify at taks.fo for 2026 figures)
 
 **Combined marginal rate** (national + municipal, top): inferred **~46–53%** at top bands (= ~30% national + 16–23% municipal); verify at TAKS
 

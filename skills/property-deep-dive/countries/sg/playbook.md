@@ -253,7 +253,7 @@ From **1 Jan 2024** (final tier of the 2022 Budget restructure):
 ### Future risk
 
 - **ABSD framework** has been raised 4 times (Dec 2011 introduction, Jan 2013, Jul 2018, Dec 2021, Apr 2023) — every ~2–3 years a new round is plausible; foreign rate has only ratcheted up
-- **Property tax non-owner-occupier 36 % top tier** is now the highest in major APAC jurisdictions; further widening of bands likely as wealth-transfer policy
+- **Property tax non-owner-occupier 36 % top tier** is among the steepest non-owner-occupier property-tax top tiers in major APAC jurisdictions (est. — no single comparative source cited); further widening of bands likely as wealth-transfer policy
 - **GST** rose 7 → 8 % (2023) → 9 % (2024); residential sale stays exempt, but renovation/legal/management fees track the headline rate
 - **2024 SSD restoration** (4-yr / +4 ppts) signalled continuing speculation-cooling stance
 
@@ -528,7 +528,7 @@ Universal coverage in Singapore — **mains water + sewerage + electricity + gas
 - **Property tax non-owner-occupier 12–36 % progressive** — among the steepest in APAC; foreign owners letting their unit hit 36 % top tier above S$60K AV
 - **SSD restored to 4-year holding / 16 % top tier** (eff. 4 Jul 2025) for residential — disincentivises < 4 year flips
 - **MAS macro-prudential**: TDSR 55 %, MSR 30 % (HDB / EC only), LTV 75 % first / 45 % second / 35 % third; HDB LTV cap 75 % since Aug 2024
-- **SORA** is the SGD interest-rate benchmark since 31 Dec 2024 (SIBOR / SOR fully retired); mortgage products typically priced **3M-Compounded SORA + spread**
+- **SORA** is the SGD interest-rate benchmark (SIBOR / SOR fully retired by 31 Dec 2024; SORA the sole SGD benchmark from 1 Jan 2025); mortgage products typically priced **3M-Compounded SORA + spread**
 - **En bloc upside is dilute**: only ~2 successful residential en blocs in 2025; > 80 % consent threshold rarely met
 - **Lease-decay**: 99-year leasehold remaining < 60 yrs hits CPF + bank LTV; remaining < 30 yrs essentially unmortgageable
 - **999-year + freehold premium**: 5–15 % over equivalent 99-yr leasehold

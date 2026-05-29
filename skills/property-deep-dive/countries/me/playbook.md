@@ -29,23 +29,25 @@ ISO2: `me`. Status: ✅ Fully populated (researched 2026-04).
 - High **English-language coverage** (Russian + EU buyers)
 - Major developments: **Porto Montenegro (Tivat)**, **Lustica Bay**, **Dukley Gardens (Budva)**
 
-### 2025-2026 price benchmarks (MONSTAT Q3 2025)
+### 2025-2026 price benchmarks
+
+Coastal-average row is MONSTAT Q3 2025 (residential price index). All per-city / per-development EUR/m² ranges below are `~est.` from Realitica / listing aggregators — verify with cadastre transactions; MONSTAT does not publish per-development ranges.
 
 | Region | EUR/m² (avg) | Notes |
 |---|---:|---|
-| **Coastal cities avg** | 2,458 | **+23.2% YoY** |
-| **Tivat (Porto Montenegro)** | 5,000–12,000 | Premium luxury |
-| **Tivat (general)** | 2,450 (avg) | High |
-| **Kotor Old Town (UNESCO)** | 4,000–8,000 | Premium |
-| **Kotor general** | 2,000–3,500 | High |
-| **Budva luxury** (Sveti Stefan, Dukley) | 4,000–10,000+ | Resort premium |
-| **Budva general** | 2,500–5,000 | High |
-| **Herceg Novi** | 2,000–3,500 | Coastal mid |
-| **Bar** | 1,500–2,500 | Coastal value |
-| **Ulcinj** | 1,200–2,500 | South coast |
-| **Podgorica (capital)** | 2,150 (avg) | Inland |
-| **Cetinje (royal capital)** | 800–1,500 | Inland heritage |
-| **Mountain (Žabljak, Kolašin)** | 800–1,800 | Ski + summer |
+| **Coastal cities avg** | 2,458 | **+23.2% YoY** (MONSTAT Q3 2025) |
+| **Tivat (Porto Montenegro)** | ~5,000–12,000 | Premium luxury (est.) |
+| **Tivat (general)** | ~2,450 (avg) | High (est.) |
+| **Kotor Old Town (UNESCO)** | ~4,000–8,000 | Premium (est.) |
+| **Kotor general** | ~2,000–3,500 | High (est.) |
+| **Budva luxury** (Sveti Stefan, Dukley) | ~4,000–10,000+ | Resort premium (est.) |
+| **Budva general** | ~2,500–5,000 | High (est.) |
+| **Herceg Novi** | ~2,000–3,500 | Coastal mid (est.) |
+| **Bar** | ~1,500–2,500 | Coastal value (est.) |
+| **Ulcinj** | ~1,200–2,500 | South coast (est.) |
+| **Podgorica (capital)** | ~2,150 (avg) | Inland (est.) |
+| **Cetinje (royal capital)** | ~800–1,500 | Inland heritage (est.) |
+| **Mountain (Žabljak, Kolašin)** | ~800–1,800 | Ski + summer (est.) |
 
 ### Compute
 
@@ -197,7 +199,7 @@ Plus **municipal surtax (prirez)** ~13% of PIT due → effective top rate ~17%. 
   - Podgorica: ~EUR 750–1,200
   - Tivat (tourism + luxury): ~EUR 700–1,300
   - Smaller cities: ~EUR 500–800
-- **Minimum wage**: EUR 670/month (June 2025)
+- **Minimum wage**: EUR 600 (low qualification) / EUR 800 (high qualification) — Europe Now 2, eff 1 October 2024 (see Active fiscal incentives section)
 
 ---
 
@@ -268,11 +270,13 @@ Plus **municipal surtax (prirez)** ~13% of PIT due → effective top rate ~17%. 
 
 ### Costs
 
+`~est.` contractor/regional ranges — get a quote.
+
 | Scenario | Cost (EUR) |
 |---|---:|
-| ViK connection (coastal) | 1,500–4,500 |
-| Septic + cisterna (mountain) | 2,500–8,000 |
-| Bored well (interior) | 3,500–10,000 |
+| ViK connection (coastal) | ~1,500–4,500 |
+| Septic + cisterna (mountain) | ~2,500–8,000 |
+| Bored well (interior) | ~3,500–10,000 |
 
 ---
 
@@ -286,10 +290,12 @@ Plus **municipal surtax (prirez)** ~13% of PIT due → effective top rate ~17%. 
 | **Total transaction cost (≤€150k)** | **~4–5%** of price |
 | **Total transaction cost (€150-500k)** | **~6–7%** |
 | **Total transaction cost (>€500k)** | **~7–8%** |
-| Roof renovation | 4,000–12,000 |
-| Earthquake retrofit | 15,000–60,000 |
-| Energy retrofit | 8,000–25,000 |
-| Solar PV (5kW) | 4,500–8,000 |
+| Roof renovation | ~4,000–12,000 |
+| Earthquake retrofit | ~15,000–60,000 |
+| Energy retrofit | ~8,000–25,000 |
+| Solar PV (5kW) | ~4,500–8,000 |
+
+Renovation/retrofit rows are `~est.` from regional contractor ranges — get a quote.
 
 ## Active fiscal incentives + visa programs (2025-2026)
 

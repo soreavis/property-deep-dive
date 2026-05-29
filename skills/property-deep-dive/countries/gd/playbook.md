@@ -364,7 +364,7 @@ Grenada is a **small, tourism-and-education-anchored economy**; local employment
 ### Electricity — GRENLEC (Grenada Electricity Services Ltd.)
 
 - **Sole licensed utility** (est. 1960), regulated by the **[Public Utilities Regulatory Commission (PURC)](https://purc.gd)**. Generation is **predominantly diesel** — exposed to fuel-price pass-through.
-- **Average residential price ≈ EC$0.63/kWh** (≈ USD 0.23/kWh at peg) — **HIGH by international standards**, typical of small diesel-dependent island grids. Fixed-rate contract tiers have been cited at EC$0.36 / EC$0.45/kWh.
+- **Average residential price ≈ EC$0.63/kWh** (≈ USD 0.23/kWh at peg) — **HIGH by international standards**, typical of small diesel-dependent island grids. Fixed-rate contract tiers have been cited at ~EC$0.36 / ~EC$0.45/kWh (est., undated tier reporting — verify the current schedule per the PURC/GRENLEC flag below).
 - **PURC ran a cost-of-service / tariff study RfP in Feb 2026 — tariffs may change**; **verify the current schedule at [grenlec.com/customers/ratesandfees](https://grenlec.com/customers/ratesandfees/)** (flagged for re-verify).
 - High power cost makes **solar PV attractive** — check net-metering / PURC interconnection rules.
 
@@ -511,7 +511,7 @@ HIGH for IPCC AR6 + CCCCC regional projections; MEDIUM for parcel-level storm-su
 ## Section: `--currency`
 
 - **Currency**: **Eastern Caribbean Dollar (EC$ / XCD)** — issued by the [ECCB](https://www.eccb-centralbank.org/), shared by the 8-member OECS/ECCU.
-- **Peg**: **XCD 2.70 = USD 1.00 since 1976** — a hard regional peg, among the longest-standing in the world; unbroken through 2026.
+- **Peg**: **XCD 2.70 = USD 1.00 since 1976** — a hard regional peg, one of the long-standing fixed pegs (since 1976); unbroken through 2026.
 - **USD circulates in parallel**: tourism + real-estate transactions are commonly **USD-denominated or USD-equivalent**; CBI-eligible villas are quoted in USD by design.
 - **Practical effect for buyer**: **near-zero structural FX risk for USD-base buyers**; minimal risk for EUR/GBP/CAD buyers (USD-correlated). The 1976 peg has held through multiple external shocks; ECCB pooled reserves underpin credibility — but, like any peg, it is a **policy choice, not a structural certainty**.
 - **No exchange-control gating** equivalent to Barbados' CBB registration is documented for Grenada property purchases — *but confirm any current capital-flow / repatriation rule with your attorney + bank before completion* (the gating step in Grenada is the **ALHL**, not FX registration).

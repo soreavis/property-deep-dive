@@ -41,16 +41,18 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 
 ### Price benchmarks (Q4 2025 / Q1 2026)
 
-| Region | Avg £/m² (apt) | Avg £ (semi-detached house) |
+| Region | est. £/m² (apt) | est. £ (semi-detached house) |
 |---|---:|---:|
-| **London Zone 1-2** | 8,000–18,000+ | 800,000–2,500,000+ |
-| **London Zone 3-6** | 5,000–10,000 | 500,000–1,200,000 |
-| **Manchester / Birmingham core** | 3,200–5,000 | 280,000–550,000 |
-| **Edinburgh / Bristol** | 4,000–6,500 | 400,000–800,000 |
-| **Glasgow / Liverpool / Leeds** | 2,500–4,000 | 220,000–400,000 |
-| **Smaller cities** | 1,800–3,200 | 180,000–320,000 |
-| **Rural England (S/SW)** | 2,500–4,500 | 350,000–650,000 |
-| **Rural Wales / Scotland / NI** | 1,200–2,500 | 150,000–300,000 |
+| **London Zone 1-2** | ~8,000–18,000+ | ~800,000–2,500,000+ |
+| **London Zone 3-6** | ~5,000–10,000 | ~500,000–1,200,000 |
+| **Manchester / Birmingham core** | ~3,200–5,000 | ~280,000–550,000 |
+| **Edinburgh / Bristol** | ~4,000–6,500 | ~400,000–800,000 |
+| **Glasgow / Liverpool / Leeds** | ~2,500–4,000 | ~220,000–400,000 |
+| **Smaller cities** | ~1,800–3,200 | ~180,000–320,000 |
+| **Rural England (S/SW)** | ~2,500–4,500 | ~350,000–650,000 |
+| **Rural Wales / Scotland / NI** | ~1,200–2,500 | ~150,000–300,000 |
+
+Ranges are est. blended indicators triangulated from ONS UK House Price Index (latest) + Rightmove/Zoopla asking data — verify per-postcode against HM Land Registry Price Paid Data.
 
 ### Compute
 
@@ -97,10 +99,10 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 - **8 bands** in England + Scotland (A–H); **9 bands** Wales (A–I); 8 in NI (different system: domestic rate based on capital value)
 - Set per local council; varies widely
 - Lookup band: `https://www.gov.uk/council-tax-bands`
-- 2025-2026 typical bills:
-  - Band A: £1,100–£1,800/yr
-  - Band D (median): £1,800–£2,400/yr
-  - Band H: £4,000–£8,000+/yr
+- 2025-2026 est. bill ranges (exact bill varies by council — confirm via the gov.uk band lookup above and the council's own band-charge table):
+  - Band A: est. £1,100–£1,800/yr
+  - Band D (median): est. £1,800–£2,400/yr
+  - Band H: est. £4,000–£8,000+/yr
 - **NI**: domestic rate = capital value × (district + regional rate), typically 0.7–1.0% capital value
 - Single-person discount: 25% (must apply)
 - Empty-home premium up to **+100%** since **1 April 2024** (qualifying period reduced 2y → 1y); second-home premium up to **+100%** since **1 April 2025** (Levelling-up & Regeneration Act 2023; council discretion; councils had to resolve before 31 Mar 2024 to apply from 1 Apr 2025). (2026-05-27 verified; source [gov.uk Council Tax premiums guidance](https://www.gov.uk/government/publications/council-tax-information-letters-2024))
@@ -144,11 +146,11 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 
 ### Conveyancing fees
 
-- **Solicitor / licensed conveyancer**: £1,000–£2,500 typical
-- **Searches** (Local, Drainage & Water, Environmental, Chancel): £200–£500
-- **Land Registry fee**: £20–£910 sliding scale by price band
-- **Survey** (Level 2 HomeBuyers / Level 3 Building): £400–£1,500
-- **Mortgage broker / lender fees**: £0–£1,000
+- **Solicitor / licensed conveyancer**: est. £1,000–£2,500 (2026 market range)
+- **Searches** (Local, Drainage & Water, Environmental, Chancel): est. £200–£500 (2026 market range)
+- **Land Registry fee**: £20–£910 sliding scale by price band — statutory; confirm current scale at HM Land Registry (Registration Services fees)
+- **Survey** (Level 2 HomeBuyers / Level 3 Building): est. £400–£1,500 (2026 market range)
+- **Mortgage broker / lender fees**: est. £0–£1,000 (2026 market range)
 
 ### Total transaction cost (buyer side)
 
@@ -223,7 +225,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 
 ### Self-employment
 
-- **Sole trader**: HMRC self-assessment + Class 2 (£3.45/wk if profits >£12,570) + Class 4 NI (6% on £12,570–£50,270; 2% above)
+- **Sole trader**: HMRC self-assessment + Class 2 (£3.45/wk if profits >£12,570) + Class 4 NI (6% on £12,570–£50,270; 2% above) — 2024-25 HMRC rates; verify at HMRC (National Insurance rates and letters)
 - **Limited company**: Companies House registration; corporation tax 19–25% (2024-2026)
 - **VAT registration**: from £90,000 turnover (2024)
 - **Personal allowance**: £12,570 (frozen until 2028)
@@ -317,7 +319,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 
 ### Costs
 
-| Scenario | Cost (£) |
+| Scenario | Cost (est. £, 2026 indicative ranges — confirm with contractor quote) |
 |---|---:|
 | Connection to mains (where available) | 8,000–20,000 |
 | Mains-line extension via water co | 15,000–60,000+ |
@@ -326,9 +328,9 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 
 ---
 
-## Cost benchmarks (UK 2026)
+## Cost benchmarks (est., UK 2026)
 
-| Work | Cost (£) |
+| Work | Cost (est. £, 2026 indicative ranges — confirm with quote) |
 |---|---:|
 | EPC | 60–120 |
 | Level 2 HomeBuyer survey | 400–700 |

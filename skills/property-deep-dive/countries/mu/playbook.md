@@ -311,7 +311,7 @@ Net yields after **HOA fees** (€300–€1,500/mo for IRS/PDS), management com
 - **Occupation Permit (OP) — Professional**: salaried role with a Mauritian employer; minimum **monthly basic salary MUR 30,000** for 3 years (sector exceptions: ICT, BPO have lower thresholds). 3-year permit (typically aligned with employment contract).
 - **Premium / 20-year Permanent Residence Permit** — available after benchmarks: e.g., Investor with cumulative turnover MUR 45 M / 3 years; Professional with MUR 150,000 monthly salary / 3 years; Self-Employed with MUR 3 M annual income / 3 years (verify thresholds at `https://passport.govmu.org/passport/?page_id=626`).
 - **Company structures**: **Domestic Company** (Companies Act 2001) — minimum capital nominal; **Global Business Licence (GBL)** — for international cross-border activity, regulated by Financial Services Commission (`https://www.fscmauritius.org/`); **Authorised Company (AC)** — outside Mauritius management. **GBL companies pay 15 % CIT** with **80 % partial exemption** on qualifying foreign income → effective 3 % CIT for qualifying activities. **Domestic** companies pay 15 % CIT.
-- **CSG (Contribution Sociale Généralisée)**: replaced the NPF (National Pensions Fund) for employees in 2020; 1.5 % employee + 3 % employer for income up to MUR 50,000/mo, 3 % + 6 % above. Self-employed: MUR 150/mo.
+- **CSG (Contribution Sociale Généralisée)**: replaced the NPF (National Pensions Fund) for employees in 2020; ~1.5 % employee + ~3 % employer for income up to MUR 50,000/mo, ~3 % + ~6 % above; self-employed ~MUR 150/mo (est. — CSG rates have been revised since 2020; verify current schedule with the MRA / Mauritius Revenue Authority).
 - **Mauritius Africa Strategy / Africa Centre of Excellence**: Mauritius positions itself as a financial hub between Africa and Asia; many fund management, treasury, and holding-company roles open to qualified expats
 
 ### Salary benchmarks (est., 2025)
@@ -464,7 +464,7 @@ Mauritius sits in the **South-West Indian Ocean cyclone belt**. The MMS issues f
 
 - **Only ~30 %** of Mauritian households are connected to mains sewer. The WMA network is concentrated in **Port Louis, Plaines Wilhems urban core, Grand Baie, Beau Bassin, Quatre Bornes, Curepipe, Vacoas–Phoenix** + a handful of resort cluster areas.
 - Most other properties — including **a large fraction of north-coast and west-coast IRS / PDS / SCS schemes** — use **on-plot septic tanks (fosses septiques) + soakaways** or **package treatment plants** managed by the scheme.
-- **815 km** of sewer mains > 200 mm and **9 treatment plants** (St Martin, Grand Baie, Baie-du-Tombeau, Montagne Jacquot are the four main) cover only the saturated catchments.
+- **~815 km** (est.) of sewer mains > 200 mm and **~9 treatment plants** (est.) (St Martin, Grand Baie, Baie-du-Tombeau, Montagne Jacquot are the four main) cover only the saturated catchments — verify current network figures with the WMA.
 - Major sewer-extension projects under WMA + funding partners (World Bank, AfDB, JICA) ongoing — verify the parcel's connection year-by-year.
 
 ### Verification path

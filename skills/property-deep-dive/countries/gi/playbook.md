@@ -27,7 +27,7 @@ ISO2: `gi`. Status: ✅ Standalone playbook (UK Overseas Territory; own tax auth
 
 **Key rules — TWO-TIER residential property market**:
 
-Gibraltar operates a **two-tier residential property market**. Failing to identify which tier a listing sits in is the single most consequential error a foreign buyer can make. Roughly half of the stock by unit count is **not** accessible to non-residents.
+Gibraltar operates a **two-tier residential property market**. Failing to identify which tier a listing sits in is the single most consequential error a foreign buyer can make. A substantial share of stock (est. ~half per estate-agent signposting — no published register split; verify) is **not** accessible to non-residents.
 
 - **Open Market** — no nationality or residency restriction; any buyer eligible. Carries a price premium versus Restricted-Market stock at comparable size/location.
 - **Restricted Market** (a.k.a. "3-year residency" market / pre-owned Government Affordable Housing / certain estate-by-estate covenants) — purchaser must demonstrate **≥3 years continuous, ordinary Gibraltar residency immediately prior to purchase**; **owner-occupation only**; resale also restricted (subject to the same eligibility test for successor buyers, and to the Affordable Housing buyback regime where applicable). Non-residents, Cat-2/HEPSS pre-arrival applicants, and overseas investors are **categorically excluded** from this tier.
@@ -44,7 +44,7 @@ Gibraltar operates a **two-tier residential property market**. Failing to identi
 - **Residency is decoupled from ownership** (even on the Open Market) — buying property does NOT confer right to live in Gibraltar. Non-EU/non-UK buyers wanting to reside need a separate **residency permit** (Cat-2 Individual / HEPSS / Self-Sufficiency / Employment-based).
 - **Self-employment route is discretionary and frequently refused** — community signal: r/gibraltar 1opdfxf (Q2 2026), where an applicant detailed refusal despite 12-month residential + office leases in place. Engage a Gibraltar-licensed immigration lawyer **pre-relocation**; do **not** rely on a property purchase or lease as evidence of eligibility.
 - **EU/EEA buyers post-Brexit**: Free-movement rights from EU into Gibraltar **ended 31 Jan 2020** (Brexit). EU/EEA nationals now require entry under the same routes as third-country nationals, **pending entry into force of the UK–EU Treaty (provisional 15 Jul 2026)**.
-- **Frontier Treaty implications**: Once provisionally applied (15 Jul 2026), Schengen border checks relocate from the land border (La Línea/La Verja crossing) to Gibraltar's airport and port; daily commuters from Spain (~15,000+ pre-treaty) gain streamlined crossing. **Treaty does NOT auto-grant Schengen residency rights to Gibraltar property owners** — see § Frontier Treaty for verbatim Government statement.
+- **Frontier Treaty implications**: Once provisionally applied (15 Jul 2026), Schengen border checks relocate from the land border (La Línea/La Verja crossing) to Gibraltar's airport and port; daily cross-frontier workers from Spain (order-of-magnitude est. ~15,000 pre-treaty — verify at Government of Gibraltar cross-frontier worker statistics) gain streamlined crossing. **Treaty does NOT auto-grant Schengen residency rights to Gibraltar property owners** — see § Frontier Treaty for verbatim Government statement.
 
 **Confidence**: HIGH on the two-tier (Open / Restricted) market framework (4 estate-agent sources + r/AskUK community confirmation). HIGH on Brexit/Schengen status. HIGH on self-employment refusal pattern (community signal + corroborated by absent-Cat-2 enforcement chatter). MEDIUM on Frontier Treaty operational details (provisionally applied but date subject to ratification — re-verify at gibraltar.gov.gi closer to purchase).
 
@@ -239,7 +239,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 
 **Flood**: Gibraltar's drainage system was historically limited in some areas; localised flash flooding in heavy rainfall events (typically October–March) has been documented in low-lying areas (Catalan Bay flats, parts of Westside reclaimed land). Verify property elevation + drainage at the parcel level with Gibraltar Land Property Services.
 
-**Seismic**: Gibraltar lies within the **Azores–Gibraltar Fault Zone (AGFZ)** — a moderately active plate boundary. Historical major events include the **1755 Lisbon earthquake (M~8.5–9.0)** with significant Gibraltar impact, and the 1969 Cape St Vincent earthquake (M7.8). Seismic risk for the territory: **MEDIUM-LOW to MEDIUM** (verify at: EMSC historical catalogue + Gibraltar building codes — modern construction post-1980 follows seismic-resistant design but older Old Town / Casemates stock may not).
+**Seismic**: Gibraltar lies within the **Azores–Gibraltar Fault Zone (AGFZ)** — a moderately active plate boundary. Historical major events include the **1755 Lisbon earthquake (M~8.5–9.0)** with significant Gibraltar impact, and the 1969 Cape St Vincent (São Vicente) earthquake (~M7.8, EMSC/USGS historical catalogue). Seismic risk for the territory: **MEDIUM-LOW to MEDIUM** (verify at: EMSC historical catalogue + Gibraltar building codes — modern construction post-1980 follows seismic-resistant design but older Old Town / Casemates stock may not).
 
 **Subsidence / geology**: Gibraltar is dominated by Jurassic limestone (Rock of Gibraltar). Limestone karst → potential for **sinkholes, cave systems, and differential settlement**. The Rock has 50+ km of natural and tunnelled caverns. ⚠️ Verify subsidence history at parcel level with a structural survey; common issue in older Town/Upper Rock stock.
 
@@ -332,7 +332,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 3. **Don't conflate Gibraltar pound (GIP) with GBP**: 1:1 peg, but GIP banknotes are **not legal tender in UK** — convert before travel.
 4. **Brexit timing**: Gibraltar left EU **31 January 2020** with UK. EU/EEA pre-Brexit access rules no longer apply. Use 2025–2026 primary sources, not 2020-era news.
 5. **Frontier Treaty timing**: provisional application **from 15 July 2026** — anything pre-treaty (e.g. EES border checks April 2026) is being superseded; re-verify operational status.
-6. **TWO-TIER market is real and load-bearing**: "no nationality restriction" applies to Open Market only. Restricted Market = 3-year prior Gibraltar residency, owner-occupation only, ~50% of stock. Never describe Gibraltar as "no foreign-ownership restrictions" without the Open / Restricted caveat.
+6. **TWO-TIER market is real and load-bearing**: "no nationality restriction" applies to Open Market only. Restricted Market = 3-year prior Gibraltar residency, owner-occupation only, est. ~half of stock (per estate-agent signposting — no published register split). Never describe Gibraltar as "no foreign-ownership restrictions" without the Open / Restricted caveat.
 7. **Cat-2 net worth**: £2M confirmed verbatim by Hassans citing the Qualifying (Category 2) Individuals Rules 2004 — _"potential applicants must have at least an estimated total net worth in excess of £2 million"_. The Gibraltar Income Tax Office page itself states the income cap (£118k) and tax band (£37k–£42,380) but does not restate the £2M figure publicly — re-confirm at the Gibraltar Finance Centre at application.
 8. **HEPSS vs Cat-2 are distinct schemes**: HEPSS = employed senior executives with skills not locally available (£160k earnings floor, £160k assessable cap, £39,940 fixed tax, 3-year non-residency window). Cat-2 = high-net-worth passive residents (£2M net worth, £118k income cap, £37k–£42,380 tax band, 5-year non-residency window). Don't conflate.
 9. **No mortgage stamp duty on small loans**: 0.13% on secured sums <£200k vs 0.20% on ≥£200k. Easy to elide vs the property stamp duty bands.
@@ -366,7 +366,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 
 ## Caveats unique to Gibraltar
 
-- **Two-tier residential property market** (Open / Restricted) — non-residents categorically limited to Open Market; ~50% of stock by unit count is Restricted (3-year prior residency, owner-occupation only)
+- **Two-tier residential property market** (Open / Restricted) — non-residents categorically limited to Open Market; est. ~half of stock by unit count is Restricted (per estate-agent signposting — no published register split; 3-year prior residency, owner-occupation only)
 - **Single-postcode addressing** (GX11 1AA territory-wide) — locator data must be parcel/street-level, postcode is not a discriminator
 - **Crown-leasehold ubiquity**: most central Gibraltar developed property is on long Crown lease (99–150yr); freehold is uncommon
 - **Affordable Housing buyback**: 7.5% stamp duty + 10-year Government buyback right on subsidised schemes (sits in Restricted Market tier)

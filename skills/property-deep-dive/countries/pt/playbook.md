@@ -87,7 +87,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 - Set per **município** within state-mandated bands
 - **Urbano**: **0.3–0.45 %** of VPT (valor patrimonial tributário)
 - **Rústico**: 0.8 %
-- 195 municípios (incl. Lisboa, Faro, Coimbra) at minimum 0.3 % for 2025
+- 195 municípios (incl. Lisboa, Faro, Coimbra) at minimum 0.3 % for 2025 (per municipal IMI-rate filings — verify current list with AT / DGAL)
 - **Lisboa kept 0.3 %** for 2026 (confirmed Dec 2025)
 - Bills typically May (split into 1-3 installments)
 
@@ -99,7 +99,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Other annual
 
-- **AIMI (Adicional ao IMI)** wealth tax surcharge: 0.7-1.5 % on properties summed VPT > €600k (€1.2M for couples)
+- **AIMI (Adicional ao IMI)** wealth tax surcharge: 0.7-1.5 % on properties summed VPT > €600k (€1.2M for couples) (2025 rates — verify current thresholds with Portal das Finanças; may have changed since)
 
 ### Transaction taxes — IMT (Imposto Municipal sobre Transmissões)
 
@@ -117,7 +117,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 **Non-resident IMT surcharge — PROPOSED, not yet in force as of 2026-05**: no enacted statute / Portaria / AT release identified. Tracked in `regulatory-watch.md` as proposed (impact tier 3). Do not rely on it for purchase modelling until enacted. (2026-05-27 verified — unsourced political announcement only)
 
-**IS (Imposto do Selo)**: **0.8 %** of price (one of lowest stamp duties in EU)
+**IS (Imposto do Selo)**: **0.8 %** of price
 
 **Notário + Registo**: **0.5–1.5 %**
 
@@ -125,7 +125,6 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 - Primary residence: **2–8 %** depending on price bracket
 - Other (second home, investment): **5–10 %**
-- Among the **lower-cost** in EU for primary residence
 
 ### IVA on new builds
 
@@ -178,11 +177,11 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
   - Cat. F: simple, **28 % flat** rate (or option for general IRS)
   - Cat. B (commercial): if 4+ properties or hotel-style services
 - **IVA**: 6 % accommodation services (continental); 4 % Açores, 9 % Madeira
-- **Taxa turística**: per município (Lisboa €4/night/person, Porto €3, Faro €2 typical)
+- **Taxa turística**: per município (Lisboa €4/night/person, Porto €3, Faro €2 — confirm current rate with each Câmara Municipal)
 
 ### Strategic notes
 
-- **Algarve season concentration** — 60-70 % of revenue in Apr-Oct
+- **Algarve season concentration** — est. 60-70 % of revenue in Apr-Oct (based on Algarve seasonal-occupancy patterns — verify with Turismo de Portugal / INE occupancy data)
 - **Lisboa AL suspended** in centro — verify before buying for AL strategy
 - **Madeira** + **Açores**: Mais Habitação less restrictive
 - **Coimbra, Braga, Aveiro**: smaller markets but viable
@@ -233,12 +232,12 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 - **Incêndios florestais (wildfires)**: HUGE in interior centro (Beira) + norte; 2017 Pedrógão Grande disaster (66 dead); annually severe
 - **Sismo (earthquakes)**:
   - Algarve coast + Lisboa region significant; 1755 Lisbon megaquake reference (M ~8.5-9)
-  - Faro, Algarve: zona sísmica 1A (highest in Iberian Peninsula)
+  - Faro, Algarve: zona sísmica 1A — highest seismic-hazard band in PT (per IPMA / Anexo Nacional EC8 seismic-zoning)
   - Lisboa, Setúbal: zona 1B
 - **Tsunami**: Algarve + western coast — 1755 reminder, modern monitoring
 - **Cheias (flooding)**: Tejo (Lisboa, Santarém), Douro (Porto), Mondego (Coimbra) basins
 - **Seca (drought)**: intensifying esp. Alentejo + Algarve; Guadiana basin water restrictions
-- **Erosão costeira**: significant Algarve + Costa de Caparica; receding 1-3 m/yr in some areas
+- **Erosão costeira**: significant Algarve + Costa de Caparica; receding ~1-3 m/yr in some areas (est., per APA coastal-erosion monitoring — verify per-município, parcel-level confirmation required)
 - **Calor extremo**: heat waves rising
 
 ### Build-era hazards

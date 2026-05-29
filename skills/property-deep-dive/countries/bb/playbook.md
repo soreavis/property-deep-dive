@@ -8,7 +8,7 @@ ISO2: `bb`. Status: ✅ Fully populated (researched 2026-05-07).
 
 - **Geography**: Single coral-limestone island, **~432 km²**, easternmost of the Caribbean island chain (separate from the volcanic Lesser Antilles arc). Capital **Bridgetown** (St. Michael parish). 11 parishes: **St. Michael** (capital, Bridgetown), **Christ Church** (south coast — DNV / retirement / Grantley Adams International Airport), **St. James** (west coast — luxury "Platinum Coast"), **St. Peter** (north-west coast — Speightstown, luxury), **St. Lucy** (north), **St. Andrew** (north-east — Scotland District), **St. Joseph** (east), **St. John** (east), **St. Philip** (south-east), **St. George** (interior), **St. Thomas** (interior).
 - **Population**: **~282,500** (2024, World Bank — verify at [Barbados Statistical Service](https://stats.gov.bb)). Population near-flat / mildly declining; 2010 Census ~277,800. Fertility below replacement; net migration slightly negative; ageing demographic.
-- **GDP per capita**: **~USD 26,500 nominal** (2024, World Bank) / **~USD 22,700 PPP** (2024, IMF — verify at [IMF DataMapper Barbados](https://www.imf.org/external/datamapper/profile/BRB)). Tourism + offshore financial services + ICT dominate; tourism contributes ~30–40% of GDP directly + indirectly.
+- **GDP per capita**: **~USD 26,500 nominal** (2024, World Bank) / **~USD 22,700 PPP** (2024, IMF — verify at [IMF DataMapper Barbados](https://www.imf.org/external/datamapper/profile/BRB)). Tourism + offshore financial services + ICT dominate; tourism is the single largest economic driver (direct + indirect — share figure not independently sourced here; verify magnitude at [CBB](https://www.centralbank.org.bb/) or WTTC).
 - **Currency**: **BBD (Barbados Dollar — Bds$ / B$)** — **pegged 2:1 to USD since 5 July 1975** ([CBB — Fixed for Forty-One Years](https://www.centralbank.org.bb/news/general-press-release/fixed-for-forty-one-years), 2016 anniversary post). **USD widely accepted** in tourism + west-coast luxury property; high-end deals (Sandy Lane, Royal Westmoreland, Apes Hill, Port Ferdinand, Port St. Charles) typically **quoted USD-firm**; mid-market local listings **BBD-priced**. **Exchange Control Regulations** under the **Exchange Control Act, Cap. 71** require **registration of incoming foreign currency** with the [CBB Foreign Exchange Department](https://www.centralbank.org.bb/foreign-exchange) for non-resident property purchase — the registration is **the legal gateway for future repatriation of capital + gains**.
 - **Languages**: **English (official, sole)** — all contracts, deeds, statutes in English. Bajan Creole (Bajan dialect) is the everyday vernacular but legal/professional life is standard English.
 - **Legal system**: **English common law** + Barbadian statutes, with the **Caribbean Court of Justice (CCJ)** as the final court of appeal since 2005 (Barbados was a founding member; replaced the Privy Council). **Conveyancing**: a **dual system** — most parcels still trade on the older **deeds-recording / abstract-of-title** model (chain-of-deeds at the Land Registry under the Property Act, Cap. 236); the **Title Registration Act, Cap. 229 (1979)** introduced an opt-in **Torrens-style "Certificate of Title" system** but adoption has been slow — most older parcels remain on the deeds-recording system. The **Land (Title Proceedings) Act 2011-7** modernised the judicial path to register clouded titles.
@@ -309,7 +309,7 @@ Governed by the **Stamp Duty Act, Cap. 91**. Administered by [BRA](https://bra.g
 - **Tax residency**: 182+ days physical presence OR domicile.
 - **Welcome Stamp holders**: NOT tax-resident; **exempt from Barbadian income tax on foreign-employment income** earned during the Stamp.
 - **Resilience and Regeneration Fund** employee contribution: **0.25%** of gross earnings (raised from 0.10% effective 1 April 2025).
-- **National Insurance Scheme (NIS)**: ~10.1% employee + ~11.25% employer typical (verify current rates at NIS).
+- **National Insurance Scheme (NIS)**: est. ~10.1% employee + ~11.25% employer (rate year not established here — these are indicative, undated; **verify current rates + effective date at NIS** before relying on them).
 
 ### Capital gains / inheritance / wealth
 
@@ -480,7 +480,7 @@ Barbados is **moderately accessible as a local-employment destination** for skil
 ### Climate change projections (2050 horizon — IPCC AR6 + Caribbean Community Climate Change Centre + CSGM UWI)
 
 - **Hurricane intensity** trending up — increased Cat 4–5 share in the Atlantic basin; **Beryl 2024** as recent calibration event for an earlier-season + further-south major hurricane.
-- **Sea-level rise**: +0.20–0.50 m by 2100 SSP2-4.5; +0.45–1.10 m by 2100 SSP5-8.5; **acute exposure for low-lying south + south-east coast parcels** (some Christ Church + St. Philip fishing villages).
+- **Sea-level rise**: +0.20–0.50 m by 2100 SSP2-4.5; +0.30–0.85 m by 2100 SSP5-8.5 (IPCC AR6 — reconciled with the figure cited under § Coastal flood / storm surge); **acute exposure for low-lying south + south-east coast parcels** (some Christ Church + St. Philip fishing villages).
 - **Drought**: eastern Caribbean trending drier in shoulder months; freshwater-supply stress on a country dependent on groundwater + desalination.
 - **Coral bleaching + ocean acidification**: material to beach replenishment + reef-tourism economics.
 - **Extreme rainfall hourly intensity**: +20–40% likely by mid-century — affects drainage + flash-flood risk in interior catchments (Codrington, St. Joseph, St. Andrew).
@@ -637,7 +637,7 @@ Universal logic per `shared/climate-projections.md`. Barbados-specific overrides
 - **Key projections** (IPCC AR6 + CCCCC, SSP2-4.5 / SSP5-8.5):
   - Annual mean temperature **+1.0 → +2.5°C** by 2100 (Caribbean SIDS regional band).
   - Hot days (Tmax ≥ 32°C): increasing materially; tropical nights (Tmin ≥ 24°C) becoming year-round in summer months.
-  - **Sea-level rise**: +0.20 → +0.85 m by 2100 SSP5-8.5 — exposure for low-lying south + south-east coast parcels.
+  - **Sea-level rise**: +0.30 → +0.85 m by 2100 SSP5-8.5 (IPCC AR6 — reconciled with the figure cited under § Coastal flood / storm surge) — exposure for low-lying south + south-east coast parcels.
   - **Hurricane intensity**: Atlantic-basin Cat 4–5 share trending up; **Beryl 2024 calibration event** for earlier-season + further-south major hurricanes — previously Barbados was considered "south of the track" with 70-year quiet (since Janet 1955).
   - **Rainfall**: dry-season drier projections; wet-season more intense convective events; **annual total flat-to-slightly-down**.
   - **Coral bleaching**: increasing frequency + severity — affects beach replenishment + reef-tourism economics.

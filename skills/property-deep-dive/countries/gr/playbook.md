@@ -118,14 +118,16 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04).
 - **Historic buildings ≤ €400k**: exempt
 - **Objective values frozen until 2027** — preserves base
 
-#### Typical ENFIA bills
+#### Illustrative ENFIA bills (est.)
 
-| Property type | Typical annual ENFIA |
+> **est. — not a quote.** Ranges below are modelled from the Main ENFIA per-m² × coefficient structure (line 109) with the 2025-2026 reductions above applied; they are NOT sourced bills. Verify the exact figure on the [AADE myPROPERTY / ENFIA](https://www.aade.gr/) statement for the specific parcel.
+
+| Property type | Illustrative annual ENFIA (est., 2025-2026 basis) |
 |---|---:|
-| Athens 80 m² apt (€150k objective) | €300–€600 |
-| Athens villa (€500k objective) | €1,500–€3,500 |
-| Cyclades vacation home (€350k) | €1,000–€2,500 |
-| Rural village house (≤1,500 pop) | €100–€300 (post-2026 cut) |
+| Athens 80 m² apt (€150k objective) | ~€300–€600 |
+| Athens villa (€500k objective) | ~€1,500–€3,500 |
+| Cyclades vacation home (€350k) | ~€1,000–€2,500 |
+| Rural village house (≤1,500 pop) | ~€100–€300 (reflects −50% village cut from 2026, line 116) |
 
 ### Transaction taxes
 
@@ -237,7 +239,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04).
   - Athens: ~€1,300–€2,000
   - Thessaloniki: ~€1,200–€1,800
   - Smaller cities: ~€1,000–€1,500
-- **Minimum wage**: €910/mo (2025); rising
+- **Minimum wage**: est. ~€910/mo (2025); rising — verify the gazetted statutory rate at the Greek Ministry of Labour (Υπουργείο Εργασίας, ypergasias.gov.gr)
 
 ---
 

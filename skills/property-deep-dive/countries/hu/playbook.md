@@ -99,8 +99,8 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 #### Telekadó (Land tax)
 
 - **Local — set per municipality**
-- Budapest XIII 2025: **536 HUF/m²**
-- Max 2026: **556 HUF/m²**
+- Budapest XIII 2025: **536 HUF/m²** (per local önkormányzati rendelet — verify with Budapest XIII önkormányzat)
+- Max 2026: **556 HUF/m²** (statutory max — verify with local önkormányzat)
 - Wide variance by district / municipality
 
 #### Typical annual tax bills
@@ -120,6 +120,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 - **2%** above HUF 1bn threshold (luxury reduction)
 - Capped: HUF **200M per property**
 - **First-home reduction**: under-35 buyers get **50% discount** if total value ≤ HUF 15M
+- *(2026-05-27 verified, source: NAV illeték / PwC Tax Summary)*
 
 ### VAT (ÁFA)
 
@@ -201,7 +202,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 ### Specific risks
 
 - **Flood** — major risk:
-  - **25% of national territory on floodplain**
+  - **~25% of national territory on floodplain** (per OVF — verify flood maps at ovf.hu)
   - **Tisza + Duna + Tisza-Maros** primary
   - "Icy flood" (early spring) + "green flood" (early summer)
   - **4,200 km of dykes**

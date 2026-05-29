@@ -44,7 +44,7 @@ ISO2: `de`. Status: ✅ Fully populated (researched 2026-04).
 - **Destatis Häuserpreisindex** (HPI): `https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreisindex/_inhalt.html`
 - **Bundesbank Wohnimmobilienpreise**: `https://www.bundesbank.de/`
 - **vdp Immobilienpreisindex**: `https://www.pfandbrief.de/`
-- 2025 typical (€/m² for Wohnungen):
+- ~ est. 2025 typical (€/m² for Wohnungen) — synthesised from listing aggregates; verify each band against the Destatis HPI / Bundesbank / vdp Immobilienpreisindex sources above and against BORIS for the specific Gemarkung — figures may have shifted since:
   - München: 9,000–12,000 €/m²
   - Frankfurt am Main: 6,500–8,500 €/m²
   - Hamburg: 6,000–8,000 €/m²

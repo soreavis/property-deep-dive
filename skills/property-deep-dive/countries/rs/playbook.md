@@ -85,7 +85,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Section: `--tax`
 
-### Annual property tax — Porez na imovinu
+### Annual property tax — Porez na imovinu (2025 rates — verify current local-self-government tariff)
 
 **Local self-government (progressive)**:
 
@@ -192,7 +192,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 #### Earthquake — moderate
 
-- **2010 Kraljevo M5.5** (€100M+ damage, 16k structures damaged)
+- **2010 Kraljevo M5.5** (est. €100M+ damage, est. 16k structures damaged — verify with Seizmološki zavod / RHMZ)
 - **1922 Lazarevac M6.0**, **1927 Rudnik M5.9**, **1980 Kopaonik M5.8**, **1998 Mionica M5.7**
 - Belgrade MM IV during Kraljevo
 - **Vlasinsko / Pirot** zone elevated; Belgrade lower
@@ -205,7 +205,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 #### Air quality
 
-- **Belgrade severe winter PM2.5** — among worst in Europe
+- **Belgrade records severe winter PM2.5** — verify current ranking with IQAir / EEA
 - Coal-heating + diesel cars contributors
 
 ### Build-era hazards
@@ -274,13 +274,13 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 ## Caveats unique to RS
 
 - **EU candidate since 2012** — accession negotiations ongoing
-- **Foreign-buyer reciprocity rules** — non-EU/non-OECD buyers may need Ministry of Justice approval (RSD 1,990, ~15 days)
-- **Confirmed reciprocity countries**: US, UK, CA, AU, most EU, Japan, Switzerland
+- **Foreign-buyer reciprocity rules** — non-EU/non-OECD buyers may need Ministry of Justice approval (est. RSD 1,990, ~15 days — verify current fee/timeline with Ministarstvo pravde)
+- **Reciprocity reportedly recognised** for US, UK, CA, AU, most EU, Japan, Switzerland — verify the current list with Ministarstvo pravde (see Extension TODO)
 - **EUR-denominated commercial** market; residential typically RSD or EUR-equivalent
 - **2014 floods** = Sava + Bosna (NOT Drava — common confusion)
 - **Capital gains 10-year exemption** — CRITICAL planning point
 - **Belgrade Waterfront** controversial mega-project; ongoing
-- **Belgrade winter PM2.5** among worst in Europe
+- **Belgrade records elevated winter PM2.5** — verify current ranking with IQAir / EEA
 - **NBS key rate 5.75%** since Oct 2024
 - **Currency RSD** managed float vs EUR
 - **Vojvodina autonomous province** has separate provincial regulations

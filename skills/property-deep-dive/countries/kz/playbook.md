@@ -445,7 +445,7 @@ For an Almaty Bostandyk 2-bed (70 m², asking KZT 55 M / ~$115k) under STR:
   - Topographic bowl (Trans-Ili Alatau blocks northward dispersion)
   - Coal-fired Almaty CHPP-1, CHPP-2, CHPP-3 + extensive coal home-heating in private-house belt ("частный сектор")
   - Vehicle fleet (~600k cars in city) dominated by older imports
-- Winter PM2.5 spikes routinely **>150–300 μg/m³** (vs WHO 24-hr guideline 15 μg/m³)
+- Winter PM2.5 spikes est. **>150–300 μg/m³** (vs WHO 24-hr guideline 15 μg/m³) — verify current readings at Kazhydromet / IQAir
 - **CHPP-3 modernisation** in progress 2025–2027; gas-conversion of private-sector heating subsidised; LPG/electric stove subsidy programme running
 - Property buyers in Almaty Bostandyk/Almaly/Auezov should factor air filtration (HEPA + activated carbon) into renovation budget; foothill (Medeu, upper Bostandyk) cleaner than valley floor
 
@@ -467,7 +467,7 @@ For an Almaty Bostandyk 2-bed (70 m², asking KZT 55 M / ~$115k) under STR:
 | Document | Required because | Notes |
 |---|---|---|
 | **USREC extract — Form 2 (information on registered titles + technical characteristics)** | All sales | Verify owner + cadastral number + encumbrances (ипотека/mortgage, арест/seizure, сервитут/servitude); **free or ~KZT 500–2,000** at any ЦОН or via [egov.kz](https://egov.kz/cms/en/services/pass076_mu_ul) |
-| **Notarised sale-purchase contract (договор купли-продажи)** | All sales (Civil Code Art. 155) | Mandatory; in Russian or Kazakh + notarised; submitted for USREC registration within 1 month of signing |
+| **Sale-purchase contract (договор купли-продажи)** | All sales (Civil Code Art. 155) | Customary but not statutory — simple written form legally sufficient, notarisation used by ~90 % for security (see --tax 2026-05-27 correction); USREC state registration IS mandatory within 1 month of signing; in Russian or Kazakh |
 | **Cadastral passport / Technical passport (технический паспорт / кадастровый паспорт)** | All sales | Issued by USREC since 2023 merger; ensure matches building footprint + interior layout (perepalanirovka / re-planning unrecorded = problem) |
 | **Building completion / commissioning act (акт ввода в эксплуатацию)** | New builds + extensions | Confirms construction completed legally per shared-equity construction law (No. 180-V of 2016); **often missing** for pre-2007 self-built ("samostroy") objects → affects future renovation / extension permits |
 | **No-debt certificate** (utilities, KSK/OSI building management fees) | Apartments in managed buildings | From KSK / OSI (housing cooperative or owners' association under 2020 multi-apartment building law) — ensure no debt attached to flat |
@@ -719,7 +719,7 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 - **"Golden Square" (Золотой квадрат)**: Almaty premium central rectangle bounded by Abay / Dostyk / Al-Farabi / Furmanov; consistently highest per-m² nationally
 - **Kaspi.kz**: dominant fintech super-app in KZ — used for banking + RE classifieds + payments + e-gov interactions; foreign buyers should obtain Kaspi account or equivalent for friction-free transactions (requires IIN + KZ-issued bank card)
 - **IIN (Individual Identification Number / ЖСН — Жеке сәйкестендіру нөмірі)**: 12-digit personal ID — required for all legal/tax/banking transactions; foreigners can obtain IIN at any ЦОН with passport + ~1 day; **prerequisite for property purchase, IE registration, eGov access**
-- **Notarial mandatory**: any property contract must be notarised (Civil Code Art. 155) — not optional
+- **Notarisation customary, not statutory**: notarisation is customary (~90 % of transactions) but **NOT statutorily mandatory** — simple written form is legally sufficient (Civil Code Art. 155); what IS mandatory is **USREC state registration** for the transaction to be valid (see --tax correction 2026-05-27)
 - **USREC same-day registration**: express 1-hour service available at major ЦОН; among Asia's fastest cadastres
 - **"Бесплатные мётры" (free metres) trap**: some new-build adverts inflate m² by adding common-area allocation pro-rata; verify cadastral passport m² not advertised m²
 - **Dual-language documents**: contracts often bilingual KZ/RU; legal effect with Kazakh-language version per Constitution Art. 7.1 — but Russian text governs in practice for foreigner contracts

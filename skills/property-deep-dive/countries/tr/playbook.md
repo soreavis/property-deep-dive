@@ -383,7 +383,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 ### Climate change projections
 
 - **MGM** + **EU Copernicus C3S**: TR Mediterranean climate warming faster than global average
-- **Aegean / Mediterranean coast**: drought intensifying; heat days TX≥35°C rising sharply (Antalya, Adana, Mersin already see 60+ such days/yr by mid-2020s, projected 90+ by 2050)
+- **Aegean / Mediterranean coast**: drought intensifying; heat days TX≥35°C rising sharply (Antalya, Adana, Mersin ~60+ such days/yr by mid-2020s, est. may rise toward ~90/yr by 2050 — figures not bound to a specific scenario/dataset year here; verify at MGM + Copernicus C3S)
 - **İstanbul + Marmara**: heat island + irregular precipitation; flash floods rising
 - **Eastern Anatolia**: temp rise + glacier loss in Doğu Karadeniz; heavy snow → rain transition
 - **Wildfire**: 2021 Antalya/Muğla mega-fires (160k ha) presaging trend; Aegean coast highest risk
@@ -435,7 +435,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 |---|---:|
 | **DASK earthquake insurance** (100 m² residential, İstanbul European side) | 300–500/yr |
 | **DASK** (200 m² residential) | 500–900/yr |
-| **DASK maximum guarantee 2025** | up to 1,913,059 TRY total cover per policy |
+| **DASK maximum guarantee 2025** | up to 1,913,059 TRY total cover per policy (2025 azami teminat per DASK tarife — verify at DASK; revalued annually) |
 | **Avukat / hukuki danışman** (transaction lawyer) | 1–3 % of price (negotiable) |
 | **Tapu Harcı total** | 4 % of declared sale value |
 | **Tercüman (sworn translator)** for foreign buyer at TKGM | 2,000–5,000/transaction |
@@ -470,7 +470,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 ## Caveats unique to TR
 
 - **TRY hyperinflation makes long-term comparisons tricky** — always check date + USD-equivalent. CPI was ~64 % YoY late 2024 (TÜİK), ~40 % late 2025; rates may have changed.
-- **Foreign-buyer pricing premium 15–35 %** common in Antalya, Alanya, Bodrum, Fethiye — listings on EN-language sites may differ from TR-language sahibinden equivalent.
+- **Foreign-buyer pricing premium est. ~15–35 %** in Antalya, Alanya, Bodrum, Fethiye — qualitative, based on the EN-language vs TR-language sahibinden listing spread, not a sourced benchmark; verify per listing.
 - **CBI threshold + rules change frequently** — $1M (2017) → $250k (Sept 2018) → **$400k (June 2022, current)**. 3-year resale lock + once-only-per-property restriction; some districts excluded (İstanbul + Antalya have ilçe-level exclusions for tightening). Verify Cumhurbaşkanlığı + Resmi Gazete.
 - **Earthquake risk dominates in Marmara, Aegean, Eastern Anatolia, southeast** — never skip AFAD lookup at `https://tdth.afad.gov.tr/`.
 - **TBDY 2018 is the building-quality watershed**: post-2019 in-force = substantially safer in design; pre-1999 = high risk unless retrofit-certified.

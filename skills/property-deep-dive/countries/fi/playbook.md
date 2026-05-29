@@ -111,12 +111,13 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 - **No notary** in Finland real estate; transactions handled by **kaupanvahvistaja** (purchase witness)
 - Kaupanvahvistajan palkkio: ~€120-200 fixed
 - Maanmittauslaitos kirjaaminen (registration): **€132** (2025 rate)
-- Real estate agent (välittäjä) fee: **2.5–4.0 %** typical, paid by seller
+- Real estate agent (välittäjä) fee: **est. 2.5–4.0 %** of price (market practice; negotiable), paid by seller
 
 ### Capital gains — Luovutusvoittovero
 
 - **30 %** for gain ≤ €30,000/yr
 - **34 %** above threshold
+- Rates/threshold per pääomatulo (capital-income) schedule — same as verified `--rental` entry below (source: vero.fi luovutusvoitto / rental-income guidance, 2026-05-27 verified)
 - **Primary residence exemption**: 2 yrs ownership + occupation → fully exempt
 - **Vapaa-ajan asunto** (secondary): full tax applies
 
@@ -136,7 +137,7 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Future risk
 
-- Kiinteistövero reform: planned to base on market value (could increase bills 30-50 %)
+- Kiinteistövero reform: proposals to base the tax on market value could raise bills materially (~est. 30-50 % in higher-value areas) — verify at vero.fi / VM (valtiovarainministeriö) reform tracker
 - ALV may continue rising
 - Vapaa-ajan asunto kiinteistövero pressure increasing
 
@@ -212,7 +213,7 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 - **Tulva (flooding)** — coastal Helsinki + Espoo, lake/river plains; Vuoksi basin (East FI)
 - **Radon — HIGHEST INDOOR LEVELS IN EU** on average:
   - **Pirkanmaa, Päijät-Häme, Itä-Uusimaa, Etelä-Karjala, Kanta-Häme** worst-affected
-  - 7-9 % of single-family houses exceed WHO 100 Bq/m³ threshold
+  - ~est. 7-9 % of single-family houses exceed the WHO 100 Bq/m³ reference level (per STUK radon program — see source table above; verify specific figure/year at stuk.fi)
   - Mandatory testing in some kunnat
 - **Earthquake** — very low (stable Fennoscandian Shield)
 - **Roudan aiheuttama vaurio** (frost heave) — ground freezing affects shallow foundations
@@ -231,7 +232,7 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 | **Post-2010 (E-luokka)** | Energy efficiency standards |
 | **Post-2017 nZEB** | Strict |
 
-**Asbestos**: pre-1994 buildings highly likely (banned 1994); cost €30–€80/m² removal.
+**Asbestos**: pre-1994 buildings highly likely (banned 1994); removal ~est. €30–€80/m² (see FI 2026 cost benchmarks below).
 
 **Putkiremontti (pipe renovation)**: ~50-year cycle for stamb (vertical pipe runs); buildings 1960s-1970s coming due now or already done; **cost per apartment €30,000-80,000+** for full renovation.
 

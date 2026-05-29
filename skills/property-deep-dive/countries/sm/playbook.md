@@ -200,7 +200,7 @@ Foundational law: **Legge 16 dicembre 2013 n.166** as amended (most recent mater
 ### Self-employment + entities
 
 - **ISS (Istituto per la Sicurezza Sociale)**: `https://www.iss.sm/` — public health + social-security single regime
-- **Forme societarie**: *S.r.l.* (Società a responsabilità limitata) min capital **€25,500** typical; *S.p.A.* min capital **€77,000**; corporate IGR **18% flat (2026)**
+- **Forme societarie**: *S.r.l.* (Società a responsabilità limitata) min capital **~€25,500 est.** (verify at Camera di Commercio); *S.p.A.* min capital **~€77,000 est.** (verify at Camera di Commercio); corporate IGR **18% temporary for 2026–2030 (ordinary 17%)** — see Tax section
 - **Lavoratore autonomo individuale**: simpler; ISS + IGR liability
 
 ### Salary benchmarks (2024–2025, est.)
@@ -541,7 +541,7 @@ If any check fails, the deed is **null and void** — the notary's verification 
 | **Notaio fee** | ~1–2% of price (regulated arancel) |
 | **Imposta di Registro** | ~3–6% (verify exact rate at Ufficio del Registro for the deal type) |
 | **Imposta Ipotecaria + Catastale** | ~0.5–1.5% combined |
-| **Tassa di Concessione Governativa** (foreign buyer) | flat + ad-valorem; verify current quantum |
+| **Tassa di Concessione Governativa** (foreign buyer) | €1,000 fixed admin fee (Art. 51 Legge 173/2018; 2026-05-27 verified) — NOT ad-valorem; verify current quantum at notary |
 | **Imposta Monofase** (new build first sale by developer) | 17% in lieu of Registro |
 | **Total transaction cost (buyer side, resident, resale)** | **~5–9%** of price |
 | **Total transaction cost (buyer side, non-resident, resale)** | **~6–11%** of price |
@@ -569,7 +569,7 @@ If any check fails, the deed is **null and void** — the notary's verification 
 
 ### San Marino's distinctive position
 
-- **Lowest transaction-tax stack of the European microstate quartet** in resident-buyer terms; non-resident concession tax adds friction but is a flat-fee + modest ad-valorem rather than the ~10% Andorran progressive surcharge
+- **Lowest transaction-tax stack of the European microstate quartet** in resident-buyer terms; non-resident concession tax adds friction but is a flat €1,000 fee rather than the ~10% Andorran progressive surcharge
 - **Counter-balanced by**: small + thin RE market (low-three-digit annual transactions), 2-property cap for foreign individuals, IGR personal income tax up to 35% (less competitive than Monaco 0% / Andorra 10% top), 30-year naturalisation, no Schengen membership (de facto open ITA border but separate immigration regime)
 - **Best fit**: tax-residency seekers wanting Italian-speaking environment with materially lower IGR than Italy's IRPEF (43% top); HNW retirees / remote-workers compatible with mountain-Adriatic-hinterland lifestyle; entrepreneurs setting up SM company under Residenza per Motivi Economici (51% + employees + €75k/€150k deposit)
 - **Worse fit**: pure non-resident investment-only buyers seeking >2 properties; CBI/passport-driven investors (no programme); buyers needing Schengen membership for visa-free non-EU travel from a passport
@@ -638,7 +638,7 @@ San Marino is a **viable retirement destination** for HNW retirees seeking Itali
 ### Headline 2024–2026 ([Statistica](https://www.statistica.sm/) + [BCSM Bollettino](https://www.bcsm.sm/))
 
 - GDP growth 2024 ~+1.0–1.5%; 2025 fcst +1.0–1.5%
-- GDP per capita 2024: ~€40–45k (top-quartile EU per-capita; verify at Statistica)
+- GDP per capita 2024: ~€40–45k (verify at Statistica)
 - Inflation 2024: ~2.5–3.5% headline (cooling from 2022 peak; tracks ITA + Eurozone)
 - Unemployment 2024: ~4–5% (low-unemployment regime; cross-border frontalieri absorb labour demand)
 - Public debt / GDP: ~30–35% (post-2010s banking-resolution stabilisation); IMF Article IV assessments positive on fiscal trajectory
@@ -732,7 +732,7 @@ San Marino is a **viable retirement destination** for HNW retirees seeking Itali
 | Notaio fee (regulated arancel) | 1–2% of price |
 | Imposta di Registro (resale) | 3–6% (verify per deal type) |
 | Imposta Ipotecaria + Catastale | 0.5–1.5% combined |
-| Tassa di Concessione Governativa (foreign buyer) | flat + ad-valorem; verify current |
+| Tassa di Concessione Governativa (foreign buyer) | €1,000 fixed (Art. 51 Legge 173/2018) — NOT ad-valorem; verify current |
 | Imposta Monofase (new-build first sale) | 17% of price (in lieu of Registro) |
 | Estate agent commission (each side, where engaged) | 3% of price |
 | APE certificate | 200–500 |
@@ -872,7 +872,7 @@ Pre-2018, all non-citizen acquisitions required **prior authorisation of the Con
 
 - [ ] Per-Castello ISI cadastral-rate matrix (9 Castelli × residential category)
 - [ ] Imposta di Registro deal-type schedule (resale resident / non-resident / new-build / commercial breakdown)
-- [ ] Tassa di Concessione Governativa current quantum (flat + ad-valorem decomposition)
+- [ ] Tassa di Concessione Governativa current quantum (confirm €1,000 fixed; whether any ad-valorem element exists)
 - [ ] Per-Castello €/m² benchmarking via UTCC visura (post-2018 transactions sample)
 - [ ] EU Association Agreement ratification monitoring + scenario impact on tax/visa
 - [ ] BCSM mortgage-stock series → bank-by-bank LTV product matrix

@@ -6,7 +6,7 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Postcode**: 5 digits (`10101` San José, `40101` Alajuela, `50101` Cartago, `60101` Heredia)
 - **Admin levels**: 7 provinces + 84 cantones + 488 distritos
-- **Currency**: **CRC** (Costa Rican colón); 1 USD ≈ 510–540 CRC; 1 EUR ≈ 555–585 CRC
+- **Currency**: **CRC** (Costa Rican colón); 1 USD ≈ 510–540 CRC; 1 EUR ≈ 555–585 CRC (as of early 2026 — rates fluctuate, check BCCR *tipo de cambio*)
 - **Languages**: Spanish (de facto); English widely used in tourist + expat zones
 - **Cadastre — CENTRALIZED (strongest digital infra in LatAm)**:
   - **Registro Nacional**: `https://www.rnpdigital.com/`
@@ -31,7 +31,7 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 - **CRPropertyExpert**, **Properties in Costa Rica**, **Coldwell Banker CR**
 - High **English-language presence** (expat-driven market)
 
-### 2026 price benchmarks (BCCR + Coldwell Banker)
+### Price benchmarks (as of early 2026, BCCR index + Coldwell Banker CR aggregate — figures may have changed since)
 
 | Region | USD/m² (typical) | Notes |
 |---|---:|---|
@@ -41,11 +41,11 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 | **Tamarindo / Nosara / Coco condos** | $1,400–$3,154 | Pacific coast premium |
 | **Tamarindo / Nosara / Coco houses** | $550k–$1.7M | varies hugely |
 | **Jacó / Manuel Antonio** | $1,500–$2,500 (houses) | Pacific |
-| **Atenas / Grecia hills** | $170–$180/m² (raw land) | Inland mountain |
+| **Atenas / Grecia hills** | ~$170–$180/m² (raw land, per listing — verify with plano catastrado + comparable transactions) | Inland mountain |
 | **Liberia / Guanacaste interior** | $700–$1,200 | Lower coast |
 | **Limón Caribbean** | $400–$900 | Underdeveloped |
 
-**2026 forecast**: +7-12% premium areas, coastal upside.
+**2026 outlook**: est. +7-12% in premium areas (inference, not a sourced forecast — verify against BCCR index trend).
 
 ### Compute
 
@@ -179,7 +179,7 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
   - San José: ~$700–$1,200 (USD)
   - Escazú / Heredia: ~$900–$1,500
   - Coastal tourist zones: ~$500–$1,000
-- **Salario Mínimo**: varies by profession (~CRC 360,000-450,000/month)
+- **Salario Mínimo**: varies by profession (~CRC 360,000-450,000/month, 2025 — published MTSS *salario mínimo* decree number, not an estimate; verify exact figure against the current semester decree)
 
 ---
 
@@ -266,11 +266,13 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Costs
 
-| Scenario | Cost (USD) |
+| Scenario | Cost (USD, est.) |
 |---|---:|
-| Mains connection | $500–$2,000 |
-| Pozo + bomba | $2,500–$8,000 |
-| Tanque séptico | $2,000–$6,000 |
+| Mains connection | ~$500–$2,000 |
+| Pozo + bomba | ~$2,500–$8,000 |
+| Tanque séptico | ~$2,000–$6,000 |
+
+*Est. ranges (AyA connection + local contractor quotes) — verify on quote.*
 
 ---
 
@@ -278,14 +280,16 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 
 | Work | Cost (USD) |
 |---|---:|
-| Estudio de Registro (title study) | $300–$700 |
+| Estudio de Registro (title study) | est. $300–$700 |
 | Notary + escritura | 1.0–2.0% of price |
 | Traspaso + timbres + registro | ~2.3% |
 | **Total transaction cost (buyer)** | **~3–4%** of price |
-| Roof renovation | $3,000–$10,000 |
-| Anti-seismic retrofit | $15,000–$60,000 |
-| Energy retrofit | $5,000–$25,000 |
-| Solar PV (5kW) | $4,000–$8,000 |
+| Roof renovation | est. $3,000–$10,000 |
+| Anti-seismic retrofit | est. $15,000–$60,000 (depends on structure/size — verify with structural engineer quote) |
+| Energy retrofit | est. $5,000–$25,000 |
+| Solar PV (5kW) | est. $4,000–$8,000 |
+
+*Works/professional-service rows above are est. ranges from contractor/notary quotes — verify per quote. Traspaso/timbres/notary % rows are anchored to the sourced `--tax` section.*
 
 ## Active fiscal incentives + visa programs (2025-2026)
 

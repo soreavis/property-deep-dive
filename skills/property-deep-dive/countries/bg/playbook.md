@@ -59,14 +59,14 @@ BGN no longer Bulgaria's currency. **EUR is legal tender from 1 Jan 2026** (Coun
 - **Local acquisition tax (данък при придобиване)**: Set by each of 265 municipalities **between 0.1% and 3.0%**. Applied to higher of declared price or **tax assessment value** (typically below market)
   - **Sofia, Plovdiv, Varna, Burgas, major resorts**: 3.0% typically
   - **Rural / small towns**: as low as 0.5%
-- **Notary fee**: progressive (capped). Roughly 0.1%–1.5% of value, max ~EUR 3,000. **20% VAT applies on top** of notary fee (not on property price itself for resales)
+- **Notary fee**: progressive (capped) per the regulated Notaries Act tariff. Roughly 0.1%–1.5% of value, max ~EUR 3,000 (regulated figure — verify current tariff, may change). **20% VAT applies on top** of notary fee (not on property price itself for resales)
 - **Registration fee at Registry Agency**: 0.1% of price
 
 **Total typical acquisition costs**: ~**2–5%** of price.
 
 ### Annual immovable property tax
 
-- Municipal rate: **0.01% to 0.45%** of **tax-assessed value** (NOT market — typically 30–60% of market). Sofia ~0.18–0.20% for residential
+- Municipal rate: **0.01% to 0.45%** of **tax-assessed value** (NOT market — typically 30–60% of market), per the Local Taxes and Fees Act statutory band. Sofia ~0.18–0.20% for residential (rate set annually per municipality — verify current year with sofia.bg / Local Taxes and Fees Act)
 - Levied on land + buildings within development limits (urban + nucleated rural settlements)
 - Paid in 2 instalments (30 June and 31 October). **5% prompt-pay discount** if full year paid by 30 April
 
@@ -120,7 +120,7 @@ Sofia IT/services hub; Plovdiv automotive (PIB Trakia + Trakya zones); Varna/Bur
 ### Seismic
 
 - **Main zones**: Sofia, Kresna (SW), Maritsa (Plovdiv area), Gorna Oryahovitsa, Shabla (Black Sea coast)
-- Plovdiv has highest provincial seismic hazard ranking; nearly 60% of Plovdiv residential buildings in highest PEI category
+- Plovdiv has highest provincial seismic hazard ranking; a large share of Plovdiv residential buildings sit in the highest PEI category (specific percentage not publicly verified — confirm with NIGGG-BAS)
 - Sofia: historical reference earthquake **18/30 September 1858, M6.5, MSK intensity 9-10** (Vitosha north-margin fault). Probabilistic max design earthquake M~6.5 PGA ~0.16-0.24g
 - **NIGGG-BAS (National Institute of Geophysics, Geodesy & Geography)**: https://ndc.niggg.bas.bg/en/ — live seismic data, catalogue
 - EFEHR European Seismic Hazard Map integrates Bulgaria
@@ -133,7 +133,7 @@ Sofia IT/services hub; Plovdiv automotive (PIB Trakia + Trakya zones); Varna/Bur
 
 ### Forest fire (CRITICAL — 2024 worst recorded year)
 
-- **2024: ~600 wildfires; Bulgaria became EU's most-fire-affected country by burned area**
+- **2024: ~600 wildfires; among the EU's most fire-affected countries by burned area** (EU ranking not source-stamped here — verify with EFFIS / European Forest Fire Information System)
 - Hot zones: **Rhodopes (south), Strandzha, Sakar, Pirin** (rural/mountain), Black Sea hinterland (Burgas province)
 - 90%+ fires human-caused, but climate-prepared landscape (heatwave, drought) is the multiplier
 - **Implication**: rural Pirin/Rhodope cheap properties (often advertised sub-EUR 30k) sit in elevated fire-risk zones with limited insurance availability
@@ -162,7 +162,7 @@ Sofia IT/services hub; Plovdiv automotive (PIB Trakia + Trakya zones); Varna/Bur
 
 ### Sofia district heating — major issue
 
-- **Toplofikatsiya Sofia** (~70% of Sofia households connected). Severe financial distress:
+- **Toplofikatsiya Sofia** (~70% of Sofia households connected — coverage share not source-stamped here; verify with Toplofikatsiya Sofia / Sofia municipality). Severe financial distress:
   - Liabilities expected to reach BGN 2.7 billion in 2025
   - >BGN 1 billion debt to natural gas supplier Bulgargaz
   - Gas supplier blocked Toplofikatsiya accounts late 2025
@@ -173,7 +173,7 @@ Sofia IT/services hub; Plovdiv automotive (PIB Trakia + Trakya zones); Varna/Bur
 ### Other mains
 - **Electricity**: Three regional distributors — **EVN** (south, Plovdiv), **Energo-Pro** (north), **ChEZ Razpredelenie / Elektrohold** (west, Sofia)
 - **Gas**: **Bulgargaz** (state) wholesale; **Overgas** + regional DSOs retail. Domestic gas penetration low
-- **Water**: Local "VIK" municipal companies. Sofia VIK serves capital. Tariffs lowest in EU
+- **Water**: Local "VIK" municipal companies. Sofia VIK serves capital. Tariffs among the lowest in the EU (ranking not source-stamped here — verify with EurEau / regulator KEVR for a dated tariff)
 - **Black Sea coast resort complexes**: many gated complexes on **private water/sewage** maintained by complex management — annual fee EUR 300–1,500+. Not connected to public main. Verify before buying
 
 ---
@@ -232,7 +232,7 @@ Universal — see `shared/climate-projections.md`.
   - Post-Feb 2022: BG banks closed/refused new accounts for Russian nationals; sales by Russians ~EUR 22M in 2022 — significant but no mass sell-off
   - Implication: complexes with high Russian-owner concentration may have under-maintained common areas, unpaid maintenance dues, distressed sellers — opportunity AND risk
   - Buyers should ask explicitly whether seller is on EU sanctions list; notaries are AML-obligated entities
-- **Large transactions** (since 2025): additional source-of-funds checks for transactions >EUR 500,000
+- **Large transactions** (since 2025): additional source-of-funds checks for transactions >EUR 500,000 (threshold and effective date not source-stamped here — verify with notary / DANS under the Measures Against Money Laundering Act)
 
 ---
 
@@ -280,7 +280,7 @@ Universal — see `shared/climate-projections.md`.
 
 ## Status
 
-**Confidence**: HIGH on eurozone entry 1 Jan 2026 (multiple verified sources), VAT 20% no reduced rate for housing, CGT 10% with 3yr/5yr exemption schedule, KAIS cadastre + Registry Agency dual-system, non-EU "cannot own land directly" rule, Toplofikatsiya Sofia crisis (2025 documented). MEDIUM on per-municipality acquisition tax rates (255 municipalities; verify per locality), Russian-buyer post-2022 secondary effects (anecdote-heavy). LOW on Black Sea complex maintenance fees per-development (varies; verify per-complex).
+**Confidence**: HIGH on eurozone entry 1 Jan 2026 (multiple verified sources), VAT 20% no reduced rate for housing, CGT 10% with 3yr/5yr exemption schedule, KAIS cadastre + Registry Agency dual-system, non-EU "cannot own land directly" rule, Toplofikatsiya Sofia crisis (2025 documented). MEDIUM on per-municipality acquisition tax rates (265 municipalities; verify per locality), Russian-buyer post-2022 secondary effects (anecdote-heavy). LOW on Black Sea complex maintenance fees per-development (varies; verify per-complex).
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)

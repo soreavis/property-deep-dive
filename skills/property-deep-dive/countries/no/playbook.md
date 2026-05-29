@@ -111,11 +111,11 @@ For borettslag, always compute:
 
 ### Transaction taxes — Dokumentavgift (MAJOR)
 
-**2.5 % of purchase price** — significant! Buyer pays.
+**2.5 % of purchase price** (2025, source: Skatteetaten / dokumentavgiftsloven) — significant! Buyer pays.
 
 **CRITICAL EXEMPTION**: **Borettslag NOT subject to dokumentavgift** (only selveier + eierseksjon).
 - This makes borettslag often €25,000–€100,000 cheaper to buy at same price point
-- **Borettslag transfer**: only **NOK 480-585** flat fee (Tinglysningsgebyr)
+- **Borettslag transfer**: only **NOK 585** (2025) flat fee (Tinglysningsgebyr)
 
 **Tinglysningsgebyr** (registration fee): **NOK 585** (2025) per document for kjøp + skjøte; mortgage doc separately
 
@@ -132,15 +132,15 @@ For borettslag, always compute:
 
 ### Capital gains
 
-- **22 % flat** (resident individuals)
-- **Primary residence exemption**: **12 months ownership + occupation in last 24 months** → fully exempt
+- **22 % flat** (resident individuals) (2025, source: Skatteetaten)
+- **Primary residence exemption**: **12 months ownership + occupation in last 24 months** → fully exempt (source: Skatteetaten, skatteloven; 2025)
 - Investment property: full 22 % on gain
 
 ### VAT (mva)
 
 - 25 % standard
 - 15 % reduced (food)
-- 12 % reduced (transport, hotels, cinema, museums)
+- 12 % reduced (transport, hotels, cinema, museums) (2025 rates, source: Skatteetaten — merverdiavgiftsloven; rates may have changed)
 - Residential property sales: **VAT-exempt** (excl. specific commercial)
 
 ### Future risk
@@ -171,7 +171,7 @@ For borettslag, always compute:
 
 ### Tax on short-let
 
-- **Skatteetaten**: rental income taxable as **kapitalinntekt** 22 %
+- **Skatteetaten**: rental income taxable as **kapitalinntekt** 22 % (2025, source: Skatteetaten)
 - **Above NOK 10,000/yr** for primary residence rental: tax applies on amount above
 - **Sekundærbolig**: full taxation
 - **Hyttekultur** (cabin culture): ulikt regelverk per kommune
@@ -191,7 +191,7 @@ For borettslag, always compute:
 ### Self-employment
 
 - **Enkeltpersonforetak (ENK)**: sole trader; no min capital
-- **Aksjeselskap (AS)**: limited company, **min NOK 30,000** capital
+- **Aksjeselskap (AS)**: limited company, **min NOK 30,000** capital (source: Brønnøysundregistrene / aksjeloven; 2025)
 - **NUF (Norwegian-registered foreign company)**: niche
 - **Brønnøysundregistrene** (registration agency)
 - **Folketrygd** + **Næringsdrivende** social contributions
@@ -242,7 +242,7 @@ For borettslag, always compute:
 - **Earthquake**: low-moderate (Norwegian Sea, west coast)
   - Bergen + Oslo region: M 5+ historical
   - North Sea: minor
-- **Climate change**: precipitation +30% projected for 2050; permafrost retreat in north; sea-level rise
+- **Climate change**: rising precipitation (see sourced MET + NVE projections below); permafrost retreat in north; sea-level rise
 
 ### Build-era hazards
 

@@ -70,7 +70,7 @@ ISO2: `bz`. Status: ✅ Fully populated (researched 2026-05-07).
 
 ### Compute
 
-1. **USD/sq ft** = price ÷ **net floor area** (`square feet` is the universal local convention; 1 m² = 10.76 ft²). Conversions to €/m² for European buyers: divide US$/sq ft by ~0.093 to approximate € per m² at typical FX (compute with current rate).
+1. **USD/sq ft** = price ÷ **net floor area** (`square feet` is the universal local convention; 1 m² = 10.76 ft²). Conversions for European buyers: multiply US$/sq ft by **10.76** to get **US$/m²**, then apply the **current USD→EUR rate** to reach €/m² (two distinct steps — a unit conversion then a currency conversion; compute with the live FX rate).
 2. Compare to **≥ 3 active comparables on Belize Real Estate Search + RE/MAX Belize** in the **same community + island/peninsula segment** (HOA/strata governance + reserve-fund discipline matter materially in condo-heavy markets like San Pedro / Caye Caulker / Placencia).
 3. **Trap — declared vs undeclared land**: a parcel held under Deed of Conveyance at the Titles Registry (undeclared) is materially harder to mortgage, insure, and resell than a Registered Land Act parcel. Verify with the Lands Department + your attorney **before pricing**. See `--risks`.
 4. **Trap — Maritime (Queen's Chain)**: the **66-foot strip** along the high-water mark is **public Crown reserve** — purported "beachfront fee simple" parcels often abut, not include, the foreshore. Verify the title boundary against the Lands & Surveys Department survey diagram.
@@ -431,7 +431,7 @@ Regulatory status (verified 2026-05):
 - **Belize Electricity Limited (BEL)**: `https://www.bel.com.bz/` — single distributor for most of the country. Some industrial + isolated supply via independent producers + Hummingbird grid via Mexico's CFE. Regulator: PUC.
 - **2022 Census**: **87.4 % of households on public-grid lighting** — significant rural off-grid balance.
 - **Reliability**: variable; outages from grid faults + tropical storms + cross-border supply disruptions are common. **Inverter + battery backup** ("solar + battery" or generator) is standard for any middle-class Belize City household and most resort properties.
-- **Tariff**: published by PUC; residential block-tariff structure; **~USD 0.20–0.40 / kWh all-in** typical (Caribbean-typical band) — verify current tariff at PUC + BEL rate cards.
+- **Tariff**: published by PUC; residential block-tariff structure; **~USD 0.20–0.40 / kWh all-in** (est., Caribbean band — vintage not pinned) — verify current tariff at PUC + BEL rate cards.
 - **Off-grid**: many Cayo + Toledo + caye properties run **full off-grid solar + battery + diesel generator** as the only practical option; cost premium baked into price.
 
 ### Costs
@@ -485,7 +485,7 @@ Administered by **Belize Tourism Board (BTB)**: `https://www.belizetourismboard.
   - **Permanent QRP status** (renewable; ID card USD 200 + USD 25 annual renewal).
 - **Fees**: USD 150 application; USD 1,000 applicant fee; USD 750 per dependent; USD 200 ID card.
 - **Working in Belize**: **prohibited** for income from local sources (programme is retirement-intent).
-- **Comparison to Costa Rica Pensionado (USD 1,000/mo) + Panama Pensionado (USD 1,000/mo)**: Belize QRP is **2× the income threshold** but offers a **fuller tax-exemption package** on foreign-source income.
+- **Comparison to Costa Rica Pensionado (~USD 1,000/mo, est. — verify in `countries/cr/playbook.md`) + Panama Pensionado (~USD 1,000/mo, est. — verify in `countries/pa/playbook.md`)**: against those est. comparators, Belize QRP's **USD 2,000/mo** (sourced above) is **~2× the income threshold** but offers a **fuller tax-exemption package** on foreign-source income.
 
 ### Tax-incentive regimes
 

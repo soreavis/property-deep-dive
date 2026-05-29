@@ -21,7 +21,7 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 - **Ownership types**:
   - **Freehold** — most houses
   - **Condo** (most provinces) / **Strata** (BC) / **Co-op** (rare ON/QC)
-  - **Leasehold** — 99-year on Indigenous land (Musqueam Vancouver, Cornwall Park Auckland equivalent)
+  - **Leasehold** — 99-year on Indigenous land (e.g., Musqueam, Squamish/Tsleil-Waututh leasehold lands, Vancouver)
 - **Federal foreign-buyer ban**: extended to **1 Jan 2027** (Prohibition on the Purchase of Residential Property by Non-Canadians Act)
 
 ## Section: `--price`
@@ -80,7 +80,7 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Transport Canada national highway system**: `https://tc.canada.ca/`
 - **Provincial DOT traffic counts**:
-  - Ontario: **MTO Traffic Volumes** `https://www.gtha.ca/`
+  - Ontario: **MTO Provincial Highways Traffic Volumes** — search the Ontario Open Data Catalogue (`data.ontario.ca`) for "provincial highways traffic volumes" (verify current dataset URL on the catalogue)
   - BC: **DriveBC Traffic** `https://www.drivebc.ca/`
   - Alberta: **Open Data Alberta** traffic
   - Quebec: **MTQ Traffic Volumes**
@@ -105,7 +105,9 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 
 Property tax = **mill rate × assessed value** (assessed by provincial agency, e.g., MPAC ON, BC Assessment, MAA AB).
 
-| Province / City | Mill rate | Assessment basis |
+Mill rates below are est. magnitudes set annually by each municipality (verify the current year on the municipal tax bill / city budget — rates may have changed since):
+
+| Province / City | Mill rate (est.) | Assessment basis |
 |---|---:|---|
 | Toronto | ~0.66% | MPAC (every 4 years; 2016 frozen) |
 | Vancouver (City) | ~0.28% | BC Assessment annual |
@@ -115,7 +117,7 @@ Property tax = **mill rate × assessed value** (assessed by provincial agency, e
 | Halifax | ~0.95% | PVSC annual |
 | Edmonton | ~0.91% | Annual |
 
-**Education portion**: separately added (varies 0.15-0.50%).
+**Education portion**: separately added (est. ~0.15-0.50% depending on province/board — verify on the municipal tax bill).
 
 ### Transaction taxes (LTT — Land Transfer Tax)
 
@@ -272,7 +274,7 @@ Tiered 0.5–2.5% depending on municipality (Montreal 3% over $2.6M).
 
 - **Wildfire** — extreme + increasing:
   - BC, AB, ON (boreal), Atlantic
-  - 2023 record fire season (18.5M ha burned)
+  - 2023 record fire season (~18.5M ha burned — verify with NRCan / CIFFC 2023 season summary)
   - Black summer 2023 evacuations Yellowknife, Kelowna, West Kelowna
   - **Increased home insurance exclusions** in WUI zones
 - **Flood** — major risk:
@@ -316,10 +318,10 @@ Tiered 0.5–2.5% depending on municipality (Montreal 3% over $2.6M).
 
 ### Climate change projections
 
-- BC + AB + Prairies: **+3–5°C** by 2050
+- BC + AB + Prairies: **+3–5°C** by 2050 (est., scenario-dependent — verify with Canada in a Changing Climate / ECCC regional projections)
 - Wildfire intensity: significant elevation
 - Permafrost retreat: NWT, Yukon
-- Atlantic sea-level rise: +30–80 cm by 2100
+- Atlantic sea-level rise: est. +30–80 cm by 2100 (scenario-dependent — verify with ECCC sea-level projections)
 - Increased insurance premiums for wildfire/flood
 
 ---
@@ -334,7 +336,9 @@ Tiered 0.5–2.5% depending on municipality (Montreal 3% over $2.6M).
 
 ### Costs
 
-| Scenario | Cost (CAD) |
+Illustrative contractor estimates, not quoted figures — verify with local quotes:
+
+| Scenario | Cost (CAD, est.) |
 |---|---:|
 | Water/sewer connection (urban) | $5,000–$15,000 |
 | Mains-line extension | $20,000–$60,000+ |
@@ -396,7 +400,7 @@ Tiered 0.5–2.5% depending on municipality (Montreal 3% over $2.6M).
 - **Mortgage stress test** = OSFI minimum qualifying rate: **greater of contract rate + 2% or 5.25% floor**; from **21 Nov 2024** uninsured-mortgage renewals switching lenders are exempt from re-stress-testing if loan + amortization unchanged (2026-05-27 verified, source: [OSFI MQR for uninsured mortgages](https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages))
 - **Cross-border tax** — US/CA dual citizens face FATCA + complex CGT
 - **Strata depreciation reports** mandatory in BC (every 5 years)
-- **Indigenous land** — leasehold-only on reserve land (Cornwall Park Auckland equivalent)
+- **Indigenous land** — leasehold-only on reserve land (e.g., Musqueam, Squamish/Tsleil-Waututh leasehold lands, Vancouver)
 - **CMHC mortgage insurance** mandatory if down payment <20%
 - **Toronto MLTT graduated high-value rates** from 1 Apr 2026
 

@@ -373,7 +373,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Eircode** (since 2015) — most reliable address identifier; many older systems still use townland+county
 - **Tailte Éireann merger 2023** — consolidated Property Registration Authority + Ordnance Survey + PSRA — historic landings under different systems
-- **FHL abolition 1/6 April 2025** — major change for short-let economics
+- **No Irish FHL regime** — short-let classification is per-facts via Revenue Case I (trading) vs Case V (rental) test; DAC7 platform reporting from 2024; Short-Term Letting Register (STLR) opens 1 Dec 2026 (see Short-let section)
 - **LPT revaluation 2026-2030** — new bands, base rate 0.0906%, 96% stay in band
 - **Pyrite/Mica defective blocks scandal** — Mayo, Donegal, parts of Sligo, Clare, Limerick
   - DCBS up to €420,000 remediation
@@ -439,7 +439,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing, traffic, tax (LPT 2026 + stamp duty), rental, work, risks (incl. mica/pyrite + Storm Éowyn), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for LPT 2026-2030 cycle (gov.ie + Revenue.ie + irishtaxhub all confirm 0.0906% rate, 1 Nov 2025 valuation, 20% band widening, 96% stay-in-band); HIGH for FHL abolition (HMRC equivalent IE Revenue confirms April 2025); HIGH for stamp duty 6% above €1.5M from 2024; HIGH for DCBS €420k cap. MEDIUM for Storm Éowyn long-term insurance/property pricing impact (still emerging).
+**Confidence**: HIGH for LPT 2026-2030 cycle (gov.ie + Revenue.ie + irishtaxhub all confirm 0.0906% rate, 1 Nov 2025 valuation, 20% band widening, 96% stay-in-band); HIGH for stamp duty 6% above €1.5M from 2024; HIGH for DCBS €420k cap. MEDIUM for Storm Éowyn long-term insurance/property pricing impact (still emerging).
 
 ## Extension TODOs
 
@@ -447,7 +447,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 - [ ] Pyrite/Mica defective block scheme (DCBS) eligibility per address
 - [ ] Per-county RPZ maps + rent caps
 - [ ] Group Water Scheme verification per address
-- [ ] FHL transition rules (post-April 2025)
+- [ ] STLR registration workflow (Fáilte Ireland register opens 1 Dec 2026)
 - [ ] Folio vs Deed system per county
 - [ ] EU 2024/1028 Irish transposition (May 2026)
 - [ ] Help-to-Buy + LAAP + First Home Scheme decision tree

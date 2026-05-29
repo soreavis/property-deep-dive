@@ -296,11 +296,11 @@ Source for parcel-level: ČAP map at `https://www.cap.cz/povodnove-mapy` (insura
 - **Nízký** (low) — most of CZ
 - **Přechodný** (transitional)
 - **Vysoký** (high) — Vysočina, Krušné hory podhůří, Jižní Čechy granite belt, Krkonoše + Jizerské hory podhůří, Jeseníky
-- **CZ has highest radon contamination per capita in Europe** — significantly worse than France or Germany
+- **CZ is among the highest-radon countries in Europe** (est., reflecting the granite-substrate geology of the high-index zones above — verify radon-index data at suro.cz)
 - New buildings since 1991: mandatory radon protective measures
 - Older buildings (pre-1991): retrofit recommended in vysoký radon areas
 
-**Mitigation cost**: 50,000–200,000 CZK (€2,000–€8,000) — VMC, sealing, sub-floor ventilation
+**Mitigation cost**: est. 50,000–200,000 CZK (~€2,000–€8,000) (2026 contractor ranges — verify with quotes) — VMC, sealing, sub-floor ventilation
 
 ### Seismicity
 
@@ -323,7 +323,7 @@ Source for parcel-level: ČAP map at `https://www.cap.cz/povodnove-mapy` (insura
 | **Post-2008** | Modern energy + fire standards (Vyhláška 268/2009) |
 | **Post-2014 NOZ** | New civil code; older "anomalous" titles harmonized |
 
-**Asbestos**: pre-1995 likely; obligatory removal if friabile; cost 1,500–4,000 CZK/m² roof.
+**Asbestos**: pre-1995 likely; obligatory removal if friabile; est. cost 1,500–4,000 CZK/m² roof (2026 ranges — verify with abatement quotes).
 
 ### Mandatory diagnostics at sale
 
@@ -377,7 +377,7 @@ Source for parcel-level: ČAP map at `https://www.cap.cz/povodnove-mapy` (insura
 | **Vodárna Plzeň**, **VaK Mladá Boleslav** | regional |
 | Many obecní/místní | Smaller obce, often public ownership |
 
-Veolia ČR group = largest, ~50% of total connections.
+Veolia ČR group = largest operator (est. ~50% of total connections, based on the operator coverage list above — verify with SOVAK ČR operator statistics).
 
 ### Verification
 
@@ -390,13 +390,15 @@ Veolia ČR group = largest, ~50% of total connections.
 
 ### Costs
 
+*est. 2026 contractor ranges — verify with quotes.*
+
 | Scenario | Cost |
 |---|---:|
-| Connection where available | 30,000–80,000 CZK |
-| Mains drains construction (per parcel) if obec has trunk line | 50,000–150,000 CZK |
-| Septik to mains conversion | 80,000–200,000 CZK |
-| Domovní ČOV (modern compliant) install | 100,000–250,000 CZK |
-| Žumpa replacement | 60,000–150,000 CZK |
+| Connection where available | est. 30,000–80,000 CZK |
+| Mains drains construction (per parcel) if obec has trunk line | est. 50,000–150,000 CZK |
+| Septik to mains conversion | est. 80,000–200,000 CZK |
+| Domovní ČOV (modern compliant) install | est. 100,000–250,000 CZK |
+| Žumpa replacement | est. 60,000–150,000 CZK |
 
 ---
 
@@ -439,7 +441,7 @@ Veolia ČR group = largest, ~50% of total connections.
 
 - **Nabývací daň abolished 2020** — buyer-side costs are very low (~1–2 %) compared to W. Europe (10–13 %)
 - **Daň z nemovitých věcí 1.8× from 2024** + new local koeficient 0.5–5.0 from 2025 — bills changing significantly
-- **Highest radon contamination per capita in Europe** — test before buying granite-substrate areas
+- **Among the highest-radon countries in Europe** (est. — verify radon-index data at suro.cz) — test before buying granite-substrate areas
 - **Krátkodobé ubytování (Airbnb) heavily restricted in Praha**; eTurista national register from 1 July 2025; EU reg 2024/1028 from 20 May 2026
 - **Panelové domy** (1948–1989 socialistická panelová výstavba): variable quality; asbestos in joints common; check rekonstrukce status
 - **NOZ 2014 reform** merged building+land registers; pre-2014 properties may have legal complexity

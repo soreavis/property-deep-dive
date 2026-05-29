@@ -315,7 +315,7 @@ Foreigners **cannot own land in Cambodia in their own name** under any direct st
 ### Sihanoukville cycle volatility (regional override)
 
 - **2017–2019 peak** — Chinese-driven online-gambling sector + Belt-and-Road infrastructure investment drove prices and rents to multiples of 2015 levels. Some Sihanoukville condo offerings advertised 8–15 % "guaranteed yields" pre-2019; many failed.
-- **2019 (18 Aug) online-gambling ban** — sub-decree banned online gambling activities; Chinese investors withdrew rapidly. Rents collapsed 50–80 % in some buildings within months.
+- **2019 (18 Aug) online-gambling ban** — sub-decree banned online gambling activities; Chinese investors withdrew rapidly. Rents reportedly collapsed ~50–80 % in some buildings within months (magnitude anecdotal — verify).
 - **2020–2022 COVID** — border closures + tourism collapse compounded the crisis. Multiple developers defaulted; estimated 300+ unfinished shell buildings remain (per municipal authorities and World Bank reporting 2022).
 - **2023–2025 recovery** — partial; some ASEAN tourism + domestic investment; legitimate hotel and resort recovery; speculative-condo segment slow.
 - **Foreign-buyer guidance**: Sihanoukville off-plan should be treated as **HIGH-RISK** unless the developer is well-established (e.g., long-track-record local groups), the project is at advanced construction (visible above-ground structure), and all approvals (construction permit + master strata-title plan filed at MLMUPC) are documented.
@@ -558,7 +558,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 - **Special Economic Zones (SEZ)**: ~50 SEZs across Cambodia (Sihanoukville SEZ, Phnom Penh SEZ, Manhattan SEZ, etc.) — corporate / industrial focus, limited direct residential property incentive.
 - **Sihanoukville Economic Special Status**: post-2019, Cambodia announced various recovery initiatives and special incentives for Sihanoukville to attract new investment; verify current measures at MEF / Preah Sihanouk Provincial Hall.
 - **Cambodia My Second Home (CM2H)**: **operational since July 2022** (Ministry of Interior + KHCA). 10-year renewable visa; USD 100k minimum real-estate investment in approved projects; processing 4–6 months; citizenship eligibility after 5 yrs residency. (2026-05-27 verified, source Harvey Law Group + cm2h.com + IMI Daily.)
-- **Cambodia CBI** (NOT real-estate-based): discretionary CBI exists via Sub-Decree 24 ANK.BK (1996) — USD 245k donation OR USD 305k investment; real-estate purchase is NOT a CBI route. CM2H is the property-linked residency programme.
+- **Cambodia CBI** (NOT real-estate-based): discretionary CBI exists via Sub-Decree 24 ANK.BK (1996) — est. ~USD 245k donation OR est. ~USD 305k investment (practitioner-reported current thresholds, not fixed by the 1996 sub-decree itself — verify current amounts with the Ministry of Interior / a Cambodian immigration lawyer before relying on them); real-estate purchase is NOT a CBI route. CM2H is the property-linked residency programme.
 - **2025 first-time-buyer transfer-tax exemption**: GDT extended a stamp-duty exemption for first-time home buyers of new residential property **≤ USD 210,000** from recognised developers — in effect through end of 2025; verify any 2026 extension at GDT. (2026-05-27 verified, source DFDL + IPS Cambodia.)
 
 ---
@@ -647,7 +647,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 - **30-km border buffer** for foreign condo: Article 4 Foreign Ownership Law 2010; verify before evaluating any project in border provinces (Banteay Meanchey, Battambang west, Kampong Cham, Svay Rieng east, Koh Kong, Stung Treng, Ratanakiri, Mondulkiri).
 - **Khmer-only legal documents** — all cadastral records and notarial deeds are in Khmer. Sworn translation + Cambodian-licensed lawyer mandatory for foreign buyers.
 - **Notarization** — for transfers of titled land, the deed of transfer is signed before a public notary OR (for some parcel types) before the commune chief / village authority who certifies signatures; verify which is required for the specific parcel type.
-- **USD vs KHR pricing** — most contracts USD; small-purchase + tax payments KHR. Round-trip currency risk is small (NBC defends a soft peg via FX intervention) but bank spread on conversion is meaningful (typically 0.5–1.5 % each way).
+- **USD vs KHR pricing** — most contracts USD; small-purchase + tax payments KHR. Round-trip currency risk is small (NBC defends a soft peg via FX intervention) but bank spread on conversion is meaningful (est. ~0.5–1.5 % each way — calibrate against current published USD–KHR rate cards from major Cambodian banks such as ABA / ACLEDA before budgeting).
 - **Bakong digital riel** — NBC's blockchain-based payment network launched Oct 2020, gradually pushing KHR adoption for retail; long-term de-dollarization signal but does not affect property transactions in the near term.
 - **Sihanoukville (Preah Sihanouk Province)** has a distinct regulatory + market microclimate post-2019 — apply Sihanoukville-specific due diligence; do not extrapolate Phnom Penh patterns.
 - **MLMUPC digitization** — the General Department of Cadastre and Geography has been digitizing parcel records progressively; coverage uneven; physical office visits often still needed.

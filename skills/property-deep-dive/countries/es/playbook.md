@@ -91,7 +91,7 @@ ISO2: `es`. Status: ✅ Fully populated (researched 2026-04).
 ### Annual property tax — IBI (Impuesto sobre Bienes Inmuebles)
 
 - Set by **ayuntamiento** (municipality)
-- **Urbano**: **0.4–1.1 %** of valor catastral (typical 0.5–0.7 %)
+- **Urbano**: **0.4–1.1 %** of valor catastral (statutory band; ~0.5–0.7 % est. central tendency — verify per-municipio at the ayuntamiento *ordenanza fiscal*)
 - **Rústico**: 0.3–0.9 %
 - **Características especiales**: 0.4–1.3 %
 - Bills annually, often Q3-Q4
@@ -162,6 +162,7 @@ For obra nueva (new build, vendida by impresa):
 - **19 %** for EU/EEA residents on rental income
 - **24 %** for non-EU/EEA on rental income
 - 19 % on capital gains for any non-resident
+- (IRNR rates — verify current year against AEAT before relying)
 
 ### Future risk
 
@@ -195,7 +196,7 @@ For obra nueva (new build, vendida by impresa):
 
 **Tax**:
 - **IRPF resident**: progressive on net rental income
-- **IRNR non-resident**: 19 % (EU/EEA) or 24 % (non-EEA) on **gross** rental
+- **IRNR non-resident**: 19 % (EU/EEA) or 24 % (non-EEA) on **gross** rental (verify current year against AEAT before relying)
 - **IVA** if hotel-style services (cleaning, food): 10 % VAT applies, treated as commercial
 - **Tasa turística** (cantonal/local): Cataluña, Baleares — €1-7/night
 
@@ -230,7 +231,7 @@ For obra nueva (new build, vendida by impresa):
   - Madrid, Barcelona: ~€2,400-3,200
   - Bilbao, Sevilla, Valencia: ~€1,900-2,500
   - Smaller cities: ~€1,600-2,000
-- **SMI (Salario Mínimo Interprofesional) 2025**: €1,184/mo (14 payments) = ~€16,576/yr
+- **SMI (Salario Mínimo Interprofesional) 2025**: €1,184/mo (14 payments) = ~€16,576/yr (statutory figure set by Real Decreto / BOE — verify current-year SMI before relying)
 
 ---
 
@@ -276,7 +277,7 @@ For obra nueva (new build, vendida by impresa):
 | Document | Required because | Validity |
 |---|---|---|
 | **Cédula de Habitabilidad** | All sales (varies by CCAA strictness) | 5–25 years per CCAA |
-| **Certificado Energético (CEE)** | All sales | 10 years; penalty €300-€6,000 |
+| **Certificado Energético (CEE)** | All sales | 10 years; penalty €300-€6,000 (statutory sanction band — verify current regime before relying) |
 | **ITE (Inspección Técnica de Edificios)** | Buildings >50 yrs in many CCAA (45-50 in Cataluña, Madrid, Valencia) | 10 yrs |
 | **Nota simple Registro de la Propiedad** | All sales | At sale |
 | **Recibo IBI** + **certificado de ayuntamiento** | At sale | At sale |
@@ -302,7 +303,7 @@ For obra nueva (new build, vendida by impresa):
 - Major: **Canal de Isabel II** (Madrid), **Aigües de Barcelona**, **Hidráulica de Cantabria**, **EMASESA** (Sevilla), **EMVISESA**, **EMASA Málaga**
 - Universal in cities; rural Galicia, Aragón, Castilla often on pozo + fosa séptica
 
-### Costs
+### Costs (est. ranges — get local quotes)
 
 | Scenario | Cost (€) |
 |---|---:|

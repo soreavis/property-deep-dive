@@ -99,10 +99,10 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 
 | Province | Rate (annual on fiscal value) |
 |---|---:|
-| CABA (ABL) | 0.6–1.2% |
-| PBA | 0.5–1.5% |
-| Mendoza | 0.5–1.0% |
-| Córdoba | 0.5–1.5% |
+| CABA (ABL) | ~0.6–1.2% |
+| PBA | ~0.5–1.5% |
+| Mendoza | ~0.5–1.0% |
+| Córdoba | ~0.5–1.5% |
 
 - Fiscal value typically below market (similar to LatAm)
 - Annual or quarterly installments
@@ -261,7 +261,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Climate change projections
 
-- **+2.0–3.5°C** by 2100
+- **est. ~+2.0–3.5°C** by 2100 (scenario-dependent; verify against IPCC AR6 / SMN national climate communication)
 - **Patagonia warming faster** + glacier retreat
 - **Pampas drought intensification**
 - **Andes snowpack decline** affecting hydropower
@@ -295,7 +295,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 | Inspection (relevamiento) | $300–$700 |
 | Escribano fees | 1.5–2.5% of price |
 | Sellos provincial | 3–3.6% |
-| ITI federal (pre-2018 acquisitions) | 1.5% |
+| ITI federal | REPEALED 2024-07-08 (Ley 27.743 art. 67) — no longer applies |
 | Realtor commission | 3-4% per side typical |
 | **Total transaction cost (buyer CABA)** | **~6–8%** of price |
 | Roof renovation | $5,000–$15,000 |

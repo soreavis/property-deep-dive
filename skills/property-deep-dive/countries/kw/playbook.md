@@ -475,7 +475,7 @@ Kuwait urban property is essentially **always on mains** for water + electricity
 
 ### Key context
 
-Kuwait is **one of the safest major countries globally** by per-capita crime metrics. **Homicide rate ~1.0–1.5 per 100,000** (UNODC global data + Kuwaiti sources; far below world median). Property crime rates low; petty theft + vehicle-related theft localised. Strong public security presence + CCTV deployment expanding in Kuwait City + Salmiya.
+Kuwait is **one of the safest major countries globally** by per-capita crime metrics. **Homicide rate ~1.0–1.5 per 100,000** (UNODC, latest available c.2021–2022 — may have changed since; + Kuwaiti sources; far below world median). Property crime rates low; petty theft + vehicle-related theft localised. Strong public security presence + CCTV deployment expanding in Kuwait City + Salmiya.
 
 ### Specific risk vectors
 
@@ -580,7 +580,7 @@ HIGH for IPCC AR6 + KISR regional projections; MEDIUM for sub-2km flood-inundati
 ### Rate structure
 
 - **Conventional + Sharia-compliant Murabaha / Ijara** structures both widely available
-- **Indicative rate Q1 2026**: ~5.5–7.5% Murabaha equivalent (CBK discount rate ~4.0–4.25% Q1 2026 + spread; tracks Fed via managed-float-USD-track)
+- **Indicative rate Q1 2026**: ~5.5–7.5% Murabaha equivalent (CBK discount rate 3.50% effective 10 Dec 2025 + spread; see CBK Discount Rate line below; tracks Fed via managed-float-USD-track)
 - **CBK Discount Rate (effective 10 Dec 2025)**: **3.50%** (cut from 3.75% set on 17 Sep 2025; held into May 2026) — verify current at [CBK Discount Rate page](https://www.cbk.gov.kw/) (2026-05-27 verified, source CBK press release 10 Dec 2025)
 
 ### Foreigner mortgages
@@ -686,7 +686,7 @@ Account opening requires **valid Iqama + Kuwaiti mobile + Civil ID** for residen
 
 ### Climate trajectory note
 
-⚠️ Kuwait insurance premiums rising 5–8%/yr 2023–2026 driven by:
+⚠️ Kuwait insurance premiums rising est. ~5–8%/yr 2023–2026 (per Kuwait insurer guidance — verify with IIRU/MOCI) driven by:
 - **2018 + 2024 flash flood-loss adjustment**
 - **Rising cooling-system claims** + electrical fires from heat-cycle stress
 - Underwriters tightening sub-limits on ground-floor + low-elevation coastal stock
@@ -848,7 +848,7 @@ Workable pathways for remote-working visitors:
 - **GDP growth 2024**: -2.3% (IMF Article IV — oil-cut driven contraction; non-oil +3%)
 - **GDP growth 2025**: +2.5% provisional (IMF + CSB)
 - **GDP growth forecast 2026**: +3.0–3.5% (IMF WEO Oct 2025)
-- **GDP per capita 2025**: ~USD 32,800 (current); ~USD 56,000 (PPP)
+- **GDP per capita**: ~USD 32,800 (current); ~USD 56,000 (PPP) (2024 IMF WEO Oct 2024 — see country profile)
 - **Inflation 2025**: ~2.5–3.0% headline
 - **Unemployment 2025 Q4**: ~1.5% Kuwaiti nationals (very low — strong public-sector employment); ~1.5–2% overall
 - **Public debt / GDP**: <10% (very low; among GCC's lowest)

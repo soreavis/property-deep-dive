@@ -235,7 +235,7 @@ Key features:
 - Inatsisartutlov 78/2025 limits who can buy at all (and § 5 allows regulated financial institutions to acquire as lenders, but the underlying borrower still needs §§ 3-4 / § 9 status)
 - Underlying asset is the building + brugsret, NOT land — narrower collateral than mainland DK / EU mortgages
 - Brugsret can lapse → collateral risk for the bank
-- Greenland has no realkredit (mortgage-bond) system equivalent to DK's; financing is via bank-balance-sheet term loans, typically 10–25 yr
+- Greenland has no realkredit (mortgage-bond) system equivalent to DK's; financing is via bank-balance-sheet term loans, ~10–25 yr `est.` — confirm tenor on the bank's term-sheet (Grønlandsbanken / BankNordik product terms)
 
 `Recommended: get the bank's term-sheet BEFORE making any offer; foreign-buyer mortgages are case-by-case at both banks.`
 
@@ -316,7 +316,7 @@ Greenlandic-language documents are common in correspondence with municipal autho
 
 ## Section: `--work` (employment / remote work overlay)
 
-Greenland's labour market is small (~28,000 jobs; ~56,000 population). Property purchase is generally tied to either (a) a posted position in a Greenlandic employer / public sector, or (b) a registered Greenland-resident self-employed activity.
+Greenland's labour market is small (~28,000 jobs `est.` — verify against [bank.stat.gl](https://bank.stat.gl/) employment series; ~56,000 population per Statistics Greenland 2025, see § Country profile). Property purchase is generally tied to either (a) a posted position in a Greenlandic employer / public sector, or (b) a registered Greenland-resident self-employed activity.
 
 **Posted-employee status**:
 
@@ -345,7 +345,7 @@ Verify open positions: [job.gl](https://www.job.gl/) (national job board).
 
 ## Section: `--climate`
 
-- Cold-climate: Nuuk mean Jan –7 °C, Jul +7 °C; Ilulissat Jan –13 °C, Jul +8 °C
+- Cold-climate: Nuuk mean ~Jan –7 °C, ~Jul +7 °C; Ilulissat ~Jan –13 °C, ~Jul +8 °C `est.` (monthly-mean normals — verify reference period against [DMI Klimaatlas](https://www.dmi.dk/klima/) / climatedata.dk)
 - Heating-degree-days drive energy cost — annual heating bill in Nuuk house: ~DKK 30,000–60,000 `est.` (varies with insulation)
 - Climate-change trajectory ([DMI Klimaatlas](https://www.dmi.dk/klima/)): +2–4 °C by 2100 likely; permafrost retreat northward; ice-cap melt sea-level contribution material
 - Polar night / midnight sun: north of Arctic Circle (above ~66°N — Sisimiut, Ilulissat, Uummannaq, Upernavik, Qaanaaq) → ~2 months no-sun winter; ~2 months no-night summer. Affects mental-health, energy use, daylight-design of housing.

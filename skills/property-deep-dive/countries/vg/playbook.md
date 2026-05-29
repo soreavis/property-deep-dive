@@ -218,7 +218,7 @@ This section determines whether a transaction is even legally possible — and w
 
 ### Yield benchmarks (per listing platforms — verify per property)
 
-- **NO official yield series.** Agent/aggregator data cites avg villa **~$1,704/night**, apartment **~$1,371/night** (HomeToGo/Vrbo aggregation — **SECONDARY/listing, verify**). High season **Dec–Apr**. Tourism is the primary demand driver ("sailing capital of the world").
+- **NO official yield series.** Agent/aggregator data cites avg villa **~$1,704/night**, apartment **~$1,371/night** (HomeToGo/Vrbo aggregation — **SECONDARY/listing, verify**; source publishes no "as of" date — treat as undated, re-pull current nightly rates before relying). High season **Dec–Apr**. Tourism is the primary demand driver ("sailing capital of the world").
 - ⚠️ **Do NOT publish a headline yield %.** Compute net yield only from a **specific property's verified nightly rate × realistic occupancy** MINUS: the **10% accommodation tax** (verify), full-service villa **management (~20–30%)**, **house tax 1.5%**, **insurance** (high + sometimes unobtainable — see `--risks`), and a **hurricane-season void** (Aug–Oct).
 
 ### Strategic notes
@@ -312,7 +312,7 @@ The BVI economy is small (tourism + offshore finance). A **work permit is requir
 
 ### Electricity — BVI Electricity Corporation (BVIEC)
 
-- **Statutory monopoly**: generation, transmission, distribution. ~**16,254 customers**; peak demand **~32 MW** from **11 diesel-fired generators**; installed capacity **~58.5 MW** (per [bvielectricity.com](https://bvielectricity.com/) / gov — **SECONDARY-corporate**).
+- **Statutory monopoly**: generation, transmission, distribution. ~**16,254 customers**; peak demand **~32 MW** from **11 diesel-fired generators**; installed capacity **~58.5 MW** (per [bvielectricity.com](https://bvielectricity.com/) / gov — **SECONDARY-corporate**; figures carry no "as of" year on source — treat as undated, grid statistics drift, re-verify at bvielectricity.com before relying).
 - **Diesel-fired = high power cost** (typical of small island grids) + exposure to fuel-price + outage risk. Confirm the current tariff at [bvielectricity.com](https://bvielectricity.com/) — `data not publicly itemised here; verify`.
 - **STRUCTURAL CHANGE**: Cabinet approved a **merger of BVIEC + the Water & Sewerage Dept** into a new statutory body reported as the **Virgin Islands Energy and Water Company** (per Virgin Islands News Online — **SECONDARY**; confirm current operating entity at bvi.gov.vg).
 
@@ -323,7 +323,7 @@ The BVI economy is small (tourism + offshore finance). A **work permit is requir
 
 ### Connectivity
 
-- Main providers: **Flow** (incumbent, Liberty Latin America / ex-Cable & Wireless — first FTTH, speeds advertised up to ~300 Mbps), **Digicel** (market leader ~47% mobile share, 4G/LTE), **CCT** (local). Sources: "Telecommunications in the BVI" (Wikipedia, *secondary*); bvinews.com.
+- Main providers: **Flow** (incumbent, Liberty Latin America / ex-Cable & Wireless — first FTTH, speeds advertised up to ~300 Mbps), **Digicel** (market leader ~47% mobile share, 4G/LTE), **CCT** (local). Sources: "Telecommunications in the BVI" (Wikipedia, *secondary* — the ~47% share figure is undated in the source; market share is volatile, verify before relying); bvinews.com.
 - Post-Irma the networks were rebuilt. **Fibre is available in Road Town / developed Tortola; confirm availability AT THE SPECIFIC PARCEL** — outer islands + hillside lots may lack fibre.
 
 ### Costs (USD est.)

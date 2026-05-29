@@ -252,7 +252,7 @@ Two distinct concepts (don't confuse):
 
 ### Strategic notes
 
-- **Yields**: STR gross yields 6–12 % typical for well-located premium units in Medellín El Poblado (pre-restrictions); Cartagena 5–10 %; Bogotá Chapinero/Chicó 4–7 %; **net yields after IVA + impuesto al consumo + 2.5 ‰ contribución + administración + predial + IRP often half of gross**.
+- **Yields**: STR gross yields ~6–12 % est. for well-located premium units in Medellín El Poblado (pre-restrictions); Cartagena ~5–10 % est.; Bogotá Chapinero/Chicó ~4–7 % est. — unsourced ranges; compute as gross STR rent ÷ asking price for the specific unit and verify against listing comps; **net yields after IVA + impuesto al consumo + 2.5 ‰ contribución + administración + predial + IRP est. roughly half of gross**.
 - Long-term rental yields (LTR) typically 4–7 % gross national average per Lonja reports.
 - **Régimen de propiedad horizontal**: always read the **reglamento** before buying for STR — a reglamento prohibition is binding regardless of municipal STR rules.
 - **HOA arrears (estado de cuentas administración)**: critical pre-purchase doc — overdue cuotas attach to the unit, not the prior owner.
@@ -276,7 +276,7 @@ Two distinct concepts (don't confuse):
 - **RUT** (Registro Único Tributario) at DIAN — mandatory for any economic activity, ~1 day online via `https://www.dian.gov.co/`.
 - **Régimen Simple de Tributación (RST)** — Ley 1943/2018 + Ley 2010/2019 — single integrated tax replacing renta + ICA + INC + complementarios for individuals & sociedades meeting thresholds (revenues < 100,000 UVT). Rate progressive 1.2 %–5.4 % depending on actividad.
 - **Régimen Ordinario** — standard income tax + ICA municipal + IVA if applicable.
-- **Aportes a Seguridad Social**: **salud (12.5 %, employer 8.5 % + worker 4 %)** + **pensión (16 %, employer 12 % + worker 4 %)** + **ARL** (work risk, employer-paid 0.522–6.96 %) + cajas de compensación 4 % + ICBF 3 % + SENA 2 % (the last 3 mostly for payroll above 10 SMLMV). Self-employed must remit on Ingreso Base de Cotización (40 % of monthly income, floor SMLMV).
+- **Aportes a Seguridad Social** (statutory rates — confirm governing norm + current rate at MinTrabajo / MinSalud / UGPP before relying): **salud (12.5 %, employer 8.5 % + worker 4 %)** + **pensión (16 %, employer 12 % + worker 4 %)** + **ARL** (work risk, employer-paid 0.522–6.96 %) + cajas de compensación 4 % + ICBF 3 % + SENA 2 % (the last 3 mostly for payroll above 10 SMLMV). Self-employed must remit on Ingreso Base de Cotización (40 % of monthly income, floor SMLMV).
 - **Foreign-worker permit**: via **Migración Colombia** — typical paths: M-visa for skilled workers (M-Trabajador with offer), V-visa for short-term, R-visa (residente) after qualifying tenure.
 - **Digital nomad visa**: V-visa Nómada Digital introduced 2023 — minimum monthly income ~3× SMLMV (**verify at Cancillería `https://www.cancilleria.gov.co/`**), max 2 years.
 
@@ -292,7 +292,7 @@ Two distinct concepts (don't confuse):
 - **Medellín metro (Aburrá Valley)**: ~4.0 M — strong tech, fashion, services.
 - **Cali metro**: ~2.7 M.
 - **Barranquilla metro**: ~2.3 M.
-- **Outside major cities**: thinner labor markets; informalidad high (DANE: ~55 % nationally).
+- **Outside major cities**: thinner labor markets; informalidad high (DANE: ~55 % nationally — as-of year not stated; verify current rate at DANE GEIH boletín técnico de empleo informal).
 
 ---
 
@@ -391,7 +391,7 @@ Two distinct concepts (don't confuse):
 |---|---:|---|
 | Gastos notariales | 0.27 % of escritura | Decreto 0188/2017; verify current Resolución SNR |
 | Impuesto de Registro (departmental) | 0.5–1.0 % | per Ordenanza departamental |
-| Retención en la fuente | 1.0 % | when seller is sociedad |
+| Retención en la fuente | 1.0 % | when seller is persona natural selling activo fijo (Estatuto Tributario art. 398) — NOT sociedades; see --tax row |
 | Estudio de títulos (lawyer) | 500 k – 2 M | per 30-yr CTL review |
 | Building inspection (peritaje técnico) | 1 M – 3 M | rare in CO; recommend insist for pre-2010 builds |
 | Avalúo comercial (mortgage) | 500 k – 2 M | perito de la Lonja |

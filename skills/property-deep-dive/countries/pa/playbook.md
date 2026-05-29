@@ -47,7 +47,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 | **Bocas del Toro (Caribbean)** | varies massively; 6–12% yield | Seasonal |
 | **El Valle de Antón** | $200k–$500k | Crater valley |
 
-**2026 nominal**: +3% YoY
+**2026 nominal**: ~+3% YoY est. (interpolated from TheLatinvestor / Global Property Guide listing samples — INEC publishes no per-m² HPI; verify with on-the-ground broker quotes)
 
 ### Compute
 
@@ -224,8 +224,8 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Climate change projections
 
-- **+1.5–3.0°C** by 2100
-- **Sea-level rise**: +20–60 cm by 2100 (Caribbean Bocas vulnerable; Pacific coast)
+- **est. +1.5–3.0°C** by 2100 (climate-model projection — verify scenario/model with IPCC AR6 + Panama's Comunicación Nacional)
+- **Sea-level rise**: est. +20–60 cm by 2100 (Caribbean Bocas vulnerable; Pacific coast — verify scenario with IPCC AR6)
 - **Increased rainfall variability** (drier El Niño / wetter La Niña)
 - **Hurricane belt potential southward shift**
 
@@ -266,7 +266,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Residency programs
 
-#### Pensionado (most generous in LatAm)
+#### Pensionado (low pension threshold — USD 1,000/mo)
 
 - **USD 1,000/month lifetime pension** (+ $250/mo per dependent). **$750/mo threshold if applicant buys ≥US$100k Panama real estate** (statute concession). Pension must be **government/military/recognised-private institution + provably LIFETIME** (NOT term annuity).
 - **Generous discounts**: medical 15%, transport 25–50%, restaurants 25%
@@ -302,7 +302,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 - **USD economy** — no FX risk for USD holders; balboa is symbolic 1:1
 - **Territorial tax** — no income tax on foreign-source income — UNIQUE in region
-- **Pensionado visa** — most generous in LatAm (USD 1,000/mo lifetime)
+- **Pensionado visa** — low pension threshold (USD 1,000/mo lifetime)
 - **Friendly Nations Visa** modified 2021 — now USD 200k investment, no longer "open" tourist-flip route
 - **10-km international border restriction** — **CONSTITUTIONAL** — foreigners cannot acquire titled land within 10 km of any international border, **affecting parts of Bocas del Toro near Costa Rica + parts of Darién near Colombia**
 - **Comarcas indígenas** (Guna Yala, Ngäbe-Buglé, Emberá-Wounaan, Naso Tjër Di): **collectively owned, foreigners cannot buy/lease titled land**. **San Blas islands fully off-limits to foreigners**

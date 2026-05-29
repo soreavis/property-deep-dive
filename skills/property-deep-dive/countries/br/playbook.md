@@ -100,11 +100,12 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 
 | Município | Residential rate | Commercial/vacant |
 |---|---:|---:|
-| **São Paulo** | 0.7–1.5% | 1.1–1.9% |
-| **Rio de Janeiro** | 0.6–1.2% | 1.0–1.5% |
-| **Brasília** | 0.3–1.0% | 1.0–1.5% |
-| **Belo Horizonte** | 0.6–1.2% | 1.0–1.5% |
+| **São Paulo** | ~0.7–1.5% | ~1.1–1.9% |
+| **Rio de Janeiro** | ~0.6–1.2% | ~1.0–1.5% |
+| **Brasília** | ~0.3–1.0% | ~1.0–1.5% |
+| **Belo Horizonte** | ~0.6–1.2% | ~1.0–1.5% |
 
+- Rates above are **indicative ranges (est., c. 2025)** — verify the current rate against each município's IPTU legislation and annual reajuste decree (e.g. São Paulo via prefeitura.sp.gov.br)
 - Base = **valor venal** (typically 30-60% below market)
 - Annual or 10x monthly installments
 - **Early payment 4-10% discount**
@@ -134,8 +135,8 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Cartório fees
 
-- **Escritura**: 0.5–2% of price
-- **Registro**: 0.5–1% of price
+- **Escritura**: ~0.5–2% of price (est. — set per-state; verify against the relevant tabela de emolumentos)
+- **Registro**: ~0.5–1% of price (est. — set per-state; verify against the relevant tabela de emolumentos)
 - **Combined**: ~1–2% mandatory closing
 
 ### Total transaction cost (buyer side)
@@ -266,9 +267,9 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Climate change projections
 
-- **+2.0–4.0°C** by 2100
+- **~+2.0–4.0°C** by 2100 (est. — projection range; verify against IPCC AR6 / PBMC regional scenario for the relevant SSP/RCP pathway)
 - **Amazon deforestation** + drying — global tipping point concern
-- **Coastal sea-level rise**: +30–80 cm by 2100 (Recife, Santos, Fortaleza vulnerable)
+- **Coastal sea-level rise**: **~+30–80 cm** by 2100 (Recife, Santos, Fortaleza vulnerable) (est. — projection range; verify against IPCC AR6 / PBMC regional scenario)
 - **Drought intensification**: Northeast + Cerrado
 - **Increased extreme rainfall** (Petrópolis 2022 type)
 
@@ -286,7 +287,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Verification
 
-- **47% of population unassisted by sewage collection/treatment** (2020 data, most recent national)
+- **47% of population unassisted by sewage collection/treatment** (2020 data, most recent national — figures may have changed since)
 - RJ ~15% unconnected; CEDAE-contracted municípios only 39.2% actually connected
 - **SABESP committed R$47.4B 2024-28**; universalization target 2029
 - **Favelas**: fossas (cesspits) common; informal connections widespread

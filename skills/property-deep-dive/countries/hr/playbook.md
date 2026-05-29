@@ -103,6 +103,7 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 - **Highest rate (€8)**: Umag, Vis, Sveti Filip i Jakov, Fažana, Baška Voda
 - **Major cities**: Zagreb €5, Split €1.99, Rijeka €5, Osijek €0.60
 - 119 municipalities at floor (€0.60); 73 at €5–€8
+- _(2025 municipal odluke; cross-checked Croatia Week / Eurofast — verify per-municipality at Porezna uprava; figures not confirmed against a primary municipal decision should be treated as reported)_
 - Revenue split 80% municipality / 20% county
 
 #### Exemptions
@@ -162,7 +163,7 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 - **80% co-owner consent** required to operate STR in multi-unit building (raised from 66% earlier in 2025 under Building Management Act)
 - **Plus immediate-neighbour approval** (units sharing walls/floors/ceilings)
 - **Mandatory unique national registration number** for all STRs
-- **Result**: ~7,000 beds removed in one Dalmatian county; Adriatic supply contracting
+- **Result**: ~7,000 STR beds reported removed in one Dalmatian county (single secondary report — county/year unconfirmed); Adriatic supply contracting
 
 #### Categories (ATA classification via local Turistička zajednica)
 
@@ -286,15 +287,17 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Costs
 
+_Est. ranges — vary by municipal vodovod tariff; confirm with local Vodovod i kanalizacija._
+
 | Scenario | Cost (€) |
 |---|---:|
-| Mains connection | €3,000–€8,000 |
-| Septic upgrade | €4,000–€10,000 |
-| Cistern (coastal) | €2,000–€8,000 |
+| Mains connection | ~€3,000–€8,000 |
+| Septic upgrade | ~€4,000–€10,000 |
+| Cistern (coastal) | ~€2,000–€8,000 |
 
 ---
 
-## Cost benchmarks (HR 2026)
+## Cost benchmarks (HR 2026, est. ranges — verify with local contractor quotes / NPSR grant schedules)
 
 | Work | Cost (€) |
 |---|---:|
@@ -334,9 +337,9 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 - **Karst hazards**: Dinaric coastal hinterland — sinkholes, drainage; no single risk register
 - **Wildfire**: Adriatic critical Jul-Aug; DHMZ CFFWIS since 1982
 - **2025 Hospitality Act**: 80% co-owner consent for STR; mandatory unique reg number
-- **~7,000 STR beds removed in one Dalmatian county** post-2025 reform
+- **~7,000 STR beds reported removed in one Dalmatian county** post-2025 reform (single secondary report — county/year unconfirmed)
 - **Real estate transfer tax 3%** on resale; **VAT 25%** on new
-- **Capital gains 24% within 10 years**, exempt after
+- **Capital gains** on disposal within 10 years taxed under Porez na dohodak — exact rate requires re-verification post-1 Jan 2024 prirez abolition (see `--tax`); exempt if held >10 years or primary residence
 - **Reciprocity rule for non-EU buyers**: nationals of countries that allow Croatians to buy (US, UK, AUS, JP, BRA, ARG, KOR, RUS, IL, CH, NO confirmed) can purchase as natural persons + Ministry of Justice permission required
 - **Non-reciprocity countries**: must form Croatian company
 - **Agricultural land**: EU citizens can buy since July 2023 (moratorium ended); non-EU need special ministry approval

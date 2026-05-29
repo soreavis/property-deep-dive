@@ -86,7 +86,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Annual property tax — Danok na imot
 
-- **0.10–0.20% of market value** (set per municipality)
+- **~0.10–0.20% of market value** (set per municipality) (est. statutory band — verify current rate at finance.gov.mk / UJP and the relevant municipality)
 - Typical Skopje 80m² apartment €100k: **~€100–€200/yr**
 - Council of Skopje sets metro rates
 - Quarterly or annual payment
@@ -147,9 +147,9 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Self-employment
 
-- **DOO** (limited): min MKD 5,000 capital
+- **DOO** (limited): min MKD 5,000 capital (statutory figure — verify current threshold at ujp.gov.mk / Central Registry)
 - **Pausalen danok** flat-rate small business
-- **DDV** registration: from MKD 1M turnover
+- **DDV** registration: from MKD 1M turnover (statutory threshold — verify current figure at ujp.gov.mk)
 
 ### Salary benchmarks (2025)
 
@@ -230,9 +230,11 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 | Scenario | Cost (EUR) |
 |---|---:|
-| Mains connection | 1,000–3,000 |
-| Septic upgrade | 1,500–4,500 |
-| Bored well | 2,500–6,000 |
+| Mains connection | ~1,000–3,000 |
+| Septic upgrade | ~1,500–4,500 |
+| Bored well | ~2,500–6,000 |
+
+*Est. planning ranges (illustrative) — confirm with a JP Vodovod / local installer quote.*
 
 ---
 
@@ -268,7 +270,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 - **CGT 10% with 5-year exemption** OR 3yr+1yr-resident exemption
 - **PIT 10% flat** (NOT progressive) — UNIQUE in region
 - **Macedonian-Albanian ethnic mix** — Tetovo + Western MK municipalities
-- **NATO since 2020**, **EU candidate** since 2005 (long delays via Greece + Bulgaria veto disputes — both resolved 2018+ with Prespa Agreement)
+- **NATO since 2020**, **EU candidate** since 2005 (long delays via Greece + Bulgaria veto disputes — Greece naming dispute resolved by the 2018 Prespa Agreement; separate Bulgaria veto over identity/language only partly addressed by the 2022 negotiating framework and still contested)
 - **Skopje air quality** winter PM2.5 severe (coal heating)
 - **Vardar river floods** 2016 + climate change
 - **EU pre-accession funding** for retrofit

@@ -83,7 +83,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 
 ### Local Immovable Property Tax (municipal/community)
 - **Still in force.** Annual, paid to municipality based on 1980 (1/1/1980) value
-- Typically **€55–€185/year** for residential
+- ~**€55–€185/year** for residential (est. range, varies by municipality — verify per locality)
 - **Sewerage tax** charged separately by sewerage boards (Limassol, Nicosia, Larnaca, Paphos)
 
 ### Capital Gains Tax — `2026 REFORM`
@@ -245,9 +245,9 @@ Universal — see `shared/climate-projections.md`. Critical for CY: water scarci
 
 | Item | Range / typical |
 |---|---|
-| Limassol apartment €/m² | premium €4,000–€8,000+ (Russian/HNW segment) |
-| Paphos €/m² | €2,000–€4,000 (British/Israeli mid-tier) |
-| Nicosia €/m² | €1,500–€2,500 (slowest growth) |
+| Limassol apartment €/m² | premium ~€4,000–€8,000+ est. (Russian/HNW segment — cross-check current listings) |
+| Paphos €/m² | ~€2,000–€4,000 est. (British/Israeli mid-tier — cross-check current listings) |
+| Nicosia €/m² | ~€1,500–€2,500 est. (slowest growth — cross-check current listings) |
 | Transfer fees (resale) | 1.5/2.5/4% effective |
 | Transfer fees (VAT new) | 0% |
 | VAT new (primary, qualifying) | 5% on first 130 m²/€350k |
@@ -259,7 +259,7 @@ Universal — see `shared/climate-projections.md`. Critical for CY: water scarci
 ## Active fiscal incentives (Apr 2026)
 
 - **2026 Tax Reform**: stamp duty abolished, CGT exemptions raised (€30k general, €150k primary residence), SDC rental abolished, PIT 0% threshold raised to €22k
-- **5% reduced VAT primary residence** (130 m² / €350k cap) — 15 Jun 2026 transitional deadline for older permits
+- **5% reduced VAT primary residence** (130 m² / €350k cap) — 31 Dec 2026 transitional completion deadline for older permits (extended by Law 109(I)/2026)
 - **Trapped Buyers reform** (Amendment Law 110(I)/2025) — title-deed pathway for eligible historic-developer-encumbered properties
 
 ---
@@ -346,7 +346,7 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 
 ## Status
 
-**Confidence**: HIGH on 2026 Tax Reform (multiple PwC/KPMG/Sovereign sources verified), Hermes STR registration mandatory since 6 Feb 2023, 2021 Limassol wildfires (4 dead, 44.5 km², major DD anchor for foothill properties), 2025 worst-drought-since-1901 + reservoir levels, Russian-buyer post-2022 sanctions enforcement (CySEC C728 expanded 23 Sep 2025). MEDIUM on per-municipality local IPT (verify per locality), SDA-equivalent (no formal CY SDA list — different from MT), 2026 stamp-duty narrow exceptions for real-estate (verify per transaction). LOW on TRNC IPC application data + reunification negotiations (politically dynamic — snapshot only).
+**Confidence**: HIGH on 2026 Tax Reform (multiple PwC/KPMG/Sovereign sources verified), Hermes STR registration mandatory since 6 Feb 2023, 2021 Limassol wildfires (4 dead, ~55 km² / 5,500 ha, major DD anchor for foothill properties), 2025 worst-drought-since-1901 + reservoir levels, Russian-buyer post-2022 sanctions enforcement (CySEC C728 expanded 23 Sep 2025). MEDIUM on per-municipality local IPT (verify per locality), SDA-equivalent (no formal CY SDA list — different from MT), no real-estate-specific stamp-duty exceptions retained from the 2026 abolition — only judicial / court fees survive (verify per transaction). LOW on TRNC IPC application data + reunification negotiations (politically dynamic — snapshot only).
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)

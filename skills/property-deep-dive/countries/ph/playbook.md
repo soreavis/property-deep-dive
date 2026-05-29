@@ -492,7 +492,7 @@ Sources: PSA Labor Force Survey `https://psa.gov.ph/`, JobStreet Salary Report 2
 3. **Provincial city**: local water district (LWUA list `https://www.lwua.gov.ph/`) for water; LGU City Engineer / Office of the Building Official for sewerage.
 4. **Standalone house**: assume septic; request Sanitary Permit + most recent desludging receipt from seller; verify soakaway is functional (no standing water, no smell).
 
-### Cost benchmarks
+### Cost benchmarks (est., PH 2026; contractor / installer quotes vary — verify per installer)
 
 | Scenario | Cost (PHP) |
 |---|---:|

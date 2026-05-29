@@ -211,7 +211,7 @@ Progressive **10 % → 55 %** on each statutory heir's allotted share. Basic exe
   - **保証会社費用 (guarantor company)**: 0.5–1 month + annual fee — replacing 連帯保証人 (personal guarantor) requirement
   - **Agent fee**: typically 1 month + 消費税 (statutory cap, 宅建業法)
 - **Income tax on rental** — 不動産所得 (real-estate income) reported on 確定申告 (annual tax return); progressive 5 %–45 % national + 10 % 住民税 + 復興特別所得税
-- Yields (Q1 2026, Tokyo 23 ward typical):
+- Yields (Q1 2026, Tokyo 23 ward, est. — inference: rent comps ÷ asking price):
   - **Central 5 ward (港・千代田・中央・渋谷・新宿)**: gross yield 3.0–4.0 %
   - **Outer 23 ward**: 4.0–5.5 %
   - **Tokyo metro outside 23 ward**: 5.5–7.0 %
@@ -324,7 +324,7 @@ Progressive **10 % → 55 %** on each statutory heir's allotted share. Basic exe
 
 | Era | Code basis | Hazard rating |
 |---|---|---|
-| **Pre-1981 (旧耐震基準)** | 1950 建築基準法 (original) | 🔴 **Significant risk** — designed only to withstand JMA 5– without collapse; banks often refuse mortgage; 25–40 % discount typical |
+| **Pre-1981 (旧耐震基準)** | 1950 建築基準法 (original) | 🔴 **Significant risk** — designed only to withstand JMA 5– without collapse; banks often refuse mortgage; ~25–40 % discount est. (inference: mortgage-refusal + collapse-risk depresses resale) |
 | **1981–2000 (新耐震基準)** | 1981 amendment effective 1981-06-01 | 🟡 Acceptable — withstand JMA 5+ without significant damage, JMA 6+ without collapse (per [building-code reference](https://resources.realestate.co.jp/buy/earthquake-building-codes-and-technology-in-japan/)) |
 | **2000+ (改正新耐震 / for wood-frame: 平成12年改正)** | 2000 amendment, particularly tightened wood-frame foundation + connector requirements | 🟢 Modern; introduced 住宅性能表示制度 with 耐震等級 1/2/3 (1.0×/1.25×/1.5× legal min) |
 | **2008+ tower 高層 RC** | 2007 改正 + JSCA-led base-isolation diffusion | 🟢 Many use 免震 (base isolation) or 制震 (damping) — outperform code |
@@ -454,7 +454,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 - **重要土地等調査法 注視区域**: residential ownership not blocked but quarterly use reports may be required; check 内閣府 designated zones map
 - **国土利用計画法 事後届出 (Act 92/1974 — 昭和49年法律第92号)**: a buyer acquiring land ≥2,000 m² (市街化区域) / ≥5,000 m² (other 都市計画区域) / ≥10,000 m² (outside 都市計画区域) files the 利用目的 (use purpose) + price within 2 weeks of contract, **via the 市町村長 (municipality)** to the prefectural governor; the governor reviews the use purpose and may issue a **勧告 (recommendation)** if it conflicts with the land-use plan. Pre-acquisition notification (事前届出) applies only in designated 監視区域. **Applies to all buyers regardless of nationality — foreign buyers are not exempt and not specially gated**; a 2026-04-01 施行規則 amendment merely *records* a corporate acquirer's representative nationality (data capture, not an approval gate). Source: [e-Gov 法令検索 349AC1000000092](https://laws.e-gov.go.jp/law/349AC1000000092) · [MLIT 土地取引規制制度](https://www.mlit.go.jp/totikensangyo/totikensangyo_tk2_000019.html)
 - **農地法 §3 (Act 229/1952 — 昭和27年法律第229号)**: acquiring ownership/lease of 農地 (farmland) requires **農業委員会 (agricultural committee) permission** — without it the contract is **void**; acquirer must farm essentially all the land (≥150 days/yr farming engagement). **Land-type-specific, not nationality-specific** — standards contain no nationality bar; a foreigner meeting the farming-utilisation conditions can be approved. Since 2023-09-01 the application form *records* nationality (data capture, not a foreigner-only gate). For rural plots also expect a 非法定 (non-statutory) **近隣説明会 (community-explanation meeting)** + local-consent practice under 都市計画法 §29/§33 + 市町村開発条例 — meetings are routine; a foreigner-only "justification hearing" is **not a statutory requirement** and would, if applied, be a discrimination concern, not a legal step. Source: [e-Gov 法令検索 327AC0000000229](https://laws.e-gov.go.jp/law/327AC0000000229) · [MAFF 農地をめぐる事情](https://www.maff.go.jp/j/keiei/koukai/wakariyasu.html)
-- **借地権 (leasehold) vs 所有権 (freehold)**: 借地権 typical reduces price 30–40 % vs 所有権 equivalent; 旧法借地権 (pre-1992) has stronger tenant protection but is muddier on inheritance
+- **借地権 (leasehold) vs 所有権 (freehold)**: 借地権 ~30–40 % est. price reduction vs 所有権 equivalent; 旧法借地権 (pre-1992) has stronger tenant protection but is muddier on inheritance
 - **建ぺい率 (kenpeiritsu — building coverage)** + **容積率 (yōseki-ritsu — FAR)** zoning: rebuild rights may be smaller than current footprint if 既存不適格 (legally non-conforming) — material for plot-only / rebuild scenarios
 - **円安 currency exposure**: foreign-denominated buyers riding a strong-USD/EUR wave should hedge purchase + ongoing tax bills
 

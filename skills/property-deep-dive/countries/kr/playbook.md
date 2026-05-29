@@ -285,12 +285,14 @@ Korea's rental market is bifurcated:
 
 ### Yields (Q1 2026, gross, residential apt typical)
 
-- **서울 강남3구 (Gangnam/Seocho/Songpa)**: gross yield 2.0–3.0 % (월세 base; jeonse-only converts to ~0 yield by definition — capital gain play)
-- **서울 외곽구 (outer Seoul wards)**: 2.5–4.0 %
-- **광역시 도심 (metro city centers)**: 4.0–5.5 %
-- **지방 중소도시 (regional)**: 5.0–8.0 %
-- **오피스텔 (officetel — mixed-use)**: typically 4.5–7.0 % but higher vacancy + faster depreciation
-- **상가 (commercial)**: 5–9 % gross; legal vacancy + tenant-default risk material
+> **est. ranges** — bands below are estimates from 월세 보증금→rent conversion at 전월세전환율 (no single REB/KB headline figure covers all these segments); verify per complex via RTMS 실거래가 + 임대 listings.
+
+- **서울 강남3구 (Gangnam/Seocho/Songpa)**: gross yield ~2.0–3.0 % (월세 base; jeonse-only converts to ~0 yield by definition — capital gain play)
+- **서울 외곽구 (outer Seoul wards)**: ~2.5–4.0 %
+- **광역시 도심 (metro city centers)**: ~4.0–5.5 %
+- **지방 중소도시 (regional)**: ~5.0–8.0 %
+- **오피스텔 (officetel — mixed-use)**: typically ~4.5–7.0 % but higher vacancy + faster depreciation
+- **상가 (commercial)**: ~5–9 % gross; legal vacancy + tenant-default risk material
 
 ⚠️ Yield calc is non-trivial in KR: need to convert jeonse-only or 반전세 to "rent equivalent" — convention is **전월세전환율 (jeonse-to-rent conversion rate)** capped at **BoK rate + 2 %p OR 5 %, whichever is lower** under 임대차보호법; market actual is often 3–5 %.
 
@@ -478,6 +480,8 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 
 ### Costs (typical 2026)
 
+> est. ranges — vary by 시·군·구; confirm with 상하수도과 + a contractor quote before budgeting.
+
 | Scenario | Cost (₩) |
 |---|---:|
 | Connection where mains available | ₩1.5M–₩4M |
@@ -491,6 +495,8 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 ---
 
 ## Cost benchmarks (KR 2026)
+
+> Tax/duty rows (취득세, 인지세, 수수료 cap, etc.) are statutory and shown with their rate formula inline. Non-statutory rows (법무사, 관리비, 장기수선충당금, demolition, renovation, totals) are **est. market ranges** — confirm per quote; not fixed by statute.
 
 | Item | Cost (₩) |
 |---|---:|

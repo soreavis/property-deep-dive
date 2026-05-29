@@ -199,7 +199,7 @@ Foreigners can purchase residential property in their own name (freehold or leas
 ### Klang Valley + Penang quirks
 
 - Klang Valley traffic chronic; AADT understates noise/pollution exposure on stop-and-go arterials (MRR2, Federal Highway, LDP). Elevated tolled expressways (AKLEH, DUKE, SUKE) over residential areas = 24/7 noise + particulates — flag any property within 100 m of an expressway pillar.
-- MRT/LRT proximity premium: 500 m to active station = 10–20 % uplift per NAPIC + Brickz; verify *walking* distance.
+- MRT/LRT proximity premium: 500 m to active station ≈ ~10–20 % uplift (est. from NAPIC MHPI + Brickz transaction comps, 2025) — verify per building and *walking* distance.
 - Penang Bridge (FT 36) and Second Penang Bridge (FT 37): Island↔Mainland congestion peaks weekday morning/evening. George Town heritage zone has narrow one-way streets, lower AADT but high tourist scooter density.
 
 ### Confidence
@@ -385,8 +385,9 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 
 ### Salaried benchmarks (MYR/month, 2025 reference)
 
-- **Minimum wage**: MYR 1,700/month (Peninsular, post-Feb 2025 revision) — `https://www.mohr.gov.my/`
-- **DOSM Salaries & Wages Survey 2024** median monthly: ~MYR 2,700 nationally; KL ~MYR 3,800; skilled professional KL ~MYR 6,000–12,000; MNC mid-management ~MYR 12,000–25,000; C-suite MYR 25,000+
+- **Minimum wage**: MYR 1,700/month (Peninsular, Feb 2025 revision — verify current rate at MOHR; rates/figures may have changed since) — `https://www.mohr.gov.my/`
+- **DOSM Salaries & Wages Survey 2024** median monthly: ~MYR 2,700 nationally; KL ~MYR 3,800
+- **est. market bands (not DOSM categories — verify)**: skilled professional KL ~MYR 6,000–12,000; MNC mid-management ~MYR 12,000–25,000; C-suite ~MYR 25,000+
 - Source: DOSM Salaries & Wages Report `https://www.dosm.gov.my/`
 
 ### Catchment heuristics
@@ -429,7 +430,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 
 - **Trans-boundary haze** from Sumatra/Borneo peat fires: severe episodes 1997, 2005, 2013, 2015, 2019; API hit "Hazardous" (>300) in worst.
 - **Most exposed**: Klang Valley + Penang + Sarawak Kuching; East Coast less.
-- **Mitigation**: HEPA HVAC + sealed windows + air purifiers — typical install MYR 15,000–50,000 for 200 sqm condo.
+- **Mitigation**: HEPA HVAC + sealed windows + air purifiers — est. MYR 15,000–50,000 install for a ~200 sqm condo (installer-quote dependent; verify).
 
 ### Build-era hazards
 

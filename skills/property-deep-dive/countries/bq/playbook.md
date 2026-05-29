@@ -33,7 +33,7 @@ ISO2: `bq`. Status: ✅ Researched 2026-05.
 
 **Implications for buyers**:
 
-- **Bonaire** = the BES property market in practice — >90% of transactions, listings, mortgage product, and short-let supply concentrated here
+- **Bonaire** = the BES property market in practice — est. >90% of transactions, listings, mortgage product, and short-let supply concentrated here
 - **Saba** + **Sint Eustatius** = micro-markets with low-three-digit annual transactions, strong conservation zoning, scarce listings; comparable-sales data sparse → wide bid-ask spreads
 - Single tax authority (B/CN) + single USD currency + single civil-law framework BUT three separate island-government planning regimes → zoning + permits differ materially per island
 
@@ -117,7 +117,7 @@ Foundational law: **Belastingwet BES (Wet Belasting BES, Hoofdstuk VI Vastgoedbe
   - **Religious / charitable / public-utility / educational buildings**: exempt
   - **Undeveloped land** owned by BES residents: exempt
 - **`Second home / non-resident-held residential`** (THIS IS THE TYPICAL FOREIGN-BUYER CASE):
-  - **De facto USD 70,000 exemption** applies to the assessed value of a residential property that is NOT the owner's primary residence → only the value exceeding USD 70,000 is taxed at 0.91% (Bonaire) / 0.7% (Saba/Statia)
+  - **De facto ~USD 70,000 exemption** (est. — verify the current heffingsvrije voet at `Belastingdienst CN`) applies to the assessed value of a residential property that is NOT the owner's primary residence → only the value exceeding USD 70,000 is taxed at 0.91% (Bonaire) / 0.7% (Saba/Statia)
   - Worked example (Bonaire, 2026): assessed value USD 400,000 → taxable base USD 330,000 → annual vastgoedbelasting USD 330,000 × 0.91% = **~USD 3,003/yr**
   - Same property on Saba/Statia: USD 330,000 × 0.7% = **~USD 2,310/yr**
 - **Hotels owned by non-natural persons**: base rate **11% from 1 Jan 2025** (was 10% through 2024) → effective `0.44%` of value (BES-wide; Bonaire-surcharge applies on top for that island per `Belastingdienst CN`)

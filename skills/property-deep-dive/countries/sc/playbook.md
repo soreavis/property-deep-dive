@@ -58,7 +58,7 @@ ISO2: `sc`. Status: ✅ fully populated as of 2026-05-07.
 | **Mahé citizen-only freehold home (mid-market)** | per Seychellois market — typically SCR 2M–8M (~USD 135k–540k) | NOT available to non-Seychellois under the SPA SCR 10M threshold |
 | **Outer-island freehold for non-Seychellois** | **NOT permitted** — bare freehold land on outlying islands is closed to non-Seychellois acquisition (per SPA guidance 20-Mar-2025) | Long-term concession leases possible via Villas Policy / IDC arrangements |
 
-> Source: cross-tabulated from Eden Island official site + MyProperty Seychelles + RE/MAX Paradise Seychelles + Sphere Estates + Rightmove Overseas (2024-2026 listings) + SPA 20-Mar-2025 thresholds + Chambers Real Estate 2025 Seychelles chapter. **Seychelles is among the most concentrated luxury-second-home markets in the western Indian Ocean; thin transaction volumes mean single comparables can swing benchmarks ±20%**. `(per listings — verify with Land Registration Office search + notary on visit)`
+> Source: cross-tabulated from Eden Island official site + MyProperty Seychelles + RE/MAX Paradise Seychelles + Sphere Estates + Rightmove Overseas (2024-2026 listings) + SPA 20-Mar-2025 thresholds + Chambers Real Estate 2025 Seychelles chapter. **Seychelles appears highly concentrated as a luxury-second-home market in the western Indian Ocean; thin transaction volumes mean single comparables can swing benchmarks materially — est. on the order of ±20%**. `(per listings — verify with Land Registration Office search + notary on visit)`
 
 ### Compute
 
@@ -157,7 +157,7 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 | Eden Island / condo track all-in | ~7–9% (5% SD + 1.5% Sanction + 1–2% legal) |
 | Villas Policy / tourism-investment carve-out | ~6–7% (5% SD + 0% Sanction + 1–2% legal) |
 
-> The **18–19% all-in for the standard non-Seychellois track is among the highest in any small-island luxury jurisdiction globally**. The differential vs Eden Island / Villas Policy / condo (~7–9%) is the **single largest financial reason foreign buyers route through pre-approved condominium developments rather than bare-land sanction track**.
+> The computed **~18–19% all-in for the standard non-Seychellois track is high relative to most small-island luxury jurisdictions**. The differential vs Eden Island / Villas Policy / condo (~7–9%) is the **single largest financial reason foreign buyers route through pre-approved condominium developments rather than bare-land sanction track**.
 
 ### Other taxes
 
@@ -482,7 +482,7 @@ Universal — see `shared/climate-projections.md`. Seychelles-specific override:
 | Septic-tank desludging (tropical loading) | ~SCR 3,000–8,000 every 1–3 yrs |
 | Cyclone-rated window upgrade (small villa) | ~SCR 200,000–500,000 |
 
-> Construction-cost level on Seychelles is **elevated** — most building materials imported (steel, cement, glass, fixtures); skilled-labour pool small (heavy reliance on GOP-permit construction labour from Bangladesh / India / Sri Lanka). Budget +30–50% above comparable continental costs for an equivalent finish.
+> Construction-cost level on Seychelles is **elevated** — most building materials imported (steel, cement, glass, fixtures); skilled-labour pool small (heavy reliance on GOP-permit construction labour from Bangladesh / India / Sri Lanka). Budget ~+30–50% (est., import-cost + thin-labour rationale above; no published Seychelles construction-cost index) above comparable continental costs for an equivalent finish.
 
 ## Active fiscal incentives (2025-2026)
 
@@ -583,7 +583,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 - **Climate exposure asymmetric to coastal east-Mahé + La Digue + Praslin SLR-frontline**; ultra-luxury beachfront concentration in these zones means the buyer pool's average property carries above-average climate risk
 - **Tropical Cyclone Felleng (Jan 2013) flood + landslide pattern** is the most relevant disaster precedent for Mahé east-coast residential — Pointe Larue / Au Cap / Cascade vulnerable
 - **Eden Island residential apartments** trade at sample-size-thin volumes in any given month; expect 2–6 month time on market for resale
-- **Bank lending to non-residents**: typical LTV **40–60%** for non-resident foreign buyers via Seychelles commercial banks (MCB Seychelles, Absa Bank Seychelles, Nouvobanq, Seychelles Commercial Bank, Bank of Ceylon Seychelles); rates SCR-denominated 8–13% typical; USD-loan availability limited and case-by-case
+- **Bank lending to non-residents**: LTV **~40–60%** (est., per agency/bank reporting — no published CBS non-resident lending survey; verify current rate sheet directly with the bank) for non-resident foreign buyers via Seychelles commercial banks (MCB Seychelles, Absa Bank Seychelles, Nouvobanq, Seychelles Commercial Bank, Bank of Ceylon Seychelles); rates SCR-denominated **~8–13%** (est. — verify current rate sheet with the bank); USD-loan availability limited and case-by-case
 - **No notary-monopoly** — barristers/attorneys/notaries are largely fused profession; the Seychelles Bar Association (`https://www.barassociation.sc/` — verify URL) tracks registered practitioners
 - **Praslin + La Digue New Land Register conversion** launched June 2024 — title-by-registration improving on these islands; Mahé conversion progressive
 
@@ -630,7 +630,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 - **GOP for foreign owners' staff**: domestic staff (housekeeper, gardener, security) employed by a foreign-owner non-resident require GOP — typically arranged via licensed labour-supply agency or directly by the principal employer
 - **Outer-island freehold is closed** to non-Seychellois — the most exotic Aldabra / Cosmoledo / Farquhar dreams are concession-only
 - **Inheritance**: French-style civil-law forced-heirship operates under the Civil Code (Cap 33); effective wealth-planning typically routes through Seychelles trusts (FSA-regulated) — engage trust counsel
-- **Mortgage market thin for foreigners** — 40–60% LTV typical at non-resident; cash-buyer dominance in luxury cohort
+- **Mortgage market thin for foreigners** — ~40–60% LTV at non-resident (est. — see Quirks financing note; verify with the bank); cash-buyer dominance in luxury cohort
 - **Rental management is the de-facto path** for non-resident owners — direct hosting on Airbnb without SLA licence is prosecutable
 
 ## Source URL templates

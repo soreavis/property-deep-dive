@@ -229,7 +229,7 @@ The Maldives raises the majority of public revenue from tourism-specific taxes �
   - **Tourist vessel** (liveaboard / safari boat) — TGST + Green Tax USD 12
 - **Foreign-investor route — guesthouse ≤49% shareholding**: per Tourism Ministry guesthouse regulation amendments (2019 + 2024) foreign nationals may participate in guesthouse business via Maldivian-majority partnership/company — **maximum 49% foreign equity** (per Sun Online + Avas reporting + Nasheed & Co practitioner alerts; verify current schedule). Source: `https://en.sun.mv/65768` + `https://avas.mv/en/97076`
 - **Direct Airbnb without registration**: prosecutable under Tourism Act + Tourism Establishment Regulation — substantial penalties including licence revocation + fines
-- **Tourist arrivals (2024)**: ~2.0 million arrivals (Ministry of Tourism statistics — verify latest at `https://www.tourism.gov.mv/en/statistics`); ~2 million / ~515k residents = **highest tourist-to-resident ratio of any country globally** (~3.9×)
+- **Tourist arrivals (2024)**: ~2.0 million arrivals (Ministry of Tourism statistics — verify latest at `https://www.tourism.gov.mv/en/statistics`); ~2 million / ~515k residents = **one of the highest tourist-to-resident ratios globally** (~3.9×, computed)
 
 ### Tax treatment for rental income
 
@@ -511,7 +511,7 @@ Universal — see `shared/climate-projections.md`. Maldives-specific override:
 | Termite + structural inspection | USD ~500–USD 2,500 |
 | Reef condition baseline (resort sub-lease) | varies — engage Reefscapers or MMRI |
 
-> Construction-cost level on the Maldives is **elevated** — most building materials imported (steel, cement, glass, fixtures); skilled-labour pool small (heavy reliance on Bangladeshi / Indian / Sri Lankan / Filipino expat labour). Budget +30–50% above comparable continental South-Asian costs for an equivalent finish; resort-island construction can run +100% above Greater Malé due to logistics + isolation.
+> Construction-cost level on the Maldives is **elevated** — most building materials imported (steel, cement, glass, fixtures); skilled-labour pool small (heavy reliance on Bangladeshi / Indian / Sri Lankan / Filipino expat labour). Budget est. +30–50% above comparable continental South-Asian costs for an equivalent finish; resort-island construction can run est. +100% above Greater Malé due to logistics + isolation (basis: import-dependence + small expat labour pool — verify per contractor quote).
 
 ## Active fiscal incentives (2025-2026)
 
@@ -602,7 +602,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 - **Climate exposure is existential** — average natural elevation ~1.5 m; any 21st-century horizon model must overlay IPCC AR6 SLR scenarios + storm-surge stacking + reef-bleaching teleconnection
 - **Sharia-based forced heirship** governs estate distribution for assets in the Maldives — succession outcomes can differ materially from civil-law/common-law jurisdictions; engage Sharia-knowledgeable counsel
 - **Citizenship is faith-conditional** — naturalisation requires Sunni Muslim adherence; not a route for non-Muslim foreign investors
-- **Bank lending to non-residents**: limited; typical LTV 40–60% for non-resident foreign buyers via Bank of Maldives + MIB + BML; rates USD-denominated 7–11% typical; cash-buyer dominance in luxury cohort
+- **Bank lending to non-residents**: limited; est. LTV ~40–60% for non-resident foreign buyers via Bank of Maldives + MIB + BML; est. USD-denominated rates ~7–11% (indicative non-resident terms — verify current schedule with Bank of Maldives / MIB / BML directly); cash-buyer dominance in luxury cohort
 - **No notary-monopoly** — Maldives-bar attorneys handle conveyancing-equivalent work; the Maldives Bar Association tracks registered counsel (`https://www.bar.org.mv/` — verify URL)
 
 ## Reddit / forum sources

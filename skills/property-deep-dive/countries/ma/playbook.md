@@ -194,9 +194,9 @@ Source: aggregated from Mubawab + Sarouty + agency listings, Q1–Q2 2025. For *
 
 | Tax | Base | Rate | Notes |
 |---|---|---|---|
-| **Taxe d'habitation (TH)** | Annual rental value (valeur locative) per commune evaluation | Progressive: 0 % up to 5,000 MAD VL; 10 % 5,001–20,000; 20 % 20,001–40,000; 30 % above | Primary residence gets **75 % abatement** on the VL → effective rate very low for résidents |
-| **Taxe de services communaux (TSC)** | Same VL base | **10.5 %** in urban communes, **6.5 %** in rural | Funds municipal services; pays even if vacant |
-| **TPI on rental income (Cat. revenu foncier)** | Gross rental | **Abattement 40 %** then progressive IR (10 %–38 %) | OR opt for **liberatory 20 % flat rate** for unfurnished lettings under conditions (Loi de finances 2019+) |
+| **Taxe d'habitation (TH)** | Annual rental value (valeur locative) per commune evaluation | Progressive: 0 % up to 5,000 MAD VL; 10 % 5,001–20,000; 20 % 20,001–40,000; 30 % above | Primary residence gets **75 % abatement** on the VL → effective rate very low for résidents (brackets/abatement est. — no in-file source for this row; verify at DGI / tax administration) |
+| **Taxe de services communaux (TSC)** | Same VL base | **~10.5 %** in urban communes, **~6.5 %** in rural (est. — no in-file source for this row; verify at DGI / tax administration) | Funds municipal services; pays even if vacant |
+| **TPI on rental income (Cat. revenu foncier)** | Gross rental | **Abattement 40 %** then progressive IR (10 %–38 %) (abattement/IR band est. — no in-file source; verify at DGI / tax administration) | OR opt for **liberatory 20 % flat rate** for unfurnished lettings under conditions (Loi de finances 2019+) |
 
 ### Capital gains — TPI (Taxe sur les Profits Immobiliers)
 

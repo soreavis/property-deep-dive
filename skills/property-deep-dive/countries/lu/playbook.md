@@ -8,7 +8,7 @@
 
 ## Country profile
 
-Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property market in Europe at peak (mid-2022; Switzerland/Monaco have since edged ahead). **Sharp 2022-24 correction (~12-15% nominal)**, returned to growth Q1 2025 (+3.7% YoY apartments). Cross-border worker volume = ~228,000 = 47% of LU workforce — but commuters live in FR/DE/BE precisely because LU housing is unaffordable, so they don't pressure rental demand. Bëllegen Akt €40k stamp-duty credit made permanent July 2025. Major tax-base reform (IFON, IMOB, INOL) phased 2026-2030. Cross-border commuter dynamic, trilingual notary-act language reality, and Esch-Belval contamination-legacy zones are key country-specific quirks.
+Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property market in Europe at peak (mid-2022; Switzerland/Monaco have since edged ahead). **Sharp 2022-24 correction (~12-15% nominal)**, returned to growth Q1 2025 (+3.7% YoY apartments). Cross-border worker volume = ~228,000 = ~47% of LU workforce (STATEC frontaliers data — verify current quarterly release at STATEC) — but commuters live in FR/DE/BE precisely because LU housing is unaffordable, so they don't pressure rental demand. Bëllegen Akt €40k stamp-duty credit made permanent July 2025. Major tax-base reform (IFON, IMOB, INOL) phased 2026-2030. Cross-border commuter dynamic, trilingual notary-act language reality, and Esch-Belval contamination-legacy zones are key country-specific quirks.
 
 ---
 
@@ -27,7 +27,7 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
   - **Limpertsberg**: €13,000–14,000/m² (-5.9% y/y, biggest drop)
   - **Kirchberg**: €12,542/m²
   - **Gasperich/Cloche d'Or**: €12,787/m²
-- **Early 2026 outlook**: apartments +2-4% nominal, new-builds +3-6%, houses +1-3%
+- **Early 2026 outlook** (est., extrapolated from the STATEC Q1/Q2 2025 recovery trajectory above — not an official STATEC forecast): apartments ~+2-4% nominal, new-builds ~+3-6%, houses ~+1-3%
 
 **Observatoire de l'Habitat** (LISER + Min Logement joint): https://logement.public.lu/fr/observatoire-habitat.html — best for sub-commune detail.
 
@@ -149,14 +149,14 @@ EU-quarter institutional staff (Kirchberg), finance (Place Financière), tech (E
 
 ### Industrial legacy / contaminated land — important
 
-- **South (Minette region)**: 1,200 hectares of brownfield from steel-industry collapse 1970s-90s
-- **Esch-Belval**: flagship reconversion (€1.9bn state investment) — University, Rockhal, Cité des Sciences, mixed residential. **Some Belval residential is on remediated/sealed industrial fill** — check **certificat de pollution** / soil report from notaire. Blower Hall closed 2019 for contamination/structural reasons
+- **South (Minette region)**: est. ~1,200 hectares of brownfield from steel-industry collapse 1970s-90s (verify against the CASIPO contaminated-sites inventory, below)
+- **Esch-Belval**: flagship reconversion (est. ~€1.9bn state investment — verify against Fonds Belval / state budget figures) — University, Rockhal, Cité des Sciences, mixed residential. **Some Belval residential is on remediated/sealed industrial fill** — check **certificat de pollution** / soil report from notaire. Blower Hall closed 2019 for contamination/structural reasons
 - **St. Esprit Plateau (Esch)**: served as central landfill — sealed and reshaped
 - **Min of Environment** operates **CASIPO** contaminated-sites inventory — surface this as explicit checklist for any Esch / Differdange / Dudelange / Schifflange purchase
 
 ### Mandatory diagnostics
 
-- **Passeport énergétique / CPE / Energiepass**: mandatory for sale, rental, new construction, extension, transformation. Must exist **before publishing any listing** — **fines up to €24,789 for advertising without one**. Validity 10 years. Classes A+ to I. Since 2024, banks weight class in mortgage decisions
+- **Passeport énergétique / CPE / Energiepass**: mandatory for sale, rental, new construction, extension, transformation. Must exist **before publishing any listing** — **fines reportedly up to ~€24,789 for advertising without one** (statutory amount is index-linked — verify current figure in the governing CPE règlement / with the Ministry of Energy). Validity 10 years. Classes A+ to I. Since 2024, banks weight class in mortgage decisions
 - **Radon**: national reference 300 Bq/m³ (homes & workplaces). National avg ~50 south, ~150 north (granite-influenced Oesling/Ardennes higher). Per-commune map at https://map.geoportail.lu/communes/Luxembourg/carte_radon_communes/. **Not yet a mandatory transaction-time diagnostic** like FR ERP — advisory only
 - **No mandated termite/asbestos certificate** at national level for individual residential transactions (asbestos governed by waste/work-safety regs at renovation time, not point-of-sale)
 
@@ -241,7 +241,7 @@ Universal — see `shared/climate-projections.md`.
 
 ## Country-specific quirks
 
-- **Cross-border worker volume**: ~228,000 (47% of LU workforce). FR ~53.6%, DE ~23.4%, BE ~23%. **Implication**: rental market is LU-resident-only (commuters can't rent here cheaply enough to bother), but sale demand has tail-wind from anyone whose situation flips from commuter to resident. Conversely, rental yields are squeezed because high-income tenants frequently pivot to buying. **Pressure on LU property prices comes from in-country residents and EU/finance new arrivals, not from commuters reverse-pressuring the market**
+- **Cross-border worker volume**: ~228,000 (~47% of LU workforce). FR ~53.6%, DE ~23.4%, BE ~23% (STATEC frontaliers split — figures may have shifted; verify current quarterly release at STATEC). **Implication**: rental market is LU-resident-only (commuters can't rent here cheaply enough to bother), but sale demand has tail-wind from anyone whose situation flips from commuter to resident. Conversely, rental yields are squeezed because high-income tenants frequently pivot to buying. **Pressure on LU property prices comes from in-country residents and EU/finance new arrivals, not from commuters reverse-pressuring the market**
 - **Trilingual notary acts** (clarification): Acts drafted in **one** of LU's official languages, most often French, sometimes German, occasionally Lëtzebuergesch. **NOT literally trilingual on the page.** English is not an official notarial language. Foreign buyers without French/German need an interpreter (€200-900) — strongly advised
 - **SCI / SARL ownership**: SCI transparent for tax (partner-level, like France). SARL minimum capital €12,500, week to register, separate corporate income (~24-27% effective). For rental investment, SARL/SA can win on capital-gains rate vs personal but loses Bëllegen Akt and principal-residence CGT exemption. SCS/SCSp common for institutional. Personal ownership default for principal residence
 - **Kirchberg EU-quarter premium**: ~€12,500/m² but tenant pool institutional (EU staff); lease cycles tied to EU staff rotations (3-5yr typical)

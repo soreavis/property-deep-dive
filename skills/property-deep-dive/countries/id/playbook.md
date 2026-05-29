@@ -140,7 +140,7 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 
 - **Bank Indonesia (BI) — Indeks Harga Properti Residensial (IHPR / RPPI)**: quarterly residential property price index, 18 major cities. `https://www.bi.go.id/id/publikasi/laporan/Default.aspx?subject=10` (Survei Harga Properti Residensial). Tracks both new + secondary market.
 - **BPS (Badan Pusat Statistik) — Statistik Harga Perdagangan Besar Bahan Bangunan**: construction cost index (input to replacement cost). `https://www.bps.go.id/`
-- **NJOP (Nilai Jual Objek Pajak)** — government-assessed property value used as the tax base for PBB-P2 and BPHTB. Set per zone (per kelurahan) by the kabupaten/kota. Lookup via local Bapenda website (e.g., DKI Jakarta `https://bapenda.jakarta.go.id/`, Badung `https://bapenda.badungkab.go.id/`). NJOP is typically **30–60 % of market value** in Jakarta CBD, and 20–50 % in Bali tourist zones — useful as a tax-base reference, NOT a price benchmark.
+- **NJOP (Nilai Jual Objek Pajak)** — government-assessed property value used as the tax base for PBB-P2 and BPHTB. Set per zone (per kelurahan) by the kabupaten/kota. Lookup via local Bapenda website (e.g., DKI Jakarta `https://bapenda.jakarta.go.id/`, Badung `https://bapenda.badungkab.go.id/`). NJOP is ~30–60 % of market value in Jakarta CBD, and ~20–50 % in Bali tourist zones (est., based on observed NJOP-vs-listing gaps; verify per-zone via local Bapenda) — useful as a tax-base reference, NOT a price benchmark.
 - **REI (Real Estate Indonesia) — DPP**: developer association market intelligence reports. `https://www.rei.or.id/`
 - **PPAT-issued AJB (Akta Jual Beli) records** — actual sale prices recorded by the notary at transfer; not centrally published, accessible per-parcel at the kabupaten BPN office.
 
@@ -464,7 +464,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 
 ### Flood (banjir)
 
-- Jakarta has chronic flooding driven by upstream rainfall (Bogor highlands), ground subsidence (north Jakarta sinking 5–25 cm/yr in places — among the world's fastest-sinking cities; Pluit / Ancol especially affected), and tidal coupling. Major events 2007, 2013, 2020, 2024.
+- Jakarta has chronic flooding driven by upstream rainfall (Bogor highlands), ground subsidence (north Jakarta sinking ~5–25 cm/yr in places — among the most rapidly subsiding coastal urban areas; Pluit / Ancol especially affected; verify current rates via Kementerian PUPR Direktorat Sumber Daya Air), and tidal coupling. Major events 2007, 2013, 2020, 2024.
 - **Bali**: localised flood in Kuta / Legian / Canggu lowland during peak rain (Nov–Mar); rapid storm-runoff in narrow valleys (Ubud).
 - **Sumatra / Kalimantan / Sulawesi**: river-basin floods seasonal.
 - Check InaRISK + provincial Bappeda hazard overlays per kabupaten.
@@ -686,7 +686,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 - **Subak (Bali)**: UNESCO-recognised water cooperative system; subak land has water-allocation rights tied to the parcel and converting subak rice fields to villa pads requires subak collective consent + provincial spatial plan amendment + BPN reclassification. Skip these steps and your villa may be ordered demolished.
 - **Tanah ayahan desa (Bali)**: village allotment; even if titled in an Indonesian individual's name, the desa adat retains a traditional interest. Foreign sale typically prohibited.
 - **Banjar / desa pakraman approval**: in many Bali villages, the village council can refuse foreign occupancy/development even if BPN sertifikat is in order. Practice varies by banjar; Ubud / Tegallalang / Sidemen more conservative; Canggu / Seminyak more permissive.
-- **NJOP under-pricing trap**: NJOP is often set 30–60 % below market; buyers under-declaring in the AJB to reduce BPHTB face audit risk and possible criminal sanction (DJP audit + back-tax + fine).
+- **NJOP under-pricing trap**: NJOP is often set ~30–60 % below market (est.; verify per-zone via local Bapenda); buyers under-declaring in the AJB to reduce BPHTB face audit risk and possible criminal sanction (DJP audit + back-tax + fine).
 - **PT PMA used as residential proxy**: tax authority and BKPM scrutiny rising 2024–2025 for PT PMA companies that hold villas without genuine operating business — risk of being treated as nominee structure.
 - **KITAS dependent ownership**: if you hold Hak Pakai while on KITAS, lapse of the KITAS without renewal can trigger BPN review of Hak Pakai standing; ensure visa continuity.
 - **Off-plan escrow**: Indonesian "escrow" is often informal — funds may sit in developer's operating account, not a third-party trust. Insist on bank-administered escrow with clear release milestones; if developer refuses, walk away.
@@ -754,7 +754,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 **Reform watch items** (track in `shared/regulatory-watch.md`):
 1. **PP 18/2021 / Hak Pakai term extensions** — discussion of further extension beyond 80 yr; not enacted May 2026.
 2. **Bali "special-zone" foreign-ownership pilot** — provincial proposal floated; no national legislation enacted.
-3. **PPN rate rise 11 % → 12 %** — UU HPP scheduled; verify current rate at DJP.
+3. **PPN structure** — effectively 11 % via the DPP 11/12 tax-base mechanism; 12 % applies luxury-only (≥ IDR 30 billion) under PMK 131/2024. Monitor for any move to apply 12 % broadly; verify current rate at DJP.
 4. **NJOP zonal updates Bali** — Badung / Gianyar revising upward 2024–2026; verify Perda.
 5. **Villa STR / TDUP enforcement framework** — Bali Badung tightening 2023–2025; verify current Perda.
 6. **Digital Nomad Visa E33G evolution** — launched 2024; ongoing DJP guidance on foreign-source income remittance.

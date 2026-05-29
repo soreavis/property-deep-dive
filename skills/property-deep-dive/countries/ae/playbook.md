@@ -502,7 +502,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | **Real estate agent commission** | 2% + 5% VAT (typical) |
 | **Conveyancer / lawyer** (optional) | AED 5,000–15,000 |
 | **DIFC Will registration** (single) | AED 10,000 |
-| **Holiday Home Permit (DET, annual)** | ~AED 3,720 (Entire) |
+| **Holiday Home Permit (DET)** | initial registration AED 1,520; annual permit from ~AED 370/unit |
 | **Service charges (annual)** | AED 3–70 / sqft / yr (tier-dependent) |
 | **District cooling (annual)** | AED 10–18 / sqft / yr (residential) |
 | **Annual housing fee (Dubai)** | 5% of annual rental value (via DEWA) |
@@ -513,7 +513,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 ## Active fiscal incentives (2026)
 
 - **Golden Visa (10-year)**: property ≥ AED 2 M (single or aggregate)
-- **Investor Visa (2-year)**: property ≥ AED 750,000
+- **Investor Visa (2-year)**: sole owners — no minimum property value; joint owners — ≥ AED 400,000 each (prior AED 750k floor abolished, DLD 29 Apr 2026)
 - **Retirement Visa (5-year, age ≥ 55)**: property ≥ AED 1 M + savings AED 1 M, OR AED 180k/yr income
 - **Green Visa (5-year)**: skilled workers / freelancers
 - **0% personal income tax** on rental income (federal — but check home-country tax residency obligations)
@@ -627,7 +627,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 
 **Coverage check**: foreign-buyer eligibility, price, traffic, tax, rental, work, risks, mains all have primary government / regulated entity sources + cost benchmarks + caveats; Golden Visa + Retirement Visa thresholds verified vs ICP guidance; DLD fees verified vs DLD eServices.
 
-**Confidence**: **HIGH** for federal-level rules (Golden Visa / Retirement Visa thresholds, VAT regime, Corporate Tax, AED peg, AML), Dubai DLD transfer fee + service-charge framework + Smart Rental Index brackets + DET holiday-home permit, ADREC 2% + Federal Decree-Law 21/2021 framework, DIFC/ADGM Wills + Dubai Law 2/2025, Apr 2024 flood event + Tasreef response. **MEDIUM** for emirate-by-emirate detail outside Dubai/Abu Dhabi (RAK/Ajman/Fujairah/UAQ less standardised — designated zones verified per source but precise transfer fee schedules vary and need per-deal confirmation with the relevant municipality), Abu Dhabi citywide pricing benchmarks (less granular open data than Dubai), Sharjah usufruct vs freehold-for-Arabs distinction (verify with SRERD per nationality).
+**Confidence**: **HIGH** for federal-level rules (Golden Visa / Retirement Visa thresholds, VAT regime, Corporate Tax, AED peg, AML), Dubai DLD transfer fee + service-charge framework + Smart Rental Index brackets + DET holiday-home permit, ADREC 2% + Abu Dhabi Law 13/2019 (amending Law 19/2005) framework, DIFC/ADGM Wills + Dubai Law 2/2025, Apr 2024 flood event + Tasreef response. **MEDIUM** for emirate-by-emirate detail outside Dubai/Abu Dhabi (RAK/Ajman/Fujairah/UAQ less standardised — designated zones verified per source but precise transfer fee schedules vary and need per-deal confirmation with the relevant municipality), Abu Dhabi citywide pricing benchmarks (less granular open data than Dubai), Sharjah usufruct vs freehold-for-Arabs distinction (verify with SRERD per nationality).
 
 **Last verified**: 2026-05-27.
 

@@ -39,7 +39,7 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 - **Remax IS**, **Eignamiðlun**, **Fasteignamarkaðurinn**, **Domus**, **Gimli**, **Brynja** — agency networks
 - **fasteign.is** (HMS public listing)
 
-### 2025 price benchmarks (Hagstofa + HMS)
+### 2025 price benchmarks (Hagstofa + HMS) — 2025 data; figures may have changed since, re-check current Hagstofa íbúðaverðsvísitala
 
 | Region | Avg ISK/m² (apt) | Avg total (einbýlishús) |
 |---|---:|---:|
@@ -97,11 +97,11 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 
 - Set per sveitarfélag
 - Based on **fasteignamat** (annual official valuation by HMS)
-- Typical rates:
-  - Residential (A-skattflokkur): **0.18–0.45%** of fasteignamat
-  - Commercial (C-skattflokkur): **1.32%** (federal max)
-  - Bare land (B-skattflokkur): 1.0% typical
-- Reykjavík residential: **0.18%**
+- Typical rates (set annually per sveitarfélag — verify with the specific municipality's álagningarprósenta; not from a single published index):
+  - Residential (A-skattflokkur): ~**0.18–0.45%** of fasteignamat (est. range across municipalities)
+  - Commercial (C-skattflokkur): ~**1.32%** (statutory max)
+  - Bare land (B-skattflokkur): ~1.0% typical
+- Reykjavík residential: ~**0.18%** (set annually — verify current year at reykjavik.is)
 - Reduced rates often for retirees, low-income
 - **Sorphirðugjald** (waste collection) added separately
 - **Vatnsgjald + Holræsagjald** (water + sewer) per sveitarfélag
@@ -152,7 +152,7 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 - **Húsaleigulög** (Tenancy Act): moderate protection
 - **Tímabundinn leigusamningur** (fixed-term) common
 - **Ótímabundinn leigusamningur** (open-ended) — termination notice 6 months
-- Standard income tax on rental: progressive **24.5% to 46.25%**; some flat-rate options
+- Income tax on rental: ~**24.5% to 46.25%** if taxed on the progressive labour-income scale; some flat-rate options (residential rental may instead fall under capital-income treatment — verify the applicable regime and current rates at skattur.is before relying on these figures)
 - **Eignaskattfrelsi** for long-term tenants in primary owner residence (parts)
 
 ### Short-let (Airbnb / Heimagisting)
@@ -210,13 +210,13 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 | **ÍSOR (Iceland GeoSurvey)** | `https://www.isor.is/` | Geology, geothermal |
 | **Veitur** | `https://www.veitur.is/` | Reykjavík utility (district heating) |
 
-### Specific risks (HIGHEST geological hazard density in Europe)
+### Specific risks (one of the highest geological-hazard densities in Europe)
 
 #### Volcanic + seismic — current activity
 
 **Reykjanes peninsula 2023-2025 eruption series** (CRITICAL UPDATE):
 
-- **9 eruptions since December 2023** at Sundhnúkur fissure (as of mid-2025 data)
+- **9 eruptions since December 2023** at Sundhnúkur fissure (as of mid-2025 data — verify count against Veðurstofan eruption log, vedur.is/skjalftar-og-eldgos, the primary authority)
 - **11 eruptions south of Reykjavík since 2021** (Fagradalsfjall + Sundhnúkur + Litli-Hrútur)
 - **Most recent**: 16 July 2025 (slowed by 5 August)
 - **Grindavík mostly abandoned** since November 2023; 4,000 residents evacuated
@@ -262,7 +262,7 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 - Covers: volcanic eruptions, earthquakes, floods, avalanches, landslides
 - Funded via property insurance premiums (compulsory iðgjald)
 - Payout based on rebuild value
-- **One of the most comprehensive natural-hazard insurance schemes globally**
+- **NTÍ provides compulsory, broad natural-hazard cover bundled into property insurance** (volcano, earthquake, flood, avalanche, landslide)
 - For Grindavík: state-purchase scheme + NTÍ payouts active 2024-2025
 
 ### Build-era hazards
@@ -317,9 +317,11 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 
 | Scenario | Cost (ISK) |
 |---|---:|
-| Hitaveita connection | 1,000,000–3,000,000 |
-| Cold water + sewer connection | 800,000–2,500,000 |
-| Mains-line extension | 5,000,000–15,000,000+ |
+| Hitaveita connection | est. 1,000,000–3,000,000 |
+| Cold water + sewer connection | est. 800,000–2,500,000 |
+| Mains-line extension | est. 5,000,000–15,000,000+ |
+
+> Indicative contractor ranges (est.), not from a published index — get quotes from the local veitur/utility.
 
 ---
 
@@ -332,11 +334,13 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 | Fasteignasalalaun | 1–2% of price (seller) |
 | **Total transaction cost (buyer)** | **~1–2%** of price |
 | Söluyfirlýsing | 30,000–80,000 |
-| Energy upgrade | 4,000,000–12,000,000 |
-| Antiseismic retrofit | 3,000,000–8,000,000 |
-| Roof (corrugated steel, 150 m²) | 2,000,000–4,000,000 |
-| Asbestos abatement | 800,000–3,000,000 |
-| Hitaveita connection | 1,000,000–3,000,000 |
+| Energy upgrade | est. 4,000,000–12,000,000 |
+| Antiseismic retrofit | est. 3,000,000–8,000,000 |
+| Roof (corrugated steel, 150 m²) | est. 2,000,000–4,000,000 |
+| Asbestos abatement | est. 800,000–3,000,000 |
+| Hitaveita connection | est. 1,000,000–3,000,000 |
+
+> Construction/retrofit rows are indicative contractor ranges (est.), not from a published index — get quotes. The first four rows (stimpilgjald / þinglýsingargjald / fasteignasalalaun / total) are sourced from the transaction-tax block above.
 
 ## Active fiscal incentives (2025-2026)
 
@@ -344,7 +348,7 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 - **Fyrstu kaup** (first-time buyer) tax-deductible savings program
 - **Almenna lánasjóðurinn** (public housing fund) loans
 - **Húsnæðisstuðningur**: rental subsidy
-- **Vaxtabætur** (mortgage interest tax credit): up to ISK 400,000-600,000/yr depending on income/family
+- **Vaxtabætur** (mortgage interest tax credit): up to ~ISK 400,000-600,000/yr depending on income/family (ceilings revised annually — verify current-year figures at skattur.is)
 
 ## Common listing platforms
 

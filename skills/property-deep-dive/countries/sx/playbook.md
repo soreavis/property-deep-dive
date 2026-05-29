@@ -114,7 +114,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 
 - **Rate**: **4% of purchase price (or assessed value, whichever is higher)** — flat. Paid by buyer at closing. Withheld + remitted by the *notaris* (notary). Single-tier, no first-time-buyer relief, no progressive surcharge.
 - **Source**: administered by Sint Maarten Tax Administration (`https://www.tax.sx/`); confirmed across multiple agent + tax-advisory sources for 2026 (idr.sx · doingbusinessdutchcaribbean.com · easysxm.com).
-- This is the **headline foreign-buyer cost**. Contrast with Italy (9–15% all-in), France (7–8% all-in), Spain (10–13% all-in) — SX's 4% transfer-tax floor is materially lower.
+- This is the **headline foreign-buyer cost**. Contrast with Italy (~9–15% all-in, est. — see `countries/it/playbook.md`), France (~7–8% all-in, est. — see `countries/fr/playbook.md`), Spain (~10–13% all-in, est. — see `countries/es/playbook.md`) — SX's 4% transfer-tax floor is materially lower.
 
 ### Other transaction items
 
@@ -170,7 +170,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 ### Yields (est., 2026)
 
 - Long-term gross yield, mid-tier 2-bed Cupecoy / Simpson Bay: **5–8%** (post-tax, post-HOA, post-insurance — net materially lower)
-- Short-let gross yield (compliant, well-managed Cupecoy / Mullet Bay): **8–14%** seasonal peaks (Dec–Apr high season, ~2M cruise-passenger annual flow) — but high operational + turnover-cost drag; vacancy in shoulder-season Jun–Nov.
+- Short-let gross yield (compliant, well-managed Cupecoy / Mullet Bay): **8–14%** seasonal peaks (Dec–Apr high season, ~2M cruise-passenger annual flow, est. 2026 — verify current figure at the SX port authority / airport authority; may have changed) — but high operational + turnover-cost drag; vacancy in shoulder-season Jun–Nov.
 
 ⚠️ **Net-after-all-costs reality check**: per idr.sx 2026 scenarios — US$350k condo all-in carrying cost **US$10,500/yr** (HOA ~US$400/mo + utilities + insurance + maintenance) → break-even gross rent ~6% before void allowance. **HOA + insurance + cooling/AC dominate** the operating cost line in SX, materially above EU comparables.
 
@@ -539,6 +539,8 @@ MEDIUM-HIGH — Caribbean-regional insurance market is competitive but rate-shee
 | **🇧🇧 Barbados** | Foreign-buyer 0% transfer + 2.5% stamp | 4–6% | Property tax progressive | 3–5% | BBD (peg) |
 | **🇰🇾 Cayman** | Open, 7.5% stamp | ~7.5% | No annual property tax | 3–5% | KYD (peg) |
 | **🇧🇸 Bahamas** | Open + 10% VAT on > US$1M | 6–12% (slab) | Real property tax (progressive) | 3–6% | BSD (peg) |
+
+> Peer-country figures est. from each country's own data — verify per `countries/<iso2>/playbook.md` (e.g. Barbados `bb`, Cayman `ky`, Bahamas `bs`, Antigua `ag`, St Kitts `kn`).
 
 ### Sint Maarten's distinctive position
 

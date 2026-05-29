@@ -36,6 +36,8 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Price benchmarks (2025-2026)
 
+> est. ranges aggregated from Comparis / Homegate / ImmoScout24 asking-price listings 2025-2026 (see Primary sources, L21-29) — asking, not transaction; verify with cantonal Grundbuchamt sale-price extracts.
+
 | Region | EFH €/m² (CHF) | Wohnung €/m² (CHF) |
 |---|---:|---:|
 | **Zürich City** | 14,000–22,000 | 14,000–25,000 |
@@ -102,7 +104,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
   - **Zürich, Bern, Aargau, Schwyz**: NO Liegenschaftssteuer
   - Most cantons: low to moderate
 - **Vermögenssteuer** (wealth tax): cantonal + communal; property included; ~0.13–0.85 % on net wealth (varies hugely)
-- **Eigenmietwert + Vermögenssteuer** combined typically **0.5–1.5 %** of property value/yr for owner-occupiers
+- **Eigenmietwert + Vermögenssteuer** combined **est. ~0.5–1.5 %** of property value/yr for owner-occupiers (model composite of the Eigenmietwert income-tax effect (L97) + Vermögenssteuer (L104) — illustrative, canton- and income-dependent; verify per canton)
 
 **Post-2028 (after Eigenmietwert abolition)**:
 - No more Eigenmietwert imputed income
@@ -113,6 +115,8 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 ### Transaction taxes
 
 **Handänderungssteuer** (transfer tax) — cantonal, varies massively:
+
+> Rates per cantonal Steuerverwaltung schedules; rows without an inline cite below are unverified for as-of year — verify per canton (cantonal Steuerverwaltung). Vaud (L125) and Neuchâtel (L126) carry inline source + verified date.
 
 | Canton | Rate |
 |---|---:|
@@ -145,7 +149,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 ### Capital gains — Grundstückgewinnsteuer
 
 - **Cantonal**, varies by holding period
-- Typically 25–50 % rates declining to 5–10 % after 20+ years of holding
+- est. ~25–50 % at short holding, tapering to ~5–10 % after 20+ years (cantonal — illustrative range, varies widely by canton; verify with the cantonal Steueramt)
 - Owner-occupied + reinvestment within 2 yrs often exempt
 
 ### Future risk

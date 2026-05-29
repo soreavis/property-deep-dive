@@ -809,9 +809,9 @@ Accra (Cantonments / Airport / East Legon / Osu / Labone): coworking + amenity d
 
 - **GDP growth 2024**: ~6%+ (BoG / IMF Article IV; verify Q4 2025); strong rebound year vs 2022-23 crisis trough; 2025 est. ~5%+ (verify BoG monetary policy reports)
 - **Inflation (CPI YoY)**: peaked >50% during 2022-23 crisis; moderating substantially under IMF programme; GSS CPI Q1 2026 est. ~20-25% range — verify monthly (rates may have changed since)
-- **BoG MPR**: ~28% Q1 2026 est. (verify monthly at BoG MPC Press Release `https://www.bog.gov.gh/monetary-policy/`); peaked 30% during 2022-23
+- **BoG MPR**: **14.0% (May 2026, 130th MPC meeting)** — cut 900 bps across 2025-26 easing cycle (Dec 2024 27% → Mar 2026 14% → May 2026 14% held); peaked 30% during 2022-23 (verify monthly at BoG MPC Press Release `https://www.bog.gov.gh/monetary-policy/`; 2026-05-27 verified)
 - **Unemployment**: GSS Annual Household Income & Expenditure Survey + Labour Force Survey baseline (~14% urban official estimate; underemployment higher)
-- **GHS/USD**: ~GHS 12-16/USD range Q1-Q2 2026 (BoG; verify daily)
+- **GHS/USD**: **~GHS 11-12/USD May 2026 (BoG mid-rate); cedi appreciated ~20% YoY from ~GHS 14 May 2025** — verify daily (2026-05-27 verified)
 - **Sovereign rating**: Ghana defaulted on Eurobonds Dec 2022; **Eurobond restructuring agreement reached Oct 2024 with Official Bilateral Creditors + Bondholder Committee**; ratings improved post-restructuring but remained sub-investment-grade — verify current S&P/Moody's/Fitch
 - **IMF Extended Credit Facility** approved 17 May 2023, USD 3 billion 36-month programme — programme reviews quarterly; conditionalities active
 
@@ -940,8 +940,8 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 | **Total foreign-buyer transaction (Accra)** | **~5–12% of price** | Sum |
 | Property Rate annual — Accra (AMA) | **MMDA-set, typically 0.5-3% assessed value** | AMA / Local Governance Act 2016 Act 936 |
 | CGT on sale | **15% of net realised gain** | GRA — Income Tax Act 2015 Act 896 |
-| VAT first-sale residential / commercial | **Generally not / 15% if commercial + VAT-registered** | GRA — VAT Act 2013 Act 870 (15% per Act 1082 2022) |
-| GHS commercial / USD mortgage rate | **25–35% / 9–13%** | BoG MPR ~28% Q1 2026 est. / Stanbic+Standard Chartered |
+| VAT first-sale residential / commercial | **Generally not / 15% if commercial + VAT-registered** | GRA — VAT Act 2025 (Act 1151), eff. 1 Jan 2026 (supersedes Act 870/Act 1082); 15% retained |
+| GHS commercial / USD mortgage rate | **25–35% (HISTORICAL 2023-24 — likely compressed post-easing) / 9–13%** | BoG MPR 14.0% May 2026 / Stanbic+Standard Chartered |
 | Energy/water autonomy stack — mid Accra home/mo | **GHS 1,500–4,500** | Backup fuel + LPG + internet + maintenance |
 | Generator (5-15 kVA mid home) | GHS 30,000–120,000 | Vendor |
 | Solar + 5-10 kWh battery | GHS 80,000–400,000 | Private installers |

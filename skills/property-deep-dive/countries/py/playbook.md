@@ -314,7 +314,7 @@ Annual recurring tax:                    ~USD 330–415
 
 ### Foreign worker / residency permits
 
-- **Dirección General de Migraciones (DGM)** under Ministerio del Interior: `https://www.migraciones.gov.py/`
+- **Dirección Nacional de Migraciones (DNM, ex-DGM)** under Ministerio del Interior: `https://www.migraciones.gov.py/`
 - **Permanent Residency (RUE — Residente)**:
   - **Pre-2023 regime**: USD ~5,200 BNF (Banco Nacional de Fomento) deposit was sufficient — Paraguay was historically **one of the world's cheapest formal residency-by-investment** paths.
   - **Post-2023 (Resolución SET 1186/2023)**: tightened — applicant must demonstrate **either** (a) active SET RUC + economic activity in PY, OR (b) **investment ≥ USD 70,000** in business via SUACE with business plan + commitment.
@@ -652,10 +652,10 @@ Universal Copernicus / IPCC AR6 logic (`shared/climate-projections.md`) applies.
 
 ### Primary authority
 
-- **DGM — Dirección General de Migraciones** under Ministerio del Interior: `https://www.migraciones.gov.py/` — visa enforcement + RUE (Residente) issuance.
+- **DNM — Dirección Nacional de Migraciones (ex-DGM)** under Ministerio del Interior: `https://www.migraciones.gov.py/` — visa enforcement + RUE (Residente) issuance.
 - **MRE — Ministerio de Relaciones Exteriores**: `https://www.mre.gov.py/` — visa application via consulados.
 - **SUACE — Sistema Unificado de Apertura y Cierre de Empresas**: `https://www.suace.gov.py/` — investor track support.
-- Legal basis: **Ley 978/1996 — Ley de Migraciones** + **Decreto 18.295/1997** Reglamento + **Resolución SET 1186/2023** (residency tightening 2023).
+- Legal basis: **Ley 6984/2022 — Nueva Ley de Migraciones** (repealed Ley 978/1996; Decreto 18.295/1997 reglamento no longer in force) + **Resolución SET 1186/2023** (now administered by DNIT, residency tightening 2023). See country profile reforms anchor.
 
 ### Major visa pathways
 
@@ -693,14 +693,14 @@ Universal Copernicus / IPCC AR6 logic (`shared/climate-projections.md`) applies.
 
 ### NO real-estate-only visa
 
-⚠️ Paraguay does **NOT have a "golden visa" via residential RE alone** equivalent to PT/ES/UY 19.937 / GR / MT. RE investment **alone** does NOT qualify for RUE — must couple with business activity / SUACE investment / RUC.
+⚠️ Historically Paraguay had **NO "golden visa" via residential RE alone** equivalent to PT/ES/UY 19.937 / GR / MT. As of May 2026 the **Paraguay Investor Pass** changes this — **USD 200,000 in qualifying real-estate projects now grants direct permanent residency** (see reforms anchor, line 24). The legacy RUE route still requires coupling RE with business activity / SUACE investment / RUC.
 
 ### Cédula de Identidad para Extranjeros
 
 - Once RUE granted, **DGM issues Cédula de Identidad Paraguaya** (extranjero permanente).
 - Permits opening RUC, contratación laboral, banking, conducir, voto en elecciones municipales (con condiciones).
 
-**Confidence**: HIGH — Ley 978/1996 + DGM framework + Resolución SET 1186/2023 documented + multiple sources confirm. MEDIUM for processing time (varies per DGM workload + applicant nationality).
+**Confidence**: HIGH — Ley 6984/2022 (current migration law) + DGM/DNM framework + Resolución SET 1186/2023 (DNIT-administered) documented + multiple sources confirm. MEDIUM for processing time (varies per DGM/DNM workload + applicant nationality).
 
 ---
 
@@ -1101,7 +1101,7 @@ Paraguay as of 2026-05 has **no dedicated digital-nomad visa** comparable to PT 
 - **CGT effective rate ~2.4 % via 30 % presumption × 8 % IRP** for non-habitual sellers — among lowest in region. Primary residence after 2 years exempt under Decreto 9.371/2018.
 - **Territorial-source IRP** for individuals: foreign passive income often **not taxed** even for residents — critical for retirement / digital-nomad planning.
 - **RUE post-2023 (Resolución SET 1186)**: USD 70k SUACE business OR SET RUC + activity. Still **among cheapest formal RBI in South America**; 3 years RUE → naturalisation eligibility.
-- **NO golden visa via residential RE alone**: must couple with business activity / SUACE / RUC.
+- **Legacy RUE has no RE-only route** (must couple with business activity / SUACE / RUC), BUT the **May-2026 Paraguay Investor Pass grants permanent residency for USD 200k in qualifying RE projects** (see line 24).
 - **Mennonite Chaco semi-closed market**: Filadelfia + Loma Plata + Neuland — Cooperativa Chortitzer / Fernheim / Neuland-managed; outside investor entry limited.
 - **Itaipú/Yacyretá hydropower surplus**: world's #2 net electricity exporter; **crypto-mining + server-farm cluster** growing in CDE + Alto Paraná.
 - **Mainly civil-law notarial system + DGRP electronic gradual**: solid title-chain due diligence required (30y minimum); DGRP digital improvements 2018–2024 reduce fraud risk.
@@ -1133,7 +1133,7 @@ Paraguay as of 2026-05 has **no dedicated digital-nomad visa** comparable to PT 
 | **BCP — Banco Central del Paraguay** | FX, monetary policy, Superintendencias Bancos + Seguros |
 | **ESSAP** | Water/sewer certificate + connection status |
 | **ANDE** | Electric utility certificate |
-| **DGM — Dirección General de Migraciones** | Residencia status, RUE |
+| **DNM — Dirección Nacional de Migraciones (ex-DGM)** | Residencia status, RUE |
 | **MRE — Ministerio de Relaciones Exteriores** | Visa application abroad |
 | **SUACE** | Investor business registration + RUE investor track |
 | **MUVH** | VIS, FONAVIS/AVI housing subsidies |
@@ -1180,7 +1180,7 @@ Paraguay as of 2026-05 has **no dedicated digital-nomad visa** comparable to PT 
 | Municipalidad Asunción | `https://www.asuncion.gov.py/` |
 | MUVH | `https://www.muvh.gov.py/` |
 | MTESS | `https://www.mtess.gov.py/` |
-| DGM (Migraciones) | `https://www.migraciones.gov.py/` |
+| DNM (Migraciones, ex-DGM) | `https://www.migraciones.gov.py/` |
 | MRE | `https://www.mre.gov.py/` |
 | SUACE | `https://www.suace.gov.py/` |
 | Colegio de Escribanos PY | `https://www.escribanos.org.py/` |
@@ -1210,4 +1210,4 @@ Paraguay as of 2026-05 has **no dedicated digital-nomad visa** comparable to PT 
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Paraguay's framework is **well-documented at the national-government level** (DGRP, SNC, SET, BCP, DGM, MOPC, MADES, SEN all maintain primary .gov.py portals). HIGH confidence on visa regime (Ley 978/1996 + Resolución SET 1186/2023 confirmed), notarial framework (Ley 1.190/1985), tax structure (Ley 6.380/2019 + Ley 125/1991), border-zone rural restriction (Ley 2.532/2005), foreign-buyer rights baseline (Constitución art. 109/109bis), territorial-source IRP design. MEDIUM on parcel-level price/m² (no national transactional RE index — listing-derived only), per-municipio Impuesto Inmobiliario surcharge brackets (vary by ordenanza annually), STR-specific enforcement (lightly regulated as of 2026 Q1 — SENATUR + municipal mosaic). LOW on traffic counts (MOPC TPDA published irregularly — OSM `highway` class is the working fallback), crime granularity (no parcel-level rates published — qualitative + journalistic reliance). Reform watch: (1) potential SNC re-valuación cadastral nacional — would significantly raise Impuesto Inmobiliario; (2) Itaipú Annex C 2024 fiscal-space rebalance impact 2025–2030; (3) further RUE Resolución SET tightening cycles; (4) drought / wildfire climate amplification 2025–2030 affecting Chaco property valuations; (5) potential Mercosur tax-harmonisation initiatives.
+**Notes**: Paraguay's framework is **well-documented at the national-government level** (DGRP, SNC, SET, BCP, DGM, MOPC, MADES, SEN all maintain primary .gov.py portals). HIGH confidence on visa regime (Ley 6984/2022 current migration law + Resolución SET 1186/2023 confirmed), notarial framework (Ley 1.190/1985), tax structure (Ley 6.380/2019 + Ley 125/1991), border-zone rural restriction (Ley 2.532/2005), foreign-buyer rights baseline (Constitución art. 109/109bis), territorial-source IRP design. MEDIUM on parcel-level price/m² (no national transactional RE index — listing-derived only), per-municipio Impuesto Inmobiliario surcharge brackets (vary by ordenanza annually), STR-specific enforcement (lightly regulated as of 2026 Q1 — SENATUR + municipal mosaic). LOW on traffic counts (MOPC TPDA published irregularly — OSM `highway` class is the working fallback), crime granularity (no parcel-level rates published — qualitative + journalistic reliance). Reform watch: (1) potential SNC re-valuación cadastral nacional — would significantly raise Impuesto Inmobiliario; (2) Itaipú Annex C 2024 fiscal-space rebalance impact 2025–2030; (3) further RUE Resolución SET tightening cycles; (4) drought / wildfire climate amplification 2025–2030 affecting Chaco property valuations; (5) potential Mercosur tax-harmonisation initiatives.

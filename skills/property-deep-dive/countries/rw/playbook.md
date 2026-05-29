@@ -7,7 +7,7 @@ ISO2: `rw`. Status: ✅ Fully populated (researched 2026-05).
 - **Population**: **13,246,394** as of August 2022 (NISR, 5th Rwanda Population and Housing Census — RPHC-5, fieldwork 16–30 Aug 2022). Tripled from 4.8 M (1978) to 13.2 M (2022). Growth rate ~2.3 %/yr. Source: NISR `https://www.statistics.gov.rw/data-sources/censuses/Population-and-Housing-Census/fifth-population-and-housing-census-2022`.
 - **Capital**: **Kigali** (City of Kigali — `https://www.kigalicity.gov.rw/`). City population **1.745 M (2022 census)**, projected ~2.6 M by 2032 (NISR Subnational Projections 2023–2032). Three districts: **Nyarugenge** (CBD), **Gasabo** (largest, includes Kacyiru / Kibagabaga / Nyarutarama / Kimihurura), **Kicukiro** (south-east, includes Niboye / Kanombe / Gahanga).
 - **Other markets** (much smaller): **Musanze** (Volcanoes National Park gateway, ~110k), **Rubavu** / Gisenyi (Lake Kivu, DRC border, ~150k), **Huye** / Butare (university town, ~110k), **Rusizi** / Cyangugu (Lake Kivu south).
-- **Currency**: **RWF — Rwandan franc**, **managed float** (no fixed peg). Exchange rate references: BNR daily/weekly bulletin (`https://www.bnr.rw/avgexchangerate`). **8 Aug 2025**: 1 USD ≈ **1,448.54 RWF** (BNR Weekly Bulletin 11 Aug 2025). 2024 depreciation ~9.65 % vs USD; trajectory still depreciating but BNR-managed (Reserves cover ~4 months imports per IMF Article IV). **Verify spot rate at signing.**
+- **Currency**: **RWF — Rwandan franc**, **managed float** (no fixed peg). Exchange rate references: BNR daily/weekly bulletin (`https://www.bnr.rw/avgexchangerate`). **8 Aug 2025**: 1 USD ≈ **1,448.54 RWF** (BNR Weekly Bulletin 11 Aug 2025). 2024 depreciation est. ~10 % vs USD (est. from BNR year-start vs year-end average rate — verify against BNR annual report); trajectory still depreciating but BNR-managed (Reserves cover ~4 months imports per IMF Article IV). **Verify spot rate at signing.**
 - **Languages**: **Kinyarwanda** (universal national language), **English** (primary administrative + commercial language since 2008 switch from French), **French** (residual legal/older generation), **Swahili** (added as 4th official language 2017, used in EAC trade). Notarial deeds and the Land Registry operate in **English + Kinyarwanda**.
 - **Legal system**: Civil law (Belgian/French-derived) overlaid with extensive post-2003 reforms drawing on common-law commercial practice. Property transfers governed by **Law N° 27/2021 of 10/06/2021 governing land** (replacing 2013 Land Law) + **Law N° 28/2021 of 10/06/2021 governing land use and development planning**.
 - **Cadastre / land registry**: **Rwanda Land Management and Use Authority — RLMUA** (formerly RLMA — Rwanda Land Management Authority; rebranded 2021). Portal: `https://www.lands.rw/` and legacy `https://rlma.rw/`. Rwanda completed **systematic Land Tenure Regularisation (LTR) 2009–2013** under MINIRENA / DAI / DFID, demarcating **>10.4 M parcels** and issuing **8.8 M titles**. **Titling rate ~93 % (gender-equal)** — Rwanda is one of very few African countries with near-universal parcel-level digital cadastre. Land Administration Information System (LAIS, ESRI ArcGIS-based, version 4.0) operational; e-titles paperless from 2024.
@@ -331,7 +331,7 @@ PIT brackets (monthly employment income, post-Nov 2023):
 - **Limited liability company (Ltd)**: registered at **RDB Office of the Registrar General** via `https://br.rdb.rw/`; CIT 30 % standard / 15–25 % preferential rates per Investment Code 2021 (export, energy, holding co's).
 - **Investment certificate**: USD 250k+ investor → 3 work permits + residence permit + tax incentives via Investment Code 2021.
 - **Tax registration**: TIN automatic with company registration; VAT registration if turnover ≥ FRW 20 M/yr.
-- **Social security**: **RSSB** (Rwanda Social Security Board) — pension + medical insurance; combined ~13–17 % depending on employee/employer split.
+- **Social security**: **RSSB** (Rwanda Social Security Board) — pension + medical insurance; combined ~13–17 % (est.) depending on employee/employer split — verify current statutory split against RSSB published contribution schedule.
 
 ### Foreign worker visas — Directorate General of Immigration & Emigration (DGIE)
 
@@ -375,7 +375,7 @@ PIT brackets (monthly employment income, post-Nov 2023):
 - Mid-level (5+ yrs, urban): **FRW 1.0M–2.5M** (~USD 700–1,700)
 - Senior / management: **FRW 2.5M–6.0M+** (~USD 1,700–4,100+)
 - Skilled trades: **FRW 250k–800k**
-- (Stats SA-equivalent: NISR Labour Force Survey `https://www.statistics.gov.rw/` — releases biannual; absolute figures NOT systematically published per skill class; ranges above are aggregator estimates.)
+- (NISR Labour Force Survey `https://www.statistics.gov.rw/` — releases biannual; absolute figures NOT systematically published per skill class; ranges above are aggregator estimates.)
 
 ⚠️ **Caveat**: Rwanda has no published wage statistics at the granularity of EU LFS; salary bands are recruiter-aggregator estimates.
 
@@ -474,7 +474,7 @@ Rwanda's mains-utility coverage in **urban Kigali is exceptional for sub-Saharan
 - **Water**: **occasional supply interruptions** in dry-season peaks (Jun–Sep) at high-elevation districts (Kacyiru, Nyarutarama hilltops); most premium properties have **header tanks** as standard.
 - **Generators / backup**: standard for premium properties + most office buildings; budget USD 1,500–10,000 for residential 5–10 kVA inverter+battery+solar combo (verify 2025 prices via local installer).
 
-### Costs (2024–2025 ranges, ZAR-equivalent in USD)
+### Costs (2024–2025 ranges, USD est.)
 
 | Scenario | Cost (USD est.) |
 |---|---:|

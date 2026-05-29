@@ -66,7 +66,7 @@ The fast track for wealthy foreign buyers. Granted by the Chief Minister on Loca
 
 **Pre-2023 HVRs**: those granted consent pre-14 Jul 2023 retain their original regime (minimum tax £145 k, raised to £170 k from 2023) unless they elect the new regime. Pre-2018 consents have separate transitional terms. `Verify the precise transitional figures directly at gov.je HVR tax page — historic numbers not exposed via current page extract.` (Source: [gov.je HVR tax information](https://www.gov.je/TaxesMoney/IncomeTax/Technical/Guidelines/pages/taxinformationhighvalueresidents.aspx))
 
-**About 260 families** currently live in Jersey via HVR/2(1)(e) since the 1970s (per gov.je HVR page; programme open).
+**About 260 families** live in Jersey via HVR/2(1)(e) since the 1970s (per gov.je HVR page; as-of year not exposed via current page extract — verify the current cumulative count at gov.je; programme open).
 
 ### Other routes (compressed)
 
@@ -319,7 +319,7 @@ Jersey has a small bank-branch retail market, dominated by Channel-Islands-licen
 - **Coastal flooding** — south coast (St Helier waterfront, La Collette reclamation, Havre des Pas, Gorey) at risk from storm surge + sea-level rise. North coast (St John, Trinity) higher cliffs → much lower coastal exposure.
 - **Fluvial flooding** — limited (small island, short watercourses); pluvial / surface-water flooding is the bigger pinch point in St Helier urban core during intense rainfall events
 - **Primary source**: [gov.je Flood maps / Strategic Flood Map](https://www.gov.je/Environment/ProtectingEnvironment/CoastalDefences/Pages/index.aspx) and parish-level [Island Plan 2022](https://www.gov.je/Planning/IslandPlanning/Pages/IslandPlan.aspx) — `verify the parcel-level flood overlay at the Planning Department before exchange`
-- **Sea-level rise projection (gov.je published)**: ~30 cm by 2050 under mid-range scenarios — `verify exact 2026 projection at gov.je environment pages`
+- **Sea-level rise projection (gov.je published)**: ~30 cm by 2050 under mid-range scenarios (assessment year not exposed via current page extract — `verify the source-document year and exact 2026 projection at gov.je environment pages`)
 
 ### Coastal erosion
 
@@ -454,8 +454,8 @@ See [`shared/visa-programs.md`](../../shared/visa-programs.md) for the cross-jur
 | Conveyancing — freehold purchase | 2,500–6,000 |
 | Conveyancing — share transfer | 1,500–3,500 |
 | Pre-purchase building survey | 800–1,800 |
-| Stamp Duty on £750k main residence | ~£17,790 (computed at LTT bands + £90) |
-| Stamp Duty on £1.5m main residence | ~£45,790 (computed) |
+| Stamp Duty on £750k main residence | **£15,590** (standard-rate bands: 250 + 3,750 + 4,000 + 6,000 + 50k×3%=1,500 = 15,500 + £90) |
+| Stamp Duty on £1.5m main residence | **£45,590** (standard-rate bands: 15,500 + 300k×3%=9,000 + 500k×4.5%=22,500 = 45,500 + £90) |
 | Stamp Duty on £3.5m HVR house (main residence, standard-rate) | **~£198,090 est.** (band-by-band — see worked example below) |
 | Rented-dwellings licence application | Verify at gov.je rented-dwellings page |
 | Parish rates (mid-market home, combined Foncier+Occupier+Island-wide) | ~£500–£2,500/yr est. (per parish — verify with parish secretariat) |

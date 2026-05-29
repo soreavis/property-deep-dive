@@ -205,7 +205,7 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 
 ### Long-term residential
 
-- **Individual landlord**: rental income taxed at **14 % flat PIT** (Tax Code Art. 101) — declared annually via personal income return at State Tax Service (Vergilər Nazirliyi)
+- **Individual landlord**: residential rental income taxed at **14 %** (2024–2025) → **reduced to 10 % from 1 Jan 2026** (Tax Code Art. 101; APA 2026-budget-package reporting / Caspian Legal Center 2026 amendments — cross-check final text). PIT is progressive in general (see `--tax`); this is the residential-rental-specific rate. Declared annually via personal income return at State Tax Service (Vergilər Nazirliyi)
 - **Tenant-side withholding**: if tenant is a legal entity, **14 % WHT at source** is the standard practice (Art. 124); no further declaration if WHT applied
 - **Foreign / non-resident landlord**: same 14 % flat PIT; foreign-source-of-funds declaration may be required for AML
 - **Contract registration**: not strictly mandatory for residential leases but increasingly enforced via SCSI for tax compliance — verify per case
@@ -717,7 +717,7 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 ### Tax position for retirees
 
 - **Foreign-source pension income**: typically taxed at **14 % flat PIT** if AZ-resident (Tax Code Art. 101); double-tax treaties (with Türkiye, Russia, Germany, Italy, France, UK, Netherlands, Switzerland, China, Japan, S. Korea — verify per source country) may credit/exempt
-- **No CGT after 3-yr primary-residence holding** (Tax Code Art. 102 — verify current scope)
+- **Individual-seller property gains** are settled via a notary-withheld per-m² simplified property-transfer tax, **not** a CGT-on-gain. The previously claimed 3-yr primary-residence exemption under Art. 102.1.18 is **NOT corroborated — data not publicly verified** (treat as fabricated pending direct Tax Code check; see `--tax`) — verify at taxes.gov.az
 - **No wealth tax**; **no inheritance tax** (Tax Code does not levy estate/inheritance tax — verify intra-family donation treatment)
 
 ### Healthcare access
@@ -760,7 +760,7 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 
 ### Tax position
 
-- **PIT 14 % flat** if AZ tax resident (183+ days)
+- **PIT progressive**: 14 % up to AZN 2,500/month, then AZN 350 + 25 % above (Tax Code Art. 101; see `--tax`) if AZ tax resident (183+ days)
 - **Simplified Tax 2 %** on turnover for sole proprietors with qualifying activity
 - **YTP residents**: significant CIT/VAT incentives if eligibility met
 - Foreign-employer remote work: technically subject to AZ PIT once tax-resident; double-tax treaty network covers most Western source countries
@@ -1072,7 +1072,7 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Primary sources verified — SCSI cadastre + Land Code Art. 47–48 (foreign ag/border ban), Civil Code Art. 152 (mandatory notary), Tax Code Art. 101 (14 % flat PIT), Art. 102 (CGT 3-yr primary-residence exemption), Art. 164.1.5 (0 % VAT first-sale residential), Art. 173 (18 % standard VAT), Art. 196–202 (m²-based property tax with 30 m² exempt floor + AZN 0.4/m² Baku band + 0.6 % above 120 m²), Art. 218–222 (Simplified Tax 2 % turnover), Constitution Art. 13 + 53 (foreign rights + dual-citizenship restriction), CBAR de-facto USD peg at 1.70 since 2017, AMF subsidised mortgage 5–9 %, real-estate-linked TRP at AZN 100,000, Cabinet Decree 1146/2017 (STR classification), Law 767-IIIQ/2009 (AML), Law 270-IIIQ/2004 (Real Estate State Register), AzDTN 2.4-1 seismic code 2010, Hague Apostille (AZ joined 2004). **Karabakh + East Zangezur reintegrated zones explicitly OUT-OF-SCOPE for ordinary foreign-buyer DD as of 2026**: ANAMA de-mining ongoing, special tax/residence regime, AZ-citizen-priority subsidies, former de-facto authority documents not recognised — flagged in Caveats and Visa/Risks sections. **No CBI exists** (verify against ENDED registry — never had one). **Re-verify each annual budget law (December)** for Tax Code amendments, Tariff Council utility-rate adjustments, CBAR refinancing rate, AMF mortgage programme caps. **Watch list 2026**: non-oil PIT 0 % up to AZN 8k/month 7-year incentive sunset (originally 2026), AZN/USD peg under sustained oil-price stress, Karabakh reconstruction-zone foreign-investor rules evolution, COP29-signalled green-investment incentive rollout, Western Zangezur Corridor outcome, Iran border tensions, EU Eastern Partnership AML harmonisation milestones.
+**Notes**: Primary sources verified — SCSI cadastre + Land Code Art. 47–48 (foreign ag/border ban), Civil Code Art. 152 (mandatory notary), Tax Code Art. 101 (14 % flat PIT), Art. 102 (CGT — 3-yr primary-residence exemption claim UNVERIFIED, see `--tax`), Art. 164.1.5 (0 % VAT first-sale residential), Art. 173 (18 % standard VAT), Art. 196–202 (m²-based property tax with 30 m² exempt floor + AZN 0.4/m² Baku band + 0.6 % above 120 m²), Art. 218–222 (Simplified Tax 2 % turnover), Constitution Art. 13 + 53 (foreign rights + dual-citizenship restriction), CBAR de-facto USD peg at 1.70 since 2017, AMF subsidised mortgage 5–9 %, real-estate-linked TRP at AZN 100,000, Cabinet Decree 1146/2017 (STR classification), Law 767-IIIQ/2009 (AML), Law 270-IIIQ/2004 (Real Estate State Register), AzDTN 2.4-1 seismic code 2010, Hague Apostille (AZ joined 2004). **Karabakh + East Zangezur reintegrated zones explicitly OUT-OF-SCOPE for ordinary foreign-buyer DD as of 2026**: ANAMA de-mining ongoing, special tax/residence regime, AZ-citizen-priority subsidies, former de-facto authority documents not recognised — flagged in Caveats and Visa/Risks sections. **No CBI exists** (verify against ENDED registry — never had one). **Re-verify each annual budget law (December)** for Tax Code amendments, Tariff Council utility-rate adjustments, CBAR refinancing rate, AMF mortgage programme caps. **Watch list 2026**: non-oil PIT 0 % up to AZN 8k/month 7-year incentive sunset (originally 2026), AZN/USD peg under sustained oil-price stress, Karabakh reconstruction-zone foreign-investor rules evolution, COP29-signalled green-investment incentive rollout, Western Zangezur Corridor outcome, Iran border tensions, EU Eastern Partnership AML harmonisation milestones.
 
 ## Extension TODOs (deepen on first real run)
 

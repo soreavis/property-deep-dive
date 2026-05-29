@@ -118,7 +118,7 @@ Governed by **Ley 18-88** (as amended) + **DGII Norma 06-2017** + annual indexat
 
 - **Rate**: **1 %** on the portion of the **aggregate registered value of all real estate held by an individual** that **exceeds the exemption threshold**.
 - **Exemption threshold (2026)**: **DOP 10,695,494** per individual owner aggregate (DGII Resolución **DG-AR1-2026-00001**, annual indexation per Ley 18-88 art. 2 as amended by Ley 253-12 art. 14 — verify current-year figure at `https://www.dgii.gov.do/` under "IPI"). Approx. **USD 182,206** at Jan-2026 FX. (Prior 2025 threshold was DOP 9,860,649) (2026-05-27 verified, source DGII Resolución DG-AR1-2026-00001).
-- **Tax base**: DGII appraisal value (`Avalúo Catastral`), **NOT market price**. Avalúo typically lags market 30-50 % for prime tourist zones; updated periodically per DGII resolution (commonly 5-yr cycle, but cycle variable — verify).
+- **Tax base**: DGII appraisal value (`Avalúo Catastral`), **NOT market price**. Avalúo lags market ~30-50 % in prime tourist zones (est., based on observed DGII appraisal-vs-listing spreads — verify per parcel by requesting the seller's Avalúo Catastral); updated periodically per DGII resolution (commonly 5-yr cycle, but cycle variable — verify).
 - **Filed annually**, paid in **two semestres** (typically **11 March + 11 September** per DGII annual calendar — verify exact year-specific date at https://dgii.gov.do/).
 - **Primary residence**: same threshold applies; no separate primary-residence exemption beyond the DOP 10.7M floor, BUT individuals **65+ owning a single property held ≥ 15 years** receive total IPI exemption (Ley 18-88 art. 2).
 - **Held in SA / SRL**: **1 % on full value (no threshold)** — the per-individual threshold doesn't transfer to corporate holders; this changes the math significantly above the threshold.
@@ -187,7 +187,7 @@ For property in a CONFOTUR-registered project under **Ley 158-01 + 195-13**:
 
 ### Long-term residential rentals
 
-Governed by **Ley 4314 + Ley 17-88** + **Reglamento del Inquilinato**. Standard 1-2 yr contracts; **security deposit held by Banco Agrícola** (mandatory state escrow under Ley 4314) — 2 months typical. Tenant protection moderate; **eviction (`desahucio`) is judicial and slow (6-18 months not uncommon)**.
+Governed by **Ley 4314 + Ley 17-88** + **Reglamento del Inquilinato**. Standard 1-2 yr contracts; **security deposit held by Banco Agrícola** (mandatory state escrow under Ley 4314) — 2 months typical. Tenant protection moderate; **eviction (`desahucio`) is judicial and slow — ~6-18 months is commonly reported by DR practitioners (est.; verify with a local abogado for the specific tribunal)**.
 
 ### Long-term rental tax (resident landlord)
 
@@ -268,7 +268,7 @@ Regulatory status (verified 2026-04):
 - **Season**: **Jun 1 – Nov 30**, peak **Aug-Oct**.
 - **Historical reference**: **David 1979** (catastrophic, baseline for code revisions); **Georges 1998** (full-island traverse, drove tightening); **Jeanne 2004** (north-coast flooding); **Maria 2017** (passed N, rainfall + surge); **Fiona 2022** (Cat 1 landfall east coast Sep-2022, tested resort infrastructure).
 - **Implication**: post-2008 resort-grade builds meet stronger code; pre-2000 non-resort builds often do not.
-- **Insurance**: hurricane peril bundled with all-risk fire; CAT deductibles 2-5 % of sum insured; rates ~0.25-0.6 % of insured value/yr est. (Superintendencia de Seguros `https://superseguros.gob.do/`).
+- **Insurance**: hurricane peril bundled with all-risk fire; CAT deductibles ~2-5 % of sum insured (est., market-typical — verify in the specific carrier's póliza); rates ~0.25-0.6 % of insured value/yr est. (Superintendencia de Seguros `https://superseguros.gob.do/`).
 
 ### Flood
 
@@ -406,7 +406,7 @@ URL hubs: `https://caasd.gob.do/`, `https://corasaan.gob.do/`, `https://inapa.go
 
 ### Residency / citizenship
 
-- **Residencia por Inversión** (Ley 171-07 + reglamento Migración) — minimum **USD 200,000** invested in real estate (or other DGII-recognised vehicles); **fast-track to permanent residency in 6 months**, citizenship eligibility in **2-3 years** vs standard 7.
+- **Residencia por Inversión** (Ley 285-04 migration framework + reglamento Migración; Ley 171-07 supplies the 50 % domestic-tax-discount overlay) — minimum **USD 200,000** invested in real estate (or other DGII-recognised vehicles); **fast-track to permanent residency in 6 months**, citizenship eligibility in **2-3 years** vs standard 7.
 - **Pensionado**: USD **1,500/month** lifetime pension → residency.
 - **Rentista**: USD **2,000/month** stable income from non-DR sources → residency.
 - **One-day-per-year physical presence** sufficient to maintain residency once granted.

@@ -106,15 +106,15 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 
 #### Typical bills
 
-- Tallinn 100m² apt with land share: **€100–€500/yr**
-- Tartu single-family with 1,000m² plot: **€200–€600/yr**
-- Pärnu coastal villa with 2,000m² plot: **€500–€1,500/yr**
+- Tallinn 100m² apt with land share: **~€100–€500/yr** (est. — depends on municipality rate within the 0.1–1% band above × assessed land value; confirm on the EMTA maamaks notice)
+- Tartu single-family with 1,000m² plot: **~€200–€600/yr** (est.)
+- Pärnu coastal villa with 2,000m² plot: **~€500–€1,500/yr** (est.)
 
 ### Transaction taxes
 
 - **NO transfer tax** (UNIQUE in EU)
-- **Notary fee scale**: €100–€500 depending on price
-- **Land Register fee**: €20–€80
+- **Notary fee scale**: ~€100–€500 depending on price (est. range — confirm exact fee against the statutory notary tariff at the e-Notar / notary quote stage)
+- **Land Register fee**: ~€20–€80 (est. — confirm against current statutory land-register fee)
 - **e-Notar digital signing**: same fee scale
 
 ### VAT (käibemaks)
@@ -178,8 +178,8 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 ### Self-employment
 
 - **FIE (Füüsilisest isikust ettevõtja)** = sole trader
-- **OÜ (Osaühing)** = limited; **min €2,500 capital** but pay-when-distributed
-- **Käibemaksu** registration: from €40,000 turnover
+- **OÜ (Osaühing)** = limited; **min €2,500 capital** (statutory — verify current threshold in Äriseadustik) but pay-when-distributed
+- **Käibemaksu** registration: from €40,000 turnover (statutory threshold — verify current value with EMTA / Käibemaksuseadus)
 - **e-Residency** program for non-residents
 
 ### Salary benchmarks (2025)
@@ -236,8 +236,8 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Climate change projections
 
-- **+2.0–3.5°C** by 2100
-- **Baltic sea-level rise**: +20–50 cm by 2100 (Pärnu, Saaremaa, Hiiumaa)
+- **est. +2.0–3.5°C** by 2100 (climate-model projection — verify against Keskkonnaagentuur climate scenarios / IPCC RCP figures, source list above)
+- **Baltic sea-level rise**: est. +20–50 cm by 2100 (Pärnu, Saaremaa, Hiiumaa) (climate-model projection — verify against Keskkonnaagentuur / IPCC scenarios)
 - **Increased winter rainfall** + reduced winter snow
 - **More extreme storms**
 
@@ -253,15 +253,19 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Costs
 
+Indicative installer/connection ranges (est. — confirm with a current utility tariff or installer quote):
+
 | Scenario | Cost (€) |
 |---|---:|
-| Mains connection (Tallinn) | €3,000–€8,000 |
-| Septic / individual treatment | €4,000–€10,000 |
-| Bored well | €5,000–€12,000 |
+| Mains connection (Tallinn) | ~€3,000–€8,000 (est.) |
+| Septic / individual treatment | ~€4,000–€10,000 (est.) |
+| Bored well | ~€5,000–€12,000 (est.) |
 
 ---
 
 ## Cost benchmarks (EE 2026)
+
+Statutory fees as noted; all construction/retrofit figures are **est. indicative ranges** (contractor quote bands — verify on quote):
 
 | Work | Cost (€) |
 |---|---:|

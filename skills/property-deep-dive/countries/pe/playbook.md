@@ -272,8 +272,8 @@ Per **Ley del Impuesto a la Renta — Decreto Supremo 179-2004-EF** (TUO LIR) ar
 
 ### Strategic notes
 
-- **Long-term yields**: 4–7 % gross typical for Lima coastal distritos (Miraflores, San Isidro, Barranco, Surco); 5–8 % in middle distritos (Jesús María, Pueblo Libre, San Miguel); higher (8–10 %) in lower-priced Lima Norte/Este but tenant-quality risk rises.
-- **STR yields**: 6–12 % gross in Miraflores/Barranco/San Isidro premium units (pre-restrictions, USD-denominated tourist demand); **net yields after IGV / IR / arbitrios / mantenimiento + Reglamento Interno HOA prohibition risk often half of gross**.
+- **Long-term yields** (est., unsourced indicative bands — derive your own from BCRP/INEI mediana $/m² ÷ scraped asking rents on Adondevivir/Urbania before underwriting): ~4–7 % gross for Lima coastal distritos (Miraflores, San Isidro, Barranco, Surco); ~5–8 % in middle distritos (Jesús María, Pueblo Libre, San Miguel); higher (~8–10 %) in lower-priced Lima Norte/Este but tenant-quality risk rises.
+- **STR yields** (est., unsourced indicative — depends on ADR + occupancy you model; build your own from comparable Airbnb/Booking listings): ~6–12 % gross in Miraflores/Barranco/San Isidro premium units (pre-restrictions, USD-denominated tourist demand); **net yields after IGV / IR / arbitrios / mantenimiento + Reglamento Interno HOA prohibition risk can run roughly half of gross (est.)**.
 - **Régimen de Propiedad Exclusiva y Común (Ley 27157 + DS 008-2000-MTC)**: junta de propietarios assemblea binding; **Reglamento Interno can prohibit STR** independent of municipal rules. Always read the Reglamento del edificio before buying for STR.
 - **Cuotas de mantenimiento (HOA)**: 0.3-1.0 % of value/yr typical; arrears attach to the unit in some interpretations — request **estado de cuenta** from administrador before signing.
 
@@ -308,8 +308,8 @@ Per **Ley del Impuesto a la Renta — Decreto Supremo 179-2004-EF** (TUO LIR) ar
 
 - **Remuneración Mínima Vital (RMV)**: **PEN 1,025/mes** desde 2022-05 (Decreto Supremo 003-2022-TR) → updated to **PEN 1,130/mes** desde 2025-01 (DS 006-2024-TR, vigente 1 Ene 2025; adjustments are ad-hoc DS, no fixed cadence).
 - **Median formal monthly wage (INEI ENAHO)**: ~PEN 1,500–2,000 nationally; Lima Metro ~PEN 2,500–3,500; Lima Top 25 % distritos ~PEN 5,000+. Verify at INEI ENAHO síntesis estadística.
-- **Professional tech / fintech Lima** (English-fluent): PEN 6,000–20,000/mes (~USD 1,600–5,400) typical.
-- **Mining / oil & gas senior roles**: PEN 15,000–40,000/mes — concentrated Lima HQ + remote sites (rotational).
+- **Professional tech / fintech Lima** (English-fluent): ~PEN 6,000–20,000/mes (~USD 1,600–5,400) est. — listing-derived indicative band, no published source; cross-check at a salary aggregator (Bumeran / Computrabajo / LinkedIn Salary).
+- **Mining / oil & gas senior roles**: ~PEN 15,000–40,000/mes est. (unsourced indicative; materially above the median) — concentrated Lima HQ + remote sites (rotational).
 
 ### Catchment heuristics
 
@@ -851,7 +851,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 
 ### Key remote-work realities
 
-- **Internet**: Lima coastal distritos have high-quality fibra (Movistar, Claro, Win) — 200 Mbps-1 Gbps PEN 80-180/mo. Provincial Tier-2 cities reasonable; rural patchy.
+- **Internet**: Lima coastal distritos have high-quality fibra (Movistar, Claro, Win) — 200 Mbps-1 Gbps ~PEN 80-180/mo (est., 2025 provider plans — verify current). Provincial Tier-2 cities reasonable; rural patchy.
 - **Coworking density**: Miraflores + Barranco + San Isidro highest (Selina, WeWork legacy / replaced by local brands, Comunal Coworking, Worx, Wayra).
 - **Time zones**: PE = GMT-5 (no DST) — aligned with US Eastern (winter) / overlap with US/CA workdays.
 - **Tax**: tourist visa <183 days = non-domiciliado; income from foreign employer NOT taxed in Peru if earned + paid abroad (subject to convenio CDI rules).
@@ -879,7 +879,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 - **Unemployment (urbano)**: ~6-7 % INEI ENAHO; informal employment ~70 %.
 - **PEN/USD**: ~3.50-3.85 range Q4 2025.
 - **Soberano risk (EMBI+ Peru)**: ~150-200 bps over US Treasury (verify daily).
-- **Sovereign credit rating**: BBB- (S&P, Fitch) — investment grade; downgraded from BBB during 2022-23 political turmoil; outlook stable.
+- **Sovereign credit rating**: BBB- (S&P, Fitch; as of Q4 2025 — verify current at agency / BCRP) — investment grade; downgraded from BBB during 2022-23 political turmoil; outlook stable.
 
 ### Long-term drivers
 

@@ -8,7 +8,7 @@
 
 ## Country profile
 
-Latvia is the middle Baltic state (~1.85M pop). **Cadastre and Land Book are SEPARATE registers** (unlike Lithuania's unified Registrų centras) — VZD = physical/fiscal description; Zemesgrāmata = legal title. Both must be checked. Riga apartment €/m² is structurally lower than Vilnius (~€865 standard segment vs €2,930 Vilnius) — slower post-2008 recovery + supply mix dominated by Soviet "khrushchyovkas". Critical Latvia-specific gotcha: **compulsory land lease (dalītais īpašums)** — many Soviet-era blocks in Riga have apartments owned separately from underlying land (often pre-1940 owner via restitution). EU + eurozone + Schengen. Major 2026 reforms: PIT to 25.5%/33% + capital-income to 25.5% (was 20%).
+Latvia is the middle Baltic state (~1.85M pop). **Cadastre and Land Book are SEPARATE registers** (unlike Lithuania's unified Registrų centras) — VZD = physical/fiscal description; Zemesgrāmata = legal title. Both must be checked. Riga apartment €/m² is structurally lower than Vilnius (~€865 standard segment vs ~€2,930 est. Vilnius) — slower post-2008 recovery + supply mix dominated by Soviet "khrushchyovkas". Critical Latvia-specific gotcha: **compulsory land lease (dalītais īpašums)** — many Soviet-era blocks in Riga have apartments owned separately from underlying land (often pre-1940 owner via restitution). EU + eurozone + Schengen. Major 2026 reforms: PIT to 25.5%/33% + capital-income to 25.5% (was 20%).
 
 ---
 
@@ -151,7 +151,7 @@ Riga financial-services hub (post-2018 ABLV scandal still recovering); Daugavpil
   - Two types: **Temporary** (new builds / post-reconstruction → 3-year validity); **Permanent** (≥1 year occupied → 10-year validity)
   - Public registry: https://bis.gov.lv/bisp/lv/epc_documents
   - Reform: **New methodology effective 15 Aug 2025** under regulation 322436. https://likumi.lv/ta/id/322436
-- **Radon**: Latvian household survey median 52 Bq/m³ (95.6% below national reference 200 Bq/m³). **Rauna municipality** highest at 352 Bq/m³ (Vidzeme uplands hot-spot). **No mandatory pre-sale radon test**
+- **Radon**: national reference level **200 Bq/m³** (regulatory threshold). Reported household-survey readings — median ~52 Bq/m³ (~95.6% est. below the reference), with **Rauna municipality** an est. high ~352 Bq/m³ (Vidzeme uplands hot-spot) — are est. and **unverified to a named survey** (confirm against the LVĢMC / SPKC radon survey before relying on the figures). **No mandatory pre-sale radon test**
 - **Asbestos**: no mandatory pre-sale survey. Soviet-era blocks common; assume risk in 1960s-80s buildings
 
 ---
@@ -239,7 +239,7 @@ Universal — see `shared/climate-projections.md`.
   - Cross-reference: https://www.mfa.gov.lv/en/sanctions
   - LV has explicit purchase prohibitions in force (harder than LT, which relies on residency/AML chokepoints)
 - **Border-zone**: properties in border zones / national-defense areas need MoD or local authority permit. Affects Latgale (E border with RU/BY) and parts of Baltic coast
-- **Investor residence permit (Golden Visa equivalent)** — **Active programme (2026)**: RE investment ≥€250,000 + 5% state-budget contribution, NOT counting agricultural/forest land. 5-year hold; annual ID-card renewal; no minimum physical presence. **201 approvals in 2025 (up from 149 in 2024, +35% YoY)** — no 2026 suspension. Governed by **Imigrācijas likums**. Russian/Belarusian-applicant restriction the only narrowing. Verify current criteria at PMLP: https://www.pmlp.gov.lv/ (2026-05-27 verified)
+- **Investor residence permit (Golden Visa equivalent)** — **Active programme (2026)**: RE investment ≥€250,000 + 5% state-budget contribution, NOT counting agricultural/forest land. 5-year hold; annual ID-card renewal; no minimum physical presence. **~201 approvals in 2025 (up from ~149 in 2024, ≈+35% YoY — est. from PMLP figures; counts not sourced to a named PMLP statistics report)** — no 2026 suspension. Governed by **Imigrācijas likums**. Russian/Belarusian-applicant restriction the only narrowing. Verify current criteria and the exact approval counts in the PMLP statistics report: https://www.pmlp.gov.lv/ (2026-05-27 verified)
 
 ---
 
