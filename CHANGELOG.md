@@ -77,7 +77,27 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- docs: prose count cascade 103/109 → 113 (12 sites) ([#200](https://github.com/soreavis/property-deep-dive/pull/200)) — by @soreavis
+- docs: refresh install.md release-tag refs 2026.05.1 → 2026.05.59 (6 sites) ([#201](https://github.com/soreavis/property-deep-dive/pull/201)) — by @soreavis
 - **ROADMAP refresh — backlog declared exhausted** (post-`/maintain` session 2026-05-27). The doc had multiple stale "queued" / "🟢 TIER-1 candidate" markers describing work that already shipped: the `--renovation` / `--property-management` / `--surveyor` Tier-1 NEW sections (shipped in PRs #154/#153/#155 on 2026-05-15) plus the 5 additional NEW sections from gap-#4/#5 waves (`--inherited-noncompliance` / `--squatter` / `--latent-defect` / `--title-monitoring` / `--seller-withholding` sub-extension); the Batch C Phase B (NL Caribbean `aw`/`cw`/`sx`/`bq` standalone) + Phase C (FR DROM overlay `gp`/`mq`/`gf`/`re`/`yt`) which shipped same-day in PR #186 on 2026-05-27 morning; the SXM developer-fund-opacity gap (now covered by the `sx` playbook); the JP municipality foreign-buyer-justification gating patch (closed UNVERIFIED in #169 per the anti-hallucination contract with universal 国土利用計画法 + 農地法 §3 added instead); the CY expat-targeted scam patterns (now in the CY `--scams` overlay). The doc now opens with an explicit "Status: backlog exhausted" callout; the NEW sections table marks all 7 lines as shipped with PR + date stamps; the Batch C table changes "queued" → "✅ Shipped 2026-05-27 (#186)"; the 3 country-specific patches change from open `🟠` to closed `✅`; a 2026-05-27-evening decision-log entry captures the steady state ("10 Tier-1 NEW sections + 11 sub-section extensions + 1 cross-cutting overlay + Batch A/B/C + TCO additions + url-liveness Python rewrite + 113-country validation sweep all shipped"). Future work returns to normal `--update` cadence via the tier-refresh + regulatory-watch + feed-watcher + health-report workflows. No version bump (drift cleanup).
+- docs: ROADMAP refresh — backlog declared exhausted (post-validation-sweep) ([#202](https://github.com/soreavis/property-deep-dive/pull/202)) — by @soreavis
+- fix(verify-needed): cleanup 4 inline markers (IT/KZ/AE/FO) — 3 anti-hallucination catches ([#203](https://github.com/soreavis/property-deep-dive/pull/203)) — by @soreavis
+- fix(es): 100% non-EU buyer gravamen — verified STALLED + caveat added ([#204](https://github.com/soreavis/property-deep-dive/pull/204)) — by @soreavis
+- docs: ROADMAP — queue Batch D (13 country candidates, 113 → 126) ([#206](https://github.com/soreavis/property-deep-dive/pull/206)) — by @soreavis
+- docs: ROADMAP — queue 16 feature candidates (sections + extensions + fold-ins + regwatch) ([#207](https://github.com/soreavis/property-deep-dive/pull/207)) — by @soreavis
+- docs: ROADMAP dedup country-specific patches (PR #202 follow-up) ([#205](https://github.com/soreavis/property-deep-dive/pull/205)) — by @soreavis
+- chore(maintain): doc-hygiene sweep — stale README counts + 2 broken playbook links ([#208](https://github.com/soreavis/property-deep-dive/pull/208)) — by @soreavis
+- docs(regwatch): ship 4 always-on regulatory-watch entries (verified, 2 corrections) ([#209](https://github.com/soreavis/property-deep-dive/pull/209)) — by @soreavis
+- docs(batch-d): Phase A schema decision — 4 UK OTs verified standalone (research + audit) ([#210](https://github.com/soreavis/property-deep-dive/pull/210)) — by @soreavis
+- feat(sanctions): add --sanctions, the 40th section (seller/UBO/PEP screening) ([#211](https://github.com/soreavis/property-deep-dive/pull/211)) — by @soreavis
+- feat(batch-d): Phase B — 8 Caribbean playbooks (113 → 121 countries) ([#212](https://github.com/soreavis/property-deep-dive/pull/212)) — by @soreavis
+- fix(batch-d): restore SKILL.md country matrix to 121 rows (matrix audit) ([#213](https://github.com/soreavis/property-deep-dive/pull/213)) — by @soreavis
+- feat(climate): forward + near-property-resolution projection layer ([#214](https://github.com/soreavis/property-deep-dive/pull/214)) — by @soreavis
+- feat(backfill): Batch D cross-cutting backfill Wave 1 (registry/fraud cluster) ([#215](https://github.com/soreavis/property-deep-dive/pull/215)) — by @soreavis
+- feat(backfill): Batch D cross-cutting backfill Wave 2 (finance/tax/transaction) ([#216](https://github.com/soreavis/property-deep-dive/pull/216)) — by @soreavis
+- feat(backfill): Batch D cross-cutting backfill Wave 3 — completes the backfill (28/28 sections) ([#217](https://github.com/soreavis/property-deep-dive/pull/217)) — by @soreavis
+- fix(connectivity): correct 2 doubled-path playbook cross-links (lychee CI) ([#219](https://github.com/soreavis/property-deep-dive/pull/219)) — by @soreavis
+- fix(playbooks): corpus-wide anti-hallucination consistency sweep (112 playbooks) ([#220](https://github.com/soreavis/property-deep-dive/pull/220)) — by @soreavis
 
 ### Fixed
 
