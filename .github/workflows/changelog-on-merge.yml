@@ -218,23 +218,67 @@ jobs:
           end = start + next_header.start() if next_header else len(text)
           block = text[start:end]
 
-          # Locate the bucket subheading inside the block. Subheading-with-suffix
-          # variants (e.g. "### Added — XX prep") count as the same bucket.
-          bucket_re = re.compile(rf'^### {re.escape(bucket)}\b.*$', re.MULTILINE)
-          m_bucket = bucket_re.search(block)
-          if m_bucket:
-              # Insert at end of bucket section: find next `### ` or end of block.
-              after = m_bucket.end()
-              next_sub = re.search(r'^### ', block[after:], re.MULTILINE)
-              insert_at = after + next_sub.start() if next_sub else len(block)
-              # Trim trailing whitespace before insertion point so list stays tight.
-              prefix = block[:insert_at].rstrip()
-              suffix = block[insert_at:]
-              new_block = f"{prefix}\n{line}\n\n{suffix.lstrip()}"
+          # Parse the [Unreleased] block into sub-sections keyed by their
+          # `### ` heading, MERGING any exact-duplicate sibling headings as we
+          # go, then re-emit with at most one heading per text. This is both
+          # the insert and a self-heal: the old string-slice insert always
+          # appended into the FIRST `### Changed` it found and created a brand-
+          # new one only when none existed — but if a same-text bucket later
+          # appeared above it (a release-cut `[Unreleased]`->`[x.y.z]` promotion
+          # restructuring the section, or a human edit), the branch ended up
+          # with two `### Changed` siblings under [Unreleased]. Two same-text
+          # siblings trip markdownlint MD024/no-duplicate-heading (siblings_only)
+          # and red the digest PR (caught 2026-06-01). Parsing + collapsing
+          # duplicates guarantees the new entry lands in the single canonical
+          # bucket and heals any duplicate already sitting on the branch.
+          block_lines = block.split('\n')
+          preamble = []
+          j = 0
+          while j < len(block_lines) and not block_lines[j].startswith('### '):
+              preamble.append(block_lines[j])
+              j += 1
+          order = []   # heading text, in first-seen order
+          bodies = {}  # heading text -> list of verbatim content chunks
+          while j < len(block_lines):
+              heading = block_lines[j].rstrip()
+              j += 1
+              content = []
+              while j < len(block_lines) and not block_lines[j].startswith('### '):
+                  content.append(block_lines[j])
+                  j += 1
+              chunk = '\n'.join(content).strip('\n')
+              if heading not in bodies:
+                  bodies[heading] = []
+                  order.append(heading)
+              if chunk:
+                  bodies[heading].append(chunk)
+
+          # Find the target bucket among the now-unique headings. A suffixed
+          # heading ("### Added — XX prep") counts as the same bucket, matching
+          # the prior behaviour. Exact-duplicate headings have already been
+          # merged above, so first-match is unambiguous.
+          bucket_re = re.compile(rf'^### {re.escape(bucket)}\b')
+          target = next((h for h in order if bucket_re.match(h)), None)
+          if target is not None:
+              bodies[target].append(line)
           else:
-              # Append a new bucket subheading at end of [Unreleased].
-              trimmed = block.rstrip()
-              new_block = f"{trimmed}\n\n### {bucket}\n\n{line}\n\n"
+              target = f"### {bucket}"
+              order.append(target)
+              bodies[target] = [line]
+
+          # Re-emit with canonical single-blank-line spacing. The block must
+          # start with a blank line (separating it from the `## [Unreleased]`
+          # header) and end with one (separating it from the next `## ` version
+          # header). Each section's content is preserved verbatim; only the
+          # whitespace AROUND sections is normalised.
+          parts = []
+          pre = '\n'.join(preamble).strip('\n')
+          if pre:
+              parts.append(pre)
+          for heading in order:
+              body = '\n\n'.join(bodies[heading])
+              parts.append(f"{heading}\n\n{body}" if body else heading)
+          new_block = '\n\n' + '\n\n'.join(parts) + '\n\n'
 
           new_text = text[:start] + new_block + text[end:]
           if new_text == text:
