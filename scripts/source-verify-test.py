@@ -61,7 +61,7 @@ def make_sv(**over):
         },
         "fetch": {
             "max_body_bytes": 600000, "excerpt_window_chars": 400, "max_excerpts_per_claim": 4,
-            "content_cache_ttl_days": 30,
+            "content_cache_ttl_days": 30, "min_text_chars": 200, "js_spa_hosts": ["elegislation.gov.hk"],
             "binary_content_prefixes": ["application/pdf", "image/"],
         },
         "sampling": {
@@ -214,10 +214,62 @@ class TestExcerptsAndPrior(unittest.TestCase):
             id="x", scope="fr", section="Tax", line_no=1, claim_text="rate 6.32%",
             values=[{"type": "pct", "raw": "6.32 %", "norm": "6.32 %", "needles": ["6.32"], "salient": True}],
             source_url="https://x.gov", source_host="x.gov", source_tier="primary-gov", inline_stamp=None)
-        fr_ok = SV.FetchResult("https://x.gov", "OK", text="the page mentions 5.81 % only, never the claimed figure")
+        fr_ok = SV.FetchResult("https://x.gov", "OK", text=(
+            "The official gazette page sets out the schedule of property-tax rates, transfer-duty "
+            "thresholds, and exemptions applicable under the 2025 finance law across all departments "
+            "and regions; in one table column it mentions 5.81 % only, and it never states the claimed "
+            "figure anywhere in the surrounding body text or the annex."))
         prior = SV.build_prior(claim, fr_ok, sv)
         self.assertEqual(prior["prior"], "TOKENS_ABSENT")
         self.assertIn("6.32", prior["missing_tokens"])
+
+    def test_thin_body_is_indeterminate_not_absent(self):
+        # An OK page that rendered almost no text (JS-SPA shell) with no match must be
+        # SOURCE_UNAVAILABLE (page unreadable), NOT a false TOKENS_ABSENT.
+        sv = make_sv()
+        claim = SV.ClaimRecord(
+            id="x", scope="hk", section="Notary", line_no=1, claim_text="Cap. 344",
+            values=[{"type": "statute", "raw": "Cap. 344", "norm": "Cap. 344", "needles": ["344"], "salient": True}],
+            source_url="https://x.gov", source_host="x.gov", source_tier="primary-gov", inline_stamp=None)
+        fr = SV.FetchResult("https://x.gov", "OK", text="   loading…   ")  # empty shell, < min_text_chars
+        prior = SV.build_prior(claim, fr, sv)
+        self.assertEqual(prior["prior"], "SOURCE_UNAVAILABLE")
+
+    def test_thin_body_with_match_still_present(self):
+        # A short page that DOES contain the figure is not downgraded.
+        sv = make_sv()
+        claim = SV.ClaimRecord(
+            id="x", scope="hk", section="Notary", line_no=1, claim_text="Cap. 344",
+            values=[{"type": "statute", "raw": "Cap. 344", "norm": "Cap. 344", "needles": ["344"], "salient": True}],
+            source_url="https://x.gov", source_host="x.gov", source_tier="primary-gov", inline_stamp=None)
+        fr = SV.FetchResult("https://x.gov", "OK", text="Building Management Ordinance Cap. 344")
+        prior = SV.build_prior(claim, fr, sv)
+        self.assertIn(prior["prior"], ("TOKENS_PRESENT", "WEAK_MATCH"))
+
+    def test_js_spa_host_indeterminate_even_if_not_thin(self):
+        # A known JS-SPA host (elegislation.gov.hk) with a long shell + no match →
+        # SOURCE_UNAVAILABLE (host backstop, independent of body length).
+        sv = make_sv()
+        claim = SV.ClaimRecord(
+            id="x", scope="hk", section="Notary", line_no=1, claim_text="Cap. 344",
+            values=[{"type": "statute", "raw": "Cap. 344", "norm": "Cap. 344", "needles": ["999"], "salient": True}],
+            source_url="https://www.elegislation.gov.hk/hk/cap344", source_host="elegislation.gov.hk",
+            source_tier="primary-gov", inline_stamp=None)
+        fr = SV.FetchResult("https://www.elegislation.gov.hk/hk/cap344", "OK", text="navigation menu " * 40)
+        prior = SV.build_prior(claim, fr, sv)
+        self.assertEqual(prior["prior"], "SOURCE_UNAVAILABLE")
+
+    def test_long_body_no_match_still_absent(self):
+        # A real, full page that genuinely lacks the figure is STILL TOKENS_ABSENT —
+        # the fix must not suppress genuine misses.
+        sv = make_sv()
+        claim = SV.ClaimRecord(
+            id="x", scope="fr", section="Tax", line_no=1, claim_text="rate 6.32%",
+            values=[{"type": "pct", "raw": "6.32 %", "norm": "6.32 %", "needles": ["6.32"], "salient": True}],
+            source_url="https://x.gov", source_host="x.gov", source_tier="primary-gov", inline_stamp=None)
+        fr = SV.FetchResult("https://x.gov", "OK", text=("lorem ipsum dolor sit amet " * 30) + " the schedule lists 5.81 % only")
+        prior = SV.build_prior(claim, fr, sv)
+        self.assertEqual(prior["prior"], "TOKENS_ABSENT")
 
     def test_tokens_present_prior(self):
         sv = make_sv()

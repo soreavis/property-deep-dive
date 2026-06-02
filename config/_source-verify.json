@@ -25,6 +25,10 @@
     "excerpt_window_chars": 400,
     "max_excerpts_per_claim": 4,
     "content_cache_ttl_days": 30,
+    "min_text_chars": 200,
+    "_min_text_chars": "An OK (200) page whose CLEANED body has fewer than this many chars yielded no usable text — a JS-SPA / client-rendered shell or blocked stub. A zero-match fetch this thin is classified SOURCE_UNAVAILABLE (indeterminate), NOT TOKENS_ABSENT, so a CORRECT citation to a JS-rendered gov page isn't false-flagged as a missing figure. Conservative on the safe side: a tiny page erring to 'indeterminate' beats a false 'absent'.",
+    "js_spa_hosts": ["elegislation.gov.hk"],
+    "_js_spa_hosts": "Hosts known to be client-side-rendered (the no-JS fetcher gets an empty shell). A zero-match OK fetch from these is SOURCE_UNAVAILABLE regardless of body length — a backstop to min_text_chars for shells that exceed it. e.g. Hong Kong e-Legislation (the bulk of HK statute-citation false-positives).",
     "binary_content_prefixes": ["application/octet-stream", "application/zip", "image/", "audio/", "video/"]
   },
   "pdf": {

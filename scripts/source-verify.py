@@ -287,6 +287,14 @@ class SVConfig:
         return self.raw["fetch"]["max_excerpts_per_claim"]
 
     @property
+    def min_text_chars(self) -> int:
+        return self.raw["fetch"].get("min_text_chars", 200)
+
+    @property
+    def js_spa_hosts(self) -> list[str]:
+        return [h.lower() for h in self.raw["fetch"].get("js_spa_hosts", [])]
+
+    @property
     def content_ttl_days(self) -> int:
         return self.raw["fetch"]["content_cache_ttl_days"]
 
@@ -738,6 +746,18 @@ def build_prior(claim: ClaimRecord, fetch: FetchResult, sv: SVConfig) -> dict:
     missing = [n for n in salient_needles if n not in matched]
     strong_matched = [n for n in matched if _is_strong(n)]
     if not matched:
+        # An OK (200) page that yielded almost no readable text — a JS-SPA / client-
+        # rendered shell (e.g. elegislation.gov.hk) or a blocked stub — cannot support
+        # a TOKENS_ABSENT verdict: the page was never actually read, so "figure absent"
+        # would be a false positive on a CORRECT citation. Downgrade a zero-match OK
+        # fetch to SOURCE_UNAVAILABLE (indeterminate) when the host is a known JS-SPA
+        # or the cleaned body is too thin to hold content.
+        host = (urlparse(fetch.url).netloc or "").lower()
+        js_spa = any(host == h or host.endswith("." + h) for h in sv.js_spa_hosts)
+        if js_spa or len((fetch.text or "").strip()) < sv.min_text_chars:
+            why = "known JS-rendered host" if js_spa else f"thin body <{sv.min_text_chars} chars"
+            return {"prior": "SOURCE_UNAVAILABLE", "matched_tokens": [], "missing_tokens": salient_needles,
+                    "excerpts": [], "fetch_note": f"indeterminate ({why}) — page not readable, not a missing figure"}
         prior = "TOKENS_ABSENT"          # claimed figure literally not on the cited page — strongest signal
     elif strong_matched:
         prior = "TOKENS_PRESENT"         # a specific figure matched — hand to LLM with excerpt
