@@ -141,6 +141,9 @@ Paste any of these into Claude Code or Claude Cowork after installing:
 # Three-country side-by-side for retirees
 /property-deep-dive --compare=fr,it,pt --retirement
 
+# Reverse mode — which country fits? (constraints → ranked shortlist)
+/property-deep-dive --match --cohort=retiree --budget=300k --criteria=tax,climate,healthcare,visa
+
 # Greek heritage property for a foreign buyer
 /property-deep-dive Athens 10556 --type=heritage --journey=foreign-buyer
 
@@ -336,7 +339,7 @@ property-deep-dive/
 │   │   ├── broken-url.yml
 │   │   ├── new-country.yml
 │   │   └── regulatory-watch.yml
-│   └── workflows/  (29 in total — see CHANGELOG.md for the full set; selection below)
+│   └── workflows/  (31 in total — see CHANGELOG.md for the full set; selection below)
 │       ├── pr-validate.yml              # markdownlint + forbidden-phrasings + Last verified + density + arg-hint drift
 │       ├── source-tier-ratchet.yml      # advisory: primary-vs-aggregator URL ratio per changed playbook (sticky PR comment)
 │       ├── link-check.yml               # lychee internal links (PR + weekly schedule)
@@ -394,7 +397,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 193 markdown files, ~94,900 lines (SKILL.md + 65 top-level shared/ + 14 shared/exit/ region files + 121 country playbooks).
-**Repo total**: 215 markdown files, ~103,600 lines (skill content + community / governance files + CHANGELOG) · 37 YAML / JSON config files (29 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 216 markdown files, ~103,900 lines (skill content + community / governance files + CHANGELOG) · 39 YAML / JSON config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

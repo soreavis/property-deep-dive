@@ -426,6 +426,118 @@ When comparing, surface country-level structural flags:
 - **Date-stamp every cell** — comparison output must show "as of <playbook last-update>" per row
 - **Surface playbook confidence** — if any country has LOW confidence, flag it in the row
 
+## Reverse mode (`--match`)
+
+`--match` is `--compare` pointed **backwards**: instead of naming the countries and comparing them, the user states their **constraints** (cohort + budget + criteria) and the skill returns a **ranked shortlist of best-fit countries** from the supported corpus. It is an address-less **discovery mode**, not a per-address section — most buyers know their constraints, not their candidate countries.
+
+It reuses this file's precomputed verdict shortcuts + `config/_visa-programs.json` + the per-playbook values as the authoritative data layer — it never invents a score.
+
+### Invocation
+
+```
+/property-deep-dive --match --cohort=<type> [--budget=<amount>] --criteria=<list> [--top=N] [--region=<shortcut>] [--exclude=<iso2,...>] [--must=<hard-filter,...>]
+```
+
+Examples:
+
+- `--match --cohort=retiree --budget=300k --criteria=tax,climate,healthcare,visa --top=5`
+- `--match --cohort=investor --criteria=yield,acquisition-cost,annual-carry --region=eu --must=foreign-buyer-open`
+- `--match --cohort=digital-nomad --budget=150k --criteria=connectivity,visa,tax,cost-of-living`
+
+`--top` defaults to **5**. `--region` reuses the comparison-set shortcuts above. The Skip-list (sanctions/conflict states etc.) is always excluded.
+
+### Cohorts + default weight vectors
+
+Cohorts map to existing overlays (no new data). Weights are the cohort default when the user doesn't override; **always shown in the output** (the weighting is the most opinion-laden part — never hide it).
+
+| Cohort | Default weights (sum 100) |
+|---|---|
+| `retiree` | health 25 · tax 20 · climate 20 · cost-of-living 15 · visa 15 · safety 5 |
+| `digital-nomad` | visa 25 · connectivity 20 · tax 20 · cost-of-living 20 · health 15 |
+| `investor` | yield 35 · acquisition-cost 20 · annual-carry 15 · exit/CGT 15 · fx 15 |
+| `family` | schools 30 · safety 25 · health 20 · cost-of-living 15 · climate 10 |
+| `foreign-buyer` | foreign-buyer-access 25 · acquisition-cost 20 · closing/remote 20 · cost-of-living 15 · climate 10 · visa 10 |
+| `lifestyle` | climate 30 · cost-of-living 25 · safety 20 · connectivity 15 · health 10 |
+
+### Criteria → data source
+
+| Criterion | Pre-ranked here? | Source |
+|---|---|---|
+| acquisition-cost | ✅ | § lowest/highest acquisition cost (also the budget hard-filter) |
+| annual-carry | ✅ | § lowest/highest annual carry |
+| tax | ✅ (partial) | § cleanest/steepest 2026 tax reforms + playbook `--tax` |
+| foreign-buyer | ✅ | § most-friendly / highest-friction (also a hard filter) |
+| fx | ✅ | § most/least FX-stable for €-buyers |
+| visa | ✅ | `config/_visa-programs.json` (also a `--must` hard filter) |
+| healthcare | ⚠️ curated | enrollment-timeline tiers (`digital-nomad-healthcare.md` → `config/_match-extracted.json`, ~10 countries) — MEDIUM |
+| yield · climate · schools · safety · connectivity · cost-of-living | ❌ no stored value | **LOW / data-not-available** — no per-country value exists in the repo (computed live per-query). Only score a country if its playbook holds a *discrete, citable value*; descriptive prose is NOT a value — see the No-data rule below |
+
+### Execution
+
+1. **Resolve** the candidate set (`--region` shortcut or all supported countries) minus `--exclude` and the Skip-list.
+2. **Hard-filter (eliminate)** — drop candidates that fail a pass/fail gate: foreign-buyer access, budget feasibility (entry = segment-typical €/m² × ~60 m²; a hard floor only with `--must=budget`, else a soft signal), and any `--must=` gate (visa availability via `_visa-programs.json`, FX, residency).
+3. **Score** each survivor per criterion. Rank-based band: with `K` ranked countries, rank `r` → `band = round(100 × (K − r + 1) / K)` (#1 = 100). Graded hard-derived signals map to `{open 100 / restricted 60 / barred 0}`.
+4. **Composite** = `Σ(wᵢ × bandᵢ) / Σ(wᵢ for criteria with data)`. A criterion with no grounded value for a country is **dropped from both numerator and denominator** — missing data must neither help nor penalise; footnote the drop.
+5. **Render** the top-N shortlist + per-criterion breakdown + why each ranked where + confidence + a CTA to `--compare` the shortlist.
+
+**No-data rule (grounding gate).** A criterion is *grounded* only by a named list position in this file or a **discrete, dated playbook value** (a stated tier, statistic, or rank) — **never** by descriptive prose ("mild climate", "good schools"). For a `pending`/live criterion, if the playbook holds no discrete value, render the cell `—` and **drop the criterion from that country's composite** (step 4). Never convert adjectives into a band or score. The generator never fabricates a pending criterion — the runtime extractor must not either. A `—` cell is the correct, expected output, not a failure.
+
+### Output template
+
+```markdown
+## Country Match — <cohort>, budget <amount>, criteria <list>
+
+**Candidates**: <N supported>   **After hard filters**: <M>   **Date**: <YYYY-MM-DD> (playbook last-refresh)
+
+### Hard filters (eliminations)
+- foreign-buyer-open → dropped CA, AU, NZ, TH(land), KW…
+- budget ≥ entry → dropped MC, CH, SG(non-res)…
+
+### Ranked shortlist (top N)
+🥇 1. PT — 84/100 · open (NIF only), low carry, IFICI tax, D7 visa  [climate/health: no data → dropped]
+🥈 2. GR — 80/100 · €800k/€400k golden visa; 🚩 zone-dependent thresholds
+🥉 3. ES — 78/100 · open (NIE), deep market; ⚠️ acquisition cost ~10-13%
+
+### Per-criterion breakdown
+| Country | Tax | Climate | Health | Visa | Acq.cost | Composite |
+|---|---|---|---|---|---|---|
+| PT | 🟢 | — | — | 🟢 | 🟡 | 84 |
+
+`—` = no grounded value → dropped from the composite (No-data rule); never a guessed band. (PT's climate + healthcare are `pending-extraction`, so they render `—`, not 🟢.)
+
+### Weighting & confidence
+- Weights: <cohort default | user-set> — shown in full
+- Confidence: <HIGH/MEDIUM/LOW>. **If a country's grounded criteria sum to <50% of its cohort weight, mark its composite `LOW — partial` + show the surviving-weight %** — e.g. a `family` query leans on schools + safety (both unstored), so most weight drops and the composite is low-trust. Healthcare runs MEDIUM (curated, ~10 countries); the other five pending criteria are LOW / data-not-available.
+- Dropped (no data): <country:criterion …> — list every `—` cell.
+
+### Next step
+→ Deep-compare:  /property-deep-dive --compare=pt,gr,es,cy,it --tax --climate --retirement
+→ Full brief:    /property-deep-dive <PT address> --all
+```
+
+### Anti-hallucination (inherits the four rules above + 3 additions)
+
+The four `--compare` rules apply verbatim (supported countries only · playbook/precomputed values are authoritative, no fresh per-country fetch · date-stamp · surface LOW confidence). Plus:
+
+5. **No fabricated composite scores** — every band traces to a named list position (§ above) or a dated playbook value; show the inputs. A criterion with no grounded source for a country is excluded from that country's composite, never guessed.
+6. **Structural shortlist, not advice** — `--match` ranks *documented attributes against stated constraints*. It is not financial / immigration / tax advice; weights are inherently subjective. See `DISCLAIMER.md`.
+7. **Show the weighting** — the cohort default (or user) weights are always printed; the user must be able to see why #1 beat #2.
+
+If hard filters eliminate everything, say so and suggest relaxing a `--must=`. If fewer than 3 survive, return them but flag the thin set.
+
+### Worked example — retiree, €300k, criteria tax+climate+healthcare+visa
+
+Illustrative (numbers are from individual playbooks at last refresh — check each `**Last verified**:` before quoting):
+
+- **Hard filters**: foreign-buyer-open (drops CA / AU / NZ established-home bans); budget ≥ entry (€300k clears PT/GR/ES/CY/IT; drops MC/CH).
+- **Result**: a PT-led Mediterranean shortlist — PT (open + IFICI + D7), GR (golden-visa + climate), ES (deep market, higher acquisition cost ~10-13%), CY (low carry, 🚩 north-title), IT (2%-resident vs 9%-non-resident cadastral 🚩). Each row carries its per-criterion band + the playbook date; tax/fx/acquisition-cost/foreign-buyer/visa are HIGH (pre-ranked), climate/healthcare run MEDIUM until the Phase-2 index.
+
+### Phase 2 — `config/_match-index.json` (built)
+
+`config/_match-index.json` precomputes, **per country, the rank/band + `src` provenance** for the criteria this file already ranks (acquisition-cost, annual-carry, fx, foreign-buyer, visa, tax) plus the three hard-filter booleans (`foreign-buyer-open`, `no-fx-risk`, `property-residency-route`). It is **generated deterministically** from this file's ranked lists + `config/_visa-programs.json` by `scripts/render-match-index.py` (regenerate on change; CI `--check` in `.github/workflows/match-index-audit.yml` keeps it in sync; `scripts/render-match-index-test.py` covers it). **Reverse mode consumes it**: read each survivor's band + hard-filter from the index when present; a country absent from the index (the lists don't cover all 121) or a criterion marked `pending-extraction` is resolved live **only from a discrete playbook value** (No-data rule) — absent that it renders `—` (LOW / data-not-available), never a MEDIUM band from prose.
+
+Of the seven judgement-heavy criteria, **only `healthcare` has a stored, citable per-country signal** (public-system enrollment timeline in `digital-nomad-healthcare.md`). It is curated into `config/_match-extracted.json` (~10 countries — each with source + verbatim evidence + tier) and merged into the index at MEDIUM confidence. The other six — yield, climate, safety, connectivity, schools, cost-of-living — have **no stored per-country value**: the skill computes them live/per-query from primary sources *by design* (so they never go stale), so pre-baking them into a static index would decay or fabricate. They stay `{"status": "pending-extraction"}`: at query time each is scored **only if the playbook holds a discrete value** (No-data rule) — otherwise rendered `—` and dropped, never a MEDIUM band invented from prose. The generator **never fabricates** a pending criterion. Full design + the feasibility finding: `_local/scope-match-section.md`.
+
 ## Worked-example comparisons (new-country trios)
 
 These illustrate how the matrix is used. Numbers are from individual playbooks at last refresh; check each playbook's `**Last verified**:` stamp before quoting.

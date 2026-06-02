@@ -56,6 +56,14 @@ Greek heritage / listed-property template overlaid on the foreign-buyer journey 
 
 Renders a comparison matrix across France / Italy / Portugal for retiree-relevant facets (pension tax, healthcare access, residency thresholds, climate, cost-of-living).
 
+**Reverse mode (`--match`)** — give *constraints* instead of countries and get a ranked shortlist back:
+
+```
+/property-deep-dive --match --cohort=retiree --budget=300k --criteria=tax,climate,healthcare,visa
+```
+
+Returns the top-fit countries from the supported corpus with a per-criterion breakdown and why each ranked where (logic in `shared/compare.md` § Reverse mode).
+
 ## 7. Foreign-buyer family with school-age kids
 
 ```
@@ -80,6 +88,7 @@ Singapore address with the working-age-family combo. `--schools` returns the int
 | **Decision-context (8)** | `--compare=<iso2,...>` `--retirement` `--digital-nomad` `--macro` `--demographics` `--schools` `--esg` `--exit` |
 | **Cross-cutting layers (4)** | `--integrity` `--journey=<type>` `--type=<kind>` `--update` |
 | **Tooling (3)** | `--tco` `--mortgage` `--watch <url>` |
+| **Discovery mode (1)** | `--match` (reverse of `--compare` — constraints → ranked country shortlist; logic in `shared/compare.md` § Reverse mode) |
 
 **Sub-section extensions** (11 — auto-loaded alongside the parent flag, no separate invocation): `shared/mains-reliability.md` loads with `--mains` (grid + SAIDI/SAIFI + outage band + load-shedding regime); `shared/finance-banking.md` loads with `--finance` (tax-ID prerequisite chain + FATCA acceptance bucket per country + expat-banking arms); `shared/notary-forced-heirship.md` loads with `--notary` (civil-law forced shares vs common-law testamentary freedom vs Sharia, Brussels IV); `shared/risks-build-quality.md` loads with `--risks` (statutory new-build warranty regimes + off-plan deposit-protection mechanisms — pairs strongly with `--type=off-plan`); `shared/digital-nomad-healthcare.md` loads with `--digital-nomad` (working-age 25-65 healthcare access for DN-visa holders — companion to `--retirement` for retirement-age 65+); `shared/rental-yield-delta.md` loads with `--rental` (gross-vs-net yield delta + neighborhood STR-zoning / moratorium overlay); `shared/scams-postcompletion.md` loads with `--scams` (post-completion fraud register — title hijack, utility/identity, equity-stripping); `shared/journey-sellrent.md` loads with `--journey=foreign-buyer` (sell-vs-rent decision overlay); `shared/integrity-remorse.md` loads with `--integrity` (buyer's-remorse / cooling-off cross-check); `shared/finance-crossborder.md` loads with `--finance` (cross-border mortgage / SPV / crypto-funding paths); `shared/exit-seller-withholding.md` loads with `--exit` (non-resident-seller withholding / tax-clearance completion-gate). The gap-#5 / gap-#4 fold-ins (strata-governance, right-of-way, leasehold, connect-from-scratch utilities, flood-insurability carve-out, JP universal 国土法/農地法 content) are in-file sub-blocks within existing section files (`property-management.md`, `property-types.md`, `insurance.md`, `countries/jp/playbook.md`), not separate auto-loaded extensions.
 

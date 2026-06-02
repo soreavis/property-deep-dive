@@ -118,6 +118,8 @@ def count_section_flags() -> int:
         'tier', 'include', 'exclude',
         # Cross-cutting layers — counted separately from the 24 sections
         'integrity', 'journey', 'type',
+        # Discovery mode — reverse of --compare; not a per-address section
+        'match',
         # Tooling helpers (TCO calc, mortgage calc, listing watcher) — not sections
         'tco', 'mortgage', 'watch',
     }

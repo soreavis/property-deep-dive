@@ -240,6 +240,7 @@ jobs:
               'validate-only', 'refresh-only',
               'lang', 'lang-scope',
               'tier', 'include', 'exclude',
+              'match',
           }
           section_flags = sorted(flags - output_only)
 

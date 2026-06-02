@@ -1,0 +1,29 @@
+{
+  "_comment": "Curated research-extracted tier data for the otherwise pending-extraction --match criteria, merged into _match-index.json by scripts/render-match-index.py. ONLY criteria with a STORED, citable per-country signal in the repo belong here. The other pending criteria — safety / connectivity / yield / climate / cost-of-living — have NO stored per-country value (they are computed live/per-query from primary sources by design, so they never go stale); pre-baking them would decay or fabricate, so they stay pending. Every band here cites its source + the verbatim evidence phrase; bands are coarse tiers (no false precision). See _local/scope-match-section.md § Phase 2.",
+  "schema_version": 1,
+  "criteria": {
+    "healthcare": {
+      "metric": "public-system enrollment timeline for a working-age resident — faster statutory access = higher band (NOT a care-quality measure)",
+      "source": "skills/property-deep-dive/shared/digital-nomad-healthcare.md",
+      "tiers": {
+        "immediate (<=1 month)": 95,
+        "fast (<=4 months)": 78,
+        "medium (6 months)": 55,
+        "contribution / 1-year": 35
+      },
+      "note": "Only the countries with an EXPLICIT enrollment timeline in the source are tiered. Countries with vaguer 'access on tax-residency registration' wording (e.g. IT SSN, PT SNS) and AU (nationality-conditional Reciprocal Health Care Agreement) are intentionally omitted — they stay pending rather than be force-tiered.",
+      "countries": {
+        "de": { "band": 95, "tier": "immediate (<=1 month)", "evidence": "Krankenversicherung mandatory day-1" },
+        "ch": { "band": 95, "tier": "immediate (<=1 month)", "evidence": "KVG day-1 mandatory (3-month grace)" },
+        "jp": { "band": 95, "tier": "immediate (<=1 month)", "evidence": "NHI within 14 days of move" },
+        "nl": { "band": 78, "tier": "fast (<=4 months)", "evidence": "zorgverzekering compulsory + 4-mo grace with backdating" },
+        "fr": { "band": 78, "tier": "fast (<=4 months)", "evidence": "PUMA after 3-mo continuous residence" },
+        "ca": { "band": 78, "tier": "fast (<=4 months)", "evidence": "provincial Medicare 3-month wait" },
+        "kr": { "band": 55, "tier": "medium (6 months)", "evidence": "NHI enrollment within 6 months auto-enrolled" },
+        "tw": { "band": 55, "tier": "medium (6 months)", "evidence": "NHI after 6-month residency" },
+        "il": { "band": 55, "tier": "medium (6 months)", "evidence": "Bituach Leumi 6-month residency rule" },
+        "es": { "band": 35, "tier": "contribution / 1-year", "evidence": "Convenio Especial after 1-year residence (paid)" }
+      }
+    }
+  }
+}

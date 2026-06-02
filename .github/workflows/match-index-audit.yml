@@ -1,0 +1,48 @@
+name: Match index audit
+
+# Keeps config/_match-index.json (source of truth for the --match discovery mode)
+# in sync with its inputs (shared/compare.md ranked lists + _visa-programs.json),
+# and runs the render-script unit tests. Mirrors visa-programs-audit.yml.
+
+on:
+  pull_request:
+    paths:
+      - 'config/_match-index.json'
+      - 'config/_match-extracted.json'
+      - 'config/_visa-programs.json'
+      - 'skills/property-deep-dive/shared/compare.md'
+      - 'scripts/render-match-index.py'
+      - 'scripts/render-match-index-test.py'
+      - '.github/workflows/match-index-audit.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'config/_match-index.json'
+      - 'config/_match-extracted.json'
+      - 'config/_visa-programs.json'
+      - 'skills/property-deep-dive/shared/compare.md'
+      - 'scripts/render-match-index.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render-check:
+    name: _match-index.json ↔ compare.md render check
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
+        with:
+          python-version: '3.x'
+
+      - name: Render check (index is regenerable from its sources)
+        run: python3 scripts/render-match-index.py --check
+
+      - name: Unit tests
+        run: python3 scripts/render-match-index-test.py
