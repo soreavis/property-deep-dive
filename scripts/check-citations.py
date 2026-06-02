@@ -40,6 +40,33 @@ SALIENT_RE = re.compile(
 # citation is just a portal pointer, not a named document. Document labels ("Llei 21/2014",
 # "DL 126/2021") have spaces/slashes and don't match. This is the precision filter.
 HOSTLIKE_LABEL_RE = re.compile(r"^[a-z0-9][a-z0-9.-]*\.[a-z]{2,}$", re.IGNORECASE)
+
+# Only flag PRIMARY-SOURCE roots (a deep gov/regulator page exists and should be cited). A
+# commercial carrier/aggregator homepage cited for a tariff (orange.sk, telekom.hu, flat35.com)
+# is an accepted convention, not the weak-citation pattern — skip it, or it drowns the signal.
+_GOV_RE = re.compile(r"\.(?:gov|gouv|gob)(?:\.[a-z]{2,3})?$", re.IGNORECASE)
+PRIMARY_ALLOW_PATH = ROOT / "scripts" / "primary-source-allowlist.txt"
+
+
+def load_primary_hosts() -> set[str]:
+    hosts: set[str] = set()
+    if PRIMARY_ALLOW_PATH.exists():
+        for line in PRIMARY_ALLOW_PATH.read_text(encoding="utf-8").splitlines():
+            line = line.split("#", 1)[0].strip().lower()
+            if line:
+                hosts.add(line)
+    return hosts
+
+
+_PRIMARY_HOSTS = load_primary_hosts()
+
+
+def is_primary(host: str) -> bool:
+    host = host.lower()
+    if _GOV_RE.search(host):
+        return True
+    h = host[4:] if host.startswith("www.") else host
+    return host in _PRIMARY_HOSTS or h in _PRIMARY_HOSTS
 # Lines that legitimately frame the portal root as a navigation pointer for the reader.
 POINTER_RE = re.compile(
     r"\b(?:verify|confirm|check|consult|cross-check|see|lookup|look up|search)\b[^.]{0,30}?"
@@ -90,6 +117,9 @@ def flag_line(line: str, allow: set[str] = frozenset()) -> list[str]:
         host = urlparse(url).netloc.lower()
         if host in allow or url.lower() in allow:
             continue
+        # only PRIMARY-SOURCE roots — a commercial carrier/aggregator homepage is fine as a pointer
+        if not is_primary(host):
+            continue
         out.append(url)
     return out
 
@@ -127,8 +157,8 @@ def main() -> int:
         print("✓ no domain-root citations next to a figure")
         return 0
 
-    print(f"⚠️  {len(findings)} citation(s) point at a domain ROOT next to a figure "
-          f"(point at the page that proves the number, or tag the line 'verify at'):\n")
+    print(f"⚠️  {len(findings)} citation(s) point at a PRIMARY-SOURCE domain ROOT next to a figure "
+          f"(point at the gov/regulator page that proves the number, or tag the line 'verify at'):\n")
     for f in findings:
         print(f"  {f['file']}:{f['line']}  → {f['url']}")
         print(f"      {f['context']}")

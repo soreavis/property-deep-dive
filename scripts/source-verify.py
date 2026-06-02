@@ -748,10 +748,23 @@ def build_prior(claim: ClaimRecord, fetch: FetchResult, sv: SVConfig) -> dict:
 
 
 # ── Worklist orchestration ───────────────────────────────────────────────────
-def _detect_change(status: str, new_hash: str, prev_hash: str) -> bool:
-    """True iff a fresh OK fetch produced a content hash different from the stored prior. A
-    non-OK fetch, a first-ever fetch (no prev), or a missing hash is never a 'change'."""
-    return bool(status == "OK" and prev_hash and new_hash and new_hash != prev_hash)
+def _settle_change(status: str, new_hash: str, last_hash: str, stable_hash: str) -> tuple[bool, str]:
+    """Settle-confirmed content-change detection. Returns (changed, new_stable_hash).
+
+    A naive "hash differs from last run" flags every dynamic page (rate tickers, timestamps,
+    rotating banners) every run — ~6% of gov portals, all noise. Instead a change is only
+    CONFIRMED once the page has SETTLED at a new value: the current hash equals the immediately
+    previous run's hash AND differs from the stable baseline. A dynamic page (hash differs every
+    run) never settles → never flagged; a genuine change settles and surfaces one run later."""
+    if status != "OK" or not new_hash:
+        return False, stable_hash
+    if not stable_hash:
+        return False, new_hash                      # first content seen → establish baseline
+    if new_hash == stable_hash:
+        return False, stable_hash                   # unchanged (or reverted) → still stable
+    if new_hash == last_hash:
+        return True, new_hash                       # same new value 2 runs running → confirmed change
+    return False, stable_hash                       # in flux (dynamic) → not yet confirmed, keep baseline
 
 
 async def fetch_unique(urls: list[str], ul_cfg, sv: SVConfig, force_refresh: bool = False) -> dict[str, FetchResult]:
@@ -789,19 +802,23 @@ async def fetch_unique(urls: list[str], ul_cfg, sv: SVConfig, force_refresh: boo
             ))
         for fr in fetched:
             prev = index.get(fr.url) or {}
-            prev_hash = prev.get("content_hash", "")
-            # content-change tripwire: only meaningful on a fresh OK fetch with a prior hash
-            changed = _detect_change(fr.status, fr.content_hash, prev_hash)
+            last_hash = prev.get("content_hash", "")     # the immediately-previous run's hash
+            stable_hash = prev.get("stable_hash", "")    # the confirmed baseline
+            # settle-confirmed change: dynamic pages (hash differs every run) are filtered out
+            changed, new_stable = _settle_change(fr.status, fr.content_hash, last_hash, stable_hash)
             fr.content_changed = changed
-            fr.prev_fetched_at = prev.get("fetched_at", "") if changed else ""
+            fr.prev_fetched_at = prev.get("stable_fetched_at", prev.get("fetched_at", "")) if changed else ""
             results[fr.url] = fr
             if fr.status == "OK":
                 _text_path(fr.url).write_text(fr.text, encoding="utf-8")
             index[fr.url] = {"status": fr.status, "http_status": fr.http_status,
                              "content_type": fr.content_type, "content_hash": fr.content_hash,
-                             "content_kind": fr.content_kind, "note": fr.note, "fetched_at": fr.fetched_at,
-                             "prev_hash": prev_hash, "content_changed": changed,
-                             "prev_fetched_at": fr.prev_fetched_at}
+                             "stable_hash": new_stable, "content_kind": fr.content_kind, "note": fr.note,
+                             "fetched_at": fr.fetched_at,
+                             # remember when the baseline was established, for the stale-after-verify check
+                             "stable_fetched_at": (fr.fetched_at if (new_stable == fr.content_hash and changed)
+                                                   else prev.get("stable_fetched_at", prev.get("fetched_at", ""))),
+                             "content_changed": changed}
         save_content_index(index)
     return results
 

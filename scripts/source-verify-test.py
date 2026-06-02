@@ -478,22 +478,44 @@ class TestPdfEdges(unittest.TestCase):
             self.assertIn("5720", text)
 
 
-class TestDetectChange(unittest.TestCase):
-    def test_hash_differs(self):
-        self.assertTrue(SV._detect_change("OK", "h2", "h1"))
+class TestSettleChange(unittest.TestCase):
+    def test_first_content_sets_baseline(self):
+        self.assertEqual(SV._settle_change("OK", "h1", "", ""), (False, "h1"))
 
-    def test_hash_same(self):
-        self.assertFalse(SV._detect_change("OK", "h1", "h1"))
+    def test_unchanged(self):
+        self.assertEqual(SV._settle_change("OK", "h1", "h1", "h1"), (False, "h1"))
 
-    def test_first_fetch_no_prior(self):
-        self.assertFalse(SV._detect_change("OK", "h1", ""))
+    def test_dynamic_page_never_confirms(self):
+        # hash differs from BOTH last run and baseline → in flux → not flagged, baseline kept
+        self.assertEqual(SV._settle_change("OK", "hNEW", "hPREV", "hBASE"), (False, "hBASE"))
 
-    def test_missing_new_hash(self):
-        self.assertFalse(SV._detect_change("OK", "", "h1"))
+    def test_settled_new_value_confirms(self):
+        # same new value two runs running, different from baseline → confirmed change
+        self.assertEqual(SV._settle_change("OK", "hB", "hB", "hA"), (True, "hB"))
 
-    def test_non_ok_status_never_changes(self):
-        self.assertFalse(SV._detect_change("DEAD", "h2", "h1"))
-        self.assertFalse(SV._detect_change("PDF_NO_TEXT", "h2", "h1"))
+    def test_reverted_to_baseline_not_flagged(self):
+        self.assertEqual(SV._settle_change("OK", "hA", "hX", "hA"), (False, "hA"))
+
+    def test_non_ok_never_changes(self):
+        self.assertEqual(SV._settle_change("DEAD", "h2", "h2", "h1"), (False, "h1"))
+        self.assertEqual(SV._settle_change("OK", "", "h2", "h1"), (False, "h1"))
+
+    def test_dynamic_sequence_stays_quiet(self):
+        # simulate a dynamic page across 4 runs: hash changes every run → never flagged
+        stable, last = "", ""
+        for h in ["x1", "x2", "x3", "x4"]:
+            changed, stable = SV._settle_change("OK", h, last, stable)
+            self.assertFalse(changed)
+            last = h
+
+    def test_real_change_surfaces_next_run(self):
+        # stable A; page changes to B and stays B → flagged on the 2nd B run
+        stable, last = "A", "A"
+        c1, stable = SV._settle_change("OK", "B", last, stable); last = "B"   # flux
+        c2, stable = SV._settle_change("OK", "B", last, stable); last = "B"   # settled → flagged
+        self.assertFalse(c1)
+        self.assertTrue(c2)
+        self.assertEqual(stable, "B")
 
 
 class TestChangedAfterStampEdges(unittest.TestCase):
@@ -592,6 +614,18 @@ class TestFlagLine(unittest.TestCase):
     def test_two_root_links_one_line(self):
         out = CC.flag_line("7.5% [gov.ky](https://www.gov.ky/) and [legislation.gov.ky](https://legislation.gov.ky/)")
         self.assertEqual(len(out), 2)
+
+    def test_commercial_root_not_flagged(self):
+        # a carrier/aggregator homepage cited for a tariff is NOT a primary source → skip
+        self.assertEqual(CC.flag_line("plan RM199 100Mbps [orange.sk](https://www.orange.sk/)"), [])
+        self.assertEqual(CC.flag_line("fee USD 50 [flat35.com](https://www.flat35.com/)"), [])
+
+    def test_is_primary(self):
+        self.assertTrue(CC.is_primary("www.gov.ky"))
+        self.assertTrue(CC.is_primary("legislation.gov.ky"))
+        self.assertTrue(CC.is_primary("sat.gob.mx"))
+        self.assertFalse(CC.is_primary("www.orange.sk"))
+        self.assertFalse(CC.is_primary("knightfrank.com"))
 
 
 class TestHtmlAndCacheEdges(unittest.TestCase):
