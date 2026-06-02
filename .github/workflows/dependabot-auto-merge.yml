@@ -1,5 +1,23 @@
 name: Dependabot auto-merge
 
+# Auto-merge policy for Dependabot PRs once required CI is green:
+#   - patch + minor bumps from ANY ecosystem         -> auto-merge
+#   - MAJOR bumps from the `github_actions` ecosystem -> auto-merge
+#   - MAJOR bumps from real runtime deps (npm/pip/…)  -> human review
+#
+# Rationale for auto-merging major github_actions bumps: every action is
+# SHA-pinned (Dependabot rewrites both the SHA and the `# vX.Y.Z` comment),
+# CodeQL's "Analyze actions" job runs on the PR, and the same required-status
+# gate that protects main applies. A major action bump that keeps all of that
+# green is safe to land unattended on a solo-maintained docs repo.
+#
+# Caveat for future maintainers: a few actions are only exercised at release
+# time (e.g. softprops/action-gh-release in sign-release.yml runs on tag push,
+# not on PR CI). A major bump to a release-only action will auto-merge on green
+# PR checks even though those checks never ran it — a break would only surface
+# at the next release. If that bites, special-case those actions back to manual
+# by matching dependency-names in the decision step below.
+
 on:
   pull_request:
     branches: [main]
@@ -9,7 +27,7 @@ permissions:
 
 jobs:
   auto-merge:
-    name: Auto-merge Dependabot patch + minor PRs once CI green
+    name: Auto-merge Dependabot patch/minor + major github_actions PRs once CI green
     runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
     timeout-minutes: 3
@@ -23,17 +41,34 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Approve patch / minor updates
-        if: steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor'
+      - name: Decide whether to auto-merge
+        id: decide
+        env:
+          UPDATE_TYPE: ${{ steps.metadata.outputs.update-type }}
+          ECOSYSTEM: ${{ steps.metadata.outputs.package-ecosystem }}
+        run: |
+          set -euo pipefail
+          # Patch + minor from any ecosystem; major ONLY from github_actions.
+          merge=false
+          case "$UPDATE_TYPE" in
+            version-update:semver-patch|version-update:semver-minor)
+              merge=true ;;
+            version-update:semver-major)
+              if [ "$ECOSYSTEM" = "github_actions" ]; then merge=true; fi ;;
+          esac
+          echo "merge=$merge" >> "$GITHUB_OUTPUT"
+          echo "update-type=$UPDATE_TYPE  ecosystem=$ECOSYSTEM  ->  auto-merge=$merge"
+
+      - name: Approve eligible update
+        if: steps.decide.outputs.merge == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr review "$PR_URL" --approve -b "Auto-approved patch/minor dependency update."
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: gh pr review "$PR_URL" --approve -b "Auto-approved Dependabot update (patch/minor any ecosystem, or major github_actions) with CI green."
         continue-on-error: true
-        # Note: github-actions ecosystem update-types map as semver patch/minor for action-version bumps.
-        # Major action version bumps (e.g. v4→v5) still require human review.
 
       - name: Enable auto-merge (squash)
-        if: steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor'
+        if: steps.decide.outputs.merge == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
