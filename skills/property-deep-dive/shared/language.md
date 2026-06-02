@@ -1,6 +1,6 @@
 # Universal `--language` Section
 
-Foreign-buyer language requirements: deed-language rule, sworn-translator-at-signing mandate, POA / apostille chain, mandatory diagnostic-document language, sworn-translation cost band. Covers all 113 supported countries.
+Foreign-buyer language requirements: deed-language rule, sworn-translator-at-signing mandate, POA / apostille chain, mandatory diagnostic-document language, sworn-translation cost band. Covers all 121 supported countries.
 
 **Snapshot**: May 2026. Apostille statuses move — verify HCCH status table for any time-critical POA execution. Two 2025-2026 status changes already in flight: **VN acceded 31 Dec 2025, in force 11 Sept 2026**; **TH approved accession Dec 2025, not yet in force**. Recent past changes still relevant: **CN in force 7 Nov 2023**, **AE not a member** (still requires full MOFAIC legalisation chain), **SA in force 7 Dec 2022**, **ID in force 4 Jun 2022**, **CA acceded 11 Jan 2024**, **RW in force 5 Jun 2024**, **SG in force 16 Jan 2021**, **MA in force 14 Aug 2016**.
 

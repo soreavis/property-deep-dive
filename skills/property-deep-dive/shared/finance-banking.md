@@ -30,7 +30,7 @@ For the property's country, return:
 
 ## Regional patterns + country one-liners
 
-The 6 region blocks below cover all 100 countries with full playbooks. The 3 schema-blocked territories (Crown Dependencies, DK overseas) are pending ROADMAP wave; for those, default to the parent jurisdiction's section pattern (Jersey / Guernsey / Isle of Man → UK; FO / GL → DK).
+The 6 region blocks below span all 121 supported countries. The Crown Dependencies, Danish territories, and Caribbean UK Overseas Territories / CBI states are now standalone playbooks, not parent-jurisdiction defaults.
 
 ---
 
@@ -519,7 +519,7 @@ The 12-country group splits into three banking archetypes. **Mauritius and Seych
 
 ## Status
 
-**Confidence**: HIGH for ~75 of 100 countries (named-bank policy published, regulator URL stable, reform timeline well-documented); MEDIUM for ~20 countries (pattern documented but bank-by-bank execution varies); LOW for ~5 countries (LB active crisis, AZ bank policy opacity, MV Dhivehi-first regulator, UZ ministerial-decree culture, CV small-market Portuguese-language regulator). Per-country confidence labels appear in each one-liner above.
+**Confidence**: HIGH for ~75 of 121 countries (named-bank policy published, regulator URL stable, reform timeline well-documented); MEDIUM for ~20 countries (pattern documented but bank-by-bank execution varies); LOW for ~5 countries (LB active crisis, AZ bank policy opacity, MV Dhivehi-first regulator, UZ ministerial-decree culture, CV small-market Portuguese-language regulator). Per-country confidence labels appear in each one-liner above.
 
 **Last verified**: 2026-05-10.
 

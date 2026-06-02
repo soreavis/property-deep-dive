@@ -12,7 +12,7 @@ Foreign-buyer remote-execution mechanisms: can a buyer execute a property purcha
 - `--notary` = **process-side**. Days from offer to deed, closing costs, notary vs solicitor regime, title insurance norms.
 - `--scams` = **fraud register**. BEC at closing (relevant — *Hawarden v ENS* SCA 10 Jun 2024 affirms buyer bears BEC risk where bank details could have been verified out-of-band), title forgery, off-plan disappearance.
 
-For most foreign buyers, **POA + apostilled chain to a local representative** is still the universal fallback that works in all 113 countries, regardless of whether the destination has full-remote infrastructure.
+For most foreign buyers, **POA + apostilled chain to a local representative** is still the universal fallback that works in all 121 countries, regardless of whether the destination has full-remote infrastructure.
 
 ## Universal contract
 
@@ -422,7 +422,7 @@ HMLR's published terminology: **ID1 / ID2 + Digital ID Standard** (Safe Harbour)
 
 These work regardless of the property country and prevent the most common cross-border execution pitfalls:
 
-1. **Default to local representative + apostilled POA, not real-time video.** Works in all 113 countries, eliminates the time-zone problem (Trap #3), sidesteps deed-execution gaps (Trap #1), and is the cleanest fit for AML/KYC gatekeepers (Trap #7). Real-time RON / videoconferencia is for narrow situations where lender or jurisdiction *requires* borrower-direct signing.
+1. **Default to local representative + apostilled POA, not real-time video.** Works in all 121 countries, eliminates the time-zone problem (Trap #3), sidesteps deed-execution gaps (Trap #1), and is the cleanest fit for AML/KYC gatekeepers (Trap #7). Real-time RON / videoconferencia is for narrow situations where lender or jurisdiction *requires* borrower-direct signing.
 
 2. **Verify mortgage-lender's RON / remote-mortgage acceptance in writing BEFORE the loan estimate.** GSE acceptance ≠ originator acceptance ≠ warehouse-line acceptance ≠ recorder acceptance. Get all four confirmed (Fannie/Freddie + lender + warehouse + recording county) for US deals; for EU deals, verify *deed* and *mortgage-instrument* acceptance separately.
 

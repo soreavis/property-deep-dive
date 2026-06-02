@@ -198,7 +198,7 @@ For the property's country, return:
 > Invoke it from either: `--climate` surfaces the hazard zone; `--insurance` answers
 > "will *any* insurer write this address, at what loading, and does that block the loan/resale?"
 > Scope is the **binary insurability question + the national backstop schemes that decide it** —
-> deliberately *not* a 103-country sweep.
+> deliberately *not* a 121-country sweep.
 
 **Snapshot**: May 2026. Every scheme below is date-stamped to its enabling instrument; figures >12 months old may have moved — re-verify at the cited authority.
 

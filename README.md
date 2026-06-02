@@ -276,7 +276,7 @@ Together: a 14-month-old playbook never silently displays "Confidence: HIGH", an
 The skill ships with a maintenance mode (`--update`) and tiered refresh GitHub Actions:
 
 ```
-/property-deep-dive --update                       # full re-research + URL replace (all 103)
+/property-deep-dive --update                       # full re-research + URL replace (all 121)
 /property-deep-dive --update --validate-only       # URL liveness only (weekly)
 /property-deep-dive --update --refresh-only        # data refresh, no URL check
 /property-deep-dive --update --tier=A              # 16 high-velocity markets (quarterly)
@@ -336,7 +336,7 @@ property-deep-dive/
 │   │   ├── broken-url.yml
 │   │   ├── new-country.yml
 │   │   └── regulatory-watch.yml
-│   └── workflows/  (28 in total — see CHANGELOG.md for the full set; selection below)
+│   └── workflows/  (29 in total — see CHANGELOG.md for the full set; selection below)
 │       ├── pr-validate.yml              # markdownlint + forbidden-phrasings + Last verified + density + arg-hint drift
 │       ├── source-tier-ratchet.yml      # advisory: primary-vs-aggregator URL ratio per changed playbook (sticky PR comment)
 │       ├── link-check.yml               # lychee internal links (PR + weekly schedule)
@@ -394,17 +394,13 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 193 markdown files, ~94,900 lines (SKILL.md + 65 top-level shared/ + 14 shared/exit/ region files + 121 country playbooks).
-**Repo total**: 215 markdown files, ~103,600 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 215 markdown files, ~103,600 lines (skill content + community / governance files + CHANGELOG) · 37 YAML / JSON config files (29 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
 Factual corrections, URL fixes, and section extensions are the most valuable contributions. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the bar (~400-500 lines per country, primary government sources, anti-hallucination contract).
 
-All 103 in-scope countries are populated as of 2026-05-08 (Tier-1 + Tier-2 batches: PRs [#111](https://github.com/soreavis/property-deep-dive/pull/111) + [#113](https://github.com/soreavis/property-deep-dive/pull/113)). The country backlog is now schema-blocked rather than country-blocked — see [`ROADMAP.md`](./ROADMAP.md):
-
-- **Crown Dependencies** (🇯🇪 je · 🇬🇬 gg · 🇮🇲 im · 🇬🇮 gi) — need a "territory classifier" PR first to handle non-sovereign jurisdictions cleanly
-- **Danish territories** (🇫🇴 fo · 🇬🇱 gl) — same blocker
-- **FR overseas + NL Caribbean** — deferred pending demand signal
+All 121 in-scope countries are populated. The original 103-country milestone (Tier-1 + Tier-2 batches, 2026-05-08, PRs [#111](https://github.com/soreavis/property-deep-dive/pull/111) + [#113](https://github.com/soreavis/property-deep-dive/pull/113)) has since been extended by three coverage waves: Crown Dependencies + Danish territories (→ 109, new `crown_deps_territories` region), four NL-Caribbean standalone playbooks plus a FR DROM overlay that does not increment the count (→ 113), and eight Caribbean UK Overseas Territories + CBI states (→ 121, new `caribbean_ot` region). The remaining backlog is now **Phase C** — five medium-signal jurisdictions (🇳🇦 na · 🇧🇼 bw · 🇻🇺 vu · 🇹🇹 tt · 🇵🇰 pk → 126), queued but not yet greenlit — see [`ROADMAP.md`](./ROADMAP.md).
 
 In the meantime, the most valuable contributions are:
 

@@ -30,7 +30,7 @@ For the property's country, return:
 
 ## Regional patterns + country one-liners
 
-The 6 region blocks below cover all 100 countries with full playbooks. The 3 schema-blocked territories (Crown Dependencies, DK overseas) default to parent jurisdiction (Jersey/Guernsey/IoM → UK; FO/GL → DK).
+The 6 region blocks below span all 121 supported countries. The Crown Dependencies, Danish territories, and Caribbean UK Overseas Territories / CBI states are now standalone playbooks, not parent-jurisdiction defaults.
 
 ---
 
@@ -510,7 +510,7 @@ HIGH for AU/CA/NZ/US/ZA/MU; MEDIUM for KE/NG/GH/SC; LOW for CV/RW (statutory new
 
 ## Status
 
-**Confidence**: HIGH for ~70 of 100 countries (statutory warranty + off-plan protection regimes + recent reforms published in primary languages with English commentary + recent reforms verified at primary-source URLs); MEDIUM for ~25 countries (bench-discretion warranty enforcement, region-by-region variance, common-law schemes that vary state-by-state); LOW for ~5 countries (LB active crisis with no enforceable warranty in practice, KH limited regulatory framework + thin English documentation, MV tourism-focused construction with sparse English regulator data, RW small market + thin English commentary, AZ/UZ post-Soviet civil-codes with sparse English-language commentary). Per-country confidence labels appear in each one-liner above.
+**Confidence**: HIGH for ~70 of 121 countries (statutory warranty + off-plan protection regimes + recent reforms published in primary languages with English commentary + recent reforms verified at primary-source URLs); MEDIUM for ~25 countries (bench-discretion warranty enforcement, region-by-region variance, common-law schemes that vary state-by-state); LOW for ~5 countries (LB active crisis with no enforceable warranty in practice, KH limited regulatory framework + thin English documentation, MV tourism-focused construction with sparse English regulator data, RW small market + thin English commentary, AZ/UZ post-Soviet civil-codes with sparse English-language commentary). Per-country confidence labels appear in each one-liner above.
 
 **Last verified**: 2026-05-10.
 

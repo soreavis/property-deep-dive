@@ -1,0 +1,128 @@
+name: Count drift (About + prose)
+
+# Alert-only guard for the two count-drift channels sync-docs.py cannot see:
+#   1. Free-prose country/section counts in docs ("all 113 supported countries", "100 of 103")
+#   2. The GitHub repo "About" blurb (off-tree, never touched by code changes)
+# Both went stale across the 103→121 / 39→40 expansions and were missed for months because
+# no tool looked there. This opens/updates a single pinned issue on drift; it never edits the
+# About automatically (that needs an admin PAT) and never blocks a merge.
+
+on:
+  schedule:
+    # First day of every month at 09:10 UTC (just after the health report)
+    - cron: '10 9 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  count-drift:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Detect drift
+        id: drift
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p _ci
+          out=_ci/count-drift.md
+          drift=0
+
+          # ── Canonical counts ──────────────────────────────────────────────
+          countries=$(find skills/property-deep-dive/countries -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
+          sections=$(python3 scripts/sync-docs.py --check 2>/dev/null | grep -E '^\s*sections\s' | grep -oE '[0-9]+' | head -1)
+
+          # ── Live GitHub About blurb ──────────────────────────────────────
+          about=$(gh repo view --json description --jq '.description // ""')
+          about_c=$(printf '%s' "$about" | grep -oE '[0-9]+ countries' | grep -oE '[0-9]+' | head -1 || true)
+          about_s=$(printf '%s' "$about" | grep -oE '[0-9]+[^0-9]*sections' | grep -oE '[0-9]+' | head -1 || true)
+
+          {
+            echo "# Count-drift check — $(date -u +%Y-%m-%d)"
+            echo
+            echo "Canonical: **${countries} countries** · **${sections} sections** (from \`countries/\` + \`sync-docs.py\`)."
+            echo
+            echo "## GitHub About blurb"
+          } > "$out"
+
+          if [ -n "${about_c:-}" ] && [ "${about_c}" != "${countries}" ]; then
+            echo "- ❌ About says **${about_c}** countries; canonical is **${countries}**." >> "$out"; drift=1
+          else
+            echo "- ✅ Country count matches (${about_c:-?})." >> "$out"
+          fi
+          if [ -n "${about_s:-}" ] && [ "${about_s}" != "${sections}" ]; then
+            echo "- ❌ About says **${about_s}** sections; canonical is **${sections}**." >> "$out"; drift=1
+          else
+            echo "- ✅ Section count matches (${about_s:-?})." >> "$out"
+          fi
+          {
+            echo
+            echo "Fix (maintainer, needs admin rights): \`gh repo edit --description \"…${countries} countries × ${sections} …\"\`"
+            echo
+            echo "## Prose count claims (\`scripts/check-prose-counts.py\`)"
+            echo '```'
+          } >> "$out"
+          # Alert-only: capture the guard's report without failing the job.
+          if python3 scripts/check-prose-counts.py >> "$out" 2>&1; then
+            prose_ok=1
+          else
+            prose_ok=0; drift=1
+          fi
+          echo '```' >> "$out"
+
+          echo "drift=$drift" >> "$GITHUB_OUTPUT"
+          echo "Detected drift=$drift (prose_ok=${prose_ok})"
+
+      - name: Open / update / resolve the drift issue
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        env:
+          DRIFT: ${{ steps.drift.outputs.drift }}
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('_ci/count-drift.md', 'utf-8');
+            const title = '🔢 Count drift — About + prose';
+            const drift = process.env.DRIFT === '1';
+
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'count-drift', per_page: 10,
+            });
+            const pinned = open.find(i => i.title === title);
+            const date = new Date().toISOString().slice(0, 10);
+
+            if (drift) {
+              if (pinned) {
+                await github.rest.issues.update({
+                  owner: context.repo.owner, repo: context.repo.repo,
+                  issue_number: pinned.number, body,
+                });
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner, repo: context.repo.repo,
+                  issue_number: pinned.number,
+                  body: `**${date}** — drift still present.\n\n<details><summary>Report</summary>\n\n${body}\n\n</details>`,
+                });
+              } else {
+                await github.rest.issues.create({
+                  owner: context.repo.owner, repo: context.repo.repo,
+                  title, body, labels: ['maintenance', 'count-drift'],
+                });
+              }
+            } else if (pinned) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: pinned.number,
+                body: `**${date}** — ✅ all counts back in sync; closing.`,
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: pinned.number, state: 'closed',
+              });
+            }
