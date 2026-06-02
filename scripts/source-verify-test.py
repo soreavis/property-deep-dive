@@ -360,6 +360,11 @@ class TestPdfExtraction(unittest.TestCase):
         self.assertEqual(text, "")
         self.assertEqual(method, "")
 
+    def test_html_at_pdf_url_not_fed_to_extractors(self):
+        # a .pdf URL that returns HTML must short-circuit on the missing %PDF- magic (no pypdf noise)
+        text, method = SV.pdf_to_text(b"<!DOCTYPE html><html><body>fee 5720</body></html>")
+        self.assertEqual((text, method), ("", ""))
+
     def test_pdf_status_in_fetchresult(self):
         fr = SV.FetchResult("u", "PDF_NO_TEXT")
         self.assertEqual(fr.status, "PDF_NO_TEXT")

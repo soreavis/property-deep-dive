@@ -42,6 +42,7 @@ import hashlib
 import importlib.util
 import io
 import json
+import logging
 import os
 import random
 import re
@@ -67,6 +68,10 @@ _HAS_PDFTOTEXT = shutil.which("pdftotext") is not None
 try:
     import pypdf
     _HAS_PYPDF = True
+    # pypdf logs broken-PDF recovery chatter ("incorrect startxref pointer", "EOF marker not
+    # found", …) at WARNING when it falls back on a malformed file — silence it; pdf_to_text
+    # already handles the failure by returning empty.
+    logging.getLogger("pypdf").setLevel(logging.ERROR)
 except Exception:
     _HAS_PYPDF = False
 
@@ -476,6 +481,8 @@ def pdf_to_text(raw: bytes, max_pages: int = 0) -> tuple[str, str]:
     """Extract text from PDF bytes. Returns (text, method). method is 'pdftotext' / 'pypdf' /
     '' (no extractor available or extraction failed). pdftotext -layout is tried first because
     it keeps table columns (fee/rate schedules); pypdf is the pure-python fallback."""
+    if b"%PDF-" not in raw[:1024]:
+        return "", ""   # not a PDF (e.g. an HTML interstitial at a .pdf URL) — don't feed the extractors
     if _HAS_PDFTOTEXT:
         try:
             args = ["pdftotext", "-layout"]
@@ -609,22 +616,25 @@ async def fetch_text(session, url, ul_cfg, sv: SVConfig, robots, throttles, rate
                             continue
                         return FetchResult(url, "DEAD", http_status=status, content_type=ctype,
                                            note=f"http {status}", fetched_at=now)
-                    is_pdf = _is_pdf(ctype, url)
+                    is_pdf_candidate = _is_pdf(ctype, url)
                     # truly-binary (image/zip/etc.) — skip without downloading the body
-                    if not is_pdf and any(ctype.startswith(p) for p in sv.binary_prefixes):
+                    if not is_pdf_candidate and any(ctype.startswith(p) for p in sv.binary_prefixes):
                         return FetchResult(url, "BINARY", http_status=status, content_type=ctype,
                                            note="binary content — defer to agent WebFetch", fetched_at=now)
                     # Read up to the cap via chunked iteration — resp.content.read(n) returns only the
                     # first buffered chunk (~32 KB), which truncates PDFs to an invalid file and clips
                     # long HTML pages. PDFs must be read in full (a truncated PDF won't parse).
-                    cap = sv.pdf_max_bytes if is_pdf else sv.max_body_bytes
+                    cap = sv.pdf_max_bytes if is_pdf_candidate else sv.max_body_bytes
                     buf = bytearray()
                     async for chunk in resp.content.iter_chunked(65536):
                         buf.extend(chunk)
                         if len(buf) >= cap:
                             break
                     raw = bytes(buf[:cap])
-                    if is_pdf:
+                    # Confirm it's really a PDF by the magic bytes — a .pdf URL that serves an HTML
+                    # interstitial / error page is NOT a PDF; fall through to HTML so its figure
+                    # (if any) still gets token-checked, and the extractors aren't fed garbage.
+                    if is_pdf_candidate and b"%PDF-" in raw[:1024]:
                         if not sv.pdf_enabled:
                             return FetchResult(url, "BINARY", http_status=status, content_type=ctype,
                                                note="pdf extraction disabled", fetched_at=now)
@@ -648,7 +658,8 @@ async def fetch_text(session, url, ul_cfg, sv: SVConfig, robots, throttles, rate
                         last_note = f"challenge title: {title[:50]}"
                         await asyncio.sleep(_backoff(ul_cfg, attempt, resp.headers))
                         continue
-                    text = html_to_text(body) if "html" in ctype or ctype == "" else body
+                    # is_pdf_candidate-but-not-a-PDF reached here → it's an HTML interstitial; clean it
+                    text = html_to_text(body) if ("html" in ctype or ctype == "" or is_pdf_candidate) else body
                     return FetchResult(
                         url, "OK", http_status=status, content_type=ctype,
                         content_hash=hashlib.sha256(text.encode("utf-8", "replace")).hexdigest()[:16],
