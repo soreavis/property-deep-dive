@@ -243,7 +243,7 @@ Realistic per-invocation totals on **Claude Sonnet 4.6** (default in Claude Code
 | **Watch a listing (initial)** | `--watch <url>` | ~15K | ~500 | **$0.05** | $0.25 |
 | **`--update --validate-only` (1 country)** | URL liveness, no re-research | ~25K | ~1K | **$0.09** | $0.43 |
 | **`--update=<iso2>` (1 country full refresh)** | re-research + URL replace | ~150-200K | ~10-15K | **$0.60-0.83** | $3.00-4.13 |
-| **`--update --tier=A` (15 countries)** | quarterly cycle | ~1.5-3M | ~150-300K | **$6.75-13.50** | $33.75-67.50 |
+| **`--update --tier=A` (16 countries)** | quarterly cycle | ~1.5-3M | ~150-300K | **$6.75-13.50** | $33.75-67.50 |
 
 **Notes on the high end**
 
