@@ -46,7 +46,7 @@ This section determines whether a transaction is even legally possible — and w
 | **BVI company (Belonger-owned)** | Treated per Belonger status of ownership; verify with attorney |
 | **BVI company (non-Belonger-owned)** | Treated as non-Belonger — NBLHL required; **USD 500** company application fee |
 
-(Source: [bvi.gov.vg — NBLHL service page](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence) + Non-Belongers Land Holding Regulation Act CAP.122 ([laws.gov.vg](https://laws.gov.vg/)) + Harneys "Guide to Purchasing Property in the BVI" — *primary fees/timeline; practitioner detail flagged; verify with attorney before contract*)
+(Source: [bvi.gov.vg — NBLHL service page](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence) + Non-Belongers Land Holding Regulation Act CAP.122 ([bvi.gov.vg — legislation list](https://bvi.gov.vg/content/besides-registered-land-act-1970-are-there-any-other-legislation-may-be-applied)) + Harneys "Guide to Purchasing Property in the BVI" — *primary fees/timeline; practitioner detail flagged; verify with attorney before contract*)
 
 ### The NBLHL in detail [CRITICAL]
 

@@ -521,7 +521,7 @@ HIGH for IPCC AR6 regional projections; MEDIUM for parcel-level surge/SLR specif
 
 ## Section: `--visa`
 
-> **Critical update**: the **"Work From Bermuda" One Year Residential Certificate** (the 2020-launched remote-worker / digital-nomad route, application fee ~$263) was **DISCONTINUED on 28 February 2025** ([Mondaq — "The End Of The Digital Nomad Visa", 2025](https://www.mondaq.com/work-visas/1619512/the-end-of-the-digital-nomad-visa-how-else-can-individuals-reside-in-bermuda) + Citizen Remote — *secondary; verify at [gov.bm Immigration](https://www.gov.bm/department/immigration)*). **Do NOT present Work From Bermuda as an active programme.** Remaining residence routes for non-employed / investor persons are below.
+> **Critical update**: the **"Work From Bermuda" One Year Residential Certificate** (the 2020-launched remote-worker / digital-nomad route, application fee ~$263) was **DISCONTINUED on 28 February 2025** ([Mondaq — "The End Of The Digital Nomad Visa", 2025](https://www.mondaq.com/work-visas/1619512/the-end-of-the-digital-nomad-visa-how-else-can-individuals-reside-in-bermuda) + Citizen Remote — *secondary; verify at [gov.bm Work From Bermuda FAQ](https://forms.gov.bm/wfb/faq)*). **Do NOT present Work From Bermuda as an active programme.** Remaining residence routes for non-employed / investor persons are below.
 
 | Route | Threshold / eligibility | Notes |
 |---|---|---|

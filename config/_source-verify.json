@@ -1,0 +1,51 @@
+{
+  "_comment": "Source-content verifier configuration. Consumed by scripts/source-verify.py. This file holds ONLY extraction + verification knobs. Network politeness (rate limits, per-host caps, gov-suffix floor, EUR-Lex crawl-delay, excluded hosts, Cloudflare markers, retries, timeouts, user-agent) is NOT duplicated here — source-verify.py loads config/_url-liveness.json for all of that so the two tools share one source of truth. Update with a CHANGELOG entry + one-line rationale per change.",
+  "version": 1,
+  "extraction": {
+    "primary_only": true,
+    "_primary_only": "When true, only citations to a primary government / regulated source (gov-suffix OR an entry in scripts/primary-source-allowlist.txt) become claim records. These are the 'citable as fact' claims whose wrongness is most damaging. --include-secondary overrides at the CLI.",
+    "min_salient_values": 1,
+    "_min_salient_values": "A citation needs at least this many SALIENT value tokens (percentage / money / statute / specific date — a bare year does not count) in its surrounding claim sentence to be treated as a verifiable claim. Filters out navigation/roster links that carry no number.",
+    "claim_window_chars": 360,
+    "_claim_window_chars": "Fallback character window around the link used as the claim sentence when the containing line is longer than this.",
+    "salient_value_types": ["pct", "money", "statute", "date"],
+    "scope_dirs": ["skills/property-deep-dive/countries", "skills/property-deep-dive/shared"],
+    "skip_files": [
+      "test-fixtures.md",
+      "output-template.md",
+      "sections.md",
+      "anti-hallucination.md",
+      "source-verifier.md",
+      "updater.md"
+    ],
+    "skip_headings": ["Data sources", "Sources", "Where to verify", "Primary sources"]
+  },
+  "fetch": {
+    "max_body_bytes": 600000,
+    "excerpt_window_chars": 400,
+    "max_excerpts_per_claim": 4,
+    "content_cache_ttl_days": 30,
+    "binary_content_prefixes": ["application/octet-stream", "application/zip", "image/", "audio/", "video/"]
+  },
+  "pdf": {
+    "enabled": true,
+    "_extractor": "pdftotext -layout (poppler) preferred for table fidelity; pypdf pure-python fallback; PDF_NO_TEXT if neither extracts (scanned image).",
+    "max_pages": 0,
+    "max_bytes": 12000000,
+    "_max_bytes": "PDFs must be read in FULL — truncating mid-file (unlike HTML) corrupts the structure and the extractor returns nothing. 12 MB covers gov fee/rate-schedule PDFs with headroom."
+  },
+  "linter": {
+    "_comment": "check-citations.py flags citations to a bare domain ROOT sitting next to a figure (the page that proves the number is almost never the homepage). Advisory only. Add hosts/URLs here that are legitimate root pointers.",
+    "root_url_allowlist": []
+  },
+  "sampling": {
+    "default_sample": 60,
+    "_default_sample": "Per-run claim cap handed to the (expensive) LLM verification layer. Selection is FETCH-FREE — scored from extract metadata only — so network stays bounded to the chosen sample. TOKENS_ABSENT is a post-fetch verdict-prior surfaced in the worklist, never a selection key.",
+    "priority_weights": {
+      "stale_marker": 100,
+      "never_verified": 50,
+      "stamp_age_per_30d": 8,
+      "salient_statute_or_money": 10
+    }
+  }
+}

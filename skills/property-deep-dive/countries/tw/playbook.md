@@ -534,7 +534,7 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 
 ## Caveats unique to TW
 
-- **Foreign buyers face a reciprocity test** — 土地法 §17–§19 restricts foreign nationals to citizens of countries that grant Taiwan citizens reciprocal real-estate rights; 內政部 publishes the reciprocity list annually. Forbidden categories (regardless of reciprocity): 林地, 漁地, 狩獵地, 鹽地, 礦地, 水源地, 要塞軍備區, 邊境地. Confirm current reciprocity status for your nationality at 內政部 BEFORE offer. ([MOI source](https://www.moi.gov.tw/))
+- **Foreign buyers face a reciprocity test** — 土地法 §17–§19 restricts foreign nationals to citizens of countries that grant Taiwan citizens reciprocal real-estate rights; 內政部 publishes the reciprocity list annually. Forbidden categories (regardless of reciprocity): 林地, 漁地, 狩獵地, 鹽地, 礦地, 水源地, 要塞軍備區, 邊境地. Confirm current reciprocity status for your nationality at 內政部 BEFORE offer. ([Land Act §17–§19 — law.moj.gov.tw](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=D0060001))
 - **PRC nationals**: 臺灣地區與大陸地區人民關係條例 §69 applies — case-by-case 內政部 approval, max 1 residential per individual, 5-yr hold/sale lock, banned in defense-sensitive areas. Tightened since 2024.
 - **房地合一稅 2.0 35 % flat rate for foreigners holding >2 yrs** vs 15–20 % for residents long-term — material drag on foreign-buyer ROI; factor BEFORE offer
 - **公設比 (common-area ratio)** is a Taiwan-specific quirk: a "30 坪" listing with 33 % 公設 = ~20 坪 actually exclusive; ALWAYS demand the breakdown on 不動產說明書

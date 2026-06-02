@@ -249,7 +249,7 @@ Non-domestic tenements: flat 5% (no progression).
 
 ### Self-employment regimes
 
-- **Sole proprietor / partnership**: register with [Inland Revenue Department Business Registration Office](https://www.ird.gov.hk/eng/tax/bre.htm); BR fee HK$2,200 1-yr / HK$5,720 3-yr (2024-25 rate; subject to budget concession)
+- **Sole proprietor / partnership**: register with [Inland Revenue Department Business Registration Office](https://www.ird.gov.hk/eng/pdf/brfee_table.pdf); BR fee HK$2,200 1-yr / HK$5,720 3-yr (2024-25 rate; subject to budget concession)
 - **Profits Tax (个人独资业务)**: **two-tier rate** — first HK$2M of assessable profits at **7.5%** individual / 8.25% corporate; balance at 15% individual / 16.5% corporate ([IRD profits tax](https://www.ird.gov.hk/eng/tax/bus_pft.htm))
 - **No GST / VAT** in Hong Kong
 - **MPF (Mandatory Provident Fund)**: self-employed must contribute 5% of relevant income (capped HK$1,500/month) under Cap. 485

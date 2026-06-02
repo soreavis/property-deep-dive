@@ -1,0 +1,140 @@
+name: Source-content audit
+
+# Deterministic (NO-LLM) citation-health monitor. Complements url-liveness.yml: that checks a
+# cited URL is *alive*; this checks whether the cited page actually contains the *figure* it
+# backs, and whether that page *changed* since last run. Built on scripts/source-verify.py
+# --audit (706 unique primary-source URLs, ~3-4 min cold / ~2 min warm). Reports only — never
+# edits a playbook, never re-stamps. The expensive LLM adjudication stays on-demand
+# (shared/source-verifier.md). See that doc for the full design.
+
+on:
+  schedule:
+    # 1st of the month, 09:23 UTC. Off the top of the hour per GitHub's guidance that runs at
+    # :00 are most likely dropped under load. Monthly: gov-source change-rate doesn't warrant weekly.
+    - cron: '23 9 1 * *'
+  workflow_dispatch:
+
+concurrency:
+  group: source-verify
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  issues: write
+  actions: read  # list/download the prior cache artifact
+
+jobs:
+  audit:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    # ~3-4 min cold expected; 30 min gives ~8x headroom for runner network variability.
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
+        with:
+          python-version: '3.12'
+
+      - name: Install deps (aiohttp + poppler for PDF extraction + pypdf fallback)
+        run: |
+          python3 -m pip install --quiet 'aiohttp>=3.9,<4' 'pypdf>=4,<6'
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: PDF-extractor smoke test (fail loudly if extraction is broken on the runner)
+        run: |
+          pdftotext -v
+          # The unit tests include an embedded-PDF extraction assertion; if poppler AND pypdf are
+          # both unusable this fails here on run #1 rather than silently under-reporting PDF sources.
+          python3 scripts/source-verify-test.py
+
+      - name: Restore content cache from latest prior artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p _local/source-verify/content-cache
+          last_run=$(gh run list --workflow source-verify.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId // empty')
+          if [ -n "${last_run:-}" ]; then
+            if gh run download "$last_run" --name source-verify-cache --dir _local/source-verify/content-cache/ 2>/dev/null; then
+              echo "Restored content-cache index from run $last_run"
+            else
+              echo "No source-verify-cache artifact on run $last_run — cold start (no content-change baseline)"
+            fi
+          else
+            echo "No prior successful run — cold start"
+          fi
+
+      - name: Run deterministic audit
+        id: audit
+        run: python3 scripts/source-verify.py --audit --ci
+
+      - name: Run portal-root citation linter (advisory; appended to the issue)
+        if: always()
+        run: python3 scripts/check-citations.py | tee _ci/source-verify/linter.txt || true
+
+      - name: Upload content-cache artifact (90-day retention; index only — hashes for change-detection)
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: source-verify-cache
+          path: _local/source-verify/content-cache/index.json
+          retention-days: 90
+          if-no-files-found: error
+
+      - name: Upload full run artifact (report + json + linter)
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: source-verify-${{ github.run_id }}
+          path: _ci/source-verify/
+          retention-days: 90
+
+      - name: Emit run summary
+        if: always()
+        run: |
+          if [ -f _ci/source-verify/report.md ]; then
+            cat _ci/source-verify/report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Open or update rolling issue when flags exist
+        if: ${{ steps.audit.outputs.has_flags == 'true' }}
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        with:
+          script: |
+            const fs = require('fs');
+            let body = fs.readFileSync('_ci/source-verify/report.md', 'utf-8');
+            let linter = '';
+            try { linter = fs.readFileSync('_ci/source-verify/linter.txt', 'utf-8').split('\n')[0]; } catch (e) {}
+            const flagged = '${{ steps.audit.outputs.flagged }}';
+            const absent = '${{ steps.audit.outputs.tokens_absent }}';
+            const changed = '${{ steps.audit.outputs.content_changed }}';
+            const stale = '${{ steps.audit.outputs.stale_changed }}';
+
+            if (linter) {
+              body += `\n\n## Portal-root citation linter (advisory)\n\n${linter}\n\nFull list in artifact \`source-verify-${{ github.run_id }}/linter.txt\`.`;
+            }
+            if (body.length > 60000) {
+              body = body.slice(0, 60000) + '\n\n…truncated. See artifact `source-verify-${{ github.run_id }}`.';
+            }
+
+            const title = `Source audit: ${flagged} flagged (${absent} figure-absent · ${changed} page-changed · ${stale} stale-after-verify)`;
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'source-verify', per_page: 10,
+            });
+            if (issues.length > 0) {
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: issues[0].number, title, body,
+              });
+              core.info(`Updated rolling issue #${issues[0].number}`);
+            } else {
+              const { data: created } = await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['maintenance', 'source-verify'],
+              });
+              core.info(`Opened rolling issue #${created.number}`);
+            }

@@ -53,7 +53,7 @@ This section determines whether a transaction is even legally possible — and w
 ### Residency ≠ ownership
 
 - **Buying property does NOT confer residency or a right to work.** Residency is a separate immigration matter handled by **[WORC (Workforce Opportunities & Residency Cayman)](https://www.worc.ky/)** + Customs & Border Control.
-- **Residency by Investment / Certificate of Permanent Residence** requires a minimum real-estate investment. The **commonly cited figure is CI$2,000,000 for the 25-year Residency Certificate** (independent-means / substantial-business-presence routes) — **VERIFY the exact current threshold + category at [WORC](https://www.worc.ky/) / [gov.ky](https://www.gov.ky/) before relying** (budget-cycle volatile). See `--visa`.
+- **Residency by Investment** — the **commonly cited CI$2,000,000 figure is the threshold for the _lifetime_ Certificate of Permanent Residence (Persons of Independent Means)** (CI$2,000,000 in developed real estate; 250-person annual quota, s.30 Immigration (Transition) Act (2022 Revision)), **not for the 25-year Residency Certificate** — whose independent-means route carries a different, lower threshold and whose substantial-business-presence route is ownership/role-based (no fixed sum). ⚠️ The widely-repeated "CI$2,000,000 for the 25-year certificate" **conflates the two** — VERIFY the exact current threshold + category at [WORC](https://www.worc.ky/) before relying (budget-cycle volatile). See `--visa`.
 
 ### Compliance / AML
 
@@ -204,7 +204,7 @@ Governed by the **Stamp Duty Act (2019 Revision)** + subordinate **Stamp Duty (R
 
 ### Mortgage stamp duty (separate)
 
-- **~1%** on mortgages **under CI$300,000**; **~1.5%** on **CI$300,000+**. (Source: CIREBA stamp-duty page — **secondary**; verify current at [legislation.gov.ky](https://legislation.gov.ky/).)
+- **~1%** on mortgages **under CI$300,000**; **~1.5%** on **CI$300,000+**. (Source: CIREBA stamp-duty page — **secondary**; verify current at [legislation.gov.ky](https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/1973/1973-0005/1973-0005.pdf).)
 
 ### Caymanian-only concessions (foreigners cannot use)
 

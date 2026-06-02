@@ -22,7 +22,7 @@ ISO2: `mo`. Status: ✅ Fully populated (researched 2026-05).
 - **Recent reforms (2024–2026)**:
   - **2018 cooling measures (Law 4/2018)**: Non-Resident Buyer Stamp Duty +10% + Resident second-property +5% — ⚠️ **still in force 2026**
   - **Jan 2023**: Casino concession renewal — 6 concessionaires (SJM / Galaxy / Wynn / MGM / Sands / Melco) for 10 yrs through 31 Dec 2032 ([DICJ](https://www.dicj.gov.mo/))
-  - **2024**: Talent Programme launches under [Law 7/2023 — Regime de Captação de Talentos](https://bo.io.gov.mo/) (DSAMB)
+  - **2024**: Talent Programme operationally launches under [Lei 7/2023 — Regime jurídico de captação de quadros qualificados](https://bo.dsaj.gov.mo/bo/i/2023/22/lei07.asp) (enacted 2023, in force 1 Jul 2023; DSAMB)
   - **Dec 2024**: LRT Barra extension opens (improves Peninsula-Taipa connectivity); Hengqin Line under construction
   - **2013–2024 Heritage Law enforcement**: [Lei do Património Cultural — Law 11/2013](https://bo.io.gov.mo/bo/i/2013/36/lei11.asp) — strict modification + buffer-zone restrictions around UNESCO **Macao Historic Centre** (22 buildings + 8 squares listed 2005)
 
