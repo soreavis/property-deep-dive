@@ -1,31 +1,44 @@
 name: Auto-merge docs PRs
 
-# Enables auto-merge (squash) on PRs that satisfy ALL of:
-#   - Have label `documentation`
-#   - NOT marked as draft
+# Enables auto-merge (squash) on PRs that satisfy ALL of (checked LIVE, not from
+# the event payload):
+#   - Carry label `documentation`
+#   - NOT a draft
 #   - Don't carry a blocking label (`wip`, `do-not-merge`, `blocked`)
 #   - Author is the maintainer OR a known automation bot
 #     (changelog-on-merge bot, dependabot — never an arbitrary external)
 #
-# `gh pr merge --auto` queues the merge: GitHub waits until all required
-# checks pass and only then squashes. If a required check fails, the PR
-# stays open and a maintainer can intervene.
+# `gh pr merge --auto` queues the merge: GitHub waits until all required checks
+# pass and only then squashes. If a required check fails the PR stays open.
 #
-# Token: uses PR_BOT_TOKEN (PAT, Pull-requests:RW + Contents:RW on this
-# repo only). The default GITHUB_TOKEN cannot be used here — the GraphQL
-# `enablePullRequestAutoMerge` mutation rejects it with
-# "Resource not accessible by integration". Same trust pattern as
-# changelog-on-merge.yml (see PR #23 for the rationale + token setup).
+# WHY READ LABELS LIVE + the `workflow_run` trigger
+# -------------------------------------------------
+# The path-based labeler (.github/workflows/labeler.yml) applies `documentation`
+# with the default GITHUB_TOKEN. GitHub's recursion-prevention means a label
+# applied by GITHUB_TOKEN does NOT emit a `labeled` event that re-triggers this
+# workflow. So a PR OPENED WITHOUT the label (the normal case — the labeler runs
+# after `opened`) used to read an empty label set from the stale `opened` payload
+# and skip forever, never enabling auto-merge (e.g. PR #229). Fix: (1) re-evaluate
+# after the labeler finishes via `workflow_run`, and (2) read the CURRENT labels /
+# draft / author from the API inside the job rather than trusting the event
+# payload. The "documentation-only" safety gate is unchanged — content additions
+# (new countries, regulatory edits) carry hallucination risk and still get manual
+# review; this only fixes the timing race that affected docs PRs themselves.
 #
-# Why "documentation" only — content additions (new countries, regulatory
-# updates, anti-hallucination edits) carry a hallucination risk that
-# warrants manual review. Pure prose / docs / metadata edits don't.
+# Token: PR_BOT_TOKEN (PAT, Pull-requests:RW + Contents:RW on this repo only).
+# The default GITHUB_TOKEN cannot enable auto-merge — the GraphQL
+# `enablePullRequestAutoMerge` mutation rejects it ("Resource not accessible by
+# integration"). Same trust pattern as changelog-on-merge.yml (see PR #23).
 
 on:
   pull_request:
     types: [labeled, opened, synchronize, ready_for_review, reopened]
   pull_request_target:
     types: [labeled, opened, synchronize, ready_for_review, reopened]
+  workflow_run:
+    # Re-evaluate once the labeler has had a chance to apply `documentation`.
+    workflows: ["Path-based labeler"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -36,33 +49,56 @@ jobs:
     name: Enable auto-merge if eligible
     runs-on: ubuntu-latest
     timeout-minutes: 3
+    # For workflow_run, only proceed when the labeler succeeded; for the
+    # pull_request events, always enter and let the live-state check decide.
     if: >-
-      github.event.pull_request.draft == false
-      && contains(github.event.pull_request.labels.*.name, 'documentation')
-      && !contains(github.event.pull_request.labels.*.name, 'wip')
-      && !contains(github.event.pull_request.labels.*.name, 'do-not-merge')
-      && !contains(github.event.pull_request.labels.*.name, 'blocked')
-      && (
-        github.event.pull_request.user.login == 'soreavis'
-        || github.event.pull_request.user.login == 'github-actions[bot]'
-        || github.event.pull_request.user.login == 'dependabot[bot]'
-      )
+      github.event_name != 'workflow_run'
+      || github.event.workflow_run.conclusion == 'success'
     steps:
-      - name: Enable squash auto-merge
+      - name: Enable squash auto-merge if the PR is eligible (live check)
         env:
-          # PAT (not GITHUB_TOKEN). The enablePullRequestAutoMerge GraphQL
-          # mutation rejects GITHUB_TOKEN ("Resource not accessible by
-          # integration"). The PAT is user-attributed and works.
           GH_TOKEN: ${{ secrets.PR_BOT_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          # number from a pull_request* event, else from the upstream labeler run;
+          # empty string if neither (e.g. a fork PR — workflow_run carries no PR).
+          PR_FROM_PR: ${{ github.event.pull_request.number }}
+          PR_FROM_RUN: ${{ github.event.workflow_run.pull_requests[0].number }}
         run: |
           set -euo pipefail
-          # Auto-merge enrolment is idempotent — repeated runs are no-ops once
-          # already enabled. We capture stderr so a real error is visible
-          # in the log (the previous version swallowed it via `if/else`).
-          if gh pr merge "${PR_NUMBER}" --repo "${GITHUB_REPOSITORY}" --auto --squash 2>&1; then
-            echo "::notice::Auto-merge enabled for PR #${PR_NUMBER}"
+          pr="${PR_FROM_PR:-}"
+          [ -n "$pr" ] || pr="${PR_FROM_RUN:-}"
+          if [ -z "$pr" ]; then
+            echo "::notice::No PR number on this event (likely a fork PR) — nothing to do."
+            exit 0
+          fi
+
+          # Read the CURRENT state from the API, never the (possibly stale) payload.
+          data=$(gh pr view "$pr" --repo "$GITHUB_REPOSITORY" \
+            --json state,isDraft,author,labels)
+          state=$(jq -r '.state' <<<"$data")
+          draft=$(jq -r '.isDraft' <<<"$data")
+          author=$(jq -r '.author.login' <<<"$data")
+          labels=$(jq -r '.labels[].name' <<<"$data")
+
+          eligible=true
+          [ "$state" = "OPEN" ] || { echo "PR #$pr is $state — skip."; eligible=false; }
+          [ "$draft" = "false" ] || { echo "PR #$pr is a draft — skip."; eligible=false; }
+          case "$author" in
+            soreavis|"github-actions[bot]"|"dependabot[bot]") ;;
+            *) echo "PR #$pr author '$author' not eligible — skip."; eligible=false ;;
+          esac
+          grep -qx 'documentation' <<<"$labels" || { echo "PR #$pr lacks 'documentation' — skip."; eligible=false; }
+          for bad in wip do-not-merge blocked; do
+            if grep -qx "$bad" <<<"$labels"; then echo "PR #$pr carries blocking label '$bad' — skip."; eligible=false; fi
+          done
+
+          if [ "$eligible" != true ]; then
+            exit 0
+          fi
+
+          # Idempotent: re-running once auto-merge is already enabled is a no-op.
+          if gh pr merge "$pr" --repo "$GITHUB_REPOSITORY" --auto --squash 2>&1; then
+            echo "::notice::Auto-merge enabled for PR #$pr"
           else
-            ec=$?
-            echo "::warning::Auto-merge could not be enabled for PR #${PR_NUMBER} (exit ${ec}). See preceding gh CLI output for the real cause."
+            echo "::warning::Could not enable auto-merge for PR #$pr — see gh output above."
           fi
