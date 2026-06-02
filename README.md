@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="docs/assets/france-panorama.webp" alt="Panoramic stretch of French countryside with a medieval town on a river under soft afternoon cloud cover" width="100%">
+  <br>
+  <sub><em>France, somewhere on the shuttle.</em></sub>
+</p>
+
 # property-deep-dive
 
 [![Release](https://img.shields.io/github/v/release/soreavis/property-deep-dive?label=release&sort=semver)](https://github.com/soreavis/property-deep-dive/releases)
@@ -388,7 +394,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 193 markdown files, ~94,900 lines (SKILL.md + 65 top-level shared/ + 14 shared/exit/ region files + 121 country playbooks).
-**Repo total**: 215 markdown files, ~103,500 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 215 markdown files, ~103,600 lines (skill content + community / governance files + CHANGELOG) · 36 YAML / JSON config files (28 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
