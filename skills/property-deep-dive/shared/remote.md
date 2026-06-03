@@ -438,6 +438,32 @@ These work regardless of the property country and prevent the most common cross-
 
 ---
 
+## Closing-day funds settlement: wire cut-offs, cleared-vs-available, FX timing
+
+Completion fails on the money leg as often as on the legal one. The deed can be ready, the notary present, the POA valid — and the deal still collapses at 16:00 because the wire missed the rail's cut-off, or because "the funds showed in the account" was mistaken for "the funds have cleared." This is the operational neighbour of the *Hawarden v ENS* BEC trap (mitigation #7 above): same closing day, same money leg, different failure mode. Pairs with `shared/currency.md` (which rail, which FX spread, which authorised dealer).
+
+**The trap** — three distinct things get conflated:
+
+1. **Available ≠ cleared/final.** Under US **Reg CC (12 CFR Part 229 subpart B)** a bank must make certain deposits "available for withdrawal" on a mandated schedule — next business day for Treasury / cashier's / certified checks and in-person cash (§ 229.10), 2nd business day for local checks (§ 229.12) — *before the item has actually cleared*, and it can claw the funds back if the item bounces. A wire (Fedwire / CHAPS / T2) is different: it settles with **same-day finality** and is irrevocable once accepted. Fund completion with a **wire**, never a check riding a Reg-CC availability hold. *(PRIMARY: [ecfr.gov 12 CFR 229](https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-229/subpart-B))*
+2. **Rail cut-off ≠ your bank's cut-off**, and your bank's same-day-send deadline is *earlier* than the rail's. Verified rail times (in the rail's own local clock — these shift with DST, they are NOT fixed GMT/EST):
+   - **Fedwire (USD):** customer/third-party wire cut-off **18:45 ET**, system closes 19:00 ET; opens 21:00 ET prior day (Operating Circular 6 — [frbservices.org operating hours](https://www.frbservices.org/resources/financial-services/wires/operating-hours.html)).
+   - **CHAPS (GBP):** customer cut-off **17:40**, interbank close 18:00, opens 06:00 (Bank of England [RTGS daily timetable](https://www.bankofengland.co.uk/payment-and-settlement/summary-of-rtgs-daily-timetable)).
+   - **SEPA SCT (EUR):** PSD2 max execution **D+1** (next business day, Dir (EU) 2015/2366 Art. 83); **SEPA Instant** has *no* cut-off — 24/7, funds in <10s. The "16:30/17:00 CET" figures banks quote are individual-bank send deadlines, NOT a scheme rule.
+   - **T2 (EUR, Eurosystem RTGS, live 20 Mar 2023):** customer cut-off ~17:00 CET / interbank ~18:00 CET (verify against the current ECB TARGET schedule).
+3. **Time-zone collision on cross-border completion.** A US buyer wiring USD→EUR for a European completion is already past the CHAPS/T2 cut-off by US mid-morning: a 17:40 London cut-off is 12:40 ET / 09:40 PT, so a Pacific-coast buyer who starts the wire "first thing" has *already missed it*. Same TZ trap as remote video-signing, now on the money.
+
+**Buyer mitigations:**
+
+- **Pre-position funds T-2 (two business days early).** Land the cleared balance in the *completion-currency* account before completion day, so the closing-day transfer is a domestic same-day wire (Fedwire/CHAPS/T2 intraday), not a cross-border FX hop racing a cut-off.
+- **Confirm your bank's *customer* cut-off in writing, not the rail's.** Ask the originating bank its same-day send cut-off for an outgoing wire of your size, and whether large amounts trigger a manual fraud-callback — the callback often eats the remaining window.
+- **Never execute FX on completion morning.** A spot conversion booked the morning of completion exposes the whole purchase price to that day's rate and to settlement lag (spot FX is typically T+2). Lock the rate ahead (forward / limit order via an authorised dealer — see `shared/currency.md`) and have *cleared* completion-currency funds ready.
+
+> PSD3 + the Payment Services Regulation (PSR) are **not yet in force** (provisional EU political agreement 27 Nov 2025; OJ publication expected mid-2026; applicability ~2028) — PSD2's D+1 rule still governs euro credit transfers today. Fedwire's ISO 20022 migration completed 14 Jul 2025 (see `shared/regulatory-watch.md`).
+
+**Confidence**: HIGH on Fedwire / CHAPS / SEPA / Reg CC (primary sources); MEDIUM on the exact T2 customer cut-off clock time (classic TARGET2 figure — confirm against the current ECB schedule). Rail hours are current as of 2026-06 — a Fedwire operating-window expansion (approved Nov 2025) and an earlier CHAPS open (from Sept 2027) are pending; re-confirm near completion. **Last verified**: 2026-06-03.
+
+---
+
 ## Cross-jurisdictional reform calendar (date-stamped)
 
 | # | Reform | Date | Status (2026-05-09) |

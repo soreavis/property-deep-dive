@@ -507,6 +507,34 @@ The 12-country group splits into three banking archetypes. **Mauritius and Seych
 
 ---
 
+## LGBTQ+ & unmarried-partner joint title + co-borrower eligibility (at purchase)
+
+Marital status and the law of *who can co-own and co-borrow* are separable. Across the corpus, **joint title is a property-law act, not a family-law one** — two unmarried or same-sex persons can almost always take title together. The friction sits elsewhere: (1) **lender** willingness to accept co-borrowers who aren't married to each other, and (2) the **protection** of the surviving / non-married partner, which is a succession question handled in `shared/notary-forced-heirship.md`, not here. This sub-section is *purchase-time eligibility only*.
+
+⚠️ **Trap**: "we can both be on the deed" is not "the survivor is protected." Civil-law co-ownership has no default survivorship and no community-property regime for unmarried / same-sex cohabitants — each share passes by succession (forced-heirship + higher non-relative succession tax). Purchase-time fixes: elect the survivorship form where it exists (common-law joint tenancy), hold by fractional shares + a written cohabitation / declaration-of-trust, use a notary-structured usufruct / *tontine* clause in civil-law states, or register a civil partnership (FR PACS / UK civil partnership) where that unlocks spousal-equivalent treatment.
+
+**TITLE side — generally YES everywhere:**
+
+- **Common-law (US, CA, UK, IE, AU, NZ)** — joint tenancy (with survivorship) or tenancy-in-common, any two persons, no marriage required. Strongest path *if* the survivorship form is elected on the deed / TR1.
+- **Civil-law (FR *indivision*, DE *Miteigentum*, ES/PT *copropiedad/compropriedade*, IT *comproprietà*, NL *gemeenschappelijk eigendom*, and the rest of the EU/EFTA corpus)** — co-ownership by fractional share is open to any two persons; no marital-status bar.
+- **JP** — registered co-ownership (共有 *kyōyū*) open to unmarried / same-sex co-owners.
+- **Restrictive markets (AE/UAE, SA, GCC)** — foreign freehold is zone-limited *regardless of couple type*, and title-registration in a designated freehold zone does not bar two co-purchasers — BUT same-sex relations are criminalised, so openly co-purchasing as a same-sex couple carries personal-legal exposure beyond the title mechanics. Proceed only with named local counsel; verify per-emirate at `--permits`.
+
+**MORTGAGE side — unmarried / same-sex co-borrowers:**
+
+- **JP — the documented positive case**: JHF **Flat 35** admits same-sex partners as joint-and-several co-borrowers (連帯債務者), income-combining party (収入合算), and co-owner of the financed property — for applications received on/after **4 Jan 2023** (announced 20 Dec 2022; requires a municipal partnership certificate or notarised pledge), couple group-life cover (デュエット) included ([flat35.com](https://www.flat35.com/topics/20221220.html) + [jhf.go.jp](https://www.jhf.go.jp/topics/topics_20221220.html), PRIMARY). Private JP banks' partner pair-loans exist lender-by-lender — verify the specific bank.
+- **US** — ECOA + Fair Housing Act bar marital-status / sex discrimination in credit; unmarried and same-sex co-borrowers are standard.
+- **UK, IE, FR, DE, ES, IT, PT, NL, AU, NZ** — joint mortgages for unmarried / same-sex co-borrowers are available in practice; lenders assess combined income + joint-and-several liability, not marital status (practice-level — confirm the individual lender's product terms).
+- **AE/UAE, GCC** — no documented openly-same-sex co-borrower product; the penal / personal-status context makes openly-couple co-borrowing inadvisable. Treat as UNVERIFIED.
+
+**EU cross-border note (recognition, not title):** CJEU **C-713/23** *Cupriak-Trojan and Trojan v Wojewoda Mazowiecki* (Grand Chamber, **25 Nov 2025**, [EUR-Lex CELEX 62023CJ0713](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62023CJ0713)) held that a member state must recognise a same-sex marriage lawfully contracted by its nationals in another member state during free-movement, without forcing states to introduce domestic same-sex marriage (builds on *Coman* C-673/16, 5 Jun 2018). This bears on a buyer's *recognition / residence* status, not the title or mortgage directly — but a recognised marriage can unlock spousal lender / notary treatment in some states. The UAE non-Muslim civil-status law (Federal Decree-Law No. 41 of 2022, in force 1 Feb 2023) is opposite-sex-only and does NOT enable same-sex marriage or joint title ([loc.gov GLM](https://www.loc.gov/item/global-legal-monitor/2023-03-13/united-arab-emirates-personal-status-law-for-non-muslims-enters-into-force/)).
+
+**Scale**: marriage equality is in force in ~38 jurisdictions as of 2026 (Pew via [Our World in Data](https://ourworldindata.org/grapher/same-sex-marriage-country-count) counts "nearly 40"), most recently Thailand (in force 23 Jan 2025) and Liechtenstein (1 Jan 2025); a majority of UN states still do not recognise same-sex marriage. In non-recognising states the title-side co-ownership usually still works, but spousal-equivalent lender / notary / succession treatment does not — fall back to fractional shares + a written cohabitation agreement.
+
+**Confidence**: MEDIUM-HIGH. JP Flat 35 (4 Jan 2023), CJEU C-713/23 (25 Nov 2025), UAE Decree-Law 41/2022 scope, and the 38-country count are PRIMARY / authoritative-sourced; common-law / civil-law title structure is well-established. Per-country *lender* practice (beyond US ECOA) is practice-level — confirm the specific bank's terms at purchase. **Last verified**: 2026-06-03.
+
+---
+
 ## 7 universal mitigations
 
 1. **Open the bank account BEFORE the property offer goes in, not after.** The "I'll get the account when I sign the deed" plan fails routinely — closing-day wire deadlines collide with 4-12 week non-resident onboarding windows. In FR / DE / ES / IT / SG / HK / SA / SE start the account-opening process before the offer is in (BR CPF, MX RFC, ES NIE can be obtained months ahead via consulate). Use HSBC Expat Jersey as a 2-week pre-arrival universal fallback for any country where the local bank rejects.
