@@ -196,7 +196,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Earthquake**: generally low-moderate
   - **Pacific Azuero peninsula** + **Bocas del Toro Caribbean** higher zones
-  - 2024 M6+ events documented (verify via [USGS Panama 2024 catalogue](https://earthquake.usgs.gov/earthquakes/search/?starttime=2024-01-01&endtime=2024-12-31&minmagnitude=6&maxlatitude=10&minlatitude=7&maxlongitude=-77&minlongitude=-83) + Universidad de Panamá Sismología)
+  - **2024: zero ≥M6 events recorded** in the Panama box — [USGS catalogue](https://earthquake.usgs.gov/earthquakes/search/?starttime=2024-01-01&endtime=2024-12-31&minmagnitude=6&maxlatitude=10&minlatitude=7&maxlongitude=-77&minlongitude=-83) returns count 0 for 2024 (cross-check trend at Universidad de Panamá Sismología); the underlying hazard remains real but 2024 was quiet at ≥M6
 - **Flooding + landslide**: rainy season May–Nov
   - 2024 Bocas/Chiriquí floods documented by SINAPROC — verify scope per address
 - **Hurricanes**: **mostly outside hurricane belt** (Panama is south of typical paths)

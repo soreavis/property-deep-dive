@@ -338,7 +338,7 @@ For primary residence:
 
 ## Active fiscal incentives (2025-2026)
 
-- **NHG (Nationale Hypotheek Garantie)**: cap **€470,000** (2026; €498,200 with energy-saving uplift; was €450k 2025); fee 0.4% of mortgage (2026-05-27 verified; source [Rijksoverheid NHG 2026](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/08/nhg-grens-stijgt-naar-€-470.000))
+- **NHG (Nationale Hypotheek Garantie)**: cap **€470,000** (2026; €498,200 with energy-saving uplift; was €450k 2025); fee 0.4% of mortgage (2026-05-27 verified; source [Rijksoverheid NHG 2026](https://www.volkshuisvestingnederland.nl/actueel/nieuws/2025/10/08/nhg-grens-stijgt-naar-470.000-euro-afsluitpremie-blijft-04))
 - **Starterslening** (gemeente top-up loans for FTB)
 - **Energiesubsidie ISDE**: heat pumps, insulation
 - **30% ruling** for expat workers (60 months / 5 years; tapering repealed, flat 27% for full 60 months from 1 Jan 2027 — see `--work`)

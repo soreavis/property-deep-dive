@@ -105,7 +105,7 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
   - Band H: est. £4,000–£8,000+/yr
 - **NI**: domestic rate = capital value × (district + regional rate), typically 0.7–1.0% capital value
 - Single-person discount: 25% (must apply)
-- Empty-home premium up to **+100%** since **1 April 2024** (qualifying period reduced 2y → 1y); second-home premium up to **+100%** since **1 April 2025** (Levelling-up & Regeneration Act 2023; council discretion; councils had to resolve before 31 Mar 2024 to apply from 1 Apr 2025). (2026-05-27 verified; source [gov.uk Council Tax premiums guidance](https://www.gov.uk/government/publications/council-tax-information-letters-2024))
+- Empty-home premium up to **+100%** since **1 April 2024** (qualifying period reduced 2y → 1y); second-home premium up to **+100%** since **1 April 2025** (Levelling-up & Regeneration Act 2023; council discretion; councils had to resolve before 31 Mar 2024 to apply from 1 Apr 2025). (2026-05-27 verified; source [gov.uk Council Tax premiums guidance](https://www.gov.uk/government/publications/long-term-empty-homes-and-second-homes-council-tax-premiums-and-exceptions/guidance-on-the-implementation-of-the-council-tax-premiums-on-long-term-empty-homes-and-second-homes))
 
 ### Transaction taxes
 
@@ -187,7 +187,7 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
 ### Long-term residential
 
 - **Assured Shorthold Tenancy (AST)** — England/Wales standard
-- **Renters' Rights Act 2025** — Royal Assent **27 October 2025**; abolishes s21 "no-fault" evictions from **1 May 2026** (first commencement). Pre-1 May 2026 s21 notices remain valid until 31 July 2026. (2026-05-27 verified; source [Renters' Rights Act 2025 — legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2025/40))
+- **Renters' Rights Act 2025** — Royal Assent **27 October 2025**; abolishes s21 "no-fault" evictions from **1 May 2026** (first commencement). Pre-1 May 2026 s21 notices remain valid until 31 July 2026. (2026-05-27 verified; source [Renters' Rights Act 2025 — legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2025/26/introduction))
 - **Tenancy deposit scheme** (TDS / DPS / mydeposits) mandatory
 - **Right to Rent** (immigration check) mandatory in England
 

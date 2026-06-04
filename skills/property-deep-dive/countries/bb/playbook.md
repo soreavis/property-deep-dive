@@ -229,7 +229,7 @@ Governed by the **Land Tax Act, Cap. 78A** + the **Land Tax (Rate of Tax) Order,
 
 **Non-residential (commercial/other)**: **0.95%** of improved value (no exemption).
 
-(Source: [BRA Land Tax — How is Land Tax calculated](https://bra.gov.bb/FAQS/Land-Tax/How-is-Land-Tax-calculated) + Land Tax (Rate of Tax) Order 2024 — *VERIFY current bands at BRA before relying; bands apply 2024–2026 fiscal year per S.I. 2024 No. 57 — rates may change at next budget*)
+(Source: [BRA Land Tax — How is Land Tax calculated](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024) + Land Tax (Rate of Tax) Order 2024 — *VERIFY current bands at BRA before relying; bands apply 2024–2026 fiscal year per S.I. 2024 No. 57 — rates may change at next budget*)
 
 **Filing + payment**:
 - **Annual valuation** by BRA Valuation Department; **2025–2026 Land Tax bills issued 12 May 2025** ([BRA press release](https://bra.gov.bb/News/Press-Releases/BRA-RELEASES-2025-2026-LAND-TAX-BI)).

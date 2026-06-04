@@ -512,7 +512,7 @@ Account opening requires HKID for residents; for non-residents, in-person visit 
 
 ### Peg credibility
 
-HKMA's [USD foreign reserves](https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/monthly-statistical-bulletin/) ≈ USD 425B (Q1 2026), ~6× monetary base coverage. Peg defended successfully through 1997 Asian crisis, 1998 GFC stress, 2018-2020 trade-war pressure, 2022-2024 USD-strength cycle (HKMA bought HKD at 7.85 weak-side multiple times Apr 2022 – Aug 2023; Jul 2025 again per [Xinhua 2025-07-03](https://english.news.cn/20250703/45563ff358854f1d95d7a72ba1924b74/c.html)). Periodic academic + policy debate on long-term sustainability ([Wharton 2025 working paper](https://fnce.wharton.upenn.edu/wp-content/uploads/2025/08/UrbanJermann2_12_25.pdf)) — not a near-term break risk.
+HKMA's [USD foreign reserves](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/05/20260507-5/) ≈ USD 425B (Q1 2026), ~6× monetary base coverage. Peg defended successfully through 1997 Asian crisis, 1998 GFC stress, 2018-2020 trade-war pressure, 2022-2024 USD-strength cycle (HKMA bought HKD at 7.85 weak-side multiple times Apr 2022 – Aug 2023; Jul 2025 again per [Xinhua 2025-07-03](https://english.news.cn/20250703/45563ff358854f1d95d7a72ba1924b74/c.html)). Periodic academic + policy debate on long-term sustainability ([Wharton 2025 working paper](https://fnce.wharton.upenn.edu/wp-content/uploads/2025/08/UrbanJermann2_12_25.pdf)) — not a near-term break risk.
 
 ⚠️ **Tail risk**: any sustained breakdown of LERS would re-rate HKD-denominated property substantially in foreign-currency terms. Position-size with this in mind for foreign-currency-denominated buyers.
 

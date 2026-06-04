@@ -192,7 +192,7 @@ Three regulatory tiers operate in parallel here. **EU-AMLD jurisdictions** (PL, 
 - **9 Jan 2025** — EU Instant Payments Regulation 2024/886 — all eurozone PSPs must **receive** SEPA-Instant — [EUR-Lex 2024/886](https://eur-lex.europa.eu/eli/reg/2024/886/oj/eng)
 - **2025 (year-round)** — AM Central Bank of Armenia rolled out CRS auto-exchange for non-residents — banks now require self-certification matching actual tax residency — [afm.am 2025](https://afm.am/en/journal/debit-cards/how-to-open-a-bank-account-in-armenia-documents-for-residents-and-non-residents-remote-options-and-key-aspects-in-2025)
 - **21 Feb 2025** — FATF Plenary keeps BG on grey list, makes initial determination CR has substantially completed action plan — [FATF Feb 2025](https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-february-2025.html)
-- **1 Apr 2025** — LV depositor compensation handover Citadele → Latvijas Banka (final ABLV liquidation milestone) — [Latvijas Banka](https://www.bank.lv/en/operational-areas/supervision/monitoring-of-ablv-bank-voluntary-liquidation-process)
+- **1 Apr 2025** — LV depositor compensation handover Citadele → Latvijas Banka (final ABLV liquidation milestone) — [Latvijas Banka](https://www.bank.lv/en/operational-areas/customer-protection/information-for-former-bank-clients)
 - **22 May 2025** — RS joins SEPA geographic scope (operational from Nov 2025, ORD May 2026) — [EC Enlargement](https://enlargement.ec.europa.eu/news/european-commission-welcomes-inclusion-serbia-single-euro-payments-area-2025-05-22_en)
 - **13 Jun 2025** — HR **removed** from FATF grey list — [AML UAE Jun 2025](https://amluae.com/croatia-mali-and-tanzania-removed-bolivia-and-virgin-islands-uk-added-fatf-grey-list-june-2025-update/)
 - **1 Jul 2025** — EU Anti-Money Laundering Authority (AMLA) operational at Frankfurt am Main — [EUR-Lex 2024/1620](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1620)
@@ -499,7 +499,7 @@ The 12-country group splits into three banking archetypes. **Mauritius and Seych
 - **31 Mar 2026** — AU — AUSTRAC Tranche 2 enrolment opens for real-estate professionals (agents, conveyancers, developers) — [AUSTRAC Tranche 2](https://www.austrac.gov.au/about-us/amlctf-reform/summary-amlctf-obligations-tranche-2-entities)
 - **1 Jul 2026** — AU — AUSTRAC Tranche 2 AML/CTF obligations live for real-estate sector — [AUSTRAC Tranche 2](https://www.austrac.gov.au/about-us/amlctf-reform/summary-amlctf-obligations-tranche-2-entities)
 - **1 Jan 2027** — CA — Prohibition on the Purchase of Residential Property by Non-Canadians Act expiry (extended Feb 2024 from original 1 Jan 2025) — [Canada.ca](https://www.canada.ca/en/department-finance/news/2024/02/government-announces-two-year-extension-to-ban-on-foreign-ownership-of-canadian-housing.html)
-- **31 Mar 2027** — AU — Foreign-buyer ban on established dwellings scheduled expiry (subject to extension) — [foreigninvestment.gov.au](https://foreigninvestment.gov.au/news-and-reports/news/changes-foreign-purchases-established-dwellings)
+- **31 Mar 2027** — AU — Foreign-buyer ban on established dwellings scheduled expiry (subject to extension) — [foreigninvestment.gov.au](https://foreigninvestment.gov.au/guidance/types-investments/residential-land)
 
 ### Confidence
 

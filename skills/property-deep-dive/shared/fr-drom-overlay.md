@@ -36,7 +36,7 @@ Métropole: standard 20% / intermediate 10% / reduced 5.5% / super-reduced 2.1%.
 
 **Property impact:**
 - New-build (*VEFA / immeuble neuf*) VAT is charged at **8.50% in GP/MQ/RE** vs 20% in métropole → meaningful new-build price advantage (2025 data, source: [impots.gouv.fr — TVA DOM](https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-differents-taux-de-tva-applicables-dans-les-dom)).
-- Rental services (furnished short-let, *para-hôtellerie*) — reduced 2.10% applies where the métropole rate would be 5.5% or 10% (2025 data, [BOFiP BOI-TVA-GEO-20-10](https://bofip.impots.gouv.fr/bofip/2253-PGP.html/identifiant%3DBOI-TVA-GEO-20-10)).
+- Rental services (furnished short-let, *para-hôtellerie*) — reduced 2.10% applies where the métropole rate would be 5.5% or 10% (2025 data, [BOFiP BOI-TVA-GEO-20-10](https://bofip.impots.gouv.fr/bofip/343-PGP.html/identifiant=BOI-TVA-GEO-20-10-20190605)).
 - **GF / YT: no TVA on construction services or short-let** — but they have *octroi de mer* instead (§ 4).
 
 > **Forbidden-phrasing reminder:** do not write the rate as a fuzzy band — the rate is exactly 8.50% per BOI-TVA-GEO-20-10. Quote it precisely.
@@ -51,10 +51,10 @@ Legal anchor: [Loi n° 2004-639 du 2 juillet 2004 relative à l'octroi de mer](h
 
 **Property-relevant impacts:**
 
-- **Construction materials** (steel rebar, cement, lumber, tiles, plumbing fixtures, electrical) are heavily *octroi*-loaded since they're almost all imported. The composite cost premium typically lands in the **15–25%** band vs métro depending on category (~est. — calibrated against published rates by *conseils régionaux*; verify the latest *tarif octroi de mer* per material for the specific DROM at [douane.gouv.fr — Octroi de mer](https://www.douane.gouv.fr/fiche/octroi-de-mer)).
+- **Construction materials** (steel rebar, cement, lumber, tiles, plumbing fixtures, electrical) are heavily *octroi*-loaded since they're almost all imported. The composite cost premium typically lands in the **15–25%** band vs métro depending on category (~est. — calibrated against published rates by *conseils régionaux*; verify the latest *tarif octroi de mer* per material for the specific DROM at [douane.gouv.fr — Octroi de mer](https://www.douane.gouv.fr/lexique/octroi-de-mer)).
 - **Renovation budget:** add an explicit "*octroi de mer* premium" line to the cost calc — do not assume métro material pricing.
 - **VEFA new-builds:** the *octroi* is embedded in the developer's input prices; it does not show as a separate line on the *acte authentique* but is implicit in the listing price.
-- 2025 reform note: the *octroi de mer* has been under structural review since the 2022 *projet de loi de finances* (LFI 2022). The current regime is extended to 31 Dec 2027 per EU Council Decision 2021/991 (verify expiry / extension at [douane.gouv.fr](https://www.douane.gouv.fr/fiche/octroi-de-mer) before any 2027+ transaction).
+- 2025 reform note: the *octroi de mer* has been under structural review since the 2022 *projet de loi de finances* (LFI 2022). The current regime is extended to 31 Dec 2027 per EU Council Decision 2021/991 (verify expiry / extension at [douane.gouv.fr](https://www.douane.gouv.fr/lexique/octroi-de-mer) before any 2027+ transaction).
 
 > **No equivalent in métro France.** This is a DROM-only delta; the metro playbook has nothing to say about *octroi*.
 
@@ -68,9 +68,9 @@ DROM-specific abattements (in addition to the general regime):
 
 | Mechanism | Legal anchor | What it grants | Source |
 |-----------|--------------|----------------|--------|
-| **HLM / SEM abattement** | CGI Art. 1388 bis | 30% abattement on *valeur locative* for social-housing units in *quartiers prioritaires de la ville (QPV)*, applies across France — incl. DROM | [BOFiP BOI-IF-TFB-20-30-30](https://bofip.impots.gouv.fr/bofip/4844-PGP.html/identifiant%3DBOI-IF-TFB-20-30-30) |
-| **ZFA-DOM abattement** | CGI Art. 1388 quinquies | Abattement for buildings tied to an *établissement* in a *Zone Franche d'Activité dans les DOM* (revised by LFI 2019, called *ZFANG — Zone Franche d'Activité Nouvelle Génération*) | [BOFiP BOI-IF-TFB-20-30-45](https://bofip.impots.gouv.fr/bofip/11858-PGP.html/identifiant%3DBOI-IF-TFB-20-30-45) |
-| **New-build 2-year exemption** | CGI Art. 1383 | Same as metro (2 years exonération *constructions neuves*) — no DROM uplift, but base rate already lower thanks to lower *valeurs locatives* | [BOFiP BOI-IF-TFB-10-50-20-10](https://bofip.impots.gouv.fr/bofip/2233-PGP.html/identifiant%3DBOI-IF-TFB-10-50-20-10) |
+| **HLM / SEM abattement** | CGI Art. 1388 bis | 30% abattement on *valeur locative* for social-housing units in *quartiers prioritaires de la ville (QPV)*, applies across France — incl. DROM | [BOFiP BOI-IF-TFB-20-30-30](https://bofip.impots.gouv.fr/bofip/4844-PGP.html) |
+| **ZFA-DOM abattement** | CGI Art. 1388 quinquies | Abattement for buildings tied to an *établissement* in a *Zone Franche d'Activité dans les DOM* (revised by LFI 2019, called *ZFANG — Zone Franche d'Activité Nouvelle Génération*) | [BOFiP BOI-IF-TFB-20-30-45](https://bofip.impots.gouv.fr/bofip/11858-PGP.html/identifiant=BOI-IF-TFB-20-30-45-20260204) |
+| **New-build 2-year exemption** | CGI Art. 1383 | Same as metro (2 years exonération *constructions neuves*) — no DROM uplift, but base rate already lower thanks to lower *valeurs locatives* | [BOFiP BOI-IF-TFB-10-60](https://bofip.impots.gouv.fr/bofip/1881-PGP.html/identifiant=BOI-IF-TFB-10-60-20211220) |
 
 **Net effect:** *valeurs locatives* in DROM are systematically lower than métro equivalents (legacy of 1970s revisions never fully recalibrated), so headline *taxe foncière* bills tend to be lower than métro for comparable surface — but this is a function of base, not rate. Verify the actual bill via the *avis de taxe foncière* on the seller's *espace personnel impots.gouv.fr* before relying on it (per-listing — verify with DGFiP).
 
@@ -82,7 +82,7 @@ DROM-specific abattements (in addition to the general regime):
 
 **Active overseas defiscalization regimes still open (post-2024):**
 
-- **Loi Girardin social (logement social)** — CGI Art. 199 undecies C — open through at least **31 Dec 2029** for new social-housing intermediation operations in DROM. One-shot *réduction d'impôt* in year N+1. Verify expiry at [BOFiP BOI-IR-RICI-380](https://bofip.impots.gouv.fr/bofip/4956-PGP.html/identifiant%3DBOI-IR-RICI-380).
+- **Loi Girardin social (logement social)** — CGI Art. 199 undecies C — open through at least **31 Dec 2029** for new social-housing intermediation operations in DROM. One-shot *réduction d'impôt* in year N+1. Verify expiry at [BOFiP BOI-IR-RICI-380](https://bofip.impots.gouv.fr/bofip/9398-PGP.html/identifiant=BOI-IR-RICI-380-20240515).
 - **Loi Girardin industriel (équipements productifs)** — CGI Art. 199 undecies B — open, not real-estate; mentioned here only to avoid confusion.
 
 **Post-Pinel successor for direct investors:** as of 2026-05-27, **no direct successor regime has been legislated** for the *Pinel Outre-Mer* slot specifically targeted at individual buy-to-let investors in DROM. A *mission parlementaire* was announced in 2024 by the *ministre délégué chargé des Outre-mer* to scope a replacement, but no statute is yet on the books (verify against the latest [legifrance.gouv.fr search for "outre-mer logement"](https://www.legifrance.gouv.fr/) before relying on any third-party claim of a "Pinel successor"). **Anti-hallucination guard:** do not cite any branded successor name unless you can verify it in the *Journal officiel*.
@@ -211,10 +211,10 @@ Primary source: [**Cerema — Guide foncier Outre-Mer (2023)**](https://outil2am
 | Anchor | URL | What to use it for |
 |--------|-----|--------------------|
 | DGFiP — TVA DOM | https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-differents-taux-de-tva-applicables-dans-les-dom | TVA rates per DROM |
-| BOFiP — TVA géographique | https://bofip.impots.gouv.fr/bofip/2253-PGP.html/identifiant%3DBOI-TVA-GEO-20-10 | Definitive TVA-DOM doctrine |
-| BOFiP — Taxe foncière outre-mer | https://bofip.impots.gouv.fr/bofip/4844-PGP.html/identifiant%3DBOI-IF-TFB-20-30-30 (HLM) · https://bofip.impots.gouv.fr/bofip/11858-PGP.html/identifiant%3DBOI-IF-TFB-20-30-45 (ZFA) | Per-mechanism abattement rules |
+| BOFiP — TVA géographique | https://bofip.impots.gouv.fr/bofip/343-PGP.html/identifiant=BOI-TVA-GEO-20-10-20190605 | Definitive TVA-DOM doctrine |
+| BOFiP — Taxe foncière outre-mer | https://bofip.impots.gouv.fr/bofip/4844-PGP.html (HLM) · https://bofip.impots.gouv.fr/bofip/11858-PGP.html/identifiant=BOI-IF-TFB-20-30-45-20260204 (ZFA) | Per-mechanism abattement rules |
 | Légifrance — Octroi de mer | https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000253374/LEGISCTA000006099294 | Loi 2004-639 statutory text |
-| Douane — Octroi de mer | https://www.douane.gouv.fr/fiche/octroi-de-mer | Current administrative guidance + tariff lookup |
+| Douane — Octroi de mer | https://www.douane.gouv.fr/lexique/octroi-de-mer | Current administrative guidance + tariff lookup |
 | Légifrance — Loi Letchimy | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037864059 | LOI n° 2018-1244 — indivision DROM |
 | Légifrance — Tarifs notaires (DROM uplifts) | https://www.legifrance.gouv.fr/codes/id/LEGISCTA000032132058 | Articles A444-53 et seq. |
 | Autorité de la concurrence — avis tarifs notaires | https://www.autoritedelaconcurrence.fr/sites/default/files/commitments/19a09.pdf | Cross-checked DROM uplift table (RE + YT = 40%) |

@@ -153,13 +153,13 @@ Source: [Lexology — Document Duty changes in Guernsey](https://www.lexology.co
 
 **Non-Principal-Private-Residence surcharge: +2% on each band.** Effective from **2 November 2022** (Document Duty (Anti-Avoidance) (Guernsey) Ordinance and successor amendments). Applies where the purchased dwelling is NOT the principal private residence of the purchaser or an immediate family member. Source: [Ferbrache & Farrell — Document Duty changes](https://ferbrachefarrell.com/news/document-duty-changes-in-guernsey-2/). Investor / second-home / buy-to-let purchases all attract the surcharge. **The Open Market vs Local Market distinction is orthogonal** — both attract the surcharge if not PPR; verify treatment with an Advocate before relying. Note: the 2024 Budget proposed amendment to *remove* the 2% uplift was REJECTED by the States of Deliberation — the uplift remains in force (P.2024/91 Amdt 17).
 
-**Downsizing relief** — first £400,000 exempted from Document Duty if the target property is ≥ 25% smaller (by TRP assessment) than the seller's previous home, that previous home was their PPR for ≥ 2 years, and relief is taken once only. Original sunset was 31 December 2024; the 2025 Budget extended downsizing reliefs with a maximum saving of **£13,750** ([Collas Crill — 2025 Budget](https://www.collascrill.com/articles/how-does-the-2025-guernsey-budget-affect-you-and-your-property/)). **Verify current cut-off date at [gov.gg/documentduty](https://www.gov.gg/documentduty).**
+**Downsizing relief** — first £400,000 exempted from Document Duty if the target property is ≥ 25% smaller (by TRP assessment) than the seller's previous home, that previous home was their PPR for ≥ 2 years, and relief is taken once only. Original sunset was 31 December 2024; the 2025 Budget extended downsizing reliefs with a maximum saving of **£13,750** ([Collas Crill — 2025 Budget](https://www.collascrill.com/articles/how-does-the-2025-guernsey-budget-affect-you-and-your-property/)). **Verify current cut-off date at [gov.gg/documentduty](https://www.gov.gg/CHttpHandler.ashx?id=194596&p=0).**
 
 **Stamp duty? No.** Guernsey has no UK-style SDLT or LTT. The Document Duty is the property transaction tax.
 
 ### Bond duty
 
-Where a property purchase is financed by a Bond (Hypothèque Légale Spéciale — see `--notary` below), a separate Bond Document Duty applies on the borrowed sum. Verify the current Bond Duty schedule at [gov.gg](https://www.gov.gg/documentduty).
+Where a property purchase is financed by a Bond (Hypothèque Légale Spéciale — see `--notary` below), a separate Bond Document Duty applies on the borrowed sum. Verify the current Bond Duty schedule at [gov.gg](https://www.gov.gg/CHttpHandler.ashx?id=194596&p=0).
 
 ### Tax on Real Property (TRP) — annual
 

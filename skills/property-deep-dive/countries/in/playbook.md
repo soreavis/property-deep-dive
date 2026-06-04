@@ -1130,7 +1130,7 @@ India has **NO formal "digital nomad visa"** (a notable absence vs Mauritius PA,
 - **NDC (Nationally Determined Contribution) 2022 update**: 45 % reduction in emissions intensity of GDP by 2030 vs 2005; 50 % non-fossil installed electricity capacity by 2030; net-zero by 2070 (PM announcement Nov 2021 COP-26): [`https://moef.gov.in/`](https://moef.gov.in/)
 - **National Action Plan on Climate Change (NAPCC) 2008** + 8 missions
 - **Long-Term Low Emission Development Strategy (LT-LEDS)** 2022 — submitted at COP-27
-- **Renewables share of installed capacity**: ~46 % (Q4 2025 — non-fossil incl. nuclear + hydro + wind + solar; verify at MNRE [`https://mnre.gov.in/`](https://mnre.gov.in/)); target 500 GW non-fossil by 2030
+- **Renewables share of installed capacity**: **53.6 %** non-fossil (incl. nuclear + hydro + wind + solar; ~288 GW) per [MNRE](https://mnre.gov.in/) (2026 — verify current); target 500 GW non-fossil by 2030
 - **Solar mission**: 100 GW installed cap target Mar 2022 (achieved partially); rooftop solar 40 GW target by 2026
 - **Green building**: **IGBC (Indian Green Building Council)** + **GRIHA (Green Rating for Integrated Habitat Assessment)** + **EDGE (IFC)** voluntary schemes; LEED India also active
 - **Energy-efficiency**: **ECBC (Energy Conservation Building Code) 2017** voluntary for residential; mandatory for commercial in many states; **Eco-Niwas Samhita 2018** for residential

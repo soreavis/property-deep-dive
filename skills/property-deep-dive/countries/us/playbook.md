@@ -180,7 +180,7 @@ Federal transfer tax: **none.** State + county + municipal vary widely:
 | **Long-term residential rental** (≥ 30-day average stays, no significant services) | **Schedule E** (Form 1040), Part I — passive activity | [IRS Pub 527 (2025)](https://www.irs.gov/publications/p527) |
 | **Short-term rental ≤ 7-day average stay** (Airbnb / VRBO typical) | **Schedule E IF rental activity** OR **Schedule C IF substantial services** (housekeeping mid-stay, meals, concierge) | [IRS Pub 925 (2025)](https://www.irs.gov/publications/p925) |
 | **STR with material participation** | Loss can be **non-passive** if ≥ 1 of 7 material-participation tests met (most common: > 100 hrs AND more than anyone else; or > 500 hrs) | [Form 8582 instructions (2025)](https://www.irs.gov/instructions/i8582) |
-| **STR with substantial services + material participation** | **Schedule C**; subject to 15.3 % SE tax on net | [Sched C Instructions (2025)](https://www.irs.gov/instructions/i1040sc) |
+| **STR with substantial services + material participation** | **Schedule C**; subject to 15.3 % SE tax on net | [Sched C Instructions (2025)](https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes) |
 
 ### "Short-term rental loophole" (IRS-recognised)
 

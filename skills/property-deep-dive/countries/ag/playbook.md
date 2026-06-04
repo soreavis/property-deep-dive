@@ -30,7 +30,7 @@ This section determines whether a transaction is even legally possible — and w
 ### Legal basis
 
 - **Registered Land Act, No. 17 of 1975** — Torrens-style registered title (Landfolio).
-- **Non-Citizens Land Holding Regulation Act, CAP. 293** — governs the licence a non-citizen must hold to own land outside the CBI route. (PDF hosted on the iGuides / UNCTAD portal `admin.theiguides.org` — *verify against [legalaffairs.gov.ag](https://legalaffairs.gov.ag/) primary text*.)
+- **Non-Citizens Land Holding Regulation Act, CAP. 293** — governs the licence a non-citizen must hold to own land outside the CBI route. (PDF hosted on the iGuides / UNCTAD portal `admin.theiguides.org` — *verify against [laws.gov.ag — Non-Citizens Land Holding (Amendment) Act 2020](https://laws.gov.ag/wp-content/uploads/2021/02/No.-32-Non-Citizens-Land-Holding-Regulations-Amendment-Act-2020.pdf) primary text*.)
 - **Citizenship by Investment Act + CBI Regulations** (incl. the **CBI (Amendment) Regulations 2024, No. 50 of 2024**) — administered by the **[Citizenship by Investment Unit (CIU)](https://cip.gov.ag/)**.
 - **Stamp duty / property-tax statutes** — administered by the **Inland Revenue Department (IRD)** under the Ministry of Finance.
 

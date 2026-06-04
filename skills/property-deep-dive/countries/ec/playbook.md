@@ -184,12 +184,12 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 - **RUC — Registro Único de Contribuyentes** at [SRI](https://www.sri.gob.ec/) — mandatory for any economic activity; ~1 day online
 - **RIMPE — Régimen Simplificado para Emprendedores y Negocios Populares** ([Ley de Desarrollo Económico 2021](https://www.sri.gob.ec/)) — single integrated tax for revenues < USD 300k (Emprendedor) / < USD 20k (Popular); rates 0–2 % on revenue
 - **Régimen general**: standard IR (PIT/CIT 25 %) + IVA 15 % if applicable
-- **IESS (Instituto Ecuatoriano de Seguridad Social)**: [`https://www.iess.gob.ec/`](https://www.iess.gob.ec/) — mandatory; ~**11.15 % employer + 9.45 % worker** (employed); self-employed on declared base
+- **IESS (Instituto Ecuatoriano de Seguridad Social)**: [`https://www.iess.gob.ec/documents/13718/54965/Tasasdeaportacion.pdf`](https://www.iess.gob.ec/) — mandatory; ~**11.15 % employer + 9.45 % worker** (employed); self-employed on declared base
 - **Sociedades**: SAS (Sociedad por Acciones Simplificada, since 2020) most common for foreign-buyer property holding; min capital ~USD 1; corporate tax 25 % standard
 
 ### Salary benchmarks (2026)
 
-- **Salario Básico Unificado (SBU)** **2026: USD 470/mes** ([decreto Ministerio del Trabajo](https://www.trabajo.gob.ec/) Dec 2025 — verify annual decree)
+- **Salario Básico Unificado (SBU)** **2026: USD 482/mes** (+USD 12 vs 2025's USD 470; set by tripartite consensus per [Ministerio del Trabajo](https://www.trabajo.gob.ec/despues-de-casi-una-decada-hay-consenso-gobierno-empleadores-y-trabajadores-acuerdan-fijar-el-salario-basico-unificado-de-2026-en-usd-482-no-hay-imposicion/), Dec 2025 — verify annual decree)
 - Mean monthly formal wage Q4 2024 (per INEC ENEMDU): ~**USD 700–900**
 - Quito banking / finance / tech: ~USD 1,500–4,000
 - Guayaquil shipping / agroindustry / finance: ~USD 1,200–3,500
@@ -218,7 +218,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 - **Tsunami**: full Pacific coast (Esmeraldas, Manabí, Santa Elena, Guayas, El Oro) + Galápagos; INOCAR tsunami-warning system. Coastal evacuation routes mapped post-2016
 - **Flooding (inundación)**: catastrophic during **El Niño** events (2023 + 2024 coastal floods, 1997-98 historical); **Andean rivers** flash-flood; Guayas basin lowlands recurring
 - **Landslides (deslizamientos / movimientos en masa)**: ubiquitous Andean Sierra; Quito's Pichincha slopes (laderas) have major slide history (La Comuna, La Gasca + 2022 Quito slide event); also Cuenca + Loja steep parcels
-- **Crime + security** (CRITICAL 2024–2026 context): **Decreto Ejecutivo 110 (Jan 2024)** declared **internal armed conflict (conflicto armado interno)** against narco-gangs ("grupos delictivos organizados — GDO"). Acute violent-crime spikes in **Guayaquil**, **Esmeraldas**, **Manta**, **Quevedo**, **Durán**, **Machala**; comparatively safer: Cuenca, Quito (most barrios), Loja, sierra centro. **Plan Phoenix** + military-police joint operations ongoing; situation evolving — *verify current state* at [Ministerio del Interior](https://www.ministeriodelinterior.gob.ec/) + travel advisories (US Dept of State, UK FCDO) before any coastal purchase
+- **Crime + security** (CRITICAL 2024–2026 context): **Decreto Ejecutivo 110 (Jan 2024)** declared **internal armed conflict (conflicto armado interno)** against narco-gangs ("grupos delictivos organizados — GDO"). Acute violent-crime spikes in **Guayaquil**, **Esmeraldas**, **Manta**, **Quevedo**, **Durán**, **Machala**; comparatively safer: Cuenca, Quito (most barrios), Loja, sierra centro. **Plan Phoenix** + military-police joint operations ongoing; situation evolving — *verify current state* at [Ministerio del Interior](https://www.ministeriodelinterior.gob.ec/plan-fenix-se-ejecuta-en-el-ecuador/) + travel advisories (US Dept of State, UK FCDO) before any coastal purchase
 - **Climate change** (per [INAMHI](https://www.inamhi.gob.ec/) + IPCC AR6): +1.5–3.0 °C by 2100; intensifying El Niño / La Niña amplitude; **Galápagos** rising sea-temperature stressing endemic biodiversity + coral; **glacier retreat** (Cotopaxi, Antisana, Cayambe, Chimborazo glaciers losing mass — water-supply implications for Quito + Sierra cities)
 
 ### Build-era hazards
@@ -554,7 +554,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 1. **Visa de Rentista** (USD 1,500/mo pension or annuity) — most common retirement route
 2. **Visa de Inversionista** (USD ~47,000 (100×SBU 470) in real estate) — combine with property purchase
 3. **Convención Mercosur** for relevant nationals — simplified path
-4. **Tercera Edad benefits** (post-65): tax + transport + utility discounts under [Ley del Anciano](https://www.gob.ec/) — IVA refund, transport 50 %, utility tariff reductions
+4. **Tercera Edad benefits** (post-65): tax + transport + utility discounts under [Ley del Anciano](https://www.gob.ec/sites/default/files/regulations/2018-10/Documento_Ley-Anciano-Reglamento.pdf) — IVA refund, transport 50 %, utility tariff reductions
 
 ### Cost-of-living for retirees (2026 est.)
 

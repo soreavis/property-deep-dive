@@ -19,7 +19,7 @@ ISO2: `kn`. Status: ✅ Fully populated (researched 2026-05-28).
 - **Identifier**: Registration-section / block / parcel references under the registered-title system, OR a deed reference in the Register of Deeds under the unregistered system (see Foreign buyer eligibility). **No universal national parcel ID** equivalent to a French numéro de parcelle.
 - **Title concept**: **TWO title systems run side-by-side** — the **unregistered system** (a *deed*, recorded in the Register of Deeds, governed by the **Conveyancing and Law of Property Act**) and the **registered system** (a **Certificate of Title / COT**, governed by the **Title by Registration Act**). The registered (COT) system gives the cleaner title guarantee. **Confirm WHICH system the target parcel sits under** before relying on the title position.
 - **Recent reforms (12-month watchlist)**:
-  - **CBI October-2024 reform**: real-estate minimums **reduced** to **US$325,000** (developer) and **US$600,000** (private), and the SISC donation floor set at **US$250,000** — a deliberate competitiveness move after the 2023–24 OECS due-diligence tightening (VERIFIED at [ciu.gov.kn](https://ciu.gov.kn/); do NOT cite the old US$200k/US$400k/US$800k figures as current).
+  - **CBI October-2024 reform**: real-estate minimums **reduced** to **US$325,000** (developer) and **US$600,000** (private), and the SISC donation floor set at **US$250,000** — a deliberate competitiveness move after the 2023–24 OECS due-diligence tightening (VERIFIED at [ciu.gov.kn](https://ciu.gov.kn/real-estate-investment/); do NOT cite the old US$200k/US$400k/US$800k figures as current).
   - **2024 OECS Memorandum of Agreement**: the five OECS CBI states (St. Kitts & Nevis, Antigua & Barbuda, Dominica, Grenada, St. Lucia) harmonised a **US$200,000 floor for the cheapest donation route** — ⚠️ this OECS US$200k floor is NOT the SKN real-estate minimum and NOT SKN's own published SISC figure (US$250k).
   - **2023 stamp-duty reform**: shifted the transfer-tax/stamp-duty burden from **SELLER to BUYER** per the amended Stamp Act (`MEDIUM confidence — confirm current schedule at` [sknird.com](https://www.sknird.com/)).
   - **Land Registry Act No. 10 of 2017** modernised the registry and created the Nevis branch.
@@ -475,7 +475,7 @@ HIGH for IPCC AR6 + CCCCC regional projections; MEDIUM for parcel-level storm-su
 
 ## Section: `--visa` (Citizenship-by-Investment deep-dive)
 
-St. Kitts and Nevis runs the **world's oldest active Citizenship-by-Investment programme — established 1984** — administered by the [CIU](https://ciu.gov.kn/). The 2024 OECS Memorandum of Agreement harmonised a US$200,000 donation floor across the five OECS CBI states; SKN's own published figures sit above that for real estate and at US$250k for its SISC donation.
+St. Kitts and Nevis runs the **world's oldest active Citizenship-by-Investment programme — established 1984** — administered by the [CIU](https://ciu.gov.kn/sustainable-island-state-contribution/). The 2024 OECS Memorandum of Agreement harmonised a US$200,000 donation floor across the five OECS CBI states; SKN's own published figures sit above that for real estate and at US$250k for its SISC donation.
 
 ### Real-estate routes (post-October-2024 reform — VERIFIED ciu.gov.kn)
 
@@ -637,7 +637,7 @@ St. Kitts and Nevis runs the **world's oldest active Citizenship-by-Investment p
 **Confidence**: HIGH (CBI / tax / registry / court core) / MEDIUM (stamp-duty schedule, prices, yields) —
 - **HIGH** for CBI real-estate minimums (**US$325,000** developer / **US$600,000** private), the **7-year hold**, CBI government fees (DD US$10k / processing US$25k main applicant), and SISC donation floor (**US$250,000**) — all VERIFIED verbatim at [ciu.gov.kn](https://ciu.gov.kn/) (fetched 2026-05-28) + independently audit-confirmed.
 - **HIGH** for annual property-tax rates (St. Kitts residential 0.2%+0.2%; Nevis residential 0.156% bldg + 0.75% land; due 30 June) — VERIFIED at [sknird.com/property-tax/](https://www.sknird.com/property-tax/).
-- **HIGH** for the land-registry framework (Land Registry Act No. 10 of 2017; dual deed / Certificate-of-Title system; Nevis branch) — VERIFIED at [legal.gov.kn](https://www.legal.gov.kn/).
+- **HIGH** for the land-registry framework (Land Registry Act No. 10 of 2017; dual deed / Certificate-of-Title system; Nevis branch) — VERIFIED at [legal.gov.kn](https://www.legal.gov.kn/land-registry/).
 - **HIGH** for the court structure (ECSC resident High Court division; final appeal to the **UK Privy Council / JCPC**, NOT the CCJ) — audit-confirmed.
 - **HIGH** for SKELEC (sole St. Kitts provider; Needsmust diesel ~43 MW) and the EC$2.70 = US$1.00 peg (ECCB).
 - **HIGH** for the ALHL concept (Aliens Land Holding Regulation Act; CBI-approved purchases exempt) — statute real, audit-confirmed; the **~10% fee is market/legal-sourced** (confirm exact at [gov.kn](https://www.gov.kn/)).

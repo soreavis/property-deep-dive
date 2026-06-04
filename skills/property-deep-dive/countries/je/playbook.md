@@ -153,7 +153,7 @@ Where a residential property is acquired via the transfer of an entity (most com
 - ❌ **No Inheritance Tax** (no IHT on death). Probate-related stamp duty IS charged under the **Stamp Duties and Fees (Jersey) Law 1998** ([jerseylaw.je 24.960](https://www.jerseylaw.je/laws/current/Pages/24.960.aspx)) — applied to the net value of personal (movable) estate. For Jersey-domiciled decedents: worldwide movable estate; for non-domiciled: only Jersey-situs movable estate. Small-estate threshold: gross worldwide estate ≤ £30,000 → no Jersey Grant required (per [courts.je Probate Registry services](https://www.courts.je/judicial-greffe/probate-and-protection/probate-registry/probate-registry-services-and-fees/)). Current band-by-band duty schedule revised 28 Apr 2025 — `verify the current rate table on courts.je Probate Registry services page`. Note: this is a Grant-of-Probate fee structure, not an inheritance tax on heirs.
 - ❌ **No general wealth tax**
 - ❌ **No annual mansion tax**
-- ✅ **GST (Goods & Services Tax): 5 %** flat (sales-tax equivalent; applies to services, not directly to property transactions). Source: [gov.je GST](https://www.gov.je/TaxesMoney/GST/Pages/index.aspx)
+- ✅ **GST (Goods & Services Tax): 5 %** flat (sales-tax equivalent; applies to services, not directly to property transactions). Source: [gov.je GST](https://www.gov.je/TaxesMoney/GST/GSTCustomers/pages/gstquickguide.aspx)
 
 This is the structural reason Jersey is a destination for HNW relocation — combined with the 20 % flat income tax — not a low cost of buying (transaction taxes are non-trivial).
 

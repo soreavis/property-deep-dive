@@ -278,7 +278,7 @@ Aruba levies a **turnover-stage tax** on services + sales:
 | **Setar FTTH activation** | ~AWG 50–200 setup |
 | **FTTH monthly (typical 200 Mbps – 1 Gbps)** | ~AWG 100–250 / USD 56–140 |
 
-> ⚠️ **Aruban electricity is among the more expensive in the Caribbean** at ~USD 0.205/kWh — driven by historical fossil-fuel dependency (~81% fossil fuels per [NREL Aruba island energy snapshot 2020](https://www.energy.gov/cmei/articles/aruba-island-energy-snapshot-2020); wind ~17%, solar ~1.2%). Air-conditioning load is significant — annual electricity bill for a typical resort condo can run AWG 4,000–10,000 / USD 2,200–5,600 depending on AC use.
+> ⚠️ **Aruban electricity is among the more expensive in the Caribbean** at ~USD 0.205/kWh — driven by historical fossil-fuel dependency (~81% fossil fuels per [NREL Aruba island energy snapshot 2020](https://www.osti.gov/biblio/1665787); wind ~17%, solar ~1.2%). Air-conditioning load is significant — annual electricity bill for a typical resort condo can run AWG 4,000–10,000 / USD 2,200–5,600 depending on AC use.
 
 ### Connection / coverage
 

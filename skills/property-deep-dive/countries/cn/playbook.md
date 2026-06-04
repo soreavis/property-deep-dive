@@ -203,7 +203,7 @@ Mainland China has **NO nationwide recurring property tax** for residential prop
 | **Deemed (核定) method** (no documentation) | **1 %** of full sale price (residential, most cities) | Default fallback; rates 1 %–3 % vary by city; Beijing 1 %, Shanghai 1 %, Shenzhen 1.5 % — verify |
 | **Family-only-home + ≥ 5 yr held exemption** | **0 %** | If seller can prove the unit is the family's only residential property AND held ≥ 5 yrs, full IIT exemption applies under [STA Notice 国税发 2006/108] |
 
-**土地增值税 / Land Value-Added Tax (LVAT)** — applies to **sale by enterprises / developers**, not individuals selling personal residence (individual-seller LVAT is **exempt** under [Cai Shui 2008/137]). Developer side: progressive 30–60 % on the appreciation portion (value-add over cost) per [LVAT Provisional Regulations](http://www.chinatax.gov.cn/).
+**土地增值税 / Land Value-Added Tax (LVAT)** — applies to **sale by enterprises / developers**, not individuals selling personal residence (individual-seller LVAT is **exempt** under [Cai Shui 2008/137]). Developer side: progressive 30–60 % on the appreciation portion (value-add over cost) per [LVAT Provisional Regulations](https://fgk.chinatax.gov.cn/zcfgk/c100010/c5194433/content.html).
 
 **印花税 / Stamp Duty**: residential individual sale **exempt** since 2008 (Cai Shui 2008/137).
 
