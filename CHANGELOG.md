@@ -129,6 +129,30 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(deps): bump softprops/action-gh-release from 2.6.2 to 3.0.0 ([#224](https://github.com/soreavis/property-deep-dive/pull/224)) — by @dependabot[bot]
 
+- chore: slim SKILL.md router + count-drift guards + fix stale 103→121 counts ([#229](https://github.com/soreavis/property-deep-dive/pull/229)) — by @soreavis
+
+- fix(ci): auto-merge-docs reads live labels + re-runs after labeler ([#230](https://github.com/soreavis/property-deep-dive/pull/230)) — by @soreavis
+
+- feat(verify): source-content verifier — harness, deterministic audit, 16 citation fixes ([#231](https://github.com/soreavis/property-deep-dive/pull/231)) — by @soreavis
+
+- fix(verify): silence pypdf chatter + magic-byte guard for .pdf-URLs-serving-HTML ([#233](https://github.com/soreavis/property-deep-dive/pull/233)) — by @soreavis
+
+- fix(verify): harden audit signals — primary-source linter scope + content-change settle-confirmation ([#234](https://github.com/soreavis/property-deep-dive/pull/234)) — by @soreavis
+
+- feat(match): --match reverse-compare discovery mode (Phases 1-2b, audited) ([#235](https://github.com/soreavis/property-deep-dive/pull/235)) — by @soreavis
+
+- chore(maintain): fix stale section + tier counts ([#236](https://github.com/soreavis/property-deep-dive/pull/236)) — by @soreavis
+
+- regwatch: re-verify + re-stamp 2 overdue GE entries (closes #196) ([#237](https://github.com/soreavis/property-deep-dive/pull/237)) — by @soreavis
+
+- fix(source-verify): don't false-flag JS-SPA / thin-body pages as TOKENS_ABSENT ([#238](https://github.com/soreavis/property-deep-dive/pull/238)) — by @soreavis
+
+- feat(foldins): 4 Tier-2 fold-ins (LGBTQ+ title, accessibility, EV-charger, wire-settlement) ([#239](https://github.com/soreavis/property-deep-dive/pull/239)) — by @soreavis
+
+- feat(auction-registry): 41st section — distressed-auction discovery + system classification ([#240](https://github.com/soreavis/property-deep-dive/pull/240)) — by @soreavis
+
+- fix(source-verify): #232 triage — 5 figure corrections + 27 repoints + 16 dead-link repairs ([#241](https://github.com/soreavis/property-deep-dive/pull/241)) — by @soreavis
+
 ### Fixed
 
 - **`auto-merge-docs.yml` never enabled auto-merge on PRs opened without the `documentation` label.** Root cause: the path-based labeler applies `documentation` with the default `GITHUB_TOKEN`, and GitHub's recursion-prevention means a label set by `GITHUB_TOKEN` does **not** emit a `labeled` event that re-triggers downstream workflows — so the enabler only ever saw the `opened`/`synchronize` payloads (when the label isn't applied yet) and skipped forever (surfaced by PR #229, which carried `documentation` yet skipped and had to be merged manually). Fixed two ways: (1) the workflow now **reads the PR's current `state`/`isDraft`/`author`/`labels` from the API inside the job** instead of trusting the stale event payload, and (2) it re-evaluates **after the labeler finishes** via a `workflow_run` trigger keyed to `Path-based labeler`. The "documentation-only" safety gate and the minimal-privilege `GITHUB_TOKEN` on the labeler are unchanged — this only closes the label-applied-after-open timing race.
