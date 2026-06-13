@@ -15,7 +15,7 @@
 
 **Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
 
-**Pre-purchase property due diligence across 121 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, foreign-buyer remote-execution mechanisms, 90-day post-completion relocation logistics, international schools + catchment areas, and 16 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **41 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
+**Pre-purchase property due diligence across 126 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, foreign-buyer remote-execution mechanisms, 90-day post-completion relocation logistics, international schools + catchment areas, and 16 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **41 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
 > **Decision-support, not legal/tax/financial advice.** Property purchases are six- to seven-figure decisions; this skill helps you ask the right questions and surface risks early. See [DISCLAIMER.md](./DISCLAIMER.md) for full scope.
 
@@ -53,7 +53,7 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 TCO calculator · mortgage calculator · test fixtures · listing-diff watcher · comparable-transactions DB · auto-validate cron · price-index feeds · listing aggregators · photo OCR
 
-## Country support — 121 fully populated
+## Country support — 126 fully populated
 
 <!-- AUTOGEN:country-matrix:start -->
 **Europe core (24)** — 🇫🇷 fr · 🇮🇹 it · 🇨🇿 cz · 🇸🇰 sk · 🇩🇪 de · 🇦🇹 at · 🇨🇭 ch · 🇪🇸 es · 🇵🇹 pt · 🇸🇪 se · 🇫🇮 fi · 🇳🇴 no · 🇬🇧 uk · 🇳🇱 nl · 🇧🇪 be · 🇩🇰 dk · 🇮🇸 is · 🇸🇮 si · 🇮🇪 ie · 🇬🇷 gr · 🇵🇱 pl · 🇪🇪 ee · 🇭🇷 hr · 🇭🇺 hu
@@ -62,7 +62,7 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 **Latin America (11)** — 🇲🇽 mx · 🇧🇷 br · 🇦🇷 ar · 🇨🇷 cr · 🇵🇦 pa · 🇨🇴 co · 🇺🇾 uy · 🇨🇱 cl · 🇵🇪 pe · 🇪🇨 ec · 🇵🇾 py
 
-**Caribbean (9)** — 🇧🇸 bs · 🇩🇴 do · 🇯🇲 jm · 🇧🇧 bb · 🇧🇿 bz · 🇰🇳 kn · 🇦🇬 ag · 🇱🇨 lc · 🇬🇩 gd
+**Caribbean (10)** — 🇧🇸 bs · 🇩🇴 do · 🇯🇲 jm · 🇧🇧 bb · 🇧🇿 bz · 🇰🇳 kn · 🇦🇬 ag · 🇱🇨 lc · 🇬🇩 gd · 🇹🇹 tt
 
 **Netherlands Caribbean (4)** — 🇦🇼 aw · 🇨🇼 cw · 🇸🇽 sx · 🇧🇶 bq
 
@@ -72,11 +72,11 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 **Türkiye & Middle East (10)** — 🇹🇷 tr · 🇦🇪 ae · 🇮🇱 il · 🇶🇦 qa · 🇸🇦 sa · 🇯🇴 jo · 🇴🇲 om · 🇧🇭 bh · 🇰🇼 kw · 🇱🇧 lb
 
-**Asia-Pacific (13)** — 🇯🇵 jp · 🇰🇷 kr · 🇹🇼 tw · 🇭🇰 hk · 🇲🇴 mo · 🇸🇬 sg · 🇹🇭 th · 🇲🇾 my · 🇮🇩 id · 🇻🇳 vn · 🇵🇭 ph · 🇨🇳 cn · 🇰🇭 kh
+**Asia-Pacific (14)** — 🇯🇵 jp · 🇰🇷 kr · 🇹🇼 tw · 🇭🇰 hk · 🇲🇴 mo · 🇸🇬 sg · 🇹🇭 th · 🇲🇾 my · 🇮🇩 id · 🇻🇳 vn · 🇵🇭 ph · 🇨🇳 cn · 🇰🇭 kh · 🇻🇺 vu
 
-**South Asia (3)** — 🇮🇳 in · 🇱🇰 lk · 🇲🇻 mv
+**South Asia (4)** — 🇮🇳 in · 🇱🇰 lk · 🇲🇻 mv · 🇵🇰 pk
 
-**Africa (11)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg · 🇹🇳 tn · 🇳🇬 ng · 🇰🇪 ke · 🇲🇺 mu · 🇨🇻 cv · 🇸🇨 sc · 🇬🇭 gh · 🇷🇼 rw
+**Africa (13)** — 🇿🇦 za · 🇲🇦 ma · 🇪🇬 eg · 🇹🇳 tn · 🇳🇬 ng · 🇰🇪 ke · 🇲🇺 mu · 🇨🇻 cv · 🇸🇨 sc · 🇬🇭 gh · 🇷🇼 rw · 🇳🇦 na · 🇧🇼 bw
 
 **Caucasus & Eastern non-EU (4)** — 🇬🇪 ge · 🇲🇩 md · 🇦🇲 am · 🇦🇿 az
 
@@ -280,7 +280,7 @@ Together: a 14-month-old playbook never silently displays "Confidence: HIGH", an
 The skill ships with a maintenance mode (`--update`) and tiered refresh GitHub Actions:
 
 ```
-/property-deep-dive --update                       # full re-research + URL replace (all 121)
+/property-deep-dive --update                       # full re-research + URL replace (all 126)
 /property-deep-dive --update --validate-only       # URL liveness only (weekly)
 /property-deep-dive --update --refresh-only        # data refresh, no URL check
 /property-deep-dive --update --tier=A              # 16 high-velocity markets (quarterly)
@@ -393,18 +393,18 @@ property-deep-dive/
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
     │   ├── updater.md                # maintenance mode + auto-downgrade rule
     │   └── 9 tooling docs            # tco/mortgage calculators, fixtures, diff-watcher, comparable-transactions, auto-validate, price-index-feeds, listing-aggregators, photo-ocr
-    └── countries/                    # 121 country playbooks (~63,200 lines)
+    └── countries/                    # 126 country playbooks (~78,300 lines)
         └── <iso2>/playbook.md        # see Country support § above for the full ISO2 list
 ```
 
-**Skill content** (under `skills/property-deep-dive/`): 193 markdown files, ~94,900 lines (SKILL.md + 65 top-level shared/ + 14 shared/exit/ region files + 121 country playbooks).
-**Repo total**: 219 markdown files, ~104,600 lines (skill content + community / governance files + CHANGELOG) · 39 YAML / JSON config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
+**Skill content** (under `skills/property-deep-dive/`): 197 markdown files, ~104,400 lines (SKILL.md + shared/ section library + 126 country playbooks).
+**Repo total**: 224 markdown files, ~108,100 lines (skill content + community / governance files + CHANGELOG) · 39 YAML / JSON config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
 Factual corrections, URL fixes, and section extensions are the most valuable contributions. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the bar (~400-500 lines per country, primary government sources, anti-hallucination contract).
 
-All 121 in-scope countries are populated. The original 103-country milestone (Tier-1 + Tier-2 batches, 2026-05-08, PRs [#111](https://github.com/soreavis/property-deep-dive/pull/111) + [#113](https://github.com/soreavis/property-deep-dive/pull/113)) has since been extended by three coverage waves: Crown Dependencies + Danish territories (→ 109, new `crown_deps_territories` region), four NL-Caribbean standalone playbooks plus a FR DROM overlay that does not increment the count (→ 113), and eight Caribbean UK Overseas Territories + CBI states (→ 121, new `caribbean_ot` region). The remaining backlog is now **Phase C** — five medium-signal jurisdictions (🇳🇦 na · 🇧🇼 bw · 🇻🇺 vu · 🇹🇹 tt · 🇵🇰 pk → 126), queued but not yet greenlit — see [`ROADMAP.md`](./ROADMAP.md).
+All 126 in-scope countries are populated. The original 103-country milestone (Tier-1 + Tier-2 batches, 2026-05-08, PRs [#111](https://github.com/soreavis/property-deep-dive/pull/111) + [#113](https://github.com/soreavis/property-deep-dive/pull/113)) has since been extended by four coverage waves: Crown Dependencies + Danish territories (→ 109, new `crown_deps_territories` region), four NL-Caribbean standalone playbooks plus a FR DROM overlay that does not increment the count (→ 113), eight Caribbean UK Overseas Territories + CBI states (→ 121, new `caribbean_ot` region), and five medium-signal jurisdictions (🇳🇦 na · 🇧🇼 bw · 🇻🇺 vu · 🇹🇹 tt · 🇵🇰 pk → 126, **Batch D Phase C, shipped 2026-06-13**). The country-side backlog is now exhausted — see [`ROADMAP.md`](./ROADMAP.md).
 
 In the meantime, the most valuable contributions are:
 

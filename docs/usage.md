@@ -123,4 +123,4 @@ See [SKILL.md](../skills/property-deep-dive/SKILL.md) for the complete argument-
 
 ## Country support
 
-121 fully-populated country playbooks. Browse [`skills/property-deep-dive/countries/`](../skills/property-deep-dive/countries/) or see the [country matrix in README](../README.md#country-support--121-fully-populated).
+126 fully-populated country playbooks. Browse [`skills/property-deep-dive/countries/`](../skills/property-deep-dive/countries/) or see the [country matrix in README](../README.md#country-support--126-fully-populated).

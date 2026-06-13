@@ -89,5 +89,5 @@ body:
       options:
         - label: I've read CONTRIBUTING.md and understand the FR/IT/CZ/SK density bar (~400-500 lines, 41 sections, primary sources)
           required: true
-        - label: I've checked the country isn't already in the matrix (121 countries currently)
+        - label: I've checked the country isn't already in the matrix (126 countries currently)
           required: true

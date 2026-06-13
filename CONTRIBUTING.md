@@ -125,8 +125,8 @@ Batch D is schema-decided under the same rule (own tax/fiscal authority + own la
 **Implementation phases**:
 
 - **Phase A** (this PR) — schema decision committed (CONTRIBUTING.md + ROADMAP.md only); country count unchanged at 113.
-- **Phase B** — 8 strong-signal Caribbean standalone playbooks (`ky`/`bm`/`tc`/`vg` + `kn`/`ag`/`lc`/`gd`), 113 → 121.
-- **Phase C** — 5 medium-signal (`na`/`bw`/`vu`/`tt`/`pk`), 121 → 126.
+- **Phase B** — 8 strong-signal Caribbean standalone playbooks (`ky`/`bm`/`tc`/`vg` + `kn`/`ag`/`lc`/`gd`), 113 → 121. ✅ Shipped 2026-05-28.
+- **Phase C** — 5 medium-signal (`na`/`bw`/`vu`/`tt`/`pk`), 121 → 126. ✅ Shipped 2026-06-13.
 
 Each Phase B/C playbook adds its ISO code to `config/_regions.json` + `config/_tiers.json` (Tier-C 365d default; CBI states may warrant Tier-B) + relevant `config/_visa-programs.json` entries in the SAME PR. Full research + independent-audit memos at `_local/wip-batchd/` + `_local/wip-audit/audit-batchd.md` (gitignored).
 

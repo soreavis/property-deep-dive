@@ -1,6 +1,6 @@
 ---
 name: property-deep-dive
-description: 'Universal property due-diligence skill across 121 countries. Pulls any or all of forty-one sections per address — ten core (price/traffic/tax/rental/work/risks/mains/crime/amenities/climate), seven financial-process (finance/currency/visa/insurance/notary/home-tax/cross-border), eight decision-context (compare/retirement/digital-nomad/macro/demographics/schools/esg/exit), one regulatory (permits), four transaction (agent, scams, sanctions, auction-registry), four process (language, connectivity, remote, relocation), seven ownership-diligence (property-management, renovation, surveyor, inherited-noncompliance, squatter, latent-defect, title-monitoring). Plus the reverse-compare --match discovery mode and 4 cross-cutting layers — --integrity (data-honesty checks), --journey=<type> (7 templates: pre-offer/post-offer/foreign-buyer/investor/renovation/gite-bnb/inheritance), --type=<kind> (6 specialised: off-plan/auction/probate/plot-only/heritage/apartment-vs-house), --update (maintenance). Tooling — TCO calculator, mortgage calculator, test fixtures, listing-diff watcher, comparable-transactions DB, auto-validate cron. Country matrix in countries/<iso2>/ (full list in README). Outputs to terminal, MD file, or both.'
+description: 'Universal property due-diligence skill across 126 countries. Pulls any or all of forty-one sections per address — ten core (price/traffic/tax/rental/work/risks/mains/crime/amenities/climate), seven financial-process (finance/currency/visa/insurance/notary/home-tax/cross-border), eight decision-context (compare/retirement/digital-nomad/macro/demographics/schools/esg/exit), one regulatory (permits), four transaction (agent, scams, sanctions, auction-registry), four process (language, connectivity, remote, relocation), seven ownership-diligence (property-management, renovation, surveyor, inherited-noncompliance, squatter, latent-defect, title-monitoring). Plus the reverse-compare --match discovery mode and 4 cross-cutting layers — --integrity (data-honesty checks), --journey=<type> (7 templates: pre-offer/post-offer/foreign-buyer/investor/renovation/gite-bnb/inheritance), --type=<kind> (6 specialised: off-plan/auction/probate/plot-only/heritage/apartment-vs-house), --update (maintenance). Tooling — TCO calculator, mortgage calculator, test fixtures, listing-diff watcher, comparable-transactions DB, auto-validate cron. Country matrix in countries/<iso2>/ (full list in README). Outputs to terminal, MD file, or both.'
 user-invocable: true
 argument-hint: "<address> [--country=<iso2>] [--all] [--price] [--traffic] [--tax] [--rental] [--work=<profession>] [--risks] [--mains] [--crime] [--amenities] [--climate] [--finance] [--currency] [--visa] [--insurance] [--notary] [--permits] [--agent] [--scams] [--sanctions] [--auction-registry] [--language] [--connectivity] [--home-tax] [--cross-border] [--remote] [--relocation] [--property-management] [--renovation] [--surveyor] [--inherited-noncompliance] [--squatter] [--latent-defect] [--title-monitoring] [--compare=<iso2,...>] [--match] [--retirement] [--digital-nomad] [--macro] [--demographics] [--schools] [--esg] [--exit] [--tco] [--mortgage] [--watch] [--integrity] [--journey=<type>] [--type=<kind>] [--listing=<url>] [--save[=<path>]] [--quick|--deep] [--override-confidence=<HIGH|MEDIUM|LOW>] [--lang=<iso639-1>] [--lang-scope=<headings-only|summary|verdicts|detailed|full|bilingual|glossary-only>] | --update[=<iso2>[,<iso2>...]] [--tier=<A|B|C>] [--include=<iso2>] [--exclude=<iso2>] [--validate-only|--refresh-only] [--add=<iso2>] [--diff] [--interactive] [--test] | --health-report"
 ---
@@ -182,11 +182,11 @@ The skill has a maintenance mode for keeping country playbooks fresh. Sources ch
 
 | Mode | Cadence | Time | Countries |
 |---|---|---|---|
-| `--validate-only` | Weekly | ~5 min | all 121 (URL liveness only) |
-| `--health-report` | Monthly | ~1 min | all 121 (decay matrix) |
+| `--validate-only` | Weekly | ~5 min | all 126 (URL liveness only) |
+| `--health-report` | Monthly | ~1 min | all 126 (decay matrix) |
 | `--update --tier=A` | Quarterly | ~7-8 hr | 16 high-velocity |
 | `--update --tier=B` | Semi-annual | ~15 hr | 38 mid-volume |
-| `--update --tier=C` | Annual | ~21 hr | 49 stable/frontier |
+| `--update --tier=C` | Annual | ~21 hr | 72 stable/frontier |
 | `--update --add=<iso2>` | As needed | ~30 min/country | new scaffold |
 
 Tier membership lives in `config/_tiers.json` at the repo root. See `shared/updater.md` § Refresh tiers for the full spec including auto-promotion via regulatory-watch and manual `--include`/`--exclude` overrides. **Always run `--diff` first** if uncertain; `--interactive` is the safest mode.
@@ -212,7 +212,7 @@ The decay is computed at **render time** (every section invocation), not only du
 
 `shared/regulatory-watch.md` is the **single source of truth for "what changed when"** — date-stamped reform tracker covering:
 - ENDED programs registry (golden visas, NHR, MEIN, CBI — anti-hallucination critical)
-- Recently enacted reforms (last 24 months, all 121 countries)
+- Recently enacted reforms (last 24 months, all 126 countries)
 - Pending / in-flight reforms with revisit dates
 - EU directive transposition deadlines (EPBD recast 2024/1275 due 29 May 2026, AMLD6, DAC8, etc.)
 - Watchlist (rumored / proposed)
@@ -231,16 +231,16 @@ Consult this file before any `--tax`, `--rental`, `--visa`, `--finance` output. 
 **Pair with `/schedule`** for automation (tiered):
 
 ```
-/schedule weekly: /property-deep-dive --update --validate-only       # URL liveness, all 121
+/schedule weekly: /property-deep-dive --update --validate-only       # URL liveness, all 126
 /schedule monthly: /property-deep-dive --health-report               # decay matrix
 /schedule quarterly: /property-deep-dive --update --tier=A           # 16 high-velocity
 /schedule semi-annually: /property-deep-dive --update --tier=B       # 38 mid-volume
-/schedule annually: /property-deep-dive --update --tier=C            # 49 stable/frontier
+/schedule annually: /property-deep-dive --update --tier=C            # 72 stable/frontier
 ```
 
 ## Country support matrix
 
-**121 countries fully populated** as of 2026-05-28.
+**126 countries fully populated** as of 2026-06-13.
 
 | ISO2 | Country | Status | Key data sources |
 |---|---|---|---|
@@ -366,8 +366,13 @@ Consult this file before any `--tax`, `--rental`, `--visa`, `--finance` output. 
 | **ag** | Antigua & Barbuda 🆕 (CBI) | ✅ Fully populated | Registered Land Act 1975 (Torrens) + Landfolio (lands.gov.ag) + Eastern Caribbean Supreme Court (resident High Court → **JCPC**) — **CBI real-estate route US$300k, 5-yr hold** (NDF donation US$230k single/family-of-4, eff. **1 Aug 2024**, CBI (Amendment) Regs 2024); non-CBI foreign buyer needs a **Non-Citizens Land Holding Licence CAP.293 ~5%** (verify); **NO personal income tax since Apr 2016**; stamp duty seller 7.5% / buyer 2.5% + ABST 15% (secondary — verify IRD); **Barbuda = communal/leasehold tenure** (NOT freehold; ~95% destroyed by Irma 2017); XCD 2.70/USD; APUA single utility; **Confidence MEDIUM** |
 | **lc** | Saint Lucia 🆕 (CBI) | ✅ Fully populated | 1984 Land Registration Act (state-guaranteed title) + Eastern Caribbean Supreme Court (resident High Court) — **final appellate court = CARIBBEAN COURT OF JUSTICE (CCJ) since 20 Jul 2023, NOT the UK Privy Council** — **CBI real-estate route US$300k (eff. 1 Jul 2024 OECS; CIU FAQ still shows a stale US$200k), 5-yr hold** (CBI Act No. 14/2015; 2 approved projects); non-CBI foreign buyer needs an **Alien Landholding Licence** (Aliens (Licensing) Act Cap. 15.37); stamp duty 2% buyer / **10% non-citizen vendor**; property tax 0.25% residential / 0.4% commercial; XCD 2.70/USD; LUCELEC (volatile fuel surcharge); **Soufrière/Qualibou volcanic** hazard (phreatic most-likely per UWI-SRC; NW expat corridor clear); **Confidence MEDIUM-HIGH** |
 | **gd** | Grenada 🆕 (CBI + US E-2 treaty access) | ✅ Fully populated | Deeds & Land Registry of the Eastern Caribbean Supreme Court (resident High Court → **JCPC**); eLandRegistry (Cap. 79; **deeds-registration, NOT Torrens**; 2019 search period cut 60→30 yr) — **CBI real-estate route US$270k qualifying share (+US$50k govt fee), eff. 1 Jul 2024; full unit US$350k; NTF donation US$235k; 5-yr hold; guaranteed buy-backs PROHIBITED**; **US E-2 treaty (in force since 1989)** — the only Caribbean CBI state with E-2 access, BUT the **AMIGOS Act (Dec 2022) requires 3 years' Grenada residence first** (kills the "instant E-2" pitch); non-citizen **Property Transfer Tax 10%** + vendor 15% + ALHL ~10% → a ~22%+ acquisition stack; XCD 2.70/USD; **Hurricane Ivan 2004** (~200% of GDP damage); **Confidence MEDIUM-HIGH** |
+| **na** | Namibia 🆕 (Roman-Dutch + customary law) | ✅ Fully populated | NamRA + Bank of Namibia (BoN) + NamibLII + Min. of Justice e-Justice + NIPDB + NSA — **urban/residential freehold NOT banned** 🟢 (Constitution Art. 16(1); no enacted prohibition as of 2026-06-13); the ONE enacted restriction is **agricultural (commercial) farmland** (Agricultural (Commercial) Land Reform Act 6 of 1995 s.58 — Ministerial consent + State preferent right); a sweeping consolidating **Land Bill re-tabled Oct 2025 is a BILL, NOT enacted**; **NAD pegged 1:1 to ZAR** (Common Monetary Area; ZAR also legal tender); transfer duty (natural persons 0→11% marginal / entities 12%) + stamp duty eff. 1 Oct 2024; VAT 15%; **NO CGT on ordinary assets / NO inheritance/wealth tax**; CBI NONE (5-yr Residence-by-Investment only); operative deeds law = Deeds Registries Act 47 of 1937; drought/flood/wildfire HIGH (ThinkHazard!); **Confidence MEDIUM** |
+| **bw** | Botswana 🆕 (diamond-led, three-tenure) | ✅ Fully populated | BURS + Bank of Botswana (BoB) + gov.bw + Statistics Botswana + BITC — three tenures: **tribal land** (Land Boards / Tribal Land Act — NOT for non-citizens), **state land** (leasehold, reported 50-yr non-citizen / 99-yr citizen), **freehold** (principal foreign route, scarce — Gaborone/Francistown/Tuli Block); agri land needs Ministry consent (Land Control Act 1975); **BWP crawling-band peg 50% ZAR / 50% SDR** (downward crawl 2.76% from 11 Jul 2025); **exchange controls abolished 9 Feb 1999** (full repatriation); transfer duty (Amendment Act 2023) **5% citizen / 10%+15% non-citizen** (old flat 30% STALE); **no operational CBI** (Citizenship (Amendment) Bill 2025 passed 17 Dec 2025 — multiple citizenship; CBI announced, regs not set); drought HIGH + BPC load-shedding; final court Court of Appeal (no Privy Council); **Confidence MEDIUM** |
+| **vu** | Vanuatu 🆕 (Melanesian, leasehold-only) | ✅ Fully populated | Dept of Lands, Survey & Registry + Reserve Bank of Vanuatu (RBV) + Citizenship Office + VFIPA — **NO FREEHOLD — full stop**: 1980 Constitution Ch.12 Arts 73–75 vest ALL land in indigenous custom owners; foreigners (+ non-custom-owner ni-Vanuatu) hold via **registered lease (≤75-yr ceiling), Land Leases Act [Cap 163]** + Lessor's Consent; a "purchase" = assignment of an existing lease (years-remaining = #1 DD item) + ground rent; **VUV basket peg** (USD/AUD/NZD/EUR; realigned 2025 IMF-advised); **ZERO direct tax** (no income/corporate/CGT/inheritance) — 15% VAT + 12.5% Rent Tax; **CBI = donation (DSP ~USD 130k floor), NOT property-linked; EU permanently revoked visa-free Schengen 12 Dec 2024** (Reg (EU) 2025/11); **#1 World Risk Index** (Cyclone Pam 2015; M7.3 quake 17 Dec 2024; active volcanoes); final court Court of Appeal of Vanuatu; **Confidence MEDIUM** |
+| **tt** | Trinidad & Tobago 🆕 (twin-island common-law republic) | ✅ Fully populated | Min. of Finance + IRD/BIR + Central Bank (CBTT) + laws.gov.tt + UWI Seismic Research Centre — **final appeals = UK Privy Council (JCPC), NOT the CCJ** (T&T acceded only to CCJ *Original* Jurisdiction); **Foreign Investment Act Chap. 70:07** — no outright ban but a threshold+licence regime: Trinidad ≤1 acre residential / ≤5 acres commercial licence-free, above → President's licence; **Tobago STRICTER** (all foreign land needs a licence, 2007 Order); **TTD managed float ~6.7–6.8/USD with a genuine USD/FX shortage** → rationed repatriation (#1 exit risk); property tax **reintroduced — residential 3% of ARV**, collection began 2024; VAT 12.5%; CGT only on <12-month disposals; **NO CBI**; **high seismic** (UWI SRC); dual Old-Law-deeds / RPA-Torrens title; **Confidence MEDIUM** |
+| **pk** | Pakistan 🆕 (provincial land records, diaspora-driven) | ✅ Fully populated | State Bank (SBP) + FBR + Board of Investment + NDMA + PMD + provincial Boards of Revenue — **land records are PROVINCIAL (no national cadastre)** — Punjab most digitised (PLRA Act 2017); title = presumptive Record of Rights (mutation/*intiqal* + Registration Act 1908 deed), NOT Torrens; market **overwhelmingly DIASPORA** (non-resident Pakistanis via SBP **Roshan Digital Account → Roshan Apna Ghar**); **non-origin foreigners need Federal/Interior approval** (1980 Order under Foreigners Act 1946) + cantonment/border security clearance; **PKR managed float (NOT a peg)** under an IMF EFF + exchange controls (SBP FE Manual); FBR advance tax §236K purchase / §236C sale + CGT §37(1A) — **rates change every Finance Act — verify current**; final court Supreme Court (constitutional jurisdiction → Federal Constitutional Court, 27th Amendment 13 Nov 2025); earthquake + flood (PMD/NDMA); **NO CBI** (Foreigner LTR Order 2025 = residency only); **Confidence MEDIUM** |
 
-A country playbook is "scaffolded" when it has the structure but data sources need filling. As of 2026-05-28, all 121 supported countries are fully populated. Master skill still detects scaffold status (for any future additions) and either (a) runs best-effort with placeholder warnings, or (b) tells the user the country is not yet fully supported and offers to populate it.
+A country playbook is "scaffolded" when it has the structure but data sources need filling. As of 2026-06-13, all 126 supported countries are fully populated. Master skill still detects scaffold status (for any future additions) and either (a) runs best-effort with placeholder warnings, or (b) tells the user the country is not yet fully supported and offers to populate it.
 
 ## Unsupported country
 
@@ -488,7 +493,7 @@ Always justify the colour with one sentence.
 ```
 property-deep-dive/
 ├── SKILL.md                   # this file (master router)
-├── countries/                 # 121 countries, all fully populated
+├── countries/                 # 126 countries, all fully populated
 │   ├── fr/playbook.md         # France
 │   ├── it/playbook.md         # Italy
 │   ├── cz/playbook.md         # Czech Republic

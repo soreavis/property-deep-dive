@@ -326,6 +326,24 @@ bkam.ma                  # Bank Al-Maghrib (Morocco — bare .ma)
 hcp.ma                   # High Commission for Planning (Morocco)
 www.bkam.ma
 www.hcp.ma
+# Namibia (regulators on .com.na / .org.na / bare .na — not .gov.na)
+bon.com.na               # Bank of Namibia (central bank)
+www.bon.com.na
+namra.org.na             # Namibia Revenue Agency (tax authority)
+www.namra.org.na
+nsa.org.na               # Namibia Statistics Agency
+ejustice.moj.na          # Ministry of Justice e-Justice portal (courts / statutes)
+namiblii.org             # NamibLII — Namibia Legal Information Institute (statute repository; cf. seylii.org)
+ecb.org.na               # Electricity Control Board (energy regulator)
+www.ecb.org.na
+fic.na                   # Financial Intelligence Centre (AML regulator)
+www.fic.na
+# Botswana (regulators on .org.bw / .co.bw — not .gov.bw)
+bankofbotswana.bw        # Bank of Botswana (central bank)
+www.bankofbotswana.bw
+burs.org.bw              # Botswana Unified Revenue Service (tax authority)
+www.burs.org.bw
+statsbots.org.bw         # Statistics Botswana
 
 # US — covered by .gov but useful explicit
 federalreserve.gov       # already .gov
