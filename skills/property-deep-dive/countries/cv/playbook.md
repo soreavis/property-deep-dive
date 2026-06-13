@@ -337,7 +337,7 @@ Net yields after IPI + IRPS + management + maintenance + condomínio fees + util
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Serviço Nacional de Proteção Civil (SNPC)** | `https://www.protecaocivil.cv/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with SNPCB / Ministério da Administração Interna (snpcb.cv — verify) (verify) — contact via Ministério da Administração Interna | Civil protection, hazard awareness, multi-hazard maps |
+| **Serviço Nacional de Proteção Civil (SNPC)** | `https://snpcb.cv/` (verify) — contact via Ministério da Administração Interna | Civil protection, hazard awareness, multi-hazard maps |
 | **Instituto Nacional de Meteorologia e Geofísica (INMG)** | `https://www.inmg.gov.cv/` | National weather service, seismic monitoring (Brava + Fogo seismicity), volcano observation Fogo |
 | **Smithsonian Global Volcanism Program — Fogo** | `https://volcano.si.edu/volcano.cfm?vn=384010` | Eruption history, hazard map for Fogo |
 | **USGS Earthquake Hazards** | `https://earthquake.usgs.gov/earthquakes/map/?extent=14,-26&extent=18,-22` | Cross-check seismic events Cabo Verde region |

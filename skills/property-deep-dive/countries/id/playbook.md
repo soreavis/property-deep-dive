@@ -16,7 +16,7 @@ ISO2: `id`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Currency**: IDR (rupiah, Rp). 1 USD ≈ 15,500–16,500 IDR; 1 EUR ≈ 16,800–17,800 IDR (Apr 2026 Bank Indonesia reference; FX volatile, verify at `https://www.bi.go.id/`).
 - **Languages**: Bahasa Indonesia (official). English usable in Bali expat-property sector and Jakarta CBD. **All registered title documents (sertifikat) and notarial deeds (Akta Jual Beli, AJB) are in Bahasa Indonesia** — sworn translation (penerjemah tersumpah) required for foreign buyers; PPAT must read and explain the deed in person.
 - **Cadastre / land registry**: **BPN — Badan Pertanahan Nasional**, operating under **Kementerian ATR/BPN** (Ministry of Agrarian Affairs & Spatial Planning). Public portal: `https://www.atrbpn.go.id/`
-  - BPN online services (Sentuh Tanahku): `https://sentuhtanahku.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN (atrbpn.go.id — verify Sentuh Tanahku service)
+  - BPN online services (Sentuh Tanahku): `https://sentuhtanahku.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN — Sentuh Tanahku now at https://www.atrbpn.go.id/sentuh-tanahku (search-confirmed; fetch-verify from an unblocked network)
   - BHUMI ATR/BPN public spatial viewer: `https://bhumi.atrbpn.go.id/` (parcel polygons + zoning where digitised)
   - Title verification (pengecekan sertifikat) must be requested at the kantor pertanahan (BPN office) of the kabupaten/kota where the parcel sits. PPAT can do this on behalf of the buyer — standard pre-AJB step.
 - **Title types** (CRITICAL — only some are foreigner-eligible):
@@ -698,7 +698,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | Source | URL pattern |
 |---|---|
 | Kementerian ATR/BPN main | `https://www.atrbpn.go.id/` |
-| BPN Sentuh Tanahku | `https://sentuhtanahku.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN (atrbpn.go.id — verify Sentuh Tanahku service) |
+| BPN Sentuh Tanahku | `https://sentuhtanahku.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN — Sentuh Tanahku now at https://www.atrbpn.go.id/sentuh-tanahku (search-confirmed; fetch-verify from an unblocked network) |
 | BHUMI ATR/BPN (spatial viewer) | `https://bhumi.atrbpn.go.id/` |
 | Peraturan BPK (statute database) | `https://peraturan.bpk.go.id/` |
 | UUPA No. 5/1960 | `https://peraturan.bpk.go.id/Details/51078/uu-no-5-tahun-1960` |
