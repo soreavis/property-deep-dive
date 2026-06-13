@@ -45,7 +45,7 @@ ISO2: `jp`. Status: ✅ Fully populated (researched 2026-05).
 - **at home / アットホーム** — `https://www.athome.co.jp/`
 - **HOME'S / LIFULL HOME'S** — `https://www.homes.co.jp/`
 - **Yahoo!不動産** — `https://realestate.yahoo.co.jp/`
-- **GaijinPot Apartments** + **Real Estate Japan / RealEstate.co.jp** — English-language, foreigner-friendly: `https://gaijinpot.com/apartments/` ❌ DEPRECATED — primary source removed; verify with GaijinPot Housing (commercial listings aggregator, not a government source) and `https://realestate.co.jp/`
+- **GaijinPot Apartments** + **Real Estate Japan / RealEstate.co.jp** — English-language, foreigner-friendly: `https://apartments.gaijinpot.com/en/rent` ❌ DEPRECATED — primary source removed; verify with GaijinPot Housing (commercial listings aggregator, not a government source) and `https://realestate.co.jp/`
 
 ### Premium-area benchmarks (Q1-Q2 2025 reference, MLIT 公示地価 + Recruit Suumo new-build aggregates)
 
@@ -529,7 +529,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 | at home | `https://www.athome.co.jp/` |
 | HOME'S / LIFULL | `https://www.homes.co.jp/` |
 | Yahoo!不動産 | `https://realestate.yahoo.co.jp/` |
-| GaijinPot Apartments | `https://gaijinpot.com/apartments/` ❌ DEPRECATED — primary source removed; verify with GaijinPot Housing (commercial listings aggregator, not a government source) |
+| GaijinPot Apartments | `https://apartments.gaijinpot.com/en/rent` ❌ DEPRECATED — primary source removed; verify with GaijinPot Housing (commercial listings aggregator, not a government source) |
 | LIFULL 空き家バンク aggregator | `https://www.akiya-athome.jp/` |
 
 ## Status

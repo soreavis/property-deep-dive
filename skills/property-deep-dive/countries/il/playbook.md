@@ -9,7 +9,7 @@ ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Postcode (מיקוד / mikud)**: 7 digits since 2013 (was 5 digits pre-reform). Format `NNNNNNN`. Source: Israel Postal Company `https://www.israelpost.co.il/zip.nsf/demozip` (verify postcode lookup; 7-digit format mandatory for mail since 1 February 2013).
 - **Admin levels**: 6 mehozot (מחוזות, districts) → 15 nafot (נפות, sub-districts) → 257 municipalities (רשויות מקומיות / reshuyot mekomiyot — including 77 ערים/cities, 124 מועצות מקומיות/local councils, 54 מועצות אזוריות/regional councils, plus contested-status municipalities in East Jerusalem and the Golan). Counts per CBS Local Authorities table 2024. Source: Central Bureau of Statistics (CBS / הלמ"ס) `https://www.cbs.gov.il/he/publications/Pages/2024/Local-Authorities-in-Israel-2022.aspx`.
 - **Population**: ~10.0 million (CBS estimate end-2025; verify at `https://www.cbs.gov.il/he/Pages/default.aspx`). Jewish ~73%, Arab ~21%, Other ~6% (CBS classification).
-- **Currency**: ILS (Israeli new shekel, ₪). 1 USD ≈ 3.6–3.8 ILS; 1 EUR ≈ 3.9–4.1 ILS (May 2026 BoI representative rate; FX volatile during wartime — verify at `https://www.boi.org.il/he/Markets/ExchangeRates/Pages/Default.aspx`). Free-floating; Bank of Israel intervenes only in extreme moves; no capital controls on residents/non-residents for property transactions but FET-equivalent KYC applies under the Anti-Money Laundering Order 5761-2000.
+- **Currency**: ILS (Israeli new shekel, ₪). 1 USD ≈ 3.6–3.8 ILS; 1 EUR ≈ 3.9–4.1 ILS (May 2026 BoI representative rate; FX volatile during wartime — verify at `https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/`). Free-floating; Bank of Israel intervenes only in extreme moves; no capital controls on residents/non-residents for property transactions but FET-equivalent KYC applies under the Anti-Money Laundering Order 5761-2000.
 - **Languages**: Hebrew + Arabic (both official in practice; Hebrew dominant in Tabu/RMI/tax filings). English widely used in Tel Aviv and among Anglo Olim; **all registered title documents are in Hebrew** — sworn translation required for non-Hebrew-reading buyers. Source: Basic Law: Israel as the Nation-State of the Jewish People (5778-2018) §4 (sets Hebrew as state language; Arabic as "special status").
 - **Cadastre / land registry**: **dual system** —
 - **Tabu / Land Registry (לשכת רישום מקרקעין)** — Ministry of Justice; tracks freehold (`חופשי`) and registered leases. Portal: `https://www.gov.il/he/departments/land_registration_and_settlement_of_rights_department` and online inquiries at `https://taboo.gov.il/`. Nesach Tabu (נסח טאבו / title abstract) costs ILS 11 online (2026 fee).
@@ -120,7 +120,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 ### Mortgage / financing for non-residents
 
 - **Bank of Israel limits** (Banking Supervision Department, Proper Conduct of Banking Business Directive 329):
-- **Non-resident foreign buyer**: maximum LTV typically **50%** (varies by bank; some go to 60% with strong credit). Source: BoI directive page `https://www.boi.org.il/he/banking-supervision/regulations/`.
+- **Non-resident foreign buyer**: maximum LTV typically **50%** (varies by bank; some go to 60% with strong credit). Source: BoI directive page `https://www.boi.org.il/en/`.
 - **Israeli first home**: up to 75% LTV
 - **Israeli second home / investor**: up to 50% LTV
 - **Currency**: most non-resident mortgages offered in ILS; some banks offer USD/EUR-denominated mortgages with FX conversion at drawdown — discuss with the lender.
@@ -156,8 +156,8 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - Public portal: `https://www.gov.il/he/departments/dynamiccollectors/realestate_purchase_data` (search by address — actual recorded sale prices)
 - This is the **single most important benchmark source** for foreign buyers: shows realized prices, not listing asking prices.
 - **Bank of Israel residential property data**:
-- Financial Stability Report `https://www.boi.org.il/he/communication-and-publications/regular-publications/financial-stability-report/`
-- Statistical bulletin (real estate section) `https://www.boi.org.il/he/data-and-statistics/`
+- Financial Stability Report `https://www.boi.org.il/en/communication-and-publications/regular-publications/financial-stability/`
+- Statistical bulletin (real estate section) `https://www.boi.org.il/en/economic-roles/statistics/`
 - **Ministry of Construction & Housing (משרד הבינוי והשיכון)** — tender prices for state-land plots; useful as a lower bound. `https://www.gov.il/he/departments/ministry_of_construction_and_housing`
 
 ### Listing platforms (secondary, listings = seller-controlled)
@@ -645,8 +645,8 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 | Mas Rechisha brackets | `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` |
 | Tax Authority transactions database | `https://www.gov.il/he/departments/dynamiccollectors/realestate_purchase_data` |
 | CBS dwelling price index | `https://www.cbs.gov.il/he/subjects/Pages/מחירי-דירות.aspx` |
-| Bank of Israel financial stability | `https://www.boi.org.il/he/communication-and-publications/regular-publications/financial-stability-report/` |
-| Bank of Israel FX | `https://www.boi.org.il/he/Markets/ExchangeRates/Pages/Default.aspx` |
+| Bank of Israel financial stability | `https://www.boi.org.il/en/communication-and-publications/regular-publications/financial-stability/` |
+| Bank of Israel FX | `https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/` |
 | Karnit fund | `https://www.gov.il/he/departments/karnit_property_tax_and_compensation_fund_for_road_accident_victims` |
 | Misim Karnit portal | `https://www.misim.gov.il/` |
 | Aliyah & Integration | `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` |

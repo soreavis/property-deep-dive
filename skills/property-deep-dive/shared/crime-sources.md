@@ -246,7 +246,7 @@ For the property's locality, return:
 
 ### 🇧🇦 Bosnia & Herzegovina
 
-- **BHAS (Agencija za statistiku BiH)**: `https://www.bhas.ba/`
+- **BHAS (Agencija za statistiku BiH)**: `https://bhas.gov.ba/`
 - **Entity-level police**: MUP FBiH + MUP RS entity + Brčko District police
 - **Granularity**: per-entity + per-canton (FBiH) + per-opština
 - **Caveat**: dual-entity methodology divergence; war-legacy reporting variable
@@ -784,7 +784,7 @@ For the property's locality, return:
 
 ### 🇧🇧 Barbados
 
-- **Royal Barbados Police Force (RBPF)**: `https://www.rbpf.gov.bb/` — annual report + monthly crime statistics; homicide, assault, burglary, theft, drug, traffic
+- **Royal Barbados Police Force (RBPF)**: `https://tbps.gov.bb/` — annual report + monthly crime statistics; homicide, assault, burglary, theft, drug, traffic
 - **Barbados Statistical Service (BSS)**: `https://stats.gov.bb` — Statistical Abstract crime tables (cross-validation) + per-parish breakdowns
 - **Caribbean Public Health Agency (CARPHA)**: regional homicide + injury surveillance
 - **UNODC Caribbean**: country profile aggregates (rate-per-100k cross-jurisdiction comparator)

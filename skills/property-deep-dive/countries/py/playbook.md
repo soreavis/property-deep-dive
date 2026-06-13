@@ -567,7 +567,7 @@ Universal Copernicus / IPCC AR6 logic (`shared/climate-projections.md`) applies.
 - **Banco Itaú Paraguay** — `https://www.itau.com.py/`
 - **Banco Continental** — `https://www.bancontinental.com.py/`
 - **Banco Atlas** — `https://www.atlas.com.py/`
-- **Banco Familiar** — `https://www.bancofamiliar.com.py/`
+- **Banco Familiar** — `https://www.familiar.com.py/`
 - **Sudameris Bank** — `https://www.sudamerisbank.com.py/`
 - **Visión Banco**, **Regional**, **GNB Paraguay**, **Banco Río** — others.
 
@@ -709,7 +709,7 @@ Universal Copernicus / IPCC AR6 logic (`shared/climate-projections.md`) applies.
 ### Regulator
 
 - **Superintendencia de Seguros (SIS)** under BCP — `https://www.bcp.gov.py/superintendencia-de-seguros/`.
-- **APCS — Asociación Paraguaya de Compañías de Seguros**: `https://www.apcs.com.py/` — gremio.
+- **APCS — Asociación Paraguaya de Compañías de Seguros**: `https://apcs.org.py/` — gremio.
 
 ### Major insurers (RE-relevant)
 

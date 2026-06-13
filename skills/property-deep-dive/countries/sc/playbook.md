@@ -256,7 +256,7 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 
 ### Salary benchmarks (2024-2026, est.)
 
-- **Public sector**: per Seychelles Public Service salary scale (verify current scale via `https://www.psd.gov.sc/`)
+- **Public sector**: per Seychelles Public Service salary scale (verify current scale via `https://police.gov.sc/`)
 - **Tourism / hospitality**: front-of-house USD 800–2,000/month gross; supervisory USD 1,500–4,000; expatriate management USD 4,000–12,000+ depending on brand
 - **Banking / financial services**: senior USD 4,000–10,000+ /month
 - **Median monthly earnings**: data not publicly available at the granularity of EU LCS — verify with NBS Quarterly Earnings Bulletin

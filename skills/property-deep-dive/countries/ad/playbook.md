@@ -29,7 +29,7 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Idealista Andorra**: `https://www.idealista.com/ca/andorra/` — strong coverage, Catalan/Spanish
 - **Engel & Völkers Andorra**: `https://www.engelvoelkers.com/ca-ad/andorra/` — premium / international
-- **Sotheby's International Realty Andorra**: `https://www.andorrasothebysrealty.com/`
+- **Sotheby's International Realty Andorra**: `https://www.andorra-sothebysrealty.com/en`
 - **Habitatclick.ad**, **Pisos.com Andorra**, **MM Andorra Real Estate**, **Cisa Inmobiliaria**
 - **Naturland properties** (mountain / ski-corridor specialists)
 - ⚠️ Most listings tagged in **m² construïts** (built area); confirm vs **m² útils** (usable) on visit *(per listing — verify with cadastre / on visit)*
@@ -197,7 +197,7 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 ### Salary benchmarks (2024-2025, Estadística)
 
 - **Salari mitjà** (mean monthly gross, all sectors) Q4 2024: ~**€2,400** (per Estadística salaris series)
-- **Salari mínim** (minimum wage) 2026: **~€1,447/month** (gross, 13-pay schedule per Govern annual decree — verify current decree at [Servei d'Inspecció de Treball](https://www.itreball.ad/))
+- **Salari mínim** (minimum wage) 2026: **~€1,447/month** (gross, 13-pay schedule per Govern annual decree — verify current decree at [Servei d'Inspecció de Treball](https://www.govern.ad/ca/tematiques/ocupacio-i-treball/servei-d-ocupacio))
 - Hospitality / retail (ski-corridor seasonal): ~€1,500–€2,000
 - Banking / finance (Andorran private banks: AndBank, MoraBanc, Crèdit Andorrà, BancSabadell d'Andorra): ~€2,800–€5,500
 - Tech / digital (small market): ~€2,400–€4,500
@@ -783,7 +783,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 | FEDA / Andorra Telecom / CASS / Policia / Bombers / SAAS / CCIS | `https://www.feda.ad/` · `https://www.andorratelecom.ad/` · `https://www.cass.ad/` · `https://www.policia.ad/` · `https://www.bombers.ad/` · `https://www.saas.ad/` · `https://www.ccis.ad/` |
 | Comú Andorra la Vella / Escaldes-Engordany / Encamp / Canillo | `https://www.comuandorra.ad/` · `https://www.e-e.ad/` · `https://www.comuencamp.ad/` · `https://www.comucanillo.ad/` |
 | Comú Ordino / La Massana / Sant Julià de Lòria | `https://www.ordino.ad/` · `https://www.lamassana.ad/` · `https://www.santjulia.ad/` |
-| Idealista AD / Engel & Völkers AD / Sotheby's AD | `https://www.idealista.com/ca/andorra/` · `https://www.engelvoelkers.com/ca-ad/andorra/` · `https://www.andorrasothebysrealty.com/` |
+| Idealista AD / Engel & Völkers AD / Sotheby's AD | `https://www.idealista.com/ca/andorra/` · `https://www.engelvoelkers.com/ca-ad/andorra/` · `https://www.andorra-sothebysrealty.com/en` |
 | OPCC Pyrenees Climate Observatory | `https://www.opcc-ctp.org/` |
 
 ## Status

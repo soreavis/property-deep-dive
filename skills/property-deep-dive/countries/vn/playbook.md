@@ -128,7 +128,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 - **Batdongsan.com.vn** — largest real estate portal in Vietnam, owned by PropertyGuru Group (via Property Guru Vietnam). Bilingual VN/EN. `https://batdongsan.com.vn/`
 - **Chotot Nha Dat** — classifieds-style, very high listing volume but mixed quality. `https://www.chotot.com/mua-ban-bat-dong-san`
-- **PropertyGuru Vietnam** — foreign-buyer-facing, English-dominant, premium / international developments. `https://www.propertyguru.com.vn/`
+- **PropertyGuru Vietnam** — foreign-buyer-facing, English-dominant, premium / international developments. `https://batdongsan.com.vn/`
 - **Alonhadat.com.vn** — Vietnamese-language, broad coverage. `https://alonhadat.com.vn/`
 - **Nhadat24h, Mogi.vn, Homedy.com** — secondary platforms
 - **Developer-direct websites** — Vinhomes (Vingroup), Novaland, Sun Group, Masterise, Phu My Hung, CapitaLand, Keppel Land — for new launches; broker listings of new launches are often not the developer's "official" channel and may carry premium markups.
@@ -572,7 +572,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 
 - **Batdongsan.com.vn** — `https://batdongsan.com.vn/` — largest, English+Vietnamese, all segments, owned by PropertyGuru
 - **Chotot Nha Dat** — `https://www.chotot.com/mua-ban-bat-dong-san` — classifieds-style, very high volume but mixed quality
-- **PropertyGuru Vietnam** — `https://www.propertyguru.com.vn/` — foreign-buyer focused, English-dominant, premium / international developments
+- **PropertyGuru Vietnam** — `https://batdongsan.com.vn/` — foreign-buyer focused, English-dominant, premium / international developments
 - **Alonhadat.com.vn** — `https://alonhadat.com.vn/` — Vietnamese-language, broad coverage
 - **Mogi.vn** — `https://mogi.vn/`
 - **Homedy.com** — `https://homedy.com/`
@@ -699,7 +699,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 | Vietnam Post (postcode) | `https://www.vnpost.vn/` |
 | Batdongsan.com.vn | `https://batdongsan.com.vn/` |
 | Chotot Nha Dat | `https://www.chotot.com/mua-ban-bat-dong-san` |
-| PropertyGuru Vietnam | `https://www.propertyguru.com.vn/` |
+| PropertyGuru Vietnam | `https://batdongsan.com.vn/` |
 | Alonhadat | `https://alonhadat.com.vn/` |
 | Mogi | `https://mogi.vn/` |
 | Homedy | `https://homedy.com/` |

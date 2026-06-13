@@ -554,7 +554,7 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 - **r/Taiwan** + **r/taiwanese** — broad Taiwan expat
 - **r/taiwan_living** — practical living, occasional housing
 - **PTT 房屋板 (home-sale)** — `https://www.ptt.cc/bbs/home-sale/index.html` — most active TW housing forum (Mandarin); high signal-to-noise for buyer experiences + agent reviews
-- **PTT Realestate 板** — `https://www.ptt.cc/bbs/Realestate/index.html` — investor-tilt
+- **PTT Realestate 板** — `https://www.ptt.cc/bbs/home-sale/index.html` — investor-tilt
 - **Mobile01 居家房事討論區** — `https://www.mobile01.com/topiclist.php?f=356` — broad consumer; renovation + dispute heavy
 - **Forumosa.com** — `https://forumosa.com/` — long-running English expat forum
 - **FB Group: Taiwan Foreign Real Estate Buyers / 在台外國人買房** — practical FB groups (verify activity)

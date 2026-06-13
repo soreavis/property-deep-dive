@@ -522,7 +522,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 
 - **PDAM (Perusahaan Daerah Air Minum)** — local government water utility per kabupaten/kota. Coverage and quality varies dramatically.
   - DKI Jakarta: PAM Jaya `https://pamjaya.co.id/` (with private operator concessions)
-  - Bali Badung: PDAM Tirta Mangutama `https://pdamtirtamangutama.co.id/`
+  - Bali Badung: PDAM Tirta Mangutama `https://tirtamangutama.badungkab.go.id/`
   - Bali Denpasar: PDAM Tirta Sewakadarma
 - **Rural / Bali interior**: many properties on private bore well (sumur bor) with storage tank (toren); PDAM coverage often unavailable.
 - **Bali groundwater stress**: south Bali (Canggu, Seminyak, Pererenan) suffering aquifer drawdown — borehole water quality declining + saltwater intrusion in coastal areas. Independent water test recommended.
@@ -729,7 +729,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | Distarcip Provinsi Bali (Spatial Plan) | `https://distarcip.baliprov.go.id/` |
 | PAM Jaya (Jakarta water) | `https://pamjaya.co.id/` |
 | PD PAL Jaya (Jakarta sewerage) | (verify current site at PUPR Jakarta) |
-| PDAM Tirta Mangutama (Badung Bali) | `https://pdamtirtamangutama.co.id/` |
+| PDAM Tirta Mangutama (Badung Bali) | `https://tirtamangutama.badungkab.go.id/` |
 | Kementerian Ketenagakerjaan | `https://kemnaker.go.id/` |
 | Korlantas POLRI (traffic) | `https://korlantas.polri.go.id/` |
 | Rumah123 | `https://www.rumah123.com/` |

@@ -38,7 +38,7 @@ ISO2: `hk`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Listing platforms
 
-- **Centaline / Centanet**: `https://hk.centanet.com/icms/en/` — largest agency by transaction count; agent-listed inventory + sold-price history
+- **Centaline / Centanet**: `https://hk.centanet.com/home/index.aspx` — largest agency by transaction count; agent-listed inventory + sold-price history
 - **Midland Realty / Midland.com.hk**: `https://www.midland.com.hk/` — second largest agency
 - **Squarefoot.com.hk** (Ricacorp): `https://www.squarefoot.com.hk/`
 - **28Hse.com**: `https://www.28hse.com/` — buyer-direct + agency mixed
@@ -907,7 +907,7 @@ If IRD assesses sale as "trading" rather than capital disposal:
 
 ## Common listing platforms
 
-- **Centaline / Centanet**: `https://hk.centanet.com/icms/en/`
+- **Centaline / Centanet**: `https://hk.centanet.com/home/index.aspx`
 - **Midland Realty**: `https://www.midland.com.hk/`
 - **Squarefoot.com.hk** (Ricacorp): `https://www.squarefoot.com.hk/`
 - **28Hse.com**: `https://www.28hse.com/`
@@ -991,7 +991,7 @@ If IRD assesses sale as "trading" rather than capital disposal:
 | eLegislation (statutory text) | `https://www.elegislation.gov.hk/` |
 | Hospital Authority | `https://www.ha.org.hk/` |
 | HK 18 Districts (Home Affairs Dept) | `https://www.had.gov.hk/en/18_districts/my_map.htm` |
-| Centaline / Centanet listings | `https://hk.centanet.com/icms/en/` |
+| Centaline / Centanet listings | `https://hk.centanet.com/home/index.aspx` |
 | Midland Realty | `https://www.midland.com.hk/` |
 | Squarefoot listings | `https://www.squarefoot.com.hk/` |
 | 28Hse listings | `https://www.28hse.com/` |

@@ -17,7 +17,7 @@ ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Dubai**: Dubai Land Department (DLD) — `https://dubailand.gov.ae/` + Dubai REST app
   - **Abu Dhabi**: Abu Dhabi Real Estate Centre (ADREC, formerly DMT-DGE) — `https://adrec.gov.ae/`
   - **Sharjah**: Sharjah Real Estate Registration Department — `https://srerd.gov.ae/`
-  - **Ras Al Khaimah**: RAK Municipality / RAK Department of Economic Development for property — `https://www.rakmunicipality.ae/`
+  - **Ras Al Khaimah**: RAK Municipality / RAK Department of Economic Development for property — `https://mun.rak.ae/`
   - **Ajman**: Ajman Municipality and Planning Department — `https://www.am.gov.ae/`
   - **Fujairah / Umm Al Quwain**: Municipal offices
 - **Identifier(s)**:

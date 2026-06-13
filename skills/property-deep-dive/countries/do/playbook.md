@@ -12,7 +12,7 @@ ISO2: `do`. Status: ✅ Fully populated (researched 2026-05-01).
   - **Jurisdicción Inmobiliaria** (Land Registration Jurisdiction, est. by **Ley 108-05** of 2005, in force 2007): `https://ji.gob.do/`
   - **Tribunal Superior de Tierras (TST)**: appellate court for title; sits in 4 regional jurisdictions (Norte, Central, Departamento Este, Departamento Noreste)
   - **Registro de Títulos**: per-jurisdiction title office issuing `Certificado de Título`
-  - **Dirección Nacional de Mensuras Catastrales (DNMC)** — surveyor-side cadastre: `https://dnmc.gob.do/`
+  - **Dirección Nacional de Mensuras Catastrales (DNMC)** — surveyor-side cadastre: `https://indomet.gob.do/`
 - **Identifier**: `Designación Catastral` (e.g., `parcela X, distrito catastral Y, municipio Z`) + `Matrícula` (modern post-saneamiento) OR legacy `Certificado de Título` numbering. After **saneamiento** (registration purification), title is held under a **Matrícula** in the unified Registry.
 - **Ownership types**: **Dominio pleno** (freehold; foreigners on equal footing per Constitución art. 51 + **Ley 195-69**); **Condominio** (**Ley 5038-58**); **SA / SRL** corporate holding (estate-planning, anonymity); **Fideicomiso inmobiliario** (Ley 189-11; common for development trusts + CONFOTUR); **Concesión** for state coastal bands — first 60 m from high-tide line is public (**Ley 305-68 Zona Marítima Terrestre**), all beachfront subject to setback rules.
 - **Recent reforms**: **Ley 108-05** Registro Inmobiliario (in force 2007 — Torrens-style title); **Ley 158-01 + 195-13** CONFOTUR; **Ley 155-17** AML (beneficial-owner + sworn source-of-funds); **Ley 189-11** trust law (fideicomiso); **Ley 358-05** General Consumer Protection Law (Pro Consumidor enforcement for developer-to-consumer purchases — new construction, off-plan); **DGII Norma 06-2017** digital IPI/transfer filing; annual DGII Resolución indexes IPI threshold (**DOP 10,695,494 for 2026** per DGII Resolución DG-AR1-2026-00001 — verify current year at filing) (2026-05-27 verified).
@@ -348,7 +348,7 @@ Regulatory status (verified 2026-04):
 | **CORAABO** | Boca Chica / San Cristóbal corridor (per recent reorg) |
 | **INAPA (Instituto Nacional de Aguas Potables y Alcantarillados)** | All other municipios + rural |
 
-URL hubs: `https://caasd.gob.do/`, `https://corasaan.gob.do/`, `https://inapa.gob.do/`.
+URL hubs: `https://caasd.gob.do/`, `https://www.coraasan.gob.do/`, `https://inapa.gob.do/`.
 
 ### Sewer reality
 
@@ -483,7 +483,7 @@ URL hubs: `https://caasd.gob.do/`, `https://corasaan.gob.do/`, `https://inapa.go
 |---|---|
 | Jurisdicción Inmobiliaria | `https://ji.gob.do/` |
 | Registro de Títulos (per jurisdicción) | via JI portal |
-| DNMC catastro | `https://dnmc.gob.do/` |
+| DNMC catastro | `https://indomet.gob.do/` |
 | DGII (IPI + transfer + RNC) | `https://www.dgii.gov.do/` |
 | MITUR + CONFOTUR | `https://mitur.gob.do/` |
 | Migración | `https://migracion.gob.do/` |

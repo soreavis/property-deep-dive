@@ -39,7 +39,7 @@ ISO2: `li`. Status: ✅ Fully populated (researched 2026-05).
 
 - **homegate.ch** (Liechtenstein listings appear): `https://www.homegate.ch/kaufen/immobilien/land-liechtenstein/trefferliste`
 - **immoscout24.ch** Liechtenstein filter: `https://www.immoscout24.ch/`
-- **liewo.li / Vaterland Immo / Volksblatt Immo**: local newspaper portals (`https://www.vaterland.li/`, `https://www.volksblatt.li/` ❌ DEPRECATED — primary source removed; verify with Liechtensteiner Vaterland (vaterland.li)) — small inventory, German only
+- **liewo.li / Vaterland Immo / Volksblatt Immo**: local newspaper portals (`https://www.vaterland.li/`, `https://www.vaterland.li/` ❌ DEPRECATED — primary source removed; verify with Liechtensteiner Vaterland (vaterland.li)) — small inventory, German only
 - **Newhome.ch** with LI filter
 - Premium agency: **Engel & Völkers Liechtenstein** (Vaduz office), **Marxer Immobilien**, **First Immobilien**
 

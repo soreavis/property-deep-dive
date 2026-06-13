@@ -427,7 +427,7 @@ MEDIUM — wage benchmarks are sourced to ANETI + INS but shift with TND volatil
 
 | Source | URL | What it gives |
 |---|---|---|
-| **ONPC — Office National de la Protection Civile** | `https://www.protection-civile.nat.tn/` | National civil protection, hazard awareness |
+| **ONPC — Office National de la Protection Civile** | `http://www.onpc.nat.tn/` | National civil protection, hazard awareness |
 | **INM — Institut National de la Météorologie** | `https://www.meteo.tn/` | Weather, storm warnings, climate baseline |
 | **CNCT — Centre National de Cartographie et Télédétection** | (under Ministry of Defence) | Hazard mapping, partially restricted |
 | **APAL — Agence de Protection et d'Aménagement du Littoral** | `https://www.apal.nat.tn/` | Coastal-zone management, DPM, erosion mapping |
@@ -680,7 +680,7 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 | **INP (Heritage)** | Médina classification, restoration authorisation | `https://www.inp.rnrt.tn/` |
 | **Commune service de l'urbanisme** | PAU, permis de bâtir, zoning, oued setback | (commune-specific) |
 | **DGRE (Direction Générale des Ressources en Eau)** | Flood risk, well-drilling permits | (under Ministry of Agriculture) |
-| **ONPC (Protection Civile)** | Civil-protection hazards, emergency planning | `https://www.protection-civile.nat.tn/` |
+| **ONPC (Protection Civile)** | Civil-protection hazards, emergency planning | `http://www.onpc.nat.tn/` |
 | **Chambre Nationale des Notaires** | Notary directory + fee barème | `https://www.notaires.org.tn/` |
 | **SONEDE (water)** | Mains water connection, billing | `https://www.sonede.com.tn/` |
 | **ONAS (sewer)** | Mains sewer connection | `https://www.onas.nat.tn/` |
@@ -723,7 +723,7 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 | APAL (coastal) | `https://www.apal.nat.tn/` |
 | APIA (agriculture investment) | `https://www.apia.com.tn/` |
 | INP (heritage) | `https://www.inp.rnrt.tn/` |
-| ONPC (Protection Civile) | `https://www.protection-civile.nat.tn/` |
+| ONPC (Protection Civile) | `http://www.onpc.nat.tn/` |
 | INM (météo) | `https://www.meteo.tn/` |
 | Ministère de l'Équipement | `https://www.equipement.gov.tn/` |
 | Tunisie Autoroutes (STA) | `https://www.tunisieautoroutes.com/` |

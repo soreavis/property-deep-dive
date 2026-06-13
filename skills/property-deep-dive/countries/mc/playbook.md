@@ -43,7 +43,7 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 
 | Portal | URL | Notes |
 |---|---|---|
-| Chambre Immobilière Monégasque (CIM) | https://www.chambre-immobiliere.mc/ | Official agents' chamber; member directory, not a listings aggregator |
+| Chambre Immobilière Monégasque (CIM) | https://www.chambre-immobiliere-monaco.mc/ | Official agents' chamber; member directory, not a listings aggregator |
 | Savills Monaco | https://www.savills.mc/ | Established in market |
 | Knight Frank Monaco | https://www.knightfrank.mc/ | Cross-references KF Wealth Report data |
 | Sotheby's International Realty Monaco | https://www.monaco-sothebysrealty.com/ | Luxury / Carré d'Or focus |
@@ -403,7 +403,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 | Tax / Enregistrement | Direction des Services Fiscaux | https://monservicepublic.gouv.mc/Fiscalite |
 | Residency | Direction de la Sûreté Publique (Section Résidence) | https://monservicepublic.gouv.mc/Etrangers |
 | Notaires | Chambre des Notaires de Monaco | (verify with the Chambre — small profession; CIM directory cross-references members) |
-| Real-estate agents | CIM (Chambre Immobilière Monégasque) | https://www.chambre-immobiliere.mc/ |
+| Real-estate agents | CIM (Chambre Immobilière Monégasque) | https://www.chambre-immobiliere-monaco.mc/ |
 | Urbanism / planning permits | DPUM | https://service-public-entreprises.gouv.mc/ |
 | Energy & Climate (Plan Climat) | Mission pour la Transition Énergétique | https://transition-energetique.gouv.mc/ |
 | Tourism (STR licensing) | Direction du Tourisme et des Congrès (DTC) | https://www.visitmonaco.com/ + service-public-entreprises.gouv.mc |
@@ -425,7 +425,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 | Loi n° 1.560 (SCI reform) | https://journaldemonaco.gouv.mc/ (search by loi number) |
 | Convention fiscale FR-MC 1963 | https://www.legifrance.gouv.fr/ + https://gouv.mc/Gouvernement-et-Institutions |
 | Plan Climat | https://transition-energetique.gouv.mc/ |
-| Real-estate agent directory | https://www.chambre-immobiliere.mc/ |
+| Real-estate agent directory | https://www.chambre-immobiliere-monaco.mc/ |
 
 ---
 

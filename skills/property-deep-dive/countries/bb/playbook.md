@@ -571,7 +571,7 @@ URL: `https://barbadoswaterauthority.com`.
 
 ### Primary source
 
-- **Royal Barbados Police Force (RBPF)** — `https://www.barbadospoliceforce.gov.bb/` — annual crime reports; data lags.
+- **Royal Barbados Police Force (RBPF)** — `https://tbps.gov.bb/` — annual crime reports; data lags.
 - **Barbados Statistical Service** — limited public crime time series.
 - **UNODC** + **UK FCDO Travel Advice** + **US State Department Crime & Safety Reports** — comparative reference.
 
@@ -903,7 +903,7 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 | Department of Emergency Management | `https://dem.gov.bb/` |
 | Barbados Statistical Service | `https://stats.gov.bb` |
 | Barbados Meteorological Services | `https://www.barbadosweather.org/` |
-| Royal Barbados Police Force | `https://www.barbadospoliceforce.gov.bb/` |
+| Royal Barbados Police Force | `https://tbps.gov.bb/` |
 | Financial Services Commission | `https://www.fsc.gov.bb/` |
 | Barbados Water Authority | `https://barbadoswaterauthority.com` |
 | Barbados Light & Power Co. | `https://www.blpc.com.bb/` |

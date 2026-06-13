@@ -99,7 +99,7 @@ Source: [BNS Real Estate Statistics](https://stat.gov.kz/) cross-referenced with
 
 - **JSC "KazAvtoZhol" (ҚазАвтоЖол)**: [kazavtozhol.kz](https://kazavtozhol.kz/) — national highway operator under Ministry of Transport; manages M-prefix (republic) + R-prefix (regional) roads; publishes traffic surveys for international + state highways
 - **Ministry of Transport of the Republic of Kazakhstan**: [gov.kz/memleket/entities/transport](https://www.gov.kz/memleket/entities/transport?lang=en) — sectoral plans, road master plans
-- **Almaty Akimat (City Hall) — Almaty Transport Holding**: [almatytransport.kz](https://almatytransport.kz/) (verify current URL via [almaty.gov.kz](https://www.almaty.gov.kz/)) — Almaty metro + bus + BRT + congestion data
+- **Almaty Akimat (City Hall) — Almaty Transport Holding**: [almatytransport.kz](https://almatytransport.kz/) (verify current URL via [almaty.gov.kz](https://www.gov.kz/memleket/entities/almaty?lang=en)) — Almaty metro + bus + BRT + congestion data
 - **Astana Akimat — "Astana LRT" + Astana Bus**: data via [astana.gov.kz](https://www.astana.gov.kz/)
 - **Yandex Maps + 2GIS** — only commercial-grade real-time traffic in KZ (Yandex dominant; 2GIS strong for street-level data); Google Traffic patchy outside Almaty/Astana CBD
 
@@ -555,7 +555,7 @@ For an Almaty Bostandyk 2-bed (70 m², asking KZT 55 M / ~$115k) under STR:
 
 ### Primary sources
 
-- **Ministry of Internal Affairs (МВД / ІІМ — Ішкі істер министрлігі)**: [gov.kz/memleket/entities/iim](https://www.gov.kz/memleket/entities/iim?lang=en) — national crime statistics; **Committee for Legal Statistics & Special Records under Prosecutor General's Office**: [pravstat.prokuror.gov.kz](https://pravstat.prokuror.gov.kz/) — primary statistical aggregator (open-data portal)
+- **Ministry of Internal Affairs (МВД / ІІМ — Ішкі істер министрлігі)**: [gov.kz/memleket/entities/iim](https://www.gov.kz/memleket/entities/iim?lang=en) — national crime statistics; **Committee for Legal Statistics & Special Records under Prosecutor General's Office**: [pravstat.prokuror.gov.kz](https://qamqor.gov.kz/) — primary statistical aggregator (open-data portal)
 - **BNS annual yearbook** — Justice + Crime chapter: [stat.gov.kz](https://stat.gov.kz/)
 - **General Prosecutor's Office (Бас прокуратура)**: [gov.kz/memleket/entities/prokuror](https://www.gov.kz/memleket/entities/prokuror?lang=en) — prosecutorial statistics
 - **UNODC + Numbeo** for cross-country comparison
@@ -699,7 +699,7 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 | **State Revenue Committee (KGD / ҚТД — Қаржы министрлігі Мемлекеттік кірістер комитеті)** | [kgd.gov.kz](https://kgd.gov.kz/en) — tax residency, IE applications, Form 270.00 PIT filing, VAT registration |
 | **National Bank of Kazakhstan** | [nationalbank.kz](https://nationalbank.kz/) — currency-control declarations for cross-border, USDKZT reference rate |
 | **Notarial Chamber of Kazakhstan (Республикалық нотариаттық палата)** | [notariat.kz](https://notariat.kz/) — find notary, verify notary licence |
-| **Almaty / Astana / Shymkent Akimat (City Hall)** | [almaty.gov.kz](https://www.almaty.gov.kz/), [astana.gov.kz](https://www.astana.gov.kz/) — local property tax rates, zoning, building permits |
+| **Almaty / Astana / Shymkent Akimat (City Hall)** | [almaty.gov.kz](https://www.gov.kz/memleket/entities/almaty?lang=en), [astana.gov.kz](https://www.astana.gov.kz/) — local property tax rates, zoning, building permits |
 | **Almaty Su / Astana Su Arnasy** | Mains water + sewer connection verification |
 | **AlmatyEnergoSbyt / Astana ENERGOSBYT** | Electricity connection + tariff |
 | **Kazselezashchita (under MES)** | Mudflow zoning certification (Almaty foothill purchases — critical) |
@@ -741,7 +741,7 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 | MFA visa info | [mfa.gov.kz/en](https://www.mfa.gov.kz/en) |
 | Astana Hub | [astanahub.com/en](https://astanahub.com/en) |
 | AIFC | [aifc.kz](https://aifc.kz/) |
-| Almaty Akimat | [almaty.gov.kz](https://www.almaty.gov.kz/) |
+| Almaty Akimat | [almaty.gov.kz](https://www.gov.kz/memleket/entities/almaty?lang=en) |
 | Astana Akimat | [astana.gov.kz](https://www.astana.gov.kz/) |
 | AlmatyEnergoSbyt tariffs | [esalmaty.kz/en/home-tariffs](https://esalmaty.kz/en/home-tariffs/home-tariffs) |
 | Almaty Su (water) | [almatysu.kz](https://almatysu.kz/) |
@@ -749,7 +749,7 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 | MEKS energy modernisation | [modernization.kz/en](https://modernization.kz/en/about) |
 | Ministry of Emergency Situations | [emer.gov.kz/en](https://emer.gov.kz/en) |
 | Kazhydromet | [kazhydromet.kz/en](https://www.kazhydromet.kz/en/) |
-| Pravstat (crime statistics) | [pravstat.prokuror.gov.kz](https://pravstat.prokuror.gov.kz/) |
+| Pravstat (crime statistics) | [pravstat.prokuror.gov.kz](https://qamqor.gov.kz/) |
 | AERC real-estate analytics | [aerc.org.kz/en](https://aerc.org.kz/en) |
 | Halyk Finance research | [halykfinance.kz](https://halykfinance.kz/) |
 

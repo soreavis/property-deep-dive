@@ -25,7 +25,7 @@ ISO2: `sa`. Status: ✅ Fully populated (researched 2026-05).
 - **Recent reforms (2024–2026 watershed)**:
   - **18 Jun 2023 / 16 Dec 2023**: **Saudi Civil Transactions Law (نظام المعاملات المدنية) — Royal Decree M/191 of 29/11/1444 AH (18 Jun 2023), effective 16 Dec 2023** — first codified civil code in Saudi history (721 articles; codifies contract, sale, lease, construction, property rights; retrospective effect on pre-2023 contracts; introduces statutory limitation periods — 10y general, 5y certain professional claims) (2026-05-27 verified, source [laws.boe.gov.sa](https://laws.boe.gov.sa/) + Norton Rose Fulbright + Clifford Chance). Material backdrop for all post-2023 property transactions.
   - **14 Jul 2025 / 22 Jan 2026**: **Foreign Real Estate Ownership Law (نظام تملك غير السعوديين للعقار) — Royal Decree M/14 of 19/01/1447 AH** — Council of Ministers approval 8 Jul 2025; gazetted Umm Al-Qura 25 Jul 2025; **effective 22 Jan 2026** (180 days post-gazette). Opens designated zones in Riyadh + Jeddah (priority) plus other major cities; scope includes residential, commercial, agricultural farms, NEOM/Qiddiya/Red Sea Global shares, and tokenised fractional ownership stakes. Implementing regulations + final per-zone list rolling out via REGA 2025–2026 (2026-05-27 verified, source [Library of Congress Global Legal Monitor 2026-02-11](https://www.loc.gov/item/global-legal-monitor/2026-02-11/saudi-arabia-new-law-opens-ownership-of-real-estate-properties-to-foreigners) + [White & Case](https://www.whitecase.com/insight-alert/saudi-arabia-approves-landmark-real-estate-ownership-law-non-saudis) + [King & Spalding](https://www.kslaw.com/news-and-insights/saudi-arabia-introduces-new-legal-framework-for-foreign-ownership-of-real-estate))
-  - **2024**: **Premium Residency (Iqama Khassa) expansion** — added Real-Estate-Owner, Investor, Entrepreneur, and Talent categories to original 2019 launch ([premiumresidency.sa](https://premiumresidency.sa/) — official PRC portal under Premium Residency Centre)
+  - **2024**: **Premium Residency (Iqama Khassa) expansion** — added Real-Estate-Owner, Investor, Entrepreneur, and Talent categories to original 2019 launch ([premiumresidency.sa](https://pr.gov.sa/) — official PRC portal under Premium Residency Centre)
   - **2020**: VAT raised from 5% to **15%** effective 1 Jul 2020 ([ZATCA — Zakat Tax & Customs Authority](https://zatca.gov.sa/))
   - **2020**: **Real Estate Disposition Tax (RETT — ضريبة التصرفات العقارية)** introduced at **5% on sale value** by [Royal Decree A/84 of 14/02/1442 AH (Oct 2020)](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Real-Estate-Disposal-Tax.aspx) — replaces VAT on most real-estate disposals (deductible mechanism)
   - **2016**: **White Land Tax (ضريبة الأراضي البيضاء)** at **2.5%/yr** on undeveloped urban land >10,000 m² — [Royal Decree M/4 of 12/02/1437 AH (Nov 2015 / Mar 2016 effective)](https://www.mod.gov.sa/) under Ministry of Municipalities + REGA
@@ -67,7 +67,7 @@ This section determines whether a transaction is even legally possible. Saudi Ar
 
 ### Premium Residency (Iqama Khassa — إقامة مميزة) — property route
 
-Source: [premiumresidency.sa](https://premiumresidency.sa/) (Premium Residency Centre, under Council of Economic Affairs).
+Source: [premiumresidency.sa](https://pr.gov.sa/) (Premium Residency Centre, under Council of Economic Affairs).
 
 | Category | Threshold (2024 expansion — verify current) | Visa term |
 |---|---|---|
@@ -673,7 +673,7 @@ SAMA's USD foreign reserves ≈ USD 437B (Q4 2025; IMF data) supported by **hydr
 
 ### Premium Residency — material detail
 
-Source: [premiumresidency.sa](https://premiumresidency.sa/) (Premium Residency Centre — Council of Economic Affairs).
+Source: [premiumresidency.sa](https://pr.gov.sa/) (Premium Residency Centre — Council of Economic Affairs).
 
 - **Rights**: own real estate (excluding Mecca/Medina haram), invest in business, sponsor family (spouse + children + parents), multiple-entry, Saudi domicile, public+private services access
 - **Restrictions**: cannot hold government office; cannot work as Saudi national for citizenship-restricted roles; some sector limits
@@ -1153,7 +1153,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | MOJ home | `https://www.moj.gov.sa/` |
 | ZATCA | `https://zatca.gov.sa/` |
 | SAMA (Saudi Central Bank) | `https://www.sama.gov.sa/` |
-| Premium Residency Centre | `https://premiumresidency.sa/` |
+| Premium Residency Centre | `https://pr.gov.sa/` |
 | Etmam (foreign-investor services) | `https://www.etmam.gov.sa/` |
 | GASTAT (statistics) | `https://www.stats.gov.sa/` |
 | Ministry of Finance | `https://www.mof.gov.sa/` |

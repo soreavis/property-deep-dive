@@ -213,7 +213,7 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|---|
 | **DHMZ (Croatian Meteorological & Hydrological Service)** | `https://meteo.hr/` | Weather, climate, **CFFWIS fire index** (since 1982) |
 | **HGI-CGS (Croatian Geological Survey)** | `https://www.hgi-cgs.hr/en/` | Geology, **earthquake**, karst |
-| **Seizmološka služba (PMF Zagreb)** | `https://seizmo.hr` | Seismic monitoring |
+| **Seizmološka služba (PMF Zagreb)** | `https://www.pmf.unizg.hr/geof/en/seismological_survey` | Seismic monitoring |
 | **Voda.hr (river basin authorities)** | `https://www.voda.hr/` | Flood + water management |
 
 ### Specific risks
@@ -380,7 +380,7 @@ _Est. ranges — vary by municipal vodovod tariff; confirm with local Vodovod i 
 | Njuškalo | `https://www.njuskalo.hr/nekretnine/` |
 | DHMZ | `https://meteo.hr/` |
 | HGI-CGS | `https://www.hgi-cgs.hr/en/` |
-| Seizmološka služba | `https://seizmo.hr` |
+| Seizmološka služba | `https://www.pmf.unizg.hr/geof/en/seismological_survey` |
 | eEnergetski certifikat | `https://eenergetskicertifikat.mpgi.hr/` |
 | Voda.hr | `https://www.voda.hr/` |
 

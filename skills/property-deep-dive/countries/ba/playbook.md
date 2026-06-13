@@ -29,7 +29,7 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 ### Primary sources
 
 - **CBBH (Centralna banka BiH)**: `https://www.cbbh.ba/` — Financial Stability Reports
-- **Agencija za statistiku BiH (BHAS)**: `https://www.bhas.ba/`
+- **Agencija za statistiku BiH (BHAS)**: `https://bhas.gov.ba/`
 - **Entity statistics**: Federalni zavod za statistiku FBiH + Republički zavod za statistiku RS
 - **Global Property Guide**, **Investropa** — secondary aggregators
 
@@ -346,7 +346,7 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 | RS entity eKatastar | `https://ekatastar.rgurs.org/` |
 | RS entity geoportal | `https://geoportal.rgurs.org/` |
 | CBBH | `https://www.cbbh.ba/` |
-| BHAS (statistics) | `https://www.bhas.ba/` |
+| BHAS (statistics) | `https://bhas.gov.ba/` |
 | BHMAC (mine action) | `https://www.bhmac.org/` |
 | Olx.ba | `https://olx.ba/nekretnine` |
 

@@ -8,7 +8,11 @@
     "default_per_host_interval_ms": 500,
     "request_timeout_seconds": 15,
     "max_retries": 3,
-    "retry_backoff_seconds": [1, 2, 4],
+    "retry_backoff_seconds": [
+      1,
+      2,
+      4
+    ],
     "retry_jitter_pct": 25,
     "fail_streak_for_dead": 3,
     "random_refresh_pct": 10,
@@ -25,7 +29,7 @@
     "eur-lex.europa.eu": {
       "concurrency": 1,
       "interval_ms": 10000,
-      "reason": "robots.txt Crawl-delay: 10 — RFC 9309 mandatory floor"
+      "reason": "robots.txt Crawl-delay: 10 \u2014 RFC 9309 mandatory floor"
     },
     "legifrance.gouv.fr": {
       "concurrency": 1,
@@ -46,13 +50,47 @@
     {
       "host": "www.linkedin.com",
       "reason": "alias of linkedin.com"
+    },
+    {
+      "host": "example.gov",
+      "reason": "IANA-reserved documentation placeholder used in updater.md / CHANGELOG examples \u2014 not a real source"
+    },
+    {
+      "host": "overpass-api.de",
+      "reason": "OSM Overpass POST API endpoint (amenities-osm.md); a GET/HEAD 404s but the API is live \u2014 not a browseable page"
     }
   ],
-  "indeterminate_status_codes": [403, 429, 503, 999],
-  "live_status_codes": [200, 201, 202, 203, 204, 205, 206, 301, 302, 307, 308],
-  "auth_required_status_codes": [401],
+  "indeterminate_status_codes": [
+    403,
+    429,
+    503,
+    999
+  ],
+  "live_status_codes": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    301,
+    302,
+    307,
+    308
+  ],
+  "auth_required_status_codes": [
+    401
+  ],
   "cloudflare_challenge_markers": {
-    "headers": ["cf-ray", "cf-mitigated"],
-    "body_titles": ["Just a moment", "Attention Required", "One more step"]
+    "headers": [
+      "cf-ray",
+      "cf-mitigated"
+    ],
+    "body_titles": [
+      "Just a moment",
+      "Attention Required",
+      "One more step"
+    ]
   }
 }

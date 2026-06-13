@@ -41,7 +41,7 @@ ISO2: `co`. Status: ✅ Fully populated (researched 2026-05).
 | **UAECD Mapas Bogotá** | City cadastre | `https://www.catastrobogota.gov.co/` and `https://mapas.bogota.gov.co/` | Bogotá parcel + avalúo catastral |
 | **Catastro Medellín** | City cadastre | `https://www.medellin.gov.co/es/secretaria-gestion-y-control-territorial` | Medellín parcel + avalúo |
 | **Lonja de Propiedad Raíz Bogotá** | Trade body | `https://www.lonjadebogota.org.co/` | Quarterly market reports |
-| **Lonja de Propiedad Raíz Medellín** | Trade body | `https://www.lonja.com.co/` | Quarterly market reports + Antioquia |
+| **Lonja de Propiedad Raíz Medellín** | Trade body | `https://lonjadecolombia.com.co/` | Quarterly market reports + Antioquia |
 | **Galería Inmobiliaria** | Private aggregator | `https://galeriainmobiliaria.com.co/` | Sales data, paid pro tier |
 
 ### Listing platforms
@@ -508,7 +508,7 @@ Two distinct concepts (don't confuse):
 | Habi | `https://www.habi.co/` |
 | Galería Inmobiliaria | `https://galeriainmobiliaria.com.co/` |
 | Lonja Bogotá | `https://www.lonjadebogota.org.co/` |
-| Lonja Medellín | `https://www.lonja.com.co/` |
+| Lonja Medellín | `https://lonjadecolombia.com.co/` |
 | INVÍAS | `https://www.invias.gov.co/` |
 | ANI | `https://www.ani.gov.co/` |
 | Servicio Público de Empleo | `https://www.serviciodeempleo.gov.co/` |

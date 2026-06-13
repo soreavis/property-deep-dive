@@ -253,7 +253,7 @@ Universal — see `shared/climate-projections.md`.
 ## Foreign-buyer rules
 
 - **EU/EEA citizens**: free to buy residential, commercial. Agricultural / forest land requires 3 years' agricultural activity in LT (Art. 47 Constitution, transitional rules post-EU accession)
-- **Non-EU**: can buy residential and commercial urban property freely; **CANNOT buy agricultural / forest land** unless holding LT residency permit + meeting activity criteria. https://www.migration.lt/acquisition-of-land
+- **Non-EU**: can buy residential and commercial urban property freely; **CANNOT buy agricultural / forest land** unless holding LT residency permit + meeting activity criteria. https://www.elra.eu/contact-point-contribution/lithuania/limitations-to-foreigners-10/
 - **Border-zone**: no general statutory ban; some specific national-security parcels excluded
 - **Russian/Belarusian nationals (post-2022)**: residence permits heavily restricted → indirectly blocks land/agricultural purchases requiring residency. Bank account opening (KYC) and notarial AML checks now near-blocking even for residential
 

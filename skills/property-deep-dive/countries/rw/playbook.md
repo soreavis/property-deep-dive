@@ -10,7 +10,7 @@ ISO2: `rw`. Status: ✅ Fully populated (researched 2026-05).
 - **Currency**: **RWF — Rwandan franc**, **managed float** (no fixed peg). Exchange rate references: BNR daily/weekly bulletin (`https://www.bnr.rw/avgexchangerate`). **8 Aug 2025**: 1 USD ≈ **1,448.54 RWF** (BNR Weekly Bulletin 11 Aug 2025). 2024 depreciation est. ~10 % vs USD (est. from BNR year-start vs year-end average rate — verify against BNR annual report); trajectory still depreciating but BNR-managed (Reserves cover ~4 months imports per IMF Article IV). **Verify spot rate at signing.**
 - **Languages**: **Kinyarwanda** (universal national language), **English** (primary administrative + commercial language since 2008 switch from French), **French** (residual legal/older generation), **Swahili** (added as 4th official language 2017, used in EAC trade). Notarial deeds and the Land Registry operate in **English + Kinyarwanda**.
 - **Legal system**: Civil law (Belgian/French-derived) overlaid with extensive post-2003 reforms drawing on common-law commercial practice. Property transfers governed by **Law N° 27/2021 of 10/06/2021 governing land** (replacing 2013 Land Law) + **Law N° 28/2021 of 10/06/2021 governing land use and development planning**.
-- **Cadastre / land registry**: **Rwanda Land Management and Use Authority — RLMUA** (formerly RLMA — Rwanda Land Management Authority; rebranded 2021). Portal: `https://www.lands.rw/` and legacy `https://rlma.rw/`. Rwanda completed **systematic Land Tenure Regularisation (LTR) 2009–2013** under MINIRENA / DAI / DFID, demarcating **>10.4 M parcels** and issuing **8.8 M titles**. **Titling rate ~93 % (gender-equal)** — Rwanda is one of very few African countries with near-universal parcel-level digital cadastre. Land Administration Information System (LAIS, ESRI ArcGIS-based, version 4.0) operational; e-titles paperless from 2024.
+- **Cadastre / land registry**: **Rwanda Land Management and Use Authority — RLMUA** (formerly RLMA — Rwanda Land Management Authority; rebranded 2021). Portal: `https://www.lands.rw/` (the former RLMA `rlma.rw` portal is defunct — superseded by RLMUA's lands.rw). Rwanda completed **systematic Land Tenure Regularisation (LTR) 2009–2013** under MINIRENA / DAI / DFID, demarcating **>10.4 M parcels** and issuing **8.8 M titles**. **Titling rate ~93 % (gender-equal)** — Rwanda is one of very few African countries with near-universal parcel-level digital cadastre. Land Administration Information System (LAIS, ESRI ArcGIS-based, version 4.0) operational; e-titles paperless from 2024.
 - **Postcode**: Rwanda **does not have a national postal code system** — addresses are by Cell / Sector / District / Province + landmark. RDB / RRA correspondence uses PO Boxes.
 - **Admin levels**: **5 provinces** (Kigali City + Eastern + Northern + Southern + Western) → **30 districts** → **416 sectors** → **2,148 cells** → **14,837 villages (umudugudu)** [NISR 2022 administrative inventory]. Each district has its own council that sets land-tax rates within RRA-prescribed bands.
 - **EAC / regional**: Rwanda is a member of **EAC (East African Community)**, **COMESA**, **CEPGL** (with DRC + Burundi). EAC + COMESA citizens get reduced investor thresholds (USD 100k vs USD 250k for OECD nationals).
@@ -172,7 +172,7 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 - **Land registration fee** (post-transfer): **0.5 %** of declared property value.
 - **Title deed printout (electronic system 2024+)**: free by default; FRW 5,000 for special-print copy.
 - **Notary fees**: regulated scale, typically **0.5–1 %** of sale value (anecdotal range; flat-rate component FRW 1,000–5,000 for simple deeds).
-- Source: RLMUA `https://www.lands.rw/land-transactions` + RLMA legacy `https://rlma.rw/index.php?id=269` (One Step One Day Transfer page).
+- Source: RLMUA `https://www.lands.rw/land-transactions` (One Step One Day Transfer page).
 
 ### Annual Immovable Property Tax (IPT) — RRA
 
@@ -696,7 +696,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 | Source | URL |
 |---|---|
 | RLMUA — Lands portal | `https://www.lands.rw/` |
-| RLMUA legacy — RLMA | `https://rlma.rw/` |
+| RLMUA — Rwanda Land Mgmt & Use Authority | `https://www.lands.rw/` |
 | RDB — Rwanda Development Board | `https://rdb.rw/` |
 | RDB Business Procedures | `https://businessprocedures.rdb.rw/` |
 | RDB Investment Incentives | `https://rdb.rw/invest` |

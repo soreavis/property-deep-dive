@@ -62,7 +62,7 @@ Foreigners can purchase residential property in their own name (freehold or leas
 | **Terengganu** | **MYR 1,000,000** (residential, est.) | Terengganu State Authority | State Land Office |
 | **Kelantan** | **MYR 1,000,000** (residential, est.) | Kelantan State Authority | State Land Office |
 | **Sabah** | **MYR 600,000** (residential, current EXCO); separate Sabah Land Ordinance regime | Sabah State Authority | Sabah Lands & Surveys Dept `https://jtu.sabah.gov.my` |
-| **Sarawak** | **MYR 600,000–1,000,000** depending on division and category; separate Sarawak Land Code regime | Sarawak State Authority | Sarawak Lands & Survey Dept `https://www.landsurvey.sarawak.gov.my/` |
+| **Sarawak** | **MYR 600,000–1,000,000** depending on division and category; separate Sarawak Land Code regime | Sarawak State Authority | Sarawak Lands & Survey Dept `https://landsurvey.sarawak.gov.my/` |
 
 > Where a band shows "est." or "verify", the state EXCO circular is the only citable source — these numbers shift after each state budget cycle. **Always treat the table as the floor for triage; the SPA-binding number must come from the state circular as of the offer date.**
 
@@ -578,7 +578,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 | **MOTAC** | MM2H program | `https://www.mm2h.gov.my/` |
 | **Sarawak Immigration / S-MM2H** | Sarawak work pass + S-MM2H | `https://immigration.sarawak.gov.my/` |
 | **Sabah Lands & Surveys** | Sabah transactions (Cap. 68) | `https://jtu.sabah.gov.my` |
-| **Sarawak Lands & Survey** | Sarawak transactions (Cap. 81) | `https://www.landsurvey.sarawak.gov.my/` |
+| **Sarawak Lands & Survey** | Sarawak transactions (Cap. 81) | `https://landsurvey.sarawak.gov.my/` |
 | **BNM** | FX, mortgage credit | `https://www.bnm.gov.my/` |
 | **EPU** | Commercial / industrial / equity | `https://www.epu.gov.my/` |
 | **MIDA / IRDA** | Investment incentives, Iskandar | `https://www.mida.gov.my/`, `https://www.irda.com.my/` |
@@ -611,7 +611,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 | e-Tanah (Selangor / FT-KL) | `https://etanah.selangor.gov.my/`, `https://etanah.kpkt.gov.my/` |
 | KPKT | `https://www.kpkt.gov.my/` |
 | Laws of Malaysia online | `https://lom.agc.gov.my/` |
-| Sabah / Sarawak Lands | `https://jtu.sabah.gov.my`, `https://www.landsurvey.sarawak.gov.my/` |
+| Sabah / Sarawak Lands | `https://jtu.sabah.gov.my`, `https://landsurvey.sarawak.gov.my/` |
 | LHDN (main / RPGT / Stamp / e-filing) | `https://www.hasil.gov.my/`, `https://mytax.hasil.gov.my/` |
 | Kastam SST | `https://mysst.customs.gov.my/` |
 | BNM (main / FX) | `https://www.bnm.gov.my/`, `https://www.bnm.gov.my/exchange-rates` |

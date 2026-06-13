@@ -297,7 +297,7 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Republic Seismological Survey Center (RSSC — Respublika Seysmoloji Xidmət Mərkəzi)** | `https://rssc.az/` | Real-time + historic seismicity, fault maps, intensity scenarios |
+| **Republic Seismological Survey Center (RSSC — Respublika Seysmoloji Xidmət Mərkəzi)** | `https://seismology.az/en` | Real-time + historic seismicity, fault maps, intensity scenarios |
 | **Ministry of Emergency Situations (FHN — Fövqəladə Hallar Nazirliyi)** | `https://fhn.gov.az/` | Operational hazard data, flood/fire response, civil protection |
 | **National Hydrometeorology Department (Milli Hidrometeorologiya Departamenti)** | `https://www.eco.gov.az/` (under MENR) | Weather, flood warnings, climate baseline |
 | **Ministry of Ecology & Natural Resources (MENR — Ekologiya və Təbii Sərvətlər Nazirliyi)** | `https://eco.gov.az/` | Environmental risk reports, climate strategy, geo-hazards |
@@ -1043,7 +1043,7 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 | Tariff Council | `https://www.tariffcouncil.gov.az/` |
 | AMF Mortgage Fund | `https://amcgf.gov.az/` |
 | MENR Ministry of Ecology | `https://eco.gov.az/` |
-| RSSC Seismology | `https://rssc.az/` |
+| RSSC Seismology | `https://seismology.az/en` |
 | FHN Emergency Situations | `https://fhn.gov.az/` |
 | ANAMA Mine Action | `https://anama.gov.az/` |
 | Ministry of Culture | `https://mct.gov.az/` |

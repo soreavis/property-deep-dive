@@ -29,7 +29,7 @@ ISO2: `md`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **ASP cadastre** (paid extract): `https://cadastru.md/` — full title + ownership extract via e-Cadastru self-service or any ASP territorial office (~150–300 MDL standard, ~500–800 MDL urgent — verify current ASP tariff)
 - **BNM (Banca Națională a Moldovei) Financial Stability Report**: `https://www.bnm.md/en/content/financial-stability-report-2024` — mortgage debt stock + bank-side property-market commentary
 - **CNPF (Comisia Națională a Pieței Financiare)**: `https://www.cnpf.md/` — non-bank lending oversight, mortgage notarisation context
-- **Cadastrul Bunurilor Imobile geoportal**: `https://geoportal.md/` — INSPIRE-aligned parcel viewer (public, no auth) — useful first cross-check before a paid ASP extract
+- **Cadastrul Bunurilor Imobile geoportal**: `https://www.asp.gov.md/en` — INSPIRE-aligned parcel viewer (public, no auth) — useful first cross-check before a paid ASP extract
 
 ### Price benchmarks (2024–2025 reference)
 
@@ -947,7 +947,7 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 | Source | URL pattern |
 |---|---|
 | ASP cadastre | `https://cadastru.md/` |
-| Cadastrul Bunurilor Imobile geoportal | `https://geoportal.md/` |
+| Cadastrul Bunurilor Imobile geoportal | `https://www.asp.gov.md/en` |
 | ASP self-service | `https://e-cadastru.md/` |
 | SFS Tax Service | `https://www.fisc.md/` |
 | BMA Migration Bureau | `https://bma.gov.md/` |
