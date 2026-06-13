@@ -16,7 +16,7 @@ ISO2: `id`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Currency**: IDR (rupiah, Rp). 1 USD ≈ 15,500–16,500 IDR; 1 EUR ≈ 16,800–17,800 IDR (Apr 2026 Bank Indonesia reference; FX volatile, verify at `https://www.bi.go.id/`).
 - **Languages**: Bahasa Indonesia (official). English usable in Bali expat-property sector and Jakarta CBD. **All registered title documents (sertifikat) and notarial deeds (Akta Jual Beli, AJB) are in Bahasa Indonesia** — sworn translation (penerjemah tersumpah) required for foreign buyers; PPAT must read and explain the deed in person.
 - **Cadastre / land registry**: **BPN — Badan Pertanahan Nasional**, operating under **Kementerian ATR/BPN** (Ministry of Agrarian Affairs & Spatial Planning). Public portal: `https://www.atrbpn.go.id/`
-  - BPN online services (Sentuh Tanahku): `https://sentuhtanahku.atrbpn.go.id/`
+  - BPN online services (Sentuh Tanahku): `https://sentuhtanahku.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN (atrbpn.go.id — verify Sentuh Tanahku service)
   - BHUMI ATR/BPN public spatial viewer: `https://bhumi.atrbpn.go.id/` (parcel polygons + zoning where digitised)
   - Title verification (pengecekan sertifikat) must be requested at the kantor pertanahan (BPN office) of the kabupaten/kota where the parcel sits. PPAT can do this on behalf of the buyer — standard pre-AJB step.
 - **Title types** (CRITICAL — only some are foreigner-eligible):
@@ -149,7 +149,7 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 - **Rumah123** (largest, English+Indonesian): `https://www.rumah123.com/`
 - **Lamudi Indonesia**: `https://www.lamudi.co.id/`
 - **OLX Indonesia (Properti)**: `https://www.olx.co.id/properti_c5158`
-- **PropertyGuru Indonesia**: `https://www.propertyguru.co.id/`
+- **PropertyGuru Indonesia**: `https://www.propertyguru.co.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Indonesia portal (PropertyGuru/Rumah.com ceased Dec 2023)
 - **99.co Indonesia**: `https://www.99.co/id/`
 - **Rumah.com**: `https://www.rumah.com/`
 - **Bali-specific (foreigner-marketed)**: `https://www.balirealty.com/`, `https://www.harcourtspurba.com/`, `https://www.exoticbali.com/`, `https://www.theagency-bali.com/` — heavily marketed to foreign buyers; prices in USD or AUD; confirm SHMRS / Hak Pakai eligibility before relying on listing terms
@@ -613,7 +613,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 - **Rumah123** — `https://www.rumah123.com/` — largest Indonesian-language platform
 - **Lamudi Indonesia** — `https://www.lamudi.co.id/`
 - **OLX Indonesia (Properti)** — `https://www.olx.co.id/properti_c5158`
-- **PropertyGuru Indonesia** — `https://www.propertyguru.co.id/` — English-friendly, foreign-buyer caveat: many listings are by Indonesian agents marketing to foreigners, verify SHMRS / Hak Pakai eligibility before deposit
+- **PropertyGuru Indonesia** — `https://www.propertyguru.co.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Indonesia portal (PropertyGuru/Rumah.com ceased Dec 2023) — English-friendly, foreign-buyer caveat: many listings are by Indonesian agents marketing to foreigners, verify SHMRS / Hak Pakai eligibility before deposit
 - **99.co Indonesia** — `https://www.99.co/id/`
 - **Rumah.com** — `https://www.rumah.com/`
 - **Bali foreign-buyer platforms** — `https://www.balirealty.com/`, `https://www.harcourtspurba.com/`, `https://www.exoticbali.com/`, `https://www.theagency-bali.com/`, `https://www.ppbali.com/` — heavily marketed to foreign buyers in USD/AUD; verify legal structure independently; many "freehold villa" listings are technically leasehold or PT-PMA-held HGB
@@ -698,7 +698,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | Source | URL pattern |
 |---|---|
 | Kementerian ATR/BPN main | `https://www.atrbpn.go.id/` |
-| BPN Sentuh Tanahku | `https://sentuhtanahku.atrbpn.go.id/` |
+| BPN Sentuh Tanahku | `https://sentuhtanahku.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN (atrbpn.go.id — verify Sentuh Tanahku service) |
 | BHUMI ATR/BPN (spatial viewer) | `https://bhumi.atrbpn.go.id/` |
 | Peraturan BPK (statute database) | `https://peraturan.bpk.go.id/` |
 | UUPA No. 5/1960 | `https://peraturan.bpk.go.id/Details/51078/uu-no-5-tahun-1960` |
@@ -735,7 +735,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | Rumah123 | `https://www.rumah123.com/` |
 | Lamudi Indonesia | `https://www.lamudi.co.id/` |
 | OLX Indonesia Properti | `https://www.olx.co.id/properti_c5158` |
-| PropertyGuru Indonesia | `https://www.propertyguru.co.id/` |
+| PropertyGuru Indonesia | `https://www.propertyguru.co.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Indonesia portal (PropertyGuru/Rumah.com ceased Dec 2023) |
 | 99.co Indonesia | `https://www.99.co/id/` |
 
 ---

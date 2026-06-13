@@ -588,7 +588,7 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 - **Thailand-Property.com** — `https://www.thailand-property.com/`
 - **Bangkok Post Property** — `https://property.bangkokpost.com/`
 - **Livinginsider** — `https://www.livinginsider.com/` (Thai-language)
-- **PropertyHub88** — `https://www.propertyhub88.com/`
+- **PropertyHub88** — `https://www.propertyhub88.com/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Thai portal (propertyhub.in.th — verify)
 
 ---
 

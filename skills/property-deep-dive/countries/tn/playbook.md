@@ -434,7 +434,7 @@ MEDIUM — wage benchmarks are sourced to ANETI + INS but shift with TND volatil
 | **DGRE — Direction Générale des Ressources en Eau** | (under Ministry of Agriculture) `https://www.agriculture.tn/` | Hydrology, flood-prone zones, oued mapping |
 | **Plan d'Aménagement Urbain (PAU)** | At each commune urbanisme office | Local zoning + risk overlays |
 | **USGS Tunisia seismicity** | `https://earthquake.usgs.gov/earthquakes/search/?maxlatitude=38&minlatitude=30&maxlongitude=12&minlongitude=7` | Cross-check seismic events |
-| **INSTOP — Inst. National de la Santé / ANCSEP** | `https://www.ancsep.gov.tn/` | Sanitary + environmental health |
+| **INSTOP — Inst. National de la Santé / ANCSEP** | `https://www.ancsep.gov.tn/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Tunisia Ministry of Health / ANCSEP (verify current portal) | Sanitary + environmental health |
 
 ### Seismicity — Tunisia is moderate-low
 
@@ -742,7 +742,7 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 | Diplomatie / visa | `https://www.diplomatie.gov.tn/` |
 | Journal Officiel (IORT) | `http://www.iort.gov.tn/` |
 | Registre National des Entreprises (RNE) | `https://www.registre-entreprises.tn/` |
-| ANCSEP (sanitary) | `https://www.ancsep.gov.tn/` |
+| ANCSEP (sanitary) | `https://www.ancsep.gov.tn/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Tunisia Ministry of Health / ANCSEP (verify current portal) |
 | USGS Tunisia seismicity | `https://earthquake.usgs.gov/earthquakes/search/?maxlatitude=38&minlatitude=30&maxlongitude=12&minlongitude=7` |
 | Climate Central Coastal Risk | `https://coastal.climatecentral.org/` |
 | IPCC AR6 Interactive Atlas | `https://interactive-atlas.ipcc.ch/` |

@@ -304,7 +304,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ⚠️ **REGULATED** under [Tourism Law (Royal Decree M/61 of 22/04/1441 AH — 2020)](https://laws.boe.gov.sa/) + 2021 STR Registration Decree.
 
-- **Authority**: [Ministry of Tourism (وزارة السياحة)](https://mt.gov.sa/) + STR registration via **Sahel platform** (`https://sahel.mt.gov.sa/`)
+- **Authority**: [Ministry of Tourism (وزارة السياحة)](https://mt.gov.sa/) + STR registration via **Sahel platform** (`https://sahel.mt.gov.sa/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with mt.gov.sa (Ministry of Tourism — co-cited))
 - **Required licence**: Tourism Hospitality Licence — class differs by property size + type
 - **Registration**: every STR property must be registered on Sahel; building NOC may be required (some stratas / buildings prohibit STR)
 - **Tax**: 15% VAT on STR revenue if turnover > SAR 375,000/yr (mandatory VAT registration threshold per ZATCA); 5% Tourism Levy + Municipal fees
@@ -1158,7 +1158,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | GASTAT (statistics) | `https://www.stats.gov.sa/` |
 | Ministry of Finance | `https://www.mof.gov.sa/` |
 | Ministry of Municipal Affairs (MOMRAH) | `https://www.momrah.gov.sa/` |
-| Ministry of Tourism + Sahel STR | `https://mt.gov.sa/` + `https://sahel.mt.gov.sa/` |
+| Ministry of Tourism + Sahel STR | `https://mt.gov.sa/` + `https://sahel.mt.gov.sa/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with mt.gov.sa (Ministry of Tourism — co-cited) |
 | Ministry of Hajj and Umrah | `https://www.haj.gov.sa/` |
 | Royal Commission for Riyadh City | `https://www.rcrc.gov.sa/` |
 | Saudi Geological Survey (SGS) | `https://www.sgs.org.sa/` |

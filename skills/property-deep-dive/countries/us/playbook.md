@@ -290,7 +290,7 @@ Source: [USCIS Visa Categories](https://www.uscis.gov/working-in-the-united-stat
 | **Radon** | **EPA Map of Radon Zones** (1993; state supplementals) | `https://www.epa.gov/radon/epa-map-radon-zones` |
 | **Lead-based paint** | **EPA / HUD Title X disclosure** (pre-1978) | `https://www.epa.gov/lead` |
 | **Asbestos** | **EPA / OSHA** rules; pre-1980s common | `https://www.epa.gov/asbestos` |
-| **Climate projections** | **NCA5 (Fifth National Climate Assessment, Nov 2023)** | `https://nca2023.globalchange.gov/` |
+| **Climate projections** | **NCA5 (Fifth National Climate Assessment, Nov 2023)** | `https://nca2023.globalchange.gov/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with globalchange.gov / NOAA (NCA host taken down 30 Jun 2025; report archived) |
 | **Air quality** | **EPA AirNow** / NAAQS attainment | `https://www.airnow.gov/` |
 
 > **Don't rely on listing-portal climate badges.** From ~mid-Nov 2025 Zillow de-emphasised the First Street climate-risk scores on its listings after a California Regional MLS accuracy dispute (data still linked but far less visible; Redfin + Realtor.com kept theirs) — [CNN 2 Dec 2025](https://www.cnn.com/2025/12/02/climate/zillow-climate-data-extreme-weather-first-street-redfin). Pull hazard data from the primary government sources above plus [RiskFactor.com](https://riskfactor.com/) (First Street) and the state NHD report directly, not from a portal badge.
@@ -371,7 +371,7 @@ Source: [USCIS Visa Categories](https://www.uscis.gov/working-in-the-united-stat
 
 ### Climate to 2050 — NCA5
 
-[Fifth National Climate Assessment (Nov 2023)](https://nca2023.globalchange.gov/) — congressionally-mandated US Government report, ~500 authors:
+[Fifth National Climate Assessment (Nov 2023)](https://nca2023.globalchange.gov/) ❌ DEPRECATED — link dead (verified 2026-06-13); verify with globalchange.gov / NOAA (NCA host taken down 30 Jun 2025; report archived) — congressionally-mandated US Government report, ~500 authors:
 
 - **Temperature**: US warmed ~1.1 °C since 1900; projected +2 °C by 2050 under intermediate scenario (SSP2-4.5), +2.5–3 °C under high (SSP3-7.0)
 - **Precipitation**: increasing in NE / Midwest; decreasing in SW
@@ -636,7 +636,7 @@ There is **no national database** of household water/sewer connections. To verif
 | **Redfin Data Center** | `https://www.redfin.com/news/data-center/` |
 | **Realtor.com Research** | `https://www.realtor.com/research/data/` |
 | **Tax Foundation State Property Tax** | `https://taxfoundation.org/data/all/state/property-taxes-by-state-county/` |
-| **NCA5 (climate)** | `https://nca2023.globalchange.gov/` |
+| **NCA5 (climate)** | `https://nca2023.globalchange.gov/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with globalchange.gov / NOAA (NCA host taken down 30 Jun 2025; report archived) |
 | **National Ag Law Center (foreign-ownership compilations)** | `https://nationalaglawcenter.org/state-compilations/aglandownership/` |
 
 ## Status

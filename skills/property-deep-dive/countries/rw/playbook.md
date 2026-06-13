@@ -88,8 +88,8 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 - **Plut Properties** — `https://plutproperties.com/` — agency, residential + commercial
 - **Kwanda Real Estate** — `https://kwandarealestate.com/` — foreign-investor-oriented platform
 - **Kigali Inspectify** — `https://kigaliinspectify.com/` — inspection + listing
-- **Property24 Rwanda** — `https://www.property24.co.rw/` — regional Property24 instance
-- **Real Estate in Rwanda (REIR)** — `https://reir.rw/` — sector association
+- **Property24 Rwanda** — `https://www.property24.co.rw/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Rwanda portal (Property24 is South Africa-only) — regional Property24 instance
+- **Real Estate in Rwanda (REIR)** — `https://reir.rw/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with REIR association appears defunct — use RDB (rdb.rw) / RLMUA (lands.rw) for primary data — sector association
 
 ### Indicative price bands (2024–2025, Kigali — listing aggregation, est.)
 
@@ -624,8 +624,8 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 - **Rwandan Houses** — `https://rwandanhouses.com/`
 - **Plut Properties** — `https://plutproperties.com/`
 - **Kwanda Real Estate** — `https://kwandarealestate.com/`
-- **Property24 Rwanda** — `https://www.property24.co.rw/`
-- **Real Estate in Rwanda (REIR)** — `https://reir.rw/`
+- **Property24 Rwanda** — `https://www.property24.co.rw/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Rwanda portal (Property24 is South Africa-only)
+- **Real Estate in Rwanda (REIR)** — `https://reir.rw/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with REIR association appears defunct — use RDB (rdb.rw) / RLMUA (lands.rw) for primary data
 - **Kigali Inspectify** — `https://kigaliinspectify.com/`
 
 ## Caveats unique to RW

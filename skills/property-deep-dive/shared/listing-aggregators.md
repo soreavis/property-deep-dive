@@ -37,7 +37,7 @@ For each country, return:
 | **DE** | ImmoScout24 | partner API only | https://api.immobilienscout24.de/ |
 | **PT** | Idealista PT | same Idealista group | as ES |
 | **IT** | Immobiliare.it | partner-only | scraping ToS-restricted |
-| **NL** | Funda | partner-only via Funda XL | https://developers.funda.nl/ |
+| **NL** | Funda | partner-only via Funda XL | https://developers.funda.nl/ ❌ DEPRECATED — link dead (verified 2026-06-13); no public Funda developer portal, partner API is private — verify with Funda directly |
 | **UK** | Rightmove + Zoopla | partner-only | Rightmove RDS data feed; Zoopla RealtyOS — both commercial |
 | **AU** | realestate.com.au + Domain | partner-only | Domain Group has API; REA is commercial |
 | **NZ** | Trade Me Property | public API | https://developer.trademe.co.nz/ |

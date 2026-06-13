@@ -174,7 +174,7 @@ Source: Ministry of Interior `https://www.moi.gov.jo/`; verify current at Invest
 |---|---|---|
 | **OpenSooq Jordan** (`https://jo.opensooq.com/`) | National; broad incl. resale | Largest classifieds aggregator in Jordan; Arabic + English; many duplicates |
 | **Aqar.fm Jordan** (`https://www.aqar.fm/jordan` or `https://aqar.jo/`) | National; real estate-focused | Cleaner inventory than OpenSooq; agency + direct |
-| **Jordan Real Estate** (`https://www.jordanrealestate.com.jo/`) | National | Established; English-friendly |
+| **Jordan Real Estate** (`https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct)) | National | Established; English-friendly |
 | **Property Finder Jordan** (limited regional presence — verify currency) | Amman-focused premium | Cross-border; English |
 | **Bayut Jordan** (where active) | National | Verify current activity in Jordan market |
 | **Housing Bank ePortal** (`https://www.hbtf.com/`) | Bank-listed REO + new developer launches | Useful for distressed/repossessed |
@@ -347,7 +347,7 @@ Jordanian residential rental is governed by the **Owners and Tenants Law** (rece
 
 **Status**: regulated but enforcement uneven.
 
-- **Tourism licensing**: short-term rentals operated commercially require licensing under the **Ministry of Tourism and Antiquities (MoTA)** + Jordan Hotels Association (`https://www.jha.com.jo/`). Source: MoTA `https://www.mota.gov.jo/`.
+- **Tourism licensing**: short-term rentals operated commercially require licensing under the **Ministry of Tourism and Antiquities (MoTA)** + Jordan Hotels Association (`https://www.jha.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Jordan Hotels Association via MoTA (mota.gov.jo)). Source: MoTA `https://www.mota.gov.jo/`.
 - **Practical situation in Amman**: many informal Airbnb operations (especially in Abdoun + Sweifieh + Jabal Amman + 7th Circle) operate without licence — regulatory grey zone with periodic enforcement waves.
 - **Aqaba + Dead Sea**: STR demand is real but seasonality is sharp; resort compounds may forbid sub-letting in HOA bylaws.
 - **HOA bylaws** in modern Amman compounds (Abdali residences, Marina apartments, etc.) often **ban or restrict** short-let — read the bylaws before underwriting any STR yield.
@@ -583,7 +583,7 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 |---|---|
 | **OpenSooq Jordan** (`https://jo.opensooq.com/`) | Largest classifieds; broad inventory |
 | **Aqar.fm Jordan** (`https://www.aqar.fm/jordan`) | Real-estate-focused; cleaner inventory |
-| **Jordan Real Estate** (`https://www.jordanrealestate.com.jo/`) | Established; English-friendly |
+| **Jordan Real Estate** (`https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct)) | Established; English-friendly |
 | **Property Finder / Bayut Jordan** (where active) | Premium Amman; English-friendly |
 | **HBTF ePortal** (`https://www.hbtf.com/`) | Bank REO + new developer launches |
 | **Saraya Aqaba / Ayla Oasis / Marsa Zayed direct** | Aqaba branded developments |
@@ -696,10 +696,10 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 | Jordan Ahli Bank | `https://www.ahli.com/` |
 | OpenSooq Jordan | `https://jo.opensooq.com/` |
 | Aqar.fm Jordan | `https://www.aqar.fm/jordan` |
-| Jordan Real Estate | `https://www.jordanrealestate.com.jo/` |
+| Jordan Real Estate | `https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct) |
 | Akhtaboot (jobs) | `https://www.akhtaboot.com/` |
 | Bayt Jordan (jobs) | `https://www.bayt.com/en/jordan/` |
-| Jordan Hotels Association | `https://www.jha.com.jo/` |
+| Jordan Hotels Association | `https://www.jha.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Jordan Hotels Association via MoTA (mota.gov.jo) |
 | Jordan Post (postcodes) | `https://www.jordanpost.com.jo/` |
 | IPCC AR6 Interactive Atlas | `https://interactive-atlas.ipcc.ch/` |
 | WHO Global Air Quality | `https://www.who.int/data/gho/data/themes/air-pollution` |

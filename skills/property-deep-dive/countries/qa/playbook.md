@@ -7,7 +7,7 @@ ISO2: `qa`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
 ## Country profile
 
 - **Postal code system**: **No nationwide postcode system**. Modern parcel-level identifiers:
-  - **Zone No. + Street No. + Building No.** — Qatar's official addressing scheme issued by the Ministry of Municipality (formerly MMUP). Free national lookup at the Qatar Geographic Information System (`https://qari.gov.qa/`)
+  - **Zone No. + Street No. + Building No.** — Qatar's official addressing scheme issued by the Ministry of Municipality (formerly MMUP). Free national lookup at the Qatar Geographic Information System (`https://qari.gov.qa/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Qatar Ministry of Municipality GIS (verify current portal))
   - **Plot No. (رقم القطعة) + Block No. (رقم البلوك) + Zone No. (رقم المنطقة)** is the cadastral identifier on Title Deeds
 - **Admin levels**: Unitary state → **8 municipalities** (Doha, Al Rayyan, Al Wakrah, Umm Salal, Al Khor, Al Daayen, Al Shamal, Al Shahaniya) → zones (numbered)
 - **Currency**: QAR (Qatari Riyal). Pegged USD 1 = QAR 3.64 since July 2001 (Qatar Central Bank — Emiri Decree 34/2001)
@@ -547,7 +547,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 - **Sharia inheritance default for Muslim residents**; non-Muslim foreign owners should structure ownership / estate plan with Qatar-licensed counsel
 - **AML source-of-funds documentation required** at REA registration under Law 20/2019
 - **Currency**: QAR pegged USD at 3.64 since 2001 — **no FX risk vs USD**
-- **No nationwide postcode** — addresses use Zone No. + Street No. + Building No. (Qatar GIS `https://qari.gov.qa/`)
+- **No nationwide postcode** — addresses use Zone No. + Street No. + Building No. (Qatar GIS `https://qari.gov.qa/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Qatar Ministry of Municipality GIS (verify current portal))
 - **Construction-noise risk in Lusail** — large parts still under post-2022 build-out; verify radius before buying off-plan or near active sites
 - **World Cup oversupply absorption** — Doha residential prices softened 2023–2025 as supply caught up with demand; may continue 2026
 - **Limited DTA network for some nationalities** — Qatar has ~80+ DTAs; check your tax residency before structuring
@@ -579,7 +579,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 
 ## Quirks to know
 
-- **Address scheme** = Zone No. + Street No. + Building No.; lookup at `https://qari.gov.qa/` (Qatar GIS)
+- **Address scheme** = Zone No. + Street No. + Building No.; lookup at `https://qari.gov.qa/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Qatar Ministry of Municipality GIS (verify current portal) (Qatar GIS)
 - **Title Deed (Sanad Mulkiyya)** issued in Arabic — bilingual EN/AR not standard; certified translation may be required for international use
 - **Pearl-Qatar UDC OA** — Qatar's most-developed master OA regime; 5-year fee histories available, AGMs regular
 - **Lusail Master Developer** is **Qatari Diar** (sovereign-wealth-backed) — generally reliable on completion + handover schedules
@@ -612,7 +612,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 | Kahramaa (utilities) | `https://www.km.qa/` |
 | Qatar Cool (district cooling) | `https://www.qatarcool.com/` |
 | Qatar Met Department | `https://qweather.gov.qa/` |
-| Qatar GIS (address lookup) | `https://qari.gov.qa/` |
+| Qatar GIS (address lookup) | `https://qari.gov.qa/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Qatar Ministry of Municipality GIS (verify current portal) |
 | Qatar Rail (Doha Metro) | `https://www.qr.com.qa/` |
 | Hamad International Airport | `https://dohahamadairport.com/` |
 | QFC (Qatar Financial Centre) | `https://www.qfc.qa/` |

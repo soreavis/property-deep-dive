@@ -87,7 +87,7 @@ Per Lands Commission classification, ~78% of land in Ghana is held under **custo
 - **meQasa.com** (`https://meqasa.com/`) — largest Ghanaian aggregator; English; agency + owner
 - **Tonaton.com** (`https://tonaton.com/`) — classifieds incl. property
 - **Jiji.com.gh** (`https://jiji.com.gh/real-estate`)
-- **Property24 Ghana** (`https://www.property24.com.gh/`)
+- **Property24 Ghana** (`https://www.property24.com.gh/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with meQasa (meqasa.com — Property24 is South Africa-only))
 - **Lamudi Ghana** (reduced footprint post-2024)
 - **Developer-direct**: Devtraco Plus, Regimanuel Gray, Goldkey Properties, Trasacco Estates, Manet, Lakeside Estate, Clifton Homes — off-plan installment culture; verify delivery track-record + completion warranties
 
@@ -964,7 +964,7 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 ## Common listing platforms
 
 - **meQasa.com** (`https://meqasa.com/`) — largest Ghanaian aggregator
-- **Property24 Ghana** (`https://www.property24.com.gh/`)
+- **Property24 Ghana** (`https://www.property24.com.gh/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with meQasa (meqasa.com — Property24 is South Africa-only))
 - **Tonaton.com** (`https://tonaton.com/`) — classifieds
 - **Jiji Ghana** (`https://jiji.com.gh/`)
 - **Lamudi Ghana** (reduced footprint)
@@ -1085,7 +1085,7 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 | Ghana Free Zones Authority (GFZA) | `https://gfzb.gov.gh/` |
 | Office of the Registrar of Companies | `https://orc.gov.gh/` |
 | Ghana Police Service | `https://police.gov.gh/` |
-| meQasa / Property24 Ghana / Tonaton / Jiji | `https://meqasa.com/` + `https://www.property24.com.gh/` + `https://tonaton.com/` + `https://jiji.com.gh/` |
+| meQasa / Property24 Ghana / Tonaton / Jiji | `https://meqasa.com/` + `https://www.property24.com.gh/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with meQasa (meqasa.com — Property24 is South Africa-only) + `https://tonaton.com/` + `https://jiji.com.gh/` |
 | GhanaPostGPS | `https://ghanapostgps.com/` |
 | IMF Ghana country page | `https://www.imf.org/en/Countries/GHA` |
 | Climate Central / IPCC AR6 | `https://coastal.climatecentral.org/` + `https://interactive-atlas.ipcc.ch/` |

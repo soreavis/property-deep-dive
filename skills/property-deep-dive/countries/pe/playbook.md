@@ -57,7 +57,7 @@ ISO2: `pe`. Status: Fully populated (researched 2026-05).
 | **Mercado Libre Inmuebles Perú** | `https://inmuebles.mercadolibre.com.pe/` | Aggregator + privates |
 | **OLX Perú** (now Doomos / discontinued) | varies | Privates declined post-2022 |
 | **Nestoria Perú** | `https://www.nestoria.pe/` | Meta-aggregator |
-| **A la venta** | `https://www.alaventa.pe/` | Boutique broker network |
+| **A la venta** | `https://www.alaventa.pe/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Peru listing portal (boutique broker site defunct) | Boutique broker network |
 
 ### USD/m² benchmarks — Lima Metropolitana (BCRP IPV Q4 2025 reference)
 
