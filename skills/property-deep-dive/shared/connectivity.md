@@ -347,5 +347,5 @@ This table is the source of truth for the `--connectivity` Starlink-status field
 
 **Cross-references**: 
 - `shared/digital-nomad.md` for national Speedtest tier + DNV cross-check
-- `shared/mains.md` for utility-side concerns at the same address
+- `shared/mains-reliability.md` for utility-side concerns at the same address
 - `countries/<iso2>/playbook.md` for property-specific quirks

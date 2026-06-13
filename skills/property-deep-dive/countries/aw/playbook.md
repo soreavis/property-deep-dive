@@ -555,7 +555,7 @@ MEDIUM — Aruba insurance market is small + Caribbean-distributed; figures abov
 
 ### Comparative reference
 
-For Curaçao + Sint Maarten peer comparison see `countries/cw/playbook.md` and `countries/sx/playbook.md`. For Dutch Caribbean municipality (Bonaire / Saba / Statia) see `countries/bq/playbook.md`. For broader Caribbean CBI comparison see `countries/kn/playbook.md` (St Kitts), `countries/dm/playbook.md` (Dominica).
+For Curaçao + Sint Maarten peer comparison see `countries/cw/playbook.md` and `countries/sx/playbook.md`. For Dutch Caribbean municipality (Bonaire / Saba / Statia) see `countries/bq/playbook.md`. For broader Caribbean CBI comparison see `countries/kn/playbook.md` (St Kitts). (Dominica's CBI is out of scope — no `dm` playbook.)
 
 ---
 

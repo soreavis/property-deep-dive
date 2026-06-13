@@ -4,7 +4,7 @@
 
 **Snapshot**: May 2026.
 
-**Scope**: this doc supplies the *working-age healthcare-access* layer — what statutory + private health-coverage protects a working-age (25-65) DN-visa holder, remote worker, or employed expat in the destination country, what public-system enrollment timeline applies, what tax-residency triggers public-system enrollment, and what 2024-2026 reforms shape the DN landscape. The *retirement-age healthcare* layer (Medicare 65+ / EHIC retirement-residency / NHS S1 form / age-based subsidies) lives in `shared/retirement.md`. The *DN visa programme + RBI* layer lives in `shared/visa.md`. A foreign DN visa holder needs all three: visa eligibility (which `--visa` answers), retirement-age healthcare (which `--retirement` answers), AND working-age healthcare (which this layer answers).
+**Scope**: this doc supplies the *working-age healthcare-access* layer — what statutory + private health-coverage protects a working-age (25-65) DN-visa holder, remote worker, or employed expat in the destination country, what public-system enrollment timeline applies, what tax-residency triggers public-system enrollment, and what 2024-2026 reforms shape the DN landscape. The *retirement-age healthcare* layer (Medicare 65+ / EHIC retirement-residency / NHS S1 form / age-based subsidies) lives in `shared/retirement.md`. The *DN visa programme + RBI* layer lives in `shared/visa-programs.md`. A foreign DN visa holder needs all three: visa eligibility (which `--visa` answers), retirement-age healthcare (which `--retirement` answers), AND working-age healthcare (which this layer answers).
 
 ## Universal contract
 

@@ -611,7 +611,7 @@ Sint Maarten is a **viable retirement destination** for English-speaking HNW ret
 
 ## Section: `--integrity`
 
-> See universal logic in `shared/data-honesty.md`.
+> See universal logic in `shared/integrity-checks.md`.
 
 ### Sint Maarten-specific integrity flags
 

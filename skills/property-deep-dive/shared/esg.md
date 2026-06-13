@@ -163,7 +163,7 @@ EPC-style class distributions are not published by stat office for most non-EU r
 
 ### Tier-1 + Tier-2 expansion (Apr 2026, public-source composite)
 
-Hazard tags below are derived from primary national/UN sources (USGS, JMA, JRC INFORM, ThinkHazard!, Climate Central). Parcel-level claim requires a parcel risk pull (state/national flood map, seismic microzonation) — see `shared/climate.md` for the per-country verification path.
+Hazard tags below are derived from primary national/UN sources (USGS, JMA, JRC INFORM, ThinkHazard!, Climate Central). Parcel-level claim requires a parcel risk pull (state/national flood map, seismic microzonation) — see `shared/climate-projections.md` for the per-country verification path.
 
 **Highest exposure (Tier-1 + Tier-2)**:
 - 🇯🇵 JP — Megaquake risk (Nankai Trough, JMA active monitoring); typhoon + tsunami; Mt Fuji volcanic monitoring [verify at jma.go.jp]
@@ -405,7 +405,7 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 
 For property buyers: **carbon levy on heating fuel directly affects annual operating cost**. Class F/G buildings on oil/gas heating face increasing operating cost over the next 5-10 years.
 
-In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO, QA, SA, TN, IN, NG, KE, JO, OM, BH, KW, LB), carbon-cost overlay on **cooling** (electricity for AC) is the dominant operational-cost lever — not heating fuel. The grid-mix renewable share + electricity tariff drives this; see `shared/mains.md`. Gulf markets (QA, SA, OM, BH, KW) face 50°C+ summer cooling-demand sustaining household electricity ~3-5x EU residential — heat-stress trajectory makes EE-retrofit ROI unusually attractive over 10-yr horizons even absent carbon-pricing. India (IN) household cooling-demand growing ~10%/yr per CEA; Lebanon (LB) electricity calculus is dominated by EDL grid-failure (3-12 hr/day) + private generator subscription cost (~USD 0.30-0.50/kWh during outage hours) — rooftop solar payback compressed to ~3-5 yrs vs EU 8-12 yrs.
+In tropical / subtropical markets (TH, ID, MY, VN, PH, AE, EG, DO, QA, SA, TN, IN, NG, KE, JO, OM, BH, KW, LB), carbon-cost overlay on **cooling** (electricity for AC) is the dominant operational-cost lever — not heating fuel. The grid-mix renewable share + electricity tariff drives this; see `shared/mains-reliability.md`. Gulf markets (QA, SA, OM, BH, KW) face 50°C+ summer cooling-demand sustaining household electricity ~3-5x EU residential — heat-stress trajectory makes EE-retrofit ROI unusually attractive over 10-yr horizons even absent carbon-pricing. India (IN) household cooling-demand growing ~10%/yr per CEA; Lebanon (LB) electricity calculus is dominated by EDL grid-failure (3-12 hr/day) + private generator subscription cost (~USD 0.30-0.50/kWh during outage hours) — rooftop solar payback compressed to ~3-5 yrs vs EU 8-12 yrs.
 
 ## Brown-discount evidence (research-backed)
 

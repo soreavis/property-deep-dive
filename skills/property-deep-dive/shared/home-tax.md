@@ -1,6 +1,6 @@
 # Universal `--home-tax` Section
 
-Buyer-nationality tax overlay for foreign property. Indexed by **buyer's tax-residence country** (not the property country). Covers 20+ buyer cohorts plus 10 cross-cutting structural traps. Companion to `shared/tax.md` (property-country-side: tax fonciere/IBI/IMU/etc.) and `shared/finance.md` (mortgage availability for non-resident buyers).
+Buyer-nationality tax overlay for foreign property. Indexed by **buyer's tax-residence country** (not the property country). Covers 20+ buyer cohorts plus 10 cross-cutting structural traps. Companion to the property-country `--tax` layer (per-country playbook: taxe foncière / IBI / IMU / etc.) and `shared/finance.md` (mortgage availability for non-resident buyers).
 
 **Snapshot**: 2026-05-09. Tax law moves fast — every numeric claim is statute / form / circular-cited and date-stamped. Where a parliamentary bill is mid-flight (NL Wet WRBox3 → 2028; FR PLF 2026 exit-tax extension; IT 2026 PLF 24-bis to €300k; KR 2028 Inheritance Acquisition System; US TCJA estate-exemption sunset/OBBBA permanence) the document flags MEDIUM confidence and points to the parliamentary tracker.
 
