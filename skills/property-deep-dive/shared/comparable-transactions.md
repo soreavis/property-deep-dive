@@ -512,6 +512,16 @@ For each country, return:
 | **C — Per-property paid only, weak aggregate** | CZ, RO, BG, GR, RS, MK, CA (most provinces), AU (most states), NZ, MX, BR (pre-CIB) | Sale price in deed but no open dataset; private aggregators dominate |
 | **D — No public sold-price source** | ME, BA, AL, AR, CR, PA | Construction cost or asking-price proxies only |
 
+## Real-terms (inflation-adjusted) historical reconstruction
+
+For the handful of **Tier-A** markets with deep, open, address-level transaction history, a sold-price series can be reconstructed in **real terms** (constant purchasing power) rather than nominal — the most useful long-run signal a buyer can derive from this registry. It is a transparent **computation**, not a new dataset:
+
+1. **Pull the nominal series** from the Tier-A source for the locality (commune / postcode / address): **UK** Price Paid Data (1995 →), **DK** OIS (1992 →), **SI** (2007 →), **IS** (2006 →), **EE** (2003 →), **IE** (Jan 2010 →), **FR** DVF (2014 →). Deep-history sources outside this registry's open-CSV core: **JP** Reinfolib / MLIT (2005 →, free API key), **AU**-NSW free bulk sales CSV.
+2. **Deflate by the national CPI / HICP** — use the consumer-price index catalogued per country in `macro.md` (national statistics office / Eurostat HICP). Rebase the CPI to your target year, then compute `real €/m²(t) = nominal €/m²(t) × CPI(target) ÷ CPI(t)`, showing the inputs inline (anti-hallucination computed-number rule). Name the as-of year of each index.
+3. **Or skip the recompute** — for cross-country *real* growth, cite the ready-made **BIS Residential Property Price** real series / FRED, already cross-referenced in `price-index-feeds.md` § *BIS / FRED cross-references (international comparable)*, rather than rebuilding what BIS publishes.
+
+**Honest scope**: only ~7–12 of 121 markets have BOTH open address-level *history* AND a clean deflator (the Tier-A set above + KR RTMS, TW actual-price registration, US many-counties). For Tier-B / C / D markets there is **no open transaction-level history to reconstruct** — fall back to the HPI series + BIS real-terms cross-ref in `price-index-feeds.md`; never fabricate a back-series. *(This is the salvaged slice of the rejected `--inflation-adjusted-history` section candidate — a method box here, not a standalone 121-cell section that would duplicate this registry; see ROADMAP decision log 2026-06-13.)*
+
 ## Operational notes
 
 - **Cross-check Tier A countries against listings** — sold prices 15%+ below asking are normal in soft markets; >25% suggests distressed or data error
