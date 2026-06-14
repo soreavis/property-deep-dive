@@ -653,6 +653,26 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 - `2017-09-XX | currency | Dual-rate "black market" gap closed September 2017 under Mirziyoyev liberalisation (Decree UP-5177); pre-2017 official ~3,000 UZS/USD vs unofficial ~8,000/USD (~2.5× spread); since Sep 2017 managed-float with active CBU intervention; cumulative depreciation 2017→2026 ~3,200 → ~12,500 UZS = ~290% nominal devaluation over ~9 years | Central Bank of Uzbekistan — `https://cbu.uz/en/` | 2026-05-08 | 2026-12-01 | 2 | --currency --finance`
 - `2024-XX-XX | mains | Tashkent water utility "Suvsoz" rebranded **Toshkent shahar suv ta'minoti MCHJ** under O'zsuvta'minot AJ; new web portal `toshkent.uzsuv.uz` (legacy `suvsoz.uz` offline); operational responsibilities unchanged | Agency for the Operation of Water Management Facilities UZ + my.gov.uz/en/authority/844 | 2026-05-27 | 2027-12-31 | 4 | --mains (UZ)`
 
+### 🇳🇦 NA
+
+- `2025-10-08 (Bill — NOT enacted) | ownership | Consolidating Land Bill re-tabled in the National Assembly Oct 2025 (Min. Inge Zaamwani) — WOULD prohibit foreigners from acquiring communal AND commercial land (lease-only under job-/economy-benefit conditions); would replace the Agricultural (Commercial) Land Reform Act 6/1995 + the 2002 Communal Land Reform Act + ~12 laws; circumvention → fine up to N$50,000 / 10-yr prison. STATUS = BILL, awaiting debate as of 2026-06-13 — the only enacted foreign-ownership restriction remains farmland (ACLRA s.58); urban/residential freehold is NOT banned | Mail & Guardian 2025-10-08 (secondary) + NamibLII Act 6/1995 | 2026-06-13 | 2026-09-01 | 1 | --tax --visa (NA foreign-ownership)`
+
+### 🇧🇼 BW
+
+- `2025-12-17 (passed Parliament) | visa | Citizenship (Amendment) Bill 2025 passed Parliament 17 Dec 2025 — permits multiple citizenship; a CBI is announced but its threshold/regulations are NOT yet set (not operational as of Jun 2026). Already in force: Transfer Duty (Amendment) Act 2023 — non-citizen 10% on the first BWP 2m + 15% on the excess (the old flat 30% is STALE) | gov.bw / Parliament of Botswana + Orbitax (transfer duty) | 2026-06-13 | 2026-09-01 | 2 | --visa --tax (BW)`
+
+### 🇻🇺 VU
+
+- `2024-12-12 (in force) | visa | EU PERMANENTLY revoked Vanuatu's visa-free Schengen access — Reg (EU) 2025/11 (suspended 8 Nov 2022 / visa required 4 Feb 2023 / permanent revocation 12 Dec 2024); the first full EU revocation over an investor-citizenship scheme. The DSP/CIIP CBI (a donation to the National Development Fund, NOT property-linked) remains under sustained OECD/EU scrutiny | EU Council press release 2024-12-12 | 2026-06-13 | 2026-09-01 | 2 | --visa (VU)`
+
+### 🇹🇹 TT
+
+- `2024 (enforced) | tax | Property Tax reintroduced — residential 3% of Annual Rental Value (after a 10% deduction ≈ 2.7% effective); collection began 2024, first payment due 30 Sep 2024. The Property Tax (Amendment) Bill 2024 proposes a residential-rate reduction but is NOT enacted — 3% remains operative (a lone aggregator "now 2%" claim is uncorroborated) | tax.mygovtt.com + Ministry of Finance media release 18 Nov 2023 | 2026-06-13 | 2026-09-01 | 2 | --tax (TT)`
+
+### 🇵🇰 PK
+
+- `2025-11-13 (signed) | other | 27th Constitutional Amendment (signed 13 Nov 2025) created a Federal Constitutional Court (new Art. 175E); constitutional / fundamental-rights jurisdiction moved from the Supreme Court to the FCC — verify the operative allocation at na.gov.pk. SEPARATELY: FBR property advance tax (236C on sale / 236K on purchase) + CGT (§37(1A)) change with EVERY Finance Act — always re-verify current rates against the latest Finance Act | na.gov.pk (verify primary) + Business Recorder 2025-11 (secondary) | 2026-06-13 | 2026-09-01 | 3 | --tax (PK 236C/236K)`
+
 ---
 
 ## EU directive transposition deadlines

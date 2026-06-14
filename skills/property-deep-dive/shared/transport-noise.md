@@ -87,7 +87,7 @@ These are **statute / standard values** — the statute IS the source, so they a
 
 ## Regional patterns + country one-liners
 
-The 6 region blocks below cover the named jurisdictions (mirroring `auction-registry.md`'s blocks) and, together with the system-spine classification, span all 121 supported countries. Each line: **band · channel (URL where confirmed) or honest fallback · modes/indicator note**. Where no national viewer was confirmable it is marked 🟡 (data exists, geoportal/operator) or 🔴 (no map) honestly rather than guessed. **Any END country not given a dedicated line below falls to the 🟡 system-spine classification + the EEA Noise Viewer ([noise.eea.europa.eu](https://noise.eea.europa.eu)) fallback** — never read the absence of a one-liner as "no map". The non-END microstates and the entire non-EU/non-US/non-UK tail collapse to: *no national strategic noise map — assess via `--amenities` OSM proximity + WHO 2018 thresholds + request operator contours; verify on visit.*
+The 6 region blocks below cover the named jurisdictions (mirroring `auction-registry.md`'s blocks) and, together with the system-spine classification, span all 126 supported countries. Each line: **band · channel (URL where confirmed) or honest fallback · modes/indicator note**. Where no national viewer was confirmable it is marked 🟡 (data exists, geoportal/operator) or 🔴 (no map) honestly rather than guessed. **Any END country not given a dedicated line below falls to the 🟡 system-spine classification + the EEA Noise Viewer ([noise.eea.europa.eu](https://noise.eea.europa.eu)) fallback** — never read the absence of a one-liner as "no map". The non-END microstates and the entire non-EU/non-US/non-UK tail collapse to: *no national strategic noise map — assess via `--amenities` OSM proximity + WHO 2018 thresholds + request operator contours; verify on visit.*
 
 ---
 
@@ -200,7 +200,7 @@ HIGH for US (BTS national viewer confirmed live, modes + bi-annual cadence + cav
 
 ## Universal mitigations
 
-Applicable across all 121 countries:
+Applicable across all 126 countries:
 
 1. **Classify the system before trusting any map** — 🟢 address-zoomable viewer / 🟡 END-mandated-but-geoportal-only / 🟠 airport-by-operator / 🔴 no map. It decides whether you can cite a contour at all, or must fall back to OSM-proximity + WHO.
 2. **Read BOTH indicators, and quote the BAND not a point** — Lden *and* Lnight (Lnight drives sleep disturbance; aircraft Lnight WHO <40 is the strictest). Always write the band + `(strategic-noise-map contour, 4 m height — verify on visit)`; never a parcel-precise dB.

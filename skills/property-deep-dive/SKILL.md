@@ -589,12 +589,12 @@ property-deep-dive/
     ├── anti-hallucination.md    # 🔒 mandatory: source-honesty rules + 7-check validator gate
     ├── updater.md               # 🔧 maintenance mode: --update flag, URL validation, scaffold population
     ├── amenities-osm.md         # universal OSM Overpass patterns for --amenities (works in every country)
-    ├── crime-sources.md         # per-country crime data source registry for --crime (121 countries)
+    ├── crime-sources.md         # per-country crime data source registry for --crime (126 countries)
     ├── climate-projections.md   # universal --climate section: Copernicus + IPCC AR6 + Climate Central
     ├── integrity-checks.md      # --integrity layer: dispute resolver + photo OCR + cadastre cross-check + red-flag scanner
     ├── journeys.md              # --journey=<type> templates
     ├── property-types.md        # --type=<kind> specialized
-    ├── finance.md               # 🆕 universal --finance: foreign-buyer mortgages across 121 countries
+    ├── finance.md               # 🆕 universal --finance: foreign-buyer mortgages across 126 countries
     ├── currency.md              # 🆕 universal --currency: peg / FX / capital controls
     ├── visa-programs.md         # 🆕 universal --visa: RBI / CBI / golden-visa current status (Apr 2026)
     ├── insurance.md             # 🆕 universal --insurance: cat-risk schemes + flood/EQ + climate reforms

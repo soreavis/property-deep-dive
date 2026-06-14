@@ -397,8 +397,8 @@ property-deep-dive/
         └── <iso2>/playbook.md        # see Country support § above for the full ISO2 list
 ```
 
-**Skill content** (under `skills/property-deep-dive/`): 197 markdown files, ~104,400 lines (SKILL.md + shared/ section library + 126 country playbooks).
-**Repo total**: 224 markdown files, ~108,100 lines (skill content + community / governance files + CHANGELOG) · 39 YAML / JSON config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
+**Skill content** (under `skills/property-deep-dive/`): 197 markdown files, ~104,700 lines (SKILL.md + shared/ section library + 126 country playbooks).
+**Repo total**: 224 markdown files, ~108,400 lines (skill content + community / governance files + CHANGELOG) · 39 YAML / JSON config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

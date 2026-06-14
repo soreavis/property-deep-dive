@@ -929,6 +929,45 @@ For the property's locality, return:
 - **Granularity**: 12 viloyats + Republic of Karakalpakstan + Tashkent city = 14 first-level → 175 districts (tumanlar) + city districts → ~1,000 urban-type settlements
 - **Caveat**: **Uzbekistan crime statistics historically underpublished pre-2017 Mirziyoyev liberalisation** — post-2017 publishing improved but series-break at 2017 reform; Tashkent urban crime patterns vs Samarkand / Bukhara tourist-corridor (Silk Road historic centres) vs Fergana Valley (Andijan / Namangan / Fergana) higher-density rural; **ethnic-Karakalpak July 2022 unrest in Nukus** (Republic of Karakalpakstan capital) — 21 deaths officially confirmed (HRW); affects series interpretation; agricultural land BANNED for foreigners but cotton-sector forced-labour-monitoring (ILO + Cotton Campaign) historically affected reporting culture in agricultural districts (improved post-2017-22 reforms); border-zone (TJ / KG / KZ / TM / AF) restricted-zone reporting separate
 
+### 🇳🇦 Namibia
+
+- **Namibian Police Force (NAMPOL)** + **Namibia Statistics Agency (NSA)**: `https://nsa.org.na/` — the authoritative crime-statistics bodies; **a clean NAMPOL/NSA annual crime dataset URL was not located this pass — verify directly with NAMPOL / NSA**
+- **UK FCDO Travel Advice** + **US State Department / OSAC Crime & Safety Reports** — comparative advisory reference
+- **Numbeo** (`https://www.numbeo.com/crime/`): crowdsourced index (Namibia ≈ 63.7 / Windhoek ≈ 67.6, mid-2024) — **directional only; never a verdict basis**
+- **Granularity**: national + per-region (Khomas/Windhoek, Erongo/Swakopmund+Walvis Bay, Oshana, Otjozondjupa named in press cuts) — **exact region count not primary-verified this pass; per-station / parcel-level data not located — verify with NAMPOL**
+- **Caveat**: figures are **press-reported NAMPOL numbers, not a primary dataset** — festive-season serious-crime surge Nov–Dec 2024/25 reportedly +114% YoY (1,261→2,702 cases; housebreaking & theft 282→623; GBH-assault 258→777; murder 56→28 down) per nbc News Namibia + The Namibian (secondary OF NAMPOL); geographic concentration Khomas/Windhoek ≈32.5%, Oshana ≈11.3%, Otjozondjupa ≈8.3%, Erongo ≈8%; **burglary/housebreaking is the operationally meaningful absentee-owner risk** (armed-response coverage common in Windhoek as in ZA); **cross-border wire/BEC fraud against international buyers rising** (cf. ZA *Hawarden v ENS* precedent) — verify conveyancer trust-account instructions verbally
+
+### 🇧🇼 Botswana
+
+- **Botswana Police Service (BPS)**: `https://www.police.gov.bw/` — annual crime statistics (PDF reports)
+- **Statistics Botswana — crime portal**: `https://www.statsbots.org.bw/crime`
+- **gov.bw Daily News**: `https://dailynews.gov.bw/` — ministerial crime-statistics announcements
+- **Granularity**: national + aggregated annual totals; **per-station / parcel-level detail comparable to most Western statistical offices was not located — re-derive specific figures from the BPS annual statistics PDFs line-by-line**
+- **Caveat**: **recorded crime fell 7.8% in 2023** (173,140→159,680, gov-confirmed via Daily News); 2023 sub-category movements as reported by the Minister — burglary −8.5%, house break-ins −2.9%, robbery −8.3%, but **stock theft +18.8%** and **motor-vehicle theft +28%** the standout increases (relevant for rural/peri-urban livestock + vehicle-holding property); **burglary of unoccupied homes is the operationally meaningful absentee-owner risk**; the gov headline is confirmed but sub-category press-snippet percentages should be re-derived from BPS PDFs before treating as final published statistics
+
+### 🇻🇺 Vanuatu
+
+- **Vanuatu Police Force (VPF)** — annual crime statistics; **NOT published as a public parcel-level portal — pull hard numbers fresh from VPF annual statistics**
+- **Daily Post**: `https://www.dailypost.vu/` — the practical local-reporting source for crime (secondary, not a forum)
+- **US State Department / UK FCDO Travel Advice** — pull current level fresh (historically ~Level 1; verify at `https://travel.state.gov/` + `https://www.gov.uk/foreign-travel-advice/vanuatu`)
+- **Granularity**: national + 6 provinces (Torba / Sanma / Penama / Malampa / Shefa / Tafea) + 2 municipal councils (Port Vila / Luganville); **no primary parcel-level or current annual VPF dataset verified this pass**
+- **Caveat**: **crime concentrated in Shefa (Port Vila)** per local reporting ("Shefa Tops Crime Rate", Daily Post — secondary); profile predominantly **petty / opportunistic theft** (bag-snatching, pickpocketing around the Port Vila market / waterfront) with some residential break-ins in expat areas; **violent crime against foreigners is rare** (secondary travel-safety sources); circulating secondary figures ("23 tourist incidents 2025", "break-ins down ~12%") are **data not publicly confirmed — verify at VPF**; **burglary of unoccupied/second homes is the operationally meaningful absentee-owner risk** (caretaker + alarm advisable); wire/BEC fraud a Pacific-wide pattern
+
+### 🇹🇹 Trinidad & Tobago
+
+- **Trinidad & Tobago Police Service (TTPS)** — statistics + Commissioner of Police public reporting, typically surfaced via **Trinidad Express / Newsday** reporting of official TTPS figures (`https://newsday.co.tt/`)
+- **Central Bank of Trinidad and Tobago (CBTT)**: `https://www.central-bank.org.tt/` — population/economic context (final appeals go to the **UK Judicial Committee of the Privy Council, NOT the CCJ Appellate Jurisdiction**)
+- **Granularity**: national + Trinidad regional corporations / city-borough municipalities + Tobago (governed by the Tobago House of Assembly); **TTPS publishes aggregated totals (via Express/Newsday) but not parcel-level detail — verify with TTPS divisional statistics**
+- **Caveat**: **2024 was a record murder year (≈625, range 624–626; homicide rate ≈45.7/100k COMPUTED on the World Bank 1.37M denominator — do NOT mix with the ~1.5M aggregator denominator that yields ~41.7/100k)**; **2025 fell ~42% to 369 murders — lowest since 2014** (Newsday, 2 Jan 2026); crime is **highly localised** (parts of east Port of Spain, Laventille, Beetham, pockets of central/south Trinidad) — **Tobago materially LOWER violent crime; NEVER generalise the national rate to a neighbourhood**; **States of Emergency used in response to gang violence — verify current SoE status before relying**; burglary of unoccupied second homes a target; Caribbean-wide wire/impersonation fraud against international buyers — verify wire instructions verbally
+
+### 🇵🇰 Pakistan
+
+- **Citizens-Police Liaison Committee (CPLC), Karachi**: `https://web.cplc.app/khi_statistic/` — the official statutory crime-statistics body for Sindh (PRIMARY regulated/official)
+- **US OSAC**: `https://www.osac.gov/` — Pakistan Country Security Report (primary US-gov security assessment)
+- **Pakistan Bureau of Statistics** (`https://www.pbs.gov.pk/`) does **not** publish a granular public crime index; **provincial police (per-province Board-of-Revenue-aligned forces) + CPLC are the data sources**
+- **Granularity**: national + 4 provinces (Punjab / Sindh / KP / Balochistan) + ICT + AJK + Gilgit-Baltistan; **CPLC is Karachi/Sindh-specific; no national parcel-level crime portal — verify per province**
+- **Caveat**: **Karachi street crime is the dominant urban-property-buyer safety concern** — CPLC recorded **66,530 street-crime incidents Jan–Nov 2024** (CPLC-via-news, primary-via-conduit; citable with conduit caveat); ⚠️ **do NOT conflate with a street-crime death toll** — the circulated "1,503 killed in 2024" is an **all-causes city mortality tally** (road accidents ~773, drug overdoses ~363, suicides ~100, etc.), NOT a CPLC street-crime fatality count (street-crime-specific deaths ≈100+; verify at CPLC); **KP + Balochistan carry materially elevated terrorism/insurgency risk** (TTP in KP, BLA in Balochistan — terrorism counts secondary/directional); the **diaspora property market concentrates in Punjab (Lahore) / Islamabad / urban Karachi** for this reason — check current OSAC + home-country travel advisory before any visit or commitment
+
 ## Universal extraction approach
 
 For each country, the workflow:

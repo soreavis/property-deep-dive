@@ -274,6 +274,7 @@ For the property's country, return:
 | BZ | Qualified Retirement Programme (QRP) | OPEN | **USD 2,000/mo** verifiable foreign-source income (pension / annuity / investment) — **age threshold 40+** (lowered from 45) | No (but property purchase common qualifying conduct + import-duty-exempt household goods) | Multi-year renewable; tax-exempt on foreign-source income | Belize Tourism Board administered; verify current age threshold + income threshold at BTB |
 | BZ | Permanent Residence (Immigration Department) | OPEN | 1-yr continuous physical presence + clean record + means-of-support | No | PR via standard Immigration Department processing; citizenship after 5 yrs PR | Standard route; no investment minimum |
 | BZ | NO formal RBI/CBI via real estate | — | — | No | — | Foreign-ownership PARITY since 2001 Aliens Landholding Act repeal — but no statutory residence-by-investment programme |
+| TT | NO formal RBI / CBI via real estate | — | — | No | Naturalisation / descent only (no investment peg) | The Foreign Investment Act licence governs OWNERSHIP (acreage thresholds), NOT residency; buying property confers no immigration right |
 
 ### Türkiye & Middle East
 
@@ -322,6 +323,7 @@ For the property's country, return:
 | KH | Cambodia My Second Home (CM2H) | OPEN — NEW | **US$100,000** Cambodian bank deposit OR investment (verify current MoT thresholds + status) | No (RE not required but compatible) | 10-yr renewable | Launched 2022; verify current eligibility + renewal mechanism with Cambodian Ministry of Tourism / General Department of Immigration |
 | KH | Investor Visa (E-Class / EB) | OPEN | Active business investment (Council for Development of Cambodia QIP route possible) | Possibly | 1-yr renewable; PR after sustained renewal | Standard route; passive RE alone NOT sufficient |
 | KH | Retirement Visa (ER-Class) | OPEN | **Age 55+** + retirement income proof | No | 1-yr renewable | Generous low-threshold compared to ASEAN peers; widely used |
+| VU | Citizenship by Investment — Development Support Programme (DSP / CIIP) | OPEN — CONTESTED | ~USD 130,000 donation (single applicant; secondary — verify at Citizenship Office) | No (donation to the National Development Fund, NOT real estate) | Direct citizenship (donation-based); no residence requirement | EU PERMANENTLY revoked Vanuatu's visa-free Schengen access 12 Dec 2024 (Reg (EU) 2025/11); sustained OECD/EU scrutiny. Buying property does NOT confer citizenship |
 
 ### South Asia
 
@@ -336,6 +338,7 @@ For the property's country, return:
 | MV | Tourist guesthouse on inhabited islands | OPEN — JV ONLY | Foreign capped at **49% shareholding** in Maldivian-majority partnership | Possibly | Linked to active business; spouse / family separate | 2019/2024 reforms; verify current MoT regulations |
 | MV | Branded-residence villa scheme (resort sub-lease) | OPEN — CONTRACTUAL | Per-project (Soneva Jani / Patina / Velaa thresholds typically USD multi-million) | YES (leasehold within head lease) | NOT a residence permit — buyer obtains long-term leasehold right tied to head-lease balance | NOT freehold; collapses if underlying head lease collapses |
 | MV | NO RBI / NO CBI via real estate | — | — | No | — | Citizenship requires **Muslim-faith adherence + 12-yr residence** (Citizenship Act); non-Muslim foreign nationals CANNOT acquire Maldivian citizenship |
+| PK | Foreigner (Long Term Residency) Order, 2025 (LTR) | OPEN — VERIFY | Verify at Board of Investment / Ministry of Interior (LTR Digital Portal pending go-live) | No (LTR permits land acquisition / SEZ investment but is not an RE-purchase-pegged route) | Long-term residency; NO citizenship route | Framework government-approved ~Sept 2025 (secondary: Business Recorder / Radio Pakistan); digital portal not yet live. Diaspora buyers use POC / NICOP + the SBP Roshan Digital Account, NOT the LTR |
 
 ### Africa
 
@@ -367,6 +370,8 @@ For the property's country, return:
 | RW | Class G Visa (Self-Employed) | OPEN | Active enterprise + minimum-investment per category | No | Renewable; PR after sustained renewal | Standard self-employed route |
 | RW | Class T Visa (Tourist / Short-stay) + visa-on-arrival | OPEN | None for visa-on-arrival (~80 nationalities); 30-day default | No | 30-90 day stay | DD-trip / property-selection feasible visa-free or visa-on-arrival |
 | RW | NO CBI; citizenship via long residence | — | — | No | Citizenship after 5+ yrs continuous residence + Kinyarwanda proficiency (Rwandan Nationality Law) | No investment-linked citizenship pathway |
+| NA | Residence-by-Investment (5-yr renewable) | OPEN — VERIFY | Advisory tier only — verify at NIPDB / Ministry of Home Affairs (gov.na figures not anchored) | No (investment / company-based, not RE) | 5-yr renewable residence permit; NOT instant PR or citizenship | Launched Mar 2023 (run with Henley & Partners); thresholds advisory/aggregator-tier; NO citizenship-by-investment; property purchase confers NO residence right |
+| BW | Citizenship-by-Investment (announced, not operational) | ANNOUNCED — NOT YET LIVE | Not yet set | No | n/a — programme not operational as of Jun 2026 | Citizenship (Amendment) Bill 2025 passed Parliament 17 Dec 2025 (permits multiple citizenship); CBI announced but threshold/regulations not set. Investor/residence permits exist but thresholds are agency-sourced — verify at BITC / gov.bw |
 
 ### Africa — Indian Ocean / Atlantic islands
 

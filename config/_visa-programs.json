@@ -2158,6 +2158,61 @@
       "pr_citizenship": "Renewable; NO direct PR/citizenship route from HEPSS alone",
       "caveats": "HEPSS Rules 2008 statutory basis. 3-yr non-residency window required pre-application. Self-employment refusal caveat — Gibraltar restricts self-employed work permits for many non-EU nationals.",
       "region": "Crown Dependencies & Autonomous Territories"
+    },
+    {
+      "id": "na-residence-by-investment",
+      "country": "na",
+      "programme": "Residence-by-Investment (5-yr renewable)",
+      "status": "OPEN — VERIFY",
+      "min_threshold": "Advisory tier only — verify at NIPDB / Ministry of Home Affairs (gov.na figures not anchored)",
+      "property_linked": "No (investment / company-based, not RE)",
+      "pr_citizenship": "5-yr renewable residence permit; NOT instant PR or citizenship",
+      "caveats": "Launched Mar 2023 (run with Henley & Partners); thresholds advisory/aggregator-tier; NO citizenship-by-investment; property purchase confers NO residence right",
+      "region": "Africa"
+    },
+    {
+      "id": "bw-cbi-announced-not-live",
+      "country": "bw",
+      "programme": "Citizenship-by-Investment (announced, not operational)",
+      "status": "ANNOUNCED — NOT YET LIVE",
+      "min_threshold": "Not yet set",
+      "property_linked": "No",
+      "pr_citizenship": "n/a — programme not operational as of Jun 2026",
+      "caveats": "Citizenship (Amendment) Bill 2025 passed Parliament 17 Dec 2025 (permits multiple citizenship); CBI announced but threshold/regulations not set. Investor/residence permits exist but thresholds are agency-sourced — verify at BITC / gov.bw",
+      "region": "Africa"
+    },
+    {
+      "id": "vu-cbi-development-support-programme-dsp",
+      "country": "vu",
+      "programme": "Citizenship by Investment — Development Support Programme (DSP / CIIP)",
+      "status": "OPEN — CONTESTED",
+      "min_threshold": "~USD 130,000 donation (single applicant; secondary — verify at Citizenship Office)",
+      "property_linked": "No (donation to the National Development Fund, NOT real estate)",
+      "pr_citizenship": "Direct citizenship (donation-based); no residence requirement",
+      "caveats": "EU PERMANENTLY revoked Vanuatu's visa-free Schengen access 12 Dec 2024 (Reg (EU) 2025/11); sustained OECD/EU scrutiny. Buying property does NOT confer citizenship",
+      "region": "Asia-Pacific"
+    },
+    {
+      "id": "tt-no-formal-rbi-cbi-via-real-estate",
+      "country": "tt",
+      "programme": "NO formal RBI / CBI via real estate",
+      "status": "—",
+      "min_threshold": "—",
+      "property_linked": "No",
+      "pr_citizenship": "Naturalisation / descent only (no investment peg)",
+      "caveats": "The Foreign Investment Act licence governs OWNERSHIP (acreage thresholds), NOT residency; buying property confers no immigration right",
+      "region": "Caribbean"
+    },
+    {
+      "id": "pk-foreigner-long-term-residency-order-2025",
+      "country": "pk",
+      "programme": "Foreigner (Long Term Residency) Order, 2025 (LTR)",
+      "status": "OPEN — VERIFY",
+      "min_threshold": "Verify at Board of Investment / Ministry of Interior (LTR Digital Portal pending go-live)",
+      "property_linked": "No (LTR permits land acquisition / SEZ investment but is not an RE-purchase-pegged route)",
+      "pr_citizenship": "Long-term residency; NO citizenship route",
+      "caveats": "Framework government-approved ~Sept 2025 (secondary: Business Recorder / Radio Pakistan); digital portal not yet live. Diaspora buyers use POC / NICOP + the SBP Roshan Digital Account, NOT the LTR",
+      "region": "South Asia"
     }
   ]
 }
