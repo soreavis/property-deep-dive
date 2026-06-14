@@ -213,13 +213,31 @@ Everything else (formatting, prose polish, structural reorganisation) is welcome
 
 ## Release process (maintainer-only)
 
-When cutting a new release tag:
+### Picking the version number — never guess, never drift
 
-1. **Bump `.claude-plugin/plugin.json` `version`** to match the new tag (e.g., `2026.05.0`).
+`0M` is the **calendar month the version belongs to**, and `MICRO` **resets to 0 when the month rolls** (`2026.06.7 → 2026.07.0`). Do not keep bumping last month's namespace into a new month — that's how `plugin.json` once drifted to `2026.05.71` deep into June. **Compute the number, don't reason about it:**
+
+```sh
+python3 scripts/next-version.py            # prints the correct next version for today
+python3 scripts/next-version.py --write    # bumps plugin.json to it in place
+```
+
+Rules the helper applies (and the **`Version month guard`** required CI check enforces on every PR that changes `plugin.json` — see `version-month-guard` in `.github/workflows/pr-validate.yml`):
+
+- version `0M` **must equal the current UTC calendar month**;
+- a month roll **must** reset `MICRO` to `0` (first release of the month = `<YYYY>.<0M>.0`);
+- within a month, `MICRO` only increases.
+
+A PR whose `plugin.json` bump breaks any of these is **blocked at merge**, with a message telling you the correct number.
+
+### Cutting the tag
+
+1. **Bump `.claude-plugin/plugin.json` `version`** to the number `next-version.py` prints (e.g., `2026.06.0`).
    - Plugin users only get updates when this field changes — keep it in sync with the latest CalVer git tag.
-   - End-of-month `auto-tag.yml` cron creates the git tag automatically; manual bump of `plugin.json` is part of the same PR or a follow-up.
-2. **Confirm `CHANGELOG.md` `[Unreleased]` is rolled into a `[YYYY.0M.MICRO]` section** for the new tag.
+   - End-of-month `auto-tag.yml` cron creates the git tag automatically; a manual `.0`/`.MICRO` cut runs the same workflow via `gh workflow run auto-tag.yml -f force=true` (it computes `YYYY.0M.0` from the calendar — drift-proof).
+2. **Confirm `CHANGELOG.md` `[Unreleased]` is rolled into a `[YYYY.0M.MICRO]` section** for the new tag (append a fresh empty `## [Unreleased]` above it; never delete the rolled section). Label the release-cut PR `documentation` so the changelog-enforcer skips it.
 3. **Push the tag** (or let `auto-tag.yml` do it). `release-notes.yml` and `sign-release.yml` fire on the tag push (sigstore + SLSA L3 attestations).
-4. **Optionally update the plugin manifest description / keywords** if the release adds new countries or sections.
+4. **Refresh `docs/install.md`** release-tag references to the new tag (separate follow-up PR, *after* the release assets publish — the install snippet downloads the signed tarball).
+5. **Optionally update the plugin manifest description / keywords** if the release adds new countries or sections.
 
 The plugin manifest lives at `.claude-plugin/plugin.json`. The marketplace stub at `.claude-plugin/marketplace.json` makes the repo self-installable via `/plugin marketplace add github:soreavis/property-deep-dive`.

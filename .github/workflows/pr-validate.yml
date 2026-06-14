@@ -328,3 +328,49 @@ jobs:
               sys.exit(1)
           print('✅ Matrix and filesystem agree.')
           PY
+
+  version-month-guard:
+    name: Version month guard
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+        with:
+          fetch-depth: 0
+
+      - name: Enforce CalVer month on plugin.json version change
+        # Anti-drift guard. The release tag always follows plugin.json's
+        # `version`, so if a bump lands in last month's namespace (what happened
+        # when 2026.05.x kept being bumped through June) the release would tag
+        # under the wrong month. Diff-gated: passes instantly when the version
+        # is unchanged; fails only when a *change* breaks the CalVer rules
+        # (0M = calendar month; MICRO resets on month roll; monotonic in-month).
+        # All rule logic lives in scripts/next-version.py (single source of
+        # truth, self-tested) so the agent's release command and this gate agree.
+        run: |
+          set -euo pipefail
+          file=".claude-plugin/plugin.json"
+          ver_at() {
+            git show "$1:$file" 2>/dev/null \
+              | python3 -c "import json,sys; print(json.load(sys.stdin).get('version',''))" 2>/dev/null \
+              || true
+          }
+
+          head_ver=$(python3 -c "import json; print(json.load(open('$file'))['version'])")
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch --depth=1 origin "${{ github.base_ref }}" || true
+            base_ver=$(ver_at "origin/${{ github.base_ref }}")
+          else
+            base_ver=$(ver_at "HEAD~1")
+          fi
+          echo "base version: ${base_ver:-<none>}"
+          echo "head version: ${head_ver}"
+
+          if [ "$base_ver" = "$head_ver" ]; then
+            echo "::notice::plugin.json version unchanged (${head_ver}) — guard passes."
+            exit 0
+          fi
+
+          echo "Version changed ${base_ver:-<none>} -> ${head_ver}; validating against CalVer rules…"
+          python3 scripts/next-version.py --check "$head_ver" --base "${base_ver:-}"

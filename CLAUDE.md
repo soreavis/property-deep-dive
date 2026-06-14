@@ -64,6 +64,17 @@ The auto-downgrade rule (in [`shared/updater.md`](./skills/property-deep-dive/sh
 
 Always run `--diff` first if you're uncertain. `--interactive` is the safest mode for batch updates.
 
+## Cutting a release — compute the version, don't reason about it
+
+CalVer `YYYY.0M.MICRO`: **`0M` is the current calendar month**, and `MICRO` **resets to 0 when the month rolls**. Never bump `plugin.json` into a stale month (the `2026.05.71`-in-June drift is exactly what this prevents). When bumping `plugin.json` or cutting a release, get the number from the helper — it is the single source of truth:
+
+```
+python3 scripts/next-version.py            # the correct next version for today
+python3 scripts/next-version.py --write    # bump plugin.json in place
+```
+
+The **`Version month guard`** required check (`version-month-guard` in `pr-validate.yml`, logic in `scripts/next-version.py --check`) blocks any PR whose `plugin.json` bump lands in the wrong month / skips a MICRO reset / decreases. Full release SOP (CHANGELOG roll, `auto-tag.yml` force-dispatch, `install.md` refresh) is in [CONTRIBUTING.md](./CONTRIBUTING.md) § Release process.
+
 ## File map (where things live)
 
 ```
