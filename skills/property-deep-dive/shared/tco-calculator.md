@@ -115,6 +115,37 @@ TOTAL_INITIAL + Σ(ANNUAL_NET_CASH_FLOW for 30 years) - NET_SALE_PROCEEDS = NET_
 
 Adjust to real terms using local inflation.
 
+## Move budget — the one-time relocation cash event (separate from the 30-year TCO)
+
+The 30-year TCO above is the *ownership* cost. A relocating foreign buyer also faces a **one-time relocation cash event** at the move itself that buyers systematically under-budget — and it is NOT part of the carry, so show it as a separate lump sum, never amortised into the annual figure. Most of these lines are already sourced elsewhere in the skill; this block **composes** them. Per § Anti-hallucination below, present it as a **3-scenario band (lean / central / heavy)**, never a single number.
+
+```
+MOVE_BUDGET (one-time, at relocation) =
+    closing_costs            (from § A — sourced, per-country)
+  + visa_blocked_deposit     (LIQUIDITY LOCK, not a sunk cost — see ⚠️)
+  + tor_customs_exposure     (duty + VAT only on NON-qualifying goods)
+  + international_shipping    (est. band — 3 quotes)
+  + pet_relocation           (est. band)
+  + vehicle_delta            (sell-at-origin vs ship-and-comply)
+  + onboarding_friction      (deposits + healthcare gap + DL re-test + tax-ID fees)
+  + runway                   (user_months × buyer's own monthly burn)
+```
+
+| Line | Band (est. unless sourced) | Sourced home / note |
+|---|---|---|
+| **Closing costs** | per-country, **sourced** (transfer tax + notary + agent + registration) | `§ A. Initial outlay` — *not* an estimate; pull the real per-country figure |
+| **Visa blocked-deposit / proof-of-funds** | DE *Sperrkonto* **€11,904/yr** (2026); per-country statute | `shared/finance-banking.md` § Visa-linked blocked-deposit. ⚠️ a *blocked* deposit is a **liquidity lock released back to you monthly**, not money spent — budget it committed-not-available, not as a cost |
+| **ToR customs exposure** | **€0 if you qualify**; else standard duty + import VAT/GST on the non-qualifying portion | `shared/relocation-household-customs.md` — file the named form (ToR1 / CBP 3299 / B534…) BEFORE shipping; verify the commodity code |
+| **International shipping** | est. **~US$2,500–19,000** (20-ft → 40-ft container, route-dependent) | est. only — get **3 FIDI/IAM-accredited quotes**; not a primary figure |
+| **Pet relocation** | est. **€500–6,000 per pet** (higher on AU/NZ/JP FAVN-titer routes) | `shared/relocation.md` § Pets — quarantine FEES at mpi.govt.nz / DAFF |
+| **Vehicle delta** | est. **€2k–25k** (compliance + shipping, or the sell-at-origin / rebuy-at-destination loss) | `shared/relocation.md` § Vehicle import — often cheaper to sell and rebuy |
+| **Onboarding friction** | est. **€1k–3k** baseline (utility deposits €300–800 + healthcare-gap insurance €500–1,500 + DL re-test €100–2,000 + tax-ID consulate fees €10–100) | `shared/relocation.md` mitigation #7 |
+| **Runway** | **user_months × monthly burn** — the buffer until income / rental income starts | set by the user; wire to the cost-of-living basket if/when that ships |
+
+**Illustrative band** (single adult, intra-EU → EU, furnished move, qualifying ToR, 3-month runway): lean ~€6k (sell-most, small shipment, no pet/car) · central ~€18k · heavy ~€45k+ (full 40-ft container + pet + shipped car + 6-month runway). **The lever that moves it most is sold-vs-shipped** — more shipped = higher freight + more ToR paperwork; more sold = higher rebuy cost at destination. Always run the user's own sold-vs-shipped split rather than a default.
+
+⚠️ **Do not fold the blocked deposit into the "money gone" total** — it is returned to the mover in monthly tranches after arrival (a cash-flow lock, not a sunk cost); show it on its own line. Every line except closing costs is an **estimate band** — never a point figure (per § Anti-hallucination).
+
 ## Worked example: rural Adriers, FR — €145,000 listing
 
 ```yaml
