@@ -21,10 +21,11 @@ For the property's country, return:
 1. **Pets** — entry rules, microchip ISO 11784/11785, rabies vaccinations, FAVN/RFFIT titer requirement (where applicable), waiting period, quarantine, banned breeds
 2. **Driving licence** — recognition / exchange / re-test + grace period + IDP (1949 Geneva or 1968 Vienna) + senior re-test thresholds + bilateral exchange list
 3. **Vehicle import** — temporary admission (ATA Carnet) vs permanent import + EU/EEA single-market vs third-country tariffs + emissions standards (Euro 5/6 / EPA Tier 3 / ADR / Bharat Stage / China 6) + age limits + RHD/LHD restriction + purchase tax / VAT / registration tax + LEZ
-4. **Utility setup** — electricity / gas / water / waste connection process + ID requirements (NIE / codice fiscale / NIF / etc.) + deposits + foreign-buyer onboarding friction + local IBAN requirement
-5. **Healthcare registration** — public-system enrolment timeline + private travel-insurance gap exposure (the parallel 90-day cliff)
-6. **2024-2026 reforms** — date-stamped reform calendar
-7. **Confidence**: HIGH / MEDIUM / LOW
+4. **Household-goods import** — transfer-of-residence (ToR) customs relief on used personal effects: prior-residence-abroad + owned-&-used windows + import deadline + non-disposal lock + named form (UK ToR1 / US CBP 3299 / EU Reg 1186/2009 / AU B534 / etc.); vehicles + alcohol/tobacco/new goods excluded. See `shared/relocation-household-customs.md`
+5. **Utility setup** — electricity / gas / water / waste connection process + ID requirements (NIE / codice fiscale / NIF / etc.) + deposits + foreign-buyer onboarding friction + local IBAN requirement
+6. **Healthcare registration** — public-system enrolment timeline + private travel-insurance gap exposure (the parallel 90-day cliff)
+7. **2024-2026 reforms** — date-stamped reform calendar
+8. **Confidence**: HIGH / MEDIUM / LOW
 
 ## Output template
 
@@ -59,6 +60,8 @@ These appear across multiple jurisdictions and warrant a flag whenever a foreign
 6. **Utility setup — foreign-buyer onboarding friction (the 30-day delay trap)** — Catch-22 chain: utility wants local IBAN + tax ID + ID + tenancy proof. Foreign buyer arrives without local bank account → can't pay deposit → can't connect electricity / water / gas → can't move in. Hardest in DE (SCHUFA + Anmeldung + Steueridentifikationsnummer mailed 2-6 wks post-Anmeldung), NL (BSN + RNI/BRP), CH (cantonal Einwohnerkontrolle within 8 days), HU (MVM Next sole universal supplier; foreign-owner cap eligibility restricted), CR (Firma Digital BCCR only for citizens / DIMEX-holding residents — foreign buyers cannot obtain). **Mitigation**: open destination bank account remotely BEFORE moving (Wise / Revolut / N26 / bunq cross-border IBAN); get destination tax ID via consulate where possible (NIE / codice fiscale / NIF). DE 24h electricity-switching rule from 6 Jun 2025 mitigates one delay vector.
 
 7. **Healthcare registration — the parallel 90-day cliff** — Most countries require residency permit + tax ID + bank account + utility bill for public healthcare registration; private travel insurance lapses 90 days post-arrival; gap exposure. DE Krankenversicherung mandatory by law from day 1 (failure = €1,000+ backdated premiums + fines); FR Carte Vitale via CPAM after 3-mo continuous residence; ES Cartilla Sanitaria; IT Tessera Sanitaria via ASL; NL zorgverzekering compulsory + 4-month grace with backdating; CH KVG mandatory within 3 months. **Mitigation**: maintain gap travel-insurance overlap (Cigna Global / IMG / Allianz Care, €500-2,000 per person) until public-healthcare-registration confirmed in writing — not "applied for".
+
+8. **Household-goods customs — the transfer-of-residence (ToR) relief you must claim BEFORE shipping** — almost every destination waives import duty + VAT/GST on *used* personal effects under a ToR / returning-resident relief, but only if you file the named form at the right moment and clear the windows (prior residence abroad + owned-&-used period + import deadline + non-disposal lock). **UK ToR1** needs an approved unique reference number quoted at the border (no URN → billed import duty + 20% VAT on your own furniture); **EU** Reg 1186/2009 = ≥12 mo abroad / ≥6 mo owned & used / import within 12 mo / 12 mo non-disposal (duty EU-wide, import VAT per-MS); **US CBP 3299** (no VAT, effects used ≥1 yr); **SG / JP** import within 6 months of arrival; **AU B534** / **NZ NZCS 218** (>21 mo abroad) / **CA BSF186** / **CH Form 18.44**. Vehicles + alcohol + tobacco + new/commercial goods are always excluded. Full per-regime table: `shared/relocation-household-customs.md`.
 
 ---
 

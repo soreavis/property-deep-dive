@@ -79,7 +79,7 @@ skills/property-deep-dive/                # the skill payload (everything plugin
 │   ├── preflight.md                      # country detection + listing parse
 │   ├── visa-programs.md                  # ENDED registry source of truth
 │   ├── <24 section implementations>      # one per --<flag> (or grouped where shared)
-│   ├── <13 sub-section extensions>       # mains-reliability / transport-noise / finance-banking / notary-forced-heirship / notary-deed-anatomy / risks-build-quality / digital-nomad-healthcare / rental-yield-delta / … (13 total)
+│   ├── <14 sub-section extensions>       # mains-reliability / transport-noise / finance-banking / notary-forced-heirship / notary-deed-anatomy / risks-build-quality / digital-nomad-healthcare / rental-yield-delta / relocation-household-customs / … (14 total)
 │   └── <9 tooling docs>                  # tco / mortgage / fixtures / diff-watcher / etc.
 └── countries/<iso2>/playbook.md          # 121 country playbooks
 .github/workflows/                        # weekly URL liveness, monthly health report, 6h feed watcher
