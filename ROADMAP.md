@@ -354,9 +354,27 @@ Sourced from the Reddit relocation-property study (360 threads → `FEATURE_MAP.
 | Listings "bid on rentals" | FOLD-IN | S | "no central MLS" is DONE in `agent.md`; only gap = one trap line that in tight markets (NL / parts of DE / IE) the advertised rent is a floor + applicants bid up |
 | `--insurance` visa-mandated health band | **SKIP** | — | `insurance.md` is property-peril, not health — don't cross-contaminate; already served by `digital-nomad-healthcare.md`. (Thin spot: non-DN retiree/passive-residence visas → fold there instead if pursued) |
 
+### Build priority (consolidated)
+
+Single ranked build board merging the 6 demand-map recommendations + the 6 quick-wins into one ordered queue (value × cleanliness). The 🥈 quick-win is S-effort / data-already-present, so it is typically shipped first or alongside 🥇; gate scores + provenance stay in the candidate / quick-win tables above.
+
+| Rank | Candidate | Verdict | Build target | Why it's clean |
+|---|---|---|---|---|
+| 🥇 | Household-goods + transfer-of-residence customs | **BUILDABLE** (SUPPLY HIGH) | new `shared/relocation-household-customs.md` | Council Reg 1186/2009 · UK ToR1 · US 19 CFR 148 — gov-published; fills the €10k-customs-surprise gap |
+| 🥈 | `--visa` income-floor reality-check | **DO-NOW** (quick-win) | `config/_visa-programs.json` | Data's already there (`min_threshold`, 191/201) — just surface + myth-bust |
+| 🥉 | `--finance` blocked-deposit (Sperrkonto) | **BUILDABLE** | `shared/finance-banking.md` | Embassy-published, primary |
+| 4 | Tax-residency timing day-counter | **BUILDABLE-THIN** | `--cross-border=timing` | Transparent compute from buyer dates; never a residency verdict (ties-test caveat dominates) |
+| 5 | Move-budget mode | **BUILDABLE-THIN** | `--tco` | Shares the ToR source-of-truth; shipping est. is banded |
+| 6 | Work-rights + credential recognition | **BUILDABLE-THIN** | `--work` | EU REGPROF + ENIC-NARIC; system not outcome |
+| — | `--schools` enrollment-sequence | **BUILDABLE** | `shared/schools.md` | Admissions calendars (parallel — not blocked by the above) |
+| ⊘ | Ownership / "buying ≠ residency" | **REJECT-OVERLAP** | fold-in (`visa-programs.md` / `--visa`) | Only the golden-visa price-distortion line is net-new |
+| ⊘ | Livability synthesis | **REJECT-OVERLAP** | pointer (`--compare` / `--match`) | No scored index (the trap that thinned the original 4) |
+| ⊘ | `--currency` tip · listings bid-on-rentals | **FOLD-IN** | `currency.md` · `agent.md` | Currency: anti-brand — "specialist FX brokers", not "Wise" |
+| ✕ | `--insurance` health band | **SKIP** | — | Already in `digital-nomad-healthcare.md` (property-peril file stays peril-only) |
+
 ### Status
 
-**Confidence**: HIGH (gated 2026-06-14 by a 7-analyst SUPPLY × DISTINCTNESS × VALUE pass with primary-source web probes; named datasets + build specs above). **0 new flags** — 1 BUILDABLE + 3 BUILDABLE-THIN extensions + 2 fold-ins + the quick-wins; section count stays 41. **Recommended build order** (value × cleanliness): (1) the `--visa` floor reality-check quick-win (DO-NOW, data already present) → (2) **household-goods + ToR customs** (BUILDABLE, SUPPLY HIGH, cleanest) → (3) the `--finance` blocked-deposit quick-win → (4) `--tco` move-budget (shares the ToR source-of-truth) → (5) tax-timing + work-rights (M each, careful honest-tail). ~1-2 grounded-research → independent-audit waves for the lot. Source: `relocation-property-study/deliverables/FEATURE_MAP.md` (Reddit practitioner opinion — prioritisation signal, not authoritative market data). **Not greenlit — queued for project-owner approval.**
+**Confidence**: HIGH (gated 2026-06-14 by a 7-analyst SUPPLY × DISTINCTNESS × VALUE pass with primary-source web probes; named datasets + build specs above). **0 new flags** — 1 BUILDABLE + 3 BUILDABLE-THIN extensions + 2 fold-ins + the quick-wins; section count stays 41. **Recommended build order**: see **§ Build priority (consolidated)** above — 🥇 household-goods + ToR customs (cleanest BUILDABLE) → 🥈 `--visa` floor reality-check (DO-NOW, data already present) → 🥉 `--finance` blocked-deposit → tax-timing day-counter → move-budget → work-rights (M each, careful honest-tail), with `--schools` enrollment-sequence shippable in parallel. ~1-2 grounded-research → independent-audit waves for the lot. Source: `relocation-property-study/deliverables/FEATURE_MAP.md` (Reddit practitioner opinion — prioritisation signal, not authoritative market data). **Not greenlit — queued for project-owner approval.**
 
 ## Skip — not worth pursuing
 
