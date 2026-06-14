@@ -389,7 +389,7 @@ property-deep-dive/
     │   │   # process: remote, relocation
     │   │   # decision-context: compare, retirement, digital-nomad, macro, demographics, schools, esg, exit (+ exit/ subdir)
     │   │   # cross-cutting: integrity-checks, journeys, property-types
-    │   ├── 14 sub-section extensions # mains-reliability, transport-noise, finance-banking, notary-forced-heirship, notary-deed-anatomy, risks-build-quality, digital-nomad-healthcare, rental-yield-delta, scams-postcompletion, journey-sellrent, integrity-remorse, finance-crossborder, exit-seller-withholding, relocation-household-customs
+    │   ├── 15 sub-section extensions # mains-reliability, transport-noise, finance-banking, notary-forced-heirship, notary-deed-anatomy, risks-build-quality, digital-nomad-healthcare, rental-yield-delta, scams-postcompletion, journey-sellrent, integrity-remorse, finance-crossborder, exit-seller-withholding, relocation-household-customs, work-rights
     │   ├── regulatory-watch.md       # single source of truth for reform tracking
     │   ├── updater.md                # maintenance mode + auto-downgrade rule
     │   └── 9 tooling docs            # tco/mortgage calculators, fixtures, diff-watcher, comparable-transactions, auto-validate, price-index-feeds, listing-aggregators, photo-ocr
@@ -397,8 +397,8 @@ property-deep-dive/
         └── <iso2>/playbook.md        # see Country support § above for the full ISO2 list
 ```
 
-**Skill content** (under `skills/property-deep-dive/`): 198 markdown files, ~104,800 lines (SKILL.md + shared/ section library + 126 country playbooks).
-**Repo total**: 225 markdown files, ~108,800 lines (skill content + community / governance files + CHANGELOG) · 39 YAML / JSON config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
+**Skill content** (under `skills/property-deep-dive/`): 199 markdown files, ~104,900 lines (SKILL.md + shared/ section library + 126 country playbooks).
+**Repo total**: 226 markdown files, ~108,800 lines (skill content + community / governance files + CHANGELOG) · 39 YAML / JSON config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 
