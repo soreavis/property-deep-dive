@@ -14,6 +14,22 @@ Foreign-buyer relocation logistics for the **90-day post-completion phase**: pet
 
 When all four run, `--mains` is the parcel layer, `--connectivity` is the broadband layer, `--relocation` is the **account-holder** layer (which IDs / tax codes / residency proofs unlock service signup), and `--remote` is the **closing** layer.
 
+## Settling-in sequence — what unlocks what (the ordered-dependency spine)
+
+The single most common post-arrival mistake is attempting these steps in the wrong order. They form a **dependency chain**, not a checklist: most of the friction is a step blocked because an earlier step isn't done. This is an **ordering** (what unlocks / blocks what), **never a day-numbered calendar** — lead times below are **ranges as the source states them**, and where only a statutory maximum exists it is labelled as such (actual medians are not published).
+
+**The chain (each step typically gated by the one before):**
+
+1. **Residency / address registration** — the keystone. DE *Anmeldung*, NL BRP→BSN, AT *Meldezettel* (within days), CH *Einwohnerkontrolle* (~8 days), ES *empadronamiento*, IT *iscrizione anagrafica*. Unlocks almost everything downstream. → the residence permit that often precedes it is `--visa`.
+2. **Tax identification number** — usually gated by step 1. DE *Steuer-ID* (mailed **2–6 weeks** after *Anmeldung* [BZSt]), ES NIE, IT *codice fiscale*, PT NIF, FR *numéro fiscal*, BR CPF, MX RFC. Both the bank and any employer need it.
+3. **Local bank account** — usually needs steps 1–2 (proof of address + tax ID); the hard blocker in DE / NL / CH and the most common Catch-22 (below). → `--finance` § Banking access for the per-country onboarding reality + the HSBC-Expat-Jersey pre-arrival fallback.
+4. **Public-healthcare enrolment** — needs residence + often the bank + tax ID. DE *Krankenversicherung* mandatory day 1 by law; FR *Carte Vitale* via CPAM after 3-month residence; NL *zorgverzekering* 4-month grace; CH KVG within 3 months. → trap #7 (the 90-day insurance-gap cliff).
+5. **Utility connection** — needs proof of address + a local IBAN + tax ID; the last domino. → trap #6 (the 30-day delay trap).
+
+**The Catch-22 edges (a step that blocks itself):** the classic is **bank ⇄ address ⇄ utility** — the utility wants a local IBAN, the bank wants proof of address, registration wants a utility bill or local account. Named workarounds: open a destination account **remotely before arrival** (cross-border IBAN providers — trap #6); obtain the **tax ID via the consulate** pre-arrival where allowed (ES NIE, IT *codice fiscale*); use a registration confirmation / landlord *attestation d'hébergement* as the address proof that breaks the loop (for a new owner, the notary's *attestation d'achat* serves as the FR *justificatif de domicile*). DE's **24-hour electricity-switching rule (6 Jun 2025)** removes one delay vector once the address is registered.
+
+**Honest tail (the rule)**: bucket only by dependency tier ("cannot start until X is done"); bound durations as the **sourced range** (e.g. "DE *Steuer-ID*: 2–6 weeks post-*Anmeldung* [BZSt]"; "EU single-permit decision: statutory ≤ 2 months [Single Permit Directive 2024/1233] — actual varies"). **Do not emit a day-numbered milestone** ("Day 14 → bank") for any country lacking a published per-step actual — which is all of them. Full per-step detail + named per-country authorities live in the clusters below + `--finance` § Banking access.
+
 ## Universal contract
 
 For the property's country, return:
