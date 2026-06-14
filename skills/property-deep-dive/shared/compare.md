@@ -95,6 +95,7 @@ For each country in the comparison set, return:
 | `--criteria=closing` | Notary requirement, closing cost %, days offer→deed |
 | `--criteria=insurance` | Cat-risk scheme, mortgage-mandatory, premium % |
 | `--criteria=process` | Cadastre access, foreigner-self-serve, language requirement |
+| `--criteria=cost-of-living` | Net-of-tax, working-age-profile, **country-level** living-cost position (OECD Taxing Wages ÷ Eurostat PLI / World Bank ICP) — city-vs-home capped to US BEA RPP; sourcing + the hard city-level cap in `shared/macro.md` § Cost-of-living |
 | `--criteria=all` | All of the above |
 
 ## Comparison set shortcuts

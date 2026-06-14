@@ -332,6 +332,16 @@ Weakest:
 - 🇳🇬 NG — public schools severely under-resourced + insurgency-affected NE; private international tier dominant in Lagos VI/Ikoyi/Lekki for elite
 - 🇱🇧 LB — public schools severely strained — 2019 economic collapse + 2024 Israel-Hezbollah war + 2020 Beirut Port explosion; emigration accelerated post-2019; quality concentrated in private French/American/IB
 
+## Integration environment (policy + lived-outcome gap)
+
+For a mover asking "how welcoming is this country, structurally?", two primary signals are sourceable at the **country level** — and one widely-cited one is not. Report the two sourced rows, each date-stamped; fence off the third.
+
+- **Integration POLICY (the legal framework on the books)** — [MIPEX](https://www.mipex.eu/what-is-mipex) (Migrant Integration Policy Index, Migration Policy Group): 58 indicators × 8 policy areas (Labour Market Mobility · Family Reunion · Education · Health · Political Participation · Permanent Residence · Access to Nationality · Anti-discrimination), expert legal coding 0–100 — **country-level POLICY, not lived outcome**. ⚠️ **Vintage trap**: the **MIPEX 2025** refresh covers **only the 27 EU members + Canada** (policy period 2020–2023/24); for every other country the latest is still **MIPEX 2020** (2014–2019 snapshot) — date-stamp accordingly. Report the overall band + the most decision-relevant of {Access to Nationality, Permanent Residence, Labour Market Mobility}.
+- **Lived OUTCOME gap (how immigrants actually fare vs natives)** — [OECD/EU *Indicators of Immigrant Integration — Settling In* (2023)](https://www.oecd.org/content/dam/oecd/en/publications/support-materials/2023/06/indicators-of-immigrant-integration-2023_70d202c4/indicators-of-immigrant-integration-settling-in-main-indicators-2023-brochure.pdf): 83 outcome indicators; the most decision-relevant is the **immigrant-vs-native employment-rate gap** (foreign-born unemployment exceeds native-born in ~4 of 5 countries, ~2× across the EU; reference data 2010–2021 — vintage-stamp it). Country-level, not address-level.
+- 🚫 **Loneliness / belonging / "expat happiness" / churn** — **NOT a primary-sourceable metric.** The most-cited ranking, **InterNations Expat Insider** (2025: 10,085 **self-selected** members, 46 destinations), is a non-probability convenience survey — anecdotal, must **not** drive a verdict. Community fit is a visit-and-trial-rental question (cross-ref `--integrity` § Why lifestyle moves END), not a dataset.
+
+**Net**: report the MIPEX policy band + the OECD employment-outcome gap, each date-stamped and country-level; refuse a "this place is friendly / lonely" score. Companion to the English-proficiency tiers + family-friendliness signals above.
+
 ## Anti-hallucination
 
 - **Cite Eurostat / OECD / World Bank / UN DESA** as primary; date-stamp data

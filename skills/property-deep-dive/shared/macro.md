@@ -571,6 +571,19 @@ For any of the 43 above (Tier-1 + Tier-2 + Tier-3 + Tier-4 + Tier-5), the standa
 - **Flag if data >12 months old** as MEDIUM
 - **For Western Balkans + LatAm**: IMF WEO is often the cleanest comparable source
 
+## Cost-of-living — net-of-tax country index (sourcing + the city-vs-home cap)
+
+A working-age mover's real question is "what will daily life cost me, **after tax**, here vs where I am now?" That has a genuinely orthogonal, fully-sourced **country-level** answer — but the **city-vs-home** number everyone actually wants is **not** primary-sourceable below the national line outside the US. Classify the granularity before quoting anything:
+
+- 🟢 **Official sub-national / city price parities — US ONLY**: [US BEA Regional Price Parities](https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area) (50 states + DC + metro areas; 2024 reference year, released Feb 2026). A US city-vs-city real-purchasing-power comparison may be quoted as sourced.
+- 🟡 **Sub-national but stale / region-only — UK**: [ONS Relative Regional Consumer Price Levels](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/relativeregionalconsumerpricelevelsuk/2016) — a **single 2016 one-off** (5 headline regions); quote only date-stamped "(2016, one-off)".
+- 🟠 **Country-level only (the whole rest of the corpus)** — give the **net-of-tax country index** and STOP at the national line: combine **net take-home** ([OECD Taxing Wages 2026](https://www.oecd.org/en/publications/2026/04/taxing-wages-2026_d1f39986/full-report/overview_d93131c3.html), ref year 2025, 38 OECD members — net pay for single / one-earner+2-kids / two-earner+2-kids profiles) with a **comparative price level** ([Eurostat PLI 2024](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Comparative_price_levels_of_consumer_goods_and_services), 36 European countries + JP/US/UK, EU=100, COICOP-decomposable; OECD PLI/PPP for non-EU OECD; [World Bank ICP 2021](https://www.worldbank.org/en/programs/icp/data) for the ~176-economy long tail).
+- 🔴 **No current PLI** → "data not publicly available — verify at the national statistics office."
+
+**The net-of-tax method (the orthogonal slice)**: *real disposable position ≈ net take-home (Taxing Wages, by household profile) ÷ price level (PLI, EU=100 or PPP)*. This is what neither `--retirement` (gross pension tiers) nor `--digital-nomad` (EUR income bands) carries: a working-age, **after-tax**, profile-aware, country-level cost position.
+
+**Honest tail (the hard cap)**: **city-level is hard-capped to 🟢/🟡** — for everywhere except the US (and stale UK regions) the honest output is the country-level net-of-tax index, NOT a city-vs-home ratio. **Numbeo / Expatistan may appear ONLY tagged "crowdsourced, not primary," never as a verdict basis** (user-submitted, unweighted). The `--compare` / `--match` `cost-of-living` criterion is sourced from the primary datasets above (per household profile), never from a crowdsourced aggregate.
+
 ## Status
 
 Last refreshed: 2026-05-01 (Tier-5 expansion: +8 countries — IN, NG, KE, JO, OM, BH, KW, LB; cumulative 87 countries: 44 original + 10 Tier-1 + 8 Tier-2 + 9 Tier-3 + 8 Tier-4 + 8 Tier-5). Next refresh: monthly (rates/inflation), quarterly (GDP).
