@@ -33,6 +33,12 @@ For the property's country, return:
 
 ---
 
+## Practical transfer cost — the FX margin on moving your money in
+
+Moving the purchase price across borders carries a cost most buyers under-budget: the **exchange-rate margin**, separate from any flat wire fee. A retail bank typically bakes a spread into the rate it quotes — often well above the interbank / mid-market rate — so on a six-figure transfer the hidden margin can dwarf the visible fee. ⚠️ Compare the **all-in landed amount** in the destination currency (not the advertised "no fee"), and price the move through **specialist FX brokers / multi-currency accounts** — which quote close to the interbank rate and offer **forward contracts** to lock the rate between exchange and completion — rather than the high-street bank's default counter rate. A forward contract is the standard hedge when exchange and completion are weeks apart (see *Hedging market depth* above). Confirm the receiving notary / escrow accepts the chosen channel before you commit.
+
+---
+
 ## Regional patterns
 
 ### Eurozone (FR, IT, ES, PT, DE, AT, NL, BE, LU, IE, GR, MT, CY, FI, SI, EE, LV, LT, SK, HR, BG)
