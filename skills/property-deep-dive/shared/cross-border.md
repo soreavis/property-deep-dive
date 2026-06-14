@@ -297,6 +297,23 @@ Every output of this section ends with:
 >
 > A single advisor per country is the minimum; a coordinated cross-border practice (Big Four, [STEP](https://www.step.org/) members, [IBA](https://www.ibanet.org/) tax committee firms) is preferable for owner-managers with company exposure. Cost: typically EUR 1,500–10,000 per jurisdiction for an initial scoping memo; orders of magnitude cheaper than the cost of a wrong residency-break, an unanticipated POEM shift, or a missed exit-tax event.
 
+### Verifying the adviser is regulated — public registers
+
+Most jurisdictions have **no statutory "licence to give tax advice"** — so verification means confirming *membership of the profession's regulated body* on its own free public register (search by name/number, confirm current good-standing). Never rely on a business card or a "specialist expat-tax" website alone. **Track the body — never recommend a named adviser.**
+
+| Jurisdiction | Regulated body (verify membership) | Public register |
+|---|---|---|
+| **DE** | Bundessteuerberaterkammer — *Steuerberater* (§3 StBerG; unrestricted advice without it is an offence) | `steuerberaterverzeichnis.berufs-org.de` |
+| **FR** | Ordre des Experts-Comptables (accountants) · CNB (*avocat fiscaliste*) | `annuaire.experts-comptables.org` · `cnb.avocat.fr` |
+| **UK** | CIOT — Chartered Tax Adviser (CTA) · ICAEW / ACCA (chartered accountants) | CIOT find-a-member portal · `find.icaew.com` |
+| **NL** | Register Belastingadviseurs (RB) · Nederlandse Orde van Belastingadviseurs (NOB) | `rb.nl` · `nob.net/ledenzoeker` |
+| **IT** | CNDCEC — *dottore commercialista* Albo Unico (statutory licence) | `ricerca.commercialisti.it` |
+| **ES** | Consejo General de Economistas / REAF (*asesor fiscal*) | `economistas.es/buscar-colegiados` |
+| **US** | IRS Directory of Federal Tax Return Preparers (EA / CPA / attorney + active PTIN); cross-check the DOJ enjoined-preparer list | `irs.treasury.gov/rpo/rpo.jsf` |
+| **Cross-border estates / trusts** | STEP — full member **TEP**, searchable by jurisdiction (find one qualified in BOTH origin + destination) | `step.org/directory` |
+
+For **immigration** advisers (visa work) the parallel registers are in `shared/scams.md` § cross-cutting trap 8 (US state-bar / EOIR · UK IAA · CA CICC · AU OMARA · NZ IAA · EU national bar) — never pay a "notario".
+
 ---
 
 ## When to invoke
@@ -334,5 +351,19 @@ Pairs naturally with `--home-tax` (computes the buyer-side numbers), `--visa` (w
 - **EU Your Europe — Cross-border taxation**: https://europa.eu/youreurope/citizens/work/taxes/index_en.htm
 - **STEP (Society of Trust and Estate Practitioners)**: https://www.step.org/
 - **IBA Tax Committee**: https://www.ibanet.org/unit/Real+Estate+Section/committee/Real+Estate+Section/3101
+
+**Adviser-verification registers (regulated-body member checks):**
+
+- **DE — Bundessteuerberaterkammer Steuerberater-Suche**: https://steuerberaterverzeichnis.berufs-org.de/
+- **FR — Ordre des Experts-Comptables annuaire**: https://annuaire.experts-comptables.org/
+- **FR — CNB Annuaire des avocats**: https://cnb.avocat.fr/annuaire-des-avocats-de-france
+- **UK — CIOT find a Chartered Tax Adviser**: https://pilot-portal.tax.org.uk/utilities/ciot/find-a-member
+- **UK — ICAEW find a chartered accountant**: https://find.icaew.com/
+- **NL — Register Belastingadviseurs (RB)**: https://rb.nl/vind-een-register-belastingadviseur/
+- **NL — NOB Ledenzoeker**: https://www.nob.net/ledenzoeker/
+- **IT — CNDCEC Albo dottori commercialisti**: https://ricerca.commercialisti.it/RicercaIscritti
+- **ES — CGE Buscar colegiados / REAF**: https://economistas.es/buscar-colegiados/
+- **US — IRS Directory of Federal Tax Return Preparers**: https://irs.treasury.gov/rpo/rpo.jsf
+- **STEP member (TEP) directory**: https://www.step.org/directory/members/search
 
 Per-country tax authority URLs are in `shared/home-tax.md` § Authority URLs (US IRS, UK HMRC, CA CRA, AU ATO, NZ IRD, DE BMF, FR DGFiP, IT Agenzia Entrate, ES AEAT, NL Belastingdienst, Nordic, CH ESTV, JP NTA, KR NTS, SG IRAS, HK IRD, CN STA, IL ITA, IN IT, BR Receita, MX SAT, ZA SARS, AE FTA, SA ZATCA).
