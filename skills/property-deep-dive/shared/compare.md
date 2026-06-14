@@ -848,6 +848,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 - **Not predictive**: comparison is current-state, not 5-year-forward
 - **Not personalized**: doesn't know user's age, citizenship, financial profile — those go via `--journey=<type>` overlay
 - **Doesn't replace local advice**: every shortlist needs a local notary/lawyer/tax adviser before committing
+- **No scored "livability index"**: the skill deliberately does NOT emit a single composite livability / quality-of-life score — subjective criterion-weighting is false precision (English-friendliness, for one, is only an EF-EPI country-tier). For day-to-day fit, run a **no-composite side-by-side** instead: `--compare <countries> --criteria=climate,crime,amenities,connectivity`, add `--demographics` § Integration environment for the sourced policy-level signal, and use `--match` when you want a cohort-weighted ranking where *you* set the weights.
 
 ## Status
 

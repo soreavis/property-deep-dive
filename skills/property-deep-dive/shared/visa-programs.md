@@ -156,6 +156,14 @@ The single most common foreign-buyer budgeting error is anchoring to a **folklor
 
 ---
 
+## Golden-visa price distortion (the threshold-clustering trap)
+
+A property-linked golden visa sets a **price floor that distorts the market at and just above the threshold**: developers price stock *to* the qualifying figure and foreign applicants compete for it, so a buyer can pay a **"visa premium" over comparable non-qualifying stock** — and over what a local pays. The two best-documented cases are policy *reversals* driven by exactly this pressure: **🇵🇹 Portugal abolished the real-estate route** outright (*Lei 56/2023*, "Mais Habitação", in force 7 Oct 2023) citing housing-price pressure (the discounted-RE routes had clustered foreign demand in Lisbon / Porto / the Algarve); **🇬🇷 Greece raised the threshold** €250k → €400k / €800k (*Law 5100/2024*) for the same affordability reason, explicitly targeting the zones where foreign demand concentrated (Attica, Thessaloniki, Mykonos, Santorini).
+
+⚠️ **Buyer takeaway**: at a live property-linked threshold, **price the asset against comparable non-qualifying stock, not against the threshold** — run `--price` comparables before assuming the asking figure is fair. The *magnitude* of any premium is market-specific and **not reliably published** — verify against the central bank's residential-price series + local comparables; never quote a fabricated "% premium". (Eligibility itself — the "buying ≠ residency" myth-bust — lives in each playbook's "Foreign buyer eligibility (READ FIRST)" block + the `property_linked` flag on the records below.)
+
+---
+
 ## Master tables
 
 <!-- AUTOGEN-START: region-tables -->
