@@ -128,6 +128,34 @@ For the property's country, return:
 
 ---
 
+## Reality-check — the most-mythologised financial floors
+
+The single most common foreign-buyer budgeting error is anchoring to a **folklore figure** — a half-remembered headline number from a blog or Reddit thread — when the **real all-in floor** is materially higher or structurally different (locked collateral, funds proven upfront, a mandatory property purchase, a per-dependent multiplier, a no-work rule). Each row contrasts the folklore figure with the primary-sourced reality. **Verified 2026-06-14** against the named authority; thresholds move — re-confirm at the source before relying on any number.
+
+| Programme | Folklore (the myth) | Real all-in floor — primary-sourced | Why the folklore understates |
+|---|---|---|---|
+| 🇳🇱 **NL — DAFT** (US treaty) | **"€4,500"** | **~€6,700–7,250 first-year, single applicant**: the €4,500 is *business capital LOCKED in the enterprise* (IND re-checks at extension — not spendable on living costs) + €423 IND fee (2026) + ~€1,800/yr legally-compulsory health insurance per person; applicant must also run a genuinely income-generating self-employment | The €4,500 is collateral, not living money; the fee, the per-person insurance and the need for a viable income-yielding business are all omitted |
+| 🇪🇸 **ES — Non-Lucrative (NLV)** | **"~€2,400/mo"** | **~€28,800 proven liquid UPFRONT** for year 1 (400% IPREM × 12; IPREM 2026 = €600/mo) + **~€7,200/yr per dependent** (100% IPREM) + mandatory no-co-pay private Spanish health insurance + proof of accommodation; **all work — including remote — is prohibited** | It is a one-time lump-sum funds wall shown upfront, not a replenishable monthly salary; dependents, insurance and the absolute no-work rule are silently dropped |
+| 🇨🇷 **CR — Rentista** | **"$2,500/mo income"** | **~US$60,000 deposited** in a Costa Rican national-system bank to back a *bank-certified guarantee* of US$2,500/mo for 24 months (re-tested each 2-yr renewal) + government fees + CCSS (Caja) enrolment ~9–10% of declared income | The statute demands a *bank-guaranteed* renta, not a salary — an ordinary payslip does not qualify, so an applicant without the lump sum is shut out |
+| 🇲🇾 **MY — MM2H Silver** | **"cheap retirement"** | **~USD 310k / MYR 1.26M deployed**: USD 150,000 fixed deposit + **compulsory MYR 600,000 residential property** (resale-banned 10 yrs) + ~MYR 48,000 foreigner stamp duty (flat 8%, eff. 1 Jan 2026) + insurance | The pre-2021 "deposit-light, no-property" memory is dead; the current tier forces a large deposit *and* a separate locked property purchase |
+| 🇵🇹 **PT — Golden Visa (ARI)** | **"€280–350k real estate"** | **No real-estate route exists** — abolished by *Lei 56/2023* ("Mais Habitação", in force 7 Oct 2023). Cheapest surviving routes: **€200,000** non-recoverable donation (arts/heritage, low-density area) or the **€500,000** CMVM fund → ~€530–560k all-in over the 5-yr cycle | The discounted-property route was repealed outright — it no longer exists at *any* price, so the folklore figure now buys nothing |
+| 🇬🇷 **GR — Golden Visa** | **"€250k"** | **€800,000** (single property ≥120 m² in Attica, Thessaloniki, Mykonos, Santorini and islands >3,100 pop.) or **€400,000** elsewhere. The €250k tier survives ONLY for a completed listed-building restoration or commercial→residential conversion (*art. 64, Law 5100/2024*) | The general €250k option was killed in 2024; the zones most foreign buyers actually want are now €800k |
+| 🇦🇪 **AE — Golden Visa** (property) | **"any property → 10-yr"** | **AED 2,000,000 property floor** (~USD 545k) → **~AED 2.09M all-in** (+ ~AED 80k DLD 4% transfer fee + ~AED 9.9k government fees + mandatory health insurance) | Sub-AED-2M purchases only ever bought the *separate* 2-year investor visa; "any property → Golden Visa" conflates the two |
+| 🇹🇭 **TH — LTR** (Wealthy Global Citizen) | **"Thailand is cheap"** | **USD 1,000,000 net-worth gate** with **USD 500,000 actually deployed into Thai assets** (govt bonds / Thai-company equity / real estate) + medical proof (>USD 50k insurance *or* USD 100k bank deposit) + ~USD 1,400 fee | The "cheap" figure is the *separate* THB ~800k (~USD 23k) retirement visa; the LTR HNW category is 20–40× that and a different product |
+
+**Primary sources (verified 2026-06-14 — re-confirm before relying):**
+
+- 🇳🇱 **NL DAFT** — [IND — self-employed residence permit (incl. DAFT)](https://ind.nl/en/residence-permits/work/residence-permit-self-employed-person) + Government.nl compulsory standard health insurance (2026 fee/premium rates).
+- 🇪🇸 **ES NLV** — [Consulado General de España — *Residencia No Lucrativa* requirements sheet](https://www.exteriores.gob.es/Consulados/casablanca/es/Consulado/PublishingImages/Paginas/Visados/REQUISITOS%20VISADO%20RESIDENCIA%20NO%20LUCRATIVA.pdf) + Min. Inclusión (RD 1155/2024 arts. 60–63); IPREM 2026 = €600/mo.
+- 🇨🇷 **CR Rentista** — [SCIJ / PGR — *Decreto 43926-MGP-H-TUR* (14 Feb 2023), amending Art. 99 Reglamento de Extranjería](http://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?param1=NRTC&nValor1=1&nValor2=98909&nValor3=134910&strTipM=TC).
+- 🇲🇾 **MY MM2H** — MOTAC June-2024 framework (USD 150k FD + MYR 600k property + 8% foreigner stamp duty eff. 1 Jan 2026); confirm current terms on the [MOTAC portal](https://www.motac.gov.my/en/).
+- 🇵🇹 **PT GV** — *Lei 23/2007* Art. 90.º-A as amended by *Lei 56/2023* (in force 7 Oct 2023); [AIMA](https://www.aima.gov.pt/) is authoritative. ⚠️ the MNE *vistos* portal still serves stale pre-reform routes — do not cite it as current.
+- 🇬🇷 **GR GV** — *art. 64, Law 5100/2024* (Gazette 5 Apr 2024; mandatory for transactions from 1 Sept 2024); [migration.gov.gr](https://migration.gov.gr/en/).
+- 🇦🇪 **AE GV** — [Dubai Land Department — *Request for Golden Visa (Investor)* fee schedule](https://dubailand.gov.ae/en/eservices/request-for-golden-visa-investor/) + MoET eligibility; the 50% / AED-1M-paid-upfront rule was removed 20 Feb 2026.
+- 🇹🇭 **TH LTR** — [Thailand BOI — LTR Visa portal](https://ltr.boi.go.th/) (USD 1M assets / USD 500k Thai investment / >USD 50k insurance; income-requirement removal eff. ~Feb 2025).
+
+---
+
 ## Master tables
 
 <!-- AUTOGEN-START: region-tables -->
@@ -142,7 +170,7 @@ For the property's country, return:
 | AT | Settlement Permit — Financially Independent | OPEN — QUOTA | ~€1,309/mo single + A1 German | No | PR at 5 yrs | Quota fully allocated 1st working day of January |
 | AT | Red-White-Red Card (self-employed/startup) | OPEN | Points-based | No | RWR → RWR-Plus → PR | Points test |
 | CH | Lump-sum tax (Pauschalbesteuerung) | OPEN — RESTRICTED | CHF 435,000 federal min. base 2026; 7× rent | No | B permit → C at 10 yrs | **Abolished cantonally in ZH, BS, BL, SH, AR.** Available in ZG, SZ, GE, VD, VS, NW, TI |
-| NL | DAFT (US treaty) | OPEN — US ONLY | €4,500 business deposit | No | 2-yr; PR 5 yrs | US passport holders only |
+| NL | DAFT (US treaty) | OPEN — US ONLY | €4,500 business deposit | No | 2-yr; PR 5 yrs | US passport holders only · ⚠️ reality-check: €4,500 is *locked* business capital (not spendable) — real yr-1 all-in ~€6,700–7,250 (+ IND fee + compulsory health insurance + a viable income-generating business); see § Reality-check |
 | BE | Professional Card | OPEN | No statutory min; case-by-case | No (active business) | 2-3 yr; citizenship via naturalisation | Region-specific |
 | LU | Investor Residence | OPEN | €500k existing/new co. (5 jobs) / €3m vehicle / €20m bank | No | 3-yr; citizenship at 5 yrs | Real substance required |
 | IE | ~~IIP~~ | **ENDED 15 Feb 2023** | n/a | n/a | Pipeline cases continue | Start-up Entrepreneur Programme still open (innovation, not RE) |
@@ -159,11 +187,11 @@ For the property's country, return:
 | Country | Programme | Status | Min. threshold | Property-linked? | PR/citizenship | Caveats |
 |---|---|---|---|---|---|---|
 | ES | ~~Golden Visa~~ | **ENDED 3 Apr 2025** | n/a | n/a | Holders grandfathered | Pre-3-Apr-2025 applications continue |
-| ES | Non-Lucrative Visa (NLV) | OPEN | ~€2,400/mo passive income | No | 1-yr→2-yr; PR 5 yrs | Successor of choice for ex-GV applicants |
-| PT | Golden Visa (ARI) | OPEN — RESTRICTED | €500k fund / €250k cultural / €500k research | **NO — RE removed Oct 2023** | 5 yrs → PR or citizenship (A2) | Renewals digital from 16 Feb 2026 |
+| ES | Non-Lucrative Visa (NLV) | OPEN | ~€2,400/mo passive income | No | 1-yr→2-yr; PR 5 yrs | Successor of choice for ex-GV applicants · ⚠️ the ~€2,400/mo = €28,800 proven UPFRONT for yr 1, +€7,200/yr per dependent + private insurance; all work incl. remote banned; see § Reality-check |
+| PT | Golden Visa (ARI) | OPEN — RESTRICTED | €500k fund / €250k cultural / €500k research | **NO — RE removed Oct 2023** | 5 yrs → PR or citizenship (A2) | Renewals digital from 16 Feb 2026 · ⚠️ NO real-estate route since Lei 56/2023 (7 Oct 2023); cheapest now €200k donation / €500k fund; see § Reality-check |
 | PT | ~~NHR~~ | **ENDED Mar 2024** | n/a | n/a | n/a | Replaced by IFICI |
 | PT | IFICI (NHR 2.0) | OPEN — NARROW | Tax regime, not investment | No | 10-yr 20% flat tax | **Pensions NOT exempt.** EQF L6+ degree, scientific research / certified tech startup / export co only |
-| GR | Golden Visa | OPEN — RESTRICTED | €800k Attica/Thess/Myk/Sant/islands >3.1k pop; €400k elsewhere; €250k commercial→residential conversions or listed buildings | YES | 120 sqm min (except conversions); 5-yr renewable; citizenship 7 yrs (Greek test) | Single property only |
+| GR | Golden Visa | OPEN — RESTRICTED | €800k Attica/Thess/Myk/Sant/islands >3.1k pop; €400k elsewhere; €250k commercial→residential conversions or listed buildings | YES | 120 sqm min (except conversions); 5-yr renewable; citizenship 7 yrs (Greek test) | Single property only · ⚠️ €250k folklore dead — €800k (Attica/Thess/Mykonos/Santorini/islands >3.1k) or €400k elsewhere since L.5100/2024; see § Reality-check |
 | MT | ~~MEIN/IIP~~ | **RULED ILLEGAL 29 Apr 2025** (ECJ C-181/23) | n/a | n/a | n/a | Treat as ENDED; verify Maltese gov compliance |
 | MT | MPRP (Permanent Residence) | OPEN — VERIFY | €375k lease / €750k purchase + €60k govt + €50k charity | YES (purchase route) | PR; no auto citizenship | Distinct from MEIN; verify EU pressure post-ECJ |
 | CY | ~~CBI~~ | **ENDED 1 Nov 2020** | n/a | n/a | n/a | 53% of passports later illegal |
@@ -240,7 +268,7 @@ For the property's country, return:
 | AR | Rentista Visa | OPEN — TIGHTENED | 5× minimum living wage (~US$2,000/mo recommended); foreign passive only | No | 1-yr renewable up to 3 yrs; PR after 3 yrs | **Decree 366/2025 (29 May 2025)** mandatory health insurance; no free public healthcare/education for non-PR |
 | AR | Inversionista Visa | OPEN | ARS 1.5m (~US$1,300-6,000) productive | Possibly | 3-yr; PR | |
 | AR | Citizenship by Investment | **PROPOSED — REGS PENDING (Apr 2026)** | ~US$500k productive (proposed) | TBD | **Waives 2-yr residency for naturalisation** | **Decree 524/2025 (Jul 2025)** signed; implementing regs not finalised |
-| CR | Rentista Visa | OPEN | **US$2,500/mo** (24 months) OR **US$60,000** CR bank deposit | No | 2-yr temp; PR 3 yrs; citizenship 7 yrs | |
+| CR | Rentista Visa | OPEN | **US$2,500/mo** (24 months) OR **US$60,000** CR bank deposit | No | 2-yr temp; PR 3 yrs; citizenship 7 yrs | ⚠️ reality-check: the $2,500/mo must be BANK-GUARANTEED for 24 mo (~US$60,000 deposit), not a salary; see § Reality-check |
 | CR | Inversionista Visa | OPEN | **US$150,000** investment (RE / business / shares / VC / tourism) | YES (RE eligible) | 2-yr renewable; PR 3 yrs; citizenship 7 yrs | |
 | PA | Friendly Nations Visa (reformed Aug 2021) | OPEN | **US$200,000** RE OR term deposit OR combo + economic ties | YES (RE eligible) | 2-yr provisional → PR after 2 yrs; citizenship 5 yrs | Reform replaced "any of 50 nations" rule with investment requirement |
 | PA | Qualified Investor Visa | OPEN — DEFERRED INCREASE | **US$300,000 RE** (gov maintained at $300k through Oct 2026) | YES | Direct PR; citizenship 5 yrs | |
@@ -283,7 +311,7 @@ For the property's country, return:
 | TR | Citizenship by Investment (CBI — RE route) | OPEN | **USD 400,000** RE (raised from USD 250k in **Jun 2022** — verify current Cumhurbaşkanlığı kararı + ilçe exclusions) | YES | **Direct citizenship** (no residency requirement); 3-yr non-resale lock | Single property OR aggregate; some districts excluded; CBI also via USD 500k bank deposit / USD 500k govt bonds / USD 500k VC fund / USD 500k pension fund / 50 Turkish-citizen jobs |
 | TR | Turquoise Card (Talent / Investment) | OPEN | Investment / extraordinary skills (case-by-case) | Possibly | 3-yr provisional → permanent | Separate from CBI |
 | TR | Short-Term Residency (Property-owner) | OPEN | Property ownership OR sufficient funds | YES (property route) | 1-2 yr renewable; 8-yr cumulative for naturalisation | Common for non-CBI buyers |
-| AE | Golden Visa (Real-Estate route, Cabinet Decision 65/2022 expanded) | OPEN | **AED 2,000,000** RE (single or aggregate); off-plan eligible if developer registered + escrow | YES | 10-yr renewable; family included; outside-residency allowed | NO citizenship path; AED 750k for **2-yr investor visa** |
+| AE | Golden Visa (Real-Estate route, Cabinet Decision 65/2022 expanded) | OPEN | **AED 2,000,000** RE (single or aggregate); off-plan eligible if developer registered + escrow | YES | 10-yr renewable; family included; outside-residency allowed | NO citizenship path; AED 750k for **2-yr investor visa** · ⚠️ 10-yr Golden needs AED 2M property (~AED 2.09M all-in); 'any property' = the 2-yr visa; see § Reality-check |
 | AE | Green Visa (skilled professional / freelancer) | OPEN | Skilled work + degree / freelance permit + USD 100k income proof / investor profile | No | 5-yr renewable; sponsor self | Decoupled from employer |
 | AE | Retirement Visa (Resident retirees, ≥55) | OPEN | **AED 1M property** OR **AED 1M savings** OR **AED 20k/mo income** | YES (property route) | 5-yr renewable | |
 | AE | Long-term Investor Visa | OPEN | AED 2M+ in business / partnership / RE | YES | 10-yr | Overlaps with Golden Visa |
@@ -300,12 +328,12 @@ For the property's country, return:
 | JP | Investor Visa | OPEN — DE FACTO | Active business management — passive RE NOT sufficient | No | Same as Business Manager | Passive landlord-only applicants typically rejected |
 | JP | J-Find / J-Skip (post-2023) | OPEN | Top-100-uni grad (J-Find) OR HSP-equivalent income (J-Skip) | No | 2-yr job-search (J-Find) / direct work permit (J-Skip) | New 2023 programs |
 | TH | Thailand Privilege (formerly Thailand Elite — restructured 2023) | OPEN | **THB 900k–5M** (Gold 5yr → Reserve 20yr) | No | Long-stay multi-entry visa; NO PR/citizenship path | Pure visa-convenience product |
-| TH | Long-Term Resident (LTR) Visa (4 categories) | OPEN | Wealthy Global Citizen (USD 1M assets + USD 80k/yr income); Wealthy Pensioner (USD 80k/yr OR USD 40-80k + USD 250k investment); Work-from-Thailand Pro (USD 80k/yr); Highly Skilled Pro (USD 80k/yr) | No | 10-yr renewable; tax benefits (foreign-source income exempt for some categories per RD interpretation) | Major upgrade vs Privilege |
+| TH | Long-Term Resident (LTR) Visa (4 categories) | OPEN | Wealthy Global Citizen (USD 1M assets + USD 80k/yr income); Wealthy Pensioner (USD 80k/yr OR USD 40-80k + USD 250k investment); Work-from-Thailand Pro (USD 80k/yr); Highly Skilled Pro (USD 80k/yr) | No | 10-yr renewable; tax benefits (foreign-source income exempt for some categories per RD interpretation) | Major upgrade vs Privilege · ⚠️ not the cheap THB 800k retirement visa — Wealthy Global Citizen = USD 1M net worth + USD 500k into Thai assets; see § Reality-check |
 | TH | Destination Thailand Visa (DTV) — launched mid-2024 | OPEN | **THB 500,000** savings + freelance/remote-worker proof | No | 5-yr multi-entry, 180 days/stay | Digital-nomad targeted |
 | ID | Second Home Visa (Permenkumham 22/2023) | OPEN | **IDR 2,000,000,000** asset (~USD 130k) — qualifying asset CAN BE the property itself (Hak Pakai/SHMRS) | YES | 5–10-yr renewable | Uniquely combines visa + property pathway (LTR Wealthy Pensioner doesn't directly mirror this) |
 | ID | KITAS Investor / KITAS Working | OPEN | Per BKPM-investment-thresholds (case-by-case) | Possibly | 1-2 yr renewable → KITAP after 3-5 yrs | Standard route; PT PMA structure required for HGB land ownership |
 | ID | Golden Visa (Indonesia 2023) | OPEN | **USD 350,000–USD 50M** depending on tier (individual/corporate/family) | Possibly (asset broadly defined) | 5–10-yr | New 2023; verify current Permenkumham + DJP guidance |
-| MY | MM2H — Silver Tier (post-Jun 2024 framework) | OPEN | **MYR 1,000,000** fixed deposit + MYR 40,000/mo income proof | No (MM2H allows property purchase) | 5-yr renewable | Cheapest tier; replaced 2021 framework |
+| MY | MM2H — Silver Tier (post-Jun 2024 framework) | OPEN | **MYR 1,000,000** fixed deposit + MYR 40,000/mo income proof | No (MM2H allows property purchase) | 5-yr renewable | Cheapest tier; replaced 2021 framework · ⚠️ not 'cheap': USD 150k FD + compulsory MYR 600k property (10-yr resale lock) + 8% foreigner stamp duty ≈ USD 310k deployed; see § Reality-check |
 | MY | MM2H — Gold Tier | OPEN | **MYR 2,000,000** fixed deposit + MYR 50,000/mo income proof | No | 15-yr renewable | |
 | MY | MM2H — Platinum Tier | OPEN | **MYR 5,000,000** fixed deposit + MYR 50,000/mo income proof | No | 20-yr renewable | Citizenship NOT included; permanent visa only |
 | MY | Premium Visa Programme (PVIP) — 2022 | OPEN | **MYR 1,000,000** fixed deposit + MYR 40,000/mo offshore income | No | 20-yr renewable; spouse + children | Distinct from MM2H; allows business + property |
