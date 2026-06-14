@@ -342,6 +342,15 @@ For a mover asking "how welcoming is this country, structurally?", two primary s
 
 **Net**: report the MIPEX policy band + the OECD employment-outcome gap, each date-stamped and country-level; refuse a "this place is friendly / lonely" score. Companion to the English-proficiency tiers + family-friendliness signals above.
 
+## Childcare cost + the second-earner trap
+
+For a working-age family mover, childcare is both a top-line budget item and a hidden **second-earner disincentive** — distinct from the K-12 / international-school landscape in `--schools`. Two primary-sourced, **country-level** signals:
+
+- **Net childcare cost** — [OECD Tax-Benefit "Net childcare costs"](https://taxben.oecd.org/tax-ben-resources/Calculating-Net-Childcare-Costs-Guidelines-for-Experts.pdf) (model: a couple with two children aged 2 & 3 in full-time centre-based care; **net** = gross fee − childcare benefits / fee discounts − tax reductions + other-benefit changes, as a % of the average wage). OECD average ≈ **14%** of average earnings; lowest **DE ~1% / EE ~0%**; highest in the English-speaking OECD + CH / NZ. Quote a country's exact value **only with the stated metric (% of average wage vs % of disposable income — they differ) + vintage** (values move; NZ's high figure is 2018-vintage; some economies are missing in some years). The national systems behind the number: FR *crèche* / CAF + free *école maternelle* from age 3 · DE *Kita-Gebühren* (set by Land) · NL *kinderopvangtoeslag* · UK 30-hours + Tax-Free Childcare.
+- **The second-earner trap** — [OECD *Taxing Wages* 2024](https://www.oecd.org/tax/taxing-wages-20725124.htm) ("Tax and Gender through the Lens of the Second Earner"): a second earner entering work at 67% of the average wage faces a **34.0% tax wedge** (vs 31.0% for a single worker), **higher still with children** (lost child benefits stack), and **larger where tax is assessed at the household level**. **>75% of second earners are women** across most OECD countries — so the childcare-cost-plus-clawback is often what actually decides whether the trailing spouse works at all (cross-ref `--work` § spouse work-rights + `--cost-of-living`).
+
+**Honest tail**: country-level only — this does **not** compute a household's net childcare bill, eligibility for CMG / *kinderopvangtoeslag* / Tax-Free Childcare / 30-hours, or a "should the spouse work" verdict (those turn on exact incomes, hours, child ages, residence). Per-city availability / waitlists are not uniformly published — verify locally.
+
 ## Anti-hallucination
 
 - **Cite Eurostat / OECD / World Bank / UN DESA** as primary; date-stamp data
