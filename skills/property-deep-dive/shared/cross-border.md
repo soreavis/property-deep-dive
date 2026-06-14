@@ -102,6 +102,25 @@ Every jurisdiction has its own residence test; pattern families:
 
 **Source for each country's residence test**: see authority links in `shared/home-tax.md` § Authority URLs.
 
+### Day-counter mode (`--cross-border=timing`)
+
+Takes the buyer's supplied travel dates, tallies days **per the destination's own counting method**, and **classifies the residence-test system** — the split-year mechanics that decide whether a mid-year move is taxed for the whole year or apportioned. It is a *necessary-but-not-sufficient* aid: it counts and classifies, it **never** outputs a residency verdict. Split-year legend: 🟢 **STATUTORY** (a named split-year statute) · 🟡 **PARTIAL-YEAR / ADMINISTRATIVE** (apportioned by arrival/departure date, no formal relief statute) · 🔴 **NONE** (whole-year, all-or-nothing). Verified 2026-06-14.
+
+| Country | Day rule | Period · count method | Split-year system |
+|---|---|---|---|
+| **UK** | **No single 183-day rule** — SRT ([FA2013 Sch45](https://www.legislation.gov.uk/ukpga/2013/29/schedule/45)): automatic-overseas/UK tests + sufficient-ties; resident on as few as **16 days** via ties | 6 Apr–5 Apr · **present-at-midnight** | 🟢 STATUTORY (Sch45 Part 3, 8 Cases) |
+| **IE** | **≥183 d** in the year **OR ≥280 d** across two years (look-back); ≤30 d can't trigger | calendar · **any-part-of-day** | 🟢 STATUTORY ([s822 TCA1997](https://www.revenue.ie/) — *employment income only*) |
+| **DE** | **No day threshold** for *Wohnsitz* (can attach from day 1); habitual abode = **>6 months continuous** ([§9 AO](https://www.gesetze-im-internet.de/ao_1977/__9.html)) | per calendar year · continuous-presence | 🟢 STATUTORY (§2(7) S.3 EStG — unlimited+limited periods combined) |
+| **US** | Substantial-Presence: **31 d** current **+ 183 weighted** over 3 yrs (current + ⅓ + ⅙) ([IRC §7701(b)](https://www.irs.gov/individuals/international-taxpayers/residency-starting-and-ending-dates)) | calendar, 3-yr rolling · **weighted** | 🟡 PARTIAL-YEAR (dual-status; + green-card test + citizenship-based) |
+| **NL** | **No day threshold** — facts-&-circumstances "durable personal bond" ([art. 4 AWR](https://wetten.overheid.nl/BWBR0002320)) | calendar · n/a | 🟡 PARTIAL-YEAR (migration-year *M-aangifte* splits at the migration date) |
+| **PT** | **>183 d** in any **rolling 12 months**, OR a habitual dwelling ([art. 16 CIRS](https://info.portaldasfinancas.gov.pt/)) | rolling 12 mo · present-at-midnight | 🟡 PARTIAL-YEAR (statutory since the 2015 IRS reform) |
+| **AU** | **>183 d** in the income year (rebuttable if usual abode abroad + no intent) + 3 other s6(1) tests ([ITAA36 s6(1)](https://www5.austlii.edu.au/au/legis/cth/consol_act/itaa1936240/s6.html)) | **1 Jul–30 Jun** · any-part-of-day | 🟡 PARTIAL-YEAR (no named relief; part-year by arrival/departure) |
+| **FR** | **No statutory day number** — [CGI art. 4 B](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041464195) multi-criteria (foyer / stay / activity / economic interests); **any one limb suffices** | calendar · 183 d only an administrative guide | 🟡 ADMINISTRATIVE (no named split-year statute) |
+| **ES** | **>183 d** in the calendar year (sporadic absences counted) OR centre of economic interests ([Art. 9 LIRPF](https://sede.agenciatributaria.gob.es/)) | calendar · presence-based | 🔴 NONE — whole-year all-or-nothing |
+| **IT** | **>183 d** ("greater part of the period", now counting **fractions of a day** — 2024 reform) ([Art. 2 TUIR](https://www.agenziaentrate.gov.it/)) | calendar · any-part-of-day | 🔴 NONE — no domestic *frazionamento* |
+
+**Why the count is necessary but NOT sufficient (the standing refusal).** The day tally is one input, never the answer — across every system above a person can be tax-resident on **far fewer** than the headline days through a non-day trigger: a **permanent home / dwelling** (UK automatic-UK home test from ~30 days · ES/IT/PT habitual dwelling · DE *Wohnsitz* from day 1 · FR *foyer*), a **centre of vital / economic interests** (FR · ES · IT), **ties** (UK family / accommodation / work / 90-day / country → resident on 16 days), **status** (US green-card test + citizenship-based taxation regardless of presence), or a **facts-&-circumstances "durable personal bond"** (NL — neither a count nor a threshold). So `--cross-border=timing` **counts days from the buyer's travel dates and classifies the system — it does NOT emit a residency verdict, a "non-resident at 182 days" claim, or any liability figure.** Where ties / permanent home / centre of vital interests apply, residence can attach on fewer days — this is the necessary-but-not-sufficient warning, and it routes (per the `--cross-border` contract) to **cross-border tax counsel engaged in BOTH jurisdictions** before any reliance. Companion to the per-country 183-day triggers in `shared/digital-nomad.md` (DN-visa angle).
+
 ### DTA Article 4(2) tie-breaker cascade
 
 When both countries claim residence under domestic law, the DTA tie-breaker determines treaty residence. OECD MTC Art. 4(2) cascade — apply in strict order until one step decides:
