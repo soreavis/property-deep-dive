@@ -56,6 +56,12 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - **CalVer drift guard — `Version month guard` required check + `scripts/next-version.py`.** Closes the one gap that let `plugin.json` drift to `2026.05.71` deep into June: the version counter could be bumped into a stale month's namespace with nothing to catch it. New `scripts/next-version.py` is the single source of truth for the rule (`0M` = current calendar month; `MICRO` resets to `0` on a month roll; monotonic within a month) — it computes the correct next version (`--write` bumps `plugin.json` in place) and validates a proposed one (`--check HEAD --base BASE`). A new **`Version month guard`** job in `pr-validate.yml` calls `--check` on every PR (diff-gated: instant pass when the version is unchanged) and is a **required** branch-protection check, so any bump landing in the wrong month / skipping the MICRO reset / decreasing is blocked at merge with the correct number in the failure message. Release SOP in `CONTRIBUTING.md` § Release process + the repo `CLAUDE.md` now point at the helper. Tooling/governance only — no skill-content change.
 
+### Changed
+
+- ci(version): Version month guard — stop CalVer month drift ([#273](https://github.com/soreavis/property-deep-dive/pull/273)) — by @soreavis
+
+- docs: refresh install.md release-tag refs 2026.05.59 -> 2026.06.0 ([#274](https://github.com/soreavis/property-deep-dive/pull/274)) — by @soreavis
+
 ## [2026.06.0] - 2026-06-14
 
 ### Added
