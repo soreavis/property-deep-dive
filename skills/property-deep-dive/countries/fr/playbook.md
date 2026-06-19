@@ -342,7 +342,7 @@ For FR-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 | Health insurance | Notify CPAM; if EU/EEA/CH destination, request **S1 form** via [Reg 883/2004](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0883) for transition coverage | Assurance Maladie / CPAM | [ameli.fr](https://www.ameli.fr/) |
 | Social security coordination | S1 (EU/EEA/CH) or bilateral totalisation agreement | CLEISS — Centre des Liaisons Européennes et Internationales de Sécurité Sociale | [cleiss.fr](https://www.cleiss.fr/) |
 | IFI (wealth tax) | If worldwide RE > €1.3M as FR resident — final-year IFI filing; first non-resident year, IFI scope reduces to French-situs RE only | DGFiP IFI | [impots.gouv.fr/IFI](https://www.impots.gouv.fr/particulier/calcul-de-lifi) |
-| France-treaty register (DTA lookup) | Find the relevant FR-destination DTA + tie-breaker article + MLI matches | DGFiP — Conventions fiscales internationales | [impots.gouv.fr/conventions-internationales](https://www.impots.gouv.fr/les-conventions-internationales/conventions-internationales) |
+| France-treaty register (DTA lookup) | Find the relevant FR-destination DTA + tie-breaker article + MLI matches | DGFiP — Conventions fiscales internationales | [impots.gouv.fr/conventions-internationales](https://www.impots.gouv.fr/les-conventions-internationales) |
 
 **Cross-link**: invoke `--cross-border` for the framework (DTA tie-breaker pointer + POEM/PE check + EU/EEA/CH free-movement clarification) and `--home-tax` for France-side annual / disposal / death / emigration detail (Art. 167 bis, IFI, Form 3916, etc.).
 

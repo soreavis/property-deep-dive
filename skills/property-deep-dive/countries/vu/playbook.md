@@ -269,7 +269,7 @@ The Vanuatu property thesis is overwhelmingly **second-home / lifestyle / touris
 | **Vanuatu Meteorology & Geo-Hazards Department (VMGD)** | `https://www.vmgd.gov.vu/` | Cyclones, climate, volcanic + seismic geo-hazards, warnings |
 | **National Disaster Management Office (NDMO)** | `https://ndmo.gov.vu/` | Disaster response, impact assessments, shelters |
 | **US Geological Survey (USGS)** | `https://earthquake.usgs.gov/` | Earthquake event pages (cross-check magnitude/depth) |
-| **World Risk Report (Bündnis Entwicklung Hilft / IFHV Bochum)** | `https://weltrisikobericht.de/en/` | World Risk Index ranking (verify edition) |
+| **World Risk Report (Bündnis Entwicklung Hilft / IFHV Bochum)** | `https://weltrisikobericht.de/` | World Risk Index ranking (verify edition) |
 | **GFDRR / World Bank** | `https://www.gfdrr.org/` | Risk profiles + resilience financing |
 
 ### Cyclone (tropical) — extreme

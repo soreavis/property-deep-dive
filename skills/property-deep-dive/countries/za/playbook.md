@@ -77,7 +77,7 @@ Listing-derived ranges, cross-checked against FNB HPI (Q4 2024 / Q1 2025 release
 - **SANRAL** (South African National Roads Agency Ltd) — national routes (N-routes, R-routes managed nationally): `https://www.nra.co.za/` (open-data traffic counts limited; ITS sites publish monthly)
 - **Provincial DOTs** — regional roads:
   - Western Cape: `https://www.westerncape.gov.za/mobility`
-  - Gauteng: `https://www.gauteng.gov.za/Departments/CPM-001010`
+  - Gauteng: `https://www.gauteng.gov.za/`
   - KZN: `https://www.kzntransport.gov.za/`
 - **Municipal traffic depts** for urban: City of Cape Town TDA (Transport Directorate); City of Johannesburg JRA (Johannesburg Roads Agency); eThekwini ETA
 - **OSM fallback**: `highway` tag for class (motorway, trunk, primary, secondary, tertiary, residential)
@@ -136,7 +136,7 @@ Listing-derived ranges, cross-checked against FNB HPI (Q4 2024 / Q1 2025 release
 | **City of Cape Town** | ~0.6055 c/R (2024/25) | `https://www.capetown.gov.za/Family%20and%20home/Residential-utility-services/Residential-property-rates-and-valuations` |
 | **City of Johannesburg** | ~0.7 c/R (2024/25) | `https://joburg.org.za/services_/Pages/City%20Services/Rates%20and%20Taxes/Rates-and-Tax.aspx` |
 | **eThekwini (Durban)** | ~0.95–1.0 c/R (2024/25) | `https://www.durban.gov.za/uploads/0000/6/2025/09/22/ethekwini-municipality-property-rates-policy-2025-2026.pdf` |
-| **City of Tshwane (Pretoria)** | ~0.93 c/R (2024/25) | `https://www.tshwane.gov.za/?page_id=2050` |
+| **City of Tshwane (Pretoria)** | ~0.93 c/R (2024/25) | `https://www.tshwane.gov.za/?page_id=6924` |
 | **Ekurhuleni** | ~0.85 c/R (2024/25) | `https://www.ekurhuleni.gov.za/` |
 
 (2024/25 data — **rates may have changed since July 2025 tariff cycle**; verify current at each municipality's tariff page.)
@@ -353,7 +353,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 - **City of Cape Town Water & Sanitation**: `https://www.capetown.gov.za/Family%20and%20home/Residential-utility-services/Residential-water-and-sanitation-services`
 - **Joburg Water (City of Johannesburg)**: `https://www.johannesburgwater.co.za/`
 - **eThekwini Water and Sanitation**: `https://www.durban.gov.za/page/water-and-sanitation-services`
-- **City of Tshwane**: `https://www.tshwane.gov.za/?page_id=2050`
+- **City of Tshwane**: `https://www.tshwane.gov.za/?page_id=6924`
 - **Ekurhuleni Water**: `https://www.ekurhuleni.gov.za/`
 - **Department of Water and Sanitation**: `https://www.dws.gov.za/`
 
@@ -504,7 +504,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 | Cape Town rates / valuations | `https://www.capetown.gov.za/Family%20and%20home/Residential-utility-services/Residential-property-rates-and-valuations` |
 | JHB property rates | `https://joburg.org.za/services_/Pages/City%20Services/Rates%20and%20Taxes/Rates-and-Tax.aspx` |
 | eThekwini property tax | `https://www.durban.gov.za/uploads/0000/6/2025/09/22/ethekwini-municipality-property-rates-policy-2025-2026.pdf` |
-| Tshwane | `https://www.tshwane.gov.za/?page_id=2050` |
+| Tshwane | `https://www.tshwane.gov.za/?page_id=6924` |
 | CSOS | `https://www.csos.org.za/` |
 | CGS (geoscience / dolomite / seismic) | `https://www.geoscience.org.za/` |
 | SAWS (weather / climate) | `https://www.weathersa.co.za/` |

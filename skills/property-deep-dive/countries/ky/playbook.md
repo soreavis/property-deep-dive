@@ -637,7 +637,7 @@ See **Foreign buyer eligibility** above — **buying property does NOT confer re
 |---|---|
 | Government of the Cayman Islands | `https://www.gov.ky/` |
 | Lands & Survey Department / Land Registry + Valuation & Estates | `https://www.caymanlandinfo.ky/` |
-| Stamp duty — transfer of land (L&S) | `https://www.caymanlandinfo.ky/Services/VEO/Stamp-Duty/Transfer-of-Land` |
+| Stamp duty — transfer of land (L&S) | `https://www.caymanlandinfo.ky/services/valuation/stamp-duty` |
 | Cayman Islands legislation (Stamp Duty Act 2019 Rev.; Registered Land Act 2018 Rev.; Rates-of-Duty Regs) | `https://legislation.gov.ky/` |
 | Judicial portal — Grand Court | `https://judicial.ky/structure-of-the-courts/grand-court/` |
 | Cayman Islands Monetary Authority (currency peg + AML) | `https://www.cima.ky/` |

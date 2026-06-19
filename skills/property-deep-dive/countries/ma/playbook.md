@@ -86,7 +86,7 @@ This is the second-biggest foreign-buyer trap. Get it right at *purchase* or you
 ### Primary sources
 
 - **HCP — Indice des Prix des Actifs Immobiliers (IPAI)**: quarterly residential price index, published by HCP and Bank Al-Maghrib jointly.
-  - Bank Al-Maghrib portal: `https://www.bkam.ma/Statistiques/Statistiques-monetaires-et-financieres/Indice-des-prix-des-actifs-immobiliers`
+  - Bank Al-Maghrib portal: `https://www.bkam.ma/Statistiques/Prix/Indice-des-prix-des-actifs-immobiliers`
   - HCP portal: `https://www.hcp.ma/`
   - Coverage: national + Casablanca / Rabat / Marrakech / Tangier / Fès / Agadir / Meknès / Kenitra / Oujda / Tétouan
   - Granularity: index (base 100 = Q1 2006), not absolute MAD/m². Use for *trend*, combine with listings for *level*.
@@ -599,7 +599,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | DGI (taxes) | `https://www.tax.gov.ma/` |
 | DGI référentiel des prix immobilier | `https://www.tax.gov.ma/wps/portal/DGI/Referentiel-prix-immobilier` |
 | Bank Al-Maghrib | `https://www.bkam.ma/` |
-| Bank Al-Maghrib IPAI | `https://www.bkam.ma/Statistiques/Statistiques-monetaires-et-financieres/Indice-des-prix-des-actifs-immobiliers` |
+| Bank Al-Maghrib IPAI | `https://www.bkam.ma/Statistiques/Prix/Indice-des-prix-des-actifs-immobiliers` |
 | HCP | `https://www.hcp.ma/` |
 | SMIT (tourism) | `https://www.smit.gov.ma/` |
 | AMDIE | `https://www.amdie.gov.ma/` |

@@ -91,7 +91,7 @@ Non-Qataris **cannot acquire any registered interest** in real estate outside th
 ### Compliance / AML
 
 - **Qatar Central Bank (QCB)** AML rules (Law 20/2019 on Combating Money Laundering and Terrorism Financing) require **source-of-funds documentation** for property purchases
-- **National Anti-Money Laundering and Terrorism Financing Committee (NAMLC)** under MOF — `https://www.namlc.gov.qa/en/index.html` — coordinates real-estate sector compliance under FATF MENAFATF assessments
+- **National Anti-Money Laundering and Terrorism Financing Committee (NAMLC)** under MOF — `http://www.namlc.gov.qa/en/index.html` — coordinates real-estate sector compliance under FATF MENAFATF assessments
 - Cash transactions and high-value real-estate deals subject to enhanced due diligence; brokers + developers are designated reporting entities
 - Source-of-funds: bank statements, employment letter, prior asset sale proof — required at REA registration
 

@@ -42,7 +42,7 @@ The cleavage is **living + working ≠ buying**:
 1. **Treasury Income Tax Division** — [gov.im/incometax](https://www.gov.im/categories/tax-vat-and-your-money/income-tax-and-national-insurance/) (primary government); operative statute: **Income Tax Act 1970**
 2. **Land, Deeds & Probate Registries Fees & Duties Order 2023 (SD 2023/0077)** — effective 1 May 2023 — [centralregistry.gov.im](https://centralregistry.gov.im/)
 3. **PwC Tax Matters 2025/26** — [pwc.com/im — Tax Matters](https://www.pwc.com/im/en/services/tax/assets/Tax-Matters-2025-26.pdf) (regulated entity, cross-check)
-4. **KPMG IoM Budget 2025/26 commentary** — [kpmg.com — IoM tax measures 2025/26](https://kpmg.com/us/en/taxnewsflash/news/2025/02/tnf-isle-of-man-tax-measures-in-2025-2026-budget.html)
+4. **KPMG IoM Budget 2025/26 commentary** — [kpmg.com — IoM tax measures 2025/26](https://kpmg.com/dp/en/services/tax/family-office-private-client/tax-in-the-isle-of-man.html)
 
 ### Income tax (2025/26) — Income Tax Act 1970
 
@@ -173,7 +173,7 @@ Typical annual rates bill: a single-family home with rateable value £200 × Dou
 3. Operating costs: 30–40 % (cleaning, linen, agent commission)
 4. Tax: trading income at 21 % over personal allowance (resident); 21 % flat (non-resident); 20 % (company)
 
-**Confidence**: HIGH on regulatory framework; MEDIUM on TT rate ranges (peer-listing observational; verify via [airbnb.co.uk — Isle of Man](https://www.airbnb.co.uk/isle-of-man--united-kingdom/stays) or Booking.com TT-period sweep).
+**Confidence**: HIGH on regulatory framework; MEDIUM on TT rate ranges (peer-listing observational; verify via [airbnb.co.uk — Isle of Man](https://www.airbnb.com/isle-of-man/stays) or Booking.com TT-period sweep).
 
 ---
 

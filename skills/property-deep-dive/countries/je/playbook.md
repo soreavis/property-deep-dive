@@ -10,7 +10,7 @@ ISO2: `je`. Status: ✅ Initial populated (Crown Dependency, standalone playbook
 - Postcode pattern: `JE1`–`JE5` (UK-style outward code, but Jersey-only)
 - Currency: Pound sterling (£) — Jersey issues its own notes/coins via the States of Jersey, at parity with GBP
 - Language: English (legal documents historically passed in French in the Royal Court; modern conveyances are dual-language)
-- Population: ~103,000 (2021 Census, [gov.je](https://www.gov.je/Government/Census/Pages/index.aspx))
+- Population: ~103,000 (2021 Census, [gov.je](https://www.gov.je/census))
 - Area: 119 km² (12 parishes)
 - Cadastre / land registry: **No public-search cadastre comparable to French `cadastre.gouv.fr`** — title is held in the Public Registry of Contracts at the Royal Court / Judicial Greffe ([courts.je/judicial-greffe/public-registry](https://www.courts.je/judicial-greffe/public-registry/)). Records dating from 1602; mandatory registration of `partages` since 1840 (per Public Registry records).
 - Time zone: Europe/Jersey (UTC+0 / +1 BST — matches UK)
@@ -318,7 +318,7 @@ Jersey has a small bank-branch retail market, dominated by Channel-Islands-licen
 
 - **Coastal flooding** — south coast (St Helier waterfront, La Collette reclamation, Havre des Pas, Gorey) at risk from storm surge + sea-level rise. North coast (St John, Trinity) higher cliffs → much lower coastal exposure.
 - **Fluvial flooding** — limited (small island, short watercourses); pluvial / surface-water flooding is the bigger pinch point in St Helier urban core during intense rainfall events
-- **Primary source**: [gov.je Flood maps / Strategic Flood Map](https://www.gov.je/Environment/ProtectingEnvironment/CoastalDefences/Pages/index.aspx) and parish-level [Island Plan 2022](https://www.gov.je/Planning/IslandPlanning/Pages/IslandPlan.aspx) — `verify the parcel-level flood overlay at the Planning Department before exchange`
+- **Primary source**: [gov.je Flood maps / Strategic Flood Map](https://www.gov.je/Travel/CoastalDefences/pages/coastalfloodhazardmaps.aspx) and parish-level [Island Plan 2022](https://www.gov.je/PlanningBuilding/LawsRegs/IslandPlan/pages/bridgingislandplan.aspx) — `verify the parcel-level flood overlay at the Planning Department before exchange`
 - **Sea-level rise projection (gov.je published)**: ~30 cm by 2050 under mid-range scenarios (assessment year not exposed via current page extract — `verify the source-document year and exact 2026 projection at gov.je environment pages`)
 
 ### Coastal erosion
@@ -348,7 +348,7 @@ Jersey has a small bank-branch retail market, dominated by Channel-Islands-licen
 
 ### Climate-change adaptation
 
-- Island Plan 2022 ([gov.je Island Plan](https://www.gov.je/Planning/IslandPlanning/Pages/IslandPlan.aspx)) identifies climate as a planning constraint
+- Island Plan 2022 ([gov.je Island Plan](https://www.gov.je/PlanningBuilding/LawsRegs/IslandPlan/pages/bridgingislandplan.aspx)) identifies climate as a planning constraint
 - Coastal defences (sea wall, slipways) maintained by Infrastructure Department — capacity expected to be increased over the 2025–2040 period
 
 ---
@@ -404,9 +404,9 @@ Jersey's conveyancing process is **closer to French notarial practice than Engli
 Jersey-specific anchors for the universal sections:
 
 - **Crime**: [States of Jersey Police](https://www.jersey.police.uk/) — published annual statistical reports. Crime rates are low by European standards; the only meaningful exposure is drug-related (heroin trade with French ports) at the docks. Residential burglary rates roughly comparable to rural UK.
-- **Healthcare**: [Health and Community Services (HCS)](https://www.gov.je/Health/Pages/index.aspx) — Jersey General Hospital (St Helier) + smaller community sites. Universal coverage funded by Health Insurance Fund contributions (not a UK-NHS-equivalent free-at-point-of-use system for non-residents). Residents from elsewhere need to register and may face a qualifying period.
-- **Schools**: [gov.je Education](https://www.gov.je/Education/Pages/index.aspx) — States-funded primary + secondary schools (free for resident children); fee-paying schools (Victoria College, Jersey College for Girls, Beaulieu, De La Salle) operate selective admissions with means-tested support.
-- **Climate**: mild temperate maritime — average winter low ~5 °C, summer high ~20 °C; ~750 mm/yr rainfall, more sunshine hours than most of mainland UK. [Jersey Met](https://www.gov.je/weather/Pages/index.aspx).
+- **Healthcare**: [Health and Community Services (HCS)](https://www.gov.je/Government/Departments/HealthCare/pages/index.aspx) — Jersey General Hospital (St Helier) + smaller community sites. Universal coverage funded by Health Insurance Fund contributions (not a UK-NHS-equivalent free-at-point-of-use system for non-residents). Residents from elsewhere need to register and may face a qualifying period.
+- **Schools**: [gov.je Education](https://www.gov.je/Education/Schools/Pages/default.aspx) — States-funded primary + secondary schools (free for resident children); fee-paying schools (Victoria College, Jersey College for Girls, Beaulieu, De La Salle) operate selective admissions with means-tested support.
+- **Climate**: mild temperate maritime — average winter low ~5 °C, summer high ~20 °C; ~750 mm/yr rainfall, more sunshine hours than most of mainland UK. [Jersey Met](https://www.gov.je/weather/).
 
 ---
 
@@ -432,7 +432,7 @@ See [`shared/visa-programs.md`](../../shared/visa-programs.md) for the cross-jur
 - **Currency**: GBP — no domestic monetary policy; tracks BoE
 - **Demographics**: ageing (median age 41+ per 2021 Census); net migration positive but tightly controlled via the Control of Housing and Work Law
 - **Politics**: stable parliamentary democracy; no UK parliamentary representation; defence/external-relations handled by UK under constitutional arrangement
-- **Brexit**: Jersey was not in the EU; the EU/EEA-Jersey relationship is governed by the UK-EU TCA (services + financial-services equivalence decisions) — verify post-2026 status at [gov.je/Government/International](https://www.gov.je/Government/International/Pages/index.aspx)
+- **Brexit**: Jersey was not in the EU; the EU/EEA-Jersey relationship is governed by the UK-EU TCA (services + financial-services equivalence decisions) — verify post-2026 status at [gov.je/Government/International](https://www.gov.je/Government/Departments/JerseyWorld/Pages/UKAffairsEuropeanRelations.aspx)
 
 ---
 
@@ -494,13 +494,13 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 
 - **Comptroller of Revenue** — Stamp Duty, LTT, EPTT, Income Tax: [gov.je TaxesMoney](https://www.gov.je/TaxesMoney/Pages/index.aspx)
 - **Judicial Greffe / Public Registry** — Title chain, contract passing: [courts.je/judicial-greffe](https://www.courts.je/judicial-greffe/public-registry/)
-- **Population Office** — Residential statuses, HVR, `2(1)(e)`: [gov.je Population](https://www.gov.je/Working/Contributions/RegistrationCards/Pages/index.aspx)
-- **Locate Jersey** — HVR concierge: [gov.je/business/locate](https://www.gov.je/Business/BusinessTaxRelocation/Pages/index.aspx)
+- **Population Office** — Residential statuses, HVR, `2(1)(e)`: [gov.je Population](https://www.gov.je/Working/Contributions/RegistrationCards/pages/home.aspx)
+- **Locate Jersey** — HVR concierge: [gov.je/business/locate](https://www.gov.je/Home/RentingBuying/HousingLaws/pages/highvalueresidency.aspx)
 - **Jersey Financial Services Commission (JFSC)** — Bank/lender authorisation: [jerseyfsc.org](https://www.jerseyfsc.org/)
 - **Law Society of Jersey** — Advocates / Solicitors of the Royal Court: [lawsociety.je](https://www.lawsociety.je/)
-- **Jersey Property Holdings** — public land disposals: [gov.je/Government/JerseyPropertyHoldings](https://www.gov.je/Government/JerseyPropertyHoldings/Pages/index.aspx)
-- **Parish secretariats** — Foncier / Occupier rates: each of 12 parishes via [gov.je/Government/Parishes](https://www.gov.je/Government/Parishes/Pages/index.aspx)
-- **Planning and Building Services** — Island Plan 2022, planning permissions, flood maps: [gov.je/Planning](https://www.gov.je/Planning/Pages/index.aspx)
+- **Jersey Property Holdings** — public land disposals: [gov.je/Government/JerseyPropertyHoldings](https://www.gov.je/Government/Departments/InfrastructureEnvironment/pages/property.aspx)
+- **Parish secretariats** — Foncier / Occupier rates: each of 12 parishes via [gov.je/Government/Parishes](https://www.gov.je/Home/Parish/pages/index.aspx)
+- **Planning and Building Services** — Island Plan 2022, planning permissions, flood maps: [gov.je/Planning](https://www.gov.je/PlanningBuilding/pages/default.aspx)
 - **States Assembly** — Budget propositions, HVR-cap proposition: [statesassembly.je](https://statesassembly.je/)
 
 ---
@@ -523,12 +523,12 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 | Rented Dwellings Licensing 2023 | [jerseylaw.je RO 108/2023](https://www.jerseylaw.je/laws/current/ro_108_2023) |
 | Rented Dwellings toolkit | [gov.je rented dwellings](https://www.gov.je/Home/RentingBuying/OtherRentalOptions/pages/renteddwellings.aspx) |
 | `Loi (1991) copropriété` (flying freehold) | jerseylaw.je — search "Loi 1991 copropriété immeubles bâtis" |
-| `Companies (Jersey) Law 1991` | [jerseylaw.je l_18_1991](https://www.jerseylaw.je/laws/current/l_18_1991) |
+| `Companies (Jersey) Law 1991` | [jerseylaw.je l_18_1991](https://www.jerseylaw.je/laws/current/l_30_1991) |
 | Budget 2026–2029 | [gov.je Budget 2026 PDF](https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/Budget%202026%20to%202029.pdf) |
 | States Assembly P.93/2025 (Draft Finance Law 2026) | [statesassembly.je](https://statesassembly.je/) — `verify direct URL at statesassembly.je publications/propositions/2025/p-93-2025` |
 | States Assembly P.19/2026 (HVR cap) | [statesassembly.je](https://statesassembly.je/) — `verify direct URL at statesassembly.je publications/propositions/2026/p-19-2026` |
-| Island Plan 2022 | [gov.je Island Plan](https://www.gov.je/Planning/IslandPlanning/Pages/IslandPlan.aspx) |
-| Parishes hub | [gov.je Parishes](https://www.gov.je/Government/Parishes/Pages/index.aspx) |
+| Island Plan 2022 | [gov.je Island Plan](https://www.gov.je/PlanningBuilding/LawsRegs/IslandPlan/pages/bridgingislandplan.aspx) |
+| Parishes hub | [gov.je Parishes](https://www.gov.je/Home/Parish/pages/index.aspx) |
 | JFSC (regulator) | [jerseyfsc.org](https://www.jerseyfsc.org/) |
 | Law Society of Jersey | [lawsociety.je](https://www.lawsociety.je/) |
 | Jersey Water | [jerseywater.je](https://www.jerseywater.je/) |

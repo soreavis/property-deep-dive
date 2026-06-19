@@ -369,7 +369,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
   - Proof of financial means — a Monaco-licensed bank's attestation of deposited funds. **No statutory threshold** in published Monaco law; **practitioner-quoted bar ~€500,000** at the chosen bank (varies by bank, by applicant profile, by AUM relationship). Treat as `est.` calibration: ≥€500k typical floor, often higher (€1M+) for some banks.
   - Clean criminal record (apostilled + translated to French)
   - Health insurance (Monaco public CSM if working; private if not)
-- **Source**: https://monservicepublic.gouv.mc/Etrangers/Vivre-en-Principaute/Conditions-de-residence — verify before any application.
+- **Source**: https://monservicepublic.gouv.mc/en/events-in-your-life/settling-in-monaco — verify before any application.
 - **No minimum-stay quota** for the temporary card initially, but the privilégiée tier requires **continuous residence ≥10 years** with `presence` evidence.
 - **No CBI (citizenship-by-investment)** in Monaco — naturalisation is at the discretion of the Sovereign (Prince) and exceedingly rare (est. ~3-5 grants per year — no official annual naturalisation publication exists; verify against Journal de Monaco naturalisation ordonnances). Property purchase does NOT entitle to citizenship.
 
@@ -401,7 +401,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 | Statistics (incl. Marché Immobilier) | IMSEE | https://www.monacostatistics.mc/ |
 | Cadastre / Domaine | Direction du Domaine | https://service-public-entreprises.gouv.mc/ |
 | Tax / Enregistrement | Direction des Services Fiscaux | https://monservicepublic.gouv.mc/Fiscalite |
-| Residency | Direction de la Sûreté Publique (Section Résidence) | https://monservicepublic.gouv.mc/Etrangers |
+| Residency | Direction de la Sûreté Publique (Section Résidence) | https://monservicepublic.gouv.mc/en/themes/nationality-and-residency/residency/new-entrants/how-to-apply-for-a-residence-permit |
 | Notaires | Chambre des Notaires de Monaco | (verify with the Chambre — small profession; CIM directory cross-references members) |
 | Real-estate agents | CIM (Chambre Immobilière Monégasque) | https://www.chambre-immobiliere-monaco.mc/ |
 | Urbanism / planning permits | DPUM | https://service-public-entreprises.gouv.mc/ |
@@ -421,7 +421,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 |---|---|
 | IMSEE Marché Immobilier | https://www.monacostatistics.mc/Logement-Immobilier |
 | Fiscalité particuliers | https://monservicepublic.gouv.mc/Fiscalite |
-| Résidence (foreign-buyer) | https://monservicepublic.gouv.mc/Etrangers/Vivre-en-Principaute/Conditions-de-residence |
+| Résidence (foreign-buyer) | https://monservicepublic.gouv.mc/en/events-in-your-life/settling-in-monaco |
 | Loi n° 1.560 (SCI reform) | https://journaldemonaco.gouv.mc/ (search by loi number) |
 | Convention fiscale FR-MC 1963 | https://www.legifrance.gouv.fr/ + https://gouv.mc/Gouvernement-et-Institutions |
 | Plan Climat | https://transition-energetique.gouv.mc/ |

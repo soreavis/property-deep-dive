@@ -370,7 +370,7 @@ MEDIUM — projection envelopes inherit from IPCC AR6 + KNMI Dutch Caribbean sce
 - **Banking system**: small, concentrated. Active retail banks:
   - **Aruba Bank N.V.** (`https://www.arubabank.com/`) — largest local
   - **Caribbean Mercantile Bank (CMB)** — Maduro & Curiel's Bank Aruba branch — `https://www.cmbnv.com/`
-  - **RBC Royal Bank Aruba** — `https://www.rbc.com/caribbean/aruba/`
+  - **RBC Royal Bank Aruba** — `https://www.rbcroyalbank.com/caribbean/personal/aruba/index.html`
   - **Banco di Caribe Aruba** — `https://www.bancodicaribe.com/`
 - Regulator: **Centrale Bank van Aruba (CBA)** — `https://www.cbaruba.org/`
 - **LTV caps** (typical, per bank product sheets + agency guidance; ⚠️ verify per deal):
@@ -816,7 +816,7 @@ Aruba is a **strong retirement destination** for USD-comfortable retirees seekin
 | Aruba Realtors Association (ARAB MLS) | `https://www.arubarealtors.com/` |
 | Aruba Bank | `https://www.arubabank.com/` |
 | Caribbean Mercantile Bank | `https://www.cmbnv.com/` |
-| RBC Royal Bank Aruba | `https://www.rbc.com/caribbean/aruba/` |
+| RBC Royal Bank Aruba | `https://www.rbcroyalbank.com/caribbean/personal/aruba/index.html` |
 | Council Decision 2013/755/EU (OCT status) | `https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013D0755` |
 
 ## Status

@@ -83,7 +83,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 
 ### Sources
 
-- **Ministry of Public Housing, Spatial Planning, Environment and Infrastructure (VROMI)**: `https://www.sintmaartengov.org/Ministries/VROMI/` — road network + traffic management; no public per-segment AADT dataset.
+- **Ministry of Public Housing, Spatial Planning, Environment and Infrastructure (VROMI)**: `https://www.sintmaartengov.org/` — road network + traffic management; no public per-segment AADT dataset.
 - **OSM `highway` class** as universal fallback.
 - **Princess Juliana International Airport (PJIA / SXM)**: `https://www.sxmairport.com/` — primary international gateway; traffic volume drives the Simpson Bay / Cole Bay corridor.
 
@@ -180,7 +180,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 
 ### Job platforms
 
-- **Department of Labor**: `https://www.sintmaartengov.org/Ministries/VSA/Pages/Department-of-Labor-and-Social-Affairs.aspx`
+- **Department of Labor**: `https://www.sintmaartengov.org/Ministries/Departments/Pages/Labor-Affairs.aspx`
 - **Caribbean Jobs**, **LinkedIn (SXM)**, local Facebook groups (SXM Jobs)
 - Cruise + tourism + airport hospitality are dominant employer sectors
 
@@ -212,7 +212,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 |---|---|---|
 | **Office of Disaster Management (ODM)** | `https://www.sxmemergency.org/` | Hurricane preparedness, emergency response, NRRP coordination |
 | **National Recovery Program Bureau (NRPB)** | `https://nrpbsxm.org/` | Build Back Better implementation; sector recovery |
-| **Ministry of VROMI** | `https://www.sintmaartengov.org/Ministries/VROMI/` | Building permits, spatial planning, environmental zoning |
+| **Ministry of VROMI** | `https://www.sintmaartengov.org/` | Building permits, spatial planning, environmental zoning |
 | **CDEMA (regional)** | `https://www.cdema.org/` | Caribbean Disaster Emergency Management Agency — regional hurricane / tsunami / earthquake context |
 | **NOAA National Hurricane Center** | `https://www.nhc.noaa.gov/` | Live + climatological tropical cyclone tracking for the Leeward Islands |
 

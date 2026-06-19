@@ -147,7 +147,7 @@ Pre-2017 OECD MTC: place-of-effective-management (POEM) tie-breaks dual corporat
 | UK treaty list | [HMRC Tax Treaty Manual A-Z](https://www.gov.uk/government/collections/tax-treaties) |
 | Canada treaty list | [Department of Finance — tax treaties](https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties.html) |
 | Australia treaty list | [ATO international tax agreements](https://www.ato.gov.au/individuals-and-families/international-tax-for-individuals/international-tax-agreements) |
-| France treaty list | [impots.gouv.fr — Conventions fiscales internationales](https://www.impots.gouv.fr/les-conventions-internationales/conventions-internationales) |
+| France treaty list | [impots.gouv.fr — Conventions fiscales internationales](https://www.impots.gouv.fr/les-conventions-internationales) |
 | Germany treaty list | [BMF — Stand der Doppelbesteuerungsabkommen](https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/staatenbezogene_info.html) |
 | Italy treaty list | [Agenzia delle Entrate — Convenzioni internazionali](https://www.agenziaentrate.gov.it/portale/schede/rimborsi/convenzioni-contro-le-doppie-imposizioni/scheda-informativa-convenzioni-contro-le-doppie-imposizioni) |
 | Spain treaty list | [AEAT — Convenios para evitar la doble imposición](https://www.hacienda.gob.es/es-ES/Normativa%20y%20doctrina/Normativa/CDI/Paginas/CDI_Alfa.aspx) |

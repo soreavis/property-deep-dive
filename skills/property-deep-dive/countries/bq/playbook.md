@@ -150,7 +150,7 @@ Foundational law: **Belastingwet BES, Hoofdstuk VII Overdrachtsbelasting**. Tari
 ### Total transaction cost (buyer side, est.)
 
 - **Resale, typical Bonaire transaction**: ~**`6–9%` all-in** = 5% overdrachtsbelasting + 1–2% notaris + 0.5–1.5% kadaster registration + ancillary (broker if applicable typically 3–5% seller-side or split)
-- **New-build first sale by a developer**: similar — overdrachtsbelasting applies to the transfer (verify whether `algemene bestedingsbelasting (ABB)` may apply at first sale by a developer — BES has ABB instead of EU-VAT; verify if your transaction triggers ABB at `https://www.belastingdienst-cn.nl/onderwerpen/algemene-bestedingsbelasting`)
+- **New-build first sale by a developer**: similar — overdrachtsbelasting applies to the transfer (verify whether `algemene bestedingsbelasting (ABB)` may apply at first sale by a developer — BES has ABB instead of EU-VAT; verify if your transaction triggers ABB at `https://www.belastingdienst-cn.nl/onderwerpen/abb-algemene-bestedingsbelasting-particulieren`)
 
 ⚠️ Algemene bestedingsbelasting (ABB) is the BES VAT-equivalent: **6% Bonaire, 8% Saba, 6% Sint Eustatius** (verify current — Belastingdienst CN). It typically does NOT apply to private residential resale but **can apply to first sale by a developer-builder** depending on classification.
 
@@ -344,7 +344,7 @@ Foundational law: **Belastingwet BES, Hoofdstuk VII Overdrachtsbelasting**. Tari
 
 - **Caribbean visa (Visum Caribische Delen)** regime — separate from Schengen
 - Nationals of EU/EEA, NL, US, UK, CA, AU + most OECD countries enter visa-free up to 180 days
-- Long-stay (residence) requires **`vergunning tot tijdelijk verblijf (VTV)`** via **`Immigratie- en Naturalisatiedienst Caribisch Nederland`** — `https://english.rijksdienstcn.com/topics/admission-and-residence`
+- Long-stay (residence) requires **`vergunning tot tijdelijk verblijf (VTV)`** via **`Immigratie- en Naturalisatiedienst Caribisch Nederland`** — `https://english.rijksdienstcn.com/immigration-naturalisation`
 - **No formal golden-visa / CBI programme** for BES — pathways: family reunification, work permit + employer sponsorship, retiree / financially-independent route (income-based; verify quantum at RCN/IND-CN), or full naturalisation (5 years' continuous residence + Dutch-language test toward NL citizenship)
 - **Property purchase alone does NOT grant residence rights**
 
@@ -399,7 +399,7 @@ Foundational law: **Belastingwet BES, Hoofdstuk VII Overdrachtsbelasting**. Tari
 - **Overdrachtsbelasting** — `https://www.belastingdienst-cn.nl/onderwerpen/overdrachtsbelasting`
 - **Rijksdienst Caribisch Nederland (RCN)** — `https://www.rijksdienstcn.com/` (Dutch) / `https://english.rijksdienstcn.com/` (English) — central-government services in BES
 - **Tax administration English overview** — `https://english.rijksdienstcn.com/other-services/tax-administration`
-- **Kadaster BES** — `https://www.kadaster.nl/over-ons/internationale-activiteiten/caribisch-nederland` (NL Kadaster international page; BES bureau on Bonaire)
+- **Kadaster BES** — `https://www.kadaster.nl/-/waar-vindt-u-informatie-over-het-kadaster-op-de-bes-eilanden-` (NL Kadaster international page; BES bureau on Bonaire)
 - **CBS Caribisch Nederland** — `https://www.cbs.nl/nl-nl/caribisch-nederland`
 - **DNB (De Nederlandsche Bank — BES prudential oversight)** — `https://www.dnb.nl/`
 - **KNMI (weather/climate/seismic)** — `https://www.knmi.nl/`

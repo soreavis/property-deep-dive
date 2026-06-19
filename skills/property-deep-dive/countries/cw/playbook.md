@@ -26,7 +26,7 @@ ISO2: `cw`. Status: ✅ Researched 2026-05-27 (Confidence: MEDIUM — see Status
 - **Centrale Bank van Curaçao en Sint Maarten (CBCS) — Quarterly Bulletin / Annual Report**: `https://www.centralbank.cw/` — banking-system stats, mortgage stock (aggregate), macro indicators
 - **Kadaster Curaçao**: `https://www.kadaster.cw/` — cadastral data; transfer-price data not published in aggregate index form but accessible per-parcel via *uittreksel*
 - **Listing aggregators (secondary)** ⚠️:
-  - **Caribbean House Hunt**: `https://caribbeanhousehunt.com/curacao/`
+  - **Caribbean House Hunt**: `https://caribbeanhousehunt.com/curacao/map/`
   - **JamesEdition Curaçao**: `https://www.jamesedition.com/real_estate/curacao` (luxury skew)
   - **RE/MAX BonBini Curaçao**: `https://www.realestate-curacao.com/`
   - **Coldwell Banker Curaçao**: `https://www.coldwellbankercur.com/`
@@ -804,7 +804,7 @@ Curaçao operates **no foreign-buyer restrictions** on residential or commercial
 
 ## Common listing platforms
 
-- **Caribbean House Hunt** (`https://caribbeanhousehunt.com/curacao/`) — Curaçao-specialised buyer's guide + listings
+- **Caribbean House Hunt** (`https://caribbeanhousehunt.com/curacao/map/`) — Curaçao-specialised buyer's guide + listings
 - **RE/MAX BonBini Curaçao** (`https://www.realestate-curacao.com/`) — major broker
 - **Coldwell Banker Curaçao** (`https://www.coldwellbankercur.com/`)
 - **CENTURY 21 #1 Real Estate** (`https://century21numberone.com/`)
@@ -881,7 +881,7 @@ Curaçao operates **no foreign-buyer restrictions** on residential or commercial
 | Vidanova Bank | `https://vidanova-bank.com/` |
 | Dutch Caribbean Securities Exchange (DCSX) | `https://www.dcsx.cw/` |
 | Curaçao Chronicle (local English-language press) | `https://www.curacaochronicle.com/` |
-| Caribbean House Hunt | `https://caribbeanhousehunt.com/curacao/` |
+| Caribbean House Hunt | `https://caribbeanhousehunt.com/curacao/map/` |
 | RE/MAX BonBini Curaçao | `https://www.realestate-curacao.com/` |
 | Coldwell Banker Curaçao | `https://www.coldwellbankercur.com/` |
 | CENTURY 21 #1 Real Estate | `https://century21numberone.com/` |

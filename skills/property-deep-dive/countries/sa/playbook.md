@@ -111,7 +111,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 - **REGA Real Estate Pulse (نبض العقار)**: `https://srem.rega.gov.sa/` — official transaction-level data, by city + district + property type, monthly + quarterly reports
 - **REGA Real Estate Market Report** (quarterly): published via [REGA publications](https://rega.gov.sa/en/Publications)
 - **GASTAT (General Authority for Statistics — الهيئة العامة للإحصاء)**: `https://www.stats.gov.sa/` — Real Estate Price Index (RPPI) quarterly + annual housing surveys
-- **SAMA Financial Stability Report** (annual, [SAMA](https://www.sama.gov.sa/en-US/EconomicReports/Financial%20Stability%20Report/Financial_Stability_Report_2024_EN.pdf)) — mortgage + price-to-income series
+- **SAMA Financial Stability Report** (annual, [SAMA](https://www.sama.gov.sa/en-US)) — mortgage + price-to-income series
 - **Knight Frank Saudi Arabia** + **JLL MENA** + **Colliers** + **CBRE** — secondary market reports (commercial-grade, cited by REGA)
 
 ### Listing platforms

@@ -13,7 +13,7 @@ ISO2: `mo`. Status: ✅ Fully populated (researched 2026-05).
 - **Cadastre**: **Conservatória do Registo Predial (CRP) / 物業登記局** under [DSAJ — Direcção dos Serviços de Assuntos de Justiça / 法務局](https://www.dsaj.gov.mo/) — title-by-deeds register (Portuguese-derived civil-law); governed by [Código do Registo Predial — DL 46/99/M](https://bo.io.gov.mo/)
   - Cadastral mapping: **DSCC — Direcção dos Serviços de Cartografia e Cadastro / 地圖繪製暨地籍局** — `https://www.dscc.gov.mo/`
 - **Identifier**: artigo matricial + freguesia + edifício + fracção autónoma; condominium under [Código Civil — DL 39/99/M Art. 1313+](https://bo.io.gov.mo/)
-- **Title concept**: **All land in Macao is state-owned** under [Lei de Terras / Land Law (Law 10/2013)](https://bo.io.gov.mo/bo/i/2013/35/lei10.asp) effective **1 March 2014**. Private holdings are **leasehold** via:
+- **Title concept**: **All land in Macao is state-owned** under [Lei de Terras / Land Law (Law 10/2013)](https://www.bo.dsaj.gov.mo/pt/legis/rec/151010) effective **1 March 2014**. Private holdings are **leasehold** via:
   - **Concessão por aforamento / 永佃權批給** — Portuguese-era perpetual leasehold (near-freehold; annual ground rent / foro)
   - **Concessão por arrendamento / 租賃批給** — typical 25-year initial, renewable 10-year periods, max 50 years (Law 10/2013 Art. 47–49)
   - Many "expired without development" concessions reclaimed by Government 2015–2024 (Pearl Horizon case among others)
@@ -845,7 +845,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 
 ## Caveats unique to Macao
 
-- **All land is state-owned** ([Lei de Terras 10/2013](https://bo.io.gov.mo/bo/i/2013/35/lei10.asp)) — private holdings leasehold (concessão por arrendamento 25-yr renewable, max 50; or pre-2014 perpetual aforamento). Verify lease-type + remaining term + foro on cadastral plan
+- **All land is state-owned** ([Lei de Terras 10/2013](https://www.bo.dsaj.gov.mo/pt/legis/rec/151010)) — private holdings leasehold (concessão por arrendamento 25-yr renewable, max 50; or pre-2014 perpetual aforamento). Verify lease-type + remaining term + foro on cadastral plan
 - **NO postal code system** — addresses use freguesia + street + edifício + bloco + floor/flat
 - **NO golden-visa via property** — Investment Residence Scheme (Order 7/2007) suspended 2 April 2007, NOT reactivated; Talent Programme 2024 does NOT take property as criterion
 - **Non-Resident BSD +10%** + Resident second-home BSD +5% — material to any foreign-buyer cost calculation

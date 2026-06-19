@@ -277,7 +277,7 @@ Per Tax Code Art. 331 (current) + new Code 2026 carry-over (verify in [Adilet](h
    - Simplified for low-income occasional landlords
    - Source: [Moore Kazakhstan tax 2025 changes](https://kazakhstan.moore-global.com/tax-legislation-changes-effective-from-2025/)
 
-> The **patent regime (1 % of gross)** is the canonical low-tax path for a single-property foreign landlord with PRP — but requires IE registration via [eGov](https://egov.kz/cms/en/services/) + [E-Salyq Business](https://kgd.gov.kz/en) monthly filings. The **Form 270.00 PIT path (10 %)** is simpler administratively (annual return only) but doubles the tax cost.
+> The **patent regime (1 % of gross)** is the canonical low-tax path for a single-property foreign landlord with PRP — but requires IE registration via [eGov](https://egov.kz/cms/en/psc-services) + [E-Salyq Business](https://kgd.gov.kz/en) monthly filings. The **Form 270.00 PIT path (10 %)** is simpler administratively (annual return only) but doubles the tax cost.
 
 ### Short-term rentals (STR / Airbnb / Booking)
 

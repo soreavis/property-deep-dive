@@ -182,7 +182,7 @@ Sources:
 
 ### Parish rates
 
-Guernsey has **10 parishes** (St Peter Port, St Sampson, Vale, Castel, St Saviour, St Pierre du Bois, Torteval, Forest, St Martin, St Andrew). Each parish levies an additional small **occupier's rate** ("Douzaine rate") on each property. Rates are set annually at the Parish Assembly. **Pull current rate from the parish's "Douzaine" annual notice or via [gov.gg](https://www.gov.gg/article/119970/Parish-rates).**
+Guernsey has **10 parishes** (St Peter Port, St Sampson, Vale, Castel, St Saviour, St Pierre du Bois, Torteval, Forest, St Martin, St Andrew). Each parish levies an additional small **occupier's rate** ("Douzaine rate") on each property. Rates are set annually at the Parish Assembly. **Pull current rate from the parish's "Douzaine" annual notice or via [gov.gg](https://www.gov.gg/article/163202/Cadastre-Tax-on-Real-Property--TRP-and-Parish-Rates).**
 
 ---
 
@@ -286,7 +286,7 @@ Guernsey banking is supervised by the **Guernsey Financial Services Commission (
 
 ### Coastal flooding + erosion
 
-Guernsey's coastline is heavily indented; low-lying areas at the head of bays (e.g. Vazon, L'Eree, Belle Greve) are exposed to tidal flooding and storm surge. **States of Guernsey publishes a Strategic Flood Risk Assessment** — verify current at [gov.gg/floodrisk](https://www.gov.gg/article/121571/Flood-risk) (data not pulled in this draft — verify URL liveness).
+Guernsey's coastline is heavily indented; low-lying areas at the head of bays (e.g. Vazon, L'Eree, Belle Greve) are exposed to tidal flooding and storm surge. **States of Guernsey publishes a Strategic Flood Risk Assessment** — verify current at [gov.gg/floodrisk](https://www.gov.gg/coastalmanagement) (data not pulled in this draft — verify URL liveness).
 
 ### Subsidence on clay strata
 
@@ -345,7 +345,7 @@ Guernsey has **no notaries** in the civil-law sense. The functional equivalent i
 ### Sequence
 
 1. **Subject-to-contract offer** accepted — agent issues memorandum of sale
-2. **Advocate appointed** by purchaser; preliminary searches (Greffe title chain, Population Management status check, planning history at [gov.gg/planning](https://www.gov.gg/planningservice))
+2. **Advocate appointed** by purchaser; preliminary searches (Greffe title chain, Population Management status check, planning history at [gov.gg/planning](https://www.gov.gg/planningandbuilding))
 3. **Conditions précédentes (CP)** discharged — Population Management consent, mortgage offer, Open Market inscription confirmation if applicable
 4. **Conveyance drafted** by purchaser's Advocate, agreed by vendor's Advocate
 5. **Funds (deposit + balance + Document Duty) cleared into Advocate's client account**
@@ -421,7 +421,7 @@ During this initial draft pass + 2026-05-27 validation patch:
 - **Document Duty bands** sourced via Lexology + Bloomberg Tax + Collas Crill secondary + parliament.gg 2026-16 primary. Full residential band table confirmed including the £2.5M–£5M band at **5.50%** (post-validation patch). **Cross-check the specific 2026 Ordinance text at [guernseylegalresources.gg](http://www.guernseylegalresources.gg) before signing.**
 - **AML levy on Document Duty / Bond Duty schedule**: not verified at primary source in this draft. The 2025 Budget Collas Crill summary does not detail an AML levy as a separate line item. **Verify with Advocate at completion.**
 - **Listing aggregator coverage** (price/m²): Guernsey's quarterly Residential Property Prices Bulletin (States of Guernsey Data & Analysis) is the canonical primary source. Aggregator-style price/m² benchmarks intentionally omitted — Guernsey is too small a market for DVF-style transaction databases; comparables sourced via licensed agents (Swoffers, Livingroom, Cooper Brouard).
-- **Open Market Tax Cap £50,000 Document Duty trigger — practical purchase price**: the £50,000 threshold is from [gov.gg/taxcap](https://www.gov.gg/taxcap). Under the post-Nov-2024 band structure this is reached at **~£1.06M for a PPR purchase** (2.25% × £300k + 3.50% × £200k + 4.00% × £450k + 4.25% × £110k ≈ £49.9k). **Industry guidance cites a higher real-world trigger of ~£1.4M** (sources: [KPMG — *Moving to Guernsey*](https://kpmg.com/gg/en/home/services/private-client-services/moving-to-guernsey.html) gives **£1.4m**; LTS-Tax factsheet — "£1.4m"; Locate Guernsey — "£1.4 million or more"). The gap reflects: (a) non-PPR purchases attracting the +2% surcharge raising the price needed; (b) industry quotes typically round to typical Open Market purchase sizes (which are well above the bare-minimum trigger). **Use £1.06M as the floor (PPR) and £1.4M as the industry-typical guidance figure.**
+- **Open Market Tax Cap £50,000 Document Duty trigger — practical purchase price**: the £50,000 threshold is from [gov.gg/taxcap](https://www.gov.gg/taxcap). Under the post-Nov-2024 band structure this is reached at **~£1.06M for a PPR purchase** (2.25% × £300k + 3.50% × £200k + 4.00% × £450k + 4.25% × £110k ≈ £49.9k). **Industry guidance cites a higher real-world trigger of ~£1.4M** (sources: [KPMG — *Moving to Guernsey*](https://kpmg.com/dp/en/services/tax/family-office-private-client/tax-in-guernsey.html) gives **£1.4m**; LTS-Tax factsheet — "£1.4m"; Locate Guernsey — "£1.4 million or more"). The gap reflects: (a) non-PPR purchases attracting the +2% surcharge raising the price needed; (b) industry quotes typically round to typical Open Market purchase sizes (which are well above the bare-minimum trigger). **Use £1.06M as the floor (PPR) and £1.4M as the industry-typical guidance figure.**
 
 ## Status
 

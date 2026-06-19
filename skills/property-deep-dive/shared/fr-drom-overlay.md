@@ -158,14 +158,14 @@ Primary source: [**Cerema — Guide foncier Outre-Mer (2023)**](https://outil2am
 
 - **Cyclones:** Atlantic hurricane season Jun–Nov; Cat-4/5 hits historically (Hugo 1989, Maria 2017). Build to *règles parasismiques et paracycloniques DOM* — verify at [planseisme.fr](https://www.planseisme.fr/).
 - **Seismicity:** **Zone 5 (forte sismicité)** per the seismic-zonation decree (CGI Art. R563-4, [Légifrance](https://www.legifrance.gouv.fr/loda/id/LEGITEXT000023086525)). Subduction zone (Caribbean plate / North American plate). PGA design accelerations are the highest tier in the French regulatory framework.
-- **Volcanic:** *La Soufrière* (massif of *La Grande Découverte*), active stratovolcano on Basse-Terre. Monitored by [Observatoire volcanologique et sismologique de Guadeloupe (OVSG-IPGP)](http://www.ipgp.fr/fr/ovsg/observatoire-volcanologique-sismologique-guadeloupe). Last significant phreatic crisis 1976–1977 (evacuation of Basse-Terre). Yellow-alert status periodically.
+- **Volcanic:** *La Soufrière* (massif of *La Grande Découverte*), active stratovolcano on Basse-Terre. Monitored by [Observatoire volcanologique et sismologique de Guadeloupe (OVSG-IPGP)](https://www.ipgp.fr/en/observation/ovs/ovsg/). Last significant phreatic crisis 1976–1977 (evacuation of Basse-Terre). Yellow-alert status periodically.
 - **Tsunami:** Caribbean tsunami exposure (e.g., 1867 Virgin Islands earthquake). Coastal `gp` communes in PPR-tsunami zoning.
 
 ### `mq` Martinique (Lesser Antilles — Caribbean)
 
 - **Cyclones:** same Atlantic season Jun–Nov; Cat-4/5 exposure.
 - **Seismicity:** **Zone 5 (forte sismicité)** — same Caribbean subduction frame as `gp` ([Légifrance R563-4](https://www.legifrance.gouv.fr/loda/id/LEGITEXT000023086525)).
-- **Volcanic:** *Montagne Pelée*, active stratovolcano in the north. **8 May 1902 Pelée *nuée ardente* destroyed Saint-Pierre, ~28,000 dead** — the deadliest volcanic disaster of the 20th century. Currently monitored by [Observatoire volcanologique et sismologique de Martinique (OVSM-IPGP)](http://www.ipgp.fr/fr/ovsm/observatoire-volcanologique-sismologique-martinique). Yellow-alert status since Dec 2020.
+- **Volcanic:** *Montagne Pelée*, active stratovolcano in the north. **8 May 1902 Pelée *nuée ardente* destroyed Saint-Pierre, ~28,000 dead** — the deadliest volcanic disaster of the 20th century. Currently monitored by [Observatoire volcanologique et sismologique de Martinique (OVSM-IPGP)](https://www.ipgp.fr/en/observation/ovs/ovsm/). Yellow-alert status since Dec 2020.
 - **Tsunami:** Caribbean exposure analogous to `gp`.
 
 ### `gf` Guyane (Amazon basin — South America)
@@ -180,14 +180,14 @@ Primary source: [**Cerema — Guide foncier Outre-Mer (2023)**](https://outil2am
 
 - **Cyclones:** SW Indian Ocean cyclone season Nov–Apr. Less frequent than Caribbean Cat-5 but historically severe (Cyclone Hyacinthe 1980, Bejisa 2014, Belal 2024). Build to *règles paracycloniques* per *arrêté préfectoral*.
 - **Seismicity:** **Zone 2 (faible)** per CGI R563-4 — hot-spot volcanism dominates over plate-boundary stress.
-- **Volcanic:** *Piton de la Fournaise*, **one of the most active basaltic shield volcanoes on Earth** — typical eruption frequency 1–2 per year, monitored by [Observatoire volcanologique du Piton de la Fournaise (OVPF-IPGP)](http://www.ipgp.fr/fr/ovpf/observatoire-volcanologique-du-piton-de-la-fournaise). Eruptions mostly confined to *Enclos Fouqué* zone (low risk to populated areas), but *hors-Enclos* lava-flow risk in *PPR volcanique* zones (Sainte-Rose, Le Tampon).
+- **Volcanic:** *Piton de la Fournaise*, **one of the most active basaltic shield volcanoes on Earth** — typical eruption frequency 1–2 per year, monitored by [Observatoire volcanologique du Piton de la Fournaise (OVPF-IPGP)](https://www.ipgp.fr/en/observation/ovs/ovpf/). Eruptions mostly confined to *Enclos Fouqué* zone (low risk to populated areas), but *hors-Enclos* lava-flow risk in *PPR volcanique* zones (Sainte-Rose, Le Tampon).
 - **Landslide:** *Cirques* topography (Mafate, Salazie, Cilaos) — high landslide / *éboulement* risk on steep slopes. PPR-mouvements de terrain coverage essential.
 
 ### `yt` Mayotte (Comoros archipelago — SW Indian Ocean)
 
 - **Cyclones:** SW Indian Ocean basin, **less frequent direct hits than Réunion** (Mayotte sits further north). However, 2024 Cyclone Chido (Cat-4, 14 Dec 2024) caused catastrophic damage — the most severe in ~90 years — and demonstrated that the historical "lower exposure" framing should not lead to under-engineering. ([Météo-France Mayotte](https://meteofrance.yt/fr/) bilan-cyclone reports.)
 - **Seismicity:** Was **Zone 2 (faible)** historically — but reclassified upward in practice since the **2018–2019 Mayotte seismic crisis**. Over [~2,000 felt earthquakes recorded in 2018–2019](http://www.outre-mer.gouv.fr/surveillance-de-fani-maore-volcan-sous-marin-mayotte-lengagement-de-letat-renforce), driven by the submarine volcanic event below.
-- **Volcanic — Fani Maoré:** in May 2019 a new submarine volcano was discovered **~50 km east of Mayotte** at ~3,500 m water depth — the volcanic edifice itself rises ~800 m above the seafloor (verify against [CNRS Le Journal — Fani Maoré](https://lejournal.cnrs.fr/articles/fani-maore-le-volcan-sous-marin-qui-a-fait-trembler-mayotte) and BRGM publications). Now officially named **Fani Maoré**, monitored by [REVOSIMA (BRGM/IPGP/Ifremer/CNRS) network](http://www.ipgp.fr/fr/revosima/reseau-revosima). **This is currently the largest active submarine eruption documented anywhere on Earth.** Implication for property: Mayotte real estate now sits in a known active-volcanic + active-seismic context that is *not yet fully reflected in the regulatory zonation* — apply a precautionary premium.
+- **Volcanic — Fani Maoré:** in May 2019 a new submarine volcano was discovered **~50 km east of Mayotte** at ~3,500 m water depth — the volcanic edifice itself rises ~800 m above the seafloor (verify against [CNRS Le Journal — Fani Maoré](https://lejournal.cnrs.fr/articles/fani-maore-le-volcan-sous-marin-qui-a-fait-trembler-mayotte) and BRGM publications). Now officially named **Fani Maoré**, monitored by [REVOSIMA (BRGM/IPGP/Ifremer/CNRS) network](https://www.ipgp.fr/en/observation/national-hosted-infrastructures/revosima/). **This is currently the largest active submarine eruption documented anywhere on Earth.** Implication for property: Mayotte real estate now sits in a known active-volcanic + active-seismic context that is *not yet fully reflected in the regulatory zonation* — apply a precautionary premium.
 - **Tsunami:** Mayotte 2018+ event sequence has raised local tsunami-modelling work (BRGM); verify PPR-tsunami status per commune.
 
 > **Anti-hallucination correction.** Fani Maoré is **~50 km east of Mayotte**, not 800 km. The 800-figure is the edifice **height** (~800 m above seafloor). Do not propagate the wrong distance.
@@ -225,10 +225,10 @@ Primary source: [**Cerema — Guide foncier Outre-Mer (2023)**](https://outil2am
 | Cerema — Guide foncier Outre-Mer | https://outil2amenagement.cerema.fr/sites/outils2am/files/fichiers/2023/08/Guide_foncier_Outre-Mer.pdf | Definitive cadastre + indivision DD framework |
 | Cerema — Désordres fonciers (companion) | https://outil2amenagement.cerema.fr/sites/outils2am/files/fichiers/2023/08/Foncier_Outre-Mer_clarification_des_desordres_fonciers.pdf | DD procedures + actor list |
 | Seismic zonation (CGI R563-4) | https://www.legifrance.gouv.fr/loda/id/LEGITEXT000023086525 | Statutory seismic-zone mapping per DROM |
-| REVOSIMA (Mayotte volcano network) | http://www.ipgp.fr/fr/revosima/reseau-revosima | Fani Maoré + Mayotte seismic monitoring |
-| OVPF (Réunion) | http://www.ipgp.fr/fr/ovpf/observatoire-volcanologique-du-piton-de-la-fournaise | Piton de la Fournaise eruption bulletins |
-| OVSG (Guadeloupe) | http://www.ipgp.fr/fr/ovsg/observatoire-volcanologique-sismologique-guadeloupe | Soufrière bulletins |
-| OVSM (Martinique) | http://www.ipgp.fr/fr/ovsm/observatoire-volcanologique-sismologique-martinique | Pelée bulletins |
+| REVOSIMA (Mayotte volcano network) | https://www.ipgp.fr/en/observation/national-hosted-infrastructures/revosima/ | Fani Maoré + Mayotte seismic monitoring |
+| OVPF (Réunion) | https://www.ipgp.fr/en/observation/ovs/ovpf/ | Piton de la Fournaise eruption bulletins |
+| OVSG (Guadeloupe) | https://www.ipgp.fr/en/observation/ovs/ovsg/ | Soufrière bulletins |
+| OVSM (Martinique) | https://www.ipgp.fr/en/observation/ovs/ovsm/ | Pelée bulletins |
 
 ---
 

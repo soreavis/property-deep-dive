@@ -478,7 +478,7 @@ For the property's locality, return:
 ### 🇻🇳 Vietnam
 
 - **Bộ Công An (Ministry of Public Security)**: `https://bocongan.gov.vn/` — limited public statistics
-- **Tổng cục Thống kê (General Statistics Office)**: `https://www.gso.gov.vn/` — annual statistical yearbook (criminal justice chapter)
+- **Tổng cục Thống kê (General Statistics Office)**: `https://www.nso.gov.vn/en/homepage/` — annual statistical yearbook (criminal justice chapter)
 - **Supreme People's Procuracy (Viện Kiểm sát Nhân dân Tối cao)**: court-side series
 - **Granularity**: national headlines + occasional per-province (63); **city/district/ward (phường) level data not publicly available — verify with local public security ward office (Công an phường)**
 - **Caveat**: very low transparency; published narratives emphasize stability + low crime; political-context offences excluded from public series; expat-targeted petty theft (HCMC District 1, Hanoi Old Quarter) anecdotally elevated but not publicly quantified
@@ -516,7 +516,7 @@ For the property's locality, return:
 ### 🇸🇬 Singapore
 
 - **Singapore Police Force (SPF) Annual Crime Brief**: `https://www.police.gov.sg/Media-Room/News` — annual + half-yearly crime briefs
-- **Singstat (Department of Statistics) Public Order tables**: `https://www.singstat.gov.sg/find-data/search-by-theme/society/public-order-and-safety` — national crime time-series
+- **Singstat (Department of Statistics) Public Order tables**: `https://www.singstat.gov.sg/find-data` — national crime time-series
 - **Granularity**: national + 7 police land divisions (Central / Ang Mo Kio / Bedok / Clementi / Jurong / Woodlands / Tanglin) + Neighbourhood Police Centre (NPC) catchments; SPF "Hot-spot Information" published per NPC for select offences
 - **Caveat**: very low absolute crime (one of densest crime data globally per CSAR + low under-reporting); methodology stable; cyber-crime/scam categories rapidly evolving (Anti-Scam Centre 2019+); flag transient-population denominator for tourist zones (Orchard / Marina Bay / Sentosa)
 
@@ -811,7 +811,7 @@ For the property's locality, return:
 
 ### 🇧🇲 Bermuda
 
-- **Bermuda Police Service (BPS) — Crime Statistics**: `https://www.bermudapolice.bm/crime-statistics` (+ archive `https://www.bermudapolice.bm/news-data/crime-statistics`; mirror domains `police.bm` / `bermudapoliceservice.bm`) — annual Official Statistics Report (comparable series from 2000; 2023 report recorded 3,065 total offences — second-lowest since 2000; 2024 report ~3,719 crimes investigated incl. 9 murders per BPS/Royal Gazette)
+- **Bermuda Police Service (BPS) — Crime Statistics**: `https://www.bermudapolice.bm/news-data/crime-statistics` (+ archive `https://www.bermudapolice.bm/news-data/crime-statistics`; mirror domains `police.bm` / `bermudapoliceservice.bm`) — annual Official Statistics Report (comparable series from 2000; 2023 report recorded 3,065 total offences — second-lowest since 2000; 2024 report ~3,719 crimes investigated incl. 9 murders per BPS/Royal Gazette)
 - **Department of Statistics (Government of Bermuda)**: `https://www.gov.bm/department/statistics` — population denominators + social statistics (no standalone crime portal; used for per-capita normalisation)
 - **Office of the Director of Public Prosecutions / Ministry of National Security**: prosecution + policy reporting channel (BPS data routed via Ministry of National Security)
 - **UNODC Caribbean**: country-profile rate-per-100k comparator

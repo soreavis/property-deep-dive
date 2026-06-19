@@ -37,7 +37,7 @@ ISO2: `sg`. Status: ✅ Fully populated (researched 2026-05).
   - Free public access; export CSV; transaction-by-transaction caveat data via REALIS (paid subscription)
 - **URA REALIS** — paid agent / professional database of every caveat-lodged residential transaction (price, PSF, date, buyer profile mask)
 - **HDB Resale Price Index** — `https://www.hdb.gov.sg/residential/buying-a-flat/resale/getting-started/resale-statistics` (resale flats; foreigners cannot buy but PRs can)
-- **SingStat real estate** — `https://www.singstat.gov.sg/find-data/search-by-theme/industry/real-estate/latest-data`
+- **SingStat real estate** — `https://www.singstat.gov.sg/find-data`
 - **MAS Financial Stability Review** — `https://www.mas.gov.sg/publications/financial-stability-review` — house-price-to-income, household debt, mortgage stress indicators
 
 ### Price benchmarks (Q4 2025 / Q1 2026 reference, URA PPI + ERA / Knight Frank / EdgeProp)

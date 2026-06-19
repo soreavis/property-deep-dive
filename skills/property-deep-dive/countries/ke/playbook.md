@@ -142,7 +142,7 @@ Listing-derived ranges, cross-checked against HassConsult Q4 2025 and Knight Fra
 
 ### Stamp Duty (one-time, buyer pays) — Stamp Duty Act Cap 480
 
-**Statute**: Stamp Duty Act Cap 480 (KRA advisory only since 2024). **Payment platform (since 2024)**: Ministry of Lands & Physical Planning **Ardhisasa** — `https://ardhisasa.lands.go.ke/`. Buyers must register on Ardhisasa to assess + e-pay stamp duty before LSK can register the transfer. **The legacy KRA URL `https://www.kra.go.ke/helping-tax-payers/faqs/stamp-duty` returns HTTP 404 as of 2026-05 — payment workflow migrated to Lands** (2026-05-27 verified, source: shared/regulatory-watch.md KE Ardhisasa migration entry). Statute hosted at `http://kenyalaw.org/`.
+**Statute**: Stamp Duty Act Cap 480 (KRA advisory only since 2024). **Payment platform (since 2024)**: Ministry of Lands & Physical Planning **Ardhisasa** — `https://ardhisasa.lands.go.ke/`. Buyers must register on Ardhisasa to assess + e-pay stamp duty before LSK can register the transfer. **The legacy KRA URL `https://www.kra.go.ke/` returns HTTP 404 as of 2026-05 — payment workflow migrated to Lands** (2026-05-27 verified, source: shared/regulatory-watch.md KE Ardhisasa migration entry). Statute hosted at `http://kenyalaw.org/`.
 
 | Property type / location | Stamp Duty rate |
 |---|---|

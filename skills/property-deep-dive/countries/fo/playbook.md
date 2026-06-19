@@ -188,7 +188,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 
 - [visitfaroeislands.com](https://www.visitfaroeislands.com/) — official tourism board (Visit Faroe Islands)
 - [airbnb.com/s/Faroe-Islands](https://www.airbnb.com/s/Faroe-Islands) — listing inventory
-- [hagstova.fo/en/business/tourism](https://hagstova.fo/en/business/tourism) — overnight stays statistics
+- [hagstova.fo/en/business/tourism](https://hagstova.fo/en/business/i-accommodation-and-food-service-activities/accommodation) — overnight stays statistics
 - Faroese rental law: Lóggáva um leigu (rental act) — administered via [logir.fo](https://logir.fo/) (legal database)
 
 **Long-term rental regime**:

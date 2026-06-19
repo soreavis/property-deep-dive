@@ -6,7 +6,7 @@ ISO2: `vn`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 
 ## Country profile
 
-- **Population**: ~100.3M (2023 GSO census update; 2024 estimate ~100.9M). Source: General Statistics Office (Tổng cục Thống kê) `https://www.gso.gov.vn/`. Vietnam is the 15th most populous country worldwide.
+- **Population**: ~100.3M (2023 GSO census update; 2024 estimate ~100.9M). Source: General Statistics Office (Tổng cục Thống kê) `https://www.nso.gov.vn/en/homepage/`. Vietnam is the 15th most populous country worldwide.
 - **Postcode (mã bưu chính)**: 5-digit postal codes (introduced by Vietnam Post in 2018, replacing the 6-digit legacy system).
   - Hanoi (Hà Nội): `100000`–`159999` (e.g., `100000` Hoàn Kiếm District)
   - Ho Chi Minh City (Thành phố Hồ Chí Minh, "HCMC" / "Sài Gòn"): `700000`–`799999` (e.g., `700000` District 1)
@@ -117,8 +117,8 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 ### Primary sources
 
 - **General Statistics Office (Tổng cục Thống kê, GSO)** — official real estate price indices, construction CPI, urban housing surveys.
-  - Portal: `https://www.gso.gov.vn/`
-  - English summaries: `https://www.gso.gov.vn/en/`
+  - Portal: `https://www.nso.gov.vn/en/homepage/`
+  - English summaries: `https://www.nso.gov.vn/en/statistical-data/`
 - **State Bank of Vietnam (SBV)** — quarterly real-estate credit reports + financial-stability monitors. `https://www.sbv.gov.vn/`
 - **Ministry of Construction (Bộ Xây dựng)** — quarterly housing market reports, price band updates by city. `https://moc.gov.vn/`
 - **Provincial Sở Xây dựng** — local market reports (HCMC `https://soxaydung.hochiminhcity.gov.vn/`, Hanoi `https://soxd.hanoi.gov.vn/`).
@@ -382,7 +382,7 @@ Key requirements:
 | HCMC median (all sectors, 2024 GSO) | ~10–13M | ~$390–$510 |
 | **Minimum wage 2026 (Region I, HCMC + Hanoi urban)** | 4.96M VND/month (Decree 74/2024/ND-CP, effective 1 Jul 2024) | ~$195 |
 
-Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, VietnamWorks salary surveys.
+Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `http://www.molisa.gov.vn/`, VietnamWorks salary surveys.
 
 ### Confidence
 
@@ -400,7 +400,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 | **National Centre for Hydro-Meteorological Forecasting (Trung tâm Dự báo KTTV Quốc gia)** | `https://nchmf.gov.vn/` | Weather, typhoon, monsoon, climate-projection products |
 | **Ministry of Agriculture and Environment (MAE, Bộ NN&MT — merger of MONRE + MARD eff 1 Mar 2025)** | `https://en.mae.gov.vn/` | National adaptation plan, sea-level monitoring, EIA |
 | **Vietnam Institute of Geosciences and Mineral Resources (VIGMR)** | `http://www.vigmr.vn/` | Geology, landslide, fault mapping |
-| **General Statistics Office (GSO)** | `https://www.gso.gov.vn/` | Disaster damage statistics |
+| **General Statistics Office (GSO)** | `https://www.nso.gov.vn/en/homepage/` | Disaster damage statistics |
 | **Vietnam Environment Administration (VEA)** | `http://vea.gov.vn/` | Air & water quality monitoring |
 | **Provincial Department of Natural Resources and Environment (Sở TN&MT)** | per province | Land-use plans, local risk zoning |
 
@@ -636,7 +636,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 | **Vietnam Environment Administration (VEA)** | Air & water quality | `http://vea.gov.vn/` |
 | **National Centre for Hydro-Meteorological Forecasting (NCHMF)** | Typhoon, monsoon, climate | `https://nchmf.gov.vn/` |
 | **Vietnam Disaster Management Authority** under MARD | Flood / hazard / disaster history | `https://phongchongthientai.mard.gov.vn/` |
-| **General Statistics Office (GSO)** | Population, CPI, real-estate index, urban housing | `https://www.gso.gov.vn/` |
+| **General Statistics Office (GSO)** | Population, CPI, real-estate index, urban housing | `https://www.nso.gov.vn/en/homepage/` |
 | **Ministry of Public Security (Bộ Công an) / Immigration Department** | Việt kiều status confirmation, criminal record | `http://bca.gov.vn/` |
 | **Vietnam Notary Association (Hiệp hội Công chứng viên Việt Nam)** | Find licensed notary | per province notary office (Phòng Công chứng) |
 
@@ -691,7 +691,7 @@ Sources: GSO `https://www.gso.gov.vn/`, MOLISA `http://www.molisa.gov.vn/`, Viet
 | Hanoi Sở GTVT | `https://sogtvt.hanoi.gov.vn/` |
 | SAWACO (HCMC water) | `https://sawaco.com.vn/` |
 | HAWACOM (Hanoi water) | `https://hawacom.vn/` |
-| GSO (statistics) | `https://www.gso.gov.vn/` |
+| GSO (statistics) | `https://www.nso.gov.vn/en/homepage/` |
 | NCHMF (meteorology, typhoon) | `https://nchmf.gov.vn/` |
 | Vietnam Disaster Management Authority | `https://phongchongthientai.mard.gov.vn/` |
 | Vietnam Environment Administration | `http://vea.gov.vn/` |

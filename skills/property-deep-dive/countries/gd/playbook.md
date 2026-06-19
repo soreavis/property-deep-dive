@@ -17,7 +17,7 @@ ISO2: `gd`. Status: ✅ Fully populated (researched 2026-05-28).
 - **Cadastre / land registry**:
   - **[Deeds and Land Registry — Eastern Caribbean Supreme Court (Grenada)](https://www.gov.gd)** — recording office for deeds of conveyance, mortgages, and title chains under Cap. 79.
   - **[eLandRegistry](https://elandregistry.gov.gd)** — Grenada Land Agency's official online system for searching records registered at the Deeds & Land Registry (`.gov.gd` domain).
-  - **[Inland Revenue Division (IRD)](https://ird.gd/index.php/services/property-valuation)** — operates a property-valuation service; valuation references inform PTT + property-tax base but are not market value.
+  - **[Inland Revenue Division (IRD)](https://ird.gd/taxes/property-tax)** — operates a property-valuation service; valuation references inform PTT + property-tax base but are not market value.
 - **Identifier**: **Parish + survey-plan reference + lot/parcel number** recorded at the Deeds & Land Registry. **No universal national parcel ID** equivalent to a French numéro de parcelle; "family land" (old undivided inherited holdings) is a recurring Caribbean title complication.
 - **Title concept**: **Freehold (fee simple)** dominant. Title held under the **deeds-recording** model (Cap. 79) — **chain-of-deeds diligence is essential**; statutory-declaration / adverse-possession ("squatter") claims exist, and title reform is widely described as "long overdue."
 - **Recent reforms (12-month watchlist)**:
@@ -93,7 +93,7 @@ This section determines whether a transaction is even legally possible — and w
 
 ### Primary sources
 
-- **[Inland Revenue Division — Property Valuation service](https://ird.gd/index.php/services/property-valuation)** — official valuation reference (drives PTT + property-tax base; not a market index).
+- **[Inland Revenue Division — Property Valuation service](https://ird.gd/taxes/property-tax)** — official valuation reference (drives PTT + property-tax base; not a market index).
 - **[Grenada Central Statistical Office](https://stats.gov.gd/)** — census + household data; **no parcel-level residential price index**.
 - **Listing platforms / advisory aggregators** (secondary, seller-tier) — see "Common listing platforms" below.
 
@@ -669,7 +669,7 @@ Grenada's residency/citizenship hook is its **Citizenship-by-Investment (CBI)** 
 | Inland Revenue Division (IRD) | `https://ird.gd` |
 | IRD — Property Transfer Tax (Act No. 37/1998) | `https://ird.gd/taxes/property-transfer-tax` |
 | IRD — Property Tax | `https://ird.gd/taxes/property-tax` |
-| IRD — Property Valuation | `https://ird.gd/index.php/services/property-valuation` |
+| IRD — Property Valuation | `https://ird.gd/taxes/property-tax` |
 | Laws of Grenada (Cap. 79 Deeds & Land Registry Act) | `https://www.laws.gov.gd/index.php/chapters/d-76-84a/133-chapter-79-deeds-and-land-registry-act` |
 | eLandRegistry | `https://elandregistry.gov.gd` |
 | GRENLEC — rates | `https://grenlec.com/customers/ratesandfees/` |

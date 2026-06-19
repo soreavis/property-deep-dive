@@ -129,7 +129,7 @@ For primary residence:
 
 - **Primary residence (owner-occupier)**: **2%**
 - **First-time buyer < €555,000 (2026)**: **0%** (jonge starter, 18-35 yrs; was €525k 2025, €510k 2024) (2026-05-27 verified; source [business.gov.nl Property transfer tax](https://business.gov.nl/regulation/property-transfer-tax/))
-- **Second home / BTL / investor**: **8%** from 1 Jan 2026 (Belastingplan 2026; was 10.4% in 2023-2025) (2026-05-27 verified; source [government.nl real-estate-transfer-tax-rates](https://www.government.nl/topics/property-transfer-tax))
+- **Second home / BTL / investor**: **8%** from 1 Jan 2026 (Belastingplan 2026; was 10.4% in 2023-2025) (2026-05-27 verified; source [government.nl real-estate-transfer-tax-rates](https://business.gov.nl/regulations/property-transfer-tax/))
 - **Commercial**: 10.4%
 - Calculated on contract price
 

@@ -152,7 +152,7 @@ On grant of the ALL, a licence fee is payable as a **percentage of the purchase 
 
 ### Sources
 
-- **[Transport Control Department (TCD), gov.bm](https://www.gov.bm/department/transport-control-tcd)** — vehicle registration + the **one-car-per-household** policy.
+- **[Transport Control Department (TCD), gov.bm](https://www.gov.bm/department/transport-control)** — vehicle registration + the **one-car-per-household** policy.
 - **[Department of Public Transportation](https://www.gov.bm/department/public-transportation)** — pink buses + ferries.
 - **OSM** fallback via Overpass — `highway` tag class.
 
@@ -160,7 +160,7 @@ On grant of the ALL, a licence fee is payable as a **percentage of the purchase 
 
 Bermuda is a **tiny, dense island** (~54 km²) with a single arterial spine (Middle Road / Harbour Road / South Road run roughly parallel east-west). There is **no public AADT portal**. Congestion is structural, not data-published — peak flow into and out of **Hamilton** (the employment centre) at morning + evening rush is the defining traffic reality.
 
-- **One-car-per-household cap**: car ownership is historically restricted to **one private car per residential dwelling** to manage congestion (*verify current rule at [TCD](https://www.gov.bm/department/transport-control-tcd)*). Mopeds/scooters + buses + ferries fill the gap; **no rideshare** historically; taxis + minibuses operate.
+- **One-car-per-household cap**: car ownership is historically restricted to **one private car per residential dwelling** to manage congestion (*verify current rule at [TCD](https://www.gov.bm/department/transport-control)*). Mopeds/scooters + buses + ferries fill the gap; **no rideshare** historically; taxis + minibuses operate.
 - **Drive on the LEFT.** General speed limit is low island-wide (**~35 km/h** — *verify current limit at TCD*).
 - **Tourists may not rent cars** historically (only scooters / "Twizy"-style minicars + taxis) — *verify current rules*.
 
