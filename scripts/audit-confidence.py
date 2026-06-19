@@ -159,6 +159,14 @@ def is_primary_host(host: str, allowlist: set[str]) -> bool:
         return True
     if host in allowlist or bare in allowlist:
         return True
+    # Suffix match: an allowlist entry like "admin.ch" or "boris.nrw.de" should also
+    # match its subdomains (efd.admin.ch, geoportal.admin.ch). Allowlist entries are
+    # curated registrable gov/regulator domains — never bare public suffixes — so a
+    # suffix match cannot admit an unrelated site. This lets one umbrella entry
+    # (admin.ch, bund.de, public.lu, fgov.be) cover every agency hosted under it.
+    for entry in allowlist:
+        if host == entry or host.endswith("." + entry):
+            return True
     for pat in PRIMARY_HOST_PATTERNS:
         if pat.search(host):
             return True

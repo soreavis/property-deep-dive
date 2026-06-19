@@ -86,7 +86,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 **Federal popular vote 28 September 2025 → 57.7 % YES** to abolish Eigenmietwert (imputed rental value taxation on owner-occupied homes).
 
-- **Implementation: target 1 January 2029** (per Bundesrat); **earliest realistic 1 January 2028** (per ESTV). Date subject to: (a) Federal Council Inkrafttreten decision (not yet finalised as of Sep 2025); (b) cantonal implementing-law adoption. (2026-05-27 verified, source [EFD Wohneigentumsbesteuerung](https://www.efd.admin.ch/de/wohneigentumsbesteuerung))
+- **Implementation: target 1 January 2029** (per Bundesrat); **earliest realistic 1 January 2028** (per [ESTV — Eidgenössische Steuerverwaltung / Federal Tax Administration](https://www.estv.admin.ch/)). Date subject to: (a) Federal Council Inkrafttreten decision (not yet finalised as of Sep 2025); (b) cantonal implementing-law adoption. (2026-05-27 verified, source [EFD Wohneigentumsbesteuerung](https://www.efd.admin.ch/de/wohneigentumsbesteuerung))
 - Applies to **primary AND secondary residences**
 - Owner-occupiers no longer declare notional rental income
 - **BUT**: deductions for maintenance/renovations also eliminated

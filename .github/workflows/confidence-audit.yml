@@ -4,9 +4,11 @@ name: Confidence audit
 # using thresholds in scripts/audit-confidence.py. Catches confidence-overclaims
 # mechanically (e.g., a HIGH-confidence playbook citing only 8 government URLs).
 #
-# Initial rollout: --warn-only (logs failures, doesn't fail CI). Once the legacy
-# playbooks (the 28 currently below threshold) are remediated, drop --warn-only to
-# enforce strict-mode on every PR.
+# Enforcing (strict) since 2026-06-19: every playbook now meets its tier×confidence
+# primary-source floor (0 below threshold after the allowlist recalibration that
+# taught is_primary_host the national-ccTLD government domains it had been blind to).
+# A PR that adds an under-sourced playbook — or overclaims Confidence — now fails CI.
+# Run the script with --warn-only locally for a non-failing soft check.
 
 on:
   pull_request:
@@ -42,10 +44,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Run audit (warn-only mode)
+      - name: Run audit (strict)
         run: |
           set -euo pipefail
           if [ ! -x scripts/audit-confidence.py ]; then
             chmod +x scripts/audit-confidence.py
           fi
-          python3 scripts/audit-confidence.py --warn-only
+          python3 scripts/audit-confidence.py
