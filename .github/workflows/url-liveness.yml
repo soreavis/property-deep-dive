@@ -76,13 +76,21 @@ jobs:
             else
               echo "No url-liveness-cache artifact on run $last_run — cold start"
             fi
+            # Also restore the last-success timestamp so the report's "Previous
+            # successful run" line is populated. Absent on below-threshold runs
+            # (which write no last-success.txt) — non-fatal; the script falls back.
+            if gh run download "$last_run" --name url-liveness-last-success --dir _ci/ 2>/dev/null; then
+              echo "Restored last-success.txt from run $last_run"
+            else
+              echo "No url-liveness-last-success artifact on run $last_run"
+            fi
           else
             echo "No prior successful run — cold start"
           fi
 
       - name: Run URL-liveness check
         id: check
-        run: python3 scripts/url-liveness.py --ci
+        run: python3 scripts/url-liveness.py --ci --last-success-in _ci/last-success.txt
 
       - name: Upload cache artifact (90-day retention)
         # Always upload — even on score below threshold — so next run has the
@@ -93,6 +101,16 @@ jobs:
           path: _ci/cache.json
           retention-days: 90
           if-no-files-found: error
+
+      - name: Upload last-success timestamp (90-day retention)
+        # Written only when the score met threshold this run; absent otherwise,
+        # so the next run's "Previous successful run" line stays meaningful.
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: url-liveness-last-success
+          path: _ci/last-success.txt
+          retention-days: 90
+          if-no-files-found: ignore
 
       - name: Upload full run artifact (90-day retention)
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1

@@ -47,6 +47,7 @@ NEEDS_ACK = (
     "ABOLISHED",
     "PHASING OUT",
     "REDESIGN ANNOUNCED",
+    "DORMANT",
 )
 
 # Acknowledgement tokens we accept near the programme mention.

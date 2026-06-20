@@ -1,5 +1,5 @@
 {
-  "_comment": "URL-liveness checker configuration. Consumed by scripts/url-liveness.py. Versioned + audit-traceable. Hosts compared case-insensitively; suffix-matched (e.g. 'gov.uk' matches 'www.gov.uk'). Update with a CHANGELOG entry and a one-line rationale per change.",
+  "_comment": "URL-liveness checker configuration. Consumed by scripts/url-liveness.py. Versioned + audit-traceable. Hosts compared case-insensitively; suffix-matched (e.g. 'gov.uk' matches 'www.gov.uk'). Update with a CHANGELOG entry and a one-line rationale per change. Note: 429 and 999 inside indeterminate_status_codes are intercepted earlier by the RATE_LIMITED/BOT_BLOCKED branches in url-liveness.py _classify() and never reach the indeterminate path — they are listed here only for completeness/parity with source-verify.py's (403,429,503,999) grouping; only 403 and 503 actually flow through the indeterminate branch.",
   "version": 1,
   "global": {
     "concurrency": 64,
