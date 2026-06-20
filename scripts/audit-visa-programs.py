@@ -76,16 +76,29 @@ def status_demands_ack(status: str) -> bool:
     return any(token in s for token in NEEDS_ACK)
 
 
-def find_unack_claims(playbook_text: str, programme_name: str) -> list[tuple[int, str]]:
-    """Return (offset, snippet) tuples for unacknowledged claims."""
+def searchable_core(programme_name: str) -> str | None:
+    """Return the substring-searchable canonical core of a programme name, or
+    None if the name is too short/generic to substring-match safely.
+
+    Requiring multi-word names reduces false positives on generic phrases like
+    "Self-Employed Persons" matching incidental playbook prose. The same gate
+    decides whether a pair is audited (searchable) or skipped (surfaced in the
+    summary) — see main() — so coverage is never over-reported.
+    """
     # Strip markdown decorations from the canonical name for searching
     clean = re.sub(r"~~|[*]+", "", programme_name)
     # Drop trailing em-dash or parenthetical clauses; preserve internal hyphens
     # ("Start-Up Visa" must NOT become "Start").
     core = re.split(r"\s*[—(]\s*", clean, maxsplit=1)[0].strip()
-    # Require multi-word names to reduce false positives on generic phrases
-    # like "Self-Employed Persons" matching incidental playbook prose.
     if len(core.split()) < 2 or len(core) < 6:
+        return None
+    return core
+
+
+def find_unack_claims(playbook_text: str, programme_name: str) -> list[tuple[int, str]]:
+    """Return (offset, snippet) tuples for unacknowledged claims."""
+    core = searchable_core(programme_name)
+    if core is None:
         return []
 
     pattern = re.compile(re.escape(core), re.IGNORECASE)
@@ -111,6 +124,7 @@ def main() -> int:
 
     failures = 0
     audited = 0
+    skipped = 0
 
     by_country: dict[str, list[dict]] = {}
     for p in programs:
@@ -128,6 +142,9 @@ def main() -> int:
             continue
         text = playbook.read_text(encoding="utf-8")
         for prog in by_country[iso2]:
+            if searchable_core(prog["programme"]) is None:
+                skipped += 1
+                continue
             audited += 1
             unack = find_unack_claims(text, prog["programme"])
             if unack:
@@ -141,7 +158,11 @@ def main() -> int:
                     print(f"    @{off}: …{snip}…")
 
     print()
-    print(f"Audited {audited} programme×country pairs; {failures} unacknowledged.")
+    print(
+        f"Audited {audited} programme×country pairs "
+        f"({skipped} skipped — name too short/generic to substring-match safely); "
+        f"{failures} unacknowledged."
+    )
     if failures and not args.warn_only:
         return 1
     return 0

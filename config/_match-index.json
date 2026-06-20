@@ -500,7 +500,7 @@
     "bh": {
       "hard": {
         "foreign-buyer-open": true,
-        "no-fx-risk": true,
+        "no-fx-risk": false,
         "property-residency-route": false
       },
       "entry_eur_m2": null,
@@ -1384,7 +1384,7 @@
     "hk": {
       "hard": {
         "foreign-buyer-open": true,
-        "no-fx-risk": true,
+        "no-fx-risk": false,
         "property-residency-route": false
       },
       "entry_eur_m2": null,
@@ -1784,7 +1784,7 @@
     "jo": {
       "hard": {
         "foreign-buyer-open": true,
-        "no-fx-risk": true,
+        "no-fx-risk": false,
         "property-residency-route": false
       },
       "entry_eur_m2": null,
@@ -2086,7 +2086,7 @@
     "li": {
       "hard": {
         "foreign-buyer-open": true,
-        "no-fx-risk": true,
+        "no-fx-risk": false,
         "property-residency-route": false
       },
       "entry_eur_m2": null,
@@ -2410,7 +2410,7 @@
     "mo": {
       "hard": {
         "foreign-buyer-open": true,
-        "no-fx-risk": true,
+        "no-fx-risk": false,
         "property-residency-route": false
       },
       "entry_eur_m2": null,
@@ -2722,7 +2722,7 @@
     "om": {
       "hard": {
         "foreign-buyer-open": true,
-        "no-fx-risk": true,
+        "no-fx-risk": false,
         "property-residency-route": false
       },
       "entry_eur_m2": null,
@@ -3028,7 +3028,7 @@
     "qa": {
       "hard": {
         "foreign-buyer-open": true,
-        "no-fx-risk": true,
+        "no-fx-risk": false,
         "property-residency-route": false
       },
       "entry_eur_m2": null,
@@ -3128,7 +3128,7 @@
     "sa": {
       "hard": {
         "foreign-buyer-open": true,
-        "no-fx-risk": true,
+        "no-fx-risk": false,
         "property-residency-route": false
       },
       "entry_eur_m2": null,
@@ -3190,7 +3190,7 @@
     "sg": {
       "hard": {
         "foreign-buyer-open": true,
-        "no-fx-risk": true,
+        "no-fx-risk": false,
         "property-residency-route": false
       },
       "entry_eur_m2": null,

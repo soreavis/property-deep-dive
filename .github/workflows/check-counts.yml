@@ -37,7 +37,7 @@ jobs:
 
           # ── Canonical counts ──────────────────────────────────────────────
           countries=$(find skills/property-deep-dive/countries -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
-          sections=$(python3 scripts/sync-docs.py --check 2>/dev/null | grep -E '^\s*sections\s' | grep -oE '[0-9]+' | head -1)
+          sections=$( (python3 scripts/sync-docs.py --check 2>/dev/null || true) | grep -E '^\s*sections\s' | grep -oE '[0-9]+' | head -1 )
 
           # ── Live GitHub About blurb ──────────────────────────────────────
           about=$(gh repo view --json description --jq '.description // ""')

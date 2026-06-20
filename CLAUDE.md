@@ -81,7 +81,7 @@ The **`Version month guard`** required check (`version-month-guard` in `pr-valid
 skills/property-deep-dive/                # the skill payload (everything plugin hosts ship)
 ├── SKILL.md                              # master router — argument-hint, section catalog, country matrix
 ├── shared/
-│   ├── anti-hallucination.md             # 7 mandatory checks (read first when editing output logic)
+│   ├── anti-hallucination.md             # 8 mandatory checks (read first when editing output logic)
 │   ├── regulatory-watch.md               # date-stamped reform tracker (read first when fixing tax/visa)
 │   ├── updater.md                        # maintenance mode + auto-downgrade rule
 │   ├── verdict-bands.md                  # 🟢🟡🟠🔴 severity contract

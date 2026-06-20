@@ -22,10 +22,9 @@ import re
 import sys
 from pathlib import Path
 
-REGWATCH_PATH = Path("skills/property-deep-dive/shared/regulatory-watch.md")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+REGWATCH_PATH = REPO_ROOT / "skills" / "property-deep-dive" / "shared" / "regulatory-watch.md"
 
-# Header line: ### 🇫🇷 FR  or  ### 🇸🇪 SE / 🇫🇮 FI / 🇳🇴 NO
-COUNTRY_HEADER = re.compile(r"^### .*?([A-Z]{2})(?:\s*/\s*🇦-🇿\w*\s*([A-Z]{2}))?", re.UNICODE)
 # Multi-country header: extract every uppercase ISO2 token after a flag emoji
 HEADER_ISO2 = re.compile(r"\b([A-Z]{2})\b")
 # Bullet entry: - `<date> | <topic> | <summary> | <source> | <verified> | <revisit_by> | <tier> | <sections>`

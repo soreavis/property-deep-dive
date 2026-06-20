@@ -22,7 +22,12 @@ on:
       - 'config/_visa-programs.json'
       - 'skills/property-deep-dive/shared/compare.md'
       - 'scripts/render-match-index.py'
+      - 'scripts/render-match-index-test.py'
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read

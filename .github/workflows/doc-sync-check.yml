@@ -17,6 +17,10 @@ on:
     - cron: '0 9 * * 2'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
   issues: write
@@ -49,16 +53,35 @@ jobs:
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           script: |
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `Doc-sync drift detected — ${new Date().toISOString().slice(0,10)}`,
-              body: [
-                `Scheduled \`sync-docs --check\` flagged drift on \`${context.sha.slice(0,7)}\`.`,
-                ``,
-                `**Action**: run \`./scripts/sync-docs.py\` locally and commit the result.`,
-                ``,
-                `Most likely cause: a recent merge added/removed a country, section flag, skills/property-deep-dive/shared/ file, or workflow without re-running sync-docs.`,
-              ].join('\n'),
-              labels: ['maintenance', 'documentation'],
+            const title = '🔁 Doc-sync drift detected';
+            const body = [
+              `Scheduled \`sync-docs --check\` flagged drift on \`${context.sha.slice(0,7)}\`.`,
+              ``,
+              `**Action**: run \`./scripts/sync-docs.py\` locally and commit the result.`,
+              ``,
+              `Most likely cause: a recent merge added/removed a country, section flag, skills/property-deep-dive/shared/ file, or workflow without re-running sync-docs.`,
+            ].join('\n');
+
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'documentation', per_page: 10,
             });
+            const pinned = open.find(i => i.title === title);
+            const date = new Date().toISOString().slice(0, 10);
+
+            if (pinned) {
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: pinned.number, body,
+              });
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: pinned.number,
+                body: `**${date}** — drift still present.\n\n<details><summary>Report</summary>\n\n${body}\n\n</details>`,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['maintenance', 'documentation'],
+              });
+            }

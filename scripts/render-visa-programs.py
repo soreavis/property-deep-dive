@@ -115,8 +115,8 @@ def main() -> int:
 
     if args.check:
         print(
-            f"✗ visa-programs.md is out of sync with config/_visa-programs.json.\n"
-            f"  Run: python3 scripts/render-visa-programs.py",
+            "✗ visa-programs.md is out of sync with config/_visa-programs.json.\n"
+            "  Run: python3 scripts/render-visa-programs.py",
             file=sys.stderr,
         )
         return 1

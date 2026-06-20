@@ -116,7 +116,7 @@ def count_section_flags() -> int:
         'update', 'add', 'diff', 'interactive', 'test',
         'validate-only', 'refresh-only', 'health-report',
         'tier', 'include', 'exclude',
-        # Cross-cutting layers — counted separately from the 24 sections
+        # Cross-cutting layers — counted separately from the section flags
         'integrity', 'journey', 'type',
         # Discovery mode — reverse of --compare; not a per-address section
         'match',
@@ -207,8 +207,8 @@ INLINE_REPLACEMENTS: list[tuple[str, str, str]] = [
      '**{sections} user-invocable sections**'),
     # README architecture comment for skills/property-deep-dive/shared/
     ('README.md',
-     r'(\d+) universal layer files \(~[\d,]+ lines\)',
-     '{shared} universal layer files (~{shared_lines_rnd:,} lines)'),
+     r'(\d+) top-level universal layer files \(~[\d,]+ lines\)',
+     '{shared} top-level universal layer files (~{shared_lines_rnd:,} lines)'),
     # README architecture comment for workflows count
     ('README.md',
      r'\(\d+ in total — see CHANGELOG',
@@ -223,8 +223,8 @@ INLINE_REPLACEMENTS: list[tuple[str, str, str]] = [
      '{total_md} markdown files, ~{total_lines_rnd:,} lines'),
     # README config-file inventory inside Repo total parenthetical
     ('README.md',
-     r'\d+ YAML / JSON config files \(\d+ workflows \+ \d+ issue forms \+ dependabot \+ labels \+ labeler\)',
-     '{total_yaml} YAML / JSON config files ({workflows} workflows + {issue_forms} issue forms + dependabot + labels + labeler)'),
+     r'\d+ YAML config files \(\d+ workflows \+ \d+ issue forms \+ dependabot \+ labels \+ labeler\)',
+     '{total_yaml} YAML config files ({workflows} workflows + {issue_forms} issue forms + dependabot + labels + labeler)'),
     # CONTRIBUTING country count
     ('CONTRIBUTING.md',
      r'(\d+) countries currently',

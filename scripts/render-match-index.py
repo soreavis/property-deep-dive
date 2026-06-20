@@ -68,6 +68,9 @@ EUROZONE = [
 # to the top FX tier alongside the eurozone (compare.md lists them "no FX risk").
 FX_NO_FX_RISK = set(EUROZONE) | {'mc', 'ad'}
 
+# No (or negligible) EUR FX risk for euro buyers: treaty-euro + hard EUR pegs/ERM-II.
+FX_EUR_RISK_FREE = FX_NO_FX_RISK | {'ba', 'dk'}  # BA EUR currency board 1.95583; DK DKK ERM-II ±2.25%
+
 # Golden-visa list items that are documented ABSENCES, not friendly rankings
 # (e.g. "SG / MO / LI — NO golden-visa via real estate"). Skipped for visa.
 VISA_ABSENCE = re.compile(r'NO golden-visa', re.IGNORECASE)
@@ -246,7 +249,7 @@ def build_index() -> dict:
     def _hard(code: str) -> dict:
         return {
             'foreign-buyer-open': fb_open_flags.get(code, True),
-            'no-fx-risk': code in fx_stable,
+            'no-fx-risk': code in FX_EUR_RISK_FREE,
             'property-residency-route': code in visa_routes,
         }
 
@@ -274,6 +277,8 @@ def build_index() -> dict:
     for crit, block in extracted.get('criteria', {}).items():
         src = block.get('source', '')
         for code, cell in block.get('countries', {}).items():
+            if 'band' not in cell:
+                raise SystemExit(f"❌ _match-extracted.json {crit}:{code} cell is missing required 'band'")
             countries[code]['scores'][crit] = {
                 'band': cell['band'],
                 'tier': cell.get('tier'),

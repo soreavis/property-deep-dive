@@ -51,20 +51,30 @@ jobs:
           # backtick-delimited entries from the "Recently enacted reforms" section
           # downward (the ENDED-programs section uses table rows, not backticks,
           # so it's automatically skipped by the regex below).
+          #
+          # Multi-country headers (e.g. "### 🇸🇪 SE / 🇫🇮 FI / 🇳🇴 NO") must attribute each
+          # entry correctly. Mirror scripts/regwatch_promotions.py: a `### ` line is a
+          # country header ONLY when it carries a regional-indicator-symbol codepoint;
+          # capture ALL ISO2 codes in it. For each entry, if its sections field carries a
+          # trailing "(XX)" ISO tag in the header set, attribute to that single country;
+          # otherwise fan the entry out to every ISO in the header.
           lines = text.splitlines()
-          country = None
-          country_re = re.compile(r'^###\s+(?:[^\s]+\s+)?([A-Z]{2})\b')
+          current_isos = []
+          iso2_re = re.compile(r'\b([A-Z]{2})\b')
+          sections_iso_re = re.compile(r'\(([A-Z]{2})\)\s*$')
           # Backtick entries: 8 pipe-separated fields. effective | topic | summary | source | verified | revisit | tier | sections
           entry_re = re.compile(r'^[-*]\s+`([^`]+)`\s*$')
 
           overdue = []  # (country, effective, topic, summary, source, verified, revisit, tier, sections)
           for raw in lines:
-              m_country = country_re.match(raw)
-              if m_country:
-                  country = m_country.group(1)
+              if raw.startswith('### '):
+                  if any(0x1F1E6 <= ord(c) <= 0x1F1FF for c in raw):
+                      current_isos = iso2_re.findall(raw.split('###', 1)[1])
+                  else:
+                      current_isos = []
                   continue
               m_entry = entry_re.match(raw)
-              if not m_entry or country is None:
+              if not m_entry or not current_isos:
                   continue
               parts = [p.strip() for p in m_entry.group(1).split('|')]
               if len(parts) < 7:
@@ -81,18 +91,27 @@ jobs:
                   continue
               if revisit > today:
                   continue
-              overdue.append({
-                  'country': country,
-                  'effective': parts[0],
-                  'topic': parts[1],
-                  'summary': parts[2][:140] + ('…' if len(parts[2]) > 140 else ''),
-                  'source': parts[3],
-                  'verified': parts[4],
-                  'revisit': revisit,
-                  'days_overdue': (today - revisit).days,
-                  'tier': parts[6] if len(parts) > 6 else '?',
-                  'sections': parts[7] if len(parts) > 7 else '',
-              })
+              # Attribute: a trailing "(XX)" ISO tag in the sections field that is in this
+              # header's ISO set pins the entry to that one country; otherwise fan out to all.
+              sections_field = parts[7] if len(parts) > 7 else ''
+              m_tag = sections_iso_re.search(sections_field)
+              if m_tag and m_tag.group(1) in current_isos:
+                  target_isos = [m_tag.group(1)]
+              else:
+                  target_isos = current_isos
+              for iso in target_isos:
+                  overdue.append({
+                      'country': iso,
+                      'effective': parts[0],
+                      'topic': parts[1],
+                      'summary': parts[2][:140] + ('…' if len(parts[2]) > 140 else ''),
+                      'source': parts[3],
+                      'verified': parts[4],
+                      'revisit': revisit,
+                      'days_overdue': (today - revisit).days,
+                      'tier': parts[6] if len(parts) > 6 else '?',
+                      'sections': sections_field,
+                  })
 
           if not overdue:
               print('## ✅ No overdue regulatory-watch entries')

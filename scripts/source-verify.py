@@ -353,7 +353,9 @@ def _scope_for(path: Path) -> str:
 
 def _claim_sentence(line: str, link_start: int, window: int) -> str:
     """Return the line, or a window around the link if the line is long."""
+    lead = len(line) - len(line.lstrip())
     line = line.strip()
+    link_start = max(0, link_start - lead)
     if len(line) <= window:
         return line
     lo = max(0, link_start - window // 2)
@@ -615,12 +617,14 @@ async def fetch_text(session, url, ul_cfg, sv: SVConfig, robots, throttles, rate
                     # Cloudflare / WAF challenge
                     if any(h.lower() in headers_lc for h in cf["headers"]) or status in (403, 429, 503, 999):
                         last_note = f"challenge/blocked http {status}"
-                        await asyncio.sleep(_backoff(ul_cfg, attempt, resp.headers))
+                        if attempt < ul_cfg.max_retries - 1:
+                            await asyncio.sleep(_backoff(ul_cfg, attempt, resp.headers))
                         continue
                     if status in (404, 410) or 400 <= status < 600:
                         if status >= 500:
                             last_note = f"http {status}"
-                            await asyncio.sleep(_backoff(ul_cfg, attempt, resp.headers))
+                            if attempt < ul_cfg.max_retries - 1:
+                                await asyncio.sleep(_backoff(ul_cfg, attempt, resp.headers))
                             continue
                         return FetchResult(url, "DEAD", http_status=status, content_type=ctype,
                                            note=f"http {status}", fetched_at=now)
@@ -664,7 +668,8 @@ async def fetch_text(session, url, ul_cfg, sv: SVConfig, robots, throttles, rate
                     title = title_m.group(1).strip() if title_m else ""
                     if title and any(t.lower() in title.lower() for t in cf["body_titles"]):
                         last_note = f"challenge title: {title[:50]}"
-                        await asyncio.sleep(_backoff(ul_cfg, attempt, resp.headers))
+                        if attempt < ul_cfg.max_retries - 1:
+                            await asyncio.sleep(_backoff(ul_cfg, attempt, resp.headers))
                         continue
                     # is_pdf_candidate-but-not-a-PDF reached here → it's an HTML interstitial; clean it
                     text = html_to_text(body) if ("html" in ctype or ctype == "" or is_pdf_candidate) else body
@@ -675,10 +680,12 @@ async def fetch_text(session, url, ul_cfg, sv: SVConfig, robots, throttles, rate
                     )
         except (asyncio.TimeoutError, aiohttp.ClientError) as e:
             last_note = f"{type(e).__name__}"
-            await asyncio.sleep(_backoff(ul_cfg, attempt, {}))
+            if attempt < ul_cfg.max_retries - 1:
+                await asyncio.sleep(_backoff(ul_cfg, attempt, {}))
         except Exception as e:
             last_note = f"{type(e).__name__}"
-            await asyncio.sleep(_backoff(ul_cfg, attempt, {}))
+            if attempt < ul_cfg.max_retries - 1:
+                await asyncio.sleep(_backoff(ul_cfg, attempt, {}))
     return FetchResult(url, "UNAVAILABLE", note=last_note, fetched_at=now)
 
 

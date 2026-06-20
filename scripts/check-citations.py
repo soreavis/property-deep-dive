@@ -44,7 +44,7 @@ HOSTLIKE_LABEL_RE = re.compile(r"^[a-z0-9][a-z0-9.-]*\.[a-z]{2,}$", re.IGNORECAS
 # Only flag PRIMARY-SOURCE roots (a deep gov/regulator page exists and should be cited). A
 # commercial carrier/aggregator homepage cited for a tariff (orange.sk, telekom.hu, flat35.com)
 # is an accepted convention, not the weak-citation pattern — skip it, or it drowns the signal.
-_GOV_RE = re.compile(r"\.(?:gov|gouv|gob)(?:\.[a-z]{2,3})?$", re.IGNORECASE)
+_GOV_RE = re.compile(r"(?:^|\.)(?:gov|gouv|gob)(?:\.[a-z]{2,4})?$", re.IGNORECASE)
 PRIMARY_ALLOW_PATH = ROOT / "scripts" / "primary-source-allowlist.txt"
 
 

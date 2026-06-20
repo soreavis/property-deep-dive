@@ -64,7 +64,7 @@ jobs:
           }
 
           # Curated feeds. Add more as you discover them.
-          fetch_and_filter "EU-OJ-L"  "https://eur-lex.europa.eu/EN/display-feed.rss?myRssId=oj-l-en"
+          fetch_and_filter "EU-OJ-L"  "https://eur-lex.europa.eu/EN/display-feed.rss?myRssId=oj-l-en" || true
           fetch_and_filter "ECJ-PR"   "https://curia.europa.eu/jcms/upload/docs/application/xml/2024-01/cp_en.xml" || true
           fetch_and_filter "OECD-Tax" "https://www.oecd.org/tax/feed/" || true
 

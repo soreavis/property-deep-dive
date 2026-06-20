@@ -19,7 +19,7 @@ Usage:
     python3 scripts/url-liveness.py --ci              # full pipeline, writes _ci/{results.json,report.md,cache.json,score.txt}
     python3 scripts/url-liveness.py --dry-run         # same but writes to _local/url-liveness-dry-run/
     python3 scripts/url-liveness.py --extract         # print URLs to stdout, exit
-    python3 scripts/url-liveness.py --score-only PATH # recompute score from an existing results.json
+    python3 scripts/url-liveness.py --score-only PATH # recompute score from an existing cache.json
 """
 
 from __future__ import annotations
@@ -33,7 +33,7 @@ import re
 import sys
 import time
 from collections import defaultdict
-from dataclasses import asdict, dataclass, field
+from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -48,7 +48,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "_url-liveness.json"
-URL_RE = re.compile(r"https?://[^\s<>\"`)\]]+")
+URL_RE = re.compile(r"https?://[^\s<>\"`{}\)\]]+")
 EXCLUDE_FILES = {"test-fixtures.md"}
 EXCLUDE_DIRS = {"node_modules", "_local", ".git"}
 
@@ -65,7 +65,6 @@ ROBOTS_EXCLUDED = "ROBOTS_EXCLUDED"
 EXCLUDED = "EXCLUDED"
 
 CACHEABLE_CLASSES = {LIVE, REDIRECT_LIVE, AUTH_REQUIRED}
-SCORE_NUMERATOR_CLASSES = {LIVE, REDIRECT_LIVE, AUTH_REQUIRED, INDETERMINATE, BOT_BLOCKED, RATE_LIMITED}
 SCORE_EXCLUDED_CLASSES = {ROBOTS_EXCLUDED, EXCLUDED}
 
 
@@ -407,9 +406,9 @@ async def check_one(
         return CheckResult(url=url, status=0, cls=ROBOTS_EXCLUDED, checked_at=now_iso, note="robots.txt Disallow")
 
     last_status = 0
-    last_title = ""
-    last_headers: dict = {}
     last_final = url
+    last_cls = INDETERMINATE
+    last_note = ""
     note = ""
 
     for attempt in range(cfg.max_retries):
@@ -429,8 +428,9 @@ async def check_one(
                 await rate_limiter.acquire()
                 status, title, headers, final_url = await _http_request(session, "GET", url, cfg)
 
-        last_status, last_title, last_headers, last_final = status, title, headers, final_url
+        last_status, last_final = status, final_url
         cls, note = _classify(status, title, headers, cfg)
+        last_cls, last_note = cls, note
         if cls in (LIVE, REDIRECT_LIVE, AUTH_REQUIRED, BOT_BLOCKED, ROBOTS_EXCLUDED, DEAD):
             break
         # Retryable: TIMEOUT / RATE_LIMITED / INDETERMINATE 5xx
@@ -444,14 +444,13 @@ async def check_one(
                 sleep_for = base + random.uniform(-jitter, jitter)
             await asyncio.sleep(max(0.0, sleep_for))
 
-    cls, note = _classify(last_status, last_title, last_headers, cfg)
     return CheckResult(
         url=url,
         status=last_status,
-        cls=cls,
+        cls=last_cls,
         checked_at=now_iso,
         final_url=last_final if last_final != url else "",
-        note=note,
+        note=last_note,
     )
 
 

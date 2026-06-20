@@ -31,8 +31,6 @@ name: Auto-merge docs PRs
 # integration"). Same trust pattern as changelog-on-merge.yml (see PR #23).
 
 on:
-  pull_request:
-    types: [labeled, opened, synchronize, ready_for_review, reopened]
   pull_request_target:
     types: [labeled, opened, synchronize, ready_for_review, reopened]
   workflow_run:

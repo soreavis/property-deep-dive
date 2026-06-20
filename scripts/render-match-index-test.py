@@ -200,6 +200,21 @@ class TestBuildIndex(unittest.TestCase):
                 self.assertEqual(rec['scores']['fx']['band'], 100,
                                  f'{code} is no-FX-risk (EUR treaty) → top tier')
 
+    def test_no_fx_risk_is_eur_specific(self):
+        # The no-fx-risk hard filter is about EUR exposure for euro buyers — NOT
+        # general FX stability. USD-pegged / CHF jurisdictions must read False even
+        # though they sit in the "Most stable currency" list; only treaty-euro +
+        # hard EUR pegs/ERM-II (e.g. BA currency board) qualify.
+        for code in ('sa', 'sg', 'li'):
+            rec = self.idx['countries'].get(code)
+            if rec:
+                self.assertFalse(rec['hard']['no-fx-risk'],
+                                 f'{code} is not EUR-risk-free → no-fx-risk must be False')
+        ba = self.idx['countries'].get('ba')
+        if ba:
+            self.assertTrue(ba['hard']['no-fx-risk'],
+                            'BA EUR currency board → no-fx-risk must be True')
+
     def test_idempotent(self):
         again = rmi.build_index()
         self.assertEqual(json.dumps(self.idx, sort_keys=True),

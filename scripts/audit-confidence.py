@@ -77,7 +77,7 @@ CONFIDENCE_LEVELS = ("LOW", "MEDIUM", "HIGH")  # ordered low → high
 # domains that don't fit these patterns (e.g., bom.mu) live in primary-source-allowlist.txt.
 PRIMARY_HOST_PATTERNS = [
     # Most countries use one of these gov-identifying SLDs
-    re.compile(r"\.gov(?:\.[a-z]{2,4})?$", re.IGNORECASE),       # gov, gov.uk, gov.cn, gov.gh
+    re.compile(r"(?:^|\.)gov(?:\.(?!com$|net$|org$|info$|biz$)[a-z]{2,4})?$", re.IGNORECASE),  # gov, gov.uk, gov.cn, gov.gh, bare gov.ky (rejects gov.com/net/org/info/biz)
     re.compile(r"\.gouv\.[a-z]{2,4}$", re.IGNORECASE),           # gouv.fr
     re.compile(r"\.gob\.[a-z]{2,4}$", re.IGNORECASE),            # gob.es, gob.mx, gob.ar
     re.compile(r"\.govt\.[a-z]{2,4}$", re.IGNORECASE),           # govt.nz
@@ -205,7 +205,7 @@ def audit_playbook(path: Path, tier_map: dict[str, str], allowlist: set[str]) ->
         reason = "no Confidence label found in Status footer"
     elif tier == "?":
         passed = False
-        reason = f"iso2 not in config/_tiers.json"
+        reason = "iso2 not in config/_tiers.json"
     elif threshold is None:
         passed = False
         reason = f"no threshold for tier {tier} × confidence {confidence}"
@@ -275,6 +275,14 @@ def main() -> int:
 
     print()
     print(f"Audited {len(results)} playbooks; {len(failures)} failed")
+
+    if not results:
+        print(
+            "Audited 0 playbooks — check that --iso and --tier select an "
+            "overlapping set (e.g. --iso=ky is tier C, not A).",
+            file=sys.stderr,
+        )
+        return 2
 
     if failures and not args.warn_only:
         print()

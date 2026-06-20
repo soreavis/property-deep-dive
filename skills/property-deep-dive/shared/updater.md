@@ -379,7 +379,7 @@ The decay rule's job is to make staleness **visible** — not to fix it. The fix
 
 1. **Never fabricate URL replacements.** If a broken URL cannot be replaced via search, mark it `❌ DEPRECATED — primary source removed; verify with <fallback authority>`.
 2. **Always backup before writing.** `playbook.md.bak-<date>` files are kept for 30 days.
-3. **Anti-hallucination layer applies in full.** All seven pre-output checks (`shared/anti-hallucination.md`) must pass before write.
+3. **Anti-hallucination layer applies in full.** All eight pre-output checks (`shared/anti-hallucination.md`) must pass before write.
 4. **Don't silently change "as of" dates.** Each numeric fact's "as of" date must be verifiable from the new source — don't re-stamp dates without re-verifying.
 5. **Per-domain rate limit**: 5 req/sec to government domains; 2 req/sec to private platforms.
 6. **Respect robots.txt** for any non-government source.
@@ -498,15 +498,15 @@ At 126 countries × 41 sections, refreshing everything quarterly is ~46 hours of
 
 | Tier | Cadence | Count | Rationale |
 |---|---|---:|---|
-| **A** | Quarterly (90 d) | 15 | High-volume foreign-buyer markets with frequent regulatory change. Tax/visa/rental rules shift mid-year; numeric benchmarks move quarterly. |
-| **B** | Semi-annual (180 d) | 30 | Stable mid-volume markets. Numbers drift slowly; major reforms hit a 6-month cycle reliably. |
-| **C** | Annual (365 d) | 42 | Smaller markets, microstates, frontier jurisdictions. Foundational data is stable; targeted patches happen via regulatory-watch override, not the cadence. |
+| **A** | Quarterly (90 d) | 16 | High-volume foreign-buyer markets with frequent regulatory change. Tax/visa/rental rules shift mid-year; numeric benchmarks move quarterly. |
+| **B** | Semi-annual (180 d) | 38 | Stable mid-volume markets. Numbers drift slowly; major reforms hit a 6-month cycle reliably. |
+| **C** | Annual (365 d) | 72 | Smaller markets, microstates, frontier jurisdictions. Foundational data is stable; targeted patches happen via regulatory-watch override, not the cadence. |
 
 **Tier membership** (canonical list — see `config/_tiers.json` for machine-readable form):
 
-- **Tier-A**: `fr, it, es, de, uk, us, pt, ie, nl, at, gr, tr, ae, au, ch`
-- **Tier-B**: `be, dk, fi, no, se, is, lu, mt, cy, pl, cz, sk, hu, ro, bg, hr, si, ee, lv, lt, ca, nz, jp, kr, sg, hk, tw, il, mx, br`
-- **Tier-C**: `li, ad, mc, ar, cr, pa, do, co, uy, cl, pe, ec, py, rs, me, ba, mk, al, th, my, id, vn, ph, in, za, ma, eg, tn, ng, ke, ge, md, am, az, mo, qa, sa, jo, om, bh, kw, lb`
+- **Tier-A** (16): `fr, it, es, de, uk, us, pt, ie, nl, at, gr, tr, ae, au, ch, kz`
+- **Tier-B** (38): `be, dk, fi, no, se, is, lu, mt, cy, pl, cz, sk, hu, ro, bg, hr, si, ee, lv, lt, ca, nz, jp, kr, sg, hk, tw, il, mx, br, mu, cv, bs, cn, bb, lk, kh, uz`
+- **Tier-C** (72): `ad, al, am, ar, aw, az, ba, bh, bq, bz, cl, co, cr, cw, do, ec, eg, fo, ge, gg, gh, gi, gl, id, im, in, je, jm, jo, ke, kw, lb, li, ma, mc, md, me, mk, mo, mv, my, ng, om, pa, pe, ph, py, qa, rs, rw, sa, sc, sm, sx, th, tn, uy, vn, za, ky, bm, tc, vg, kn, ag, lc, gd, na, bw, vu, tt, pk`
 
 ### Tier invocation
 
@@ -523,7 +523,7 @@ At 126 countries × 41 sections, refreshing everything quarterly is ~46 hours of
 
 When a Tier-1 or Tier-2 entry lands in `shared/regulatory-watch.md` for a Tier-B or Tier-C country, that country is auto-promoted to Tier-A for the NEXT refresh cycle only, then reverts. Tracked via the `regulatory-watch-revisit` workflow.
 
-The mechanism: the `regwatch_promotion` rule in `config/_tiers.json` triggers when an entry's `enacted_date` is within the last 90 days. The next Tier-A cron run picks up the promoted country alongside the canonical 15.
+The mechanism: the `regwatch_promotion` rule in `config/_tiers.json` triggers when an entry's `enacted_date` is within the last 90 days. The next Tier-A cron run picks up the promoted country alongside the canonical 16.
 
 ### Manual override
 
@@ -540,9 +540,9 @@ Use `--include` when a Tier-C country has a known reform mid-cycle; use `--exclu
 |---|---|---|
 | `--validate-only` (all countries) | **Weekly** | ~5 min via `url-liveness.yml` cron |
 | `--health-report` | **Monthly** | ~1 min via `health-report.yml` cron |
-| `--update --tier=A` | **Quarterly** | ~7-8 hr (15 countries × ~30 min) |
-| `--update --tier=B` | **Semi-annual** | ~15 hr (30 countries × ~30 min) |
-| `--update --tier=C` | **Annual** | ~21 hr (42 countries × ~30 min) |
+| `--update --tier=A` | **Quarterly** | ~8 hr (16 countries × ~30 min) |
+| `--update --tier=B` | **Semi-annual** | ~19 hr (38 countries × ~30 min) |
+| `--update --tier=C` | **Annual** | ~36 hr (72 countries × ~30 min) |
 | `--update --add=<iso2>` | **As needed** | ~30 min/country |
 
 ## Trigger events
@@ -562,11 +562,11 @@ Run `--update` after any of these news triggers:
 For automated maintenance, encourage the user to schedule by tier:
 
 ```
-/schedule weekly: /property-deep-dive --update --validate-only          # URL liveness, all 87
+/schedule weekly: /property-deep-dive --update --validate-only          # URL liveness, all 126
 /schedule monthly: /property-deep-dive --health-report                  # decay matrix
-/schedule quarterly: /property-deep-dive --update --tier=A              # 15 high-velocity markets
-/schedule semi-annually: /property-deep-dive --update --tier=B          # 30 mid-volume markets
-/schedule annually: /property-deep-dive --update --tier=C               # 42 stable/frontier markets
+/schedule quarterly: /property-deep-dive --update --tier=A              # 16 high-velocity markets
+/schedule semi-annually: /property-deep-dive --update --tier=B          # 38 mid-volume markets
+/schedule annually: /property-deep-dive --update --tier=C               # 72 stable/frontier markets
 ```
 
 The repo-side equivalents are GitHub Actions workflows:

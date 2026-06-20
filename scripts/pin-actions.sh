@@ -51,13 +51,13 @@ resolve_sha() {
   local repo
   repo=$(printf '%s' "$action" | cut -d/ -f1,2)
 
-  # Tag may be either a lightweight tag (returns commit SHA) or annotated tag (returns tag SHA → dereference).
+  # The commits/{tag} endpoint dereferences BOTH lightweight and annotated tags
+  # to the underlying commit SHA — so a single call is correct and safe. (A
+  # git/ref/tags fallback can return an annotated-tag OBJECT sha that still
+  # passes the 40-hex shape guard below, which is wrong; don't use it.)
   local sha
   sha=$(gh api "repos/${repo}/commits/${tag}" --jq '.sha' 2>/dev/null || true)
-  if [ -z "$sha" ] || [[ "$sha" == *'"message"'* ]]; then
-    sha=$(gh api "repos/${repo}/git/ref/tags/${tag}" --jq '.object.sha' 2>/dev/null || true)
-  fi
-  # Defensive: if we still got an error blob (or empty), return empty so caller skips.
+  # Defensive: if we got an error blob (or empty), return empty so caller skips.
   if [[ "$sha" == *'"message"'* ]] || [[ ! "$sha" =~ ^[a-f0-9]{40}$ ]]; then
     sha=""
   fi

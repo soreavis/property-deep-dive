@@ -125,7 +125,18 @@ If a whole section couldn't be filled (e.g., country playbook is scaffold-only a
 2. <step 2>
 ```
 
-### Check 7: Contradiction surfacing
+### Check 7: Foreign-language preservation
+
+Every native-language statute, regulator, document form, registry, programme, court, or tax name in the draft MUST appear in its original form alongside the English gloss — the native term primary, the translation as the gloss:
+
+```
+Code civil Art. 682 (French Civil Code Article 682)
+Modelo 720 (Spanish foreign-asset declaration form)
+```
+
+Scan the draft for any English-only paraphrase of a native legal term (e.g. "the French Civil Code Article 682" with no `Code civil Art. 682` next to it) and add it to the fix-pass list before output: the reader must be able to search, cite, or query the original term at the regulator or with a local lawyer. Policy, format patterns, and the full applies/exempt list are in `shared/foreign-language-preservation.md`.
+
+### Check 8: Contradiction surfacing
 
 If during the run two sources gave conflicting numbers (e.g., commune avg €/m² of €896 from netvendeur vs €912 from impots-locaux), the output explicitly says:
 

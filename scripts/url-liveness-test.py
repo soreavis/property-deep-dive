@@ -9,7 +9,6 @@ Run: python3 scripts/url-liveness-test.py
 
 from __future__ import annotations
 
-import json
 import sys
 import unittest
 from datetime import datetime, timedelta, timezone
@@ -344,7 +343,7 @@ class TestExtractURLs(unittest.TestCase):
     """Smoke-test the extractor against a tmp md file."""
 
     def test_extracts_simple_urls(self):
-        import tempfile, os
+        import tempfile
         orig_root = UL.ROOT
         try:
             with tempfile.TemporaryDirectory() as tmp:

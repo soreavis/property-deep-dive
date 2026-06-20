@@ -45,6 +45,8 @@ Given an address — `1 Rue Principale, 86430 Adriers, France`, `https://www.rig
 
 **Decision-context (8)** — `--compare=<iso2,...>` `--retirement` `--digital-nomad` `--macro` `--demographics` `--schools` (foreign-buyer schools / education-access layer for working-age families with school-age dependents — international school landscape per major city + IB/British/American/French Lycée AEFE/German Schule + Nord Anglia/Cognita/GEMS/ISP/Globeducate/Inspired/QSI networks; annual fee bands USD 3-80k; waitlist horizons weeks-to-decade; local public school landscape + language-of-instruction; catchment-area / residency-priority rules driving 30-300% property-value premium in CN xuequ + US public-school-district + AU NSW selective + NZ Auckland Grammar zone + UK London catchment; UK 1 Jan 2025 20% VAT shock + AE KHDA/ADEK ratings + post-disaster crisis disruption) `--esg` `--exit`
 
+**Ownership-diligence (7)** — `--property-management` · `--renovation` · `--surveyor` · `--inherited-noncompliance` · `--squatter` · `--latent-defect` · `--title-monitoring`
+
 ### Cross-cutting layers (4)
 
 `--integrity` (4 data-honesty checks) · `--journey=<type>` (7 templates: pre-offer / post-offer / foreign-buyer / investor / renovation / gite-bnb / inheritance) · `--type=<kind>` (6 specialised templates: off-plan / auction / probate / plot-only / heritage / apartment-vs-house — additional flags `mixed`, `agricultural`, `coastal`, `commercial` are recognised by the dispatcher but currently render only standard sections) · `--update` (maintenance mode with auto-downgrade rule)
@@ -157,7 +159,7 @@ See [Usage](#usage) below for the full flag reference and more examples.
 
 ```
 /property-deep-dive 1 Rue Principale, 86430 Adriers, France --all
-→ detects FR by postcode, runs all 31 default sections (`--cross-border` is opt-in), prints to terminal
+→ detects FR by postcode, runs all 40 default sections (`--cross-border` is opt-in), prints to terminal
 
 /property-deep-dive --country=de Friedrichstraße 100, 10117 Berlin --tax --risks --save
 → Germany, tax + risks only, save to _local/reports/
@@ -187,7 +189,7 @@ Running this skill in Claude Code (or Cowork) consumes tokens proportional to wh
 |---|---:|---|
 | `SKILL.md` (router + argument-hint + country matrix) | ~7,100 tokens | Always |
 | `shared/preflight.md` (country detection) | ~2,100 tokens | Always |
-| `shared/anti-hallucination.md` (7 mandatory checks) | ~3,500 tokens | Always |
+| `shared/anti-hallucination.md` (8 mandatory checks) | ~3,500 tokens | Always |
 | `shared/sections.md` (universal section contract) | ~8,100 tokens | Any section flag |
 | `shared/output-template.md` | ~1,600 tokens | Any output |
 | **Always-on subtotal** | **~16-22K tokens** | |
@@ -321,7 +323,7 @@ property-deep-dive/
 ├── config/
 │   ├── _regions.json                 # docs-build input — country region grouping
 │   ├── _tiers.json                   # refresh-cadence tier membership (A 90d / B 180d / C 365d)
-│   └── _visa-programs.json           # source of truth for --visa (192 records, 13 regions; shared/visa-programs.md auto-renders from this)
+│   └── _visa-programs.json           # source of truth for --visa (201 records, 16 regions; shared/visa-programs.md auto-renders from this)
 ├── .editorconfig                     # cross-editor consistency
 ├── .markdownlint.json                # markdown lint rules used by pr-validate
 ├── .gitignore
@@ -369,9 +371,10 @@ property-deep-dive/
 │       ├── release-notes.yml            # auto-classify on tag push, draft release body
 │       ├── sign-release.yml             # sigstore keyless signing of release tarball
 │       └── year-roll-reminder.yml       # December reminder to update year-stamped references
-├── scripts/
+├── scripts/  (selection — see scripts/ for the full set)
 │   ├── audit-confidence.py           # primary-source URL count vs declared Confidence per playbook
 │   ├── audit-visa-programs.py        # lint country playbook claims against config/_visa-programs.json status
+│   ├── next-version.py               # CalVer next-version single source of truth (--write / --check)
 │   ├── pin-actions.sh                # idempotent SHA-pin third-party actions
 │   ├── primary-source-allowlist.txt  # central banks + statistics agencies for confidence-audit allowlist
 │   ├── regwatch_promotions.py        # parses regulatory-watch.md for Tier-1/2 entries → auto-promotion list
@@ -379,7 +382,7 @@ property-deep-dive/
 │   └── sync-docs.py                  # auto-sync counts + AUTOGEN blocks across community markdown
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~610 lines)
-    ├── shared/                       # 48 top-level universal layer files (~17,500 lines)
+    ├── shared/                       # 72 top-level universal layer files (~26,100 lines)
     │   │                             #   + shared/exit/ subdirectory (14 region files, ~1,000 lines, loaded on demand)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
     │   ├── 24 section implementations (universal logic + per-country tables/overlays)
@@ -398,7 +401,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 199 markdown files, ~104,900 lines (SKILL.md + shared/ section library + 126 country playbooks).
-**Repo total**: 226 markdown files, ~109,000 lines (skill content + community / governance files + CHANGELOG) · 39 YAML / JSON config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 227 markdown files, ~109,000 lines (skill content + community / governance files + CHANGELOG) · 39 YAML config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

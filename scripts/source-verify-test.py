@@ -150,11 +150,10 @@ class TestValueExtraction(unittest.TestCase):
 
     def test_no_double_count_money_as_year(self):
         # the digits in a money token must not also be claimed as a bare year
-        vals = SV.extract_values("USD 2025 fee")  # ambiguous; money span should win its offset
-        # at least it must not yield BOTH a money and an overlapping year for the same chars
-        spans_ok = True  # structural: collect() reserves spans; just assert it parses
-        self.assertTrue(spans_ok)
-        self.assertIn("money", {v.type for v in vals})
+        vals = SV.extract_values("USD 2025 fee")  # money span reserves the offset; YEAR_RE can't re-claim it
+        types = {v.type for v in vals}
+        self.assertIn("money", types)
+        self.assertNotIn("year", types)
 
 
 class TestSourceTier(unittest.TestCase):
@@ -563,8 +562,10 @@ class TestSettleChange(unittest.TestCase):
     def test_real_change_surfaces_next_run(self):
         # stable A; page changes to B and stays B → flagged on the 2nd B run
         stable, last = "A", "A"
-        c1, stable = SV._settle_change("OK", "B", last, stable); last = "B"   # flux
-        c2, stable = SV._settle_change("OK", "B", last, stable); last = "B"   # settled → flagged
+        c1, stable = SV._settle_change("OK", "B", last, stable)  # flux
+        last = "B"
+        c2, stable = SV._settle_change("OK", "B", last, stable)  # settled → flagged
+        last = "B"
         self.assertFalse(c1)
         self.assertTrue(c2)
         self.assertEqual(stable, "B")

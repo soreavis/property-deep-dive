@@ -11,6 +11,10 @@ ISO2: `fr`. Status: ✅ Fully populated.
 - Language: French (with German/Italian/Catalan/Basque regional pockets)
 - Cadastre: free public via `cadastre.gouv.fr`
 
+## DROM overlay (overseas départements)
+
+If the address resolves to one of the five **DROM** — postcode prefix **971 Guadeloupe (`gp`) · 972 Martinique (`mq`) · 973 Guyane (`gf`) · 974 La Réunion (`re`) · 976 Mayotte (`yt`)** — this metropolitan playbook still applies as the baseline (same *Code civil*, euro, *impots.gouv.fr*, *notaire*, cadastre framework), **but you MUST also load [`shared/fr-drom-overlay.md`](../../shared/fr-drom-overlay.md) and apply its deltas**: DROM-specific TVA rates, *octroi de mer*, *taxe foncière* abattements, majored notary *émoluments*, the Letchimy indivision regime, and per-DROM cyclone/seismic hazard profiles. The overlay lists ONLY the deltas — anything it does not override follows this playbook.
+
 ## Section: `--price`
 
 **Data sources** (priority order — primary first):

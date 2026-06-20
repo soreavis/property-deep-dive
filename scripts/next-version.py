@@ -29,7 +29,7 @@ Usage:
     - calendar month < version month  -> error (version is ahead of the calendar)
 
 Used by:
-- .github/workflows/version-month-guard.yml (--check) on every PR
+- .github/workflows/pr-validate.yml (version-month-guard job, --check) on every PR
 - the release-cut process: run it to get the exact version, then bump plugin.json
 """
 
@@ -66,9 +66,12 @@ def current_ym(override: str | None) -> tuple[int, int]:
     if override:
         try:
             y, mo = override.split("-")
-            return int(y), int(mo)
+            y, mo = int(y), int(mo)
         except ValueError:
             sys.exit(f"--month must be YYYY-MM, got '{override}'")
+        if not 1 <= mo <= 12:
+            sys.exit(f"--month must be YYYY-MM with month 01-12, got '{override}'")
+        return y, mo
     now = datetime.now(timezone.utc)
     return now.year, now.month
 

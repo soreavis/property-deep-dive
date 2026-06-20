@@ -52,7 +52,7 @@ Skip if it's a code question or a generic real-estate market question (no specif
 
 | Flag | What it produces |
 |---|---|
-| `--all` | All thirty-eight sections (default if no section flag specified — `--cross-border` is opt-in) |
+| `--all` | All sections except opt-in `--cross-border` (default if no section flag is specified) |
 | `--price` | Listing price vs commune €/m² (or local currency), comp listings, fair-value verdict |
 | `--traffic` | Traffic counts, road classification, count-derived road-noise verdict PLUS transport-noise extension (the other three noise modes — flight / rail / wind-turbine acoustic exposure read from published strategic noise maps + WHO 2018 health thresholds + wind-turbine dB statutes; classify-the-system spine 🟢 address-zoomable viewer / 🟡 END-mandated-but-geoportal-only / 🟠 airport-by-operator / 🔴 no map; map-band granularity never parcel-precise dB; 7 traps — universal logic in `shared/transport-noise.md`) |
 | `--tax` | Property tax + transaction tax + future revaluations |
@@ -135,6 +135,7 @@ Filename: `property-<country>-<commune-slug>-<section-or-all>-<YYYY-MM-DD>.md`. 
 1. **Parse `$ARGUMENTS`** — extract address, country (if explicit), flags, listing URL.
 2. **Country detection** — run the priority cascade above. If ambiguous, ask the user.
 3. **Load country playbook** — read `countries/<iso2>/playbook.md` from this skill folder. If the file doesn't exist, see "Unsupported country" below.
+   - **FR overseas (DROM)**: postcodes `971xx`/`972xx`/`973xx`/`974xx`/`976xx` (Guadeloupe / Martinique / Guyane / Réunion / Mayotte) detect as `fr` — load `countries/fr/playbook.md` AND additionally `shared/fr-drom-overlay.md` for the DROM-specific deltas.
 4. **Pre-flight (universal)** — see `shared/preflight.md`:
    - Geocode address (Nominatim) → (lat, lon, postal code, admin units, OSM road `osm_id`)
    - Identify the road via Overpass (ref, highway class, maxspeed)
@@ -157,9 +158,9 @@ The skill has a maintenance mode for keeping country playbooks fresh. Sources ch
 /property-deep-dive --update                              # update ALL populated countries
 /property-deep-dive --update=fr                           # one country
 /property-deep-dive --update=fr,it,cz,sk                  # selected list
-/property-deep-dive --update --tier=A                     # 15 high-velocity markets (quarterly)
-/property-deep-dive --update --tier=B                     # 30 mid-volume markets (semi-annual)
-/property-deep-dive --update --tier=C                     # 42 stable/frontier markets (annual)
+/property-deep-dive --update --tier=A                     # 16 high-velocity markets (quarterly)
+/property-deep-dive --update --tier=B                     # 38 mid-volume markets (semi-annual)
+/property-deep-dive --update --tier=C                     # 72 stable/frontier markets (annual)
 /property-deep-dive --update --tier=A --include=ge        # force-include a non-canonical country
 /property-deep-dive --update --tier=A --exclude=fr        # skip a canonical Tier-A country this cycle
 /property-deep-dive --update --validate-only              # URL liveness only (~5 min)
@@ -383,14 +384,14 @@ If a user passes an address from a country with no `countries/<iso2>/playbook.md
 
 ## Universal section concepts
 
-All countries' playbooks must implement the same thirty section interfaces, even if the underlying data sources differ. See `shared/sections.md` for the universal contract each section must satisfy.
+All countries' playbooks implement a consistent set of section interfaces, even if the underlying data sources differ. See `shared/sections.md` for the universal contract each section must satisfy.
 
 **Fifteen sections are fully universal** (no country-specific implementation required):
 
 Core data (3):
 - `--amenities` → `shared/amenities-osm.md`
 - `--climate` → `shared/climate-projections.md`
-- `--crime` → `shared/crime-sources.md` (44-country registry)
+- `--crime` → `shared/crime-sources.md` (116-country registry)
 
 Financial/process (5):
 - `--finance` → `shared/finance.md`
@@ -586,10 +587,10 @@ property-deep-dive/
     ├── sections.md              # universal contract for each of the 41 sections
     ├── output-template.md       # MD report template
     ├── verdict-bands.md         # 🟢🟡🟠🔴 conventions
-    ├── anti-hallucination.md    # 🔒 mandatory: source-honesty rules + 7-check validator gate
+    ├── anti-hallucination.md    # 🔒 mandatory: source-honesty rules + 8-check validator gate
     ├── updater.md               # 🔧 maintenance mode: --update flag, URL validation, scaffold population
     ├── amenities-osm.md         # universal OSM Overpass patterns for --amenities (works in every country)
-    ├── crime-sources.md         # per-country crime data source registry for --crime (126 countries)
+    ├── crime-sources.md         # per-country crime data source registry for --crime (116-country registry + universal extraction fallback)
     ├── climate-projections.md   # universal --climate section: Copernicus + IPCC AR6 + Climate Central
     ├── integrity-checks.md      # --integrity layer: dispute resolver + photo OCR + cadastre cross-check + red-flag scanner
     ├── journeys.md              # --journey=<type> templates
