@@ -68,6 +68,14 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - docs: refresh install.md release-tag refs 2026.05.59 -> 2026.06.0 ([#274](https://github.com/soreavis/property-deep-dive/pull/274)) — by @soreavis
 
+- fix(confidence-audit): recognize national-ccTLD government domains + enforce strict ([#277](https://github.com/soreavis/property-deep-dive/pull/277)) — by @soreavis
+
+- fix(sources): repoint 60 dead source URLs + retire 1 (browser-UA verified) ([#278](https://github.com/soreavis/property-deep-dive/pull/278)) — by @soreavis
+
+- fix: codebase quality sweep — code/CI/docs/consistency bugs ([#279](https://github.com/soreavis/property-deep-dive/pull/279)) — by @soreavis
+
+- fix: close three deferred follow-ups (url-liveness report · dormant ack · config doc) ([#280](https://github.com/soreavis/property-deep-dive/pull/280)) — by @soreavis
+
 ### Fixed
 
 - **Three deferred follow-ups from the quality sweep, now closed.** `url-liveness.yml` restores and uploads the `last-success.txt` timestamp as its own artifact and passes `--last-success-in` to the checker, so the run report's "Previous successful run" line is populated instead of always reading "(none recorded)". `audit-visa-programs.py` gained a `DORMANT` token in `NEEDS_ACK`, making the previously-unreachable `\bdormant\b` acknowledgement pattern live — the Quebec QIIP "effectively dormant" record is now audited (0 unacknowledged). And `config/_url-liveness.json`'s `_comment` now documents that `429`/`999` under `indeterminate_status_codes` are intercepted earlier by the `RATE_LIMITED`/`BOT_BLOCKED` branches in `_classify()` and never reach the indeterminate path (only `403`/`503` do).
