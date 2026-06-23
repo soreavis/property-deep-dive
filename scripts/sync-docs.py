@@ -35,7 +35,13 @@ SHARED_DIR = SKILL_DIR / 'shared'
 COUNTRIES_DIR = SKILL_DIR / 'countries'
 SKILL_MD = SKILL_DIR / 'SKILL.md'
 REGIONS_FILE = ROOT / 'config' / '_regions.json'
-EXCLUDE_DIRS = {'_local', '.git', 'node_modules'}
+# Local-only / cache dirs that must never count toward the doc totals. These
+# are absent in a clean CI checkout, so counting them locally would diverge the
+# `--check` gate from CI (e.g. a stray scripts/.pytest_cache/README.md inflating
+# total_md by 1). Do NOT add dotted dirs that hold real docs (e.g. .github holds
+# pull_request_template.md).
+EXCLUDE_DIRS = {'_local', '.git', 'node_modules',
+                '.pytest_cache', '__pycache__', '.ruff_cache', '.mypy_cache'}
 
 # ── Fact computation ──────────────────────────────────────────────────────
 
