@@ -76,6 +76,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix: close three deferred follow-ups (url-liveness report · dormant ack · config doc) ([#280](https://github.com/soreavis/property-deep-dive/pull/280)) — by @soreavis
 
+- docs: resync auto-generated repo-total line count ([#284](https://github.com/soreavis/property-deep-dive/pull/284)) — by @soreavis
+
 ### Fixed
 
 - **Three deferred follow-ups from the quality sweep, now closed.** `url-liveness.yml` restores and uploads the `last-success.txt` timestamp as its own artifact and passes `--last-success-in` to the checker, so the run report's "Previous successful run" line is populated instead of always reading "(none recorded)". `audit-visa-programs.py` gained a `DORMANT` token in `NEEDS_ACK`, making the previously-unreachable `\bdormant\b` acknowledgement pattern live — the Quebec QIIP "effectively dormant" record is now audited (0 unacknowledged). And `config/_url-liveness.json`'s `_comment` now documents that `429`/`999` under `indeterminate_status_codes` are intercepted earlier by the `RATE_LIMITED`/`BOT_BLOCKED` branches in `_classify()` and never reach the indeterminate path (only `403`/`503` do).
