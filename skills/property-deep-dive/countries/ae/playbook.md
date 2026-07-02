@@ -1,6 +1,6 @@
 # United Arab Emirates 🇦🇪 — Property Due-Diligence Playbook
 
-ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-01).
+ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-07-03 — Tier-A quarterly refresh).
 
 > **Critical framing**: The UAE is a **foreign-buyer-restricted market**. Non-GCC nationals can only acquire **freehold** in **designated freehold / investment zones** that vary by emirate. Outside those zones the maximum interest is leasehold or 99-year usufruct (Sharjah). Always confirm zone status with the relevant cadastre (DLD / ADREC / Sharjah Real Estate Reg.) **before** signing any reservation form. Currency risk vs USD is structurally zero — AED is pegged at **3.6725 to the USD since 1997** (Central Bank of the UAE).
 
@@ -46,6 +46,7 @@ This section determines whether a transaction is even legally possible. Confirm 
 - Dubai Marina, Downtown Dubai, Palm Jumeirah, Business Bay, Jumeirah Lake Towers (JLT), Jumeirah Village Circle (JVC), Jumeirah Beach Residence (JBR), Arabian Ranches, Damac Hills, Dubai Hills Estate, Emirates Hills, Meydan, MBR City, The Greens / The Views, Dubai Sports City, Dubai Silicon Oasis, International City, Discovery Gardens, Al Furjan, Town Square, Tilal Al Ghaf, Bluewaters Island, City Walk, Dubai Creek Harbour, and ~30+ more zones.
 - Authoritative list: DLD eServices portal → "Designated Areas" lookup or Dubai REST app.
 - **Outside designated areas**: non-GCC may obtain **leasehold up to 99 years** in some non-freehold districts (less common for residential investment).
+- **2025 freehold-zone expansion**: DLD amended Art. 3 of Regulation 3/2006 (announced Jan 2025) to let private plot owners in **Sheikh Zayed Road** (Trade Centre Roundabout → Water Canal, 128 plots) and **Al Jaddaf** (329 plots) convert leasehold → freehold, open to **all nationalities**. Conversion fee = **30% of DLD valuation** (on Gross Floor Area); common-area fees / service charges then set per RERA guidelines. Verify eligibility per-plot on Dubai REST. (2026-07-03 verified, source DLD news release + BSA Law for the instrument)
 
 ### Abu Dhabi
 
@@ -114,11 +115,11 @@ This section determines whether a transaction is even legally possible. Confirm 
 - **Houza**: `https://www.houza.com/`
 - **Luxhabitat**, **LuxuryProperty.com** (high-end)
 
-### Dubai citywide benchmarks (verified 2026-05-01)
+### Dubai citywide benchmarks (verified 2026-07-03)
 
-- **Citywide weighted-avg residential**: **AED 1,689 / sqft (~USD 460)** as of Dec 2025 — **+19.8% YoY** (REIDIN / Property Monitor December 2025 report — verify current month)
-- **Q4 2025 quarterly transaction value**: **AED 187.5 bn (+26.86% YoY)** (Property Monitor monthly market report)
-- **Villas outperformed apartments**: villas **+15.16%** vs apartments **+12.52%** YoY in REIDIN index (Dec 2025)
+- **Citywide weighted-avg residential (ready)**: **AED ~1,691 / sqft (~USD 460)** as of Q1 2026 — **+5.62% YoY** (ValuStrat Q1 2026, via Global Property Guide). Off-plan ran hotter: AED 2,030/sqft, +12.22% YoY. Growth has cooled sharply from the +19.8% YoY printed for Dec 2025 — note that figure was REIDIN/Property Monitor, a different index, so read the deceleration as directional (corroborated: REIDIN +10.79% YoY Feb 2026): the price *level* held while momentum normalised. (2026-07-03 verified) — cross-check current month on DLD Open Data / REIDIN.
+- **Q1 2026 residential transaction value**: **AED ~137–143 bn (+19–22% YoY)** across ~45k residential deals (Property Monitor: AED 143.1 bn, +22.2% YoY, 44,743 units; REIDIN: AED 137.3 bn / 45,221 transactions, off-plan AED 103.4 bn of that). All-property incl. land/commercial ~AED 176.5 bn per DXBinteract (aggregator social post — verify on dxbinteract.com). (2026-07-03 verified — quarterly figure, re-pull each quarter.)
+- **Villas outperformed apartments**: villas **+15.16%** vs apartments **+12.52%** YoY in REIDIN index (Dec 2025); the villa/apartment gap widened into 2026 as apartment momentum cooled faster (Property Monitor Q1 2026)
 
 ### Premium-zone benchmarks (Q4 2025 / latest cited)
 
@@ -153,6 +154,8 @@ This section determines whether a transaction is even legally possible. Confirm 
 | **Abu Dhabi citywide** | apartment | ~AED 1,296 | Knight Frank Q2 2025 | +17.3% |
 | **Abu Dhabi citywide** | villa | ~AED 1,103 | Knight Frank Q2 2025 | (+42.3% since Q1 2020) |
 | **Abu Dhabi citywide** | blended (all stock, hedonic index) | ~AED 1,005 | ValuStrat Q3 2025 | +9.0% |
+
+**Abu Dhabi citywide (Q1 2026, ValuStrat via Global Property Guide):** ready homes ~AED 1,507/sqft (~USD 410) — **+25.06% YoY**; off-plan ~AED 2,191/sqft (~USD 597), +17.99% YoY. AD momentum now outpaces Dubai. Pair with the Jun 2026 ADREC rent freeze (see `--rental`), which caps AD rental growth for any yield read-across. (2026-07-03 verified)
 
 **Rental yields (Bayut FY 2025 — ROI on listed prices, gross):** Saadiyat villa 4.47% · Saadiyat apt 4.05% · Yas villa 5.43% · Yas apt 7.07% · Al Reem apt **7.49%** (the highest mid-tier yield in Abu Dhabi).
 
@@ -298,6 +301,7 @@ What residents do pay annually:
 
 - 2025 reform: **Smart Rental Index** assigns a **1–5 star rating** per residential building (DLD/RERA, Jan 2025) that feeds into the index value used for the Decree 43/2013 rent-increase brackets (DLD Smart Rental Index portal `https://dubailand.gov.ae/en/eservices/rental-index/`) (2026-05-27 verified).
 - 90-day notice prior to renewal required for rent increases (**Dubai Law 26/2007 as amended by Law 33/2008** for renewal notice; rent-increase brackets per **Dubai Decree 43/2013** — Determining Rent Increase for Real Property). (Prior playbook reference to "Decree 26/2013" was incorrect — Decree 26/2013 established the Rental Disputes Settlement Centre, a different instrument.) (2026-05-27 verified, source Al Tamimi + DLP Dubai legislation portal)
+- **Abu Dhabi rent freeze (Jun 2026)**: ADREC suspended all rent increases on renewals and new lettings (residential / commercial / industrial) **until further notice** — benchmark = last registered Tawtheeq/Tamleek rent; ADGM carve-out. Model AD rental yields flat until lifted. (2026-07-03 verified via Gulf News 2 Jun 2026 + Baker McKenzie — confirm current status on adrec.gov.ae)
 
 ### Short-term rentals (holiday homes)
 
@@ -623,13 +627,13 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 
 ## Status
 
-✅ **Fully populated** as of 2026-05-01.
+✅ **Fully populated** (initially populated 2026-05-01).
 
 **Coverage check**: foreign-buyer eligibility, price, traffic, tax, rental, work, risks, mains all have primary government / regulated entity sources + cost benchmarks + caveats; Golden Visa + Retirement Visa thresholds verified vs ICP guidance; DLD fees verified vs DLD eServices.
 
 **Confidence**: **HIGH** for federal-level rules (Golden Visa / Retirement Visa thresholds, VAT regime, Corporate Tax, AED peg, AML), Dubai DLD transfer fee + service-charge framework + Smart Rental Index brackets + DET holiday-home permit, ADREC 2% + Abu Dhabi Law 13/2019 (amending Law 19/2005) framework, DIFC/ADGM Wills + Dubai Law 2/2025, Apr 2024 flood event + Tasreef response. **MEDIUM** for emirate-by-emirate detail outside Dubai/Abu Dhabi (RAK/Ajman/Fujairah/UAQ less standardised — designated zones verified per source but precise transfer fee schedules vary and need per-deal confirmation with the relevant municipality), Abu Dhabi citywide pricing benchmarks (less granular open data than Dubai), Sharjah usufruct vs freehold-for-Arabs distinction (verify with SRERD per nationality).
 
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 
 ## Extension TODOs (deepen on first real run)
 

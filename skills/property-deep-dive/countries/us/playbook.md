@@ -35,8 +35,8 @@ ISO2: `us`. Status: ✅ Federal overview populated (researched 2026-05).
 
 ### National benchmarks (current)
 
-- **NAR existing-home median sale price**: **$408,800 (March 2026)** — record for the month of March (source: [NAR Mar 2026 release](https://www.nar.realtor/newsroom/nar-existing-home-sales-report-shows-3-6-decrease-in-march))
-- **FHFA HPI**: +1.7 % YoY (Feb 2025 → Feb 2026); flat MoM Feb 2026 (source: [FHFA HPI Feb 2026](https://www.fhfa.gov/news/news-release/fhfa-house-price-index-unchanged-in-february-up-1.7-percent-from-last-year))
+- **NAR existing-home median sale price**: **$429,300 (May 2026)** — highest price ever recorded for the month of May; +1.3 % YoY (vs $423,700 May 2025), 35th consecutive month of YoY increases; SAAR 4.17M (+3.2 % YoY); 4.5-month inventory (source: [NAR May 2026 release](https://www.nar.realtor/newsroom/nar-existing-home-sales-report-shows-3-2-increase-in-may))
+- **FHFA HPI**: +2.0 % YoY (Apr 2025 → Apr 2026); −0.1 % MoM Apr 2026 (source: [FHFA HPI Apr 2026, pub. 30 Jun 2026](https://www.fhfa.gov/news/news-release/fhfa-house-price-index-down-0.1-percent-in-april-up-2.0-percent-from-last-year)) — next release 28 Jul 2026 (May data)
 - **NAR 2026 forecast**: downgraded amid lackluster spring 2026 buying season — verify current with NAR
 
 ### Local price discovery — verification path
@@ -101,7 +101,7 @@ There is no national MLS public price search. To get a parcel-level / neighborho
 |---|---|---|
 | **§ 121 capital gains exclusion (primary residence)** | **$250,000 single / $500,000 MFJ** — must own + use as principal residence ≥ 2 of last 5 yrs; usable once per 2 yrs. **NOT indexed to inflation since 1997.** | [26 USC 121](https://www.law.cornell.edu/uscode/text/26/121); [IRS Pub 523 (2025)](https://www.irs.gov/publications/p523) |
 | **Mortgage interest deduction (MID) cap** | **$750,000 acquisition debt** for loans originated after 15 Dec 2017. **Made permanent by OBBBA (PL 119-21, 4 Jul 2025)** — sunset to $1M was eliminated. | [IRS One Big Beautiful Bill Provisions](https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions) |
-| **SALT (state & local tax) deduction cap** | **$40,000** (raised from $10,000 by OBBBA, effective 2025); phases down for MAGI > $500k joint / $250k single (30¢ per $ over); floor $10,000. **Scheduled to revert in 2030.** | [IRS OBBBA Provisions](https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions) |
+| **SALT (state & local tax) deduction cap** | **$40,000 (2025); $40,400 (2026, indexed +1 %/yr through 2029)** — raised from $10,000 by OBBBA; phases down at 30¢ per $ of MAGI over $500,000 (threshold also indexed — $505,000 for 2026 per Rev. Proc. 2025-32 as reported; MFS gets half: $20,000 cap / $250,000 threshold / $5,000 floor); floor $10,000. **Reverts to $10,000 in 2030.** | [IRS OBBBA Provisions](https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions); [IRS 2026 inflation adjustments](https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill) |
 | **§ 25C Energy Efficient Home Improvement Credit** | Up to $1,200/yr (or $2,000 for heat pumps) — **TERMINATED for property placed in service after 31 Dec 2025** by OBBBA | [IRS FAQs OBBB §§ 25C 25D etc.](https://www.irs.gov/newsroom/faqs-for-modification-of-sections-25c-25d-25e-30c-30d-45l-45w-and-179d-under-public-law-119-21-139-stat-72-july-4-2025-commonly-known-as-the-one-big-beautiful-bill-obbb) |
 | **§ 25D Residential Clean Energy Credit (solar / geothermal etc.)** | 30 % — **TERMINATED for expenditures after 31 Dec 2025** by OBBBA | (same source) |
 | **§ 45L New Energy Efficient Home Credit** | Builder-side, modified by OBBBA — verify current | [IRS OBBBA Provisions](https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions) |
@@ -516,7 +516,7 @@ There is **no national database** of household water/sewer connections. To verif
 - **Federal mandatory disclosure: LBP only** — everything else is state-specific (CA + TX have extensive forms; MA caveat-emptor)
 - **FIRPTA exposure for foreign sellers**: 15 % gross-proceeds withholding (or 10 % / 0 % per occupancy + price); buyer is withholding agent
 - **$60,000 federal estate exemption for non-domiciliary aliens** (vs $15M for citizens, 2026) — major risk for foreign individual ownership; mitigate via foreign blocker corp / trust / treaty
-- **State foreign-buyer restrictions multiplying**: ~36 states have laws as of end-2025; Texas SB 17 (signed 20 Jun 2025, eff 1 Sep 2025) prohibits direct + indirect ownership + leases ≥ 1 yr by foreign adversaries; Florida SB 264 (eff 1 Jul 2023) bans agricultural land + within 10 mi of military for "foreign countries of concern" (CN, RU, IR, KP, CU, VE-Maduro, SY); Kentucky / Utah / W. Virginia added new restrictions 2025; AR / GA / ID / NE / TN / UT amended (source: [Nat'l Ag Law Center 2025 recap](https://nationalaglawcenter.org/2025-legislative-recap-continued-expansion-of-state-level-foreign-ownership-restrictions/))
+- **State foreign-buyer restrictions multiplying — no single authoritative count**: **~29 states** have enacted foreign-ownership restrictions on *agricultural land* ([Nat'l Ag Law Center FAQ](https://nationalaglawcenter.org/foreign-investments-in-ag/), 2026), while **38 states** saw broader foreign-adversary property bans introduced/advanced in 2025, of which **15 enacted** ([MultiState, Jan 2026](https://www.multistate.us/insider/2026/1/26/foreign-adversary-property-bans-advanced-across-38-states-in-2025)) — the spread is a scope difference (ag-land-only vs all real property; enacted vs advanced), not a factual conflict. Texas SB 17 (signed 20 Jun 2025, eff 1 Sep 2025) prohibits direct + indirect ownership + leases ≥ 1 yr by foreign adversaries; Florida SB 264 (eff 1 Jul 2023) bans agricultural land + within 10 mi of military for "foreign countries of concern" (CN, RU, IR, KP, CU, VE-Maduro, SY); **2025**: AZ / KY / TX / WV enacted new restrictions; AR / GA / ID / NE / TN / UT amended (NALC). **2026 session**: 7 more states enacted new/amended laws — IN SB 256; LA SB 200/466 + HB 192/816; MS SB 2341; OK HB 3431; SD SB 40 (eff 1 Jul 2026); TN SB 2233/2424; UT HB 291 — with 25 states considering bills (per NALC FAQ — verify current there before relying).
 - **CFIUS Part 802** (Treasury) — foreign-person purchases within 1 mile (or 100 mi for Part 2) of 200+ military installations subject to review; expanded **9 Dec 2024** to add 59 sites
 - **NFIP Risk Rating 2.0** fully implemented **1 Apr 2023**: flood premiums now per-property risk-priced; some properties saw substantial increases (capped at 18 %/yr by statute) — verify quote before closing
 - **OBBBA (4 Jul 2025) overhaul**: SALT $40k cap (sunset 2030), MID $750k permanent, 25C/25D terminated 31 Dec 2025, estate exemption $15M (2026) — verify all federal-tax claims as of date of read
@@ -641,20 +641,20 @@ There is **no national database** of household water/sewer connections. To verif
 
 ## Status
 
-✅ **Federal overview fully populated** as of 2026-05-01.
+✅ **Federal overview fully populated** (initially populated 2026-05-01).
 
 **Coverage check**: federal-level constants for tax (FIRPTA + § 121 + MID + SALT + NRA estate), risk (FEMA + USGS + USFS + NOAA + EPA), mains (SDWA + LCRI), rental (Schedule E/C + § 469), and disclosure (Title X LBP) — all with primary government sources and date-stamped figures. State / county verification paths provided for property tax, transfer tax, sale-price disclosure, mandatory disclosures, STR regulation, mains connection, and licensing.
 
 **Confidence**: **HIGH** for federal tax / risk / disclosure / mains constants (all sourced to IRS / FEMA / USGS / USFS / EPA / Treasury primary government with citations and 2025-2026 dates). **MEDIUM** for state-by-state aggregates (range only — e.g., effective property tax rate 0.33 %–1.84 %; verify locally). **MEDIUM** for state foreign-buyer regime (rapidly evolving — 9 new state laws in 2025 alone).
 
-**Last verified**: 2026-05-01.
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 
 **2026 watch items** (revisit each ≤ 6 months):
 
 - **OBBBA implementation guidance** — Treasury / IRS continues releasing rules through 2026 on §§ 25C/25D termination mechanics, SALT-cap MAGI phaseout, estate-tax $15M base, MID permanence
 - **State foreign-buyer expansions** — multiple state legislatures considering 2026 sessions; National Ag Law Center tracker is canonical
 - **CFIUS Part 802** — supplemental rules likely on energy-grid + critical-mineral proximity
-- **NFIP reauthorization** — periodic short-term extensions; long-term reform pending
+- **NFIP reauthorization** — authorization currently extended to **30 Sep 2026** (legislation signed 3 Feb 2026); Congress must reauthorize by 11:59 p.m. 30 Sep 2026 or new flood-insurance contracts halt. NFIP endured its **longest-ever lapse (43 days)** during the Oct–Nov 2025 shutdown (restored retroactively to 1 Oct 2025 by HR 5371). Buyers needing NFIP for a federally-backed-mortgage closing must confirm the program is authorized on the closing date.
 - **LCRI compliance ramp** — utilities ramping up for 1 Nov 2027 deadline; may surface lead-service-line replacement costs to homeowners
 - **Insurance market** — FL / CA / LA / CO carrier exits continuing; FAIR-plan capacity stretched
 - **NAR settlement (Aug 2024) follow-on** — buyer-agent commission practice still settling; DOJ antitrust probe (Participation Rule + Clear Cooperation Policy) is **separate + still open** (SCOTUS denied NAR cert 13 Jan 2025); states codifying (CA AB 2992 eff 1 Jan 2026); verify current state contract forms

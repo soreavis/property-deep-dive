@@ -6,7 +6,7 @@ ISO2: `kz`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Population**: ~20.3 million (2025 Bureau of National Statistics — BNS / Бюро национальной статистики); Almaty (largest, former capital) ~2.2M, Astana (capital since 1997, renamed from Nur-Sultan back to Astana in 2022) ~1.5M, Shymkent ~1.3M (city of republican significance), Karaganda ~510k, Aktobe ~540k, Aktau ~205k (Caspian)
 - **GDP per capita**: ~US$13,400 nominal (2024 IMF / World Bank); real GDP +4.8 % 2024 (BNS preliminary); largest Central Asian economy by output, oil + uranium + grain leadership
-- **Currency**: **KZT** (Kazakhstani tenge / қазақстан теңгесі / казахстанский тенге). 1 USD ≈ **463–520 KZT** (free-float since Aug 2015 devaluation; National Bank reference rate via [nationalbank.kz](https://nationalbank.kz/en/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut)); 1 EUR ≈ 510–570 KZT depending on USD/EUR cross. Q1 2026 USDKZT trading 462–470 (TradingEconomics; see `--currency`); end-2025 forecast band per Halyk Research was 550–560 — actual outcome lower than forecast on stabilisation. CPI inflation **10.6 % April 2026** (BNS); NBK refinancing rate **18.0 %** April 2026 (one of the highest in the broader region, signalling persistent disinflation effort).
+- **Currency**: **KZT** (Kazakhstani tenge / қазақстан теңгесі / казахстанский тенге). 1 USD ≈ **463–520 KZT** (free-float since Aug 2015 devaluation; National Bank reference rate via [nationalbank.kz](https://nationalbank.kz/en/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut)); 1 EUR ≈ 510–570 KZT depending on USD/EUR cross. Q1 2026 USDKZT hit a 462–470 low, since partly unwound to **~474–486 (June–early July 2026; NBK official 3 Jul 2026 = 474.47)** (TradingEconomics/NBK; see `--currency`); end-2025 forecast band per Halyk Research was 550–560 — actual outcome lower than forecast on stabilisation. CPI inflation **10.3 % June 2026 YoY** (down from 10.6 % Apr, 10.4 % May 2026; BNS/TradingEconomics) — easing but still above NBK's 4–5 % target; NBK 2026 forecast 9–11 %. NBK base rate **17.0 %** (cut from 18.0 % on 5 June 2026 — first cut since mid-2024; TradingEconomics + NBK; ±1 pp corridor; next decision 24 July 2026), among the highest in the broader region (2026-07-03 verified).
 - **Languages**: **Kazakh** (state language, қазақ тілі — Cyrillic script with phased Latin transition originally targeting 2025–2031, repeatedly deferred; verify current schedule); **Russian** (official-status "language of inter-ethnic communication" per Constitution Art. 7.2, dominant in business + Almaty/Astana CBD + technical fields); English limited to Almaty/Astana CBD + AIFC + IT sector + tourism
 - **EU/regional status**: **No EU candidate status**; member of **Eurasian Economic Union (EAEU)** with Russia/Belarus/Armenia/Kyrgyzstan (since 2015); **Shanghai Cooperation Organisation** founder; **Organisation of Turkic States**; Belt-and-Road Initiative key node; Trans-Caspian "Middle Corridor" anchor; balanced multi-vector foreign policy — geopolitical exposure to Russia (5,500+ km border) + China (1,800+ km border) is the structural baseline
 - **Postcode**: 6 digits, prefix 0 (e.g., Almaty central districts `050000`–`050063`, Astana `010000`–`020000`, Shymkent `160000`–`160024`)
@@ -61,6 +61,7 @@ Source: [BNS Real Estate Statistics](https://stat.gov.kz/) cross-referenced with
 - **2025 acceleration vs 2024**: primary +15.7 % YoY, secondary +14.6 % YoY (Halyk Research), driven by tighter developer rules, anticipated 2026 tax changes (new Tax Code, see `--tax`), pension fund withdrawals for housing (allowed since 2021), persistent inflation
 - **Almaty secondary 2024 → 2025**: +**25.4 %** YoY (highest in country per Halyk; The Astana Times Feb 2026 reporting)
 - **Russian relocation effect (2022–2026)**: Almaty + Astana average house prices **~40 % above 2021 levels** ([Times of Central Asia](https://timesca.com/how-the-russian-relocation-wave-reshaped-kazakhstans-economy/) 2024 analysis). Initial Sep 2022 panic surge subsided; ongoing structural demand from relocants who legalised status + transitioned tenant→owner
+- **2026 update (H1 2026)**: price growth continued into 2026 — primary **+17.0 % YoY (Jan)** and **+16.6 % YoY (Mar**; Astana +20.7 %, Almaty +20.2 %**)**, secondary **+13.6 % YoY (Jan)** per Halyk Finance monthly reviews of BNS data; existing-dwellings **+15.6 % YoY May 2026** (BNS via CEIC). The 16 % VAT applying to new housing from 1 Jan 2026 lifted primary asking prices ~+10–12 %. Mid-2026 the **new-build pipeline weakened**: new-build sales down ~20–25 % (developer/AERC estimates via Kursiv, Jun 2026) with demand concentrating in subsidised programmes (7-20-25, Nauryz, Otbasy) — though overall transaction counts were mixed (Jan −10.3 % YoY, Mar +2.7 % YoY per Halyk/BNS). Krisha forecast for full-2026: +8–10 % average, strongest in Almaty/Astana. (2026-07-03)
 
 ### Listing platforms
 
@@ -137,7 +138,7 @@ Source: [BNS Real Estate Statistics](https://stat.gov.kz/) cross-referenced with
 
 ### Currency note
 
-KZT, USD/KZT ≈ 463–520 (free-floating; April 2026 NBK rate 462–470). All tax computations in KZT; conversions in playbook use approximate 480 KZT/USD as a rounding mid-point — verify against current NBK rate.
+KZT, USD/KZT ≈ 463–520 (free-floating; **~474–486 June–early July 2026, NBK official** — 2026-07-03). All tax computations in KZT; conversions in playbook use approximate 480 KZT/USD as a rounding mid-point — verify against current NBK rate.
 
 ### Tax-code regime context
 
@@ -210,8 +211,8 @@ A Krisha listing: Almaty Bostandyk 70 m² 2-bedroom apartment, 2010 build, askin
 ### Capital gains tax (CGT) on sale
 
 Per Tax Code Art. 331 (current) + new Code 2026 carry-over (verify in [Adilet](https://adilet.zan.kz/eng/)):
-- **Resident individual**, residential immovable held **> 1 year** from registration date: **EXEMPT** from PIT on gain ([Native Teams Kazakhstan tax guide](https://i.nativeteams.com/assets/pdf/taxes/kazakhstan.pdf); Gratanet legal note)
-- **Held ≤ 1 year**: gain taxed at PIT rate (current 10 % flat for residents; from 1 Jan 2026 progressive 10 %/15 % above 8,500 MCI)
+- **Resident individual**, residential immovable held **≥ 2 years** from registration date: **EXEMPT** from PIT on gain — holding period raised from 1 year to 2 years by the new Tax Code for **properties acquired on/after 1 Jan 2026**; properties acquired ≤ 31 Dec 2025 keep the old **1-year** period (Krisha.kz 2026 rules explainer) (2026-07-03 verified)
+- **Held < 2 years** (< 1 year for pre-2026 acquisitions) AND sold at a gain: gain taxed at progressive PIT (10 % up to 8,500 MCI ≈ KZT 36.8 M for 2026, 15 % above). No gain → no tax regardless of holding period
 - **Non-resident individual** sale of KZ-located residential (any holding period): **15 % flat** on gross or net depending on whether buyer is a tax agent withholding (Tax Code Art. 644 + 645). 20 % rate if non-resident is from a tax-haven jurisdiction
 - **Capital gains general rate** (other property types, securities, etc.): **15 %** (resident or non-resident)
 
@@ -239,7 +240,7 @@ Per Tax Code Art. 331 (current) + new Code 2026 carry-over (verify in [Adilet](h
 
 - **New Tax Code took effect 1 Jan 2026**: monitor [KGD.gov.kz](https://kgd.gov.kz/en) for subordinate regulations + clarifications; transitional provisions for 2026 expected via amendments through 2026–2027
 - **VAT rate change**: standard rate **raised from 12 % to 16 %**, in force since 1 January 2026 under new Tax Code K2500000214 (2026-07-02 verified, source [eGov.kz Tax Code Q&A](https://egov.kz/cms/en/information/help/tax_code))
-- **Property tax modernisation**: speculation that KZ may introduce annual *market-value* property tax (currently cadastral-value system kept rates trivial); no concrete bill 2025–2026 — monitor Mazhilis tax committee
+- **Property tax on high-value real estate — ENACTED (new Tax Code Art. 600/602/604, in force 1 Jan 2026)**: for individuals, all owned residential objects are aggregated; if combined government-assessed value at 31 Dec of the tax year exceeds **KZT 450 M**, tax = **KZT 2,946,600 + 2 % of the excess over 450 M** (additive formula per Art. 602, KGD-confirmed; local maslikhats may raise it up to +50 % for housing). First applies to holdings at 31 Dec 2026, billed in 2027 (KGD via LS.kz). Owners at ≤ 450 M keep the old per-object progressive cadastral schedule — unchanged for a single mid-segment flat/house; base is government-assessed (well below market) value. Separate 10 % luxury excise applies to cars >75 M and yachts/jets >100 M — NOT to real estate. (2026-07-03 verified)
 - **Universal income declaration**: full rollout by 2025 — all residents must declare worldwide assets; foreign-property concealment fines = 3× MCI per concealed item (KPMG TBB 2025)
 - **Potential digital-asset taxation**: clarified in Aug 2025 Law No. 208-VIII for individuals; rules tightening through 2026
 
@@ -540,7 +541,7 @@ For an Almaty Bostandyk 2-bed (70 m², asking KZT 55 M / ~$115k) under STR:
 | **Water + sewer (Almaty Su residential metered)** | ~KZT 90–130/m³ for water + ~KZT 60–90/m³ for sewer (verify almatysu.kz current tariff) |
 | **District heating (Almaty CHPP via QazTransGaz Aimak / regional)** | ~KZT 3,500–5,500/Gcal residential subsidised (varies by CHPP + region) |
 
-(Tariffs indicative — KZ utility prices have been **suppressed below cost-recovery for decades** under populist tariff moratoriums; **moratorium ended 1 April 2026** per [Yerlan Kanel LinkedIn analysis](https://www.linkedin.com/posts/yerlan-kanel_why-kazakhstans-utility-tariffs-are-rising-activity-7446443843996123136-F0kA) → 4–5 % electricity tariff rise announced + multi-year tariff catchup expected through MEKS programme. **Material upward pressure on holding cost over 2026–2030**.)
+(Tariffs indicative — KZ utility prices were suppressed below cost-recovery for decades under populist moratoriums; **moratorium ended 1 April 2026**. Actual 2026 hikes exceed the initially-announced 4–5 %: the Almaty (Alatau Zharyk) supply-component tariff rose **~+13 % from 1 Apr 2026** (ex-VAT, per network schedule — verify retail bands at esalmaty.kz), expert forecasts put nationwide phased electricity rises at **10–20 %**, and regions rolled out **5-year (2026–2030) tariff schedules April–June 2026** under the 'тариф в обмен на инвестиции' (tariff-for-investment) policy; the 12 %→16 % VAT rise (1 Jan 2026) was passed straight through to bills. Increases capped at forecast inflation (~9–12 %). **Material upward pressure on holding cost over 2026–2030** — 2026-07-03 verified.)
 
 ### Energy supply context
 
@@ -606,9 +607,9 @@ Universal — see `shared/climate-projections.md`. National source: **Kazhydrome
 
 KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dynamics:
 
-- **NBK refinancing rate**: **18.0 % April 2026** (TradingEconomics) — among the highest in the broader region; persistent high-rate stance to anchor inflation expectations
-- **Inflation**: **10.6 % April 2026 YoY** — above NBK's 4–5 % target band; expected to ease H2 2026 per Halyk Research Q3 2025 macro report
-- **USDKZT trajectory 2020–2026**: 412 (2020 avg) → 511 (2025 avg) → 462–470 (Q1 2026) — 22 % cumulative depreciation over 5 years, partial recovery 2026
+- **NBK base rate**: **17.0 % (June 2026)** — cut 100 bps from 18.0 % on 5 June 2026, first reduction since mid-2024; still among the highest in the broader region; NBK 2026 inflation forecast revised down to 9–11 % (2026-07-03 verified)
+- **Inflation**: **10.3 % June 2026 YoY** (down from 10.6 % Apr, 10.4 % May 2026; BNS/TradingEconomics) — easing but still above NBK's 4–5 % target band; NBK 2026 forecast 9–11 %
+- **USDKZT trajectory 2020–2026**: 412 (2020 avg) → 511 (2025 avg) → 462–470 (Q1 2026 low) → **~474–486 (June–early July 2026; NBK official 3 Jul 2026 = 474.47)** — the early-2026 recovery partly unwound in June, then firmed again early July; check nationalbank.kz daily rate before any KZT conversion
 - **Exchange-rate exposure during purchase**: contracts denominated in USD between non-resident parties are common, but settlement of KZ-real-estate transactions must occur in **KZT** at NBK reference rate on transaction day per Currency Regulation Law No. 167-VI of 2018
 - **Capital controls**: relatively liberal vs Russia/Belarus; banks must report large transfers; AML/CFT scrutiny applies; outward transfers >$10k flagged; inward transfers free
 - **Tenge outlook**: Halyk Research forecasts 2026 KZT pressured by import growth + reduced National Fund FX sales; tenge depreciation may accelerate in absence of new National Fund transfers
@@ -663,19 +664,19 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 - **Foreigners CANNOT own agricultural land** (since 2021 ban); **CAN own** land "for construction" or "with existing buildings" only (Land Code Art. 23)
 - **Investor visa $300k** excludes real estate as qualifying investment — KZ property purchase ≠ residence pathway, unlike Türkiye/Greece/Portugal/UAE
 - **Cadastral USREC system unified 1 July 2023**: cadastral passport + technical passport now combined; verify all sales reflect post-2023 registration
-- **Annual property tax negligibly low** (~$5–$50/year for typical Almaty mid-segment flat) — among world's lowest
+- **Annual property tax negligibly low** (~$5–$50/year for a typical Almaty flat) — **except** high-value owners: combined assessed value >KZT 450 M pays KZT 2,946,600 + 2 % of the excess (Art. 602, tax year 2026 onward, first billed 2027) (2026-07-03)
 - **Transaction costs ~0.2–2.0 %** — among Asia/CIS lowest (no transfer tax, low notary, low USREC fees)
-- **CGT exemption after 1-year holding** for residents — short hold period vs most jurisdictions
+- **CGT exemption after 2-year holding** for residents (raised from 1 year for acquisitions from 1 Jan 2026; pre-2026 purchases keep 1 year) — still short vs most jurisdictions
 - **2026 progressive PIT** (10 %/15 % above 8,500 MCI) — verify rental + capital gains impact for high-end portfolios
 - **VAT rate change 1 Jan 2026** — verify exact new rate at KGD before relying
-- **Currency risk**: KZT free-floating, 22 % depreciation 2020–2025; high NBK rate 18 %; inflation 10.6 %
+- **Currency risk**: KZT free-floating, 22 % depreciation 2020–2025; high NBK base rate 17 % (cut from 18 % on 5 Jun 2026); inflation 10.3 % (Jun 2026)
 - **Almaty seismic exposure**: highest in country (MSK 9–10 zone); pre-1991 panel stock requires structural survey
 - **Almaty mudflow exposure**: foothill + canyon-mouth properties require Kazselezashchita / akimat zoning confirmation; Medeu dam protects upper Malaya Almatinka but other catchments variable
 - **Almaty winter air quality**: chronic PM2.5 spikes; HEPA filtration recommended; CHPP-3 modernisation 2025–2027 may improve
 - **Astana extreme cold**: -40 °C historical; heating-load + window-glazing class material to TCO
 - **Pension-fund withdrawal for housing** (since 2021): structural demand floor; partly explains 2022–2025 price acceleration alongside Russian relocation
 - **Russian relocation impact**: Almaty + Astana ~40 % above 2021 prices; "Golden Square" gentrification; mid-segment STR saturation
-- **Utility tariff moratorium ended 1 April 2026**: 4–5 % electricity rise + multi-year catchup expected through MEKS 2025–2029 → **upward pressure on holding cost**
+- **Utility tariff moratorium ended 1 April 2026**: actual 2026 hikes exceed the initial 4–5 % — Almaty (Alatau Zharyk) supply-component ~+13 % ex-VAT from 1 Apr 2026, nationwide electricity rises forecast 10–20 %, 5-year (2026–2030) regional schedules under 'tariff-for-investment', VAT 12→16 % passthrough → **upward pressure on holding cost** (2026-07-03)
 - **Heritage/Soviet-era panel-block trap**: 1955–1991 stock dominates Almaty mid-segment; asbestos + uneven seismic retrofit; commission independent structural survey
 - **Self-built (samostroy) legalisation history**: pre-2007 unpermitted construction was waved through several legalisation rounds; some titles look clean but lack original building permit — affects future renovation/extension
 - **HOA rules tightening**: post-2020 OSI mandatory replacing KSK; STR restrictions in newer building bylaws — verify before listing
@@ -755,6 +756,6 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 
 ## Status
 
-**Status**: ✅ fully populated as of 2026-05-07
+**Status**: ✅ fully populated (initially populated 2026-05-07)
 **Confidence**: HIGH for cadastre + tax (current 2025 + new Tax Code 2026 transition) + foreign-buyer rules (Land Code Art. 23 + Law on Legal Status of Foreigners Art. 9 + 2021 ag-land ban — multi-source corroborated against KPMG TIES 2025, PwC Tax Summary, Gratanet legal practitioner note, Adilet primary statute). MEDIUM for short-let regulation (no national STR statute as of 2025; municipal layer in flux), parcel-level seismic data (Almaty SP RK 2.03-31-2020 microzoning is district-level — parcel certification requires NCSOR request), parcel-level mudflow zoning (Kazselezashchita maps commune-level for Almaty foothill; parcel certification on request). LOW for VAT-rate-change exact landing post-1 Jan 2026 (verify at KGD before relying), 2026 MCI value (verify at MoF), and local Akimat 2026 property-tax coefficient adjustments.
-**Last verified**: 2026-05-27
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged)

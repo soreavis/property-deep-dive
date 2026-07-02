@@ -1,6 +1,6 @@
 # Ireland 🇮🇪 — Property Due-Diligence Playbook
 
-ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
+ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026-07-03).
 
 ## Country profile
 
@@ -47,6 +47,8 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 | **Limerick / Waterford** | 2,500–3,500 | 250,000–420,000 |
 | **Smaller cities** | 1,800–2,800 | 180,000–320,000 |
 | **Rural Connemara / Donegal / Mayo** | 1,200–2,200 | 150,000–280,000 |
+
+- **CSO RPPI (latest)**: national prices **+6.2% YoY to April 2026** (April 2026 data, source CSO RPPI April 2026 release). From the March 2026 release: Dublin +5.7%, outside Dublin +7.2%; national median dwelling price **€390,461** (12 months to March 2026, source CSO, published 13 May 2026). (2026-07-03 verified)
 
 ### Compute
 
@@ -103,13 +105,13 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 
 19 bands for properties valued up to €2.1M:
 
-| Band | Value range | Indicative annual LPT |
+| Band | Value range | Annual LPT charge |
 |---|---:|---:|
-| 1 | €1–€240,000 | ~€95 |
-| 2 | €240,001–€315,000 | ~€115 |
-| 3 | €315,001–€420,000 | ~€175 |
-| 4 | €420,001–€525,000 | ~€235 |
-| 5 | €525,001–€630,000 | ~€295 |
+| 1 | €1–€240,000 | €95 |
+| 2 | €240,001–€315,000 | €235 |
+| 3 | €315,001–€420,000 | €333 |
+| 4 | €420,001–€525,000 | €428 |
+| 5 | €525,001–€630,000 | €523 |
 | ... | ... | ... |
 | 19+ | up to €2.1M | progressive |
 
@@ -118,6 +120,11 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 - Properties under €525k pay **€5–€25 extra**
 - **LAVL** (Local Authority Variation): each county can adjust **±15%**
 - Significantly lower than UK Council Tax
+- (2026-07-03 verified; source [Revenue.ie LPT valuation bands and rates](https://www.revenue.ie/en/property/local-property-tax/valuing-your-property/valuation-bands-rates.aspx))
+
+### Vacant Homes Tax (VHT)
+
+- Additional charge on dwellings occupied <30 days in a chargeable period. **2026 rate = 7× the base LPT** (Finance Act 2024; was 3× 2022-23, 5× 2023-24). Self-assessed; separate from LPT. (2026-07-03 verified; source [Revenue.ie VHT rate](https://www.revenue.ie/en/property/vacant-homes-tax/apply/rate.aspx))
 
 ### Transaction taxes — Stamp Duty
 
@@ -127,11 +134,12 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 |---|---:|
 | Up to €1,000,000 | **1%** |
 | €1,000,001–€1,500,000 | **2%** |
-| Above €1,500,000 | **6%** (introduced 2024) |
-| Bulk-purchase (10+ properties) | **15%** (anti-investor measure 2021) |
+| Above €1,500,000 | **6%** (from 2 October 2024) |
+| Bulk-purchase (10+ residential properties in any 12 months, **apartments excluded**; s.31E SDCA 1999) | **15%** (raised from 10% w.e.f. 2 Oct 2024; 10% rate dated from 2021) |
 
+- (2026-07-03 verified; source [Revenue.ie stamp duty rates](https://www.revenue.ie/en/property/stamp-duty/property/stamp-duty-property/rates.aspx))
 - **First-time buyers**: same standard rates; **Help-to-Buy (HTB)** scheme provides separate up-to-€30k rebate
-- **Commercial / non-residential**: **7.5% flat** (raised from 6% in 2019, then to 7.5% in 2024)
+- **Commercial / non-residential**: **7.5% flat** (since 9 October 2019)
 
 ### Conveyancing
 
@@ -149,9 +157,9 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 
 ### VAT
 
-- New build: **13.5%** standard residential
-- Existing: VAT-exempt
-- Commercial new builds: 23%
+- New build houses: **13.5%**
+- New/completed **apartments**: **9%** (temporary, 8 Oct 2025 – 31 Dec 2030; Budget 2026 — per Citizens Information; confirm current rate in the Revenue VAT rates database) (2026-07-03 verified)
+- Existing: VAT-exempt; Commercial new builds: 23%
 
 ### Capital gains
 
@@ -186,7 +194,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 ### Long-term residential
 
 - **RTB (Residential Tenancies Board)**: `https://www.rtb.ie/` — registration mandatory within 1 month of new tenancy
-- **Rent Pressure Zones (RPZ)**: rent caps in tense areas (most cities); **2% annual cap** (or HICP if lower)
+- **Rent controls — nationwide since 20 June 2025**: the Residential Tenancies (Amendment) Act 2025 extended Rent Pressure Zones to the whole country. **From 1 March 2026, RPZs are replaced by a permanent national rent-control system** (Residential Tenancies (Miscellaneous Provisions) Act 2026, No. 3 of 2026) covering all private + student-specific tenancies. Annual increase cap: **2% or CPI, whichever is lower**. **New-build private apartments** (construction commenced after 10 June 2025) are exempt from the 2% cap — CPI-linked only. New tenancies from 1 Mar 2026 run as **6-year "tenancies of minimum duration"**; landlords may reset to market rent only at the start of a new tenancy (not after a no-fault termination) or at the end of the 6-year cycle. **Large landlords** (4+ tenancies or a company) are barred from no-fault evictions for tenancies beginning on/after 1 Mar 2026. (2026-07-03 verified; source [RTB rental law changes from 1 March 2026](https://rtb.ie/renting/rental-law-changes-from-1-march-2/))
 - **Cost Rental** scheme: state-subsidized below-market
 - **Tenancy types**:
   - Tenancies of unlimited duration (since 11 June 2022)
@@ -202,8 +210,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Local short-let rules
 
-- **RPZ rules**: 90-day cap for short-let in primary residence in some areas
-- **Dublin City Council**: short-let restrictions in central Dublin (planning permission required for >90 nights/yr)
+- **RPZ-linked 90-day short-let planning rules**: RPZ designations were replaced by the national rent-control system on 1 Mar 2026 — verify current short-let planning restrictions with the local authority; national STLR register opens 1 Dec 2026. (2026-07-03)
 - **EU Regulation 2024/1028**: short-term rental data-sharing — applicable from 20 May 2026
 
 ### Tax on rental
@@ -238,7 +245,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
   - Dublin: ~€48,000–€68,000
   - Cork / Galway: ~€42,000–€58,000
   - Smaller cities: ~€36,000–€48,000
-- **National minimum wage**: €13.50/hr (2025); €12.70 (2024)
+- **National minimum wage**: €14.15/hr (from 1 Jan 2026); €13.50 (2025); €12.70 (2024) (2026-07-03 verified; source gov.ie / DETE)
 
 ---
 
@@ -360,8 +367,8 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 - **SEAI Better Energy Homes**: heat pump, insulation, solar grants
 - **Better Energy Warmer Homes**: free upgrades for low-income
 - **Defective Concrete Blocks Scheme (DCBS)**: up to €420,000 remediation
-- **Tenant Tax Credit**: €1,000 (2024-2025)
-- **Mortgage Interest Tax Credit**: temporary relief for some borrowers (2024-2025)
+- **Rent Tax Credit**: €1,000 (single) / €2,000 (jointly assessed) — extended to end of 2028 (Budget 2026). (2026-07-03 verified; source Revenue.ie rent-credit)
+- **Mortgage Interest Tax Credit**: relief on 2025-2026 interest increase vs 2022; 2025 max €1,250/property, 2026 max €625/property (tapering out; per Citizens Information Budget 2026 — confirm at Revenue.ie). (2026-07-03 verified)
 
 ## Common listing platforms
 
@@ -390,7 +397,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 - **No NPPR / Household Charge anymore** — only LPT
 - **Rent-a-Room scheme** €14,000/yr tax-free
 - **Stamp duty 6% above €1.5M** introduced 2024
-- **Bulk-purchase 15% stamp duty** anti-investor measure (10+ residential)
+- **Bulk-purchase 15% stamp duty** anti-investor measure (10+ residential properties, apartments excluded)
 
 ## Reddit / forum sources
 
@@ -437,8 +444,9 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
-**Coverage check**: pricing, traffic, tax (LPT 2026 + stamp duty), rental, work, risks (incl. mica/pyrite + Storm Éowyn), mains all have primary government sources + cost benchmarks + caveats.
+✅ **Fully populated** (initially populated 2026-04-25).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+**Coverage check**: pricing, traffic, tax (LPT 2026 + stamp duty + VHT), rental, work, risks (incl. mica/pyrite + Storm Éowyn), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for LPT 2026-2030 cycle (gov.ie + Revenue.ie + irishtaxhub all confirm 0.0906% rate, 1 Nov 2025 valuation, 20% band widening, 96% stay-in-band); HIGH for stamp duty 6% above €1.5M from 2024; HIGH for DCBS €420k cap. MEDIUM for Storm Éowyn long-term insurance/property pricing impact (still emerging).
 
 ## Extension TODOs

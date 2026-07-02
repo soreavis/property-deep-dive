@@ -1,6 +1,6 @@
 # Switzerland 🇨🇭 — Property Due-Diligence Playbook
 
-ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
+ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04; Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified, structural sections unchanged).
 
 ## Country profile
 
@@ -25,7 +25,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 - **Fahrländer Partner**: `https://www.fpre.ch/`
 - **Newhome.ch**, **RealAdvisor**
 - **BFS (Bundesamt für Statistik)** Wohnkostenindex + Immobilienpreisindex: `https://www.bfs.admin.ch/`
-- **SNB (Swiss National Bank)** financial stability reports
+- **SNB (Swiss National Bank)** financial stability reports + quarterly monetary-policy assessments (policy rate 0% since Jun 2025, held 18 Jun 2026): `https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618` (2026-07-03 verified)
 - **Cantonal Grundbuchämter** for actual sale-price extracts (paid)
 
 ### Listing/agency networks
@@ -37,6 +37,8 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 ### Price benchmarks (2025-2026)
 
 > est. ranges aggregated from Comparis / Homegate / ImmoScout24 asking-price listings 2025-2026 (see Primary sources, L21-29) — asking, not transaction; verify with cantonal Grundbuchamt sale-price extracts.
+>
+> Market direction (BFS IMPI Q1 2026, Q4-2019 = 100): +4.7 % YoY, +1.5 % QoQ to 126.8 points; urban communes of large agglomerations +3.1 % QoQ, small-agglomeration / non-agglomeration towns flat. Asking ranges below trend upward. (2026-07-03, per BFS release of 30 Apr 2026 via SRF/AWP)
 
 | Region | EFH €/m² (CHF) | Wohnung €/m² (CHF) |
 |---|---:|---:|
@@ -86,16 +88,16 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 **Federal popular vote 28 September 2025 → 57.7 % YES** to abolish Eigenmietwert (imputed rental value taxation on owner-occupied homes).
 
-- **Implementation: target 1 January 2029** (per Bundesrat); **earliest realistic 1 January 2028** (per [ESTV — Eidgenössische Steuerverwaltung / Federal Tax Administration](https://www.estv.admin.ch/)). Date subject to: (a) Federal Council Inkrafttreten decision (not yet finalised as of Sep 2025); (b) cantonal implementing-law adoption. (2026-05-27 verified, source [EFD Wohneigentumsbesteuerung](https://www.efd.admin.ch/de/wohneigentumsbesteuerung))
+- **Implementation: FIXED 1 January 2029** — the Federal Council set the entry-into-force date at its **1 April 2026** session; a 2028 start is off the table (2029 was chosen so cantons *can* introduce the linked second-home Objektsteuer simultaneously). Owner-occupied maintenance deductions + federal energy/environment deductions fall away from the same date; rented/leased property keeps the maintenance deduction; time- and amount-limited Ersterwerberabzug (mortgage-interest deduction) for first-time buyers. (2026-07-03 verified, source [admin.ch Medienmitteilung 1 Apr 2026](https://www.admin.ch/de/newnsb/yGTqBPowRqyVh0zPokW-q))
 - Applies to **primary AND secondary residences**
 - Owner-occupiers no longer declare notional rental income
 - **BUT**: deductions for maintenance/renovations also eliminated
 - **Cantons can introduce special property tax on second homes** (constitutional change passed alongside)
 - Regional split: French-speaking cantons all voted NO; German-speaking (except Basel-Stadt) voted YES
 
-### Annual property tax — pre + post-2028
+### Annual property tax — before + from 2029
 
-**Pre-2028 (current 2026)**:
+**Until 31 Dec 2028 (current)**:
 - **Eigenmietwert** (imputed rental income): typically 60–70 % of market rental → added to taxable income → ~10–35 % tax depending on canton + commune
 - **Liegenschaftssteuer** (cantonal property tax) — exists in some cantons:
   - **Genève**: 0.05–0.3 % of valeur fiscale
@@ -106,7 +108,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 - **Vermögenssteuer** (wealth tax): cantonal + communal; property included; ~0.13–0.85 % on net wealth (varies hugely)
 - **Eigenmietwert + Vermögenssteuer** combined **est. ~0.5–1.5 %** of property value/yr for owner-occupiers (model composite of the Eigenmietwert income-tax effect (L97) + Vermögenssteuer (L104) — illustrative, canton- and income-dependent; verify per canton)
 
-**Post-2028 (after Eigenmietwert abolition)**:
+**From 1 Jan 2029 (after Eigenmietwert abolition)**:
 - No more Eigenmietwert imputed income
 - Vermögenssteuer continues
 - New **cantonal property tax on second homes** likely (each canton decides)
@@ -143,8 +145,10 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 ### MwSt. (VAT)
 
 - 8.1 % standard (raised from 7.7 % in 2024)
+- 3.8 % special rate (Beherbergung / hotel + short-let accommodation)
 - 2.6 % reduced (food, books)
 - Real estate: residential exempt; commercial 8.1 %
+- **Pending increase** to part-fund the 13th AHV pension (Parliament final vote 19 Jun 2026): standard 8.1 → 8.5 %, Beherbergung 3.8 → 4.0 %, reduced 2.6 % unchanged; subject to a mandatory popular vote expected 29 Nov 2026 (BSV: *voraussichtlich*), unlikely in force before 2028. (2026-07-03 verified, source [BSV umsetzung-13-ahv-rente](https://www.bsv.admin.ch/de/umsetzung-13-ahv-rente))
 
 ### Capital gains — Grundstückgewinnsteuer
 
@@ -154,7 +158,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Future risk
 
-- **Eigenmietwert abolition** active implementation (target 1 Jan 2029, earliest 1 Jan 2028 — see L87 for canonical dates; verify at [EFD Wohneigentumsbesteuerung](https://www.efd.admin.ch/de/wohneigentumsbesteuerung)) (2026-05-27 verified)
+- **Eigenmietwert abolition** active implementation (1 January 2029, fixed 1 Apr 2026 — see L87 for canonical dates + source) (2026-07-03 verified)
 - Cantonal second-home property taxes coming
 - Wealth tax rates stable
 
@@ -175,6 +179,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 - **Foreign nationals (non-CH residents) face restrictions** on second-home + investment property
 - Each canton has annual quota
 - **Zweitwohnungsgemeinden** (>20 % second homes) face additional restrictions under the **Zweitwohnungsgesetz (ZWG, in force 1 Jan 2016)**, implementing **Art. 75b BV** (2012 initiative); ARE publishes annual Wohnungsinventar. Lex Koller / BewG quotas: **national annual ceiling 1,500 holiday-home authorisations** to foreign non-residents; max plot **1,000 m²**, max living area **200 m²**; Wallis (Valais) 330/yr (highest); smallest cantons 20/yr. B/C permit holders + Swiss citizens not subject to authorisation. (2026-05-27 verified, source ARE + Engel & Völkers Lex Koller guide)
+- **PENDING (consultation, not yet law):** On **15 April 2026** the Federal Council opened a Vernehmlassung (runs to **15 July 2026**) to *tighten* Lex Koller (BewG) — make main-residence purchases by third-country (non-EU/EFTA) nationals permit-liable (with a duty to sell within 2 years of moving away), restrict holiday-home purchases by persons abroad, ban business-real-estate purchases intended for renting/leasing out (own-use stays permit-free), and for the first time bar persons abroad from buying listed housing-company shares and regularly-traded real-estate fund / SICAV units. Part of the accompanying-measures package the Federal Council adopted in January 2025 alongside its rejection (recommendation to reject) of the «Keine 10-Millionen-Schweiz» initiative — the initiative's own popular vote is still pending. Consultation → Botschaft → Parliament → optional referendum: NOT enacted; monitor. (2026-07-03 verified, source [admin.ch Medienmitteilung 15 Apr 2026](https://www.admin.ch/de/newnsb/4mzivVX5Ko4dpap06YtuI))
 
 **Cantonal patente cantonale** required in many cantons (Genève, Vaud, Zürich):
 - Application + tourism tax + safety inspection
@@ -189,7 +194,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Lex Koller restricts foreign buyers** of second homes — major regulatory hurdle
 - **Zweitwohnungsinitiative** (2012): max 20 % second homes per Gemeinde — pop. cap
-- **Imputed rent abolition** (target 1 Jan 2029, earliest 1 Jan 2028 — see L87) changes investment math significantly
+- **Imputed rent abolition** (1 January 2029, fixed 1 Apr 2026 — see L87) changes investment math significantly
 - High purchase costs (Vaud, Genève) eat margins
 
 ---
@@ -218,7 +223,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
   - Zürich, Genève: ~CHF 7,000-8,500
   - Bern, Basel: ~CHF 6,500-7,500
   - Smaller cities: ~CHF 5,500-6,500
-- **Mindestlohn**: cantonal — Genève CHF 24/hr, Neuchâtel CHF 21.10, others none
+- **Mindestlohn**: no national floor; statutory cantonal minima (1 Jan 2026, indexed annually — verify at cantonal source): Genève ~CHF 24.59/hr, Basel-Stadt ~CHF 22.20, Jura ~CHF 21.40, Neuchâtel ~CHF 21.35, Ticino ~CHF 20.00–20.50 (tiered by sector); Stadt Luzern city-level minimum since 2026 (est. ~CHF 22.00–22.75 — sources disagree, verify); other cantons none (sectoral GAV minima may still apply)
 
 ---
 
@@ -333,7 +338,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Lex Koller restricts foreign buyers** of residential second homes — major issue for non-CH/EU residents
 - **Zweitwohnungsinitiative 20 % cap** in many alpine + tourist Gemeinden
-- **Eigenmietwert ABOLITION** (target 1 Jan 2029, earliest 1 Jan 2028 per ESTV — see L87) changes ROI math for owner-occupiers
+- **Eigenmietwert ABOLITION** (1 January 2029, fixed 1 Apr 2026 — see L87) changes ROI math for owner-occupiers
 - **Stockwerkeigentum** since 1965 — most apartments; verify Wertquote + Reglement
 - **Bauernhof + Bäuerliches Bodenrecht** (BGBB): special restrictions on agricultural property
 - **Permafrost-Risiko** for high-alpine builds
@@ -357,7 +362,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|
 | **Cantonal Grundbuchamt** | Title verification, encumbrances |
 | **Gemeinde Bauamt** | Permits, Zonenplan, Bauakt history |
-| **Steueramt (kantonal + Gemeinde)** | Liegenschaftssteuer, Eigenmietwert (until abolition — target 2029, earliest 2028) |
+| **Steueramt (kantonal + Gemeinde)** | Liegenschaftssteuer, Eigenmietwert (until abolition — 1 Jan 2029, fixed 1 Apr 2026) |
 | **Notar (Notariat) per canton** | Final transfer, Grundbuch eintragung |
 | **Wasserwerk Gemeinde** | Mains drains verification |
 | **Schweizerischer Erdbebendienst (SED)** | Seismic info |
@@ -394,9 +399,10 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** (initially populated 2026-04-25).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for tax + risk + cadastre sources (post-2025 Eigenmietwert vote definitive; SLF + Naturgefahren well-maintained). MEDIUM for short-let regulation (Lex Koller stable but cantonal patente updates ongoing); HIGH for the 2028 Eigenmietwert implementation roadmap.
+**Confidence**: HIGH for tax + risk + cadastre sources (post-2025 Eigenmietwert vote definitive; SLF + Naturgefahren well-maintained). MEDIUM for short-let regulation (Lex Koller stable but cantonal patente updates ongoing); HIGH for the 2029 Eigenmietwert implementation roadmap (fixed 1 Apr 2026).
 
 ## Extension TODOs
 
@@ -404,6 +410,6 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04).
 - [ ] Lex Koller cantonal quotas + foreign-buyer eligibility per residence status
 - [ ] Zweitwohnungsinitiative quota per Gemeinde (alpine focus)
 - [ ] Per-canton Handänderungssteuer + notar fee structures
-- [ ] Eigenmietwert 2028 implementation tracking (each canton's adaptation)
+- [ ] Eigenmietwert 2029 implementation tracking (each canton's adaptation)
 - [ ] Cantonal second-home property tax adoption tracking
 - [ ] STWE Reglement + Erneuerungsfonds health check heuristics

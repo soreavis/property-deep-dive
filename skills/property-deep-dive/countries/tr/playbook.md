@@ -8,7 +8,7 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
   - First 2 digits: il (province) plaka kodu (matches license-plate code 01–81)
   - Last 3 digits: ilçe + mahalle cluster
 - **Admin levels**: 81 il (province) → 973 ilçe (district) → ~32,000 mahalle/köy (neighbourhood/village). 30 of the 81 are **Büyükşehir Belediyesi** (metropolitan municipality).
-- **Currency**: TRY (Türk lirası). **Foreign-buyer transactions widely quoted in USD or EUR** because of TRY hyperinflation (CPI ~64 % YoY late 2024, ~40 % YoY late 2025 per TÜİK; CBRT one-week repo rate peaked 50 % Mar 2024, cut through 2025). **Verify TRY vs FX pricing on every listing.**
+- **Currency**: TRY (Türk lirası). **Foreign-buyer transactions widely quoted in USD or EUR** because of TRY hyperinflation (CPI peaked ~75 % YoY mid-2024, ~44 % by end-2024, low-30s by late 2025, **~32.6 % YoY May 2026** per TÜİK — the June-2026 rent-cap 12-month-average TÜFE ceiling of 32.24 % corroborates; CBRT one-week repo rate peaked 50 % Mar 2024, eased through 2025–26 to **37.0 %** — held June 2026 per TCMB PPK Basın Duyurusu 2026-23; rates may have changed since — re-check TÜİK monthly). **Verify TRY vs FX pricing on every listing.** (2026-07-03 verified)
 - **Languages**: Turkish (official); English usable in tourist zones (İstanbul, Antalya, Bodrum, Alanya, Fethiye); Kurdish substantial in southeast (admin Turkish only).
 - **Cadastre**: **TKGM** (Tapu ve Kadastro Genel Müdürlüğü) — title is **`Tapu Senedi`**. Online: `https://www.tkgm.gov.tr/` + **Web Tapu** (e-Devlet integration at `https://webtapu.tkgm.gov.tr/`).
 - **Identifier**: `Tapu Senedi` carries `il / ilçe / mahalle/köy / ada no / parsel no / bağımsız bölüm no` (last for apartments).
@@ -24,8 +24,8 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Primary sources (official)
 
-- **TÜİK Konut Fiyat Endeksi** (House Price Index, monthly — based on appraisal reports, hedonic): `https://data.tuik.gov.tr/Bulten/Index?p=Konut-Fiyat-Endeksi`
-- **TCMB Konut Fiyat Endeksi** (Central Bank, deprecated July 2022 — TÜİK now sole official KFE): historical `https://www.tcmb.gov.tr/`
+- **TÜİK Konut Fiyat Endeksi** (House Price Index, monthly — based on appraisal reports, hedonic): `https://data.tuik.gov.tr/Bulten/Index?p=Konut-Fiyat-Endeksi` (verify URL/liveness — this refresh sourced prices from TCMB KFE)
+- **TCMB Konut Fiyat Endeksi** (Central Bank, monthly, hedonic; bulletin also carries the **Yeni Kiracı Kira Endeksi** — new-tenant rent index): `https://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/istatistikler/reel+sektor+istatistikleri/konut+fiyat+endeksi/` (verified live 2026-07-03)
 - **TÜİK Konut Satış İstatistikleri** (sales count, monthly): `https://data.tuik.gov.tr/Kategori/GetKategori?p=insaat-ve-konut-116`
 
 ### Secondary / private benchmarks
@@ -44,13 +44,15 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 
 | Region / city | TRY/m² (Q4 2025 avg) | USD/m² (≈) | YoY change |
 |---|---:|---:|---:|
-| **Türkiye geneli** | ~45,447 | $1,076 | +26.0 % |
-| **İstanbul** | ~74,101 | $1,755 | +24.5 % |
+| **Türkiye geneli** | ~45,447 | $973 | +26.0 % |
+| **İstanbul** | ~74,101 | $1,587 | +24.5 % |
 | **Ankara** | data not publicly available — verify TÜİK monthly bulletin | est. $850–$1,100 | +38.7 % |
 | **İzmir** | data not publicly available — verify TÜİK monthly bulletin | est. $1,000–$1,400 | mid-20s % |
 | **Antalya / Muğla coast** | est. mid-tier with foreign-buyer premium | est. $1,200–$2,000 | mid-20s % |
 
-(2025 data, source TÜİK KFE + GlobalPropertyGuide; rates may have changed since — re-check TÜİK monthly bulletin)
+(Q4 2025 reference levels, source TÜİK KFE + GlobalPropertyGuide; the two index-row USD figures re-anchored at ~46.7 TRY/USD, 2026-07-02 rate — TRY/m² levels are inflation-eroded; est ranges are judgment bands; rates may have changed since — re-pull TCMB KFE monthly)
+
+**By May 2026** (TCMB KFE May-2026 bulletin, secondary-quoting-primary) nominal YoY had held/eased to **~+24.5 % nationally** (İstanbul +25.4 %, Ankara **+27.3 %** — down sharply from +38.7 %, İzmir +22.8 %), but **real YoY was −6.1 %** — Turkish housing is rising in TRY yet losing value against inflation. Re-pull TCMB KFE monthly; cross-check TÜİK KFE. (2026-07-03 verified)
 
 ### İstanbul district hierarchy (foreign-buyer relevant; verify per-district at sahibinden cenova haritası)
 
@@ -115,7 +117,7 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 | **Land with construction permit (arsa)** | 0.3 % | 0.6 % |
 | **Agricultural land (arazi)** | 0.1 % | 0.2 % |
 
-(2025 rates, source GİB Emlak Vergisi Kanunu mad. 8; rates unchanged for 2026 per Maliye Bakanlığı bulletin)
+(source GİB Emlak Vergisi Kanunu mad. 8; rates confirmed **unchanged for 2026** — Büyükşehir ×2 also unchanged; only the base values were re-set, see below. 2026-07-03 verified)
 
 **Büyükşehir multiplier**: rates are **doubled** within boundaries of the 30 metropolitan municipalities (İstanbul, Ankara, İzmir, Antalya, Bursa, Konya, Adana, Gaziantep, Kayseri, Şanlıurfa, Diyarbakır, Mersin, Eskişehir, Hatay, Manisa, Kahramanmaraş, Samsun, Aydın, Balıkesir, Denizli, Erzurum, Kocaeli, Malatya, Mardin, Muğla, Ordu, Sakarya, Tekirdağ, Trabzon, Van).
 
@@ -123,17 +125,17 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 
 Property tax base = **rayiç bedel** (declared/appraised value) updated every 4 years by belediye + annual yeniden değerleme oranı (revaluation coefficient, set by Hazine ve Maliye Bakanlığı per Resmi Gazete).
 
-- Latest 4-year valuation cycle: **2026–2029** (declarations filed 2025; new rayiç bedeli effective 1 Jan 2026 — many properties saw 3–5× nominal jump due to TRY inflation; some belediyes capped via Anayasa Mahkemesi rulings)
+- Latest 4-year valuation cycle: **2026–2029**. 2026 increases are now **capped by statute** — Law 7566 (RG 2025-12-19 No. 33112) added **geçici mad. 23** to the Emlak Vergisi Kanunu: 2026 emlak vergisi değeri = 2025 değeri × **1.12745** (+12.745 %, half the 25.49 % revaluation), and any 2026 value computed from the new takdir-komisyonu arsa/arazi birim değerleri **may not exceed 2× the 2025 vergi değeri** (implemented by Emlak Vergisi Genel Tebliğ Seri No 89, RG 2025-12-31 No. 33124 5. mükerrer). 2027–2029 matrahs chain off these capped 2026 values. Note: Law 7566 md 11 also raises the annual uplift in non-takdir years from half to the **full** yeniden değerleme oranı going forward (verify effective year in the law text). Payment: 1st taksit by 31 May, 2nd by 30 Nov. Rates unchanged (see table above). (2026-07-03 verified)
 - Annual yeniden değerleme oranı 2025: **43.93 %** (RG 2024-12-30)
-- 2026 oranı: data not publicly available — verify Resmi Gazete December 2025 issue
+- Annual yeniden değerleme oranı 2026: **25.49 %** (RG 2025-12-31, No. 33124 5. mükerrer)
 
 ### Example calculation
 
 100 m² konut, rayiç bedel 4,000,000 TRY, in **İstanbul (Büyükşehir)**:
-- Annual Emlak Vergisi = 4,000,000 × 0.002 = **8,000 TRY/yr** (~$190 at 1 USD ≈ 42 TRY)
+- Annual Emlak Vergisi = 4,000,000 × 0.002 = **8,000 TRY/yr** (~$171 at 1 USD ≈ 46.7 TRY, 2026-07 rate)
 
 100 m² konut in **Bartın (small belediye, not Büyükşehir)**, rayiç 1,500,000 TRY:
-- Annual Emlak Vergisi = 1,500,000 × 0.001 = **1,500 TRY/yr** (~$36)
+- Annual Emlak Vergisi = 1,500,000 × 0.001 = **1,500 TRY/yr** (~$32 at ~46.7 TRY/USD, 2026-07 rate)
 
 ### Çevre Temizlik Vergisi (Environmental Cleaning / sanitation fee)
 
@@ -187,17 +189,17 @@ Result: KDV **0 %** on qualifying purchase (saves up to 20 % on luxury new build
 ### Capital gains tax (Değer Artış Kazancı)
 
 - Residential property held **> 5 years**: **EXEMPT** (Gelir Vergisi Kanunu mük. mad. 80)
-- Held ≤ 5 years: gain (sale − indexed acquisition cost − allowable expenses) added to other income; progressive **15–40 %** brackets (2025: 15 % up to 158k, 20 % to 330k, 27 % to 1.2M, 35 % to 4.3M, 40 % above)
-- Annual istisna for capital gains (other-income): **120,000 TRY (2025)** — applies to non-residential gains primarily
+- Held ≤ 5 years: gain (sale − indexed acquisition cost − allowable expenses) added to other income; progressive **15–40 %** brackets (2026 non-wage: 15 % to 190k, 20 % to 400k, 27 % to 1M, 35 % to 5.3M, 40 % above — wage-income bands differ, 27 % band runs to 1.5M; GİB Gelir Vergisi Genel Tebliği Seri No 332)
+- Annual istisna for capital gains (other-income): **150,000 TRY (2026)** (was 120,000 in 2025; GİB Tebliğ Seri No 332) — applies to non-residential gains primarily. (2026-07-03 verified)
 
 ### Inheritance + gift tax — Veraset ve İntikal Vergisi
 
 - Inheritance progressive **1–10 %**; gift progressive **10–30 %** (Veraset ve İntikal Vergisi Kanunu)
-- Spouse + children istisna (2025): **1,609,552 TRY per heir** (verify GİB annual circular)
+- Spouse + children istisna: **2,907,136 TL per heir (2026)**; spouse alone, no descendants: **5,817,845 TL (2026)** (Veraset ve İntikal VK Genel Tebliği Seri No 57, RG 2025-12-31 No. 33124 5. mükerrer). Note: 2025 was 2,316,628 TL; the 1,609,552 TL previously shown here as "2025" was the 2024 figure. (2026-07-03 verified)
 
 ### Future risk
 
-- **2026–2029 rayiç bedel cycle**: many belediyeler issuing 3–5× nominal increases on new declarations — Anayasa Mahkemesi has previously capped excessive jumps; expect litigation. Source: Resmi Gazete + belediye ilan/notification.
+- **2026–2029 rayiç bedel cycle**: Law 7566 (geçici mad. 23) now caps 2026 increases **statutorily** — 2025 değer × 1.12745, and the matrah may not exceed 2× the 2025 vergi değeri (see § base value) — superseding the earlier case-by-case Anayasa Mahkemesi capping. Watch for challenges to the FULL-rate uplift that md 11 introduces for non-takdir years. Source: Resmi Gazete + belediye ilan/notification. (2026-07-03 verified)
 - **KDV on housing** under continual reform pressure (especially the 1 % small-unit rate); verify Resmi Gazete + Hazine Bakanlığı bulletin annually.
 - **Değerli Konut Vergisi** brackets revalued annually — luxury İstanbul buyers should track.
 
@@ -209,30 +211,35 @@ Result: KDV **0 %** on qualifying purchase (saves up to 20 % on luxury new build
 
 Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannamesi (March).
 
-#### Residential rental istisna (exemption) — 2025
+#### Residential rental istisna (exemption) — 2026
 
-- **47,000 TRY/yr** (mesken kira geliri için istisna; raised from 33,000 in 2024 — revalued annually by yeniden değerleme oranı)
+- **58,000 TRY/yr** (mesken kira geliri istisnası, 2026; was 47,000 in 2025, 33,000 in 2024 — revalued annually by yeniden değerleme oranı)
 - Applies once across all residential properties combined
-- **Lost** if: (a) total income from all sources exceeds high-bracket threshold (~870 k TRY 2025), or (b) rental income not declared by deadline
+- **Lost** if: (a) total income from all sources exceeds the high-bracket threshold, or (b) rental income not declared by deadline
 
-(2025 threshold per GİB Gelir Vergisi Genel Tebliği seri 327; verify GİB annual update; rates may have changed for 2026)
+(2026 threshold per GİB Gelir Vergisi Genel Tebliği Seri No 332, RG 2025-12-31 No. 33124 5. mükerrer; verify GİB annual update. 2026-07-03 verified)
+
+#### Rent-increase cap (Türk Borçlar Kanunu mad. 344)
+
+- Annual rent increases on existing residential leases are capped at the **12-month-average TÜFE** (CPI). The temporary 25 % ceiling (in force 2022 → 30 Jun 2024) **expired 1 Jul 2024**; the cap reverted to the TBK mad. 344 12-month-average TÜFE ceiling.
+- **June 2026 legal ceiling: 32.24 %** (TÜİK 12-month-average TÜFE) — the applicable ceiling resets monthly; verify the renewal month's TÜFE 12-month average. (2026-07-03 verified)
 
 #### Cost methods (must be uniform across all GMSİ)
 
 - **Götürü Gider** (lump-sum): **15 % flat deduction** of gross — no documentation needed; simplest for non-resident foreigners. **Cannot revert to gerçek for 2 years once selected.**
 - **Gerçek Usul** (actual): document all expenses (loan interest, insurance, repair amortization, depreciation, management fees) — better for high-cost properties
 
-#### Rates — 2025 income brackets
+#### Rates — 2026 income brackets (non-wage / GMSİ)
 
 | ZD bracket (TRY) | Rate |
 |---|---:|
-| 0 – 158,000 | 15 % |
-| 158,001 – 330,000 | 20 % |
-| 330,001 – 1,200,000 | 27 % |
-| 1,200,001 – 4,300,000 | 35 % |
-| > 4,300,000 | 40 % |
+| 0 – 190,000 | 15 % |
+| 190,001 – 400,000 | 20 % |
+| 400,001 – 1,000,000 | 27 % |
+| 1,000,001 – 5,300,000 | 35 % |
+| > 5,300,000 | 40 % |
 
-(2025 brackets per GİB; revalued annually by yeniden değerleme oranı)
+(2026 non-wage/GMSİ brackets per GİB Gelir Vergisi Genel Tebliği Seri No 332; revalued annually by yeniden değerleme oranı. **Wage-income upper bands differ** — the 27 % band runs to 1,500,000 and the 35 % band 1,500,000–5,300,000. 2026-07-03 verified)
 
 #### Non-resident foreign owner
 
@@ -310,7 +317,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 ### Salaried benchmarks (2025 brüt avg)
 
-- **Asgari ücret 2025 (minimum wage)**: **22,104.67 TRY/ay brüt** (net ~17,002 TRY) — set by Asgari Ücret Tespit Komisyonu, RG Dec 2024. **2026 update**: data not publicly available — verify Aralık 2025 RG.
+- **Asgari ücret 2026 (minimum wage)**: **33,030.00 TRY/ay brüt** (net ~28,075.50 TRY, günlük brüt 1,101.00 TRY) — **+27 %** vs 2025 (22,104.67 brüt); Asgari Ücret Tespit Komisyonu Kararı, effective 1 Jan 2026 (RG Aralık 2025). 2026-07-03 verified.
 - **Median brüt 2025**: data not publicly available — verify TÜİK Hanehalkı İşgücü Anketi
 - **İstanbul beyaz yaka median**: est. 50,000–80,000 TRY/ay (mid-career, white-collar sectors)
 - **IT/finance senior İstanbul**: est. 100,000–250,000 TRY/ay; FX-indexed comp common
@@ -433,9 +440,9 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 | Work | Cost (TRY) |
 |---|---:|
-| **DASK earthquake insurance** (100 m² residential, İstanbul European side) | 300–500/yr |
-| **DASK** (200 m² residential) | 500–900/yr |
-| **DASK maximum guarantee 2025** | up to 1,913,059 TRY total cover per policy (2025 azami teminat per DASK tarife — verify at DASK; revalued annually) |
+| **DASK** (100 m² betonarme) | **~830–3,200/yr** by risk zone — computed: insured sum 1,135,700 (100 m² × 11,357 TL/m², 01.07.2026 birim) × zone rate 0.73–2.82‰; high-hazard Marmara/İstanbul at upper end (verify per address via dask.gov.tr adres kodu lookup; before renewal discounts). 2026-07-03 verified |
+| **DASK** (200 m² betonarme) | **~1,660–6,400/yr** (same method; insured sum 2,271,400 TL) |
+| **DASK azami teminat (July 2026)** | up to **2,407,723 TRY** total cover per policy — revalued **monthly** at TÜİK ÜFE (per DASK tarife; 01.01.2026 was 2,095,462; verify indexation start date at dask.gov.tr); betonarme birim ~11,357 TRY/m² (01.07.2026). 2026-07-03 verified |
 | **Avukat / hukuki danışman** (transaction lawyer) | 1–3 % of price (negotiable) |
 | **Tapu Harcı total** | 4 % of declared sale value |
 | **Tercüman (sworn translator)** for foreign buyer at TKGM | 2,000–5,000/transaction |
@@ -469,7 +476,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 ## Caveats unique to TR
 
-- **TRY hyperinflation makes long-term comparisons tricky** — always check date + USD-equivalent. CPI was ~64 % YoY late 2024 (TÜİK), ~40 % late 2025; rates may have changed.
+- **TRY hyperinflation makes long-term comparisons tricky** — always check date + USD-equivalent. CPI peaked ~75 % YoY mid-2024, ~44 % end-2024, low-30s late 2025, **~32.6 % YoY May 2026** (TÜİK); rates may have changed.
 - **Foreign-buyer pricing premium est. ~15–35 %** in Antalya, Alanya, Bodrum, Fethiye — qualitative, based on the EN-language vs TR-language sahibinden listing spread, not a sourced benchmark; verify per listing.
 - **CBI threshold + rules change frequently** — $1M (2017) → $250k (Sept 2018) → **$400k (June 2022, current)**. 3-year resale lock + once-only-per-property restriction; some districts excluded (İstanbul + Antalya have ilçe-level exclusions for tightening). Verify Cumhurbaşkanlığı + Resmi Gazete.
 - **Earthquake risk dominates in Marmara, Aegean, Eastern Anatolia, southeast** — never skip AFAD lookup at `https://tdth.afad.gov.tr/`.
@@ -552,17 +559,17 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 ## Status
 
-✅ **Fully populated** as of 2026-05-01.
+✅ **Fully populated** (initially populated 2026-05-01).
 
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources (TKGM, TÜİK, AFAD, GİB, MTA, MGM, DSİ, Resmi Gazete) + cost benchmarks + caveats + 2025 rates date-stamped.
 
 **Confidence**:
 - **HIGH** for cadastre/foreign-buyer rules/CBI mechanics/Law 7464 STR rules (all sourced to primary law + RG + TKGM/Bakanlık portals).
-- **MEDIUM** for current-year tax thresholds — TRY hyperinflation means yeniden değerleme oranı + GMSİ istisna + Değerli Konut Vergisi brackets revalue annually; 2026 figures need verification against December 2025 RG circulars.
+- **MEDIUM** for current-year tax thresholds — TRY hyperinflation means yeniden değerleme oranı + GMSİ istisna + Değerli Konut Vergisi brackets revalue annually; 2026 figures verified against the December 2025 RG circulars (2026-07-03) but must be re-checked each January.
 - **MEDIUM** for parcel-level price benchmarks — TÜİK KFE is province-level only; mahalle-level requires Endeksa or sahibinden cenova haritası lookup per address.
 - **MEDIUM** for STR enforcement — Law 7464 mature but municipal enforcement variance; provisional permit transition (31 Dec 2024) closed but ongoing audit risk.
 
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 
 ## Extension TODOs (deepen on first real run)
 

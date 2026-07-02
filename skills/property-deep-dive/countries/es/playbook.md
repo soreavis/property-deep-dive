@@ -1,6 +1,6 @@
 # Spain 🇪🇸 — Property Due-Diligence Playbook
 
-ISO2: `es`. Status: ✅ Fully populated (researched 2026-04).
+ISO2: `es`. Status: ✅ Fully populated (researched 2026-04; Tier-A quarterly refresh 2026-07-03).
 
 ## Country profile
 
@@ -37,8 +37,9 @@ ISO2: `es`. Status: ✅ Fully populated (researched 2026-04).
 - **Fomento estadística vivienda libre + protegida**: `https://www.mitma.gob.es/`
 - **Idealista Informe de Precios** quarterly
 - **Tinsa IMIE**
+- **INE IPV national YoY: +12.9 %** (Q1 2026, published 2026-06-08; segunda mano +13.5 %, nueva +9.1 %; rebased to base-2025). Regional spread +10.3 % (País Vasco) to +15.6 % (Aragón/Murcia). Source [INE IPV1T26](https://www.ine.es/dyngs/Prensa/IPV1T26.htm) — €/m² ranges below are 2024-2025 vintage and now run low; re-check Idealista zonal.
 
-| Region/City | Resale €/m² (2024-2025) |
+| Region/City | Resale €/m² (2024-2025 vintage — figure current to Q1 2026) |
 |---|---:|
 | **Madrid (Comunidad)** | 4,000–6,500 (centro 7,000–10,000) |
 | **Barcelona (provincia)** | 3,500–5,500 (Eixample/Gràcia 5,500–8,500) |
@@ -123,7 +124,7 @@ ISO2: `es`. Status: ✅ Fully populated (researched 2026-04).
 | **Castilla-La Mancha** | 9.0 % |
 | **Galicia** | 8.0 % |
 | **Murcia** | 8.0 % |
-| **Comunidad Valenciana** | **10.0 %** |
+| **Comunidad Valenciana** | **9.0 %** general (≤€1M) · **11 %** >€1M (pre-existing band, retained) — general rate cut 10 %→9 % by Ley 5/2025 (BOE-A-2025-11959), eff. 1 Jun 2026; AJD 1.5 %→1.4 % same date (2026-07-03 verified) |
 | **Baleares** | 8.0–11.5 % progressive |
 | **Cataluña** (Decret-llei 5/2025, eff. 27 Jun 2025) | **10 %** ≤€600k · **11 %** €600k–€900k · **12 %** €900k–€1.5M · **13 %** >€1.5M · **20 %** flat for grans tenidors (large holders) · 5 % reduced rate for buyers under 35 (2026-05-27 verified; source [ATC](https://atc.gencat.cat/es/agencia/noticies/detall-noticia/20250627-mesures-fiscals-2025-itpajd-isd)) |
 | **Canarias** | 6.5 % |
@@ -187,7 +188,7 @@ For obra nueva (new build, vendida by impresa):
 
 | CCAA | Status |
 |---|---|
-| **Cataluña** | Strict; HUTV / HUT licenses; many municipios moratorium incl. Barcelona |
+| **Cataluña** | Strict; HUTV / HUT licenses; many municipios moratorium incl. Barcelona (BCN: all ~10,000 HUT licences non-renewable at PEUAT framework lapse Nov 2028 — 24 Nov 2028 per Ajuntament de Barcelona announcement; Collboni decree Jun 2024) |
 | **Baleares** | Mallorca + Ibiza near impossible to obtain new licenses |
 | **Canarias** | Strict in Tenerife, Gran Canaria |
 | **Madrid** | License + community approval; pressure from city hall |
@@ -220,7 +221,7 @@ For obra nueva (new build, vendida by impresa):
 
 ### Self-employment
 
-- **Autónomo regime**: monthly Seguridad Social ~€294-1300 (sliding scale 2023-2025 reform)
+- **Autónomo regime**: monthly Seguridad Social minimum cuota **~€200–590** by income tramo (15 brackets, net ≤€670/mo → >€6,000/mo; 2023-reform table held unchanged into 2026, MEI 0.8%→0.9%) — voluntary higher bases allowed, so actual cuota can exceed €590 (2026 data, source Seg. Social RETA via Infoautónomos — confirm at the importass simulator)
 - **Tarifa plana** (€80/mo first year reduced)
 - **Sociedad Limitada (SL)**: min **€1 capital** since Ley 18/2022 "Crea y Crece" (in force Oct 2022; was €3,000 pre-reform). Creditor-protection conditions: 20 % of annual profits to legal reserve until reserve + capital reaches €3,000; shareholders jointly liable up to €3,000 in liquidation. (2026-05-27 verified; source [BOE Ley 18/2022](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-15818))
 - **Trabajador por cuenta propia** straightforward
@@ -231,7 +232,7 @@ For obra nueva (new build, vendida by impresa):
   - Madrid, Barcelona: ~€2,400-3,200
   - Bilbao, Sevilla, Valencia: ~€1,900-2,500
   - Smaller cities: ~€1,600-2,000
-- **SMI (Salario Mínimo Interprofesional) 2025**: €1,184/mo (14 payments) = ~€16,576/yr (statutory figure set by Real Decreto / BOE — verify current-year SMI before relying)
+- **SMI (Salario Mínimo Interprofesional) 2026**: €1,221/mo (14 payments) = €17,094/yr (RD 126/2026, BOE-A-2026-3815, 18 Feb 2026; +3.1 % vs 2025; 2026-07-03 verified)
 
 ---
 
@@ -331,12 +332,13 @@ For obra nueva (new build, vendida by impresa):
 | Energy retrofit (Class C → A) | 25,000–60,000 |
 | Antiseismic retrofit | 20,000–60,000 |
 
-## Active fiscal incentives (2025-2026)
+## Active fiscal incentives (2026)
 
 - **Plan Reno** energy retrofit: up to 60 % grants (Next Generation EU funds)
 - **Deducciones IRPF for retrofit**: 20-60 % rebate over 5 yrs depending on energy class jump
 - **MOVES Plan III**: heat pump + renewable heating
 - **Ley de Vivienda 2023**: incentives in zonas tensionadas (long-let)
+- **Plan Estatal de Vivienda 2026-2030** (RD 326/2026, de 22 de abril, BOE-A-2026-8872): active state housing-aid framework (grants/rebates), first state plan under Ley 12/2023; 40 % of allocation to CCAA for public/affordable rental supply (2026-07-03 verified)
 
 ## Common listing platforms
 
@@ -399,7 +401,8 @@ For obra nueva (new build, vendida by impresa):
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** (initially populated 2026-04-25).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (Catastro free + comprehensive; SNCZI maintained). MEDIUM for short-let regulation (CCAA-specific, evolving — Cataluña tightening, Madrid moderate). HIGH for Cataluña 2025 ITP reform (June 2025 effective).
 

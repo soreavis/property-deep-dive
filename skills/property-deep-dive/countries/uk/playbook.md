@@ -1,6 +1,6 @@
 # United Kingdom 🇬🇧 — Property Due-Diligence Playbook
 
-ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
+ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04). **Last refreshed**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 
 ## Country profile
 
@@ -16,7 +16,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
   - **Freehold** — own land + building outright (most houses)
   - **Leasehold** — lease (typically 99–999 yrs) over a unit; ground rent + service charges (most flats)
   - **Share of freehold** — leasehold + collective freehold ownership via management co
-  - **Commonhold** — rare alternative (proposed expansion 2024-2026 reform)
+  - **Commonhold** — rare today; draft Commonhold and Leasehold Reform Bill (Jan 2026) would make it the default for new flats — final Bill due Autumn 2026
   - **Heritable** (Scotland) — outright ownership of land (≈ freehold)
 
 ## Section: `--price`
@@ -25,7 +25,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 
 - **HM Land Registry Price Paid Data** (FREE, official sales since 1995): `https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads`
 - **Land Registry Search for Free**: `https://search-property-information.service.gov.uk/` — title summary
-- **Office for National Statistics (ONS) UK House Price Index**: `https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex/latest`
+- **Office for National Statistics (ONS) — Private rent and house prices, UK** (formerly the "UK House Price Index" bulletin — renamed): `https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/latest`
 - **Registers of Scotland** sale prices: `https://www.ros.gov.uk/`
 - **Land & Property Services NI** (LPS): `https://www.nidirect.gov.uk/articles/valuation-domestic-properties-rates`
 - **Bank of England** mortgage statistics
@@ -39,7 +39,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 - **PrimeLocation** (high-end)
 - **PropertyData** (paid analytics)
 
-### Price benchmarks (Q4 2025 / Q1 2026)
+### Price benchmarks (≈ April 2026 data)
 
 | Region | est. £/m² (apt) | est. £ (semi-detached house) |
 |---|---:|---:|
@@ -52,7 +52,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04).
 | **Rural England (S/SW)** | ~2,500–4,500 | ~350,000–650,000 |
 | **Rural Wales / Scotland / NI** | ~1,200–2,500 | ~150,000–300,000 |
 
-Ranges are est. blended indicators triangulated from ONS UK House Price Index (latest) + Rightmove/Zoopla asking data — verify per-postcode against HM Land Registry Price Paid Data.
+Ranges are est. blended indicators triangulated from the ONS "Private rent and house prices, UK" bulletin (latest) + Rightmove/Zoopla asking data — verify per-postcode against HM Land Registry Price Paid Data. (ONS reports UK average house price ~£270,000, +3.8% in the 12 months to April 2026, provisional; 2026-07-03 verified.)
 
 ### Compute
 
@@ -106,6 +106,7 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
 - **NI**: domestic rate = capital value × (district + regional rate), typically 0.7–1.0% capital value
 - Single-person discount: 25% (must apply)
 - Empty-home premium up to **+100%** since **1 April 2024** (qualifying period reduced 2y → 1y); second-home premium up to **+100%** since **1 April 2025** (Levelling-up & Regeneration Act 2023; council discretion; councils had to resolve before 31 Mar 2024 to apply from 1 Apr 2025). (2026-05-27 verified; source [gov.uk Council Tax premiums guidance](https://www.gov.uk/government/publications/long-term-empty-homes-and-second-homes-council-tax-premiums-and-exceptions/guidance-on-the-implementation-of-the-council-tax-premiums-on-long-term-empty-homes-and-second-homes))
+- **High Value Council Tax Surcharge ("mansion tax")** — announced Autumn Budget 2025 (26 Nov 2025): from **April 2028**, England only, annual owner-paid charge on homes valued (at 2026 prices) >£2M: £2,500 (£2M–£2.5M) / £3,500 (£2.5M–£3.5M) / £5,000 (£3.5M–£5M) / £7,500 (>£5M), CPI-uprated. VOA targeted valuation exercise in 2026; revaluation 5-yearly (next 2033). Implementation details under consultation — not yet legislated. (2026-07-03 verified; source [gov.uk HVCTS consultation](https://www.gov.uk/government/consultations/high-value-council-tax-surcharge/high-value-council-tax-surcharge))
 
 ### Transaction taxes
 
@@ -163,7 +164,7 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
 
 - **Principal Private Residence (PPR) relief**: full exemption for owner-occupied primary
 - Investment property: 18% (basic-rate band) / **24%** (higher-rate band) — higher rate cut from 28 % → 24 % on **6 April 2024** (FA 2024); the 30 Oct 2024 alignment was for non-residential / general CGT, not residential. (2026-05-27 verified; source [gov.uk CGT rates and allowances](https://www.gov.uk/capital-gains-tax/rates))
-- Annual allowance: £3,000 (2024-2026)
+- Annual allowance: £3,000 (2024-25 through 2026-27)
 - **FA 2025 — Non-dom abolition + IHT residence-based (LTR test)**: from **6 April 2025**, the non-domiciled tax regime is abolished. New 4-year Foreign Income & Gains (FIG) regime for new arrivals. IHT shifts from domicile-based to residence-based: a UK-resident individual is a Long-Term Resident (within scope of IHT on worldwide assets) once UK-resident for ≥10 of the previous 20 tax years. Tail period on departure: 3 years (10–13 yr residency) up to 10 years (20+ yr residency). LTR status resets after 10 consecutive non-resident years. (2026-05-27 verified; source [Finance Act 2025 — legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2025/8))
 
 ### VAT
@@ -176,7 +177,7 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
 ### Future risk
 
 - **Council Tax revaluation** repeatedly proposed (still based on 1991 values in England) — no firm date
-- **Leasehold reform** (Leasehold and Freehold Reform Act 2024): partial reforms enacted; major changes phased 2025-2026
+- **Leasehold reform** — LAFRA 2024's valuation reforms (incl. **marriage-value abolition**) are enacted but NOT yet commenced (High Court dismissed freeholders' JR 24 Oct 2025, appeal to Court of Appeal permitted; govt to consult on valuation rates in 2026). Separately, the draft **Commonhold and Leasehold Reform Bill** was published 27 Jan 2026 (Written Statement HCWS1278) for pre-legislative scrutiny; final Bill due **Autumn 2026** (Royal Assent aimed mid-2027) — caps existing-flat ground rents at **£250/yr** (peppercorn conversion timing unsettled: govt draft ~40 yrs vs HCLG Committee ~20 yrs + late-2027 cap commencement), makes commonhold the default on collective enfranchisement, creates an independent managing-agent regulator. (2026-07-03 verified; source [Commons Library CBP-10653](https://commonslibrary.parliament.uk/research-briefings/cbp-10653/))
 - **CGT rate increases** discussed at Spring 2025 Budget — currently stable
 - **Stamp duty** under review for 2026 Autumn Budget
 
@@ -187,9 +188,10 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
 ### Long-term residential
 
 - **Assured Shorthold Tenancy (AST)** — England/Wales standard
-- **Renters' Rights Act 2025** — Royal Assent **27 October 2025**; abolishes s21 "no-fault" evictions from **1 May 2026** (first commencement). Pre-1 May 2026 s21 notices remain valid until 31 July 2026. (2026-05-27 verified; source [Renters' Rights Act 2025 — legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2025/26/introduction))
+- **Renters' Rights Act 2025** — Royal Assent **27 October 2025**; s21 "no-fault" evictions **abolished 1 May 2026** ("big bang" main commencement, SI 2026/421 reg 2(a); existing ASTs converted to assured periodic tenancies). Possession claims on a pre-1-May-2026 s21 notice must be issued by the **earlier of 6 months from service or 31 July 2026**; remaining provisions commence in later phases (MHCLG roadmap). (2026-07-03 verified; sources [Renters' Rights Act 2025](https://www.legislation.gov.uk/ukpga/2025/26) + [SI 2026/421](https://www.legislation.gov.uk/uksi/2026/421/contents/made))
 - **Tenancy deposit scheme** (TDS / DPS / mydeposits) mandatory
 - **Right to Rent** (immigration check) mandatory in England
+- **MEES (private rented sector, England)** — all PRS tenancies must meet **EPC C by 1 Oct 2030** (single compliance date, new + existing; Warm Homes Plan / DESNZ response 21 Jan 2026). Cost cap **£10,000** per property (exemption then registrable, valid 10 yrs; qualifying spend since 1 Oct 2025 counts). **Property Value Adjustment**: homes valued <£100k → cap is the lower of £10k or 10% of value. EPC C (EER) on an EPC issued before **1 Oct 2029** stays compliant until that EPC expires/is replaced; the Home-Energy-Model dual-metric standard applies thereafter. (2026-07-03 verified; source [gov.uk PRS MEES consultation response](https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update))
 
 ### Short-let (Airbnb / holiday let)
 
@@ -208,6 +210,7 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
 
 ### Tax on rental
 
+- **From 6 April 2027**: property income taxed at dedicated rates 2pp above main rates — basic 22% / higher 42% / additional 47% (Autumn Budget 2025). Finance-cost (mortgage-interest) relief also rises to 22%. (2026-07-03 verified; source [gov.uk technical note](https://www.gov.uk/government/publications/changes-to-tax-rates-for-property-savings-and-dividend-income/change-to-tax-rates-for-property-savings-and-dividend-income-technical-note))
 - Property income allowance £1,000/yr (de minimis)
 - Mortgage interest restricted to 20% basic rate credit (since 2020)
 - ATED (>£500k single dwellings owned by company): annual charge
@@ -286,6 +289,8 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
 | **Searches**: Local, Drainage & Water (CON29DW), Environmental, Chancel | Solicitor-ordered | Per case |
 | **EWS1** | Required for flats in tall buildings post-Grenfell | 5 years |
 | **Cavity wall insulation guarantee** | If installed | Per case |
+
+- **MEES (private rented sector, England)** — a let property must reach **EPC C by 1 Oct 2030** (single compliance date; Warm Homes Plan / DESNZ response 21 Jan 2026). Cost cap **£10,000** per property (exemption valid 10 yrs); homes valued <£100k → cap is the lower of £10k or 10% of value. Sub-EPC-C stock faces upgrade cost or unlettability — see `--rental`. (2026-07-03 verified; source [gov.uk PRS MEES consultation response](https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update))
 
 ### Climate change projections (UKCP18)
 
@@ -376,7 +381,7 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
 - **FHL abolition April 2025** — major change for short-let economics
 - **Council Tax based on 1991 values** in England/Scotland (1991), 2003 in Wales — wildly outdated
 - **Empty/second home premium up to +100%** since April 2024
-- **Renters' Rights Bill 2025** — Section 21 abolition imminent
+- **Renters' Rights Act 2025** — Section 21 abolished (1 May 2026)
 - **Help to Buy ended** — no scheme replacement yet
 - **Northern Ireland** uses domestic rate system (capital value-based) — distinct from rest of UK
 - **Scotland LBTT + ADS 8%** — punitive on additional dwelling
@@ -421,9 +426,10 @@ Ranges are est. blended indicators triangulated from ONS UK House Price Index (l
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** (initially populated 2026-04-25).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for SDLT 2025 reform (gov.uk, multiple solicitor sources confirm), HIGH for FHL abolition (HMRC + Deloitte tax briefings), HIGH for cladding/RAAC programmes, MEDIUM for Renters' Rights Bill (still progressing through Parliament 2025-2026).
+**Confidence**: HIGH for SDLT 2025 reform (gov.uk, multiple solicitor sources confirm), HIGH for FHL abolition (HMRC + Deloitte tax briefings), HIGH for cladding/RAAC programmes, HIGH for Renters' Rights Act 2025 (in force; s21 abolished 1 May 2026); MEDIUM for HVCTS implementation detail (announced Autumn Budget 2025, consultation live — not yet legislated) and the later phased Renters’ Rights commencements (MHCLG roadmap).
 
 ## Extension TODOs
 

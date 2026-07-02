@@ -42,6 +42,8 @@ ISO2: `nl`. Status: ✅ Fully populated (researched 2026-04).
 
 ### 2025 price benchmarks (NVM + CBS)
 
+**2026 update**: CBS/Kadaster index shows prices still rising into 2026 at +4–5% YoY (Q1 2026 +5.2%, April +4.3%, May +4.4%), well off the ~10% pace of early 2025; ranges below remain plausible (2026-07-03 verified; source CBS nieuws 2026/21 + 2026/26)
+
 | Region | Avg €/m² (apt) | Avg total (semi-detached) |
 |---|---:|---:|
 | **Amsterdam centrum** | 8,000–12,500+ | 800,000–1,800,000+ |
@@ -110,7 +112,7 @@ ISO2: `nl`. Status: ✅ Fully populated (researched 2026-04).
 For primary residence:
 - **0.35% of WOZ** (2025-2026, sliding bracket)
 - Added to taxable income
-- Mortgage interest deductible (max 36.97% rate, capped)
+- Mortgage interest deductible (max **37.56%** aftrektarief, 2026; capped) (2026-07-03 verified)
 - **Hillen aftrek** phase-out (full phase-out by 2048)
 
 ### Box 3 — Vermogensrendementsheffing (savings + investment tax)
@@ -169,13 +171,13 @@ For primary residence:
 
 ### Long-term residential
 
-- **Liberalisatiegrens** (free-market threshold): €1,123/mo (2024-2026); above this = vrije sector
+- **Liberalisatiegrens** (free-market / mid-segment ceiling): **€1,228.07/mo (2026)** = max rent at 186 WWS points; 187+ points or start-rent above it = vrije sector (indexed annually, +3.65% for 2026; was €1,184.82 in 2025 — the grens at contract start governs, not today's) (2026-07-03 verified; source [Volkshuisvesting Nederland maximale huurprijsgrenzen](https://www.volkshuisvestingnederland.nl/onderwerpen/huren-en-wonen/inkomensgrenzen-huurprijsgrenzen-en-huurtoeslagparameters/maximale-huurprijsgrenzen))
 - **WWS (Woningwaarderingsstelsel)**: points system for sociale huur (regulated)
-- **Wet betaalbare huur** (Affordable Rent Act, 1 Jul 2024): extended regulation up to ~€1,150/mo (~187 WWS points)
+- **Wet betaalbare huur** (Affordable Rent Act, 1 Jul 2024): regulated mid-market segment now up to **€1,228.07/mo (2026)** = 186 WWS points; social ≤ **€932.93** (≤143 pts); free sector 187+ pts (2026-07-03 verified)
 - **Tenant rights strict**:
   - Indefinite contracts default
   - Limited notice for landlord
-  - Rent increases capped (CPI + 1% in vrije sector)
+  - Rent increases capped: vrije sector **max 4.4% (2026)** = lower of inflation/CAO-wage +1%; middenhuur **6.1% (2026)** = CAO-wage +1%; sociale huur **4.1%** (from 1 Jul 2026) (2026-07-03 verified)
 - **Tijdelijke huur** (temporary): Wet Doorstroming Huurmarkt — 2-year fixed; **abolished 1 Jul 2024** for new contracts (Wet vaste huurcontracten)
 
 ### Short-let (Airbnb / vakantieverhuur)
@@ -212,7 +214,7 @@ For primary residence:
 - **Inkomstenbelasting**: progressive 36.97% / 49.5% (2025)
 - **Zelfstandigenaftrek**: phasing down to €900 (2027)
 - **MKB-winstvrijstelling**: 12.7% deduction
-- **30%-ruling** for expat workers: duration remains **60 months (5 years)** throughout. Tapering 30/20/10 introduced for 2024 is being **repealed and replaced by a flat 27% for the full 60 months from 1 Jan 2027** (raised salary norms €50,436 / €38,388 for <30 with master's). (2026-05-27 verified; source [business.gov.nl 30%-ruling 27%](https://business.gov.nl/amendments/30-percent-ruling-compensation-down-to-27-percent/))
+- **30%-ruling** for expat workers: duration remains **60 months (5 years)** throughout. Tapering 30/20/10 introduced for 2024 is being **repealed and replaced by a flat 27% for the full 60 months from 1 Jan 2027** (raised salary norms **€50,436 / €38,338** for <30 with master's — both at 2024 price level, indexed annually before 2027) (2026-07-03 verified; source Belastingplan 2025 tweede nota van wijziging, Kamerstuk 36602 — NB the previously cited business.gov.nl/ondernemersplein portal pages show €38,388 for the under-30 norm; the legislative text says €38,338 (superseded))
 
 ### Salary benchmarks (2025)
 
@@ -363,7 +365,7 @@ For primary residence:
   - Cost: €40k–€100k+ per house
 - **Energielabel C** required for office space; tightening for residential rental
 - **Wet werkelijk rendement Box 3 (2028)** — major Box 3 reform
-- **Wet betaalbare huur (1 Jul 2024)** — extended regulation up to ~187 WWS points (~€1,150/mo)
+- **Wet betaalbare huur (1 Jul 2024)** — regulated mid-market up to 186 WWS points (**€1,228.07/mo**, 2026)
 - **Tijdelijke huur abolished** (1 Jul 2024) — flexible tenancy ending
 - **NHG cap €470,000 (2026)** — entry-level affordability (see `--tax` incentives)
 - **30% ruling** — duration remains 5 years (60 months); tapering repealed, flat 27% for full 60 months from 1 Jan 2027 (see `--work`)
@@ -408,7 +410,7 @@ For primary residence:
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** (initially populated 2026-04-25); **Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for Box 3 2026 rates (Belastingdienst + Van Lanschot + Deloitte confirm), HIGH for transfer tax (Belastingdienst), HIGH for Wet werkelijk rendement timeline (passed Tweede Kamer Feb 2026), HIGH for Wet betaalbare huur (1 Jul 2024 effective). MEDIUM for per-gemeente short-let licensing (rules change frequently).
 

@@ -17,7 +17,7 @@ ISO2: `au`. Status: ✅ Fully populated (researched 2026-04).
   - **TAS**: LIST `https://www.thelist.tas.gov.au`
 - **Identifier**: Title reference (Vol/Folio); paid lookup ~$15-30/title
 - **Ownership types**: freehold (Torrens), strata (apt), community title, **old-system title** (pre-Torrens, tiny pockets NSW)
-- **Foreign-buyer ban**: established dwellings **1 Apr 2025 – 31 Mar 2027** (FIRB)
+- **Foreign-buyer ban**: established dwellings **1 Apr 2025 – 30 Jun 2029** (FIRB — extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset; 2026-07-03 verified, source ATO / foreigninvestment.gov.au)
 
 ## Section: `--price`
 
@@ -35,7 +35,9 @@ ISO2: `au`. Status: ✅ Fully populated (researched 2026-04).
 - **Domain.com.au** — #2 (Nine Entertainment): `https://www.domain.com.au`
 - Coverage near-universal across both
 
-### 2026 price benchmarks (CoreLogic + ABS, early 2026)
+### 2026 price benchmarks (CoreLogic/Cotality + ABS, early 2026 — STALE, refresh pending)
+
+*(YoY column is stale: May 2026 Cotality HVI has national values flat at 0.0% MoM — Sydney -0.9% / Melbourne -0.8% MoM, 2.1% / 3.2% below their Nov-2025 peaks; annual growth spread Perth +25.8% vs Melbourne +0.5%. Combined-dwelling medians (May 2026, Cotality HVI): Sydney $1.28M, Melbourne $813k, Brisbane $1.13M, Perth $1.05M — house/unit split medians below need a dedicated `--price` refresh from a Cotality house/unit source. 2026-07-03 verified, source [Cotality HVI May 2026](https://discover.cotality.com/hubfs/Article-Reports/COTALITY%20HVI%20JUNE%202026%20FINAL.pdf))*
 
 | Region | House median | Unit median | YoY |
 |---|---:|---:|---:|
@@ -99,7 +101,7 @@ Land tax = **rate × land value** above threshold.
 | State | 2026 threshold | Rate (above threshold) |
 |---|---:|---|
 | NSW | $1,075,000 (frozen 2025-26 budget) | 1.6% (+ premium 2% over **$6,571,000** — premium threshold also frozen since 2025-26 budget) (2026-05-27 verified, source [Revenue NSW thresholds and rates](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/land-tax/understanding-land-tax/thresholds-and-rates) — prior $7,067k figure was incorrect) |
-| VIC | **$0** (zero threshold from 2024) | 0.2-1.55% sliding |
+| VIC | **$50,000** (temp. COVID-debt threshold cut from $300k, 2024–2033) | ~0.3–2.65% sliding (+ fixed levy component) (2026-07-03 verified, source [SRO VIC current rates](https://www.sro.vic.gov.au/land-tax-current-rates)) |
 | QLD | $600k | 1.0% sliding to 2.75% |
 | WA | $300k | 0.25-2.67% sliding |
 | SA | $668k | 0.5-2.4% sliding |
@@ -146,9 +148,9 @@ State-based, varies hugely:
 ### FIRB approval (federal)
 
 **Foreign Investment Review Board** — required for foreign buyers:
-- **Established dwelling ban: 1 Apr 2025 – 31 Mar 2027** (cannot buy resale homes)
+- **Established dwelling ban: 1 Apr 2025 – 30 Jun 2029** (cannot buy resale homes; extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset; 2026-07-03 verified, source ATO / foreigninvestment.gov.au)
 - **New dwelling / vacant land**: allowed with FIRB approval + fees
-- **Fees scaled by value** (`https://foreigninvestment.gov.au` — current schedule from 1 Jul 2025)
+- **Fees scaled by value** (`https://foreigninvestment.gov.au/guidance/general/fees` — schedule re-indexed each 1 Jul; FY2026-27 schedule applies to applications 1 Jul 2026 – 30 Jun 2027; 2026-07-03 verified)
 - **Vacancy fee**: 2× application fee (annual, if dwelling vacant >6 months)
 
 ### Capital gains tax
@@ -170,7 +172,7 @@ State-based, varies hugely:
 
 ### Future risk
 
-- FIRB ban could be extended past 2027 (under review)
+- FIRB ban extended to 30 Jun 2029 (realised — announced 2026-27 Federal Budget, from the original 31 Mar 2027 sunset; 2026-07-03 verified)
 - VIC VRLT scope expanding through 2026 (metro Melbourne unimproved land)
 - State stamp duty reform proposals (NSW First Home Buyer Choice repealed 2023; replaced by FHBAS)
 
@@ -235,7 +237,7 @@ State-based, varies hugely:
   - Melbourne: ~$85,000–$115,000
   - Brisbane / Perth: ~$75,000–$100,000
   - Smaller cities: ~$65,000–$85,000
-- **Federal minimum wage**: $24.10/hr (2025)
+- **Federal minimum wage**: $26.44/hr ($1,004.90/38-hr week) from 1 Jul 2026 — FWC 2026 Annual Wage Review (NMW +6.0%; award minimums +4.75%) (2026-07-03 verified, source [Fair Work Ombudsman](https://www.fairwork.gov.au/about-us/workplace-laws/annual-wage-review/annual-wage-review-2026))
 
 ---
 
@@ -359,7 +361,7 @@ State-based, varies hugely:
 
 ## Caveats unique to AU
 
-- **Foreign-buyer established-dwelling ban 1 Apr 2025 – 31 Mar 2027** (FIRB)
+- **Foreign-buyer established-dwelling ban 1 Apr 2025 – 30 Jun 2029** (FIRB — extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset; 2026-07-03 verified)
 - **State-by-state divergence is extreme** — stamp duty, land tax, foreign surcharges, RTA all differ massively
 - **Foreign owner surcharges**: NSW 9%, VIC 8%, QLD 8%, WA 7%, SA 7%
 - **VIC VRLT statewide from 1 Jan 2025** + metro Melbourne unimproved land from 2026
@@ -413,9 +415,10 @@ State-based, varies hugely:
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** (initially populated 2026-04-25).
 **Coverage check**: pricing (CoreLogic + ABS), traffic, tax (extreme state divergence), rental (state RTA), work, risks (bushfire + flood + cyclone + earthquake), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for CoreLogic Mar 2026 indices + foreign-buyer ban (1 Apr 2025 - 31 Mar 2027 confirmed) + foreign owner surcharges (NSW 9%, VIC 8%, QLD 8% confirmed) + VIC VRLT + Short-Stay Levy 7.5% + QLD Form 2 Seller Disclosure Statement (1 Aug 2025); MEDIUM for post-2027 FIRB review.
+**Confidence**: HIGH for CoreLogic Mar 2026 indices + foreign-buyer ban (1 Apr 2025 - 30 Jun 2029 confirmed — extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset) + foreign owner surcharges (NSW 9%, VIC 8%, QLD 8% confirmed) + VIC VRLT + Short-Stay Levy 7.5% + QLD Form 2 Seller Disclosure Statement (1 Aug 2025); MEDIUM for the FY2026-27 FIRB fee amounts (verify the current Schedule of Fees PDF on the FIRB fees page) and for market medians beyond the April 2026 Cotality print.
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged)
 
 ## Extension TODOs
 

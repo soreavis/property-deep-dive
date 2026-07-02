@@ -96,7 +96,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 2. Annual taxe foncière = `VLC × 50% × (taux_communal + taux_interco) + TEOM_amount`
 3. Annual taxe d'habitation RS = `VLC × 100% × (taux_communal + taux_syndicat)`. Surcharge majoration 5–60 % if zone tendue (verify on liste).
 4. Frais de notaire on €P (FAI minus agency fee): ≈ 7.5–8 % for ancien
-   - DMTO: **6.32 % default** since Apr 2025 (5.00 % département + 1.20 % commune + 0.1067 % État) — 83 départements voted the +0.5 pp département-share hike enabled by Loi de finances 2025; sunset 30 Apr 2028. 11 départements still hold **5.81 %** (Ain, Allier, Alpes-de-Haute-Provence, Alpes-Maritimes, Drôme, Eure, Isère, Landes, Lozère, Oise, Saône-et-Loire, Territoire de Belfort). (2026-05-27 verified; source [Service Public A18183](https://www.service-public.gouv.fr/particuliers/actualites/A18183) + [impots.gouv.fr DMTO 2026 PDF](https://www.impots.gouv.fr/sites/default/files/media/1_metier/3_partenaire/notaires/dmto/dmto_2026-02.pdf))
+   - DMTO: **6.32 %** in the large majority of départements since Apr 2025 (5.00 % département + 1.20 % commune + ~0.12 % frais d'assiette, computed as 2.37 % × dept rate) — the +0.5 pp département-share hike (art. 116, LOI n° 2025-127) applies **only to acts signed 1 Apr 2025 – 31 Mar 2028**; for acts from 1 Apr 2028 rates revert to the previously voted level. A shrinking minority still holds **5.81 %** — 10 départements as of 1 Apr 2026 (Hautes-Alpes, Alpes-Maritimes, Ardèche, Charente, Drôme, Lozère, Oise, Hautes-Pyrénées, Saône-et-Loire, Guadeloupe; per impots.gouv.fr rate table as relayed by professional trackers) — and Indre + Mayotte keep the 3.80 % dept share (**≈5.09 %** total). Départements re-vote annually (delib changes typically effective ~1 June) — **always pull the current [impots.gouv.fr DMTO PDF](https://www.impots.gouv.fr/sites/default/files/media/1_metier/3_partenaire/notaires/dmto/dmto_2026-02.pdf) edition for the live rate**. **Primo-accédants** (no main-residence ownership in the prior 2 years, buying as main residence) are statutorily exempt from the +0.5 pp hike. (2026-07-03 verified; sources [Légifrance LF 2025 art. 116](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051169081) + impots.gouv.fr DMTO PDF + [AN question n° 5129](https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE5129))
    - Émoluments notaire: dégressif ~0.8–1.2 %
    - Débours + sécurité immobilière: €600–1,500
 5. Future risk: **Révision des Valeurs Locatives des Locaux d'Habitation (RVLLH)** ⚠️ postponed to **2028 declarations → 2030 new values → 2031 tax impact** by **LFI 2026** (art. 106, LOI n° 2026-103 du 19 février 2026; CGI art. 1518 A quinquies A) — *not* PLF 2024/2025; an unofficial **est. +20–40 % for rural homes** circulates but no official figure is published (unverified — re-source or drop). Dates per [ANIL — analyse LF 2026 art. 106](https://www.anil.org/aj-loi-finances-2026/) + [Légifrance art. 106](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053508773) (2026-06-02 verified — dates; % unverified)
@@ -127,13 +127,13 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 3. Realistic year-3 stabilised gross: 16–22 weeks × commune-typical rate
 4. Apply tax regime:
    - Below €15k AND non-classé → micro-BIC 30 % abatement
-   - Above €15k OR classé → micro-BIC **50 %** abatement (classement via organisme accrédité COFRAC) — plafond **€77,700** (classé + chambres d'hôtes, since 1 Jan 2025 per Loi Le Meur 2024-1039; was €188,700 pre-reform). (2026-05-27 verified; source [Légifrance Loi 2024-1039](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711))
+   - Above €15k OR classé → micro-BIC **50 %** abatement (classement via organisme accrédité COFRAC) — plafond **€83,600 for 2026 income onward** (€77,700 applies to 2025 income declared in 2026; classé + chambres d'hôtes, per Loi Le Meur 2024-1039 en vigueur 1 Jan 2025 — was €188,700 pre-reform — then the 2026-2028 triennial revaluation). (2026-07-03 verified; sources [Légifrance Loi 2024-1039](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711) + [Service-Public entreprendre A18813](https://entreprendre.service-public.gouv.fr/actualites/A18813))
    - Above €23k revenue → URSSAF 6 % (classé) or 21.2 % (non-classé)
-   - Above €77.7k → régime réel
+   - Above €83.6k (2026 income; €77.7k for 2025 income) → régime réel
 
 5. Subtract 35–45 % operating costs (cleaning, linen, utilities, commissions)
 6. Compute net at TMI 11 % and TMI 30 %
-7. Note: classement = 50 % abatement + 6 % URSSAF + plafond €77,700 vs 30 %/21.2 %/€15k unclassified (Loi Le Meur 2024-1039, en vigueur 1 Jan 2025)
+7. Note: classement = 50 % abatement + 6 % URSSAF + plafond €83,600 (2026 income onward; €77,700 for 2025 income) vs 30 %/21.2 %/€15k unclassified (Loi Le Meur 2024-1039 + 2026-2028 triennial revaluation)
 
 **Strategic levers**:
 - **Classify it** — free in most departments via the ADT (Agence Départementale du Tourisme)
@@ -143,6 +143,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 
 **Caveats**:
 - Loi Le Meur (Nov 2024) lowered non-classé thresholds drastically (was 77.7k → now 15k)
+- National registration number now mandatory via the national téléservice (**Declaloc**, operated by the DGE; obligation in force **20 May 2026**, décrets n° 2026-196 and 2026-197 du 19 mars 2026; lessor-facing portal rolls out progressively **H2 2026** — one source reports the entry point at apimeubles.finances.gouv.fr, so verify the current portal via the DGE / economie.gouv.fr when registering) — administrative fines pronounced by the maire up to **€10,000** (défaut d'enregistrement) / **€20,000** (fausse déclaration or faux numéro, art. 4 Loi Le Meur). (2026-07-03 verified)
 - Loi Climat: DPE F-G gîtes increasingly restricted
 
 ---
@@ -158,12 +159,12 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 - **Salaries general**: INSEE DADS / DSN, Hellowork, JournaldDuNet salaire
 
 **Legal status options** (always include):
-- **Auto-entrepreneur (BNC libéral)**: simple, ~22.2 % charges, plafond €77,700 ⚠️ BIC services vs BNC libéral plafonds differ — secondary sources contradict; verify at [URSSAF auto-entrepreneur plafonds](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/les-plafonds.html) before relying on (2026-05-27 stale-marker)
+- **Auto-entrepreneur (BNC libéral)**: simple, ~22.2 % charges (rate NOT re-verified in this pass and may be stale — verify current rate at URSSAF before relying), plafond **€83,600** (2026-2028 triennium; was €77,700 through 2025) — BIC services and BNC libéral share the €83,600 services plafond per [URSSAF seuils 2026](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/toutes-les-actualites/2026--modification-des-seuils-de.html) (2026-07-03 verified — plafond only)
 - **Service à la personne (SAP)**: 50 % tax credit for client; activate via URSSAF
 - **CCN ÉCLAT (associative music schools)**: coefficient 265 × point ~€6.85 ≈ €1,815/mo gross full-time — point value is a renegotiated collective-agreement figure; verify current point at the convention's latest avenant salaires before relying on
 - **CDI public conservatoire**: needs DE + concours
 - **Association loi 1901**: for community projects, no income to self
-- **Régime réel BNC**: above €77.7k
+- **Régime réel BNC**: above €83.6k (2026 income onward; €77.7k for 2025 income)
 - **Profession libérale réglementée** (médecin, avocat, etc.): specific regimes
 
 **Catchment formula**:
@@ -274,6 +275,8 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 | Assainissement non-collectif | Rural, no mains | 3 years |
 | Mérule | Commune in arrêté zone | 6 months |
 
+⚠️ **DPE recalculated from 1 Jan 2026** (arrêté du 13 août 2025, JO 26 Aug 2025): electricity primary-energy conversion coefficient lowered 2.3 → 1.9. Officially ~850,000 homes exit F/G with no works (base 1 Jan 2023, of 4.8M passoires; a Nov 2025 reassessment reported ~700,000 — secondary source, verify at ONRE); no label is downgraded, and only electric-heated homes benefit (the label stays the worse of the energy/GES scales — oil/gas-heated rural homes gain nothing). DPEs edited from 1 Jan 2026 auto-apply the new coefficient; pre-2026 DPEs stay valid and a re-labelling attestation is free (no new visit) via the ADEME Observatoire DPE-Audit. (2026-07-03 verified; source [economie.gouv.fr](https://www.economie.gouv.fr/actualites/un-nouveau-dpe-au-1er-janvier-2026-pour-favoriser-le-chauffage-electrique) + notaires.fr)
+
 ## Cost benchmarks (rural FR, 2026)
 
 | Work | Cost |
@@ -312,7 +315,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 
 ## Caveats unique to FR
 
-- RVLLH cadastral reform ⚠️ postponed PLF 2024/2025 to **2028 declarations → 2030 tax impact** → +20–40 % taxe foncière for rural (2026-05-27 stale-marker; verify at collectivites-locales.gouv.fr)
+- RVLLH cadastral reform ⚠️ postponed by LFI 2026 (art. 106) to **2028 declarations → 2031 tax impact** → unofficial est. +20–40 % taxe foncière for rural, unverified (2026-07-03 verified — dates per ANIL LF 2026; % unverified)
 - DPE F (2028) and E (2034) banned for rental
 - Loi Le Meur (Nov 2024) tightens short-let regime
 - Service à la personne credit = 50 % deduction for client (huge competitive lever)
@@ -352,6 +355,6 @@ For FR-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 
 **Confidence**: HIGH for tax + risk + rental sources (impots.gouv.fr / Géorisques / DGFiP — multi-source corroborated). MEDIUM for work catchment heuristics (département-dependent).

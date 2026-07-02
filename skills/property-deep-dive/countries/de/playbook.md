@@ -39,7 +39,7 @@ ISO2: `de`. Status: ✅ Fully populated (researched 2026-04).
 - **Engel & Völkers, von Poll** — premium agency networks
 - **Immonet, Immowelt-Group**
 
-### Price benchmarks (Q4 2025 / Q1 2026 reference)
+### Price benchmarks (Q1 2026 reference — Destatis HPI +1.4 % YoY, +0.3 % QoQ; PM 219, 25 Jun 2026; index rebased to 2025)
 
 - **Destatis Häuserpreisindex** (HPI): `https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreisindex/_inhalt.html`
 - **Bundesbank Wohnimmobilienpreise**: `https://www.bundesbank.de/`
@@ -139,7 +139,7 @@ Grundsteuer = Grundsteuerwert × Steuermesszahl × Hebesatz
 | Berlin, **Hessen**, Mecklenburg-Vorpommern | **6.0 %** | 2014–19 |
 | Brandenburg, NRW, Saarland, Schleswig-Holstein | 6.5 % (highest) | 2014–15 |
 
-(2026 rates per state Finanzministerien; Bremen ↑ 1 Jul 2025, Thüringen ↓ 1 Jan 2024; Hamburg + Sachsen at 5.5 % since 1 Jan 2023. 2026-05-27 verified; source [finanz-tools.de Grunderwerbsteuer 2026 Tabelle](https://www.finanz-tools.de/grunderwerbsteuer/bundeslaender-tabelle))
+(2026 rates per state Finanzministerien; Bremen ↑ 1 Jul 2025, Thüringen ↓ 1 Jan 2024; Hamburg + Sachsen at 5.5 % since 1 Jan 2023. 2026-07-03 verified; source [finanz-tools.de Grunderwerbsteuer 2026 Tabelle](https://www.finanz-tools.de/grunderwerbsteuer/bundeslaender-tabelle))
 
 ### Notarkosten + Grundbucheintrag
 
@@ -169,7 +169,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 
 ### Future risk
 
-- 2024-2025 Grundsteuerreform results uncertain — many landlords face higher bills, some lower
+- Grundsteuerreform 2025 largely upheld by the BFH: **Bundesmodell verfassungskonform** (judgments 12 Nov 2025, Az. II R 25/24, II R 31/24, II R 3/25; published 10 Dec 2025) and **BW Bodenwertmodell verfassungsgemäß** (20 May 2026, Az. II R 26/24 & II R 27/24). Not final: a **Verfassungsbeschwerde against the Bundesmodell is pending at the BVerfG (Az. 1 BvR 472/26**, Bund der Steuerzahler / Haus & Grund). Open front: split Grundsteuer-B Hebesätze (higher for non-residential) struck down for Bochum/Essen/Dortmund/Gelsenkirchen by **VG Gelsenkirchen (4 Dec 2025**, Az. 5 K 2074/25 u.a.) — itself not final, appeal routes to OVG NRW / BVerwG opened (2026-07-03 verified)
 - Solidaritätszuschlag (no longer applies to most income tax payers)
 - Discussions about Erbschaftsteuer on real estate periodically resurface
 
@@ -189,7 +189,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 - Active in ~400 communities (gespannte Wohnungsmärkte)
 - Applies in Berlin, Hamburg, München, Köln, Frankfurt, Stuttgart, Düsseldorf
 - Cap: max 110 % of local Mietspiegel for new contracts (with exceptions)
-- Extended to 2029 (Bundesregierung 2025)
+- Extended to 2029 — in force 23 Jul 2025, runs to 31 Dec 2029 (Bundesregierung 2025); the extension renews the Verordnungsermächtigung — the brake applies only where the Land re-designates the area by Verordnung
 
 **Mietendeckel** Berlin (2020-2021): unconstitutional, abolished 2021.
 
@@ -211,7 +211,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 - **§ 21 EStG (Vermietung & Verpachtung)** for non-commercial private rental
 - **§ 15 EStG (Gewerbe)** if hotel-style services or 3+ properties — Gewerbesteuer applies
 - VAT: short-let < 6 months is **VAT-eligible at 7 %** (reduced) since 2010
-- **EU Regulation 2024/1028** transposition expected by May 2026
+- **EU Reg 2024/1028** (STR data-sharing) **applies since 20 May 2026**; German transposition **KVDG (Kurzzeitvermietung-Datenaustausch-Gesetz)** is **enacted** — Bundestag 23 Apr 2026, Bundesrat 8 May 2026, promulgated 18 May 2026 (BGBl. 2026 I Nr. 138) — making the **Bundesnetzagentur** the single digital entry point relaying platform↔Kommune data. The Regulation is opt-in: the registration-number-in-listing duty bites only where the Kommune runs an EU-compliant registration scheme — verify locally (2026-07-03 verified)
 
 ### Strategic notes
 
@@ -295,7 +295,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 | **1995–2002** | EnEV thermal standards begin; better materials |
 | **2002–2014** | EnEV revisions tightening; modern materials |
 | **Post-2014** | EnEV/GEG strict; nZEB approaching |
-| **Post-2024 (GEG)** | 65 % renewable energy mandate for new heating systems |
+| **Post-2024 (GEG)** | 65 % renewable-energy rule for new heating — **replacement in progress, not yet law**: draft **Gebäudemodernisierungsgesetz (GModG; some sources 'GMG')** would rename/replace the GEG. Bundeskabinett approved the draft 13 May 2026; in-force target 1 Nov 2026; still in the parliamentary process — **the GEG-2024 65 % rule remains in force until then**. The draft drops the 65 % obligation for a technology-open 'Bio-Treppe' rising CO2-neutral-fuel quota on new gas/oil heating (10 % from 2029 → 15 % 2030 → 30 % 2035 → 60 % 2040). Confirm final text before relying (2026-07-03 verified) |
 
 **Asbestos**: pre-1995 buildings highly likely; remediation cost €30–€100/m² for friable; €15,000–€80,000 typical for small house
 
@@ -359,17 +359,17 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 | **Total transaction cost** | **9–13 %** of price |
 | Asbestsanierung (small house) | 15,000–80,000 |
 | Energetische Sanierung Klasse C → A | 60,000–120,000 |
-| Heizungstausch (Wärmepumpe) — incl. BAFA Förderung | 25,000–40,000 |
+| Heizungstausch (Wärmepumpe) — incl. KfW-458 Förderung | 25,000–40,000 |
 | Dachsanierung (200 m²) | 25,000–50,000 |
 | Fenster komplett (15 Stück) | 12,000–25,000 |
 
 ## Active fiscal incentives (2025-2026)
 
-- **BAFA Förderung Wärmepumpe**: up to 70 % of cost (cap €30k)
+- **KfW Heizungsförderung (Programm 458)** Wärmepumpe: up to **70 %** of eligible cost, cap **€30k eligible costs for the first Wohneinheit** → max **€21,000** (Grundförderung 30 % + Klimageschwindigkeitsbonus 20 % + Einkommensbonus 30 % [self-occupiers, taxable household income < €40k] + Effizienzbonus 5 %; capped at 70 % — boni beyond 30 % + 5 % are self-occupier-only, so landlords max ~35 %). Applied via 'Meine KfW' portal — **heat-pump grant moved from BAFA to KfW in 2024**; BAFA retains only non-heating BEG Einzelmaßnahmen (e.g. Dämmung); funding pledged stable to ≥2029 (2026-07-03 verified)
 - **KfW Kredit + Tilgungszuschuss** (Effizienzhaus 40/55): zinsgünstige Kredite
 - **BEG (Bundesförderung effiziente Gebäude)**: comprehensive retrofit grants
-- **GEG 65-%-Erneuerbare-Pflicht**: from 2024 for new heating systems
-- **Sonder-AfA für Mietwohnungsbau** (special depreciation): 5 %/yr × 4 yrs for new builds in Wohnraum-Mangelgebieten
+- Post-2024 (GEG): 65 % renewable-energy rule for new heating — **replacement in progress, not yet law**: draft **Gebäudemodernisierungsgesetz (GModG; some sources 'GMG')** would rename/replace the GEG. Bundeskabinett approved the draft 13 May 2026; in-force target 1 Nov 2026; still in the parliamentary process — **the GEG-2024 65 % rule remains in force until then**. The draft drops the 65 % obligation for a technology-open 'Bio-Treppe' rising CO2-neutral-fuel quota on new gas/oil heating (10 % from 2029 → 15 % 2030 → 30 % 2035 → 60 % 2040). Confirm final text before relying (2026-07-03 verified)
+- **Sonder-AfA §7b EStG** (new rental builds): 5 %/yr × 4 yrs (assessment basis max €4,000/m²; Baukostenobergrenze €5,200/m² + efficiency criterion per §7b Abs. 2), **Bauantrag/Bauanzeige filed after 31 Dec 2022 and before 1 Oct 2029**; **combinable with degressive AfA (§7 Abs. 5a EStG, 5 %/yr of residual book value; construction begun — or purchase contracted — after 30 Sep 2023 and before 1 Oct 2029)** → up to ~10 %/yr in years 1–4 (Wachstumschancengesetz, 27 Mar 2024) (2026-07-03 verified)
 
 ## Common listing platforms
 
@@ -382,7 +382,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 ## Caveats unique to DE
 
 - **Federal patchwork**: every Bundesland has different rules — always check state-specific
-- **Grundsteuerreform 2025**: live now; many owners face changed bills
+- **Grundsteuerreform 2025**: live now; BFH-upheld (Bundesmodell verfassungskonform, 12 Nov 2025), BVerfG complaint pending (Az. 1 BvR 472/26); many owners face changed bills
 - **Mietpreisbremse + Kündigungsschutz** make landlord-friendly investments harder than US/UK
 - **Zweckentfremdungsverbot** kills short-let in major cities
 - **Erbbaurecht** common in Berlin, Hamburg, München (90-99 yr leasehold) — affects valuation
@@ -390,7 +390,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 - **Sondereigentum vs Gemeinschaftseigentum** distinction critical
 - **Altlasten-Kataster** (contaminated land registry) — check at Bundesland Umweltamt
 - **Erdbeben Köln-Bonn / Niederrhein** zone — newer than perceived
-- **2024 GEG**: 65 % renewable for new heating + retrofit when boiler dies — major retrofit cost
+- Post-2024 (GEG): 65 % renewable-energy rule for new heating — **replacement in progress, not yet law**: draft **Gebäudemodernisierungsgesetz (GModG; some sources 'GMG')** would rename/replace the GEG. Bundeskabinett approved the draft 13 May 2026; in-force target 1 Nov 2026; still in the parliamentary process — **the GEG-2024 65 % rule remains in force until then**. The draft drops the 65 % obligation for a technology-open 'Bio-Treppe' rising CO2-neutral-fuel quota on new gas/oil heating (10 % from 2029 → 15 % 2030 → 30 % 2035 → 60 % 2040). Confirm final text before relying (2026-07-03 verified)
 - **Solidaritätszuschlag** mostly abolished but still applies for high earners
 - **Tax-secrecy is strong** — getting Grundsteuerwert before purchase difficult; ask seller
 
@@ -447,9 +447,11 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** (initially populated 2026-04-25).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for tax + risk + cadastre sources (post-2025 Grundsteuerreform stable; BORIS-D + BfG well-maintained). MEDIUM for short-let regulation (EU 2024/1028 transposition expected May 2026; city-by-city rules evolving).
+**Confidence**: HIGH for tax + risk + cadastre sources (Grundsteuerreform 2025 BFH-upheld, BVerfG complaint pending [Az. 1 BvR 472/26]; BORIS-D + BfG well-maintained). MEDIUM for short-let regulation (EU 2024/1028 transposed via KVDG [BGBl. 2026 I Nr. 138]; city-by-city registration rules still evolving).
+
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 
 ## Extension TODOs
 

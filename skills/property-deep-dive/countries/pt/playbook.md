@@ -1,6 +1,6 @@
 # Portugal 🇵🇹 — Property Due-Diligence Playbook
 
-ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
+ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 
 ## Country profile
 
@@ -34,8 +34,9 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 - **INE Índice Preços Habitação (IPHab)**: official quarterly
 - **Confidencial Imobiliário** SIR + indices
+- **INE IPHab YoY**: +18.9 % YoY Q4 2025 (full-year 2025 +17.6 %); Q1 2026 +17.8 % YoY — first deceleration since Q2 2024 (2026-07-03 verified, INE IPHab). €/m² ranges below predate this run-up — treat as indicative floors, re-price against INE município data.
 
-| City/Region | Apartamentos €/m² (2024-2025) |
+| City/Region | Apartamentos €/m² (2024-2025 — pre-run-up; verify against current INE IPHab) |
 |---|---:|
 | **Lisboa** | 4,000–7,500 (centro 6,000–10,000+) |
 | **Porto** | 3,000–5,500 |
@@ -99,23 +100,25 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Other annual
 
-- **AIMI (Adicional ao IMI)** wealth tax surcharge: 0.7-1.5 % on properties summed VPT > €600k (€1.2M for couples) (2025 rates — verify current thresholds with Portal das Finanças; may have changed since)
+- **AIMI (Adicional ao IMI)** wealth tax surcharge: 0.7-1.5 % on properties summed VPT > €600k (€1.2M for couples) (2026 rates confirmed unchanged; source PwC Guia Fiscal 2026; 2026-07-03 verified)
 
 ### Transaction taxes — IMT (Imposto Municipal sobre Transmissões)
 
-**2025 progressive rates for primary residence**:
+**2026 progressive rates for primary residence** (OE2026 ~2 % indexation, AT practical tables per Ofício-circulado n.º 40129/2026 de 06/01/2026; cross-checked PwC Guia Fiscal 2026; 2026-07-03 verified):
 
 | VPT bracket (€) | Rate (primary residence) | Rate (other) |
 |---|---:|---:|
-| 0 – 104,261 | **0 %** (exempt) | 1.0 % |
-| 104,261 – 142,618 | 2 % | 2 % |
-| 142,618 – 194,458 | 5 % | 5 % |
-| 194,458 – 324,058 | 7 % | 7 % |
-| 324,058 – 648,022 | 8 % | 8 % |
-| 648,022 – 1,128,287 | 6 % avg | 6 % |
-| > 1,128,287 | **7.5 % flat** | **7.5 % flat** |
+| 0 – 106,346 | **0 %** (exempt) | 1.0 % |
+| 106,346 – 145,470 | 2 % | 2 % |
+| 145,470 – 198,347 | 5 % | 5 % |
+| 198,347 – 330,539 | 7 % | 7 % |
+| 330,539 – 660,982 | 8 % | 8 % |
+| 660,982 – 1,150,853 | 6 % (taxa única) | 6 % |
+| > 1,150,853 | **7.5 % flat** | **7.5 % flat** |
 
-**Non-resident IMT surcharge — PROPOSED, not yet in force as of 2026-05**: no enacted statute / Portaria / AT release identified. Tracked in `regulatory-watch.md` as proposed (impact tier 3). Do not rely on it for purchase modelling until enacted. (2026-05-27 verified — unsourced political announcement only)
+**IMT Jovem** (Lei 30-A/2024 + DL 48-A/2024, in force 1 Aug 2024): buyers aged ≤35 (not an IRS dependent that year; not owner of another habitational urban property — 3-year lookback per Santander 2026 explainer, verify condition wording with AT) making their FIRST acquisition of an urban property exclusively for own-permanent residence pay **€0 IMT and €0 Imposto do Selo** up to **€330,539** (2026 Continente value; €324,058 in 2025; RAs higher — €396,647); between €330,539 and €660,982 only the excess is taxed at 8 % marginal IMT while the IS exemption remains in full; no benefit above €660,982. One-time use. Land-for-construction excluded. (2026-07-03 verified; sources: Portal das Finanças IMT Jovem + PwC Guia Fiscal 2026 + ECO)
+
+**Non-resident IMT surcharge — ENACTED**: DL 97/2026 (20 May 2026, under authorization Lei 9-A/2026) adds CIMT Art. 17.º/10 — flat **7.5 % IMT** on acquisition of urban habitational property by non-residents, **no exemption or reduction applies** (incl. no HPP brackets, no IMT Jovem). Exceptions: buyer is / becomes PT tax resident within 2 years of purchase (refund route), or property goes to moderate-rent lease ≥36 months within first 5 years. Effective date disputed among professional sources — 25 May 2026 (Cuatrecasas: no general entry-into-force clause → 5th-day default; idealista calendar) vs 1 Sept 2026 (other summaries) — model 7.5 % now and verify the applicable date with AT/notário. Same diploma extends the IMT payment deadline to 30 days from liquidation. (2026-07-03 verified; source [DR DL 97/2026](https://diariodarepublica.pt/dr/detalhe/decreto-lei/97-2026-1124493227))
 
 **IS (Imposto do Selo)**: **0.8 %** of price
 
@@ -141,7 +144,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Future risk
 
-- Non-resident IMT surcharge (Oct 2025) — under fiscal review
+- Non-resident 7.5 % IMT surcharge — **now ENACTED** (DL 97/2026, 20 May 2026); see Transaction taxes above (2026-07-03 verified)
 - AIMI thresholds may adjust
 - Mais Habitação package (Lei 56/2023) partially **repealed by Decreto-Lei 76/2024 (23 Oct 2024, in force 1 Nov 2024)** — repealed: (a) 5-yr AL registration term with mandatory renewal; (b) general suspension of new AL registrations in apartments (national); (c) mandatory condominium consent for AL in autonomous fractions; (d) expiry of inactive registrations; (e) non-transferability of registration on sale. Município-level Áreas de Contenção (Lisbon RMAL, Porto Reg. 1462/2024) remain in force and were reinforced by DL 76/2024. (2026-05-27 verified; source [DR DL 76/2024](https://diariodarepublica.pt/dr/detalhe/decreto-lei/76-2024-892301177)) The current Lisbon RMAL is its **2nd amendment (Aviso n.º 29926-A/2025/2, in force 6 Dec 2025)**, which re-imposes **sale-triggered caducidade** of *moradia*/*apartamento* AL registrations in containment zones at municipal level — municipal caducidade survives despite DL 76/2024 restoring national transferability of registrations on sale. (2026-07-02 verified; source [DR Aviso 29926-A/2025/2](https://diariodarepublica.pt/dr/detalhe/aviso/29926-a-2025-964380181))
 
@@ -210,7 +213,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
   - Lisboa, Porto: ~€1,500-2,200
   - Coimbra, Braga: ~€1,200-1,700
   - Smaller cities: ~€1,000-1,400
-- **SMN (Salário Mínimo Nacional) 2025**: €870/mo (14 payments) = €12,180/yr
+- **SMN (Salário Mínimo Nacional) 2026**: €920/mo Continente (DL 139/2025; 14 payments = €12,880/yr; net €818.80 after 11 % SS); Açores €966 (+5 % regional rule); Madeira €980 (DLR 1/2026/M, effects 1 Jan 2026). Tripartite accord path: €970 (2027), €1,020 (2028). (2026-07-03 verified; sources DGERT/DL 139/2025 + DR DLR 1/2026/M)
 
 ---
 
@@ -325,7 +328,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 - **IFRRU 2020**: urban regeneration — extends into 2024+
 - **PRR (Plano de Recuperação e Resiliência)**: post-COVID retrofit funding
 - **Reabilitação Urbana benefits**: ARU (Áreas de Reabilitação Urbana) — IMI/IMT reductions
-- **NHR/IFICI (Incentivo Fiscal à Investigação Científica e Inovação)**: NHR closed to new entrants by **Lei n.º 82/2023 (OE 2024) Art. 236.º** (transitional 2024 entry under specified conditions). IFICI established by **EBF Art. 58.º-A** and regulated by **Portaria n.º 352/2024/1 de 23 de dezembro** — narrower successor for scientific research, qualified jobs in productive investment, technology, startups (NOT pensions; NHR pension exemption eliminated). IFICI is single-use: not applicable to prior NHR or "Regressar" beneficiaries. (2026-05-27 verified; source [Portaria 352/2024/1 — sgeconomia.gov.pt](https://www.sgeconomia.gov.pt/destaques/portaria-n-35220241-de-23-de-dezembro-regulamenta-o-regime-de-incentivo-fiscal-a-investigacao-cientifica-e-inovacao-previsto-no-artigo-58-a-do-estatuto-dos-beneficios-fiscais.aspx...))
+- **NHR/IFICI (Incentivo Fiscal à Investigação Científica e Inovação)**: NHR closed to new entrants by **Lei n.º 82/2023 (OE 2024) Art. 236.º** (transitional 2024 entry under specified conditions). IFICI established by **EBF Art. 58.º-A** and regulated by **Portaria n.º 352/2024/1 de 23 de dezembro** — narrower successor for scientific research, qualified jobs in productive investment, technology, startups (NOT pensions; NHR pension exemption eliminated). IFICI is single-use: not applicable to prior NHR or "Regressar" beneficiaries. Portaria 352/2024/1 was amended by **Portaria n.º 52-A/2025/1 (de 25 de fevereiro de 2025, in force 26 Feb 2025)** — procedural only: adds Art. 4.º/4 routing the inscription request and communication of alterations through the Portal das Finanças; eligible activities and benefits (20 % flat on qualified PT-source income, foreign-income exemption, 10 years non-renewable, pensions excluded) unchanged. (2026-07-03 verified; sources [Portaria 352/2024/1 — sgeconomia.gov.pt](https://www.sgeconomia.gov.pt/destaques/portaria-n-35220241-de-23-de-dezembro-regulamenta-o-regime-de-incentivo-fiscal-a-investigacao-cientifica-e-inovacao-previsto-no-artigo-58-a-do-estatuto-dos-beneficios-fiscais.aspx...) + DR Portaria 52-A/2025/1)
 
 ## Common listing platforms
 
@@ -389,9 +392,10 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** (initially populated 2026-04-25).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged)
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for tax + risk + cadastre sources (Cadastro modernization ongoing but Finanças stable; APA + IPMA well-maintained). MEDIUM-HIGH for AL regulation (Lisbon suspension confirmed May 2025; Porto + Algarve evolving).
+**Confidence**: HIGH for tax + risk + cadastre sources (Cadastro modernization ongoing but Finanças stable; APA + IPMA well-maintained). MEDIUM-HIGH for AL regulation (Lisbon RMAL containment in force since 6 Dec 2025; Porto + Algarve evolving).
 
 ## Extension TODOs
 

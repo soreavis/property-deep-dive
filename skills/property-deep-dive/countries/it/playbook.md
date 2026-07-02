@@ -94,8 +94,7 @@ ISO2: `it`. Status: ✅ Fully populated (researched 2026-04).
 
 **IMU (Imposta Municipale Unica)** — most important:
 - **Prima casa NON di lusso** (cat. A/1, A/8, A/9): exempt
-- **Seconda casa**: statutory range 0.46% (4.6‰) min to 1.06% (10.6‰) max
-- Comune sets aliquota within that statutory range; base aliquota 7.6‰ — verify the current rate on the comune's IMU page
+- **Seconda casa**: aliquota base 8.6‰ (0.86%); il comune può azzerarla o aumentarla fino a 10.6‰ (1.06%), e fino a 11.4‰ nei soli comuni con ex-maggiorazione TASI (L. 160/2019 art. 1 c. 754-755). Verify the current rate on the comune's IMU page (2026-07-03 verified, source Gazzetta Ufficiale L. 160/2019)
 - **Calcolo**: `IMU = rendita catastale × 1.05 × 160 × aliquota`
 - Bills: 16 giugno (acconto) + 16 dicembre (saldo), or full payment by giugno
 - Reduction for canone concordato: 75% of IMU
@@ -341,7 +340,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 | Tecnico per conformità (geometra) | €300–€1,000 |
 | Septic to mains | €5,000–€15,000 |
 | Roof (terracotta tiles, 200 m²) | €15,000–€30,000 |
-| Antiseismic retrofit (small house) | €30,000–€80,000 (Sismabonus 50 % prima casa / 36 % seconda nel 2025) |
+| Antiseismic retrofit (small house) | €30,000–€80,000 (Sismabonus 50 % prima casa / 36 % seconda nel 2025-2026) |
 | Asbestos removal (200 m² roof) | €5,000–€15,000 |
 | Energy retrofit (Ecobonus 50 %) | €20,000–€60,000 |
 | **Total transaction cost (prima casa)** | ~10–13 % over price |
@@ -350,7 +349,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 ## Active fiscal incentives (2025)
 
 - **Sismabonus** prima casa **50 %** / seconda **36 %** (2025 e 2026 — decalage sospeso da [L. 199/2025 art. 1 c. 22](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199) modificante DL 63/2013 art. 16); 36 %/30 % programmato per 2027 salvo proroga; cap €96,000/unit; spread su 10 quote annuali; statute underlying: art. 16-bis TUIR (DPR 917/1986) + art. 16 c. 1-septies DL 63/2013 per acquisti (2026-05-27 verified, sources normattiva.it L. 199/2025 + DL 63/2013)
-- **Ecobonus** energy retrofit: 50 % prima casa / 36 % seconda (2025)
+- **Ecobonus** energy retrofit: 50 % prima casa / 36 % seconda (2025-2026)
 - **Bonus Ristrutturazione**: 50 % up to €96k; cap aliquote scendono progressivamente
 - **Superbonus 110 %** sostanzialmente concluso; trasceso a 65 % e poi a regime ordinario
 - **Bonus Mobili**: legato a ristrutturazione, 50 % up to €5k
@@ -402,7 +401,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 - **Superficie commerciale** (used in listings) ≠ superficie utile/Carrez ≠ rendita catastale "vani" — never compare €/m² across these naïvely
 - **CAP can span multiple comuni** in Italy (unlike France 1 CAP = 1 comune typically); verify codice catastale comune for accurate lookup
 - **Rendita catastale revaluation 1.05** dates from 1996; multiple political pushes for cadastre reform have stalled
-- **Polizza Catastrofale obbligatoria per imprese da 31 marzo 2025** (PMI catnat insurance) — not yet residential, but worth noting
+- **Polizza Catastrofale (CatNat) obbligatoria per le imprese — ora pienamente in vigore, entrata scaglionata**: grandi imprese entro 31 mar 2025, medie entro 30 set 2025, micro/piccole entro 31 dic 2025; pesca/acquacoltura + micro/piccole turistico-ricettive e somministrazione prorogate al 31 mar 2026 (DL 200/2025 Milleproroghe, conv. L. 26/2026). Inadempienza = esclusione da contributi e agevolazioni pubbliche (L. 213/2023 art. 1 c. 102). NON ancora residenziale, ma worth noting (2026-07-03 verified, source MIMIT polizze rischi catastrofali Cat Nat)
 
 ## Source URL templates
 
@@ -423,7 +422,8 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** (initially populated 2026-04-25).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + rental sources (multi-source corroborated). MEDIUM for work catchment heuristics (region-dependent).
 

@@ -382,7 +382,7 @@ property-deep-dive/
 │   └── sync-docs.py                  # auto-sync counts + AUTOGEN blocks across community markdown
 └── skills/property-deep-dive/        # the skill payload (everything plugin hosts ship)
     ├── SKILL.md                      # master router (~610 lines)
-    ├── shared/                       # 72 top-level universal layer files (~26,100 lines)
+    ├── shared/                       # 72 top-level universal layer files (~26,200 lines)
     │   │                             #   + shared/exit/ subdirectory (14 region files, ~1,000 lines, loaded on demand)
     │   ├── preflight, sections, output-template, verdict-bands, anti-hallucination
     │   ├── 24 section implementations (universal logic + per-country tables/overlays)
@@ -401,7 +401,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 199 markdown files, ~104,900 lines (SKILL.md + shared/ section library + 126 country playbooks).
-**Repo total**: 226 markdown files, ~109,100 lines (skill content + community / governance files + CHANGELOG) · 39 YAML config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 226 markdown files, ~109,200 lines (skill content + community / governance files + CHANGELOG) · 39 YAML config files (31 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

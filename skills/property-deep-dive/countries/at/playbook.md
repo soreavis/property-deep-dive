@@ -57,9 +57,9 @@ National averages 2024 (Statistik Austria):
 
 ### 2025 trend (OeNB)
 
-- Q4 2025: nominal +2.12 % YoY; real (inflation-adjusted) **−1.74 %**
-- Wien outperformed: +2.93 % vs Austria-ex-Wien +1.57 %
-- Average condo Q1 2025: €263,639 / unit, €4,300/m²
+- 2025 full year (OeNB, press release 29 Jan 2026): nominal **+2.1 % YoY**; real (vs 3.8 % inflation) **≈ −1.7 %** — prices fell in real terms again
+- Wien **+2.9 %** vs Austria-ex-Wien **+1.6 %**; new Wien apartments +3.8 %, used +2.8 %
+- OeNB Wohnimmobilienpreisindex **272.2 in Q1 2026 (record high)** — market stabilizing/recovering after 2022-24 correction (2026-07-03 verified)
 
 ### Compute
 
@@ -126,13 +126,13 @@ Long-debated Grundsteuerreform — multiple political parties want full revaluat
 
 (2026-05-27 verified; source [BMF Steuersatz](https://www.bmf.gv.at/themen/steuern/immobilien-grundstuecke/grunderwerbsteuer/steuersatz.html) + [USP GrESt](https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/grunderwerbsteuer.html))
 
-**Share-deal RETT reform (eff. 1 Jul 2025)**: Anteilsvereinigungs-/share-consolidation threshold dropped from **95 % → 75 %**. Indirect (chain) share consolidations also caught. Increased **3.5 % rate on fair-market value (gemeiner Wert)** for share-deal transfers — closes Anteilsvereinigung loophole. Relevant for SPV/GmbH structures. (2026-05-27 verified; source [DLA Piper](https://www.dlapiper.com/en-de/insights/publications/2025/06/new-regime-on-austrian-real-estate-transfer-tax) + [Wolf Theiss](https://www.wolftheiss.com/insights/austria-to-introduce-stricter-real-estate-transfer-tax-rules-for-share-deals/))
+**Share-deal RETT reform (eff. 1 Jul 2025)**: Anteilsvereinigungs-/share-consolidation threshold dropped from **95 % → 75 %**. Indirect (chain) share consolidations also caught. **Observation period extended 5 → 7 years.** Increased **3.5 % rate on fair-market value (gemeiner Wert)** for share-deal transfers — closes Anteilsvereinigung loophole. Relevant for SPV/GmbH structures. (2026-07-03 verified; source [DLA Piper](https://www.dlapiper.com/en-de/insights/publications/2025/06/new-regime-on-austrian-real-estate-transfer-tax) + [Wolf Theiss](https://www.wolftheiss.com/insights/austria-to-introduce-stricter-real-estate-transfer-tax-rules-for-share-deals/))
 
 ### Eintragungsgebühr (Grundbuch entry fee)
 
 **1.1 % of price** — separate fee for Grundbuch registration.
 
-**Hauptwohnsitz-Befreiung (1 Jul 2025 – 30 Jun 2026)**: Eintragungsgebühr + Pfandrechts-Eintragungsgebühr (1.2 %) entfallen für bis zu **€500,000 Bemessungsgrundlage** beim Erwerb einer Hauptwohnsitz-Immobilie (BMJ, Stand 2026). Sunset 30 Jun 2026. (2026-05-27 verified; source [BMJ Befreiung](https://www.bmj.gv.at/themen/Zivilrecht/Befreiung-von-der-Grundbuch-Eintragungsgeb%C3%BChr-bei-Erwerb-von-Wohnraum.html))
+**Hauptwohnsitz-Befreiung (Grundbuch-Eintragungsgebühr) — EXPIRED 30 Jun 2026.** Ran 1 Jul 2024 – 30 Jun 2026 (application had to reach the Grundbuch by 1 Jul 2026): Eintragungsgebühr (1.1 %) + Pfandrechts-Eintragungsgebühr (1.2 %) waived up to **€500,000 Bemessungsgrundlage** for a Hauptwohnsitz purchase. **No extension enacted or planned** (federal govt, May 2026) — the standard 1.1 % + 1.2 % fees now apply again. (2026-07-03 verified; source [BMJ Befreiung](https://www.bmj.gv.at/themen/Zivilrecht/Befreiung-von-der-Grundbuch-Eintragungsgeb%C3%BChr-bei-Erwerb-von-Wohnraum.html))
 
 ### Immobilienertragsteuer (ImmoESt)
 
@@ -178,7 +178,7 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 - **Wiener Wohnen** (Gemeindewohnungen): ~220,000 units est., regulated rent (verify at wienerwohnen.at)
 - **Genossenschaft** (cooperative): regulated rent + Eigenmittel
 - **Privatmarkt** Vollanwendung: Richtwertmietzins per Bundesland, max +25 % zone bonus
-- 2025 Richtwert Wien: ~€6.67/m² (post-2024 reform freeze for 2 yrs)
+- **2026 Richtwert Wien: €6.74/m²** (from €6.67, ~+1 % valorization eff. 1 Apr 2026), max +25 % zone bonus. **Mieten-Wertsicherungsgesetz (MieWeG), in force 1 Jan 2026** (via 5. Mietrechtliches Inflationslinderungsgesetz, 5. MILG): caps existing contractual Wertsicherungsklauseln (creates no adjustment right of its own) — regulated MRG rents capped at **1 % (2026), 2 % (2027)**; from 2028, index-linked residential contracts in multi-unit buildings incl. free-market rents pass on only half of any inflation portion above 3 % (e.g. 4.5 % inflation → max 3.75 %); adjustment once/yr, earliest 1 April (Richtwert increases effective 1 May). Excludes Ein-/Zweifamilienhäuser and WGG/Genossenschaft rents (own regime). (2026-07-03 verified)
 
 ### Short-term rentals (Ferienwohnung / Airbnb)
 
@@ -189,7 +189,7 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 
 **Salzburg, Innsbruck**: similar restrictions
 
-**EU 2024/1028 transposition**: expected by May 2026
+**EU 2024/1028 (STR-VO)**: Austria has NOT opted in — the Wirtschaftsministerium (BMWET) confirms the STR-VO is applied in **no Bundesland as of its 20 May 2026 start date** ("vorerst"); no national STR registration-number regime, though individual Länder may opt in later (BMWET is building the Single Digital Entry Point). Short-let stays governed by each Land's Bauordnung. (2026-07-03 verified; source [BMWET STR-VO](https://www.bmwet.gv.at/Themen/Tourismus/Tourismus-in-Oesterreich/Rechtliches/kurzzeitvermietung_str_vo.html))
 
 ### Tax treatment
 
@@ -432,7 +432,7 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (HORA + Statistik Austria + Grundbuch all gold-standard). MEDIUM for short-let regulation (Wiener Bauordnung 2024 + EU 2024/1028 transposition still evolving).
 
