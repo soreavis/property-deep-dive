@@ -131,6 +131,34 @@ class TestValueExtraction(unittest.TestCase):
         st = [v for v in vals if v.type == "statute"][0]
         self.assertTrue(any("2024" in n for n in st.needles))
 
+    def test_stamp_date_masked(self):
+        line = "top rate 1.10% (2026-05-27 verified, source [ARCA](https://www.afip.gob.ar/x))"
+        vals = SV.extract_values(SV.mask_inline_stamps(line))
+        needles = [n for v in vals if v.salient for n in v.needles]
+        self.assertNotIn("2026-05-27", needles)
+        self.assertIn("1.10", needles)  # the real figure survives masking
+
+    def test_asof_stamp_date_masked(self):
+        vals = SV.extract_values(SV.mask_inline_stamps("confirm figures as of 2026-05-28 at IRD"))
+        self.assertEqual([v for v in vals if v.salient], [])
+
+    def test_stamp_only_line_yields_no_salient(self):
+        line = "(2026-05-27 verified, source [DIR RPT FAQs](https://inlandrevenue.finance.gov.bs/x))"
+        vals = SV.extract_values(SV.mask_inline_stamps(line))
+        self.assertEqual([v for v in vals if v.salient], [])
+
+    def test_statute_name_year_not_salient(self):
+        vals = SV.extract_values("Immigration and Protection Act 1956, Part VI governs")
+        st = [v for v in vals if v.type == "statute"]
+        self.assertTrue(st)
+        self.assertFalse(st[0].salient)
+
+    def test_statute_number_still_salient(self):
+        for text in ("per Law 7464 licensing", "under Ley 2068/2020 rules", "per Loi 2024-1039 on micro-BIC"):
+            st = [v for v in SV.extract_values(text) if v.type == "statute"]
+            self.assertTrue(st, text)
+            self.assertTrue(st[0].salient, text)
+
     def test_year_is_not_salient(self):
         vals = SV.extract_values("the market cooled in 2023 noticeably")
         years = [v for v in vals if v.type == "year"]

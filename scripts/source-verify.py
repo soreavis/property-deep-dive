@@ -94,6 +94,18 @@ HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*$")
 # is followed by ";" in the verified form and ")" in the marker form — match either, so don't
 # anchor on a trailing ")".
 STAMP_RE = re.compile(r"\((\d{4}-\d{2}-\d{2})\s+(re-verified|verified|stale-marker|stale|updated)\b", re.IGNORECASE)
+# The tracker's own "as of YYYY-MM-DD" freshness stamps — the same self-referential class as
+# STAMP_RE's "(YYYY-MM-DD verified" form.
+ASOF_STAMP_RE = re.compile(r"\b(?:as of|checked|re-checked)\s+(\d{4}-\d{2}-\d{2})\b", re.IGNORECASE)
+
+
+def mask_inline_stamps(line: str) -> str:
+    """Blank the DATE inside the tracker's own verification stamps ("(2026-05-27 verified…",
+    "as of 2026-05-28") before value extraction: the audit's own dates are metadata about the
+    tracker, never figures the cited page must contain (2026-07 TOKENS_ABSENT FP class)."""
+    for rx in (STAMP_RE, ASOF_STAMP_RE):
+        line = rx.sub(lambda m: m.group(0).replace(m.group(1), " " * len(m.group(1))), line)
+    return line
 
 # ── Value extraction ─────────────────────────────────────────────────────────
 PCT_RE = re.compile(r"(?<![\w.])\d{1,3}(?:[.,]\d+)?\s?(?:%|pp\b|percentage points)")
@@ -208,7 +220,13 @@ def extract_values(text: str) -> list[Value]:
             needles = needle_fn(raw)
             if not needles:
                 continue
-            out.append(Value(type=vtype, raw=raw, norm=raw, needles=needles, salient=salient))
+            sal = salient
+            if vtype == "statute" and all(re.fullmatch(r"19\d{2}|20[0-3]\d", n) for n in needles):
+                # "Act 1956" / "Constitution 1966" — the year is the statute's NAME, not a
+                # checkable figure; landing pages rarely restate it (2026-07 TOKENS_ABSENT FP
+                # class). Real statute numbers ("Law 7464", "Loi 2024-1039") keep salience.
+                sal = False
+            out.append(Value(type=vtype, raw=raw, norm=raw, needles=needles, salient=sal))
 
     # Order matters: most specific first so their spans get reserved. Dates run BEFORE statutes
     # because STATUTE_RE is IGNORECASE and would otherwise read "Nov 2024" as "No." + "v 2024".
@@ -404,7 +422,7 @@ def extract_claims(
                 continue
             if only_section and only_section.lower() not in section.lower():
                 continue
-            values = extract_values(line)
+            values = extract_values(mask_inline_stamps(line))
             salient = [v for v in values if v.salient]
             if len(salient) < sv.min_salient:
                 continue
