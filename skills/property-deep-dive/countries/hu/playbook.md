@@ -156,10 +156,14 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 ### Short-let (Airbnb, Booking)
 
 - **Kataregisztráció** (lump-sum tax category) — STR operators register with NAV
-- **Budapest VI District (Terézváros)**: **BAN on STRs from 1 January 2026** (online referendum 2024 → 54% for ban → Supreme Court greenlit Nov 2025)
-- Other Budapest districts (V, VII) reportedly considering similar moves
+- **Budapest VI District (Terézváros)**: **BAN on STRs from 1 January 2026** (online referendum 2024 → 54% for ban → Supreme Court greenlit Nov 2025) — enforcement live since Jan 2026 (Terézváros + police + NAV inspections; fines up to several million HUF); only hotels, guesthouses, and community accommodations may operate legally
+- **Budapest VII District (Erzsébetváros)** — stage 1: building decree **33/2025 (IX.24)** (amends 25/2018 XII.21), in force **25 Sept 2025**, caps NEW commercial accommodation at **10% of a building's residential floor area**, ground-floor only, min room sizes + en-suite bath per room, guesthouses ≥6 rooms; existing registered permits exempt
+- **Budapest VII District** — stage 2: decree **46/2025 (XII.10)** sets STR usable days/yr to **ZERO from 1 Jan 2026** unless a **társasház** (condominium) agreement exists (then 365) — units registered by 31 Dec 2025 must file the agreement by 31 Dec 2026 (same zero-day mechanism as District VI, with a condo-consent carve-out)
+- **Budapest city-wide STR/NTAK registration moratorium 1 Jan 2025 – 31 Dec 2026** (city-wide, not national) — no new NTAK registration numbers issued; hosts registered by 31 Dec 2024 exempt; **expires 31 Dec 2026, extension uncertain — watch**
+- Other Budapest districts (e.g. V) reportedly considering similar moves
 - STR stock grew **+80% Budapest 2020-2024**; **>hotel rooms** in city
 - **Tax**: kata regime up to HUF 18M revenue (preferential)
+- *Short-let rules re-verified 2026-07-02 (Airbnb Hungary Help Center; Erzsébetváros decrees 33/2025 & 46/2025 via net.jogtar.hu)*
 
 ---
 
@@ -294,7 +298,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 - **27% VAT** (highest in EU) — but new homes 5% reduced through 2026 (potentially 2030)
 - **Otthon Start Program** (1 Sep 2025) — 3% fixed mortgage causing market distortion; sub-€100k stock affected
 - **Terézváros (Budapest VI) STR ban from 1 Jan 2026** — first major Hungarian STR ban
-- **Other Budapest districts (V, VII)** considering similar bans
+- **Other Budapest districts (e.g. V)** considering similar bans (District VII has already enacted rules — see `--rental`)
 - **Földforgalmi törvény** (Land Transfer Act):
   - Non-EU citizens essentially **prohibited** from acquiring agricultural land
   - EU citizens limited to 1 hectare with farmer status (3-year farming history + 5-year self-cultivation pledge)

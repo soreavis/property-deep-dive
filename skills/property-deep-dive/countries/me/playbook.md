@@ -302,9 +302,11 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 ### Investor residency (effective 17 January 2026)
 
 - **Replaces abolished CBI Programme** (CBI ended **31 Dec 2022** — historical only)
-- **€150k minimum property purchase** (amendments to Zakon o strancima adopted by Parliament on the final day of 2025; entered into force **17 January 2026**)
+- **€150k minimum tax-assessed property value** — Art 56 sets the floor at the local tax authority's transfer-tax base per *rješenje o porezu na promet nepokretnosti*, **NOT** the contract/purchase price (low amounts shown on the title deed do not count) (amendments to Zakon o strancima adopted by Parliament on the final day of 2025; entered into force **17 January 2026**)
+- **EU/EEA/CH exemption**: the €150k threshold does NOT apply to nationals of EU member states, Iceland, Liechtenstein, Norway or Switzerland
+- **50% minimum ownership share**: applicant must hold ≥50% of the property (co-owners each need ≥50% or none qualify)
 - Grandfathering: foreigners holding property-based residency before 17 Jan 2026 retain rights without meeting the €150k threshold
-- Path (per IMI/ADRIAcom reading; verify against consolidated Zakon o strancima + Zakon o crnogorskom državljanstvu): 1-year temp permit (annually renewable) → permanent after 5 years → citizenship after 10 years *(2026-05-27 verified, source IMI Daily + Monte.business; statute citation pending consolidated text from mup.gov.me)*
+- Path: 1-year temp permit (annually renewable) → permanent after 5 years → citizenship after 10 years (5 years temporary + 5 years permanent) *(2026-07-02 verified, source IMI Daily; statute: Zakon o izmjenama i dopunama Zakona o strancima, Sl. list CG br. 003/26, publ. 9 Jan 2026, in force 17 Jan 2026)*
 
 ### Other
 
@@ -378,7 +380,7 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 | **Zakon o porezu na nepokretnosti** | Annual property tax 0.25–1.0% (municipal) |
 | **Zakon o porezu na dohodak fizičkih lica** | PIT — Europe Now I (Jan 2022) + Europe Now 2 (Oct 2024) |
 | **Zakon o porezu na dodatu vrijednost** | VAT — Jan 2025 restructure (21/15/7/0) |
-| **Zakon o strancima** | Foreigner law — investor residency 17 Jan 2026 €150k |
+| **Zakon o strancima** | Foreigner law — investor residency 17 Jan 2026 €150k tax-assessed (Sl. list CG br. 003/26, publ. 9 Jan 2026) |
 | **Zakon o crnogorskom državljanstvu** | CBI program (abolished 31 Dec 2022) |
 | **Zakon o turizmu i ugostiteljstvu** | Short-let classification + municipal registration |
 

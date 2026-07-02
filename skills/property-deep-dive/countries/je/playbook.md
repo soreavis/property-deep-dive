@@ -43,9 +43,9 @@ Source: [gov.je — Residential and employment statuses](https://www.gov.je/Work
 
 ### High-Value Resident (HVR) — Article 2(1)(e) consent
 
-The fast track for wealthy foreign buyers. Granted by the Chief Minister on Locate Jersey recommendation; numerically restricted (~20 approvals/yr, per Locate Jersey statements — **not currently statutorily capped**, but see PENDING reform below). Source: [gov.je — High Value Residency](https://www.gov.je/Home/RentingBuying/HousingLaws/pages/highvalueresidency.aspx) (verified 2026-05-27).
+The fast track for wealthy foreign buyers. Granted by the Chief Minister on Locate Jersey recommendation; numerically restricted (~20 approvals/yr, per Locate Jersey statements — **not currently statutorily capped**; cap proposal P.19/2026 rejected 26 Feb 2026 — administrative cap only). Source: [gov.je — High Value Residency](https://www.gov.je/Home/RentingBuying/HousingLaws/pages/highvalueresidency.aspx) (verified 2026-05-27).
 
-> **PENDING legislative proposal — P.19/2026.** Deputy Renouf's proposition (lodged 2026) seeks to **statutorily cap HVR approvals at 15/year (75 over any 5-yr period)** — not yet adopted; awaiting States Assembly vote. Source: [statesassembly.je P.19/2026](https://statesassembly.je/) — `verify current legislative status at statesassembly.je`. Pre-vote, the regime remains administratively-capped only.
+> **P.19/2026 — REJECTED (26 Feb 2026).** Deputy Renouf's proposition to **statutorily cap HVR approvals at 15/year (75 over any rolling 5-yr period)** was debated and **rejected by the States Assembly on 26 Feb 2026** — no cap enacted; the regime remains administratively-capped only (~20/yr). Sources: States Assembly voting record ([statesassembly.je P.19/2026](https://statesassembly.je/)) + [digitalStates debate registry](https://digitalstates.je/debates) (2026-02-26). Topic may revive — the proposer became Infrastructure Minister after the 7 Jun 2026 election and his manifesto still backs a ~15/yr cap.
 
 **Property thresholds (post-14 Jul 2023 regime):**
 
@@ -77,7 +77,7 @@ The fast track for wealthy foreign buyers. Granted by the Chief Minister on Loca
 **Verdict band** (foreign-buyer-friction):
 
 - 🔴 Without prior status: residential purchase blocked outside HVR
-- 🟠 HVR available but high thresholds (£3.5 m houses / £1.75 m apartments — verify-direct; £250 k/yr tax) + PENDING statutory cap P.19/2026
+- 🟠 HVR available but high thresholds (£3.5 m houses / £1.75 m apartments — verify-direct; £250 k/yr tax) — statutory-cap proposal P.19/2026 rejected 26 Feb 2026
 - 🟢 5-yr continuous residence → "Entitled for work" + joint purchase with status spouse; 10-yr → full Entitled / solo freehold
 
 ---
@@ -107,7 +107,7 @@ Paid to the Public Registry / Judicial Greffe when the contract is passed before
 
 Paid to the Comptroller of Revenue on the transfer of shares conferring exclusive occupation rights. Same band structure as Stamp Duty (mirroring) so the regime is broadly equivalent.
 
-> **2026 one-year reform — P.93/2025.** The States Assembly's **Draft Finance (2026 Budget) (Jersey) Law 202-** ([statesassembly.je P.93/2025](https://statesassembly.je/)) introduces a **one-year reduction in the higher-rate surcharge on Stamp Duty, LTT and EPTT — from +3 percentage points above the standard rate to +2 percentage points** (BTL / second-home / non-principal-residence purchases for 2026 only). Standard-rate bands unchanged. Verify the legislation's final-adopted text and effective dates at statesassembly.je before relying for closing-cost computation.
+> **2026 one-year reform — P.93/2025, ADOPTED.** The States Assembly's **Finance (2026 Budget) (Jersey) Law** ([statesassembly.je P.93/2025](https://statesassembly.je/), debated December 2025) enacts a **one-year reduction in the higher-rate surcharge on Stamp Duty, LTT and EPTT — from +3 percentage points above the standard rate to +2 percentage points** (BTL / second-home / non-principal-residence purchases for 2026 only). Standard-rate bands unchanged. Adoption confirmed on the [gov.je 2026 budget tax summary](https://www.gov.je/TaxesMoney/IncomeTax/Technical/Guidelines/pages/2026budgetsummary.aspx) — "reduced for 2026 to 2-percentage points above the standard rate" (checked 2026-07-02).
 
 **Both regimes use these tiered bands** per [gov.je LTT rates](https://www.gov.je/TaxesMoney/PropertyTransactionTaxes/LandTransaction/pages/landtransactiontaxrates.aspx) (verified 2026-05-27):
 
@@ -124,7 +124,7 @@ Paid to the Comptroller of Revenue on the transfer of shares conferring exclusiv
 | 3,000,000–6,000,000 | 10 % | 12 % | 13 % |
 | Over 6,000,000 | 11 % | 13 % | 14 % |
 
-Plus a **flat £90 documentary charge** on every transaction (gov.je LTT page). The "Higher rate 2026 only" column reflects the temporary P.93/2025 reduction; the "+3pp" column reflects the standing regime that resumes from 2027 (assuming P.93/2025 is enacted as a one-year measure). Date stamp: rates verified on gov.je as currently published 2026-05-27.
+Plus a **flat £90 documentary charge** on every transaction (gov.je LTT page). The "Higher rate 2026 only" column reflects the temporary P.93/2025 reduction; the "+3pp" column reflects the standing regime that resumes from 2027 (P.93/2025 adopted as a one-year measure — gov.je 2026 budget tax summary, checked 2026-07-02). Date stamp: rates verified on gov.je as currently published 2026-05-27.
 
 #### First-time-buyer relief
 
@@ -526,7 +526,7 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 | `Companies (Jersey) Law 1991` | [jerseylaw.je l_18_1991](https://www.jerseylaw.je/laws/current/l_30_1991) |
 | Budget 2026–2029 | [gov.je Budget 2026 PDF](https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/Budget%202026%20to%202029.pdf) |
 | States Assembly P.93/2025 (Draft Finance Law 2026) | [statesassembly.je](https://statesassembly.je/) — `verify direct URL at statesassembly.je publications/propositions/2025/p-93-2025` |
-| States Assembly P.19/2026 (HVR cap) | [statesassembly.je](https://statesassembly.je/) — `verify direct URL at statesassembly.je publications/propositions/2026/p-19-2026` |
+| States Assembly P.19/2026 (HVR cap) | [statesassembly.je](https://statesassembly.je/) — REJECTED 26 Feb 2026; `direct URL statesassembly.je publications/propositions/2026/p-19-2026` |
 | Island Plan 2022 | [gov.je Island Plan](https://www.gov.je/PlanningBuilding/LawsRegs/IslandPlan/pages/bridgingislandplan.aspx) |
 | Parishes hub | [gov.je Parishes](https://www.gov.je/Home/Parish/pages/index.aspx) |
 | JFSC (regulator) | [jerseyfsc.org](https://www.jerseyfsc.org/) |
@@ -540,11 +540,11 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 
 ## Status
 
-✅ **Initial populated** as of 2026-05-27 (Crown Dependency standalone playbook — see `CONTRIBUTING.md` § Sub-sovereign jurisdictions). Patched 2026-05-27 to integrate independent-validation findings.
+✅ **Initial populated** as of 2026-05-27 (Crown Dependency standalone playbook — see `CONTRIBUTING.md` § Sub-sovereign jurisdictions). Patched 2026-05-27 to integrate independent-validation findings. Patched 2026-07-02 — HVR cap proposition P.19/2026 flipped PENDING → REJECTED (States Assembly, 26 Feb 2026).
 
-**Confidence**: MEDIUM-HIGH — tax / LTT / HVR / residential-status data sourced to gov.je primary pages and verified 2026-05-27. LTT 700k–1m band corrected (3 % standard, not 3.5 % — gov.je primary). 2026 Budget P.93/2025 (+3pp → +2pp higher-rate surcharge), pending HVR statutory cap P.19/2026, and 2026 mandatory independent taxation now integrated. Property-type and Royal-Court process verified against multiple secondary (Mourant, Viberts, Voisin) cross-referenced to jerseylaw.je primaries. **Parish rates**, **rented-dwellings licence fee**, **EPTT current band figures**, **HVR £3.5m/£1.75m thresholds (gov.je page does not expose figures — needs direct Locate Jersey lookup)**, **Voisin 2018 PDF staleness**, and **2026-specific allowance refresh** marked as `verify` placeholders — primary URL given.
+**Confidence**: MEDIUM-HIGH — tax / LTT / HVR / residential-status data sourced to gov.je primary pages and verified 2026-05-27. LTT 700k–1m band corrected (3 % standard, not 3.5 % — gov.je primary). 2026 Budget P.93/2025 (+3pp → +2pp higher-rate surcharge), HVR statutory-cap proposal P.19/2026 (rejected 26 Feb 2026), and 2026 mandatory independent taxation now integrated. Property-type and Royal-Court process verified against multiple secondary (Mourant, Viberts, Voisin) cross-referenced to jerseylaw.je primaries. **Parish rates**, **rented-dwellings licence fee**, **EPTT current band figures**, **HVR £3.5m/£1.75m thresholds (gov.je page does not expose figures — needs direct Locate Jersey lookup)**, **Voisin 2018 PDF staleness**, and **2026-specific allowance refresh** marked as `verify` placeholders — primary URL given.
 
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-07-02.
 
 **Open follow-ups** (for next refresh cycle):
 
@@ -554,14 +554,14 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 4. Add specific HVR property-mortgage LTV grids when a direct lender quote becomes available (current draft tags community-reported 50–65 % for non-residents)
 5. Add the precise probate-duty rate at [gov.je Probate](https://www.gov.je/) — placeholder currently
 6. Verify HVR £3.5 m / £1.75 m thresholds directly with Locate Jersey (gov.je HVR page does not expose £ figures in current page text — aggregator immigrantinvest.com cites a single £1.75 m floor)
-7. Track States Assembly P.19/2026 vote outcome (HVR statutory cap 15/yr — currently pending)
+7. ✅ Resolved — States Assembly P.19/2026 (HVR statutory cap 15/yr) REJECTED 26 Feb 2026; no cap enacted. Watch for any revived proposal (proposer now Infrastructure Minister post-7-Jun-2026 election)
 8. Confirm Voisin Law brochure currency — current PDF filename dated 2018-11; downgrade or refresh
 9. Re-run URL liveness sweep on the ~13 URLs not extracted in the validation pass
 
 **Regulatory-watch entries to seed on PR merge** (none currently exist for JE in [`shared/regulatory-watch.md`](../../shared/regulatory-watch.md) — verified empty 2026-05-27):
 
-1. **JE LTT/SD/EPTT higher-rate surcharge +3pp → +2pp (one-year, 2026)** — Tier-2, effective 1 Jan 2026 (assuming P.93/2025 enacted), source `statesassembly.je P.93/2025`, revisit cadence 12 months. Affected playbook sections: `--tax` (Property-transaction taxes), `--rental` (BTL implications), `--foreign-buyer` (HVR cost computation).
-2. **JE HVR statutory-cap proposition P.19/2026 (PENDING)** — Tier-3, revisit when States Assembly votes, source `statesassembly.je P.19/2026`. Affected sections: `--foreign-buyer` (HVR), `--visa`.
+1. **JE LTT/SD/EPTT higher-rate surcharge +3pp → +2pp (one-year, 2026)** — Tier-2, effective 1 Jan 2026 (P.93/2025 adopted — gov.je 2026 budget tax summary), source `statesassembly.je P.93/2025`, revisit cadence 12 months. Affected playbook sections: `--tax` (Property-transaction taxes), `--rental` (BTL implications), `--foreign-buyer` (HVR cost computation).
+2. **JE HVR statutory-cap proposition P.19/2026 (REJECTED 26 Feb 2026)** — no cap enacted; Tier-3, revisit 2026-10-01 for any revived proposal, source `statesassembly.je P.19/2026`. Affected sections: `--foreign-buyer` (HVR), `--visa`.
 3. **JE Mortgage Interest Tax Relief — final phase-out** — Tier-2, last tax year of relief is 2025; relief gone from YA 2026, source `gov.je 2025 tax allowances` + BBC. Affected sections: `--tax` (Income tax), `--rental` (landlord net-of-mortgage compute), `--finance`.
 4. **JE Mandatory independent taxation for all married couples (including HVRs)** — Tier-2, effective YA 2026, source `gov.je HVR tax page`. Affected sections: `--tax` (Income tax), `--foreign-buyer` (HVR).
 5. **JE Rented Dwellings Licensing — mandatory since 1 Aug 2024** — Tier-2, source `gov.je rented dwellings` + `jerseylaw.je RO 108/2023`. Affected sections: `--rental` (long-let licensing).

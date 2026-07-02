@@ -22,7 +22,7 @@ ISO2: `co`. Status: ✅ Fully populated (researched 2026-05).
   - **Ley 2010/2019** "Ley de Crecimiento" — tax reform.
   - **Ley 2155/2021** "Ley de Inversión Social" — social investment + tax adjustments.
   - **Ley 2277/2022** ("Reforma Tributaria" of the Petro government) — wealth tax reintroduced; ganancia ocasional rate raised from 10 % to 15 %; predial-base adjustments per municipality.
-  - **Decreto 538 of 2024 (Bogotá)** — 10 % impuesto al consumo (lodging tax) on STR + obligations *(claim per second-tier sources — "Decreto 538/2024" reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-05; national impuesto al consumo on lodging is 8 % under Estatuto Tributario art. 512-9 — verify before relying)*.
+  - **Decreto 538 of 2024 (Bogotá)** — 10 % impuesto al consumo (lodging tax) on STR + obligations *(claim per second-tier sources — "Decreto 538/2024" reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-07; a fresh sisjur re-check finds only Decreto 538/2021 (bienestar animal) and Decreto 538/2025 (Sec. Movilidad), no 2024 STR/lodging decree; national impuesto al consumo on lodging is 8 % under Estatuto Tributario art. 512-9 — verify before relying)*.
   - **Catastro multipropósito** ongoing rollout (2020 → 2025+).
   - **M-visa real-estate threshold**: investment ≥ 350× SMLMV (Decreto 1067/2015 + Resolución 5477/2022 with updates) for Migrante; ≥ 650× SMLMV unlocks Residente after 5 years (verify current Resolución at Cancillería).
 
@@ -233,7 +233,7 @@ Two distinct concepts (don't confuse):
 - **IVA 19 %** on lodging services (some short-stay below thresholds may apply RST exemption).
 - **Régimen de Propiedad Horizontal** (Ley 675/2001) — the **assamblea de copropietarios** can prohibit STR in the reglamento; many luxury edificios (El Poblado, Chicó, Bocagrande) have done so 2023-2025.
 
-#### Bogotá D.C. — **Decreto 538 of 2024** *(claim per second-tier sources — reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-05; verify before relying)*
+#### Bogotá D.C. — **Decreto 538 of 2024** *(claim per second-tier sources — reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-07; genuine sisjur hits are Decreto 538/2021 bienestar animal + Decreto 538/2025 Sec. Movilidad; verify before relying)*
 
 - **10 % impuesto al consumo** on STR services (lodging tax) effective via the decreto — verify scope at `https://www.haciendabogota.gov.co/`. **Note**: the **national** impuesto al consumo on lodging is **8 %** (Estatuto Tributario art. 512-9); a 10 % distrital rate would be an unusual structure (impuestos al consumo are typically national).
 - RNT registration enforcement intensified.
@@ -241,9 +241,10 @@ Two distinct concepts (don't confuse):
 
 #### Medellín — El Poblado controversies + 2024-25 rules
 
-- **Acuerdo 056 de 2024** (and updates) tightened STR in El Poblado, Laureles, Provenza; some PH régimens have *de facto* banned STR via reglamento de propiedad horizontal updates *(specific "Acuerdo 056/2024" reference NOT verifiable in concejodemedellin.gov.co as of 2026-05; verify before relying)*.
+- **STR legal basis**: the **national RNT** (Ley 300/1996 + Ley 2068/2020 + Decreto 1836/2021) plus **municipal uso del suelo** under the **POT — Acuerdo 48 de 2014, art. 255**, which governs whether a dwelling may host alojamiento turístico (per EAFIT análisis, cross-checked vs medellin.gov.co uso-del-suelo / Mapgis references). Second-tier sources widely cite an **"Acuerdo 056 de 2024"** as tightening STR in El Poblado, Laureles, Provenza, but that reference is **NOT verifiable in concejodemedellin.gov.co as of 2026-07** — treat POT Acuerdo 48/2014 as the real municipal basis. Many PH régimens have also *de facto* banned STR via reglamento de propiedad horizontal updates.
+- **Enforcement active + intensifying into 2026**: the Alcaldía de Medellín identified **1,700+ unlicensed casas/apartamentos** operating without uso-del-suelo / matrícula documentation (medellin.gov.co, 2024); RNT stock stood at **8,951 alojamientos inscritos as of May 2026** (medellin.gov.co — Secretaría de Turismo). Per press reporting *(news-tier — verify)*, the last 6 months saw **34 alojamientos sin licencia** flagged and **93 informes técnicos** consolidated (Laureles 21, San Cristóbal 19, El Poblado 16, La Candelaria 13), with **8 viviendas turísticas selladas** across comunas 10/11/14/16.
 - Increased Migración Colombia + DIAN inspections 2024-25 driven by housing-affordability backlash.
-- Verify current state at Concejo de Medellín + Secretaría de Hacienda before underwriting STR yield.
+- A **mediano-plazo POT revision is underway** to add specific rentas-cortas uso-del-suelo rules *(pending — not yet enacted; verify)*. **Verify current state** at Concejo de Medellín + Secretaría de Turismo / Gestión y Control Territorial before underwriting STR yield.
 
 #### Cartagena
 
@@ -420,7 +421,7 @@ Two distinct concepts (don't confuse):
 - **Estrato system (1-6)** controls utility tariffs, predial bands, plusvalía calculation, and many services — estrato 6 can pay 5× the per-kWh / per-m³ of estrato 1 (Ley 142/1994 cross-subsidy regime). Always **check the estrato of the dwelling** (visible on any utility bill) before underwriting cost-of-ownership.
 - **Multipurpose cadastre rollout** is mid-flight 2020-2026 — predial bills jumping 2-3× when actualisation hits a barrio.
 - **CTL must show clean 30-year chain** — false-tradition (poseedor not propietario), missing inheritances, false owners are recurrent in coastal + rural regions.
-- **STR Bogotá: Decreto 538/2024** *(reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-05)* + **Medellín El Poblado restrictions 2024-25** *(specific Acuerdo 056/2024 NOT verifiable in concejodemedellin.gov.co)*; PH régimen reglamento can also prohibit independent of city rules — read it before underwriting STR yield.
+- **STR Bogotá: Decreto 538/2024** *(reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-07)* + **Medellín El Poblado restrictions 2024-26** — real municipal basis is **POT Acuerdo 48 de 2014 (art. 255) uso del suelo**, not the widely-cited **"Acuerdo 056/2024"** *(056 NOT verifiable in concejodemedellin.gov.co)*; PH régimen reglamento can also prohibit independent of city rules — read it before underwriting STR yield.
 - **Plusvalía urbanística (Ley 388/1997)** can capture 30-50 % of rezoning gain.
 - **Andean seismic risk + NSR-10** — pre-1998 builds in active microzones carry significant retrofit / collapse risk; insist on peritaje técnico.
 - **Volcanic-risk towns**: Manizales, Pasto, Popayán, Ibagué — require reading SGC zonificación.
@@ -521,7 +522,7 @@ Two distinct concepts (don't confuse):
 
 **Confidence**: **HIGH** for visa structure (Cancillería + Decreto 1067/2015), notary + cadastre + ORIP framework (SNR + IGAC), tax structure at the national level (Estatuto Tributario + Ley 2277/2022 + Ley 1450/2011 + Ley 388/1997), Ley 820/2003 LTR cap, NSR-10 seismic code, Ley 675/2001 PH régimen.
 
-**MEDIUM** for: per-municipio predial rates (vary by Acuerdo, evolving with multipurpose-cadastre rollout — verify each year per city); STR rules (city-by-city, 2024-25 reforms ongoing — Bogotá Decreto 538/2024 + Medellín Acuerdo 056/2024 specifically); current SMLMV (verify each Dec 30 MinTrabajo decreto); current UVT (verify each year DIAN Resolución).
+**MEDIUM** for: per-municipio predial rates (vary by Acuerdo, evolving with multipurpose-cadastre rollout — verify each year per city); STR rules (city-by-city, 2024-26 reforms ongoing — the widely-cited Bogotá "Decreto 538/2024" + Medellín "Acuerdo 056/2024" are NOT verifiable in official sources; real bases are the national RNT + municipal uso del suelo, POT Acuerdo 48/2014); current SMLMV (verify each Dec 30 MinTrabajo decreto); current UVT (verify each year DIAN Resolución).
 
 **LOW** for: parcel-level price/m² (use only as zone-average context — must cross-check Lonja + Metrocuadrado comparables for the specific barrio + estrato).
 

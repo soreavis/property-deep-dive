@@ -218,12 +218,12 @@ Exención básica ~600 UTM por heredero línea recta + cónyuge.
 
 ### Short-term rentals (STR / Airbnb / Booking)
 
-**National-level**: no STR-specific national regulation as of 2026-05; gobernanza es **comuna-by-comuna** vía ordenanzas y planes reguladores.
+**National-level**: no STR-specific national regulation as of 2026-07; STR sigue **legal, sin prohibición nacional**. **No existe ordenanza comunal STR-específica verificable** — el endurecimiento opera por dos vías: (a) **patente comercial de hospedaje** municipal + fiscalización de uso de suelo (zonificación), y (b) **reglamentos de copropiedad** que *limitan* (no prohíben totalmente) los arriendos cortos bajo **Ley 21.442 + su Reglamento — DS N°7 MINVU, [Diario Oficial 9-Ene-2025](https://www.minvu.gob.cl/nueva-ley-de-copropiedad-inmobiliaria)** (misma ficha Ley 21.442 más abajo — no duplicar). Las restricciones se dan **edificio-por-edificio** (bylaws) y **comuna-por-comuna** (zonificación), no vía ordenanza comuna-wide.
 
-**Comunas con regulación activa / anunciada (2024-2025)**:
-- **Las Condes** + **Providencia** — ordenanzas en revisión 2024-2025 restringiendo arriendos < 30 días en zonas residenciales puras / zonificando usos turísticos.
+**Fiscalización / vías de restricción por comuna (2026 — vía patente + copropiedad + zonificación, no ordenanza STR-específica)**:
+- **Las Condes** + **Providencia** — exigen **patente comercial de hospedaje**; operar sin patente arriesga multas de **hasta 5 UTM + clausura** del inmueble (confirmado vía fuentes secundarias — [Rentivo 2026](https://www.rentivo.app/recursos/regulacion-airbnb-chile) / [TheLatinvestor 2026](https://thelatinvestor.com/blogs/news/santiago-airbnb) — no vía texto de ordenanza municipal).
 - **Santiago Centro** — sin restricción específica al 2026, alta presencia STR.
-- **Vitacura** — restrictiva por uso suelo residencial estricto.
+- **Vitacura** — endurecimiento STR-específico **no confirmado** en ninguna fuente (2026-07); tratar como no verificado, no como restricción vigente.
 - **Viña del Mar / Pucón / Puerto Varas** — patente comercial/turística municipal + SERNATUR registro.
 
 **Tributación STR**:
@@ -235,11 +235,12 @@ Exención básica ~600 UTM por heredero línea recta + cónyuge.
 - `https://serviciosturisticos.sernatur.cl/` — registro voluntario (mandatorio para algunas categorías) + clasificación calidad.
 
 **Strategic notes**:
-- Las Condes / Providencia: highest yield Santiago, **biggest 2024-2026 regulatory risk**.
+- Las Condes / Providencia: highest yield Santiago, **biggest 2026 STR-compliance risk** (patente hospedaje + reglamentos de copropiedad, no ordenanza comuna-wide).
 - Pucón / Puerto Varas / Viña: strong seasonal yield (Dec-Mar peak) + sismic/volcanic disclosure obligation.
 - DFL2 vivienda económica: strong tax shield for residential long-let.
+- **Contra-precedente (uso residencial ≠ veto STR)**: la Corte Suprema validó el permiso DOM de **apart-hotel / hospedaje** como uso residencial permitido en **Lo Barnechea** bajo **OGUC art. 2.1.25** (el uso residencial incluye edificaciones de hospedaje sin servicios comerciales adjuntos) — una zona residencial no prohíbe automáticamente el STR (per legal-news — [DOE Actualidad Jurídica 2026](https://actualidadjuridica.doe.cl/corte-suprema-valida-modificacion-de-permiso-dom-para-apart-hotel-y-rechaza-reclamo-de-ilegalidad-municipal)).
 
-**Confidence**: HIGH for national tax framework (Ley 18.101, IVA 21.420, DFL2). MEDIUM for comuna-level STR rules (rapidly evolving 2024-2026).
+**Confidence**: HIGH for national tax framework (Ley 18.101, IVA 21.420, DFL2). MEDIUM for comuna-level STR enforcement (patente hospedaje + reglamentos de copropiedad — no ordenanza STR-específica verificable; rapidly evolving). STR sub-section re-verified 2026-07-02.
 
 ---
 
@@ -550,7 +551,7 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: **HIGH** for cadastre (CBR + SII), seismic standards (NCh 433 evolution), UF/BCCh system, Conservador process, DGA/SHOA/SERNAGEOMIN/SENAPRED hazard sources, and Ley 18.101 / Ley 21.442 / DFL 2 frameworks.
-**MEDIUM** for: current 2026 sobretasa exact tramos (Ley 21.713 reform context — re-pull SII Circular each año), STR comuna-by-comuna rules (Las Condes / Providencia / Vitacura ordinances in motion 2024-2026), boleta de honorarios retención escalonamiento (verify SII tabla annual).
+**MEDIUM** for: current 2026 sobretasa exact tramos (Ley 21.713 reform context — re-pull SII Circular each año), STR comuna-level enforcement (Las Condes / Providencia patente hospedaje + copropiedad bylaws in motion; Vitacura STR curbs unverified — no comuna-wide ordinance), boleta de honorarios retención escalonamiento (verify SII tabla annual).
 **Last verified**: 2026-05-27.
 
 ## Extension TODOs

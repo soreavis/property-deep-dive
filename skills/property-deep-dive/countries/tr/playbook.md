@@ -263,7 +263,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 | Violation | Fine (TRY) |
 |---|---:|
-| Operating without İzin Belgesi — **3-stage progressive ladder** (NOT discretionary range) | **Stage 1: 100,000 TRY/property + 15-gün süre to obtain permit; Stage 2 (still no permit): 500,000 TRY/property + 15-gün süre; Stage 3 (continued violation): 1,000,000 TRY/property** (2026-05-27 verified, source [Lexpera Law 7464 consolidated text Mad. 4 §1(a-e)](https://www.lexpera.com.tr/mevzuat/kanunlar/konutlarin-turizm-amacli-kiralanmasina-ve-bazi-kanunlarda-degisiklik-yapilmasina-dair-kanun-7464)) |
+| Operating without İzin Belgesi — **3-stage progressive ladder** (NOT discretionary range) | Statutory base **Stage 1: 100,000 TRY/property + 15-gün süre to obtain permit; Stage 2 (still no permit): 500,000 TRY/property + 15-gün süre; Stage 3 (continued violation): 1,000,000 TRY/property** (2026-05-27 verified, source [Lexpera Law 7464 consolidated text Mad. 4 §1(a-e)](https://www.lexpera.com.tr/mevzuat/kanunlar/konutlarin-turizm-amacli-kiralanmasina-ve-bazi-kanunlarda-degisiklik-yapilmasina-dair-kanun-7464)). **Base fines are revalued annually by yeniden değerleme oranı — 2026 applied amounts are 180,617 / 903,088 / 1,806,177 TRY per property** (uniform ×1.80617 factor; new figures land each January) (2026-07-02 verified, source [KTB Denizli İl Kültür ve Turizm Müdürlüğü 2026 idari para cezaları](https://denizli.ktb.gov.tr/TR-437107/turizm-amacli-kiralanan-konutlara-iliskin-mevzuat-hakki-.html) + Kaymakamlık ceza duyurusu) |
 | Misleading property description (konum/nitelik/fiziksel özellikler) | **100,000 TRY** separate |
 | Listing on platform without permit | **100,000 per property + access blocking after 24h notice** |
 | Provisional permit lapse (post 31 Dec 2024 transition) | sanctions began Jan 2025 |
@@ -272,7 +272,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 #### Hosts on platforms (Airbnb, Booking)
 
 - Platforms required to **verify İzin Belgesi number** before listing publishes
-- Airbnb + Booking now request permit upload from TR hosts (post-2024)
+- Airbnb + Booking now request permit upload from TR hosts (post-2024); **Airbnb blocks listings lacking the Ministry İzin Belgesi number** (unverified listings cannot accept new bookings)
 - Stays > 100 consecutive nights = pansiyon işletmeciliği regime (different licensing — Belediye İşyeri Açma Ruhsatı + Bağ-Kur)
 
 #### Tax regime for short-term rental income

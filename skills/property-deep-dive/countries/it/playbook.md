@@ -165,7 +165,8 @@ For **new builds (vendita da impresa)**:
 
 - North + tourist hotspots (lakes, Cinque Terre, Toscana, Amalfi, Dolomiti): highest yields
 - South (Sicilia, Puglia coast, Sardegna): high seasonality (4-month season concentration)
-- Centro storico restrictions — Firenze suspended new short-let licenses 2024-2025; Venezia caps tightening
+- **Firenze centro storico STR ban IN FORCE** — regolamento (Del. C.C. 27/2025, in force 31 May 2025; underlying Variante al Piano Operativo Del. C.C. 19 & 20/2025) bans NEW short-term rentals in the UNESCO Nucleo Storico (Zona A): only units legally let for tourism in 2024 may continue; adds 5-yr authorisations (tied to owner + unit, decaying on sale), 28 sqm minimum apartment size, keybox ban. UPHELD, not overturned: Corte Cost. sent. 186/2025 (16 Dec 2025) validated the framework, then TAR Toscana 14 May 2026 dismissed 19 appeals (sent. 916 & 925/2026). EXTENDED to A3/A4 subzones (Campo di Marte, Gavinana, San Jacopino — ~504 streets / ~67,780 homes) by Del. C.C. 28 del 4 Jun 2026, in force 21 Jun 2026 until 2028 (2026-07-02 verified, sources [Comune di Firenze](https://www.comune.firenze.it/novita/area-stampa/comunicati-stampa/modifica-al-regolamento-affitti-turistici-brevi-il-consiglio); [DirittoPA](https://www.dirittopa.it/it/interventi/urbanistica/affitti-turistici-e-poteri-di-regolazione-comunale))
+- Venezia caps tightening
 - **Pool / view / parcheggio** = top revenue levers
 - **CIR/CIN registration** is the gating step — start there
 

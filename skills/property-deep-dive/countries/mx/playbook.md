@@ -160,8 +160,8 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 
 #### CDMX (Mexico City)
 
-- **Mexico City Airbnb Law Oct 2024**: mandatory **Host Registry** + **Technology Platform Registry** under amended Tourism Law (April 2024)
-- **180 nights/year (50 % of year) cap adopted** by April 2024 amendment to CDMX Tourism Law — **enforcement / biannual occupancy reporting not yet active as of 2026-05-27**; once active, mandatory biannual occupancy reports to Ministry of Tourism, sanction = non-renewal of registration + 1-year re-registration bar (2026-05-27 verified, source: Garrigues "Mexico: Current Overview of Short-Term Rental Regulation"; AméricaEconomía coverage of CDMX approval)
+- **Mexico City Airbnb Law Oct 2024**: mandatory **Host Registry** (Padrón de Anfitriones) + **Technology Platform Registry** (Padrón de Plataformas) under amended Tourism Law (April 2024) — **registries went LIVE via Gaceta Oficial CDMX 22 May 2026** (accelerated ahead of the FIFA World Cup); hosts + platforms must obtain a **folio by ~20-21 Jun 2026 or be prohibited from operating** (2026-07-02 verified, sources: Jefatura de Gobierno CDMX 22 May 2026 + Ibarra, Del Paso y Gallego + Expansión Política)
+- **50 % annual occupancy cap** (Art 61 Sexies — max 50 % of the year's nights) adopted by April 2024 amendment to CDMX Tourism Law; sanction if exceeded = non-renewal of registration + 1-year re-registration bar — **cap enforcement legally in flux pending amparo litigation**: Airbnb filed an amparo (Jan 2025) and individual hosts have too, with **suspensión definitiva granted in some cases** so the cap is not applied to those litigants pending trial; a Tribunal Colegiado has ordered a merits/constitutionality ruling (2026-07-02 verified, sources: El País 9 Jul 2025; Airbnb Newsroom Jan 2025; SMPS Legal)
 - Sheinbaum (former mayor, now president) reversed her earlier UNESCO/Airbnb partnership
 
 #### Quintana Roo (Tulum, Cancún, Playa del Carmen)
@@ -338,7 +338,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 - **CDMX water crisis** — Cutzamala system stress; "Day Zero" fears
 - **Earthquake risk**: 1985 + 2017 reference events; lake-bed amplification CDMX-specific
 - **Popocatépetl** active volcano 50km from CDMX
-- **CDMX Airbnb Law Oct 2024** — host + platform registries; 180-night cap adopted (April 2024 amendment), enforcement/reporting not yet active as of 2026-05-27
+- **CDMX Airbnb Law Oct 2024** — host + platform registries (Padrón de Anfitriones + Plataformas) went LIVE via Gaceta Oficial CDMX 22 May 2026, folio deadline ~20-21 Jun 2026 (pre-World Cup); 50 % annual occupancy cap (April 2024 amendment) contested — Airbnb + host amparos, suspensión definitiva in some cases so cap not applied pending trial (verified 2026-07-02)
 - **Quintana Roo RETUR-Q** + 6% ISH lodging tax
 - **Sheinbaum housing initiatives** — INFONAVIT zero-interest 30-year mortgages
 - **USD-denominated listings** common in Restricted Zone (Tulum, Cabo, Vallarta)
@@ -386,7 +386,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 
 ✅ **Fully populated** as of 2026-04-26.
 **Coverage check**: pricing (SHF + Lamudi Q4 2025), traffic (SCT + city portals), tax (predial + ISAI per state + ISR + IVA + fideicomiso), rental (CDMX Airbnb Law Oct 2024 + Quintana Roo RETUR-Q), work (OCC + RFC + INFONAVIT), risks (SSN + CENAPRED + CONAGUA + 1985+2017 quakes + Popocatépetl + hurricane), mains (CDMX water crisis context).
-**Confidence**: HIGH for SHF Q4 2025 figures + Sheinbaum Vivienda program 2025 starts + fideicomiso Restricted Zone constitutional rule + CDMX Airbnb Law Oct 2024; MEDIUM for state-by-state ISAI table (only popular destinations confirmed); MEDIUM for CDMX 180-night Airbnb cap (adopted April 2024 amendment, enforcement/reporting not yet active as of 2026-05-27).
+**Confidence**: HIGH for SHF Q4 2025 figures + Sheinbaum Vivienda program 2025 starts + fideicomiso Restricted Zone constitutional rule + CDMX Airbnb Law Oct 2024; MEDIUM for state-by-state ISAI table (only popular destinations confirmed); MEDIUM for CDMX 50 % Airbnb occupancy cap (adopted April 2024 amendment; registries live via Gaceta 22 May 2026 but cap enforcement in flux pending Airbnb + host amparo litigation as of 2026-07-02).
 
 ## Extension TODOs
 
@@ -397,6 +397,6 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 - [ ] Earthquake zone overlay (CFE Zones A-D)
 - [ ] Restricted Zone perimeter map
 - [ ] Notario público fee comparison per state
-- [ ] CDMX Airbnb cap implementation tracker
+- [ ] CDMX Airbnb cap amparo-litigation tracker (Tribunal Colegiado merits/constitutionality ruling pending; registry live 22 May 2026)
 - [ ] Cadastral vs market value reconciliation tool
 - [ ] CDMX water crisis impact per delegación

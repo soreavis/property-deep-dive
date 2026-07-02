@@ -181,7 +181,7 @@ For primary residence:
 ### Short-let (Airbnb / vakantieverhuur)
 
 **Per-gemeente regimes**:
-- **Amsterdam**: 30 nights/year primary residence cap; **registratie + meldplicht + vergunning** required; max 4 guests; **vergunning niet uitgegeven in centrum** (license freeze in centro)
+- **Amsterdam**: 30 nights/year citywide primary-residence cap, but **15 nights/year since 1 Apr 2026** in 8 designated wijken (7 in Centrum — Burgwallen-Nieuwe Zijde, De Weteringschans, Grachtengordel-West/Zuid, Haarlemmerbuurt, Jordaan, Nieuwmarkt/Lastage — plus Oude Pijp in Zuid) under the **Eerste aanwijzingsbesluit 15-nachtencriterium**; **registratie + meldplicht + vergunning** required; max 4 guests; full ban possible in a wijk if the halving is insufficient (2026-07-02 verified; source [Gemeenteblad 2026 nr.151001](https://zoek.officielebekendmakingen.nl/gmb-2026-151001.html))
 - **Rotterdam**: 60 nights; registratie required
 - **Den Haag**: 60 nights; registratie required
 - **Utrecht**: 60 nights; registratie required (since 2023)
@@ -415,7 +415,7 @@ For primary residence:
 ## Extension TODOs
 
 - [ ] Per-gemeente OZB rates table
-- [ ] Per-gemeente B&B / short-let rules (Amsterdam 30, Rotterdam/DH/Utrecht 60)
+- [ ] Per-gemeente B&B / short-let rules (Amsterdam 30 (15 in 8 designated wijken since 1 Apr 2026), Rotterdam/DH/Utrecht 60)
 - [ ] Erfpacht canon calculation (Amsterdam AB2016)
 - [ ] VvE health check rubric (MJOP, achterstallige bijdragen, reservefonds)
 - [ ] Funderingsproblematiek triggers per peat area

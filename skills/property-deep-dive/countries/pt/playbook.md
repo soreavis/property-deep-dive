@@ -143,7 +143,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 - Non-resident IMT surcharge (Oct 2025) — under fiscal review
 - AIMI thresholds may adjust
-- Mais Habitação package (Lei 56/2023) partially **repealed by Decreto-Lei 76/2024 (23 Oct 2024, in force 1 Nov 2024)** — repealed: (a) 5-yr AL registration term with mandatory renewal; (b) general suspension of new AL registrations in apartments (national); (c) mandatory condominium consent for AL in autonomous fractions; (d) expiry of inactive registrations; (e) non-transferability of registration on sale. Município-level Áreas de Contenção (Lisbon RMAL, Porto Reg. 1462/2024) remain in force and were reinforced by DL 76/2024. (2026-05-27 verified; source [DR DL 76/2024](https://diariodarepublica.pt/dr/detalhe/decreto-lei/76-2024-892301177))
+- Mais Habitação package (Lei 56/2023) partially **repealed by Decreto-Lei 76/2024 (23 Oct 2024, in force 1 Nov 2024)** — repealed: (a) 5-yr AL registration term with mandatory renewal; (b) general suspension of new AL registrations in apartments (national); (c) mandatory condominium consent for AL in autonomous fractions; (d) expiry of inactive registrations; (e) non-transferability of registration on sale. Município-level Áreas de Contenção (Lisbon RMAL, Porto Reg. 1462/2024) remain in force and were reinforced by DL 76/2024. (2026-05-27 verified; source [DR DL 76/2024](https://diariodarepublica.pt/dr/detalhe/decreto-lei/76-2024-892301177)) The current Lisbon RMAL is its **2nd amendment (Aviso n.º 29926-A/2025/2, in force 6 Dec 2025)**, which re-imposes **sale-triggered caducidade** of *moradia*/*apartamento* AL registrations in containment zones at municipal level — municipal caducidade survives despite DL 76/2024 restoring national transferability of registrations on sale. (2026-07-02 verified; source [DR Aviso 29926-A/2025/2](https://diariodarepublica.pt/dr/detalhe/aviso/29926-a-2025-964380181))
 
 ---
 
@@ -163,11 +163,11 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 - License fee per município
 - VPT compatibility check
 
-**LISBON SUSPENSION (continuing)**:
-- November 2024: 6-month suspension of new AL licenses in Lisbon
-- May 2025: extended
-- September 2025: still suspended in central Lisboa (Santa Maria Maior, Misericórdia, Santo António, Arroios)
-- **2026**: pending RMAL changes
+**LISBON — RMAL 2nd amendment (Aviso n.º 29926-A/2025/2, DR n.º 235/2025 Supl. 2.ª série, in force 6 Dec 2025)**:
+- Replaced the 2024–25 ad-hoc AL suspension with a **permanent monthly ratio-based containment system**: **contenção absoluta** where AL ≥ 10 % of dwellings (threshold cut from 20 %), **contenção relativa** where 5–10 % (cut from 10 %)
+- **Sale-triggered caducidade**: transmission (sale) of a *moradia*/*apartamento* AL registration in a containment zone triggers automatic **caducidade** (expiry) — the registration is **non-transferable** to the buyer; a fresh registration must be requested, subject to the zone's rules, except RJEEAL legal exceptions. (2026-07-02 verified; source [DR Aviso 29926-A/2025/2](https://diariodarepublica.pt/dr/detalhe/aviso/29926-a-2025-964380181))
+- Post-Apr-2026 freguesias — **absolute**: Santa Maria Maior (66.9 %, Nov-2025 data), Misericórdia, Santo António; **relative**: São Vicente, Arroios (moved absolute→relative), Estrela; Avenidas Novas left containment; plus 22 bairros absolute + 11 relative *(freguesia list per Público via ECO, 6 Apr 2026 + AL industry guides; bairro-level map awaits official CML publication — do not assert a specific bairro's tier until published)*
+- **Feb-2026 insurance cull**: 6,765 Lisbon AL registrations cancelled for missing compulsory civil-liability insurance; 11,774 remain active
 - **Porto Centro**: suspended in many freguesias since 2022
 - **Algarve coast**: regulated but largely still possible
 
@@ -182,7 +182,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 ### Strategic notes
 
 - **Algarve season concentration** — est. 60-70 % of revenue in Apr-Oct (based on Algarve seasonal-occupancy patterns — verify with Turismo de Portugal / INE occupancy data)
-- **Lisboa AL suspended** in centro — verify before buying for AL strategy
+- **Lisboa AL** under RMAL containment regime (since 6 Dec 2025) — sale triggers caducidade in containment zones — verify per freguesia/Anexo IV before buying for AL strategy
 - **Madeira** + **Açores**: Mais Habitação less restrictive
 - **Coimbra, Braga, Aveiro**: smaller markets but viable
 - **Cascais, Estoril**: high yields but high prices
@@ -338,7 +338,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Golden Visa abolished for residential 2023** — only commercial / funds remain
 - **NHR/IFICI 2024** restructured — no longer the broad 10-yr exemption regime
-- **AL suspension Lisbon centre** (May 2025 ext) — verify per freguesia before buying for AL
+- **AL containment Lisbon** (RMAL 2nd amendment, in force 6 Dec 2025 — sale triggers caducidade in containment zones) — verify per freguesia/Anexo IV before buying for AL
 - **Seismic zone Lisboa-Setúbal**: any pre-1958 build needs structural review
 - **Algarve season concentration**: 4-month revenue window for AL
 - **Wildfire zones**: post-2017 Pedrógão restrictions on rural land use

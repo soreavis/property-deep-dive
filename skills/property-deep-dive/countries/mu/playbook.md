@@ -73,7 +73,7 @@ The **Pas Géométriques** are the State's coastal reserve, fixed by colonial-er
 
 ### Confidence
 
-**HIGH** for the scheme decision tree (EDB regulations + 2025 FAQ are primary sources); **HIGH** for the 5 → 10 % registration-duty hike effective **1 July 2026** per Finance Act 2025 (Act No. 18 of 2025, gazetted 9 Aug 2025); **HIGH** for LTT non-citizen resale formula (higher of 10 % resale price or 30 % capital gain) (2026-05-27 verified).
+**HIGH** for the scheme decision tree (EDB regulations + 2025 FAQ are primary sources); **HIGH** for the 5 → 10 % registration-duty hike now in force from **1 July 2026** per Finance Act 2025 (Act No. 18 of 2025, gazetted 9 Aug 2025); **HIGH** for the **flat 10 %** non-citizen resale Land Transfer Tax (Seventh Schedule Part III — the previously-proposed "higher of 10 % of value or 30 % of resale gain" CGT-style formula was NOT enacted, so Mauritius stays CGT-free) (2026-07-02 verified).
 
 ---
 
@@ -180,8 +180,8 @@ The **Pas Géométriques** are the State's coastal reserve, fixed by colonial-er
 | Item | Rate / amount | Source / note |
 |---|---|---|
 | **Registration duty (droit d'enregistrement) — Mauritian buyer or non-scheme transaction** | **5 %** on deed value | Registration Duty Act, MRA (`https://lawsofmauritius.govmu.org/portal/viewlegislationdocument/web?doctitle=UmVnaXN0cmF0aW9uIER1dHkgQWN0&docnumber=&doctype=act`) |
-| **Registration duty — non-citizen buyer under EDB scheme (IRS/RES/PDS/SCS/IHS) OR G+2 / R+2** | **5 % → 10 %** | Effective **1 July 2026** per **Finance Act 2025 (Act No. 18 of 2025, gazetted 9 August 2025)** (2026-05-27 verified, source: [Finance Act 2025 PDF](https://mauritiusassembly.govmu.org/mauritiusassembly/wp-content/uploads/2025/08/18_THE-FINANCE-ACT-2025-.pdf); KPMG SA Tax Alert 95; PwC Mauritius National Budget 2025-26) |
-| **Land transfer tax (taxe de transfert sur les biens immobiliers) — seller pays** | **5 %** standard; rising to **10 %** for non-citizen resale of EDB-scheme property | Land (Duties and Taxes) Act 1984 (`https://www.mra.mu/download/TheLandAct.pdf`) |
+| **Registration duty — non-citizen buyer under EDB scheme (IRS/RES/PDS/SCS/IHS) OR G+2 / R+2** | **5 % → 10 %** | **In force from 1 July 2026** per **Finance Act 2025 (Act No. 18 of 2025, gazetted 9 August 2025)** — §49 Registration Duty Act, new s.3(1G) (2026-07-02 verified, source: [Finance Act 2025 PDF](https://mauritiusassembly.govmu.org/mauritiusassembly/wp-content/uploads/2025/08/18_THE-FINANCE-ACT-2025-.pdf); KPMG SA Tax Alert 95; PwC Mauritius National Budget 2025-26) |
+| **Land transfer tax (taxe de transfert sur les biens immobiliers) — seller pays** | **5 %** standard; **flat 10 %** for non-citizen resale of EDB-scheme property (in force from 1 July 2026) | Land (Duties and Taxes) Act 1984, as amended by Finance Act 2025 §29 — Seventh Schedule Part III (`https://www.mra.mu/download/TheLandAct.pdf`) |
 | **Notary fees** | **0.5–2 % sliding scale + 15 % VAT**; total typically **0.6–1.15 %** of deed value | Sliding: 2 % first MUR 250k → 1.5 % next 500k → 1 % next 1M → 0.5 % balance (Notarial profession barème) |
 | **EDB application fee (PDS / IRS / RES)** | **MUR 25,000** non-refundable | EDB Guidelines 2025 |
 | **Stamp duty / minor admin (extracts, certificates)** | ~MUR 2,500–10,000 | Notary discretion |
@@ -215,7 +215,7 @@ Source: **MRA + PwC Worldwide Tax Summaries** (`https://taxsummaries.pwc.com/mau
 ### Capital gains tax — none (residential property)
 
 - **No CGT** on capital gains realised on the sale of immovable property in Mauritius for residents OR non-residents — confirmed at MRA + reaffirmed in Finance Act 2025 (per Decordier Immobilier and Sotheby's Mauritius commentary, secondary). PwC: "Mauritius does not levy a tax on capital gains."
-- **Substitute mechanism for non-citizen resale** of EDB-scheme + G+2 / R+2 property: from **1 July 2026** the **Land Transfer Tax** on non-citizen resale is **higher of 10 % of resale price or 30 % of realised capital gain** — formula is **CONFIRMED** (originally proposed as a standalone CGT in Budget Speech, then transposed into the LTT framework as the final form of Finance Act 2025) (2026-05-27 verified, source: Decordier Immobilier; propertycloud.mu; Sotheby's Reside Magazine; EngelVölkers Mauritius).
+- **Substitute mechanism for non-citizen resale** of EDB-scheme + G+2 / R+2 property: in force from **1 July 2026** the **Land Transfer Tax** on non-citizen resale is a **flat 10 %** of the transfer value (Finance Act 2025 §29, new Land (Duties and Taxes) Act s.4(9) + Seventh Schedule Part III). The **"higher of 10 % of resale price or 30 % of realised capital gain"** CGT-style formula was **proposed in the Budget Speech / EDB Annex but was NOT enacted** — the gazetted Act sets a flat 10 % with no gain-based alternative, so **Mauritius remains a no-CGT jurisdiction** (2026-07-02 verified, source: [Finance Act 2025 PDF](https://mauritiusassembly.govmu.org/mauritiusassembly/wp-content/uploads/2025/08/18_THE-FINANCE-ACT-2025-.pdf) §29 + Seventh Schedule Part III; KPMG Mauritius Finance Act 2025 review; KPMG SA Tax Alert 95; EY Alert on Finance Act 2025; PwC Worldwide Tax Summaries — Mauritius).
 - **No CGT on share disposals** by individuals either — Mauritius retains a broadly capital-gain-free regime for individuals.
 
 ### Rental income tax
@@ -236,7 +236,7 @@ Source: **MRA + PwC Worldwide Tax Summaries** (`https://taxsummaries.pwc.com/mau
 - **Total acquisition cost**: ~USD 67,500 (≈ 11.3 % of price)
 - 8 years of net rental at, say, USD 25,000/yr × 0.8 (post-tax + management) = USD 160,000 cumulative
 - Sale 2034 at USD 800,000 (assume 3.3 %/yr appreciation in USD)
-- Land Transfer Tax 10 % seller: USD 80,000 (or higher per the 30 %-of-gain formula if confirmed: 30 % × USD 200,000 = USD 60,000 → 10 % rule binds at USD 80,000)
+- Land Transfer Tax (flat 10 %, seller): 10 % × USD 800,000 = **USD 80,000** (no 30 %-of-gain alternative — the CGT-style formula was proposed but not enacted)
 - Net to seller before notary: ~USD 720,000
 - Capital + currency repatriation via authorised bank under original investment file
 
@@ -551,7 +551,7 @@ Mauritius sits in the **South-West Indian Ocean cyclone belt**. The MMS issues f
 ## Caveats unique to Mauritius
 
 - **Scheme-or-G+2 only**: foreign buyers cannot purchase a stand-alone house or non-scheme apartment outside the EDB framework. Listings shown to local buyers are not accessible to non-citizens (see Foreign-buyer eligibility).
-- **5 → 10 % transaction-tax hike (Finance Act 2025, Act No. 18 of 2025, gazetted 9 Aug 2025)**: doubles up-front state cost for foreign buyers under EDB schemes AND G+2 / R+2; effective **1 July 2026 (confirmed)**; LTT non-citizen resale formula **higher of 10 % resale price or 30 % capital gain** also effective from same date (2026-05-27 verified).
+- **5 → 10 % transaction-tax hike (Finance Act 2025, Act No. 18 of 2025, gazetted 9 Aug 2025)**: doubles up-front state cost for foreign buyers under EDB schemes AND G+2 / R+2; **in force from 1 July 2026**; non-citizen resale Land Transfer Tax is a **flat 10 %** from the same date (the "higher of 10 % resale price or 30 % capital gain" CGT-style formula was proposed but **not enacted** — MU stays CGT-free) (2026-07-02 verified).
 - **Pas Géométriques 81 m 21 cm coastal reserve**: public-domain leasehold, not freehold; many beachfront gardens / hotel grounds sit on PG. Read the *titre* line by line.
 - **Cyclone season Nov–April**: Class III–IV warnings can shut the island for 24–72 hr; major events (Belal 2024, Gervaise 1975) leave structural + flood damage. Insurance + shutters are essential, not optional.
 - **Sewer is NOT universal**: only ~30 % of households on mains sewer; many scheme properties use private package treatment plants — verify capacity + maintenance contract.
@@ -666,5 +666,5 @@ Mauritius sits in the **South-West Indian Ocean cyclone belt**. The MMS issues f
 ## Status
 
 **Status**: ✅ fully populated as of 2026-05-07
-**Confidence**: HIGH — Finance Act 2025 effective 1 July 2026 CONFIRMED via gazetted Act + EDB; 10 % sale OR 30 % gain non-citizen-resale formula CONFIRMED (batch-3 2026-05-27 sweep). HIGH for the scheme decision tree (EDB Guidelines + 2025 FAQ are primary), the no-CGT/no-inheritance regime (PwC + MRA), the cyclone Class I–IV system (MMS), the cadastre architecture (RGD), and PIT brackets (MRA Budget 2025/26). MEDIUM on price bands (listing-derived, not transaction-grade). LOW on parcel-level municipal-rate quantum (varies by council, often unenforced for residential, no consolidated registry).
-**Last verified**: 2026-05-27
+**Confidence**: HIGH — Finance Act 2025 in force from 1 July 2026 CONFIRMED via gazetted Act (Act No. 18 of 2025) + EDB; non-citizen resale Land Transfer Tax is a **flat 10 %** (Seventh Schedule Part III) — the previously-proposed "10 % sale OR 30 % gain" CGT-style formula was NOT enacted (re-verified 2026-07-02 against the gazetted Act §29/§49). HIGH for the scheme decision tree (EDB Guidelines + 2025 FAQ are primary), the no-CGT/no-inheritance regime (PwC + MRA), the cyclone Class I–IV system (MMS), the cadastre architecture (RGD), and PIT brackets (MRA Budget 2025/26). MEDIUM on price bands (listing-derived, not transaction-grade). LOW on parcel-level municipal-rate quantum (varies by council, often unenforced for residential, no consolidated registry).
+**Last verified**: 2026-07-02

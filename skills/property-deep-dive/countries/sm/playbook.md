@@ -137,7 +137,7 @@ San Marino's transaction-tax stack on residential resale to a **private buyer (n
 
 ### Personal income tax — IGR (Imposta Generale sui Redditi)
 
-Foundational law: **Legge 16 dicembre 2013 n.166** as amended (most recent material amendment: **Legge 12 novembre 2025 n.141**, effective **2026 tax period**).
+Foundational law: **Legge 16 dicembre 2013 n.166** as amended (most recent material amendment: **Legge 12 novembre 2025 n.141**, gazetted in the *Bollettino Ufficiale*, in force 17 Nov 2025, provisions applying from the **2026 tax period**). The 141/2025 reform shifts personal-income relief from deductions to **tax credits (*detrazioni*)** — e.g. a new progressive *SMaC* detrazione — while **retaining (amending, not replacing)** the L.166/2013 progressive 9–35% bracket schedule below. (2026-07-02 verified, source Consiglio Grande e Generale archive + San Marino RTV + HLB / Toccaceli Bronzetti Legge 141/2025 digests.)
 
 - **Progressive scale (residents, individuals)**, full 8-bracket schedule effective 2026 per Legge 141/2025: up to €10,000 → **9%**; €10,000.01–€18,000 → **13%**; €18,000.01–€28,000 → **17%**; €28,000.01–€38,000 → **21%**; €38,000.01–€50,000 → **25%**; €50,000.01–€65,000 → **28%**; €65,000.01–€80,000 → **31%**; **above €80,000 → 35%**. Brackets auto-adjust every two years by cost-of-living index (max 6 % adjustment), first adjustment 2028. (2026-05-27 verified, source HLB San Marino digest of Legge 141/2025.)
 - **Corporate IGR**: **17% ordinary**; **temporarily 18% for tax periods 2026–2030** per Legge 141/2025 Art. 54 (*"In via straordinaria per i periodi d'imposta 2026 2027 2028 2029 e 2030 l'Imposta Generale sui Redditi è elevata al 18%"*); ordinary 17% resumes 2031 unless extended. (2026-05-27 verified, source HLB SM + Studio Bollini.)
@@ -175,6 +175,7 @@ Foundational law: **Legge 16 dicembre 2013 n.166** as amended (most recent mater
 - Rental income → IGR (residents progressive 9–35%); non-residents on SM-source rental — verify rate band + DTA coordination with home country
 - **No cedolare-secca-equivalent flat regime** comparable to Italy's 21%/26% — full progressive IGR applies
 - Deductibles: maintenance, mortgage interest, ISI on the rented property, agency fees — per IGR rules
+- **Tenant-side relief (Legge 141/2025)**: a fiscally-resident tenant using the dwelling as their *dimora effettiva* claims an IGR *detrazione* of **15% on 50% of the annual canone, up to a €6,000 canone ceiling** — renter relief, not a landlord deduction. (2026-07-02 verified, source HLB San Marino digest of Legge 141/2025.)
 
 ### Yields (est.)
 

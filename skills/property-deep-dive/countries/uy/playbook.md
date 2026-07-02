@@ -23,7 +23,7 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 - **Ley 18.083 (2007)**: tax framework reform that introduced IRPF (income tax on natural persons), IRAE (corporates), IRNR (non-residents), and IP (Impuesto al Patrimonio) — the architecture still in force
 - **Ley 16.906 (1998) — Ley de Inversiones**: COMAP-administered IRAE/IPAT exemptions for certified construction projects (still active; key for new-build off-plan investors)
 - **Ley 19.210 (2014) — Inclusión Financiera, modified by LUC Ley 19.889 (9 Jul 2020)**: cash payments in real-estate transactions capped at **1,000,000 UI** (~USD 120,000 at 2026 UI value); amounts above must use banking channels (transferencia, cheque, débito). **The original 40,000 UI / Art. 39 rule was REPEALED by LUC** — playbook prior wording superseded (2026-05-27 verified, source Deloitte UY + Posadas + IMPO Ley 19.889).
-- **Ley 20.352 (publicada 19 Sept 2024) — Régimen de actividades de alojamiento turístico** — **NATIONAL STR FRAMEWORK** (supersedes the prior Ley 19.253 + Decreto 384/2018 partial regime): mandatory **Registro de Operadores Turísticos** (Ministerio de Turismo) for owners/administrators/operators of vivienda turística; platforms (Airbnb, Booking) may only list properties present in the registry; 180-day adaptation window; implementation decree rolling out gradually (**MinTurismo announced Nov 2025 it will NOT apply during the 2025-2026 austral summer season**). Each property receives a public ID number (2026-05-27 verified, source Fernandez Secco + IMPO Ley 20352).
+- **Ley 20.352 (publicada 19 Sept 2024) — Régimen de actividades de alojamiento turístico** — **NATIONAL STR FRAMEWORK** (supersedes the prior Ley 19.253 + Decreto 384/2018 partial regime): mandatory **Registro de Operadores Turísticos** (Ministerio de Turismo) for owners/administrators/operators of vivienda turística; platforms (Airbnb, Booking) may only list properties present in the registry; scope = alojamiento transitorio up to 120 días; 180-day platform adaptation window; **reglamentary decree still a DRAFT** — Mintur presented the proyecto in late Nov 2025 and it did NOT apply during the 2025-2026 austral summer season, with no signed decree surfacing by mid-2026 (pending). Each property receives a public ID number that must appear in every offer (2026-07-02 verified, source IMPO Ley 20352 + gub.uy Mintur proyecto Nov 2025 + CIU Dec 2025).
 - **Decreto 138/020 + 153/020 (2020)** — **GRANDFATHERED** for pre-2026 residency only. Set the prior UI 3,500,000 real-estate path + 60-day presence; superseded for new applicants by Ley 20.446 (UI 12.5M).
 
 ---
@@ -253,13 +253,13 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 ### Short-term rentals (alquiler por temporada / Airbnb)
 
 #### Statutory classification
-- **Ley 20.352 (publicada 19 Sept 2024) — NATIONAL STR FRAMEWORK** creates the mandatory **Registro de Operadores Turísticos** (Ministerio de Turismo) for vivienda turística owners/administrators/operators; platforms (Airbnb, Booking) may only list registered properties; each property gets a public ID. Implementation decree rolling out gradually; MinTurismo announced **Nov 2025 it will NOT apply during the 2025-2026 austral summer season**. Supersedes the partial Ley 19.253 + Decreto 384/2018 regime (2026-05-27 verified, source IMPO Ley 20352 + Fernandez Secco).
+- **Ley 20.352 (publicada 19 Sept 2024) — NATIONAL STR FRAMEWORK** creates the mandatory **Registro de Operadores Turísticos** (Ministerio de Turismo) for vivienda turística owners/administrators/operators; the **inscription number must appear in every offer** through any channel, physical or electronic (Ley 20.352 text, IMPO), and platforms (Airbnb, Booking) may only list registered properties. Scope = **alojamiento transitorio up to 120 días** (gub.uy Mintur). The **reglamentary decree is still a DRAFT** — Mintur presented the proyecto in **late Nov 2025** with a **180-day platform adaptation window**; it did **NOT apply during the 2025-2026 austral summer season** and no signed/gazetted decree had surfaced by mid-2026, so the regime **remains pending** (status MEDIUM — evidence of absence). A vivienda is deemed "de uso turístico" when let **>5 times/año**, with guest data reported to the **Ministerio del Interior** (both news-tier CIU/Ámbito — confirm against Ley 20.352 definitional article). Supersedes the partial Ley 19.253 + Decreto 384/2018 regime (2026-07-02 verified, source IMPO Ley 20352 + gub.uy Mintur proyecto Nov 2025 + CIU Dec 2025).
 - Temporada contracts: <1 año, no Ley 14.219 protections, simpler termination, but require formal contract
 - Ley 14.219 long-term protections do NOT apply to temporada contracts
 
 #### Maldonado (Punta del Este)
-- **Receptive Operator (Operador Receptivo) registration** required for hospitality businesses operating commercially in Maldonado; STR landlords offering Airbnb-style hosting may fall under this if professional
-- Intendencia de Maldonado periodically debates a formal STR registry — **monitor 2026 ordenanza** (`https://www.maldonado.gub.uy/`)
+- **No separate municipal STR registry** — Maldonado STR falls under the **national Ley 20.352 regime** (above), not an Intendencia "Operador Receptivo" requirement (the *operador receptivo* label is the distinct inbound tour-agency category, not an STR-landlord obligation)
+- The **Intendencia de Maldonado's role is limited to reinforcing control over informal supply** in high-demand zones (Punta del Este, Piriápolis) for fair competition with traditional hotelería (per Alda, 2025-10-27 — secondary source, verify with Intendencia) (`https://www.maldonado.gub.uy/`)
 
 #### Montevideo
 - No general STR registry as of 2026 Q1; commercial accommodation businesses register under Ministerio de Turismo
@@ -506,13 +506,13 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 - **VRC-vs-market gap** typically 30–60% means **ITP cash cost is lower than the headline 4% suggests** — but Contribución Inmobiliaria (annual) also taxed on VRC, so it cuts both ways
 - **USD-pricing convention** for sales — verify whether USD billete or USD wire (slight cash premium); rentals usually UYU with UI/USD adjustment
 - **ITP customarily split 2% + 2%** but negotiable — premium PdE deals sometimes shift split
-- **Strong tenant protection** (Ley 14.219) — long-term residential buy-to-let has 2-yr minimum + slow eviction; STR often more attractive financially but seasonal (PdE) or municipally regulated (Maldonado emerging)
+- **Strong tenant protection** (Ley 14.219) — long-term residential buy-to-let has 2-yr minimum + slow eviction; STR often more attractive financially but seasonal (PdE) and subject to the **national Ley 20.352 STR registry** (reglamentary decree still draft — pending mid-2026)
 - **Punta del Este seasonality**: Jan–Feb peak, Apr–Nov occupancy collapses (~5–15%) → STR yields concentrated in 2–3 months
 - **Estudio de títulos (30-yr chain)** is mandatory escribano practice — do NOT skip; non-Uruguayan buyers especially should verify escribano is AEU-registered
 - **Certificados (DGI, BPS, OSE, UTE, Intendencia)** required pre-escritura — ensures no hidden debts attached to padrón
 - **UI vs UYU vs USD pricing** means inflation translation matters — long-term comparisons require deflating to UI or USD
 - **Ley 19.210 (financial inclusion, modified by LUC Ley 19.889 of 9 Jul 2020)**: real-estate cash payments capped at **1,000,000 UI** (~USD 120,000 at 2026 UI) — amounts above MUST use banking channels (transferencia, cheque, débito); the original 40,000 UI / Art. 39 rule was REPEALED by LUC; AML compliance
-- **Receptive Operator (Maldonado)**: STR landlords may need to register as commercial operator if professional — verify Intendencia ordenanza current status
+- **National STR registry (Ley 20.352)**: STR owners/operators must register in the Mintur **Registro de Operadores Turísticos** once in force; reglamentary decree still draft (proyecto late Nov 2025), not yet enforced mid-2026 — Maldonado's role limited to reinforcing informal-supply control in Punta del Este/Piriápolis
 - **Foreign owners may face IP (Patrimonio)** if structured via SA/SRL holding — natural-person ownership often avoids; consult contador
 - **No inheritance tax** since 1976 — major succession-planning attraction
 - **Bearer shares abolished** (Ley 18.930) — corporate transparency; identifying real owners now mandatory at AGESIC + DGI
@@ -594,13 +594,13 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: **HIGH** for tax-residency / ITP / cadastre / notary / OSE / DGI source paths (all primary state agencies, multi-source corroborated). **MEDIUM** for current Intendencia-by-Intendencia Contribución Inmobiliaria bracket exactness (varies annually + per departamento — must verify per ordenanza current year). **MEDIUM** for STR municipal regulation (Maldonado Receptive Operator + emerging Intendencia rules in flux).
+**Confidence**: **HIGH** for tax-residency / ITP / cadastre / notary / OSE / DGI source paths (all primary state agencies, multi-source corroborated). **MEDIUM** for current Intendencia-by-Intendencia Contribución Inmobiliaria bracket exactness (varies annually + per departamento — must verify per ordenanza current year). **MEDIUM** for STR regulation (national Ley 20.352 reglamentary decree still draft — pending mid-2026, revisit before the 2026-27 summer season).
 **Last verified**: 2026-05-27.
 
 ## Extension TODOs (deepen on first real run)
 
 - [ ] Per-departamento Contribución Inmobiliaria bracket scraping (top 5: MVD, Maldonado, Canelones, Colonia, Salto)
-- [ ] Maldonado Receptive Operator + STR ordenanza tracking (active reform watch 2026)
+- [ ] Ley 20.352 reglamentary decree tracking (national STR regime — draft pending mid-2026; revisit before 2026-27 summer season)
 - [ ] OSE Mapa de Saneamiento per-padrón coverage extraction
 - [ ] Ley 19.937 sunset/renewal monitoring (2031 watershed: first cohort exits 11-yr exemption)
 - [ ] Re-aforo catastral nacional risk monitor (MEF + DNC announcements)

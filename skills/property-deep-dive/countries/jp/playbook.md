@@ -77,7 +77,7 @@ ISO2: `jp`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Trend Q4 2024 → Q1 2026
 
-- BoJ rate normalization (NIRP exit Mar 2024 → 0.25 % Jul 2024 → 0.5 % Jan 2025; further hike Dec 2025 to ~0.75 %, [BoJ MPM 251219](https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2025/k251219a.pdf)) is gradually feeding through to mortgage variable rates
+- BoJ rate normalization (NIRP exit Mar 2024 → 0.25 % Jul 2024 → 0.5 % Jan 2025 → 0.75 % Dec 2025, [BoJ MPM 251219](https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2025/k251219a.pdf); held Jan–Apr 2026 → 1.0 % 16 Jun 2026 (31-yr high since 1995, 7-1 vote), [BoJ MPM 260616](https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf); next mtg 31 Jul 2026) is gradually feeding through to mortgage variable rates
 - Tokyo central wards remain bull market (foreign + domestic flight-to-quality); rural Honshū/Shikoku/Kyūshū continue depopulation-led decline
 - 円安 (weak yen) cycle Q4 2024 → 2025 sustained foreign-buyer interest in Tokyo + Niseko + Kyōto
 
@@ -537,7 +537,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all anchored in MLIT / NTA / 法務局 / 国税庁 / J-SHIS / JMA / BoJ primary sources with date-stamped numerics + transparent computations.
 **Confidence**: **HIGH** for cadastre/seismic-standard/national-tax/transaction-cost (all 国税庁 + MLIT primary, multi-source corroborated). **MEDIUM** for current akiya market dynamics (highly local, 1,700+ municipalities — start with municipal akiya bank for parcel-level), municipal-level minpaku rules (per-ward overlay on top of national 180-day cap; verify via 保健所), and condominium 修繕積立金 trajectory (per-building, requires 管理組合 financials review).
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-07-02.
 
 ## Extension TODOs (deepen on first real run)
 

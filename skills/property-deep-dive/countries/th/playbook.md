@@ -224,7 +224,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 | **Other (commercial, industrial)** | 0.30–0.70 % | Hotel, retail, office, warehouse |
 | **Vacant / unused** (ที่ดินรกร้างว่างเปล่า) | 0.30–0.70 % | Increases by 0.30 percentage points every 3 years up to a 3% ceiling |
 
-**Current effective rates (Royal Decree 2563/2020, extended; verify 2026 schedule via Royal Gazette)**:
+**Current effective rates (Royal Decree 2563/2020, extended; for 2026/BE 2569 NO across-the-board Royal Decree reduction was issued — full statutory rates apply; verify the 2027/BE 2570 decree via Royal Gazette)**:
 
 | Appraised value bracket (residential primary, owner-occupied) | Rate |
 |---|---|
@@ -240,7 +240,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 | 75,000,001–100,000,000 | 0.05 % |
 | > 100,000,000 | 0.10 % |
 
-**Temporary reductions**: the Cabinet has issued multiple Royal Decrees reducing the effective rate by 15–90 % for specific years (notably 2020 90% reduction COVID, 2023 reduction 15% lapsed). **As of May 2026: verify current Cabinet resolution status at `https://resolution.soc.go.th/`** — the temporary-reduction regime is renewed annually and should not be assumed.
+**Temporary reductions**: the Cabinet has issued Royal Decrees reducing the effective rate for specific years, but these were **episodic, not an automatic annual renewal** (90% reduction 2020–2021 COVID; ~15% reduction 2023; **none for 2026/BE 2569** — the pandemic-era discounts have expired and full statutory rates apply). **As of 2026-07-02 no across-the-board Royal Decree reduction was issued for the 2026 tax year.** Verify any 2027/BE 2570 decree and the four-year rate/threshold-review Gazette notice due late 2026 at `https://resolution.soc.go.th/` and the Royal Gazette (2026-07-02 verified, source: LEX Bangkok / Dansiam Property / Thailand Law Online 2026).
 
 **Filing**: bills are issued by the local authority (กทม. for Bangkok, municipal/SAO elsewhere) by April; pay by August (penalty 1 %/month after due). Source: Ministry of Interior `https://www.moi.go.th/` and Department of Local Administration (DOLA) `https://www.dla.go.th/`.
 
@@ -279,7 +279,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 
 ### Future risk
 
-- **Land + Building Tax temporary reduction** is renewed annually; 2026 status uncertain — verify Royal Decree.
+- **Land + Building Tax temporary reduction** is **episodic, not an automatic annual renewal** (90% 2020–2021; ~15% 2023; **none for 2026/BE 2569 — full statutory rates apply**); verify any 2027/BE 2570 Royal Decree.
 - Periodic Cabinet discussions on raising the rate ceiling (currently 3% for vacant land); none enacted.
 - Transfer-fee reduction (0.01% special rate for residential ≤ 3M THB) expired/extended status — verify.
 
@@ -325,7 +325,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 - **Penalties**: Hotel Act §59 — fine up to 20,000 THB + 10,000 THB/day continuing + imprisonment up to 1 year.
 - **Workaround often advertised but legally fragile**: 30+ night minimums (genuine monthly let) are outside the Hotel Act and generally permitted; week-long lets are illegal absent a hotel license.
 
-**2024–2025 watch**: Ministry of Interior consultation on a STR licensing framework (similar to EU registers or Spanish VTV) was floated but no statute enacted as of May 2026. Verify via `https://www.moi.go.th/` and Cabinet Resolution database.
+**2024–2026 watch**: two draft accommodation-reform bills are now under **Council of State public consultation** — a **Draft Accommodation Establishments Act** (would repeal and replace the Hotel Act entirely, and would let condominium units be legally used for short-term accommodation by registration, without a full hotel licence) and a **Draft Hotel & Non-Hotel Accommodation Act**. Both are **NOT enacted as of 2026-07** — the <30-night illegality above is unchanged. **Viral property-marketing claiming STR is 'already legalised' in condos is false** (the bills are draft/consultation only). Verify via `https://www.moi.go.th/` and Cabinet Resolution database (2026-07-02 verified, source: AMCHAM Thailand Feb 2026 + Formichella & Sritawat Jun 2026).
 
 **Tax treatment if you do legally STR via hotel license / monthly lets**:
 - Standard PIT §40(5) applies; 30 % deemed expense or actual.
@@ -575,7 +575,7 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 - **Thailand Privilege**: NO tax incentive; visa convenience only
 - **BCG (Bio-Circular-Green) building incentives**: corporate tax deduction for green-certified construction; minor at the residential level
 - **EV charger incentives**: VAT exemption + corporate tax credit for installing chargers (commercial / mixed-use); residential charger rebates limited
-- **DTV holders**: no Thai-sourced tax exemption; **Por.161/2566 + Por.162/2566** (Revenue Department orders effective 1 Jan 2024) abolished the same-calendar-year remittance loophole — foreign-source income remitted to Thailand in any later year is taxable; **Por.162/2566 explicitly carves out** the new rule to apply ONLY to foreign-source income derived **on or after 1 January 2024** (pre-2024 foreign income remitted in 2024+ remains exempt). A 2025 draft 2-year relief proposal is being considered but is **not yet enacted** as of May 2026 (2026-05-27 verified, source: Revenue Department + Forvis Mazars / HLB Thailand / Mahanakorn Partners).
+- **DTV holders**: no Thai-sourced tax exemption; **Por.161/2566 + Por.162/2566** (Revenue Department orders effective 1 Jan 2024) abolished the same-calendar-year remittance loophole — foreign-source income remitted to Thailand in any later year is taxable; **Por.162/2566 explicitly carves out** the new rule to apply ONLY to foreign-source income derived **on or after 1 January 2024** (pre-2024 foreign income remitted in 2024+ remains exempt). A 2025 draft 2-year relief proposal is being considered but is **not yet enacted** as of Jun 2026 — pending Cabinet approval + Council of State review + Royal Gazette publication (2026-07-02 re-verified, source: Rumavi + Acclime + Chambers 2026).
 
 ---
 
@@ -723,9 +723,9 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 **Reform watch items** (track in `shared/regulatory-watch.md`):
 1. **Long-term lease 99-year extension** — Cabinet 2024 discussion; not enacted May 2026.
 2. **Foreign condo quota raise to 75 %** — MoI 2024 proposal; paused; not enacted May 2026.
-3. **Land + Building Tax temporary reduction** — annual Royal Decree renewal; verify each year.
-4. **STR licensing framework** — MoI consultation 2024–25; no statute as of May 2026.
+3. **Land + Building Tax temporary reduction** — episodic, not an automatic annual renewal (90% 2020–2021; ~15% 2023; none for 2026/BE 2569 — full statutory rates apply); verify any 2027/BE 2570 decree.
+4. **STR licensing framework** — Draft Accommodation Establishments Act + Draft Hotel & Non-Hotel Accommodation Act under Council of State public consultation (would let condos register for STR without a full hotel licence); NOT enacted as of 2026-07.
 5. **Bangkok high-rise seismic code review** — DPT post-Myanmar 2025; verify current text.
 6. **Foreign-source income remittance taxation** — Revenue Department interpretation effective 2024 for non-LTR holders; ongoing clarifications.
 
-**Last verified**: 2026-05-27 (validation sweep — Royal Decree 22 Apr 2025–30 Jun 2026 0.01% Thai-only transfer-fee reduction; Hotel Act Ministerial Reg BE 2566 (≤8 rooms/≤30 guests exemption); Por.161 + Por.162 + 1 Jan 2024 cut-off).
+**Last verified**: 2026-07-02 (regulatory re-verification — Land & Building Tax: no across-the-board Royal Decree reduction for 2026/BE 2569, full statutory rates apply; STR <30-night illegality under Hotel Act §4 unchanged, Draft Accommodation Establishments Act + Draft Hotel & Non-Hotel Accommodation Act under Council of State consultation but NOT enacted; foreign-source remittance Por.161/2566 + Por.162/2566 operative, 2025 draft 2-yr relief unenacted. Prior 2026-05-27 sweep: Royal Decree 22 Apr 2025–30 Jun 2026 0.01% Thai-only transfer-fee reduction; Hotel Act Ministerial Reg BE 2566 (≤8 rooms/≤30 guests exemption); Por.161 + Por.162 + 1 Jan 2024 cut-off).

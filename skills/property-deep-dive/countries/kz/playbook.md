@@ -238,7 +238,7 @@ Per Tax Code Art. 331 (current) + new Code 2026 carry-over (verify in [Adilet](h
 ### Future risk
 
 - **New Tax Code took effect 1 Jan 2026**: monitor [KGD.gov.kz](https://kgd.gov.kz/en) for subordinate regulations + clarifications; transitional provisions for 2026 expected via amendments through 2026–2027
-- **VAT rate change**: confirmed 2026 increase from prior 12 %; verify exact landing rate at KGD bulletins
+- **VAT rate change**: standard rate **raised from 12 % to 16 %**, in force since 1 January 2026 under new Tax Code K2500000214 (2026-07-02 verified, source [eGov.kz Tax Code Q&A](https://egov.kz/cms/en/information/help/tax_code))
 - **Property tax modernisation**: speculation that KZ may introduce annual *market-value* property tax (currently cadastral-value system kept rates trivial); no concrete bill 2025–2026 — monitor Mazhilis tax committee
 - **Universal income declaration**: full rollout by 2025 — all residents must declare worldwide assets; foreign-property concealment fines = 3× MCI per concealed item (KPMG TBB 2025)
 - **Potential digital-asset taxation**: clarified in Aug 2025 Law No. 208-VIII for individuals; rules tightening through 2026
@@ -288,7 +288,7 @@ Per Tax Code Art. 331 (current) + new Code 2026 carry-over (verify in [Adilet](h
 - **Individual operating informally**: 10 % PIT on net rental + risk of being reclassified as "entrepreneurial activity" (предпринимательская деятельность) → triggers IE registration + retroactive penalty
 - **IE under Patent (1 %)**: works for STR if cap respected
 - **IE under Simplified (3 %)**: works for STR with employees / higher turnover
-- **VAT registration**: mandatory if turnover > **20,000 MCI** (~KZT 78.6 M / ~$164k in 2025) — VAT 12 % current, increased rate from 1 Jan 2026 (verify at KGD)
+- **VAT registration**: threshold reduced from **20,000 MCI → 10,000 MCI** from 1 Jan 2026 under the new Tax Code (was ~KZT 78.6 M / ~$164k at 2025 MCI) — VAT standard rate now **16 %** (raised from 12 % on 1 Jan 2026) (2026-07-02 verified, source [eGov.kz Tax Code Q&A](https://egov.kz/cms/en/information/help/tax_code))
 - **Tourist tax / accommodation fee**: **NONE national**; some Almaty + Astana districts experimenting with municipal levies — verify per district akimat before listing
 - **Hotel classification regime**: governed by Law on Tourism Activity No. 211-II of 2001 + Decree on Classification of Accommodation Establishments — applies to formal hotels/hostels; STR apartments mostly outside scope but enforcement tightening 2024 onward
 

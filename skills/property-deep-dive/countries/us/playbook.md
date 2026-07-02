@@ -578,7 +578,7 @@ There is **no national database** of household water/sewer connections. To verif
   - **Escrow states** (CA, AZ, OR, WA): neutral escrow company holds funds + docs
   - **Attorney states** (NY, MA, GA, SC, NC, others): closing attorney mandatory
   - **Title-company states**: title company runs settlement
-- **Buyer agent commission**: post-NAR settlement (Aug 2024), buyer-agent commission **must be negotiated separately** by buyer; no longer auto-published in MLS. Many states updated standard contracts; verify current with broker.
+- **Buyer agent commission** (verified 2026-07-02): post-NAR settlement (practice changes eff 17 Aug 2024), buyer-agent compensation is **removed from the MLS** and **must be negotiated separately**; buyers sign a **written buyer-broker agreement before touring** ([NAR practice changes](https://www.nar.realtor/news/real-estate-news/nar-practice-changes-to-take-effect-august-17)). Commissions did **not** fall — Redfin buyer-side 2.42 % (Q3-2025, up from a 2.36 % low); total both agents combined still mid-5 % per agent surveys. States are **codifying** the settlement: **California AB 2992** (Chapter 516, Statutes of 2024; eff **1 Jan 2026**) requires a written buyer-broker agreement before an agent shows any property, compensation disclosed, 90-day max duration, void if violated ([leginfo](https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240AB2992)). The **DOJ antitrust probe is separate** from the private settlement and remains **open** (Participation Rule + Clear Cooperation Policy; SCOTUS denied NAR's cert petition 13 Jan 2025) — further rule changes remain possible. Verify current state contract forms with a broker.
 - **Earnest money deposit (EMD)**: 1-3 % of price typical; held in escrow; subject to forfeiture if buyer defaults outside contingencies.
 - **Contingencies**: financing, inspection, appraisal, title, sale-of-current-home — each must be in writing + waived in writing.
 - **FIRPTA blocker structures**: foreign individual + US LLC (default disregarded) → FIRPTA still applies. Foreign corp owning US RPI → no FIRPTA on share sale (treaty-permitting), but corporate income tax + branch profits.
@@ -657,7 +657,7 @@ There is **no national database** of household water/sewer connections. To verif
 - **NFIP reauthorization** — periodic short-term extensions; long-term reform pending
 - **LCRI compliance ramp** — utilities ramping up for 1 Nov 2027 deadline; may surface lead-service-line replacement costs to homeowners
 - **Insurance market** — FL / CA / LA / CO carrier exits continuing; FAIR-plan capacity stretched
-- **NAR settlement (Aug 2024) follow-on** — buyer-agent commission practice still settling; verify current state contract forms
+- **NAR settlement (Aug 2024) follow-on** — buyer-agent commission practice still settling; DOJ antitrust probe (Participation Rule + Clear Cooperation Policy) is **separate + still open** (SCOTUS denied NAR cert 13 Jan 2025); states codifying (CA AB 2992 eff 1 Jan 2026); verify current state contract forms
 
 ## Extension TODOs
 

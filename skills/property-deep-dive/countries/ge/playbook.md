@@ -438,7 +438,7 @@ Same flat, owner household income < 40k GEL:
 - **Investment residence permit threshold US$100k (US$150k from 1 March 2026)** is one of the lowest in the world — but permit doesn't grant tax residency automatically
 - **Property tax owed only if household income > 40,000 GEL/yr** (~US$14,800) — many foreign owners on remote-work income outside Georgian tax net pay 0 GEL property tax
 - **Adjara 2 GEL/night tourist fee** for accommodation hosts (Batumi area) — verify current rate
-- **Foreign Agents Registration Act (effective 1 June 2025)** — criminal-liability "foreign-principal" registration regime; **does NOT restrict private foreign property purchase**, but materially affects foreign-funded NGOs, property-development JVs with foreign-government links, and some advisory/legal vendors; verify your transaction-stack counsel is not impaired *(2026-05-27 verified, source Venice Commission CDL-AD(2025)034 + Andersen 2025)*
+- **Foreign Agents Registration Act (effective 31 May 2025)** — criminal-liability "foreign-principal" registration regime; **does NOT restrict private foreign property purchase**, but materially affects foreign-funded NGOs, property-development JVs with foreign-government links, and some advisory/legal vendors; verify your transaction-stack counsel is not impaired *(2026-07-02 verified, source Venice Commission CDL-AD(2025)034 + Parliament of Georgia Law N399)*
 - **Mandatory travel medical insurance (effective 1 Jan 2026)** — Government Decree #602 of 26 Dec 2025 requires all foreign entrants to hold travel medical insurance with min **GEL 30,000** coverage for stay duration; cost typically US$10–US$40 per trip — verify carrier list at mfa.gov.ge *(2026-05-27 verified, source matsne.gov.ge)*
 
 ## Reddit / forum sources

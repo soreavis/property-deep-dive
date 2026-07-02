@@ -2,7 +2,7 @@
 
 ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 
-> **🇮🇱 LEAD WARNING — read before any other section.** Israel is a **de facto restricted** market. **~93% of land in Israel is state-owned** and managed by the Israel Land Authority (Reshut Mekarkei Yisrael / RMI / רשות מקרקעי ישראל) on behalf of the State of Israel, the Jewish National Fund (KKL / קק״ל), and the Development Authority. **JNF (KKL) parcels are restricted by charter to Jewish lessees** (subject to ongoing litigation; non-Jewish lessees access KKL-equivalent state parcels via swap). Foreigners can buy private land + non-JNF state-leased land but pay a **non-resident purchase-tax surcharge**. **Active war footing** (Israel-Hamas Oct 2023 → ongoing as of May 2026; Israel-Hezbollah ceasefire Nov 2024) — missile/rocket damage is partially covered by **Karnit / Property Tax Compensation Fund** (state-funded), but insurance markets are disrupted and land devaluation is not compensated. Six- to seven-figure decisions in Israel demand a licensed Israeli **עורך דין מקרקעין** (real-estate attorney) and a **שמאי מקרקעין** (licensed appraiser) — non-negotiable. Verify Tabu (Land Registry) AND RMI lease status — Israel runs a **dual title system** and a parcel can be missing from one register while present in the other.
+> **🇮🇱 LEAD WARNING — read before any other section.** Israel is a **de facto restricted** market. **~93% of land in Israel is state-owned** and managed by the Israel Land Authority (Reshut Mekarkei Yisrael / RMI / רשות מקרקעי ישראל) on behalf of the State of Israel, the Jewish National Fund (KKL / קק״ל), and the Development Authority. **JNF (KKL) parcels are restricted by charter to Jewish lessees** (subject to ongoing litigation; non-Jewish lessees access KKL-equivalent state parcels via swap). Foreigners can buy private land + non-JNF state-leased land but pay a **non-resident purchase-tax surcharge**. **Active war footing** (Israel-Hamas Oct 2023, under a fragile US-brokered Oct 2025 Gaza ceasefire — the "Yellow Line" — as of July 2026; Israel-Hezbollah ceasefire Nov 2024; plus two Israel-Iran wars — the Jun 2025 "12-Day War" and a 2026 Iran war, ceasefire announced 7 Apr 2026 — whose Iranian ballistic-missile strikes drove the bulk of war-damage claims) — missile/rocket damage is partially covered by the **Property Tax Compensation Fund** (Israel Tax Authority; state-funded), but insurance markets are disrupted and land devaluation is not compensated. Six- to seven-figure decisions in Israel demand a licensed Israeli **עורך דין מקרקעין** (real-estate attorney) and a **שמאי מקרקעין** (licensed appraiser) — non-negotiable. Verify Tabu (Land Registry) AND RMI lease status — Israel runs a **dual title system** and a parcel can be missing from one register while present in the other.
 
 ## Country profile
 
@@ -30,8 +30,8 @@ ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Land Taxation (Appreciation and Purchase) Law 5723-1963** — חוק מיסוי מקרקעין; Mas Rechisha (purchase tax) + Mas Shevach (appreciation/capital gains tax). Source: Israel Tax Authority `https://www.gov.il/he/departments/topics/real_estate_taxation`.
 - **Buyer's tax brackets — non-resident scale** — annual update by Tax Authority (typically 16 January each year, indexed to CBS housing index). Verify current brackets at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` (page often updated mid-January).
 - **Olim 7-year purchase-tax incentive** — Section 12 of the Land Taxation Regulations, anchored in the Aliyah & Integration framework. Source: Ministry of Aliyah & Integration `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` and Tax Authority guidance.
-- **Karnit / Property Tax Compensation Fund** — Property Tax and Compensation Fund Law 5721-1961; pays for direct war/missile damage to property (structures + contents up to caps). Source: `https://www.gov.il/he/departments/karnit_property_tax_and_compensation_fund_for_road_accident_victims` and `https://www.misim.gov.il/` (Tax Authority Karnit portal).
-- **Wartime tax measures (2023–2026)**: temporary purchase-tax bracket adjustments under Order 5784; Karnit claim deadlines extended for evacuee zones (Otef Aza, Northern border). Verify currency at Tax Authority and Knesset legislation database `https://main.knesset.gov.il/Activity/Legislation/Pages/default.aspx`.
+- **Property Tax Compensation Fund (Israel Tax Authority)** — Property Tax and Compensation Fund Law 5721-1961 (מס רכוש וקרן פיצויים); pays for direct war/missile damage to property (structures + contents up to caps). Source: `https://www.gov.il/en/departments/topics/compensation_fund` and `https://www.misim.gov.il/` (Tax Authority portal).
+- **Wartime tax measures (2023–2026)**: temporary purchase-tax bracket adjustments under Order 5784; Compensation Fund claim deadlines extended for evacuee zones (Otef Aza, Northern border). Verify currency at Tax Authority and Knesset legislation database `https://main.knesset.gov.il/Activity/Legislation/Pages/default.aspx`.
 - **Proposed reforms NOT enacted as of May 2026**: foreign-buyer outright restriction (proposed several times since 2010s, never passed); raising non-resident Mas Rechisha further (in periodic political discussion).
 
 ---
@@ -95,7 +95,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Bracket indexation FROZEN 2025-2027**: normally indexed annually on 16 January to the CBS housing price index, but indexation is **frozen for tax years 2025, 2026, 2027** under the Economic Efficiency Law / 2025 budget directives; January-2024 brackets remain fixed in nominal shekels through 15 January 2028 — restart planned thereafter, no backfill (2026-05-27 verified per Economic Efficiency Law late-2024 budget package; previously indexed source: Tax Authority circular page `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase`).
 - **CRITICAL**: the bracket numbers above are 2026 reference points; verify current values at the Tax Authority page before signing — they shift every year and have been adjusted mid-year by emergency wartime orders since October 2023.
 
-### Karnit (Property Tax Compensation Fund) — wartime damage cover
+### Property Tax Compensation Fund (Israel Tax Authority) — wartime damage cover
 
 - **Legal basis**: Property Tax and Compensation Fund Law 5721-1961 (חוק מס רכוש וקרן פיצויים).
 - **What it covers**: direct physical war/missile/terror damage to:
@@ -106,16 +106,17 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Land devaluation** caused by proximity to active conflict (e.g., Otef Aza / Northern border post-October 2023) — owners cannot recover lost market value
 - Property-tax assessed value gap when a property's market value exceeds the assessed cap — the gap is uncovered
 - Damage from internal causes (fire, earthquake) — those go to private insurance / Mavat Ra'ash (national earthquake fund framework, separate)
-- **Funding**: state-funded (treasury allocation), supplemented historically by a property-tax surcharge. The fund has paid out an **est. tens of billions of ILS** since October 2023 for war damage in Otef Aza, Northern Israel, and central-Israel rocket-impact incidents (order-of-magnitude estimate — verify current figures at Karnit publications).
-- **Claim process**: file via Tax Authority Karnit portal `https://www.misim.gov.il/`; deadlines extended for active-conflict zones by emergency order.
-- **Implication for foreign buyers**: Karnit substantially de-risks war-damage to the structure but does NOT compensate land-value loss — a property in or near an evacuated zone may retain Karnit coverage for damage but suffer material market-value loss with no compensation pathway. (Magnitude of the value loss is not publicly indexed during the active-conflict period — verify against Tax Authority transaction data for the specific locality.)
+- **Funding**: state-funded (treasury allocation), supplemented historically by a property-tax surcharge. The fund has paid out an **est. tens of billions of ILS** since October 2023 for war damage in Otef Aza, Northern Israel, and central-Israel rocket-impact incidents (order-of-magnitude estimate — verify current figures at Compensation Fund publications). Documented claim volumes: **~1M cumulative war-damage claims across all fronts by April 2026** (Bloomberg, 2026-04-17); the 2026 Iran-war fighting alone logged **10,946 claims** by 15 March 2026 — 7,648 for structures, 1,179 for contents/equipment, 1,945 for vehicles, 174 other (Israel Tax Authority Compensation Fund update, `https://www.gov.il/en/pages/sa150326-1`).
+- **Claim process**: file via the Tax Authority Compensation Fund portal `https://www.misim.gov.il/`; deadlines extended for active-conflict zones by emergency order.
+- **Implication for foreign buyers**: the Compensation Fund substantially de-risks war-damage to the structure but does NOT compensate land-value loss — a property in or near an evacuated zone may retain Compensation Fund coverage for damage but suffer material market-value loss with no compensation pathway. (Magnitude of the value loss is not publicly indexed during the active-conflict period — verify against Tax Authority transaction data for the specific locality.)
 
-### War footing — current status (as of May 2026)
+### War footing — current status (as of July 2026)
 
-- **Israel-Hamas (Gaza) war**: started 7 October 2023; ongoing operations as of May 2026; Otef Aza (Gaza envelope, ~30 km radius) communities partially repopulated, partial reconstruction.
-- **Israel-Hezbollah (Lebanon)**: hostilities September–November 2024; ceasefire 27 November 2024 (verify currency at Israeli Ministry of Foreign Affairs `https://www.gov.il/he/departments/ministry_of_foreign_affairs`); Northern border evacuees gradually returning.
+- **Israel-Hamas (Gaza) war**: started 7 October 2023; a **fragile US-brokered ceasefire (the "Yellow Line")** has held since October 2025, though the IDF continued expanding control beyond the Yellow Line as of July 2026 (Democracy Now, 2026-07-01); Otef Aza (Gaza envelope, ~30 km radius) communities partially repopulated, partial reconstruction.
+- **Israel-Hezbollah (Lebanon)**: hostilities September–November 2024; ceasefire 27 November 2024 (verify currency at Israeli Ministry of Foreign Affairs `https://www.gov.il/he/departments/ministry_of_foreign_affairs`); the ceasefire held until hostilities with Hezbollah resumed during the 2026 Iran war (Britannica); Northern border evacuees gradually returning.
+- **Israel-Iran wars**: two direct wars — the **June 2025 "12-Day War"** (Israel struck Iranian nuclear/military sites from 13 June 2025; Al Jazeera) and a **2026 Iran war** (Feb–Apr 2026 escalation; two-week ceasefire announced 7 April 2026; Wikipedia). Iranian **ballistic-missile strikes caused heavy damage to Israeli residential property** (e.g. Kiryat Ata near Haifa; Bloomberg) and are the **dominant driver of war-damage claims** — nearly 10,000 property-damage claims by the second day of the June 2025 war, and 9,115 missile-damage claims after 11 days of the 2026 fighting (Globes, 2026-03-10).
 - **Houthi (Yemen) missile/UAV strikes**: intermittent strikes against central Israel through 2024–2026; air defense generally effective; occasional impacts.
-- **Insurance market**: many private insurers reduced or excluded war-coverage riders; **Karnit central** for war-damage compensation; private insurance covers theft, fire, earthquake (separate framework), water damage. Verify with Israel Insurance Association `https://www.iia.org.il/` and your private carrier.
+- **Insurance market**: many private insurers reduced or excluded war-coverage riders; **Compensation Fund central** for war-damage compensation; private insurance covers theft, fire, earthquake (separate framework), water damage. Verify with Israel Insurance Association `https://www.iia.org.il/` and your private carrier.
 
 ### Mortgage / financing for non-residents
 
@@ -133,14 +134,14 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 3. **Rishum Mekarkein** — alternate registry for some pre-1969 unsettled parcels (`רישום מקרקעין לא מוסדרים`); attorney must check both.
 4. **Building permit + completion certificate (היתר בנייה + טופס 4)** — issued by the local municipality; verifies the structure was legally built and inhabitable. Unauthorized additions (חריגות בנייה) are extremely common and **not always visible at viewing** — request the hetter and Form 4 directly from municipality.
 5. **Tabu rights map (תשריט)** + RMI parcel map — surveyed boundaries; commission a licensed surveyor (`מודד מוסמך`) for boundary verification on rural parcels.
-6. **Karnit / war-damage history** — for properties in or near border zones (Otef Aza, Galilee, Golan), check claim history with the seller and request a Karnit clearance. Damage history affects market value and future insurability.
+6. **War-damage history** — for properties in or near border zones (Otef Aza, Galilee, Golan), check claim history with the seller and request a Compensation Fund clearance. Damage history affects market value and future insurability.
 7. **Va'ad Bayit / building committee balance** — for apartments under condominium (Bait Meshutaf / בית משותף) regime, request statement of arrears and reserve fund (קרן שיקום).
 8. **Licensed Israeli real-estate attorney (עורך דין מקרקעין)** — the buyer's attorney is legally responsible for verifying clean title and registering the transfer; standard fee 0.5–2% + VAT (currently 18% as of January 2025; verify at Tax Authority).
 9. **Licensed appraiser (שמאי מקרקעין)** — independent valuation, especially for non-residents; ~ILS 3,000–8,000 typical.
 
 ### Confidence
 
-**HIGH** for legal framework (Land Taxation Law, RMI structure, Karnit framework, mortgage LTV limits — all primary statutes published in Reshumot / `https://www.gov.il/`). **MEDIUM** for current bracket numbers (annual indexation; verify at signing). **MEDIUM** for war-zone insurability (private market disrupted post-Oct 2023; conditions evolving).
+**HIGH** for legal framework (Land Taxation Law, RMI structure, Compensation Fund framework, mortgage LTV limits — all primary statutes published in Reshumot / `https://www.gov.il/`). **MEDIUM** for current bracket numbers (annual indexation; verify at signing). **MEDIUM** for war-zone insurability (private market disrupted post-Oct 2023; conditions evolving).
 
 ---
 
@@ -334,7 +335,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 ### Future risk
 
 - **Annual bracket indexation in mid-January** can shift thresholds materially.
-- **Wartime emergency tax orders** since October 2023 have included temporary purchase-tax adjustments and Karnit-funding surcharges; verify currency at signing.
+- **Wartime emergency tax orders** since October 2023 have included temporary purchase-tax adjustments and Compensation Fund-funding surcharges; verify currency at signing.
 - **Periodic political proposals** to raise non-resident Mas Rechisha (most recently discussed 2024) — not enacted as of May 2026.
 - **Heitel Hashbacha enforcement** strengthening — many municipalities catching up on uncollected betterment levies.
 
@@ -423,7 +424,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 | Source | URL | What it gives |
 |---|---|---|
 | **Home Front Command (פיקוד העורף, Pikud HaOref)** | `https://www.oref.org.il/` | Missile/rocket alert zones, shelter (Mamad / ממ"ד / Merhav Mugan Dirati) requirements, war-zone designations |
-| **Karnit / Property Tax Compensation Fund** | `https://www.gov.il/he/departments/karnit_property_tax_and_compensation_fund_for_road_accident_victims` + `https://www.misim.gov.il/` | War-damage compensation; published claim volumes |
+| **Property Tax Compensation Fund (Israel Tax Authority)** | `https://www.gov.il/en/departments/topics/compensation_fund` + `https://www.misim.gov.il/` | War-damage compensation; published claim volumes |
 | **Geological Survey of Israel (GSI / מכון הסקר הגיאולוגי)** | `https://www.gsi.gov.il/` | Earthquake hazard maps, landslide registry, geology |
 | **Israel Building Code SI 413 + Standards Institute** | `https://www.sii.org.il/` | Earthquake-resistant building standards |
 | **Ministry of Environmental Protection (המשרד להגנת הסביבה)** | `https://www.gov.il/he/departments/ministry_of_environmental_protection` | Air quality, contamination, environmental hazards |
@@ -441,10 +442,11 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 ### Missile / rocket / war-damage risk
 
-- **Karnit-covered** (state-funded compensation for direct property damage) — see Foreign-buyer section above.
+- **Compensation Fund-covered** (state-funded compensation for direct property damage) — see Foreign-buyer section above.
 - **Mamad (מ.מ.ד / shelter room)**: mandatory in all new residential construction since 1992 (Civil Defense Law 5711-1951 amendment). Pre-1992 buildings have public shelters (`מקלט ציבורי`) within 90 seconds run.
-- **Otef Aza (Gaza envelope)**: ~30 km radius around Gaza Strip; active rocket/missile/UAV threat October 2023–ongoing. Karnit claim volumes have run into tens of billions ILS since Oct 2023.
-- **Northern border (Galilee + Golan)**: Hezbollah hostilities Sep–Nov 2024; ceasefire Nov 2024; partial repopulation as of May 2026.
+- **Otef Aza (Gaza envelope)**: ~30 km radius around Gaza Strip; active rocket/missile/UAV threat from October 2023 until the fragile US-brokered October 2025 Gaza ceasefire (the "Yellow Line"); IDF operations continued past the Yellow Line as of July 2026 (Democracy Now, 2026-07-01). Compensation Fund claim volumes have run into tens of billions ILS since Oct 2023.
+- **Northern border (Galilee + Golan)**: Hezbollah hostilities Sep–Nov 2024; ceasefire Nov 2024 (held until hostilities resumed during the 2026 Iran war — Britannica); partial repopulation as of July 2026.
+- **Iranian ballistic-missile strikes**: two Israel-Iran wars — the June 2025 "12-Day War" and a 2026 Iran war (ceasefire 7 April 2026) — hit Israeli residential property directly and are the dominant driver of war-damage claims (nearly 10,000 claims by day two of the June 2025 war; 9,115 after 11 days of the 2026 fighting — Globes, 2026-03-10; ~1M cumulative war-damage claims across all fronts by April 2026 — Bloomberg, 2026-04-17). Heavy damage documented at Kiryat Ata near Haifa (Bloomberg).
 - **Central Israel** (Tel Aviv–Gush Dan, Jerusalem corridor): Houthi (Yemen) UAV/missile strikes intermittent through 2024–2026; Iron Dome / Arrow / David's Sling intercept rates high but not 100%.
 
 ### Flood / wadi / flash-flood risk
@@ -577,8 +579,8 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 
 - **State-land monopoly (~93%)**: most "sales" are technically lease transfers (with or without Heskem Hadash conversion). Always verify Tabu + RMI lease status.
 - **JNF restriction litigation**: ongoing legal contestation; non-Jewish buyers face the swap mechanism; watch HCJ rulings.
-- **Karnit caps**: war-damage compensation has caps tied to property tax-assessed value, NOT market value — coverage gap can be material on premium properties.
-- **Land devaluation NOT compensated**: Otef Aza / Northern border properties may retain Karnit cover for damage but suffer material market-value loss (magnitude not publicly indexed) with no compensation pathway.
+- **Compensation Fund caps**: war-damage compensation has caps tied to property tax-assessed value, NOT market value — coverage gap can be material on premium properties.
+- **Land devaluation NOT compensated**: Otef Aza / Northern border properties may retain Compensation Fund cover for damage but suffer material market-value loss (magnitude not publicly indexed) with no compensation pathway.
 - **Settlement / Area C / East Jerusalem / Golan deeds**: international-law status disputed; some parcels registered under Jordanian or Ottoman pre-1967 systems; specialist counsel mandatory; foreign-buyer reputational risk consideration (some EU jurisdictions caution against settlement-area transactions).
 - **Bedouin unrecognized villages (Negev)**: ~30–50 villages lack formal recognition + infrastructure + Tabu titles — extreme caution.
 - **Tabu vs RMI dual system**: parcel must be verified in BOTH; pre-1969 unsettled parcels (`לא מוסדר`) need attorney verification.
@@ -587,7 +589,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 - **TAMA 38 sunset 2022**: existing pipeline projects continue under transitional rules; new earthquake retrofit under local outline plans + TAMA 70.
 - **Bituach Leumi (national insurance)**: foreign property owners renting out to Israeli tenants may incur bituach leumi exposure if classified as business activity — verify with Israeli accountant.
 - **AML / source-of-funds**: Anti-Money Laundering Order 5761-2000 mandates KYC by attorneys + banks; non-resident buyers should expect comprehensive source-of-funds documentation requests.
-- **Wartime emergency tax orders**: temporary purchase-tax + Karnit-funding adjustments since October 2023; verify at signing.
+- **Wartime emergency tax orders**: temporary purchase-tax + Compensation Fund-funding adjustments since October 2023; verify at signing.
 
 ## Reddit / forum sources
 
@@ -608,7 +610,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 | **RMI / Israel Land Authority (רשות מקרקעי ישראל)** | State-lease verification, Heskem Hadash eligibility, lease consent |
 | **Local municipality (עיריה / מועצה)** | Building permit (heter), Form 4, Arnona clearance, Heitel Hashbacha clearance, TBA (תב"ע) plans, Mamad status, unauthorized additions |
 | **Israel Tax Authority (רשות המסים)** | Mas Rechisha brackets, Mas Shevach calculation, transaction registration, real estate transactions database |
-| **Karnit / Property Tax Compensation Fund** | War-damage history check on property; future claim guidance |
+| **Property Tax Compensation Fund (Israel Tax Authority)** | War-damage history check on property; future claim guidance |
 | **Bank of Israel (בנק ישראל)** | FX, mortgage LTV regulations, financial stability |
 | **CBS (Central Bureau of Statistics)** | Dwelling price index, rental index, neighborhood statistics |
 | **Home Front Command (פיקוד העורף)** | Missile-zone designation, Mamad requirements |
@@ -629,7 +631,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 - **Mamad (shelter room) mandatory in new builds since 1992**: verify presence + functional status; older buildings rely on stairwell or public shelters.
 - **Energy rating (דירוג אנרגטי) mandatory for new builds since 2017**: verify rating certificate.
 - **Asbestos pre-1990 likely**: licensed removal under Asbestos Hazards Prevention Law 5771-2011.
-- **Bituach Dira (apartment insurance)**: typically covers structure + contents + earthquake (verify rider); war-damage routes through Karnit instead.
+- **Bituach Dira (apartment insurance)**: typically covers structure + contents + earthquake (verify rider); war-damage routes through the Property Tax Compensation Fund instead.
 - **Non-resident bank-account opening**: Israeli banks comply with FATCA + CRS; expect detailed source-of-funds documentation; allow weeks for account setup.
 - **VAT 18% on services** (effective 1 January 2025): attorney + broker + appraiser fees all subject to VAT.
 - **Vacation home / second-home rules**: a property declared as the buyer's "single home" (`דירה יחידה`) gets the discounted Israeli-resident purchase-tax scale — non-residents cannot claim this; foreign buyers always pay the investor scale.
@@ -647,8 +649,8 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 | CBS dwelling price index | `https://www.cbs.gov.il/he/subjects/Pages/מחירי-דירות.aspx` |
 | Bank of Israel financial stability | `https://www.boi.org.il/en/communication-and-publications/regular-publications/financial-stability/` |
 | Bank of Israel FX | `https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/` |
-| Karnit fund | `https://www.gov.il/he/departments/karnit_property_tax_and_compensation_fund_for_road_accident_victims` |
-| Misim Karnit portal | `https://www.misim.gov.il/` |
+| Property Tax Compensation Fund | `https://www.gov.il/en/departments/topics/compensation_fund` |
+| Misim Compensation Fund portal | `https://www.misim.gov.il/` |
 | Aliyah & Integration | `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` |
 | Construction & Housing | `https://www.gov.il/he/departments/ministry_of_construction_and_housing` |
 | Home Front Command | `https://www.oref.org.il/` |
@@ -668,16 +670,16 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: foreign-buyer eligibility, pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for legal framework (Land Code via Reshumot; RMI structure via gov.il; Karnit via primary statute; Mas Rechisha brackets via Tax Authority — all primary state agencies). MEDIUM for current bracket numerical values (annual indexation 16 January; verify at signing). MEDIUM for war-zone insurability and Otef Aza / Northern-border pricing (active conflict period; data thin). LOW for settlement-area / disputed-jurisdiction deeds (specialist counsel mandatory; not commodity due-diligence).
+**Confidence**: HIGH for legal framework (Land Code via Reshumot; RMI structure via gov.il; Property Tax Compensation Fund via primary statute; Mas Rechisha brackets via Tax Authority — all primary state agencies). MEDIUM for current bracket numerical values (annual indexation 16 January; verify at signing). MEDIUM for war-zone insurability and Otef Aza / Northern-border pricing (active conflict period; data thin). LOW for settlement-area / disputed-jurisdiction deeds (specialist counsel mandatory; not commodity due-diligence).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-07-02
 
 ## Extension TODOs (deepen on first real run)
 
 - [ ] Per-municipality Arnona rate scrape (top 50 cities — each publishes annual `חוק עזר ארנונה`)
 - [ ] Tax Authority real-estate transactions database walkthrough — automate per-street comp pulls
 - [ ] Heskem Hadash eligibility heatmap by RMI district
-- [ ] Karnit claim-volume timeseries since Oct 2023 (from official publications)
+- [ ] Compensation Fund claim-volume timeseries since Oct 2023 (from official publications)
 - [ ] TAMA 38 / TAMA 70 successor-plan tracking by city
 - [ ] Bedouin unrecognized villages registry + due-diligence workflow
 - [ ] East Jerusalem / Golan / settlement deed-system primer

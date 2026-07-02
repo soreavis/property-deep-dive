@@ -186,8 +186,10 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04).
 #### Athens license freeze
 
 - **From 1 Jan 2025**: NO new STR licenses in **1st, 2nd, 3rd municipal districts of Athens** (Plaka, Syntagma, Monastiraki, Koukaki, Exarchia, Pangrati area)
-- Existing licenses keep operating
-- **Extended through 2026**
+- Existing licenses keep operating — **two-tier market**: properties without an AMA by 31 Dec 2024 cannot operate STR at all in 2025-2026; pre-2024-12-31 hosts continue
+- **Extended through 31 Dec 2026** by Joint Ministerial Decision (Min. Finance / Development / Tourism)
+- **Under legal challenge — not settled**: STAMA Greece + a 3rd-district property owner filed a Council of State annulment petition against the extension (Mar 2026); no ruling as of Jul 2026, outcome expected to set nationwide precedent (2026-07-02, news-tier: [eKathimerini](https://www.ekathimerini.com/economy/real-estate/1298502/) + [BnBNews](https://bnbnews.gr/en/legislation/36901/stama-appeal-council-of-state-athens-short-term-rentals))
+- **Resale risk — AMA deleted on transfer** (reported effective ~1 Jul 2026; enactment not independently confirmed): in the restricted central zones, **selling / donating / parental-transferring** an AMA-carrying flat deletes its AMA, so the **new owner cannot operate it as an STR** — a "ready-Airbnb" flat's STR right does NOT pass to a buyer. Inheritance treatment **DISPUTED across sources** (26 Jan 2026 ANA report: inheritance also deletes AMA; 23 Jun 2026 Greek City Times: inheritance exempt). Measure contested by POMIDA + STAMA (2026-07-02, news-tier: [Greek City Times 23 Jun 2026](https://greekcitytimes.com/2026/06/23/airbnb-new-rules-greece-july-1-2026-short-term-rentals) + [GTP 15 Jun 2026](https://news.gtp.gr/2026/06/15/greeces-plan-to-remove-short-term-rental-registrations-after-property-transfers-sparks-reactions) + [GTP/ANA 26 Jan 2026](https://news.gtp.gr/2026/01/26/short-term-rentals-in-greece-new-restrictions-take-effect-in-2026))
 
 #### Cyclades / oversaturated regions
 
@@ -197,8 +199,8 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04).
 #### Law 5170/2025 (effective 1 Oct 2025)
 
 - STR ONLY on properties with **"primary use" status** (not commercial, not basement)
-- Mandatory: natural lighting, liability insurance, fire safety, certifications
-- Fines up to **€5,000**
+- Mandatory (Law 5170/2025 **Art. 3**, ΦΕΚ Α' 6/20.01.2025, via [Min. Tourism circular 19231/19.09.2025](https://mintour.gov.gr/wp-content/uploads/2025/09/%CE%A86%CE%9B%CE%98465%CE%A7%CE%98%CE%9F-%CE%93%CE%9F7.pdf); 2026-07-02 verified): natural lighting, civil-liability insurance (Greek-licensed insurer), electrician safety declaration, fire extinguisher, smoke detectors, RCD/anti-electrocution relay, escape signage, pest-control + first-aid
+- Fines: **€5,000** first breach → **€10,000** on repeat within a year → **€20,000** thereafter (collected under KEDE) (2026-07-02 verified, source [GTP Headlines](https://news.gtp.gr/2025/09/25/greece-introduces-new-rules-for-short-term-rentals-from-october-1/))
 - AADE cross-checks **AMA (Property Registration Number)** — non-compliant listings auto-deleted from Airbnb/Booking/Vrbo
 
 #### AMA (Arithmos Mitroou Akiniton)
@@ -394,7 +396,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04).
 - **Authairesia (unauthorized construction)** widespread — Mihaniki Vevaiosi mandatory; amnesty regimes (L.4014/2011, L.4178/2013, L.4495/2017)
 - **Antikeimeniki Axia** ≠ market value (often 40-60% below)
 - **Mihaniki Vevaiosi** required for ALL sales since 2011
-- **Athens STR license freeze** in central districts since 1 Jan 2025; extended through 2026
+- **Athens STR license freeze** in central districts since 1 Jan 2025; **extended through 31 Dec 2026** — under Council of State annulment challenge (no ruling as of Jul 2026), and a reported ~1 Jul 2026 rule **deletes a flat's AMA on sale/donation/parental transfer** in the frozen zones (inheritance treatment disputed), so a "ready-Airbnb" resale premium may not pass to the buyer — see `--rental`
 - **Cyclades 30% bed cap** announced April 2026
 - **Mykonos + Santorini building permit freeze** through 31 Dec 2026 (Special Urban Plans pending)
 - **Santorini caldera zone**: no new builds, additions, pools, water infrastructure on Thera/Thirassia
