@@ -16,65 +16,93 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
+    env:
+      # Property-relevant keywords (case-insensitive, word-anchored). Tune over time.
+      KEYWORDS: 'property|real estate|housing|EPBD|short-let|short term rental|cadastre|land registry|stamp duty|transfer tax|capital gains|golden visa|residency|citizenship|mortgage|notary|landlord|tenancy|rental cap'
+      # `property` alone matches "intellectual property" across the EU press feeds.
+      EXCLUDE: 'intellectual property'
+      # Feeds hold 10-25 items and are polled daily; without this window every poll
+      # re-reports the same items and opens a duplicate issue.
+      WINDOW_DAYS: '3'
+
     steps:
       - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0
+
+      - name: Unit tests — feed filter
+        run: python3 scripts/filter-feeds-test.py
 
       - name: Fetch and filter regulatory feeds
         id: feeds
         run: |
           set -euo pipefail
           mkdir -p _ci
-
-          # Property-relevant keywords (case-insensitive). Tune over time.
-          KEYWORDS='property|real estate|housing|EPBD|short-let|short term rental|cadastre|land registry|stamp duty|transfer tax|capital gains|golden visa|residency|citizenship|mortgage|notary|landlord|tenancy|rental cap'
-
           : > _ci/matches.txt
+          : > _ci/dead-feeds.txt
+
+          ok=0
+          total=0
 
           fetch_and_filter() {
             local name="$1" url="$2"
-            curl -fsSL --max-time 15 \
-              -H "User-Agent: property-deep-dive-ci/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
-              "$url" -o "_ci/${name}.xml" || { echo "  (failed to fetch $name)"; return 0; }
-            # Extract <title> + <link> pairs, filter on keywords
-            python3 - "$name" "_ci/${name}.xml" "$KEYWORDS" >> _ci/matches.txt <<'PY'
-          import re, sys
-          name, path, kw = sys.argv[1], sys.argv[2], sys.argv[3]
-          with open(path, 'r', encoding='utf-8', errors='ignore') as f:
-              xml = f.read()
-          # Crude RSS/Atom item parser
-          items = re.findall(r'<item[^>]*>(.*?)</item>|<entry[^>]*>(.*?)</entry>', xml, re.DOTALL | re.IGNORECASE)
-          pat = re.compile(kw, re.IGNORECASE)
-          for it in items:
-              chunk = it[0] or it[1]
-              tm = re.search(r'<title[^>]*>(.*?)</title>', chunk, re.DOTALL | re.IGNORECASE)
-              lm = re.search(r'<link[^>]*>(.*?)</link>|<link[^>]*href="([^"]+)"', chunk, re.IGNORECASE)
-              if not tm: continue
-              title = re.sub(r'<[^>]+>', '', tm.group(1)).strip()
-              title = re.sub(r'\s+', ' ', title)
-              if not pat.search(title):
-                  continue
-              link = ''
-              if lm:
-                  link = (lm.group(1) or lm.group(2) or '').strip()
-              print(f"- **[{name}]** {title}")
-              if link:
-                  print(f"  - <{link}>")
-          PY
+            # Separate statement: bash expands every word of `local` before it
+            # assigns any, so `xml="_ci/${name}.xml"` here would read an unbound
+            # `name` and abort under `set -u`.
+            local xml="_ci/${name}.xml"
+            total=$((total + 1))
+
+            if ! curl -fsSL --max-time 20 --retry 3 --retry-delay 2 \
+                 -H "User-Agent: property-deep-dive-ci/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
+                 -H 'Accept: application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8' \
+                 "$url" -o "$xml"; then
+              echo "::warning title=Feed unreachable::${name} could not be fetched — ${url}"
+              echo "- \`${name}\` — unreachable (<${url}>)" >> _ci/dead-feeds.txt
+              return 0
+            fi
+
+            # Exit 2 = well-formed but zero items, i.e. a retired feed still
+            # serving HTTP 200 (EUR-Lex did exactly this, undetected, for months).
+            if ! python3 scripts/filter-feeds.py \
+                 --name "$name" --path "$xml" \
+                 --keywords "$KEYWORDS" --exclude "$EXCLUDE" --window-days "$WINDOW_DAYS" \
+                 >> _ci/matches.txt; then
+              echo "::warning title=Feed unusable::${name} returned no parseable items — retired or soft-404 — ${url}"
+              echo "- \`${name}\` — no parseable items (<${url}>)" >> _ci/dead-feeds.txt
+              return 0
+            fi
+
+            ok=$((ok + 1))
           }
 
-          # Curated feeds. Add more as you discover them.
-          fetch_and_filter "EU-OJ-L"  "https://eur-lex.europa.eu/EN/display-feed.rss?myRssId=oj-l-en" || true
-          fetch_and_filter "ECJ-PR"   "https://curia.europa.eu/jcms/upload/docs/application/xml/2024-01/cp_en.xml" || true
-          fetch_and_filter "OECD-Tax" "https://www.oecd.org/tax/feed/" || true
+          # Curated primary-source feeds, all verified live 2026-07-09.
+          # Removed the same day, all three silently dead:
+          #   EU-OJ-L   eur-lex.europa.eu/EN/display-feed.rss — HTTP 200 + "The RSS feed
+          #             doesn't exist or is no longer valid"; EUR-Lex now gates RSS behind
+          #             a signed-in account. EP-Adopted covers the legislation signal.
+          #   ECJ-PR    curia.europa.eu/.../2024-01/cp_en.xml — HTTP 404; the Court moved
+          #             its feed to site/rss.jsp (see CJEU-PR below).
+          #   OECD-Tax  oecd.org/tax/feed/ — HTTP 403; oecd.org blocks non-browser clients
+          #             host-wide (the bare homepage 403s too), so no path is CI-reachable.
+          fetch_and_filter "EC-Press"   "https://ec.europa.eu/commission/presscorner/api/rss?language=en"
+          fetch_and_filter "EP-Press"   "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml"
+          fetch_and_filter "EP-Adopted" "https://www.europarl.europa.eu/rss/doc/texts-adopted/en.xml"
+          fetch_and_filter "CJEU-PR"    "https://curia.europa.eu/site/rss.jsp?lang=en&secondLang=fr"
+
+          {
+            echo "### Feed watcher — ${ok}/${total} feeds healthy"
+            [ -s _ci/dead-feeds.txt ] && { echo; echo "**Dead feeds:**"; cat _ci/dead-feeds.txt; }
+          } >> "$GITHUB_STEP_SUMMARY" || true
 
           if [ -s _ci/matches.txt ]; then
             echo "found_matches=true" >> "$GITHUB_OUTPUT"
-            head -20 _ci/matches.txt
+            head -40 _ci/matches.txt
           else
             echo "found_matches=false" >> "$GITHUB_OUTPUT"
-            echo "(no property-relevant items in last poll)"
+            echo "(no property-relevant items in last poll — ${ok}/${total} feeds healthy)"
           fi
+
+          echo "feeds_ok=${ok}" >> "$GITHUB_OUTPUT"
+          echo "feeds_total=${total}" >> "$GITHUB_OUTPUT"
 
       - name: Upload feed snapshot
         if: steps.feeds.outputs.found_matches == 'true'
@@ -91,9 +119,12 @@ jobs:
           script: |
             const fs = require('fs');
             const matches = fs.readFileSync('_ci/matches.txt', 'utf-8');
+            const dead = fs.readFileSync('_ci/dead-feeds.txt', 'utf-8').trim();
             const date = new Date().toISOString().slice(0, 16).replace('T', ' ');
             const body = [
               `Property-relevant items detected in the last feed poll (${date} UTC).`,
+              ``,
+              `Coverage: ${{ steps.feeds.outputs.feeds_ok }}/${{ steps.feeds.outputs.feeds_total }} feeds healthy.`,
               ``,
               `**Triage steps**:`,
               `1. Read each item; rate impact tier (1=CRITICAL/30d revisit ... 4=INCREMENTAL).`,
@@ -103,6 +134,7 @@ jobs:
               `## Matches`,
               ``,
               matches,
+              ...(dead ? [``, `## ⚠️ Degraded coverage`, ``, dead] : []),
             ].join('\n');
             await github.rest.issues.create({
               owner: context.repo.owner,
@@ -111,3 +143,18 @@ jobs:
               body,
               labels: ['maintenance', 'regulatory-watch'],
             });
+
+      # Runs last so a dead feed still lets the matches above reach an issue.
+      # A silently-swallowed fetch failure is what let all three original feeds
+      # rot to 404/403/soft-404 while the job reported green every day.
+      - name: Fail if any feed is dead
+        if: always() && steps.feeds.outcome == 'success'
+        run: |
+          set -euo pipefail
+          if [ -s _ci/dead-feeds.txt ]; then
+            dead=$(grep -c '' _ci/dead-feeds.txt)
+            echo "::error title=Dead regulatory feeds::${dead} of ${{ steps.feeds.outputs.feeds_total }} feeds are dead — fix the URL or drop the source"
+            cat _ci/dead-feeds.txt
+            exit 1
+          fi
+          echo "All ${{ steps.feeds.outputs.feeds_total }} feeds healthy."
