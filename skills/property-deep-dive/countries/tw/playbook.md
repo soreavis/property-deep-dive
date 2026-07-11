@@ -26,8 +26,8 @@ ISO2: `tw`. Status: ✅ Fully populated (researched 2026-05).
 - **Recent reforms**:
   - **房地合一稅 2.0** (Real-Estate Combined Tax 2.0) — effective 2021-07-01 (Income Tax Act §4-4, §14-4 to §14-8). Tightens short-term holding penalty (45 % <2 yrs / 35 % 2–5 yrs / 20 % 5–10 yrs / 15 % >10 yrs), closes profit-via-corporation loopholes, applies to land + building combined gain. ([MoF source](https://www.mof.gov.tw/multiplehtml/2074))
   - **房屋稅 2.0** (House Tax 2.0) — effective 2024-07-01 (taxable from FY2025, first bills May 2025). 多屋族 (multi-home owners) taxed 2.0–4.8 % on non-self-use, nationally aggregated (was 1.5–3.6 % with per-municipality counting). Self-use cap ≤3 homes nationwide at 1.0–1.2 %. ([MoF source](https://www.mof.gov.tw/house/multiplehtml/41e7424fa26e4d41905ed1800fd9fabc); [Act amendment 2023-12-19](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340054))
-  - **平均地權條例修正** (Equalization of Land Rights Act amendment) — effective 2023-07-01. Tightens 預售屋 (pre-sale) contract transfer (assignment of pre-sale unit now requires application + restricted to limited grounds), introduces 私法人 (private legal entity) residential-purchase approval requirement, fines 100 K – 5 M TWD for hoarding/false advertising. ([MOI source](https://www.moi.gov.tw/News_Content.aspx?n=4&s=288471))
-  - **臺灣地區與大陸地區人民關係條例 §69** — PRC nationals' real-estate ownership: case-by-case 內政部 approval; max 1 residential per person; 5-year hold/sale lock; banned in defense-sensitive zones. Tightened review since 2024. ([MOI source](https://www.moi.gov.tw/cl.aspx?n=11567))
+  - **平均地權條例修正** (Equalization of Land Rights Act amendment) — effective 2023-07-01. Tightens 預售屋 (pre-sale) contract transfer (assignment of pre-sale unit now requires application + restricted to limited grounds), introduces 私法人 (private legal entity) residential-purchase approval requirement, fines 100 K – 5 M TWD for hoarding/false advertising. ([MOI source](https://www.moi.gov.tw/News_Content.aspx?n=4&s=281267))
+  - **臺灣地區與大陸地區人民關係條例 §69** — PRC nationals' real-estate ownership: case-by-case 內政部 approval; max 1 residential per person; 5-year hold/sale lock; banned in defense-sensitive zones. Tightened review since 2024. ([MOI source](https://www.moi.gov.tw/News_Content.aspx?n=8&s=14670))
   - **氣候變遷因應法 (Climate Change Response Act)** — effective 2023-02-15, replacing 溫室氣體減量及管理法. Net Zero 2050 statutory goal; 碳費 (carbon fee) collection from 2024; relevant to building energy code (建築技術規則 has been progressively tightening insulation + façade requirements). ([Climate Change Response Act — MOJ law database](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=O0020098))
 
 ## Section: `--price`
@@ -177,7 +177,7 @@ Base: 房屋現值 (assessed house value) — set by 直轄市/縣市 不動產�
 | **私人醫院/事務所** | 1.5–2.0 % |
 | **建商餘屋** (developer leftover, ≤2 yrs) | reduced 2.0 % cap; >2 yrs → standard non-self-use rate (this clause closed the developer-hoarding loophole) |
 
-Source: [財政部 — 房屋稅2.0](https://www.mof.gov.tw/htmlList/103), [房屋稅條例 (latest 2023-12-19)](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340054).
+Source: [財政部 — 房屋稅2.0](https://www.mof.gov.tw/htmlList/103), [房屋稅條例 (latest 2023-12-19)](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340102).
 
 ### Example calculations (worked, transparent inputs)
 

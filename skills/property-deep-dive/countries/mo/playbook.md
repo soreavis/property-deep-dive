@@ -12,13 +12,13 @@ ISO2: `mo`. Status: ✅ Fully populated (researched 2026-05).
 - **Admin levels**: 1 SAR → **7 freguesias / 堂區** (5 on Macao Peninsula: Sé / São Lázaro / Santo António / São Lourenço / Nossa Senhora de Fátima; Nossa Senhora do Carmo on Taipa; São Francisco Xavier on Coloane); plus **Cotai reclamation** (administratively Taipa/Coloane). Municipal services consolidated under [IAM / 市政署](https://www.iam.gov.mo/) since 2019
 - **Cadastre**: **Conservatória do Registo Predial (CRP) / 物業登記局** under [DSAJ — Direcção dos Serviços de Assuntos de Justiça / 法務局](https://www.dsaj.gov.mo/) — title-by-deeds register (Portuguese-derived civil-law); governed by [Código do Registo Predial — DL 46/99/M](https://bo.io.gov.mo/)
   - Cadastral mapping: **DSCC — Direcção dos Serviços de Cartografia e Cadastro / 地圖繪製暨地籍局** — `https://www.dscc.gov.mo/`
-- **Identifier**: artigo matricial + freguesia + edifício + fracção autónoma; condominium under [Código Civil — DL 39/99/M Art. 1313+](https://bo.io.gov.mo/)
+- **Identifier**: artigo matricial + freguesia + edifício + fracção autónoma; condominium under [Código Civil — DL 39/99/M Art. 1313+](https://www.ihm.gov.mo/uploads/attachment/2022-05/1575862820491c59c2.pdf)
 - **Title concept**: **All land in Macao is state-owned** under [Lei de Terras / Land Law (Law 10/2013)](https://www.bo.dsaj.gov.mo/pt/legis/rec/151010) effective **1 March 2014**. Private holdings are **leasehold** via:
   - **Concessão por aforamento / 永佃權批給** — Portuguese-era perpetual leasehold (near-freehold; annual ground rent / foro)
   - **Concessão por arrendamento / 租賃批給** — typical 25-year initial, renewable 10-year periods, max 50 years (Law 10/2013 Art. 47–49)
   - Many "expired without development" concessions reclaimed by Government 2015–2024 (Pearl Horizon case among others)
 - **Foreign-buyer rule**: **Foreigners CAN purchase residential** with NO outright nationality bar, but face **Non-Resident Buyer Stamp Duty +10%** layered on standard stamp duty (see `--tax`). **NO golden-visa programme** in Macao
-- **Visa**: ❌ **NO investment-residence visa** since the **Investment Residence Scheme (Order 7/2007 / Despacho do Chefe do Executivo n.º 7/2007) was suspended 2 April 2007** (verified via [Boletim Oficial archive](https://bo.io.gov.mo/) + DSI) and **NOT reactivated**. The new **Talent Programme (人才引進制度)** launched 2024 under [DSAMB / 人才發展委員會](https://www.dsamb.gov.mo/) does NOT take property as qualifying criterion. HKID-holders entitled 1-yr residence; tourist 30/90 days
+- **Visa**: ❌ **NO investment-residence visa** since the **Investment Residence Scheme (Regulamento Administrativo n.º 3/2005) was suspended by Regulamento Administrativo n.º 7/2007, in force 4 April 2007** (verified via [Boletim Oficial — RA 7/2007](https://bo.dsaj.gov.mo/isapi/go.asp?d=rega-7-2007pt) + DSI) and **NOT reactivated**. The new **Talent Programme (人才引進制度)** launched 2024 under [DSAMB / 人才發展委員會](https://www.dsamb.gov.mo/) does NOT take property as qualifying criterion. HKID-holders entitled 1-yr residence; tourist 30/90 days
 - **Recent reforms (2024–2026)**:
   - **2018 cooling measures (Law 4/2018)**: Non-Resident Buyer Stamp Duty +10% + Resident second-property +5% — ⚠️ **still in force 2026**
   - **Jan 2023**: Casino concession renewal — 6 concessionaires (SJM / Galaxy / Wynn / MGM / Sands / Melco) for 10 yrs through 31 Dec 2032 ([DICJ](https://www.dicj.gov.mo/))
@@ -177,7 +177,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 
 ### Long-term residential
 
-- **Tenancy law**: [Código Civil](https://bo.io.gov.mo/) Art. 969+ (Lei do Arrendamento Urbano absorbed into Civil Code 1999); minimal statutory rent control
+- **Tenancy law**: [Código Civil](https://bo.dsaj.gov.mo/bo/i/99/31/codcivpt/indice_art.asp?printer=1) Art. 969+ (Locação — Art. 969.º Noção; Art. 970.º Arrendamento e aluguer; Lei do Arrendamento Urbano absorbed into Civil Code 1999); minimal statutory rent control
 - **Standard tenancy**: 2-year fixed term; 2-month security deposit + 1-month advance; 90-day renewal/termination notice
 - **Property Tax 8%** on actual gross rent paid by landlord (~7.2% effective with 10% maintenance deduction) — Law 19/2022, FY 2026 confirmed; see `--tax`
 - Utilities + management fee borne by tenant; rates by landlord typical

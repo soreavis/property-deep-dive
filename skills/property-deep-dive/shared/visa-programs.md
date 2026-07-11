@@ -50,7 +50,7 @@ Umbrella resource: [Your Europe — Residence formalities](https://europa.eu/you
 | 🇲🇹 MT | eRRU registration | Subsidiary Legislation 460.17 | [Identity Malta — Expatriates Unit](https://www.identita.gov.mt/) |
 | 🇳🇱 NL | Inschrijving BRP + verblijfsdocument EU/EER-burger | Vw 2000 | [IND — EU/EEA or Swiss nationals](https://ind.nl/en/residence-permits/eu-eea-or-swiss-citizens) |
 | 🇵🇱 PL | Zaświadczenie o zarejestrowaniu pobytu | Ustawa z 14 lipca 2006 | [Urząd do Spraw Cudzoziemców](https://www.gov.pl/web/udsc-en) |
-| 🇵🇹 PT | Certificado de Registo de Cidadão da União Europeia | Lei 37/2006 | [Câmara Municipal](https://www.aima.gov.pt/) (issued at municipal level) |
+| 🇵🇹 PT | Certificado de Registo de Cidadão da União Europeia | Lei 37/2006 | [Câmara Municipal](https://aima.gov.pt/pt/nacionais-ue-e-familiares/nacionais-ue/certificado-de-registo-para-nacionais-ue) (issued at municipal level) |
 | 🇷🇴 RO | Certificat de înregistrare | OUG 102/2005 | [IGI Inspectoratul General pentru Imigrări](https://www.igi.mai.gov.ro/en/) |
 | 🇸🇰 SK | Registrácia pobytu občana EÚ | Zákon 404/2011 Z. z. | [Ministerstvo vnútra SR — Cudzinecká polícia](https://www.minv.sk/?english=1) |
 | 🇸🇮 SI | Potrdilo o prijavi prebivanja | ZTuj-2 | [InfoTujci.si](https://infotujci.si/en/) |

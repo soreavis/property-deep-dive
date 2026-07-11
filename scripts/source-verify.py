@@ -146,6 +146,8 @@ class Value:
     norm: str
     needles: list[str] = field(default_factory=list)
     salient: bool = True
+    pos: int = 0       # char span of the token in its line (for nearest-link attribution)
+    end: int = 0
 
 
 def _thousands_stripped(d: str) -> str | None:
@@ -226,7 +228,7 @@ def extract_values(text: str) -> list[Value]:
                 # checkable figure; landing pages rarely restate it (2026-07 TOKENS_ABSENT FP
                 # class). Real statute numbers ("Law 7464", "Loi 2024-1039") keep salience.
                 sal = False
-            out.append(Value(type=vtype, raw=raw, norm=raw, needles=needles, salient=sal))
+            out.append(Value(type=vtype, raw=raw, norm=raw, needles=needles, salient=sal, pos=s, end=e))
 
     # Order matters: most specific first so their spans get reserved. Dates run BEFORE statutes
     # because STATUTE_RE is IGNORECASE and would otherwise read "Nov 2024" as "No." + "v 2024".
@@ -238,6 +240,32 @@ def extract_values(text: str) -> list[Value]:
     collect(MY_RE, "date", True, _date_needles)
     collect(STATUTE_RE, "statute", True, lambda r: _num_needles(r))
     collect(YEAR_RE, "year", False, _date_needles)
+    return out
+
+
+def attribute_values(values: list[Value], link_spans: list[tuple[int, int]]) -> list[list[Value]]:
+    """Assign each value token to the NEAREST citation on its line. On a single-link line every
+    token belongs to that link (the historical behavior). On a multi-link line — one long
+    paragraph carrying several claim+citation clauses — attributing every token to every link
+    makes each citation answer for its siblings' figures (2026-07 TOKENS_ABSENT FP class, the
+    largest: ~20% of that run's flags were same-line cross-attributions). Nearest edge distance;
+    ties go to the FOLLOWING link, because prose cites as "figure ([source](url))"."""
+    if len(link_spans) <= 1:
+        return [list(values)] if link_spans else []
+    out: list[list[Value]] = [[] for _ in link_spans]
+    for v in values:
+        best = None
+        for i, (ls, le) in enumerate(link_spans):
+            if ls < v.end and v.pos < le:
+                dist, follows = 0, 0          # token sits inside the link's own label
+            elif ls >= v.end:
+                dist, follows = ls - v.end, 0  # link follows the token
+            else:
+                dist, follows = v.pos - le, 1  # link precedes the token
+            key = (dist, follows, i)
+            if best is None or key < best[0]:
+                best = (key, i)
+        out[best[1]].append(v)
     return out
 
 
@@ -430,11 +458,17 @@ def extract_claims(
             sm = STAMP_RE.search(line)
             if sm:
                 stamp = {"date": sm.group(1), "kind": sm.group(2).lower().replace("re-verified", "verified")}
-            for lm in MD_LINK_RE.finditer(line):
+            links = list(MD_LINK_RE.finditer(line))
+            per_link = attribute_values(values, [lm.span() for lm in links])
+            for lm, link_values in zip(links, per_link):
                 url = lm.group("url").rstrip(".,;:)")
                 host = urlparse(url).netloc
                 tier = source_tier(host, allowlist)
                 if primary_only and tier is None:
+                    continue
+                # a link that owns no salient token on a multi-link line is a roster/nav
+                # co-citation — its sibling's figures are not its to substantiate
+                if len(links) > 1 and not any(v.salient for v in link_values):
                     continue
                 claim_text = _claim_sentence(line, lm.start(), sv.claim_window)
                 cid = f"{scope}:{line_no}:{hashlib.sha1(url.encode()).hexdigest()[:8]}"
@@ -444,7 +478,7 @@ def extract_claims(
                 claims.append(ClaimRecord(
                     id=cid, scope=scope, section=section or "(none)", line_no=line_no,
                     claim_text=claim_text,
-                    values=[asdict(v) for v in values],
+                    values=[asdict(v) for v in link_values],
                     source_url=url, source_host=host.lower(),
                     source_tier=tier or "secondary",
                     inline_stamp=stamp,

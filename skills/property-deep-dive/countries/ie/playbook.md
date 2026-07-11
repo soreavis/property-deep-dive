@@ -184,7 +184,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ### Future risk
 
 - **LPT 2026-2030** locked
-- **HTB scheme** extended through **31 December 2029** (Budget 2025) (2026-05-27 verified; source [Revenue.ie Help-to-Buy](https://www.revenue.ie/en/property/help-to-buy-incentive/index.aspx))
+- **HTB scheme** extended through **31 December 2029** (Budget 2025) (2026-05-27 verified; source [Revenue.ie Help-to-Buy — how much can you claim](https://www.revenue.ie/en/property/help-to-buy-incentive/how-much-can-you-claim.aspx))
 - **Stamp Duty** 6% above €1.5M relatively recent (2024)
 
 ---

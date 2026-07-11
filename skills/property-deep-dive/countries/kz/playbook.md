@@ -210,7 +210,7 @@ A Krisha listing: Almaty Bostandyk 70 m² 2-bedroom apartment, 2010 build, askin
 
 ### Capital gains tax (CGT) on sale
 
-Per Tax Code Art. 331 (current) + new Code 2026 carry-over (verify in [Adilet](https://adilet.zan.kz/eng/)):
+Per Tax Code Art. 331 (current) + new Code 2026 carry-over (verify in [Adilet — Tax Code, Art. 331](https://adilet.zan.kz/eng/docs/K1700000120)):
 - **Resident individual**, residential immovable held **≥ 2 years** from registration date: **EXEMPT** from PIT on gain — holding period raised from 1 year to 2 years by the new Tax Code for **properties acquired on/after 1 Jan 2026**; properties acquired ≤ 31 Dec 2025 keep the old **1-year** period (Krisha.kz 2026 rules explainer) (2026-07-03 verified)
 - **Held < 2 years** (< 1 year for pre-2026 acquisitions) AND sold at a gain: gain taxed at progressive PIT (10 % up to 8,500 MCI ≈ KZT 36.8 M for 2026, 15 % above). No gain → no tax regardless of holding period
 - **Non-resident individual** sale of KZ-located residential (any holding period): **15 % flat** on gross or net depending on whether buyer is a tax agent withholding (Tax Code Art. 644 + 645). 20 % rate if non-resident is from a tax-haven jurisdiction

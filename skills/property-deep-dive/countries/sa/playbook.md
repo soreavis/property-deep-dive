@@ -144,7 +144,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Trend 2022 → 2026
 
-- **Riyadh price index**: REGA RPPI shows sustained appreciation 2022–2025; Q4 2024 +10.6% YoY (residential), apartments +21% YoY [REGA Q4 2024 report](https://rega.gov.sa/en/Publications)
+- **Riyadh price index**: REGA RPPI shows sustained appreciation 2022–2025; the specific "Q4 2024 +10.6% residential / +21% apartments" figures are not retrievable on REGA's crawlable site (Publications page is a JS-only shell) — data not publicly available; verify current index at [REGA](https://srem.rega.gov.sa/) / GASTAT RPPI
 - **Jeddah**: more moderate +5–8% YoY 2024–2025
 - **Dammam/Khobar**: +3–6% YoY
 - **Drivers**: Vision 2030 employment migration, mega-project hiring (NEOM, Roshn), expat retention via Premium Residency, anticipated foreign-buyer reform (Jan 2025 → Jan 2026 effective)
@@ -380,7 +380,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 |---|---|---|
 | **Sandstorms / dust storms** | Recurrent; major events Mar-May + Oct-Nov | [National Center for Meteorology (NCM — المركز الوطني للأرصاد)](https://ncm.gov.sa/) |
 | **Extreme heat (T > 50°C)** | Annual occurrence Jun-Aug across most of country | NCM + IPCC AR6 Persian Gulf projections |
-| **Flash floods** | Documented major events: **Jeddah floods Nov 2009** (>120 deaths) + **Jeddah floods Jan 2011** + repeat 2021/2022 + **Mecca floods Jan 2023** | [NCEMP — National Center for Environmental Compliance](https://www.ncec.gov.sa/) + Civil Defence; SGS (Saudi Geological Survey) |
+| **Flash floods** | Documented major events: **Jeddah floods Nov 2009** (>120 deaths) + **Jeddah floods Jan 2011** + repeat 2021/2022 + **Mecca floods Jan 2023** | [Saudi Geological Survey (SGS — هيئة المساحة الجيولوجية)](https://www.sgs.org.sa/) + General Directorate of Civil Defence (الدفاع المدني) — flood-event dates per contemporaneous disaster records (verify at Civil Defence) |
 | **Drought + groundwater depletion** | Severe; Saudi aquifer crisis (Saq, Disi); agriculture water-policy reform 2016+ | [Ministry of Environment, Water & Agriculture (MEWA)](https://www.mewa.gov.sa/) |
 | **Seismicity** | **LOW-MODERATE**: Western Arabia (Red Sea Rift) M3-4 events common; **Riyadh + central low-risk**; **Tabuk + Madinah moderate** | [Saudi Geological Survey (SGS — هيئة المساحة الجيولوجية)](https://www.sgs.org.sa/) — National Center for Earthquakes & Volcanoes |
 | **Volcanic** | Western Saudi has **Quaternary volcanic fields (harrats)** — Harrat Khaybar, Harrat Rahat (Madinah), Harrat Lunayyir, Harrat al-Sham; **Madinah Harrat Rahat 1256 AD eruption** historical; **Lunayyir 2009 seismic-volcanic crisis** | SGS Volcano Hazard Maps |

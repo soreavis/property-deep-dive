@@ -294,7 +294,7 @@ RGD registration: ~LKR 5,000 (~USD 16)
 
 ### Short-term rentals (Airbnb / Booking)
 
-**Sri Lanka Tourism Development Authority (SLTDA) Act No. 38 of 2005**: all properties hosting **foreign tourists** for short stays must register with SLTDA. Source: [`https://www.sltda.gov.lk/en/register-with-us`](https://www.sltda.gov.lk/en/register-with-us); online portal [`https://eservices.sltda.gov.lk/ApplicationMain.aspx`](https://eservices.sltda.gov.lk/ApplicationMain.aspx).
+**Sri Lanka Tourism Development Authority (SLTDA) Act No. 38 of 2005**: all properties hosting **foreign tourists** for short stays must register with SLTDA. Source: [`https://www.sltda.gov.lk/en/about-us`](https://www.sltda.gov.lk/en/about-us) ("The Tourism Act No 38 of 2005 came into effect in October 2007, replacing the Sri Lanka Tourist Board Act No 10 of 1966"); online portal [`https://eservices.sltda.gov.lk/ApplicationMain.aspx`](https://eservices.sltda.gov.lk/ApplicationMain.aspx).
 
 **Registration categories** (relevant to private-villa/condo STR):
 - Tourist Hotel (5+ rooms with full service)

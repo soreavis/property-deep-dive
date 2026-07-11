@@ -260,7 +260,7 @@ Governed by the **Property Transfer Tax Act, Cap. 84A**. Administered by [BRA](h
 
 ### Stamp Duty — one-time at sale
 
-Governed by the **Stamp Duty Act, Cap. 91**. Administered by [BRA](https://bra.gov.bb/).
+Governed by the **Stamp Duty Act, Cap. 91** (statute id cross-referenced on BRA's [Land Development Duty Act, Cap. 78](https://bra.gov.bb/About/Legislation-Regulations/Land-Development-Duty-Act-Cap-78) legislation page — "*Instruments of transfer are not deemed duly stamped under the Stamp Duty Act, Cap. 91…*"). Administered by [BRA](https://bra.gov.bb/).
 
 - **Conveyance / sale of real estate**: **BBD 10 per BBD 1,000 (or part thereof)** = **1.0%** of gross consideration / fair market value (whichever higher).
 - **Statutory liability + custom**: **vendor pays** (per Cap. 91 — buyer does NOT pay Stamp Duty on a conveyance under Barbadian practice).

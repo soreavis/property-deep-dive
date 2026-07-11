@@ -197,7 +197,7 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 ### Salary benchmarks (2024-2025, Estadística)
 
 - **Salari mitjà** (mean monthly gross, all sectors) Q4 2024: ~**€2,400** (per Estadística salaris series)
-- **Salari mínim** (minimum wage) 2026: **~€1,447/month** (gross, 13-pay schedule per Govern annual decree — verify current decree at [Servei d'Inspecció de Treball](https://www.govern.ad/ca/tematiques/ocupacio-i-treball/servei-d-ocupacio))
+- **Salari mínim** (minimum wage) 2026: **€1,525.33/month** (gross; €8.80/hr) — Decret 8/2026, del 14-1-2026 (BOPA núm. 3), in force from 1 Jan 2026; revised again 1 Jul 2026 (Decret 253/2026) — verify current amount at BOPA ([Govern circular salari mínim 2026](https://www.govern.ad/documents/d/guest/circular-informativa-salari-minim-2026?download=true))
 - Hospitality / retail (ski-corridor seasonal): ~€1,500–€2,000
 - Banking / finance (Andorran private banks: AndBank, MoraBanc, Crèdit Andorrà, BancSabadell d'Andorra): ~€2,800–€5,500
 - Tech / digital (small market): ~€2,400–€4,500
@@ -638,7 +638,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ### Climate-transition exposure
 
-- **Estratègia Energètica i de Lluita contra el Canvi Climàtic** (Llei 21/2018) + **Estratègia 2050**: net-zero by 2050 ([Govern energia](https://www.energia.ad/))
+- **Estratègia Energètica i de Lluita contra el Canvi Climàtic** (Llei 21/2018) + **Estratègia 2050**: net-zero by 2050 ([Govern energia](https://www.energia.ad/) — ❌ DEPRECATED — primary source removed; verify with BOPA / govern.ad)
 - FEDA decarbonising electricity (hydro + EU import mix); thermal-envelope + heat-pump shift accelerating
 - **CEE (Certificat d'Eficiència Energètica)** A–G mandatory at sale/lease per Llei d'eficiència energètica 2018
 

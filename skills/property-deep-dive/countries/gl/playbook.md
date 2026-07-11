@@ -24,7 +24,7 @@ Under Greenlandic land law, **all land is owned in common ("offentligt ejet" / p
 1. **Title to the building** (bygning) — a movable-like asset recorded under tinglysning
 2. **Right of use to the land beneath** (`arealtildeling` / `brugsret`) — granted administratively, non-transferrable on its own, lapses if the building is removed or use is abandoned
 
-Source: Inatsisartutlov nr. 17 af 17. november 2010 om planlægning og arealanvendelse (Planning and Land Use Act) — administered by **Departementet for Boliger og Infrastruktur (Naalakkersuisut**, the Government of Greenland) and the municipalities (Kommune Kujalleq, Kommuneqarfik Sermersooq, Qeqqata Kommunia, Avannaata Kommunia, Kommune Qeqertalik). Verify text at [naalakkersuisut.gl](https://naalakkersuisut.gl/) / [retsinformation.dk](https://www.retsinformation.dk/).
+Source: Inatsisartutlov nr. 17 af 17. november 2010 om planlægning og arealanvendelse (Planning and Land Use Act) — administered by **Departementet for Boliger og Infrastruktur (Naalakkersuisut**, the Government of Greenland) and the municipalities (Kommune Kujalleq, Kommuneqarfik Sermersooq, Qeqqata Kommunia, Avannaata Kommunia, Kommune Qeqertalik). Verify text at [nalunaarutit.gl (official gazette)](https://nalunaarutit.gl/arkiv/gh.gl-love/dk/2010/ltl/L_17-2010_arealanvendelse/L_nr_17-2010_dk.htm) / [retsinformation.dk](https://www.retsinformation.dk/).
 
 **Verbatim primary confirmation** (Mineral Licence and Safety Authority — **MLSA**, hosted at govmin.gl, under Naalakkersuisut):
 

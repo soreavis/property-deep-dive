@@ -52,7 +52,7 @@ A non-Bermudian (without a PRC) may **ONLY** purchase residential property whose
 
 | Dwelling type | Minimum ARV a non-Bermudian may acquire | Effective date | Source |
 |---|---|---|---|
-| **House (free-standing)** | **$126,000** (reduced from $153,000) | 1 Jan 2016 | [gov.bm — Minister Fahy ARV-reduction remarks](https://www.gov.bm/articles/minister-fahy-remarks-reduction-arv-levels-residential-property) (PRIMARY) |
+| **House (free-standing)** | **$126,000** (reduced from $153,000) | 1 Jan 2016 | [gov.bm — Minister Fahy ARV-reduction remarks](https://www.gov.bm/articles/minister-fahy-remarks-reduction-arv-levels-residential-property) (PRIMARY) ❌ DEPRECATED — primary source removed; verify with gov.bm Housing & Property / Dept of Immigration |
 | **Condominium** | **$25,800** (reduced from $32,400) | 1 Jan 2016 | [gov.bm — same](https://www.gov.bm/articles/minister-fahy-remarks-reduction-arv-levels-residential-property) (PRIMARY) |
 
 > ⚠️ These thresholds were last changed **1 Jan 2016** — primary-sourced to the Minister Fahy remarks page, but **>12 months stale; re-verify the current floor at [gov.bm Housing & Property](https://www.gov.bm/residents/housing-and-property) / Dept of Immigration before output**. They are policy-set and have been adjusted historically (2014, 2016). **Note**: a secondary realtor source (JBM Realty) lists the condo floor as $32,400 — that figure CONTRADICTS the primary $25,800 (the primary figure wins; the $32,400 is the pre-2016 level).

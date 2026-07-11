@@ -227,6 +227,55 @@ class TestClaimExtractionInline(unittest.TestCase):
         self.assertEqual(m.group(2).lower(), "stale-marker")
 
 
+class TestNearestLinkAttribution(unittest.TestCase):
+    """Multi-citation lines: each value token belongs to its NEAREST link only, so one
+    citation is never asked to substantiate a sibling clause's figure (2026-07 FP class)."""
+
+    def _attribute(self, line):
+        values = SV.extract_values(SV.mask_inline_stamps(line))
+        links = list(SV.MD_LINK_RE.finditer(line))
+        return links, SV.attribute_values(values, [lm.span() for lm in links])
+
+    def test_single_link_keeps_all_values(self):
+        line = "RETT is **5 %** since Oct 2020 ([ZATCA](https://zatca.gov.sa/rett))"
+        links, per = self._attribute(line)
+        self.assertEqual(len(per), 1)
+        self.assertGreaterEqual(len([v for v in per[0] if v.salient]), 2)
+
+    def test_two_clauses_split_by_nearest_link(self):
+        line = ("Transfer tax **7 %** ([tax office](https://gov.example/tax)); "
+                "helper insurance HK$1,500 ([labour dept](https://gov.example/labour))")
+        links, per = self._attribute(line)
+        self.assertEqual(len(per), 2)
+        first = {n for v in per[0] for n in v.needles}
+        second = {n for v in per[1] for n in v.needles}
+        self.assertIn("7", first)
+        self.assertNotIn("1500", first)
+        self.assertTrue({"1500", "1,500"} & second)
+        self.assertNotIn("7", second)
+
+    def test_tie_prefers_following_link(self):
+        # prose cites as "figure ([source](url))" — a token equidistant between the preceding
+        # link's end and the following link's start belongs to the one that follows it
+        line = "([a](https://gov.example/a)) 9 % ([b](https://gov.example/b))"
+        links, per = self._attribute(line)
+        pct = [v for v in per[1] if v.type == "pct"]
+        self.assertEqual(len(pct), 1)
+
+    def test_no_links_returns_empty(self):
+        self.assertEqual(SV.attribute_values(SV.extract_values("rate 5 %"), []), [])
+
+    def test_multilink_roster_link_dropped_in_extract(self):
+        # end-to-end via extract-like logic: the second link owns no salient token → no claim
+        line = ("Stamp duty **2.5 %** ([revenue](https://gov.example/stamp)) — see also the "
+                "[land registry](https://gov.example/registry)")
+        values = SV.extract_values(SV.mask_inline_stamps(line))
+        links = list(SV.MD_LINK_RE.finditer(line))
+        per = SV.attribute_values(values, [lm.span() for lm in links])
+        self.assertTrue(any(v.salient for v in per[0]))
+        self.assertFalse(any(v.salient for v in per[1]))
+
+
 class TestExcerptsAndPrior(unittest.TestCase):
     def test_find_excerpts_hits(self):
         text = "The applicable rate is 6.32 % for most departments under the 2025 finance law."

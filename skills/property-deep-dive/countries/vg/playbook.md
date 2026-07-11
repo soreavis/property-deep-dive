@@ -14,15 +14,15 @@ ISO2: `vg`. Status: ✅ Fully populated (researched 2026-05-28).
 - **Languages**: **English (official, sole)** — all contracts, deeds, statutes in English.
 - **Legal system**: **English common law** + Virgin Islands statutes (the Laws of the Virgin Islands). Final court of appeal: the **Judicial Committee of the Privy Council** (London).
 - **Cadastre / land registry**:
-  - **[Department of Land Registry](https://bvi.gov.vg/content/department-land-registry)**, Road Town, Tortola (P.O. Box 4662, VG1110; +1 284 468 2017) — the registry for **registered title** under CAP.229.
+  - **[Department of Land Registry](https://bvi.gov.vg/content/department-land-registry)**, Road Town, Tortola (P.O. Box 4662, VG1110; +1 284 468 2017) — the registry for **registered title** under CAP.229 ([bvi.gov.vg — legislation list](https://bvi.gov.vg/department-faqs/80)).
   - Note: in 2018 the Land Registry and the Lands & Survey Department were administratively **merged into the Land and Survey Department** (combined legal registry/repository for land registration + geographic data / Registry Maps). Both terms appear in current government materials.
 - **Identifier**: **Registration Section + Block + Parcel number** under the registered-land system (Registry Map / parcel index). No French-style universal national parcel ID; the registered-land parcel number is the title key.
 - **Title concept**: **Registered land (Torrens-style)** — title is guaranteed by registration, NOT by a chain of deeds. Governed by the **Registered Land Act / Registered Land Ordinance 1970 (CAP.229)** + Registered Land Rules 1972. **Condominium** regimes under the **Condominium Ordinance (CAP.219)**.
 - **Recent reforms (12-month watchlist)**:
-  - **Post-Irma building code upgrade** announced 27 Sept 2017 (targeting Cat-5+ resilience + climate-change + green-building considerations) — confirm current Building Code status with Town & Country Planning ([bvi.gov.vg](https://www.bvi.gov.vg/)).
+  - **Post-Irma building code upgrade** announced 27 Sept 2017 (targeting Cat-5+ resilience + climate-change + green-building considerations — per [bvi.gov.vg press release, 27 Sep 2017](https://www.bvi.gov.vg/media-centre/bvi-upgrade-building-codes-aftermath-hurricane-irma)); confirm current Building Code status with Town & Country Planning.
   - **Cabinet-approved merger of BVI Electricity Corporation (BVIEC) + Water & Sewerage Dept** into a new statutory body reported as the **Virgin Islands Energy and Water Company** (per Virgin Islands News Online — *secondary*; confirm current operating entity at bvi.gov.vg).
   - **Stamps (Amendment) Act 2022** — confirmed the 4% Belonger / 12% non-Belonger stamp-duty split (laws.gov.vg primary; GHP BVI legal update). Verify the current schedule before relying.
-  - **NBLHL application forms revised September 2022** (individual / company) — use the current form at [bvi.gov.vg](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence).
+  - **NBLHL application forms revised 2023** (individual / company) — use the current form at [bvi.gov.vg](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence).
 
 ---
 
@@ -35,7 +35,7 @@ This section determines whether a transaction is even legally possible — and w
 - **Non-Belongers Land Holding Regulation Act (CAP.122)** — the statutory basis for the NBLHL requirement; also the statutory home of the **12% non-Belonger stamp-duty rate**.
 - **Registered Land Act / Registered Land Ordinance 1970 (CAP.229)** + Registered Land Rules 1972 — registered-title system.
 - **Stamp Act (as amended — Stamps (Amendment) Act 2022)** — the 4% Belonger stamp-duty rate.
-- **Conveyancing and Law of Property Ordinance (CAP.220)**, **Condominium Ordinance (CAP.219)**, **Land Acquisition Ordinance (CAP.222)**, **Land Adjudication Ordinance (CAP.223)**, **Intestate Estates Act (CAP.34)** — supporting framework. Statutes free at **[laws.gov.vg](https://laws.gov.vg/)**.
+- **Conveyancing and Law of Property Ordinance (CAP.220)**, **Condominium Ordinance (CAP.219)**, **Land Acquisition Ordinance (CAP.222)**, **Land Adjudication Ordinance (CAP.223)**, **Intestate Estates Act (CAP.34)** — supporting framework (chapter numbers per [bvi.gov.vg — legislation list](https://bvi.gov.vg/department-faqs/80)). Statutes free at **[laws.gov.vg](https://laws.gov.vg/)**.
 
 ### Buyer category matrix
 

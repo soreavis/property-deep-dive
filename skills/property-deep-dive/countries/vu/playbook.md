@@ -282,7 +282,7 @@ The Vanuatu property thesis is overwhelmingly **second-home / lifestyle / touris
 ### Seismic + tsunami — extreme
 
 - **New Hebrides subduction zone** drives frequent strong earthquakes + tsunami risk.
-- **M7.3 earthquake 17 Dec 2024, ~30 km W of Port Vila, depth ~57 km** — **14 deaths, 265 injured, >2,400 displaced, ~US$231.7M damage**; building collapse in Port Vila + damage to two major reservoirs (NDMO via [ReliefWeb/OCHA/UNDP](https://reliefweb.int/disaster/eq-2024-000227-vut); cross-check the event at [USGS](https://earthquake.usgs.gov/)). **Humanitarian-secondary attribution** for the casualty/damage figures.
+- **M7.3 earthquake 17 Dec 2024, ~30 km W of Port Vila, depth ~57 km** — **14 deaths, 265 injured, >2,400 displaced, ~US$231.7M damage**; building collapse in Port Vila + damage to two major reservoirs (NDMO via [ReliefWeb/OCHA/UNDP](https://reliefweb.int/disaster/eq-2024-000227-vut); cross-check the event at [USGS](https://earthquake.usgs.gov/earthquakes/eventpage/us7000nzf3)). **Humanitarian-secondary attribution** for the casualty/damage figures.
 - **Implication**: structural/seismic review is essential for any Port Vila/Efate purchase, especially older or non-engineered buildings; the 2024 quake demonstrated real collapse risk.
 
 ### Volcanic

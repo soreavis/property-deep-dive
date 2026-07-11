@@ -6,13 +6,13 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Postcode (Código Postal)**: 6 digits (DPA-coded), e.g. **170150** Quito centre, **090150** Guayaquil centro, **010150** Cuenca centro. Operated by [Correos del Ecuador](https://www.correosdelecuador.gob.ec/) — first 2 digits = provincia, next 2 = cantón, last 2 = parroquia / sector
 - **Admin levels**: 24 **provincias** → 221 **cantones** → ~1,500 **parroquias** (urbanas + rurales) → barrios / ciudadelas / recintos. Galápagos (provincia 20) governed under [Ley Orgánica de Régimen Especial de Galápagos (LOREG)](https://www.gob.ec/) — distinct land-tenure regime
-- **Currency**: **USD (US dollar)** — officially adopted **9 Sep 2000** under [Ley para la Transformación Económica del Ecuador (Ley Trolebús, Mar 2000)](https://www.bce.fin.ec/) replacing sucre at 25,000:1 after the 1999 banking crisis. **Banco Central del Ecuador (BCE)** issues only **centavos** coins; USD banknotes are Federal Reserve issuance. **No FX risk for USD holders** — UNIQUE selling point in LATAM
+- **Currency**: **USD (US dollar)** — dollarization adopted **9 January 2000** ([BCE — 25 años de dolarización](https://www.bce.fin.ec/25/index.html)); formalized by the Ley para la Transformación Económica del Ecuador (Ley Trolebús, Mar 2000), replacing sucre at 25,000:1 after the 1999 banking crisis. **Banco Central del Ecuador (BCE)** issues only **centavos** coins; USD banknotes are Federal Reserve issuance. **No FX risk for USD holders** — UNIQUE selling point in LATAM
 - **Languages**: **Spanish** (official, [Constitución 2008 art. 2](https://www.gob.ec/)); **Kichwa** + **Shuar** co-official within their territories; English in Cuenca expat zones, tourist areas (Quito Mariscal, Guayaquil Las Peñas, Salinas, Manta, Galápagos)
 - **Population**: ~17.7 M (2024 [INEC](https://www.ecuadorencifras.gob.ec/) mid-year est.) — Quito ~2.0 M (DMQ 2.8 M metro), Guayaquil ~2.7 M (3.4 M metro), Cuenca ~600 k, Santo Domingo ~470 k, Machala ~290 k, Manta ~270 k, Ambato ~200 k
 - **Cadastre**: **Decentralized at municipal (cantón) level** — there is **NO single national cadastre**. Each **GAD Municipal** ([Gobiernos Autónomos Descentralizados](https://www.gob.ec/)) maintains its own *catastro urbano + rural*. Major cities expose web portals: [Catastro Quito (DMQ)](https://www.quito.gob.ec/), [Catastro Guayaquil](https://www.guayaquil.gob.ec/), [Catastro Cuenca](https://www.cuenca.gob.ec/). National coordination via **SENPLADES** (national planning) + GeoCatastro initiatives but no unified portal as of 2026
 - **Land registry**: **Registro de la Propiedad** per cantón (separate from Catastro Municipal); supervised nationally by [DINARDAP — Dirección Nacional de Registros Públicos](https://www.dinardap.gob.ec/) since 2010 reform
 - **Identifier**: parcel-level **Clave Catastral** (per Municipio) + **Predio Number** + **Inscripción del Registro de la Propiedad** (legal title). Both required for clean diligence
-- **Foreign-buyer regime** (CRITICAL): **OPEN equality** — [Constitución art. 405-406](https://www.gob.ec/) grants foreigners the same property rights as Ecuadorians on residential and urban land. **EXCEPT Border Zone**: 50 km strip from international frontiers + Galápagos require prior **autorización de SECOB / Comando Conjunto de las Fuerzas Armadas** under [Ley de Seguridad Pública y del Estado](https://www.gob.ec/). NO restrictions on Quito, Guayaquil, Cuenca, Manta, Salinas, Ambato, Loja core urban areas
+- **Foreign-buyer regime** (CRITICAL): **OPEN** — Ecuador imposes no general prohibition on foreign ownership of residential/urban property; foreigners buy freely in Quito, Guayaquil, Cuenca, Manta, Salinas, Ambato, Loja core urban areas. **RESTRICTED zones**: [Constitución art. 405](https://www.gob.ec/) bars foreign natural/legal persons from acquiring land or concessions *"en las áreas de seguridad nacional ni en áreas protegidas"*, so the 50 km international-border strip + Galápagos + protected/national-security areas require prior **autorización de SECOB / Comando Conjunto de las Fuerzas Armadas** under [Ley de Seguridad Pública y del Estado](https://www.gob.ec/)
 
 ## Section: `--price`
 
@@ -94,7 +94,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Annual taxes (municipal — GAD)
 
-- **Impuesto Predial Urbano** ([COOTAD — Código Orgánico de Organización Territorial, Autonomía y Descentralización](https://www.gob.ec/) art. 504-512): progressive **0.25–5 ‰** (per mil) on *avalúo catastral*; each Municipio sets its own ordenanza tributaria within the COOTAD bands
+- **Impuesto Predial Urbano** ([COOTAD — Código Orgánico de Organización Territorial, Autonomía y Descentralización](https://www.defensa.gob.ec/wp-content/uploads/downloads/2016/01/dic15_CODIGO-ORGANICO-DE-ORGANIZACION-TERRITORIAL-COOTAD.pdf) art. 504-512): progressive **0.25–5 ‰** (per mil) on *avalúo catastral*; each Municipio sets its own ordenanza tributaria within the COOTAD bands
 - **Impuesto Predial Rural** (COOTAD art. 514-520): 0.25–3 ‰ on rural *avalúo*; lower than urban
 - **Contribución Especial de Mejoras (CEM)**: levied when public works increase parcel value — varies per obra + cantón
 - Verify exact rates at target [GAD Municipal Quito](https://www.quito.gob.ec/), [Guayaquil](https://www.guayaquil.gob.ec/), [Cuenca](https://www.cuenca.gob.ec/) tax portal
@@ -104,14 +104,14 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 | Item | Rate | Source |
 |---|---|---|
 | **Alcabala** (municipal transfer tax) | **1 %** of escritura value | COOTAD art. 527-537; Municipio |
-| **Notario** | **0.4–1.0 %** of price (regulated arancel, capped) | [Consejo de la Judicatura — Notarías](https://www.funcionjudicial.gob.ec/) |
+| **Notario** | fixed **múltiplos de SBU** per value bracket (arancel notarial, Resolución 005-2023): 0.20 SBU ≤ $10k → 5.00 SBU at $1M, capped 20 SBU + 0.001 excedente — ~0.2–1 % effective (est.; overstates at high value, ~0.24 % at $1M) | [Consejo de la Judicatura — Notarías](https://www.funcionjudicial.gob.ec/) (verify arancel) |
 | **Registro de la Propiedad** | **0.2–0.5 %** of price (per cantón table) | DINARDAP / Registrador Cantonal |
 | **Lawyer (abogado patrocinador)** | 0.5–1.5 % typical | Private market |
 | **Total buyer-side closing cost** | **~2.5–4 %** of price | sum of above |
 
 ### IVA (Impuesto al Valor Agregado)
 
-- **Standard 15 %** since **1 Apr 2024** (raised from 12 % under [Decreto Ejecutivo 198/2024](https://www.gob.ec/) + [Ley Orgánica para Enfrentar el Conflicto Armado Interno](https://www.gob.ec/), Mar 2024 — security funding) *(2026-05-27 verified, source SRI + Decreto Ejecutivo 198/2024)*
+- **Standard 15 %** since **1 Apr 2024** (raised from 12 % under [Decreto Ejecutivo 198/2024](https://www.sri.gob.ec/impuesto-al-valor-agregado-iva) + [Ley Orgánica para Enfrentar el Conflicto Armado Interno](https://www.gob.ec/), Mar 2024 — security funding) *(2026-07-11 verified, source SRI)*
 - **Residential resale** → exempt from IVA (Alcabala instead)
 - **New-build first sale** → **0 % IVA** if MIDUVI-certified VIS / VIP; otherwise **15 % IVA** applies on new-build first sale of non-VIS
 - ⚠️ The 2024 IVA hike from 12 → 15 % (Decreto Ejecutivo 198/2024, eff 1 Apr 2024) was emergency-funding for the *internal armed conflict* declaration; verify whether reverted in subsequent budget cycles at [SRI — Servicio de Rentas Internas](https://www.sri.gob.ec/)
@@ -150,7 +150,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Short-let (Airbnb / Booking)
 
-- **MINTUR — Ministerio de Turismo** [`https://www.turismo.gob.ec/`](https://www.turismo.gob.ec/) — STR licensing under [Decreto Ejecutivo 1411 (2020)](https://www.gob.ec/) + reforms via **Decreto 803 (2023)**: mandatory **Registro de Catastro Turístico** + LUAF (Licencia Única Anual de Funcionamiento) per Municipio
+- **MINTUR — Ministerio de Turismo** — STR licensing portal at [gob.ec](https://www.gob.ec/) (former turismo.gob.ec ❌ DEPRECATED — domain now misrouted to an unrelated agency) under [Decreto Ejecutivo 1411 (2020)](https://www.gob.ec/) + a **2023 STR reform** (decree/acuerdo number requires verification at the Registro Oficial — the previously cited "Decreto 803" is a 2020 economic decree, not the STR reform): mandatory **Registro de Catastro Turístico** + LUAF (Licencia Única Anual de Funcionamiento) per Municipio
 - **Quito DMQ — Decreto Metropolitano 042-2020**: STR-specific rules + community-vote requirement in régimen de propiedad horizontal (similar to AD/CO trend)
 - **Tasa turística** + **IVA 15 %** + **ICE** (servicios turísticos, where applicable)
 - ⚠️ Pre-2020 informal Airbnb listings now non-compliant — request **Catastro Turístico número** + LUAF before any STR pricing model
@@ -213,7 +213,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Specific risks
 
-- **Seismic** (PRINCIPAL): **Pacific Ring of Fire** — Nazca plate subducting beneath South American plate. **Subduction-zone megathrust** capable of M8+; historical M7.8 **Pedernales 16 Apr 2016** killed ≥676 (Manabí + Esmeraldas), 1797 Riobamba M8.3, 1906 Esmeraldas M8.8 (one of the largest ever recorded). [NEC-15 — Norma Ecuatoriana de la Construcción 2015](https://www.habitatyvivienda.gob.ec/) + amendments define design accelerations; *microzonificación sísmica* per major city (Quito, Guayaquil, Cuenca, Manta)
+- **Seismic** (PRINCIPAL): **Pacific Ring of Fire** — Nazca plate subducting beneath South American plate. **Subduction-zone megathrust** capable of M8+; historical M7.8 **Pedernales 16 Apr 2016** killed ≥676 (Manabí + Esmeraldas), 1797 Riobamba M8.3, 1906 Esmeraldas M8.8 (one of the largest ever recorded). [NEC-15 — Norma Ecuatoriana de la Construcción 2015](https://www.habitatyvivienda.gob.ec/) (❌ DEPRECATED — habitatyvivienda.gob.ec now redirects to an unrelated agency; verify NEC-15 at Registro Oficial / current housing authority) + amendments define design accelerations; *microzonificación sísmica* per major city (Quito, Guayaquil, Cuenca, Manta)
 - **Volcanic**: ~**12 active volcanoes** monitored by IGEPN. Highest-risk inhabited: **Cotopaxi** (~50 km N of Quito; major ashfall + lahar exposure for valles Latacunga / Salcedo / Cumbayá / Chillos; in active phase 2024–2026, vigilance), **Tungurahua** (Baños evacuation history), **Reventador** (Quito ashfall events incl. 2002), **Sangay** (Sierra-Oriente boundary, near-continuous activity), **Pichincha** (Quito west; 1999 ashfall), **Sumaco**, **Antisana**, **Cayambe**
 - **Tsunami**: full Pacific coast (Esmeraldas, Manabí, Santa Elena, Guayas, El Oro) + Galápagos; INOCAR tsunami-warning system. Coastal evacuation routes mapped post-2016
 - **Flooding (inundación)**: catastrophic during **El Niño** events (2023 + 2024 coastal floods, 1997-98 historical); **Andean rivers** flash-flood; Guayas basin lowlands recurring
@@ -266,7 +266,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Urban (cabecera cantonal Quito + Guayaquil + Cuenca + Ambato + Machala + Loja)**: water + sewer near-universal (>95 % per INEC ENEMDU); **drinking-water quality** strong in Cuenca (ETAPA gold standard) + Quito; weaker in coastal Guayaquil (Interagua intermittent in some sectores)
 - **Rural (recintos)**: variable; many rely on *junta de agua potable comunitaria* + pozo séptico
-- **2024 power crisis**: severe drought (worst in 60 yr per [CELEC EP](https://www.celec.gob.ec/)) caused **rolling blackouts 8–14 hr/day Sep–Dec 2024** across the country; partial recovery 2025 with thermal-import contingency. Property buyers should budget for backup (generator / inverter / solar) particularly in Sierra hydro-dependent zones. *Verify current generation status at* [CENACE](https://www.cenace.gob.ec/)
+- **2024 power crisis**: severe drought caused nationwide **rolling blackouts in 2024** — CELEC EP: *"las recientes sequías … provocaron apagones en 2024"* ([Plan de Descarbonización CELEC EP, 2025](https://www.celec.gob.ec/wp-content/uploads/2025/10/BEI-PATH-Plan-de-Descarbonizacion-para-CELEC-ESP-1.pdf)); blackouts ran ~8–14 hr/day Sep–Dec 2024 (est.; duration not stated in the CELEC source); partial recovery 2025 with thermal-import contingency. Property buyers should budget for backup (generator / inverter / solar) particularly in Sierra hydro-dependent zones. *Verify current generation status at* [CENACE](https://www.cenace.gob.ec/)
 
 ### Costs (est., USD 2026)
 
@@ -291,7 +291,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Headline (2023–2024)
 
-- **National homicide rate 2023: ~46.5 per 100,000** ([Min Interior](https://www.ministeriodelinterior.gob.ec/) — historic peak; up from <6 in 2017); **2024: ~38** with Decreto 110 measures partial cooling but still among the highest in LATAM
+- **National homicide rate 2023: ~46.5 per 100,000** ([Min Interior](https://www.ministeriodelinterior.gob.ec/) — historic peak; up from <6 in 2017; est. — rate not tabulated on the cited page, verify at INEC / Min Interior security statistics); **2024: ~38** with Decreto 110 measures partial cooling but still among the highest in LATAM
 - **Hotspots 2024**: Esmeraldas (~80–100/100k), Manta (~70), Durán (~60), Guayaquil (~50), Quevedo (~45)
 - **Lower zones**: Cuenca (~5–10), Loja (~5), Quito Mariscal/Cumbayá ~10–20 (varies sub-barrio), Galápagos near-zero
 - **Internal armed conflict** (Decreto 110, Jan 2024) escalated military involvement; 22 grupos delictivos organizados (GDO) declared *terroristas* — ongoing operations
@@ -391,7 +391,7 @@ HIGH for BIESS framework + private-bank LTV ranges; MEDIUM for non-resident prod
 
 ### Currency status
 
-- **USD (US Dollar)** officially adopted **9 Sep 2000** under [Ley para la Transformación Económica del Ecuador](https://www.bce.fin.ec/) (replacing sucre at 25,000:1 after 1999 banking + currency crisis)
+- **USD (US Dollar)** — dollarization adopted **9 January 2000** ([BCE — 25 años de dolarización](https://www.bce.fin.ec/25/index.html)); formalized by the Ley para la Transformación Económica del Ecuador (Mar 2000), replacing sucre at 25,000:1 after the 1999 banking + currency crisis
 - **BCE — Banco Central del Ecuador** retains regulatory + reserve role but does **NOT issue banknotes** — only mints sub-unit *centavos* coins (1, 5, 10, 25, 50)
 - US Federal Reserve banknotes circulate as legal tender; no exchange controls on USD
 - **Status comparison**: Ecuador's full dollarization is **distinct from Panama** (USD via Monetary Convention 1904 + balboa parity) and El Salvador (post-2001 dollarization); shares family with Timor-Leste and several Pacific microstates
@@ -587,7 +587,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 ### Connectivity
 
-- **FTTH coverage** strong in Quito + Cuenca + Guayaquil + Loja (CNT, Netlife, Claro, Tuenti); ~70–85 % urban household FTTH per [ARCOTEL](https://www.arcotel.gob.ec/) 2024 series
+- **FTTH coverage** strong in Quito + Cuenca + Guayaquil + Loja (CNT, Netlife, Claro, Tuenti); fibre = **88.3 % of all fixed-internet connections** at end-2024 — a technology-share-of-accounts metric, not household coverage; fixed internet itself reaches only ~17.5 % of the population (2024 data, source [ARCOTEL Boletín cierre 2024](https://www.arcotel.gob.ec/wp-content/uploads/2015/01/Boletin-cierre-2024_compressed-1.pdf))
 - Gigabit fibre USD 25–60/mo; 5G mobile launching 2024–26 (Claro, Movistar)
 - ⚠️ **2024 power-grid blackouts** (Sep–Dec, 8–14 hr/day) materially disrupted remote-work reliability; budget for UPS + inverter + solar backup; situation improved 2025 but residual risk persists during La Niña drought years
 - Co-working: **Impaqto Quito**, **Selina Cuenca / Selina Cumbayá** (chain), **Hub UDLA**, **Comuna Coworking**, **Cuenca Coworking** — USD 100–300/mo hot desk
@@ -661,7 +661,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 ### Property-level ESG
 
 - **Energy efficiency**: no mandatory pre-sale energy certificate as of 2026 (unlike EU); voluntary green-build certifications (LEED, EDGE) gaining among premium developers
-- **Solar PV** residential: net-metering in place since [Resolución ARCONEL 003/18](https://www.controlrecursosyenergia.gob.ec/); typical 5 kWp system USD 6,000–14,000 — payback 6–10 yr at residential tariff
+- **Solar PV** residential: net-metering in place since [Resolución ARCONEL 003/18](https://www.controlrecursosyenergia.gob.ec/) ❌ DEPRECATED — primary source removed (domain now serves a default web-server test page); verify Resolución ARCONEL 003/18 at ARCONEL / Registro Oficial; typical 5 kWp system ~USD 6,000–14,000 (est., market) — payback 6–10 yr at residential tariff
 - **Heat-pump retrofit**: minimal demand (Sierra altitude moderate, no winter heating culture); coastal A/C dominant
 - **Water resilience**: glacier retreat affects EPMAPS Quito long-term water security; private cisternas common
 - **Volcanic + seismic resilience**: post-2016 Pedernales codes (NEC-15) substantially improved coastal new-build; pre-2000 stock commands retrofit overhang

@@ -585,7 +585,7 @@ Universal — see `shared/climate-projections.md`. National source: National Hyd
 
 ### Pathway specifically for property buyers
 
-- **AZN 100,000 real-estate threshold = 1-yr TRP**: among lowest in the region, comparable to Georgia (US$100k) and Türkiye (was $200k, ended for property → CBI only at $400k); verify current threshold + procedural requirements at [State Migration Service (Dövlət Miqrasiya Xidməti)](https://migration.gov.az/) before relying
+- **AZN 100,000 real-estate threshold = 1-yr TRP**: among lowest in the region, comparable to Georgia (US$100k) and Türkiye (was $200k, ended for property → CBI only at $400k); verify current threshold + procedural requirements at [State Migration Service (Dövlət Miqrasiya Xidməti)](https://www.migration.gov.az/en/useful/8?page=3) before relying
 - **Property purchase + TRP → 8 years continuous → PR**: long horizon; requires demonstrable physical presence + tax compliance
 - **No real-estate-linked golden visa equivalent to Portugal D7 / Spain DNV / Greece pre-2024**: AZ's real-estate-linked TRP is materially shorter (1-yr) and requires actual residence, not virtual presence
 

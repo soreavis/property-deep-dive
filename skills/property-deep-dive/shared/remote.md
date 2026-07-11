@@ -392,7 +392,7 @@ Mixed picture. Digital infrastructure is mature in SG/HK/JP/KR/CN (resident-anch
 
 - **SC** (Seychelles): Hague since 31 Mar 1979. **Confidence: MEDIUM**. POA + Sanction (Government Sanction required for foreign land acquisitions). Sanction is the typical bottleneck, not legalisation.
 
-- **CV** (Cape Verde): Hague since 10 Jun 2009. **Confidence: MEDIUM**. procuração; MFA + DGRN as competent authorities; **e-apostille available** via Portal Consular ([portalconsular.mnec.gov.cv](https://portalconsular.mnec.gov.cv/)).
+- **CV** (Cape Verde): Hague since 13 Feb 2010 (EIF per HCCH; accession 7 May 2009). **Confidence: MEDIUM**. procuração; MFA + DGRN as competent authorities; **e-apostille available** via Portal Consular ([portalconsular.mnec.gov.cv](https://portalconsular.mnec.gov.cv/)).
 
 ---
 
@@ -543,7 +543,7 @@ Completion fails on the money leg as often as on the legal one. The deed can be 
 - **DE**: [BeurkG](https://www.gesetze-im-internet.de/beurkg/) · [BNotK](https://www.bnotk.de/) · [video.bnotk.de](https://onlinehilfe.bnotk.de/einrichtungen/online-verfahren-im-gesellschaftsrecht/allgemein/videokonferenz/durchfuehrung-videokonferenz/identifizierung.html)
 - **FR**: [Légifrance Décret 2020-1422](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042544060) · [CSN](https://www.notaires.fr/) · [CCN-IDÉLIO](https://www.ccn-idelio.fr/)
 - **IT**: [Notariato.it](https://www.notariato.it/en/notariato/the-computerised-public-deed/) · [iStrumentum CNN](https://www.notariato.it/)
-- **ES**: [BOE Ley 11/2023](https://www.boe.es/) · [sede.notariado.org](https://www.sede.notariado.org/) · [registradores.org](https://www.registradores.org/)
+- **ES**: [BOE Ley 11/2023](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11022) · [sede.notariado.org](https://www.sede.notariado.org/) · [registradores.org](https://www.registradores.org/)
 - **PT**: [Casa Pronta](https://www2.gov.pt/servicos/usar-o-servico-casa-pronta) · [DRE DL 126/2021](https://diariodarepublica.pt/)
 - **NL**: [KNB DOBV](https://www.knb.nl/ons-beroep/digitaal-werken/digitale-dienstverlening/digitaal-oprichten-bv/) · [Kadaster](https://www.kadaster.nl/)
 - **BE**: [notaire.be](https://www.notaire.be/) · [izimi.be](https://www.izimi.be/) · [MICEN](https://www.micen.be/)

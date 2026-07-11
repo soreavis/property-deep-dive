@@ -220,7 +220,7 @@ Administrative, separate from tax. Pointers (non-exhaustive — full per-country
 | AT | Zentrales Melderegister | *Abmeldung* within 3 days of move ([Meldegesetz § 4](https://www.ris.bka.gv.at/Bundesrecht/)) |
 | ES | Padrón Municipal | *Baja en el padrón* via ayuntamiento or *baja consular* via consulate abroad |
 | FR | (no central register) | Civil register *not* mandatory; informal — but tax address change required |
-| IT | Anagrafe della popolazione residente | *Cancellazione anagrafica* via comune; AIRE registration via consulate after departure ([Legge 470/1988](https://www.normattiva.it/)) |
+| IT | Anagrafe della popolazione residente | *Cancellazione anagrafica* via comune; AIRE registration via consulate after departure ([Legge 470/1988](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1988-10-27;470)) |
 | SK | Register obyvateľov SR | *Odhlásenie z trvalého pobytu* via *ohlasovňa pobytu* (municipal office) ([Zákon 253/1998 Z. z. § 6](https://www.slov-lex.sk/)) |
 | CZ | Evidence obyvatel | *Ukončení trvalého pobytu* via municipal office ([Zákon 133/2000 Sb.](https://www.zakonyprolidi.cz/cs/2000-133)) |
 | PL | Ewidencja ludności | *Wymeldowanie* via urząd gminy ([Ustawa o ewidencji ludności](https://isap.sejm.gov.pl/)) |

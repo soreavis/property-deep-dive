@@ -9,13 +9,13 @@ ISO2: `kw`. Status: ✅ Fully populated (researched 2026-05).
 - **Postcode**: **5-digit Kuwait Post codes** (e.g., Kuwait City Sharq `15001`, Salmiya `22033`, Hawalli `32001`) administered by [Kuwait Post (Ministry of Communications)](https://www.kw.post/) — postcodes used for postal sorting, but addressing in practice relies on **Block (قطعة) + Street (شارع) + House (منزل / جادة)** within a named area (منطقة)
 - **Population**: ~4.85M (2024 PACI mid-year estimate per [Public Authority for Civil Information](https://www.paci.gov.kw/)); ~30% Kuwaiti national (~1.45M) + ~70% expatriate (~3.4M) — among the world's highest expat-to-citizen ratios
 - **GDP per capita**: ~USD 32,800 (2024 IMF WEO Oct 2024) / ~USD 56,000 PPP — high-income oil-exporter
-- **Currency**: **KWD (د.ك — Kuwaiti Dinar)** — managed float against undisclosed basket since 20 May 2007 ([CBK Monetary Policy](https://www.cbk.gov.kw/en/cbk-news/announcements-and-press-releases/announcements)); pre-2007 USD-pegged; KWD ≈ USD 3.25 (Q1 2026 indicative); **highest face-value currency globally**
+- **Currency**: **KWD (د.ك — Kuwaiti Dinar)** — managed float against undisclosed basket since 20 May 2007 ([CBK press release, 20 May 2007](https://www.cbk.gov.kw/en/cbk-news/announcements-and-press-releases/press-releases/2007/05/200705200000-the-kuwaiti-dinar-kd-re-pegged-to-a-basket-of-currencies)); pre-2007 USD-pegged; KWD ≈ USD 3.25 (Q1 2026 indicative); **highest face-value currency globally**
 - **Languages**: **Arabic (official)** — all formal contracts, deeds, and Real Estate Registration filings in Arabic; English widely used in business + medical + technology sectors; bilingual translations common but Arabic prevails legally
 - **Admin levels**: 1 Emirate → **6 governorates (محافظات)** → areas (مناطق) and blocks (قطع)
   - Governorates: **Al Asimah (Capital — Kuwait City)**, **Hawalli**, **Farwaniya**, **Mubarak Al-Kabeer**, **Ahmadi**, **Jahra**
   - Major property markets: Kuwait City (Sharq, Mirqab, Dasman), Salmiya + Salwa (Hawalli), Mishref + Bayan + Salam (Mubarak Al-Kabeer), Jabriya (Hawalli), Bneid Al Qar, Surra, Mishref
 - **Cadastre**:
-  - **Ministry of Justice — Real Estate Registration Department (إدارة تسجيل العقارات بوزارة العدل)**: `https://www.moj.gov.kw/` — sole authority for property registration and Title Deed (سند ملكية / Sanad Mulkiyya) issuance under [Decree-Law 5/1959 on Real Estate Registration](https://www.moj.gov.kw/) (as amended)
+  - **Ministry of Justice — Real Estate Registration Department (إدارة تسجيل العقارات بوزارة العدل)**: `https://www.moj.gov.kw/` — sole authority for property registration and Title Deed (سند ملكية / Sanad Mulkiyya) issuance under [Decree-Law 5/1959 on Real Estate Registration](https://www.moj.gov.kw/) (as amended; statute text not published on the MoJ portal — verify at MoJ Real Estate Registration Department)
   - **Public Authority for Civil Information (PACI — الهيئة العامة للمعلومات المدنية)**: `https://www.paci.gov.kw/` — operates the **Kuwait Finder** addressing system + civil/population registry + the official cadastral GIS layer
   - **Kuwait Municipality (بلدية الكويت)**: `https://www.baladia.gov.kw/` — building permits, zoning, planning permissions
   - **Ministry of Commerce and Industry (MOCI — وزارة التجارة والصناعة)**: `https://www.moci.gov.kw/` — commercial-property licensing + foreign-investment under the Foreign Direct Investment Law 116/2013 (KDIPA)
@@ -39,7 +39,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 
 ### Legal basis
 
-- **[Decree-Law 74/1979 on Real Estate Ownership by Non-Kuwaitis (قانون رقم 74 لسنة 1979)](https://www.csb.gov.kw/)** — primary statute regulating foreign ownership; **broadly prohibits non-Kuwaiti non-GCC ownership of residential real estate**
+- **[Decree-Law 74/1979 on Real Estate Ownership by Non-Kuwaitis (قانون رقم 74 لسنة 1979)](https://www.moj.gov.kw/)** (verify at Ministry of Justice Real Estate Registration Department) — primary statute regulating foreign ownership; **broadly prohibits non-Kuwaiti non-GCC ownership of residential real estate**
 - **Subsequent amendments** (Law 20/2002 + Council of Ministers resolutions) — narrow case-by-case exceptions; have not opened broad designated-zone schemes comparable to UAE Dubai / Qatar / Saudi Arabia 2026
 - **GCC Common Market 2008** — extends Kuwaiti-equivalent ownership rights to nationals of UAE, Bahrain, Saudi Arabia, Qatar, Oman (subject to reciprocity)
 - **Decree-Law 17/1959 on Aliens Residence (نظام إقامة الأجانب)** — governs expatriate residency (Iqama); does NOT confer property-purchase rights
@@ -68,7 +68,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 | Item | Kuwait |
 |---|---|
 | **Investor / Golden Residency via real estate** | **NONE** — no real-estate-linked residency or investor-visa pathway |
-| **Citizenship by investment** | **NONE** — Kuwaiti citizenship governed by [Decree-Law 15/1959 on Kuwaiti Nationality](https://www.csb.gov.kw/) — strictly hereditary; naturalisation extremely rare (typically requires 20+ yrs residence + Arabic + Muslim + valuable contribution; political process; Council of Ministers + Emir's approval) |
+| **Citizenship by investment** | **NONE** — Kuwaiti citizenship governed by [Decree-Law 15/1959 on Kuwaiti Nationality](https://www.moi.gov.kw/) (verify at Ministry of Interior) — strictly hereditary; naturalisation extremely rare (typically requires 20+ yrs residence + Arabic + Muslim + valuable contribution; political process; Council of Ministers + Emir's approval) |
 | **Permanent residency for foreigners** | **NONE in formal sense** — Iqama under Decree-Law 17/1959 is renewable but tied to employer / family / property; some long-residing expats report informal recognition after 20+ yrs but not codified |
 | **Golden Visa equivalent** | **NONE** |
 
@@ -251,7 +251,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 
 ### Long-term residential
 
-- **Tenancy law**: **[Decree-Law 35/1978 on Lease of Properties (قانون رقم 35 لسنة 1978 في شأن إيجار العقارات)](https://www.moj.gov.kw/)** + amendments — landlord/tenant rights, eviction grounds, rent regulation framework
+- **Tenancy law**: **[Decree-Law 35/1978 on Lease of Properties (قانون رقم 35 لسنة 1978 في شأن إيجار العقارات)](https://www.moj.gov.kw/)** + amendments (statute text not published on the MoJ portal — verify at MoJ) — landlord/tenant rights, eviction grounds, rent regulation framework
 - **Tenancy registration**: Long-term tenancy contracts can be registered at the Ministry of Justice for enforceability; some apartments require tenancy registration for Iqama renewal, school enrolment, utility connections
 - **Rent increase**: historically governed by Decree-Law 35/1978; mid-term increases for existing tenancies generally restricted; 5-year fixed-term contracts common with renewal review
 - **Standard tenancy structure**: 1-year fixed term renewable; **monthly rent (post-dated cheques common)**; 1-2 month security deposit; landlord pays municipality fees, tenant pays utilities (MEW)
@@ -317,7 +317,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 ### Kafala (sponsorship) reform notes
 
 - Kuwait has been **slower** than UAE/Saudi/Qatar in reforming the kafala system
-- **Public Authority for Manpower (PAM — `https://www.paci.gov.kw/` not — see PAM `https://pam.gov.kw/`)** — administers labour-market under [Law 6/2010 on Labour in the Private Sector](https://www.csb.gov.kw/)
+- **Public Authority for Manpower (PAM — `https://www.paci.gov.kw/` not — see PAM `https://pam.gov.kw/`)** — administers labour-market under [Law 6/2010 on Labour in the Private Sector](https://pam.gov.kw/) (verify at PAM)
 - **No-objection certificate (NOC)** historically required to switch employers; recent administrative reforms have eased some categories but full Saudi/Qatar-style abolition not yet enacted
 - **Domestic worker law (Law 68/2015)** — formal protections for domestic workers; minimum wage KWD 60/month + working-hour limits
 
@@ -599,7 +599,7 @@ Account opening requires **valid Iqama + Kuwaiti mobile + Civil ID** for residen
 
 ### Kuwaiti Dinar (KWD) — managed-float framework
 
-- **Framework**: managed float against an **undisclosed currency basket** since **20 May 2007** ([CBK Monetary Policy](https://www.cbk.gov.kw/en/cbk-news/announcements-and-press-releases/announcements))
+- **Framework**: managed float against an **undisclosed currency basket** since **20 May 2007** ([CBK press release, 20 May 2007](https://www.cbk.gov.kw/en/cbk-news/announcements-and-press-releases/press-releases/2007/05/200705200000-the-kuwaiti-dinar-kd-re-pegged-to-a-basket-of-currencies))
 - **Pre-2007**: USD-pegged at KWD 0.29963 = USD 1
 - **Post-2007**: basket-managed; CBK actively intervenes; KWD has appreciated modestly vs USD since 2007
 - **Q1 2026 indicative**: KWD 1 ≈ USD 3.25 (verify current at CBK)
@@ -646,7 +646,7 @@ Account opening requires **valid Iqama + Kuwaiti mobile + Civil ID** for residen
 | **KDIPA Investor Iqama** | KDIPA-licensed business activity (NOT real estate) | Tied to investment | Tied |
 | **Tourist Visa** | 90-day single or multiple entry | Visit only | n/a |
 | **Permanent Residency** | **NOT formally available** | — | — |
-| **Citizenship** | **Effectively impossible** under [Decree-Law 15/1959 on Kuwaiti Nationality](https://www.csb.gov.kw/) — strict naturalisation; rare exceptional grants by Council of Ministers + Emir | n/a | n/a |
+| **Citizenship** | **Effectively impossible** under [Decree-Law 15/1959 on Kuwaiti Nationality](https://www.moi.gov.kw/) (verify at Ministry of Interior) — strict naturalisation; rare exceptional grants by Council of Ministers + Emir | n/a | n/a |
 | **Real-Estate-Linked Visa** | **NONE** | — | — |
 | **Golden Visa** | **NONE** | — | — |
 

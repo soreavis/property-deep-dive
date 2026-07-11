@@ -18,7 +18,7 @@ ISO2: `hk`. Status: ✅ Fully populated (researched 2026-05).
   - Most pre-1997 leases were 50 / 75 / 99 / 999 years; after 1985 Sino-British Joint Declaration, new grants and renewals capped at 30 June 2047
   - **Resolved 2024**: [Extension of Government Leases Bill](https://www.devb.gov.hk/en/legco_matters/replies_to_legco_questions/index_id_9304.html) enacted; eligible commercial / residential / industrial leases auto-extend **50 years from 30 June 2047** without new premium (annual government rent at 3% rateable value continues post-renewal)
 - **Foreign-buyer rule**: **NO restriction** on foreigners buying residential property; **NO BSD/SSD/NRSD since 28 Feb 2024** ([Government press release](https://www.info.gov.hk/gia/general/202402/28/P2024022800551.htm)); only Ad Valorem Duty Scale 2 applies. NT village houses (丁屋) under Small House Policy carry restrictions for indigenous male villagers only
-- **Visa**: Top Talent Pass Scheme (TTPS) / Quality Migrant Admission Scheme (QMAS) / Immigration Arrangements for Non-local Graduates (IANG) / **New Capital Investment Entrant Scheme (CIES)** reactivated 1 Mar 2024 — HK$30M+ in permissible assets (residential property up to HK$10M counts as ancillary, NOT primary investment) ([New CIES official portal](https://www.newcies.gov.hk/))
+- **Visa**: Top Talent Pass Scheme (TTPS) / Quality Migrant Admission Scheme (QMAS) / Immigration Arrangements for Non-local Graduates (IANG) / **New Capital Investment Entrant Scheme (CIES)** reactivated 1 Mar 2024 — HK$30M+ in permissible assets (residential property up to HK$10M counts as ancillary, NOT primary investment) ([New CIES Scheme Rules](https://www.newcies.gov.hk/media/jvkfl4uq/scheme-rule-en.pdf))
 - **Recent reforms (2024–2026 watershed)**:
   - **28 Feb 2024**: BSD (Buyer's Stamp Duty 15%), SSD (Special Stamp Duty up to 20%), NRSD (New Residential Stamp Duty 7.5%) **all abolished**; mortgage stress test suspended ([HKMA 2024-02-28 circular](https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20240228-3-EN/20240228-3-EN.pdf))
   - **1 Mar 2024**: New CIES launched
@@ -570,7 +570,7 @@ HKMA's [USD foreign reserves](https://www.hkma.gov.hk/eng/news-and-media/press-r
 | **Typhoon / windstorm** | usually included in fire + contents bundle |
 | **Flood** | included in major bundles (Generali, AXA, Bowtie); confirm sub-limit |
 | **Earthquake** | usually included up to small sub-limit (HK low risk; not headline) |
-| **Domestic helper insurance** (if hiring) | Mandatory under [Employees' Compensation Ordinance Cap. 282](https://www.labour.gov.hk/eng/public/content2_7.htm) — HK$500–HK$1,500/yr per helper |
+| **Domestic helper insurance** (if hiring) | Mandatory under [Employees' Compensation Ordinance Cap. 282](https://www.labour.gov.hk/eng/public/ecd/Know_more_about_taking_out_ECI_eng.pdf) — HK$500–HK$1,500/yr per helper |
 
 ### Major insurers
 
