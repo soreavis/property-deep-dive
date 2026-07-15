@@ -180,8 +180,8 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 ### 🇬🇮 GI
 
 - `2024-12-23 | tax | Stamp Duties (Amendment) Act No. 37 of 2024 effective 23 Dec 2024 (FTB threshold £300k since 11 Jul 2023; Affordable Housing 7.5% on resale-within-10yr; mortgage stamp duty 0.13% / 0.20%) | Gibraltar Income Tax Office | 2026-05-27 | 2026-09-01 | 2 | --tax --finance (GI)`
-- `2026-07-15 (PROVISIONAL) | visa | EU-UK Frontier Treaty provisional application — does NOT override Gibraltar immigration; Gibraltar press 148/2026 explicit | Consilium press release 01 Apr 2026 | 2026-05-27 | 2026-08-01 | 1 | --visa --foreign-buyer --remote (GI)`
-- `pending | visa | Cat-2 reform expected (community signal r/gibraltar 1tkeoa5, no primary date) — tier-4 anecdotal, revisit Q3 2026 | r/gibraltar 1tkeoa5 | 2026-05-27 | 2026-10-01 | 4 | --visa (GI)`
+- `2026-07-15 | visa | EU-UK Gibraltar Treaty PROVISIONALLY APPLIED since 15 Jul 2026 (Art. 336; ratification pending — EP consent expected autumn 2026 + UK CRAG): land-frontier immigration checks + barriers removed, dual Schengen checks at Gibraltar airport/port (Spanish officials for Schengen integrity), residents exempt EES/ETIAS/wet-stamping; Gibraltar immigration/residency law UNCHANGED (press 148/2026) though residence-permit approval gains an EU-facing coordination step (FCDO summary s.14) | Consilium 01 Apr 2026 + FCDO summary + HMGoG PR 148/234/517/2026 | 2026-07-02 | 2026-10-15 | 1 | --visa --foreign-buyer --remote (GI)`
+- `2026-06-17 (announced — regulations pending) | visa | Residence Criteria framework announced (HMGoG press 466/2026): residency to require genuine economic contribution + regulatory compliance; residence alone does not grant social benefits reserved for Gibraltarian Status; new residence legislation published ahead of 15 Jul 2026 per HMGoG treaty portal; earlier community signal (r/gibraltar 1tkeoa5, was tier-4 anecdotal) now primary-confirmed in direction — Cat-2/HEPSS-specific changes still unconfirmed (law-firm secondary only) | HMGoG PR 466/2026 + treaty-gov.info | 2026-07-02 | 2026-10-01 | 2 | --visa (GI)`
 
 ### 🇨🇭 CH
 
