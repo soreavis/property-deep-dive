@@ -299,12 +299,12 @@ The GitHub Actions in `.github/workflows/` automate the read-only parts:
 
 | Workflow | Cadence | What it does |
 |---|---|---|
-| `url-liveness.yml` | **paused** (manual `workflow_dispatch` only) | curl HEAD on every URL in every Markdown file in the repo; opens issue if score <85%. Schedule disabled 2026-05-08 — serial bash checker times out at 90 min after Tier-1+2 country sprint pushed URL set past the bash-loop budget; awaiting Python rewrite (aiohttp + per-host semaphore + Retry-After + result cache) |
+| `url-liveness.yml` | weekly (Mon 09:17 UTC) | `scripts/url-liveness.py` (aiohttp) over every URL in every Markdown file in the repo — ~6,600 URLs in ~17 min cold / ~5 min warm, robots.txt + per-host throttling + Retry-After, 30-day result cache, 3-run rolling fail-streak before a URL counts as dead; opens/updates a rolling issue when the score falls below 90%. Re-enabled 2026-05-26 after the Python rewrite replaced the serial-bash checker that hit the 90-min cap |
 | `health-report.yml` | monthly | parses `Last verified` dates, renders decay matrix with cadence-tier column, posts to pinned issue |
 | `tier-a-refresh.yml` | quarterly | opens tracking issue listing the 16 Tier-A countries due for refresh |
 | `tier-b-refresh.yml` | semi-annual | opens tracking issue listing the 38 Tier-B countries due for refresh |
 | `tier-c-refresh.yml` | annual | opens tracking issue listing the 49 Tier-C countries due for refresh |
-| `feed-watcher.yml` | every 6h | EU Official Journal + ECJ press RSS → opens issue when property-relevant directives land |
+| `feed-watcher.yml` | daily | EC Press Corner + EP adopted texts + EP legislative procedures + CJEU press feeds → opens issue when property-relevant items land |
 
 These are **detection-only**; the fix step (re-research, URL replacement, regulatory-watch entry) still requires human + Claude in the loop.
 
@@ -348,9 +348,9 @@ property-deep-dive/
 │       ├── link-check.yml               # lychee internal links (PR + weekly schedule)
 │       ├── changelog-enforcer.yml       # require [Unreleased] entry unless skip-labelled
 │       ├── changelog-on-merge.yml       # batches merged PRs into chore/changelog-digest, weekly Monday flip
-│       ├── url-liveness.yml             # URL check (cron paused 2026-05-08; manual workflow_dispatch only — see Maintenance §)
+│       ├── url-liveness.yml             # weekly aiohttp URL check → rolling issue below 90%
 │       ├── health-report.yml            # monthly decay matrix → pinned issue
-│       ├── feed-watcher.yml             # 6-hourly EU/ECJ feed → opens issue when relevant
+│       ├── feed-watcher.yml             # daily EC/EP/CJEU feeds → opens issue when relevant
 │       ├── transposition-alerts.yml     # EU directive transposition deadline tracker
 │       ├── regulatory-watch-revisit.yml # surface regulatory-watch entries past their revisit_by
 │       ├── confidence-audit.yml         # check Confidence label vs primary-source URL count per playbook

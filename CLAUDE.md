@@ -93,7 +93,7 @@ skills/property-deep-dive/                # the skill payload (everything plugin
 │   ├── <15 sub-section extensions>       # mains-reliability / transport-noise / finance-banking / notary-forced-heirship / notary-deed-anatomy / risks-build-quality / digital-nomad-healthcare / rental-yield-delta / relocation-household-customs / work-rights / … (15 total)
 │   └── <9 tooling docs>                  # tco / mortgage / fixtures / diff-watcher / etc.
 └── countries/<iso2>/playbook.md          # 121 country playbooks
-.github/workflows/                        # weekly URL liveness, monthly health report, 6h feed watcher
+.github/workflows/                        # weekly URL liveness, monthly health report, daily feed watcher
 config/_regions.json                      # docs-build input (README country matrix grouping) — NOT loaded by the skill at runtime
 config/_tiers.json                        # refresh-cadence tier membership (A 90d / B 180d / C 365d) — read by audit/refresh CI
 ```
