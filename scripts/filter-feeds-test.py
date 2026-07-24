@@ -208,6 +208,12 @@ class TestUnusableFeeds(unittest.TestCase):
                       "</channel></rss>")
         self.assertEqual(code, 2)
 
+    def test_empty_body_exits_2(self):
+        # AWS WAF answers a challenge with HTTP 202 + an empty body; the workflow
+        # catches that before parsing, but a zero-byte feed must never read as OK.
+        code, _ = run("")
+        self.assertEqual(code, 2)
+
     def test_malformed_xml_exits_2(self):
         code, _ = run("<rss><channel><item><title>unclosed")
         self.assertEqual(code, 2)

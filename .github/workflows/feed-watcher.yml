@@ -24,6 +24,15 @@ jobs:
       # Feeds hold 10-25 items and are polled daily; without this window every poll
       # re-reports the same items and opens a duplicate issue.
       WINDOW_DAYS: '3'
+      # `Mozilla/5.0 (compatible; …)`, not a bare product token: EU hosts increasingly
+      # sit behind WAFs that challenge an unrecognised UA (europarl.europa.eu answers
+      # `property-deep-dive-ci/1.0`, `somebot/1.0` and even a bare `Mozilla/5.0` with
+      # HTTP 202 + an empty body — verified 2026-07-24, 3 reps each). The product
+      # token and contact URL stay, so this identifies the CI honestly rather than
+      # impersonating a browser. It is NOT a bypass: that host challenges GitHub
+      # runner IPs whatever the UA, which is why the EP feeds below now come from
+      # the EP's Open Data host instead.
+      FEED_UA: 'Mozilla/5.0 (compatible; property-deep-dive-ci/1.0; +https://github.com/${{ github.repository }})'
 
     steps:
       - name: Checkout
@@ -49,14 +58,33 @@ jobs:
             # assigns any, so `xml="_ci/${name}.xml"` here would read an unbound
             # `name` and abort under `set -u`.
             local xml="_ci/${name}.xml"
+            local hdr="_ci/${name}.headers"
+            local code waf
             total=$((total + 1))
 
-            if ! curl -fsSL --max-time 20 --retry 3 --retry-delay 2 \
-                 -H "User-Agent: property-deep-dive-ci/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
-                 -H 'Accept: application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8' \
-                 "$url" -o "$xml"; then
+            # 45 s, not 20: the Open Data Atom feeds are 250-280 KB and answer in
+            # 4-10 s from a cold host — 20 s left no headroom under load.
+            # Atom leads the Accept list: the Open Data API content-negotiates
+            # strictly and 406s whenever `application/rss+xml` outranks atom, while
+            # the two RSS sources ignore the header entirely.
+            if ! code=$(curl -fsSL --max-time 45 --retry 3 --retry-delay 2 \
+                 -H "User-Agent: ${FEED_UA}" \
+                 -H 'Accept: application/atom+xml, application/rss+xml;q=0.9, application/xml;q=0.8, */*;q=0.7' \
+                 -D "$hdr" -w '%{http_code}' "$url" -o "$xml"); then
               echo "::warning title=Feed unreachable::${name} could not be fetched — ${url}"
               echo "- \`${name}\` — unreachable (<${url}>)" >> _ci/dead-feeds.txt
+              return 0
+            fi
+
+            # A bot wall is not a retired feed, and must not be reported as one.
+            # AWS WAF answers a challenge with HTTP 202 + an empty body, which is a
+            # 2xx — `curl -f` passes it through and the parser then reports "no
+            # element found", indistinguishable from a genuinely dead source. That
+            # misdiagnosis is what the 2026-07-24 run produced for both EP feeds.
+            if [ ! -s "$xml" ]; then
+              waf=$(grep -i '^x-amzn-waf-action:' "$hdr" | tail -1 | tr -d '\r' | cut -d: -f2- | tr -d ' ') || true
+              echo "::warning title=Feed blocked::${name} returned an empty body (HTTP ${code}${waf:+, x-amzn-waf-action: ${waf}}) — bot wall, not a retired feed — ${url}"
+              echo "- \`${name}\` — empty body (HTTP ${code}${waf:+, \`x-amzn-waf-action: ${waf}\`}) — bot wall, not a retired feed; fix the User-Agent before touching the URL (<${url}>)" >> _ci/dead-feeds.txt
               return 0
             fi
 
@@ -74,8 +102,21 @@ jobs:
             ok=$((ok + 1))
           }
 
-          # Curated primary-source feeds, all verified live 2026-07-09.
-          # Removed the same day, all three silently dead:
+          # Curated primary-source feeds. EC-Press + CJEU-PR verified live 2026-07-09;
+          # the two EP slots re-pointed and all four re-verified from a GitHub runner
+          # 2026-07-24.
+          #
+          # Re-pointed 2026-07-24 — www.europarl.europa.eu moved behind an AWS WAF that
+          # challenges every GitHub-runner IP (HTTP 202 + empty body) whatever the UA,
+          # so its RSS is unreadable from CI although both feeds are live in a browser.
+          # The EP's Open Data host serves the same signal as Atom and answers runners
+          # normally (English titles, ISO-8601 <updated>, ~500 and ~410 entries):
+          #   EP-Adopted    rss/doc/texts-adopted/en.xml  → api/v2/adopted-texts/feed
+          #   EP-Press      rss/doc/press-releases/en.xml → no Open Data equivalent;
+          #                 the slot now carries the legislative pipeline (procedures),
+          #                 which surfaces a reform before adoption rather than after.
+          #
+          # Removed 2026-07-09, all three silently dead:
           #   EU-OJ-L   eur-lex.europa.eu/EN/display-feed.rss — HTTP 200 + "The RSS feed
           #             doesn't exist or is no longer valid"; EUR-Lex now gates RSS behind
           #             a signed-in account. EP-Adopted covers the legislation signal.
@@ -83,10 +124,10 @@ jobs:
           #             its feed to site/rss.jsp (see CJEU-PR below).
           #   OECD-Tax  oecd.org/tax/feed/ — HTTP 403; oecd.org blocks non-browser clients
           #             host-wide (the bare homepage 403s too), so no path is CI-reachable.
-          fetch_and_filter "EC-Press"   "https://ec.europa.eu/commission/presscorner/api/rss?language=en"
-          fetch_and_filter "EP-Press"   "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml"
-          fetch_and_filter "EP-Adopted" "https://www.europarl.europa.eu/rss/doc/texts-adopted/en.xml"
-          fetch_and_filter "CJEU-PR"    "https://curia.europa.eu/site/rss.jsp?lang=en&secondLang=fr"
+          fetch_and_filter "EC-Press"      "https://ec.europa.eu/commission/presscorner/api/rss?language=en"
+          fetch_and_filter "EP-Adopted"    "https://data.europarl.europa.eu/api/v2/adopted-texts/feed"
+          fetch_and_filter "EP-Procedures" "https://data.europarl.europa.eu/api/v2/procedures/feed"
+          fetch_and_filter "CJEU-PR"       "https://curia.europa.eu/site/rss.jsp?lang=en&secondLang=fr"
 
           {
             echo "### Feed watcher — ${ok}/${total} feeds healthy"
@@ -153,7 +194,7 @@ jobs:
           set -euo pipefail
           if [ -s _ci/dead-feeds.txt ]; then
             dead=$(grep -c '' _ci/dead-feeds.txt)
-            echo "::error title=Dead regulatory feeds::${dead} of ${{ steps.feeds.outputs.feeds_total }} feeds are dead — fix the URL or drop the source"
+            echo "::error title=Dead regulatory feeds::${dead} of ${{ steps.feeds.outputs.feeds_total }} feeds are dead or blocked — fix the URL, fix the User-Agent, or drop the source"
             cat _ci/dead-feeds.txt
             exit 1
           fi
