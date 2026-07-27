@@ -33,6 +33,20 @@ jobs:
       # runner IPs whatever the UA, which is why the EP feeds below now come from
       # the EP's Open Data host instead.
       FEED_UA: 'Mozilla/5.0 (compatible; property-deep-dive-ci/1.0; +https://github.com/${{ github.repository }})'
+      # CJEU-PR only. curia.europa.eu moved behind a Microsoft Azure Application
+      # Gateway between the 26 Jul run (green) and the 27 Jul one, and it 403s
+      # every non-browser UA — FEED_UA above, a bare product token and `curl/8`
+      # alike all get a 286 KB block page, while a desktop Chrome or Firefox UA
+      # gets HTTP 200 and the feed (verified from a GitHub runner AND locally
+      # 2026-07-27, 3 reps each). Unlike the EP feeds there is nowhere to
+      # re-point: curia is the sole publisher of the Court's press releases and
+      # EUR-Lex RSS is account-gated. So this slot — and only this slot — sends
+      # a browser-shaped envelope with the product token and contact URL
+      # appended, which still self-identifies and still answers 200 (8/8 reps).
+      # curia's robots.txt permits the path (one `User-agent: *` group, 17
+      # document-specific Disallows, none matching /site/rss.jsp, no
+      # crawl-delay) and the poll runs once a day.
+      CJEU_UA: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 property-deep-dive-ci/1.0 (+https://github.com/${{ github.repository }})'
 
     steps:
       - name: Checkout
@@ -59,6 +73,8 @@ jobs:
             # `name` and abort under `set -u`.
             local xml="_ci/${name}.xml"
             local hdr="_ci/${name}.headers"
+            # Per-feed UA override; FEED_UA unless a third argument is passed.
+            local ua="${3:-$FEED_UA}"
             local code waf
             total=$((total + 1))
 
@@ -68,11 +84,17 @@ jobs:
             # strictly and 406s whenever `application/rss+xml` outranks atom, while
             # the two RSS sources ignore the header entirely.
             if ! code=$(curl -fsSL --max-time 45 --retry 3 --retry-delay 2 \
-                 -H "User-Agent: ${FEED_UA}" \
+                 -H "User-Agent: ${ua}" \
                  -H 'Accept: application/atom+xml, application/rss+xml;q=0.9, application/xml;q=0.8, */*;q=0.7' \
                  -D "$hdr" -w '%{http_code}' "$url" -o "$xml"); then
-              echo "::warning title=Feed unreachable::${name} could not be fetched — ${url}"
-              echo "- \`${name}\` — unreachable (<${url}>)" >> _ci/dead-feeds.txt
+              # curl still writes %{http_code} when -f rejects a 4xx/5xx, and the
+              # status is what turns "unreachable" into a diagnosis: naming the
+              # 403 would have identified the 2026-07-27 curia WAF block from the
+              # log alone instead of costing a runner probe. `000` = no response.
+              local why="HTTP ${code}"
+              if [ "$code" = '000' ]; then why='no HTTP response — DNS, TLS or timeout'; fi
+              echo "::warning title=Feed unreachable::${name} could not be fetched — ${why} — ${url}"
+              echo "- \`${name}\` — unreachable (${why}) (<${url}>)" >> _ci/dead-feeds.txt
               return 0
             fi
 
@@ -104,7 +126,8 @@ jobs:
 
           # Curated primary-source feeds. EC-Press + CJEU-PR verified live 2026-07-09;
           # the two EP slots re-pointed and all four re-verified from a GitHub runner
-          # 2026-07-24.
+          # 2026-07-24; CJEU-PR given its own UA 2026-07-27 (see CJEU_UA above — same
+          # URL, Azure WAF now browser-UA-only).
           #
           # Re-pointed 2026-07-24 — www.europarl.europa.eu moved behind an AWS WAF that
           # challenges every GitHub-runner IP (HTTP 202 + empty body) whatever the UA,
@@ -127,7 +150,7 @@ jobs:
           fetch_and_filter "EC-Press"      "https://ec.europa.eu/commission/presscorner/api/rss?language=en"
           fetch_and_filter "EP-Adopted"    "https://data.europarl.europa.eu/api/v2/adopted-texts/feed"
           fetch_and_filter "EP-Procedures" "https://data.europarl.europa.eu/api/v2/procedures/feed"
-          fetch_and_filter "CJEU-PR"       "https://curia.europa.eu/site/rss.jsp?lang=en&secondLang=fr"
+          fetch_and_filter "CJEU-PR"       "https://curia.europa.eu/site/rss.jsp?lang=en&secondLang=fr" "$CJEU_UA"
 
           {
             echo "### Feed watcher — ${ok}/${total} feeds healthy"
