@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+
+- **Feed watcher opened a fresh issue for the same item on every poll inside the match window.** `WINDOW_DAYS: '3'` bounds how stale an item may be to count as a signal — it does not stop an item already reported yesterday from matching again today, and each poll unconditionally called `issues.create`. Over 16 days that produced **13 issues (#302–#320) carrying 5 distinct items**: one CJEU judgment reported 3× (#302–#304), one EC Daily News 3× (#304–#306), the CRR off-plan RTS 3× (#311–#313) and the EP housing-crisis text 3× (#317–#319), burying the genuinely new signal in re-reads. Added a dedupe step that pulls the bodies of feed-signal issues from the last 30 days (**open and closed** — a triaged item must not return) and drops every match whose link was already reported, keying on the feed link and falling back to the normalised title for link-less items; the issue-create and artifact-upload steps now gate on `has_new`, so a poll where nothing is new stays silent instead of filing noise. New `scripts/dedupe-feed-matches.py` + 6 unit tests, run in the workflow's existing test step; verified against the live repo (today's real 3-item match set → 3 already-reported / 0 new; the same set plus one synthetic item → 1 new, block intact). The misleading inline comment claiming the window prevented duplicates is corrected.
+
 ## [2026.07.0] - 2026-07-31
 
 ### Added

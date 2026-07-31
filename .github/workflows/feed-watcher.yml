@@ -21,8 +21,9 @@ jobs:
       KEYWORDS: 'property|real estate|housing|EPBD|short-let|short term rental|cadastre|land registry|stamp duty|transfer tax|capital gains|golden visa|residency|citizenship|mortgage|notary|landlord|tenancy|rental cap'
       # `property` alone matches "intellectual property" across the EU press feeds.
       EXCLUDE: 'intellectual property'
-      # Feeds hold 10-25 items and are polled daily; without this window every poll
-      # re-reports the same items and opens a duplicate issue.
+      # Feeds hold 10-25 items and are polled daily; the window keeps a backlog
+      # item from being re-reported as news. It does NOT stop duplicates — an item
+      # inside the window re-matches on every poll — that is the dedupe step's job.
       WINDOW_DAYS: '3'
       # `Mozilla/5.0 (compatible; …)`, not a bare product token: EU hosts increasingly
       # sit behind WAFs that challenge an unrecognised UA (europarl.europa.eu answers
@@ -52,8 +53,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0
 
-      - name: Unit tests — feed filter
-        run: python3 scripts/filter-feeds-test.py
+      - name: Unit tests — feed filter + dedupe
+        run: |
+          python3 scripts/filter-feeds-test.py
+          python3 scripts/dedupe-feed-matches-test.py
 
       - name: Fetch and filter regulatory feeds
         id: feeds
@@ -168,8 +171,38 @@ jobs:
           echo "feeds_ok=${ok}" >> "$GITHUB_OUTPUT"
           echo "feeds_total=${total}" >> "$GITHUB_OUTPUT"
 
-      - name: Upload feed snapshot
+      # WINDOW_DAYS bounds staleness, not duplication: an item keeps matching on
+      # every poll inside its window, and each poll used to open its own issue —
+      # #302-#320 were 13 issues carrying 5 distinct items. Filter against what
+      # recent feed-signal issues (open AND closed — a triaged item must not come
+      # back) already reported, and stay silent when nothing is new.
+      - name: Drop items an earlier issue already reported
+        id: dedupe
         if: steps.feeds.outputs.found_matches == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          since=$(date -u -d '30 days ago' +%Y-%m-%dT%H:%M:%SZ)
+          gh api --paginate -X GET "repos/${REPO}/issues" \
+            -f labels=regulatory-watch -f state=all -f since="$since" -f per_page=100 \
+            --jq '.[] | select(.title | startswith("Regulatory feed signal")) | .body' \
+            > _ci/reported.txt
+          python3 scripts/dedupe-feed-matches.py \
+            --matches _ci/matches.txt --reported _ci/reported.txt > _ci/new-matches.txt
+          mv _ci/new-matches.txt _ci/matches.txt
+
+          if [ -s _ci/matches.txt ]; then
+            echo "has_new=true" >> "$GITHUB_OUTPUT"
+            cat _ci/matches.txt
+          else
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+            echo "(every match was already reported in a recent issue — no new signal)"
+          fi
+
+      - name: Upload feed snapshot
+        if: steps.dedupe.outputs.has_new == 'true'
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
         with:
           name: feeds-${{ github.run_id }}
@@ -177,7 +210,7 @@ jobs:
           retention-days: 30
 
       - name: Open issue when matches found
-        if: steps.feeds.outputs.found_matches == 'true'
+        if: steps.dedupe.outputs.has_new == 'true'
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           script: |
