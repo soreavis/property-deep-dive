@@ -272,7 +272,7 @@ For batch / CI / scheduled runs, the GitHub Actions workflows in `.github/workfl
 This skill drives major financial decisions, so it's built around the contract that **every claim is either sourced, computed transparently, or labelled as uncertain**. Three layers enforce this:
 
 1. **Anti-hallucination guard** (`skills/property-deep-dive/shared/anti-hallucination.md`) — 8 mandatory pre-output checks, source-tier ranking, forbidden-phrasing list, calibrated hedging
-2. **Regulatory watch** (`skills/property-deep-dive/shared/regulatory-watch.md`) — single date-stamped registry tracking ENDED programs (golden visas, MEIN, NHR), recently enacted reforms (last 24 months), EU directive transposition deadlines, watchlist
+2. **Regulatory watch** (`skills/property-deep-dive/shared/regulatory-watch.md`) — single date-stamped registry tracking ENDED programs (golden visas, MEIN, NHR), recently enacted reforms (last 24 months), EU-wide instruments with their transposition/application dates, watchlist
 3. **Auto-downgrade rule** (`skills/property-deep-dive/shared/updater.md` § Auto-downgrade) — confidence labels decay over time without re-verification (HIGH → MEDIUM at 6 months, LOW at 12 months, STALE at 18 months); regulatory-watch entries can force STALE regardless of age
 
 Together: a 14-month-old playbook never silently displays "Confidence: HIGH", and a tax reform logged in regulatory-watch.md flags every affected playbook section until it's re-stamped.

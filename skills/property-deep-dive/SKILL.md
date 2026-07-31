@@ -215,7 +215,7 @@ The decay is computed at **render time** (every section invocation), not only du
 - ENDED programs registry (golden visas, NHR, MEIN, CBI — anti-hallucination critical)
 - Recently enacted reforms (last 24 months, all 126 countries)
 - Pending / in-flight reforms with revisit dates
-- EU directive transposition deadlines (EPBD recast 2024/1275 due 29 May 2026, AMLD6, DAC8, etc.)
+- EU-wide instruments — transposition and application dates (EPBD recast 2024/1275, AMLD6 2024/1640, DAC8, AI Act, CRR off-plan RTS)
 - Watchlist (rumored / proposed)
 
 Consult this file before any `--tax`, `--rental`, `--visa`, `--finance` output. A Tier 1 entry (e.g., MT MEIN ENDED) makes the corresponding playbook claim a confident lie if not yet patched.
