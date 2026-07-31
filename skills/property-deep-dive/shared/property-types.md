@@ -62,6 +62,12 @@ Combine: `/property-deep-dive <addr> --all --type=off-plan --journey=foreign-buy
 | 🇬🇧 | NHBC Buildmark or LABC warranty (10yr) |
 | 🇮🇪 | Homebond or Premier Guarantee (10yr) |
 
+#### EU: the guarantee now also drives the mortgage (from 12 Aug 2026)
+
+[Commission Delegated Regulation (EU) 2026/849](https://eur-lex.europa.eu/eli/reg_del/2026/849/oj/eng) of 16 April 2026 (OJ L, 2026/849, 23.7.2026 — applies **12 Aug 2026**) sets what counts as an *equivalent legal mechanism* under CRR art. 124(3)(a)(iii)(2), i.e. when an EU lender may treat a property still under construction under the preferential immovable-property risk weight. **Nothing here is a buyer obligation** — it is a bank capital rule — but it decides how cheaply, and whether, the off-plan purchase can be mortgaged. Conditions in art. 1 include: the completion guarantee is **required by the law of the member state where the property is built** (2); the guarantee runs until completion and is in writing (3, 8); the protection provider is a **credit institution or an insurance undertaking** (4) and does **not belong to the lender's group** (5); activation is **timely and unconditional**, and the developer's own default cannot block it (10); where the building holds several units, **one single guarantee covers all of them** (9).
+
+Ask the lender early, since it changes the offer, not the contract: is the national guarantee scheme accepted for preferential treatment on this specific build? Whether a given scheme meets all of art. 1(2)–(13) is the lender's assessment — treat "our guarantee qualifies" as a claim to verify with the bank, not a given.
+
 #### Red flags specific to off-plan
 
 - 🔴 **No completion guarantee** — walk away

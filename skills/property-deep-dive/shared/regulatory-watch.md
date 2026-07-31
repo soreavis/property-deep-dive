@@ -751,8 +751,11 @@ EU directives apply to all 27 member states. Transposition deadline is the date 
 | **2023/2226** (DAC8) | Crypto-asset reporting | 31 Dec 2025 transposition; first reports 2026 | Transposed; first reporting cycle live | `--tax` |
 | **(EU) 2024/1689** (AI Act) | High-risk AI in mortgage scoring etc. | Phased through Aug 2026 | Phased rollout | `--finance` (indirect) |
 | **2018/2002** (EED amendment) | Energy efficiency | Continuing transposition reviews | Ongoing | `--esg` |
+| **(EU) 2026/849** (CRR RTS, delegated) | What counts as an **equivalent legal mechanism** — i.e. a completion guarantee — for a residential property **under construction** under CRR art. 124(3)(a)(iii)(2); decides whether a lender may apply the preferential immovable-property risk weight to an off-plan mortgage | n/a — directly applicable, no transposition; **applies 12 Aug 2026** | Adopted 16 Apr 2026 (C/2026/2429), [OJ L, 2026/849, 23.7.2026](https://eur-lex.europa.eu/eli/reg_del/2026/849/oj/eng); in force 20th day after publication. Built on EBA final draft EBA/RTS/2025/05 (submitted 5 Aug 2025) + EBA opinion EBA/Op/2026/03 (20 Feb 2026). Verified 2026-07-31 | `--finance` `--type=off-plan` |
 
 **Rule**: For any EU country playbook's `--esg` or `--rental` section, EPBD recast 2024/1275 must be referenced if the section claims any energy-rating rental ban schedule. The deadline 29 May 2026 is **imminent** as of Apr 2026 — surface the deadline date in the playbook.
+
+**Rule**: Reg (EU) 2026/849 is a **bank-side prudential rule, not a buyer obligation** — never present it as something the buyer must satisfy. It is relevant only where a `--type=off-plan` or `--finance` brief discusses mortgage availability: art. 1(2) requires the completion guarantee to be one the **member state's own law requires**, so a jurisdiction with no statutory completion guarantee cannot meet the test at all. Whether a given national scheme (FR *garantie financière d'achèvement*, ES *aval bancario* / *seguro de caución*, IT *polizza fideiussoria*, …) satisfies **all** of art. 1(2)–(13) is the lender's assessment — do not assert that it does.
 
 ---
 
