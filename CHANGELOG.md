@@ -52,6 +52,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+## [2026.07.0] - 2026-07-31
+
 ### Added
 
 - **FR DROM overlay wired into the router — overseas départements now load their deltas.** The 254-line `shared/fr-drom-overlay.md` (Guadeloupe / Martinique / Guyane / Réunion / Mayotte — DROM TVA rates, *octroi de mer*, *taxe foncière* abattements, majored notary *émoluments*, Letchimy indivision regime, cyclone/seismic hazard profiles) existed but was referenced **nowhere in the skill payload**, so a DROM address (postcode `971xx`–`976xx`, detected as `fr`) loaded metropolitan FR rules with none of the overseas deltas. Added a DROM-detection annex to `countries/fr/playbook.md` and a routing note to `SKILL.md`'s load step, so the overlay is now applied on top of the FR baseline for `gp`/`mq`/`gf`/`re`/`yt`. Wiring only — no figures invented.
