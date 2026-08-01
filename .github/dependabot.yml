@@ -10,10 +10,15 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
+      # `monthly` runs on the 1st of the month. `time`/`timezone` apply to every
+      # interval, but `day` is weekly-only — it was set to monday here and
+      # silently ignored, implying a cadence that never existed. Don't re-add it
+      # without switching `interval` to weekly.
       interval: monthly
-      day: monday
       time: "09:00"
       timezone: Europe/Bratislava
+    # 5 is GitHub's own default, restated for visibility. Security-update PRs
+    # are exempt and don't count toward it. Raise only if batches start capping.
     open-pull-requests-limit: 5
     labels:
       - dependencies
