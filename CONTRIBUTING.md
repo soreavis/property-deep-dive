@@ -181,6 +181,14 @@ Two gates catch almost every first-time contributor. Both are easy to satisfy up
 
 **1. Touch `CHANGELOG.md`.** The required `CHANGELOG entry under [Unreleased]` check fails unless your PR edits `CHANGELOG.md`. Add a bullet under `## [Unreleased]` describing the change — never create a version header yourself (releases promote `[Unreleased]` atomically).
 
+Keep it to **600 characters** — `CHANGELOG entries stay short` enforces this on `[Unreleased]` only (released sections are historical record and exempt):
+
+```bash
+python3 scripts/check-changelog-length.py
+```
+
+Say what changed and why it matters, then stop. Investigation notes, evidence and command output belong in the PR body — that's permanent, linked from the squash commit, and doesn't get re-read by everyone scanning for "what changed". This file reached 512 KB because entries grew into research reports; the longest single bullet was over 13,000 characters.
+
 The check is skipped instead if the PR carries any of: `skip changelog`, `documentation`, `ci`, `dependencies`, `github-actions`, `duplicate`, `wontfix`. A maintainer can apply one for a genuinely trivial change; the check re-runs automatically when the label lands.
 
 **2. Re-sync the generated doc counts.** Several README figures (file counts, rounded line totals, the country matrix) are generated, and the required-adjacent `Doc sync check` compares them against the tree. If you add or remove files — or move line counts appreciably — run:

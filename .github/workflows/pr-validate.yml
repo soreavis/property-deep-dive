@@ -15,6 +15,20 @@ permissions:
   contents: read
 
 jobs:
+  changelog-length:
+    name: CHANGELOG entries stay short
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Cap [Unreleased] bullet length
+        # CHANGELOG.md hit 512 KB across 946 lines — the driver was entry length,
+        # not release count (median bullet 288 chars, p90 2,467, longest 13,073).
+        # Released sections are grandfathered; this only guards new entries.
+        run: python3 scripts/check-changelog-length.py --check
+
   markdownlint:
     name: Markdown lint
     runs-on: ubuntu-latest
