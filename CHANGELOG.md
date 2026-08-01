@@ -58,6 +58,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - **`Dependabot auto-merge` went red on a GitHub restriction it can never satisfy.** Every `github_actions` bump edits `.github/workflows/*`, and GitHub intermittently refuses `enablePullRequestAutoMerge` for such PRs with *"refusing to allow a GitHub App to create or update workflow … without `workflows` permission"*. `GITHUB_TOKEN` cannot be granted that scope — there is no `workflows` key in the Actions `permissions` block at all — so the job failed with no action available to the maintainer, while Dependabot's next rebase silently succeeded anyway (PRs #331 and #332 each failed then cleared on a later attempt). The merge step now retries three times and, if the refusal persists, emits a `::warning::` and passes instead of failing; any other `gh pr merge` error still fails loudly. Set the optional `AUTOMERGE_TOKEN` secret (a PAT carrying the `workflow` scope) to make workflow-touching auto-merges deterministic.
 
+### Changed
+
+- fix(ci): stop shallow fetch grafting the base branch; tolerate auto-merge refusal ([#333](https://github.com/soreavis/property-deep-dive/pull/333)) — by @soreavis
+
 ## [2026.07.0] - 2026-07-31
 
 ### Added
