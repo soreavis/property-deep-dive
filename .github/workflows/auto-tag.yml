@@ -100,6 +100,34 @@ jobs:
           echo "since=${since}"       >> "$GITHUB_OUTPUT"
           echo "proceed=true"         >> "$GITHUB_OUTPUT"
 
+      - name: Guard — plugin.json must not be from a different month than the tag
+        if: steps.compute.outputs.proceed == 'true'
+        env:
+          TAG: ${{ steps.compute.outputs.tag }}
+        # sign-release.yml builds the tarball FROM the tag, so whatever
+        # plugin.json says at tag time is what ships. Nothing else in the release
+        # path reads the manifest: this workflow derives the tag purely from the
+        # calendar, and `Version month guard` only fires on PRs that *change* the
+        # version — so a month could roll with no bump at all and the release
+        # would carry a manifest from the previous month. Fail loudly here: a
+        # missed tag is recoverable in minutes, a released tarball that disagrees
+        # with its own version string is not.
+        run: |
+          set -euo pipefail
+          manifest=$(python3 -c "import json;print(json.load(open('.claude-plugin/plugin.json'))['version'])")
+          echo "plugin.json: ${manifest}    tag to cut: ${TAG}"
+
+          if [ "${manifest%.*}" != "${TAG%.*}" ]; then
+            echo "::error::plugin.json is ${manifest} but this run would tag ${TAG} — different CalVer month. The release tarball would ship a manifest from another month. Bump it first (python3 scripts/next-version.py --write), land that on main, then re-run this workflow with force=true."
+            exit 1
+          fi
+
+          if [ "$manifest" != "$TAG" ]; then
+            echo "::warning::plugin.json is ${manifest}, tagging ${TAG} — same month, different MICRO. Allowed (mid-month MICRO releases legitimately run ahead of the monthly .0), but check this is what you meant."
+          else
+            echo "::notice::plugin.json matches ${TAG}."
+          fi
+
       - name: Push tag
         if: steps.compute.outputs.proceed == 'true'
         env:
