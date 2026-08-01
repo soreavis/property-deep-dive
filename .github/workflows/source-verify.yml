@@ -41,7 +41,9 @@ jobs:
 
       - name: Install deps (aiohttp + poppler for PDF extraction + pypdf fallback)
         run: |
-          python3 -m pip install --quiet 'aiohttp>=3.9,<4' 'pypdf>=4,<6'
+          # Hash-pinned lock, not an inline version range: --require-hashes makes
+          # a tampered index artifact fail the install instead of running.
+          python3 -m pip install --quiet --require-hashes -r requirements.txt
           sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
 
       - name: PDF-extractor smoke test (fail loudly if extraction is broken on the runner)

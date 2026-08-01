@@ -32,3 +32,27 @@ updates:
         update-types:
           - minor
           - patch
+
+  # Python deps for the scripts/ helpers CI runs (requirements.txt at root).
+  # Dependabot regenerates the hashes alongside the version pins, which an
+  # inline `pip install` in a workflow step could never give us.
+  # Per dependabot-auto-merge.yml these are a real runtime ecosystem: patch and
+  # minor land unattended, but a MAJOR bump here waits for human review.
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+      time: "09:00"
+      timezone: Europe/Bratislava
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+    commit-message:
+      prefix: chore
+      include: scope
+    groups:
+      pip-minor-patch:
+        applies-to: version-updates
+        update-types:
+          - minor
+          - patch

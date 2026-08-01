@@ -51,8 +51,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install aiohttp
-        run: python3 -m pip install --quiet 'aiohttp>=3.9,<4'
+      - name: Install Python deps (hash-pinned)
+        # Shared lock with source-verify.yml; pulls pypdf too, which this job
+        # doesn't use. One manifest for Dependabot beats two near-identical ones.
+        run: python3 -m pip install --quiet --require-hashes -r requirements.txt
 
       - name: Run unit tests
         run: python3 scripts/url-liveness-test.py
