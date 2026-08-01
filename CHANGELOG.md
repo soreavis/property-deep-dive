@@ -82,6 +82,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Security
 
+- **pypdf bumped `5.9.0` → `6.14.2`, clearing 35 advisories (2 high, 30 moderate, 3 low).** Every fix lands in the 6.x line, so the old `pypdf>=4,<6` constraint could never reach a patched version — CI had been installing a vulnerable pypdf since the cap was written. The exposure was pre-existing and invisible; putting the deps in a manifest ([#341](https://github.com/soreavis/property-deep-dive/pull/341)) is what surfaced it. `source-verify` uses only `PdfReader`/`.pages`/`.extract_text()`, unchanged across the major.
+
 - **CI Python dependencies are hash-pinned and Dependabot-tracked.** `source-verify.yml` and `url-liveness.yml` installed `aiohttp`/`pypdf` from inline version ranges — the install trusted whatever the index served, and Dependabot could not see them at all (it tracks declared manifests, never an inline `pip install`). Added a hash-pinned root `requirements.txt` with `requirements.in` as source; both workflows install with `--require-hashes`, and a `pip` ecosystem now tracks them. ([#341](https://github.com/soreavis/property-deep-dive/pull/341))
 
 ## [2026.07.0] - 2026-07-31
