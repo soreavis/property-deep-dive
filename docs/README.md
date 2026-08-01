@@ -16,7 +16,8 @@ Full documentation for **property-deep-dive**. Most content lives at the repo ro
 | [DISCLAIMER.md](../DISCLAIMER.md) | Decision-support scope; **not** legal/tax/financial advice |
 | [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md) | Contributor Covenant 2.1 + project-specific norms |
 | [SECURITY.md](../SECURITY.md) | Vulnerability scope, public vs private channels, disclosure timeline |
-| [CHANGELOG.md](../CHANGELOG.md) | CalVer scheme details + per-release notes |
+| [CHANGELOG.md](../CHANGELOG.md) | CalVer scheme details + current release notes |
+| [changelog/2026-h1.md](./changelog/2026-h1.md) | Archived releases `2026.04.0` → `2026.05.59`, frozen as published |
 | [CONTRIBUTING.md](../CONTRIBUTING.md) | PR checklist, anti-hallucination contract, source-tier ranking |
 | [CLAUDE.md](../CLAUDE.md) | Repo-specific working notes for Claude Code sessions |
 | [ROADMAP.md](../ROADMAP.md) | Country-addition backlog (Tier-1 + Tier-2 candidates), Crown Dependencies deferred, skip-list with reasoning |

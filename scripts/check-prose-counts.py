@@ -16,7 +16,9 @@ This guard greps tracked Markdown for country-count prose and classifies each hi
             for a cross-cutting section and may legitimately be < corpus. Reported as
             a WARNING for human review (never auto-failed — see the scope-vs-count rule).
 
-Excluded from scanning: CHANGELOG.md + ROADMAP.md (historical record), the country
+Excluded from scanning: CHANGELOG.md + ROADMAP.md and the archived changelog halves
+under docs/changelog/** (all historical record — "all 109 supported countries" was
+true when published and must not be rewritten to today's count), the country
 playbooks under countries/** (populations, statute/article numbers), and the
 hand-maintained country-matrix rows in SKILL.md (`| **xx** | ...`).
 
@@ -38,7 +40,10 @@ COUNTRIES_DIR = ROOT / "skills" / "property-deep-dive" / "countries"
 CANON = sum(1 for p in COUNTRIES_DIR.iterdir() if p.is_dir())
 
 EXCLUDE_FILES = {"CHANGELOG.md", "ROADMAP.md"}
-EXCLUDE_PATH_PARTS = ("/countries/",)  # playbooks carry populations + article numbers
+EXCLUDE_PATH_PARTS = (
+    "/countries/",        # playbooks carry populations + article numbers
+    "/docs/changelog/",   # archived releases — frozen as published, same rule as CHANGELOG.md
+)
 
 # Number must look like a country count (avoid matching years, prices, statutes).
 NUM = r"(?P<n>\b(?:9\d|1\d\d|2\d\d)\b)"  # 90-299
