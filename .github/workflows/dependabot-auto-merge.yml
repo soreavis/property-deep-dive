@@ -70,6 +70,28 @@ jobs:
       - name: Enable auto-merge (squash)
         if: steps.decide.outputs.merge == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # AUTOMERGE_TOKEN (optional): a PAT carrying the `workflow` scope. Set it
+          # to make auto-merge deterministic for github_actions bumps — see below.
+          GH_TOKEN: ${{ secrets.AUTOMERGE_TOKEN || secrets.GITHUB_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
-        run: gh pr merge --auto --squash "$PR_URL"
+        # Every github_actions bump edits .github/workflows/*, and GitHub
+        # intermittently refuses enablePullRequestAutoMerge for those PRs with
+        # "refusing to allow a GitHub App to create or update workflow ... without
+        # `workflows` permission". GITHUB_TOKEN can never satisfy that: there is no
+        # `workflows` key in the Actions permissions block. Dependabot re-runs this
+        # job on every rebase and it clears on a later attempt, so treat the refusal
+        # as a warning rather than a red build; any other error still fails loudly.
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if out=$(gh pr merge --auto --squash "$PR_URL" 2>&1); then
+              echo "$out"
+              exit 0
+            fi
+            echo "$out"
+            if ! grep -qF 'without `workflows` permission' <<<"$out"; then
+              exit 1
+            fi
+            if [ "$attempt" -lt 3 ]; then sleep 20; fi
+          done
+          echo "::warning::Auto-merge refused: GITHUB_TOKEN lacks the \`workflows\` scope needed for a PR touching .github/workflows/*. Dependabot retries on its next rebase; set the AUTOMERGE_TOKEN secret (PAT with \`workflow\` scope) to make this deterministic, or merge manually."

@@ -47,7 +47,11 @@ jobs:
           set -euo pipefail
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             base="origin/${{ github.base_ref }}"
-            git fetch --depth=1 origin "${{ github.base_ref }}" || true
+            # Full depth. `--depth=1` re-grafts a shallow origin/<base>, which
+            # destroys the merge base and makes `$base...HEAD` die with
+            # "fatal: no merge base" whenever <base> advanced after this PR
+            # branched (checkout already fetched full history via fetch-depth: 0).
+            git fetch origin "${{ github.base_ref }}" || true
             git diff --name-only --diff-filter=ACMR "$base...HEAD" -- '*.md' > _ci_changed.txt
           else
             # push to main — scan everything
@@ -116,7 +120,8 @@ jobs:
           set -euo pipefail
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             base="origin/${{ github.base_ref }}"
-            git fetch --depth=1 origin "${{ github.base_ref }}" || true
+            # Full depth — see the "no merge base" note in the anti-hallucination job.
+            git fetch origin "${{ github.base_ref }}" || true
             changed=$(git diff --name-only --diff-filter=ACMR "$base...HEAD" -- 'skills/property-deep-dive/countries/*/playbook.md' || true)
           else
             changed=$(find skills/property-deep-dive/countries -name 'playbook.md' 2>/dev/null || true)
@@ -175,7 +180,8 @@ jobs:
           set -euo pipefail
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             base="origin/${{ github.base_ref }}"
-            git fetch --depth=1 origin "${{ github.base_ref }}" || true
+            # Full depth — see the "no merge base" note in the anti-hallucination job.
+            git fetch origin "${{ github.base_ref }}" || true
             git diff --name-only --diff-filter=ACMR "$base...HEAD" -- 'skills/property-deep-dive/countries/*/playbook.md' > _changed.txt
           else
             find skills/property-deep-dive/countries -name 'playbook.md' > _changed.txt 2>/dev/null || true
@@ -362,7 +368,8 @@ jobs:
 
           head_ver=$(python3 -c "import json; print(json.load(open('$file'))['version'])")
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            git fetch --depth=1 origin "${{ github.base_ref }}" || true
+            # Full depth — see the "no merge base" note in the anti-hallucination job.
+            git fetch origin "${{ github.base_ref }}" || true
             base_ver=$(ver_at "origin/${{ github.base_ref }}")
           else
             base_ver=$(ver_at "HEAD~1")
