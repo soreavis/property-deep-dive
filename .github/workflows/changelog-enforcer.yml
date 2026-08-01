@@ -11,7 +11,15 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  # NOT cancel-in-progress. This job publishes a REQUIRED status context, and a
+  # `cancelled` check-run for a required context blocks the merge even when a
+  # newer successful run of the same context exists (observed on #337: the
+  # `labeled` run cancelled the `opened` run, succeeded, and the PR still sat at
+  # mergeStateStatus=BLOCKED until the cancelled suite was re-run). Since adding
+  # the `labeled` trigger below, opening a PR with a label — `gh pr create
+  # --label`, or a maintainer applying a skip label — reliably races these two
+  # events. The job takes ~10s, so cancelling buys nothing worth that trap.
+  cancel-in-progress: false
 
 permissions:
   contents: read
