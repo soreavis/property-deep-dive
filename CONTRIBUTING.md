@@ -175,9 +175,37 @@ The eight mandatory pre-output checks are documented in `skills/property-deep-di
 - **Timeouts required** — every job sets `timeout-minutes:` (default budget: 5 min for PR-validate, 30 min for url-liveness)
 - **No secrets in workflows** — the skill ships markdown only; all data sources are public. Workflows that try to read a secret fail review
 
+## What CI expects from your PR
+
+Two gates catch almost every first-time contributor. Both are easy to satisfy up front and annoying to discover from a red check.
+
+**1. Touch `CHANGELOG.md`.** The required `CHANGELOG entry under [Unreleased]` check fails unless your PR edits `CHANGELOG.md`. Add a bullet under `## [Unreleased]` describing the change — never create a version header yourself (releases promote `[Unreleased]` atomically).
+
+The check is skipped instead if the PR carries any of: `skip changelog`, `documentation`, `ci`, `dependencies`, `github-actions`, `duplicate`, `wontfix`. A maintainer can apply one for a genuinely trivial change; the check re-runs automatically when the label lands.
+
+**2. Re-sync the generated doc counts.** Several README figures (file counts, rounded line totals, the country matrix) are generated, and the required-adjacent `Doc sync check` compares them against the tree. If you add or remove files — or move line counts appreciably — run:
+
+```bash
+python3 scripts/sync-docs.py        # rewrite the generated blocks
+python3 scripts/sync-docs.py --check # confirm: "✓ All in sync."
+```
+
+Commit whatever it rewrites. You can run the other gates locally too:
+
+```bash
+npx markdownlint-cli2 '**/*.md'     # Markdown lint
+python3 scripts/audit-confidence.py # Confidence vs primary-source URLs
+```
+
+### If you are contributing from a fork
+
+Workflow runs on fork pull requests are held until a maintainer approves them, so your checks will sit as "waiting for approval" at first — that is expected, not a failure. A triage bot posts a summary of what your PR touches as soon as you open it; the eight required checks run once the maintainer releases them. Keeping a PR to Markdown-only changes gets it reviewed fastest.
+
 ## PR checklist
 
 ```
+- [ ] CHANGELOG.md updated under [Unreleased] (or a skip label applies)
+- [ ] `python3 scripts/sync-docs.py --check` reports "All in sync"
 - [ ] Anti-hallucination contract followed (forbidden phrasings absent; numbers sourced/computed/hedged)
 - [ ] All URLs validated (HEAD or GET 2xx; bot-protected exceptions tagged)
 - [ ] Country support matrix updated in SKILL.md (if new country)

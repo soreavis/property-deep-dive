@@ -1,0 +1,99 @@
+name: External PR triage
+
+# Pre-approval risk summary for pull requests from outside contributors.
+#
+# WHY THIS RUNS BEFORE APPROVAL: `pull_request_target` workflows execute in the
+# context of the base branch, which GitHub treats as trusted, so they run
+# regardless of the fork-approval policy (Settings > Actions > "Approval for
+# running fork pull request workflows from contributors" — currently set to
+# `all_external_contributors`). Everything on `pull_request` — including all
+# eight required checks — stays gated until a maintainer clicks "Approve and
+# run". So this job is the one signal available at decision time.
+#
+# SAFETY: this workflow never checks out the pull request's code. It reads the
+# changed-file list from the API and nothing else, so no fork-controlled code
+# executes even though the job holds a write-capable token. Do not add an
+# `actions/checkout` step here without a `ref` pinned to the base branch.
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  triage:
+    name: Summarise external PR risk
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    # Maintainer and automation PRs are never approval-gated, so they need no
+    # pre-approval summary.
+    if: >-
+      github.event.pull_request.author_association != 'OWNER'
+      && github.actor != 'dependabot[bot]'
+      && github.actor != 'github-actions[bot]'
+    steps:
+      - name: Post / refresh risk summary
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
+          ASSOC: ${{ github.event.pull_request.author_association }}
+        run: |
+          set -euo pipefail
+          files=$(gh pr view "$PR" --repo "$REPO" --json files --jq '.files[].path')
+          [ -n "$files" ] || { echo "No files reported — nothing to triage."; exit 0; }
+
+          ci=$(grep -cE '^\.github/|^scripts/' <<<"$files" || true)
+          nonmd=$(grep -cvE '\.md$' <<<"$files" || true)
+          total=$(grep -c . <<<"$files" || true)
+
+          if [ "$ci" -gt 0 ]; then
+            verdict='🔴 **Touches CI / executable surface** — read the diff before approving. Approving runs this repo'"'"'s workflows.'
+          elif [ "$nonmd" -gt 0 ]; then
+            verdict='🟠 **Touches non-Markdown files** — skim the diff before approving.'
+          else
+            verdict='🟢 **Markdown only** — lowest-risk shape for this repo.'
+          fi
+
+          body=$(cat <<EOF
+          <!-- external-pr-triage -->
+          ### External PR triage
+
+          $verdict
+
+          | | |
+          |---|---|
+          | Author | \`$AUTHOR\` ($ASSOC) |
+          | Files changed | $total |
+          | CI / script files | $ci |
+          | Non-Markdown files | $nonmd |
+
+          <details><summary>Changed paths</summary>
+
+          \`\`\`
+          $files
+          \`\`\`
+
+          </details>
+
+          The eight required checks have **not** run yet — they are held by the
+          fork-approval policy. Use **Approve and run** in the Actions tab to
+          release them, then merge once they are green.
+
+          _Automated pre-approval summary. No pull-request code was executed to produce it._
+          EOF
+          )
+
+          id=$(gh api "repos/$REPO/issues/$PR/comments" \
+                 --jq 'map(select(.body | contains("<!-- external-pr-triage -->"))) | .[0].id // empty')
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$id" -f body="$body" >/dev/null
+            echo "Updated triage comment $id"
+          else
+            gh api -X POST "repos/$REPO/issues/$PR/comments" -f body="$body" >/dev/null
+            echo "Posted triage comment"
+          fi

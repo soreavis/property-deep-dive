@@ -3,6 +3,11 @@ name: Changelog enforcer
 on:
   pull_request:
     branches: [main]
+    # `labeled`/`unlabeled` so applying a skipLabel below re-evaluates the gate
+    # instead of leaving a stale red that needs a manual re-run. Note this only
+    # fires for human- or PAT-applied labels: GitHub's recursion prevention means
+    # a label applied by GITHUB_TOKEN (our path-based labeler) emits no event.
+    types: [opened, synchronize, reopened, labeled, unlabeled]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

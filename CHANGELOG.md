@@ -52,15 +52,25 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Added
+
+- **`External PR triage` — a pre-approval risk summary for community pull requests.** The repo runs `all_external_contributors` as its fork-approval policy, so *nothing* on `pull_request` (including all eight required checks) executes until a maintainer clicks "Approve and run" — which left no signal at all to decide on. The new `pr-triage.yml` fills that window: it triggers on `pull_request_target`, which GitHub runs in the trusted base-branch context **regardless of approval settings**, and posts a sticky comment classifying the PR 🔴 (touches `.github/` or `scripts/`), 🟠 (any non-Markdown file) or 🟢 (Markdown only), with file counts and the full changed-path list. It never checks out the pull request's code — the changed-file list comes from the API — so no fork-controlled code runs despite the write-capable token. Maintainer and bot PRs are skipped, since those are never approval-gated.
+
+### Changed
+
+- **`CHANGELOG entry under [Unreleased]` now re-evaluates when a label changes.** The gate skips on any of `skip changelog` / `documentation` / `ci` / `dependencies` / `github-actions` / `duplicate` / `wontfix`, but only ran on `opened` / `synchronize` / `reopened` — so applying a skip label to an already-open PR left a stale red that needed a manual re-run. Added `labeled` / `unlabeled` to the trigger types. Note this fires for human- and PAT-applied labels only: GitHub's recursion prevention means a label applied by the path-based labeler's `GITHUB_TOKEN` emits no event.
+
+- **README generated line counts round to the nearest 1,000 above 10k, not 100.** A flat nearest-100 step meant a **six-line** PR could flip the six-figure repo total (109,254 → "109,300") and fail `Doc sync check` for a contributor who had touched nothing related — it happened twice in one session. `_round_100()` in `scripts/sync-docs.py` is now magnitude-aware (nearest 1,000 at 10k+, nearest 100 below), so the figure only moves on a change of real size. Sub-10k counts are unaffected.
+
+- **`CONTRIBUTING.md` documents the two gates that catch first-time contributors** — the `CHANGELOG.md` requirement (with the skip-label list) and re-running `scripts/sync-docs.py` for generated doc counts — plus a fork-contributor note explaining that "waiting for approval" is the expected initial state, not a failure.
+
+- fix(ci): stop shallow fetch grafting the base branch; tolerate auto-merge refusal ([#333](https://github.com/soreavis/property-deep-dive/pull/333)) — by @soreavis
+
 ### Fixed
 
 - **`PR validate` intermittently died with `fatal: no merge base` — shallow fetch was grafting the base branch.** Four jobs (`Anti-hallucination — forbidden phrasings`, `Country playbook — Last verified stamp present`, `Country playbook — minimum density + key sections`, `Version month guard`) checked out with `fetch-depth: 0` and then immediately ran `git fetch --depth=1 origin <base>`. That second fetch re-grafts `origin/<base>` as a *shallow* ref, discarding the history that the three-dot range `"$base...HEAD"` needs to locate a merge base — so every one of those jobs aborted with exit 128 the moment `main` advanced past the PR's fork point (i.e. whenever another PR merged while this one was open). Observed on the 2026-08-01 Dependabot batch, where `main` moved `78ac2d5 → ef83d6b` mid-run and the fetch logged `(forced update)` before dying. Dropped `--depth=1` at all four sites; `fetch-depth: 0` already supplies full history for all branches, so the refresh is now non-destructive. Verified with a controlled git repro that reproduces the exact `fatal: origin/main...HEAD: no merge base` before the change and diffs cleanly after. Three of the four jobs are **required** branch-protection checks, so this was intermittently blocking merges outright.
 
 - **`Dependabot auto-merge` went red on a GitHub restriction it can never satisfy.** Every `github_actions` bump edits `.github/workflows/*`, and GitHub intermittently refuses `enablePullRequestAutoMerge` for such PRs with *"refusing to allow a GitHub App to create or update workflow … without `workflows` permission"*. `GITHUB_TOKEN` cannot be granted that scope — there is no `workflows` key in the Actions `permissions` block at all — so the job failed with no action available to the maintainer, while Dependabot's next rebase silently succeeded anyway (PRs #331 and #332 each failed then cleared on a later attempt). The merge step now retries three times and, if the refusal persists, emits a `::warning::` and passes instead of failing; any other `gh pr merge` error still fails loudly. Set the optional `AUTOMERGE_TOKEN` secret (a PAT carrying the `workflow` scope) to make workflow-touching auto-merges deterministic.
-
-### Changed
-
-- fix(ci): stop shallow fetch grafting the base branch; tolerate auto-merge refusal ([#333](https://github.com/soreavis/property-deep-dive/pull/333)) — by @soreavis
 
 ## [2026.07.0] - 2026-07-31
 

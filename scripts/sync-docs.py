@@ -137,10 +137,14 @@ def load_regions() -> dict:
     return json.loads(REGIONS_FILE.read_text(encoding='utf-8'))
 
 def _round_100(n: int) -> int:
-    """Round to nearest 100, half-up. README line counts use rounded values
-    to stay human-readable; the actual exact value is volatile (changes on
-    every PR), and a precise number in a 'roughly N lines' context misleads."""
-    return ((n + 50) // 100) * 100
+    """Round to a granularity that survives an ordinary PR: nearest 1,000 from
+    10k up, nearest 100 below. README line counts use rounded values to stay
+    human-readable; the exact value is volatile and a precise number in a
+    'roughly N lines' context misleads. The step is magnitude-aware because a
+    flat 100 made the six-figure repo total flip on a 6-line PR, failing the
+    doc-sync gate for contributors who had touched nothing related."""
+    step = 1000 if n >= 10_000 else 100
+    return ((n + step // 2) // step) * step
 
 def compute_facts() -> dict[str, int]:
     total_lines = count_total_md_lines()
