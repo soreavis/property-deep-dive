@@ -2,6 +2,11 @@ version: 2
 updates:
   # GitHub Actions — keep workflow action versions current.
   # Skill ships Markdown only, so no language-runtime ecosystems to track.
+  # Auto-merge policy for the PRs this opens lives in
+  # .github/workflows/dependabot-auto-merge.yml: patch/minor from any ecosystem
+  # and major github_actions bumps land unattended once required checks pass.
+  # Editing this file makes Dependabot re-read the config and check immediately,
+  # which is the only way to force an off-schedule run without the UI button.
   - package-ecosystem: github-actions
     directory: /
     schedule:
