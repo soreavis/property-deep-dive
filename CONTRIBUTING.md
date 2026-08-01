@@ -205,6 +205,26 @@ npx markdownlint-cli2 '**/*.md'     # Markdown lint
 python3 scripts/audit-confidence.py # Confidence vs primary-source URLs
 ```
 
+### Python dependencies (`requirements.in` / `requirements.txt`)
+
+`scripts/` helpers that CI runs need `aiohttp` and `pypdf`. Nothing here is needed to *use* the skill — it ships Markdown only.
+
+**Version bumps are Dependabot's job, not yours.** It watches the `pip` ecosystem, edits `requirements.in`, and regenerates the hashes in `requirements.txt` itself; patch/minor land unattended, a major waits for review.
+
+You only intervene to **add or remove a package**, or change a constraint:
+
+```bash
+vim requirements.in                        # direct deps only
+./scripts/lock-requirements.py             # regenerate the hash-pinned lock
+./scripts/lock-requirements.py --check     # verify it's in sync
+```
+
+Then commit **both** files.
+
+Do not run `uv pip compile ... -o requirements.txt` directly, and never hand-edit `requirements.txt`. The raw command overwrites the header comment block — which is where the regeneration instructions live — and hand-editing breaks the hashes. The helper preserves the header and pins resolution to the CI runner (Python 3.12, linux x86_64), not your machine.
+
+CI installs with `--require-hashes`, so a lock that doesn't cover every transitive dependency fails the install rather than quietly resolving something else.
+
 ### If you are contributing from a fork
 
 Workflow runs on fork pull requests are held until a maintainer approves them, so your checks will sit as "waiting for approval" at first — that is expected, not a failure. A triage bot posts a summary of what your PR touches as soon as you open it; the eight required checks run once the maintainer releases them. Keeping a PR to Markdown-only changes gets it reviewed fastest.

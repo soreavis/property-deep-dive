@@ -8,14 +8,18 @@
 # hash"), and it gives Dependabot a manifest to track — an inline
 # `pip install aiohttp` in a workflow step is invisible to it.
 #
-# Regenerate (targets the CI runner, not your laptop):
+# Version bumps are Dependabot's job. Reach for the helper below only when you
+# ADD or REMOVE a package, or change a constraint in requirements.in by hand:
 #
-#   uv pip compile requirements.in --generate-hashes \
-#     --python-version 3.12 --python-platform x86_64-unknown-linux-gnu \
-#     -o requirements.txt
+#   ./scripts/lock-requirements.py           # regenerate in place
+#   ./scripts/lock-requirements.py --check   # fail if this file is stale
 #
-# Direct deps live in requirements.in; everything else below is transitive.
-# Keep --python-version in step with `python-version:` in the two workflows.
+# Use the helper, not `uv pip compile ... -o requirements.txt` directly — the raw
+# command overwrites this header, so the file would lose these instructions the
+# first time anyone followed them. The helper preserves the block and pins the
+# resolution to the CI runner (Python 3.12, linux x86_64) rather than your laptop.
+#
+# Direct deps live in requirements.in; everything below is transitive.
 
 aiohappyeyeballs==2.7.1 \
     --hash=sha256:065665c041c42a5938ed220bdcd7230f22527fbec085e1853d2402c8a3615d9d \
