@@ -76,6 +76,30 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(ci): stop shallow fetch grafting the base branch; tolerate auto-merge refusal ([#333](https://github.com/soreavis/property-deep-dive/pull/333)) — by @soreavis
 
+- feat(ci): pre-approval triage for community PRs + cut two false-red gates ([#336](https://github.com/soreavis/property-deep-dive/pull/336)) — by @soreavis
+
+- test(ci): probe AUTOMERGE_TOKEN by inviting a Dependabot bump ([#337](https://github.com/soreavis/property-deep-dive/pull/337)) — by @soreavis
+
+- fix(ci): stop the enforcer cancelling itself into a permanent BLOCKED state ([#338](https://github.com/soreavis/property-deep-dive/pull/338)) — by @soreavis
+
+- chore(deps): bump actions/stale from 10.3.0 to 11.0.0 ([#339](https://github.com/soreavis/property-deep-dive/pull/339)) — by @dependabot[bot]
+
+- chore(dependabot): drop the inert schedule.day, annotate the PR limit ([#340](https://github.com/soreavis/property-deep-dive/pull/340)) — by @soreavis
+
+- fix(ci): hash-pin the CI Python deps and put them under Dependabot ([#341](https://github.com/soreavis/property-deep-dive/pull/341)) — by @soreavis
+
+- fix(release): block auto-tag when plugin.json is from a different month ([#343](https://github.com/soreavis/property-deep-dive/pull/343)) — by @soreavis
+
+- feat(ci): cap CHANGELOG bullets at 600 chars and trim the backlog ([#344](https://github.com/soreavis/property-deep-dive/pull/344)) — by @soreavis
+
+- fix(security): bump pypdf 5.9.0 -> 6.14.2, clearing 35 advisories ([#345](https://github.com/soreavis/property-deep-dive/pull/345)) — by @soreavis
+
+- chore(changelog): archive 2026 H1 releases to docs/changelog/ ([#346](https://github.com/soreavis/property-deep-dive/pull/346)) — by @soreavis
+
+- feat(ci): add lock-requirements helper so regeneration stops erasing its header ([#348](https://github.com/soreavis/property-deep-dive/pull/348)) — by @soreavis
+
+- feat(ci): gate on requirements.txt matching requirements.in ([#349](https://github.com/soreavis/property-deep-dive/pull/349)) — by @soreavis
+
 ### Fixed
 
 - **A cancelled `Changelog enforcer` run left required-check PRs permanently BLOCKED.** Fallout of the `labeled` trigger above: opening a PR that already carries a label fires `opened` and `labeled` on the *same* SHA, and `cancel-in-progress` had the second cancel the first. A `cancelled` check-run for a **required** context blocks the merge even when a newer successful run exists — #337 showed 8/8 green and still refused to merge. Set `cancel-in-progress: false` here. ([#338](https://github.com/soreavis/property-deep-dive/pull/338))
