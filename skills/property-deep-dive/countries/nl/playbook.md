@@ -125,7 +125,7 @@ For primary residence:
 - Tax rate: **36%** of deemed return
 - Tax-free allowance: **€59,357 per fiscal partner** (2026)
 - Real return option: can use **werkelijk rendement** if lower
-- **Wet werkelijk rendement Box 3**: passed Tweede Kamer (lower house) 12 Feb 2026; **intended** effective **1 Jan 2028** — actual return basis going forward. ⚠️ Eerste Kamer (Senate) passage NOT yet secured: the Minister of Finance has flagged necessary amendments + Senate-rejection risk, so the 1 Jan 2028 start date is not yet certain (verify at Belastingdienst + Eerste Kamer before relying on it; 2026-05-28)
+- **Wet werkelijk rendement Box 3** (wetsvoorstel 36.748): permanent actual-return capital tax replacing the notional-yield system — **vermogensaanwas** as the main rule, **vermogenswinst taxed on realisation for real estate** (and start-up shares), with rent + dividend taxed in the year received. Passed Tweede Kamer (lower house) 12 Feb 2026; statutory reference date for entry into force is still **1 Jan 2028**, but commencement is by **koninklijk besluit**. ⚠️ **STALLED IN THE EERSTE KAMER (Senate) as of 7 Aug 2026** — plenary debate held 30 Jun 2026, after which a Senate majority (ordevoorstel-Crone, GroenLinks-PvdA) resolved to **SUSPEND the final vote** until the cabinet's announced **novelle** is treated; no Senate vote on the bill has been held. The motie-Schalk c.s. (no overriding objection if the government itself withdrew the bill) was **REJECTED 7 Jul 2026** (verworpen bij zitten en opstaan), so withdrawal was not endorsed either. The 1 Jan 2028 start is **NOT secured** — do not treat actual-return taxation as live before the Senate has voted on both the novelle and this bill (2026-08-07 verified; sources [Belastingdienst — what is my actual return](https://www.belastingdienst.nl/wps/wcm/connect/en/income-in-box-3/content/what-is-my-actual-return) + [Eerste Kamer 30 Jun 2026 — Senaat houdt stemming Box 3-wet](https://www.eerstekamer.nl/nieuws/20260630/senaat_houdt_stemming_box_3_wet) + Deloitte NL for the 12 Feb 2026 Tweede Kamer adoption)
 
 ### Transaction taxes — Overdrachtsbelasting
 
@@ -160,7 +160,7 @@ For primary residence:
 
 ### Future risk
 
-- **Wet werkelijk rendement Box 3** (2028): real return basis — major change for landlords + investors
+- **Wet werkelijk rendement Box 3** (targeted 1 Jan 2028 — **NOT secured**; final Eerste Kamer vote suspended pending the cabinet's novelle, 2026-08-07 verified): real return basis, with vermogenswinst on real estate taxed on realisation — major change for landlords + investors
 - **OZB** rising annually
 - **Eigenwoningforfait** continues to phase ratchet
 - **Box 3** for second homes likely tighter post-2028
@@ -364,7 +364,7 @@ For primary residence:
   - KCAF (Kennis Centrum Aanpak Funderingsproblematiek): public knowledge
   - Cost: €40k–€100k+ per house
 - **Energielabel C** required for office space; tightening for residential rental
-- **Wet werkelijk rendement Box 3 (2028)** — major Box 3 reform
+- **Wet werkelijk rendement Box 3 (targeted 2028 — NOT secured)** — major Box 3 reform; passed Tweede Kamer 12 Feb 2026 but stalled in the Eerste Kamer, final vote suspended pending the cabinet's novelle (2026-08-07 verified — see `--tax`)
 - **Wet betaalbare huur (1 Jul 2024)** — regulated mid-market up to 186 WWS points (**€1,228.07/mo**, 2026)
 - **Tijdelijke huur abolished** (1 Jul 2024) — flexible tenancy ending
 - **NHG cap €470,000 (2026)** — entry-level affordability (see `--tax` incentives)
@@ -410,9 +410,9 @@ For primary residence:
 
 ## Status
 
-✅ **Fully populated** (initially populated 2026-04-25); **Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+✅ **Fully populated** (initially populated 2026-04-25); **Last verified**: 2026-08-07 (Box 3 Wet werkelijk rendement Eerste Kamer status re-verified — stalled, final vote suspended 30 Jun 2026 pending novelle, 1 Jan 2028 start not secured; balance of the 2026-07-03 Tier-A quarterly refresh unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for Box 3 2026 rates (Belastingdienst + Van Lanschot + Deloitte confirm), HIGH for transfer tax (Belastingdienst), HIGH for Wet werkelijk rendement timeline (passed Tweede Kamer Feb 2026), HIGH for Wet betaalbare huur (1 Jul 2024 effective). MEDIUM for per-gemeente short-let licensing (rules change frequently).
+**Confidence**: HIGH for Box 3 2026 rates (Belastingdienst + Van Lanschot + Deloitte confirm), HIGH for transfer tax (Belastingdienst), HIGH for Wet werkelijk rendement status (passed Tweede Kamer 12 Feb 2026; STALLED in the Eerste Kamer — final vote suspended 30 Jun 2026 pending the cabinet's novelle) but LOW for its 1 Jan 2028 start date (not secured; commencement by koninklijk besluit), HIGH for Wet betaalbare huur (1 Jul 2024 effective). MEDIUM for per-gemeente short-let licensing (rules change frequently).
 
 ## Extension TODOs
 

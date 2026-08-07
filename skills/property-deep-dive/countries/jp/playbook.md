@@ -224,14 +224,14 @@ Progressive **10 % → 55 %** on each statutory heir's allotted share. Basic exe
 
 | Regime | Statute | Cap | Notes |
 |---|---|---|---|
-| **住宅宿泊事業 (jūtaku shukuhaku jigyō)** — Minpaku Law Type 1 | 住宅宿泊事業法 (2018-06-15) | **180 nights/year** (Apr 1 → Apr 1, counted by nights) | National regime; register with prefecture/政令市 health centre 保健所 |
+| **住宅宿泊事業 (jūtaku shukuhaku jigyō)** — Minpaku Law Type 1 | 住宅宿泊事業法 art.2(3) (2018-06-15) | **180 nights/year** (一年間で百八十日; Apr 1 → Apr 1, counted by nights) — **unchanged and in force**, re-checked against the e-Gov consolidated text (2026-08-07 verified) | National regime; register with prefecture/政令市 health centre 保健所 |
 | **国家戦略特区民泊 (tokku minpaku)** — Special Zone | 国家戦略特別区域法 | min 2-night stay; no annual cap in designated zones | Zones: Tokyo Ōta-ku, Ōsaka-shi/Ōsaka-fu, Niigata-shi, Kitakyūshū-shi, etc. **Ōsaka temporarily halted new applications May 2026** ([source](https://www.aiaig.com/en/investment-news/japan-airbnb-special-zone-minpaku-policy-2025)) |
 | **旅館業法 (Ryokan Gyōhō)** — Hotel/Inn Business Act | 1948 + 2018 reform | no nightly cap | Full hotel/旅館 or 簡易宿所 (kani shukusho — simplified guesthouse) license; municipal 保健所 license; building must satisfy 旅館業法 facility standards (washbasins, fire systems) |
 
-**Municipal-level overlay**:
-- **東京都 (Tokyo)**: each 23 ward sets supplementary rules; 新宿区, 渋谷区, 中野区 restrict residential-zone minpaku to weekends + Friday only; some wards prohibit altogether in 第一種低層住居専用地域
-- **京都市 (Kyoto)**: 住居専用地域 minpaku permitted **only mid-January to mid-March** (off-season) under 2018 city ordinance — effectively non-viable for most addresses
-- **大阪市 (Ōsaka)**: 2025–2026 oversight tightening; new 特区民泊 applications paused
+**Municipal-level overlay** — 住宅宿泊事業法 **art.18** lets 都道府県 / 保健所設置市 cut the operating period below the national 180 nights by 条例, so the municipal layer can be stricter than the statute (2026-08-07 verified, source [観光庁 民泊制度ポータル](https://www.mlit.go.jp/kankocho/minpaku/)):
+- **東京都 (Tokyo)**: each 23 ward sets supplementary rules; 新宿区, 渋谷区, 中野区 restrict residential-zone minpaku to weekends + Friday only; some wards prohibit altogether in 第一種低層住居専用地域 (2026-05-01 verified — carried forward, NOT re-verified 2026-08-07; confirm with the ward 保健所)
+- **京都市 (Kyoto)**: 住居専用地域 minpaku permitted **only 15 Jan noon → 16 Mar noon** (off-season) under 2018 city ordinance — effectively non-viable for most addresses. **Enforcement escalating**: a late 2-monthly report draws immediate 公表 / 過料 / 業務停止命令 / 廃止命令 from Feb 2026, and night + early-morning spot inspections expand from Apr 2026; a 条例改正 proposal targeted **within FY2026** covers 更なる営業日数の制限 (a further cut below the national 180) + wider siting limits — **proposed, NOT enacted** (2026-08-07 verified, source [京都市 市長記者会見 2026-01-29](https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000351/351332/04_2kisyakaiken.pdf))
+- **大阪市 (Ōsaka)**: 2025–2026 oversight tightening; new 特区民泊 applications paused (2026-05-01 verified — carried forward, NOT re-verified 2026-08-07; confirm with the 大阪市 特区民泊 registration office)
 - **沖縄県** (some municipalities): seasonal restrictions
 
 ### Tax + reporting obligations (民泊)
@@ -537,7 +537,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all anchored in MLIT / NTA / 法務局 / 国税庁 / J-SHIS / JMA / BoJ primary sources with date-stamped numerics + transparent computations.
 **Confidence**: **HIGH** for cadastre/seismic-standard/national-tax/transaction-cost (all 国税庁 + MLIT primary, multi-source corroborated). **MEDIUM** for current akiya market dynamics (highly local, 1,700+ municipalities — start with municipal akiya bank for parcel-level), municipal-level minpaku rules (per-ward overlay on top of national 180-day cap; verify via 保健所), and condominium 修繕積立金 trajectory (per-building, requires 管理組合 financials review).
-**Last verified**: 2026-07-02.
+**Last verified**: 2026-08-07.
 
 ## Extension TODOs (deepen on first real run)
 

@@ -113,11 +113,14 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 
 **VAT 17%** = one of the lower headline VAT rates in Europe; applies to first-sale new builds only
 
-### 2024 VAT refund reform (BiH state-level — not FBiH-only)
+### First-home VAT refund (art. 54a ZPDV) — IN FORCE, but CLOSED TO FOREIGN BUYERS
 
-- **Status as of 2026-05-27**: passed by BiH Parliamentary Assembly **lower house (Predstavnički dom) 22 October 2024** — **NOT yet confirmed in force**. Upper house (Dom naroda) ratification + UINO implementing pravilnik required before refund claims are accepted in practice. Verify status: [UINO VAT refund](https://www.uino.gov.ba/portal/en/vat/vat-refund/) + Sarajevo Times tracker *(2026-05-27 verified, source KPMG TaxNewsFlash + VATupdate + SEESrpska + UINO)*
-- **Scope (if/when enacted)**: state-level (covers FBiH + RS + Brčko), **not FBiH-only**. Adult BiH-resident first-time buyer of newly built individual housing or unit in a collective building; **40 m² for buyer + 15 m² per household member at 17 % VAT**
-- Major Sarajevo + Mostar construction boost expected once rulebook lands
+- **Status**: **IN FORCE and claimable since 8 July 2026**. Art. 54a ZPDV was adopted by the **Predstavnički dom 3 Dec 2024** and the **Dom naroda 2 Apr 2025** (Sl. glasnik BiH 20/25) but self-suspended until its rulebook landed; the **UINO rulebook art. 105a was published 30 June 2026** (Sl. glasnik BiH 45/26) and entered force **8 July 2026** — claims are now open. Verify status: [UINO VAT refund](https://www.uino.gov.ba/portal/en/vat/vat-refund/) + [UINO — povrat PDV-a za kupnju prvog stambenog objekta](https://www.uino.gov.ba/portal/hr/novosti-hr/povrat-pdv-a-za-kupnju-prvog-stambenog-objekta) *(2026-08-07 verified, source KPMG TaxNewsFlash + VATupdate + UINO)*
+- **ELIGIBILITY IS ADULT BiH CITIZENS WITH PERMANENT BiH RESIDENCE ONLY — a foreign buyer CANNOT claim this refund** *(2026-08-07 verified)*. As a foreign buyer, budget the full 17 % VAT into the new-build purchase price
+- **Scope**: state-level — covers **FBiH + RS + Brčko**, **not FBiH-only**. New-build only, and only where the sale is itself subject to VAT
+- **Amount**: **40 m² for the buyer + 15 m² per family-household member** at **VAT 17 %**; refund **capped at 14.5299 % × (BiH average flat price incl. VAT, from the latest Agency for Statistics quarterly bulletin at contract date) × 55 m²**
+- **Conditions**: buyer must not have owned residential property in the **prior 7 years**; **5-year no-resale lock-in** running from service of the decision
+- **Deadline**: claims due by **30 June of the year after the sale is registered**; a **6-month transitional window (to ~8 Jan 2027)** covers sales registered between 20/25 and 45/26 taking effect
 
 ### Personal income tax (PIT) — flat, by entity
 
@@ -146,7 +149,7 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 ### Future risk
 
 - EU accession reforms may align entities (slowly)
-- Sarajevo VAT refund reform expanding
+- First-home VAT refund is state-level and already IN FORCE (8 Jul 2026) — the part still moving is the transitional claim window, which closes ~8 Jan 2027
 
 ---
 
@@ -290,7 +293,7 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 
 ## Active fiscal incentives (2025-2026)
 
-- **2024 VAT refund reform** for first-time FBiH buyers (17% on first 40 m²)
+- **First-home VAT refund (art. 54a ZPDV)** — IN FORCE since 8 Jul 2026, state-level (FBiH + RS + Brčko); 17 % VAT on 40 m² + 15 m² per family-household member, capped; **adult BiH citizens with permanent BiH residence only — foreign buyers ineligible** *(2026-08-07 verified)*
 - **EU pre-accession funding** (post-candidate-status Dec 2022)
 - **2025-2027 EU-aligned economic reform programme** (adopted Sept 2025)
 - **Sarajevo construction boom** post-VAT-refund
@@ -311,7 +314,7 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 - **Mine contamination from Yugoslav Wars 1992-1995** — verify BHMAC for rural properties
 - **2014 floods** Sava + Bosna rivers (massive event)
 - **EU candidate Dec 2022** — slow reform pace
-- **2024 VAT refund**: BiH state-level (covers FBiH + RS + Brčko) — passed by **Predstavnički dom 22 Oct 2024**; upper-house ratification + UINO rulebook still pending as of 2026-05; 40 m² + 15 m² per family member at 17 % VAT *(not "FBiH House" — state-level under uino.gov.ba)*
+- **First-home VAT refund**: BiH state-level (covers FBiH + RS + Brčko) — **IN FORCE and claimable since 8 Jul 2026** (art. 54a ZPDV, Sl. glasnik BiH 20/25; UINO rulebook art. 105a, Sl. glasnik BiH 45/26); 40 m² + 15 m² per family-household member at 17 % VAT, capped; **restricted to adult BiH citizens with permanent BiH residence — a foreign buyer cannot claim it** *(not "FBiH House" — state-level under uino.gov.ba; 2026-08-07 verified)*
 - **2025 EU-aligned reforms** programme adopted
 - **Banja Luka 1969** earthquake reference (M6.6)
 - **Mostar UNESCO** Old Bridge area = strict construction
@@ -354,8 +357,8 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 
 ✅ **Fully populated** as of 2026-04-26.
 **Coverage check**: pricing (CBBH + BHAS + GPG 2024-2025), traffic (entity divisions), tax (DUAL ENTITY: FBiH BAM 0.5-3/m² + 0.05-5% transfer + 17% VAT first-sale + CGT NOT TAXABLE individuals; RS entity 0.2% market value + 0% transfer + 17% VAT + 13% CGT), rental (entity-specific), work (entity-specific), risks (Banja Luka 1969 + 2014 Sava+Bosna floods + BHMAC mine contamination + war-damage), mains.
-**Last verified**: 2026-05-27.
-**Confidence**: HIGH for BAM-EUR peg 1.95583 currency board; HIGH for entity divergence (FBiH 10 % / RS 8 % / Brčko 10 % PIT; FBiH cantonal transfer tax / RS no transfer tax); HIGH for mine contamination as ongoing diligence concern; HIGH for reciprocity regime under Zakon o stvarnim pravima FBiH + arable-land bar + d.o.o. workaround; MEDIUM for 2024 VAT refund reform (lower-house passed 22 Oct 2024; upper house + UINO rulebook pending); MEDIUM for FBiH CGT (PwC/Eurofast not-taxable vs CMS 2021 10 % — primary statute verification needed); MEDIUM for FBiH cantonal transfer tax 0.05–5 % floor; MEDIUM for Brčko property tax 0.05–1 % (PwC source — verify primary at bdcentral.net).
+**Last verified**: 2026-08-07 (`--tax` first-home VAT refund re-verified — in force 8 Jul 2026, foreign buyers ineligible; balance of the 2026-05-27 sweep unchanged).
+**Confidence**: HIGH for BAM-EUR peg 1.95583 currency board; HIGH for entity divergence (FBiH 10 % / RS 8 % / Brčko 10 % PIT; FBiH cantonal transfer tax / RS no transfer tax); HIGH for mine contamination as ongoing diligence concern; HIGH for reciprocity regime under Zakon o stvarnim pravima FBiH + arable-land bar + d.o.o. workaround; HIGH for the first-home VAT refund being in force since 8 Jul 2026 and closed to foreign buyers (art. 54a ZPDV + UINO rulebook art. 105a, Sl. glasnik BiH 20/25 + 45/26); MEDIUM for FBiH CGT (PwC/Eurofast not-taxable vs CMS 2021 10 % — primary statute verification needed); MEDIUM for FBiH cantonal transfer tax 0.05–5 % floor; MEDIUM for Brčko property tax 0.05–1 % (PwC source — verify primary at bdcentral.net).
 
 ## Extension TODOs
 
@@ -366,6 +369,6 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 - [ ] RS entity property tax (0.2% market) verification
 - [ ] Brčko District separate process documentation
 - [ ] CGT optimization: FBiH (no CGT individuals) vs RS entity (13%)
-- [ ] 2024 VAT refund eligibility for first-time FBiH buyers
+- [x] 2024 VAT refund eligibility — CLOSED 2026-08-07: state-level (FBiH + RS + Brčko), in force 8 Jul 2026, adult BiH citizens with permanent BiH residence only — foreign buyers ineligible (see `--tax`)
 - [ ] Sarajevo + Mostar UNESCO construction limits
 - [ ] EU candidate accession reforms tracker

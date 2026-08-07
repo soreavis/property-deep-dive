@@ -10,7 +10,7 @@ ISO2: `co`. Status: ✅ Fully populated (researched 2026-05).
 - **Languages**: Spanish (official, Constitución 1991 art. 10); 65 indigenous languages co-official in their territories; English common in El Poblado (Medellín), Chicó/Usaquén (Bogotá), and Cartagena tourism zones — elsewhere expect Spanish-only with notaries, ORIP, and municipal offices.
 - **Cadastre**:
   - **IGAC** (Instituto Geográfico Agustín Codazzi) — national cadastre + map authority: `https://www.igac.gov.co/`
-  - **Catastro multipropósito** rolled out under Ley 1955/2019 (PND 2018-22) and **Decreto 1983 of 2019** + **Decreto 148 of 2020** + **Decreto 1339 of 2020**; goal: parcel-level fiscal + legal + ecological data, replacing the 2010s-era avalúo gap (historically commercial value 2-3× catastral). Coverage as of 2025 still uneven — verify in IGAC's cobertura tracker.
+  - **Catastro multipropósito** rests on **Ley 1955/2019 (PND 2018-22) arts. 79-82** plus **Decreto 1983 of 2019** + **Decreto 148 of 2020**, compiled into **Decreto 1170 of 2015** (IGAC + DNP normatividad portal). ⚠️ **Decreto 1339 of 2020 is NOT part of this chain** — it is MinAmbiente's Páramo Las Hermosas legal-representative designation of 8 Oct 2020 and has nothing to do with cadastre; the citation is common in secondary write-ups and is wrong (`https://www.minambiente.gov.co/documento-normativa/decreto-1339-de-2020`) (2026-08-07 verified). Goal: parcel-level fiscal + legal + ecological data, replacing the 2010s-era avalúo gap (historically commercial value 2-3× catastral). Coverage as of 2025 still uneven — verify in IGAC's cobertura tracker.
   - **Bogotá D.C.**: own cadastre via **UAECD** (Unidad Administrativa Especial de Catastro Distrital).
   - **Medellín**: **Subsecretaría de Catastro** within Secretaría de Gestión y Control Territorial.
   - **Cali**: Subdirección de Catastro Municipal.
@@ -60,7 +60,7 @@ ISO2: `co`. Status: ✅ Fully populated (researched 2026-05).
 - **Avalúo catastral** = municipal fiscal value (basis of impuesto predial).
 - **Avalúo comercial** = market value (basis of mortgage, sale).
 - Historical gap: catastral typically 30–60 % of comercial pre-multipurpose-cadastre rollout (DANE/IGAC reports 2018-2020). Some municipios still at 30 %, others (Bogotá UAECD post-2024 actualización) approaching 80–90 %.
-- **Trap**: low avalúo catastral makes predial bill cheap today, but multipurpose cadastre updates are causing 2–3× bill jumps in some barrios when revalorisation lands. Always check UAECD/IGAC actualisation date for the cédula catastral.
+- **Trap**: low avalúo catastral makes predial bill cheap today, and an actualización catastral raises the base — but the widely repeated **2–3× bill jump is OVERSTATED**. Statutory annual ceilings cap the bill at **IPC + 8pp** where the predio is actualizado / **max 50 %** where it is not (**Ley 1995/2019 art. 2**), **max 2×** (**Ley 44/1990 art. 6**), and **100 % of IPC** for estratos 1-2 up to 135 SMMLV; IGAC also states the avalúo jump is **not automatic and not proportional to the tax**. The caps do **NOT** cover lotes urbanizables no urbanizados, predios bajo autoavalúo, or a changed destino económico / área / construcción — larger jumps are lawful there (2026-08-07 verified). Always check UAECD/IGAC actualisation date for the cédula catastral.
 
 ### Price benchmarks (Q4 2025 / Q1 2026 reference)
 
@@ -164,7 +164,7 @@ Indicative residential rates (verify current Acuerdo):
 - Estrato 5-6: ~8.5-10 ‰
 - Verify at `https://www.medellin.gov.co/es/secretaria-de-hacienda/` for current Estatuto Tributario Municipal.
 
-> All city-specific rates dated and per-municipio Acuerdo — **verify at the city Secretaría de Hacienda before quoting**. Multipurpose cadastre rollouts are causing avalúo (and therefore predial-bill) revaluations of 2-3× in some barrios on the 2024-2026 cycle.
+> All city-specific rates dated and per-municipio Acuerdo — **verify at the city Secretaría de Hacienda before quoting**. Multipurpose cadastre rollouts do raise avalúos on the 2024-2026 cycle, but the **2-3× predial-bill figure repeated in secondary sources is OVERSTATED**: per IGAC an avalúo rise is neither automatic nor proportional to the tax, and the annual bill is capped at **IPC + 8pp** (predio actualizado) or **max 50 %** (not actualizado) under **Ley 1995/2019 art. 2**, **max 2×** under **Ley 44/1990 art. 6**, and **100 % of IPC** for estratos 1-2 up to 135 SMMLV. Caps do **not** cover lotes urbanizables no urbanizados, autoavalúo predios, or changes of destino económico / área / construcción (2026-08-07 verified).
 
 ### Transaction taxes (one-time at purchase)
 
@@ -202,7 +202,9 @@ Two distinct concepts (don't confuse):
 
 ### Future risk
 
-- **Multipurpose cadastre rollout** continues 2026+ — predial bills can jump significantly when your municipio re-actualizes.
+- **Multipurpose cadastre rollout** continues 2026+ — predial bills rise when your municipio re-actualizes, but within the Ley 1995/2019 art. 2 / Ley 44/1990 art. 6 topes set out above.
+- **Ley 2294/2023 art. 49 one-off rezago adjustment** — **IGAC Resolución 2057 of 30 Dec 2025** reajusta rural avalúos formed or updated before 2018 across **527 municipios** with effect from **1 Jan 2026**; IGAC reported **520 municipios adjusted** as at 23 Feb 2026 and states the avalúo jump is **not automatic or proportional to the tax**. Check whether the municipio of the predio is on IGAC's list before underwriting a rural predial line (2026-08-07 verified).
+- **PL 188 + 291 of 2025 ("Ley Predial Justo")** — would tighten the topes; **pending first debate** (Gaceta 378, 28 Apr 2026), not law (2026-08-07 verified).
 - **Tax-reform cycle**: each Petro / Duque government cycle proposes changes; track Cámara de Representantes + DIAN drafts.
 - **Wealth-tax recalibration** politically active.
 - **Bogotá Decreto Distrital 639/2025** unifies prior tributary decretos (predial + ICA + impuesto al consumo) into a single codified regime — verify at haciendabogota.gov.co for any changes affecting your year of assessment (2026-05-27 verified).
@@ -419,7 +421,7 @@ Two distinct concepts (don't confuse):
 ## Caveats unique to CO
 
 - **Estrato system (1-6)** controls utility tariffs, predial bands, plusvalía calculation, and many services — estrato 6 can pay 5× the per-kWh / per-m³ of estrato 1 (Ley 142/1994 cross-subsidy regime). Always **check the estrato of the dwelling** (visible on any utility bill) before underwriting cost-of-ownership.
-- **Multipurpose cadastre rollout** is mid-flight 2020-2026 — predial bills jumping 2-3× when actualisation hits a barrio.
+- **Multipurpose cadastre rollout** is mid-flight 2020-2026 — actualisation raises the avalúo, but the **2-3× predial-bill claim is OVERSTATED**: annual bills are capped at IPC + 8pp (actualizado) / max 50 % (not actualizado) per **Ley 1995/2019 art. 2** and max 2× per **Ley 44/1990 art. 6** (100 % of IPC for estratos 1-2 up to 135 SMMLV). Caps do not cover lotes urbanizables no urbanizados, autoavalúo predios or a changed destino económico / área / construcción, where bigger jumps are lawful (2026-08-07 verified).
 - **CTL must show clean 30-year chain** — false-tradition (poseedor not propietario), missing inheritances, false owners are recurrent in coastal + rural regions.
 - **STR Bogotá: Decreto 538/2024** *(reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-07)* + **Medellín El Poblado restrictions 2024-26** — real municipal basis is **POT Acuerdo 48 de 2014 (art. 255) uso del suelo**, not the widely-cited **"Acuerdo 056/2024"** *(056 NOT verifiable in concejodemedellin.gov.co)*; PH régimen reglamento can also prohibit independent of city rules — read it before underwriting STR yield.
 - **Plusvalía urbanística (Ley 388/1997)** can capture 30-50 % of rezoning gain.
@@ -526,10 +528,10 @@ Two distinct concepts (don't confuse):
 
 **LOW** for: parcel-level price/m² (use only as zone-average context — must cross-check Lonja + Metrocuadrado comparables for the specific barrio + estrato).
 
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-08-07 (`--tax` / `--price` catastro-multipropósito legal basis + predial-cap correction; other sections 2026-05-27).
 
 **Reform watch (next 12 mo)**:
-1. **Catastro multipropósito** — track IGAC cobertura updates per municipio; predial bill swings.
+1. **Catastro multipropósito + Ley 2294/2023 art. 49 rezago adjustment** — track IGAC cobertura updates per municipio and the **Resolución 2057 of 30 Dec 2025** rural reajuste (527 municipios from 1 Jan 2026; 520 adjusted at 23 Feb 2026); plus **PL 188 + 291 of 2025 ("Ley Predial Justo")**, pending first debate (Gaceta 378, 28 Apr 2026), which would tighten the predial topes.
 2. **Bogotá Decreto 538/2024** STR enforcement + possible widening to other consumo categories.
 3. **Medellín Concejo** — additional STR restrictions in El Poblado / Laureles likely 2026.
 4. **Cancillería visa schedule** — M-visa thresholds (350× / 650× SMLMV) move with SMLMV revisions.

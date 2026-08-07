@@ -18,7 +18,7 @@ ISO2: `jm`. Status: ✅ Fully populated (researched 2026-05-07).
 - **Recent reforms**:
   - **Stamp Duty Reform 2019** — flat **JMD 5,000 per conveyance** replacing previous ad-valorem stamp duty (TAJ "Stamp Duty Reform" notice, 2019). **Transfer Tax cut 5 % → 2 %** (2019 budget).
   - **Property Tax reform 2017** — nine-band structure on **unimproved land value**; rates from **JMD 1,000 flat to 0.90 %** of UV.
-  - **Income Tax Threshold raised** to **JMD 1.8M effective 1 April 2025**, climbing to **JMD 2,003,496 by 2028** (Revenue Measures 2025-2026, MoFPS).
+  - **Income Tax Threshold raised** to **JMD 1,902,360 effective 1 April 2026** (was **JMD 1,799,376** from 1 Apr 2025 and **JMD 1,700,088** from 1 Apr 2024) — second of three phased increases announced in the 2025 Budget; **JMD 2,003,496 from 1 April 2027** toward a JMD 2,000,000 target (2026 data, JIS/TAJ 14 Apr 2026 `https://jis.gov.jm/increase-in-income-tax-threshold-now-in-effect`; Revenue Measures 2025-2026, MoFPS).
   - **GCT registration threshold raised** from JMD 10M to **JMD 15M effective 1 April 2025** (KPMG Budget Review 2025).
   - **Hurricane Beryl (Cat 4 landfall 3 July 2024)** + **Hurricane Melissa (Cat 5 landfall 28 Oct 2025, Westmoreland — strongest landfall in Jamaican recorded history)** drove insurance market hardening + post-storm building-code reinforcement debate (NHC TCR AL132025; ODPEM situation reports). **Insurance and HOA reserve-fund implications still evolving 2026** — verify carrier appetite per parish.
 
@@ -187,7 +187,9 @@ Source: **TAJ Property Tax** `https://www.jamaicatax.gov.jm/property-tax2` + **L
 ### Income tax — landlord side (long-term rental income)
 
 - **Resident individual**: **25 % on chargeable income up to JMD 6M**, **30 % above**. (PwC; QuickBooks Global Tax Tables.)
-- **Tax-free threshold**: **JMD 1.8M from 1 April 2025**, scaling to **JMD 2,003,496 by 2028** (Revenue Measures 2025-2026, MoFPS; JIS notice).
+- **Tax-free threshold**: **JMD 1,902,360 from 1 April 2026** (was **JMD 1,799,376** from 1 Apr 2025 and **JMD 1,700,088** from 1 Apr 2024) — second of three phased increases announced in the 2025 Budget, with **JMD 2,003,496 from 1 April 2027** toward a JMD 2,000,000 target (2026 data, JIS/TAJ 14 Apr 2026 `https://jis.gov.jm/increase-in-income-tax-threshold-now-in-effect`; Revenue Measures 2025-2026, MoFPS; JIS notice).
+- ⚠️ **Threshold steps on 1 April, but income tax is assessed on the calendar year** — the blended tax-free amount for **calendar 2026 is JMD 1,876,614**, not the JMD 1,902,360 headline. Use the blended figure in any full-year landlord computation (JIS/TAJ 14 Apr 2026).
+- **Pensioner + Golden Ager (65+) exemptions**: **JMD 250,040 each**, on top of the threshold — a 65+ pensioner landlord is **JMD 2,376,654 tax-free in 2026** (combined figure as published by JIS/TAJ 14 Apr 2026; re-derive against TAJ before relying on it to the dollar).
 - **Resident company**: **25 % CIT** (regulated companies — large unregulated may be 33⅓ % under different schedules; verify with PwC for the entity type).
 - **Non-resident landlord**: **withholding tax 25 %** on gross rent (subject to applicable double-tax treaty — UK, Canada, USA, Germany, etc., may reduce; PwC).
 
@@ -231,7 +233,7 @@ Governed by the **Rent Restriction Act** (1944, since amended) — applies prima
 
 ### Long-term rental tax (resident landlord)
 
-- **Individual**: **25 % up to JMD 6M chargeable, 30 % above** on net rental income (gross less allowable expenses: management, agent, repairs, property tax, insurance, mortgage interest). **Tax-free threshold JMD 1.8M (2025/26)**.
+- **Individual**: **25 % up to JMD 6M chargeable, 30 % above** on net rental income (gross less allowable expenses: management, agent, repairs, property tax, insurance, mortgage interest). **Tax-free threshold JMD 1,902,360 from 1 Apr 2026** (blended **JMD 1,876,614** for the calendar-2026 assessment — see `--tax`; JIS/TAJ 14 Apr 2026).
 - **Company**: **25 %** CIT (regulated company); verify rate per entity type via PwC Jamaica.
 - **Non-resident landlord**: **25 % withholding** on gross rent (subject to double-tax treaty relief).
 - **GCT 15 %**: long-term residential rentals **exempt**; commercial + short-stay tourism rentals **subject** at 15 % standard or **10 %** tourism-effective.
@@ -448,7 +450,7 @@ Regulatory status (verified 2026-05):
 - **No CBI (Citizenship-by-Investment)** — Jamaica unlike St. Kitts / Antigua / Dominica / Grenada / St. Lucia does **not** offer a CBI programme.
 - **No bespoke "Pensionado" tax regime** comparable to Costa Rica or Panama. Returning Residents get **customs concessions** (PICA + Jamaica Customs) on personal effects + one motor vehicle, but no bespoke property-tax exemption.
 - **Charities Act + Approved Tourism Project** designations (Tourist Board Act / TPDCo) provide construction-side incentives (customs-duty + GCT relief on imported materials) for **registered hotel + attraction projects** — niche for residential-buyer perspective.
-- **Income tax threshold raised** to **JMD 1.8M (Apr 2025)** + **Reverse Income Tax Credit JMD 20,000** for low-paid taxpayers (JIS Get-the-Facts; KPMG Budget Review 2025).
+- **Income tax threshold raised** to **JMD 1,902,360** from 1 Apr 2026 (JMD 2,003,496 scheduled from 1 Apr 2027) + **Reverse Income Tax Credit JMD 20,000** for low-paid taxpayers (JIS/TAJ 14 Apr 2026; JIS Get-the-Facts; KPMG Budget Review 2025).
 
 ### Residency / citizenship pathways
 
@@ -571,5 +573,5 @@ Regulatory status (verified 2026-05):
 ## Status
 
 **Status**: ✅ fully populated as of 2026-05-07
-**Confidence**: HIGH — primary statutes (Registration of Titles Act, Property Tax Act, Transfer Tax Act, Stamp Duty Act, POCA) verified via TAJ + NLA + PwC Worldwide Tax Summaries; 2025-2026 reforms (income-tax threshold JMD 1.8M, GCT threshold JMD 15M) verified via MoFPS Revenue Measures 2025-2026 + KPMG Budget Review 2025; foreign-ownership parity verified at statutory level (no nationality distinction in Registration of Titles Act); Hurricane Melissa Oct 2025 impact verified via NHC TCR AL132025 + UNOCHA + USGS; crime data from STATIN + JCF Statistics primary. **MEDIUM** for 2025-2026 USD/m² benchmarks — secondary aggregator data (Global Property Guide, Numbeo, Properstar, Coldwell Banker Jamaica), **no primary residential price index exists**; cross-check ≥ 3 live RealEstate.com.jm + RAJ MLS comparables before relying. **MEDIUM** for current insurance + strata fee benchmarks — post-Melissa market in flux.
-**Last verified**: 2026-05-27 (validation sweep — TAJ Property Tax 0.90% top band, JMD 1.8M income-tax threshold, GCT JMD 15M, Hurricane Melissa Cat 5 verified; statute citations in Transfer Tax Act + Stamp Duty Act 2019 reform; per-instrument JMD 5,000 confirmed)
+**Confidence**: HIGH — primary statutes (Registration of Titles Act, Property Tax Act, Transfer Tax Act, Stamp Duty Act, POCA) verified via TAJ + NLA + PwC Worldwide Tax Summaries; 2025-2026 reforms (GCT threshold JMD 15M) verified via MoFPS Revenue Measures 2025-2026 + KPMG Budget Review 2025; income-tax threshold JMD 1,902,360 (from 1 Apr 2026) re-verified 2026-08-07 via JIS/TAJ; foreign-ownership parity verified at statutory level (no nationality distinction in Registration of Titles Act); Hurricane Melissa Oct 2025 impact verified via NHC TCR AL132025 + UNOCHA + USGS; crime data from STATIN + JCF Statistics primary. **MEDIUM** for 2025-2026 USD/m² benchmarks — secondary aggregator data (Global Property Guide, Numbeo, Properstar, Coldwell Banker Jamaica), **no primary residential price index exists**; cross-check ≥ 3 live RealEstate.com.jm + RAJ MLS comparables before relying. **MEDIUM** for current insurance + strata fee benchmarks — post-Melissa market in flux.
+**Last verified**: 2026-08-07 (income-tax threshold re-verified — JMD 1,902,360 from 1 Apr 2026, blended JMD 1,876,614 for calendar 2026, pensioner/Golden Ager JMD 250,040 each, JIS/TAJ; balance of playbook still resting on the 2026-05-27 validation sweep — TAJ Property Tax 0.90% top band, GCT JMD 15M, Hurricane Melissa Cat 5 verified; statute citations in Transfer Tax Act + Stamp Duty Act 2019 reform; per-instrument JMD 5,000 confirmed)

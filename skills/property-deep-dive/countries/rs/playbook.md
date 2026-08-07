@@ -285,7 +285,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 - **Currency RSD** managed float vs EUR
 - **Vojvodina autonomous province** has separate provincial regulations
 - **Kosovo property** disputed — separate jurisdictional issues
-- **Zakon o posebnim uslovima za evidentiranje i upis prava na nepokretnostima** (in force **24 October 2025**) — one-time legalizacija framework for ~2M unpermitted buildings (houses, apartments, commercial, extensions, garages). Filing window opened **8 December 2025** for ~60 days (closed ~February 2026; one-year grace possible for objective reasons). Authority: Agencija za prostorno planiranje i urbanizam RS → certifikat → RGZ priority registration. Cost €100–€1,000. **Post-24-Oct-2025 illegal construction is NOT eligible** — hard enforcement shift. Buyers of older non-cadastre-conform property inherit any failure to file by deadline *(2026-05-27 verified, source CT Legal + Lexology + VMT Attorneys)*
+- **Zakon o posebnim uslovima za evidentiranje i upis prava na nepokretnostima** ("Svoj na svome", in force **24 October 2025**) — one-time legalizacija framework for ~2M unpermitted buildings (houses, apartments, commercial, extensions, garages). **MAIN FILING WINDOW IS NOW CLOSED** — it ran **8 December 2025 → 8 February 2026 24.00** (extended past the statutory ~60-day cut-off by government notice of 4 February 2026 after platform overload). Late filing is possible ONLY on proof of an objective impediment and ONLY until **24 October 2026** — later legalizacija can no longer be assumed at purchase. Authority: Agencija za prostorno planiranje i urbanizam RS → certifikat → RGZ priority registration. Cost €100–€1,000 (2025 figure — not re-verified 2026-08; confirm with the Agency). **Post-24-Oct-2025 illegal construction is NOT eligible** — hard enforcement shift. Buyers of older non-cadastre-conform property inherit any failure to file within the window *(2026-08-07 verified, source CT Legal + Lexology + VMT Attorneys + Tasić & Partners + `https://svojnasvome.gov.rs`)*
 - **RGZ digital-only filings** since 4 November 2023 — all cadastre applications routed via professional users (attorneys + licensed geodetic organisations); direct walk-in no longer possible *(2026-05-27 verified, source law-firm.rs + RGZ)*
 
 ## Reddit / forum sources
@@ -320,7 +320,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27.
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-08-07 (Svoj na svome legalizacija window re-verified — main filing window closed 8 Feb 2026, late filing only on proof of objective impediment until 24 Oct 2026; balance of the 2026-05-27 verification unchanged).
 **Coverage check**: pricing (NBS + RZS + Investropa Q3-Q4 2025), traffic (JP Putevi PGDS), tax (porez na imovinu progressive 0.4-2% + 2.5% transfer + 20% VAT (10% first-sale residential) + 15% CGT 10-year exemption), rental (boravišna taksa + license), work (NSZ + Paušalna), risks (Kraljevo 2010 + 2014 Sava+Bosna floods + Belgrade winter PM2.5), mains (Belgrade vodovod + per-municipality).
 **Confidence**: HIGH for tax structure (PwC + Investropa confirm); HIGH for 2014 flood factual correction (Sava+Bosna not Drava); HIGH for 10-year CGT exemption; HIGH for foreign-buyer reciprocity rules; MEDIUM for "Vlasinsko zemljotres" zone naming (could not verify as official feature).
 

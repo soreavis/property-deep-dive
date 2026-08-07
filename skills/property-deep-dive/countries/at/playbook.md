@@ -367,8 +367,8 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 
 ## Caveats unique to AT
 
-- **Ausländergrunderwerb** (foreign buyer rules): non-EU buyers need approval in some Bundesländer (esp. Tirol, Salzburg, Vorarlberg) — to prevent Zweitwohnsitz takeover
-- **Zweitwohnsitzgemeinden**: 20 %-cap on second homes per Gemeinde (Tirol, Salzburg)
+- **Ausländergrunderwerb** (foreign buyer rules): non-EU/EEA buyers need a **grundverkehrsbehördliche Genehmigung** in some Bundesländer (esp. Tirol, Salzburg, Vorarlberg), granted by the Grundverkehrs-Landeskommission — an **approval regime with no quota and no percentage cap**; EU/EEA nationals are equated with Austrians. Do not conflate it with the nationality-neutral second-home thresholds below — they are two distinct regimes. (2026-08-07 verified; source RIS konsolidiertes Landesrecht Tirol/Salzburg + Land Vorarlberg Grundverkehr)
+- **Zweitwohnsitz-/Freizeitwohnsitz-Schwellen** (nationality-neutral — NOT a foreign-buyer quota): **Tirol** — new Freizeitwohnsitze may not be declared permissible once the Freizeitwohnsitz share exceeds **8 v.H.** of total dwellings per the last Gebäude- und Wohnungszählung (§ 13 Abs 5 lit a TROG 2022, consolidated version in force 7 Jul 2026, LGBl 43/2022 as amended by LGBl 51/2026). **Salzburg** — Zweitwohnung-Beschränkungsgemeinden are communes where non-Hauptwohnsitz dwellings exceed **16 %** of the total stock (§ 31 Abs 1 Z 1 ROG 2009, in force 1 Mar 2023, LGBl 95/2022), designated by Landesregierung-Verordnung **every five years** on the five-year arithmetic mean at Stichtag 31 Oct — not annually; a Gemeinde may apply to have its percentage raised. No tightening verified through Aug 2026 (Tirol LGBl 51/2026, kundgemacht 6 Jul 2026, is a building/energy-law omnibus; Salzburg ROG amendment LGBl 79/2026 touches only §§ 5 Z 2, 53 Abs 2 Z 11, 60 Abs 1 und 5 and 88 Abs 9). (2026-08-07 verified; source [RIS ROG 2009 § 31](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrSbg&Gesetzesnummer=20000615&Paragraf=31) + RIS konsolidiertes Landesrecht Tirol)
 - **Naturschutz** restrictions on alpine constructions — strict
 - **MRG categories** make rental investment math depend heavily on building age
 - **Mietkauf** model (rent-to-own via Genossenschaft) common
@@ -411,7 +411,7 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 - **Wohnungseigentumsvertrag** + **Nutzwertgutachten** at sale
 - **Bestandschutz** for old buildings; new requirements only on changes
 - **Schillingbescheid**: legacy 1995 property tax base in some files
-- **Grundverkehr** restrictions in Tirol/Salzburg
+- **Grundverkehr** restrictions in Tirol/Salzburg/Vorarlberg — approval (Genehmigungspflicht), not a quota
 - **Pflegeregress** (since 2018, abolished — but check older estates)
 - **Anerbenrecht**: peasant inheritance rules in Tirol, Salzburg, Kärnten
 
@@ -435,6 +435,7 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 ✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (HORA + Statistik Austria + Grundbuch all gold-standard). MEDIUM for short-let regulation (Wiener Bauordnung 2024 + EU 2024/1028 transposition still evolving).
+**Last verified**: 2026-08-07 — `--tax` ownership caveats only (Grundverkehr approval regime + Tirol/Salzburg second-home share thresholds re-verified against RIS konsolidiertes Landesrecht); all other sections remain at 2026-07-03.
 
 ## Extension TODOs
 

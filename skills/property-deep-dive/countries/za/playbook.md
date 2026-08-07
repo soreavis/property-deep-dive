@@ -14,7 +14,7 @@ ISO2: `za`. Status: ✅ Fully populated (researched 2026-05).
   - DeedsWeb (subscription): `https://www.deeds.gov.za/`
 - **Identifier**: **Title Deed number** (e.g., `T12345/2020`) + **Surveyor-General (SG) diagram** + **Erf/Stand/Portion number** (residential) or **Sectional Title** scheme + unit number for apartments
 - **Recent reforms**:
-  - **Expropriation Act 13 of 2024** (assented Jan 2025) — replaces 1975 Act; introduces "expropriation without compensation" in narrow listed circumstances; **Constitutional challenges pending** (DA, AfriForum)
+  - **Expropriation Act 13 of 2024** (assented **20 Dec 2024**, published in *Government Gazette* No. 51964 on 24 Jan 2025) — replaces 1975 Act; introduces "expropriation without compensation" in narrow listed circumstances, but is **NOT in force as at 2026-08-07**: s31 requires a presidential proclamation and gov.za records commencement as "To be proclaimed"; **constitutional challenges pending** — the consolidated DA / AfriForum / IRR Legal / Vaderland Stigting review was argued in the **Western Cape High Court** 3–7 Aug 2026 (hearing dates per press reports), no judgment as at 2026-08-07
   - **Property Practitioners Act 22 of 2019** (in force Feb 2022) — replaced Estate Agency Affairs Act; created PPRA (Property Practitioners Regulatory Authority)
   - **Sectional Titles Schemes Management Act 8 of 2011** + **Community Schemes Ombud Service Act 9 of 2011** — body corporate governance + CSOS dispute forum
   - **Spatial Planning and Land Use Management Act 16 of 2013 (SPLUMA)** — municipal planning framework
@@ -368,7 +368,9 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 
 ### Eskom load-shedding
 
-- **Status**: declined sharply from 2024 peak (Stage 6) to mostly Stage 0–1 through 2025; intermittent stages return periodically — verify current at `https://www.eskom.co.za/distribution/loadshedding/` or EskomSePush app
+- **Status (2026-08-07 verified)**: **no national loadshedding since 16 May 2025** — Eskom recorded **441 consecutive loadshedding-free days as at 31 Jul 2026**, the first full loadshedding-free year since Sept 2018 having been reached at 00:01 on 16 May 2026; the Winter Outlook published 22 Apr 2026 projects no loadshedding to 31 Aug 2026, and demand was met 100 % of the time FY-to-date (1 Apr–30 Jul 2026), on the Generation Recovery Plan + Operation Vulindlela reforms and private generation. Verify current at `https://www.eskom.co.za/distribution/loadshedding/` or EskomSePush app. Source: Eskom `https://www.eskom.co.za/eskom-sustains-strong-system-performance-eaf-reaches-highest-daily-level-82-04-since-2017-and-unplanned-outages-recorded-at-lowest-daily-level-in-eight-years`
+- **Residual localised risk is load reduction, NOT loadshedding** — peak-hour switch-offs on high-theft or overloaded feeders; ~6.9 % of Eskom's 7.2m customers still affected (down from a 23.5 % peak), six provinces load-reduction-free, nationwide eradication targeted 2027. **Check the specific feeder / suburb**, not the national headline (2026-08-07 verified)
+- **Next trigger**: Eskom Q2 FY2027 coal shutdown / repowering decision due 1 Jul–30 Sep 2026
 - **Solar / inverter / battery backup** still common upgrade despite improved supply; cost R80,000–R300,000 typical install (5–10 kWh battery + inverter ± solar PV)
 - **Section 12B / 12BA tax allowance** for renewable energy (business) — verify with SARS
 
@@ -428,13 +430,13 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 - **BEC risk (Hawarden v ENS, [2024] ZASCA 90, 10 Jun 2024)** — Supreme Court of Appeal held conveyancers owe **no duty of care** to non-client buyers to warn of business email compromise; buyer bears the wire-fraud risk. Ms Hawarden lost ZAR 5.5m to a fraudster-substituted bank-detail letter. **Before any wire to a conveyancer trust account, phone-verify bank details against an independently-sourced number** (firm's switchboard listed on the Legal Practice Council roll, not the email signature). Foreign buyers wiring from offshore particularly exposed. ConCourt application pending. Source: SAFLII `https://www.saflii.org/za/cases/ZASCA/2024/90.html` (2026-05-27 verified).
 - **CIPC Beneficial Ownership filing regime** (General Laws Amendment Act 22 of 2022) — any company/CC holding the property must file BO with CIPC within 30 days of anniversary alongside annual return; from **1 Jul 2024 CIPC hard-stops annual returns without BO compliance**; anyone with **>5 % beneficial interest** must be disclosed; non-compliance blocks annual returns and risks deregistration → cloud on title. Final reminder issued 21 Jul 2025. Verify at `https://www.cipc.co.za/?p=20495` (2026-05-27 verified).
 - **Crime / safety per-suburb** verification critical — never rely on metro-level stats; pull SAPS quarterly per police station + walk the area at night before buying. ADT / Fidelity / Chubb armed-response coverage near-mandatory in JHB / parts of Cape Town
-- **Load-shedding + backup power costs** — even with 2025 improvement, plan R100k–R300k for solar/inverter/battery if working from home is critical
+- **Load-shedding + backup power costs** — **no national loadshedding since 16 May 2025** (441 loadshedding-free days as at 31 Jul 2026, Eskom); the live residual is **load reduction** on high-theft / overloaded feeders (~6.9 % of Eskom's 7.2m customers), so check the specific feeder / suburb rather than the national headline. Backup power (inverter / PV) is still commonly retained as a legacy install — market practice, not sourced; verify per property. Budget est. R100k–R300k for solar/inverter/battery if working from home is critical (2026-08-07 verified)
 - **Body Corporate health (sectional title)** — request 3 years of Annual General Meeting minutes + audited financials + reserve fund (10 yr Maintenance Plan mandatory under STSMA s. 3); special-levy risk if reserve under-funded
 - **FICA proof of source of funds** — conveyancer will require bank statements, tax clearance, ID / passport copies; non-residents need apostilled docs + foreign bank statements
 - **Non-resident 7.5 % S35A withholding** on sale > R2M (10 % company / 15 % trust) — paid to SARS by conveyancer; offset on assessment
 - **Conveyancer mandatory** — only an admitted attorney with conveyancing certificate can lodge transfer at Deeds Office; buyer chooses but seller often prescribes
 - **Beetle / Electrical / Plumbing CoCs at sale** — non-negotiable for lender finance; budget remediation
-- **Expropriation Act 13 of 2024** — Constitutional Court watch; **practical urban residential risk remains very low** (Act narrowly targets unused land, derelict properties, agrarian reform), but theoretical risk should be disclosed to foreign buyers; full text + status: `https://www.gov.za/documents/acts`
+- **Expropriation Act 13 of 2024** — **not in force as at 2026-08-07**: s31 requires a presidential proclamation and gov.za records commencement as "To be proclaimed". The consolidated DA / AfriForum / IRR Legal / Vaderland Stigting constitutional review was argued in the **Western Cape High Court** (not the Constitutional Court) over five days 3–7 Aug 2026, with Ramaphosa, DPWI, the NA Speaker and the NCOP Chairperson as respondents — hearing dates per press reports; no judgment as at 2026-08-07, verify judgment on SAFLII. The Minister of Public Works and Infrastructure confirmed in NCOP written reply 18 (CW18E) of 26 Feb 2026 that the Act is "the subject of multiple constitutional legal challenge by various applicants". **Practical urban residential risk remains very low while the Act is unproclaimed** (Act narrowly targets unused land, derelict properties, agrarian reform), but theoretical risk for residential land should be disclosed to foreign buyers; full text: `https://www.parliament.gov.za/storage/app/media/Acts/2024/Act_13_of_2024_Expropriation_Act_2024.pdf`; commencement status: `https://www.gov.za/documents/acts` (2026-08-07 verified)
 - **Coastal Beetle borer** — endemic W. Cape + KZN; treatment cost can run R20,000–R100,000+ for full-roof fumigation
 - **Cape water security** — improved post-Day-Zero (2018) via desal, aquifer extraction, demand management; on-watch in extended droughts
 - **Sinkhole / dolomite zones** (JHB West Rand, Centurion, parts of Pretoria) — CGS Dolomite Stability Map essential pre-purchase; in worst zones building permits restricted
@@ -461,7 +463,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 | **SARS** | Transfer Duty calculation; CGT; rental tax queries |
 | **Municipality** (rates, valuations, planning, CoCs) | Rates clearance, building plans approval, zoning, valuation roll |
 | **CSOS** (Community Schemes Ombud Service) | Sectional title / HOA disputes; scheme rules verification |
-| **Eskom + private utilities** | Load-shedding stages; connection costs |
+| **Eskom + private utilities** | Load-shedding stages (none nationally since 16 May 2025); **load-reduction status for the specific feeder / suburb**; connection costs |
 | **SAPS Crime Stats** | Per-station crime data quarterly |
 | **CGS** (Council for Geoscience) | Dolomite stability map; seismic; geotechnical |
 | **SAWS** (SA Weather Service) | Climate / storm history |
@@ -478,9 +480,9 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 - **Beetle / electrical / plumbing CoCs** mandatory at sale — see Risks section
 - **CSOS dispute forum**: cheaper / faster than High Court for body corporate / HOA disputes; both parties bound by adjudication
 - **FICA enforcement**: South Africa was on FATF "grey list" 2023; FICA enforcement intensified — expect lengthy KYC for non-residents
-- **Expropriation Act 2024** still evolving — Constitutional Court challenges pending (DA, AfriForum); practical urban residential expropriation extremely rare; theoretical risk should be disclosed
+- **Expropriation Act 13 of 2024** is **not yet in force** — awaiting the s31 presidential proclamation (gov.za commencement: "To be proclaimed") as at 2026-08-07; the consolidated DA / AfriForum / IRR Legal / Vaderland Stigting constitutional review was argued in the **Western Cape High Court**, not the Constitutional Court, 3–7 Aug 2026 (hearing dates per press reports), with no judgment as at 2026-08-07; practical urban residential expropriation extremely rare; theoretical risk should be disclosed
 - **SARS S35A non-resident withholding** — the 7.5 / 10 / 15 % is INTERIM; final CGT liability assessed on tax return; reclaim possible if over-withheld
-- **Loadshedding language**: "Stages" (1–8) refer to MW shed; "Stage 4" ≈ 4–8 hr/day cuts in 2 hr blocks per area schedule
+- **Loadshedding language**: "Stages" (1–8) refer to MW shed; "Stage 4" ≈ 4–8 hr/day cuts in 2 hr blocks per area schedule — but **no stage has been declared nationally since 16 May 2025**. Do not conflate loadshedding with **load reduction** (peak-hour switch-offs on high-theft or overloaded feeders), which is the only outage regime still running on some feeders (2026-08-07 verified)
 - **Ekurhuleni includes OR Tambo Airport** — may impact noise / flight-path properties
 - **Foreign buyer mortgage cap**: typically **50 % LTV for non-resident foreigners** without SA work visa; **70–90 % LTV** for resident foreigners with valid visa (varies by lender — verify with FNB / Standard Bank / Absa / Nedbank / Investec; offshore-funds verification adds 4–8 weeks)
 
@@ -519,8 +521,8 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government / regulated-entity sources + cost benchmarks + caveats.
-**Confidence**: **HIGH** for cadastre / Transfer Duty / CGT / conveyancer requirements / FICA (all primary state / SARS / DHA sources). **MEDIUM** for municipal rates per-city (annual tariff cycle each July; verify current). **MEDIUM** for short-term rental rules (Tourism Amendment Bill in flux; municipal STR regulation evolving; verify Cape Town MPBL current state). **MEDIUM** for Expropriation Act 2024 implementation (Constitutional Court challenges pending; practical residential urban risk currently very low).
-**Last verified**: 2026-05-27 (validation sweep — Transfer Duty bracket date 1 Apr 2025; Tourism Bill shelved + Mar 2026 Code + TOMSA; Hawarden v ENS [2024] ZASCA 90; CIPC BO regime; s35A rates 7.5/10/15; s12BA lapsed 28 Feb 2025; VAT 15.5% withdrawn 24 Apr 2025).
+**Confidence**: **HIGH** for cadastre / Transfer Duty / CGT / conveyancer requirements / FICA (all primary state / SARS / DHA sources). **MEDIUM** for municipal rates per-city (annual tariff cycle each July; verify current). **MEDIUM** for short-term rental rules (Tourism Amendment Bill in flux; municipal STR regulation evolving; verify Cape Town MPBL current state). **MEDIUM** for Expropriation Act 13 of 2024 implementation (Act unproclaimed / not in force as at 2026-08-07; Western Cape High Court constitutional review argued 3–7 Aug 2026 with judgment outstanding — hearing dates per press reports; practical residential urban risk currently very low).
+**Last verified**: 2026-08-07 (`--finance` and `--risks` re-verified — Expropriation Act 13 of 2024: assent 20 Dec 2024, *Government Gazette* No. 51964 of 24 Jan 2025, still unproclaimed under s31, Western Cape High Court review argued 3–7 Aug 2026 with no judgment; and Eskom load-shedding, which has been at zero rather than merely "declining" since 16 May 2025). Prior sweep 2026-05-27 (Transfer Duty bracket date 1 Apr 2025; Tourism Bill shelved + Mar 2026 Code + TOMSA; Hawarden v ENS [2024] ZASCA 90; CIPC BO regime; s35A rates 7.5/10/15; s12BA lapsed 28 Feb 2025; VAT 15.5% withdrawn 24 Apr 2025).
 
 ## Extension TODOs (deepen on first real run)
 
@@ -530,6 +532,6 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 - [ ] eThekwini floodlines per-erf (April 2022 / 2024 reference)
 - [ ] Critical Skills List 2022 → next gazette (DHA) revisit cadence quarterly
 - [ ] Tourism Amendment Bill enactment tracker
-- [ ] Expropriation Act 2024 Constitutional Court ruling tracker
+- [ ] Expropriation Act 13 of 2024 — Western Cape High Court judgment tracker (argued 3–7 Aug 2026) + s31 presidential proclamation watch
 - [ ] FICA non-resident KYC walk-through (typical 4–8 weeks)
 - [x] Solar PV individual rebate — confirmed NOT extended in 2025 or 2026/27 Budget (2026-07-02)

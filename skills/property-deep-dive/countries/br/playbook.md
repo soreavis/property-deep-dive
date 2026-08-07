@@ -11,7 +11,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 - **Cadastre — decentralized + transitioning to national**:
   - **Cartórios de Registro de Imóveis** (per-município; ownership only transfers when escritura registered)
   - **Matrícula** = unique property ID (life-of-property record)
-  - **CIB (Cadastro Imobiliário Brasileiro) "CPF dos Imóveis"** — NEW unique national identifier under Receita Federal IN RFB 2.275/2025; rollout deadline mid-2026
+  - **CIB (Cadastro Imobiliário Brasileiro) "CPF dos Imóveis"** — national single property identifier, 7 alphanumeric characters + check digit. Instituted by **IN RFB 2.030/2021**; Sinter under **Decreto 11.208/2022**; notarial/registry adoption under **IN RFB 2.275/2025**. **In force from Jan 2026** for federal administration, notarial/registry services and state capitals + DF (LC 214/2025 art. 266 I — 12-month deadline); **state administration + all remaining municipalities from Jan 2027** (art. 266 II — 24 months). Inscription is mandatory for all urban and rural properties and BICE (art. 265), but per the Receita Federal FAQ only urban properties in capitals/DF are obliged during 2026 — other municipalities from Jan 2027; all rural properties must already hold a CIB (via CNIR/Cafir). **Does NOT replace the cartórios** — deeds, land registration and certificate issuance stay with the cartórios, and cadastre upkeep stays with prefeituras (urban) / INCRA (rural); cartórios and municipalities must merely carry the CIB code in their documents (2026 data, 2026-08-07 verified, source: [Receita Federal CIB FAQ](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/cadastros/cib) + Planalto LC 214/2025)
   - **SINTER** (Sistema Nacional de Gestão de Informações Territoriais)
   - **INCRA** (`https://www.incra.gov.br/`) — rural land registry
 - **Identifier**: matrícula (per-cartório); CIB (national, rolling out)
@@ -67,7 +67,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 - Habite-se = occupancy permit
 - Escritura pública = notarized deed
 - Cartório de Registro de Imóveis = land registry (per-município)
-- CIB = new national property identifier (2026)
+- CIB = national property identifier, phased in Jan 2026 (federal administration + notarial/registry + state capitals & DF) → Jan 2027 (state administration + remaining municipalities)
 
 ---
 
@@ -158,7 +158,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
   - **40% reduction** for short-term rental < 90 days (treated as hotelaria)
 - **Pessoa-física exemptions**: locação ≤ R$240k/year up to 3 properties; sale ≤ 3 imóveis/year
 - **Redutor social on new residential sales**: R$100k (apartment/house) + R$30k (lot)
-- **IPTU/ITBI/IR NOT directly changed** by reform — but **CIB registry will likely expand IPTU/ITBI tax base** as municipalities update outdated valor venal
+- **IPTU/ITBI/IR NOT directly changed** by reform — and the **CIB is an identifier layer, not a valuation authority**: cadastre upkeep stays with the prefeituras (urban) / INCRA (rural), and cartórios and municipalities merely carry the CIB code in their documents, so any IPTU/ITBI base movement still depends on each município updating its own outdated valor venal (2026-08-07 verified, source: [Receita Federal CIB FAQ](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/cadastros/cib))
 
 ---
 
@@ -345,7 +345,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Cartório system**: decentralized + sometimes corrupt + expensive; ownership ONLY transfers on registration
 - **Matrícula** = property "birth certificate" with full history
-- **CIB ("CPF dos Imóveis") rolling out 2026** — national integration; will expand IPTU tax base
+- **CIB ("CPF dos Imóveis") phased in Jan 2026 → Jan 2027** — in force Jan 2026 for federal administration, notarial/registry services and state capitals + DF; state administration + all remaining municipalities from Jan 2027 (LC 214/2025 art. 266 I / II); all rural properties must already hold a CIB (via CNIR/Cafir). It is a national *identifier* only — it does **NOT** replace the cartórios (deeds, land registration and certidões unchanged) and cadastre upkeep stays with prefeituras (urban) / INCRA (rural) (2026-08-07 verified, source: [Receita Federal CIB FAQ](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/cadastros/cib) + Planalto LC 214/2025)
 - **Reforma Tributária** 2027 (CBS) → 2029 (IBS) → 2033 (full)
 - **MCMV extension April 2026**: R$200B, R$13k/mo income, R$600k cap, 35-year term
 - **Multipropriedade** (Brazilian timeshare) — large legal market (Lei 13.777/2018)
@@ -402,6 +402,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 | INMET | `https://www.inmet.gov.br/` |
 | ANA | `https://www.ana.gov.br/` |
 | INCRA | `https://www.incra.gov.br/` |
+| Receita Federal — CIB FAQ | `https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/cadastros/cib` |
 | Receita Federal (CIB/SINTER) | `https://www.gov.br/receitafederal/` |
 | ONR (cartório integration) | `https://www.onr.org.br/` |
 
@@ -409,11 +410,13 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 
 ✅ **Fully populated** as of 2026-04-26.
 **Coverage check**: pricing (FIPE-ZAP Q1 2026), traffic (DNIT VMD), tax (IPTU + ITBI per município + IR + Reforma Tributária 2026-2033), rental (Lei do Inquilinato + STJ 2021 condo STR ban), work (MTE + MEI + Simples), risks (CEMADEN + Petrópolis 2022 + RS 2024 + Juiz de Fora 2026), mains (Marco Legal Saneamento 2033 target).
-**Confidence**: HIGH for FIPE-ZAP Q1 2026 figures + Reforma Tributária timeline (Emenda 132/2023 confirmed) + MCMV extension April 2026 (R$200B + R$13k income + R$600k cap + 35yr); HIGH for STJ 2021 condo STR ban; HIGH for CIB rollout 2026 (RFB IN 2.275/2025); MEDIUM for IBS/CBS final real-estate sector rates (pilot 2026, finalization pending).
+**Confidence**: HIGH for FIPE-ZAP Q1 2026 figures + Reforma Tributária timeline (Emenda 132/2023 confirmed) + MCMV extension April 2026 (R$200B + R$13k income + R$600k cap + 35yr); HIGH for STJ 2021 condo STR ban; HIGH for CIB phasing (Jan 2026 federal administration + notarial/registry + state capitals & DF; Jan 2027 state administration + remaining municipalities — LC 214/2025 art. 266; instituted by IN RFB 2.030/2021, notarial/registry adoption IN RFB 2.275/2025); MEDIUM for IBS/CBS final real-estate sector rates (pilot 2026, finalization pending).
+
+**Last verified**: 2026-08-07 (CIB cadastre re-verified — LC 214/2025 art. 265/266 two-phase rollout, Jan 2026 federal administration + notarial/registry + capitals & DF → Jan 2027 state administration + remaining municipalities; CIB does not replace the cartórios; instituting instrument corrected to IN RFB 2.030/2021. Remainder of the playbook unchanged from the 2026-04-26 population date.)
 
 ## Extension TODOs
 
-- [ ] CIB rollout tracker (mid-2026 deadline)
+- [ ] CIB rollout tracker (Jan 2027 phase — state administration + all remaining municipalities, LC 214/2025 art. 266 II)
 - [ ] Per-município IPTU rates table
 - [ ] Per-município ITBI rates table
 - [ ] Reforma Tributária real-estate sector rates 2027-2033

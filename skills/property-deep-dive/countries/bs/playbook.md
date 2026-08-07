@@ -295,9 +295,10 @@ A reduced Stamp Duty / VAT-on-Conveyance rate is available where the buyer forma
 
 ### VAT (general, on goods/services)
 
-- **Standard rate**: **10%** since **1 January 2022** (introduced at 7.5% on 1 Jan 2015; raised to 12% on 1 Jul 2018; **reduced to 10% effective 1 Jan 2022 via VAT (Amendment)(No. 2) Act 2021**, published Official Gazette 13 Dec 2021) (2026-05-27 verified, source VATupdate + Orbitax + vatcalc).
+- **Standard rate**: **10%** since **1 January 2022** (introduced at 7.5% on 1 Jan 2015; raised to 12% on 1 Jul 2018; **reduced to 10% effective 1 Jan 2022 via VAT (Amendment)(No. 2) Act 2021**, published Official Gazette 13 Dec 2021) — the 2022 move was a **cut, not an increase**, and the 10% standard rate was **still in force as at the FY2026/27 Budget Communication (27 May 2026)** (2026-08-07 verified, primary source [DIR — VAT Guidance on 2021 Amendments](https://inlandrevenue.finance.gov.bs/wp-content/uploads/2021/12/VAT-Guidance-2021-Amendments.pdf); secondary VATupdate + Orbitax + vatcalc).
 - **VAT registration threshold**: B$100,000 turnover.
 - **VAT on rental income**: long-term residential rental **exempt**; short-term rental + hotel-style accommodation **taxable** (see `--rental`).
+- **VAT on other property-related supplies**: the 10% standard rate applies to property-related supplies including **commercial rent** and — explicitly listed — **HOA / management fees**; treat gated-estate HOA and managing-agent quotes as VAT-bearing unless the quote states otherwise (2026-08-07 verified, source DIR VAT FAQ — verify at [DIR — About VAT](https://inlandrevenue.finance.gov.bs/value-added-tax/about-vat/)).
 
 ### Personal income / capital gains / inheritance — 0%
 
@@ -874,7 +875,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 - **MEDIUM** for insurance pricing 0.4–1.5% — varies materially by island + wind zone + build year + carrier post-Dorian re-rating.
 - **LOW** for parcel-level flood-zone / storm-surge mapping in non-NEMA-priority areas — coverage uneven; verify per parcel via DLS / NEMA + engineering survey.
 - **LOW** for traffic AADT — no public AADT portal; OSM + on-site observation is the practical method.
-**Last verified**: 2026-05-27 (validation sweep — EPR B$1M eff. 1 Jan 2025 + 10-yr clawback; VAT-on-Conveyance flat 10% foreign / graduated BDR; 2025 VAT procedural reforms eff. 1 Jul 2025; IPLA B$250 registration / B$500 permit; RPT commercial 3-tier 0.75/1.0/1.5%; VAT history sequence corrected)
+**Last verified**: 2026-08-07 (--tax VAT sub-section only — 10% standard rate re-verified against DIR VAT Guidance on 2021 Amendments: a cut from 12% eff. 1 Jan 2022, still in force at the FY2026/27 Budget Communication of 27 May 2026, and applying to commercial rent + HOA/management fees per the DIR VAT FAQ) · 2026-05-27 (validation sweep — EPR B$1M eff. 1 Jan 2025 + 10-yr clawback; VAT-on-Conveyance flat 10% foreign / graduated BDR; 2025 VAT procedural reforms eff. 1 Jul 2025; IPLA B$250 registration / B$500 permit; RPT commercial 3-tier 0.75/1.0/1.5%; VAT history sequence corrected)
 
 ## Extension TODOs
 

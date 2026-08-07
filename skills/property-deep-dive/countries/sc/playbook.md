@@ -375,7 +375,7 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 - **Boreholes / private wells**: regulated by **Ministry of Environment** + **Public Health Authority** for potability; may require permit
 - **Septic systems**: outside mains-sewered zones, septic tank + soakaway is standard; verify tank size + last desludging (tropical bacterial loading = high)
 
-### Costs (PUC, effective 15 January 2026 electricity / current water schedule)
+### Costs (PUC — electricity effective 15 July 2026; water schedule undated on the PUC page)
 
 #### Electricity — Domestic Tariff 110 (≤2.4 kVA)
 
@@ -384,10 +384,14 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 | 0–200 | 1.83 |
 | 201–300 | 2.12 |
 | 301–400 | 3.76 |
-| 401–600 | 4.16 |
-| >600 | 4.81 |
+| 401–600 | 4.45 |
+| >600 | 5.10 |
 
-(Tariff 120 / 130 for higher demand connections add SCR 4.9 / 9.85 per kVA demand charge; same energy bands. Effective 15 January 2026 per `https://www.puc.sc/electricity-tariffs/`.)
+Tariff 110 carries **no power-demand charge** (SCR 0/kVA). (Tariff 120 / 130 for higher demand connections add SCR 4.9 / 9.85 per kVA demand charge; same energy bands — those 120 / 130 figures pre-date the current revision and were **not** re-verified on 2026-08-07; confirm at PUC before relying on them.)
+
+The Tariff-110 bands above are per `https://www.puc.sc/electricity-tariffs/`, stamped **"Effective as of 15th July 2026"** — superseding the earlier 15 January 2026 revision (page verified 2026-08-07). No PUC press release documents the July 2026 adjustment (only the 2024 tariff releases are published), so the tariff page itself is the sole primary evidence.
+
+**Fuel-price adjustment**: the rate per unit additionally varies **±0.28 cents per kWh for each 1-cent-per-litre move** in the weighted-average fuel price, effective from the meter-reading period starting the month after the fuel-price move — an actual bill can therefore drift from the published bands between revisions.
 
 #### Water — Domestic schedule (per `https://www.puc.sc/water-tariffs/`)
 
@@ -400,7 +404,7 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 
 Plus fixed charges: meter rental SCR 10, environmental levy SCR 15, minimum-fixed-charge ~SCR 49.3 water + SCR 34.61 sewerage.
 
-> Treat the above as **PUC published tariffs as of late 2025 / early 2026** — verify current schedule before any deal modelling. Compared to many small-island states, Seychelles utility costs are moderate at low-band consumption + steeply progressive at high-band (typical of villa-pool households).
+> The **electricity** bands above are the schedule PUC publishes as **"Effective as of 15th July 2026"** (page verified 2026-08-07). The **water / sewerage** schedule carries **no effective-date stamp** on the PUC page — treat those figures as undated (no water-side change is evidenced as at 2026-08-07) and verify the current schedule before any deal modelling. Compared to many small-island states, Seychelles utility costs are moderate at low-band consumption + steeply progressive at high-band (typical of villa-pool households).
 
 ---
 
@@ -674,7 +678,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 
 **Confidence**: MEDIUM — HIGH on the regulatory framework (SPA 20-Mar-2025 guidance is primary-source dated; SRC IPT 0.5% rate, 5% Stamp Duty, 12% Sanction Duty, residence-permit fees, GOP framework, PUC tariffs, Land Registration Act all confirmed against official .gov.sc + SeyLII / SRC / ICS / PUC primary sources). MEDIUM on price benchmarks (Seychelles publishes no equivalent of an IMSEE / STATEC / NHB Residex residential price index — sample-size-thin transaction volume + agency-listing reliance means USD price bands are `est.` cross-checked against Eden Island / RE/MAX / Sphere / Rightmove Overseas listings + Chambers Real Estate 2025 narrative; verify any specific deal via Land Registration Office search). MEDIUM on traffic (no public AADT database — modelled from OSM road class + agency anecdote). LOW on per-listing Eden Island unit pricing currentness (luxury-island product where headline figures move materially deal-to-deal — pull current asking from the Eden Island portal at point of analysis).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-08-07 (PUC electricity Tariff-110 re-verified — schedule now stamped effective 15 July 2026, 401–600 and >600 bands corrected, SCR 0/kVA demand charge + fuel-price adjustment added; balance of the 2026-05-27 pass unchanged)
 
 **Researched by**: Opus 4.7 (1M context, parallel-subagent batch 2026-05)
 

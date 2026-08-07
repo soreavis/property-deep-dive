@@ -25,7 +25,7 @@ ISO2: `ph`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
   - **RA 11201 (2019) DHSUD Act** — created DHSUD, absorbing HUDCC housing + HLURB regulatory functions; now regulates condo / subdivision developers + issues Licences to Sell.
   - **RA 9856 REIT Act (2009)** — operational since 2020 (AREIT, DDMPR, FILRT, RCR listed on PSE).
   - **TRAIN (RA 10963, 2017)** + TRABAHO/CREATE adjustments — restructured PIT brackets; retained DST and CGT framework.
-  - **RA 12001 Real Property Valuation Reform Act (Jun 2024)** — uniform valuation standard across LGUs, phased through 2027.
+  - **RA 12001 Real Property Valuation Reform Act (Jun 2024)** — uniform valuation standard across LGUs. The statutory SMV-updating deadline of **5 Jul 2026** has **lapsed** (2026-08-07); certified Schedules of Market Values now roll out **per LGU** via BLGF/DOF review, with the first-year RPT increase capped at **6 %** of pre-RPVARA RPT per tax type (see `--tax`).
   - **Maharlika Investment Fund Act (RA 11954, 2023)** — sovereign wealth; tangential to property.
   - **Proposed but not enacted as of May 2026**: Charter Change to relax foreign land-ownership ban (perennially discussed; multiple Congresses failed). Do not assume liberalisation is imminent.
 
@@ -237,7 +237,8 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
   - Commercial: max **50 %**
   - Industrial: max **50 %**
   - Agricultural: max **40 %**
-- The Schedule of Fair Market Values (SFMV) per assessor's office is updated by ordinance; many LGUs are **decades behind market** (Manila SFMV last general revision pre-2010 in some districts) — actual RPT bills can be a small fraction of "what you'd expect at 2 % of market."
+- The Schedule of Fair Market Values (SFMV) per assessor's office historically moved only by LGU ordinance; many LGUs are **decades behind market** (Manila SFMV last general revision pre-2010 in some districts) — actual RPT bills can be a small fraction of "what you'd expect at 2 % of market."
+- **RA 12001 (RPVARA) changed that update route** (2026-08-07): a Schedule of Market Values (SMV) now clears a **BLGF regional 45-day → central 30-day review → DOF 30-day certification** chain, takes effect **15 days after publication**, and is then generally revised **every 3 years** (BLGF MC 001.2026, 6 Jan 2026). The statutory SMV-updating deadline of **5 Jul 2026** (IRR §41 of BLGF MC 001.2025) has **lapsed**, so a given LGU may still be on its old schedule — ask the assessor whether a **certified** SMV is in force before modelling the RPT base, and note the **6 % first-year cap** on the increase (§ Future risk below).
 
 **Worked example** (Makati condo, market 12M PHP, assessor FMV 8M): assessed value = 8M × 20 % = 1.6M; basic RPT (1.0 %) = 16,000 + SEF (1.0 %) = 16,000 → **PHP 32,000/yr (~ USD 560)**.
 
@@ -276,13 +277,16 @@ The 1987 Constitution Art. XII §7 reserves **land** for Filipino citizens (or c
 
 ### Future risk
 
-- **Real Property Valuation Reform Act (RA 12001, signed 13 Jun 2024)** — mandates a uniform valuation standard for the schedules of fair market values across LGUs, with a transitional revaluation programme. Implementation phased through 2024–2027 via DOF/BLGF. Watch for **RPT base recalibration** that could meaningfully raise effective RPT in long-stale jurisdictions (Manila, Cebu City). Source: Official Gazette `https://www.officialgazette.gov.ph/`.
+- **Real Property Valuation Reform Act (RA 12001, signed 13 Jun 2024)** — mandates a uniform valuation standard for the schedules of market values (SMVs) across LGUs, with a transitional revaluation programme run by DOF/BLGF. The statutory SMV-updating deadline was **5 Jul 2026** (IRR §41 of BLGF MC 001.2025) and has now **lapsed** (status as at 2026-08-07). Certified SMVs roll out via a **BLGF regional 45-day → central 30-day review → DOF 30-day certification** chain, take effect **15 days after publication**, and are then generally revised **every 3 years** (BLGF MC 001.2026, 6 Jan 2026).
+  - **Bill shock is deferred and phased, not immediate**: the RPT increase in the **FIRST year** of an approved SMV is capped at **6 % of the pre-RPVARA RPT, per tax type** (RA 12001 Sec. 29 Transitory Guidelines), and the LGU **sanggunian may cap or phase later years by ordinance**. **RPT base recalibration** in long-stale jurisdictions (Manila, Cebu City) therefore arrives over several cycles rather than in one bill — verify the LGU's certified SMV and any phasing ordinance with the city/provincial assessor + treasurer.
+  - The RA 12001 **RPT amnesty window closed 5 Jul 2026** — no longer available.
+  - Sources: RA 12001 full text `https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/97502` · BLGF `https://blgf.gov.ph/` · Official Gazette `https://www.officialgazette.gov.ph/`.
 - **Ease of Paying Taxes Act (RA 11976, 2024)** — simplifies BIR filing/payment; no rate change.
 - **CREATE MORE (RA 12066, 2024)** — investment incentives; tangential to residential.
 
 ### Confidence
 
-**HIGH** for the statutory framework (RA 7160, NIRC, TRAIN, RA 12001 are authoritative). **MEDIUM** for current effective RPT (city ordinances vary; verify per LGU). **MEDIUM** for the assessed-value impact of RA 12001 revaluation (rolling implementation 2024–2027).
+**HIGH** for the statutory framework (RA 7160, NIRC, TRAIN, RA 12001 are authoritative) and for the RA 12001 rollout mechanics + 6 % first-year cap (re-verified 2026-08-07 against RA 12001 Sec. 29 Transitory Guidelines + BLGF MC 001.2026). **MEDIUM** for current effective RPT (city ordinances vary; verify per LGU). **MEDIUM** for the assessed-value impact of RA 12001 revaluation **in any specific LGU** — SMV certification is per-LGU and still rolling out after the 5 Jul 2026 deadline lapsed.
 
 ---
 
@@ -575,7 +579,7 @@ Sources: PSA Labor Force Survey `https://psa.gov.ph/`, JobStreet Salary Report 2
 - **Storm-surge exposure** for coastal property post-Yolanda: structural elevation + cyclone-rated openings essential.
 - **Sewerage coverage low** outside Metro Manila core; assume septic + budget desludging.
 - **VAT on developer sales** above threshold — verify "VAT-inclusive" vs "VAT-exclusive": a "VAT-exclusive PHP 12M" condo is PHP 13.44M all-in.
-- **RA 12001 RPT recalibration (2024–2027)** — long-stale assessor schedules (Manila, Cebu City) likely to rise.
+- **RA 12001 RPT recalibration** — long-stale assessor schedules (Manila, Cebu City) likely to rise, but **phased**: the first year under an approved SMV is capped at **6 % of pre-RPVARA RPT per tax type** (RA 12001 Sec. 29) and the sanggunian may phase later years. The 5 Jul 2026 SMV-updating deadline has lapsed (2026-08-07) — check whether the LGU's SMV is DOF-certified yet.
 - **All transaction taxes stack** (unlike Thailand SBT vs stamp): 6 % CGT + 1.5 % DST + 0.5–0.75 % LTT + ~0.25 % registration + 1–2 % notarial all apply on the same sale.
 - **English-language records** — title, Deed of Absolute Sale, BIR forms all English; no sworn translation needed.
 
@@ -656,11 +660,11 @@ Sources: PSA Labor Force Survey `https://psa.gov.ph/`, JobStreet Salary Report 2
 **Confidence**: HIGH — Constitution Art. XII §7, RA 4726 (Condominium Act), RA 7652 (Investors' Lease Act), CA 108 (Anti-Dummy Law), RA 7160 (LGC + RPT), NIRC + TRAIN (CGT/DST), PD 1529 (Property Registration Decree), RA 11534 + RA 12066 (CREATE / CREATE MORE), RA 12001 (Real Property Valuation Reform), PRA SRRV circulars, BOI SIRV (EO 226), PHIVOLCS + PAGASA + NDRRMC for hazards — all primary statute or agency sources. **MEDIUM** for SRRV deposit-category amounts (PRA periodically restructures; verify current text); STR LGU-specific enforcement intensity; current effective RPT post-RA 12001 revaluation in long-stale jurisdictions; condo project foreign-quota live status (project-specific; verify in writing per project).
 
 **Reform watch items** (track in `shared/regulatory-watch.md`):
-1. **Real Property Valuation Reform Act (RA 12001) implementation** — phased through 2027; expect RPT base recalibration in long-stale jurisdictions.
+1. **Real Property Valuation Reform Act (RA 12001) implementation** — the 5 Jul 2026 SMV-updating deadline has lapsed (2026-08-07); certified SMVs are still rolling out per LGU through the BLGF/DOF review chain (BLGF MC 001.2026), with the first-year RPT increase capped at 6 % of pre-RPVARA RPT per tax type (Sec. 29). Track certification **per LGU**, not a national date.
 2. **Charter Change attempts to relax foreign-land bar** — perennial; verify current Congress before quoting any "imminent" change.
 3. **CREATE MORE Act (RA 12066) implementing rules** — DOF/BIR Revenue Regulations rolling out 2025–2026.
 4. **SRRV category restructuring** — PRA circulars; verify deposit thresholds before client-quote.
 5. **Boracay STR licensing model** — whether DOT/LGU expand to other tourist islands.
 6. **Bangko Sentral FX Manual updates** — BSP Circular series; affects foreign-buyer remittance documentation.
 
-**Last verified**: 2026-05-27 (validation sweep — BSP RREPI → RPPI rename + URL; SRRV restructure 1 Sept 2025 (Classic+Courtesy USD deposits, age 40-49); VAT exemption PHP 3.6M (BIR RR 1-2024); NCR-26 PHP 695/day Wage Order eff. 18 Jul 2025).
+**Last verified**: 2026-08-07 (`--tax` RA 12001 RPVARA re-verification — 5 Jul 2026 SMV-updating deadline lapsed; BLGF/DOF certification chain + 15-day effectivity + 3-yr general revision per BLGF MC 001.2026; 6 % first-year RPT cap per RA 12001 Sec. 29; RPT amnesty closed 5 Jul 2026). Prior validation sweep 2026-05-27 (BSP RREPI → RPPI rename + URL; SRRV restructure 1 Sept 2025 (Classic+Courtesy USD deposits, age 40-49); VAT exemption PHP 3.6M (BIR RR 1-2024); NCR-26 PHP 695/day Wage Order eff. 18 Jul 2025).

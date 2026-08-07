@@ -199,7 +199,8 @@ For obra nueva (new build, vendida by impresa):
 - **IRPF resident**: progressive on net rental income
 - **IRNR non-resident**: 19 % (EU/EEA) or 24 % (non-EEA) on **gross** rental (verify current year against AEAT before relying)
 - **IVA** if hotel-style services (cleaning, food): 10 % VAT applies, treated as commercial
-- **Tasa turística** (cantonal/local): Cataluña, Baleares — €1-7/night
+- **Tasa turística — Cataluña (IEET: tarifa autonómica + recargo municipal)**: tariff schedule **REPLACED** by **Llei 2/2026 de 6 de març** (DOGC 9621, 10 Mar 2026), in force **1 Apr 2026** — all pre-2026 figures superseded. **Barcelona city totals per person per night, 1 Apr 2026–31 Mar 2027** (general tariff + €5.00 Ajuntament recàrrec): 5★/gran luxe €12.00 · 4★ €8.40 · habitatge d'ús turístic (HUT) €9.50 · albergs de joventut €6.00 · other establishments €7.00 · cruise call >12 h €9.00 / ≤12 h €11.00. **Rest of Cataluña, 1 Apr 2026–31 Mar 2027** (no municipal recàrrec yet): 5★ €4.50 · 4★ €1.80 · HUT €1.75 · albergs €0.80 · other €0.90 — scheduled step-up from 1 Apr 2027 to 5★ €6.00 · 4★ €2.40 · HUT €2.50 · albergs €1.00 · other €1.20. Barcelona recàrrec statutory ceiling **€8/night** (art. 34 bis); non-Barcelona municipios may add up to **€4/night** but only for stays from **1 Oct 2026** and only with a fiscal ordinance + an ATC conveni. Cap **7 stay-units per person**; persons aged **16 or under exempt** (2026 data, 2026-08-07 verified; source [ATC Quota tributària i tarifes](https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria))
+- **Tasa turística — Baleares**: €1-7/night (pre-2026 figure, not re-verified this cycle — confirm the current tourist-tax schedule with the Balearic CCAA tax authority before relying)
 
 ### Strategic notes
 
@@ -402,7 +403,7 @@ For obra nueva (new build, vendida by impresa):
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+**Last verified**: 2026-08-07 (Cataluña IEET tourist-tax tariff schedule re-verified against ATC — Llei 2/2026 rates in force 1 Apr 2026; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (Catastro free + comprehensive; SNCZI maintained). MEDIUM for short-let regulation (CCAA-specific, evolving — Cataluña tightening, Madrid moderate). HIGH for Cataluña 2025 ITP reform (June 2025 effective).
 

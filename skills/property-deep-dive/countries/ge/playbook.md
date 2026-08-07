@@ -111,32 +111,34 @@ OSM `highway` class → road class:
 Governed by Tax Code of Georgia Title VIII (Article 201–207); **set by each municipality within statutory caps**.
 
 **For natural persons** (Art. 201):
-- Applies only if **household annual income > 40,000 GEL** (~US$14,800 / ~€13,600) (2025 threshold per Tax Code Art. 201.2)
+- Applies only if **household annual income > 40,000 GEL** (~US$14,800 / ~€13,600) (2025 threshold per Tax Code Art. 201.2). Where prior-year household income does **not exceed 40,000 GEL**, no property tax is due **other than land tax** — this gate is a national Tax Code rule (per Revenue Service), not a municipal act *(2026-08-07 verified, source Revenue Service)*
 - Rate band: **0.05 %–1.0 %** of market value, on a sliding scale by income
   - Income 40,000–100,000 GEL → 0.05–0.2 %
   - Income > 100,000 GEL → 0.8–1.0 %
-- Tbilisi 2025 schedule (per Tbilisi Sakrebulo Decision #14-69, Dec 2024 — verify via tbilisi.gov.ge):
-  - 40k–100k income: 0.1 % of market value
-  - > 100k income: 0.8 % of market value
+- Tbilisi schedule — set by **Tbilisi Sakrebulo Ordinance №20-90 of 30 Dec 2014** (reg. 200130000.35.101.016108), last amended by **Ordinance №6-19 of 26 Dec 2025** (published 30 Dec 2025, retroactive to 1 Jan 2025), which left individual rates untouched. The previously cited "Decision #14-69, Dec 2024" is **not** the governing instrument:
+  - Prior-year household income **under 100,000 GEL**: **0.2 %** of market value
+  - Prior-year household income **at or above 100,000 GEL**: **0.8 %** of market value
+  - Late-December annual revisions expected — re-check each January against the consolidated text at `https://matsne.gov.ge/ka/document/view/6734892` / tbilisi.gov.ge *(2026-08-07 verified, source Tbilisi Sakrebulo Ordinance №20-90 as amended by №6-19 + Revenue Service)*
 - "Market value" assessment: declared by taxpayer; revenue service may challenge
 - Annual filing on form 100 by **1 November**, payment by **15 November**
 
 **For legal entities** (Art. 202):
 - 1 % of average annual book value of immovable property (rate set by municipality, cap 1 %)
+- **Tbilisi keeps the 1 % default for resident enterprises.** Ordinance №6-19 of 26 Dec 2025 cut the rate to **0.001 %** only for sports activities and regulated municipal passenger transport (M3 buses, metro, Rike–Narikala / Chavchavadze–Turtle Lake / University–Bagebi cable cars), for obligations arising 1 Jan 2025 to 1 Jan 2028 — the carve-out does not reach a residential property-holding company, which stays on the 1 % default *(2026-08-07 verified, source Tbilisi Sakrebulo Ordinance №6-19)*
 
 ### Land tax — მიწის გადასახადი
 
 - **Agricultural land**: per-hectare fixed rate by zone (e.g., Tbilisi peri-urban 1st zone: ~28 GEL/ha, 5th zone: ~5 GEL/ha) — Tax Code Art. 204
 - **Non-agricultural land** (residential plot under house): municipality-set per-m² rate × zone coefficient × area
-  - Tbilisi inner zones: ~0.24 GEL/m² base × zone coefficient (1.0–1.5) — verify per Tbilisi Sakrebulo decision
+  - Tbilisi: **0.24 GEL/m² base rate × district territorial coefficient**, per Tbilisi Sakrebulo Ordinance №20-90 as amended by №6-19 of 26 Dec 2025; the previously stated "zone coefficient (1.0–1.5)" range was **not confirmed** on re-verification — read the coefficient for your district off the ordinance schedule at `https://matsne.gov.ge/ka/document/view/6734892` *(2026-08-07 verified, source Tbilisi Sakrebulo Ordinance №20-90)*
 
 ### Example calculation
 
 A US$150,000 (≈ 405,000 GEL at 2.70 GEL/USD) Tbilisi 2-bed apartment, owner household income > 100k GEL:
 - Annual property tax = 0.8 % × 405,000 GEL = **3,240 GEL/yr (~US$1,200 / ~€1,100)**
 
-Same flat, owner household income < 40k GEL:
-- Annual property tax = **0 GEL** (below threshold)
+Same flat, owner household income ≤ 40k GEL:
+- Annual property tax = **0 GEL on the dwelling** (below the national Tax Code gate) — the gate exempts every property tax **except land tax**, so a separately-titled plot still attracts it *(2026-08-07 verified, source Revenue Service)*
 
 > Property tax in Georgia is materially lower than W. Europe in absolute GEL terms but the income-threshold + market-value-declared mechanism means many foreign owners with modest local income pay nothing on their main home.
 
@@ -180,6 +182,8 @@ Same flat, owner household income < 40k GEL:
 - Foreign nationals **can register as individual entrepreneur** with Georgian tax residency; SBS application via rs.ge
 
 > The 1 % SBS rate is the headline foreigner-attraction fact, but it requires being a registered Individual Entrepreneur (IE) **and** meeting tax residency — not automatic for a non-resident foreigner letting one apartment. For a non-resident landlord using PIT 5 % on residential lease to natural persons, the effective rate is already very low.
+
+> **Labour-migration overlay (from 1 March 2026)**: the amendments adopted 26 June 2025 (**Law №862**) require a **right to labour activity** — plus a labour residence permit or D1 visa — for **self-employed foreigners and entrepreneurs** beyond the visa-free year; those whose labour-migrant database registration was active on **1 March 2026** must hold work authorisation + residence permit by **1 January 2027**, else **GEL 2,000** on the worker or self-employed foreigner (and **GEL 2,000** on an employer per worker), doubled on repeat. Work done **fully remotely for a foreign employer** is out of scope (**Law №1509 of 15 April 2026**) — **confirm with PSDA whether letting via IE/SBS brings you in scope before relying on the 1 % rate** *(2026-08-07 verified, source Parliament of Georgia + `https://matsne.gov.ge/ka/document/view/2806732`)*
 
 ### Short-term rentals (Airbnb / Booking)
 
@@ -233,6 +237,8 @@ Same flat, owner household income < 40k GEL:
 - **LLC (შპს / SPS)**: Estonia-model CIT — 0 % until profit distribution, then 15 % on dividend
 - **Tax residency**: 183+ days in any 12-month rolling period OR "high-net-worth individual" status (assets > 3 million GEL)
 
+> **Registering a regime is not a right to work.** From **1 March 2026** (labour-migration amendments, adopted 26 June 2025, **Law №862**) self-employed foreigners and entrepreneurs need a **right to labour activity** — plus a labour residence permit or D1 visa — beyond the visa-free year; work done **fully remotely for a foreign employer** is out of scope (**Law №1509 of 15 April 2026**). See *Visa / residence pathway for working foreigners* below *(2026-08-07 verified, source Parliament of Georgia + `https://matsne.gov.ge/ka/document/view/2806732`)*
+
 ### Salaried benchmarks
 
 - Average monthly nominal wage 2024 Q4 (Geostat): **~2,030 GEL** (~US$750) — economy-wide
@@ -249,8 +255,8 @@ Same flat, owner household income < 40k GEL:
 ### Visa / residence pathway for working foreigners
 
 - **365-day visa-free** entry covers digital nomad / remote work for ~95 nationalities
-- **Work residence permit** (eMigration via PSDA): for those needing > 1 year continuous presence; tied to employer or business
-- **"Remotely from Georgia"** programme: launched 2020; currently OPEN per geoconsul.gov.ge (income proof US$2,000/mo or US$24k savings + foreign employment + travel medical insurance; 360-day non-renewable). **2026-03-01 reform**: labor-migration amendments (adopted 26 June 2025) require **work permits for foreign remote workers, self-employed, and entrepreneurs** for stays beyond the visa-free year — verify current status at sda.gov.ge / mfa.gov.ge *(2026-05-27 verified, source geoconsul.gov.ge + Parliament of Georgia)*
+- **Work residence permit** (eMigration via PSDA): for those needing > 1 year continuous presence; tied to employer or business. **From 1 March 2026** the labour-migration amendments (adopted 26 June 2025, **Law №862**) require a **right to labour activity** for foreign workers engaged by a **local employer** and for **self-employed foreigners and entrepreneurs** beyond the visa-free year — lawful work needs an **employment contract + right to labour activity + labour residence permit or D1 visa**. Labour immigrants whose database registration was active on **1 March 2026** must obtain work authorisation + residence permit by **1 January 2027**, else **GEL 2,000 on the employer per worker AND GEL 2,000 on the worker or self-employed foreigner** (doubled on repeat). Labour-market test waived for **International Company** and innovative-startup-status employers, or where the posted vacancy *simultaneously* pays **over GEL 15,000 gross/month** AND requires a relevant higher-education degree (Government Resolution **№70 of 20 Feb 2026**). Art. 60 temporary-stay-right exemption enters force **1 September 2026** *(2026-08-07 verified, source Parliament of Georgia + `https://matsne.gov.ge/ka/document/view/2806732`)*
+- **"Remotely from Georgia"** programme: launched 2020; currently OPEN per geoconsul.gov.ge (income proof US$2,000/mo or US$24k savings + foreign employment + travel medical insurance; 360-day non-renewable). **2026-03-01 reform, scope narrowed 15 April 2026**: the labour-migration amendments require a right to labour activity for **self-employed foreigners and entrepreneurs** beyond the visa-free year, but **Law №1509 of 15 April 2026** (in force on publication) took OUT of scope work done **fully remotely for a local employer** that needs no entry into Georgia, and work or services for a **non-resident** tied to that non-resident's activity outside Georgia — so **remote work for a foreign employer is NOT caught**. Also out of scope: short-term professional activity, public-institution work, category 1-3 directorships, heritage-restoration work — verify current status at sda.gov.ge / mfa.gov.ge *(2026-08-07 verified, source geoconsul.gov.ge + Parliament of Georgia + `https://matsne.gov.ge/ka/document/view/2806732`)*
 - **Investment residence permit**: real-estate investment **≥ US$100,000 (until 28 Feb 2026) / ≥ US$150,000 (from 1 March 2026)** → 1-year permit, renewable; **≥ US$300,000 → 5-year permit (unchanged)** (Law on Legal Status of Aliens Art. 15) — apply at PSDA Public Service Halls (sda.gov.ge); issuance authority is **PMMG / Ministry of Justice**; verify current thresholds at sda.gov.ge AND mfa.gov.ge *(2026-05-27 verified, source legal.ge + Government of Georgia; 50 % uplift eff 2026-03-01)*
 
 ---
@@ -397,7 +403,8 @@ Same flat, owner household income < 40k GEL:
 | Roof replacement (terracotta, 200 m²) | 8,000–18,000 |
 | Full apartment renovation (Tbilisi mid-range, 80 m²) | 15,000–35,000 |
 | Septic to mains connection | 1,500–6,000 |
-| Annual property tax (residential, owner income > 100k GEL) | 0.8 % × declared value |
+| Annual property tax (residential, Tbilisi, owner prior-year household income under 100k GEL) | 0.2 % × declared value |
+| Annual property tax (residential, Tbilisi, owner prior-year household income ≥ 100k GEL) | 0.8 % × declared value |
 | **Total transaction cost (buyer side, resale)** | **~0.1–0.5 % of price** |
 
 > All contractor-cost ranges (roof, full renovation, building inspector, fit-out) are **est.** from 2024–2025 Tbilisi/Batumi contractor quotes — get 2+ quotes per job.
@@ -436,10 +443,11 @@ Same flat, owner household income < 40k GEL:
 - **Currency**: most listings priced in **US$** but contracts denominated in **GEL** at NBG reference rate on signing day — exchange-rate exposure
 - **2024 political situation**: EU accession effectively paused; "foreign agents" law in force; monitor before relying on EU-harmonisation expectations
 - **Investment residence permit threshold US$100k (US$150k from 1 March 2026)** is one of the lowest in the world — but permit doesn't grant tax residency automatically
-- **Property tax owed only if household income > 40,000 GEL/yr** (~US$14,800) — many foreign owners on remote-work income outside Georgian tax net pay 0 GEL property tax
+- **Property tax (other than land tax) owed only if household income > 40,000 GEL/yr** (~US$14,800) — the 40k gate is a national Tax Code rule (per Revenue Service), not a municipal act, and exempts every property tax except land tax; many foreign owners on remote-work income outside the Georgian tax net pay 0 GEL on the dwelling. Above the gate, **Tbilisi** charges **0.2 %** of market value where prior-year household income is under 100k GEL and **0.8 %** at or above 100k GEL (Sakrebulo Ordinance №20-90 as amended by №6-19 of 26 Dec 2025) *(2026-08-07 verified, source Revenue Service + `https://matsne.gov.ge/ka/document/view/6734892`)*
 - **Adjara 2 GEL/night tourist fee** for accommodation hosts (Batumi area) — verify current rate
 - **Foreign Agents Registration Act (effective 31 May 2025)** — criminal-liability "foreign-principal" registration regime; **does NOT restrict private foreign property purchase**, but materially affects foreign-funded NGOs, property-development JVs with foreign-government links, and some advisory/legal vendors; verify your transaction-stack counsel is not impaired *(2026-07-02 verified, source Venice Commission CDL-AD(2025)034 + Parliament of Georgia Law N399)*
 - **Mandatory travel medical insurance (effective 1 Jan 2026)** — Government Decree #602 of 26 Dec 2025 requires all foreign entrants to hold travel medical insurance with min **GEL 30,000** coverage for stay duration; cost typically US$10–US$40 per trip — verify carrier list at mfa.gov.ge *(2026-05-27 verified, source matsne.gov.ge)*
+- **Labour-activity permit for working foreigners (effective 1 Mar 2026)** — labour-migration amendments (adopted 26 Jun 2025, **Law №862**) require a **right to labour activity** + labour residence permit or D1 visa for foreign workers engaged by a **local employer** and for **self-employed foreigners and entrepreneurs** beyond the visa-free year; registrations active on 1 Mar 2026 have until **1 Jan 2027** (**GEL 2,000** on the employer per worker AND **GEL 2,000** on the worker/self-employed foreigner, doubled on repeat). **Remote work for a foreign employer is NOT caught** (Law №1509 of 15 Apr 2026); Art. 60 temporary-stay-right exemption in force 1 Sep 2026 *(2026-08-07 verified, source Parliament of Georgia + `https://matsne.gov.ge/ka/document/view/2806732`)*
 
 ## Reddit / forum sources
 
@@ -506,7 +514,7 @@ Same flat, owner household income < 40k GEL:
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats. Foreign-buyer rules + visa pathways verified against MFA + Civil Code references.
 **Confidence**: HIGH for cadastre + tax + foreign-buyer rules (NAPR + Tax Code + Constitution Art. 19 are primary statutory sources, multi-source corroborated). MEDIUM for short-let regulation (no national STR statute as of 2025; Tbilisi/Batumi rules in flux) and for parcel-level geohazard data (NEA + CENN are commune/district-level — parcel certification requires NEA Geological Service request).
-**Last verified**: 2026-05-27
+**Last verified**: 2026-08-07 (`--tax` only: Tbilisi property-tax schedule re-verified against Sakrebulo Ordinance №20-90 of 30 Dec 2014 as amended by Ordinance №6-19 of 26 Dec 2025 — instrument mis-citation and the under-100k rate corrected; all other sections last verified 2026-05-27)
 
 ## Extension TODOs (deepen on first real run)
 

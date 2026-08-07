@@ -132,20 +132,23 @@ For **new builds (vendita da impresa)**:
 
 ### Short-term rentals (locazioni turistiche / affitti brevi ≤30 giorni)
 
-**Mandatory: CIN (Codice Identificativo Nazionale) since 1 Jan 2025**:
+**Mandatory: CIN (Codice Identificativo Nazionale) since 1 Jan 2025** (2026-08-07 verified, sources [Ministero del Turismo — Avviso di entrata in funzione della BDSR](https://www.ministeroturismo.gov.it/cin-pubblicato-lavviso-di-entrata-in-funzione-della-banca-dati-strutture-ricettive-e-del-portale-telematico-per-lassegnazione-del-codice); Ministero del Turismo BDSR FAQ, updated 11 May 2026):
+- **Legal basis**: art. 13-ter DL 145/2023 conv. L. 191/2023 — became applicable 2 Nov 2024, the 60th day after the Avviso attesting entry into function of the BDSR and its telematic portal was published in Gazzetta Ufficiale (3 Sep 2024); the portal had already opened earlier region-by-region in a sanction-free pilot phase. Obligation to hold a CIN in force from 1 Jan 2025 (Ministero del Turismo notice 22 Oct 2024)
 - Replaces all regional CIR codes
 - Apply at: `https://bdsr.ministeroturismo.gov.it/` (BDSR — Banca Dati Strutture Ricettive)
 - Login via SPID or CIE
 - Required for: ALL short-term rentals, B&B, casa vacanze, locazione turistica
 - Without CIN: cannot list on Airbnb / Booking / Vrbo (platforms must verify)
+- **Sanctions applicable from 2 Jan 2025**: €800–€8,000 for absence of CIN; €500–€5,000 for non-display or non-indication of the code — per structure or unit — plus immediate removal of the irregular listing
 - Replaces but does NOT abolish regional licensing (some regioni still need additional notice to comune)
 - Free; alphanumeric code
 
-**Tax regime — Cedolare secca (sostitutiva)** (2026-05-27 verified, sources [L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 17](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199) modifying L. 178/2020 art. 1 c. 595; rate scheme set by L. 213/2023 art. 1 c. 63; underlying regime DL 50/2017 art. 4 commi 2-3; [Agenzia Entrate Locazioni Brevi e Cedolare Secca](https://www.agenziaentrate.gov.it/portale/le-locazioni-brevi-e-la-cedolare-secca)):
+**Tax regime — Cedolare secca (sostitutiva)** (2026-08-07 verified, sources [L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 17](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199) modifying L. 178/2020 art. 1 c. 595; rate scheme set by L. 213/2023 art. 1 c. 63; underlying regime DL 50/2017 art. 4 commi 2-3; [Agenzia Entrate Locazioni Brevi e Cedolare Secca](https://www.agenziaentrate.gov.it/portale/le-locazioni-brevi-e-la-cedolare-secca)):
 - **1° immobile**: 21 % flat (cedolare ridotta) — applies only if a SINGLE property is leased short-term in the tax year
 - **2° immobile**: 26 % flat (cedolare ordinaria)
-- **Soglia 2026**: max 2 immobili in cedolare secca per contribuente (era 4 fino al 2025; ridotto da L. 199/2025 art. 1 c. 17). Il ≤2-cap e la presunzione di impresa ≥3 sono la **stessa soglia espressa in due modi**, non due limiti distinti
-- **3°+ immobile**: presunzione di attività imprenditoriale ex art. 2082 c.c. → P.IVA obbligatoria, IVA/IRPEF ordinaria, perdita del regime cedolare (per Guida AdE aprile 2026)
+- **Soglia dal 1 gen 2026**: max 2 immobili in cedolare secca per contribuente per periodo d'imposta (era 4 fino al 2025; ridotto da L. 199/2025 art. 1 c. 17). Il ≤2-cap e la presunzione di impresa ≥3 sono la **stessa soglia espressa in due modi**, non due limiti distinti
+- **3°+ immobile**: presunzione di legge di attività imprenditoriale ex art. 2082 c.c. → P.IVA obbligatoria, SCIA al comune, tassazione come reddito d'impresa (non IRPEF ordinaria sul reddito da locazione), perdita del regime cedolare (per Guida AdE aprile 2026)
+- **Nessun rinvio**: la proroga di sei mesi al 1 lug 2026, circolata come emendamento al Milleproroghe, NON è stata approvata — il testo coordinato del DL 200/2025 conv. L. 26/2026 (GU 28 feb 2026) non contiene alcuna disposizione sulle locazioni brevi; la soglia dei 2 immobili si applica dal 1 gen 2026 (2026-08-07 verified, sources Agenzia delle Entrate + Gazzetta Ufficiale)
 - Only for contracts ≤ 30 days
 - Optional alternative: regime ordinario IRPEF on rental income
 
@@ -166,6 +169,7 @@ For **new builds (vendita da impresa)**:
 - South (Sicilia, Puglia coast, Sardegna): high seasonality (4-month season concentration)
 - **Firenze centro storico STR ban IN FORCE** — regolamento (Del. C.C. 27/2025, in force 31 May 2025; underlying Variante al Piano Operativo Del. C.C. 19 & 20/2025) bans NEW short-term rentals in the UNESCO Nucleo Storico (Zona A): only units legally let for tourism in 2024 may continue; adds 5-yr authorisations (tied to owner + unit, decaying on sale), 28 sqm minimum apartment size, keybox ban. UPHELD, not overturned: Corte Cost. sent. 186/2025 (16 Dec 2025) validated the framework, then TAR Toscana 14 May 2026 dismissed 19 appeals (sent. 916 & 925/2026). EXTENDED to A3/A4 subzones (Campo di Marte, Gavinana, San Jacopino — ~504 streets / ~67,780 homes) by Del. C.C. 28 del 4 Jun 2026, in force 21 Jun 2026 until 2028 (2026-07-02 verified, sources [Comune di Firenze](https://www.comune.firenze.it/novita/area-stampa/comunicati-stampa/modifica-al-regolamento-affitti-turistici-brevi-il-consiglio); [DirittoPA](https://www.dirittopa.it/it/interventi/urbanistica/affitti-turistici-e-poteri-di-regolazione-comunale))
 - Venezia caps tightening
+- **Venezia — Contributo di Accesso NOT currently applied**: the €5 day-tripper access fee (€10 if paid in the 3 days before the access day) applied to the **Città antica only** — minor lagoon islands excluded. Exempt: overnight guests in imposta-di-soggiorno accommodation, Venezia/Veneto residents, under-14s, and workers incl. commuters and students. The 2026 run was 60 non-consecutive days, 3 Apr–26 Jul (Fri–Sun plus the 24–30 Apr and 1–7 Jun blocks), under the new regolamento approved by Del. C.C. 190/2025. That sperimentazione **TERMINATED** — the contributo has **NOT been applied since 27 Jul 2026**, with no payment and no exemption request needed; application in 2027 or later requires fresh Comune di Venezia provvedimenti, none approved as of 2026-08-07 (2026-08-07 verified, source [Comune di Venezia — Contributo di Accesso](https://cda.ve.it/it/))
 - **Pool / view / parcheggio** = top revenue levers
 - **CIR/CIN registration** is the gating step — start there
 
@@ -368,8 +372,8 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 - **Conformità urbanistica + catastale = nullità rischio** — never sign without tecnico verification
 - **Abuso edilizio** epidemic, especially Sud + coastal — pre-rogito audit is mandatory
 - **Centro storico + paesaggistica vincolo**: any work requires Soprintendenza approval (3–12 month delays)
-- **CIN obbligatorio dal 1 gen 2025** for any short-term rental — without it, cannot list
-- **Cedolare secca limit 2 properties from 2026** — affects rental investment math
+- **CIN obbligatorio dal 1 gen 2025** for any short-term rental — without it, cannot list; sanzioni dal 2 gen 2025: €800–€8,000 per assenza di CIN, €500–€5,000 per mancata esposizione o indicazione del codice (per struttura o unità), più rimozione immediata dell'annuncio irregolare
+- **Cedolare secca limit 2 properties from 1 Jan 2026** (nessun rinvio: l'emendamento Milleproroghe al 1 lug 2026 non è stato approvato) — affects rental investment math
 - **Nord/Sud disparity**: massive gap in services, tax, value, liquidity
 - **Borghi a 1 euro** schemes: cheap entry but mandatory €20k–€50k renovation timeline + caution fund (often €5,000–€10,000)
 - **Diritti reali**: usufrutto, servitù di passaggio, prelazione agraria — careful notaio review
@@ -423,7 +427,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+**Last verified**: 2026-08-07 (`--rental` re-verified — CIN block against Ministero del Turismo BDSR, the cedolare secca property threshold, and the Venice Contributo di Accesso season; balance of playbook 2026-07-03 Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + rental sources (multi-source corroborated). MEDIUM for work catchment heuristics (region-dependent).
 

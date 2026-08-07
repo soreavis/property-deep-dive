@@ -39,7 +39,7 @@ ISO2: `al`. Status: ✅ Fully populated (researched 2026-04).
 | **Tirana center (Bllok, Komuna e Parisit)** | 1,800–3,500 | +14-22% |
 | **Tirana suburbs** | 800–1,500 | +12% |
 | **Durrës (port)** | 1,000–1,400 | moderating |
-| **Vlorë (coast)** | 1,000–2,200 | **+25-58% YoY** (Vlora airport-anticipation effect — airport DELAYED to mid-2026 per Dec 2025 PM statement) |
+| **Vlorë (coast)** | 1,000–2,200 | **+25-58% YoY** (Vlora airport-anticipation effect — airport **NOT operational** as of Aug 2026, works suspended, concession-termination procedure reported 4-5 Aug 2026; **no opening date confirmed — do not price airport proximity in**) |
 | **Sarandë (Adriatic)** | 1,500–2,800+ | **+25-58% YoY** speculative |
 | **Sarandë 1-bed apt** | €150,000–200,000 | high |
 | **Shkodër** | 600–1,200 | +5-10% |
@@ -81,6 +81,10 @@ ISO2: `al`. Status: ✅ Fully populated (researched 2026-04).
 - 🟡 1,500–10,000 v/d (regional roads, urban side streets)
 - 🟠 10,000–35,000 v/d (Tirana arterials, A1 corridor)
 - 🔴 > 35,000 v/d (Tirana ring, Rinas airport corridor)
+
+### Vlora airport corridor — do NOT model
+
+**Vlora International Airport is not operational**: no commercial flights as of Aug 2026, works suspended amid the Mabco Constructions vs 2A Group shareholder dispute, and MIE was reported 4-5 Aug 2026 to have initiated the procedure to terminate the concession (not published by the ministry; concessionaire Mabco says it received no official notice and warns of international arbitration). The MIE minister expressly refused to name any completion date at his [22 May 2026 press conference](https://www.infrastruktura.gov.al/konference-per-media-e-ministrit-te-infrastruktures-dhe-energjise-enea-karakaci). Treat any opening date as unconfirmed — do **not** band an airport-access corridor at Vlorë, and do **not** price airport proximity into a Vlora / Riviera purchase. Verify at infrastruktura.gov.al and aac.gov.al *(2026-08-07 verified, source SeeNews + Albanian Daily News + CAPA + Two Continents + infrastruktura.gov.al)*
 
 ---
 
@@ -142,8 +146,8 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
 
 ### Future risk
 
-- **NEW 1 Jan 2026 DIVA platform**: short-term rental income must be declared via Albanian digital tax system (15% flat tax). Pre-DIVA pressure: from **1 November 2025**, Booking.com hosts must either declare NIPT or pay **20 % VAT on the platform commission** — driving hosts onto NIPT or off Booking
-- **Council of Ministers Decision 153/2026 (11 Mar 2026)**: accommodation-structure certification conditions for tourism beach stations
+- **NEW 1 Jan 2026 DIVA platform**: short-term rental income must be declared via Albanian digital tax system (15% flat tax). The Booking.com NIPT / commission-VAT rule is **not** an upcoming change — it has been in force since **1 Nov 2023** (see `--rental` § Short-let)
+- **Council of Ministers Decision (VKM) nr. 153, dated 11.3.2026** (Fletorja Zyrtare 2026 nr. 54): approves the **model-type agreement between the National Coastal Agency (Agjencia Kombëtare e Bregdetit) and the investor** for use of sea, lake and river shores as **beach stations** (*stacione plazhi*) — adopted under Art. 100 of the Constitution + Art. 29(2) of Law 55/2015, i.e. a **strategic-investor coastal-concession template, NOT accommodation-structure certification**. Beach-station operating conditions + criteria sit in **VKM 649 dated 16.10.2024**, as amended by **VKM 60 dated 28.1.2026** and **VKM 346 dated 13.5.2026** *(2026-08-07 verified, source AlProfit Consult + `https://qbz.gov.al/eli/fz/2026/54`)*
 - **iKadaster fully digital end-2026**
 
 ---
@@ -160,11 +164,18 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
 
 **1 Jan 2026 DIVA platform**:
 - Short-term rental income **must be declared via DIVA** (Albanian digital tax system)
-- **No NIPT (business tax number) required for individuals**
+- **No NIPT (business tax number) required for individuals** *under DIVA itself* — but a NIPT is separately required by Booking.com (below)
 - **15% flat tax** on rental income
 - Penalties for underreporting
 
-**Tourism license + classification** under Tourism Ministry rules (March 2026 decision 153)
+**Booking.com commission VAT / NIPT — in force since 1 Nov 2023** (not a 2025 or 2026 change):
+
+- Accommodation partners who do not supply an Albanian **Tax ID (NIPT)** plus VAT-registration confirmation, date and attestation are charged **20 % VAT on Booking.com commission invoices**; Booking.com is itself VAT-registered in Albania and remits that VAT in full to the Albanian tax authorities
+- Partners supplying **neither** Tax ID nor VAT confirmation additionally **cannot claim the commission as a deductible expense** and **cannot recover input VAT**
+- Tax ID obligatory **even for non-VAT-registered hosts**
+- No 2025 amendment found; the 2023 terms are still published as current on partner.booking.com *(2026-08-07 verified, source [partner.booking.com Albania VAT commission FAQ](https://partner.booking.com/en-gb/compliance/tax-remittance-management/vat-commission-invoices-albania-faqs) + Tiranapost + HLB Albania)*
+
+**VKM 153 dated 11.3.2026 is NOT an STR tourism-licensing rule** (Fletorja Zyrtare 2026 nr. 54): it approves the model-type agreement between the National Coastal Agency (Agjencia Kombëtare e Bregdetit) and the investor for use of sea, lake and river shores as **beach stations** (*stacione plazhi*), under Art. 100 of the Constitution + Art. 29(2) of Law 55/2015 — a strategic-investor coastal-concession template, not accommodation-structure certification. Beach-station operating conditions + criteria sit in **VKM 649 dated 16.10.2024**, as amended by **VKM 60 dated 28.1.2026** and **VKM 346 dated 13.5.2026**. Accommodation-structure classification for short-let hosts is not established by VKM 153/2026 — verify at `https://qbz.gov.al/` *(2026-08-07 verified, source AlProfit Consult + `https://qbz.gov.al/eli/fz/2026/54`)*
 
 ### Tax on rental
 
@@ -289,11 +300,11 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
 
 ## Active fiscal incentives (2025-2026)
 
-- **EU accession sprint**: all 33 negotiating chapters opened by 17 Nov 2025 (Clusters 1-6 in 13 months); **IBAR adopted by COELA 21 May 2026**; IGC marking final phase 26 May 2026; government targets conclusion 2027 + membership 2030 (Commission estimate ~2029) — **fastest accession sprint in EU history**, material for 5-10-yr exit modelling *(2026-05-27 verified, source Consilium + European Western Balkans + Balkan Insight)*
+- **EU accession sprint**: all 33 negotiating chapters opened by 17 Nov 2025 (Clusters 1-6 in 13 months, EC framing); **8th Accession Conference 26 May 2026** confirmed Cluster 1 interim benchmarks met (IBAR; COELA step 21 May 2026), unlocking chapter closure; **9th Accession Conference 14 Jul 2026 provisionally closed the first 3 chapters** — 25 science and research, 26 education and culture, 30 external relations — with **30 chapters still open (Aug 2026)**; Tirana targets conclusion by **end-2027** and the EC 2025 Enlargement Communication judges it "on track" subject to reform pace. **Membership-year talk (2029-2030) is aspirational — no EU-side accession date is fixed**; model a 5-10-yr exit accordingly *(2026-08-07 verified, source Consilium + European Western Balkans + Balkan Insight + [EC news 14 Jul 2026](https://enlargement.ec.europa.eu/news/enlargement-albania-and-eu-provisionally-close-negotiations-science-and-research-education-and-2026-07-14_en))*
 - **EU pre-accession funding** for energy retrofit + infrastructure
-- **Vlora International Airport — DELAYED**: construction largely complete but certification + shareholder dispute have pushed opening; PM Rama stated **mid-2026** target (Dec 2025) with no summer-2026 flights scheduled, charter contracts cancelled, 2A Group consortium in legal dispute, extension request to September 2026. Property-value impact already booked into 2024-2025 Sarandë/Vlorë +25–58 % YoY surge — further upside conditional on actual opening *(2026-05-27 verified, source SeeNews + Albanian Daily News + CAPA + Two Continents)*
+- **Vlora International Airport — NOT OPERATIONAL, concession may be terminated**: no commercial flights as of **Aug 2026**; works **suspended** amid the **Mabco Constructions vs 2A Group** shareholder dispute. MIE Minister Enea Karakaçi, [press conference 22 May 2026](https://www.infrastruktura.gov.al/konference-per-media-e-ministrit-te-infrastruktures-dhe-energjise-enea-karakaci) (primary): the airport is not yet operational; contract clauses trigger **penalties first**, then a mitigation plan leading either to **extension of the concession deadline** or to **unilateral termination of the concession contract** — and he expressly refused to name any completion date. Albanian media (Top Channel, Shqiptarja/Report Tv, ABC News, Gazeta Shqiptare, Balkanweb) reported **4-5 Aug 2026**, citing MIE confirmation to journalists, that the ministry has **initiated the procedure to terminate the concession** — not published on the ministry website as of 2026-08-07; Mabco says it received no official notice and warns of **international arbitration** against Albania. **Treat any opening date as unconfirmed and do NOT price airport proximity into a Vlora / Riviera purchase** — verify at infrastruktura.gov.al and aac.gov.al. The 2024-2025 Sarandë/Vlorë +25–58 % YoY surge already booked the anticipation effect; there is no confirmed opening to back further upside *(2026-08-07 verified, source SeeNews + Albanian Daily News + CAPA + Two Continents + infrastruktura.gov.al)*
 - **One-time 5 % property revaluation window 1 Jan – 31 Dec 2026** (Law 85/2025 — Rivlerësimi i pasurisë së paluajtshme); 5 % tax on uplift between previous registered value and new market value — material for sellers carrying low-historical-cost basis *(2026-05-27 verified, source HLB Albania + Balkanweb + RTSH)*
-- **Strategic Investor Status (Statusi i Investitorit Strategjik, eff. through 31 Dec 2026)** — Law on Strategic Investments 2015 amended Jan 2025 to extend deadline; ≥ **EUR 5,000,000** in tourism creating ≥ **80 new jobs** (lower thresholds for energy/agriculture); fast-track AIDA channel; **access to state-owned immovable property for symbolic EUR 1** for up to **99 years**; 60+ approved projects, > €3.09 bn committed, > 17,000 jobs *(2026-05-27 verified, source Oracle Law Global + UNCTAD Investment Laws Navigator + US State 2025 ICS)*
+- **Strategic Investor Status (Statusi i Investitorit Strategjik, eff. through 31 Dec 2026)** — **Law 55/2015**, last amended by **Law 8/2025 of 30 Jan 2025** (Fletorja Zyrtare 40/2025, Decree 75/25 Feb 2025); application deadline **unchanged at 31 Dec 2026** (Art. 36) — **no 7th extension planned**; tourism route ≥ **EUR 5,000,000** creating ≥ **80 new jobs** (assisted procedure, per AIDA; lower thresholds for energy/agriculture); **NEW sector-agnostic route for investments ≥ EUR 50,000,000** with prior line-ministry approval, added by Law 8/2025 (EC Albania Report 2025); fast-track AIDA channel; **access to state-owned immovable property for symbolic EUR 1** for up to **99 years**; 60+ approved projects, > €3.09 bn committed, > 17,000 jobs *(project-count figures 2026-05-27 verified, not re-checked)*. **Regime winding down** — Albania's EU Reform Agenda commits to a unified investment law by **Dec 2026** that replaces Law 55/2015, and PM Rama announced repeal at the **9th Accession Conference on 14 Jul 2026** (Albanian media; **not enacted as of 2026-08-07**) — do not assume the regime survives past 2026; verify with AIDA before relying on it *(2026-08-07 verified, source Oracle Law Global + UNCTAD Investment Laws Navigator + US State 2025 ICS + EC Albania Report 2025 `https://enlargement.ec.europa.eu/document/download/fe9138b7-90fe-4277-a12c-3a03f6d1957f_en?filename=albania-report-2025.pdf`)*
 - **iKadaster fully digital end-2026** — World Bank-supported
 - **Tirana 2030 Master Plan** + city redevelopment
 - **Massive EU-funded infrastructure** (highways, airports, ports)
@@ -310,7 +321,7 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
 - **2021-2024**: 347 de-legalization decisions in Tirana, **656 nationally**
 - **Legalization narrowing not expanding** (protected areas, coastline buffers, public land **no longer eligible**)
 - **NEW 1 Jan 2026 DIVA platform**: STR income mandatory declaration + 15% flat tax
-- **Vlora International Airport — DELAYED** (mid-2026 target per Dec 2025 PM Rama statement; certification + shareholder dispute pending; no summer-2026 flights scheduled — see Active fiscal incentives)
+- **Vlora International Airport — NOT OPERATIONAL** (no commercial flights as of Aug 2026; works suspended, Mabco Constructions vs 2A Group shareholder dispute; MIE minister refused to name any completion date at his 22 May 2026 press conference; MIE reported 4-5 Aug 2026 to have initiated the concession-termination procedure — unpublished by the ministry, Mabco warns of international arbitration). **No opening date is confirmed — do NOT price airport proximity into a Vlora / Riviera purchase**; verify at infrastruktura.gov.al and aac.gov.al — see Active fiscal incentives
 - **iKadaster fully digital cadastre** target end of 2026 (World Bank program)
 - **2019 Durrës M6.4 earthquake**: €985m losses (~7.5% of 2018 GDP); residential damage extensive
 - **Vore fault near Tirana** — future seismic hazard flagged
@@ -322,7 +333,7 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
   - **Agricultural land**: prohibited for direct foreign ownership; workaround = Albanian Sh.p.k. company (€500-1,000 setup, ~2 weeks) OR long-term lease (up to 99 years)
   - **Construction land** (urban building plots): only purchasable when linked to a building investment whose value is **at least 3× the land value** ("3x rule" per Ligji 7980)
   - **Coastal land within 200 m of Adriatic/Ionian shoreline**: special restrictions; foreign buyer typically uses SPV / Albanian company
-- **EU accession sprint** — all 33 chapters opened by Nov 2025; IBAR adopted 21 May 2026; target conclusion 2027, membership 2030 (Commission ~2029)
+- **EU accession sprint** — all 33 chapters opened by 17 Nov 2025; Cluster 1 interim benchmarks (IBAR) confirmed at the 8th Accession Conference 26 May 2026 (COELA step 21 May 2026); **first 3 chapters provisionally closed 14 Jul 2026** (25 science and research, 26 education and culture, 30 external relations), **30 still open (Aug 2026)**; Tirana targets conclusion by end-2027 — but membership-year talk (2029-2030) is aspirational, **no EU-side accession date fixed** *(2026-08-07 verified, source Consilium + European Western Balkans + Balkan Insight + EC news 14 Jul 2026)*
 - **Family transfers exempt** from transfer tax
 - **Pre-1990 panel buildings + 1990s-2010s informal construction** = main due-diligence concerns
 - **e-Albania portal** for cadastre extracts (service code 9473)
@@ -364,8 +375,8 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
 
 ✅ **Fully populated** as of 2026-04-26.
 **Coverage check**: pricing (INSTAT + BoA Fischer HPI 2025-26), traffic (ARRSH), tax (Tatim 0.05% cadastral apartments + ~2% transfer reference + 20% VAT + 15% CGT + DIVA STR Jan 2026), rental (DIVA platform NEW Jan 2026 + 15% flat), work (SHKP), risks (2019 Durrës M6.4 €985m losses + Vore fault + Albanian Alps karst), mains (UKT + per-bashki).
-**Last verified**: 2026-05-27.
-**Confidence**: HIGH for ASHK + iKadaster + e-Albania (World Bank-backed); HIGH for 2019 Durrës earthquake reference + losses; HIGH for DIVA STR 1 Jan 2026 + 15 % flat tax (HLB Albania confirmed); HIGH for property tax 0.05 % residential / 0.2 % commercial split (post-2018 reform); HIGH for PIT 0/13/23 % framework (Law 29/2023); HIGH for foreign-buyer Ligji 7980/1995 (apartments OK / agri prohibited / construction-land 3× rule / 200 m coastal); HIGH for EU accession (all 33 chapters opened, IBAR 21 May 2026); HIGH for Strategic Investor Status (EUR 5M + 80 jobs + €1 state land); HIGH for 5 % revaluation window 1 Jan – 31 Dec 2026 (Law 85/2025); MEDIUM for Vlora airport status (in flux — revisit quarterly); MEDIUM for legalization process specifics (system changing).
+**Last verified**: 2026-08-07 (EU accession, the Strategic Investor deadline and the STR/NIPT rules all re-verified — 9th Accession Conference 14 Jul 2026 provisionally closed chapters 25 / 26 / 30 with 30 still open and no EU-side membership date fixed; balance of the 2026-05-27 validation sweep unchanged).
+**Confidence**: HIGH for ASHK + iKadaster + e-Albania (World Bank-backed); HIGH for 2019 Durrës earthquake reference + losses; HIGH for DIVA STR 1 Jan 2026 + 15 % flat tax (HLB Albania confirmed); HIGH for property tax 0.05 % residential / 0.2 % commercial split (post-2018 reform); HIGH for PIT 0/13/23 % framework (Law 29/2023); HIGH for foreign-buyer Ligji 7980/1995 (apartments OK / agri prohibited / construction-land 3× rule / 200 m coastal); HIGH for EU accession (all 33 chapters opened, IBAR 21 May 2026, first 3 chapters provisionally closed 14 Jul 2026 — 30 still open, no EU-side membership date fixed); HIGH for Strategic Investor Status core terms (Law 55/2015 as amended by Law 8/2025 — EUR 5M + 80 jobs tourism route, new ≥ EUR 50M sector-agnostic route, €1 state land, deadline 31 Dec 2026 per Art. 36); MEDIUM for the regime's post-2026 future (unified investment law due Dec 2026 + repeal announced 14 Jul 2026, not enacted as of 2026-08-07 — revisit); HIGH for 5 % revaluation window 1 Jan – 31 Dec 2026 (Law 85/2025); HIGH that Vlora International Airport is NOT operational (MIE minister, 22 May 2026 press conference) but MEDIUM on the concession outcome (the 4-5 Aug 2026 termination procedure is media-reported, unpublished by MIE, and disputed by Mabco — revisit by 2027-02-03); MEDIUM for legalization process specifics (system changing).
 
 ## Extension TODOs
 

@@ -132,7 +132,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 - **Rate schedule (FY 2025 declared 2026)** — multi-tramo with cumplidor (compliant-taxpayer) discounts:
   - First tramo (up to ARS 52,660,771.80 over the mínimo): **0.50%** general / **0%** cumplidores
   - Second tramo (52.66M–114.10M over mínimo): **0.75%** general / **0.25%** cumplidores
-  - Top tramo of 1.25% **eliminated** by Ley 27.743
+  - **Top bracket steps down every fiscal year** under **Ley 27.743 art. 63** (B.O. 2024-07-08), which rewrote art. 25 of Ley 23.966: FY2023 **0.50–1.50%** → FY2024 **0.50–1.25%** → FY2025 **0.50–1.00%** → FY2026 **0.50–0.75%** → flat **0.25%** from FY2027. The FY2025 scale declared in 2026 therefore tops out at **1.00%** (2026-08-07 verified, source [Ley 27.743 texto](https://biblioteca.afip.gob.ar/dcp/LEY_C_027743_2024_06_27)).
 - **Foreign-asset surcharge eliminated retroactively to FY 2023** by Ley 27.743 (sanctioned June 2024) — unified schedule for foreign + domestic assets
 - **REIBP optional prepayment** scheme exists (Ley 27.743 Régimen Especial); rates negotiated under the régimen
 
@@ -324,7 +324,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 - **Currency arbitrage** (oficial / blue / MEP / CCL) historically — gap narrowing since 2024
 - **High inflation** (peso depreciation) makes ARS-denominated investments meaningless
 - **Capital gains** unusual: 15% on real-estate gains (was 0% pre-2018)
-- **Bienes Personales** wealth tax — major issue for foreigners; reformed 2024 (1.10% → 1.00% → 0.50% schedule)
+- **Bienes Personales** wealth tax — major issue for foreigners; reformed by **Ley 27.743 art. 63** (B.O. 2024-07-08) into a single scale over Argentine + foreign assets whose top bracket drops each year: FY2024 0.50–1.25% → FY2025 0.50–1.00% → FY2026 0.50–0.75% → flat **0.25%** from FY2027 (2026-08-07 verified)
 - **DNU 70/2023 + Ley Bases (Ley 27.742)** — rental market liberalization NOW PERMANENT
 - **Boleto de compraventa** pre-escritura common
 - **Foreigners cannot buy rural land >1,000 ha** in the core Pampas zone (Ley 26.737 — **still in force**; equivalent-productive-area limits apply elsewhere); also **15% provincial cap** (foreigners may not own >15% of provincial rural land) and **30% same-nationality sub-cap** within that 15%; water-body adjacency + border-security-zone prohibitions are separate. **Milei's DNU 70/2023 attempted to repeal Ley 26.737 but that specific provision is frozen pending Supreme Court / Congressional review** (2026-05-27 verified).
@@ -378,15 +378,15 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 ## Status
 
 ✅ **Fully populated** as of 2026-04-26.
-**Last verified**: 2026-05-27.
-**Coverage check**: pricing (Reporte Inmobiliario + Zonaprop + TheLatinvestor 2026), traffic (DNV TMDA), tax (provincial inmobiliario + sellos + **ITI federal REPEALED 2024-07-08** by Ley 27.743 art. 67 + Bienes Personales reformed Ley 27.743 with IPC-indexed 2026 thresholds + 15% CGT post-2018 + **AFIP→ARCA** rename Decreto 953/2024), rental (DNU 70 + Ley Bases liberalized), work (Monotributo K cap ARS 108M; SMVM ARS 357,800 Abr 2026), risks (INPRES Cuyo Zone 4 + Patagonia volcanic + flood Tigre; Ley 26.737 still in force, frozen DNU 70 repeal), mains (AySA + ABSA + provincial), cepo (Phase 3 lift 2025-04-14 with band ARS 1,000-1,400/USD).
+**Last verified**: 2026-08-07.
+**Coverage check**: pricing (Reporte Inmobiliario + Zonaprop + TheLatinvestor 2026), traffic (DNV TMDA), tax (provincial inmobiliario + sellos + **ITI federal REPEALED 2024-07-08** by Ley 27.743 art. 67 + Bienes Personales reformed by Ley 27.743 art. 63 (single scale over Argentine + foreign assets, top bracket stepping down FY2025 1.00% → FY2026 0.75% → flat 0.25% from FY2027) with IPC-indexed 2026 thresholds + 15% CGT post-2018 + **AFIP→ARCA** rename Decreto 953/2024), rental (DNU 70 + Ley Bases liberalized), work (Monotributo K cap ARS 108M; SMVM ARS 357,800 Abr 2026), risks (INPRES Cuyo Zone 4 + Patagonia volcanic + flood Tigre; Ley 26.737 still in force, frozen DNU 70 repeal), mains (AySA + ABSA + provincial), cepo (Phase 3 lift 2025-04-14 with band ARS 1,000-1,400/USD).
 **Confidence**: HIGH for Bienes Personales reform schedule (Ley 27.743) + DNU 70/2023 + Ley Bases consolidation June 2024 + cepo partial lift April 2025; HIGH for Zonaprop + Reporte Inmobiliario market data; MEDIUM for provincial registry URL stability (varies); MEDIUM for further Milei tax-cut announcements (March 2026 unenacted as of writing).
 
 ## Extension TODOs
 
 - [ ] Per-province registry URL + lookup flow
 - [ ] Per-province sellos rates table
-- [ ] Bienes Personales calculator with rate schedule (1.10% / 1.00% / 0.50%)
+- [ ] Bienes Personales calculator with the Ley 27.743 art. 63 step-down scale (FY2025 0.50–1.00% / FY2026 0.50–0.75% / flat 0.25% from FY2027)
 - [ ] Cepo cambiario lift impact on transactions
 - [ ] Mortgage product comparison (UVA vs USD-linked)
 - [ ] DNU 70 / Ley Bases rental contract templates

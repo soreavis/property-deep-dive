@@ -21,7 +21,7 @@ ISO2: `bz`. Status: ✅ Fully populated (researched 2026-05-07).
   - **National Lands** — government-owned; can be applied for via Lands Department but not freely sold.
   - **Maya customary tenure** — communal land use under traditional system in **Toledo District** (~41 Maya villages); recognised by **Caribbean Court of Justice (CCJ) 2015 ruling** (Maya Leaders Alliance v Attorney General of Belize) as legally equal to Western property ownership. **Government draft Maya Customary Land Tenure Policy 2024** in consultation; intended to formalise village-level communal title (Belmopan-published policy framework — verify current statutory progression before any Toledo-District deal).
 - **Recent reforms / context**:
-  - **Stamp Duties (Amendment) Act, 2024** (Act No. 33 of 2024, December 2024 — National Assembly of Belize) — clarified treatment of share transfers in IBC-held property + other technical updates. Verify the consolidated current text with attorney for any 2025-2026 transaction.
+  - **Stamp Duties (Amendment) Act, 2024** (Act No. 33 of 2024 — assented 9 Dec 2024, gazetted 14 Dec 2024, **in force 1 January 2025**; National Assembly of Belize) — new **s.64(12)** charges duty on **any** conveyance or transfer of stock or shares by sale, exchange **or gift** at **5 %** (companies incorporated in Belize) / **7 %** (companies incorporated outside Belize), on value or consideration whichever is greater, so the share-transfer route into a property-holding company is **taxed, not exempt**. **The Act does not mention IBCs** — the split turns on place of incorporation, not offshore status. It also re-bands mortgage duty (**s.59**), replaces the exemption list (**s.69**, with **s.69(g)** further amended by **Act No. 7 of 2025**, gazetted 11 Feb 2025, also in force 1 January 2025) and extends land-transfer duty to joint-tenancy conveyances (**s.72**) — see `--tax`. Verify the consolidated current text with a Belize attorney before transacting.
   - **Income Tax exemption increased** from BZD 26,000 to **BZD 29,000 effective 1 January 2025** (Belize Tax Service / Government of Belize budget measures; Love FM Belize News).
   - **QRP age threshold lowered from 45 to 40** (effective ~2023 per current Belize Tourism Board QRP page) — verify for current applications at `https://www.belizetourismboard.org/programs-events/retirement-program/`.
   - **Hurricane Lisa (Cat 1, 2 November 2022)** — landfall near Belize City; ~5,000 homes damaged, 500 destroyed, ~USD 100M losses (NHC TCR AL152022; IFRC DREF). Most recent direct major-impact event; relevant to insurance + structural-condition diligence on Belize-District 2020-or-older builds.
@@ -86,7 +86,7 @@ ISO2: `bz`. Status: ✅ Fully populated (researched 2026-05-07).
 - **Queen's Chain** — 66-foot Crown reserve along high-water mark (public foreshore).
 - **National Lands** — government-owned land (rural unallocated, much of southern Toledo, many cayes).
 - **QRP** — Qualified Retired Persons programme (Belize Tourism Board administered).
-- **IBC** — International Business Company (offshore-finance vehicle; can hold Belize property under preferential 7 % stamp duty per RE/MAX Belize secondary; verify with BTS + attorney).
+- **IBC** — International Business Company (offshore-finance vehicle; can hold Belize property under preferential 7 % stamp duty per RE/MAX Belize secondary; verify with BTS + attorney). ⚠️ The **Stamp Duties (Amendment) Act 2024 does not mention IBCs** — its new **s.64(12)** share-transfer duty splits **5 % / 7 %** on **place of incorporation** (in / outside Belize), not on offshore status (in force 1 January 2025 — see `--tax`).
 
 ---
 
@@ -148,7 +148,7 @@ Governed by the **Land Tax Act** + **Real Property Tax Act**; administered by th
 
 ### Stamp Duty (transfer tax)
 
-Governed by the **Stamp Duties Act** (as amended by the **Stamp Duties (Amendment) Act, 2024** — Act No. 33 of 2024).
+Governed by the **Stamp Duties Act** (as amended by the **Stamp Duties (Amendment) Act, 2024** — Act No. 33 of 2024, assented 9 Dec 2024, gazetted 14 Dec 2024, **in force 1 January 2025**; **s.69(g)** further amended by **Act No. 7 of 2025**, gazetted 11 Feb 2025, also in force 1 January 2025).
 
 **Headline rates** (per RE/MAX Belize + Ceiba Realty 2025 guides — secondary; verify via Belize Tax Service + attorney):
 
@@ -161,7 +161,11 @@ Governed by the **Stamp Duties Act** (as amended by the **Stamp Duties (Amendmen
 - **Threshold**: first **BZD 20,000 (USD 10,000)** of consideration is **stamp-duty-exempt**.
 - **Tax base**: **higher of purchase price or market value** (Lands Department valuation may override).
 - **Liability**: **buyer pays** (custom + statute).
-- **2024 amendment**: clarified treatment of share transfers when property is held by an **IBC** — share transfers now squarely captured under stamp duty (per Act No. 33 of 2024 — primary, verify the consolidated text). The IBC route is therefore less of a tax-reduction tool than pre-2024.
+- **Share-transfer duty — new s.64(12)** (Act No. 33 of 2024, in force **1 January 2025**): duty is charged on **any conveyance or transfer of stock or shares by sale, exchange or gift** — **5 %** where the company is **incorporated in Belize**, **7 %** where it is **incorporated outside Belize** — on **value or consideration, whichever is greater**. The share-transfer route into a property-holding company is therefore **taxed, not exempt**. **The Act does not mention IBCs**: the split turns on place of incorporation, not offshore status (National Assembly of Belize, Act No. 33 of 2024 — primary).
+- **Mortgage duty — s.59 re-banded** (same Act): **0 %** on the first **BZD 100,000** secured; **1.5 %** on the excess above BZD 100,000 for a **mortgage**; **0.6 %** on the excess for an **assignment or transfer of mortgage** and for a **reconveyance, release, discharge or surrender**.
+- **Exemptions — s.69 replaced** (same Act; **s.69(g)** further amended by **Act No. 7 of 2025**, gazetted 11 Feb 2025, also in force 1 January 2025): conveyances between **spouses, common-law spouses, siblings, children and parents**; **testamentary disposition and intestacy**; **charitable transfers up to BZD 25,000 in any 12 months**; **agricultural or residential leases under 2 years at rent under BZD 2,000 per month**. ⚠️ There is **no grandparent or grandchild exemption**, despite agent marketing claiming one.
+- **Joint tenancy + intra-group — s.72** (same Act): land-transfer duty **extended to joint-tenancy conveyances**; **company-to-company transfers exempt** where the **beneficial owner** as defined in **s.2(1) Money Laundering and Terrorism (Prevention) Act** is the same on both sides.
+- Verify the **consolidated text** with a Belize attorney before transacting.
 
 ### GST (General Sales Tax / VAT-equivalent)
 
@@ -178,6 +182,7 @@ Governed by the **Stamp Duties Act** (as amended by the **Stamp Duties (Amendmen
 | Item | Rate / amount | Who pays | Notes |
 |---|---|---|---|
 | **Stamp Duty (foreign buyer)** | **8 %** of consideration over BZD 20,000 | **Buyer** | 7 % via IBC; 5 % Belizean/CARICOM |
+| **Mortgage stamp duty** (only if financed) | **0 %** on the first BZD 100,000 secured; **1.5 %** on the excess (Stamp Duties Act s.59 as re-banded by Act No. 33 of 2024, in force 1 Jan 2025) | Buyer (as mortgagor) | **0.6 %** on the excess for assignment / transfer of mortgage and for reconveyance, release, discharge or surrender |
 | **Land Registry registration fee** | nominal — flat fee schedule (~BZD 150 / USD 75 typical per RE/MAX Belize secondary) | Buyer | Verify current schedule at Land Registry fee page |
 | **Attorney conveyancing fee** (buyer-side) | **1.5–3 % of consideration + 12.5 % GST on fee** | Buyer | Typical range per Ceiba + RE/MAX guides; verify on quote |
 | **Title search + due-diligence** | USD 300–800 typical | Buyer | Lands Department search + encumbrance check |
@@ -185,7 +190,7 @@ Governed by the **Stamp Duties Act** (as amended by the **Stamp Duties (Amendmen
 | **Surveyor's report / boundary check** | USD 400–1,500 | Buyer | Mandatory if title diagram is dated or boundaries unclear |
 | **Real-estate agent commission** | **5–10 % + 12.5 % GST** | Seller | Typical range; verify in agreement |
 
-> **Total buyer-side mandatory cost** (excluding agent commission): **~10–13 % of consideration** for a foreign buyer (8 % stamp + 1.5–3 % attorney + 12.5 % GST on attorney fee + small registration + survey + optional title insurance).
+> **Total buyer-side mandatory cost** (excluding agent commission): **~10–13 % of consideration** for a foreign buyer (8 % stamp + 1.5–3 % attorney + 12.5 % GST on attorney fee + small registration + survey + optional title insurance). **Cash-purchase basis** — add **mortgage stamp duty** (s.59: 0 % to BZD 100,000 secured, then 1.5 % on the excess) if the purchase is financed.
 
 ### Capital gains
 
@@ -213,6 +218,8 @@ Governed by the **Income and Business Tax Act**; administered by **Belize Tax Se
 | Stamp Duty (foreign buyer) | **8 %** of consideration > BZD 20k |
 | Stamp Duty (Belizean / CARICOM) | **5 %** |
 | Stamp Duty (foreigner via IBC, pre-2024 structure) | **7 %** (verify post-2024 amendment effect) |
+| Stamp Duty — **share transfer** (s.64(12), from 1 Jan 2025) | **5 %** company incorporated in Belize / **7 %** incorporated outside Belize, on value or consideration whichever is greater |
+| Stamp Duty — **mortgage** (s.59, from 1 Jan 2025) | **0 %** to BZD 100k secured; **1.5 %** on the excess (mortgage) / **0.6 %** on the excess (assignment, transfer, reconveyance, release, discharge, surrender) |
 | Attorney conveyancing fee | **1.5–3 % + 12.5 % GST** |
 | Land Registry registration | **flat ~BZD 150** typical |
 | Title insurance (optional) | **0.4–1 %** one-time |
@@ -522,7 +529,7 @@ Administered by **Belize Tourism Board (BTB)**: `https://www.belizetourismboard.
 - **Property tax on UV (unimproved land value) only** — buildings exempt, making **annual property tax often < USD 200/yr** even on high-value beachfront — the country's headline tax-friendliness claim, well-documented secondary.
 - **No capital gains tax + no estate tax + no inheritance tax + no wealth tax** — among the most tax-friendly Caribbean / LatAm jurisdictions for property holders. Verify current at BTS before reliance.
 - **Stamp Duty 8 % (foreigner) / 5 % (Belizean / CARICOM) / 7 % (foreigner via IBC pre-2024)** on consideration > BZD 20k — modestly higher transaction tax than Costa Rica (~3-4 %) or Panama (~3-4 %), offset by zero CGT.
-- **Stamp Duties (Amendment) Act 2024** clarified IBC share-transfer treatment — verify implications for any IBC-held structure with attorney.
+- **Stamp Duties (Amendment) Act 2024** (Act No. 33 of 2024 — assented 9 Dec 2024, gazetted 14 Dec 2024, **in force 1 January 2025**) — new **s.64(12)** taxes **any** conveyance or transfer of stock or shares by sale, exchange or gift at **5 %** (company incorporated in Belize) / **7 %** (incorporated outside Belize) on value or consideration whichever is greater, so the share-transfer route into a property-holding company is **taxed, not exempt**; the Act **does not mention IBCs**. It also re-bands mortgage duty (**s.59** — 0 % to BZD 100,000 secured, 1.5 % on the excess; 0.6 % on assignment / transfer / reconveyance / release / discharge / surrender), replaces the **s.69** exemption list (spouses, common-law spouses, siblings, children, parents; testamentary disposition + intestacy; charitable ≤ BZD 25,000 in any 12 months; agricultural / residential leases under 2 years at rent under BZD 2,000 per month — **no grandparent or grandchild exemption**, despite agent marketing claiming one), and extends land-transfer duty to **joint-tenancy conveyances** while exempting company-to-company transfers where the **beneficial owner** (s.2(1) Money Laundering and Terrorism (Prevention) Act) is the same on both sides (**s.72**). **s.69(g)** further amended by **Act No. 7 of 2025** (gazetted 11 Feb 2025, also in force 1 January 2025). Verify the consolidated text with a Belize attorney before transacting.
 - **Declared vs undeclared land** is the **single biggest BZ-specific title risk**. Undeclared land via Deed of Conveyance is materially weaker than registered title under the Registered Land Act; conversion is possible but slow + costly (6-18 months). Always verify with the Lands Department before pricing.
 - **Title insurance is scarce + optional** — many transactions close without it. Strongly recommended for any foreign-buyer transaction given undeclared-land prevalence.
 - **Maya customary tenure (Toledo District)** — CCJ 2015 ruling + 2024 draft Maya Customary Land Tenure Policy in consultation. **Treat any Toledo District land transaction outside an existing fee-simple title as red-flag** until the 2024 policy is enacted + recorded. Outside Toledo, irrelevant.
@@ -600,4 +607,4 @@ Administered by **Belize Tourism Board (BTB)**: `https://www.belizetourismboard.
 
 **Status**: ✅ fully populated as of 2026-05-07
 **Confidence**: MEDIUM — primary statutes (Registered Land Act Ch. 194 Rev. 2020, Stamp Duties (Amendment) Act 2024 PDF, Income & Business Tax Act via BTS) verified; QRP programme (age 40+, USD 2,000/mo, foreign-source-income tax exemption) verified directly at Belize Tourism Board primary page; CBB BZD/USD 2:1 peg since May 1976 verified primary; 2022 Census (population 397,483, +23 % since 2010, 67.8 % home-ownership) verified at SIB primary; 2025 Income Tax threshold raise BZD 26k → 29k verified via BTS + Government budget; Hurricane Lisa 2022 verified via NHC TCR AL152022; Hurricane Iris 2001 + post-Iris reconstruction context verified secondary; Maya CCJ 2015 ruling + 2024 draft policy verified via San Pedro Sun + Cultural Survival; foreign-ownership parity (Aliens Landholding Act repealed 2001) verified via multiple secondary, statutory absence in current Registered Land Act. **MEDIUM** for property-tax rate bands (1 % rural / 1.5 % urban / 2 % Belmopan) — secondary aggregator data (Ceiba, Vida, Will Mitchell, International Living) consistent but no consolidated primary rate-card; verify per municipality before reliance. **MEDIUM** for stamp-duty rates (5 % / 7 % / 8 %) — secondary RE/MAX + Ceiba + Wikipedia; primary statutory text via Stamp Duties (Amendment) Act 2024 PDF should be consulted for current consolidated reading. **MEDIUM** for 2025-2026 USD/sq ft benchmarks — secondary aggregators (RE/MAX Belize, Brevitas, Global Property Guide), no primary residential price index exists; cross-check ≥ 3 live RE/MAX + Belize Real Estate Search comparables before relying. **LOW** for STR yield claims (8-15 % net) — broker-promotional data with strong selection bias; treat as ceiling not central-tendency. **LOW** for current insurance + closing-cost benchmarks — post-Lisa 2022 + post-Beryl/Melissa Caribbean-wide hardening means market is in flux.
-**Last verified**: 2026-05-27
+**Last verified**: 2026-08-07

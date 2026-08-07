@@ -107,6 +107,8 @@ Figures are estimates — confirm the current year's rates demand against each c
 
 **Rates frozen** in some councils 2024-2025 due to crisis politics.
 
+**Auckland — short-term letting shifts the rating category**: peer-to-peer STR moves the property onto a graduated business-rating share of general rates + CATTR once it is let 29+ nights in the 1 Jul – 30 Jun year; the Accommodation Provider Targeted Rate (APTR) itself has been suspended since 2020 and is NOT reinstated for 2026/2027. Bands and deadlines in `--rental` § Auckland (2026-08-07 verified, source: [Auckland Council — Accommodation Provider Targeted Rate](https://www.aucklandcouncil.govt.nz/en/property-rates-valuations/accommodation-provider-targeted-rate.html))
+
 ### Transaction taxes
 
 - **NO STAMP DUTY** (abolished 1999) — UNIQUE in OECD
@@ -179,8 +181,17 @@ Figures are estimates — confirm the current year's rates demand against each c
 #### Auckland
 
 - Unitary Plan visitor accommodation rules
-- **>28 nights/yr triggers business-rate share** (declaration form required)
-- Auckland Council Accommodation Provider Targeted Rate
+- **APTR (Accommodation Provider Targeted Rate) suspended since 2020 — NOT reinstated for 2026/2027.** The live cost is a **graduated general-rates + CATTR business uplift** on peer-to-peer STR, nights counted **1 Jul – 30 Jun** (2026-08-07 verified, source: [Auckland Council — Accommodation Provider Targeted Rate](https://www.aucklandcouncil.govt.nz/en/property-rates-valuations/accommodation-provider-targeted-rate.html))
+
+| Nights let (1 Jul – 30 Jun) | Rating split |
+|---|---|
+| **up to 28** | stays 100% residential |
+| **29–135** | 75% residential / 25% business |
+| **136–180** | 50% residential / 50% business |
+| **more than 180** | 100% business |
+
+- **Declare before 1 Jul** to land on the first instalment bill; **remove the listing before 30 Jun** to stay residential
+- Supreme Court upheld the original 2017/18–2018/19 APTR on **12 May 2023** ([2023] NZSC 53)
 
 #### Other councils
 
@@ -418,6 +429,7 @@ Figures are estimates — confirm the current year's rates demand against each c
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing (REINZ HPI + QV + Trade Me), traffic, tax (rates + bright-line + GST + zero stamp duty), rental (RTA + Healthy Homes), work, risks (NSHM 2022 + Cyclone Gabrielle 2023 + leaky homes), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for REINZ + QV March 2026 medians + bright-line 2-yr from 1 Jul 2024 + interest deductibility 100% from 1 Apr 2025 + foreign-buyer ban (AU+SG exempt) + NHCover $300k+GST cap + STR GST collection from 1 Apr 2024; MEDIUM for council rate forecasts (frozen in some councils 2024-2025).
+**Last verified**: 2026-08-07 (Auckland APTR suspension since 2020 + graduated general-rates/CATTR STR business uplift re-verified against Auckland Council; other sections unchanged)
 
 ## Extension TODOs
 

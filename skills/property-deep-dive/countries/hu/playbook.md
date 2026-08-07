@@ -132,6 +132,10 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 - **15%** flat
 - **5-year holding exemption** (full exemption after 5 years; sliding scale years 1-5 per NAV SZJA információs füzet — residential schedule): Year 1: 100%; Year 2: 90%; Year 3: 60%; Year 4: 30%; Year 5+: 0% (some secondary sources publish 100/90/70/50/30/0 for non-residential — confirm with NAV booklet per transaction) (2026-05-27 verified, source: NAV / PwC Tax Summary)
 
+### Rental income — private accommodation (STR)
+
+- **Fizetővendéglátó tételes átalányadó** (Szja tv. 57/A. § (4)): **HUF 150,000/habitable room/yr** in Budapest — the only settlement over the 2m guest-night trigger — and **HUF 38,400/room/yr** in every other settlement; raised from 38,400 on 1 Jan 2025, both rates unchanged for tax year 2026. Full conditions + NAV list timing in `--rental` (2026-08-07 verified, source: NAV)
+
 ### Total transaction cost (buyer side)
 
 - Standard resale: ~5-6% (4% transfer + 1-2% legal/lawyer)
@@ -163,7 +167,8 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 - Other Budapest districts (e.g. V) reportedly considering similar moves
 - STR stock grew **+80% Budapest 2020-2024**; **>hotel rooms** in city
 - **Tax**: kata regime up to HUF 18M revenue (preferential)
-- *Short-let rules re-verified 2026-07-02 (Airbnb Hungary Help Center; Erzsébetváros decrees 33/2025 & 46/2025 via net.jogtar.hu)*
+- **Fizetővendéglátó tételes átalányadó** (itemised flat-rate tax on private accommodation, Szja tv. 57/A. § (4)) — **HUF 150,000 per habitable room per year** in settlements whose guest-nights exceeded **2 million in the second year before the tax year**; **HUF 38,400/room/yr everywhere else**. **Budapest is the only settlement on that list** (guest-nights above 2m in both 2023 and 2024). Rate rose 38,400 → 150,000 on **1 Jan 2025** (+290.6%) — NOT a 2024 change (NAV's 2024 information booklet still stated a flat HUF 38,400/room nationwide); both rates unchanged for tax year 2026. NAV republishes the qualifying-settlement list **by 31 January each year** — check it before assuming the low rate (2026-08-07 verified, source: NAV information booklet 10 published 2026-02-03 + NAV notice 2025-01-17, `https://nav.gov.hu/ado/szja/A_fizetovendeglatokat_erinto_valtozasok`)
+- *Short-let rules re-verified 2026-07-02 (Airbnb Hungary Help Center; Erzsébetváros decrees 33/2025 & 46/2025 via net.jogtar.hu); fizetővendéglátó tételes átalányadó re-verified 2026-08-07 (NAV)*
 
 ---
 
@@ -350,7 +355,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 ## Status
 
 ✅ **Fully populated** as of 2026-04-25.
-**Coverage check**: pricing (KSH + Ingatlan.com + MNB), traffic (Magyar Közút), tax (építményadó + telekadó local + 4% transfer + 27% VAT (5% new) + 15% CGT 5-yr exempt), rental (Terézváros STR ban from 1 Jan 2026), work, risks (flood 25% territory + drought + Soviet-era panelház), mains all have primary government sources.
+**Coverage check**: pricing (KSH + Ingatlan.com + MNB), traffic (Magyar Közút), tax (építményadó + telekadó local + 4% transfer + 27% VAT (5% new) + 15% CGT 5-yr exempt + fizetővendéglátó tételes átalányadó), rental (Terézváros STR ban from 1 Jan 2026), work, risks (flood 25% territory + drought + Soviet-era panelház), mains all have primary government sources.
 **Confidence**: HIGH for Otthon Start (1 Sep 2025) + Terézváros STR ban (1 Jan 2026 confirmed) + 4% transfer tax + 5% VAT extension to 2026; HIGH for Földforgalmi törvény amendment (24 Dec 2025) — agricultural lease structures broader; MEDIUM for HUF FX volatility forecasts (rapidly changing).
 
 ## Extension TODOs
