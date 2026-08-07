@@ -60,6 +60,24 @@ jobs:
         # Released sections are grandfathered; this only guards new entries.
         run: python3 scripts/check-changelog-length.py --check
 
+  regwatch-parse:
+    name: regulatory-watch entries all parse
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Every entry is reachable by the schedulers
+        # An entry that fails to parse is not a formatting nit — it is invisible to
+        # regulatory-watch-revisit.yml and transposition-alerts.yml, which then report
+        # "no overdue entries" while the entry sits unchecked. That is exactly how six
+        # entries (two Tier-1, one 30 days past due) went unnoticed while every gate
+        # was green. Nothing else in CI reads these rows.
+        run: |
+          python3 scripts/regwatch_parse-test.py
+          python3 scripts/regwatch_parse.py --check
+
   markdownlint:
     name: Markdown lint
     runs-on: ubuntu-latest

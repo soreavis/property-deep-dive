@@ -40,50 +40,26 @@ jobs:
           # capture the print() lines too and overwrite the JSON, breaking
           # the JSON.parse in the next step.
           python3 - <<'PY'
-          import json, re
+          import json, sys
           from datetime import date
+
+          sys.path.insert(0, 'scripts')
+          import regwatch_parse
 
           today = date.today()
           THRESHOLDS = [90, 30, 14, 0]
 
-          path = 'skills/property-deep-dive/shared/regulatory-watch.md'
-          with open(path, encoding='utf-8') as f:
-              text = f.read()
+          entries, unparsed = regwatch_parse.load()
 
-          # Multi-country headers (e.g. "### 🇸🇪 SE / 🇫🇮 FI / 🇳🇴 NO") must attribute each
-          # entry correctly. Mirror scripts/regwatch_promotions.py: a `### ` line is a
-          # country header ONLY when it carries a regional-indicator-symbol codepoint;
-          # capture ALL ISO2 codes in it. For each entry, if its sections field carries a
-          # trailing "(XX)" ISO tag in the header set, attribute to that single country;
-          # otherwise fan the entry out to every ISO in the header.
-          iso2_re = re.compile(r'\b([A-Z]{2})\b')
-          sections_iso_re = re.compile(r'\(([A-Z]{2})\)\s*$')
-          # Entry: backtick-delimited 8-field row. Field 0 may include "(pending)" suffix.
-          entry_re = re.compile(r'^[-*]\s+`([^`]+)`\s*$')
+          # An unparsed bullet never fires an alert. Surface it rather than scanning a subset.
+          for line_no, raw in unparsed:
+              print(f'::warning::regulatory-watch.md L{line_no} did not parse as an entry: {raw[:120]}')
 
           alerts = []
-          current_isos = []
-          for raw in text.splitlines():
-              if raw.startswith('### '):
-                  if any(0x1F1E6 <= ord(c) <= 0x1F1FF for c in raw):
-                      current_isos = iso2_re.findall(raw.split('###', 1)[1])
-                  else:
-                      current_isos = []
-                  continue
-              m_e = entry_re.match(raw)
-              if not m_e or not current_isos:
-                  continue
-              parts = [p.strip() for p in m_e.group(1).split('|')]
-              if len(parts) < 7:
-                  continue
-              effective_field = parts[0]
-              # Accept "YYYY-MM-DD" or "YYYY-MM-DD (pending)"; skip ranges and "XX-XX" placeholders.
-              m_d = re.match(r'^(\d{4}-\d{2}-\d{2})(?:\s*\(.*\))?$', effective_field)
-              if not m_d:
-                  continue
-              try:
-                  effective = date.fromisoformat(m_d.group(1))
-              except ValueError:
+          for e in entries:
+              # Accepts "YYYY-MM-DD" and "YYYY-MM-DD (pending)"; ranges and "XX-XX" yield None.
+              effective = e.effective_date
+              if effective is None:
                   continue
               days_until = (effective - today).days
               if days_until < 0:
@@ -99,23 +75,15 @@ jobs:
               thr = min((t for t in THRESHOLDS if t >= days_until), default=None)
               if thr is None:
                   continue
-              # Attribute: a trailing "(XX)" ISO tag in the sections field that is in this
-              # header's ISO set pins the entry to that one country; otherwise fan out to all.
-              sections_field = parts[7] if len(parts) > 7 else ''
-              m_tag = sections_iso_re.search(sections_field)
-              if m_tag and m_tag.group(1) in current_isos:
-                  target_isos = [m_tag.group(1)]
-              else:
-                  target_isos = current_isos
-              for iso in target_isos:
+              for iso in e.isos:
                   alerts.append({
                       'country': iso,
-                      'topic': parts[1],
-                      'summary': parts[2],
-                      'source': parts[3],
-                      'effective': m_d.group(1),
-                      'tier': parts[6] if len(parts) > 6 else '?',
-                      'sections': sections_field,
+                      'topic': e.topic,
+                      'summary': e.summary,
+                      'source': e.source,
+                      'effective': effective.isoformat(),
+                      'tier': e.tier,
+                      'sections': e.sections,
                       'threshold': thr,
                       'days_until': days_until,
                   })

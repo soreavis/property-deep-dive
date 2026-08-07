@@ -18,17 +18,10 @@ Entries with suffix "(pending)" / "(in flight)" / non-parseable dates are skippe
 
 import argparse
 import datetime
-import re
 import sys
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-REGWATCH_PATH = REPO_ROOT / "skills" / "property-deep-dive" / "shared" / "regulatory-watch.md"
-
-# Multi-country header: extract every uppercase ISO2 token after a flag emoji
-HEADER_ISO2 = re.compile(r"\b([A-Z]{2})\b")
-# Bullet entry: - `<date> | <topic> | <summary> | <source> | <verified> | <revisit_by> | <tier> | <sections>`
-BULLET = re.compile(r"^-\s+`([^`]+)`")
+from regwatch_parse import REGWATCH_PATH, load
 
 
 def parse(path: Path, days: int) -> list[tuple[str, str, str, str, str]]:
@@ -37,53 +30,24 @@ def parse(path: Path, days: int) -> list[tuple[str, str, str, str, str]]:
     cutoff = today - datetime.timedelta(days=days)
 
     out: list[tuple[str, str, str, str, str]] = []
-    current_isos: list[str] = []
+    for entry in load(path)[0]:
+        # Strict YYYY-MM-DD only: a "(pending)" suffix means the reform has not landed,
+        # and promotion fires when it does. `Entry.effective_date` deliberately tolerates
+        # that suffix for the alert ladder, so parse the raw field here instead.
+        try:
+            effective = datetime.date.fromisoformat(entry.effective)
+            tier_num = int(entry.tier)
+        except ValueError:
+            continue
 
-    with path.open(encoding="utf-8") as f:
-        for line in f:
-            # Country header section
-            if line.startswith("### "):
-                # Stop at non-country headings (Recently enacted reforms / EU directives etc.)
-                # Country headers always contain a flag emoji + 2-letter ISO2 token
-                # Detect by presence of an ISO2 uppercase token and a flag-emoji-style codepoint
-                if any(0x1F1E6 <= ord(c) <= 0x1F1FF for c in line):
-                    current_isos = HEADER_ISO2.findall(line.split("###", 1)[1])
-                else:
-                    current_isos = []
-                continue
+        if tier_num not in (1, 2):
+            continue
+        if effective < cutoff or effective > today:
+            # In the past beyond cutoff (already handled) OR future-dated (not yet effective)
+            continue
 
-            m = BULLET.match(line)
-            if not m or not current_isos:
-                continue
-
-            fields = [s.strip() for s in m.group(1).split("|")]
-            if len(fields) < 7:
-                continue
-
-            effective_raw = fields[0]
-            topic = fields[1]
-            summary = fields[2]
-            tier = fields[6]
-
-            # Skip parenthesised / range / non-strict-YYYY-MM-DD dates
-            try:
-                effective = datetime.date.fromisoformat(effective_raw)
-            except ValueError:
-                continue
-
-            try:
-                tier_num = int(tier)
-            except ValueError:
-                continue
-
-            if tier_num not in (1, 2):
-                continue
-            if effective < cutoff or effective > today:
-                # In the past beyond cutoff (already handled) OR future-dated (not yet effective)
-                continue
-
-            for iso in current_isos:
-                out.append((iso.lower(), effective_raw, tier, topic, summary))
+        for iso in entry.isos:
+            out.append((iso.lower(), entry.effective, entry.tier, entry.topic, entry.summary))
 
     return out
 

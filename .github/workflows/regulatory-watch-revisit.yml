@@ -39,78 +39,38 @@ jobs:
         id: scan
         run: |
           python3 - <<'PY' > _overdue.md
-          import re
+          import sys
           from datetime import date
 
+          sys.path.insert(0, 'scripts')
+          import regwatch_parse
+
           today = date.today()
-          path = 'skills/property-deep-dive/shared/regulatory-watch.md'
-          with open(path, encoding='utf-8') as f:
-              text = f.read()
+          entries, unparsed = regwatch_parse.load()
 
-          # Walk lines; track current country header (### 🇫🇷 FR), capture
-          # backtick-delimited entries from the "Recently enacted reforms" section
-          # downward (the ENDED-programs section uses table rows, not backticks,
-          # so it's automatically skipped by the regex below).
-          #
-          # Multi-country headers (e.g. "### 🇸🇪 SE / 🇫🇮 FI / 🇳🇴 NO") must attribute each
-          # entry correctly. Mirror scripts/regwatch_promotions.py: a `### ` line is a
-          # country header ONLY when it carries a regional-indicator-symbol codepoint;
-          # capture ALL ISO2 codes in it. For each entry, if its sections field carries a
-          # trailing "(XX)" ISO tag in the header set, attribute to that single country;
-          # otherwise fan the entry out to every ISO in the header.
-          lines = text.splitlines()
-          current_isos = []
-          iso2_re = re.compile(r'\b([A-Z]{2})\b')
-          sections_iso_re = re.compile(r'\(([A-Z]{2})\)\s*$')
-          # Backtick entries: 8 pipe-separated fields. effective | topic | summary | source | verified | revisit | tier | sections
-          entry_re = re.compile(r'^[-*]\s+`([^`]+)`\s*$')
+          # A bullet that fails to parse is invisible to this scan — the whole reason
+          # this workflow once reported "no overdue" while six entries were past due.
+          # Surface it loudly rather than silently scanning a subset.
+          for line_no, raw in unparsed:
+              print(f'::warning::regulatory-watch.md L{line_no} did not parse as an entry: {raw[:120]}', file=sys.stderr)
 
-          overdue = []  # (country, effective, topic, summary, source, verified, revisit, tier, sections)
-          for raw in lines:
-              if raw.startswith('### '):
-                  if any(0x1F1E6 <= ord(c) <= 0x1F1FF for c in raw):
-                      current_isos = iso2_re.findall(raw.split('###', 1)[1])
-                  else:
-                      current_isos = []
+          overdue = []
+          for e in entries:
+              revisit = e.revisit_date
+              if revisit is None or revisit > today:
                   continue
-              m_entry = entry_re.match(raw)
-              if not m_entry or not current_isos:
-                  continue
-              parts = [p.strip() for p in m_entry.group(1).split('|')]
-              if len(parts) < 7:
-                  continue
-              # parts: 0 effective, 1 topic, 2 summary, 3 source, 4 verified, 5 revisit, 6 tier, 7? sections
-              revisit_str = parts[5]
-              # Some entries have "(pending)" or year-only — skip non-ISO dates.
-              m_date = re.match(r'^(\d{4}-\d{2}-\d{2})$', revisit_str)
-              if not m_date:
-                  continue
-              try:
-                  revisit = date.fromisoformat(m_date.group(1))
-              except ValueError:
-                  continue
-              if revisit > today:
-                  continue
-              # Attribute: a trailing "(XX)" ISO tag in the sections field that is in this
-              # header's ISO set pins the entry to that one country; otherwise fan out to all.
-              sections_field = parts[7] if len(parts) > 7 else ''
-              m_tag = sections_iso_re.search(sections_field)
-              if m_tag and m_tag.group(1) in current_isos:
-                  target_isos = [m_tag.group(1)]
-              else:
-                  target_isos = current_isos
-              for iso in target_isos:
+              for iso in e.isos:
                   overdue.append({
                       'country': iso,
-                      'effective': parts[0],
-                      'topic': parts[1],
-                      'summary': parts[2][:140] + ('…' if len(parts[2]) > 140 else ''),
-                      'source': parts[3],
-                      'verified': parts[4],
+                      'effective': e.effective,
+                      'topic': e.topic,
+                      'summary': e.summary[:140] + ('…' if len(e.summary) > 140 else ''),
+                      'source': e.source,
+                      'verified': e.verified,
                       'revisit': revisit,
                       'days_overdue': (today - revisit).days,
-                      'tier': parts[6] if len(parts) > 6 else '?',
-                      'sections': sections_field,
+                      'tier': e.tier,
+                      'sections': e.sections,
                   })
 
           if not overdue:
