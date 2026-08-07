@@ -194,7 +194,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 #### Cyclades / oversaturated regions
 
 - STR freeze announced for **5 additional regions** effective **1 Oct 2025**
-- **Cyclades bed caps**: draft Special Spatial Framework for Tourism (JMD) caps NEW tourist accommodation (100 beds/project saturated tier, 350 developed tier) + 25 m coastal no-build; press framed it as "up to 30% fewer beds" (Apr 2026, news-tier — not a figure in the draft text). Public consultation 11–25 May 2026 + a two-week closed round; ratification targeted end-June 2026 — NOT gazetted as of 2026-07-03
+- **Cyclades bed caps**: draft Special Spatial Framework for Tourism (JMD) caps NEW tourist accommodation (100 beds/project saturated tier, 350 developed tier) + 25 m coastal no-build; press framed it as "up to 30% fewer beds" (Apr 2026, news-tier — not a figure in the draft text). Draft JMD published 11 May 2026, consultation closed 25.05.2026 (YPEN); ratification was targeted for end-June 2026 — that target has passed and the JMD is **NOT gazetted as of 2026-08-06** (YPEN's own SSFT page still carries only the consultation notice)
 
 #### Law 5170/2025 (effective 1 Oct 2025)
 
@@ -397,7 +397,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 - **Antikeimeniki Axia** ≠ market value (often 40-60% below)
 - **Mihaniki Vevaiosi** required for ALL sales since 2011
 - **Athens STR license freeze** in central districts since 1 Jan 2025; **extended through 31 Dec 2026** — under Council of State annulment challenge (no ruling as of Jul 2026), and a reported ~1 Jul 2026 rule **deletes a flat's AMA on sale/donation/parental transfer** in the frozen zones (inheritance treatment disputed), so a "ready-Airbnb" resale premium may not pass to the buyer — see `--rental`
-- **Cyclades bed caps**: draft **Special Spatial Framework for Tourism** (JMD) puts Mykonos/Santorini et al. in saturated/controlled categories — caps on NEW tourist accommodation (100 beds/project saturated tier, 350 developed tier), 25 m coastal no-build; press framed the package as "up to 30% fewer beds" for the Cyclades (Apr 2026, news-tier — not a number in the draft text). Public consultation 11–25 May 2026 + a two-week closed round; ratification was targeted for end-June 2026 — **NOT gazetted as of 2026-07-03** (see `--rental`)
+- **Cyclades bed caps**: draft **Special Spatial Framework for Tourism** (JMD) puts Mykonos/Santorini et al. in saturated/controlled categories — caps on NEW tourist accommodation (100 beds/project saturated tier, 350 developed tier), 25 m coastal no-build; press framed the package as "up to 30% fewer beds" for the Cyclades (Apr 2026, news-tier — not a number in the draft text). Draft JMD published 11 May 2026, consultation closed 25.05.2026 per YPEN `https://ypen.gov.gr/eidiko-chorotaxiko-plaisio-gia-ton-tourismo/`; ratification was targeted for end-June 2026 — that target has passed and the JMD is **NOT gazetted as of 2026-08-06**. NB the draft's short-term-rental restrictions are not self-executing: the text conditions them on separate legislative/regulatory provision (see `--rental`)
 - **Mykonos + Santorini building permit freeze** through 31 Dec 2026 (Special Urban Plans pending)
 - **Santorini caldera zone**: no new builds, additions, pools, water infrastructure on Thera/Thirassia
 - **Out-of-plan construction** halted in many islands
@@ -459,9 +459,9 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25. **Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+✅ **Fully populated** as of 2026-04-25. **Last verified**: 2026-08-06 (SSFT gazetting status re-verified against YPEN; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax (incl. 2025-2026 ENFIA reforms + VAT/CGT suspensions), rental (incl. STR Law 5170/2025 + Athens freeze + Cyclades draft spatial framework), work, risks (seismic + volcanic + wildfire + tsunami), mains all have primary government sources + cost benchmarks.
-**Confidence**: HIGH for STR reforms (Athens Times, GTP Headlines, ProtoThema, BNB News, Airbnb 2025 Greek tax guide all confirm); HIGH for ENFIA 2025-2026 cuts (multiple tax law firm sources confirm; village abolition from 2027 announced — verify gazetting); HIGH for VAT/CGT suspension extensions through 2026 (Law 5246/2025 gazetted 11 Nov 2025, vatcalc + Elxis confirm); HIGH for Golden Visa restructuring (Global Citizen Solutions + multiple sources confirm 1 Sept 2024 effective) and the GV short-term-rental ban (Law 5100/2024 Art. 64; Varnavas + WFW + IMI Daily + Circular 1/2026 confirm). MEDIUM for Cyclades bed caps (draft Special Spatial Framework — not gazetted as of 2026-07-03). MEDIUM for cadastre completion timeline (target slipping repeatedly).
+**Confidence**: HIGH for STR reforms (Athens Times, GTP Headlines, ProtoThema, BNB News, Airbnb 2025 Greek tax guide all confirm); HIGH for ENFIA 2025-2026 cuts (multiple tax law firm sources confirm; village abolition from 2027 announced — verify gazetting); HIGH for VAT/CGT suspension extensions through 2026 (Law 5246/2025 gazetted 11 Nov 2025, vatcalc + Elxis confirm); HIGH for Golden Visa restructuring (Global Citizen Solutions + multiple sources confirm 1 Sept 2024 effective) and the GV short-term-rental ban (Law 5100/2024 Art. 64; Varnavas + WFW + IMI Daily + Circular 1/2026 confirm). MEDIUM for Cyclades bed caps (draft Special Spatial Framework — not gazetted as of 2026-08-06, past its own end-June target). MEDIUM for cadastre completion timeline (target slipping repeatedly).
 
 ## Extension TODOs
 

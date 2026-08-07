@@ -28,7 +28,7 @@ ISO2: `lk`. Status: ✅ Fully populated (researched 2026-05).
   - **Stamp Duty (Amendment) Act 2025** — doubled stamp duty on rental/lease agreements from Rs.10 to Rs.20 per Rs.1,000 of total rental value, effective **1 April 2025**.
   - **Golden Paradise Residence Visa** — launched 2024, replacing earlier "Resident Guest Scheme" and pre-2022 schemes that had paused during the crisis. Source: Department of Immigration & Emigration [`https://eservices.immigration.gov.lk/golden-paradise-visa.html`](https://eservices.immigration.gov.lk/golden-paradise-visa.html); EY tax alert [`https://www.ey.com/en_gl/technical/tax-alerts/sri-lanka-introduces-new-10-year-golden-paradise-residence-visa-for-investors`](https://www.ey.com/en_gl/technical/tax-alerts/sri-lanka-introduces-new-10-year-golden-paradise-residence-visa-for-investors).
   - **VAT rate hike** — 15% → **18%** effective 1 January 2024 under **Value Added Tax (Amendment) Act No. 16 of 2024**; applies to new apartments sold by developers (not resale by individuals). Source: Sri Lanka Inland Revenue Department [`https://www.ird.gov.lk/`](https://www.ird.gov.lk/). (2026-05-27 verified)
-  - **Capital Gains Tax** — **10%** on gains from realisation of investment assets (incl. land/buildings); 2025 budget proposed an increase to 15% — implementation date not yet confirmed in primary statute as of May 2026; verify current notice via IRD.
+  - **Capital Gains Tax** — **15%** on gains from realisation of investment assets (incl. land/buildings) for individuals and partnerships, **from 3 June 2026**; 30% for trusts, unit trusts, mutual funds and NGOs. Raised from 10% by the **Inland Revenue (Amendment) Act, No. 11 of 2026** (certified 3 June 2026, Gazette supplement 5 June 2026). Source: Act text [`https://documents.gov.lk/view/act/2026/6/11-2026_E.pdf`](https://documents.gov.lk/view/act/2026/6/11-2026_E.pdf) + IRD Notice to Taxpayers SEC/PN/IT/2026/02 of 8 June 2026 via [`https://www.ird.gov.lk/`](https://www.ird.gov.lk/). (2026-08-06 verified)
   - **IMF Extended Fund Facility (EFF)** — SDR 2.286 bn (~USD 3 bn) approved 20 Mar 2023; fourth review completed 1 Jul 2025; fifth review staff-level agreement Oct 2025, then formally deferred 19 Dec 2025 (IMF simultaneously disbursed an SDR 150.5M / ~USD 206M Rapid Financing Instrument for cyclone response); **combined Fifth and Sixth Reviews completed by the IMF Executive Board 27 May 2026**, releasing SDR 508M (~USD 695M) and bringing total EFF purchases to SDR 1.778 bn (~USD 2.4 bn). Source: IMF PR 26/172 [`https://www.imf.org/en/news/articles/2026/05/27/pr26172-sri-lanka-imf-completes-combined-5th-and-6th-reviews-under-eff`](https://www.imf.org/en/news/articles/2026/05/27/pr26172-sri-lanka-imf-completes-combined-5th-and-6th-reviews-under-eff) + IMF PR 25/436 [`https://www.imf.org/en/news/articles/2025/12/19/pr-25436-sri-lanka-imf-approves-us-206-million-in-emergency-financial-support`](https://www.imf.org/en/news/articles/2025/12/19/pr-25436-sri-lanka-imf-approves-us-206-million-in-emergency-financial-support) + IMF country page [`https://www.imf.org/en/Countries/LKA`](https://www.imf.org/en/Countries/LKA). (2026-07-02 verified)
   - **Cyclone Ditwah (Nov 2025)** — USD 4.1 bn damage estimate (World Bank); 410 dead + 336 missing; 1.1M hectares inundated; Central Highlands particularly affected (Kandy district damage estimated USD 689M); Nuwara Eliya partially submerged. Source: World Bank press release [`https://www.worldbank.org/en/news/press-release/2025/12/22/damage-from-cyclone-ditwah-in-sri-lanka-estimated-at-4-1-billion`](https://www.worldbank.org/en/news/press-release/2025/12/22/damage-from-cyclone-ditwah-in-sri-lanka-estimated-at-4-1-billion).
   - **Ceylon Electricity Board (CEB)** — dissolved at midnight 8/9 March 2026 under **Sri Lanka Electricity Act No. 36 of 2024** and replaced by 6 100%-state-owned successor companies; transitional period — verify current entity for any new connection. Public Utilities Commission of Sri Lanka [`https://www.pucsl.gov.lk/`](https://www.pucsl.gov.lk/). (2026-05-27 verified)
@@ -238,9 +238,9 @@ The Golden Paradise Residence Visa (launched 2024 by Department of Immigration &
 | Holding period | Resident individual | Non-resident |
 |---|---|---|
 | **< 5 years** | 30% of gain | 30% of gain |
-| **≥ 5 years** | **10% of gain** | 5% of gain |
+| **≥ 5 years** | **15% of gain** (10% before 3 Jun 2026) | 5% of gain |
 
-> **Inland Revenue (Amendment) Bill 2026** (published **24 February 2026**) proposes CGT rate increase from **10% to 15%** for individuals/partnerships (and to 30% for trusts/unit trusts/mutual funds/NGOs); effective from enactment — verify enactment status at IRD before quoting. Source: KPMG Sri Lanka tax flash Feb 2026 + D.L. & F. de Saram + Lanka Law. (2026-05-27 verified)
+> **ENACTED — CGT is 15%, not 10%, for disposals from 3 June 2026.** The **Inland Revenue (Amendment) Act, No. 11 of 2026** was certified on **3 June 2026** and published as a supplement to Part II of the Gazette of **5 June 2026**. It raises the rate on realisation of investment assets from 10% to **15% for individuals and partnerships**, and from 10% to **30% for trusts, unit trusts, mutual funds and NGOs**. The IRD's Notice to Taxpayers **SEC/PN/IT/2026/02 (8 June 2026)** confirms the new rates apply **from 3 June 2026**. Source: Act text [`https://documents.gov.lk/view/act/2026/6/11-2026_E.pdf`](https://documents.gov.lk/view/act/2026/6/11-2026_E.pdf) + IRD CGT page [`https://www.ird.gov.lk/en/Type%20of%20Taxes/SitePages/Capital%20Gain%20Tax%20(CGT).aspx`](https://www.ird.gov.lk/en/Type%20of%20Taxes/SitePages/Capital%20Gain%20Tax%20(CGT).aspx). (2026-08-06 verified)
 
 **Exemptions**:
 - Principal place of residence: gains exempt if owned ≥3 years AND inhabited ≥2 years.
@@ -268,7 +268,7 @@ RGD registration: ~LKR 5,000 (~USD 16)
 ### Future risk
 
 - **Property tax (2027)**: a national property tax is committed under the IMF EFF; rate, base, and exemptions undecided.
-- **CGT increase to 15%**: likely to be enacted; verify IRD before quoting 10%.
+- **CGT increase to 15%**: ENACTED 3 June 2026 (Act No. 11 of 2026) — no longer forward-looking; see § Tax.
 - **Stamp duty schedule**: provincial; episodic adjustments via provincial finance acts.
 
 ### Confidence
@@ -554,7 +554,7 @@ Sources: Department of Labour wage gazettes; CBSL Annual Report 2024; LinkedIn S
 | **CC&CRMD coastal clearance (where required)** | 50,000-200,000 | $160-$645 |
 | **Stamp duty** | 3% first LKR 100k + 4% excess (~4% effective) | varies |
 | **VAT (new condo by developer only)** | 18% of price | varies |
-| **CGT on resale (≥5 yrs)** | 10% of gain (15% from 2025-26?) | varies |
+| **CGT on resale (≥5 yrs)** | 15% of gain (from 3 Jun 2026; 10% before) | varies |
 | **Notary + RGD registration** | 0.5-1% of price | varies |
 | **Common-area fees (mid-range condo)** | 30-60 LKR/sqft/month | $0.10-$0.20/sqft/mo |
 | **Common-area fees (luxury Colombo 7)** | 80-150 LKR/sqft/month | $0.25-$0.50/sqft/mo |
@@ -601,7 +601,7 @@ Sources: Department of Labour wage gazettes; CBSL Annual Report 2024; LinkedIn S
 - **Cyclone Ditwah (Nov 2025)** — most material recent risk event; Central Highlands (Kandy/Nuwara Eliya), Eastern coast cyclone-track exposure, and Kelani basin all materially repriced; underwrite post-Ditwah, not pre-.
 - **Tsunami coastal setback (CC&CRMD)** — minimum 100m from MHWM, locality-specific; verify per CC&CRMD permit before any coastal construction.
 - **Galle Fort heritage zone** — 400 yards (366m) protective zone under Antiquities Ordinance; Galle Heritage Foundation conservation rules; any structural change requires Department of Archaeology permit.
-- **CGT increase to 15%** — proposed 2025 budget; verify IRD before quoting 10%.
+- **CGT increase to 15%** — ENACTED by Act No. 11 of 2026, in force for disposals from 3 June 2026.
 - **CEB transition (March 2026)** — utility restructuring underway; new connection paperwork in flux until 2026-27.
 - **National property tax (committed by 2027)** — IMF EFF structural-benchmark commitment; framework not drafted as of May 2026.
 - **LKR volatility** — 2022 sovereign default + ongoing IMF program → 200 → 360 → ~310 LKR/USD trajectory; USD-denominated property values move ~5-10%/yr on FX alone.
@@ -717,6 +717,6 @@ Sources: Department of Labour wage gazettes; CBSL Annual Report 2024; LinkedIn S
 
 ## Status
 
-**Status**: ✅ fully populated as of 2026-05-07
-**Confidence**: HIGH — primary statute (Land Restrictions on Alienation Act No. 38 of 2014 + Acts No. 3 of 2017 and No. 21 of 2018; Inland Revenue Act No. 24 of 2017 + Amendment Act No. 2 of 2025; Apartment Ownership Law No. 11 of 1973; Stamp Duty Act + 2025 amendment; SLTDA Act No. 38 of 2005; Coast Conservation Act No. 57 of 1981; Title Registration Act No. 21 of 1998), primary regulator (CBSL FX + IIA, IRD CGT/VAT/AIT, RGD Land Registry, Survey Dept, NBRO landslide, DMC disaster, SLTDA tourism, BOI FDI, Immigration Golden Paradise Visa, CC&CRMD coastal, UDA planning), and primary multilateral (IMF EFF press releases + Technical Assistance Report on Property Taxation 2024; World Bank Cyclone Ditwah USD 4.1bn damage assessment; UNDP 1/5-of-country-inundated analysis; WHO + WWA cyclone post-event analyses) all authored or cited with live URLs. **MEDIUM** components: current 2026 effective stamp-duty bracket schedules per province; current CGT rate (10% statutory, 15% proposed; verify before quoting); LKR/USD daily; CEB-successor company mapping in transition (post-March 2026 dissolution); post-Cyclone Ditwah Central Highlands pricing; STR enforcement intensity by district. **LOW** components: none — every section has primary or near-primary sources.
-**Last verified**: 2026-05-07
+**Status**: ✅ fully populated as of 2026-08-06
+**Confidence**: HIGH — primary statute (Land Restrictions on Alienation Act No. 38 of 2014 + Acts No. 3 of 2017 and No. 21 of 2018; Inland Revenue Act No. 24 of 2017 + Amendment Acts No. 2 of 2025 and No. 11 of 2026; Apartment Ownership Law No. 11 of 1973; Stamp Duty Act + 2025 amendment; SLTDA Act No. 38 of 2005; Coast Conservation Act No. 57 of 1981; Title Registration Act No. 21 of 1998), primary regulator (CBSL FX + IIA, IRD CGT/VAT/AIT, RGD Land Registry, Survey Dept, NBRO landslide, DMC disaster, SLTDA tourism, BOI FDI, Immigration Golden Paradise Visa, CC&CRMD coastal, UDA planning), and primary multilateral (IMF EFF press releases + Technical Assistance Report on Property Taxation 2024; World Bank Cyclone Ditwah USD 4.1bn damage assessment; UNDP 1/5-of-country-inundated analysis; WHO + WWA cyclone post-event analyses) all authored or cited with live URLs. **MEDIUM** components: current 2026 effective stamp-duty bracket schedules per province; LKR/USD daily; CEB-successor company mapping in transition (post-March 2026 dissolution); post-Cyclone Ditwah Central Highlands pricing; STR enforcement intensity by district. **LOW** components: none — every section has primary or near-primary sources.
+**Last verified**: 2026-08-06

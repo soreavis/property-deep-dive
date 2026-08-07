@@ -58,6 +58,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- **Six overdue regulatory-watch entries re-verified — two reversals.** **LK CGT is 15%, not 10%** for disposals from 3 Jun 2026 (Inland Revenue (Amendment) Act No. 11 of 2026; 30% for trusts/unit trusts/NGOs). **GH's IMF ECF is over** — sixth and final review completed 27 Jul 2026, succeeded by a non-financing Policy Coordination Instrument. Also: BB 2026 PIT bands confirmed at 11.5%/27.5% and a mis-stated band boundary fixed, MV lease-window closure confirmed against the Ministry's amendment register, MV TGST re-dated to 1 Jul 2025, GR spatial framework still ungazetted.
+
 - **August regulatory-watch revisits re-verified ([#335](https://github.com/soreavis/property-deep-dive/issues/335)).** KZ NBK base rate is now **16.75%** (25 bps cut on 24 Jul 2026 from 17.0%; CPI eased to 10.2% Jul), next decision 4 Sep — patched the KZ playbook. CH Lex Koller (BewG) tightening: the consultation **closed on schedule 15 Jul 2026, not enacted**, submissions published 27 Jul, Federal Council now evaluating — re-stamped the CH playbook. Both verified against `nationalbank.kz` / `admin.ch` + `bj.admin.ch` primary sources.
 
 - **VN Hague Apostille — DE/AT/CZ objection carve-out; NL Wkb link repointed.** Germany (20 May), Austria (19 Jun) and Czechia (2 Jul 2026) objected to Vietnam's accession under Art. 12(2), so the Convention does **not** enter into force between VN and those three (consular legalisation persists) — noted in `language.md`, `remote.md` and the VN playbook ahead of the 11 Sep 2026 EIF. Source-audit ([#289](https://github.com/soreavis/property-deep-dive/issues/289)): repointed the dead NL Wkb link; other flagged rows verified unchanged.

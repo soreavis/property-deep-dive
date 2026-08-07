@@ -21,7 +21,7 @@ ISO2: `bb`. Status: ✅ Fully populated (researched 2026-05-07).
 - **Title concept**: **Freehold (fee simple)** dominant; **leasehold** less common (some Crown leases + commercial leasehold); **strata title / condominium** under the **Condominium Act, Cap. 224A** for apartment / villa-development common-area regimes.
 - **Recent reforms (12-month watchlist)**:
   - **Welcome Stamp renewed by Cabinet to 31 December 2026** (the 12-month digital-nomad visa launched June 2020 — among the earliest DNV programs globally). Verify current status at [Welcome Stamp official portal — Visit Barbados](https://www.visitbarbados.org/barbados-welcome-stamp).
-  - **Personal Income Tax reduction for income year 2026 — bands PUBLISHED**: 12.5% → **11.5%** on BBD 25,001–75,000; 28.5% → **27.5%** above BBD 75,000 (BBD 25,000 personal allowance unchanged); combined relief ~BBD 26.1M/yr. 2025 schedule remained 12.5%/28.5% with BBD 25,000 allowance (2026-05-27 verified, source: [BRA Policy Note 20 Apr 2026](https://bra.gov.bb/News/Policy-Notes/Reduction-of-Personal-Income-Tax-R); KPMG TaxNewsFlash Mar 2026).
+  - **Personal Income Tax reduction for income year 2026 — IN FORCE**: 12.5% → **11.5%** on BBD 25,001–75,000; 28.5% → **27.5%** above BBD 75,000 (BBD 25,000 personal allowance unchanged); combined relief ~BBD 26.1M/yr. 2025 schedule remained 12.5%/28.5% with BBD 25,000 allowance (2026-05-27 verified, source: [BRA Policy Note 20 Apr 2026](https://bra.gov.bb/News/Policy-Notes/Reduction-of-Personal-Income-Tax-R); KPMG TaxNewsFlash Mar 2026).
   - **Resilience and Regeneration Fund** employee contribution **raised to 0.25% (from 0.10%)** of gross earnings effective **1 April 2025** ([2025 Budget](https://assets.kpmg.com/content/dam/kpmg/bb/pdf/Barbados%20budget%20review%202025.pdf)).
   - **2025 Budget**: **PTT removed for deeds of gift** to children/dependants for land < 1 acre (gifts only — does not affect arm's-length sales) ([KPMG TaxNewsFlash 2025-03](https://assets.kpmg.com/content/dam/kpmg/bb/pdf/Barbados%20budget%20review%202025.pdf)).
   - **Hurricane Beryl (1 July 2024)** passed ~150 km south of Barbados as Cat 3 — first major-hurricane impact in modern memory; **insurance market re-rating ongoing 2024–2026**; ECLAC-assessed effects ~BBD 193M (~0.15% of GDP); damage concentrated south + south-west coasts + fishing infrastructure ([ECLAC, 2024](https://www.cepal.org/en/publications/82157-assessment-effects-and-impacts-hurricane-beryl-barbados-2024)).
@@ -204,7 +204,7 @@ Barbados does **NOT publish a public AADT (Annual Average Daily Traffic) portal*
 
 ## Section: `--tax`
 
-> **Headline**: Barbados has **moderate personal income tax** (12.5% / 28.5% bands with BBD 25,000 personal allowance, 2025 schedule — reduction announced for income year 2026), **NO capital gains tax**, **NO inheritance tax**, **NO general wealth tax**. Real-estate-specific taxes: **annual Land Tax** (banded, owner-occupied 0–1.0% on improved value, capped at BBD 100,000 total annual tax), **one-time Property Transfer Tax** (2.5% on consideration > BBD 150,000 where a building exists), **one-time Stamp Duty** (1% on consideration, paid by seller), and **17.5% VAT** on professional services associated with the transaction (legal, agency) — but **VAT does NOT apply to the sale of real estate itself** (Cap. 87 Schedule 1 exemption).
+> **Headline**: Barbados has **moderate personal income tax** (**11.5% / 27.5%** bands with BBD 25,000 personal allowance, income year 2026 — reduced from 12.5% / 28.5%), **NO capital gains tax**, **NO inheritance tax**, **NO general wealth tax**. Real-estate-specific taxes: **annual Land Tax** (banded, owner-occupied 0–1.0% on improved value, capped at BBD 100,000 total annual tax), **one-time Property Transfer Tax** (2.5% on consideration > BBD 150,000 where a building exists), **one-time Stamp Duty** (1% on consideration, paid by seller), and **17.5% VAT** on professional services associated with the transaction (legal, agency) — but **VAT does NOT apply to the sale of real estate itself** (Cap. 87 Schedule 1 exemption).
 
 ### Annual property tax — Land Tax
 
@@ -298,13 +298,15 @@ Governed by the **Stamp Duty Act, Cap. 91** (statute id cross-referenced on BRA'
 
 ### Personal income tax
 
-| Income band (BBD, 2025 schedule) | Rate |
+| Income band (BBD gross, **income year 2026**) | Rate |
 |---|---|
 | Personal allowance | First **BBD 25,000** (exempt) |
-| **BBD 25,001 – 50,000** | **12.5%** |
-| **Above BBD 50,000** | **28.5%** |
+| **BBD 25,001 – 75,000** | **11.5%** (was 12.5%) |
+| **Above BBD 75,000** | **27.5%** (was 28.5%) |
 
-(Source: [PwC — Barbados Individual Taxes on Personal Income](https://taxsummaries.pwc.com/barbados/individual/taxes-on-personal-income) — *2025 schedule; reduction announced for income year 2026 per BRA Policy Note 20 April 2026 — verify new bands when published*)
+(Source: [BRA Policy Note OGC No. 001/2026](https://bra.gov.bb/News/Policy-Notes/Reduction-of-Personal-Income-Tax-R) — the administering authority's own statement of the operative rates, announced in the 2026/2027 Budget on 16 March 2026. (2026-08-06 verified))
+
+> **Read the bands on the right basis.** BRA states them on **gross** income (above BBD 25,000 → 11.5%; above BBD 75,000 → 27.5%). Statutory and practitioner sources often state the same schedule on **taxable** income after the BBD 25,000 allowance — 11.5% on the first BBD 50,000 of taxable income, 27.5% thereafter. These are the same schedule, not two different ones. The **2025** schedule was 12.5% / 28.5% on the same band structure.
 
 - **Tax residency**: 182+ days physical presence OR domicile.
 - **Welcome Stamp holders**: NOT tax-resident; **exempt from Barbadian income tax on foreign-employment income** earned during the Stamp.
@@ -337,7 +339,7 @@ Governed by ordinary contract + the **Residential Tenancies Act, Cap. 230** + ge
 - **Standard tenancy**: 1-year fixed term, monthly payment, 1 month security deposit + 1 month advance rent typical.
 - **Eviction**: court-supervised; 2–4 months typical for non-payment under the Residential Tenancies Act.
 - **Long-term residential rental income**: **VAT-exempt**.
-- **Income tax on rental income**: **resident landlord** taxed at standard PIT rates (12.5%/28.5% on net rental income after allowable expenses); **non-resident landlord** subject to **withholding tax 25%** on gross rent (subject to applicable double-tax treaty — Barbados has DTAs with UK, USA, Canada, CARICOM, China and others).
+- **Income tax on rental income**: **resident landlord** taxed at standard PIT rates (11.5%/27.5% for income year 2026, on net rental income after allowable expenses); **non-resident landlord** subject to **withholding tax 25%** on gross rent (subject to applicable double-tax treaty — Barbados has DTAs with UK, USA, Canada, CARICOM, China and others).
 - **Allowable deductions**: maintenance, mortgage interest, Land Tax, insurance, agent fees, depreciation per BRA practice.
 
 ### Short-term rentals (Vacation Rental — Airbnb / VRBO / direct)
@@ -918,7 +920,7 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 
 ## Status
 
-**Status**: ✅ fully populated as of 2026-05-07
+**Status**: ✅ fully populated as of 2026-08-06
 **Confidence**: MEDIUM-HIGH —
 - **HIGH** for legal/structural framework: Property Act Cap. 236, Title Registration Act Cap. 229 (1979), Land (Title Proceedings) Act 2011-7, Property Transfer Tax Act Cap. 84A, Stamp Duty Act Cap. 91, Land Tax Act Cap. 78A, Exchange Control Act Cap. 71, VAT Act Cap. 87 — all primary statutes cited and verifiable via [BRA](https://bra.gov.bb/) and [CBB](https://www.centralbank.org.bb/).
 - **HIGH** for the 2:1 BBD-USD peg since 5 July 1975 (CBB primary).
@@ -934,7 +936,7 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 - **MEDIUM** for 2024 homicide rate (~17.7/100k, 50 cases) — RBPF primary aggregated by Caribbean Signal / Barbados Underground secondary; geographic concentration in St. Michael well documented.
 - **LOW** for parcel-level storm-surge / coastal-flood mapping outside CZMU priority areas — coverage uneven; verify per parcel via CZMU + DEM + engineering survey.
 - **LOW** for traffic AADT — no public AADT portal; OSM + on-site observation is the practical method.
-**Last verified**: 2026-05-27
+**Last verified**: 2026-08-06
 
 ## Extension TODOs
 

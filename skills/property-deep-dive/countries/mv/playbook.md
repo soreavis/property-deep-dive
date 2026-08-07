@@ -129,7 +129,7 @@ ISO2: `mv`. Status: ✅ fully populated as of 2026-05-07.
   - **Lease premium** (one-time at award): commercial-confidential; ranges USD 5M–USD 50M+ per Cabinet bid
   - **Annual lease rent**: minimum USD 8 / m² (Tourism Act floor); typical USD 8 / m² – USD 12 / m² for established resorts
   - **Lease extension fee** (initial 50-yr → 99-yr extension): the **USD 5M** figure was the *discounted* rate available under the 16th-Amendment window (LAPSED 5 Jun 2026, below); the **post-window default reverts higher — ~USD 10M reference for a 49-yr extension** — verify the binding fee against the Ministry of Tourism implementing regulation per deal
-  - **16th Amendment to Tourism Act (December 2025)** discounted-extension window (6 December 2025 → 5 June 2026) has **LAPSED on its scheduled 5 June 2026 end date** (closure inferred — no extension or 17th Amendment found as of 14 Jun 2026, no Ministry post-deadline outcome statement located; NB this was the 3rd serial re-opening of the discount, so a future renewal is possible). Post-window the higher default extension fee applies — verify current status with Ministry of Tourism + CTL Strategies practitioner alert (`https://www.ctlstrategies.com/latest/tourism-act-16th-amendment/`)
+  - **16th Amendment to Tourism Act (December 2025)** discounted-extension window (6 December 2025 → 5 June 2026) has **LAPSED on its scheduled 5 June 2026 end date** (closure **confirmed** against the Ministry of Tourism's own amendment register, which lists the Tourism Act amendments through the 16th and no 17th as of 2026-08-06 — `https://www.tourism.gov.mv/en/legislation/tourism_act`; no Ministry post-deadline outcome statement located. NB this was the 3rd serial re-opening of the discount, so a future renewal is possible). Post-window the higher default extension fee applies — verify current status with Ministry of Tourism + CTL Strategies practitioner alert (`https://www.ctlstrategies.com/latest/tourism-act-16th-amendment/`)
 - **Mortgage stamp / pledge registration**: nominal; banks (Bank of Maldives, MIB, BML) handle internally
 
 ### Tourism-sector tax stack (the dominant fiscal regime)
@@ -202,7 +202,7 @@ The Maldives raises the majority of public revenue from tourism-specific taxes �
 - **Property-tax introduction**: IMF Article IV consultations 2024-2026 have flagged residential property tax as a fiscal-consolidation lever; not yet legislated — verify Ministry of Finance budget books
 - **TGST trajectory**: raised 16% → 17% effective 1 July 2025 (Seventh Amendment); further rises plausible given fiscal pressure
 - **Green Tax trajectory**: doubled effective 1 January 2025 (USD 6 → USD 12 / USD 3 → USD 6 small); upward drift consistent with climate-finance + revenue strategy
-- **Lease-extension window**: 16th Amendment discounted-extension window **6 Dec 2025 → 5 Jun 2026 has LAPSED** (closure inferred as of 14 Jun 2026; post-window the higher default extension fee applies — verify with the Ministry implementing regulation)
+- **Lease-extension window**: 16th Amendment discounted-extension window **6 Dec 2025 → 5 Jun 2026 has LAPSED** (closure confirmed against the Ministry's amendment register as of 2026-08-06 — no 17th Amendment; post-window the higher default extension fee applies — verify with the Ministry implementing regulation)
 - **MVR peg pressure**: MMA peg upper band MVR 15.42 / USD has been binding since 2024; sovereign-FX-reserves stress + IMF consultations may drive a band recalibration during typical mortgage / lease horizons (10-30 yrs)
 - **OECD Pillar Two minimum tax**: Maldives is a small CIT-15% jurisdiction with low-tax exposures via Special Economic Zones — Pillar Two top-up rules may evolve; verify with CMDA + MIRA
 
@@ -699,11 +699,11 @@ For most international buyers, the actionable foreign-buyer routes are:
 
 ## Status
 
-**Status**: ✅ fully populated as of 2026-05-07
+**Status**: ✅ fully populated as of 2026-08-06
 
 **Confidence**: MEDIUM — HIGH on the regulatory framework (Article 251 freehold ban + 2019 repeal of 2015 amendment confirmed against Constitution + Library of Congress + ConstitutionNet + Maldives Independent; Tourism Act 50-yr / 99-yr extension confirmed against Tourism Act consolidation PDF + State Department Investment Climate Statement 2025 + CTL Strategies (the USD 5M extension figure was the 16th-Amendment discounted-window rate, window LAPSED 5 Jun 2026; post-window default reverts higher, ~USD 10M ref — re-verified 2026-06-14, closure inferred, MEDIUM); TGST 17% effective 1 July 2025 confirmed against MIRA circular + Crowe Maldives + Travel Trade Maldives; Green Tax USD 12 / USD 6 effective 1 January 2025 confirmed against MIRA circular; MVR managed peg MVR 12.85 ±20% band 10.28–15.42 confirmed against MMA + Wikipedia + Maldives Financial Review; foreign 49% guesthouse cap confirmed against Sun Online + Avas + Nasheed & Co; Income Tax 15% top bracket confirmed against MIRA + Lloyds Bank Trade). MEDIUM on price benchmarks (no public residential price index — sample-size-thin transaction volume + agency-listing reliance + resort-segment commercial-confidentiality means USD price bands are `est.` cross-checked against Boahiyaa / Property.mv / Global Properties / branded-residence developer portals + Numbeo + State Department + Ministry of Finance narrative; verify any specific deal via Ministry of Tourism / HDC / Local Council registry + Maldives-bar attorney). LOW on traffic (no public AADT database — modelled from OSM road class + agency anecdote). LOW on per-developer branded-residence pricing currentness (luxury market where headline figures move materially deal-to-deal — pull current asking from developer at point of analysis). MEDIUM on stamp-duty + transaction-cost specifics (rates are nominal but exact schedules require MIRA + practitioner verification per deal).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-08-06
 
 **Researched by**: Opus 4.7 (1M context, parallel-subagent batch 2026-05)
 
