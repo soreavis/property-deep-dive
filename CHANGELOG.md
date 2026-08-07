@@ -52,6 +52,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+## [2026.08.0] - 2026-08-07
+
 ### Added
 
 - **`External PR triage` (`pr-triage.yml`) — a pre-approval risk summary for community PRs.** The fork-approval policy holds every `pull_request` check until a maintainer clicks "Approve and run", leaving nothing to decide on. This runs on `pull_request_target` (trusted base-branch context, so it fires regardless of approval settings) and posts a sticky comment grading the PR 🔴 touches `.github/`/`scripts/` · 🟠 non-Markdown · 🟢 Markdown-only. Never checks out PR code. ([#336](https://github.com/soreavis/property-deep-dive/pull/336))
