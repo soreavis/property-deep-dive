@@ -62,6 +62,39 @@ def read_plugin_version() -> str:
     return json.loads(PLUGIN_JSON.read_text(encoding="utf-8"))["version"]
 
 
+# Every per-platform manifest carrying the version. The skill ships to Claude Code,
+# Codex, Cursor, Gemini CLI, Grok and the agentskills.io lane; a manifest left at the
+# old version advertises a stale release to that platform's updater and its users
+# never see the bump. `scripts/validate-manifests.py` fails CI if these drift apart.
+VERSIONED_MANIFESTS = (
+    ".claude-plugin/plugin.json",
+    ".claude-plugin/marketplace.json",
+    ".codex-plugin/plugin.json",
+    ".cursor-plugin/plugin.json",
+    ".grok-plugin/plugin.json",
+    ".grok-plugin/marketplace.json",
+    ".agents/plugins/marketplace.json",
+    "gemini-extension.json",
+)
+
+
+def write_version_everywhere(cur: str, nxt: str) -> list[str]:
+    """Rewrite `cur` -> `nxt` in every manifest. Textual, to preserve formatting."""
+    root = PLUGIN_JSON.parent.parent
+    written: list[str] = []
+    for rel in VERSIONED_MANIFESTS:
+        path = root / rel
+        if not path.exists():
+            sys.exit(f"missing manifest {rel} — every platform lane needs one")
+        raw = path.read_text(encoding="utf-8")
+        new = raw.replace(f'"version": "{cur}"', f'"version": "{nxt}"')
+        if new == raw:
+            sys.exit(f'could not find "version": "{cur}" in {rel}')
+        path.write_text(new, encoding="utf-8")
+        written.append(rel)
+    return written
+
+
 def current_ym(override: str | None) -> tuple[int, int]:
     if override:
         try:
@@ -169,13 +202,11 @@ def main() -> int:
     nxt = next_version(read_plugin_version(), ym)
 
     if args.write:
-        raw = PLUGIN_JSON.read_text(encoding="utf-8")
         cur = read_plugin_version()
-        new = raw.replace(f'"version": "{cur}"', f'"version": "{nxt}"', 1)
-        if new == raw:
-            sys.exit(f"could not find \"version\": \"{cur}\" in {PLUGIN_JSON}")
-        PLUGIN_JSON.write_text(new, encoding="utf-8")
-        print(f"bumped plugin.json {cur} -> {nxt}")
+        written = write_version_everywhere(cur, nxt)
+        print(f"bumped {cur} -> {nxt} across {len(written)} manifest(s):")
+        for path in written:
+            print(f"  {path}")
         return 0
 
     print(nxt)

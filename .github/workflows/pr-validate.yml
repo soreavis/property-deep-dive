@@ -46,6 +46,26 @@ jobs:
           python3 scripts/lock-requirements-test.py
           python3 scripts/lock-requirements.py --check
 
+  platform-manifests:
+    name: Platform manifests in lockstep + spec-valid
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Install PyYAML
+        run: pip install --quiet pyyaml
+
+      - name: Versions match and SKILL.md meets the Agent Skills spec
+        # The skill ships to Claude Code, Codex, Cursor, Gemini CLI, Grok and the
+        # agentskills.io lane off one skill tree. A manifest left at the old version
+        # advertises a stale release to that platform's updater, and nothing else in CI
+        # reads them. The spec half matters more: a description over 1024 chars is not
+        # warned about — the skill is silently dropped from the loader's list entirely
+        # (github/copilot-cli#3494), so the lane looks installed and does nothing.
+        run: python3 scripts/validate-manifests.py
+
   changelog-length:
     name: CHANGELOG entries stay short
     runs-on: ubuntu-latest

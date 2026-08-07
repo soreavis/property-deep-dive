@@ -288,6 +288,35 @@ Rules the helper applies (and the **`Version month guard`** required CI check en
 
 A PR whose `plugin.json` bump breaks any of these is **blocked at merge**, with a message telling you the correct number.
 
+### Adding or changing a platform lane
+
+The skill ships to Claude Code, Codex, Cursor, Gemini CLI, Grok, Copilot and the
+agentskills.io standard from **one skill tree and one thin manifest per platform** —
+name, version, description, and a `"skills": "./skills"` pointer where the platform
+supports one. To add a lane:
+
+1. Add the manifest under that platform's convention.
+2. Register its version path in `VERSIONED_MANIFESTS` in `scripts/next-version.py` **and**
+   in `MANIFESTS` in `scripts/validate-manifests.py`.
+3. Document the install and update commands in the README table.
+
+Then run `python3 scripts/validate-manifests.py`. Two rules it enforces, both of which
+fail quietly in the wild rather than loudly:
+
+- **Every manifest carries the same CalVer version.** One left behind advertises a stale
+  release to that platform's updater, so its users never get the bump. Never hand-edit a
+  version — `python3 scripts/next-version.py --write` rewrites all of them at once.
+- **`SKILL.md` frontmatter meets the Agent Skills spec** — `name` ≤64 chars and equal to
+  its folder name, `description` ≤1024 chars. The description cap is not cosmetic: an
+  over-cap skill is *silently dropped* from the loader's skill list with no warning and
+  no error ([github/copilot-cli#3494](https://github.com/github/copilot-cli/issues/3494)),
+  so the lane looks installed and does nothing.
+
+`user-invocable` and `argument-hint` are Claude Code extensions rather than spec fields.
+Conformant runtimes ignore unknown keys, so they ship as-is, but
+`./scripts/build-skill-zips.sh` strips them from the upload zips because the claude.ai
+uploader rejects unknown fields.
+
 ### Cutting the tag
 
 1. **Bump `.claude-plugin/plugin.json` `version`** to the number `next-version.py` prints (e.g., `2026.06.0`).

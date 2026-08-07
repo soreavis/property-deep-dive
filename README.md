@@ -93,7 +93,26 @@ TCO calculator · mortgage calculator · test fixtures · listing-diff watcher �
 
 ## Install
 
-Works as a plugin in both **[Claude Code](https://docs.claude.com/claude-code)** and **[Claude Cowork](https://www.anthropic.com/product/claude-cowork)**. The plugin format is identical — `.claude-plugin/plugin.json` + `.claude-plugin/marketplace.json` + `skills/property-deep-dive/SKILL.md` — so the same skill bundle ships to both products. The install UX differs.
+Installs into whichever agent you already use: Claude Code, Claude Cowork, Codex, Cursor, Gemini CLI, Copilot, Grok, ChatGPT, and anything else that reads the [Agent Skills](https://agentskills.io) standard. One skill tree, one thin manifest per platform — all pinned to the same [CalVer](#versioning) release.
+
+Use your platform's native plugin or skill manager where one exists; those lanes keep the runtime's own update path.
+
+| Platform | Install | Update |
+|---|---|---|
+| **Claude Code** | `/plugin marketplace add github:soreavis/property-deep-dive` then `/plugin install property-deep-dive@property-deep-dive` | `/plugin marketplace update property-deep-dive`, or enable marketplace auto-update |
+| **Codex** | `codex plugin marketplace add soreavis/property-deep-dive` then `codex plugin add property-deep-dive@property-deep-dive` | `codex plugin marketplace upgrade` |
+| **Cursor** | `npx skills add soreavis/property-deep-dive --skill property-deep-dive -a cursor` | `npx skills update` |
+| **Gemini CLI** | `gemini extensions install https://github.com/soreavis/property-deep-dive` | `gemini extensions update property-deep-dive` |
+| **Copilot / GitHub CLI** | `gh skill install soreavis/property-deep-dive property-deep-dive` | `gh skill update property-deep-dive` |
+| **Grok** | `grok plugin marketplace add soreavis/property-deep-dive` then `grok plugin install soreavis/property-deep-dive --trust` | `grok plugin update property-deep-dive` |
+| **Claude web / Desktop / Cowork** | Customize → Plugins → **+** → Add marketplace → `https://github.com/soreavis/property-deep-dive` | automatic on marketplace sync |
+| **ChatGPT** | Skills → **Create** → **Upload from your computer**, using the [release zip](https://github.com/soreavis/property-deep-dive/releases/latest) | re-upload the newer zip |
+| **Other agents** | `npx skills add soreavis/property-deep-dive --skill property-deep-dive` | `npx skills update` |
+
+> [!NOTE]
+> `gh skill` is in preview and its flags may change. The zip lanes take a skill folder rather than a plugin — build one locally with `./scripts/build-skill-zips.sh`, which writes `dist/property-deep-dive.zip` and strips the Claude-Code-only frontmatter fields the open spec does not define.
+
+The two Claude lanes are documented in more detail below.
 
 ### Claude Code (slash commands)
 

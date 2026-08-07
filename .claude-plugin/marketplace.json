@@ -10,7 +10,10 @@
       "source": {
         "source": "github",
         "repo": "soreavis/property-deep-dive"
-      }
+      },
+      "version": "2026.08.0",
+      "description": "Pre-purchase property due diligence across 126 countries \u2014 tax, risks, rental yield, visa, mortgage, permits and 35 more sections per address.",
+      "category": "research"
     }
   ]
 }

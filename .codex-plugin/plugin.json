@@ -1,0 +1,32 @@
+{
+  "name": "property-deep-dive",
+  "version": "2026.08.0",
+  "description": "Pre-purchase property due diligence across 126 countries \u2014 tax, risks, rental yield, visa, mortgage, building permits, schools, connectivity and 33 more sections per address. Detects the country from an address or listing URL, loads that country's playbook, and outputs a structured Markdown brief sourced to primary government registries with every figure dated and confidence-labelled.",
+  "author": {
+    "name": "Julian Soreavis",
+    "url": "https://github.com/soreavis"
+  },
+  "homepage": "https://github.com/soreavis/property-deep-dive",
+  "repository": "https://github.com/soreavis/property-deep-dive",
+  "license": "MIT",
+  "keywords": [
+    "property",
+    "real-estate",
+    "due-diligence",
+    "relocation",
+    "tax"
+  ],
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Property Deep Dive",
+    "shortDescription": "Pre-purchase property due diligence across 126 countries",
+    "longDescription": "Drop in any address or listing URL: the skill detects the country, loads the local playbook, runs the sections you ask for, and returns a structured brief. Sources are primary government registries rather than aggregators; every figure is dated and every section carries a confidence band that decays without re-verification.",
+    "developerName": "Julian Soreavis",
+    "category": "Research",
+    "capabilities": [
+      "Research",
+      "Due diligence",
+      "Reporting"
+    ]
+  }
+}
