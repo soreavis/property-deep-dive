@@ -25,6 +25,12 @@ jobs:
 
       - name: Install uv
         uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9  # v9.0.0
+        with:
+          # setup-uv installs "latest" when this is unset, and the step below is a
+          # byte-exact comparison — so a uv release changing its output format would
+          # red main repo-wide with no commit behind it. Bump deliberately; if a bump
+          # ever alters the rendering, `./scripts/lock-requirements.py` regenerates.
+          version: "0.12.2"
 
       - name: Check the lock is not stale
         # Editing requirements.in without recompiling leaves CI installing the
@@ -32,7 +38,13 @@ jobs:
         # because the stale lock is internally consistent. This is the only thing
         # that catches it. Resolution is pinned to the runner's platform inside
         # the script, so this is reproducible rather than machine-dependent.
-        run: python3 scripts/lock-requirements.py --check
+        #
+        # The unit tests guard the property that makes this check trustworthy:
+        # resolution keeps the pins already in requirements.txt. Without that it
+        # answers "has anything newer shipped", which is not a PR's problem.
+        run: |
+          python3 scripts/lock-requirements-test.py
+          python3 scripts/lock-requirements.py --check
 
   changelog-length:
     name: CHANGELOG entries stay short

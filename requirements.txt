@@ -11,8 +11,13 @@
 # Version bumps are Dependabot's job. Reach for the helper below only when you
 # ADD or REMOVE a package, or change a constraint in requirements.in by hand:
 #
-#   ./scripts/lock-requirements.py           # regenerate in place
-#   ./scripts/lock-requirements.py --check   # fail if this file is stale
+#   ./scripts/lock-requirements.py             # regenerate in place, keeping pins
+#   ./scripts/lock-requirements.py --upgrade   # ...and take newer allowed versions
+#   ./scripts/lock-requirements.py --check     # fail if this file is stale
+#
+# Regeneration preserves the versions pinned below: the check asks "does this lock
+# match requirements.in", not "has anything newer shipped". Version bumps arrive as
+# Dependabot PRs, so a fresh upstream release never reds main on its own.
 #
 # Use the helper, not `uv pip compile ... -o requirements.txt` directly — the raw
 # command overwrites this header, so the file would lose these instructions the

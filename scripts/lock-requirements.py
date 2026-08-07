@@ -21,9 +21,15 @@ Version bumps are normally Dependabot's job, not yours — it edits requirements
 and regenerates the hashes in place. Reach for this when you ADD or REMOVE a
 package, or change a constraint by hand.
 
+Resolution preserves the versions already pinned in requirements.txt. The check
+answers "does this lock match requirements.in", never "has anything newer shipped"
+— otherwise an upstream release inside an existing range (`pypdf>=6.14.2,<7`)
+would turn main red with no commit behind it. Use --upgrade to take the bumps.
+
 Usage:
-    ./scripts/lock-requirements.py           # regenerate in place
-    ./scripts/lock-requirements.py --check   # fail if the lock is stale (CI-safe)
+    ./scripts/lock-requirements.py             # regenerate in place, keeping pins
+    ./scripts/lock-requirements.py --upgrade   # ...and take newer allowed versions
+    ./scripts/lock-requirements.py --check     # fail if the lock is stale (CI-safe)
 """
 
 from __future__ import annotations
@@ -57,30 +63,43 @@ def header_of(path: Path) -> str:
     return '\n'.join(kept).rstrip('\n')
 
 
-def compile_body() -> str:
+def compile_body(upgrade: bool = False) -> str:
     if not shutil.which('uv'):
         sys.exit("ERROR: `uv` not found. Install it (https://docs.astral.sh/uv/) "
                  "or regenerate with `pip-compile --generate-hashes`.")
-    with tempfile.NamedTemporaryFile(suffix='.txt') as tmp:
-        subprocess.run(
-            ['uv', 'pip', 'compile', str(SRC), '--generate-hashes', '--no-header',
-             '--python-version', PYTHON_VERSION, '--python-platform', PLATFORM,
-             '-o', tmp.name],
-            check=True, capture_output=True, text=True,
-        )
-        return Path(tmp.name).read_text(encoding='utf-8').strip('\n')
+    with tempfile.TemporaryDirectory() as tmpdir:
+        out = Path(tmpdir) / 'requirements.txt'
+        # Seed the output with the current lock. Without existing pins to read, uv
+        # resolves every RANGE in requirements.in (`pypdf>=6.14.2,<7`) to whatever
+        # the index serves *today*, so the first upstream release inside the range
+        # makes --check fail on a tree nobody touched — main goes red repo-wide and
+        # every PR blocks. Seeding makes the pins the preference set, so this only
+        # reports stale when requirements.in actually changed. `--upgrade` is the
+        # documented way to opt into bumps.
+        if LOCK.exists() and not upgrade:
+            out.write_text(LOCK.read_text(encoding='utf-8'), encoding='utf-8')
+        cmd = ['uv', 'pip', 'compile', str(SRC), '--generate-hashes', '--no-header',
+               '--python-version', PYTHON_VERSION, '--python-platform', PLATFORM,
+               '-o', str(out)]
+        if upgrade:
+            cmd.append('--upgrade')
+        subprocess.run(cmd, check=True, capture_output=True, text=True)
+        return out.read_text(encoding='utf-8').strip('\n')
 
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--check', action='store_true',
                     help='exit 1 if requirements.txt is not what requirements.in produces')
+    ap.add_argument('--upgrade', action='store_true',
+                    help='also pull newer versions allowed by requirements.in '
+                         '(otherwise existing pins are preserved)')
     args = ap.parse_args()
 
     if not SRC.exists():
         sys.exit(f'ERROR: {SRC} not found')
 
-    rendered = header_of(LOCK) + '\n\n' + compile_body() + '\n'
+    rendered = header_of(LOCK) + '\n\n' + compile_body(args.upgrade) + '\n'
 
     if args.check:
         if LOCK.exists() and LOCK.read_text(encoding='utf-8') == rendered:

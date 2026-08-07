@@ -221,6 +221,8 @@ vim requirements.in                        # direct deps only
 
 Then commit **both** files.
 
+Regeneration **keeps the versions already pinned** in `requirements.txt`; only what changed in `requirements.in` moves. That is deliberate — the `--check` gate is required, so if resolution took the newest allowed version instead, the next upstream release inside an existing range (`pypdf>=6.14.2,<7`) would fail the check on every open PR with nobody having touched the file. Version bumps arrive as Dependabot PRs; to take them by hand, run `./scripts/lock-requirements.py --upgrade`.
+
 Do not run `uv pip compile ... -o requirements.txt` directly, and never hand-edit `requirements.txt`. The raw command overwrites the header comment block — which is where the regeneration instructions live — and hand-editing breaks the hashes. The helper preserves the header and pins resolution to the CI runner (Python 3.12, linux x86_64), not your machine.
 
 CI installs with `--require-hashes`, so a lock that doesn't cover every transitive dependency fails the install rather than quietly resolving something else.
