@@ -20,7 +20,7 @@ ISO2: `rw`. Status: ✅ Fully populated (researched 2026-05).
 - **Law N° 27/2021 (Land Law)** — extended **emphyteutic / leasehold term to 99 years** for both residential and investment use (previously 49 years for investment, 20 years for residential). Foreigners get **leasehold only**; freehold reserved for Rwandan citizens (subject to international convention reciprocity). Source: Official Gazette + RLMUA.
 - **Law N° 027/2022 of 20/10/2022 establishing taxes on income** (amended by **Law N° 051/2023 of 05/09/2023** and **Law N° 014/2025 of 27/05/2025**) — replaced 2018 Income Tax Law; restructured PIT brackets (see `--tax`); **CGT 10 %** (Art. 36 as amended by Law N° 014/2025, Official Gazette n° Special of 29/05/2025 — Art. 36 as promulgated read 5 %, which was the statute for 20/10/2022 – 28/05/2025) on the **Art. 37 base of shares, licences, debt instruments, options, guarantees and similar assets — immovable property is NOT in the CGT base**; commercial-property gains fall into business profit (Art. 19) at **CIT 28 %** (Art. 48 as amended by Law N° 051/2023) or PIT progressive to 30 %; residential individual sales captured through the 2 % / 2.5 % sale levy (see `--tax`); preserved **rental income tax** progressive scale. *(2026-08-07 verified, source Law 014/2025 + Law 027/2022 + Law 051/2023 gazettes + RRA Tax Handbook + PwC Worldwide Tax Summaries)*
 - **Law N° 006/2021 of 05/02/2021 on investment promotion and facilitation** (Investment Code 2021) — replaced 2015 Code; preferential CIT rates 3 / 15 / 25 %; **3 foreign-worker permits + residence permit for USD 250k+ registered investor**. Source: UNCTAD Investment Laws Navigator + RDB.
-- **Property Tax Reform — Cabinet-approved 20 April 2023; effective February 2024; first declaration window opened 20 August 2024** — Land Tax rate compressed from FRW 0–300/m² to **FRW 0–80/m²** band (varies by district + use, set annually by District Council / City of Kigali); **Building Tax**: 0.5 % residential / 0.3 % commercial / 0.1 % industrial-SME of market value (building + plot); **Sale levy**: 2 % registered taxpayer / 2.5 % unregistered (applied above **RWF 5 M exempt floor** of sale value for commercial-use property — verify residential applicability with RRA). Source: gov.rw Cabinet press release 20 Apr 2023 + RRA 2024 declaration notice + Law on Sources of Revenue for Decentralized Entities.
+- **Property Tax Reform — Cabinet-approved 20 April 2023; enacted as Law N° 048/2023 of 05/09/2023 (repeals Law N° 75/2018), in force on gazettement 14 Sept 2023 per Art. 60 (Official Gazette n° Special of 14/09/2023)** — land-rate implementing instrument **Ministerial Order n° 002/23/10/TC of 24/11/2023**; first tax period under the new rates = **calendar 2024**, RRA opened the 2024 declaration **20 August 2024** after District Council + City of Kigali rate approval, **annual deadline 31 December**. Land Tax rate compressed from FRW 0–300/m² to **FRW 0–80/m²** band (varies by district + use, set annually by District Council / City of Kigali); **Building Tax**: 0.5 % residential / 0.3 % commercial / 0.1 % industrial-SME of combined building + plot market value, with **0.25 %** for a residential plot + building of **three floors** and **0.1 %** **above three floors**; **one owner-occupied family dwelling exempt** (its land remains taxable); **Sale levy**: 2 % registered seller / 2.5 % unregistered, levied on the sale value **after deducting the first FRW 5,000,000** — use-based applicability of the deduction is not specified in the source; verify residential treatment with RRA. Source: Law N° 048/2023 (Law on Sources of Revenue for Decentralized Entities) `https://www.rra.gov.rw/fileadmin/user_upload/Law_of_2023_about_the_sources_of_Revenues_and_property_for_decentralized_entitied.pdf` + gov.rw Cabinet press release 20 Apr 2023 + RRA 2024 declaration notice *(rates re-confirmed unchanged 2026-08-07 against RRA Basic Information version 2025 + RRA Tax Handbook 2025; no amending law — the May-2025 package did not touch Law 048/2023)*
 - **Law N° 015/2025 of 27 May 2025 — 3 % Tourism Levy (effective 1 July 2025)** — unanimous Parliament vote 28 Apr 2025; 3 % levy on accommodation services (hotels, motels, lodges, guest houses, **apartments and similar**); declared + paid within 15 days of month-end. Materially affects short-let / serviced-apartment yields *(2026-05-27 verified, source Law 015/2025 + allAfrica + travelnews.africa)*
 - **e-Apostille launch (5 June 2024)** — MINAFFET + Irembo partnership; Rwanda became 126th HCCH Apostille Convention member (instrument of accession deposited 6 Oct 2023; entered into force 5 June 2024); first country to launch e-Apostille from day-one of accession; 1–3 day processing via `https://irembo.gov.rw/`. Material for foreign-buyer document chain (birth certificates, PoA, marriage certificates required for LAIS / RDB filings) *(2026-05-27 verified, source MINAFFET press release + Schmidt-Export accession tracker)*
 - **Kigali Master Plan 2050 (KMP 2050)** — adopted 2020; portal: `https://bpmis.gov.rw/asset_uplds/kigali_master_plan/` and `https://www.kigalicity.gov.rw/`. Reduced commercial zones from 9 → 3, residential zones from 7 → 5; introduced overlay districts encouraging mixed-use along future BRT corridors. **Strict enforcement** — building permits checked against KMP 2050 zoning.
@@ -164,7 +164,7 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 
 ### Stamp / transfer levy (one-time, buyer or per agreement)
 
-- **Levy on sale of immovable property**: **2 %** of property value (registered taxpayers) / **2.5 %** (non-registered) — Cabinet-approved property tax reform 2024; collected by RRA at registration. Source: RRA + Kigali Times Finance Law 2024/2025.
+- **Levy on sale of immovable property**: **2 %** of sale value (registered seller) / **2.5 %** (unregistered), levied **after deducting the first FRW 5,000,000** of the sale value — legal basis **Law N° 048/2023 of 05/09/2023**, in force on gazettement 14 Sept 2023 (Official Gazette n° Special of 14/09/2023); collected by RRA at registration. Use-based applicability of the FRW 5 M deduction is not specified in the source — verify residential treatment with RRA. Source: Law N° 048/2023 `https://www.rra.gov.rw/fileadmin/user_upload/Law_of_2023_about_the_sources_of_Revenues_and_property_for_decentralized_entitied.pdf` + RRA (prior secondary reporting: Kigali Times Finance Law 2024/2025) *(2026-08-07 verified)*
 
 ### Land Registration / RLMUA fees
 
@@ -178,7 +178,9 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 
 **Source**: RRA Immovable Property Tax page `https://www.rra.gov.rw/index.php?id=64&L=27` + reform-package PDF `https://www.rra.gov.rw/fileadmin/user_upload/WEB_POPERTY_TAX__EN_Ok.pdf`.
 
-**Reform 2024 (effective)**:
+**Reform — Law N° 048/2023 of 05/09/2023** (repeals Law N° 75/2018), in force on gazettement **14 Sept 2023** per Art. 60 (Official Gazette n° Special of 14/09/2023). Land rates are set by **Ministerial Order n° 002/23/10/TC of 24/11/2023**. First tax period under the new rates = **calendar 2024**; RRA opened the 2024 declaration **20 Aug 2024** after District Council + City of Kigali rate approval; **annual deadline 31 December**.
+
+Rates in force:
 
 #### Land Tax
 
@@ -193,6 +195,8 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 | **Residential** | **0.5 %** |
 | **Commercial** | **0.3 %** |
 | **Industrial / micro & small business** | **0.1 %** |
+| **Residential plot + building of three floors** | **0.25 %** |
+| **Residential plot + building above three floors** | **0.1 %** |
 
 Second residential house: **0.5 %** of combined market value.
 
@@ -202,20 +206,22 @@ Second residential house: **0.5 %** of combined market value.
 - Land Tax: ~80 m² × FRW 80/m² = **FRW 6,400/yr (~USD 4/yr)**
 - **Total annual IPT**: ~FRW 1,456,400 (~USD 1,005)
 
-For a primary-resident **first home, owner-occupied**, partial exemptions / reduced rates may apply; verify with district council annually.
+⚠️ This example applies the flat **0.5 %** residential rate. Law N° 048/2023 also sets **0.25 %** for a residential plot + building of **three floors** and **0.1 %** **above three floors** — the floor count of this apartment block is not stated, so if the building falls in either band the figure above is an over-estimate. Confirm the applicable band with RRA / the district council before relying on it.
+
+**One owner-occupied family dwelling is exempt from Building Tax** (Law N° 048/2023) — **its land remains taxable** (Land Tax still due). Confirm your dwelling qualifies, and the applicable land rate, with the district council annually.
 
 #### Transfer + Registration costs (one-time, buyer side, USD 200k purchase)
 
 | Item | RWF | USD est. |
 |---|---:|---:|
-| Sale levy 2 % (registered; on RWF 290 M − RWF 5 M = RWF 285 M; assumes commercial-use applicability — verify residential treatment with RRA) | ~5,700,000 | ~$3,940 |
+| Sale levy 2 % (registered; on RWF 290 M − RWF 5 M = RWF 285 M; the FRW 5 M deduction applies to the sale value, use-based applicability not specified in the source — verify residential treatment with RRA) | ~5,700,000 | ~$3,940 |
 | Land registration 0.5 % | ~1,450,000 | ~$1,000 |
 | Land transfer fee (residential flat) | 20,000 | ~$15 |
 | Notary fees ~0.75 % (mid-range est.) | ~2,175,000 | ~$1,500 |
 | Title printout / misc. | 5,000 | ~$4 |
 | **Total transaction cost** | ~9,450,000 | **~$6,500 (~3.3 % of price)** |
 
-(2024 reform basis — verify current rates at RRA/RLMUA on day of transaction.)
+(Law N° 048/2023 basis, first tax period calendar 2024; rates re-confirmed unchanged **2026-08-07** against RRA Basic Information version 2025 + RRA Tax Handbook 2025 — still verify current rates at RRA/RLMUA on day of transaction.)
 
 ### Capital Gains Tax (CGT)
 
@@ -595,7 +601,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 
 | Work | Cost (USD est.) |
 |---|---:|
-| Sale levy 2 % (registered taxpayer) | 2 % of price |
+| Sale levy 2 % (registered taxpayer) | 2 % of sale value after deducting the first FRW 5 M |
 | Land registration 0.5 % | 0.5 % of price |
 | Land transfer fee (residential flat) | ~$15 (FRW 20,000) |
 | Notary fees (typical) | 0.5–1 % of price |

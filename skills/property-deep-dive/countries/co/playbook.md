@@ -24,7 +24,7 @@ ISO2: `co`. Status: ✅ Fully populated (researched 2026-05).
   - **Ley 2277/2022** ("Reforma Tributaria" of the Petro government) — wealth tax reintroduced; ganancia ocasional rate raised from 10 % to 15 %; predial-base adjustments per municipality.
   - **Decreto 538 of 2024 (Bogotá)** — 10 % impuesto al consumo (lodging tax) on STR + obligations *(claim per second-tier sources — "Decreto 538/2024" reference NOT verifiable in alcaldiabogota.gov.co/sisjur as of 2026-07; a fresh sisjur re-check finds only Decreto 538/2021 (bienestar animal) and Decreto 538/2025 (Sec. Movilidad), no 2024 STR/lodging decree; national impuesto al consumo on lodging is 8 % under Estatuto Tributario art. 512-9 — verify before relying)*.
   - **Catastro multipropósito** ongoing rollout (2020 → 2025+).
-  - **M-visa real-estate threshold**: investment ≥ 350× SMLMV (Decreto 1067/2015 + Resolución 5477/2022 with updates) for Migrante; ≥ 650× SMLMV unlocks Residente after 5 years (verify current Resolución at Cancillería).
+  - **M-visa investment thresholds** (**Resolución 5477/2022 art. 79**, within Decreto 1067/2015): **real-estate route ≥ 350× SMLMV**; **FDI route > 650× SMLMV**. Both routes accumulate 5 years toward **Visa R** (art. 90 as replaced by **Resolución 10434/2023 art. 76**) — the R grant is **not automatic** (Parágrafo 3). At the **2026 SMLMV of COP 1,750,905/mes** (+23 %, Decreto 1469/2025, re-fixed transitorily by **Decreto 0159 of 19-Feb-2026** while a Consejo de Estado nullity action is pending): 350× = **COP 612.8 M ≈ USD 195 k**; 650× = **COP 1,138.1 M ≈ USD 362 k** at TRM 3,144.14 (BanRep, 2026-08-03). Re-prices **every 1 Jan** with the SMLMV and **daily** in USD terms with the TRM — the widely-quoted ~USD 125 k figure was the 2025 wage at a ~4,100 TRM *(superseded)*. Verify current Resolución at Cancillería (2026-08-07 verification).
 
 ---
 
@@ -285,7 +285,7 @@ Two distinct concepts (don't confuse):
 
 ### Salaried benchmarks (2025-26)
 
-- **Salario mínimo (SMLMV) 2025**: **COP 1,423,500/mes** + auxilio de transporte COP 200,000 (for those earning ≤ 2 SMLMV). 2026 SMLMV: verify at MinTrabajo decreto end of December (typically announced 30 Dec).
+- **Salario mínimo (SMLMV) 2026**: **COP 1,750,905/mes** (+23 % on 2025; Decreto 1469/2025, re-fixed transitorily by **Decreto 0159 of 19-Feb-2026** while a Consejo de Estado nullity action is pending — 2026-08-07 verification). **2025**: COP 1,423,500/mes + auxilio de transporte COP 200,000 (for those earning ≤ 2 SMLMV) — 2026 auxilio de transporte not verified here. 2027 SMLMV: verify at MinTrabajo decreto end of December (typically announced 30 Dec).
 - **Median formal monthly wage (DANE GEIH)**: ~COP 1.6–1.8 M nationally; Bogotá ~COP 2.5–3.5 M; Medellín ~COP 2.0–3.0 M (verify at DANE GEIH boletín técnico).
 - **English-fluent professionals** in BPO / tech: ~COP 4–10 M/mes (Bogotá, Medellín hubs).
 
@@ -522,19 +522,19 @@ Two distinct concepts (don't confuse):
 
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government / regulated-entity sources + cost benchmarks + caveats.
 
-**Confidence**: **HIGH** for visa structure (Cancillería + Decreto 1067/2015), notary + cadastre + ORIP framework (SNR + IGAC), tax structure at the national level (Estatuto Tributario + Ley 2277/2022 + Ley 1450/2011 + Ley 388/1997), Ley 820/2003 LTR cap, NSR-10 seismic code, Ley 675/2001 PH régimen.
+**Confidence**: **HIGH** for visa structure (Cancillería + Decreto 1067/2015 + Resolución 5477/2022 art. 79 + Resolución 10434/2023 art. 76), notary + cadastre + ORIP framework (SNR + IGAC), tax structure at the national level (Estatuto Tributario + Ley 2277/2022 + Ley 1450/2011 + Ley 388/1997), Ley 820/2003 LTR cap, NSR-10 seismic code, Ley 675/2001 PH régimen.
 
 **MEDIUM** for: per-municipio predial rates (vary by Acuerdo, evolving with multipurpose-cadastre rollout — verify each year per city); STR rules (city-by-city, 2024-26 reforms ongoing — the widely-cited Bogotá "Decreto 538/2024" + Medellín "Acuerdo 056/2024" are NOT verifiable in official sources; real bases are the national RNT + municipal uso del suelo, POT Acuerdo 48/2014); current SMLMV (verify each Dec 30 MinTrabajo decreto); current UVT (verify each year DIAN Resolución).
 
 **LOW** for: parcel-level price/m² (use only as zone-average context — must cross-check Lonja + Metrocuadrado comparables for the specific barrio + estrato).
 
-**Last verified**: 2026-08-07 (`--tax` / `--price` catastro-multipropósito legal basis + predial-cap correction; other sections 2026-05-27).
+**Last verified**: 2026-08-07 (`--tax` / `--price` catastro-multipropósito legal basis + predial-cap correction; `--visa` M-visa investment thresholds re-verified — Resolución 5477/2022 art. 79 real-estate ≥ 350× / FDI > 650× SMLMV, Visa R accumulation via Resolución 10434/2023 art. 76, 2026 SMLMV COP 1,750,905; other sections 2026-05-27).
 
 **Reform watch (next 12 mo)**:
 1. **Catastro multipropósito + Ley 2294/2023 art. 49 rezago adjustment** — track IGAC cobertura updates per municipio and the **Resolución 2057 of 30 Dec 2025** rural reajuste (527 municipios from 1 Jan 2026; 520 adjusted at 23 Feb 2026); plus **PL 188 + 291 of 2025 ("Ley Predial Justo")**, pending first debate (Gaceta 378, 28 Apr 2026), which would tighten the predial topes.
 2. **Bogotá Decreto 538/2024** STR enforcement + possible widening to other consumo categories.
 3. **Medellín Concejo** — additional STR restrictions in El Poblado / Laureles likely 2026.
-4. **Cancillería visa schedule** — M-visa thresholds (350× / 650× SMLMV) move with SMLMV revisions.
+4. **Cancillería visa schedule** — M-visa thresholds (350× / 650× SMLMV) re-price **every 1 Jan** with the SMLMV and **daily** in USD terms with the TRM; the 2026 SMLMV (**COP 1,750,905**, +23 %, **Decreto 1469/2025**, re-fixed transitorily by **Decreto 0159 of 19-Feb-2026** while a **Consejo de Estado nullity action is pending** — `https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20No.%200159%20DEL%2019%20DE%20FEBRERO%20DE%202026.pdf`) already moved them to **COP 612.8 M / COP 1,138.1 M**. The nullity ruling is still outstanding — re-confirm the SMLMV base at Presidencia / MinTrabajo before relying on the COP figures.
 5. **DIAN UVT 2026** — recalibrates all tax thresholds (predial bands, ganancia ocasional exemption, wealth-tax floor).
 6. **Reforma tributaria pendiente** — Petro government second-term tax adjustments under discussion in Congreso 2026.
 

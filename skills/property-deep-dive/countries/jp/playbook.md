@@ -16,7 +16,7 @@ ISO2: `jp`. Status: ✅ Fully populated (researched 2026-05).
 - **Title concept**: 所有権 (shoyūken — freehold) vs 借地権 (shakuchiken — leasehold) — confirm before any offer. Foreign owners can hold freehold with no nationality restriction.
 - **Recent reforms**:
   - **重要土地等調査法 2021** (Act No. 84 of 2021) — restricts land use within ~1 km of defense facilities, US bases, border islands. Enacted 2021-06-23; fully effective 2022-09-20. ([source](https://www.cao.go.jp/tochi-chosa/))
-  - **民法・不動産登記法改正 2024** (effective 2024-04-01) — mandatory inheritance registration within 3 years; address-change registration within 2 years; aimed at solving 所有者不明土地 (unidentified-owner land, ~23 % of all JP land per gov't survey). ([source](https://www.moj.go.jp/MINJI/minji05_00343.html))
+  - **民法・不動産登記法改正 (Act 24/2021, 不動産登記法)** — **two limbs, phased**: (a) **inheritance registration mandatory since 2024-04-01** — within **3 years of knowing of the acquisition**, penalty **up to ¥100,000** (10万円以下の過料, 不登法164① — **not** ¥50,000); pre-2024 inheritances backstop **2027-03-31**. (b) **address-change registration IN FORCE only since 2026-04-01** (not 2024) — within **2 years of the change**, penalty **up to ¥50,000** (不登法164②); pre-2026 changes backstop **2028-03-31**. Aimed at solving 所有者不明土地 (unidentified-owner land, ~23 % of all JP land per gov't survey); both limbs are foreign-heir traps. ([法務省](https://www.moj.go.jp/MINJI/minji05_00599.html), 2026-08-07 verified · [MOJ 2024 reform overview](https://www.moj.go.jp/MINJI/minji05_00343.html))
   - **空家等対策特別措置法改正 2023** (effective 2023-12) — new category 管理不全空家 (mismanaged vacant home); revocation of fixed-asset tax residential-land special exemption upon municipal warning. ([MLIT source](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000138.html))
   - **住宅宿泊事業法 2018** (Minpaku Law, effective 2018-06-15) — short-term rental national framework, 180 nights/year cap.
 
@@ -193,7 +193,7 @@ Progressive **10 % → 55 %** on each statutory heir's allotted share. Basic exe
 
 ### Future risk
 
-- **2024 民法改正** mandatory inheritance registration (3-year deadline; ¥50,000 fine if unregistered without justification) hits non-resident heirs hardest — easy to miss
+- **2024 民法改正** mandatory inheritance registration (3 years from **knowing of the acquisition**; penalty **up to ¥100,000** if unregistered without justification — 10万円以下の過料, 不登法164①, **not** ¥50,000; pre-2024 inheritances backstop **2027-03-31**) hits non-resident heirs hardest — easy to miss ([法務省](https://www.moj.go.jp/MINJI/minji05_00599.html), 2026-08-07 verified)
 - Discussion of 2026–2027 tax reform on luxury condominium revaluation (Tokyo central wards 評価額 increases proposed)
 - **管理不全空家 designation** — ¥40,000–¥100,000+ extra annual fixed-asset tax once warning issued, retroactive to next 1 Jan
 
@@ -500,7 +500,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 - **マンション 大規模修繕 cycle**: every ~12–15 years; if 修繕積立金 fund inadequate at the time, owner-association levies 一時金 (one-time assessment) — material risk for older condos
 - **隣地境界確認 (adjacent boundary confirmation)**: many JP parcels lack clean modern survey; 確定測量図 (definitive survey diagram) recommended pre-purchase, ~¥300K–¥800K
 - **道路幅員 (road width) + 接道義務 (frontage obligation, 2 m on 4 m+ road)**: 既存不適格 frontage may block rebuild — checked at 建築指導課
-- **2024 民法改正**: address-change registration deadline 2-yr; new owners must update inheritance registry within 3 yr; ¥50,000 fine
+- **民法・不動産登記法改正 (Act 24/2021) — two separate clocks**: new owners must register an inherited property within **3 yr** of knowing of the acquisition (mandatory since **2024-04-01**; penalty up to **¥100,000**, 不登法164①; pre-2024 inheritances backstop **2027-03-31**), and owners must register an **address change within 2 yr** — that limb is **IN FORCE only since 2026-04-01**, not 2024 (penalty up to **¥50,000**, 不登法164②; pre-2026 changes backstop **2028-03-31**) ([法務省](https://www.moj.go.jp/MINJI/minji05_00599.html), 2026-08-07 verified)
 
 ## Source URL templates
 
@@ -520,6 +520,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 | 観光庁 民泊制度ポータル | `https://www.mlit.go.jp/kankocho/minpaku/` |
 | 内閣府 重要土地等調査法 | `https://www.cao.go.jp/tochi-chosa/` |
 | 法務省 不動産登記法改正 | `https://www.moj.go.jp/MINJI/minji05_00343.html` |
+| 法務省 相続登記・住所変更登記 義務化 | `https://www.moj.go.jp/MINJI/minji05_00599.html` |
 | MLIT 空家特措法 | `https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000035.html` |
 | MLIT 道路交通センサス | `https://www.mlit.go.jp/road/census/r3/` |
 | 住宅金融支援機構 / Flat 35 | `https://www.flat35.com/` |

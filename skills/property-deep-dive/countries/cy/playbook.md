@@ -91,7 +91,9 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 - **Rate: 20%** on gains from CY-situs immovable property + shares in CY companies directly owning CY immovable property — UNCHANGED
 - **Lifetime general exemption per individual: €30,000** (up from €17,086 — **2026 reform**)
 - **Private residence exemption: €150,000** if used as main residence ≥5 years (up from €85,430)
-- **Agricultural land exemption: €50,000** (was €25,629) — 2026 reform (2026-05-27 verified, source: Sovereign / Harneys / Chambers&Co / IBCCS Tax / Mondaq)
+- **Agricultural land (disposed of by a farmer) exemption: €50,000** (was €25,629 — **2026 reform**)
+- **Overall lifetime exemption cap: €150,000** (up from €85,430 — **2026 reform**)
+- All four uplifts (general / agricultural / principal residence / overall cap) enacted by **Amending Law 242(I)/2025**, Official Gazette 31 Dec 2025 (2026 data, source Cyprus Tax Department — https://www.gov.cy/mof-tax/documents/kefalaioychika-kerdi/genikes-plirofories-gia-ta-kefalaioychika-kerdi/) (2026-08-07 verified; prior secondary cross-checks: Sovereign / Harneys / Chambers&Co / IBCCS Tax / Mondaq)
 - Exemption from CGT for property acquired between 16 Jul 2015 and 31 Dec 2016 still applies (one-off historical relief)
 
 ### Personal Income Tax — `2026 REFORM`
@@ -106,7 +108,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 
 ### Rental Income — `2026 REFORM`
 
-- **SDC on rental income: ABOLISHED from 1 Jan 2026.** (Pre-2026: 3% × 75% of gross rent = effective 2.25% for CY tax-resident AND domiciled individuals; non-doms exempt under 17-year regime)
+- **SDC on rental income: ABOLISHED from 1 Jan 2026** as part of the Tax Reform package in force 1 Jan 2026. (Pre-2026: 3% × 75% of gross rent = effective 2.25% for CY tax-resident AND domiciled individuals; non-doms exempt under 17-year regime) (2026-08-07 verified, source: Ministry of Finance / Cyprus Tax Department — enacting amending law not identified by the source consulted; **Law 242(I)/2025 amends the Capital Gains Tax Law and is NOT the SDC instrument**. Verify with the Cyprus Tax Department before citing any law number here)
 - **Income tax** (progressive, above) still applies to rental profit (after 20% notional deduction + actual expenses + capital allowances)
 - **GHS contribution (GeSY)**: 2.65% on rental income for healthcare system
 
@@ -136,6 +138,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 - **Penalties**: up to €5,000 + up to 1 year imprisonment for serious safety breaches
 - **2025 enforcement crackdown**: ~12,000–13,000 STR units estimated; only 8,375 registered (May 2025); active inspector raids in Limassol/Paphos
 - **No general bed-night tax** in RoC (unlike GR, IT). Some municipalities considering — verify per 2026
+- **Rental-income taxation**: see `--tax` § Rental Income — **SDC on rental income abolished from 1 Jan 2026** (2026 Tax Reform package; no law number cited — the primary source consulted does not name the SDC amending instrument); income tax + GHS still apply
 
 ---
 
@@ -258,7 +261,7 @@ Universal — see `shared/climate-projections.md`. Critical for CY: water scarci
 
 ## Active fiscal incentives (Apr 2026)
 
-- **2026 Tax Reform**: stamp duty abolished, CGT exemptions raised (€30k general, €150k primary residence), SDC rental abolished, PIT 0% threshold raised to €22k
+- **2026 Tax Reform**: stamp duty abolished, CGT exemptions raised (€30k general, €50k agricultural land disposed of by a farmer, €150k primary residence, €150k overall lifetime cap — Amending Law 242(I)/2025), SDC rental abolished, PIT 0% threshold raised to €22k
 - **5% reduced VAT primary residence** (130 m² / €350k cap) — 31 Dec 2026 transitional completion deadline for older permits (extended by Law 109(I)/2026)
 - **Trapped Buyers reform** (Amendment Law 110(I)/2025) — title-deed pathway for eligible historic-developer-encumbered properties
 
@@ -338,6 +341,7 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 | Hermes STR | https://www.gov.cy/tourism/ |
 | EPC certificate | https://bfu.meci.gov.cy/en/energy-performance-certificates/ |
 | 2026 tax reform | https://taxsummaries.pwc.com/cyprus/individual/other-taxes |
+| CGT exemptions (primary) | https://www.gov.cy/mof-tax/documents/kefalaioychika-kerdi/genikes-plirofories-gia-ta-kefalaioychika-kerdi/ |
 | ECtHR Loizidou ref | https://en.wikipedia.org/wiki/Loizidou_v._Turkey |
 | 2022 Paphos M6.6 quake | https://en.wikipedia.org/wiki/2022_Cyprus_earthquake |
 | 2021 Limassol wildfires | https://en.wikipedia.org/wiki/2021_Limassol_wildfires |
@@ -346,10 +350,13 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 
 ## Status
 
-**Confidence**: HIGH on 2026 Tax Reform (multiple PwC/KPMG/Sovereign sources verified), Hermes STR registration mandatory since 6 Feb 2023, 2021 Limassol wildfires (4 dead, ~55 km² / 5,500 ha, major DD anchor for foothill properties), 2025 worst-drought-since-1901 + reservoir levels, Russian-buyer post-2022 sanctions enforcement (CySEC C728 expanded 23 Sep 2025). MEDIUM on per-municipality local IPT (verify per locality), SDA-equivalent (no formal CY SDA list — different from MT), no real-estate-specific stamp-duty exceptions retained from the 2026 abolition — only judicial / court fees survive (verify per transaction). LOW on TRNC IPC application data + reunification negotiations (politically dynamic — snapshot only).
+**Confidence**: HIGH on 2026 Tax Reform (CGT exemption uplifts + SDC-on-rental abolition verified 2026-08-07 against the primary Cyprus Tax Department / Ministry of Finance source; PwC/KPMG/Sovereign retained as cross-checks), Hermes STR registration mandatory since 6 Feb 2023, 2021 Limassol wildfires (4 dead, ~55 km² / 5,500 ha, major DD anchor for foothill properties), 2025 worst-drought-since-1901 + reservoir levels, Russian-buyer post-2022 sanctions enforcement (CySEC C728 expanded 23 Sep 2025). MEDIUM on per-municipality local IPT (verify per locality), SDA-equivalent (no formal CY SDA list — different from MT), no real-estate-specific stamp-duty exceptions retained from the 2026 abolition — only judicial / court fees survive (verify per transaction). LOW on TRNC IPC application data + reunification negotiations (politically dynamic — snapshot only).
+
+**Last verified**: 2026-08-07 (scope: `--tax` CGT exemptions + SDC-on-rental abolition only, against the Cyprus Tax Department / Ministry of Finance primary source; the rest of the playbook stands as of its 2026-04-26 population and 2026-05-27 checks)
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)
+- 2026-08-07: `--tax` CGT block re-verified against the primary Cyprus Tax Department source — overall lifetime exemption cap €85,430 → €150,000 added (was missing), agricultural-land exemption scoped to disposal by a farmer, Amending Law 242(I)/2025 (Gazette 31 Dec 2025) cited for the CGT uplifts only; SDC-on-rental abolition re-stamped with no law number, the source consulted naming no SDC amending instrument
 
 ---
 

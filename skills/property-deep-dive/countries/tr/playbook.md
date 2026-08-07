@@ -18,7 +18,7 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
   - **2018**: **TBDY 2018** (Türkiye Bina Deprem Yönetmeliği) — new earthquake-resistant building code, in force **1 Jan 2019**. New AFAD seismic hazard map at `https://tdth.afad.gov.tr/`.
   - **Sept 2018 → Jun 2022**: CBI threshold dropped to $250 k → raised to **$400,000** (current).
   - **Nov 2023 → 1 Jan 2024**: **Law 7464** (Konutların Turizm Amaçlı Kiralanmasına ve Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun) — mandatory İzin Belgesi for short-term rentals.
-  - **Feb 2023**: Kahramanmaraş earthquakes (M7.8 + M7.5) — ~50,000 deaths. Triggered regulatory tightening on building inspection, DASK, and "kentsel dönüşüm" (urban transformation) acceleration.
+  - **Feb 2023**: Kahramanmaraş twin earthquakes, 6 Feb 2023 — **AFAD official magnitudes Mw 7.7** (Pazarcık, 04:17 TSİ) + **Mw 7.6** (Elbistan, 13:24 TSİ); USGS catalogues the same pair as Mw 7.8 + Mw 7.5, but AFAD is the only body legally authorised to publish Türkiye earthquake magnitudes — quote the AFAD pair (2026-08-07 verified). ~50,000 deaths. Triggered regulatory tightening on building inspection, DASK, and "kentsel dönüşüm" (urban transformation) acceleration.
 
 ## Section: `--price`
 
@@ -356,7 +356,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 ### Earthquake — the single dominant risk
 
 - **TR is one of the world's most seismically active countries** (North Anatolian + East Anatolian + Aegean fault systems)
-- **2023 Kahramanmaraş (M7.8 + M7.5)**: ~50,000 deaths, ~300,000 buildings collapsed/severely damaged — exposed widespread non-compliance with prior building codes
+- **2023 Kahramanmaraş twin earthquakes, 6 Feb 2023 — AFAD Mw 7.7 (Pazarcık, 04:17 TSİ) + Mw 7.6 (Elbistan, 13:24 TSİ)**: ~50,000 deaths, ~300,000 buildings collapsed/severely damaged — exposed widespread non-compliance with prior building codes. USGS catalogues the same pair as Mw 7.8 + Mw 7.5; AFAD is the only body legally authorised to publish Türkiye earthquake magnitudes, so quote the AFAD pair ([AFAD Kahramanmaraş Depremleri Ön Değerlendirme Raporu](https://deprem.afad.gov.tr/assets/pdf/Kahramanmaras%20%20Depremleri_%20On%20Degerlendirme%20Raporu.pdf), 2026-08-07 verified)
 - **AFAD seismic hazard map (2018)** publishes site-specific PGA at `https://tdth.afad.gov.tr/` — input coords + soil class
 
 ### Build-era hazards
@@ -368,7 +368,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 | **1998 (DBYBHY-98) post-Marmara prep** | Updated post-Erzincan; still inadequate vs Marmara 1999 reality |
 | **1999 Marmara M7.6** | ~17,000 deaths — code revised 2007 (DBYBHY-2007) |
 | **2007 (DBYBHY-2007)** | Improved but still using 1996 hazard map; widespread non-compliance |
-| **2018 (TBDY-2018, in force 1 Jan 2019)** | Site-specific spectra, modern hazard map, tall-building + base-isolation provisions; **the watershed code** |
+| **2018 (TBDY-2018 — RG 18 Mar 2018 No. 30364 mükerrer, in force 1 Jan 2019)** | Site-specific spectra, modern hazard map, tall-building + base-isolation provisions; **the watershed code** — still the effective baseline, no successor code enacted (re-confirmed on AFAD's own page, 2026-08-07) |
 | **Post-2023 Kahramanmaraş** | Yapı denetim tightening, "kentsel dönüşüm" (urban transformation) acceleration via Law 6306 |
 
 **Practical rule**: pre-1999 buildings in seismic zones = high risk unless visibly güçlendirme (retrofit/strengthening) certified; post-2018 buildings designed to TBDY-2018 are substantially safer (subject to actual construction quality — verify yapı denetim raporu).
@@ -378,7 +378,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 | Document | Required because | Notes |
 |---|---|---|
 | **Tapu Senedi (deed)** | Always — TKGM verifies ownership + encumbrances | Web Tapu allows e-verification |
-| **DASK Poliçesi (earthquake insurance)** | Mandatory for residential — required at deed transfer + utility connection | See cost block below |
+| **DASK Poliçesi (earthquake insurance)** | Mandatory for residential (Zorunlu Deprem Sigortası) — still compulsory, enforced at electricity/water subscription and tapu/konut-kredisi checkpoints (2026-08-07 verified) | See cost block below; 2026 tariff live and ÜFE-indexed monthly |
 | **Yapı Kullanma İzin Belgesi (iskan)** | Confirms building completed + permit-compliant | Older buildings may lack — flag |
 | **Enerji Kimlik Belgesi (EKB)** | Mandatory at sale + rental since **1 Jan 2020** (was scheduled 2 May 2017, postponed) per Enerji Verimliliği Kanunu | 10-year validity; classes A–G |
 | **İmar Durumu Belgesi** | Issued by belediye — confirms zoning + permitted use | Needed if buyer plans extension |
@@ -569,7 +569,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 - **MEDIUM** for parcel-level price benchmarks — TÜİK KFE is province-level only; mahalle-level requires Endeksa or sahibinden cenova haritası lookup per address.
 - **MEDIUM** for STR enforcement — Law 7464 mature but municipal enforcement variance; provisional permit transition (31 Dec 2024) closed but ongoing audit risk.
 
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+**Last verified**: 2026-08-07 (§ --risks re-verified — Kahramanmaraş magnitudes corrected to the AFAD official pair Mw 7.7 + Mw 7.6, TBDY 2018 confirmed as the current code with no successor enacted, DASK compulsory-cover checkpoints confirmed; balance of the 2026-07-03 Tier-A quarterly refresh unchanged).
 
 ## Extension TODOs (deepen on first real run)
 

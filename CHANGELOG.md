@@ -54,6 +54,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- **September wave fully closed — 0 entries left due.** The 9 rejected patch-sets were repaired (68 patches, 8 playbooks) and the last 7 entries settled after up to four audit rounds, four of them as **honest downgrades** that withdraw an unsourced limb and mark it `data not publicly available` rather than assert it (ES Madrid PEH 2→3, ID 3→4, EG 1→3). Also caught round-3 agents **writing refuted drafts straight into the repo**: two entries were reverted and all 8 playbooks rebuilt from a clean base so only audited patches ship.
+
 - **The 49 September corrections propagated into 29 country playbooks (195 patches), and 11 of the 18 rejected entries re-drafted.** Each patch was derived only from the already-audited regulatory-watch entry — no new research — then adversarially checked for faithfulness: **9 patch-sets were rejected** for asserting figures the entry did not support. Re-drafts faced a second refuter that killed 6 more; 1 abstained. Also caught 5 playbooks whose footer said "balance unchanged" while other sections had changed the same day.
 
 - **September revisit wave run early — 126 entries re-verified, 49 grounded corrections.** 189-agent fleet, one grounded verifier per entry then an independent refuter on every claimed change: 49 confirmed (12 Tier-1), 59 re-confirmed unchanged, **14 proposed changes killed by the adversarial pass**, 4 unverifiable. Tier-1 catches: **CN non-local purchase thresholds** (3 of 4 city figures wrong), **VN land/housing laws in force 1 Aug 2024 not 2025**, **ZA Expropriation Act still NOT in force**. Tier-1 cadence corrected 30d → 90d to match the file's own quarterly schedule.
