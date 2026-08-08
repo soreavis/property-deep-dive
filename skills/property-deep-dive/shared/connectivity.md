@@ -335,7 +335,7 @@ This table is the source of truth for the `--connectivity` Starlink-status field
 **Calendar-actionable triggers** (re-stamp `shared/connectivity.md` on these dates):
 
 - **2026-04-01**: TR 5G launched ✅ (BTK; state ceremony 31 Mar, all 81 provincial centres, all 3 operators)
-- **2026-09-11**: VN Hague Apostille in force (Starlink telecom licence already GRANTED Feb 2026 per PM Decision 659/QD-TTg pilot — remaining open item is the commercial launch date, expected mid-2026)
+- **2026-09-11**: VN Hague Apostille IN FORCE (except vs Germany/Austria/Czechia, which objected under Art. 12(2) — consular chain persists for those three) (Starlink telecom licence already GRANTED Feb 2026 per PM Decision 659/QD-TTg pilot — remaining open item is the commercial launch date, expected mid-2026)
 - **End-2026**: TH Apostille deposit expected (per Apr 2026 prediction); IS 100% rural FTTH target
 - **2026-2027**: ZA Starlink legal launch est. window if BEE-equity workaround agreed
 - **Quarterly**: re-verify SA / MA / EG / IN / KR / IL / RU-banned-status / CN-banned-status

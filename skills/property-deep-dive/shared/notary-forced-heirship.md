@@ -507,7 +507,7 @@ HIGH for AU/CA/NZ/US/ZA/MU where regulators publish primary statute in English (
 - `--home-tax` (buyer-nationality tax overlay) — IHT exposure under buyer's home law (UK FA 2025 IHT residence-based via 10/20 LTR test + estate tax DTTs; FR succession exit tax PLF 2026; DE ErbStG 5 estate-tax DTTs; US OBBBA $15M estate exemption permanent from 2026; SG/HK/MY territorial)
 - `--visa` (residency status determines applicable succession-law forum) — particularly Brussels IV professio juris based on testator's nationality
 - `--remote` (POA / RON / e-conveyancing for will signing) — when notarised testament authentique can be executed remotely
-- `--language` (apostille / sworn-translator for foreign wills) — documents-courier chain for cross-border will recognition + Hague Apostille Convention status (VN in force 11 Sept 2026, TH approved Dec 2025, AE non-member, SA in force 7 Dec 2022)
+- `--language` (apostille / sworn-translator for foreign wills) — documents-courier chain for cross-border will recognition + Hague Apostille Convention status (VN in force since 11 Sept 2026 except vs DE / AT / CZ, TH approved Dec 2025, AE non-member, SA in force 7 Dec 2022)
 - `--permits` (foreign-buyer property-purchase rules) — succession planning is moot if foreign buyer cannot acquire property at all (AU established-dwelling ban, CA non-Canadian Act, NZ partial reopen, MV freehold ban, SA Mecca/Medina restriction)
 - `--scams` (transaction-fraud register) — succession-fraud variants (forged wills, undue influence, sham marriages near death) are jurisdiction-specific
 
