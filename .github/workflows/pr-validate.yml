@@ -236,16 +236,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
 
-      - name: Scan for the canonical worked-example personal address
-        run: |
-          set -euo pipefail
-          # The skill's worked example uses placeholder addresses — this guard
-          # catches accidental commits of the maintainer's real test address.
-          if grep -rniE 'REDACTED-ADDRESS' --include='*.md' . | grep -v 'placeholder\|example\|generic'; then
-            echo "::error::Found a private worked-example address. Use placeholder addresses (CONTRIBUTING.md § Privacy + repo hygiene)."
-            exit 1
-          fi
-          echo "✅ No personal-data leak detected."
+      # The previous version of this step grepped for the maintainer's real
+      # worked-example address as a plaintext literal, which published it on a
+      # public repo inside the guard meant to keep it out — and the fork copied
+      # it. Values are matched by hash now, and the scan covers machine paths,
+      # personal mail and secret shapes rather than one address.
+      - name: Scan for private data
+        run: python3 scripts/check-hygiene.py
 
   section-completeness:
     name: Country playbook — minimum density + key sections
@@ -467,3 +464,4 @@ jobs:
 
           echo "Version changed ${base_ver:-<none>} -> ${head_ver}; validating against CalVer rules…"
           python3 scripts/next-version.py --check "$head_ver" --base "${base_ver:-}"
+

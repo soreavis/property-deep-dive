@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Refuse to push private data. CI catches it too, but by then the objects are
+# already on a public remote and taking them back costs a history rewrite that
+# every clone and fork has to follow. Enable once per clone:
+#   git config core.hooksPath .githooks
+set -euo pipefail
+root="$(git rev-parse --show-toplevel)"
+python3 "$root/scripts/check-hygiene.py"
