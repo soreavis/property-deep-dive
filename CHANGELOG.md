@@ -76,6 +76,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - docs: one shape for every code example ([#371](https://github.com/soreavis/property-deep-dive/pull/371)) — by @soreavis
 
+- fix(ec): armed conflict is Decreto 111, not 110; homicide peak is 2025 ([#372](https://github.com/soreavis/property-deep-dive/pull/372)) — by @soreavis
+
 ### Added
 
 - **The skill now installs on Codex, Cursor, Gemini CLI, Grok, Copilot and any agentskills.io runtime, not just Claude.** One skill tree, eight thin manifests, all pinned to the same CalVer release — `next-version.py --write` rewrites every manifest and a new `Platform manifests in lockstep + spec-valid` gate fails CI on drift. It caught a live bug: the `SKILL.md` description was **1,230 chars against the spec's 1,024 cap**, and over-cap skills are *silently dropped* from a loader's list with no warning (github/copilot-cli#3494) — those lanes would have installed and done nothing.
