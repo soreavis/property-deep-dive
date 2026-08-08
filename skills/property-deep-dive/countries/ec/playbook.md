@@ -218,7 +218,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 - **Tsunami**: full Pacific coast (Esmeraldas, Manabí, Santa Elena, Guayas, El Oro) + Galápagos; INOCAR tsunami-warning system. Coastal evacuation routes mapped post-2016
 - **Flooding (inundación)**: catastrophic during **El Niño** events (2023 + 2024 coastal floods, 1997-98 historical); **Andean rivers** flash-flood; Guayas basin lowlands recurring
 - **Landslides (deslizamientos / movimientos en masa)**: ubiquitous Andean Sierra; Quito's Pichincha slopes (laderas) have major slide history (La Comuna, La Gasca + 2022 Quito slide event); also Cuenca + Loja steep parcels
-- **Crime + security** (CRITICAL 2024–2026 context): **Decreto Ejecutivo 110 (Jan 2024)** declared **internal armed conflict (conflicto armado interno)** against narco-gangs ("grupos delictivos organizados — GDO"). Acute violent-crime spikes in **Guayaquil**, **Esmeraldas**, **Manta**, **Quevedo**, **Durán**, **Machala**; comparatively safer: Cuenca, Quito (most barrios), Loja, sierra centro. **Plan Phoenix** + military-police joint operations ongoing; situation evolving — *verify current state* at [Ministerio del Interior](https://www.ministeriodelinterior.gob.ec/plan-fenix-se-ejecuta-en-el-ecuador/) + travel advisories (US Dept of State, UK FCDO) before any coastal purchase
+- **Crime + security** (CRITICAL 2024–2026 context): **Decreto Ejecutivo 110 (8 Jan 2024)** declared the **estado de excepción** for grave conmoción interna — it was **Decreto Ejecutivo 111 (9 Jan 2024)** that amended 110 to recognise the **internal armed conflict (conflicto armado interno)** against narco-gangs ("grupos delictivos organizados — GDO"): *"Refórmese el Decreto Ejecutivo No. 110 de 08 de enero de 2024, al reconocer la existencia de un conflicto armado interno"* ([Suplemento al Registro Oficial No. 474, 10 Jan 2024](https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-474)). From Apr 2024 the states of exception instead cite **Decreto Ejecutivo 218 of 7 Apr 2024** as the decree contemplating the conflicto armado interno ([Sexto Suplemento al Registro Oficial No. 716](https://www.registroficial.gob.ec/sexto-suplemento-al-registro-oficial-no-716)) — cite **111** for the January 2024 declaration, **218** for anything dated after 7 Apr 2024. Acute violent-crime spikes in **Guayaquil**, **Esmeraldas**, **Manta**, **Quevedo**, **Durán**, **Machala**; comparatively safer: Cuenca, Quito (most barrios), Loja, sierra centro. **Plan Fénix** (not "Plan Phoenix") + military-police joint operations ongoing; situation evolving — *verify current state* at [Ministerio del Interior — Noticias](https://www.ministeriodelinterior.gob.ec/category/noticias/) + travel advisories (US Dept of State, UK FCDO) before any coastal purchase. The Plan Fénix page cited here previously is [Boletín N° 006 of 13 Dec 2023](https://www.ministeriodelinterior.gob.ec/plan-fenix-se-ejecuta-en-el-ecuador/) — it predates both decrees and is not a current-state source (2026-08-08 re-verified against registroficial.gob.ec)
 - **Climate change** (per [INAMHI](https://www.inamhi.gob.ec/) + IPCC AR6): +1.5–3.0 °C by 2100; intensifying El Niño / La Niña amplitude; **Galápagos** rising sea-temperature stressing endemic biodiversity + coral; **glacier retreat** (Cotopaxi, Antisana, Cayambe, Chimborazo glaciers losing mass — water-supply implications for Quito + Sierra cities)
 
 ### Build-era hazards
@@ -289,12 +289,12 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 - **Ministerio del Interior + Policía Nacional**: [`https://www.ministeriodelinterior.gob.ec/`](https://www.ministeriodelinterior.gob.ec/) — annual *Informes de Seguridad Ciudadana* + monthly homicide stats
 - **INEC — Estadísticas de Seguridad y Justicia**: [`https://www.ecuadorencifras.gob.ec/`](https://www.ecuadorencifras.gob.ec/) series
 
-### Headline (2023–2024)
+### Headline (2023–2025)
 
-- **National homicide rate 2023: ~46.5 per 100,000** ([Min Interior](https://www.ministeriodelinterior.gob.ec/) — historic peak; up from <6 in 2017; est. — rate not tabulated on the cited page, verify at INEC / Min Interior security statistics); **2024: ~38** with Decreto 110 measures partial cooling but still among the highest in LATAM
+- **National homicide rate — the historic peak is 2025, NOT 2023**: **9,216 intentional homicides in 2025 → ~50.9 per 100,000**, the highest in the country's recorded history. Count from the Ministerio del Interior; rate computed by [Primicias](https://www.primicias.ec/seguridad/ecuador-homicidios-asesinatos-violencia-crimen-organizado-2025-114304) on the INEC 2025 population projection of 18,103,660. The PADF observatory [OECO](https://oeco.padf.org/homicidios2025) publishes **50.1** on a different denominator — the 9,216 count is corroborated by both plus [CNN Español](https://cnnespanol.cnn.com/2026/01/21/latinoamerica/ecuador-2025-anio-mas-violento-homicidios-orix) citing the same ministry report, so the count is firm and the rate moves with the population projection used. Same series: **2023: 47.25** (the prior peak — supersedes the unsourced ~46.5 carried here before) · **2024: 38.80**, the partial cooling under the Decreto 111 measures now fully reversed; 2017 pre-crisis baseline <6 (est. — not re-verified this pass). ⚠️ These are **secondary sources**: the Ministerio del Interior publishes the counts but **does not tabulate the rate** on its public pages — verify at [Min Interior](https://www.ministeriodelinterior.gob.ec/) / INEC before relying on the rate (2026-08-08 verified)
 - **Hotspots 2024**: Esmeraldas (~80–100/100k), Manta (~70), Durán (~60), Guayaquil (~50), Quevedo (~45)
 - **Lower zones**: Cuenca (~5–10), Loja (~5), Quito Mariscal/Cumbayá ~10–20 (varies sub-barrio), Galápagos near-zero
-- **Internal armed conflict** (Decreto 110, Jan 2024) escalated military involvement; 22 grupos delictivos organizados (GDO) declared *terroristas* — ongoing operations
+- **Internal armed conflict** (Decreto Ejecutivo 111, 9 Jan 2024, amending DE 110 of 8 Jan 2024) escalated military involvement; 22 grupos delictivos organizados (GDO) declared *terroristas* — ongoing operations
 
 ### Verdict bands
 
@@ -617,7 +617,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 ### Trend drivers (2024–2026)
 
-- **Internal armed conflict** (Decreto 110, Jan 2024) — ongoing security operations; tourism + real estate volume hit hard in coastal cantones; sierra cities + Cuenca more resilient
+- **Internal armed conflict** (Decreto Ejecutivo 111, 9 Jan 2024) — ongoing security operations; tourism + real estate volume hit hard in coastal cantones; sierra cities + Cuenca more resilient
 - **2024 power crisis** (worst drought in 60 yr) — material productivity drag Sep–Dec 2024; thermal-import contingency 2025
 - **Noboa government** (2023–): fiscal-reform agenda + IMF programme; **Asamblea fragmentation** elevates legislative risk
 - **2025 elections** + post-election regulatory continuity question
@@ -754,7 +754,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 - **2024 IVA 15 %** (Decreto Ejecutivo 198/2024, raised from 12 %, security funding, eff 1 Apr 2024) — verify revert in 2026 budget
 - **0 % CGT after 1-year hold** (UNIQUE LATAM exemption for habitual residence, Ley Orgánica Reforma Tributaria)
 - **ISD 5 %** on outbound transfers — material for non-resident repatriation
-- **2024 internal armed conflict** (Decreto 110) — coastal security crisis material for Esmeraldas / Manabí / Guayas / El Oro / Los Ríos cantones; sierra centro relatively safer
+- **2024 internal armed conflict** (Decreto Ejecutivo 111) — coastal security crisis material for Esmeraldas / Manabí / Guayas / El Oro / Los Ríos cantones; sierra centro relatively safer
 - **2024 power-grid drought crisis** — backup capacity (solar + inverter) advisable in Sierra
 - **Cotopaxi active-phase 2024–26** — verify lahar-corridor zoning for valles Latacunga / Salcedo / Chillos / Cumbayá
 - **NEC-15 seismic code** mandatory; pre-2000 stock requires retrofit assessment
@@ -828,7 +828,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (IVA 15% per Decreto Ejecutivo 198/2024 + Ley Orgánica Reforma Tributaria; CGT short-term test reduced 5y → 1y; Visa de Inversionista USD 47,000 (100×SBU 470); USD-dollarised currency since 2000; SRI tax-residency tests; Visa 10-II + Visa 11-VI investor / pensionado routes). MEDIUM on parcel-level municipal predial assessment values, current blackout duration (national hydropower-deficit-driven, oscillating 8–14 hr through 2025–2026 dry seasons — verify with CENACE at point of analysis), and STR municipal-level rules (no national statute; Quito + Cuenca + Galápagos varying). LOW on residential price benchmarks (no national HPI; aggregator listings + Numbeo + Properstar with broker bias).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-08-08 (crime + security section only — armed-conflict decree corrected to DE 111 of 9 Jan 2024 against Suplemento al Registro Oficial No. 474, DE 218 of 7 Apr 2024 added as the post-April basis, homicide series re-based to the 2025 peak; balance of the 2026-05-27 pass unchanged)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
