@@ -276,6 +276,84 @@ class TestNearestLinkAttribution(unittest.TestCase):
         self.assertFalse(any(v.salient for v in per[1]))
 
 
+class TestPointerLinks(unittest.TestCase):
+    """"Verify at <authority>" clauses point AT a source to say the figure is not published
+    there — a token-presence check on that page can only come back absent (2026-08 FP class,
+    120 of 1,059 claims)."""
+
+    def _is_pointer(self, line, which=0):
+        links = list(SV.MD_LINK_RE.finditer(line))
+        lm = links[which]
+        return SV.is_pointer_link(line, lm.start(), links[which - 1].end() if which else 0)
+
+    def test_plain_verify_at(self):
+        self.assertTrue(self._is_pointer(
+            "no national heritage authority was primary-verified — verify at "
+            "[gov.bw](https://www.gov.bw/) before assuming any constraint"))
+
+    def test_verify_with_intervening_clause_then_at(self):
+        self.assertTrue(self._is_pointer(
+            "the limitation period is NOT stated — verify with a conveyancing attorney / at "
+            "[gov.bw](https://www.gov.bw/)"))
+
+    def test_confirm_and_check_and_cross_check(self):
+        for verb in ("confirm exact fee at", "check the current band at", "Cross-check the text at"):
+            with self.subTest(verb=verb):
+                self.assertTrue(self._is_pointer(f"stamp duty ~10 % — {verb} [gov](https://gov.example/x)"))
+
+    def test_code_span_wrapper_does_not_hide_the_pointer(self):
+        self.assertTrue(self._is_pointer(
+            "**`Verify the launch + threshold at`** [gov.bw](https://www.gov.bw/) / the Act"))
+
+    def test_pointer_language_after_the_link_is_not_a_pointer(self):
+        # the citation comes first and carries the figure; "verify at INEC" trails it
+        self.assertFalse(self._is_pointer(
+            "rate **47.25 per 100,000** ([Min Interior](https://www.interior.example/)) — "
+            "not tabulated on the cited page, verify at INEC"))
+
+    def test_past_tense_is_not_a_pointer(self):
+        self.assertFalse(self._is_pointer(
+            "the rate was confirmed at **15 %** by [SRI](https://www.sri.example/iva)"))
+
+    def test_sentence_boundary_stops_the_match(self):
+        self.assertFalse(self._is_pointer(
+            "verify the band with the registry. The rate is **5 %** ([law](https://gov.example/act))"))
+
+    def test_preceding_link_stops_the_match(self):
+        # "verify at" belongs to the FIRST link's clause, not the second's
+        line = ("verify at [registry](https://gov.example/reg); transfer tax **7 %** "
+                "([tax office](https://gov.example/tax))")
+        self.assertTrue(self._is_pointer(line, 0))
+        self.assertFalse(self._is_pointer(line, 1))
+
+
+class TestPointerLinkCorpusEffect(unittest.TestCase):
+    def test_no_surviving_claim_is_a_pointer(self):
+        sv, allow = SV.load_sv_config(), SV.load_allowlist()
+        skipped: dict = {}
+        claims = SV.extract_claims(sv, allow, True, skipped=skipped)
+        self.assertGreater(skipped["pointer_link"], 0, "corpus should contain verify-at pointers")
+
+        lines_by_scope = {}
+        for p in SV.iter_md_files(sv.scope_dirs, sv.skip_files):
+            lines_by_scope[SV._scope_for(p)] = p.read_text(encoding="utf-8").splitlines()
+
+        offenders = []
+        for c in claims:
+            line = lines_by_scope[c.scope][c.line_no - 1]
+            links = list(SV.MD_LINK_RE.finditer(line))
+            verdicts = [
+                SV.is_pointer_link(line, lm.start(), links[i - 1].end() if i else 0)
+                for i, lm in enumerate(links)
+                if lm.group("url").rstrip(".,;:)") == c.source_url
+            ]
+            # a surviving claim needs at least ONE non-pointer link to that url on the line;
+            # ky:5 points at gov.ky twice and then cites it for real, and the claim is legitimate
+            if verdicts and all(verdicts):
+                offenders.append(f"{c.scope}:{c.line_no} → {c.source_url}")
+        self.assertEqual(offenders, [], f"pointer links leaked into the claim set: {offenders[:5]}")
+
+
 class TestExcerptsAndPrior(unittest.TestCase):
     def test_find_excerpts_hits(self):
         text = "The applicable rate is 6.32 % for most departments under the 2025 finance law."

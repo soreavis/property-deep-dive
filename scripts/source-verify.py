@@ -7,7 +7,9 @@ see skills/property-deep-dive/shared/source-verifier.md). This script:
   * EXTRACTS verifiable claim↔citation pairs from the corpus — a markdown link to a
     PRIMARY source (gov-suffix or scripts/primary-source-allowlist.txt) whose surrounding
     sentence carries >=1 SALIENT value token (percentage / money / statute / specific date;
-    a bare year does not count). Roster/navigation links carrying no number are filtered out.
+    a bare year does not count). Roster/navigation links carrying no number are filtered out, as
+    are "verify at <authority>" pointers — a clause whose whole point is that the figure is NOT
+    published there can only ever score TOKENS_ABSENT.
   * SCORES + SAMPLES claims fetch-free (stale-marker > never-verified > oldest-stamp) so the
     expensive LLM layer sees a cost-bounded worklist, and the network touches only the sample.
   * FETCHES each cited page using url-liveness.py's polite-fetch primitives (robots.txt,
@@ -97,6 +99,22 @@ STAMP_RE = re.compile(r"\((\d{4}-\d{2}-\d{2})\s+(re-verified|verified|stale-mark
 # The tracker's own "as of YYYY-MM-DD" freshness stamps — the same self-referential class as
 # STAMP_RE's "(YYYY-MM-DD verified" form.
 ASOF_STAMP_RE = re.compile(r"\b(?:as of|checked|re-checked)\s+(\d{4}-\d{2}-\d{2})\b", re.IGNORECASE)
+
+
+# A "verify at <authority>" pointer: the clause exists to say the figure is NOT published at the
+# link, so a token-presence check on that page can only ever come back absent. Anchored on the text
+# immediately BEFORE the link — "…rate not tabulated on the cited page, verify at INEC" AFTER a real
+# citation must not disarm it. Stops at a sentence boundary or a preceding link's `]` so the keyword
+# has to belong to this link's own clause (2026-08 TOKENS_ABSENT FP class: 122 of 1,059 claims,
+# 3 of the 6 distinct claims flagged in the 2026-08-07 run).
+POINTER_LINK_RE = re.compile(
+    r"(?i)\b(?:verify|confirm|check|cross-check)\b[^.;\]]{0,60}?\b(?:at|with|via)\b[\s`*/—–-]*$"
+)
+
+
+def is_pointer_link(line: str, link_start: int, prev_link_end: int) -> bool:
+    """True when the link is a "verify at <authority>" pointer rather than a citation."""
+    return bool(POINTER_LINK_RE.search(line[prev_link_end:link_start]))
 
 
 def mask_inline_stamps(line: str) -> str:
@@ -427,9 +445,11 @@ def extract_claims(
     primary_only: bool,
     only_scope: str | None = None,
     only_section: str | None = None,
+    skipped: dict[str, int] | None = None,
 ) -> list[ClaimRecord]:
     claims: list[ClaimRecord] = []
     seen_ids: set[str] = set()   # collapse a line that links the same primary URL twice → identical id
+    seen_pointers: set[str] = set()   # same collapse for the pointer counter — one id, one skip
     for path in iter_md_files(sv.scope_dirs, sv.skip_files):
         scope = _scope_for(path)
         if only_scope and scope != only_scope and not scope.endswith(f"/{only_scope}"):
@@ -460,7 +480,7 @@ def extract_claims(
                 stamp = {"date": sm.group(1), "kind": sm.group(2).lower().replace("re-verified", "verified")}
             links = list(MD_LINK_RE.finditer(line))
             per_link = attribute_values(values, [lm.span() for lm in links])
-            for lm, link_values in zip(links, per_link):
+            for i, (lm, link_values) in enumerate(zip(links, per_link)):
                 url = lm.group("url").rstrip(".,;:)")
                 host = urlparse(url).netloc
                 tier = source_tier(host, allowlist)
@@ -470,10 +490,18 @@ def extract_claims(
                 # co-citation — its sibling's figures are not its to substantiate
                 if len(links) > 1 and not any(v.salient for v in link_values):
                     continue
-                claim_text = _claim_sentence(line, lm.start(), sv.claim_window)
                 cid = f"{scope}:{line_no}:{hashlib.sha1(url.encode()).hexdigest()[:8]}"
                 if cid in seen_ids:
                     continue
+                # a "verify at <authority>" pointer asserts the figure is NOT on that page. Checked
+                # last, so the counter reports links actually removed from the claim set rather than
+                # ones the tier/roster/dedup filters had already excluded. The cid is deliberately
+                # NOT marked seen: a line that points at a URL and later cites it for real keeps the
+                # real citation.
+                if is_pointer_link(line, lm.start(), links[i - 1].end() if i else 0):
+                    seen_pointers.add(cid)
+                    continue
+                claim_text = _claim_sentence(line, lm.start(), sv.claim_window)
                 seen_ids.add(cid)
                 claims.append(ClaimRecord(
                     id=cid, scope=scope, section=section or "(none)", line_no=line_no,
@@ -483,6 +511,10 @@ def extract_claims(
                     source_tier=tier or "secondary",
                     inline_stamp=stamp,
                 ))
+    if skipped is not None:
+        # ids only — a line that points at a URL *and* cites it for real keeps the real claim,
+        # so that id is not a removal
+        skipped["pointer_link"] = len(seen_pointers - seen_ids)
     return claims
 
 
@@ -1066,9 +1098,12 @@ def main() -> int:
     allowlist = load_allowlist()
     primary_only = sv.primary_only and not args.include_secondary
 
-    claims = extract_claims(sv, allowlist, primary_only, only_scope=args.country, only_section=args.section)
+    skipped: dict[str, int] = {}
+    claims = extract_claims(sv, allowlist, primary_only,
+                            only_scope=args.country, only_section=args.section, skipped=skipped)
     sys.stderr.write(f"[source-verify] extracted {len(claims)} claim↔citation pairs"
-                     f" ({'primary-only' if primary_only else 'incl. secondary'})\n")
+                     f" ({'primary-only' if primary_only else 'incl. secondary'});"
+                     f" skipped {skipped.get('pointer_link', 0)} verify-at pointers\n")
 
     if args.extract:
         by_scope: dict[str, int] = {}
@@ -1078,6 +1113,7 @@ def main() -> int:
             by_tier[c.source_tier] = by_tier.get(c.source_tier, 0) + 1
         print(json.dumps({
             "total_claims": len(claims),
+            "skipped_pointer_links": skipped.get("pointer_link", 0),
             "scopes_covered": len(by_scope),
             "by_tier": by_tier,
             "top_scopes": dict(sorted(by_scope.items(), key=lambda x: -x[1])[:15]),
