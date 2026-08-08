@@ -54,6 +54,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- **The source audit stops flagging "verify at &lt;authority&gt;" pointers — 120 of 1,059 claims.** A clause that exists to say the figure is *not* published at that link can only ever score `TOKENS_ABSENT`; 3 of the 6 distinct claims flagged on 2026-08-07 were this class. The test is anchored on the text immediately *before* the link, so a real citation trailed by "verify at INEC" still counts. Those URLs stay under `url-liveness` (8,380-URL scope) — the check that actually applies to them. `--extract` now reports `skipped_pointer_links`.
+
 - **Ecuador's internal armed conflict was declared by Decreto Ejecutivo 111, not 110 — corrected in four places.** DE 110 (8 Jan 2024) declared the *estado de excepción*; DE 111 (9 Jan 2024) amended it to recognise the *conflicto armado interno* (Suplemento al Registro Oficial No. 474), and states of exception from Apr 2024 cite DE 218 of 7 Apr 2024 instead. Also re-based the homicide series: **2025 is the historic peak at 9,216 killings / ~50.9 per 100k**, not 2023 — which the playbook called the peak on an unsourced ~46.5, then stopped at 2024.
 
 - **Source-audit triage — 10 of 12 flagged rows confirmed, 2 were real errors.** KZ social tax verified verbatim against the State Revenue Committee page (6 % from 2026, agri 1.8 %, ИП 2/1 MCI, крестьянские 0.6/0.3, special-regime users exempt); the three `gov.bw` rows are *pointer* links and gov.bw still carries no CBI notice, which is exactly what they assert. Half the flagged set were verify-at pointers whose figure can never sit on the cited page — a false-positive class worth filtering in the extractor.
