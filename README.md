@@ -1,10 +1,8 @@
 <p align="center">
   <img src="docs/assets/france-panorama.webp" alt="Panoramic stretch of French countryside with a medieval town on a river under soft afternoon cloud cover" width="100%">
-  <br>
-  <sub><em>France, somewhere on the shuttle.</em></sub>
 </p>
 
-# property-deep-dive
+# Property Deep Dive
 
 [![Release](https://img.shields.io/github/v/release/soreavis/property-deep-dive?label=release&sort=semver)](https://github.com/soreavis/property-deep-dive/releases)
 [![License: MIT](https://img.shields.io/github/license/soreavis/property-deep-dive)](./LICENSE)

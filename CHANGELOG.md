@@ -54,6 +54,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- **README leads with a proper display title.** The H1 was the package slug `property-deep-dive`, which reads as a directory name rather than a product; it now matches the `displayName` already shipped in the plugin manifests. The hero caption was dropped — it described the photograph rather than the project, which is the first line of prose a visitor reads.
+
 - **September wave fully closed — 0 entries left due.** The 9 rejected patch-sets were repaired (68 patches, 8 playbooks) and the last 7 entries settled after up to four audit rounds, four of them as **honest downgrades** that withdraw an unsourced limb and mark it `data not publicly available` rather than assert it (ES Madrid PEH 2→3, ID 3→4, EG 1→3). Also caught round-3 agents **writing refuted drafts straight into the repo**: two entries were reverted and all 8 playbooks rebuilt from a clean base so only audited patches ship.
 
 - **The 49 September corrections propagated into 29 country playbooks (195 patches), and 11 of the 18 rejected entries re-drafted.** Each patch was derived only from the already-audited regulatory-watch entry — no new research — then adversarially checked for faithfulness: **9 patch-sets were rejected** for asserting figures the entry did not support. Re-drafts faced a second refuter that killed 6 more; 1 abstained. Also caught 5 playbooks whose footer said "balance unchanged" while other sections had changed the same day.
