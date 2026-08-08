@@ -30,9 +30,8 @@ brew install tesseract tesseract-lang
 
 # run on a single image
 tesseract listing-photo-01.jpg output -l fra+ita+eng
-# → output.txt with extracted text
 
-# improve accuracy with image preprocessing
+# → output.txt with extracted text improve accuracy with image preprocessing
 convert listing-photo-01.jpg -threshold 60% -density 300 cleaned.png
 tesseract cleaned.png output -l fra+ita+eng
 ```
@@ -64,18 +63,13 @@ For property due-diligence:
 #!/usr/bin/env bash
 # photo-ocr-pipeline.sh — one-shot pipeline for a listing
 # Usage: ./photo-ocr-pipeline.sh <listing-url> [output-dir]
-
 set -euo pipefail
 
 LISTING_URL="${1:?usage: $0 <listing-url> [output-dir]}"
 OUT_DIR="${2:-./photo-ocr-output}"
 mkdir -p "$OUT_DIR"
 
-# Step 1: extract photo URLs from listing
-# (use the per-portal extraction prompt from `shared/preflight.md`)
-# pseudo: yields photos.txt with one URL per line
-
-# Step 2: download photos
+# Step 1: extract photo URLs from listing (use the per-portal extraction prompt from `shared/preflight.md`) pseudo: yields photos.txt with one URL per line Step 2: download photos
 mkdir -p "$OUT_DIR/raw"
 n=0
 while IFS= read -r url; do
@@ -90,8 +84,10 @@ exiftool -j "$OUT_DIR/raw/" > "$OUT_DIR/exif.json"
 mkdir -p "$OUT_DIR/ocr"
 for img in "$OUT_DIR/raw"/*.jpg; do
     base=$(basename "$img" .jpg)
+
     # preprocess for better OCR
     convert "$img" -threshold 60% -density 300 "$OUT_DIR/ocr/$base-clean.png"
+
     # run Tesseract
     tesseract "$OUT_DIR/ocr/$base-clean.png" "$OUT_DIR/ocr/$base" -l fra+ita+eng+spa+deu
 done

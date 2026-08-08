@@ -54,6 +54,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- **Code examples follow one shape repo-wide.** Each block now opens with a one-line comment, the commands sit directly under it, and a blank line separates each group. Trailing comments past the command were the first thing a narrow viewport cut off, so the reason for a flag was lost while the flag survived.
+
 - **Maintenance examples put each comment on its own line above its command.** Trailing comments sat past column 50, so the explanation was the first thing cut off on a narrow viewport or a phone — the reader kept the flags and lost the reason for them.
 
 - **README leads with a proper display title.** The H1 was the package slug `property-deep-dive`, which reads as a directory name rather than a product; it now matches the `displayName` already shipped in the plugin manifests. The hero caption was dropped — it described the photograph rather than the project, which is the first line of prose a visitor reads.

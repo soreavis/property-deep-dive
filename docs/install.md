@@ -68,6 +68,7 @@ The plugin manifest pins to a CalVer release. To update:
 
 ### Manual symlink
 ```bash
+# Update an existing clone in place
 cd ~/code/property-deep-dive
 git pull
 ```
@@ -83,7 +84,9 @@ The symlink stays in place; updates are visible to Claude Code immediately.
 
 ### Manual symlink
 ```bash
+# Remove the symlink — this does not touch your clone
 rm ~/.claude/skills/property-deep-dive
+
 # Optionally also remove the cloned source:
 rm -rf ~/code/property-deep-dive
 ```
@@ -95,6 +98,7 @@ The skill leaves no other artefacts on your system.
 If you'd rather pin to a tagged release than `main`:
 
 ```bash
+# Pull the latest release into an existing clone
 cd ~/code/property-deep-dive
 git fetch --tags
 git checkout 2026.08.0     # or any later tag — see CHANGELOG.md
@@ -107,6 +111,7 @@ Tags follow CalVer (`YYYY.0M.MICRO`) — see [CHANGELOG.md](../CHANGELOG.md) for
 Releases are sigstore-signed. To verify the tarball:
 
 ```bash
+# Install a pinned release rather than the branch tip
 gh release download 2026.08.0 --repo soreavis/property-deep-dive \
   --pattern 'property-deep-dive-2026.08.0.tar.gz' \
   --pattern 'property-deep-dive-2026.08.0.tar.gz.sigstore'

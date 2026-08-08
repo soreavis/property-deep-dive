@@ -7,6 +7,7 @@ Run these BEFORE any section. Outputs are cached and shared across sections.
 Use Nominatim (works worldwide):
 
 ```bash
+# Geocode the address — Nominatim, one result, addressdetails on
 curl -sL "https://nominatim.openstreetmap.org/search.php?q=<URL-encoded-address>&format=json&addressdetails=1&extratags=1" \
   -H "User-Agent: Claude/1.0"
 ```
@@ -32,6 +33,7 @@ If the result is `osm_type=way` and the address has a street, capture `osm_id` f
 Query OSM Overpass for road tags:
 
 ```bash
+# Query Overpass for amenities within the radius
 curl -s -X POST "https://overpass-api.de/api/interpreter" \
   --data-urlencode "data=[out:json][timeout:25];way(<osm_id>);out tags;" \
   -H "User-Agent: Claude/1.0"
@@ -111,6 +113,7 @@ Cache any hits — they're inputs to risks, tax, rental sections.
 Pre-flight produces a `context` object (mental model for the agent):
 
 ```yaml
+# Resolved preflight output, ready for the section skills
 country_iso2: fr
 admin:
   commune: Adriers

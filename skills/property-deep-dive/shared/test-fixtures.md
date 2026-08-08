@@ -104,6 +104,7 @@ One representative, currently-active property listing per country (44 total) for
 ```bash
 # self-test mode
 /property-deep-dive --update --validate-only --test
+
 # loads each fixture, runs --price + --tax + --risks
 # reports per-country pass/fail
 # logs to _local/reports/test-fixtures-<date>.md

@@ -15,6 +15,7 @@ For a given property + buyer profile, return:
 ## Inputs
 
 ```yaml
+# Input shape — one block per country
 country: <ISO2>
 purchase_price: <amount in local currency>
 ownership_type: primary_residence | rental_investment | second_home
@@ -149,6 +150,7 @@ MOVE_BUDGET (one-time, at relocation) =
 ## Worked example: rural Adriers, FR — €145,000 listing
 
 ```yaml
+# France
 country: fr
 purchase_price: 145000
 ownership_type: primary_residence

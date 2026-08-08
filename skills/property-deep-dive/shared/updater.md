@@ -81,6 +81,7 @@ for url in $URLS; do
     -H "User-Agent: Claude-property-deep-dive/1.0" \
     "$url")
   if [ "$status" -ge 400 ] || [ -z "$status" ]; then
+
     # retry with GET (some servers reject HEAD)
     status=$(curl -s -o /dev/null -w "%{http_code}" \
       --max-time 15 -L \
@@ -461,29 +462,39 @@ def update_skill(targets, mode):
 
     if mode == "update":  # default
         for country in targets:
+
             # 1. Validate URLs
             url_results = validate_urls(country)
+
             # 2. Refresh facts
             fact_results = refresh_facts(country)
+
             # 3. Build combined diff
             diff = build_diff(url_results, fact_results)
+
             # 4. Confirm if interactive
             if user_confirms(diff):
+
                 # 5. Backup + apply
                 backup(country)
                 apply_changes(country, diff)
+
                 # 6. Update log
                 append_update_log(country, diff)
         write_summary_report()
 
     if mode == "add":
         country = targets[0]
+
         # 1. Read scaffold
         scaffold = read(f"countries/{country}/playbook.md")
+
         # 2. Run full research
         playbook = research_country_full(country)
+
         # 3. Anti-hallucination check
         validate_anti_hallucination(playbook)
+
         # 4. Write + preserve scaffold
         backup_scaffold(country)
         write(f"countries/{country}/playbook.md", playbook)
