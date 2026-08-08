@@ -184,6 +184,7 @@ Two gates catch almost every first-time contributor. Both are easy to satisfy up
 Keep it to **600 characters** — `CHANGELOG entries stay short` enforces this on `[Unreleased]` only (released sections are historical record and exempt):
 
 ```bash
+# Changelog entries stay within the length budget
 python3 scripts/check-changelog-length.py
 ```
 
@@ -194,6 +195,7 @@ The check is skipped instead if the PR carries any of: `skip changelog`, `docume
 **2. Re-sync the generated doc counts.** Several README figures (file counts, rounded line totals, the country matrix) are generated, and the required-adjacent `Doc sync check` compares them against the tree. If you add or remove files — or move line counts appreciably — run:
 
 ```bash
+# Rewrite the generated blocks
 python3 scripts/sync-docs.py        # rewrite the generated blocks
 python3 scripts/sync-docs.py --check # confirm: "✓ All in sync."
 ```
@@ -201,6 +203,7 @@ python3 scripts/sync-docs.py --check # confirm: "✓ All in sync."
 Commit whatever it rewrites. You can run the other gates locally too:
 
 ```bash
+# Markdown lint
 npx markdownlint-cli2 '**/*.md'     # Markdown lint
 python3 scripts/audit-confidence.py # Confidence vs primary-source URLs
 ```
@@ -214,6 +217,7 @@ python3 scripts/audit-confidence.py # Confidence vs primary-source URLs
 You only intervene to **add or remove a package**, or change a constraint:
 
 ```bash
+# Direct dependencies only — the lock file is generated
 vim requirements.in                        # direct deps only
 ./scripts/lock-requirements.py             # regenerate the hash-pinned lock
 ./scripts/lock-requirements.py --check     # verify it's in sync
@@ -276,6 +280,7 @@ Everything else (formatting, prose polish, structural reorganisation) is welcome
 `0M` is the **calendar month the version belongs to**, and `MICRO` **resets to 0 when the month rolls** (`2026.06.7 → 2026.07.0`). Do not keep bumping last month's namespace into a new month — that's how `plugin.json` once drifted to `2026.05.71` deep into June. **Compute the number, don't reason about it:**
 
 ```sh
+# Prints the correct next version for today
 python3 scripts/next-version.py            # prints the correct next version for today
 python3 scripts/next-version.py --write    # bumps plugin.json to it in place
 ```

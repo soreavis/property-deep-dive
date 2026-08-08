@@ -135,6 +135,7 @@ To install this third-party plugin, follow Cowork's "upload your own plugin" pat
 If you want to hack on the skill locally, clone the repo and symlink **the skill subdirectory** (not the whole repo) into Claude Code's skills directory:
 
 ```bash
+# Clone, then symlink the skill subdirectory — not the repo root
 git clone https://github.com/soreavis/property-deep-dive ~/code/property-deep-dive
 
 # Symlink the skill subdirectory — Claude Code expects SKILL.md at the symlink's root

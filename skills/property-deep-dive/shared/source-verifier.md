@@ -101,6 +101,7 @@ Verdict definitions:
 The Python harness can't run the LLM step (no FS access inside Workflow scripts). Rather than pass the worklist through `args` (large, and `args` arrives JSON-**stringified** — `args.count` reads as `undefined` and the fan-out silently runs zero agents), each agent **reads its own item from the worklist file by index**. Run in **throttled sequential batches of 8** — at the default ~16-wide concurrency the later-launched agents reliably fail with *"completed without calling StructuredOutput"* under load; batches of 8 eliminate it (proven on the 2026-06-02 corpus run: 24/40 failed at 16-wide, 0/24 failed at 8-wide).
 
 ```js
+// Workflow metadata — phases must match the phase() calls below
 export const meta = {
   name: 'verify-sources',
   description: 'Compare each playbook claim against its cited primary source; quote-or-abstain verdicts for human review',
@@ -147,6 +148,7 @@ For `SOURCE_BINARY` / `SOURCE_UNAVAILABLE` items, the agent `WebFetch`es the URL
 `--audit` is the cheap half — it runs the whole pipeline **without any model** and emits a triage report. It is the payload of the monthly `source-verify.yml` cron and costs **$0** (public-repo runner, ~3–4 min cold / ~2 min warm over the 706 cited URLs).
 
 ```bash
+# Corpus-wide audit — writes to _local/source-verify/
 python3 scripts/source-verify.py --audit            # corpus-wide; writes _local/source-verify/audit/report.md
 python3 scripts/source-verify.py --audit --ci       # CI: writes _ci/source-verify/ + GITHUB_OUTPUT
 ```

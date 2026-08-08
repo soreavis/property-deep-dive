@@ -80,6 +80,7 @@ For a watched listing URL, return:
 Pair with `/schedule` for automation:
 
 ```bash
+# Run the watchlist every morning
 /schedule daily 09:00: /property-deep-dive --watchlist-update
 /schedule weekly Mon 09:00: /property-deep-dive --watchlist-update --notify-priority=orange
 ```
@@ -106,7 +107,6 @@ Reuse `shared/listing-aggregators.md` for portal-specific scrape rules:
 #!/usr/bin/env bash
 # listing-watch.sh
 # Usage: ./listing-watch.sh <command> [args]
-
 WATCH_DIR="${HOME}/_local/property-watchlist"
 mkdir -p "$WATCH_DIR"
 
@@ -114,6 +114,7 @@ case "$1" in
     add)
         url="$2"
         id=$(echo -n "$url" | sha256sum | head -c 12)
+
         # fetch initial snapshot via Playwright wrapper or curl
         snapshot=$(./fetch-listing.sh "$url")
         echo "$snapshot" > "$WATCH_DIR/$id.json"

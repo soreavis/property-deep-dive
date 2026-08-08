@@ -83,6 +83,7 @@ Replace `<LAT>` and `<LON>` with the property coordinates from pre-flight.
 Haversine distance from property `(lat₀, lon₀)` to each POI `(lat, lon)`:
 
 ```python
+# Haversine distance from the property to each amenity
 import math
 
 def haversine_km(lat1, lon1, lat2, lon2):

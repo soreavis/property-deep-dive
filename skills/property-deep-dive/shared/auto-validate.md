@@ -151,18 +151,19 @@ When a URL fails 4 consecutive runs:
 ```bash
 # /schedule integration
 /schedule weekly Mon 09:00: /property-deep-dive --update --validate-only
+
 # pings every URL, classifies status, computes per-country score
 # logs to _local/validate-history/<iso2>.jsonl
 # generates _local/reports/property-deep-dive-validate-<date>.md
-
 /schedule monthly 1st 09:00: /property-deep-dive --update --validate-only --notify-changes
-# same but emits notification on score-degradation events
 
+# same but emits notification on score-degradation events
 /schedule quarterly 1st 09:00: /property-deep-dive --update --refresh-only --diff
+
 # pulls fresh data from price-index-feeds.md sources
 # preserves URLs unless dead
-
 /schedule yearly Jan 15: /property-deep-dive --update --interactive
+
 # annual deep refresh; human-in-the-loop confirmation
 ```
 

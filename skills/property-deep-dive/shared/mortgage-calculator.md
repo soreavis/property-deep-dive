@@ -26,6 +26,7 @@ Where:
 ## Inputs
 
 ```yaml
+# Input shape — one block per country
 country: <ISO2>
 purchase_price: <amount in local currency>
 deposit_pct: <0.20 typical resident / 0.30+ non-resident>
@@ -41,6 +42,7 @@ fee_pct: 1.0  # origination fee
 ### Example 1: France resident — €200k apartment in Paris
 
 ```yaml
+# France
 country: fr
 purchase_price: 200000
 deposit_pct: 0.20
@@ -58,6 +60,7 @@ term_years: 25
 ### Example 2: Spain non-resident — €300k Costa Brava
 
 ```yaml
+# Spain
 country: es
 purchase_price: 300000
 deposit_pct: 0.35  # ES non-resident typical
@@ -75,6 +78,7 @@ term_years: 25
 ### Example 3: UK expat — £400k London
 
 ```yaml
+# United Kingdom
 country: uk
 purchase_price: 400000  # GBP
 deposit_pct: 0.30  # UK non-res typical
@@ -91,6 +95,7 @@ term_years: 25
 ### Example 4: Lithuania EU citizen — €180k Vilnius apartment
 
 ```yaml
+# Lithuania
 country: lt
 purchase_price: 180000
 deposit_pct: 0.15
