@@ -54,6 +54,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- **Maintenance examples put each comment on its own line above its command.** Trailing comments sat past column 50, so the explanation was the first thing cut off on a narrow viewport or a phone — the reader kept the flags and lost the reason for them.
+
 - **README leads with a proper display title.** The H1 was the package slug `property-deep-dive`, which reads as a directory name rather than a product; it now matches the `displayName` already shipped in the plugin manifests. The hero caption was dropped — it described the photograph rather than the project, which is the first line of prose a visitor reads.
 
 - **September wave fully closed — 0 entries left due.** The 9 rejected patch-sets were repaired (68 patches, 8 playbooks) and the last 7 entries settled after up to four audit rounds, four of them as **honest downgrades** that withdraw an unsourced limb and mark it `data not publicly available` rather than assert it (ES Madrid PEH 2→3, ID 3→4, EG 1→3). Also caught round-3 agents **writing refuted drafts straight into the repo**: two entries were reverted and all 8 playbooks rebuilt from a clean base so only audited patches ship.

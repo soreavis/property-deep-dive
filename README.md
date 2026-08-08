@@ -299,15 +299,32 @@ Together: a 14-month-old playbook never silently displays "Confidence: HIGH", an
 The skill ships with a maintenance mode (`--update`) and tiered refresh GitHub Actions:
 
 ```
-/property-deep-dive --update                       # full re-research + URL replace (all 126)
-/property-deep-dive --update --validate-only       # URL liveness only (weekly)
-/property-deep-dive --update --refresh-only        # data refresh, no URL check
-/property-deep-dive --update --tier=A              # 16 high-velocity markets (quarterly)
-/property-deep-dive --update --tier=B              # 38 mid-volume markets (semi-annual)
-/property-deep-dive --update --tier=C              # 49 stable/frontier markets (annual)
-/property-deep-dive --update --tier=A --include=ge # force-include a non-canonical country
-/property-deep-dive --update --tier=A --exclude=fr # skip a canonical Tier-A country this cycle
-/property-deep-dive --health-report                # decay matrix per country/section (monthly)
+# Full re-research and URL replacement across all 126 countries
+/property-deep-dive --update
+
+# URL liveness only — no data changes (weekly)
+/property-deep-dive --update --validate-only
+
+# Data refresh without the URL check
+/property-deep-dive --update --refresh-only
+
+# 16 high-velocity markets (quarterly)
+/property-deep-dive --update --tier=A
+
+# 38 mid-volume markets (semi-annual)
+/property-deep-dive --update --tier=B
+
+# 49 stable and frontier markets (annual)
+/property-deep-dive --update --tier=C
+
+# Force-include a country outside the canonical tier
+/property-deep-dive --update --tier=A --include=ge
+
+# Skip a canonical Tier-A country for this cycle
+/property-deep-dive --update --tier=A --exclude=fr
+
+# Decay matrix per country and section (monthly)
+/property-deep-dive --health-report
 ```
 
 Tier membership lives in `config/_tiers.json`. See `skills/property-deep-dive/shared/updater.md` § Refresh tiers for full semantics including auto-promotion via `regulatory-watch.md`.
