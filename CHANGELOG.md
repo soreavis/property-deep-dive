@@ -72,6 +72,14 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - **September revisit wave run early — 126 entries re-verified, 49 grounded corrections.** 189-agent fleet, one grounded verifier per entry then an independent refuter on every claimed change: 49 confirmed (12 Tier-1), 59 re-confirmed unchanged, **14 proposed changes killed by the adversarial pass**, 4 unverifiable. Tier-1 catches: **CN non-local purchase thresholds** (3 of 4 city figures wrong), **VN land/housing laws in force 1 Aug 2024 not 2025**, **ZA Expropriation Act still NOT in force**. Tier-1 cadence corrected 30d → 90d to match the file's own quarterly schedule.
 
+- docs(readme): put each usage comment above its command ([#370](https://github.com/soreavis/property-deep-dive/pull/370)) — by @soreavis
+
+- docs: one shape for every code example ([#371](https://github.com/soreavis/property-deep-dive/pull/371)) — by @soreavis
+
+- fix(ec): armed conflict is Decreto 111, not 110; homicide peak is 2025 ([#372](https://github.com/soreavis/property-deep-dive/pull/372)) — by @soreavis
+
+- fix(source-verify): stop flagging "verify at \<authority>" pointers ([#373](https://github.com/soreavis/property-deep-dive/pull/373)) — by @soreavis
+
 ### Added
 
 - **The skill now installs on Codex, Cursor, Gemini CLI, Grok, Copilot and any agentskills.io runtime, not just Claude.** One skill tree, eight thin manifests, all pinned to the same CalVer release — `next-version.py --write` rewrites every manifest and a new `Platform manifests in lockstep + spec-valid` gate fails CI on drift. It caught a live bug: the `SKILL.md` description was **1,230 chars against the spec's 1,024 cap**, and over-cap skills are *silently dropped* from a loader's list with no warning (github/copilot-cli#3494) — those lanes would have installed and done nothing.
