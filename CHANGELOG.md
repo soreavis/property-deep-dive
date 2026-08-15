@@ -54,6 +54,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- **One EP report stops opening eleven triage rows.** #375 carried 11 rows for a single file (A10-0025/2026) — a debate, four votes and six sitting records, each under its own URL. `dedupe-feed-matches.py` keyed on the link alone, so every artefact passed as new. A match now answers to its normalised title as well, with trailing `(vote)` / `(debate)` / `(A10-0025/2026 - Rapporteur)` qualifiers stripped, and same-run artefacts fold together. On the real payload: **11 → 1**. Qualifiers only ever trail, so a CJEU Opinion and the Judgment in one case still split.
+
 - **The source audit stops flagging "verify at &lt;authority&gt;" pointers — 120 of 1,059 claims.** A clause that exists to say the figure is *not* published at that link can only ever score `TOKENS_ABSENT`; 3 of the 6 distinct claims flagged on 2026-08-07 were this class. The test is anchored on the text immediately *before* the link, so a real citation trailed by "verify at INEC" still counts. Those URLs stay under `url-liveness` (8,380-URL scope) — the check that actually applies to them. `--extract` now reports `skipped_pointer_links`.
 
 - **Ecuador's internal armed conflict was declared by Decreto Ejecutivo 111, not 110 — corrected in four places.** DE 110 (8 Jan 2024) declared the *estado de excepción*; DE 111 (9 Jan 2024) amended it to recognise the *conflicto armado interno* (Suplemento al Registro Oficial No. 474), and states of exception from Apr 2024 cite DE 218 of 7 Apr 2024 instead. Also re-based the homicide series: **2025 is the historic peak at 9,216 killings / ~50.9 per 100k**, not 2023 — which the playbook called the peak on an unsourced ~46.5, then stopped at 2024.
