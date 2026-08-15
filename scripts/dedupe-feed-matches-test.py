@@ -86,6 +86,53 @@ class TestDedupe(unittest.TestCase):
         self.assertIn("C-26/25", out)
         self.assertIn("Housing crisis", out)
 
+    def test_one_report_does_not_open_eleven_rows(self):
+        # #375's exact shape: five sitting records and four votes carrying the
+        # report reference, plus two debate records that omit it — 11 rows, 11
+        # URLs, one file. The reference has to strip or the debates split off.
+        base = "- **[EP-Procedures]** Housing crisis in the European Union"
+        ref = " (A10-0025/2026 - Borja Giménez Larraz)"
+        suffixes = [ref] * 5 + [f"{ref} (vote)"] * 4 + [" (debate)"] * 2
+        run_matches = "".join(
+            f"{base}{suffix}\n  - <https://data.europarl.europa.eu/api/v2/procedures/OTH-{i}>\n"
+            for i, suffix in enumerate(suffixes)
+        )
+        code, out = run(run_matches, "")
+        self.assertEqual(code, 0)
+        self.assertEqual(out.count("Housing crisis"), 1)
+
+    def test_distinct_reports_are_not_merged_by_the_reference_strip(self):
+        code, out = run(
+            "- **[EP-Procedures]** Public access to documents (A10-0011/2026 - Ostrihoňová)\n"
+            "  - <https://data.europarl.europa.eu/api/v2/procedures/OTH-1>\n"
+            "- **[EP-Procedures]** Copyright and generative AI (A10-0019/2026 - Voss)\n"
+            "  - <https://data.europarl.europa.eu/api/v2/procedures/OTH-2>\n",
+            "",
+        )
+        self.assertIn("Public access to documents", out)
+        self.assertIn("Copyright and generative AI", out)
+
+    def test_artefact_of_a_triaged_report_does_not_come_back(self):
+        # A new sitting record under a new URL must not reopen a closed triage.
+        code, out = run(
+            "- **[EP-Procedures]** Housing crisis in the European Union (A10-0025/2026) (vote)\n"
+            "  - <https://data.europarl.europa.eu/api/v2/procedures/OTH-999>\n",
+            "- **[EP-Procedures]** Housing crisis in the European Union (A10-0025/2026)\n"
+            "  - <https://data.europarl.europa.eu/api/v2/procedures/OTH-1>\n",
+        )
+        self.assertEqual(out, "")
+
+    def test_opinion_and_judgment_in_one_case_stay_separate(self):
+        # The qualifier strip must only ever take a trailing (vote)/(debate) —
+        # a distinction carried in the title body is a distinct legal event.
+        code, out = run(
+            "- **[CJEU-PR]** Opinion in Case C-26/25\n  - <https://curia.europa.eu/a.pdf>\n"
+            "- **[CJEU-PR]** Judgment in Case C-26/25\n  - <https://curia.europa.eu/b.pdf>\n",
+            "",
+        )
+        self.assertIn("Opinion in Case C-26/25", out)
+        self.assertIn("Judgment in Case C-26/25", out)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
