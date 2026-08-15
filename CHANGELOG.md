@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+
+- **Vietnam's Housing Law commencement was still 1 Jan 2025 in `remote.md` — corrected to 1 Aug 2024.** The Tier-1 catch from the September wave (Law 43/2024/QH15 of 29 Jun 2024 replaced Art. 197(1), advancing commencement five months) reached `vn/playbook.md` and `regulatory-watch.md` but never propagated to the remote-transaction cohort, which still told a foreign buyer the framework governing their POA began five months later than it did. Decree 95/2024/ND-CP was issued 24 Jul 2024 to take effect alongside it.
+
 ### Changed
 
 - **One EP report stops opening eleven triage rows.** #375 carried 11 rows for a single file (A10-0025/2026) — a debate, four votes and six sitting records, each under its own URL. `dedupe-feed-matches.py` keyed on the link alone, so every artefact passed as new. A match now answers to its normalised title as well, with trailing `(vote)` / `(debate)` / `(A10-0025/2026 - Rapporteur)` qualifiers stripped, and same-run artefacts fold together. On the real payload: **11 → 1**. Qualifiers only ever trail, so a CJEU Opinion and the Judgment in one case still split.
