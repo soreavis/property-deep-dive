@@ -102,6 +102,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(deps): bump astral-sh/setup-uv from 9.0.0 to 10.0.1 ([#387](https://github.com/soreavis/property-deep-dive/pull/387)) — by @dependabot[bot]
 
+- chore(deps): bump pypdf from 6.16.1 to 6.16.2 in the pip-minor-patch group ([#385](https://github.com/soreavis/property-deep-dive/pull/385)) — by @dependabot[bot]
+
 ### Added
 
 - **The skill now installs on Codex, Cursor, Gemini CLI, Grok, Copilot and any agentskills.io runtime, not just Claude.** One skill tree, eight thin manifests, all pinned to the same CalVer release — `next-version.py --write` rewrites every manifest and a new `Platform manifests in lockstep + spec-valid` gate fails CI on drift. It caught a live bug: the `SKILL.md` description was **1,230 chars against the spec's 1,024 cap**, and over-cap skills are *silently dropped* from a loader's list with no warning (github/copilot-cli#3494) — those lanes would have installed and done nothing.
