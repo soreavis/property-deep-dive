@@ -1,4 +1,4 @@
 # Direct Python dependencies for the scripts/ helpers CI runs.
 # Edit here, then regenerate the hash-pinned lock — see the requirements.txt header.
 aiohttp>=3.9,<4
-pypdf>=6.14.2,<7
+pypdf>=6.16.2,<7
