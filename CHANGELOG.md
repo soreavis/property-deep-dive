@@ -52,6 +52,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+## [2026.09.0] - 2026-09-17
+
 ### Fixed
 
 - **US NFIP authorization no longer expires 30 Sep 2026 — it runs to 11 Dec 2026.** H.R. 6500 became Public Law 119-103 on 2 Sep 2026 and substituted the date (enrolled text read on govinfo; CRS IN10835 of 11 Sep 2026 agrees). The tracker and the US playbook still carried the 30 Sep cliff and "no further extension enacted"; appropriations and NFIP now expire on the same day. FEMA's own page still showed 30 Sep on 17 Sep — cite congress.gov or CRS, not FEMA.
