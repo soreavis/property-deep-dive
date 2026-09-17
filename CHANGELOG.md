@@ -54,6 +54,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Fixed
 
+- **160 changelog and README links pointed at pull requests that no longer exist.** Every PR numbered 370 or lower returns 404 on GitHub (371 onward resolve), so the links were dead for any reader and were the single largest block in the URL-liveness report that pushed the score below threshold (97 of 865 confirmed-dead). The `#NNN` references stay as plain text; the 10 links to surviving PRs are untouched.
+
 - **Vietnam's Housing Law commencement was still 1 Jan 2025 in `remote.md` — corrected to 1 Aug 2024.** The Tier-1 catch from the September wave (Law 43/2024/QH15 of 29 Jun 2024 replaced Art. 197(1), advancing commencement five months) reached `vn/playbook.md` and `regulatory-watch.md` but never propagated to the remote-transaction cohort, which still told a foreign buyer the framework governing their POA began five months later than it did. Decree 95/2024/ND-CP was issued 24 Jul 2024 to take effect alongside it.
 
 ### Changed
@@ -86,7 +88,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - **September revisit wave run early — 126 entries re-verified, 49 grounded corrections.** 189-agent fleet, one grounded verifier per entry then an independent refuter on every claimed change: 49 confirmed (12 Tier-1), 59 re-confirmed unchanged, **14 proposed changes killed by the adversarial pass**, 4 unverifiable. Tier-1 catches: **CN non-local purchase thresholds** (3 of 4 city figures wrong), **VN land/housing laws in force 1 Aug 2024 not 2025**, **ZA Expropriation Act still NOT in force**. Tier-1 cadence corrected 30d → 90d to match the file's own quarterly schedule.
 
-- docs(readme): put each usage comment above its command ([#370](https://github.com/soreavis/property-deep-dive/pull/370)) — by @soreavis
+- docs(readme): put each usage comment above its command (#370) — by @soreavis
 
 - docs: one shape for every code example ([#371](https://github.com/soreavis/property-deep-dive/pull/371)) — by @soreavis
 
@@ -116,7 +118,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Added
 
-- **`External PR triage` (`pr-triage.yml`) — a pre-approval risk summary for community PRs.** The fork-approval policy holds every `pull_request` check until a maintainer clicks "Approve and run", leaving nothing to decide on. This runs on `pull_request_target` (trusted base-branch context, so it fires regardless of approval settings) and posts a sticky comment grading the PR 🔴 touches `.github/`/`scripts/` · 🟠 non-Markdown · 🟢 Markdown-only. Never checks out PR code. ([#336](https://github.com/soreavis/property-deep-dive/pull/336))
+- **`External PR triage` (`pr-triage.yml`) — a pre-approval risk summary for community PRs.** The fork-approval policy holds every `pull_request` check until a maintainer clicks "Approve and run", leaving nothing to decide on. This runs on `pull_request_target` (trusted base-branch context, so it fires regardless of approval settings) and posts a sticky comment grading the PR 🔴 touches `.github/`/`scripts/` · 🟠 non-Markdown · 🟢 Markdown-only. Never checks out PR code. (#336)
 
 ### Changed
 
@@ -128,7 +130,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - **`CHANGELOG entry under [Unreleased]` now re-evaluates when a label changes.** The gate skips on any of `skip changelog` / `documentation` / `ci` / `dependencies` / `github-actions` / `duplicate` / `wontfix`, but only ran on `opened` / `synchronize` / `reopened` — so applying a skip label to an already-open PR left a stale red that needed a manual re-run. Added `labeled` / `unlabeled` to the trigger types. Note this fires for human- and PAT-applied labels only: GitHub's recursion prevention means a label applied by the path-based labeler's `GITHUB_TOKEN` emits no event.
 
-- **Dropped the inert `schedule.day: monday` from `.github/dependabot.yml`.** `day` applies only to `weekly` intervals, so under `monthly` it was silently ignored and advertised a cadence that never existed (`monthly` runs on the 1st). `time`/`timezone` kept — those apply to every interval. Also annotated `open-pull-requests-limit: 5` as GitHub's own default. No behaviour change. ([#340](https://github.com/soreavis/property-deep-dive/pull/340))
+- **Dropped the inert `schedule.day: monday` from `.github/dependabot.yml`.** `day` applies only to `weekly` intervals, so under `monthly` it was silently ignored and advertised a cadence that never existed (`monthly` runs on the 1st). `time`/`timezone` kept — those apply to every interval. Also annotated `open-pull-requests-limit: 5` as GitHub's own default. No behaviour change. (#340)
 
 - **`requirements.txt matches requirements.in` CI gate.** Editing `requirements.in` without recompiling leaves CI installing the *old* lock with nothing to notice — the install still passes, because a stale lock is internally consistent. A new `pr-validate` job runs `lock-requirements.py --check` on every PR (uv via SHA-pinned `astral-sh/setup-uv`). Added to the required-check list, since PRs here auto-merge on required checks alone and an advisory-only gate would not hold.
 
@@ -144,49 +146,49 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - **`CONTRIBUTING.md` documents the two gates that catch first-time contributors** — the `CHANGELOG.md` requirement (with the skip-label list) and re-running `scripts/sync-docs.py` for generated doc counts — plus a fork-contributor note explaining that "waiting for approval" is the expected initial state, not a failure.
 
-- fix(ci): stop shallow fetch grafting the base branch; tolerate auto-merge refusal ([#333](https://github.com/soreavis/property-deep-dive/pull/333)) — by @soreavis
+- fix(ci): stop shallow fetch grafting the base branch; tolerate auto-merge refusal (#333) — by @soreavis
 
-- feat(ci): pre-approval triage for community PRs + cut two false-red gates ([#336](https://github.com/soreavis/property-deep-dive/pull/336)) — by @soreavis
+- feat(ci): pre-approval triage for community PRs + cut two false-red gates (#336) — by @soreavis
 
-- test(ci): probe AUTOMERGE_TOKEN by inviting a Dependabot bump ([#337](https://github.com/soreavis/property-deep-dive/pull/337)) — by @soreavis
+- test(ci): probe AUTOMERGE_TOKEN by inviting a Dependabot bump (#337) — by @soreavis
 
-- fix(ci): stop the enforcer cancelling itself into a permanent BLOCKED state ([#338](https://github.com/soreavis/property-deep-dive/pull/338)) — by @soreavis
+- fix(ci): stop the enforcer cancelling itself into a permanent BLOCKED state (#338) — by @soreavis
 
-- chore(deps): bump actions/stale from 10.3.0 to 11.0.0 ([#339](https://github.com/soreavis/property-deep-dive/pull/339)) — by @dependabot[bot]
+- chore(deps): bump actions/stale from 10.3.0 to 11.0.0 (#339) — by @dependabot[bot]
 
-- chore(dependabot): drop the inert schedule.day, annotate the PR limit ([#340](https://github.com/soreavis/property-deep-dive/pull/340)) — by @soreavis
+- chore(dependabot): drop the inert schedule.day, annotate the PR limit (#340) — by @soreavis
 
-- fix(ci): hash-pin the CI Python deps and put them under Dependabot ([#341](https://github.com/soreavis/property-deep-dive/pull/341)) — by @soreavis
+- fix(ci): hash-pin the CI Python deps and put them under Dependabot (#341) — by @soreavis
 
-- fix(release): block auto-tag when plugin.json is from a different month ([#343](https://github.com/soreavis/property-deep-dive/pull/343)) — by @soreavis
+- fix(release): block auto-tag when plugin.json is from a different month (#343) — by @soreavis
 
-- feat(ci): cap CHANGELOG bullets at 600 chars and trim the backlog ([#344](https://github.com/soreavis/property-deep-dive/pull/344)) — by @soreavis
+- feat(ci): cap CHANGELOG bullets at 600 chars and trim the backlog (#344) — by @soreavis
 
-- fix(security): bump pypdf 5.9.0 -> 6.14.2, clearing 35 advisories ([#345](https://github.com/soreavis/property-deep-dive/pull/345)) — by @soreavis
+- fix(security): bump pypdf 5.9.0 -> 6.14.2, clearing 35 advisories (#345) — by @soreavis
 
-- chore(changelog): archive 2026 H1 releases to docs/changelog/ ([#346](https://github.com/soreavis/property-deep-dive/pull/346)) — by @soreavis
+- chore(changelog): archive 2026 H1 releases to docs/changelog/ (#346) — by @soreavis
 
-- feat(ci): add lock-requirements helper so regeneration stops erasing its header ([#348](https://github.com/soreavis/property-deep-dive/pull/348)) — by @soreavis
+- feat(ci): add lock-requirements helper so regeneration stops erasing its header (#348) — by @soreavis
 
-- feat(ci): gate on requirements.txt matching requirements.in ([#349](https://github.com/soreavis/property-deep-dive/pull/349)) — by @soreavis
+- feat(ci): gate on requirements.txt matching requirements.in (#349) — by @soreavis
 
 ### Fixed
 
 - **27 regulatory-watch entries were invisible to both schedulers — including six already past their revisit date.** The entry regex `` `([^`]+)` `` stopped at the first *nested* code span, and entries routinely cite sources as `` `https://…` ``. Those rows vanished silently, so `regulatory-watch-revisit.yml` reported "No overdue entries" and closed its tracking issue while GR (30 days), MV (23), LK/GH/BB/MV (5) sat unchecked, and the same rows never fired transposition alerts. All three parser copies now import `scripts/regwatch_parse.py`, with 14 tests and a CI gate.
 
-- **A cancelled `Changelog enforcer` run left required-check PRs permanently BLOCKED.** Fallout of the `labeled` trigger above: opening a PR that already carries a label fires `opened` and `labeled` on the *same* SHA, and `cancel-in-progress` had the second cancel the first. A `cancelled` check-run for a **required** context blocks the merge even when a newer successful run exists — #337 showed 8/8 green and still refused to merge. Set `cancel-in-progress: false` here. ([#338](https://github.com/soreavis/property-deep-dive/pull/338))
+- **A cancelled `Changelog enforcer` run left required-check PRs permanently BLOCKED.** Fallout of the `labeled` trigger above: opening a PR that already carries a label fires `opened` and `labeled` on the *same* SHA, and `cancel-in-progress` had the second cancel the first. A `cancelled` check-run for a **required** context blocks the merge even when a newer successful run exists — #337 showed 8/8 green and still refused to merge. Set `cancel-in-progress: false` here. (#338)
 
-- **`PR validate` intermittently died with `fatal: no merge base` — a shallow fetch was grafting the base branch.** Four jobs checked out at `fetch-depth: 0` then ran `git fetch --depth=1 origin <base>`, which re-grafts `origin/<base>` as a shallow ref and destroys the merge base `"$base...HEAD"` needs — so they aborted with exit 128 whenever `main` advanced past the PR's fork point. Three of the four are **required** checks, so this intermittently blocked merges. Dropped `--depth=1` at all four sites. ([#333](https://github.com/soreavis/property-deep-dive/pull/333))
+- **`PR validate` intermittently died with `fatal: no merge base` — a shallow fetch was grafting the base branch.** Four jobs checked out at `fetch-depth: 0` then ran `git fetch --depth=1 origin <base>`, which re-grafts `origin/<base>` as a shallow ref and destroys the merge base `"$base...HEAD"` needs — so they aborted with exit 128 whenever `main` advanced past the PR's fork point. Three of the four are **required** checks, so this intermittently blocked merges. Dropped `--depth=1` at all four sites. (#333)
 
-- **`Dependabot auto-merge` went red on a GitHub restriction it can never satisfy.** Every `github_actions` bump edits `.github/workflows/*`, and GitHub intermittently refuses `enablePullRequestAutoMerge` for those — a scope `GITHUB_TOKEN` cannot hold, since no `workflows` key exists in the Actions `permissions` block. The job now retries 3× and downgrades a persistent refusal to a `::warning::`; any other error still fails loudly. Optional `AUTOMERGE_TOKEN` secret (Dependabot store, `Workflows: write`) makes it deterministic. ([#333](https://github.com/soreavis/property-deep-dive/pull/333))
+- **`Dependabot auto-merge` went red on a GitHub restriction it can never satisfy.** Every `github_actions` bump edits `.github/workflows/*`, and GitHub intermittently refuses `enablePullRequestAutoMerge` for those — a scope `GITHUB_TOKEN` cannot hold, since no `workflows` key exists in the Actions `permissions` block. The job now retries 3× and downgrades a persistent refusal to a `::warning::`; any other error still fails loudly. Optional `AUTOMERGE_TOKEN` secret (Dependabot store, `Workflows: write`) makes it deterministic. (#333)
 
 - **`auto-tag.yml` could ship a release whose manifest was from another month.** It derives the tag purely from the calendar and never read `.claude-plugin/plugin.json`, while `Version month guard` only fires on PRs that *change* the version — so a month could roll with no bump and `sign-release.yml` would build the tarball from that tag with a stale manifest inside. Added a pre-tag guard: a CalVer **month** mismatch fails the run and prints the bump command; a same-month MICRO difference only warns, since mid-month MICRO releases legitimately run ahead of the monthly `.0`.
 
 ### Security
 
-- **pypdf bumped `5.9.0` → `6.14.2`, clearing 35 advisories (2 high, 30 moderate, 3 low).** Every fix lands in the 6.x line, so the old `pypdf>=4,<6` constraint could never reach a patched version — CI had been installing a vulnerable pypdf since the cap was written. The exposure was pre-existing and invisible; putting the deps in a manifest ([#341](https://github.com/soreavis/property-deep-dive/pull/341)) is what surfaced it. `source-verify` uses only `PdfReader`/`.pages`/`.extract_text()`, unchanged across the major.
+- **pypdf bumped `5.9.0` → `6.14.2`, clearing 35 advisories (2 high, 30 moderate, 3 low).** Every fix lands in the 6.x line, so the old `pypdf>=4,<6` constraint could never reach a patched version — CI had been installing a vulnerable pypdf since the cap was written. The exposure was pre-existing and invisible; putting the deps in a manifest (#341) is what surfaced it. `source-verify` uses only `PdfReader`/`.pages`/`.extract_text()`, unchanged across the major.
 
-- **CI Python dependencies are hash-pinned and Dependabot-tracked.** `source-verify.yml` and `url-liveness.yml` installed `aiohttp`/`pypdf` from inline version ranges — the install trusted whatever the index served, and Dependabot could not see them at all (it tracks declared manifests, never an inline `pip install`). Added a hash-pinned root `requirements.txt` with `requirements.in` as source; both workflows install with `--require-hashes`, and a `pip` ecosystem now tracks them. ([#341](https://github.com/soreavis/property-deep-dive/pull/341))
+- **CI Python dependencies are hash-pinned and Dependabot-tracked.** `source-verify.yml` and `url-liveness.yml` installed `aiohttp`/`pypdf` from inline version ranges — the install trusted whatever the index served, and Dependabot could not see them at all (it tracks declared manifests, never an inline `pip install`). Added a hash-pinned root `requirements.txt` with `requirements.in` as source; both workflows install with `--require-hashes`, and a `pip` ecosystem now tracks them. (#341)
 
 ## [2026.07.0] - 2026-07-31
 
@@ -209,35 +211,35 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - **Doc/count reconciliation to authoritative sources.** Corrected drifted counts repo-wide: section totals (`--all` runs **40 of 41**; "thirty-eight" / "thirty" / "31" / "24" → 40/41 across `SKILL.md`, `README.md`, `docs/usage.md`, `sync-docs.py`); refresh-tier sizes **15/30/42 → 16/38/72** plus the full tier-membership ISO lists in `updater.md` (now matching `config/_tiers.json`, incl. the `all 87` → `all 126` schedule comment); crime-source registry (44 / 126 → **116**); visa-programs registry (192 records / 13 regions → **201 / 16**); workflow count (3 → **31**) and top-level shared-file count (48 → **72**) — and repaired the `sync-docs.py` regex/template that should own the shared-file count so it auto-syncs going forward instead of silently drifting. Added the omitted 7-flag ownership-diligence group to the README/usage section tables; fixed docstrings/comments pointing at a nonexistent `version-month-guard.yml` and a `--score-only` `results.json`/`cache.json` mismatch.
 
-- ci(version): Version month guard — stop CalVer month drift ([#273](https://github.com/soreavis/property-deep-dive/pull/273)) — by @soreavis
+- ci(version): Version month guard — stop CalVer month drift (#273) — by @soreavis
 
-- docs: refresh install.md release-tag refs 2026.05.59 -> 2026.06.0 ([#274](https://github.com/soreavis/property-deep-dive/pull/274)) — by @soreavis
+- docs: refresh install.md release-tag refs 2026.05.59 -> 2026.06.0 (#274) — by @soreavis
 
-- fix(confidence-audit): recognize national-ccTLD government domains + enforce strict ([#277](https://github.com/soreavis/property-deep-dive/pull/277)) — by @soreavis
+- fix(confidence-audit): recognize national-ccTLD government domains + enforce strict (#277) — by @soreavis
 
-- fix(sources): repoint 60 dead source URLs + retire 1 (browser-UA verified) ([#278](https://github.com/soreavis/property-deep-dive/pull/278)) — by @soreavis
+- fix(sources): repoint 60 dead source URLs + retire 1 (browser-UA verified) (#278) — by @soreavis
 
-- fix: codebase quality sweep — code/CI/docs/consistency bugs ([#279](https://github.com/soreavis/property-deep-dive/pull/279)) — by @soreavis
+- fix: codebase quality sweep — code/CI/docs/consistency bugs (#279) — by @soreavis
 
-- fix: close three deferred follow-ups (url-liveness report · dormant ack · config doc) ([#280](https://github.com/soreavis/property-deep-dive/pull/280)) — by @soreavis
+- fix: close three deferred follow-ups (url-liveness report · dormant ack · config doc) (#280) — by @soreavis
 
-- docs: resync auto-generated repo-total line count ([#284](https://github.com/soreavis/property-deep-dive/pull/284)) — by @soreavis
+- docs: resync auto-generated repo-total line count (#284) — by @soreavis
 
-- fix: Aug-1 regwatch revisit wave — 50 entries re-verified, 129 grounded corrections ([#292](https://github.com/soreavis/property-deep-dive/pull/292)) — by @soreavis
+- fix: Aug-1 regwatch revisit wave — 50 entries re-verified, 129 grounded corrections (#292) — by @soreavis
 
-- fix(source-verify): remove two self-inflicted TOKENS_ABSENT false-positive classes ([#294](https://github.com/soreavis/property-deep-dive/pull/294)) — by @soreavis
+- fix(source-verify): remove two self-inflicted TOKENS_ABSENT false-positive classes (#294) — by @soreavis
 
-- fix: Tier-A quarterly refresh — 16 countries re-verified + re-stamped (closes #291) ([#295](https://github.com/soreavis/property-deep-dive/pull/295)) — by @soreavis
+- fix: Tier-A quarterly refresh — 16 countries re-verified + re-stamped (closes #291) (#295) — by @soreavis
 
-- fix(ci): feed watcher was reading nothing — replace 3 dead feeds, harden parser ([#298](https://github.com/soreavis/property-deep-dive/pull/298)) — by @soreavis
+- fix(ci): feed watcher was reading nothing — replace 3 dead feeds, harden parser (#298) — by @soreavis
 
-- fix(source-verify): #289 triage — 103 grounded corrections + nearest-link FP-class checker fix ([#300](https://github.com/soreavis/property-deep-dive/pull/300)) — by @soreavis
+- fix(source-verify): #289 triage — 103 grounded corrections + nearest-link FP-class checker fix (#300) — by @soreavis
 
-- fix(gi): Frontier Treaty in-force — provisionally applied 15 Jul 2026 (closes #275) ([#293](https://github.com/soreavis/property-deep-dive/pull/293)) — by @soreavis
+- fix(gi): Frontier Treaty in-force — provisionally applied 15 Jul 2026 (closes #275) (#293) — by @soreavis
 
-- fix(ci): feed watcher — EP feeds were bot-walled, not dead; re-point to the EP Open Data host ([#309](https://github.com/soreavis/property-deep-dive/pull/309)) — by @soreavis
+- fix(ci): feed watcher — EP feeds were bot-walled, not dead; re-point to the EP Open Data host (#309) — by @soreavis
 
-- docs: correct stale workflow cadences in README + CLAUDE.md file map ([#310](https://github.com/soreavis/property-deep-dive/pull/310)) — by @soreavis
+- docs: correct stale workflow cadences in README + CLAUDE.md file map (#310) — by @soreavis
 
 ### Fixed
 
@@ -359,55 +361,55 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
-- docs: prose count cascade 103/109 → 113 (12 sites) ([#200](https://github.com/soreavis/property-deep-dive/pull/200)) — by @soreavis
-- docs: refresh install.md release-tag refs 2026.05.1 → 2026.05.59 (6 sites) ([#201](https://github.com/soreavis/property-deep-dive/pull/201)) — by @soreavis
+- docs: prose count cascade 103/109 → 113 (12 sites) (#200) — by @soreavis
+- docs: refresh install.md release-tag refs 2026.05.1 → 2026.05.59 (6 sites) (#201) — by @soreavis
 - **ROADMAP refresh — backlog declared exhausted** (post-`/maintain` session 2026-05-27). The doc had multiple stale "queued" / "🟢 TIER-1 candidate" markers describing work that already shipped: the `--renovation` / `--property-management` / `--surveyor` Tier-1 NEW sections (shipped in PRs #154/#153/#155 on 2026-05-15) plus the 5 additional NEW sections from gap-#4/#5 waves (`--inherited-noncompliance` / `--squatter` / `--latent-defect` / `--title-monitoring` / `--seller-withholding` sub-extension); the Batch C Phase B (NL Caribbean `aw`/`cw`/`sx`/`bq` standalone) + Phase C (FR DROM overlay `gp`/`mq`/`gf`/`re`/`yt`) which shipped same-day in PR #186 on 2026-05-27 morning; the SXM developer-fund-opacity gap (now covered by the `sx` playbook); the JP municipality foreign-buyer-justification gating patch (closed UNVERIFIED in #169 per the anti-hallucination contract with universal 国土利用計画法 + 農地法 §3 added instead); the CY expat-targeted scam patterns (now in the CY `--scams` overlay). The doc now opens with an explicit "Status: backlog exhausted" callout; the NEW sections table marks all 7 lines as shipped with PR + date stamps; the Batch C table changes "queued" → "✅ Shipped 2026-05-27 (#186)"; the 3 country-specific patches change from open `🟠` to closed `✅`; a 2026-05-27-evening decision-log entry captures the steady state ("10 Tier-1 NEW sections + 11 sub-section extensions + 1 cross-cutting overlay + Batch A/B/C + TCO additions + url-liveness Python rewrite + 113-country validation sweep all shipped"). Future work returns to normal `--update` cadence via the tier-refresh + regulatory-watch + feed-watcher + health-report workflows. No version bump (drift cleanup).
-- docs: ROADMAP refresh — backlog declared exhausted (post-validation-sweep) ([#202](https://github.com/soreavis/property-deep-dive/pull/202)) — by @soreavis
-- fix(verify-needed): cleanup 4 inline markers (IT/KZ/AE/FO) — 3 anti-hallucination catches ([#203](https://github.com/soreavis/property-deep-dive/pull/203)) — by @soreavis
-- fix(es): 100% non-EU buyer gravamen — verified STALLED + caveat added ([#204](https://github.com/soreavis/property-deep-dive/pull/204)) — by @soreavis
-- docs: ROADMAP — queue Batch D (13 country candidates, 113 → 126) ([#206](https://github.com/soreavis/property-deep-dive/pull/206)) — by @soreavis
-- docs: ROADMAP — queue 16 feature candidates (sections + extensions + fold-ins + regwatch) ([#207](https://github.com/soreavis/property-deep-dive/pull/207)) — by @soreavis
-- docs: ROADMAP dedup country-specific patches (PR #202 follow-up) ([#205](https://github.com/soreavis/property-deep-dive/pull/205)) — by @soreavis
-- chore(maintain): doc-hygiene sweep — stale README counts + 2 broken playbook links ([#208](https://github.com/soreavis/property-deep-dive/pull/208)) — by @soreavis
-- docs(regwatch): ship 4 always-on regulatory-watch entries (verified, 2 corrections) ([#209](https://github.com/soreavis/property-deep-dive/pull/209)) — by @soreavis
-- docs(batch-d): Phase A schema decision — 4 UK OTs verified standalone (research + audit) ([#210](https://github.com/soreavis/property-deep-dive/pull/210)) — by @soreavis
-- feat(sanctions): add --sanctions, the 40th section (seller/UBO/PEP screening) ([#211](https://github.com/soreavis/property-deep-dive/pull/211)) — by @soreavis
-- feat(batch-d): Phase B — 8 Caribbean playbooks (113 → 121 countries) ([#212](https://github.com/soreavis/property-deep-dive/pull/212)) — by @soreavis
-- fix(batch-d): restore SKILL.md country matrix to 121 rows (matrix audit) ([#213](https://github.com/soreavis/property-deep-dive/pull/213)) — by @soreavis
-- feat(climate): forward + near-property-resolution projection layer ([#214](https://github.com/soreavis/property-deep-dive/pull/214)) — by @soreavis
-- feat(backfill): Batch D cross-cutting backfill Wave 1 (registry/fraud cluster) ([#215](https://github.com/soreavis/property-deep-dive/pull/215)) — by @soreavis
-- feat(backfill): Batch D cross-cutting backfill Wave 2 (finance/tax/transaction) ([#216](https://github.com/soreavis/property-deep-dive/pull/216)) — by @soreavis
-- feat(backfill): Batch D cross-cutting backfill Wave 3 — completes the backfill (28/28 sections) ([#217](https://github.com/soreavis/property-deep-dive/pull/217)) — by @soreavis
-- fix(connectivity): correct 2 doubled-path playbook cross-links (lychee CI) ([#219](https://github.com/soreavis/property-deep-dive/pull/219)) — by @soreavis
-- fix(playbooks): corpus-wide anti-hallucination consistency sweep (112 playbooks) ([#220](https://github.com/soreavis/property-deep-dive/pull/220)) — by @soreavis
+- docs: ROADMAP refresh — backlog declared exhausted (post-validation-sweep) (#202) — by @soreavis
+- fix(verify-needed): cleanup 4 inline markers (IT/KZ/AE/FO) — 3 anti-hallucination catches (#203) — by @soreavis
+- fix(es): 100% non-EU buyer gravamen — verified STALLED + caveat added (#204) — by @soreavis
+- docs: ROADMAP — queue Batch D (13 country candidates, 113 → 126) (#206) — by @soreavis
+- docs: ROADMAP — queue 16 feature candidates (sections + extensions + fold-ins + regwatch) (#207) — by @soreavis
+- docs: ROADMAP dedup country-specific patches (PR #202 follow-up) (#205) — by @soreavis
+- chore(maintain): doc-hygiene sweep — stale README counts + 2 broken playbook links (#208) — by @soreavis
+- docs(regwatch): ship 4 always-on regulatory-watch entries (verified, 2 corrections) (#209) — by @soreavis
+- docs(batch-d): Phase A schema decision — 4 UK OTs verified standalone (research + audit) (#210) — by @soreavis
+- feat(sanctions): add --sanctions, the 40th section (seller/UBO/PEP screening) (#211) — by @soreavis
+- feat(batch-d): Phase B — 8 Caribbean playbooks (113 → 121 countries) (#212) — by @soreavis
+- fix(batch-d): restore SKILL.md country matrix to 121 rows (matrix audit) (#213) — by @soreavis
+- feat(climate): forward + near-property-resolution projection layer (#214) — by @soreavis
+- feat(backfill): Batch D cross-cutting backfill Wave 1 (registry/fraud cluster) (#215) — by @soreavis
+- feat(backfill): Batch D cross-cutting backfill Wave 2 (finance/tax/transaction) (#216) — by @soreavis
+- feat(backfill): Batch D cross-cutting backfill Wave 3 — completes the backfill (28/28 sections) (#217) — by @soreavis
+- fix(connectivity): correct 2 doubled-path playbook cross-links (lychee CI) (#219) — by @soreavis
+- fix(playbooks): corpus-wide anti-hallucination consistency sweep (112 playbooks) (#220) — by @soreavis
 
-- chore(deps): bump actions/setup-python from 5.6.0 to 6.2.0 ([#225](https://github.com/soreavis/property-deep-dive/pull/225)) — by @dependabot[bot]
+- chore(deps): bump actions/setup-python from 5.6.0 to 6.2.0 (#225) — by @dependabot[bot]
 
-- chore(deps): bump softprops/action-gh-release from 2.6.2 to 3.0.0 ([#224](https://github.com/soreavis/property-deep-dive/pull/224)) — by @dependabot[bot]
+- chore(deps): bump softprops/action-gh-release from 2.6.2 to 3.0.0 (#224) — by @dependabot[bot]
 
-- chore: slim SKILL.md router + count-drift guards + fix stale 103→121 counts ([#229](https://github.com/soreavis/property-deep-dive/pull/229)) — by @soreavis
+- chore: slim SKILL.md router + count-drift guards + fix stale 103→121 counts (#229) — by @soreavis
 
-- fix(ci): auto-merge-docs reads live labels + re-runs after labeler ([#230](https://github.com/soreavis/property-deep-dive/pull/230)) — by @soreavis
+- fix(ci): auto-merge-docs reads live labels + re-runs after labeler (#230) — by @soreavis
 
-- feat(verify): source-content verifier — harness, deterministic audit, 16 citation fixes ([#231](https://github.com/soreavis/property-deep-dive/pull/231)) — by @soreavis
+- feat(verify): source-content verifier — harness, deterministic audit, 16 citation fixes (#231) — by @soreavis
 
-- fix(verify): silence pypdf chatter + magic-byte guard for .pdf-URLs-serving-HTML ([#233](https://github.com/soreavis/property-deep-dive/pull/233)) — by @soreavis
+- fix(verify): silence pypdf chatter + magic-byte guard for .pdf-URLs-serving-HTML (#233) — by @soreavis
 
-- fix(verify): harden audit signals — primary-source linter scope + content-change settle-confirmation ([#234](https://github.com/soreavis/property-deep-dive/pull/234)) — by @soreavis
+- fix(verify): harden audit signals — primary-source linter scope + content-change settle-confirmation (#234) — by @soreavis
 
-- feat(match): --match reverse-compare discovery mode (Phases 1-2b, audited) ([#235](https://github.com/soreavis/property-deep-dive/pull/235)) — by @soreavis
+- feat(match): --match reverse-compare discovery mode (Phases 1-2b, audited) (#235) — by @soreavis
 
-- chore(maintain): fix stale section + tier counts ([#236](https://github.com/soreavis/property-deep-dive/pull/236)) — by @soreavis
+- chore(maintain): fix stale section + tier counts (#236) — by @soreavis
 
-- regwatch: re-verify + re-stamp 2 overdue GE entries (closes #196) ([#237](https://github.com/soreavis/property-deep-dive/pull/237)) — by @soreavis
+- regwatch: re-verify + re-stamp 2 overdue GE entries (closes #196) (#237) — by @soreavis
 
-- fix(source-verify): don't false-flag JS-SPA / thin-body pages as TOKENS_ABSENT ([#238](https://github.com/soreavis/property-deep-dive/pull/238)) — by @soreavis
+- fix(source-verify): don't false-flag JS-SPA / thin-body pages as TOKENS_ABSENT (#238) — by @soreavis
 
-- feat(foldins): 4 Tier-2 fold-ins (LGBTQ+ title, accessibility, EV-charger, wire-settlement) ([#239](https://github.com/soreavis/property-deep-dive/pull/239)) — by @soreavis
+- feat(foldins): 4 Tier-2 fold-ins (LGBTQ+ title, accessibility, EV-charger, wire-settlement) (#239) — by @soreavis
 
-- feat(auction-registry): 41st section — distressed-auction discovery + system classification ([#240](https://github.com/soreavis/property-deep-dive/pull/240)) — by @soreavis
+- feat(auction-registry): 41st section — distressed-auction discovery + system classification (#240) — by @soreavis
 
-- fix(source-verify): #232 triage — 5 figure corrections + 27 repoints + 16 dead-link repairs ([#241](https://github.com/soreavis/property-deep-dive/pull/241)) — by @soreavis
+- fix(source-verify): #232 triage — 5 figure corrections + 27 repoints + 16 dead-link repairs (#241) — by @soreavis
 
 ### Fixed
 
