@@ -134,7 +134,7 @@ As of May 2026 only **England (postcode)** and the **Netherlands (~100 m grid)**
 
 | Source | Coverage | Resolution | Notes |
 |---|---|---|---|
-| **First Street / RiskFactor** — `https://riskfactor.com/` | US (parcel) | parcel · 30-yr | 30-yr property flood / fire / heat / wind scores. **NGO model, not government** — and US listing portals de-emphasised it from mid-Nov 2025 (see the US `--risks` portal-badge note + `regulatory-watch.md`); pull it direct and label model-tier |
+| **First Street** (formerly RiskFactor) — `https://firststreet.org/` | US (parcel) | parcel · 30-yr | 30-yr property flood / fire / heat / wind scores. **Commercial model, not government** — MSCI completed its acquisition 3 Aug 2026; riskfactor.com now redirects to firststreet.org behind a terms-of-use gate with a paid tier above the free reports (verify free access before relying on it); Zillow de-emphasised the scores from late 2025 (see the US `--risks` portal-badge note + `regulatory-watch.md`); pull it direct and label model-tier |
 | **Climate Central Coastal Risk Screening** — `https://coastal.climatecentral.org/` | global (coastal) | point · SLR only | Forward SLR + coastal-flood waterline by decade / warming scenario; coastal only (also listed in the Tier-1 table above) |
 | **Coastal Risk Australia** — `https://coastalrisk.com.au/` | AU (coastal) | address-ish | Forward coastal-inundation to 2100; NGO / commercial, NOT an ABS / government product |
 
