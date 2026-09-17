@@ -575,13 +575,14 @@ These work regardless of the destination country and prevent the most common 90-
 
 **Confidence (overall)**: HIGH for the cited statutes and primary forms across most regional bands; MEDIUM for items in active 2026 reform (FR ZFE abolition vote / PL Kraków LEZ Constitutional challenge / CA UHT elimination Royal Assent); LOW flagged inline (LB banking collapse / KW restrictive / KP-MM-SY sanctions/conflict / Caribbean duty rate verification).
 
-**Last verified**: 2026-05-09.
+**Last verified**: 2026-05-09 (VN / TH Hague Apostille trigger rows re-verified 2026-09-17).
 
 **Re-verify cadence**: every 6 months — vehicle age caps, LEZ rules, and pet quarantine windows change quarterly in some jurisdictions. EU 22 Apr 2026 transition, UK pet travel post-Brexit AHC enforcement, AU/NZ rabies-titer process, CDC US dog-import rule, GCC age caps, KE KEBS RHD ≥2019 rule should be re-checked **after each parliamentary milestone**, not just on the 6-month timer.
 
 **Re-stamp triggers (calendar-actionable)**:
 - 2026-04-22: EU Reg 2016/429 transition ends — UK pet passports invalidated.
-- 2026-09-11: VN Hague Apostille in force (cross-references `--language`, `--remote`).
+- 2026-09-11: VN Hague Apostille in force ✅ (verified 2026-09-17; cross-references `--language`, `--remote`).
+- 2027-02-28: TH Hague Apostille in force (deposited 30 Jun 2026; cross-references `--language`, `--remote`).
 - 2026-12: NZ Landonline final survey app cutoff.
 - 2026-12: EU eIDAS-2 EUDI Wallet member-state availability deadline (cross-references `--remote`).
 - 2027-01-01: NL 30%-ruling flat 27% (cross-references `--home-tax`).

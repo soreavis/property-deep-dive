@@ -60,6 +60,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Changed
 
+- **Vietnam's Hague Apostille flip applied — in force since 11 Sep 2026, yet the corpus still spoke of it in the future tense in seven files.** HCCH status table re-read 17 Sep 2026 (no delay note; the DE / AT / CZ objections are the only three, none withdrawn). New primary detail: Decree 293/2026/NĐ-CP (effective 11 Sep 2026) codifies the pairwise exclusion and charges the existing consular fee; competent authorities are the MFA Consular Department and the HCMC Department for External Relations.
+
+- **Thailand's accession is no longer "deposit pending": deposited 30 Jun 2026, in force 28 Feb 2027.** Six files plus ROADMAP.md carried the stale wording; new tracker entry with the 28 Feb 2027 flip date and a revisit set after the ~30 Dec 2026 objection-window close. UAE re-confirmed absent from the status table.
+
 - **Greece's Special Spatial Framework for Tourism was gazetted 7 Aug 2026 — one day after the tracker last read it as unsigned.** ΦΕΚ Δ' 658/07.08.2026. Directly applicable, and it re-prices out-of-plan plots: minimum αρτιότητα rises to **16 στρέμματα** in zone A (from 8, reducible to 4 by derogation), 12 in B, 8 in C/D; a **complete ban on building 0–25 m from the shoreline**; 3–5 star floor in A/B/C; 100-bed cap on the smaller island groups. The STR limb is **enabling-only** — still no live Mykonos/Santorini freeze.
 
 - **September revisit wave run early — 5 of 8 entries re-verified against primary sources, 3 materially restated.** The NL Box 3 actual-return bill is not merely "pending" in the Eerste Kamer: the **final vote was deferred on 30 Jun 2026** pending an announced novelle, with a motion filed on withdrawing it entirely — so 1 Jan 2028 is contingent, not settled. The PT 25 May vs 1 Sept conflict is **resolved from art. 18 of DL 97/2026**: the IMT amendment sits in neither deferral list, so it took effect 25 May.
