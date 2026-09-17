@@ -101,7 +101,7 @@ If you'd rather pin to a tagged release than `main`:
 # Pull the latest release into an existing clone
 cd ~/code/property-deep-dive
 git fetch --tags
-git checkout 2026.08.0     # or any later tag — see CHANGELOG.md
+git checkout 2026.09.0     # or any later tag — see CHANGELOG.md
 ```
 
 Tags follow CalVer (`YYYY.0M.MICRO`) — see [CHANGELOG.md](../CHANGELOG.md) for release notes per tag.
@@ -112,15 +112,15 @@ Releases are sigstore-signed. To verify the tarball:
 
 ```bash
 # Install a pinned release rather than the branch tip
-gh release download 2026.08.0 --repo soreavis/property-deep-dive \
-  --pattern 'property-deep-dive-2026.08.0.tar.gz' \
-  --pattern 'property-deep-dive-2026.08.0.tar.gz.sigstore'
+gh release download 2026.09.0 --repo soreavis/property-deep-dive \
+  --pattern 'property-deep-dive-2026.09.0.tar.gz' \
+  --pattern 'property-deep-dive-2026.09.0.tar.gz.sigstore'
 
 cosign verify-blob \
-  --bundle property-deep-dive-2026.08.0.tar.gz.sigstore \
+  --bundle property-deep-dive-2026.09.0.tar.gz.sigstore \
   --certificate-identity-regexp 'https://github\.com/soreavis/property-deep-dive/\.github/workflows/sign-release\.yml@.*' \
   --certificate-oidc-issuer 'https://token.actions.githubusercontent.com' \
-  property-deep-dive-2026.08.0.tar.gz
+  property-deep-dive-2026.09.0.tar.gz
 ```
 
 Expected output: `Verified OK`. Anything else means the tarball doesn't match what was signed at that tag.
