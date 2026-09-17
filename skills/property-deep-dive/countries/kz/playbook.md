@@ -607,7 +607,7 @@ Universal — see `shared/climate-projections.md`. National source: **Kazhydrome
 
 KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dynamics:
 
-- **NBK base rate**: **16.75 % (24 July 2026)** — cut 25 bps from 17.0 % on 24 July 2026 (second consecutive cut after the 5 June 100 bps cut from 18.0 %; first reduction since mid-2024); still among the highest in the broader region; NBK 2026 inflation forecast 9–11 %; next decision 4 September 2026 (2026-08-05 verified)
+- **NBK base rate**: **16.25 % (effective 7 Sep 2026)** — cut 50 bps at the 4 Sep 2026 meeting (corridor 15.25–17.25 %), third consecutive cut after 18.0→17.0 % (5 Jun 2026) and 17.0→16.75 % (24 Jul 2026), 175 bps of easing since June; NBK: annual inflation 9.8 % in Aug 2026, single digits for the first time in the cycle, and "the scope for further rate cuts is limited"; still among the highest in the broader region; next decisions 23 Oct and 4 Dec 2026 (2026-09-17 verified, NBK release 20272)
 - **Inflation**: **10.3 % June 2026 YoY** (down from 10.6 % Apr, 10.4 % May 2026; BNS/TradingEconomics) — easing but still above NBK's 4–5 % target band; NBK 2026 forecast 9–11 %
 - **USDKZT trajectory 2020–2026**: 412 (2020 avg) → 511 (2025 avg) → 462–470 (Q1 2026 low) → **~474–486 (June–early July 2026; NBK official 3 Jul 2026 = 474.47)** — the early-2026 recovery partly unwound in June, then firmed again early July; check nationalbank.kz daily rate before any KZT conversion
 - **Exchange-rate exposure during purchase**: contracts denominated in USD between non-resident parties are common, but settlement of KZ-real-estate transactions must occur in **KZT** at NBK reference rate on transaction day per Currency Regulation Law No. 167-VI of 2018
@@ -669,7 +669,7 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 - **CGT exemption after 2-year holding** for residents (raised from 1 year for acquisitions from 1 Jan 2026; pre-2026 purchases keep 1 year) — still short vs most jurisdictions
 - **2026 progressive PIT** (10 %/15 % above 8,500 MCI) — verify rental + capital gains impact for high-end portfolios
 - **VAT rate change 1 Jan 2026** — verify exact new rate at KGD before relying
-- **Currency risk**: KZT free-floating, 22 % depreciation 2020–2025; high NBK base rate 16.75 % (cut 25 bps on 24 Jul 2026 from 17 %); inflation 10.2 % (Jul 2026)
+- **Currency risk**: KZT free-floating, 22 % depreciation 2020–2025; high NBK base rate 16.25 % (cut 50 bps at the 4 Sep 2026 meeting, effective 7 Sep); inflation 9.8 % (Aug 2026, NBK)
 - **Almaty seismic exposure**: highest in country (MSK 9–10 zone); pre-1991 panel stock requires structural survey
 - **Almaty mudflow exposure**: foothill + canyon-mouth properties require Kazselezashchita / akimat zoning confirmation; Medeu dam protects upper Malaya Almatinka but other catchments variable
 - **Almaty winter air quality**: chronic PM2.5 spikes; HEPA filtration recommended; CHPP-3 modernisation 2025–2027 may improve
@@ -758,4 +758,4 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 
 **Status**: ✅ fully populated (initially populated 2026-05-07)
 **Confidence**: HIGH for cadastre + tax (current 2025 + new Tax Code 2026 transition) + foreign-buyer rules (Land Code Art. 23 + Law on Legal Status of Foreigners Art. 9 + 2021 ag-land ban — multi-source corroborated against KPMG TIES 2025, PwC Tax Summary, Gratanet legal practitioner note, Adilet primary statute). MEDIUM for short-let regulation (no national STR statute as of 2025; municipal layer in flux), parcel-level seismic data (Almaty SP RK 2.03-31-2020 microzoning is district-level — parcel certification requires NCSOR request), parcel-level mudflow zoning (Kazselezashchita maps commune-level for Almaty foothill; parcel certification on request). LOW for VAT-rate-change exact landing post-1 Jan 2026 (verify at KGD before relying), 2026 MCI value (verify at MoF), and local Akimat 2026 property-tax coefficient adjustments.
-**Last verified**: 2026-08-05 (NBK base rate re-verified — 24 Jul 2026 cut to 16.75 %, CPI 10.2 % Jul 2026; balance of 2026-07-03 Tier-A refresh unchanged)
+**Last verified**: 2026-09-17 (NBK base rate re-verified — 4 Sep 2026 cut to 16.25 % effective 7 Sep, CPI 9.8 % Aug 2026; previous stamp 2026-08-05: 24 Jul 2026 cut to 16.75 %, CPI 10.2 % Jul 2026; balance of 2026-07-03 Tier-A refresh unchanged)

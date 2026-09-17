@@ -54,11 +54,23 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Fixed
 
+- **US NFIP authorization no longer expires 30 Sep 2026 — it runs to 11 Dec 2026.** H.R. 6500 became Public Law 119-103 on 2 Sep 2026 and substituted the date (enrolled text read on govinfo; CRS IN10835 of 11 Sep 2026 agrees). The tracker and the US playbook still carried the 30 Sep cliff and "no further extension enacted"; appropriations and NFIP now expire on the same day. FEMA's own page still showed 30 Sep on 17 Sep — cite congress.gov or CRS, not FEMA.
+
+
+- **Portugal's 7.5 % non-resident IMT: the playbook still called the effective date "disputed" and misstated exception (a).** Effective 25 May 2026 (settled in the tracker on 15 Aug but never propagated); exception (a) is *past* residence at any time, not current. New AT guidance Ofício Circulado 40131/2026 (4 Sep 2026): community-of-property spouses pay 7.5 % only where both are non-resident and neither was ever resident; co-owners tested individually. Refund route pinned to art. 17(11)–(12).
+
+
 - **160 changelog and README links pointed at pull requests that no longer exist.** Every PR numbered 370 or lower returns 404 on GitHub (371 onward resolve), so the links were dead for any reader and were the single largest block in the URL-liveness report that pushed the score below threshold (97 of 865 confirmed-dead). The `#NNN` references stay as plain text; the 10 links to surviving PRs are untouched.
 
 - **Vietnam's Housing Law commencement was still 1 Jan 2025 in `remote.md` — corrected to 1 Aug 2024.** The Tier-1 catch from the September wave (Law 43/2024/QH15 of 29 Jun 2024 replaced Art. 197(1), advancing commencement five months) reached `vn/playbook.md` and `regulatory-watch.md` but never propagated to the remote-transaction cohort, which still told a foreign buyer the framework governing their POA began five months later than it did. Decree 95/2024/ND-CP was issued 24 Jul 2024 to take effect alongside it.
 
 ### Changed
+
+- **September revisits closed — KZ, NL, US Zillow re-verified against primary sources.** NBK cut 50 bps to 16.25 % on 4 Sep 2026 (effective 7 Sep; CPI 9.8 % Aug; next decisions 23 Oct and 4 Dec). Prinsjesdag's Belastingplan 2027 contains no Box 3 measure and no novelle, so 1 Jan 2028 stays unsecured; the widely quoted 2027 parameters are trade-press only and marked `est.`. Zillow still de-emphasises First Street scores; MSCI closed the First Street acquisition 3 Aug 2026 and RiskFactor.com now redirects to firststreet.org behind a terms gate, so "free access" is no longer asserted.
+
+
+- **Feed triage: two EU watchlist rows added, one duplicate dropped.** The Affordable Housing Act proposal (COM(2026) 599, 9 Sep 2026) would let member states restrict non-primary-residence purchases above a price-to-income ratio of 8 — a proposal, not law. CJEU C-449/25 AG Opinion (17 Sep 2026) touches only derived residence rights. The CRR completion-guarantee RTS in the feed was already in the EU table as Reg (EU) 2026/849.
+
 
 - **Vietnam's Hague Apostille flip applied — in force since 11 Sep 2026, yet the corpus still spoke of it in the future tense in seven files.** HCCH status table re-read 17 Sep 2026 (no delay note; the DE / AT / CZ objections are the only three, none withdrawn). New primary detail: Decree 293/2026/NĐ-CP (effective 11 Sep 2026) codifies the pairwise exclusion and charges the existing consular fee; competent authorities are the MFA Consular Department and the HCMC Department for External Relations.
 
