@@ -500,7 +500,7 @@ HIGH for AU/CA/NZ/US/ZA/MU where regulators publish primary statute in English (
 
 **Confidence**: HIGH for ~70 of 126 countries (Civil Code articles + reforms published in primary languages with English commentary + recent reforms verified at primary-source URLs); MEDIUM for ~25 countries (regional forals, pluralist regimes, Sharia + Personal Status Code interplay creating bench-discretion variance); LOW for ~5 countries (LB 18 confessional regimes — case-specific analysis, KH post-Khmer-Rouge restitution overlay, MV constitutional freehold-ban + Sharia, UZ post-Soviet civil + bench-discretion, RW 2016 Family Code reforms only partially documented in English). Per-country confidence labels appear in each one-liner above.
 
-**Last verified**: 2026-05-10.
+**Last verified**: 2026-05-10 (VN / TH Hague Apostille cross-reference re-verified 2026-09-17).
 
 **Pairs strongly with**:
 - `--notary` (transaction-completion notary required vs solicitor; days from offer to deed; closing costs as % of price; title insurance norms) — companion process layer

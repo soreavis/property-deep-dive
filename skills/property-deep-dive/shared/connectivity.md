@@ -347,7 +347,7 @@ This table is the source of truth for the `--connectivity` Starlink-status field
 
 **Confidence**: MEDIUM-HIGH (35 countries with primary-source-verified tariff + checker; 30 with primary-source FTTH coverage statistic; remaining 38 with carrier-page-verified tariff but limited regulator-statistic backing — particularly Asia mid-tier (LK/KH/UZ/AM/AZ), MENA Gulf (BH/KW), microstate/small-island (MC/AD/SM/CV/MU/SC/MV)).
 
-**Last verified**: 2026-05-08
+**Last verified**: 2026-05-08 (VN / TH Hague Apostille trigger rows re-verified 2026-09-17)
 
 **Sources**: each country one-liner cites its primary checker URL + carrier price-page URL where retrievable; FTTH coverage from regulator (Ofcom UK, BNetzA DE, ARCEP FR, FTTH Council Europe Panorama 2024-2026, BTK TR, MCMC MY, Anatel BR, FCC US, nbn AU, CRTC CA, CIP NZ, OCECPR CY, EETT GR, ICASA ZA, IMDA SG, INDOTEL DO); Starlink registry from Starlink coverage map + national regulator press releases.
 
