@@ -442,7 +442,7 @@ property-deep-dive/
 
 Factual corrections, URL fixes, and section extensions are the most valuable contributions. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the bar (~400-500 lines per country, primary government sources, anti-hallucination contract).
 
-All 126 in-scope countries are populated. The original 103-country milestone (Tier-1 + Tier-2 batches, 2026-05-08, PRs [#111](https://github.com/soreavis/property-deep-dive/pull/111) + [#113](https://github.com/soreavis/property-deep-dive/pull/113)) has since been extended by four coverage waves: Crown Dependencies + Danish territories (→ 109, new `crown_deps_territories` region), four NL-Caribbean standalone playbooks plus a FR DROM overlay that does not increment the count (→ 113), eight Caribbean UK Overseas Territories + CBI states (→ 121, new `caribbean_ot` region), and five medium-signal jurisdictions (🇳🇦 na · 🇧🇼 bw · 🇻🇺 vu · 🇹🇹 tt · 🇵🇰 pk → 126, **Batch D Phase C, shipped 2026-06-13**). The country-side backlog is now exhausted — see [`ROADMAP.md`](./ROADMAP.md).
+All 126 in-scope countries are populated. The original 103-country milestone (Tier-1 + Tier-2 batches, 2026-05-08, PRs #111 + #113) has since been extended by four coverage waves: Crown Dependencies + Danish territories (→ 109, new `crown_deps_territories` region), four NL-Caribbean standalone playbooks plus a FR DROM overlay that does not increment the count (→ 113), eight Caribbean UK Overseas Territories + CBI states (→ 121, new `caribbean_ot` region), and five medium-signal jurisdictions (🇳🇦 na · 🇧🇼 bw · 🇻🇺 vu · 🇹🇹 tt · 🇵🇰 pk → 126, **Batch D Phase C, shipped 2026-06-13**). The country-side backlog is now exhausted — see [`ROADMAP.md`](./ROADMAP.md).
 
 In the meantime, the most valuable contributions are:
 
