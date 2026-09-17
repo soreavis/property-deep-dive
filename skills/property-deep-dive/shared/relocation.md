@@ -581,7 +581,8 @@ These work regardless of the destination country and prevent the most common 90-
 
 **Re-stamp triggers (calendar-actionable)**:
 - 2026-04-22: EU Reg 2016/429 transition ends — UK pet passports invalidated.
-- 2026-09-11: VN Hague Apostille in force (cross-references `--language`, `--remote`).
+- 2026-09-11: VN Hague Apostille in force ✅ (verified 2026-09-17; cross-references `--language`, `--remote`).
+- 2027-02-28: TH Hague Apostille in force (deposited 30 Jun 2026; cross-references `--language`, `--remote`).
 - 2026-12: NZ Landonline final survey app cutoff.
 - 2026-12: EU eIDAS-2 EUDI Wallet member-state availability deadline (cross-references `--remote`).
 - 2027-01-01: NL 30%-ruling flat 27% (cross-references `--home-tax`).

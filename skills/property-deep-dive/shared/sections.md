@@ -676,7 +676,7 @@ Country-specific authorities:
 - Time-zone collision on real-time video signing — default to apostilled-POA chain rather than RON for buyers > 6 hours offset from destination
 - State / canton / province fragmentation — US ~46 states + DC + PR have permanent RON; **CA SB 696 effective 1 Jan 2030 backstop** (regulations pending); AU PEXA + Sympli interoperability **suspended** 2024; CH 26 cantons each own Notariatsgesetz
 - Identity-verification infrastructure incompatibility — Catch-22 for foreign buyers without local eID; pass-through via solicitor / consulate / RON credential-analysis fallback (FL § 117.295 expressly permits foreign-passport credential analysis)
-- Apostille / consular legalisation chain still required for foreign POA — non-Hague: AE / EG / JO / KW / LB / QA / NG / KE / GH / TW / KH / LK / MV / MY / TH (cabinet approval Dec 2025; deposit pending) / VN (in force 11 Sept 2026)
+- Apostille / consular legalisation chain still required for foreign POA — non-Hague: AE / EG / JO / KW / LB / QA / NG / KE / GH / TW / KH / LK / MV / MY / TH (deposited 30 Jun 2026; in force 28 Feb 2027); VN is Hague since 11 Sep 2026 except vs DE / AT / CZ (Art. 12(2) objections)
 - AML/KYC gatekeepers — *Hawarden v ENS* [2024] ZASCA 90 BUYER bears BEC risk; FinCEN Residential Real Estate Reporting Rule effective 1 Mar 2026; EU AMLR/AMLA 19 Jun 2024 applies 10 Jul 2027
 
 ---
