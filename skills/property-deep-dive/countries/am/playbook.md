@@ -114,7 +114,7 @@ AMD, EUR/AMD ≈ 415–435 (Q1 2026 CBA, managed-float). Not in eurozone; no fir
 
 ### Annual property tax — Real Estate Tax / Անշարժ գույքի հարկ (Tax Code Section 13, Articles 224–238 as amended)
 
-Governed by [Tax Code of the Republic of Armenia](https://www.src.am/en/) Section 13 + **Law HO-185-N of 25 December 2020** which introduced the major Real Estate Tax reform effective 1 January 2021 with phased implementation through 2026. Rate **set as progressive AMD-bracket scale on cadastral value approaching market**, levied at **community level**:
+Governed by [Tax Code of the Republic of Armenia](https://www.src.am/en/) Section 13 + **[Law HO-332-N, adopted 25 June 2020](https://www.arlis.am/hy/acts/143904)** (signed 30 June 2020, ՀՀՊՏ 2020.06.30/73(1628)) which introduced the major Real Estate Tax reform **in force 1 January 2021**, phased at 25 % of full rate for 2021, 30 % for 2022, 35 % for 2023, 50 % for 2024, 75 % for 2025 and 100 % from 2026 *(2026-09-18 verified, source ARLIS — Armenian Legal Information System)*. Rate **set as progressive AMD-bracket scale on cadastral value approaching market**, levied at **community level**:
 
 **Residential apartments — 6 brackets (HO-185-N regime, Tax Code Art. 230; 2026-05-27 verified, source armenian-lawyer.com 2025 property-tax guide cross-checked vs src.am)**:
 
@@ -1052,7 +1052,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Tax Code Art. 147(1)(16) individual-to-individual residential PIT-exemption; 10% WHT on price when buyer is legal entity / sole-proprietor tax agent (residential), 20% commercial; Tax Code Art. 230 property-tax brackets — separate schedules for apartments vs houses; CBA refinancing rate 6.5% (2026-05-27, source cba.am) following cutting cycle from 2024 ~10% peak; AMD ~368/USD ~395-410/EUR May 2026 per CBA reference rate). MEDIUM on parcel-level cadastre exact apartment vs house classification (verify at src.am for any specific deal), 2026 CBA forward-rate path, and recharacterisation risk for business-pattern traders (individual sales with high frequency may be re-classified as entrepreneurial income). LOW on residential listing benchmarks (no national HPI; List.am + Spyur aggregator-grade with broker bias).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (real-estate-tax reform law corrected 2026-09-18 — HO-332-N of 25 June 2020, not HO-185-N of 25 December 2020, per ARLIS)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

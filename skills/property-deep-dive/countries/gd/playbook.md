@@ -548,7 +548,7 @@ Grenada's residency/citizenship hook is its **Citizenship-by-Investment (CBI)** 
 
 ### Conveyancing + Land Registry (non-CBI flow)
 
-- **Court / registry**: title + deeds recorded at the **Deeds and Land Registry of the Supreme Court of Grenada** (administered by the Supreme Court Registry; the superior court is the resident **High Court** division of the ECSC). Governing statute: **Deeds and Land Registry Act, Cap. 79** ([laws.gov.gd](https://www.laws.gov.gd)) + Conveyancing and Law of Property Act.
+- **Court / registry**: title + deeds recorded at the **Deeds and Land Registry of the Supreme Court of Grenada** (administered by the Supreme Court Registry; the superior court is the resident **High Court** division of the ECSC). Governing statute: **Deeds and Land Registry Act, Cap. 79** ([Laws of Grenada — Chapter 79 Deeds and Land Registry Act](https://laws.gov.gd/index.php/chapters/d-76-84a/133-chapter-79-deeds-and-land-registry-act)) + Conveyancing and Law of Property Act.
 - **Online access**: **[eLandRegistry](https://elandregistry.gov.gd)** (Grenada Land Agency).
 - **2019 reform**: good-title search period reduced **60 → 30 years**; original title deeds held in the Supreme Court Registry.
 - **Mandatory attorney**: deeds of sale/transfer must be **prepared + executed by an attorney-at-law** (no DIY conveyancing).

@@ -1130,7 +1130,7 @@ India has **NO formal "digital nomad visa"** (a notable absence vs Mauritius PA,
 - **NDC (Nationally Determined Contribution) 2022 update**: 45 % reduction in emissions intensity of GDP by 2030 vs 2005; 50 % non-fossil installed electricity capacity by 2030; net-zero by 2070 (PM announcement Nov 2021 COP-26): [`https://moef.gov.in/`](https://moef.gov.in/)
 - **National Action Plan on Climate Change (NAPCC) 2008** + 8 missions
 - **Long-Term Low Emission Development Strategy (LT-LEDS)** 2022 — submitted at COP-27
-- **Renewables share of installed capacity**: **53.7 %** non-fossil (incl. nuclear + hydro + wind + solar; ~288 GW) per [MNRE](https://mnre.gov.in/) (2026-07-11 verified, source MNRE — verify current); target 500 GW non-fossil by 2030
+- **Renewables share of installed capacity**: non-fossil installed capacity **304,334 MW (~304 GW)** as on **31 Aug 2026** (incl. nuclear + large hydro + wind + solar) per [MNRE](https://mnre.gov.in/en/physical-progress/); non-fossil share **51.93 %** of 513,730 MW total installed as on **31 Dec 2025** per [Ministry of Power / PIB](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223720&reg=3&lang=2) — the 50 % milestone was reached **June 2025**, five years ahead of the NDC target *(2026-09-18 verified, sources MNRE + Ministry of Power)*; target 500 GW non-fossil by 2030
 - **Solar mission**: 100 GW installed cap target Mar 2022 (achieved partially); rooftop solar 40 GW target by 2026
 - **Green building**: **IGBC (Indian Green Building Council)** + **GRIHA (Green Rating for Integrated Habitat Assessment)** + **EDGE (IFC)** voluntary schemes; LEED India also active
 - **Energy-efficiency**: **ECBC (Energy Conservation Building Code) 2017** voluntary for residential; mandatory for commercial in many states; **Eco-Niwas Samhita 2018** for residential
@@ -1415,7 +1415,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — adverse possession Limitation Act 1963 Art. 65/112 + s.27 added to Caveats; FEMA 21 §6 8-list vs Press Note 3 7-list disambiguated; FEMA 21(R)/2018-RB lead-warning corrected)
+**Last verified**: 2026-05-27 (non-fossil capacity + share corrected 2026-09-18 per MNRE physical-progress + Ministry of Power PIB; validation sweep — adverse possession Limitation Act 1963 Art. 65/112 + s.27 added to Caveats; FEMA 21 §6 8-list vs Press Note 3 7-list disambiguated; FEMA 21(R)/2018-RB lead-warning corrected)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

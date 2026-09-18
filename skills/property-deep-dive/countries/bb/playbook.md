@@ -41,7 +41,7 @@ This section determines whether a transaction is even legally possible — and w
 - **Land (Title Proceedings) Act, 2011-7** — judicial title-quieting modernisation.
 - **Condominium Act, Cap. 224A** — strata-title regime.
 - **Exchange Control Act, Cap. 71** — administered by [Central Bank of Barbados (CBB)](https://www.centralbank.org.bb/foreign-exchange/exchange-control-guide); governs registration of incoming foreign currency for non-resident property purchase.
-- **Property Transfer Tax Act, Cap. 84A** + **Stamp Duty Act, Cap. 91** + **Land Tax Act, Cap. 78A** — transaction + holding taxes (all administered by [BRA](https://bra.gov.bb/)).
+- **Property Transfer Tax Act, Cap. 84A** + **Stamp Duty Act, Cap. 91** + **Land Tax Act, Cap. 78A** — transaction + holding taxes (Land Tax Act, Cap.78A on the [BRA legislation index](https://bra.gov.bb/About/Legislation-Regulations); Cap. 84A text at the [Office of the Attorney General](https://oag.gov.bb/attachments/Property%20Transfer%20Tax%20(Amendment)%20Act,%202018-45.pdf), Cap. 91 + Cap. 84A also listed at [CAIPO](https://caipo.gov.bb/legislation)).
 - **Immigration Act, Cap. 190** + **Welcome Stamp regulations** + **Special Entry & Reside Permit (SERP) framework** — residency routes.
 
 ### Buyer category matrix
@@ -243,7 +243,7 @@ Governed by the **Land Tax Act, Cap. 78A** + the **Land Tax (Rate of Tax) Order,
 
 ### Property Transfer Tax (PTT) — one-time at sale
 
-Governed by the **Property Transfer Tax Act, Cap. 84A**. Administered by [BRA](https://bra.gov.bb/).
+Governed by the **Property Transfer Tax Act, Cap. 84A** ([statute id + amending Act at the Office of the Attorney General](https://oag.gov.bb/attachments/Property%20Transfer%20Tax%20(Amendment)%20Act,%202018-45.pdf); also listed at [CAIPO](https://caipo.gov.bb/legislation)). Administered by [BRA](https://bra.gov.bb/).
 
 | Transaction | PTT rate |
 |---|---|

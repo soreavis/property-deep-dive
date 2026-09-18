@@ -173,7 +173,7 @@ Sources:
 - From **1 January 2025**: derelict glasshouses, derelict glasshouse land, and unoccupied domestic + commercial buildings are charged at **5× the standard TRP tariff**. Source: [States Voting Records — Annual Budget 2024](https://statesvoting-records.gov.gg/Propositions/Details/1163).
 - For 2025, **TRP on domestic + commercial buildings + land increased by 3.2%** across the board. Source: [Collas Crill — 2025 Budget](https://www.collascrill.com/articles/how-does-the-2025-guernsey-budget-affect-you-and-your-property/).
 
-**Direct Debit payment frequency** changed in recent years — see [gov.gg article 176182](https://gov.gg/article/176182/Change-in-frequency-of-Direct-Debit-payments-for-Tax-on-Real-Property).
+**Direct Debit payment frequency**: TRP Direct Debits moved from quarterly to monthly collection from March 2020 (2020 announcement, source States of Guernsey) — see [gov.gg article 176182, 3 Feb 2020](https://gov.gg/article/176182/Change-in-frequency-of-Direct-Debit-payments-for-Tax-on-Real-Property).
 
 **Compute** (example only — verify with 2026 PDF tariff table for current year):
 - Domestic dwelling TRP unit count is set per parcel by the Cadastre / Revenue

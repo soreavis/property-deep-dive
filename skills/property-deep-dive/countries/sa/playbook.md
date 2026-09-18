@@ -207,7 +207,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 | **Annual property tax on developed residential** | **NONE** | — | — |
 | **Municipality services fees** (cleaning, lighting) | Bundled into utility bills (small SAR sums) | — | Per municipality |
 | **Vacant Property / Vacancy Levy** | **PROPOSED 2024 — pending** ([SPA news 2024](https://www.spa.gov.sa/)) | TBD | Not yet enacted; monitor |
-| **Zakat on land/property held for trading** | **2.5%** of net wealth | Applies to Muslim Saudi/GCC nationals on inventory + investment property held for trading | [ZATCA Zakat](https://zatca.gov.sa/en/RulesRegulations/Zakat/) |
+| **Zakat on land/property held for trading** | **2.5%** of the Zakat Base (2026 data, source ZATCA art. 15) | Applies to Muslim Saudi/GCC nationals on inventory + investment property held for trading | [ZATCA — Implementing Regulations for Zakat Collection, art. 15 + art. 48(8)-(9)](https://zatca.gov.sa/en/RulesRegulations/Documents/ZAKAT%20COLLECTION.pdf) |
 
 ### White Land Tax — practical detail
 

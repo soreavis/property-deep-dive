@@ -638,7 +638,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ### Climate-transition exposure
 
-- **Estratègia Energètica i de Lluita contra el Canvi Climàtic** (Llei 21/2018) + **Estratègia 2050**: net-zero by 2050 ([Govern energia](https://www.energia.ad/) — ❌ DEPRECATED — primary source removed; verify with BOPA / govern.ad)
+- **Estratègia Energètica i de Lluita contra el Canvi Climàtic** (Llei 21/2018) + **Estratègia 2050**: net-zero by 2050 ([Govern d'Andorra — La Litecc](https://www.govern.ad/ca/ministeris-i-secretaries-d-estat/ministeri-de-medi-ambient-agricultura-i-ramaderia/convenis-i-normativa/la-litecc); law as published at [BOPA 30/57](https://www.bopa.ad/bopa/030057/Pagines/CGL20180928_13_54_03.aspx)) (2026 data, source Govern d'Andorra)
 - FEDA decarbonising electricity (hydro + EU import mix); thermal-envelope + heat-pump shift accelerating
 - **CEE (Certificat d'Eficiència Energètica)** A–G mandatory at sale/lease per Llei d'eficiència energètica 2018
 

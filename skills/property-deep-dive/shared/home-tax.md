@@ -190,7 +190,7 @@ ITTOIA 2005 §§ 264-265 (overseas property business chargeable only if carried 
 Residential, individuals, post-30 Oct 2024 Budget cut: basic rate 18%, **higher/additional 24%** (cut from 28%). Annual exempt amount £3,000 (2025-26) — slashed from £12,300 (2022-23). PPR relief § 222-223; § 222(5) nomination required where > 1 residence (**2 years** from new combination — Griffin v Craig-Harvey); § 223 final-period relief 9 months. § 222B/§ 222C overseas residence eligible only if not a "non-qualifying tax year". § 222(5A) saves late nominations only where taxpayer didn't realise they had two PPRs.
 
 ### Forex in CGT — Bentley v Pike controlling
-***Bentley v Pike*** [1981] STC 360 — **sterling is the only permissible unit of account**; foreign-currency cost translated at acquisition-date rate, proceeds at disposal-date rate. No US § 988-style bifurcation; currency movement is part of chargeable gain. HMRC manual [CG78310 foreign currency](https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg78310). Foreign mortgage repayment: any £ "saving" on weak-£ acquisition followed by strong-£ disposal increases the £ gain even if foreign-currency P&L is flat. Operational consequence: refinance during weak £ period locks in higher base cost (helpful); dispose during strong £ period accelerates gain (painful).
+***Bentley v Pike*** [1981] STC 360 (53 TC 590) — **sterling is the only permissible unit of account**; foreign-currency cost translated at acquisition-date rate, proceeds at disposal-date rate. No US § 988-style bifurcation; currency movement is part of chargeable gain. HMRC manual [CG78310 foreign currency](https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg78310). Foreign mortgage repayment: any £ "saving" on weak-£ acquisition followed by strong-£ disposal increases the £ gain even if foreign-currency P&L is flat. Operational consequence: refinance during weak £ period locks in higher base cost (helpful); dispose during strong £ period accelerates gain (painful).
 
 ### IHT — residence-based from 6 Apr 2025
 **Pre-6 Apr 2025**: domicile-based — UK-doms taxed worldwide; non-doms taxed UK-situs only. Deemed-dom 15/20.
@@ -667,7 +667,7 @@ Spouse exempt in essentially all cantons; children exempt in most (taxed in BL, 
 
 ### MAJOR REFORM — Eigenmietwert ABOLISHED
 - **Vote**: 28 Sept 2025, **57.7% Yes** — constitutional amendment + new Federal Decree on cantonal property taxes on second homes.
-- **Implementation**: **1 January 2029** per Federal Council. ([admin.ch](https://www.admin.ch/gov/en/start/documentation/votes/20250928/federal-decree-on-cantonal-property-taxes-on-second-homes.html))
+- **Implementation**: **1 January 2029**, set by Federal Council decision of 1 Apr 2026 (2026 data, source [admin.ch media release](https://www.admin.ch/de/newnsb/yGTqBPowRqyVh0zPokW-q); German only — `https://www.admin.ch/en/newnsb/yGTqBPowRqyVh0zPokW-q` returns the English portal landing, "this content is not available in English").
 - **Effect on foreign property**: imputed rental of foreign owner-occupied home no longer included for rate progression after Jan 2029; foreign property still declarable for **wealth tax progression**.
 - **Mortgage interest deduction** also abolished in tandem; transitional 10-year tapered deduction for first-time buyers (married couple: CHF 10k year 1, declining CHF 1k/year to zero).
 - **Maintenance/renovation deductions** also abolished.
