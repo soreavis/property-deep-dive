@@ -114,9 +114,9 @@ AMD, EUR/AMD ≈ 415–435 (Q1 2026 CBA, managed-float). Not in eurozone; no fir
 
 ### Annual property tax — Real Estate Tax / Անշարժ գույքի հարկ (Tax Code Section 13, Articles 224–238 as amended)
 
-Governed by [Tax Code of the Republic of Armenia](https://www.src.am/en/) Section 13 + **Law HO-185-N of 25 December 2020** which introduced the major Real Estate Tax reform effective 1 January 2021 with phased implementation through 2026. Rate **set as progressive AMD-bracket scale on cadastral value approaching market**, levied at **community level**:
+Governed by [Tax Code of the Republic of Armenia](https://www.src.am/en/) Section 13 + **[Law HO-332-N, adopted 25 June 2020](https://www.arlis.am/hy/acts/143904)** (signed 30 June 2020, ՀՀՊՏ 2020.06.30/73(1628)) which introduced the major Real Estate Tax reform **in force 1 January 2021**, phased at 25 % of full rate for 2021, 30 % for 2022, 35 % for 2023, 50 % for 2024, 75 % for 2025 and 100 % from 2026 *(2026-09-18 verified, source ARLIS — Armenian Legal Information System)*. Rate **set as progressive AMD-bracket scale on cadastral value approaching market**, levied at **community level**:
 
-**Residential apartments — 6 brackets (HO-185-N regime, Tax Code Art. 230; 2026-05-27 verified, source armenian-lawyer.com 2025 property-tax guide cross-checked vs src.am)**:
+**Residential apartments — 6 brackets (HO-332-N regime, Tax Code Art. 230; 2026-05-27 verified, source armenian-lawyer.com 2025 property-tax guide cross-checked vs src.am)**:
 
 | Cadastral value bracket (AMD) | Rate |
 |---|---|
@@ -129,9 +129,9 @@ Governed by [Tax Code of the Republic of Armenia](https://www.src.am/en/) Sectio
 
 **Houses use a separate bracket schedule** (Tax Code Art. 230; 2026-05-27 verified, source armenian-lawyer.com): cut-offs at AMD 7M / 23M / 50M / 85M / 200M (not the apartment ones); confirm exact rate steps at src.am before final per-house computation. JAMnews-cited "1.5%" top rate conflates commercial schedule — residential cap is 1.0%.
 
-**Phased implementation 2021–2026**: HO-185-N introduced a phase-in coefficient applied to the calculated tax — 25% in 2021, 30% in 2022, 35% in 2023, 50% in 2024, 75% in 2025, **100% from 2026 onward** (verify current schedule via src.am — the headline reform is fully phased in for tax year 2026).
+**Phased implementation 2021–2026**: HO-332-N introduced a phase-in coefficient applied to the calculated tax — 25% in 2021, 30% in 2022, 35% in 2023, 50% in 2024, 75% in 2025, **100% from 2026 onward** (verify current schedule via src.am — the headline reform is fully phased in for tax year 2026).
 
-**Cadastral value** maintained by Cadastre Committee on a market-approximation methodology since the HO-185-N reform — designed to converge to ~80–90% of market price for resale apartments (vs. pre-2021 nominal cadastral values often <30% of market). **Key 2026 effect**: full-rate first calendar year — many Yerevan owners will see materially higher property tax bills than 2024–2025 baselines.
+**Cadastral value** maintained by Cadastre Committee on a market-approximation methodology since the HO-332-N reform — designed to converge to ~80–90% of market price for resale apartments (vs. pre-2021 nominal cadastral values often <30% of market). **Key 2026 effect**: full-rate first calendar year — many Yerevan owners will see materially higher property tax bills than 2024–2025 baselines.
 
 **Land tax** — separate (Tax Code Art. 235):
 - Agricultural land: per-hectare fixed rates by zone (cadastral category) — typically AMD 1,000–15,000/ha depending on irrigation + zone classification
@@ -139,7 +139,7 @@ Governed by [Tax Code of the Republic of Armenia](https://www.src.am/en/) Sectio
 
 ### Example calculation
 
-A US$200,000 (≈ AMD 73.6M at 368 AMD/USD, 2026-05-27 verified) Yerevan Kentron 2-bed apartment, Cadastre Committee cadastral value ~AMD 66M (~90% of market in HO-185-N regime):
+A US$200,000 (≈ AMD 73.6M at 368 AMD/USD, 2026-05-27 verified) Yerevan Kentron 2-bed apartment, Cadastre Committee cadastral value ~AMD 66M (~90% of market in HO-332-N regime):
 
 - Apartment falls in **AMD 47M–120M bracket** (AMD 66M):
   - Calculated annual tax = AMD 64,000 + 0.4% × (66,000,000 – 47,000,000) = AMD 64,000 + AMD 76,000 = **AMD 140,000/yr**
@@ -150,7 +150,7 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 - Falls in `> AMD 200M` bracket
 - Calculated annual tax = AMD 836,000 + 1.0% × (221,000,000 – 200,000,000) = AMD 1,046,000 (~US$2,840 / ~€2,600) at full 2026 phase-in
 
-> Property tax in Armenia under HO-185-N is materially higher than the pre-2021 regime but still moderate by W. European standard. **2026 first-full-year effect** is the dominant variable for prospective buyers — verify per Cadastre Committee extract before underwriting.
+> Property tax in Armenia under HO-332-N is materially higher than the pre-2021 regime but still moderate by W. European standard. **2026 first-full-year effect** is the dominant variable for prospective buyers — verify per Cadastre Committee extract before underwriting.
 
 ### Transaction taxes (one-time at purchase)
 
@@ -198,7 +198,7 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 
 ### Future risk
 
-- **HO-185-N Real Estate Tax 2026 first-full-year effect**: many owners see materially higher bills than 2025 baseline; market-pricing impact still unfolding 2026
+- **HO-332-N Real Estate Tax 2026 first-full-year effect**: many owners see materially higher bills than 2025 baseline; market-pricing impact still unfolding 2026
 - **CEPA implementation deepening** (in force March 2021) drives EU-aligned reforms; expect tightening of beneficial-ownership transparency over 2026–2030 horizon
 - **CSTO frozen February 2024** — geopolitical realignment may eventually impact foreign-buyer rules; no concrete bill 2026
 - **Tax Code amendments** announced periodically via amendment laws; monitor `https://www.src.am/` + `https://www.parliament.am/` (National Assembly) + Government decisions
@@ -361,7 +361,7 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 | **1988–2000 (Spitak + post-Spitak crisis era)** | Reconstruction phase — new code SNiP RA II-2.02-94 enforced; mixed quality; Soviet-collapse + 1990s economic crisis impacted finishing standards |
 | **2000–2010 (post-crisis recovery)** | Building boom Yerevan; quality varies; private-sector "narrow-front" infill common in Kentron — verify permits |
 | **2010–2020 (mature recovery)** | Modern code; energy-efficiency requirements emerging |
-| **2020–present (HO-185-N era + post-2020 Karabakh + Russian-relocant)** | Updated seismic code 2020 + EPC-equivalent emerging; HO-185-N RE-tax reform; relocant-driven new-build pipeline Yerevan Kentron + Davtashen + Achapnyak; quality strong on top-tier developers, mixed on mid-tier |
+| **2020–present (HO-332-N era + post-2020 Karabakh + Russian-relocant)** | Updated seismic code 2020 + EPC-equivalent emerging; HO-332-N RE-tax reform; relocant-driven new-build pipeline Yerevan Kentron + Davtashen + Achapnyak; quality strong on top-tier developers, mixed on mid-tier |
 
 **Asbestos**: pre-2005 likely in roofing + insulation + heating-pipe insulation; no national mandatory removal regime — buyer due diligence required.
 
@@ -669,7 +669,7 @@ Armenia is **civil-law**; **notary** (`notar`) mandatory for any immovable-prope
 
 | Country | Foreign-buyer rule | Acquisition cost (typical) | Annual recurring | Yield (2024) | Currency |
 |---|---|---:|---:|---:|---|
-| **🇦🇲 Armenia** | Open (residential); ag banned for foreign individuals | 0.1–0.5% | 0.05–1.0% × cadastral value (HO-185-N progressive) | ~5–8% Yerevan | AMD managed-float |
+| **🇦🇲 Armenia** | Open (residential); ag banned for foreign individuals | 0.1–0.5% | 0.05–1.0% × cadastral value (HO-332-N progressive) | ~5–8% Yerevan | AMD managed-float |
 | **🇬🇪 Georgia** | Open (residential); ag banned post-2017 | 0.1–0.5% | 0–1% × market (income-threshold) | ~6–10% Tbilisi | GEL managed-float |
 | **🇦🇿 Azerbaijan** | Open w/ permit; ag banned for foreigners | 1–3% | low | ~5–7% Baku | AZN dollar-pegged |
 | **🇹🇷 Türkiye** | Open w/ reciprocity; min purchase USD 200k for residence | ~5–8% | ~0.1–0.6% × market | ~5–8% Istanbul | TRY free-float (volatile) |
@@ -682,7 +682,7 @@ Armenia is **civil-law**; **notary** (`notar`) mandatory for any immovable-prope
 - **180-day visa-free for ~92 nationalities** — most permissive in the immediate region after Georgia (365 days)
 - **Investor Residence at AMD 50M (~US$130k) property purchase** — among the lowest property-investor thresholds globally; comparable to Georgia (US$100k) and materially below most EU programmes
 - **Diaspora-citizenship pathway** (Law on Citizenship Art. 13) gives ethnic Armenian descent applicants direct citizenship route — unique structural advantage for diaspora property buyers
-- **HO-185-N Real Estate Tax 2026 first-full-year effect**: materially raises annual carrying cost vs 2025 baseline; pricing impact still unfolding
+- **HO-332-N Real Estate Tax 2026 first-full-year effect**: materially raises annual carrying cost vs 2025 baseline; pricing impact still unfolding
 - **War-spillover risk premium**: 2020 + 2023 Karabakh demonstrated meaningful tail risk; Azerbaijan border tension (Tavush/Syunik) and CSTO suspension elevate political-risk loading; insurance + cash-purchase prevalence reflect
 - **IT-sector 1% turnover regime** (HO-105-N to 2031): unique in region for foreign IT-relocant property buyers; materially competitive vs Georgia Virtual Zone + Romania flat-12% IT
 - **Russian-relocant 2022–2024 wave**: drove ~50% peak nominal Yerevan price appreciation 2021–2023; partial reversal 2024–2026; structural overhang on supply
@@ -712,7 +712,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 - **Foreign-source pension income**: typically taxed at **20% PIT** if AM-resident (Tax Code Art. 150); **double-tax treaties** (Russia, Iran, Greece, Bulgaria, China, India, Romania, Cyprus, Germany, France, UK, US — verify per source country) may credit/exempt
 - **Individual-to-individual residential sale: EXEMPT from PIT** under Tax Code Art. 147(1)(16) regardless of holding period (2026-05-27 verified, source PwC + armenian-lawyer.com); 10% WHT on price applies only when the buyer is a legal entity / sole-proprietor acting as tax agent
 - **No wealth tax**, no inheritance tax — Armenia doesn't levy estate/inheritance tax (verify per Tax Code; intra-family transfers typically exempt)
-- **HO-185-N Real Estate Tax** (annual property tax, fully phased in 2026) is the dominant carrying cost — material for high-value Yerevan Kentron retirees
+- **HO-332-N Real Estate Tax** (annual property tax, fully phased in 2026) is the dominant carrying cost — material for high-value Yerevan Kentron retirees
 
 ### Healthcare access
 
@@ -722,7 +722,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 
 ### Verdict for retirement-first buyers
 
-🟡 **Watch** — viable for diaspora returnees + budget-conscious EU/US retirees willing to bridge to Türkiye/Russia/Israel/Germany for tertiary healthcare; strong fit for cultural-heritage + Armenian-Apostolic-Church-engaged retirees + Caucasus-cycle expat retirees. Best fit: diaspora returnees, Armenian-language/heritage retirees, semi-retired with private health insurance + flexible international medical access. Friction: thin specialist healthcare market, geopolitical tail risk (Azerbaijan border, CSTO suspension), HO-185-N RE-tax 2026 first-full-year cost increase.
+🟡 **Watch** — viable for diaspora returnees + budget-conscious EU/US retirees willing to bridge to Türkiye/Russia/Israel/Germany for tertiary healthcare; strong fit for cultural-heritage + Armenian-Apostolic-Church-engaged retirees + Caucasus-cycle expat retirees. Best fit: diaspora returnees, Armenian-language/heritage retirees, semi-retired with private health insurance + flexible international medical access. Friction: thin specialist healthcare market, geopolitical tail risk (Azerbaijan border, CSTO suspension), HO-332-N RE-tax 2026 first-full-year cost increase.
 
 ---
 
@@ -788,7 +788,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 
 ### IMF Article IV (latest)
 
-[IMF 2024 Article IV](https://www.imf.org/en/Countries/ARM) flags: Russian-relocant-shock normalisation, EU-conditionality reform pace, Karabakh-displacement integration, geopolitical risks (Azerbaijan border, CSTO transition), banking-sector resilience post-Ameriabank/HSBC consolidation. Property-market: Yerevan 2021–2023 boom, 2024–2026 plateau / mild correction; structural HO-185-N tax-cost increase 2026 first-full-year.
+[IMF 2024 Article IV](https://www.imf.org/en/Countries/ARM) flags: Russian-relocant-shock normalisation, EU-conditionality reform pace, Karabakh-displacement integration, geopolitical risks (Azerbaijan border, CSTO transition), banking-sector resilience post-Ameriabank/HSBC consolidation. Property-market: Yerevan 2021–2023 boom, 2024–2026 plateau / mild correction; structural HO-332-N tax-cost increase 2026 first-full-year.
 
 ---
 
@@ -871,7 +871,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 - **Average days on market 2024**: ~45–120 days Yerevan mid-tier; 90–240 days Gyumri / Vanadzor; rural village houses can sit 1–3+ years
 - **Cyclical sensitivity**: Armenian secondary market is **moderately liquid in Yerevan**, **thin elsewhere** — annual transactions nationally ~30–45k (Cadastre Committee) vs ~1.5M registered immovables; turnover ratio ~2–3%/yr
 - **2021–2023 Russian-relocant boom**: drove ~50% peak nominal Yerevan appreciation; transactions volumes peaked 2022–2023
-- **2024–2026 plateau / mild correction**: Russian-relocant outflow + supply-pipeline absorption + HO-185-N RE-tax 2026 first-full-year cost increase combined effect
+- **2024–2026 plateau / mild correction**: Russian-relocant outflow + supply-pipeline absorption + HO-332-N RE-tax 2026 first-full-year cost increase combined effect
 
 ### Exit-cost stack (seller side)
 
@@ -890,7 +890,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 |---|---|---|
 | Yerevan Kentron new-build (US$2,200–US$3,500/m²) | 🟡 selective | Diaspora-return + IT-relocant + Russian-relocant exit + premium pool; 60–120 days typical |
 | Yerevan Arabkir/Davtashen mid-tier | 🟢 strong | Largest stock, perpetual buyer pool incl. local upgraders; 30–90 days typical |
-| Yerevan Erebuni/Malatia outer + panelka | 🟡 watch | Thin retrofit-debt; pre-1988 stock uneven; HO-185-N RE-tax progressive impact varies by cadastral value |
+| Yerevan Erebuni/Malatia outer + panelka | 🟡 watch | Thin retrofit-debt; pre-1988 stock uneven; HO-332-N RE-tax progressive impact varies by cadastral value |
 | Yerevan Old Quarter / Kond heritage | 🟠 thin | Renovation restrictions + small buyer pool |
 | Gyumri + Vanadzor mid-tier | 🟡 selective | Population decline; 90–240 days |
 | Tavush / Syunik / Vayots Dzor border-zone | 🟠 niche | Geopolitical risk premium; thin buyer pool |
@@ -899,7 +899,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 
 ### Verdict for exit risk
 
-🟡 for Yerevan mid-tier; 🟢 for in-demand Arabkir/Davtashen commuter stock; 🟠 for rural + secondary-city + heritage + border-zone. **2022–2023 Russian-relocant buyers**: appreciation realised but exit liquidity cools 2024–2026 as cohort partial reversal proceeds. **HO-185-N 2026 first-full-year RE-tax increase** is the key carrying-cost variable; net-yield compression may motivate partial sell-down by yield-focused investors. **Geopolitical tailwind/headwind**: CSTO-suspension realignment + EU candidacy discussion 2024–2026 could materially reprice over multi-year horizon — both directions plausible.
+🟡 for Yerevan mid-tier; 🟢 for in-demand Arabkir/Davtashen commuter stock; 🟠 for rural + secondary-city + heritage + border-zone. **2022–2023 Russian-relocant buyers**: appreciation realised but exit liquidity cools 2024–2026 as cohort partial reversal proceeds. **HO-332-N 2026 first-full-year RE-tax increase** is the key carrying-cost variable; net-yield compression may motivate partial sell-down by yield-focused investors. **Geopolitical tailwind/headwind**: CSTO-suspension realignment + EU candidacy discussion 2024–2026 could materially reprice over multi-year horizon — both directions plausible.
 
 ---
 
@@ -948,7 +948,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 - **Foreigners CAN buy residential freehold without restriction** (Civil Code Art. 184 + Law on Real Property of 1999) — among the most permissive globally
 - **Foreigners CANNOT own agricultural land** (Land Code Art. 4) — only Armenian citizens, Armenian legal entities, State, communities; LLC workaround common but title contestable
 - **Transaction costs ~0.1–0.5%** — among the world's lowest (state duty 0.05% + nominal notary fee + cadastre fee)
-- **HO-185-N Real Estate Tax 2026 first-full-year effect**: annual property tax materially higher than 2024–2025 baseline; verify per Cadastre Committee extract before underwriting
+- **HO-332-N Real Estate Tax 2026 first-full-year effect**: annual property tax materially higher than 2024–2025 baseline; verify per Cadastre Committee extract before underwriting
 - **Individual-to-individual residential sale fully PIT-exempt under Art. 147(1)(16)** — no holding-period test (2026-05-27 verified, source PwC + armenian-lawyer.com); 10% WHT on price applies only when buyer is a legal entity / sole-proprietor acting as tax agent
 - **20% flat PIT** since 2023 (vs prior progressive system)
 - **HO-105-N IT Sector 1% turnover regime through 2031** — uniquely competitive in region for IT-relocant buyers
@@ -1007,7 +1007,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 - **"Tuff-stone" Yerevan**: distinctive volcanic-rock cladding (pink/grey/black tuff) characteristic of Yerevan stalinka + post-Soviet stock; thermal-mass benefit + heritage character; tuff-cladding restoration cost premium for heritage listings
 - **Heat-network "jermut'yun" residual**: thin remnant in some Soviet-era Yerevan blocks; individual gas boilers ("inknavar") dominant
 - **Spitak earthquake 1988 baseline**: dominant residual seismic risk anchor; pre-1988 panelka stock requires structural survey
-- **HO-185-N RE-tax progressive scale**: bracket sensitivity at boundaries (AMD 10M, 25M, 47M, 120M, 200M for apartments; separate 7M/23M/50M/85M/200M for houses per Tax Code Art. 230); 2026 first-full-year cost increase
+- **HO-332-N RE-tax progressive scale**: bracket sensitivity at boundaries (AMD 10M, 25M, 47M, 120M, 200M for apartments; separate 7M/23M/50M/85M/200M for houses per Tax Code Art. 230); 2026 first-full-year cost increase
 - **Diaspora buyer pattern**: many Yerevan apartments held by emigrant owners (Russia, US, France, Argentina) and managed by local relatives — verify owner is signing personally OR via apostilled PoA
 - **Russian-relocant 2022–2024 cohort**: drove price appreciation; partial 2024–2026 reversal; supply overhang in Yerevan Kentron premium segment
 - **CSTO suspension Feb 2024**: geopolitical realignment ongoing; EU candidacy discussion 2024–2026
@@ -1052,16 +1052,16 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Tax Code Art. 147(1)(16) individual-to-individual residential PIT-exemption; 10% WHT on price when buyer is legal entity / sole-proprietor tax agent (residential), 20% commercial; Tax Code Art. 230 property-tax brackets — separate schedules for apartments vs houses; CBA refinancing rate 6.5% (2026-05-27, source cba.am) following cutting cycle from 2024 ~10% peak; AMD ~368/USD ~395-410/EUR May 2026 per CBA reference rate). MEDIUM on parcel-level cadastre exact apartment vs house classification (verify at src.am for any specific deal), 2026 CBA forward-rate path, and recharacterisation risk for business-pattern traders (individual sales with high frequency may be re-classified as entrepreneurial income). LOW on residential listing benchmarks (no national HPI; List.am + Spyur aggregator-grade with broker bias).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (real-estate-tax reform law corrected 2026-09-18 — HO-332-N of 25 June 2020, not HO-185-N of 25 December 2020, per ARLIS)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Primary sources verified — Civil Code Art. 184 + Art. 295 (residential foreign ownership open, mandatory notary), Land Code Art. 4 (foreign ag-land ban), Law on Real Property of 1999 + Law on State Registration HO-295-N (1999 Cadastre framework), Tax Code Art. 64 + 147 + 150 + 158 + Section 13 Articles 224–238 + Law HO-185-N of 25 December 2020 (Real Estate Tax progressive scale phased through 2026 to 100% coefficient), Law on Foreigners Art. 18.4 (Investor Residence AMD 50M ~US$130k) + Art. 21 (Special Residence 10-year for ethnic Armenians), Law on Citizenship Art. 13 (descent + 3-yr naturalisation; dual citizenship since 2007), Law HO-105-N "On State Support to IT Sector" (1% turnover regime extended to 31 December 2031), Law HO-80-N 2008 on AML (cash limit AMD 500,000), CEPA in force 1 March 2021, CSTO frozen February 2024, Spitak 1988 Mw 6.8 baseline + SNiP RA II-2.02-94 (1994) + 2020 update seismic code, NSSP microzoning Yerevan + Gyumri + Vanadzor. **Geopolitical context (2020 + 2023 Karabakh, ~120k displaced Sept 2023, Azerbaijan border tension Tavush/Syunik/Vayots Dzor, CSTO suspension Feb 2024, EU candidacy under discussion 2024–2026)** integrated as material risk + repricing variable; written non-partisan, factual. **Russian-relocant 2022–2024 wave** documented as drove ~50% peak nominal Yerevan appreciation 2021–2023 with 2024–2026 partial reversal. **HO-185-N first-full-year 2026 RE-tax effect** flagged repeatedly as dominant 2026 carrying-cost variable. **Re-verify each annual budget law amendment** for Tax Code (especially Art. 230 RE-tax brackets), CBA refinancing rate decisions, PSRC tariff schedules, Cadastre Committee tariffs, HO-105-N IT-sector eligibility scope. **Watch list 2026**: HO-185-N implementation actuals vs forecast tax bills, EU candidacy formalisation milestones (if any), Azerbaijan border status, CSTO formal exit progression, Russian-relocant cohort net-flow direction, HSBC Armenia exit completion + bank-sector consolidation. **Transnistria-equivalent zone**: none — Karabakh fully under Azerbaijani control post-Sept 2023 (out of Armenian cadastral scope by international consensus).
+**Notes**: Primary sources verified — Civil Code Art. 184 + Art. 295 (residential foreign ownership open, mandatory notary), Land Code Art. 4 (foreign ag-land ban), Law on Real Property of 1999 + Law on State Registration HO-295-N (1999 Cadastre framework), Tax Code Art. 64 + 147 + 150 + 158 + Section 13 Articles 224–238 + Law HO-332-N of 25 June 2020 (Real Estate Tax progressive scale phased through 2026 to 100% coefficient), Law on Foreigners Art. 18.4 (Investor Residence AMD 50M ~US$130k) + Art. 21 (Special Residence 10-year for ethnic Armenians), Law on Citizenship Art. 13 (descent + 3-yr naturalisation; dual citizenship since 2007), Law HO-105-N "On State Support to IT Sector" (1% turnover regime extended to 31 December 2031), Law HO-80-N 2008 on AML (cash limit AMD 500,000), CEPA in force 1 March 2021, CSTO frozen February 2024, Spitak 1988 Mw 6.8 baseline + SNiP RA II-2.02-94 (1994) + 2020 update seismic code, NSSP microzoning Yerevan + Gyumri + Vanadzor. **Geopolitical context (2020 + 2023 Karabakh, ~120k displaced Sept 2023, Azerbaijan border tension Tavush/Syunik/Vayots Dzor, CSTO suspension Feb 2024, EU candidacy under discussion 2024–2026)** integrated as material risk + repricing variable; written non-partisan, factual. **Russian-relocant 2022–2024 wave** documented as drove ~50% peak nominal Yerevan appreciation 2021–2023 with 2024–2026 partial reversal. **HO-332-N first-full-year 2026 RE-tax effect** flagged repeatedly as dominant 2026 carrying-cost variable. **Re-verify each annual budget law amendment** for Tax Code (especially Art. 230 RE-tax brackets), CBA refinancing rate decisions, PSRC tariff schedules, Cadastre Committee tariffs, HO-105-N IT-sector eligibility scope. **Watch list 2026**: HO-332-N implementation actuals vs forecast tax bills, EU candidacy formalisation milestones (if any), Azerbaijan border status, CSTO formal exit progression, Russian-relocant cohort net-flow direction, HSBC Armenia exit completion + bank-sector consolidation. **Transnistria-equivalent zone**: none — Karabakh fully under Azerbaijani control post-Sept 2023 (out of Armenian cadastral scope by international consensus).
 
 ## Extension TODOs (deepen on first real run)
 
-- [ ] Per-Yerevan-district HO-185-N cadastral-value calibration database (90% baseline currently inferred from Cadastre Committee methodology guidance; verify per-segment empirical samples)
-- [ ] HO-185-N 2026 first-full-year actual tax-bill audit (collect Q1 2026 owner sample for calibration)
+- [ ] Per-Yerevan-district HO-332-N cadastral-value calibration database (90% baseline currently inferred from Cadastre Committee methodology guidance; verify per-segment empirical samples)
+- [ ] HO-332-N 2026 first-full-year actual tax-bill audit (collect Q1 2026 owner sample for calibration)
 - [ ] HO-105-N IT-sector eligibility checklist for foreign IE-registered solo founders (2031 sunset risk planning)
 - [ ] NSSP seismic-microzoning parcel-level certification request walkthrough for Yerevan + Gyumri + Vanadzor
 - [ ] Diaspora-buyer due diligence checklist (apostilled PoA + Russia/US/France/Argentina source-of-funds patterns)

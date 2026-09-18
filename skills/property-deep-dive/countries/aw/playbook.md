@@ -406,7 +406,7 @@ MEDIUM — system-level figures (CBA bulletins + bank product sheets) HIGH; non-
 
 ### Currency status
 
-- **Aruban florin (AWG / Afl.)** — pegged to **USD at AWG 1.79 = USD 1.00** since 1986 ([Centrale Bank van Aruba](https://www.cbaruba.org/); [Wikipedia Aruban florin reference, multi-source, 1986–present](https://en.wikipedia.org/wiki/Aruban_florin); HIGH confidence, ~40-year peg track record)
+- **Aruban florin (AWG / Afl.)** — pegged to **USD at AWG 1.79 = USD 1.00** since 1986 ([Centrale Bank van Aruba — A brief history](https://www.cbaruba.org/cba/getPage.do?page=ABOUT_US_HISTORY): "pegged to the U.S. dollar at a rate of Afl. 1.79 = US$ 1.00. This exchange rate has remained unchanged since then." (2026 data, source CBA, verified 2026-09-18); HIGH confidence, ~40-year peg track record)
 - Peg administered by **Centrale Bank van Aruba (CBA)** — prudential reserve requirements + FX management
 - USD circulates freely alongside AWG in retail + tourism; large-ticket real-estate transactions often dual-quoted / executed in USD
 - **NOT in the Eurozone**; **NOT in EU customs union** (OCT status)

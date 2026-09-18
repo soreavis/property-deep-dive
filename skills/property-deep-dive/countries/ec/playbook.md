@@ -12,7 +12,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 - **Cadastre**: **Decentralized at municipal (cantón) level** — there is **NO single national cadastre**. Each **GAD Municipal** ([Gobiernos Autónomos Descentralizados](https://www.gob.ec/)) maintains its own *catastro urbano + rural*. Major cities expose web portals: [Catastro Quito (DMQ)](https://www.quito.gob.ec/), [Catastro Guayaquil](https://www.guayaquil.gob.ec/), [Catastro Cuenca](https://www.cuenca.gob.ec/). National coordination via **SENPLADES** (national planning) + GeoCatastro initiatives but no unified portal as of 2026
 - **Land registry**: **Registro de la Propiedad** per cantón (separate from Catastro Municipal); supervised nationally by [DINARDAP — Dirección Nacional de Registros Públicos](https://www.dinardap.gob.ec/) since 2010 reform
 - **Identifier**: parcel-level **Clave Catastral** (per Municipio) + **Predio Number** + **Inscripción del Registro de la Propiedad** (legal title). Both required for clean diligence
-- **Foreign-buyer regime** (CRITICAL): **OPEN** — Ecuador imposes no general prohibition on foreign ownership of residential/urban property; foreigners buy freely in Quito, Guayaquil, Cuenca, Manta, Salinas, Ambato, Loja core urban areas. **RESTRICTED zones**: [Constitución art. 405](https://www.gob.ec/) bars foreign natural/legal persons from acquiring land or concessions *"en las áreas de seguridad nacional ni en áreas protegidas"*, so the 50 km international-border strip + Galápagos + protected/national-security areas require prior **autorización de SECOB / Comando Conjunto de las Fuerzas Armadas** under [Ley de Seguridad Pública y del Estado](https://www.gob.ec/)
+- **Foreign-buyer regime** (CRITICAL): **OPEN** — Ecuador imposes no general prohibition on foreign ownership of residential/urban property; foreigners buy freely in Quito, Guayaquil, Cuenca, Manta, Salinas, Ambato, Loja core urban areas. **RESTRICTED zones**: [Constitución art. 405](https://votoenelexterior.cne.gob.ec/wp-content/uploads/2026/01/CONSTITUCION-DE-LA-REPUBLICA-DEL-ECUADOR.pdf) bars foreign natural/legal persons from acquiring land or concessions *"en las áreas de seguridad nacional ni en áreas protegidas"*, so the 50 km international-border strip + Galápagos + protected/national-security areas require prior **autorización de SECOB / Comando Conjunto de las Fuerzas Armadas** under [Ley de Seguridad Pública y del Estado](https://www.gob.ec/)
 
 ## Section: `--price`
 
@@ -111,7 +111,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### IVA (Impuesto al Valor Agregado)
 
-- **Standard 15 %** since **1 Apr 2024** (raised from 12 % under [Decreto Ejecutivo 198/2024](https://www.sri.gob.ec/impuesto-al-valor-agregado-iva) + [Ley Orgánica para Enfrentar el Conflicto Armado Interno](https://www.gob.ec/), Mar 2024 — security funding) *(2026-07-11 verified, source SRI)*
+- **Standard 15 %** since **1 Apr 2024** (raised from 12 % under [Decreto Ejecutivo 198/2024](https://www.sri.gob.ec/impuesto-al-valor-agregado-iva) + [Ley Orgánica para Enfrentar el Conflicto Armado Interno](https://www.sri.gob.ec/impuesto-al-valor-agregado-iva), Mar 2024 — security funding) *(2026-07-11 verified, source SRI)*
 - **Residential resale** → exempt from IVA (Alcabala instead)
 - **New-build first sale** → **0 % IVA** if MIDUVI-certified VIS / VIP; otherwise **15 % IVA** applies on new-build first sale of non-VIS
 - ⚠️ The 2024 IVA hike from 12 → 15 % (Decreto Ejecutivo 198/2024, eff 1 Apr 2024) was emergency-funding for the *internal armed conflict* declaration; verify whether reverted in subsequent budget cycles at [SRI — Servicio de Rentas Internas](https://www.sri.gob.ec/)
@@ -208,7 +208,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 | **IGEPN — Instituto Geofísico EPN** | [`https://www.igepn.edu.ec/`](https://www.igepn.edu.ec/) | Seismic + volcanic monitoring (1 of LATAM's best-equipped) |
 | **INAMHI — Instituto Nacional de Meteorología e Hidrología** | [`https://www.inamhi.gob.ec/`](https://www.inamhi.gob.ec/) | Hydromet, El Niño, flood forecasting |
 | **INOCAR — Instituto Oceanográfico de la Armada** | [`https://www.inocar.mil.ec/`](https://www.inocar.mil.ec/) | Tsunami warning Pacific + Galápagos |
-| **MAE / MAATE — Ministerio del Ambiente** | [`https://www.ambiente.gob.ec/`](https://www.ambiente.gob.ec/) | Wildfire, biodiversity, climate adaptation |
+| **MAE / MAATE — Ministerio del Ambiente** | [`https://rncc.ambiente.gob.ec/`](https://rncc.ambiente.gob.ec/) (❌ `www.ambiente.gob.ec` DEPRECATED — 301s to an unrelated agency) | Wildfire, biodiversity, climate adaptation |
 | **GAD Municipal — Plan de Uso y Gestión del Suelo (PUGS)** | per cantón | Hazard zoning at parcel level |
 
 ### Specific risks
@@ -653,7 +653,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 ### Climate-transition exposure
 
-- **NDC under Paris Agreement** (revised 2019): 9–37.5 % GHG reduction by 2025 vs BAU ([MAATE](https://www.ambiente.gob.ec/))
+- **NDC under Paris Agreement**: **Second NDC 2026–2035** now operative — unconditional **8,800 kt CO₂-eq (7 %)** + conditional **10,600 kt CO₂-eq (8 %)** with international support, implementation budget and unconditional / conditional split not quoted from the RNCC page — verify there ([MAATE — RNCC](https://rncc.ambiente.gob.ec/rncc/news/segunda-contribucion-determinada-a-nivel-nacional-de-ecuador-2026-2035)) *(2026 data, source MAATE/RNCC; 2026-09-18 verified)*. First NDC (2019) target was 9 % unconditional / 20.9 % conditional by 2025 vs BAU (superseded; ⚠️ secondary sources — IEA policy database / Climate Analytics — not re-read on the RNCC page). ❌ `ambiente.gob.ec` DEPRECATED — 301s to an unrelated agency; use the `rncc.ambiente.gob.ec` subdomain
 - Power generation ~**85 % hydro** (high renewable share but hydrology-vulnerable; 2024 drought exposed grid fragility); thermal import contingency 2024–25
 - **Yasuní-ITT 2023 referendum**: Ecuadorians voted to halt Block 43 oil extraction — landmark climate-policy event; ongoing implementation
 - **Fuel subsidy phase-out**: gradual 2024–25 (Noboa government, IMF programme); diesel + gasoline subsidies historic political flashpoint (Oct 2019, Jun 2022 protests)
@@ -798,7 +798,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | SRI — Servicio de Rentas Internas | `https://www.sri.gob.ec/` |
 | MIDUVI — Hábitat y Vivienda | `https://www.habitatyvivienda.gob.ec/` |
 | MINTUR — Turismo | `https://www.turismo.gob.ec/` |
-| MAATE — Ambiente | `https://www.ambiente.gob.ec/` |
+| MAATE — Ambiente | `https://rncc.ambiente.gob.ec/` (❌ `www.ambiente.gob.ec` DEPRECATED) |
 | Cancillería — Movilidad Humana | `https://www.cancilleria.gob.ec/` |
 | Ministerio del Trabajo | `https://www.trabajo.gob.ec/` |
 | Ministerio del Interior | `https://www.ministeriodelinterior.gob.ec/` |
@@ -828,7 +828,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (IVA 15% per Decreto Ejecutivo 198/2024 + Ley Orgánica Reforma Tributaria; CGT short-term test reduced 5y → 1y; Visa de Inversionista USD 47,000 (100×SBU 470); USD-dollarised currency since 2000; SRI tax-residency tests; Visa 10-II + Visa 11-VI investor / pensionado routes). MEDIUM on parcel-level municipal predial assessment values, current blackout duration (national hydropower-deficit-driven, oscillating 8–14 hr through 2025–2026 dry seasons — verify with CENACE at point of analysis), and STR municipal-level rules (no national statute; Quito + Cuenca + Galápagos varying). LOW on residential price benchmarks (no national HPI; aggregator listings + Numbeo + Properstar with broker bias).
 
-**Last verified**: 2026-08-08 (crime + security section only — armed-conflict decree corrected to DE 111 of 9 Jan 2024 against Suplemento al Registro Oficial No. 474, DE 218 of 7 Apr 2024 added as the post-April basis, homicide series re-based to the 2025 peak; balance of the 2026-05-27 pass unchanged)
+**Last verified**: 2026-08-08 (crime + security section only — armed-conflict decree corrected to DE 111 of 9 Jan 2024 against Suplemento al Registro Oficial No. 474, DE 218 of 7 Apr 2024 added as the post-April basis, homicide series re-based to the 2025 peak; balance of the 2026-05-27 pass unchanged); NDC target corrected 2026-09-18 per MAATE/RNCC — Second NDC 2026–2035 supersedes the 2019 first NDC
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

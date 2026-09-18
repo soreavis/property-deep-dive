@@ -268,7 +268,7 @@ Key features:
 
 ### Mineral / subsoil overlay
 
-- **All subsoil + surface rights to land are administered by the Government of Greenland** under [Mineral Resources Act (Råstofloven), effective 1 January 2010, last amended 2019](https://govmin.gl/exploitation/get-an-exploitation-licence/mineral-resources-act/). Verbatim from MLSA: *"In Greenland there is no privately owned land, all rights to any use of land is administered by the Government of Greenland."*
+- **All subsoil + surface rights to land are administered by the Government of Greenland** under [Mineral Resources Act (Råstofloven) — Parliament Act No. 7 of 7 Dec 2009, in force 1 January 2010, consolidation as amended to Act No. 39 of 28 Nov 2019](https://govmin.gl/wp-content/uploads/2024/02/Unofficial-translation-of-unofficial-consolidation-of-the-Mineral-Resources-Act.pdf). Verbatim from MLSA: *"In Greenland there is no privately owned land, all rights to any use of land is administered by the Government of Greenland."*
 - A mining or hydrocarbon licence can be granted across or under an area where a building stands; the licence-holder compensates impacted brugsret-holders but does not need their consent for licence issuance
 - **Small-scale mining rights**: vest in local residents (Mineral Resources Act, special provisions); verify if buying near an active small-scale-mining locality
 - **Unofficial consolidated EN translation** (2024): [govmin.gl/wp-content/uploads/2024/02/Unofficial-translation-of-unofficial-consolidation-of-the-Mineral-Resources-Act.pdf](https://govmin.gl/wp-content/uploads/2024/02/Unofficial-translation-of-unofficial-consolidation-of-the-Mineral-Resources-Act.pdf)

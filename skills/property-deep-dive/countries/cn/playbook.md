@@ -247,7 +247,7 @@ Mainland China has **NO nationwide recurring property tax** for residential prop
 
 ### Long-term residential
 
-- **Tenancy law**: [NPC 中国人大网 租赁合同章释义 (合同法第214条 → 民法典第705条)](http://www.npc.gov.cn/zgrdw//npc//flsyywd/minshang/2000-11/25/content_8375.htm) — minimum statutory protections; max single lease term **20 years** (Art. 705); written contracts mandatory > 6 months; deposit + advance payment customary
+- **Tenancy law**: [NPC 中国人大网 合同法释义 第十三章 租赁合同 (合同法第214条 / 第215条 — superseded by 民法典第705条 / 第707条)](http://www.npc.gov.cn/zgrdw//npc//flsyywd/minshang/2000-11/25/content_8375.htm) — minimum statutory protections; max single lease term **20 years** (合同法第214条, carried into 民法典第705条 — verify the Civil Code article text at 中国人大网 / 司法部); written contracts mandatory for terms of **6 months or more** (六个月以上); deposit + advance payment customary
 - **Standard tenancy structure**: 12-month fixed term most common; **1-month deposit + 1-month or 3-month advance** in mainland use (押一付三 — "one deposit + 3-month advance" Tier-1 standard); landlord typically pays property-tax / management-fee portion attributable to 公摊; tenant pays utilities + heating
 - **Rent-control**: no nationwide statutory rent control; tier-1 cities monitor "fair rent guidance" indices but enforcement light for private-residential. Rent caps in some 公租房 (public-rental housing) categories — irrelevant to foreign-buyer scenarios
 - **Foreign-individual letting**: technically restricted under 171号文 (one property for own residential use); enforcement varies — see § `--tax` above

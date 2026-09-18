@@ -286,7 +286,7 @@ Administered by the Office of the Tax Commissioner. **Stamp Duty Act 1976**, ame
 
 ### Reality
 
-Working in Bermuda requires being **Bermudian**, the **spouse of a Bermudian**, or a **PRC holder**; **everyone else needs an employer-sponsored work permit** under the immigration framework ([gov.bm — Types of work permits](https://www.gov.bm/types-work-permits)). The property thesis for most foreigners is **second-home / international-business-secondee / high-net-worth**, not local job-seeking. The **"Work From Bermuda" remote-worker certificate is DISCONTINUED** (28 Feb 2025 — see `--visa`).
+Working in Bermuda requires being **Bermudian**, the **spouse of a Bermudian**, or a **PRC holder**; **everyone else needs an employer-sponsored work permit** under the immigration framework ([gov.bm — Types of work permits](https://www.gov.bm/types-work-permits)). The property thesis for most foreigners is **second-home / international-business-secondee / high-net-worth**, not local job-seeking. The **"Work From Bermuda" remote-worker certificate is DISCONTINUED** — the Ministry of Economy and Labour stopped accepting applications effective **28 Feb 2025** ([forms.gov.bm — Work From Bermuda](https://forms.gov.bm/work-from-bermuda)) (2025 data, source Bermuda Ministry of Economy and Labour); see `--visa`.
 
 ### Job platforms
 
