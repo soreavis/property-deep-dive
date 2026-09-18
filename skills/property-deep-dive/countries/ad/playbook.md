@@ -147,7 +147,7 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Llei 3/2024** politically sensitive — parameters may change in 2026 budget
 - **OECD BEPS Pillar Two** — domestic minimum taxation implemented; corporate-vehicle structuring evolving
-- **EU Association Agreement** ([Govern AA portal](https://andorraue.ad/ca/acord-d-associacio)) negotiations 2024–2026; signing slipped past 2025 — tax-cooperation tightening if ratified
+- **EU Association Agreement** ([Govern AA portal](https://andorraue.ad/ca/acord-d-associacio)) — Council of the EU approved the text **16 July 2026**; **signature set for 19 October 2026 in Brussels**, then European Parliament consent, ratification by all 27 EU member states (Coreper confirmed the text is a MIXED agreement, 15 Jul 2026), a **consultative referendum** and ratification by the Consell General before entry into force — tax-cooperation tightening on ratification (2026 data, source Govern d'Andorra Secretaria d'Estat per a les Relacions amb la UE; 2026-09-18 verified)
 
 ---
 
@@ -790,7 +790,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 **Confidence**: MEDIUM — HIGH for the foundational legal/fiscal framework (ITP split 1% Govern + 0.50–3% Comú per Llei 1229/2000 art. 8.1+8.2, IEI two-tier 6%/10% post-Llei 5/2025, Llei 5/2025 "Llei Òmnibus" foreign-investor cap, negative-silence rule per Llei 3/2024, AFA deposit split, Passive-residency tier ladder €600k → €800k → possible €1m), bopa.ad primary statutes, and Comú-level transfer tax confirmation. MEDIUM for parcel-level Comú variation within the 0.50–3% ITP band (verify per parcel with Comú treasurer), Llei 2/2026 forward-flag detail, and 2026 minimum-wage / IRPF effective-rate parentheticals (verify at gov.ad). MEDIUM for residential price benchmarks (no national HPI; aggregator listing data with foreign-buyer bias).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (EU Association Agreement status corrected 2026-09-18 per Govern d'Andorra AA portal)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

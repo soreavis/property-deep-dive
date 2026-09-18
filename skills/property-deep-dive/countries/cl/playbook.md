@@ -44,8 +44,10 @@ ISO2: `cl`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - Quarterly nominal index, residential transactions registered in CBR, methodology 2014 base.
 - **CChC (Cámara Chilena de la Construcción)**:
   - `https://cchc.cl/centro-de-informacion/indicadores` — informe MACh, índice de actividad de la construcción, trimestral oferta inmobiliaria Gran Santiago.
-- **MINVU Observatorio Habitacional**:
-  - `https://centrodeestudios.minvu.gob.cl` — permisos, oferta, déficit habitacional.
+- **MINVU — Centro de Estudios, Ciudad y Territorio (CECT)** (formerly the Observatorio Habitacional):
+  - `https://centrodeestudios.minvu.gob.cl` — déficit habitacional (cuantitativo y cualitativo), programas ministeriales, and a comunal data viewer covering demografía, instrumentos de planificación, vivienda, campamentos y subsidios.
+- **INE — permisos de edificación**:
+  - `https://www.ine.gob.cl/estadisticas-por-tema/industria-energia-y-construccion` — superficie autorizada de permisos de edificación, serie mensual (2026 data, source INE; 2026-09-18 verified).
 
 ### Listing platforms
 
@@ -94,7 +96,7 @@ Source: Portal Inmobiliario + Toctoc listing scrape pattern + CChC informe MACh 
 
 - **MOP — Dirección de Vialidad — Plan Nacional de Censos** (TMDA = Tránsito Medio Diario Anual):
   - Portal: `https://vialidad.mop.gob.cl/plan-nacional-de-censo-vial/`
-  - Censos volumétricos publicados anualmente; cobertura red vial nacional + regional.
+  - **Plan Nacional de Censo Vial (PNCV)** — **biennial by half-country, not annual**: the **northern** regions (Arica y Parinacota → O'Higgins) are counted in **odd** years and the **southern** regions (Maule → Magallanes) in **even** years, with three seasonal samples each round (February/summer, June/winter, October/spring). As at 2026-09-18 the newest published rounds are **north 2025** and **south 2024** — **always name the round; a PNCV count is not a current-year TMDA** (2026 data, source MOP Dirección de Vialidad; 2026-09-18 verified).
   - Datos por tramo, with desglose vehículos livianos / buses / camiones.
 - **MOP — Concesiones (autopistas urbanas y interurbanas)**:
   - `https://concesiones.mop.gob.cl/concesiones/concesiones-en-construccion/`
@@ -326,7 +328,7 @@ Norma sísmica chilena: **NCh 433 Of.96 mod. 2009** + **DS 61/2011 MINVU** (post
 
 ### Volcánico (RNVV SERNAGEOMIN)
 
-- Chile tiene **>90 volcanes activos** geológicamente. **Ranking de Riesgo Específico Volcanes Activos (RNVV)** SERNAGEOMIN: `https://www.sernageomin.cl/rnvv/`.
+- Chile tiene **~87–92 sistemas volcánicos geológicamente activos**, de los cuales **43 están bajo monitoreo instrumental 24/7** por la **Red Nacional de Vigilancia Volcánica (RNVV)** de SERNAGEOMIN, con niveles de alerta técnica verde / amarilla / naranja / roja. El **Ranking de Riesgo Específico de Volcanes Activos** se actualiza periódicamente y la edición vigente es la de **2023** — `https://www.sernageomin.cl/rnvv/` (2026 data, source SERNAGEOMIN RNVV, página editada 2026-09-03; 2026-09-18 verified).
 - Top riesgo: **Villarrica** (Pucón), **Llaima** (Temuco/Conguillío), **Calbuco** (erupción 2015, Puerto Varas/Ensenada), **Nevados de Chillán**, **Lascar**, **Copahue**.
 - Zonas turísticas Lagos (Pucón, Puerto Varas) **deben verificar mapa de peligro volcánico** antes de comprar.
 
@@ -524,7 +526,7 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 | BCCh UF diaria | `https://www.bcentral.cl/inicio/-/asset_publisher/8Ki7yegxnFpW/content/uf-1` |
 | BCCh series indicadores (IRPV) | `https://si3.bcentral.cl/Indicadoressiete/secure/IndicadoresDiarios.aspx` |
 | INE IPV | `https://www.ine.gob.cl/estadisticas/economia/edificacion-y-vivienda/indice-de-precios-de-vivienda` |
-| MINVU Observatorio Habitacional | `https://centrodeestudios.minvu.gob.cl` |
+| MINVU — Centro de Estudios, Ciudad y Territorio (CECT) | `https://centrodeestudios.minvu.gob.cl` |
 | CChC indicadores | `https://cchc.cl/centro-de-informacion/indicadores` |
 | SENAPRED | `https://www.senapred.gob.cl/` |
 | SERNAGEOMIN | `https://www.sernageomin.cl/` |
@@ -552,7 +554,7 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 **Coverage**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: **HIGH** for cadastre (CBR + SII), seismic standards (NCh 433 evolution), UF/BCCh system, Conservador process, DGA/SHOA/SERNAGEOMIN/SENAPRED hazard sources, and Ley 18.101 / Ley 21.442 / DFL 2 frameworks.
 **MEDIUM** for: current 2026 sobretasa exact tramos (Ley 21.713 reform context — re-pull SII Circular each año), STR comuna-level enforcement (Las Condes / Providencia patente hospedaje + copropiedad bylaws in motion; Vitacura STR curbs unverified — no comuna-wide ordinance), boleta de honorarios retención escalonamiento (verify SII tabla annual).
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-05-27 (price-source attribution, PNCV cadence and RNVV volcano counts corrected 2026-09-18 per MINVU CECT + INE + MOP Vialidad + SERNAGEOMIN).
 
 ## Extension TODOs
 

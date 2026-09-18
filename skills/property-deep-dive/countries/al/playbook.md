@@ -188,7 +188,7 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
 
 ### Sources
 
-- **ZK (Zyra e Punësimit) / SHKP (Shërbimi Kombëtar i Punësimit)**: `https://www.puna.gov.al`
+- **AKPA — Agjencia Kombëtare e Punësimit dhe Aftësive** (National Employment and Skills Agency; successor to SHKP / *Shërbimi Kombëtar i Punësimit*, local offices still called *Zyra e Punësimit*): `https://www.puna.gov.al` — vacancy register, unemployment benefit, and **work permits** (*Lejet e Punës*) (2026 data, source AKPA; 2026-09-18 verified)
 - **Duapune.al**, **njofta.com**, **MerrJep Punë**, **LinkedIn AL**
 
 ### Self-employment
@@ -375,7 +375,7 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
 
 ✅ **Fully populated** as of 2026-04-26.
 **Coverage check**: pricing (INSTAT + BoA Fischer HPI 2025-26), traffic (ARRSH), tax (Tatim 0.05% cadastral apartments + ~2% transfer reference + 20% VAT + 15% CGT + DIVA STR Jan 2026), rental (DIVA platform NEW Jan 2026 + 15% flat), work (SHKP), risks (2019 Durrës M6.4 €985m losses + Vore fault + Albanian Alps karst), mains (UKT + per-bashki).
-**Last verified**: 2026-08-07 (EU accession, the Strategic Investor deadline and the STR/NIPT rules all re-verified — 9th Accession Conference 14 Jul 2026 provisionally closed chapters 25 / 26 / 30 with 30 still open and no EU-side membership date fixed; balance of the 2026-05-27 validation sweep unchanged).
+**Last verified**: 2026-08-07 (EU accession, the Strategic Investor deadline and the STR/NIPT rules all re-verified — 9th Accession Conference 14 Jul 2026 provisionally closed chapters 25 / 26 / 30 with 30 still open and no EU-side membership date fixed; balance of the 2026-05-27 validation sweep unchanged; employment-service authority (AKPA) corrected 2026-09-18 per puna.gov.al).
 **Confidence**: HIGH for ASHK + iKadaster + e-Albania (World Bank-backed); HIGH for 2019 Durrës earthquake reference + losses; HIGH for DIVA STR 1 Jan 2026 + 15 % flat tax (HLB Albania confirmed); HIGH for property tax 0.05 % residential / 0.2 % commercial split (post-2018 reform); HIGH for PIT 0/13/23 % framework (Law 29/2023); HIGH for foreign-buyer Ligji 7980/1995 (apartments OK / agri prohibited / construction-land 3× rule / 200 m coastal); HIGH for EU accession (all 33 chapters opened, IBAR 21 May 2026, first 3 chapters provisionally closed 14 Jul 2026 — 30 still open, no EU-side membership date fixed); HIGH for Strategic Investor Status core terms (Law 55/2015 as amended by Law 8/2025 — EUR 5M + 80 jobs tourism route, new ≥ EUR 50M sector-agnostic route, €1 state land, deadline 31 Dec 2026 per Art. 36); MEDIUM for the regime's post-2026 future (unified investment law due Dec 2026 + repeal announced 14 Jul 2026, not enacted as of 2026-08-07 — revisit); HIGH for 5 % revaluation window 1 Jan – 31 Dec 2026 (Law 85/2025); HIGH that Vlora International Airport is NOT operational (MIE minister, 22 May 2026 press conference) but MEDIUM on the concession outcome (the 4-5 Aug 2026 termination procedure is media-reported, unpublished by MIE, and disputed by Mabco — revisit by 2027-02-03); MEDIUM for legalization process specifics (system changing).
 
 ## Extension TODOs

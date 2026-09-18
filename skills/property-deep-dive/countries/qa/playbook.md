@@ -21,7 +21,7 @@ ISO2: `qa`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Title Deed (Sanad Mulkiyya — سند ملكية)** — issued by REA at registration; bears Plot No. + Block No. + Zone No. + Municipality
   - **Sale and Purchase Agreement (SPA)** — pre-registration binding; for off-plan sales the developer provides an interim allocation document until final Title Deed at handover
   - **Affection Plan (شهادة تخطيط)** — issued by Ministry of Municipality; cadastral plot info
-- **Population**: ~3.05 M (2024 — Planning and Statistics Authority `https://www.psa.gov.qa/`); ~12% Qatari nationals + ~88% expatriates (2020 census + 2024 PSA bulletin)
+- **Population**: ~3.05 M (2024 figure, published by the then **Planning and Statistics Authority**, whose statistics function passed to the **National Planning Council** — [npc.qa](https://www.npc.qa/); `psa.gov.qa` is egress-filtered); ~12% Qatari nationals + ~88% expatriates (2020 census + 2024 PSA bulletin)
 - **Recent reforms** (12-month watchlist):
   - **Law 16/2018** + **Cabinet Resolution No. 28 of 2020** (a.k.a. Cabinet Decision 28/2020) + 2024 update — non-Qatari freehold expanded to 9 designated zones + 99-yr leasehold in 16 additional zones (was Pearl + West Bay Lagoon + Al Khor Resort only pre-2018)
   - **Law No. 28 of 2023** — establishes **Aqarat / RERA** (General Authority for Regulating the Real Estate Sector) as central regulator for developers, brokers, freehold zones, and the Qatar Real Estate Platform (QREP) (2026-05-27 verified, source aqarat.gov.qa)
@@ -109,7 +109,7 @@ Non-Qataris **cannot acquire any registered interest** in real estate outside th
 
 ### Primary sources
 
-- **Planning and Statistics Authority (PSA)** Real Estate Price Index (REPI): `https://www.psa.gov.qa/en/statistics/Statistical%20Releases/Economic/RealEstate/` — quarterly sales-price index
+- **Qatar Central Bank (QCB)** Real Estate Price Index (REPI): `https://www.qcb.gov.qa/en/pages/realestatepriceindex.aspx` — **monthly index series** (one price level per month, Aug 2021 → current); QCB created the index and computes it from Ministry of Justice transaction data, methodology in the QCB **third Financial Stability Review** pp. 85-86 (2026 data, source QCB; 2026-09-18 verified)
 - **Qatar Central Bank (QCB)** — Real Estate Price Index supplements (Financial Stability Report): `https://www.qcb.gov.qa/`
 - **Ministry of Justice (REA)** — quarterly transaction-volume reports + weekly bulletins: `https://www.moj.gov.qa/`
 - **ValuStrat Qatar** + **Cushman & Wakefield Qatar** + **DTZ Qatar** — quarterly market reviews (consultancy aggregators using REA data)
@@ -194,7 +194,7 @@ OSM `highway` class:
 
 ### Annual property tax
 
-**There is NO annual real-estate property tax in Qatar** — neither at federal nor at municipality level. **This is unique among major GCC peers** (UAE has municipal housing fees; Saudi has White Land Tax and Real Estate Transaction Tax; Bahrain has property tax for non-GCC owners).
+**There is NO annual real-estate property tax in Qatar** — neither at federal nor at municipality level. **This is unique among major GCC peers** (UAE has municipal housing fees; Saudi has White Land + Vacant Property Fees and Real Estate Transaction Tax; Bahrain has property tax for non-GCC owners).
 
 What residents do pay annually:
 
@@ -366,7 +366,7 @@ What residents do pay annually:
 
 | Risk | Severity (Qatar-wide) | Authority |
 |---|---|---|
-| **Extreme heat (TX > 45°C)** | Annual occurrence Jun–Sep; intensifying | Qatar Meteorology Department `https://qweather.gov.qa/` |
+| **Extreme heat (TX > 45°C)** | Annual occurrence Jun–Sep; intensifying | **Qatar Civil Aviation Authority — Meteorology Department (Q Weather)** `https://qweather.gov.qa/` — authority page: [caa.gov.qa/en/meteorology](https://www.caa.gov.qa/en/meteorology) (2026-09-18 verified) |
 | **Sandstorms (shamal winds)** | Recurrent Mar–Aug | Qatar Met Dept |
 | **Flash floods / drainage failure** | Documented Doha 2018, 2021, 2024 | Ashghal + Civil Defence |
 | **Coastal storm surge** | Khor Al Adaid + low-lying Doha exposure; cyclone events 2007 (Gonu remnants), 2018 (Mekunu), 2024 | Met Dept + Ministry of Environment |
@@ -374,7 +374,7 @@ What residents do pay annually:
 | **Coastal SLR exposure** | Long-term decadal — Doha coast + Pearl islands + Lusail reclaimed land | Min. of Environment + IPCC AR6 Persian Gulf projections |
 | **Subsidence** | Localised — some reclaimed/coastal areas anecdotal | No public registry — confirm geotechnical with developer |
 
-(Source: Qatar Meteorology Department, Ministry of Environment and Climate Change `https://www.mecc.gov.qa/`)
+(Source: Qatar Civil Aviation Authority — Meteorology Department (Q Weather), [caa.gov.qa/en/meteorology](https://www.caa.gov.qa/en/meteorology); 2026-09-18 verified)
 
 ### Recent flood / cyclone events
 
@@ -574,7 +574,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 | **Qatar Civil Defence** | Fire NOC, cladding compliance |
 | **Public Works Authority (Ashghal)** | Drainage history, road project schedules |
 | **Kahramaa** | Utility account verification, connection clearance |
-| **Planning and Statistics Authority (PSA)** | Real Estate Price Index, demographic data |
+| **National Planning Council (NPC — المجلس الوطني للتخطيط**, established by Amiri Decision 13 of 2024, successor to the Planning and Statistics Authority created by Amiri Decision 70 of 2018**)** | Official statistics, demographic data (the Real Estate Price Index is the **Qatar Central Bank**'s) |
 | **Qatar Bar (Qatar Lawyers Association)** | Conveyancer verification |
 
 ## Quirks to know
@@ -605,13 +605,13 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 | Ministry of Transport (MOT) | `https://www.mot.gov.qa/` |
 | General Tax Authority (Dhareeba portal) | `https://www.dhareeba.qa/` |
 | Qatar Central Bank (QCB) | `https://www.qcb.gov.qa/` |
-| Planning and Statistics Authority (PSA) | `https://www.psa.gov.qa/` |
+| National Planning Council (NPC — successor to PSA) | `https://www.npc.qa/` |
 | Qatar Tourism (regulator) | `https://www.qatartourism.com/` |
 | Visit Qatar (consumer) | `https://www.visitqatar.qa/` |
 | Public Works Authority (Ashghal) | `https://www.ashghal.gov.qa/` |
 | Kahramaa (utilities) | `https://www.km.qa/` |
 | Qatar Cool (district cooling) | `https://www.qatarcool.com/` |
-| Qatar Met Department | `https://qweather.gov.qa/` |
+| Qatar Civil Aviation Authority — Meteorology Dept (Q Weather) | `https://qweather.gov.qa/` |
 | Qatar GIS (address lookup) | `https://geoportal.gisqatar.org.qa/` |
 | Qatar Rail (Doha Metro) | `https://www.qr.com.qa/` |
 | Hamad International Airport | `https://dohahamadairport.com/` |
@@ -628,7 +628,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — Law 28/2023 Aqarat/RERA + Law 5/2024 Real Estate Registration Law + 2026-01 MoJ fee-cut entry; statute names refreshed)
+**Last verified**: 2026-05-27 (validation sweep — Law 28/2023 Aqarat/RERA + Law 5/2024 Real Estate Registration Law + 2026-01 MoJ fee-cut entry; statute names refreshed; statistics authority (NPC), REPI publisher (QCB) and meteorology parent (QCAA) corrected 2026-09-18 per npc.qa + qcb.gov.qa + caa.gov.qa)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

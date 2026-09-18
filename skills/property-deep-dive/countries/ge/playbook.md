@@ -271,9 +271,9 @@ Same flat, owner household income ≤ 40k GEL:
 | **NEA hazard atlas (geohazards portal)** | `http://drm.cenn.org/` (CENN — Caucasus Environmental NGO Network, NEA partner) | Multi-hazard interactive map |
 | **Ministry of Environmental Protection & Agriculture** | `https://mepa.gov.ge/En/` | Environmental impact assessments, climate strategy |
 | **Institute of Earth Sciences, Ilia State University** | `https://iliauni.edu.ge/en/iliauni/institutebi-451/dedamicis-shemstsavlel-metsnierebata-instituti` | Seismic monitoring, fault maps |
-| **National Seismic Network of Georgia (operated by Ilia Uni)** | `https://ies.iliauni.edu.ge/` | Real-time earthquakes, station data |
+| **Institute of Earth Sciences & National Seismic Monitoring Centre (Ilia State University)** | `https://ies.iliauni.edu.ge/` | Real-time seismicity feed, seismic + GNSS station data (Georgian-language site) |
 | **GeoSurvey (LEPL National Environmental Agency, Geological Service)** | `https://nea.gov.ge/En/Departments/Geology` | Geological maps, landslide registry |
-| **NACEC / NACER (Nuclear & Radiation Safety Agency)** | `https://nrsa.gov.ge/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Radiation context (not radon-specific maps) |
+| **Nuclear & radiation safety (Georgia)** | data not publicly available — verify with the [Ministry of Environmental Protection and Agriculture of Georgia](https://mepa.gov.ge/En/) | Radiation context only; no radon mapping product located |
 
 ### Flood / landslide / mudflow zones
 
@@ -340,7 +340,7 @@ Same flat, owner household income ≤ 40k GEL:
 - **GNERC (Georgian National Energy and Water Supply Regulatory Commission)**: `https://gnerc.org/en/` — utility tariffs + licensed operator registry
 - **United Water Supply Company of Georgia (UWSCG / გაერთიანებული წყალმომარაგების კომპანია)**: `https://water.gov.ge/` — operates water + sewerage in **most regional cities** (excluding Tbilisi, Mtskheta-Mtianeti, Adjara)
 - **Georgian Water and Power (GWP)**: `https://gwp.ge/en` — Tbilisi + Mtskheta + Rustavi water/sewer (private, BR Group)
-- **Adjara Water Supply** (აჭარისწყალი): `https://achariswkali.ge/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — Adjara region
+- **Adjara**: water is run by the **municipal** utilities, not a single regional company — for Batumi this is **შპს ბათუმის წყალი / LLC Batumi Water** ([batumi.gov.ge/companies/14](https://batumi.gov.ge/companies/14)); for other Adjara municipalities identify the local operator. National operator elsewhere: **United Water Supply Company of Georgia** ([water.gov.ge](https://water.gov.ge/)) (2026 data, source batumi.gov.ge + water.gov.ge; 2026-09-18 verified)
 
 ### Major operators
 
@@ -489,7 +489,7 @@ Same flat, owner household income ≤ 40k GEL:
 | Source | URL pattern |
 |---|---|
 | NAPR public viewer | `https://www.napr.gov.ge/` |
-| PSDA service hall | `https://sda.gov.ge/en/` |
+| SDA service hall (Public Service Development Agency, ex-PSDA) | `https://sda.gov.ge/en/` |
 | Revenue Service | `https://www.rs.ge/` |
 | Geostat real estate stats | `https://www.geostat.ge/en/modules/categories/214/real-estate-price-statistics` |
 | NBG financial stability | `https://nbg.gov.ge/en/page/financial-stability-report` |
@@ -499,12 +499,12 @@ Same flat, owner household income ≤ 40k GEL:
 | Roads Department | `https://www.georoad.ge/` |
 | NEA hazard portal | `https://nea.gov.ge/En` |
 | CENN geohazard atlas | `http://drm.cenn.org/` |
-| Seismic network | `https://ies.iliauni.edu.ge/` |
+| Institute of Earth Sciences & National Seismic Monitoring Centre (Ilia State Uni) | `https://ies.iliauni.edu.ge/` |
 | Cultural Heritage Agency | `https://heritagesites.ge/` |
 | GNERC tariffs | `https://gnerc.org/en/` |
 | GWP Tbilisi water | `https://gwp.ge/en` |
 | UWSCG regional water | `https://water.gov.ge/` |
-| Adjara water | `https://achariswkali.ge/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Adjara water (municipal) | Batumi: `https://batumi.gov.ge/companies/14` · national operator: `https://water.gov.ge/` |
 | MFA visa info | `https://mfa.gov.ge/en/visa-information` |
 | eMigration / residence | `https://sda.gov.ge/` |
 | Tbilisi City Hall | `https://tbilisi.gov.ge/` |
@@ -514,7 +514,7 @@ Same flat, owner household income ≤ 40k GEL:
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats. Foreign-buyer rules + visa pathways verified against MFA + Civil Code references.
 **Confidence**: HIGH for cadastre + tax + foreign-buyer rules (NAPR + Tax Code + Constitution Art. 19 are primary statutory sources, multi-source corroborated). MEDIUM for short-let regulation (no national STR statute as of 2025; Tbilisi/Batumi rules in flux) and for parcel-level geohazard data (NEA + CENN are commune/district-level — parcel certification requires NEA Geological Service request).
-**Last verified**: 2026-08-07 (`--tax` only: Tbilisi property-tax schedule re-verified against Sakrebulo Ordinance №20-90 of 30 Dec 2014 as amended by Ordinance №6-19 of 26 Dec 2025 — instrument mis-citation and the under-100k rate corrected; all other sections last verified 2026-05-27)
+**Last verified**: 2026-08-07 (`--tax` only: Tbilisi property-tax schedule re-verified against Sakrebulo Ordinance №20-90 of 30 Dec 2014 as amended by Ordinance №6-19 of 26 Dec 2025 — instrument mis-citation and the under-100k rate corrected; all other sections last verified 2026-05-27; seismic, Adjara water and service-hall authority names corrected 2026-09-18 per ies.iliauni.edu.ge + batumi.gov.ge + sda.gov.ge)
 
 ## Extension TODOs (deepen on first real run)
 

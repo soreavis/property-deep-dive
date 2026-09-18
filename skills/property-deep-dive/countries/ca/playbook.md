@@ -34,7 +34,7 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 - **Statistics Canada (StatCan)**: `https://www.statcan.gc.ca/en/subjects-start/housing` — house price index + rental
 - **Provincial price boards**:
   - Toronto: TRREB `https://trreb.ca` (Toronto Regional Real Estate Board)
-  - Vancouver: REBGV `https://www.gvrealtors.ca/`
+  - Vancouver: **Greater Vancouver REALTORS® (GVR)** — formerly the Real Estate Board of Greater Vancouver (REBGV) — `https://www.gvrealtors.ca/` (monthly benchmark price / HPI package under market intelligence) (2026 data, source GVR; 2026-09-18 verified)
   - Calgary: CREB `https://www.creb.com`
   - Montreal: APCIQ `https://apciq.ca`
 
@@ -442,7 +442,7 @@ Illustrative contractor estimates, not quoted figures — verify with local quot
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-04-25 (Vancouver board name (Greater Vancouver REALTORS) corrected 2026-09-18 per gvrealtors.ca).
 **Coverage check**: pricing (CREA + provincial boards), traffic, tax (extreme provincial divergence), rental (RTA per province), work, risks (wildfire + flood + earthquake + permafrost + radon), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for CREA HPI Mar 2026 + UHT repeal (Bill C-15 Royal Assent confirmed) + BC SVT 2026 doubling + Toronto MLTT graduated tier (1 Apr 2026) + foreign buyer ban extension; MEDIUM for post-2027 foreign-buyer review (in flux); MEDIUM for capital-gains inclusion rate (2/3 proposal paused).
 

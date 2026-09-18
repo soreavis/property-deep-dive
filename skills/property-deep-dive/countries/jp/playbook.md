@@ -28,9 +28,9 @@ ISO2: `jp`. Status: ✅ Fully populated (researched 2026-05).
   - Portal: `https://www.mlit.go.jp/totikensangyo/totikensangyo_tk5_000085.html`
   - English summary: `https://www.mlit.go.jp/en/totikensangyo/totikensangyo_fr5_000014.html`
   - Latest cited series: residential price index +5.00 % YoY (Nov 2025 release, MLIT)
-- **国土交通省 不動産取引価格情報検索 (Land General Information System)** — actual recorded transaction prices since 2005, surveyed from real transaction parties (NOT listings or estimates)
+- **国土交通省 不動産情報ライブラリ (Real Estate Information Library)** — actual recorded transaction prices, surveyed from real transaction parties (NOT listings or estimates); replaced the 土地総合情報システム, which MLIT abolished at the end of March 2024, and carries ~5.47M cumulative records as at 31 Mar 2025 (2025 data, source MLIT; 2026-09-18 verified)
   - Portal: `https://www.reinfolib.mlit.go.jp/realEstatePrices`
-  - English: `https://www.reinfolib.mlit.go.jp/realEstatePrices`
+  - ⚠️ **No dedicated English site** — MLIT retired the English land-price service at the end of March 2024 and published no English replacement URL; the library's own in-page language control is the only English route (2026-09-18 verified)
   - Update cadence: quarterly with 3–6 month lag
 - **公示地価 (kōji chika — Public Land Price)** — annual, MLIT, 1 January reference, published late March; ~26,000 standard sites (基準地)
   - Portal: `https://www.reinfolib.mlit.go.jp/landPrices`
@@ -68,7 +68,7 @@ ISO2: `jp`. Status: ✅ Fully populated (researched 2026-05).
 ### Compute
 
 1. Listing ¥/m² = listing price ÷ 専有面積 (senyū menseki, exclusive floor area for condos) — clarify whether 専有面積 (Carrez-equivalent) or 壁芯 (wall-center, slightly larger) is quoted on the listing
-2. Compare to 不動産取引価格情報検索 (last 4 quarters, same 駅 station + 区 ward)
+2. Compare to 不動産情報ライブラリ (last 4 quarters, same 駅 station + 区 ward)
 3. Compare to 路線価 (NTA) for inheritance-tax-equivalent valuation
 4. Cross-check 公示地価 for 1 Jan reference benchmark on the same 区
 5. **Trap**: 新築 (shinchiku — new) carries a 10–30 % premium over equivalent 築浅 (chiku-asa — recently built) — disappears within 5–10 years for wood-frame; persists longer for RC tower
@@ -463,7 +463,6 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 - **r/japanlife** — most active expat community, real ownership posts
 - **r/movingtojapan** — pre-relocation
 - **r/JapanFinance** + wiki at `https://wiki.japanfinance.org/` — best English-language tax + mortgage primer; high-quality
-- **GaijinPot Forums** — `https://forums.gaijinpot.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Tokyo Cheapo** — `https://tokyocheapo.com/`
 - **Real Estate Japan blog** — `https://resources.realestate.co.jp/`
 - **Plaza Homes blog** — `https://www.realestate-tokyo.com/news/`
@@ -507,7 +506,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 | Source | URL |
 |---|---|
 | MLIT 不動産価格指数 | `https://www.mlit.go.jp/totikensangyo/totikensangyo_tk5_000085.html` |
-| MLIT 不動産取引価格情報検索 | `https://www.reinfolib.mlit.go.jp/realEstatePrices` |
+| MLIT 不動産情報ライブラリ (旧 不動産取引価格情報検索) | `https://www.reinfolib.mlit.go.jp/realEstatePrices` |
 | MLIT 公示地価 | `https://www.reinfolib.mlit.go.jp/landPrices` |
 | NTA 路線価 | `https://www.rosenka.nta.go.jp/` |
 | REINS Market Information | `http://www.reins.or.jp/` |
@@ -538,7 +537,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all anchored in MLIT / NTA / 法務局 / 国税庁 / J-SHIS / JMA / BoJ primary sources with date-stamped numerics + transparent computations.
 **Confidence**: **HIGH** for cadastre/seismic-standard/national-tax/transaction-cost (all 国税庁 + MLIT primary, multi-source corroborated). **MEDIUM** for current akiya market dynamics (highly local, 1,700+ municipalities — start with municipal akiya bank for parcel-level), municipal-level minpaku rules (per-ward overlay on top of national 180-day cap; verify via 保健所), and condominium 修繕積立金 trajectory (per-building, requires 管理組合 financials review).
-**Last verified**: 2026-08-07.
+**Last verified**: 2026-08-07 (the two `--price` MLIT primary-source bullets re-verified 2026-09-18 — 不動産情報ライブラリ replaced the 土地総合情報システム from 1 Apr 2024; the +5.00 % YoY figure on the same section was not re-checked).
 
 ## Extension TODOs (deepen on first real run)
 

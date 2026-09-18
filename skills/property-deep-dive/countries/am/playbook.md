@@ -301,8 +301,8 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 
 | Source | URL | What it gives |
 |---|---|---|
-| **National Survey for Seismic Protection (NSSP)** | `https://mia.gov.am` | Seismic hazard maps, microzoning, building-code calibration |
-| **Ministry of Emergency Situations (`Artakargi Iravichak'neri Nakhararut'yun`)** | `https://mia.gov.am` | Operational hazard data, evacuation, fire/flood/earthquake response |
+| **Ministry of Internal Affairs — seismic risk reduction** | `https://mia.gov.am` | Seismic hazard maps / microzoning — **parcel-level microzoning data not publicly available at a live primary URL — verify with the Ministry of Internal Affairs (mia.gov.am)**; the former NSSP standalone site (`nssp-gov.am`) is retired and no successor body page was located (2026-09-18 verified) |
+| **Ministry of Internal Affairs — Rescue Service** (`Ներքին գործերի նախարարություն — Փրկարար ծառայություն`) | `https://mia.gov.am` | Operational hazard data, evacuation, fire/flood/earthquake response — MIA created 30 Dec 2022 by force of law and absorbed the former Ministry of Emergency Situations' civil-protection, rescue and firefighting functions (2026 data, source MIA; 2026-09-18 verified) |
 | **Hydromet Service** (under Ministry of Environment) | `https://www.armmonitoring.am/` | Weather, flood warnings, climate baseline |
 | **Ministry of Environment** | `https://environment.gov.am/en/` | Environmental risk reports, NDC, climate strategy |
 | **Geological Survey of Armenia** (under Ministry of Territorial Administration) | via mtad.am | Geological maps, landslide registry |
@@ -393,7 +393,7 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 ### National database
 
 - **PSRC (Public Services Regulatory Commission)**: `https://www.psrc.am/` — utility tariffs (electricity, gas, water + sewer where regulated)
-- **Veolia Jur** (Veolia Water — Yerevan + ~70% of Armenia urban water): `https://www.veolia.am/en` — Yerevan + most marzes water + sewer operator post-2017 concession
+- **Veolia Jur CJSC** (Veolia Group — **Unified Operator** under the trilateral lease contract of 21 Nov 2016, **15-year mandate running 1 Jan 2017 – end 2031**; target service coverage **~73% of Armenia's population**, consolidating the former Yerevan Djur, AWSC, Lori, Shirak and Nor Acounk service areas): `https://www.veolia.am/en` — water + sewer operator (2026 data, source Veolia Armenia; 2026-09-18 verified)
 - **Electric Networks of Armenia (ENA)**: `https://www.ena.am/` — electricity distribution nationwide (single distributor, Tashir Group ownership post-2015)
 - **Gazprom Armenia** (`Gazprom Armenia` / formerly ArmRosGazprom): `https://armenia-am.gazprom.com/` — gas distribution (Russia-owned, geopolitically scrutinised — see post-2022 caveats)
 - **Yerevan Jermamatakararum** (district heating): limited residual DH service post-Soviet; most Yerevan apartments now individual gas boilers
@@ -997,7 +997,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 | **Hydromet Service** | Flood + climate baseline data |
 | **NSSP (National Survey for Seismic Protection)** | Seismic microzoning + parcel-level applicability |
 | **Geological Survey** | Landslide + geological hazard data |
-| **Ministry of Emergency Situations** | Emergency response, hazard maps |
+| **Ministry of Internal Affairs — Rescue Service** | Emergency response, hazard maps |
 | **Police of Armenia** | Crime statistics, parcel-level precinct summary |
 
 ## Quirks to know
@@ -1039,8 +1039,8 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 | Estate.am | `https://www.estate.am/` |
 | MTAI / State Roads | `https://www.mtad.am/en/` |
 | Hydromet Service | `https://www.armmonitoring.am/` |
-| Ministry of Emergency Situations | `https://mia.gov.am` |
-| NSSP Seismic Protection | `https://mia.gov.am` |
+| Ministry of Internal Affairs — Rescue Service | `https://mia.gov.am` |
+| Seismic protection (via Ministry of Internal Affairs) | `https://mia.gov.am` |
 | Ministry of Environment | `https://environment.gov.am/en/` |
 | Police statistics | `https://www.police.am/` |
 | Yerevan Municipality | `https://www.yerevan.am/` |
@@ -1052,7 +1052,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Tax Code Art. 147(1)(16) individual-to-individual residential PIT-exemption; 10% WHT on price when buyer is legal entity / sole-proprietor tax agent (residential), 20% commercial; Tax Code Art. 230 property-tax brackets — separate schedules for apartments vs houses; CBA refinancing rate 6.5% (2026-05-27, source cba.am) following cutting cycle from 2024 ~10% peak; AMD ~368/USD ~395-410/EUR May 2026 per CBA reference rate). MEDIUM on parcel-level cadastre exact apartment vs house classification (verify at src.am for any specific deal), 2026 CBA forward-rate path, and recharacterisation risk for business-pattern traders (individual sales with high frequency may be re-classified as entrepreneurial income). LOW on residential listing benchmarks (no national HPI; List.am + Spyur aggregator-grade with broker bias).
 
-**Last verified**: 2026-05-27 (real-estate-tax reform law corrected 2026-09-18 — HO-332-N of 25 June 2020, not HO-185-N of 25 December 2020, per ARLIS)
+**Last verified**: 2026-05-27 (real-estate-tax reform law corrected 2026-09-18 — HO-332-N of 25 June 2020, not HO-185-N of 25 December 2020, per ARLIS; risks-authority rows (MIA Rescue Service) and Veolia Jur operator identity corrected 2026-09-18 per mia.gov.am + veolia.am)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

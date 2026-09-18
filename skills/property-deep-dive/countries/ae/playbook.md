@@ -434,7 +434,7 @@ What residents do pay annually:
 | **Service charge clearance certificate (Mollak)** | Dubai — confirms no outstanding fees | Mollak via OA |
 | **Affection Plan** | Cadastral plot info | Dubai Municipality / equivalent |
 | **Building Completion Certificate** (off-plan completion) | Project legally complete | Master developer |
-| **Fire NOC / Civil Defence certificate** | Cladding + fire compliance | UAE Civil Defence |
+| **Fire NOC / Civil Defence certificate** | Cladding + fire compliance | Dubai Civil Defence / MoI General Command of Civil Defence |
 | **DEWA / ADDC clearance** | No outstanding utility bills | DEWA / ADDC |
 
 (Note: The UAE has no mandatory energy performance certificate equivalent for resale yet; sustainability ratings exist for new builds (DM Green Building, Estidama Pearl) but are not retroactive.)
@@ -465,15 +465,15 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | **Abu Dhabi** | **ADDC** (Abu Dhabi Distribution Company) `https://www.addc.ae/` |
 | **Al Ain** | **AADC** (Al Ain Distribution Company) |
 | **Sharjah** | **SEWA** (Sharjah Electricity, Water & Gas Authority) `https://www.sewa.gov.ae/` |
-| **Northern Emirates** (Ajman, RAK, UAQ, Fujairah) | **FEWA** (Federal Electricity & Water Authority) `https://etihadwe.ae/en/Pages/default.aspx` |
+| **Northern Emirates** (Ajman, RAK, UAQ, Fujairah) | **EtihadWE** (Etihad Water and Electricity — established 2020 by Federal Law No. 31 of 2020, replacing FEWA) `https://etihadwe.ae/en/Pages/default.aspx` |
 | **District cooling** | **Empower** (Dubai dominant), **Tabreed** (UAE-wide), **Emicool** (Dubai) — separate bill |
 
 ### Verification
 
-1. Pull existing **DEWA / ADDC / SEWA / FEWA** account info from seller — confirms active mains + no overdue
+1. Pull existing **DEWA / ADDC / SEWA / EtihadWE** account info from seller — confirms active mains + no overdue
 2. Off-plan: confirm developer has utility connection on the master plan (verify NOC at handover)
 3. Some compounds use **TSE (treated sewage effluent)** for landscape irrigation — separate cost line
-4. Rural / undeveloped Northern Emirates plots: may not yet have utility connection; verify with FEWA + master developer
+4. Rural / undeveloped Northern Emirates plots: may not yet have utility connection; verify with EtihadWE + master developer
 
 ### Tariffs (residential indicative)
 
@@ -575,7 +575,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | **Dubai Police** | Off-plan / real estate fraud reports |
 | **DIFC Wills Service Centre** | Non-Muslim wills (Dubai/UAE assets) |
 | **ADGM Wills Service** | Non-Muslim wills (Abu Dhabi-anchored) |
-| **UAE Civil Defence** | Fire NOC, cladding compliance |
+| **Dubai Civil Defence / MoI General Command of Civil Defence** | Fire NOC, cladding compliance |
 | **Dubai Municipality** | Makani address, building permits, drainage history |
 
 ## Quirks to know
@@ -612,12 +612,12 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | DEWA | `https://www.dewa.gov.ae/` |
 | ADDC | `https://www.addc.ae/` |
 | SEWA | `https://www.sewa.gov.ae/` |
-| FEWA | `https://etihadwe.ae/en/Pages/default.aspx` |
+| EtihadWE (formerly FEWA) | `https://etihadwe.ae/en/Pages/default.aspx` |
 | Dubai Municipality | `https://www.dm.gov.ae/` |
 | Makani (Dubai address) | `https://www.dm.gov.ae/open-data2/open-data-for-makani` |
 | TAMM (Abu Dhabi unified services) | `https://www.tamm.abudhabi/` |
 | RTA Dubai | `https://www.rta.ae/` |
-| UAE Civil Defence | `https://www.dcd.gov.ae/` |
+| Dubai Civil Defence (emirate-level; UAE federal body is the MoI General Command of Civil Defence) | `https://www.dcd.gov.ae/` ⚠️ reachable from the UAE only |
 | DIFC Courts Wills Service | `https://www.difccourts.ae/difc-courts-wills/` |
 | ADGM | `https://www.adgm.com/` |
 | DET (holiday home permits, Dubai) | `https://www.dubaidet.gov.ae/` |
@@ -633,7 +633,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 
 **Confidence**: **HIGH** for federal-level rules (Golden Visa / Retirement Visa thresholds, VAT regime, Corporate Tax, AED peg, AML), Dubai DLD transfer fee + service-charge framework + Smart Rental Index brackets + DET holiday-home permit, ADREC 2% + Abu Dhabi Law 13/2019 (amending Law 19/2005) framework, DIFC/ADGM Wills + Dubai Law 2/2025, Apr 2024 flood event + Tasreef response. **MEDIUM** for emirate-by-emirate detail outside Dubai/Abu Dhabi (RAK/Ajman/Fujairah/UAQ less standardised — designated zones verified per source but precise transfer fee schedules vary and need per-deal confirmation with the relevant municipality), Abu Dhabi citywide pricing benchmarks (less granular open data than Dubai), Sharjah usufruct vs freehold-for-Arabs distinction (verify with SRERD per nationality).
 
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; Northern Emirates utility (EtihadWE) corrected 2026-09-18 per u.ae).
 
 ## Extension TODOs (deepen on first real run)
 

@@ -107,7 +107,7 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 
 - **MTOP — Ministerio de Transporte y Obras Públicas**: `https://www.gub.uy/ministerio-transporte-obras-publicas/` (institutional landing)
 - **MTOP Geoportal — DNV traffic-data product**: `https://geoportal.mtop.gub.uy/` (primary — interactive map + estación de aforo + TPDA data)
-- **Observatorio del Transporte Carretero (MTOP)**: `https://geoportal.mtop.gub.uy/-/sistema-de-relevamiento-estadistico-de-transito` (regional/national rollups)
+- **Sistema de relevamiento estadístico de tránsito (MTOP — Dirección Nacional de Vialidad)**: `https://geoportal.mtop.gub.uy/-/sistema-de-relevamiento-estadistico-de-transito` — **per-station TPDA** (tránsito promedio diario anual) with the location of each *Puesto de Conteo de Vehículos*, served as a geoservice, so traffic can be read at a specific road segment rather than a regional rollup (2026 data, source MTOP geoportal; 2026-09-18 verified)
   - Publishes **TPDA (Tránsito Promedio Diario Anual)** — average annual daily traffic per estación de aforo on national routes (regional usage: TMDA)
   - Annual report; latest typically lags 1–2 years (verify latest at Geoportal MTOP) (2026-05-27 verified)
 - **Intendencia de Montevideo — Movilidad**: `http://montevideo.gub.uy/tipo/area-tematica/movilidad`
@@ -573,7 +573,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | UTE | `https://portal.ute.com.uy/` |
 | MTOP DNV (vialidad nacional, institutional) | `https://www.gub.uy/ministerio-transporte-obras-publicas/` |
 | MTOP Geoportal (TPDA + estaciones) | `https://geoportal.mtop.gub.uy/` |
-| MTOP Observatorio Carretero | `https://geoportal.mtop.gub.uy/-/sistema-de-relevamiento-estadistico-de-transito` |
+| MTOP — Sistema de relevamiento estadístico de tránsito (per-station TPDA) | `https://geoportal.mtop.gub.uy/-/sistema-de-relevamiento-estadistico-de-transito` |
 | Intendencia de Montevideo | `https://montevideo.gub.uy/` |
 | Intendencia de Maldonado | `https://www.maldonado.gub.uy/` |
 | MVOT (vivienda) | `https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/` |
@@ -595,7 +595,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: **HIGH** for tax-residency / ITP / cadastre / notary / OSE / DGI source paths (all primary state agencies, multi-source corroborated). **MEDIUM** for current Intendencia-by-Intendencia Contribución Inmobiliaria bracket exactness (varies annually + per departamento — must verify per ordenanza current year). **MEDIUM** for STR regulation (national Ley 20.352 reglamentary decree still draft — pending mid-2026, revisit before the 2026-27 summer season).
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-05-27 (traffic source (per-station TPDA) corrected 2026-09-18 per MTOP geoportal).
 
 ## Extension TODOs (deepen on first real run)
 

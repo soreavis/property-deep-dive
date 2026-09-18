@@ -188,7 +188,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 | Source | URL | What it gives |
 |---|---|---|
 | **SINAPROC (Sistema Nacional de Protección Civil)** | `https://www.sinaproc.gob.pa/` | Emergency response, hazards |
-| **IMHPA / ETESA** | `https://www.imhpa.gob.pa/es/` | Hydrometeorology |
+| **IMHPA — Instituto de Meteorología e Hidrología de Panamá** (successor to ETESA's Hidrometeorología unit) | `https://www.imhpa.gob.pa/es/` | Hydrometeorology |
 | **IGN (Instituto Geográfico Nacional)** | `https://ignpanama.anati.gob.pa/` | Geography |
 | **Universidad de Panamá Sismología** | — | Seismic monitoring |
 
@@ -348,7 +348,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 | Encuentra24 PA | `https://www.encuentra24.com/panama` |
 | CompreoAlquile | `https://www.compreoalquile.com/` |
 | SINAPROC | `https://www.sinaproc.gob.pa/` |
-| IMHPA / ETESA | `https://www.imhpa.gob.pa/es/` |
+| IMHPA — Instituto de Meteorología e Hidrología de Panamá (ex-ETESA) | `https://www.imhpa.gob.pa/es/` |
 | IDAAN | `https://www.idaan.gob.pa/` |
 | DGI (tax) | `https://dgi.mef.gob.pa/` |
 | SNM (migration) | `https://www.migracion.gob.pa/` |

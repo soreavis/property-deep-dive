@@ -164,7 +164,7 @@ Limassol financial-services + tech relocation hub (post-Wirecard/CySEC migration
 ### Flood
 - **Pedieos River (Nicosia)** — Basin 10 — highest flood risk basin (38+ historical events since 1960); major events 2010 + 2014 inundated hospitals, schools, intercity roads in northern Nicosia
 - **Coastal**: Larnaca Airport, Vasilikos/Dhekelia power stations, Larnaca/Paphos desalination plants in low-lying surge zones
-- **Map authority**: Civil Defence (https://www.gov.cy/moa-wdd/) + WDD (Water Development Department)
+- **Map authority**: **Water Development Department (Τμήμα Αναπτύξεως Υδάτων / WDD)** — the Cyprus competent authority under the Floods Directive 2007/60/EC, publishing flood hazard/risk mapping and the WDD geodata portal ([gov.cy/moa-wdd](https://www.gov.cy/moa-wdd/)). Civil Defence (Πολιτική Άμυνα, [gov.cy/moi/politiki-amyna](https://www.gov.cy/moi/politiki-amyna)) is response/preparedness, not the map publisher (2026 data, source Water Development Department; 2026-09-18 verified)
 
 ### Wildfire — CRITICAL & WORSENING
 
@@ -328,7 +328,7 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 | MECI (Energy/Commerce/Industry) | gov.cy/meci | https://www.gov.cy/meci/ |
 | EAC electricity | EAC | https://www.eac.com.cy/ |
 | EPC authority (BFU) | MECI | https://bfu.meci.gov.cy/en/energy-performance-certificates/ |
-| Civil Defence flood | gov | https://www.gov.cy/moa-wdd/ |
+| WDD flood hazard mapping (Floods Directive 2007/60/EC) | gov | https://www.gov.cy/moa-wdd/ |
 | KEDIPES (state asset manager) | KEDIPES | https://kedipes.com.cy/ |
 
 ---
@@ -352,7 +352,7 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 
 **Confidence**: HIGH on 2026 Tax Reform (CGT exemption uplifts + SDC-on-rental abolition verified 2026-08-07 against the primary Cyprus Tax Department / Ministry of Finance source; PwC/KPMG/Sovereign retained as cross-checks), Hermes STR registration mandatory since 6 Feb 2023, 2021 Limassol wildfires (4 dead, ~55 km² / 5,500 ha, major DD anchor for foothill properties), 2025 worst-drought-since-1901 + reservoir levels, Russian-buyer post-2022 sanctions enforcement (CySEC C728 expanded 23 Sep 2025). MEDIUM on per-municipality local IPT (verify per locality), SDA-equivalent (no formal CY SDA list — different from MT), no real-estate-specific stamp-duty exceptions retained from the 2026 abolition — only judicial / court fees survive (verify per transaction). LOW on TRNC IPC application data + reunification negotiations (politically dynamic — snapshot only).
 
-**Last verified**: 2026-08-07 (scope: `--tax` CGT exemptions + SDC-on-rental abolition only, against the Cyprus Tax Department / Ministry of Finance primary source; the rest of the playbook stands as of its 2026-04-26 population and 2026-05-27 checks)
+**Last verified**: 2026-08-07 (scope: `--tax` CGT exemptions + SDC-on-rental abolition only, against the Cyprus Tax Department / Ministry of Finance primary source; the rest of the playbook stands as of its 2026-04-26 population and 2026-05-27 checks; flood-map authority (Water Development Department) corrected 2026-09-18 per gov.cy/moa-wdd)
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)

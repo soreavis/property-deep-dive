@@ -7,7 +7,7 @@ ISO2: `sx`. Status: ✅ Populated (researched 2026-05-27). Constituent country w
 - **Status**: Autonomous constituent country within the Kingdom of the Netherlands (alongside Aruba, Curaçao, the NL). Own constitution (*Staatsregeling van Sint Maarten*, 2010), own Parliament (*Staten van Sint Maarten*, 15 seats), own Council of Ministers (*Ministerraad*), own judiciary (Common Court of Justice of Aruba, Curaçao, Sint Maarten and BES; final cassation to Hoge Raad NL).
 - **Surface**: ~**34 km²** (Dutch half of the 87 km² island; northern French half ~53 km²). World's smallest land mass shared between two sovereign jurisdictions.
 - **Capital**: Philipsburg (Great Bay; cruise + government centre).
-- **Population**: ~**44,000–45,000** documented residents (Department of Statistics STAT — `https://stats.sintmaartengov.org/`); cross-border movement with FR Saint-Martin is unrestricted (no land border; *Treaty of Concordia* 1648).
+- **Population**: **42,449** at 1 January 2025 (Department of Statistics STAT rebased estimate, benchmarked to the 2022 Population and Housing Census count of **41,902** — [STAT release, 29 Jun 2026](https://www.sintmaartengov.org/news/Pages/Rebased-Population-Estimates-and-Vital-Statistics-for-January-1-2025.aspx); 2026-09-18 verified); cross-border movement with FR Saint-Martin is unrestricted (no land border; *Treaty of Concordia* 1648).
 - **Currency**: **Netherlands Antillean guilder (ANG / NAƒ)** — pegged to **USD at 1.79 ANG = 1 USD** since 1971; **USD is broadly accepted in parallel** for retail, rents, real-estate transactions. The Central Bank of Curaçao and Sint Maarten (CBCS — `https://www.centralbank.cw/`) issues the ANG. A long-pending replacement currency, the **Caribbean guilder (XCG)**, was launched in Curaçao + Sint Maarten on **31 March 2025** at the same 1.79 = 1 USD peg (CBCS announcement) — ANG ↔ XCG transition is the live FX reality in 2026.
 - **Languages**: **Dutch + English** are both official (English is the primary language of daily commerce, education, real-estate documents); **Papiamentu** has cultural standing but is the heritage language of Curaçao / Bonaire / Aruba rather than SX-native — Sint Maarten's de facto vernacular is **English-Creole + Dutch for government**. Notarial deeds (*notariële akte*) can be drafted in Dutch or English at the notary's discretion.
 - **Legal system**: **Civil law** (Dutch tradition); property law derived from Dutch Caribbean civil code; deed-based registration (*notariële akte van levering*) recorded at the Cadastre & Land Registry Foundation.
@@ -210,7 +210,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Office of Disaster Management (ODM)** | `https://www.sintmaartengov.org/Ministries/Departments/Pages/Disaster-Management.aspx` | Hurricane preparedness, emergency response, NRRP coordination |
+| **Disaster Management, Government of Sint Maarten** — coordinates the territory's **10 ESF groups** (the "Office of Disaster Management / ODM" label is not used on the government's own page; source it to a dated press release before reusing it) | `https://www.sintmaartengov.org/Ministries/Departments/Pages/Disaster-Management.aspx` | Hurricane + tropical-storm preparedness, emergency response, NRRP coordination |
 | **National Recovery Program Bureau (NRPB)** | `https://nrpbsxm.org/` | Build Back Better implementation; sector recovery |
 | **Ministry of VROMI** | `https://www.sintmaartengov.org/` | Building permits, spatial planning, environmental zoning |
 | **CDEMA (regional)** | `https://www.cdema.org/` | Caribbean Disaster Emergency Management Agency — regional hurricane / tsunami / earthquake context |
@@ -219,7 +219,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 ### Specific risks
 
 - **Hurricane (PRIMARY HAZARD — defines the risk profile)**:
-  - **Hurricane Irma, 6 September 2017, Category 5** (sustained 295 km/h winds) — landfall on Saint-Martin / Sint Maarten; total damages + losses **US$2.73 bn ≈ 255% of GDP**; **~19,400 of ~40,000 documented homes damaged**; ~5,000 people displaced. *(World Bank NRRP, 2018 — `https://documents1.worldbank.org/curated/en/793011623753566547/pdf/Sint-Maarten-National-Recovery-and-Resilience-Plan-A-Roadmap-to-Building-Back-Better.pdf`).*
+  - **Hurricane Irma, 6 September 2017, Category 5** (sustained 295 km/h winds) — landfall on Saint-Martin / Sint Maarten; **Hurricane Maria followed less than two weeks later**. Combined damages + losses across the two hurricanes: **US$2.7 bn** — damages **US$1.4 bn (73% of nominal GDP)** and losses **US$1.3 bn (68% of nominal GDP)**; housing-sector damages **US$442 m**, losses **US$22.1 m**, recovery needs **US$533.75 m** (22.8% of total national needs). The island's housing stock at the time was **~19,400 units accommodating 40,000+ documented residents**; the plan states that reliable data on the extent of damage and the number of units affected **is not readily available**, so no dwelling-level damage count is citable. *(World Bank / Government of Sint Maarten, National Recovery and Resilience Plan — [NRRP PDF](https://documents1.worldbank.org/curated/en/793011623753566547/pdf/Sint-Maarten-National-Recovery-and-Resilience-Plan-A-Roadmap-to-Building-Back-Better.pdf); 2026-09-18 verified).*
   - **Hurricane season**: 1 June – 30 November; peak Aug–Oct.
   - **Post-Irma rebuild benchmark**: NRRP "Build Back Better" requires **hurricane-resistant standards** (impact-rated glazing, hurricane shutters / accordion-shutters / Bahama shutters, concrete-block or reinforced-concrete construction, reinforced roof-to-wall connections, underground utility ducting for new build). The **pre-Irma wood-frame + tin-roof stock** that did not survive 2017 is the single largest extant structural-risk concentration.
   - **Pre-Irma stock**: any pre-2017 wood-frame structure that survived Irma was either (a) sheltered by topography, (b) retrofitted post-Irma, or (c) likely still vulnerable — verify per parcel structural audit before purchase.
@@ -299,7 +299,7 @@ HIGH for headline hurricane reality (Irma 2017, NRRP-documented); MEDIUM for gra
 
 ### Primary source
 
-- **Sint Maarten Police Force (KPSM — Korps Politie Sint Maarten)**: `https://www.sintmaartengov.org/` — annual press releases + occasional statistical bulletins
+- **Sint Maarten Police Force (KPSM — Korps Politie Sint Maarten)**: `https://www.sintmaartengov.org/` — press releases published through the government portal under the Ministry of Justice; **no recurring KPSM statistical bulletin is published — recurring crime statistics are not publicly available in a KPSM series (2026-09-18 verified); verify with the Ministry of Justice / KPSM directly**. One-off: the 2011 *Criminaliteitsbeeldanalyse Sint Maarten* (KLPD-IPOL / KPSM) remains on the portal.
 - **Caribbean Community Implementation Agency for Crime and Security (CARICOM IMPACS)**: regional aggregation
 - **US State Department travel advisories**: indirect benchmark (`https://travel.state.gov/`)
 
@@ -711,7 +711,7 @@ Ministry of Finance ......... https://www.sintmaartengov.org/Ministries/Finance/
 Tax Administration page ..... https://www.sintmaartengov.org/Ministries/Departments/Pages/Tax-Administration.aspx
 First-Time Investor Permit .. https://www.sintmaartengov.org/services/pages/First-Time-Investor-Permit.aspx
 Department of Statistics .... https://stats.sintmaartengov.org/
-Office of Disaster Mgmt ..... https://www.sintmaartengov.org/Ministries/Departments/Pages/Disaster-Management.aspx
+Disaster Management (Government of Sint Maarten) ..... https://www.sintmaartengov.org/Ministries/Departments/Pages/Disaster-Management.aspx
 National Recovery Program ... https://nrpbsxm.org/
 Central Bank (CBCS) ......... https://www.centralbank.cw/
 NV GEBE (utility) ........... https://nvgebe.com/
@@ -730,7 +730,7 @@ Common Court of Justice ..... https://www.caribbeancourtofjustice.org/ (regional
 
 **Rationale**: Three primary-source anchors (tax.sx + kadaster.sx + sintmaartengov.org) confirmed for the most decision-critical claims (4% transfer tax; no enforced annual property tax; foreign-buyer openness; First-Time Investor Permit document list + Naf 50,000 Crime Combating Fund contribution). Hurricane Irma reality + NRRP Build Back Better regime is primary-anchored to World Bank-published NRRP. Currency status (ANG → XCG 2025-03-31) is primary-anchored to CBCS. The pending 2026-02-13 land-tax + inheritance-tax abolition bill is secondary-source (SXM Talks) but corroborates the de-facto-zero enforcement that tax.sx itself implies by omission. Investor-permit investment thresholds (Naf 900,000 / US$500k / US$255k real-estate floor) + LTV ceilings + insurance premium ranges remain **secondary-source level** — confirmed across multiple 2026 sources but not on the primary government site. DAFT preferential US-citizen capital threshold (~US$20k) is secondary-source consensus.
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (population, Irma/Maria damage figures and KPSM publication set corrected 2026-09-18 per STAT release + World Bank NRRP + a site search of sintmaartengov.org)
 
 **Source ranking applied per `shared/anti-hallucination.md`**: Primary government (tax.sx, kadaster.sx, sintmaartengov.org, centralbank.cw, nvgebe.com) used for headline claims. World Bank NRRP for Irma damage statistics. Secondary aggregators (doingbusinessdutchcaribbean.com, idr.sx, easysxm.com, brightpathcaribbean.com, walshww.com) used for transaction-cost / investor-permit threshold synthesis and cross-checked against each other; quoted as `est.` with calibration sentences. Reddit r/SXM `1koayw9` cited as 🟡 anecdotal in `--integrity` flag, not as basis for any verdict on tax/legal/structural matters.
 

@@ -10,7 +10,7 @@ ISO2: `za`. Status: ✅ Fully populated (researched 2026-05).
 - **Currency**: ZAR (South African Rand); volatile vs USD/EUR (1 USD ≈ R18–R19 typical 2025; 1 EUR ≈ R20 — verify on day of conversion)
 - **Languages**: 11 official (English, Afrikaans, isiZulu, isiXhosa, Sesotho, Sepedi, Setswana, Xitsonga, siSwati, Tshivenda, isiNdebele); **English dominates commerce, contracts, and conveyancing**
 - **Cadastre**: **Deeds Registry** (Deeds Office, one per major city — Cape Town, Pretoria, Johannesburg, Pietermaritzburg, Bloemfontein, Kimberley, King William's Town, Mthatha, Vryburg, Nelspruit, Polokwane) + **Surveyor-General** (per province) for diagrams
-  - DALRRD portal: `https://www.dalrrd.gov.za/`
+  - Deeds Registration portal: `https://www.deeds.gov.za/` (an entity of the Department of Land Reform and Rural Development, `https://www.dlrrd.gov.za/`)
   - DeedsWeb (subscription): `https://www.deeds.gov.za/`
 - **Identifier**: **Title Deed number** (e.g., `T12345/2020`) + **Surveyor-General (SG) diagram** + **Erf/Stand/Portion number** (residential) or **Sectional Title** scheme + unit number for apartments
 - **Recent reforms**:
@@ -458,7 +458,8 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 | Authority | When to call |
 |---|---|
 | **Deeds Office** (per city) | Title Deed verification; full property history; encumbrances |
-| **DALRRD** (Dept of Agriculture, Land Reform & Rural Development) | National cadastre policy; Deeds Office portal access |
+| **DLRRD** (Dept of Land Reform & Rural Development) | National cadastre policy; Deeds Registration Trading Entity |
+| **Department of Agriculture** (`nda.gov.za`) | Veterinary import permits (pet relocation) |
 | **Surveyor-General** (per province) | SG diagram; erf boundary verification |
 | **SARS** | Transfer Duty calculation; CGT; rental tax queries |
 | **Municipality** (rates, valuations, planning, CoCs) | Rates clearance, building plans approval, zoning, valuation roll |
@@ -490,7 +491,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 
 | Source | URL |
 |---|---|
-| Deeds Office (DALRRD entry) | `https://www.dalrrd.gov.za/` |
+| Deeds Office (Deeds Registration) | `https://www.deeds.gov.za/` |
 | DeedsWeb (subscription portal) | `https://www.deeds.gov.za/` |
 | SARS Transfer Duty | `https://www.sars.gov.za/types-of-tax/transfer-duty/` |
 | SARS CGT | `https://www.sars.gov.za/types-of-tax/capital-gains-tax/` |
@@ -522,7 +523,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government / regulated-entity sources + cost benchmarks + caveats.
 **Confidence**: **HIGH** for cadastre / Transfer Duty / CGT / conveyancer requirements / FICA (all primary state / SARS / DHA sources). **MEDIUM** for municipal rates per-city (annual tariff cycle each July; verify current). **MEDIUM** for short-term rental rules (Tourism Amendment Bill in flux; municipal STR regulation evolving; verify Cape Town MPBL current state). **MEDIUM** for Expropriation Act 13 of 2024 implementation (Act unproclaimed / not in force as at 2026-08-07; Western Cape High Court constitutional review argued 3–7 Aug 2026 with judgment outstanding — hearing dates per press reports; practical residential urban risk currently very low).
-**Last verified**: 2026-08-07 (`--finance` and `--risks` re-verified — Expropriation Act 13 of 2024: assent 20 Dec 2024, *Government Gazette* No. 51964 of 24 Jan 2025, still unproclaimed under s31, Western Cape High Court review argued 3–7 Aug 2026 with no judgment; and Eskom load-shedding, which has been at zero rather than merely "declining" since 16 May 2025). Prior sweep 2026-05-27 (Transfer Duty bracket date 1 Apr 2025; Tourism Bill shelved + Mar 2026 Code + TOMSA; Hawarden v ENS [2024] ZASCA 90; CIPC BO regime; s35A rates 7.5/10/15; s12BA lapsed 28 Feb 2025; VAT 15.5% withdrawn 24 Apr 2025).
+**Last verified**: 2026-08-07 (`--finance` and `--risks` re-verified — Expropriation Act 13 of 2024: assent 20 Dec 2024, *Government Gazette* No. 51964 of 24 Jan 2025, still unproclaimed under s31, Western Cape High Court review argued 3–7 Aug 2026 with no judgment; and Eskom load-shedding, which has been at zero rather than merely "declining" since 16 May 2025). Prior sweep 2026-05-27 (Transfer Duty bracket date 1 Apr 2025; Tourism Bill shelved + Mar 2026 Code + TOMSA; Hawarden v ENS [2024] ZASCA 90; CIPC BO regime; s35A rates 7.5/10/15; s12BA lapsed 28 Feb 2025; VAT 15.5% withdrawn 24 Apr 2025). ZA departmental split + Deeds Registration ownership re-verified 2026-09-18 (authority / URL only).
 
 ## Extension TODOs (deepen on first real run)
 

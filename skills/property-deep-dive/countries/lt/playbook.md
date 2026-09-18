@@ -47,11 +47,11 @@ Lithuania is a small Baltic state (~2.8M pop) with a unified land/cadastre syste
 ## Section: `--traffic`
 
 **Sources**:
-- **Lietuvos automobilių kelių direkcija (LAKD)** road authority: https://vialietuva.lt/ (verify in browser)
+- **AB „Via Lietuva"** — the state road authority (the former Lietuvos automobilių kelių direkcija / LAKD; `lakd.lt` now redirects here): https://vialietuva.lt/ — publishes traffic volumes (*eismo intensyvumas*) (2026-09-18 verified)
 - **Trafi.lt** real-time congestion (Vilnius): https://www.trafi.com/vilnius-app
 - **OSM Overpass** for road class + maxspeed (universal — see `shared/preflight.md`)
 
-**Output**: road class (A1-A18 magistrales / krašto / rajoninis), maxspeed, AADT if available from LAKD, noise translation (dB(A) inferred from OSM `highway=*` tag + maxspeed).
+**Output**: road class (A1-A18 magistrales / krašto / rajoninis), maxspeed, AADT if available from Via Lietuva, noise translation (dB(A) inferred from OSM `highway=*` tag + maxspeed).
 
 ---
 

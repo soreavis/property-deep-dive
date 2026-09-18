@@ -228,7 +228,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 | **IPMA (Instituto Português do Mar e da Atmosfera)** | `https://www.ipma.pt/` | Meteorology + seismic + climate |
 | **CCDR regional** (Comissões de Coordenação e Desenvolvimento Regional) | per region | Regional hazards |
 | **ICNF (Instituto da Conservação da Natureza)** | `https://www.icnf.pt/` | Forest + fire + protected areas |
-| **CNPGB (Comissão Nacional do Programa de Gestão de Riscos)** | `https://www.dgterritorio.gov.pt/atividades/paisagem/ptp/carta-perigosidade-incendio-rural` | Wildfire risk |
+| **DGT (Direção-Geral do Território)** — Carta de Perigosidade de Incêndio Rural, five hazard classes («muito baixa» to «muito alta») under DL 82/2021 of 13 Oct as amended by DL 49/2022 of 19 Jul (SIGFR); «alta» and «muito alta» form the **APPS**, mandatorily carried into the *plantas de condicionantes* of territorial plans. Methodology published by **ICNF** | `https://www.dgterritorio.gov.pt/atividades/paisagem/ptp/carta-perigosidade-incendio-rural` | Wildfire hazard — buildability-relevant (2026-09-18 verified) |
 
 ### Specific risks
 
@@ -393,7 +393,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-09-17 (non-resident IMT surcharge re-verified against AT consolidated CIMT + Ofício Circulado 40131/2026 — effective date settled at 25 May 2026, exception (a) corrected to past residence; balance unchanged) · previously 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged)
+**Last verified**: 2026-09-17 (non-resident IMT surcharge re-verified against AT consolidated CIMT + Ofício Circulado 40131/2026 — effective date settled at 25 May 2026, exception (a) corrected to past residence; balance unchanged) · previously 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; wildfire-hazard authority (DGT) corrected 2026-09-18 per dgterritorio.gov.pt)
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (Cadastro modernization ongoing but Finanças stable; APA + IPMA well-maintained). MEDIUM-HIGH for AL regulation (Lisbon RMAL containment in force since 6 Dec 2025; Porto + Algarve evolving).
 

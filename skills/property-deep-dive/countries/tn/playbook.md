@@ -118,7 +118,7 @@ This is the second deal-killer trap (parallel to Morocco's Office des Changes). 
 - **INS — Institut National de la Statistique** (`https://www.ins.tn/`) — publishes **Indice des Prix à la Production des Logements Neufs (IPPLN)** quarterly, plus census housing-stock data. Coverage is index-only (base 100), NOT absolute TND/m². Use for *trend*, combine with listings for *level*.
 - **BCT real-estate financial-stability annex** — `https://www.bct.gov.tn/bct/siteprod/page.jsp?id=53` — aggregate residential lending + market-stress signals
 - **Conservation de la Propriété Foncière (CPF)** — `https://www.domainetat.tn/` — registered transactions are not publicly searchable; notaries can pull *références notariales* on similar transactions in the délégation — ask your notary
-- **Direction Générale des Impôts (DGI)** under Ministry of Finance — `https://www.finances.gov.tn/` and `https://jibaya.tn/` — publishes **valeurs locatives de référence** per délégation used as registration-duty floor; useful as a *lower-bound* sanity check (typically 30–50 % below market)
+- **Direction Générale des Impôts (DGI)** under Ministry of Finance — `https://www.finances.gov.tn/` and `https://jibaya.tn/` — **valeurs locatives de référence per délégation: data not publicly available on the DGI portal — verify at the Direction Générale des Impôts** (the `jibaya.tn/documentation/` base carries general Documentation Fiscale but no valeur-locative tables, 2026-09-18 verified). Where obtained from the administration, the reference values act as a registration-duty floor and are useful only as a *lower-bound* sanity check.
 
 ### Listing platforms
 
@@ -226,8 +226,8 @@ LOW–MEDIUM — per-segment traffic counts comparable to French TMJA datasets a
 | Item | Rate / amount | Source |
 |---|---|---|
 | **Droits d'enregistrement (registration duty)** | **Progressive brackets per LdF 2024** — for **existing/older properties**: **6 % (< TND 500k), 8 % (TND 500k–999k), 10 % (> TND 1M)**; for **new properties from approved promoter**: 1 % fixed (< TND 500k), progressive 3 %+complementary higher; **residential land**: 1–5 % by surface. CPF 1 % remains. (LdF 2018 had unified at flat 5 % — now superseded; Jan 2026 reforms also doubled inter-family donation flat fee 100→200 TND, removed 10 %/yr punitive revaluation for late registration, repealed cash-payment-refusal provision) (2026-05-27 verified, source Bigdatis 2025 + Immobilier Djerba + Managers.tn 2026) | DGI — Code des Droits d'Enregistrement et de Timbre, `https://www.finances.gov.tn/` |
-| **Conservation Foncière fee (CPF — droit d'inscription)** | **1 %** of price | Ministry of State Domains, `https://www.domainetat.tn/` |
-| **Notaire (notarial fees)** | **~1 %** of price (sliding scale, *barème indicatif* of the **Chambre Nationale des Notaires de Tunisie** — `https://www.justice.gov.tn/index.php?id=278&L=3`) + **19 % VAT (TVA)** on the fee |  |
+| **Conservation Foncière fee (CPF — droit d'inscription)** | **~1 %** of price (`est.` — the CPF fee schedule is set by **décret n° 98-972 du 27 avril 1998 relatif à la fixation des redevances revenant à la C.P.F au titre des prestations fournies par ses services**; the rate itself is **not published on the ministry site or the SICAD service sheet — verify against the décret text in the JORT**) | Ministry of State Domains, `https://www.domainetat.tn/`; CPF service sheet `http://www.sicad.gov.tn/Fr/Prestation_Delivrance-du-titre-de-propriete_57_3_D1167` (2026-09-18 verified) |
+| **Notaire (notarial fees)** | **~1 %** of price (`est.` — sliding scale. The tariff is **fixed by joint ministerial arrêté, not by a professional chamber**: arrêté des ministères de la Justice et des Finances du **8 avril 1975** portant fixation du tarif des honoraires des notaires et huissiers-notaires, as amended by the arrêtés of **5 avril 1985, 7 février 1991 and 8 mai 2002**; the profession is organised by **loi n° 94-60 du 23 mai 1994**. The Ministry of Justice publishes the instrument list but **no rate table**, so the ~1 % is a practitioner estimate — verify the current barème against the arrêté text in the JORT) + **19 % VAT (TVA)** on the fee — `https://www.justice.gov.tn/index.php?id=278&L=3` (2026-09-18 verified) |  |
 | **Timbre fiscal (stamp duty on the deed)** | nominal flat amounts per page | Code des Droits de Timbre |
 | **Honoraires d'agent immobilier** | **2.5–3 %** of price + **19 % TVA** typical (negotiable; sometimes split 50/50, sometimes seller pays) | Market practice |
 | **Total transaction cost (buyer side)** | **~10–14 %** of price for existing resale (registration duty 6–10 % + notary ~1 % + CPF 1 % + agent 2.5–3 %); **~5–6 %** for new-build from approved promoter (1 % duty) | Sum of above |
@@ -434,7 +434,7 @@ MEDIUM — wage benchmarks are sourced to ANETI + INS but shift with TND volatil
 | **DGRE — Direction Générale des Ressources en Eau** | (under Ministry of Agriculture) `https://www.agriculture.tn/` | Hydrology, flood-prone zones, oued mapping |
 | **Plan d'Aménagement Urbain (PAU)** | At each commune urbanisme office | Local zoning + risk overlays |
 | **USGS Tunisia seismicity** | `https://earthquake.usgs.gov/earthquakes/search/?maxlatitude=38&minlatitude=30&maxlongitude=12&minlongitude=7` | Cross-check seismic events |
-| **INSTOP — Inst. National de la Santé / ANCSEP** | `http://www.ancsep.rns.tn/` | Sanitary + environmental health |
+| **ANCSEP — Agence Nationale de Contrôle Sanitaire et Environnemental des Produits** (under the tutelle of the Ministère de la Santé; created by décret n° 99-779 du 5 avril 1999) | `http://www.ancsep.rns.tn/` (http only — do not upgrade the scheme) | Sanitary + environmental health, water/bathing-water and chemical-product surveillance |
 
 ### Seismicity — Tunisia is moderate-low
 
@@ -753,7 +753,7 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — PVI 10%/15% individuals (25% only for public-entity buyers); registration duty progressive 6/8/10% (LdF 2024); statute stack Loi 64-5/2005-40/2016-71 + Beylical Decree 4 Jun 1957; IMF EFF rejection April 2023; Feb 2025 Moody's Caa1 stable)
+**Last verified**: 2026-05-27 (validation sweep — PVI 10%/15% individuals (25% only for public-entity buyers); registration duty progressive 6/8/10% (LdF 2024); statute stack Loi 64-5/2005-40/2016-71 + Beylical Decree 4 Jun 1957; IMF EFF rejection April 2023; Feb 2025 Moody's Caa1 stable; ANCSEP identity corrected and the DGPC roads-directorate attribution confirmed 2026-09-18 per ancsep.rns.tn + mehat.gov.tn)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

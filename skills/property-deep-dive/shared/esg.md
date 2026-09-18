@@ -269,7 +269,7 @@ Sources: IEA national reports + national grid operator data, latest available; f
 | 🇯🇵 JP | ~24% | Solar + hydro; nuclear restart trajectory | 2024 (METI) |
 | 🇮🇱 IL | ~13% | Solar growth target 30% by 2030 | 2024 (energy.gov.il) |
 | 🇹🇷 TR | ~44% | Hydro + wind + geothermal + solar | 2024 (TEİAŞ) |
-| 🇦🇪 AE | ~7% | Mostly natural gas; Barakah nuclear adds capacity (not classed renewable) | 2024 (DEWA / FEWA) |
+| 🇦🇪 AE | ~7% | Mostly natural gas; Barakah nuclear adds capacity (not classed renewable) | 2024 (DEWA / EtihadWE) |
 | 🇹🇭 TH | ~12% | Natural-gas dominant | 2024 (EPPO) |
 | 🇲🇾 MY | ~18% | Hydro Sarawak; solar growth peninsular | 2024 (energycommission.gov.my) |
 | 🇻🇳 VN | ~40% | Hydro + recent solar boom (2020-22) | 2024 (EVN) |

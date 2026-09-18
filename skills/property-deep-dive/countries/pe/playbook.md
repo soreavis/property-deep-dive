@@ -519,7 +519,7 @@ Schools, healthcare, parks, transit, retail density — public-good adjacency th
 ### Sources (Lima focus)
 
 - **MINEDU — Ministerio de Educación**: `https://www.gob.pe/minedu` — Escale (estadísticas educativas) + lista de instituciones educativas per distrito + UGEL.
-- **MINSA — Ministerio de Salud**: `https://www.gob.pe/minsa` — RENIPRESS (Registro Nacional de IPRESS — Instituciones Prestadoras de Servicios de Salud) + EsSalud (seguro social).
+- **SUSALUD — Superintendencia Nacional de Salud** (MINSA sector): `https://www.gob.pe/susalud` — administers **RENIPRESS** (Registro Nacional de IPRESS — Instituciones Prestadoras de Servicios de Salud), the register of public, private and mixed health-service providers: [consulta RENIPRESS](https://www.gob.pe/10202-obtener-informacion-de-las-instituciones-prestadoras-de-servicios-de-salud-renipress) (2026-09-18 verified). **MINSA — Ministerio de Salud**: `https://www.gob.pe/minsa` — health policy; **EsSalud** — social health insurance.
 - **SERPAR Lima** (Servicio de Parques de Lima): `https://www.serpar.gob.pe/` — parques metropolitanos; municipalidades distritales para parques locales.
 - **AATE + ATU + Línea 1 Metro de Lima** (concesionaria GyM / Volcán): Línea 1 operativa Bayóvar (San Juan de Lurigancho) ↔ Villa El Salvador, 26 estaciones; Línea 2 + Ramal Av. Faucett ↔ Av. Gambetta in construcción.
 - **Metropolitano BRT** (Lima): troncal Naranjal ↔ Matellini (norte ↔ sur Lima).
@@ -535,7 +535,7 @@ Schools, healthcare, parks, transit, retail density — public-good adjacency th
 ### Verification
 
 - Educación: **MINEDU Escale** mapa de instituciones (público + privado).
-- Salud: **MINSA RENIPRESS** + listado clínicas privadas + EsSalud por distrito.
+- Salud: **SUSALUD — RENIPRESS** + listado clínicas privadas + EsSalud por distrito.
 - Movilidad: **ATU / Línea 1 mapa** + Metropolitano BRT + corredores complementarios coverage.
 - Comercio: Adondevivir/Urbania filtros + listings density indicador.
 
@@ -1096,7 +1096,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 | **MINCETUR** | RNT establecimientos hospedaje, turismo |
 | **MVCS / MiVivienda** | Vivienda subsidios, RNE, normas constructivas |
 | **MINEDU** | Educación + Escale |
-| **MINSA** | Salud + RENIPRESS |
+| **SUSALUD** (MINSA sector) | Salud + RENIPRESS |
 | **SUNASS** | Agua + alcantarillado regulación |
 | **OSINERGMIN** | Electricidad + gas regulación |
 | **SBS** | Bancos + seguros + AFP regulación |
@@ -1153,7 +1153,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 | ANA | `https://www.gob.pe/ana` |
 | MINAM | `https://www.gob.pe/minam` |
 | MINEDU Escale | `https://escale.minedu.gob.pe/` |
-| MINSA RENIPRESS | `https://www.gob.pe/10202-obtener-informacion-de-las-instituciones-prestadoras-de-servicios-de-salud-renipress` |
+| SUSALUD — RENIPRESS | `https://www.gob.pe/10202-obtener-informacion-de-las-instituciones-prestadoras-de-servicios-de-salud-renipress` |
 | ATU | `https://www.gob.pe/atu` |
 | AATE | `https://www.aate.gob.pe/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | MTC | `https://www.gob.pe/mtc` |
@@ -1172,7 +1172,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (RENIPRESS administering authority (SUSALUD) corrected 2026-09-18 per gob.pe)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

@@ -18,13 +18,13 @@ ISO2: `mo`. Status: ✅ Fully populated (researched 2026-05).
   - **Concessão por arrendamento / 租賃批給** — typical 25-year initial, renewable 10-year periods, max 50 years (Law 10/2013 Art. 47–49)
   - Many "expired without development" concessions reclaimed by Government 2015–2024 (Pearl Horizon case among others)
 - **Foreign-buyer rule**: **Foreigners CAN purchase residential** with NO outright nationality bar, but face **Non-Resident Buyer Stamp Duty +10%** layered on standard stamp duty (see `--tax`). **NO golden-visa programme** in Macao
-- **Visa**: ❌ **NO investment-residence visa** since the **Investment Residence Scheme (Regulamento Administrativo n.º 3/2005) was suspended by Regulamento Administrativo n.º 7/2007, in force 4 April 2007** (verified via [Boletim Oficial — RA 7/2007](https://bo.dsaj.gov.mo/isapi/go.asp?d=rega-7-2007pt) + DSI) and **NOT reactivated**. The new **Talent Programme (人才引進制度)** launched 2024 under [DSAMB / 人才發展委員會](https://www.cdqq.gov.mo/en/talent-recruitment-system) does NOT take property as qualifying criterion. HKID-holders entitled 1-yr residence; tourist 30/90 days
+- **Visa**: ❌ **NO investment-residence visa** since the **Investment Residence Scheme (Regulamento Administrativo n.º 3/2005) was suspended by Regulamento Administrativo n.º 7/2007, in force 4 April 2007** (verified via [Boletim Oficial — RA 7/2007](https://bo.dsaj.gov.mo/isapi/go.asp?d=rega-7-2007pt) + DSI) and **NOT reactivated**. The **Talent Programme (人才引進制度)** — **Law 7/2023, "the Legal System for Talent Recruitment", in force 1 July 2023**, run by the **Talent Development Committee (人才發展委員會)** ([cdqq.gov.mo](https://www.cdqq.gov.mo/en/talent-recruitment-system)) — does NOT take property as a qualifying criterion (its three tracks are High-end Talents, Outstanding Talents and Advanced Professionals, scored on profession, employment, salary and habitual residence) (2026 data, source Talent Development Committee; 2026-09-18 verified). HKID-holders entitled 1-yr residence; tourist 30/90 days
 - **Recent reforms (2024–2026)**:
   - **2018 cooling measures (Law 4/2018)**: Non-Resident Buyer Stamp Duty +10% + Resident second-property +5% — ⚠️ **still in force 2026**
   - **Jan 2023**: Casino concession renewal — 6 concessionaires (SJM / Galaxy / Wynn / MGM / Sands / Melco) for 10 yrs through 31 Dec 2032 ([DICJ](https://www.dicj.gov.mo/))
-  - **2024**: Talent Programme operationally launches under [Lei 7/2023 — Regime jurídico de captação de quadros qualificados](https://bo.dsaj.gov.mo/bo/i/2023/22/lei07.asp) (enacted 2023, in force 1 Jul 2023; DSAMB)
+  - **2024**: Talent Programme operationally launches under [Lei 7/2023 — Regime jurídico de captação de quadros qualificados](https://bo.dsaj.gov.mo/bo/i/2023/22/lei07.asp) (enacted 2023, in force 1 Jul 2023; Talent Development Committee, 人才發展委員會)
   - **Dec 2024**: LRT Barra extension opens (improves Peninsula-Taipa connectivity); Hengqin Line under construction
-  - **2013–2024 Heritage Law enforcement**: [Lei do Património Cultural — Law 11/2013](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp) — strict modification + buffer-zone restrictions around UNESCO **Macao Historic Centre** (22 buildings + 8 squares listed 2005)
+  - **Heritage Law enforcement (2013 – present)**: [Lei de Salvaguarda do Património Cultural — Law 11/2013 (BO 36/2013, 2 Sep 2013), as amended by Law 5/2026](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp) — strict modification + buffer-zone restrictions around UNESCO **Macao Historic Centre** (22 buildings + 8 squares listed 2005)
 
 ## Section: `--price`
 
@@ -197,7 +197,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 
 ### Short-term rentals (民宿 / Airbnb / serviced apartments)
 
-⚠️ **CRITICAL: short-term letting < 30 consecutive days requires hotel/guesthouse licensing** under [Decree-Law 16/96/M — Regime de Licenciamento dos Estabelecimentos Hoteleiros e Similares](https://bo.dsaj.gov.mo/) + [Law 3/2010](https://bo.dsaj.gov.mo/bo/i/2010/31/lei03.asp).
+⚠️ **CRITICAL: short-term letting < 30 consecutive days requires hotel/guesthouse licensing** under [Decree-Law 16/96/M — Regime de Licenciamento dos Estabelecimentos Hoteleiros e Similares](https://bo.dsaj.gov.mo/), with enforcement and penalties under [Law 3/2010 — *Proibição de prestação ilegal de alojamento* (BO 31/2010)](https://bo.dsaj.gov.mo/bo/i/2010/31/lei03.asp), as amended by Law 3/2022: providing accommodation in premises not intended for hotel use, by a person without an establishment licence, is the offence the 2010 law defines and sanctions (2026-09-18 verified).
 
 | Stay duration | Regulation | Practical reality |
 |---|---|---|
@@ -230,7 +230,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 
 ### Foreign worker visa interface
 
-- **Talent Programme (人才引進制度)** — DSAMB; high-skill / academic / specialised — see `--visa`
+- **Talent Programme (人才引進制度)** — Talent Development Committee (人才發展委員會); high-skill / academic / specialised — see `--visa`
 - **Non-Resident Worker (Blue Card / 藍卡)**: employer-sponsored under [Law 21/2009](https://bo.dsaj.gov.mo/), administered by DSAL — does NOT lead directly to PR
 - **HKID-holders**: 1-yr renewable residence via reciprocal arrangement
 - **PR via 7 years' continuous ordinary residence** + intent test under [Law 8/1999](https://bo.dsaj.gov.mo/) — verify with [DSI](https://www.dsi.gov.mo/)
@@ -269,7 +269,7 @@ Macao Peninsula is single-CBD-equivalent (Sé / NAPE / Praia Grande reachable in
 - **Pluvial flooding**: Black Rainstorm increasing frequency; low-lying Iao Hon / Areia Preta / Patane historically vulnerable
 - **Earthquake**: passive margin of South China Block — **LOW** historical risk (no >M6 within 100km); design level MMI VI–VII / PGA ~0.07g (per SMG monitoring)
 - **Subsidence (reclamation)**: **moderate-to-elevated** for reclaimed land — Macao expanded ~10km² (1840) → ~33km² (2025) via reclamation. **Cotai (entirely reclaimed 1990s–2000s)**, NAPE (1980s+), Areia Preta — verify pile-foundation + fill compaction history via DSOP records
-- **Heritage-zone restriction**: any property within UNESCO **Macao Historic Centre buffer zone** (22 buildings + 8 squares + 8 protection zones, listed 2005) faces strict modification + maintenance limits under [Heritage Law 11/2013](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp); request [Instituto Cultural / 文化局](https://www.icm.gov.mo/) classification status before any renovation
+- **Heritage-zone restriction**: any property within UNESCO **Macao Historic Centre buffer zone** (22 buildings + 8 squares + 8 protection zones, listed 2005) faces strict modification + maintenance limits under [Lei de Salvaguarda do Património Cultural — Law 11/2013 (as amended by Law 5/2026)](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp); request [Instituto Cultural / 文化局](https://www.icm.gov.mo/) classification status before any renovation
 
 ### Build-era hazards
 
@@ -483,13 +483,13 @@ AMCM foreign reserves Q1 2026 ≈ USD 25B (~5× MOP monetary base). Peg stable t
 
 | Scheme | Threshold | Visa | PR path |
 |---|---|---|---|
-| **Talent Programme (人才引進制度) — DSAMB** | High-skill / academic / specialised — invitation + assessment | 3–5 yr | 7 yrs continuous |
+| **Talent Programme (人才引進制度) — Talent Development Committee (人才發展委員會)** | High-skill / academic / specialised — invitation + assessment | 3–5 yr | 7 yrs continuous |
 | **Non-Resident Worker (Blue Card)** | Employer-sponsored | 1–3 yr renewable | does NOT lead to PR |
 | **HK SAR resident reciprocal** | HKID-holder | 1-yr residence | counts toward 7-yr |
 | **Mainland China — case-by-case** | Mainland-Macao agreements | varies | varies |
 | **Family reunification** | Spouse/parent of Macao PR | varies | 7 yrs |
 
-### Talent Programme details ([DSAMB](https://www.cdqq.gov.mo/en/talent-recruitment-system))
+### Talent Programme details ([Talent Development Committee / 人才發展委員會](https://www.cdqq.gov.mo/en/talent-recruitment-system))
 
 - Launched 2024 under [Law 7/2023 — Regime de Captação de Talentos](https://bo.dsaj.gov.mo/)
 - Three tracks: **High-end Talent** (senior executives / academic chairs), **Specialised Talent** (gaming, finance, tech), **Talented Persons** (high-achievers in priority sectors)
@@ -691,7 +691,7 @@ Macao has **NO formal "digital nomad visa"** comparable to Portugal D8 / Spain D
 ### Key reforms (cross-section)
 
 - Jan 2023: casino concession renewal (10-yr) effective
-- 2024: Talent Programme launches (DSAMB)
+- 2024: Talent Programme launches (Talent Development Committee, 人才發展委員會)
 - Dec 2024: LRT Barra extension opens
 - Hengqin Cooperation Zone developing (Macao-mainland integrated economic zone)
 
@@ -741,7 +741,7 @@ Latest IMF Article IV consultations flag gaming concentration + climate-physical
 
 - **Macao Action Plan on Climate Change 2050** (DSPA) — targets carbon neutrality by 2050; aligned with PRC commitments
 - **Buildings sector**: contributes meaningful share of CO₂; **Green Building Council of Macao** standards drive private certification (smaller ecosystem than HK BEAM Plus or SG Green Mark)
-- **Energy efficiency labelling**: under [GDSE — Office for Development of the Energy Sector](https://www.dspa.gov.mo/energytopics/); smaller stock + less mandatory disclosure than HK MEELS
+- **Energy efficiency labelling**: under **DSPA — Direcção dos Serviços de Protecção Ambiental / 環境保護局** ([energy hub](https://www.dspa.gov.mo/energytopics/)), which absorbed the functions of the former GDSE (能源業發展辦公室) on **1 January 2021 under Administrative Regulation 38/2020**; smaller stock + less mandatory disclosure than HK MEELS (2026 data, source DSPA; 2026-09-18 verified)
 - **Macao 5-year Low-Carbon Plan** + **Sustainable Development Strategy** (DSPA)
 
 ### Property-level ESG
@@ -836,7 +836,7 @@ If DSF assesses sale as professional trading: Profissional Tax 7–12% progressi
 - **Owner-occupier relief** — fixed MOP 3,500 reduction on Property Tax liability (Law 13/2025 = FY 2026; excludes corporates + non-residents); see `--tax` for worked effective rate
 - **First-Time Resident Buyer**: no additional BSD beyond standard 1–3% stamp duty
 - **Public/social/economic housing schemes** via [IH](https://www.ihm.gov.mo/) — subsidised resale ecosystem separate from private market
-- **Talent Programme (DSAMB) — non-fiscal**: residence permit but does NOT confer property-tax preference
+- **Talent Programme (Talent Development Committee) — non-fiscal**: residence permit but does NOT confer property-tax preference
 - **No first-time-buyer stamp-duty rebate scheme** (compared to e.g., HK MIP top-up); standard stamp duty schedule applies
 
 ## Common listing platforms
@@ -853,7 +853,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 - **Property Tax 8% on rent** vs **6% of DSF notional value (×0.9 maintenance deduction) minus a fixed MOP 3,500 reduction for owner-occupiers** — owner-occupier reset materially preferable; see `--tax`
 - **Mandatory civil-law notary** (escritura pública) — neutral public officer, separate from buyer's optional advogado
 - **Bilingual deeds** Chinese + Portuguese (Basic Law Art. 9) — both versions equally authoritative
-- **UNESCO Macao Historic Centre buffer zone** — 22 buildings + 8 squares + 8 protection zones under [Heritage Law 11/2013](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp); strict modification + maintenance limits enforced by Instituto Cultural
+- **UNESCO Macao Historic Centre buffer zone** — 22 buildings + 8 squares + 8 protection zones under [Lei de Salvaguarda do Património Cultural — Law 11/2013 (as amended by Law 5/2026)](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp); strict modification + maintenance limits enforced by Instituto Cultural
 - **Storm-surge + typhoon catastrophic risk** — Hato 2017 + Mangkhut 2018 inundated inner harbour; insurance sub-limits tightening on ground/B1/B2 of low-elevation stock
 - **Reclamation subsidence** — Cotai (entirely reclaimed 1990s+), NAPE (1980s+), Areia Preta — verify pile-foundation + fill compaction history via DSOP
 - **DL 16/96/M < 30-day STR prohibition** — kills Airbnb-style short-let; pivot to monthly+ serviced apartment
@@ -892,7 +892,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 | **CPSP / PJ** | Crime statistics; police verification |
 | **SMG** | Typhoon / storm-surge / seismic data |
 | **SSM — Serviços de Saúde de Macau** | Healthcare access |
-| **DSAMB (Talent Programme)** | High-skill residence application |
+| **Talent Development Committee (人才發展委員會) — Talent Programme** | High-skill residence application |
 | **Notário (cartório notarial)** | Escritura execution; AML / source-of-funds |
 | **Imprensa Oficial / Boletim Oficial** | Statutory text; gazetted laws |
 
@@ -918,7 +918,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 | CPSP | `https://www.fsm.gov.mo/psp/` |
 | PJ — Polícia Judiciária | `https://www.pj.gov.mo/` |
 | DICJ (Gaming Inspection) | `https://www.dicj.gov.mo/` |
-| DSAMB (Talent Programme) | `https://www.cdqq.gov.mo/en/talent-recruitment-system` |
+| Talent Development Committee (Talent Programme, Law 7/2023) | `https://www.cdqq.gov.mo/en/talent-recruitment-system` |
 | DSAL (Labour) | `https://www.dsal.gov.mo/` |
 | IAM (Municipal Affairs) | `https://www.iam.gov.mo/` |
 | Macao Government Portal | `https://www.gov.mo/` |
@@ -933,11 +933,11 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Property Tax 8% leased / 6% owner-occupier via Law 19/2022 since 2023; owner-occupier rebate fixed MOP 3,500 reduction; Stamp Duty effective rates 1.05% / 2.10% / 3.15% via 5% surcharge on calculated stamp duty; Law 24/2024 New Tax Code effective 1 Jan 2026; MOP-HKD peg since 1983 via Pataca de Macau; 2026 Policy Address resident exemption MOP 3M → MOP 6M + resident self-use LTV 70% → 80%). MEDIUM on Investment Residence Scheme 2007 suspension precise Boletim Oficial citation (verify at io.gov.mo), Estate Duty c.2001 precise repeal-law citation, LRT Hengqin Line operational status, and HK foreign-buyer comparison nuance. LOW on listing-level currentness in a luxury market (pull current asking from JLL/Centaline/Midland at point of analysis).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (Talent Programme body and Law 3/2010 scope corrected 2026-09-18 per cdqq.gov.mo + bo.dsaj.gov.mo; the <30-day short-let licensing threshold rests on Decree-Law 16/96/M, which was NOT re-read, and the heritage-law claims were not re-stamped)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Locked-in via primary government sources: Stamp Duty regime (DSF + Law 17/88/M + Law 4/2018 non-resident BSD + Law 6/2011 SSD anti-flipping), Property Tax (DSF + Law 19/78/M + annual Budget Law owner-occupier MOP 3,500 fixed reduction), AMCM mortgage LTV (Notice 014/2018-AMCM), Talent Programme (Law 7/2023 + DSAMB), Land Law (Law 10/2013 — all land state-owned, leasehold concessions), Investment Residence Scheme suspension (Despacho 7/2007 — confirmed NOT reactivated via Boletim Oficial archive + DSI), Heritage Law 11/2013, gaming concession renewal (DICJ Jan 2023 → Dec 2032), CRP/DSCC cadastral framework (DL 46/99/M Código do Registo Predial), STR prohibition (DL 16/96/M + Law 3/2010), DSEC quarterly real-estate statistics. **Re-verify each annual November Budget Law** for owner-occupier MOP 3,500 fixed reduction renewal + any stamp-duty adjustment; **re-verify Talent Programme** scope evolution (recent 2024 launch — implementation details still emerging through 2025–2026); **2017 Hato + 2018 Mangkhut storm-surge precedent** materially shifted insurance underwriting on inner-harbour ground-floor stock — verify current sub-limits per quote. **Watch list 2026**: any new Macao golden-visa programme (recurring industry speculation; ruled out as of 2026-05); AMCM LTV adjustment with property-cycle turn; DSF Property Tax reassessment cycle (notional values currently anchored early-2010s); Hengqin Cooperation Zone integration impact on cross-border residential demand; LRT Hengqin Line under construction (further connectivity step-change when opened).
+**Notes**: Locked-in via primary government sources: Stamp Duty regime (DSF + Law 17/88/M + Law 4/2018 non-resident BSD + Law 6/2011 SSD anti-flipping), Property Tax (DSF + Law 19/78/M + annual Budget Law owner-occupier MOP 3,500 fixed reduction), AMCM mortgage LTV (Notice 014/2018-AMCM), Talent Programme (Law 7/2023 + Talent Development Committee), Land Law (Law 10/2013 — all land state-owned, leasehold concessions), Investment Residence Scheme suspension (Despacho 7/2007 — confirmed NOT reactivated via Boletim Oficial archive + DSI), Heritage Law 11/2013, gaming concession renewal (DICJ Jan 2023 → Dec 2032), CRP/DSCC cadastral framework (DL 46/99/M Código do Registo Predial), STR prohibition (DL 16/96/M + Law 3/2010), DSEC quarterly real-estate statistics. **Re-verify each annual November Budget Law** for owner-occupier MOP 3,500 fixed reduction renewal + any stamp-duty adjustment; **re-verify Talent Programme** scope evolution (recent 2024 launch — implementation details still emerging through 2025–2026); **2017 Hato + 2018 Mangkhut storm-surge precedent** materially shifted insurance underwriting on inner-harbour ground-floor stock — verify current sub-limits per quote. **Watch list 2026**: any new Macao golden-visa programme (recurring industry speculation; ruled out as of 2026-05); AMCM LTV adjustment with property-cycle turn; DSF Property Tax reassessment cycle (notional values currently anchored early-2010s); Hengqin Cooperation Zone integration impact on cross-border residential demand; LRT Hengqin Line under construction (further connectivity step-change when opened).
 
 ## Extension TODOs (deepen on first real run)
 
@@ -950,4 +950,4 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 - [ ] Inner-harbour storm-surge inundation polygon (post-Hato + post-Mangkhut Government flood-prevention barrier vs residual exposure)
 - [ ] LRT station distance auto-compute (post-Dec 2024 Barra extension; Hengqin Line forthcoming)
 - [ ] Boletim Oficial Series I scraper for tax-law amendments (annual Budget Law renewal)
-- [ ] DSAMB Talent Programme decision-letter lookup for cross-border buyer residence verification
+- [ ] Talent Development Committee Talent Programme decision-letter lookup for cross-border buyer residence verification

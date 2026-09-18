@@ -35,8 +35,8 @@ ISO2: `jm`. Status: ✅ Fully populated (researched 2026-05-07).
 
 ### Listing platforms
 
-- **RealEstate.com.jm** (dominant generic): `https://www.realestate.com.jm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
-- **Realtor Jamaica (RAJ MLS)**: `https://www.realtor.com.jm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — Realtors Association of Jamaica MLS
+- **No single dominant public listings portal** — the `realestate.com.jm` domain is gone (NXDOMAIN 2026-09-18) and nothing has taken its place; Jamaican inventory is fragmented across individual brokerage sites. Verify an agent's standing with the **Real Estate Board of Jamaica** and MLS membership with the **REALTORS® Association of Jamaica**: `https://realtorsjamaica.org/` (2026-09-18 verified)
+- **REALTORS® Association of Jamaica (RAJ)**: `https://realtorsjamaica.org/` — **member and brokerage directory ("Find a REALTOR®"), not a public MLS search**; RAJ distributes listings to member brokerages rather than publishing a consumer property search (2026-09-18 verified)
 - **Jamaica-Homes.com**: `https://jamaica-homes.com/` — diaspora-targeted aggregator + editorial
 - **PropertyAds Jamaica**: `https://www.propertyadsja.com/`
 - **CenturyJam, Coldwell Banker Jamaica, RE/MAX Jamaica, Keller Williams Jamaica, Sagicor Property Services**: international brand offices
@@ -566,8 +566,8 @@ Regulatory status (verified 2026-05):
 | Companies Office of Jamaica (COJ) | `https://www.orcjamaica.com/` |
 | Jamaica Customs Agency | `https://jca.gov.jm/` |
 | Jamaica National Heritage Trust (JNHT) | `https://jnht.com/` |
-| RealEstate.com.jm (listings) | `https://www.realestate.com.jm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
-| Realtor Jamaica MLS | `https://www.realtor.com.jm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Jamaican listings — no dominant public portal (realestate.com.jm dead 2026-09-18) | `https://realtorsjamaica.org/` (member/brokerage directory) |
+| REALTORS® Association of Jamaica (member directory — not an MLS search) | `https://realtorsjamaica.org/` |
 | PropertyAds Jamaica | `https://www.propertyadsja.com/` |
 
 ## Status

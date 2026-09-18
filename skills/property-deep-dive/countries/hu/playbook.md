@@ -205,7 +205,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|---|
 | **OMSZ (Országos Meteorológiai Szolgálat)** | `https://www.met.hu/` | Weather, climate |
 | **OVF (Országos Vízügyi Főigazgatóság)** | `https://www.ovf.hu/` | Water management, **flood maps** |
-| **MBFSZ / MFGI (Geological Survey)** | `https://sztfh.hu/tevekenysegek/foldtani-tevekenyseg` | Geology, seismic |
+| **SZTFH Földtani Szolgálat** (successor to MBFSZ / MFGI / ELGI / MÁFI) | `https://sztfh.hu/tevekenysegek/foldtani-tevekenyseg` · maps: `https://map.hugeo.hu` | Geology, geophysics, hydrogeology; GeoBank borehole database (2026 data, source sztfh.hu; 2026-09-18 verified) |
 | **VÁTI** | varies | Spatial planning |
 
 ### Specific risks
@@ -348,13 +348,13 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 | MNB | `https://www.mnb.hu/` |
 | OMSZ | `https://www.met.hu/` |
 | OVF | `https://www.ovf.hu/` |
-| MBFSZ | `https://sztfh.hu/tevekenysegek/foldtani-tevekenyseg` |
+| SZTFH Földtani Szolgálat (ex-MBFSZ) | `https://sztfh.hu/tevekenysegek/foldtani-tevekenyseg` |
 | NAV (tax) | `https://nav.gov.hu/` |
 | Magyar Közút (traffic) | `https://kozut.hu/` |
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-04-25 (geological-survey body (SZTFH Foldtani Szolgalat) corrected 2026-09-18 per sztfh.hu).
 **Coverage check**: pricing (KSH + Ingatlan.com + MNB), traffic (Magyar Közút), tax (építményadó + telekadó local + 4% transfer + 27% VAT (5% new) + 15% CGT 5-yr exempt + fizetővendéglátó tételes átalányadó), rental (Terézváros STR ban from 1 Jan 2026), work, risks (flood 25% territory + drought + Soviet-era panelház), mains all have primary government sources.
 **Confidence**: HIGH for Otthon Start (1 Sep 2025) + Terézváros STR ban (1 Jan 2026 confirmed) + 4% transfer tax + 5% VAT extension to 2026; HIGH for Földforgalmi törvény amendment (24 Dec 2025) — agricultural lease structures broader; MEDIUM for HUF FX volatility forecasts (rapidly changing).
 

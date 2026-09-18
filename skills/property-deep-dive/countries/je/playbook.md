@@ -182,7 +182,7 @@ This is the structural reason Jersey is a destination for HNW relocation — com
 
 ### Fees
 
-Public Registry recording fees and stamp duty (above) collected on the day of passing. Fee schedule: [gov.je Public Registry services and fees](https://www.gov.je/Home/RentingBuying/BuyersGuide/pages/rolepublicregistry.aspx). `Verify the current schedule at the gov.je registry-services page — fees are revised periodically`.
+Public Registry recording fees and stamp duty (above) collected on the day of passing — **contract registration fee £90**, obligation registration £90, power of attorney £75, will of immovable estate £104 (2025 schedule, Judicial Greffe; 2026-09-18 verified). Fee schedule: [Judicial Greffe — Public Registry services, fees and stamp duty](https://www.courts.je/judicial-greffe/public-registry/public-registry-services-fees-and-stamp-duty/); the statutory basis is the [Stamp Duties and Fees (Jersey) Law 1998](https://www.courts.je/court-fees/). Jurat stamps were discontinued on 28 Apr 2025 under the Royal Court and Stamp Duties and Fees (Jersey) Amendment Law 2025 — court fees and stamp duty are paid through the Courts' online payment service, and most court fees are now non-refundable (2025 change, Judicial Greffe; 2026-09-18 verified). `Verify the current schedule at the courts.je Public Registry fees page — fees are revised periodically`.
 
 ---
 
@@ -358,7 +358,7 @@ Jersey has a small bank-branch retail market, dominated by Channel-Islands-licen
 - **Water**: [Jersey Water](https://www.jerseywater.je/) — sole public supplier. Charges metered (verify current tariff at jerseywater.je)
 - **Electricity**: [Jersey Electricity](https://www.jec.co.uk/) — sole public supplier; imports majority of supply via subsea cables from France (Normandie 1/2/3). Tariffs published quarterly
 - **Gas**: [Jersey Gas (Energy Co.)](https://www.islandenergy.je/) — bottled LPG + bulk-mains in St Helier; not universal
-- **Sewerage / drainage**: [gov.je — Drainage and sewerage](https://www.gov.je/Environment/EnvironmentalHealth/pages/connectingtomainsdrains.aspx) — Infrastructure Department. Mains drainage covers most urban parishes; outlying rural properties may have a soakaway / septic system (verify with the seller's pre-contract enquiries and the Planning Department)
+- **Sewerage / drainage**: [gov.je — Applying for a drainage connection permit](https://www.gov.je/Environment/EnvironmentalHealth/pages/connectingtomainsdrains.aspx) — **Infrastructure and Environment, Operations and Transport** (contact "Drainage Records", dfidrainage@gov.je). A permit is required to make or modify a connection to a public sewer, the work must be done by an approved contractor, and installation must conform to the Drainage (Jersey) Law 2005; the permit itself carries no charge (2026 data, source gov.je; 2026-09-18 verified). Mains drainage covers most urban parishes; outlying rural properties may run a septic tank, soakaway or tight tank (cesspool) (verify with the seller's pre-contract enquiries and the Planning Department)
 - **Broadband**: [JT (Jersey Telecom)](https://www.jtglobal.com/) is the dominant FTTH provider — Jersey is one of the most fibre-penetrated jurisdictions globally (gigabit FTTH widely available since the 2010s)
 
 ### Verification path
@@ -544,7 +544,7 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 
 **Confidence**: MEDIUM-HIGH — tax / LTT / HVR / residential-status data sourced to gov.je primary pages and verified 2026-05-27. LTT 700k–1m band corrected (3 % standard, not 3.5 % — gov.je primary). 2026 Budget P.93/2025 (+3pp → +2pp higher-rate surcharge), HVR statutory-cap proposal P.19/2026 (rejected 26 Feb 2026), and 2026 mandatory independent taxation now integrated. Property-type and Royal-Court process verified against multiple secondary (Mourant, Viberts, Voisin) cross-referenced to jerseylaw.je primaries. **Parish rates**, **rented-dwellings licence fee**, **EPTT current band figures**, **HVR £3.5m/£1.75m thresholds (gov.je page does not expose figures — needs direct Locate Jersey lookup)**, **Voisin 2018 PDF staleness**, and **2026-specific allowance refresh** marked as `verify` placeholders — primary URL given.
 
-**Last verified**: 2026-07-02.
+**Last verified**: 2026-07-02 (Public Registry fee schedule and drainage department corrected 2026-09-18 per courts.je + gov.je).
 
 **Open follow-ups** (for next refresh cycle):
 

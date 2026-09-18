@@ -111,7 +111,7 @@ The Golden Paradise Residence Visa (launched 2024 by Department of Immigration &
 - **CBSL Condominium Market Survey** — quarterly survey of new condominium supply, asking-price index, absorption rates: [`https://www.cbsl.gov.lk/en/statistics/business-surveys/condominium-market-survey`](https://www.cbsl.gov.lk/en/statistics/business-surveys/condominium-market-survey) — the canonical official series for the Colombo apartment market.
 - **CBSL Real Estate Property Price Indices** — same page; published quarterly with a lag of ~1 quarter.
 - **Department of Census and Statistics — Construction & Real Estate** — building-cost indices: [`https://www.statistics.gov.lk/`](https://www.statistics.gov.lk/).
-- **Government Valuation Department (රජයේ ඇගයීම් දෙපාර්තමේන්තුව)** — official valuation for stamp duty assessment + state acquisition: [`https://www.valuationdept.gov.lk`](https://www.valuationdept.gov.lk) — the "assessed value" floor used by provincial revenue authorities.
+- **Government Valuation Department (රජයේ ඇගයීම් දෙපාර්තමේන්තුව)** — statutory valuer to the Government: land-acquisition valuations, capital valuations, valuations under legal enactments, rating and rental valuations: [`https://www.valuationdept.gov.lk`](https://www.valuationdept.gov.lk). ⚠️ The department's site does **not** claim stamp-duty assessment; **stamp duty on land transfers in Sri Lanka is a provincial tax — the "assessed value" floor: data not publicly available at this source — verify with the Provincial Revenue Department for the province** (2026-09-18 verified).
 - **District Land Registry** — registered transfer values per parcel; access via RGD online portal.
 
 ### Listing platforms (secondary, listing = seller-controlled)

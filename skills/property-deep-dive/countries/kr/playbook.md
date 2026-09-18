@@ -14,7 +14,7 @@ ISO2: `kr`. Status: ✅ Fully populated (researched 2026-05).
 - **Identifier**: 지번 (jibeon — lot number, e.g., `서울특별시 강남구 역삼동 678-1`) + post-2014 도로명주소 (doroname jusoroad name address, e.g., `서울특별시 강남구 테헤란로 152`); **고유번호** (19-digit unique property number) on 등기부
 - **Title concept**: 소유권 (소유권 — freehold) is dominant; 전세권 (jeonseigwon — registered jeonse lump-sum lease right) and 임차권 (imchaigwon — rental right) are encumbrances on the title. **Foreigners can hold freehold** subject to notification (see below).
 - **Foreign-buyer regime**: **외국인토지법 (Foreign Land Acquisition Act)** abolished 2017; replaced by **부동산 거래신고 등에 관한 법률 (Real Estate Transactions Reporting Act)** + **부동산 거래신고법 시행령** — open reciprocal regime. Foreigners (incl. EU/US/JP/CA/AU/UK nationals) may purchase freehold residential without permission, BUT must file **외국인 부동산 취득 신고** at city/gun/gu office within **60 days of contract** (MOLIT 국토교통부 form). ([source](https://www.law.go.kr/법령/부동산거래신고등에관한법률))
-  - Restricted/permission-required zones: 군사기지 및 군사시설 보호구역 (military protection zones), 문화재 보호구역 (cultural property), 생태·경관 보전지역 (ecological), 자연환경보전지역 — confirm via **토지이용규제정보서비스 (LURIS)** at `https://www.eum.go.kr/`
+  - Restricted/permission-required zones: 군사기지 및 군사시설 보호구역 (military protection zones), 문화재 보호구역 (cultural property), 생태·경관 보전지역 (ecological), 자연환경보전지역 — confirm via **토지이음 (LURIS 후신)** at `https://www.eum.go.kr/`
   - Permission (허가) timeline if zone restricted: ~15 days
 - **Recent reforms**:
   - **전세사기 피해자 지원 및 주거안정에 관한 특별법 (Jeonse Fraud Special Act)** — enacted 2023-05-25, effective 2023-06-01; extended Jun 2024; latest amendments through 2025 expanding compensation. ([MOLIT source](https://www.molit.go.kr/USR/policyData/m_34681/dtl.jsp?id=4694))
@@ -50,7 +50,6 @@ ISO2: `kr`. Status: ✅ Fully populated (researched 2026-05).
 - **호갱노노 (Hogangnono)** — `https://hogangnono.com/` — analytics-forward; integrates RTMS
 - **부동산114** — `https://www.r114.com/` — legacy, agent-tilted
 - **공실클럽** + **상가의신** — commercial / 상가
-- **점프부동산** — English-language foreigner-friendly: `https://www.koreaxpat.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 
 ### Premium-area benchmarks (2025-Q4 / 2026-Q1 reference, RTMS + KB부동산 + 공시가격)
 
@@ -380,13 +379,13 @@ Korea's rental market is bifurcated:
 
 | Source | URL | What it gives |
 |---|---|---|
-| **국가공간정보포털 (NSDI)** | `https://www.eum.go.kr/` | Cadastral overlay + zoning |
-| **토지이용규제정보서비스 (LURIS)** | `https://www.eum.go.kr/` | Parcel-level zoning + use restrictions + 보호구역 designations |
+| **일사편리 — 부동산 통합 민원** (cadastral: 부동산종합증명서, 지적측량 민원) | `https://kras.go.kr/` | Parcel cadastral record + integrated property certificate (2026-09-18 verified) |
+| **토지이음 (LURIS 후신)** | `https://www.eum.go.kr/` | Parcel-level zoning + use restrictions + 보호구역 designations |
 | **재해정보지도 (Disaster Information Map)** — 행정안전부 | `https://www.safemap.go.kr/` | Multi-hazard overlay: 풍수해 (storm/flood), 지진, 산사태, 지반침하 |
 | **기상청 (KMA — Korea Meteorological Administration)** | `https://www.weather.go.kr/` | Active hazard + climate data |
 | **국립재난안전연구원 (NDMI)** | `https://www.ndmi.go.kr/` | Disaster research data |
 | **한국지질자원연구원 (KIGAM)** + **기상청 지진화산정보** | `https://necis.kma.go.kr/` | Seismic catalogue + active fault data |
-| **국토교통부 홍수통제소** | `https://www.hrfco.go.kr/` | Flood forecast + water level |
+| **기후에너지환경부 홍수통제소** (한강 / 낙동강 / 금강 / 영산강) | `https://www.hrfco.go.kr/` | Flood forecast + water level — the flood-control offices are affiliated agencies of 기후에너지환경부 (formerly 환경부), not of 국토교통부 (2026-09-18 verified) |
 | **국립환경과학원 — 라돈지도** | `https://iaqinfo.nier.go.kr/` | Indoor radon survey data |
 | **산림청 산사태정보시스템** | `https://sansatai.forest.go.kr/` | Landslide hazard + warning |
 
@@ -420,7 +419,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 | **중개대상물 확인·설명서** | 공인중개사법 § 25 — agent must explain BEFORE contract | covers location, zoning, mortgage, defects, jeonse encumbrances |
 | **등기부등본** | proves ownership + encumbrances | IROS (online), notarised for transactions |
 | **건축물대장** | building specs + violations | gov.kr |
-| **토지대장 + 토지이용계획확인원** | land use restrictions | gov.kr / LURIS |
+| **토지대장 + 토지이용계획확인원** | land use restrictions | gov.kr / 토지이음 |
 | **재산세 납부증명** | seller property tax cleared | 정부24 |
 | **국세 + 지방세 완납증명** | seller national + local tax cleared | 홈택스 + 위택스 |
 | **하자담보책임 (defect warranty)** | 민법 § 580 + 건설산업기본법 + 공동주택관리법 | 2 yr (interior) / 5 yr (구조부 finishes) / 10 yr (구조내력) for new builds |
@@ -558,7 +557,6 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 - **r/movingtokorea** — pre-relocation
 - **r/livingkorea** — daily life, housing posts
 - **Wagle.net + Naver 카페** — Korean-language; 강남부동산 / 부동산스터디 카페 deep insights
-- **Korea Property Insights blog** — `https://www.kpicorp.co.kr/` (Cushman & Wakefield localized analysis)
 - **Korea Real Estate Daily** — `https://www.kred.co.kr/`
 - **Asia Property Awards / IPA Korea** — periodic market reports
 
@@ -609,7 +607,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 | 한국부동산원 R-ONE | `https://www.reb.or.kr/r-one/` |
 | 인터넷등기소 (IROS) | `https://www.iros.go.kr/` |
 | 정부24 (gov24) | `https://www.gov.kr/` |
-| LURIS 토지이용규제정보 | `https://www.eum.go.kr/` |
+| 토지이음 (ex-LURIS) | `https://www.eum.go.kr/` |
 | 부동산종합공부시스템 (일사편리) | `https://kras.go.kr/` |
 | 국세청 (NTS) | `https://www.nts.go.kr/` |
 | 홈택스 (Hometax) | `https://hometax.go.kr/` |
@@ -639,7 +637,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (cadastral/zoning portal identity and flood-control ministry corrected 2026-09-18 per kras.go.kr + eum.go.kr + mcee.go.kr)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

@@ -171,7 +171,7 @@ Foreigners **cannot own land in Cambodia in their own name** under any direct st
 
 - **Ministry of Public Works and Transport (MPWT, ក្រសួងសាធារណការ និងដឹកជញ្ជូន)** — `https://www.mpwt.gov.kh/` — national road network, classification, periodic AADT counts on major corridors (National Roads NR1, NR2, NR3, NR4, NR5, NR6, NR7, etc.).
 - **General Department of Public Works (under MPWT)** — road-condition data; some AADT for national highways (typically published in JICA-funded reports rather than online dashboards).
-- **Phnom Penh Capital Hall (សាលាក្រុងភ្នំពេញ)** — `https://phnompenh.gov.kh/` — urban traffic data, Master Plan 2035 traffic projections.
+- **Phnom Penh Capital Hall (សាលារាជធានីភ្នំពេញ)** — `https://phnompenh.gov.kh/` (use the apex; the `www` host is rejected by the site's own appliance) — municipal administration. Traffic-count data: **not published on the site as at 2026-09-18** — the Phnom Penh Land Use Master Plan 2035 is a land-use instrument adopted by sub-decree, not a traffic-projection series; verify road data with **MPWT** (`https://www.mpwt.gov.kh/`) or **MLMUPC** (`https://www.mlmupc.gov.kh/`).
 - **OpenStreetMap (OSM)** — fallback for road class when official AADT not available; OSM coverage of Phnom Penh / Sihanoukville is reasonable, rural OSM patchy.
 
 ### Verdict bands (vehicles per day, mixed motorbike + tuk-tuk + car + truck)
@@ -403,10 +403,10 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | **National Committee for Disaster Management (NCDM, គណៈកម្មាធិការជាតិគ្រប់គ្រងគ្រោះមហន្តរាយ)** | `https://www.ncdm.gov.kh/` | Disaster declarations, flood/storm history |
 | **Ministry of Water Resources and Meteorology (MOWRAM)** | `https://www.mowram.gov.kh/` | Hydrology, flood-risk mapping, river-flow monitoring |
 | **Department of Meteorology (DoM, under MOWRAM)** | (under MOWRAM site) | Weather, monsoon, tropical-cyclone tracking |
-| **Ministry of Environment (MoE)** | `https://moeys.gov.kh` | Climate-change adaptation strategy, EIA, air quality (limited public dashboards) |
+| **Ministry of Environment (MoE)** | `https://moe.gov.kh/` (apex refuses non-KH egress; the NCSD subtree `https://ncsd.moe.gov.kh/` answers) | Climate-change adaptation strategy, EIA, air quality (limited public dashboards) |
 | **MLMUPC** | `https://www.mlmupc.gov.kh/` | Urban planning master plans, hazard zoning for Phnom Penh / Sihanoukville / Siem Reap |
 | **Mekong River Commission (MRC, regional)** | `https://www.mrcmekong.org/` | Mekong basin flood + drought + hydrology — Cambodia is downstream of the Mekong |
-| **CCCA (Cambodia Climate Change Alliance)** | `https://ncsd.moe.gov.kh/dcc/program/cambodia-climate-change-alliance-ccca` | Climate vulnerability assessments (UNDP-supported) |
+| **NCSD / Department of Climate Change (DCC)** — standing authority; the **Cambodia Climate Change Alliance (CCCA) programme ran to the end of its third phase, 2019–2024** | `https://ncsd.moe.gov.kh/dcc/program/cambodia-climate-change-alliance-ccca` | Climate-change strategy and programme documents (CCCSP 2014–2023, grant-facility projects) — **no vulnerability-assessment dataset is published on this page** (2026-09-18 verified) |
 | **Open Development Cambodia (NGO)** | `https://opendevelopmentcambodia.net/` | Land concession + risk maps, freely accessible |
 
 ### Flood (ទឹកជំនន់)
@@ -628,7 +628,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | **Ministry of Labour and Vocational Training (MLVT)** | Work permit, foreign labour rules, minimum wage | `https://www.mlvt.gov.kh/` |
 | **Council for Development of Cambodia (CDC)** | QIP investment, SEZ, large-project approvals | `https://www.cdc.gov.kh/` |
 | **Ministry of Tourism** | Hotel / guesthouse / accommodation licensing | `https://www.tourismcambodia.org/` |
-| **Ministry of Environment (MoE)** | EIA, climate adaptation, environmental | `https://moeys.gov.kh` |
+| **Ministry of Environment (MoE)** | EIA, climate adaptation, environmental | `https://moe.gov.kh/` (apex refuses non-KH egress; the NCSD subtree `https://ncsd.moe.gov.kh/` answers) |
 | **MOWRAM (Water Resources & Meteorology)** | Flood, hydrology, weather | `https://www.mowram.gov.kh/` |
 | **Ministry of Public Works and Transport (MPWT)** | Road network, AADT | `https://www.mpwt.gov.kh/` |
 | **National Institute of Statistics (NIS)** | Population, CSES, housing module | `https://www.nis.gov.kh/` |
@@ -673,7 +673,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | Cambodia eVisa | `https://www.evisa.gov.kh/` |
 | Ministry of Labour and Vocational Training (MLVT) | `https://www.mlvt.gov.kh/` |
 | Ministry of Tourism | `https://www.tourismcambodia.org/` |
-| Ministry of Environment (MoE) | `https://moeys.gov.kh` |
+| Ministry of Environment (MoE) | `https://moe.gov.kh/` |
 | MOWRAM (water + meteorology) | `https://www.mowram.gov.kh/` |
 | Ministry of Public Works and Transport (MPWT) | `https://www.mpwt.gov.kh/` |
 | National Institute of Statistics (NIS) | `https://www.nis.gov.kh/` |
@@ -684,7 +684,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | Constitutional Council | `https://www.ccc.gov.kh/` |
 | Mekong River Commission | `https://www.mrcmekong.org/` |
 | Open Development Cambodia | `https://opendevelopmentcambodia.net/` |
-| Cambodia Climate Change Alliance (CCCA) | `https://ncsd.moe.gov.kh/dcc/program/cambodia-climate-change-alliance-ccca` |
+| NCSD / Department of Climate Change (CCCA programme, phase 3 2019–2024) | `https://ncsd.moe.gov.kh/dcc/program/cambodia-climate-change-alliance-ccca` |
 | Realestate.com.kh | `https://www.realestate.com.kh/` |
 | Khmer24 | `https://www.khmer24.com/` |
 | IPS Cambodia | `https://www.ips-cambodia.com/` |

@@ -326,7 +326,7 @@ SVP publishes maps for 3 probability levels:
 - **Q100**: medium probability (every 100 yrs) — insurance / building restrictions
 - **Q1000**: low probability (every 1,000 yrs) — extreme event reference
 
-Verify parcel-level via `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/` — search by mesto/obec.
+Verify parcel-level via SVP's flood-hazard and flood-risk maps (MPO/MPR, scale **1:10,000**, prepared under Directive 2007/60/EC) — `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/`. **The page has no municipality or parcel search; open the linked *Mapový portál* and locate the parcel on the map** (2026-09-18 verified).
 
 ### Radon zones (radónové riziko)
 
@@ -563,7 +563,7 @@ For SK-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 |---|---|---|---|
 | Tax residence | Final-year daňové priznanie with foreign address per [Zákon 595/2003 Z. z.](https://www.slov-lex.sk/) o dani z príjmov § 2 písm. d); verify DTA tie-breaker if dual residence claimed by destination | Finančná správa SR | [financnasprava.sk](https://www.financnasprava.sk/) |
 | Civil register (trvalý pobyt) | **Odhlásenie z trvalého pobytu** via municipal *ohlasovňa pobytu* per [Zákon 253/1998 Z. z. § 6](https://www.slov-lex.sk/) — required if no longer resident in SR | Obecný / mestský úrad | [minv.sk — ohlasovne pobytu](https://portal.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/Cudzinci/Hlasenie-pobytu-cudzincov) |
-| Health insurance | Terminate verejné zdravotné poistenie per [Zákon 580/2004 Z. z.](https://www.slov-lex.sk/) — VšZP / Dôvera / Union; if EU/EEA/CH destination, S1 form bridges coverage | All-payor framework | [vszp.sk](https://www.vszp.sk/) · [dovera.sk](https://www.dovera.sk/) · [unionzp.sk](https://www.union.sk/) |
+| Health insurance | Terminate verejné zdravotné poistenie per [Zákon 580/2004 Z. z.](https://www.slov-lex.sk/) — VšZP / Dôvera / Union; **Union and Dôvera are merging: the purchase agreement was signed 14 Jul 2026 and takes effect once the required institutional approvals are obtained, with Union's insureds transferring automatically to Dôvera from 1 January 2027 unless they file a change-of-insurer application by 30 September** (2026-09-18 verified); if EU/EEA/CH destination, S1 form bridges coverage | All-payor framework (**two payors from 1 Jan 2027 if the merger completes**) | [vszp.sk](https://www.vszp.sk/) · [dovera.sk](https://www.dovera.sk/) · [union.sk](https://www.union.sk/) |
 | Social security | Sociálna poisťovňa coordination via S1 if EU/EEA/CH destination per [Reg 883/2004](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0883); bilateral totalisation outside coordination zone | Sociálna poisťovňa | [socpoist.sk](https://www.socpoist.sk/) |
 | **s.r.o. owner-manager** | If owner-manager moving abroad — **POEM / PE risk** under destination DTA Art. 4(3) + Art. 5; effective-management migration can make the s.r.o. treaty-resident in destination → destination corporate tax + SK exit-tax event. Engage **corporate-tax counsel BEFORE move**. | Slovenská komora daňových poradcov + destination tax counsel | [skdp.sk](https://www.skdp.sk/) |
 | Slovakia-treaty register (DTA lookup) | Find the relevant SK-destination ZZDP + tie-breaker article + MLI matches | Ministerstvo financií SR — Zmluvy o zamedzení dvojitého zdanenia | [mfsr.sk — ZZDP](https://www.mfsr.sk/sk/dane-cla-uctovnictvo/priame-dane/dane-z-prijmu/zmluvy-zamedzeni-dvojiteho-zdanenia/zmluvy-zamedzeni-dvojiteho-zdanenia/) |
@@ -572,7 +572,7 @@ For SK-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-04-25 (health-insurance payor row corrected 2026-09-18 — the Union / Dôvera merger is conditional on approvals and has not completed; the Zákon 580/2004 and S1 limbs were not re-verified).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + cadastre + risk sources (all primary state agencies, multi-source corroborated). MEDIUM for short-let regulation (in transition: EU 2024/1028 SK transposition + 5 % DPH adjustment 2025 + Bratislava-specific rules pending).
 

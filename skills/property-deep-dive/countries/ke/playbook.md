@@ -14,7 +14,7 @@ ISO2: `ke`. Status: ✅ Fully populated (researched 2026-05).
   - **Ministry of Lands and Physical Planning** at Ardhi House, Nairobi + 47 County Land Registries: `https://www.lands.go.ke/`
   - Four legacy regimes being unified under Land Registration Act 2012: **RTA (Registration of Titles Act)**, **RLA (Registration of Land Act)**, **GLA (Government Lands Act)**, **LTA (Land Titles Act)** — most current titles still cite a legacy register
   - **LIMS (Land Information Management System)** — digitization since 2019; migration to **Ardhisasa** platform (`https://ardhisasa.lands.go.ke/`) ongoing 2024–2026 (Nairobi pilot earliest, county rollout phased — verify status at Ardhisasa for parcel)
-  - **Survey of Kenya** (under Ministry of Lands): cadastral surveys + RIM (Registry Index Map): `https://lands.go.ke/`
+  - **Directorate of Surveys — Survey of Kenya** (State Department for Lands; HQ Ruaraka, off Thika Road; no standalone website since `survey.go.ke` was withdrawn): cadastral surveys; the Registry Index Map (RIM) for a parcel is obtained from the Directorate or the County Land Registry where the land is registered — `https://lands.go.ke/` (2026-09-18 verified; the RIM product itself is not described on the ministry site — request it at the Directorate)
 - **Identifiers**:
   - **LR No.** (Land Reference Number) — legacy under RTA / GLA (e.g., `LR No. 209/14021`)
   - **Block / Parcel Number** under new RLA / Land Registration Act 2012 (e.g., `Karen/Block 1/123`)
@@ -134,7 +134,7 @@ Listing-derived ranges, cross-checked against HassConsult Q4 2025 and Knight Fra
 
 **Caveat**: KeNHA does NOT publish parcel-level AADT in a single open dataset. For decision-grade traffic counts, request the Project Information Memorandum for the relevant highway from KeNHA. OSM class is reliable for tier; absolute volumes are estimates.
 
-⚠️ **Nairobi Expressway (toll)** opened 2022 (operated by Moja Expressway under PPP with KeNHA): runs Mlolongo–JKIA–Westlands; reduces travel time but adds toll-cost factor for properties along Mombasa Rd / Uhuru Highway corridor (verify toll at `https://nairobiexpressway.ke/`).
+⚠️ **Nairobi Expressway (toll)** opened 2022 (operated by Moja Expressway under PPP with KeNHA): runs Mlolongo–JKIA–Westlands; reduces travel time but adds a toll-cost factor for properties along the Mombasa Rd / Uhuru Highway corridor. Base rates are set by gazette — **Kenya Gazette Notice No. 17419, Public Roads Toll Act (Cap. 407), Vol. CXXV—No. 266, 19 Dec 2023**: Class 3 (saloon) KSh 170–500 per trip excluding VAT depending on entry/exit pair, Class 4 ×1.5, Class 5 ×4, Class 6 ×5, motorcycles and three-wheelers prohibited (2023 gazette; 2026-09-18 verified). ⚠️ The schedule carries an indexation clause — "the Base Toll Rates may be adjusted as per the CPI and Exchange Rate" against a USD:KSh reference of 1:143.7588 at 15 Aug 2023 — so the amount charged today may differ; verify the current schedule at [`https://nairobiexpressway.ke/frequently-asked-questions`](https://nairobiexpressway.ke/frequently-asked-questions).
 
 ---
 
@@ -280,7 +280,6 @@ For the same purchase with mortgage (70 % LTV): add mortgage stamp duty 0.1 % of
 - **MyJobsInKenya**: `https://www.myjobsinkenya.com/`
 - **Fuzu**: `https://www.fuzu.com/kenya`
 - **LinkedIn Kenya** — strong for finance, NGO/UN, tech, professional services
-- **Indeed Kenya**: `https://ke.indeed.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Public Service Commission (state jobs)**: `https://www.publicservice.go.ke/`
 - **UN Careers Nairobi** (UNON, UNEP, UN-Habitat HQ): `https://careers.un.org/`
 
@@ -993,7 +992,7 @@ Workable pathways for remote-working visitors:
 |---|---|
 | Capital Gains Tax (15 % on net gain) | 15 % of (sale value − cost basis − incidentals) |
 | Vendor's advocate fees (per Advocates Remuneration Order) | 1.5–2.5 % of sale value |
-| Real estate agent commission (seller side, EAK code) | typically 3 % + 16 % VAT (~3.48 %) — Estate Agents Registration Board: `https://estateagentsboard.or.ke/` |
+| Real estate agent commission (seller side) | **est. 3 % + 16 % VAT (~3.48 %) — per market practice; no scale of fees is published by EARB** (its site carries the licensing mandate under the Estate Agents Act 1984 Cap 533 only, checked 2026-09-18). Agree the rate in the agency agreement and verify the agent is licensed: `https://estateagentsboard.or.ke/` |
 | Rates Clearance arrears clearance | per arrears (county) |
 | Land Rent arrears clearance | per arrears (Lands Rent Dept) |
 | Mortgage early-discharge fee | per loan terms (typically 1–3 % outstanding) |
@@ -1146,7 +1145,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 |---|---|
 | Ministry of Lands and Physical Planning | `https://www.lands.go.ke/` |
 | Ardhisasa (digital lands platform) | `https://ardhisasa.lands.go.ke/` |
-| Survey of Kenya | `https://lands.go.ke/` |
+| Directorate of Surveys — Survey of Kenya (State Department for Lands) | `https://lands.go.ke/` |
 | National Land Commission (NLC) | `https://www.landcommission.go.ke/` |
 | Kenya Revenue Authority (KRA) | `https://www.kra.go.ke/` |
 | Central Bank of Kenya (CBK) | `https://www.centralbank.go.ke/` |
@@ -1187,14 +1186,14 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 | Kenya Law Reports | `http://kenyalaw.org/` |
 | Social Health Authority (SHIF) | `https://www.sha.go.ke/` |
 | Kenya Railways (SGR) | `https://krc.co.ke/` |
-| Moja Expressway (Nairobi Expressway toll) | `https://nairobiexpressway.ke/` |
+| Moja Expressway (Nairobi Expressway toll — gazetted rates, GN 17419 of 19 Dec 2023) | `https://nairobiexpressway.ke/` |
 | 2010 Constitution of Kenya (PDF) | `https://www.parliament.go.ke/sites/default/files/2017-05/The_Constitution_of_Kenya_2010.pdf` |
 
 ## Status
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — stamp duty KRA → Ardhisasa migration anchored; legacy KRA 404 URL replaced; VAT 16% history refreshed)
+**Last verified**: 2026-05-27 (validation sweep — stamp duty KRA → Ardhisasa migration anchored; legacy KRA 404 URL replaced; VAT 16% history refreshed; Directorate of Surveys attribution and Nairobi Expressway toll basis corrected 2026-09-18 per lands.go.ke + Kenya Gazette Notice 17419)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

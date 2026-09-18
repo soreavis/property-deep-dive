@@ -265,7 +265,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 ### Sources
 
 - **Komunalne službe** per občina (municipal services)
-- **Vodovod-Kanalizacija Ljubljana** (Ljubljana operator): `https://www.vokasnaga.si/`
+- **JP VOKA SNAGA** (Ljubljana water + wastewater operator, Javni holding Ljubljana; formerly Vodovod-Kanalizacija Ljubljana): `https://www.vokasnaga.si/` — drinking-water supply and wastewater, incl. public reporting under Uredba o pitni vodi (Ur. l. RS, št. 61/23) (2026-09-18 verified)
 - **Mariborski vodovod** + regional public utilities
 - Most občine have own komunala
 - Universal in cities; rural Karst + Pohorje villages on greznica (cesspit)
@@ -374,7 +374,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-04-25 (Ljubljana water / wastewater operator re-identified as JP VOKA SNAGA 2026-09-18; the si:286 connection-cost figures were not re-verified).
 **Coverage check**: pricing, traffic, tax (with pending reform note), rental, work, risks (incl. seismic cona zoning + August 2023 flood reference), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for posplošena vrednost reform (Bloomberg Adria, Kalko, N24, MojMojster, alfaelmas all confirm 13 May 2025 effective + €298B aggregate + +8% average); HIGH for cadastre + GeoZS sources; MEDIUM for davek na nepremičnine 1.45% rate (proposed but consultation responses pending — flag as uncertain in any output).
 

@@ -206,7 +206,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 **Irish short-let tax framework** (NOT UK FHL — there is no Irish FHL regime; classification is per-facts via Revenue Case I trading vs Case V rental test):
 - **Case I (trading) vs Case V (rental)**: facts-and-circumstances test on level of services, frequency, marketing. Case I treatment allows capital allowances 12.5% / 8 yrs on STR fittings.
 - **DAC7 platform reporting**: Airbnb/Booking/Vrbo report host earnings to Revenue from 2024 onward.
-- **Short-Term Letting Register (STLR)**: planned via Short Term Letting and Tourism Bill 2025 (General Scheme approved 15 Apr 2025). Register to be managed by **Fáilte Ireland from 20 May 2026**; opens **1 December 2026**; registration deadline **31 December 2026**. Currently no operational national register. (2026-05-27 verified; source [Fáilte Ireland STLR page](https://www.failteireland.ie/registration-and-grading/short-term-letting-register-(STLR).aspx))
+- **Short-Term Letting Register (STLR)**: planned via the Short-Term Letting and Tourism Bill (General Scheme approved 15 Apr 2025). The Bill is **being progressed by the Department of Enterprise, Tourism and Employment and has not been introduced in the Oireachtas as of 2026-09-18**; Fáilte Ireland states registration "will open once the necessary legislation has been passed" and publishes **no opening or deadline date** (registration fees also unannounced). Hosts letting for ≤21 nights will have to register each unit and display a unique STL number. Currently no operational national register. (2026-09-18 verified; sources [Fáilte Ireland STLR page](https://www.failteireland.ie/registration-and-grading/short-term-letting-register-(STLR).aspx), [Oireachtas bill register](https://api.oireachtas.ie/v1/legislation?limit=400&bill_year=2026))
 
 ### Local short-let rules
 
@@ -445,7 +445,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; the STLR row and the `--rental` IE row were fully re-verified and re-stamped 2026-09-18 per the Failte Ireland STLR page + the Oireachtas bill register — the rest of the playbook keeps the 2026-07-03 date).
 **Coverage check**: pricing, traffic, tax (LPT 2026 + stamp duty + VHT), rental, work, risks (incl. mica/pyrite + Storm Éowyn), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for LPT 2026-2030 cycle (gov.ie + Revenue.ie + irishtaxhub all confirm 0.0906% rate, 1 Nov 2025 valuation, 20% band widening, 96% stay-in-band); HIGH for stamp duty 6% above €1.5M from 2024; HIGH for DCBS €420k cap. MEDIUM for Storm Éowyn long-term insurance/property pricing impact (still emerging).
 

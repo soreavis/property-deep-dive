@@ -27,7 +27,7 @@ ISO2: `fo`. Status: ✅ Standalone playbook (Denmark autonomous territory under 
    - [bugv.fo](https://bugv.fo/en) — primary Faroese listing portal (Faroese + EN UI)
    - [skyn.fo](https://www.skyn.fo/) — real-estate agency
    - [meklarin.fo](https://www.meklarin.fo/) — broker network
-   - [betri-fastogn.fo](https://www.betriheim.fo/) — Betri Banki–affiliated brokerage
+   - [Betri Heim](https://www.betriheim.fo/) — brokerage of the Betri group (Betri Banki), formerly betri-fastogn.fo
 4. **WebSearch fallback**: `"<bygd or kommuna>" hús til sølu` (Faroese) or `"Faroe Islands" house for sale <area>` (English)
 
 **Anchor values** (2022 data, Hagstova news bulletin "House sales decline as prices shoot up across the country"; verify against newest bulletin):
@@ -229,7 +229,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 **Job boards**:
 
 - [job.fo](https://www.als.fo/storv/) — main Faroese job board
-- [arbeiðsstovan.fo](https://www.als.fo/storv/) — Public Employment Service
+- [ALS — Arbeiðsloysisskipanin](https://www.als.fo/storv/) — statutory unemployment-insurance body; runs the public job-placement service (*arbeiðsávísingin*) and the job board at [starv.fo](https://starv.fo/). Successor to Arbeiðsstovan (2026 data, source als.fo; 2026-09-18 verified)
 - LinkedIn (Faroe Islands filter)
 - [setur.fo](https://www.setur.fo/) — University of the Faroe Islands (academic jobs)
 
@@ -292,7 +292,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 - [SEV (Strong á Føroyum)](https://www.sev.fo/) — national electricity utility (publicly owned)
 - Water utility per kommuna — Tórshavn: [torshavn.fo](https://www.torshavn.fo/), Klaksvík via Klaksvíkar kommuna
 - Sewerage: kommunal responsibility — verify with relevant kommuna
-- Telecoms: [Føroya Tele](https://www.foroyatele.fo/), [Hey](https://www.hey.fo/), [Vodafone](https://www.nema.fo/) — fibre rollout near-universal in Tórshavn + town centres; village coverage variable
+- Telecoms: [Føroya Tele](https://www.ft.fo/) and [Nema](https://www.nema.fo/) (formerly Hey) — fibre rollout near-universal in Tórshavn + town centres; village coverage variable (2026 data, source ft.fo + nema.fo; 2026-09-18 verified)
 
 **Electricity**:
 
@@ -326,7 +326,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 ## Section: `--crime`
 
 - **Overall**: extremely low; Faroese society small (~54,000 pop), strong social cohesion
-- **Data source**: Faroese Police ([logreglan.fo](https://politi.fo/)) — annual statistics; Hagstova may not have comparable EN report
+- **Data source**: [Føroya Politi](https://politi.fo/) (Faroese Police; formerly logreglan.fo) — annual statistics page not located; Hagstova may not have a comparable EN report
 - No meaningful violent crime rate at parcel level; property crime rare
 
 ---
@@ -512,7 +512,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 | Legal database | [logir.fo](https://logir.fo/) | Government legal portal |
 | Listings (main) | [bugv.fo](https://bugv.fo/en) | private |
 | Tourism board | [visitfaroeislands.com](https://www.visitfaroeislands.com/) | Visit Faroe Islands |
-| Police | [logreglan.fo](https://politi.fo/) | Faroese Police |
+| Police | [Føroya Politi](https://politi.fo/) | Faroese Police |
 | Nordic tax portal | [nordisketax.net/faroe-islands](https://nordisketax.net/pages/en-GB/faroe-islands/) | Nordic Council |
 | Info Norden | [norden.org/info-norden/tax-faroe-islands](https://www.norden.org/en/info-norden/tax-faroe-islands) | Nordic Council |
 
@@ -521,7 +521,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 ## Listing platforms summary
 
 - **bugv.fo** — primary; EN UI available
-- **skyn.fo, meklarin.fo, betri-fastogn.fo** — agency portals
+- **skyn.fo, meklarin.fo, betriheim.fo** — agency portals
 - **rightmove.co.uk/overseas-property/in-Faroe-Islands** — UK aggregator (sparse coverage)
 - **Off-market via family/neighbour networks** — significant share of village transactions
 
@@ -569,7 +569,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 - **MEDIUM** for: municipal tax (kommunalskattur) range (EURAXESS / Norden 16–23% vs Global Expansion 2019 16–22% — same-tier aggregator disagreement, specific kommuna ceiling not verified); national progressive band floor (EURAXESS 13→30% vs Global Expansion 2019 15→30% — same-tier disagreement); foreign-buyer law passing date narrowed to "December 2021" — exact date not stated in cited English source.
 - **LOW** for: capital gains on property holding-period rules (no English primary source); tinglýsingargjald specific rate (English source unavailable; DK reference rate 1.25% from 1 Jan 2026 likely NOT applicable as Faroe legislates independently); property tax / kommunal property charge specific rate (only secondary aggregator estimate 0.2–0.5% — verify with kommuna).
 
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-05-27 (employment-service body and telecom operator list corrected 2026-09-18 per als.fo + ft.fo + nema.fo).
 
 ### Regulatory-watch follow-up (on PR merge)
 

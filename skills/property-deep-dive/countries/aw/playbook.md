@@ -2,7 +2,7 @@
 
 ISO2: `aw`. Status: ✅ Fully populated (researched 2026-05).
 
-> **Constitutional context**: Aruba is a **constituent country (*land*) within the Kingdom of the Netherlands** since 1986 (*Status Aparte* — separated from the former Netherlands Antilles by Koninkrijksbesluit 1 Jan 1986). It has its **own constitution (*Staatsregeling van Aruba*), own parliament (*Parlamento di Aruba* / *Staten van Aruba*), own legal system, own tax authority (DIMP — *Departamento di Impuesto*), own land registry (*Kadaster Aruba*), own currency (Aruban florin, AWG), and own courts of first instance**. Foreign affairs, defence, and Kingdom-level matters remain with The Hague. Aruba is **NOT part of the EU** (associated **OCT — Overseas Country and Territory** of the EU under Annex II TFEU) and **NOT in the Schengen Area**.
+> **Constitutional context**: Aruba is a **constituent country (*land*) within the Kingdom of the Netherlands** since 1986 (*Status Aparte* — separated from the former Netherlands Antilles by Koninkrijksbesluit 1 Jan 1986). It has its **own constitution (*Staatsregeling van Aruba*), own parliament (*Parlamento di Aruba* / *Staten van Aruba*), own legal system, own tax authority (DIMP — *Departamento di Impuesto*), own land registry (*Dienst Landmeetkunde en Vastgoedregistratie*, DLV), own currency (Aruban florin, AWG), and own courts of first instance**. Foreign affairs, defence, and Kingdom-level matters remain with The Hague. Aruba is **NOT part of the EU** (associated **OCT — Overseas Country and Territory** of the EU under Annex II TFEU) and **NOT in the Schengen Area**.
 
 ## Country profile
 
@@ -13,7 +13,7 @@ ISO2: `aw`. Status: ✅ Fully populated (researched 2026-05).
 - **Languages**: **Dutch** (sole language of legislation, court records, notarial deeds) + **Papiamento** (co-official, daily / parliamentary debate) + **English** + Spanish widely spoken. **All official property documents, cadastral records, and notarial deeds are in Dutch** — translate verbatim when citing numbers; commercial real-estate marketing is typically in English
 - **Currency**: **Aruban florin (AWG / Afl.)** — pegged to **USD at AWG 1.79 = USD 1.00** since the florin's 1986 introduction at par with the former Netherlands Antillean guilder. Peg administered by **Centrale Bank van Aruba (CBA)** (`https://www.cbaruba.org/`). USD circulates freely in tourism / large-ticket transactions; real-estate listings often dual-quoted AWG / USD
 - **Capital controls**: **None** material on AWG / USD movement for residents; CBA administers prudential reserve requirements; foreign-currency transactions above thresholds require commercial-bank documentation under AML rules (no cross-border movement restriction beyond standard AML reporting)
-- **Cadastre / land registry**: **Kadaster Aruba** (*Dienst Kadaster en Hypotheekwezen*) — `https://www.gobierno.aw/en/dienst-landmeetkunde-en-vastgoedregistratie-dlv` — single integrated land-registry + mortgage-registry authority; modelled on Dutch *Kadaster* but separate institution. Records: ownership (*eigendom*), long-lease (*erfpacht*), mortgages (*hypotheken*), easements (*erfdienstbaarheden*)
+- **Cadastre / land registry**: **Dienst Landmeetkunde en Vastgoedregistratie (DLV)** — `https://www.gobierno.aw/en/dienst-landmeetkunde-en-vastgoedregistratie-dlv` — single integrated land-registry + mortgage-registry authority (it keeps both the cadastral and the *hypothecaire* books); modelled on Dutch *Kadaster* but a separate institution. Records: ownership (*eigendom*), long-lease (*erfpacht*), mortgages (*hypotheken*), easements (*erfdienstbaarheden*)
 - **Identifier**: parcel reference (*kadastraal nummer*) — *afdeling / sectie / nummer* triplet (Dutch convention) per district
 - **Key documents**: *akte van levering* (notarial deed of transfer), *eigendomsbewijs* (proof of title), *kadastraal uittreksel* (cadastral extract), *meetbrief* (parcel measurement certificate), *erfpachtakte* (long-lease deed where applicable), *splitsingsakte* (condominium / apartment-rights deed)
 - **EU status**: **OCT (Overseas Country and Territory)** under EU Annex II TFEU + Council Decision 2013/755/EU — NOT EU member, NOT in customs union, NOT in Schengen. Aruban-passport holders are Dutch / EU nationals (Kingdom of the Netherlands citizenship); the **territory** sits outside EU customs + Schengen. Practical implication: EU consumers visiting Aruba pass passport control; goods cross-border like third-country trade
@@ -27,11 +27,11 @@ ISO2: `aw`. Status: ✅ Fully populated (researched 2026-05).
 |---|---|
 | **Aruban / Dutch / Kingdom nationals** | Free to acquire — standard notarial process |
 | **Non-Dutch foreign individuals (any nationality)** | **Eligible on identical terms** — no prior authorisation, no quota, no surcharge. Standard KYC / AML at notary + bank |
-| **Foreign legal persons (companies / trusts)** | Eligible — UBO disclosure required under Aruba UBO register (in force since 2021 — `https://www.gobierno.aw/en/department-of-legislation-and-legal-affairs-dwjz` / Chamber of Commerce *Kamer van Koophandel Aruba* — `https://www.arubachamber.com/`) |
+| **Foreign legal persons (companies / trusts)** | Eligible — UBO disclosure required under the Aruba UBO register, **mandatory from 1 January 2023**, kept by the **Kamer van Koophandel Aruba** (Chamber of Commerce) — `https://www.arubachamber.com/ubo-register`. The register is **not public**: full access is limited to the Central Bank of Aruba, FIU-Aruba, the Public Prosecution Service, the Tax Authorities, the Gaming Authority, the Aruba Police Corps and NCTVI; Lwtf-obliged service providers (banks, accountants, notaries) may buy limited extracts (2026 data, source Aruba Chamber of Commerce; 2026-09-18 verified) |
 
 ### Two land-tenure forms
 
-1. **Eigendom (freehold)** — outright private ownership of land + building; the seller transfers full title via *akte van levering* registered at Kadaster Aruba. No annual land-lease fee. Preferred form for resale / financing (per [Doing Business Dutch Caribbean, Aruba real-estate guide](https://www.doingbusinessdutchcaribbean.com/aruba/real-estate-construction-law/private-property-ownership-long-term-land-lease-short-term-land-lease/))
+1. **Eigendom (freehold)** — outright private ownership of land + building; the seller transfers full title via *akte van levering* registered at the DLV. No annual land-lease fee. Preferred form for resale / financing (per [Doing Business Dutch Caribbean, Aruba real-estate guide](https://www.doingbusinessdutchcaribbean.com/aruba/real-estate-construction-law/private-property-ownership-long-term-land-lease-short-term-land-lease/))
 2. **Erfpacht (long-lease, *langdurige* / *kortdurende*)** — Government of Aruba (*Domein*) retains underlying ownership; titleholder has a 60-year long-lease term (renewable) with full rights of use / sale / mortgage. Annual *canon* (ground rent) payable to *Domein*. Common for Crown-land allocations; verify remaining lease term + canon escalator + renewal mechanism at Kadaster + Directie Infrastructuur en Planning (DIP)
 3. **Huur van domeingrond (short-lease)** — short-term rental of state land, less common for residential property; transferability + buildability restrictions apply — verify on case-by-case basis
 
@@ -52,7 +52,7 @@ ISO2: `aw`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Centrale Bank van Aruba (CBA)** — `https://www.cbaruba.org/` — *Financial Stability Report* + quarterly economic bulletins cover mortgage stock + macro housing indicators; NO public granular HPI equivalent to US S&P/CS or NL Kadaster HPI
 - **CBS Aruba (Central Bureau of Statistics)** — `https://cbs.aw/` — census + dwelling-stock data; no quarterly residential HPI
-- **Kadaster Aruba** — `https://www.gobierno.aw/en/dienst-landmeetkunde-en-vastgoedregistratie-dlv` — transactional records are the legal source of truth; bulk download / public price index NOT published
+- **Dienst Landmeetkunde en Vastgoedregistratie (DLV)** — `https://www.gobierno.aw/en/dienst-landmeetkunde-en-vastgoedregistratie-dlv` — transactional records are the legal source of truth; bulk download / public price index NOT published
 - **Listing platforms (secondary, ⚠️)**: **ARAB MLS** (Aruba Realtors Association of Brokers — `https://www.arubarealtors.com/`), **RE/MAX Aruba** (`https://www.remaxaruba.com/`), **Coldwell Banker Aruba** (`https://www.coldwellbanker.aw/`), **Aruba Palms Realtors** (`https://www.arubapalmsrealtors.com/`), **Keller Williams Aruba** (`https://kw-aruba.com/`)
 - **Aggregator data ⚠️**: **Global Property Guide Aruba** (`https://www.globalpropertyguide.com/caribbean/aruba/price-history`) — aggregator, cross-check against Kadaster records
 - **JamesEdition / Sotheby's** — premium-tier cross-listings, marketing-side
@@ -119,17 +119,17 @@ Aruba's recurring property tax is the **grondbelasting** (literally "land tax"),
 
 ### Transaction tax — Overdrachtsbelasting (Transfer Tax)
 
-Per **Landsverordening overdrachtsbelasting** (Aruba transfer-tax ordinance) effective from 30 January 2017, levied by DIMP at notarial deed signing ([DIMP transfer-tax page](https://www.impuesto.aw/belastingplan_2023), primary source, 2017–present):
+Per **Landsverordening overdrachtsbelasting**, as amended by the **Landsverordening Belastingplan 2023** (AB 2022 no. 161, published in the *Afkondigingsblad van Aruba* of 21 December 2022), **in force from 1 January 2023**; levied by DIMP at notarial deed signing ([DIMP Belastingplan 2023](https://www.impuesto.aw/belastingplan_2023), primary source; 2026-09-18 verified — Belastingplan 2023 is still the most recent tax plan published on impuesto.aw):
 
 | Property type | Up to AWG 250,000 | Above AWG 250,000 |
 |---|---:|---:|
-| **Primary residence (woning)** | **3%** | **6%** on the excess |
-| **Other real property (commercial / second home / non-resident)** | **3%** | **6%** on the excess |
+| **All real property (no main-residence distinction since 1 Jan 2023)** | **3%** | **6%** on the excess |
 
 - **Tax base**: deed price (*koopsom*) OR *leggerwaarde* (DIMP-assessed value) — **whichever is higher**
 - **Notary files + remits within 15 days of deed** under penalty (up to AWG 2,500 late filing / AWG 10,000 non-payment)
-- **Key exemptions** (per DIMP transfer-tax page):
-  - **Inheritance / gift** transfers (subject separately to inheritance tax)
+- **Scope widened on 1 Jan 2023** (Landsverordening Belastingplan 2023): transfer tax now also bites on acquisition of **economic ownership** and on **huurkoop**, and on **shares in a *vastgoedvennootschap*** — a company at least 30% of whose assets are Aruban real property where that property contributes at least 70% to acquisition / disposal / exploitation, with the share value floored at the *grondbelasting* value. Non-notarial transfers carry a **two-week reporting duty** (penalty up to AWG 100,000 or 10% of value) and a **12-month anti-cumulation credit** applies. ⚠️ A buyer structuring the purchase through a company therefore **no longer avoids overdrachtsbelasting** (2026-09-18 verified)
+- **Key exemptions** (per DIMP Belastingplan 2023):
+  - **Inheritance (*vererving*)** transfers — out of scope of transfer tax since 1 Jan 2023 (subject separately to inheritance tax); the primary says nothing about *schenking* (gift) — verify the gift limb with DIMP
   - **Acquisition by direct-line blood relative or surviving spouse of primary residence**
   - **Property transfer via marriage / divorce settlement** (exceptions for prenup-based)
   - **Inherited property where transfer tax was previously paid**
@@ -241,8 +241,8 @@ Aruba levies a **turnover-stage tax** on services + sales:
 
 | Document | Required because | Notes |
 |---|---|---|
-| **Kadastraal uittreksel (Kadaster Aruba)** | Title + parcel ref + meetbrief | `https://www.gobierno.aw/en/dienst-landmeetkunde-en-vastgoedregistratie-dlv`; same-day to 1 week |
-| **Meetbrief** | Parcel surface verification | Kadaster Aruba |
+| **Kadastraal uittreksel (DLV — *bewaarder*)** | Title + parcel ref + meetbrief | `https://www.gobierno.aw/en/dienst-landmeetkunde-en-vastgoedregistratie-dlv` (bewaarder@dlv.aw); same-day to 1 week |
+| **Meetbrief** | Parcel surface verification | DLV |
 | **Eigendomsbewijs / erfpachtakte** | Title chain confirmation | Notaris |
 | **Hypotheekuittreksel** | Mortgage / charges register | Kadaster |
 | **Aanslag grondbelasting** (recent) | Verify no arrears + current taxable value | DIMP |
@@ -292,7 +292,7 @@ Aruba levies a **turnover-stage tax** on services + sales:
 
 ### Primary source
 
-- **Korps Politie Aruba (KPA — Aruba Police Force)** — `https://www.gobierno.aw/en/aruba-police-force-kpa-head-commissariat` — issues annual statistics + incident press notes (Dutch / Papiamento)
+- **Korps Politie Aruba (KPA — Aruba Police Force)** — `https://www.gobierno.aw/en/aruba-police-force-kpa-head-commissariat` (contact/department card only) — **annual crime statistics not published at a live primary URL — verify with Korps Politie Aruba (via gobierno.aw) or the Centraal Bureau voor de Statistiek Aruba (cbs.aw)**
 - **CBS Aruba** — `https://cbs.aw/` — limited public crime-rate publications
 
 ### Headline
@@ -431,7 +431,7 @@ Universal logic per `shared/visa-programs.md`. Aruba-specific:
 
 ### Investor Permit (Vergunning tot Tijdelijk Verblijf — Investeerdersregeling)
 
-- **Real-estate investment threshold**: **USD 200,000 minimum** in real property (house, condominium, commercial property, or land) ([CitizenX Aruba investor-permit overview, 2024-25](https://citizenx.com/insights/aruba-citizenship-by-investment); [Offshore-Freedom Aruba PR-by-investment, 2024-25](https://offshore-freedom.com/aruba-permanent-residence/); [residencyroutes Aruba long-term residency, 2024-25](https://residencyroutes.com/a-comprehensive-guide-to-long-term-residency-in-aruba/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row; ⚠️ multiple secondary sources converge — verify current statutory minimum at *Departamento di Integracion, Maneho y Admision di Stranhero (DIMAS)* — `https://www.gobierno.aw/en/department-for-the-integration-management-and-admission-of-foreign-nationals-dimas`)
+- **Real-estate investment threshold**: **`est.` USD 200,000** in real property (house, condominium, commercial property or land) — **this figure rests only on commercial residency-marketing sites (tier-4) and is NOT confirmed at a primary source; the statutory minimum is not publicly available at a live primary URL — verify with the *Departamento di Integracion, Maneho y Admision di Stranhero (DIMAS)* — `https://www.gobierno.aw/en/department-for-the-integration-management-and-admission-of-foreign-nationals-dimas` (contact card only) before relying on it**
 - **Property must be maintained** throughout the permit period
 - **Permit term**: typically **1-year renewable initial**, then progressively longer renewals (up to 5 years after track record established)
 - **Physical-presence requirement**: light — typically annual renewal visit required; full-time residence NOT required to maintain status (verify at DIMAS)
@@ -495,7 +495,7 @@ MEDIUM — Aruba insurance market is small + Caribbean-distributed; figures abov
 ### Process
 
 - **Civil-law notary (*notaris*)** mandatory for all real-estate transfers — Dutch civil-law tradition; profession governed by **Landsverordening op het notarisambt (Aruba notary statute)**
-- *Notaris* role: drafts the *akte van levering* (deed of transfer) in **Dutch**, verifies identity (apostilled passport for non-residents), confirms title via *kadastraal uittreksel*, withholds + remits **overdrachtsbelasting (transfer tax)** + Kadaster filing fees, files the deed at Kadaster Aruba
+- *Notaris* role: drafts the *akte van levering* (deed of transfer) in **Dutch**, verifies identity (apostilled passport for non-residents), confirms title via *kadastraal uittreksel*, withholds + remits **overdrachtsbelasting (transfer tax)** + Kadaster filing fees, files the deed at the DLV
 
 ### Standard timeline (typical residential resale)
 
@@ -777,7 +777,7 @@ Aruba is a **strong retirement destination** for USD-comfortable retirees seekin
 
 | Authority | When to call |
 |---|---|
-| **Kadaster Aruba (Dienst Kadaster en Hypotheekwezen)** | Cadastral extract, title verification, mortgage register, meetbrief |
+| **Dienst Landmeetkunde en Vastgoedregistratie (DLV)** | Cadastral extract, title verification, mortgage register, meetbrief |
 | **Notaris** | Mandatory closing, overdrachtsbelasting withholding, deed drafting, AML review |
 | **DIMP (Departamento di Impuesto)** | Grondbelasting, overdrachtsbelasting, income tax, BBO/BAVP/BAZV guidance |
 | **Centrale Bank van Aruba (CBA)** | Banking + AML + FX rules |
@@ -798,7 +798,7 @@ Aruba is a **strong retirement destination** for USD-comfortable retirees seekin
 | DIMP transfer tax | `https://www.impuesto.aw/belastingplan_2023` |
 | 2024 land-tax assessment notice | `https://www.gobierno.aw/en/the-land-tax-2024-assessment-is-on-its-way` |
 | 2025 income-tax change notice | `https://www.gobierno.aw/en/the-income-tax-and-payroll-tax-rate-will-change-from-january-1-2025` |
-| Kadaster Aruba | `https://www.gobierno.aw/en/dienst-landmeetkunde-en-vastgoedregistratie-dlv` |
+| Dienst Landmeetkunde en Vastgoedregistratie (DLV) | `https://www.gobierno.aw/en/dienst-landmeetkunde-en-vastgoedregistratie-dlv` |
 | Centrale Bank van Aruba | `https://www.cbaruba.org/` |
 | CBS Aruba (statistics) | `https://cbs.aw/` |
 | DIMAS (immigration) | `https://www.gobierno.aw/en/department-for-the-integration-management-and-admission-of-foreign-nationals-dimas` |
@@ -824,11 +824,11 @@ Aruba is a **strong retirement destination** for USD-comfortable retirees seekin
 **Status**: ✅ fully populated as of 2026-05-27
 
 **Confidence**: MEDIUM-HIGH overall.
-- **HIGH** on: legal framework (Aruba constitutional status / *Status Aparte* 1986; OCT EU status under Annex II TFEU + Council Decision 2013/755/EU; eigendom + erfpacht tenure forms via Dutch civil-law BWA tradition; Kadaster Aruba as single integrated registry); USD peg AWG 1.79 (40-year track record via CBA); overdrachtsbelasting bands 3% / 6% above AWG 250k (per DIMP primary `https://www.impuesto.aw/belastingplan_2023`, effective 30 Jan 2017); 2025 income-tax bracket reform (first bracket 10% → 0% up to AWG 64,930 per `gobierno.aw` primary 1 Jan 2025); institutional URLs (gobierno.aw + impuesto.aw + kadaster.aw + cbaruba.org + cbs.aw + dimas.aw).
+- **HIGH** on: legal framework (Aruba constitutional status / *Status Aparte* 1986; OCT EU status under Annex II TFEU + Council Decision 2013/755/EU; eigendom + erfpacht tenure forms via Dutch civil-law BWA tradition; DLV as single integrated registry); USD peg AWG 1.79 (40-year track record via CBA); overdrachtsbelasting bands 3% / 6% above AWG 250k (per DIMP primary `https://www.impuesto.aw/belastingplan_2023`, **rate application in force 1 Jan 2023 under Landsverordening Belastingplan 2023, AB 2022 no. 161**); 2025 income-tax bracket reform (first bracket 10% → 0% up to AWG 64,930 per `gobierno.aw` primary 1 Jan 2025); institutional URLs (gobierno.aw + impuesto.aw + cbaruba.org + cbs.aw).
 - **MEDIUM** on: grondbelasting band-by-band rates (0.00% / 0.20% / 0.30% / 0.40% / 0.60% at AWG 120k/250k/500k/750k thresholds — primary `gobierno.aw` 2024 notice confirms DIMP authority + assessment cycle, but exact band-rate schedule synthesised from Global Property Guide aggregator cross-reference; verify per parcel at DIMP aanslag); investor-permit USD 200k threshold (multiple 2024-25 secondary sources converge — verify statutory quantum + qualifying property categories at DIMAS); non-resident bank-mortgage 35–40% down-payment norm (widely cited but bank-policy not statute — verify per bank); vacation-rental policy status (legislative final-phase 2024 announcement — verify AQHA implementation status); 12.5% tourism levy + USD 3/night special levy (multiple 2024-25 secondary cross-references).
 - **LOW** on: per-district €/m² granularity (no Aruba HPI; ranges synthesised from ARAB MLS + RE/MAX + Coldwell Banker active listings + Global Property Guide aggregator — verify any specific deal via Kadaster individual-deal extract + multiple agency comps); district-level crime granularity (KPA does not publish public mapping); WEB Aruba water tariff exact rates (verify on current tariff sheet at `https://webaruba.com/your-water-bill/understanding-your-bill`); historical hurricane strike-rate exact frequency for Aruba parcels (qualitative — verify via NOAA HURDAT for any specific risk underwriting).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (UBO-register date and overdrachtsbelasting regime corrected 2026-09-18 per arubachamber.com + impuesto.aw Belastingplan 2023)
 
 **Researched by**: Opus 4.7 (Batch C Phase B, 2026-05)
 

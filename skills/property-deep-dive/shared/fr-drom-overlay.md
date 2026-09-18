@@ -156,7 +156,7 @@ Primary source: [**Cerema — Guide foncier Outre-Mer (2023)**](https://outil2am
 
 ### `gp` Guadeloupe (Lesser Antilles — Caribbean)
 
-- **Cyclones:** Atlantic hurricane season Jun–Nov; Cat-4/5 hits historically (Hugo 1989, Maria 2017). Build to *règles parasismiques et paracycloniques DOM* — verify at [planseisme.fr](https://www.ecologie.gouv.fr/politiques-publiques/tremblements-terre-seismes-france).
+- **Cyclones:** Atlantic hurricane season Jun–Nov; Cat-4/5 hits historically (Hugo 1989, Maria 2017). Build to both the *règles parasismiques* (zonage + rules under décrets n° 2010-1254 and n° 2010-1255 du 22 oct. 2010; since **1 Jan 2024** an *attestation de prise en compte de la règlementation parasismique* is required from the maître d'ouvrage on **every new build** — [ministère de la Transition écologique](https://www.ecologie.gouv.fr/politiques-publiques/tremblements-terre-seismes-france)) **and** the *règles paracycloniques*, which sit in the Code de la construction et de l'habitation arts. **R.132-2-1 à R.132-2-5** ("Prévention des risques cycloniques", inserted by **décret n° 2023-1087 du 23 nov. 2023**) and cover **Guadeloupe, Martinique, La Réunion and Mayotte** — **Guyane is not in the cyclonic-risk zone list**; the implementing joint *arrêté* under R.132-2-5 enters into force no later than **1 Jan 2026** — confirm it has been published before relying on the detailed rules ([Légifrance — CCH Section 3](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818701); 2026-09-18 verified).
 - **Seismicity:** **Zone 5 (forte sismicité)** per the seismic-zonation decree (CGI Art. R563-4, [Légifrance](https://www.legifrance.gouv.fr/loda/id/LEGITEXT000023086525)). Subduction zone (Caribbean plate / North American plate). PGA design accelerations are the highest tier in the French regulatory framework.
 - **Volcanic:** *La Soufrière* (massif of *La Grande Découverte*), active stratovolcano on Basse-Terre. Monitored by [Observatoire volcanologique et sismologique de Guadeloupe (OVSG-IPGP)](https://www.ipgp.fr/en/observation/ovs/ovsg/). Last significant phreatic crisis 1976–1977 (evacuation of Basse-Terre). Yellow-alert status periodically.
 - **Tsunami:** Caribbean tsunami exposure (e.g., 1867 Virgin Islands earthquake). Coastal `gp` communes in PPR-tsunami zoning.
@@ -242,7 +242,7 @@ Primary source: [**Cerema — Guide foncier Outre-Mer (2023)**](https://outil2am
 | `gf` Guyane | **MEDIUM-HIGH** | Cadastre coverage gaps in interior; flood-plain mapping varies by commune; no TVA but octroi de mer applies |
 | `yt` Mayotte | **MEDIUM** | Cadastre very deficient (Cerema 2023); informal-housing prevalence; seismic + volcanic context active and not yet fully reflected in pre-2019 zonation; full census Nov 2025–Feb 2026 will update demographic baseline |
 
-**Last verified:** 2026-05-27.
+**Last verified:** 2026-05-27 (DROM paracyclonique construction rules corrected 2026-09-18 per Legifrance CCH arts. R.132-2-1 to R.132-2-5).
 
 **Maintenance cadence:**
 - TVA rates / *octroi de mer* — verify annually against LFI (loi de finances initiale) revisions.

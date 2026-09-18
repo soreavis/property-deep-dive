@@ -162,7 +162,7 @@ Foundational law: **Belastingwet BES, Hoofdstuk VII Overdrachtsbelasting**. Tari
 
 - **Bonaire short-let** is a substantial market — diver tourism, expat seasonal residents, US/NL second-home owners renting nightly via Airbnb/VRBO
 - **Permit regime**: short-let accommodation governed by **island-government tourism regulations** (Openbaar Lichaam Bonaire `Directie Toerisme` + relevant zoning under `Ruimtelijk Ontwikkelingsplan Bonaire (ROB)`) — a short-let licence/registration is required for nightly rental; verify exact current process with Openbaar Lichaam Bonaire
-- **Tourist tax**: per-night visitor tax + **`Bonaire Visitor Entry Tax (VET)`** USD 75 pp single-arrival fee (in force since 2022; verify current quantum at `https://tourismtax.bonairegov.com/`) — but VET is paid by the *visitor* on arrival, not by the property owner
+- **Tourist tax**: **`Bonaire Visitor Entry Tax (VET)`** — **USD 75 per person per visit**, in force **1 July 2022**, which **replaced the island's former 'room tax' and rental 'car tax'** that accommodations and providers used to collect. From **1 July 2024** the paid tax is **valid for one month** (a re-entry inside that window is not re-charged), a **reduced USD 10** rate applies to island children not living on Bonaire, and Bonairian students studying full-time abroad are exempt. VET is paid by the *visitor* on arrival, not by the property owner (2026 data, source Openbaar Lichaam Bonaire tourism-tax portal; 2026-09-18 verified)
 - **Saba / Statia**: short-let market is micro-scale; permits via the respective Openbaar Lichaam; far fewer Airbnb listings than Bonaire
 
 ### Long-let

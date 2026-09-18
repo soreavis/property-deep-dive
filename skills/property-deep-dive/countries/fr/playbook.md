@@ -6,7 +6,7 @@ ISO2: `fr`. Status: ✅ Fully populated.
 
 - Postcode pattern: 5 digits (`XXXXX`)
 - INSEE code: 5-digit commune identifier (different from postcode)
-- Geocode commune → INSEE: use `https://geo.api.gouv.fr/communes?codePostal=<postcode>` or address-api `https://data.geopf.fr/geocodage/search/search/?q=<query>`
+- Geocode commune → INSEE: use `https://geo.api.gouv.fr/communes?codePostal=<postcode>` or address-api `https://data.geopf.fr/geocodage/search?q=<query>`
 - Currency: EUR (€)
 - Language: French (with German/Italian/Catalan/Basque regional pockets)
 - Cadastre: free public via `cadastre.gouv.fr`
@@ -85,7 +85,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
    - DGFiP fiscal data on data.economie.gouv.fr: [data.economie.gouv.fr — taux fiscalité directe locale](https://data.economie.gouv.fr/explore/?q=taux+fiscalit%C3%A9+directe+locale)
    - Service-Public.fr lookup tool overview: [service-public.gouv.fr A18426](https://www.service-public.gouv.fr/particuliers/actualites/A18426)
    - Délibérations fiscales votées par les collectivités: [collectivites-locales.gouv.fr — Taux votés](https://www.collectivites-locales.gouv.fr/etudes-et-statistiques/acces-par-thematique/fiscalite/taux-de-fiscalite-directe-locale-votes-par-les-collectivites)
-2. **Department-level reference** (rank + average): [IndiceVille](https://www.impots.gouv.fr/donnees-generales-sur-les-taux-et-les-montants-de-la-fiscalite-directe-locale) — useful for "is this dept high-tax or low-tax" framing
+2. **Department-level reference** (rank + average): [DGFiP — Données générales sur les taux et les montants de la fiscalité directe locale](https://www.impots.gouv.fr/donnees-generales-sur-les-taux-et-les-montants-de-la-fiscalite-directe-locale) — "Répartition régionale et départementale du taux de prélèvement depuis 2018 : TF, TH, CFE (.xls)", updated 05/05/2026; latest bulletin "En 2025, la taxe foncière progresse de 2,4 %" (DGFiP Statistiques n°46, mai 2026). Primary publisher, replacing the former IndiceVille aggregator (2026 data, source DGFiP; 2026-09-18 verified)
 3. **Third-party aggregator** (use only if DGFiP open data lookup fails for the specific commune): `https://www.impots-locaux.org/impots-locaux-<commune-slug>-<postcode>/`
 4. **WebSearch fallback**: `"<commune>" taxe fonciere taux <year>` + TEOM rate
 
@@ -355,6 +355,6 @@ For FR-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Status
 
-✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; department-level tax reference re-pointed to DGFiP 2026-09-18 per impots.gouv.fr).
 
 **Confidence**: HIGH for tax + risk + rental sources (impots.gouv.fr / Géorisques / DGFiP — multi-source corroborated). MEDIUM for work catchment heuristics (département-dependent).

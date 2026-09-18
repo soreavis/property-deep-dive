@@ -126,7 +126,6 @@ Non-Bahrainis (and often non-GCC specifically) **cannot acquire registered freeh
 - **Property Finder Bahrain**: `https://www.propertyfinder.bh/`
 - **Bayut Bahrain**: `https://www.bayut.bh/`
 - **Weetas**: `https://www.weetas.com/` (Bahrain-focused)
-- **Zoom Property Bahrain**: `https://www.zoomproperty.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Saakin / dubizzle Bahrain** (limited)
 
 ### Citywide benchmarks (verified 2026-05-01)
@@ -405,7 +404,7 @@ OSM `highway` class:
 
 ### Build-quality / fire risk
 
-- **Bahrain Civil Defence (under MOI)** — `https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-MultipleEntitiesByEService/GSX-UI-EServicesByEntity?entityID=65` — issues Fire Safety Compliance Certificates
+- **General Directorate of Civil Defense, Ministry of Interior** — `https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-MultipleEntitiesByEService/GSX-UI-EServicesByEntity?entityID=65` — issues the **Civil Defense Certificate** (issue request + validity verification are separate eServices), plus fuel-dispensing and fire-prevention inspections, diesel/gas tank installation approval and chemical-storage NOCs (2026 data, source Bahrain national portal / MoI GDCD; 2026-09-18 verified)
 - **Bahrain Building Code (BBC)** — national building code; cladding requirements tightened post-2017 (regional Marina Torch / Address Downtown incidents catalysed reform across GCC)
 - **Pre-2014 stock** (older Juffair / Manama / Adliya towers): variable cladding compliance — verify Civil Defence NOC
 - **Post-2017 stock** (Bahrain Bay phase 2, Reef Island, Diyar Al Muharraq, Bahrain Marina): modern code-compliant; lower fire-cladding risk
@@ -436,7 +435,7 @@ OSM `highway` class:
 | **NOC from Master Developer / OA** | Confirms service charges paid up + permits transfer (Amwaj, Bahrain Bay, Reef Island, Diyar Al Muharraq OAs) | Master developer / OA |
 | **Affection Plan** | Cadastral plot info | SLRB / Municipality |
 | **Building Completion Certificate** (off-plan completion) | Project legally complete | Master developer + Civil Defence |
-| **Fire NOC / Civil Defence certificate** | Cladding + fire compliance | Bahrain Civil Defence |
+| **Fire NOC / Civil Defence certificate** | Cladding + fire compliance | General Directorate of Civil Defense (MoI) |
 | **EWA clearance** | No outstanding utility bills | EWA |
 | **Cooling provider clearance** (if applicable) | No outstanding cooling bills | Tabreed BH / private chiller co. |
 
@@ -555,7 +554,6 @@ Bahrain urban property is essentially **always on mains** for water + electricit
 - **Property Finder Bahrain** — `https://www.propertyfinder.bh/`
 - **Bayut Bahrain** — `https://www.bayut.bh/`
 - **Weetas** — `https://www.weetas.com/`
-- **Zoom Property Bahrain** — `https://www.zoomproperty.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - Developer direct portals: **Diyar Al Muharraq** (`https://www.diyar.bh/`), **Eagle Hills Bahrain** (`https://www.eaglehills.com/`), **Bahrain Bay Development**, **Edamah** (Mumtalakat real-estate arm), **Naseej**
 
 ## Caveats unique to Bahrain
@@ -598,7 +596,7 @@ Bahrain urban property is essentially **always on mains** for water + electricit
 | **National Bureau for Revenue (NBR)** | VAT registration, VAT clarifications, Excise Tax |
 | **Central Bank of Bahrain (CBB)** | LTV regulations, mortgage lending rules, AML guidance |
 | **Bahrain Tourism and Exhibitions Authority (BTEA)** | Holiday-home / STR licensing |
-| **Bahrain Civil Defence** | Fire NOC, cladding compliance |
+| **General Directorate of Civil Defense (MoI)** | Fire NOC, cladding compliance |
 | **Ministry of Works** | Drainage history, road project schedules, sewerage |
 | **EWA** | Utility account verification, connection clearance |
 | **Information & eGovernment Authority (IGA)** | Demographics, eGovernment services, statistics |
@@ -630,7 +628,7 @@ Bahrain urban property is essentially **always on mains** for water + electricit
 | Ministry of Justice (MOJ) | `https://www.moj.gov.bh/` |
 | Ministry of Industry and Commerce (MOICT) | `https://www.moic.gov.bh/` |
 | Ministry of Interior (MOI) | `https://www.moi.gov.bh/` |
-| Ministry of Finance (MOF) | `https://www.mofne.gov.bh/` |
+| Ministry of Finance and National Economy (MOFNE) | `https://www.mofne.gov.bh/` |
 | Ministry of Works | `https://www.works.gov.bh/` |
 | Ministry of Transportation and Telecommunications (MTT) | `https://www.mtt.gov.bh/` |
 | Supreme Council for Environment | `https://www.sce.gov.bh/` |
@@ -642,7 +640,7 @@ Bahrain urban property is essentially **always on mains** for water + electricit
 | Bahrain Tourism (BTEA) | `https://www.btea.bh/` |
 | Visit Bahrain (consumer) | `https://www.bahrain.com/` |
 | EWA (utilities) | `https://www.ewa.bh/` |
-| Bahrain Civil Defence | `https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-MultipleEntitiesByEService/GSX-UI-EServicesByEntity?entityID=65` |
+| General Directorate of Civil Defense (MoI) | `https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-MultipleEntitiesByEService/GSX-UI-EServicesByEntity?entityID=65` |
 | Bahrain Met Directorate | `https://www.bahrainweather.gov.bh/` |
 | Bahrain Post | `https://www.bahrainpost.bh/` |
 | Bahrain International Airport | `https://www.bahrainairport.bh/` |
@@ -658,7 +656,7 @@ Bahrain urban property is essentially **always on mains** for water + electricit
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — freehold statute Legislative Decrees 2/2001 + 43/2003 + Edicts 67/2006 + 38/2023; SLRB flat 1.7%/2.0%; DMTT 15% on MNEs eff. 1 Jan 2025; Tourist Levy BHD 3/night 1 May 2024)
+**Last verified**: 2026-05-27 (validation sweep — freehold statute Legislative Decrees 2/2001 + 43/2003 + Edicts 67/2006 + 38/2023; SLRB flat 1.7%/2.0%; DMTT 15% on MNEs eff. 1 Jan 2025; Tourist Levy BHD 3/night 1 May 2024; Civil Defense Certificate naming corrected 2026-09-18 per Bahrain national portal)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
