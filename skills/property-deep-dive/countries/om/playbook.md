@@ -187,7 +187,7 @@ OSM `highway` class:
 
 ### Annual property tax
 
-**There is NO annual real-estate property tax in Oman** — neither at central nor governorate level. **This is consistent with the GCC norm** (UAE has municipal housing fees; Saudi has White Land Tax for undeveloped >10,000 m²; Bahrain has property tax for non-GCC; Oman has none).
+**There is NO annual real-estate property tax in Oman** — neither at central nor governorate level. **This is consistent with the GCC norm** (UAE has municipal housing fees; Saudi has White Land + Vacant Property Fees for undeveloped land ≥5,000 m²; Bahrain has property tax for non-GCC; Oman has none).
 
 What residents do pay annually:
 
@@ -667,7 +667,7 @@ Available to 100+ nationalities (incl. EU, UK, US, Australia, Canada, Japan) —
 
 ### Mandatory
 
-- **Health insurance** (Dhamani — ضمني): mandatory health cover for all expatriate workers in private sector since 2023 (Capital Market Authority + Ministry of Health rollout); minimum benefit set by CMA.
+- **Health insurance** (Dhamani — ضمني): mandatory health cover for all expatriate workers in private sector since 2023 (Capital Market Authority + Ministry of Health rollout); minimum benefit set by the regulator — the CMA at rollout, now the Financial Services Authority (FSA).
 - **Motor insurance**: mandatory third-party liability (CMA-regulated; Royal Decree 34/94).
 - **Mortgage-tied home + life insurance**: required by all CBO-regulated lenders for the term of the mortgage.
 
@@ -940,7 +940,7 @@ Workable pathways for remote-working visitors:
 ### Social / governance factors
 
 - **Omanisation (تعمين)** is the dominant social-governance lever — private-sector job quotas.
-- **Capital Market Authority (CMA)** drives corporate ESG reporting for listed firms.
+- **Financial Services Authority (FSA)** drives corporate ESG reporting for listed firms.
 - **Owner association structures** for ITCs (Al Mouj OMC, Muriya, Saraya) governed by master-developer concessions + MoCIIP licensing.
 
 ### Verdict (ESG lens for typical Omani ITC apartment)
@@ -1074,7 +1074,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | **Oman Tax Authority (OTA)** | Corporate tax registration; VAT; withholding tax |
 | **Central Bank of Oman (CBO)** | LTV regulations, mortgage lending rules, AML/CFT |
 | **National Centre for Statistics and Information (NCSI)** | Real Estate Activity bulletin, demographic data |
-| **Capital Market Authority (CMA) Oman** | Insurance market regulation, REIT regulation |
+| **Financial Services Authority (FSA), Sultanate of Oman** | Insurance market regulation, REIT regulation |
 | **Authority for Public Services Regulation (APSR)** | Utility tariffs, energy efficiency standards |
 | **Nama Group (Electricity + Water)** | Utility account verification, connection clearance |
 | **Sultan Qaboos University Earthquake Monitoring Centre** | Seismic + tsunami hazard |
@@ -1113,7 +1113,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Ministry of Heritage and Tourism (MHT) | `https://mht.gov.om/` (NOT `mohup.gov.om` — that's MoHUP, a separate ministry; 2026-05-27 verified) |
 | Ministry of Labour | `https://www.mol.gov.om/` |
 | Ministry of Transport, Communications and IT (MTCIT) | `https://www.mtcit.gov.om/` |
-| Capital Market Authority (CMA) Oman | `https://cma.gov.om/` |
+| Financial Services Authority (FSA), Oman | `https://fsa.gov.om/` |
 | Dhamani (mandatory health insurance) | `https://fsa.gov.om/Dhamani/About` |
 | Authority for Public Services Regulation (APSR) | `https://www.apsr.om/` |
 | Oman Meteorology | `https://omd.met.gov.om/` |

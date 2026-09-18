@@ -725,7 +725,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | Kementerian PUPR (Public Works) | `https://www.pu.go.id/` |
 | Bina Marga (Highways) | `https://binamarga.pu.go.id/` |
 | Jasa Marga (Tollways) | `https://www.jasamarga.com/` |
-| Kementerian LHK | `https://www.menlhk.go.id/` |
+| Kementerian Lingkungan Hidup (KLH) / BPLH | `https://www.kemenlh.go.id/` |
 | ISPU (Air Quality Index) | `https://ispu.kemenlh.go.id` |
 | Dinas PUPRKIM Provinsi Bali (Spatial Plan, ex-Distarcip) | `https://tarubali.baliprov.go.id` |
 | PAM Jaya (Jakarta water) | `https://pamjaya.co.id/` |

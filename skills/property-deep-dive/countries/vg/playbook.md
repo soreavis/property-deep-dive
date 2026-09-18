@@ -591,13 +591,13 @@ HIGH for IPCC AR6 + CCCCC regional projections; MEDIUM for parcel-level surge sp
 ## Status
 
 **Status**: ✅ fully populated as of 2026-05-28
-**Confidence**: MEDIUM-HIGH —
+**Confidence**: MEDIUM —
 - **HIGH** for the foreign-buyer regime: **NBLHL mandatory + Cabinet-granted + buyer/property-specific + non-transferable**; statutory basis **Non-Belongers Land Holding Regulation Act (CAP.122)**; fees **USD 200 individual / USD 500 company** — all PRIMARY-verified at [bvi.gov.vg](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence) (2026-05-28) and audit-confirmed.
 - **HIGH** for **stamp duty 4% (Belonger) / 12% (non-Belonger)** of the higher of price/market value — verified via Stamps (Amendment) Act 2022 + Non-Belongers Land Holding Regulation Act ([laws.gov.vg](https://laws.gov.vg/)) + GHP/Harneys; **the 12% rate's statutory home is the NBLHR Act (CAP.122), not the Stamps Act** (audit-corrected 2026-05-28).
-- **HIGH** for the **annual land-tax + house-tax tables** (expat USD 50/150/+50; Belonger USD 10/3; house tax 1.5% of notional rental value) — PRIMARY-verified verbatim at [bvi.gov.vg/content/property-tax](https://bvi.gov.vg/content/property-tax) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row (2026-05-28).
+- **MEDIUM** for the **annual land-tax + house-tax tables** (expat USD 50/150/+50; Belonger USD 10/3; house tax 1.5% of notional rental value) — last primary-verified 2026-05-28 on the since-removed `bvi.gov.vg/content/property-tax`; **no live primary schedule** — re-confirm against the Land and House Tax Act or an [Inland Revenue Department](https://gov.vg/inland-revenue-department) notice.
 - **HIGH** for the near-zero direct-tax framing (no income/CGT/inheritance/corporation tax + no VAT) — gov + Carey Olsen/Legal 500 corroboration.
 - **HIGH** for **registered-land (CAP.229)** title system + the **Department of Land Registry** + the **High Court of Justice (Virgin Islands), a division of the ECSC** (final appeal: Privy Council).
-- **HIGH** for **Hurricane Irma 6 Sept 2017 = direct Cat-5, ~70% of buildings damaged** (gov media-centre PRIMARY) + the post-Irma Cat-5+ building-code posture.
+- **HIGH** for **Hurricane Irma 6 Sept 2017 = direct Cat-5, ~70% of buildings damaged** (gov media-centre release, removed in the gov.vg migration — no longer PRIMARY-citable) + the post-Irma Cat-5+ building-code posture.
 - **MEDIUM** for processing timeline (gov 8–12 weeks vs practitioner 3–5 months / 12-month contract window — both cited).
 - **MEDIUM** for price benchmarks (~$1.66M Tortola avg; Virgin Gorda from ~$2.8M villa / ~$500k condo) — listing/agent-derived SECONDARY by nature of a market with no government index.
 - **MEDIUM** for utilities (BVIEC stats + the reported BVIEC/Water merger entity are SECONDARY-corporate — verify current operating entity at bvi.gov.vg).
@@ -608,7 +608,7 @@ HIGH for IPCC AR6 + CCCCC regional projections; MEDIUM for parcel-level surge sp
 
 - [ ] NBLHL fees + processing timeline — re-verify against the current (revised-Sept-2022) application form annually
 - [ ] Stamp-duty schedule (4%/12%) — track the Stamps Act + NBLHR Act for amendments
-- [ ] Land-tax + house-tax tables — re-verify at bvi.gov.vg/content/property-tax annually
+- [ ] Land-tax + house-tax tables — re-verify with the Inland Revenue Department (gov.vg/inland-revenue-department) annually
 - [ ] 20% late penalty + 10% accommodation tax — upgrade from SECONDARY to PRIMARY when the gov page / Inland Revenue states verbatim
 - [ ] BVIEC + Water & Sewerage merger — confirm the current operating entity (Virgin Islands Energy and Water Company?) at bvi.gov.vg
 - [ ] Post-Irma Building Code — track finalisation + current Cat-5+ standard at Town & Country Planning

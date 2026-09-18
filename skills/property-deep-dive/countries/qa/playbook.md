@@ -21,7 +21,7 @@ ISO2: `qa`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Title Deed (Sanad Mulkiyya — سند ملكية)** — issued by REA at registration; bears Plot No. + Block No. + Zone No. + Municipality
   - **Sale and Purchase Agreement (SPA)** — pre-registration binding; for off-plan sales the developer provides an interim allocation document until final Title Deed at handover
   - **Affection Plan (شهادة تخطيط)** — issued by Ministry of Municipality; cadastral plot info
-- **Population**: ~3.05 M (2024 — Planning and Statistics Authority `https://www.psa.gov.qa/`); ~12% Qatari nationals + ~88% expatriates (2020 census + 2024 PSA bulletin)
+- **Population**: ~3.05 M (2024 figure, published by the then **Planning and Statistics Authority**, whose statistics function passed to the **National Planning Council** — [npc.qa](https://www.npc.qa/); `psa.gov.qa` is egress-filtered); ~12% Qatari nationals + ~88% expatriates (2020 census + 2024 PSA bulletin)
 - **Recent reforms** (12-month watchlist):
   - **Law 16/2018** + **Cabinet Resolution No. 28 of 2020** (a.k.a. Cabinet Decision 28/2020) + 2024 update — non-Qatari freehold expanded to 9 designated zones + 99-yr leasehold in 16 additional zones (was Pearl + West Bay Lagoon + Al Khor Resort only pre-2018)
   - **Law No. 28 of 2023** — establishes **Aqarat / RERA** (General Authority for Regulating the Real Estate Sector) as central regulator for developers, brokers, freehold zones, and the Qatar Real Estate Platform (QREP) (2026-05-27 verified, source aqarat.gov.qa)
@@ -109,7 +109,7 @@ Non-Qataris **cannot acquire any registered interest** in real estate outside th
 
 ### Primary sources
 
-- **Qatar Central Bank (QCB)** Real Estate Price Index (REPI): `https://www.qcb.gov.qa/en/pages/realestatepriceindex.aspx` — quarterly sales-price index; QCB created the index and computes it from Ministry of Justice transaction data, methodology in QCB Financial Stability Report III pp. 85-86 (2026 data, source QCB; 2026-09-18 verified)
+- **Qatar Central Bank (QCB)** Real Estate Price Index (REPI): `https://www.qcb.gov.qa/en/pages/realestatepriceindex.aspx` — **monthly index series** (one price level per month, Aug 2021 → current); QCB created the index and computes it from Ministry of Justice transaction data, methodology in the QCB **third Financial Stability Review** pp. 85-86 (2026 data, source QCB; 2026-09-18 verified)
 - **Qatar Central Bank (QCB)** — Real Estate Price Index supplements (Financial Stability Report): `https://www.qcb.gov.qa/`
 - **Ministry of Justice (REA)** — quarterly transaction-volume reports + weekly bulletins: `https://www.moj.gov.qa/`
 - **ValuStrat Qatar** + **Cushman & Wakefield Qatar** + **DTZ Qatar** — quarterly market reviews (consultancy aggregators using REA data)
@@ -194,7 +194,7 @@ OSM `highway` class:
 
 ### Annual property tax
 
-**There is NO annual real-estate property tax in Qatar** — neither at federal nor at municipality level. **This is unique among major GCC peers** (UAE has municipal housing fees; Saudi has White Land Tax and Real Estate Transaction Tax; Bahrain has property tax for non-GCC owners).
+**There is NO annual real-estate property tax in Qatar** — neither at federal nor at municipality level. **This is unique among major GCC peers** (UAE has municipal housing fees; Saudi has White Land + Vacant Property Fees and Real Estate Transaction Tax; Bahrain has property tax for non-GCC owners).
 
 What residents do pay annually:
 

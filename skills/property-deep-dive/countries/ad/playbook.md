@@ -147,7 +147,7 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Llei 3/2024** politically sensitive — parameters may change in 2026 budget
 - **OECD BEPS Pillar Two** — domestic minimum taxation implemented; corporate-vehicle structuring evolving
-- **EU Association Agreement** ([Govern AA portal](https://andorraue.ad/ca/acord-d-associacio)) — Council of the EU approved the text **16 July 2026**; **signature set for 19 October 2026 in Brussels**, then European Parliament consent, a **consultative referendum** and ratification by the Consell General before entry into force — tax-cooperation tightening on ratification (2026 data, source Govern d'Andorra Secretaria d'Estat per a les Relacions amb la UE; 2026-09-18 verified)
+- **EU Association Agreement** ([Govern AA portal](https://andorraue.ad/ca/acord-d-associacio)) — Council of the EU approved the text **16 July 2026**; **signature set for 19 October 2026 in Brussels**, then European Parliament consent, ratification by all 27 EU member states (Coreper confirmed the text is a MIXED agreement, 15 Jul 2026), a **consultative referendum** and ratification by the Consell General before entry into force — tax-cooperation tightening on ratification (2026 data, source Govern d'Andorra Secretaria d'Estat per a les Relacions amb la UE; 2026-09-18 verified)
 
 ---
 

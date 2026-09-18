@@ -435,7 +435,7 @@ OSM `highway` class:
 | **NOC from Master Developer / OA** | Confirms service charges paid up + permits transfer (Amwaj, Bahrain Bay, Reef Island, Diyar Al Muharraq OAs) | Master developer / OA |
 | **Affection Plan** | Cadastral plot info | SLRB / Municipality |
 | **Building Completion Certificate** (off-plan completion) | Project legally complete | Master developer + Civil Defence |
-| **Fire NOC / Civil Defence certificate** | Cladding + fire compliance | Bahrain Civil Defence |
+| **Fire NOC / Civil Defence certificate** | Cladding + fire compliance | General Directorate of Civil Defense (MoI) |
 | **EWA clearance** | No outstanding utility bills | EWA |
 | **Cooling provider clearance** (if applicable) | No outstanding cooling bills | Tabreed BH / private chiller co. |
 
@@ -596,7 +596,7 @@ Bahrain urban property is essentially **always on mains** for water + electricit
 | **National Bureau for Revenue (NBR)** | VAT registration, VAT clarifications, Excise Tax |
 | **Central Bank of Bahrain (CBB)** | LTV regulations, mortgage lending rules, AML guidance |
 | **Bahrain Tourism and Exhibitions Authority (BTEA)** | Holiday-home / STR licensing |
-| **Bahrain Civil Defence** | Fire NOC, cladding compliance |
+| **General Directorate of Civil Defense (MoI)** | Fire NOC, cladding compliance |
 | **Ministry of Works** | Drainage history, road project schedules, sewerage |
 | **EWA** | Utility account verification, connection clearance |
 | **Information & eGovernment Authority (IGA)** | Demographics, eGovernment services, statistics |
@@ -656,7 +656,7 @@ Bahrain urban property is essentially **always on mains** for water + electricit
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — freehold statute Legislative Decrees 2/2001 + 43/2003 + Edicts 67/2006 + 38/2023; SLRB flat 1.7%/2.0%; DMTT 15% on MNEs eff. 1 Jan 2025; Tourist Levy BHD 3/night 1 May 2024; Civil Defense Certificate naming and Ministry of Finance and National Economy title corrected 2026-09-18 per Bahrain national portal + mofne.gov.bh)
+**Last verified**: 2026-05-27 (validation sweep — freehold statute Legislative Decrees 2/2001 + 43/2003 + Edicts 67/2006 + 38/2023; SLRB flat 1.7%/2.0%; DMTT 15% on MNEs eff. 1 Jan 2025; Tourist Levy BHD 3/night 1 May 2024; Civil Defense Certificate naming corrected 2026-09-18 per Bahrain national portal)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

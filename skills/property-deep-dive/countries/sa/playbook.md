@@ -199,7 +199,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Annual property charges
 
-**Saudi Arabia has NO recurring property tax on developed land** — neither owner-occupied nor let property pays an annual tax in the European sense. **BUT the White Land Tax** applies to undeveloped urban parcels.
+**Saudi Arabia has NO recurring property tax on developed land** — neither owner-occupied nor let property pays an annual tax in the European sense. **BUT the White Land + Vacant Property Fees** apply to undeveloped urban parcels.
 
 | Charge | Rate | Base | Statute |
 |---|---|---|---|
@@ -1136,7 +1136,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | **Saudi Geological Survey (SGS)** | Earthquake + volcanic + groundwater hazard |
 | **NCM** (National Center of Meteorology) | Weather + climate projections |
 | **Civil Defence (الدفاع المدني)** | Fire NOC, building safety |
-| **Ministry of Municipal Affairs (MOMRAH)** | Municipality permits, White Land Tax administration |
+| **Ministry of Municipalities and Housing (MOMAH)** | Municipality permits, White Land + Vacant Property Fees administration |
 | **MHRSD** (Ministry of Human Resources & Social Development) | Iqama + Saudization (Nitaqat) |
 | **CCHI** (Council of Cooperative Health Insurance) | Health insurance compliance |
 | **CMA** (Capital Market Authority) | Corporate property holders + REIT regulation |

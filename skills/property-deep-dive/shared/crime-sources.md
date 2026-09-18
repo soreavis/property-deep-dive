@@ -583,7 +583,7 @@ For the property's locality, return:
 ### 🇶🇦 Qatar
 
 - **Ministry of Interior — Public Security (وزارة الداخلية — الأمن العام)**: `https://www.moi.gov.qa/` — published annual reports + traffic + crime communiqués
-- **PSA (Planning & Statistics Authority)**: `https://www.psa.gov.qa/` — Annual Crime & Justice Statistics (Crime in Qatar bulletin)
+- **NPC (National Planning Council / المجلس الوطني للتخطيط**, Amiri Decision 13 of 2024, successor to the Planning and Statistics Authority): `https://www.npc.qa/` — Annual Crime & Justice Statistics (Crime in Qatar bulletin). ⚠️ `psa.gov.qa` is egress-filtered and its legacy paths 404 on npc.qa — verify the current bulletin address at NPC (2026-09-18).
 - **Public Prosecution (النيابة العامة)**: `https://www.pp.gov.qa/` — prosecutorial statistics
 - **Granularity**: national + per-municipality (8 baladiyat: Doha / Al Rayyan / Al Wakrah / Al Khor / Umm Salal / Al Daayen / Al Shamal / Al Shahaniya); **Doha + Al Rayyan district-level data not publicly available — verify with local police station (markaz al-shorta)**
 - **Caveat**: very low absolute crime per public communiqués; transparency limited vs Western peers; published rates emphasize year-on-year decline narrative; expat (88% of population) vs Qatari breakdown rarely disclosed; political-context offences excluded; 2022 World Cup security baseline still used as reference

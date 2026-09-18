@@ -144,7 +144,7 @@ Most Uzbekistan real-estate listings **price in USD** despite contracts settling
 
 ### Currency note
 
-UZS, USD/UZS ≈ 12,300–12,950 (Q1–Q2 2026 CBU reference rate, managed-float). All annual property taxes payable in UZS to local State Tax Committee account; conversions in playbook use approximate **12,500 UZS/USD** as a rounding mid-point — verify against current CBU rate at [cbu.uz/en/](https://cbu.uz/en/).
+UZS, USD/UZS ≈ 12,300–12,950 (Q1–Q2 2026 CBU reference rate, managed-float). All annual property taxes payable in UZS to local Tax Committee account; conversions in playbook use approximate **12,500 UZS/USD** as a rounding mid-point — verify against current CBU rate at [cbu.uz/en/](https://cbu.uz/en/).
 
 ### Tax-code regime context
 
@@ -231,7 +231,7 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
 
 - **Tax residency**: 183+ days in any 12-month period rolling
 - **Tax filing**: Form for individuals with non-employment income (rental, self-employment, foreign income) by **1 April of year + 1**; payment by 1 June of year + 1; via [my.soliq.uz](https://my.soliq.uz/) taxpayer cabinet
-- **TIN (STIR — Soliq toʻlovchining identifikatsiya raqami)**: 9-digit individual taxpayer identification number; **prerequisite for property purchase, banking, IE registration**; foreigners obtain at any State Tax Committee branch with passport
+- **TIN (STIR — Soliq toʻlovchining identifikatsiya raqami)**: 9-digit individual taxpayer identification number; **prerequisite for property purchase, banking, IE registration**; foreigners obtain at any Tax Committee branch with passport
 
 ### AML / cash limits + currency-payment rules
 
@@ -242,7 +242,7 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
 
 ### Future risk
 
-- **Property-tax modernisation**: ongoing transition from area-based + cadastral-floor system toward genuine market-aligned cadastral valuation (Rosreestr-supported pilots since 2021, [WB ISR](https://documents1.worldbank.org/curated/en/963031624984183169/txt/Disclosable-Version-of-the-ISR-Modernization-of-Real-Property-Registration-and-Cadastre-P151746-Sequence-No-13.txt)) — when complete, effective property-tax burden may rise materially; monitor State Tax Committee announcements
+- **Property-tax modernisation**: ongoing transition from area-based + cadastral-floor system toward genuine market-aligned cadastral valuation (Rosreestr-supported pilots since 2021, [WB ISR](https://documents1.worldbank.org/curated/en/963031624984183169/txt/Disclosable-Version-of-the-ISR-Modernization-of-Real-Property-Registration-and-Cadastre-P151746-Sequence-No-13.txt)) — when complete, effective property-tax burden may rise materially; monitor Tax Committee announcements
 - **VAT real-time invoice AI system**: launched 1 Jan 2026; high-risk invoice flagging may delay input VAT recovery — affects developers + commercial RE more than individual residential buyers
 - **Currency-control evolution**: 2019 liberalisation continues to be refined; 2024 + 2025 amendments tightened reporting on outward transfers >US$10k; monitor [cbu.uz](https://cbu.uz/) bulletins
 - **Real-estate-for-residence threshold** (separate pre-existing route, distinct from the PF-67 donation Golden Visa): $100k/$200k/$300k by region; thresholds may be revised in 2026–2028 budget cycles
@@ -263,7 +263,7 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
 
 2. **Individual Entrepreneur (IE / Yakka tartibdagi tadbirkor / ИП) — simplified turnover regime**:
    - **4 % of gross turnover** (turnover up to ~UZS 500M ~ US$40k; verify current threshold)
-   - Register at any State Tax Committee branch in 1–3 days; ~free
+   - Register at any Tax Committee branch in 1–3 days; ~free
    - Filing via [my.soliq.uz](https://my.soliq.uz/) monthly/quarterly
    - Better path for landlords with multi-property portfolios
 
@@ -331,7 +331,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 ### Self-employment + entity regimes
 
-- **Individual Entrepreneur (IE / Yakka tartibdagi tadbirkor / ИП)**: register at any State Tax Committee branch in 1–3 days; ~free
+- **Individual Entrepreneur (IE / Yakka tartibdagi tadbirkor / ИП)**: register at any Tax Committee branch in 1–3 days; ~free
   - Default: 4 % turnover regime (up to ~UZS 500M)
   - Migration to OOO/LLC if turnover exceeds threshold
 - **LLC ("MChJ" / "ООО")**: register via [my.gov.uz](https://my.gov.uz/) in 1–5 business days; minimum capital UZS 400,000 (~US$32; lowered 2018+); 15 % CIT + 5–10 % dividend WHT
@@ -381,7 +381,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 | Source | URL | What it gives |
 |---|---|---|
 | **Ministry of Emergency Situations (FVV — Favqulodda vaziyatlar vazirligi)** | [gov.uz/en/fvv](https://gov.uz/en/fvv) | Operational hazard data, flood/earthquake/fire response, civil protection plans |
-| **Institute of Seismology, Academy of Sciences of the Republic of Uzbekistan** | [seismos.uz](https://www.seismos.uz/) | Real-time + historic seismicity, fault maps, intensity zoning, Tashkent + Fergana Valley active fault catalogue |
+| **Institute of Seismology, Academy of Sciences of the Republic of Uzbekistan** | [seismos.uz](https://www.seismos.uz/) (URL not re-probed — verify) | Real-time + historic seismicity, fault maps, intensity zoning, Tashkent + Fergana Valley active fault catalogue |
 | **Centre of Hydrometeorological Service (Uzhydromet — Oʻzgidromet)** | [meteo.uz](https://www.meteo.uz/en) | Weather, flood warnings, climate baseline, drought monitoring (Aral basin) |
 | **National Committee on Ecology and Climate Change of the Republic of Uzbekistan** (hotline 1157; formerly styled a ministry) | [gov.uz/en/eco](https://gov.uz/en/eco) | Environmental risk reports, Aral Sea region monitoring, climate adaptation |
 | **State Architectural and Construction Inspectorate** | under Ministry of Construction | Building-code enforcement (KMK / ҚМҚ — Қурилиш меъёрлари ва қоидалари series, equivalent to Russian SNiP); seismic-design certification |
@@ -640,7 +640,7 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 - **Soviet panel-block stock**: 1970s–1980s panel construction dominates Tashkent mid-segment outer districts; uneven seismic retrofit; commission independent structural survey
 - **Self-built (samoyqurma) legalisation history**: pre-2007 unpermitted construction was waved through several legalisation rounds; some titles look clean but lack original building permit — affects future renovation/extension
 - **Currency Regulation Law (ZRU-573 of 2019)**: 2017 + 2019 liberalisation post-Karimov-era; UZS settlement of UZ real estate; investor-protection guaranteed repatriation
-- **STIR (TIN)**: 9-digit individual taxpayer ID; **prerequisite for property purchase, banking, IE registration**; foreigners obtain at any State Tax Committee branch with passport + ~1 day
+- **STIR (TIN)**: 9-digit individual taxpayer ID; **prerequisite for property purchase, banking, IE registration**; foreigners obtain at any Tax Committee branch with passport + ~1 day
 - **Notarial mandatory**: any property contract must be notarised (Civil Code) — not optional
 - **Cadastre digital (e-Kadastr)**: launched + nationwide rollout near-complete (WB ISR confirmed 2.5× ahead of schedule); express 24h registration available in Tashkent
 
@@ -676,7 +676,7 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 
 ## Quirks to know
 
-- **STIR (TIN) `XXXXXXXXX`** for individuals (9-digit); **prerequisite** for property purchase, IE registration, banking; obtain at any State Tax Committee branch in ~1 day with passport
+- **STIR (TIN) `XXXXXXXXX`** for individuals (9-digit); **prerequisite** for property purchase, IE registration, banking; obtain at any Tax Committee branch in ~1 day with passport
 - **Tashkent district names**: Mirabad / Mirobod, Yakkasaray / Yakkasaroy, Yashnabad / Yashnobod, Mirzo Ulugbek / Mirzo Ulug'bek, Chilanzar / Chilonzor, Yunusabad / Yunusobod, Shaikhantakhur / Shayxontohur, Sergeli / Sergeli, Bektemir / Bektemir, Yangihayot / Yangihayot, Almazar / Olmazor, Uchtepa / Uchtepa — **dual transliteration** (Russian-derived vs Uzbek-Latin); confirm cadastral number not just street address
 - **Latin vs Cyrillic Uzbek**: official scripts coexist; Latin is constitutional standard since 1995 but Cyrillic is widely retained in legacy documents, signage, older generation; documents may exist in either or both
 - **Mahalla committee (mahalla qoʻmitasi)**: traditional Uzbek neighbourhood self-government unit; ~10,000+ mahallas nationally; the mahalla raisi (chair) is a useful first contact for parcel-level due-diligence + community context
@@ -705,7 +705,7 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 | e-Visa portal | [e-visa.gov.uz](https://e-visa.gov.uz/) |
 | IT Park Uzbekistan | [it-park.uz/en](https://www.it-park.uz/en/) |
 | Tashkent Khokimiyat | [tashkent.uz](https://tashkent.uz/) |
-| Toshkent suv taʼminoti (water) | [toshkent.uzsuv.uz](https://toshkent.uzsuv.uz) |
+| Tashkent water utility | [toshkent.uzsuv.uz](https://toshkent.uzsuv.uz) |
 | National Electric Grid of Uzbekistan (electricity) | [uzbekistonmet.uz](https://www.uzbekistonmet.uz/en) |
 | Ministry of Emergency Situations | [gov.uz/en/fvv](https://gov.uz/en/fvv) |
 | Uzhydromet | [meteo.uz/en](https://www.meteo.uz/en) |

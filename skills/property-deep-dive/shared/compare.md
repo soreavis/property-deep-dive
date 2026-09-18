@@ -238,7 +238,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 11. MO (no annual property tax for residential; rental income subject to Property Tax 6-10% on rental net only)
 12. SG (Property Tax 0-32% progressive on Annual Value, owner-occupied 0-23% — modest effective % vs price for owner-occupiers; non-residential and investment higher)
 13. QA (no annual property tax for residential owner-occupiers; service charges per Pearl/Lusail master-plan only; verify with MME / MoJ)
-14. SA (no annual property tax for owner-occupiers; **5% White Land Tax on undeveloped urban plots** to discourage speculation per Royal Decree M/4 — applies to undeveloped land only)
+14. SA (no annual property tax for owner-occupiers; **White Land + Vacant Property Fees up to 10%/yr, banded 10/7.5/5/2.5/nil by urban-development priority zone, on undeveloped urban plots ≥5,000 m²** (Royal Decree M/4 1437 AH as amended 2025; executive regulation 22 Aug 2025))
 15. PY (very low annual immobiliario; flat ~1% on register-value but register-value typically ~10-30% market — effective <0.3%)
 16. AM (low annual property tax — sliding 0-1% on cadastre value, exempt under AMD 3M threshold; verify SRC)
 
@@ -808,7 +808,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Foreign-buyer access | **Foreign-buyer residential ban for non-NRI/non-OCI per FEMA 2018 Sch.I**; agricultural / plantation / farmhouse barred even for NRIs/OCIs | **Land Use Act 1978 — all land vested in state Governor** — only Statutory Right of Occupancy 99-yr leasehold; Governor's consent required for transfers | Open to foreigners (residential freehold); **agricultural land restricted to citizens per Constitution Art. 65**; 99-yr leasehold cap on non-citizen freehold-equivalents |
 | Total acquisition cost | ~7-12% (stamp duty 5-8% state-varied + registration 1% + GST 5-12% on under-construction + brokerage 1-2%) | ~10-15% (stamp duty + Governor's consent fee + agent + legal — varies by state) | ~7-12% (4% stamp duty + 0.1% LRA + agent 1.5-3% + legal 1-2%) |
 | Personal income tax | Worldwide for residents (>182 days); progressive 0-30% + surcharge + 4% cess; **LRS USD 250k/yr outbound cap** | Worldwide for residents (>183 days); progressive 7-24% + 2.5% NHF | Worldwide for residents (>183 days OR ≥122d × 3yr); progressive 10-35% PIT |
-| CGT on resale | Long-term (>24 months) 20% with indexation OR 12.5% without; short-term per slab | CGT 10% flat | CGT 15% flat (post-2023 reform; verify KRA) |
+| CGT on resale | Long-term (>24 months) 20% with indexation OR 12.5% without; short-term per slab | CGT: the flat 10% charge was repealed by the Nigeria Tax Act 2025 — chargeable gains taxed as income from 1 Jan 2026 | CGT 15% flat (post-2023 reform; verify KRA) |
 | Visa pathway | **NO golden-visa via real estate (UNIQUE absence)** — OCI lifetime multi-entry for Indian-origin descendants only | **NO golden-visa via real estate** — STR-1 Investor visa USD 100k business is the pathway | **NO golden-visa via real estate (UNIQUE absence in EAC)** — **Class K Resident KES 200k+/yr passive** is the practical retiree pathway |
 | Path to citizenship | Naturalization 11+yr (very strict); **dual citizenship NOT allowed** | Naturalization 15+yr + Nigerian language + dual NOT allowed for native-born | Citizenship 7yr + Swahili (dual allowed since 2010) |
 | English | Official + universal in business + legal + healthcare | Official + Pidgin universal + Yoruba/Igbo/Hausa | Co-official with Kiswahili |

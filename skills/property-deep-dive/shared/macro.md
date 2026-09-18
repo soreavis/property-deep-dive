@@ -438,7 +438,7 @@ MO: ~2% est. (verify DSEC https://www.dsec.gov.mo)
 AD: ~3% est. (verify Estadística d'Andorra https://www.estadistica.ad)
 MC: ~3% est. (verify IMSEE https://www.monacostatistics.mc)
 MD: ~4-5% est. (Q1 2026 — post-2022 shock easing; verify BNS https://statistica.gov.md)
-QA: ~2.5% est. (Q1 2026 — verify PSA https://www.psa.gov.qa)
+QA: ~2.5% est. (Q1 2026 — verify at the National Planning Council https://www.npc.qa/, successor to the PSA; psa.gov.qa is egress-filtered)
 SA: ~2.0% est. (Q1 2026 — verify GASTAT https://www.stats.gov.sa)
 PE: ~2.5% est. (Q1 2026 — within BCRP 1-3% target; verify INEI https://www.inei.gob.pe)
 EC: ~1.5% est. (Q1 2026 — USD-dollarized low-CPI regime; verify INEC https://www.ecuadorencifras.gob.ec)
@@ -521,7 +521,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 ### Tier-4 (added 2026-05-01)
 
-**QA** — CPI ~2.5% est. (Q1 2026 — verify PSA https://www.psa.gov.qa); GDP ~1-2% (2025 est. — LNG-export driven, post-2022 World Cup base effect); QCB Lending Rate ~5.00% est. (Fed-bound via QAR/USD peg 3.64 since 2001 — verify https://www.qcb.gov.qa); 10y QAR not actively traded; USD eurobonds ~UST + 30-50 bps; AA-rated. Macro flag: **stable / pegged via USD**, hydrocarbon-buffered, Vision 2030 (QNV2030) infra-driven; LNG export competitiveness vs US/AU.
+**QA** — CPI ~2.5% est. (Q1 2026 — verify at the National Planning Council https://www.npc.qa/, successor to the PSA; psa.gov.qa is egress-filtered); GDP ~1-2% (2025 est. — LNG-export driven, post-2022 World Cup base effect); QCB Lending Rate ~5.00% est. (Fed-bound via QAR/USD peg 3.64 since 2001 — verify https://www.qcb.gov.qa); 10y QAR not actively traded; USD eurobonds ~UST + 30-50 bps; AA-rated. Macro flag: **stable / pegged via USD**, hydrocarbon-buffered, Vision 2030 (QNV2030) infra-driven; LNG export competitiveness vs US/AU.
 
 **SA** — CPI ~2.0% est. (Q1 2026 — verify GASTAT https://www.stats.gov.sa); GDP ~3-4% (2025 est. — non-oil sector growing under Vision 2030 mega-projects: NEOM, Diriyah, Red Sea, Riyadh expansion); SAMA Repo ~5.50% est. (Fed-bound via SAR/USD peg 3.75 since 1986 — verify https://www.sama.gov.sa); 10y SAR ~5%; USD eurobonds ~UST + 50-80 bps; A-rated. Macro flag: **stable / pegged via USD**, Vision 2030 mega-project capex driving Riyadh + Jeddah + Eastern Province; aridification + extreme heat (50°C+) infra-stress.
 

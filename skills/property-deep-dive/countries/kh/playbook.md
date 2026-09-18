@@ -628,7 +628,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | **Ministry of Labour and Vocational Training (MLVT)** | Work permit, foreign labour rules, minimum wage | `https://www.mlvt.gov.kh/` |
 | **Council for Development of Cambodia (CDC)** | QIP investment, SEZ, large-project approvals | `https://www.cdc.gov.kh/` |
 | **Ministry of Tourism** | Hotel / guesthouse / accommodation licensing | `https://www.tourismcambodia.org/` |
-| **Ministry of Environment (MoE)** | EIA, climate adaptation, environmental | `https://moeys.gov.kh` |
+| **Ministry of Environment (MoE)** | EIA, climate adaptation, environmental | `https://moe.gov.kh/` (apex refuses non-KH egress; the NCSD subtree `https://ncsd.moe.gov.kh/` answers) |
 | **MOWRAM (Water Resources & Meteorology)** | Flood, hydrology, weather | `https://www.mowram.gov.kh/` |
 | **Ministry of Public Works and Transport (MPWT)** | Road network, AADT | `https://www.mpwt.gov.kh/` |
 | **National Institute of Statistics (NIS)** | Population, CSES, housing module | `https://www.nis.gov.kh/` |
@@ -673,7 +673,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | Cambodia eVisa | `https://www.evisa.gov.kh/` |
 | Ministry of Labour and Vocational Training (MLVT) | `https://www.mlvt.gov.kh/` |
 | Ministry of Tourism | `https://www.tourismcambodia.org/` |
-| Ministry of Environment (MoE) | `https://moeys.gov.kh` |
+| Ministry of Environment (MoE) | `https://moe.gov.kh/` |
 | MOWRAM (water + meteorology) | `https://www.mowram.gov.kh/` |
 | Ministry of Public Works and Transport (MPWT) | `https://www.mpwt.gov.kh/` |
 | National Institute of Statistics (NIS) | `https://www.nis.gov.kh/` |

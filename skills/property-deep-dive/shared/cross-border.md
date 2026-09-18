@@ -59,7 +59,7 @@ This section flags exposure. It does NOT compute liability. Engage cross-border 
 - Deregistering from the origin civil / tax / social-security registers
 
 **Confidence**: HIGH (framework references)
-**Last verified**: <YYYY-MM-DD> (UK QROPS overseas-transfer-charge liability and relevant period corrected 2026-09-18 per HMRC PTM102200)
+**Last verified**: <YYYY-MM-DD>
 **Sources**: <OECD MTC + EU directives + treaty register URLs>
 ```
 
@@ -333,7 +333,7 @@ Pairs naturally with `--home-tax` (computes the buyer-side numbers), `--visa` (w
 ## Status
 
 **Confidence**: HIGH (framework references — OECD MTC + EU directives + national authority links)
-**Last verified**: 2026-05-14
+**Last verified**: 2026-05-14 (UK QROPS overseas-transfer-charge liability and relevant period corrected 2026-09-18 per HMRC PTM102200)
 **Maintenance cadence**: review on OECD MTC update (next expected 2027 cycle), MLI matching-database refresh (continuous), or EU directive amendment affecting Dir 2004/38/EC, Reg 883/2004, or AFMP (rare; calendar-actionable when published).
 **Out of scope by design**: per-country-pair tie-breaker outcomes; per-country corporate-tax rates; per-pair POEM verdicts; specific exit-tax computations. These are professional-advisor work — see § Mandatory professional-advisor call-out.
 

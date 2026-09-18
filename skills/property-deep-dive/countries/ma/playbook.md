@@ -185,7 +185,7 @@ Source: aggregated from Mubawab + Sarouty + agency listings, Q1–Q2 2025. For *
 |---|---|---|
 | **Droits d'enregistrement** (registration duty) | **4 %** standard residential; **3 %** for first acquisition of social housing under conditions; **5 %** for terrains nus ou comportant des constructions destinées à être démolies (CGI art. 133-I-B, LdF 2024); **0 %** for VEFA primary residence under specific Loi de finances incentives | DGI — Code Général des Impôts art. 133 (2026-05-27 verified, source CGI 2024 PDF + AMDIE + sfm.ma LdF 2024 dispositions; verify at `https://www.tax.gov.ma`) |
 | **Conservation foncière (taxe de la conservation foncière)** | **1.5 %** of price + **150 MAD** fixed certificate fee | ANCFCC tariff (`https://www.ancfcc.gov.ma`) |
-| **Notaire (notarial fees)** | **0.5–1.0 %** of price + **20 % VAT (TVA)** on the fee | Free-market within barème indicatif of the Ordre National des Notaires |
+| **Notaire (notarial fees)** | **0.5–1.0 %** of price + **20 % VAT (TVA)** on the fee | `est.` — **no fee barème is published by the CNONM**; Moroccan notary fees are set by decree — verify in the Bulletin Officiel via the [SGG](https://www.sgg.gov.ma/) |
 | **Timbre (stamp duty on the deed)** | ~20 MAD per page + small fixed amounts | Code de l'enregistrement |
 | **Honoraires d'agent immobilier** | **2.5 %** of price + **20 % TVA** typical (negotiable; sometimes split 50/50 buyer/seller, sometimes seller pays) | Market practice |
 | **Total transaction cost (buyer side)** | **~6.5–8 %** of price | Sum of above |
@@ -629,4 +629,4 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: Foreign buyer eligibility (4-regime decision tree + Office des Changes mechanics), pricing, traffic, tax, rental, work, risks, mains all have primary government sources or transparent estimates with calibration.
 **Confidence**: HIGH for the title/regime framework + tax base rates + ANCFCC/Office des Changes process (all primary state agencies, multi-source). MEDIUM for short-let regulation (fragmented, in transition, enforcement uneven) and price benchmarks (listing-derived est. ranges, not transaction-data-grade). LOW only for the agricultural-land Vivendi authorisation specifics (case-by-case, no published criteria).
-**Last verified**: 2026-05-27 (validation sweep — droit d'enregistrement terrains nus 5% (CGI art. 133-I-B, LdF 2024); TPI primary-residence exemption 5 yrs + 4M MAD ceiling; IGOC 2026 in force 1 Jan 2026; CFC corporate-tax rate, notary chamber name and basin-agency count corrected 2026-09-18 per CGI 2026 + notaires.org.ma + ABHSHOD)
+**Last verified**: 2026-05-27 (validation sweep — droit d'enregistrement terrains nus 5% (CGI art. 133-I-B, LdF 2024); TPI primary-residence exemption 5 yrs + 4M MAD ceiling; IGOC 2026 in force 1 Jan 2026; CFC corporate-tax rate and basin-agency count corrected 2026-09-18 per CGI 2026 + ABHSHOD)

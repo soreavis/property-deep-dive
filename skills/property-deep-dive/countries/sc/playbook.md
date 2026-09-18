@@ -610,7 +610,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 | **Public Utilities Corporation (PUC)** | Water + sewerage + electricity — `https://www.puc.sc/` |
 | **Immigration and Civil Status Department (ICS)** | Residence Permit + GOP — `https://www.ics.gov.sc/` |
 | **Seychelles Licensing Authority (SLA)** | Tourism establishment licensing — `https://www.sla.gov.sc/` (verify URL) |
-| **Seychelles Tourism Board (STB)** | Tourism establishment registration |
+| **Tourism Department** | Accommodation standards, star classification, licence recommendation to the SLA — `https://tourism.gov.sc/` |
 | **Central Bank of Seychelles (CBS)** | Monetary + FX + financial-stability — `https://www.cbs.sc/` |
 | **National Bureau of Statistics (NBS)** | Population, CPI, crime stats — `https://www.nbs.gov.sc/` |
 | **Disaster Risk Management Department (DRMD)** | Hazard history, DRR coordination — `https://www.drmd.sc/` |

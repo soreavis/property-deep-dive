@@ -34,7 +34,7 @@ ISO2: `cn`. Status: ✅ Fully populated (researched 2026-05).
   - **Z visa / Work Residence Permit (居留许可)** — for employed foreigners; renewed with employer; counts toward 1-year 171号文 residence
   - **X visa** (X1 long-term study, X2 short-term) — student stay; X1 holders eligible for 171号文 1-year rule
   - **Q1 / Q2 / S1 / S2 visas** — family reunion; long-term spouse / dependant of citizens or PRs counts toward 1-year residence
-  - **R visa** — high-talent (科技人才 / "Foreign High-End Talent" A-class); fast-tracked; no statutory threshold but minimum salary, qualification, or innovation criteria via [国家外国专家局 / SAFEA / 科技部](http://www.most.gov.cn/)
+  - **R visa** — high-talent (科技人才 / "Foreign High-End Talent" A-class); fast-tracked; no statutory threshold but minimum salary, qualification, or innovation criteria via [科技部 (MOST)](http://www.most.gov.cn/) — the 国家外国专家局 / SAFEA nameplate is retained externally but SAFEA ceased to be a standalone body in the 2018 State Council reorganisation, and work-permit processing moved to MOHRSS at [12333.gov.cn](https://www.12333.gov.cn/) on 3 Jun 2024
   - **Permanent Residence (永久居留, "Chinese Green Card", 中国绿卡)** — administered by **国家移民管理局 (NIA, National Immigration Administration)** via `https://www.nia.gov.cn/`; eligibility tracks (investment ≥ US$500K continuous 3 yrs in encouraged sectors; key R&D / talent; family reunion; 4-yr work + tax-payment in China). Total grants since 1985 estimated at < 30,000 individuals through 2024 — extremely selective in absolute terms
   - PR holders: roughly equivalent to citizens for property purchase (no 1-year rule; may purchase multiple properties subject to local restrictions)
 

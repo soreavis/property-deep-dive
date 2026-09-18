@@ -434,7 +434,7 @@ What residents do pay annually:
 | **Service charge clearance certificate (Mollak)** | Dubai — confirms no outstanding fees | Mollak via OA |
 | **Affection Plan** | Cadastral plot info | Dubai Municipality / equivalent |
 | **Building Completion Certificate** (off-plan completion) | Project legally complete | Master developer |
-| **Fire NOC / Civil Defence certificate** | Cladding + fire compliance | UAE Civil Defence |
+| **Fire NOC / Civil Defence certificate** | Cladding + fire compliance | Dubai Civil Defence / MoI General Command of Civil Defence |
 | **DEWA / ADDC clearance** | No outstanding utility bills | DEWA / ADDC |
 
 (Note: The UAE has no mandatory energy performance certificate equivalent for resale yet; sustainability ratings exist for new builds (DM Green Building, Estidama Pearl) but are not retroactive.)
@@ -575,7 +575,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | **Dubai Police** | Off-plan / real estate fraud reports |
 | **DIFC Wills Service Centre** | Non-Muslim wills (Dubai/UAE assets) |
 | **ADGM Wills Service** | Non-Muslim wills (Abu Dhabi-anchored) |
-| **UAE Civil Defence** | Fire NOC, cladding compliance |
+| **Dubai Civil Defence / MoI General Command of Civil Defence** | Fire NOC, cladding compliance |
 | **Dubai Municipality** | Makani address, building permits, drainage history |
 
 ## Quirks to know

@@ -18,7 +18,7 @@ ISO2: `lc`. Status: ✅ Fully populated (researched 2026-05-28).
 - **Recent reforms (12-month watchlist)**:
   - **CBI real-estate minimum raised to US$300,000** (from US$200,000) effective **1 July 2024** under the **OECS Memorandum of Agreement (MoA)** harmonising a common pricing floor across the five OECS CBI nations (St Lucia, Antigua & Barbuda, Dominica, Grenada, St Kitts & Nevis) ([CIU pricing page](https://www.cipsaintlucia.com/citizenship-by-investment)).
   - **CCJ accession (20 July 2023)** — final appellate court switched from the UK Privy Council to the Caribbean Court of Justice. **No effect on property *substantive* law**, but the court of last resort for any title dispute is now the CCJ.
-  - **Act No. 2 of 2025 — Security Interest in Movable Property (Amendment) Act** narrows the Security Interest in Movable Property Act's stamp-duty exemption so that it **EXCLUDES immovable property** ([Saint Lucia National Printing Corporation — Acts of 2025](https://npc.govt.lc/laws/acts/2025) — primary; 2026-09-18 verified — verify the current text of the Act itself with IRD).
+  - **Act No. 2 of 2025 — Security Interest in Movable Property (Amendment) Act** is listed in Saint Lucia's own law repository ([Saint Lucia National Printing Corporation — Acts of 2025](https://npc.govt.lc/laws/acts/2025) — **index title only; the Act text was not read**; 2026-09-18 verified). The reported effect — that a stamp-duty exemption **EXCLUDES immovable property** — came from a since-withdrawn secondary tax alert and is **not yet primary-sourced**; read the Act PDF or verify with IRD before relying on any exemption claim.
 
 ---
 
@@ -181,7 +181,7 @@ A non-national buying ANY property outside an approved CBI project MUST obtain a
 | **Vendor — non-citizen / foreign national** | **flat 10%** |
 
 - ⚠️ The **flat 10% is a VENDOR-side stamp duty** levied when a foreigner **SELLS** — it is NOT a surcharge on a foreign buyer's 2%. A foreign buyer who later resells faces the **10% seller stamp duty** — build this into the exit/hold model.
-- ⚠️ **2025 development**: [Act No. 2 of 2025 — Security Interest in Movable Property (Amendment) Act](https://npc.govt.lc/laws/acts/2025) narrows the exemption so that a **stamp-duty exemption EXCLUDES immovable property** — read the Act text before relying on any exemption claim.
+- ⚠️ **2025 development**: [Act No. 2 of 2025 — Security Interest in Movable Property (Amendment) Act](https://npc.govt.lc/laws/acts/2025) narrows the exemption so that a **stamp-duty exemption EXCLUDES immovable property** (index title only — the Act's operative wording has not been read) — read the Act text before relying on any exemption claim.
 
 ### Annual property tax (VERIFIED, IRD)
 
@@ -649,7 +649,7 @@ As of 2026-05-28, the CIU "Approved Real Estate and Enterprise Projects" page li
 - **MEDIUM** for the **5-year real-estate-clause exact wording** (bond-route "five-year holding period" verbatim; RE clause per regulations — confirm at the CIU/Act).
 - **MEDIUM-LOW / aggregator** for the **ALHL fee schedule** (EC$5,400 + EC$5,000–50,000 band; Certificate of Eligibility $3,000/$10,000), **property prices** (listing-derived), **rental yields** (no public dataset), **insurance premiums** (no public benchmark), **building-code adoption version**, and **mortgage LTV/rate/tenor** — all flagged in-section as `verify`.
 - **UNVERIFIED** — **"no capital gains tax on property"** (widely cited; not confirmed against the IRD here) — flagged.
-**Last verified**: 2026-05-28 (2025 stamp-duty amendment source upgraded to primary 2026-09-18 per npc.govt.lc)
+**Last verified**: 2026-05-28 (2025 stamp-duty amendment instrument identified on npc.govt.lc 2026-09-18; the Act's operative wording remains unread)
 **Sources tier**: CIU + IRD + LUCELEC + UWI-SRC + ECCB + govt.lc/CCJ (primary); law-firm/realty/aggregator (ALHL fees, prices, yields, insurance) flagged ⚠️.
 
 ## Extension TODOs

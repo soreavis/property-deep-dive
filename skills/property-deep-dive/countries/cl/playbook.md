@@ -526,7 +526,7 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 | BCCh UF diaria | `https://www.bcentral.cl/inicio/-/asset_publisher/8Ki7yegxnFpW/content/uf-1` |
 | BCCh series indicadores (IRPV) | `https://si3.bcentral.cl/Indicadoressiete/secure/IndicadoresDiarios.aspx` |
 | INE IPV | `https://www.ine.gob.cl/estadisticas/economia/edificacion-y-vivienda/indice-de-precios-de-vivienda` |
-| MINVU Observatorio Habitacional | `https://centrodeestudios.minvu.gob.cl` |
+| MINVU — Centro de Estudios, Ciudad y Territorio (CECT) | `https://centrodeestudios.minvu.gob.cl` |
 | CChC indicadores | `https://cchc.cl/centro-de-informacion/indicadores` |
 | SENAPRED | `https://www.senapred.gob.cl/` |
 | SERNAGEOMIN | `https://www.sernageomin.cl/` |

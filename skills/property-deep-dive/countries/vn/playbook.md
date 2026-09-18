@@ -209,7 +209,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 ### Confidence
 
-**MEDIUM** — Ministry of Transport publishes AADT for national highways but coverage is patchy on provincial / urban roads; HCMC and Hanoi data is fragmented across departments. For most non-highway roads, OSM-class fallback is the realistic baseline.
+**MEDIUM** — Bộ Xây dựng (which absorbed the Ministry of Transport on 1 Mar 2025) publishes AADT for national highways but coverage is patchy on provincial / urban roads; HCMC and Hanoi data is fragmented across departments. For most non-highway roads, OSM-class fallback is the realistic baseline.
 
 ---
 
@@ -341,7 +341,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 ### Work permit & visa
 
-**Foreign nationals working in Vietnam require a work permit (Giấy phép lao động)** issued by the provincial Department of Labour (Sở Lao động - Thương binh và Xã hội) under MOLISA. Governed by the **Labour Code 2019 (Bộ luật Lao động 2019, Law No. 45/2019/QH14, effective 1 January 2021)** and **Decree 152/2020/ND-CP** (amended by Decree 70/2023/ND-CP).
+**Foreign nationals working in Vietnam require a work permit (Giấy phép lao động)** issued by the provincial Department of Labour (Sở Lao động - Thương binh và Xã hội), which sits under the **Ministry of Home Affairs (Bộ Nội vụ)** since 1 Mar 2025 (MOLISA's portfolio was dissolved into it). Governed by the **Labour Code 2019 (Bộ luật Lao động 2019, Law No. 45/2019/QH14, effective 1 January 2021)** and **Decree 152/2020/ND-CP** (amended by Decree 70/2023/ND-CP).
 
 Key requirements:
 1. Sponsoring Vietnamese employer (registered enterprise)
@@ -633,7 +633,7 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 | **Vietnam Immigration (Cục Quản lý Xuất nhập cảnh)** | Visa, eVisa, TRC, work permit immigration angle | `https://www.xuatnhapcanh.gov.vn/` and `https://evisa.xuatnhapcanh.gov.vn/` |
 | **Ministry of Home Affairs (Bộ Nội vụ — absorbed MOLISA's labour portfolio, 1 Mar 2025)** | Work permit, foreign labour rules — current instrument **Nghị định 219/2025/NĐ-CP**, signed and in force **7 Aug 2025** (2026-09-18 verified) | `https://moha.gov.vn/` |
 | **Provincial Sở Cảnh sát PCCC (Fire Police)** | Fire safety inspection certificate | per province |
-| **Vietnam Environment Administration (VEA)** | Air & water quality | `https://vea.mae.gov.vn/` |
+| **Cục Môi trường / Department of Environment, MAE (formerly VEA)** | Air & water quality | `https://vea.mae.gov.vn/` |
 | **National Centre for Hydro-Meteorological Forecasting (NCHMF)** | Typhoon, monsoon, climate | `https://nchmf.gov.vn/` |
 | **Vietnam Disaster Management Authority** under MARD | Flood / hazard / disaster history | `https://phongchongthientai.mard.gov.vn/` |
 | **General Statistics Office (GSO)** | Population, CPI, real-estate index, urban housing | `https://www.nso.gov.vn/en/homepage/` |

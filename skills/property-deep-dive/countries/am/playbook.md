@@ -997,7 +997,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 | **Hydromet Service** | Flood + climate baseline data |
 | **NSSP (National Survey for Seismic Protection)** | Seismic microzoning + parcel-level applicability |
 | **Geological Survey** | Landslide + geological hazard data |
-| **Ministry of Emergency Situations** | Emergency response, hazard maps |
+| **Ministry of Internal Affairs — Rescue Service** | Emergency response, hazard maps |
 | **Police of Armenia** | Crime statistics, parcel-level precinct summary |
 
 ## Quirks to know

@@ -512,7 +512,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 | Legal database | [logir.fo](https://logir.fo/) | Government legal portal |
 | Listings (main) | [bugv.fo](https://bugv.fo/en) | private |
 | Tourism board | [visitfaroeislands.com](https://www.visitfaroeislands.com/) | Visit Faroe Islands |
-| Police | [logreglan.fo](https://politi.fo/) | Faroese Police |
+| Police | [Føroya Politi](https://politi.fo/) | Faroese Police |
 | Nordic tax portal | [nordisketax.net/faroe-islands](https://nordisketax.net/pages/en-GB/faroe-islands/) | Nordic Council |
 | Info Norden | [norden.org/info-norden/tax-faroe-islands](https://www.norden.org/en/info-norden/tax-faroe-islands) | Nordic Council |
 
@@ -521,7 +521,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 ## Listing platforms summary
 
 - **bugv.fo** — primary; EN UI available
-- **skyn.fo, meklarin.fo, betri-fastogn.fo** — agency portals
+- **skyn.fo, meklarin.fo, betriheim.fo** — agency portals
 - **rightmove.co.uk/overseas-property/in-Faroe-Islands** — UK aggregator (sparse coverage)
 - **Off-market via family/neighbour networks** — significant share of village transactions
 

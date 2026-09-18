@@ -418,7 +418,7 @@ State-based, varies hugely:
 ✅ **Fully populated** (initially populated 2026-04-25).
 **Coverage check**: pricing (CoreLogic + ABS), traffic, tax (extreme state divergence), rental (state RTA), work, risks (bushfire + flood + cyclone + earthquake), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for CoreLogic Mar 2026 indices + foreign-buyer ban (1 Apr 2025 - 30 Jun 2029 confirmed — extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset) + foreign owner surcharges (NSW 9%, VIC 8%, QLD 8% confirmed) + VIC VRLT + Short-Stay Levy 7.5% + QLD Form 2 Seller Disclosure Statement (1 Aug 2025); MEDIUM for the FY2026-27 FIRB fee amounts (verify the current Schedule of Fees PDF on the FIRB fees page) and for market medians beyond the April 2026 Cotality print.
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; federal minimum wage basis corrected 2026-09-18 per FWC Annual Wage Review 2026 [2026] FWCFB 3500)
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; the federal-minimum-wage line was fully re-verified and re-stamped 2026-09-18 against the FWC Annual Wage Review 2026 decision [2026] FWCFB 3500 — the rest of the playbook keeps the 2026-07-03 date)
 
 ## Extension TODOs
 

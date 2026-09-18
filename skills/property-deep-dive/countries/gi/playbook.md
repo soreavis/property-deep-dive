@@ -274,7 +274,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 
 **Data sources**:
 - [Supreme Court of Gibraltar](https://www.gcs.gov.gi/) — civil registry
-- [Gibraltar Courts Service — List of Practitioners, Notaries, etc.](https://www.gcs.gov.gi/list-of-practitioners-notaries-etc) — "List of Barristers and Solicitors 2026" + "Public Notaries 2026"; Gibraltar has no separate licensed-conveyancer profession, so conveyancing is done by barristers/solicitors on that list. Representative body: [Law Council of Gibraltar](https://lawcouncil.gi/) (includes the Gibraltar Bar Council); regulator: [LSRA](https://lsra.gi/) (2026 data, source gcs.gov.gi; 2026-09-18 verified)
+- [Gibraltar Courts Service — List of Practitioners, Notaries, etc.](https://www.gcs.gov.gi/list-of-practitioners-notaries-etc) — "List of Barristers and Solicitors 2026" + "Public Notaries 2026"; the list covers barristers, solicitors and public notaries; no separate licensed-conveyancer register is published by the Courts Service or the Law Council. Representative body: [Law Council of Gibraltar](https://lawcouncil.gi/) (includes the Gibraltar Bar Council); regulator: [LSRA](https://lsra.gi/) (2026 data, source gcs.gov.gi; 2026-09-18 verified)
 
 **Process**:
 

@@ -1057,7 +1057,7 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 | Tap.az classifieds | `https://tap.az/elanlar/dasinmaz-emlak` |
 | Lalafo.az classifieds | `https://lalafo.az/azerbaijan/nedvizhimost` |
 | State Highway Agency | `https://aayda.gov.az/` |
-| Baku Transport Agency | `https://ayna.gov.az/` |
+| AYNA — Azərbaycan Yerüstü Nəqliyyat Agentliyi (ex-BNA) | `https://ayna.gov.az/` |
 | Baku Metropoliten | `https://metro.gov.az/` |
 | ASAN Visa (e-visa) | `https://evisa.gov.az/` |
 | YTP High Technology Park | `https://ytp.az/` |

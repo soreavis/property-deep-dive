@@ -77,7 +77,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Key term
 
-**TPDA (Tráfico Promedio Diario Anual)** = AADT-equivalent. Reported by MTOP for the *Red Vial Estatal* (E1–E50 corridors) + by GAD Provincial for *vías secundarias*.
+**TPDA (Tráfico Promedio Diario Anual)** = AADT-equivalent. Reported by MIT (ex-MTOP) for the *Red Vial Estatal* (E1–E50 corridors) — **the TPDA series is not published on the ministry's current site (2026-09-18); verify at MIT / SITOP** + by GAD Provincial for *vías secundarias*.
 
 ### Verdict bands
 
@@ -105,7 +105,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 |---|---|---|
 | **Alcabala** (municipal transfer tax) | **1 %** of escritura value | COOTAD art. 527-537; Municipio |
 | **Notario** | fixed **múltiplos de SBU** per value bracket (arancel notarial, Resolución 005-2023): 0.20 SBU ≤ $10k → 5.00 SBU at $1M, capped 20 SBU + 0.001 excedente — ~0.2–1 % effective (est.; overstates at high value, ~0.24 % at $1M) | [Consejo de la Judicatura — Notarías](https://www.funcionjudicial.gob.ec/) (verify arancel) |
-| **Registro de la Propiedad** | **0.2–0.5 %** of price (per cantón table) | DINARDAP / Registrador Cantonal |
+| **Registro de la Propiedad** | **0.2–0.5 %** of price (per cantón table) | DINARP / Registrador Cantonal |
 | **Lawyer (abogado patrocinador)** | 0.5–1.5 % typical | Private market |
 | **Total buyer-side closing cost** | **~2.5–4 %** of price | sum of above |
 
@@ -785,7 +785,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | **IESS** | Social-security registration |
 | **SGR + IGEPN + INAMHI + INOCAR** | Risk: seismic + volcanic + hydromet + tsunami |
 | **MIDUVI** | VIS/VIP certification + housing policy |
-| **DINARDAP** | Public-registry oversight |
+| **DINARP** | Public-registry oversight |
 | **SECOB / Comando Conjunto** | Border-Zone foreign-buyer authorization (50 km + Galápagos) |
 
 ## Source URL templates
@@ -828,11 +828,11 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (IVA 15% per Decreto Ejecutivo 198/2024 + Ley Orgánica Reforma Tributaria; CGT short-term test reduced 5y → 1y; Visa de Inversionista USD 47,000 (100×SBU 470); USD-dollarised currency since 2000; SRI tax-residency tests; Visa 10-II + Visa 11-VI investor / pensionado routes). MEDIUM on parcel-level municipal predial assessment values, current blackout duration (national hydropower-deficit-driven, oscillating 8–14 hr through 2025–2026 dry seasons — verify with CENACE at point of analysis), and STR municipal-level rules (no national statute; Quito + Cuenca + Galápagos varying). LOW on residential price benchmarks (no national HPI; aggregator listings + Numbeo + Properstar with broker bias).
 
-**Last verified**: 2026-08-08 (crime + security section only — armed-conflict decree corrected to DE 111 of 9 Jan 2024 against Suplemento al Registro Oficial No. 474, DE 218 of 7 Apr 2024 added as the post-April basis, homicide series re-based to the 2025 peak; balance of the 2026-05-27 pass unchanged); NDC target corrected 2026-09-18 per MAATE/RNCC — Second NDC 2026–2035 supersedes the 2019 first NDC (registry and infrastructure-ministry names corrected 2026-09-18 per gob.ec/dinarp + mit.gob.ec)
+**Last verified**: 2026-08-08 (crime + security section only — armed-conflict decree corrected to DE 111 of 9 Jan 2024 against Suplemento al Registro Oficial No. 474, DE 218 of 7 Apr 2024 added as the post-April basis, homicide series re-based to the 2025 peak; balance of the 2026-05-27 pass unchanged); NDC target corrected 2026-09-18 per MAATE/RNCC — Second NDC 2026–2035 supersedes the 2019 first NDC (registry name corrected 2026-09-18 per gob.ec/dinarp)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Locked-in via primary government sources: foreign-buyer constitutional equality (Constitución 2008 art. 405-406 + Border-Zone 50 km SECOB authorization), USD dollarization since 9 Sep 2000 (Ley para la Transformación Económica del Ecuador, BCE confirmation), IVA 15 % since 1 Apr 2024 (Decreto Ejecutivo 198/2024 + Ley Orgánica para Enfrentar el Conflicto Armado Interno, SRI confirmation — *headline rate has been politically contested; track 2026 budget cycle for potential revert*), Alcabala 1 % + COOTAD predial 0.25–5 ‰ bands (COOTAD art. 504-561 BOE), 0 % CGT after 1-year hold (LRTI art. 8 + reglamento, as amended by Ley Orgánica Reforma Tributaria), ISD 5 % outbound (Ley Reformatoria para la Equidad Tributaria 2007), Visa de Inversionista 100×SBU (= USD 47,000 at 2026 SBU 470/mo) + Rentista USD 1,500/mo (Ley Orgánica de Movilidad Humana 2017 + reglamento — *verify current SBU multiple at Cancillería*), NEC-15 seismic code mandatory (MIDUVI), MINTUR Catastro Turístico STR licensing under Decreto 1411/2020 + Decreto 803/2023, Decreto Ejecutivo 110/2024 internal-armed-conflict declaration (Min Interior). Galápagos LOREG and parish-level Catastro Municipal split confirmed via DINARDAP framework. **Re-verify each annual fiscal cycle** for IVA rate, SBU adjustment (Dec decreto MoT), Alcabala-per-cantón ordenanzas, predial bands per Municipio, and Border-Zone perimeter updates. **Watch list 2026**: Noboa fiscal reform package + Asamblea ratification; potential IVA 15 → 12 revert vs sustained 15 % (already at peak; further escalation politically improbable); Decreto 110 internal-armed-conflict periodic renewal + security-situation evolution per cantón; 2025 election outcome regulatory continuity; Cotopaxi volcanic activity + IGEPN alert level; Galápagos LOREG residency-and-property reforms; power-grid generation status (CENACE) post-drought; ISD rate calibration (historic 0–5 % oscillation).
+**Notes**: Locked-in via primary government sources: foreign-buyer constitutional equality (Constitución 2008 art. 405-406 + Border-Zone 50 km SECOB authorization), USD dollarization since 9 Sep 2000 (Ley para la Transformación Económica del Ecuador, BCE confirmation), IVA 15 % since 1 Apr 2024 (Decreto Ejecutivo 198/2024 + Ley Orgánica para Enfrentar el Conflicto Armado Interno, SRI confirmation — *headline rate has been politically contested; track 2026 budget cycle for potential revert*), Alcabala 1 % + COOTAD predial 0.25–5 ‰ bands (COOTAD art. 504-561 BOE), 0 % CGT after 1-year hold (LRTI art. 8 + reglamento, as amended by Ley Orgánica Reforma Tributaria), ISD 5 % outbound (Ley Reformatoria para la Equidad Tributaria 2007), Visa de Inversionista 100×SBU (= USD 47,000 at 2026 SBU 470/mo) + Rentista USD 1,500/mo (Ley Orgánica de Movilidad Humana 2017 + reglamento — *verify current SBU multiple at Cancillería*), NEC-15 seismic code mandatory (MIDUVI), MINTUR Catastro Turístico STR licensing under Decreto 1411/2020 + Decreto 803/2023, Decreto Ejecutivo 110/2024 internal-armed-conflict declaration (Min Interior). Galápagos LOREG and parish-level Catastro Municipal split confirmed via the DINARP (ex-DINARDAP) framework. **Re-verify each annual fiscal cycle** for IVA rate, SBU adjustment (Dec decreto MoT), Alcabala-per-cantón ordenanzas, predial bands per Municipio, and Border-Zone perimeter updates. **Watch list 2026**: Noboa fiscal reform package + Asamblea ratification; potential IVA 15 → 12 revert vs sustained 15 % (already at peak; further escalation politically improbable); Decreto 110 internal-armed-conflict periodic renewal + security-situation evolution per cantón; 2025 election outcome regulatory continuity; Cotopaxi volcanic activity + IGEPN alert level; Galápagos LOREG residency-and-property reforms; power-grid generation status (CENACE) post-drought; ISD rate calibration (historic 0–5 % oscillation).
 
 ## Extension TODOs (deepen on first real run)
 

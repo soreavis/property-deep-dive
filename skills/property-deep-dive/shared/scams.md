@@ -44,7 +44,7 @@ For the property's country, surface the highest-evidence buyer-side scam pattern
 5. For foreign-restricted zones: pre-clear eligibility with the relevant authority before signing
 
 **Sources**: <URLs>
-**Last verified**: 2026-05-08 (AG Landfolio public-search claim corrected 2026-09-18 per legalaffairs.gov.ag)
+**Last verified**: 2026-05-08
 ```
 
 ## Cross-cutting traps to surface every time
@@ -251,4 +251,4 @@ These five mitigations work across all 126 countries and prevent ~80% of documen
 
 **Confidence**: HIGH for actively-prosecuted regions (US, CA, AU, NZ, UK, GR, CY, MT, ZA, NG, KE, GH, JP, KR, HK, SG, TH, MY, ID, VN, PH, IN, CN, KH, MX, BR, AR, CR, PA, CO, CL, DO, PE, JM, BS, TR, IL, AE, MA, EG, LB, SA, QA, RU-via-CIS-effects, FR, IT, ES, PT, DE, AT, NL, BE, IE, SE, NO, DK, FI, IS, PL, HU, RO, BG, HR, RS, ME, BA, MK, AL, MD, LV, LT, MV, AZ, GE, UZ, RW). MEDIUM for less-documented (CH, LU, SI, EE, CZ, SK, UY, EC, PY, BB, BZ, JO, OM, BH, KW, TN, TW, MO, LK, KZ, AM, MU, CV, SC, KY, BM, TC, VG, KN, AG, LC, GD). LOW for opaque microstates (LI, MC, AD, SM) — surfaced as "no public retail-fraud cases — DD warranted given <gate>; generic wire-fraud + opacity risks remain".
 
-**Last verified**: 2026-05-08
+**Last verified**: 2026-05-08 (AG Landfolio public-search claim corrected 2026-09-18 per legalaffairs.gov.ag)

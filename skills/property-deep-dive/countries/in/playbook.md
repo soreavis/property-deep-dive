@@ -911,7 +911,7 @@ Mitigants:
 7. **Title insurance** (optional but recommended for premium transactions): HDFC ERGO, Tata AIG, ICICI Lombard
 8. **Two independent advocates** (vendor + purchaser, never shared) — Bar Council standards favour separation
 
-⚠️ **DILRMP digitisation since 2008** — Karnataka (Bhoomi RTC) + Maharashtra (MahaBhulekh) + Telangana (Dharani) + AP (MeeBhoomi) + TN (Patta Chitta) + Kerala (e-Rekha) + Delhi DORIS lead the digitisation; **digital records are the gold standard going forward**, but legacy paper records still dominate sub-rural districts; verify both digital + paper records.
+⚠️ **DILRMP digitisation since 2008** — Karnataka (Bhoomi RTC) + Maharashtra (MahaBhulekh) + Telangana (Bhu Bharati, ex-Dharani) + AP (MeeBhoomi) + TN (Patta Chitta) + Kerala (e-Rekha) + Delhi DORIS lead the digitisation; **digital records are the gold standard going forward**, but legacy paper records still dominate sub-rural districts; verify both digital + paper records.
 
 ---
 
@@ -1415,7 +1415,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (non-fossil capacity + share corrected 2026-09-18 per MNRE physical-progress + Ministry of Power PIB; validation sweep — adverse possession Limitation Act 1963 Art. 65/112 + s.27 added to Caveats; FEMA 21 §6 8-list vs Press Note 3 7-list disambiguated; FEMA 21(R)/2018-RB lead-warning corrected; Telangana land-records statute corrected 2026-09-18 per Telangana Gazette Act 1 of 2025)
+**Last verified**: 2026-05-27 (non-fossil capacity + share corrected 2026-09-18 per MNRE physical-progress + Ministry of Power PIB; validation sweep — adverse possession Limitation Act 1963 Art. 65/112 + s.27 added to Caveats; FEMA 21 §6 8-list vs Press Note 3 7-list disambiguated; FEMA 21(R)/2018-RB lead-warning corrected)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

@@ -327,7 +327,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **VAT (מע"מ)**: 18% (effective 1 January 2025, raised from 17%; verify at `https://www.gov.il/he/departments/topics/vat_information`). Applies to **new-build sales by developers**, not to second-hand sales between individuals. New-build advertised prices may include or exclude VAT — clarify per listing.
 - **Heitel Hashbacha (היטל השבחה / betterment levy)**: 50% of the valuation uplift from a planning-permission upgrade (rezoning, density increase). **Seller pays** at sale. Verify with municipality whether any TBA (תב"ע) plan affects the parcel.
 - **Mas Mechira (מס מכירה)**: ABOLISHED 1 August 2007 for individuals (still applies in some corporate contexts; check with Tax Authority).
-- **Tabu registration fee**: variable, modest (typically ILS 1,500–3,000 for a standard apartment registration). Source: Land Registry fee schedule `https://www.gov.il/he/service/land_registration_extract`.
+- **Tabu registration fee**: variable, modest — `est.` ILS 1,500–3,000 for a standard apartment registration, **uncited**: the Land Registry service page `https://www.gov.il/he/service/land_registration_extract` states no registration-fee range, and tariffs were re-indexed with effect 1 Jan 2026 under הודעת המקרקעין (אגרות), התשפ"ו-2025 — verify the current amount at the Israeli government payments site / the Authority for Land Registration and Settlement of Rights (2026-09-18).
 - **RMI consent / capitalization fee** (if state-leased): variable; ranges from negligible (pre-paid lease) to several percent of land value (Heskem Hadash conversion).
 - **Buyer attorney**: 0.5–2.0% + VAT (18%) typical; standardized minimum fees published by Israel Bar Association `https://www.israelbar.org.il/`.
 - **Real estate broker (תיווך)**: typical 2% + VAT each side (buyer + seller pay 2% each); regulated under the Real Estate Brokers Law 5756-1996 — broker must be licensed (`רישיון מתווך`).
@@ -451,7 +451,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 ### Flood / wadi / flash-flood risk
 
-- **Coastal cities**: storm-surge + drainage flooding (Tel Aviv, Bat Yam, Netanya periodically). Verify flood-zone status with municipality and Hydrological Service.
+- **Coastal cities**: storm-surge + drainage flooding (Tel Aviv, Bat Yam, Netanya periodically). Verify flood-zone status with municipality and the Israel Water Authority.
 - **Negev / Arava / Dead Sea**: arid, but **flash floods** (`שיטפון`) in wadis after rare heavy rain — extremely dangerous; check wadi-channel proximity before buying rural southern property.
 - **Galilee / Northern**: winter rain + steep terrain → localized flooding; routine engineering controls.
 
@@ -539,8 +539,8 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 | Buyer attorney (סדר רכישה) | 0.5–2.0% of price + VAT (18%) |
 | Real-estate broker (תיווך) | 2% + VAT (each side) |
 | Licensed appraiser (שמאי מקרקעין) | 3,000–8,000 |
-| Tabu registration fee | 1,500–3,000 |
-| Nesach Tabu (online abstract) | 11 |
+| Tabu registration fee | `est.` 1,500–3,000 — uncited; fee range not published (verify) |
+| Nesach Tabu (online abstract) | fee not published on the authority's page — verify at the government payments site |
 | RMI lease extract / consent | 200–2,000 (varies) |
 | Heskem Hadash conversion (capitalization) | varies — % of land value (verify per parcel) |
 | **Mas Rechisha (foreign buyer)** | 8–10% of purchase price |
@@ -615,7 +615,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 | **CBS (Central Bureau of Statistics)** | Dwelling price index, rental index, neighborhood statistics |
 | **Home Front Command (פיקוד העורף)** | Missile-zone designation, Mamad requirements |
 | **Geological Survey of Israel** | Earthquake hazard, fault proximity |
-| **Hydrological Service** | Flood / wadi-flood zoning |
+| **Israel Water Authority (רשות המים)** | Flood / wadi-flood zoning |
 | **Misrad HaKlita / Aliyah** | Olim status verification + benefits |
 | **Israeli Bar Association (לשכת עורכי הדין)** | Verify attorney licensure |
 | **Israel Real Estate Brokers Federation** | Verify broker licensure under Real Estate Brokers Law 5756-1996 |

@@ -451,7 +451,7 @@ The Bahamas is **not a primary local-employment destination** for most foreign b
 ### Flood / storm surge
 
 - **Coastal storm surge** is the catastrophic mechanism — Dorian's 23-ft surge devastated Marsh Harbour, Treasure Cay, Hope Town. Verify **elevation above mean sea level** + **distance from shoreline**.
-- **Flood maps**: **NEMA + Department of Lands and Surveys** maintain disaster-risk-management mapping; coverage uneven; **no FEMA-equivalent parcel-level flood-zone web viewer**. Verification path: request DLS / NEMA per-parcel review OR engage local engineering surveyor.
+- **Flood maps**: **Disaster Risk Management (DRM) Authority (successor to NEMA) + Department of Lands and Surveys** maintain disaster-risk-management mapping; coverage uneven; **no FEMA-equivalent parcel-level flood-zone web viewer**. Verification path: request DLS / DRM Authority per-parcel review OR engage local engineering surveyor.
 - **Sea-level rise (SLR)**: IPCC AR6 + **Climate Central Coastal Risk Screening Tool** (`https://coastal.climatecentral.org/`) — Bahamas is among the world's most SLR-exposed nations; **average elevation ~10 m AMSL**; large land areas < 5 m. By 2100 SSP5-8.5 (~+0.85 m SLR), material portions of Andros, Grand Bahama, Abaco, Inagua become flood-vulnerable.
 
 ### Seismic — LOW
@@ -653,7 +653,7 @@ Universal logic per `shared/climate-projections.md`. Bahamas-specific overrides:
 
 ### Confidence
 
-HIGH for IPCC AR6 + CCCCC regional projections; MEDIUM for parcel-level storm-surge specificity (NEMA / DLS coverage uneven).
+HIGH for IPCC AR6 + CCCCC regional projections; MEDIUM for parcel-level storm-surge specificity (DRM Authority / DLS coverage uneven).
 
 ---
 
@@ -824,7 +824,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 | **Central Bank of The Bahamas (CBOB)** | Exchange Control + mortgage prudential + currency |
 | **Bahamas National Statistical Institute (BNSI)** | Census + demographic + labour market |
 | **Bahamas Department of Meteorology** | Hurricane / climate baseline |
-| **National Emergency Management Agency (NEMA)** | Hurricane + flood mapping |
+| **Disaster Risk Management (DRM) Authority** (formerly NEMA) | Hurricane + flood mapping |
 | **Insurance Commission of The Bahamas (ICB)** | Insurance carrier registry + market |
 | **Royal Bahamas Police Force (RBPF)** | Crime statistics + safety |
 | **Ministry of Works** | Building Code + permits + Certificate of Occupancy |
@@ -873,7 +873,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 - **HIGH** for current EPR investment threshold post-2025 (B$1,000,000 standard eff. 1 Jan 2025 + 10-yr clawback; B$1,500,000+ accelerated cited 2024–2025; verify at BIA) (2026-05-27 verified).
 - **MEDIUM** for 2025–2026 USD/m² benchmarks — secondary aggregator data; cross-check live MLS Bahamas + 3+ comparables before relying.
 - **MEDIUM** for insurance pricing 0.4–1.5% — varies materially by island + wind zone + build year + carrier post-Dorian re-rating.
-- **LOW** for parcel-level flood-zone / storm-surge mapping in non-NEMA-priority areas — coverage uneven; verify per parcel via DLS / NEMA + engineering survey.
+- **LOW** for parcel-level flood-zone / storm-surge mapping in non-priority areas — coverage uneven; verify per parcel via DLS / DRM Authority + engineering survey.
 - **LOW** for traffic AADT — no public AADT portal; OSM + on-site observation is the practical method.
 **Last verified**: 2026-08-07 (--tax VAT sub-section only — 10% standard rate re-verified against DIR VAT Guidance on 2021 Amendments: a cut from 12% eff. 1 Jan 2022, still in force at the FY2026/27 Budget Communication of 27 May 2026, and applying to commercial rent + HOA/management fees per the DIR VAT FAQ) · 2026-05-27 (validation sweep — EPR B$1M eff. 1 Jan 2025 + 10-yr clawback; VAT-on-Conveyance flat 10% foreign / graduated BDR; 2025 VAT procedural reforms eff. 1 Jul 2025; IPLA B$250 registration / B$500 permit; RPT commercial 3-tier 0.75/1.0/1.5%; VAT history sequence corrected; disaster-management authority (DRM Authority) corrected 2026-09-18 per drm.gov.bs)
 
