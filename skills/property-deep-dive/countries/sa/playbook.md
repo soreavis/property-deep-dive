@@ -393,7 +393,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 - **26 Jan 2011 Jeddah floods**: 11 deaths; second major event prompting accelerated drainage investment
 - **2021–2022 events**: recurring flash flooding in Jeddah's southern districts (Quwaiza, Jameaa, Bany Malek)
 - **23 Jan 2023 Mecca floods**: significant flooding around haram area
-- **Reform**: SAR 23+ billion (USD 6.1B) Jeddah Stormwater Drainage Programme phased through 2030 ([Ministry of Municipal Affairs](https://www.momrah.gov.sa/)); Vision 2030 city-resilience pillar
+- **Reform**: SAR 23+ billion (USD 6.1B) Jeddah Stormwater Drainage Programme phased through 2030 ([Ministry of Municipalities and Housing — MOMAH](https://momah.gov.sa/)); Vision 2030 city-resilience pillar
 - **Implication for buyers**: low-elevation Jeddah districts + wadi-channel-adjacent Riyadh/Jeddah parcels carry persistent flood risk — verify drainage history with REGA + Civil Defence; demand floor-elevation evidence
 
 ### Build-quality / fire risk
@@ -1157,7 +1157,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Etmam (MOMAH developer platform) | `https://etmam.momah.gov.sa/` |
 | GASTAT (statistics) | `https://www.stats.gov.sa/` |
 | Ministry of Finance | `https://www.mof.gov.sa/` |
-| Ministry of Municipal Affairs (MOMRAH) | `https://www.momrah.gov.sa/` |
+| Ministry of Municipalities and Housing (MOMAH) | `https://momah.gov.sa/` |
 | Ministry of Tourism + Tourism.sa STR licensing (ex-Sahel) | `https://mt.gov.sa/` + `https://tourism.sa/` |
 | Ministry of Hajj and Umrah | `https://www.haj.gov.sa/` |
 | Royal Commission for Riyadh City | `https://www.rcrc.gov.sa/` |
