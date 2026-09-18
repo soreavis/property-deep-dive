@@ -101,6 +101,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(visa-programs): move the CN R Visa SAFEA correction into the config and re-render ([#407](https://github.com/soreavis/property-deep-dive/pull/407)) — by @soreavis
 
+- fix(source-audit): last AG Landfolio public-search residuals and MOMRAH→MOMAH in shared files ([#408](https://github.com/soreavis/property-deep-dive/pull/408)) — by @soreavis
+
 ## [2026.09.0] - 2026-09-17
 
 ### Fixed
