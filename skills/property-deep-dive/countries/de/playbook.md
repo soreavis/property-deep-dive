@@ -451,7 +451,7 @@ Since 23 Dec 2020 (Bestellerprinzip): typically split 50/50 between buyer + sell
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (Grundsteuerreform 2025 BFH-upheld, BVerfG complaint pending [Az. 1 BvR 472/26]; BORIS-D + BfG well-maintained). MEDIUM for short-let regulation (EU 2024/1028 transposed via KVDG [BGBl. 2026 I Nr. 138]; city-by-city registration rules still evolving).
 
-**Last verified**: 2026-09-18 (GModG in force 29 Jul 2026 applied — 65 % heating rule abolished, Biotreppe quota cited from BGBl. 2026 I Nr. 226; balance unchanged) · previously 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+**Last verified**: 2026-09-18 (GModG in force 29 Jul 2026 applied — 65 % heating rule abolished, § 43 biogenic-fuel quota (press label 'Biotreppe') cited from BGBl. 2026 I Nr. 226; balance unchanged) · previously 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 
 ## Extension TODOs
 
