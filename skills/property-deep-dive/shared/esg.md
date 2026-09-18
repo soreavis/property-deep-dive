@@ -116,7 +116,7 @@ EPC-style class distributions are not published by stat office for most non-EU r
 ### Active bans (Apr 2026)
 - **🇫🇷 FR**: Class G new tenancies banned **1 Jan 2025**; F banned **1 Jan 2028**; E banned **1 Jan 2034** (per Loi Climat-Résilience). **Audit énergétique** mandatory at sale for G (Apr 2023) + F (Apr 2025)
 - **🇳🇱 NL**: Office buildings min C since 2023; residential bans phasing through Wet betaalbare huur 2024
-- **🇩🇪 DE**: GEG mandatory upgrade triggers on inheritance/sale (replace oil/gas heater within 2 years if H is in fossil-fuel mode)
+- **🇩🇪 DE**: the GEG heater-replacement trigger on inheritance / sale was deleted with §§ 71–73 by the Gebäudemodernisierungsgesetz in force 29 Jul 2026 (BGBl. 2026 I Nr. 226); the surviving transfer-triggered duty is the § 69(3)/(4) Nachrüstung of heat-distribution and hot-water pipework — two years from the first ownership change after 1 Feb 2002 for one- and two-family houses the owner occupied on that date; new gas / oil heating instead carries the § 43 biogenic-fuel quota from 1 Jan 2029 (2026-09-18 verified)
 
 ### Coming bans (announced for 2026-2030)
 - **🇪🇸 ES**: Plan Nacional Vivienda includes worst-class restrictions from 2027 [verify]

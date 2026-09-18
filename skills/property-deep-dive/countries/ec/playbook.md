@@ -208,7 +208,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 | **IGEPN — Instituto Geofísico EPN** | [`https://www.igepn.edu.ec/`](https://www.igepn.edu.ec/) | Seismic + volcanic monitoring (1 of LATAM's best-equipped) |
 | **INAMHI — Instituto Nacional de Meteorología e Hidrología** | [`https://www.inamhi.gob.ec/`](https://www.inamhi.gob.ec/) | Hydromet, El Niño, flood forecasting |
 | **INOCAR — Instituto Oceanográfico de la Armada** | [`https://www.inocar.mil.ec/`](https://www.inocar.mil.ec/) | Tsunami warning Pacific + Galápagos |
-| **MAE / MAATE — Ministerio del Ambiente** | [`https://www.ambiente.gob.ec/`](https://www.ambiente.gob.ec/) | Wildfire, biodiversity, climate adaptation |
+| **MAE / MAATE — Ministerio del Ambiente** | [`https://rncc.ambiente.gob.ec/`](https://rncc.ambiente.gob.ec/) (❌ `www.ambiente.gob.ec` DEPRECATED — 301s to an unrelated agency) | Wildfire, biodiversity, climate adaptation |
 | **GAD Municipal — Plan de Uso y Gestión del Suelo (PUGS)** | per cantón | Hazard zoning at parcel level |
 
 ### Specific risks
@@ -653,7 +653,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 ### Climate-transition exposure
 
-- **NDC under Paris Agreement**: **Second NDC 2026–2035** now operative — unconditional **8,800 kt CO₂-eq (7 %)** + conditional **10,600 kt CO₂-eq (8 %)** with international support, USD 6.5 bn implementation budget (27 % unconditional / 73 % conditional) ([MAATE — RNCC](https://rncc.ambiente.gob.ec/rncc/news/segunda-contribucion-determinada-a-nivel-nacional-de-ecuador-2026-2035)) *(2026 data, source MAATE/RNCC; 2026-09-18 verified)*. First NDC (2019) target was 9 % unconditional / 20.9 % conditional by 2025 vs BAU (superseded). ❌ `ambiente.gob.ec` DEPRECATED — 301s to an unrelated agency; use the `rncc.ambiente.gob.ec` subdomain
+- **NDC under Paris Agreement**: **Second NDC 2026–2035** now operative — unconditional **8,800 kt CO₂-eq (7 %)** + conditional **10,600 kt CO₂-eq (8 %)** with international support, implementation budget and unconditional / conditional split not quoted from the RNCC page — verify there ([MAATE — RNCC](https://rncc.ambiente.gob.ec/rncc/news/segunda-contribucion-determinada-a-nivel-nacional-de-ecuador-2026-2035)) *(2026 data, source MAATE/RNCC; 2026-09-18 verified)*. First NDC (2019) target was 9 % unconditional / 20.9 % conditional by 2025 vs BAU (superseded; ⚠️ secondary sources — IEA policy database / Climate Analytics — not re-read on the RNCC page). ❌ `ambiente.gob.ec` DEPRECATED — 301s to an unrelated agency; use the `rncc.ambiente.gob.ec` subdomain
 - Power generation ~**85 % hydro** (high renewable share but hydrology-vulnerable; 2024 drought exposed grid fragility); thermal import contingency 2024–25
 - **Yasuní-ITT 2023 referendum**: Ecuadorians voted to halt Block 43 oil extraction — landmark climate-policy event; ongoing implementation
 - **Fuel subsidy phase-out**: gradual 2024–25 (Noboa government, IMF programme); diesel + gasoline subsidies historic political flashpoint (Oct 2019, Jun 2022 protests)
@@ -798,7 +798,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | SRI — Servicio de Rentas Internas | `https://www.sri.gob.ec/` |
 | MIDUVI — Hábitat y Vivienda | `https://www.habitatyvivienda.gob.ec/` |
 | MINTUR — Turismo | `https://www.turismo.gob.ec/` |
-| MAATE — Ambiente | `https://www.ambiente.gob.ec/` |
+| MAATE — Ambiente | `https://rncc.ambiente.gob.ec/` (❌ `www.ambiente.gob.ec` DEPRECATED) |
 | Cancillería — Movilidad Humana | `https://www.cancilleria.gob.ec/` |
 | Ministerio del Trabajo | `https://www.trabajo.gob.ec/` |
 | Ministerio del Interior | `https://www.ministeriodelinterior.gob.ec/` |
