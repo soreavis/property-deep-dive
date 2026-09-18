@@ -99,6 +99,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(source-audit): #404 content-defect backlog — 235 verified corrections, 41 tracker entries, two refuter rounds ([#406](https://github.com/soreavis/property-deep-dive/pull/406)) — by @soreavis
 
+- fix(visa-programs): move the CN R Visa SAFEA correction into the config and re-render ([#407](https://github.com/soreavis/property-deep-dive/pull/407)) — by @soreavis
+
 ## [2026.09.0] - 2026-09-17
 
 ### Fixed
