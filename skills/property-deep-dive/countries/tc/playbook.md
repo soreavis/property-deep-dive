@@ -372,11 +372,11 @@ The TCI property thesis is overwhelmingly **second-home / vacation-rental-invest
 
 | Operator | Coverage |
 |---|---|
-| **[Pelican Energy TCI](https://www.pelicanenergytci.com/)** (rebranded from **FortisTCI**, Sept 2025) | Monopoly electric utility across Provo, North/Middle/South/East Caicos + cays |
+| **[Pelican Energy TCI](https://www.pelicanenergytci.com/)** (successor brand to **FortisTCI** — the utility's own site carries no rebrand notice, so the **Sept 2025** date is unsourced; verify against the dated rebrand announcement) | Sole public electricity supplier — "Pelican Energy TCI is the public electricity supplier in Turks and Caicos, serving the islands of Providenciales, North Caicos, Middle Caicos, South Caicos, East Caicos, Grand Turk, Salt Cay, and adjacent Cays" (2026 data, source Pelican Energy TCI; 2026-09-18 verified) |
 | **[Energy & Utilities Department (EUD)](https://eud.gov.tc/)** | Electricity regulator |
 
 - ⚠️ **FortisTCI was acquired by Vision Ridge Partners and rebranded "Pelican Energy TCI" (Sept 2025).** Both names appear in current sources; the monopoly position + EUD regulation are unchanged.
-- **Tariff (Providenciales, Jan 2026, fortistci.com):** **~$0.45/kWh total** = **~$0.2910/kWh base "electric" + ~$0.1564/kWh "fuel factor"**. **High by Caribbean standards** — TCI runs a **diesel-generation island grid** and the fuel factor floats with oil prices (`regional ranking not verified to a primary tariff-comparison source`). (Source: [fortistci.com — electricity rates](https://www.pelicanenergytci.com/electricity-rates) — primary utility; magneticmedia / tcweeklynews on 2024 rate-revision request — secondary.)
+- **Tariff (Providenciales):** **data not publicly available as a standing rate table — verify at [Pelican Energy TCI — Customer Service](https://www.pelicanenergytci.com/customer-service/)**. The fuel factor is billed separately and moves with fuel cost — "The Fuel Factor rate on your electricity bill represents the cost of fuel purchased in a month to generate electricity" ([fuel-factor notices](https://www.pelicanenergytci.com/fuel-factor), published month by month; 2026-09-18 verified) — and TCI runs a **diesel-generation island grid**, so unit cost is high (`regional ranking not verified to a primary tariff-comparison source`). The previously carried **~$0.45/kWh total (~$0.2910 base + ~$0.1564 fuel factor, Jan 2026)** rested on the retired `fortistci.com` rate page and **has no live primary source** — read the current month's fuel-factor notice before relying on any figure.
 - **High power cost → strong economic case for solar/PV** on villas (verify net-metering / interconnection rules with EUD).
 
 ### Water — RO desalination (no natural freshwater)
@@ -674,7 +674,7 @@ HIGH for IPCC AR6 + CCCCC regional projections + Irma 2017 calibration; MEDIUM f
 - **LOW–MEDIUM** for $/sqft + median prices — **no government index**; all brokerage/secondary-aggregator (visittci, jarniascyril 2025); cross-check ≥ 3 live comparables.
 - **LOW** for rental-yield % (no government index — verify via licensed property manager), population (~46k estimate — verify at Dept of Statistics), and crime statistics (no granular public series — defer to RTCIPF / FCDO / OSAC).
 - **LOW** for PRC / residence-by-investment thresholds (not verified to primary — confirm at gov.tc Immigration).
-**Last verified**: 2026-05-28
+**Last verified**: 2026-05-28 (Pelican Energy TCI supplier scope corrected 2026-09-18 per pelicanenergytci.com)
 
 ## Extension TODOs
 

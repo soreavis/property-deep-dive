@@ -128,8 +128,8 @@ The **2017 FX liberalisation** package eliminated the prior central-bank-authori
 
 ### Primary sources
 
-- **Direção Nacional dos Transportes Rodoviários** under Ministério das Infraestruturas, Ordenamento do Território e Habitação — `https://mioth.gov.cv/`
-- **Instituto de Estradas de Cabo Verde (IECV)** — under the Ministry; manages national-road network. Publishes occasional **Recenseamento de Tráfego** counts on key inter-urban segments (most recent partial counts ~2018–2020; verify current).
+- **Ministério das Infraestruturas, Ordenamento do Território e Habitação (MIOTH)** — `https://mioth.gov.cv/`. A "Direção Nacional dos Transportes Rodoviários" is not named on the ministry's site — data not publicly available; verify the current road-transport directorate at MIOTH (2026-09-18 verified)
+- **Estradas de Cabo Verde, E.P.E. (ECV)** — under MIOTH; mandate "Desenvolver, manter e expandir a rede rodoviária nacional" (`https://home.estradas.cv`). Successor to the Instituto de Estradas de Cabo Verde (IECV). Traffic counts (**Recenseamento de Tráfego**) are not published on the current site — verify directly with ECV (2026 data, source home.estradas.cv; 2026-09-18 verified)
 - **Câmaras Municipais** for urban-road counts (rare; few municipalities publish granular AADT).
 - **OSM fallback** is the practical baseline for most of Cape Verde — government published traffic counts have very thin coverage outside Praia + Sal main routes.
 

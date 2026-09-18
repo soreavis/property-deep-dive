@@ -12,7 +12,7 @@ ISO2: `ag`. Status: ✅ Fully populated (researched 2026-05-28).
 - **Currency**: **East Caribbean Dollar (XCD / EC$)** — **pegged at EC$2.70 = US$1.00 since 1976**, administered by the **[Eastern Caribbean Central Bank (ECCB)](https://www.eccb-centralbank.org/)** across the OECS eight-member union (*peg widely cited; primary = ECCB — verify*). **USD is widely accepted** in tourism + CBI property transactions; high-end deals are typically **USD-quoted**.
 - **Languages**: **English (official, sole)** — all statutes, deeds, and contracts in English. Antiguan Creole is the everyday vernacular; legal/professional life is standard English.
 - **Legal system**: **English common law** + Antiguan statutes. Member state of the **[Eastern Caribbean Supreme Court (ECSC)](https://www.eccourts.org/)** — superior court of record for the OECS, comprising the **High Court** (resident High Court division sits in Antigua) + the itinerant **Court of Appeal**. **Final appeal is to the Judicial Committee of the Privy Council (JCPC, London)** — Antigua and Barbuda has NOT adopted the Caribbean Court of Justice (CCJ) as its final appellate court (AG, with GD, rejected CCJ accession in a 2018 referendum) (VERIFIED — audit-cbi.md, 2026-05-28).
-- **Conveyancing / land registry**: **Torrens-style registered title** under the **Registered Land Act, No. 17 of 1975** (brought all Antigua land — Crown + private — under registered ownership). System runs on **Landfolio** software (since 2004); public records searchable by parcel / instrument / owner / address / map at **[lands.gov.ag](https://legalaffairs.gov.ag/detail_page.php?page=landRegistry.php)** (Landfolio Public Access). Title registration also governed by the **[Title by Registration Act, CAP. 429](https://laws.gov.ag/wp-content/uploads/2018/08/cap-429.pdf)** *(2026-09-18 verified, source Laws of Antigua and Barbuda)*. The Land Registry sits under the **[Ministry of Justice & Legal Affairs](https://legalaffairs.gov.ag/)** (2026-09-18: `legalaffairs.gov.ag` serves HTTP 200 with a valid certificate — earlier TLS error cleared; `lands.gov.ag` Landfolio now times out — verify portal availability before relying on it).
+- **Conveyancing / land registry**: **Torrens-style registered title** under the **Registered Land Act, No. 17 of 1975** (brought all Antigua land — Crown + private — under registered ownership). System runs on **Landfolio** software (since 2004); **searches are conducted at the Land Registry Department — the Registry lists an online "Public Access Module" as a stated future aim, so no public parcel / instrument / owner / address / map search is available online** ([Ministry of Justice & Legal Affairs — Land Registry](https://legalaffairs.gov.ag/detail_page.php?page=landRegistry.php), 2026-09-18 verified). Title registration also governed by the **[Title by Registration Act, CAP. 429](https://laws.gov.ag/wp-content/uploads/2018/08/cap-429.pdf)** *(2026-09-18 verified, source Laws of Antigua and Barbuda)*. The Land Registry sits under the **[Ministry of Justice & Legal Affairs](https://legalaffairs.gov.ag/)** (2026-09-18: `legalaffairs.gov.ag` serves HTTP 200 with a valid certificate — earlier TLS error cleared; `lands.gov.ag` Landfolio now times out — verify portal availability before relying on it).
 - **Identifier**: **registered parcel / instrument number** under the Registered Land Act 1975 (Landfolio). No French-style numéro-de-parcelle universal cadastral ID, but Landfolio provides parcel-level lookup.
 - **Title concept**: **Freehold (fee simple)** dominant on Antigua (registered title). **Barbuda is a distinct regime** — historically **communal / common ownership** (no individual freehold), with post-Irma leasehold introduced; treat as a separate, contested system (see `--risks` + Caveats).
 - **Recent reforms (12-month watchlist)**:
@@ -75,7 +75,7 @@ This section determines whether a transaction is even legally possible — and w
 ### Verification path (before any reservation)
 
 1. **Decide the route** — CBI-approved development (US$300k+) vs open-market purchase requiring NCLHL.
-2. **Pull the registered title** via Landfolio at [lands.gov.ag](https://legalaffairs.gov.ag/detail_page.php?page=landRegistry.php) — confirm registered owner, no encumbrances, parcel/boundary match.
+2. **Instruct the attorney to pull the registered title** via Landfolio at the [Land Registry Department](https://legalaffairs.gov.ag/detail_page.php?page=landRegistry.php) — confirm registered owner, no encumbrances, parcel/boundary match.
 3. **NCLHL filing** (if non-CBI): property-specific application to Cabinet/Ministry; budget ~3–6 months + ~5% fee (*secondary — verify*).
 4. **Engage a local attorney** (de-facto mandatory) — the NCLHL package + AML source-of-funds is document-heavy.
 5. **IRD confirmation** — stamp duty (buyer 2.5% / seller 7.5% *secondary*) + annual property-tax account status.
@@ -87,7 +87,7 @@ This section determines whether a transaction is even legally possible — and w
 
 ### Primary sources
 
-- **[Land Registry / Landfolio Public Access](https://legalaffairs.gov.ag/detail_page.php?page=landRegistry.php)** — registered parcel + instrument lookup; NOT a market-price index.
+- **[Land Registry Department (Landfolio)](https://legalaffairs.gov.ag/detail_page.php?page=landRegistry.php)** — registered parcel + instrument lookup, in office; NOT a market-price index.
 - **No official residential house-price index exists for Antigua and Barbuda** — all market-price figures below are **SECONDARY** (listing aggregators / brokerages).
 - **[ECCB](https://www.eccb-centralbank.org/)** — currency-union financial aggregates; no parcel-level HPI.
 
@@ -632,7 +632,7 @@ Antigua and Barbuda operates one of the established Eastern Caribbean **Citizens
 |---|---|
 | **Citizenship by Investment Unit (CIU)** | CBI minimums, hold period, NDF/UWI/business thresholds, processing + DD fees |
 | **Ministry of Justice & Legal Affairs** | Land Registry; Non-Citizens Land Holding Regulation CAP. 293; statute text (TLS error noted 2026-05-28) |
-| **Land Registry / Landfolio Public Access** | Registered title search by parcel / owner / instrument |
+| **Land Registry Department (Landfolio)** | Registered title search by parcel / owner / instrument (in office) |
 | **Inland Revenue Department (IRD)** | Stamp duty, annual property tax, ABST, income-tax status, Land Value Appreciation Tax |
 | **Eastern Caribbean Supreme Court (ECSC)** | High Court (resident division Antigua) + Court of Appeal; JCPC final appeal |
 | **Eastern Caribbean Central Bank (ECCB)** | XCD peg (EC$2.70/US$1), currency-union prudential framework |
@@ -648,7 +648,7 @@ Antigua and Barbuda operates one of the established Eastern Caribbean **Citizens
 | Citizenship by Investment Unit (CIU) | `https://cip.gov.ag/` |
 | CIU — Real Estate option | `https://cip.gov.ag/real-estate/` |
 | Ministry of Justice & Legal Affairs (Land Registry; CAP. 293) | `https://legalaffairs.gov.ag/` |
-| Land Registry / Landfolio Public Access | `https://legalaffairs.gov.ag/detail_page.php?page=landRegistry.php` |
+| Land Registry Department (Landfolio) | `https://legalaffairs.gov.ag/detail_page.php?page=landRegistry.php` |
 | Laws of Antigua and Barbuda (Registered Land Act 1975; CAP. 293; CAP. 429) | `https://laws.gov.ag/` |
 | Government of Antigua & Barbuda portal (IRD / Ministry of Finance) | `https://ab.gov.ag/` |
 | Eastern Caribbean Supreme Court | `https://www.eccourts.org/` |

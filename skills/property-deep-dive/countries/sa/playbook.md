@@ -14,11 +14,11 @@ ISO2: `sa`. Status: ✅ Fully populated (researched 2026-05).
 - **Admin levels**: 1 Kingdom → **13 emirates (مناطق إدارية / Provinces)** → **118 governorates (محافظات)** → municipalities (بلديات) and districts (أحياء)
   - Major property markets: **Riyadh Province** (capital region — 8.7M pop), **Makkah Province** (Jeddah + Mecca + Taif), **Eastern Province** (Dammam + Khobar + Dhahran), **Madinah Province**, **Asir** (Abha)
 - **Cadastre**:
-  - **Real Estate General Authority (REGA — الهيئة العامة للعقار)**: `https://rega.gov.sa/` — sector regulator (since 2017 Royal Decree); operates the **Real Estate Pulse (نبض العقار)** transaction-data platform `https://rei.rega.gov.sa/en`
+  - **Real Estate General Authority (REGA — الهيئة العامة للعقار)**: `https://rega.gov.sa/` — sector regulator (since 2017 Royal Decree); operates the **Real Estate Indicators platform (مؤشرات العقار)** `https://rei.rega.gov.sa/en` — sales and rental transaction data plus a residential price index, sourced from the Ministry of Justice and the Real Estate Registry (2026-09-18 verified)
   - **Ministry of Justice (وزارة العدل)** — Notary Public (Kateb Adl — كاتب عدل) registers all property transfers; e-Notary system via [najiz.sa](https://www.najiz.sa/) (formerly Maweed)
-  - **Title Deed (Sakk Mulkiyya — صك ملكية)** issued under [Royal Decree M/9 of 26/03/1426 AH (2005 Gregorian) — Real Estate Registration Law](https://laws.moj.gov.sa/) — gradual rollout via **MOJ Real Estate Registry**
+  - **Title Deed (Sakk Mulkiyya — صك ملكية)** issued under the **Real Estate Registration Law (نظام التسجيل العيني للعقار) — [Royal Decree M/91 of 19/09/1443 AH](https://www.uqn.gov.sa/details?p=19421)**, gazetted in Umm Al-Qura 12/10/1443 AH (13 May 2022) and in force 90 days after publication; it replaced the earlier registration law issued by Royal Decree M/6 of 11/02/1423 AH and was itself amended by Royal Decree M/123 of 10/06/1447 AH — rollout is area-by-area through the **Real Estate Registry**, supervised by **REGA** (2026-09-18 verified, source Umm Al-Qura + [Bureau of Experts](https://laws.boe.gov.sa/))
   - **Suhail (سهيل)** REGA platform — broker/agency licensing + listings registration
-  - **Etmam** — government-services portal for foreign-investor real-estate transactions ([etmam.gov.sa](https://etmam.momah.gov.sa/))
+  - **Etmam (منصة إتمام)** — **Ministry of Municipalities and Housing** services platform for **real-estate developers** — developer registration and qualification (under Royal Order A/84 of 14/02/1442 AH), the developer guide and toolkit, and developer assessment ([etmam.momah.gov.sa](https://etmam.momah.gov.sa/)) — **not** a foreign-investor channel (2026-09-18 verified)
 - **Identifier**: Title Deed (Sakk) + plot number + scheme/block (مخطط/بلوك) + parcel (قطعة) on the cadastral plan; Real Estate Registry electronic ID gradually replacing legacy paper deeds (2024+ rollout)
 - **Title concept**: Freehold (مُلك تام) is the dominant title for Saudi nationals + GCC; previously **near-total ban for non-GCC** with narrow exceptions (specific licensed activities + Premium Residency holders); **Foreign Real Estate Ownership Law — Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025), effective 22 Jan 2026** — opens designated zones to non-GCC — see Foreign-buyer eligibility below
 - **Foreign-buyer rule**: **MAJOR REFORM IN PROGRESS** — see dedicated Foreign-buyer eligibility section below
@@ -28,9 +28,9 @@ ISO2: `sa`. Status: ✅ Fully populated (researched 2026-05).
   - **2024**: **Premium Residency (Iqama Khassa) expansion** — added Real-Estate-Owner, Investor, Entrepreneur, and Talent categories to original 2019 launch ([premiumresidency.sa](https://pr.gov.sa/) — official PRC portal under Premium Residency Centre)
   - **2020**: VAT raised from 5% to **15%** effective 1 Jul 2020 ([ZATCA — Zakat Tax & Customs Authority](https://zatca.gov.sa/))
   - **2020**: **Real Estate Disposition Tax (RETT — ضريبة التصرفات العقارية)** introduced at **5% on sale value** by [Royal Decree A/84 of 14/02/1442 AH (Oct 2020)](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Real-Estate-Disposal-Tax.aspx) — replaces VAT on most real-estate disposals (deductible mechanism)
-  - **2016**: **White Land Tax (ضريبة الأراضي البيضاء)** at **2.5%/yr** on undeveloped urban land >10,000 m² — [Royal Decree M/4 of 12/02/1437 AH (Nov 2015 / Mar 2016 effective)](https://momah.gov.sa/ar) under Ministry of Municipalities + REGA
+  - **2016 / 2025**: **White Land and Vacant Property Fees Law (نظام رسوم الأراضي البيضاء والعقارات الشاغرة)** — originally Royal Decree M/4 of 12/02/1437 AH at 2.5%/yr on undeveloped urban land >10,000 m²; **amended by Council of Ministers decision of 29 Apr 2025, published in Umm Al-Qura 12 May 2025**, which renamed the law, raised the annual ceiling to **up to 10% of land value**, lowered the threshold to **5,000 m²** (single parcel or aggregate holding of one owner within a city), and extended the charge to **vacant buildings** at a share of market rent capped at **5% of property value**. The [executive regulation (اللائحة التنفيذية لرسوم الأراضي البيضاء), Umm Al-Qura 22 Aug 2025](https://www.uqn.gov.sa/details?p=27369) sets a five-band tariff by urban-development priority — **10% / 7.5% / 5% / 2.5% / nil** — with the band fixed per geographic zone by ministerial decision (2026-09-18 verified, source Umm Al-Qura + [MOMAH](https://momah.gov.sa/ar/node/14963)). Administered by the **Ministry of Municipalities and Housing (MOMAH)**.
   - **2019**: **Mostadam (مستدام) green building rating** launched — Saudi-developed sustainability certification ([mostadam.sa](https://mostadam.sa/) under Ministry of Municipal Affairs)
-  - **2020**: Tourism Law ([Royal Decree M/61 of 22/04/1441 AH](https://laws.moj.gov.sa/)) + 2021 STR Registration Decree — short-term rentals require Ministry of Tourism licensing via **Sahel platform**
+  - **2020**: Tourism Law ([Royal Decree M/61 of 22/04/1441 AH](https://laws.moj.gov.sa/)) + 2021 STR Registration Decree — short-term rentals require Ministry of Tourism licensing — filed on **Tourism.sa** since 28 Aug 2026 (the earlier Sahel route is superseded)
   - **Vision 2030 mega-project pipeline**: NEOM (Tabuk Province), Qiddiya (Riyadh), The Line (NEOM), Red Sea Global, AlUla, Diriyah Gate, Roshn (PIF developer), Sedra — material drivers of property values in primary cities
 
 ---
@@ -50,7 +50,7 @@ This section determines whether a transaction is even legally possible. Saudi Ar
 
 ### Foreign Real Estate Ownership Law — Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025), effective 22 Jan 2026 — THE REFORM
 
-**Source**: Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025); gazetted Umm Al-Qura 25 Jul 2025; effective 22 Jan 2026 (2026-05-27 verified). [Library of Congress Global Legal Monitor 2026-02-11](https://www.loc.gov/item/global-legal-monitor/2026-02-11/saudi-arabia-new-law-opens-ownership-of-real-estate-properties-to-foreigners); [White & Case](https://www.whitecase.com/insight-alert/saudi-arabia-approves-landmark-real-estate-ownership-law-non-saudis); [Greenberg Traurig](https://www.gtlaw.com/en/insights/2025/7/saudi-arabia-enacts-new-real-estate-foreign-ownership-law-a-calibrated-opening-for-foreign-investors); REGA implementation portal `https://rega.gov.sa/`; [Etmam foreign-investor portal](https://etmam.momah.gov.sa/).
+**Source**: Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025); gazetted Umm Al-Qura 25 Jul 2025; effective 22 Jan 2026 (2026-05-27 verified). [Library of Congress Global Legal Monitor 2026-02-11](https://www.loc.gov/item/global-legal-monitor/2026-02-11/saudi-arabia-new-law-opens-ownership-of-real-estate-properties-to-foreigners); [White & Case](https://www.whitecase.com/insight-alert/saudi-arabia-approves-landmark-real-estate-ownership-law-non-saudis); [Greenberg Traurig](https://www.gtlaw.com/en/insights/2025/7/saudi-arabia-enacts-new-real-estate-foreign-ownership-law-a-calibrated-opening-for-foreign-investors); REGA implementation portal `https://rega.gov.sa/`; [Etmam — MOMAH developer platform](https://etmam.momah.gov.sa/); for the foreign-investor route verify with **MISA (Ministry of Investment)**.
 
 | Item | Status |
 |---|---|
@@ -60,8 +60,8 @@ This section determines whether a transaction is even legally possible. Saudi Ar
 | **Excluded geographies** | **Mecca + Medina remain closed to non-Muslim ownership** (constitutional); strategic / military zones; agricultural land outside designated zones |
 | **Scope** | Residential, commercial, **agricultural farms**, NEOM/Qiddiya/Red Sea Global development shares, **tokenised fractional ownership** stakes — broader than prior law |
 | **Investment thresholds** | Implementing regulations (2025–2026) will set per-zone minimum investment amounts — verify per parcel at REGA (pre-publication expectation: residential floor ≈ SAR 2–4M per dwelling, commercial higher — verify currency at REGA) |
-| **Tax treatment** | Subject to standard regime: 5% RETT at acquisition, 15% VAT on commercial first sale, 2.5% White Land Tax if undeveloped >10,000 m², no recurring property tax on developed land, no individual income tax on rental income — verify ZATCA rulings |
-| **Authority** | REGA (Real Estate General Authority) + MOJ Notary + Etmam (foreign-investor portal) — confirm zone status and eligibility BEFORE reservation |
+| **Tax treatment** | Subject to standard regime: 5% RETT at acquisition, 15% VAT on commercial first sale, White Land + Vacant Property Fees (up to 10%/yr, banded) if undeveloped ≥5,000 m², no recurring property tax on developed land, no individual income tax on rental income — verify ZATCA rulings |
+| **Authority** | REGA (Real Estate General Authority) + MOJ Notary — confirm zone status and eligibility BEFORE reservation; **Etmam is MOMAH's developer platform, not a foreign-investor channel** — verify the foreign-investor route with MISA (Ministry of Investment) |
 
 ⚠️ **Critical caveat**: The implementing regulations (اللائحة التنفيذية) are being finalized through 2025–2026. **Designated zones, investment thresholds, and excluded categories will evolve.** Treat any pre-2026 advice as provisional and re-verify at REGA before any binding step.
 
@@ -98,8 +98,8 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 1. **Confirm property is in a designated zone for non-GCC** → REGA portal + Royal Commission for Riyadh City zone map + Jeddah Development Authority
 2. **Pull the seller's current Title Deed (Sakk)** via MOJ Notary → verify ownership, encumbrances, mortgage status
-3. **Check White Land Tax compliance** if undeveloped parcel > 10,000 m² → Ministry of Municipalities portal
-4. **Confirm Premium Residency or non-GCC eligibility** at Etmam / REGA → obtain pre-approval letter for non-GCC purchase
+3. **Check White Land + Vacant Property Fees compliance** if undeveloped parcel ≥ 5,000 m² → Ministry of Municipalities and Housing portal
+4. **Confirm Premium Residency or non-GCC eligibility** at **REGA** (Etmam is the MOMAH developer platform, not a foreign-investor channel; verify the investor route with MISA) → obtain pre-approval letter for non-GCC purchase
 5. **AML / source-of-funds**: SAMA + ZATCA require source-of-funds documentation per [AML Law 1439 AH (2017)](https://laws.moj.gov.sa/) for property transactions
 
 ---
@@ -108,7 +108,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Primary sources
 
-- **REGA Real Estate Pulse (نبض العقار)**: `https://rei.rega.gov.sa/en` — official transaction-level data, by city + district + property type, monthly + quarterly reports
+- **REGA Real Estate Indicators (مؤشرات العقار)**: `https://rei.rega.gov.sa/en` — official transaction-level data, by city + district + property type, monthly + quarterly reports
 - **REGA Real Estate Market Report** (quarterly): published via [REGA publications](https://rega.gov.sa/en/Publications)
 - **GASTAT (General Authority for Statistics — الهيئة العامة للإحصاء)**: `https://www.stats.gov.sa/` — Real Estate Price Index (RPPI) quarterly + annual housing surveys
 - **SAMA Financial Stability Report** (annual, [SAMA](https://www.sama.gov.sa/en-US)) — mortgage + price-to-income series
@@ -140,7 +140,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 | **Khobar — Corniche / Aqrabia** | villa | 4,500–10,000 | ≈ 1,100–2,400 | family-affluent |
 | **NEOM (under construction)** | n/a residential listings | n/a | n/a | not yet retail; PIF-developer-direct |
 
-(Sources: REGA Q4 2025 + Q1 2026 quarterly reports `https://rei.rega.gov.sa/en`, GASTAT RPPI, Bayut Saudi index — *Q4 2025 / Q1 2026 figures; rates may have shifted; cross-check current quarter on REGA Pulse*)
+(Sources: REGA Q4 2025 + Q1 2026 quarterly reports `https://rei.rega.gov.sa/en`, GASTAT RPPI, Bayut Saudi index — *Q4 2025 / Q1 2026 figures; rates may have shifted; cross-check current quarter on the REGA Real Estate Indicators platform*)
 
 ### Trend 2022 → 2026
 
@@ -154,7 +154,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 1. **SAR/m²** = listing SAR ÷ property m² (built-up area — البناء)
 2. **EUR/m²** ≈ SAR/m² ÷ ~4.05 (SAR/EUR Q1 2026 indicative; SAR pegged USD so EUR rate moves with USD/EUR cross)
-3. Cross-check **REGA Real Estate Pulse** for the same district + property type (transaction-recorded prices, not asking)
+3. Cross-check the **REGA Real Estate Indicators** platform for the same district + property type (transaction-recorded prices, not asking)
 4. **Trap**: listing m² may quote land area (مساحة الأرض) for villas vs built-up area (مساحة البناء) — clarify which
 5. **Trap**: off-plan sales by master developers (Roshn, NEOM, Diriyah) have promotional incentives + payment plans → headline price inflated vs cash equivalent
 6. **Trap**: Mecca + Medina pricing reflects pilgrimage-revenue capitalisation (non-tourism investment use limited) — not directly comparable to secular markets
@@ -166,7 +166,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Primary sources
 
-- **General Authority for Roads (GAR / الهيئة العامة للطرق)**: `https://rga.gov.sa/` — national network classification + traffic counts
+- **Roads General Authority (RGA / الهيئة العامة للطرق)**: `https://rga.gov.sa/` — road-sector regulator (Saudi Road Code, network classification). ⚠️ Host is unreachable from outside the Kingdom (verified 2026-09-18). **Public traffic-count data: not publicly available at the authority's portal on this check — verify with the Roads General Authority (RGA) or the Ministry of Transport and Logistic Services.**
 - **Riyadh: Royal Commission for Riyadh City (RCRC)**: `https://www.rcrc.gov.sa/` — Riyadh-specific transport master plan + Riyadh Metro
 - **Ministry of Transport and Logistic Services**: `https://mot.gov.sa/`
 - **Saudi Open Data Portal**: `https://open.data.gov.sa/`
@@ -203,20 +203,20 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 | Charge | Rate | Base | Statute |
 |---|---|---|---|
-| **White Land Tax (ضريبة الأراضي البيضاء)** | **2.5%/yr** | Land value (REGA-assessed) of **undeveloped urban land > 10,000 m²** within designated city boundaries | [Royal Decree M/4 of 12/02/1437 AH (Mar 2016)](https://laws.moj.gov.sa/); [White Land Tax Law](https://www.momra.gov.sa/) |
+| **White Land + Vacant Property Fees (رسوم الأراضي البيضاء والعقارات الشاغرة)** | **up to 10%/yr** on land (banded **10% / 7.5% / 5% / 2.5% / nil** by urban-development priority zone); **up to 5% of property value** on vacant buildings, set as a share of market rent | Land value (ministry-assessed) of **undeveloped urban land ≥ 5,000 m²** — single parcel or one owner's aggregate holding inside a city subject to the fee — plus long-unused buildings inside the approved urban boundary (vacant-property executive regulation still pending — verify at MOMAH) | [Executive regulation, Umm Al-Qura 22 Aug 2025](https://www.uqn.gov.sa/details?p=27369); [MOMAH](https://momah.gov.sa/ar/node/14963) (2026 regime, 2026-09-18 verified) |
 | **Annual property tax on developed residential** | **NONE** | — | — |
 | **Municipality services fees** (cleaning, lighting) | Bundled into utility bills (small SAR sums) | — | Per municipality |
 | **Vacant Property / Vacancy Levy** | **PROPOSED 2024 — pending** ([SPA news 2024](https://www.spa.gov.sa/)) | TBD | Not yet enacted; monitor |
 | **Zakat on land/property held for trading** | **2.5%** of the Zakat Base (2026 data, source ZATCA art. 15) | Applies to Muslim Saudi/GCC nationals on inventory + investment property held for trading | [ZATCA — Implementing Regulations for Zakat Collection, art. 15 + art. 48(8)-(9)](https://zatca.gov.sa/en/RulesRegulations/Documents/ZAKAT%20COLLECTION.pdf) |
 
-### White Land Tax — practical detail
+### White Land + Vacant Property Fees — practical detail
 
-- Applies only to **undeveloped (white) land** **> 10,000 m²** in **designated city boundaries** (Riyadh, Jeddah, Mecca, Medina, Dammam — phased rollout)
-- 2.5% annual on REGA-assessed land value
+- Applies to **undeveloped (white) land** of **≥ 5,000 m²** — single parcel or one owner's aggregate holding — inside a city subject to the fee (threshold cut from 10,000 m² by the 2025 amendment)
+- Annual fee banded by urban-development priority zone: **10% / 7.5% / 5% / 2.5% / nil** of ministry-assessed land value, ceiling **10%** (was a flat 2.5%)
+- Also reaches **vacant buildings** inside the approved urban boundary, at a share of market rent capped at **5% of property value** — the vacant-property executive regulation was still pending as at 2026-09-18; verify at MOMAH
 - Designed as **anti-speculation incentive** to push hoarded land into development → significant policy lever; effective since 2017 (Phase 1 Riyadh; expanded phases 2020–2024)
-- **Phase 2** (2024) expanded to smaller parcels (>5,000 m² in some categories) — verify current phase per city
 - Penalty for non-payment: levy + statutory interest + can lead to forced public auction
-- Source: [Ministry of Municipal Affairs — White Land Tax](https://www.momrah.gov.sa/) + REGA implementation
+- Source: [executive regulation, Umm Al-Qura 22 Aug 2025](https://www.uqn.gov.sa/details?p=27369) + [Ministry of Municipalities and Housing](https://momah.gov.sa/ar/node/14963) (2026-09-18 verified)
 
 ### Transaction taxes (one-time at purchase)
 
@@ -304,9 +304,9 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ⚠️ **REGULATED** under [Tourism Law (Royal Decree M/61 of 22/04/1441 AH — 2020)](https://laws.moj.gov.sa/) + 2021 STR Registration Decree.
 
-- **Authority**: [Ministry of Tourism (وزارة السياحة)](https://mt.gov.sa/) + STR registration via **Sahel platform** (`https://tourism.sa/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with mt.gov.sa (Ministry of Tourism — co-cited))
+- **Authority**: [Ministry of Tourism (وزارة السياحة)](https://mt.gov.sa/) — tourism licensing and classification, including tourist hospitality facilities. **Since 28 August 2026 all new licensing and classification applications are filed on the Tourism.sa platform** (`https://tourism.sa/`); the legacy licensing portal [tlg.mt.gov.sa](https://tlg.mt.gov.sa/) is retained only to complete in-flight files, via National Single Sign-On. The older **Sahel** route is superseded (2026-09-18 verified, source: migration banner on the Ministry of Tourism licensing portal).
 - **Required licence**: Tourism Hospitality Licence — class differs by property size + type
-- **Registration**: every STR property must be registered on Sahel; building NOC may be required (some stratas / buildings prohibit STR)
+- **Registration**: every STR property must be registered with the Ministry of Tourism — new applications go through **Tourism.sa** since 28 Aug 2026 (formerly Sahel); building NOC may be required (some stratas / buildings prohibit STR)
 - **Tax**: 15% VAT on STR revenue if turnover > SAR 375,000/yr (mandatory VAT registration threshold per ZATCA); 5% Tourism Levy + Municipal fees
 - **Hajj/Umrah hospitality**: Mecca + Medina STR governed by **special Hajj hospitality framework** under Ministry of Hajj and Umrah + Ministry of Tourism — licensed houses (الإسكان المعتمد) only; non-licensed pilgrim accommodation prohibited
 - **Penalties**: SAR 25,000+ for unlicensed operation; platform-data sharing arrangements with Airbnb + Booking emerging 2024–2025
@@ -315,7 +315,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 ### Strategic notes
 
 - **Non-Saudi/non-GCC foreign owners pre-2026**: rental income generally requires Saudi-licensed property manager; consider 5% WHT exposure if non-resident
-- **Post-2026 designated-zone foreign buyers**: full rental rights subject to Ejar + Sahel registration; 15% VAT on commercial rental + STR; 0% PIT
+- **Post-2026 designated-zone foreign buyers**: full rental rights subject to Ejar + Ministry of Tourism registration via Tourism.sa (ex-Sahel); 15% VAT on commercial rental + STR; 0% PIT
 - **Building NOC + DMC equivalent**: Saudi residential compounds (مجمعات سكنية) often have private association rules limiting STR — verify
 - **Currency**: SAR-pegged-USD income; US/UK/EU tax-resident owners pay home-country tax on rental (treaty network: limited; KSA has DTAs with ~50 countries)
 
@@ -775,7 +775,7 @@ Saudi Arabia uses a **civil-law notary system**: the [Notary Public (Kateb Adl �
 
 | Country | Foreign-buyer rule | Acquisition cost (typical) | Annual recurring | Yield (Q4 2025) | Currency risk |
 |---|---|---:|---:|---:|---|
-| **🇸🇦 Saudi Arabia** | Designated zones from Jan 2026 (Mecca/Medina excluded for non-Muslim) | 5–8% (cash) | ~0% (no recurring property tax; White Land Tax only on undeveloped >10,000m²) | ~5.5–7.5% Riyadh | SAR pegged USD |
+| **🇸🇦 Saudi Arabia** | Designated zones from Jan 2026 (Mecca/Medina excluded for non-Muslim) | 5–8% (cash) | ~0% (no recurring property tax; White Land + Vacant Property Fees only on undeveloped ≥5,000m²) | ~5.5–7.5% Riyadh | SAR pegged USD |
 | **🇦🇪 UAE** | Designated freehold zones (open since 2002 Dubai; Abu Dhabi 2019/2021) | 6–8% Dubai / 4–6% AbuDhabi | None for owner-occ; service charges 3–70 AED/sqft | ~6–8% Dubai apartments | AED pegged USD |
 | **🇧🇭 Bahrain** | Open freehold for foreigners in designated areas (Seef, Amwaj, Reef, Durrat) | 4–7% | None for owner-occ; service charges | ~6–8% | BHD pegged USD |
 | **🇶🇦 Qatar** | Open freehold for foreigners in designated zones (Pearl, West Bay, Lusail) | 3–5% | None for owner-occ | ~5–7% | QAR pegged USD |
@@ -1000,7 +1000,7 @@ Workable pathways for remote-working visitors:
 
 - **Average days on market 2025 Q4**: ~60–120 days (Riyadh mid-tier mass private); 90–180 days (Jeddah mid-tier); 30–90 days (in-demand Riyadh Metro-served + KAFD); 180+ days (luxury > SAR 10M)
 - **Cyclical sensitivity**: Saudi secondary market is **moderately liquid** in upcycle; **thin in downcycle** — 2014–2017 oil-price downturn saw transaction volumes drop 30–40% from 2013 peak per REGA data
-- **REGA Real Estate Pulse**: monthly transaction-volume + price index → leading indicator of liquidity restoration
+- **REGA Real Estate Indicators**: monthly transaction-volume + price index → leading indicator of liquidity restoration
 - **Foreign-buyer reform 2026**: anticipated to add liquidity in designated-zone primary market; secondary market resilience uncertain
 
 ### Exit-cost stack (seller side, 2026)
@@ -1055,7 +1055,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Translation (foreign documents, certified) | SAR 100–300/page |
 | Pre-purchase building survey (optional) | SAR 3,000–15,000 |
 | Annual property tax | **NONE** (developed land) |
-| **White Land Tax** (undeveloped >10,000 m²) | **2.5%/yr** of land value |
+| **White Land + Vacant Property Fees** (undeveloped ≥5,000 m²) | **up to 10%/yr** of land value, banded 10% / 7.5% / 5% / 2.5% / nil |
 | Annual SEC + NWC utilities (3-bed apt) | SAR 6,000–20,000/yr |
 | Annual cooling / HVAC (300m² villa Riyadh) | SAR 8,000–25,000/yr |
 | Compound association / management fee | SAR 5,000–25,000/yr (premium) |
@@ -1092,7 +1092,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **No personal income tax + no recurring property tax** — among world's most tax-favourable
 - **5% RETT on disposal** (statutory seller) — primary transaction tax; replaces VAT on most real-estate disposals since 2020
 - **15% VAT** on commercial real estate + STR + first-sale developments by VAT-registered developer
-- **2.5%/yr White Land Tax** on undeveloped urban parcels >10,000 m² — material anti-speculation lever
+- **White Land + Vacant Property Fees up to 10%/yr** on undeveloped urban parcels ≥5,000 m² (banded by priority zone) — material anti-speculation lever
 - **Saudization (Nitaqat)** — labour-market quota system; affects rental demand from expat workforce
 - **Vision-2030 mega-projects** (NEOM, Diriyah, Red Sea, Qiddiya, Roshn) — first-generation execution + PIF-developer-concentration risk
 - **Premium Residency Real-Estate route** SAR 4M threshold — verify current PRC schedule
@@ -1122,16 +1122,16 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 | Authority | When to call |
 |---|---|
-| **REGA (Real Estate General Authority)** | Designated-zone confirmation for non-GCC; broker registration; transaction recording (Real Estate Pulse) |
+| **REGA (Real Estate General Authority)** | Designated-zone confirmation for non-GCC; broker registration; transaction recording (Real Estate Indicators platform) |
 | **MOJ Notary (Kateb Adl) + Najiz** | Title Deed (Sakk) issuance; transfer registration |
 | **MOJ Real Estate Registry** | Modern electronic title (post-2024 regional rollout) |
 | **ZATCA** (Zakat Tax & Customs Authority) | RETT, VAT, Zakat, WHT |
 | **SAMA** (Saudi Central Bank) | Mortgage LTV/DSR rules, banking sector, FX |
 | **Premium Residency Centre** | Premium Residency application + Real-Estate-Owner route |
-| **Etmam** | Foreign-investor real-estate transaction services |
+| **Etmam** | MOMAH platform for real-estate **developer** registration, qualification and assessment (not foreign-investor services) |
 | **Royal Commission for Riyadh City (RCRC)** | Riyadh-specific zone status |
 | **Jeddah Development Authority** | Jeddah-specific zone status |
-| **Ministry of Tourism + Sahel** | STR licensing |
+| **Ministry of Tourism + Tourism.sa** (ex-Sahel) | STR licensing |
 | **Ministry of Hajj and Umrah** | Mecca/Medina pilgrim hospitality |
 | **Saudi Geological Survey (SGS)** | Earthquake + volcanic + groundwater hazard |
 | **NCM** (National Center of Meteorology) | Weather + climate projections |
@@ -1148,17 +1148,17 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Source | URL |
 |---|---|
 | REGA (Real Estate General Authority) | `https://rega.gov.sa/` |
-| REGA Real Estate Pulse (transaction data) | `https://rei.rega.gov.sa/en` |
+| REGA Real Estate Indicators (transaction data) | `https://rei.rega.gov.sa/en` |
 | MOJ + Najiz (electronic notary) | `https://www.najiz.sa/` |
 | MOJ home | `https://www.moj.gov.sa/` |
 | ZATCA | `https://zatca.gov.sa/` |
 | SAMA (Saudi Central Bank) | `https://www.sama.gov.sa/` |
 | Premium Residency Centre | `https://pr.gov.sa/` |
-| Etmam (foreign-investor services) | `https://etmam.momah.gov.sa/` |
+| Etmam (MOMAH developer platform) | `https://etmam.momah.gov.sa/` |
 | GASTAT (statistics) | `https://www.stats.gov.sa/` |
 | Ministry of Finance | `https://www.mof.gov.sa/` |
 | Ministry of Municipal Affairs (MOMRAH) | `https://www.momrah.gov.sa/` |
-| Ministry of Tourism + Sahel STR | `https://mt.gov.sa/` + `https://tourism.sa/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with mt.gov.sa (Ministry of Tourism — co-cited) |
+| Ministry of Tourism + Tourism.sa STR licensing (ex-Sahel) | `https://mt.gov.sa/` + `https://tourism.sa/` |
 | Ministry of Hajj and Umrah | `https://www.haj.gov.sa/` |
 | Royal Commission for Riyadh City | `https://www.rcrc.gov.sa/` |
 | Saudi Geological Survey (SGS) | `https://sgs.gov.sa/` |
@@ -1193,8 +1193,8 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — Royal Decree M/14 of 19/01/1447 AH foreign ownership law; Saudi Civil Transactions Law M/191; statute citations refreshed)
+**Last verified**: 2026-05-27 (validation sweep — Royal Decree M/14 of 19/01/1447 AH foreign ownership law; Saudi Civil Transactions Law M/191; statute citations refreshed; White Land and Vacant Property Fees, Real Estate Registration Law decree, REGA Indicators platform name, Etmam scope and tourism-licensing platform corrected 2026-09-18 per Umm Al-Qura + MOMAH + rei.rega.gov.sa + tlg.mt.gov.sa)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Locked-in via primary government sources: Foreign Real Estate Ownership Law — Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025), gazetted Umm Al-Qura 25 Jul 2025, effective 22 Jan 2026 (Library of Congress Global Legal Monitor 2026-02-11 + REGA implementation portal — **FAST-CHANGING: implementing regulations + designated-zone list rolling out through 2025–2026; re-verify at REGA before any reservation**); Saudi Civil Transactions Law (Royal Decree M/191 of 18 Jun 2023, eff. 16 Dec 2023 — 721 articles, first codified civil code); Premium Residency 2024 expansion (premiumresidency.sa); RETT 5% (Royal Decree A/84 of 1442 AH 2020 + ZATCA); White Land Tax 2.5% (Royal Decree M/4 of 1437 AH 2016 + Ministry of Municipalities); VAT 15% (ZATCA, since Jul 2020); Saudi Building Code SBC 2018 + Mostadam (since 2019); SAMA macroprudential LTV; SAR-USD peg since 1986; Riyadh Metro Phase 1 (Dec 2024 — RCRC); Vision 2030 mega-project pipeline (PIF). **Mecca/Medina non-Muslim ownership prohibition flagged as constitutional/religious; tracks haram boundaries; not waivable**. **Watch list 2026**: final implementing regulations + per-zone designated-area list under Foreign Real Estate Ownership Law (Q2–Q4 2026 ongoing); Vacant Property Levy (proposed 2024, pending); Premium Residency threshold updates per PRC schedule; Saudization (Nitaqat) annual category recalibration; PIF mega-project absorption test 2026–2030.
+**Notes**: Locked-in via primary government sources: Foreign Real Estate Ownership Law — Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025), gazetted Umm Al-Qura 25 Jul 2025, effective 22 Jan 2026 (Library of Congress Global Legal Monitor 2026-02-11 + REGA implementation portal — **FAST-CHANGING: implementing regulations + designated-zone list rolling out through 2025–2026; re-verify at REGA before any reservation**); Saudi Civil Transactions Law (Royal Decree M/191 of 18 Jun 2023, eff. 16 Dec 2023 — 721 articles, first codified civil code); Premium Residency 2024 expansion (premiumresidency.sa); RETT 5% (Royal Decree A/84 of 1442 AH 2020 + ZATCA); White Land + Vacant Property Fees, up to 10% banded (Royal Decree M/4 of 1437 AH 2016 as amended 2025; executive regulation Umm Al-Qura 22 Aug 2025 + Ministry of Municipalities and Housing); VAT 15% (ZATCA, since Jul 2020); Saudi Building Code SBC 2018 + Mostadam (since 2019); SAMA macroprudential LTV; SAR-USD peg since 1986; Riyadh Metro Phase 1 (Dec 2024 — RCRC); Vision 2030 mega-project pipeline (PIF). **Mecca/Medina non-Muslim ownership prohibition flagged as constitutional/religious; tracks haram boundaries; not waivable**. **Watch list 2026**: final implementing regulations + per-zone designated-area list under Foreign Real Estate Ownership Law (Q2–Q4 2026 ongoing); Vacant Property Levy (proposed 2024, pending); Premium Residency threshold updates per PRC schedule; Saudization (Nitaqat) annual category recalibration; PIF mega-project absorption test 2026–2030.

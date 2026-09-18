@@ -9,7 +9,7 @@ ISO2: `gi`. Status: ✅ Standalone playbook (UK Overseas Territory; own tax auth
 - Currency: Gibraltar Pound (GIP), 1:1 pegged to GBP; sterling and GIP both legal tender locally; only GBP accepted in UK/EU
 - Language: English (official); Spanish + Llanito widely spoken
 - Legal system: English common law (with Gibraltar-specific Acts); Court of Appeal + Supreme Court of Gibraltar; ultimate appeal to JCPC (Judicial Committee of the Privy Council, London)
-- Land registry: **Gibraltar Land Property Services + Supreme Court Land Registry** under [Land Titles Act](https://www.gibraltarlaws.gov.gi/) (often referenced as Land Registration Act regime; primary citable Act: confirm specific title at gibraltarlaws.gov.gi)
+- Land registry: **Land Titles Registry** under the [Gibraltar Land Titles Act 2011](https://www.gibraltarlaws.gov.gi/legislations/gibraltar-land-titles-act-2011-3009) (Registrar of Land Titles appointed under Notice 2011/206; register governed by the Gibraltar Land Titles (Register) Regulations 2023 and the Land Registry Portal and Electronic Stamping Act 2023), operated by **Land Property Services Ltd** ([lps.gi](https://www.lps.gi/)) (2026 data, source gibraltarlaws.gov.gi + lps.gi; 2026-09-18 verified)
 - EU status: **OUTSIDE EU** since 31 January 2020 (left with UK). Schengen border rules apply at Gibraltar's external border under the UK–EU Gibraltar Treaty — **provisionally applied since 15 July 2026** ([EU Council greenlight 01 Apr 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/04/01/eu-uk-relations-member-states-greenlight-eu-uk-deal-on-gibraltar/); see § Frontier Treaty below)
 
 ⚠️ **Do not conflate**: Gibraltar is a **UK Overseas Territory**, not part of the UK itself and not part of Spain. Gibraltar has its own tax authority (Gibraltar Income Tax Office), its own GFSC-regulated banks, its own Supreme Court — references to "HMRC" or "Land Registry England & Wales" do **not** apply.
@@ -159,7 +159,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 
 ## Section: `--ownership-and-tenure`
 
-**Data sources**: [Gibraltar laws portal](https://www.gibraltarlaws.gov.gi/) (primary statute lookup); Supreme Court Land Registry; Land Property Services.
+**Data sources**: [Gibraltar laws portal](https://www.gibraltarlaws.gov.gi/) (primary statute lookup); **Land Titles Registry (LPS)**; Land Property Services.
 
 **Tenure types** in Gibraltar:
 
@@ -274,15 +274,15 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 
 **Data sources**:
 - [Supreme Court of Gibraltar](https://www.gcs.gov.gi/) — civil registry
-- [Gibraltar Bar Council](https://lawcouncil.gi/) (verify URL) — qualified conveyancers register
+- [Gibraltar Courts Service — List of Practitioners, Notaries, etc.](https://www.gcs.gov.gi/list-of-practitioners-notaries-etc) — "List of Barristers and Solicitors 2026" + "Public Notaries 2026"; Gibraltar has no separate licensed-conveyancer profession, so conveyancing is done by barristers/solicitors on that list. Representative body: [Law Council of Gibraltar](https://lawcouncil.gi/) (includes the Gibraltar Bar Council); regulator: [LSRA](https://lsra.gi/) (2026 data, source gcs.gov.gi; 2026-09-18 verified)
 
 **Process**:
 
 1. **Offer accepted** → instruct a **Gibraltar-qualified barrister or solicitor**. There is no "notary" institution in the civil-law sense — Gibraltar uses common-law conveyancing.
-2. **Pre-contract enquiries**: title, planning, search of the **Supreme Court Land Registry**, Crown lease consents (if applicable), **market-class designation** (Open vs Restricted)
+2. **Pre-contract enquiries**: title, planning, search of the **Land Titles Registry (LPS)**, Crown lease consents (if applicable), **market-class designation** (Open vs Restricted)
 3. **Exchange of contracts** with deposit (typically 10%)
 4. **Stamp Duty assessment** by HM Commissioner of Stamp Duty under the Stamp Duties Act
-5. **Completion** + registration of the new title at the Supreme Court Land Registry
+5. **Completion** + registration of the new title at the **Land Titles Registry (LPS)**
 6. **Conveyancing fees**: typically **1–1.5% of price + disbursements** for residential — verify with quoted firm
 
 **Foreign-buyer extras**:
@@ -293,7 +293,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 
 **Typical timeline**: 6–12 weeks from offer to completion (longer for complex Crown lease properties).
 
-**Confidence**: HIGH on legal framework (common-law conveyancing, Supreme Court Land Registry registration); MEDIUM on fee ranges (firm-to-firm variation).
+**Confidence**: HIGH on legal framework (common-law conveyancing, **Land Titles Registry (LPS)** registration); MEDIUM on fee ranges (firm-to-firm variation).
 
 ---
 
@@ -354,7 +354,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 | Income Tax Office (Qualifying Individuals) | https://www.gibraltar.gov.gi/income-tax-office/individuals-and-employees/qualifying-individuals |
 | Gibraltar Government home | https://www.gibraltar.gov.gi/ |
 | Gibraltar laws portal | https://www.gibraltarlaws.gov.gi/ |
-| Supreme Court (land registry) | https://www.gcs.gov.gi/ |
+| Land Titles Registry (Registrar of Land Titles) — operated by Land Property Services Ltd | https://www.lps.gi/land-registry-dept |
 | GFSC (banking regulator) | https://www.gfsc.gi/ |
 | Gibraltar Finance Centre | https://www.gibraltarfinance.gi/ |
 | Press releases | https://www.gibraltar.gov.gi/press-releases |
@@ -401,7 +401,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 | Gibraltar Income Tax Office | Personal tax bands, Cat-2/HEPSS application, tax certificates |
 | Gibraltar Finance Centre | Cat-2 / HEPSS certificates (info@financecentre.gov.gi, +350 20050011) |
 | HM Commissioner of Stamp Duty | Stamp duty assessment on transfers |
-| Supreme Court Land Registry | Title search, registration, market-class deed covenants |
+| Land Titles Registry (LPS) | Title search, registration, market-class deed covenants |
 | Land Property Services Gibraltar | Cadastral / land-survey records |
 | GFSC | Bank/lender authorisation status check |
 | Tourist Board | Short-let registration |
@@ -419,4 +419,4 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 2. `2026-07-15 | residency / borders | UK–EU Gibraltar Treaty PROVISIONALLY APPLIED since 15 Jul 2026 — land-frontier checks removed, dual Schengen checks at airport/port; Cat-2 / HEPSS residency law UNCHANGED; physical-presence test unchanged; ratification (EP consent) pending autumn 2026 | Consilium 01 Apr 2026 + Gov Press 148/2026 + 517/2026 | 2026-07-02 | 2026-10-15 | tier 1 | --foreign-buyer-rules --frontier-treaty`
 3. `2026-06-17 (announced — regulations pending) | residency | Residence Criteria framework announced (Gov Press 466/2026): residency to require genuine economic contribution; residence alone ≠ social benefits; earlier community signal (r/gibraltar 1tkeoa5) now primary-confirmed in direction — Cat-2-specific changes still unconfirmed | HMGoG PR 466/2026 + treaty portal | 2026-07-02 | 2026-10-01 | tier 2 | --tax (Cat-2/HEPSS)`
 
-**Last verified**: 2026-07-02 (Frontier-Treaty + residence-criteria sections re-verified against primary sources; in-force wording pre-staged for the 15 Jul 2026 provisional-application date — confirm provisional application began as scheduled before merging/relying). Other sections: 2026-05-27.
+**Last verified**: 2026-07-02 (Frontier-Treaty + residence-criteria sections re-verified against primary sources; in-force wording pre-staged for the 15 Jul 2026 provisional-application date — confirm provisional application began as scheduled before merging/relying). Other sections: 2026-05-27 (land-registry and practitioner-register attribution corrected 2026-09-18 per gibraltarlaws.gov.gi + lps.gi + gcs.gov.gi).

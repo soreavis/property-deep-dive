@@ -428,7 +428,7 @@ The Bahamas is **not a primary local-employment destination** for most foreign b
 | Source | URL | What it gives |
 |---|---|---|
 | **Bahamas Department of Meteorology** | `https://www.bahamasweather.org.bs/` | Hurricanes, tropical storms, rainfall, drought |
-| **National Emergency Management Agency (NEMA)** | `https://drm.gov.bs/` | Hurricane plans, shelters, evacuation, alerts |
+| **Disaster Risk Management (DRM) Authority** — formed by the merger of the National Emergency Management Agency (NEMA) and the Disaster Reconstruction Authority (DRA) under the **Disaster Risk Management Act 2022** | `https://drm.gov.bs/` | Hurricane plans, shelters, evacuation, alerts; public preparedness portal `https://getready.gov.bs` (2026 data, source DRM Authority; 2026-09-18 verified) |
 | **Bahamas Building Code (BBC)** — Ministry of Works | `http://www.bahamas.gov.bs/works` | Wind/seismic code compliance |
 | **US National Hurricane Center (NHC)** | `https://www.nhc.noaa.gov/` | Atlantic basin authoritative; primary regional reference |
 | **Department of Lands and Surveys / Coast Protection** | DLS | Coastal setback + erosion |
@@ -846,7 +846,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 | Registrar General's Department | `https://www.bahamas.gov.bs/` |
 | Department of Immigration | `https://www.bahamas.gov.bs/` |
 | Bahamas Department of Meteorology | `https://www.bahamasweather.org.bs/` |
-| National Emergency Management Agency | `https://drm.gov.bs/` |
+| Disaster Risk Management (DRM) Authority (formerly NEMA) | `https://drm.gov.bs/` |
 | Royal Bahamas Police Force | `https://www.royalbahamaspolice.org/` |
 | Insurance Commission of The Bahamas | `https://www.icb.gov.bs/` |
 | Water and Sewerage Corporation | `https://www.wsc.com.bs/` |
@@ -875,7 +875,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 - **MEDIUM** for insurance pricing 0.4–1.5% — varies materially by island + wind zone + build year + carrier post-Dorian re-rating.
 - **LOW** for parcel-level flood-zone / storm-surge mapping in non-NEMA-priority areas — coverage uneven; verify per parcel via DLS / NEMA + engineering survey.
 - **LOW** for traffic AADT — no public AADT portal; OSM + on-site observation is the practical method.
-**Last verified**: 2026-08-07 (--tax VAT sub-section only — 10% standard rate re-verified against DIR VAT Guidance on 2021 Amendments: a cut from 12% eff. 1 Jan 2022, still in force at the FY2026/27 Budget Communication of 27 May 2026, and applying to commercial rent + HOA/management fees per the DIR VAT FAQ) · 2026-05-27 (validation sweep — EPR B$1M eff. 1 Jan 2025 + 10-yr clawback; VAT-on-Conveyance flat 10% foreign / graduated BDR; 2025 VAT procedural reforms eff. 1 Jul 2025; IPLA B$250 registration / B$500 permit; RPT commercial 3-tier 0.75/1.0/1.5%; VAT history sequence corrected)
+**Last verified**: 2026-08-07 (--tax VAT sub-section only — 10% standard rate re-verified against DIR VAT Guidance on 2021 Amendments: a cut from 12% eff. 1 Jan 2022, still in force at the FY2026/27 Budget Communication of 27 May 2026, and applying to commercial rent + HOA/management fees per the DIR VAT FAQ) · 2026-05-27 (validation sweep — EPR B$1M eff. 1 Jan 2025 + 10-yr clawback; VAT-on-Conveyance flat 10% foreign / graduated BDR; 2025 VAT procedural reforms eff. 1 Jul 2025; IPLA B$250 registration / B$500 permit; RPT commercial 3-tier 0.75/1.0/1.5%; VAT history sequence corrected; disaster-management authority (DRM Authority) corrected 2026-09-18 per drm.gov.bs)
 
 ## Extension TODOs
 

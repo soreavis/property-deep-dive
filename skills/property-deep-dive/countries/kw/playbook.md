@@ -23,7 +23,7 @@ ISO2: `kw`. Status: ✅ Fully populated (researched 2026-05).
 - **Title concept**: Freehold (مُلك تام) for Kuwaiti and GCC nationals; **non-GCC foreign individuals cannot own residential property** under Decree-Law 74/1979 (with very narrow exceptions); long-term lease (إجارة طويلة الأجل) ≤30 years renewable is the alternative
 - **Foreign-buyer rule**: **VERY RESTRICTIVE** — see dedicated Foreign-buyer eligibility section below
 - **Recent reforms (12-month watchlist)**:
-  - **Kuwait Vision 2035 (New Kuwait — كويت جديدة)** — diversification programme; **Mubarak Al-Kabeer Port + Silk City (Madinat Al-Hareer)** mega-development on Boubyan Island (planned but slow-moving) ([Kuwait National Development Plan](https://www.scpd.gov.kw/))
+  - **Kuwait Vision 2035 (New Kuwait — كويت جديدة)** — diversification programme; **Mubarak Al-Kabeer Port + Silk City (Madinat Al-Hareer)** on Boubyan Island. ⚠️ Programme status is **not verifiable from outside Kuwait** — the National Development Plan secretariat's site [`https://www.scpd.gov.kw/`](https://www.scpd.gov.kw/) resolves but refuses non-Kuwaiti traffic (checked 2026-09-18); verify delivery status at SCPD from a Kuwaiti connection, or against Ministry of Finance budget documents [`https://www.mof.gov.kw/`](https://www.mof.gov.kw/).
   - **Foreign Direct Investment Law 116/2013 (qudwa) + KDIPA (Kuwait Direct Investment Promotion Authority)** — 100% foreign ownership permitted in licensed business activities, but **does NOT extend to residential real estate** ([KDIPA](https://www.kdipa.gov.kw/))
   - **Real Estate Brokers Law (قانون الوسيط العقاري)** — periodic revisions through MOCI to license + regulate brokerage; latest amendments ongoing
   - **Bedoon (stateless residents) issue** — ~100,000 residents lack documentation; **cannot own property** under any framework; long-standing political concern
@@ -101,12 +101,9 @@ This section determines whether a transaction is even legally possible. Kuwait's
 
 ### Listing platforms
 
-- **Aqarmap Kuwait**: `https://aqarmap.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — major listings platform
 - **Bayut Kuwait**: `https://www.bayut.com/en/kuwait/` — UAE-origin platform extended to Kuwait
-- **Property Finder Kuwait**: `https://www.propertyfinder.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **OpenSooq Kuwait**: `https://kw.opensooq.com/` — large classifieds platform
 - **4Sale (Kuwait)**: `https://www.q84sale.com/` — leading local classifieds (cars + property + jobs)
-- **Mubawab Kuwait** (regional): `https://www.mubawab.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 
 ### City benchmarks (Q4 2025 / Q1 2026 reference, listings + KREU commentary)
 
@@ -317,7 +314,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 ### Kafala (sponsorship) reform notes
 
 - Kuwait has been **slower** than UAE/Saudi/Qatar in reforming the kafala system
-- **Public Authority for Manpower (PAM — `https://www.paci.gov.kw/` not — see PAM `https://pam.gov.kw/`)** — administers labour-market under [Law 6/2010 on Labour in the Private Sector](https://pam.gov.kw/) (verify at PAM)
+- **Public Authority for Manpower (PAM — الهيئة العامة للقوى العاملة)** — administers the private-sector labour market under **Law 6/2010 on Labour in the Private Sector**. PAM's domain is `manpower.gov.kw` (the previously cited `pam.gov.kw` does not resolve); it refuses non-Kuwaiti traffic, so verify the law text and current procedures from a Kuwaiti connection or at the **Kuwait Central Statistical Bureau** [`https://csb.gov.kw/`](https://csb.gov.kw/) for wage and workforce data (2026-09-18 verified — DNS only for manpower.gov.kw; no page content retrieved). Note **PACI** (`https://www.paci.gov.kw/`) is a different body — the Public Authority for Civil Information, which issues the Civil ID and the national address register.
 - **No-objection certificate (NOC)** historically required to switch employers; recent administrative reforms have eased some categories but full Saudi/Qatar-style abolition not yet enacted
 - **Domestic worker law (Law 68/2015)** — formal protections for domestic workers; minimum wage KWD 60/month + working-hour limits
 
@@ -1045,12 +1042,9 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 ## Common listing platforms
 
-- **Aqarmap Kuwait** — `https://aqarmap.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Bayut Kuwait** — `https://www.bayut.com/en/kuwait/`
-- **Property Finder Kuwait** — `https://www.propertyfinder.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **OpenSooq Kuwait** — `https://kw.opensooq.com/`
 - **4Sale Kuwait** — `https://www.q84sale.com/`
-- **Mubawab Kuwait** — `https://www.mubawab.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 
 ## Caveats unique to Kuwait
 
@@ -1134,9 +1128,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Capital Markets Authority (CMA) | `https://www.cma.gov.kw/` |
 | Kuwait Post | `https://moc.gov.kw/ar/important-links?tab=2` |
 | Kuwait Public Transport Company (KPTC) | `https://www.kptc.com.kw/` |
-| Aqarmap (listings) | `https://aqarmap.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | Bayut Kuwait (listings) | `https://www.bayut.com/en/kuwait/` |
-| Property Finder Kuwait (listings) | `https://www.propertyfinder.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | OpenSooq Kuwait | `https://kw.opensooq.com/` |
 | 4Sale Kuwait | `https://www.q84sale.com/` |
 | NBK (bank) | `https://www.nbk.com/` |

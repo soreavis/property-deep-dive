@@ -172,9 +172,9 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 ### Primary sources
 
-- **Ministry of Transport (Bộ Giao thông Vận tải)** — `https://moc.gov.vn/` — national road network, AADT on national highways
+- **Ministry of Construction (Bộ Xây dựng)** — `https://moc.gov.vn/` — national road network, AADT on national highways. **The Ministry of Transport was absorbed into Bộ Xây dựng with effect from 1 March 2025**; the portal now carries the Đường bộ / Hàng hải và Đường thủy / Hàng không / Đường sắt / Đăng kiểm sections and the Cục Đường bộ Việt Nam (2026 data, source Bộ Xây dựng portal + Nghị định 33/2025/NĐ-CP of 25 Feb 2025; 2026-09-18 verified)
 - **Vietnam Road Administration (Tổng cục Đường bộ Việt Nam)** — `https://drvn.gov.vn/` — national road counts, expressway monitoring
-- **Provincial Department of Transport (Sở Giao thông Vận tải)** — local road counts; HCMC `https://soxaydung.hochiminhcity.gov.vn/`, Hanoi `https://soxaydung.hanoi.gov.vn/`
+- **Provincial Department of Construction (Sở Xây dựng)** — local road counts; the provincial **Sở Giao thông Vận tải was merged into Sở Xây dựng** in the 2025 provincial reorganisation. HCMC `https://soxaydung.hochiminhcity.gov.vn/` (traffic portal `https://giaothong.hochiminhcity.gov.vn/`, headed "SỞ XÂY DỰNG TP HỒ CHÍ MINH"), Hanoi `https://soxaydung.hanoi.gov.vn/` (Hanoi leg not fetch-confirmed — re-probe from a VN-reachable egress)
 - **OpenStreetMap (OSM)** — fallback for road class when official AADT not available
 
 ### Verdict bands (vehicles per day, mixed motorbike + car)
@@ -337,7 +337,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 - **LinkedIn Vietnam**: very active in tech, finance, MNCs, HCMC-and-Hanoi-centric
 - **Glints Vietnam**: `https://glints.com/vn` — startup/tech focused
 - **JobStreet Vietnam** (now SEEK/JobsDB Asia group): `https://www.jobstreet.vn/`
-- **Government job portal — Department of Employment / Cục Việc làm**: under Ministry of Labour, Invalids and Social Affairs (MOLISA) `https://moha.gov.vn/`
+- **Department of Employment / Cục Việc làm**: under the **Ministry of Home Affairs (Bộ Nội vụ)** since **1 March 2025** — Nghị định 25/2025/NĐ-CP of 25 Feb 2025 vests state management of *lao động, tiền lương, bảo hiểm xã hội; việc làm; an toàn, vệ sinh lao động* in Bộ Nội vụ, dissolving MOLISA's portfolio into it (2026 data, source Government Portal; 2026-09-18 verified) — `https://moha.gov.vn/`. **The former `vieclamvietnam.gov.vn` government job portal has no published successor — data not publicly available; verify at the [Ministry of Home Affairs](https://moha.gov.vn/).**
 
 ### Work permit & visa
 
@@ -382,7 +382,7 @@ Key requirements:
 | HCMC median (all sectors, 2024 GSO) | ~10–13M | ~$390–$510 |
 | **Minimum wage 2026 (Region I, HCMC + Hanoi urban)** | 4.96M VND/month (Decree 74/2024/ND-CP, effective 1 Jul 2024) | ~$195 |
 
-Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `https://moha.gov.vn/`, VietnamWorks salary surveys.
+Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov.vn/en/homepage/`, **Ministry of Home Affairs (Bộ Nội vụ, formerly MOLISA)** `https://moha.gov.vn/`, VietnamWorks salary surveys.
 
 ### Confidence
 
@@ -401,7 +401,7 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `https://moha.gov.vn/
 | **Ministry of Agriculture and Environment (MAE, Bộ NN&MT — merger of MONRE + MARD eff 1 Mar 2025)** | `https://en.mae.gov.vn/` | National adaptation plan, sea-level monitoring, EIA |
 | **Vietnam Institute of Geosciences and Mineral Resources (VIGMR)** | `http://www.vigmr.vn/` | Geology, landslide, fault mapping |
 | **General Statistics Office (GSO)** | `https://www.nso.gov.vn/en/homepage/` | Disaster damage statistics |
-| **Vietnam Environment Administration (VEA)** | `https://vea.mae.gov.vn/` | Air & water quality monitoring |
+| **Cục Môi trường (Department of Environment), Ministry of Agriculture and Environment — formerly Vietnam Environment Administration / Tổng cục Môi trường (VEA)** | `https://vea.mae.gov.vn/` | Air & water quality monitoring |
 | **Provincial Department of Natural Resources and Environment (Sở TN&MT)** | per province | Land-use plans, local risk zoning |
 
 ### Flood & typhoon (lũ lụt và bão)
@@ -500,7 +500,7 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `https://moha.gov.vn/
 - **Hanoi**: similar — Yen So Wastewater Treatment Plant + several others. Inner districts ~50–60% mains coverage, outer districts much lower.
 - **Provincial cities**: coverage drops sharply outside provincial seats. Most condo/apartment developments use **on-site treatment plants (Hệ thống xử lý nước thải tập trung của tòa nhà)** required by Vietnamese building code (QCVN 14:2008/BTNMT national wastewater discharge standard) for residential buildings above a threshold.
 - **Rural / villa areas**: septic tank + soakaway is the norm. Modern villas typically have **3-stage septic + biological filter + soakaway**; older / informal may have simple cesspit (bể tự hoại đơn giản).
-- **Wastewater regulator**: MAE (formerly MONRE) + Vietnam Environment Administration `https://vea.mae.gov.vn/`.
+- **Wastewater regulator**: MAE — Bộ Nông nghiệp và Môi trường (formerly MONRE) — through **Cục Môi trường / Department of Environment (formerly VEA)** `https://vea.mae.gov.vn/`.
 
 ### Verification path
 
@@ -625,13 +625,13 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `https://moha.gov.vn/
 | **Ministry of Construction (Bộ Xây dựng, MOC)** | Housing Law, foreign-buyer rules, project licensing | `https://moc.gov.vn/` |
 | **Ministry of Agriculture and Environment (MAE, Bộ NN&MT — formerly MONRE; merger eff 1 Mar 2025)** | Land Law, LURC, cadastre, environmental | `https://en.mae.gov.vn/` |
 | **Ministry of Finance (Bộ Tài chính)** | Tax policy, future property tax | `https://mof.gov.vn/` |
-| **General Department of Taxation (Tổng cục Thuế, GDT)** | PIT, VAT, transfer tax, rental income | `https://www.gdt.gov.vn/` |
+| **Cục Thuế (Tax Department), Ministry of Finance — formerly Tổng cục Thuế / GDT, renamed by Quyết định 381/QĐ-BTC of 26 Feb 2025 with effect from 1 Mar 2025** | PIT, VAT, transfer tax, rental income | `https://www.gdt.gov.vn/` |
 | **State Bank of Vietnam (Ngân hàng Nhà nước, SBV)** | FX rules, inbound/outbound transfer, capital controls, mortgage | `https://www.sbv.gov.vn/` |
 | **Provincial Department of Construction (Sở Xây dựng)** | Foreign-eligible project list, building permits, sinking-fund regulation | per province (HCMC, Hanoi, Da Nang each have own portal) |
 | **Provincial Department of Natural Resources and Environment (Sở TN&MT)** | Pink Book transfer, encumbrance search, cadastral map | per province |
 | **Provincial VPĐKĐĐ (Office for Land Use Rights Registration)** | Pink Book issuance and transfer | under provincial Sở TN&MT |
 | **Vietnam Immigration (Cục Quản lý Xuất nhập cảnh)** | Visa, eVisa, TRC, work permit immigration angle | `https://www.xuatnhapcanh.gov.vn/` and `https://evisa.xuatnhapcanh.gov.vn/` |
-| **MOLISA (Ministry of Labour, Invalids and Social Affairs)** | Work permit, foreign labour rules | `https://moha.gov.vn/` |
+| **Ministry of Home Affairs (Bộ Nội vụ — absorbed MOLISA's labour portfolio, 1 Mar 2025)** | Work permit, foreign labour rules — current instrument **Nghị định 219/2025/NĐ-CP**, signed and in force **7 Aug 2025** (2026-09-18 verified) | `https://moha.gov.vn/` |
 | **Provincial Sở Cảnh sát PCCC (Fire Police)** | Fire safety inspection certificate | per province |
 | **Vietnam Environment Administration (VEA)** | Air & water quality | `https://vea.mae.gov.vn/` |
 | **National Centre for Hydro-Meteorological Forecasting (NCHMF)** | Typhoon, monsoon, climate | `https://nchmf.gov.vn/` |
@@ -671,30 +671,30 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `https://moha.gov.vn/
 | MAE (formerly MONRE; Land Law, cadastre) | `https://en.mae.gov.vn/` |
 | Ministry of Construction (Housing Law, foreign-buyer) | `https://moc.gov.vn/` |
 | Ministry of Finance (tax policy) | `https://mof.gov.vn/` |
-| General Department of Taxation (GDT) | `https://www.gdt.gov.vn/` |
+| Cục Thuế / Tax Department, MOF (formerly GDT) | `https://www.gdt.gov.vn/` |
 | State Bank of Vietnam (SBV) | `https://www.sbv.gov.vn/` |
 | Government Gazette (statutes, decrees) | `https://congbao.chinhphu.vn/` |
 | National Assembly (statutes) | `https://quochoi.vn/` |
 | Government Portal (cabinet resolutions) | `https://chinhphu.vn/` |
 | Vietnam Immigration | `https://www.xuatnhapcanh.gov.vn/` |
 | Vietnam eVisa | `https://evisa.xuatnhapcanh.gov.vn/` |
-| MOLISA (work permit) | `https://moha.gov.vn/` |
+| Ministry of Home Affairs (work permit) | `https://moha.gov.vn/` |
 | Ministry of Public Security | `https://bocongan.gov.vn/` |
 | Ministry of Home Affairs (admin units) | `https://www.moha.gov.vn/` |
-| Ministry of Transport | `https://moc.gov.vn/` |
+| Ministry of Construction (Bộ Xây dựng — absorbed the former Ministry of Transport, 1 Mar 2025) | `https://moc.gov.vn/` |
 | Vietnam Road Administration | `https://drvn.gov.vn/` |
 | HCMC People's Committee | `https://hochiminhcity.gov.vn/` |
 | Hanoi People's Committee | `https://hanoi.gov.vn/` |
 | HCMC Sở Xây dựng | `https://soxaydung.hochiminhcity.gov.vn/` |
 | Hanoi Sở Xây dựng | `https://soxaydung.hanoi.gov.vn/` |
-| HCMC Sở GTVT | `https://soxaydung.hochiminhcity.gov.vn/` |
+| HCMC Sở Xây dựng (absorbed Sở GTVT) | `https://soxaydung.hochiminhcity.gov.vn/` |
 | Hanoi Sở GTVT | `https://soxaydung.hanoi.gov.vn/` |
 | SAWACO (HCMC water) | `https://sawaco.com.vn/` |
 | HAWACOM (Hanoi water) | `https://hawacom.vn/` |
 | GSO (statistics) | `https://www.nso.gov.vn/en/homepage/` |
 | NCHMF (meteorology, typhoon) | `https://nchmf.gov.vn/` |
 | Vietnam Disaster Management Authority | `https://phongchongthientai.mard.gov.vn/` |
-| Vietnam Environment Administration | `https://vea.mae.gov.vn/` |
+| Cục Môi trường / Department of Environment (formerly VEA) | `https://vea.mae.gov.vn/` |
 | PAM Air (AQ) | `https://pamair.org/` |
 | Vietnam Post (postcode) | `https://www.vnpost.vn/` |
 | Batdongsan.com.vn | `https://batdongsan.com.vn/` |
@@ -718,7 +718,7 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `https://moha.gov.vn/
 
 **Confidence**: HIGH — foreign-ownership rules (2024 Land Law Law No. 31/2024/QH15, 2023 Housing Law Law No. 27/2023/QH15, 2023 Real Estate Business Law Law No. 29/2023/QH15, implementing Decrees 102/2024/ND-CP, 95/2024/ND-CP, 96/2024/ND-CP, 101/2024/ND-CP, 71/2024/ND-CP); Pink Book mechanics (Decree 101/2024/ND-CP); 50-year tenure + renewal (Article 20 Housing Law 2023); 30 % apartment / 250 landed-house quotas (Articles 19–20 Housing Law 2023 + Decree 95/2024); FX requirement (Circular 06/2019/TT-NHNN); PIT 2 % on transfer + registration fee 0.5 % + rental tax 5 % PIT + 5 % VAT (PIT Law + Circular 40/2021/TT-BTC); typhoon and Mekong Delta sea-level rise (MONRE National Adaptation Plan 2022); fire-code post-Carina (2018).
 
-**Last verified**: 2026-09-17 (Hague Apostille flip applied — in force 11 Sep 2026 per HCCH status table; Decree 293/2026/NĐ-CP + Circular 12/2026/TT-BNG cited; DE / AT / CZ objections re-confirmed, none withdrawn) · previously 2026-08-07 (2024 Land Law + 2023 Housing Law commencement corrected to **1 Aug 2024** — advancing instrument is Law 43/2024/QH15 of 29 Jun 2024, replacing Art. 252(1) / Art. 197(1), not the previously cited Resolution 129/2024/QH15; foreign-quota basis re-pinned to Art. 19(1) — per apartment building, and per area of ward-equivalent population for the 250 landed houses; Art. 20(2)(c) 50 yr from Certificate issuance + one extension of up to 50 yr confirmed; the "2024 Land Law expanded mortgage rights to foreign-owned credit institutions" claim is **WITHDRAWN as unverified** — Land Law Art. 41 unchanged. STR enforcement authority also re-verified — the **district tier was abolished**, administrative units now run province → commune/ward under the Law on Organization of Local Government No. 72/2025/QH15 Art. 1(1), so "district-level STR enforcement" is obsolete framing; HCMC Quyết định 19/2026/QĐ-UBND is **city-wide, not ward discretion**. Earlier 2026-07-02: HCMC STR rule re-verified — Quyết định 19/2026/QĐ-UBND, effective 25 Apr 2026, supersedes 26/2025/QĐ-UBND; corrects prior 26/2024 mis-citation. Earlier 2026-05-27 sweep: MONRE → MAE merger propagated; Hague Apostille effective 11 Sep 2026 flagged)
+**Last verified**: 2026-09-17 (Hague Apostille flip applied — in force 11 Sep 2026 per HCCH status table; Decree 293/2026/NĐ-CP + Circular 12/2026/TT-BNG cited; DE / AT / CZ objections re-confirmed, none withdrawn) · previously 2026-08-07 (2024 Land Law + 2023 Housing Law commencement corrected to **1 Aug 2024** — advancing instrument is Law 43/2024/QH15 of 29 Jun 2024, replacing Art. 252(1) / Art. 197(1), not the previously cited Resolution 129/2024/QH15; foreign-quota basis re-pinned to Art. 19(1) — per apartment building, and per area of ward-equivalent population for the 250 landed houses; Art. 20(2)(c) 50 yr from Certificate issuance + one extension of up to 50 yr confirmed; the "2024 Land Law expanded mortgage rights to foreign-owned credit institutions" claim is **WITHDRAWN as unverified** — Land Law Art. 41 unchanged. STR enforcement authority also re-verified — the **district tier was abolished**, administrative units now run province → commune/ward under the Law on Organization of Local Government No. 72/2025/QH15 Art. 1(1), so "district-level STR enforcement" is obsolete framing; HCMC Quyết định 19/2026/QĐ-UBND is **city-wide, not ward discretion**. Earlier 2026-07-02: HCMC STR rule re-verified — Quyết định 19/2026/QĐ-UBND, effective 25 Apr 2026, supersedes 26/2025/QĐ-UBND; corrects prior 26/2024 mis-citation. Earlier 2026-05-27 sweep: MONRE → MAE merger propagated; Hague Apostille effective 11 Sep 2026 flagged; transport, labour, environment and tax authority names corrected 2026-09-18 per moc.gov.vn + moha.gov.vn + vea.mae.gov.vn + Quyet dinh 381/QD-BTC)
 
 **Reform watch items** (track in `shared/regulatory-watch.md`):
 1. **2024 Land Law + 2023 Housing Law in force 2024-08-01** (Law 43/2024/QH15 of 29 Jun 2024 advanced both five months from the enacted 1 Jan 2025; re-verified in force and unamended on this point 2026-08-07) — implementing **Decree 95/2024/ND-CP** issued 24 Jul 2024, in force 1 Aug 2024. ⚠️ **Decree 102/2024/ND-CP's commencement date was NOT re-verified in that pass** and is not asserted here — verify at `https://congbao.chinhphu.vn/`. The **2023 Real Estate Business Law (29/2023/QH15)** commencement date was likewise NOT re-verified — verify separately at `https://congbao.chinhphu.vn/`.

@@ -13,7 +13,7 @@ ISO2: `li`. Status: ✅ Fully populated (researched 2026-05).
   - **~34% foreign nationals** (Swiss, Austrian, German dominant)
 - **Currency**: **CHF** (Swiss franc) — currency union with Switzerland under the Customs and Currency Treaty 1923 (Zollvertrag 1923 + Währungsvertrag 1980); SNB monetary policy applies; **no Liechtenstein franc**
 - **Language**: German (official); spoken language is **Alemannic dialect** (Liechtensteinerdeutsch) — close to St. Galler / Vorarlberger; written = Hochdeutsch
-- **Cadastre**: **Liegenschaftsregister (LREG)** + **Grundbuch** at the **Grundbuch- und Öffentlichkeitsregisteramt (GBORA)** — `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-`
+- **Cadastre**: **Liegenschaftsregister (LREG)** + **Grundbuch** kept centrally by the **Amt für Justiz** (Liechtensteinische Landesverwaltung, Vaduz) — `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-`
   - **Land-use viewer**: `https://service.geo.llv.li/` (Geodatenportal Liechtenstein)
 - **Identifier**: Parzellennummer + Gemeinde
 - **Memberships**: **EEA** (since 1995), **Schengen** (since 2011), **EFTA**; **NOT in EU**, NOT in Swiss customs union for goods (Liechtenstein is in EEA single market with CH bilateral overlay)
@@ -30,10 +30,10 @@ ISO2: `li`. Status: ✅ Fully populated (researched 2026-05).
   - Statistisches Jahrbuch (Yearbook) annual: `https://www.llv.li/de/landesverwaltung/amt-fuer-statistik/publikationen-as` (verify exact URL — page restructured 2024)
 - **Liechtensteinische Landesbank (LLB) Marktanalyse**: `https://www.llb.li/` — bank publishes occasional Liechtenstein real-estate notes (institutional, not free index)
 - **VP Bank Research**: `https://www.vpbank.com/` — wealth-manager market views
-- **GBORA / Grundbuchamt**: `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-` — paid Auszug (Grundbuchauszug) for individual parcel sale-price extracts; **no public sale-price API**
+- **Amt für Justiz — Grundbuch**: `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-` — paid Auszug (Grundbuchauszug) for individual parcel sale-price extracts; **no public sale-price API**
 - **Cross-reference Swiss data** (St. Galler Rheintal + Werdenberg): Wüest Partner, Comparis, Homegate often used as proxy because catchment is contiguous and price levels track Sarganserland / Werdenberg ±10%
 
-> ⚠️ Liechtenstein does NOT publish a Statistik-Austria-equivalent Häuserpreisindex at quarterly frequency. Aggregate price benchmarks below are **est.** based on cross-border comparables + reported Verkaufsfälle in Statistisches Jahrbuch + sampled listings on homegate.li and llb.li/immo. Verify any specific deal via GBORA Grundbuchauszug.
+> ⚠️ Liechtenstein does NOT publish a Statistik-Austria-equivalent Häuserpreisindex at quarterly frequency. Aggregate price benchmarks below are **est.** based on cross-border comparables + reported Verkaufsfälle in Statistisches Jahrbuch + sampled listings on homegate.li and llb.li/immo. Verify any specific deal via an Amt für Justiz Grundbuchauszug.
 
 ### Listing platforms
 
@@ -56,7 +56,7 @@ ISO2: `li`. Status: ✅ Fully populated (researched 2026-05).
 | **Ruggell / Schellenberg** (north Unterland) | ≈ 7,500–10,500 | ≈ 7,000–10,000 |
 | **Planken** (smallest, alpine) | ≈ 9,000–13,000 | scarce inventory |
 
-> Source: cross-tabulated from homegate.ch LI listings (2025-2026) + LLB market notes + adjacent CH Werdenberg/Sarganserland Wüest Partner data. **Liechtenstein property is among the most expensive per m² in Europe**, broadly comparable to Zürich-region tier-2 communes; small lot supply + GVG demand-restriction + tax-resident affluence drive scarcity premium. `(per listings — verify with GBORA + bank appraisal on visit)`
+> Source: cross-tabulated from homegate.ch LI listings (2025-2026) + LLB market notes + adjacent CH Werdenberg/Sarganserland Wüest Partner data. **Liechtenstein property is among the most expensive per m² in Europe**, broadly comparable to Zürich-region tier-2 communes; small lot supply + GVG demand-restriction + tax-resident affluence drive scarcity premium. `(per listings — verify with the Amt für Justiz + bank appraisal on visit)`
 
 ### Compute
 
@@ -120,8 +120,8 @@ Sollertrag is added to taxable INCOME and taxed under Erwerbssteuer
 
 - **Handänderungsabgabe (transfer fee)**: nominally **1.0%** of purchase price for residential, paid by buyer (or split per contract); Gemeinden may set own rate but typical practice is 1.0% — verify per Gemeinde
   - Some Gemeinden levy partial fee 0.5%; **always confirm with the Gemeindesteueramt** of the property's commune
-- **Grundbuch-Eintragungsgebühr (registration fee)**: per GBORA tariff — small fixed component + ad-valorem; typically <0.5% of price (verify current Tarif at `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-`)
-- **Notar / Rechtsanwalt**: notarial deed is **NOT mandatory** for property transfer in Liechtenstein (unlike CH/AT/DE). Sale contract can be private (Schriftlichkeitsgebot per § 481 ABGB-LI / Sachenrecht), then submitted to GBORA. **A Rechtsanwalt is in practice always engaged** for drafting + GVG application — fees typically 0.5–1.5% of price; regulated by Liechtensteiner Rechtsanwaltskammer schedule (`https://www.lirak.li/`)
+- **Grundbuch-Eintragungsgebühr (registration fee)**: **6 ‰ (0.6 %) of the consideration** — of the Steuerschätzwert where there is none — **minimum CHF 200 per Handänderung**, per the Grundbuch- und Handelsregistergebührenverordnung (GbHr-GebV, LR 214.011, Fassung 01.08.2024, Anhang 1 B(a)), levied by the **Amt für Justiz** (2024 tariff in force, source Lilex LR 214.011; 2026-09-18 verified) — [ordinance text](https://www.gesetze.li/konso/2003067000)
+- **Notar / Rechtsanwalt**: notarial deed is **NOT mandatory** for property transfer in Liechtenstein (unlike CH/AT/DE). Sale contract can be private (Schriftlichkeitsgebot per § 481 ABGB-LI / Sachenrecht), then submitted to the Amt für Justiz. **A Rechtsanwalt is in practice always engaged** for drafting + GVG application — fees typically 0.5–1.5% of price; regulated by Liechtensteiner Rechtsanwaltskammer schedule (`https://www.lirak.li/`)
 - **Maklerprovision**: typically 2–3% (often seller-paid, no Bestellerprinzip statute as in AT/CH) — verify in Mäklervertrag
 
 ### Total transaction cost (buyer side, est.)
@@ -446,7 +446,7 @@ For nearly all international buyers without an existing Liechtenstein residence 
 
 | Authority | When to call |
 |---|---|
-| **Grundbuch- und Öffentlichkeitsregisteramt (GBORA)** | Title verification, encumbrances — `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-` |
+| **Amt für Justiz — Grundbuch** | Title verification, encumbrances — `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-` |
 | **Grundverkehrskommission (GVK)** | GVG approval (foreign-buyer feasibility) |
 | **Ausländer- und Passamt (APA)** | Residence permits / quotas — `https://www.llv.li/de/landesverwaltung/apa` |
 | **Steuerverwaltung** | Vermögenssteuer / Sollertrag / Erwerbssteuer — `https://www.llv.li/de/landesverwaltung/steuerverwaltung` |
@@ -463,7 +463,7 @@ For nearly all international buyers without an existing Liechtenstein residence 
 
 - **Parzellennummer + Gemeinde** = the canonical property identifier (PLZ + street is often insufficient for register pulls)
 - **Grundbuchauszug** sections (Liechtenstein follows the Sachenrecht structure modelled on Swiss ZGB): Hauptbuch + Tagebuch + Beilagen — request all three
-- **Servituten** (easements): Wegrecht, Wohnrecht, Niessbrauch — common; verify via GBORA
+- **Servituten** (easements): Wegrecht, Wohnrecht, Niessbrauch — common; verify via the Amt für Justiz
 - **Vorkaufsrecht** (preemption) sometimes attached, especially family-line agricultural parcels
 - **Stockwerkeigentum Wertquote** allocates Erneuerungsfonds + voting rights — read the Begründungsurkunde + Reglement
 - **Currency reality**: list prices ALWAYS in CHF; mortgage offers from LLB / VP Bank in CHF; EUR-denominated foreign buyer carries FX exposure
@@ -476,7 +476,7 @@ For nearly all international buyers without an existing Liechtenstein residence 
 
 | Source | URL pattern |
 |---|---|
-| GBORA Grundbuch | `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-` |
+| Amt für Justiz — Grundbuch | `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-` |
 | Geodatenportal | `https://service.geo.llv.li/` |
 | Statistik Liechtenstein | `https://www.llv.li/de/landesverwaltung/amt-fuer-statistik` |
 | Steuerverwaltung | `https://www.llv.li/de/landesverwaltung/steuerverwaltung` |
@@ -502,11 +502,11 @@ For nearly all international buyers without an existing Liechtenstein residence 
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Grundstücksgewinnsteuer Tarif Art. 19 Bst. a SteG + 200% Zuschlag Art. 43 SteG with no holding-period adjustment in statute, Erbschafts-/Schenkungssteuer abolished entirely 1 Jan 2011 across all relations, Widmungssteuer on Stiftung endowments, GVG Art. 6 + GVO 2007 foreign-acquisition cap 1,440 m² + 1 building OR 2 condos, CHF currency via 1980 monetary agreement). MEDIUM on Ersatzbeschaffung relief (Art. 36 SteG closed-catalog reading — no 2-yr rollover available for private real estate), Bank Frick + LLB mortgage-list current product mix (verify at point of analysis), and population / foreign-share datapoints. LOW on residential listing-price currentness (thin market, low transaction volume — pull current asking at point of analysis).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (Grundbuch registration fee and registry authority corrected 2026-09-18 per Lilex LR 214.011)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: For 95%+ of international buyers the **Grundverkehrsgesetz (GVG, LR 214.11) approval gate is the binding deal-killer** — non-resident foreigners are effectively barred from residential acquisition regardless of price/tax fundamentals; only EEA nationals with active Liechtenstein residence permit + domicile, or rare "particular Liechtenstein connection" cases, clear the Grundverkehrskommission. Residency itself is quota-based via lottery (~28 EEA + ~17 third-country permits/year per APA) with no investment-track equivalent to Monaco/Andorra. Tax + transaction costs are modest (no standalone property tax; property folded into Vermögenssteuer/Sollertrag; ~2–6% buyer transaction cost) and absolute price levels are Zürich-tier — but the legal/permission bar dominates. Primary-source confidence is HIGH for GVG/quotas/tax structure (gesetze.li + llv.li); MEDIUM for granular per-Gemeinde €/m² benchmarks (no STATEC-grade quarterly index — small-country sample limit means ranges are est. and cross-referenced against adjacent CH Werdenberg/Sarganserland Wüest Partner data — verify any specific deal via GBORA Grundbuchauszug + bank appraisal).
+**Notes**: For 95%+ of international buyers the **Grundverkehrsgesetz (GVG, LR 214.11) approval gate is the binding deal-killer** — non-resident foreigners are effectively barred from residential acquisition regardless of price/tax fundamentals; only EEA nationals with active Liechtenstein residence permit + domicile, or rare "particular Liechtenstein connection" cases, clear the Grundverkehrskommission. Residency itself is quota-based via lottery (~28 EEA + ~17 third-country permits/year per APA) with no investment-track equivalent to Monaco/Andorra. Tax + transaction costs are modest (no standalone property tax; property folded into Vermögenssteuer/Sollertrag; ~2–6% buyer transaction cost) and absolute price levels are Zürich-tier — but the legal/permission bar dominates. Primary-source confidence is HIGH for GVG/quotas/tax structure (gesetze.li + llv.li); MEDIUM for granular per-Gemeinde €/m² benchmarks (no STATEC-grade quarterly index — small-country sample limit means ranges are est. and cross-referenced against adjacent CH Werdenberg/Sarganserland Wüest Partner data — verify any specific deal via an Amt für Justiz Grundbuchauszug + bank appraisal).
 
 ## Extension TODOs
 

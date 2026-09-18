@@ -4,13 +4,13 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ## Country profile
 
-- **Postcode (Código Postal)**: 6 digits (DPA-coded), e.g. **170150** Quito centre, **090150** Guayaquil centro, **010150** Cuenca centro. Operated by [Correos del Ecuador](https://www.telecomunicaciones.gob.ec/comunicado-oficial-correos-del-ecuador) — first 2 digits = provincia, next 2 = cantón, last 2 = parroquia / sector
+- **Postcode (Código Postal)**: 6 digits (DPA-coded), e.g. **170150** Quito centre, **090150** Guayaquil centro, **010150** Cuenca centro. first 2 digits = provincia, next 2 = cantón, last 2 = parroquia / sector. **Correos del Ecuador EP (CDE EP) is in liquidation**: Decreto Ejecutivo No. 1244 ordered its escisión and the transfer of the Servicio Postal Universal to **Servicios Postales del Ecuador (SPE EP)** — verify the current operator with [MINTEL](https://www.telecomunicaciones.gob.ec/comunicado-oficial-correos-del-ecuador) (source MINTEL official communiqué; 2026-09-18 verified). The DPA code structure itself is unaffected by the operator change
 - **Admin levels**: 24 **provincias** → 221 **cantones** → ~1,500 **parroquias** (urbanas + rurales) → barrios / ciudadelas / recintos. Galápagos (provincia 20) governed under [Ley Orgánica de Régimen Especial de Galápagos (LOREG)](https://www.gob.ec/) — distinct land-tenure regime
 - **Currency**: **USD (US dollar)** — dollarization adopted **9 January 2000** ([BCE — 25 años de dolarización](https://www.bce.fin.ec/25/index.html)); formalized by the Ley para la Transformación Económica del Ecuador (Ley Trolebús, Mar 2000), replacing sucre at 25,000:1 after the 1999 banking crisis. **Banco Central del Ecuador (BCE)** issues only **centavos** coins; USD banknotes are Federal Reserve issuance. **No FX risk for USD holders** — UNIQUE selling point in LATAM
 - **Languages**: **Spanish** (official, [Constitución 2008 art. 2](https://www.gob.ec/)); **Kichwa** + **Shuar** co-official within their territories; English in Cuenca expat zones, tourist areas (Quito Mariscal, Guayaquil Las Peñas, Salinas, Manta, Galápagos)
 - **Population**: ~17.7 M (2024 [INEC](https://www.ecuadorencifras.gob.ec/) mid-year est.) — Quito ~2.0 M (DMQ 2.8 M metro), Guayaquil ~2.7 M (3.4 M metro), Cuenca ~600 k, Santo Domingo ~470 k, Machala ~290 k, Manta ~270 k, Ambato ~200 k
 - **Cadastre**: **Decentralized at municipal (cantón) level** — there is **NO single national cadastre**. Each **GAD Municipal** ([Gobiernos Autónomos Descentralizados](https://www.gob.ec/)) maintains its own *catastro urbano + rural*. Major cities expose web portals: [Catastro Quito (DMQ)](https://www.quito.gob.ec/), [Catastro Guayaquil](https://www.guayaquil.gob.ec/), [Catastro Cuenca](https://www.cuenca.gob.ec/). National coordination via **SENPLADES** (national planning) + GeoCatastro initiatives but no unified portal as of 2026
-- **Land registry**: **Registro de la Propiedad** per cantón (separate from Catastro Municipal); supervised nationally by [DINARDAP — Dirección Nacional de Registros Públicos](https://www.gob.ec/dinarp) since 2010 reform
+- **Land registry**: **Registro de la Propiedad** per cantón (separate from Catastro Municipal); supervised nationally by [DINARP — Dirección Nacional de Registros Públicos](https://www.gob.ec/dinarp) (formerly DINARDAP, Dirección Nacional de Registro de Datos Públicos) since the 2010 reform (2026 data, source gob.ec/dinarp; 2026-09-18 verified)
 - **Identifier**: parcel-level **Clave Catastral** (per Municipio) + **Predio Number** + **Inscripción del Registro de la Propiedad** (legal title). Both required for clean diligence
 - **Foreign-buyer regime** (CRITICAL): **OPEN** — Ecuador imposes no general prohibition on foreign ownership of residential/urban property; foreigners buy freely in Quito, Guayaquil, Cuenca, Manta, Salinas, Ambato, Loja core urban areas. **RESTRICTED zones**: [Constitución art. 405](https://votoenelexterior.cne.gob.ec/wp-content/uploads/2026/01/CONSTITUCION-DE-LA-REPUBLICA-DEL-ECUADOR.pdf) bars foreign natural/legal persons from acquiring land or concessions *"en las áreas de seguridad nacional ni en áreas protegidas"*, so the 50 km international-border strip + Galápagos + protected/national-security areas require prior **autorización de SECOB / Comando Conjunto de las Fuerzas Armadas** under [Ley de Seguridad Pública y del Estado](https://www.gob.ec/)
 
@@ -71,7 +71,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Sources
 
-- **MTOP — Ministerio de Transporte y Obras Públicas**: [`https://www.mit.gob.ec`](https://www.mit.gob.ec) — *Inventario de la Red Vial Estatal* + TPDA counts on Red Vial Estatal (E-roads)
+- **Ministerio de Infraestructura y Tecnología (MIT)** — successor to MTOP: [`https://www.mit.gob.ec`](https://www.mit.gob.ec); road-network and public-works data run through **SITOP (Sistema de Información de Transporte y Obras Públicas)**. The *Inventario de la Red Vial Estatal* and TPDA counts are not published on the ministry's current homepage — data not publicly located; verify at MIT / SITOP (2026 data, source mit.gob.ec; 2026-09-18 verified)
 - **ANT — Agencia Nacional de Tránsito**: [`https://www.ant.gob.ec/`](https://www.ant.gob.ec/) — vehicular registration + accident statistics
 - **AMT — Agencia Metropolitana de Tránsito Quito**: [`https://www.amt.gob.ec/`](https://www.amt.gob.ec/) + **ATM Guayaquil** + **EMOV-EP Cuenca** — city aforos vehiculares + Pico y Placa schemes
 
@@ -802,7 +802,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | Cancillería — Movilidad Humana | `https://www.cancilleria.gob.ec/` |
 | Ministerio del Trabajo | `https://www.trabajo.gob.ec/` |
 | Ministerio del Interior | `https://www.ministeriodelinterior.gob.ec/` |
-| MTOP — Obras Públicas | `https://www.mit.gob.ec` |
+| MIT — Ministerio de Infraestructura y Tecnología (ex-MTOP) | `https://www.mit.gob.ec` |
 | ANT — Tránsito | `https://www.ant.gob.ec/` |
 | SGR — Gestión de Riesgos | `https://www.gestionderiesgos.gob.ec/` |
 | IGEPN — Geofísico EPN | `https://www.igepn.edu.ec/` |
@@ -813,7 +813,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | BIESS — IESS Bank | `https://www.biess.fin.ec/` |
 | Superbancos | `https://www.superbancos.gob.ec/` |
 | Supercias — Compañías + Seguros | `https://www.supercias.gob.ec/` |
-| DINARDAP — Registros Públicos | `https://www.gob.ec/dinarp` |
+| DINARP — Dirección Nacional de Registros Públicos | `https://www.gob.ec/dinarp` |
 | Funcion Judicial / Notarías | `https://www.funcionjudicial.gob.ec/` |
 | ARCOTEL — Telecom | `https://www.arcotel.gob.ec/` |
 | ARCA — Agua | `https://www.regulacionagua.gob.ec/` |
@@ -828,7 +828,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (IVA 15% per Decreto Ejecutivo 198/2024 + Ley Orgánica Reforma Tributaria; CGT short-term test reduced 5y → 1y; Visa de Inversionista USD 47,000 (100×SBU 470); USD-dollarised currency since 2000; SRI tax-residency tests; Visa 10-II + Visa 11-VI investor / pensionado routes). MEDIUM on parcel-level municipal predial assessment values, current blackout duration (national hydropower-deficit-driven, oscillating 8–14 hr through 2025–2026 dry seasons — verify with CENACE at point of analysis), and STR municipal-level rules (no national statute; Quito + Cuenca + Galápagos varying). LOW on residential price benchmarks (no national HPI; aggregator listings + Numbeo + Properstar with broker bias).
 
-**Last verified**: 2026-08-08 (crime + security section only — armed-conflict decree corrected to DE 111 of 9 Jan 2024 against Suplemento al Registro Oficial No. 474, DE 218 of 7 Apr 2024 added as the post-April basis, homicide series re-based to the 2025 peak; balance of the 2026-05-27 pass unchanged); NDC target corrected 2026-09-18 per MAATE/RNCC — Second NDC 2026–2035 supersedes the 2019 first NDC
+**Last verified**: 2026-08-08 (crime + security section only — armed-conflict decree corrected to DE 111 of 9 Jan 2024 against Suplemento al Registro Oficial No. 474, DE 218 of 7 Apr 2024 added as the post-April basis, homicide series re-based to the 2025 peak; balance of the 2026-05-27 pass unchanged); NDC target corrected 2026-09-18 per MAATE/RNCC — Second NDC 2026–2035 supersedes the 2019 first NDC (registry and infrastructure-ministry names corrected 2026-09-18 per gob.ec/dinarp + mit.gob.ec)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

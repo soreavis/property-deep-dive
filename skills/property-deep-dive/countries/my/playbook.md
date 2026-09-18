@@ -13,7 +13,7 @@ ISO2: `my`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
   - Source: Department of Statistics Malaysia (DOSM) `https://www.dosm.gov.my/`
 - **Currency**: MYR (Malaysian ringgit, RM). 1 USD ≈ 4.4–4.7 MYR; 1 EUR ≈ 4.8–5.1 MYR (Apr 2026 BNM reference; FX volatile, verify at `https://www.bnm.gov.my/exchange-rates`).
 - **Languages**: Bahasa Malaysia (official); English widely used in property law, SPA contracts, professional services and developer marketing; Mandarin, Tamil and many Chinese dialects in commerce. **Most title documents (geran) are in Bahasa Malaysia** — sworn translation may be needed for foreign buyers.
-- **Cadastre / land registry**: state level via Land and Mines Offices (Pejabat Pengarah Tanah dan Galian Negeri, PTG) and District Land Offices (Pejabat Tanah Daerah, PTD). Federal coordinator **JKPTG** — `https://www.jkptg.gov.my/`. Survey & mapping **JUPEM** — `https://www.jupem.gov.my/`. Online land searches via **e-Tanah** state portals (Selangor `https://etanah.selangor.gov.my/`, WP/KL `https://myland.gov.my/`); Sabah and Sarawak run independent systems.
+- **Cadastre / land registry**: state level via Land and Mines Offices (Pejabat Pengarah Tanah dan Galian Negeri, PTG) and District Land Offices (Pejabat Tanah Daerah, PTD). Federal coordinator **JKPTG** — `https://www.jkptg.gov.my/`. Survey & mapping **JUPEM** — `https://www.jupem.gov.my/`. Online land searches: state **e-Tanah** portals (Selangor `https://etanah.selangor.gov.my/` ⚠️ resolves but refused both probe egresses on 2026-09-18 — treat as unverified, not dead); for the **Federal Territories**, **MyLAND — Sistem Pengurusan Tanah Persekutuan dan Pembahagian Pusaka**, run by **JKPTG** (Kementerian Sumber Asli dan Kelestarian Alam), `https://myland.gov.my/` — **title search requires a registered account**; only eSemakan and ePayment are public. Sabah and Sarawak run independent systems.
 - **Title types** (CRITICAL — only freehold and leasehold under registered title are safely transferable to foreigners):
 
 | Code / Term | Description | Foreign use | Notes |
@@ -80,7 +80,7 @@ Foreigners can purchase residential property in their own name (freehold or leas
 - **Legal basis**: NLC 1965 §433B (Peninsular) requires state authority consent for *every* foreign acquisition unless pre-exempted for that price band.
 - **Practical process**: most states with thresholds ≥ MYR 1,000,000 grant **general consent** for purchases above the floor — issued as part of the standard transfer. Below the threshold, no consent route exists.
 - **Application step**: lawyer files §433B with the transfer at the state Land Office; processing 4–12 weeks.
-- **EPU (Economic Planning Unit)** — historically required for large commercial / industrial / agricultural acquisitions. **For residential purchases above the state foreigner threshold, EPU approval is generally NOT required** under revised EPU Guidelines (verify `https://ekonomi.gov.my/`). EPU still applies to property-company equity transfers and commercial/industrial > MYR 20M.
+- **Ministry of Economy** (the department that publishes the former **EPU — Economic Planning Unit** Guidelines; `epu.gov.my` no longer resolves, the portal is `https://ekonomi.gov.my/`) — approval historically required for large commercial / industrial / agricultural acquisitions. **For residential purchases above the state foreigner threshold, approval is generally NOT required** under the revised Guideline on the Acquisition of Properties. EPU still applies to property-company equity transfers and commercial/industrial > MYR 20M.
 - **Sabah and Sarawak**: separate consent regimes under Sabah Land Ordinance (Cap. 68) / Sarawak Land Code (Cap. 81); engage locally admitted lawyer.
 
 ### MM2H (Malaysia My Second Home) — relaunched June 2024
@@ -175,7 +175,7 @@ Foreigners can purchase residential property in their own name (freehold or leas
 
 ### Primary sources
 
-- **JKR (Public Works, Jabatan Kerja Raya)** — Annual Daily Traffic (ADT) on federal roads. `https://www.jkr.gov.my/`
+- **JKR (Public Works, Jabatan Kerja Raya)** — federal-road authority. `https://www.jkr.gov.my/` ⚠️ **the traffic-count dataset was not located on JKR's reachable pages** — annual daily traffic (ADT) figures: data not publicly available at this source — verify with JKR's road-statistics publication or the Ministry of Works. (Host refuses EU/US egresses; reachable via a Malaysian route.)
 - **LLM (Highway Authority)** — toll expressway traffic. `https://www.llm.gov.my/`
 - **PLUS Malaysia** (NSE concessionaire) — annual traffic in financial reports. `https://www.plus.com.my/`
 - **DBKL** — KL-specific traffic dashboard. `https://www.dbkl.gov.my/`
@@ -235,7 +235,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 
 #### Stamp duty — Memorandum of Transfer (MOT)
 
-> Source: Stamp Act 1949 + Finance Act amendments, administered by LHDN — `https://www.hasil.gov.my/en/stamp-duty`
+> Source: **Stamp Act 1949, First Schedule** (the ad-valorem MOT scale) + Finance Act amendments, administered by LHDN — overview at `https://www.hasil.gov.my/en/duti-setem/` (⚠️ the LHDN landing page states only that "the rate of duty varies according to the nature of the instruments and the consideration"; the band percentages come from the Act's First Schedule, not from this page — 2026-09-18 verified) · e-stamping `https://stamps.hasil.gov.my/stamps/`
 
 **Citizen / PR rates** (progressive, on consideration / market value, whichever higher):
 
@@ -386,7 +386,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 
 ### Salaried benchmarks (MYR/month, 2025 reference)
 
-- **Minimum wage**: MYR 1,700/month (Peninsular, Feb 2025 revision — verify current rate at MOHR; rates/figures may have changed since) — `https://www.mohr.gov.my/`
+- **Minimum wage**: **MYR 1,700/month nationwide** under the **Minimum Wages Order 2024 [P.U. (A) 376]**, gazetted 4 Dec 2024 — in force **1 Feb 2025** for employers with five or more employees and for MASCO professional-activity employers of any size, and **1 Aug 2025 for all employers** with no headcount exception; **domestic servants are excluded**. There is no Peninsular / Sabah / Sarawak split (2025 data, source Minimum Wages Order 2024 P.U. (A) 376; 2026-09-18 verified) — [gazette PDF](https://gajiminimum.mohr.gov.my/wp-content/uploads/PUA%20376.pdf) · ministry (now branded **KESUMA**) `https://www.mohr.gov.my/`
 - **DOSM Salaries & Wages Survey 2024** median monthly: ~MYR 2,700 nationally; KL ~MYR 3,800
 - **est. market bands (not DOSM categories — verify)**: skilled professional KL ~MYR 6,000–12,000; MNC mid-management ~MYR 12,000–25,000; C-suite ~MYR 25,000+
 - Source: DOSM Salaries & Wages Report `https://www.dosm.gov.my/`
@@ -609,7 +609,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 | Source | URL |
 |---|---|
 | JKPTG / JUPEM | `https://www.jkptg.gov.my/`, `https://www.jupem.gov.my/` |
-| e-Tanah (Selangor / FT-KL) | `https://etanah.selangor.gov.my/`, `https://myland.gov.my/` |
+| e-Tanah (Selangor) / MyLAND (Federal Territories, JKPTG — account required) | `https://etanah.selangor.gov.my/`, `https://myland.gov.my/` |
 | KPKT | `https://www.kpkt.gov.my/` |
 | Laws of Malaysia online | `https://lom.agc.gov.my/` |
 | Sabah / Sarawak Lands | `https://jtu.sabah.gov.my`, `https://landsurvey.sarawak.gov.my/` |
@@ -652,4 +652,4 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 7. **RTS Link Johor–Singapore opening 2026** — Iskandar property demand catalyst.
 8. **Sabah seismic code review** — post-Ranau 2015 + post-Myanmar 2025 quakes; verify current MS EN 1998-1 National Annex.
 
-**Last verified**: 2026-08-07 (`--rental` STR patch from `shared/regulatory-watch.md` — Penang TIP strata guideline in force 1 Apr 2023 / full implementation 1 Mar 2024, MBPP island whitelist vs MBSP mainland wider scope, 180-night + 3-day/week caps, three-quarters JMB/MC resolution under SMA 2013 ss. 32(3)+70(2); MBPJ Rumah Penginapan licensing; DBKL STR SOP). Prior sweep 2026-05-27 (Foreigner MOT 8% eff. 1 Jan 2026 (Budget 2026); MM2H USD tiers restated (Silver 150k/Gold 500k/Platinum 1M); FSI individuals extended to 31 Dec 2036).
+**Last verified**: 2026-08-07 (`--rental` STR patch from `shared/regulatory-watch.md` — Penang TIP strata guideline in force 1 Apr 2023 / full implementation 1 Mar 2024, MBPP island whitelist vs MBSP mainland wider scope, 180-night + 3-day/week caps, three-quarters JMB/MC resolution under SMA 2013 ss. 32(3)+70(2); MBPJ Rumah Penginapan licensing; DBKL STR SOP). Prior sweep 2026-05-27 (Foreigner MOT 8% eff. 1 Jan 2026 (Budget 2026); MM2H USD tiers restated (Silver 150k/Gold 500k/Platinum 1M); FSI individuals extended to 31 Dec 2036; minimum wage corrected 2026-09-18 per Minimum Wages Order 2024 P.U. (A) 376).

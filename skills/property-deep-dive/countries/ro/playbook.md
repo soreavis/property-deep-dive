@@ -15,7 +15,7 @@ Romania (~19M pop) joined EU 2007 and **completed full Schengen integration 1 Ja
 ## Section: `--price`
 
 **Primary index**: **INS (Institutul Național de Statistică)** — quarterly HPI (IPL)
-- https://www.insse.ro/ (intermittent 503; flag in skill)
+- https://www.insse.ro/ (**permanent** JavaScript browser-verification wall — returns HTTP 503 with a "Verifying your browser" proof-of-work body to every non-JS client, on http and https; the site is alive, this is not an outage — allowlist `insse.ro` in the URL-liveness workflow rather than re-chasing it each cycle. 2026-09-18 verified)
 - **Q4 2025 HPI**: 168.99 (2015=100); up from 166.14 in Q3
 
 **Bucharest market value (Dec 2025)**: ~**€2,204/m²** average, **+16.6% YoY** (Imobiliare.ro/GlobalPropertyGuide aggregation; INS doesn't publish €/m² directly)
@@ -157,7 +157,7 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 
 **ANCPI — Agenția Națională de Cadastru și Publicitate Imobiliară**:
 - https://www.ancpi.ro/ — institutional (RO + EN)
-- https://geoportal.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — INSPIRE-compliant national geoportal; parcel viewer at `/geoportal/imobile/Harta.html`. Public.
+- https://geoportal.ancpi.ro/ ❌ OFFLINE — ANCPI's public Geoportal is among the platforms (with RTI, MyEterra, Registrul proprietarilor, Titluri de proprietate) that ANCPI states will be brought back "etapizat" after the August 2026 e-Terra outage (11–19 Aug 2026; payment-link function restored 20 Aug 2026) — verify at ANCPI https://www.ancpi.ro/ and the county OCPI. When restored: INSPIRE-compliant national geoportal; parcel viewer at `/geoportal/imobile/Harta.html`. Public. (2026 data, source ANCPI; 2026-09-18 verified)
 - https://eterra3.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — eTerra3, integrated cadastre + land book. **Auth-only** (notaries, lawyers, executors get credentials)
 - https://myeterra.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — citizen self-service portal. **Auth via ROeID** — foreign buyer without ROeID **cannot self-serve**; must instruct RO notary or lawyer to pull `extras de carte funciară` (~RON 25–40 electronic, RON 100+ paper sealed)
 - **CF (carte funciară) is the canonical identifier** for any parcel
@@ -263,7 +263,7 @@ Universal — see `shared/climate-projections.md`.
 | Field | Template |
 |---|---|
 | Cadastral extract (myeTerra) | https://myeterra.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
-| Cadastre map | https://geoportal.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Cadastre map | https://geoportal.ancpi.ro/ ❌ OFFLINE — ANCPI's public Geoportal is among the platforms (with RTI, MyEterra, Registrul proprietarilor, Titluri de proprietate) that ANCPI states will be brought back "etapizat" after the August 2026 e-Terra outage (11–19 Aug 2026; payment-link function restored 20 Aug 2026) — verify at ANCPI https://www.ancpi.ro/ and the county OCPI (2026 data, source ANCPI; 2026-09-18 verified) |
 | HPI quarterly | https://www.insse.ro/ |
 | Bucharest seismic class | https://amccrs-pmb.ro/ |
 | Property-tax CGT | https://taxsummaries.pwc.com/romania/individual/income-determination |

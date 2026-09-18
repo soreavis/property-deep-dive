@@ -439,7 +439,7 @@ For the property's locality, return:
 ### 🇨🇱 Chile
 
 - **Carabineros de Chile**: `https://www.carabineros.cl/` — police statistics
-- **Subsecretaría de Prevención del Delito (SPD)**: `https://www.ine.gob.cl/` — ENUSC (Encuesta Nacional Urbana de Seguridad Ciudadana) victimization survey + DEIS administrative data
+- **INE (Instituto Nacional de Estadísticas)**: `https://www.ine.gob.cl/` — ENUSC (Encuesta Nacional Urbana de Seguridad Ciudadana) victimization survey, published under "Seguridad ciudadana" / "Estadísticas Experimentales — Seguridad Ciudadana"; ENUSC is run jointly with the **Subsecretaría de Prevención del Delito (SPD)**, whose own site (`subprevenciondeldelito.gob.cl`) refuses connections from outside Chile — verify there from a Chilean egress. Note Chile's government namespace is **.gob.cl**, not `.gov.cl` (2026-09-18 verified).
 - **PDI (Policía de Investigaciones)**: `https://www.pdichile.cl/` — investigative crime
 - **Granularity**: per-región (16) + per-comuna (346) + Santiago Metropolitan Region comuna-level routine
 - **Caveat**: ENUSC vs Carabineros gap (victim survey shows ~3-5x higher than recorded); 2019 social unrest + 2022-2024 organized-crime expansion (esp. Tren de Aragua) created series-break in Antofagasta/Iquique/Arica; Las Condes/Vitacura/Lo Barnechea materially lower than national avg
@@ -500,7 +500,7 @@ For the property's locality, return:
 
 ### 🇲🇦 Morocco
 
-- **DGSN (Direction Générale de la Sûreté Nationale)**: `https://www.dgsn.gov.ma/` — annual press conference + bulletins (urban areas)
+- **DGSN (Direction Générale de la Sûreté Nationale)**: `https://www.dgsn.gov.ma/` — institutional portal; its published series is مجلة الشرطة (police magazine) only, with no statistical bulletin section as of 2026-09-18. Crime figures: data not publicly available on the DGSN site — verify via DGSN's annual security-record press communication and the **HCP (Haut-Commissariat au Plan, https://www.hcp.ma/)** victimisation surveys. ⚠️ Host is IP-geofenced — expect it to read as dead from non-MA egress.
 - **Gendarmerie Royale**: rural areas outside DGSN jurisdiction
 - **HCP (Haut-Commissariat au Plan) victimization surveys**: `https://www.hcp.ma/` — periodic enquêtes (most recent 2018-2019)
 - **Granularity**: national + per-region (12) headlines; per-prefecture/province inconsistently published; per-arrondissement (Casablanca/Rabat) only via DGSN press
@@ -606,7 +606,7 @@ For the property's locality, return:
 
 ### 🇪🇨 Ecuador
 
-- **PNE (Policía Nacional del Ecuador)**: `https://www.policia.gob.ec/` — annual + monthly statistics + ECU-911 incident dispatch
+- **PNE (Policía Nacional del Ecuador)**: `https://www.policia.gob.ec/` — institution + operational results + ECU-911 incident dispatch; the site publishes news and "Más Buscados" listings, **not** a statistics archive — for annual/monthly crime series use INEC (next row) and the Ministerio del Interior (`https://www.ministeriodelinterior.gob.ec/`, resolves; not fetched this session) (2026-09-18 verified).
 - **INEC (Instituto Nacional de Estadística y Censos)**: `https://www.ecuadorencifras.gob.ec/` — Estadísticas de Seguridad Ciudadana + Encuesta de Victimización
 - **Fiscalía General del Estado**: `https://www.fiscalia.gob.ec/` — prosecutorial statistics
 - **Granularity**: per-provincia (24) + per-cantón (221) + Quito + Guayaquil + Cuenca district-level

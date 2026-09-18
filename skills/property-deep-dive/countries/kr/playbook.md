@@ -50,7 +50,6 @@ ISO2: `kr`. Status: ✅ Fully populated (researched 2026-05).
 - **호갱노노 (Hogangnono)** — `https://hogangnono.com/` — analytics-forward; integrates RTMS
 - **부동산114** — `https://www.r114.com/` — legacy, agent-tilted
 - **공실클럽** + **상가의신** — commercial / 상가
-- **점프부동산** — English-language foreigner-friendly: `https://www.koreaxpat.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 
 ### Premium-area benchmarks (2025-Q4 / 2026-Q1 reference, RTMS + KB부동산 + 공시가격)
 
@@ -380,13 +379,13 @@ Korea's rental market is bifurcated:
 
 | Source | URL | What it gives |
 |---|---|---|
-| **국가공간정보포털 (NSDI)** | `https://www.eum.go.kr/` | Cadastral overlay + zoning |
-| **토지이용규제정보서비스 (LURIS)** | `https://www.eum.go.kr/` | Parcel-level zoning + use restrictions + 보호구역 designations |
+| **일사편리 — 부동산 통합 민원** (cadastral: 부동산종합증명서, 지적측량 민원) | `https://kras.go.kr/` | Parcel cadastral record + integrated property certificate (2026-09-18 verified) |
+| **토지이음 (LURIS 후신)** | `https://www.eum.go.kr/` | Parcel-level zoning + use restrictions + 보호구역 designations |
 | **재해정보지도 (Disaster Information Map)** — 행정안전부 | `https://www.safemap.go.kr/` | Multi-hazard overlay: 풍수해 (storm/flood), 지진, 산사태, 지반침하 |
 | **기상청 (KMA — Korea Meteorological Administration)** | `https://www.weather.go.kr/` | Active hazard + climate data |
 | **국립재난안전연구원 (NDMI)** | `https://www.ndmi.go.kr/` | Disaster research data |
 | **한국지질자원연구원 (KIGAM)** + **기상청 지진화산정보** | `https://necis.kma.go.kr/` | Seismic catalogue + active fault data |
-| **국토교통부 홍수통제소** | `https://www.hrfco.go.kr/` | Flood forecast + water level |
+| **기후에너지환경부 홍수통제소** (한강 / 낙동강 / 금강 / 영산강) | `https://www.hrfco.go.kr/` | Flood forecast + water level — the flood-control offices are affiliated agencies of 기후에너지환경부 (formerly 환경부), not of 국토교통부 (2026-09-18 verified) |
 | **국립환경과학원 — 라돈지도** | `https://iaqinfo.nier.go.kr/` | Indoor radon survey data |
 | **산림청 산사태정보시스템** | `https://sansatai.forest.go.kr/` | Landslide hazard + warning |
 
@@ -558,7 +557,6 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 - **r/movingtokorea** — pre-relocation
 - **r/livingkorea** — daily life, housing posts
 - **Wagle.net + Naver 카페** — Korean-language; 강남부동산 / 부동산스터디 카페 deep insights
-- **Korea Property Insights blog** — `https://www.kpicorp.co.kr/` (Cushman & Wakefield localized analysis)
 - **Korea Real Estate Daily** — `https://www.kred.co.kr/`
 - **Asia Property Awards / IPA Korea** — periodic market reports
 
@@ -639,7 +637,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (cadastral/zoning portal identity and flood-control ministry corrected 2026-09-18 per kras.go.kr + eum.go.kr + mcee.go.kr)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

@@ -6,7 +6,7 @@ ISO2: `jo`. Status: ✅ Fully populated (researched 2026-04 / 2026-05). Foreign-
 
 ## Country profile
 
-- **Postcode**: 5-digit numeric (NNNNN). Amman city ranges 11118–11953, Zarqa 13110–13219, Irbid 21110–21199, Aqaba 77110. Source: Jordan Post `https://www.jordanpost.com.jo/` (verify postcode lookup).
+- **Postcode**: 5-digit numeric (NNNNN). Per-city ranges: data not publicly available from a reachable source in this pass — verify at a Jordan Post counter or against the UPU Postal Addressing Systems sheet for Jordan (https://www.address.post/PAS). ⚠️ Jordan Post's own site `https://www.jordanpost.com.jo/` is unusable as a citation: TLS certificate expired 2026-04-22 and the host serves a reCAPTCHA bot wall (verified 2026-09-18) — a certificate renewal would restore it with no URL change, so re-check in ~90 days.
 - **Admin levels**: 12 governorates (محافظات / muhafazat) → 52 districts (ألوية / liwa') → 89 sub-districts (أقضية / aqdiya) → ~100+ municipalities (بلديات / baladiyat). Greater Amman Municipality (GAM / أمانة عمان الكبرى) is a special municipality covering ~1,680 km². Source: Ministry of Local Administration `https://www.mola.gov.jo/` and DOS Department of Statistics `https://dosweb.dos.gov.jo/`.
 - **Population**: ~11.4 million (2024 DOS estimate, source `https://dosweb.dos.gov.jo/`). Urban-concentrated: Amman Metro ~4.5M, Zarqa Governorate ~1.5M, Irbid Governorate ~1.9M, Balqa ~0.55M, Aqaba ~0.20M. Significant non-Jordanian population (Syrian + Iraqi + Palestinian + Egyptian + GCC residents) — DOS counts ~30%+ of total population as non-citizens (mixed methodology; verify at `https://dosweb.dos.gov.jo/population/population-2/`).
 - **Currency**: **JOD (Jordanian dinar, د.أ.)** — pegged to USD at **1 JOD = 1.41044 USD (i.e., 1 USD ≈ 0.7090 JOD)** since October 1995, anchored by the Central Bank of Jordan (CBJ). The peg has held continuously through 30+ years and multiple regional shocks. Source: CBJ `https://www.cbj.gov.jo/Pages/viewpage.aspx?pageID=87` (exchange rates page; verify current rate). **No FX risk** for USD-denominated transactions; minimal capital controls; CBJ requires resident-account documentation but JOD ↔ USD conversion is unrestricted at banks.
@@ -173,7 +173,7 @@ Source: Ministry of Interior `https://www.moi.gov.jo/`; verify current at Invest
 | Platform | Coverage | Notes |
 |---|---|---|
 | **OpenSooq Jordan** (`https://jo.opensooq.com/`) | National; broad incl. resale | Largest classifieds aggregator in Jordan; Arabic + English; many duplicates |
-| **Aqar.fm Jordan** (`https://www.aqar.fm/jordan` or `https://aqar.jo/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | National; real estate-focused | Cleaner inventory than OpenSooq; agency + direct |
+| **Aqar.fm Jordan** — data not publicly available: both endpoints are gone (`aqar.jo` NXDOMAIN; `www.aqar.fm/jordan` redirects to the Saudi property and 404s, 2026-09-18). No verified Jordanian replacement portal — verify listings against the **Department of Land and Survey (dls.gov.jo)** record for the parcel | — | — |
 | **Jordan Real Estate** (`https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct)) | National | Established; English-friendly |
 | **Property Finder Jordan** (limited regional presence — verify currency) | Amman-focused premium | Cross-border; English |
 | **Bayut Jordan** (where active) | National | Verify current activity in Jordan market |
@@ -347,7 +347,7 @@ Jordanian residential rental is governed by the **Owners and Tenants Law** (rece
 
 **Status**: regulated but enforcement uneven.
 
-- **Tourism licensing**: short-term rentals operated commercially require licensing under the **Ministry of Tourism and Antiquities (MoTA)** + Jordan Hotels Association (`https://johotels.org/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Jordan Hotels Association via MoTA (mota.gov.jo)). Source: MoTA `https://www.mota.gov.jo/`.
+- **Tourism licensing**: short-term rentals operated commercially require licensing under the **Ministry of Tourism and Antiquities (MoTA)** + Jordan Hotels Association (`https://johotels.org/` — live, verified 2026-09-18). Source: MoTA `https://www.mota.gov.jo/`.
 - **Practical situation in Amman**: many informal Airbnb operations (especially in Abdoun + Sweifieh + Jabal Amman + 7th Circle) operate without licence — regulatory grey zone with periodic enforcement waves.
 - **Aqaba + Dead Sea**: STR demand is real but seasonality is sharp; resort compounds may forbid sub-letting in HOA bylaws.
 - **HOA bylaws** in modern Amman compounds (Abdali residences, Marina apartments, etc.) often **ban or restrict** short-let — read the bylaws before underwriting any STR yield.
@@ -416,8 +416,8 @@ Jordanian residential rental is governed by the **Owners and Tenants Law** (rece
 | **Jordan Meteorological Department (JMD)** | `https://jmd.gov.jo/` | Weather, sandstorm warnings, climate normals |
 | **Royal Jordanian Geographic Centre (RJGC)** | `https://www.rjgc.gov.jo/` | Topographic + hazard mapping (some restricted) |
 | **Ministry of Environment** | `https://www.moenv.gov.jo/` | National State of Environment reports; climate-vulnerability assessments |
-| **Public Security Directorate Civil Defence** | `https://psd.gov.jo/en-us/civil-defense/` | Flood / earthquake response; flash-flood warnings |
-| **Natural Resources Authority** | `https://www.memr.gov.jo/Ar/List/%D9%85%D8%B1%D8%B5%D8%AF_%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84` | Seismic monitoring (Jordan Seismological Observatory); geology |
+| **Public Security Directorate Civil Defence** | `https://psd.gov.jo/en-us/civil-defense/` | Emergency response only — firefighting and rescue, ambulance, a Disaster Department and the international search-and-rescue team; **warnings are issued by JMD, not Civil Defence** (2026-09-18 verified) |
+| **Ministry of Energy and Mineral Resources (MEMR)** — Jordan Seismological Observatory | `https://www.memr.gov.jo/Ar/List/%D9%85%D8%B1%D8%B5%D8%AF_%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84` | Seismic monitoring (مرصد الزلازل الأردني); geology |
 | **WHO Global Air Quality** (external) | `https://www.who.int/data/gho/data/themes/air-pollution` | Amman PM2.5 + dust event benchmarks |
 | **IPCC AR6 Interactive Atlas** (external) | `https://interactive-atlas.ipcc.ch/` | Regional climate projections |
 
@@ -430,7 +430,7 @@ Jordanian residential rental is governed by the **Owners and Tenants Law** (rece
 
 ### Seismicity
 
-- **Dead Sea Transform fault (DST)** — Jordan's eastern flank along the Dead Sea Rift (Jordan Valley → Dead Sea → Wadi Araba → Gulf of Aqaba) is a left-lateral transform fault zone with **moderate seismic potential**. Source: NRA Jordan Seismological Observatory `https://www.memr.gov.jo/Ar/List/%D9%85%D8%B1%D8%B5%D8%AF_%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84`.
+- **Dead Sea Transform fault (DST)** — Jordan's eastern flank along the Dead Sea Rift (Jordan Valley → Dead Sea → Wadi Araba → Gulf of Aqaba) is a left-lateral transform fault zone with **moderate seismic potential**. Source: MEMR — Jordan Seismological Observatory `https://www.memr.gov.jo/Ar/List/%D9%85%D8%B1%D8%B5%D8%AF_%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84`.
 - **Historical events**:
   - **1927 Jericho Earthquake** (M 6.2) — major regional event; baseline reference.
   - **1995 Nuweiba (Gulf of Aqaba)** (M 7.2) — felt strongly in Aqaba; structural damage to older buildings.
@@ -684,7 +684,7 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 | NEPCO (national electricity transmission) | `https://www.nepco.com.jo/` |
 | Jordan Meteorological Department (JMD) | `https://jmd.gov.jo/` |
 | Royal Jordanian Geographic Centre (RJGC) | `https://www.rjgc.gov.jo/` |
-| Natural Resources Authority (NRA) | `https://www.memr.gov.jo/Ar/List/%D9%85%D8%B1%D8%B5%D8%AF_%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84` |
+| Ministry of Energy and Mineral Resources (MEMR) — Jordan Seismological Observatory | `https://www.memr.gov.jo/Ar/List/%D9%85%D8%B1%D8%B5%D8%AF_%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84` |
 | Public Security Directorate (PSD) | `https://www.psd.gov.jo/` |
 | Civil Defence Directorate (CDD) | `https://psd.gov.jo/en-us/civil-defense/` |
 | JLGC Jordan Loan Guarantee Corporation | `https://www.jlgc.com/` |
@@ -699,8 +699,8 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 | Jordan Real Estate | `https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct) |
 | Akhtaboot (jobs) | `https://www.akhtaboot.com/` |
 | Bayt Jordan (jobs) | `https://www.bayt.com/en/jordan/` |
-| Jordan Hotels Association | `https://johotels.org/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Jordan Hotels Association via MoTA (mota.gov.jo) |
-| Jordan Post (postcodes) | `https://www.jordanpost.com.jo/` |
+| Jordan Hotels Association | `https://johotels.org/` |
+| Jordan Post (postcodes) | `https://www.jordanpost.com.jo/` ❌ DEPRECATED — TLS certificate expired 2026-04-22 + bot wall (verified 2026-09-18); verify at a Jordan Post counter or the UPU PAS sheet |
 | IPCC AR6 Interactive Atlas | `https://interactive-atlas.ipcc.ch/` |
 | WHO Global Air Quality | `https://www.who.int/data/gho/data/themes/air-pollution` |
 | Henley Passport Index | `https://www.henleyglobal.com/passport-index` |
@@ -709,7 +709,7 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — CBI 2 Jul 2025 overhaul (passive paths abolished); Ownership of Real Estate Law No. 13/2019; apartment first-150-m² exemption; size limits in dunum)
+**Last verified**: 2026-05-27 (validation sweep — CBI 2 Jul 2025 overhaul (passive paths abolished); Ownership of Real Estate Law No. 13/2019; apartment first-150-m² exemption; size limits in dunum; Jordan Seismological Observatory attribution and Jordan Hotels Association link status corrected 2026-09-18 per memr.gov.jo + johotels.org)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

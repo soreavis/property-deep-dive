@@ -59,7 +59,7 @@ This section flags exposure. It does NOT compute liability. Engage cross-border 
 - Deregistering from the origin civil / tax / social-security registers
 
 **Confidence**: HIGH (framework references)
-**Last verified**: <YYYY-MM-DD>
+**Last verified**: <YYYY-MM-DD> (UK QROPS overseas-transfer-charge liability and relevant period corrected 2026-09-18 per HMRC PTM102200)
 **Sources**: <OECD MTC + EU directives + treaty register URLs>
 ```
 
@@ -244,7 +244,7 @@ Two separable questions a relocating buyer faces — **which social-security sys
 
 **(B) What happens to the pension you have built — portability + tax.**
 
-- **UK pension transfer (QROPS)** — moving a UK pension to a HMRC-recognised overseas scheme can trip the **25% Overseas Transfer Charge** unless an exclusion applies, and since **30 Oct 2024 the EEA / Gibraltar exclusion was REMOVED** (transfers *requested* before 30 Oct 2024 **and** *completed* before 30 Apr 2025 are grandfathered). The **member is jointly and severally liable** for the charge (not only the scheme), and it can **claw back up to 5 tax years** after transfer on a change of circumstances ([HMRC — Overseas Transfer Charge](https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm102200)).
+- **UK pension transfer (QROPS)** — moving a UK pension to a HMRC-recognised overseas scheme can trip the **25% Overseas Transfer Charge** unless an exclusion applies, and since **30 Oct 2024 the EEA / Gibraltar exclusion was REMOVED** (transfers *requested* before 30 Oct 2024 **and** *completed* before 30 Apr 2025 are grandfathered). The **member and the scheme administrator are jointly and severally liable** for the charge (on a transfer from a relieved RNUKS the member is solely liable), and the charge can still arise later on a change of circumstances inside the **relevant period** — the transfer date to the next 5 April **plus a further five tax years** from the following 6 April, or five years flat where the transfer falls on 6 April (HMRC's worked example: a 13 Jun 2017 transfer runs to 5 Apr 2023), i.e. up to just under **six** years, not five ([HMRC — PTM102200](https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm102200); 2026-09-18 verified).
 - **UK State Pension abroad — the "frozen pension" trap** — annual uprating is paid **only** if you live in the **EEA, Switzerland, or a country with a reciprocal agreement** (e.g. US, Philippines); it is **frozen** (no annual increase, permanently) in most others — notably **Australia, Canada, New Zealand** and most of the Commonwealth ([gov.uk — countries where we pay an increase](https://www.gov.uk/government/publications/state-pensions-annual-increases-if-you-live-abroad/countries-where-we-pay-an-annual-increase-in-the-state-pension)).
 - **US 401(k) / IRA taxed abroad** — OECD MTC Art. 18 generally assigns pension taxing rights to the **residence** state, but the US **saving clause** preserves US tax on US persons; whether tax-**deferral** survives abroad is **treaty-specific** (e.g. the US-UK and US-Germany Art. 18A treaties preserve deferral until distribution). ⚠️ **Lump-sum caveat**: HMRC revised its position **12 Mar 2025** — for a **US-citizen UK resident**, a US-plan lump sum is now **taxable in the UK** (the Art. 1(4) saving clause overrides the source-state rule), with foreign-tax-credit limits. Periodic-vs-lump-sum and Roth-vs-traditional differ. The **reverse** — a foreign pension / retirement wrapper held by a US person — risks a **PFIC / Form 3520** reporting trap (see `--home-tax`).
 

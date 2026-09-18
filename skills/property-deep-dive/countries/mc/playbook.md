@@ -46,7 +46,7 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 | Chambre Immobilière Monégasque (CIM) | https://www.chambre-immobiliere-monaco.mc/ | Official agents' chamber; member directory, not a listings aggregator |
 | Savills Monaco | https://www.savills.mc/ | Established in market |
 | Knight Frank Monaco | https://www.knightfrank.com/property-for-sale/monaco | Cross-references KF Wealth Report data |
-| Sotheby's International Realty Monaco | https://www.montecarlo-sothebysrealty.com/ | Luxury / Carré d'Or focus |
+| Monte-Carlo Sotheby's International Realty | https://www.montecarlo-sothebysrealty.com/ | Luxury / Carré d'Or focus — agency tier, seller-controlled |
 | La Costa Properties | https://www.lacosta-properties-monaco.com/ | Mid-large local independent |
 | Dotta Immobilier | https://www.dotta.mc/ | Established local family office |
 

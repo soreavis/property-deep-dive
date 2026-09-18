@@ -292,7 +292,7 @@ Standard rule across most skill-supported countries:
 - 🇦🇿 AZ: 182 days = resident; worldwide income at progressive 14-25% (2026 — verify Min. Tax)
 - 🇹🇳 TN: 183 days = resident; worldwide income at progressive 0-35% (2026 — verify Direction Générale des Impôts); 80% abatement on foreign pension under Art. 36 Code IRPP — verify
 - 🇮🇳 IN: 182 days = resident (60-day shorter rule for Indian citizens with India-sourced income); worldwide income for residents at progressive 0-30% + surcharge + 4% cess; **LRS USD 250k/yr cap on outbound remittance**; treaty relief under DTAA — verify CBDT
-- 🇳🇬 NG: 183 days = resident; worldwide income for residents at progressive 7-24% + 2.5% NHF (2026 — verify FIRS); minimal treaty network
+- 🇳🇬 NG: 183 days = resident; worldwide income for residents at progressive 7-24% + 2.5% NHF (2026 — verify NRS, the Nigeria Revenue Service, formerly FIRS); minimal treaty network
 - 🇰🇪 KE: 183 days OR ≥122 days/yr × 3 yrs = resident; worldwide income at progressive 10-35% PIT (2026 — verify KRA)
 - 🇯🇴 JO: 183 days = resident; worldwide income at progressive 5-30% + 1% national-contribution PIT (2026 — verify ISTD / Income & Sales Tax Dept)
 - 🇴🇲 OM: 183 days = resident (per Royal Decree 28/2009 / Tax Authority practice); **NO PIT for individuals** (Oman individual income-tax law drafted 2022 NOT enacted as of May 2026 — verify Tax Authority); foreign pension/income NOT subject to OM personal taxation

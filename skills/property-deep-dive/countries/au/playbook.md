@@ -237,7 +237,7 @@ State-based, varies hugely:
   - Melbourne: ~$85,000–$115,000
   - Brisbane / Perth: ~$75,000–$100,000
   - Smaller cities: ~$65,000–$85,000
-- **Federal minimum wage**: $26.44/hr ($1,004.90/38-hr week) from 1 Jul 2026 — FWC 2026 Annual Wage Review (NMW +6.0%; award minimums +4.75%) (2026-07-03 verified, source [Fair Work Ombudsman](https://www.fairwork.gov.au/about-us/workplace-laws/annual-wage-review/annual-wage-review-2026))
+- **Federal minimum wage**: $26.44/hr ($1,004.90/38-hr week) from 1 Jul 2026 — FWC *Annual Wage Review 2026* **[2026] FWCFB 3500** (2 Jun 2026): **modern award minimum wages +4.75%**, with a structural adjustment that lifts the lowest ongoing-employment award rate to the same $1,004.90 / $26.44 and the six-month entry-level rate to **$978.10/wk ($25.74/hr)**; the NMW figure is set to maintain alignment with the C13 classification rate rather than by a stated percentage (2026 data, source [FWC decision [2026] FWCFB 3500](https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwcfb3500.pdf) + [Fair Work Ombudsman](https://www.fairwork.gov.au/about-us/workplace-laws/annual-wage-review/annual-wage-review-2026); 2026-09-18 verified)
 
 ---
 
@@ -418,7 +418,7 @@ State-based, varies hugely:
 ✅ **Fully populated** (initially populated 2026-04-25).
 **Coverage check**: pricing (CoreLogic + ABS), traffic, tax (extreme state divergence), rental (state RTA), work, risks (bushfire + flood + cyclone + earthquake), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for CoreLogic Mar 2026 indices + foreign-buyer ban (1 Apr 2025 - 30 Jun 2029 confirmed — extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset) + foreign owner surcharges (NSW 9%, VIC 8%, QLD 8% confirmed) + VIC VRLT + Short-Stay Levy 7.5% + QLD Form 2 Seller Disclosure Statement (1 Aug 2025); MEDIUM for the FY2026-27 FIRB fee amounts (verify the current Schedule of Fees PDF on the FIRB fees page) and for market medians beyond the April 2026 Cotality print.
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged)
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; federal minimum wage basis corrected 2026-09-18 per FWC Annual Wage Review 2026 [2026] FWCFB 3500)
 
 ## Extension TODOs
 

@@ -117,7 +117,7 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
 **Data sources**:
 
 1. **Skattestyrelsen i Grønland** (`Akileraartarnermut Aqutsisoqarfik`): [aka.gl](https://www.aka.gl/) — single primary
-2. **2025 English-language withholding guide** (Skattestyrelsen, July 2025) — **primary citation for current rates**: [aka.gl — Skattetræk i Grønland med eksempler (EN, 03/07/2025)](https://www.aka.gl/-/media/aka/erhverv/vejledninger/2025/skattetrk-i-grnland-m-eksempler-eng-03072025.pdf)
+2. **Skattetræk i Grønland** (Skattestyrelsen, **September 2026 edition — Danish only; the English edition has been withdrawn**), which states "Vejledningen indeholder de regler, der gælder pr. 1. januar 2025": index page [aka.gl — Vejledninger Skat](https://aka.gl/emner/borger/skat/vejledninger-skat) → current PDF `skattetraek-i-groenland-dk-sept26.pdf`. Cite the index page, not the media URL — aka.gl serves its PDFs off a rotating Umbraco Cloud host (2026 data, source aka.gl; 2026-09-18 verified)
 3. **Sullissivik (citizen portal)**: [sullissivik.gl](https://sullissivik.gl/) — self-service tax + business
 4. **Naalakkersuisut finance laws**: [naalakkersuisut.gl](https://naalakkersuisut.gl/) — annual Finanslov (`FFL`, the Finance Act)
 5. **Nordic cooperation Greenland tax overview**: [norden.org / info-norden / taxation-greenland](https://www.norden.org/en/info-norden/taxation-greenland) — useful EN overview (HTTP 403 during research run — verify directly); cross-check with aka.gl
@@ -138,7 +138,7 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
   | Avannaata Kommunia (Ilulissat, Uummannaq, Upernavik) | 28% | 10% | 6% | **44%** |
   | Outside municipal areas (national park, Pituffik) | n/a | 10% | n/a (effective ~36%) | **36%** |
 
-  Authoritative: [aka.gl 2025 EN withholding PDF](https://www.aka.gl/-/media/aka/erhverv/vejledninger/2025/skattetrk-i-grnland-m-eksempler-eng-03072025.pdf) — re-verify the rates above against this PDF before reliance. Cross-reference: [PwC Worldwide Tax Summaries — Greenland Individual Taxes on Personal Income (2026)](https://taxsummaries.pwc.com/greenland/individual/taxes-on-personal-income).
+  Authoritative: [aka.gl — Vejledninger Skat](https://aka.gl/emner/borger/skat/vejledninger-skat) → "Skattetræk i Grønland" (DA, September 2026 edition, rules as at 1 January 2025). **This guide no longer publishes the per-municipality combined-rate table** — the rates above are therefore uncited against it; re-verify against the Finanslov / Inatsisartut rate tables before reliance. Cross-reference: [PwC Worldwide Tax Summaries — Greenland](https://taxsummaries.pwc.com/greenland/individual/taxes-on-personal-income).
 
 - **Personfradrag (personal allowance)**: `data current at aka.gl 2025 EN PDF — verify the 2025/2026 indexed amount; the 2016 baseline was DKK 48,000/year + DKK 10,000 supplemental for fully tax-liable persons`
 - **Flat 35% special rate** for oil/gas/mineral/certain construction workers (no deductions) if not locally taxed in prior six months ([PwC](https://taxsummaries.pwc.com/greenland/individual/taxes-on-personal-income); cross-verify in aka.gl 2025 EN PDF)
@@ -321,7 +321,7 @@ Greenland's labour market is small (~28,000 jobs `est.` — verify against [bank
 **Posted-employee status**:
 
 - Tax-treaty exception: Danish nationals posted to Greenland on contracts ≤ 6 months remain Danish-tax-resident (verify per current DK-GL tax convention)
-- Greenland-domiciled employers handle A-skat withholding through [aka.gl](https://www.aka.gl/); see [2025 EN withholding guide](https://www.aka.gl/-/media/aka/erhverv/vejledninger/2025/skattetrk-i-grnland-m-eksempler-eng-03072025.pdf)
+- Greenland-domiciled employers handle A-skat withholding through [aka.gl](https://www.aka.gl/); see the [Skattetræk i Grønland guide (DA, Sept 2026 edition)](https://aka.gl/emner/borger/skat/vejledninger-skat)
 - The 35% flat oil/gas/mineral/construction-worker rate applies if not locally taxed in prior 6 months (PwC 2026)
 
 **Self-employed / remote-work**:
@@ -410,7 +410,7 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 | Inatsisartutlov 78/2025 — forarbejder | [nalunaarutit.gl PDF](https://nalunaarutit.gl/-/media/lovfiler/2025/forarbejder/ina_78/fast-ejendom_lovbemaerninger_da.pdf) |
 | 2025 buyer-restriction announcement (superseded source) | [naalakkersuisut.gl/Nyheder/2025/02/0302_fast_ejendom](https://naalakkersuisut.gl/Nyheder/2025/02/0302_fast_ejendom?sc_lang=da) |
 | Tax authority (Skattestyrelsen) | [aka.gl](https://www.aka.gl/) |
-| **aka.gl 2025 EN withholding guide (primary rate source)** | [aka.gl 2025 EN PDF](https://www.aka.gl/-/media/aka/erhverv/vejledninger/2025/skattetrk-i-grnland-m-eksempler-eng-03072025.pdf) |
+| **aka.gl — Skattetræk i Grønland (DA, Sept 2026 edition; rules as at 1 Jan 2025)** | [aka.gl vejledninger](https://aka.gl/emner/borger/skat/vejledninger-skat) |
 | Citizen portal | [sullissivik.gl](https://sullissivik.gl/) |
 | Statistics Greenland | [stat.gl](https://www.stat.gl/) · [bank.stat.gl](https://bank.stat.gl/) |
 | Tinglysning (DK system applies) | [tinglysningsretten.dk](https://www.tinglysningsretten.dk/) · [tinglysning.dk](https://www.tinglysning.dk/) |

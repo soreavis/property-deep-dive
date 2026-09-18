@@ -19,7 +19,7 @@ ISO2: `ng`. Status: PARTIALLY OPEN with state-level fragmentation (Land Use Act 
 - **Recent reforms** (verify date-stamped):
   - **Tinubu Administration since May 2023** — fuel subsidy removal, naira float, tax-reform agenda
   - **CBN Naira Float Jun 2023** + sequential FX-policy adjustments 2024-26
-  - **Finance Acts 2019/2020/2021/2023** — VAT 7.5% (Finance Act 2019), Stamp Duty rationalization (FIRS — `https://www.nrs.gov.ng/`)
+  - **Finance Acts 2019/2020/2021/2023** — VAT 7.5% (Finance Act 2019), Stamp Duty rationalization (NRS — Nigeria Revenue Service, formerly FIRS — `https://www.nrs.gov.ng/`)
   - **Lagos State Land Use Charge Law 2018** — major property-tax reform (`https://luc.lagosstate.gov.ng/`)
   - **Nigeria Tax Reform Acts 2025** — Nigeria Tax Act (NTA), Nigeria Tax Administration Act (NTAA), Nigeria Revenue Service Act (NRSA), Joint Revenue Board Act (JRBA); **signed by President Tinubu on 26 Jun 2025; commencement 1 Jan 2026** (2026-05-27 verified, source: State House Abuja + PwC NG + EY). Key outcomes: VAT **retained at 7.5 %** (proposed 12.5 % phasing DROPPED); residential rent **zero-rated**; CGT flat 10 % **REPLACED** — individuals taxed at progressive PIT bands (0–25 % top), corporates aligned with 30 % CIT; PIT bands restructured (₦800k tax-free threshold + 7 %/11 %/15 %/.../25 % top); CIT **retained at 30 %** (proposed 25 % NOT enacted; small companies ≤ ₦25M turnover at 0 % CIT; 15 % domestic minimum tax for large MNEs); FIRS reorganised and rebranded as **Nigeria Revenue Service (NRS)**.
   - **Land Use Act amendment debate 2023-26** — state-vs-federal discussion; no enacted change as of 2026-05
@@ -189,7 +189,7 @@ LOW — per-segment AADT comparable to EU/UK datasets is **not publicly availabl
 
 | Item | Rate | Authority |
 |---|---|---|
-| **Stamp Duty (federal)** | **1.5–3% sliding** | FIRS (Stamp Duty Act + Finance Act 2019/2020); `https://www.nrs.gov.ng/` |
+| **Stamp Duty (federal)** | **1.5–3% sliding** | NRS (Nigeria Revenue Service, formerly FIRS) — Stamp Duty Act + Finance Act 2019/2020; `https://www.nrs.gov.ng/` |
 | **CGT (federal, seller)** | **Regime change eff 1 Jan 2026 (Nigeria Tax Act 2025)** — flat 10 % REPLACED. Individuals: progressive PIT bands (0–25 %); Corporates: 30 % CIT-aligned. Primary-residence exemption now **once-in-a-lifetime** for dwelling-house + ~1 acre adjoining land (verify at NRS, 2026-05-27 verified) | NRS (formerly FIRS) — Nigeria Tax Act 2025; pre-2026: CGT Act Cap C1 LFN 2004 |
 | **Governor's Consent Fee — STATE-LEVEL** | **Lagos 8–15% sliding (superseded by 2026 Blue Book — Consent-Fee headline now ~1.5% of uplifted FMV; see --foreign-buyer); FCT 8%; smaller states 3–5%** | State Lands Bureau / AGIS |
 | **Registration Fee — STATE-LEVEL** | Lagos ~0.5–1%; varies | State Lands Registry |
@@ -198,11 +198,11 @@ LOW — per-segment AADT comparable to EU/UK datasets is **not publicly availabl
 | **Agent commission** | 5–10% (often split) | Market practice |
 | **Total foreign-buyer transaction cost (Lagos)** | **~10–20% of price** | Sum of consent + stamp duty + reg + legal + agent |
 
-### VAT — federal (FIRS)
+### VAT — federal (NRS, formerly FIRS)
 
 Finance Act 2019 raised VAT from 5% to 7.5% (effective 1 Feb 2020):
 - **Standard VAT**: **7.5%**
-- **First sale of residential by developer**: **0% / exempt** (Finance Act 2019; verify scope at FIRS)
+- **First sale of residential by developer**: **0% / exempt** (Finance Act 2019; verify scope at NRS)
 - **Commercial property / leases**: **7.5% applies**
 - **Nigeria Tax Act 2025 (effective 1 Jan 2026)**: VAT **retained at 7.5 %** (proposed 12.5 % phasing DROPPED in parliament); **residential rent is now zero-rated**; **input VAT claimable on services + fixed assets** (structural change vs pre-2026 input-VAT-on-goods-only regime); FG share of VAT distribution dropped 15 % → 10 % (states 55 %, LGAs 35 %). Source: NRS Portal Guide + PwC NG + The Africa Report (2026-05-27 verified).
 
@@ -230,7 +230,7 @@ Regime change eff 1 Jan 2026 under Nigeria Tax Act 2025 — flat 10 % REPLACED (
 
 Tax Reform Bills 2024-25 pending; state revenue intensification post-devaluation (Lagos LUC re-assessments + other states tenement digitization).
 
-**Confidence**: HIGH for federal framework (Stamp Duty + CGT + VAT + Finance Acts — all FIRS); MEDIUM for state-level Consent Fee + Registration sliding scales (Lagos LSLB best-documented, rates evolve — verify per transaction); MEDIUM for 2026 LUC assessed values (Lagos re-assessment cycle ongoing).
+**Confidence**: HIGH for federal framework (Stamp Duty + CGT + VAT + Finance Acts — all NRS, formerly FIRS); MEDIUM for state-level Consent Fee + Registration sliding scales (Lagos LSLB best-documented, rates evolve — verify per transaction); MEDIUM for 2026 LUC assessed values (Lagos re-assessment cycle ongoing).
 
 ---
 
@@ -246,7 +246,7 @@ Tax Reform Bills 2024-25 pending; state revenue intensification post-devaluation
 ### Tax on rental income
 
 - **Resident landlord**: PIT progressive on net rental — restructured bands eff 1 Jan 2026 (₦800k tax-free threshold; 0/7/11/15/.../25% top; pre-2026 7-24% scale superseded — see --tax); state IRS administers, e.g., LIRS
-- **Non-resident landlord**: rental income Nigeria-sourced → 10% withholding when tenant is a withholding agent; verify FIRS + state IRS per case
+- **Non-resident landlord**: rental income Nigeria-sourced → 10% withholding when tenant is a withholding agent; verify NRS + state IRS per case
 - **Deductions**: maintenance, repairs (not capital improvements), management commission, mortgage interest
 
 ### Short-term rentals (STR / Airbnb)
@@ -357,7 +357,7 @@ National grid (NEPA → PHCN → DisCos post-2013 unbundling) notoriously unreli
 | 2006+ | Nigerian Building Code 2006 introduced; uneven enforcement |
 | Post-2010 gated estates | Generally better-engineered; private standards higher |
 
-**Informal/unauthorized construction**: insist on building permit + occupancy certificate from State Physical Planning agency (Lagos: LASPPPA — `https://lasppa.lagosstate.gov.ng/`).
+**Informal/unauthorized construction**: insist on building permit + occupancy certificate from the State Physical Planning agency (Lagos: **LASPPPA — Lagos State Physical Planning Permit Authority**, `https://laspppa.lagosstate.gov.ng/` ⚠️ the `*.lagosstate.gov.ng` Cloudflare estate was returning HTTP 522 on 2026-09-18 — if unreachable, verify via `https://lagosstate.gov.ng/`).
 
 ### Mandatory diagnostics — documents to demand pre-offer
 
@@ -625,7 +625,7 @@ NIDCOM (`https://nidcom.gov.ng/`) — Nigerian Diaspora Investment Trust Fund + 
 ### Regulator + insurers
 
 - **NAICOM — National Insurance Commission** — `https://naicom.gov.ng/`
-- **NIA — Nigerian Insurers Association** — `https://naicom.gov.ng/`
+- **NAICOM — National Insurance Commission** (statutory regulator; licensed-insurer, broker and loss-adjuster registers — NAICOM Act 1997 + NIIRA 2025) — `https://naicom.gov.ng/` · register portal `https://portal.naicom.gov.ng/`. The **Nigerian Insurers Association (NIA)**, the industry trade body, has no live domain — `data not publicly available — verify NIA membership with NAICOM`.
 - **Major insurers**: AIICO, Leadway, AXA Mansard, NEM Insurance, Custodian Investment, Sovereign Trust
 
 ### Coverage typical
@@ -635,7 +635,7 @@ NIDCOM (`https://nidcom.gov.ng/`) — Nigerian Diaspora Investment Trust Fund + 
 - **All-risks / homeowner package**: voluntary contents + liability + buildings combined
 - **Earthquake**: Nigeria low seismic risk; not standard
 - **Flood**: often **excluded or sub-limited** in standard policies — critical cover-add for waterfront / Lekki / VI parcels; verify wording
-- **Compulsory**: Builders Liability + Occupiers Liability under Insurance Act 2003 (>2 storeys / public-access)
+- **Compulsory**: contractor's liability on **any building of more than one floor under construction** (NIIRA 2025 s. 75) + **public-building cover against collapse / fire / earthquake / storm / flood** (NIIRA 2025 s. 76) — the **Nigerian Insurance Industry Reform Act 2025 (Act No. 14 of 2025, commencement 31 July 2025, Gazette No. 146 Vol. 112 of 29 Aug 2025)** repealed the Insurance Act Cap. I17 LFN 2004 (2026 data, source NIIRA 2025 as published by NAICOM; 2026-09-18 verified)
 
 ### Without mortgage
 
@@ -665,7 +665,7 @@ Nigeria operates **English common-law conveyancing**, not civil-law notariat:
 2. Buyer solicitor due diligence: title search at LSLB; C of O chain verification; encumbrance check; Survey Plan + boundary
 3. Independent legal search at LSLB Land Information Office (paid)
 4. Deed of Assignment drafted by buyer solicitor + reviewed by seller solicitor
-5. Stamp Duty assessment + payment at FIRS (1.5-3% sliding)
+5. Stamp Duty assessment + payment at the NRS (Nigeria Revenue Service, formerly FIRS) (1.5-3% sliding)
 6. **Governor's Consent application** to LSLB — LUA s. 22; **major delay point** — Lagos historically 3-12 months (digitizing 2024-26); FCT AGIS 1-3 months
 7. Governor's Consent + Consent Fee paid (Lagos 8-15% — superseded by 2026 Blue Book, Consent-Fee headline now ~1.5% of uplifted FMV; FCT 8%)
 8. Registration at State Lands Registry → Registration Fee
@@ -909,7 +909,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 
 | Item | Cost | Source |
 |---|---:|---|
-| Stamp Duty (federal) | **1.5–3% sliding** | FIRS — Stamp Duty Act + Finance Acts |
+| Stamp Duty (federal) | **1.5–3% sliding** | NRS (formerly FIRS) — Stamp Duty Act + Finance Acts |
 | Governor's Consent Fee — Lagos | **8–15% sliding (superseded by 2026 Blue Book — headline now ~1.5% of uplifted FMV; see --foreign-buyer)** | LSLB (LUA s. 22) |
 | Governor's Consent — FCT / other states | **~8% / ~3-5%** | AGIS / state Lands |
 | Registration Fee — Lagos | **~0.5–1%** | LSLR |
@@ -917,7 +917,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 | **Total foreign-buyer transaction (Lagos)** | **~10–20% of price** | Sum |
 | LUC annual — Lagos owner-occ | **0.076%** of assessed | LASG LUC Law 2018 |
 | CGT on sale | **Progressive PIT 0–25% / 30% CIT on net gain (eff 1 Jan 2026; pre-2026 flat 10% superseded)** | NRS — Nigeria Tax Act 2025 |
-| VAT first-sale residential / commercial | **0% / 7.5%** | FIRS — Finance Act 2019 |
+| VAT first-sale residential / commercial | **0% / 7.5%** | NRS (formerly FIRS) — Finance Act 2019 |
 | NHF mortgage rate | **6%** (federal employees + NHF) | FMBN |
 | Commercial NGN / USD mortgage rate | **22–32% / ~7–10%** | CBN MPR 26.5% (May 2026, MPC 305th meeting) / Stanbic+Ecobank |
 | Energy autonomy stack — mid Lagos home/mo | **NGN 200k–800k** | Diesel + inverter + LPG + solar |
@@ -990,7 +990,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 | Authority | When to call |
 |---|---|
 | **LSLB / AGIS / state Lands Bureau** | C of O, title chain, Governor's Consent |
-| **FIRS** | Stamp Duty, CGT, VAT, federal tax |
+| **NRS** (Nigeria Revenue Service, formerly FIRS) | Stamp Duty, CGT-as-income, VAT, federal tax |
 | **LIRS / state IRS** | LUC, PIT, tenement |
 | **CBN** | Form A/M/NCX, FX, mortgage policy |
 | **CAC** | Company registration for investor visa |
@@ -1033,13 +1033,13 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 | Source | URL |
 |---|---|
 | Federal laws (Land Use Act etc.) | `https://www.lawsofnigeria.placng.org/` |
-| FIRS (federal tax) | `https://www.nrs.gov.ng/` |
+| NRS — Nigeria Revenue Service (federal tax) | `https://www.nrs.gov.ng/` |
 | CBN | `https://www.cbn.gov.ng/` |
 | Lagos State Lands Bureau | `https://landsbureau.lagosstate.gov.ng/` |
 | LIRS / Lagos LUC | `https://lirs.gov.ng/` + `https://luc.lagosstate.gov.ng/` |
 | LASRRA / LASPPPA | `https://registration.lagosresidents.gov.ng/` + `https://lasppa.lagosstate.gov.ng/` |
 | AGIS Abuja / FCDA | `https://agis.fcta.gov.ng/` + `https://fcda.gov.ng/` |
-| FMLHUD / FMBN (NHF) | `https://fmhud.gov.ng/` + `https://www.fmbn.gov.ng/` |
+| FMHUD (Federal Ministry of Housing and Urban Development) / FMBN (NHF) | `https://fmhud.gov.ng/` + `https://fmbn.gov.ng/` |
 | NIS / Federal Ministry of Interior | `https://immigration.gov.ng/` + `https://www.interior.gov.ng/` |
 | NIMC (NIN) / NIBSS (BVN) | `https://nimc.gov.ng/` + `https://nibss-plc.com.ng/` |
 | NFIU (AML) / CAC | `https://nfiu.gov.ng/` + `https://www.cac.gov.ng/` |
@@ -1060,8 +1060,8 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — Tax Reform Acts signed 26 Jun 2025 eff. 1 Jan 2026; VAT 7.5% retained + residential rent zero-rated; CGT progressive replacement; PIT bands restructured ₦800k tax-free; CBN MPR 26.5%; NGN/USD ~1,375; Lagos Blue Book 1 May 2026; FIRS → NRS rebrand)
+**Last verified**: 2026-05-27 (validation sweep — Tax Reform Acts signed 26 Jun 2025 eff. 1 Jan 2026; VAT 7.5% retained + residential rent zero-rated; CGT progressive replacement; PIT bands restructured ₦800k tax-free; CBN MPR 26.5%; NGN/USD ~1,375; Lagos Blue Book 1 May 2026; FIRS → NRS rebrand; compulsory-insurance basis corrected 2026-09-18 per NIIRA 2025 ss. 75-76)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Framework-level confidence is HIGH for federal Land Use Act 1978 (LUA s. 22 Governor's Consent), Stamp Duty Act + Finance Act 2019/2020/2021/2023 (FIRS), CGT Act 10% rate, VAT Act 7.5% (raised by Finance Act 2019), Lagos State Land Use Charge Law 2018 (0.076-0.394% sliding), CBN Form A/M/NCX FX framework, Immigration Act 2015 STR/CERPAC pathway, NHF/FMBN 6% subsidized rate. **Two non-negotiable foreign-buyer caveats surfaced prominently**: (1) **security situation is honestly serious + state-heterogeneous** (Northeast insurgency, Northwest banditry, periodic kidnap-for-ransom expats Lagos/Abuja — practical universe is Lagos + FCT + Port Harcourt with mandatory gated-estate + private-security overlay), and (2) **state-level Governor's Consent Fee variance is the dominant closing-cost item** (Lagos 8-15% sliding, FCT 8%, smaller states 3-5%) — total Lagos foreign-buyer cost ~10-20% of price. Naira volatility post-Jun 2023 float means USD informal pricing dominates prime Lagos/Abuja RE; CBN Form documentation at capital inflow is the #1 procedural item gating future repatriation. MEDIUM confidence on 2026 NGN values + asking-price benchmarks (volatile post-float; verify CBN daily + cross-check 3+ listings). LOW confidence on parcel-level crime / flood / SLR exposure (federal data not parcel-granular; mandatory site visit + local broker). All numeric facts dated and sourced; per anti-hallucination contract, listing claims tagged + LUA s. 22 Consent trap surfaced + omo onile peri-urban risk surfaced + forged C of O fraud surfaced + CBN Form repatriation trap surfaced.
+**Notes**: Framework-level confidence is HIGH for federal Land Use Act 1978 (LUA s. 22 Governor's Consent), Stamp Duty Act + Finance Act 2019/2020/2021/2023 (NRS, formerly FIRS), CGT Act 10% rate, VAT Act 7.5% (raised by Finance Act 2019), Lagos State Land Use Charge Law 2018 (0.076-0.394% sliding), CBN Form A/M/NCX FX framework, Immigration Act 2015 STR/CERPAC pathway, NHF/FMBN 6% subsidized rate. **Two non-negotiable foreign-buyer caveats surfaced prominently**: (1) **security situation is honestly serious + state-heterogeneous** (Northeast insurgency, Northwest banditry, periodic kidnap-for-ransom expats Lagos/Abuja — practical universe is Lagos + FCT + Port Harcourt with mandatory gated-estate + private-security overlay), and (2) **state-level Governor's Consent Fee variance is the dominant closing-cost item** (Lagos 8-15% sliding, FCT 8%, smaller states 3-5%) — total Lagos foreign-buyer cost ~10-20% of price. Naira volatility post-Jun 2023 float means USD informal pricing dominates prime Lagos/Abuja RE; CBN Form documentation at capital inflow is the #1 procedural item gating future repatriation. MEDIUM confidence on 2026 NGN values + asking-price benchmarks (volatile post-float; verify CBN daily + cross-check 3+ listings). LOW confidence on parcel-level crime / flood / SLR exposure (federal data not parcel-granular; mandatory site visit + local broker). All numeric facts dated and sourced; per anti-hallucination contract, listing claims tagged + LUA s. 22 Consent trap surfaced + omo onile peri-urban risk surfaced + forged C of O fraud surfaced + CBN Form repatriation trap surfaced.

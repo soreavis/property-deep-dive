@@ -21,7 +21,7 @@ ISO2: `in`. Status: ✅ Fully populated (researched 2026-05).
     - Karnataka: **Bhoomi RTC** [`https://landrecords.karnataka.gov.in/`](https://landrecords.karnataka.gov.in/) + **Kaveri Online Services** [`https://kaveri.karnataka.gov.in/`](https://kaveri.karnataka.gov.in/)
     - Tamil Nadu: **Patta Chitta** [`https://eservices.tn.gov.in/`](https://eservices.tn.gov.in/) + **TNREGINET** [`https://tnreginet.gov.in/portal/`](https://tnreginet.gov.in/portal/)
     - Delhi: **DLRC / Delhi Online Registration Information System (DORIS)** [`https://doris.delhigovt.nic.in/`](https://doris.delhigovt.nic.in/)
-    - Telangana: **Dharani** [`https://bhubharati.telangana.gov.in/`](https://bhubharati.telangana.gov.in/) (controversial 2020 unification — multiple court challenges)
+    - Telangana: **Bhu Bharati (భూ భారతి)** [`https://bhubharati.telangana.gov.in/`](https://bhubharati.telangana.gov.in/) — successor to **Dharani**: the Telangana Bhu Bharati (Record of Rights in Land) Act, 2025 (Act No. 1 of 2025, assent 3 Jan 2025, first published in the Telangana Gazette Part IV-B Extraordinary on 4 Jan 2025) repealed the Telangana Rights in Land and Pattadar Pass Books Act, 2020 (Act No. 9 of 2020) at s.23(1); s.1(3) brings the Act into force area-by-area on dates the State Government notifies, so a parcel may still sit under the old record set — check which regime applies before relying on a printout (2025 statute, Telangana Gazette Part IV-B Extraordinary No. 1; 2026-09-18 verified)
     - Andhra Pradesh: **MeeBhoomi** [`https://meebhoomi.ap.gov.in/`](https://meebhoomi.ap.gov.in/)
     - Uttar Pradesh: **Bhulekh UP** [`https://upbhulekh.gov.in/`](https://upbhulekh.gov.in/) + **IGRSUP** [`https://igrsup.gov.in/`](https://igrsup.gov.in/)
     - Gujarat: **AnyROR** [`https://anyror.gujarat.gov.in/`](https://anyror.gujarat.gov.in/) + **Garvi** registration portal
@@ -1401,7 +1401,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 | State Land Records — Maharashtra MahaBhulekh | [`https://bhulekh.mahabhumi.gov.in/`](https://bhulekh.mahabhumi.gov.in/) |
 | State Land Records — Karnataka Bhoomi | [`https://landrecords.karnataka.gov.in/`](https://landrecords.karnataka.gov.in/) |
 | State Land Records — TN Patta Chitta | [`https://eservices.tn.gov.in/`](https://eservices.tn.gov.in/) |
-| State Land Records — Telangana Dharani | [`https://bhubharati.telangana.gov.in/`](https://bhubharati.telangana.gov.in/) |
+| State Land Records — Telangana Bhu Bharati (formerly Dharani) | [`https://bhubharati.telangana.gov.in/`](https://bhubharati.telangana.gov.in/) |
 | State Stamps & Registration — Maharashtra IGR | [`https://igrmaharashtra.gov.in/`](https://igrmaharashtra.gov.in/) |
 | State Stamps & Registration — Karnataka Kaveri | [`https://kaveri.karnataka.gov.in/`](https://kaveri.karnataka.gov.in/) |
 | Listing platforms | MagicBricks · 99acres · Housing.com · NoBroker · Square Yards |
@@ -1415,7 +1415,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (non-fossil capacity + share corrected 2026-09-18 per MNRE physical-progress + Ministry of Power PIB; validation sweep — adverse possession Limitation Act 1963 Art. 65/112 + s.27 added to Caveats; FEMA 21 §6 8-list vs Press Note 3 7-list disambiguated; FEMA 21(R)/2018-RB lead-warning corrected)
+**Last verified**: 2026-05-27 (non-fossil capacity + share corrected 2026-09-18 per MNRE physical-progress + Ministry of Power PIB; validation sweep — adverse possession Limitation Act 1963 Art. 65/112 + s.27 added to Caveats; FEMA 21 §6 8-list vs Press Note 3 7-list disambiguated; FEMA 21(R)/2018-RB lead-warning corrected; Telangana land-records statute corrected 2026-09-18 per Telangana Gazette Act 1 of 2025)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

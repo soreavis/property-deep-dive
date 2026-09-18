@@ -10,7 +10,7 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 - **Languages**: Croatian (official); Italian, Hungarian, Serbian (regional minorities)
 - **Cadastre**: **dual register** (Croatia famously has separate catastral + land registry — must reconcile both)
   - **DGU Geoportal**: `https://geoportal.dgu.hr/` — central spatial data
-  - **Katastar.hr**: `https://oss.uredjenazemlja.hr/` — paid cadastral data
+  - **OSS — Zajednički informacijski sustav zemljišnih knjiga i katastra**: `https://oss.uredjenazemlja.hr/` (also via e-Građani) — the official cadastre + land-register route. First copy of a _posjedovni list_ carries no cash charge; each further copy is **EUR 0.66** (2026 data, source gov.hr/hr/posjedovni-list/1312; 2026-09-18 verified). Replaces the former commercial katastar.hr
   - **OSS Uređena zemlja**: `https://oss.uredjenazemlja.hr/` — unified search (cadastre + ZK gruntovnica)
 - **Identifier**:
   - Cadastral parcel number `broj čestice` within cadastral municipality `k.o.`
@@ -374,7 +374,7 @@ _Est. ranges — vary by municipal vodovod tariff; confirm with local Vodovod i 
 |---|---|
 | DGU Geoportal | `https://geoportal.dgu.hr/` |
 | OSS Uređena zemlja | `https://oss.uredjenazemlja.hr/` |
-| Katastar.hr | `https://oss.uredjenazemlja.hr/` |
+| OSS — land register + cadastre (ex-katastar.hr) | `https://oss.uredjenazemlja.hr/` |
 | Porezna uprava | `https://porezna-uprava.gov.hr/` |
 | DZS | `https://podaci.dzs.hr/` |
 | Njuškalo | `https://www.njuskalo.hr/nekretnine/` |
@@ -386,7 +386,7 @@ _Est. ranges — vary by municipal vodovod tariff; confirm with local Vodovod i 
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-04-25 (cadastre access route and extract fee corrected 2026-09-18 per gov.hr).
 **Coverage check**: pricing (DZS + Njuškalo + HNB), traffic (HC PGDP), tax (NEW Porez na nekretnine 2025 €0.60-€8/m² + 3% RETT + 25% VAT new), rental (2025 Hospitality Act 80% consent), work, risks (earthquake CRITICAL Zagreb 2020 + Petrinja 2020 + wildfire + karst), mains all have primary government sources.
 **Confidence**: HIGH for Porez na nekretnine 2025 reform (rates confirmed via Croatia Week + Eurofast); HIGH for 2020 earthquake reference + Petrinja reconstruction; HIGH for 2025 Hospitality Act 80% consent rule + mandatory STR registration; HIGH for currency EUR transition (1 Jan 2023). MEDIUM for non-EU reciprocity list (changes periodically).
 

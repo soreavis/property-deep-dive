@@ -683,7 +683,7 @@ Available to 100+ nationalities (incl. EU, UK, US, Australia, Canada, Japan) —
 
 ### Major insurers
 
-**Liva (formerly Oman Insurance + Royal & Sun Alliance combined)**, **Dhofar Insurance**, **National Life and General Insurance (NLGIC)**, **Oman United Insurance**, **AXA Gulf Oman**, **Oman Reinsurance**. Compared via [Capital Market Authority Oman Insurance](https://cma.gov.om/) + [Dhamani](https://fsa.gov.om/Dhamani/About).
+**Liva (formerly Oman Insurance + Royal & Sun Alliance combined)**, **Dhofar Insurance**, **National Life and General Insurance (NLGIC)**, **Oman United Insurance**, **AXA Gulf Oman**, **Oman Reinsurance**. Compared via the [Financial Services Authority (FSA), Sultanate of Oman](https://fsa.gov.om/) — the regulator that supervises Oman's insurance sector and publishes the licensed insurer / broker / reinsurer / health-TPA registers (the "Capital Market Authority" name is historical) + [Dhamani](https://fsa.gov.om/Dhamani/About).
 
 ### Climate trajectory note
 

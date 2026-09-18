@@ -265,7 +265,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 ### Sources
 
 - **Komunalne službe** per občina (municipal services)
-- **Vodovod-Kanalizacija Ljubljana** (Ljubljana operator): `https://www.vokasnaga.si/`
+- **JP VOKA SNAGA** (Ljubljana water + wastewater operator, Javni holding Ljubljana; formerly Vodovod-Kanalizacija Ljubljana): `https://www.vokasnaga.si/` — drinking-water supply and wastewater, incl. public reporting under Uredba o pitni vodi (Ur. l. RS, št. 61/23) (2026-09-18 verified)
 - **Mariborski vodovod** + regional public utilities
 - Most občine have own komunala
 - Universal in cities; rural Karst + Pohorje villages on greznica (cesspit)

@@ -13,7 +13,7 @@ ISO2: `mv`. Status: ✅ fully populated as of 2026-05-07.
 - **Languages**: **Dhivehi** (national language, Indo-Aryan, written in Thaana script) + **English** (working language of government, courts, banking, tourism). Legal-grade documents, Tourism Act, MIRA tax legislation are bilingual; **agency listings + lease contracts in Greater Malé/resort sector typically English**.
 - **Legal system**: **Mixed Sharia + common-law / civil-law influences**. The 2008 Constitution (`https://www.majlis.gov.mv/`) establishes Sunni Islam as state religion (Article 9(d)) and requires **Maldivian citizens to be Muslim**. **Non-Muslim foreign nationals cannot acquire Maldivian citizenship** — only naturalisation pathway is Muslim-faith adherence + 12-year residence (Citizenship Act). **Sharia overlay on inheritance, family, and personal-status law** (Maliki school dominant historically); commercial + property-leasehold + tax law largely codified-civil with English drafting heritage.
 - **Cadastre / land registry — fragmented and largely paper-based**:
-  - **Ministry of Housing, Land and Urban Development** — `https://infrastructure.gov.mv/en` — primary land-allocation authority on inhabited islands; oversees Greater Malé housing schemes
+  - **Ministry of Infrastructure, Housing and Urban Development** — `https://infrastructure.gov.mv/en` — primary land-allocation authority on inhabited islands; oversees Greater Malé housing schemes (renamed from the Ministry of Housing, Land and Urban Development; land registration, building permits and the Hiyaa / Gedhoruveriya / Binveriya schemes all sit here) *(2026-09-18 verified — authority identity and URL only)*
   - **Housing Development Corporation (HDC)** — `https://www.hdc.com.mv/` — manages Hulhumalé reclamation, allocation, and registration; the dominant urban-development entity
   - **Ministry of Tourism** — `https://www.tourism.gov.mv/` — **the registry-of-record for resort-island Head Leases** + tourist establishment registration
   - **Local Councils** (under the Decentralisation Act 2010, as amended) — administer plot allocation on inhabited atoll islands
@@ -301,7 +301,7 @@ The Maldives raises the majority of public revenue from tourism-specific taxes �
 | **Ministry of Climate Change, Environment and Energy** | `https://www.environment.gov.mv/` (verify URL) | Climate Change Department + Coastal Zone Management |
 | **World Bank Climate Change Knowledge Portal — Maldives** | `https://climateknowledgeportal.worldbank.org/country/maldives` | Country profile, projections (CMIP6, SROCC) |
 | **NOAA Coral Reef Watch — Maldives** | `https://coralreefwatch.noaa.gov/product/vs/gauges/maldives.php` | DHW heat-stress index, bleaching alert |
-| **IPCC AR6 Sea Level Projection Tool** | `https://sealevel.nasa.gov/data_tools/17` | Parcel-grid projections to 2050/2100/2150 |
+| **IPCC AR6 Sea Level Projection Tool** | `https://sealevel.nasa.gov/data_tools/17` | Global + regional projections, 2020–2150; click any ocean point for a local projection — **not** parcel-level (2026-09-18 verified) |
 | **Climate Central Coastal Risk Screening Tool** | `https://coastal.climatecentral.org/` | Inundation projection per coordinate |
 
 ### Specific risks
@@ -603,7 +603,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 - **Sharia-based forced heirship** governs estate distribution for assets in the Maldives — succession outcomes can differ materially from civil-law/common-law jurisdictions; engage Sharia-knowledgeable counsel
 - **Citizenship is faith-conditional** — naturalisation requires Sunni Muslim adherence; not a route for non-Muslim foreign investors
 - **Bank lending to non-residents**: limited; est. LTV ~40–60% for non-resident foreign buyers via Bank of Maldives + MIB + BML; est. USD-denominated rates ~7–11% (indicative non-resident terms — verify current schedule with Bank of Maldives / MIB / BML directly); cash-buyer dominance in luxury cohort
-- **No notary-monopoly** — Maldives-bar attorneys handle conveyancing-equivalent work; the Maldives Bar Association tracks registered counsel (`https://maldivesbarcouncil.org/` — verify URL)
+- **No civil-law notary monopoly on conveyancing** — Maldives-bar attorneys handle conveyancing-equivalent work, but **public notaries are a distinct licensed category**: the **Bar Council of the Maldives** (statutory regulator under the **Legal Profession Act, Law No. 5/2019**, in force 27 June 2019) maintains a **Register of Public Notaries** alongside its Membership Roll, Register of Law Firms and Register of Legal Practices — `https://maldivesbarcouncil.org/` (2026-09-18 verified). Quote the register's own as-at date when citing it.
 
 ## Reddit / forum sources
 
@@ -619,9 +619,10 @@ For most international buyers, the actionable foreign-buyer routes are:
 | Authority | When to call |
 |---|---|
 | **Ministry of Tourism** | Resort Head Lease + tourist establishment registration — `https://www.tourism.gov.mv/` |
-| **Ministry of Housing, Land and Urban Development** | Inhabited-island land allocation, Greater Malé housing — `https://infrastructure.gov.mv/en` |
+| **Ministry of Infrastructure, Housing and Urban Development** | Inhabited-island land allocation, Greater Malé housing — `https://infrastructure.gov.mv/en` |
 | **Housing Development Corporation (HDC)** | Hulhumalé allocation, unit-title, infrastructure — `https://www.hdc.com.mv/` |
-| **Ministry of Economic Development & Trade** | Foreign Investment Approval, work permits — `https://trade.gov.mv/` |
+| **Ministry of Economic Development, Transport and Trade** | Foreign Investment Approval, business registration, IP, legal metrology, maritime + land transport — `https://trade.gov.mv/` |
+| **Maldives Immigration** | Work / employment permits for expatriates — **data not publicly available at a verified page; verify with Maldives Immigration** `https://immigration.gov.mv/` |
 | **Maldives Inland Revenue Authority (MIRA)** | TGST, Green Tax, Income Tax, GST, WHT — `https://www.mira.gov.mv/` |
 | **Maldives Monetary Authority (MMA)** | Monetary, FX peg, banking — `https://www.mma.gov.mv/` |
 | **Capital Market Development Authority (CMDA)** | Corporate vehicles, securities — `https://www.cmda.gov.mv/` |
@@ -703,7 +704,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 
 **Confidence**: MEDIUM — HIGH on the regulatory framework (Article 251 freehold ban + 2019 repeal of 2015 amendment confirmed against Constitution + Library of Congress + ConstitutionNet + Maldives Independent; Tourism Act 50-yr / 99-yr extension confirmed against Tourism Act consolidation PDF + State Department Investment Climate Statement 2025 + CTL Strategies (the USD 5M extension figure was the 16th-Amendment discounted-window rate, window LAPSED 5 Jun 2026; post-window default reverts higher, ~USD 10M ref — re-verified 2026-06-14, closure inferred, MEDIUM); TGST 17% effective 1 July 2025 confirmed against MIRA circular + Crowe Maldives + Travel Trade Maldives; Green Tax USD 12 / USD 6 effective 1 January 2025 confirmed against MIRA circular; MVR managed peg MVR 12.85 ±20% band 10.28–15.42 confirmed against MMA + Wikipedia + Maldives Financial Review; foreign 49% guesthouse cap confirmed against Sun Online + Avas + Nasheed & Co; Income Tax 15% top bracket confirmed against MIRA + Lloyds Bank Trade). MEDIUM on price benchmarks (no public residential price index — sample-size-thin transaction volume + agency-listing reliance + resort-segment commercial-confidentiality means USD price bands are `est.` cross-checked against Boahiyaa / Property.mv / Global Properties / branded-residence developer portals + Numbeo + State Department + Ministry of Finance narrative; verify any specific deal via Ministry of Tourism / HDC / Local Council registry + Maldives-bar attorney). LOW on traffic (no public AADT database — modelled from OSM road class + agency anecdote). LOW on per-developer branded-residence pricing currentness (luxury market where headline figures move materially deal-to-deal — pull current asking from developer at point of analysis). MEDIUM on stamp-duty + transaction-cost specifics (rates are nominal but exact schedules require MIRA + practitioner verification per deal).
 
-**Last verified**: 2026-08-06
+**Last verified**: 2026-08-06 (NASA AR6 tool scope, Bar Council naming and ministry portfolios corrected 2026-09-18 per sealevel.nasa.gov + maldivesbarcouncil.org + trade.gov.mv + infrastructure.gov.mv)
 
 **Researched by**: Opus 4.7 (1M context, parallel-subagent batch 2026-05)
 

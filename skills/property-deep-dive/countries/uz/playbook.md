@@ -11,7 +11,7 @@ ISO2: `uz`. Status: ✅ Fully populated (researched 2026-05).
 - **EU/regional status**: **No EU candidate status**. EU **Enhanced Partnership and Cooperation Agreement (EPCA)** signed 2018 (in force since 1 July 2025 per Council of the EU), expanding the 1996 PCA. **GSP+ beneficiary** since 10 April 2021 (preferential trade access). **Not in EAEU** (declined membership; observer status since December 2020 — Russia-led customs union). **SCO observer 2001 → full member 2001 → continues**; **Organization of Turkic States** member; **CICA** (Conference on Interaction and Confidence-Building Measures in Asia) member. Multi-vector foreign policy with active reorientation toward "Middle Corridor" Trans-Caspian trade route post-2022.
 - **Postcode**: 6 digits (e.g., Tashkent central districts `100000`–`100214`; Samarkand `140100`–`140199`; Bukhara `200100`–`200199`).
 - **Admin levels**: **12 regions (viloyatlar — singular viloyat / область in Russian)** + **1 autonomous republic (Republic of Karakalpakstan / Qoraqalpogʻiston Respublikasi)** + **1 independent city of republican significance (Tashkent / Toshkent shahri)** = **14 first-level units**. Subdivided into **175 districts (tumanlar — singular tuman / район)** + city districts (туманлар) + 119 cities + ~1,000 urban-type settlements. The 12 viloyats: Andijan, Bukhara, Fergana, Jizzakh, Namangan, Navoi, Qashqadaryo, Samarkand, Sirdaryo, Surxondaryo, Tashkent (region — separate from Tashkent city), Khorezm. Source: [Subdivisions of Uzbekistan, Wikipedia](https://en.wikipedia.org/wiki/Subdivisions_of_Uzbekistan) cross-checked against [stat.uz administrative classification](https://stat.uz/en/).
-- **Cadastre**: **Cadastre Agency under the Ministry of Economy and Finance (Iqtisodiyot va moliya vazirligi huzuridagi Kadastr agentligi)** at [kadastr.uz](https://kadastr.uz/en) — established by **Presidential Decree UP-60 of 28 January 2022** consolidating the prior State Committee on Land Resources, Geodesy, Cartography and Cadastre (GKZGDK). Operates the **unified e-Cadastre / e-Kadastr** national digital register of immovable property, land parcels, addresses + cadastral plans. **Modernisation backbone**: World Bank "Modernization of Real Property Registration and Cadastre Project" (P151746, US$20M IDA credit approved 24 May 2016, extended; full nationwide digitisation of cadastral + registration documentation completed 2.5× ahead of original scope per Bank ISR — see [WB project page](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/690831467989526521/uzbekistan-modernization-of-real-property-registration-and-cadastre-project)). Rosreestr (Russia) cooperated on cadastral valuation methodology starting 2021.
+- **Cadastre**: **Cadastre Agency under the Committee for Urbanization and the Housing Market (Oʻzbekiston Respublikasi Urbanizatsiya va uy-joy bozori qoʻmitasi huzuridagi Kadastr agentligi)** at [kadastr.uz](https://kadastr.uz/en) — established by **Presidential Decree UP-60 of 28 January 2022** consolidating the prior State Committee on Land Resources, Geodesy, Cartography and Cadastre (GKZGDK), and **since re-subordinated from the Ministry of Economy and Finance to the Committee for Urbanization and the Housing Market — the re-subordination instrument is not published on the agency site; verify the current parent body at [kadastr.uz](https://kadastr.uz/en)** (2026 data, source Kadastr agentligi site masthead; 2026-09-18 verified). Operates the **unified e-Cadastre / e-Kadastr** national digital register of immovable property, land parcels, addresses + cadastral plans. **Modernisation backbone**: World Bank "Modernization of Real Property Registration and Cadastre Project" (P151746, US$20M IDA credit approved 24 May 2016, extended; full nationwide digitisation of cadastral + registration documentation completed 2.5× ahead of original scope per Bank ISR — see [WB project page](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/690831467989526521/uzbekistan-modernization-of-real-property-registration-and-cadastre-project)). Rosreestr (Russia) cooperated on cadastral valuation methodology starting 2021.
 - **Identifier**: **Cadastral number (kadastr raqami / кадастровый номер)** identifies each immovable object; format used by Cadastre Agency follows region.district.block.parcel hierarchy (verify exact format per parcel at kadastr.uz). Each apartment, house, commercial unit, land plot has a unique cadastral record cross-referenced to a **technical passport (tekhpasport)** maintained by State Unitary Enterprise "Yer Kadastri" / regional cadastre offices.
 - **Primary legal information system**: **Lex.uz (Milliy huquqiy axborot bazasi)** — official national legal database under Ministry of Justice: [lex.uz](https://lex.uz/) — Constitution, Codes (Civil, Land, Tax, Criminal, Family, Labour), Presidential decrees (PF/UP), Cabinet resolutions (PQ/QM), all subordinate acts. Russian + Uzbek (Latin + Cyrillic) versions; partial English. **NormaTiv (Norma)** at [norma.uz](https://www.norma.uz/) is a widely-used commercial legal aggregator for practitioners.
 - **Foreign-buyer rule**:
@@ -21,7 +21,7 @@ ISO2: `uz`. Status: ✅ Fully populated (researched 2026-05).
   - **Agricultural land**: BANNED for foreigners (citizens-only); also restricted to specific agricultural-purpose entities even for citizens. Permanent prohibition under Land Code.
   - **Border / strategic / military zones**: additional restrictions per Cabinet zoning lists (verify per parcel via cadastre extract).
 - **Visa**:
-  - **Visa-free 30-day entry** for ~**90 nationalities** (EU/EEA, UK, CA, AU, NZ, JP, KR, IL, Türkiye, GCC, most Latin America + Asia per [Visa policy of Uzbekistan, Wikipedia](https://en.wikipedia.org/wiki/Visa_policy_of_Uzbekistan)). 2019 + 2020 + 2024 expansions; verify per nationality at **MFA Consular Department**: [mfa.uz](https://www.mfa.uz/) or [evisa.gov.uz](https://e-visa.gov.uz/).
+  - **Visa-free 30-day entry** for ~**90 nationalities** (EU/EEA, UK, CA, AU, NZ, JP, KR, IL, Türkiye, GCC, most Latin America + Asia per [Visa policy of Uzbekistan, Wikipedia](https://en.wikipedia.org/wiki/Visa_policy_of_Uzbekistan)). 2019 + 2020 + 2024 expansions; verify per nationality at **MFA Consular Department**: [mfa.uz](https://www.mfa.uz/) or [e-visa.gov.uz](https://e-visa.gov.uz/).
   - **e-Visa** (introduced 15 July 2018): up to 30 days for ~58 additional nationalities; **US$20** fee; online application via [e-visa.gov.uz](https://e-visa.gov.uz/).
   - **5-year "Golden Visa" (Investor Residence Permit)** — entered into force **1 June 2025** per **Presidential Decree PF-67 (also cited as UP-67) of 18 April 2025** ([Astana Times Apr 2025](https://astanatimes.com/2025/04/uzbekistan-to-offer-five-year-residence-permits-to-foreign-investors-starting-june/) + [Library of Congress Global Legal Monitor 27 Jun 2025](https://www.loc.gov/item/global-legal-monitor/2025-06-27/uzbekistan-new-program-aims-to-enhance-foreign-investments-in-exchange-for-residence-permits/)). This is a **non-refundable one-off donation** — **US$250,000** for the main applicant + **US$150,000 per accompanying family member** (spouse/child/parent), paid to a state-designated account — **with NO real-estate, business, or job-creation condition** (INVEXI, quoting the decree text: "The Decree does not stipulate additional conditions, such as investments in the economy, real estate purchases, or job creation"; [IMI Daily Apr 2025](https://www.imidaily.com/central-asia/uzbekistan-introduces-new-5-year-donation-based-golden-visa) + [Fragomen 22 Apr 2025](https://www.fragomen.com/insights/uzbekistan-new-golden-visa-pathway-forthcoming.html)). **Not yet operational**: the implementing Cabinet/MIA resolution was **not adopted as of October 2025** ([Azizov & Partners memo 13 Oct 2025](https://azizovpartners.uz/en/memos/investment-visa-and-residence-permit-in-uzbekistan)) — banks cannot yet legally accept the donation; verify operational status before relying. (2026-07-02 verified — corrects earlier brief that mislabelled this as a real-estate route and cited "UP-89".)
   - **Separate pre-existing real-estate-for-residence route** (distinct from the PF-67 donation Golden Visa; Presidential Decree UP-5611 appendix 6, amended by UP-101, per IMI Daily reporting) — qualifying property-purchase thresholds:
@@ -181,7 +181,7 @@ Source: Tax Code Art. 425; [Kun.uz tax brief Dec 2024](https://kun.uz/en/8467672
 | Regional centres + Tashkent oblast | **2,200,000** | ~$176 |
 | Other localities | **1,300,000** | ~$104 |
 
-Source: [Kun.uz](https://kun.uz/en/84676729) + State Tax Committee guidance; **2026 figures indexed +7 %** per EY 2026 alert (verify exact 2026 floors at [soliq.uz](https://gov.uz/en/soliq) before relying).
+Source: [Kun.uz](https://kun.uz/en/84676729) + Tax Committee guidance; **2026 figures indexed +7 %** per EY 2026 alert (verify exact 2026 floors at [gov.uz/en/soliq](https://gov.uz/en/soliq) before relying).
 
 ### Example calculation (Tashkent mid-segment apartment)
 
@@ -191,7 +191,7 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
 - 2026 indexation +7 % → ~UZS 840,000/year (~US$67/year)
 - **Annual property tax in UZ is materially low** (typically US$50–US$200/year for an Tashkent mid-segment flat) — among the lowest in the broader Central Asia / CIS region.
 
-> Effective property-tax rate on **market value** (not cadastral) is typically **0.05–0.15 %** for Tashkent residential — even with the 2025 floor uplift + 2026 +7 % indexation, the tax burden remains negligible by global standards. Verify per parcel with the State Tax Committee at [soliq.uz](https://gov.uz/en/soliq) or via your taxpayer cabinet (`my.soliq.uz`).
+> Effective property-tax rate on **market value** (not cadastral) is typically **0.05–0.15 %** for Tashkent residential — even with the 2025 floor uplift + 2026 +7 % indexation, the tax burden remains negligible by global standards. Verify per parcel with the **Tax Committee** at [gov.uz/en/soliq](https://gov.uz/en/soliq) or via your taxpayer cabinet (`my.soliq.uz`).
 
 ### Land tax (Yer solig'i / Земельный налог)
 
@@ -207,7 +207,7 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
   - **First sale by VAT-registered developer (primary market)**: **residential generally exempt** under Tax Code Art. 244; commercial first sale subject to VAT 12 %
   - Verify exact treatment at [tax-legal.uz/en/value-added-tax](https://tax-legal.uz/en/value-added-tax/) + 2026 Tax Code consolidated text on [lex.uz](https://lex.uz/)
 - **Notary fee (Notarial yig'im / нотариальный сбор)**: **mandatory notarisation** for any immovable property purchase contract per Civil Code; sliding scale per Cabinet Decree on Notarial Tariff — typically **0.1 %–1.0 %** of contract value; verify current schedule at [adliya.uz](https://www.adliya.uz/) (Ministry of Justice)
-- **State registration fee at Cadastre Agency**: ~**UZS 200,000–800,000** (~US$16–US$64) standard; expedited fees available; per [kadastr.uz](https://kadastr.uz/en) tariff schedule
+- **State registration fee at Cadastre Agency**: **data not publicly available — verify at the [Cadastre Agency](https://kadastr.uz/en)**; the English portal surfaces the registration services but publishes no tariff table (2026-09-18 verified). Expedited processing is offered at a higher fee.
 - **Real-estate agent (rieltor)**: typically **2–4 %** paid by seller; foreign buyers occasionally asked to pay buyer-side commission — negotiate
 - **Total transaction cost (buyer side, individual–individual resale)**: **~0.3 %–2.0 %** before agent commission — among the lowest in the broader CIS/Asia
 - **AML / cash-payment limit**: per Currency Regulation Law No. ZRU-573 of 2019 + Cabinet decrees, real-estate purchases over thresholds (verify current cap at CBU) require **bank-transfer settlement**; cash payments above limits trigger AML reporting via Department for Combating Economic Crimes under the Prosecutor General's Office. **For foreign buyers, bank transfer is the standard** + recommended for AML defensibility.
@@ -280,7 +280,7 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
 
 - **Individual operating informally**: 12 % PIT on net rental + risk of being reclassified as "entrepreneurial activity" → triggers IE registration + retroactive penalties
 - **IE under 4 % turnover regime**: works for STR if cap respected
-- **VAT registration**: required if turnover crosses VAT threshold (verify at [soliq.uz](https://gov.uz/en/soliq) — currently UZS 1B / ~US$80k turnover)
+- **VAT registration**: required if turnover crosses VAT threshold (verify at [gov.uz/en/soliq](https://gov.uz/en/soliq) — currently UZS 1B / ~US$80k turnover)
 - **Tourist tax / accommodation fee**: NONE national; some Tashkent + Samarkand + Bukhara districts experimenting with municipal-level levies — verify per khokimiyat before listing
 
 #### Practical (2025–2026)
@@ -380,10 +380,10 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Ministry of Emergency Situations (FVV — Favqulodda vaziyatlar vazirligi)** | [fvv.uz](https://gov.uz/en/fvv) | Operational hazard data, flood/earthquake/fire response, civil protection plans |
-| **Institute of Seismology, Academy of Sciences of the Republic of Uzbekistan** | [seismology.uz](https://www.seismos.uz/) (verify current URL) | Real-time + historic seismicity, fault maps, intensity zoning, Tashkent + Fergana Valley active fault catalogue |
+| **Ministry of Emergency Situations (FVV — Favqulodda vaziyatlar vazirligi)** | [gov.uz/en/fvv](https://gov.uz/en/fvv) | Operational hazard data, flood/earthquake/fire response, civil protection plans |
+| **Institute of Seismology, Academy of Sciences of the Republic of Uzbekistan** | [seismos.uz](https://www.seismos.uz/) | Real-time + historic seismicity, fault maps, intensity zoning, Tashkent + Fergana Valley active fault catalogue |
 | **Centre of Hydrometeorological Service (Uzhydromet — Oʻzgidromet)** | [meteo.uz](https://www.meteo.uz/en) | Weather, flood warnings, climate baseline, drought monitoring (Aral basin) |
-| **Ministry of Ecology, Environmental Protection and Climate Change** | [eco.gov.uz](https://gov.uz/en/eco) | Environmental risk reports, Aral Sea region monitoring, climate adaptation |
+| **National Committee on Ecology and Climate Change of the Republic of Uzbekistan** (hotline 1157; formerly styled a ministry) | [gov.uz/en/eco](https://gov.uz/en/eco) | Environmental risk reports, Aral Sea region monitoring, climate adaptation |
 | **State Architectural and Construction Inspectorate** | under Ministry of Construction | Building-code enforcement (KMK / ҚМҚ — Қурилиш меъёрлари ва қоидалари series, equivalent to Russian SNiP); seismic-design certification |
 | **Cadastre Agency** | [kadastr.uz](https://kadastr.uz/en) | Cadastre + zoning + restricted-zone flag (border / strategic) |
 
@@ -459,7 +459,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 ### National database + operators
 
 - **Tariff regulator**: [Cabinet of Ministers + Ministry of Energy](https://www.energy.uz/) — sets utility tariffs (electricity, gas, water, heating)
-- **Electricity transmission**: **JSC "National Electric Grid of Uzbekistan"** ([uzenergo.uz](https://www.uzbekistonmet.uz/en)) — successor to Uzbekenergo (split 2019); distribution via regional electricity companies (REC) per viloyat:
+- **Electricity transmission**: **JSC "National Electric Grid of Uzbekistan"** ([uzbekistonmet.uz](https://www.uzbekistonmet.uz/en)) — successor to Uzbekenergo (split 2019); distribution via regional electricity companies (REC) per viloyat:
   - Tashkent: **Tashkent City Electric Networks** + retail
   - Other regions: regional REC subsidiaries
 - **Gas distribution**: **JSC "Hududgazta'minot"** + **JSC "Uztransgaz"** (national transmission) under Ministry of Energy
@@ -499,7 +499,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 | Utility | Tariff (residential, indicative) |
 |---|---|
-| **Electricity (residential, social-norm tier)** | ~UZS 450/kWh (~US$0.036/kWh) up to social-norm consumption; higher tiers for excess (verify current schedule at uzenergo.uz) |
+| **Electricity (residential, social-norm tier)** | ~UZS 450/kWh (~US$0.036/kWh) up to social-norm consumption; higher tiers for excess — **the transmission operator publishes no residential tariff schedule ([uzbekistonmet.uz](https://www.uzbekistonmet.uz/en), 2026-09-18 verified); verify the current schedule with your regional electricity company (REC)** |
 | **Natural gas residential** | ~UZS 850–1,200/m³ (~US$0.07–US$0.10/m³) — heavily subsidised historically; gradual liberalisation 2024–2026 |
 | **Water + sewer (Tashkent Suvsoz)** | ~UZS 1,800–2,800/m³ for water; ~UZS 1,200–2,000/m³ for sewer (verify suvsoz.uz current tariff) |
 | **District heating** | varied by CHPP; subsidised; verify per region |
@@ -519,7 +519,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 ### Primary sources
 
-- **Ministry of Internal Affairs (IIV — Ichki ishlar vazirligi)**: [iiv.uz](https://gov.uz/uz/iiv) — national crime statistics + district inspector (uchastkovy / mahalla inspektor) network
+- **Ministry of Internal Affairs (IIV — Ichki ishlar vazirligi)**: [gov.uz/uz/iiv](https://gov.uz/uz/iiv) — national crime statistics + district inspector (uchastkovy / mahalla inspektor) network
 - **State Statistics Committee — Crime and Justice section** ([stat.uz/en/official-statistics/crime-and-justice](https://stat.uz/en/official-statistics/crime-and-justice))
 - **Prosecutor General's Office (Bosh prokuratura)**: [prokuratura.uz](https://www.prokuratura.uz/) — prosecutorial statistics
 - **Department for Combating Economic Crimes**: AML + financial crime
@@ -660,7 +660,7 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 |---|---|
 | **State Public Service Centres ("Yagona Markaz" — Single Centre Network)** | Cadastre extract, IE registration, foreigner ID (STIR), all my.gov.uz services in person; nationwide branches |
 | **my.gov.uz** | Online cadastre extract, IE registration, tax filing — requires Electronic Digital Signature (EDS); foreigners with STIR can register |
-| **State Tax Committee (STC / Soliq qoʻmitasi)** | [soliq.uz](https://gov.uz/en/soliq) — tax residency, IE applications, individual income declaration, VAT registration; my.soliq.uz taxpayer cabinet |
+| **Tax Committee of the Republic of Uzbekistan (Soliq qoʻmitasi — formerly the State Tax Committee / STC)** | [gov.uz/en/soliq](https://gov.uz/en/soliq) — tax residency, IE applications, individual income declaration, VAT registration; `my.soliq.uz` taxpayer cabinet |
 | **Central Bank of Uzbekistan (CBU)** | [cbu.uz/en](https://cbu.uz/en/) — currency-control declarations for cross-border, USDUZS reference rate |
 | **Cadastre Agency** | [kadastr.uz/en](https://kadastr.uz/en) — e-Kadastr extracts, technical passports, cadastral valuation |
 | **Notarial Chamber (Notarial palata)** | Find notary, verify notary licence; under Ministry of Justice |
@@ -696,7 +696,7 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 | State Statistics Committee (Stat.uz) | [stat.uz/en](https://stat.uz/en/) |
 | Single portal of public services (my.gov.uz) | [my.gov.uz](https://my.gov.uz/) |
 | Lex.uz legal information system | [lex.uz](https://lex.uz/) |
-| State Tax Committee (STC) | [soliq.uz](https://gov.uz/en/soliq) |
+| Tax Committee (formerly State Tax Committee / STC) | [gov.uz/en/soliq](https://gov.uz/en/soliq) |
 | Central Bank of Uzbekistan | [cbu.uz/en](https://cbu.uz/en/) |
 | Cadastre Agency | [kadastr.uz/en](https://kadastr.uz/en) |
 | Uybor.uz listings | [uybor.uz/en](https://uybor.uz/en) |
@@ -705,17 +705,17 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 | e-Visa portal | [e-visa.gov.uz](https://e-visa.gov.uz/) |
 | IT Park Uzbekistan | [it-park.uz/en](https://www.it-park.uz/en/) |
 | Tashkent Khokimiyat | [tashkent.uz](https://tashkent.uz/) |
-| Suvsoz (water) | [suvsoz.uz](https://toshkent.uzsuv.uz) |
-| Uzenergo (electricity) | [uzenergo.uz](https://www.uzbekistonmet.uz/en) |
-| Ministry of Emergency Situations | [fvv.uz](https://gov.uz/en/fvv) |
+| Toshkent suv taʼminoti (water) | [toshkent.uzsuv.uz](https://toshkent.uzsuv.uz) |
+| National Electric Grid of Uzbekistan (electricity) | [uzbekistonmet.uz](https://www.uzbekistonmet.uz/en) |
+| Ministry of Emergency Situations | [gov.uz/en/fvv](https://gov.uz/en/fvv) |
 | Uzhydromet | [meteo.uz/en](https://www.meteo.uz/en) |
-| Ministry of Ecology | [eco.gov.uz/en](https://gov.uz/en/eco) |
+| National Committee on Ecology and Climate Change | [gov.uz/en/eco](https://gov.uz/en/eco) |
 | Ministry of Investments and Foreign Trade | [invest.gov.uz](https://invest.gov.uz/) |
 | Ministry of Foreign Affairs | [mfa.uz](https://www.mfa.uz/) |
-| Ministry of Construction | [stroy.uz](https://gov.uz/en/mc) |
+| Ministry of Construction | [gov.uz/en/mc](https://gov.uz/en/mc) |
 | Ministry of Justice (Adliya) | [adliya.uz](https://www.adliya.uz/) |
 | Ministry of Energy | [energy.uz](https://www.energy.uz/) |
-| Ministry of Internal Affairs | [iiv.uz](https://gov.uz/uz/iiv) |
+| Ministry of Internal Affairs | [gov.uz/uz/iiv](https://gov.uz/uz/iiv) |
 | Norma legal aggregator | [norma.uz](https://www.norma.uz/) |
 | Tax-legal.uz | [tax-legal.uz/en](https://tax-legal.uz/en/) |
 | EY Uzbekistan tax updates | [ey.com/en_uz](https://www.ey.com/en_uz) |
@@ -725,4 +725,4 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 
 **Status**: ✅ fully populated as of 2026-05-07
 **Confidence**: MEDIUM — HIGH for foreign-buyer rules (Cabinet Resolution PQ-384 of 13 July 2022 + Land Code Art. 17–18 + 5-year Investor Residence Permit under **Presidential Decree PF-67 of 18 April 2025** (eff. 1 June 2025) multi-source corroborated against Astana Times, Library of Congress Global Legal Monitor, Azizov & Partners memo, Gratanet brief, Mondaq), tax framework (12 % flat PIT, 0.34/0.45/0.6 % property tax, cadastral floors 3.3M/2.2M/1.3M UZS/m² Tashkent/regional/other, 2026 +7 % land+property+water indexation per EY 2026 alert + Kun.uz Kuchkarov briefing), IT Park / IT Visa regime (US$30k IT-income threshold, 3-year multi-entry, real-estate any value), currency framework (CBU 14 % policy rate unchanged April 2025–April 2026, 7.3 % inflation end-2025, USDUZS ~12,300–12,950 Q1–Q2 2026), 1966 Tashkent earthquake seismic baseline (Mw 5.2 + 4 % pre-1966 stock vulnerable to Mw 5.5 per 2026 Nature Sci Rep paper). MEDIUM for parcel-level seismic certification (Institute of Seismology zoning is regional — parcel certification on request), STR municipal regulation (no national STR statute; Tashkent + Samarkand + Bukhara experimenting at municipal level), VAT treatment of primary residential sale (Tax Code Art. 244 exempt for residential — verify current 2026 wording at lex.uz), 2026 cadastral floor exact UZS values (verify after +7 % indexation lands at soliq.uz), and rental-income market data (Jarniascyril aggregator-grade for Samarkand/Bukhara STR yields). LOW for parcel-level land-lease term remaining (per-parcel verification at kadastr.uz mandatory; 49-year leases inherited from Soviet-era titling are uneven), 2026 minimum-wage exact UZS value (verify at mehnat.uz before relying), regional regional-centre cadastral floors (Stat.uz publishes Tashkent in detail; regional centres + other localities aggregated). **Russian-language + Uzbek-language primary sources dominate** — English-language coverage thin per roadmap; key gaps: detailed parcel-by-parcel cadastral access for non-Russian-speakers requires intermediary; Stat.uz crime data (104.3/10k Tashkent 2024) reflects ongoing reporting reform + digitalisation — interpret +27.1 % YoY 2024 as partly methodological, not pure crime increase.
-**Last verified**: 2026-07-02
+**Last verified**: 2026-07-02 (ecology committee and tax committee names corrected 2026-09-18 per gov.uz)

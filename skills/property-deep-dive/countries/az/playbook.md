@@ -28,7 +28,7 @@ ISO2: `az`. Status: ✅ Fully populated (researched 2026-05).
   - Sub-indices: Baku vs regional cities; primary (new build) vs secondary (resale)
 - **CBAR (Central Bank of Azerbaijan Republic)**: `https://www.cbar.az/` — quarterly Financial Stability Report includes mortgage debt + house-price commentary
 - **SCSI cadastre extracts** (paid): `https://e-services.economy.gov.az/` — full title + ownership + cadastral plan via e-gov.az auth or any ASAN Service centre (~AZN 5–20 standard, AZN 30–60 urgent — verify current SCSI tariff)
-- **Azerbaijan Mortgage and Credit Guarantee Fund (AMF/MİGAGF)**: `https://mcgf.gov.az/` — published average per-m² for state-subsidised mortgage qualifying inventory (useful Baku/Sumqayit cross-check)
+- **İpoteka və Kredit Zəmanət Fondu (İKZF — Mortgage and Credit Guarantee Fund)**: `https://mcgf.gov.az/` — publishes subsidised-mortgage loan counts and volumes and rent-to-own unit counts (59,970 loans / AZN 4,087,056,037 / 10,092 rent-to-own units as at 2026-09-18). **An average per-m² price for qualifying inventory is not published here — verify with the State Statistical Committee (stat.gov.az) if a per-m² cross-check is needed** (2026 data, source İKZF; 2026-09-18 verified)
 
 ### Price benchmarks (2024–2025 reference)
 
@@ -80,7 +80,7 @@ ISO2: `az`. Status: ✅ Fully populated (researched 2026-05).
 
 - **State Highway Agency (Azərbaycan Avtomobil Yolları Dövlət Agentliyi — AAYDA)**: `https://aayda.gov.az/` — annual traffic counts on M-prefix (republic) + R-prefix (regional) roads
 - **Ministry of Digital Development and Transport** (`https://mincom.gov.az/`) — sectoral plans, road master plans, port + rail context
-- **Baku Transport Agency (Bakı Nəqliyyat Agentliyi — BNA)**: `https://ayna.gov.az/` — Baku municipal traffic + bus/metro
+- **AYNA — Azərbaycan Yerüstü Nəqliyyat Agentliyi** (Azerbaijan Land Transport Agency; successor to the Baku Transport Agency / *Bakı Nəqliyyat Agentliyi*, BNA): `https://ayna.gov.az/` — Baku bus routing and stops, taxi regulation, freight, coach stations and the city's 5 paid-parking zones. **Baku Metro is operated separately by Bakı Metropoliteni — AYNA is ground transport only** (2026 data, source AYNA; 2026-09-18 verified)
 - **Baku Metropoliten** (`https://metro.gov.az/`) — Baku metro (3 lines, 27 stations as of 2025; expansion ongoing)
 - **Yandex Maps + Google Traffic** — only commercial-grade real-time fallback in AZ (Yandex is dominant locally)
 
@@ -190,7 +190,7 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 - Cash payments by legal entities: capped per Cabinet Decision on Cash Discipline; **AZN 30,000** per transaction is the residential-resale practical ceiling (Decree on Cash Operations 2016 — verify current cap)
 - Bank-to-bank wire is the standard channel for any transaction > AZN 10,000
 - Notaries are AML "obligated entities" under **Law on Prevention of Money Laundering and Financing of Terrorism No. 767-IIIQ of 2009** — must verify source of funds; PEP screening mandatory
-- **CBAR + Financial Monitoring Service (FMS)**: `https://fiu.gov.az/` — AML supervision
+- **Financial Monitoring Service (FMS / FIU-Azerbaijan)** — a **standalone public legal entity since Presidential Decree No. 95 of 25 May 2018** (it sat under the Central Bank only from its creation by Decree No. 66 of 23 Feb 2009, and under the Financial Markets Supervision Authority from 3 Feb 2016): `https://fiu.gov.az/` — AML/CFT supervision, national risk assessment, red flags and reports. **CBAR** (`https://www.cbar.az/`) is the separate banking regulator (2026 data, source FMS; 2026-09-18 verified)
 
 ### Future risk
 
@@ -247,7 +247,7 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 
 ### Job platforms
 
-- **HH.az** — largest job board (Russian/Azerbaijani UI): `https://hh.az/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Job boards** (commercial, ⚠️ not primary): `https://www.hellojob.az` · `https://boss.az` · `https://jobsearch.az` — listed as examples only; **no ranking or market-share claim is sourceable**. For labour-market figures use the **State Statistical Committee (stat.gov.az)** or the State Employment Agency
 - **Jobsearch.az** — long-running general: `https://jobsearch.az/`
 - **Boss.az** — IT + finance focus: `https://boss.az/`
 - **Offer.az** — broader classifieds + jobs: `https://offer.az/`
@@ -263,7 +263,7 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 ### Tech / IT-specific incentive
 
 - **High Technology Park (Yüksək Texnologiyalar Parkı — YTP)** at AZ-Tech Park / Pirallahi (Law on High Technology Park 2012 + Presidential Decree 2018): residents pay reduced taxes on qualifying IT activity — typically 0 % CIT + 0 % VAT + 0 % property tax for first 7–10 years (verify current eligibility at `https://ytp.az/`)
-- **Innoland / Innovation Agency**: `https://idda.az/` — startup support + grants
+- **IDDA / İRİA — İnnovasiya və Rəqəmsal İnkişaf Agentliyi** (Innovation and Digital Development Agency; successor to the Innovation Agency): `https://idda.az/` — startup support and grants (750+ startups supported, 190+ companies holding non-technopark residency status), plus the Azerbaijan Cybersecurity Centre, Holberton School Azerbaijan and the **mygov ID** national digital identity (2026 data, source IDDA; 2026-09-18 verified)
 
 ### Salaried benchmarks
 
@@ -1068,7 +1068,7 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Land Code Art. 48.3 + 49 — foreigners may freehold-own buildings / apartments / individual house structures but cannot own LAND of any class; standalone-house plots held under up-to-99-yr lease; property-tax AZN-per-m² mechanic with Baku district coefficient AZN 0.4/m² base × 0.7–1.5 → effective AZN 0.28–0.60/m²; PIT progressive 14% up to AZN 2,500/month, AZN 350 + 25% above per Tax Code Art. 101; rental 14% → 10% from 1 Jan 2026 residential rentals paid to individuals; AZN-USD peg ~1.7 since 2017). MEDIUM on simplified property-transfer-tax exact notary-withheld coefficient (verify at notary per deal); the "3-yr primary-residence exemption under Art. 102.1.18" framing remains unverified vs PwC + taxes.gov.az and is currently tagged `data not publicly verified — verify at taxes.gov.az`. MEDIUM on parcel-level rayon coefficient assignment within Baku (verify at relevant Bələdiyyə). LOW on residential price benchmarks (no national HPI; Bina.az / Tap.az aggregator-grade).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27 (traffic, AML and innovation authority identities corrected 2026-09-18 per ayna.gov.az + fiu.gov.az + idda.az)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

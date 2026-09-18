@@ -466,7 +466,7 @@ For each country, return:
 |---|---|
 | Authority | **Cartórios de Registro de Imóveis** (~3,800 nationwide) |
 | Federal | **CIB** national rollout 2025–2026 |
-| URLs | https://www.onr.org.br/ (ONR) · https://www.onr.org.br/ (SREI) |
+| URLs | https://www.onr.org.br/ (ONR — Operador Nacional do Sistema de Registro Eletrônico de Imóveis, instituted by Lei n. 13.465/2017; **SREI is the system ONR operates, not a separate portal** — `registradores.org.br` now terminates on ONR hosting with a `*.onr.org.br` certificate) |
 | Mode | per-property paid via cartório or ONR Central Eletrônica |
 | Cost | certidão de matrícula ~€10–30 |
 | Quirks | **CIB national rollout 2025–2026** aims to standardize. **FIPE-ZAP** = de facto national benchmark (asking, not transacted). **Abrainc-FIPE** covers new-build sold prices in major cities. **ITBI** (municipal transfer tax) records are closest to actual sales — São Paulo's **GeoSampa** includes ITBI declared values per parcel. |

@@ -10,7 +10,7 @@ ISO2: `za`. Status: ✅ Fully populated (researched 2026-05).
 - **Currency**: ZAR (South African Rand); volatile vs USD/EUR (1 USD ≈ R18–R19 typical 2025; 1 EUR ≈ R20 — verify on day of conversion)
 - **Languages**: 11 official (English, Afrikaans, isiZulu, isiXhosa, Sesotho, Sepedi, Setswana, Xitsonga, siSwati, Tshivenda, isiNdebele); **English dominates commerce, contracts, and conveyancing**
 - **Cadastre**: **Deeds Registry** (Deeds Office, one per major city — Cape Town, Pretoria, Johannesburg, Pietermaritzburg, Bloemfontein, Kimberley, King William's Town, Mthatha, Vryburg, Nelspruit, Polokwane) + **Surveyor-General** (per province) for diagrams
-  - DALRRD portal: `https://www.dalrrd.gov.za/`
+  - Deeds Registration portal: `https://www.deeds.gov.za/` (an entity of the Department of Land Reform and Rural Development, `https://www.dlrrd.gov.za/`)
   - DeedsWeb (subscription): `https://www.deeds.gov.za/`
 - **Identifier**: **Title Deed number** (e.g., `T12345/2020`) + **Surveyor-General (SG) diagram** + **Erf/Stand/Portion number** (residential) or **Sectional Title** scheme + unit number for apartments
 - **Recent reforms**:
@@ -458,7 +458,8 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 | Authority | When to call |
 |---|---|
 | **Deeds Office** (per city) | Title Deed verification; full property history; encumbrances |
-| **DALRRD** (Dept of Agriculture, Land Reform & Rural Development) | National cadastre policy; Deeds Office portal access |
+| **DLRRD** (Dept of Land Reform & Rural Development) | National cadastre policy; Deeds Registration Trading Entity |
+| **Department of Agriculture** (`nda.gov.za`) | Veterinary import permits (pet relocation) |
 | **Surveyor-General** (per province) | SG diagram; erf boundary verification |
 | **SARS** | Transfer Duty calculation; CGT; rental tax queries |
 | **Municipality** (rates, valuations, planning, CoCs) | Rates clearance, building plans approval, zoning, valuation roll |
@@ -490,7 +491,7 @@ Source: CSIR Green Book climate atlas: `https://greenbook.co.za/`
 
 | Source | URL |
 |---|---|
-| Deeds Office (DALRRD entry) | `https://www.dalrrd.gov.za/` |
+| Deeds Office (Deeds Registration) | `https://www.deeds.gov.za/` |
 | DeedsWeb (subscription portal) | `https://www.deeds.gov.za/` |
 | SARS Transfer Duty | `https://www.sars.gov.za/types-of-tax/transfer-duty/` |
 | SARS CGT | `https://www.sars.gov.za/types-of-tax/capital-gains-tax/` |

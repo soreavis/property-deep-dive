@@ -321,7 +321,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 - **SARL AU (associé unique)**: single-shareholder SARL
 - **SAS / SA**: for larger ventures, capital 100k–300k MAD
 - **Foreigners as managers/shareholders**: allowed; the **carte de séjour** (residence permit) is required for active management presence > 90 days
-- **Casablanca Finance City (CFC)** status: tax incentives (corporate tax 15 % preferential rate, currency convertibility) for eligible financial / business-services / holding entities — `https://www.casablancafinancecity.com/`
+- **Casablanca Finance City (CFC)** status: tax incentives (corporate tax **20 % for financial years opened on or after 1 Jan 2026** — the former 15 % CFC/ZAI rate was replaced by a transitional ramp under LF 2023: 16,25 % (2023) / 17,50 % (2024) / 18,75 % (2025) / 20 % (2026 onward), CGI art. 247-XXXVII; currency convertibility) for eligible financial / business-services / holding entities (2026 data, source CGI 2026 art. 247-XXXVII-A-2; 2026-09-18 verified) — `https://www.casablancafinancecity.com/`
 
 ### Salary benchmarks (est., 2025)
 
@@ -355,7 +355,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | **Institut National de Géophysique (CNRST)** | `https://www.cnrst.ma/` and `https://earthquake.usgs.gov/earthquakes/map/` | Seismicity catalogue (Morocco is seismically active) |
 | **Centre National de Recherche Scientifique et Technique** | as above | Earthquake monitoring |
 | **Ministère de l'Équipement et de l'Eau — Direction des Bassins Versants** | `https://www.eau.gov.ma/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Flood-prone zone maps (PPRI equivalent) |
-| **ABH (Agences de Bassin Hydraulique)** | `https://abhl.ma/`, `https://www.abhsm.ma/` (Sebou), etc. — 9 basin agencies | Flood risk mapping, water resource zoning |
+| **ABH (Agences de Bassin Hydraulique)** | **10 basin agencies** — Loukkos `https://abhl.ma/`, Sakia El Hamra–Oued Eddahab `https://abhshod.ma/`, Sebou `https://www.abhsebou.ma`, Souss-Massa `http://www.abhsm.ma/`, Bouregreg-Chaouia `https://abhbc.com/fr`, Draa-Oued Noun `https://www.abhdon.ma/`, Guir-Ziz-Rherriss `http://www.abhgzr.ma/`, Moulouya `http://www.abhmoulouya.ma/`, Oum-Er-Rbia `http://www.abhoer.ma/`, Tensift `https://abht.ma/` (2026-09-18 verified from the ABHSHOD official links page) | Flood risk mapping, water resource zoning — issued **per basin**, not centrally |
 | **Plan d'Aménagement Communal** | At each commune urbanisme office | Local zoning + risk overlays |
 | **HCP atlas du climat** | `https://www.hcp.ma/` + Copernicus C3S | Climate baseline data |
 | **USGS Morocco seismicity** | `https://earthquake.usgs.gov/earthquakes/search/?maxlatitude=36&minlatitude=27&maxlongitude=-1&minlongitude=-13` | Cross-check with CNRST for major events |
@@ -492,7 +492,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 
 ## Active fiscal incentives (2025)
 
-- **CFC — Casablanca Finance City** (`https://www.casablancafinancecity.com/`): preferential 15 % corporate tax for eligible financial-services / regional-headquarters / holding companies; dirham-convertibility privileges for CFC entities
+- **CFC — Casablanca Finance City** (`https://www.casablancafinancecity.com/`): corporate tax **20 % for exercises opened from 1 Jan 2026** (the 15 % CFC rate was phased out by loi de finances n° 50-22 (LF 2023) — 16,25 % / 17,50 % / 18,75 % / 20 % across 2023-2026); dirham-convertibility privileges for CFC entities (2026 data, source CGI 2026; 2026-09-18 verified)
 - **Tangier Med Special Agency / Zone Franche** (`https://www.tangermed.ma/`): industrial zone south of Tangier; 0 % CIT first 5 years then preferential rate; primarily industrial but includes adjacent residential developments
 - **SMIT investment conventions** (`https://www.smit.gov.ma/`): tourism investments above thresholds (typically > 200 M MAD) negotiate **convention d'investissement** with state — incentives include land-price concessions, customs exemptions for hotel equipment, and accelerated depreciation
 - **Charte de l'Investissement (Loi 03-22)**: revised 2022 framework — tiered subsidies (5–30 % of CAPEX) for projects above thresholds in strategic sectors, regions, or activities. AMDIE (`https://www.amdie.gov.ma/`) is the entry point.
@@ -564,7 +564,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | **Commune urbanisme office** | Plan d'Aménagement, permis de construire, zoning, oued setback | (commune-specific) |
 | **ABH (Agences de Bassin Hydraulique)** | Flood risk, well-drilling permits, water-resource zoning | (basin-specific) |
 | **DGPC (Protection Civile)** | Civil-protection hazards, emergency planning | `https://www.protectioncivile.gov.ma/` |
-| **Ordre National des Notaires** | Notary directory + fee barème | `https://notaires.org.ma/` |
+| **Conseil National de l'Ordre des Notaires du Maroc (CNONM)** | Notary directory (`https://notaires.org.ma/annuaire/annuaire.php`) — **fee barème not published here; notary fees are set by decree — verify in the Bulletin Officiel via the [SGG](https://www.sgg.gov.ma/)** | `https://notaires.org.ma/` |
 | **Receveur Communal** | Quitus fiscal (commune tax up-to-date) | (commune-specific) |
 | **Ministère du Travail** | SMIG, employment law | `https://www.travail.gov.ma/` |
 
@@ -611,7 +611,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | ONEE (eau + électricité) | `https://www.one.ma/` |
 | LYDEC (Casa) | `https://www.lydec.ma/` |
 | REDAL (Rabat) | `https://www.redal.ma/` |
-| RADEEMA (Marrakech) | `https://www.radeema.ma/` |
+| Marrakech water / electricity / assainissement distribution — **transferred to a Société Régionale Multiservices under loi n° 83-21; Marrakech-Safi is one of four pilot regions** (BO n° 7432, 21 Aug 2025). The former régie RADEEMA's site is dead — `data not publicly available — verify the current operator and tariffs with the Marrakech-Safi SRM / the commune` | ❌ `https://www.radeema.ma/` DEPRECATED — dead on 2026-09-18 |
 | ADM (autoroutes) | `https://www.adm.co.ma/` |
 | USGS Morocco seismicity | `https://earthquake.usgs.gov/earthquakes/search/?maxlatitude=36&minlatitude=27&maxlongitude=-1&minlongitude=-13` |
 | Mubawab | `https://www.mubawab.ma/fr/cc/immobilier-à-vendre-all:c:1` |
@@ -620,7 +620,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | Yakeey | `https://www.yakeey.com/` |
 | Anapec (emploi) | `https://www.anapec.org/` |
 | Rekrute | `https://www.rekrute.com/` |
-| Notaires Maroc | `https://notaires.org.ma/` |
+| CNONM — Conseil National de l'Ordre des Notaires du Maroc | `https://notaires.org.ma/` |
 
 ---
 
@@ -629,4 +629,4 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: Foreign buyer eligibility (4-regime decision tree + Office des Changes mechanics), pricing, traffic, tax, rental, work, risks, mains all have primary government sources or transparent estimates with calibration.
 **Confidence**: HIGH for the title/regime framework + tax base rates + ANCFCC/Office des Changes process (all primary state agencies, multi-source). MEDIUM for short-let regulation (fragmented, in transition, enforcement uneven) and price benchmarks (listing-derived est. ranges, not transaction-data-grade). LOW only for the agricultural-land Vivendi authorisation specifics (case-by-case, no published criteria).
-**Last verified**: 2026-05-27 (validation sweep — droit d'enregistrement terrains nus 5% (CGI art. 133-I-B, LdF 2024); TPI primary-residence exemption 5 yrs + 4M MAD ceiling; IGOC 2026 in force 1 Jan 2026)
+**Last verified**: 2026-05-27 (validation sweep — droit d'enregistrement terrains nus 5% (CGI art. 133-I-B, LdF 2024); TPI primary-residence exemption 5 yrs + 4M MAD ceiling; IGOC 2026 in force 1 Jan 2026; CFC corporate-tax rate, notary chamber name and basin-agency count corrected 2026-09-18 per CGI 2026 + notaires.org.ma + ABHSHOD)
