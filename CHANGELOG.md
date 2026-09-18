@@ -95,6 +95,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(source-audit): 89 flagged claims adjudicated; DE Gebäudemodernisierungsgesetz in force 29 Jul 2026 ([#403](https://github.com/soreavis/property-deep-dive/pull/403)) — by @soreavis
 
+- chore(liveness): 667-URL citation-repair wave — 377 re-points, 75 deprecations, geofenced hosts excluded, parenthesis-safe harvester ([#405](https://github.com/soreavis/property-deep-dive/pull/405)) — by @soreavis
+
 ## [2026.09.0] - 2026-09-17
 
 ### Fixed
