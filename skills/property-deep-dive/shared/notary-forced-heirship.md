@@ -26,7 +26,7 @@ For the property's country, return:
    - **DK + IE opted out of Brussels IV** — own forced-heirship applies regardless of foreign-law choice
    - **NO Arveloven 2019** modernisation — pliktdelsarv capped at 15× G (NOK ~28M, 2025)
    - **AE opt-out only effective if registered will is in place at DIFC or AD Civil Court** — default = Sharia
-   - **SA foreigners cannot acquire Sharia-restricted real estate** (Mecca/Medina); for purchases elsewhere Sharia applies
+   - **SA non-Muslim foreigners cannot acquire real estate in Mecca / Medina** (RD M/14, in force Jan 2026, opens the holy cities to non-Saudi Muslim individuals only); for purchases elsewhere Sharia applies
    - **LB confessional-court jurisdiction is determined by religion of deceased** — convert risk
    - **MY religion at death determines regime** (Faraid for Muslims; Distribution Act 1958 for non-Muslims)
    - **ID religion-of-deceased determines court** (Pengadilan Negeri civil vs Pengadilan Agama religious)

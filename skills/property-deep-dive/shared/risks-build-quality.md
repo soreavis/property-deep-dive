@@ -110,7 +110,7 @@ Three statutory families dominate the region. The **civil-law décennale family*
 - **8 Jan 2026** — EU — Most provisions of CPR (EU) 2024/3110 apply; Regulation (EU) 305/2011 partially repealed.
 - **1 May 2026** — UK — **Section 21 ("no-fault" eviction) abolition** in force under Renters' Rights Act 2025. Source: [gov.uk](https://www.gov.uk/government/publications/renters-rights-act-2025-implementation-roadmap/implementing-the-renters-rights-act-2025-our-roadmap-for-reforming-the-private-rented-sector)
 - **29 May 2026** — EU — **EPBD IV (Directive 2024/1275) transposition deadline** for Member States to enact national law.
-- **30 Jun 2026** — DE — Deadline for municipalities >100,000 pop. to publish Wärmeplan; GEG 65%-renewable rule then becomes mandatory locally for new heating-system installations (existing systems grandfathered).
+- **30 Jun 2026** — DE — Deadline for municipalities >100,000 pop. to publish Wärmeplan; GEG 65%-renewable rule was to become mandatory locally for new heating-system installations. **NEVER APPLIED** — the deadline was first pushed to 31 Oct 2026 (act of 22 Jun 2026, BGBl. 2026 I Nr. 191) and then deleted with §§ 71–73 GEG by the Gebäudemodernisierungsgesetz in force 29 Jul 2026 (BGBl. 2026 I Nr. 226; 2026-09-18 verified).
 - **8 Jan 2027** — EU — CPR (EU) 2024/3110 environmental-performance penalty provisions in force.
 - **30 Jun 2028** — DE — Deadline for municipalities ≤100,000 pop. to publish Wärmeplan.
 
