@@ -12,7 +12,7 @@ ISO2: `py`. Status: ✅ Fully populated (researched 2026-05).
   - **SNC — Servicio Nacional de Catastro** under MEF (Ministerio de Economía y Finanzas) — `https://www.catastro.gov.py/` — assesses **valor fiscal** (cadastral base) per finca, issues **cuenta corriente catastral (CCC)**.
   - **DGRP — Dirección General de los Registros Públicos** under Corte Suprema de Justicia — `https://www.pj.gov.py/contenido/144-direccion-general-de-los-registros-publicos/144` — **Registro Inmobiliario** holds title/dominio chain per **finca + matrícula**.
   - **Identifier**: every parcel has both **finca número** (DGRP legal title) and **cuenta corriente catastral** (SNC fiscal). Both quoted in escritura pública.
-- **Notary**: **Escribano público** — civil-law tradition; titles and authorisations from Corte Suprema; profession regulated by **Colegio de Escribanos del Paraguay** (`https://www.escribanos.org.py/`). Notary is **mandatory** for transfer of real property (Código Civil art. 700 inc. a, Ley 879/1981 Código de Organización Judicial). Buyer typically chooses the escribano.
+- **Notary**: **Escribano público** — civil-law tradition; titles and authorisations from Corte Suprema; profession regulated by **Colegio de Escribanos del Paraguay** (`http://www.cep.org.py/`). Notary is **mandatory** for transfer of real property (Código Civil art. 700 inc. a, Ley 879/1981 Código de Organización Judicial). Buyer typically chooses the escribano.
 - **Foreign ownership**:
   - **General rule**: **OPEN** — foreigners hold property rights equal to nationals (Constitución 1992 art. 109 + 109bis).
   - **Border-zone restriction** — **Ley 2.532/2005** art. 2 (as amended by Ley 2.647/2005) restricts ownership of rural land within the 50 km security zone to **foreign nationals of BORDERING COUNTRIES (Argentina, Bolivia, Brazil)** — or legal entities majority-controlled by such nationals. **Non-bordering nationals (US/EU/UK/Asian/African passports) are NOT subject to this restriction** and may acquire rural land in the zone, subject to standard cadastre + INDERT verification. Decreto 7525/2011 provides a public-interest executive-waiver pathway for bordering nationals (12-18 months). **Urban parcels** in border cities (Ciudad del Este, Encarnación, Pedro Juan Caballero, Salto del Guairá) remain available to all foreigners. (2026-05-27 verified, source [catastro.gov.py Ley 2532 PDF](https://www.catastro.gov.py/public/439bc5_ley%202532-05%20seguridad%20fronteriza.pdf) + BACN Ley 2647 + MEF Dictamen Jurídico 49/2025 — supersedes prior wording that incorrectly extended the restriction to all foreigners.)
@@ -39,7 +39,7 @@ ISO2: `py`. Status: ✅ Fully populated (researched 2026-05).
 | **DGRP búsqueda registral** | Registry | `https://www.pj.gov.py/contenido/144-direccion-general-de-los-registros-publicos/144` | Title chain, gravámenes, prior transfers per finca (paid consulta) |
 | **INE — Instituto Nacional de Estadística** | National stats | `https://www.ine.gov.py/` | Population, vivienda census, ECPV; no dedicated RE price index |
 | **BCP estadísticas** | Central bank | `https://www.bcp.gov.py/` | FX, monetary, sector financiero (mortgage stocks); no dedicated price index |
-| **CAPADEI / Cámara Paraguaya de Desarrolladores** | Trade body | `https://www.capadei.com.py/` | Asunción + suburbs developer-side market sense (limited free data) |
+| **CAPADEI / Cámara Paraguaya de Desarrolladores** | Trade body | `https://capadei.org.py/` | Asunción + suburbs developer-side market sense (limited free data) |
 | **MUVH — Ministerio de Urbanismo, Vivienda y Hábitat** | Housing | `https://www.muvh.gov.py/` | Social housing programs (FONAVIS/AVI), price benchmarks for VIS |
 
 ⚠️ **No equivalent of DANE IPVN (CO) or INE IPCV (UY)** — Paraguay lacks a national transactional RE price index. Price discovery relies heavily on **listing platforms** + private brokers + CAPADEI bulletins.
@@ -173,7 +173,7 @@ ISO2: `py`. Status: ✅ Fully populated (researched 2026-05).
 
 | Item | Rate | Source |
 |---|---|---|
-| **Notarial fees (escribano)** | ~0.5–2.0 % sliding (Ley 1.190/1985 arancel notarial — verify current actualización per Colegio de Escribanos) | `https://www.escribanos.org.py/` |
+| **Notarial fees (escribano)** | ~0.5–2.0 % sliding (Ley 1.190/1985 arancel notarial — verify current actualización per Colegio de Escribanos) | `http://www.cep.org.py/` |
 | **DGRP — Inscripción registral** | PYG ~200,000–500,000 fijo + small ad valorem (escala TUPA DGRP) | `https://www.pj.gov.py/contenido/144` |
 | **IVA on professional services** | 10 % on notary fees + comisión inmobiliaria | SET — Subsecretaría de Estado de Tributación |
 | **Comisión inmobiliaria** | 3–5 % + IVA, customarily seller-side; sometimes split | mercado |
@@ -417,7 +417,7 @@ Annual recurring tax:                    ~USD 330–415
 | **Ley 2.532/2005 verificación zona de frontera** (foreign buyer + rural finca) | Confirms property is NOT in 50 km border-zone-rural restriction | DGRP + INDERT |
 | **Certificado INDERT (rural)** | No agrarian-reform claim or pendencia | INDERT `https://www.indert.gov.py/` |
 
-**Critical**: The **escribano público** conducts the **estudio de títulos** with a **collaborating abogado**. Buyer should engage **independent abogado** for parallel review (not the seller's). Foreign buyers should verify escribano membership at **Colegio de Escribanos del Paraguay** (`https://www.escribanos.org.py/`).
+**Critical**: The **escribano público** conducts the **estudio de títulos** with a **collaborating abogado**. Buyer should engage **independent abogado** for parallel review (not the seller's). Foreign buyers should verify escribano membership at **Colegio de Escribanos del Paraguay** (`http://www.cep.org.py/`).
 
 ### Climate change projections (DINAC + IPCC AR6 + WB Climate Knowledge Portal)
 
@@ -566,9 +566,9 @@ Universal Copernicus / IPCC AR6 logic (`shared/climate-projections.md`) applies.
 - **Banco Nacional de Fomento (BNF)** — state — `https://www.bnf.gov.py/`
 - **Banco Itaú Paraguay** — `https://www.itau.com.py/`
 - **Banco Continental** — `https://www.bancontinental.com.py/`
-- **Banco Atlas** — `https://www.atlas.com.py/`
+- **Banco Atlas** — `https://www.bancoatlas.com.py/`
 - **Banco Familiar** — `https://www.familiar.com.py/`
-- **Sudameris Bank** — `https://www.sudamerisbank.com.py/`
+- **Sudameris Bank** — `https://www.sudameris.com.py/`
 - **Visión Banco**, **Regional**, **GNB Paraguay**, **Banco Río** — others.
 
 ### Tasas hipotecarias típicas (2026)
@@ -1183,7 +1183,7 @@ Paraguay as of 2026-05 has **no dedicated digital-nomad visa** comparable to PT 
 | DNM (Migraciones, ex-DGM) | `https://www.migraciones.gov.py/` |
 | MRE | `https://www.mre.gov.py/` |
 | SUACE | `https://www.suace.gov.py/` |
-| Colegio de Escribanos PY | `https://www.escribanos.org.py/` |
+| Colegio de Escribanos PY | `http://www.cep.org.py/` |
 | SENATUR | `https://www.senatur.gov.py/` |
 | SEN (emergencia) | `https://www.sen.gov.py/` |
 | DINAC (meteorología) | `https://www.dinac.gov.py/` |
@@ -1200,7 +1200,7 @@ Paraguay as of 2026-05 has **no dedicated digital-nomad visa** comparable to PT 
 | Clasipar | `https://clasipar.paraguay.com/` |
 | MercadoLibre PY | `https://inmuebles.mercadolibre.com.py/` |
 | Properati PY | `https://www.properati.com.py/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Paraguay portal (Properati does not operate in PY) |
-| CAPADEI | `https://www.capadei.com.py/` |
+| CAPADEI | `https://capadei.org.py/` |
 
 ## Status
 

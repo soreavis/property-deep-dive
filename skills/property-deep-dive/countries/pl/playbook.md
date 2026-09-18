@@ -226,7 +226,7 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 | **PIG-PIB** (Geological Institute) | `https://www.pgi.gov.pl/` | Geology, mining subsidence |
 | **PAA (Państwowa Agencja Atomistyki)** | `https://monitoring.paa.gov.pl/maps-portal/` | Radon |
 | **Państwowa Inspekcja Sanitarna** (Sanepid) — radon zone monitoring |
-| **GIOŚ** (env protection) | `https://www.gios.gov.pl/` | Air, water, soil quality |
+| **GIOŚ** (env protection) | `https://www.gov.pl/web/gios` | Air, water, soil quality |
 | **Polski Alarm Smogowy** | `https://polskialarmsmogowy.pl/` | Air quality monitoring |
 | **Airly** | `https://airly.org/map/` | Live PM2.5 data |
 | **Czyste Powietrze** | `https://czystepowietrze.gov.pl/` | Anti-smog programme |
@@ -429,7 +429,7 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 | Polski Alarm Smogowy | `https://polskialarmsmogowy.pl/` |
 | GUS | `https://stat.gov.pl/` |
 | GDDKiA traffic | `https://www.gov.pl/web/gddkia` |
-| GIOŚ | `https://www.gios.gov.pl/` |
+| GIOŚ | `https://www.gov.pl/web/gios` |
 
 ## Status
 

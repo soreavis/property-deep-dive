@@ -162,7 +162,7 @@ Foundational law: **Belastingwet BES, Hoofdstuk VII Overdrachtsbelasting**. Tari
 
 - **Bonaire short-let** is a substantial market — diver tourism, expat seasonal residents, US/NL second-home owners renting nightly via Airbnb/VRBO
 - **Permit regime**: short-let accommodation governed by **island-government tourism regulations** (Openbaar Lichaam Bonaire `Directie Toerisme` + relevant zoning under `Ruimtelijk Ontwikkelingsplan Bonaire (ROB)`) — a short-let licence/registration is required for nightly rental; verify exact current process with Openbaar Lichaam Bonaire
-- **Tourist tax**: per-night visitor tax + **`Bonaire Visitor Entry Tax (VET)`** USD 75 pp single-arrival fee (in force since 2022; verify current quantum at `https://bonairevet.com/`) — but VET is paid by the *visitor* on arrival, not by the property owner
+- **Tourist tax**: per-night visitor tax + **`Bonaire Visitor Entry Tax (VET)`** USD 75 pp single-arrival fee (in force since 2022; verify current quantum at `https://tourismtax.bonairegov.com/`) — but VET is paid by the *visitor* on arrival, not by the property owner
 - **Saba / Statia**: short-let market is micro-scale; permits via the respective Openbaar Lichaam; far fewer Airbnb listings than Bonaire
 
 ### Long-let
@@ -241,7 +241,7 @@ Foundational law: **Belastingwet BES, Hoofdstuk VII Overdrachtsbelasting**. Tari
 
 - **Bonaire**: **`WEB Bonaire NV`** (Water- en Energiebedrijf Bonaire) — `https://www.webbonaire.com/` — integrated water + electricity utility; majority island-government-owned. Sewer is municipal (Openbaar Lichaam Bonaire) where mains exist; many parcels rely on **septic tanks** outside Kralendijk + Belnem
 - **Saba**: **`Saba Electric Company NV (SEC)`** — `https://www.sabaelectric.com/` — electricity; water typically via **`cistern`** (rainwater collection — standard Saba practice — mandatory by topography; mains water network limited / nonexistent on most parcels) + small public supply in The Bottom/Windwardside
-- **Sint Eustatius**: **`STUCO`** (St. Eustatius Utility Company NV) — `https://www.stuco.bz/` — electricity + water; expanded mains water network post-2010 reform
+- **Sint Eustatius**: **`STUCO`** (St. Eustatius Utility Company NV) — `https://www.stucoeux.com/` — electricity + water; expanded mains water network post-2010 reform
 - **Telecom**: **`Digicel`** + **`Flow / Liberty Latin America`** mobile; FTTH selectively in Kralendijk (Bonaire); satellite + LTE/5G fixed-wireless common elsewhere
 
 ### Verification
@@ -409,7 +409,7 @@ Foundational law: **Belastingwet BES, Hoofdstuk VII Overdrachtsbelasting**. Tari
 - **STENAPA Sint Eustatius** — `https://www.statiapark.org/`
 - **WEB Bonaire** — `https://www.webbonaire.com/`
 - **Saba Electric Company** — `https://www.sabaelectric.com/`
-- **STUCO Sint Eustatius** — `https://www.stuco.bz/`
+- **STUCO Sint Eustatius** — `https://www.stucoeux.com/`
 - **NOAA NHC (hurricanes)** — `https://www.nhc.noaa.gov/`
 
 ---

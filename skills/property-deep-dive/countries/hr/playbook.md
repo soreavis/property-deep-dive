@@ -10,7 +10,7 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 - **Languages**: Croatian (official); Italian, Hungarian, Serbian (regional minorities)
 - **Cadastre**: **dual register** (Croatia famously has separate catastral + land registry — must reconcile both)
   - **DGU Geoportal**: `https://geoportal.dgu.hr/` — central spatial data
-  - **Katastar.hr**: `https://katastar.hr/` — paid cadastral data
+  - **Katastar.hr**: `https://oss.uredjenazemlja.hr/` — paid cadastral data
   - **OSS Uređena zemlja**: `https://oss.uredjenazemlja.hr/` — unified search (cadastre + ZK gruntovnica)
 - **Identifier**:
   - Cadastral parcel number `broj čestice` within cadastral municipality `k.o.`
@@ -374,7 +374,7 @@ _Est. ranges — vary by municipal vodovod tariff; confirm with local Vodovod i 
 |---|---|
 | DGU Geoportal | `https://geoportal.dgu.hr/` |
 | OSS Uređena zemlja | `https://oss.uredjenazemlja.hr/` |
-| Katastar.hr | `https://katastar.hr/` |
+| Katastar.hr | `https://oss.uredjenazemlja.hr/` |
 | Porezna uprava | `https://porezna-uprava.gov.hr/` |
 | DZS | `https://podaci.dzs.hr/` |
 | Njuškalo | `https://www.njuskalo.hr/nekretnine/` |

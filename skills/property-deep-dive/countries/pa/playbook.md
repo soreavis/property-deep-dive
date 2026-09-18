@@ -72,7 +72,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Sources
 
-- **MOP (Ministerio de Obras Públicas)**: `https://www.mop.gob.pa/`
+- **MOP (Ministerio de Obras Públicas)**: `http://www.mop.gob.pa/`
 - **ATTT (Autoridad de Tránsito y Transporte Terrestre)**
 
 ### Key term
@@ -188,8 +188,8 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 | Source | URL | What it gives |
 |---|---|---|
 | **SINAPROC (Sistema Nacional de Protección Civil)** | `https://www.sinaproc.gob.pa/` | Emergency response, hazards |
-| **IMHPA / ETESA** | `https://www.hidromet.com.pa/` | Hydrometeorology |
-| **IGN (Instituto Geográfico Nacional)** | `https://www.ignpanama.gob.pa/` | Geography |
+| **IMHPA / ETESA** | `https://www.imhpa.gob.pa/es/` | Hydrometeorology |
+| **IGN (Instituto Geográfico Nacional)** | `https://ignpanama.anati.gob.pa/` | Geography |
 | **Universidad de Panamá Sismología** | — | Seismic monitoring |
 
 ### Specific risks
@@ -348,7 +348,7 @@ ISO2: `pa`. Status: ✅ Fully populated (researched 2026-04).
 | Encuentra24 PA | `https://www.encuentra24.com/panama` |
 | CompreoAlquile | `https://www.compreoalquile.com/` |
 | SINAPROC | `https://www.sinaproc.gob.pa/` |
-| IMHPA / ETESA | `https://www.hidromet.com.pa/` |
+| IMHPA / ETESA | `https://www.imhpa.gob.pa/es/` |
 | IDAAN | `https://www.idaan.gob.pa/` |
 | DGI (tax) | `https://dgi.mef.gob.pa/` |
 | SNM (migration) | `https://www.migracion.gob.pa/` |

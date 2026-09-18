@@ -517,7 +517,7 @@ Qatar urban property is essentially **always on mains** for water + electricity 
   - **Qatar National Bank (QNB)** — `https://www.qnb.com/`
   - **Qatar Islamic Bank (QIB)** — `https://www.qib.com.qa/` (largest Islamic bank in Qatar)
   - **Commercial Bank of Qatar (CBQ)** — `https://www.cbq.qa/`
-  - **Doha Bank** — `https://dohabank.com.qa/`
+  - **Doha Bank** — `https://www.dohabank.com.qa/`
   - **Ahli Bank Qatar (ABQ)** — `https://www.ahlibank.com.qa/`
   - **Qatar Development Bank** (specialised)
 - **Sharia-compliant Murabaha / Ijara** financing widely available alongside conventional mortgages

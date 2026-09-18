@@ -7,7 +7,7 @@ ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-07-0
 ## Country profile
 
 - **Postal code system**: Traditionally none. Modern parcel-level identifiers:
-  - **Makani** (Dubai) — 10-digit unique address code maintained by Dubai Municipality (`https://www.makani.ae/`)
+  - **Makani** (Dubai) — 10-digit unique address code maintained by Dubai Municipality (`https://www.dm.gov.ae/open-data2/open-data-for-makani`)
   - **Onwani** (Abu Dhabi) — physical street-naming + addressing system maintained by the Department of Municipalities and Transport
   - **Plot number + community** is the cadastral identifier on Title Deeds
 - **Admin levels**: Federation of **7 emirates** → municipalities → communities (sub-divisions)
@@ -16,9 +16,9 @@ ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-07-0
 - **Cadastre** (per emirate — there is **no federal cadastre**):
   - **Dubai**: Dubai Land Department (DLD) — `https://dubailand.gov.ae/` + Dubai REST app
   - **Abu Dhabi**: Abu Dhabi Real Estate Centre (ADREC, formerly DMT-DGE) — `https://adrec.gov.ae/`
-  - **Sharjah**: Sharjah Real Estate Registration Department — `https://srerd.gov.ae/`
+  - **Sharjah**: Sharjah Real Estate Registration Department — `https://www.shjrerd.gov.ae/`
   - **Ras Al Khaimah**: RAK Municipality / RAK Department of Economic Development for property — `https://mun.rak.ae/`
-  - **Ajman**: Ajman Municipality and Planning Department — `https://www.am.gov.ae/`
+  - **Ajman**: Ajman Municipality and Planning Department — `https://www.ajman.ae/en/servicecatalog/service_categories/municipality-planning-department`
   - **Fujairah / Umm Al Quwain**: Municipal offices
 - **Identifier(s)**:
   - **Title Deed (Sanad Mulkiyya)** — issued by relevant emirate cadastre at completion / handover
@@ -112,7 +112,7 @@ This section determines whether a transaction is even legally possible. Confirm 
 - **Bayut**: `https://www.bayut.com/`
 - **Property Finder**: `https://www.propertyfinder.ae/`
 - **Dubizzle Property**: `https://www.dubizzle.com/property-for-sale/`
-- **Houza**: `https://www.houza.com/`
+- **Houza**: `https://www.houza.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Luxhabitat**, **LuxuryProperty.com** (high-end)
 
 ### Dubai citywide benchmarks (verified 2026-07-03)
@@ -465,7 +465,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | **Abu Dhabi** | **ADDC** (Abu Dhabi Distribution Company) `https://www.addc.ae/` |
 | **Al Ain** | **AADC** (Al Ain Distribution Company) |
 | **Sharjah** | **SEWA** (Sharjah Electricity, Water & Gas Authority) `https://www.sewa.gov.ae/` |
-| **Northern Emirates** (Ajman, RAK, UAQ, Fujairah) | **FEWA** (Federal Electricity & Water Authority) `https://www.fewa.gov.ae/` |
+| **Northern Emirates** (Ajman, RAK, UAQ, Fujairah) | **FEWA** (Federal Electricity & Water Authority) `https://etihadwe.ae/en/Pages/default.aspx` |
 | **District cooling** | **Empower** (Dubai dominant), **Tabreed** (UAE-wide), **Emicool** (Dubai) — separate bill |
 
 ### Verification
@@ -530,7 +530,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 - **Bayut** (largest by listings) — `https://www.bayut.com/`
 - **Property Finder** (UAE-wide, strong analytics) — `https://www.propertyfinder.ae/`
 - **Dubizzle Property** — `https://www.dubizzle.com/property-for-sale/`
-- **Houza** — `https://www.houza.com/`
+- **Houza** — `https://www.houza.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **LuxHabitat** + **LuxuryProperty.com** + **Sotheby's UAE** (high-end)
 - **JustProperty.com** (Sharjah / Northern Emirates strong)
 - Developer direct portals (Emaar, Damac, Aldar, Nakheel, Sobha) for off-plan
@@ -602,7 +602,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | DLD Open Data | `https://dubailand.gov.ae/en/open-data/` |
 | Dubai REST app (mobile) | `https://dubailand.gov.ae/en/eservices/dubai-rest/` |
 | ADREC | `https://adrec.gov.ae/` |
-| Sharjah Real Estate Registration | `https://srerd.gov.ae/` |
+| Sharjah Real Estate Registration | `https://www.shjrerd.gov.ae/` |
 | ICP (Federal — visas) | `https://icp.gov.ae/` |
 | GDRFA Dubai | `https://www.gdrfad.gov.ae/` |
 | Federal Tax Authority | `https://tax.gov.ae/` |
@@ -612,9 +612,9 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | DEWA | `https://www.dewa.gov.ae/` |
 | ADDC | `https://www.addc.ae/` |
 | SEWA | `https://www.sewa.gov.ae/` |
-| FEWA | `https://www.fewa.gov.ae/` |
+| FEWA | `https://etihadwe.ae/en/Pages/default.aspx` |
 | Dubai Municipality | `https://www.dm.gov.ae/` |
-| Makani (Dubai address) | `https://www.makani.ae/` |
+| Makani (Dubai address) | `https://www.dm.gov.ae/open-data2/open-data-for-makani` |
 | TAMM (Abu Dhabi unified services) | `https://www.tamm.abudhabi/` |
 | RTA Dubai | `https://www.rta.ae/` |
 | UAE Civil Defence | `https://www.dcd.gov.ae/` |

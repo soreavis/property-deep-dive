@@ -20,10 +20,10 @@ ISO2: `dk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Primary sources
 
-- **Vurderingsstyrelsen** (Property Assessment Agency): `https://www.vurderingsstyrelsen.dk/` — official assessments
+- **Vurderingsstyrelsen** (Property Assessment Agency): `https://vurdst.dk/` — official assessments
   - **Vurderingsportalen**: `https://www.vurderingsportalen.dk/` — consumer access
 - **OIS (Offentlig Information om Salg)**: `https://www.ois.dk/` — sales register, FREE; every sale recorded
-- **BBR (Bygnings- og Boligregistret)**: `https://www.bbr.dk/` — all buildings + dwellings register
+- **BBR (Bygnings- og Boligregistret)**: `https://bbr.dk/forside` — all buildings + dwellings register
 - **Tinglysning.dk**: `https://www.tinglysning.dk/` — land register; FREE viewer, paid certified extracts
 - **Boliga**: `https://www.boliga.dk/` — sold prices map + listings (combines OIS + listings)
 - **Boligsiden**: `https://www.boligsiden.dk/` — major listings
@@ -398,10 +398,10 @@ _Renovation/abatement ranges are order-of-magnitude estimates (not from a publis
 | OIS (sales register) | `https://www.ois.dk/` |
 | Boliga | `https://www.boliga.dk/` |
 | Boligsiden | `https://www.boligsiden.dk/` |
-| Vurderingsstyrelsen | `https://www.vurderingsstyrelsen.dk/` |
+| Vurderingsstyrelsen | `https://vurdst.dk/` |
 | Vurderingsportalen | `https://www.vurderingsportalen.dk/` |
 | Tinglysning | `https://www.tinglysning.dk/` |
-| BBR | `https://www.bbr.dk/` |
+| BBR | `https://bbr.dk/forside` |
 | Vejdirektoratet | `https://www.vejdirektoratet.dk/` |
 | Klimatilpasning | `https://klimatilpasning.dk/` |
 | Skat (tax) | `https://www.skat.dk/` |

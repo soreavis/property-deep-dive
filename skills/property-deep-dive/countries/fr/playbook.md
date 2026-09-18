@@ -85,7 +85,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
    - DGFiP fiscal data on data.economie.gouv.fr: [data.economie.gouv.fr — taux fiscalité directe locale](https://data.economie.gouv.fr/explore/?q=taux+fiscalit%C3%A9+directe+locale)
    - Service-Public.fr lookup tool overview: [service-public.gouv.fr A18426](https://www.service-public.gouv.fr/particuliers/actualites/A18426)
    - Délibérations fiscales votées par les collectivités: [collectivites-locales.gouv.fr — Taux votés](https://www.collectivites-locales.gouv.fr/etudes-et-statistiques/acces-par-thematique/fiscalite/taux-de-fiscalite-directe-locale-votes-par-les-collectivites)
-2. **Department-level reference** (rank + average): [IndiceVille](https://indice-ville.com/analyses/taxe-fonciere-2024) — useful for "is this dept high-tax or low-tax" framing
+2. **Department-level reference** (rank + average): [IndiceVille](https://www.impots.gouv.fr/donnees-generales-sur-les-taux-et-les-montants-de-la-fiscalite-directe-locale) — useful for "is this dept high-tax or low-tax" framing
 3. **Third-party aggregator** (use only if DGFiP open data lookup fails for the specific commune): `https://www.impots-locaux.org/impots-locaux-<commune-slug>-<postcode>/`
 4. **WebSearch fallback**: `"<commune>" taxe fonciere taux <year>` + TEOM rate
 

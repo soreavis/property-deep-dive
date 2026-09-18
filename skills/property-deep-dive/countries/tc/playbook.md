@@ -83,8 +83,8 @@ This section determines whether a transaction is even legally possible — and w
 
 ### Listing platforms
 
-- **TCSothebysrealty / Turks & Caicos Sotheby's International Realty** — `https://www.turksandcaicossothebysrealty.com/`
-- **RE/MAX Turks and Caicos** — `https://www.remaxturksandcaicos.com/`
+- **TCSothebysrealty / Turks & Caicos Sotheby's International Realty** — `https://www.turksandcaicossir.com/`
+- **RE/MAX Turks and Caicos** — `https://remax-realestategroup-tci.com/`
 - **Coldwell Banker Turks & Caicos** — regional desk
 - **Turks & Caicos Property (TCREA-affiliated)** — `https://www.tcrealestate.com/`
 - **visittci real estate** — `https://www.visittci.com/real-estate` (buyer guide + listings aggregation, secondary)
@@ -372,11 +372,11 @@ The TCI property thesis is overwhelmingly **second-home / vacation-rental-invest
 
 | Operator | Coverage |
 |---|---|
-| **[Pelican Energy TCI](https://www.fortistci.com/)** (rebranded from **FortisTCI**, Sept 2025) | Monopoly electric utility across Provo, North/Middle/South/East Caicos + cays |
+| **[Pelican Energy TCI](https://www.pelicanenergytci.com/)** (rebranded from **FortisTCI**, Sept 2025) | Monopoly electric utility across Provo, North/Middle/South/East Caicos + cays |
 | **[Energy & Utilities Department (EUD)](https://eud.gov.tc/)** | Electricity regulator |
 
 - ⚠️ **FortisTCI was acquired by Vision Ridge Partners and rebranded "Pelican Energy TCI" (Sept 2025).** Both names appear in current sources; the monopoly position + EUD regulation are unchanged.
-- **Tariff (Providenciales, Jan 2026, fortistci.com):** **~$0.45/kWh total** = **~$0.2910/kWh base "electric" + ~$0.1564/kWh "fuel factor"**. **High by Caribbean standards** — TCI runs a **diesel-generation island grid** and the fuel factor floats with oil prices (`regional ranking not verified to a primary tariff-comparison source`). (Source: [fortistci.com — electricity rates](https://www.fortistci.com/electricity-rates) — primary utility; magneticmedia / tcweeklynews on 2024 rate-revision request — secondary.)
+- **Tariff (Providenciales, Jan 2026, fortistci.com):** **~$0.45/kWh total** = **~$0.2910/kWh base "electric" + ~$0.1564/kWh "fuel factor"**. **High by Caribbean standards** — TCI runs a **diesel-generation island grid** and the fuel factor floats with oil prices (`regional ranking not verified to a primary tariff-comparison source`). (Source: [fortistci.com — electricity rates](https://www.pelicanenergytci.com/electricity-rates) — primary utility; magneticmedia / tcweeklynews on 2024 rate-revision request — secondary.)
 - **High power cost → strong economic case for solar/PV** on villas (verify net-metering / interconnection rules with EUD).
 
 ### Water — RO desalination (no natural freshwater)
@@ -579,8 +579,8 @@ HIGH for IPCC AR6 + CCCCC regional projections + Irma 2017 calibration; MEDIUM f
 
 ## Common listing platforms
 
-- **Turks & Caicos Sotheby's International Realty** — `https://www.turksandcaicossothebysrealty.com/`
-- **RE/MAX Turks and Caicos** — `https://www.remaxturksandcaicos.com/`
+- **Turks & Caicos Sotheby's International Realty** — `https://www.turksandcaicossir.com/`
+- **RE/MAX Turks and Caicos** — `https://remax-realestategroup-tci.com/`
 - **Coldwell Banker Turks & Caicos** — regional desk
 - **Turks & Caicos Real Estate (TCREA-affiliated)** — `https://www.tcrealestate.com/`
 - **visittci real estate** — `https://www.visittci.com/real-estate` (buyer guide + listings aggregation, secondary)
@@ -647,7 +647,7 @@ HIGH for IPCC AR6 + CCCCC regional projections + Irma 2017 calibration; MEDIUM f
 | gov.tc — Tourism Regulations (accommodation ordinance) | `https://gov.tc/tourismregulations/ordinance` |
 | gov.tc — Stamp Duty exemptions / waiver portal | `https://exemptions.gov.tc/` |
 | Energy & Utilities Department (EUD) | `https://eud.gov.tc/` |
-| Pelican Energy TCI / FortisTCI — electricity rates | `https://www.fortistci.com/electricity-rates` |
+| Pelican Energy TCI / FortisTCI — electricity rates | `https://www.pelicanenergytci.com/electricity-rates` |
 | Turks & Caicos Tourist Board — Accommodation Licensing | `https://turksandcaicostourism.com/accommodation-licensing/` |
 | Supreme Court of the Turks and Caicos Islands | `https://judicial.tc/` |
 | TCI judgments (case law) | `https://tcilii.org/judgments/TCASC/` |

@@ -109,7 +109,7 @@ On grant of the ALL, a licence fee is payable as a **percentage of the purchase 
 - **Coldwell Banker Bermuda Realty** — `https://www.bermudarealty.com/`
 - **Rego Sotheby's International Realty** — `https://www.regosothebysrealty.com/`
 - **Sinclair Realty / Coldwell Banker** — `https://www.sinclairrealty.com/`
-- **L.P. Gutteridge** — `https://www.lpg.bm/`
+- **L.P. Gutteridge** — `https://www.lpg.bm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Bermuda Property Link / KW Bermuda** — secondary aggregators
 - **JamesEdition / Christie's International** — ultra-prime international syndication (secondary)
 
@@ -486,7 +486,7 @@ HIGH for IPCC AR6 regional projections; MEDIUM for parcel-level surge/SLR specif
 - **Major lenders**:
   - **HSBC Bermuda** — `https://www.hsbc.bm/`
   - **Butterfield Bank (Bank of N.T. Butterfield & Son)** — `https://www.butterfieldgroup.com/`
-  - **Clarien Bank** — `https://www.clarienbank.com/`
+  - **Clarien Bank** — `https://clarienbank.com/`
 
 ### LTV + tenor
 
@@ -581,7 +581,7 @@ HIGH for IPCC AR6 regional projections; MEDIUM for parcel-level surge/SLR specif
 - **Coldwell Banker Bermuda Realty** — `https://www.bermudarealty.com/`
 - **Rego Sotheby's International Realty** — `https://www.regosothebysrealty.com/`
 - **Sinclair Realty / Coldwell Banker** — `https://www.sinclairrealty.com/`
-- **L.P. Gutteridge** — `https://www.lpg.bm/`
+- **L.P. Gutteridge** — `https://www.lpg.bm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **KW Bermuda / Bermuda Property Link** — secondary aggregators
 - **JamesEdition / Christie's International** — ultra-prime international syndication (secondary)
 
@@ -646,12 +646,12 @@ HIGH for IPCC AR6 regional projections; MEDIUM for parcel-level surge/SLR specif
 | Property valuations / ARV methodology | `https://www.gov.bm/property-valuations-bermuda` |
 | Land Valuation public search | `http://www.landvaluation.bm/` |
 | Land Title & Registration (LTRO) | `https://www.gov.bm/department/land-title-and-registration` |
-| Acquisition of Property by a Non-Bermudian (gazette notices) | `https://www.gov.bm/notice-type/acquisition-property-non-bermudian` |
-| Permanent Resident's Certificate | `https://www.gov.bm/online-services/get-permanent-resident%E2%80%99s-certificate` |
+| Acquisition of Property by a Non-Bermudian (gazette notices) | `https://www.gov.bm/theofficialgazette` |
+| Permanent Resident's Certificate | `https://www.gov.bm/online-services/permanent-residents-certificate-application` |
 | Types of taxes in Bermuda | `https://www.gov.bm/types-taxes-bermuda` |
 | Types of work permits | `https://www.gov.bm/types-work-permits` |
 | Department of Immigration | `https://www.gov.bm/department/immigration` |
-| Vacation Rentals Fact Sheet & Forms | `https://www.gov.bm/vacation-rentals-fact-sheet` |
+| Vacation Rentals Fact Sheet & Forms | `https://www.gov.bm/vacation-rentals-fact-sheet-and-forms` |
 | Planning — hurricane-repair guidelines | `https://planning.gov.bm/index.php/planning-guidelines-for-hurricanes-repairs/` |
 | BELCO — Know Your Rate and Bill | `https://belco.bm/know-your-rate-and-bill/` |
 | Bermuda Monetary Authority | `https://www.bma.bm/` |

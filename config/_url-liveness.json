@@ -29,7 +29,7 @@
     "eur-lex.europa.eu": {
       "concurrency": 1,
       "interval_ms": 10000,
-      "reason": "robots.txt Crawl-delay: 10 \u2014 RFC 9309 mandatory floor"
+      "reason": "robots.txt Crawl-delay: 10 — RFC 9309 mandatory floor"
     },
     "legifrance.gouv.fr": {
       "concurrency": 1,
@@ -53,11 +53,659 @@
     },
     {
       "host": "example.gov",
-      "reason": "IANA-reserved documentation placeholder used in updater.md / CHANGELOG examples \u2014 not a real source"
+      "reason": "IANA-reserved documentation placeholder used in updater.md / CHANGELOG examples — not a real source"
     },
     {
       "host": "overpass-api.de",
-      "reason": "OSM Overpass POST API endpoint (amenities-osm.md); a GET/HEAD 404s but the API is live \u2014 not a browseable page"
+      "reason": "OSM Overpass POST API endpoint (amenities-osm.md); a GET/HEAD 404s but the API is live — not a browseable page"
+    },
+    {
+      "host": "moei.gov.ae",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.moi.gov.bh",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.mnr.gov.cn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.mohurd.gov.cn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.ant.gob.ec",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "landrecords.karnataka.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "ndma.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "rera.karnataka.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "rera.tn.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.jordanpost.com.jo",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.miyahuna.com.jo",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "armenia-am.gazprom.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.arpansa.gov.au",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.fairwork.gov.au",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.e-gov.az",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.bdcentral.net",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.gov.bm",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.sabesp.com.br",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.siss.gob.cl",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "geoportal.igac.gov.co",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "snpcb.cv",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "digitale-balie.kadaster.cw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.cypruspropertypal.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.eac.com.cy",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.remax.com.do",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.amt.gob.ec",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "mot.gov.eg",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "gwp.ge",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.tinglysningsretten.dk",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.gov.hk",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "eenergetskicertifikat.mpgi.hr",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "water.gov.il",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.gsi.gov.il",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "ahmedabadcity.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "anyror.gujarat.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "banglarbhumi.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "bwssb.karnataka.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "igrmaharashtra.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "jamabandi.nic.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "kaveri.karnataka.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "meebhoomi.ap.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "rera.delhi.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "doda.jp",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.hyoukakyoukai.or.jp",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.mpwt.gov.kh",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.ncdm.gov.kh",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "iaqinfo.nier.go.kr",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.ex.co.kr",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.hrfco.go.kr",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.its.go.kr",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.kpicorp.co.kr",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "pam.gov.kw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.housing.gov.kw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.kuwait.gov.kw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.mof.gov.kw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.mpw.gov.kw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.naukrigulf.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.scpd.gov.kw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "en.wikipedia.org",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "afm.gov.kz",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "kazavtozhol.kz",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.beirutmunicipality.gov.lb",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.anapec.org",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.equipement.gov.ma",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.protectioncivile.gov.ma",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.radeema.ma",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.travail.gov.ma",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "amac.md",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.macauproperty.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "mof.govmu.org",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.propiedades.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.ssn.unam.mx",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.jkr.gov.my",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.mohr.gov.my",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.myfuturejobs.gov.my",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.span.gov.my",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.property.com.na",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "lasppa.lagosstate.gov.ng",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.idaan.gob.pa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "ovi.ingemmet.gob.pe",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.alaventa.pe",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.property24.com.ph",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.dinatran.gov.py",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "qweather.gov.qa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.mol.gov.qa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.psa.gov.qa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.qr.com.qa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.udcqatar.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "katastar.rgz.gov.rs",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.redf.gov.sa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.riyadhmetro.sa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.taqat.sa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.simpsonbaysxm.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "bhs.doh.go.th",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "eservice.dol.go.th",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.doe.go.th",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.dpt.go.th",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.drr.go.th",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.exat.co.th",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.pcd.go.th",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.treasury.go.th",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.ancsep.rns.tn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.apal.nat.tn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.emploi.nat.tn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.onas.nat.tn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.iski.istanbul",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "1968.freeway.gov.tw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.land.moi.gov.tw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "kadastr.uz",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "my.soliq.uz",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.bvi.gov.vg",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "hanoi.gov.vn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "phumyhung.com.vn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.gdt.gov.vn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.most.gov.vn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.kzntransport.gov.za",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.gov.na",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "ibapi.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "lelang.go.id",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.katastar.gov.mk",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "bcp.karnataka.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "kolkatapolice.gov.in",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.baladia.gov.kw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.beirut.gov.lb",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.carabineros.cl",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.insse.ro",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.moi.gov.sa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.paci.gov.kw",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.policemc.gov.bh",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.pp.gov.qa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.pp.gov.sa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.psd.gov.jo",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.ird.gov.lk",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.aucklandcouncil.govt.nz",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.tnb.org.tr",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "codulcivil.md",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "old.seylii.org",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.lawreform.ie",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "firs.gov.ng",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "data.geopf.fr",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "blog.fnb.co.za",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.redfin.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "peraturan.go.id",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.imf.org",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.usnews.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.agriculture.gov.au",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "webtapu.tkgm.gov.tr",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.afm.ro",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.failteireland.ie",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "safiu.gov.sa",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.austrac.gov.au",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.fiu-sxm.net",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.interior.gov.pk",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "hslda.org",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "pbgdpl.hanoi.gov.vn",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "spijlibre.minjus.gob.pe",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.justlanded.com",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.mdlpa.ro",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "ifrem.edomex.gob.mx",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "landsbureau.lagosstate.gov.ng",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.rpguayaquil.gob.ec",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+    },
+    {
+      "host": "www.dgsn.gov.ma",
+      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     }
   ],
   "indeterminate_status_codes": [

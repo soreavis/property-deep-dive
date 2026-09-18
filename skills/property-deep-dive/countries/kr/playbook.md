@@ -38,7 +38,7 @@ ISO2: `kr`. Status: ✅ Fully populated (researched 2026-05).
   - Used as base for property tax + comprehensive RE tax + jeonse insurance cap
 - **한국부동산원 (Real Estate Board of Korea — REB)** — quasi-government statistics agency
   - Portal: `https://www.reb.or.kr/`
-  - Publishes **전국주택가격동향조사** (monthly price trend index), **부동산 통계정보 R-ONE** at `https://www.r-one.co.kr/`
+  - Publishes **전국주택가격동향조사** (monthly price trend index), **부동산 통계정보 R-ONE** at `https://www.reb.or.kr/r-one/`
 - **KB부동산** (KB Kookmin Bank) — bank-aggregated index, weekly; widely cited in media; closed-ish dataset (`https://kbland.kr/`)
 - **네이버 부동산 시세** — Naver aggregated asking-price ranges per complex: `https://land.naver.com/`
 
@@ -50,7 +50,7 @@ ISO2: `kr`. Status: ✅ Fully populated (researched 2026-05).
 - **호갱노노 (Hogangnono)** — `https://hogangnono.com/` — analytics-forward; integrates RTMS
 - **부동산114** — `https://www.r114.com/` — legacy, agent-tilted
 - **공실클럽** + **상가의신** — commercial / 상가
-- **점프부동산** — English-language foreigner-friendly: `https://www.koreaxpat.com/`
+- **점프부동산** — English-language foreigner-friendly: `https://www.koreaxpat.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 
 ### Premium-area benchmarks (2025-Q4 / 2026-Q1 reference, RTMS + KB부동산 + 공시가격)
 
@@ -380,7 +380,7 @@ Korea's rental market is bifurcated:
 
 | Source | URL | What it gives |
 |---|---|---|
-| **국가공간정보포털 (NSDI)** | `https://www.nsdi.go.kr/` | Cadastral overlay + zoning |
+| **국가공간정보포털 (NSDI)** | `https://www.eum.go.kr/` | Cadastral overlay + zoning |
 | **토지이용규제정보서비스 (LURIS)** | `https://www.eum.go.kr/` | Parcel-level zoning + use restrictions + 보호구역 designations |
 | **재해정보지도 (Disaster Information Map)** — 행정안전부 | `https://www.safemap.go.kr/` | Multi-hazard overlay: 풍수해 (storm/flood), 지진, 산사태, 지반침하 |
 | **기상청 (KMA — Korea Meteorological Administration)** | `https://www.weather.go.kr/` | Active hazard + climate data |
@@ -606,7 +606,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 |---|---|
 | MOLIT 실거래가 (RTMS) | `https://rt.molit.go.kr/` |
 | 공시가격 알리미 | `https://www.realtyprice.kr/` |
-| 한국부동산원 R-ONE | `https://www.r-one.co.kr/` |
+| 한국부동산원 R-ONE | `https://www.reb.or.kr/r-one/` |
 | 인터넷등기소 (IROS) | `https://www.iros.go.kr/` |
 | 정부24 (gov24) | `https://www.gov.kr/` |
 | LURIS 토지이용규제정보 | `https://www.eum.go.kr/` |

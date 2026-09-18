@@ -122,7 +122,7 @@ For each country, return:
 | Field | Value |
 |---|---|
 | Authority | **IRN** Casa Pronta + **INE** |
-| URL | https://casapronta.justica.gov.pt/ · https://www.ine.pt/ |
+| URL | https://www.casapronta.pt/CasaPronta/ · https://www.ine.pt/ |
 | Mode | per-property paid; aggregate quarterly public |
 | Granularity | INE: municipal + freguesia |
 | Cost | certidão permanente ~€15 |
@@ -177,7 +177,7 @@ For each country, return:
 | Field | Value |
 |---|---|
 | Authority | **Kadaster** |
-| URL | https://wonenindata.kadaster.nl/ |
+| URL | https://www.kadaster.nl/zakelijk/vastgoedinformatie/vastgoedcijfers/vastgoeddashboard |
 | Mode | aggregate public; per-property paid |
 | Cost | Kadaster eigendomsinformatie ~€2.85; Koopsom rapport €27 |
 | Quirks | **Kadaster Koopsommen** gives full transaction history (paid). NVM "Marktinformatie" sells aggregated agent-side data. **Funda** publishes "Verkocht" listings free. WOZ-waardeloket — public tax-assessed (NOT transacted). |
@@ -348,7 +348,7 @@ For each country, return:
 | Field | Value |
 |---|---|
 | Authority | **DLS** |
-| URL | https://www.dls.moi.gov.cy/ |
+| URL | https://portal.dls.moi.gov.cy/ |
 | Mode | per-property paid; aggregate via CBC + CyStat |
 | Cost | search certificate ~€10 |
 | Quirks | Sale prices in transfer deeds — accessible per-property only. **RICS Cyprus** publishes private quarterly index. **TRNC** is separate jurisdiction with no internationally recognized title registry. |
@@ -381,7 +381,7 @@ For each country, return:
 | Field | Value |
 |---|---|
 | Authority | **Uprava za nekretnine** |
-| URL | https://www.uzn.gov.me/ |
+| URL | https://www.gov.me/uzn |
 | Mode | per-property paid; **NO public aggregate transaction dataset** |
 | Cost | list nepokretnosti ~€5 |
 | Quirks | MONSTAT publishes construction cost index only. Local agencies (Dr. Real Estate, MaxValues) publish proprietary reports. Coastal vs inland market vastly different. |
@@ -423,7 +423,7 @@ For each country, return:
 | Field | Value |
 |---|---|
 | Authority | **Provincial land titles** (10 provinces + 3 territories) |
-| URLs | ON: OnLand https://www.onland.ca/ · BC: LTSA https://ltsa.ca/ · QC: Registre foncier https://www.registrefoncier.gouv.qc.ca/ · AB: SPIN II https://alta.registries.gov.ab.ca/spinii/ · NS: PROL https://prol.novascotia.ca/ |
+| URLs | ON: OnLand https://www.onland.ca/ · BC: LTSA https://ltsa.ca/ · QC: Registre foncier https://www.registrefoncier.gouv.qc.ca/ · AB: SPIN II https://alta.registries.gov.ab.ca/spinii/ · NS: PROL https://www.novascotia.ca/programs-and-services/land-and-property |
 | Mode | per-property paid; aggregate public via CREA |
 | Cost | ON ~CAD 30, BC ~CAD 12, QC ~CAD 10 |
 | Quirks | **Teranet–National Bank HPI** = canonical national index. **HouseSigma** + **Zolo** scrape MLS sold data for free. BC Land Owner Transparency Registry (LOTR) since 2020. |
@@ -466,7 +466,7 @@ For each country, return:
 |---|---|
 | Authority | **Cartórios de Registro de Imóveis** (~3,800 nationwide) |
 | Federal | **CIB** national rollout 2025–2026 |
-| URLs | https://www.onr.org.br/ (ONR) · https://www.registradores.org.br/ (SREI) |
+| URLs | https://www.onr.org.br/ (ONR) · https://www.onr.org.br/ (SREI) |
 | Mode | per-property paid via cartório or ONR Central Eletrônica |
 | Cost | certidão de matrícula ~€10–30 |
 | Quirks | **CIB national rollout 2025–2026** aims to standardize. **FIPE-ZAP** = de facto national benchmark (asking, not transacted). **Abrainc-FIPE** covers new-build sold prices in major cities. **ITBI** (municipal transfer tax) records are closest to actual sales — São Paulo's **GeoSampa** includes ITBI declared values per parcel. |

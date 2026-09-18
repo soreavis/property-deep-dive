@@ -321,7 +321,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 - **SARL AU (associé unique)**: single-shareholder SARL
 - **SAS / SA**: for larger ventures, capital 100k–300k MAD
 - **Foreigners as managers/shareholders**: allowed; the **carte de séjour** (residence permit) is required for active management presence > 90 days
-- **Casablanca Finance City (CFC)** status: tax incentives (corporate tax 15 % preferential rate, currency convertibility) for eligible financial / business-services / holding entities — `https://www.cfca.ma/`
+- **Casablanca Finance City (CFC)** status: tax incentives (corporate tax 15 % preferential rate, currency convertibility) for eligible financial / business-services / holding entities — `https://www.casablancafinancecity.com/`
 
 ### Salary benchmarks (est., 2025)
 
@@ -354,8 +354,8 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | **DGPC (Direction Générale de la Protection Civile)** | `https://www.protectioncivile.gov.ma/` | National civil protection, hazard awareness |
 | **Institut National de Géophysique (CNRST)** | `https://www.cnrst.ma/` and `https://earthquake.usgs.gov/earthquakes/map/` | Seismicity catalogue (Morocco is seismically active) |
 | **Centre National de Recherche Scientifique et Technique** | as above | Earthquake monitoring |
-| **Ministère de l'Équipement et de l'Eau — Direction des Bassins Versants** | `https://www.eau.gov.ma/` | Flood-prone zone maps (PPRI equivalent) |
-| **ABH (Agences de Bassin Hydraulique)** | `https://www.abh-loukkos.ma/`, `https://www.abhsm.ma/` (Sebou), etc. — 9 basin agencies | Flood risk mapping, water resource zoning |
+| **Ministère de l'Équipement et de l'Eau — Direction des Bassins Versants** | `https://www.eau.gov.ma/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Flood-prone zone maps (PPRI equivalent) |
+| **ABH (Agences de Bassin Hydraulique)** | `https://abhl.ma/`, `https://www.abhsm.ma/` (Sebou), etc. — 9 basin agencies | Flood risk mapping, water resource zoning |
 | **Plan d'Aménagement Communal** | At each commune urbanisme office | Local zoning + risk overlays |
 | **HCP atlas du climat** | `https://www.hcp.ma/` + Copernicus C3S | Climate baseline data |
 | **USGS Morocco seismicity** | `https://earthquake.usgs.gov/earthquakes/search/?maxlatitude=36&minlatitude=27&maxlongitude=-1&minlongitude=-13` | Cross-check with CNRST for major events |
@@ -427,7 +427,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 
 | Operator | Coverage |
 |---|---|
-| **ONEE — Office National de l'Électricité et de l'Eau Potable** | Most rural + small/medium cities; national producer | `http://www.onee.ma/` |
+| **ONEE — Office National de l'Électricité et de l'Eau Potable** | Most rural + small/medium cities; national producer | `https://www.one.ma/` |
 | **LYDEC** (Veolia subsidiary) | Casablanca + Mohammedia (concession to 2027; renewal under negotiation 2025) |
 | **REDAL** (Veolia subsidiary) | Rabat-Salé-Témara |
 | **Amendis** (Veolia subsidiary) | Tangier + Tétouan |
@@ -492,7 +492,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 
 ## Active fiscal incentives (2025)
 
-- **CFC — Casablanca Finance City** (`https://www.cfca.ma/`): preferential 15 % corporate tax for eligible financial-services / regional-headquarters / holding companies; dirham-convertibility privileges for CFC entities
+- **CFC — Casablanca Finance City** (`https://www.casablancafinancecity.com/`): preferential 15 % corporate tax for eligible financial-services / regional-headquarters / holding companies; dirham-convertibility privileges for CFC entities
 - **Tangier Med Special Agency / Zone Franche** (`https://www.tangermed.ma/`): industrial zone south of Tangier; 0 % CIT first 5 years then preferential rate; primarily industrial but includes adjacent residential developments
 - **SMIT investment conventions** (`https://www.smit.gov.ma/`): tourism investments above thresholds (typically > 200 M MAD) negotiate **convention d'investissement** with state — incentives include land-price concessions, customs exemptions for hotel equipment, and accelerated depreciation
 - **Charte de l'Investissement (Loi 03-22)**: revised 2022 framework — tiered subsidies (5–30 % of CAPEX) for projects above thresholds in strategic sectors, regions, or activities. AMDIE (`https://www.amdie.gov.ma/`) is the entry point.
@@ -560,11 +560,11 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | **SMIT (tourism investment)** | Touristic classification, riad / maison d'hôtes status | `https://www.smit.gov.ma/` |
 | **Ministère de l'Habous et des Affaires Islamiques** | Habous parcel verification, religious endowment status | `https://www.habous.gov.ma/` |
 | **AMDIE (investment promotion)** | Charte de l'Investissement, foreign investor support | `https://www.amdie.gov.ma/` |
-| **Casablanca Finance City Authority** | CFC status applications | `https://www.cfca.ma/` |
+| **Casablanca Finance City Authority** | CFC status applications | `https://www.casablancafinancecity.com/` |
 | **Commune urbanisme office** | Plan d'Aménagement, permis de construire, zoning, oued setback | (commune-specific) |
 | **ABH (Agences de Bassin Hydraulique)** | Flood risk, well-drilling permits, water-resource zoning | (basin-specific) |
 | **DGPC (Protection Civile)** | Civil-protection hazards, emergency planning | `https://www.protectioncivile.gov.ma/` |
-| **Ordre National des Notaires** | Notary directory + fee barème | `https://www.notaires-maroc.com/` |
+| **Ordre National des Notaires** | Notary directory + fee barème | `https://notaires.org.ma/` |
 | **Receveur Communal** | Quitus fiscal (commune tax up-to-date) | (commune-specific) |
 | **Ministère du Travail** | SMIG, employment law | `https://www.travail.gov.ma/` |
 
@@ -603,12 +603,12 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | HCP | `https://www.hcp.ma/` |
 | SMIT (tourism) | `https://www.smit.gov.ma/` |
 | AMDIE | `https://www.amdie.gov.ma/` |
-| CFC (Casablanca Finance City) | `https://www.cfca.ma/` |
+| CFC (Casablanca Finance City) | `https://www.casablancafinancecity.com/` |
 | Tangier Med | `https://www.tangermed.ma/` |
 | Ministère Habous | `https://www.habous.gov.ma/` |
 | Protection Civile | `https://www.protectioncivile.gov.ma/` |
 | Ministère de l'Équipement et de l'Eau | `https://www.equipement.gov.ma/` |
-| ONEE (eau + électricité) | `http://www.onee.ma/` |
+| ONEE (eau + électricité) | `https://www.one.ma/` |
 | LYDEC (Casa) | `https://www.lydec.ma/` |
 | REDAL (Rabat) | `https://www.redal.ma/` |
 | RADEEMA (Marrakech) | `https://www.radeema.ma/` |
@@ -620,7 +620,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | Yakeey | `https://www.yakeey.com/` |
 | Anapec (emploi) | `https://www.anapec.org/` |
 | Rekrute | `https://www.rekrute.com/` |
-| Notaires Maroc | `https://www.notaires-maroc.com/` |
+| Notaires Maroc | `https://notaires.org.ma/` |
 
 ---
 

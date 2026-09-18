@@ -357,6 +357,24 @@ class TestExtractURLs(unittest.TestCase):
         finally:
             UL.ROOT = orig_root
 
+    def test_keeps_balanced_parentheses(self):
+        import tempfile
+        orig_root = UL.ROOT
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                tmp_path = Path(tmp)
+                (tmp_path / "a.md").write_text(
+                    "[CGT](https://ird.gov.lk/en/Type%20of%20Taxes/Capital%20Gain%20Tax%20(CGT).aspx) and "
+                    "([Cayman](https://en.wikipedia.org/wiki/The_Bluff_(Cayman_Islands))) end."
+                )
+                UL.ROOT = tmp_path
+                urls = UL.extract_urls()
+                self.assertIn("https://ird.gov.lk/en/Type%20of%20Taxes/Capital%20Gain%20Tax%20(CGT).aspx", urls)
+                self.assertIn("https://en.wikipedia.org/wiki/The_Bluff_(Cayman_Islands)", urls)
+                self.assertNotIn("https://ird.gov.lk/en/Type%20of%20Taxes/Capital%20Gain%20Tax%20(CGT", urls)
+        finally:
+            UL.ROOT = orig_root
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

@@ -147,7 +147,7 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Llei 3/2024** politically sensitive — parameters may change in 2026 budget
 - **OECD BEPS Pillar Two** — domestic minimum taxation implemented; corporate-vehicle structuring evolving
-- **EU Association Agreement** ([Govern AA portal](https://www.acordassociacio.ad/)) negotiations 2024–2026; signing slipped past 2025 — tax-cooperation tightening if ratified
+- **EU Association Agreement** ([Govern AA portal](https://andorraue.ad/ca/acord-d-associacio)) negotiations 2024–2026; signing slipped past 2025 — tax-cooperation tightening if ratified
 
 ---
 
@@ -781,7 +781,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 | Tributs i Fronteres / Tràmits / Immigració | `https://www.tributs.ad/` · `https://www.tramits.ad/` · `https://www.immigracio.ad/` |
 | Turisme / Mobilitat / Meteo / Medi Ambient / Energia | `https://www.turisme.ad/` · `https://www.mobilitat.ad/` · `https://www.meteo.ad/` · `https://www.mediambient.ad/` · `https://www.energia.ad/` |
 | FEDA / Andorra Telecom / CASS / Policia / Bombers / SAAS / CCIS | `https://www.feda.ad/` · `https://www.andorratelecom.ad/` · `https://www.cass.ad/` · `https://www.policia.ad/` · `https://www.bombers.ad/` · `https://www.saas.ad/` · `https://www.ccis.ad/` |
-| Comú Andorra la Vella / Escaldes-Engordany / Encamp / Canillo | `https://www.comuandorra.ad/` · `https://www.e-e.ad/` · `https://www.comuencamp.ad/` · `https://www.comucanillo.ad/` |
+| Comú Andorra la Vella / Escaldes-Engordany / Encamp / Canillo | `https://www.comuandorra.ad/` · `https://www.e-e.ad/` · `https://www.comuencamp.ad/` · `https://www.canillo.ad/` |
 | Comú Ordino / La Massana / Sant Julià de Lòria | `https://www.ordino.ad/` · `https://www.lamassana.ad/` · `https://www.santjulia.ad/` |
 | Idealista AD / Engel & Völkers AD / Sotheby's AD | `https://www.idealista.com/ca/andorra/` · `https://www.engelvoelkers.com/ca-ad/andorra/` · `https://www.andorra-sothebysrealty.com/en` |
 | OPCC Pyrenees Climate Observatory | `https://www.opcc-ctp.org/` |

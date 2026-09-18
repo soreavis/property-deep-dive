@@ -9,10 +9,10 @@ ISO2: `cn`. Status: ✅ Fully populated (researched 2026-05).
 - **Population**: ~1.408 billion (2025 estimate, [National Bureau of Statistics — NBS](https://www.stats.gov.cn/english/)); first sustained natural decline began 2022; UN median projection ~1.39B by 2030
 - **GDP per capita**: ~US$13,300 nominal (2024, NBS / IMF); real GDP +5.0 % full-year 2024 (NBS); +4.6–5.0 % 2025 official target
 - **Currency**: **CNY / RMB (¥, 人民币)** — managed-float against undisclosed CFETS basket; PBOC publishes daily central parity ([PBOC fixings](http://www.pbc.gov.cn/)); USD/CNY trading band ±2 % around fix; offshore deliverable variant **CNH** trades freely in Hong Kong / Singapore / London. 1 EUR ≈ 7.7–8.0 CNY (Q1–Q2 2026 indicative); 1 USD ≈ 7.1–7.3 CNY
-- **Languages**: Standard Mandarin / Putonghua 普通话 (de jure national common language under [国家通用语言文字法 2000](http://www.gov.cn/test/2005-09/12/content_31649.htm) ❌ DEPRECATED — primary source removed; verify with State Council of the People's Republic of China (www.gov.cn)); written **Simplified Chinese (简体)** in mainland use since the 1956–1986 reforms; recognised regional / minority languages (Cantonese 粤语, Wu 吴语, Tibetan, Uyghur, Mongolian, Zhuang, etc.) coexist locally
+- **Languages**: Standard Mandarin / Putonghua 普通话 (de jure national common language under [国家通用语言文字法 2000](http://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202606/t20260605_1438880.html) ❌ DEPRECATED — primary source removed; verify with State Council of the People's Republic of China (www.gov.cn)); written **Simplified Chinese (简体)** in mainland use since the 1956–1986 reforms; recognised regional / minority languages (Cantonese 粤语, Wu 吴语, Tibetan, Uyghur, Mongolian, Zhuang, etc.) coexist locally
 - **Postcode**: 6 digits (e.g., Beijing CBD `100020`, Shanghai Pudong Lujiazui `200120`, Shenzhen Futian `518000`); first 2 digits identify the province / municipality
 - **Admin levels**: 4 国家直辖市 (province-level municipalities — 北京 Beijing, 上海 Shanghai, 天津 Tianjin, 重庆 Chongqing) + 23 省 (provinces) + 5 自治区 (autonomous regions: 内蒙古 Inner Mongolia, 广西 Guangxi, 西藏 Tibet, 宁夏 Ningxia, 新疆 Xinjiang) + 2 SARs (HK + Macao, separate playbooks). Below province: 地级市 (prefecture-level city) → 区/县/县级市 (district / county / county-level city) → 乡/镇/街道 (township / town / sub-district) → 村/居委会 (village / residential committee)
-- **Cadastre**: **自然资源部 (Ministry of Natural Resources, MNR)** — `https://www.mnr.gov.cn/` — operates the **不动产登记 (Real-Estate Unified Registration)** system since 2015 reform; per-property record at the **不动产权证书 (Real-Estate Title Certificate)** level. Day-to-day searches at the **不动产登记中心 (district-level Real-Estate Registration Center)** in person; online lookup via local **政务服务网** portals (e.g., Beijing: `http://zwfw.beijing.gov.cn/`)
+- **Cadastre**: **自然资源部 (Ministry of Natural Resources, MNR)** — `https://www.mnr.gov.cn/` — operates the **不动产登记 (Real-Estate Unified Registration)** system since 2015 reform; per-property record at the **不动产权证书 (Real-Estate Title Certificate)** level. Day-to-day searches at the **不动产登记中心 (district-level Real-Estate Registration Center)** in person; online lookup via local **政务服务网** portals (e.g., Beijing: `https://banshi.beijing.gov.cn/`)
   - Pre-2015 legacy paperwork: **房产证 (House Property Certificate)** + **国有土地使用证 (State-Owned Land Use Right Certificate)** — being merged into unified 不动产权证书; verify both still match
 - **Identifier**: 不动产单元号 (real-estate unit number) at the parcel + building + unit level; older records carry separate 房屋所有权证 + 土地使用证 numbers
 - **Title concept** — **THE CRITICAL POINT**: there is **NO private freehold over land** in the People's Republic of China. All urban land is owned by the **state** ([1982 Constitution Art. 10 § 1](https://www.gov.cn/guoqing/2018-03/22/content_5276318.htm)); all rural / collective land is owned by **village collectives**. Private actors hold a **time-limited 土地使用权 (Land Use Right, LUR)** granted by 出让 (grant / paid transfer) — typical residential term **70 years** (commercial 40, industrial 50). Buildings on top are owned outright; land is leasehold-equivalent
@@ -155,7 +155,7 @@ Mainland China has **NO nationwide recurring property tax** for residential prop
 
 | Pilot city | Effective | Scope | Rates (2024 reference) | Source |
 |---|---|---|---|---|
-| **上海 (Shanghai)** | 28 Jan 2011 | Newly-purchased 2nd+ residential by Shanghai-Hukou residents AND any newly-purchased residential by non-Shanghai-Hukou (incl. foreigners). 60 m² per family member exemption | **0.4 %** if unit price ≤ 2× prior-year city avg new-home price; **0.6 %** if above 2× | [Shanghai Tax Bureau](https://www.tax.sh.gov.cn/) |
+| **上海 (Shanghai)** | 28 Jan 2011 | Newly-purchased 2nd+ residential by Shanghai-Hukou residents AND any newly-purchased residential by non-Shanghai-Hukou (incl. foreigners). 60 m² per family member exemption | **0.4 %** if unit price ≤ 2× prior-year city avg new-home price; **0.6 %** if above 2× | [Shanghai Tax Bureau](https://shanghai.chinatax.gov.cn/) |
 | **重庆 (Chongqing)** | 28 Jan 2011 | Newly-purchased high-end villas + newly-purchased 2nd home by non-Chongqing-Hukou + apartments above price threshold | **0.5 %** below 2× city avg; **1.0 %** 2–3×; **1.2 %** > 3× city avg | [Chongqing Tax Bureau](http://chongqing.chinatax.gov.cn/) |
 
 > Both pilots launched simultaneously 2011-01-28 ([State Council Notice on Pilot Reform](http://www.gov.cn/)). Coverage is narrow (newly-purchased, mostly upper segment); revenue is small (< 5 % of municipal own-source revenue in either city, 2024 estimates). Academic estimates ([Lincoln Institute 2024](https://www.lincolninst.edu/publications/articles/chinas-property-tax-reform/)) put the **Shanghai price effect at –11 to –15 %** in covered segments and **Chongqing at +10–12 %** in luxury (sustained demand offset).
@@ -225,7 +225,7 @@ Mainland China has **NO nationwide recurring property tax** for residential prop
 
 ### Rental income tax (individual landlord)
 
-- **Individual Income Tax (IIT)** on rental: per [PwC 2025 China Tax Facts](https://www.pwccn.com/en/tax/publications/people-republic-of-china-tax-facts-2025.pdf) and [PwC Tax Summaries](https://taxsummaries.pwc.com/peoples-republic-of-china/individual/income-determination):
+- **Individual Income Tax (IIT)** on rental: per [PwC 2025 China Tax Facts](https://www.pwccn.com/en/tax/publications/people-republic-of-china-tax-facts-2025.pdf) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row and [PwC Tax Summaries](https://taxsummaries.pwc.com/peoples-republic-of-china/individual/income-determination):
   - Standard rate: **20 % flat** on rental income
   - Allowable deduction: ¥800 if monthly gross ≤ ¥4,000; **20 % deemed deduction** if monthly gross > ¥4,000
   - Effective rate on rental > ¥4,000/mo: **20 % × 80 % = 16 %**
@@ -336,7 +336,7 @@ Mainland China has **NO nationwide recurring property tax** for residential prop
 
 - See § Country profile / Visa above (Z, X, Q, R, PR)
 - **Z visa pathway dominant** for employed foreigners; converted to **居留许可 (work-residence permit)** within 30 days of arrival
-- **R visa (high talent)**: A-class top talent track (科技人才 / Outstanding Foreign Talent) — fast-track, multiple-entry, easier renewal; managed via 中华人民共和国外国人来华工作许可制度 ([SAFEA / 国家外国专家局](http://www.safea.gov.cn/))
+- **R visa (high talent)**: A-class top talent track (科技人才 / Outstanding Foreign Talent) — fast-track, multiple-entry, easier renewal; managed via 中华人民共和国外国人来华工作许可制度 ([SAFEA / 国家外国专家局](https://www.12333.gov.cn/))
 - PR (永久居留 / "Chinese Green Card"): selective; investment / talent / family / 4-yr-work tracks; through 2024 cumulative grants estimated < 30,000 individuals total
 - **Tax residency**: 183-day rule per [IIT Law 2018 + 个税法实施条例 2018]; foreign individuals < 183 days/yr taxed only on China-sourced income; ≥ 183 days for 6 consecutive years are taxed on worldwide income (with 6-year reset rule via 30+-day single absence)
 
@@ -349,19 +349,19 @@ Mainland China has **NO nationwide recurring property tax** for residential prop
 | Source | URL | What it gives |
 |---|---|---|
 | **应急管理部 (Ministry of Emergency Management, MEM)** | `https://www.mem.gov.cn/` | National disaster registry, risk assessment, dam safety |
-| **中国地震局 (China Earthquake Administration, CEA)** | `https://www.cea.gov.cn/` | Seismic intensity / fortification zoning; [GB 18306-2015 Seismic Ground Motion Map](https://www.gb18306.net/) |
+| **中国地震局 (China Earthquake Administration, CEA)** | `https://www.cea.gov.cn/` | Seismic intensity / fortification zoning; [GB 18306-2015 Seismic Ground Motion Map](https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=EC0585F90CA21ABE02826394F266B623) |
 | **中国气象局 (China Meteorological Administration, CMA)** | `https://www.cma.gov.cn/` | Typhoon, flood, drought, climate projections; CMIP6 downscaled atlas |
 | **水利部 (Ministry of Water Resources, MWR)** | `http://www.mwr.gov.cn/` | Flood-prone area maps; major river-basin hazard zones |
 | **生态环境部 (Ministry of Ecology & Environment, MEE)** | `https://www.mee.gov.cn/` | Air quality (PM2.5), soil contamination zones, environmental-impact assessments |
 | **自然资源部 (Ministry of Natural Resources, MNR)** | `https://www.mnr.gov.cn/` | Geological hazard zones (landslide, debris flow, ground subsidence) |
-| **中国地质环境监测院 (China Institute of Geo-Environmental Monitoring)** | `https://www.cigem.cn/` | Geological hazard inventory, ground-subsidence monitoring |
+| **中国地质环境监测院 (China Institute of Geo-Environmental Monitoring)** | `http://www.cigem.cgs.gov.cn/` | Geological hazard inventory, ground-subsidence monitoring |
 | **省/市 自然资源局 / 应急管理局 / 住建局** | Provincial / municipal portals | Local hazard zoning; project-level EIA; building-code compliance |
 
 ### Natural-hazard profile (highly geographically variable)
 
 China spans **22 climate zones + 5 seismic-fortification intensity bands**; risk profile differs sharply by city. Headline patterns:
 
-- **Earthquakes**: high-seismic belts include 西部 (Sichuan-Yunnan-Tibet), 西南 (Hengduan ranges), 京津唐 (Beijing-Tianjin-Tangshan), 东北 (NE China). [GB 18306-2015](https://www.gb18306.net/) maps fortification intensity 6–8+ for most populous regions; major historical events: 2008 汶川 (M8.0; ~70k deaths), 1976 唐山 (M7.5–7.8; ~242k deaths). All Tier-1 cities sit in 7+ design intensity. Verify property's **抗震设防烈度 (seismic-fortification intensity)** + structure type via developer documentation + 住建部 supervisory records
+- **Earthquakes**: high-seismic belts include 西部 (Sichuan-Yunnan-Tibet), 西南 (Hengduan ranges), 京津唐 (Beijing-Tianjin-Tangshan), 东北 (NE China). [GB 18306-2015](https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=EC0585F90CA21ABE02826394F266B623) maps fortification intensity 6–8+ for most populous regions; major historical events: 2008 汶川 (M8.0; ~70k deaths), 1976 唐山 (M7.5–7.8; ~242k deaths). All Tier-1 cities sit in 7+ design intensity. Verify property's **抗震设防烈度 (seismic-fortification intensity)** + structure type via developer documentation + 住建部 supervisory records
 - **Typhoons / coastal storms**: SE coast (Guangdong / Fujian / Zhejiang / Shanghai / Hainan / Taiwan Strait facing) hit ~5–9 typhoons/season July–October; Hainan + south Guangdong highest exposure; Shanghai metro vulnerable to peripheral effects
 - **Floods**: Yangtze, Yellow, Huai, Pearl river basins flood-prone; 2020 catastrophic Yangtze + 2021 Henan (Zhengzhou subway flood, ~398 deaths) recent reference points; urban pluvial flooding intensifying with climate change
 - **Air quality**: long-term PM2.5 elevated relative to WHO guidelines; northern industrial belt (HBJ — Hebei, Shanxi, Henan, Beijing) historically highest. **2024 nationwide annual avg PM2.5 ≈ 29.3 µg/m³** (MEE data; vs WHO 2021 AQG of 5 µg/m³); Tier-1 averages: Beijing ~33, Shanghai ~26, Shenzhen ~22, Guangzhou ~24 (2024). Continued multi-decadal improvement vs 2013 (Beijing then ~89 µg/m³) but still 5–7× WHO guideline. Sandstorms episodic in Beijing March–May
@@ -632,7 +632,7 @@ Mainland China operates a **partially closed capital account**. **The single mos
 | Anjuke / 安居客 | `https://www.anjuke.com/` |
 | Fang.com / 房天下 | `https://www.fang.com/` |
 | 58.com / 58同城 | `https://www.58.com/` |
-| State Grid (electricity) | `http://www.sgcc.com.cn:8000` |
+| State Grid (electricity) | `https://www.sgcc.com.cn/` |
 | Southern Grid | `https://eng.csg.cn/` |
 | NIA (immigration / PR) | `https://www.nia.gov.cn/` |
 | Civil Code (NPC text) | `http://www.npc.gov.cn/npc/c30834/202006/75ba6483b8344591abd07917e1d25cc8.shtml` |

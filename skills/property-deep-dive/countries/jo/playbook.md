@@ -173,7 +173,7 @@ Source: Ministry of Interior `https://www.moi.gov.jo/`; verify current at Invest
 | Platform | Coverage | Notes |
 |---|---|---|
 | **OpenSooq Jordan** (`https://jo.opensooq.com/`) | National; broad incl. resale | Largest classifieds aggregator in Jordan; Arabic + English; many duplicates |
-| **Aqar.fm Jordan** (`https://www.aqar.fm/jordan` or `https://aqar.jo/`) | National; real estate-focused | Cleaner inventory than OpenSooq; agency + direct |
+| **Aqar.fm Jordan** (`https://www.aqar.fm/jordan` or `https://aqar.jo/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | National; real estate-focused | Cleaner inventory than OpenSooq; agency + direct |
 | **Jordan Real Estate** (`https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct)) | National | Established; English-friendly |
 | **Property Finder Jordan** (limited regional presence — verify currency) | Amman-focused premium | Cross-border; English |
 | **Bayut Jordan** (where active) | National | Verify current activity in Jordan market |
@@ -347,7 +347,7 @@ Jordanian residential rental is governed by the **Owners and Tenants Law** (rece
 
 **Status**: regulated but enforcement uneven.
 
-- **Tourism licensing**: short-term rentals operated commercially require licensing under the **Ministry of Tourism and Antiquities (MoTA)** + Jordan Hotels Association (`https://www.jha.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Jordan Hotels Association via MoTA (mota.gov.jo)). Source: MoTA `https://www.mota.gov.jo/`.
+- **Tourism licensing**: short-term rentals operated commercially require licensing under the **Ministry of Tourism and Antiquities (MoTA)** + Jordan Hotels Association (`https://johotels.org/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Jordan Hotels Association via MoTA (mota.gov.jo)). Source: MoTA `https://www.mota.gov.jo/`.
 - **Practical situation in Amman**: many informal Airbnb operations (especially in Abdoun + Sweifieh + Jabal Amman + 7th Circle) operate without licence — regulatory grey zone with periodic enforcement waves.
 - **Aqaba + Dead Sea**: STR demand is real but seasonality is sharp; resort compounds may forbid sub-letting in HOA bylaws.
 - **HOA bylaws** in modern Amman compounds (Abdali residences, Marina apartments, etc.) often **ban or restrict** short-let — read the bylaws before underwriting any STR yield.
@@ -416,8 +416,8 @@ Jordanian residential rental is governed by the **Owners and Tenants Law** (rece
 | **Jordan Meteorological Department (JMD)** | `https://jmd.gov.jo/` | Weather, sandstorm warnings, climate normals |
 | **Royal Jordanian Geographic Centre (RJGC)** | `https://www.rjgc.gov.jo/` | Topographic + hazard mapping (some restricted) |
 | **Ministry of Environment** | `https://www.moenv.gov.jo/` | National State of Environment reports; climate-vulnerability assessments |
-| **Public Security Directorate Civil Defence** | `https://www.cdd.gov.jo/` | Flood / earthquake response; flash-flood warnings |
-| **Natural Resources Authority** | `https://www.nra.gov.jo/` | Seismic monitoring (Jordan Seismological Observatory); geology |
+| **Public Security Directorate Civil Defence** | `https://psd.gov.jo/en-us/civil-defense/` | Flood / earthquake response; flash-flood warnings |
+| **Natural Resources Authority** | `https://www.memr.gov.jo/Ar/List/%D9%85%D8%B1%D8%B5%D8%AF_%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84` | Seismic monitoring (Jordan Seismological Observatory); geology |
 | **WHO Global Air Quality** (external) | `https://www.who.int/data/gho/data/themes/air-pollution` | Amman PM2.5 + dust event benchmarks |
 | **IPCC AR6 Interactive Atlas** (external) | `https://interactive-atlas.ipcc.ch/` | Regional climate projections |
 
@@ -430,7 +430,7 @@ Jordanian residential rental is governed by the **Owners and Tenants Law** (rece
 
 ### Seismicity
 
-- **Dead Sea Transform fault (DST)** — Jordan's eastern flank along the Dead Sea Rift (Jordan Valley → Dead Sea → Wadi Araba → Gulf of Aqaba) is a left-lateral transform fault zone with **moderate seismic potential**. Source: NRA Jordan Seismological Observatory `https://www.nra.gov.jo/`.
+- **Dead Sea Transform fault (DST)** — Jordan's eastern flank along the Dead Sea Rift (Jordan Valley → Dead Sea → Wadi Araba → Gulf of Aqaba) is a left-lateral transform fault zone with **moderate seismic potential**. Source: NRA Jordan Seismological Observatory `https://www.memr.gov.jo/Ar/List/%D9%85%D8%B1%D8%B5%D8%AF_%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84`.
 - **Historical events**:
   - **1927 Jericho Earthquake** (M 6.2) — major regional event; baseline reference.
   - **1995 Nuweiba (Gulf of Aqaba)** (M 7.2) — felt strongly in Aqaba; structural damage to older buildings.
@@ -684,9 +684,9 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 | NEPCO (national electricity transmission) | `https://www.nepco.com.jo/` |
 | Jordan Meteorological Department (JMD) | `https://jmd.gov.jo/` |
 | Royal Jordanian Geographic Centre (RJGC) | `https://www.rjgc.gov.jo/` |
-| Natural Resources Authority (NRA) | `https://www.nra.gov.jo/` |
+| Natural Resources Authority (NRA) | `https://www.memr.gov.jo/Ar/List/%D9%85%D8%B1%D8%B5%D8%AF_%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84` |
 | Public Security Directorate (PSD) | `https://www.psd.gov.jo/` |
-| Civil Defence Directorate (CDD) | `https://www.cdd.gov.jo/` |
+| Civil Defence Directorate (CDD) | `https://psd.gov.jo/en-us/civil-defense/` |
 | JLGC Jordan Loan Guarantee Corporation | `https://www.jlgc.com/` |
 | Jordan Bar Association | `https://www.jba.org.jo/` |
 | Housing Bank for Trade and Finance (HBTF) | `https://www.hbtf.com/` |
@@ -699,7 +699,7 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 | Jordan Real Estate | `https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct) |
 | Akhtaboot (jobs) | `https://www.akhtaboot.com/` |
 | Bayt Jordan (jobs) | `https://www.bayt.com/en/jordan/` |
-| Jordan Hotels Association | `https://www.jha.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Jordan Hotels Association via MoTA (mota.gov.jo) |
+| Jordan Hotels Association | `https://johotels.org/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with Jordan Hotels Association via MoTA (mota.gov.jo) |
 | Jordan Post (postcodes) | `https://www.jordanpost.com.jo/` |
 | IPCC AR6 Interactive Atlas | `https://interactive-atlas.ipcc.ch/` |
 | WHO Global Air Quality | `https://www.who.int/data/gho/data/themes/air-pollution` |

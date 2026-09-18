@@ -25,7 +25,7 @@ ISO2: `gd`. Status: ✅ Fully populated (researched 2026-05-28).
   - **2019 conveyancing reform**: September 2019 amendment to the Conveyancing and Law of Property Act **reduced the good-title search period from 60 → 30 years**; original title deeds now held in the Supreme Court Registry.
   - **AMIGOS Act (Dec 2022, US Pub. L. 117-263, FY23 NDAA)**: imposes a **3-year treaty-country residence requirement** on CBI-naturalised citizens (Grenada + Turkey explicitly named) before E-2 eligibility (VERIFIED, audit 2026-05-28).
   - **PURC cost-of-service / tariff study** (RfP issued Feb 2026) — GRENLEC electricity tariffs may change; verify current schedule at GRENLEC before relying.
-  - **Hurricane Beryl (1–2 July 2024)** devastated **Carriacou & Petite Martinique** (the dependency islands); main-island Grenada was materially less affected — verify Beryl specifics for any Carriacou/Petite Martinique listing at [NaDMA](https://www.nadma.gov.gd/) / NOW Grenada.
+  - **Hurricane Beryl (1–2 July 2024)** devastated **Carriacou & Petite Martinique** (the dependency islands); main-island Grenada was materially less affected — verify Beryl specifics for any Carriacou/Petite Martinique listing at [NaDMA](https://www.gov.gd/resident/nadma) / NOW Grenada.
 
 ---
 
@@ -308,7 +308,7 @@ Grenada is a **small, tourism-and-education-anchored economy**; local employment
 
 | Source | URL | What it gives |
 |---|---|---|
-| **National Disaster Management Agency (NaDMA)** | `https://www.nadma.gov.gd/` | Hurricane plans, shelters, alerts |
+| **National Disaster Management Agency (NaDMA)** | `https://www.gov.gd/resident/nadma` | Hurricane plans, shelters, alerts |
 | **Climate-Resilient Buildings programme (ICCAS)** | `https://climateresilience.gov.gd/` | Resilient-build guidance |
 | **OECS Secretariat — Building Codes** | `https://oecs.int/en/our-work/knowledge/library/sustainable-energy/oecs-building-codes` | OECS Building Code 2015 |
 | **US National Hurricane Center (NHC)** | `https://www.nhc.noaa.gov/` | Atlantic basin authoritative reference |
@@ -327,7 +327,7 @@ Grenada is a **small, tourism-and-education-anchored economy**; local employment
 ### Hurricane Beryl (1–2 July 2024) — the dependency islands
 
 - **Beryl devastated Carriacou & Petite Martinique** (the dependency islands), with extensive housing destruction; **main-island Grenada was materially less affected**.
-- **Diligence**: any listing on **Carriacou / Petite Martinique** must be checked for July-2024 damage + rebuild status — *verify Beryl specifics at [NaDMA](https://www.nadma.gov.gd/) / NOW Grenada* (flagged).
+- **Diligence**: any listing on **Carriacou / Petite Martinique** must be checked for July-2024 damage + rebuild status — *verify Beryl specifics at [NaDMA](https://www.gov.gd/resident/nadma) / NOW Grenada* (flagged).
 
 ### Building code
 
@@ -608,7 +608,7 @@ Grenada's residency/citizenship hook is its **Citizenship-by-Investment (CBI)** 
 
 > All listing platforms are **seller-controlled / aggregator tier** — cross-check ≥ 3 active listings + an independent valuation before relying.
 
-- **Century 21 Grenada** — `https://www.century21grenada.com/`
+- **Century 21 Grenada** — `https://c21grenada.com/en/`
 - **Coldwell Banker Grenada / regional Caribbean desks**
 - **Terra Caribbean (regional)** — `https://www.terracaribbean.com/`
 - **7th Heaven Properties** (UK-aggregator, Caribbean) — secondary
@@ -676,7 +676,7 @@ Grenada's residency/citizenship hook is its **Citizenship-by-Investment (CBI)** 
 | PURC (utilities regulator) | `https://purc.gd` |
 | NAWASA — rates | `https://nawasa.gd/customer-care/our-rates` |
 | Eastern Caribbean Central Bank (ECCB) | `https://www.eccb-centralbank.org/` |
-| NaDMA (disaster management) | `https://www.nadma.gov.gd/` |
+| NaDMA (disaster management) | `https://www.gov.gd/resident/nadma` |
 | Climate-Resilient Buildings (ICCAS) | `https://climateresilience.gov.gd/` |
 | US Dept of State — E-2 treaty list | `https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/treaty.html` |
 | US Dept of State — Grenada reciprocity | `https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/Grenada.html` |

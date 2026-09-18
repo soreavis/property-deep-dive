@@ -176,7 +176,7 @@ For the property's locality, return:
 
 ### 🇸🇮 Slovenia
 
-- **SURS Kriminaliteta**: `https://www.surs.si/`
+- **SURS Kriminaliteta**: `https://www.stat.si/StatWeb/Field/Index/10/60`
 - **Policija statistics**: `https://www.policija.si/`
 - Per-policijska postaja
 
@@ -240,7 +240,7 @@ For the property's locality, return:
 ### 🇲🇪 Montenegro
 
 - **MONSTAT — Statistika kriminaliteta**: `https://www.monstat.org/`
-- **Uprava policije**: `https://www.uprava.gov.me/`
+- **Uprava policije**: `https://www.gov.me/mup/policija`
 - **Granularity**: per-opština (25 municipalities)
 - **Caveat**: tourist transient population inflates rates Adriatic Jul-Aug
 
@@ -261,7 +261,7 @@ For the property's locality, return:
 ### 🇦🇱 Albania
 
 - **INSTAT — Statistikat e Krimit**: `https://www.instat.gov.al/`
-- **Policia e Shtetit**: `https://www.policiaeshtetit.gov.al/`
+- **Policia e Shtetit**: `https://asp.gov.al/`
 - **Granularity**: per-qark (12 counties) + per-bashki
 - **Caveat**: tourist transient inflates Vlorë + Sarandë; under-reporting common
 
@@ -439,7 +439,7 @@ For the property's locality, return:
 ### 🇨🇱 Chile
 
 - **Carabineros de Chile**: `https://www.carabineros.cl/` — police statistics
-- **Subsecretaría de Prevención del Delito (SPD)**: `http://www.seguridadpublica.gov.cl/` — ENUSC (Encuesta Nacional Urbana de Seguridad Ciudadana) victimization survey + DEIS administrative data
+- **Subsecretaría de Prevención del Delito (SPD)**: `https://www.ine.gob.cl/` — ENUSC (Encuesta Nacional Urbana de Seguridad Ciudadana) victimization survey + DEIS administrative data
 - **PDI (Policía de Investigaciones)**: `https://www.pdichile.cl/` — investigative crime
 - **Granularity**: per-región (16) + per-comuna (346) + Santiago Metropolitan Region comuna-level routine
 - **Caveat**: ENUSC vs Carabineros gap (victim survey shows ~3-5x higher than recorded); 2019 social unrest + 2022-2024 organized-crime expansion (esp. Tren de Aragua) created series-break in Antofagasta/Iquique/Arica; Las Condes/Vitacura/Lo Barnechea materially lower than national avg
@@ -598,7 +598,7 @@ For the property's locality, return:
 
 ### 🇵🇪 Peru
 
-- **PNP (Policía Nacional del Perú)**: `https://www.policia.gob.pe/` — annual statistics + monthly bulletins; Sistema de Denuncias Policiales (SIDPOL)
+- **PNP (Policía Nacional del Perú)**: `https://www.gob.pe/pnp` — annual statistics + monthly bulletins; Sistema de Denuncias Policiales (SIDPOL)
 - **INEI (Instituto Nacional de Estadística e Informática)**: `https://www.inei.gob.pe/` — Estadísticas de Seguridad Ciudadana + Encuesta Nacional de Programas Presupuestales (ENAPRES) victimization survey
 - **Ministerio Público — Fiscalía de la Nación**: `https://www.gob.pe/mpfn` — prosecutorial statistics
 - **Granularity**: per-departamento (24 + Constitutional Province of Callao) + per-provincia + per-distrito + Lima Metropolitana per-distrito (43); rural province data published but small absolute numbers
@@ -606,7 +606,7 @@ For the property's locality, return:
 
 ### 🇪🇨 Ecuador
 
-- **PNE (Policía Nacional del Ecuador)**: `https://www.policianacional.gob.ec/` — annual + monthly statistics + ECU-911 incident dispatch
+- **PNE (Policía Nacional del Ecuador)**: `https://www.policia.gob.ec/` — annual + monthly statistics + ECU-911 incident dispatch
 - **INEC (Instituto Nacional de Estadística y Censos)**: `https://www.ecuadorencifras.gob.ec/` — Estadísticas de Seguridad Ciudadana + Encuesta de Victimización
 - **Fiscalía General del Estado**: `https://www.fiscalia.gob.ec/` — prosecutorial statistics
 - **Granularity**: per-provincia (24) + per-cantón (221) + Quito + Guayaquil + Cuenca district-level
@@ -649,7 +649,7 @@ For the property's locality, return:
 
 - **NCRB (National Crime Records Bureau)**: `https://ncrb.gov.in/` — annual Crime in India report (most authoritative); per-state + per-city (53 metropolitan cities ≥1M pop) coverage
 - **MHA (Ministry of Home Affairs)**: `https://www.mha.gov.in/` — policy + Inter-State CCTNS (Crime and Criminal Tracking Network & Systems)
-- **State Police**: each state has dedicated police force — Mumbai Police `https://mumbaipolice.gov.in/`, Delhi Police `https://www.delhipolice.gov.in/`, Bengaluru City Police `https://bcp.karnataka.gov.in/`, Chennai City Police `https://www.chennaipolice.gov.in/`, Kolkata Police `https://kolkatapolice.gov.in/`, Hyderabad City Police `https://www.hyderabadpolice.gov.in/`, Pune City Police `https://punepolice.gov.in/`, Gurgaon Police `https://police.gov.in/` (Haryana)
+- **State Police**: each state has dedicated police force — Mumbai Police `https://mumbaipolice.gov.in/`, Delhi Police `https://www.delhipolice.gov.in/`, Bengaluru City Police `https://bcp.karnataka.gov.in/`, Chennai City Police `https://www.police.tn.gov.in/`, Kolkata Police `https://kolkatapolice.gov.in/`, Hyderabad City Police `https://www.hyderabadpolice.gov.in/`, Pune City Police `https://punepolice.gov.in/`, Gurgaon Police `https://gurgaon.haryanapolice.gov.in/` (Haryana)
 - **Granularity**: per-state (28 + 8 UTs) + per-district + 53 metropolitan cities (NCRB Crime in India "Crime in Cities" chapter); per-PS (police-station, ~17,000) data via state portals inconsistent
 - **Caveat**: significant under-reporting (NCRB acknowledges; victim-survey data limited — no routine NSO crime survey); methodology stable post-2014; political-context + insurgency offences (J&K, Nagaland, Manipur) separately classified; 2023 Bharatiya Nyaya Sanhita + Bharatiya Nagarik Suraksha Sanhita replaced IPC + CrPC effective 1 Jul 2024 — categorisation may shift in 2024+ NCRB publications; metro-level rates differ materially (Bengaluru/Pune/Chennai materially lower than Delhi/Lucknow/Patna)
 
@@ -658,7 +658,7 @@ For the property's locality, return:
 - **NPF (Nigeria Police Force)**: `https://npf.gov.ng/` — annual statistics + state command data; limited public granularity
 - **NBS (National Bureau of Statistics)**: `https://nigerianstat.gov.ng/` — Crime Statistics Quarterly Report + Crime Experience and Safety Survey (CESS)
 - **MHA (Ministry of Interior)**: `https://interior.gov.ng/`
-- **State Commands** (NPF state offices): Lagos State Police `https://lspc.gov.ng/`, FCT Abuja `https://www.npf.gov.ng/home/zone/7`, Rivers State (Port Harcourt), Kano State; **per-LGA (774) + per-ward data not publicly available — verify with local Divisional Police Office (DPO)**
+- **State Commands** (NPF state offices): Lagos State Police `https://www.npf.gov.ng/`, FCT Abuja `https://www.npf.gov.ng/home/zone/7`, Rivers State (Port Harcourt), Kano State; **per-LGA (774) + per-ward data not publicly available — verify with local Divisional Police Office (DPO)**
 - **Granularity**: national + per-state (36 + FCT) headlines via NBS; per-LGA inconsistently published; per-ward (8,809) not routine
 - **Caveat**: very high dark-figure (CESS 2024 victim survey shows ~3-5x recorded crime); Boko Haram NE (Borno/Yobe/Adamawa) + ISWAP Lake Chad / IPOB-ESN SE / banditry NW (Zamfara/Kaduna/Katsina) / Gulf of Guinea piracy + maritime kidnapping separately tracked under counter-terrorism; Lagos VI/Ikoyi/Lekki materially lower than mainland; published rates emphasize stability narrative; English official + 500+ languages + Pidgin universal affects victim reporting in non-Hausa/Yoruba/Igbo zones
 
@@ -735,9 +735,9 @@ For the property's locality, return:
 
 ### 🇨🇻 Cape Verde
 
-- **Polícia Nacional / Polícia Judiciária**: `https://www.pn.gov.cv/` + `https://www.pj.gov.cv/` — annual Relatório de Atividades + per-island operational statistics
+- **Polícia Nacional / Polícia Judiciária**: `https://www.pn.gov.cv/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row + `https://www.pj.gov.cv/` — annual Relatório de Atividades + per-island operational statistics
 - **INE (Instituto Nacional de Estatística)**: `https://ine.cv/` — Anuário Estatístico (Crime/Justice chapter) + RGPH 2021 census denominators
-- **Ministério Público / Procuradoria-Geral da República**: `https://www.mp.gov.cv/` — prosecution statistics
+- **Ministério Público / Procuradoria-Geral da República**: `https://www.ministeriopublico.cv` — prosecution statistics
 - **Granularity**: national + per-island (Santiago, Sal, Boa Vista, São Vicente, Santo Antão, São Nicolau, Maio, Fogo, Brava) + 22 concelhos; per-locality data not publicly available — verify with local PN command
 - **Caveat**: tourist-zone (Sal Espargos / Santa Maria + Boa Vista Sal Rei) elevated opportunistic theft + petty crime; Praia urban (Achada Grande, Brasil, Eugénio Lima) higher relative violent-crime baseline vs island averages; Cidade Velha + interior Santiago lower; gang-violence ("thugs") localised Praia/Mindelo; series-break post-2018 PN reform; no public commune-level dataset
 
@@ -745,7 +745,7 @@ For the property's locality, return:
 
 - **Seychelles Police Force**: `https://www.police.gov.sc/` — annual reports + Commissioner of Police statistics
 - **NBS (National Bureau of Statistics)**: `https://www.nbs.gov.sc/` — Statistics Bulletin Crime/Justice section
-- **Office of the Attorney General**: `https://www.ago.gov.sc/` — prosecution + court statistics
+- **Office of the Attorney General**: `https://ago.sc` — prosecution + court statistics
 - **Granularity**: national + 26 districts (Mahé 23 + Praslin 2 + La Digue 1) — primary admin unit for crime stats; per-village-area not publicly available
 - **Caveat**: small absolute numbers (~100k pop) → high statistical noise; Mahé urban Victoria + Beau Vallon + Anse Etoile higher relative; Praslin + La Digue + outer islands very low absolute; tourism-related opportunistic theft elevated relative to base; **heroin epidemic Mahé** (~5-10% adult-population dependency rate per Health Ministry estimates) is the dominant social-disorder vector — drives property-crime statistics distortion; 2017+ Drug Enforcement Agency (DEA) reform
 
@@ -829,7 +829,7 @@ For the property's locality, return:
 
 ### 🇻🇬 British Virgin Islands
 
-- **Royal Virgin Islands Police Force (RVIPF)**: `https://www.bvi.gov.vg/departments/royal-virgin-islands-police-force-0` (also `https://gov.vg/royal-virgin-islands-police-force`) — police statistics released via press conference / quarterly briefings (e.g. Q1-2025 serious-assault and robbery figures); **no comprehensive public crime dataset published** — local press (BVI Beacon) reports 4+ years of unmet FOI requests for full statistics
+- **Royal Virgin Islands Police Force (RVIPF)**: `https://gov.vg/royal-virgin-islands-police-force` (also `https://gov.vg/royal-virgin-islands-police-force`) — police statistics released via press conference / quarterly briefings (e.g. Q1-2025 serious-assault and robbery figures); **no comprehensive public crime dataset published** — local press (BVI Beacon) reports 4+ years of unmet FOI requests for full statistics
 - **Central Statistics Office (Government of the Virgin Islands)**: `https://www.bvi.gov.vg/` — census + population denominators (~31,000 baseline; capital Road Town, Tortola)
 - **UK FCDO Travel Advice** + **US State Department / OSAC Crime & Safety Reports** — comparative advisory reference
 - **UNODC Caribbean**: country-profile rate-per-100k comparator
@@ -883,7 +883,7 @@ For the property's locality, return:
 
 ### 🇰🇭 Cambodia
 
-- **General Commissariat of National Police**: `https://www.cnp.gov.kh/` — operational reporting (limited public crime statistics)
+- **General Commissariat of National Police**: `https://www.interior.gov.kh/en/` — operational reporting (limited public crime statistics)
 - **Ministry of Justice**: `https://www.moj.gov.kh/` — court + prosecution statistics
 - **National Institute of Statistics (NIS)**: `https://www.nis.gov.kh/` — General Population Census tables + limited crime aggregates
 - **UNODC Southeast Asia / Pacific**: country profile aggregates + transnational organised crime regional reporting
@@ -921,10 +921,10 @@ For the property's locality, return:
 
 ### 🇺🇿 Uzbekistan
 
-- **Ministry of Internal Affairs (Ichki Ishlar Vazirligi / IIV)**: `https://www.iiv.uz/` — operational + crime statistics; annual report
+- **Ministry of Internal Affairs (Ichki Ishlar Vazirligi / IIV)**: `https://gov.uz/uz/iiv` — operational + crime statistics; annual report
 - **State Statistics Committee (Davlat statistika qoʻmitasi)**: `https://stat.uz/` — Statistical Yearbook crime/justice section + 2025 admin classification
 - **General Prosecutor's Office (Bosh prokuratura)**: `https://prokuratura.uz/` — prosecution statistics
-- **Supreme Court (Oliy sud)**: `https://supcourt.uz/` — court statistics
+- **Supreme Court (Oliy sud)**: `https://stat.sud.uz/` — court statistics
 - **UNODC Central Asia**: country profile aggregates
 - **Granularity**: 12 viloyats + Republic of Karakalpakstan + Tashkent city = 14 first-level → 175 districts (tumanlar) + city districts → ~1,000 urban-type settlements
 - **Caveat**: **Uzbekistan crime statistics historically underpublished pre-2017 Mirziyoyev liberalisation** — post-2017 publishing improved but series-break at 2017 reform; Tashkent urban crime patterns vs Samarkand / Bukhara tourist-corridor (Silk Road historic centres) vs Fergana Valley (Andijan / Namangan / Fergana) higher-density rural; **ethnic-Karakalpak July 2022 unrest in Nukus** (Republic of Karakalpakstan capital) — 21 deaths officially confirmed (HRW); affects series interpretation; agricultural land BANNED for foreigners but cotton-sector forced-labour-monitoring (ILO + Cotton Campaign) historically affected reporting culture in agricultural districts (improved post-2017-22 reforms); border-zone (TJ / KG / KZ / TM / AF) restricted-zone reporting separate

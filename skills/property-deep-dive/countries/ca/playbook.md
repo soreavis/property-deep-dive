@@ -34,7 +34,7 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 - **Statistics Canada (StatCan)**: `https://www.statcan.gc.ca/en/subjects-start/housing` — house price index + rental
 - **Provincial price boards**:
   - Toronto: TRREB `https://trreb.ca` (Toronto Regional Real Estate Board)
-  - Vancouver: REBGV `https://www.rebgv.org`
+  - Vancouver: REBGV `https://www.gvrealtors.ca/`
   - Calgary: CREB `https://www.creb.com`
   - Montreal: APCIQ `https://apciq.ca`
 

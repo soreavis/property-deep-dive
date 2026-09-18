@@ -205,7 +205,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|---|
 | **OMSZ (Országos Meteorológiai Szolgálat)** | `https://www.met.hu/` | Weather, climate |
 | **OVF (Országos Vízügyi Főigazgatóság)** | `https://www.ovf.hu/` | Water management, **flood maps** |
-| **MBFSZ / MFGI (Geological Survey)** | `https://www.mbfsz.gov.hu/` | Geology, seismic |
+| **MBFSZ / MFGI (Geological Survey)** | `https://sztfh.hu/tevekenysegek/foldtani-tevekenyseg` | Geology, seismic |
 | **VÁTI** | varies | Spatial planning |
 
 ### Specific risks
@@ -348,7 +348,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 | MNB | `https://www.mnb.hu/` |
 | OMSZ | `https://www.met.hu/` |
 | OVF | `https://www.ovf.hu/` |
-| MBFSZ | `https://www.mbfsz.gov.hu/` |
+| MBFSZ | `https://sztfh.hu/tevekenysegek/foldtani-tevekenyseg` |
 | NAV (tax) | `https://nav.gov.hu/` |
 | Magyar Közút (traffic) | `https://kozut.hu/` |
 

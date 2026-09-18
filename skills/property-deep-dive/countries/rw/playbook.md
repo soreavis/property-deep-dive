@@ -230,7 +230,7 @@ Second residential house: **0.5 %** of combined market value.
 - **Commercial immovable property**: **not CGT at all** — the gain falls into **business profit** (Art. 19 of Law N° 027/2022, "proceeds of sale of any business asset"), taxed at **CIT 28 %** (Art. 48 as amended by **Law N° 051/2023 of 05/09/2023**, which cut CIT 30 % → 28 %) or at **PIT progressive to 30 %** (Art. 14 top band), depending on the seller. There is **no 30 % CGT on commercial immovable property** — the earlier framing here was wrong.
 - **Residential immovable property** (individual seller, non-business): **NOT a separate CGT** — gain is captured through the immovable-property sale levy (2 % registered / 2.5 % unregistered above the RWF 5 M exempt floor; see Transfer + Registration costs above). Verify your specific scenario with RRA — the residential-vs-commercial classification is fact-driven.
 - **Declaration deadline**: 15th of the month following the transaction.
-- Source: RRA Tax Handbook `https://tax-handbook.rra.gov.rw/handbook/explanation-of-capital-gains-tax/` + PwC Rwanda Corporate Tax Summary 2026 `https://taxsummaries.pwc.com/rwanda/corporate/other-taxes` *(2026-08-07 re-verified — this corrects the note previously carried here: the "5 % flat" framing was **not** a pre-2022 confusion. Art. 36 of Law N° 027/2022 as promulgated read five percent (5 %), and Law N° 051/2023 amended only Arts. 9 + 48 (CIT 30 % → 28 %) without touching CGT, so 5 % was the primary statute for 20/10/2022 – 28/05/2025; the 10 % rate arrives only with Law N° 014/2025 of 27/05/2025)*
+- Source: RRA Tax Handbook `https://www.rra.gov.rw/fileadmin/Folder_for_2025/RRA_Tax_Handbook_2025_Final.pdfhandbook/explanation-of-capital-gains-tax/` + PwC Rwanda Corporate Tax Summary 2026 `https://taxsummaries.pwc.com/rwanda/corporate/other-taxes` *(2026-08-07 re-verified — this corrects the note previously carried here: the "5 % flat" framing was **not** a pre-2022 confusion. Art. 36 of Law N° 027/2022 as promulgated read five percent (5 %), and Law N° 051/2023 amended only Arts. 9 + 48 (CIT 30 % → 28 %) without touching CGT, so 5 % was the primary statute for 20/10/2022 – 28/05/2025; the 10 % rate arrives only with Law N° 014/2025 of 27/05/2025)*
 
 ### Rental Income Tax (RIT) — for landlords
 
@@ -325,7 +325,7 @@ PIT brackets (monthly employment income, post-Nov 2023):
 ### Job platforms
 
 - **JobinRwanda** — `https://www.jobinrwanda.com/` (largest)
-- **MyJobMag Rwanda** — `https://www.myjobmag.co.rw/`
+- **MyJobMag Rwanda** — `https://www.myjobmag.co.rw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **LinkedIn Rwanda** — strong in NGO, finance, tech, hospitality
 - **Indeed Rwanda** — limited but growing
 - **RDB job board** — `https://rdb.rw/careers/` (RDB-internal only)
@@ -335,7 +335,7 @@ PIT brackets (monthly employment income, post-Nov 2023):
 ### Self-employment / business structures
 
 - **Sole proprietor**: simplest; PIT at progressive rates; no liability shield.
-- **Limited liability company (Ltd)**: registered at **RDB Office of the Registrar General** via `https://br.rdb.rw/`; CIT **28 %** standard (Art. 48 of Law N° 027/2022 as amended by Law N° 051/2023 of 05/09/2023 — the former 30 % is stale) / 15–25 % preferential rates per Investment Code 2021 (export, energy, holding co's).
+- **Limited liability company (Ltd)**: registered at **RDB Office of the Registrar General** via `https://org.rdb.rw/`; CIT **28 %** standard (Art. 48 of Law N° 027/2022 as amended by Law N° 051/2023 of 05/09/2023 — the former 30 % is stale) / 15–25 % preferential rates per Investment Code 2021 (export, energy, holding co's).
 - **Investment certificate**: USD 250k+ investor → 3 work permits + residence permit + tax incentives via Investment Code 2021.
 - **Tax registration**: TIN automatic with company registration; VAT registration if turnover ≥ FRW 20 M/yr.
 - **Social security**: **RSSB** (Rwanda Social Security Board) — pension + medical insurance; combined ~13–17 % (est.) depending on employee/employer split — verify current statutory split against RSSB published contribution schedule.
@@ -463,7 +463,7 @@ Rwanda's mains-utility coverage in **urban Kigali is exceptional for sub-Saharan
 
 - **Water + sanitation**: **WASAC — Water and Sanitation Corporation** (`https://www.wasac.rw/`) — national utility; near-universal piped-water coverage in Kigali urban districts; expanding in secondary cities.
 - **Sewerage**: limited centralised sewerage even in Kigali — most properties (incl. premium villas) use **on-site septic systems / soak-pits**. Only specific corridors (CBD, some new developments) on centralised sewer. Verify per-property.
-- **Electricity**: **REG / EUCL — Rwanda Energy Group / Energy Utility Corporation Limited** (`https://www.reg.rw/` + `https://www.eucl.reg.rw/`); national grid covers ~75 % of households (NISR EICV-7); ~95 %+ urban Kigali. Combination of hydro (incl. Lake Kivu KivuWatt methane-to-power), peat, solar, grid imports.
+- **Electricity**: **REG / EUCL — Rwanda Energy Group / Energy Utility Corporation Limited** (`https://www.reg.rw/` + `https://www.reg.rw/about-us/subsidiaries/eucl/`); national grid covers ~75 % of households (NISR EICV-7); ~95 %+ urban Kigali. Combination of hydro (incl. Lake Kivu KivuWatt methane-to-power), peat, solar, grid imports.
 - **Internet**: **fibre + 4G** widely available in Kigali; **MTN, Airtel, Liquid Intelligent Technologies**; Kigali fibre-to-home available in most premium districts.
 
 ### Verification
@@ -690,7 +690,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 - **One Step One Day Transfer** — RLMUA's flagship target: simple residential transfers can complete within **one working day** at full LTR-coverage parcels. Verify this for your property's location.
 - **Foreigner buys leasehold; Rwandan citizen buys freehold** — same physical property may have different available tenure types depending on buyer nationality.
 - **Investor-Certificate route is well-trodden** — RDB processes investor certificates within 2 working days once docs complete; the route is genuinely operational, not just nominal.
-- **Tax handbook online** — `https://tax-handbook.rra.gov.rw/` — primary RRA reference for all taxes; cite by section when computing.
+- **Tax handbook online** — `https://www.rra.gov.rw/fileadmin/Folder_for_2025/RRA_Tax_Handbook_2025_Final.pdf` — primary RRA reference for all taxes; cite by section when computing.
 - **Kigali Master Plan 2050 portal** — `https://bpmis.gov.rw/` — building permits checked here; foreign buyers should verify any planned-extension / planned-build complies BEFORE purchase.
 - **Construction quality varies pre-2009 / post-2009** — the National Building Code 2009/2019 raised standards; pre-2009 stock often lacks formal seismic detailing.
 - **Body corporate culture is nascent** — apartment / condominium body-corporate governance less mature than ZA / KE; demand bylaws + financials before buying in any building.
@@ -708,7 +708,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 | RDB Business Procedures | `https://businessprocedures.rdb.rw/` |
 | RDB Investment Incentives | `https://rdb.rw/invest` |
 | RRA — Rwanda Revenue Authority | `https://www.rra.gov.rw/` |
-| RRA Tax Handbook | `https://tax-handbook.rra.gov.rw/` |
+| RRA Tax Handbook | `https://www.rra.gov.rw/fileadmin/Folder_for_2025/RRA_Tax_Handbook_2025_Final.pdf` |
 | RRA Immovable Property Tax page | `https://www.rra.gov.rw/index.php?id=64&L=27` |
 | RRA Rental Income Tax page | `https://www.rra.gov.rw/fileadmin/img/rental-income-tax.html` |
 | BNR — National Bank of Rwanda | `https://www.bnr.rw/` |

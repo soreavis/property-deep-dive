@@ -10,7 +10,7 @@ ISO2: `sc`. Status: ✅ fully populated as of 2026-05-07.
 - **Currency**: **Seychelles Rupee (SCR)** — managed-float since November 2008 (de-pegged amid the 2008 sovereign-debt crisis + IMF programme); CBS publishes daily indicative rates at `https://www.cbs.sc/marketinfo/DailyRates.html`. As of late April 2026, indicative rate ≈ **SCR 14.7–14.9 / USD 1** (per Trading Economics + Wise mid-market — verify CBS spot before any deal). USD + EUR informally accepted in tourism sector; all property is **listed in SCR for legal purposes** but agency marketing routinely quotes USD/EUR for foreign buyers. Banking system intermediates conversion.
 - **Languages**: Three official — **Seychellois Creole (Seselwa)**, **English**, **French**. **English is the working language of government, courts, and registers** (legal documents executed in English). Property listings + agency websites mostly English with French/Russian secondary marketing.
 - **Legal system**: Mixed civil-law (French Code Napoléon heritage via 1808 colonisation) + English common law (post-1814 British administration). **Land law is heavily codified — French-style** (Civil Code Cap 33 — *Code Civil* descended from Code Napoléon); **conveyancing process is common-law** (notary attestation + deed registration). Independent since **29 June 1976**.
-- **Cadastre / land registry**: **Seychelles Registration Office** (formerly Land Registration Division) — `https://registrationdivision.gov.sc/`. Operates two parallel registers under the **Land Registration Act, Cap 107** (consolidated 30 June 2014, see `https://seylii.org/akn/sc/act/1965/25`):
+- **Cadastre / land registry**: **Seychelles Registration Office** (formerly Land Registration Division) — `https://registrationdivision.gov.sc/`. Operates two parallel registers under the **Land Registration Act, Cap 107** (consolidated 30 June 2014, see `https://seylii.org/akn/sc/act/1965/25`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row:
   - **Old Register** (deeds-of-title, French-derived, narrative chain) — most older Mahé / Praslin / La Digue parcels still here
   - **New Register** (Torrens-style title-by-registration) — progressive rollout; **Praslin + La Digue conversion launched June 2024** (per Seychelles News Agency reporting), Mahé gradual
   - **WebGIS / Cadastre and Planning portal**: `https://www.webgis.gov.sc/index.phtml?config=default` — public planning + parcel viewer (Ministry of Habitat, Infrastructure and Land Transport — MHILT)
@@ -74,7 +74,7 @@ ISO2: `sc`. Status: ✅ fully populated as of 2026-05-07.
 
 ### Primary sources
 
-- **Ministry of Habitat, Infrastructure and Land Transport (MHILT)**: oversees roads via the Roads Department — `https://www.mhilt.gov.sc/` (verify exact URL — government site reorganisations frequent)
+- **Ministry of Habitat, Infrastructure and Land Transport (MHILT)**: oversees roads via the Roads Department — `https://transport.gov.sc/who-we-are/departments/department-of-land-transport` (verify exact URL — government site reorganisations frequent)
 - **Seychelles Land Transport Agency (SLTA)**: vehicle registration + road licensing (`https://www.sltagency.com/` or via `gov.sc` portal — verify)
 - **WebGIS Cadastre and Planning portal** for road class layer: `https://www.webgis.gov.sc/index.phtml?config=default`
 - **OSM `highway` class** as universal fallback (well-mapped on Mahé core routes; thinner on Praslin / La Digue interior tracks)
@@ -193,7 +193,7 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 - **Tightly regulated** — Seychelles tourism is the dominant economic sector and the licensing regime is enforced
 - **Self-catering accommodation** must:
   - Hold a **Tourism Establishments Licence** from the **Seychelles Licensing Authority (SLA)** — `https://www.sla.gov.sc/` (verify URL)
-  - Register the property with the **Seychelles Tourism Board (STB)** — `https://www.tourism.gov.sc/` (verify URL)
+  - Register the property with the **Seychelles Tourism Board (STB)** — `https://tourism.gov.sc/wp-content/uploads/2020/07/Accomodation-policy-Revised-February-2019.pdf` (verify URL)
   - Comply with **zoning + environmental + safety** standards
 - **Enforcement**: a 2018 task force (tourism ministry + SLA + police) began on-island enforcement against unlicensed Airbnb supply on Mahé, Praslin, La Digue. Penalties under the Licensing Act include fines (reportedly up to ~USD 3,600 / SCR 50,000+) and imprisonment up to 5 years for serial unlicensed operation. (Source: Seychelles News Agency + Lodge Compliance country guide; verify current penalty schedule with SLA — figures pre-2024.)
 - **Practical**: for a non-Seychellois owner, the *legal route* is condominium-style buy (Eden Island and similar) + **engaging a licensed local management company** to operate the unit under their tourism licence — many Eden Island and Mahé developers offer rental-management programmes. **Operating an Airbnb directly without SLA licence is prosecutable**.
@@ -278,7 +278,7 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 |---|---|---|
 | **Disaster Risk Management Department (DRMD)** | `https://www.drmd.sc/` | National DRR coordination, historical event chronology |
 | **Seychelles Meteorological Authority** | via `https://www.meteo.gov.sc/` (verify) | Met data, cyclone tracking, advisories |
-| **Ministry of Environment, Climate, Energy and Natural Resources** | `https://macce.gov.sc/` | Climate Change Department + Coastal Zone Management |
+| **Ministry of Environment, Climate, Energy and Natural Resources** | `https://environment.gov.sc/` | Climate Change Department + Coastal Zone Management |
 | **World Bank Climate Change Knowledge Portal — Seychelles** | `https://climateknowledgeportal.worldbank.org/country/seychelles` | Country profile, projections (CMIP6, CHAZ tropical-cyclone) |
 | **GFDRR** (Global Facility for Disaster Reduction and Recovery) | `https://www.gfdrr.org/` | Post-Disaster Needs Assessments (Felleng 2013, Fantala 2016) |
 | **Seychelles Planning Authority (SPA)** | `https://spa.gov.sc/` | Coastal-zone setback + flood zoning |
@@ -462,7 +462,7 @@ Universal — see `shared/climate-projections.md`. Seychelles-specific override:
 - **Two seasons**: NW monsoon (Dec–Mar, wetter, warmer, more cyclone-period exposure) + SE trade-wind (May–Oct, drier, cooler, calmer seas)
 - **Rainfall**: ~2,400 mm/year on Mahé central highland; lower on coast + Praslin / La Digue
 - **Authoritative projections**: World Bank CCKP — `https://climateknowledgeportal.worldbank.org/country/seychelles`
-- **National framework**: **Macce.gov.sc** Climate Change Department + **National Climate Change Strategy** (review cycle ongoing) — `https://macce.gov.sc/climate-change-department/climate-change/`
+- **National framework**: **Macce.gov.sc** Climate Change Department + **National Climate Change Strategy** (review cycle ongoing) — `https://environment.gov.sc/climate-change-department/climate-change/`
 - **Carbon-neutral target**: Seychelles signed Paris Agreement + has filed NDCs (revised 2021); ambitious renewable-energy + Marine Spatial Plan (2020 — protected 30% of EEZ, world-leading)
 
 ---
@@ -588,7 +588,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 - **Tropical Cyclone Felleng (Jan 2013) flood + landslide pattern** is the most relevant disaster precedent for Mahé east-coast residential — Pointe Larue / Au Cap / Cascade vulnerable
 - **Eden Island residential apartments** trade at sample-size-thin volumes in any given month; expect 2–6 month time on market for resale
 - **Bank lending to non-residents**: LTV **~40–60%** (est., per agency/bank reporting — no published CBS non-resident lending survey; verify current rate sheet directly with the bank) for non-resident foreign buyers via Seychelles commercial banks (MCB Seychelles, Absa Bank Seychelles, Nouvobanq, Seychelles Commercial Bank, Bank of Ceylon Seychelles); rates SCR-denominated **~8–13%** (est. — verify current rate sheet with the bank); USD-loan availability limited and case-by-case
-- **No notary-monopoly** — barristers/attorneys/notaries are largely fused profession; the Seychelles Bar Association (`https://www.barassociation.sc/` — verify URL) tracks registered practitioners
+- **No notary-monopoly** — barristers/attorneys/notaries are largely fused profession; the Seychelles Bar Association (`https://www.judiciary.sc/legal-practitioners/licensed-lawyers` — verify URL) tracks registered practitioners
 - **Praslin + La Digue New Land Register conversion** launched June 2024 — title-by-registration improving on these islands; Mahé conversion progressive
 
 ## Reddit / forum sources
@@ -614,7 +614,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 | **Central Bank of Seychelles (CBS)** | Monetary + FX + financial-stability — `https://www.cbs.sc/` |
 | **National Bureau of Statistics (NBS)** | Population, CPI, crime stats — `https://www.nbs.gov.sc/` |
 | **Disaster Risk Management Department (DRMD)** | Hazard history, DRR coordination — `https://www.drmd.sc/` |
-| **Ministry of Environment, Climate, Energy and Natural Resources** | Climate, Coastal Zone Management — `https://macce.gov.sc/` |
+| **Ministry of Environment, Climate, Energy and Natural Resources** | Climate, Coastal Zone Management — `https://environment.gov.sc/` |
 | **Financial Services Authority (FSA)** | IBC + Trust + non-bank financial regulation — `https://www.fsaseychelles.sc/` |
 | **MHILT — Ministry of Habitat, Infrastructure and Land Transport** | Building permits, roads, transport |
 | **Seychelles Police Force** | Crime stats — `https://www.police.gov.sc/` |
@@ -661,13 +661,13 @@ For most international buyers, the actionable foreign-buyer routes are:
 | ICS Residence Permit | `https://www.ics.gov.sc/permits/residence-permit` |
 | ICS GOP Section | `https://www.ics.gov.sc/faq/immigration-services/gop-section` |
 | Disaster Risk Management Department | `https://www.drmd.sc/` |
-| Ministry of Environment + Climate | `https://macce.gov.sc/` |
+| Ministry of Environment + Climate | `https://environment.gov.sc/` |
 | World Bank CCKP — Seychelles | `https://climateknowledgeportal.worldbank.org/country/seychelles` |
 | Climate Central Coastal Risk Tool | `https://coastal.climatecentral.org/` |
 | Financial Services Authority | `https://www.fsaseychelles.sc/` |
 | Seychelles Police Force | `https://www.police.gov.sc/` |
 | SeyLII (legislation) | `https://seylii.org/` |
-| Land Registration Act (consolidated) | `https://seylii.org/akn/sc/act/1965/25` |
+| Land Registration Act (consolidated) | `https://seylii.org/akn/sc/act/1965/25` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | Eden Island | `https://www.edenisland.sc/` |
 | Chambers Real Estate 2025 — Seychelles | `https://practiceguides.chambers.com/practice-guides/real-estate-2025/seychelles` |
 | Seychelles News Agency | `http://www.seychellesnewsagency.com/` |

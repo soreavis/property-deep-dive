@@ -1083,7 +1083,7 @@ These work regardless of buyer's home country and prevent the most common cross-
 - **SE Skatteverket**: https://www.skatteverket.se · **NO Skatteetaten**: https://www.skatteetaten.no · **DK Skat**: https://skat.dk · **FI Vero**: https://www.vero.fi
 - **CH ESTV**: https://www.estv.admin.ch · admin.ch federal decree: https://www.admin.ch/gov/en/start/documentation/votes/20250928/federal-decree-on-cantonal-property-taxes-on-second-homes.html
 - **JP NTA**: https://www.nta.go.jp · **KR NTS**: https://www.nts.go.kr · **SG IRAS**: https://www.iras.gov.sg · **HK IRD**: https://www.ird.gov.hk · **CN STA**: https://www.chinatax.gov.cn
-- **IL Israel Tax Authority**: https://www.taxes.gov.il
+- **IL Israel Tax Authority**: https://www.gov.il/he/departments/israel_tax_authority
 - **IN Income Tax**: https://incometaxindia.gov.in · BMA: https://www.indiacode.nic.in/handle/123456789/2147 · CBDT Circular 10/2023: https://incometaxindia.gov.in/communications/circular/circular-10-2023.pdf
 - **BR Receita Federal**: https://www.gov.br/receitafederal · Planalto L14754: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14754.htm
 - **MX SAT**: https://www.sat.gob.mx · **ZA SARS**: https://www.sars.gov.za · **AE FTA**: https://tax.gov.ae · **SA ZATCA**: https://zatca.gov.sa

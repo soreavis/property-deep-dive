@@ -6,7 +6,7 @@ ISO2: `kw`. Status: ✅ Fully populated (researched 2026-05).
 
 ## Country profile
 
-- **Postcode**: **5-digit Kuwait Post codes** (e.g., Kuwait City Sharq `15001`, Salmiya `22033`, Hawalli `32001`) administered by [Kuwait Post (Ministry of Communications)](https://www.kw.post/) — postcodes used for postal sorting, but addressing in practice relies on **Block (قطعة) + Street (شارع) + House (منزل / جادة)** within a named area (منطقة)
+- **Postcode**: **5-digit Kuwait Post codes** (e.g., Kuwait City Sharq `15001`, Salmiya `22033`, Hawalli `32001`) administered by [Kuwait Post (Ministry of Communications)](https://moc.gov.kw/ar/important-links?tab=2) — postcodes used for postal sorting, but addressing in practice relies on **Block (قطعة) + Street (شارع) + House (منزل / جادة)** within a named area (منطقة)
 - **Population**: ~4.85M (2024 PACI mid-year estimate per [Public Authority for Civil Information](https://www.paci.gov.kw/)); ~30% Kuwaiti national (~1.45M) + ~70% expatriate (~3.4M) — among the world's highest expat-to-citizen ratios
 - **GDP per capita**: ~USD 32,800 (2024 IMF WEO Oct 2024) / ~USD 56,000 PPP — high-income oil-exporter
 - **Currency**: **KWD (د.ك — Kuwaiti Dinar)** — managed float against undisclosed basket since 20 May 2007 ([CBK press release, 20 May 2007](https://www.cbk.gov.kw/en/cbk-news/announcements-and-press-releases/press-releases/2007/05/200705200000-the-kuwaiti-dinar-kd-re-pegged-to-a-basket-of-currencies)); pre-2007 USD-pegged; KWD ≈ USD 3.25 (Q1 2026 indicative); **highest face-value currency globally**
@@ -101,12 +101,12 @@ This section determines whether a transaction is even legally possible. Kuwait's
 
 ### Listing platforms
 
-- **Aqarmap Kuwait**: `https://aqarmap.com.kw/` — major listings platform
+- **Aqarmap Kuwait**: `https://aqarmap.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — major listings platform
 - **Bayut Kuwait**: `https://www.bayut.com/en/kuwait/` — UAE-origin platform extended to Kuwait
-- **Property Finder Kuwait**: `https://www.propertyfinder.kw/`
+- **Property Finder Kuwait**: `https://www.propertyfinder.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **OpenSooq Kuwait**: `https://kw.opensooq.com/` — large classifieds platform
 - **4Sale (Kuwait)**: `https://www.q84sale.com/` — leading local classifieds (cars + property + jobs)
-- **Mubawab Kuwait** (regional): `https://www.mubawab.com.kw/`
+- **Mubawab Kuwait** (regional): `https://www.mubawab.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 
 ### City benchmarks (Q4 2025 / Q1 2026 reference, listings + KREU commentary)
 
@@ -1045,12 +1045,12 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 ## Common listing platforms
 
-- **Aqarmap Kuwait** — `https://aqarmap.com.kw/`
+- **Aqarmap Kuwait** — `https://aqarmap.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Bayut Kuwait** — `https://www.bayut.com/en/kuwait/`
-- **Property Finder Kuwait** — `https://www.propertyfinder.kw/`
+- **Property Finder Kuwait** — `https://www.propertyfinder.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **OpenSooq Kuwait** — `https://kw.opensooq.com/`
 - **4Sale Kuwait** — `https://www.q84sale.com/`
-- **Mubawab Kuwait** — `https://www.mubawab.com.kw/`
+- **Mubawab Kuwait** — `https://www.mubawab.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 
 ## Caveats unique to Kuwait
 
@@ -1128,15 +1128,15 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | MOI eVisa | `https://evisa.moi.gov.kw/` |
 | Civil Service Bureau (CSB — for laws) | `https://www.csb.gov.kw/` |
 | Kuwait Investment Authority (KIA) | `https://www.kia.gov.kw/` |
-| Kuwait Fund for Arab Economic Development | `https://www.kuwaitfund.gov.kw/` |
+| Kuwait Fund for Arab Economic Development | `https://www.kuwait-fund.org/en/` |
 | Public Authority for Housing Welfare (PAHW) | `https://www.housing.gov.kw/` |
 | Central Statistical Bureau (CSB) | `https://www.csb.gov.kw/` |
 | Capital Markets Authority (CMA) | `https://www.cma.gov.kw/` |
-| Kuwait Post | `https://www.kw.post/` |
+| Kuwait Post | `https://moc.gov.kw/ar/important-links?tab=2` |
 | Kuwait Public Transport Company (KPTC) | `https://www.kptc.com.kw/` |
-| Aqarmap (listings) | `https://aqarmap.com.kw/` |
+| Aqarmap (listings) | `https://aqarmap.com.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | Bayut Kuwait (listings) | `https://www.bayut.com/en/kuwait/` |
-| Property Finder Kuwait (listings) | `https://www.propertyfinder.kw/` |
+| Property Finder Kuwait (listings) | `https://www.propertyfinder.kw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | OpenSooq Kuwait | `https://kw.opensooq.com/` |
 | 4Sale Kuwait | `https://www.q84sale.com/` |
 | NBK (bank) | `https://www.nbk.com/` |

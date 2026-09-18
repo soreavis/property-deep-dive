@@ -140,7 +140,7 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 - AFM (Administrația Fondului pentru Mediu): https://www.afm.ro/ (intermittent 503)
 
 ### Government risk hub
-- https://infohartiriscuri.gov.ro/ (browser-check; HEAD filtering)
+- https://inundatii.ro/ (browser-check; HEAD filtering)
 
 ### Mandatory diagnostics
 
@@ -157,9 +157,9 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 
 **ANCPI — Agenția Națională de Cadastru și Publicitate Imobiliară**:
 - https://www.ancpi.ro/ — institutional (RO + EN)
-- https://geoportal.ancpi.ro/ — INSPIRE-compliant national geoportal; parcel viewer at `/geoportal/imobile/Harta.html`. Public.
-- https://eterra3.ancpi.ro/ — eTerra3, integrated cadastre + land book. **Auth-only** (notaries, lawyers, executors get credentials)
-- https://myeterra.ancpi.ro/ — citizen self-service portal. **Auth via ROeID** — foreign buyer without ROeID **cannot self-serve**; must instruct RO notary or lawyer to pull `extras de carte funciară` (~RON 25–40 electronic, RON 100+ paper sealed)
+- https://geoportal.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — INSPIRE-compliant national geoportal; parcel viewer at `/geoportal/imobile/Harta.html`. Public.
+- https://eterra3.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — eTerra3, integrated cadastre + land book. **Auth-only** (notaries, lawyers, executors get credentials)
+- https://myeterra.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — citizen self-service portal. **Auth via ROeID** — foreign buyer without ROeID **cannot self-serve**; must instruct RO notary or lawyer to pull `extras de carte funciară` (~RON 25–40 electronic, RON 100+ paper sealed)
 - **CF (carte funciară) is the canonical identifier** for any parcel
 - eTerra3 = production system (replaced legacy eTerra). All county OCPI offices route through it
 
@@ -253,7 +253,7 @@ Universal — see `shared/climate-projections.md`.
 | Bucharest seismic | AMCCRS | https://amccrs-pmb.ro/ |
 | Citizen seismic map | hartablocuri.ro | https://www.hartablocuri.ro/ |
 | Floods | Apele Române | https://rowater.ro/ |
-| Risk maps hub | Gov risk | https://infohartiriscuri.gov.ro/ |
+| Risk maps hub | Gov risk | https://inundatii.ro/ |
 | Nuclear / radon | CNCAN | https://www.cncan.ro/ |
 
 ---
@@ -262,8 +262,8 @@ Universal — see `shared/climate-projections.md`.
 
 | Field | Template |
 |---|---|
-| Cadastral extract (myeTerra) | https://myeterra.ancpi.ro/ |
-| Cadastre map | https://geoportal.ancpi.ro/ |
+| Cadastral extract (myeTerra) | https://myeterra.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Cadastre map | https://geoportal.ancpi.ro/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | HPI quarterly | https://www.insse.ro/ |
 | Bucharest seismic class | https://amccrs-pmb.ro/ |
 | Property-tax CGT | https://taxsummaries.pwc.com/romania/individual/income-determination |

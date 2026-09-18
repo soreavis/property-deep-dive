@@ -82,7 +82,7 @@ This section determines whether a transaction is even legally possible — and w
 ### Listing platforms
 
 - **CIREBA** — `https://www.cireba.com/` (broker MLS aggregator)
-- **Cayman Islands Sotheby's International Realty** — `https://www.sircayman.com/`
+- **Cayman Islands Sotheby's International Realty** — `https://www.sothebysrealty.ky/`
 - **ERA Cayman Islands** — `https://www.eracayman.com/`
 - **RE/MAX Cayman** — `https://www.remax.ky/`
 - **Provenance Properties (Christie's)** — `https://www.provenanceproperties.com/`
@@ -314,7 +314,7 @@ Governed by the **Stamp Duty Act (2019 Revision)** + subordinate **Stamp Duty (R
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Hazard Management Cayman Islands (HMCI)** | `https://www.caymanprepared.gov.ky/` | Hurricane plans, shelters, alerts, hazard mapping |
+| **Hazard Management Cayman Islands (HMCI)** | `https://www.gov.ky/web/hmci` | Hurricane plans, shelters, alerts, hazard mapping |
 | **Cayman Islands National Weather Service (CINWS)** | `https://www.weather.gov.ky/` | Hurricane / tropical-storm forecasts |
 | **gov.ky — Hurricane Ivan impact review (PDF)** | `https://gov.ky/documents/35692/0/The+Impact+of+Hurricane+Ivan+on+Grand+Cayman.pdf` | The Ivan 2004 baseline catastrophe |
 | **US National Hurricane Center (NHC)** | `https://www.nhc.noaa.gov/` | Atlantic basin authoritative |
@@ -334,7 +334,7 @@ Governed by the **Stamp Duty Act (2019 Revision)** + subordinate **Stamp Duty (R
 
 ### Flood / storm surge
 
-- **Grand Cayman is a low-lying limestone island** — **storm surge + rainfall flooding are the dominant flood risks**. Check the parcel's elevation + surge-zone mapping ([Lands & Survey](https://www.caymanlandinfo.ky/) / [HMCI](https://www.caymanprepared.gov.ky/)).
+- **Grand Cayman is a low-lying limestone island** — **storm surge + rainfall flooding are the dominant flood risks**. Check the parcel's elevation + surge-zone mapping ([Lands & Survey](https://www.caymanlandinfo.ky/) / [HMCI](https://www.gov.ky/web/hmci)).
 - **Sea-level rise / coastal erosion** on beachfront parcels (long-term — see `--climate`; up to a third of Grand Cayman's current land mass projected below the 2050 high-tide mark per a Cayman Compass-cited projection — secondary).
 
 ### Seismic — background Caribbean risk
@@ -573,7 +573,7 @@ See **Foreign buyer eligibility** above — **buying property does NOT confer re
 ## Common listing platforms
 
 - **CIREBA (broker MLS)** — `https://www.cireba.com/`
-- **Cayman Islands Sotheby's International Realty** — `https://www.sircayman.com/`
+- **Cayman Islands Sotheby's International Realty** — `https://www.sothebysrealty.ky/`
 - **ERA Cayman Islands** — `https://www.eracayman.com/`
 - **RE/MAX Cayman** — `https://www.remax.ky/`
 - **Provenance Properties (Christie's)** — `https://www.provenanceproperties.com/`
@@ -647,7 +647,7 @@ See **Foreign buyer eligibility** above — **buying property does NOT confer re
 | Economics & Statistics Office (population/economy) | `https://www.eso.ky/` |
 | WORC — Workforce Opportunities & Residency Cayman | `https://www.worc.ky/` |
 | Royal Cayman Islands Police Service — crime statistics | `https://www.rcips.ky/crime-statistics` |
-| Hazard Management Cayman Islands | `https://www.caymanprepared.gov.ky/` |
+| Hazard Management Cayman Islands | `https://www.gov.ky/web/hmci` |
 | Cayman Islands National Weather Service | `https://www.weather.gov.ky/` |
 | Health Services Authority | `https://www.hsa.ky/` |
 | World Bank Climate Knowledge Portal — Cayman SLR | `https://climateknowledgeportal.worldbank.org/country/cayman-islands/sea-level-projections` |

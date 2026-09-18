@@ -254,7 +254,7 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 - **MyJob.am** / **Job.am** — long-running general boards
 - **HR.am**, **CareerCenter.am** — HR/recruiter-driven
 - **LinkedIn Armenia** — active in IT, finance, BPO, NGO, diaspora-cross-border roles
-- **Employment Agency of the Republic of Armenia (`Ashkhatank'i parteti petakan gortsakalut'yun`)**: `https://employment.am/` — official labour portal, vacancy register
+- **Employment Agency of the Republic of Armenia (`Ashkhatank'i parteti petakan gortsakalut'yun`)**: `https://mlsa.am` — official labour portal, vacancy register
 
 ### Self-employment regimes (foreigners eligible with valid residence)
 
@@ -301,10 +301,10 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 
 | Source | URL | What it gives |
 |---|---|---|
-| **National Survey for Seismic Protection (NSSP)** | `https://www.nssp-gov.am/` | Seismic hazard maps, microzoning, building-code calibration |
-| **Ministry of Emergency Situations (`Artakargi Iravichak'neri Nakhararut'yun`)** | `https://www.mes.am/` | Operational hazard data, evacuation, fire/flood/earthquake response |
+| **National Survey for Seismic Protection (NSSP)** | `https://mia.gov.am` | Seismic hazard maps, microzoning, building-code calibration |
+| **Ministry of Emergency Situations (`Artakargi Iravichak'neri Nakhararut'yun`)** | `https://mia.gov.am` | Operational hazard data, evacuation, fire/flood/earthquake response |
 | **Hydromet Service** (under Ministry of Environment) | `https://www.armmonitoring.am/` | Weather, flood warnings, climate baseline |
-| **Ministry of Environment** | `https://www.mnp.am/` | Environmental risk reports, NDC, climate strategy |
+| **Ministry of Environment** | `https://environment.gov.am/en/` | Environmental risk reports, NDC, climate strategy |
 | **Geological Survey of Armenia** (under Ministry of Territorial Administration) | via mtad.am | Geological maps, landslide registry |
 | **Public Services Regulatory Commission (PSRC)** | `https://www.psrc.am/` | Energy/utility safety regulation |
 | **Yerevan Municipality (seismic-microzoning maps)** | `https://www.yerevan.am/` | Yerevan-specific microzoning per NSSP–municipal collaboration |
@@ -393,7 +393,7 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 ### National database
 
 - **PSRC (Public Services Regulatory Commission)**: `https://www.psrc.am/` — utility tariffs (electricity, gas, water + sewer where regulated)
-- **Veolia Jur** (Veolia Water — Yerevan + ~70% of Armenia urban water): `https://www.veoliajur.am/` — Yerevan + most marzes water + sewer operator post-2017 concession
+- **Veolia Jur** (Veolia Water — Yerevan + ~70% of Armenia urban water): `https://www.veolia.am/en` — Yerevan + most marzes water + sewer operator post-2017 concession
 - **Electric Networks of Armenia (ENA)**: `https://www.ena.am/` — electricity distribution nationwide (single distributor, Tashir Group ownership post-2015)
 - **Gazprom Armenia** (`Gazprom Armenia` / formerly ArmRosGazprom): `https://armenia-am.gazprom.com/` — gas distribution (Russia-owned, geopolitically scrutinised — see post-2022 caveats)
 - **Yerevan Jermamatakararum** (district heating): limited residual DH service post-Soviet; most Yerevan apartments now individual gas boilers
@@ -1029,7 +1029,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 | ARMSTAT Statistics | `https://armstat.am/en/` |
 | Notarial Chamber | (verify current at justice.am) |
 | PSRC Energy Regulator | `https://www.psrc.am/` |
-| Veolia Jur | `https://www.veoliajur.am/` |
+| Veolia Jur | `https://www.veolia.am/en` |
 | ENA Electric | `https://www.ena.am/` |
 | Gazprom Armenia | `https://armenia-am.gazprom.com/` |
 | Tourism / Investment | `https://invest.am/` |
@@ -1039,9 +1039,9 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 | Estate.am | `https://www.estate.am/` |
 | MTAI / State Roads | `https://www.mtad.am/en/` |
 | Hydromet Service | `https://www.armmonitoring.am/` |
-| Ministry of Emergency Situations | `https://www.mes.am/` |
-| NSSP Seismic Protection | `https://www.nssp-gov.am/` |
-| Ministry of Environment | `https://www.mnp.am/` |
+| Ministry of Emergency Situations | `https://mia.gov.am` |
+| NSSP Seismic Protection | `https://mia.gov.am` |
+| Ministry of Environment | `https://environment.gov.am/en/` |
 | Police statistics | `https://www.police.am/` |
 | Yerevan Municipality | `https://www.yerevan.am/` |
 | Government portal | `https://www.gov.am/` |

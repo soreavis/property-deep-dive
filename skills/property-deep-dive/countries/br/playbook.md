@@ -13,7 +13,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
   - **Matrícula** = unique property ID (life-of-property record)
   - **CIB (Cadastro Imobiliário Brasileiro) "CPF dos Imóveis"** — national single property identifier, 7 alphanumeric characters + check digit. Instituted by **IN RFB 2.030/2021**; Sinter under **Decreto 11.208/2022**; notarial/registry adoption under **IN RFB 2.275/2025**. **In force from Jan 2026** for federal administration, notarial/registry services and state capitals + DF (LC 214/2025 art. 266 I — 12-month deadline); **state administration + all remaining municipalities from Jan 2027** (art. 266 II — 24 months). Inscription is mandatory for all urban and rural properties and BICE (art. 265), but per the Receita Federal FAQ only urban properties in capitals/DF are obliged during 2026 — other municipalities from Jan 2027; all rural properties must already hold a CIB (via CNIR/Cafir). **Does NOT replace the cartórios** — deeds, land registration and certificate issuance stay with the cartórios, and cadastre upkeep stays with prefeituras (urban) / INCRA (rural); cartórios and municipalities must merely carry the CIB code in their documents (2026 data, 2026-08-07 verified, source: [Receita Federal CIB FAQ](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/cadastros/cib) + Planalto LC 214/2025)
   - **SINTER** (Sistema Nacional de Gestão de Informações Territoriais)
-  - **INCRA** (`https://www.incra.gov.br/`) — rural land registry
+  - **INCRA** (`https://www.gov.br/incra/pt-br`) — rural land registry
 - **Identifier**: matrícula (per-cartório); CIB (national, rolling out)
 - **Foreign buyer needs CPF** before any transaction
 - **Ownership types**: pleno domínio (full); usufruct; multipropriedade (timeshare, Lei 13.777/2018)
@@ -75,7 +75,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Sources
 
-- **DNIT (Departamento Nacional de Infraestrutura)**: `https://www.dnit.gov.br/` — federal highways (BR-roads)
+- **DNIT (Departamento Nacional de Infraestrutura)**: `https://www.gov.br/dnit/pt-br` — federal highways (BR-roads)
 - **DERSP (SP), DER-RJ, DER-MG, etc.** — state-level
 - **CET-SP, RioCard** — city traffic data
 
@@ -225,7 +225,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|---|
 | **CEMADEN** | `https://www.cemaden.gov.br/` | Flood + landslide early warning (Decreto 7513/2011) |
 | **CPRM (Serviço Geológico do Brasil)** | `https://www.cprm.gov.br/` | Geology, geological hazards |
-| **INMET** | `https://www.inmet.gov.br/` | Weather, climate |
+| **INMET** | `https://portal.inmet.gov.br/` | Weather, climate |
 | **IBAMA** | `https://www.ibama.gov.br/` | Environmental |
 | **ANA (Agência Nacional de Águas)** | `https://www.ana.gov.br/` | Water management |
 
@@ -399,9 +399,9 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 | IBGE | `https://www.ibge.gov.br/` |
 | CEMADEN | `https://www.cemaden.gov.br/` |
 | CPRM | `https://www.cprm.gov.br/` |
-| INMET | `https://www.inmet.gov.br/` |
+| INMET | `https://portal.inmet.gov.br/` |
 | ANA | `https://www.ana.gov.br/` |
-| INCRA | `https://www.incra.gov.br/` |
+| INCRA | `https://www.gov.br/incra/pt-br` |
 | Receita Federal — CIB FAQ | `https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/cadastros/cib` |
 | Receita Federal (CIB/SINTER) | `https://www.gov.br/receitafederal/` |
 | ONR (cartório integration) | `https://www.onr.org.br/` |

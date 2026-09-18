@@ -252,7 +252,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 | Source | URL | What it gives |
 |---|---|---|
 | **EPPO / OASP** (Earthquake Planning & Protection Organization) | `https://oasp.gr` | Seismic policy, code |
-| **HSGME** (formerly IGME) — Hellenic Survey of Geology and Mineral Exploration | `https://www.hsgme.gr` | Geology, faults, **active faults DB**: `https://activefaults.eagme.gr/en/` |
+| **HSGME** (formerly IGME) — Hellenic Survey of Geology and Mineral Exploration | `https://www.eagme.gr/` | Geology, faults, **active faults DB**: `https://activefaults.eagme.gr/en/` |
 | **Civil Protection** | `https://civilprotection.gov.gr/en/xartis` | **Daily fire risk map** May–Oct |
 | **NOA** (National Observatory of Athens) | `http://hl-ntwc.gein.noa.gr/en/` | **Tsunami warnings**, seismicity |
 | **ISMOSAV** (Santorini Volcano Monitoring Institute) | per NOA | Santorini + Kolumbo monitoring |

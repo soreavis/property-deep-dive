@@ -40,7 +40,7 @@ Cyprus is a **divided island**: SOUTH = Republic of Cyprus (RoC), EU+eurozone si
 | Bazaraki | https://www.bazaraki.com/ | #1 by listing volume (cars+property+jobs) |
 | Sale.com.cy | https://www.sale.com.cy/ ❌ DEPRECATED — primary source removed; verify with Department of Lands and Surveys, Cyprus (https://portal.dls.moi.gov.cy/) | Property + cars/general |
 | Cyprus Property Pal | https://www.cypruspropertypal.com/ | Dedicated property aggregator |
-| RealEstate.com.cy | https://www.realestate.com.cy/ | Premium-positioned |
+| RealEstate.com.cy | https://www.realestate.com.cy/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Premium-positioned |
 | DOM | https://dom.com.cy/ | Russian-tinge, popular with CIS buyers |
 
 **Verdict bands**:
@@ -130,7 +130,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 ### STR / Airbnb — Hermes register
 
 **National Register of Self-Service Accommodation** (legacy "Hermes" IT system; now under Min of Tourism — Deputy Ministry restructured into MECI/Tourism portfolio):
-- Entry: https://hermes.deputyministrytourism.gov.cy/ (redirects to https://www.gov.cy/tourism/)
+- Entry: https://www.gov.cy/tourism/ (redirects to https://www.gov.cy/tourism/)
 - **Legal basis**: Law 34(I)/2019 as amended 2020
 - **Mandatory registration since 6 Feb 2023** for any self-catering accommodation
 - **Fee**: €222, valid 3 years
@@ -164,7 +164,7 @@ Limassol financial-services + tech relocation hub (post-Wirecard/CySEC migration
 ### Flood
 - **Pedieos River (Nicosia)** — Basin 10 — highest flood risk basin (38+ historical events since 1960); major events 2010 + 2014 inundated hospitals, schools, intercity roads in northern Nicosia
 - **Coastal**: Larnaca Airport, Vasilikos/Dhekelia power stations, Larnaca/Paphos desalination plants in low-lying surge zones
-- **Map authority**: Civil Defence (https://civildefence.com.cy/en/floodmaps/) + WDD (Water Development Department)
+- **Map authority**: Civil Defence (https://www.gov.cy/moa-wdd/) + WDD (Water Development Department)
 
 ### Wildfire — CRITICAL & WORSENING
 
@@ -328,7 +328,7 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 | MECI (Energy/Commerce/Industry) | gov.cy/meci | https://www.gov.cy/meci/ |
 | EAC electricity | EAC | https://www.eac.com.cy/ |
 | EPC authority (BFU) | MECI | https://bfu.meci.gov.cy/en/energy-performance-certificates/ |
-| Civil Defence flood | gov | https://civildefence.com.cy/en/floodmaps/ |
+| Civil Defence flood | gov | https://www.gov.cy/moa-wdd/ |
 | KEDIPES (state asset manager) | KEDIPES | https://kedipes.com.cy/ |
 
 ---

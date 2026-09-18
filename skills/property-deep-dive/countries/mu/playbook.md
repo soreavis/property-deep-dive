@@ -73,7 +73,7 @@ The **Pas Géométriques** are the State's coastal reserve, fixed by colonial-er
   - **Scope**: per the EDB FAQ the amendments apply to a **first sale only** (resales out of scope) and **NOT to Ground+2 apartments**. The test is a **sales deed signed on or after 13 Dec 2024**; pre-13-Dec deeds with VEFA tranche payments still falling due are treated separately in the FAQ — confirm the exact wording with the notary.
   - **Implication**: the forced-MUR 85 % leg puts an on-shore FX-conversion spread on the **full purchase price**, not on a slice of it — a fixed transaction friction to price into the deal.
   - Rule still carried in EDB's current IRS/RES/PDS Guidelines and no repealing amendment found (2026-08-07 verified, sources: [EDB FAQ — Amendments to Property Regulations](https://edbmauritius.org/wp-content/uploads/2025/03/FAQ-Amendments-to-Property-Regulations.pdf); [EDB Newsroom — Amendments to IRS/RES/IHS/PDS/SCS Regulations](https://edbmauritius.org/newsroom/amendments-to-irs-res-ihs-pds-and-scs-regulations)). Earlier "Feb 2025" dating of these amendments was the FAQ explainer's own stamp, not the amendments' commencement.
-- **Brief 2024 window now closed — USD 500k+ outside-scheme purchase right**: a December 2023 amendment to the **Non-Citizens (Property Restriction) Act** allowed residence-permit holders to acquire residential property OUTSIDE EDB schemes if the price exceeded **USD 500,000**. **Abolished by Finance Act 2025** (gazetted 9 Aug 2025); scheme-only / G+2-or-R+2 rule is now absolute again. The window of viability ran ~late 2023 → mid-2025. **Any 2024-vintage advisory citing the USD 500k outside-scheme route is now stale** (2026-05-27 verified, source: [KPMG SA Tax Alert 95](https://assets.kpmg.com/content/dam/kpmg/za/pdf/2025/tax-alert%2095-changes-to-residency-and-property-ownership-rules-post-the-finance-act-2025.pdf)).
+- **Brief 2024 window now closed — USD 500k+ outside-scheme purchase right**: a December 2023 amendment to the **Non-Citizens (Property Restriction) Act** allowed residence-permit holders to acquire residential property OUTSIDE EDB schemes if the price exceeded **USD 500,000**. **Abolished by Finance Act 2025** (gazetted 9 Aug 2025); scheme-only / G+2-or-R+2 rule is now absolute again. The window of viability ran ~late 2023 → mid-2025. **Any 2024-vintage advisory citing the USD 500k outside-scheme route is now stale** (2026-05-27 verified, source: [KPMG SA Tax Alert 95](https://edbmauritius.org/real-estate-hospitality)).
 
 ### Confidence
 
@@ -171,7 +171,7 @@ The **Pas Géométriques** are the State's coastal reserve, fixed by colonial-er
 
 - **Port Louis CBD congestion**: peak-hour gridlock on M1 entry is severe (07:30–09:00 + 16:30–18:30); commute times from north (Grand Baie → Port Louis) routinely 90 min in traffic for a 25 km drive
 - **Cyclone-class warnings stop traffic**: under Class III–IV warnings (see `--risks`), the entire road network is effectively closed; supermarkets close; 2–3 days of disruption per cyclone event
-- **Metro Express tramway** (Port Louis–Curepipe, opened 2019, extension to Côte d'Or 2023+; future extensions Q2 2026 onward) — `https://metroexpress.mu/` — pulls some commute traffic but adds a noise-+vibration corridor 50 m around alignment in southern Plaines Wilhems
+- **Metro Express tramway** (Port Louis–Curepipe, opened 2019, extension to Côte d'Or 2023+; future extensions Q2 2026 onward) — `https://mauritiusmetroexpress.mu/` — pulls some commute traffic but adds a noise-+vibration corridor 50 m around alignment in southern Plaines Wilhems
 - **Sugar-cane harvest (June–December)**: rural lanes near sugar estates see slow tractor-train traffic; not dangerous but slow
 - **Public-bus network**: dense but slow; 4 main operators (NTC, RHT, UBS, TBS); private *contract bus* + *ride-hail* (Yango, In-drive, Heetch) common in cities
 
@@ -602,11 +602,11 @@ Mauritius sits in the **South-West Indian Ocean cyclone belt**. The MMS issues f
 | **FSC (Financial Services Commission)** | GBL / AC / fund licensing | `https://www.fscmauritius.org/` |
 | **Local council (municipal/district)** | Building & Land Use Permit, general rate, zoning | (council-specific) |
 | **Cadastral Unit, Ministry of Housing** | PIN + cadastral plan | `https://housing.govmu.org/` |
-| **Notarial profession (Chambre des Notaires)** | Notary directory + fee barème | `https://chambredesnotaires.mu/` |
+| **Notarial profession (Chambre des Notaires)** | Notary directory + fee barème | `https://notairemaurice.org/` |
 | **Land Drainage Authority** | Flood-prone zones, drainage plans | `https://lda.govmu.org/` |
 | **Ministry of Environment** | EIA, PER, coastal sensitivity | `https://environment.govmu.org/` |
 | **Ministry of Finance** | Gazetted Acts, Budget documents | `https://mof.govmu.org/` |
-| **Mauritius Standards Bureau** | Building / wind-load codes | `https://msb.govmu.org/` |
+| **Mauritius Standards Bureau** | Building / wind-load codes | `https://msb.intnet.mu/Pages/index.aspx` |
 
 ---
 

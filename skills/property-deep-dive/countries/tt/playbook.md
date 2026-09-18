@@ -541,7 +541,7 @@ T&T offers **no investment-linked or property-linked residency route** and **no 
 
 - **Terra Caribbean Trinidad** — `https://www.terracaribbean.com/` (also the most-cited market-report source)
 - **Massy Realty (T&T)** — agency listings + foreign-buyer guidance
-- **RE/MAX Trinidad & Tobago** — `https://www.remax.tt/`
+- **RE/MAX Trinidad & Tobago** — `https://remax-elite-tt.com/`
 - **Keyphoria / Veridian Realty / Fitzwilliam Stone (conveyancing + listings)** — agency + legal restatements
 - **Trinidad & Tobago classifieds (TriniTuner, local newspaper property sections)** — secondary aggregator
 - **Global Property Guide / Numbeo** — secondary aggregators (per-m² / yield context only; label as aggregator-derived)

@@ -141,7 +141,7 @@ MEDIUM — asking-price listings are abundant, but **transaction-verified price 
 
 ### Primary sources
 
-- **General Authority for Roads, Bridges and Land Transport (GARBLT)** — `https://garblt.gov.eg/` — national highway network operator; publishes annual traffic flow summaries for tolled highways (Cairo–Alexandria Desert Road, Cairo–Suez, Cairo–Sokhna, regional ring roads)
+- **General Authority for Roads, Bridges and Land Transport (GARBLT)** — `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — national highway network operator; publishes annual traffic flow summaries for tolled highways (Cairo–Alexandria Desert Road, Cairo–Suez, Cairo–Sokhna, regional ring roads)
 - **Ministry of Transport** — `https://mot.gov.eg/` — sectoral statistics
 - **CAPMAS Transport & Communications Yearbook** — `https://www.capmas.gov.eg/` — annual: vehicle registrations by governorate, road km by class, accident statistics
 - **Cairo Traffic Control Center / Cairo Governorate** — operational, NOT public-data
@@ -343,7 +343,7 @@ MEDIUM — wage benchmarks shift rapidly with EGP volatility; verify current USD
 | Source | URL | What it gives |
 |---|---|---|
 | **National Authority for Remote Sensing & Space Sciences (NARSS)** | `https://www.narss.sci.eg/` | National hazard mapping, flood + landslide layers (some restricted) |
-| **Egyptian Meteorological Authority (EMA)** | `https://ema.gov.eg/` | Weather, sandstorm warnings |
+| **Egyptian Meteorological Authority (EMA)** | `http://ema.gov.eg/` | Weather, sandstorm warnings |
 | **National Research Institute of Astronomy and Geophysics (NRIAG)** | `https://www.nriag.sci.eg/` | Seismic monitoring; Egyptian National Seismic Network |
 | **CAPMAS environment statistics** | `https://www.capmas.gov.eg/` | Air quality, water quality aggregates |
 | **WHO Global Air Quality** (external) | `https://www.who.int/data/gho/data/themes/air-pollution` | Cairo PM2.5 benchmarks |
@@ -422,7 +422,7 @@ MEDIUM — wage benchmarks shift rapidly with EGP volatility; verify current USD
 ### National framework
 
 - **Holding Company for Water and Wastewater (HCWW — الشركة القابضة لمياه الشرب والصرف الصحي)** — `https://www.hcww.com.eg/` — national umbrella for ~26 governorate water + wastewater subsidiaries
-- **Ministry of Housing, Utilities and Urban Communities** — `https://mohue.gov.eg/` — national policy + NAC, North Coast urban development zones
+- **Ministry of Housing, Utilities and Urban Communities** — `https://mhuc.gov.eg/` — national policy + NAC, North Coast urban development zones
 - **Egyptian Water Regulatory Agency (EWRA)** — sector regulator
 
 ### Major operators (by area)
@@ -485,7 +485,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 
 ## Active fiscal incentives (2025–2026)
 
-- **NAC (New Administrative Capital)** — `https://acud.gov.eg/` — government-backed mega-project; tax incentives for early investors; planned capital relocation; **delivery + occupancy risk** still material
+- **NAC (New Administrative Capital)** — `https://acud.eg` — government-backed mega-project; tax incentives for early investors; planned capital relocation; **delivery + occupancy risk** still material
 - **Suez Canal Economic Zone (SCZone)** — `https://sczone.eg/` — special economic zone with industrial/commercial tax benefits (NOT residential foreign-buyer focused)
 - **Red Sea Riviera (Galala, Sokhna, Ras Banas, Marsa Alam expansions)** — government tourism+real-estate development zones; foreign buyer freehold OK on mainland (NOT Sinai-side)
 - **Golden License** under **Investment Law 72/2017 as amended by Law 160/2023** — single-window approval for large investment projects (typically corporate, not individual residential CBI) (2026-05-27 verified)
@@ -576,16 +576,16 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 | CAPMAS (statistics) | `https://www.capmas.gov.eg/` |
 | GAFI (Investment Law 160/2023, RBI/CBI) | `https://www.gafi.gov.eg/` |
 | GAFI English investor portal | `https://www.gafi.gov.eg/english/Pages/default.aspx` |
-| Ministry of Housing (MoHUE) | `https://mohue.gov.eg/` |
-| ACUD (NAC developer/manager) | `https://acud.gov.eg/` |
+| Ministry of Housing (MoHUE) | `https://mhuc.gov.eg/` |
+| ACUD (NAC developer/manager) | `https://acud.eg` |
 | Suez Canal Economic Zone | `https://sczone.eg/` |
-| Tourism Development Authority (TDA) | `https://tda.gov.eg/` |
+| Tourism Development Authority (TDA) | `https://www.tda.gov.eg/` |
 | HCWW (water + wastewater holding) | `https://www.hcww.com.eg/` |
-| GARBLT (roads + land transport) | `https://garblt.gov.eg/` |
+| GARBLT (roads + land transport) | `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | Ministry of Transport | `https://mot.gov.eg/` |
 | Ministry of Manpower (work permits) | `https://www.manpower.gov.eg/` |
 | NARSS (remote sensing, hazard mapping) | `https://www.narss.sci.eg/` |
-| EMA (meteorology) | `https://ema.gov.eg/` |
+| EMA (meteorology) | `http://ema.gov.eg/` |
 | NRIAG (seismic + astronomy) | `https://www.nriag.sci.eg/` |
 | IDA (Industrial Development Authority) | `https://www.ida.gov.eg/` |
 | Property Finder Egypt | `https://www.propertyfinder.eg/` |

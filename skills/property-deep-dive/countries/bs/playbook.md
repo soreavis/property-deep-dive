@@ -101,7 +101,7 @@ The Bahamas operates an **Economic Permanent Residence (EPR)** route administere
 
 ### Listing platforms
 
-- **MLS Bahamas** — Bahamas Real Estate Association multiple listing service: `https://www.mlsbahamas.com/`
+- **MLS Bahamas** — Bahamas Real Estate Association multiple listing service: `https://www.breabahamas.com/mls/`
 - **Bahamas Realty**: `https://www.bahamasrealty.com`
 - **HG Christie**: `https://www.hgchristie.com/` (long-established; high-end + Family Islands strong)
 - **Coldwell Banker Lightbourn Realty Bahamas**: regional Coldwell Banker franchise
@@ -428,7 +428,7 @@ The Bahamas is **not a primary local-employment destination** for most foreign b
 | Source | URL | What it gives |
 |---|---|---|
 | **Bahamas Department of Meteorology** | `https://www.bahamasweather.org.bs/` | Hurricanes, tropical storms, rainfall, drought |
-| **National Emergency Management Agency (NEMA)** | `https://www.nema.gov.bs/` | Hurricane plans, shelters, evacuation, alerts |
+| **National Emergency Management Agency (NEMA)** | `https://drm.gov.bs/` | Hurricane plans, shelters, evacuation, alerts |
 | **Bahamas Building Code (BBC)** — Ministry of Works | `http://www.bahamas.gov.bs/works` | Wind/seismic code compliance |
 | **US National Hurricane Center (NHC)** | `https://www.nhc.noaa.gov/` | Atlantic basin authoritative; primary regional reference |
 | **Department of Lands and Surveys / Coast Protection** | DLS | Coastal setback + erosion |
@@ -666,9 +666,9 @@ HIGH for IPCC AR6 + CCCCC regional projections; MEDIUM for parcel-level storm-su
   - **Royal Bank of Canada (RBC) Caribbean** — `https://www.rbcroyalbank.com/caribbean/`
   - **Scotiabank Bahamas** — `https://bs.scotiabank.com/`
   - **CIBC FirstCaribbean International Bank** — `https://www.cibcfcib.com/`
-  - **Bank of The Bahamas** — `https://www.bankbahamasonline.com/`
+  - **Bank of The Bahamas** — `https://www.bankbahamas.com/`
   - **Commonwealth Bank** — `https://www.combankltd.com/`
-  - **Fidelity Bank Bahamas** — `https://www.fidelitybahamas.com/`
+  - **Fidelity Bank Bahamas** — `https://www.fidelitygroup.com/`
 
 ### LTV + tenor
 
@@ -770,7 +770,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 
 ## Common listing platforms
 
-- **MLS Bahamas** (Bahamas Real Estate Association MLS) — `https://www.mlsbahamas.com/`
+- **MLS Bahamas** (Bahamas Real Estate Association MLS) — `https://www.breabahamas.com/mls/`
 - **Bahamas Realty** — `https://www.bahamasrealty.com`
 - **HG Christie** — `https://www.hgchristie.com/`
 - **Damianos Sotheby's International Realty**
@@ -846,7 +846,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 | Registrar General's Department | `https://www.bahamas.gov.bs/` |
 | Department of Immigration | `https://www.bahamas.gov.bs/` |
 | Bahamas Department of Meteorology | `https://www.bahamasweather.org.bs/` |
-| National Emergency Management Agency | `https://www.nema.gov.bs/` |
+| National Emergency Management Agency | `https://drm.gov.bs/` |
 | Royal Bahamas Police Force | `https://www.royalbahamaspolice.org/` |
 | Insurance Commission of The Bahamas | `https://www.icb.gov.bs/` |
 | Water and Sewerage Corporation | `https://www.wsc.com.bs/` |
@@ -854,7 +854,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 | Grand Bahama Port Authority | `https://www.gbpa.com/` |
 | US National Hurricane Center (Atlantic basin) | `https://www.nhc.noaa.gov/` |
 | Climate Central Coastal Risk Screening Tool | `https://coastal.climatecentral.org/` |
-| MLS Bahamas | `https://www.mlsbahamas.com/` |
+| MLS Bahamas | `https://www.breabahamas.com/mls/` |
 | HG Christie | `https://www.hgchristie.com/` |
 | Bahamas Realty | `https://www.bahamasrealty.com` |
 | Bahamas laws portal (official) | `http://laws.bahamas.gov.bs/` |

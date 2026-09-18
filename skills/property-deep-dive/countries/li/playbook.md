@@ -13,8 +13,8 @@ ISO2: `li`. Status: ✅ Fully populated (researched 2026-05).
   - **~34% foreign nationals** (Swiss, Austrian, German dominant)
 - **Currency**: **CHF** (Swiss franc) — currency union with Switzerland under the Customs and Currency Treaty 1923 (Zollvertrag 1923 + Währungsvertrag 1980); SNB monetary policy applies; **no Liechtenstein franc**
 - **Language**: German (official); spoken language is **Alemannic dialect** (Liechtensteinerdeutsch) — close to St. Galler / Vorarlberger; written = Hochdeutsch
-- **Cadastre**: **Liegenschaftsregister (LREG)** + **Grundbuch** at the **Grundbuch- und Öffentlichkeitsregisteramt (GBORA)** — `https://www.gbora.li/`
-  - **Land-use viewer**: `https://www.geodaten.llv.li/` (Geodatenportal Liechtenstein)
+- **Cadastre**: **Liegenschaftsregister (LREG)** + **Grundbuch** at the **Grundbuch- und Öffentlichkeitsregisteramt (GBORA)** — `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-`
+  - **Land-use viewer**: `https://service.geo.llv.li/` (Geodatenportal Liechtenstein)
 - **Identifier**: Parzellennummer + Gemeinde
 - **Memberships**: **EEA** (since 1995), **Schengen** (since 2011), **EFTA**; **NOT in EU**, NOT in Swiss customs union for goods (Liechtenstein is in EEA single market with CH bilateral overlay)
 - **Ownership types**: **Eigentum** (freehold), **Stockwerkeigentum** (condominium under Sachenrecht / SR), **Baurecht** (leasehold ground right)
@@ -30,7 +30,7 @@ ISO2: `li`. Status: ✅ Fully populated (researched 2026-05).
   - Statistisches Jahrbuch (Yearbook) annual: `https://www.llv.li/de/landesverwaltung/amt-fuer-statistik/publikationen-as` (verify exact URL — page restructured 2024)
 - **Liechtensteinische Landesbank (LLB) Marktanalyse**: `https://www.llb.li/` — bank publishes occasional Liechtenstein real-estate notes (institutional, not free index)
 - **VP Bank Research**: `https://www.vpbank.com/` — wealth-manager market views
-- **GBORA / Grundbuchamt**: `https://www.gbora.li/` — paid Auszug (Grundbuchauszug) for individual parcel sale-price extracts; **no public sale-price API**
+- **GBORA / Grundbuchamt**: `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-` — paid Auszug (Grundbuchauszug) for individual parcel sale-price extracts; **no public sale-price API**
 - **Cross-reference Swiss data** (St. Galler Rheintal + Werdenberg): Wüest Partner, Comparis, Homegate often used as proxy because catchment is contiguous and price levels track Sarganserland / Werdenberg ±10%
 
 > ⚠️ Liechtenstein does NOT publish a Statistik-Austria-equivalent Häuserpreisindex at quarterly frequency. Aggregate price benchmarks below are **est.** based on cross-border comparables + reported Verkaufsfälle in Statistisches Jahrbuch + sampled listings on homegate.li and llb.li/immo. Verify any specific deal via GBORA Grundbuchauszug.
@@ -75,7 +75,7 @@ ISO2: `li`. Status: ✅ Fully populated (researched 2026-05).
 - **Amt für Bau und Infrastruktur (ABI)**: `https://www.llv.li/de/landesverwaltung/abi` — operates Liechtenstein road network + traffic counts (Verkehrszählungen)
   - Verkehrsdaten viewer linked from ABI; granularity is per-counting-station, ~30 permanent + rotating stations
 - **Cross-border**: Vorarlberg Land Tirol (`https://vmobil.at/` AT side), Kanton St. Gallen Tiefbauamt CH side — Liechtenstein commuter traffic spills onto adjacent Swiss/Austrian arterials
-- **Geodatenportal**: `https://www.geodaten.llv.li/` — road class layer
+- **Geodatenportal**: `https://service.geo.llv.li/` — road class layer
 - **OSM `highway` class** as universal fallback
 
 ### Key term
@@ -120,7 +120,7 @@ Sollertrag is added to taxable INCOME and taxed under Erwerbssteuer
 
 - **Handänderungsabgabe (transfer fee)**: nominally **1.0%** of purchase price for residential, paid by buyer (or split per contract); Gemeinden may set own rate but typical practice is 1.0% — verify per Gemeinde
   - Some Gemeinden levy partial fee 0.5%; **always confirm with the Gemeindesteueramt** of the property's commune
-- **Grundbuch-Eintragungsgebühr (registration fee)**: per GBORA tariff — small fixed component + ad-valorem; typically <0.5% of price (verify current Tarif at `https://www.gbora.li/`)
+- **Grundbuch-Eintragungsgebühr (registration fee)**: per GBORA tariff — small fixed component + ad-valorem; typically <0.5% of price (verify current Tarif at `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-`)
 - **Notar / Rechtsanwalt**: notarial deed is **NOT mandatory** for property transfer in Liechtenstein (unlike CH/AT/DE). Sale contract can be private (Schriftlichkeitsgebot per § 481 ABGB-LI / Sachenrecht), then submitted to GBORA. **A Rechtsanwalt is in practice always engaged** for drafting + GVG application — fees typically 0.5–1.5% of price; regulated by Liechtensteiner Rechtsanwaltskammer schedule (`https://www.lirak.li/`)
 - **Maklerprovision**: typically 2–3% (often seller-paid, no Bestellerprinzip statute as in AT/CH) — verify in Mäklervertrag
 
@@ -216,7 +216,7 @@ Sollertrag is added to taxable INCOME and taxed under Erwerbssteuer
 | Source | URL | What it gives |
 |---|---|---|
 | **Amt für Bevölkerungsschutz (ABS)** | `https://www.llv.li/de/landesverwaltung/abs` | Civil protection, hazard mapping coordination |
-| **Geodatenportal** | `https://www.geodaten.llv.li/` | Gefahrenkarten Hochwasser / Lawinen / Rutschungen layers |
+| **Geodatenportal** | `https://service.geo.llv.li/` | Gefahrenkarten Hochwasser / Lawinen / Rutschungen layers |
 | **Hochwasserschutz Rhein (IRR)** — Internationale Rheinregulierung | `https://www.rheinregulierung.org/` | Rhine flood-risk + dyke programme (CH/AT/LI joint) |
 | **MeteoSwiss** (Liechtenstein has no national met office) | `https://www.meteoswiss.admin.ch/` | Climate, precipitation, wind |
 | **SED (Schweizerischer Erdbebendienst, ETH Zürich)** | `https://www.seismo.ethz.ch/` | Seismic hazard — covers LI as part of CH catalog |
@@ -446,7 +446,7 @@ For nearly all international buyers without an existing Liechtenstein residence 
 
 | Authority | When to call |
 |---|---|
-| **Grundbuch- und Öffentlichkeitsregisteramt (GBORA)** | Title verification, encumbrances — `https://www.gbora.li/` |
+| **Grundbuch- und Öffentlichkeitsregisteramt (GBORA)** | Title verification, encumbrances — `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-` |
 | **Grundverkehrskommission (GVK)** | GVG approval (foreign-buyer feasibility) |
 | **Ausländer- und Passamt (APA)** | Residence permits / quotas — `https://www.llv.li/de/landesverwaltung/apa` |
 | **Steuerverwaltung** | Vermögenssteuer / Sollertrag / Erwerbssteuer — `https://www.llv.li/de/landesverwaltung/steuerverwaltung` |
@@ -476,8 +476,8 @@ For nearly all international buyers without an existing Liechtenstein residence 
 
 | Source | URL pattern |
 |---|---|
-| GBORA Grundbuch | `https://www.gbora.li/` |
-| Geodatenportal | `https://www.geodaten.llv.li/` |
+| GBORA Grundbuch | `https://www.llv.li/de/landesverwaltung/amt-fuer-justiz/grundbuch-gb-` |
+| Geodatenportal | `https://service.geo.llv.li/` |
 | Statistik Liechtenstein | `https://www.llv.li/de/landesverwaltung/amt-fuer-statistik` |
 | Steuerverwaltung | `https://www.llv.li/de/landesverwaltung/steuerverwaltung` |
 | Amt für Bau und Infrastruktur | `https://www.llv.li/de/landesverwaltung/abi` |

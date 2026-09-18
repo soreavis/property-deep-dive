@@ -2,7 +2,7 @@
 
 ISO2: `vg`. Status: ✅ Fully populated (researched 2026-05-28).
 
-> **Critical framing — read first**: The British Virgin Islands (BVI) is a **British Overseas Territory** in the north-eastern Caribbean — self-governing under the Virgin Islands Constitution Order 2007, with the UK responsible for defence + external affairs and a Crown-appointed Governor. **NOT part of the UK or EU.** The currency is the **United States Dollar (USD)** — sole legal tender since 1959 (unusual for a UK territory), so **no exchange-rate risk for USD buyers**. The single most important foreign-buyer fact: a **non-Belonger** (foreign buyer) **cannot hold land without a Non-Belongers Land Holding Licence (NBLHL)** — a **Cabinet-granted, buyer-AND-property-specific, non-transferable licence** under the **Non-Belongers Land Holding Regulation Act (CAP.122)**. The licence must be obtained **before** the non-Belonger may hold land. Application fees are **USD 200 (individual) / USD 500 (company)** ([bvi.gov.vg](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence), verified 2026-05-28); government quotes an **8–12 week** processing time while practitioners report **3–5 months** and sale agreements commonly allow up to **12 months** to secure the licence. **Stamp duty on transfer**: **4% for a Belonger transferee, 12% for a non-Belonger transferee** — both computed on **the higher of purchase price or market value**. The 4% Belonger rate sits in the **Stamp Act (Stamps (Amendment) Act 2022)**; the **12% non-Belonger rate's statutory home is the Non-Belongers Land Holding Regulation Act (CAP.122)** — not the Stamps Act. **Tax regime is near-zero direct tax**: no income tax, no capital gains tax, no inheritance/estate tax, no corporation tax, no VAT/GST. Real-estate holding taxes are a **modest annual land tax** (expat: USD 50 for ≤½ acre / USD 150 for ≤1 acre / +USD 50 per extra acre) and an **annual house tax of 1.5% of the notional annual rental value** (per [bvi.gov.vg/content/property-tax](https://bvi.gov.vg/content/property-tax), verified 2026-05-28). Title runs on a **registered-land (Torrens-style) system** under the **Registered Land Act / Registered Land Ordinance 1970 (CAP.229)**, administered by the **Department of Land Registry**. The dispute forum is the **High Court of Justice (Virgin Islands)**, a division of the **Eastern Caribbean Supreme Court (ECSC)** — do not imply a standalone non-ECSC national apex court. **Dominant physical risk**: hurricanes — **Hurricane Irma made a direct Category-5 hit on 6 September 2017** (government: ~**70% of buildings** lost or damaged); post-Irma the official building-code posture targets **Cat-5-and-above** resilience, and **insurance is expensive and scarce**. **Confirm** NBLHL fees/timeline, the stamp-duty schedule, the land/house-tax tables, and post-2017 building-code compliance at primary sources **before any binding step**. Authoritative primary sources: **[Government of the Virgin Islands (bvi.gov.vg)](https://www.bvi.gov.vg/)**, **[Department of Land Registry](https://bvi.gov.vg/content/department-land-registry)**, **[Virgin Islands Laws Online (laws.gov.vg)](https://laws.gov.vg/)**, **[Eastern Caribbean Supreme Court (eccourts.org)](https://www.eccourts.org/)**.
+> **Critical framing — read first**: The British Virgin Islands (BVI) is a **British Overseas Territory** in the north-eastern Caribbean — self-governing under the Virgin Islands Constitution Order 2007, with the UK responsible for defence + external affairs and a Crown-appointed Governor. **NOT part of the UK or EU.** The currency is the **United States Dollar (USD)** — sole legal tender since 1959 (unusual for a UK territory), so **no exchange-rate risk for USD buyers**. The single most important foreign-buyer fact: a **non-Belonger** (foreign buyer) **cannot hold land without a Non-Belongers Land Holding Licence (NBLHL)** — a **Cabinet-granted, buyer-AND-property-specific, non-transferable licence** under the **Non-Belongers Land Holding Regulation Act (CAP.122)**. The licence must be obtained **before** the non-Belonger may hold land. Application fees are **USD 200 (individual) / USD 500 (company)** ([bvi.gov.vg](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence), verified 2026-05-28); government quotes an **8–12 week** processing time while practitioners report **3–5 months** and sale agreements commonly allow up to **12 months** to secure the licence. **Stamp duty on transfer**: **4% for a Belonger transferee, 12% for a non-Belonger transferee** — both computed on **the higher of purchase price or market value**. The 4% Belonger rate sits in the **Stamp Act (Stamps (Amendment) Act 2022)**; the **12% non-Belonger rate's statutory home is the Non-Belongers Land Holding Regulation Act (CAP.122)** — not the Stamps Act. **Tax regime is near-zero direct tax**: no income tax, no capital gains tax, no inheritance/estate tax, no corporation tax, no VAT/GST. Real-estate holding taxes are a **modest annual land tax** (expat: USD 50 for ≤½ acre / USD 150 for ≤1 acre / +USD 50 per extra acre) and an **annual house tax of 1.5% of the notional annual rental value** (per [bvi.gov.vg/content/property-tax](https://bvi.gov.vg/content/property-tax) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row, verified 2026-05-28). Title runs on a **registered-land (Torrens-style) system** under the **Registered Land Act / Registered Land Ordinance 1970 (CAP.229)**, administered by the **Department of Land Registry**. The dispute forum is the **High Court of Justice (Virgin Islands)**, a division of the **Eastern Caribbean Supreme Court (ECSC)** — do not imply a standalone non-ECSC national apex court. **Dominant physical risk**: hurricanes — **Hurricane Irma made a direct Category-5 hit on 6 September 2017** (government: ~**70% of buildings** lost or damaged); post-Irma the official building-code posture targets **Cat-5-and-above** resilience, and **insurance is expensive and scarce**. **Confirm** NBLHL fees/timeline, the stamp-duty schedule, the land/house-tax tables, and post-2017 building-code compliance at primary sources **before any binding step**. Authoritative primary sources: **[Government of the Virgin Islands (bvi.gov.vg)](https://www.bvi.gov.vg/)**, **[Department of Land Registry](https://gov.vg/land-registry)**, **[Virgin Islands Laws Online (laws.gov.vg)](https://laws.gov.vg/)**, **[Eastern Caribbean Supreme Court (eccourts.org)](https://www.eccourts.org/)**.
 
 ## Country profile
 
@@ -14,7 +14,7 @@ ISO2: `vg`. Status: ✅ Fully populated (researched 2026-05-28).
 - **Languages**: **English (official, sole)** — all contracts, deeds, statutes in English.
 - **Legal system**: **English common law** + Virgin Islands statutes (the Laws of the Virgin Islands). Final court of appeal: the **Judicial Committee of the Privy Council** (London).
 - **Cadastre / land registry**:
-  - **[Department of Land Registry](https://bvi.gov.vg/content/department-land-registry)**, Road Town, Tortola (P.O. Box 4662, VG1110; +1 284 468 2017) — the registry for **registered title** under CAP.229 ([bvi.gov.vg — legislation list](https://bvi.gov.vg/department-faqs/80)).
+  - **[Department of Land Registry](https://gov.vg/land-registry)**, Road Town, Tortola (P.O. Box 4662, VG1110; +1 284 468 2017) — the registry for **registered title** under CAP.229 ([bvi.gov.vg — legislation list](https://bvi.gov.vg/department-faqs/80)) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row.
   - Note: in 2018 the Land Registry and the Lands & Survey Department were administratively **merged into the Land and Survey Department** (combined legal registry/repository for land registration + geographic data / Registry Maps). Both terms appear in current government materials.
 - **Identifier**: **Registration Section + Block + Parcel number** under the registered-land system (Registry Map / parcel index). No French-style universal national parcel ID; the registered-land parcel number is the title key.
 - **Title concept**: **Registered land (Torrens-style)** — title is guaranteed by registration, NOT by a chain of deeds. Governed by the **Registered Land Act / Registered Land Ordinance 1970 (CAP.229)** + Registered Land Rules 1972. **Condominium** regimes under the **Condominium Ordinance (CAP.219)**.
@@ -35,7 +35,7 @@ This section determines whether a transaction is even legally possible — and w
 - **Non-Belongers Land Holding Regulation Act (CAP.122)** — the statutory basis for the NBLHL requirement; also the statutory home of the **12% non-Belonger stamp-duty rate**.
 - **Registered Land Act / Registered Land Ordinance 1970 (CAP.229)** + Registered Land Rules 1972 — registered-title system.
 - **Stamp Act (as amended — Stamps (Amendment) Act 2022)** — the 4% Belonger stamp-duty rate.
-- **Conveyancing and Law of Property Ordinance (CAP.220)**, **Condominium Ordinance (CAP.219)**, **Land Acquisition Ordinance (CAP.222)**, **Land Adjudication Ordinance (CAP.223)**, **Intestate Estates Act (CAP.34)** — supporting framework (chapter numbers per [bvi.gov.vg — legislation list](https://bvi.gov.vg/department-faqs/80)). Statutes free at **[laws.gov.vg](https://laws.gov.vg/)**.
+- **Conveyancing and Law of Property Ordinance (CAP.220)**, **Condominium Ordinance (CAP.219)**, **Land Acquisition Ordinance (CAP.222)**, **Land Adjudication Ordinance (CAP.223)**, **Intestate Estates Act (CAP.34)** — supporting framework (chapter numbers per [bvi.gov.vg — legislation list](https://bvi.gov.vg/department-faqs/80)) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row. Statutes free at **[laws.gov.vg](https://laws.gov.vg/)**.
 
 ### Buyer category matrix
 
@@ -46,7 +46,7 @@ This section determines whether a transaction is even legally possible — and w
 | **BVI company (Belonger-owned)** | Treated per Belonger status of ownership; verify with attorney |
 | **BVI company (non-Belonger-owned)** | Treated as non-Belonger — NBLHL required; **USD 500** company application fee |
 
-(Source: [bvi.gov.vg — NBLHL service page](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence) + Non-Belongers Land Holding Regulation Act CAP.122 ([bvi.gov.vg — legislation list](https://bvi.gov.vg/content/besides-registered-land-act-1970-are-there-any-other-legislation-may-be-applied)) + Harneys "Guide to Purchasing Property in the BVI" — *primary fees/timeline; practitioner detail flagged; verify with attorney before contract*)
+(Source: [bvi.gov.vg — NBLHL service page](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence) + Non-Belongers Land Holding Regulation Act CAP.122 ([bvi.gov.vg — legislation list](https://bvi.gov.vg/content/besides-registered-land-act-1970-are-there-any-other-legislation-may-be-applied)) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row + Harneys "Guide to Purchasing Property in the BVI" — *primary fees/timeline; practitioner detail flagged; verify with attorney before contract*)
 
 ### The NBLHL in detail [CRITICAL]
 
@@ -88,7 +88,7 @@ This section determines whether a transaction is even legally possible — and w
 ### Primary sources
 
 - **NO government house-price index or median is published.** The BVI government does not publish a residential price series — listings + agent data are the only sources (SECONDARY, seller-controlled, often outdated).
-- **[Department of Land Registry](https://bvi.gov.vg/content/department-land-registry)** — registered-title + parcel data (not a public price index).
+- **[Department of Land Registry](https://gov.vg/land-registry)** — registered-title + parcel data (not a public price index).
 
 ### Listing platforms (all SECONDARY)
 
@@ -160,7 +160,7 @@ This section determines whether a transaction is even legally possible — and w
 
 ## Section: `--tax`
 
-> **Headline**: The BVI is a **near-zero direct-tax jurisdiction** — **no income tax, no capital gains tax, no inheritance/estate tax, no corporation tax, no VAT/GST, no annual net-wealth tax**. (Payroll tax exists on employment but is not relevant to passive property ownership.) Real-estate-specific charges: **one-time stamp duty** on transfer (**4% Belonger / 12% non-Belonger** of higher of price/market value), a **modest annual land tax**, and an **annual house tax of 1.5% of the notional annual rental value**. (Source: [bvi.gov.vg — Property Tax](https://bvi.gov.vg/content/property-tax), verified 2026-05-28; near-zero-tax framing corroborated by Carey Olsen / Legal 500 private-client guides — *secondary*.)
+> **Headline**: The BVI is a **near-zero direct-tax jurisdiction** — **no income tax, no capital gains tax, no inheritance/estate tax, no corporation tax, no VAT/GST, no annual net-wealth tax**. (Payroll tax exists on employment but is not relevant to passive property ownership.) Real-estate-specific charges: **one-time stamp duty** on transfer (**4% Belonger / 12% non-Belonger** of higher of price/market value), a **modest annual land tax**, and an **annual house tax of 1.5% of the notional annual rental value**. (Source: [bvi.gov.vg — Property Tax](https://bvi.gov.vg/content/property-tax) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row, verified 2026-05-28; near-zero-tax framing corroborated by Carey Olsen / Legal 500 private-client guides — *secondary*.)
 
 ### Stamp duty on transfer of land [KEY]
 
@@ -175,14 +175,14 @@ This section determines whether a transaction is even legally possible — and w
 
 (Source: Harneys "Guide to Purchasing Property in the BVI" (PRACTITIONER/SECONDARY, verified 2026-05-28) + Stamps (Amendment) Act 2022 + Non-Belongers Land Holding Regulation Act CAP.122 ([laws.gov.vg](https://laws.gov.vg/)) — *verify current schedule at Inland Revenue / laws.gov.vg before relying*)
 
-### Annual land tax (PRIMARY — [bvi.gov.vg/content/property-tax](https://bvi.gov.vg/content/property-tax), verified 2026-05-28)
+### Annual land tax (PRIMARY — [bvi.gov.vg/content/property-tax](https://bvi.gov.vg/content/property-tax) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row, verified 2026-05-28)
 
 | Owner category | Rate |
 |---|---|
 | **Belongers / BVI companies** | **USD 10.00** on the first acre (or part); **USD 3.00 per acre (or part)** thereafter |
 | **Expatriates (non-Belongers)** | **USD 50.00** for **½ acre or less**; **USD 150.00** for **>½ acre up to 1 acre**; **+USD 50.00 per additional acre (or part)** |
 
-### Annual house tax (PRIMARY — [bvi.gov.vg/content/property-tax](https://bvi.gov.vg/content/property-tax), verified 2026-05-28)
+### Annual house tax (PRIMARY — [bvi.gov.vg/content/property-tax](https://bvi.gov.vg/content/property-tax) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row, verified 2026-05-28)
 
 - **1.5% per annum on the notional annual rental ("income") value of the house** — applies **regardless of owner Belonger status**.
 - Notable: house tax is on **notional rental value, NOT capital value** — so the absolute amounts are **modest by international standards**.
@@ -201,7 +201,7 @@ This section determines whether a transaction is even legally possible — and w
 - **NO VAT / GST.**
 - **NO corporation tax** (BVI Business Companies are a core export product).
 
-⚠️ Verification: request the seller's last **land-tax + house-tax receipt**. Confirm the current stamp-duty schedule (laws.gov.vg / Inland Revenue), land/house-tax tables, and the late-penalty % at [bvi.gov.vg](https://bvi.gov.vg/content/property-tax) + attorney before contract. **The land/house-tax tables are PRIMARY-verified; the 20% late penalty is SECONDARY — re-verify.**
+⚠️ Verification: request the seller's last **land-tax + house-tax receipt**. Confirm the current stamp-duty schedule (laws.gov.vg / Inland Revenue), land/house-tax tables, and the late-penalty % at [bvi.gov.vg](https://bvi.gov.vg/content/property-tax) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row + attorney before contract. **The land/house-tax tables are PRIMARY-verified; the 20% late penalty is SECONDARY — re-verify.**
 
 ---
 
@@ -275,12 +275,12 @@ The BVI economy is small (tourism + offshore finance). A **work permit is requir
 
 ### Hurricane exposure — Irma 2017 baseline [CATASTROPHIC]
 
-- **6 September 2017**: **Hurricane Irma made a direct Category-5 hit** on the BVI. Government (then-Premier Dr. D. Orlando Smith) stated **"about 70 percent of our buildings"** were lost or damaged; wider reporting put **85% of housing affected, 4,000+ homes destroyed**. Source: [bvi.gov.vg media centre, dated 27 Sept 2017](http://www.bvi.gov.vg/media-centre/bvi-upgrade-building-codes-aftermath-hurricane-irma) (PRIMARY) + "Effects of Hurricane Irma in the BVI" (Wikipedia, *secondary*).
+- **6 September 2017**: **Hurricane Irma made a direct Category-5 hit** on the BVI. Government (then-Premier Dr. D. Orlando Smith) stated **"about 70 percent of our buildings"** were lost or damaged; wider reporting put **85% of housing affected, 4,000+ homes destroyed**. Source: [bvi.gov.vg media centre, dated 27 Sept 2017](http://www.bvi.gov.vg/media-centre/bvi-upgrade-building-codes-aftermath-hurricane-irma) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row (PRIMARY) + "Effects of Hurricane Irma in the BVI" (Wikipedia, *secondary*).
 - The BVI sits **squarely in the Atlantic hurricane belt**; the official post-Irma posture is that Cat-5 is "the new norm" and the territory must build to withstand **"Category 5 and above"** (Junior Minister A. Christian, 27 Sept 2017).
 
 ### Building code [KEY DUE-DILIGENCE]
 
-- Post-Irma (announced 27 Sept 2017), Government initiated a **review + upgrade of the building code** targeting **Cat-5+ resilience** (plus climate-change + green-building considerations). Source: [bvi.gov.vg](http://www.bvi.gov.vg/media-centre/bvi-upgrade-building-codes-aftermath-hurricane-irma) (PRIMARY).
+- Post-Irma (announced 27 Sept 2017), Government initiated a **review + upgrade of the building code** targeting **Cat-5+ resilience** (plus climate-change + green-building considerations). Source: [bvi.gov.vg](http://www.bvi.gov.vg/media-centre/bvi-upgrade-building-codes-aftermath-hurricane-irma) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row (PRIMARY).
 - **DUE-DILIGENCE ACTION**: confirm the property was **built/rebuilt to post-2017 code** (concrete construction, hurricane straps, impact glazing, reinforced roof). **Pre-Irma timber/older stock carries materially higher loss risk.** Get a structural survey + the current Building Code status from the Town & Country Planning Dept — `verify at bvi.gov.vg`.
 
 ### Insurance availability / cost (post-Irma) [MATERIAL]
@@ -571,11 +571,11 @@ HIGH for IPCC AR6 + CCCCC regional projections; MEDIUM for parcel-level surge sp
 |---|---|
 | Government of the Virgin Islands | `https://www.bvi.gov.vg/` |
 | Non-Belongers Land Holding Licence (NBLHL) | `https://www.bvi.gov.vg/services/non-belongers-land-holding-licence` |
-| Property Tax (land tax + house tax) | `https://bvi.gov.vg/content/property-tax` |
-| Department of Land Registry | `https://bvi.gov.vg/content/department-land-registry` |
-| Land legislation list (CAP.229, CAP.122) | `https://bvi.gov.vg/content/besides-registered-land-act-1970-are-there-any-other-legislation-may-be-applied` |
+| Property Tax (land tax + house tax) | `https://bvi.gov.vg/content/property-tax` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Department of Land Registry | `https://gov.vg/land-registry` |
+| Land legislation list (CAP.229, CAP.122) | `https://bvi.gov.vg/content/besides-registered-land-act-1970-are-there-any-other-legislation-may-be-applied` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | Virgin Islands Laws Online (statutes) | `https://laws.gov.vg/` |
-| BVI Building Code upgrade after Irma (gov, 27 Sep 2017) | `http://www.bvi.gov.vg/media-centre/bvi-upgrade-building-codes-aftermath-hurricane-irma` |
+| BVI Building Code upgrade after Irma (gov, 27 Sep 2017) | `http://www.bvi.gov.vg/media-centre/bvi-upgrade-building-codes-aftermath-hurricane-irma` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | BVI Electricity Corporation | `https://bvielectricity.com/` |
 | Eastern Caribbean Supreme Court (High Court of Justice, VI) | `https://www.eccourts.org/` |
 | Department of Disaster Management (DDM) | `https://bviddm.com/` |
@@ -594,7 +594,7 @@ HIGH for IPCC AR6 + CCCCC regional projections; MEDIUM for parcel-level surge sp
 **Confidence**: MEDIUM-HIGH —
 - **HIGH** for the foreign-buyer regime: **NBLHL mandatory + Cabinet-granted + buyer/property-specific + non-transferable**; statutory basis **Non-Belongers Land Holding Regulation Act (CAP.122)**; fees **USD 200 individual / USD 500 company** — all PRIMARY-verified at [bvi.gov.vg](https://www.bvi.gov.vg/services/non-belongers-land-holding-licence) (2026-05-28) and audit-confirmed.
 - **HIGH** for **stamp duty 4% (Belonger) / 12% (non-Belonger)** of the higher of price/market value — verified via Stamps (Amendment) Act 2022 + Non-Belongers Land Holding Regulation Act ([laws.gov.vg](https://laws.gov.vg/)) + GHP/Harneys; **the 12% rate's statutory home is the NBLHR Act (CAP.122), not the Stamps Act** (audit-corrected 2026-05-28).
-- **HIGH** for the **annual land-tax + house-tax tables** (expat USD 50/150/+50; Belonger USD 10/3; house tax 1.5% of notional rental value) — PRIMARY-verified verbatim at [bvi.gov.vg/content/property-tax](https://bvi.gov.vg/content/property-tax) (2026-05-28).
+- **HIGH** for the **annual land-tax + house-tax tables** (expat USD 50/150/+50; Belonger USD 10/3; house tax 1.5% of notional rental value) — PRIMARY-verified verbatim at [bvi.gov.vg/content/property-tax](https://bvi.gov.vg/content/property-tax) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row (2026-05-28).
 - **HIGH** for the near-zero direct-tax framing (no income/CGT/inheritance/corporation tax + no VAT) — gov + Carey Olsen/Legal 500 corroboration.
 - **HIGH** for **registered-land (CAP.229)** title system + the **Department of Land Registry** + the **High Court of Justice (Virgin Islands), a division of the ECSC** (final appeal: Privy Council).
 - **HIGH** for **Hurricane Irma 6 Sept 2017 = direct Cat-5, ~70% of buildings damaged** (gov media-centre PRIMARY) + the post-Irma Cat-5+ building-code posture.

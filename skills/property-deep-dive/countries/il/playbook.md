@@ -12,8 +12,8 @@ ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Currency**: ILS (Israeli new shekel, ₪). 1 USD ≈ 3.6–3.8 ILS; 1 EUR ≈ 3.9–4.1 ILS (May 2026 BoI representative rate; FX volatile during wartime — verify at `https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/`). Free-floating; Bank of Israel intervenes only in extreme moves; no capital controls on residents/non-residents for property transactions but FET-equivalent KYC applies under the Anti-Money Laundering Order 5761-2000.
 - **Languages**: Hebrew + Arabic (both official in practice; Hebrew dominant in Tabu/RMI/tax filings). English widely used in Tel Aviv and among Anglo Olim; **all registered title documents are in Hebrew** — sworn translation required for non-Hebrew-reading buyers. Source: Basic Law: Israel as the Nation-State of the Jewish People (5778-2018) §4 (sets Hebrew as state language; Arabic as "special status").
 - **Cadastre / land registry**: **dual system** —
-- **Tabu / Land Registry (לשכת רישום מקרקעין)** — Ministry of Justice; tracks freehold (`חופשי`) and registered leases. Portal: `https://www.gov.il/he/departments/land_registration_and_settlement_of_rights_department` and online inquiries at `https://taboo.gov.il/`. Nesach Tabu (נסח טאבו / title abstract) costs ILS 11 online (2026 fee).
-- **Israel Land Authority / RMI (רשות מקרקעי ישראל)** — administers state-owned land leases (חכירה / hachira). Portal: `https://land.gov.il/`. RMI online services: `https://www.gov.il/he/departments/israel_land_authority`.
+- **Tabu / Land Registry (לשכת רישום מקרקעין)** — Ministry of Justice; tracks freehold (`חופשי`) and registered leases. Portal: `https://www.gov.il/he/departments/land_registration_and_settlement_of_rights_department` and online inquiries at `https://www.gov.il/he/service/land_registration_extract`. Nesach Tabu (נסח טאבו / title abstract) costs ILS 11 online (2026 fee).
+- **Israel Land Authority / RMI (רשות מקרקעי ישראל)** — administers state-owned land leases (חכירה / hachira). Portal: `https://www.gov.il/he/departments/israel_land_authority`. RMI online services: `https://www.gov.il/he/departments/israel_land_authority`.
 - For ~93% of land, BOTH registers must be checked: Tabu shows the registered lease/owner, RMI shows lease terms, capitalization status, and Heskem Hadash conversion eligibility.
 - **Title types** (CRITICAL distinction for foreign buyers):
 
@@ -26,11 +26,11 @@ ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 | **East Jerusalem / Area C / Golan / Settlement parcels** | Disputed jurisdiction | 🔴 deed status varies; see Quirks | Some parcels registered under Jordanian/Ottoman pre-1967 systems; international-law status contested; do NOT buy without specialist counsel |
 
 - **Major reforms / regulatory landscape** (verify date-stamps in `shared/regulatory-watch.md`):
-- **Heskem Hadash (Decision 1185 / החלטה 1185)** — ILA Council Decision 2009 enabling lessees to convert built-up state-leased land to freehold for a capitalization fee. Source: RMI `https://land.gov.il/Pages/SearchPagesResults.aspx` (search "החלטה 1185"). Subsequent updates via decisions 1370, 1456 etc. — verify currency at `https://land.gov.il/`.
+- **Heskem Hadash (Decision 1185 / החלטה 1185)** — ILA Council Decision 2009 enabling lessees to convert built-up state-leased land to freehold for a capitalization fee. Source: RMI `https://www.gov.il/he/departments/israel_land_authorityPages/SearchPagesResults.aspx` (search "החלטה 1185"). Subsequent updates via decisions 1370, 1456 etc. — verify currency at `https://www.gov.il/he/departments/israel_land_authority`.
 - **Land Taxation (Appreciation and Purchase) Law 5723-1963** — חוק מיסוי מקרקעין; Mas Rechisha (purchase tax) + Mas Shevach (appreciation/capital gains tax). Source: Israel Tax Authority `https://www.gov.il/he/departments/topics/real_estate_taxation`.
 - **Buyer's tax brackets — non-resident scale** — annual update by Tax Authority (typically 16 January each year, indexed to CBS housing index). Verify current brackets at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` (page often updated mid-January).
 - **Olim 7-year purchase-tax incentive** — Section 12 of the Land Taxation Regulations, anchored in the Aliyah & Integration framework. Source: Ministry of Aliyah & Integration `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` and Tax Authority guidance.
-- **Property Tax Compensation Fund (Israel Tax Authority)** — Property Tax and Compensation Fund Law 5721-1961 (מס רכוש וקרן פיצויים); pays for direct war/missile damage to property (structures + contents up to caps). Source: `https://www.gov.il/en/departments/topics/compensation_fund` and `https://www.misim.gov.il/` (Tax Authority portal).
+- **Property Tax Compensation Fund (Israel Tax Authority)** — Property Tax and Compensation Fund Law 5721-1961 (מס רכוש וקרן פיצויים); pays for direct war/missile damage to property (structures + contents up to caps). Source: `https://www.gov.il/en/departments/topics/compensation_fund` and `https://www.gov.il/he/service/online-direct-damage-claim` (Tax Authority portal).
 - **Wartime tax measures (2023–2026)**: temporary purchase-tax bracket adjustments under Order 5784; Compensation Fund claim deadlines extended for evacuee zones (Otef Aza, Northern border). Verify currency at Tax Authority and Knesset legislation database `https://main.knesset.gov.il/Activity/Legislation/Pages/default.aspx`.
 - **Proposed reforms NOT enacted as of May 2026**: foreign-buyer outright restriction (proposed several times since 2010s, never passed); raising non-resident Mas Rechisha further (in periodic political discussion).
 
@@ -44,7 +44,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 ### State-land monopoly (~93%)
 
-- **Land ownership composition** (per RMI public communications and KKL annual reports — verify currency at `https://land.gov.il/` and `https://www.kkl.org.il/`):
+- **Land ownership composition** (per RMI public communications and KKL annual reports — verify currency at `https://www.gov.il/he/departments/israel_land_authority` and `https://www.kkl.org.il/`):
 - **State of Israel**: ~70% of total land area
 - **Jewish National Fund (JNF / KKL)**: ~12–13%
 - **Development Authority (רשות הפיתוח)**: ~10%
@@ -56,7 +56,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 - **Standard term**: 49 years + 49-year renewal option (פרק שני). Capitalized lease (חכירה מהוונת) is the most common modern form — the lessee pays a one-time capitalization fee (~91% of land value as of pre-2009 framework) covering the full 49+49 term.
 - **Renewal at end of term**: lessees historically face renegotiation at end-of-term. Pre-2009 the fee structure was opaque; post-2009 framework standardized.
-- **Heskem Hadash (New Agreement) — Decision 1185 (2009) and successor decisions**: enables lessees of built-up urban residential parcels to **convert lease to freehold (chofshi) for a capitalization fee**. Eligibility depends on zoning, building density, and parcel type. Verify per-parcel eligibility at RMI office or via authorized appraiser. Source: RMI Decision database `https://land.gov.il/Pages/SearchPagesResults.aspx`.
+- **Heskem Hadash (New Agreement) — Decision 1185 (2009) and successor decisions**: enables lessees of built-up urban residential parcels to **convert lease to freehold (chofshi) for a capitalization fee**. Eligibility depends on zoning, building density, and parcel type. Verify per-parcel eligibility at RMI office or via authorized appraiser. Source: RMI Decision database `https://www.gov.il/he/departments/israel_land_authorityPages/SearchPagesResults.aspx`.
 - **Rural / agricultural / non-built-up parcels**: typically NOT eligible for Heskem Hadash conversion; remain on the 49+49 lease framework.
 
 ### JNF (KKL) parcels — Jewish-lessee restriction
@@ -107,7 +107,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - Property-tax assessed value gap when a property's market value exceeds the assessed cap — the gap is uncovered
 - Damage from internal causes (fire, earthquake) — those go to private insurance / Mavat Ra'ash (national earthquake fund framework, separate)
 - **Funding**: state-funded (treasury allocation), supplemented historically by a property-tax surcharge. The fund has paid out an **est. tens of billions of ILS** since October 2023 for war damage in Otef Aza, Northern Israel, and central-Israel rocket-impact incidents (order-of-magnitude estimate — verify current figures at Compensation Fund publications). Documented claim volumes: **~1M cumulative war-damage claims across all fronts by April 2026** (Bloomberg, 2026-04-17); the 2026 Iran-war fighting alone logged **10,946 claims** by 15 March 2026 — 7,648 for structures, 1,179 for contents/equipment, 1,945 for vehicles, 174 other (Israel Tax Authority Compensation Fund update, `https://www.gov.il/en/pages/sa150326-1`).
-- **Claim process**: file via the Tax Authority Compensation Fund portal `https://www.misim.gov.il/`; deadlines extended for active-conflict zones by emergency order.
+- **Claim process**: file via the Tax Authority Compensation Fund portal `https://www.gov.il/he/service/online-direct-damage-claim`; deadlines extended for active-conflict zones by emergency order.
 - **Implication for foreign buyers**: the Compensation Fund substantially de-risks war-damage to the structure but does NOT compensate land-value loss — a property in or near an evacuated zone may retain Compensation Fund coverage for damage but suffer material market-value loss with no compensation pathway. (Magnitude of the value loss is not publicly indexed during the active-conflict period — verify against Tax Authority transaction data for the specific locality.)
 
 ### War footing — current status (as of July 2026)
@@ -116,7 +116,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Israel-Hezbollah (Lebanon)**: hostilities September–November 2024; ceasefire 27 November 2024 (verify currency at Israeli Ministry of Foreign Affairs `https://www.gov.il/he/departments/ministry_of_foreign_affairs`); the ceasefire held until hostilities with Hezbollah resumed during the 2026 Iran war (Britannica); Northern border evacuees gradually returning.
 - **Israel-Iran wars**: two direct wars — the **June 2025 "12-Day War"** (Israel struck Iranian nuclear/military sites from 13 June 2025; Al Jazeera) and a **2026 Iran war** (Feb–Apr 2026 escalation; two-week ceasefire announced 7 April 2026; Wikipedia). Iranian **ballistic-missile strikes caused heavy damage to Israeli residential property** (e.g. Kiryat Ata near Haifa; Bloomberg) and are the **dominant driver of war-damage claims** — nearly 10,000 property-damage claims by the second day of the June 2025 war, and 9,115 missile-damage claims after 11 days of the 2026 fighting (Globes, 2026-03-10).
 - **Houthi (Yemen) missile/UAV strikes**: intermittent strikes against central Israel through 2024–2026; air defense generally effective; occasional impacts.
-- **Insurance market**: many private insurers reduced or excluded war-coverage riders; **Compensation Fund central** for war-damage compensation; private insurance covers theft, fire, earthquake (separate framework), water damage. Verify with Israel Insurance Association `https://www.iia.org.il/` and your private carrier.
+- **Insurance market**: many private insurers reduced or excluded war-coverage riders; **Compensation Fund central** for war-damage compensation; private insurance covers theft, fire, earthquake (separate framework), water damage. Verify with Israel Insurance Association `https://www.gov.il/he/departments/capital_market_authority/govil-landing-page` and your private carrier.
 
 ### Mortgage / financing for non-residents
 
@@ -129,7 +129,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 ### Buyer due diligence — minimum checklist
 
-1. **Nesach Tabu (טאבו abstract)** — verify ownership, encumbrances (`עיקולים`/garnishments, `משכנתאות`/mortgages, `הערות אזהרה`/warning notices). Order online ILS 11 at `https://taboo.gov.il/` (2026 fee).
+1. **Nesach Tabu (טאבו abstract)** — verify ownership, encumbrances (`עיקולים`/garnishments, `משכנתאות`/mortgages, `הערות אזהרה`/warning notices). Order online ILS 11 at `https://www.gov.il/he/service/land_registration_extract` (2026 fee).
 2. **RMI lease extract (פלט חכירה)** — verify lease term, capitalization status, JNF vs State vs Development Authority, Heskem Hadash eligibility. Order at RMI office or via attorney.
 3. **Rishum Mekarkein** — alternate registry for some pre-1969 unsettled parcels (`רישום מקרקעין לא מוסדרים`); attorney must check both.
 4. **Building permit + completion certificate (היתר בנייה + טופס 4)** — issued by the local municipality; verifies the structure was legally built and inhabitable. Unauthorized additions (חריגות בנייה) are extremely common and **not always visible at viewing** — request the hetter and Form 4 directly from municipality.
@@ -327,7 +327,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **VAT (מע"מ)**: 18% (effective 1 January 2025, raised from 17%; verify at `https://www.gov.il/he/departments/topics/vat_information`). Applies to **new-build sales by developers**, not to second-hand sales between individuals. New-build advertised prices may include or exclude VAT — clarify per listing.
 - **Heitel Hashbacha (היטל השבחה / betterment levy)**: 50% of the valuation uplift from a planning-permission upgrade (rezoning, density increase). **Seller pays** at sale. Verify with municipality whether any TBA (תב"ע) plan affects the parcel.
 - **Mas Mechira (מס מכירה)**: ABOLISHED 1 August 2007 for individuals (still applies in some corporate contexts; check with Tax Authority).
-- **Tabu registration fee**: variable, modest (typically ILS 1,500–3,000 for a standard apartment registration). Source: Land Registry fee schedule `https://taboo.gov.il/`.
+- **Tabu registration fee**: variable, modest (typically ILS 1,500–3,000 for a standard apartment registration). Source: Land Registry fee schedule `https://www.gov.il/he/service/land_registration_extract`.
 - **RMI consent / capitalization fee** (if state-leased): variable; ranges from negligible (pre-paid lease) to several percent of land value (Heskem Hadash conversion).
 - **Buyer attorney**: 0.5–2.0% + VAT (18%) typical; standardized minimum fees published by Israel Bar Association `https://www.israelbar.org.il/`.
 - **Real estate broker (תיווך)**: typical 2% + VAT each side (buyer + seller pay 2% each); regulated under the Real Estate Brokers Law 5756-1996 — broker must be licensed (`רישיון מתווך`).
@@ -424,7 +424,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 | Source | URL | What it gives |
 |---|---|---|
 | **Home Front Command (פיקוד העורף, Pikud HaOref)** | `https://www.oref.org.il/` | Missile/rocket alert zones, shelter (Mamad / ממ"ד / Merhav Mugan Dirati) requirements, war-zone designations |
-| **Property Tax Compensation Fund (Israel Tax Authority)** | `https://www.gov.il/en/departments/topics/compensation_fund` + `https://www.misim.gov.il/` | War-damage compensation; published claim volumes |
+| **Property Tax Compensation Fund (Israel Tax Authority)** | `https://www.gov.il/en/departments/topics/compensation_fund` + `https://www.gov.il/he/service/online-direct-damage-claim` | War-damage compensation; published claim volumes |
 | **Geological Survey of Israel (GSI / מכון הסקר הגיאולוגי)** | `https://www.gsi.gov.il/` | Earthquake hazard maps, landslide registry, geology |
 | **Israel Building Code SI 413 + Standards Institute** | `https://www.sii.org.il/` | Earthquake-resistant building standards |
 | **Ministry of Environmental Protection (המשרד להגנת הסביבה)** | `https://www.gov.il/he/departments/ministry_of_environmental_protection` | Air quality, contamination, environmental hazards |
@@ -472,7 +472,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 | Document | Required because | Notes |
 |---|---|---|
-| **Nesach Tabu (טאבו abstract)** | All sales | ILS 11 online via `https://taboo.gov.il/` |
+| **Nesach Tabu (טאבו abstract)** | All sales | ILS 11 online via `https://www.gov.il/he/service/land_registration_extract` |
 | **RMI lease extract (פלט חכירה)** | If state-leased | At RMI office or via attorney |
 | **Building permit + Form 4 (היתר בנייה + טופס 4)** | All sales | From local municipality |
 | **Architectural drawings (תוכנית אדריכלית)** | Recommended | Verify built area matches permit |
@@ -640,9 +640,9 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 
 | Source | URL pattern |
 |---|---|
-| Tabu Land Registry | `https://taboo.gov.il/` |
+| Tabu Land Registry | `https://www.gov.il/he/service/land_registration_extract` |
 | Land Registry main page | `https://www.gov.il/he/departments/land_registration_and_settlement_of_rights_department` |
-| RMI / Israel Land Authority | `https://land.gov.il/` |
+| RMI / Israel Land Authority | `https://www.gov.il/he/departments/israel_land_authority` |
 | Tax Authority real estate | `https://www.gov.il/he/departments/topics/real_estate_taxation` |
 | Mas Rechisha brackets | `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` |
 | Tax Authority transactions database | `https://www.gov.il/he/departments/dynamiccollectors/realestate_purchase_data` |
@@ -650,7 +650,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 | Bank of Israel financial stability | `https://www.boi.org.il/en/communication-and-publications/regular-publications/financial-stability/` |
 | Bank of Israel FX | `https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/` |
 | Property Tax Compensation Fund | `https://www.gov.il/en/departments/topics/compensation_fund` |
-| Misim Compensation Fund portal | `https://www.misim.gov.il/` |
+| Misim Compensation Fund portal | `https://www.gov.il/he/service/online-direct-damage-claim` |
 | Aliyah & Integration | `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` |
 | Construction & Housing | `https://www.gov.il/he/departments/ministry_of_construction_and_housing` |
 | Home Front Command | `https://www.oref.org.il/` |

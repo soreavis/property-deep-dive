@@ -84,7 +84,7 @@ The fast track for wealthy foreign buyers. Granted by the Chief Minister on Loca
 
 ## Section: `--tax`
 
-**Source ranking**: [gov.je TaxesMoney](https://www.gov.je/TaxesMoney/Pages/index.aspx) (Comptroller of Revenue) is the canonical primary; [States Assembly Budget / Government Plan](https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/Budget%202026%20to%202029.pdf) sets future-year rates.
+**Source ranking**: [gov.je TaxesMoney](https://www.gov.je/TaxesMoney/) (Comptroller of Revenue) is the canonical primary; [States Assembly Budget / Government Plan](https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/Budget%202026%20to%202029.pdf) sets future-year rates.
 
 ### Income tax (personal)
 
@@ -149,7 +149,7 @@ Where a residential property is acquired via the transfer of an entity (most com
 
 ### What Jersey does NOT have (the key advantages)
 
-- ❌ **No Capital Gains Tax** (no general CGT on property gains — verify at [gov.je TaxesMoney](https://www.gov.je/TaxesMoney/Pages/index.aspx))
+- ❌ **No Capital Gains Tax** (no general CGT on property gains — verify at [gov.je TaxesMoney](https://www.gov.je/TaxesMoney/))
 - ❌ **No Inheritance Tax** (no IHT on death). Probate-related stamp duty IS charged under the **Stamp Duties and Fees (Jersey) Law 1998** ([jerseylaw.je 24.960](https://www.jerseylaw.je/laws/current/Pages/24.960.aspx)) — applied to the net value of personal (movable) estate. For Jersey-domiciled decedents: worldwide movable estate; for non-domiciled: only Jersey-situs movable estate. Small-estate threshold: gross worldwide estate ≤ £30,000 → no Jersey Grant required (per [courts.je Probate Registry services](https://www.courts.je/judicial-greffe/probate-and-protection/probate-registry/probate-registry-services-and-fees/)). Current band-by-band duty schedule revised 28 Apr 2025 — `verify the current rate table on courts.je Probate Registry services page`. Note: this is a Grant-of-Probate fee structure, not an inheritance tax on heirs.
 - ❌ **No general wealth tax**
 - ❌ **No annual mansion tax**
@@ -182,7 +182,7 @@ This is the structural reason Jersey is a destination for HNW relocation — com
 
 ### Fees
 
-Public Registry recording fees and stamp duty (above) collected on the day of passing. Fee schedule: [gov.je Public Registry services and fees](https://www.gov.je/Government/NonexecLegal/JudicialGreffe/Sections/PublicRegistry/pages/registryservices.aspx). `Verify the current schedule at the gov.je registry-services page — fees are revised periodically`.
+Public Registry recording fees and stamp duty (above) collected on the day of passing. Fee schedule: [gov.je Public Registry services and fees](https://www.gov.je/Home/RentingBuying/BuyersGuide/pages/rolepublicregistry.aspx). `Verify the current schedule at the gov.je registry-services page — fees are revised periodically`.
 
 ---
 
@@ -357,8 +357,8 @@ Jersey has a small bank-branch retail market, dominated by Channel-Islands-licen
 
 - **Water**: [Jersey Water](https://www.jerseywater.je/) — sole public supplier. Charges metered (verify current tariff at jerseywater.je)
 - **Electricity**: [Jersey Electricity](https://www.jec.co.uk/) — sole public supplier; imports majority of supply via subsea cables from France (Normandie 1/2/3). Tariffs published quarterly
-- **Gas**: [Jersey Gas (Energy Co.)](https://www.jerseygas.com/) — bottled LPG + bulk-mains in St Helier; not universal
-- **Sewerage / drainage**: [gov.je — Drainage and sewerage](https://www.gov.je/Home/RentingBuying/BuyersGuide/pages/draindrainage.aspx) — Infrastructure Department. Mains drainage covers most urban parishes; outlying rural properties may have a soakaway / septic system (verify with the seller's pre-contract enquiries and the Planning Department)
+- **Gas**: [Jersey Gas (Energy Co.)](https://www.islandenergy.je/) — bottled LPG + bulk-mains in St Helier; not universal
+- **Sewerage / drainage**: [gov.je — Drainage and sewerage](https://www.gov.je/Environment/EnvironmentalHealth/pages/connectingtomainsdrains.aspx) — Infrastructure Department. Mains drainage covers most urban parishes; outlying rural properties may have a soakaway / septic system (verify with the seller's pre-contract enquiries and the Planning Department)
 - **Broadband**: [JT (Jersey Telecom)](https://www.jtglobal.com/) is the dominant FTTH provider — Jersey is one of the most fibre-penetrated jurisdictions globally (gigabit FTTH widely available since the 2010s)
 
 ### Verification path
@@ -393,7 +393,7 @@ Jersey's conveyancing process is **closer to French notarial practice than Engli
 
 ### Advocates and solicitors of the Royal Court
 
-- Only members of the **Law Society of Jersey** ([lawsociety.je](https://www.lawsociety.je/)) can present a contract to the Royal Court
+- Only members of the **Law Society of Jersey** ([lawsociety.je](https://www.jerseylawsociety.je)) can present a contract to the Royal Court
 - "Advocate" (rough analogue of barrister-solicitor) and "Solicitor" (English-trained, Jersey-admitted) — both can do conveyancing
 - **Typical residential conveyance fee** (2026, est.): £2,500–£6,000 for freehold; £1,500–£3,500 for share transfer — `verify with two quotes; ask for fixed-fee with cost-cap if disbursements unclear`
 
@@ -492,12 +492,12 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 
 ## Verification authorities
 
-- **Comptroller of Revenue** — Stamp Duty, LTT, EPTT, Income Tax: [gov.je TaxesMoney](https://www.gov.je/TaxesMoney/Pages/index.aspx)
+- **Comptroller of Revenue** — Stamp Duty, LTT, EPTT, Income Tax: [gov.je TaxesMoney](https://www.gov.je/TaxesMoney/)
 - **Judicial Greffe / Public Registry** — Title chain, contract passing: [courts.je/judicial-greffe](https://www.courts.je/judicial-greffe/public-registry/)
 - **Population Office** — Residential statuses, HVR, `2(1)(e)`: [gov.je Population](https://www.gov.je/Working/Contributions/RegistrationCards/pages/home.aspx)
 - **Locate Jersey** — HVR concierge: [gov.je/business/locate](https://www.gov.je/Home/RentingBuying/HousingLaws/pages/highvalueresidency.aspx)
 - **Jersey Financial Services Commission (JFSC)** — Bank/lender authorisation: [jerseyfsc.org](https://www.jerseyfsc.org/)
-- **Law Society of Jersey** — Advocates / Solicitors of the Royal Court: [lawsociety.je](https://www.lawsociety.je/)
+- **Law Society of Jersey** — Advocates / Solicitors of the Royal Court: [lawsociety.je](https://www.jerseylawsociety.je)
 - **Jersey Property Holdings** — public land disposals: [gov.je/Government/JerseyPropertyHoldings](https://www.gov.je/Government/Departments/InfrastructureEnvironment/pages/property.aspx)
 - **Parish secretariats** — Foncier / Occupier rates: each of 12 parishes via [gov.je/Government/Parishes](https://www.gov.je/Home/Parish/pages/index.aspx)
 - **Planning and Building Services** — Island Plan 2022, planning permissions, flood maps: [gov.je/Planning](https://www.gov.je/PlanningBuilding/pages/default.aspx)
@@ -530,7 +530,7 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 | Island Plan 2022 | [gov.je Island Plan](https://www.gov.je/PlanningBuilding/LawsRegs/IslandPlan/pages/bridgingislandplan.aspx) |
 | Parishes hub | [gov.je Parishes](https://www.gov.je/Home/Parish/pages/index.aspx) |
 | JFSC (regulator) | [jerseyfsc.org](https://www.jerseyfsc.org/) |
-| Law Society of Jersey | [lawsociety.je](https://www.lawsociety.je/) |
+| Law Society of Jersey | [lawsociety.je](https://www.jerseylawsociety.je) |
 | Jersey Water | [jerseywater.je](https://www.jerseywater.je/) |
 | Jersey Electricity | [jec.co.uk](https://www.jec.co.uk/) |
 | JT (telecom / FTTH) | [jtglobal.com](https://www.jtglobal.com/) |

@@ -190,7 +190,7 @@ Foundational law: **Legge 16 dicembre 2013 n.166** as amended (most recent mater
 
 - **Ufficio del Lavoro / Centro Servizi Lavoro**: state employment service — `https://www.lavoro.sm/`
 - **Cross-border**: Italian *Centri per l'Impiego* (Rimini, Pesaro) + InfoJobs / Indeed / LinkedIn IT pull cross-border roles
-- **Camera di Commercio San Marino**: `https://www.cc.sm/` — SME hiring + business directory
+- **Camera di Commercio San Marino**: `https://www.camcom.sm/` — SME hiring + business directory
 
 ### Work-permit gating
 
@@ -846,7 +846,7 @@ Pre-2018, all non-citizen acquisitions required **prior authorisation of the Con
 | Servizio Protezione Civile | `https://www.gov.sm/pub2/GovSM/Dipartimenti/Dipartimento-Territorio-e-Ambiente/Servizio-Protezione-Civile.html` |
 | ISS (Istituto Sicurezza Sociale) | `https://www.iss.sm/` |
 | AASS (utility) | `https://www.aass.sm/` |
-| Camera di Commercio | `https://www.cc.sm/` |
+| Camera di Commercio | `https://www.camcom.sm/` |
 | Ufficio del Lavoro | `https://www.lavoro.sm/` |
 | Università di San Marino | `https://www.unirsm.sm/` |
 | Banca di San Marino (BSM) | `https://www.bsm.sm/` |

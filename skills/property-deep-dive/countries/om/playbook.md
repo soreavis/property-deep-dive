@@ -12,9 +12,9 @@ ISO2: `om`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
 - **Currency**: OMR (Omani Rial). **Pegged USD 1 = OMR 0.3850** since 1986 — Central Bank of Oman (CBO) maintains a fixed peg via direct intervention; one of the highest nominal-value currencies in the world (1 OMR ≈ USD 2.60).
 - **Languages**: **Arabic** (official; Title Deeds, court documents, all formal contracts in Arabic). **English** is the de-facto language of business, real estate marketing, healthcare, and tourism — most ITC marketing material is bilingual EN/AR but Arabic prevails legally.
 - **Cadastre / land registry**:
-  - **Ministry of Housing & Urban Planning (MHUP)** — `https://www.mohup.gov.om/` — Land Registry Department issues Title Deeds (Sakk al-Mulkiyya / سند ملكية) and administers the Royal Decree 12/2006 ITC framework.
+  - **Ministry of Housing & Urban Planning (MHUP)** — `https://gov.om/en/ministry-of-housing-and-urban-planning` — Land Registry Department issues Title Deeds (Sakk al-Mulkiyya / سند ملكية) and administers the Royal Decree 12/2006 ITC framework.
   - **National Survey Authority (NSA)** — under MHUP; maintains parcel maps, cadastral surveys, and the national geospatial register.
-  - **Ministry of Commerce, Industry and Investment Promotion (MoCIIP)** — `https://www.moci.gov.om/` — broker licensing, foreign-investment approvals, ITC concession agreements.
+  - **Ministry of Commerce, Industry and Investment Promotion (MoCIIP)** — `https://gov.om/en/ministry-of-commerce-industry-and-investment-promotion` — broker licensing, foreign-investment approvals, ITC concession agreements.
 - **Identifier(s)**:
   - **Title Deed (Sanad Mulkiyya — سند ملكية)** — paper + electronic; bears Plot No. + Block + Sector + Wilayat + Governorate.
   - **Sale and Purchase Agreement (SPA)** — pre-registration binding contract; off-plan sales typically use a developer Reservation Agreement → SPA → MHUP registration on handover.
@@ -56,7 +56,7 @@ Per Royal Decree 12/2006 (as amended) — verify current designated list at **MH
 | **Saraya Bandar Jissah** | Muscat (east coast) | Saraya Oman | Premium coastal ITC; villas + apartments |
 | **Al Mouj Muscat** | Muscat | Omran + Majid Al Futtaim partnership | Renamed/expanded successor of The Wave (per developer communications — verify branding with MHUP) |
 
-(Sources: MHUP designated-zone register, ITC master-developer corporate filings — *verify the current full list at `https://www.mohup.gov.om/` ITC lookup before reservation; additional ITCs designated 2023–2024 may not yet appear on every public list*.)
+(Sources: MHUP designated-zone register, ITC master-developer corporate filings — *verify the current full list at `https://gov.om/en/ministry-of-housing-and-urban-planning` ITC lookup before reservation; additional ITCs designated 2023–2024 may not yet appear on every public list*.)
 
 ### Tier 2 — GCC nationals (broader access)
 
@@ -81,7 +81,7 @@ Per Royal Decree 12/2006 (as amended) — verify current designated list at **MH
 | **Long-term Retiree Residency** | Stable foreign pension ≥ **OMR 4,000 / month** (~USD 10,400) + clean record + private health insurance | ROP |
 | **Citizenship by investment** | **NONE** — Omani nationality is governed by Royal Decree (Nationality Law) with extremely narrow naturalisation pathway (typically 20 years residence + Arabic + service to Oman); **not available to foreign property buyers** | ROP Naturalisation |
 
-(Sources: Royal Decree 89/2021 Investor Residency; MoCIIP investor-residency portal; ROP Civil Status & Passports — *verify current OMR thresholds and qualifying-asset definitions at `https://www.moci.gov.om/`*)
+(Sources: Royal Decree 89/2021 Investor Residency; MoCIIP investor-residency portal; ROP Civil Status & Passports — *verify current OMR thresholds and qualifying-asset definitions at `https://gov.om/en/ministry-of-commerce-industry-and-investment-promotion`*)
 
 ### Compliance / AML
 
@@ -110,7 +110,7 @@ Per Royal Decree 12/2006 (as amended) — verify current designated list at **MH
 
 ### Listing platforms
 
-- **Property Finder Oman** — `https://www.propertyfinder.om/`
+- **Property Finder Oman** — `https://www.propertyfinder.om/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **OpenSooq Oman** — `https://om.opensooq.com/`
 - **Bayut Oman** — limited presence; Property Finder dominates.
 - **Ezdan Oman** + **Justproperty Oman** — secondary aggregators.
@@ -228,7 +228,7 @@ What residents do pay annually:
 | **VAT on resale residential** | **EXEMPT** | OTA |
 | **VAT on commercial property + STR** | **5%** standard rate | OTA |
 
-(Sources: MHUP Land Registry fee schedule; MoCIIP broker regulations; Oman Tax Authority VAT Executive Regulations Royal Decree 121/2020 — *verify current fees at `https://www.mohup.gov.om/` and `https://tms.taxoman.gov.om/`*.)
+(Sources: MHUP Land Registry fee schedule; MoCIIP broker regulations; Oman Tax Authority VAT Executive Regulations Royal Decree 121/2020 — *verify current fees at `https://gov.om/en/ministry-of-housing-and-urban-planning` and `https://tms.taxoman.gov.om/`*.)
 
 **Total transaction cost (buyer side, cash)**: **~4–5% of price** (3% MHUP + ~2% agent + lawyer + admin) — among the **lowest in the world** for foreign buyers.
 
@@ -449,7 +449,7 @@ Oman urban property is essentially **always on mains** for water + electricity +
 
 | Service | Provider |
 |---|---|
-| **Electricity** | **Nama Electricity Distribution** (formerly Mazoon Electricity, Majan Electricity, Muscat Electricity Distribution — consolidated under **Nama Group** since 2020) — `https://www.namagroup.om/` |
+| **Electricity** | **Nama Electricity Distribution** (formerly Mazoon Electricity, Majan Electricity, Muscat Electricity Distribution — consolidated under **Nama Group** since 2020) — `https://www.nama.om/` |
 | **Water + sewerage** | **Nama Water** (formerly Diam Public Authority for Water — consolidated under Nama Group) |
 | **Bulk water (desalination)** | **Oman Power and Water Procurement Company (OPWP)** — bulk procurer feeding Nama Water; major IWPPs (Al Ghubrah, Barka, Sohar, Salalah) |
 | **District cooling** | **Tabreed Oman** + master-developer concessionaires (Al Mouj OMC, etc.) |
@@ -466,7 +466,7 @@ Oman urban property is essentially **always on mains** for water + electricity +
 
 ### Tariffs (residential indicative)
 
-- **Nama Electricity (Omani nationals)**: subsidised; first slabs at OMR 0.010/kWh; higher slabs progressive (verify current rate at `https://www.namagroup.om/`).
+- **Nama Electricity (Omani nationals)**: subsidised; first slabs at OMR 0.010/kWh; higher slabs progressive (verify current rate at `https://www.nama.om/`).
 - **Nama Electricity (expatriates / non-residential / cost-reflective tariff)**: **Cost-Reflective Tariff (CRT)** introduced 2021 for selected non-Omani residential and commercial — significantly higher than subsidised tariff; typical residential expat OMR 0.020–0.030/kWh blended (verify current schedule).
 - **Nama Water**: tiered residential — first 5 m³/month low; higher slabs progressive.
 - **District cooling** (Tabreed Oman + master developers): capacity charge + consumption — typical residential OMR 6–14 / sqm / yr all-in (verify per ITC).
@@ -683,7 +683,7 @@ Available to 100+ nationalities (incl. EU, UK, US, Australia, Canada, Japan) —
 
 ### Major insurers
 
-**Liva (formerly Oman Insurance + Royal & Sun Alliance combined)**, **Dhofar Insurance**, **National Life and General Insurance (NLGIC)**, **Oman United Insurance**, **AXA Gulf Oman**, **Oman Reinsurance**. Compared via [Capital Market Authority Oman Insurance](https://cma.gov.om/) + [Dhamani](https://dhamani.cma.gov.om/).
+**Liva (formerly Oman Insurance + Royal & Sun Alliance combined)**, **Dhofar Insurance**, **National Life and General Insurance (NLGIC)**, **Oman United Insurance**, **AXA Gulf Oman**, **Oman Reinsurance**. Compared via [Capital Market Authority Oman Insurance](https://cma.gov.om/) + [Dhamani](https://fsa.gov.om/Dhamani/About).
 
 ### Climate trajectory note
 
@@ -1028,7 +1028,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 ## Common listing platforms
 
-- **Property Finder Oman** — `https://www.propertyfinder.om/`
+- **Property Finder Oman** — `https://www.propertyfinder.om/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **OpenSooq Oman** — `https://om.opensooq.com/`
 - **Bayut Oman** (limited) — `https://www.bayut.om/`
 - Developer-direct: **Al Mouj Muscat** (`https://www.almouj.com/`), **Muriya** (Hawana / Jebel Sifah), **Saraya Oman**, **Muscat Hills Resort**, **Omran Group** (state developer).
@@ -1059,7 +1059,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **r/Muscat**
 - **InterNations Muscat** community — practical expat property + service-charge discussions
 - **ExpatWoman Oman** — `https://www.expatwoman.com/oman/`
-- **Property Finder Oman blog** — `https://www.propertyfinder.om/blog/`
+- **Property Finder Oman blog** — `https://www.propertyfinder.om/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this rowblog/`
 
 ## Verification authorities
 
@@ -1101,8 +1101,8 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Source | URL |
 |---|---|
 | Oman government portal | `https://oman.om/` |
-| Ministry of Housing & Urban Planning (MHUP) | `https://www.mohup.gov.om/` |
-| Ministry of Commerce, Industry and Investment Promotion (MoCIIP) | `https://www.moci.gov.om/` |
+| Ministry of Housing & Urban Planning (MHUP) | `https://gov.om/en/ministry-of-housing-and-urban-planning` |
+| Ministry of Commerce, Industry and Investment Promotion (MoCIIP) | `https://gov.om/en/ministry-of-commerce-industry-and-investment-promotion` |
 | Ministry of Justice and Legal Affairs (MoJLA) | `https://www.mjla.gov.om/` |
 | Royal Oman Police (ROP) | `https://www.rop.gov.om/` |
 | ROP eVisa | `https://evisa.rop.gov.om/` |
@@ -1114,17 +1114,17 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Ministry of Labour | `https://www.mol.gov.om/` |
 | Ministry of Transport, Communications and IT (MTCIT) | `https://www.mtcit.gov.om/` |
 | Capital Market Authority (CMA) Oman | `https://cma.gov.om/` |
-| Dhamani (mandatory health insurance) | `https://dhamani.cma.gov.om/` |
+| Dhamani (mandatory health insurance) | `https://fsa.gov.om/Dhamani/About` |
 | Authority for Public Services Regulation (APSR) | `https://www.apsr.om/` |
 | Oman Meteorology | `https://omd.met.gov.om/` |
 | Muscat Municipality | `https://www.mm.gov.om/` |
 | Mwasalat (public bus) | `https://www.mwasalat.om/` |
-| Nama Group (electricity + water) | `https://www.namagroup.om/` |
+| Nama Group (electricity + water) | `https://www.nama.om/` |
 | Omantel | `https://www.omantel.om/` |
 | Ooredoo Oman | `https://www.ooredoo.om/` |
 | Oman Post (postal codes) | `https://www.omanpost.om/` |
-| Vision 2040 | `https://www.oman2040.om/` |
-| Property Finder Oman | `https://www.propertyfinder.om/` |
+| Vision 2040 | `https://gov.om/en/oman-vision-2040-implementation-support-unit` |
+| Property Finder Oman | `https://www.propertyfinder.om/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | OpenSooq Oman | `https://om.opensooq.com/` |
 | Al Mouj Muscat | `https://www.almouj.com/` |
 | Muriya (Hawana / Jebel Sifah) | `https://www.muriya.om/` |

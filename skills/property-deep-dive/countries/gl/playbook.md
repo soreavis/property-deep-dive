@@ -93,8 +93,8 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
    - Statbank: [bank.stat.gl](https://bank.stat.gl/) — series include `BOXBYG` (building permits), housing-stock, dwellings
 2. **Self-Government housing rents (Iserit A/S)** — sets the public-rental benchmark for towns: [iserit.gl](https://www.iserit.gl/)
 3. **Listing platforms (private market — thin)**:
-   - [boligportal.gl](https://www.boligportal.gl/) — Nuuk + Sisimiut + Ilulissat (rentals + some sales)
-   - [estate.gl](https://www.estate.gl/) — agency listings (verify URL liveness)
+   - [boligportal.gl](https://www.boligportal.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — Nuuk + Sisimiut + Ilulissat (rentals + some sales)
+   - [estate.gl](https://www.estate.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — agency listings (verify URL liveness)
    - DBA / dba.dk Greenland filter — secondhand market
    - Facebook Marketplace "Sælges i Nuuk" — private-sale signal
 4. **Bank valuations**: [Grønlandsbanken](https://www.banken.gl/) + [BankNordik Grønland](https://www.banknordik.gl/) publish annual market commentary in Danish; treat as orientation, not transactional
@@ -390,8 +390,8 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Common listing platforms
 
-- [boligportal.gl](https://www.boligportal.gl/) — rentals + some sales
-- [estate.gl](https://www.estate.gl/) — verify URL
+- [boligportal.gl](https://www.boligportal.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — rentals + some sales
+- [estate.gl](https://www.estate.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — verify URL
 - [dba.dk](https://www.dba.dk/) (Greenland filter) — second-hand market incl. cabins (`hytter`)
 - Facebook Marketplace "Sælges i Nuuk" — private-sale signal
 

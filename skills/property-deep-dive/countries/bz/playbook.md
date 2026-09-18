@@ -273,7 +273,7 @@ Regulatory status (verified 2026-05):
 
 ### Job platforms
 
-- **Ministry of Public Service, Constitutional & Political Reform** (government jobs): `https://moecpr.gov.bz/` (verify; ministry name has been re-formed multiple times — confirm at gov.bz portal).
+- **Ministry of Public Service, Constitutional & Political Reform** (government jobs): `https://publicservice.gov.bz/` (verify; ministry name has been re-formed multiple times — confirm at gov.bz portal).
 - **Belize Jobs**: `https://www.belizejobs.com/` — generic.
 - **CaribbeanJobs.com** + **LinkedIn Belize** — regional + international roles.
 - **Belize Chamber of Commerce + Industry**: `https://www.belize.org/` — investor + business-community network.
@@ -325,7 +325,7 @@ Regulatory status (verified 2026-05):
 | **National Meteorological Service (NMS)** | `https://nms.gov.bz/` (verify; via Ministry of Sustainable Development) | Tropical-cyclone tracking, rainfall, climate normals |
 | **Coastal Zone Management Authority and Institute (CZMAI)** | `https://www.coastalzonebelize.org/` | Coastal management, reef monitoring, sea-level rise context |
 | **Geology and Petroleum Department** (Ministry of Natural Resources) | via `https://naturalresources.gov.bz/` | Geological hazards, seismic; **no comparable seismic-monitoring portal to Jamaica's UWI Earthquake Unit** — Belize is much lower seismic exposure |
-| **Forest Department + Department of the Environment** | via `https://environment.gov.bz/` | Wildfire, environmental impact assessments |
+| **Forest Department + Department of the Environment** | via `https://doe.gov.bz/` | Wildfire, environmental impact assessments |
 
 ### Hurricane (Atlantic basin)
 

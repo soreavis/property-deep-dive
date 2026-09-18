@@ -449,7 +449,7 @@ TN: ~7-8% est. (Q1 2026 — post-2022-23 shock; verify INS https://www.ins.tn)
 IN: ~4-5% est. (Q1 2026 — within RBI 4±2% target; verify NSO/MoSPI https://www.mospi.gov.in)
 NG: ~30%+ est. (Q1 2026 — post-NGN unification Jun 2023 shock easing; verify NBS https://nigerianstat.gov.ng)
 KE: ~6-7% est. (Q1 2026 — verify KNBS https://www.knbs.or.ke)
-JO: ~2.5% est. (Q1 2026 — pegged regime low CPI; verify DOS https://dos.gov.jo)
+JO: ~2.5% est. (Q1 2026 — pegged regime low CPI; verify DOS https://dosweb.dos.gov.jo/)
 OM: ~1.5% est. (Q1 2026 — pegged regime low CPI; verify NCSI https://www.ncsi.gov.om)
 BH: ~2.0% est. (Q1 2026 — pegged regime; verify iGA https://www.iga.gov.bh)
 KW: ~3.0% est. (Q1 2026 — verify CSB https://www.csb.gov.kw)
@@ -545,7 +545,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **KE** — CPI ~6-7% est. (Q1 2026 — easing; verify KNBS https://www.knbs.or.ke); GDP ~5% (2025 est. — agriculture + services); CBK CBR ~10.75% est. (gradual cuts — verify https://www.centralbank.go.ke); 10y KES ~13.50%; USD eurobonds ~9-10%; B/Caa1 rated. Macro flag: **stable expansion**, KES managed-float ~2-5%/yr USD depreciation; ~55M pop (2019 census 47.6M, 2024 KNBS); M-PESA mobile money 95%+ adoption (financial inclusion best-in-class); SGR Mombasa-Nairobi corridor; coworking Nairobi Westlands/Karen/Kilimani (iHub/Nailab/Workstyle/The Mint Hub).
 
-**JO** — CPI ~2.5% est. (Q1 2026 — pegged regime low CPI; verify DOS https://dos.gov.jo); GDP ~2-3% (2025 est. — IMF EFF on track + tourism recovery despite regional war); CBJ ~6.50% est. (Fed-bound via JOD/USD peg 0.7080 since 1995 — verify https://www.cbj.gov.jo); 10y JOD ~5.50%; USD eurobonds ~6-7%; BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~11.4M pop (2024 DOS estimate including refugees); among most water-poor globally — Disi+Red-Dead project; aridification + Dead Sea declining 1m/yr; Vision 2025/2033.
+**JO** — CPI ~2.5% est. (Q1 2026 — pegged regime low CPI; verify DOS https://dosweb.dos.gov.jo/); GDP ~2-3% (2025 est. — IMF EFF on track + tourism recovery despite regional war); CBJ ~6.50% est. (Fed-bound via JOD/USD peg 0.7080 since 1995 — verify https://www.cbj.gov.jo); 10y JOD ~5.50%; USD eurobonds ~6-7%; BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~11.4M pop (2024 DOS estimate including refugees); among most water-poor globally — Disi+Red-Dead project; aridification + Dead Sea declining 1m/yr; Vision 2025/2033.
 
 **OM** — CPI ~1.5% est. (Q1 2026 — pegged regime; verify NCSI https://www.ncsi.gov.om); GDP ~1-2% (2025 est. — hydrocarbon-driven, Vision 2040 diversification); CBO ~5.50% est. (Fed-bound via OMR/USD peg 0.385 since 1986 — verify https://cbo.gov.om); 10y OMR not actively traded; USD eurobonds ~UST + 70-100 bps; BB+ rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~5.0M pop (NCSI 2024); cyclone exposure HIGH — Gonu 2007/Mekunu 2018/Shaheen 2021 catastrophic Muscat; Khareef monsoon Salalah Jul-Sep; Vision 2040.
 
