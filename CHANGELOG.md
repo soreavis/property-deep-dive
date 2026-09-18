@@ -97,6 +97,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(liveness): 667-URL citation-repair wave — 377 re-points, 75 deprecations, geofenced hosts excluded, parenthesis-safe harvester ([#405](https://github.com/soreavis/property-deep-dive/pull/405)) — by @soreavis
 
+- chore(source-audit): #404 content-defect backlog — 235 verified corrections, 41 tracker entries, two refuter rounds ([#406](https://github.com/soreavis/property-deep-dive/pull/406)) — by @soreavis
+
 ## [2026.09.0] - 2026-09-17
 
 ### Fixed
