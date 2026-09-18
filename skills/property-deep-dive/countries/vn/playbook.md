@@ -64,7 +64,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 1. Ask the developer (chủ đầu tư) for a **Foreign Quota Confirmation Letter (Văn bản xác nhận hạn mức người nước ngoài)** — must be in writing, signed and stamped, and reference the specific project's MOC notification.
 2. The developer must have notified the provincial **Department of Construction (Sở Xây dựng)** of the foreign-eligible units list — under Article 79 Decree 95/2024/ND-CP, the Sở Xây dựng publishes the list of eligible projects and remaining foreign quota per project.
-3. Cross-check via the provincial Sở Xây dựng public list (HCMC: `https://soxaydung.hochiminhcity.gov.vn/`; Hanoi: `https://soxd.hanoi.gov.vn/`). The list of foreign-eligible projects is updated periodically.
+3. Cross-check via the provincial Sở Xây dựng public list (HCMC: `https://soxaydung.hochiminhcity.gov.vn/`; Hanoi: `https://soxaydung.hanoi.gov.vn/`). The list of foreign-eligible projects is updated periodically.
 4. **Trap**: a unit "marketed to foreigners" by a broker is not automatically in foreign quota; the developer must confirm in writing tied to the **specific unit number**.
 
 ### Tenure: 50 years + 50 years renewable (Housing Law 2023 Article 20)
@@ -121,7 +121,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
   - English summaries: `https://www.nso.gov.vn/en/statistical-data/`
 - **State Bank of Vietnam (SBV)** — quarterly real-estate credit reports + financial-stability monitors. `https://www.sbv.gov.vn/`
 - **Ministry of Construction (Bộ Xây dựng)** — quarterly housing market reports, price band updates by city. `https://moc.gov.vn/`
-- **Provincial Sở Xây dựng** — local market reports (HCMC `https://soxaydung.hochiminhcity.gov.vn/`, Hanoi `https://soxd.hanoi.gov.vn/`).
+- **Provincial Sở Xây dựng** — local market reports (HCMC `https://soxaydung.hochiminhcity.gov.vn/`, Hanoi `https://soxaydung.hanoi.gov.vn/`).
 - **MAE (formerly MONRE) annual land price tables (Bảng giá đất)** — provincial People's Committee publishes annual land-price tables under the 2024 Land Law (Decree 71/2024/ND-CP). These are the **statutory tax-base values**, typically 30–60% of market prices in major cities. Verify at provincial Sở TN&MT.
 
 ### Listing platforms (secondary, listings = seller-controlled)
@@ -172,9 +172,9 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 ### Primary sources
 
-- **Ministry of Transport (Bộ Giao thông Vận tải)** — `https://mt.gov.vn/` — national road network, AADT on national highways
+- **Ministry of Transport (Bộ Giao thông Vận tải)** — `https://moc.gov.vn/` — national road network, AADT on national highways
 - **Vietnam Road Administration (Tổng cục Đường bộ Việt Nam)** — `https://drvn.gov.vn/` — national road counts, expressway monitoring
-- **Provincial Department of Transport (Sở Giao thông Vận tải)** — local road counts; HCMC `https://sgtvt.hochiminhcity.gov.vn/`, Hanoi `https://sogtvt.hanoi.gov.vn/`
+- **Provincial Department of Transport (Sở Giao thông Vận tải)** — local road counts; HCMC `https://soxaydung.hochiminhcity.gov.vn/`, Hanoi `https://soxaydung.hanoi.gov.vn/`
 - **OpenStreetMap (OSM)** — fallback for road class when official AADT not available
 
 ### Verdict bands (vehicles per day, mixed motorbike + car)
@@ -337,7 +337,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 - **LinkedIn Vietnam**: very active in tech, finance, MNCs, HCMC-and-Hanoi-centric
 - **Glints Vietnam**: `https://glints.com/vn` — startup/tech focused
 - **JobStreet Vietnam** (now SEEK/JobsDB Asia group): `https://www.jobstreet.vn/`
-- **Government job portal — Department of Employment / Cục Việc làm**: under Ministry of Labour, Invalids and Social Affairs (MOLISA) `http://vieclamvietnam.gov.vn/`
+- **Government job portal — Department of Employment / Cục Việc làm**: under Ministry of Labour, Invalids and Social Affairs (MOLISA) `https://moha.gov.vn/`
 
 ### Work permit & visa
 
@@ -382,7 +382,7 @@ Key requirements:
 | HCMC median (all sectors, 2024 GSO) | ~10–13M | ~$390–$510 |
 | **Minimum wage 2026 (Region I, HCMC + Hanoi urban)** | 4.96M VND/month (Decree 74/2024/ND-CP, effective 1 Jul 2024) | ~$195 |
 
-Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `http://www.molisa.gov.vn/`, VietnamWorks salary surveys.
+Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `https://moha.gov.vn/`, VietnamWorks salary surveys.
 
 ### Confidence
 
@@ -401,7 +401,7 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `http://www.molisa.go
 | **Ministry of Agriculture and Environment (MAE, Bộ NN&MT — merger of MONRE + MARD eff 1 Mar 2025)** | `https://en.mae.gov.vn/` | National adaptation plan, sea-level monitoring, EIA |
 | **Vietnam Institute of Geosciences and Mineral Resources (VIGMR)** | `http://www.vigmr.vn/` | Geology, landslide, fault mapping |
 | **General Statistics Office (GSO)** | `https://www.nso.gov.vn/en/homepage/` | Disaster damage statistics |
-| **Vietnam Environment Administration (VEA)** | `http://vea.gov.vn/` | Air & water quality monitoring |
+| **Vietnam Environment Administration (VEA)** | `https://vea.mae.gov.vn/` | Air & water quality monitoring |
 | **Provincial Department of Natural Resources and Environment (Sở TN&MT)** | per province | Land-use plans, local risk zoning |
 
 ### Flood & typhoon (lũ lụt và bão)
@@ -439,7 +439,7 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `http://www.molisa.go
 - **HCMC**: chronic but lower than Hanoi; typically 40–80 µg/m³, peak 150+ during dry-season inversions.
 - **Northern provinces** (Bắc Ninh, Hưng Yên, Vĩnh Phúc, Hải Dương): industrial + crop-burning + Hanoi spillover; among worst in Vietnam.
 - **Da Nang, Nha Trang, Phu Quoc**: significantly cleaner due to coastal ventilation — typical PM2.5 20–50 µg/m³.
-- Source: VEA `http://vea.gov.vn/`, PAM Air `https://pamair.org/`.
+- Source: VEA `https://vea.mae.gov.vn/`, PAM Air `https://pamair.org/`.
 
 ### Climate-change projections (NCHMF + IPCC AR6 + MONRE National Adaptation Plan 2022)
 
@@ -500,7 +500,7 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `http://www.molisa.go
 - **Hanoi**: similar — Yen So Wastewater Treatment Plant + several others. Inner districts ~50–60% mains coverage, outer districts much lower.
 - **Provincial cities**: coverage drops sharply outside provincial seats. Most condo/apartment developments use **on-site treatment plants (Hệ thống xử lý nước thải tập trung của tòa nhà)** required by Vietnamese building code (QCVN 14:2008/BTNMT national wastewater discharge standard) for residential buildings above a threshold.
 - **Rural / villa areas**: septic tank + soakaway is the norm. Modern villas typically have **3-stage septic + biological filter + soakaway**; older / informal may have simple cesspit (bể tự hoại đơn giản).
-- **Wastewater regulator**: MAE (formerly MONRE) + Vietnam Environment Administration `http://vea.gov.vn/`.
+- **Wastewater regulator**: MAE (formerly MONRE) + Vietnam Environment Administration `https://vea.mae.gov.vn/`.
 
 ### Verification path
 
@@ -611,7 +611,7 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `http://www.molisa.go
 - **r/saigon**, **r/Hanoi**, **r/Danang** — city-specific
 - **r/expats** + **r/IWantOut** — long-stay / relocation
 - **r/digitalnomad** — DTV / Da Nang / Hoi An nomad threads
-- **VietnamExpats forum**: `https://www.vietnamexpats.com/` — long-running expat forum, real-estate threads
+- **VietnamExpats forum**: `https://www.vietnamexpats.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — long-running expat forum, real-estate threads
 - **AsiaExpats / Living Vietnam** Facebook groups — many real-estate discussions, anecdotal
 - **Saigoneer** (English-language news + community): `https://saigoneer.com/`
 - ⚠️ Forum-quality caveat: many anecdotes about "company structure to own land" or "name-lender (mượn tên)" arrangements — these are illegal and have been increasingly enforced since 2018; treat older forum threads as outdated. Real-estate enforcement landscape changed materially with the 2023 Housing Law and 2024 Land Law (both in force **1 Aug 2024** — corrected 2026-08-07; previously mis-stated here as 2025-08-01).
@@ -631,13 +631,13 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `http://www.molisa.go
 | **Provincial Department of Natural Resources and Environment (Sở TN&MT)** | Pink Book transfer, encumbrance search, cadastral map | per province |
 | **Provincial VPĐKĐĐ (Office for Land Use Rights Registration)** | Pink Book issuance and transfer | under provincial Sở TN&MT |
 | **Vietnam Immigration (Cục Quản lý Xuất nhập cảnh)** | Visa, eVisa, TRC, work permit immigration angle | `https://www.xuatnhapcanh.gov.vn/` and `https://evisa.xuatnhapcanh.gov.vn/` |
-| **MOLISA (Ministry of Labour, Invalids and Social Affairs)** | Work permit, foreign labour rules | `http://www.molisa.gov.vn/` |
+| **MOLISA (Ministry of Labour, Invalids and Social Affairs)** | Work permit, foreign labour rules | `https://moha.gov.vn/` |
 | **Provincial Sở Cảnh sát PCCC (Fire Police)** | Fire safety inspection certificate | per province |
-| **Vietnam Environment Administration (VEA)** | Air & water quality | `http://vea.gov.vn/` |
+| **Vietnam Environment Administration (VEA)** | Air & water quality | `https://vea.mae.gov.vn/` |
 | **National Centre for Hydro-Meteorological Forecasting (NCHMF)** | Typhoon, monsoon, climate | `https://nchmf.gov.vn/` |
 | **Vietnam Disaster Management Authority** under MARD | Flood / hazard / disaster history | `https://phongchongthientai.mard.gov.vn/` |
 | **General Statistics Office (GSO)** | Population, CPI, real-estate index, urban housing | `https://www.nso.gov.vn/en/homepage/` |
-| **Ministry of Public Security (Bộ Công an) / Immigration Department** | Việt kiều status confirmation, criminal record | `http://bca.gov.vn/` |
+| **Ministry of Public Security (Bộ Công an) / Immigration Department** | Việt kiều status confirmation, criminal record | `https://bocongan.gov.vn/` |
 | **Vietnam Notary Association (Hiệp hội Công chứng viên Việt Nam)** | Find licensed notary | per province notary office (Phòng Công chứng) |
 
 ---
@@ -678,23 +678,23 @@ Sources: GSO `https://www.nso.gov.vn/en/homepage/`, MOLISA `http://www.molisa.go
 | Government Portal (cabinet resolutions) | `https://chinhphu.vn/` |
 | Vietnam Immigration | `https://www.xuatnhapcanh.gov.vn/` |
 | Vietnam eVisa | `https://evisa.xuatnhapcanh.gov.vn/` |
-| MOLISA (work permit) | `http://www.molisa.gov.vn/` |
-| Ministry of Public Security | `http://bca.gov.vn/` |
+| MOLISA (work permit) | `https://moha.gov.vn/` |
+| Ministry of Public Security | `https://bocongan.gov.vn/` |
 | Ministry of Home Affairs (admin units) | `https://www.moha.gov.vn/` |
-| Ministry of Transport | `https://mt.gov.vn/` |
+| Ministry of Transport | `https://moc.gov.vn/` |
 | Vietnam Road Administration | `https://drvn.gov.vn/` |
 | HCMC People's Committee | `https://hochiminhcity.gov.vn/` |
 | Hanoi People's Committee | `https://hanoi.gov.vn/` |
 | HCMC Sở Xây dựng | `https://soxaydung.hochiminhcity.gov.vn/` |
-| Hanoi Sở Xây dựng | `https://soxd.hanoi.gov.vn/` |
-| HCMC Sở GTVT | `https://sgtvt.hochiminhcity.gov.vn/` |
-| Hanoi Sở GTVT | `https://sogtvt.hanoi.gov.vn/` |
+| Hanoi Sở Xây dựng | `https://soxaydung.hanoi.gov.vn/` |
+| HCMC Sở GTVT | `https://soxaydung.hochiminhcity.gov.vn/` |
+| Hanoi Sở GTVT | `https://soxaydung.hanoi.gov.vn/` |
 | SAWACO (HCMC water) | `https://sawaco.com.vn/` |
 | HAWACOM (Hanoi water) | `https://hawacom.vn/` |
 | GSO (statistics) | `https://www.nso.gov.vn/en/homepage/` |
 | NCHMF (meteorology, typhoon) | `https://nchmf.gov.vn/` |
 | Vietnam Disaster Management Authority | `https://phongchongthientai.mard.gov.vn/` |
-| Vietnam Environment Administration | `http://vea.gov.vn/` |
+| Vietnam Environment Administration | `https://vea.mae.gov.vn/` |
 | PAM Air (AQ) | `https://pamair.org/` |
 | Vietnam Post (postcode) | `https://www.vnpost.vn/` |
 | Batdongsan.com.vn | `https://batdongsan.com.vn/` |

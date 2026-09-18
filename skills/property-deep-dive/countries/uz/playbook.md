@@ -181,7 +181,7 @@ Source: Tax Code Art. 425; [Kun.uz tax brief Dec 2024](https://kun.uz/en/8467672
 | Regional centres + Tashkent oblast | **2,200,000** | ~$176 |
 | Other localities | **1,300,000** | ~$104 |
 
-Source: [Kun.uz](https://kun.uz/en/84676729) + State Tax Committee guidance; **2026 figures indexed +7 %** per EY 2026 alert (verify exact 2026 floors at [soliq.uz](https://soliq.uz/) before relying).
+Source: [Kun.uz](https://kun.uz/en/84676729) + State Tax Committee guidance; **2026 figures indexed +7 %** per EY 2026 alert (verify exact 2026 floors at [soliq.uz](https://gov.uz/en/soliq) before relying).
 
 ### Example calculation (Tashkent mid-segment apartment)
 
@@ -191,7 +191,7 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
 - 2026 indexation +7 % → ~UZS 840,000/year (~US$67/year)
 - **Annual property tax in UZ is materially low** (typically US$50–US$200/year for an Tashkent mid-segment flat) — among the lowest in the broader Central Asia / CIS region.
 
-> Effective property-tax rate on **market value** (not cadastral) is typically **0.05–0.15 %** for Tashkent residential — even with the 2025 floor uplift + 2026 +7 % indexation, the tax burden remains negligible by global standards. Verify per parcel with the State Tax Committee at [soliq.uz](https://soliq.uz/) or via your taxpayer cabinet (`my.soliq.uz`).
+> Effective property-tax rate on **market value** (not cadastral) is typically **0.05–0.15 %** for Tashkent residential — even with the 2025 floor uplift + 2026 +7 % indexation, the tax burden remains negligible by global standards. Verify per parcel with the State Tax Committee at [soliq.uz](https://gov.uz/en/soliq) or via your taxpayer cabinet (`my.soliq.uz`).
 
 ### Land tax (Yer solig'i / Земельный налог)
 
@@ -280,7 +280,7 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
 
 - **Individual operating informally**: 12 % PIT on net rental + risk of being reclassified as "entrepreneurial activity" → triggers IE registration + retroactive penalties
 - **IE under 4 % turnover regime**: works for STR if cap respected
-- **VAT registration**: required if turnover crosses VAT threshold (verify at [soliq.uz](https://soliq.uz/) — currently UZS 1B / ~US$80k turnover)
+- **VAT registration**: required if turnover crosses VAT threshold (verify at [soliq.uz](https://gov.uz/en/soliq) — currently UZS 1B / ~US$80k turnover)
 - **Tourist tax / accommodation fee**: NONE national; some Tashkent + Samarkand + Bukhara districts experimenting with municipal-level levies — verify per khokimiyat before listing
 
 #### Practical (2025–2026)
@@ -380,10 +380,10 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Ministry of Emergency Situations (FVV — Favqulodda vaziyatlar vazirligi)** | [fvv.uz](https://fvv.uz/) | Operational hazard data, flood/earthquake/fire response, civil protection plans |
-| **Institute of Seismology, Academy of Sciences of the Republic of Uzbekistan** | [seismology.uz](http://www.seismology.uz/) (verify current URL) | Real-time + historic seismicity, fault maps, intensity zoning, Tashkent + Fergana Valley active fault catalogue |
+| **Ministry of Emergency Situations (FVV — Favqulodda vaziyatlar vazirligi)** | [fvv.uz](https://gov.uz/en/fvv) | Operational hazard data, flood/earthquake/fire response, civil protection plans |
+| **Institute of Seismology, Academy of Sciences of the Republic of Uzbekistan** | [seismology.uz](https://www.seismos.uz/) (verify current URL) | Real-time + historic seismicity, fault maps, intensity zoning, Tashkent + Fergana Valley active fault catalogue |
 | **Centre of Hydrometeorological Service (Uzhydromet — Oʻzgidromet)** | [meteo.uz](https://www.meteo.uz/en) | Weather, flood warnings, climate baseline, drought monitoring (Aral basin) |
-| **Ministry of Ecology, Environmental Protection and Climate Change** | [eco.gov.uz](https://www.eco.gov.uz/en) | Environmental risk reports, Aral Sea region monitoring, climate adaptation |
+| **Ministry of Ecology, Environmental Protection and Climate Change** | [eco.gov.uz](https://gov.uz/en/eco) | Environmental risk reports, Aral Sea region monitoring, climate adaptation |
 | **State Architectural and Construction Inspectorate** | under Ministry of Construction | Building-code enforcement (KMK / ҚМҚ — Қурилиш меъёрлари ва қоидалари series, equivalent to Russian SNiP); seismic-design certification |
 | **Cadastre Agency** | [kadastr.uz](https://kadastr.uz/en) | Cadastre + zoning + restricted-zone flag (border / strategic) |
 
@@ -459,7 +459,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 ### National database + operators
 
 - **Tariff regulator**: [Cabinet of Ministers + Ministry of Energy](https://www.energy.uz/) — sets utility tariffs (electricity, gas, water, heating)
-- **Electricity transmission**: **JSC "National Electric Grid of Uzbekistan"** ([uzenergo.uz](https://www.uzenergo.uz/)) — successor to Uzbekenergo (split 2019); distribution via regional electricity companies (REC) per viloyat:
+- **Electricity transmission**: **JSC "National Electric Grid of Uzbekistan"** ([uzenergo.uz](https://www.uzbekistonmet.uz/en)) — successor to Uzbekenergo (split 2019); distribution via regional electricity companies (REC) per viloyat:
   - Tashkent: **Tashkent City Electric Networks** + retail
   - Other regions: regional REC subsidiaries
 - **Gas distribution**: **JSC "Hududgazta'minot"** + **JSC "Uztransgaz"** (national transmission) under Ministry of Energy
@@ -519,7 +519,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 ### Primary sources
 
-- **Ministry of Internal Affairs (IIV — Ichki ishlar vazirligi)**: [iiv.uz](https://www.iiv.uz/) — national crime statistics + district inspector (uchastkovy / mahalla inspektor) network
+- **Ministry of Internal Affairs (IIV — Ichki ishlar vazirligi)**: [iiv.uz](https://gov.uz/uz/iiv) — national crime statistics + district inspector (uchastkovy / mahalla inspektor) network
 - **State Statistics Committee — Crime and Justice section** ([stat.uz/en/official-statistics/crime-and-justice](https://stat.uz/en/official-statistics/crime-and-justice))
 - **Prosecutor General's Office (Bosh prokuratura)**: [prokuratura.uz](https://www.prokuratura.uz/) — prosecutorial statistics
 - **Department for Combating Economic Crimes**: AML + financial crime
@@ -660,7 +660,7 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 |---|---|
 | **State Public Service Centres ("Yagona Markaz" — Single Centre Network)** | Cadastre extract, IE registration, foreigner ID (STIR), all my.gov.uz services in person; nationwide branches |
 | **my.gov.uz** | Online cadastre extract, IE registration, tax filing — requires Electronic Digital Signature (EDS); foreigners with STIR can register |
-| **State Tax Committee (STC / Soliq qoʻmitasi)** | [soliq.uz](https://soliq.uz/) — tax residency, IE applications, individual income declaration, VAT registration; my.soliq.uz taxpayer cabinet |
+| **State Tax Committee (STC / Soliq qoʻmitasi)** | [soliq.uz](https://gov.uz/en/soliq) — tax residency, IE applications, individual income declaration, VAT registration; my.soliq.uz taxpayer cabinet |
 | **Central Bank of Uzbekistan (CBU)** | [cbu.uz/en](https://cbu.uz/en/) — currency-control declarations for cross-border, USDUZS reference rate |
 | **Cadastre Agency** | [kadastr.uz/en](https://kadastr.uz/en) — e-Kadastr extracts, technical passports, cadastral valuation |
 | **Notarial Chamber (Notarial palata)** | Find notary, verify notary licence; under Ministry of Justice |
@@ -696,7 +696,7 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 | State Statistics Committee (Stat.uz) | [stat.uz/en](https://stat.uz/en/) |
 | Single portal of public services (my.gov.uz) | [my.gov.uz](https://my.gov.uz/) |
 | Lex.uz legal information system | [lex.uz](https://lex.uz/) |
-| State Tax Committee (STC) | [soliq.uz](https://soliq.uz/) |
+| State Tax Committee (STC) | [soliq.uz](https://gov.uz/en/soliq) |
 | Central Bank of Uzbekistan | [cbu.uz/en](https://cbu.uz/en/) |
 | Cadastre Agency | [kadastr.uz/en](https://kadastr.uz/en) |
 | Uybor.uz listings | [uybor.uz/en](https://uybor.uz/en) |
@@ -706,16 +706,16 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 | IT Park Uzbekistan | [it-park.uz/en](https://www.it-park.uz/en/) |
 | Tashkent Khokimiyat | [tashkent.uz](https://tashkent.uz/) |
 | Suvsoz (water) | [suvsoz.uz](https://toshkent.uzsuv.uz) |
-| Uzenergo (electricity) | [uzenergo.uz](https://www.uzenergo.uz/) |
-| Ministry of Emergency Situations | [fvv.uz](https://fvv.uz/) |
+| Uzenergo (electricity) | [uzenergo.uz](https://www.uzbekistonmet.uz/en) |
+| Ministry of Emergency Situations | [fvv.uz](https://gov.uz/en/fvv) |
 | Uzhydromet | [meteo.uz/en](https://www.meteo.uz/en) |
-| Ministry of Ecology | [eco.gov.uz/en](https://www.eco.gov.uz/en) |
+| Ministry of Ecology | [eco.gov.uz/en](https://gov.uz/en/eco) |
 | Ministry of Investments and Foreign Trade | [invest.gov.uz](https://invest.gov.uz/) |
 | Ministry of Foreign Affairs | [mfa.uz](https://www.mfa.uz/) |
 | Ministry of Construction | [stroy.uz](https://gov.uz/en/mc) |
 | Ministry of Justice (Adliya) | [adliya.uz](https://www.adliya.uz/) |
 | Ministry of Energy | [energy.uz](https://www.energy.uz/) |
-| Ministry of Internal Affairs | [iiv.uz](https://www.iiv.uz/) |
+| Ministry of Internal Affairs | [iiv.uz](https://gov.uz/uz/iiv) |
 | Norma legal aggregator | [norma.uz](https://www.norma.uz/) |
 | Tax-legal.uz | [tax-legal.uz/en](https://tax-legal.uz/en/) |
 | EY Uzbekistan tax updates | [ey.com/en_uz](https://www.ey.com/en_uz) |

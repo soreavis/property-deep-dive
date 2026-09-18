@@ -266,7 +266,7 @@ This is a meaningful annual cost for any foreign buyer targeting a 130 m²+ Chi�
 ### Visa / residence pathway for working foreigners
 
 - **90/180-day visa-free** for Western passports (above) — covers business-trip / scoping
-- **Work + residence permit** via [BMA — Biroul Migrație și Azil](https://bma.gov.md/): tied to employer or business; processing ~30 days
+- **Work + residence permit** via [BMA — Biroul Migrație și Azil](https://igm.gov.md/): tied to employer or business; processing ~30 days
 - **Investor residence permit** (Law 200/2010 Art. 50): minimum **€250,000** investment in the Moldovan economy → 5-year permit, renewable; pathway to naturalisation after 8 years' continuous residence (Law No. 1024/2000 on Citizenship Art. 17)
 - **Romanian-citizenship path** (Law No. 21/1991 Romania): Moldovans of Romanian descent (very large pool, both pre-1940 + Bessarabian heritage) eligible for **EU Romanian passport via descent** — material indirectly because dual-citizen Moldovan-Romanian buyers face NO foreign-buyer restriction in Romania for residential AND already have full EU access from a Moldovan address
 
@@ -536,7 +536,7 @@ Universal — see `shared/climate-projections.md`. National source: Serviciul Hi
 
 - **Property purchase alone does NOT confer residence** — Moldova has no real-estate-linked golden visa equivalent to Portugal-D7 / Spain-DNV / Greece pre-2024
 - Foreign buyer typically holds property as **non-resident** with no residence rights from the property; physical presence governed by visa-free 90/180 rule for Western passports
-- **Investor residence Law 200/2010 Art. 50 €250k threshold**: real estate investment may qualify but typically requires productive-economy criteria — verify with [BMA — Biroul Migrație și Azil](https://bma.gov.md/) before relying
+- **Investor residence Law 200/2010 Art. 50 €250k threshold**: real estate investment may qualify but typically requires productive-economy criteria — verify with [BMA — Biroul Migrație și Azil](https://igm.gov.md/) before relying
 
 ### Romanian-citizenship adjacency
 
@@ -608,7 +608,7 @@ Moldova is **civil-law**; **notar** mandatory for any immovable-property transfe
 
 ### Notary selection
 
-- Camera Notarială register: `https://www.notariat.md/` — ~280+ notaries, mostly Chișinău
+- Camera Notarială register: `https://cnm.md/lista-notarilor/` — ~280+ notaries, mostly Chișinău
 - **Buyer should engage independent notary** (not seller's) — common practice but not statutorily required
 
 ### Foreign buyer practical
@@ -948,14 +948,14 @@ Moldova is a **niche** retirement destination — primarily for diaspora-return 
 |---|---|
 | ASP cadastre | `https://cadastru.md/` |
 | Cadastrul Bunurilor Imobile geoportal | `https://www.asp.gov.md/en` |
-| ASP self-service | `https://e-cadastru.md/` |
+| ASP self-service | `https://www.ipcbi.gov.md/ro` |
 | SFS Tax Service | `https://www.fisc.md/` |
-| BMA Migration Bureau | `https://bma.gov.md/` |
+| BMA Migration Bureau | `https://igm.gov.md/` |
 | BNM National Bank | `https://www.bnm.md/` |
 | BNM exchange rates | `https://www.bnm.md/en/content/official-exchange-rates` |
 | BNS Statistics | `https://statistica.gov.md/` |
 | CNPF Financial Markets | `https://www.cnpf.md/` |
-| Notarial Chamber | `https://www.notariat.md/` |
+| Notarial Chamber | `https://cnm.md/lista-notarilor/` |
 | ANRE Energy Regulator | `https://www.anre.md/` |
 | ApăCanal Chișinău | `https://acc.md/` |
 | Termoelectrica | `https://termoelectrica.md/` |

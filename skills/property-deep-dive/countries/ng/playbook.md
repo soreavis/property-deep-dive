@@ -19,8 +19,8 @@ ISO2: `ng`. Status: PARTIALLY OPEN with state-level fragmentation (Land Use Act 
 - **Recent reforms** (verify date-stamped):
   - **Tinubu Administration since May 2023** — fuel subsidy removal, naira float, tax-reform agenda
   - **CBN Naira Float Jun 2023** + sequential FX-policy adjustments 2024-26
-  - **Finance Acts 2019/2020/2021/2023** — VAT 7.5% (Finance Act 2019), Stamp Duty rationalization (FIRS — `https://www.firs.gov.ng/`)
-  - **Lagos State Land Use Charge Law 2018** — major property-tax reform (`https://landusecharge.lagosstate.gov.ng/`)
+  - **Finance Acts 2019/2020/2021/2023** — VAT 7.5% (Finance Act 2019), Stamp Duty rationalization (FIRS — `https://www.nrs.gov.ng/`)
+  - **Lagos State Land Use Charge Law 2018** — major property-tax reform (`https://luc.lagosstate.gov.ng/`)
   - **Nigeria Tax Reform Acts 2025** — Nigeria Tax Act (NTA), Nigeria Tax Administration Act (NTAA), Nigeria Revenue Service Act (NRSA), Joint Revenue Board Act (JRBA); **signed by President Tinubu on 26 Jun 2025; commencement 1 Jan 2026** (2026-05-27 verified, source: State House Abuja + PwC NG + EY). Key outcomes: VAT **retained at 7.5 %** (proposed 12.5 % phasing DROPPED); residential rent **zero-rated**; CGT flat 10 % **REPLACED** — individuals taxed at progressive PIT bands (0–25 % top), corporates aligned with 30 % CIT; PIT bands restructured (₦800k tax-free threshold + 7 %/11 %/15 %/.../25 % top); CIT **retained at 30 %** (proposed 25 % NOT enacted; small companies ≤ ₦25M turnover at 0 % CIT; 15 % domestic minimum tax for large MNEs); FIRS reorganised and rebranded as **Nigeria Revenue Service (NRS)**.
   - **Land Use Act amendment debate 2023-26** — state-vs-federal discussion; no enacted change as of 2026-05
   - **Eko Atlantic City** ongoing reclamation Lagos (Bar Beach) — LASG + South Energyx
@@ -131,8 +131,8 @@ Required for any subsequent assignment / mortgage / sublease (LUA s. 22). **Larg
 
 - **Federal Ministry of Works** — `https://works.gov.ng/` — federal road inventory; limited open AADT data
 - **Federal Roads Maintenance Agency (FERMA)** — `https://ferma.gov.ng/` — federal road condition + occasional traffic counts
-- **Lagos State Ministry of Transportation + LASTMA** (`https://lastma.lagosstate.gov.ng/`) — Lagos traffic enforcement; corridor-level data limited
-- **Lagos Metropolitan Area Transport Authority (LAMATA)** — `https://lamata.lagosstate.gov.ng/` — BRT corridors + integrated transport
+- **Lagos State Ministry of Transportation + LASTMA** (`https://lastma.lagosstate.gov.ng/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — Lagos traffic enforcement; corridor-level data limited
+- **Lagos Metropolitan Area Transport Authority (LAMATA)** — `https://lamata.ng/` — BRT corridors + integrated transport
 - **FCT Transport Secretariat** (Abuja) — limited open data
 - **OSM fallback**: `highway` class — best practical proxy for Nigerian road tier
 
@@ -171,7 +171,7 @@ LOW — per-segment AADT comparable to EU/UK datasets is **not publicly availabl
 
 | State/FCT | Tax type | Rate / source |
 |---|---|---|
-| **Lagos** | **Land Use Charge (LUC)** | **0.076–0.394% sliding** annual on assessed value (Lagos State LUC Law 2018; `https://landusecharge.lagosstate.gov.ng/`) |
+| **Lagos** | **Land Use Charge (LUC)** | **0.076–0.394% sliding** annual on assessed value (Lagos State LUC Law 2018; `https://luc.lagosstate.gov.ng/`) |
 | **FCT Abuja** | Tenement Rate | Set by FCT Area Councils (AMAC, Bwari, Gwagwalada, Kuje, Kwali, Abaji); verify per council |
 | **Other states** | Tenement / Property Tax | LGA-administered; modest absolute NGN; varies widely |
 
@@ -189,7 +189,7 @@ LOW — per-segment AADT comparable to EU/UK datasets is **not publicly availabl
 
 | Item | Rate | Authority |
 |---|---|---|
-| **Stamp Duty (federal)** | **1.5–3% sliding** | FIRS (Stamp Duty Act + Finance Act 2019/2020); `https://www.firs.gov.ng/` |
+| **Stamp Duty (federal)** | **1.5–3% sliding** | FIRS (Stamp Duty Act + Finance Act 2019/2020); `https://www.nrs.gov.ng/` |
 | **CGT (federal, seller)** | **Regime change eff 1 Jan 2026 (Nigeria Tax Act 2025)** — flat 10 % REPLACED. Individuals: progressive PIT bands (0–25 %); Corporates: 30 % CIT-aligned. Primary-residence exemption now **once-in-a-lifetime** for dwelling-house + ~1 acre adjoining land (verify at NRS, 2026-05-27 verified) | NRS (formerly FIRS) — Nigeria Tax Act 2025; pre-2026: CGT Act Cap C1 LFN 2004 |
 | **Governor's Consent Fee — STATE-LEVEL** | **Lagos 8–15% sliding (superseded by 2026 Blue Book — Consent-Fee headline now ~1.5% of uplifted FMV; see --foreign-buyer); FCT 8%; smaller states 3–5%** | State Lands Bureau / AGIS |
 | **Registration Fee — STATE-LEVEL** | Lagos ~0.5–1%; varies | State Lands Registry |
@@ -253,7 +253,7 @@ Tax Reform Bills 2024-25 pending; state revenue intensification post-devaluation
 
 **Status**: undergoverned federally; growing Lagos Lekki/Ikoyi/VI + Abuja Maitama.
 
-- **Lagos State Tourism Promotion Authority** — STR licensing framework (rare formal compliance) — `https://lstpa.lagosstate.gov.ng/`
+- **Lagos State Tourism Promotion Authority** — STR licensing framework (rare formal compliance) — `https://lstpa.lagosstate.gov.ng/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Estate / HOA covenants**: most gated estates (Banana Island, Lekki Phase 1, Ikoyi) **prohibit STR** via covenants — read estate by-laws BEFORE buying for STR
 - **VAT**: 7.5% applies if operator VAT-registered
 
@@ -577,7 +577,7 @@ Lagos coastal: AC year-round; SLR exposure for parcels <5 m elevation; flood-pro
 ### BVN + NIN — mandatory IDs
 
 - **BVN — Bank Verification Number** (NIBSS — `https://nibss-plc.com.ng/`) — all bank accounts
-- **NIN — National Identification Number** (NIMC — `https://www.nimc.gov.ng/`) — property, sim, tax
+- **NIN — National Identification Number** (NIMC — `https://nimc.gov.ng/`) — property, sim, tax
 - **Both required** for formal-sector property transactions
 
 ### For foreign buyers
@@ -625,7 +625,7 @@ NIDCOM (`https://nidcom.gov.ng/`) — Nigerian Diaspora Investment Trust Fund + 
 ### Regulator + insurers
 
 - **NAICOM — National Insurance Commission** — `https://naicom.gov.ng/`
-- **NIA — Nigerian Insurers Association** — `https://www.nigerianinsurers.org/`
+- **NIA — Nigerian Insurers Association** — `https://naicom.gov.ng/`
 - **Major insurers**: AIICO, Leadway, AXA Mansard, NEM Insurance, Custodian Investment, Sovereign Trust
 
 ### Coverage typical
@@ -1033,21 +1033,21 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 | Source | URL |
 |---|---|
 | Federal laws (Land Use Act etc.) | `https://www.lawsofnigeria.placng.org/` |
-| FIRS (federal tax) | `https://www.firs.gov.ng/` |
+| FIRS (federal tax) | `https://www.nrs.gov.ng/` |
 | CBN | `https://www.cbn.gov.ng/` |
 | Lagos State Lands Bureau | `https://landsbureau.lagosstate.gov.ng/` |
-| LIRS / Lagos LUC | `https://lirs.gov.ng/` + `https://landusecharge.lagosstate.gov.ng/` |
-| LASRRA / LASPPPA | `https://lasrra.lagosstate.gov.ng/` + `https://lasppa.lagosstate.gov.ng/` |
+| LIRS / Lagos LUC | `https://lirs.gov.ng/` + `https://luc.lagosstate.gov.ng/` |
+| LASRRA / LASPPPA | `https://registration.lagosresidents.gov.ng/` + `https://lasppa.lagosstate.gov.ng/` |
 | AGIS Abuja / FCDA | `https://agis.fcta.gov.ng/` + `https://fcda.gov.ng/` |
-| FMLHUD / FMBN (NHF) | `https://fmlhud.gov.ng/` + `https://www.fmbn.gov.ng/` |
+| FMLHUD / FMBN (NHF) | `https://fmhud.gov.ng/` + `https://www.fmbn.gov.ng/` |
 | NIS / Federal Ministry of Interior | `https://immigration.gov.ng/` + `https://www.interior.gov.ng/` |
-| NIMC (NIN) / NIBSS (BVN) | `https://www.nimc.gov.ng/` + `https://nibss-plc.com.ng/` |
+| NIMC (NIN) / NIBSS (BVN) | `https://nimc.gov.ng/` + `https://nibss-plc.com.ng/` |
 | NFIU (AML) / CAC | `https://nfiu.gov.ng/` + `https://www.cac.gov.ng/` |
 | NBS / NIPC | `https://www.nigerianstat.gov.ng/` + `https://www.nipc.gov.ng/` |
 | NEMA / NIMET / NIHSA | `https://nema.gov.ng/` + `https://nimet.gov.ng/` + `https://nihsa.gov.ng/` |
 | Federal Ministry of Environment | `https://environment.gov.ng/` |
 | NERC / NCC / NAICOM | `https://nerc.gov.ng/` + `https://www.ncc.gov.ng/` + `https://naicom.gov.ng/` |
-| LAMATA / Lagos Tourism (LSTPA) | `https://lamata.lagosstate.gov.ng/` + `https://lstpa.lagosstate.gov.ng/` |
+| LAMATA / Lagos Tourism (LSTPA) | `https://lamata.ng/` + `https://lstpa.lagosstate.gov.ng/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | NIDCOM (Diaspora) | `https://nidcom.gov.ng/` |
 | PropertyPro.ng / Nigeria Property Centre | `https://www.propertypro.ng/` + `https://nigeriapropertycentre.com/` |
 | Eko Atlantic | `https://www.ekoatlantic.com/` |

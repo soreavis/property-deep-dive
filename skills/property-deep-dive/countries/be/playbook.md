@@ -244,7 +244,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|---|
 | **Geopunt Vlaanderen** | `https://www.geopunt.be/` | Vlaanderen geo-data, hazard layers |
 | **WalOnMap** | `https://geoportail.wallonie.be/` | Wallonie geoportal |
-| **BruGIS** | `https://gis.brussels.be/` | Bruxelles geoportal |
+| **BruGIS** | `https://gis.urban.brussels/brugis` | Bruxelles geoportal |
 | **CIRGT Wallonie** | `https://environnement.wallonie.be/` | Risk maps Wallonie |
 | **OVAM** (Vlaanderen bodempolluties) | `https://www.ovam.be/` | Soil pollution Vlaanderen |
 | **Bruxelles Environnement** | `https://environnement.brussels/` | Bruxelles env data |
@@ -409,7 +409,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 | STATBEL housing | `https://statbel.fgov.be/en/themes/housing/real-estate` |
 | Geopunt Vlaanderen | `https://www.geopunt.be/` |
 | WalOnMap | `https://geoportail.wallonie.be/` |
-| BruGIS | `https://gis.brussels.be/` |
+| BruGIS | `https://gis.urban.brussels/brugis` |
 | OVAM Vlaanderen | `https://www.ovam.be/` |
 | Bruxelles Environnement | `https://environnement.brussels/` |
 | Immoweb | `https://www.immoweb.be/` |

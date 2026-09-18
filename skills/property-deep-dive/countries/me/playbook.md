@@ -368,7 +368,7 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 | Property Finder ME | `https://www.propertyfindermontenegro.com/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Montenegro portal (e.g. nekretnine.me) |
 | Putevi Crne Gore | `https://www.putevi.me/` |
 | ZZZCG | `https://www.zzzcg.me/` |
-| Poreska uprava CG | `https://www.poreskauprava.gov.me/` |
+| Poreska uprava CG | `https://www.gov.me/poreskauprava` |
 
 ## Statutes
 

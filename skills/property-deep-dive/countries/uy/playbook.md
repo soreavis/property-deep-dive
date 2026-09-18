@@ -9,7 +9,7 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 - **Admin levels**: 19 **departamentos** → ~125 **municipios** (Ley 19.272 third tier of government, since 2010 reform extending the 2009 Ley 18.567)
 - **Currency**: **UYU** (peso uruguayo) for everyday + government contributions; **USD billete** dominant for property transactions (most coastal + premium urban sales priced + closed in USD; mortgages historically in **UI — Unidad Indexada** to CPI under Ley 17.761)
 - **Languages**: Spanish (official); Portuñol along Brazilian frontier (Rivera, Artigas, Cerro Largo)
-- **Cadastre**: **Dirección Nacional de Catastro (DNC)** — Ministerio de Economía y Finanzas; portal `https://www.catastro.gub.uy/`
+- **Cadastre**: **Dirección Nacional de Catastro (DNC)** — Ministerio de Economía y Finanzas; portal `http://sede.catastro.gub.uy/Sede/`
 - **Property registry**: **Registro de la Propiedad — Sección Inmobiliaria**, under Dirección General de Registros (DGR), Ministerio de Educación y Cultura; one office per departamental capital
 - **Identifier**: **padrón** (cadastral parcel number, unique per departamento) + **cédula catastral** (DNC valuation reference) + **matrícula** for titled units (PH apartments)
 - **Notary**: **Escribano público** — mandatory; civil-law tradition; profession regulated by **Asociación de Escribanos del Uruguay (AEU)** (`https://www.aeu.org.uy/`); **buyer chooses** the escribano per custom (cost ~3% of price)
@@ -33,7 +33,7 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 ### Primary sources
 
 - **DNC valuation database** (`Valor Real Catastral` — VRC):
-  - Portal: `https://www.catastro.gub.uy/`
+  - Portal: `http://sede.catastro.gub.uy/Sede/`
   - Returns DNC-assessed valor real per padrón (basis for Contribución Inmobiliaria, ITP, Patrimonio); typically **30–60% below market** for Montevideo + Punta del Este (DNC re-valuations are infrequent; last general re-aforo 2012 with annual ajustes)
   - Per-padrón lookup requires registered access for full record; consulta básica is free
 - **INE (Instituto Nacional de Estadística)**:
@@ -51,8 +51,8 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 - **InfoCasas** — leading portal: `https://www.infocasas.com.uy/`
 - **Mercado Libre Inmuebles UY**: `https://inmuebles.mercadolibre.com.uy/`
 - **Gallito.com.uy**: `https://www.gallito.com.uy/inmuebles`
-- **Properati**: `https://www.properati.com.uy/`
-- **El País Clasificados**: `https://clasificados.elpais.com.uy/inmuebles`
+- **Properati**: `https://www.properati.com.uy/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **El País Clasificados**: `https://gallito.com.uy`
 - **InmoUruguay** (specialized in coastal): `https://www.inmouruguay.com/`
 - **Punta.com** (Punta del Este focus): `https://www.punta.com/`
 
@@ -107,7 +107,7 @@ ISO2: `uy`. Status: ✅ Fully populated (researched 2026-05).
 
 - **MTOP — Ministerio de Transporte y Obras Públicas**: `https://www.gub.uy/ministerio-transporte-obras-publicas/` (institutional landing)
 - **MTOP Geoportal — DNV traffic-data product**: `https://geoportal.mtop.gub.uy/` (primary — interactive map + estación de aforo + TPDA data)
-- **Observatorio del Transporte Carretero (MTOP)**: `https://observatorio.mtop.gub.uy/carretero.php` (regional/national rollups)
+- **Observatorio del Transporte Carretero (MTOP)**: `https://geoportal.mtop.gub.uy/-/sistema-de-relevamiento-estadistico-de-transito` (regional/national rollups)
   - Publishes **TPDA (Tránsito Promedio Diario Anual)** — average annual daily traffic per estación de aforo on national routes (regional usage: TMDA)
   - Annual report; latest typically lags 1–2 years (verify latest at Geoportal MTOP) (2026-05-27 verified)
 - **Intendencia de Montevideo — Movilidad**: `http://montevideo.gub.uy/tipo/area-tematica/movilidad`
@@ -286,9 +286,9 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 - **Buscojobs.com.uy**: `https://www.buscojobs.com.uy/`
 - **Computrabajo Uruguay**: `https://www.computrabajo.com.uy/`
 - **LinkedIn Uruguay** — strong in IT, financial services, MNCs (Zonamerica + Aguada Park concentrations)
-- **Mercado Libre Empleos**: `https://empleos.mercadolibre.com.uy/`
+- **Mercado Libre Empleos**: `https://empleos.mercadolibre.com.uy/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **El Gallito Empleos**: `https://www.gallito.com.uy/empleos`
-- **El País Clasificados Empleos**: `https://clasificados.elpais.com.uy/empleos`
+- **El País Clasificados Empleos**: `https://trabajo.gallito.com.uy/`
 
 ### Self-employment / unipersonal
 
@@ -381,7 +381,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | Document | Required because | Source |
 |---|---|---|
 | **Estudio de títulos (30-yr chain)** | Verify 30-year title chain — standard escribano practice | Escribano público (mandatory) |
-| **Plano de mensura registrado** | Cadastral plan registered at DNC | DNC `https://www.catastro.gub.uy/` |
+| **Plano de mensura registrado** | Cadastral plan registered at DNC | DNC `http://sede.catastro.gub.uy/Sede/` |
 | **Cédula catastral informada** | DNC valuation reference | DNC |
 | **Certificado único de DGI Inmuebles** | Confirms no IRPF/IRAE/Patrimonio debts on the padrón | DGI `https://www.dgi.gub.uy/` |
 | **Certificado común de BPS** | Confirms no labor + social-security debts (relevant for new construction) | BPS `https://www.bps.gub.uy/` |
@@ -494,8 +494,8 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 - **InfoCasas** — leading: `https://www.infocasas.com.uy/`
 - **Mercado Libre Inmuebles UY**: `https://inmuebles.mercadolibre.com.uy/`
 - **Gallito.com.uy**: `https://www.gallito.com.uy/inmuebles`
-- **Properati**: `https://www.properati.com.uy/`
-- **El País Clasificados**: `https://clasificados.elpais.com.uy/inmuebles`
+- **Properati**: `https://www.properati.com.uy/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **El País Clasificados**: `https://gallito.com.uy`
 - **Punta.com** (PdE focus): `https://www.punta.com/`
 - **InmoUruguay** (coastal): `https://www.inmouruguay.com/`
 - **Sotheby's UY, Engel & Völkers UY, Christie's** (premium / luxury — Carrasco + PdE + José Ignacio)
@@ -562,7 +562,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 
 | Source | URL pattern |
 |---|---|
-| DNC Catastro | `https://www.catastro.gub.uy/` |
+| DNC Catastro | `http://sede.catastro.gub.uy/Sede/` |
 | Registro de la Propiedad (DGR) | `https://www.gub.uy/ministerio-educacion-cultura/politicas-y-gestion/direccion-general-registros` |
 | MEF | `https://www.gub.uy/ministerio-economia-finanzas/` |
 | DGI | `https://www.dgi.gub.uy/` |
@@ -573,7 +573,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | UTE | `https://portal.ute.com.uy/` |
 | MTOP DNV (vialidad nacional, institutional) | `https://www.gub.uy/ministerio-transporte-obras-publicas/` |
 | MTOP Geoportal (TPDA + estaciones) | `https://geoportal.mtop.gub.uy/` |
-| MTOP Observatorio Carretero | `https://observatorio.mtop.gub.uy/carretero.php` |
+| MTOP Observatorio Carretero | `https://geoportal.mtop.gub.uy/-/sistema-de-relevamiento-estadistico-de-transito` |
 | Intendencia de Montevideo | `https://montevideo.gub.uy/` |
 | Intendencia de Maldonado | `https://www.maldonado.gub.uy/` |
 | MVOT (vivienda) | `https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/` |
@@ -587,7 +587,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | InfoCasas | `https://www.infocasas.com.uy/` |
 | Mercado Libre Inmuebles UY | `https://inmuebles.mercadolibre.com.uy/` |
 | Gallito | `https://www.gallito.com.uy/inmuebles` |
-| Properati UY | `https://www.properati.com.uy/` |
+| Properati UY | `https://www.properati.com.uy/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | Cámara Inmobiliaria UY | `https://www.ciu.com.uy/` |
 
 ## Status

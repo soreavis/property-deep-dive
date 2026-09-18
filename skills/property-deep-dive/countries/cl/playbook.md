@@ -45,17 +45,17 @@ ISO2: `cl`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
 - **CChC (Cámara Chilena de la Construcción)**:
   - `https://cchc.cl/centro-de-informacion/indicadores` — informe MACh, índice de actividad de la construcción, trimestral oferta inmobiliaria Gran Santiago.
 - **MINVU Observatorio Habitacional**:
-  - `https://observatoriohabitacional.minvu.cl/` — permisos, oferta, déficit habitacional.
+  - `https://centrodeestudios.minvu.gob.cl` — permisos, oferta, déficit habitacional.
 
 ### Listing platforms
 
 - **Portal Inmobiliario** — largest, owned by Mercado Libre: `https://www.portalinmobiliario.com/`
   - URL pattern: `https://www.portalinmobiliario.com/venta/<tipo>/<comuna>-<region>/`
 - **Toctoc.com** — strong Santiago analytics + valuation tool: `https://www.toctoc.com/`
-- **Yapo.cl** (Adevinta) — privates: `https://new.yapo.cl/`
+- **Yapo.cl** (Adevinta) — privates: `https://www.yapo.cl/`
 - **Mercado Libre Inmuebles**: `https://inmuebles.mercadolibre.cl/`
-- **Mi Buen Vecino**: `https://www.mibuenvecino.cl/` — comuna-level evaluación.
-- **Zoominmobiliario**: `https://www.zoominmobiliario.com/`
+- **Mi Buen Vecino**: `https://www.mibuenvecino.cl/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — comuna-level evaluación.
+- **Zoominmobiliario**: `https://www.zoominmobiliario.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 
 ### UF/m² benchmarks — Gran Santiago + key regions (Q1-Q2 2026 listing observation)
 
@@ -93,11 +93,11 @@ Source: Portal Inmobiliario + Toctoc listing scrape pattern + CChC informe MACh 
 ### Primary sources
 
 - **MOP — Dirección de Vialidad — Plan Nacional de Censos** (TMDA = Tránsito Medio Diario Anual):
-  - Portal: `https://www.vialidad.cl/areasdetrabajo/gestionvial/Paginas/CensosVolumetricosVehiculos.aspx`
+  - Portal: `https://vialidad.mop.gob.cl/plan-nacional-de-censo-vial/`
   - Censos volumétricos publicados anualmente; cobertura red vial nacional + regional.
   - Datos por tramo, with desglose vehículos livianos / buses / camiones.
 - **MOP — Concesiones (autopistas urbanas y interurbanas)**:
-  - `https://www.concesiones.cl/proyectos/Paginas/AvanceConcesiones.aspx`
+  - `https://concesiones.mop.gob.cl/concesiones/concesiones-en-construccion/`
   - Operadoras con datos de tráfico: Autopista Central (Santiago N-S), Costanera Norte (E-W), Vespucio Norte / Sur, Acceso Sur, Túnel San Cristóbal, Ruta 5, Ruta 68 (Santiago-Valpo), Ruta del Sol.
 - **SECTRA (Secretaría de Planificación de Transporte)**: `https://www.sectra.gob.cl/` — modelos de demanda urbana Santiago/Valpo/Concepción.
 - **Fallback OSM**: `highway=motorway` (autopista concesionada), `trunk` (ruta nacional), `primary` (ruta regional), `secondary`, `residential`.
@@ -144,7 +144,7 @@ Aplica al titular cuya **suma de avalúos fiscales totales** supere **UTA 670** 
 | 1,175–1,510 UTA | **0.150 %** |
 | > 1,510 UTA | **0.275 %** (o **0.425 %** en topes superiores) |
 
-(2026-05-27 verified, source [SII Sobretasa](https://www.sii.cl/destacados/avaluaciones/sobretasa/2023/) + [Tesorería TGR](https://ayuda.tgr.cl/hc/es-419/articles/9557623319959-Sobretasa-anual-de-Impuesto-Territorial). Prior playbook UF labels were a unit conflation — UTA and UF differ by ~12× scale.)
+(2026-05-27 verified, source [SII Sobretasa](https://www.sii.cl/destacados/avaluaciones/sobretasa/2023/) + [Tesorería TGR](https://portal-ayuda.tgr.cl/ayuda/operativa-de-tramites/sobretasa-anual-de-impuesto-territorial). Prior playbook UF labels were a unit conflation — UTA and UF differ by ~12× scale.)
 
 **Reform risk**: Ley 21.713 (cumplimiento tributario, **publicada 24 Oct 2024 en Diario Oficial**, vigencia general 1 Nov 2024 + ciertas disposiciones 2 Ene 2026 — parte del **Pacto Fiscal 2024-2025**, BCN `https://www.bcn.cl/leychile/navegar?idNorma=1207746`) and recent reforma tributaria proposals continue to revise sobretasa thresholds.
 
@@ -326,7 +326,7 @@ Norma sísmica chilena: **NCh 433 Of.96 mod. 2009** + **DS 61/2011 MINVU** (post
 
 ### Volcánico (RNVV SERNAGEOMIN)
 
-- Chile tiene **>90 volcanes activos** geológicamente. **Ranking de Riesgo Específico Volcanes Activos (RNVV)** SERNAGEOMIN: `https://rnvv.sernageomin.cl/`.
+- Chile tiene **>90 volcanes activos** geológicamente. **Ranking de Riesgo Específico Volcanes Activos (RNVV)** SERNAGEOMIN: `https://www.sernageomin.cl/rnvv/`.
 - Top riesgo: **Villarrica** (Pucón), **Llaima** (Temuco/Conguillío), **Calbuco** (erupción 2015, Puerto Varas/Ensenada), **Nevados de Chillán**, **Lascar**, **Copahue**.
 - Zonas turísticas Lagos (Pucón, Puerto Varas) **deben verificar mapa de peligro volcánico** antes de comprar.
 
@@ -524,24 +524,24 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 | BCCh UF diaria | `https://www.bcentral.cl/inicio/-/asset_publisher/8Ki7yegxnFpW/content/uf-1` |
 | BCCh series indicadores (IRPV) | `https://si3.bcentral.cl/Indicadoressiete/secure/IndicadoresDiarios.aspx` |
 | INE IPV | `https://www.ine.gob.cl/estadisticas/economia/edificacion-y-vivienda/indice-de-precios-de-vivienda` |
-| MINVU Observatorio Habitacional | `https://observatoriohabitacional.minvu.cl/` |
+| MINVU Observatorio Habitacional | `https://centrodeestudios.minvu.gob.cl` |
 | CChC indicadores | `https://cchc.cl/centro-de-informacion/indicadores` |
 | SENAPRED | `https://www.senapred.gob.cl/` |
 | SERNAGEOMIN | `https://www.sernageomin.cl/` |
-| RNVV (volcanes) | `https://rnvv.sernageomin.cl/` |
+| RNVV (volcanes) | `https://www.sernageomin.cl/rnvv/` |
 | SHOA CITSU tsunami | `https://www.shoa.cl/php/citsu.php` |
 | CSN sismología | `https://www.sismologia.cl/` |
 | DGA aguas | `https://dga.mop.gob.cl/` |
 | SISS sanitarias | `https://www.siss.gob.cl/` |
-| MOP Vialidad censos TMDA | `https://www.vialidad.cl/areasdetrabajo/gestionvial/Paginas/CensosVolumetricosVehiculos.aspx` |
-| MOP Concesiones | `https://www.concesiones.cl/proyectos/Paginas/AvanceConcesiones.aspx` |
+| MOP Vialidad censos TMDA | `https://vialidad.mop.gob.cl/plan-nacional-de-censo-vial/` |
+| MOP Concesiones | `https://concesiones.mop.gob.cl/concesiones/concesiones-en-construccion/` |
 | Servicio Nacional de Migraciones | `https://serviciomigraciones.cl/` |
 | SERNATUR registro turísticos | `https://serviciosturisticos.sernatur.cl/` |
 | Portal Inmobiliario | `https://www.portalinmobiliario.com/venta/<tipo>/<comuna>-<region>/` |
 | Toctoc | `https://www.toctoc.com/` |
-| Yapo | `https://new.yapo.cl/` |
+| Yapo | `https://www.yapo.cl/` |
 | Mercado Libre Inmuebles | `https://inmuebles.mercadolibre.cl/` |
-| Mi Buen Vecino | `https://www.mibuenvecino.cl/` |
+| Mi Buen Vecino | `https://www.mibuenvecino.cl/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | Empresa en un Día | `https://www.registrodeempresasysociedades.cl/` |
 
 ---

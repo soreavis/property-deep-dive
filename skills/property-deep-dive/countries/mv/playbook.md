@@ -13,7 +13,7 @@ ISO2: `mv`. Status: ✅ fully populated as of 2026-05-07.
 - **Languages**: **Dhivehi** (national language, Indo-Aryan, written in Thaana script) + **English** (working language of government, courts, banking, tourism). Legal-grade documents, Tourism Act, MIRA tax legislation are bilingual; **agency listings + lease contracts in Greater Malé/resort sector typically English**.
 - **Legal system**: **Mixed Sharia + common-law / civil-law influences**. The 2008 Constitution (`https://www.majlis.gov.mv/`) establishes Sunni Islam as state religion (Article 9(d)) and requires **Maldivian citizens to be Muslim**. **Non-Muslim foreign nationals cannot acquire Maldivian citizenship** — only naturalisation pathway is Muslim-faith adherence + 12-year residence (Citizenship Act). **Sharia overlay on inheritance, family, and personal-status law** (Maliki school dominant historically); commercial + property-leasehold + tax law largely codified-civil with English drafting heritage.
 - **Cadastre / land registry — fragmented and largely paper-based**:
-  - **Ministry of Housing, Land and Urban Development** — `https://www.housing.gov.mv/` — primary land-allocation authority on inhabited islands; oversees Greater Malé housing schemes
+  - **Ministry of Housing, Land and Urban Development** — `https://infrastructure.gov.mv/en` — primary land-allocation authority on inhabited islands; oversees Greater Malé housing schemes
   - **Housing Development Corporation (HDC)** — `https://www.hdc.com.mv/` — manages Hulhumalé reclamation, allocation, and registration; the dominant urban-development entity
   - **Ministry of Tourism** — `https://www.tourism.gov.mv/` — **the registry-of-record for resort-island Head Leases** + tourist establishment registration
   - **Local Councils** (under the Decentralisation Act 2010, as amended) — administer plot allocation on inhabited atoll islands
@@ -266,7 +266,7 @@ The Maldives raises the majority of public revenue from tourism-specific taxes �
 - **All non-Maldivian employees** require an **Employment Approval (EA)** from **Maldives Immigration** + **Ministry of Economic Development** (sponsoring employer mandatory)
 - **Employer obligation**: Maldives Immigration application + payment of **work permit fee** + **deposit** for foreign-worker repatriation
 - **Quota**: certain sectors (resort tourism F&B + Spa + Watersports) have **expat quotas** (typically 50–55% maximum of total establishment headcount per Decentralisation + Employment regulation; verify current quota by sector)
-- **Source**: Maldives Immigration — `https://www.immigration.gov.mv/`; Ministry of Economic Development — `https://www.med.gov.mv/`
+- **Source**: Maldives Immigration — `https://www.immigration.gov.mv/`; Ministry of Economic Development — `https://trade.gov.mv/`
 
 ### Self-employment
 
@@ -301,7 +301,7 @@ The Maldives raises the majority of public revenue from tourism-specific taxes �
 | **Ministry of Climate Change, Environment and Energy** | `https://www.environment.gov.mv/` (verify URL) | Climate Change Department + Coastal Zone Management |
 | **World Bank Climate Change Knowledge Portal — Maldives** | `https://climateknowledgeportal.worldbank.org/country/maldives` | Country profile, projections (CMIP6, SROCC) |
 | **NOAA Coral Reef Watch — Maldives** | `https://coralreefwatch.noaa.gov/product/vs/gauges/maldives.php` | DHW heat-stress index, bleaching alert |
-| **IPCC AR6 Sea Level Projection Tool** | `https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool` | Parcel-grid projections to 2050/2100/2150 |
+| **IPCC AR6 Sea Level Projection Tool** | `https://sealevel.nasa.gov/data_tools/17` | Parcel-grid projections to 2050/2100/2150 |
 | **Climate Central Coastal Risk Screening Tool** | `https://coastal.climatecentral.org/` | Inundation projection per coordinate |
 
 ### Specific risks
@@ -603,7 +603,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 - **Sharia-based forced heirship** governs estate distribution for assets in the Maldives — succession outcomes can differ materially from civil-law/common-law jurisdictions; engage Sharia-knowledgeable counsel
 - **Citizenship is faith-conditional** — naturalisation requires Sunni Muslim adherence; not a route for non-Muslim foreign investors
 - **Bank lending to non-residents**: limited; est. LTV ~40–60% for non-resident foreign buyers via Bank of Maldives + MIB + BML; est. USD-denominated rates ~7–11% (indicative non-resident terms — verify current schedule with Bank of Maldives / MIB / BML directly); cash-buyer dominance in luxury cohort
-- **No notary-monopoly** — Maldives-bar attorneys handle conveyancing-equivalent work; the Maldives Bar Association tracks registered counsel (`https://www.bar.org.mv/` — verify URL)
+- **No notary-monopoly** — Maldives-bar attorneys handle conveyancing-equivalent work; the Maldives Bar Association tracks registered counsel (`https://maldivesbarcouncil.org/` — verify URL)
 
 ## Reddit / forum sources
 
@@ -619,9 +619,9 @@ For most international buyers, the actionable foreign-buyer routes are:
 | Authority | When to call |
 |---|---|
 | **Ministry of Tourism** | Resort Head Lease + tourist establishment registration — `https://www.tourism.gov.mv/` |
-| **Ministry of Housing, Land and Urban Development** | Inhabited-island land allocation, Greater Malé housing — `https://www.housing.gov.mv/` |
+| **Ministry of Housing, Land and Urban Development** | Inhabited-island land allocation, Greater Malé housing — `https://infrastructure.gov.mv/en` |
 | **Housing Development Corporation (HDC)** | Hulhumalé allocation, unit-title, infrastructure — `https://www.hdc.com.mv/` |
-| **Ministry of Economic Development & Trade** | Foreign Investment Approval, work permits — `https://www.med.gov.mv/` |
+| **Ministry of Economic Development & Trade** | Foreign Investment Approval, work permits — `https://trade.gov.mv/` |
 | **Maldives Inland Revenue Authority (MIRA)** | TGST, Green Tax, Income Tax, GST, WHT — `https://www.mira.gov.mv/` |
 | **Maldives Monetary Authority (MMA)** | Monetary, FX peg, banking — `https://www.mma.gov.mv/` |
 | **Capital Market Development Authority (CMDA)** | Corporate vehicles, securities — `https://www.cmda.gov.mv/` |
@@ -669,9 +669,9 @@ For most international buyers, the actionable foreign-buyer routes are:
 | Maldives Bureau of Statistics | `https://statisticsmaldives.gov.mv/` |
 | Maldives Census 2022 | `https://census.gov.mv/2022/` |
 | Housing Development Corporation | `https://www.hdc.com.mv/` |
-| Ministry of Housing, Land & Urban Development | `https://www.housing.gov.mv/` |
+| Ministry of Housing, Land & Urban Development | `https://infrastructure.gov.mv/en` |
 | Ministry of Finance | `https://www.finance.gov.mv/` |
-| Ministry of Economic Development & Trade | `https://www.med.gov.mv/` |
+| Ministry of Economic Development & Trade | `https://trade.gov.mv/` |
 | Capital Market Development Authority | `https://www.cmda.gov.mv/` |
 | Maldives Immigration | `https://www.immigration.gov.mv/` |
 | Maldives Police Service | `https://www.police.gov.mv/` |
@@ -684,7 +684,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 | MTCC | `https://www.mtcc.com.mv/` |
 | World Bank CCKP — Maldives | `https://climateknowledgeportal.worldbank.org/country/maldives` |
 | NOAA Coral Reef Watch — Maldives | `https://coralreefwatch.noaa.gov/product/vs/gauges/maldives.php` |
-| IPCC AR6 Sea Level Projection Tool | `https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool` |
+| IPCC AR6 Sea Level Projection Tool | `https://sealevel.nasa.gov/data_tools/17` |
 | Climate Central Coastal Risk Tool | `https://coastal.climatecentral.org/` |
 | US State Investment Climate Statement 2025 | `https://www.state.gov/reports/2025-investment-climate-statements/maldives` |
 | CTL Strategies — Tourism Act 16th Amendment | `https://www.ctlstrategies.com/latest/tourism-act-16th-amendment/` |

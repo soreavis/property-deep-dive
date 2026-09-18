@@ -82,7 +82,7 @@ The **2017 FX liberalisation** package eliminated the prior central-bank-authori
 
 ### Listing platforms
 
-- **Bons Negócios** — `https://www.bonsnegocios.cv/` — main domestic classifieds, real estate active section
+- **Bons Negócios** — `https://www.bonsnegocios.cv/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — main domestic classifieds, real estate active section
 - **Imovirtual / Imobiliário Cabo Verde** — Portuguese-portal regional listings
 - **Properstar Cape Verde** — `https://www.properstar.com/cape-verde/buy` — international-buyer-oriented aggregator
 - **A Place in the Sun (UK)** — `https://www.aplaceinthesun.com/cape-verde` — UK-buyer-targeted, dominant for Sal/Boa Vista holiday property
@@ -128,7 +128,7 @@ The **2017 FX liberalisation** package eliminated the prior central-bank-authori
 
 ### Primary sources
 
-- **Direção Nacional dos Transportes Rodoviários** under Ministério das Infraestruturas, Ordenamento do Território e Habitação — `https://www.miotrh.gov.cv/`
+- **Direção Nacional dos Transportes Rodoviários** under Ministério das Infraestruturas, Ordenamento do Território e Habitação — `https://mioth.gov.cv/`
 - **Instituto de Estradas de Cabo Verde (IECV)** — under the Ministry; manages national-road network. Publishes occasional **Recenseamento de Tráfego** counts on key inter-urban segments (most recent partial counts ~2018–2020; verify current).
 - **Câmaras Municipais** for urban-road counts (rare; few municipalities publish granular AADT).
 - **OSM fallback** is the practical baseline for most of Cape Verde — government published traffic counts have very thin coverage outside Praia + Sal main routes.
@@ -291,7 +291,7 @@ Net yields after IPI + IRPS + management + maintenance + condomínio fees + util
 
 - **Direção Geral do Trabalho** under Ministério da Família, Inclusão e Desenvolvimento Social — `https://www.governo.cv/`
 - **IEFP (Instituto do Emprego e Formação Profissional) Cabo Verde** — `https://www.iefp.cv/`
-- **Bons Negócios — Empregos** — `https://www.bonsnegocios.cv/empregos/`
+- **Bons Negócios — Empregos** — `https://www.bonsnegocios.cv/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this rowempregos/`
 - **JobToday Cabo Verde**, **LinkedIn**, **Indeed.com (regional)**
 - **Tourism / hospitality**: direct applications to ZDTI resort operators (Meliá, Riu, Iberostar, RIU Palace, Hilton Cabo Verde, TUI, Robinson, Murdeira Resort, Hotel Morabeza). EU work permits for certain skilled tourism roles processed via Cabo Verde TradeInvest.
 - **Education**: Universidade de Cabo Verde (UniCV), Universidade Jean Piaget de Cabo Verde, Universidade Lusófona — Mindelo / Praia campuses.
@@ -499,7 +499,7 @@ Net yields after IPI + IRPS + management + maintenance + condomínio fees + util
 
 ## Common listing platforms
 
-- **Bons Negócios** — `https://www.bonsnegocios.cv/` — main domestic classifieds
+- **Bons Negócios** — `https://www.bonsnegocios.cv/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — main domestic classifieds
 - **Properstar Cape Verde** — `https://www.properstar.com/cape-verde/buy`
 - **A Place in the Sun (UK) — Cape Verde** — `https://www.aplaceinthesun.com/cape-verde`
 - **Rightmove Overseas — Cape Verde** — `https://www.rightmove.co.uk/overseas-property-for-sale/Cape-Verde.html`
@@ -599,7 +599,7 @@ Net yields after IPI + IRPS + management + maintenance + condomínio fees + util
 | World Bank Climate Knowledge Portal — Cabo Verde | `https://climateknowledgeportal.worldbank.org/country/cabo-verde` |
 | IMF — Cabo Verde Article IV / ECF reviews | `https://www.imf.org/en/Countries/CPV` |
 | ELECTRA (utility) | `https://www.electra.cv/` |
-| Bons Negócios (classifieds) | `https://www.bonsnegocios.cv/` |
+| Bons Negócios (classifieds) | `https://www.bonsnegocios.cv/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | Properstar Cape Verde | `https://www.properstar.com/cape-verde/buy` |
 | Rightmove Overseas — Cape Verde | `https://www.rightmove.co.uk/overseas-property-for-sale/Cape-Verde.html` |
 | A Place in the Sun — Cape Verde | `https://www.aplaceinthesun.com/cape-verde` |

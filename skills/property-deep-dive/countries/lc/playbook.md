@@ -18,7 +18,7 @@ ISO2: `lc`. Status: ✅ Fully populated (researched 2026-05-28).
 - **Recent reforms (12-month watchlist)**:
   - **CBI real-estate minimum raised to US$300,000** (from US$200,000) effective **1 July 2024** under the **OECS Memorandum of Agreement (MoA)** harmonising a common pricing floor across the five OECS CBI nations (St Lucia, Antigua & Barbuda, Dominica, Grenada, St Kitts & Nevis) ([CIU pricing page](https://www.cipsaintlucia.com/citizenship-by-investment)).
   - **CCJ accession (20 July 2023)** — final appellate court switched from the UK Privy Council to the Caribbean Court of Justice. **No effect on property *substantive* law**, but the court of last resort for any title dispute is now the CCJ.
-  - **KPMG TaxNewsFlash (Apr 2025)** notes a Saint Lucia amendment clarifying that a **stamp-duty exemption EXCLUDES immovable property** ([KPMG](https://kpmg.com/us/en/taxnewsflash/news/2025/04/saint-lucia-amendment-clarifies-stamp-duty-exemption.html) — secondary; verify current text with IRD).
+  - **KPMG TaxNewsFlash (Apr 2025)** notes a Saint Lucia amendment clarifying that a **stamp-duty exemption EXCLUDES immovable property** ([KPMG](https://npc.govt.lc/laws/acts/2025) — secondary; verify current text with IRD).
 
 ---
 
@@ -181,7 +181,7 @@ A non-national buying ANY property outside an approved CBI project MUST obtain a
 | **Vendor — non-citizen / foreign national** | **flat 10%** |
 
 - ⚠️ The **flat 10% is a VENDOR-side stamp duty** levied when a foreigner **SELLS** — it is NOT a surcharge on a foreign buyer's 2%. A foreign buyer who later resells faces the **10% seller stamp duty** — build this into the exit/hold model.
-- ⚠️ **2025 development**: a [KPMG TaxNewsFlash (Apr 2025)](https://kpmg.com/us/en/taxnewsflash/news/2025/04/saint-lucia-amendment-clarifies-stamp-duty-exemption.html) notes an amendment clarifying that a **stamp-duty exemption EXCLUDES immovable property** — verify current text with IRD before relying on any exemption claim.
+- ⚠️ **2025 development**: a [KPMG TaxNewsFlash (Apr 2025)](https://npc.govt.lc/laws/acts/2025) notes an amendment clarifying that a **stamp-duty exemption EXCLUDES immovable property** — verify current text with IRD before relying on any exemption claim.
 
 ### Annual property tax (VERIFIED, IRD)
 
@@ -630,7 +630,7 @@ As of 2026-05-28, the CIU "Approved Real Estate and Enterprise Projects" page li
 | OECS Building Code / CUBiC | `https://oecs.int/en/our-work/knowledge/library/sustainable-energy/oecs-building-codes` |
 | Caribbean Court of Justice (CCJ) | `https://ccj.org/` |
 | Eastern Caribbean Supreme Court (ECSC) | `https://www.eccourts.org/` |
-| KPMG TaxNewsFlash — 2025 stamp-duty amendment | `https://kpmg.com/us/en/taxnewsflash/news/2025/04/saint-lucia-amendment-clarifies-stamp-duty-exemption.html` |
+| KPMG TaxNewsFlash — 2025 stamp-duty amendment | `https://npc.govt.lc/laws/acts/2025` |
 | US National Hurricane Center (Atlantic basin) | `https://www.nhc.noaa.gov/` |
 | World Bank — Saint Lucia | `https://data.worldbank.org/country/st-lucia` |
 

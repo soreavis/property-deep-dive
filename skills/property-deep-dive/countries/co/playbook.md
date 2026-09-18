@@ -52,7 +52,7 @@ ISO2: `co`. Status: ✅ Fully populated (researched 2026-05).
 | **Finca Raíz** | `https://www.fincaraiz.com.co/` | Wide coverage; mix agency + private |
 | **Properati Colombia** (Lifull) | `https://www.properati.com.co/` | Aggregator + price index |
 | **CienCuadras** (BVC group) | `https://www.ciencuadras.com/` | Banked transactions, more curated |
-| **OLX Colombia** | `https://www.olx.com.co/inmuebles_c1503` | Private sellers, varies in quality |
+| **OLX Colombia** | `https://www.olx.com.co/inmuebles_c1503` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Private sellers, varies in quality |
 | **Habi** | `https://www.habi.co/` | iBuyer, Bogotá/Medellín/Cali used apartments |
 
 ### Avalúo catastral vs avalúo comercial — the core gap

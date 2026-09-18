@@ -273,8 +273,8 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 ## Section: `--notary` / Conveyancing
 
 **Data sources**:
-- [Supreme Court of Gibraltar](https://www.gibraltarlawcourts.gov.gi/) — civil registry
-- [Gibraltar Bar Council](https://www.gibraltarbarcouncil.org/) (verify URL) — qualified conveyancers register
+- [Supreme Court of Gibraltar](https://www.gcs.gov.gi/) — civil registry
+- [Gibraltar Bar Council](https://lawcouncil.gi/) (verify URL) — qualified conveyancers register
 
 **Process**:
 
@@ -354,14 +354,14 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 | Income Tax Office (Qualifying Individuals) | https://www.gibraltar.gov.gi/income-tax-office/individuals-and-employees/qualifying-individuals |
 | Gibraltar Government home | https://www.gibraltar.gov.gi/ |
 | Gibraltar laws portal | https://www.gibraltarlaws.gov.gi/ |
-| Supreme Court (land registry) | https://www.gibraltarlawcourts.gov.gi/ |
+| Supreme Court (land registry) | https://www.gcs.gov.gi/ |
 | GFSC (banking regulator) | https://www.gfsc.gi/ |
 | Gibraltar Finance Centre | https://www.gibraltarfinance.gi/ |
 | Press releases | https://www.gibraltar.gov.gi/press-releases |
-| HM Customs Gibraltar | https://www.customs.gov.gi/ |
+| HM Customs Gibraltar | https://www.gibraltar.gov.gi/public-services/hm-customs |
 | Tourist Board | https://www.visitgibraltar.gi/ |
 | AquaGib (water) | https://www.aquagib.gi/ |
-| Gibtelecom | https://www.gibtelecom.net/ |
+| Gibtelecom | https://www.gibtele.com |
 | Commons Library — UK-EU Gibraltar Treaty briefing | https://commonslibrary.parliament.uk/research-briefings/cbp-10572/ |
 | EU Council 01 Apr 2026 greenlight | https://www.consilium.europa.eu/en/press/press-releases/2026/04/01/eu-uk-relations-member-states-greenlight-eu-uk-deal-on-gibraltar/ |
 | PwC Gibraltar — Individual Taxes | https://taxsummaries.pwc.com/gibraltar/individual/taxes-on-personal-income |

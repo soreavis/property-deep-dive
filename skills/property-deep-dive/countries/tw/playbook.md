@@ -16,7 +16,7 @@ ISO2: `tw`. Status: ✅ Fully populated (researched 2026-05).
 - **Languages**: 國語 / 華語 (Mandarin Chinese) — official; 臺語 (Taiwanese Hokkien), 客語 (Hakka), 原住民族語 (Indigenous languages) recognised under 國家語言發展法 2019
 - **Cadastre**: **內政部地政司 (Department of Land Administration, MOI)** — central authority. Per-county/city operations at **地政事務所 (Land Office)**. 32 land offices nationwide.
   - Online portal: **內政部不動產資訊平台** `https://pip.moi.gov.tw/`
-  - Land registry: **地籍資訊網路便民服務系統** `https://easyfun.land.moi.gov.tw/`
+  - Land registry: **地籍資訊網路便民服務系統** `https://easymap.land.moi.gov.tw/Home`
   - Real-price disclosure: **不動產交易實價查詢服務網** `https://lvr.land.moi.gov.tw/`
 - **Identifiers**:
   - 地號 (parcel number) — formatted as 鄉鎮市區 + 段 + 小段 + 地號 (e.g., 信義段三小段 0123-0000)
@@ -56,7 +56,7 @@ ISO2: `tw`. Status: ✅ Fully populated (researched 2026-05).
   - 永慶房屋 `https://buy.yungching.com.tw/`
   - 住商不動產 `https://www.hbhousing.com.tw/`
 - **DDproperty Taiwan** — `https://www.ddproperty.com/zh-tw/` — English UI partial
-- **Foreigner-friendly English platforms**: limited; main route is 591 + brokerage chains. Sinyi has bilingual front-end on `https://en.sinyi.com.tw/`.
+- **Foreigner-friendly English platforms**: limited; main route is 591 + brokerage chains. Sinyi has bilingual front-end on `https://en.sinyi.com.tw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row.
 
 ### Premium-area benchmarks (Q1–Q2 2025 reference, MOI 實價登錄 + 信義/永慶 房價指標)
 
@@ -321,7 +321,7 @@ Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcod
 - **CakeResume / Cake** — `https://www.cake.me/` — tech-leaning, English-friendly, startup-tilt
 - **Yourator** — `https://www.yourator.co/` — startup/digital
 - **LinkedIn Taiwan** — strong for IT, finance, multinational, English-language
-- **公部門徵才** — `https://csptw.dgpa.gov.tw/` (civil service) + `https://www.taiwanjobs.gov.tw/` (台灣就業通, MoL public)
+- **公部門徵才** — `https://web3.dgpa.gov.tw/want03front/AP/WANTF00001.ASPX` (civil service) + `https://www.taiwanjobs.gov.tw/` (台灣就業通, MoL public)
 
 ### Self-employment regimes
 
@@ -371,9 +371,9 @@ Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcod
 | **中央氣象署 (CWA)** — 地震 + 颱風 + 即時氣象 | `https://www.cwa.gov.tw/` | Active hazard + historical typhoon track + real-time seismic |
 | **國家地震工程研究中心 (NCREE)** — 土壤液化潛勢 (soil liquefaction potential) | `https://www.liquid.net.tw/` and `https://www.ncree.org/` | Soil liquefaction maps — critical post-2016 美濃地震 + 2018 花蓮地震 + 2024 花蓮地震 |
 | **經濟部地質調查及礦業管理中心** (CGS-MMA) — 活動斷層 (active fault) | `https://www.geologycloud.tw/` | 36 documented active faults; nationwide 1:25,000 map |
-| **農業部林業及自然保育署** — 山坡地 + 土石流 (slope land + debris flow) | `https://246.swcb.gov.tw/` (土石流防災資訊網) | Debris-flow torrent identification, 1,725 currently registered torrents |
+| **農業部林業及自然保育署** — 山坡地 + 土石流 (slope land + debris flow) | `https://246.ardswc.gov.tw/` (土石流防災資訊網) | Debris-flow torrent identification, 1,725 currently registered torrents |
 | **經濟部水利署** — 淹水潛勢圖 (flood potential map) | `https://fhy.wra.gov.tw/` | Flood inundation depth/recurrence at 1:25,000 |
-| **環境部 (MOENV)** — 土壤污染 (soil contamination) | `https://moenvweb.moenv.gov.tw/` | Contaminated/listed-control sites + groundwater |
+| **環境部 (MOENV)** — 土壤污染 (soil contamination) | `https://sgw.moenv.gov.tw/public` | Contaminated/listed-control sites + groundwater |
 | **TCCIP (Taiwan Climate Change Information Platform)** — Academia Sinica + NCDR | `https://tccip.ncdr.nat.gov.tw/` | Climate projections, downscaled scenarios SSP1-2.6 / SSP5-8.5 |
 
 ### Earthquake — verdict bands (rough, by 中央氣象署 設計地震動 + Academia Sinica seismic-hazard mapping)
@@ -604,7 +604,7 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 | 實價登錄 (real-price) | `https://lvr.land.moi.gov.tw/` |
 | 實價登錄 open data download | `https://plvr.land.moi.gov.tw/DownloadOpenData` |
 | 內政部地政司 | `https://www.land.moi.gov.tw/` |
-| 地籍資訊網路便民服務系統 | `https://easyfun.land.moi.gov.tw/` |
+| 地籍資訊網路便民服務系統 | `https://easymap.land.moi.gov.tw/Home` |
 | 財政部稅務入口網 | `https://www.etax.nat.gov.tw/` |
 | 財政部 (MoF) | `https://www.mof.gov.tw/` |
 | 全國法規資料庫 (laws) | `https://law.moj.gov.tw/` |

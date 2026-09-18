@@ -170,7 +170,7 @@ Riga financial-services hub (post-2018 ABLV scandal still recovering); Daugavpil
 
 ### District heating
 
-Dominant in cities (Riga, Daugavpils, Liepāja, Jelgava). **Rīgas siltums (RS)**: https://www.rigassiltums.lv/
+Dominant in cities (Riga, Daugavpils, Liepāja, Jelgava). **Rīgas siltums (RS)**: https://www.rs.lv/
 
 **EIB programme**: 4-year €135M rehabilitation of Riga DH network (€47M EIB finance). https://www.eib.org/en/projects/all/20240344
 

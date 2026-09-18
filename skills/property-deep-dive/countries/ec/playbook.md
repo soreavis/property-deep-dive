@@ -4,13 +4,13 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ## Country profile
 
-- **Postcode (Código Postal)**: 6 digits (DPA-coded), e.g. **170150** Quito centre, **090150** Guayaquil centro, **010150** Cuenca centro. Operated by [Correos del Ecuador](https://www.correosdelecuador.gob.ec/) — first 2 digits = provincia, next 2 = cantón, last 2 = parroquia / sector
+- **Postcode (Código Postal)**: 6 digits (DPA-coded), e.g. **170150** Quito centre, **090150** Guayaquil centro, **010150** Cuenca centro. Operated by [Correos del Ecuador](https://www.telecomunicaciones.gob.ec/comunicado-oficial-correos-del-ecuador) — first 2 digits = provincia, next 2 = cantón, last 2 = parroquia / sector
 - **Admin levels**: 24 **provincias** → 221 **cantones** → ~1,500 **parroquias** (urbanas + rurales) → barrios / ciudadelas / recintos. Galápagos (provincia 20) governed under [Ley Orgánica de Régimen Especial de Galápagos (LOREG)](https://www.gob.ec/) — distinct land-tenure regime
 - **Currency**: **USD (US dollar)** — dollarization adopted **9 January 2000** ([BCE — 25 años de dolarización](https://www.bce.fin.ec/25/index.html)); formalized by the Ley para la Transformación Económica del Ecuador (Ley Trolebús, Mar 2000), replacing sucre at 25,000:1 after the 1999 banking crisis. **Banco Central del Ecuador (BCE)** issues only **centavos** coins; USD banknotes are Federal Reserve issuance. **No FX risk for USD holders** — UNIQUE selling point in LATAM
 - **Languages**: **Spanish** (official, [Constitución 2008 art. 2](https://www.gob.ec/)); **Kichwa** + **Shuar** co-official within their territories; English in Cuenca expat zones, tourist areas (Quito Mariscal, Guayaquil Las Peñas, Salinas, Manta, Galápagos)
 - **Population**: ~17.7 M (2024 [INEC](https://www.ecuadorencifras.gob.ec/) mid-year est.) — Quito ~2.0 M (DMQ 2.8 M metro), Guayaquil ~2.7 M (3.4 M metro), Cuenca ~600 k, Santo Domingo ~470 k, Machala ~290 k, Manta ~270 k, Ambato ~200 k
 - **Cadastre**: **Decentralized at municipal (cantón) level** — there is **NO single national cadastre**. Each **GAD Municipal** ([Gobiernos Autónomos Descentralizados](https://www.gob.ec/)) maintains its own *catastro urbano + rural*. Major cities expose web portals: [Catastro Quito (DMQ)](https://www.quito.gob.ec/), [Catastro Guayaquil](https://www.guayaquil.gob.ec/), [Catastro Cuenca](https://www.cuenca.gob.ec/). National coordination via **SENPLADES** (national planning) + GeoCatastro initiatives but no unified portal as of 2026
-- **Land registry**: **Registro de la Propiedad** per cantón (separate from Catastro Municipal); supervised nationally by [DINARDAP — Dirección Nacional de Registros Públicos](https://www.dinardap.gob.ec/) since 2010 reform
+- **Land registry**: **Registro de la Propiedad** per cantón (separate from Catastro Municipal); supervised nationally by [DINARDAP — Dirección Nacional de Registros Públicos](https://www.gob.ec/dinarp) since 2010 reform
 - **Identifier**: parcel-level **Clave Catastral** (per Municipio) + **Predio Number** + **Inscripción del Registro de la Propiedad** (legal title). Both required for clean diligence
 - **Foreign-buyer regime** (CRITICAL): **OPEN** — Ecuador imposes no general prohibition on foreign ownership of residential/urban property; foreigners buy freely in Quito, Guayaquil, Cuenca, Manta, Salinas, Ambato, Loja core urban areas. **RESTRICTED zones**: [Constitución art. 405](https://votoenelexterior.cne.gob.ec/wp-content/uploads/2026/01/CONSTITUCION-DE-LA-REPUBLICA-DEL-ECUADOR.pdf) bars foreign natural/legal persons from acquiring land or concessions *"en las áreas de seguridad nacional ni en áreas protegidas"*, so the 50 km international-border strip + Galápagos + protected/national-security areas require prior **autorización de SECOB / Comando Conjunto de las Fuerzas Armadas** under [Ley de Seguridad Pública y del Estado](https://www.gob.ec/)
 
@@ -28,7 +28,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Plusvalía**: [`https://www.plusvalia.com/`](https://www.plusvalia.com/) — DOMINANT national portal (Navent group)
 - **Properati Ecuador**: [`https://www.properati.com.ec/`](https://www.properati.com.ec/) — aggregator + price index
-- **OLX Ecuador**: [`https://www.olx.com.ec/inmuebles_c367`](https://www.olx.com.ec/inmuebles_c367) — private sellers, mixed quality
+- **OLX Ecuador**: [`https://www.olx.com.ec/inmuebles_c367`](https://www.olx.com.ec/inmuebles_c367) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — private sellers, mixed quality
 - **Mercado Libre Ecuador Inmuebles**, **Vivanuncios.com.ec**, **Inmobiliaria.com.ec**
 - **Engel & Völkers Ecuador**, **RE/MAX Ecuador**, **Coldwell Banker Ecuador** — premium / international
 - ⚠️ Most listings tagged in **m² de construcción** (built area); confirm vs **m² útil** (usable / privative) on visit *(per listing — verify with cadastre / on visit)*
@@ -71,7 +71,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Sources
 
-- **MTOP — Ministerio de Transporte y Obras Públicas**: [`https://www.obraspublicas.gob.ec/`](https://www.obraspublicas.gob.ec/) — *Inventario de la Red Vial Estatal* + TPDA counts on Red Vial Estatal (E-roads)
+- **MTOP — Ministerio de Transporte y Obras Públicas**: [`https://www.mit.gob.ec`](https://www.mit.gob.ec) — *Inventario de la Red Vial Estatal* + TPDA counts on Red Vial Estatal (E-roads)
 - **ANT — Agencia Nacional de Tránsito**: [`https://www.ant.gob.ec/`](https://www.ant.gob.ec/) — vehicular registration + accident statistics
 - **AMT — Agencia Metropolitana de Tránsito Quito**: [`https://www.amt.gob.ec/`](https://www.amt.gob.ec/) + **ATM Guayaquil** + **EMOV-EP Cuenca** — city aforos vehiculares + Pico y Placa schemes
 
@@ -802,7 +802,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | Cancillería — Movilidad Humana | `https://www.cancilleria.gob.ec/` |
 | Ministerio del Trabajo | `https://www.trabajo.gob.ec/` |
 | Ministerio del Interior | `https://www.ministeriodelinterior.gob.ec/` |
-| MTOP — Obras Públicas | `https://www.obraspublicas.gob.ec/` |
+| MTOP — Obras Públicas | `https://www.mit.gob.ec` |
 | ANT — Tránsito | `https://www.ant.gob.ec/` |
 | SGR — Gestión de Riesgos | `https://www.gestionderiesgos.gob.ec/` |
 | IGEPN — Geofísico EPN | `https://www.igepn.edu.ec/` |
@@ -813,7 +813,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | BIESS — IESS Bank | `https://www.biess.fin.ec/` |
 | Superbancos | `https://www.superbancos.gob.ec/` |
 | Supercias — Compañías + Seguros | `https://www.supercias.gob.ec/` |
-| DINARDAP — Registros Públicos | `https://www.dinardap.gob.ec/` |
+| DINARDAP — Registros Públicos | `https://www.gob.ec/dinarp` |
 | Funcion Judicial / Notarías | `https://www.funcionjudicial.gob.ec/` |
 | ARCOTEL — Telecom | `https://www.arcotel.gob.ec/` |
 | ARCA — Agua | `https://www.regulacionagua.gob.ec/` |
@@ -822,7 +822,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | CELEC EP / CNEL EP / EPMAPS / Interagua / ETAPA / EEQ / CNT | `https://www.celec.gob.ec/` · `https://www.cnelep.gob.ec/` · `https://www.aguaquito.gob.ec/` · `https://www.interagua.com.ec/` · `https://www.etapa.net.ec/` · `https://www.eeq.com.ec/` · `https://www.cnt.gob.ec/` |
 | GAD Municipal Quito / Guayaquil / Cuenca | `https://www.quito.gob.ec/` · `https://www.guayaquil.gob.ec/` · `https://www.cuenca.gob.ec/` |
 | CAMICON — Cámara Construcción | `https://www.camicon.ec/` |
-| Plusvalía / Properati EC / OLX EC | `https://www.plusvalia.com/` · `https://www.properati.com.ec/` · `https://www.olx.com.ec/inmuebles_c367` |
+| Plusvalía / Properati EC / OLX EC | `https://www.plusvalia.com/` · `https://www.properati.com.ec/` · `https://www.olx.com.ec/inmuebles_c367` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 
 ## Status
 

@@ -293,7 +293,7 @@ Universal — see `shared/climate-projections.md`.
 | Energy & Water Regulator | REWS | https://www.rews.org.mt/ |
 | Energy & Water Agency | EWA | https://energywateragency.gov.mt/ |
 | Environment & Resources | ERA | https://era.org.mt/ |
-| Building & Construction | BCA | https://www.bca.gov.mt/ |
+| Building & Construction | BCA | https://bca.gov.mt/ |
 | Planning Authority | PA | https://www.pa.org.mt/ |
 
 ---

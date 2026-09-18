@@ -244,7 +244,7 @@ Typical annual rates bill: a single-family home with rateable value £200 × Dou
 2. Check listing wording for sewer type: "mains drainage" = on collective; "septic tank" / "cesspit" = off-grid
 3. For rural / hill homes: confirm mains water vs private borehole; mains drainage vs septic
 4. Call **Manx Utilities customer services +44 1624 687687** for parcel-level connection confirmation
-5. Mains gas availability: lookup at [Manx Gas postcode checker](https://www.manxgas.com) (if outside reach, factor £3,000–7,000 oil tank install OR £8,000–15,000 air-source heat pump retrofit)
+5. Mains gas availability: lookup at [Manx Gas postcode checker](https://www.manxgas.com) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row (if outside reach, factor £3,000–7,000 oil tank install OR £8,000–15,000 air-source heat pump retrofit)
 
 **Cost ranges (2025/26, indicative — verify with installer quotes)**:
 

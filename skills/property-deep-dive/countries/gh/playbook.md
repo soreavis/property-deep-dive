@@ -79,7 +79,7 @@ Per Lands Commission classification, ~78% of land in Ghana is held under **custo
 - **Bank of Ghana (BoG)** (`https://www.bog.gov.gh/`) — Real Sector Surveys; macro RE trends
 - **Lands Commission** (`https://lc.gov.gh/`) — Indenture / Lease records (paid; not openly indexed)
 - **Land Valuation Division** (Lands Commission) — official valuations for stamp duty / property rates
-- **Ghana Real Estate Developers Association (GREDA)** (`https://greda.gov.gh/`) — developer-side market notes
+- **Ghana Real Estate Developers Association (GREDA)** (`https://gredaghana.org/`) — developer-side market notes
 - **Knight Frank Ghana, Broll Ghana, JLL Sub-Saharan Africa** — quarterly/annual private market briefings (methodology disclosed)
 
 ### Listing platforms
@@ -133,7 +133,7 @@ Per Lands Commission classification, ~78% of land in Ghana is held under **custo
 - **Ghana Highway Authority (GHA)** (`https://www.highways.gov.gh/`) — trunk roads (N, R-prefix); limited open AADT data
 - **Department of Urban Roads (DUR)** (under Ministry of Roads & Highways `https://mrh.gov.gh/`) — urban roads
 - **Department of Feeder Roads (DFR)** — rural feeder roads
-- **National Road Safety Authority (NRSA)** (`https://nrsa.gov.gh/`) — accident statistics, blackspot maps
+- **National Road Safety Authority (NRSA)** (`https://nrsa.gov.gh/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — accident statistics, blackspot maps
 - **Greater Accra Regional Coordinating Council** — Accra urban traffic
 - **OSM `highway` fallback**: best practical proxy for parcel-level traffic class
 
@@ -247,7 +247,7 @@ E-Levy + tax-revenue intensification under the 2023-2026 IMF ECF (programme conc
 
 **Status**: undergoverned at federal level; growing market in Accra (Cantonments, Airport, East Legon, Labone) + Cape Coast / Elmina heritage tourism corridor + Kumasi premium.
 
-- **Ghana Tourism Authority (GTA)** (`https://gtaonline.gov.gh/`) — Tourism Act 2011 (Act 817) registration framework for accommodation enterprises (license tier varies by establishment class); STR formal compliance rare in practice — verify scope.
+- **Ghana Tourism Authority (GTA)** (`https://gta.gov.gh/`) — Tourism Act 2011 (Act 817) registration framework for accommodation enterprises (license tier varies by establishment class); STR formal compliance rare in practice — verify scope.
 - **VAT**: 15% applies if operator is VAT-registered (turnover threshold).
 - **Estate / HOA covenants**: Trasacco / East Legon Hills / gated estates often **prohibit STR** via covenants — read estate by-laws BEFORE buying for STR strategy.
 - **Year of Return / Beyond the Return** lifted Accra STR demand 2019-2024; sustained but moderating 2025-26.
@@ -385,7 +385,7 @@ Cost overlay (mid-tier Accra home, 2025-26):
 - **Community Water and Sanitation Agency (CWSA)** — `https://www.cwsa.gov.gh/` — small towns + rural
 - **Public Utilities Regulatory Commission (PURC)** — `https://www.purc.com.gh/` — utility tariffs
 - **Electricity Company of Ghana (ECG)** — `https://www.ecg.com.gh/` — distribution south
-- **Northern Electricity Distribution Company (NEDCo)** — `https://www.nedco.com.gh/` — north
+- **Northern Electricity Distribution Company (NEDCo)** — `https://www.nedcogh.com/` — north
 - **GRIDCo** — `https://www.gridcogh.com/` — transmission
 - **Energy Commission** — `https://www.energycom.gov.gh/`
 
@@ -463,7 +463,7 @@ Public-good adjacency: schools, healthcare, retail, transit.
 ### Sources
 
 - **Ministry of Education** (`https://moe.gov.gh/`); **Ministry of Health** (`https://www.moh.gov.gh/`)
-- **Ghana Health Service** (`https://www.ghanahealthservice.org/`) — hospital + clinic registry
+- **Ghana Health Service** (`https://ghs.gov.gh/`) — hospital + clinic registry
 - **MMDA listings** for licensed schools/clinics
 - **OSM / Google Maps** as practical first-pass
 
@@ -638,7 +638,7 @@ Ghana does NOT offer a residency-by-property-purchase scheme (vs Portugal Golden
 ### Regulator + insurers
 
 - **National Insurance Commission (NIC)** — `https://www.nicgh.org/`
-- **Ghana Insurers Association (GIA)** — `https://giaghana.org/`
+- **Ghana Insurers Association (GIA)** — `https://ghanainsurers.org.gh/`
 - **Major insurers**: SIC Insurance, Enterprise Insurance, Star Assurance, Vanguard, Allianz Ghana, Glico, Hollard Ghana, Loyalty Insurance, Donewell, Activa International
 
 ### Coverage typical
@@ -1071,15 +1071,15 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 | FIC (AML) | `https://www.fic.gov.gh/` |
 | Ministry of Works & Housing | `https://mwh.gov.gh/` |
 | Ministry of Foreign Affairs | `https://www.mfa.gov.gh/` |
-| Ghana Tourism Authority (GTA) | `https://gtaonline.gov.gh/` |
+| Ghana Tourism Authority (GTA) | `https://gta.gov.gh/` |
 | Accra Metropolitan Assembly (AMA) | `https://ama.gov.gh/` |
 | Ghana.gov (digital portal) | `https://www.ghana.gov.gh/` |
 | Ghana Highway Authority | `https://www.highways.gov.gh/` |
 | Ministry of Roads & Highways | `https://mrh.gov.gh/` |
-| NRSA (Road Safety) | `https://nrsa.gov.gh/` |
+| NRSA (Road Safety) | `https://nrsa.gov.gh/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | NADMO / GMet / EPA Ghana | `https://nadmo.gov.gh/` + `https://www.meteo.gov.gh/` + `https://www.epa.gov.gh/` |
 | Ministry of Environment, Science, Technology & Innovation | `https://mesti.gov.gh/` |
-| ECG / NEDCo / GRIDCo / Energy Commission | `https://www.ecg.com.gh/` + `https://www.nedco.com.gh/` + `https://www.gridcogh.com/` + `https://www.energycom.gov.gh/` |
+| ECG / NEDCo / GRIDCo / Energy Commission | `https://www.ecg.com.gh/` + `https://www.nedcogh.com/` + `https://www.gridcogh.com/` + `https://www.energycom.gov.gh/` |
 | GWCL / CWSA / PURC | `https://www.gwcl.com.gh/` + `https://www.cwsa.gov.gh/` + `https://www.purc.com.gh/` |
 | NIC (Insurance) / NCA (Telecom) | `https://www.nicgh.org/` + `https://nca.org.gh/` |
 | Ghana Free Zones Authority (GFZA) | `https://gfzb.gov.gh/` |

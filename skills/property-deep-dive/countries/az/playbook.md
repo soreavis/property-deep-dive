@@ -11,7 +11,7 @@ ISO2: `az`. Status: ✅ Fully populated (researched 2026-05).
 - **EU/CIS status**: Member of CIS (founder); Eastern Partnership member (EU); **no EU candidate status**; bilateral PCA + Strategic Partnership negotiation since 2017; OSCE + Council of Europe member
 - **Postcode**: 4 digits with `AZ` prefix per Azərpoçt scheme (e.g., Baku centre `AZ1010`, Yasamal `AZ1100`, Khatai/Khatayi `AZ1003`–`AZ1078`, Sumqayit `AZ5000`–`AZ5018`, Ganja `AZ2000`)
 - **Admin levels**: 11 economic regions → 66 rayons (districts/raions) + 11 cities of republican subordination + 1 autonomous republic (Naxçıvan/Nakhchivan, exclave) → ~4,500 municipalities + settlements. Karabakh + East Zangezur economic regions reintegrated 2020–2023 (see Caveats)
-- **Cadastre**: **State Service on Property Issues (SCSI)** under Ministry of Economy — `https://emdk.gov.az/` operates the State Register of Real Estate (Daşınmaz əmlakın dövlət reyestri); citizen interface via **e-emlak.gov.az** + **e-gov.az** (single sign-on) + **ASAN Service** one-stop offices nationwide
+- **Cadastre**: **State Service on Property Issues (SCSI)** under Ministry of Economy — `https://emlak.gov.az/` operates the State Register of Real Estate (Daşınmaz əmlakın dövlət reyestri); citizen interface via **e-emlak.gov.az** + **e-gov.az** (single sign-on) + **ASAN Service** one-stop offices nationwide
 - **Identifier**: Real Estate Cadastral Number (`Daşınmaz əmlakın kadastr nömrəsi`) format `XX-XXX-XX-XXXX-XXX` (region.district.block.parcel.unit) per Law on Real Estate State Register No. 270-IIIQ of 2004
 - **Foreign-buyer rule** (2026-05-27 verified, sources Land Code Art. 48.3 + Art. 49, AZ MFA New Delhi reference document, emze.az, vlolawfirm.com, norma.az): **foreigners may own buildings / apartments / individual houses** as full freehold structures, with same registration/rights as AZ citizens (Constitution Art. 13 + Civil Code Art. 152). **Foreigners CANNOT own LAND of any class** — agricultural, forest, residential plot, urban — per **Land Code Art. 48.3** (foreigners lease only) **+ Art. 49** (ag/forest/border ownership ban). For an apartment in a multi-unit building, this is moot (land is collective/state). For a **standalone house with plot**, the foreigner owns the structure but the land must be held under a long lease (up to 99 years) from the State or AZ private landowner. **Border zones + strategic-security areas** require case-by-case approval (often denied) per Cabinet Decree on Border Regime. Foreigners must register acquired property at SCSI within **1 month** of deed signing.
 - **Visa**: **Visa-free 30–90 day** entry for ~70 nationalities (Russia, Türkiye, GCC, Israel, Belarus, CIS); **e-visa via ASAN Visa** (`https://evisa.gov.az/`) for ~100 nationalities incl. EU, UK, US, CA, AU, NZ, JP, KR — 3-day processing, ~US$25 fee; visa-on-arrival NOT generally available
@@ -27,8 +27,8 @@ ISO2: `az`. Status: ✅ Fully populated (researched 2026-05).
   - Annual House Price Index (since 2018; base 2015 = 100); Q4 2024 nationwide index ~178 → +9.2 % YoY (per SSC release Mar 2025 — verify)
   - Sub-indices: Baku vs regional cities; primary (new build) vs secondary (resale)
 - **CBAR (Central Bank of Azerbaijan Republic)**: `https://www.cbar.az/` — quarterly Financial Stability Report includes mortgage debt + house-price commentary
-- **SCSI cadastre extracts** (paid): `https://e-emlak.gov.az/` — full title + ownership + cadastral plan via e-gov.az auth or any ASAN Service centre (~AZN 5–20 standard, AZN 30–60 urgent — verify current SCSI tariff)
-- **Azerbaijan Mortgage and Credit Guarantee Fund (AMF/MİGAGF)**: `https://amcgf.gov.az/` — published average per-m² for state-subsidised mortgage qualifying inventory (useful Baku/Sumqayit cross-check)
+- **SCSI cadastre extracts** (paid): `https://e-services.economy.gov.az/` — full title + ownership + cadastral plan via e-gov.az auth or any ASAN Service centre (~AZN 5–20 standard, AZN 30–60 urgent — verify current SCSI tariff)
+- **Azerbaijan Mortgage and Credit Guarantee Fund (AMF/MİGAGF)**: `https://mcgf.gov.az/` — published average per-m² for state-subsidised mortgage qualifying inventory (useful Baku/Sumqayit cross-check)
 
 ### Price benchmarks (2024–2025 reference)
 
@@ -80,7 +80,7 @@ ISO2: `az`. Status: ✅ Fully populated (researched 2026-05).
 
 - **State Highway Agency (Azərbaycan Avtomobil Yolları Dövlət Agentliyi — AAYDA)**: `https://aayda.gov.az/` — annual traffic counts on M-prefix (republic) + R-prefix (regional) roads
 - **Ministry of Digital Development and Transport** (`https://mincom.gov.az/`) — sectoral plans, road master plans, port + rail context
-- **Baku Transport Agency (Bakı Nəqliyyat Agentliyi — BNA)**: `https://bna.az/` — Baku municipal traffic + bus/metro
+- **Baku Transport Agency (Bakı Nəqliyyat Agentliyi — BNA)**: `https://ayna.gov.az/` — Baku municipal traffic + bus/metro
 - **Baku Metropoliten** (`https://metro.gov.az/`) — Baku metro (3 lines, 27 stations as of 2025; expansion ongoing)
 - **Yandex Maps + Google Traffic** — only commercial-grade real-time fallback in AZ (Yandex is dominant locally)
 
@@ -190,7 +190,7 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 - Cash payments by legal entities: capped per Cabinet Decision on Cash Discipline; **AZN 30,000** per transaction is the residential-resale practical ceiling (Decree on Cash Operations 2016 — verify current cap)
 - Bank-to-bank wire is the standard channel for any transaction > AZN 10,000
 - Notaries are AML "obligated entities" under **Law on Prevention of Money Laundering and Financing of Terrorism No. 767-IIIQ of 2009** — must verify source of funds; PEP screening mandatory
-- **CBAR + Financial Monitoring Service (FMS)**: `https://www.fms.gov.az/` — AML supervision
+- **CBAR + Financial Monitoring Service (FMS)**: `https://fiu.gov.az/` — AML supervision
 
 ### Future risk
 
@@ -247,7 +247,7 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 
 ### Job platforms
 
-- **HH.az** — largest job board (Russian/Azerbaijani UI): `https://hh.az/`
+- **HH.az** — largest job board (Russian/Azerbaijani UI): `https://hh.az/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Jobsearch.az** — long-running general: `https://jobsearch.az/`
 - **Boss.az** — IT + finance focus: `https://boss.az/`
 - **Offer.az** — broader classifieds + jobs: `https://offer.az/`
@@ -263,7 +263,7 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 ### Tech / IT-specific incentive
 
 - **High Technology Park (Yüksək Texnologiyalar Parkı — YTP)** at AZ-Tech Park / Pirallahi (Law on High Technology Park 2012 + Presidential Decree 2018): residents pay reduced taxes on qualifying IT activity — typically 0 % CIT + 0 % VAT + 0 % property tax for first 7–10 years (verify current eligibility at `https://ytp.az/`)
-- **Innoland / Innovation Agency**: `https://innovation.gov.az/` — startup support + grants
+- **Innoland / Innovation Agency**: `https://idda.az/` — startup support + grants
 
 ### Salaried benchmarks
 
@@ -302,7 +302,7 @@ A 200 m² Baku Sahil flat, AZN 1.2 million market value, cadastral value AZN 800
 | **National Hydrometeorology Department (Milli Hidrometeorologiya Departamenti)** | `https://www.eco.gov.az/` (under MENR) | Weather, flood warnings, climate baseline |
 | **Ministry of Ecology & Natural Resources (MENR — Ekologiya və Təbii Sərvətlər Nazirliyi)** | `https://eco.gov.az/` | Environmental risk reports, climate strategy, geo-hazards |
 | **Geological Service (GSC — Milli Geoloji Kəşfiyyat Xidməti)** | (under MENR) `https://eco.gov.az/` | Geological maps, mud-volcano + landslide registry |
-| **State Service on Property Issues (SCSI)** | `https://emdk.gov.az/` | Cadastre + zoning + restricted-zone flag (border / strategic) |
+| **State Service on Property Issues (SCSI)** | `https://emlak.gov.az/` | Cadastre + zoning + restricted-zone flag (border / strategic) |
 | **Caspian Sea Sustainable Development monitoring** | (Tehran Convention regional) | Sea-level + ecosystem monitoring |
 
 ### Seismicity — material concern
@@ -514,7 +514,7 @@ Universal — see `shared/climate-projections.md`. National source: National Hyd
 - **DTI / DSTI**: CBAR Regulation caps debt-service at typically **40–50 %** of net income; income evidence required (tax return + employment contract)
 - **Rate structure (2024–2026)**:
   - **Standard AZN-denominated mortgages**: typical 8–15 % nominal (commercial)
-  - **AMF (Azerbaijan Mortgage and Credit Guarantee Fund) subsidised programme**: **5–9 % rates** for AZ-citizen first-time buyers meeting income + property-cap criteria — `https://amcgf.gov.az/`
+  - **AMF (Azerbaijan Mortgage and Credit Guarantee Fund) subsidised programme**: **5–9 % rates** for AZ-citizen first-time buyers meeting income + property-cap criteria — `https://mcgf.gov.az/`
   - **Social mortgage**: even lower rates for state employees + young families + IDPs/displaced from Karabakh — verify AMF current programme
   - 15–25-year tenors standard; 30-year rare
 - **Foreigner mortgages**: limited; most AZ banks require resident status + AZ tax residency + 24+ months income history. **Cash purchase is the standard foreign-buyer route.**
@@ -940,7 +940,7 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 - **Non-oil private-sector employee PIT** — 0 % up to AZN 8,000/month under the 7-year scheme through 2025; **transitions to graduated 3 % / 10 % / 14 % bands from 1 Jan 2026** (2026-05-27 verified, sources APA + Caspian Legal Center 2026 amendments)
 - **Residential rental income paid to individuals**: 14 % (2024–2025) → **10 % from 1 Jan 2026** (2026-05-27 verified, source APA 2026-budget-package reporting)
 - **Individual seller property transfer**: notary-withheld per-m²-based simplified tax under Art. 220-series (no separate CGT on net gain; the previously claimed "3-year primary-residence exemption under Art. 102.1.18" is unverified — data not publicly verified — verify at taxes.gov.az)
-- **AMF state-subsidised mortgage** at 5–9 % rates for AZ-citizen first-time buyers (`https://amcgf.gov.az/`)
+- **AMF state-subsidised mortgage** at 5–9 % rates for AZ-citizen first-time buyers (`https://mcgf.gov.az/`)
 - **Karabakh + East Zangezur reconstruction zones**: special tax incentives + subsidised mortgages for displaced returnees + qualifying investors (Presidential Decree on State Programme for Restoration)
 - **High Technology Park (YTP)**: significant CIT/VAT incentives for resident IT firms
 - **Real-estate-linked TRP at AZN 100,000** purchase threshold → 1-yr renewable
@@ -1030,8 +1030,8 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 
 | Source | URL pattern |
 |---|---|
-| SCSI cadastre / property issues | `https://emdk.gov.az/` |
-| SCSI e-extract self-service | `https://e-emlak.gov.az/` |
+| SCSI cadastre / property issues | `https://emlak.gov.az/` |
+| SCSI e-extract self-service | `https://e-services.economy.gov.az/` |
 | e-Gov single sign-on | `https://www.e-gov.az/` |
 | ASAN Service one-stop | `https://asan.gov.az/` |
 | State Tax Service | `https://www.taxes.gov.az/` |
@@ -1041,7 +1041,7 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 | State Statistical Committee | `https://www.stat.gov.az/` |
 | Ministry of Justice (notary register) | `https://justice.gov.az/` |
 | Tariff Council | `https://www.tariffcouncil.gov.az/` |
-| AMF Mortgage Fund | `https://amcgf.gov.az/` |
+| AMF Mortgage Fund | `https://mcgf.gov.az/` |
 | MENR Ministry of Ecology | `https://eco.gov.az/` |
 | RSSC Seismology | `https://seismology.az/en` |
 | FHN Emergency Situations | `https://fhn.gov.az/` |
@@ -1057,11 +1057,11 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 | Tap.az classifieds | `https://tap.az/elanlar/dasinmaz-emlak` |
 | Lalafo.az classifieds | `https://lalafo.az/azerbaijan/nedvizhimost` |
 | State Highway Agency | `https://aayda.gov.az/` |
-| Baku Transport Agency | `https://bna.az/` |
+| Baku Transport Agency | `https://ayna.gov.az/` |
 | Baku Metropoliten | `https://metro.gov.az/` |
 | ASAN Visa (e-visa) | `https://evisa.gov.az/` |
 | YTP High Technology Park | `https://ytp.az/` |
-| FMS Financial Monitoring | `https://www.fms.gov.az/` |
+| FMS Financial Monitoring | `https://fiu.gov.az/` |
 | Insurers' Association | `https://asa.az/` |
 
 ## Status

@@ -188,7 +188,7 @@ Flat-rate carve-outs for property-relevant income: **rental 15 %**, **CGT 15 %**
 
 ### Sources
 
-- **ZK (Zyra e Punësimit) / SHKP (Shërbimi Kombëtar i Punësimit)**: `https://www.shkp.gov.al/`
+- **ZK (Zyra e Punësimit) / SHKP (Shërbimi Kombëtar i Punësimit)**: `https://www.puna.gov.al`
 - **Duapune.al**, **njofta.com**, **MerrJep Punë**, **LinkedIn AL**
 
 ### Self-employment

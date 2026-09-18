@@ -14,7 +14,7 @@ ISO2: `ke`. Status: ✅ Fully populated (researched 2026-05).
   - **Ministry of Lands and Physical Planning** at Ardhi House, Nairobi + 47 County Land Registries: `https://www.lands.go.ke/`
   - Four legacy regimes being unified under Land Registration Act 2012: **RTA (Registration of Titles Act)**, **RLA (Registration of Land Act)**, **GLA (Government Lands Act)**, **LTA (Land Titles Act)** — most current titles still cite a legacy register
   - **LIMS (Land Information Management System)** — digitization since 2019; migration to **Ardhisasa** platform (`https://ardhisasa.lands.go.ke/`) ongoing 2024–2026 (Nairobi pilot earliest, county rollout phased — verify status at Ardhisasa for parcel)
-  - **Survey of Kenya** (under Ministry of Lands): cadastral surveys + RIM (Registry Index Map): `https://www.survey.go.ke/`
+  - **Survey of Kenya** (under Ministry of Lands): cadastral surveys + RIM (Registry Index Map): `https://lands.go.ke/`
 - **Identifiers**:
   - **LR No.** (Land Reference Number) — legacy under RTA / GLA (e.g., `LR No. 209/14021`)
   - **Block / Parcel Number** under new RLA / Land Registration Act 2012 (e.g., `Karen/Block 1/123`)
@@ -134,7 +134,7 @@ Listing-derived ranges, cross-checked against HassConsult Q4 2025 and Knight Fra
 
 **Caveat**: KeNHA does NOT publish parcel-level AADT in a single open dataset. For decision-grade traffic counts, request the Project Information Memorandum for the relevant highway from KeNHA. OSM class is reliable for tier; absolute volumes are estimates.
 
-⚠️ **Nairobi Expressway (toll)** opened 2022 (operated by Moja Expressway under PPP with KeNHA): runs Mlolongo–JKIA–Westlands; reduces travel time but adds toll-cost factor for properties along Mombasa Rd / Uhuru Highway corridor (verify toll at `https://mojaexpressway.com/`).
+⚠️ **Nairobi Expressway (toll)** opened 2022 (operated by Moja Expressway under PPP with KeNHA): runs Mlolongo–JKIA–Westlands; reduces travel time but adds toll-cost factor for properties along Mombasa Rd / Uhuru Highway corridor (verify toll at `https://nairobiexpressway.ke/`).
 
 ---
 
@@ -280,7 +280,7 @@ For the same purchase with mortgage (70 % LTV): add mortgage stamp duty 0.1 % of
 - **MyJobsInKenya**: `https://www.myjobsinkenya.com/`
 - **Fuzu**: `https://www.fuzu.com/kenya`
 - **LinkedIn Kenya** — strong for finance, NGO/UN, tech, professional services
-- **Indeed Kenya**: `https://ke.indeed.com/`
+- **Indeed Kenya**: `https://ke.indeed.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Public Service Commission (state jobs)**: `https://www.publicservice.go.ke/`
 - **UN Careers Nairobi** (UNON, UNEP, UN-Habitat HQ): `https://careers.un.org/`
 
@@ -333,7 +333,7 @@ Indicative gross monthly KES (per BrighterMonday + Fuzu + KNBS Quarterly Labour 
 | **National Drought Management Authority (NDMA)** | `https://www.ndma.go.ke/` | Drought EWS bulletins (23 ASAL counties) |
 | **NEMA (National Environment Management Authority)** | `https://www.nema.go.ke/` | EIA registry, environmental risk |
 | **Geological Survey of Kenya** (Mines & Geology Dept) | `https://www.mining.go.ke/` | Geology, seismic, landslide |
-| **Kenya Red Cross + ReliefWeb Kenya** | `https://www.kenyaredcross.org/` + `https://reliefweb.int/country/ken` | Active disasters + humanitarian alerts |
+| **Kenya Red Cross + ReliefWeb Kenya** | `https://www.redcross.or.ke/` + `https://reliefweb.int/country/ken` | Active disasters + humanitarian alerts |
 | **NTSA accident hotspots** | `https://www.ntsa.go.ke/` | Road safety blackspots |
 | **Foreign government travel advisories** (UK FCDO, US State, AU DFAT) | `https://www.gov.uk/foreign-travel-advice/kenya` | Security advisories, north-east + Lamu warnings |
 
@@ -400,9 +400,9 @@ Source: KMD State of Climate annual reports; NDC Kenya: `https://www4.unfccc.int
 ### Water + sanitation utilities
 
 - **Nairobi City Water and Sewerage Company (NCWSC)**: `https://www.nairobiwater.co.ke/`
-- **Mombasa Water Supply and Sanitation Company (MOWASSCO)**: `https://www.mowasco.co.ke/`
+- **Mombasa Water Supply and Sanitation Company (MOWASSCO)**: `https://www.mombasawater.co.ke/`
 - **Kisumu Water and Sanitation Company (KIWASCO)**: `https://www.kiwasco.co.ke/`
-- **Nakuru Water and Sanitation Services Co. (NAWASSCO)**: `https://www.nawassco.co.ke/`
+- **Nakuru Water and Sanitation Services Co. (NAWASSCO)**: `https://www.nakuruwater.co.ke/`
 - **Eldoret Water and Sanitation Co. (ELDOWAS)**: `https://www.eldowas.or.ke/`
 - **Athi Water Works Development Agency** (Nairobi metro source): `https://www.awwda.go.ke/`
 - **Water Services Regulatory Board (WASREB)** (national regulator): `https://wasreb.go.ke/`
@@ -447,7 +447,7 @@ Source: KMD State of Climate annual reports; NDC Kenya: `https://www4.unfccc.int
 ### Primary source
 
 - **National Police Service**: `https://www.nationalpolice.go.ke/` — Annual Crime Report (national + county aggregate; **no per-station / per-suburb open data**)
-- **DCI (Directorate of Criminal Investigations)**: `https://www.cid.go.ke/` — high-profile cases + investigation
+- **DCI (Directorate of Criminal Investigations)**: `https://www.dci.go.ke/` — high-profile cases + investigation
 - **NTSA accident statistics** (proxy for crash/violence on roads): `https://www.ntsa.go.ke/`
 - **UN OCHA + Kenya Red Cross** for civil-unrest + protest data
 - **UK FCDO + US Department of State** travel advisories (per-region warnings): `https://www.gov.uk/foreign-travel-advice/kenya`
@@ -993,7 +993,7 @@ Workable pathways for remote-working visitors:
 |---|---|
 | Capital Gains Tax (15 % on net gain) | 15 % of (sale value − cost basis − incidentals) |
 | Vendor's advocate fees (per Advocates Remuneration Order) | 1.5–2.5 % of sale value |
-| Real estate agent commission (seller side, EAK code) | typically 3 % + 16 % VAT (~3.48 %) — Estate Agents Registration Board: `https://www.earb.or.ke/` |
+| Real estate agent commission (seller side, EAK code) | typically 3 % + 16 % VAT (~3.48 %) — Estate Agents Registration Board: `https://estateagentsboard.or.ke/` |
 | Rates Clearance arrears clearance | per arrears (county) |
 | Land Rent arrears clearance | per arrears (Lands Rent Dept) |
 | Mortgage early-discharge fee | per loan terms (typically 1–3 % outstanding) |
@@ -1075,7 +1075,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 - **Knight Frank Kenya** — `https://www.knightfrank.co.ke/`
 - **Pam Golding Kenya** — `https://www.pamgolding.co.ke/`
 - **Lloyd Masika** — `https://www.lloydmasika.co.ke/`
-- **Tysons Limited** — `https://www.tysonsltd.com/`
+- **Tysons Limited** — `https://www.tysons.co.ke/`
 
 ## Caveats unique to Kenya
 
@@ -1146,7 +1146,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 |---|---|
 | Ministry of Lands and Physical Planning | `https://www.lands.go.ke/` |
 | Ardhisasa (digital lands platform) | `https://ardhisasa.lands.go.ke/` |
-| Survey of Kenya | `https://www.survey.go.ke/` |
+| Survey of Kenya | `https://lands.go.ke/` |
 | National Land Commission (NLC) | `https://www.landcommission.go.ke/` |
 | Kenya Revenue Authority (KRA) | `https://www.kra.go.ke/` |
 | Central Bank of Kenya (CBK) | `https://www.centralbank.go.ke/` |
@@ -1177,7 +1177,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 | Tourism Regulatory Authority (TRA) | `https://www.tourismauthority.go.ke/` |
 | Insurance Regulatory Authority (IRA) | `https://www.ira.go.ke/` |
 | Law Society of Kenya (LSK) | `https://www.lsk.or.ke/` |
-| Estate Agents Registration Board (EARB) | `https://www.earb.or.ke/` |
+| Estate Agents Registration Board (EARB) | `https://estateagentsboard.or.ke/` |
 | HassConsult Property Index | `https://www.hassconsult.com/` |
 | Knight Frank Kenya | `https://www.knightfrank.co.ke/` |
 | BuyRentKenya | `https://www.buyrentkenya.com/` |
@@ -1187,7 +1187,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 | Kenya Law Reports | `http://kenyalaw.org/` |
 | Social Health Authority (SHIF) | `https://www.sha.go.ke/` |
 | Kenya Railways (SGR) | `https://krc.co.ke/` |
-| Moja Expressway (Nairobi Expressway toll) | `https://mojaexpressway.com/` |
+| Moja Expressway (Nairobi Expressway toll) | `https://nairobiexpressway.ke/` |
 | 2010 Constitution of Kenya (PDF) | `https://www.parliament.go.ke/sites/default/files/2017-05/The_Constitution_of_Kenya_2010.pdf` |
 
 ## Status

@@ -265,7 +265,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 ### Sources
 
 - **Komunalne službe** per občina (municipal services)
-- **Vodovod-Kanalizacija Ljubljana** (Ljubljana operator): `https://www.vo-ka.si/`
+- **Vodovod-Kanalizacija Ljubljana** (Ljubljana operator): `https://www.vokasnaga.si/`
 - **Mariborski vodovod** + regional public utilities
 - Most občine have own komunala
 - Universal in cities; rural Karst + Pohorje villages on greznica (cesspit)

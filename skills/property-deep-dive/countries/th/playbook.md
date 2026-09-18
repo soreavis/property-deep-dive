@@ -56,7 +56,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 
 ### Path 1: Condominium freehold (✅ recommended for most foreign buyers)
 
-- Legal basis: **Condominium Act BE 2522 (1979)**, as amended (1991, 1999, 2008). Source text via Office of the Council of State `http://www.krisdika.go.th/`.
+- Legal basis: **Condominium Act BE 2522 (1979)**, as amended (1991, 1999, 2008). Source text via Office of the Council of State `https://www.ocs.go.th/searchlaw`.
 - **49% foreign quota**: foreigners may collectively own up to 49% of the **total saleable floor area** of any one condominium project. The quota is **per project, not per unit type**.
 - **Quota verification** before purchase: ask the project's juristic person (นิติบุคคลอาคารชุด — condo management entity) for a written **Foreign Quota Certificate** stating current foreign-owned area % and confirming the unit you are buying is "in foreign quota". Without it, DOL will not transfer the unit to a foreign name.
 - **FX rule (mandatory)**: purchase funds must be remitted **from abroad in foreign currency** and converted to THB inside Thailand. The receiving Thai bank issues a **Foreign Exchange Transaction Form (FET / formerly Tor Tor 3 / ธ.ต.3)** for any single inbound transfer ≥ USD 50,000 (or its equivalent). FET is mandatory evidence at DOL transfer; without it, the transfer cannot be registered. Source: Bank of Thailand FX regulation `https://www.bot.or.th/en/our-roles/financial-markets/foreign-exchange-regulations.html`
@@ -64,7 +64,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 
 ### Path 2: 30-year leasehold of land
 
-- Legal basis: **Civil and Commercial Code §540 (lease cap 30 years)** and **§541 (renewal)**. Source via Krisdika `http://www.krisdika.go.th/`.
+- Legal basis: **Civil and Commercial Code §540 (lease cap 30 years)** and **§541 (renewal)**. Source via Krisdika `https://www.ocs.go.th/searchlaw`.
 - A lease registered at DOL for a term > 3 years is enforceable against subsequent landowners; **maximum registrable term: 30 years**.
 - **"30 + 30 + 30" / "90-year lease"**: marketed by developers as effectively perpetual. **Legal reality**: only the first 30-year term is enforceable as a registered right. The two renewals are *contractual options* — if the landowner refuses or transfers the land, Thai courts have held that successor owners are NOT bound by unregistered renewal options. Multiple Supreme Court (Dika) rulings (e.g., 2008/2557, 2015/2358) have nullified second-term claims.
 - **Practical implication**: budget the property as a 30-year asset with optional (uncertain) extension. Discount the price accordingly vs freehold.
@@ -420,7 +420,7 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 | **DMR (กรมทรัพยากรธรณี — Dept. of Mineral Resources)** | `https://www.dmr.go.th/` | Geology, landslide & earthquake hazard mapping |
 | **Royal Irrigation Department (กรมชลประทาน)** | `https://www.rid.go.th/` | Floodplain & dam release data |
 | **Pollution Control Department (กรมควบคุมมลพิษ)** | `https://www.pcd.go.th/` | Air quality, water quality, AQ index |
-| **NDWC (National Disaster Warning Center)** | `https://www.ndwc.go.th/` | Tsunami warning + Andaman coast sirens |
+| **NDWC (National Disaster Warning Center)** | `https://ndwc.disaster.go.th/` | Tsunami warning + Andaman coast sirens |
 | **Office of Natural Resources & Environmental Policy & Planning (ONEP)** | `https://www.onep.go.th/` | Climate-change adaptation strategy, EIA |
 
 ### Flood (น้ำท่วม)
@@ -428,7 +428,7 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 - **Bangkok metropolitan**: legacy of 2011 floods (worst in 50 years; CBD partially flooded; estimated USD 46B economic losses — World Bank 2012). Subsequent BMA flood-defence investments (king's tunnels / Chao Phraya barrier upgrades) — partial mitigation only.
 - **Annual monsoon floods**: October–November (Northeast monsoon retreat) — Chao Phraya basin, Northeast (Khorat plateau), Northern provinces (Chiang Rai 2024 flooded; Chiang Mai 2024 flooded).
 - **Bangkok subsidence**: city sinks ~1–3 cm/yr in some districts (heavy groundwater abstraction historically + delta sediment compaction). Combined with sea-level rise 3–5 mm/yr, parts of inner Bangkok could be regularly inundated by mid-century. Source: GISTDA + Chulalongkorn University monitoring; ONEP National Adaptation Plan 2022.
-- **Flood maps**: GISTDA flood-extent products (post-event mapping) at `https://flood.gistda.or.th/`. DDPM hazard zones at provincial PAO (อบจ.) level.
+- **Flood maps**: GISTDA flood-extent products (post-event mapping) at `https://disaster.gistda.or.th/flood`. DDPM hazard zones at provincial PAO (อบจ.) level.
 - **Verdict bands**:
   - 🔴 Bangkok low-lying (Bang Khae, Min Buri, Lat Krabang east, Bang Phlat riverbank) + Lower Chao Phraya delta + central plain
   - 🟠 Bangkok inner-mid (Sukhumvit, Sathorn, Silom — protected by king's tunnels but 2011 flooding reached parts)
@@ -672,7 +672,7 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 | Treasury Department main | `https://www.treasury.go.th/` |
 | Revenue Department | `https://www.rd.go.th/` |
 | Royal Gazette (statutes) | `http://www.ratchakitcha.soc.go.th/` |
-| Krisdika (Office of the Council of State, statute texts) | `http://www.krisdika.go.th/` |
+| Krisdika (Office of the Council of State, statute texts) | `https://www.ocs.go.th/searchlaw` |
 | Cabinet Resolution database | `https://resolution.soc.go.th/` |
 | Bank of Thailand FX rules | `https://www.bot.or.th/en/our-roles/financial-markets/foreign-exchange-regulations.html` |
 | Immigration Bureau | `https://www.immigration.go.th/` |
@@ -693,7 +693,7 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 | DDPM (disaster) | `https://www.disaster.go.th/` |
 | TMD (meteorology) | `https://www.tmd.go.th/` |
 | GISTDA (geo / satellite) | `https://www.gistda.or.th/` |
-| GISTDA flood viewer | `https://flood.gistda.or.th/` |
+| GISTDA flood viewer | `https://disaster.gistda.or.th/flood` |
 | DMR (geology, faults) | `https://www.dmr.go.th/` |
 | ONEP (climate adaptation) | `https://www.onep.go.th/` |
 | Department of Highways AADT | `https://bhs.doh.go.th/` |

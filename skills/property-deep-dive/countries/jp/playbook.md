@@ -29,11 +29,11 @@ ISO2: `jp`. Status: ✅ Fully populated (researched 2026-05).
   - English summary: `https://www.mlit.go.jp/en/totikensangyo/totikensangyo_fr5_000014.html`
   - Latest cited series: residential price index +5.00 % YoY (Nov 2025 release, MLIT)
 - **国土交通省 不動産取引価格情報検索 (Land General Information System)** — actual recorded transaction prices since 2005, surveyed from real transaction parties (NOT listings or estimates)
-  - Portal: `https://www.land.mlit.go.jp/webland/`
-  - English: `https://www.land.mlit.go.jp/webland_english/servlet/MainServlet`
+  - Portal: `https://www.reinfolib.mlit.go.jp/realEstatePrices`
+  - English: `https://www.reinfolib.mlit.go.jp/realEstatePrices`
   - Update cadence: quarterly with 3–6 month lag
 - **公示地価 (kōji chika — Public Land Price)** — annual, MLIT, 1 January reference, published late March; ~26,000 standard sites (基準地)
-  - Portal: `https://www.land.mlit.go.jp/landPrice/AriaServlet`
+  - Portal: `https://www.reinfolib.mlit.go.jp/landPrices`
 - **路線価 (rosenka — Route Land Value)** — annual, **国税庁 (NTA — National Tax Agency)**, used for inheritance + gift tax base
   - Portal: `https://www.rosenka.nta.go.jp/`
   - Note: 路線価 is typically ~80 % of 公示地価 (deliberate gap for tax buffer)
@@ -367,7 +367,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 
 ### National database
 
-- **公益社団法人 日本水道協会 (JWWA)**: `https://www.jwwa.or.jp/` — sector data
+- **公益社団法人 日本水道協会 (JWWA)**: `http://www.jwwa.or.jp/` — sector data
 - **国土交通省 下水道統計**: `https://www.mlit.go.jp/mizukokudo/sewerage/index.html` — sewer coverage statistics
 
 ### Operators
@@ -463,7 +463,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 - **r/japanlife** — most active expat community, real ownership posts
 - **r/movingtojapan** — pre-relocation
 - **r/JapanFinance** + wiki at `https://wiki.japanfinance.org/` — best English-language tax + mortgage primer; high-quality
-- **GaijinPot Forums** — `https://forums.gaijinpot.com/`
+- **GaijinPot Forums** — `https://forums.gaijinpot.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Tokyo Cheapo** — `https://tokyocheapo.com/`
 - **Real Estate Japan blog** — `https://resources.realestate.co.jp/`
 - **Plaza Homes blog** — `https://www.realestate-tokyo.com/news/`
@@ -507,8 +507,8 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 | Source | URL |
 |---|---|
 | MLIT 不動産価格指数 | `https://www.mlit.go.jp/totikensangyo/totikensangyo_tk5_000085.html` |
-| MLIT 不動産取引価格情報検索 | `https://www.land.mlit.go.jp/webland/` |
-| MLIT 公示地価 | `https://www.land.mlit.go.jp/landPrice/AriaServlet` |
+| MLIT 不動産取引価格情報検索 | `https://www.reinfolib.mlit.go.jp/realEstatePrices` |
+| MLIT 公示地価 | `https://www.reinfolib.mlit.go.jp/landPrices` |
 | NTA 路線価 | `https://www.rosenka.nta.go.jp/` |
 | REINS Market Information | `http://www.reins.or.jp/` |
 | 国土交通省ハザードマップポータル | `https://disaportal.gsi.go.jp/` |

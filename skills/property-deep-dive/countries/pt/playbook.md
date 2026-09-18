@@ -20,7 +20,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 - **ePortugal Predial Online**: `https://www.predialonline.pt/` — official cadastre access
 - **Portal das Finanças** (matricial article + valor patrimonial tributário): `https://www.portaldasfinancas.gov.pt/`
 - **INE (Instituto Nacional de Estatística) Estatísticas dos Preços da Habitação**: `https://www.ine.pt/`
-- **Confidencial Imobiliário SIR (Sistema de Informação Residencial)**: `https://www.ci-iberian.com/`
+- **Confidencial Imobiliário SIR (Sistema de Informação Residencial)**: `https://www.confidencialimobiliario.com/`
 
 ### Listing platforms
 
@@ -228,7 +228,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 | **IPMA (Instituto Português do Mar e da Atmosfera)** | `https://www.ipma.pt/` | Meteorology + seismic + climate |
 | **CCDR regional** (Comissões de Coordenação e Desenvolvimento Regional) | per region | Regional hazards |
 | **ICNF (Instituto da Conservação da Natureza)** | `https://www.icnf.pt/` | Forest + fire + protected areas |
-| **CNPGB (Comissão Nacional do Programa de Gestão de Riscos)** | `https://snrf.cnpcb.pt/` | Wildfire risk |
+| **CNPGB (Comissão Nacional do Programa de Gestão de Riscos)** | `https://www.dgterritorio.gov.pt/atividades/paisagem/ptp/carta-perigosidade-incendio-rural` | Wildfire risk |
 
 ### Specific risks
 
@@ -283,8 +283,8 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 
 ### Sources
 
-- **ERSAR (Entidade Reguladora dos Serviços de Águas e Resíduos)**: `https://www.ersar.pt/` — national regulator
-- **Águas de Portugal Group** (state-owned multi-region utility): `https://www.adp.pt/`
+- **ERSAR (Entidade Reguladora dos Serviços de Águas e Resíduos)**: `https://www.gov.pt/entidades/entidade-reguladora-dos-servicos-de-aguas-e-residuos` — national regulator
+- **Águas de Portugal Group** (state-owned multi-region utility): `https://www.adp.pt/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - Each município has **Câmara Municipal Águas e Saneamento** or contracts to AdP/Veolia/etc.
 - Major: **EPAL** (Lisboa), **Águas do Porto** (Porto), **AGS, INDAQUA, Veolia PT**
 
@@ -384,11 +384,11 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 | Idealista PT | `https://www.idealista.pt/<distrito>/<municipio>/` |
 | Imovirtual | `https://www.imovirtual.com/` |
 | INE | `https://www.ine.pt/` |
-| Confidencial Imobiliário | `https://www.ci-iberian.com/` |
+| Confidencial Imobiliário | `https://www.confidencialimobiliario.com/` |
 | ANEPC | `https://prociv.gov.pt/` |
 | APA | `https://apa.pt/` |
 | IPMA | `https://www.ipma.pt/` |
-| ERSAR | `https://www.ersar.pt/` |
+| ERSAR | `https://www.gov.pt/entidades/entidade-reguladora-dos-servicos-de-aguas-e-residuos` |
 
 ## Status
 

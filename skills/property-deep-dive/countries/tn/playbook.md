@@ -9,8 +9,8 @@ ISO2: `tn`. Status: RESTRICTED for foreign buyers (governor authorisation regime
 - **Languages**: Arabic (official, Tunisian dialect + MSA); **French dominant in business + property + legal practice** (notarial deeds drafted in French or bilingual); Tamazight in southern + interior pockets; English growing in tech + tourism but not in cadastre/notary practice
 - **Legal system**: Civil-law tradition (French-influenced via Protectorate 1881–1956). Property law codified in **Code des Droits Réels (CDR)** (Decree-Law of 12 Sept 1957, repeatedly amended; major reforms 1965, 1992, 2024). Sharia governs personal status (Code du Statut Personnel 1956 — Tunisia's relatively progressive family-law code).
 - **Cadastre / registry**:
-  - **Tribunal Immobilier (Land Court)** under Ministry of Justice — `https://www.tribunal-immobilier.gov.tn/` — issues **titres fonciers (TF)** under the Torrens-style **immatriculation foncière** system (introduced 1885 by the Bey, one of the world's oldest Torrens-derived registries outside Australia)
-  - **Conservation de la Propriété Foncière (CPF)** under Ministry of State Domains — `https://www.domaine.gov.tn/` — maintains the title register once a parcel is immatriculé
+  - **Tribunal Immobilier (Land Court)** under Ministry of Justice — `https://www.justice.gov.tn/index.php?id=257&L=3` — issues **titres fonciers (TF)** under the Torrens-style **immatriculation foncière** system (introduced 1885 by the Bey, one of the world's oldest Torrens-derived registries outside Australia)
+  - **Conservation de la Propriété Foncière (CPF)** under Ministry of State Domains — `https://www.domainetat.tn/` — maintains the title register once a parcel is immatriculé
   - **OFNT — Office National de la Topographie et de la Cartographie** (sometimes called OTC) — `https://www.otc.nat.tn/` — national cadastral mapping + plans parcellaires
   - **Two parallel systems still coexist**:
     - **Immatriculé (immobilier titré)** — full Torrens TF, indefeasible after final judgment of the Tribunal Immobilier. **Default safe choice for foreigners.**
@@ -47,7 +47,7 @@ ISO2: `tn`. Status: RESTRICTED for foreign buyers (governor authorisation regime
 
 ### Tourism Zone carve-out (Zones Touristiques) — the streamlined path
 
-(Primary source: Loi 1990-21 + ONTT decree updates; Office National du Tourisme Tunisien — `https://www.tunisietourisme.com.tn/` and Tunisia Investment Authority TIA `https://tia.gov.tn/`)
+(Primary source: Loi 1990-21 + ONTT decree updates; Office National du Tourisme Tunisien — `https://www.tourisme.gov.tn/?page_id=3236&lang=fr` and Tunisia Investment Authority TIA `https://tia.gov.tn/`)
 
 - **ONTT designates Zones Touristiques** by ministerial arrêté — recurring updates (most recent batch 2023–2024)
 - Within a designated tourist zone, foreigners can buy a **non-agricultural built or buildable parcel WITHOUT governor's authorisation** for residential or tourism-investment use
@@ -117,8 +117,8 @@ This is the second deal-killer trap (parallel to Morocco's Office des Changes). 
 
 - **INS — Institut National de la Statistique** (`https://www.ins.tn/`) — publishes **Indice des Prix à la Production des Logements Neufs (IPPLN)** quarterly, plus census housing-stock data. Coverage is index-only (base 100), NOT absolute TND/m². Use for *trend*, combine with listings for *level*.
 - **BCT real-estate financial-stability annex** — `https://www.bct.gov.tn/bct/siteprod/page.jsp?id=53` — aggregate residential lending + market-stress signals
-- **Conservation de la Propriété Foncière (CPF)** — `https://www.domaine.gov.tn/` — registered transactions are not publicly searchable; notaries can pull *références notariales* on similar transactions in the délégation — ask your notary
-- **Direction Générale des Impôts (DGI)** under Ministry of Finance — `https://www.finances.gov.tn/` and `http://www.impots.finances.gov.tn/index.php/fr/` — publishes **valeurs locatives de référence** per délégation used as registration-duty floor; useful as a *lower-bound* sanity check (typically 30–50 % below market)
+- **Conservation de la Propriété Foncière (CPF)** — `https://www.domainetat.tn/` — registered transactions are not publicly searchable; notaries can pull *références notariales* on similar transactions in the délégation — ask your notary
+- **Direction Générale des Impôts (DGI)** under Ministry of Finance — `https://www.finances.gov.tn/` and `https://jibaya.tn/` — publishes **valeurs locatives de référence** per délégation used as registration-duty floor; useful as a *lower-bound* sanity check (typically 30–50 % below market)
 
 ### Listing platforms
 
@@ -174,7 +174,7 @@ MEDIUM — asking-price listings are abundant on Tayara + Mubawab + Menzili, but
 
 ### Primary sources
 
-- **Ministère de l'Équipement et de l'Habitat — Direction Générale des Ponts et Chaussées (DGPC)** — `https://www.equipement.gov.tn/` — manages the réseau routier national + publishes periodic **Recensement de la Circulation** counts on RN/RR/RL roads (most recent comprehensive count 2018–2019; partial updates 2023)
+- **Ministère de l'Équipement et de l'Habitat — Direction Générale des Ponts et Chaussées (DGPC)** — `https://www.mehat.gov.tn/` — manages the réseau routier national + publishes periodic **Recensement de la Circulation** counts on RN/RR/RL roads (most recent comprehensive count 2018–2019; partial updates 2023)
 - **TUNISIE AUTOROUTES (Société Tunisie Autoroutes — STA)** — `https://www.tunisieautoroutes.com/` — autoroute network operator (A1 Tunis–Sfax, A3 Tunis–Oued Zarga, A4 Tunis–Bizerte); publishes annual traffic stats per péage
 - **INS Transport Yearbook** — `https://www.ins.tn/` — vehicle registrations by gouvernorat, road km by class
 - **OSM fallback**: highway tags map to Tunisian road classes:
@@ -226,8 +226,8 @@ LOW–MEDIUM — per-segment traffic counts comparable to French TMJA datasets a
 | Item | Rate / amount | Source |
 |---|---|---|
 | **Droits d'enregistrement (registration duty)** | **Progressive brackets per LdF 2024** — for **existing/older properties**: **6 % (< TND 500k), 8 % (TND 500k–999k), 10 % (> TND 1M)**; for **new properties from approved promoter**: 1 % fixed (< TND 500k), progressive 3 %+complementary higher; **residential land**: 1–5 % by surface. CPF 1 % remains. (LdF 2018 had unified at flat 5 % — now superseded; Jan 2026 reforms also doubled inter-family donation flat fee 100→200 TND, removed 10 %/yr punitive revaluation for late registration, repealed cash-payment-refusal provision) (2026-05-27 verified, source Bigdatis 2025 + Immobilier Djerba + Managers.tn 2026) | DGI — Code des Droits d'Enregistrement et de Timbre, `https://www.finances.gov.tn/` |
-| **Conservation Foncière fee (CPF — droit d'inscription)** | **1 %** of price | Ministry of State Domains, `https://www.domaine.gov.tn/` |
-| **Notaire (notarial fees)** | **~1 %** of price (sliding scale, *barème indicatif* of the **Chambre Nationale des Notaires de Tunisie** — `https://www.notaires.org.tn/`) + **19 % VAT (TVA)** on the fee |  |
+| **Conservation Foncière fee (CPF — droit d'inscription)** | **1 %** of price | Ministry of State Domains, `https://www.domainetat.tn/` |
+| **Notaire (notarial fees)** | **~1 %** of price (sliding scale, *barème indicatif* of the **Chambre Nationale des Notaires de Tunisie** — `https://www.justice.gov.tn/index.php?id=278&L=3`) + **19 % VAT (TVA)** on the fee |  |
 | **Timbre fiscal (stamp duty on the deed)** | nominal flat amounts per page | Code des Droits de Timbre |
 | **Honoraires d'agent immobilier** | **2.5–3 %** of price + **19 % TVA** typical (negotiable; sometimes split 50/50, sometimes seller pays) | Market practice |
 | **Total transaction cost (buyer side)** | **~10–14 %** of price for existing resale (registration duty 6–10 % + notary ~1 % + CPF 1 % + agent 2.5–3 %); **~5–6 %** for new-build from approved promoter (1 % duty) | Sum of above |
@@ -313,7 +313,7 @@ HIGH on the legal framework (Code des Droits d'Enregistrement, Code de la TVA, C
 
 #### Track 1 — Maison d'hôtes / table d'hôtes / chambre d'hôtes classified
 
-- **Classification regime**: **ONTT — Office National du Tourisme Tunisien** (`https://www.tunisietourisme.com.tn/`) under **Décret 2018-417** + earlier Loi 1990-21 amendments
+- **Classification regime**: **ONTT — Office National du Tourisme Tunisien** (`https://www.tourisme.gov.tn/?page_id=3236&lang=fr`) under **Décret 2018-417** + earlier Loi 1990-21 amendments
 - **Categories**: maison d'hôtes (1, 2, 3 étoiles); chambre chez l'habitant; gîte rural; villa de tourisme
 - **Requirements**: minimum room standards, fire safety, hygiene certification (ANCSEP), declaration to ONTT, *carte professionnelle* for the operator
 - **Benefits**: legal status, can advertise on platforms, eligible for tourism-zone fiscal incentives
@@ -331,7 +331,7 @@ HIGH on the legal framework (Code des Droits d'Enregistrement, Code de la TVA, C
 - **Sidi Bou Saïd + La Marsa + Gammarth**: heavy regulatory + neighbour scrutiny since 2023; heritage-zone permits required for any structural work in Sidi Bou Saïd (classified zone under Ministère de la Culture)
 - **Djerba**: STR demand robust May–Oct; weak Nov–Apr; informal Airbnb tolerated but increasing inspection
 - **Hammamet–Yasmine**: gated zone-touristique resorts have **HOA bylaws often forbidding STR** — read syndic règlement before buying
-- **Tunis Médina**: heritage classification (UNESCO 1979) — restoration permits required from **INP — Institut National du Patrimoine** (`https://www.inp.rnrt.tn/`)
+- **Tunis Médina**: heritage classification (UNESCO 1979) — restoration permits required from **INP — Institut National du Patrimoine** (`https://www.inp2020.tn/`)
 
 ### Realistic gross yields (est., 2025)
 
@@ -667,21 +667,21 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 
 | Authority | When to call | URL |
 |---|---|---|
-| **Tribunal Immobilier (Land Court)** | Réquisition d'immatriculation, title disputes | `https://www.tribunal-immobilier.gov.tn/` |
-| **Conservation de la Propriété Foncière (CPF)** | Title extract, plan cadastral, owner verification, mortgages | `https://www.domaine.gov.tn/` |
+| **Tribunal Immobilier (Land Court)** | Réquisition d'immatriculation, title disputes | `https://www.justice.gov.tn/index.php?id=257&L=3` |
+| **Conservation de la Propriété Foncière (CPF)** | Title extract, plan cadastral, owner verification, mortgages | `https://www.domainetat.tn/` |
 | **OFNT / OTC (Topographie)** | Plan parcellaire, surveys | `https://www.otc.nat.tn/` |
 | **BCT (Banque Centrale de Tunisie)** | FX-inflow registration, repatriation rights | `https://www.bct.gov.tn/` |
-| **DGI (Direction Générale des Impôts)** | Tax rates, PVI, registration duty, valeur locative de référence | `https://www.finances.gov.tn/` and `http://www.impots.finances.gov.tn/index.php/fr/` |
+| **DGI (Direction Générale des Impôts)** | Tax rates, PVI, registration duty, valeur locative de référence | `https://www.finances.gov.tn/` and `https://jibaya.tn/` |
 | **INS (Institut National de la Statistique)** | Population, IPPLN, demographic data | `https://www.ins.tn/` |
 | **TIA (Tunisia Investment Authority)** | Investment Law incentives, investor residency | `https://tia.gov.tn/` |
-| **ONTT (Office National du Tourisme Tunisien)** | Tourism-zone classification, maison d'hôtes status | `https://www.tunisietourisme.com.tn/` |
+| **ONTT (Office National du Tourisme Tunisien)** | Tourism-zone classification, maison d'hôtes status | `https://www.tourisme.gov.tn/?page_id=3236&lang=fr` |
 | **APAL (Coastal protection)** | DPM verification, coastal-erosion zoning | `https://www.apal.nat.tn/` |
 | **APIA (Agriculture investment)** | Foreign agri-investment screening (limited paths) | `https://www.apia.com.tn/` |
-| **INP (Heritage)** | Médina classification, restoration authorisation | `https://www.inp.rnrt.tn/` |
+| **INP (Heritage)** | Médina classification, restoration authorisation | `https://www.inp2020.tn/` |
 | **Commune service de l'urbanisme** | PAU, permis de bâtir, zoning, oued setback | (commune-specific) |
 | **DGRE (Direction Générale des Ressources en Eau)** | Flood risk, well-drilling permits | (under Ministry of Agriculture) |
 | **ONPC (Protection Civile)** | Civil-protection hazards, emergency planning | `http://www.onpc.nat.tn/` |
-| **Chambre Nationale des Notaires** | Notary directory + fee barème | `https://www.notaires.org.tn/` |
+| **Chambre Nationale des Notaires** | Notary directory + fee barème | `https://www.justice.gov.tn/index.php?id=278&L=3` |
 | **SONEDE (water)** | Mains water connection, billing | `https://www.sonede.com.tn/` |
 | **ONAS (sewer)** | Mains sewer connection | `https://www.onas.nat.tn/` |
 | **STEG (electricity + gas)** | Electricity + gas connection | `https://www.steg.com.tn/` |
@@ -711,27 +711,27 @@ MEDIUM-HIGH — SONEDE + ONAS + STEG are authoritative and per-parcel verificati
 
 | Source | URL pattern |
 |---|---|
-| Conservation Foncière / Ministry of State Domains | `https://www.domaine.gov.tn/` |
-| Tribunal Immobilier | `https://www.tribunal-immobilier.gov.tn/` |
+| Conservation Foncière / Ministry of State Domains | `https://www.domainetat.tn/` |
+| Tribunal Immobilier | `https://www.justice.gov.tn/index.php?id=257&L=3` |
 | OFNT / OTC (cadastre/topography) | `https://www.otc.nat.tn/` |
 | BCT (Banque Centrale) | `https://www.bct.gov.tn/` |
 | DGI / Ministry of Finance | `https://www.finances.gov.tn/` |
-| DGI tax portal | `http://www.impots.finances.gov.tn/index.php/fr/` |
+| DGI tax portal | `https://jibaya.tn/` |
 | INS (statistics) | `https://www.ins.tn/` |
 | TIA (investment) | `https://tia.gov.tn/` |
-| ONTT (tourism) | `https://www.tunisietourisme.com.tn/` |
+| ONTT (tourism) | `https://www.tourisme.gov.tn/?page_id=3236&lang=fr` |
 | APAL (coastal) | `https://www.apal.nat.tn/` |
 | APIA (agriculture investment) | `https://www.apia.com.tn/` |
-| INP (heritage) | `https://www.inp.rnrt.tn/` |
+| INP (heritage) | `https://www.inp2020.tn/` |
 | ONPC (Protection Civile) | `http://www.onpc.nat.tn/` |
 | INM (météo) | `https://www.meteo.tn/` |
-| Ministère de l'Équipement | `https://www.equipement.gov.tn/` |
+| Ministère de l'Équipement | `https://www.mehat.gov.tn/` |
 | Tunisie Autoroutes (STA) | `https://www.tunisieautoroutes.com/` |
 | SONEDE (eau) | `https://www.sonede.com.tn/` |
 | ONAS (assainissement) | `https://www.onas.nat.tn/` |
 | STEG (électricité + gaz) | `https://www.steg.com.tn/` |
 | ANME (énergie / solaire) | `https://www.anme.tn/` |
-| Notaires de Tunisie | `https://www.notaires.org.tn/` |
+| Notaires de Tunisie | `https://www.justice.gov.tn/index.php?id=278&L=3` |
 | Ministère de l'Emploi | `https://www.emploi.gov.tn/` |
 | ANETI (emploi) | `https://www.emploi.nat.tn/` |
 | Tanitjobs | `https://www.tanitjobs.com/` |

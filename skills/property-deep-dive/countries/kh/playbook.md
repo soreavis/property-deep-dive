@@ -171,7 +171,7 @@ Foreigners **cannot own land in Cambodia in their own name** under any direct st
 
 - **Ministry of Public Works and Transport (MPWT, ក្រសួងសាធារណការ និងដឹកជញ្ជូន)** — `https://www.mpwt.gov.kh/` — national road network, classification, periodic AADT counts on major corridors (National Roads NR1, NR2, NR3, NR4, NR5, NR6, NR7, etc.).
 - **General Department of Public Works (under MPWT)** — road-condition data; some AADT for national highways (typically published in JICA-funded reports rather than online dashboards).
-- **Phnom Penh Capital Hall (សាលាក្រុងភ្នំពេញ)** — `https://www.phnompenh.gov.kh/` — urban traffic data, Master Plan 2035 traffic projections.
+- **Phnom Penh Capital Hall (សាលាក្រុងភ្នំពេញ)** — `https://phnompenh.gov.kh/` — urban traffic data, Master Plan 2035 traffic projections.
 - **OpenStreetMap (OSM)** — fallback for road class when official AADT not available; OSM coverage of Phnom Penh / Sihanoukville is reasonable, rural OSM patchy.
 
 ### Verdict bands (vehicles per day, mixed motorbike + tuk-tuk + car + truck)
@@ -339,7 +339,7 @@ Foreigners **cannot own land in Cambodia in their own name** under any direct st
 
 - **CamHR** (largest English-language): `https://www.camhr.com/` — Cambodian + foreign jobs
 - **BongThom.com**: `https://www.bongthom.com/` — long-running Cambodian classifieds (jobs, real estate)
-- **CamboJobs**: `https://www.cambojobs.com/`
+- **CamboJobs**: `https://www.cambojobs.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Pelprek**: `https://www.pelprek.com/`
 - **LinkedIn Cambodia**: active in NGO, finance, MNC, telecoms sectors
 - **CCC HR network** (NGOs): `https://www.ccc-cambodia.org/`
@@ -406,7 +406,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | **Ministry of Environment (MoE)** | `https://moeys.gov.kh` | Climate-change adaptation strategy, EIA, air quality (limited public dashboards) |
 | **MLMUPC** | `https://www.mlmupc.gov.kh/` | Urban planning master plans, hazard zoning for Phnom Penh / Sihanoukville / Siem Reap |
 | **Mekong River Commission (MRC, regional)** | `https://www.mrcmekong.org/` | Mekong basin flood + drought + hydrology — Cambodia is downstream of the Mekong |
-| **CCCA (Cambodia Climate Change Alliance)** | `https://www.cambodiaclimate.org.kh/` | Climate vulnerability assessments (UNDP-supported) |
+| **CCCA (Cambodia Climate Change Alliance)** | `https://ncsd.moe.gov.kh/dcc/program/cambodia-climate-change-alliance-ccca` | Climate vulnerability assessments (UNDP-supported) |
 | **Open Development Cambodia (NGO)** | `https://opendevelopmentcambodia.net/` | Land concession + risk maps, freely accessible |
 
 ### Flood (ទឹកជំនន់)
@@ -571,7 +571,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 - **Knight Frank Cambodia** — `https://www.knightfrank.com.kh/` — quarterly market reports + agency
 - **CBRE Cambodia** — `https://www.cbre.com.kh/` — quarterly market reports + agency
 - **Century 21 Cambodia** — agency network
-- **Bonna Realty** — `https://www.bonna.com.kh/`
+- **Bonna Realty** — `https://www.bonna.com.kh/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **VTrust Appraisal** — `https://www.vtrustappraisal.com/`
 - **BongThom.com** — long-running classifieds (jobs + real estate)
 
@@ -634,7 +634,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | **National Institute of Statistics (NIS)** | Population, CSES, housing module | `https://www.nis.gov.kh/` |
 | **Ministry of Commerce — Business Registration** | Company registration | `https://www.businessregistration.moc.gov.kh/` |
 | **National Committee for Disaster Management (NCDM)** | Disaster declarations, history | `https://www.ncdm.gov.kh/` |
-| **Phnom Penh Capital Hall** | Phnom Penh urban planning, water/sewer, district admin | `https://www.phnompenh.gov.kh/` |
+| **Phnom Penh Capital Hall** | Phnom Penh urban planning, water/sewer, district admin | `https://phnompenh.gov.kh/` |
 | **Cambodia Post (postcode)** | Postal codes, postal addressing | `https://cambodiapost.com.kh` |
 
 ---
@@ -679,18 +679,18 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | National Institute of Statistics (NIS) | `https://www.nis.gov.kh/` |
 | Ministry of Commerce — Business Registration | `https://www.businessregistration.moc.gov.kh/` |
 | National Committee for Disaster Management (NCDM) | `https://www.ncdm.gov.kh/` |
-| Phnom Penh Capital Hall | `https://www.phnompenh.gov.kh/` |
+| Phnom Penh Capital Hall | `https://phnompenh.gov.kh/` |
 | Cambodia Post (postcode) | `https://cambodiapost.com.kh` |
 | Constitutional Council | `https://www.ccc.gov.kh/` |
 | Mekong River Commission | `https://www.mrcmekong.org/` |
 | Open Development Cambodia | `https://opendevelopmentcambodia.net/` |
-| Cambodia Climate Change Alliance (CCCA) | `https://www.cambodiaclimate.org.kh/` |
+| Cambodia Climate Change Alliance (CCCA) | `https://ncsd.moe.gov.kh/dcc/program/cambodia-climate-change-alliance-ccca` |
 | Realestate.com.kh | `https://www.realestate.com.kh/` |
 | Khmer24 | `https://www.khmer24.com/` |
 | IPS Cambodia | `https://www.ips-cambodia.com/` |
 | Knight Frank Cambodia | `https://www.knightfrank.com.kh/` |
 | CBRE Cambodia | `https://www.cbre.com.kh/` |
-| Bonna Realty | `https://www.bonna.com.kh/` |
+| Bonna Realty | `https://www.bonna.com.kh/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | BongThom.com | `https://www.bongthom.com/` |
 | PPWSA (Phnom Penh water) | `https://www.ppwsa.com.kh/` |
 

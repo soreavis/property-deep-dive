@@ -28,7 +28,7 @@ ISO2: `lk`. Status: ✅ Fully populated (researched 2026-05).
   - **Stamp Duty (Amendment) Act 2025** — doubled stamp duty on rental/lease agreements from Rs.10 to Rs.20 per Rs.1,000 of total rental value, effective **1 April 2025**.
   - **Golden Paradise Residence Visa** — launched 2024, replacing earlier "Resident Guest Scheme" and pre-2022 schemes that had paused during the crisis. Source: Department of Immigration & Emigration [`https://eservices.immigration.gov.lk/golden-paradise-visa.html`](https://eservices.immigration.gov.lk/golden-paradise-visa.html); EY tax alert [`https://www.ey.com/en_gl/technical/tax-alerts/sri-lanka-introduces-new-10-year-golden-paradise-residence-visa-for-investors`](https://www.ey.com/en_gl/technical/tax-alerts/sri-lanka-introduces-new-10-year-golden-paradise-residence-visa-for-investors).
   - **VAT rate hike** — 15% → **18%** effective 1 January 2024 under **Value Added Tax (Amendment) Act No. 16 of 2024**; applies to new apartments sold by developers (not resale by individuals). Source: Sri Lanka Inland Revenue Department [`https://www.ird.gov.lk/`](https://www.ird.gov.lk/). (2026-05-27 verified)
-  - **Capital Gains Tax** — **15%** on gains from realisation of investment assets (incl. land/buildings) for individuals and partnerships, **from 3 June 2026**; 30% for trusts, unit trusts, mutual funds and NGOs. Raised from 10% by the **Inland Revenue (Amendment) Act, No. 11 of 2026** (certified 3 June 2026, Gazette supplement 5 June 2026). Source: Act text [`https://documents.gov.lk/view/act/2026/6/11-2026_E.pdf`](https://documents.gov.lk/view/act/2026/6/11-2026_E.pdf) + IRD Notice to Taxpayers SEC/PN/IT/2026/02 of 8 June 2026 via [`https://www.ird.gov.lk/`](https://www.ird.gov.lk/). (2026-08-06 verified)
+  - **Capital Gains Tax** — **15%** on gains from realisation of investment assets (incl. land/buildings) for individuals and partnerships, **from 3 June 2026**; 30% for trusts, unit trusts, mutual funds and NGOs. Raised from 10% by the **Inland Revenue (Amendment) Act, No. 11 of 2026** (certified 3 June 2026, Gazette supplement 5 June 2026). Source: Act text [`https://www.ird.gov.lk/en/publications/Acts_Income%20Tax_2017/IR_Act_No_11-2026_E.pdf`](https://www.ird.gov.lk/en/publications/Acts_Income%20Tax_2017/IR_Act_No_11-2026_E.pdf) + IRD Notice to Taxpayers SEC/PN/IT/2026/02 of 8 June 2026 via [`https://www.ird.gov.lk/`](https://www.ird.gov.lk/). (2026-08-06 verified)
   - **IMF Extended Fund Facility (EFF)** — SDR 2.286 bn (~USD 3 bn) approved 20 Mar 2023; fourth review completed 1 Jul 2025; fifth review staff-level agreement Oct 2025, then formally deferred 19 Dec 2025 (IMF simultaneously disbursed an SDR 150.5M / ~USD 206M Rapid Financing Instrument for cyclone response); **combined Fifth and Sixth Reviews completed by the IMF Executive Board 27 May 2026**, releasing SDR 508M (~USD 695M) and bringing total EFF purchases to SDR 1.778 bn (~USD 2.4 bn). Source: IMF PR 26/172 [`https://www.imf.org/en/news/articles/2026/05/27/pr26172-sri-lanka-imf-completes-combined-5th-and-6th-reviews-under-eff`](https://www.imf.org/en/news/articles/2026/05/27/pr26172-sri-lanka-imf-completes-combined-5th-and-6th-reviews-under-eff) + IMF PR 25/436 [`https://www.imf.org/en/news/articles/2025/12/19/pr-25436-sri-lanka-imf-approves-us-206-million-in-emergency-financial-support`](https://www.imf.org/en/news/articles/2025/12/19/pr-25436-sri-lanka-imf-approves-us-206-million-in-emergency-financial-support) + IMF country page [`https://www.imf.org/en/Countries/LKA`](https://www.imf.org/en/Countries/LKA). (2026-07-02 verified)
   - **Cyclone Ditwah (Nov 2025)** — USD 4.1 bn damage estimate (World Bank); 410 dead + 336 missing; 1.1M hectares inundated; Central Highlands particularly affected (Kandy district damage estimated USD 689M); Nuwara Eliya partially submerged. Source: World Bank press release [`https://www.worldbank.org/en/news/press-release/2025/12/22/damage-from-cyclone-ditwah-in-sri-lanka-estimated-at-4-1-billion`](https://www.worldbank.org/en/news/press-release/2025/12/22/damage-from-cyclone-ditwah-in-sri-lanka-estimated-at-4-1-billion).
   - **Ceylon Electricity Board (CEB)** — dissolved at midnight 8/9 March 2026 under **Sri Lanka Electricity Act No. 36 of 2024** and replaced by 6 100%-state-owned successor companies; transitional period — verify current entity for any new connection. Public Utilities Commission of Sri Lanka [`https://www.pucsl.gov.lk/`](https://www.pucsl.gov.lk/). (2026-05-27 verified)
@@ -111,7 +111,7 @@ The Golden Paradise Residence Visa (launched 2024 by Department of Immigration &
 - **CBSL Condominium Market Survey** — quarterly survey of new condominium supply, asking-price index, absorption rates: [`https://www.cbsl.gov.lk/en/statistics/business-surveys/condominium-market-survey`](https://www.cbsl.gov.lk/en/statistics/business-surveys/condominium-market-survey) — the canonical official series for the Colombo apartment market.
 - **CBSL Real Estate Property Price Indices** — same page; published quarterly with a lag of ~1 quarter.
 - **Department of Census and Statistics — Construction & Real Estate** — building-cost indices: [`https://www.statistics.gov.lk/`](https://www.statistics.gov.lk/).
-- **Government Valuation Department (රජයේ ඇගයීම් දෙපාර්තමේන්තුව)** — official valuation for stamp duty assessment + state acquisition: [`https://www.valuation.gov.lk/`](https://www.valuation.gov.lk/) — the "assessed value" floor used by provincial revenue authorities.
+- **Government Valuation Department (රජයේ ඇගයීම් දෙපාර්තමේන්තුව)** — official valuation for stamp duty assessment + state acquisition: [`https://www.valuationdept.gov.lk`](https://www.valuationdept.gov.lk) — the "assessed value" floor used by provincial revenue authorities.
 - **District Land Registry** — registered transfer values per parcel; access via RGD online portal.
 
 ### Listing platforms (secondary, listing = seller-controlled)
@@ -240,7 +240,7 @@ The Golden Paradise Residence Visa (launched 2024 by Department of Immigration &
 | **< 5 years** | 30% of gain | 30% of gain |
 | **≥ 5 years** | **15% of gain** (10% before 3 Jun 2026) | 5% of gain |
 
-> **ENACTED — CGT is 15%, not 10%, for disposals from 3 June 2026.** The **Inland Revenue (Amendment) Act, No. 11 of 2026** was certified on **3 June 2026** and published as a supplement to Part II of the Gazette of **5 June 2026**. It raises the rate on realisation of investment assets from 10% to **15% for individuals and partnerships**, and from 10% to **30% for trusts, unit trusts, mutual funds and NGOs**. The IRD's Notice to Taxpayers **SEC/PN/IT/2026/02 (8 June 2026)** confirms the new rates apply **from 3 June 2026**. Source: Act text [`https://documents.gov.lk/view/act/2026/6/11-2026_E.pdf`](https://documents.gov.lk/view/act/2026/6/11-2026_E.pdf) + IRD CGT page [`https://www.ird.gov.lk/en/Type%20of%20Taxes/SitePages/Capital%20Gain%20Tax%20(CGT).aspx`](https://www.ird.gov.lk/en/Type%20of%20Taxes/SitePages/Capital%20Gain%20Tax%20(CGT).aspx). (2026-08-06 verified)
+> **ENACTED — CGT is 15%, not 10%, for disposals from 3 June 2026.** The **Inland Revenue (Amendment) Act, No. 11 of 2026** was certified on **3 June 2026** and published as a supplement to Part II of the Gazette of **5 June 2026**. It raises the rate on realisation of investment assets from 10% to **15% for individuals and partnerships**, and from 10% to **30% for trusts, unit trusts, mutual funds and NGOs**. The IRD's Notice to Taxpayers **SEC/PN/IT/2026/02 (8 June 2026)** confirms the new rates apply **from 3 June 2026**. Source: Act text [`https://www.ird.gov.lk/en/publications/Acts_Income%20Tax_2017/IR_Act_No_11-2026_E.pdf`](https://www.ird.gov.lk/en/publications/Acts_Income%20Tax_2017/IR_Act_No_11-2026_E.pdf) + IRD CGT page [`https://www.ird.gov.lk/en/Type%20of%20Taxes/SitePages/Capital%20Gain%20Tax%20(CGT).aspx`](https://www.ird.gov.lk/en/Type%20of%20Taxes/SitePages/Capital%20Gain%20Tax%20(CGT).aspx). (2026-08-06 verified)
 
 **Exemptions**:
 - Principal place of residence: gains exempt if owned ≥3 years AND inhabited ≥2 years.
@@ -336,7 +336,7 @@ RGD registration: ~LKR 5,000 (~USD 16)
 
 - **TopJobs.lk** — [`https://www.topjobs.lk/`](https://www.topjobs.lk/) — largest local jobs portal
 - **LinkedIn Sri Lanka** — strong in BPO/IT/finance, Colombo-centric
-- **Indeed Sri Lanka** — [`https://lk.indeed.com/`](https://lk.indeed.com/)
+- **Indeed Sri Lanka** — [`https://lk.indeed.com/`](https://lk.indeed.com/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **Department of Labour** — [`https://www.labourdept.gov.lk/`](https://www.labourdept.gov.lk/) — public-sector vacancies + labour regulations
 - **Sri Lanka Bureau of Foreign Employment** — [`https://www.slbfe.lk/`](https://www.slbfe.lk/) — primarily outbound migration
 
@@ -585,7 +585,7 @@ Sources: Department of Labour wage gazettes; CBSL Annual Report 2024; LinkedIn S
 - **Hitad.lk** — [`https://www.hitad.lk/`](https://www.hitad.lk/) — classifieds
 - **House.lk** — [`https://www.house.lk/`](https://www.house.lk/) — agent-curated
 - **Lamudi.lk** — [`https://www.lamudi.lk/`](https://www.lamudi.lk/)
-- **LandSale.lk** — [`https://landsale.lk/`](https://landsale.lk/) — land-focused
+- **LandSale.lk** — [`https://landsale.lk/`](https://landsale.lk/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — land-focused
 - **Property-srilanka.com** — foreign-buyer focused
 - **Akara Apartments** — [`https://www.akaraapartments.lk/`](https://www.akaraapartments.lk/) — luxury Colombo
 - **Colombo Realtors** — [`https://colomborealtors.lk/`](https://colomborealtors.lk/)
@@ -629,7 +629,7 @@ Sources: Department of Labour wage gazettes; CBSL Annual Report 2024; LinkedIn S
 |---|---|---|
 | **Registrar General's Department (RGD) — District Land Registry** | Title verification, deed search, registration | Search by district at [`https://www.rgd.gov.lk/`](https://www.rgd.gov.lk/); HQ +94 112 889 488/489 |
 | **Survey Department** | Cadastral plan, boundary verification | [`https://www.survey.gov.lk/`](https://www.survey.gov.lk/) |
-| **Government Valuation Department** | Assessed value | [`https://www.valuation.gov.lk/`](https://www.valuation.gov.lk/) |
+| **Government Valuation Department** | Assessed value | [`https://www.valuationdept.gov.lk`](https://www.valuationdept.gov.lk) |
 | **Inland Revenue Department (IRD)** | Tax filings, CGT, VAT, AIT | [`https://www.ird.gov.lk/`](https://www.ird.gov.lk/) |
 | **Department of Immigration & Emigration** | Visa, Golden Paradise programme | [`https://www.immigration.gov.lk/`](https://www.immigration.gov.lk/) |
 | **Board of Investment (BOI)** | FDI approval, BOI enterprise registration | [`https://www.investsrilanka.com/`](https://www.investsrilanka.com/) |
@@ -677,7 +677,7 @@ Sources: Department of Labour wage gazettes; CBSL Annual Report 2024; LinkedIn S
 | Registrar General's Department (RGD) | [`https://www.rgd.gov.lk/`](https://www.rgd.gov.lk/) |
 | RGD e-Land online | [`https://online.land.rgd.gov.lk/`](https://online.land.rgd.gov.lk/) |
 | Survey Department | [`https://www.survey.gov.lk/`](https://www.survey.gov.lk/) |
-| Government Valuation Department | [`https://www.valuation.gov.lk/`](https://www.valuation.gov.lk/) |
+| Government Valuation Department | [`https://www.valuationdept.gov.lk`](https://www.valuationdept.gov.lk) |
 | Inland Revenue Department | [`https://www.ird.gov.lk/`](https://www.ird.gov.lk/) |
 | Central Bank of Sri Lanka (CBSL) | [`https://www.cbsl.gov.lk/`](https://www.cbsl.gov.lk/) |
 | CBSL USD/LKR daily | [`https://www.cbsl.gov.lk/en/rates-and-indicators/exchange-rates/daily-indicative-usd-spot-exchange-rates`](https://www.cbsl.gov.lk/en/rates-and-indicators/exchange-rates/daily-indicative-usd-spot-exchange-rates) |

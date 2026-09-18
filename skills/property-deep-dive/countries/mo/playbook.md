@@ -10,7 +10,7 @@ ISO2: `mo`. Status: ✅ Fully populated (researched 2026-05).
 - **Currency**: **MOP (Pataca / 澳門元)** — pegged to **HKD at MOP 1.03 = HKD 1.00** ([AMCM](https://www.amcm.gov.mo/en/financial-system/macao-currency)); HKD circulates freely; effectively USD-tracking via HKD-USD peg
 - **Languages**: **Chinese (Cantonese 粵語; Traditional 繁體 written)** + **Portuguese** — both official under Basic Law Art. 9; Mandarin growing; English in tourism. Conveyancing instruments dual-language Chinese/Portuguese
 - **Admin levels**: 1 SAR → **7 freguesias / 堂區** (5 on Macao Peninsula: Sé / São Lázaro / Santo António / São Lourenço / Nossa Senhora de Fátima; Nossa Senhora do Carmo on Taipa; São Francisco Xavier on Coloane); plus **Cotai reclamation** (administratively Taipa/Coloane). Municipal services consolidated under [IAM / 市政署](https://www.iam.gov.mo/) since 2019
-- **Cadastre**: **Conservatória do Registo Predial (CRP) / 物業登記局** under [DSAJ — Direcção dos Serviços de Assuntos de Justiça / 法務局](https://www.dsaj.gov.mo/) — title-by-deeds register (Portuguese-derived civil-law); governed by [Código do Registo Predial — DL 46/99/M](https://bo.io.gov.mo/)
+- **Cadastre**: **Conservatória do Registo Predial (CRP) / 物業登記局** under [DSAJ — Direcção dos Serviços de Assuntos de Justiça / 法務局](https://www.dsaj.gov.mo/) — title-by-deeds register (Portuguese-derived civil-law); governed by [Código do Registo Predial — DL 46/99/M](https://bo.dsaj.gov.mo/)
   - Cadastral mapping: **DSCC — Direcção dos Serviços de Cartografia e Cadastro / 地圖繪製暨地籍局** — `https://www.dscc.gov.mo/`
 - **Identifier**: artigo matricial + freguesia + edifício + fracção autónoma; condominium under [Código Civil — DL 39/99/M Art. 1313+](https://www.ihm.gov.mo/uploads/attachment/2022-05/1575862820491c59c2.pdf)
 - **Title concept**: **All land in Macao is state-owned** under [Lei de Terras / Land Law (Law 10/2013)](https://www.bo.dsaj.gov.mo/pt/legis/rec/151010) effective **1 March 2014**. Private holdings are **leasehold** via:
@@ -18,13 +18,13 @@ ISO2: `mo`. Status: ✅ Fully populated (researched 2026-05).
   - **Concessão por arrendamento / 租賃批給** — typical 25-year initial, renewable 10-year periods, max 50 years (Law 10/2013 Art. 47–49)
   - Many "expired without development" concessions reclaimed by Government 2015–2024 (Pearl Horizon case among others)
 - **Foreign-buyer rule**: **Foreigners CAN purchase residential** with NO outright nationality bar, but face **Non-Resident Buyer Stamp Duty +10%** layered on standard stamp duty (see `--tax`). **NO golden-visa programme** in Macao
-- **Visa**: ❌ **NO investment-residence visa** since the **Investment Residence Scheme (Regulamento Administrativo n.º 3/2005) was suspended by Regulamento Administrativo n.º 7/2007, in force 4 April 2007** (verified via [Boletim Oficial — RA 7/2007](https://bo.dsaj.gov.mo/isapi/go.asp?d=rega-7-2007pt) + DSI) and **NOT reactivated**. The new **Talent Programme (人才引進制度)** launched 2024 under [DSAMB / 人才發展委員會](https://www.dsamb.gov.mo/) does NOT take property as qualifying criterion. HKID-holders entitled 1-yr residence; tourist 30/90 days
+- **Visa**: ❌ **NO investment-residence visa** since the **Investment Residence Scheme (Regulamento Administrativo n.º 3/2005) was suspended by Regulamento Administrativo n.º 7/2007, in force 4 April 2007** (verified via [Boletim Oficial — RA 7/2007](https://bo.dsaj.gov.mo/isapi/go.asp?d=rega-7-2007pt) + DSI) and **NOT reactivated**. The new **Talent Programme (人才引進制度)** launched 2024 under [DSAMB / 人才發展委員會](https://www.cdqq.gov.mo/en/talent-recruitment-system) does NOT take property as qualifying criterion. HKID-holders entitled 1-yr residence; tourist 30/90 days
 - **Recent reforms (2024–2026)**:
   - **2018 cooling measures (Law 4/2018)**: Non-Resident Buyer Stamp Duty +10% + Resident second-property +5% — ⚠️ **still in force 2026**
   - **Jan 2023**: Casino concession renewal — 6 concessionaires (SJM / Galaxy / Wynn / MGM / Sands / Melco) for 10 yrs through 31 Dec 2032 ([DICJ](https://www.dicj.gov.mo/))
   - **2024**: Talent Programme operationally launches under [Lei 7/2023 — Regime jurídico de captação de quadros qualificados](https://bo.dsaj.gov.mo/bo/i/2023/22/lei07.asp) (enacted 2023, in force 1 Jul 2023; DSAMB)
   - **Dec 2024**: LRT Barra extension opens (improves Peninsula-Taipa connectivity); Hengqin Line under construction
-  - **2013–2024 Heritage Law enforcement**: [Lei do Património Cultural — Law 11/2013](https://bo.io.gov.mo/bo/i/2013/36/lei11.asp) — strict modification + buffer-zone restrictions around UNESCO **Macao Historic Centre** (22 buildings + 8 squares listed 2005)
+  - **2013–2024 Heritage Law enforcement**: [Lei do Património Cultural — Law 11/2013](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp) — strict modification + buffer-zone restrictions around UNESCO **Macao Historic Centre** (22 buildings + 8 squares listed 2005)
 
 ## Section: `--price`
 
@@ -36,10 +36,10 @@ ISO2: `mo`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Listing platforms
 
-- **Centaline Macau / 中原(澳門)**: `https://www.centaline.com.mo/`
-- **Midland Macau / 美聯(澳門)**: `https://www.midlandmacau.com/`
+- **Centaline Macau / 中原(澳門)**: `https://mo.centanet.com/`
+- **Midland Macau / 美聯(澳門)**: `https://www.midland.com.mo/`
 - **Ricacorp Macau / 利嘉閣(澳門)**: `https://www.ricacorp.com.mo/`
-- **HouseMacau / 澳門房屋網**: `https://www.housemacau.com/`
+- **HouseMacau / 澳門房屋網**: `https://www.housemacau.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
 - **macauproperty.com**: `https://www.macauproperty.com/`
 - **591 Macao**: `https://macao.591.com.hk/` ❌ DEPRECATED — primary source removed; verify with 591.com.hk (commercial listings aggregator)
 
@@ -100,7 +100,7 @@ motorway = expressway / HZMB approach / Cotai elevated · trunk = principal dist
 
 ### Annual Property Tax — Contribuição Predial Urbana / 房屋稅
 
-Statute: [Regulamento da Contribuição Predial Urbana — Law 19/78/M](https://bo.io.gov.mo/), as amended.
+Statute: [Regulamento da Contribuição Predial Urbana — Law 19/78/M](https://bo.dsaj.gov.mo/), as amended.
 
 | Charge | Rate | Base |
 |---|---|---|
@@ -112,7 +112,7 @@ Statute: [Regulamento da Contribuição Predial Urbana — Law 19/78/M](https://
 
 ### Stamp Duty (Imposto do Selo / 印花稅) — transaction-side
 
-[Regulamento do Imposto do Selo — Law 17/88/M, updated 2018](https://bo.io.gov.mo/):
+[Regulamento do Imposto do Selo — Law 17/88/M, updated 2018](https://bo.dsaj.gov.mo/):
 
 | Consideration band | Rate |
 |---|---:|
@@ -169,7 +169,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 ### Future risk
 
 - Periodic CGT discussion tied to gaming-revenue concentration; not currently signalled
-- Annual Budget Law (`Lei do Orçamento`) — owner-occupier MOP 3,500 fixed reduction has been renewed every year since introduction but is technically annual; watch [Boletim Oficial](https://bo.io.gov.mo/) Series I
+- Annual Budget Law (`Lei do Orçamento`) — owner-occupier MOP 3,500 fixed reduction has been renewed every year since introduction but is technically annual; watch [Boletim Oficial](https://bo.dsaj.gov.mo/) Series I
 
 ---
 
@@ -197,7 +197,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 
 ### Short-term rentals (民宿 / Airbnb / serviced apartments)
 
-⚠️ **CRITICAL: short-term letting < 30 consecutive days requires hotel/guesthouse licensing** under [Decree-Law 16/96/M — Regime de Licenciamento dos Estabelecimentos Hoteleiros e Similares](https://bo.io.gov.mo/) + [Law 3/2010](https://bo.io.gov.mo/bo/i/2010/15/lei03.asp).
+⚠️ **CRITICAL: short-term letting < 30 consecutive days requires hotel/guesthouse licensing** under [Decree-Law 16/96/M — Regime de Licenciamento dos Estabelecimentos Hoteleiros e Similares](https://bo.dsaj.gov.mo/) + [Law 3/2010](https://bo.dsaj.gov.mo/bo/i/2010/31/lei03.asp).
 
 | Stay duration | Regulation | Practical reality |
 |---|---|---|
@@ -215,7 +215,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 ### Job platforms
 
 - **DSAL / 勞工事務局**: `https://www.dsal.gov.mo/` — labour authority + job-matching for residents
-- **MyJob.mo**: `https://www.myjob.mo/` · **Jobsdb Macau**: `https://www.jobsdb.com/macau` (smaller than HK)
+- **MyJob.mo**: `https://www.myjob.mo/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row · **Jobsdb Macau**: `https://www.jobsdb.com/macau` (smaller than HK)
 - **LinkedIn Macau**: thin pool but functional for finance, gaming, integrated-resort senior
 - **Casino-concession HR portals** — direct application: Sands / Galaxy / Wynn / MGM / SJM / Melco
 - **Government jobs**: [SAFP — Serviços de Administração e Função Pública](https://www.safp.gov.mo/)
@@ -231,9 +231,9 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 ### Foreign worker visa interface
 
 - **Talent Programme (人才引進制度)** — DSAMB; high-skill / academic / specialised — see `--visa`
-- **Non-Resident Worker (Blue Card / 藍卡)**: employer-sponsored under [Law 21/2009](https://bo.io.gov.mo/), administered by DSAL — does NOT lead directly to PR
+- **Non-Resident Worker (Blue Card / 藍卡)**: employer-sponsored under [Law 21/2009](https://bo.dsaj.gov.mo/), administered by DSAL — does NOT lead directly to PR
 - **HKID-holders**: 1-yr renewable residence via reciprocal arrangement
-- **PR via 7 years' continuous ordinary residence** + intent test under [Law 8/1999](https://bo.io.gov.mo/) — verify with [DSI](https://www.dsi.gov.mo/)
+- **PR via 7 years' continuous ordinary residence** + intent test under [Law 8/1999](https://bo.dsaj.gov.mo/) — verify with [DSI](https://www.dsi.gov.mo/)
 
 ### Salaried benchmarks (median monthly gross 2024 [DSEC Employment Survey](https://www.dsec.gov.mo/))
 
@@ -269,7 +269,7 @@ Macao Peninsula is single-CBD-equivalent (Sé / NAPE / Praia Grande reachable in
 - **Pluvial flooding**: Black Rainstorm increasing frequency; low-lying Iao Hon / Areia Preta / Patane historically vulnerable
 - **Earthquake**: passive margin of South China Block — **LOW** historical risk (no >M6 within 100km); design level MMI VI–VII / PGA ~0.07g (per SMG monitoring)
 - **Subsidence (reclamation)**: **moderate-to-elevated** for reclaimed land — Macao expanded ~10km² (1840) → ~33km² (2025) via reclamation. **Cotai (entirely reclaimed 1990s–2000s)**, NAPE (1980s+), Areia Preta — verify pile-foundation + fill compaction history via DSOP records
-- **Heritage-zone restriction**: any property within UNESCO **Macao Historic Centre buffer zone** (22 buildings + 8 squares + 8 protection zones, listed 2005) faces strict modification + maintenance limits under [Heritage Law 11/2013](https://bo.io.gov.mo/bo/i/2013/36/lei11.asp); request [Instituto Cultural / 文化局](https://www.icm.gov.mo/) classification status before any renovation
+- **Heritage-zone restriction**: any property within UNESCO **Macao Historic Centre buffer zone** (22 buildings + 8 squares + 8 protection zones, listed 2005) faces strict modification + maintenance limits under [Heritage Law 11/2013](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp); request [Instituto Cultural / 文化局](https://www.icm.gov.mo/) classification status before any renovation
 
 ### Build-era hazards
 
@@ -477,7 +477,7 @@ AMCM foreign reserves Q1 2026 ≈ USD 25B (~5× MOP monetary base). Peg stable t
 
 ### ❌ NO golden-visa via property
 
-**Property investment alone does NOT qualify for any Macao residence permit.** [Investment Residence Scheme — Despacho do Chefe do Executivo n.º 7/2007](https://bo.io.gov.mo/) was **suspended on 2 April 2007** and **NOT reactivated** (verified via Boletim Oficial archive + DSI). This contrasts with HK New CIES (HK$30M+) which exists.
+**Property investment alone does NOT qualify for any Macao residence permit.** [Investment Residence Scheme — Despacho do Chefe do Executivo n.º 7/2007](https://bo.dsaj.gov.mo/) was **suspended on 2 April 2007** and **NOT reactivated** (verified via Boletim Oficial archive + DSI). This contrasts with HK New CIES (HK$30M+) which exists.
 
 ### Talent + residence schemes
 
@@ -489,15 +489,15 @@ AMCM foreign reserves Q1 2026 ≈ USD 25B (~5× MOP monetary base). Peg stable t
 | **Mainland China — case-by-case** | Mainland-Macao agreements | varies | varies |
 | **Family reunification** | Spouse/parent of Macao PR | varies | 7 yrs |
 
-### Talent Programme details ([DSAMB](https://www.dsamb.gov.mo/))
+### Talent Programme details ([DSAMB](https://www.cdqq.gov.mo/en/talent-recruitment-system))
 
-- Launched 2024 under [Law 7/2023 — Regime de Captação de Talentos](https://bo.io.gov.mo/)
+- Launched 2024 under [Law 7/2023 — Regime de Captação de Talentos](https://bo.dsaj.gov.mo/)
 - Three tracks: **High-end Talent** (senior executives / academic chairs), **Specialised Talent** (gaming, finance, tech), **Talented Persons** (high-achievers in priority sectors)
 - Property-purchase NOT a qualifying criterion (unlike HK CIES which has HK$10M property bucket)
 
 ### Permanent Residence
 
-7 years' continuous ordinary residence + intent test under [Law 8/1999](https://bo.io.gov.mo/) → apply for **BIR-P / 永久性居民身份證** at [DSI](https://www.dsi.gov.mo/). Failure of intent test → application refused.
+7 years' continuous ordinary residence + intent test under [Law 8/1999](https://bo.dsaj.gov.mo/) → apply for **BIR-P / 永久性居民身份證** at [DSI](https://www.dsi.gov.mo/). Failure of intent test → application refused.
 
 ⚠️ Macao does NOT recognise dual-nationality for Chinese nationals (same as HK) — declare nationality change to DSI.
 
@@ -564,7 +564,7 @@ Macao uses **civil-law notarial conveyancing** (Portuguese-derived) — opposite
 Source: [DSAJ list of notários privados](https://www.dsaj.gov.mo/). State notaries (1.º + 2.º Cartório) and ~30 private notarial offices. ⚠️ Civil-law notary is **neutral public officer** — buyer should still consider an independent **advogado** for adversarial due-diligence, especially heritage-zone or cross-border purchases.
 
 - **No need to be physically present**: notary accepts apostilled Power of Attorney for execution
-- **AML / source-of-funds**: required under [Law 2/2006 — AML Law](https://bo.io.gov.mo/) + AMCM AML Notices
+- **AML / source-of-funds**: required under [Law 2/2006 — AML Law](https://bo.dsaj.gov.mo/) + AMCM AML Notices
 
 ---
 
@@ -741,7 +741,7 @@ Latest IMF Article IV consultations flag gaming concentration + climate-physical
 
 - **Macao Action Plan on Climate Change 2050** (DSPA) — targets carbon neutrality by 2050; aligned with PRC commitments
 - **Buildings sector**: contributes meaningful share of CO₂; **Green Building Council of Macao** standards drive private certification (smaller ecosystem than HK BEAM Plus or SG Green Mark)
-- **Energy efficiency labelling**: under [GDSE — Office for Development of the Energy Sector](https://www.gdse.gov.mo/); smaller stock + less mandatory disclosure than HK MEELS
+- **Energy efficiency labelling**: under [GDSE — Office for Development of the Energy Sector](https://www.dspa.gov.mo/energytopics/); smaller stock + less mandatory disclosure than HK MEELS
 - **Macao 5-year Low-Carbon Plan** + **Sustainable Development Strategy** (DSPA)
 
 ### Property-level ESG
@@ -757,7 +757,7 @@ Latest IMF Article IV consultations flag gaming concentration + climate-physical
 
 ### Social / governance
 
-- **Owners' Assembly (Assembleia de Condóminos)** governance under [DL 41/95/M (Condominium Regulations)](https://bo.io.gov.mo/) — minority-protection via civil court
+- **Owners' Assembly (Assembleia de Condóminos)** governance under [DL 41/95/M (Condominium Regulations)](https://bo.dsaj.gov.mo/) — minority-protection via civil court
 - **Heritage Law 11/2013** restricts modification within UNESCO buffer zones — verify any property within Macao Historic Centre buffer
 
 ### Verdict (ESG lens, typical Macao private apt)
@@ -853,7 +853,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 - **Property Tax 8% on rent** vs **6% of DSF notional value (×0.9 maintenance deduction) minus a fixed MOP 3,500 reduction for owner-occupiers** — owner-occupier reset materially preferable; see `--tax`
 - **Mandatory civil-law notary** (escritura pública) — neutral public officer, separate from buyer's optional advogado
 - **Bilingual deeds** Chinese + Portuguese (Basic Law Art. 9) — both versions equally authoritative
-- **UNESCO Macao Historic Centre buffer zone** — 22 buildings + 8 squares + 8 protection zones under [Heritage Law 11/2013](https://bo.io.gov.mo/bo/i/2013/36/lei11.asp); strict modification + maintenance limits enforced by Instituto Cultural
+- **UNESCO Macao Historic Centre buffer zone** — 22 buildings + 8 squares + 8 protection zones under [Heritage Law 11/2013](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp); strict modification + maintenance limits enforced by Instituto Cultural
 - **Storm-surge + typhoon catastrophic risk** — Hato 2017 + Mangkhut 2018 inundated inner harbour; insurance sub-limits tightening on ground/B1/B2 of low-elevation stock
 - **Reclamation subsidence** — Cotai (entirely reclaimed 1990s+), NAPE (1980s+), Areia Preta — verify pile-foundation + fill compaction history via DSOP
 - **DL 16/96/M < 30-day STR prohibition** — kills Airbnb-style short-let; pivot to monthly+ serviced apartment
@@ -900,7 +900,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 
 | Source | URL |
 |---|---|
-| Imprensa Oficial / Boletim Oficial | `https://bo.io.gov.mo/` |
+| Imprensa Oficial / Boletim Oficial | `https://bo.dsaj.gov.mo/` |
 | Conservatória do Registo Predial / DSAJ | `https://www.dsaj.gov.mo/` |
 | DSCC (Cartografia e Cadastro) | `https://www.dscc.gov.mo/` |
 | DSF (Finanças) | `https://www.dsf.gov.mo/` |
@@ -918,14 +918,14 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 | CPSP | `https://www.fsm.gov.mo/psp/` |
 | PJ — Polícia Judiciária | `https://www.pj.gov.mo/` |
 | DICJ (Gaming Inspection) | `https://www.dicj.gov.mo/` |
-| DSAMB (Talent Programme) | `https://www.dsamb.gov.mo/` |
+| DSAMB (Talent Programme) | `https://www.cdqq.gov.mo/en/talent-recruitment-system` |
 | DSAL (Labour) | `https://www.dsal.gov.mo/` |
 | IAM (Municipal Affairs) | `https://www.iam.gov.mo/` |
 | Macao Government Portal | `https://www.gov.mo/` |
-| Centaline Macau | `https://www.centaline.com.mo/` |
-| Midland Macau | `https://www.midlandmacau.com/` |
+| Centaline Macau | `https://mo.centanet.com/` |
+| Midland Macau | `https://www.midland.com.mo/` |
 | Ricacorp Macau | `https://www.ricacorp.com.mo/` |
-| HouseMacau | `https://www.housemacau.com/` |
+| HouseMacau | `https://www.housemacau.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | macauproperty.com | `https://www.macauproperty.com/` |
 | 591 Macao | `https://macao.591.com.hk/` ❌ DEPRECATED — primary source removed; verify with 591.com.hk (commercial listings aggregator) |
 

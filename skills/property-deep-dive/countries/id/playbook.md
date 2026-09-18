@@ -16,7 +16,7 @@ ISO2: `id`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Currency**: IDR (rupiah, Rp). 1 USD ≈ 15,500–16,500 IDR; 1 EUR ≈ 16,800–17,800 IDR (Apr 2026 Bank Indonesia reference; FX volatile, verify at `https://www.bi.go.id/`).
 - **Languages**: Bahasa Indonesia (official). English usable in Bali expat-property sector and Jakarta CBD. **All registered title documents (sertifikat) and notarial deeds (Akta Jual Beli, AJB) are in Bahasa Indonesia** — sworn translation (penerjemah tersumpah) required for foreign buyers; PPAT must read and explain the deed in person.
 - **Cadastre / land registry**: **BPN — Badan Pertanahan Nasional**, operating under **Kementerian ATR/BPN** (Ministry of Agrarian Affairs & Spatial Planning). Public portal: `https://www.atrbpn.go.id/`
-  - BPN online services (Sentuh Tanahku): `https://sentuhtanahku.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN — Sentuh Tanahku now at https://www.atrbpn.go.id/sentuh-tanahku (search-confirmed; fetch-verify from an unblocked network)
+  - BPN online services (Sentuh Tanahku): `https://bhumi.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN — Sentuh Tanahku now at https://www.atrbpn.go.id/sentuh-tanahku (search-confirmed; fetch-verify from an unblocked network)
   - BHUMI ATR/BPN public spatial viewer: `https://bhumi.atrbpn.go.id/` (parcel polygons + zoning where digitised)
   - Title verification (pengecekan sertifikat) must be requested at the kantor pertanahan (BPN office) of the kabupaten/kota where the parcel sits. PPAT can do this on behalf of the buyer — standard pre-AJB step.
 - **Title types** (CRITICAL — only some are foreigner-eligible):
@@ -124,7 +124,7 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 ### Bali-specific eligibility quirks
 
 - **Tanah Ayahan Desa** (village allotment land) — communal land allocated to village families; even if a sertifikat exists in an Indonesian individual's name, the **village (desa adat)** retains an interest and can refuse alienation to outsiders. Common in inland Bali villages (Ubud, Tegallalang, Bedugul). NEVER buy without village banjar/desa pakraman approval in writing.
-- **Subak irrigation system** — UNESCO-recognised Balinese rice terrace irrigation cooperative. Subak land has water-allocation rights tied to the parcel; converting subak rice fields to villa pads can require subak collective consent + provincial spatial plan amendment + BPN reclassification. Source: `https://distarcip.baliprov.go.id/` and Bappeda Bali.
+- **Subak irrigation system** — UNESCO-recognised Balinese rice terrace irrigation cooperative. Subak land has water-allocation rights tied to the parcel; converting subak rice fields to villa pads can require subak collective consent + provincial spatial plan amendment + BPN reclassification. Source: `https://tarubali.baliprov.go.id` and Bappeda Bali.
 - **Provincial spatial plan (RTRW Bali) + RDTR (detailed)** — many tourist zones (Canggu, Seminyak) have construction moratoria or tighter setback rules updated 2023–2025. Verify zoning at the kabupaten one-stop service (DPMPTSP).
 - **Religious / temple buffer** — distance from Pura (temple) regulated by adat law; foreign buyers have had villas demolished after temple-buffer violations. Consult banjar.
 
@@ -141,7 +141,7 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 - **Bank Indonesia (BI) — Indeks Harga Properti Residensial (IHPR / RPPI)**: quarterly residential property price index, 18 major cities. `https://www.bi.go.id/id/publikasi/laporan/Default.aspx?subject=10` (Survei Harga Properti Residensial). Tracks both new + secondary market.
 - **BPS (Badan Pusat Statistik) — Statistik Harga Perdagangan Besar Bahan Bangunan**: construction cost index (input to replacement cost). `https://www.bps.go.id/`
 - **NJOP (Nilai Jual Objek Pajak)** — government-assessed property value used as the tax base for PBB-P2 and BPHTB. Set per zone (per kelurahan) by the kabupaten/kota. Lookup via local Bapenda website (e.g., DKI Jakarta `https://bapenda.jakarta.go.id/`, Badung `https://bapenda.badungkab.go.id/`). NJOP is ~30–60 % of market value in Jakarta CBD, and ~20–50 % in Bali tourist zones (est., based on observed NJOP-vs-listing gaps; verify per-zone via local Bapenda) — useful as a tax-base reference, NOT a price benchmark.
-- **REI (Real Estate Indonesia) — DPP**: developer association market intelligence reports. `https://www.rei.or.id/`
+- **REI (Real Estate Indonesia) — DPP**: developer association market intelligence reports. `https://rei.or.id/site`
 - **PPAT-issued AJB (Akta Jual Beli) records** — actual sale prices recorded by the notary at transfer; not centrally published, accessible per-parcel at the kabupaten BPN office.
 
 ### Listing platforms (secondary, listings = seller-controlled)
@@ -152,7 +152,7 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 - **PropertyGuru Indonesia**: `https://www.propertyguru.co.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Indonesia portal (PropertyGuru/Rumah.com ceased Dec 2023)
 - **99.co Indonesia**: `https://www.99.co/id/`
 - **Rumah.com**: `https://www.rumah.com/`
-- **Bali-specific (foreigner-marketed)**: `https://www.balirealty.com/`, `https://www.harcourtspurba.com/`, `https://www.exoticbali.com/`, `https://www.theagency-bali.com/` — heavily marketed to foreign buyers; prices in USD or AUD; confirm SHMRS / Hak Pakai eligibility before relying on listing terms
+- **Bali-specific (foreigner-marketed)**: `https://www.balirealty.com/`, `https://www.harcourtspurba.com/`, `https://www.exoticbali.com/`, `https://www.theagency-bali.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — heavily marketed to foreign buyers; prices in USD or AUD; confirm SHMRS / Hak Pakai eligibility before relying on listing terms
 
 ### Price benchmarks (Q1 2026 reference)
 
@@ -197,7 +197,7 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 - **Kementerian PUPR — Direktorat Jenderal Bina Marga** (Ministry of Public Works, Directorate General of Highways): national + provincial road data. `https://binamarga.pu.go.id/`
 - **Korlantas POLRI** (Traffic Police HQ): national accident statistics. `https://korlantas.polri.go.id/`
 - **Jasa Marga** (state-owned tollway operator): toll-road volumes and incident data. `https://www.jasamarga.com/`
-- **BPTJ (Badan Pengelola Transportasi Jabodetabek)** for Greater Jakarta transport. `https://bptj.dephub.go.id/`
+- **BPTJ (Badan Pengelola Transportasi Jabodetabek)** for Greater Jakarta transport. `https://ditjenintram.kemenhub.go.id/`
 - **Dinas Perhubungan provincial / kabupaten**: local traffic counts where conducted (rare and inconsistent).
 - **OpenStreetMap (OSM)** — fallback for road class when official AADT not available
 
@@ -221,7 +221,7 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 - Jakarta has chronic congestion; AADT understates noise/pollution exposure due to stop-and-go. A 25,000 v/d arterial in Jakarta behaves worse in flow than a 50,000 v/d expressway.
 - Elevated tollways over residential kompleks (e.g., Jakarta Inner Ring Road, Jakarta Outer Ring Road) generate noise + particulate exposure 24/7; flag any property within 100 m of a toll viaduct pillar.
 - TransJakarta busway corridors are noisy at peak; MRT North–South Line and LRT Jakarta are quieter (electric).
-- **Jakarta air quality (PM2.5)**: chronically poor (often 50–120 µg/m³ vs WHO guideline 15); Jakarta has been ranked among the most polluted megacities globally on multiple IQAir reports 2023–2025. Verify current AQ at Kementerian LHK `https://ispu.menlhk.go.id/`
+- **Jakarta air quality (PM2.5)**: chronically poor (often 50–120 µg/m³ vs WHO guideline 15); Jakarta has been ranked among the most polluted megacities globally on multiple IQAir reports 2023–2025. Verify current AQ at Kementerian LHK `https://ispu.kemenlh.go.id`
 
 ### Bali-specific quirks
 
@@ -439,8 +439,8 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | **PVMBG / Badan Geologi** (Pusat Vulkanologi dan Mitigasi Bencana Geologi) | `https://magma.esdm.go.id/` | Volcanic activity (Indonesia has 127 active volcanoes); landslide hazard |
 | **Kementerian PUPR — Direktorat Sumber Daya Air** | `https://sda.pu.go.id/` | Floodplain mapping, dam/river system |
 | **InaTEWS (Indonesia Tsunami Early Warning System)** — under BMKG | `https://inatews.bmkg.go.id/` | Real-time tsunami alerts |
-| **Kementerian LHK (Lingkungan Hidup dan Kehutanan)** | `https://www.menlhk.go.id/` and `https://ispu.menlhk.go.id/` (air quality) | Forest fires, air quality (ISPU) |
-| **Bappeda provincial / Bali Distarcip (Tata Ruang Provinsi Bali)** | `https://distarcip.baliprov.go.id/` | RTRW provincial spatial plan; flood/landslide overlay |
+| **Kementerian LHK (Lingkungan Hidup dan Kehutanan)** | `https://www.menlhk.go.id/` and `https://ispu.kemenlh.go.id` (air quality) | Forest fires, air quality (ISPU) |
+| **Bappeda provincial / Bali Distarcip (Tata Ruang Provinsi Bali)** | `https://tarubali.baliprov.go.id` | RTRW provincial spatial plan; flood/landslide overlay |
 
 ### Earthquake (gempa)
 
@@ -475,7 +475,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 - Jakarta: chronically poor; ranks among most polluted megacities (IQAir reports 2023–2025); often 50–120 µg/m³ vs WHO guideline 15.
 - South Sumatra / Riau / Kalimantan: severe haze events Aug–Oct from peatland and forest fires; PM2.5 > 300 µg/m³ in worst years.
 - Bali: relatively clean coastal air; inland Ubud occasionally affected by agricultural burning.
-- Source: ISPU `https://ispu.menlhk.go.id/` + IQAir.
+- Source: ISPU `https://ispu.kemenlh.go.id` + IQAir.
 
 ### Climate-change projections (BMKG + IPCC AR6 + KLHK)
 
@@ -617,7 +617,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 - **PropertyGuru Indonesia** — `https://www.propertyguru.co.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Indonesia portal (PropertyGuru/Rumah.com ceased Dec 2023) — English-friendly, foreign-buyer caveat: many listings are by Indonesian agents marketing to foreigners, verify SHMRS / Hak Pakai eligibility before deposit
 - **99.co Indonesia** — `https://www.99.co/id/`
 - **Rumah.com** — `https://www.rumah.com/`
-- **Bali foreign-buyer platforms** — `https://www.balirealty.com/`, `https://www.harcourtspurba.com/`, `https://www.exoticbali.com/`, `https://www.theagency-bali.com/`, `https://www.ppbali.com/` — heavily marketed to foreign buyers in USD/AUD; verify legal structure independently; many "freehold villa" listings are technically leasehold or PT-PMA-held HGB
+- **Bali foreign-buyer platforms** — `https://www.balirealty.com/`, `https://www.harcourtspurba.com/`, `https://www.exoticbali.com/`, `https://www.theagency-bali.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row, `https://www.ppbali.com/` — heavily marketed to foreign buyers in USD/AUD; verify legal structure independently; many "freehold villa" listings are technically leasehold or PT-PMA-held HGB
 
 ---
 
@@ -671,7 +671,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | **OJK (Otoritas Jasa Keuangan)** | Mortgage / KPR rules (limited for foreigners) | `https://www.ojk.go.id/` |
 | **DPMPTSP kabupaten** | IMB / PBG, SLF, TDUP villa rental licence | Per kabupaten |
 | **DLH (Dinas Lingkungan Hidup) provincial / kabupaten** | IPAL compliance, environmental clearance | Per province |
-| **Bali — Distarcip / Bappeda Bali** | RTRW Bali, RDTR, foreign-investment zoning | `https://distarcip.baliprov.go.id/` |
+| **Bali — Distarcip / Bappeda Bali** | RTRW Bali, RDTR, foreign-investment zoning | `https://tarubali.baliprov.go.id` |
 | **Bali — Banjar / Desa Pakraman** | Village adat approval (especially rural / inherited land) | Per banjar |
 | **BNPB / BMKG / PVMBG** | Disaster, weather, volcanic monitoring | `https://www.bnpb.go.id/`, `https://www.bmkg.go.id/`, `https://magma.esdm.go.id/` |
 
@@ -699,7 +699,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | Source | URL pattern |
 |---|---|
 | Kementerian ATR/BPN main | `https://www.atrbpn.go.id/` |
-| BPN Sentuh Tanahku | `https://sentuhtanahku.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN — Sentuh Tanahku now at https://www.atrbpn.go.id/sentuh-tanahku (search-confirmed; fetch-verify from an unblocked network) |
+| BPN Sentuh Tanahku | `https://bhumi.atrbpn.go.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with ATR/BPN — Sentuh Tanahku now at https://www.atrbpn.go.id/sentuh-tanahku (search-confirmed; fetch-verify from an unblocked network) |
 | BHUMI ATR/BPN (spatial viewer) | `https://bhumi.atrbpn.go.id/` |
 | Peraturan BPK (statute database) | `https://peraturan.bpk.go.id/` |
 | UUPA No. 5/1960 | `https://peraturan.bpk.go.id/Details/51078/uu-no-5-tahun-1960` |
@@ -726,8 +726,8 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | Bina Marga (Highways) | `https://binamarga.pu.go.id/` |
 | Jasa Marga (Tollways) | `https://www.jasamarga.com/` |
 | Kementerian LHK | `https://www.menlhk.go.id/` |
-| ISPU (Air Quality Index) | `https://ispu.menlhk.go.id/` |
-| Distarcip Provinsi Bali (Spatial Plan) | `https://distarcip.baliprov.go.id/` |
+| ISPU (Air Quality Index) | `https://ispu.kemenlh.go.id` |
+| Distarcip Provinsi Bali (Spatial Plan) | `https://tarubali.baliprov.go.id` |
 | PAM Jaya (Jakarta water) | `https://pamjaya.co.id/` |
 | PD PAL Jaya (Jakarta sewerage) | (verify current site at PUPR Jakarta) |
 | PDAM Tirta Mangutama (Badung Bali) | `https://tirtamangutama.badungkab.go.id/` |

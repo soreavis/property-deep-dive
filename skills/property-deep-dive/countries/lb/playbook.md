@@ -10,7 +10,7 @@ ISO2: `lb`. Status: ✅ Fully populated (researched 2026-04 / 2026-05). Foreign-
 ## Country profile
 
 - **Postcode**: 4-digit Lebanese postal code (NNNN) issued by Liban Post; Beirut central postcodes start 11xx; full lookup at `https://www.libanpost.com/`.
-- **Admin levels**: 8 governorates (محافظات / muhafazat) → 26 districts (أقضية / qadaa, sing. caza) → ~1,000+ municipalities (بلديات / baladiyat). Beirut and Mount Lebanon are the densest admin units; the rest of the country (North, South, Bekaa, Baalbek-Hermel, Akkar, Nabatieh) is more rural. Source: Ministry of Interior and Municipalities `https://www.interior.gov.lb/` and Central Administration of Statistics (CAS) `http://www.cas.gov.lb/`.
+- **Admin levels**: 8 governorates (محافظات / muhafazat) → 26 districts (أقضية / qadaa, sing. caza) → ~1,000+ municipalities (بلديات / baladiyat). Beirut and Mount Lebanon are the densest admin units; the rest of the country (North, South, Bekaa, Baalbek-Hermel, Akkar, Nabatieh) is more rural. Source: Ministry of Interior and Municipalities `https://www.moim.gov.lb/` and Central Administration of Statistics (CAS) `http://www.cas.gov.lb/`.
 - **Population**: ~5.5 million (2024 CAS estimate, source `http://www.cas.gov.lb/`), inclusive of an est. ~1.5M Syrian refugees + ~470k Palestinian refugees (UNRWA-registered, of which a smaller share are physically resident). Beirut Metropolitan ~2.4M, Tripoli ~700k, Sidon (Saida) ~270k, Tyre (Sour) ~160k. The **Lebanese diaspora (Mahjar)** is estimated at **~13M globally** — far larger than the domestic resident population — and is the dominant foreign-buyer cohort (active diaspora in West Africa, France, US, Canada, Brazil, Mexico, Argentina, Australia, GCC).
 - **Currency**: **LBP (Lebanese pound, ل.ل.)** + **de-facto USD dollarization**. The historic peg of **1 USD = 1,507.5 LBP** (1997–2019) decoupled in **Sep 2019**; black-market rate hit USD 1 = LBP 100,000+ at peak (2022). The Banque du Liban (BDL) introduced the **Sayrafa platform** (2022–2023). **LBP devalued in two official steps: (a) 1 Feb 2023 — BDL changed the official rate from 1,507.5 → 15,000 LBP/USD (first step of unification); (b) early/March 2024 — official rate adjusted further to 89,500 LBP/USD**, where it has remained through 2026-05 (2026-05-27 verified, source BDL `https://www.bdl.gov.lb/` + BLOMINVEST BRITE FX series + Trade.gov Lebanon Trade Financing). **Property transactions are overwhelmingly in fresh USD cash** (~80%+ by value); LBP only for small ancillary payments. **Hyperinflation** ~95–98% LBP devaluation 2019–2023 makes any LBP-denominated quote meaningless without a date stamp.
 - **Languages**: Arabic (official, MSA + Lebanese colloquial); **French** is widely used in business, law, education, and elite social contexts (legal-history legacy); **English** dominant in tech, banking, healthcare, hospitality; **Armenian** in Beirut Bourj Hammoud + Anjar. Title deeds are filed in Arabic; sworn-translation common.
@@ -79,7 +79,7 @@ The **Beirut Central District (BCD)**, administered by **Solidere SAL** (Sociét
 |---|---|---|---|
 | **Investor Residency Permit** | **≥ USD 50k** investment in a Lebanese business / commercial activity | 1-year renewable residency | Issued by General Security (Sûreté Générale `https://www.general-security.gov.lb/`); not automatic; AML + business plan required |
 | **Property ownership-based residency** | **≥ USD 200k** property typical (informal threshold; verify with General Security) | Can support residency application | NOT automatic; discretionary; not a defined CBI/RBI track |
-| **Lebanese descent (Mahjar diaspora)** | Proof of Lebanese ancestry (paternal line typically; some maternal recognition reforms) | Streamlined naturalization track for descendants of Lebanese emigrants | Significant given ~13M global Lebanese diaspora vs. ~5.5M domestic; processes through Ministry of Foreign Affairs `https://www.foreign.gov.lb/` |
+| **Lebanese descent (Mahjar diaspora)** | Proof of Lebanese ancestry (paternal line typically; some maternal recognition reforms) | Streamlined naturalization track for descendants of Lebanese emigrants | Significant given ~13M global Lebanese diaspora vs. ~5.5M domestic; processes through Ministry of Foreign Affairs `https://www.foreign.gov.lb/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | **Naturalization (general)** | 5+ years continuous residence + Arabic + good conduct + waiver of original citizenship in some readings | Lebanese citizenship | Rarely granted to non-Arab non-diaspora applicants; **dual citizenship allowed since 2007** for Lebanese nationals |
 
 **Headline check — Lebanese passport global mobility (as of 2026)**:
@@ -129,7 +129,7 @@ Source: Banque du Liban (BDL) `https://www.bdl.gov.lb/`; Association of Banks in
 - **Order of Engineers and Architects in Beirut (OEA Beirut)** — `https://www.oea.org.lb/` — building permit data; architectural fee schedules.
 - **Order of Engineers and Architects in Tripoli (OEA Tripoli)** — `https://www.oea-tripoli.org.lb/` — North Lebanon coverage.
 - **Ministry of Finance cadastre directorate** — `https://www.finance.gov.lb/` — registers transaction declared values for tax purposes. **Lebanon does NOT publish a public address-level transaction-price database** comparable to UK Land Registry or FR DVF. Declared values understated for tax mitigation; fresh-USD-cash transactions tend to show wider declared-vs-actual gaps.
-- **Real estate consultancy reports**: **Ramco Real Estate** (`https://www.ramcoredb.com/`), **ATG Real Estate**, **Plus Properties** (`https://www.plusproperties.com.lb/`), **Berytech / RAMCO market reports**, **MEA Property** — quarterly + annual reports (secondary; verify methodology). Public summaries available; full reports paywalled.
+- **Real estate consultancy reports**: **Ramco Real Estate** (`https://www.ramcolb.com/`), **ATG Real Estate**, **Plus Properties** (`https://www.plusproperties.com.lb/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row, **Berytech / RAMCO market reports**, **MEA Property** — quarterly + annual reports (secondary; verify methodology). Public summaries available; full reports paywalled.
 
 ### Listing platforms (asking prices, not transaction)
 
@@ -140,8 +140,8 @@ Source: Banque du Liban (BDL) `https://www.bdl.gov.lb/`; Association of Banks in
 | **Property Lebanon** (`https://www.propertylebanon.com/`) | National | Established; English-friendly |
 | **Beirut Property** | Beirut-focused | Premium listings |
 | **Lebanon Real Estate** | National | Cross-border; English |
-| **Plus Properties** (`https://www.plusproperties.com.lb/`) | Beirut + Mount Lebanon premium | Agency-direct; high-end villas + apartments |
-| **Ramco** (`https://www.ramcoredb.com/`) | National + diaspora-targeted | Detailed market reports + listings |
+| **Plus Properties** (`https://www.plusproperties.com.lb/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Beirut + Mount Lebanon premium | Agency-direct; high-end villas + apartments |
+| **Ramco** (`https://www.ramcolb.com/`) | National + diaspora-targeted | Detailed market reports + listings |
 
 ### Price benchmarks — asking-side (2026, USD; LBP-denominated quotes are unreliable post-crisis)
 
@@ -187,7 +187,7 @@ These are **listing-side asking prices in USD** sampled from OLX Lebanon + RealE
 
 ### Primary sources
 
-- **Ministry of Public Works and Transport (MoPWT)** — `https://www.mpwt.gov.lb/` — national highway network operator; intermittent traffic flow studies (capacity impaired post-2019).
+- **Ministry of Public Works and Transport (MoPWT)** — `http://www.transportation.gov.lb/ar/home` — national highway network operator; intermittent traffic flow studies (capacity impaired post-2019).
 - **Beirut Municipality** — `https://www.beirutmunicipality.gov.lb/` — urban arterial counts (limited public data).
 - **Internal Security Forces (ISF) Traffic Department** — `https://www.isf.gov.lb/` — accident statistics; not granular AADT.
 - **Council for Development and Reconstruction (CDR)** — `https://www.cdr.gov.lb/` — historic transport masterplan studies; recent capacity limited.
@@ -577,8 +577,8 @@ This is a **distinctive Lebanese quirk**. Even properties with mains EDL connect
 | **OLX Lebanon** (`https://olx.com.lb/`) | Largest classifieds; broad inventory |
 | **RealEstate.com.lb** (`https://www.realestate.com.lb/`) | Real-estate-focused; cleaner inventory |
 | **Property Lebanon** (`https://www.propertylebanon.com/`) | English-friendly |
-| **Plus Properties** (`https://www.plusproperties.com.lb/`) | Beirut + Mount Lebanon premium |
-| **Ramco** (`https://www.ramcoredb.com/`) | National + diaspora-targeted; market reports |
+| **Plus Properties** (`https://www.plusproperties.com.lb/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Beirut + Mount Lebanon premium |
+| **Ramco** (`https://www.ramcolb.com/`) | National + diaspora-targeted; market reports |
 | **Beirut Property** | Beirut-focused premium |
 | **Solidere SAL direct** (`https://www.solidere.com/`) | BCD primary + secondary market |
 
@@ -677,15 +677,15 @@ This is a **distinctive Lebanese quirk**. Even properties with mains EDL connect
 | Lebanese Customs | `https://www.customs.gov.lb/` |
 | Beirut Municipality | `https://www.beirutmunicipality.gov.lb/` |
 | Presidency of the Republic | `https://www.presidency.gov.lb/` |
-| Ministry of Interior and Municipalities | `https://www.interior.gov.lb/` |
+| Ministry of Interior and Municipalities | `https://www.moim.gov.lb/` |
 | General Security (Sûreté Générale) | `https://www.general-security.gov.lb/` |
 | Internal Security Forces (ISF) | `https://www.isf.gov.lb/` |
 | Civil Defence | `https://www.civildefense.gov.lb/` |
 | Ministry of Labour | `https://labor.gov.lb/` |
 | Ministry of Tourism | `http://www.mot.gov.lb/` |
 | Ministry of Justice | `https://www.justice.gov.lb/` |
-| Ministry of Foreign Affairs | `https://www.foreign.gov.lb/` |
-| Ministry of Public Works and Transport (MoPWT) | `https://www.mpwt.gov.lb/` |
+| Ministry of Foreign Affairs | `https://www.foreign.gov.lb/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Ministry of Public Works and Transport (MoPWT) | `http://www.transportation.gov.lb/ar/home` |
 | Ministry of Energy and Water (MoEW) | `https://www.energyandwater.gov.lb/` |
 | Ministry of Environment (MoE) | `https://www.moe.gov.lb/` |
 | Ministry of Economy and Trade | `https://www.economy.gov.lb/` |
@@ -704,8 +704,8 @@ This is a **distinctive Lebanese quirk**. Even properties with mains EDL connect
 | OLX Lebanon | `https://olx.com.lb/` |
 | RealEstate.com.lb | `https://www.realestate.com.lb/` |
 | Property Lebanon | `https://www.propertylebanon.com/` |
-| Plus Properties | `https://www.plusproperties.com.lb/` |
-| Ramco Real Estate Database | `https://www.ramcoredb.com/` |
+| Plus Properties | `https://www.plusproperties.com.lb/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Ramco Real Estate Database | `https://www.ramcolb.com/` |
 | Bayt Lebanon (jobs) | `https://www.bayt.com/en/lebanon/` |
 | Hirelebanese (jobs) | `https://www.hirelebanese.com/` |
 | Daleel Madani (NGO jobs) | `https://daleel-madani.org/` |

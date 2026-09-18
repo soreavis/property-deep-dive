@@ -25,7 +25,7 @@ ISO2: `cz`. Status: ✅ Fully populated (researched 2026-04).
   - Returns: short LV with vlastník, výměra, list vlastnictví číslo, zatížení (encumbrances)
   - Login via Identita občana for full LV
 - **ČÚZK Dálkový přístup pro neregistrované**: `https://dpn.cuzk.gov.cz/`
-- **Sister** (paid pro tier): `https://sister.cuzk.cz/` — full extracts, planimetry
+- **Sister** (paid pro tier): `https://cuzk.gov.cz/aplikace-dp` — full extracts, planimetry
 
 ### Price benchmarks (Q4 2025 reference)
 
@@ -494,7 +494,7 @@ Veolia ČR group = largest operator (est. ~50% of total connections, based on th
 |---|---|
 | ČÚZK Nahlížení | `https://nahlizenidokn.cuzk.gov.cz/` |
 | ČÚZK DPN (unregistered) | `https://dpn.cuzk.gov.cz/` |
-| ČÚZK Sister (paid) | `https://sister.cuzk.cz/` |
+| ČÚZK Sister (paid) | `https://cuzk.gov.cz/aplikace-dp` |
 | Sreality search | `https://www.sreality.cz/hledani/prodej/byty/<region>/<obec>` |
 | Sreality cenová mapa | `https://www.sreality.cz/cenova-mapa<region>/<obec>` |
 | Bezrealitky | `https://www.bezrealitky.cz/<region>/<obec>` |

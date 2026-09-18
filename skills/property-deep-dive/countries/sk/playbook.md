@@ -308,7 +308,7 @@ Short-term rental WITH ancillary services (cleaning, breakfast, key handover, et
 
 | Source | URL | What it gives |
 |---|---|---|
-| **SVP MPO/MPR** (Mapy povodňového ohrozenia + rizika) | `https://mpompr.svp.sk/` | Q10/Q100/Q1000 flood hazard + risk maps for all SK rivers |
+| **SVP MPO/MPR** (Mapy povodňového ohrozenia + rizika) | `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/` | Q10/Q100/Q1000 flood hazard + risk maps for all SK rivers |
 | **SVP MP-T portál** | `https://mpt.svp.sk/svp_vmapportal/` | Map portal supplementary |
 | **SHMÚ Hydro stupne aktivity** | `https://www.shmu.sk/sk/?page=1&id=hydro_stpa` | Real-time flood activity stages 1-3 |
 | **Minzp.sk povodňové mapy** | `https://www.minzp.sk/voda/ochrana-pred-povodnami/manazment-povodnovych-rizik/povodnove-mapy.html` | Ministry environment flood policy + maps |
@@ -326,7 +326,7 @@ SVP publishes maps for 3 probability levels:
 - **Q100**: medium probability (every 100 yrs) — insurance / building restrictions
 - **Q1000**: low probability (every 1,000 yrs) — extreme event reference
 
-Verify parcel-level via `https://mpompr.svp.sk/` — search by mesto/obec.
+Verify parcel-level via `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/` — search by mesto/obec.
 
 ### Radon zones (radónové riziko)
 
@@ -544,7 +544,7 @@ Map: `https://www.seismology.sk/Maps/` (475-year return period PGA map, 2012 GF�
 | Realitný barometer | `https://www.realitnaunia.sk/realitny-barometer` |
 | NBS prices by region | `https://nbs.sk/en/statistics/selected-macroeconomics-indicators/residential-property-prices/residential-property-prices-by-regions/` |
 | SSC sčítanie dopravy | `https://www.ssc.sk/sk/cinnosti/rozvoj-cestnej-siete/dopravne-inzinierstvo/celostatne-scitanie-dopravy-v-roku-2022-a-2023.ssc` |
-| SVP povodňové mapy | `https://mpompr.svp.sk/` |
+| SVP povodňové mapy | `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/` |
 | SHMÚ povodne aktivita | `https://www.shmu.sk/sk/?page=1&id=hydro_stpa` |
 | ŠGÚDŠ radon mapy | `https://apl.geology.sk/radio/` |
 | Geoportal radon | `https://geoportal.gov.sk/articles/radonove-riziko` |
@@ -563,7 +563,7 @@ For SK-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 |---|---|---|---|
 | Tax residence | Final-year daňové priznanie with foreign address per [Zákon 595/2003 Z. z.](https://www.slov-lex.sk/) o dani z príjmov § 2 písm. d); verify DTA tie-breaker if dual residence claimed by destination | Finančná správa SR | [financnasprava.sk](https://www.financnasprava.sk/) |
 | Civil register (trvalý pobyt) | **Odhlásenie z trvalého pobytu** via municipal *ohlasovňa pobytu* per [Zákon 253/1998 Z. z. § 6](https://www.slov-lex.sk/) — required if no longer resident in SR | Obecný / mestský úrad | [minv.sk — ohlasovne pobytu](https://portal.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/Cudzinci/Hlasenie-pobytu-cudzincov) |
-| Health insurance | Terminate verejné zdravotné poistenie per [Zákon 580/2004 Z. z.](https://www.slov-lex.sk/) — VšZP / Dôvera / Union; if EU/EEA/CH destination, S1 form bridges coverage | All-payor framework | [vszp.sk](https://www.vszp.sk/) · [dovera.sk](https://www.dovera.sk/) · [unionzp.sk](https://www.unionzp.sk/) |
+| Health insurance | Terminate verejné zdravotné poistenie per [Zákon 580/2004 Z. z.](https://www.slov-lex.sk/) — VšZP / Dôvera / Union; if EU/EEA/CH destination, S1 form bridges coverage | All-payor framework | [vszp.sk](https://www.vszp.sk/) · [dovera.sk](https://www.dovera.sk/) · [unionzp.sk](https://www.union.sk/) |
 | Social security | Sociálna poisťovňa coordination via S1 if EU/EEA/CH destination per [Reg 883/2004](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0883); bilateral totalisation outside coordination zone | Sociálna poisťovňa | [socpoist.sk](https://www.socpoist.sk/) |
 | **s.r.o. owner-manager** | If owner-manager moving abroad — **POEM / PE risk** under destination DTA Art. 4(3) + Art. 5; effective-management migration can make the s.r.o. treaty-resident in destination → destination corporate tax + SK exit-tax event. Engage **corporate-tax counsel BEFORE move**. | Slovenská komora daňových poradcov + destination tax counsel | [skdp.sk](https://www.skdp.sk/) |
 | Slovakia-treaty register (DTA lookup) | Find the relevant SK-destination ZZDP + tie-breaker article + MLI matches | Ministerstvo financií SR — Zmluvy o zamedzení dvojitého zdanenia | [mfsr.sk — ZZDP](https://www.mfsr.sk/sk/dane-cla-uctovnictvo/priame-dane/dane-z-prijmu/zmluvy-zamedzeni-dvojiteho-zdanenia/zmluvy-zamedzeni-dvojiteho-zdanenia/) |

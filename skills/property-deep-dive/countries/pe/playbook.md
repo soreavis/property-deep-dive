@@ -115,9 +115,9 @@ ISO2: `pe`. Status: Fully populated (researched 2026-05).
 | **PROVÍAS Nacional** | `https://www.gob.pe/pvn` | Concessionary + national road operator; conteos volumétricos publicados |
 | **PROVÍAS Descentralizado** | `https://www.gob.pe/pvd` | Regional + departamental network |
 | **OSITRAN** | `https://www.ositran.gob.pe/` | Concession regulator — toll-road operator IMD reporting (Pativilca, Norvial, Rutas de Lima, IIRSA Norte/Sur, Survial) |
-| **Municipalidad Metropolitana de Lima — GMU/GTU** | `https://www.munlima.gob.pe/` | Lima city traffic counts, Plan Maestro de Transporte, semaforización |
-| **AATE — Autoridad Autónoma del Tren Eléctrico** | `https://www.aate.gob.pe/` | Lima Metro lines (1, 2, 3, 4) + projected lines |
-| **ATU — Autoridad de Transporte Urbano para Lima y Callao** | `https://www.atu.gob.pe/` | Lima + Callao integrated transport regulator (since Ley 30900, 2018) |
+| **Municipalidad Metropolitana de Lima — GMU/GTU** | `https://www.gob.pe/munilima` | Lima city traffic counts, Plan Maestro de Transporte, semaforización |
+| **AATE — Autoridad Autónoma del Tren Eléctrico** | `https://www.aate.gob.pe/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Lima Metro lines (1, 2, 3, 4) + projected lines |
+| **ATU — Autoridad de Transporte Urbano para Lima y Callao** | `https://www.gob.pe/atu` | Lima + Callao integrated transport regulator (since Ley 30900, 2018) |
 | **OSM fallback** | `https://overpass-turbo.eu/` | Road class only — coarse band |
 
 ### Key term
@@ -292,7 +292,7 @@ Per **Ley del Impuesto a la Renta — Decreto Supremo 179-2004-EF** (TUO LIR) ar
 - **Aptitus** (El Comercio group): `https://aptitus.com/`
 - **Laborum.pe** (Adevinta): `https://www.laborum.pe/`
 - **Trabajos.com Perú**: `https://www.trabajos.com.pe/`
-- **Empleos Perú** (Ministerio de Trabajo) — gov: `https://www.empleosperu.gob.pe/`
+- **Empleos Perú** (Ministerio de Trabajo) — gov: `https://www.gob.pe/23475-buscar-trabajo-en-el-portal-empleos-peru`
 
 ### Self-employment / business regimes
 
@@ -333,7 +333,7 @@ Per **Ley del Impuesto a la Renta — Decreto Supremo 179-2004-EF** (TUO LIR) ar
 | **INDECI — Instituto Nacional de Defensa Civil** | `https://www.gob.pe/indeci` | Mapa de peligros, planes de evacuación, alertas, escenarios sísmicos Lima |
 | **CENEPRED — Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres** | `https://www.gob.pe/cenepred` | Estimación + prevención prospectiva (mapas amenaza nacional, **SIGRID** Sistema de Información para la Gestión del Riesgo de Desastres) |
 | **SIGRID** (CENEPRED) | `https://sigrid.cenepred.gob.pe/` | Geoportal multi-amenaza nacional (sismo, volcán, tsunami, huayco, inundación) |
-| **INGEMMET** | `https://www.ingemmet.gob.pe/` | Geología, peligros geológicos, **OVI** Observatorio Vulcanológico del INGEMMET (Misti, Sabancaya, Ubinas, Ticsani) |
+| **INGEMMET** | `https://www.gob.pe/ingemmet` | Geología, peligros geológicos, **OVI** Observatorio Vulcanológico del INGEMMET (Misti, Sabancaya, Ubinas, Ticsani) |
 | **DHN — Dirección de Hidrografía y Navegación (Marina de Guerra)** | `https://www.dhn.mil.pe/` | Tsunami warning + cartas de inundación tsunami costera |
 | **SENAMHI — Servicio Nacional de Meteorología e Hidrología** | `https://www.senamhi.gob.pe/` | Hidrometeorología, El Niño, alertas hidrológicas |
 | **ANA — Autoridad Nacional del Agua** | `https://www.gob.pe/ana` | Recursos hídricos, fajas marginales, riesgo inundación fluvial |
@@ -417,7 +417,7 @@ Peru lies on the **subduction zone Nazca-Sudamericana** (Cinturón de Fuego del 
 
 ### Expropiación + saneamiento físico legal
 
-- **DL 1192 + TUO DS 011-2019-VIVIENDA (Ley Marco de Adquisición y Expropiación)**: state may acquire (preferred: trato directo) or expropriate (last resort, requires Ley del Congreso) for infrastructure works (Línea Metro 2/3/4, IIRSA, Panamericana ampliaciones). Compensation = valor comercial + 10 % afectación. Check **SBN — Superintendencia Nacional de Bienes Estatales** (`https://www.sbn.gob.pe/`) for parcel-level afectación notices before purchasing near major project corridors.
+- **DL 1192 + TUO DS 011-2019-VIVIENDA (Ley Marco de Adquisición y Expropiación)**: state may acquire (preferred: trato directo) or expropriate (last resort, requires Ley del Congreso) for infrastructure works (Línea Metro 2/3/4, IIRSA, Panamericana ampliaciones). Compensation = valor comercial + 10 % afectación. Check **SBN — Superintendencia Nacional de Bienes Estatales** (`https://www.gob.pe/sbn`) for parcel-level afectación notices before purchasing near major project corridors.
 
 ⚠️ **Trampa Zona de Frontera** (50 km perimeter, Const. art. 71): el notario está obligado a verificar; pero compra anterior puede tener vicios si el vendedor fue extranjero sin Decreto Supremo de excepción → verificar cadena dominial completa.
 
@@ -1147,15 +1147,15 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 | INDECI | `https://www.gob.pe/indeci` |
 | CENEPRED | `https://www.gob.pe/cenepred` |
 | SIGRID CENEPRED | `https://sigrid.cenepred.gob.pe/` |
-| INGEMMET / OVI | `https://www.ingemmet.gob.pe/` + `https://ovi.ingemmet.gob.pe/` |
+| INGEMMET / OVI | `https://www.gob.pe/ingemmet` + `https://ovi.ingemmet.gob.pe/` |
 | DHN | `https://www.dhn.mil.pe/` |
 | SENAMHI | `https://www.senamhi.gob.pe/` |
 | ANA | `https://www.gob.pe/ana` |
 | MINAM | `https://www.gob.pe/minam` |
 | MINEDU Escale | `https://escale.minedu.gob.pe/` |
-| MINSA RENIPRESS | `http://aplicaciones.minsa.gob.pe/dgsp/renipress/` |
-| ATU | `https://www.atu.gob.pe/` |
-| AATE | `https://www.aate.gob.pe/` |
+| MINSA RENIPRESS | `https://www.gob.pe/10202-obtener-informacion-de-las-instituciones-prestadoras-de-servicios-de-salud-renipress` |
+| ATU | `https://www.gob.pe/atu` |
+| AATE | `https://www.aate.gob.pe/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | MTC | `https://www.gob.pe/mtc` |
 | PROVÍAS Nacional | `https://www.gob.pe/pvn` |
 | OSITRAN | `https://www.ositran.gob.pe/` |

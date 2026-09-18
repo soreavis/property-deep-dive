@@ -139,9 +139,9 @@ HIGH for TR/AE/JO; MEDIUM for QA (app-only), SA (portal confirmed, foreigner eli
 
 ## APAC + South Asia
 
-- **JP** Japan — 🟢 PRIMARY-OFFICIAL — **BIT** ([bit.sikkou.go.jp](https://bit.sikkou.go.jp), Supreme Court) for court auctions (*keibai*); `981.jp` is a private mirror. Foreigners may bid (no nationality bar); residency/qualification cert + often a concierge.
+- **JP** Japan — 🟢 PRIMARY-OFFICIAL — **BIT** ([bit.sikkou.go.jp](https://www.bit.courts.go.jp/), Supreme Court) for court auctions (*keibai*); `981.jp` is a private mirror. Foreigners may bid (no nationality bar); residency/qualification cert + often a concierge.
 - **KR** South Korea — 🟢 PRIMARY-OFFICIAL — **courtauction.go.kr** (Court Auction Information System); `.co.kr` is a private aggregator. Notably, **court auctions are exempt from Korea's 2025 foreign-buyer Land-Transaction-Permit regime** (re-confirm against statute).
-- **TW** Taiwan — 🟡 PRIMARY-OFFICIAL (split) — Judicial Yuan court-auction announcements ([aomp.judicial.gov.tw](https://aomp.judicial.gov.tw), 法拍屋) + MOJ Administrative Enforcement Agency (tax/admin). Foreign land ownership is **reciprocity-gated** (Land Act art. 18) — verify eligibility first.
+- **TW** Taiwan — 🟡 PRIMARY-OFFICIAL (split) — Judicial Yuan court-auction announcements ([aomp.judicial.gov.tw](https://aomp109.judicial.gov.tw/judbp/wkw/WHD1A02.htm), 法拍屋) + MOJ Administrative Enforcement Agency (tax/admin). Foreign land ownership is **reciprocity-gated** (Land Act art. 18) — verify eligibility first.
 - **HK** Hong Kong — 🟠 AGGREGATOR-ONLY — foreclosure needs a court order but **no requirement to sell by auction**; distressed stock moves via agents / commercial auctioneers (Memfus Wong). No official auction registry.
 - **MO** Macau — 🟢 PRIMARY-OFFICIAL — **Tribunais da RAEM — Venda Judicial** ([court.gov.mo](https://www.court.gov.mo)), often sealed-bid (*propostas em carta fechada*). (Tax-seized via DSF separately.)
 - **SG** Singapore — 🟠 AGGREGATOR-ONLY — mortgagee sales via licensed houses (Knight Frank, Edmund Tie, JLL); no central government registry. Non-landed open to foreigners; landed needs LDAU approval.

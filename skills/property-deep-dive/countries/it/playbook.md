@@ -60,7 +60,7 @@ ISO2: `it`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Primary sources
 
-- **ANAS Osservatorio del Traffico**: `https://www.stradeanas.it/it/le-strade/osservatorio-del-traffico`
+- **ANAS Osservatorio del Traffico**: `https://www.stradeanas.it/it/osservatorio-del-traffico`
   - Covers strade statali (SS) + autostrade (A) of national interest
   - System: PANAMA (~1,200 sezioni di conteggio, ~1,450 impianti)
   - Reports: monthly, quarterly, annual TGM

@@ -156,7 +156,7 @@ Primary source: [**Cerema — Guide foncier Outre-Mer (2023)**](https://outil2am
 
 ### `gp` Guadeloupe (Lesser Antilles — Caribbean)
 
-- **Cyclones:** Atlantic hurricane season Jun–Nov; Cat-4/5 hits historically (Hugo 1989, Maria 2017). Build to *règles parasismiques et paracycloniques DOM* — verify at [planseisme.fr](https://www.planseisme.fr/).
+- **Cyclones:** Atlantic hurricane season Jun–Nov; Cat-4/5 hits historically (Hugo 1989, Maria 2017). Build to *règles parasismiques et paracycloniques DOM* — verify at [planseisme.fr](https://www.ecologie.gouv.fr/politiques-publiques/tremblements-terre-seismes-france).
 - **Seismicity:** **Zone 5 (forte sismicité)** per the seismic-zonation decree (CGI Art. R563-4, [Légifrance](https://www.legifrance.gouv.fr/loda/id/LEGITEXT000023086525)). Subduction zone (Caribbean plate / North American plate). PGA design accelerations are the highest tier in the French regulatory framework.
 - **Volcanic:** *La Soufrière* (massif of *La Grande Découverte*), active stratovolcano on Basse-Terre. Monitored by [Observatoire volcanologique et sismologique de Guadeloupe (OVSG-IPGP)](https://www.ipgp.fr/en/observation/ovs/ovsg/). Last significant phreatic crisis 1976–1977 (evacuation of Basse-Terre). Yellow-alert status periodically.
 - **Tsunami:** Caribbean tsunami exposure (e.g., 1867 Virgin Islands earthquake). Coastal `gp` communes in PPR-tsunami zoning.
@@ -174,7 +174,7 @@ Primary source: [**Cerema — Guide foncier Outre-Mer (2023)**](https://outil2am
 - **Seismicity:** **Zone 1 (très faible)** per CGI R563-4 — Guianese Shield is tectonically stable.
 - **Flooding:** Major risk. Maroni river (Surinamese border) and Oyapock river (Brazilian border) annual flood cycles; interior communes can be inundated for weeks. Coastal flooding (Cayenne, Kourou, Saint-Laurent-du-Maroni) tracked in [PPRI Guyane](https://www.guyane.developpement-durable.gouv.fr/).
 - **Other:** dense tropical-forest insolation/humidity (build for high humidity — mold, termites *Coptotermes*); HIV/dengue/leptospirosis health profile relevant for buy-to-let medical-screening tenants; gold-mining-related mercury contamination on some interior watercourses (verify against [ARS Guyane](https://www.guyane.ars.sante.fr/) before any river-front purchase).
-- **Economic anchor:** [**Centre spatial guyanais (CSG) at Kourou**](https://www.cnes-csg.fr/) — Ariane / Vega launch site operated by CNES + ESA + Arianespace. Drives the Kourou + Cayenne real-estate market via expat staffing.
+- **Economic anchor:** [**Centre spatial guyanais (CSG) at Kourou**](https://centrespatialguyanais.cnes.fr/) — Ariane / Vega launch site operated by CNES + ESA + Arianespace. Drives the Kourou + Cayenne real-estate market via expat staffing.
 
 ### `re` La Réunion (Mascarene archipelago — SW Indian Ocean)
 

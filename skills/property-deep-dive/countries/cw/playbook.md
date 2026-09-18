@@ -29,7 +29,7 @@ ISO2: `cw`. Status: ✅ Researched 2026-05-27 (Confidence: MEDIUM — see Status
   - **Caribbean House Hunt**: `https://caribbeanhousehunt.com/curacao/map/`
   - **JamesEdition Curaçao**: `https://www.jamesedition.com/real_estate/curacao` (luxury skew)
   - **RE/MAX BonBini Curaçao**: `https://www.realestate-curacao.com/`
-  - **Coldwell Banker Curaçao**: `https://www.coldwellbankercur.com/`
+  - **Coldwell Banker Curaçao**: `https://coldwellbankercuracao.com`
   - **CENTURY 21 #1 Real Estate**: `https://century21numberone.com/`
   - **Properstar Curaçao**: `https://www.properstar.co.uk/curacao/`
 
@@ -465,7 +465,7 @@ Universal logic per `shared/visa-programs.md`. Curaçao-specific:
 
 ### Investor Permit (residency-by-investment)
 
-Established **2014** under Curaçao Landsbesluit; significant lowering of thresholds reported via 2024–2025 government reviews. **Verify current quantum at Toelating & Uitzetting / Servisio di Imigrashon** (`https://servisio-di-imigrashon.gobiernu.cw/` or via Ministerie van Justitie) before relying on any specific figure.
+Established **2014** under Curaçao Landsbesluit; significant lowering of thresholds reported via 2024–2025 government reviews. **Verify current quantum at Toelating & Uitzetting / Servisio di Imigrashon** (`https://www.immigrationcur.org/` or via Ministerie van Justitie) before relying on any specific figure.
 
 **Investment tiers (per multiple advisory sources 2024–2026)**:
 
@@ -806,7 +806,7 @@ Curaçao operates **no foreign-buyer restrictions** on residential or commercial
 
 - **Caribbean House Hunt** (`https://caribbeanhousehunt.com/curacao/map/`) — Curaçao-specialised buyer's guide + listings
 - **RE/MAX BonBini Curaçao** (`https://www.realestate-curacao.com/`) — major broker
-- **Coldwell Banker Curaçao** (`https://www.coldwellbankercur.com/`)
+- **Coldwell Banker Curaçao** (`https://coldwellbankercuracao.com`)
 - **CENTURY 21 #1 Real Estate** (`https://century21numberone.com/`)
 - **Moret Real Estate** (`https://moretrealestate.com/`)
 - **At Home Curaçao** (`https://athomecuracao.com/`)
@@ -874,7 +874,7 @@ Curaçao operates **no foreign-buyer restrictions** on residential or commercial
 | Aqualectra (electricity + water) | `https://www.aqualectra.com/` |
 | Regulatory Authority of Curaçao (RAC) | `https://rac.cw/` |
 | Meteorological Department Curaçao (Meteo Curaçao) | `https://www.meteo.cw/` |
-| Servisio di Imigrashon (Immigration) | `https://servisio-di-imigrashon.gobiernu.cw/` |
+| Servisio di Imigrashon (Immigration) | `https://www.immigrationcur.org/` |
 | Curaçao Medical Center (CMC) | `https://www.cmc.cw/` |
 | Maduro & Curiel's Bank (MCB) | `https://www.mcb-bank.com/` |
 | RBC Royal Bank Caribbean (Curaçao) | `https://www.rbcroyalbank.com/caribbean/personal/personal-lending/mortgages.html?country=curacao` |
@@ -883,7 +883,7 @@ Curaçao operates **no foreign-buyer restrictions** on residential or commercial
 | Curaçao Chronicle (local English-language press) | `https://www.curacaochronicle.com/` |
 | Caribbean House Hunt | `https://caribbeanhousehunt.com/curacao/map/` |
 | RE/MAX BonBini Curaçao | `https://www.realestate-curacao.com/` |
-| Coldwell Banker Curaçao | `https://www.coldwellbankercur.com/` |
+| Coldwell Banker Curaçao | `https://coldwellbankercuracao.com` |
 | CENTURY 21 #1 Real Estate | `https://century21numberone.com/` |
 | Moret Real Estate | `https://moretrealestate.com/` |
 | Acacia Estate Tax Brochure March 2025 (advisory PDF) | `https://acaciaestatecuracao.com/wp-content/uploads/2025/04/Tax-Brochure-CUR-March-2025.pdf` |

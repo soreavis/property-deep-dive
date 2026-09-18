@@ -35,8 +35,8 @@ ISO2: `jm`. Status: ✅ Fully populated (researched 2026-05-07).
 
 ### Listing platforms
 
-- **RealEstate.com.jm** (dominant generic): `https://www.realestate.com.jm/`
-- **Realtor Jamaica (RAJ MLS)**: `https://www.realtor.com.jm/` — Realtors Association of Jamaica MLS
+- **RealEstate.com.jm** (dominant generic): `https://www.realestate.com.jm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Realtor Jamaica (RAJ MLS)**: `https://www.realtor.com.jm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — Realtors Association of Jamaica MLS
 - **Jamaica-Homes.com**: `https://jamaica-homes.com/` — diaspora-targeted aggregator + editorial
 - **PropertyAds Jamaica**: `https://www.propertyadsja.com/`
 - **CenturyJam, Coldwell Banker Jamaica, RE/MAX Jamaica, Keller Williams Jamaica, Sagicor Property Services**: international brand offices
@@ -267,7 +267,7 @@ Regulatory status (verified 2026-05):
 ### Self-employment
 
 - **TRN (Taxpayer Registration Number)** required for invoicing.
-- **Sole trader** common; **Limited company** (Jamaica Companies Act 2004) easy to incorporate via **COJ (Companies Office of Jamaica)**: `https://www.coj.gov.jm/`.
+- **Sole trader** common; **Limited company** (Jamaica Companies Act 2004) easy to incorporate via **COJ (Companies Office of Jamaica)**: `https://www.orcjamaica.com/`.
 - **GCT registration** mandatory above **JMD 15M turnover** (from 1 April 2025).
 - **Profession-specific licensing** via colleges / boards (Medical Council, Bar Council via General Legal Council, ICAJ for accountants, BoEJ for engineers, RAJ for real estate, etc.). **Foreign-degree recognition** via University Council of Jamaica (UCJ) for certain professions.
 
@@ -563,11 +563,11 @@ Regulatory status (verified 2026-05):
 | Jamaica Tourist Board (JTB) | `https://www.visitjamaica.com/` |
 | PICA (immigration) | `https://www.pica.gov.jm/` |
 | MLSS (labour) | `https://mlss.gov.jm/` |
-| Companies Office of Jamaica (COJ) | `https://www.coj.gov.jm/` |
+| Companies Office of Jamaica (COJ) | `https://www.orcjamaica.com/` |
 | Jamaica Customs Agency | `https://jca.gov.jm/` |
 | Jamaica National Heritage Trust (JNHT) | `https://jnht.com/` |
-| RealEstate.com.jm (listings) | `https://www.realestate.com.jm/` |
-| Realtor Jamaica MLS | `https://www.realtor.com.jm/` |
+| RealEstate.com.jm (listings) | `https://www.realestate.com.jm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Realtor Jamaica MLS | `https://www.realtor.com.jm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
 | PropertyAds Jamaica | `https://www.propertyadsja.com/` |
 
 ## Status

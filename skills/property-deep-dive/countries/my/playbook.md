@@ -13,7 +13,7 @@ ISO2: `my`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
   - Source: Department of Statistics Malaysia (DOSM) `https://www.dosm.gov.my/`
 - **Currency**: MYR (Malaysian ringgit, RM). 1 USD ≈ 4.4–4.7 MYR; 1 EUR ≈ 4.8–5.1 MYR (Apr 2026 BNM reference; FX volatile, verify at `https://www.bnm.gov.my/exchange-rates`).
 - **Languages**: Bahasa Malaysia (official); English widely used in property law, SPA contracts, professional services and developer marketing; Mandarin, Tamil and many Chinese dialects in commerce. **Most title documents (geran) are in Bahasa Malaysia** — sworn translation may be needed for foreign buyers.
-- **Cadastre / land registry**: state level via Land and Mines Offices (Pejabat Pengarah Tanah dan Galian Negeri, PTG) and District Land Offices (Pejabat Tanah Daerah, PTD). Federal coordinator **JKPTG** — `https://www.jkptg.gov.my/`. Survey & mapping **JUPEM** — `https://www.jupem.gov.my/`. Online land searches via **e-Tanah** state portals (Selangor `https://etanah.selangor.gov.my/`, WP/KL `https://etanah.kpkt.gov.my/`); Sabah and Sarawak run independent systems.
+- **Cadastre / land registry**: state level via Land and Mines Offices (Pejabat Pengarah Tanah dan Galian Negeri, PTG) and District Land Offices (Pejabat Tanah Daerah, PTD). Federal coordinator **JKPTG** — `https://www.jkptg.gov.my/`. Survey & mapping **JUPEM** — `https://www.jupem.gov.my/`. Online land searches via **e-Tanah** state portals (Selangor `https://etanah.selangor.gov.my/`, WP/KL `https://myland.gov.my/`); Sabah and Sarawak run independent systems.
 - **Title types** (CRITICAL — only freehold and leasehold under registered title are safely transferable to foreigners):
 
 | Code / Term | Description | Foreign use | Notes |
@@ -80,7 +80,7 @@ Foreigners can purchase residential property in their own name (freehold or leas
 - **Legal basis**: NLC 1965 §433B (Peninsular) requires state authority consent for *every* foreign acquisition unless pre-exempted for that price band.
 - **Practical process**: most states with thresholds ≥ MYR 1,000,000 grant **general consent** for purchases above the floor — issued as part of the standard transfer. Below the threshold, no consent route exists.
 - **Application step**: lawyer files §433B with the transfer at the state Land Office; processing 4–12 weeks.
-- **EPU (Economic Planning Unit)** — historically required for large commercial / industrial / agricultural acquisitions. **For residential purchases above the state foreigner threshold, EPU approval is generally NOT required** under revised EPU Guidelines (verify `https://www.epu.gov.my/`). EPU still applies to property-company equity transfers and commercial/industrial > MYR 20M.
+- **EPU (Economic Planning Unit)** — historically required for large commercial / industrial / agricultural acquisitions. **For residential purchases above the state foreigner threshold, EPU approval is generally NOT required** under revised EPU Guidelines (verify `https://ekonomi.gov.my/`). EPU still applies to property-company equity transfers and commercial/industrial > MYR 20M.
 - **Sabah and Sarawak**: separate consent regimes under Sabah Land Ordinance (Cap. 68) / Sarawak Land Code (Cap. 81); engage locally admitted lawyer.
 
 ### MM2H (Malaysia My Second Home) — relaunched June 2024
@@ -100,7 +100,7 @@ Foreigners can purchase residential property in their own name (freehold or leas
 
 ### Real Property Gains Tax (RPGT) — exit-side cost
 
-> Source: Real Property Gains Tax Act 1976, Schedule 5 (current rates), administered by LHDN — `https://www.hasil.gov.my/en/rpgt`
+> Source: Real Property Gains Tax Act 1976, Schedule 5 (current rates), administered by LHDN — `https://www.hasil.gov.my/en/ckht/`
 
 | Holding period | RPGT (foreigner / non-citizen non-PR) | RPGT (citizen / PR) | RPGT (Malaysian company) |
 |---|---|---|---|
@@ -311,7 +311,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 
 ### Long-term residential rental
 
-> Source: Income Tax Act 1967 §4(d) (rental income), administered by LHDN — `https://www.hasil.gov.my/en/individual/individual-life-cycle/income-declaration/tax-rate`
+> Source: Income Tax Act 1967 §4(d) (rental income), administered by LHDN — `https://www.hasil.gov.my/en/individu/kadar-cukai/`
 
 #### Tax treatment
 
@@ -382,7 +382,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 - **DE Rantau (Digital Nomad Pass)** — launched October 2022 by MDEC; for tech / digital professionals; 12-month renewable; min income USD 24,000/yr.
   - Source: `https://mdec.my/derantau/`
 - **MM2H pass holders**: NO automatic work rights; must apply separately for EP if working in Malaysia.
-- **Sarawak**: separate Sarawak Immigration regime — must obtain Sarawak-specific work pass (not federal EP) to work *in Sarawak* even if you hold federal EP for elsewhere. Source: Sarawak Immigration `https://immigration.sarawak.gov.my/`
+- **Sarawak**: separate Sarawak Immigration regime — must obtain Sarawak-specific work pass (not federal EP) to work *in Sarawak* even if you hold federal EP for elsewhere. Source: Sarawak Immigration `https://genesis.sarawak.gov.my/EXPRT/employment-pass`
 
 ### Salaried benchmarks (MYR/month, 2025 reference)
 
@@ -407,9 +407,9 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 | Source | URL | Gives |
 |---|---|---|
 | **MetMalaysia** | `https://www.met.gov.my/` | Weather warnings, monsoon, seismology |
-| **DID / InfoBanjir** | `https://infobanjir.water.gov.my/`, `https://publicinfobanjir.water.gov.my/` | Flood levels + national hazard maps |
+| **DID / InfoBanjir** | `https://publicinfobanjir.water.gov.my/`, `https://publicinfobanjir.water.gov.my/` | Flood levels + national hazard maps |
 | **NADMA** | `https://www.nadma.gov.my/` | Disaster declarations, evacuation |
-| **JMG (Geoscience)** | `https://geosains.jmg.gov.my/` | Landslide hazard, geological substrate |
+| **JMG (Geoscience)** | `https://www.jmg.gov.my/en` | Landslide hazard, geological substrate |
 | **DOE / APIMS** | `https://apims.doe.gov.my/` | Air quality (API real-time), water quality |
 | **MyGeoportal** | `https://www.mygeoportal.gov.my/` | National geospatial portal |
 
@@ -577,17 +577,17 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 | **Kastam** | SST on services, tourism tax | `https://mysst.customs.gov.my/` |
 | **JIM (Immigration)** | EP, MM2H, DE Rantau | `https://www.imi.gov.my/` |
 | **MOTAC** | MM2H program | `https://www.mm2h.gov.my/` |
-| **Sarawak Immigration / S-MM2H** | Sarawak work pass + S-MM2H | `https://immigration.sarawak.gov.my/` |
+| **Sarawak Immigration / S-MM2H** | Sarawak work pass + S-MM2H | `https://genesis.sarawak.gov.my/EXPRT/employment-pass` |
 | **Sabah Lands & Surveys** | Sabah transactions (Cap. 68) | `https://jtu.sabah.gov.my` |
 | **Sarawak Lands & Survey** | Sarawak transactions (Cap. 81) | `https://landsurvey.sarawak.gov.my/` |
 | **BNM** | FX, mortgage credit | `https://www.bnm.gov.my/` |
-| **EPU** | Commercial / industrial / equity | `https://www.epu.gov.my/` |
+| **EPU** | Commercial / industrial / equity | `https://ekonomi.gov.my/` |
 | **MIDA / IRDA** | Investment incentives, Iskandar | `https://www.mida.gov.my/`, `https://www.irda.com.my/` |
 | **NAPIC / JPPH** | Market data, valuation | `https://napic.jpph.gov.my/` |
 | **BOVAEP / Bar Council** | Agent + lawyer fee scales | `https://lppeh.gov.my/`, `https://www.malaysianbar.org.my/` |
 | **Local council** (DBKL/MBPP/MBPJ/MPSJ etc.) | Cukai Pintu, permits, zoning | per council |
 | **SPAN / IWK** | Water + sewerage | `https://www.span.gov.my/`, `https://www.iwk.com.my/` |
-| **DID InfoBanjir / NADMA** | Flood + disaster | `https://infobanjir.water.gov.my/`, `https://www.nadma.gov.my/` |
+| **DID InfoBanjir / NADMA** | Flood + disaster | `https://publicinfobanjir.water.gov.my/`, `https://www.nadma.gov.my/` |
 | **MetMalaysia / JMG / DOE** | Climate, geology, air quality | `https://www.met.gov.my/`, `https://www.jmg.gov.my/`, `https://apims.doe.gov.my/` |
 
 ## Quirks to know
@@ -609,7 +609,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 | Source | URL |
 |---|---|
 | JKPTG / JUPEM | `https://www.jkptg.gov.my/`, `https://www.jupem.gov.my/` |
-| e-Tanah (Selangor / FT-KL) | `https://etanah.selangor.gov.my/`, `https://etanah.kpkt.gov.my/` |
+| e-Tanah (Selangor / FT-KL) | `https://etanah.selangor.gov.my/`, `https://myland.gov.my/` |
 | KPKT | `https://www.kpkt.gov.my/` |
 | Laws of Malaysia online | `https://lom.agc.gov.my/` |
 | Sabah / Sarawak Lands | `https://jtu.sabah.gov.my`, `https://landsurvey.sarawak.gov.my/` |
@@ -619,13 +619,13 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 | DOSM | `https://www.dosm.gov.my/` |
 | NAPIC / JPPH | `https://napic.jpph.gov.my/`, `https://www.jpph.gov.my/` |
 | JIM / MM2H / S-MM2H / DE Rantau | `https://www.imi.gov.my/`, `https://www.mm2h.gov.my/`, `https://smm2h.sarawak.gov.my/`, `https://mdec.my/derantau/` |
-| Sarawak Immigration | `https://immigration.sarawak.gov.my/` |
-| MIDA / IRDA / EPU | `https://www.mida.gov.my/`, `https://www.irda.com.my/`, `https://www.epu.gov.my/` |
+| Sarawak Immigration | `https://genesis.sarawak.gov.my/EXPRT/employment-pass` |
+| MIDA / IRDA / EPU | `https://www.mida.gov.my/`, `https://www.irda.com.my/`, `https://ekonomi.gov.my/` |
 | BOVAEP / Bar Council | `https://lppeh.gov.my/`, `https://www.malaysianbar.org.my/` |
 | SPAN / IWK | `https://www.span.gov.my/`, `https://www.iwk.com.my/` |
 | Water (Air Selangor / PBA) | `https://www.airselangor.com/`, `https://pba.com.my/` |
-| DID InfoBanjir / NADMA | `https://infobanjir.water.gov.my/`, `https://www.nadma.gov.my/` |
-| MetMalaysia / JMG / DOE-APIMS / MyGeoportal | `https://www.met.gov.my/`, `https://geosains.jmg.gov.my/`, `https://apims.doe.gov.my/`, `https://www.mygeoportal.gov.my/` |
+| DID InfoBanjir / NADMA | `https://publicinfobanjir.water.gov.my/`, `https://www.nadma.gov.my/` |
+| MetMalaysia / JMG / DOE-APIMS / MyGeoportal | `https://www.met.gov.my/`, `https://www.jmg.gov.my/en`, `https://apims.doe.gov.my/`, `https://www.mygeoportal.gov.my/` |
 | JKR / LLM / PLUS / DBKL / MBPP | `https://www.jkr.gov.my/`, `https://www.llm.gov.my/`, `https://www.plus.com.my/`, `https://www.dbkl.gov.my/`, `https://www.mbpp.gov.my/` |
 | PropertyGuru / iProperty / EdgeProp / Brickz / Mudah | `https://www.propertyguru.com.my/`, `https://www.iproperty.com.my/`, `https://www.edgeprop.my/`, `https://www.brickz.my/transactions/`, `https://www.mudah.my/malaysia/properties-for-sale` |
 

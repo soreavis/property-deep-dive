@@ -7,7 +7,7 @@ ISO2: `sx`. Status: ✅ Populated (researched 2026-05-27). Constituent country w
 - **Status**: Autonomous constituent country within the Kingdom of the Netherlands (alongside Aruba, Curaçao, the NL). Own constitution (*Staatsregeling van Sint Maarten*, 2010), own Parliament (*Staten van Sint Maarten*, 15 seats), own Council of Ministers (*Ministerraad*), own judiciary (Common Court of Justice of Aruba, Curaçao, Sint Maarten and BES; final cassation to Hoge Raad NL).
 - **Surface**: ~**34 km²** (Dutch half of the 87 km² island; northern French half ~53 km²). World's smallest land mass shared between two sovereign jurisdictions.
 - **Capital**: Philipsburg (Great Bay; cruise + government centre).
-- **Population**: ~**44,000–45,000** documented residents (Department of Statistics STAT — `https://stat.sx/`); cross-border movement with FR Saint-Martin is unrestricted (no land border; *Treaty of Concordia* 1648).
+- **Population**: ~**44,000–45,000** documented residents (Department of Statistics STAT — `https://stats.sintmaartengov.org/`); cross-border movement with FR Saint-Martin is unrestricted (no land border; *Treaty of Concordia* 1648).
 - **Currency**: **Netherlands Antillean guilder (ANG / NAƒ)** — pegged to **USD at 1.79 ANG = 1 USD** since 1971; **USD is broadly accepted in parallel** for retail, rents, real-estate transactions. The Central Bank of Curaçao and Sint Maarten (CBCS — `https://www.centralbank.cw/`) issues the ANG. A long-pending replacement currency, the **Caribbean guilder (XCG)**, was launched in Curaçao + Sint Maarten on **31 March 2025** at the same 1.79 = 1 USD peg (CBCS announcement) — ANG ↔ XCG transition is the live FX reality in 2026.
 - **Languages**: **Dutch + English** are both official (English is the primary language of daily commerce, education, real-estate documents); **Papiamentu** has cultural standing but is the heritage language of Curaçao / Bonaire / Aruba rather than SX-native — Sint Maarten's de facto vernacular is **English-Creole + Dutch for government**. Notarial deeds (*notariële akte*) can be drafted in Dutch or English at the notary's discretion.
 - **Legal system**: **Civil law** (Dutch tradition); property law derived from Dutch Caribbean civil code; deed-based registration (*notariële akte van levering*) recorded at the Cadastre & Land Registry Foundation.
@@ -33,7 +33,7 @@ For active regulatory items see `shared/regulatory-watch.md`.
 ### Primary sources
 
 - **Cadastre and Land Registry Foundation (Kadaster Sint Maarten)**: `https://kadaster.sx/` — title-search service confirms registered transfer values per parcel. **No public price index** (no SX equivalent to Dutch CBS Huizenprijsindex or French Notaires-INSEE).
-- **Department of Statistics (STAT)**: `https://stat.sx/` — quarterly + annual *Statistical Yearbook*; covers macro indicators, not parcel-level RE prices.
+- **Department of Statistics (STAT)**: `https://stats.sintmaartengov.org/` — quarterly + annual *Statistical Yearbook*; covers macro indicators, not parcel-level RE prices.
 - **Central Bank of Curaçao and Sint Maarten (CBCS)**: `https://www.centralbank.cw/` — quarterly bulletins cover banking, mortgage stock, FX; no standalone HPI.
 - **Listing platforms** *(listing-side, ⚠️ seller-controlled)*: **Century 21 Sint Maarten** (`https://www.century21-stmaarten.com/` — largest local MLS-equivalent database, 25+ years), **Sotheby's International Realty** (`https://www.sothebysrealty.com/eng/sales/sxm` — luxury segment), **Keller Williams Sint Maarten** (`https://kwsintmaarten.com/`), **RealEstateSXM** (`https://realestatesxm.com/` — MLS-style aggregator), **Lion Crest Realty** (`https://sintmaartenproperties.com/`), **4U Real Estate**, **Coldwell Banker Island Properties** (cross-border listings into FR side).
 
@@ -193,7 +193,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 
 ### Salary benchmarks (2024–2026, est.)
 
-- **Median monthly net salary**: ~**US$1,200–US$1,800** (verify at `https://stat.sx/`) — materially below US / NL but with low-tax wedge for some brackets
+- **Median monthly net salary**: ~**US$1,200–US$1,800** (verify at `https://stats.sintmaartengov.org/`) — materially below US / NL but with low-tax wedge for some brackets
 - **Tourism / hospitality**: US$1,000–US$1,800 typical; tips uplift
 - **Banking / finance / professional**: US$2,500–US$5,500+
 - **Government / pubic-sector**: US$1,800–US$3,500 per tariff schedule
@@ -210,7 +210,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Office of Disaster Management (ODM)** | `https://www.sxmemergency.org/` | Hurricane preparedness, emergency response, NRRP coordination |
+| **Office of Disaster Management (ODM)** | `https://www.sintmaartengov.org/Ministries/Departments/Pages/Disaster-Management.aspx` | Hurricane preparedness, emergency response, NRRP coordination |
 | **National Recovery Program Bureau (NRPB)** | `https://nrpbsxm.org/` | Build Back Better implementation; sector recovery |
 | **Ministry of VROMI** | `https://www.sintmaartengov.org/` | Building permits, spatial planning, environmental zoning |
 | **CDEMA (regional)** | `https://www.cdema.org/` | Caribbean Disaster Emergency Management Agency — regional hurricane / tsunami / earthquake context |
@@ -219,7 +219,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 ### Specific risks
 
 - **Hurricane (PRIMARY HAZARD — defines the risk profile)**:
-  - **Hurricane Irma, 6 September 2017, Category 5** (sustained 295 km/h winds) — landfall on Saint-Martin / Sint Maarten; total damages + losses **US$2.73 bn ≈ 255% of GDP**; **~19,400 of ~40,000 documented homes damaged**; ~5,000 people displaced. *(World Bank NRRP, 2018 — `https://documents1.worldbank.org/curated/en/793011623753566547/pdf/`).*
+  - **Hurricane Irma, 6 September 2017, Category 5** (sustained 295 km/h winds) — landfall on Saint-Martin / Sint Maarten; total damages + losses **US$2.73 bn ≈ 255% of GDP**; **~19,400 of ~40,000 documented homes damaged**; ~5,000 people displaced. *(World Bank NRRP, 2018 — `https://documents1.worldbank.org/curated/en/793011623753566547/pdf/Sint-Maarten-National-Recovery-and-Resilience-Plan-A-Roadmap-to-Building-Back-Better.pdf`).*
   - **Hurricane season**: 1 June – 30 November; peak Aug–Oct.
   - **Post-Irma rebuild benchmark**: NRRP "Build Back Better" requires **hurricane-resistant standards** (impact-rated glazing, hurricane shutters / accordion-shutters / Bahama shutters, concrete-block or reinforced-concrete construction, reinforced roof-to-wall connections, underground utility ducting for new build). The **pre-Irma wood-frame + tin-roof stock** that did not survive 2017 is the single largest extant structural-risk concentration.
   - **Pre-Irma stock**: any pre-2017 wood-frame structure that survived Irma was either (a) sheltered by topography, (b) retrofitted post-Irma, or (c) likely still vulnerable — verify per parcel structural audit before purchase.
@@ -299,7 +299,7 @@ HIGH for headline hurricane reality (Irma 2017, NRRP-documented); MEDIUM for gra
 
 ### Primary source
 
-- **Sint Maarten Police Force (KPSM — Korps Politie Sint Maarten)**: `https://www.policesxm.sx/` — annual press releases + occasional statistical bulletins
+- **Sint Maarten Police Force (KPSM — Korps Politie Sint Maarten)**: `https://www.sintmaartengov.org/` — annual press releases + occasional statistical bulletins
 - **Caribbean Community Implementation Agency for Crime and Security (CARICOM IMPACS)**: regional aggregation
 - **US State Department travel advisories**: indirect benchmark (`https://travel.state.gov/`)
 
@@ -710,13 +710,13 @@ Government portal ........... https://www.sintmaartengov.org/
 Ministry of Finance ......... https://www.sintmaartengov.org/Ministries/Finance/
 Tax Administration page ..... https://www.sintmaartengov.org/Ministries/Departments/Pages/Tax-Administration.aspx
 First-Time Investor Permit .. https://www.sintmaartengov.org/services/pages/First-Time-Investor-Permit.aspx
-Department of Statistics .... https://stat.sx/
-Office of Disaster Mgmt ..... https://www.sxmemergency.org/
+Department of Statistics .... https://stats.sintmaartengov.org/
+Office of Disaster Mgmt ..... https://www.sintmaartengov.org/Ministries/Departments/Pages/Disaster-Management.aspx
 National Recovery Program ... https://nrpbsxm.org/
 Central Bank (CBCS) ......... https://www.centralbank.cw/
 NV GEBE (utility) ........... https://nvgebe.com/
 TelEm (telecom) ............. https://www.telem.sx/
-Sint Maarten Police (KPSM) .. https://www.policesxm.sx/
+Sint Maarten Police (KPSM) .. https://www.sintmaartengov.org/
 SMMC (hospital) ............. (verify via sintmaartengov.org)
 Princess Juliana Airport .... https://www.sxmairport.com/
 Common Court of Justice ..... https://www.caribbeancourtofjustice.org/ (regional)

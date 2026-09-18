@@ -19,9 +19,9 @@ ISO2: `in`. Status: ✅ Fully populated (researched 2026-05).
   - **Major state portals** (verify per parcel state):
     - Maharashtra: **MahaBhulekh** [`https://bhulekh.mahabhumi.gov.in/`](https://bhulekh.mahabhumi.gov.in/) + **e-Search 7/12** + **iSarita / Maharashtra Department of Registration & Stamps** [`https://igrmaharashtra.gov.in/`](https://igrmaharashtra.gov.in/)
     - Karnataka: **Bhoomi RTC** [`https://landrecords.karnataka.gov.in/`](https://landrecords.karnataka.gov.in/) + **Kaveri Online Services** [`https://kaveri.karnataka.gov.in/`](https://kaveri.karnataka.gov.in/)
-    - Tamil Nadu: **Patta Chitta** [`https://eservices.tn.gov.in/`](https://eservices.tn.gov.in/) + **TNREGINET** [`https://tnreginet.gov.in/`](https://tnreginet.gov.in/)
+    - Tamil Nadu: **Patta Chitta** [`https://eservices.tn.gov.in/`](https://eservices.tn.gov.in/) + **TNREGINET** [`https://tnreginet.gov.in/portal/`](https://tnreginet.gov.in/portal/)
     - Delhi: **DLRC / Delhi Online Registration Information System (DORIS)** [`https://doris.delhigovt.nic.in/`](https://doris.delhigovt.nic.in/)
-    - Telangana: **Dharani** [`https://dharani.telangana.gov.in/`](https://dharani.telangana.gov.in/) (controversial 2020 unification — multiple court challenges)
+    - Telangana: **Dharani** [`https://bhubharati.telangana.gov.in/`](https://bhubharati.telangana.gov.in/) (controversial 2020 unification — multiple court challenges)
     - Andhra Pradesh: **MeeBhoomi** [`https://meebhoomi.ap.gov.in/`](https://meebhoomi.ap.gov.in/)
     - Uttar Pradesh: **Bhulekh UP** [`https://upbhulekh.gov.in/`](https://upbhulekh.gov.in/) + **IGRSUP** [`https://igrsup.gov.in/`](https://igrsup.gov.in/)
     - Gujarat: **AnyROR** [`https://anyror.gujarat.gov.in/`](https://anyror.gujarat.gov.in/) + **Garvi** registration portal
@@ -544,9 +544,9 @@ Sources: PLFS (Periodic Labour Force Survey, MoSPI), Naukri JobSpeak Index, Glas
 
 - **Urban (Class-I cities)**: state Water Supply & Sewerage Boards or municipal corporations:
   - Mumbai: **BMC Water Department** (Tansa, Vihar, Tulsi reservoirs) — `https://portal.mcgm.gov.in/`
-  - Delhi: **Delhi Jal Board (DJB)** — `https://djb.delhi.gov.in/`
+  - Delhi: **Delhi Jal Board (DJB)** — `https://djb.gov.in/`
   - Bengaluru: **BWSSB** — `https://bwssb.karnataka.gov.in/`
-  - Chennai: **CMWSSB** — `https://chennaimetrowater.tn.gov.in/`
+  - Chennai: **CMWSSB** — `https://cmwssb.tn.gov.in/`
   - Hyderabad: **HMWSSB** — `https://hyderabadwater.gov.in/`
   - Kolkata: **KMC Water** + **PHED** for suburbs
   - Ahmedabad: **AMC Water** + **AUDA**
@@ -1394,14 +1394,14 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 | e-FRRO | [`https://indianfrro.gov.in/`](https://indianfrro.gov.in/) |
 | Indian Visa Online | [`https://indianvisaonline.gov.in/`](https://indianvisaonline.gov.in/) |
 | PMAY-Urban | [`https://pmaymis.gov.in/`](https://pmaymis.gov.in/) |
-| State RERA — Maharashtra | [`https://maharerait.mahaonline.gov.in/`](https://maharerait.mahaonline.gov.in/) |
+| State RERA — Maharashtra | [`https://maharera.maharashtra.gov.in/`](https://maharera.maharashtra.gov.in/) |
 | State RERA — Karnataka (KRERA) | [`https://rera.karnataka.gov.in/`](https://rera.karnataka.gov.in/) |
 | State RERA — Tamil Nadu (TN-RERA) | [`https://rera.tn.gov.in/`](https://rera.tn.gov.in/) |
 | State RERA — Delhi | [`https://rera.delhi.gov.in/`](https://rera.delhi.gov.in/) |
 | State Land Records — Maharashtra MahaBhulekh | [`https://bhulekh.mahabhumi.gov.in/`](https://bhulekh.mahabhumi.gov.in/) |
 | State Land Records — Karnataka Bhoomi | [`https://landrecords.karnataka.gov.in/`](https://landrecords.karnataka.gov.in/) |
 | State Land Records — TN Patta Chitta | [`https://eservices.tn.gov.in/`](https://eservices.tn.gov.in/) |
-| State Land Records — Telangana Dharani | [`https://dharani.telangana.gov.in/`](https://dharani.telangana.gov.in/) |
+| State Land Records — Telangana Dharani | [`https://bhubharati.telangana.gov.in/`](https://bhubharati.telangana.gov.in/) |
 | State Stamps & Registration — Maharashtra IGR | [`https://igrmaharashtra.gov.in/`](https://igrmaharashtra.gov.in/) |
 | State Stamps & Registration — Karnataka Kaveri | [`https://kaveri.karnataka.gov.in/`](https://kaveri.karnataka.gov.in/) |
 | Listing platforms | MagicBricks · 99acres · Housing.com · NoBroker · Square Yards |

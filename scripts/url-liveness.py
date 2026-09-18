@@ -49,6 +49,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "_url-liveness.json"
 URL_RE = re.compile(r"https?://[^\s<>\"`{}\)\]]+")
+URL_TAIL_RE = re.compile(r"[^\s<>\"`{}\)\]]*")
 EXCLUDE_FILES = {"test-fixtures.md"}
 EXCLUDE_DIRS = {"node_modules", "_local", ".git"}
 
@@ -197,7 +198,20 @@ def extract_urls() -> list[str]:
             end = m.end()
             if end < len(text) and text[end] in "<{":
                 continue  # template placeholder
-            url = m.group(0).rstrip(".,;:)")
+            url = m.group(0)
+            # URL_RE stops at ')', which truncates paths with balanced parentheses
+            # such as .../Capital%20Gain%20Tax%20(CGT).aspx — extend while a ')' closes an
+            # unmatched '(' inside the URL, then keep consuming ordinary URL characters.
+            while end < len(text) and text[end] == ")" and url.count("(") > url.count(")"):
+                url += ")"
+                end += 1
+                tail = URL_TAIL_RE.match(text, end)
+                if tail:
+                    url += tail.group(0)
+                    end = tail.end()
+            url = url.rstrip(".,;:")
+            while url.endswith(")") and url.count(")") > url.count("("):
+                url = url[:-1]
             seen.add(url)
     return sorted(seen)
 
