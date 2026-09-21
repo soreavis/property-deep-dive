@@ -93,6 +93,16 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - **27 of 28 deeper-page findings re-pointed (plus five citation fixes found inside false-positive rows) from bare domains, dead pages and JS shells to the deeper primary page that actually carries the figure.** Among them: AU student-funds to the in-force LIN 19/198 compilation, Greenland's Mineral Resources Act (the old URL soft-404s to the site root), Saint Lucia's IRD (site in maintenance mode), ZATCA's Zakat regulation (404), Oman's Personal Status Law (served an unrelated 2024 news item), and Panama's USGS query to the FDSN count endpoint a fetcher can actually read.
 - **52 of the 89 flagged claims were tooling false positives, not data drift** — 27 where the figure was on the page in a form the token scan cannot see, 25 where the URL was a bare-authority or "verify at" pointer that was never going to carry the number. Mechanisms: colon chapter numbers (`Chap. 70:07` vs `70.07`), ROC calendar years (民國113年 = 2024), myriad numerals (`5万` = 50,000), per-line rather than per-clause token-to-URL matching, and JS-shell hosts that serve no body text.
 
+- chore(source-audit): 89 flagged claims adjudicated; DE Gebäudemodernisierungsgesetz in force 29 Jul 2026 ([#403](https://github.com/soreavis/property-deep-dive/pull/403)) — by @soreavis
+
+- chore(liveness): 667-URL citation-repair wave — 377 re-points, 75 deprecations, geofenced hosts excluded, parenthesis-safe harvester ([#405](https://github.com/soreavis/property-deep-dive/pull/405)) — by @soreavis
+
+- chore(source-audit): #404 content-defect backlog — 235 verified corrections, 41 tracker entries, two refuter rounds ([#406](https://github.com/soreavis/property-deep-dive/pull/406)) — by @soreavis
+
+- fix(visa-programs): move the CN R Visa SAFEA correction into the config and re-render ([#407](https://github.com/soreavis/property-deep-dive/pull/407)) — by @soreavis
+
+- fix(source-audit): last AG Landfolio public-search residuals and MOMRAH→MOMAH in shared files ([#408](https://github.com/soreavis/property-deep-dive/pull/408)) — by @soreavis
+
 ## [2026.09.0] - 2026-09-17
 
 ### Fixed
