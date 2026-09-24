@@ -55,6 +55,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+## [2026.09.1] - 2026-09-24
+
 ### Fixed
 
 - **San Marino's EU Association Agreement was never "signed 2024".** The Council of the EU approved the text on 16 Jul 2026 and the signature ceremony is 19 Oct 2026 in Brussels (Govern d'Andorra AA portal). Four SM lines said otherwise; two AD lines still read "in negotiation". Both regulatory-watch entries now cover the 19 Oct alerts (#409).
