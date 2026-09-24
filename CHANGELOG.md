@@ -55,6 +55,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Added
+
+- **Greece: announced 15 % transfer tax for non-EU home buyers is now tracked (Tier 1, not legislated).** The government's 90th TIF measures page lists FMA 3 % → 15 % (15.45 % with the municipal contribution) on residential purchases by buyers outside the first-home-exemption list among new measures not yet legislated; the 1 Jul 2027 start and the natural-persons-only scope are news-tier. Watch notes added to the GR playbook, Golden Visa rows, `compare.md` and `notary-process.md`; the current 3.09 % is unchanged.
+
 ### Fixed
 
 - **November regwatch wave, run early: 131 of 133 due entries re-checked, plus the three October leftovers (GE-536, CO-497, ID-554).** 67 corrected, 13 narrowed or downgraded, 54 confirmed unchanged; GR-278 and IL-592 stay due (sources walled). Nine entries now revisit the day after a scheduled event (NFIP 11 Dec, KZ 23 Oct, RO 30 Sep VAT cut-off, Vienna Landtag vote) instead of on tier cadence. Siblings patched across 60 country playbooks, SKILL.md, 31 shared files and `config/_visa-programs.json` (re-rendered).
