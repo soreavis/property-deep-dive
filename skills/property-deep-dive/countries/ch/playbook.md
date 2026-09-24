@@ -25,7 +25,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04; Tier-A quarterly re
 - **Fahrländer Partner**: `https://www.fpre.ch/`
 - **Newhome.ch**, **RealAdvisor**
 - **BFS (Bundesamt für Statistik)** Wohnkostenindex + Immobilienpreisindex: `https://www.bfs.admin.ch/`
-- **SNB (Swiss National Bank)** financial stability reports + quarterly monetary-policy assessments (policy rate 0% since Jun 2025, held 18 Jun 2026): `https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618` (2026-07-03 verified)
+- **SNB (Swiss National Bank)** financial stability reports + quarterly monetary-policy assessments (policy rate 0% since Jun 2025, held 18 Jun 2026 and 24 Sep 2026): `https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924` (2026-09-24 verified)
 - **Cantonal Grundbuchämter** for actual sale-price extracts (paid)
 
 ### Listing/agency networks
@@ -400,7 +400,7 @@ ISO2: `ch`. Status: ✅ Fully populated (researched 2026-04; Tier-A quarterly re
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-08-05 (Lex Koller BewG consultation re-verified — closed 15 Jul 2026, submissions published 27 Jul, not enacted; balance of 2026-07-03 Tier-A refresh unchanged).
+**Last verified**: 2026-08-05 (Lex Koller BewG consultation re-verified — closed 15 Jul 2026, submissions published 27 Jul, not enacted; balance of 2026-07-03 Tier-A refresh unchanged). SNB 24 Sep 2026 policy-rate hold re-verified 2026-09-24 in the October regwatch wave.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (post-2025 Eigenmietwert vote definitive; SLF + Naturgefahren well-maintained). MEDIUM for short-let regulation (Lex Koller stable but cantonal patente updates ongoing); HIGH for the 2029 Eigenmietwert implementation roadmap (fixed 1 Apr 2026).
 

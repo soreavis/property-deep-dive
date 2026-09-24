@@ -5,7 +5,7 @@ ISO2: `eg`. Status: PARTIALLY RESTRICTED for foreign buyers + currency-volatile 
 ## Country profile
 
 - **Population**: ~110 million (2024 CAPMAS estimate, source `https://www.capmas.gov.eg/`); largest Arab-world country by population, 95%+ concentrated along Nile Valley + Delta + coastal strips
-- **Currency**: EGP (Egyptian Pound) — **managed float** since 6 March 2024 (IMF EFF approval USD 8 bn). Trajectory: EGP ~15.7/USD (2021) → EGP ~30/USD (early Mar 2024) → EGP ~50/USD (post-float Mar 2024) → EGP ~50–51/USD (2026-05-01) → all-time low ~54.9/USD (Mar 2026, Trading Economics intraday) → EGP ~49/USD (2026-07-02, CBE official 49.08 buy / 49.18 sell) (CBE rates, source `https://www.cbe.org.eg/en/economic-research/statistics/exchange-rates`)
+- **Currency**: EGP (Egyptian Pound) — **managed float** since 6 March 2024 (IMF EFF approval USD 8 bn). Trajectory: EGP ~15.7/USD (2021) → EGP ~30/USD (early Mar 2024) → EGP ~50/USD (post-float Mar 2024) → EGP ~50–51/USD (2026-05-01) → all-time low ~54.9/USD (Mar 2026, Trading Economics intraday) → EGP ~49/USD (2026-07-02, CBE official 49.08 buy / 49.18 sell) → EGP ~51.4/USD (2026-09-23, CBE average market rate 51.3749 buy / 51.4749 sell) (CBE rates, source `https://www.cbe.org.eg/en/economic-research/statistics/exchange-rates`)
 - **Languages**: Arabic (official, MSA + Egyptian colloquial); English widely used in business, tourism, and gated-community sales offices; French in older elite circles
 - **Legal system**: Hybrid — civil law (Napoleonic-influenced via 1949 Civil Code) + Sharia for personal status (family, inheritance). Property/contract law is civil-code; **inheritance for Muslims is mandatory Sharia shares** (foreigners may opt for home-country law via prior declaration but Sharia applies by default to any Egyptian-titled real estate of a Muslim decedent)
 - **Cadastre / registry**: **Real Estate Publicity Authority (REPA — مصلحة الشهر العقاري والتوثيق)** under Ministry of Justice — `https://sherpa.gov.eg/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with moj.gov.eg (REPA under the Ministry of Justice — co-cited) and `https://moj.gov.eg/`. Two parallel registration systems still in transition:
@@ -604,7 +604,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 
 **Confidence**: HIGH on the legal + foreign-buyer regime (Law 230/1996, Law 196/2008, Law 175/2023, Investment Law 160/2023, Form 4 rules — all primary government sources cross-verified). MEDIUM on price benchmarks (asking-side listing data only; no public transaction-price DB). MEDIUM on traffic (no published per-segment AADT). MEDIUM on STR + rental tax (regime is ambiguous, HOA-controlled, evolving). LOW on per-parcel risk verification (NARSS hazard layers not publicly granular; site visit + local expert mandatory).
 
-**Last verified**: 2026-05-27 (validation sweep — CBI USD 500k threshold restored (Sept 2023); Law 190/2019 foundational + Law 30/2023 RETT; bank deposit USD 500k refundable 3-yr lock; RET primary-residence EGP 100k/yr exemption raise)
+**Last verified**: 2026-05-27 (validation sweep — CBI USD 500k threshold restored (Sept 2023); Law 190/2019 foundational + Law 30/2023 RETT; bank deposit USD 500k refundable 3-yr lock; RET primary-residence EGP 100k/yr exemption raise). Currency tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 
 ### Extension TODOs (deepen on first real run)
 

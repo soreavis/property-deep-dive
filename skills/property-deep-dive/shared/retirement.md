@@ -39,7 +39,7 @@ For the property's country, return:
 
 | Country | Regime | Threshold / conditions |
 |---|---|---|
-| **PT** | **IFICI / NHR 2.0** (replaced classic NHR Mar 2024) — research/innovation only; **pensions NO LONGER exempt under IFICI** (must pay PT progressive PIT) | EQF L6+ degree, scientific research / certified tech startup / export co only |
+| **PT** | **IFICI / NHR 2.0** (replaced classic NHR, closed to new entrants 1 Jan 2024 by Lei 82/2023) — research/innovation only; **pensions NO LONGER exempt under IFICI** (must pay PT progressive PIT) | EQF L6+ degree, scientific research / certified tech startup / export co only |
 | **GR** | **Foreign Pensioner Tax Regime** — 7% flat on foreign-source income for 15 years for new tax residents who haven't been GR tax resident in 5 of last 6 years | Application via AADE; 7% covers worldwide income |
 | **IT** | **Southern Italy 7% regime** — flat 7% for 9 years on foreign-source income for retirees moving to municipalities <20,000 pop in S Italy | First-time tax residency in IT in last 5 years |
 | **CY** | **17-year non-dom regime** — exempt SDC; foreign pension may be taxed at 5% flat (over €3,420 pa) OR Cyprus marginal rate | Choose annually |
@@ -50,7 +50,7 @@ For the property's country, return:
 | **AE** | **Retirement Visa (5-yr renewable)** — NO income/pension tax; territorial system; Federal Decree-Law 47/2022 introduced 9% corporate tax but personal income (incl. foreign pensions) remains untaxed | Age 55+; AED 1M property OR AED 1M savings OR AED 20k/mo income (verify 2026 thresholds at GDRFA) |
 | **TH** | **LTR Wealthy Pensioner** — flat 17% on assessable income (most categories); foreign-source income remitted to TH may be taxable post-2024 reform — verify with Revenue Dept | Age 50+; USD 80k/yr passive income OR USD 40-80k + USD 250k investment |
 | **PH** | **SRRV (Special Resident Retiree's Visa)** — foreign pension NOT taxed by PH; territorial-style for non-resident-source income | Age 35+ (some classes); USD 10k–50k deposit depending on age/pension status |
-| **MY** | **MM2H (Malaysia My Second Home)** — foreign-source income exempt under territorial principle (post-2022 amendments narrowed for residents — verify) | 3-tier (Silver/Gold/Platinum) post-2024; thresholds RM 500k–RM 5M deposit |
+| **MY** | **MM2H (Malaysia My Second Home)** — foreign-source income exempt under territorial principle (post-2022 amendments narrowed for residents — verify) | Silver/Gold/Platinum + SEZ/SFZ; FD USD 150k–1M (SEZ/SFZ USD 32k–65k) + compulsory residence purchase (2026 data, source MOTAC) |
 | **DO** | **Investor/Pensionado visa** — foreign pension exempt from DO tax; territorial system; 50% discount on transfer tax + property tax under retirement law | USD 1.5k/mo pension OR USD 200k investment route |
 | **UY** | **Tax residency** — 11-yr exemption on foreign-source interest+dividends (Ley 19.937); pension itself not exempt but progressive PIT modest; territorial-leaning | Investment OR 60-day physical presence routes |
 | **GE** | **Visa-free 1-year** for ~95 nationalities; territorial tax — foreign-source income not taxed | No formal retirement visa needed for most |
@@ -353,7 +353,7 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 | PA | Pensionado | $1,000/mo pension; massive discounts on services |
 | CR | Pensionado | $1,000/mo (lifetime pension); Rentista $2,500/mo |
 | MX | Temp/Permanent residency | Income/savings thresholds (UMA-based) |
-| MY | **MM2H (3-tier post-2024 reform)** | Silver/Gold/Platinum tiers — RM 500k–RM 5M deposit + monthly income proof; verify with MoTAC |
+| MY | **MM2H (Silver/Gold/Platinum + SEZ/SFZ, post-2024 reform)** | Silver/Gold/Platinum — USD 150k / 500k / 1M fixed deposit + compulsory residence ≥ RM 600k / 1M / 2M; no income requirement on MOTAC category pages (2026 data, source MOTAC) |
 | TH | **LTR Wealthy Pensioner** + Retirement (Non-O) | LTR: USD 80k/yr OR USD 40-80k + USD 250k investment; Non-O: age 50+, THB 800k bank or THB 65k/mo |
 | PH | **SRRV (Special Resident Retiree's Visa)** | USD 10k–50k deposit (most generous SE-Asia); 4 sub-classes |
 | ID | **Retirement KITAP** | Age 55+, USD 1.5k/mo pension proof, health insurance, hire local staff |
@@ -525,7 +525,7 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 - **Healthcare**: Strong universal public + private (Sunway, Pantai, Gleneagles); Penang/KL hospitals JCI-accredited; **medical-tourism destination**
 - **Climate**: Tropical 25-32°C year-round; humid; minimal seasonal variation
 - **Expat density**: UK/AU/SG/JP retirees via MM2H legacy + new tiers; Penang, KL, Johor Bahru
-- **Visa**: **MM2H 3-tier (Silver/Gold/Platinum, post-2024 reform)** — RM 500k–RM 5M deposit; verify with MoTAC — see `visa-programs.md`
+- **Visa**: **MM2H (Silver/Gold/Platinum + SEZ/SFZ, post-2024 reform)** — USD 150k–1M fixed deposit + compulsory residence ≥ RM 600k–2M (2026 data, source MOTAC) — see `visa-programs.md`
 
 ### 🇻🇳 VN
 - **Pension tax**: Worldwide for residents (>183 days); foreign pension at progressive PIT (2026: up to 35%)

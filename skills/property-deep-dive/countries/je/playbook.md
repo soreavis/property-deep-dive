@@ -45,7 +45,7 @@ Source: [gov.je — Residential and employment statuses](https://www.gov.je/Work
 
 The fast track for wealthy foreign buyers. Granted by the Chief Minister on Locate Jersey recommendation; numerically restricted (~20 approvals/yr, per Locate Jersey statements — **not currently statutorily capped**; cap proposal P.19/2026 rejected 26 Feb 2026 — administrative cap only). Source: [gov.je — High Value Residency](https://www.gov.je/Home/RentingBuying/HousingLaws/pages/highvalueresidency.aspx) (verified 2026-05-27).
 
-> **P.19/2026 — REJECTED (26 Feb 2026).** Deputy Renouf's proposition to **statutorily cap HVR approvals at 15/year (75 over any rolling 5-yr period)** was debated and **rejected by the States Assembly on 26 Feb 2026** — no cap enacted; the regime remains administratively-capped only (~20/yr). Sources: States Assembly voting record ([statesassembly.je P.19/2026](https://statesassembly.je/)) + [digitalStates debate registry](https://digitalstates.je/debates) (2026-02-26). Topic may revive — the proposer became Infrastructure Minister after the 7 Jun 2026 election and his manifesto still backs a ~15/yr cap.
+> **P.19/2026 — REJECTED (26 Feb 2026).** Deputy Renouf's proposition to **statutorily cap HVR approvals at 15/year (75 over any rolling 5-yr period)** was debated and **rejected by the States Assembly on 26 Feb 2026** — no cap enacted; the regime remains administratively-capped only (~20/yr). Sources: States Assembly voting record ([statesassembly.je P.19/2026](https://statesassembly.je/)) + [digitalStates debate registry](https://digitalstates.je/debates) (2026-02-26). Topic may revive — the proposer was elected unopposed as Minister for Infrastructure on 29 Jun 2026 (States Official Report); his current position on a cap — data not publicly available — verify at statesassembly.je.
 
 **Property thresholds (post-14 Jul 2023 regime):**
 
@@ -544,7 +544,7 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 
 **Confidence**: MEDIUM-HIGH — tax / LTT / HVR / residential-status data sourced to gov.je primary pages and verified 2026-05-27. LTT 700k–1m band corrected (3 % standard, not 3.5 % — gov.je primary). 2026 Budget P.93/2025 (+3pp → +2pp higher-rate surcharge), HVR statutory-cap proposal P.19/2026 (rejected 26 Feb 2026), and 2026 mandatory independent taxation now integrated. Property-type and Royal-Court process verified against multiple secondary (Mourant, Viberts, Voisin) cross-referenced to jerseylaw.je primaries. **Parish rates**, **rented-dwellings licence fee**, **EPTT current band figures**, **HVR £3.5m/£1.75m thresholds (gov.je page does not expose figures — needs direct Locate Jersey lookup)**, **Voisin 2018 PDF staleness**, and **2026-specific allowance refresh** marked as `verify` placeholders — primary URL given.
 
-**Last verified**: 2026-07-02 (Public Registry fee schedule and drainage department corrected 2026-09-18 per courts.je + gov.je).
+**Last verified**: 2026-07-02 (Public Registry fee schedule and drainage department corrected 2026-09-18 per courts.je + gov.je). Visa tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 
 **Open follow-ups** (for next refresh cycle):
 

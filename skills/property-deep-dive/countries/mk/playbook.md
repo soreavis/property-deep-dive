@@ -100,9 +100,9 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Capital gains
 
-- **10 % PIT** (NOT 15 % — common confusion); MK PIT is 10 % flat. **Tax base = 90 % of the realised gain** (Zakon za danokot na licen dohod / PIT Law), so **effective rate is 9 % of the actual gain** *(2026-05-27 verified, source PwC Tax Summaries — income determination)*
+- **10 % PIT** (NOT 15 % — common confusion); MK PIT is 10 % flat. **Tax base = sale price − purchase price** (PIT Law Art. 60(1)); **10 % normed costs** are recognised only for property the seller lived in ≥1 year before the sale (Art. 60(2)), which gives est. **9 % of the gain** (10 % × 90 %). Otherwise the rate is 10 % of the gain, less documented actual investment costs if the seller claims them (Art. 60(3)) *(2023 data, source UJP — Zakon za danokot na licen dohod, consolidated to Sl. vesnik 274/2022)*
 - 15 % rate applies only to gambling winnings, not real-estate gains
-- **Exempt if ≥5 years ownership** OR **≥3 years ownership + ≥1 year lived-in residence**
+- **Exempt if ≥5 years ownership** OR **≥3 years ownership + ≥1 year lived-in residence** OR **acquired by first-order inheritance** (PIT Law Art. 63)
 
 ### Total transaction cost (buyer side)
 
@@ -309,7 +309,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27.
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27. CGT rate / base / exemptions re-verified 2026-09-24 against the UJP consolidated PIT Law in the October regwatch wave.
 **Coverage check**: pricing (MAKSTAT + NBRSM Q4 2025 + FRED), traffic (JP roads PGDS), tax (Danok na imot 0.10-0.20% + 2-4% transfer + 18% VAT (5% first-sale residential) + 10% CGT 5-yr OR 3yr+1yr-resident exemption), rental (license + 10% PIT), work (AVRSM + 10% flat PIT), risks (1963 Skopje M6.1 catastrophic + 2016 floods + winter air quality), mains (Skopje vodovod + per-municipality).
 **Confidence**: HIGH for 1963 Skopje earthquake reference (1,070+ deaths, 80% destruction, Tange masterplan, 14k prefabs); HIGH for MKD-EUR peg 61.5; HIGH for CGT 10% (NOT 15%) with proper exemption rules; HIGH for AKN centralized cadastre; MEDIUM for IMF property tax recommendations (Feb 2025 Article IV); MEDIUM for "Skopje 2014" reconstruction controversy framing.
 

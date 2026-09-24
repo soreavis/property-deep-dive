@@ -227,7 +227,7 @@
       "id": "pt-nhr",
       "country": "pt",
       "programme": "~~NHR~~",
-      "status": "**ENDED Mar 2024**",
+      "status": "**ENDED 1 Jan 2024**",
       "min_threshold": "n/a",
       "property_linked": "n/a",
       "pr_citizenship": "n/a",
@@ -1174,7 +1174,7 @@
       "country": "ae",
       "programme": "Golden Visa (Real-Estate route, Cabinet Decision 65/2022 expanded)",
       "status": "OPEN",
-      "min_threshold": "**AED 2,000,000** RE (single or aggregate); off-plan eligible if developer registered + escrow",
+      "min_threshold": "**AED 2,000,000** RE (single or aggregate); off-plan eligibility not stated on the GDRFA golden-residence page (route includes all types of properties) — verify with DLD",
       "property_linked": "YES",
       "pr_citizenship": "10-yr renewable; family included; outside-residency allowed",
       "caveats": "NO citizenship path; 2-yr investor visa: AED 750k floor ABOLISHED 29 Apr 2026 (DLD) — no minimum for sole owners with title deed, AED 400k each for joint owners · ⚠️ 10-yr Golden needs AED 2M property (~AED 2.09M all-in); 'any property' = the 2-yr visa; see § Reality-check",
@@ -1328,7 +1328,7 @@
       "country": "id",
       "programme": "Second Home Visa (Permenkumham 22/2023)",
       "status": "OPEN",
-      "min_threshold": "**IDR 2,000,000,000** asset (~USD 130k) — qualifying asset CAN BE the property itself (Hak Pakai/SHMRS)",
+      "min_threshold": "**IDR 2,000,000,000** deposit in a state bank (~USD 130k); property route value contested in secondary sources (IDR 2B-equivalent vs IDR 5B vs ~USD 1M) — verify at Imigrasi",
       "property_linked": "YES",
       "pr_citizenship": "5–10-yr renewable",
       "caveats": "Uniquely combines visa + property pathway (LTR Wealthy Pensioner doesn't directly mirror this)",
@@ -1361,8 +1361,8 @@
       "country": "my",
       "programme": "MM2H — Silver Tier (post-Jun 2024 framework)",
       "status": "OPEN",
-      "min_threshold": "**MYR 1,000,000** fixed deposit + MYR 40,000/mo income proof",
-      "property_linked": "No (MM2H allows property purchase)",
+      "min_threshold": "**USD 150,000** fixed deposit + compulsory residence purchase ≥ RM 600,000 (no income requirement on MOTAC page; 2026 data, source MOTAC)",
+      "property_linked": "Yes — compulsory residence purchase ≥ RM 600,000, 10-yr resale ban",
       "pr_citizenship": "5-yr renewable",
       "caveats": "Cheapest tier; replaced 2021 framework · ⚠️ not 'cheap': USD 150k FD + compulsory MYR 600k property (10-yr resale lock) + 8% foreigner stamp duty ≈ USD 310k deployed; see § Reality-check",
       "region": "Asia-Pacific"
@@ -1372,8 +1372,8 @@
       "country": "my",
       "programme": "MM2H — Gold Tier",
       "status": "OPEN",
-      "min_threshold": "**MYR 2,000,000** fixed deposit + MYR 50,000/mo income proof",
-      "property_linked": "No",
+      "min_threshold": "**USD 500,000** fixed deposit + compulsory residence purchase ≥ RM 1,000,000 (2026 data, source MOTAC)",
+      "property_linked": "Yes — compulsory residence purchase ≥ RM 1,000,000, 10-yr resale ban",
       "pr_citizenship": "15-yr renewable",
       "caveats": "",
       "region": "Asia-Pacific"
@@ -1383,10 +1383,10 @@
       "country": "my",
       "programme": "MM2H — Platinum Tier",
       "status": "OPEN",
-      "min_threshold": "**MYR 5,000,000** fixed deposit + MYR 50,000/mo income proof",
-      "property_linked": "No",
+      "min_threshold": "**USD 1,000,000** fixed deposit + compulsory residence purchase ≥ RM 2,000,000 + RM 200,000 participating fee (2026 data, source MOTAC)",
+      "property_linked": "Yes — compulsory residence purchase ≥ RM 2,000,000, 10-yr resale ban",
       "pr_citizenship": "20-yr renewable",
-      "caveats": "Citizenship NOT included; permanent visa only",
+      "caveats": "Citizenship NOT included; 20-yr pass renewable every 5 yrs thereafter (not a permanent visa); work + business permitted in this tier only",
       "region": "Asia-Pacific"
     },
     {
@@ -1826,7 +1826,7 @@
       "min_threshold": "RP entitlement at **USD 375,000** scheme-property purchase (price-floor varies: IRS USD 500k unit floor; PDS no statutory floor; G+2 ≥ MUR 6M)",
       "property_linked": "YES",
       "pr_citizenship": "RP for buyer + spouse + dependents while ownership ≥ USD 375,000",
-      "caveats": "**Finance Act 2025: registration duty + LTT for non-citizens 5%→10%** (effective date contested)",
+      "caveats": "**Finance Act 2025 5%→10% non-citizen registration duty + LTT REPEALED by Finance Act 2026** (Act 14/2026, gazetted 13 Aug 2026) — 5% applies; new 10% transferor-paid duty on State-land / Pas Géométriques residential transfers to non-citizens",
       "region": "Africa"
     },
     {
@@ -2065,10 +2065,10 @@
       "country": "uz",
       "programme": "5-year Investor Residence Permit (\"Golden Visa\") — eff. 1 June 2025",
       "status": "OPEN — NEW",
-      "min_threshold": "**US$300,000** Tashkent city / **US$200,000** Samarkand+Bukhara+Namangan+Andijan+Fergana+Khorezm regions / **US$100,000** other regions — RE qualifying; **OR** US$250,000 equity investment + US$150,000 per accompanying family member",
-      "property_linked": "YES (RE qualifying — **INCLUDES real estate**, contrast with KZ which EXCLUDES RE)",
-      "pr_citizenship": "5-yr renewable",
-      "caveats": "Per Presidential Decree UP-89 of April 2025 entered into force 1 June 2025; verify at evisa.gov.uz / mfa.uz",
+      "min_threshold": "**US$250,000** payment (main applicant) + **US$150,000** per family member (spouse/children/parents) — no real-estate condition (lex.uz УП-67 passport); secondary sources describe it as a non-refundable donation. The US$300k Tashkent / US$200k six regions / US$100k other-regions property thresholds belong to the SEPARATE pre-existing UP-5611 real-estate-for-residence route",
+      "property_linked": "NO — payment route with no property condition; real-estate residence is the separate UP-5611 route",
+      "pr_citizenship": "5-yr (renewal rules pending an implementing Cabinet/MIA resolution per Savory & Partners, secondary; not found in sources read — verify at MIA)",
+      "caveats": "Per Presidential Decree УП-67 (PF-67) of 18 Apr 2025, in force 1 June 2025 (lex.uz doc 7485034); 'UP-89' was a wrong number. Implementing Cabinet/MIA resolution reported not adopted as of Oct 2025 — verify operational status at lex.uz / MIA before relying",
       "region": "Central Asia"
     },
     {
@@ -2112,7 +2112,7 @@
       "min_threshold": "Sponsored employment / company vehicle",
       "property_linked": "No",
       "pr_citizenship": "1-yr renewable",
-      "caveats": "Standard route; passive RE alone NOT a residence pathway pre-Golden-Visa",
+      "caveats": "Standard route; property purchase yields residence only via the separate pre-existing UP-5611 real-estate-for-residence route (the 5-yr Golden Visa has no RE condition)",
       "region": "Central Asia"
     },
     {
@@ -2123,7 +2123,7 @@
       "min_threshold": "£250k/yr minimum tax (post-14 Jul 2023); property £3.5m houses / £1.75m apartments (verify with Locate Jersey)",
       "property_linked": "Yes — must purchase qualifying Jersey property",
       "pr_citizenship": "Entitled status (2(1)(e)) granted on consent; no automatic citizenship route",
-      "caveats": "Pre-2018 consents grandfathered at £170k from 2023 (was £145k). PENDING P.19/2026 statutory cap proposes 15/yr / 75 per 5-yr period. Tax: 20% on first £1.25m non-Jersey income, then 1%. Mandatory independent taxation from 2026 (married couples incl. HVRs).",
+      "caveats": "Pre-2018 consents grandfathered at £170k from 2023 (was £145k). P.19/2026 statutory cap (15/yr / 75 per 5-yr period) REJECTED by the States Assembly 26 Feb 2026 — no cap enacted. Tax: 20% on first £1.25m non-Jersey income, then 1%. Mandatory independent taxation from 2026 (married couples incl. HVRs).",
       "region": "Crown Dependencies & Autonomous Territories"
     },
     {
@@ -2142,10 +2142,10 @@
       "country": "gi",
       "programme": "Cat-2 (Qualifying Category 2 Individuals)",
       "status": "OPEN",
-      "min_threshold": "£2M net worth (Hassans verbatim); £118k income cap; £37k minimum annual tax / £42,380 maximum",
+      "min_threshold": "£5M net worth for new applicants (HMGoG PR 469/2026, 18 Jun 2026; existing holders grandfathered at £2M); £118k income cap; £37k minimum annual tax / £42,380 maximum",
       "property_linked": "Yes — approved Gibraltar residence required (Open Market only; Cat-2 applicants pre-arrival are categorically Open Market)",
       "pr_citizenship": "Renewable; NO direct PR/citizenship route from Cat-2 alone",
-      "caveats": "Qualifying (Category 2) Individuals Rules 2004 statutory basis. £1,168 application fee + £42,380 refundable deposit. 5-yr non-residency window required pre-application. Frontier Treaty (provisionally applied since 15 Jul 2026) does NOT override Cat-2 physical-presence test. Residence Criteria framework announced 17 Jun 2026 (HMGoG PR 466/2026 — regulations pending; Cat-2-specific changes unconfirmed at primary level).",
+      "caveats": "Qualifying (Category 2) Individuals Rules 2004 statutory basis. £5,000 application fee (HMGoG PR 469/2026; previously £1,233) + £42,380 refundable deposit. 5-yr non-residency window required pre-application. Frontier Treaty (provisionally applied since 15 Jul 2026) does NOT override Cat-2 physical-presence test. Residence Criteria framework (HMGoG PR 466/2026) in operation as the Residency Regulations 2026 (LN 166/2026) since 14 Jul 2026.",
       "region": "Crown Dependencies & Autonomous Territories"
     },
     {

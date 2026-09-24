@@ -17,8 +17,8 @@ ISO2: `cl`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
 - **Identifier**: **Rol SII** (comuna code + rol + subrol) for tax; **Foja/N°/Año CBR** for title.
 - **Recent reforms**:
   - **Ley 21.210 (2020)** — introduced **sobretasa** on aggregate residential property > 670 UTA (originally 0.075–0.275 %; raised to **0.275–0.425 %** post-ajustes).
-  - **Ley 21.442 (2023)** — new Copropiedad Inmobiliaria, replaced Ley 19.537.
-  - **Ley 21.435 (2022)** + **Ley 21.604 (2023)** — Reforma del Código de Aguas; uso prioritario consumo humano; nuevos DAA con plazo.
+  - **Ley 21.442 (D.O. 13-Abr-2022; Reglamento DS N°7 MINVU D.O. 9-Ene-2025)** — new Copropiedad Inmobiliaria, replaced Ley 19.537.
+  - **Ley 21.435 (2022)** + **Ley 21.727 (D.O. 18-Feb-2025, plazos DAA → 6-Abr-2027)** (Ley 21.604 (2023) no re-verificada — verify at bcn.cl) — Reforma del Código de Aguas; uso prioritario consumo humano; nuevos DAA con plazo.
   - **NCh 433 Of.96 mod. 2009 + DS 61/2011** — post-2010 Maule revision; reforzó estándar diseño sísmico.
 
 ---
@@ -339,9 +339,9 @@ Norma sísmica chilena: **NCh 433 Of.96 mod. 2009** + **DS 61/2011 MINVU** (post
 
 ### Sequía + Código de Aguas
 
-- **Mega-sequía central-norte 2010-presente**: 14+ años déficit hídrico récord en Chile central, cuencas Maipo, Aconcagua, Limarí.
-- **Reforma Código de Aguas** Ley 21.435 (2022) + Ley 21.604 (2023): **uso prioritario consumo humano**; **derechos de aprovechamiento** ahora tienen plazo (no perpetuos para nuevos), caducidad por no uso, reasignación posible.
-- **Para propiedades rurales / agrícolas**: verificar **derechos de aprovechamiento de aguas (DAA)** inscritos en CBR (separados del dominio del suelo) y vigentes en DGA `https://dga.mop.gob.cl/CPADGA/Paginas/CPA.aspx`.
+- **Mega-sequía central-norte (desde 2010)**: déficit hídrico prolongado en Chile central (cuencas Maipo, Aconcagua, Limarí) — severidad actual no re-verificada 2026-09; verify decretos de escasez hídrica vigentes at DGA `https://dga.mop.gob.cl/`.
+- **Reforma Código de Aguas** Ley 21.435 (publicada abr-2022 per DGA; Ley 21.604 (2023) no re-verificada 2026-09 — verify at bcn.cl/leychile): **uso prioritario consumo humano**; **derechos de aprovechamiento** ahora tienen plazo (no perpetuos para nuevos), caducidad por no uso, reasignación posible.
+- **Para propiedades rurales / agrícolas**: verificar **derechos de aprovechamiento de aguas (DAA)** inscritos en CBR (separados del dominio del suelo) y registrados en el Catastro Público de Aguas DGA — plazo de inscripción/registro y de regularización hasta **6-Abr-2027** por **Ley 21.727 (D.O. 18-Feb-2025)** (2025 data, source DGA); DAA sin inscribir al vencimiento = riesgo de caducidad — `https://dga.mop.gob.cl/CPADGA/Paginas/CPA.aspx`.
 
 ### Mandatory diagnostics — documentos a exigir antes de oferta
 
@@ -456,10 +456,10 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 - **Avalúo fiscal típicamente 30-60 % bajo comercial** — no usar avalúo como proxy de mercado.
 - **NCh 433 watershed**: pre-1985 mucho más débil; post-2010 sustancialmente reforzado — exigir año Recepción Final.
 - **Tsunami CITSU costa Pacífico** — verificar cota inundación SHOA en cualquier propiedad costera.
-- **Mega-sequía + Reforma Código Aguas 2022/2024** — DAA ahora con plazo, caducidad por no uso; rural sin DAA = limitación severa de uso.
+- **Mega-sequía + Reforma Código Aguas 2022 (Ley 21.435; plazos DAA hasta 6-Abr-2027 per Ley 21.727)** — DAA ahora con plazo, caducidad por no uso; rural sin DAA = limitación severa de uso.
 - **Border-zone DL 1939/1977**: extranjeros nacionales de países limítrofes (PE, BO, AR) **no pueden adquirir** dominio en franja fronteriza (10 km de la línea) y zonas costeras según decretos por excepción presidencial. Verificar si el predio cae en franja vía DOM + Ministerio Defensa. Texto: `https://www.bcn.cl/leychile/navegar?idNorma=6778`.
 - **Sobretasa conjunto > 670 UTA** — afecta a multipropietarios (residencial conjunto fiscal); actualizar tabla anual.
-- **Ley 21.442 Copropiedad (2023)** — nuevas reglas administración condominios; revisar reglamento copropiedad + acta asambleas + fondo reserva en compras de depto.
+- **Ley 21.442 Copropiedad (D.O. 13-Abr-2022)** — nuevas reglas administración condominios; revisar reglamento copropiedad + acta asambleas + fondo reserva en compras de depto.
 - **DFL 2** — escudo tributario potente ≤140 m² (exención contribuciones + rentas exentas).
 - **Derechos de aguas separados del dominio del suelo** — siempre rastrear DAA en CBR + DGA en compras rurales.
 - **Reaviorización SII residencial cada 4-6 años** — próxima ronda 2026-2028 puede subir contribuciones zonas premium.
@@ -505,11 +505,11 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 - **UF** — unidad indexada inflación BCCh; propiedad cotizada en UF, valor diario.
 - **Avalúo fiscal vs comercial gap** — 30-60 % típico; no usar como proxy.
 - **Rol SII** ≠ **Foja/Número/Año CBR** — identificadores fiscales y registrales distintos; ambos requeridos.
-- **Ley 21.442 (2023) Copropiedad** — sustituye Ley 19.537; revisar reglamento + actas.
+- **Ley 21.442 (D.O. 13-Abr-2022) Copropiedad** — sustituye Ley 19.537; revisar reglamento + actas.
 - **Sobretasa Ley 21.210** — adicional sobre conjunto > 670 UTA.
 - **DFL 2 vivienda económica** — escudo tributario ≤140 m².
 - **Border-zone DL 1939/1977** — restricción nacionales países limítrofes en franja fronteriza/costera.
-- **Derechos de aguas (DAA) separados del suelo** — Reforma Código Aguas 2022/2024.
+- **Derechos de aguas (DAA) separados del suelo** — Reforma Código Aguas 2022 (Ley 21.435); inscripción CBR + registro DGA hasta 6-Abr-2027 (Ley 21.727).
 - **Recepción Definitiva DOM** ≠ permiso edificación; sin Recepción Final, obras irregulares.
 - **Red eléctrica**: 220V 50Hz, clavija tipo C/L.
 
@@ -554,7 +554,7 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 **Coverage**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: **HIGH** for cadastre (CBR + SII), seismic standards (NCh 433 evolution), UF/BCCh system, Conservador process, DGA/SHOA/SERNAGEOMIN/SENAPRED hazard sources, and Ley 18.101 / Ley 21.442 / DFL 2 frameworks.
 **MEDIUM** for: current 2026 sobretasa exact tramos (Ley 21.713 reform context — re-pull SII Circular each año), STR comuna-level enforcement (Las Condes / Providencia patente hospedaje + copropiedad bylaws in motion; Vitacura STR curbs unverified — no comuna-wide ordinance), boleta de honorarios retención escalonamiento (verify SII tabla annual).
-**Last verified**: 2026-05-27 (price-source attribution, PNCV cadence and RNVV volcano counts corrected 2026-09-18 per MINVU CECT + INE + MOP Vialidad + SERNAGEOMIN).
+**Last verified**: 2026-05-27 (price-source attribution, PNCV cadence and RNVV volcano counts corrected 2026-09-18 per MINVU CECT + INE + MOP Vialidad + SERNAGEOMIN). Ley 21.442 publication date (D.O. 13-Apr-2022, per MINVU Reglamento DS N°7) and Código de Aguas DAA deadline (Ley 21.727) re-verified 2026-09-24 in the October regwatch wave; copropiedad STR limb narrowed (no hospedaje provision in the Reglamento; municipal fines secondary-sourced only); drought severity not re-verified.
 
 ## Extension TODOs
 

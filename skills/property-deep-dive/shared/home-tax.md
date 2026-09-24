@@ -320,14 +320,14 @@ Reported on **IR3R schedule** + IR3 individual return. NZD conversion at IRD-pub
 
 Trap: NZ owner of FR SCI / ES SL holding a single property thinks "just a holding entity, ignore it" — actually FIF, deemed 5% income annually regardless of cash flow, plus rental income separately. Many foreign legal forms force entity ownership for civil-law reasons (succession, asset protection) — NZ tax tail can wag the structuring dog.
 
-### Bright-line property test — § CB 6A — FOREIGN PROPERTY OUTSIDE SCOPE
-NZ-located residential land: **2-year bright-line** for disposals on/after 1 Jul 2024 (Restoring Tax Deductibility for Residential Investment Property Bill, RA Jun 2024). Pre-1 Jul 2024 follow 5-/10-year tests under prior National-Labour see-saw. **Bright-line does NOT apply to foreign-located residential land.** Foreign-property disposal gains taxed only under intent-of-resale § CB 6, business of dealing § CB 7, or business of erecting buildings § CB 12. NZ has **no general CGT** — regime is intent-based plus bright-line proxy.
+### Bright-line property test — § CB 6A — ALSO APPLIES TO OVERSEAS PROPERTY
+Residential land, NZ or overseas (for NZ tax residents): **2-year bright-line** for disposals on/after 1 Jul 2024 (Restoring Tax Deductibility for Residential Investment Property Bill, RA Jun 2024). Pre-1 Jul 2024 follow 5-/10-year tests under prior National-Labour see-saw. **The bright-line test also applies to NZ tax residents who buy and sell overseas residential property** (2026 data, source IRD `https://www.ird.govt.nz/property/buying-and-selling/when-you-need-to-pay/the-brightline-test`). Outside the bright-line period, foreign-property disposal gains are taxed only under intent-of-resale § CB 6, business of dealing § CB 7, or business of erecting buildings § CB 12. NZ has **no general CGT** — regime is intent-based plus bright-line proxy.
 
 ### Estate — no inheritance/estate tax
 Estate Duty abolished 1992; Gift Duty abolished 1 Oct 2011. No deemed disposition on death. Foreign-jurisdiction estate tax may bite (FR 60% non-spouse non-direct, ES regional, etc.) — tax-treaty estate articles relevant.
 
 ### 2024-2026 reforms
-- 1 Jul 2024: bright-line back to 2 years (NZ-located).
+- 1 Jul 2024: bright-line back to 2 years (NZ and overseas residential land held by NZ tax residents).
 - 1 Apr 2024: tax-bracket adjustments (10.5% to NZD 15,600; 17.5% to 53,500; 30% to 78,100; 33% to 180,000; 39% above) — first since 2010.
 - 1 Apr 2025: residential interest deductibility 100% restored.
 - Foreign-buyer ban (Overseas Investment Amendment Act 2018) still in force (NZ-purchase by non-residents prohibited; not relevant for NZ buyer abroad).

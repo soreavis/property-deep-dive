@@ -261,7 +261,7 @@ Regulatory status (verified 2026-04):
 | **SGN (Servicio Geológico Nacional)** | `https://sgn.gob.do/` | Seismic hazard, landslides, geological maps |
 | **INDRHI (Instituto Nacional de Recursos Hidráulicos)** | `https://indrhi.gob.do/` | Hydrology, flood basins, dam status |
 | **Ministerio de Medio Ambiente** | `https://ambiente.gob.do/` | Forestry, coastal, ecosystem |
-| **MOPC R-001 + R-007** | building code (seismic + hurricane) | mandatory since 2011 / 2008 respectively |
+| **MIVHED CDCRD** (Código de Construcción de la RD, Vol. I; wind loads per ASCE 7-22, Título 2) + legacy **MOPC R-001 / R-007** | building code (seismic + wind) | CDCRD oficializado by MIVHED Resolución 007-2026 (Apr 2026, one-year transition — secondary press reports; verify at mivhed.gob.do); R-001 2011 / R-007 2008 for earlier projects |
 
 ### Hurricane (Atlantic basin)
 
@@ -517,13 +517,13 @@ URL hubs: `https://caasd.gob.do/`, `https://www.coraasan.gob.do/`, `https://inap
 - **MEDIUM** for current resort-community service pricing — HOA fees, planta install, hurricane insurance — vary widely by development; figures are aggregator + market-survey est.
 - **MEDIUM** for 2025-2026 USD/m² benchmarks — secondary aggregator data; cross-check live SuperCasas + 3+ comparables before relying.
 - **LOW** for some rural municipal-level data (Permiso de Uso de Suelo, parcel-level flood plain in non-Yuna/Yaque basins) — limited online presence; verification requires on-site municipal request.
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-05-27. Risks: MIVHED CDCRD building-code row added 2026-09-24 in the October regwatch wave (Resolución 007-2026 from secondary press only); build-era rows citing R-001 / R-007 not re-verified.
 
 ## Extension TODOs
 
 - [ ] Per-provincia avalúo cycle calendar (DGII publishes irregularly)
 - [ ] CONFOTUR resolution registry mirror — verify project list updates quarterly with MITUR
-- [ ] Post-Fiona (2022) building-code amendments — track MOPC R-007 revisions in `shared/regulatory-watch.md`
+- [ ] MIVHED CDCRD (Resolución 007-2026, Apr 2026) — read the resolution text, confirm the transition end date, then update the build-era table and hazard rows that cite MOPC R-001 / R-007
 - [ ] AML Ley 155-17 beneficial-owner disclosure — track UAF enforcement evolution
 - [ ] Fideicomiso Ley 189-11 cost benchmarks for medium-value transactions
 - [ ] Per-municipio Plan de Ordenamiento Territorial (POT) catalogue for flood + setback zones

@@ -786,7 +786,7 @@ Peru has 28 of the 32 Holdridge life zones — extreme heterogeneity:
 | Property tax | Predial 0.2-1.0 % progresivo + arbitrios | Contribuciones 0-1.09 % + sobretasa | Predial 0.5-1.6 % per municipio | Predial 0.025-0.5 % |
 | CGT (resident) | 5 % flat 2da categoría | 10 % unique tax > UF 8,000 lifetime | 15 % ganancia ocasional | Varies, recent reforms |
 | Mortgage rates 2026 | 7-10 % PEN / 5.5-8 % USD | UF + ~3-5 % real | DTF + spread, 12-16 % nominal COP | USD ~7-9 % |
-| STR regulation | MINCETUR national + distrito | Comuna-by-comuna evolving | Bogotá Decreto 538/2024 + Medellín ordenanzas | Limited national |
+| STR regulation | MINCETUR national + distrito | Comuna-by-comuna evolving | national RNT + municipal uso del suelo (Bogotá 'Decreto 538/2024' unverified) | Limited national |
 | Seismic code | E.030 (DS 002-2014-VIVIENDA) | NCh 433 of.96 mod. 2009 + DS 61/2011 | NSR-10 (Decreto 926/2010) | NEC-15 |
 | Investor visa | Inversionista USD 30k business | Visa Temporaria Inversionista | M-visa 350× SMLMV | Visa Inversionista |
 

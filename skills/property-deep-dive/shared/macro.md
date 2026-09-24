@@ -158,9 +158,9 @@ For each country, primary macro sources:
 | **BCCR Costa Rica** | 3.50% | held |
 | **PA (USD-dollarized)** | follows Fed Funds 4.25-4.50% | Fed-bound |
 | **Fed Funds (US)** | 4.25-4.50% | hold (Fed paused after 2024 cuts; Q1 2026 print pending — verify FOMC) |
-| **TCMB (Turkey)** | ~42.50% est. | easing from 50% peak (mid-2024) — verify against latest TCMB MPC |
+| **TCMB (Turkey)** | 37.00% | set 23 Jan 2026, held through PPK 10 Sep 2026 (TCMB 2026-38); eased from 50% Mar-2024 peak — verify against latest TCMB MPC |
 | **CBUAE (UAE)** | ~4.40% (EIBOR-aligned) | Fed-bound via AED/USD peg 3.6725 |
-| **BoJ (Japan)** | 0.75% est. | hiked from 0.50% (Jan 2025) → ~0.75% (Dec 2025); first hike cycle since 2007 — verify next BoJ MPM |
+| **BoJ (Japan)** | 1.25% | 0.50% (Jan 2025) → 0.75% (Dec 2025) → 1.0% (16 Jun 2026) → 1.25% (18 Sep 2026, effective 24 Sep 2026; 2026 data, source BoJ MPM k260918a); first hike cycle since 2007 — next MPM 29-30 Oct 2026 |
 | **BoT (Thailand)** | 2.50% | hold; cut path debated as THB strengthens |
 | **BCRD (DR)** | 6.00% est. | gradual easing; verify latest BCRD comunicado |
 | **BanRep (Colombia)** | ~9.00% est. | mid-cycle cuts from 13.25% peak (Dec 2023) — verify |
@@ -341,13 +341,13 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 ### Active tightening / hold high
 - HU (MNB 6.50% — HUF volatility)
 - BR (BCB 14.75% — Selic on hold post-cuts)
-- TR (TCMB ~42.5% — easing from 50% mid-2024 peak; CPI still ~50%+)
+- TR (TCMB 37.0% — held 10 Sep 2026, eased from 50% Mar-2024 peak; CPI 31.51% YoY Aug 2026)
 - AR (volatile peso band)
 - EG (CBE ~22-24% post-IMF Mar 2024 devaluation; CPI declining from 30%+)
 - UY (BCU 8.5% — restrictive)
 
 ### Normalization (post-deflation / post-NIRP)
-- JP (BoJ exited NIRP Mar 2024 → 0.5% Jan 2025 → ~0.75% Dec 2025; first sustained hike cycle in ~17 years)
+- JP (BoJ exited NIRP Mar 2024 → 0.5% Jan 2025 → 0.75% Dec 2025 → 1.0% Jun 2026 → 1.25% Sep 2026; first sustained hike cycle in ~17 years)
 
 ### Expansion / loose
 - VN (SBV accommodative; ~6% GDP)
@@ -410,7 +410,7 @@ US: ~2.5% est. (Q1 2026 print pending — verify BLS CPI release)
 HU: 4-5% (HUF volatility)
 PL: 3-4%
 RO: 4-5% (post-VAT-hike)
-TR: ~50%+ (TÜFE — still hyperinflation regime, easing trajectory; verify TÜİK)
+TR: 31.51% YoY Aug 2026 (TÜFE, TÜİK via TCMB PPK summary 2026-42 — high-inflation regime, easing trajectory; verify TÜİK)
 AR: 30%+ (post-Milei normalization)
 BR: 4-5% (Selic on hold)
 JP: ~2-3% (BoJ target met; first sustained 2%+ run since 1990s)
@@ -463,11 +463,11 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **US** — CPI ~2.5% YoY (Q1 2026 est., verify BLS https://www.bls.gov/cpi/); GDP ~2.5% (2025 BEA advance est., verify https://www.bea.gov); Fed Funds 4.25-4.50% (hold since Q4 2024); 10y UST ~4.30%; cyclical phase: late-cycle / soft-landing.
 
-**TR** — TÜFE ~50%+ YoY (still hyperinflation regime, easing from 2023 peak ~85%; verify TÜİK https://www.tuik.gov.tr); GDP ~3-4% (2025 est., verify); TCMB policy rate ~42.50% (cut from 50% mid-2024 peak — verify against latest MPC https://www.tcmb.gov.tr); 10y TRY yield ~28-32%; USD eurobond ~7.5% — that's the cleaner foreign-buyer reference. Macro flag: **post-hyperinflation normalization, FX risk extreme** — TRY lost ~80% vs USD 2021-2024.
+**TR** — TÜFE 31.51% YoY Aug 2026 (TÜİK via TCMB PPK summary 2026-42; high-inflation regime, easing from Oct-2022 peak 85.51%; verify TÜİK https://www.tuik.gov.tr); GDP ~3-4% (2025 est., verify); TCMB policy rate 37.00% (held at PPK 10 Sep 2026, TCMB 2026-38; cut from 50% Mar-2024 peak — verify against latest MPC https://www.tcmb.gov.tr); 10y TRY yield ~28-32%; USD eurobond ~7.5% — that's the cleaner foreign-buyer reference. Macro flag: **post-hyperinflation normalization, FX risk extreme** — TRY lost ~80% vs USD 2021-2024.
 
 **AE** — CPI ~2-3% (low, pegged regime); GDP ~3-4% (2025); CBUAE EIBOR ~4.40% — Fed-bound via AED/USD peg 3.6725 (no independent monetary policy); USD-equivalent 10y ~4.40%. Macro flag: **stable / pegged**, USD-correlated.
 
-**JP** — CPI ~2-3% (BoJ 2% target met first sustained period since 1990s); GDP ~1% (slow); BoJ policy rate 0.75% est. (NIRP exit Mar 2024 → 0.50% Jan 2025 → ~0.75% Dec 2025; verify next BoJ MPM https://www.boj.or.jp); 10y JGB ~1.50%. Macro flag: **post-NIRP normalization** — first sustained tightening cycle since 2007.
+**JP** — CPI ~2-3% (BoJ 2% target met first sustained period since 1990s); GDP ~1% (slow); BoJ policy rate 1.25% (NIRP exit Mar 2024 → 0.50% Jan 2025 → 0.75% Dec 2025 → 1.0% Jun 2026 → 1.25% 18 Sep 2026, effective 24 Sep 2026; 2026 data, source BoJ MPM k260918a https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf); 10y JGB ~1.50%. Macro flag: **post-NIRP normalization** — first sustained tightening cycle since 2007.
 
 **TH** — CPI ~1-2% (sub-target); GDP ~3% (2025); BoT 2.50% (hold; cut path debated); 10y THB ~2.50%. Macro flag: **stable / soft expansion**, THB strengthening.
 

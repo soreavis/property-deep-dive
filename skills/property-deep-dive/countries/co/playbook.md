@@ -230,7 +230,7 @@ Two distinct concepts (don't confuse):
 
 #### National baseline (MinCIT + MITUR)
 
-- **Registro Nacional de Turismo (RNT)** — mandatory for any prestador de servicios turísticos including STR (Ley 300/1996 + Ley 1101/2006 + Ley 2068/2020). Register at `https://rnt.confecamaras.co/` via Cámara de Comercio. Renewal annual.
+- **Registro Nacional de Turismo (RNT)** — mandatory for any prestador de servicios turísticos including STR (Ley 300/1996 + Ley 1101/2006 + Ley 2068/2020). Register at `https://rnt.confecamaras.co/` via Cámara de Comercio. Renewal annual. **Pending**: MinCIT published a proyecto de decreto on 1 Jul 2026 (comments 2-11 Jul 2026) partially substituting Decreto 1074/2015 Libro 2 Parte 2 Título 4 on the RNT and digital-platform operator obligations; per press *(news-tier — verify)* it would require an individual RNT per vivienda turística unit. No signed decree located as of 2026-09-24 (source [MinCIT proyectos de decreto 2026](https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026)).
 - **Contribución parafiscal de turismo** 2.5 ‰ on revenue (Ley 1101/2006; some exemptions).
 - **IVA 19 %** on lodging services (some short-stay below thresholds may apply RST exemption).
 - **Régimen de Propiedad Horizontal** (Ley 675/2001) — the **assamblea de copropietarios** can prohibit STR in the reglamento; many luxury edificios (El Poblado, Chicó, Bocagrande) have done so 2023-2025.
@@ -528,11 +528,11 @@ Two distinct concepts (don't confuse):
 
 **LOW** for: parcel-level price/m² (use only as zone-average context — must cross-check Lonja + Metrocuadrado comparables for the specific barrio + estrato).
 
-**Last verified**: 2026-08-07 (`--tax` / `--price` catastro-multipropósito legal basis + predial-cap correction; `--visa` M-visa investment thresholds re-verified — Resolución 5477/2022 art. 79 real-estate ≥ 350× / FDI > 650× SMLMV, Visa R accumulation via Resolución 10434/2023 art. 76, 2026 SMLMV COP 1,750,905; other sections 2026-05-27).
+**Last verified**: 2026-08-07 (`--tax` / `--price` catastro-multipropósito legal basis + predial-cap correction; `--visa` M-visa investment thresholds re-verified — Resolución 5477/2022 art. 79 real-estate ≥ 350× / FDI > 650× SMLMV, Visa R accumulation via Resolución 10434/2023 art. 76, 2026 SMLMV COP 1,750,905; other sections 2026-05-27). RNT pending MinCIT proyecto de decreto added 2026-09-24 in the October regwatch wave.
 
 **Reform watch (next 12 mo)**:
 1. **Catastro multipropósito + Ley 2294/2023 art. 49 rezago adjustment** — track IGAC cobertura updates per municipio and the **Resolución 2057 of 30 Dec 2025** rural reajuste (527 municipios from 1 Jan 2026; 520 adjusted at 23 Feb 2026); plus **PL 188 + 291 of 2025 ("Ley Predial Justo")**, pending first debate (Gaceta 378, 28 Apr 2026), which would tighten the predial topes.
-2. **Bogotá Decreto 538/2024** STR enforcement + possible widening to other consumo categories.
+2. **Bogotá 'Decreto 538/2024'** (unverified — not found in sisjur) / MinCIT RNT proyecto de decreto STR enforcement + possible widening to other consumo categories.
 3. **Medellín Concejo** — additional STR restrictions in El Poblado / Laureles likely 2026.
 4. **Cancillería visa schedule** — M-visa thresholds (350× / 650× SMLMV) re-price **every 1 Jan** with the SMLMV and **daily** in USD terms with the TRM; the 2026 SMLMV (**COP 1,750,905**, +23 %, **Decreto 1469/2025**, re-fixed transitorily by **Decreto 0159 of 19-Feb-2026** while a **Consejo de Estado nullity action is pending** — `https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20No.%200159%20DEL%2019%20DE%20FEBRERO%20DE%202026.pdf`) already moved them to **COP 612.8 M / COP 1,138.1 M**. The nullity ruling is still outstanding — re-confirm the SMLMV base at Presidencia / MinTrabajo before relying on the COP figures.
 5. **DIAN UVT 2026** — recalibrates all tax thresholds (predial bands, ganancia ocasional exemption, wealth-tax floor).

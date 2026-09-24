@@ -97,7 +97,7 @@ Coastal-average row is MONSTAT Q3 2025 (residential price index). All per-city /
 
 ### Transaction taxes — PROGRESSIVE since 1 Jan 2024
 
-**MAJOR CORRECTION**: previously flat 3%; now progressive RETT:
+**MAJOR CORRECTION**: previously flat 3%; now progressive **marginal** RETT — EUR 4,500 + 5% on the part above EUR 150k; EUR 22,000 + 6% on the part above EUR 500k (bands below are marginal, not whole-price slabs; 6% band + 1 Jan 2024 date per secondary quotes of art. 11 — verify enacted text at Službeni list CG / Poreska uprava):
 
 | Property value (EUR) | Rate |
 |---|---:|
@@ -136,8 +136,8 @@ Plus **municipal surtax (prirez)** ~13% of PIT due → effective top rate ~17%. 
 ### Total transaction cost (buyer side)
 
 - Resale ≤€150k: ~4-5% (3% RETT + 0.5-1% notary + 0.5% other)
-- Resale €150-500k: ~6-7% (5% RETT + others)
-- Resale >€500k: ~7-8% (6% RETT + others)
+- Resale €150-500k: est. ~4.0-5.9% (RETT effective 3.0% at €150k to 4.4% at €500k = €4,500 + 5% of the excess over €150k, plus ~1-1.5% notary/other per the line above)
+- Resale >€500k: est. ~5.4-7.1% up to €2M, rising towards ~7.5% above (RETT effective 4.4% at €500k, 5.2% at €1M, 5.6% at €2M = €22,000 + 6% of the excess over €500k, plus ~1-1.5% notary/other)
 - New build: 21% VAT in price + ~2-3% other costs
 
 ### Future risk
@@ -324,7 +324,7 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 - **EUR informally adopted 2002** — no central-bank issues currency; UNIQUE in Europe; **no FX risk** for EUR holders
 - **CBI Programme ABOLISHED 31 Dec 2022** (was EUR 250k+ minimum) — major historical reference
 - **NEW investor residency (effective 17 January 2026)** (€150k property → 5 years to permanent → 10 to citizenship)
-- **Progressive RETT since 1 Jan 2024**: 3% / 5% / 6% (not flat 3% as previously)
+- **Progressive RETT since 1 Jan 2024**: 3% / 5% / 6% marginal bands — €4,500 + 5% above €150k, €22,000 + 6% above €500k (not flat 3% as previously)
 - **VAT restructure (eff 1 Jan 2025)**: new **15% bracket** added (hotels/restaurants/books); 21% standard; 7% essentials-only; 21% on first-sale residential remains in lieu of RETT
 - **Europe Now 2 (eff 1 October 2024)**: minimum wage raised to **€600** (low qualification) / **€800** (high qualification); employee pension-and-disability contribution cut 15% → 10%; employer pension-and-disability contribution eliminated (was 5.5%)
 - **Foreign-buyer rules** (Zakon o svojinsko-pravnim odnosima): foreign natural persons CANNOT own agricultural land, forests, or forest land. **Exception**: up to **5,000 m²** of such restricted land may be acquired if a residential building is on it and the transfer agreement covers residence + adjoining land. **Workaround**: incorporate a Montenegrin **d.o.o.** (domestic legal entity faces no restriction) — the dominant vehicle for agricultural/coastal portfolio buyers *(2026-05-27 verified, source Chambers Real Estate 2025 ME)*
@@ -388,7 +388,7 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27.
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27. Tax tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 **Coverage check**: pricing (MONSTAT Q3 2025 + CBCG + Realitica), traffic (Putevi PGDS), tax (porez na nepokretnost 0.25-1.0% + progressive RETT 3/5/6% since Jan 2024 + 21% VAT first-sale + 15% CGT), rental (Opština license + tourist tax + 15% PIT), work (ZZZCG), risks (1979 Adriatic M6.9 + Mediterranean wildfire + karst), mains (ViK per municipality).
 **Confidence**: HIGH for EUR informal adoption 2002 (no central-bank issuance UNIQUE); HIGH for progressive RETT 3/5/6% effective 1 Jan 2024; HIGH for CBI abolition 31 Dec 2022 + NEW Jan 2026 investor residency €150k; HIGH for cadastre URLs (gov.me/uzn + ekatastar.me); MEDIUM for MerkaturNekretnine listing platform (could not independently verify); MEDIUM for 21% VAT first-sale framing (in lieu of RETT, not reduced rate).
 

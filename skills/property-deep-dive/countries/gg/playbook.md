@@ -171,7 +171,7 @@ Sources:
 
 **Key 2024–2025 reforms**:
 - From **1 January 2025**: derelict glasshouses, derelict glasshouse land, and unoccupied domestic + commercial buildings are charged at **5× the standard TRP tariff**. Source: [States Voting Records — Annual Budget 2024](https://statesvoting-records.gov.gg/Propositions/Details/1163).
-- For 2025, **TRP on domestic + commercial buildings + land increased by 3.2%** across the board. Source: [Collas Crill — 2025 Budget](https://www.collascrill.com/articles/how-does-the-2025-guernsey-budget-affect-you-and-your-property/).
+- For 2025, **TRP on domestic + commercial buildings + land increased by 3.2%** across the board. For 2026, sampled domestic tariffs rose +8.2-8.4% vs 2025 (e.g. B1.0 Local Market whole unit under 100 units £2.08 → £2.25 per unit; B1.1.5 500+ units £5.52 → £5.98) and retail B4.4 +5.0% (£14.50 → £15.23) (2026 data, computed from gov.gg TRP tariff PDFs id=185042 + id=196847). Source: [Collas Crill — 2025 Budget](https://www.collascrill.com/articles/how-does-the-2025-guernsey-budget-affect-you-and-your-property/).
 
 **Direct Debit payment frequency**: TRP Direct Debits moved from quarterly to monthly collection from March 2020 (2020 announcement, source States of Guernsey) — see [gov.gg article 176182, 3 Feb 2020](https://gov.gg/article/176182/Change-in-frequency-of-Direct-Debit-payments-for-Tax-on-Real-Property).
 
@@ -416,7 +416,7 @@ Guernsey **abolished mandatory forced heirship for movables in 2011** (Inheritan
 ## ⚠️ Run quality notes
 
 During this initial draft pass + 2026-05-27 validation patch:
-- **TRP 2025 + 2026 tariff PDFs** ([gov.gg id=185042](https://gov.gg/CHttpHandler.ashx?id=185042&p=0) for 2025, [gov.gg id=196847](https://gov.gg/CHttpHandler.ashx?id=196847&p=0) for 2026) returned binary-only via WebFetch — exact per-unit £ rates per category code (Domestic 1, Domestic 2, etc.) not extracted in this draft. The 3.2% YoY uplift + 5× derelict multiplier ARE confirmed via Collas Crill secondary + States Voting Records primary. **Next pass: pdftoppm/pdftotext both tariff PDFs or transcribe from a desktop browser to fill the per-category £ table.**
+- **TRP 2025 + 2026 tariff PDFs** ([gov.gg id=185042](https://gov.gg/CHttpHandler.ashx?id=185042&p=0) for 2025, [gov.gg id=196847](https://gov.gg/CHttpHandler.ashx?id=196847&p=0) for 2026) returned binary-only via WebFetch; both extract cleanly with pdftotext (2026-09-24) — e.g. 2026 B1.0 £2.25/unit, B1.1.5 £5.98/unit, B4.4 retail £15.23/unit; full per-category table still to be transcribed. The 3.2% YoY uplift + 5× derelict multiplier ARE confirmed via Collas Crill secondary + States Voting Records primary. **Next pass: pdftoppm/pdftotext both tariff PDFs or transcribe from a desktop browser to fill the per-category £ table.**
 - **2025 + 2026 Tax Cap figures**: the gov.gg monetary-values spreadsheet ([id=185595](https://www.gov.gg/CHttpHandler.ashx?id=185595&p=0)) was returned as binary; specific 2025/2026 cap amounts not extracted via WebFetch. **Validation confirmed via Carey Olsen secondary** — "The cap remains the same for 2026" — so £60k Open Market + £160k qualifying + £320k worldwide hold for 2026. **Standard Charge rises £40k → £50k from 2026** (P.2025-121).
 - **Document Duty bands** sourced via Lexology + Bloomberg Tax + Collas Crill secondary + parliament.gg 2026-16 primary. Full residential band table confirmed including the £2.5M–£5M band at **5.50%** (post-validation patch). **Cross-check the specific 2026 Ordinance text at [guernseylegalresources.gg](http://www.guernseylegalresources.gg) before signing.**
 - **AML levy on Document Duty / Bond Duty schedule**: not verified at primary source in this draft. The 2025 Budget Collas Crill summary does not detail an AML levy as a separate line item. **Verify with Advocate at completion.**
@@ -429,7 +429,7 @@ During this initial draft pass + 2026-05-27 validation patch:
 
 **Confidence**: **HIGH** for regime architecture, transaction process, Document Duty bands (including £2.5M–£5M @ 5.50%), Tax Cap structure (incl. 2026 currency check), Alderney two-regime distinction, Standard Charge £40k→£50k transition, TRP 5×-derelict + 3.2% uplift mechanics, and conveyancing flow — all primary-source verified via gov.gg + Royal Court + parliament.gg + Carey Olsen 2026 currency confirmation. **MEDIUM** for residual items (per-category TRP £ tariffs from 2025/2026 PDFs requiring text-extract; AML levy schedule; Q3 2025 bulletin primary PDF text-extract).
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27. Tax tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 
 ---
 

@@ -8,7 +8,7 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
   - First 2 digits: il (province) plaka kodu (matches license-plate code 01–81)
   - Last 3 digits: ilçe + mahalle cluster
 - **Admin levels**: 81 il (province) → 973 ilçe (district) → ~32,000 mahalle/köy (neighbourhood/village). 30 of the 81 are **Büyükşehir Belediyesi** (metropolitan municipality).
-- **Currency**: TRY (Türk lirası). **Foreign-buyer transactions widely quoted in USD or EUR** because of TRY hyperinflation (CPI peaked ~75 % YoY mid-2024, ~44 % by end-2024, low-30s by late 2025, **~32.6 % YoY May 2026** per TÜİK — the June-2026 rent-cap 12-month-average TÜFE ceiling of 32.24 % corroborates; CBRT one-week repo rate peaked 50 % Mar 2024, eased through 2025–26 to **37.0 %** — held June 2026 per TCMB PPK Basın Duyurusu 2026-23; rates may have changed since — re-check TÜİK monthly). **Verify TRY vs FX pricing on every listing.** (2026-07-03 verified)
+- **Currency**: TRY (Türk lirası). **Foreign-buyer transactions widely quoted in USD or EUR** because of TRY hyperinflation (CPI hit 85.51 % YoY Oct 2022, re-peaked ~75 % YoY May 2024, ~44 % by end-2024, low-30s by late 2025, ~32.6 % YoY May 2026, **31.51 % YoY Aug 2026** per TÜİK (2026 data, quoted in TCMB PPK summary 2026-42) — the June-2026 rent-cap 12-month-average TÜFE ceiling of 32.24 % corroborates; CBRT one-week repo rate peaked 50 % Mar 2024, eased through 2025–26 to **37.0 %** — held at the 10 Sep 2026 PPK per TCMB Basın Duyurusu 2026-38 (also held 23 Jul 2026, 2026-28); rates may have changed since — re-check TÜİK monthly). **Verify TRY vs FX pricing on every listing.** (2026-09-24 verified)
 - **Languages**: Turkish (official); English usable in tourist zones (İstanbul, Antalya, Bodrum, Alanya, Fethiye); Kurdish substantial in southeast (admin Turkish only).
 - **Cadastre**: **TKGM** (Tapu ve Kadastro Genel Müdürlüğü) — title is **`Tapu Senedi`**. Online: `https://www.tkgm.gov.tr/` + **Web Tapu** (e-Devlet integration at `https://webtapu.tkgm.gov.tr/`).
 - **Identifier**: `Tapu Senedi` carries `il / ilçe / mahalle/köy / ada no / parsel no / bağımsız bölüm no` (last for apartments).
@@ -52,7 +52,7 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 
 (Q4 2025 reference levels, source TÜİK KFE + GlobalPropertyGuide; the two index-row USD figures re-anchored at ~46.7 TRY/USD, 2026-07-02 rate — TRY/m² levels are inflation-eroded; est ranges are judgment bands; rates may have changed since — re-pull TCMB KFE monthly)
 
-**By May 2026** (TCMB KFE May-2026 bulletin, secondary-quoting-primary) nominal YoY had held/eased to **~+24.5 % nationally** (İstanbul +25.4 %, Ankara **+27.3 %** — down sharply from +38.7 %, İzmir +22.8 %), but **real YoY was −6.1 %** — Turkish housing is rising in TRY yet losing value against inflation. Re-pull TCMB KFE monthly; cross-check TÜİK KFE. (2026-07-03 verified)
+**By August 2026** (TCMB RPPI Aug-2026 bulletin, primary) nominal YoY had eased to **+23.0 % nationally** (İstanbul +26.3 %, Ankara +24.8 %, İzmir +23.3 %), but **real YoY was −6.5 %** (May 2026: +24.5 % nominal / −6.1 % real) — Turkish housing is rising in TRY yet losing value against inflation. Re-pull TCMB KFE monthly; cross-check TÜİK KFE. (2026-09-24 verified, TCMB RPPI Aug 2026)
 
 ### İstanbul district hierarchy (foreign-buyer relevant; verify per-district at sahibinden cenova haritası)
 
@@ -476,7 +476,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 ## Caveats unique to TR
 
-- **TRY hyperinflation makes long-term comparisons tricky** — always check date + USD-equivalent. CPI peaked ~75 % YoY mid-2024, ~44 % end-2024, low-30s late 2025, **~32.6 % YoY May 2026** (TÜİK); rates may have changed.
+- **TRY hyperinflation makes long-term comparisons tricky** — always check date + USD-equivalent. CPI hit 85.51 % YoY Oct 2022, re-peaked ~75 % YoY May 2024, ~44 % end-2024, low-30s late 2025, ~32.6 % YoY May 2026, **31.51 % YoY Aug 2026** (TÜİK, quoted in TCMB PPK summary 2026-42); rates may have changed.
 - **Foreign-buyer pricing premium est. ~15–35 %** in Antalya, Alanya, Bodrum, Fethiye — qualitative, based on the EN-language vs TR-language sahibinden listing spread, not a sourced benchmark; verify per listing.
 - **CBI threshold + rules change frequently** — $1M (2017) → $250k (Sept 2018) → **$400k (June 2022, current)**. 3-year resale lock + once-only-per-property restriction; some districts excluded (İstanbul + Antalya have ilçe-level exclusions for tightening). Verify Cumhurbaşkanlığı + Resmi Gazete.
 - **Earthquake risk dominates in Marmara, Aegean, Eastern Anatolia, southeast** — never skip AFAD lookup at `https://tdth.afad.gov.tr/`.
@@ -569,7 +569,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 - **MEDIUM** for parcel-level price benchmarks — TÜİK KFE is province-level only; mahalle-level requires Endeksa or sahibinden cenova haritası lookup per address.
 - **MEDIUM** for STR enforcement — Law 7464 mature but municipal enforcement variance; provisional permit transition (31 Dec 2024) closed but ongoing audit risk.
 
-**Last verified**: 2026-08-07 (§ --risks re-verified — Kahramanmaraş magnitudes corrected to the AFAD official pair Mw 7.7 + Mw 7.6, TBDY 2018 confirmed as the current code with no successor enacted, DASK compulsory-cover checkpoints confirmed; balance of the 2026-07-03 Tier-A quarterly refresh unchanged).
+**Last verified**: 2026-08-07 (§ --risks re-verified — Kahramanmaraş magnitudes corrected to the AFAD official pair Mw 7.7 + Mw 7.6, TBDY 2018 confirmed as the current code with no successor enacted, DASK compulsory-cover checkpoints confirmed; balance of the 2026-07-03 Tier-A quarterly refresh unchanged). Macro tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 
 ## Extension TODOs (deepen on first real run)
 

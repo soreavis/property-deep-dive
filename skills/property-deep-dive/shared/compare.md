@@ -309,7 +309,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 5. DO Investor Residency (USD 200k property; CONFOTUR zones can shave taxes)
 6. PH SRRV (USD 10-50k deposit depending on age — retiree visa, not strictly RBI)
 7. TH LTR — 4 categories (no fixed property threshold; passive-income or wealth route)
-8. MY MM2H (post-2024 reform: tiers MYR 1M / 2M / 5M deposit + property req)
+8. MY MM2H (post-2024 reform: tiers USD 150k / 500k / 1M deposit + compulsory residence ≥ RM 600k / 1M / 2M)
 9. CY (€300k PR — distinct from ended CBI)
 10. MT MPRP (€375k lease/€750k purchase + fees)
 11. PA (Friendly Nations $200k / Qualified Investor $300k)
