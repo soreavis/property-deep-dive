@@ -132,6 +132,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 ### Transaction taxes
 
 - **Foros Metavivasis Akinitou (FMA)**: **3% + 0.09% municipal surcharge = 3.09%** on resale (confirmed PwC, multiple 2025-2026 sources)
+  - **Watch — ANNOUNCED, NOT LEGISLATED (90th TIF, Sep 2026)**: the government plans to raise FMA to **15% (15.45% with the municipal contribution)** on **residential** purchases (not commercial premises, plots or other property) by buyers who are not Greek, ομογενείς, EU/EEA citizens or long-term residents, i.e. outside the first-home-exemption beneficiary list, which also names recognised refugees and second-generation residence-permit holders ([government.gov.gr 90th TIF measures, section Η](https://www.government.gov.gr/exidikefsi-ton-ikonomikon-metron-pou-anakinose-prothipourgos-stin-90i-deth), read 2026-09-24). Intended start **1 Jul 2027** and natural persons only, companies excluded — FinMin statement 7 Sep 2026 (news-tier; the government page gives no date). No Golden Visa carve-out named; citizenship vs tax-residency test unresolved; no bill identified in Parliament's tabled-bills list as of 2026-09-24 (public-consultation status on opengov.gr not read directly). **The 3.09% above stays the current rate until an enacted change takes effect** — see shared/regulatory-watch.md 🇬🇷 GR.
 - **VAT on new builds**: **24% statutory rate**, but **suspended through 31 Dec 2026** (Law 5246/2025, gazetted 11 Nov 2025)
   - During suspension, new builds attract 3.09% transfer tax instead
 - **Notary fees**: ~1.0–1.5% sliding scale
@@ -140,8 +141,8 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 ### Total transaction cost (buyer side)
 
-- Resale: ~6–8% of price (3.09% transfer + 1-1.5% notary + 1% lawyer + 2% realtor)
-- New build (during VAT suspension): same as resale ~6–8%
+- Resale: ~6–8% of price (3.09% transfer + 1-1.5% notary + 1% lawyer + 2% realtor) — watch, ANNOUNCED, NOT LEGISLATED (90th TIF, Sep 2026): for non-EU/EEA natural-person buyers of a home who are not ομογενείς or long-term residents, from an intended 1 Jul 2027, computed 15.45% + 1–1.5% + 1% + 2% = 19.45–19.95% of price (see Transaction taxes)
+- New build (during VAT suspension): same as resale ~6–8% (the announced non-EU 15% FMA watch above is not stated to exclude new builds; the government page gives no treatment for VAT-suspended new-build purchases)
 - New build (post-VAT-suspension): 24% VAT + others
 
 ### Capital gains
@@ -367,7 +368,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 | Notary | 1.0–1.5% of price |
 | Lawyer | ~1% (recommended) |
 | Realtor | ~2% per side |
-| Foros Metavivasis | 3.09% |
+| Foros Metavivasis | 3.09% (watch, ANNOUNCED, NOT LEGISLATED (90th TIF, Sep 2026): 15.45% for non-EU/EEA natural-person buyers of residential property who are not ομογενείς or long-term residents from an intended 1 Jul 2027 — see Transaction taxes) |
 | **Total transaction cost (resale, buyer)** | **~6–8%** of price |
 | **Total transaction cost (new build during VAT suspension)** | **~6–8%** |
 | Vothros to biological treatment | 4,000–10,000 |
@@ -413,6 +414,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
   - **€800k**: Attica (incl. Athens), Thessaloniki, **all Greek islands with registered population >3,100 (including Crete, Rhodes, Corfu, Kos, Mykonos, Santorini, Paros — full list at goldenvisas.gr)** (min 120 m², single unit) (2026-05-27 verified, source [Global Citizen Solutions Greece Golden Visa Map 2025-2026](https://www.globalcitizensolutions.com/greece-golden-visa-new-rules/))
   - **€400k**: all other regions (min 120 m², single unit)
   - **€250k**: only for heritage-building restoration or commercial-to-residential conversions
+  - **Watch — ANNOUNCED, NOT LEGISLATED (90th TIF, Sep 2026)**: the government page names no Golden Visa carve-out from the announced 15% FMA (15.45% with the municipal contribution) on residential purchases by non-EU/EEA buyers who are not ομογενείς or long-term residents. Intended start 1 Jul 2027 (news-tier). How €250k commercial-to-residential conversions are treated is unresolved: the page excludes commercial premises, and market bodies are asking for an exemption or a lower rate (news-tier). See Transaction taxes and shared/regulatory-watch.md 🇬🇷 GR.
   - **STR ban on GV property (post-reform acquisitions)**: residences acquired under the post-Law-5100/2024 Golden Visa regime may NOT be short-let or sub-let — breach → residence-permit revocation + **€50,000** administrative fine on the owners/holders (Law 5100/2024 **Art. 64**, adding para 7A to Art. 100 of Immigration Code Law 5038/2023). Min. Migration **Circular 1/2026 (22 Apr 2026)** narrowed the scope: banned = lettings **<60 days** with no services beyond accommodation + bed linen; long-term leases and hotel-type leases-with-services remain permitted; **properties bought under the pre-Sept-2024 thresholds or in the transitional window are NOT subject to the ban** (statute's "or renewal" wording had suggested otherwise — one advisory source still claims renewals of older permits must comply `(superseded by the circular)`). Circular also refers sham/cash-back GV deals to AADE + the AML Authority. (2026-07-03 verified)
 - **VAT 24%** on new builds suspended through 31 Dec 2026
 - **Capital gains 15%** suspended through 31 Dec 2026
@@ -467,7 +469,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25. **Last verified**: 2026-08-15 (**SSFT gazetted** — ΦΕΚ Δ' 658/07.08.2026, JMD ΥΠΕΝ/ΔΝΕΠ/89997/3071/2026, signed 7 Aug 2026, one day after the previous pass read it as unsigned; out-of-plan αρτιότητα, 25 m coastal ban, star-category floor and island bed caps now directly applicable, STR limb confirmed still enabling-only. Only the SSFT claims were re-verified in this pass. Earlier 2026-08-06: SSFT gazetting status checked against YPEN; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged). Rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
+✅ **Fully populated** as of 2026-04-25. **Last verified**: 2026-08-15 (**SSFT gazetted** — ΦΕΚ Δ' 658/07.08.2026, JMD ΥΠΕΝ/ΔΝΕΠ/89997/3071/2026, signed 7 Aug 2026, one day after the previous pass read it as unsigned; out-of-plan αρτιότητα, 25 m coastal ban, star-category floor and island bed caps now directly applicable, STR limb confirmed still enabling-only. Only the SSFT claims were re-verified in this pass. Earlier 2026-08-06: SSFT gazetting status checked against YPEN; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged). Rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Announced non-EU 15% transfer-tax watch added 2026-09-24 from the government 90th TIF measures page (read via Tavily; start date and company carve-out news-tier).
 **Coverage check**: pricing, traffic, tax (incl. 2025-2026 ENFIA reforms + VAT/CGT suspensions), rental (incl. STR Law 5170/2025 + Athens freeze + Special Spatial Framework for Tourism, gazetted ΦΕΚ Δ' 658/07.08.2026), work, risks (seismic + volcanic + wildfire + tsunami), mains all have primary government sources + cost benchmarks.
 **Confidence**: HIGH for STR reforms (Athens Times, GTP Headlines, ProtoThema, BNB News, Airbnb 2025 Greek tax guide all confirm); HIGH for ENFIA 2025-2026 cuts (multiple tax law firm sources confirm; village abolition from 2027 legislated in Law 5246/2025 art. 10; 90th TIF extension to 2,000 residents announced Sept 2026, not yet legislated); HIGH for VAT/CGT suspension extensions through 2026 (Law 5246/2025 gazetted 11 Nov 2025, vatcalc + Elxis confirm); HIGH for Golden Visa restructuring (Global Citizen Solutions + multiple sources confirm 1 Sept 2024 effective) and the GV short-term-rental ban (Law 5100/2024 Art. 64; Varnavas + WFW + IMI Daily + Circular 1/2026 confirm). MEDIUM for Cyclades bed caps (Special Spatial Framework gazetted ΦΕΚ Δ' 658/07.08.2026; figures read via kodiko.gr + ministry Q&A, not yet confirmed against the et.gr FEK PDF). MEDIUM for cadastre completion timeline (target slipping repeatedly).
 

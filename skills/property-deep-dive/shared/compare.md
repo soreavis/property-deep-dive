@@ -204,7 +204,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 4. PH (~10% — CGT 6% gross + DST 1.5% + transfer + LTT)
 5. IL (~6-10% Mas Rechisha tiered + non-resident surcharge)
 6. AT (~10-12%)
-7. GR (~10-12%)
+7. GR (~10-12%; watch — ANNOUNCED, NOT LEGISLATED (90th TIF, Sep 2026): FMA 3.09% → 15.45% for non-EU/EEA natural-person home buyers who are not ομογενείς or long-term residents, intended from 1 Jul 2027 — see GR playbook)
 8. UK (~10-15% with SDLT non-res surcharge)
 9. UY (~7-9%)
 10. ZA (~7-9% transfer duty tiered)
