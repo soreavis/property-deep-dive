@@ -675,6 +675,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 ### 🇸🇲 SM
 
+- `2026-10-19 | other | San Marino–EU Association Agreement (same agreement as the AD entry) — Council of the EU approved the text 16 Jul 2026; signature ceremony scheduled 19 Oct 2026 in Brussels per the Govern d'Andorra AA portal (news item 16 Sep 2026); mixed agreement per Coreper 15 Jul 2026, so it still requires European Parliament consent and ratification by all 27 member states and San Marino before entry into force. Per Eunews (secondary, 16 Jul 2026) the Council decision also covers provisional application — scope and start unverified, re-check at signature. Not in force as at 2026-09-24. Earlier corpus text saying "signed 2024" was wrong — esteri.sm lists a Consiglio Grande e Generale decision of 14 Jul 2025 to continue "the process leading to the signing and ratification". Verified 2026-09-24 | https://andorraue.ad/ca/acord-d-associacio + https://www.esteri.sm/pub2/EsteriSM/en/UE/Accordo.html | 2026-09-24 | 2026-12-18 | 2 | --macro --tax --visa (SM)`
 - `2018-12-24 | foreign-buyer | Legge 24 dicembre 2018 n.173 + Decreto Delegato implementation — prior authorization regime ABOLISHED for foreign acquisition; replaced with **2-property cap per foreign individual** (vs unlimited Sammarinese citizens / pre-2018 1-property cap) | Bollettino Ufficiale RSM | 2026-05-07 | 2027-01-01 | 1 | --tax ownership`
 - `2026-01-01 | tax | IGR reform ENACTED — Legge 12 nov 2025 n.141 (amends L.166/2013), published in Bollettino Ufficiale, applies from tax year 2026: deductions shift to tax credits (detrazioni), progressive SMaC detrazione, resident rental detrazione 15% on 50% of canone up to €6,000; L.166/2013 progressive 9-35% bracket schedule retained (amended, not replaced); verify exact detrazione tables before quoting | Consiglio Grande e Generale — Legge 12 novembre 2025 n.141 (Bollettino Ufficiale) | 2026-07-02 | 2027-01-05 | 2 | --tax --rental --finance`
 
@@ -774,7 +775,7 @@ Listed by country. Each entry: `effective | topic | summary | source | verified 
 
 ### 🇦🇩 AD
 
-- `2026-10-19 | other | Andorra–EU Association Agreement — Council of the EU approved the text 16 Jul 2026; signature scheduled 19 Oct 2026 in Brussels; still requires European Parliament consent, a consultative referendum and Consell General ratification before entry into force. Not in force as at 2026-09-18. Verified 2026-09-18 | https://andorraue.ad/ca/acord-d-associacio | 2026-09-18 | 2026-12-18 | 2 | --macro --tax --visa (AD)`
+- `2026-10-19 | other | Andorra–EU Association Agreement — Council of the EU approved the text 16 Jul 2026; signature scheduled 19 Oct 2026 in Brussels; still requires European Parliament consent, ratification by all 27 EU member states (mixed agreement per Coreper 15 Jul 2026), a consultative referendum and Consell General ratification before entry into force. Signing date reconfirmed by Govern news item 16 Sep 2026. Per Eunews (secondary, 16 Jul 2026) the Council decision also covers provisional application — scope and start unverified, re-check at signature. Not in force as at 2026-09-24. Verified 2026-09-24 | https://andorraue.ad/ca/acord-d-associacio | 2026-09-24 | 2026-12-18 | 2 | --macro --tax --visa (AD)`
 
 ### 🇦🇼 AW
 
