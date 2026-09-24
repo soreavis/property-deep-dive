@@ -196,7 +196,7 @@ Output a maintenance report:
 
 ### IT 🇮🇹
 - 38 URLs checked, 35 ✅, 1 broken (replaced), 2 redirects
-- 12 numeric facts re-verified, 3 changed (cedolare secca limit dropped from 5 to 2 properties effective 2026)
+- 12 numeric facts re-verified, 3 changed (cedolare secca limit dropped from 4 to 2 properties effective 2026)
 - Status: HEALTHY
 
 ### CZ 🇨🇿
@@ -351,7 +351,7 @@ The `**Last verified**: <date>` line, when present, is the authoritative timesta
 | FR | --rental | 2026-08-01 | HIGH | 75 | (none) |
 | FR | --risks | 2026-04-25 | MEDIUM (was HIGH) | 173 | ⏱️ |
 | IT | --tax | 2026-04-26 | MEDIUM (was HIGH) | 172 | ⏱️ |
-| IT | --rental | 2026-04-26 | STALE — regwatch flag | 172 | 🛑 (cedolare 5→2 reform) |
+| IT | --rental | 2026-04-26 | STALE — regwatch flag | 172 | 🛑 (cedolare 4→2 reform) |
 | ... | | | | | |
 
 ## Action queue

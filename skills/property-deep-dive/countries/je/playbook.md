@@ -242,7 +242,7 @@ Long leases — 9+ years passed before the Royal Court; under-9-year leases are 
 
 - **Application opened**: 1 May 2024 ([gov.je news](https://www.gov.je/News/2024/pages/renteddwelling.aspx))
 - **Mandatory from**: 1 August 2024 — operating without a licence is an offence
-- Inspection may be required pre-grant; transitional inspection-deferral ran May–Jul 2024
+- Inspection may be required pre-grant; transitional inspection-deferral ran May–Jul 2024. Licence expires 2 years after it commences; fee £61.50; licences applied for in the May–Jul 2024 transition expired 30 Apr 2026 and renew by emailed invitation (2026 data, source gov.je rented-dwellings toolkit)
 
 **Minimum standards** — Public Health and Safety (Rented Dwellings — Minimum Standards and Prescribed Hazards) (Jersey) Order 2018:
 
@@ -255,7 +255,7 @@ Long leases — 9+ years passed before the Royal Court; under-9-year leases are 
 
 ### Short-let / tourist-accommodation regime
 
-- **`Tourism (Jersey) Law 1948`** + **Tourism Accommodation Regulations** require registration with **Visit Jersey / Economy Department** for short-stay tourist accommodation
+- **`Tourism (Jersey) Law 1948`** + **Tourism Accommodation Regulations** require registration with **Visit Jersey / Economy Department** for short-stay tourist accommodation (tourist registration is required where lodging for reward is provided for more than 5 persons at any one time); a short-let / holiday-let / Airbnb dwelling that is NOT registered as tourist accommodation needs a **Rented Dwellings licence** instead — Reg 2(2) of R&O.108/2023 exempts premises registered under Article 6 of the Tourism (Jersey) Law 1948 (para (b)) and registered lodging houses under the Lodging Houses (Registration) (Jersey) Law 1962 (para (a)) (2026 data, source gov.je rented-dwellings toolkit + jerseylaw.je)
 - Short-let (Airbnb / Booking.com) — **also captured by the residential statuses regime**: a Registered-status holder cannot operate a short-let business that conflicts with their housing classification. Verify with the Population Office before launching.
 - **HVR-specific constraint**: HVR consent is conditional on the property being the **principal place of residence** — commercial short-let conversion (e.g., splitting an annex into multiple Airbnb units) will **jeopardise HVR consent**. Pair the Tourism Law registration check with a `2(1)(e)`-compliance review before pitching short-let strategies to HVR-route buyers.
 - No Jersey equivalent (yet) of England's "90-day London Airbnb cap" or France's `Loi Le Meur` thresholds — but the housing-control law effectively constrains foreign-owned BTL.
@@ -544,7 +544,7 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 
 **Confidence**: MEDIUM-HIGH — tax / LTT / HVR / residential-status data sourced to gov.je primary pages and verified 2026-05-27. LTT 700k–1m band corrected (3 % standard, not 3.5 % — gov.je primary). 2026 Budget P.93/2025 (+3pp → +2pp higher-rate surcharge), HVR statutory-cap proposal P.19/2026 (rejected 26 Feb 2026), and 2026 mandatory independent taxation now integrated. Property-type and Royal-Court process verified against multiple secondary (Mourant, Viberts, Voisin) cross-referenced to jerseylaw.je primaries. **Parish rates**, **rented-dwellings licence fee**, **EPTT current band figures**, **HVR £3.5m/£1.75m thresholds (gov.je page does not expose figures — needs direct Locate Jersey lookup)**, **Voisin 2018 PDF staleness**, and **2026-specific allowance refresh** marked as `verify` placeholders — primary URL given.
 
-**Last verified**: 2026-07-02 (Public Registry fee schedule and drainage department corrected 2026-09-18 per courts.je + gov.je). Visa tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+**Last verified**: 2026-07-02 (Public Registry fee schedule and drainage department corrected 2026-09-18 per courts.je + gov.je). Rental / tax / visa tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 
 **Open follow-ups** (for next refresh cycle):
 

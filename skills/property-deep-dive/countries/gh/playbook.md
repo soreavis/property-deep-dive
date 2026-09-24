@@ -1,6 +1,6 @@
 # Ghana 🇬🇭 — Property Due-Diligence Playbook
 
-ISO2: `gh`. Status: PARTIALLY OPEN — non-Ghanaians are restricted to **leasehold (max 50 years renewable)** under 1992 Constitution Art. 266; Ghanaian diaspora pathways via Akwaaba / Right of Abode + Pan-African Identity Card framework. Currency-volatile (GHS sharp depreciation 2022-23, IMF programme since May 2023). Customary tenure (stool / skin / family / clan land) overlays ~78% of total land area per Lands Commission classification — single largest due-diligence trap. Researched 2026-05.
+ISO2: `gh`. Status: PARTIALLY OPEN — non-Ghanaians are restricted to **leasehold (max 50 years renewable)** under 1992 Constitution Art. 266; Ghanaian diaspora pathways via Akwaaba / Right of Abode + Pan-African Identity Card framework. Currency-volatile (GHS sharp depreciation 2022-23, IMF ECF May 2023 – concluded 27 Jul 2026, now a non-financing Policy Coordination Instrument). Customary tenure (stool / skin / family / clan land) overlays ~78% of total land area per Lands Commission classification — single largest due-diligence trap. Researched 2026-05.
 
 ## Country profile
 
@@ -593,7 +593,7 @@ Accra coastal: AC year-round; SLR exposure for parcels < 5 m elevation, particul
 - Hedge tools: forward FX limited at retail; institutional via authorized dealers
 - **Diaspora remittance corridors**: well-developed via licensed Money Transfer Operators (MTOs — Western Union, MoneyGram, RIA, WorldRemit) + bank-to-bank
 
-**Confidence**: HIGH for BoG framework + Foreign Exchange Act 2006; MEDIUM for forward GHS/USD projections (volatile, IMF-programme-dependent). Documentation at capital inflow = single most important procedural item for foreign-buyer USD repatriation.
+**Confidence**: HIGH for BoG framework + Foreign Exchange Act 2006; MEDIUM for forward GHS/USD projections (volatile; the IMF ECF concluded 27 Jul 2026 and the successor PCI carries no Fund financing). Documentation at capital inflow = single most important procedural item for foreign-buyer USD repatriation.
 
 ---
 
@@ -730,7 +730,7 @@ Accra Title Registration districts: **3-9 months** typical foreign-buyer transac
 | CGT | 15% net gain | 10% net gain | 5%/15% | 2.5% gross | 18% effective max |
 | Closing costs foreigner | ~5-12% | ~15-20% Lagos | ~8-12% | ~5-10% | ~5-7% |
 | Mortgage 2025-26 | GHS 25-35% / USD 9-13% | NGN 22-32% / USD 7-10% | KES 13-16% | EGP 18-25% | ZAR ~10-12% prime |
-| Investor visa | GIPC ≥USD 200-500k enterprise | STR ≥USD 100k business | Class G investor | Inv Law 160/2023 USD 250k+ | Bus Visa ZAR 5M |
+| Investor visa | GIPC ≥USD 200-500k enterprise | STR ≥USD 100k business | Class G investor | PM Decree 3099/2019 USD 250k+ | Bus Visa ZAR 5M |
 | Security | Stable (West Africa best-rated); localised | Elevated; state-by-state | Mixed | Stable urban | High urban crime |
 | Diaspora pathway | Akwaaba / Right of Abode (African descent) | NIDCOM diaspora | None specific | None | None |
 
@@ -979,7 +979,7 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 - **Double-allocation fraud**: same parcel sold to multiple buyers by chief / family head; first-registered Indenture + Concurrence prevails — pre-payment Lands Commission search + lawyer escrow + on-site witnessing mandatory.
 - **Parallel registration systems** (Title vs Deed) during transition — Accra + Kumasi advanced on Title; many districts still on Deed under Conveyancing Act 1973.
 - **GHS depreciation 2022-23**: ~GHS 6 → 14/USD peak; recovery + renewed pressure 2023-25; **USD informal pricing dominates prime Accra suburbs**.
-- **IMF Extended Credit Facility (May 2023-2026)**: programme conditionalities affect FX-availability + fiscal stance — monitor IMF + BoG releases.
+- **IMF Extended Credit Facility (May 2023 – concluded 27 Jul 2026)**: programme conditionalities shaped FX-availability + fiscal stance until the sixth and final review; the successor 36-month Policy Coordination Instrument is non-financing (reform monitoring only) — monitor IMF + BoG releases.
 - **Akwaaba / Right of Abode + PAID**: African-descent diaspora pathway (Immigration Act 2000 ss. 17-18 as amended Act 848 2012); does NOT confer freehold rights despite secondary-aggregator language often equating it; verify directly at GIS.
 - **No golden-visa via passive RE**: GIPC investor route requires USD 200-500k+ in registered going-concern enterprise.
 - **BoG capital-flow documentation**: foreign capital inflow MUST be authorized-dealer-bank-documented for future USD repatriation — #1 procedural risk.
@@ -1038,7 +1038,7 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 - **Parallel registration systems** (Title Registration Act 1986 PNDCL 152 + Conveyancing Act 1973 NRCD 175) coexist during transition
 - **GhanaPostGPS digital address** alongside traditional postal addresses
 - **Plot convention**: 1 plot ≈ 70×100 ft ≈ 21.34×30.48 m ≈ ~650 m² (Accra/Kumasi residential)
-- **GHS depreciation 2022-23 + IMF programme since May 2023**
+- **GHS depreciation 2022-23 + IMF ECF May 2023 – 27 Jul 2026 (now a non-financing Policy Coordination Instrument)**
 - **VAT raised from 12.5% to 15%** under Act 1082 in 2022
 - **CGT 15% net gain** (Income Tax Act 2015 Act 896)
 - **MMDA property rate** (0.5-3% assessed)
@@ -1097,4 +1097,4 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 
 **Status**: ✅ fully populated as of 2026-08-06
 **Confidence**: MEDIUM — federal frameworks (1992 Constitution Art. 266, Lands Act 2020, Income Tax Act 2015 Act 896, VAT Act 2013 Act 870 as amended, Stamp Duty Act 2005, Immigration Act 2000, GIPC Act 2013, Foreign Exchange Act 2006) are HIGH-confidence and primary-sourced. Specific 2026 numeric values (BoG MPR + GHS/USD + inflation + minimum wage + property-rate brackets + GIPC capital-thresholds + Lands Commission fee schedule) are MEDIUM-confidence — verified at primary-source level but rates evolved quarterly under the IMF ECF, which concluded 27 Jul 2026; date-stamped + flagged "verify current". LOW confidence on Akwaaba / Right of Abode / Pan-African Identity Card procedural detail (multiple program iterations + secondary-aggregator oversimplification — primary GIS / Ministry of the Interior verification mandatory) and on parcel-level customary-tenure due diligence (stool / family chain is highly parcel-specific + lawyer-skill-dependent). Two non-negotiable foreign-buyer caveats surfaced prominently: (1) **constitutional 50-year leasehold cap for non-Ghanaians (Art. 266)**; (2) **customary-tenure (~78%) + double-allocation fraud risk** — Lands Commission search + lawyer escrow + on-site witnessing mandatory.
-**Last verified**: 2026-08-06 (ECF conclusion re-verified; prior validation sweep 2026-05-27 — E-Levy REPEALED April 2025; Mahama 2025 fiscal reform package; VAT Act 2025 (Act 1151) eff. 1 Jan 2026 + threshold GH₵750k + NHIL/GETFund recoupled + VFRS abolished; COVID levy abolished 1 Jan 2026; BoG MPR 14.0% May 2026; GHS/USD ~11-12 cedi appreciation; IMF programme end note; GREDA source tier corrected 2026-09-18 per gredaghana.org)
+**Last verified**: 2026-08-06 (ECF conclusion re-verified; prior validation sweep 2026-05-27 — E-Levy REPEALED April 2025; Mahama 2025 fiscal reform package; VAT Act 2025 (Act 1151) eff. 1 Jan 2026 + threshold GH₵750k + NHIL/GETFund recoupled + VFRS abolished; COVID levy abolished 1 Jan 2026; BoG MPR 14.0% May 2026; GHS/USD ~11-12 cedi appreciation; IMF programme end note; GREDA source tier corrected 2026-09-18 per gredaghana.org). Macro tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Cross-references corrected 2026-09-24 from the EG-614 tracker entry (November regwatch wave, run early).

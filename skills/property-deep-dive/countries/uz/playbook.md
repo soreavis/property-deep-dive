@@ -181,17 +181,17 @@ Source: Tax Code Art. 425; [Kun.uz tax brief Dec 2024](https://kun.uz/en/8467672
 | Regional centres + Tashkent oblast | **2,200,000** | ~$176 |
 | Other localities | **1,300,000** | ~$104 |
 
-Source: [Kun.uz](https://kun.uz/en/84676729) + Tax Committee guidance; **2026 figures indexed +7 %** per EY 2026 alert (verify exact 2026 floors at [gov.uz/en/soliq](https://gov.uz/en/soliq) before relying).
+Source: [Kun.uz](https://kun.uz/en/84676729) + Tax Committee guidance; 2026 indexation of individuals' property-tax figures is NOT stated in the EY 2026 alert (EY covers legal-entity property-tax base rates + land tax only) — data not publicly available in the sources read; verify in Law ZRU-1108 at lex.uz (verify exact 2026 floors at [gov.uz/en/soliq](https://gov.uz/en/soliq) before relying).
 
 ### Example calculation (Tashkent mid-segment apartment)
 
 A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, asking price US$95,000 (~UZS 1,187,500,000):
 - Cadastral value floor calculation: 70 m² × 3,300,000 UZS/m² (Tashkent floor 2025) = **UZS 231,000,000 (~US$18,500)** assessed cadastral
 - Property tax band: ≤200 m² → 0.34 % rate → **UZS 785,400/year (~US$63/year)** at floor; if individual cadastral is higher, rate applies on actual cadastral value
-- 2026 indexation +7 % → ~UZS 840,000/year (~US$67/year)
+- est. only if the +7 % 2026 indexation (per the Kuchkarov briefing cited in the rate-schedule heading above — not stated in the EY 2026 alert; verify in ZRU-1108) applies to individuals: ~UZS 840,000/year (~US$67/year)
 - **Annual property tax in UZ is materially low** (typically US$50–US$200/year for an Tashkent mid-segment flat) — among the lowest in the broader Central Asia / CIS region.
 
-> Effective property-tax rate on **market value** (not cadastral) is typically **0.05–0.15 %** for Tashkent residential — even with the 2025 floor uplift + 2026 +7 % indexation, the tax burden remains negligible by global standards. Verify per parcel with the **Tax Committee** at [gov.uz/en/soliq](https://gov.uz/en/soliq) or via your taxpayer cabinet (`my.soliq.uz`).
+> Effective property-tax rate on **market value** (not cadastral) is typically **0.05–0.15 %** for Tashkent residential — even with the 2025 floor uplift (and any 2026 +7 % indexation, unconfirmed for individuals), the tax burden remains negligible by global standards. Verify per parcel with the **Tax Committee** at [gov.uz/en/soliq](https://gov.uz/en/soliq) or via your taxpayer cabinet (`my.soliq.uz`).
 
 ### Land tax (Yer solig'i / Земельный налог)
 
@@ -246,7 +246,7 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
 - **VAT real-time invoice AI system**: launched 1 Jan 2026; high-risk invoice flagging may delay input VAT recovery — affects developers + commercial RE more than individual residential buyers
 - **Currency-control evolution**: 2019 liberalisation continues to be refined; 2024 + 2025 amendments tightened reporting on outward transfers >US$10k; monitor [cbu.uz](https://cbu.uz/) bulletins
 - **Real-estate-for-residence threshold** (separate pre-existing route, distinct from the PF-67 donation Golden Visa): $100k/$200k/$300k by region; thresholds may be revised in 2026–2028 budget cycles
-- **Cadastral floor**: Tashkent floor 3.3M UZS/m² (2025) → expected ~3.53M UZS/m² with 2026 +7 % indexation; long-run trajectory aligns toward ~50–70 % of market price as Rosreestr methodology matures
+- **Cadastral floor**: Tashkent floor 3.3M UZS/m² (2025) → ~3.53M UZS/m² est. if the Kuchkarov-briefing +7 % 2026 indexation applies (not stated in the EY 2026 alert — verify in ZRU-1108); long-run trajectory aligns toward ~50–70 % of market price as Rosreestr methodology matures
 
 ---
 
@@ -626,11 +626,11 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 - **5-year "Golden Visa" (Investor Residence Permit, PF-67, June 2025)** — **donation route**: US$250k + US$150k/family member, **no property condition** (implementing regulation not yet adopted as of Oct 2025 — banks cannot yet accept donations; verify operational status)
 - **Separate real-estate-for-residence route** (pre-existing, distinct from the PF-67 donation Golden Visa): US$300k Tashkent / US$200k Samarkand+Bukhara+Namangan+Andijan+Fergana+Khorezm / US$100k other regions
 - **IT Visa** — alternative pathway, no minimum threshold, 3-year multi-entry for IT Park resident-company affiliates
-- **Annual property tax low**: 0.34 %/0.45 %/0.6 % on cadastral value (with Tashkent floor 3.3M UZS/m² ~ US$264, +7 % indexed 2026); typical Tashkent mid-segment flat US$56–US$200/year
+- **Annual property tax low**: 0.34 %/0.45 %/0.6 % on cadastral value (with Tashkent floor 3.3M UZS/m² ~ US$264, +7 % 2026 indexation per Kuchkarov briefing, not in the EY 2026 alert — verify); typical Tashkent mid-segment flat US$56–US$200/year
 - **Transaction costs ~0.3–2.0 %** — among Asia/CIS lowest (no transfer tax, low notary, low cadastre fees)
 - **CGT 12 % flat resident** / **20 % non-resident** on UZ real-estate sale gain
 - **2023 PIT reform**: replaced multi-bracket progressive scale with **12 % flat** on employment + rental + capital gains for residents; **non-resident PIT also reduced to 12 %** (from prior 20 %) by Presidential Resolution
-- **2026 changes**: VAT 12 % unchanged; CIT 15 % unchanged; **+7 % indexation** on land + property + water-use tax base rates (EY 2026 alert)
+- **2026 changes**: VAT 12 % unchanged; CIT 15 % unchanged; **+7 % average indexation** of land-tax rates (legal entities + individuals), legal-entity property-tax base rates and water-use tax for listed user classes (2026 data, source EY Tax Alert Jan 2026 citing Law ZRU-1108 of 25 Dec 2025 — secondary; verify at lex.uz)
 - **Currency**: UZS managed-float, ~290 % cumulative depreciation since 2017 liberalisation; CBU policy rate 14 % (April 2026); inflation 7.3 % (end-2025) → 6.5 % forecast (end-2026)
 - **Tashkent seismic exposure**: moderate (post-1966 reconstruction predominates); pre-1966 stock minimal in central Tashkent (mostly destroyed by 1966 earthquake); but Samarkand + Bukhara + Fergana Valley old-mahalla pre-1966 stock requires structural survey
 - **Aral Sea region (Karakalpakstan)**: chronic environmental hazard — toxic dust, respiratory + cancer risk; low property prices but acute long-term residence concern
@@ -725,4 +725,4 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 
 **Status**: ✅ fully populated as of 2026-05-07
 **Confidence**: MEDIUM — HIGH for foreign-buyer rules (Cabinet Resolution PQ-384 of 13 July 2022 + Land Code Art. 17–18 + 5-year Investor Residence Permit under **Presidential Decree PF-67 of 18 April 2025** (eff. 1 June 2025) multi-source corroborated against Astana Times, Library of Congress Global Legal Monitor, Azizov & Partners memo, Gratanet brief, Mondaq), tax framework (12 % flat PIT, 0.34/0.45/0.6 % property tax, cadastral floors 3.3M/2.2M/1.3M UZS/m² Tashkent/regional/other, 2026 +7 % land+property+water indexation per EY 2026 alert + Kun.uz Kuchkarov briefing), IT Park / IT Visa regime (US$30k IT-income threshold, 3-year multi-entry, real-estate any value), currency framework (CBU 14 % policy rate unchanged April 2025–April 2026, 7.3 % inflation end-2025, USDUZS ~12,300–12,950 Q1–Q2 2026), 1966 Tashkent earthquake seismic baseline (Mw 5.2 + 4 % pre-1966 stock vulnerable to Mw 5.5 per 2026 Nature Sci Rep paper). MEDIUM for parcel-level seismic certification (Institute of Seismology zoning is regional — parcel certification on request), STR municipal regulation (no national STR statute; Tashkent + Samarkand + Bukhara experimenting at municipal level), VAT treatment of primary residential sale (Tax Code Art. 244 exempt for residential — verify current 2026 wording at lex.uz), 2026 cadastral floor exact UZS values (verify after +7 % indexation lands at soliq.uz), and rental-income market data (Jarniascyril aggregator-grade for Samarkand/Bukhara STR yields). LOW for parcel-level land-lease term remaining (per-parcel verification at kadastr.uz mandatory; 49-year leases inherited from Soviet-era titling are uneven), 2026 minimum-wage exact UZS value (verify at mehnat.uz before relying), regional regional-centre cadastral floors (Stat.uz publishes Tashkent in detail; regional centres + other localities aggregated). **Russian-language + Uzbek-language primary sources dominate** — English-language coverage thin per roadmap; key gaps: detailed parcel-by-parcel cadastral access for non-Russian-speakers requires intermediary; Stat.uz crime data (104.3/10k Tashkent 2024) reflects ongoing reporting reform + digitalisation — interpret +27.1 % YoY 2024 as partly methodological, not pure crime increase.
-**Last verified**: 2026-07-02 (ecology committee and tax committee names corrected 2026-09-18 per gov.uz)
+**Last verified**: 2026-07-02 (ecology committee and tax committee names corrected 2026-09-18 per gov.uz). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).

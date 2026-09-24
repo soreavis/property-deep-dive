@@ -54,7 +54,7 @@ For the property's country, return:
 | **DO** | **Investor/Pensionado visa** — foreign pension exempt from DO tax; territorial system; 50% discount on transfer tax + property tax under retirement law | USD 1.5k/mo pension OR USD 200k investment route |
 | **UY** | **Tax residency** — 11-yr exemption on foreign-source interest+dividends (Ley 19.937); pension itself not exempt but progressive PIT modest; territorial-leaning | Investment OR 60-day physical presence routes |
 | **GE** | **Visa-free 1-year** for ~95 nationalities; territorial tax — foreign-source income not taxed | No formal retirement visa needed for most |
-| **EG** | **Investment Law 160/2023 PR route** — foreign-source pension generally not taxed by EG (territorial application varies) | USD 250k cash deposit → permanent residency |
+| **EG** | **PM Decree 3099/2019 investor route** (outcome unreconciled: GAFI citizenship / US State Dept 2025 ICS permanent residency) — foreign-source pension generally not taxed by EG (territorial application varies) | USD 250k non-refundable Treasury contribution (GAFI form) |
 | **HK** | **Salaries Tax territorial — HK-source income only**; foreign pension generally NOT taxed; no global PIT regime | Tax residency by physical presence; pension articles in DTA network |
 | **SG** | **Foreign-source income generally NOT taxed** for individuals (received in SG); IRAS NOR scheme for qualifying tax-residents (~0% on certain inbound foreign income) | NOR replaced for new applicants 2020+ — verify with IRAS; resident PIT 0-22% progressive |
 | **MO** | **Macao Professional Tax territorial** — foreign pension NOT subject to MO PIT under territorial principle | DSF (Direcção dos Serviços de Finanças) — verify per-case |
@@ -361,13 +361,13 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 | TR | **Turquoise Card / Long-stay residence** | No formal retirement program; Turquoise Card via investment route |
 | ZA | **Retired Person Visa** | Pension/income ZAR 37,000/mo (~USD 2k/mo) — verify 2026 threshold at DHA |
 | DO | **Pensionado / Rentista** | USD 1.5k/mo pension OR USD 2k/mo rentista; 50% discount on transfer + property tax |
-| CO | **Migrante M Visa — Pensionado** | MOH-recognized pension >COP 3× SMLMV (~USD 1k/mo at 2026 SMLMV) |
+| CO | **Migrante M Visa — Pensionado** | MOH-recognized pension >COP 3× SMLMV (COP 5.25M ≈ USD 1,671/mo at the 2026 SMLMV COP 1,750,905 and TRM 3,144.14 — computed) |
 | UY | **Tax residency** (no formal retirement visa) | 11-yr foreign interest+dividend exemption (Ley 19.937) |
 | CL | Standard residency | No retirement-specific program; 3-yr foreign-income exemption from arrival |
 | GE | **Visa-free 1 year** | ~95 nationalities; no retirement-specific scheme needed |
 | IL | **Aliyah (Olim)** | Direct citizenship for Jewish ancestry; 10-year tax holiday on foreign income (Amendment 168) |
 | MA | **Carte de Séjour (long-stay)** | Standard residence permit; pension 80% abatement if remitted in DH |
-| EG | **Investment Law 160/2023 PR** | USD 250k cash deposit → permanent residency; verify currency-control / Form 4 risks |
+| EG | **PM Decree 3099/2019 investor route** | USD 250k non-refundable Treasury contribution (GAFI form); outcome citizenship vs permanent residency unreconciled; verify currency-control / Form 4 risks |
 | US | None federal; state-level | No US retirement visa for non-citizens (immigration via family/EB-5/marriage); domestic retirees: TX/FL/TN/NV/WA/SD/WY/AK no state income tax |
 | JP | None retirement-specific | Highly Skilled Professional / Investor / Spouse routes; no pensioner-class visa |
 | SG | None retirement-specific | LTSV (Long-Term Social Visit Pass for parent of EP/PR holder); GIP (S$10M business / S$25M family-office / S$200M-SFO via EDB) |
@@ -483,7 +483,7 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 - **Healthcare**: EPS contributory (residents pay ~12% income); private (Sanitas, Colsanitas) Medellín/Bogotá compares to US private at fraction of cost
 - **Climate**: **Medellín "City of Eternal Spring"** 18-22°C year-round (altitude-moderated); Cartagena 26-32°C tropical
 - **Expat density**: Surge in US/CA digital-nomad-aging-into-retirement; Medellín El Poblado/Laureles, Cartagena historic centre
-- **Visa**: **Migrante M Visa Pensionado** — MOH-recognized pension >COP 3× SMLMV (~USD 1k/mo at 2026 SMLMV) — see `visa-programs.md`
+- **Visa**: **Migrante M Visa Pensionado** — MOH-recognized pension >COP 3× SMLMV (COP 5.25M ≈ USD 1,671/mo at the 2026 SMLMV COP 1,750,905 and TRM 3,144.14 — computed) — see `visa-programs.md`
 
 ### 🇺🇾 UY
 - **Pension tax**: 11-year exemption on foreign interest+dividends (Ley 19.937, 2020+ reform); pension itself not exempt but progressive PIT modest; territorial-leaning
@@ -560,7 +560,7 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 - **Healthcare**: New Universal Health Insurance (2018 law, phased rollout); expats use private (Cleopatra, As-Salam International); **medivac for serious cases recommended**
 - **Climate**: Hurghada/Sahel/Sharm 18-35°C; very dry; summer extreme
 - **Expat density**: RU/UA/DE/UK retirees; Hurghada, El Gouna, Sahel; **EGP currency volatility risk material** (post-2024 devaluations)
-- **Visa**: **Investment Law 160/2023 PR** — USD 250k cash → permanent residency; verify currency-control / Form 4 repatriation risks before committing
+- **Visa**: **PM Decree 3099/2019 investor route** — USD 250k non-refundable Treasury contribution; outcome citizenship vs permanent residency unreconciled between GAFI and US State Dept 2025 ICS; verify currency-control / Form 4 repatriation risks before committing
 
 ## Tier-3 country profiles (added 2026-05-01)
 

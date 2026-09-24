@@ -713,7 +713,7 @@ Lagos: 4-12+ months (Consent is critical path); FCT Abuja: 2-6 months; other sta
 | CGT | Progressive PIT 0–25% / 30% CIT on net gain (eff 2026; pre-2026 flat 10% superseded) | 15% | 5%/15% | 2.5% gross | 18% effective max |
 | Closing costs foreigner | ~15-20% Lagos | ~10-15% | ~8-12% | ~5-10% | ~5-7% |
 | Mortgage 2026 | NGN 22-32% / USD 7-10% | GHS 25-35% | KES 13-16% | EGP 18-25% | ZAR ~10-12% prime |
-| Investor visa | STR ≥USD 100k business | Permit ≥USD 25k | Class G investor | Inv Law 160/2023 USD 250k+ | Bus Visa ZAR 5M |
+| Investor visa | STR ≥USD 100k business | Permit ≥USD 25k | Class G investor | PM Decree 3099/2019 USD 250k+ | Bus Visa ZAR 5M |
 | Security | Elevated; state-by-state | Stable | Mixed | Stable urban | High urban crime |
 
 ### Lagos vs other African foreign-buyer cities
@@ -1060,7 +1060,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — Tax Reform Acts signed 26 Jun 2025 eff. 1 Jan 2026; VAT 7.5% retained + residential rent zero-rated; CGT progressive replacement; PIT bands restructured ₦800k tax-free; CBN MPR 26.5%; NGN/USD ~1,375; Lagos Blue Book 1 May 2026; FIRS → NRS rebrand; compulsory-insurance basis corrected 2026-09-18 per NIIRA 2025 ss. 75-76)
+**Last verified**: 2026-05-27 (validation sweep — Tax Reform Acts signed 26 Jun 2025 eff. 1 Jan 2026; VAT 7.5% retained + residential rent zero-rated; CGT progressive replacement; PIT bands restructured ₦800k tax-free; CBN MPR 26.5%; NGN/USD ~1,375; Lagos Blue Book 1 May 2026; FIRS → NRS rebrand; compulsory-insurance basis corrected 2026-09-18 per NIIRA 2025 ss. 75-76). Cross-references corrected 2026-09-24 from the EG-614 tracker entry (November regwatch wave, run early).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

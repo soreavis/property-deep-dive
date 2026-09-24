@@ -188,7 +188,7 @@ For obra nueva (new build, vendida by impresa):
 
 | CCAA | Status |
 |---|---|
-| **Cataluña** | Strict; HUTV / HUT licenses; many municipios moratorium incl. Barcelona (BCN: all ~10,000 HUT licences non-renewable at PEUAT framework lapse Nov 2028 — 24 Nov 2028 per Ajuntament de Barcelona announcement; Collboni decree Jun 2024) |
+| **Cataluña** | Strict; HUTV / HUT licenses; many municipios moratorium incl. Barcelona (BCN: all 10,101 HUT (2024 data, source Ajuntament de Barcelona Mesura de Govern 2024-2027) lose their habilitation in November 2028 under the Generalitat's Decret llei 3/2023 DT2 — no calendar day is sourced; on 21 Jun 2024 the Ajuntament announced it will grant no llicència urbanística (a municipal announcement, not a municipal decree); DT2.2 allows one owner-requested extension of up to five years) |
 | **Baleares** | Mallorca + Ibiza near impossible to obtain new licenses |
 | **Canarias** | Strict in Tenerife, Gran Canaria |
 | **Madrid** | License + community approval; pressure from city hall |
@@ -403,7 +403,7 @@ For obra nueva (new build, vendida by impresa):
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-08-07 (Cataluña IEET tourist-tax tariff schedule re-verified against ATC — Llei 2/2026 rates in force 1 Apr 2026; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged). Tax tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+**Last verified**: 2026-08-07 (Cataluña IEET tourist-tax tariff schedule re-verified against ATC — Llei 2/2026 rates in force 1 Apr 2026; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged). Rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (Catastro free + comprehensive; SNCZI maintained). MEDIUM for short-let regulation (CCAA-specific, evolving — Cataluña tightening, Madrid moderate). HIGH for Cataluña 2025 ITP reform (27 Jun 2025 effective, Decret llei 5/2025).
 

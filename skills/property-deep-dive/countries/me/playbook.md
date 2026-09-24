@@ -199,7 +199,7 @@ Plus **municipal surtax (prirez)** ~13% of PIT due → effective top rate ~17%. 
   - Podgorica: ~EUR 750–1,200
   - Tivat (tourism + luxury): ~EUR 700–1,300
   - Smaller cities: ~EUR 500–800
-- **Minimum wage**: EUR 600 (low qualification) / EUR 800 (high qualification) — Europe Now 2, eff 1 October 2024 (see Active fiscal incentives section)
+- **Minimum wage**: EUR 600 (low qualification) / EUR 800 (high qualification) — Europe Now 2, eff 1 October 2024 (see Active fiscal incentives section). **Pending**: Government "Euro model" law package adopted at the 17 Sep 2026 Government session would set minimum NET wages of EUR 1,000 / 1,250 / 1,400 (basic / secondary / higher education) from January 2027 — parliamentary adoption not confirmed, verify at skupstina.me (2026 data, source gov.me)
 
 ---
 
@@ -326,7 +326,7 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 - **NEW investor residency (effective 17 January 2026)** (€150k property → 5 years to permanent → 10 to citizenship)
 - **Progressive RETT since 1 Jan 2024**: 3% / 5% / 6% marginal bands — €4,500 + 5% above €150k, €22,000 + 6% above €500k (not flat 3% as previously)
 - **VAT restructure (eff 1 Jan 2025)**: new **15% bracket** added (hotels/restaurants/books); 21% standard; 7% essentials-only; 21% on first-sale residential remains in lieu of RETT
-- **Europe Now 2 (eff 1 October 2024)**: minimum wage raised to **€600** (low qualification) / **€800** (high qualification); employee pension-and-disability contribution cut 15% → 10%; employer pension-and-disability contribution eliminated (was 5.5%)
+- **Europe Now 2 (eff 1 October 2024)**: minimum wage raised to **€600** (low qualification) / **€800** (high qualification); employee pension-and-disability contribution cut 15% → 10%; employer pension-and-disability contribution eliminated (was 5.5%). **Pending "Euro model"** (Government session 17 Sep 2026, to apply from January 2027): minimum NET wages EUR 1,000 / 1,250 / 1,400 + a further labour-tax cut announced — not yet enacted as read on 2026-09-24, verify at skupstina.me (2026 data, source gov.me)
 - **Foreign-buyer rules** (Zakon o svojinsko-pravnim odnosima): foreign natural persons CANNOT own agricultural land, forests, or forest land. **Exception**: up to **5,000 m²** of such restricted land may be acquired if a residential building is on it and the transfer agreement covers residence + adjoining land. **Workaround**: incorporate a Montenegrin **d.o.o.** (domestic legal entity faces no restriction) — the dominant vehicle for agricultural/coastal portfolio buyers *(2026-05-27 verified, source Chambers Real Estate 2025 ME)*
 - **Russian buyer concentration post-2022** + EU buyer surge
 - **Coastal vs mountain divergence**: Adriatic 5-10× inland prices
@@ -388,7 +388,7 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27. Tax tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27. Tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (MONSTAT Q3 2025 + CBCG + Realitica), traffic (Putevi PGDS), tax (porez na nepokretnost 0.25-1.0% + progressive RETT 3/5/6% since Jan 2024 + 21% VAT first-sale + 15% CGT), rental (Opština license + tourist tax + 15% PIT), work (ZZZCG), risks (1979 Adriatic M6.9 + Mediterranean wildfire + karst), mains (ViK per municipality).
 **Confidence**: HIGH for EUR informal adoption 2002 (no central-bank issuance UNIQUE); HIGH for progressive RETT 3/5/6% effective 1 Jan 2024; HIGH for CBI abolition 31 Dec 2022 + NEW Jan 2026 investor residency €150k; HIGH for cadastre URLs (gov.me/uzn + ekatastar.me); MEDIUM for MerkaturNekretnine listing platform (could not independently verify); MEDIUM for 21% VAT first-sale framing (in lieu of RETT, not reduced rate).
 

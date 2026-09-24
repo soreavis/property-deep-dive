@@ -112,9 +112,9 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 ### Davek na nepremičnine reform 2025-2026 (PENDING)
 
 - 2025 posplošena vrednost reform sets the base
-- **Government proposal**: uniform tax rate **1.45%** of property value (all property types)
-- **Status (April 2026)**: many comments received during consultation; new proposal pending
-- **Scheduled for 2026 implementation** per government plans (subject to enactment)
+- **Government izhodišča (23 Dec 2024)**: **1.45%** of the GURS posplošena vrednost on residential property, the first home the owner actually lives in fully exempt (MF gov.si, 2024-12-23) — **NOT ENACTED**, it never advanced past the izhodišča
+- **Status**: no law; MF collected responses to 25 Jan 2025 and no successor bill was found in the sources read on 2026-09-24 (FURS page refreshed 29 Dec 2025; a secondary 8 Sep 2026 report says the proposal never became law); the 16th Government (appointed 4 Jun 2026) has not been shown to revive it — re-verify at MF gov.si before quoting a rate
+- **No implementation date**: no enacted law
 - Strateški svet bo pregledal pripombe — review of comments + draft law expected
 
 ### Transaction taxes
@@ -144,8 +144,8 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Future risk
 
-- **Davek na nepremičnine**: implementation pending; proposed 1.45% rate (see above); final rate uncertain pending consultation revision
-- **NUSZ phase-out** if davek replaces it
+- **Davek na nepremičnine**: NOT ENACTED — the Dec 2024 1.45% izhodišča never advanced (see above); any revival by the 16th Government is unverified
+- **NUSZ stays**: MF stated the proposed tax would NOT have replaced NUSZ (it would have abolished only the ZDO davek od premoženja)
 - **Posplošena vrednost** revaluation cycles
 
 ---
@@ -322,7 +322,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Among the higher seismic-hazard countries in Central Europe** — cona 1 covers Posočje + Ljubljana cona 2; pre-1963 builds dangerous
 - **Posplošena vrednost reform 2025** — new mass-appraised values effective 13 May 2025
-- **Davek na nepremičnine reform pending** — proposed 1.45% rate; comments under review; 2026 implementation target (uncertain)
+- **Davek na nepremičnine NOT ENACTED** — the Dec 2024 1.45% izhodišča never advanced; NUSZ + ZDO davek od premoženja remain payable
 - **EU 2007 currency** — no FX risk (vs CZ/PL/HU)
 - **Adriatic coast (Koper-Piran)**: tourist premium + sea-level rise concern
 - **Karst** specific construction issues — caves, sinkholes
@@ -334,7 +334,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 - **Italian + Hungarian linguistic minorities** along borders — bilingual signage + listings
 - **Bovec earthquakes 1998 + 2004** as recent reference events
 - **August 2023 catastrophic flood** as recent reform driver
-- **Brez davka na nepremičnine — for now**: until reform enacted, NUSZ remains the charge
+- **Brez davka na nepremičnine**: the 1.45% proposal was NOT enacted and would not have replaced NUSZ — NUSZ (municipal) + the ZDO davek od premoženja remain the charges
 - **Etažna lastnina**: rezervni sklad (reserve fund) requirements
 
 ## Reddit / forum sources
@@ -374,9 +374,9 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25 (Ljubljana water / wastewater operator re-identified as JP VOKA SNAGA 2026-09-18; the si:286 connection-cost figures were not re-verified).
-**Coverage check**: pricing, traffic, tax (with pending reform note), rental, work, risks (incl. seismic cona zoning + August 2023 flood reference), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for posplošena vrednost reform (Bloomberg Adria, Kalko, N24, MojMojster, alfaelmas all confirm 13 May 2025 effective + €298B aggregate + +8% average); HIGH for cadastre + GeoZS sources; MEDIUM for davek na nepremičnine 1.45% rate (proposed but consultation responses pending — flag as uncertain in any output).
+✅ **Fully populated** as of 2026-04-25 (Ljubljana water / wastewater operator re-identified as JP VOKA SNAGA 2026-09-18; the si:286 connection-cost figures were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Coverage check**: pricing, traffic, tax (with the not-enacted 1.45% proposal note), rental, work, risks (incl. seismic cona zoning + August 2023 flood reference), mains all have primary government sources + cost benchmarks + caveats.
+**Confidence**: HIGH for posplošena vrednost reform (Bloomberg Adria, Kalko, N24, MojMojster, alfaelmas all confirm 13 May 2025 effective + €298B aggregate + +8% average); HIGH for cadastre + GeoZS sources; MEDIUM for the NOT-ENACTED status of the davek na nepremičnine 1.45% proposal (izhodišča of 23 Dec 2024 never advanced; re-verify any successor plan at MF gov.si before output).
 
 ## Extension TODOs
 

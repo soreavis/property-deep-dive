@@ -8,7 +8,7 @@
 
 ## Country profile
 
-Latvia is the middle Baltic state (~1.85M pop). **Cadastre and Land Book are SEPARATE registers** (unlike Lithuania's unified Registrų centras) — VZD = physical/fiscal description; Zemesgrāmata = legal title. Both must be checked. Riga apartment €/m² is structurally lower than Vilnius (~€865 standard segment vs ~€2,930 est. Vilnius) — slower post-2008 recovery + supply mix dominated by Soviet "khrushchyovkas". Critical Latvia-specific gotcha: **compulsory land lease (dalītais īpašums)** — many Soviet-era blocks in Riga have apartments owned separately from underlying land (often pre-1940 owner via restitution). EU + eurozone + Schengen. Major 2026 reforms: PIT to 25.5%/33% + capital-income to 25.5% (was 20%).
+Latvia is the middle Baltic state (~1.85M pop). **Cadastre and Land Book are SEPARATE registers** (unlike Lithuania's unified Registrų centras) — VZD = physical/fiscal description; Zemesgrāmata = legal title. Both must be checked. Riga apartment €/m² is structurally lower than Vilnius (~€865 standard segment vs ~€2,930 est. Vilnius) — slower post-2008 recovery + supply mix dominated by Soviet "khrushchyovkas". Critical Latvia-specific gotcha: **compulsory land lease (dalītais īpašums)** — many Soviet-era blocks in Riga have apartments owned separately from underlying land (often pre-1940 owner via restitution). EU + eurozone + Schengen. Major 2025 reform (in force 1 Jan 2025, rates unchanged for 2026): PIT to 25.5%/33% + capital-income to 25.5% (was 20%).
 
 ---
 
@@ -83,8 +83,8 @@ Sources:
 
 ### Capital gains on property sale (LV individuals)
 
-- **Standard rate 20%** (until 2027 transitional, for transactions initiated in 2024)
-- **From 2026 onwards**: **25.5%** capital income rate (under 2026 PIT reform)
+- **Standard rate 25.5%** from 1 Jan 2025 (2025 data, source VID) — 20% applies in 2025-2027 only to gains on capital-asset deals initiated by 31 Dec 2024 but not completed by then, with a capital-gains declaration filed
+- **From 2025 onwards**: **25.5%** capital-gains rate (2025 PIT reform; unchanged on the VID rates page updated 30 Dec 2025)
 - **Exemption**: held **≥60 months (5 years)** AND registered as primary residence **≥12 months** within that 60-month window → fully exempt (BOTH conditions, not OR)
 
 Source: https://taxsummaries.pwc.com/latvia/individual/income-determination
@@ -92,7 +92,7 @@ Source: https://taxsummaries.pwc.com/latvia/individual/income-determination
 ### Rental income (individual)
 
 - **10% PIT flat** after deductions if registered as "performer of economic activity without forming a business" — cleanest route for landlords
-- OR full progressive **PIT (Iedzīvotāju ienākuma nodoklis, IIN)** 25.5% up to €105,300 / 33% above + additional **3% surcharge above €200,000** total annual income (2026 PIT reform). (2026-05-27 verified, source PwC + KPMG)
+- OR full progressive **PIT (Iedzīvotāju ienākuma nodoklis, IIN)** 25.5% up to €105,300 / 33% above + additional **3% surcharge above €200,000** total annual income (2025 PIT reform, in force 1 Jan 2025; 2026 data, source VID)
 
 ### VAT new-build
 
@@ -285,7 +285,7 @@ Universal — see `shared/climate-projections.md`.
 
 ## Status
 
-**Confidence**: HIGH on stamp-duty 1.5%/2% with €50k cap, 2026 PIT reform 25.5%/33% (KPMG/PwC verified), cadastre + Land Book separation, compulsory land lease quirk (academic + legal sources). MEDIUM on per-municipality NĪN rates (Riga regulation specific lookup needed), 2025 cadastral fiscal/universal split (reform recent). LOW on per-locality rental yield benchmarks.
+**Confidence**: HIGH on stamp-duty 1.5%/2% with €50k cap, 2025 PIT reform 25.5%/33% (VID verified), cadastre + Land Book separation, compulsory land lease quirk (academic + legal sources). MEDIUM on per-municipality NĪN rates (Riga regulation specific lookup needed), 2025 cadastral fiscal/universal split (reform recent). LOW on per-locality rental yield benchmarks. Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)

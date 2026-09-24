@@ -584,7 +584,7 @@ Country-specific authorities:
 **Cross-cutting traps to surface every time** (from `shared/connectivity.md`):
 - "Fibre available" on the listing ≠ active line at this unit — verify regulator address-checker + ask seller for active line ID before signing
 - National FTTH percentages mask rural/urban gaps — ES 92% national vs 79% rural; UK 74% national but 90%+ urban with isolated rural gaps; BR 70% national but tier-1-skewed; AU mixes FTTP/FTTC/FTTN/HFC/FW/Sky Muster
-- Starlink legality varies and changes — banned (CN/IR/SY/RU/BY/AF/CU/KP), pending (SA/MA/EG/BH/KW/AM/AZ/GE/UZ/IL-security/IN/KR), grey (ZA-30%-BEE), not-licensed (BA-major-EU-absence, JM, TR), recently licensed (AE Mar 2026, JO Feb 2026, CO Apr 2024); status moves fast
+- Starlink legality varies and changes — banned (CN/IR/SY/RU/BY/AF/CU/KP), pending (SA/MA/EG/BH/KW/AM/AZ/GE/UZ/IL-security/IN/KR), grey (ZA-30%-BEE), not-licensed (BA-major-EU-absence, JM, TR), recently licensed (AE Aug 2026, JO Feb 2026, CO Apr 2024); status moves fast
 - 5G FWA does not replace fibre for upload-heavy work — symmetric-gigabit FTTH (IS Reykjavík Fibre, KR/JP/SG/HK/TW urban, CH FR symmetric add-ons) required for video conferencing at scale
 - Strata / HOA / riser approval — strong individual right-to-fibre laws (FR Loi Pintat, IT D.Lgs. 259/2003 + Law 12/2019, PT DL 123/2009, ES Ley 9/2014); assembly approval routinely required (DE Mietshaus, AT WEG, NL VvE, BE syndic, CH Stockwerkeigentum, SE BRF, FI taloyhtiö, CZ panelák SVJ, IL board, IN society/RWA, ZA body corp, AU Owners Corp, JP マンション 管理組合, KR 아파트 단지)
 - Microstate / state monopolies — MC, AD, LI, SM, MV, UY, EC, CV, MO, LB, CN, EG, BZ have single licensed operators or near-monopolies; expect 10-30% premium and longer install-windows

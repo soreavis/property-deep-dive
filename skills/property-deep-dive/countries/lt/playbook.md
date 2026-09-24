@@ -73,14 +73,15 @@ Source: https://www.notarurumai.lt/en/
 
 **Pre-2026 (now historical)**: residents tax-exempt up to €150,000 total residential value (€200k for families w/ 3+ children); above that 0.5–2% municipal. Most owner-occupiers paid €0.
 
-**From 1 Jan 2026** (Seimas June 2025), progressive on **non-main** residential:
+**From 1 Jan 2026** (NTMĮ art. 6, as published by VMI), marginal bands on the **total** taxable value of an individual's **non-main** residential (plus garages, gardens and other listed non-commercial) property:
 - 0% up to €50,000
-- 0.1% €50k–€200k
-- 0.2% €200k–€400k
-- 0.5% €400k–€600k
-- 1% above €600k
+- 0.2% €50k–€200k
+- 0.4% €200k–€400k
+- 0.6% €400k–€600k
+- 0.8% €600k–€1,000,000
+- 1% above €1,000,000 (2026 data, source VMI NTM page)
 
-**Main dwelling**: municipal-set rate 0.1–1% on portion above municipal threshold (min €450,000); 50% credit per person up to €450k; 75% credit for large families/disabled child.
+**Main dwelling**: municipal-set rate 0.1–1% on portion above municipal threshold (min €450,000); per-person or large-family credits: data not publicly available on the VMI NTM page — verify at https://www.vmi.lt/evmi/nekilnojamojo-turto-mokestis2. Main dwelling = the property where the owner has declared residence on the last day of the calendar month (VMI).
 
 Sources:
 - Ministry of Finance: https://finmin.lrv.lt/en/news/amendments-to-tax-laws-adopted-by-the-seimas/
@@ -298,7 +299,7 @@ Universal — see `shared/climate-projections.md`.
 
 ## Status
 
-**Confidence**: HIGH on transfer-tax (none), Vilnius price index (Ober-Haus Dec 2025 verified), 2026 NTM brackets (Seimas June 2025, KPMG-verified), STR Vilnius city tax (€2 from 1 Jan 2024, Go Vilnius; re-verified 2026-09-24). MEDIUM on per-municipality 2026 NTM rates (some not yet published), STR national registration number (EU 2024/1028 pending May 2026 implementation). LOW on per-locality rental yield benchmarks (no STATEC-grade source). Tax tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+**Confidence**: HIGH on transfer-tax (none), Vilnius price index (Ober-Haus Dec 2025 verified), 2026 NTM brackets (VMI NTM page, primary), STR Vilnius city tax (€2 from 1 Jan 2024, Go Vilnius; re-verified 2026-09-24). MEDIUM on per-municipality 2026 NTM rates (some not yet published), STR national registration number (EU 2024/1028 pending May 2026 implementation). LOW on per-locality rental yield benchmarks (no STATEC-grade source). Tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)

@@ -229,7 +229,7 @@ Regulatory status (verified 2026-04):
 
 ### Foreign worker
 
-**Migración**: `https://migracion.gob.do/` — work-related residency under **Ley 285-04**. Categories: **Residencia por Inversión** (USD 200,000+ in real estate / business → permanent residency in 6 months → citizenship eligibility in 2-3 years vs standard 7); **Pensionado** (USD 1,500/mo lifetime pension); **Rentista** (USD 2,000/mo stable income, both with 50 % discount on most domestic taxes for 5 years per Ley 171-07); **Empleo asalariado** (employer-sponsored).
+**Migración**: `https://migracion.gob.do/` — work-related residency under **Ley 285-04**. Categories: **Residencia por Inversión** (DGM minimum USD 200,000 contributed as foreign capital to a DR company / free-zone / incentive-regime company (2026 data, source DGM service page on gob.do); direct real-estate purchase not listed as a route and naturalization period not stated on the MIP page — verify at DGM + MIP); **Pensionado** (USD 1,500/mo lifetime pension); **Rentista** (USD 2,000/mo stable income, both with 50 % discount on most domestic taxes for 5 years per Ley 171-07); **Empleo asalariado** (employer-sponsored).
 
 ### Salary benchmarks (2024-2025)
 
@@ -406,7 +406,7 @@ URL hubs: `https://caasd.gob.do/`, `https://www.coraasan.gob.do/`, `https://inap
 
 ### Residency / citizenship
 
-- **Residencia por Inversión** (Ley 285-04 migration framework + reglamento Migración; Ley 171-07 supplies the 50 % domestic-tax-discount overlay) — minimum **USD 200,000** invested in real estate (or other DGII-recognised vehicles); **fast-track to permanent residency in 6 months**, citizenship eligibility in **2-3 years** vs standard 7.
+- **Residencia por Inversión** (Ley 285-04 migration framework + reglamento Migración; Ley 171-07 supplies the 50 % domestic-tax-discount overlay) — minimum **USD 200,000** (2026 data, source DGM service page on gob.do) contributed as foreign capital to a DR company registered with CEI-RD (Ley 16-95), a free-zone company, or an incentive-regime company (Ley 84-99 / 8-90 / 158-01 / 28-01 — no minimum where foreign capital is present); direct real-estate purchase is not listed as a route on that page and the naturalization period is not stated on the MIP naturalización page — data not publicly available, verify at DGM (`https://migracion.gob.do/`) and MIP (`https://mip.gob.do/`).
 - **Pensionado**: USD **1,500/month** lifetime pension → residency.
 - **Rentista**: USD **2,000/month** stable income from non-DR sources → residency.
 - **One-day-per-year physical presence** sufficient to maintain residency once granted.
@@ -512,12 +512,12 @@ URL hubs: `https://caasd.gob.do/`, `https://www.coraasan.gob.do/`, `https://inap
 **Coverage check**: pricing (BCRD + ONE + SuperCasas + Coldwell Banker DR 2025-2026), traffic (INTRANT + MOPC TPDA where available + OSM fallback), tax (IPI 1% above DOP 10.7M 2026 threshold per DGII Resolución DG-AR1-2026-00001 + 3% transfer + CONFOTUR 15-yr exemption + 27% non-resident WHT + 3% sucesiones), rental (Ley 4314 + MITUR vivienda vacacional + HOA reality), work (MT + DGII RNC + Migración 200k investor visa), risks (ONAMET + COE + SGN + INDRHI + R-001/R-007 + Fiona 2022 lessons), mains (CAASD + INAPA + EDE distributors + planta reality).
 **Confidence**:
 - **HIGH** for legal/tax structure (Ley 108-05 + Ley 18-88 + Ley 158-01/195-13 + Ley 155-17 + Ley 305-68 — all primary statutes verified).
-- **HIGH** for CONFOTUR mechanics (15-yr IPI + transfer-tax exemption + MITUR resolution requirement) and for residency programs (USD 200k inversionista, USD 1,500 pensionado, USD 2,000 rentista).
+- **HIGH** for CONFOTUR mechanics (15-yr IPI + transfer-tax exemption + MITUR resolution requirement) and for residency thresholds (USD 200k inversionista minimum, USD 1,500 pensionado, USD 2,000 rentista); **LOW** for an inversionista real-estate route and the citizenship timeline (not stated on DGM / MIP pages).
 - **HIGH** for hazard sources (ONAMET, COE, SGN, INDRHI, MOPC R-001/R-007 all primary government).
 - **MEDIUM** for current resort-community service pricing — HOA fees, planta install, hurricane insurance — vary widely by development; figures are aggregator + market-survey est.
 - **MEDIUM** for 2025-2026 USD/m² benchmarks — secondary aggregator data; cross-check live SuperCasas + 3+ comparables before relying.
 - **LOW** for some rural municipal-level data (Permiso de Uso de Suelo, parcel-level flood plain in non-Yuna/Yaque basins) — limited online presence; verification requires on-site municipal request.
-**Last verified**: 2026-05-27. Risks: MIVHED CDCRD building-code row added 2026-09-24 in the October regwatch wave (Resolución 007-2026 from secondary press only); build-era rows citing R-001 / R-007 not re-verified.
+**Last verified**: 2026-05-27. Risks: MIVHED CDCRD building-code row added 2026-09-24 in the October regwatch wave (Resolución 007-2026 from secondary press only); build-era rows citing R-001 / R-007 not re-verified. Visa tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs
 
@@ -527,7 +527,7 @@ URL hubs: `https://caasd.gob.do/`, `https://www.coraasan.gob.do/`, `https://inap
 - [ ] AML Ley 155-17 beneficial-owner disclosure — track UAF enforcement evolution
 - [ ] Fideicomiso Ley 189-11 cost benchmarks for medium-value transactions
 - [ ] Per-municipio Plan de Ordenamiento Territorial (POT) catalogue for flood + setback zones
-- [ ] Investor-residency 2-yr to citizenship pathway — Migración processing-time tracking
+- [ ] Investor-residency citizenship timeline — not stated on MIP naturalización page; locate the residency period in the naturalization law text
 - [ ] Hurricane-insurance carrier registry post-Fiona — Superintendencia de Seguros market update
 - [ ] Border-belt Ley 28-01 incentives — rare but worth a residential-buyer note
 - [ ] Resort HOA reglamento templates (Cap Cana / Casa de Campo / Punta Cana Resort & Club / Las Terrenas major condos) — STR + reserve-fund disclosure norms

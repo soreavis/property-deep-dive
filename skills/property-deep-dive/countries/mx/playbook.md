@@ -167,7 +167,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 #### Quintana Roo (Tulum, Cancún, Playa del Carmen)
 
 - **RETUR-Q law**: state-level Registro Estatal de Turismo mandatory
-- **6% Lodging Tax (ISH)**
+- **6% Lodging Tax (ISH)** on private departments / houses / villas let by an Anfitrión or platform (Ley del Impuesto al Hospedaje art. 8 para 2, in force 1 Apr 2023); 5% general rate for other lodging (art. 8 para 1) — (2025 data, source Congreso Q-Roo ISH consolidation POE 16-12-2025)
 - Foreign hosts must hold **legal residency + RFC**
 - Municipalities now empowered to ban platforms locally
 
@@ -384,7 +384,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26. Rental tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+✅ **Fully populated** as of 2026-04-26. Rental tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (SHF + Lamudi Q4 2025), traffic (SCT + city portals), tax (predial + ISAI per state + ISR + IVA + fideicomiso), rental (CDMX Airbnb Law Oct 2024 + Quintana Roo RETUR-Q), work (OCC + RFC + INFONAVIT), risks (SSN + CENAPRED + CONAGUA + 1985+2017 quakes + Popocatépetl + hurricane), mains (CDMX water crisis context).
 **Confidence**: HIGH for SHF Q4 2025 figures + Sheinbaum Vivienda program 2025 starts + fideicomiso Restricted Zone constitutional rule + CDMX Airbnb Law Oct 2024; MEDIUM for state-by-state ISAI table (only popular destinations confirmed); MEDIUM for CDMX 50 % Airbnb occupancy cap (adopted April 2024 amendment; registries live via Gaceta 22 May 2026 but cap enforcement in flux pending Airbnb + host amparo litigation as of 2026-07-02).
 

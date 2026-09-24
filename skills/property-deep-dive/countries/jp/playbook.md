@@ -17,7 +17,7 @@ ISO2: `jp`. Status: ✅ Fully populated (researched 2026-05).
 - **Recent reforms**:
   - **重要土地等調査法 2021** (Act No. 84 of 2021) — restricts land use within ~1 km of defense facilities, US bases, border islands. Enacted 2021-06-23; fully effective 2022-09-20. ([source](https://www.cao.go.jp/tochi-chosa/))
   - **民法・不動産登記法改正 (Act 24/2021, 不動産登記法)** — **two limbs, phased**: (a) **inheritance registration mandatory since 2024-04-01** — within **3 years of knowing of the acquisition**, penalty **up to ¥100,000** (10万円以下の過料, 不登法164① — **not** ¥50,000); pre-2024 inheritances backstop **2027-03-31**. (b) **address-change registration IN FORCE only since 2026-04-01** (not 2024) — within **2 years of the change**, penalty **up to ¥50,000** (不登法164②); pre-2026 changes backstop **2028-03-31**. Aimed at solving 所有者不明土地 (unidentified-owner land, ~23 % of all JP land per gov't survey); both limbs are foreign-heir traps. ([法務省](https://www.moj.go.jp/MINJI/minji05_00599.html), 2026-08-07 verified · [MOJ 2024 reform overview](https://www.moj.go.jp/MINJI/minji05_00343.html))
-  - **空家等対策特別措置法改正 2023** (effective 2023-12) — new category 管理不全空家 (mismanaged vacant home); revocation of fixed-asset tax residential-land special exemption upon municipal warning. ([MLIT source](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000138.html))
+  - **空家等対策特別措置法改正 2023** (effective 2023-12) — new category 管理不全空家 (mismanaged vacant home); removal of the fixed-asset tax residential-land special exemption (住宅用地特例) once the municipality issues a 勧告 (recommendation, after unheeded 指導). ([MLIT source](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000138.html))
   - **住宅宿泊事業法 2018** (Minpaku Law, effective 2018-06-15) — short-term rental national framework, 180 nights/year cap.
 
 ## Section: `--price`
@@ -140,7 +140,7 @@ OSM `highway` class:
 - **小規模住宅用地** ≤ 200 m²: 課税標準額 reduced to **1/6** for 固定資産税 and **1/3** for 都市計画税
 - **一般住宅用地** > 200 m²: 1/3 / 2/3 reduction
 
-⚠️ **2023 反映**: revoked for 管理不全空家 (mismanaged vacant homes) once a municipal warning is issued under the 2023-amended 空家特措法 — fixed-asset bill can roughly **6×** for the land portion. ([MLIT](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000138.html))
+⚠️ **2023 反映**: revoked for 管理不全空家 (mismanaged vacant homes) once a municipal 勧告 (recommendation, after unheeded 指導) is issued under the 2023-amended 空家特措法 and not remedied by the 1 Jan 賦課期日 — the 固定資産税 land taxable base rises up to **4.2×** on the ≤200 m² portion (1/6 → the 70%-of-price cap for 住宅用地以外; up to 2.1× above 200 m²); the actual first-year rise is est. lower where 負担調整措置 phases it in — verify with the municipal 固定資産税 office. ([MLIT](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000138.html))
 
 ### Example calculations (worked, transparent inputs)
 
@@ -157,7 +157,7 @@ OSM `highway` class:
 - 固定資産税 building: ¥1 M × 1.4 % = **¥14,000/yr**
 - 固定資産税 land: ¥0.5 M × 1/3 (>200 m² portion partial) × 1.4 % ≈ **~¥2,500/yr**
 - 都市計画税 typically not applicable in non-市街化区域 rural town
-- **Total ~¥16,500/yr (~€100/yr)** — until municipality declares 管理不全空家 → can rise to ~¥40,000+/yr after exemption revocation
+- **Total ~¥16,500/yr (~€100/yr)** — if a 管理不全空家 勧告 removes the 住宅用地特例, the land line rises to at most ¥0.5 M × 70 % × 1.4 % = ¥4,900/yr, total ≤ ~¥18,900/yr (computed; first-year est. lower where 負担調整措置 phases it in)
 
 ### Transaction taxes (one-time)
 
@@ -195,7 +195,7 @@ Progressive **10 % → 55 %** on each statutory heir's allotted share. Basic exe
 
 - **2024 民法改正** mandatory inheritance registration (3 years from **knowing of the acquisition**; penalty **up to ¥100,000** if unregistered without justification — 10万円以下の過料, 不登法164①, **not** ¥50,000; pre-2024 inheritances backstop **2027-03-31**) hits non-resident heirs hardest — easy to miss ([法務省](https://www.moj.go.jp/MINJI/minji05_00599.html), 2026-08-07 verified)
 - Discussion of 2026–2027 tax reform on luxury condominium revaluation (Tokyo central wards 評価額 increases proposed)
-- **管理不全空家 designation** — ¥40,000–¥100,000+ extra annual fixed-asset tax once warning issued, retroactive to next 1 Jan
+- **管理不全空家 勧告** — extra annual fixed-asset tax = the land's 評価額 × 70% × 1.4% minus the current land bill (computed upper bound before 負担調整措置; Example B above: ≈ ¥4,900 − ¥2,500 = +¥2,400/yr) once a 勧告 is issued and not remedied by the 1 Jan 賦課期日 (applies from the following fiscal year's bill, not retroactively)
 
 ---
 
@@ -230,7 +230,7 @@ Progressive **10 % → 55 %** on each statutory heir's allotted share. Basic exe
 
 **Municipal-level overlay** — 住宅宿泊事業法 **art.18** lets 都道府県 / 保健所設置市 cut the operating period below the national 180 nights by 条例, so the municipal layer can be stricter than the statute (2026-08-07 verified, source [観光庁 民泊制度ポータル](https://www.mlit.go.jp/kankocho/minpaku/)):
 - **東京都 (Tokyo)**: each 23 ward sets supplementary rules; 新宿区, 渋谷区, 中野区 restrict residential-zone minpaku to weekends + Friday only; some wards prohibit altogether in 第一種低層住居専用地域 (2026-05-01 verified — carried forward, NOT re-verified 2026-08-07; confirm with the ward 保健所)
-- **京都市 (Kyoto)**: 住居専用地域 minpaku permitted **only 15 Jan noon → 16 Mar noon** (off-season) under 2018 city ordinance — effectively non-viable for most addresses. **Enforcement escalating**: a late 2-monthly report draws immediate 公表 / 過料 / 業務停止命令 / 廃止命令 from Feb 2026, and night + early-morning spot inspections expand from Apr 2026; a 条例改正 proposal targeted **within FY2026** covers 更なる営業日数の制限 (a further cut below the national 180) + wider siting limits — **proposed, NOT enacted** (2026-08-07 verified, source [京都市 市長記者会見 2026-01-29](https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000351/351332/04_2kisyakaiken.pdf))
+- **京都市 (Kyoto)**: 住居専用地域 minpaku permitted **only 15 Jan noon → 16 Mar noon** (off-season) under 2018 city ordinance — effectively non-viable for most addresses. **Enforcement escalating**: a late 2-monthly report draws immediate 公表 / 過料 / 業務停止命令 / 廃止命令 from Feb 2026, and night + early-morning spot inspections expand from Apr 2026; a 条例改正 proposal targeted **within FY2026** (京都市会だより No.149, 2026-04-15) now has a 31 Aug 2026 素案 per press reports (secondary — Yomiuri 2026-09-01 / Traicy 2026-09-07): **0 operating days for NEW 届出住宅 in 住居専用地域 and 工業地域** (host-present or absent; existing facilities exempt) + on-site / adjacent-building staff presence for minpaku and 簡易宿所; 3rd expert meeting scheduled 2 Nov 2026, public comment Nov 2026, bill aimed at the Feb 2027 市会 — **proposed, NOT enacted** (2026-08-07 verified, source [京都市 市長記者会見 2026-01-29](https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000351/351332/04_2kisyakaiken.pdf))
 - **大阪市 (Ōsaka)**: 2025–2026 oversight tightening; new 特区民泊 applications paused (2026-05-01 verified — carried forward, NOT re-verified 2026-08-07; confirm with the 大阪市 特区民泊 registration office)
 - **沖縄県** (some municipalities): seasonal restrictions
 
@@ -239,7 +239,7 @@ Progressive **10 % → 55 %** on each statutory heir's allotted share. Basic exe
 - **Income**: 不動産所得 if passive minpaku-host operator only; **事業所得 (jigyō shotoku — business income)** if running multiple units / providing meals / employing staff (event-based test)
 - **消費税 (consumption tax 10 %)**: registered if revenue > ¥10 M/year (mandatory 課税事業者); below threshold → 免税事業者 default. Inbound インボイス制度 (qualified invoice system, effective 2023-10) raised pressure to register
 - **個人事業主開業届** at 税務署 (tax office) within 1 month of starting business
-- **宿泊税 (lodging tax)**: Tokyo, Ōsaka, Kyoto, Fukuoka, Kanazawa. **Kyoto reform 1 March 2026** (9× hike on top band): tiers **¥200 (<¥6,000/night) / ¥400 / ¥1,000 / ¥4,000 / ¥10,000 (≥¥100,000/night)** (2026-05-27 verified, source [Kyoto City announcement](https://kyoto.travel/en/news/tax-change/) + [Japan Travel](https://en.japantravel.com/news/kyoto-lodging-taxes-to-increase-from-march-2026/71333)). **Tokyo FY2027 reform (proposed)**: shift from current ¥100/¥200 fixed band to **3 % of room charge** with exemption threshold raised to ¥13,000/night — subject to Metropolitan Assembly + MIC approval (2026-05-27 verified, source [Japan Times 2025-11-25](https://www.japantimes.co.jp/news/2025/11/25/japan/accommodation-tax-fixed-rate-tokyo/)). Other cities: ¥100–¥1,000/night pre-reform. **Ōsaka 特区民泊 新規受付 closed 2026-05-29** (Habikino/Kaizuka/Izumisano still accept; existing licences may operate) (2026-05-27 verified, source: Nippon.com / Jiji 2025-11-17 — original article no longer reachable; verify current status with Ōsaka City 特区民泊 (minpaku) registration office)
+- **宿泊税 (lodging tax)**: Tokyo, Ōsaka, Kyoto, Fukuoka, Kanazawa. **Kyoto reform 1 March 2026** (top band ¥1,000 → ¥10,000 = 10×): tiers **¥200 (<¥6,000/night) / ¥400 / ¥1,000 / ¥4,000 / ¥10,000 (≥¥100,000/night)** (2026-05-27 verified, source [Kyoto City announcement](https://kyoto.travel/en/news/tax-change/) + [Japan Travel](https://en.japantravel.com/news/kyoto-lodging-taxes-to-increase-from-march-2026/71333)). **Tokyo FY2027 reform (proposed)**: shift from current ¥100/¥200 fixed band to **3 % of room charge** with exemption threshold raised to ¥13,000/night — subject to Metropolitan Assembly + MIC approval (2026-05-27 verified, source [Japan Times 2025-11-25](https://www.japantimes.co.jp/news/2025/11/25/japan/accommodation-tax-fixed-rate-tokyo/)). Other cities: ¥100–¥1,000/night pre-reform. **Ōsaka 特区民泊 新規受付 closed 2026-05-29** (Habikino/Kaizuka/Izumisano still accept; existing licences may operate) (2026-05-27 verified, source: Nippon.com / Jiji 2025-11-17 — original article no longer reachable; verify current status with Ōsaka City 特区民泊 (minpaku) registration office)
 - **観光庁 民泊制度ポータルサイト**: `https://www.mlit.go.jp/kankocho/minpaku/`
 - **届出番号 (notification number)** from prefecture must be displayed on every Airbnb/Booking listing — platforms enforce since 2018-06-15 cleanup
 
@@ -537,7 +537,7 @@ Source: [MLIT 既存住宅状況調査](https://www.mlit.go.jp/jutakukentiku/jut
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all anchored in MLIT / NTA / 法務局 / 国税庁 / J-SHIS / JMA / BoJ primary sources with date-stamped numerics + transparent computations.
 **Confidence**: **HIGH** for cadastre/seismic-standard/national-tax/transaction-cost (all 国税庁 + MLIT primary, multi-source corroborated). **MEDIUM** for current akiya market dynamics (highly local, 1,700+ municipalities — start with municipal akiya bank for parcel-level), municipal-level minpaku rules (per-ward overlay on top of national 180-day cap; verify via 保健所), and condominium 修繕積立金 trajectory (per-building, requires 管理組合 financials review).
-**Last verified**: 2026-08-07 (the two `--price` MLIT primary-source bullets re-verified 2026-09-18 — 不動産情報ライブラリ replaced the 土地総合情報システム from 1 Apr 2024; the +5.00 % YoY figure on the same section was not re-checked). BoJ policy-rate path and 重要土地等調査法 notification duty re-verified 2026-09-24 in the October regwatch wave; Flat 35 figures not re-checked.
+**Last verified**: 2026-08-07 (the two `--price` MLIT primary-source bullets re-verified 2026-09-18 — 不動産情報ライブラリ replaced the 土地総合情報システム from 1 Apr 2024; the +5.00 % YoY figure on the same section was not re-checked). BoJ policy-rate path and 重要土地等調査法 notification duty re-verified 2026-09-24 in the October regwatch wave; Flat 35 figures not re-checked. Finance / rental / tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs (deepen on first real run)
 

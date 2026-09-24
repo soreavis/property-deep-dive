@@ -618,9 +618,9 @@
         },
         "tax": {
           "band": 45,
-          "rank": 5,
-          "k": 5,
-          "src": "compare.md:Steepest 2026 tax reforms#5"
+          "rank": 4,
+          "k": 4,
+          "src": "compare.md:Steepest 2026 tax reforms#4"
         },
         "yield": {
           "status": "pending-extraction"
@@ -933,7 +933,7 @@
       "hard": {
         "foreign-buyer-open": true,
         "no-fx-risk": false,
-        "property-residency-route": true
+        "property-residency-route": false
       },
       "entry_eur_m2": null,
       "confidence": "MEDIUM",
@@ -2611,9 +2611,9 @@
           "src": "compare.md:Most stable currency# no-FX-risk (EUR) tier"
         },
         "tax": {
-          "band": 11,
+          "band": 15,
           "rank": 2,
-          "k": 5,
+          "k": 4,
           "src": "compare.md:Steepest 2026 tax reforms#2"
         },
         "yield": {
@@ -3099,7 +3099,7 @@
         "tax": {
           "band": 0,
           "rank": 1,
-          "k": 5,
+          "k": 4,
           "src": "compare.md:Steepest 2026 tax reforms#1"
         },
         "yield": {
@@ -3257,12 +3257,6 @@
           "rank": 1,
           "k": 34,
           "src": "compare.md:Most stable currency# no-FX-risk (EUR) tier"
-        },
-        "tax": {
-          "band": 34,
-          "rank": 4,
-          "k": 5,
-          "src": "compare.md:Steepest 2026 tax reforms#4"
         },
         "yield": {
           "status": "pending-extraction"
@@ -3581,9 +3575,9 @@
           "src": "compare.md:Highest FX risk#9"
         },
         "tax": {
-          "band": 22,
+          "band": 30,
           "rank": 3,
-          "k": 5,
+          "k": 4,
           "src": "compare.md:Steepest 2026 tax reforms#3"
         },
         "yield": {

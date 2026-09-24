@@ -569,7 +569,7 @@ Facts-and-circumstances; family ties primary (where the family physically lives 
 ### Box 3 reform — the live constitutional crisis
 - **Hoge Raad 6 Jun 2024** (and 14 Jun 2024 follow-ups, then **20 Dec 2024**): existing Box 3 forfait still violates Art. 1 EP ECHR; **actual return** must cap the levy. **Voordeel wegens eigen gebruik** (own-use benefit) of real estate set to **NIL** for actual-return purposes.
 - **Tegenbewijsregeling** ("counter-proof rule"): from 2025 (covering 2017-2024 affected years; 2025+ forward), taxpayers can demonstrate actual return < forfait via **OWR — Opgaaf Werkelijk Rendement** (folded into regular IB return from tax year 2025).
-- **Wet werkelijk rendement box 3** — full move to actual-return basis: originally 2026 → postponed to 2027 → **postponed again to 1 Jan 2028**. Tweede Kamer adopted the bill 12 Feb 2026; the Eerste Kamer deferred its final vote on 30 Jun 2026 pending an announced novelle, and the Belastingplan 2027 bill of 15 Sep 2026 contains no Box 3 measure, with no novelle introduced (Eerste Kamer file 36.748, 17 Sep 2026). **Status as of 2026-09-17: bill (36.748) held in the Eerste Kamer; entry into force by royal decree with 1 Jan 2028 as an unsecured target — model the forfaitaire system with the tegenbewijsregeling for 2026 and 2027.**
+- **Wet werkelijk rendement box 3** — full move to actual-return basis: originally 2026 → postponed to 2027 → **postponed again to 1 Jan 2028**. Tweede Kamer adopted the bill 12 Feb 2026; the Eerste Kamer deferred its final vote on 30 Jun 2026 pending an announced novelle, and the Belastingplan 2027 bill of 15 Sep 2026 contains no Box 3 measure, with no novelle introduced (Eerste Kamer file 36.748, 17 Sep 2026); the cabinet's 14 Sep 2026 letter (EK 36.748, Q) asks the Senate to keep holding the bill and lists withdrawing it, with the forfaitaire system plus tegenbewijsregeling kept longer and a full vermogenswinstbelasting in 2030, as one of four scenarios. **Status as of 2026-09-17: bill (36.748) held in the Eerste Kamer; entry into force by royal decree with 1 Jan 2028 as an unsecured target — model the forfaitaire system with the tegenbewijsregeling for 2026 and 2027.**
 
 ### Box 1 — only if "more than asset management"
 If active landlord status (multiple foreign properties + professional involvement) → Box 1 progressive (2025 top rate 49.5%). High threshold; rare for individual foreign-property buyers.
@@ -590,7 +590,7 @@ NL has **no separate CGT** for individuals on real estate held privately. Box 3 
 
 ### 2024-2026 reforms
 - **30%-ruling**: original 2024 plan was 30/20/10 stair-step; **reversed by Tax Plan 2025** (Senate 17 Dec 2024) → flat **27% from 1 Jan 2027** with €50,436 income standard; existing 30% rulings grandfathered at 30% through 2026.
-- Box 3 actual-return Wet WRBox3 → 1 Jan **2028** (verify final First-Chamber adoption).
+- Box 3 actual-return Wet WRBox3 → 1 Jan **2028** target NOT secured (bill held in the Eerste Kamer; the cabinet's 14 Sep 2026 letter lists withdrawal as one of four scenarios — verify).
 
 **Confidence: HIGH** for Box 3 thresholds + 30%-ruling timeline; **MEDIUM-LOW** for the actual-return effective date (still in parliamentary navette) · **Last verified**: 2026-05-09
 

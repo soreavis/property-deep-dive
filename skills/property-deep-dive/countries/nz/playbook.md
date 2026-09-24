@@ -175,8 +175,8 @@ Figures are estimates — confirm the current year's rates demand against each c
 #### Queenstown Lakes
 
 - **Residential Visitor Accommodation registration** required
-- **<90 nights/yr** = streamlined
-- **Rates +~25%** on registered properties (Accommodation Targeted Rate)
+- **Night cap is zone-specific**: e.g. Lower Density Suburban Residential allows a cumulative 90 nights/yr from initial registration (PDP ch.7 std 7.5.18.1, Jun 2023 Decisions Version); operating beyond your zone's standards needs a resource consent - check the parcel's zone on QLDC ePlan (2026 data, source [QLDC STVA](https://www.qldc.govt.nz/services/rates-property/short-term-visitor-accommodation))
+- **Rates**: no change if available to short-term guests for up to 28 days/yr cumulative; under 180 days = rated Mixed Use (+25-35%); 181-365 days = rated Accommodation (+50-80%); a Homestay = Mixed Use (+25-35%); changes apply from the next rating year beginning 1 Jul (2026 data, source [QLDC STVA](https://www.qldc.govt.nz/services/rates-property/short-term-visitor-accommodation))
 
 #### Auckland
 
@@ -429,7 +429,7 @@ Figures are estimates — confirm the current year's rates demand against each c
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing (REINZ HPI + QV + Trade Me), traffic, tax (rates + bright-line + GST + zero stamp duty), rental (RTA + Healthy Homes), work, risks (NSHM 2022 + Cyclone Gabrielle 2023 + leaky homes), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for REINZ + QV March 2026 medians + bright-line 2-yr from 1 Jul 2024 + interest deductibility 100% from 1 Apr 2025 + foreign-buyer ban (AU+SG exempt) + NHCover $300k+GST cap + STR GST collection from 1 Apr 2024; MEDIUM for council rate forecasts (frozen in some councils 2024-2025).
-**Last verified**: 2026-08-07 (Auckland APTR suspension since 2020 + graduated general-rates/CATTR STR business uplift re-verified against Auckland Council; other sections unchanged). Tax tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+**Last verified**: 2026-08-07 (Auckland APTR suspension since 2020 + graduated general-rates/CATTR STR business uplift re-verified against Auckland Council; other sections unchanged). Rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs
 

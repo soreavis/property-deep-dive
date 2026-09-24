@@ -78,7 +78,7 @@ ISO2: `sk`. Status: ✅ Fully populated (researched 2026-04).
 2. Compare to NBS regional benchmark for the kraj
 3. Compare to Realitná únia barometer monthly value
 4. **Trap**: úžitková plocha (usable) vs zastavaná plocha (built-up footprint) vs podlahová plocha (floor area) — clarify which the listing uses
-5. **Trap**: novostavby often advertise **bez DPH** (without VAT); from 2025 reduced 5 % DPH applies for "social housing" / first-time buyer units
+5. **Trap**: novostavby often advertise **bez DPH** (without VAT); the 5 % DPH rate on building supply is a retained pre-2025 rate limited to state-supported rental-housing projects — not a first-time-buyer rate (Finančná správa); verify the DPH applicable with the developer
 
 ---
 
@@ -484,7 +484,7 @@ Map: `https://www.seismology.sk/Maps/` (475-year return period PGA map, 2012 GF�
 
 - **No nadobúdacia daň since 2005** — buyer-side costs very low (~1–2 %); the cheapest-to-buy of the V4 + Western European countries
 - **Daň z nehnuteľností very low** — typically €30–€300/yr (similar to CZ but EUR-denominated)
-- **DPH reform 2025**: 23 % standard, **5 % super-reduced for housing supply** (from 2025) — major impact on first-time buyer math
+- **DPH reform 2025**: standard rate 20 % → 23 %, reduced rates 19 % and 5 % (2025 data, source Finančná správa); the 5 % rate on supply of buildings is a RETAINED pre-2025 rate limited to projects of state-supported rental housing (štátom podporované nájomné bývanie) — it is not a general housing rate, so verify the DPH applicable to a new-build purchase with the developer / Finančná správa
 - **No NOZ-style major civil reform** — older Občiansky zákonník still applies; some "predkupné právo" surprises possible
 - **Bratislava market is 1.5–2.5× the rest of SK** — extreme price gradient
 - **Eastern Slovakia (Prešovský/Košický)** — much cheaper but lower liquidity + higher emigration
@@ -572,7 +572,7 @@ For SK-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25 (health-insurance payor row corrected 2026-09-18 — the Union / Dôvera merger is conditional on approvals and has not completed; the Zákon 580/2004 and S1 limbs were not re-verified).
+✅ **Fully populated** as of 2026-04-25 (health-insurance payor row corrected 2026-09-18 — the Union / Dôvera merger is conditional on approvals and has not completed; the Zákon 580/2004 and S1 limbs were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + cadastre + risk sources (all primary state agencies, multi-source corroborated). MEDIUM for short-let regulation (in transition: EU 2024/1028 SK transposition + 5 % DPH adjustment 2025 + Bratislava-specific rules pending).
 

@@ -16,7 +16,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04). **Last r
   - **Freehold** — own land + building outright (most houses)
   - **Leasehold** — lease (typically 99–999 yrs) over a unit; ground rent + service charges (most flats)
   - **Share of freehold** — leasehold + collective freehold ownership via management co
-  - **Commonhold** — rare today; draft Commonhold and Leasehold Reform Bill (Jan 2026) would make it the default for new flats — final Bill due Autumn 2026
+  - **Commonhold** — rare today; draft Commonhold and Leasehold Reform Bill (Jan 2026) would make it the default for new flats — announced in the King's Speech 13 May 2026; final Bill not yet introduced as of Sep 2026 (no Commonhold bill on the Parliament Bills register)
   - **Heritable** (Scotland) — outright ownership of land (≈ freehold)
 
 ## Section: `--price`
@@ -177,7 +177,7 @@ Ranges are est. blended indicators triangulated from the ONS "Private rent and h
 ### Future risk
 
 - **Council Tax revaluation** repeatedly proposed (still based on 1991 values in England) — no firm date
-- **Leasehold reform** — LAFRA 2024's valuation reforms (incl. **marriage-value abolition**) are enacted but NOT yet commenced (High Court dismissed freeholders' JR 24 Oct 2025, appeal to Court of Appeal permitted; govt to consult on valuation rates in 2026). Separately, the draft **Commonhold and Leasehold Reform Bill** was published 27 Jan 2026 (Written Statement HCWS1278) for pre-legislative scrutiny; final Bill due **Autumn 2026** (Royal Assent aimed mid-2027) — caps existing-flat ground rents at **£250/yr** (peppercorn conversion timing unsettled: govt draft ~40 yrs vs HCLG Committee ~20 yrs + late-2027 cap commencement), makes commonhold the default on collective enfranchisement, creates an independent managing-agent regulator. (2026-07-03 verified; source [Commons Library CBP-10653](https://commonslibrary.parliament.uk/research-briefings/cbp-10653/))
+- **Leasehold reform** — LAFRA 2024's valuation reforms (incl. **marriage-value abolition**) are enacted but NOT yet commenced (High Court dismissed freeholders' JR 24 Oct 2025; Court of Appeal granted permission to appeal 1 Apr 2026; MHCLG (2 Jul 2026) says the reformed valuation regime comes into force only after drafting flaws are fixed in the Commonhold and Leasehold Reform Bill). Separately, the draft **Commonhold and Leasehold Reform Bill** was published 27 Jan 2026 (Written Statement HCWS1278) for pre-legislative scrutiny; Bill announced in the King's Speech **13 May 2026**, not yet introduced as of Sep 2026 — caps existing-flat ground rents at **£250/yr** (falling to a peppercorn after 40 years — govt position restated 2 Jul 2026; HCLG Committee asked govt to justify 40 yrs over a 20-yr transition and judged a late-2027 cap commencement possible vs govt estimate of late 2028), makes commonhold the default on collective enfranchisement, creates an independent managing-agent regulator. (2026-07-03 verified; source [Commons Library CBP-10653](https://commonslibrary.parliament.uk/research-briefings/cbp-10653/); King's Speech, Court of Appeal permission, commencement dependency, 40-yr / late-2027 vs late-2028 positions and Bill non-introduction re-verified 2026-09-24 against the MHCLG quid-pro-quo consultation (2 Jul 2026), the HCLG Committee report and the Parliament Bills register)
 - **CGT rate increases** discussed at Spring 2025 Budget — currently stable
 - **Stamp duty** under review for 2026 Autumn Budget
 
@@ -427,7 +427,7 @@ Ranges are est. blended indicators triangulated from the ONS "Private rent and h
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged). Rental tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged). Leasehold / rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for SDLT 2025 reform (gov.uk, multiple solicitor sources confirm), HIGH for FHL abolition (HMRC + Deloitte tax briefings), HIGH for cladding/RAAC programmes, HIGH for Renters' Rights Act 2025 (in force; s21 abolished 1 May 2026); MEDIUM for HVCTS implementation detail (announced Autumn Budget 2025, consultation live — not yet legislated) and the later phased Renters’ Rights commencements (MHCLG roadmap).
 

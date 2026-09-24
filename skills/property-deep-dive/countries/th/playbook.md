@@ -38,7 +38,7 @@ ISO2: `th`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
   - **Long-Term Resident (LTR) Visa** — launched 1 September 2022 by BoI. Source: `https://ltr.boi.go.th/`
   - **Destination Thailand Visa (DTV)** — launched mid-July 2024 by Ministry of Foreign Affairs. Source: `https://www.mfa.go.th/`
   - **Foreign Business Act BE 2542 (1999)** — ongoing enforcement; nominee-company crackdown stepped up 2024 (DBD warnings) under Land Code §96bis.
-  - **Proposed reforms NOT enacted as of May 2026**: long-term lease extension to 99 years (Cabinet discussion 2024); foreign condo quota raise from 49% to 75% (Ministry of Interior proposal 2024); both paused after public/political pushback. Verify via Cabinet Resolution database `https://resolution.soc.go.th/`.
+  - **Proposed reforms NOT enacted as of May 2026**: sap ing sit term extension from 30 to up to 99 years (Sap Ing Sit Act B.E. 2562 s.4; Cabinet discussion 2024); foreign condo quota raise from 49% to 75% (Ministry of Interior proposal 2024); current status not re-verified from a primary source (a Cabinet resolution of 18 Jun 2024 directed the Ministry of Interior to review both rules, secondary: BBC Thai) — verify at the Royal Gazette `https://ratchakitcha.soc.go.th/`. Verify via Cabinet Resolution database `https://resolution.soc.go.th/`.
 
 ---
 
@@ -68,7 +68,7 @@ Foreigners **cannot own land freehold in Thailand**. The Land Code BE 2497 (1954
 - A lease registered at DOL for a term > 3 years is enforceable against subsequent landowners; **maximum registrable term: 30 years**.
 - **"30 + 30 + 30" / "90-year lease"**: marketed by developers as effectively perpetual. **Legal reality**: only the first 30-year term is enforceable as a registered right. The two renewals are *contractual options* — if the landowner refuses or transfers the land, Thai courts have held that successor owners are NOT bound by unregistered renewal options. Multiple Supreme Court (Dika) rulings (e.g., 2008/2557, 2015/2358) have nullified second-term claims.
 - **Practical implication**: budget the property as a 30-year asset with optional (uncertain) extension. Discount the price accordingly vs freehold.
-- **Proposed 99-year lease law (2024–2025)**: Cabinet considered extending the cap to 99 years for foreigners; not enacted as of May 2026. Watch `https://resolution.soc.go.th/` and the Ministry of Interior.
+- **Proposed 99-year sap ing sit term (2024–2025)**: a Cabinet resolution of 18 Jun 2024 directed the Ministry of Interior to review extending the ทรัพย์อิงสิทธิ (sap ing sit) term under Sap Ing Sit Act B.E. 2562 s.4 from 30 to up to 99 years (secondary: BBC Thai); not enacted as of May 2026. Watch `https://resolution.soc.go.th/` and the Ministry of Interior.
 
 ### Path 3: Thai limited company structure (⚠️ high legal risk)
 
@@ -722,10 +722,10 @@ Sources: NSO Thailand `http://www.nso.go.th/`, Ministry of Labour, JobsDB salary
 
 **Reform watch items** (track in `shared/regulatory-watch.md`):
 1. **Long-term lease 99-year extension** — Cabinet 2024 discussion; not enacted May 2026.
-2. **Foreign condo quota raise to 75 %** — MoI 2024 proposal; paused; not enacted May 2026.
+2. **Foreign condo quota raise to 75 %** — MoI 2024 proposal; not enacted May 2026; current status not re-verified from a primary source.
 3. **Land + Building Tax temporary reduction** — episodic, not an automatic annual renewal (90% 2020–2021; ~15% 2023; none for 2026/BE 2569 — full statutory rates apply); verify any 2027/BE 2570 decree.
 4. **STR licensing framework** — Draft Accommodation Establishments Act + Draft Hotel & Non-Hotel Accommodation Act under Council of State public consultation (would let condos register for STR without a full hotel licence); NOT enacted as of 2026-07.
 5. **Bangkok high-rise seismic code review** — DPT post-Myanmar 2025; verify current text.
 6. **Foreign-source income remittance taxation** — Revenue Department interpretation effective 2024 for non-LTR holders; ongoing clarifications.
 
-**Last verified**: 2026-07-02 (regulatory re-verification — Land & Building Tax: no across-the-board Royal Decree reduction for 2026/BE 2569, full statutory rates apply; STR <30-night illegality under Hotel Act §4 unchanged, Draft Accommodation Establishments Act + Draft Hotel & Non-Hotel Accommodation Act under Council of State consultation but NOT enacted; foreign-source remittance Por.161/2566 + Por.162/2566 operative, 2025 draft 2-yr relief unenacted. Prior 2026-05-27 sweep: Royal Decree 22 Apr 2025–30 Jun 2026 0.01% Thai-only transfer-fee reduction; Hotel Act Ministerial Reg BE 2566 (≤8 rooms/≤30 guests exemption); Por.161 + Por.162 + 1 Jan 2024 cut-off; restricted-occupations statute and the 40/27/13 split corrected 2026-09-18 per Ministry of Labour notification). Transfer-fee renewal to 30 Jun 2027 re-verified 2026-09-24 against the Department of Lands in the October regwatch wave; rental and remittance tracker entries re-checked.
+**Last verified**: 2026-07-02 (regulatory re-verification — Land & Building Tax: no across-the-board Royal Decree reduction for 2026/BE 2569, full statutory rates apply; STR <30-night illegality under Hotel Act §4 unchanged, Draft Accommodation Establishments Act + Draft Hotel & Non-Hotel Accommodation Act under Council of State consultation but NOT enacted; foreign-source remittance Por.161/2566 + Por.162/2566 operative, 2025 draft 2-yr relief unenacted. Prior 2026-05-27 sweep: Royal Decree 22 Apr 2025–30 Jun 2026 0.01% Thai-only transfer-fee reduction; Hotel Act Ministerial Reg BE 2566 (≤8 rooms/≤30 guests exemption); Por.161 + Por.162 + 1 Jan 2024 cut-off; restricted-occupations statute and the 40/27/13 split corrected 2026-09-18 per Ministry of Labour notification). Transfer-fee renewal to 30 Jun 2027 re-verified 2026-09-24 against the Department of Lands in the October regwatch wave; rental and remittance tracker entries re-checked. Visa tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).

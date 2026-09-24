@@ -167,7 +167,7 @@ For each country, primary macro sources:
 | **BCU (Uruguay)** | 8.50% est. | hold; TPM in restrictive territory — verify |
 | **BCCh (Chile)** | ~4.50% est. | cut cycle from 11.25% (Oct 2023) — verify against next IPoM |
 | **SARB (South Africa)** | 7.50% est. | gradual cuts since 2024 — verify next MPC |
-| **NBG (Georgia)** | 8.00% est. | hold; CPI near target — verify |
+| **NBG (Georgia)** | 8.25% (2026 data, source NBG MPC 9 Sep 2026) | hold after +0.25pp hike 6 May 2026; Aug 2026 CPI 5.6% vs 3% target |
 | **BI (Indonesia)** | 6.00% est. | BI-Rate; FX-defence stance — verify |
 | **BNM (Malaysia)** | 3.00% (OPR) | held; CPI low — verify next MPC |
 | **SBV (Vietnam)** | 4.50% (refi) est. | accommodative; managed VND — verify |
@@ -345,6 +345,7 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - AR (volatile peso band)
 - EG (CBE ~22-24% post-IMF Mar 2024 devaluation; CPI declining from 30%+)
 - UY (BCU 8.5% — restrictive)
+- GE (NBG hiked 0.25pp to 8.25% on 6 May 2026, held 9 Sep 2026; EU candidate, accession de facto halted since 27 Jun 2024)
 
 ### Normalization (post-deflation / post-NIRP)
 - JP (BoJ exited NIRP Mar 2024 → 0.5% Jan 2025 → 0.75% Dec 2025 → 1.0% Jun 2026 → 1.25% Sep 2026; first sustained hike cycle in ~17 years)
@@ -354,7 +355,6 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - ID (BI 6% holding; ~5% GDP)
 - MY (BNM OPR 3% steady; ~5% GDP)
 - TH (BoT 2.5% steady; ~3% GDP)
-- GE (NBG cutting; EU candidate)
 - MA (BAM 2.5% stable)
 - DO (BCRD easing)
 
@@ -483,7 +483,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 ### Tier-2 (PR #60)
 
-**GE** — CPI ~2-3%; GDP ~5-6%; NBG ~8.00% est.; 10y GEL ~8.5%, USD eurobonds ~7%. Macro flag: **EU candidate, stable** — but watch geopolitical premium (Russia exposure, 2024 foreign-agent law tensions).
+**GE** — CPI 5.6% Aug 2026 (2026 data, source NBG MPC 9 Sep 2026); GDP ~5-6%; NBG 8.25% (held 9 Sep 2026); 10y GEL ~8.5%, USD eurobonds ~7%. Macro flag: **EU candidate, accession de facto halted since 27 Jun 2024 (European Council)** — but watch geopolitical premium (Russia exposure, 2024 foreign-agent law tensions).
 
 **ID** — CPI ~3% (within BI 2.5±1% target); GDP ~5%; BI-Rate 6.00% est. (FX-defence stance protecting IDR); 10y IDR ~7%, USD eurobonds ~5-5.5%. Macro flag: **stable expansion**, BBB-rated.
 
