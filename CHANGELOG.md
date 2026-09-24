@@ -75,6 +75,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(regwatch): November revisit wave run early — 131 of 133 entries + 3 October leftovers re-checked ([#416](https://github.com/soreavis/property-deep-dive/pull/416)) — by @soreavis
 
+- feat(gr): track the announced 15 % transfer tax for non-EU home buyers (90th TIF, not legislated) ([#417](https://github.com/soreavis/property-deep-dive/pull/417)) — by @soreavis
+
 ## [2026.09.1] - 2026-09-24
 
 ### Fixed
