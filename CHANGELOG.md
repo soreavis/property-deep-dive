@@ -57,6 +57,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Fixed
 
+- **San Marino's EU Association Agreement was never "signed 2024".** The Council of the EU approved the text on 16 Jul 2026 and the signature ceremony is 19 Oct 2026 in Brussels (Govern d'Andorra AA portal). Four SM lines said otherwise; two AD lines still read "in negotiation". Both regulatory-watch entries now cover the 19 Oct alerts (#409).
+
 - **Visa-programs render check went red after #406.** The CN R Visa row was corrected inside the generated block of `visa-programs.md` instead of in `config/_visa-programs.json`, so the render check saw drift. The SAFEA → MOST wording now lives in the config record and the file is re-rendered from it.
 
 - **Ireland's "Short Term Letting and Tourism Act 2025" does not exist.** Fáilte Ireland's own STLR page states registration "will open once the necessary legislation has been passed", and the Oireachtas bill register for 2025 and 2026 contains no Short-Term Letting / Tourism Bill — the measure is still the General Scheme approved 15 Apr 2025. The corpus advertised a 20 May 2026 launch, a 1 Dec 2026 opening and a 31 Dec 2026 registration deadline; none of the three is published.

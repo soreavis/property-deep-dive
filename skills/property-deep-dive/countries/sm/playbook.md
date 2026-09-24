@@ -15,7 +15,7 @@ ISO2: `sm`. Status: ✅ Fully populated (researched 2026-05).
 - **Land registry**: **Ufficio del Registro e Conservatoria** within Segreteria di Stato per le Finanze e il Bilancio — `https://gov.sm/pub2/GovSM/Dipartimenti/Dipartimento-Economia-e-Finanze/Ufficio-del-Registro-e-Conservatoria.html`
 - **Identifier**: Foglio + Mappale (sheet + parcel) per Castello — Italian-pattern but separate UTCC register
 - **Key documents**: *atto pubblico di compravendita* (notarial deed), *visura catastale* (UTCC extract), *certificato del Registro* (Conservatoria extract), *certificato penale generale* (clean criminal record — required for foreign buyers under Legge 173/2018)
-- **EU/Schengen status (CRITICAL)**: **EU customs union** since 1991 (extended to agricultural goods 2002 — Decisione 2/2002 Comitato di Cooperazione); **NOT in Schengen** — but de facto open border with Italy because the entire perimeter is Italian Schengen territory and there are no internal customs/immigration controls. Council of EU authorised Schengen-association negotiations 30 May 2024. **EU Association Agreement** initialled Dec 2023 with EU/Andorra/SM; signed 2024 — ratification pending as of mid-2026 (verify at `https://www.esteri.sm/`)
+- **EU/Schengen status (CRITICAL)**: **EU customs union** since 1991 (extended to agricultural goods 2002 — Decisione 2/2002 Comitato di Cooperazione); **NOT in Schengen** — but de facto open border with Italy because the entire perimeter is Italian Schengen territory and there are no internal customs/immigration controls. Council of EU authorised Schengen-association negotiations 30 May 2024. **EU Association Agreement** (EU/Andorra/SM): negotiations concluded Dec 2023; Council of the EU approved the text 16 Jul 2026; signature scheduled 19 Oct 2026 in Brussels; not in force — entry into force pending ratification (verify at `https://www.esteri.sm/pub2/EsteriSM/en/UE/Accordo.html` + `https://andorraue.ad/ca/acord-d-associacio`)
 - **Foreign-buyer regime (CRITICAL)**: residential acquisition by non-citizens governed by **Legge 24 dicembre 2018 n.173** + **Decreto Delegato 105/2019** + confirming **Legge 3 ottobre 2019 n.154**. Pre-2018 regime required prior authorisation of the *Consiglio dei XII* (parliamentary commission); the 2018 reform abolished the prior-authorisation requirement and replaced it with notary-verified eligibility checks + a **2-property cap per foreign individual**. See Foreign-buyer rules section below
 
 ## Section: `--price`
@@ -149,7 +149,7 @@ Foundational law: **Legge 16 dicembre 2013 n.166** as amended (most recent mater
 ### Future risk
 
 - **Legge 141/2025 IGR reform** entered force 2026 → top-rate / corporate-rate uplift; further calibration possible in 2026/2027 budget cycles
-- **EU Association Agreement**: negotiations concluded **12 Dec 2023**; Commission signing/conclusion proposals adopted **26 Apr 2024**; Council confirmed **mixed-competence procedure Dec 2025** (requires ratification by all EU member-state parliaments + EP consent). **Full signature + ratification pending as of May 2026** — single-market entry projected 2026 contingent on completion. Verify status at [esteri.sm/UE/Accordo](https://www.esteri.sm/pub2/EsteriSM/en/UE/Accordo.html). (2026-05-27 verified, source esteri.sm + europarl A10-0003/2026.)
+- **EU Association Agreement**: negotiations concluded **12 Dec 2023**; Commission signing/conclusion proposals adopted **26 Apr 2024**; Coreper approved the text unanimously and confirmed it is a **mixed agreement** **15 Jul 2026** (signature and ratification involve all 27 member states, Andorra, San Marino and the EU); Council of the EU approved the text **16 Jul 2026**; **signature ceremony scheduled 19 Oct 2026 in Brussels** ([Govern d'Andorra AA portal](https://andorraue.ad/ca/acord-d-associacio), news items 15 Jul + 16 Sep 2026); per Eunews (secondary, 16 Jul 2026) the Council decision covers signature **and provisional application** — scope and start of any provisional application not verified against the Council release; check consilium.europa.eu after signature. **Not in force** — entry into force pending EP consent and ratification by all parties. Verify status at [esteri.sm/UE/Accordo](https://www.esteri.sm/pub2/EsteriSM/en/UE/Accordo.html). (2026-05-27 verified, source esteri.sm + europarl A10-0003/2026; Coreper, Council and signature dates added 2026-09-24 per andorraue.ad.)
 - **OECD BEPS Pillar Two** + EU Code of Conduct on tax — corporate-vehicle structuring evolving; direct-ownership impact limited but holding-company structures affected
 
 ---
@@ -646,7 +646,7 @@ San Marino is a **viable retirement destination** for HNW retirees seeking Itali
 
 ### Trend drivers (2024–2026)
 
-- **EU Association Agreement** (initialled Dec 2023; signed 2024) — single-market spillover scenario if ratified
+- **EU Association Agreement** (negotiations concluded Dec 2023; text approved by the Council of the EU 16 Jul 2026, signature scheduled 19 Oct 2026, not in force) — single-market spillover scenario if ratified
 - **Schengen-association negotiations** (authorised May 2024) — formalising the de facto open border
 - **Tax-residency inflows** modest but positive (€500k Residenza Elettiva + entrepreneur route)
 - **Tourism**: ~2M+ visitors/year (≥60× population) — concentrated centro storico UNESCO + cross-border Rimini overflow
@@ -793,7 +793,7 @@ Pre-2018, all non-citizen acquisitions required **prior authorisation of the Con
 - **17% Imposta Monofase on new-build first sale** — material uplift on first-hand sales
 - **Currency = EUR by Monetary Agreement (2001/2012)**, NOT Eurozone member
 - **NOT in Schengen** (open ITA border de facto; Schengen-association negotiations authorised 2024)
-- **EU customs union since 1991** (agriculture 2002); EU Association Agreement signed 2024
+- **EU customs union since 1991** (agriculture 2002); EU Association Agreement signature scheduled 19 Oct 2026, not in force
 - **No CBI / golden-passport**, **30-year naturalisation**, **dual nationality permitted**
 - **Single integrated state utility (AASS)** — water, electricity, gas, sewer all from one operator
 - **Italian-language closing documents** — non-Italian-speaking buyers need sworn translator + commercialista
@@ -863,11 +863,11 @@ Pre-2018, all non-citizen acquisitions required **prior authorisation of the Con
 
 **Confidence**: MEDIUM — small market with thin publicly accessible price/transaction data. Primary-source confidence HIGH on legal framework (Legge 173/2018 + DD 105/2019 + Legge 154/2019 foreign-buyer regime; Legge 200/2011 + DD 44/2018 ISI; Legge 166/2013 + Legge 141/2025 IGR; Legge 94/2017 Residenza Elettiva; Monetary Agreement 2001/2012; EU customs union since 1991), institutional URLs (gov.sm + statistica.sm + finanze.sm + bcsm.sm + esteri.sm + iss.sm + aass.sm), and population (~33,987 Sept 2024 per Ufficio Statistica). MEDIUM on transaction-tax exact rates (Imposta di Registro band varies by deal type — verify per deal at Ufficio del Registro), ISI category-specific rates (~0.3–0.8% headline est. — verify per parcel rendita), Tassa di Concessione Governativa current quantum (verify at notary). LOW on per-Castello €/m² granularity (no SM HPI; ranges synthesised from listing aggregators + Tecnocasa notes + cross-border ITA OMI Rimini context — verify any specific deal via UTCC visura + bank appraisal + multiple agency comps).
 
-**Last verified**: 2026-05-27 (chamber-of-commerce body name (ASE-CC) corrected 2026-09-18 per camcom.sm)
+**Last verified**: 2026-05-27 (chamber-of-commerce body name (ASE-CC) corrected 2026-09-18 per camcom.sm; EU Association Agreement status corrected 2026-09-24 per esteri.sm + Govern d'Andorra AA portal)
 
 **Researched by**: Opus 4.7 (microstate-batch, 2026-05)
 
-**Notes**: Watch list 2026 — (1) **EU Association Agreement** ratification (signed 2024; ratification by all parties pending — major regulatory-spillover event if ratified, single-market alignment scenarios); (2) **Schengen-association negotiations** (Council mandate May 2024 — formalising de facto open border with Italy); (3) **Legge 141/2025 IGR reform** in force 2026 — top rate 35% individuals / 18% corporate (was 17%); (4) annual Legge di Bilancio adjustments to ISI bands + Imposta di Registro rates; (5) Legge 64/2025 "Emergenza Casa" State-Guarantee mortgage rollout via banks. **Re-verify each annual budget law** for ISI/Registro/Monofase adjustments, Residenza Elettiva quantum decreto delegato, and any updates to the Legge 173/2018 foreign-buyer schedule.
+**Notes**: Watch list 2026 — (1) **EU Association Agreement** ratification (signature scheduled 19 Oct 2026; EP consent and ratification by all parties pending — major regulatory-spillover event if ratified, single-market alignment scenarios); (2) **Schengen-association negotiations** (Council mandate May 2024 — formalising de facto open border with Italy); (3) **Legge 141/2025 IGR reform** in force 2026 — top rate 35% individuals / 18% corporate (was 17%); (4) annual Legge di Bilancio adjustments to ISI bands + Imposta di Registro rates; (5) Legge 64/2025 "Emergenza Casa" State-Guarantee mortgage rollout via banks. **Re-verify each annual budget law** for ISI/Registro/Monofase adjustments, Residenza Elettiva quantum decreto delegato, and any updates to the Legge 173/2018 foreign-buyer schedule.
 
 ## Extension TODOs (deepen on first real run)
 
