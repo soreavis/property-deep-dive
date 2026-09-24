@@ -93,7 +93,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 - **Private residence exemption: €150,000** if used as main residence ≥5 years (up from €85,430)
 - **Agricultural land (disposed of by a farmer) exemption: €50,000** (was €25,629 — **2026 reform**)
 - **Overall lifetime exemption cap: €150,000** (up from €85,430 — **2026 reform**)
-- All four uplifts (general / agricultural / principal residence / overall cap) enacted by **Amending Law 242(I)/2025**, Official Gazette 31 Dec 2025 (2026 data, source Cyprus Tax Department — https://www.gov.cy/mof-tax/documents/kefalaioychika-kerdi/genikes-plirofories-gia-ta-kefalaioychika-kerdi/) (2026-08-07 verified; prior secondary cross-checks: Sovereign / Harneys / Chambers&Co / IBCCS Tax / Mondaq)
+- All four uplifts (general / agricultural / principal residence / overall cap) enacted by **Amending Law 242(I)/2025**, Official Gazette No. 5070 of 31 Dec 2025 (2026 data, source Cyprus Tax Department — https://www.gov.cy/mof-tax/documents/kefalaioychika-kerdi/) (2026-08-07 verified; prior secondary cross-checks: Sovereign / Harneys / Chambers&Co / IBCCS Tax / Mondaq)
 - Exemption from CGT for property acquired between 16 Jul 2015 and 31 Dec 2016 still applies (one-off historical relief)
 
 ### Personal Income Tax — `2026 REFORM`
@@ -341,7 +341,7 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 | Hermes STR | https://www.gov.cy/tourism/ |
 | EPC certificate | https://bfu.meci.gov.cy/en/energy-performance-certificates/ |
 | 2026 tax reform | https://taxsummaries.pwc.com/cyprus/individual/other-taxes |
-| CGT exemptions (primary) | https://www.gov.cy/mof-tax/documents/kefalaioychika-kerdi/genikes-plirofories-gia-ta-kefalaioychika-kerdi/ |
+| CGT exemptions (primary) | https://www.gov.cy/mof-tax/documents/kefalaioychika-kerdi/ |
 | ECtHR Loizidou ref | https://en.wikipedia.org/wiki/Loizidou_v._Turkey |
 | 2022 Paphos M6.6 quake | https://en.wikipedia.org/wiki/2022_Cyprus_earthquake |
 | 2021 Limassol wildfires | https://en.wikipedia.org/wiki/2021_Limassol_wildfires |
@@ -352,7 +352,7 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 
 **Confidence**: HIGH on 2026 Tax Reform (CGT exemption uplifts + SDC-on-rental abolition verified 2026-08-07 against the primary Cyprus Tax Department / Ministry of Finance source; PwC/KPMG/Sovereign retained as cross-checks), Hermes STR registration mandatory since 6 Feb 2023, 2021 Limassol wildfires (4 dead, ~55 km² / 5,500 ha, major DD anchor for foothill properties), 2025 worst-drought-since-1901 + reservoir levels, Russian-buyer post-2022 sanctions enforcement (CySEC C728 expanded 23 Sep 2025). MEDIUM on per-municipality local IPT (verify per locality), SDA-equivalent (no formal CY SDA list — different from MT), no real-estate-specific stamp-duty exceptions retained from the 2026 abolition — only judicial / court fees survive (verify per transaction). LOW on TRNC IPC application data + reunification negotiations (politically dynamic — snapshot only).
 
-**Last verified**: 2026-08-07 (scope: `--tax` CGT exemptions + SDC-on-rental abolition only, against the Cyprus Tax Department / Ministry of Finance primary source; the rest of the playbook stands as of its 2026-04-26 population and 2026-05-27 checks; flood-map authority (Water Development Department) corrected 2026-09-18 per gov.cy/moa-wdd). Ownership tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+**Last verified**: 2026-08-07 (scope: `--tax` CGT exemptions + SDC-on-rental abolition only, against the Cyprus Tax Department / Ministry of Finance primary source; the rest of the playbook stands as of its 2026-04-26 population and 2026-05-27 checks; flood-map authority (Water Development Department) corrected 2026-09-18 per gov.cy/moa-wdd). Ownership / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)

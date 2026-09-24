@@ -183,13 +183,13 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 ### Short-term rentals (Ferienwohnung / Airbnb)
 
 **Wien**:
-- **Wiener Bauordnung 2024** (effective Jul 2024): max 90 days/yr in Wohngebiet for whole-apartment short-let; permit required for >90 days
+- **Wiener Bauordnungsnovelle 2023** (short-let limits city-wide from 1 Jul 2024): max 90 days per calendar year for temporary short-let of a dwelling without giving up one's residence (legal persons cannot use the 90-day allowance); above that, outside a Wohnzone only with an Ausnahmebewilligung under § 129 Abs 1a BO limited to five years, inside a Wohnzone only as a Beherbergungsstätte after an Umwidmung under § 7a Abs 5 BO (2026 data, source MA 37 Merkblatt Kurzzeitvermietung + Stadt Wien press release 2026-09-19); registration number planned from 1 Jan 2027 under the WKVRG (announced, not yet enacted — see STR-VO note below)
 - WEG approval typically required
 - Penalty: up to €50,000
 
 **Salzburg, Innsbruck**: similar restrictions
 
-**EU 2024/1028 (STR-VO)**: Austria has NOT opted in — the Wirtschaftsministerium (BMWET) confirms the STR-VO is applied in **no Bundesland as of its 20 May 2026 start date** ("vorerst"); no national STR registration-number regime, though individual Länder may opt in later (BMWET is building the Single Digital Entry Point). Short-let stays governed by each Land's Bauordnung. (2026-07-03 verified; source [BMWET STR-VO](https://www.bmwet.gv.at/Themen/Tourismus/Tourismus-in-Oesterreich/Rechtliches/kurzzeitvermietung_str_vo.html))
+**EU 2024/1028 (STR-VO)**: Austria has NOT opted in — the Wirtschaftsministerium (BMWET) confirms the STR-VO is applied in **no Bundesland as of its 20 May 2026 start date** ("vorerst"); no national STR registration-number regime, though individual Länder may opt in later (BMWET is building the Single Digital Entry Point). Short-let stays governed by each Land's Bauordnung. **Wien is opting in**: Stadt Wien announced on 19 Sep 2026 a new Wiener Kurzzeitvermietungsregistergesetz (WKVRG), built on the EU regulation, to be passed by the Wiener Landtag in November 2026 and in force **1 Jan 2027** (hosts already listing: transition to the end of Q1 2027). Every platform host would need a registration number and platforms could only list Wien dwellings that have one; fines up to €50,000 per violation, minimum €2,000 for repeat offences. Announced, not yet enacted (source [Stadt Wien press release 2026-09-19](https://presse.wien.gv.at/presse/2026/09/19/buergermeister-ludwig-wien-ist-vorbild-beim-schutz-von-leistbaren-wohnungen-fuer-die-bevoelkerung)). (2026-07-03 verified; source [BMWET STR-VO](https://www.bmwet.gv.at/Themen/Tourismus/Tourismus-in-Oesterreich/Rechtliches/kurzzeitvermietung_str_vo.html))
 
 ### Tax treatment
 
@@ -435,7 +435,7 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 ✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (HORA + Statistik Austria + Grundbuch all gold-standard). MEDIUM for short-let regulation (Wiener Bauordnung 2024 + EU 2024/1028 transposition still evolving).
-**Last verified**: 2026-08-07 — `--tax` ownership caveats only (Grundverkehr approval regime + Tirol/Salzburg second-home share thresholds re-verified against RIS konsolidiertes Landesrecht); all other sections remain at 2026-07-03.
+**Last verified**: 2026-08-07 — `--tax` ownership caveats only (Grundverkehr approval regime + Tirol/Salzburg second-home share thresholds re-verified against RIS konsolidiertes Landesrecht); all other sections remain at 2026-07-03. Rental / tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs
 

@@ -221,7 +221,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 21. QA (~6-9% — ~0.25% transfer + notary + agent + freehold-zone-only restriction + verify with MoJ Real Estate Registration)
 22. SA (~5-8% — 5% transfer tax (Real Estate Disposal Tax / RETT 5%) + notary + agent; Premium Residency real-estate-owner SAR 4M minimum)
 23. TN (~10-15% — 5% droits d'enregistrement + 1% conservation foncière + agent + Office des Changes friction; non-resident slightly higher)
-24. EC (~7-10% — alcabala 1% + registry + notary + agent + IVA 12% on services where applicable)
+24. EC (~7-10% — alcabala 1% + registry + notary + agent + IVA 15% on services where applicable)
 25. PE (~7-10% — alcabala 3% + notary + Registros Públicos + agent)
 
 ### Lowest annual carry (no/minimal annual property tax)
@@ -232,7 +232,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 5. LU (impôt foncier near-trivial currently — reform 2030)
 6. GE (income-gated annual tax — 1% only above GEL 40k household income threshold)
 7. IE (LPT modest, 0.0906% base rate)
-8. LT (NTM exemption ≤€150k for residents)
+8. LT (NTM from 2026: main dwelling exempt up to a municipal threshold of at least €450k / other non-commercial property 0% up to €50k total value, then 0.2–1% marginal bands — 2026 data, source VMI)
 9. DO (1% IPI only on portion above DOP 9.86M, ~USD 165k)
 10. MC (no annual property tax for owner-occupiers; small registration fees only)
 11. MO (no annual property tax for residential; rental income subject to Property Tax 6-10% on rental net only)
@@ -306,7 +306,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 2. AE Golden Visa (AED 2M / ~USD 545k property — 10-year, renewable)
 3. TR CBI (USD 400k property — citizenship, retain 3y)
 4. GE Investor Residency (USD 300k property — 5-yr, path to permanent)
-5. DO Investor Residency (USD 200k property; CONFOTUR zones can shave taxes)
+5. DO Investor Residency (USD 200k minimum via company / incentive-regime investment per DGM; direct property purchase not listed as a route — verify with DGM; CONFOTUR zones can shave taxes)
 6. PH SRRV (USD 10-50k deposit depending on age — retiree visa, not strictly RBI)
 7. TH LTR — 4 categories (no fixed property threshold; passive-income or wealth route)
 8. MY MM2H (post-2024 reform: tiers USD 150k / 500k / 1M deposit + compulsory residence ≥ RM 600k / 1M / 2M)
@@ -315,8 +315,8 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 11. PA (Friendly Nations $200k / Qualified Investor $300k)
 12. LV (€250k Riga radius, built only)
 13. ID 2nd Home Visa (IDR 2B funds, 5-10 yr; not strictly property-tied)
-14. EG (Investment Law 160/2023 — residency tied to property purchase, USD threshold updated 2023)
-15. CO Migratorio M (350× SMLMV ~USD 100k+ property route)
+14. EG (PM Decree 3099/2019 investor routes — state real-estate tier USD 500,000 per GAFI form vs USD 300,000 per US State Dept 2025 ICS; outcome citizenship vs permanent residency unreconciled)
+15. CO Migratorio M (350× SMLMV ≈ USD 195k property route at 2026 SMLMV + TRM 3,144.14)
 16. UY (no formal RBI; tax-residency 11-yr exemption is the actual draw)
 17. CL (no formal RBI; investor-visa via Sociedad)
 18. **HK CIES reactivated Mar 2024** — HK$30M total + ≤HK$10M residential (Investments Office, ImmD)
@@ -351,11 +351,10 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 5. LT (NTM 2026 progressive on non-main with main-dwelling threshold ≥€450k)
 
 ### Steepest 2026 tax reforms (less helpful for buyers)
-1. RO (VAT 19→21% Aug 2025; local property tax baseline +167% Jan 2026)
+1. RO (VAT 19→21% Aug 2025; local property tax baseline +79% Jan 2026)
 2. NL (Box 3 forfait 6% 2026)
 3. UK (SDLT thresholds reverted 1 Apr 2025)
-4. SI (davek na nepremičnine 1.45% pending 2026)
-5. CH (Eigenmietwert abolition 2028 — net depending on profile)
+4. CH (Eigenmietwert abolition 2028 — net depending on profile)
 
 ## Cross-cutting red-flag flags
 
@@ -374,7 +373,7 @@ When comparing, surface country-level structural flags:
 - 🚩 PH: condo 40% foreign-quota cap per project — Master Deed must show available foreign allocation
 - 🚩 VN: 50-yr leasehold + 30%-units-per-building / 250-houses-per-ward foreign quotas (2024 Land Law)
 - 🚩 ID: Hak Milik freehold not available to foreigners — Hak Pakai or PMA structures only; nominee arrangements legally void
-- 🚩 MY: state-level minimum thresholds for foreigners (MYR 1M-3M depending on state) + 4% MOT surcharge
+- 🚩 MY: state-level minimum thresholds for foreigners (MYR 500k-2M depending on state and tier — see my/playbook.md) + foreigner MOT stamp duty flat 8% from 1 Jan 2026 (Budget 2026, per my/playbook.md — verify at LHDN)
 - 🚩 IL: ~93% land is state-owned (RMI / Israel Land Authority) — most "purchases" are 49/98-yr capitalised leaseholds, not freehold
 - 🚩 IL: war-zone insurance via Karnit (state-backed compensation fund) — privates not always reachable for missile-impact zones
 - 🚩 TR: military-restricted-zone clearance required — title transfer can be blocked even after deposit
@@ -678,7 +677,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 
 | Metric | MD | (cross-reference: GE / RS / ME) |
 |---|---|---|
-| EU candidate? | YES (Jun 2022) | GE Mar 2024 (associate path); RS/ME accession negotiations open |
+| EU candidate? | YES (Jun 2022) | GE Dec 2023 (accession de facto halted Jun 2024); RS/ME accession negotiations open |
 | COL | **Lowest in Europe** (Numbeo 2024-2026) | GE/RS/ME mid-low |
 | Personal income tax | Flat 12% (one of lowest in Europe) | GE territorial-leaning; RS 10-25% progressive; ME 9-15% progressive |
 | Acquisition cost | ~2-4% (notary + State Registration Chamber) | GE 0.1-0.5% (lowest globally); RS 5-7%; ME 5-7% |
@@ -691,7 +690,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Transnistria | **Excluded from due-diligence scope** | N/A |
 
 🥇 **MD** for cheapest Europe COL + flat 12% PIT + Romanian-citizenship-by-descent EU-passport optionality + gigabit fiber norm — at cost of: NO Schengen, NO formal Digital Nomad Visa as of 2026, geographic isolation, Russian-language-spillover political-risk overlay
-- Cross-reference GE for similar low-COL Eurasian base with faster registration but no EU candidacy
+- Cross-reference GE for similar low-COL Eurasian base with faster registration but EU accession de facto halted since Jun 2024 (candidate since Dec 2023)
 - Cross-reference RS/ME for EU-candidate Western Balkans alternatives with broader expat networks
 
 **Confidence**: MEDIUM — MD CBI ended via Law 100/2020 (verified at SFS/Govt portal); Investor Residency Law 200/2010 thresholds verified per Investment Agency Moldova. Romanian-citizenship-by-descent path is widely used but ANC processing times have stretched 2022-2026. Transnistria-scope exclusion is a hard rule for any due-diligence on real-estate east of Dniester.
@@ -741,7 +740,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Metric | PE | EC | PY |
 |---|---|---|---|
 | Foreign-buyer access | Open; **border 50km Andean restriction (Constitution Art. 71)** — Supreme Decree for border zones | Open generally but **2024 Internal Armed Conflict Declaration** requires extra title-DD in Guayaquil/Esmeraldas/Manta | Open; border 50km restriction Ley 2532/2005 |
-| Total acquisition cost | ~7-10% (alcabala 3% + notary + Registros Públicos + agent) | ~7-10% (alcabala 1% + registry + notary + IVA 12% on services) | ~3-5% (ITBI ~1.5% + notarial + registration; among lowest LatAm) |
+| Total acquisition cost | ~7-10% (alcabala 3% + notary + Registros Públicos + agent) | ~7-10% (alcabala 1% + registry + notary + IVA 15% on services) | ~3-5% (ITBI ~1.5% + notarial + registration; among lowest LatAm) |
 | Annual carry | Sliding municipal predial | Sliding municipal predial | Very low ~1% on register-value (effective <0.3%) |
 | Pension tax | Worldwide for residents (>183 days); progressive 8-30%; foreign-source pre-arrival potentially exempt Art. 6 LIR | Worldwide for residents (>183 days); progressive 5-37%; potentially exempt Art. 9 LRTI if treaty | **Territorial PIT** — foreign-source NOT subject to PY IRP; flat 8/9/10% on PY-source only |
 | Visa pathway | **Investor Visa USD 30k BUSINESS** (NOT real-estate exclusively) / **Rentista USD 1,500/mo passive** | **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 42,500** (~100×SBU 2026 SBU USD 470/mo) | **SET 1186/2023 reformed PR** — formerly USD 5,200 → now USD 70k SUACE business OR active SET RUC |
@@ -764,8 +763,8 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Foreign-buyer access | Open via Investor Residence Permit ≥TND 1M; Office des Changes documentation | Only `titré` (registered) properties safely transferable to foreigners; agricultural barred | Max 2 properties × 4,000 m² total; Sinai/Suez excluded |
 | Total acquisition cost | ~10-15% (5% droits + 1% conservation foncière + agent) | ~5-8% (cleaner stack) | ~5-7% formal but most properties unregistered |
 | Pension tax | Worldwide resident progressive 0-35%; **80% abatement on foreign pension transferred permanently in TND** (Art. 36 Code IRPP — verify) | Foreign pensions: **80% abatement if transferred permanently in DH** (Art. 76 CGI) | Foreign-source pension generally not taxed by EG (territorial application varies) |
-| Visa pathway | Investor Residence Permit ≥TND 1M (~USD 320k); **Tunisia Investor Visa drafted 2024 NOT gazetted** | Carte de Séjour (long-stay) standard residence permit | **Investment Law 160/2023 PR** USD 250k cash deposit → permanent residency |
-| Citizenship | 5yr continuous PR + Arabic; dual since 2014 | 5yr continuous PR | Investment Law 160/2023 path |
+| Visa pathway | Investor Residence Permit ≥TND 1M (~USD 320k); **Tunisia Investor Visa drafted 2024 NOT gazetted** | Carte de Séjour (long-stay) standard residence permit | **PM Decree 3099/2019** USD 250k non-refundable Treasury contribution — outcome unreconciled (GAFI: citizenship / US State Dept 2025 ICS: permanent residency) |
+| Citizenship | 5yr continuous PR + Arabic; dual since 2014 | 5yr continuous PR | PM Decree 3099/2019 investor routes (outcome unreconciled — verify with the Citizenship Applications Assessment Unit) |
 | Population | ~12.07M (Tunis Metro ~2.7M, Sfax ~1M, Sousse ~290k, Djerba ~165k) | ~37M | ~110M |
 | Climate | Tunis Mediterranean 11-32°C; **2018 Cap Bon floods + 2023-24 record drought + APAL coastal erosion** | Marrakech 18-22°C winter; Atlantic coast cooler | Hurghada/Sahel 18-35°C; very dry; summer extreme |
 | Expat density | Moderate FR/IT/DE/UK (FR cultural ties strong) | FR retirees dominant; UK/DE growing | RU/UA/DE/UK; **EGP currency volatility material** post-2024 devaluation |
@@ -777,7 +776,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 🥈 **TN** for **medical-tourism healthcare quality + French-system standards** + 80% abatement on foreign pension under Art. 36 Code IRPP (verify); accept IMF EFF Mar 2024 suspension overhang + post-2021 constitutional revision political-economy risk
 🥉 **EG** only with **Form 4 documented at purchase** for clean USD repatriation — without it, EGP-only exit during devaluation = catastrophic; **Sinai/Suez excluded** for foreigners; max 2 properties × 4,000 m² total
 
-**Confidence**: MEDIUM — TN Code IRPP Art. 36 80% abatement structure parallels MA Art. 76 CGI but verify with Direction Générale des Impôts; TN IMF EFF Mar 2024 suspension is structural FX overhang; MA Art. 76 CGI verified; EG Investment Law 160/2023 thresholds verified but Form 4 + currency-control risks remain material.
+**Confidence**: MEDIUM — TN Code IRPP Art. 36 80% abatement structure parallels MA Art. 76 CGI but verify with Direction Générale des Impôts; TN IMF EFF Mar 2024 suspension is structural FX overhang; MA Art. 76 CGI verified; EG Decree-3099/2019 thresholds unreconciled between GAFI form and US State Dept 2025 ICS but Form 4 + currency-control risks remain material.
 
 ### Example M — OM vs BH vs KW vs JO for non-AE/QA/SA GCC + Levant residency-by-property
 

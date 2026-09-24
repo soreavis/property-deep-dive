@@ -113,7 +113,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 - **Insured residences ≤ €500k taxable value**: **−20% ENFIA** (since 2025)
 - **Insured residences > €500k**: **−10%**
-- **Villages ≤ 1,500 inhabitants**: **−50% ENFIA from 2026** (Law 5246/2025; main residence of GR tax residents, taxable value ≤ €400k; excludes Attica except the Islands regional unit; Evros threshold 1,700) — **abolished entirely for these homes from 2027** (announced 89th TIF Sept 2025 — verify gazetting before relying) (2026-07-03 verified)
+- **Villages ≤ 1,500 inhabitants**: **−50% ENFIA from 2026** (Law 5246/2025; main residence of GR tax residents, taxable value ≤ €400k; excludes Attica except the Islands regional unit; 1,700 threshold for West Macedonia, Evros and the border municipalities of Central Macedonia, East Macedonia-Thrace and Epirus) — **abolished entirely for these homes from 2027** (legislated in the same Law 5246/2025 art. 10, source minfin.gov.gr Property Tax Code codification); 90th TIF (Sept 2026) announced extending the 2027 exemption to settlements up to 2,000 residents (2,200 West Macedonia) — announced, not yet legislated (2026-07-03 verified; 2027-exemption legal basis and 90th TIF limb 2026-09-24 verified)
   - ~12,720 settlements affected
 - **Historic buildings ≤ €400k**: exempt
 - **Objective values frozen until 2027** — preserves base
@@ -127,7 +127,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 | Athens 80 m² apt (€150k objective) | ~€300–€600 |
 | Athens villa (€500k objective) | ~€1,500–€3,500 |
 | Cyclades vacation home (€350k) | ~€1,000–€2,500 |
-| Rural village house (≤1,500 pop) | ~€100–€300 (reflects −50% village cut from 2026, line 116; abolished from 2027 — announced 89th TIF Sept 2025, verify gazetting) |
+| Rural village house (≤1,500 pop) | ~€100–€300 (reflects −50% village cut from 2026, line 116; abolished from 2027 — legislated, Law 5246/2025 art. 10) |
 
 ### Transaction taxes
 
@@ -382,7 +382,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 - **Spiti Mou II** programme: co-financed first-home mortgage (RRF via Hellenic Development Bank) — ages 25-50; income ≥€10k, caps €25k single / €35k +€5k per child (couples) / €39k +€5k per child beyond first (single-parent); loan ≤€190k at ≤90% of price, 50% of the loan interest-free; eligible homes built pre-2008, ≤150 m², price ≤€250k, no letting for 7 years. **Application window CLOSED** (deadline May 2026 — expired per Alpha Bank, retrieved 2026-07-03); pipeline applicants proceed to signing (reported sign-by 31 Aug 2026 — verify with lending bank)
 - **VAT suspension on new builds** through 31 Dec 2026
 - **Capital gains suspension** through 31 Dec 2026
-- **Reduced ENFIA** for insured + village properties (village primary homes ≤1,500 pop: −50% from 2026, abolished from 2027 — announced 89th TIF Sept 2025, verify gazetting)
+- **Reduced ENFIA** for insured + village properties (village primary homes ≤1,500 pop: −50% from 2026, abolished from 2027 — legislated, Law 5246/2025 art. 10; 90th TIF extension to 2,000 residents announced Sept 2026, not yet legislated)
 
 ## Common listing platforms
 
@@ -467,9 +467,9 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25. **Last verified**: 2026-08-15 (**SSFT gazetted** — ΦΕΚ Δ' 658/07.08.2026, JMD ΥΠΕΝ/ΔΝΕΠ/89997/3071/2026, signed 7 Aug 2026, one day after the previous pass read it as unsigned; out-of-plan αρτιότητα, 25 m coastal ban, star-category floor and island bed caps now directly applicable, STR limb confirmed still enabling-only. Only the SSFT claims were re-verified in this pass. Earlier 2026-08-06: SSFT gazetting status checked against YPEN; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged). Rental tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
-**Coverage check**: pricing, traffic, tax (incl. 2025-2026 ENFIA reforms + VAT/CGT suspensions), rental (incl. STR Law 5170/2025 + Athens freeze + Cyclades draft spatial framework), work, risks (seismic + volcanic + wildfire + tsunami), mains all have primary government sources + cost benchmarks.
-**Confidence**: HIGH for STR reforms (Athens Times, GTP Headlines, ProtoThema, BNB News, Airbnb 2025 Greek tax guide all confirm); HIGH for ENFIA 2025-2026 cuts (multiple tax law firm sources confirm; village abolition from 2027 announced — verify gazetting); HIGH for VAT/CGT suspension extensions through 2026 (Law 5246/2025 gazetted 11 Nov 2025, vatcalc + Elxis confirm); HIGH for Golden Visa restructuring (Global Citizen Solutions + multiple sources confirm 1 Sept 2024 effective) and the GV short-term-rental ban (Law 5100/2024 Art. 64; Varnavas + WFW + IMI Daily + Circular 1/2026 confirm). MEDIUM for Cyclades bed caps (draft Special Spatial Framework — not gazetted as of 2026-08-06, past its own end-June target). MEDIUM for cadastre completion timeline (target slipping repeatedly).
+✅ **Fully populated** as of 2026-04-25. **Last verified**: 2026-08-15 (**SSFT gazetted** — ΦΕΚ Δ' 658/07.08.2026, JMD ΥΠΕΝ/ΔΝΕΠ/89997/3071/2026, signed 7 Aug 2026, one day after the previous pass read it as unsigned; out-of-plan αρτιότητα, 25 m coastal ban, star-category floor and island bed caps now directly applicable, STR limb confirmed still enabling-only. Only the SSFT claims were re-verified in this pass. Earlier 2026-08-06: SSFT gazetting status checked against YPEN; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged). Rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
+**Coverage check**: pricing, traffic, tax (incl. 2025-2026 ENFIA reforms + VAT/CGT suspensions), rental (incl. STR Law 5170/2025 + Athens freeze + Special Spatial Framework for Tourism, gazetted ΦΕΚ Δ' 658/07.08.2026), work, risks (seismic + volcanic + wildfire + tsunami), mains all have primary government sources + cost benchmarks.
+**Confidence**: HIGH for STR reforms (Athens Times, GTP Headlines, ProtoThema, BNB News, Airbnb 2025 Greek tax guide all confirm); HIGH for ENFIA 2025-2026 cuts (multiple tax law firm sources confirm; village abolition from 2027 legislated in Law 5246/2025 art. 10; 90th TIF extension to 2,000 residents announced Sept 2026, not yet legislated); HIGH for VAT/CGT suspension extensions through 2026 (Law 5246/2025 gazetted 11 Nov 2025, vatcalc + Elxis confirm); HIGH for Golden Visa restructuring (Global Citizen Solutions + multiple sources confirm 1 Sept 2024 effective) and the GV short-term-rental ban (Law 5100/2024 Art. 64; Varnavas + WFW + IMI Daily + Circular 1/2026 confirm). MEDIUM for Cyclades bed caps (Special Spatial Framework gazetted ΦΕΚ Δ' 658/07.08.2026; figures read via kodiko.gr + ministry Q&A, not yet confirmed against the et.gr FEK PDF). MEDIUM for cadastre completion timeline (target slipping repeatedly).
 
 ## Extension TODOs
 

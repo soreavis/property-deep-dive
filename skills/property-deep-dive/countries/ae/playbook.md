@@ -398,7 +398,7 @@ What residents do pay annually:
 - **Apr 16, 2024**: 254 mm of rain in 48 hrs in parts of UAE — **heaviest rainfall in 75 years of records** (NCM); record loss-of-life event with at least 4 deaths in UAE + 19 in Oman.
 - **Cause** (per Met Office + Newcastle U research, Nature 2025): mesoscale convective system; climate-change attribution increases likelihood ~10–40%.
 - **Reform — Dubai "Tasreef" stormwater plan**: ~AED 30 bn (USD 8 bn), approved Jun 2024 by Sheikh Mohammed bin Rashid; phased to **2033**.
-- **Interim fix**: AED 277 m drainage network completed Jun 2025 (Dubai Municipality).
+- **Neighbourhood project (not emirate-wide)**: AED 277 m sewerage + rainwater drainage network in Nad Al Sheba 3 completed Jun 2025 (2025 data, source Dubai Media Office) — 24 km sewerage + 31 km gravity rainwater network; Dubai Municipality frames it within the Tasreef and sewerage programmes.
 - **Implication for buyers**: low-lying communities (some Mirdif, Al Quoz, Sharjah border areas, IMPZ) experienced multi-day water-logging — verify drainage history with OA + developer.
 
 ### Build-quality / fire risk
@@ -633,7 +633,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 
 **Confidence**: **HIGH** for federal-level rules (Golden Visa / Retirement Visa thresholds, VAT regime, Corporate Tax, AED peg, AML), Dubai DLD transfer fee + service-charge framework + Smart Rental Index brackets + DET holiday-home permit, ADREC 2% + Abu Dhabi Law 13/2019 (amending Law 19/2005) framework, DIFC/ADGM Wills + Dubai Law 2/2025, Apr 2024 flood event + Tasreef response. **MEDIUM** for emirate-by-emirate detail outside Dubai/Abu Dhabi (RAK/Ajman/Fujairah/UAQ less standardised — designated zones verified per source but precise transfer fee schedules vary and need per-deal confirmation with the relevant municipality), Abu Dhabi citywide pricing benchmarks (less granular open data than Dubai), Sharjah usufruct vs freehold-for-Arabs distinction (verify with SRERD per nationality).
 
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; Northern Emirates utility (EtihadWE) corrected 2026-09-18 per u.ae). Finance / rental tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; Northern Emirates utility (EtihadWE) corrected 2026-09-18 per u.ae). Connectivity / finance / rental / risks / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs (deepen on first real run)
 

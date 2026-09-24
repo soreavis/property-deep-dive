@@ -58,8 +58,8 @@ RON, EUR/RON ≈ 4.97 (Apr 2026, floating). Not in eurozone. No firm target.
 
 - **VAT**: Standard rate raised **19% → 21% (1 Aug 2025)**. User assumption "VAT 19%" is now outdated.
 - **Reduced VAT**: former 5% and 9% rates merged to single **11% reduced rate** from 1 Aug 2025
-- **New-build housing transitional 9%**: between 1 Aug 2025 and **31 Jul 2026**, qualifies for 9% VAT only if: useful area ≤ 120 m², value (incl. land, ex-VAT) ≤ RON 600,000, buyer is individual, no prior reduced-VAT purchase since 1 Jan 2023, advance contract by 1 Aug 2025 + delivery by 31 Jul 2026. **After 31 Jul 2026 the 9% concession EXPIRES**
-- **Local property tax — major reform 1 Jan 2026** (Lege 239/2025, M.Of. 15 Dec 2025; 2026-05-27 verified, source ProTV / Europa Libera / juridice.ro — scope note: only the concrete/brick basis description, the O.G. 16/2022 repeal and the O.U.G. 9/2026 age cuts stated below carry the later 2026-08-07 re-verification, source Ministerul Finanțelor https://mfinante.gov.ro/static/10/Mfp/transparenta/EMproiectlegeredresareficientizareRP_28082025.pdf; every other figure in this bullet still carries the 2026-05-27 stamp): Taxable value baseline (residential, concrete/brick frame + full utilities) raised from **RON 1,492/m² → RON 2,677/m² (+79%)**. The notarial market-study basis (O.G. 16/2022) is **REPEALED** — market values deferred to the 2027 base. Reductions for buildings >30 years (10%) and >50 years (30%) were eliminated by Lege 239/2025, but **O.U.G. 9/2026 restores age cuts of 15% (50–100 yrs) and 25% (100+ yrs)** (2026 verified — no in-force date given in the source entry; confirm the applicable tax year with the local primărie). Buildings >4 floors reduction **eliminated**. Severe-disability exemption **removed**. Statutory cota per Codul Fiscal art. 457–458: **0.08–0.2% residential / 0.2–1.3% non-residential** (set by hotărâre de consiliu local). Apartment owners typically see local tax up **70–80%**, in Bucharest Sector 1 close to doubled — not adjusted for the O.U.G. 9/2026 age-cut restoration; no revised impact figure is published in the source entry.
+- **New-build housing transitional 9%**: between 1 Aug 2025 and **30 Sep 2026 inclusive** (window extended from 31 Jul 2026 by Legea 161/2026 of 4 Aug 2026, M.Of. 642 per juridice.ro, secondary; 2026 data, source ANAF DGRFP Cluj notice CJR_DEC 15671/24.08.2026), qualifies for 9% VAT only if: useful area ≤ 120 m², value (incl. land, ex-VAT) ≤ RON 600,000, buyer is individual, no prior reduced-VAT purchase since 1 Jan 2023, advance contract by 1 Aug 2025 with a 20% advance (ex-VAT) paid in full by 31 Jul 2025 + delivery by 30 Sep 2026. Buyers who paid the standard rate on one qualifying home purchased 1-7 Aug 2026 may claim the difference back from 1 Oct 2026. **After 30 Sep 2026 the 9% concession EXPIRES** unless extended again — verify at ANAF
+- **Local property tax — major reform 1 Jan 2026** (Lege 239/2025, M.Of. 15 Dec 2025; 2026-05-27 verified, source ProTV / Europa Libera / juridice.ro — scope note: only the concrete/brick basis description, the O.G. 16/2022 repeal and the O.U.G. 9/2026 age cuts stated below carry the later 2026-08-07 re-verification, source Ministerul Finanțelor https://mfinante.gov.ro/static/10/Mfp/transparenta/EMproiectlegeredresareficientizareRP_28082025.pdf; every other figure in this bullet still carries the 2026-05-27 stamp): Taxable value baseline (residential, concrete/brick frame + full utilities) raised from **RON 1,492/m² → RON 2,677/m² (+79%)**. The notarial market-study basis (O.G. 16/2022) is **REPEALED** — the Ministerul Finanțelor explanatory memo projects that the mass-valuation IT system could supply values in 2026 for the 2027 tax base (a projection, not a confirmed switch — verify the 2027 basis at Ministerul Finanțelor / the local primărie). Reductions for buildings >30 years (10%) and >50 years (30%) were eliminated by Lege 239/2025, but **O.U.G. 9/2026 restores age cuts of 15% (50–100 yrs) and 25% (100+ yrs)** (2026 verified — no in-force date given in the source entry; confirm the applicable tax year with the local primărie). Buildings >4 floors reduction **eliminated**. Severe-disability exemption **removed**. Statutory cota per Codul Fiscal art. 457–458: **0.08–0.2% residential / 0.2–1.3% non-residential** (set by hotărâre de consiliu local). Apartment owners typically see local tax up **70–80%**, in Bucharest Sector 1 close to doubled — not adjusted for the O.U.G. 9/2026 age-cut restoration; no revised impact figure is published in the source entry.
 - **Special tax on high-value properties**: 0.3% → **0.9%** for residential >RON 2,500,000 and vehicles >RON 375,000 (1 Jan 2026)
 - **Full market-value taxation**: Scheduled for **2027** under PNRR commitments
 - **Securities/crypto/gold CGT**: 10% → 16% (1 Jan 2026) — *not* real estate
@@ -207,7 +207,7 @@ Universal — see `shared/climate-projections.md`.
 | Bucharest €/m² avg (Dec 2025) | ~€2,204 (+16.6% YoY) |
 | Cluj-Napoca | ~€2,400–€2,800/m² (est., Imobiliare.ro segment, Apr 2026) |
 | Timișoara / Iași / Brașov | ~€1,600–€2,200/m² (est., Imobiliare.ro segment, Apr 2026) |
-| VAT new-build (qualifying) | 9% (until 31 Jul 2026) → 11% / 21% |
+| VAT new-build (qualifying) | 9% (until 30 Sep 2026, Legea 161/2026) → 11% / 21% |
 | CGT (>3 years held) | 1% |
 | Local property tax baseline (1 Jan 2026) | RON 2,677/m² × adjustments + municipal rate |
 | Total acquisition costs | ~2–3% buyer side |
@@ -216,7 +216,7 @@ Universal — see `shared/climate-projections.md`.
 
 ## Active fiscal incentives (Apr 2026)
 
-- **9% VAT new-build for qualifying first-home** until 31 Jul 2026 (cliff)
+- **9% VAT new-build for qualifying first-home** until 30 Sep 2026 (cliff; extended from 31 Jul 2026 by Legea 161/2026)
 - **1% CGT after 3 years** (vs 3% under)
 - **Schengen full integration 1 Jan 2025** — EU buyer access uplift
 
@@ -273,7 +273,7 @@ Universal — see `shared/climate-projections.md`.
 
 ## Status
 
-**Confidence**: HIGH on VAT 19→21% (1 Aug 2025, multiple sources), local property tax 2026 reform (RON 2,677/m² baseline), CGT 1%/3% individual rates, Bucharest Termoenergetica/RADET debt, AMCCRS seismic class methodology. MEDIUM on per-municipality 2026 tax rates (varies), 9% VAT cliff 31 Jul 2026 implementation details. LOW on AMCCRS list completeness (community-augmented at hartablocuri.ro).
+**Confidence**: HIGH on VAT 19→21% (1 Aug 2025, multiple sources), local property tax 2026 reform (RON 2,677/m² baseline), CGT 1%/3% individual rates, Bucharest Termoenergetica/RADET debt, AMCCRS seismic class methodology. MEDIUM on per-municipality 2026 tax rates (varies), 9% VAT cliff 30 Sep 2026 (Legea 161/2026 extension) implementation details. LOW on AMCCRS list completeness (community-augmented at hartablocuri.ro). Cadastre / tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)

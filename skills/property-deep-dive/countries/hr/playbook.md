@@ -94,7 +94,7 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Annual property tax — Porez na nekretnine (NEW 2025)
 
-**MAJOR REFORM 1 January 2025**: replaces previous communal fee + holiday-home tax.
+**MAJOR REFORM 1 January 2025**: replaces the previous holiday-home tax (porez na kuće za odmor); the communal fee (komunalna naknada) continues to be levied separately (2026 data, source Porezna uprava).
 
 #### Rate range
 
@@ -102,7 +102,7 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 - Set by each municipality within range
 - **Highest rate (€8)**: Umag, Vis, Sveti Filip i Jakov, Fažana, Baška Voda
 - **Major cities**: Zagreb €5, Split €1.99, Rijeka €5, Osijek €0.60
-- 119 municipalities at floor (€0.60); 73 at €5–€8
+- 125 cities/municipalities at floor (€0.60); 84 at €5–€8; vs 2025: 41 raised, 12 lowered, 503 unchanged (2026 data, source Porezna uprava — JLS decisions submitted by 31 Dec 2025)
 - _(2025 municipal odluke; cross-checked Croatia Week / Eurofast — verify per-municipality at Porezna uprava; figures not confirmed against a primary municipal decision should be treated as reported)_
 - Revenue split 80% municipality / 20% county
 
@@ -330,7 +330,7 @@ _Est. ranges — vary by municipal vodovod tariff; confirm with local Vodovod i 
 
 ## Caveats unique to HR
 
-- **NEW Porez na nekretnine 2025** — €0.60–€8/m²/yr; replaces communal fee + holiday-home tax
+- **NEW Porez na nekretnine 2025** — €0.60–€8/m²/yr; replaces the holiday-home tax (communal fee still levied separately)
 - **Currency: EUR since 1 Jan 2023** — no FX risk for eurozone buyers
 - **Dual register reconciliation** (cadastre vs ZK gruntovnica) — common HR pitfall
 - **Earthquake risk CRITICAL**: Zagreb 2020 + Petrinja 2020; reconstruction ongoing
@@ -386,7 +386,7 @@ _Est. ranges — vary by municipal vodovod tariff; confirm with local Vodovod i 
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25 (cadastre access route and extract fee corrected 2026-09-18 per gov.hr).
+✅ **Fully populated** as of 2026-04-25 (cadastre access route and extract fee corrected 2026-09-18 per gov.hr). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (DZS + Njuškalo + HNB), traffic (HC PGDP), tax (NEW Porez na nekretnine 2025 €0.60-€8/m² + 3% RETT + 25% VAT new), rental (2025 Hospitality Act 80% consent), work, risks (earthquake CRITICAL Zagreb 2020 + Petrinja 2020 + wildfire + karst), mains all have primary government sources.
 **Confidence**: HIGH for Porez na nekretnine 2025 reform (rates confirmed via Croatia Week + Eurofast); HIGH for 2020 earthquake reference + Petrinja reconstruction; HIGH for 2025 Hospitality Act 80% consent rule + mandatory STR registration; HIGH for currency EUR transition (1 Jan 2023). MEDIUM for non-EU reciprocity list (changes periodically).
 

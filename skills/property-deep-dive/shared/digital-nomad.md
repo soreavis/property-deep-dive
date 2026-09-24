@@ -58,7 +58,7 @@ For the property's country, return:
 | **AL** | Unique Permit (Digital Nomad / Self-Employed) | 32,000 ALL/mo (~€385) OR 300,000 ALL (~€3,614) deposit | 1-yr renewable up to 5× (max 6 yrs) | Law 79/2021 |
 | **JP** | Digital Nomad Visa | JPY 10M/yr income proof (~US$65k) | 6 months (NOT renewable in-country; not residency) | Launched Apr 2024; treaty-country nationals only |
 | **TH** | DTV (Destination Thailand Visa) | THB 500k savings (~US$14k) + remote-employer / freelance proof | 5-yr multi-entry; 180 days/stay (extendable +180) | Launched mid-2024; replaces tourist-visa workarounds |
-| **CO** | Migrante V — Visitante remote-worker | ~US$684/mo (3× SMMLV, 2026 figure) | 2 yrs (renewable) | Decreto 1209/2022 |
+| **CO** | Migrante V — Visitante remote-worker | COP 5.25M ≈ US$1,671/mo (3× the 2026 SMMLV COP 1,750,905 at TRM 3,144.14 — computed) | 2 yrs (renewable) | Decreto 1209/2022 |
 | **UY** | Digital Nomad Visa (Decreto 162/023) | ~US$1,500/mo income claim (declarative) | Initial 6 months → 1-yr extension | Live since 2023 |
 | **CL** | Visa de Residencia Temporaria (DN sub-category) | No fixed threshold; remote-work contract required | 1-yr renewable | Used as DNV in practice |
 | **ZA** | Remote Work Visitor Visa | ZAR 1M/yr (~US$54k) from foreign employer | 3-yr | Launched May 2024; Govt Gazette 50714 |

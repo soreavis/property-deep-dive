@@ -75,7 +75,7 @@ EPC-style class distributions are not published by stat office for most non-EU r
 | 🇺🇾 UY | CO2 / energy-efficiency cert pilot (MIEM) | Voluntary | Pilot scope only — verify at miem.gub.uy | miem.gub.uy |
 | 🇨🇱 CL | CES (Certificación de Edificio Sustentable) | Voluntary; mandatory for some public buildings | est. <5% of stock — verify at certificacionsustentable.cl | certificacionsustentable.cl |
 | 🇿🇦 ZA | SANS 10400-XA energy efficiency (post-2008 builds) | Mandatory at building plan approval | Pre-2008 stock unrated; post-2011 stock subject to XA — verify at sabs.co.za | sabs.co.za |
-| 🇬🇪 GE | Nascent regime — EU candidate alignment in progress | Not yet mandatory | Distribution data not publicly available — verify at economy.ge | economy.ge |
+| 🇬🇪 GE | Nascent regime — EU candidate, accession de facto halted since Jun 2024 | Not yet mandatory | Distribution data not publicly available — verify at economy.ge | economy.ge |
 | 🇮🇩 ID | GREENSHIP (GBCI) | Voluntary | Sub-1% of stock — verify at gbcindonesia.org | gbcindonesia.org |
 | 🇲🇾 MY | GBI (GreenBuildingIndex) + GreenRE | Voluntary | est. <5% of commercial; residential rare — verify at greenbuildingindex.org | greenbuildingindex.org |
 | 🇻🇳 VN | LOTUS (VGBC) + EE Law 2010 framework | Voluntary | Sub-1% — verify at vgbc.vn | vgbc.vn |
@@ -174,7 +174,7 @@ Hazard tags below are derived from primary national/UN sources (USGS, JMA, JRC I
 - 🇨🇴 CO — Andean seismic; Pacific tsunami; Magdalena/Cauca flood — verify at sgc.gov.co
 - 🇪🇬 EG — Nile Delta sea-level rise (Climate Central: ~30% Alexandria below SLR-2050 line); water scarcity — verify at climatecentral.org
 - 🇲🇦 MA — 2023 Marrakech-Al Haouz Mw 6.8 quake; coastal Atlantic storm — verify at cnrst.ma
-- 🇹🇷 TR — North Anatolian Fault (2023 Kahramanmaraş Mw 7.8 — 50k+ deaths); coastal Aegean — verify at afad.gov.tr
+- 🇹🇷 TR — North + East Anatolian fault systems (6 Feb 2023 Kahramanmaraş twin quakes — AFAD Mw 7.7 Pazarcık on the Narlı segment at the northern end of the Dead Sea Fault Zone + Mw 7.6 Elbistan on the Çardak Fault, a branch of the East Anatolian Fault; USGS lists Mw 7.8 + Mw 7.5; 50k+ deaths); coastal Aegean — verify at afad.gov.tr
 - 🇮🇱 IL — Dead Sea Transform fault; coastal SLR Tel Aviv — verify at gsi.gov.il
 
 **Mid exposure**:
@@ -318,7 +318,7 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 - 🇺🇾 UY — National Climate Change Policy (2017); 100%-renewable electricity milestone (2017); CO2/EE cert pilot ongoing.
 - 🇨🇱 CL — **Código de Aguas reform 2022 (Ley 21.435)** (water priority for human consumption); Ley Marco de Cambio Climático 21.455 (2022).
 - 🇿🇦 ZA — Climate Change Act signed Jul 2024; Carbon Tax Act 2019 in force (large emitters).
-- 🇬🇪 GE — EU candidate alignment in progress; National Energy & Climate Plan draft; targets harmonisation 2030.
+- 🇬🇪 GE — EU candidate (accession de facto halted since Jun 2024); National Energy & Climate Plan draft; targets harmonisation 2030.
 - 🇮🇩 ID — RUEN (Rencana Umum Energi Nasional) energy plan; FOLU Net Sink 2030 forestry-focused commitment.
 - 🇲🇾 MY — Net Zero 2050 commitment (announced 2021); National Energy Transition Roadmap (Aug 2023).
 - 🇻🇳 VN — **EE Law 2010** (energy efficiency framework); JETP (Just Energy Transition Partnership) USD 15.5B announced Dec 2022.

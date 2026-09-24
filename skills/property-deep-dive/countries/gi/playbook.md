@@ -99,13 +99,13 @@ This is Gibraltar's distinguishing tax draw versus UK / Spain / most of EU. ⚠�
 - £350,001–£800,000: **3%** on first £350,000 + **3.5%** on balance
 - ≥ £800,001: **3%** on first £350,000 + **3.5%** on next £450,000 + **4.5%** on balance
 
-**First/second-time buyer relief**: no stamp duty on properties ≤ **£300,000** (threshold raised from £260k → £300k effective 11 July 2023)
+**First/second-time buyer relief**: 0% on the first **£300,000** of the price of a single residential dwelling, then 5.5% (£300k–£350k) / 3.5% (£350k–£800k) / 4.5% (above £800k) (Stamp Duties Act 2005 consolidated 23 Dec 2024, first/second-time-buyer para (1A)) (threshold raised from £260k → £300k effective 11 July 2023)
 
-**Affordable Housing scheme**: 0% on initial purchase; **7.5% on resale within 10 years** (exemptions for forced sale / divorce / death)
+**Affordable Housing scheme**: 0% on initial purchase; **7.5% on resale within 10 years** (Stamp Duties Act s.19B: applies to Beach View Terraces / Mons Calpe Mews resales within 10 years of the first underlease assignment; payable by the vendor on top of ordinary duty; the Land Management Committee may waive it for a forced sale or a meritorious upgrade — divorce and death are not listed grounds) (2024 data, source Stamp Duties Act 2005 consolidated 23 Dec 2024)
 
 **Mortgage stamp duty**:
-- Under £200,000: 0.13% of secured sum
-- ≥ £200,000: 0.20%
+- Up to and including £200,000: 0.13% of secured sum
+- Above £200,000: 0.20%
 
 **Spouse-to-spouse transfers**: nil duty
 
@@ -176,7 +176,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 - Service charges for apartments (most central Gibraltar stock): confirm budget + reserve fund status
 - Any Crown lease covenant restricting sublet / short-let / commercial use
 
-**Affordable housing scheme**: Government-subsidised housing schemes (Mons Calpe Mews, etc.) sit in the **Restricted Market** tier and carry **resale restrictions for 10 years** with 7.5% stamp duty on early resale and a buyback right to Government. Confirm the scheme tier before purchase.
+**Affordable housing scheme**: Government-subsidised housing schemes (Mons Calpe Mews, etc.) sit in the **Restricted Market** tier and carry **resale restrictions for 10 years**; the 7.5% special stamp duty on resale within 10 years (Stamp Duties Act s.19B, paid by the vendor) applies only to Beach View Terraces and Mons Calpe Mews; the schemes also carry a buyback right to Government. Confirm the scheme tier before purchase.
 
 **Confidence**: MEDIUM — tenure-type framework is well-established, but lease-length and ground-rent specifics are property-by-property; require title deed review.
 
@@ -342,7 +342,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 6. **TWO-TIER market is real and load-bearing**: "no nationality restriction" applies to Open Market only. Restricted Market = 3-year prior Gibraltar residency, owner-occupation only, est. ~half of stock (per estate-agent signposting — no published register split). Never describe Gibraltar as "no foreign-ownership restrictions" without the Open / Restricted caveat.
 7. **Cat-2 net worth**: **£5M for new applicants** per HMGoG PR 469/2026 (18 Jun 2026; existing holders grandfathered); the former £2M was confirmed verbatim by Hassans citing the Qualifying (Category 2) Individuals Rules 2004 — *"potential applicants must have at least an estimated total net worth in excess of £2 million"*. The Gibraltar Income Tax Office page itself states the income cap (£118k) and tax band (£37k–£42,380) but does not restate the £2M figure publicly — re-confirm at the Gibraltar Finance Centre at application.
 8. **HEPSS vs Cat-2 are distinct schemes**: HEPSS = employed senior executives with skills not locally available (£160k earnings floor, £160k assessable cap, £39,940 fixed tax, 3-year non-residency window). Cat-2 = high-net-worth passive residents (£5M net worth for new applicants per PR 469/2026, £118k income cap, £37k–£42,380 tax band, 5-year non-residency window). Don't conflate.
-9. **No mortgage stamp duty on small loans**: 0.13% on secured sums <£200k vs 0.20% on ≥£200k. Easy to elide vs the property stamp duty bands.
+9. **Mortgage stamp duty applies even to small loans**: 0.13% on secured sums up to £200k vs 0.20% above £200k. Easy to elide vs the property stamp duty bands.
 10. **Treaty does NOT relax Cat-2 physical-presence test**: relocating Schengen checks to airport/port has zero effect on Cat-2 / HEPSS accommodation-and-presence conditions. Absent-tax-resident enforcement may in fact tighten post-15-Jul-2026 — and HMGoG's domestic Residence Criteria framework (PR 466/2026, 17 Jun 2026) is in operation as the Residency Regulations 2026 (LN 166/2026, from 14 Jul 2026).
 
 ---
@@ -380,7 +380,7 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 - **Two-tier residential property market** (Open / Restricted) — non-residents categorically limited to Open Market; est. ~half of stock by unit count is Restricted (per estate-agent signposting — no published register split; 3-year prior residency, owner-occupation only)
 - **Single-postcode addressing** (GX11 1AA territory-wide) — locator data must be parcel/street-level, postcode is not a discriminator
 - **Crown-leasehold ubiquity**: most central Gibraltar developed property is on long Crown lease (99–150yr); freehold is uncommon
-- **Affordable Housing buyback**: 7.5% stamp duty + 10-year Government buyback right on subsidised schemes (sits in Restricted Market tier)
+- **Affordable Housing buyback**: 7.5% vendor-paid stamp duty on resale within 10 years at Beach View Terraces / Mons Calpe Mews only (Stamp Duties Act s.19B) + 10-year Government buyback right on subsidised schemes (sits in Restricted Market tier)
 - **Tax-residency-of-origin overhang**: UK-domiciled buyers retain UK IHT exposure on Gibraltar property unless domicile changes (not a Gibraltar issue, but commonly misunderstood)
 - **Frontier Treaty (provisionally applied since 15 Jul 2026)** changes commuting & border friction but does not itself grant residence — Gibraltar's own residency law applies, now the Residency Regulations 2026 (LN 166/2026, in operation 14 Jul 2026, made under the Treaty on Gibraltar and the European Union Act 2026) — and does NOT relax Cat-2 physical-presence
 - **Cat-2 / HEPSS thresholds change with annual budget** — always re-verify with Gibraltar Finance Centre directly; Residency Regulations 2026 (LN 166/2026) in operation since 14 Jul 2026 (framework announced PR 466/2026); Cat-2 new-applicant net wealth £5M + £5,000 fee per PR 469/2026 (18 Jun 2026)
@@ -419,4 +419,4 @@ Statutory basis: **High Executive Possessing Specialist Skills Rules 2008** (sub
 2. `2026-07-15 | residency / borders | UK–EU Gibraltar Treaty PROVISIONALLY APPLIED since 15 Jul 2026 — land-frontier checks removed, dual Schengen checks at airport/port; treaty grants no residence right (Residency Regulations 2026, LN 166/2026, in operation 14 Jul 2026; Cat-2 new-applicant threshold raised separately per PR 469/2026); physical-presence test unchanged; ratification pending (EP consent indicative plenary 14 Dec 2026; UK CRAG first objection period ends 22 Oct 2026) | Consilium 01 Apr 2026 + Gov Press 148/2026 + 517/2026 | 2026-07-02 | 2026-10-15 | tier 1 | --foreign-buyer-rules --frontier-treaty`
 3. `2026-07-14 (Residency Regulations 2026, LN 166/2026, in operation) | residency | Residence Criteria framework announced (Gov Press 466/2026): residency to require genuine economic contribution; residence alone ≠ social benefits; earlier community signal (r/gibraltar 1tkeoa5) now primary-confirmed in direction — Cat-2 new-applicant net wealth £2M → £5M + fee £5,000 per PR 469/2026 | HMGoG PR 466/2026 + treaty portal | 2026-07-02 | 2026-10-01 | tier 2 | --tax (Cat-2/HEPSS)`
 
-**Last verified**: 2026-07-02 (Frontier-Treaty + residence-criteria sections re-verified against primary sources; in-force wording pre-staged for the 15 Jul 2026 provisional-application date; provisional application from 15 Jul 2026 confirmed 2026-09-24 per Commons Library CBP-10980). Other sections: 2026-05-27 (land-registry and practitioner-register attribution corrected 2026-09-18 per gibraltarlaws.gov.gi + lps.gi + gcs.gov.gi). Frontier-Treaty provisional application (Commons Library CBP-10980) and Residency Regulations 2026 (LN 166/2026) re-verified 2026-09-24 in the October regwatch wave; EES/ETIAS exemption and FCDO s.14 limbs carried from 2026-07-02; Category 2 changes are announcement-only.
+**Last verified**: 2026-07-02 (Frontier-Treaty + residence-criteria sections re-verified against primary sources; in-force wording pre-staged for the 15 Jul 2026 provisional-application date; provisional application from 15 Jul 2026 confirmed 2026-09-24 per Commons Library CBP-10980). Other sections: 2026-05-27 (land-registry and practitioner-register attribution corrected 2026-09-18 per gibraltarlaws.gov.gi + lps.gi + gcs.gov.gi). Frontier-Treaty provisional application (Commons Library CBP-10980) and Residency Regulations 2026 (LN 166/2026) re-verified 2026-09-24 in the October regwatch wave; EES/ETIAS exemption and FCDO s.14 limbs carried from 2026-07-02; Category 2 changes are announcement-only. Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).

@@ -76,7 +76,7 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
 
 - **§ 4** is the principal natural-person route: requires the buyer to already be a 2-yr resident with full GL tax residency — i.e., you must move to Greenland and live there for two full years before transacting. There is no "acquire first, satisfy residency after" pathway.
 - **§ 9 dispensation** is the only fast track; outcome is discretionary and not a buyer's right.
-- The **brugsret** itself (not the building) is subject to the same §§ 3-8 gating: a non-qualifying buyer cannot acquire the brugsret even if they could somehow acquire the building.
+- The **brugsret** itself (not the building) is subject to the same §§ 3-8 gating: a non-qualifying buyer cannot acquire the brugsret even if they could somehow acquire the building. Carve-outs: the Act does not apply to a natural person acquiring a right of use (brugsret) to real property for their own dwelling, or a right of use of a temporary nature (§ 2 — so renting a home is outside the gate), and § 9 permission is not needed for acquisition by inheritance, undivided estate, division of joint marital property, or gift to lineal relatives (§ 10).
 
 **Confidence**: **HIGH** — primary statutory source (nalunaarutit.gl), independently cross-validated against forarbejder and industry commentary. (Verified 2026-05-27.)
 
@@ -448,7 +448,7 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 - **LOW** on price/m² benchmarks (no open sales register equivalent to DVF; private-market data is opaque)
 - **LOW** on parcel-level permafrost / flood data (no national parcel-risk register; case-by-case via Asiaq + kommune)
 
-**Last verified**: 2026-05-27
+**Last verified**: 2026-05-27. Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 **On PR merge — regulatory-watch.md addition required** (currently zero GL entries): Tier-1 entry for **Inatsisartutlov nr. 78 af 21. november 2025 om erhvervelse af adkomst eller brugsret til fast ejendom**, effective 1 January 2026, affecting all foreign-buyer rules across `--ownership`, `--banking`, `--transaction`, `--rental`, `--work`, `--visa` sections; revisit cadence 12 months; source URL [nalunaarutit.gl](https://nalunaarutit.gl/groenlandsk-lovgivning/2025/inatsisartutlov-nr-78-af-21_11_2025?sc_lang=da). Companion entries: 2026 rental-law (lejelov) consultation — tier 3, revisit 6 months; Mineral Resources Act 2010 (last amended 2019) — tier 4 informational anchor.
 

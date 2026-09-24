@@ -84,7 +84,7 @@ The Bahamas operates an **Economic Permanent Residence (EPR)** route administere
 1. **Confirm IPLA category**: registration-only or permit-required? Apply early at BIA if permit-required (60–120 day processing).
 2. **Pull seller's title chain**: 30+ years' abstract-of-title via Bahamian attorney; OR Land Registration Act extract if registered title.
 3. **DLS survey check**: confirm boundaries match deed description; commonage / Crown Land overlay verified.
-4. **DIR Real Property Tax assessment**: confirm RPT account is current + no arrears (RPT lien follows title).
+4. **DIR Real Property Tax assessment**: confirm RPT account is current + no arrears (RPT lien follows title; from 1 Jul 2026 the Treasurer may sell property whose RPT has been in arrears for more than twelve months, a power that does not apply to owner-occupied property beneficially owned by a Bahamian — ss.25A–25Y, Act No. 21 of 2026).
 5. **BIA + Exchange Control**: file post-completion IPLA registration + Exchange Control filings via attorney.
 6. **AML / source-of-funds**: bank statements + employment / asset-sale evidence ready before signing reservation.
 
@@ -213,16 +213,16 @@ The Bahamas does **NOT publish a public AADT (Annual Average Daily Traffic) port
 
 Governed by the **[Real Property Tax Act, Chapter 375](http://laws.bahamas.gov.bs/)** + annual budget amendments. Administered by the **[Department of Inland Revenue (DIR)](https://inlandrevenue.finance.gov.bs/real-property-tax/)**.
 
-**Owner-occupied (Bahamian or foreign) residential property** — graduated bands (verify current bands at DIR; figures reflect Real Property Tax Act consolidated framework as commonly published 2024–2025):
+**Owner-occupied residential property — Bahamians and holders of a certificate of permanent residence with a right to work only** (Real Property Tax (Amendment) Act 2026, No. 21 of 2026, in force 1 Jul 2026; foreign permit-holders fall in the separate foreign owner-occupied class below) — graduated bands (verify current bands at DIR; figures reflect Real Property Tax Act consolidated framework as commonly published 2024–2025):
 
 | Market value (B$) | Annual RPT rate |
 |---|---|
 | First **$300,000** (owner-occupied portion) | **0%** (exempt) |
 | **$300,001 – $500,000** | **0.625%** |
-| **$500,001 – $5,000,000** | **1.0%** |
-| **Above $5,000,000** | **0.5%** (capped tier — applies to portion above $5M; total annual cap currently **B$120,000**) |
+| **Above $500,000** | **1.0%** (DIR RPT FAQ Q10) |
+| **Annual cap** | total owner-occupied tax "shall not exceed one hundred and fifty thousand dollars" — **B$150,000** (2026 data, source Real Property Tax (Amendment) Act 2026 No. 21 of 2026 s.3(a)); a 0.5% band above $5M is not in DIR RPT FAQ Q10 — `data not publicly available — verify at DIR` |
 
-(Source: Real Property Tax Act + Ministry of Finance Budget Communication — *verify current bands + annual cap at DIR; rates have been adjusted multiple times since 2022 — 2024 budget figures cited; rates may have changed since*)
+(Sources: [DIR RPT FAQ](https://inlandrevenue.finance.gov.bs/real-property-tax/faqs-rpt/) Q10 for bands + [Real Property Tax (Amendment) Act 2026](https://laws.bahamas.gov.bs/cms/images/LEGISLATION/AMENDING/2026/2026-0021A/2026-0021A.pdf) for eligibility and cap — *the DIR FAQ has not been updated for the 2026 Act; confirm with DIR in writing*.) **Foreign owner-occupied property (new class, in force 1 Jul 2026)**: a non-Bahamian holding a residence permit / annual work permit (Immigration Act Ch. 191) or a Home Owner Resident Permit (IPLA Ch. 140) who occupies the property exclusively as a dwelling on a permanent or seasonal basis pays **0.625% on value up to B$1,000,000 and 1% above**, annual cap **B$200,000** — no exempt first slice in the Act text (2026 data, source Act No. 21 of 2026 s.3(b)). A foreign owner without such a permit is not owner-occupied — confirm the applicable schedule with DIR.
 
 **Residential non-owner-occupied (≤4 units)** — per DIR FAQ:
 
@@ -249,7 +249,7 @@ Governed by the **[Real Property Tax Act, Chapter 375](http://laws.bahamas.gov.b
 - **Discount for early payment** (typically 10% if paid by the deadline) — verify.
 - **Late-payment penalty**: surcharge + interest accrual.
 - **Lien**: unpaid RPT becomes a charge on the property; transfers blocked at RGD until cleared.
-- **Bahamian-owner exemption — primary residence portion**: First B$300,000 exempt for owner-occupied (extended in recent budgets; previously B$250,000 — verify).
+- **Bahamian-owner exemption — primary residence portion**: First B$300,000 exempt for owner-occupied (DIR RPT FAQ Q10) — from 1 Jul 2026 the owner-occupied class covers only Bahamians and permanent residents with a right to work (Act No. 21 of 2026); foreign permit-holders pay the foreign owner-occupied schedule with no exempt slice.
 
 ### Transaction taxes (one-time at purchase)
 
@@ -740,7 +740,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 | DLS survey | B$1,500–B$5,000+ |
 | Title insurance (optional, recommended) | ~0.5% of value |
 | **Total transaction cost (foreign buyer, non-BDR)** | **~7.5–8.5%** of price |
-| **Annual RPT (owner-occupied, > $300k)** | 0.625–1.0% above $300k threshold |
+| **Annual RPT (owner-occupied)** | Bahamian / PR-with-work-right: 0% first $300k, 0.625% next $200k, 1.0% above, cap B$150,000 — foreign permit-holder (foreign owner-occupied, from 1 Jul 2026): 0.625% up to B$1M, 1.0% above, cap B$200,000 (Act No. 21 of 2026) |
 | **HOA fees (Lyford Cay / Albany / Baker's Bay etc.)** | USD **B$5,000–25,000+/yr** |
 | Hurricane + all-risk insurance | **0.4–1.5% of insured value/yr** (varies by island + wind zone + build year) |
 | Generator + inverter + battery package | USD **8,000–40,000** |
@@ -875,7 +875,7 @@ See **Foreign buyer eligibility** above for the EPR detail. Summary:
 - **MEDIUM** for insurance pricing 0.4–1.5% — varies materially by island + wind zone + build year + carrier post-Dorian re-rating.
 - **LOW** for parcel-level flood-zone / storm-surge mapping in non-priority areas — coverage uneven; verify per parcel via DLS / DRM Authority + engineering survey.
 - **LOW** for traffic AADT — no public AADT portal; OSM + on-site observation is the practical method.
-**Last verified**: 2026-08-07 (--tax VAT sub-section only — 10% standard rate re-verified against DIR VAT Guidance on 2021 Amendments: a cut from 12% eff. 1 Jan 2022, still in force at the FY2026/27 Budget Communication of 27 May 2026, and applying to commercial rent + HOA/management fees per the DIR VAT FAQ) · 2026-05-27 (validation sweep — EPR B$1M eff. 1 Jan 2025 + 10-yr clawback; VAT-on-Conveyance flat 10% foreign / graduated BDR; 2025 VAT procedural reforms eff. 1 Jul 2025; IPLA B$250 registration / B$500 permit; RPT commercial 3-tier 0.75/1.0/1.5%; VAT history sequence corrected; disaster-management authority (DRM Authority) corrected 2026-09-18 per drm.gov.bs)
+**Last verified**: 2026-08-07 (--tax VAT sub-section only — 10% standard rate re-verified against DIR VAT Guidance on 2021 Amendments: a cut from 12% eff. 1 Jan 2022, still in force at the FY2026/27 Budget Communication of 27 May 2026, and applying to commercial rent + HOA/management fees per the DIR VAT FAQ) · 2026-05-27 (validation sweep — EPR B$1M eff. 1 Jan 2025 + 10-yr clawback; VAT-on-Conveyance flat 10% foreign / graduated BDR; 2025 VAT procedural reforms eff. 1 Jul 2025; IPLA B$250 registration / B$500 permit; RPT commercial 3-tier 0.75/1.0/1.5%; VAT history sequence corrected; disaster-management authority (DRM Authority) corrected 2026-09-18 per drm.gov.bs). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs
 

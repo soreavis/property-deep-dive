@@ -13,7 +13,7 @@ ISO2: `eg`. Status: PARTIALLY RESTRICTED for foreign buyers + currency-volatile 
   - **Sijil al-‘ayni** (real/property-based, السجل العيني, "Torrens-like" parcel-based) — modernization since 1964, very low coverage (~5–10% nationally; mostly New Cairo, NAC, North Coast new developments)
   - **Practical implication**: most older properties have only a notarized contract chain (`عقد ابتدائي + عقد نهائي`) NOT a state-guaranteed title. Title insurance and chain-of-deed verification are critical
 - **Major reforms 2023–2024**:
-  - **Citizenship by Investment — Law 190/2019** (foundational CBI statute, GAFI-administered) + **Prime Ministerial Decree 876/2023 (2 March 2023)** implementing thresholds + **Law 26/1975 Articles 6+11 amendments (April 2023)** (nationality-law constitutional basis); **September 2023 Cabinet reversal restored the real-estate threshold to USD 500,000** (from the USD 300k March 2023 cut) (2026-05-27 verified, source [Library of Congress 2023-05-07](https://www.loc.gov/item/global-legal-monitor/2023-05-07/egypt-house-of-representatives-approves-new-amendments-to-citizenship-law/) + SIS.gov.eg + africanews.com). Note **Law 160/2023** is a SEPARATE statute amending Investment Law 72/2017 — governs investment incentives (Golden License, tax refunds, free zones), NOT CBI thresholds.
+  - **Citizenship by Investment — Law 140/2019** (number per GAFI's citizenship application form; some secondary sources cite 190/2019) (foundational CBI statute, GAFI-administered) + **Prime Ministerial Decree 876/2023 (2 March 2023)** implementing thresholds + **Law 26/1975 Articles 6+11 amendments (April 2023)** (nationality-law constitutional basis); **September 2023 Cabinet reversal restored the real-estate threshold to USD 500,000** (from the USD 300k March 2023 cut) (2026-05-27 verified, source [Library of Congress 2023-05-07](https://www.loc.gov/item/global-legal-monitor/2023-05-07/egypt-house-of-representatives-approves-new-amendments-to-citizenship-law/) + SIS.gov.eg + africanews.com). Note **Law 160/2023** is a SEPARATE statute amending Investment Law 72/2017 — governs investment incentives (Golden License, tax refunds, free zones), NOT CBI thresholds.
   - **EGP free-float March 2024** + IMF Extended Fund Facility (USD 8 bn) — collapsed parallel-market premium overnight
   - **Real Estate Transaction Tax (RETT) — Law 30/2023** (15 June 2023, amends Income Tax Law 91/2005) — 2.5% on official tax-authority-assessed value OR actual sale price (whichever **higher**); raised first-home exemption EGP 2M → EGP 3M for properties under 200 m² (2026-05-27 verified, source PwC Egypt Law 30/2023 PDF + Wafeq + Lexology). NB: **Law 175/2023** is the personal-income-tax amendment (raised PIT exemption to EGP 45,000/year, cancelled 2.5% PIT bracket); NOT a property-CGT statute.
   - **Real Estate Tax (Law 196/2008) — 2024–2026 amendments** raised the **primary-residence (owner-occupied) exemption to EGP 100,000/year of net annual rental value OR EGP 8M property value** (from the EGP 24,000/year general floor). Per Daily News Egypt 2026-02-15: only ~2M of 55M Egyptian properties now liable (2026-05-27 verified, source Wafeq + Daily News Egypt + Nawy blog).
@@ -47,23 +47,23 @@ ISO2: `eg`. Status: PARTIALLY RESTRICTED for foreign buyers + currency-volatile 
 - **Agricultural land (الأراضي الزراعية)** — **Egyptian nationals only** under Law 15/1963 (still in force despite reform proposals). Foreigners cannot own farmland in any quantity, irrespective of Law 230/1996 quotas
 - **Antiquities buffer zones** — UNESCO/SCA-designated heritage perimeters (Giza Plateau, Luxor West Bank, etc.) have separate restrictions
 
-### Law 190/2019 (CBI foundational) — Residency / Citizenship by Investment (RBI / CBI)
+### Law 140/2019 (CBI foundational; GAFI form — some secondary sources cite 190/2019) — Residency / Citizenship by Investment (RBI / CBI)
 
-Foundational statute: **Law No. 190 of 2019 on Granting Egyptian Citizenship to Foreigners** (GAFI-administered). Implementing thresholds: **Prime Ministerial Decree 876/2023 (2 Mar 2023)** initially cut the real-estate threshold from USD 500k → USD 300k; **Cabinet decision 14 Sept 2023 restored it to USD 500,000**. Constitutional basis: **April 2023 House of Representatives amendments to Articles 6 + 11 of Law 26/1975 (Nationality Law)** (2026-05-27 verified, source Library of Congress + SIS.gov.eg + africanews.com + BPROL).
+Foundational statute: **Law No. 140 of 2019** regulating the process of applying for Egyptian citizenship, per GAFI's own citizenship application form (primary); some secondary guides cite it as Law No. 190 of 2019 — verify the number in the Official Gazette. Implementing thresholds: **Prime Ministerial Decree 876/2023 (2 Mar 2023)** initially cut the real-estate threshold from USD 500k → USD 300k; **Cabinet decision 14 Sept 2023 restored it to USD 500,000**. Constitutional basis: **April 2023 House of Representatives amendments to Articles 6 + 11 of Law 26/1975 (Nationality Law)** (2026-05-27 verified, source Library of Congress + SIS.gov.eg + africanews.com + BPROL).
 
 | Path | Threshold | Outcome | Holding | Notes |
 |---|---|---|---|---|
-| **Non-refundable government donation** | USD 250,000 | **Citizenship** | n/a | Forfeited to state |
-| **Real estate** | **USD 500,000** (restored Sept 2023 from USD 300k March 2023 cut) | **Citizenship** | Hold property ≥3 yrs typical | Must be FROM the foreigner's USD inflow via Form 4 (see Currency section) (2026-05-27 verified) |
-| **Business investment** | USD 350,000 **+** USD 100,000 contribution to state | **Citizenship** | Project execution | GAFI-approved sectors; total ~USD 450k |
-| **Bank deposit (CBI variant)** | USD 500,000 — **refundable, locked for 3 years** | **Citizenship** | 3-year lock; returns after lock period | NOT non-refundable / forfeited (the USD 250k donation tier is the non-refundable option) (2026-05-27 verified) |
+| **Non-refundable government donation** | USD 250,000 | **Citizenship** per GAFI form (US State Dept 2025 ICS: permanent residency — unreconciled) | n/a | Forfeited to state |
+| **Real estate** | **USD 500,000** in real estate owned by the State or public legal persons per GAFI form (Sept 2023 restoration per LoC/SIS; US State Dept 2025 ICS still gives USD 300,000 — unreconciled) | **Citizenship** per GAFI form (US State Dept 2025 ICS: permanent residency — unreconciled) | Hold property ≥3 yrs typical | Must be FROM the foreigner's USD inflow via Form 4 (see Currency section) (2026-05-27 verified) |
+| **Business investment** | USD 350,000 **+** USD 100,000 per US State Dept 2025 ICS (Decree 876/2023) / GAFI form: USD 400,000 at min 40% of project capital — unreconciled | **Citizenship** per GAFI form (US State Dept 2025 ICS: permanent residency — unreconciled) | Project execution | GAFI-approved sectors; total ~USD 450k |
+| **Bank deposit (CBI variant)** | USD 500,000 3-yr per US State Dept 2025 ICS (Decree 876/2023) / GAFI form: **USD 1,000,000 refundable after 3 yrs** or **USD 750,000 refundable after 5 yrs** (in EGP, no interest) — unreconciled | **Citizenship** per GAFI form (US State Dept 2025 ICS: permanent residency — unreconciled) | 3-year lock (ICS 500k / GAFI 1M) or 5-year lock (GAFI 750k); refunded in EGP without interest per GAFI form | NOT non-refundable / forfeited (the USD 250k donation tier is the non-refundable option) (2026-05-27 verified) |
 | **State fee** | **USD 10,000** on top of all routes | — | — | Application/processing fee |
 
 NB: **Law 160/2023 is a separate statute** (amends Investment Law 72/2017) governing investment incentives (Golden License, tax refunds, free zones, Special Incentives extended to Oct 2026) — it does NOT govern CBI thresholds.
 
 **Verification path before relying on any of these tiers**:
 1. GAFI English investor portal `https://www.gafi.gov.eg/english/Pages/default.aspx`
-2. The thresholds **changed substantially in 2023–2024** — confirm current USD figures with GAFI in writing before transferring funds
+2. The thresholds **changed substantially in 2023–2024** — confirm current USD figures AND the immigration outcome in writing with the Citizenship Applications Assessment Unit before transferring funds — GAFI's citizenship application form frames every Decree-3099/2019 route as citizenship, while the US State Dept 2025 Investment Climate Statement frames the Decree-876/2023 routes as permanent residency (unreconciled)
 3. Use a **GAFI-licensed agent** (not a developer's in-house lawyer) for the citizenship file
 
 **est. fees on top of investment threshold**: ~USD 10,000–25,000 in legal + government fees, varies by path (verify with GAFI; published fee schedules are not always current online)
@@ -309,7 +309,7 @@ MEDIUM — Egyptian STR landscape is fragmented + undergoverned at national leve
 
 - **Work permit (تصريح عمل)** — required for any foreigner to be employed by an Egyptian entity. Issued by **Ministry of Manpower** (`https://www.manpower.gov.eg/`); typically tied to specific employer + job title + 1-year renewable
 - **Residency tied to work permit** — separate residency permit from Ministry of Interior (passport stamp); usually 1 year
-- **Investor / property residency** — the Investment Law 160/2023 RBI tiers (above) provide an alternative path NOT tied to employment
+- **Investor / property residency** — the PM Decree 3099/2019 investor tiers (above; citizenship vs permanent-residency outcome unreconciled between GAFI and the US State Dept 2025 ICS) provide an alternative path NOT tied to employment
 - **Self-employment** as a non-resident is structurally hard — Egyptian commercial registration usually requires Egyptian partnership or specific GAFI investor license
 - **Remote work for foreign employer / digital nomad** — no specific Egyptian visa, but tourist visa stays + extensions are widely used in practice (legal grey zone for income — technically Egypt-sourced if performed on Egyptian soil)
 
@@ -541,7 +541,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 | **Egyptian Tax Authority (ETA)** | Real estate tax bill, CGT, stamp duty |
 | **Real Estate Tax Authority** (under MoF) | Annual rental value assessment, dispute |
 | **Central Bank of Egypt (CBE)** | Form 4 issuance, USD repatriation rules, FX rates |
-| **GAFI (Investment Authority)** | Investment Law 160/2023 RBI/CBI applications, Golden License |
+| **GAFI (Investment Authority)** | Reception office of the Citizenship Applications Assessment Unit (PM Decree 3099/2019 investor routes); Golden License under Investment Law 72/2017 as amended by Law 160/2023 |
 | **Ministry of Housing (MoHUE)** | NAC, North Coast, urban development zones |
 | **Tourism Development Authority (TDA)** | Sinai usufruct, Red Sea tourist-zone titles |
 | **Local governorate building department (إدارة هندسية)** | Permit + occupancy + legalization status |
@@ -574,7 +574,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 | Central Bank of Egypt (FX, mortgages, Form 4) | `https://www.cbe.org.eg/` |
 | CBE exchange rates | `https://www.cbe.org.eg/en/economic-research/statistics/exchange-rates` |
 | CAPMAS (statistics) | `https://www.capmas.gov.eg/` |
-| GAFI (Investment Law 160/2023, RBI/CBI) | `https://www.gafi.gov.eg/` |
+| GAFI (Golden License under Law 160/2023; citizenship-application reception under PM Decree 3099/2019) | `https://www.gafi.gov.eg/` |
 | GAFI English investor portal | `https://www.gafi.gov.eg/english/Pages/default.aspx` |
 | Ministry of Housing (MoHUE) | `https://mhuc.gov.eg/` |
 | ACUD (NAC developer/manager) | `https://acud.eg` |
@@ -604,7 +604,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 
 **Confidence**: HIGH on the legal + foreign-buyer regime (Law 230/1996, Law 196/2008, Law 175/2023, Investment Law 160/2023, Form 4 rules — all primary government sources cross-verified). MEDIUM on price benchmarks (asking-side listing data only; no public transaction-price DB). MEDIUM on traffic (no published per-segment AADT). MEDIUM on STR + rental tax (regime is ambiguous, HOA-controlled, evolving). LOW on per-parcel risk verification (NARSS hazard layers not publicly granular; site visit + local expert mandatory).
 
-**Last verified**: 2026-05-27 (validation sweep — CBI USD 500k threshold restored (Sept 2023); Law 190/2019 foundational + Law 30/2023 RETT; bank deposit USD 500k refundable 3-yr lock; RET primary-residence EGP 100k/yr exemption raise). Currency tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27 (validation sweep — CBI USD 500k threshold restored (Sept 2023); Law 190/2019 foundational + Law 30/2023 RETT; bank deposit USD 500k refundable 3-yr lock; RET primary-residence EGP 100k/yr exemption raise). Currency / visa tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 
 ### Extension TODOs (deepen on first real run)
 

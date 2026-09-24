@@ -342,7 +342,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 
 ## Foreign-buyer rules (CRITICAL SECTION)
 
-**Legal basis**: **Løgtingslóg um keyp av fastari ogn í Føroyum** ("Parliamentary Act on Purchase of Real Estate in the Faroe Islands"), passed by Løgting **December 2021** (per [local.fo coverage](https://local.fo/parliament-passes-legislation-to-restrict-foreign-ownership-of-real-estate-in-the-faroe-islands/) — exact date not stated in the cited English source; the only date signal is a `/2021/12/` image-folder path. `verify exact passing date and effective-date commencement at logir.fo` via the Faroese-language statute citation).
+**Legal basis**: **Løgtingslóg um at keypa fastogn í Føroyum** ("Parliamentary Act on Purchase of Real Estate in the Faroe Islands"), enacted as [Løgtingslóg nr. 158 frá 10. desember 2021](https://logir.fo/Logtingslog/158-fra-10-12-2021-um-at-keypa-fastogn-i-Foroyum) — published 13 Dec 2021, in force the day after publication (§ 13 stk. 1); § 13 stk. 2 applies it to transfers lodged for registration after commencement (2021 statute, source logir.fo).
 
 **Rule** (per the act as reported):
 
@@ -350,8 +350,8 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
   - Persons currently resident in the Faroe Islands
   - Persons who previously resided in the Faroe Islands for at least 5 years
   - Danish citizens resident elsewhere in the Kingdom of Denmark for at least 5 years
-  - Companies headquartered AND operationally based in the Faroe Islands
-- **Permit required from the Faroese Government** (administered via Justismálið / Ministry of Justice equivalent) for all other foreign buyers, including:
+  - Companies or other legal persons with their head office (høvuðssæti) in the Faroe Islands (§ 1 stk. 2)
+- **Permit required from the landsstýrismaður** (§ 2; logir.fo lists Løgmansskrivstovan as the responsible authority; delegable under § 11; no permit needed for inheritance, undivided estate, division of joint property or gifts in direct line, § 3; apply within 6 months of the final agreement, § 4) for all other foreign buyers, including:
   - EU/EEA citizens (Faroe is NOT in EU — no free-movement override)
   - Nordic citizens (DK/IS/NO/SE/FI) other than under the 5-year DK-resident rule
   - Holiday-home purchases by non-residents
@@ -369,7 +369,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 3. Permit issued OR refused — refusal forfeits the transaction; deposit treatment per contract
 4. On permit: complete via tinglýsing of skøde at the local Sorinskrivari
 
-**Sanctions for breach**: forced sale by court order — verify current statute.
+**Sanctions for breach**: if a permit is refused or not applied for, the landsstýrismaður orders the owner to sell within 6 months to 1 year (§ 9); failing to apply in time or to obey the order is punishable by fine, and the court may set weekly coercive fines (§ 12).
 
 **Comparison context**:
 
@@ -380,8 +380,8 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 
 - [local.fo coverage](https://local.fo/parliament-passes-legislation-to-restrict-foreign-ownership-of-real-estate-in-the-faroe-islands/)
 - [local.fo regulatory expectations](https://local.fo/regulations-on-foreign-ownership-of-real-estate-in-faroe-expected-to-be-mild-rather-than-tough/)
-- Primary statute: search logir.fo for "keyp av fastari ogn" — Faroese only
-- Verification path: [government.fo](https://www.government.fo/en/) → Ministry of Justice equivalent (Justismálið)
+- Primary statute: [Løgtingslóg nr. 158/2021 on logir.fo](https://logir.fo/Logtingslog/158-fra-10-12-2021-um-at-keypa-fastogn-i-Foroyum) — Faroese only
+- Verification path: [government.fo](https://www.government.fo/en/) → Løgmansskrivstovan (responsible authority per logir.fo)
 
 ---
 
@@ -566,10 +566,10 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 **Confidence**: **LOW-MEDIUM** overall.
 
 - **HIGH** for: foreign-buyer rule architecture (multi-source — local.fo English coverage + multiple confirming aggregators); Hagstova property-price anchors (2022 official statistics, Tavily-verified); VAT/MVG rate 25% (TAKS primary source verified).
-- **MEDIUM** for: municipal tax (kommunalskattur) range (EURAXESS / Norden 16–23% vs Global Expansion 2019 16–22% — same-tier aggregator disagreement, specific kommuna ceiling not verified); national progressive band floor (EURAXESS 13→30% vs Global Expansion 2019 15→30% — same-tier disagreement); foreign-buyer law passing date narrowed to "December 2021" — exact date not stated in cited English source.
+- **MEDIUM** for: municipal tax (kommunalskattur) range (EURAXESS / Norden 16–23% vs Global Expansion 2019 16–22% — same-tier aggregator disagreement, specific kommuna ceiling not verified); national progressive band floor (EURAXESS 13→30% vs Global Expansion 2019 15→30% — same-tier disagreement).
 - **LOW** for: capital gains on property holding-period rules (no English primary source); tinglýsingargjald specific rate (English source unavailable; DK reference rate 1.25% from 1 Jan 2026 likely NOT applicable as Faroe legislates independently); property tax / kommunal property charge specific rate (only secondary aggregator estimate 0.2–0.5% — verify with kommuna).
 
-**Last verified**: 2026-05-27 (employment-service body and telecom operator list corrected 2026-09-18 per als.fo + ft.fo + nema.fo).
+**Last verified**: 2026-05-27 (employment-service body and telecom operator list corrected 2026-09-18 per als.fo + ft.fo + nema.fo). Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 ### Regulatory-watch follow-up (on PR merge)
 
@@ -596,7 +596,7 @@ During the research run for this playbook:
 
 This report aggregates publicly accessible data and clearly-labelled estimates. **Before signing**, the buyer must independently verify:
 
-1. **Foreign-buyer permit requirement** — confirm with Faroese solicitor and the Ministry of Justice (Justismálið); the 2021 law requires permits for non-resident, non-Nordic-DK-5-year-resident buyers
+1. **Foreign-buyer permit requirement** — confirm with Faroese solicitor and Løgmansskrivstovan (responsible authority per logir.fo); the 2021 law requires permits for non-resident, non-Nordic-DK-5-year-resident buyers
 2. **Tax figures** — request the seller's most recent annual tax bill; confirm specific kommuna municipal rate (kommunalskattur) at taks.fo; resolve the EURAXESS-vs-Global-Expansion floor/ceiling gap against TAKS direct
 3. **Risk disclosures** — pull parcel-level geological/landslide data from Jarðfeingi; confirm wind / flood / storm-surge profile with Veðurstovan and the kommuna
 4. **Mains connections** — telephone the kommuna for parcel-level water + sewer status; confirm electricity capacity with SEV

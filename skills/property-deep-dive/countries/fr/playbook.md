@@ -143,7 +143,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 
 **Caveats**:
 - Loi Le Meur (Nov 2024) lowered non-classé thresholds drastically (was 77.7k → now 15k)
-- National registration number now mandatory via the national téléservice (**Declaloc**, operated by the DGE; obligation in force **20 May 2026**, décrets n° 2026-196 and 2026-197 du 19 mars 2026; lessor-facing portal rolls out progressively **H2 2026** — one source reports the entry point at apimeubles.finances.gouv.fr, so verify the current portal via the DGE / economie.gouv.fr when registering) — administrative fines pronounced by the maire up to **€10,000** (défaut d'enregistrement) / **€20,000** (fausse déclaration or faux numéro, art. 4 Loi Le Meur). (2026-07-03 verified)
+- National registration number via a single national téléservice operated by the DGE (statutory date **20 May 2026**, décrets n° 2026-196 and 2026-197 du 19 mars 2026; called Declaloc in secondary sources) — per the DGE API meublés page (updated 23 Jul 2026) the lessor téléservice opens only in **Q4 2026**, as a Démarche Numérique form on a public DGE page; until then the commune's existing procedure applies (communal registration where instituted, otherwise mairie declaration) and platforms cannot demand a number in communes without a registration procedure; apimeubles.finances.gouv.fr is the commune / EPCI / platform portal, not a lessor entry point — administrative fines pronounced by the maire up to **€10,000** (défaut d'enregistrement) / **€20,000** (fausse déclaration or faux numéro, art. 4 Loi Le Meur). (2026-09-24 verified, source DGE API meublés page)
 - Loi Climat: DPE F-G gîtes increasingly restricted
 
 ---
@@ -355,6 +355,6 @@ For FR-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Status
 
-✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; department-level tax reference re-pointed to DGFiP 2026-09-18 per impots.gouv.fr). Rental tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; department-level tax reference re-pointed to DGFiP 2026-09-18 per impots.gouv.fr). Rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
 
 **Confidence**: HIGH for tax + risk + rental sources (impots.gouv.fr / Géorisques / DGFiP — multi-source corroborated). MEDIUM for work catchment heuristics (département-dependent).

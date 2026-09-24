@@ -127,7 +127,7 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Capital gains — Tulumaks (Tulumaksuseadus)
 
-- **Tulumaks 22 % from 1 Jan 2025; 24 % from 1 Jan 2026** (julgeolekumaks security tax abolished May 2026, replaced by permanent income-tax rise — applies to both personal income AND corporate distributed profits; CGT integrated into general Tulumaks). (2026-05-27 verified, source Eesti Kaubandus-Tööstuskoda 8 May 2026)
+- **Tulumaks 22 % from 1 Jan 2025 and still 22 % in 2026** (EMTA tax-rates page, 2026 block: "The rate of withheld income tax is 22%"; corporate distributed profit 22/78; CGT integrated into general Tulumaks). (2026 data, source [EMTA — Tax rates](https://www.emta.ee/en/private-client/taxes-and-payment/declaration-income/tax-rates))
 - **Primary residence exempt** (>2-year ownership rule simplified)
 
 ### Total transaction cost (buyer side)
@@ -157,7 +157,7 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 
 Estonia has **NO national mandatory STR-registration regime** in force. The Ministry of Economic Affairs (**MKM**) is only *proposing* clearer Tourism Act rules as of June 2026, targeted to take effect **2027-2028** (source ERR News 2026-06-25); market participants want a nationwide accommodation database "but the Ministry of Economic Affairs and Communications is not listening" (ERR opinion, 2026-02) — i.e. no such requirement exists yet. In Sep 2026 MKM said it sees **no need for new national STR limits** despite a European Commission proposal letting local governments restrict short-term rentals; the government is still developing its position (source ERR News 2026-09-13, secondary — verify with MKM).
 
-- **Tulumaks** (income tax) 22 % on rental earnings (2025) → **24 % from 1 Jan 2026** (Tulumaksuseadus)
+- **Tulumaks** (income tax) 22 % on rental earnings (2025 and 2026 — EMTA tax-rates page) (Tulumaksuseadus)
 - **VAT registration required if revenue > €40,000/year** (then 24% VAT on bookings)
 - **No Tallinn citywide night-cap** as of early 2026; an **Old Town (Vanalinn)** cap is only *proposed* under the City of Tallinn 2025-2035 Old Town development plan — not enacted (source Investropa 2026)
 - Guest-registration to **Politsei- ja Piirivalveamet (PPA)** within 24h — *unverified for Estonia* (guest data historically routes to Statistikaamet, not PPA; verify with PPA before relying)
@@ -303,7 +303,7 @@ Statutory fees as noted; all construction/retrofit figures are **est. indicative
 - **NO transfer tax** — only notary + land register fee — UNIQUE
 - **Maamaks reform 2024-2026** — rates rising, municipality discretion expanded
 - **VAT 20% → 22% (1 Jan 2024) → 24% (1 Jul 2025, permanent from 2026)** — major rise (2026-05-27 verified)
-- **Tulumaks (income tax + CGT integrated) 22 % (2025) → 24 % from 1 Jan 2026** (security tax abolished, replaced by permanent income-tax rise)
+- **Tulumaks (income tax + CGT integrated) 22 % from 1 Jan 2025, unchanged in 2026** (2026 data, source EMTA tax-rates page)
 - **Currency: EUR since 2011** (no FX risk for eurozone buyers)
 - **Tallinn + Pärnu rising 2025** while Tartu softening (-6.8% YoY)
 - **Soviet-era panel buildings**: Khrushchyovka + Brezhnev — many in Tallinn Lasnamäe, Mustamäe, Õismäe — energy-inefficient + asbestos
@@ -349,9 +349,9 @@ Statutory fees as noted; all construction/retrofit figures are **est. indicative
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25. Rental: Sep 2026 MKM STR position added 2026-09-24 in the October regwatch wave from ERR News (secondary); EU Reg 2024/1028 date and Tallinn Old Town status not re-read.
+✅ **Fully populated** as of 2026-04-25. Rental: Sep 2026 MKM STR position added 2026-09-24 in the October regwatch wave from ERR News (secondary); EU Reg 2024/1028 date and Tallinn Old Town status not re-read. Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (Statistikaamet + Maa-amet + KV.ee), traffic (Maanteeamet), tax (maamaks reform 2024-2026 + VAT 22%→24% + 22% CGT), rental (EU Reg 2024/1028 from 20 May 2026; no national STR reg yet), work, risks (flood + radon + Baltic storms), mains all have primary government sources + cost benchmarks.
-**Confidence**: HIGH for maamaks reform timeline (2024 +10%, 2025 +50%, 2026 municipality-set 10-100%); HIGH for VAT 24% from 1 Jul 2025 (corrected from earlier "1 Jan 2025" data point; made permanent April-May 2026); HIGH for Tulumaks 22 % → 24 % from 1 Jan 2026; HIGH for e-government sources (Maa-amet + RIK gold-standard); MEDIUM for short-let reg specifics (2026-07-02 verified — no national regime yet; EU Reg 2024/1028 in force 20 May 2026, MKM Tourism Act reform only proposed for 2027-2028).
+**Confidence**: HIGH for maamaks reform timeline (2024 +10%, 2025 +50%, 2026 municipality-set 10-100%); HIGH for VAT 24% from 1 Jul 2025 (corrected from earlier "1 Jan 2025" data point; made permanent April-May 2026); HIGH for Tulumaks 22 % from 1 Jan 2025, still 22 % in 2026 (EMTA); HIGH for e-government sources (Maa-amet + RIK gold-standard); MEDIUM for short-let reg specifics (2026-07-02 verified — no national regime yet; EU Reg 2024/1028 in force 20 May 2026, MKM Tourism Act reform only proposed for 2027-2028).
 
 ## Extension TODOs
 

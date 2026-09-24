@@ -888,10 +888,10 @@
       "country": "do",
       "programme": "Investor Residency (Ley 171-07)",
       "status": "OPEN",
-      "min_threshold": "**US$200,000** investment (RE eligible)",
-      "property_linked": "YES",
-      "pr_citizenship": "Direct PR (1 yr provisional → permanent); citizenship after 2 yrs PR (Ley 1683 + Ley 285-04)",
-      "caveats": "Fast-track to passport (~3 yrs total); CONFOTUR-registered RE benefits stack",
+      "min_threshold": "**US$200,000** investment via DR company / free-zone / incentive-regime capital (RE route not listed by DGM — verify)",
+      "property_linked": "Possibly",
+      "pr_citizenship": "PR permit (DGM validity 1 yr); citizenship timeline not stated on MIP naturalización page — verify at MIP",
+      "caveats": "Ley 158-01 tourism-pole (CONFOTUR) companies with foreign capital qualify with no minimum per DGM; individual RE purchase as a route not confirmed — verify at DGM",
       "region": "Latin America"
     },
     {
@@ -910,7 +910,7 @@
       "country": "co",
       "programme": "Migratorio M visa (real-estate route)",
       "status": "OPEN",
-      "min_threshold": "**≥350× SMLMV** (~COP 498M / ~USD 125k 2026); ≥650× → PR-eligible after 5 yrs",
+      "min_threshold": "**≥350× SMLMV** (2026: COP 612.8M ≈ USD 195k at TRM 3,144.14, BanRep 2026-08-03; re-prices every 1 Jan with the SMLMV); FDI route >650× SMLMV; both routes accumulate 5 yrs toward Visa R (not automatic)",
       "property_linked": "YES",
       "pr_citizenship": "M-visa 3 yrs → R-visa PR after 5 yrs of M (or 2 yrs if Colombian-citizen spouse)",
       "caveats": "SMLMV adjusts annually; verify MinTrabajo",
@@ -921,7 +921,7 @@
       "country": "co",
       "programme": "Migratorio M (Pensionado)",
       "status": "OPEN",
-      "min_threshold": "**≥3× SMLMV monthly pension** (~USD 1,070)",
+      "min_threshold": "**≥3× SMLMV monthly pension** (2026: COP 5.25M ≈ USD 1,671 at TRM 3,144.14 — computed)",
       "property_linked": "No",
       "pr_citizenship": "M-visa 3 yrs → R-visa PR",
       "caveats": "Easier pensioner route",
@@ -932,7 +932,7 @@
       "country": "co",
       "programme": "Migratorio M (Rentista)",
       "status": "OPEN",
-      "min_threshold": "**≥10× SMLMV monthly passive income** (~USD 3,560)",
+      "min_threshold": "**≥10× SMLMV monthly passive income** (2026: COP 17.5M ≈ USD 5,569 at TRM 3,144.14 — computed)",
       "property_linked": "No",
       "pr_citizenship": "M-visa → R-visa",
       "caveats": "",
@@ -987,10 +987,10 @@
       "country": "do",
       "programme": "Investor Residency (Ley 171-07)",
       "status": "OPEN",
-      "min_threshold": "**US$200,000** investment (RE eligible)",
-      "property_linked": "YES",
-      "pr_citizenship": "Direct PR (1 yr provisional → permanent); citizenship after 2 yrs PR (Ley 1683 + Ley 285-04)",
-      "caveats": "Fast-track to passport (~3 yrs total); CONFOTUR-registered RE benefits stack",
+      "min_threshold": "**US$200,000** investment via DR company / free-zone / incentive-regime capital (RE route not listed by DGM — verify)",
+      "property_linked": "Possibly",
+      "pr_citizenship": "PR permit (DGM validity 1 yr); citizenship timeline not stated on MIP naturalización page — verify at MIP",
+      "caveats": "Ley 158-01 tourism-pole (CONFOTUR) companies with foreign capital qualify with no minimum per DGM; individual RE purchase as a route not confirmed — verify at DGM",
       "region": "Caribbean"
     },
     {
@@ -1733,33 +1733,33 @@
     {
       "id": "eg-investment-law-160-2023-cash-deposit-rbi",
       "country": "eg",
-      "programme": "Investment Law 160/2023 — Cash Deposit RBI",
+      "programme": "PM Decree 3099/2019 (as amended) — USD 250k Treasury contribution",
       "status": "OPEN — RECENT",
-      "min_threshold": "**USD 250,000** non-refundable cash deposit (5-yr) → permanent residency",
+      "min_threshold": "**USD 250,000** non-refundable direct revenue (grant) to the Public Treasury Authority, no lock period (GAFI citizenship application form)",
       "property_linked": "No",
-      "pr_citizenship": "Permanent residence after 5-yr",
-      "caveats": "Not direct citizenship; verify with GAFI before transferring",
+      "pr_citizenship": "Outcome unreconciled — GAFI form frames it as citizenship, US State Dept 2025 ICS as permanent residency; verify in writing with the Citizenship Applications Assessment Unit",
+      "caveats": "Outcome (citizenship vs permanent residency) unreconciled between GAFI and US State Dept 2025 ICS; verify in writing with the Citizenship Applications Assessment Unit before transferring",
       "region": "Africa"
     },
     {
       "id": "eg-investment-law-160-2023-real-estate-cbi",
       "country": "eg",
-      "programme": "Investment Law 160/2023 — Real-Estate CBI",
+      "programme": "PM Decree 3099/2019 (as amended) — state real-estate route",
       "status": "OPEN — RECENT",
-      "min_threshold": "**USD 300,000** real-estate purchase → citizenship",
+      "min_threshold": "GAFI form: **USD 500,000** in real estate owned by the State or public legal persons / US State Dept 2025 ICS (citing Decree 876/2023): USD 300,000 — unreconciled",
       "property_linked": "YES",
-      "pr_citizenship": "Direct citizenship (after holding period)",
+      "pr_citizenship": "Outcome unreconciled (GAFI: citizenship / US State Dept 2025 ICS: permanent residency)",
       "caveats": "Thresholds shifted multiple times since 2023 — confirm current GAFI rules",
       "region": "Africa"
     },
     {
       "id": "eg-investment-law-160-2023-investment-cbi",
       "country": "eg",
-      "programme": "Investment Law 160/2023 — Investment CBI",
+      "programme": "PM Decree 3099/2019 (as amended) — investment-project route",
       "status": "OPEN — RECENT",
-      "min_threshold": "**USD 350,000** in approved sectors → citizenship",
+      "min_threshold": "GAFI form: **USD 400,000** project at min 40% of capital / US State Dept 2025 ICS (citing Decree 876/2023): USD 350,000 plus USD 100,000 — unreconciled",
       "property_linked": "No",
-      "pr_citizenship": "Direct citizenship",
+      "pr_citizenship": "Outcome unreconciled (GAFI: citizenship / US State Dept 2025 ICS: permanent residency)",
       "caveats": "Sectors gazetted by GAFI",
       "region": "Africa"
     },
@@ -2001,8 +2001,8 @@
       "status": "OPEN",
       "min_threshold": "**USD 300,000** investment in GE business or real estate",
       "property_linked": "YES",
-      "pr_citizenship": "5-yr (renewable); PR after 6 yrs",
-      "caveats": "Direct PR after threshold met + 6-yr renewal cycle",
+      "pr_citizenship": "5-yr; permanent residence on application before the 5-yr permit expires, subject to turnover (investment route) or retained-property conditions (Law Art. 15(k), Art. 16 para 5)",
+      "caveats": "Permanent residence after 5 yrs on the investment permit (Art. 16 para 5); the cheaper US$150k real-estate route is a 1-yr short-term permit (Art. 15(j)), not this programme",
       "region": "Caucasus"
     },
     {
@@ -2022,7 +2022,7 @@
       "programme": "Investor Visa / \"Golden Visa\" (10 May 2025)",
       "status": "OPEN",
       "min_threshold": "**US$300,000** qualifying investment (KZ securities / listed entities / AIFC participants / productive business)",
-      "property_linked": "**NO — REAL ESTATE EXPLICITLY EXCLUDED**",
+      "property_linked": "**NO — real estate not a reported qualifying asset (secondary guides; verify at MFA KZ)**",
       "pr_citizenship": "10-yr residence permit; PRP-equivalent rights",
       "caveats": "Channelled toward productive capital, not passive RE — Kazakhstan property purchase ≠ residence pathway (UNIQUE distinction in region); applications open 1 Jun 2025",
       "region": "Central Asia"
@@ -2131,10 +2131,10 @@
       "country": "gg",
       "programme": "Open Market Housing + Tax Cap",
       "status": "OPEN",
-      "min_threshold": "Open Market property (~1,600 dwellings, no quota); £50k Document Duty trigger ≈ £1.06M PPR / £1.4M industry-typical; £60k annual Tax Cap; £160k / £320k worldwide caps",
+      "min_threshold": "Open Market property (~1,600 dwellings, no quota); £50k Document Duty trigger ≈ £1.37M computed / £1.4M industry-typical; £60k annual Tax Cap; £160k / £320k worldwide caps",
       "property_linked": "Yes — must purchase Open Market property",
       "pr_citizenship": "Population Management ladder: 8yrs Established Resident → 14yrs Permanent Resident (10-of-20 retention)",
-      "caveats": "Standard Charge rises £40k (2024) → £50k from year-of-charge 2026 (P.2025-121). Alderney Cap split: legacy £65k (2024 only, withdrawn end-2025) vs new £60k Alderney Property Tax Cap from 1 Jan 2025. NO CGT/IHT/GST.",
+      "caveats": "Standard Charge rises £40k (2024) → £50k from year-of-charge 2026 (P.2025-121). Alderney Cap split: legacy £65k (2024 + 2025, ceased 31 Dec 2025) vs new £60k Alderney Property Tax Cap from 1 Jan 2025. NO CGT/IHT/GST.",
       "region": "Crown Dependencies & Autonomous Territories"
     },
     {
@@ -2178,7 +2178,7 @@
       "min_threshold": "Not yet set",
       "property_linked": "No",
       "pr_citizenship": "n/a — programme not operational as of Jun 2026",
-      "caveats": "Citizenship (Amendment) Bill 2025 passed Parliament 17 Dec 2025 (permits multiple citizenship); CBI announced but threshold/regulations not set. Investor/residence permits exist but thresholds are agency-sourced — verify at BITC / gov.bw",
+      "caveats": "Citizenship (Amendment) Act 2025 (Act No. 30 of 2025) passed Parliament 17 Dec 2025 and assented (permits multiple citizenship); commencement order SI No. 38 of 2026 listed on Parliament's Business Update, date/scope unverified; CBI announced but threshold/regulations not set. Investor/residence permits exist but thresholds are agency-sourced — verify at BITC / gov.bw",
       "region": "Africa"
     },
     {
@@ -2189,7 +2189,7 @@
       "min_threshold": "~USD 130,000 donation (single applicant; secondary — verify at Citizenship Office)",
       "property_linked": "No (donation to the National Development Fund, NOT real estate)",
       "pr_citizenship": "Direct citizenship (donation-based); no residence requirement",
-      "caveats": "EU PERMANENTLY revoked Vanuatu's visa-free Schengen access 12 Dec 2024 (Reg (EU) 2025/11); sustained OECD/EU scrutiny. Buying property does NOT confer citizenship",
+      "caveats": "EU PERMANENTLY revoked Vanuatu's visa-free Schengen access — Reg (EU) 2025/11 (Council adoption 12 Dec 2024), visa requirement applies from 3 Feb 2025; sustained OECD/EU scrutiny. Buying property does NOT confer citizenship",
       "region": "Asia-Pacific"
     },
     {

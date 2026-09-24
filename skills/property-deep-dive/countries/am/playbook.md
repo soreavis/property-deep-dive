@@ -680,7 +680,7 @@ Armenia is **civil-law**; **notary** (`notar`) mandatory for any immovable-prope
 
 - **Lowest property-acquisition tax of immediate region** (~0.1–0.5% vs Azerbaijan 1–3%, Türkiye 5–8%, Moldova 1.5–3%) — comparable only to Georgia
 - **180-day visa-free for ~92 nationalities** — most permissive in the immediate region after Georgia (365 days)
-- **Investor Residence at AMD 50M (~US$130k) property purchase** — among the lowest property-investor thresholds globally; comparable to Georgia (US$100k) and materially below most EU programmes
+- **Investor Residence at AMD 50M (~US$130k) property purchase** — among the lowest property-investor thresholds globally; comparable to Georgia (US$150k real-estate short-term residence permit since 1 Mar 2026; US$100k before) and materially below most EU programmes
 - **Diaspora-citizenship pathway** (Law on Citizenship Art. 13) gives ethnic Armenian descent applicants direct citizenship route — unique structural advantage for diaspora property buyers
 - **HO-332-N Real Estate Tax 2026 first-full-year effect**: materially raises annual carrying cost vs 2025 baseline; pricing impact still unfolding
 - **War-spillover risk premium**: 2020 + 2023 Karabakh demonstrated meaningful tail risk; Azerbaijan border tension (Tavush/Syunik) and CSTO suspension elevate political-risk loading; insurance + cash-purchase prevalence reflect
@@ -1052,7 +1052,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Tax Code Art. 147(1)(16) individual-to-individual residential PIT-exemption; 10% WHT on price when buyer is legal entity / sole-proprietor tax agent (residential), 20% commercial; Tax Code Art. 230 property-tax brackets — separate schedules for apartments vs houses; CBA refinancing rate 6.5% (2026-05-27, source cba.am) following cutting cycle from 2024 ~10% peak; AMD ~368/USD ~395-410/EUR May 2026 per CBA reference rate). MEDIUM on parcel-level cadastre exact apartment vs house classification (verify at src.am for any specific deal), 2026 CBA forward-rate path, and recharacterisation risk for business-pattern traders (individual sales with high frequency may be re-classified as entrepreneurial income). LOW on residential listing benchmarks (no national HPI; List.am + Spyur aggregator-grade with broker bias).
 
-**Last verified**: 2026-05-27 (real-estate-tax reform law corrected 2026-09-18 — HO-332-N of 25 June 2020, not HO-185-N of 25 December 2020, per ARLIS; risks-authority rows (MIA Rescue Service) and Veolia Jur operator identity corrected 2026-09-18 per mia.gov.am + veolia.am)
+**Last verified**: 2026-05-27 (real-estate-tax reform law corrected 2026-09-18 — HO-332-N of 25 June 2020, not HO-185-N of 25 December 2020, per ARLIS; risks-authority rows (MIA Rescue Service) and Veolia Jur operator identity corrected 2026-09-18 per mia.gov.am + veolia.am). Cross-references corrected 2026-09-24 from the GE-537 tracker entry (November regwatch wave, run early).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
