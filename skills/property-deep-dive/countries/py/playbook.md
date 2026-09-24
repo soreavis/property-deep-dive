@@ -265,7 +265,7 @@ Annual recurring tax:                    ~USD 330–415
 #### Asunción — municipal layer
 
 - **Ordenanza Municipal de Asunción**: standard commercial-activity registration if STR is professional/recurring; tasa habilitación local applies.
-- **No dedicated STR-specific municipal regime** comparable to Bogotá Decreto 538/2024 — STR remains lightly regulated formally as of 2026 Q1.
+- **No dedicated STR-specific municipal regime** comparable to Colombia's national RNT regime (the often-cited Bogotá 'Decreto 538/2024' is unverified) — STR remains lightly regulated formally as of 2026 Q1.
 
 #### Encarnación + San Bernardino lakeside
 

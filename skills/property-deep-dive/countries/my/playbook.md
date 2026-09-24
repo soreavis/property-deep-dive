@@ -27,7 +27,7 @@ ISO2: `my`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 
 - **Major reforms / regulatory landscape** (date-stamped detail in `shared/regulatory-watch.md`):
   - **National Land Code 1965 (Act 56)**, recodified 2020 — `https://lom.agc.gov.my/`
-  - **MM2H relaunch** — June 2024, three-tier (Silver / Gold / Platinum) under MOTAC — `https://www.mm2h.gov.my/`
+  - **MM2H relaunch** — June 2024, Silver / Gold / Platinum + SEZ/SFZ categories under MOTAC — `https://www.mm2h.gov.my/`
   - **RPGT revised schedule 2022** under Finance Act 2021; current rates in Schedule 5 of RPGTA 1976 — `https://www.hasil.gov.my/`
   - **Stamp duty foreigner surcharge** — Stamp Act 1949 + Finance Act amendments. **Budget 2026 doubled the foreigner residential MOT stamp duty 4 % → 8 % flat, effective 1 January 2026** (PR exempt — PR pays citizen progressive 1–4 %; foreign-owned companies included). Pre-2026 transactions stamped at 4 % flat (2026-05-27 verified, source: Budget 2026 / KPMG MY TaxLetter / propcashflow.my). Verify Stamp Act amendment gazette at LHDN `https://www.hasil.gov.my/`.
   - **SST reform 2024** — services SST raised to 8 % from 1 March 2024 (impacts agency, legal fees) — `https://mysst.customs.gov.my/`
@@ -93,9 +93,9 @@ Foreigners can purchase residential property in their own name (freehold or leas
 | **Gold** | 500,000 | 15 years renewable | Property purchase ≥ MYR 1,000,000 |
 | **Platinum** | 1,000,000 | 20 years renewable | Property purchase ≥ MYR 2,000,000 |
 
-- **Current MOTAC framework (2026-05-27 verified)**: fixed-deposit tiers are denominated in **USD** (Silver USD 150k / Gold USD 500k / Platinum USD 1M). **No monthly-income requirement** under the current published framework (the earlier MYR 50,000/mo offshore-income line was part of a 2021–2023 iteration and is no longer in force). Property must be acquired within 12 months of visa approval; 10-year property lock-in applies. Pre-2024 thresholds were lower and grandfathered. Source: MOTAC `https://www.mm2h.gov.my/` + applymm2h.com.my (updated Feb 2026). Politically volatile — verify each year.
+- **Current MOTAC framework (2026-05-27 verified)**: fixed-deposit tiers are denominated in **USD** (Silver USD 150k / Gold USD 500k / Platinum USD 1M), plus a 4th **SEZ/SFZ** category (FD USD 65k age 21-49 / USD 32k age 50+, compulsory Forest City, Johor property). **No monthly-income requirement** under the current published framework (the earlier MYR 50,000/mo offshore-income line was part of a 2021–2023 iteration and is no longer in force). Property must be acquired within 12 months of visa approval; 10-year property lock-in applies. Pre-2024 thresholds were lower and grandfathered. Source: MOTAC `https://www.mm2h.gov.my/` + applymm2h.com.my (updated Feb 2026). Politically volatile — verify each year.
 - **Sarawak MM2H (S-MM2H)** — separate state variant, lower thresholds. `https://smm2h.sarawak.gov.my/`
-- **MM2H is residence only**, not a PR path; no work rights (separate EP needed). Renewable subject to deposit + income evidence.
+- **MM2H is residence only**, not a PR path; no work rights in Silver/Gold/SEZ-SFZ (separate EP needed) — Platinum lists career + business as 'Permissible'. Renewable every 5 yrs after the tier term (2026 data, source MOTAC).
 - **PR3M / Resident Pass** — older Ministry of Home Affairs program for high-skilled / HNWI; verify at `https://www.imi.gov.my/`.
 
 ### Real Property Gains Tax (RPGT) — exit-side cost
@@ -381,7 +381,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
   - Source: Immigration Department of Malaysia (JIM, ESD portal) `https://esd.imi.gov.my/`
 - **DE Rantau (Digital Nomad Pass)** — launched October 2022 by MDEC; for tech / digital professionals; 12-month renewable; min income USD 24,000/yr.
   - Source: `https://mdec.my/derantau/`
-- **MM2H pass holders**: NO automatic work rights; must apply separately for EP if working in Malaysia.
+- **MM2H pass holders**: no work rights in Silver / Gold / SEZ-SFZ — apply separately for an EP; Platinum lists career opportunities as 'Permissible' (2026 data, source MOTAC).
 - **Sarawak**: separate Sarawak Immigration regime — must obtain Sarawak-specific work pass (not federal EP) to work *in Sarawak* even if you hold federal EP for elsewhere. Source: Sarawak Immigration `https://genesis.sarawak.gov.my/EXPRT/employment-pass`
 
 ### Salaried benchmarks (MYR/month, 2025 reference)
@@ -533,7 +533,7 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 
 ## Active fiscal incentives (2025)
 
-- **MM2H** (3 tiers) — see foreign-buyer section
+- **MM2H** (Silver / Gold / Platinum + SEZ/SFZ) — see foreign-buyer section
 - **Sarawak MM2H (S-MM2H)** — lower thresholds
 - **Resident Pass (Talent Corp)** — high-skilled professionals `https://www.talentcorp.com.my/`
 - **MIDA** (manufacturing / services / R&D, business-only): `https://www.mida.gov.my/`
@@ -652,4 +652,4 @@ Malaysian property carries TWO recurring annual taxes, both LOW vs Western Europ
 7. **RTS Link Johor–Singapore opening 2026** — Iskandar property demand catalyst.
 8. **Sabah seismic code review** — post-Ranau 2015 + post-Myanmar 2025 quakes; verify current MS EN 1998-1 National Annex.
 
-**Last verified**: 2026-08-07 (`--rental` STR patch from `shared/regulatory-watch.md` — Penang TIP strata guideline in force 1 Apr 2023 / full implementation 1 Mar 2024, MBPP island whitelist vs MBSP mainland wider scope, 180-night + 3-day/week caps, three-quarters JMB/MC resolution under SMA 2013 ss. 32(3)+70(2); MBPJ Rumah Penginapan licensing; DBKL STR SOP). Prior sweep 2026-05-27 (Foreigner MOT 8% eff. 1 Jan 2026 (Budget 2026); MM2H USD tiers restated (Silver 150k/Gold 500k/Platinum 1M); FSI individuals extended to 31 Dec 2036; minimum wage corrected 2026-09-18 per Minimum Wages Order 2024 P.U. (A) 376).
+**Last verified**: 2026-08-07 (`--rental` STR patch from `shared/regulatory-watch.md` — Penang TIP strata guideline in force 1 Apr 2023 / full implementation 1 Mar 2024, MBPP island whitelist vs MBSP mainland wider scope, 180-night + 3-day/week caps, three-quarters JMB/MC resolution under SMA 2013 ss. 32(3)+70(2); MBPJ Rumah Penginapan licensing; DBKL STR SOP). Prior sweep 2026-05-27 (Foreigner MOT 8% eff. 1 Jan 2026 (Budget 2026); MM2H USD tiers restated (Silver 150k/Gold 500k/Platinum 1M); FSI individuals extended to 31 Dec 2036; minimum wage corrected 2026-09-18 per Minimum Wages Order 2024 P.U. (A) 376). MM2H tiers, compulsory residence purchase and work rights re-verified 2026-09-24 against the MOTAC category pages in the October regwatch wave.

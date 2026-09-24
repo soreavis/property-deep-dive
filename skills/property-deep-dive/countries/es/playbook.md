@@ -110,7 +110,7 @@ ISO2: `es`. Status: ✅ Fully populated (researched 2026-04; Tier-A quarterly re
 
 ### Transaction taxes — ITP (Impuesto sobre Transmisiones Patrimoniales)
 
-**MAJOR REFORM 2025**: Catalonia switched to progressive ITP (June 2025)
+**MAJOR REFORM 2025**: Catalonia steepened its already-progressive ITP scale (from 10 % ≤€1M + 11 % above, to four brackets topping at 13 % >€1.5M) for taxable events from 27 Jun 2025 (2025 data, source ATC Guia ITP + tarifes-tipus page)
 
 | CCAA | ITP rate (resale) |
 |---|---:|
@@ -169,7 +169,7 @@ For obra nueva (new build, vendida by impresa):
 
 - Wealth tax political flux — depends on CCAA government changes
 - Plusvalía in legal evolution post-2021
-- Catalonia 2025 progressive ITP may inspire other CCAA
+- Catalonia's 2025 steeper ITP scale (13 % top bracket >€1.5M) may inspire other CCAA
 
 ---
 
@@ -354,7 +354,7 @@ For obra nueva (new build, vendida by impresa):
 - **Costas Law 100m strip**: coastal restrictions on building/extending
 - **Plusvalía municipal** still in legal evolution post-2021 ruling
 - **Wealth tax** depends massively on CCAA — Madrid/Andalucía effectively zero, Cataluña/Valencia high
-- **Cataluña ITP went progressive June 2025** — affects high-value Barcelona purchases; top bracket 13 % >€1.5M + 20 % flat for grans tenidors (Decret-llei 5/2025)
+- **Cataluña ITP scale steepened 27 Jun 2025** (was already 10 %/11 % two-bracket) — affects high-value Barcelona purchases; top bracket 13 % >€1.5M + 20 % flat for grans tenidors (Decret-llei 5/2025)
 - **Golden Visa abolished** by Ley Orgánica 1/2025 (3 Apr 2025) — the Ley 14/2013 art. 63 real-estate residency route is closed to new applicants (2026-05-27 verified; cross-ref `shared/visa-programs.md` ENDED registry)
 - **VPO (vivienda protegida)** — subsidized housing, restrictions on resale
 - **Cooperative housing (cooperativas)** — common form, specific rules
@@ -403,9 +403,9 @@ For obra nueva (new build, vendida by impresa):
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-08-07 (Cataluña IEET tourist-tax tariff schedule re-verified against ATC — Llei 2/2026 rates in force 1 Apr 2026; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged).
+**Last verified**: 2026-08-07 (Cataluña IEET tourist-tax tariff schedule re-verified against ATC — Llei 2/2026 rates in force 1 Apr 2026; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged). Tax tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for tax + risk + cadastre sources (Catastro free + comprehensive; SNCZI maintained). MEDIUM for short-let regulation (CCAA-specific, evolving — Cataluña tightening, Madrid moderate). HIGH for Cataluña 2025 ITP reform (June 2025 effective).
+**Confidence**: HIGH for tax + risk + cadastre sources (Catastro free + comprehensive; SNCZI maintained). MEDIUM for short-let regulation (CCAA-specific, evolving — Cataluña tightening, Madrid moderate). HIGH for Cataluña 2025 ITP reform (27 Jun 2025 effective, Decret llei 5/2025).
 
 ## Extension TODOs
 

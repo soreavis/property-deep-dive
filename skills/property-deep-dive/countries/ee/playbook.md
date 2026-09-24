@@ -155,7 +155,7 @@ ISO2: `ee`. Status: ✅ Fully populated (researched 2026-04).
 
 **EU Reg (EU) 2024/1028** (STR data-collection) applies EU-wide **from 20 May 2026** — now in force — introducing a mandatory per-listing registration number + platform data-sharing/verification obligations; it does **not** harmonise substantive limits (local night-caps stay national). (2026-07-02 verified, source EUR-Lex Reg (EU) 2024/1028 + Bird & Bird)
 
-Estonia has **NO national mandatory STR-registration regime** in force. The Ministry of Economic Affairs (**MKM**) is only *proposing* clearer Tourism Act rules as of June 2026, targeted to take effect **2027-2028** (source ERR News 2026-06-25); market participants want a nationwide accommodation database "but the Ministry of Economic Affairs and Communications is not listening" (ERR opinion, 2026-02) — i.e. no such requirement exists yet.
+Estonia has **NO national mandatory STR-registration regime** in force. The Ministry of Economic Affairs (**MKM**) is only *proposing* clearer Tourism Act rules as of June 2026, targeted to take effect **2027-2028** (source ERR News 2026-06-25); market participants want a nationwide accommodation database "but the Ministry of Economic Affairs and Communications is not listening" (ERR opinion, 2026-02) — i.e. no such requirement exists yet. In Sep 2026 MKM said it sees **no need for new national STR limits** despite a European Commission proposal letting local governments restrict short-term rentals; the government is still developing its position (source ERR News 2026-09-13, secondary — verify with MKM).
 
 - **Tulumaks** (income tax) 22 % on rental earnings (2025) → **24 % from 1 Jan 2026** (Tulumaksuseadus)
 - **VAT registration required if revenue > €40,000/year** (then 24% VAT on bookings)
@@ -349,7 +349,7 @@ Statutory fees as noted; all construction/retrofit figures are **est. indicative
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-04-25. Rental: Sep 2026 MKM STR position added 2026-09-24 in the October regwatch wave from ERR News (secondary); EU Reg 2024/1028 date and Tallinn Old Town status not re-read.
 **Coverage check**: pricing (Statistikaamet + Maa-amet + KV.ee), traffic (Maanteeamet), tax (maamaks reform 2024-2026 + VAT 22%→24% + 22% CGT), rental (EU Reg 2024/1028 from 20 May 2026; no national STR reg yet), work, risks (flood + radon + Baltic storms), mains all have primary government sources + cost benchmarks.
 **Confidence**: HIGH for maamaks reform timeline (2024 +10%, 2025 +50%, 2026 municipality-set 10-100%); HIGH for VAT 24% from 1 Jul 2025 (corrected from earlier "1 Jan 2025" data point; made permanent April-May 2026); HIGH for Tulumaks 22 % → 24 % from 1 Jan 2026; HIGH for e-government sources (Maa-amet + RIK gold-standard); MEDIUM for short-let reg specifics (2026-07-02 verified — no national regime yet; EU Reg 2024/1028 in force 20 May 2026, MKM Tourism Act reform only proposed for 2027-2028).
 

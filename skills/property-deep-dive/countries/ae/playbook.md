@@ -32,7 +32,7 @@ ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-07-0
   - **Federal Corporate Tax** introduced for periods starting **1 June 2023** at 9% above AED 375k taxable profit. Personal income from real estate held in own name is **excluded** (CT applies only to business activity); juridical non-residents earning UAE immovable-property income create a nexus
   - **Dubai Smart Rental Index** revamped Jan 2025 — every residential building rated **1–5 stars** by AI (~60 criteria: condition, finishes, maintenance, amenities, FM quality, location); star rating influences allowed rent increases at renewal (NOT A/B/C/D) (2026-05-27 verified, source DLD Smart Rental Index portal + Driven Properties + Kaizen AMS)
   - **Dubai Tasreef stormwater plan** (AED ~30 bn / USD 8 bn) approved post-Apr 2024 floods; phased to 2033
-  - **Dubai Law No. 2 of 2025** — DIFC Wills now have direct enforcement against DLD / banks / RTA without separate Dubai Courts recognition
+  - **Dubai Law No. 2 of 2025** — DIFC Courts Enforcement Judge has jurisdiction over enforcement of DIFC-registered non-Muslim wills inside or outside the DIFC (Art. 31(5)); for assets outside the DIFC (e.g. DLD-registered property) execution still runs through the Dubai Courts Enforcement Judge (Art. 32), which the DIFC Courts Wills FAQ calls a standard formality (2025 law, source DIFC Courts)
 
 ---
 
@@ -75,7 +75,7 @@ This section determines whether a transaction is even legally possible. Confirm 
 | **Long-term Golden Visa (10 yr)** | Property worth ≥ AED 2,000,000 (single or aggregate properties, your name) |
 | **2-year Property Investor Visa** | **Sole owners**: no minimum property value (completed property + registered title deed); **joint owners**: ≥ AED 400,000 each (DLD reform 29 Apr 2026 — the prior AED 750k floor was **abolished**) (2026-05-27 verified, source VisaHQ + LuxHabitat Journal + DLD announcement 29 Apr 2026) |
 | **Mortgage financing allowed** | Yes — bank financing up to 50% counts toward the AED 2 M threshold; equity portion must reach AED 2 M; bank NOC required (per ICP) |
-| **Off-plan eligible** | Yes if developer is RERA-registered and a property status certificate from DLD/ADREC confirms the value |
+| **Off-plan eligible** | Not stated on the GDRFA golden-residence page (route 'includes all types of properties'; no off-plan or escrow terms) — verify off-plan eligibility with DLD before relying |
 | **Family inclusion** | Spouse + children (no age cap for unmarried daughters; sons up to 25); domestic workers covered |
 | **Authority** | ICP (Federal Authority for Identity, Citizenship, Customs and Port Security) — `https://icp.gov.ae/` + GDRFA Dubai for Dubai applications |
 
@@ -269,7 +269,7 @@ What residents do pay annually:
 - **Non-Muslim expats**: since 2020 federal reforms + Dubai Law 2/2025, **DIFC Wills** and **ADGM Wills** allow English-law-style testamentary freedom over UAE assets — overrides Sharia default.
   - DIFC Will registration: **AED 10,000** single-will (Standard Will) — DIFC Courts Wills Service Centre.
   - ADGM Wills: equivalent framework in Abu Dhabi.
-  - Dubai Law 2/2025 grants DIFC-registered wills **direct enforcement** vs DLD / banks / RTA without separate Dubai Courts recognition.
+  - Dubai Law 2/2025 gives the DIFC Courts Enforcement Judge jurisdiction over DIFC-registered wills inside or outside the DIFC (Art. 31(5)); outside the DIFC the writ is executed via the Dubai Courts Enforcement Judge (Art. 32) — a standard formality per the DIFC Courts Wills FAQ, not a bypass (2025 law, source DIFC Courts).
 - **Muslims**: Sharia inheritance applies as default; can be modified within Sharia limits (1/3 testamentary share max).
 - **No federal inheritance tax** in either case.
 
@@ -301,7 +301,7 @@ What residents do pay annually:
 
 - 2025 reform: **Smart Rental Index** assigns a **1–5 star rating** per residential building (DLD/RERA, Jan 2025) that feeds into the index value used for the Decree 43/2013 rent-increase brackets (DLD Smart Rental Index portal `https://dubailand.gov.ae/en/eservices/rental-index/`) (2026-05-27 verified).
 - 90-day notice prior to renewal required for rent increases (**Dubai Law 26/2007 as amended by Law 33/2008** for renewal notice; rent-increase brackets per **Dubai Decree 43/2013** — Determining Rent Increase for Real Property). (Prior playbook reference to "Decree 26/2013" was incorrect — Decree 26/2013 established the Rental Disputes Settlement Centre, a different instrument.) (2026-05-27 verified, source Al Tamimi + DLP Dubai legislation portal)
-- **Abu Dhabi rent freeze (Jun 2026)**: ADREC suspended all rent increases on renewals and new lettings (residential / commercial / industrial) **until further notice** — benchmark = last registered Tawtheeq/Tamleek rent; ADGM carve-out. Model AD rental yields flat until lifted. (2026-07-03 verified via Gulf News 2 Jun 2026 + Baker McKenzie — confirm current status on adrec.gov.ae)
+- **Abu Dhabi rent freeze (Jun 2026)**: ADREC suspended all rent increases on renewals and new lettings (residential / commercial / industrial) **until further notice** — benchmark = rental rate in the property's last registered Tawtheeq contract; cap cut from 5% to 0% (2026 data, source ADREC press release 03 Jun 2026). Tamleek benchmark + ADGM carve-out per law-firm notes only (secondary) — verify at adrec.gov.ae. Model AD rental yields flat until lifted. (source ADREC press release 03 Jun 2026, adrec.gov.ae/en/news/press-release-26---rental-freeze-update — confirm current status on adrec.gov.ae)
 
 ### Short-term rentals (holiday homes)
 
@@ -633,7 +633,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 
 **Confidence**: **HIGH** for federal-level rules (Golden Visa / Retirement Visa thresholds, VAT regime, Corporate Tax, AED peg, AML), Dubai DLD transfer fee + service-charge framework + Smart Rental Index brackets + DET holiday-home permit, ADREC 2% + Abu Dhabi Law 13/2019 (amending Law 19/2005) framework, DIFC/ADGM Wills + Dubai Law 2/2025, Apr 2024 flood event + Tasreef response. **MEDIUM** for emirate-by-emirate detail outside Dubai/Abu Dhabi (RAK/Ajman/Fujairah/UAQ less standardised — designated zones verified per source but precise transfer fee schedules vary and need per-deal confirmation with the relevant municipality), Abu Dhabi citywide pricing benchmarks (less granular open data than Dubai), Sharjah usufruct vs freehold-for-Arabs distinction (verify with SRERD per nationality).
 
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; Northern Emirates utility (EtihadWE) corrected 2026-09-18 per u.ae).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; Northern Emirates utility (EtihadWE) corrected 2026-09-18 per u.ae). Finance / rental tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 
 ## Extension TODOs (deepen on first real run)
 

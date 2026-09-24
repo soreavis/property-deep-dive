@@ -2517,7 +2517,7 @@
       "hard": {
         "foreign-buyer-open": true,
         "no-fx-risk": false,
-        "property-residency-route": false
+        "property-residency-route": true
       },
       "entry_eur_m2": null,
       "confidence": "MEDIUM",

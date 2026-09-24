@@ -127,7 +127,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 3. Realistic year-3 stabilised gross: 16–22 weeks × commune-typical rate
 4. Apply tax regime:
    - Below €15k AND non-classé → micro-BIC 30 % abatement
-   - Above €15k OR classé → micro-BIC **50 %** abatement (classement via organisme accrédité COFRAC) — plafond **€83,600 for 2026 income onward** (€77,700 applies to 2025 income declared in 2026; classé + chambres d'hôtes, per Loi Le Meur 2024-1039 en vigueur 1 Jan 2025 — was €188,700 pre-reform — then the 2026-2028 triennial revaluation). (2026-07-03 verified; sources [Légifrance Loi 2024-1039](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711) + [Service-Public entreprendre A18813](https://entreprendre.service-public.gouv.fr/actualites/A18813))
+   - Classé (or chambres d'hôtes) → micro-BIC **50 %** abatement (a non-classé above the €15k plafond cannot use micro-BIC → régime réel; 2025 data, source Service-Public A17883) (classement via organisme accrédité COFRAC) — plafond **€83,600 for 2026 income onward** (€77,700 applies to 2025 income declared in 2026; classé + chambres d'hôtes, per Loi Le Meur 2024-1039 en vigueur 1 Jan 2025 — was €188,700 pre-reform — then the 2026-2028 triennial revaluation). (2026-07-03 verified; sources [Légifrance Loi 2024-1039](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711) + [Service-Public entreprendre A18813](https://entreprendre.service-public.gouv.fr/actualites/A18813))
    - Above €23k revenue → URSSAF 6 % (classé) or 21.2 % (non-classé)
    - Above €83.6k (2026 income; €77.7k for 2025 income) → régime réel
 
@@ -355,6 +355,6 @@ For FR-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Status
 
-✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; department-level tax reference re-pointed to DGFiP 2026-09-18 per impots.gouv.fr).
+✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; department-level tax reference re-pointed to DGFiP 2026-09-18 per impots.gouv.fr). Rental tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 
 **Confidence**: HIGH for tax + risk + rental sources (impots.gouv.fr / Géorisques / DGFiP — multi-source corroborated). MEDIUM for work catchment heuristics (département-dependent).

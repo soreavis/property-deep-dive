@@ -387,7 +387,7 @@ Illustrative contractor estimates, not quoted figures — verify with local quot
 
 ## Caveats unique to CA
 
-- **Federal foreign-buyer ban** until **1 Jan 2027** (Prohibition Act 2023; extended Mar 2024)
+- **Federal foreign-buyer ban** until **1 Jan 2027** (Prohibition Act in force 1 Jan 2023; repeal deferred to 1 Jan 2027 by Budget Implementation Act, 2024, No. 1, S.C. 2024, c. 17, s. 149)
 - **Provincial fragmentation extreme** — each province has different cadastre, LTT, rent control, condo law
 - **BC vs ON major divergence** — BC PTT 1-3%+2%+20% foreign; ON LTT 0.5-2.5% + Toronto MLTT
 - **UHT REPEALED 26 Mar 2026** — no longer applies for 2025+ (file 2022-2024 obligations)
@@ -442,7 +442,7 @@ Illustrative contractor estimates, not quoted figures — verify with local quot
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25 (Vancouver board name (Greater Vancouver REALTORS) corrected 2026-09-18 per gvrealtors.ca).
+✅ **Fully populated** as of 2026-04-25 (Vancouver board name (Greater Vancouver REALTORS) corrected 2026-09-18 per gvrealtors.ca). Ownership tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 **Coverage check**: pricing (CREA + provincial boards), traffic, tax (extreme provincial divergence), rental (RTA per province), work, risks (wildfire + flood + earthquake + permafrost + radon), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for CREA HPI Mar 2026 + UHT repeal (Bill C-15 Royal Assent confirmed) + BC SVT 2026 doubling + Toronto MLTT graduated tier (1 Apr 2026) + foreign buyer ban extension; MEDIUM for post-2027 foreign-buyer review (in flux); MEDIUM for capital-gains inclusion rate (2/3 proposal paused).
 

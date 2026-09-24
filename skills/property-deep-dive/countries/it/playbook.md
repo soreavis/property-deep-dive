@@ -405,7 +405,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 - **Superficie commerciale** (used in listings) ≠ superficie utile/Carrez ≠ rendita catastale "vani" — never compare €/m² across these naïvely
 - **CAP can span multiple comuni** in Italy (unlike France 1 CAP = 1 comune typically); verify codice catastale comune for accurate lookup
 - **Rendita catastale revaluation 1.05** dates from 1996; multiple political pushes for cadastre reform have stalled
-- **Polizza Catastrofale (CatNat) obbligatoria per le imprese — ora pienamente in vigore, entrata scaglionata**: grandi imprese entro 31 mar 2025, medie entro 30 set 2025, micro/piccole entro 31 dic 2025; pesca/acquacoltura + micro/piccole turistico-ricettive e somministrazione prorogate al 31 mar 2026 (DL 200/2025 Milleproroghe, conv. L. 26/2026). Inadempienza = esclusione da contributi e agevolazioni pubbliche (L. 213/2023 art. 1 c. 102). NON ancora residenziale, ma worth noting (2026-07-03 verified, source MIMIT polizze rischi catastrofali Cat Nat)
+- **Polizza Catastrofale (CatNat) obbligatoria per le imprese — in vigore per tutte le categorie tranne pesca/acquacoltura (termine prorogato al 31 dic 2026), entrata scaglionata**: grandi imprese entro 31 mar 2025, medie entro 30 set 2025, micro/piccole entro 31 dic 2025; micro/piccole turistico-ricettive e somministrazione prorogate al 31 mar 2026 (DL 200/2025 Milleproroghe, conv. L. 26/2026); pesca/acquacoltura prorogate al 31 dic 2026 (DL 25/2026 art. 9 c. 6, conv. L. 59/2026). Inadempienza = se ne tiene conto nell'assegnazione di contributi, sovvenzioni e agevolazioni pubbliche (L. 213/2023 art. 1 c. 102); il DM MIMIT 18 giu 2025 subordina all'adempimento l'accesso alle agevolazioni DGIAI elencate nel decreto. NON ancora residenziale, ma worth noting (2026-07-03 verified, source MIMIT polizze rischi catastrofali Cat Nat)
 
 ## Source URL templates
 
@@ -427,7 +427,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-08-07 (`--rental` re-verified — CIN block against Ministero del Turismo BDSR, the cedolare secca property threshold, and the Venice Contributo di Accesso season; balance of playbook 2026-07-03 Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
+**Last verified**: 2026-08-07 (`--rental` re-verified — CIN block against Ministero del Turismo BDSR, the cedolare secca property threshold, and the Venice Contributo di Accesso season; balance of playbook 2026-07-03 Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged). Insurance tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + rental sources (multi-source corroborated). MEDIUM for work catchment heuristics (region-dependent).
 

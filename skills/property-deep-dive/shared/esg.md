@@ -316,7 +316,7 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 - 🇩🇴 DO — ENERSOL solar program for residential (subsidies; verify scope at mem.gob.do); hurricane code post-Maria.
 - 🇨🇴 CO — **Ley 2169/2021** carbon-neutrality 2050 + climate transition framework.
 - 🇺🇾 UY — National Climate Change Policy (2017); 100%-renewable electricity milestone (2017); CO2/EE cert pilot ongoing.
-- 🇨🇱 CL — **Código de Aguas reform 2022/2024** (water priority for human consumption); Ley Marco de Cambio Climático 21.455 (2022).
+- 🇨🇱 CL — **Código de Aguas reform 2022 (Ley 21.435)** (water priority for human consumption); Ley Marco de Cambio Climático 21.455 (2022).
 - 🇿🇦 ZA — Climate Change Act signed Jul 2024; Carbon Tax Act 2019 in force (large emitters).
 - 🇬🇪 GE — EU candidate alignment in progress; National Energy & Climate Plan draft; targets harmonisation 2030.
 - 🇮🇩 ID — RUEN (Rencana Umum Energi Nasional) energy plan; FOLU Net Sink 2030 forestry-focused commitment.

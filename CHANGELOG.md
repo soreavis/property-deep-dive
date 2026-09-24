@@ -55,6 +55,13 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+
+- **October regwatch wave, run a week early: 63 of 66 due entries re-checked against primary sources.** 40 corrected, 13 narrowed or downgraded where only secondary sources exist, 10 confirmed unchanged; GE-536, CO-497 and ID-554 stay due (sources walled or budget-limited). Stale sibling statements were patched across 36 country playbooks, SKILL.md, `config/_visa-programs.json` (re-rendered) and 20 shared files. Three refuter rounds ran before merge.
+- **Mauritius: the 10 % non-citizen registration duty and 10 % resale land transfer tax are repealed.** Finance Act 2026 (Act 14/2026, gazetted 13 Aug 2026) restores 5 %; a new 10 % seller-paid duty applies to residential property on State land / Pas Géométriques sold to non-citizens. The playbook, worked examples and exit files still presented the 10 % regime as live.
+- **Malaysia MM2H deposits are USD 150k / 500k / 1M, not MYR 1–5M,** with a compulsory home purchase (≥ RM 600k / 1M / 2M, 10-year resale bar) and a fourth SEZ/SFZ category, per MOTAC. **Gibraltar Category 2** now needs £5M net wealth and a £5,000 fee for new applicants (HMGoG PR 469/2026); the Residency Regulations 2026 have been in operation since 14 Jul 2026. **Uzbekistan's Golden Visa** (Decree УП-67) has no property condition — the corpus carried a real-estate version under a wrong decree number.
+- **Rates and dates moved:** BoJ 1.25 % effective 24 Sep 2026; TCMB 37 % since 23 Jan 2026; UK SDLT additional-dwellings surcharge 5 % from 31 Oct 2024 (not 1 Apr 2025); Thailand's 0.01 % transfer and mortgage fee renewed to 30 Jun 2027 (THB 7M cap); Flanders main-residence rate 2 % from 1 Jan 2025; NZ bright-line also reaches overseas property of NZ residents; Greek L.5313/2026 deletes a short-let registration on transfer in the Athens / Thessaloniki zones.
+
 ## [2026.09.1] - 2026-09-24
 
 ### Fixed

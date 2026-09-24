@@ -120,7 +120,7 @@ Source: https://taxsummaries.pwc.com/lithuania/individual/income-determination
 
 ### STR / Airbnb
 
-**Vilnius city tax**: **€2 per person per night** for stays under one month, since Feb 2024 — **first Baltic city** with auto-collection deal between Airbnb and the city. Auto-deducted by Airbnb.
+**Vilnius city tax**: **€2 per person per night** from 1 Jan 2024 (was €1 since 1 Jul 2018); stays of 30+ days exempt (2026 data, source Go Vilnius). Airbnb collects and remits it automatically — Vilnius was the first Baltic city with an Airbnb auto-collection deal, from 1 Feb 2020 (per BNS via Delfi, 15 Jan 2020 — secondary).
 - https://www.govilnius.lt/plan-your-trip/city-tax
 - https://www.airbnb.com/help/article/2702
 
@@ -298,7 +298,7 @@ Universal — see `shared/climate-projections.md`.
 
 ## Status
 
-**Confidence**: HIGH on transfer-tax (none), Vilnius price index (Ober-Haus Dec 2025 verified), 2026 NTM brackets (Seimas June 2025, KPMG-verified), STR Vilnius city tax (Feb 2024 launch confirmed). MEDIUM on per-municipality 2026 NTM rates (some not yet published), STR national registration number (EU 2024/1028 pending May 2026 implementation). LOW on per-locality rental yield benchmarks (no STATEC-grade source).
+**Confidence**: HIGH on transfer-tax (none), Vilnius price index (Ober-Haus Dec 2025 verified), 2026 NTM brackets (Seimas June 2025, KPMG-verified), STR Vilnius city tax (€2 from 1 Jan 2024, Go Vilnius; re-verified 2026-09-24). MEDIUM on per-municipality 2026 NTM rates (some not yet published), STR national registration number (EU 2024/1028 pending May 2026 implementation). LOW on per-locality rental yield benchmarks (no STATEC-grade source). Tax tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)

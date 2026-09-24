@@ -123,9 +123,9 @@ Figures are estimates — confirm the current year's rates demand against each c
 | Bright-line period | When applicable |
 |---|---|
 | **2 years** | From 1 Jul 2024 (current; was 5/10) |
-| 5 years | 27 Mar 2018 – 28 Mar 2021 |
-| 10 years | 27 Mar 2021 – 30 Jun 2024 |
-| 2 years | Pre-27 Mar 2018 |
+| 5 years | Acquired 29 Mar 2018 – 26 Mar 2021, sold before 1 Jul 2024 (2024 data, source IRD) |
+| 10 years (5 for qualifying new builds) | Acquired on/after 27 Mar 2021, sold before 1 Jul 2024 (2024 data, source IRD) |
+| 2 years | Earlier regime for acquisitions before 29 Mar 2018 — start date not verified; verify at https://www.ird.govt.nz/property/buying-and-selling/when-you-need-to-pay/the-brightline-test/property-sold-before-1-july-2024 |
 
 - "Bright-line start date" varies (settlement, contract date)
 - Main home exemption applies but tightened
@@ -429,7 +429,7 @@ Figures are estimates — confirm the current year's rates demand against each c
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing (REINZ HPI + QV + Trade Me), traffic, tax (rates + bright-line + GST + zero stamp duty), rental (RTA + Healthy Homes), work, risks (NSHM 2022 + Cyclone Gabrielle 2023 + leaky homes), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for REINZ + QV March 2026 medians + bright-line 2-yr from 1 Jul 2024 + interest deductibility 100% from 1 Apr 2025 + foreign-buyer ban (AU+SG exempt) + NHCover $300k+GST cap + STR GST collection from 1 Apr 2024; MEDIUM for council rate forecasts (frozen in some councils 2024-2025).
-**Last verified**: 2026-08-07 (Auckland APTR suspension since 2020 + graduated general-rates/CATTR STR business uplift re-verified against Auckland Council; other sections unchanged)
+**Last verified**: 2026-08-07 (Auckland APTR suspension since 2020 + graduated general-rates/CATTR STR business uplift re-verified against Auckland Council; other sections unchanged). Tax tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 
 ## Extension TODOs
 

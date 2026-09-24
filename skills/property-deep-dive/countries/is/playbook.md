@@ -157,8 +157,8 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Short-let (Airbnb / Heimagisting)
 
-**Heimagisting (home accommodation registration) required nationally** under **Lög um veitingastaði, gististaði og skemmtanahald nr. 85/2007** (Heimagisting amendment effective 1 Jan 2017) (2026-05-27 verified, source government.is + island.is):
-- **National cap (NOT Reykjavík-specific)**: max **90 nights/year** AND **ISK 2,000,000 gross income/year** — whichever triggers first requires commercial licence
+**Heimagisting (home accommodation registration) required nationally** under **Lög um veitingastaði, gististaði og skemmtanahald nr. 85/2007** (Heimagisting amendment effective 1 Jan 2017; scope narrowed by L. 25/2026, in force 9 Apr 2026) (2026-05-27 verified, source government.is + island.is):
+- **National cap (NOT Reykjavík-specific)**: max **90 nights/year** AND **ISK 2,000,000 gross income/year** — whichever triggers first requires commercial licence (rekstrarleyfi) — which inside þéttbýli (urban areas) must be in approved commercial premises (rule inserted by L. 43/2024, in force 23 May 2024; scope re-worded to licensed accommodation by L. 25/2026; rekstrarleyfi for urban residential housing valid on 1 Apr 2026 run to 1 Jan 2032 per L. 25/2026 brbákv. III) · **Scope narrowed by L. 25/2026 (in force 9 Apr 2026)**: heimagisting only at the owner's lögheimili (legal domicile) OR one other owned property OUTSIDE urban areas — a second urban flat can no longer be let under heimagisting; L. 82/2026 amends Act 85/2007 again from 1 Jan 2027 (content not verified) (2026 data, source Alþingi lagasafn 85/2007 útg. 157c + island.is/heimagisting)
 - Beyond cap: requires **rekstrarleyfi** (operator licence) + accommodation services VSK
 - Registration via **Sýslumaður** (district commissioner); annual renewal
 - Fines up to **ISK 1,000,000** enforced by Sýslumaður
@@ -418,7 +418,7 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-04-25. Rental tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks (incl. live volcanic eruption series), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for HMS + Þjóðskrá + RSK (gold-standard sources); HIGH for NTÍ mandatory insurance; HIGH for Reykjanes 2023-2025 eruption series (Wikipedia, Iceland gov, Al Jazeera, CBS, ABC, Reykjanes tourism office all confirm 9 eruptions, Grindavík evacuation, "New Reykjanes Fires" framing). MEDIUM for currency-related advisories (ISK volatile).
 
