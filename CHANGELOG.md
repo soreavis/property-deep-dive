@@ -73,6 +73,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(regwatch): October revisit wave — 63 of 66 due entries re-checked, three refuter rounds ([#415](https://github.com/soreavis/property-deep-dive/pull/415)) — by @soreavis
 
+- chore(regwatch): November revisit wave run early — 131 of 133 entries + 3 October leftovers re-checked ([#416](https://github.com/soreavis/property-deep-dive/pull/416)) — by @soreavis
+
 ## [2026.09.1] - 2026-09-24
 
 ### Fixed
