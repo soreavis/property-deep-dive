@@ -57,7 +57,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Fixed
 
-- **San Marino's EU Association Agreement was never "signed 2024".** The Council of the EU approved the text on 16 Jul 2026 and the signature ceremony is scheduled for 19 Oct 2026 in Brussels (Govern d'Andorra AA portal, news item 16 Sep 2026); esteri.sm lists a Consiglio Grande e Generale decision of 14 Jul 2025 to continue "the process leading to the signing and ratification". Four SM playbook lines said "signed 2024" and a fifth projected single-market entry in 2026; that bullet also dated the mixed-agreement finding to Dec 2025, where the Andorran portal records Coreper confirming it on 15 Jul 2026. Two AD lines still described the agreement as in negotiation (2015–2024+) / not-yet-ratified. The regulatory-watch AD entry is re-verified and a matching SM entry added so the 19 Oct transposition alerts cover both (#409).
+- **San Marino's EU Association Agreement was never "signed 2024".** The Council of the EU approved the text on 16 Jul 2026 and the signature ceremony is 19 Oct 2026 in Brussels (Govern d'Andorra AA portal). Four SM lines said otherwise; two AD lines still read "in negotiation". Both regulatory-watch entries now cover the 19 Oct alerts (#409).
 
 - **Visa-programs render check went red after #406.** The CN R Visa row was corrected inside the generated block of `visa-programs.md` instead of in `config/_visa-programs.json`, so the render check saw drift. The SAFEA → MOST wording now lives in the config record and the file is re-rendered from it.
 
