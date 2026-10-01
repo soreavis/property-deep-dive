@@ -77,6 +77,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - feat(gr): track the announced 15 % transfer tax for non-EU home buyers (90th TIF, not legislated) ([#417](https://github.com/soreavis/property-deep-dive/pull/417)) — by @soreavis
 
+- chore(deps): bump the actions-minor-patch group with 4 updates ([#422](https://github.com/soreavis/property-deep-dive/pull/422)) — by @dependabot[bot]
+
 ## [2026.09.1] - 2026-09-24
 
 ### Fixed
