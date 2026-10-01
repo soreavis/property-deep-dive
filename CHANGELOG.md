@@ -69,6 +69,16 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - **Malaysia MM2H deposits are USD 150k / 500k / 1M, not MYR 1–5M,** with a compulsory home purchase (≥ RM 600k / 1M / 2M, 10-year resale bar) and a fourth SEZ/SFZ category, per MOTAC. **Gibraltar Category 2** now needs £5M net wealth and a £5,000 fee for new applicants (HMGoG PR 469/2026); the Residency Regulations 2026 have been in operation since 14 Jul 2026. **Uzbekistan's Golden Visa** (Decree УП-67) has no property condition — the corpus carried a real-estate version under a wrong decree number.
 - **Rates and dates moved:** BoJ 1.25 % effective 24 Sep 2026; TCMB 37 % since 23 Jan 2026; UK SDLT additional-dwellings surcharge 5 % from 31 Oct 2024 (not 1 Apr 2025); Thailand's 0.01 % transfer and mortgage fee renewed to 30 Jun 2027 (THB 7M cap); Flanders main-residence rate 2 % from 1 Jan 2025; NZ bright-line also reaches overseas property of NZ residents; Greek L.5313/2026 deletes a short-let registration on transfer in the Athens / Thessaloniki zones.
 
+### Changed
+
+- chore(regwatch): October revisit wave — 63 of 66 due entries re-checked, three refuter rounds ([#415](https://github.com/soreavis/property-deep-dive/pull/415)) — by @soreavis
+
+- chore(regwatch): November revisit wave run early — 131 of 133 entries + 3 October leftovers re-checked ([#416](https://github.com/soreavis/property-deep-dive/pull/416)) — by @soreavis
+
+- feat(gr): track the announced 15 % transfer tax for non-EU home buyers (90th TIF, not legislated) ([#417](https://github.com/soreavis/property-deep-dive/pull/417)) — by @soreavis
+
+- chore(deps): bump the actions-minor-patch group with 4 updates ([#422](https://github.com/soreavis/property-deep-dive/pull/422)) — by @dependabot[bot]
+
 ## [2026.09.1] - 2026-09-24
 
 ### Fixed
