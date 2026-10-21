@@ -587,8 +587,8 @@ def pdf_to_text(raw: bytes, max_pages: int = 0) -> tuple[str, str]:
             text = proc.stdout.decode("utf-8", errors="replace")
             if text.strip():
                 return text, "pdftotext"
-        except Exception:
-            pass
+        except (OSError, subprocess.SubprocessError) as e:
+            sys.stderr.write(f"[source-verify] pdftotext failed ({type(e).__name__})\n")
     if _HAS_PYPDF:
         try:
             reader = pypdf.PdfReader(io.BytesIO(raw))
@@ -596,8 +596,8 @@ def pdf_to_text(raw: bytes, max_pages: int = 0) -> tuple[str, str]:
             text = "\n".join((p.extract_text() or "") for p in pages)
             if text.strip():
                 return text, "pypdf"
-        except Exception:
-            pass
+        except Exception as e:  # malformed PDFs raise arbitrary types, not just pypdf.errors
+            sys.stderr.write(f"[source-verify] pypdf failed ({type(e).__name__})\n")
     return "", ""
 
 
