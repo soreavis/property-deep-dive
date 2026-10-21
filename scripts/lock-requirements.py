@@ -74,7 +74,7 @@ def header_of(path: Path) -> str:
 
 
 def pins_of(text: str) -> list[str]:
-    return [l for l in text.splitlines() if l and not l.startswith((' ', '#'))]
+    return [line for line in text.splitlines() if line and not line.startswith((' ', '#'))]
 
 
 def name_of(spec: str) -> str:
