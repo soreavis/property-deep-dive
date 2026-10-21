@@ -26,19 +26,29 @@ answers "does this lock match requirements.in", never "has anything newer shippe
 — otherwise an upstream release inside an existing range (`pypdf>=6.14.2,<7`)
 would turn main red with no commit behind it. Use --upgrade to take the bumps.
 
+For one package that cannot wait for Dependabot (a security fix), --upgrade-package
+(-P) lifts only the named pins and keeps the rest; whatever the new version
+requires moves along with it. It is repeatable, takes NAME or NAME==VERSION, and is
+refused with --upgrade (which already lifts every pin) or --check (which compares
+against the pins as committed), and for a name not in requirements.txt — uv would
+ignore it silently and the run would look like a successful bump.
+
 Usage:
-    ./scripts/lock-requirements.py             # regenerate in place, keeping pins
-    ./scripts/lock-requirements.py --upgrade   # ...and take newer allowed versions
-    ./scripts/lock-requirements.py --check     # fail if the lock is stale (CI-safe)
+    ./scripts/lock-requirements.py                     # regenerate in place, keeping pins
+    ./scripts/lock-requirements.py --upgrade           # ...and take newer allowed versions
+    ./scripts/lock-requirements.py -P aiohttp==3.14.4  # ...or bump only the named package(s)
+    ./scripts/lock-requirements.py --check             # fail if the lock is stale (CI-safe)
 """
 
 from __future__ import annotations
 
 import argparse
+import re
 import shutil
 import subprocess
 import sys
 import tempfile
+from collections.abc import Sequence
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -63,7 +73,16 @@ def header_of(path: Path) -> str:
     return '\n'.join(kept).rstrip('\n')
 
 
-def compile_body(upgrade: bool = False) -> str:
+def pins_of(text: str) -> list[str]:
+    return [l for l in text.splitlines() if l and not l.startswith((' ', '#'))]
+
+
+def name_of(spec: str) -> str:
+    """Normalized (PEP 503) name of `typing_extensions==4.16.0 \\` or `yarl>=1.25`."""
+    return re.sub(r'[-_.]+', '-', re.match(r'[\w.-]*', spec)[0]).lower()
+
+
+def compile_body(upgrade: bool = False, packages: Sequence[str] = ()) -> str:
     if not shutil.which('uv'):
         sys.exit("ERROR: `uv` not found. Install it (https://docs.astral.sh/uv/) "
                  "or regenerate with `pip-compile --generate-hashes`.")
@@ -75,7 +94,8 @@ def compile_body(upgrade: bool = False) -> str:
         # makes --check fail on a tree nobody touched — main goes red repo-wide and
         # every PR blocks. Seeding makes the pins the preference set, so this only
         # reports stale when requirements.in actually changed. `--upgrade` is the
-        # documented way to opt into bumps.
+        # documented way to opt into bumps; `--upgrade-package` keeps the seed and
+        # lifts only the named pins.
         if LOCK.exists() and not upgrade:
             out.write_text(LOCK.read_text(encoding='utf-8'), encoding='utf-8')
         cmd = ['uv', 'pip', 'compile', str(SRC), '--generate-hashes', '--no-header',
@@ -83,23 +103,40 @@ def compile_body(upgrade: bool = False) -> str:
                '-o', str(out)]
         if upgrade:
             cmd.append('--upgrade')
-        subprocess.run(cmd, check=True, capture_output=True, text=True)
+        for spec in packages:
+            cmd += ['--upgrade-package', spec]
+        try:
+            subprocess.run(cmd, check=True, capture_output=True, text=True)
+        except subprocess.CalledProcessError as e:
+            sys.exit(f'ERROR: uv pip compile failed:\n{e.stderr}')
         return out.read_text(encoding='utf-8').strip('\n')
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--check', action='store_true',
                     help='exit 1 if requirements.txt is not what requirements.in produces')
     ap.add_argument('--upgrade', action='store_true',
                     help='also pull newer versions allowed by requirements.in '
                          '(otherwise existing pins are preserved)')
-    args = ap.parse_args()
+    ap.add_argument('-P', '--upgrade-package', action='append', default=[], metavar='SPEC',
+                    help='bump only this package, NAME or NAME==VERSION (repeatable); '
+                         'every other pin is kept. Not with --upgrade or --check')
+    args = ap.parse_args(argv)
+
+    if args.upgrade_package:
+        if args.upgrade or args.check:
+            ap.error('--upgrade-package cannot be combined with --upgrade or --check')
+        current = LOCK.read_text(encoding='utf-8') if LOCK.exists() else ''
+        locked = {name_of(p) for p in pins_of(current)}
+        unknown = [s for s in args.upgrade_package if name_of(s) not in locked]
+        if unknown:
+            ap.error(f'not pinned in {LOCK.name}, uv would ignore it: {", ".join(unknown)}')
 
     if not SRC.exists():
         sys.exit(f'ERROR: {SRC} not found')
 
-    rendered = header_of(LOCK) + '\n\n' + compile_body(args.upgrade) + '\n'
+    rendered = header_of(LOCK) + '\n\n' + compile_body(args.upgrade, args.upgrade_package) + '\n'
 
     if args.check:
         if LOCK.exists() and LOCK.read_text(encoding='utf-8') == rendered:
@@ -110,8 +147,7 @@ def main() -> int:
         return 1
 
     LOCK.write_text(rendered, encoding='utf-8')
-    pins = [l for l in rendered.splitlines() if l and not l.startswith((' ', '#'))]
-    print(f'✓ regenerated {LOCK.name} — {len(pins)} pinned package(s), '
+    print(f'✓ regenerated {LOCK.name} — {len(pins_of(rendered))} pinned package(s), '
           f'header preserved ({len(header_of(LOCK).splitlines())} lines)')
     return 0
 
