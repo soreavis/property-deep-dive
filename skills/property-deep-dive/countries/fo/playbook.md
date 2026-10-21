@@ -9,7 +9,7 @@ ISO2: `fo`. Status: ✅ Standalone playbook (Denmark autonomous territory under 
 - Geocode: [`https://kortal.fo/`](https://kortal.fo/) (Faroese national geo-portal) — address search + cadastre overlay
 - Currency: DKK (Danish Krone); Faroese Króna (FOK) banknotes = DKK 1:1, no FX risk for DKK-area buyers
 - Language: Faroese (official); Danish (universal); English widely spoken in Tórshavn but Faroese dominates legal docs
-- Cadastre: [matrikkulin.fo](https://www.us.fo/matrikul/) — Faroese cadastre under Umhvørvisstovan (Environment Agency)
+- Cadastre: [us.fo/matrikul](https://www.us.fo/matrikul/) — Faroese cadastre under Umhvørvisstovan (Environment Agency)
 - Land registry: Tinglýsingin under the Sorinskrivarin (Office of the Court Clerk / Bailiff); head of government is the **Løgmaður** (Prime Minister)
 - Time zone: WET / WEST (Western European, UTC+0 / UTC+1 DST)
 
@@ -228,7 +228,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 
 **Job boards**:
 
-- [job.fo](https://www.als.fo/storv/) — main Faroese job board
+- [als.fo/storv](https://www.als.fo/storv/) — main Faroese job board (job.fo and starv.fo redirect here)
 - [ALS — Arbeiðsloysisskipanin](https://www.als.fo/storv/) — statutory unemployment-insurance body; runs the public job-placement service (*arbeiðsávísingin*) and the job board at [starv.fo](https://starv.fo/). Successor to Arbeiðsstovan (2026 data, source als.fo; 2026-09-18 verified)
 - LinkedIn (Faroe Islands filter)
 - [setur.fo](https://www.setur.fo/) — University of the Faroe Islands (academic jobs)
@@ -237,7 +237,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 
 - Faroe is NOT in EU — EU/EEA free movement does NOT apply automatically
 - Nordic Passport Union: Nordic citizens (DK / IS / NO / SE / FI) can live + work without permit
-- Non-Nordic citizens: residence + work permit via Útlendingastovan (Faroese Immigration) — verify at [us.fo](https://www.us.fo/) and [government.fo](https://www.utlendingastovan.fo/en/home)
+- Non-Nordic citizens: residence + work permit via Útlendingastovan (Faroese Immigration) — verify at [utlendingastovan.fo](https://www.utlendingastovan.fo/en/home)
 - Bakkafrost + major employers commonly sponsor permits
 
 **Salary benchmarks** (data not publicly aggregated in EN):
@@ -412,7 +412,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 
 ## Section: `--finance` (mortgage / banking)
 
-**Regulator**: **Finansieringseftirlitið** (Financial Supervisory Authority of the Faroe Islands) — [finansieringseftirlitid.fo](https://www.tryggingareftirlitid.fo/fo/english/about-us)
+**Regulator**: **Tryggingareftirlitið** (Faroese Insurance Authority — supervises insurance companies, pension funds, insurance intermediaries and one mortgage-credit institution) — [tryggingareftirlitid.fo](https://www.tryggingareftirlitid.fo/fo/english/about-us); banks and all other financial supervision sit with the Danish FSA, Finanstilsynet ([finanstilsynet.dk — Færøerne](https://www.finanstilsynet.dk/lovgivning/nordatlantisk-lovsamling/faeroeerne)) (2026 data, source tryggingareftirlitid.fo + finanstilsynet.dk; 2026-10-21 verified)
 
 **Banks active in Faroe mortgage market**:
 
@@ -498,17 +498,17 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 | Topic | URL | Authority |
 |---|---|---|
 | Tax (TAKS) | [taks.fo/en](https://www.taks.fo/en/individuals/tax/taxation-in-the-faroe-islands) | Faroese Tax Authority |
-| Cadastre | [matrikkulin.fo](https://www.us.fo/matrikul/) | Umhvørvisstovan |
+| Cadastre | [us.fo/matrikul](https://www.us.fo/matrikul/) | Umhvørvisstovan |
 | Land title | [tinglysing.fo](https://www.tinglysing.fo/) | Sorinskrivarin |
 | Statistics | [hagstova.fo/en](https://hagstova.fo/en) | Statistics Faroe Islands |
 | Government portal | [government.fo/en](https://www.government.fo/en/) | Faroese Government |
-| Financial regulator | [finansieringseftirlitid.fo](https://www.tryggingareftirlitid.fo/fo/english/about-us) | FSA Faroe Islands |
+| Financial regulator | [tryggingareftirlitid.fo](https://www.tryggingareftirlitid.fo/fo/english/about-us) | Tryggingareftirlitið (insurance, pensions, one mortgage-credit institution); banks: Danish FSA (Finanstilsynet) |
 | Met Office | [vedur.fo](https://www.vedur.fo/) | Veðurstovan |
 | Geology / earth sciences | [jardfeingi.fo](https://www.jardfeingi.fo/) | Jarðfeingi |
 | Environment / cadastre admin | [us.fo](https://www.us.fo/) | Umhvørvisstovan |
 | Roads + tunnels | [landsverk.fo](https://www.landsverk.fo/) | Landsverk |
 | Electricity utility | [sev.fo](https://www.sev.fo/) | SEV |
-| Immigration | [us.fo](https://www.us.fo/) (and [government.fo/en/foreign-relations](https://www.utlendingastovan.fo/en/home)) | Útlendingastovan / Government |
+| Immigration | [utlendingastovan.fo](https://www.utlendingastovan.fo/en/home) (and [government.fo/en/foreign-relations](https://www.government.fo/en/foreign-relations)) | Útlendingastovan / Government |
 | Legal database | [logir.fo](https://logir.fo/) | Government legal portal |
 | Listings (main) | [bugv.fo](https://bugv.fo/en) | private |
 | Tourism board | [visitfaroeislands.com](https://www.visitfaroeislands.com/) | Visit Faroe Islands |
@@ -569,7 +569,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 - **MEDIUM** for: municipal tax (kommunalskattur) range (EURAXESS / Norden 16–23% vs Global Expansion 2019 16–22% — same-tier aggregator disagreement, specific kommuna ceiling not verified); national progressive band floor (EURAXESS 13→30% vs Global Expansion 2019 15→30% — same-tier disagreement).
 - **LOW** for: capital gains on property holding-period rules (no English primary source); tinglýsingargjald specific rate (English source unavailable; DK reference rate 1.25% from 1 Jan 2026 likely NOT applicable as Faroe legislates independently); property tax / kommunal property charge specific rate (only secondary aggregator estimate 0.2–0.5% — verify with kommuna).
 
-**Last verified**: 2026-05-27 (employment-service body and telecom operator list corrected 2026-09-18 per als.fo + ft.fo + nema.fo). Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27 (employment-service body and telecom operator list corrected 2026-09-18 per als.fo + ft.fo + nema.fo; financial regulator (Tryggingareftirlitið; banks under the Danish FSA) and immigration-office link corrected 2026-10-21 per tryggingareftirlitid.fo + finanstilsynet.dk + utlendingastovan.fo). Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 ### Regulatory-watch follow-up (on PR merge)
 
