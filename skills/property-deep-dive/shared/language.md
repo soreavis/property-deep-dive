@@ -225,7 +225,7 @@ These five mitigations work across all 126 countries and prevent the most common
 
 2. **Use the destination country's consulate POA when available** — civil-law consulates abroad can draft the property POA in the local language directly, bypassing both apostille and sworn-translation steps. Confirmed: FR, IT, ES, PT, DE, AT, NL, BE, LU, GR, CY, PL, CZ, MX, BR, AR, CO, CL, PE, TR, IL.
 
-3. **Engage an independent sworn translator NOT recommended by the seller / agent / developer** — same conflict-of-interest principle as the buyer's lawyer. Use the country's official sworn-translator register (justiz-dolmetscher.de, exteriores.gob.es, justizdolmetscher.at, bureauwbtv.nl, justice.belgium.be, kstcr.cz, peritostraductoresautorizados.com.mx, ahu.go.id, etc.).
+3. **Engage an independent sworn translator NOT recommended by the seller / agent / developer** — same conflict-of-interest principle as the buyer's lawyer. Use the country's official sworn-translator register (justiz-dolmetscher.de, exteriores.gob.es, justizonline.gv.at, bureauwbtv.nl, justice.belgium.be, kstcr.cz, peritostraductoresautorizados.com.mx, ahu.go.id, etc.).
 
 4. **For bilingual deeds, read the local-language version (or have it read by your independent translator)** — confirmed in IT, DE, ID, MX, HU: the local-language text controls regardless of what the English-friendly side says. Buyer's English version is courtesy, not legally controlling.
 

@@ -56,7 +56,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 
 **Compute**:
 
-- Price/m² = listing ask / surface m² (cadastral surface from matrikkulin.fo, NOT listing surface for primary calc)
+- Price/m² = listing ask / surface m² (cadastral surface from us.fo/matrikul, NOT listing surface for primary calc)
 - Tórshavn central price/m² inferred range: ~DKK 25,000–40,000/m² for ~100–150 m² typical detached; sparse public data — use listing comp set of 5+ recent sales for any specific district (Argir, Hoyvík, Hvítanes etc.)
 - Walk-away price = listing × (1 − reasonable_discount). Faroese market is thin (200–400 transactions/yr nationally) — discount room highly seller-dependent; 3–8% typical from ask, less in Tórshavn central
 
@@ -475,7 +475,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 - **No dedicated digital-nomad visa**: Faroe Islands have no DNV programme
 - **Nordic citizens**: can move + work via Nordic Passport Union with no visa
 - **Non-Nordic EU/EEA**: require residence permit (no free-movement override — Faroe excluded from EU)
-- **Long-stay**: Skammtíðarvistarlondi (short-term residence) up to 90 days visa-free for Schengen-eligible passports; longer requires permit via Útlendingastovan ([us.fo](https://www.us.fo/))
+- **Long-stay**: Skammtíðarvistarlondi (short-term residence) up to 90 days visa-free for Schengen-eligible passports; longer requires permit via Útlendingastovan ([utlendingastovan.fo](https://www.utlendingastovan.fo/en/home))
 - **Connectivity**: fibre near-universal Tórshavn / Klaksvík; remote-work-friendly bandwidth
 - **Cost of living**: high — Tórshavn rents ~DKK 8,000–15,000/mo for 2-bed; groceries +20–30% vs DK mainland (Hagstova / Numbeo cross-check)
 
@@ -487,7 +487,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 - **No EU rules**: Faroe is outside EU customs union — imports from DK mainland subject to MVG + duty in some cases; impacts construction-material pricing
 - **Sheep**: ~70,000 sheep on the islands (more than people); right-of-way disputes around grazing/parcel boundaries are real
 - **Land below 700 m elevation**: most habitable parcels; above is grazing or uninhabitable
-- **Common land (almenningur)**: many parcels border or include shares of common grazing land — historical Faroese tenure pattern; verify at matrikkulin.fo
+- **Common land (almenningur)**: many parcels border or include shares of common grazing land — historical Faroese tenure pattern; verify at us.fo/matrikul
 - **Sunday closures**: most retail closed Sundays; legal/professional services Mon–Fri only
 - **Faroese-only documents**: prepare for full translation cost; budget DKK 5,000–15,000 for full transaction document package
 
@@ -508,7 +508,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 | Environment / cadastre admin | [us.fo](https://www.us.fo/) | Umhvørvisstovan |
 | Roads + tunnels | [landsverk.fo](https://www.landsverk.fo/) | Landsverk |
 | Electricity utility | [sev.fo](https://www.sev.fo/) | SEV |
-| Immigration | [utlendingastovan.fo](https://www.utlendingastovan.fo/en/home) (and [government.fo/en/foreign-relations](https://www.government.fo/en/foreign-relations)) | Útlendingastovan / Government |
+| Immigration | [utlendingastovan.fo](https://www.utlendingastovan.fo/en/home) | Útlendingastovan |
 | Legal database | [logir.fo](https://logir.fo/) | Government legal portal |
 | Listings (main) | [bugv.fo](https://bugv.fo/en) | private |
 | Tourism board | [visitfaroeislands.com](https://www.visitfaroeislands.com/) | Visit Faroe Islands |
@@ -569,7 +569,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 - **MEDIUM** for: municipal tax (kommunalskattur) range (EURAXESS / Norden 16–23% vs Global Expansion 2019 16–22% — same-tier aggregator disagreement, specific kommuna ceiling not verified); national progressive band floor (EURAXESS 13→30% vs Global Expansion 2019 15→30% — same-tier disagreement).
 - **LOW** for: capital gains on property holding-period rules (no English primary source); tinglýsingargjald specific rate (English source unavailable; DK reference rate 1.25% from 1 Jan 2026 likely NOT applicable as Faroe legislates independently); property tax / kommunal property charge specific rate (only secondary aggregator estimate 0.2–0.5% — verify with kommuna).
 
-**Last verified**: 2026-05-27 (employment-service body and telecom operator list corrected 2026-09-18 per als.fo + ft.fo + nema.fo; financial regulator (Tryggingareftirlitið; banks under the Danish FSA) and immigration-office link corrected 2026-10-21 per tryggingareftirlitid.fo + finanstilsynet.dk + utlendingastovan.fo). Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27 (employment-service body and telecom operator list corrected 2026-09-18 per als.fo + ft.fo + nema.fo; financial regulator (Tryggingareftirlitið; banks under the Danish FSA), immigration-office links and cadastre host (us.fo/matrikul) corrected 2026-10-21 per tryggingareftirlitid.fo + finanstilsynet.dk + utlendingastovan.fo + us.fo). Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
 
 ### Regulatory-watch follow-up (on PR merge)
 
@@ -601,7 +601,7 @@ This report aggregates publicly accessible data and clearly-labelled estimates. 
 3. **Risk disclosures** — pull parcel-level geological/landslide data from Jarðfeingi; confirm wind / flood / storm-surge profile with Veðurstovan and the kommuna
 4. **Mains connections** — telephone the kommuna for parcel-level water + sewer status; confirm electricity capacity with SEV
 5. **Building condition** — commission an independent surveyor for any pre-2000 build; wind-code compliance is parcel-critical in Faroe
-6. **Listing claims** — anything from the seller's listing (surface, year, energy rating, condition) must be re-verified with matrikkulin.fo cadastre and a physical visit
+6. **Listing claims** — anything from the seller's listing (surface, year, energy rating, condition) must be re-verified with the us.fo/matrikul cadastre and a physical visit
 7. **Mortgage availability** — confirm with bank IN ADVANCE; foreign-buyer mortgage products are bank-by-bank policy
 
 **This report is decision-support, not legal/tax advice.** AI-assisted aggregations contain risk of error. Critical figures must be confirmed with primary sources or qualified professionals.

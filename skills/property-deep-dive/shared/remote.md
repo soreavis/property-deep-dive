@@ -472,7 +472,7 @@ Completion fails on the money leg as often as on the legal one. The deed can be 
 | 2 | **DE BeurkG §§ 16a-d** | online notarisation since 1 Aug 2022 (corporate cash + Aug 2023 in-kind) | Real-estate Auflassung NOT covered |
 | 3 | **FR Décret 2024-378** | 3 Mars 2024 (perennial remote authentic act) + Décret 2020-1422 of 20 Nov 2020 (remote POA) | In force; CCN-IDÉLIO/IDeA platform operational |
 | 4 | **IT D.Lgs. 110/2010 + DM 8 Feb 2023** | atto pubblico informatico operational via CNN platform | Real-estate rogito NOT permitted online |
-| 5 | **ES Ley 11/2023** | published BOE 9 May 2023; notarial provisions in force **9 Nov 2023** | sede.notariado.org operational; videoconferencia for limited acts; compraventa NOT in catalogue |
+| 5 | **ES Ley 11/2023** | published BOE 9 May 2023; notarial provisions in force **9 Nov 2023** | Portal Notarial del Ciudadano (portalnotarial.es, Consejo General del Notariado) operational; videoconferencia for limited acts; compraventa NOT in catalogue |
 | 6 | **PT DL 126/2021** | videoconference deed for property since April 2022 | In force |
 | 7 | **BE 8 April 2024** | Loi 6 juillet 2017 + 2023 Royal Decree → full digital + videoconference deed for property | In force |
 | 8 | **NL DOBV** | 1 Jan 2024 (corporate only); broader Wet digitale processen Notariaat draft | Property akte van levering NOT covered |
