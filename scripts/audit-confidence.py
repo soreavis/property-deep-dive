@@ -77,7 +77,7 @@ CONFIDENCE_LEVELS = ("LOW", "MEDIUM", "HIGH")  # ordered low → high
 # domains that don't fit these patterns (e.g., bom.mu) live in primary-source-allowlist.txt.
 PRIMARY_HOST_PATTERNS = [
     # Most countries use one of these gov-identifying SLDs
-    re.compile(r"(?:^|\.)gov(?:\.(?!com$|net$|org$|info$|biz$)[a-z]{2,4})?$", re.IGNORECASE),  # gov, gov.uk, gov.cn, gov.gh, bare gov.ky (rejects gov.com/net/org/info/biz)
+    re.compile(r"(?:^|\.)gov(?:\.(?!(?:com|net|org|info|biz)\b)[a-z]{2,4})?$", re.IGNORECASE),  # gov, gov.uk, gov.cn, gov.gh, bare gov.ky (rejects gov.com/net/org/info/biz)
     re.compile(r"\.gouv\.[a-z]{2,4}$", re.IGNORECASE),           # gouv.fr
     re.compile(r"\.gob\.[a-z]{2,4}$", re.IGNORECASE),            # gob.es, gob.mx, gob.ar
     re.compile(r"\.govt\.[a-z]{2,4}$", re.IGNORECASE),           # govt.nz

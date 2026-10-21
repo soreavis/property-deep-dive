@@ -652,7 +652,6 @@ async def run_check(
             fresh_checks += 1
             prev_streak = entry.get("fail_streak", 0) if entry else 0
             prev_cls = entry.get("cls", "") if entry else ""
-            new_streak = prev_streak
             if result.cls in (DEAD, TIMEOUT):
                 new_streak = prev_streak + 1 if prev_cls in (DEAD, TIMEOUT) else 1
             else:

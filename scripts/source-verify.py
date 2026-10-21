@@ -256,7 +256,7 @@ def extract_values(text: str) -> list[Value]:
     collect(ISO_DATE_RE, "date", True, _date_needles)
     collect(DMY_RE, "date", True, _date_needles)
     collect(MY_RE, "date", True, _date_needles)
-    collect(STATUTE_RE, "statute", True, lambda r: _num_needles(r))
+    collect(STATUTE_RE, "statute", True, _num_needles)
     collect(YEAR_RE, "year", False, _date_needles)
     return out
 
@@ -1018,9 +1018,9 @@ def render_audit_md(rep: dict, last_run: str = "") -> str:
         f"Run: {datetime.now(timezone.utc).isoformat()}  ·  previous run: {last_run or '(none)'}",
         f"Claims checked: {rep['total']}  ·  flagged: {rep['flagged']}",
         "",
-        "> **These are tripwires, not verdicts.** A `TOKENS_ABSENT` figure may sit on a deeper page or be"
-        " formatted differently; a changed page may be cosmetic. Triage before acting — run the LLM"
-        " verification (`shared/source-verifier.md`) on anything that needs a judgement. Nothing here was auto-edited.",
+        ("> **These are tripwires, not verdicts.** A `TOKENS_ABSENT` figure may sit on a deeper page or be"
+         " formatted differently; a changed page may be cosmetic. Triage before acting — run the LLM"
+         " verification (`shared/source-verifier.md`) on anything that needs a judgement. Nothing here was auto-edited."),
         "",
         "## Prior breakdown",
         "",
@@ -1046,11 +1046,11 @@ def render_audit_md(rep: dict, last_run: str = "") -> str:
         "",
         f"## PDF with no text layer ({len(rep['pdf_no_text'])})  ·  Source unavailable ({len(rep['source_unavailable'])})",
         "",
-        "Listed in the JSON artifact. PDF_NO_TEXT = scanned image (needs OCR / manual read);"
-        " SOURCE_UNAVAILABLE = blocked / timeout (often a Cloudflare challenge, cross-check `url-liveness`).",
+        ("Listed in the JSON artifact. PDF_NO_TEXT = scanned image (needs OCR / manual read);"
+         " SOURCE_UNAVAILABLE = blocked / timeout (often a Cloudflare challenge, cross-check `url-liveness`)."),
         "",
-        "Action: triage `stale_changed` first, then `TOKENS_ABSENT`. Run `/property-deep-dive --update --country=<iso2>`"
-        " or the LLM verifier for any country with a cluster of flags.",
+        ("Action: triage `stale_changed` first, then `TOKENS_ABSENT`. Run `/property-deep-dive --update --country=<iso2>`"
+         " or the LLM verifier for any country with a cluster of flags."),
     ]
     return "\n".join(L)
 

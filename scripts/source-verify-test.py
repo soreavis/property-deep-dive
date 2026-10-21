@@ -720,7 +720,6 @@ class TestSettleChange(unittest.TestCase):
         c1, stable = SV._settle_change("OK", "B", last, stable)  # flux
         last = "B"
         c2, stable = SV._settle_change("OK", "B", last, stable)  # settled → flagged
-        last = "B"
         self.assertFalse(c1)
         self.assertTrue(c2)
         self.assertEqual(stable, "B")
