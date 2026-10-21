@@ -571,12 +571,14 @@ def html_to_text(html: str) -> str:
     return text.strip()
 
 
-def pdf_to_text(raw: bytes, max_pages: int = 0) -> tuple[str, str]:
-    """Extract text from PDF bytes. Returns (text, method). method is 'pdftotext' / 'pypdf' /
-    '' (no extractor available or extraction failed). pdftotext -layout is tried first because
-    it keeps table columns (fee/rate schedules); pypdf is the pure-python fallback."""
+def pdf_to_text(raw: bytes, max_pages: int = 0, url: str = "") -> tuple[str, str]:
+    """Extract text from PDF bytes. Returns (text, method). method is 'pdftotext' / 'pypdf';
+    with no text it is the last extractor error (e.g. 'pypdf failed (PdfStreamError)'), or ''
+    when no extractor raised. pdftotext -layout is tried first because it keeps table columns
+    (fee/rate schedules); pypdf is the pure-python fallback. `url` only labels the stderr log."""
     if b"%PDF-" not in raw[:1024]:
         return "", ""   # not a PDF (e.g. an HTML interstitial at a .pdf URL) — don't feed the extractors
+    err = ""
     if _HAS_PDFTOTEXT:
         try:
             args = ["pdftotext", "-layout"]
@@ -588,7 +590,8 @@ def pdf_to_text(raw: bytes, max_pages: int = 0) -> tuple[str, str]:
             if text.strip():
                 return text, "pdftotext"
         except (OSError, subprocess.SubprocessError) as e:
-            sys.stderr.write(f"[source-verify] pdftotext failed ({type(e).__name__})\n")
+            err = f"pdftotext failed ({type(e).__name__})"
+            sys.stderr.write(f"[source-verify] {err}: {url}\n")
     if _HAS_PYPDF:
         try:
             reader = pypdf.PdfReader(io.BytesIO(raw))
@@ -597,8 +600,9 @@ def pdf_to_text(raw: bytes, max_pages: int = 0) -> tuple[str, str]:
             if text.strip():
                 return text, "pypdf"
         except Exception as e:  # malformed PDFs raise arbitrary types, not just pypdf.errors
-            sys.stderr.write(f"[source-verify] pypdf failed ({type(e).__name__})\n")
-    return "", ""
+            err = f"pypdf failed ({type(e).__name__})"
+            sys.stderr.write(f"[source-verify] {err}: {url}\n")
+    return "", err
 
 
 def _is_pdf(ctype: str, url: str) -> bool:
@@ -734,13 +738,13 @@ async def fetch_text(session, url, ul_cfg, sv: SVConfig, robots, throttles, rate
                         if not sv.pdf_enabled:
                             return FetchResult(url, "BINARY", http_status=status, content_type=ctype,
                                                note="pdf extraction disabled", fetched_at=now)
-                        text, method = pdf_to_text(raw, sv.pdf_max_pages)
+                        text, method = pdf_to_text(raw, sv.pdf_max_pages, url)
                         if not text:
                             have_extractor = _HAS_PDFTOTEXT or _HAS_PYPDF
                             return FetchResult(
                                 url, "PDF_NO_TEXT" if have_extractor else "BINARY",
                                 http_status=status, content_type=ctype,
-                                note="PDF has no extractable text layer (scanned image?)" if have_extractor
+                                note=(method or "PDF has no extractable text layer (scanned image?)") if have_extractor
                                      else "no PDF extractor available (install poppler-utils or pypdf)",
                                 fetched_at=now)
                         return FetchResult(
@@ -982,7 +986,7 @@ def audit_report(worklist: list[dict]) -> dict:
         if r["prior"] == "TOKENS_ABSENT":
             tokens_absent.append(row)
         if r["prior"] == "PDF_NO_TEXT":
-            pdf_no_text.append(row)
+            pdf_no_text.append(dict(row, note=r.get("fetch_note", "")))
         if r["prior"] == "SOURCE_UNAVAILABLE":
             unavailable.append(row)
         if r.get("content_changed"):
@@ -1046,7 +1050,8 @@ def render_audit_md(rep: dict, last_run: str = "") -> str:
         "",
         f"## PDF with no text layer ({len(rep['pdf_no_text'])})  ·  Source unavailable ({len(rep['source_unavailable'])})",
         "",
-        ("Listed in the JSON artifact. PDF_NO_TEXT = scanned image (needs OCR / manual read);"
+        ("Listed in the JSON artifact. PDF_NO_TEXT = scanned image (needs OCR / manual read) or an"
+         " extractor error named in its `note`;"
          " SOURCE_UNAVAILABLE = blocked / timeout (often a Cloudflare challenge, cross-check `url-liveness`)."),
         "",
         ("Action: triage `stale_changed` first, then `TOKENS_ABSENT`. Run `/property-deep-dive --update --country=<iso2>`"
