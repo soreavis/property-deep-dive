@@ -54,9 +54,14 @@ class LineTest(unittest.TestCase):
             "Art. 5.2",
             "robots.txt",
             "decree.pdf",
+            "form.doc",
+            "parcels.kml",
             "e.g",
         ):
             self.assertEqual(hosts(f"[{label}](https://other.example/)"), [], label)
+
+    def test_filename_label_matching_url_segment(self):
+        self.assertEqual(hosts("[Parcels.gpkg](https://gov.ky/dl/parcels.gpkg)"), [])
 
     def test_decorated_label(self):
         self.assertEqual(hosts("[`gov.ky`](https://bad.ky)"), [("gov.ky", "bad.ky")])
@@ -90,6 +95,21 @@ class TextTest(unittest.TestCase):
             [(n, lh) for n, _, lh, _ in CL.text_mismatches(text)],
             [(1, "a.ky"), (9, "g.ky")],
         )
+
+    def test_fence_open_close_rules(self):
+        def lines(text):
+            return [n for n, *_ in CL.text_mismatches(text)]
+
+        # A closing fence may carry only whitespace, so "```python" stays inside the block.
+        self.assertEqual(
+            lines(
+                "```\nx\n```python\n[a.ky](https://b.ky)\n``` \t\n[c.ky](https://d.ky)"
+            ),
+            [6],
+        )
+        # A backtick in a backtick fence's info string makes the line inline code, not a fence.
+        self.assertEqual(lines("```js``` text\n[a.ky](https://b.ky)"), [2])
+        self.assertEqual(lines("~~~ a`b\n[a.ky](https://b.ky)"), [])
 
 
 class BaselineTest(unittest.TestCase):

@@ -40,10 +40,13 @@ _cc = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_cc)
 MD_LINK_RE, HOSTLIKE_LABEL_RE = _cc.MD_LINK_RE, _cc.HOSTLIKE_LABEL_RE
 
-FENCE_RE = re.compile(r"^\s*(`{3,}|~{3,})")
+FENCE_RE = re.compile(r"^\s*(`{3,}|~{3,})(.*)")
 TICKS_RE = re.compile(r"`+")
 # `[robots.txt](...)` names a file, not a host; none of these is an IANA TLD (.md and .zip are).
-FILE_EXTS = set("aspx csv docx htm html json pdf php txt xlsx xml".split())
+FILE_EXTS = set(
+    "aspx csv doc docx dwg dxf geojson gif htm html jpeg jpg json kml kmz odt ods pdf php png ppt "
+    "pptx rtf shp svg txt xls xlsx xml".split()
+)
 
 
 def host(s: str) -> str:
@@ -95,7 +98,12 @@ def line_mismatches(line: str) -> list[tuple[str, str, str]]:
             continue
         pos = m.end()
         lh, uh = label_host(m["label"]), host(m["url"])
-        if lh and uh and not same_site(lh, uh):
+        if (
+            lh
+            and uh
+            and not same_site(lh, uh)
+            and lh != urlparse(m["url"]).path.rsplit("/", 1)[-1].lower()
+        ):
             out.append((m["label"], lh, uh))
     return out
 
@@ -103,14 +111,20 @@ def line_mismatches(line: str) -> list[tuple[str, str, str]]:
 def text_mismatches(text: str) -> list[tuple[int, str, str, str]]:
     out, fence = [], None
     for n, line in enumerate(text.splitlines(), 1):
-        if f := FENCE_RE.match(line):
-            if fence is None:
-                fence = f[1]
-            elif f[1][0] == fence[0] and len(f[1]) >= len(fence):
-                fence = None
-            continue
+        f = FENCE_RE.match(line)
         if fence is None:
-            out += [(n, *mm) for mm in line_mismatches(line)]
+            # CommonMark: a backtick fence's info string may not contain a backtick.
+            if f and (f[1][0] == "~" or "`" not in f[2]):
+                fence = f[1]
+            else:
+                out += [(n, *mm) for mm in line_mismatches(line)]
+        elif (
+            f
+            and f[1][0] == fence[0]
+            and len(f[1]) >= len(fence)
+            and not f[2].strip(" \t")
+        ):
+            fence = None
     return out
 
 
