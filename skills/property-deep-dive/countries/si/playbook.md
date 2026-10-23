@@ -154,22 +154,22 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Long-term residential
 
-- Standard income tax on rental: 25% flat with 10% cost allowance (akontacija dohodnine)
+- Standard income tax on rental: 25% flat with 10% cost allowance (akontacija dohodnine); the ZIURS cut to 15% applies only if ZIURS survives the 6 Dec 2026 referendum (see Short-let)
 - **Tenant protection moderate** (less strict than DE/AT)
 - Standard contract: 1-3 yrs typical
 
 ### Short-let (kratkoročno oddajanje)
 
-- **ZGos-1** (Zakon o gostinstvu) **adopted Oct 2025, in force 1 Jan 2026**. Day-count caps (60-day apartments in multi-unit buildings / 150-day single- or two-unit dwellings) were scheduled to apply **from 1 Jan 2027** plus 75% co-owner consent + adjacent-neighbour consent every 3 years.
-- **2026-05-11**: National Assembly passed a **moratorium (intervencijski zakon) suspending ZGos-1 implementation in 2026** — 2027 day-caps effectively waived pending revised legislation. Legal vacuum on the day-cap regime as of 2026-05-27. (Source: zgsd.si + pfp.law)
+- **ZGos-1** (Zakon o gostinstvu, Uradni list RS 77/25; adopted by the DZ 25 Sep 2025, published 7 Oct 2025, in force 22 Oct 2025, **applies since 1 Jan 2026** — PISRS ZAKO9019) **is in force**. Day cap: under the ministers' Sklep published 8 May 2026 (PISRS SKLE14364), short-term letting of each dwelling is capped at **60 days per calendar year in 2027 and 2028** in 14 high-risk municipalities — Ankaran, Bled, Bohinj, Bovec, Cerklje na Gorenjskem, Gorje, Izola, Koper, Kranjska Gora, Ljubljana, Piran, Preddvor, Radovljica, Žirovnica — unless the municipality set a 30–270-day limit by a general act adopted by 31 Oct 2026; municipalities not on the list may set a limit of at least 60 days ([gov.si, 8 May 2026](https://www.gov.si/novice/2026-05-08-objavljen-sklep-o-dolocitvi-obcin-z-visokim-tveganjem-negativnih-vplivom-kratkotrajnega-najema)). The enacted law has no 150-day single- or two-unit tier (superseded). Owner consent (secondary source — verify in ZGos-1 on PISRS): more than 75% of etažni lastniki plus all owners of adjacent units in multi-unit buildings, 100% in two-unit buildings, valid 3 years; consents already held stay valid until 31 Dec 2026 or 3 years from when they were obtained, whichever is later.
+- **ZIURS** (Zakon o interventnih ukrepih za razvoj Slovenije) — adopted by the DZ 11 May 2026, **NOT in force**: on 24 Jul 2026 the Constitutional Court annulled the DZ's 27 May ruling that a referendum was inadmissible; 42,694 signatures were filed (40,000 needed) and on 16 Oct 2026 the DZ called a subsequent legislative referendum (naknadni zakonodajni referendum) for **6 Dec 2026** (press: [mladipodjetnik.si](https://mladipodjetnik.si/novice-in-dogodki/novice/referendum-o-interventnem-zakonu), [Delo](https://www.delo.si/novice/slovenija/referendum-interventni-zakon-december-drzavni-zbor)). Only if ZIURS takes effect would it suspend ZGos-1 to 31 Dec 2026, drop the 2027 day cap, move the accommodation-register deadline to 30 Jun 2027, restore the old by-laws, extend neighbour consents and cut the tax on rental income from 25% to 15% (5% where the tenant is a young family) (press-tier). Until then ZGos-1 and the 2027 caps apply; the 31 Oct 2026 municipal deadline falls before the referendum.
 - **Ljubljana** strict (similar to Praha/Wien direction)
 - **Sobodajalec** (short-let provider) licensing per občina
-- **EU 2024/1028 transposition**: full application 20 May 2026 (national Single Digital Entry Point)
+- **EU 2024/1028** (directly applicable, opt-in): applies since 20 May 2026; a national Single Digital Entry Point is required only where Slovenia runs an STR registration procedure (Art. 10(1)) — Slovenian implementing measures and entry-point designation: verify at gov.si
 - **AVRSK + STO** (tourist board) registration
 
 ### Tax on rental
 
-- 25% flat with 10% cost allowance, OR
+- 25% flat with 10% cost allowance (ZIURS 15% rate not in force — referendum 6 Dec 2026), OR
 - Cedolare-style 25% final tax (no further deduction)
 - **Sobodajalec status**: VAT applies above €50,000 turnover
 
@@ -374,9 +374,9 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25 (Ljubljana water / wastewater operator re-identified as JP VOKA SNAGA 2026-09-18; the si:286 connection-cost figures were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+✅ **Fully populated** as of 2026-04-25 (Ljubljana water / wastewater operator re-identified as JP VOKA SNAGA 2026-09-18; the si:286 connection-cost figures were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Short-let block (ZGos-1 day caps, ZIURS referendum) re-checked 2026-10-23 against gov.si and national press; see shared/regulatory-watch.md.
 **Coverage check**: pricing, traffic, tax (with the not-enacted 1.45% proposal note), rental, work, risks (incl. seismic cona zoning + August 2023 flood reference), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for posplošena vrednost reform (Bloomberg Adria, Kalko, N24, MojMojster, alfaelmas all confirm 13 May 2025 effective + €298B aggregate + +8% average); HIGH for cadastre + GeoZS sources; MEDIUM for the NOT-ENACTED status of the davek na nepremičnine 1.45% proposal (izhodišča of 23 Dec 2024 never advanced; re-verify any successor plan at MF gov.si before output).
+**Confidence**: HIGH for posplošena vrednost reform (Bloomberg Adria, Kalko, N24, MojMojster, alfaelmas all confirm 13 May 2025 effective + €298B aggregate + +8% average); HIGH for cadastre + GeoZS sources; MEDIUM for the NOT-ENACTED status of the davek na nepremičnine 1.45% proposal (izhodišča of 23 Dec 2024 never advanced; re-verify any successor plan at MF gov.si before output); HIGH for the ZGos-1 2027-2028 day-cap mechanism and municipality list (gov.si); MEDIUM for the ZIURS not-in-force status and 6 Dec 2026 referendum (press-tier).
 
 ## Extension TODOs
 

@@ -131,8 +131,8 @@
       "status": "OPEN",
       "min_threshold": "Solid plan + 2 yrs self-support",
       "property_linked": "No",
-      "pr_citizenship": "2-yr; PR at 4 yrs",
-      "caveats": "New work permit rules from 1 Jun 2026",
+      "pr_citizenship": "2-yr max; PR after ≥2 yrs on the permit with sustainable taxed business income",
+      "caveats": "1 Jun 2026 labour-migration rules (prop. 2025/26:87) cover work permits for employment, not this permit; ≥51% ownership + own funds ≥SEK 200,000 (+SEK 100,000 spouse, +SEK 50,000 per child) for 2 yrs (Migrationsverket)",
       "region": "Western & Central Europe (EU/EEA)"
     },
     {
@@ -209,7 +209,7 @@
       "min_threshold": "~€2,400/mo passive income",
       "property_linked": "No",
       "pr_citizenship": "1-yr→2-yr; PR 5 yrs",
-      "caveats": "Successor of choice for ex-GV applicants · ⚠️ the ~€2,400/mo = €28,800 proven UPFRONT for yr 1, +€7,200/yr per dependent + private insurance; all work incl. remote banned; see § Reality-check",
+      "caveats": "Successor of choice for ex-GV applicants · ⚠️ the ~€2,400/mo (400% IPREM) is met by a regular non-work income such as a pension OR by funds for the whole authorisation period (€28,800 for yr 1) — RD 1155/2024 art. 62.1; +€7,200/yr per dependent + private insurance; all work incl. remote banned; see § Reality-check",
       "region": "Iberia, Mediterranean, Greece"
     },
     {
@@ -253,7 +253,7 @@
       "min_threshold": "€800k Attica/Thess/Myk/Sant/islands >3.1k pop; €400k elsewhere; €250k commercial→residential conversions or listed buildings",
       "property_linked": "YES",
       "pr_citizenship": "120 sqm min (except conversions); 5-yr renewable; citizenship 7 yrs (Greek test)",
-      "caveats": "Single property only · ⚠️ €250k folklore dead — €800k (Attica/Thess/Mykonos/Santorini/islands >3.1k) or €400k elsewhere since L.5100/2024; see § Reality-check · ⚠️ STR BAN: GV properties barred from short-term (<60-day) lets — €50k fine per property + permit revocation (L.5100/2024 Art. 64 → Art. 100 §7A L.5038/2023; Circular 1/2026 exempts pre-reform/transitional acquisitions) · ⚠️ WATCH (ANNOUNCED, NOT LEGISLATED, 90th TIF Sep 2026): FMA transfer tax 3.09% → 15.45% on residential purchases by non-EU/EEA natural persons who are not ομογενείς or long-term residents, intended from 1 Jul 2027 (news-tier date); no Golden Visa carve-out named; €250k conversion treatment unresolved — see regulatory-watch 🇬🇷 GR",
+      "caveats": "Single property only · ⚠️ €250k folklore dead — €800k (Attica/Thess/Mykonos/Santorini/islands >3.1k) or €400k elsewhere since L.5100/2024; see § Reality-check · ⚠️ STR BAN: GV properties barred from short-term (<60-day) lets — €50k fine per property + permit revocation (L.5100/2024 Art. 64 → Art. 100 §7A L.5038/2023; Circular 1/2026 exempts pre-reform/transitional acquisitions) · ⚠️ WATCH (DRAFT BILL IN CONSULTATION, NOT LEGISLATED, 90th-TIF bill Oct 2026): FMA transfer tax 3.09% → 15.45% on homes bought by natural persons tax-resident outside the EU/EEA, from 1 Jul 2027 per the draft (MinFin release 18 Oct 2026); no Golden Visa carve-out named in the MinFin summaries; €250k conversion treatment unresolved — see regulatory-watch 🇬🇷 GR",
       "region": "Iberia, Mediterranean, Greece"
     },
     {
@@ -436,11 +436,11 @@
       "id": "lv-latvia-golden-visa",
       "country": "lv",
       "programme": "Latvia Golden Visa",
-      "status": "OPEN",
-      "min_threshold": "€250k RE (Riga or 30km radius, **built only**) + 5% state fee; OR €50k co equity + €40k annual taxes; OR €100k for 50+ employee co. €10m+ turnover",
-      "property_linked": "YES (RE route)",
-      "pr_citizenship": "5-yr permit; **no min stay**; PR 5 yrs (4 of 5 lived + A2)",
-      "caveats": "Bond / subordinated capital routes also exist",
+      "status": "OPEN — RESTRICTED",
+      "min_threshold": "€50k company share capital (company ≤50 employees and turnover or balance sheet ≤€10m) OR €100k, + €10,000 state-budget payment (Immigration Law 2026 Art. 27(1)(10)); €150k state-AIF route (Art. 27(1)(36)) in statute but unusable — fund not established",
+      "property_linked": "**NO — RE route ended 15 Sep 2026**",
+      "pr_citizenship": "Equity-route permit up to 2 yrs (was 5); PR path — verify at PMLP",
+      "caveats": "⚠️ NO real-estate route since the new Immigration Law took effect 15 Sep 2026 (adopted 20 Aug 2026; PMLP) · credit-institution subordinated-liabilities route also removed · applications filed before 15 Sep 2026 decided under the old law; issued permits stay valid to expiry; renewals under the new law · RU/BY citizens barred from both investment routes",
       "region": "Northern / Eastern EU & Baltics"
     },
     {
@@ -680,7 +680,7 @@
       "programme": "Active Investor Plus (AIP) — REVISED 1 Apr 2025",
       "status": "OPEN",
       "min_threshold": "**NZD 5m / 3 yrs (Growth)** OR **NZD 10m / 5 yrs (Balanced)**",
-      "property_linked": "YES (early 2026: 1 residential property min NZD 5m for offshore-based AIP holders)",
+      "property_linked": "YES (since 6 Mar 2026: OIA consent to buy a home priced over NZ$5m; ANNOUNCED 8 Sep 2026, not in force: from Dec 2026 Growth applicants may count Build to Rent via Invest NZ-approved managed funds only, no direct BTR, no living in it)",
       "pr_citizenship": "Direct resident visa; presence 21 days/3 yrs (Growth) or 105 days/5 yrs (Balanced)",
       "caveats": "Reduced from NZD 15m + 164 days/4 yrs",
       "region": "Anglo non-EU"
@@ -854,11 +854,11 @@
       "id": "pa-qualified-investor-visa",
       "country": "pa",
       "programme": "Qualified Investor Visa",
-      "status": "OPEN — DEFERRED INCREASE",
-      "min_threshold": "**US$300,000 RE** (gov maintained at $300k through Oct 2026)",
+      "status": "OPEN — NEW THRESHOLD",
+      "min_threshold": "**US$300,000 first-sale RE / US$500,000 resale RE** (Executive Decree 17 of 8 Sep 2026, in force 16 Sep 2026)",
       "property_linked": "YES",
       "pr_citizenship": "Direct PR; citizenship 5 yrs",
-      "caveats": "",
+      "caveats": "Executive Decree 17/2026 (Gaceta Oficial 30613) subrogates Executive Decree 722/2020 as amended by Decrees 109/2022 and 193/2024; first-sale = new, unoccupied, from the developer (off-plan promesa de compraventa also US$300k); resale = previously sold, occupied or leased (was US$300k under Decree 193); securities US$500k; 5-yr deposit US$750k at a private bank or US$500k at Banco Nacional / Caja de Ahorros; 5-yr hold; pre-16 Sep 2026 investments or binding contracts may use the old regime if filed within 6 months (to ~16 Mar 2027, computed); B/. at par with US$",
       "region": "Latin America"
     },
     {
@@ -1066,8 +1066,8 @@
       "status": "OPEN — RENEWED",
       "min_threshold": "**USD 50,000+ income** (foreign employer / self-employed / business owner)",
       "property_linked": "No (RE not required)",
-      "pr_citizenship": "12-month renewable; tax-exempt on Barbados-sourced foreign-employer income; **Cabinet renewal to 31 Dec 2026**",
-      "caveats": "Among earliest DNV programs (launched June 2020); confirm renewal status at Visit Barbados portal before relying on availability past Dec 2026",
+      "pr_citizenship": "12-month renewable; holder deemed non-resident and Stamp income generated outside Barbados excluded from Barbados income tax (Remote Employment Act 2020-23); **Cabinet renewal to 31 Dec 2026** (Cabinet decision of 26 Oct 2023 per the Ministry of Tourism)",
+      "caveats": "Among earliest DNV programs (launched June 2020); the Visit Barbados portal publishes no end date and no decision beyond 31 Dec 2026 was published as of 2026-10-21 — confirm with the Ministry of Tourism / Immigration Department before relying on availability past Dec 2026",
       "region": "Caribbean"
     },
     {
@@ -1779,10 +1779,10 @@
       "country": "mu",
       "programme": "Occupation Permit (OP) — Investor (Self-Employed / Investor)",
       "status": "OPEN",
-      "min_threshold": "Investor: USD 50,000 invested in MU + business plan; Self-employed: USD 35,000 in MU bank",
+      "min_threshold": "Investor: **USD 100,000** transferred from abroad within 60 days of issue, turnover MUR 5M from yr 3 and MUR 8M from yr 5 for renewal; Self-employed: **USD 50,000**, services sector only, 3 letters of intent, turnover MUR 2M from yr 3 and MUR 3M from yr 5 (Act 13 of 2026)",
       "property_linked": "Possibly",
-      "pr_citizenship": "10-yr renewable; 20-yr Permanent Residence Permit after thresholds (cumulative MUR 45M turnover / 3 yrs)",
-      "caveats": "Linked to active business — passive RE alone NOT sufficient",
+      "pr_citizenship": "10-yr renewable; 20-yr Permanent Residence Permit after 5 yrs on the permit (Investor MUR 15M/yr or MUR 75M aggregate; Self-employed MUR 3M/yr or MUR 15M aggregate)",
+      "caveats": "Linked to active business — passive RE alone NOT sufficient; criteria reset by Act 13 of 2026 (in force 13 Aug 2026), USD 50,000 investor track removed",
       "region": "Africa"
     },
     {
@@ -1790,10 +1790,10 @@
       "country": "mu",
       "programme": "Occupation Permit (OP) — Professional",
       "status": "OPEN",
-      "min_threshold": "Salaried with MU employer; minimum **MUR 30,000/mo basic salary** for 3 yrs (sector exceptions ICT/BPO lower)",
+      "min_threshold": "Salaried with MU employer; minimum **MUR 50,000/mo basic salary** in every sector, no ICT/BPO exception (Act 13 of 2026; was MUR 30,000)",
       "property_linked": "No",
-      "pr_citizenship": "3-yr (typically aligned with employment); PRP after thresholds",
-      "caveats": "Standard expat-employee route",
+      "pr_citizenship": "3-yr (typically aligned with employment); PRP after 5 consecutive yrs at MUR 400,000/mo",
+      "caveats": "Standard expat-employee route; existing holders assessed under the old criteria at first renewal",
       "region": "Africa"
     },
     {
@@ -1826,7 +1826,18 @@
       "min_threshold": "RP entitlement at **USD 375,000** scheme-property purchase (price-floor varies: IRS USD 500k unit floor; PDS no statutory floor; G+2 ≥ MUR 6M)",
       "property_linked": "YES",
       "pr_citizenship": "RP for buyer + spouse + dependents while ownership ≥ USD 375,000",
-      "caveats": "**Finance Act 2025 5%→10% non-citizen registration duty + LTT REPEALED by Finance Act 2026** (Act 14/2026, gazetted 13 Aug 2026) — 5% applies; new 10% transferor-paid duty on State-land / Pas Géométriques residential transfers to non-citizens",
+      "caveats": "**Finance Act 2025 5%→10% non-citizen registration duty + LTT REPEALED by Finance Act 2026** (Act 14/2026, gazetted 13 Aug 2026) — 5% applies; new 10% transferor-paid duty on State-land / Pas Géométriques residential transfers to non-citizens; Budget 2026-27 ANNOUNCED no new G+2 sale-authorising leases for foreigners on State land / Pas Géométriques (not legislated as at 2026-10-21)",
+      "region": "Africa"
+    },
+    {
+      "id": "mu-golden-visa-efmmp-act-2026",
+      "country": "mu",
+      "programme": "Golden Visa (EFMMP Act 2026)",
+      "status": "ENACTED 13 Aug 2026 — applications opening unconfirmed",
+      "min_threshold": "**USD 1,000,000** invested in a business activity within 12 months of issue (PRP condition, EDB Act First Schedule Part IV item 5)",
+      "property_linked": "NO — residential property under the EDB property schemes explicitly excluded",
+      "pr_citizenship": "Permanent Residence Permit once the USD 1M is invested; EDB: renewable 2-yr e-visa, spouse + dependent children",
+      "caveats": "Act 13 of 2026 (in force 13 Aug 2026); premium-visa tax treatment extended by Finance Act 2026 (ITA s.73B, s.74A); whether applications are open — verify with the EDB",
       "region": "Africa"
     },
     {
@@ -2025,6 +2036,17 @@
       "property_linked": "**NO — real estate not a reported qualifying asset (secondary guides; verify at MFA KZ)**",
       "pr_citizenship": "10-yr residence permit; PRP-equivalent rights",
       "caveats": "Channelled toward productive capital, not passive RE — Kazakhstan property purchase ≠ residence pathway (UNIQUE distinction in region); applications open 1 Jun 2025",
+      "region": "Central Asia"
+    },
+    {
+      "id": "kz-altyn-visa-decree-1242-proposed",
+      "country": "kz",
+      "programme": "Altyn Visa (Presidential Decree No. 1242 of 25 Apr 2026)",
+      "status": "**PROPOSED — NOT LIVE**",
+      "min_threshold": "Not yet set in law — Decree 1242 names AIFC investment-tax-residency participants, business-visa holders after 1 month, skilled-worker-visa holders after 6 months (IT specialists 1 month) and temporary-worker-visa holders after 1 year",
+      "property_linked": "No",
+      "pr_citizenship": "Not yet set — Law on Migration procedure not yet published",
+      "caveats": "Government to implement by 31 Dec 2026 (Decree 1242, adilet.zan.kz U2600001242); draft Tax Code amendments (Open NPA, posted 3 Sep 2026, discussion completed) would exempt holders + family members from PIT, land tax and property tax from 1 Jan 2027 — draft, not adopted; right to own residential housing not established (Law on Legal Status of Foreigners Art. 9 bar on temporarily residing foreigners unchanged)",
       "region": "Central Asia"
     },
     {

@@ -93,7 +93,7 @@ ISO2: `it`. Status: ✅ Fully populated (researched 2026-04).
 ### Annual property taxes
 
 **IMU (Imposta Municipale Unica)** — most important:
-- **Prima casa NON di lusso** (cat. A/1, A/8, A/9): exempt
+- **Abitazione principale** (residenza anagrafica + dimora abituale, L. 160/2019 art. 1 c. 740-741 lett. b): exempt, EXCEPT units in the luxury categories A/1, A/8, A/9, which stay taxable. The exemption follows abitazione-principale use, not 'prima casa' purchase status — a holiday home that is not the owner's abitazione principale pays IMU (source Gazzetta Ufficiale L. 160/2019)
 - **Seconda casa**: aliquota base 8.6‰ (0.86%); il comune può azzerarla o aumentarla fino a 10.6‰ (1.06%), e fino a 11.4‰ nei soli comuni con ex-maggiorazione TASI (L. 160/2019 art. 1 c. 754-755). Verify the current rate on the comune's IMU page (2026-07-03 verified, source Gazzetta Ufficiale L. 160/2019)
 - **Calcolo**: `IMU = rendita catastale × 1.05 × 160 × aliquota`
 - Bills: 16 giugno (acconto) + 16 dicembre (saldo), or full payment by giugno
@@ -123,7 +123,7 @@ For **new builds (vendita da impresa)**:
 
 ### Future risk
 
-- **Riforma del catasto** (cadastral reform) on the political table for years; could double valori catastali if enacted (high impact on IMU + transaction taxes)
+- **Riforma del catasto** (cadastral reform) on the political table for years; no revaluation enacted as of 2026-10-21. The DPB 2027 (CdM 13 Oct 2026) is programmatic only: unregistered-building mapping at 96% of the national territory, ~20,000 compliance letters planned in 2026 and ~21,600 invitations to publicly-funded renovated buildings 'in vista dell'aggiornamento dei valori catastali nel 2028' (2026 data, source [DPB 2027, RGS/MEF](https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Contabilit_e_finanza_pubblica/DPB/2027/DPB-2027.pdf)). Size of the gap, est.: market value ≈ 1.89× the IMU taxable value for main homes and ≈ 1.95× for other homes nationally, range 1.40 (Molise) to 3.31 (Trentino-Alto Adige) (tax-year 2020 data, source 'Gli immobili in Italia 2023', MEF Dipartimento Finanze / Agenzia delle Entrate — figures may have changed since). A market-aligned revaluation would raise IMU + transaction-tax bases; the actual uplift depends on a reform text that does not yet exist (see shared/regulatory-watch.md)
 - **Imposta patrimoniale** periodically debated nationally; not yet enacted
 
 ---
@@ -144,7 +144,7 @@ For **new builds (vendita da impresa)**:
 - Free; alphanumeric code
 
 **Tax regime — Cedolare secca (sostitutiva)** (2026-08-07 verified, sources [L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 17](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199) modifying L. 178/2020 art. 1 c. 595; rate scheme set by L. 213/2023 art. 1 c. 63; underlying regime DL 50/2017 art. 4 commi 2-3; [Agenzia Entrate Locazioni Brevi e Cedolare Secca](https://www.agenziaentrate.gov.it/portale/le-locazioni-brevi-e-la-cedolare-secca)):
-- **1° immobile**: 21 % flat (cedolare ridotta) — applies only if a SINGLE property is leased short-term in the tax year
+- **1° immobile**: 21 % flat (cedolare ridotta) on the income of the one unit the taxpayer names in the tax return — also available when a second unit is let short-term at 26 % (L. 213/2023 art. 1 c. 63, per Agenzia delle Entrate); platforms and intermediaries always withhold 21 % as an advance (acconto), whatever regime the owner chooses (AdE circolare 10/E of 10 May 2024)
 - **2° immobile**: 26 % flat (cedolare ordinaria)
 - **Soglia dal 1 gen 2026**: max 2 immobili in cedolare secca per contribuente per periodo d'imposta (era 4 fino al 2025; ridotto da L. 199/2025 art. 1 c. 17). Il ≤2-cap e la presunzione di impresa ≥3 sono la **stessa soglia espressa in due modi**, non due limiti distinti
 - **3°+ immobile**: presunzione di legge di attività imprenditoriale ex art. 2082 c.c. → P.IVA obbligatoria, SCIA al comune, tassazione come reddito d'impresa (non IRPEF ordinaria sul reddito da locazione), perdita del regime cedolare (per Guida AdE aprile 2026)
@@ -160,7 +160,7 @@ For **new builds (vendita da impresa)**:
 ### Long-term residential
 
 - **Cedolare secca canone libero**: 21 %
-- **Cedolare secca canone concordato**: 10 % (in comuni ad alta tensione abitativa)
+- **Cedolare secca canone concordato**: 10 % — in comuni con carenze di disponibilità abitative (DL 551/1988 art. 1 c. 1 lett. a-b) and comuni ad alta tensione abitativa individuati dal CIPE (2026-10-21 verified, source Agenzia delle Entrate cedolare secca scheda). Watch: a 5 % rate for long-term / concordato leases has been floated for the Legge di Bilancio 2027 — proposal only, in no approved text as of 2026-10-21 (see shared/regulatory-watch.md)
 - **Regime ordinario IRPEF**: marginal rate
 
 ### Strategic notes
@@ -344,19 +344,20 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 | Tecnico per conformità (geometra) | €300–€1,000 |
 | Septic to mains | €5,000–€15,000 |
 | Roof (terracotta tiles, 200 m²) | €15,000–€30,000 |
-| Antiseismic retrofit (small house) | €30,000–€80,000 (Sismabonus 50 % prima casa / 36 % seconda nel 2025-2026) |
+| Antiseismic retrofit (small house) | €30,000–€80,000 (Sismabonus 50 % abitazione principale / 36 % other nel 2025-2026; 36 % / 30 % per spese 2027) |
 | Asbestos removal (200 m² roof) | €5,000–€15,000 |
-| Energy retrofit (Ecobonus 50 %) | €20,000–€60,000 |
+| Energy retrofit (Ecobonus 50 % abitazione principale / 36 % other 2025-2026; 36 % / 30 % per spese 2027) | €20,000–€60,000 |
 | **Total transaction cost (prima casa)** | ~10–13 % over price |
 | **Total transaction cost (seconda casa)** | ~13–17 % over price |
 
-## Active fiscal incentives (2025)
+## Active fiscal incentives (2026-2027)
 
 - **Sismabonus** prima casa **50 %** / seconda **36 %** (2025 e 2026 — decalage sospeso da [L. 199/2025 art. 1 c. 22](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199) modificante DL 63/2013 art. 16); 36 %/30 % programmato per 2027 salvo proroga; cap €96,000/unit; spread su 10 quote annuali; statute underlying: art. 16-bis TUIR (DPR 917/1986) + art. 16 c. 1-septies DL 63/2013 per acquisti (2026-05-27 verified, sources normattiva.it L. 199/2025 + DL 63/2013)
-- **Ecobonus** energy retrofit: 50 % prima casa / 36 % seconda (2025-2026)
-- **Bonus Ristrutturazione**: 50 % up to €96k; cap aliquote scendono progressivamente
+- **Ecobonus** energy retrofit (art. 14 DL 63/2013): 50 % abitazione principale / 36 % other units for spese 2025-2026; 36 % / 30 % for spese 2027 under current law (L. 199/2025 art. 1 c. 22 lett. a); stand-alone fossil-fuel boilers excluded since 2025 (2026-10-21 verified, source [Camera dei deputati — tassazione immobili](https://temi.camera.it/leg19/temi/19_tl18_tassazione_immobili.html))
+- **Bonus Ristrutturazione** (art. 16-bis TUIR + art. 16 c. 1 DL 63/2013): spese 2026 **50 %** only when the unit is the abitazione principale of the owner or real-right holder, **36 %** in all other cases (second / holiday homes, tenants); spese 2027 **36 % / 30 %**; cap €96,000 per unit both years, 10 annual instalments; spese 2028-2033 30 % on €48,000; from 2034 36 % on €48,000. A foreign buyer's second home gets 36 % in 2026 and 30 % in 2027, not 50 % (2026-10-21 verified, sources [Agenzia delle Entrate — ristrutturazioni edilizie](https://www.agenziaentrate.gov.it/portale/aree-tematiche/casa/agevolazioni/agevolazioni-per-le-ristrutturazioni-edilizie) + AdE guida Feb 2026)
 - **Superbonus 110 %** sostanzialmente concluso; trasceso a 65 % e poi a regime ordinario
-- **Bonus Mobili**: legato a ristrutturazione, 50 % up to €5k
+- **Bonus Mobili** ed elettrodomestici: legato a ristrutturazione, 50 % on up to €5,000 per unit, 10 annual instalments, for purchases made **by 31 Dec 2026** linked to recupero edilizio works begun from 1 Jan of the previous year; only the taxpayer claiming the renovation deduction can use it. DL 63/2013 art. 16 c. 2 as extended by L. 199/2025 art. 1 c. 22 has no 2027 year — a 2027 purchase needs a proroga in the Legge di Bilancio 2027 (2026-10-21 verified, source [Agenzia delle Entrate — Bonus mobili ed elettrodomestici](https://www.agenziaentrate.gov.it/portale/aree-tematiche/casa/agevolazioni/bonus-mobili-ed-elettrodomestici))
+- **Legge di Bilancio 2027 — not yet a bill**: as of 2026-10-21 the Consiglio dei Ministri had approved only the Documento Programmatico di Bilancio 2027 (CdM n. 192, 13 Oct 2026), which extends no bonus rate; CdM n. 193 (20 Oct 2026) did not take up the DDL bilancio, and press reports name 28 Oct 2026 as the likely CdM date (news-only). Announced only, no text: keeping 50 % / 36 % for 2027 (Viceministro Leo, 29 Sep 2026, per pmi.it) and an Ecobonus at 65 % on the prima casa (ipotesi allo studio, per Sky TG24 3 Oct 2026). Until a new law passes, the 2027 rates above apply (2026-10-21 verified, sources [governo.it — CdM n. 192](https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-192/32836) + [DPB 2027, RGS/MEF](https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Contabilit_e_finanza_pubblica/DPB/2027/DPB-2027.pdf); see shared/regulatory-watch.md)
 
 ## Common listing platforms
 
@@ -427,7 +428,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-08-07 (`--rental` re-verified — CIN block against Ministero del Turismo BDSR, the cedolare secca property threshold, and the Venice Contributo di Accesso season; balance of playbook 2026-07-03 Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged). Insurance / rental tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Rental tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-08-07 (`--rental` re-verified — CIN block against Ministero del Turismo BDSR, the cedolare secca property threshold, and the Venice Contributo di Accesso season; balance of playbook 2026-07-03 Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged). Insurance / rental tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Rental tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Fiscal-incentive, catasto, cedolare and IMU abitazione-principale exemption lines re-checked 2026-10-21 against Agenzia delle Entrate, the Dipartimento delle Finanze, the Camera dei deputati dossier and the DPB 2027 (Legge di Bilancio 2027 watch; see shared/regulatory-watch.md); the IMU seconda-casa rates keep their 2026-07-03 stamp.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + rental sources (multi-source corroborated). MEDIUM for work catchment heuristics (region-dependent).
 
@@ -435,7 +436,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 
 - [ ] Per-regione CIN/short-let regional addenda (Veneto, Lombardia, Toscana, Lazio specifics)
 - [ ] OMI zona-coding lookup for major comuni (Roma centro vs Roma periferia)
-- [ ] Sismabonus tracking as 2025 → 2026 → 2027 percentages decline
+- [ ] Re-check Sismabonus / Ecobonus / Bonus Ristrutturazione / Bonus Mobili against the Legge di Bilancio 2027 text once the DDL is tabled and again at Gazzetta Ufficiale publication (tracked in shared/regulatory-watch.md)
 - [ ] Sanatoria / abuso edilizio detection workflow (likely needs tecnico in person)
 - [ ] Local IMU aliquota per comune (need scraping per ~7,900 comuni — start with top 100)
 - [ ] Nord/Sud cost-benchmark differentiation (renovation prices differ ~30–50 %)

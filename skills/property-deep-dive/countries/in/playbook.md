@@ -127,7 +127,7 @@ The **Foreign Exchange Management Act 1999** + **FEMA (Acquisition and Transfer 
 - **NHB Residex** (National Housing Bank — Government of India) — quarterly residential price index covering 50+ cities in two segments (HPI@Assessment Prices, HPI@Market Prices): [`https://residex.nhbonline.org.in/`](https://residex.nhbonline.org.in/) — the canonical official series
 - **RBI House Price Index (HPI)** — quarterly, 10-city index based on data from State Registration Departments via NHB: [`https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=14274`](https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=14274)
 - **State Sub-Registrar registered sale prices** — declared values per registered Sale Deed; access varies per state portal (Kaveri, MahaBhulekh, IGRSUP, Patta Chitta, etc.)
-- **Income Tax Department Circle Rates / Ready Reckoner Rates / Guideline Values** — state-published minimum-stamp-duty values per location (the "floor" for stamp duty assessment); typically 10–40 % below realised market price; verify per state portal
+- **State Circle Rates / Ready Reckoner Rates (Annual Statement of Rates) / Guideline Values** — notified by each state's (or UT administration's) revenue or stamps-and-registration department, NOT by the Income Tax Department, which only uses them as the "stamp duty value" (e.g. 1 % TDS u/s 194-IA on the higher of consideration or stamp duty value); minimum-stamp-duty values per location (the "floor" for stamp duty assessment); est. ~10–40 % below realised market price (model estimate, not sourced). Gujarat: the **jantri**, prepared by the stamp-duty valuation machinery headed by the Superintendent of Stamps and last changed by Revenue Department resolution SPT-122023-20-H-1 of 13 Apr 2023 ([Revenue Department jantri page](https://revenuedepartment.gujarat.gov.in/gujarat-jantari); current rates at the [GARVI jantri viewer](https://garvi.gujarat.gov.in/ViewJantri_New.aspx), 2026-10-21 verified; Draft Jantri-2024 not notified — see `--tax` Future risk); verify per state portal
 
 ### Listing platforms (secondary, listing = seller-controlled)
 
@@ -180,7 +180,7 @@ The **Foreign Exchange Management Act 1999** + **FEMA (Acquisition and Transfer 
 2. **Trap (Loading factor)**: post-RERA developers may quote carpet area in the agreement but use super built-up in marketing — verify the registered RERA filing on the state RERA portal; loading should not exceed ~25 % under most state RERA-approved layouts.
 3. Compare to NHB Residex city quarterly trajectory.
 4. Compare to 3–5 same-tower / same-society listings on MagicBricks + 99acres + Housing.com.
-5. Pull the **State Circle Rate / Ready Reckoner / Guideline Value** for the parcel — this is the stamp-duty floor, not market value (typically 10–40 % below realised market). Sources: state IGRS portals (e.g., Karnataka Kaveri, Maharashtra IGR, TN TNREGINET).
+5. Pull the **State Circle Rate / Ready Reckoner / Guideline Value** for the parcel — this is the stamp-duty floor, not market value (est. ~10–40 % below realised market — model estimate, not sourced). Sources: state IGRS portals (e.g., Karnataka Kaveri, Maharashtra IGR, TN TNREGINET; Gujarat **jantri** at the [GARVI jantri viewer](https://garvi.gujarat.gov.in/ViewJantri_New.aspx) + [Revenue Department jantri page](https://revenuedepartment.gujarat.gov.in/gujarat-jantari) — rates in force since the 13 Apr 2023 GR; Draft Jantri-2024 not notified as of 2026-10-21).
 6. **Trap (Builder Floor / Independent Floor)**: in Delhi NCR, "Builder Floor" listings (entire floor of a small building) frequently quote per-floor price not per-sqft — normalise carefully.
 7. **Trap (Goa villa premium)**: Goa villa pricing has structural foreign-buyer + lifestyle premium 30–60 % above comparable Maharashtra coastal — verify trend on 99acres Goa quarterly.
 
@@ -281,7 +281,7 @@ The **Foreign Exchange Management Act 1999** + **FEMA (Acquisition and Transfer 
 | **West Bengal** | 5 % (≤1 Cr) / 6 % (>1 Cr) urban | 1 % rebate women | + 1 % registration |
 | **Uttar Pradesh** | 7 % | 1 % rebate women (up to 10L) | + 1 % registration |
 | **Haryana** | 5 % (women) / 7 % (men) urban | women 5 % | + 1 % registration |
-| **Gujarat** | 4.9 % | none | + 1 % registration |
+| **Gujarat** | 4.9 % (3.5 % basic + 1.4 % additional duty under s.3A, Gujarat Stamp Act 1958; since 1 Apr 2007) on the higher of consideration or jantri value | no stamp-duty concession; **registration fee 0 % on a conveyance in a woman's name** (exempt since 11 Jun 2004 — [IGR Gujarat](https://stampsregistration.gujarat.gov.in/achievements); [UDD Gujarat High-Level Committee report, 9 Jun 2025](https://udd.gujarat.gov.in/pdf/HLC%20GUJARAT%20REPORT%2009062025.pdf)); a joint man-and-woman title is not primary-confirmed — verify on Garvi / with the Sub-Registrar; the aggregator "3.9 % for women" stamp-duty rate has no primary source (superseded) | + 1 % registration (waived for women buyers) |
 | **Rajasthan** | 6 % | 5 % women | + 1 % registration |
 | **Punjab** | 7 % | 5 % women | + 1 % registration |
 | **Madhya Pradesh** | 7.5 % | 6.5 % women | + 1 % registration |
@@ -329,6 +329,7 @@ The **Foreign Exchange Management Act 1999** + **FEMA (Acquisition and Transfer 
 
 - **No inheritance tax** in India (Estate Duty Act repealed 1985); BUT **inherited property cost basis = original cost** for future capital gains; FY of acquisition by deceased counts for indexation/holding period.
 - **Gift Tax**: §56(2)(x) Income Tax Act — gift of immovable property to non-relative > INR 50,000 stamp value taxed at slab as "Income from Other Sources"; gifts between specified relatives (spouse, lineal ascendant/descendant, sibling, etc.) exempt.
+- **State stamp duty on heirs' deeds — Gujarat agricultural land (confidence LOW-MEDIUM)**: a token **Rs 300 per deed**, in place of jantri-based duty, on heirs' relinquishment / reduction-of-rights deeds, lifetime entry of heirs' names (hayati-ma hakk dakhal) and partition deeds for farmland held by joint holders recorded under inheritance entries — announced 27 Mar 2026 by the Gujarat CMO under the s.9 Gujarat Stamp Act 1958 power to reduce or exempt duty ([Gujarat Information press release, 27 Mar 2026](https://gujaratinformation.gujarat.gov.in/PressReleaseDetailsL?id=39114&DepId=37&DistrictId=35&LanguageId=1); [ANI, 28 Mar 2026](https://www.aninews.in/news/national/general-news/gujarat-cm-bhupendra-patel-announces-stamp-duty-relaxation-in-land-transactions20260328023135), secondary); the implementing Revenue Department circular of 27 Mar 2026 is indexed, but its text and any Gazette publication are unverified — confirm with the Sub-Registrar before relying. Relevant only to heirs of inherited Gujarat farmland (see Path 3: Inheritance). Tracked in `shared/regulatory-watch.md` § IN.
 
 ### Future risk
 
@@ -336,7 +337,7 @@ The **Foreign Exchange Management Act 1999** + **FEMA (Acquisition and Transfer 
 - **DTC (Direct Tax Code)** — long-pending overhaul of Income Tax Act; not enacted as of May 2026.
 - **GST Council** periodically reviews under-construction rate — watch for shifts in affordable definition + ITC restoration.
 - **State stamp duty cuts** as fiscal-stimulus tool — Maharashtra 2020-21 cut precedent; episodic.
-- **RA 12001-equivalent state Circle Rate revision** — many states underdate Circle Rates; revisions cyclically tighten effective stamp duty.
+- **State Circle Rate revisions** — an upward revision raises the stamp-duty floor, and so the effective stamp duty wherever the declared price sits below the new rate. **Gujarat Draft Jantri-2024 — pending, NOT notified (as of 2026-10-21)**: the jantri in force dates from Revenue Department GR No. SPT-122023-20-H-1 of 13 Apr 2023 (agricultural and non-agricultural land rates kept at double the 18 Apr 2011 jantri, composite land + construction rates set separately; the increase applied from 15 Apr 2023 per secondary reports); a Draft Jantri-2024 was published on GARVI 2.0 with objections accepted until 20 Jan 2025 ([Anand Collectorate notice](https://collectoranand.gujarat.gov.in/noti/showpage.aspx?contentid=2647)), the reported 1 Apr 2025 start did not happen, and the [Revenue Department jantri page](https://revenuedepartment.gujarat.gov.in/gujarat-jantari) still lists the 13 Apr 2023 GR as the latest change. Ahmedabad-specific draft increases: secondary sources disagree — data not publicly available, verify the zone rate on GARVI. Tracked in `shared/regulatory-watch.md` § IN (revisit 2026-12-31, then around 1 Apr 2027).
 
 ### Confidence
 
@@ -1346,7 +1347,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 - **DDA leasehold conversion** to freehold pending in many Delhi parcels; affects loan + transferability
 - **Tax Identification (PAN)** mandatory for all transactions ≥ INR 50,000; foreign nationals: PAN issuance via Indian Mission abroad or e-PAN portal
 - **Aadhaar (UID)** — biometric ID for Indian citizens; NRI/OCI eligible after 182-day residence; **NOT mandatory for foreign nationals** but Aadhaar-Sale Deed linkage being phased in
-- **Ready Reckoner / Circle Rate / Guideline Value** is the stamp-duty floor — actual market typically 10–40 % higher; periodic state revisions
+- **Ready Reckoner / Circle Rate / Guideline Value** (Gujarat: **jantri**) is the stamp-duty floor, notified by the state revenue / stamps-and-registration department (not the Income Tax Department) — actual market est. ~10–40 % higher (model estimate, not sourced); each state revises on its own schedule (Gujarat: last changed 13 Apr 2023; Draft Jantri-2024 not notified as of 2026-10-21)
 - **Affordable housing definition** under GST: carpet ≤ 60 sqm metro / ≤ 90 sqm non-metro AND price ≤ INR 45 lakh — verify both conditions
 - **RERA carpet area** mandatory disclosure since 2016; pre-RERA listings used "super built-up" with 25–35 % loading
 - **Power of Attorney + Will + Family Settlement** — common but NOT title-transferring per Suraj Lamp 2011
@@ -1415,7 +1416,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (non-fossil capacity + share corrected 2026-09-18 per MNRE physical-progress + Ministry of Power PIB; validation sweep — adverse possession Limitation Act 1963 Art. 65/112 + s.27 added to Caveats; FEMA 21 §6 8-list vs Press Note 3 7-list disambiguated; FEMA 21(R)/2018-RB lead-warning corrected). Ownership tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27 (non-fossil capacity + share corrected 2026-09-18 per MNRE physical-progress + Ministry of Power PIB; validation sweep — adverse possession Limitation Act 1963 Art. 65/112 + s.27 added to Caveats; FEMA 21 §6 8-list vs Press Note 3 7-list disambiguated; FEMA 21(R)/2018-RB lead-warning corrected). Ownership tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Gujarat stamp-duty row (0 % registration fee for women, stamp duty unchanged at 4.9 %), circle-rate issuing authority and Gujarat jantri status corrected 2026-10-21 per IGR Gujarat + Revenue Department Gujarat; Gujarat jantri and heirs'-deed tracker entries added (see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

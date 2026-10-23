@@ -115,7 +115,7 @@ For each country, return:
 
 | ISO | Source | Index | URL | Granularity | Frequency | Latest period | Methodology |
 |---|---|---|---|---|---|---|---|
-| US | FHFA | HPI (purchase-only + all-transactions) | https://www.fhfa.gov/data/hpi | national / division / state / metro / 3-digit ZIP | monthly + quarterly | Q4 2025 (verify) | repeat-sales on conforming GSE-backed mortgages |
+| US | FHFA | HPI (purchase-only + all-transactions) | https://www.fhfa.gov/data/hpi | national / division / state / metro / 3-digit ZIP | monthly + quarterly | Jul 2026 monthly (pub. 29 Sep 2026) / 2026Q2 quarterly — next monthly 27 Oct 2026, quarterly 24 Nov 2026 | repeat-sales on conforming GSE-backed mortgages |
 | US | S&P CoreLogic Case-Shiller | National + 20-City Composite | https://www.spglobal.com/spdji/en/index-family/indicators/sp-corelogic-case-shiller/ | national + 20 metros | monthly | Latest published | repeat-sales, value-weighted |
 | US | NAR | Median Sales Price of Existing Homes | https://www.nar.realtor/research-and-statistics | national / metro | monthly + quarterly | Latest published | median, transaction-side (NOT quality-adjusted — use FHFA/Case-Shiller for trend) |
 | US | Zillow | ZHVI (Zillow Home Value Index) | https://www.zillow.com/research/data/ | national / metro / city / ZIP / neighborhood | monthly | Latest published | smoothed, asking-side automated valuation — NOT a transaction index |

@@ -52,6 +52,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+
+- **Corpus audit of 21 Oct 2026 applied: 309 of 335 confirmed findings patched, plus 18 errors found in sample briefs.** 22 were already fixed on main; 4 touch only playbooks re-verified separately. 50 country playbooks, 54 shared files, SKILL.md and `config/_visa-programs.json` (re-rendered) changed; regwatch grows from 441 to 580 entries. Status changes include the end of Latvia's real-estate residence route (15 Sep 2026), Panama's US$500k resale threshold and Mauritius's Act 13 of 2026 permit reset.
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added

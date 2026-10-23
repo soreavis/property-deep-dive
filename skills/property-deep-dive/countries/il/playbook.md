@@ -28,11 +28,12 @@ ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Major reforms / regulatory landscape** (verify date-stamps in `shared/regulatory-watch.md`):
 - **Heskem Hadash (Decision 1185 / החלטה 1185)** — ILA Council Decision 2009 enabling lessees to convert built-up state-leased land to freehold for a capitalization fee. Source: **מאגר החלטות מועצת מקרקעי ישראל** — [apps.land.gov.il/CouncilDecisions](https://apps.land.gov.il/CouncilDecisions/#/main) (search "החלטה 1185" there; the old ILA SharePoint search form has been retired). Subsequent updates via decisions 1370, 1456 etc. — verify currency at [gov.il — רשות מקרקעי ישראל](https://www.gov.il/he/departments/israel_land_authority) (2026-09-18 verified).
 - **Land Taxation (Appreciation and Purchase) Law 5723-1963** — חוק מיסוי מקרקעין; Mas Rechisha (purchase tax) + Mas Shevach (appreciation/capital gains tax). Source: Israel Tax Authority `https://www.gov.il/he/departments/topics/real_estate_taxation`.
-- **Buyer's tax brackets — non-resident scale** — annual update by Tax Authority (typically 16 January each year, indexed to CBS housing index). Verify current brackets at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` (page often updated mid-January).
+- **Buyer's tax brackets — non-resident scale** — normally re-indexed by the Tax Authority each 16 January to the CBS housing index, but indexation is frozen for tax years 2025-2027 (brackets fixed through 15 January 2028); the non-resident 8% / 10% scale is a s.9(c1f)(1) temporary provision extended to purchases up to and including 10 Feb 2027 (see the Mas Rechisha section below). Verify current brackets at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` (page often updated mid-January).
 - **Olim 7-year purchase-tax incentive** — Section 12 of the Land Taxation Regulations, anchored in the Aliyah & Integration framework. Source: Ministry of Aliyah & Integration `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` and Tax Authority guidance.
 - **Property Tax Compensation Fund (Israel Tax Authority)** — Property Tax and Compensation Fund Law 5721-1961 (מס רכוש וקרן פיצויים); pays for direct war/missile damage to property (structures + contents up to caps). Source: `https://www.gov.il/en/departments/topics/compensation_fund` and `https://www.gov.il/he/service/online-direct-damage-claim` (Tax Authority portal).
 - **Wartime tax measures (2023–2026)**: temporary purchase-tax bracket adjustments under Order 5784; Compensation Fund claim deadlines extended for evacuee zones (Otef Aza, Northern border). Verify currency at Tax Authority and Knesset legislation database `https://main.knesset.gov.il/Activity/Legislation/Pages/default.aspx`.
 - **Proposed reforms NOT enacted as of May 2026**: foreign-buyer outright restriction (proposed several times since 2010s, never passed); raising non-resident Mas Rechisha further (in periodic political discussion).
+- **2027-2028 budget tax package — watchlist only (nothing drafted, approved by cabinet or legislated as of 2026-10-21)**: a Finance Ministry committee is preparing tax proposals for the government formed after the 27 Oct 2026 Knesset election; reported options include a property tax on vacant land, widening the 31% income-tax bracket, closing exemptions (incl. the Eilat VAT exemption) and VAT on imported digital services, and the Tax Authority Director called a one-point VAT rise an easier but less desirable option (Calcalist 12 Oct 2026; ynet 19 Oct 2026 — secondary). Current law unchanged: VAT 18%, no national annual property tax, rental exemption ILS 5,654/month. See `shared/regulatory-watch.md` (IL).
 
 ---
 
@@ -273,7 +274,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 **Mas Rechisha is the buyer's purchase tax.** Brackets normally indexed annually on **16 January** to CBS housing index, but indexation is **FROZEN for tax years 2025-2027** under the Economic Efficiency Law / 2025 budget directives; January-2024 brackets remain fixed in nominal shekels through 15 January 2028 (2026-05-27 verified per late-2024 budget package). Verify current values at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase`.
 
-#### 2026 reference brackets (verify before signing — these change every January)
+#### 2026 reference brackets (verify before signing — indexation frozen through 15 January 2028; the 8% / 10% scale is a temporary provision for purchases up to and including 10 Feb 2027)
 
 **Israeli resident, single residential home (zakaut le-dira yechida — זכאות לדירה יחידה)**:
 
@@ -334,7 +335,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 ### Future risk
 
-- **Annual bracket indexation in mid-January** can shift thresholds materially.
+- **End of the 8% / 10% temporary provision**: the s.9(c1f)(1) scale paid by non-residents and buyers of a non-single dwelling covers purchases up to and including 10 Feb 2027 (ITA notice 12 Oct 2026); unless the new Knesset extends it, purchases from 11 Feb 2027 fall back to the permanent non-single-dwelling scale (first bracket 5% — verify at the ITA). Bracket indexation stays frozen through 15 January 2028.
 - **Wartime emergency tax orders** since October 2023 have included temporary purchase-tax adjustments and Compensation Fund-funding surcharges; verify currency at signing.
 - **Periodic political proposals** to raise non-resident Mas Rechisha (most recently discussed 2024) — not enacted as of May 2026.
 - **Heitel Hashbacha enforcement** strengthening — many municipalities catching up on uncollected betterment levies.
@@ -361,7 +362,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - Property is offered for short-let (< 6 months at a time)
 - Active management / marketing (Airbnb / Booking listings)
 - Multiple turnovers per year
-- **VAT trigger**: if annual short-let revenue > ILS ~120,000 (2026 osek patur threshold; verify), VAT registration becomes mandatory at 18%.
+- **VAT trigger**: if annual turnover, counted across all of the dealer's businesses, exceeds **ILS 122,833** (2026 osek patur ceiling, in force 1 Jan 2026 and re-indexed each January; Israel Tax Authority `https://www.gov.il/he/pages/vat-rate-amount-new`; 2026-10-21 verified), registration as osek murshe charging 18% VAT becomes mandatory.
 - **Building-association (Va'ad Bayit) consent**: under Land Law 5729-1969 §59A and amendments, condominium owners cannot run a "hotel-like" operation without by-law amendment from the building's general assembly (`אסיפה כללית`). Many Tel Aviv buildings have passed by-laws prohibiting Airbnb.
 - **Local accommodation tax**: some municipalities (Tel Aviv, Jerusalem, Eilat) collect a guest tax (`מס תיירים` / accommodation levy) on short-let stays — verify per municipality.
 - **Eilat special status**: VAT-exempt zone (Eilat Free Zone Law 5745-1985); short-let rates for Eilat differ from rest of Israel.
@@ -389,8 +390,8 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 ### Self-employment regimes
 
-- **Osek Patur (עוסק פטור)**: VAT-exempt micro-business; 2026 turnover ceiling **ILS ~120,000/year** (verify at Tax Authority, indexed annually). Files annual income tax; no VAT; bituach leumi (national insurance) + bituach bri'ut (health insurance) on net income.
-- **Osek Murshe (עוסק מורשה)**: standard VAT-registered self-employed; charges 18% VAT (effective Jan 2025); files bi-monthly VAT returns; annual income tax; full bituach leumi.
+- **Osek Patur (עוסק פטור)**: VAT-exempt micro-business; 2026 turnover ceiling **ILS 122,833/year** across all of the dealer's businesses, equipment sales excluded (VAT Law 5736-1975 s.1 as indexed, in force 1 Jan 2026, re-indexed each January; Israel Tax Authority `https://www.gov.il/he/pages/vat-rate-amount-new`; 2026-10-21 verified); occupations listed in VAT (Registration) Regulation 13 must register as osek murshe whatever their turnover. Files annual income tax; no VAT; bituach leumi (national insurance) + bituach bri'ut (health insurance) on net income.
+- **Osek Murshe (עוסק מורשה)**: standard VAT-registered self-employed; charges 18% VAT (effective Jan 2025); files VAT reports every two months if turnover is up to ILS 1,775,000 (VAT Law s.67(a2)) and monthly above that (Reg. 20(b)), both effective 1 Jan 2026 (same Tax Authority page); annual income tax; full bituach leumi.
 - **Hevra Ba'am (חברה בע"מ / Ltd company)**: corporate tax 23% (2026); useful above ~ILS 600k profit or for specific structures.
 - **Bituach Leumi (national insurance + health)**: combined ~12–17% on self-employed income up to a cap; pays for state pension, disability, healthcare.
 
@@ -543,7 +544,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 | Nesach Tabu (online abstract) | 18 (2026 gazetted schedule, item 7(א2); re-indexed every 1 Jan) |
 | RMI lease extract / consent | 200–2,000 (varies) |
 | Heskem Hadash conversion (capitalization) | varies — % of land value (verify per parcel) |
-| **Mas Rechisha (foreign buyer)** | 8–10% of purchase price |
+| **Mas Rechisha (foreign buyer)** | 8–10% of purchase price (temporary provision, purchases up to 10 Feb 2027) |
 | **Annual Arnona (90 m² Tel Aviv)** | ~6,500–10,000 |
 | Asbestos removal (200 m² roof) | 30,000–80,000 |
 | Legacy TAMA 38 (expired 18 May 2026) / successor urban-renewal retrofit cost (per unit, paid by developer in exchange for added building rights) | typically nil to owner; structured as construction-financed deal |
@@ -670,9 +671,9 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: foreign-buyer eligibility, pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for legal framework (Land Code via Reshumot; RMI structure via gov.il; Property Tax Compensation Fund via primary statute; Mas Rechisha brackets via Tax Authority — all primary state agencies). MEDIUM for current bracket numerical values (annual indexation 16 January; verify at signing). MEDIUM for war-zone insurability and Otef Aza / Northern-border pricing (active conflict period; data thin). LOW for settlement-area / disputed-jurisdiction deeds (specialist counsel mandatory; not commodity due-diligence).
+**Confidence**: HIGH for legal framework (Land Code via Reshumot; RMI structure via gov.il; Property Tax Compensation Fund via primary statute; Mas Rechisha brackets via Tax Authority — all primary state agencies). MEDIUM for current bracket numerical values (indexation frozen through 15 January 2028; the non-resident 8% / 10% scale is a temporary provision extended to purchases up to and including 10 Feb 2027; verify at signing). MEDIUM for war-zone insurability and Otef Aza / Northern-border pricing (active conflict period; data thin). LOW for settlement-area / disputed-jurisdiction deeds (specialist counsel mandatory; not commodity due-diligence).
 
-**Last verified**: 2026-07-02 (insurance regulator, ILA decisions database and hydrological-source attribution corrected 2026-09-18 per gov.il Capital Market Authority + apps.land.gov.il + Water Authority). Foreign-buyer / registry-fee / risks / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-07-02 (insurance regulator, ILA decisions database and hydrological-source attribution corrected 2026-09-18 per gov.il Capital Market Authority + apps.land.gov.il + Water Authority). Foreign-buyer / registry-fee / risks / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Mas Rechisha temporary-provision end date and osek patur ceiling verified 2026-10-21 per Israel Tax Authority; 2027-2028 budget watchlist added (see shared/regulatory-watch.md).
 
 ## Extension TODOs (deepen on first real run)
 

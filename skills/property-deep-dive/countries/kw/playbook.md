@@ -737,7 +737,7 @@ Kuwait uses a **civil-law notary system** (notary office under Ministry of Justi
 | Country | Foreign-buyer rule | Acquisition cost (typical) | Annual recurring | Yield (Q4 2025) | Currency | Visa via property |
 |---|---|---:|---:|---:|---|---|
 | **🇰🇼 Kuwait** | **Restricted — non-GCC individuals CANNOT own residential** | 3–4% (cash) where eligible | None | ~5–7% | KWD basket-managed | **NONE** |
-| **🇸🇦 Saudi Arabia** | Designated zones from Jan 2026 (Makkah/Madinah: Muslim natural persons only) | 5–8% | None on developed (White Land + Vacant Property Fees up to 10%/yr on undev ≥5,000 m²) | ~5.5–7.5% Riyadh | SAR pegged USD | Premium Residency SAR 4M |
+| **🇸🇦 Saudi Arabia** | Designated zones from Jan 2026 (Makkah/Madinah: Muslim natural persons only) | 5–8% | None on occupied developed (White Land + Vacant Property Fees up to 10%/yr on undev ≥5,000 m²; long-vacant buildings up to 5% of value in announced zones, none as at 2026-10-21) | ~5.5–7.5% Riyadh | SAR pegged USD | Premium Residency SAR 4M |
 | **🇦🇪 UAE** | Designated freehold zones (Dubai 2002+, Abu Dhabi 2019/2021) | 6–8% Dubai | None for owner-occ; service charges | ~6–8% Dubai | AED pegged USD | Golden Visa AED 2M |
 | **🇶🇦 Qatar** | 9 freehold + 16 leasehold designated zones | 3–4% | None for owner-occ | ~5–7% | QAR pegged USD | Investor Residency QAR 730k |
 | **🇧🇭 Bahrain** | Open freehold for foreigners in designated areas | 4–7% | None for owner-occ | ~6–8% | BHD pegged USD | Golden Residency BHD 200k |

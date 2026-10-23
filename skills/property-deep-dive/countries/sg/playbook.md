@@ -17,8 +17,9 @@ ISO2: `sg`. Status: ✅ Fully populated (researched 2026-05).
 - **Foreign-buyer rule**: governed by the **Residential Property Act 1976** (RPA), administered by the **Land Dealings Approval Unit (LDAU)** at SLA:
   - **Non-restricted (foreigners may buy without LDAU approval)**: condominium / apartment units in any approved condominium development; strata-titled landed in approved condo developments; leasehold ≤ 7 years (incl. renewals) of any residential property
   - **Restricted (LDAU consent required)**: landed houses (terrace, semi-detached, detached, bungalow); vacant residential land; strata landed not in an approved condo development; on the mainland LDAU consent is **rarely granted** to non-PR foreigners (case-by-case; "exceptional economic contribution" test)
-  - **Sentosa Cove**: foreigners (incl. non-PR) can apply for LDAU consent to buy ONE landed unit ≤ 1,800 m² for owner-occupation only (no rental, no second purchase) — see SLA LDAU FAQ
+  - **Sentosa Cove**: foreigners (incl. non-PR) can apply for LDAU consent to buy ONE landed unit ≤ 1,800 m² land area for owner-occupation only (no rental; a second restricted property only if the first is disposed of on or before completion of the new purchase) — the FAQ's Sentosa Cove section lists no PR-duration test, unlike the mainland criteria (PR ≥ 5 years + exceptional economic contribution) ([SLA LDAU FAQ](https://app.sla.gov.sg/ldau/faq), read 2026-10-23)
   - **HDB flats**: foreigners CANNOT buy. PRs may buy **resale HDB only** (no BTO / SBF) after holding PR ≥ 3 years AND forming a family nucleus with another SC/PR spouse or with parents (HDB eligibility rules)
+    - **Private-property owners (SC / PR households)**: since 28 Jul 2026, private residential property owners and ex-owners buying a **non-subsidised resale** flat without an HDB housing loan no longer serve the 15-month wait-out introduced on 30 Sep 2022; they need an HDB Flat Eligibility (HFE) letter and must dispose of all private residential property, in Singapore or overseas, within six months of completing the purchase. The 30-month wait-out after disposal still applies to subsidised flats, Executive Condominiums bought from a developer and any purchase with an HDB housing loan (2026 data, 2026-10-23 verified; source [HDB release, 28 Jul 2026](https://www.mnd.gov.sg/newsroom/press-releases/view/removal-of-the-15-month-wait-out-period-for-private-residential-property-owners-purchasing-non-subsidised-hdb-resale-flats))
   - **Application fee**: LDAU in-principle / formal approval = **S$1,220 per property** (SLA fee schedule)
 - **Visa**: NO citizenship-by-investment. Pathways for property-linked / HNW migration:
   - **Global Investor Programme (GIP)** — direct PR; thresholds (effective 2023; GIP Factsheet updated 2025-05): S$10M new business + ≥30 hires (≥50 % SC, ≥10 new); **S$25M into a GIP-selected fund**; or single family office S$200M AUM with ≥S$50M into EDB-approved funds
@@ -625,7 +626,7 @@ Universal coverage in Singapore — **mains water + sewerage + electricity + gas
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-01
+**Last verified**: 2026-05-01 (HDB private-property-owner wait-out removal of 28 Jul 2026 added 2026-10-23 against the HDB release; see shared/regulatory-watch.md SG)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

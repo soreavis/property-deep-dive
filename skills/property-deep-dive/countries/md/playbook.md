@@ -628,7 +628,7 @@ Moldova is **civil-law**; **notar** mandatory for any immovable-property transfe
 | **🇲🇩 Moldova** | Open (residential); ag/forest banned for foreign individuals | 1.5–3% | 0.05–0.4% × cadastral value | ~5–8% Chișinău | MDL managed-float |
 | **🇷🇴 Romania** | EU/EEA full; non-EU buildings only (no land) | ~2–3% | ~0.1–0.3% × cadastral (rising 2026 reform) | ~5–7% Bucharest | RON managed-float |
 | **🇺🇦 Ukraine** | War conditions — DD highly disrupted | n/a (war) | n/a | n/a | UAH war regime |
-| **🇧🇬 Bulgaria** | EU/EEA full; non-EU residential OK; ag land restricted | ~3–5% | low | ~4–6% Sofia | BGN currency-board to EUR |
+| **🇧🇬 Bulgaria** | EU/EEA land OK (ag-land 5-yr residence rule contested, CJEU C-562/22); non-EU/EEA buildings only, no land except by treaty or inheritance | ~3–5% | low | ~4–6% Sofia | BGN currency-board to EUR |
 | **🇬🇪 Georgia** | Open (residential); ag banned post-2017 | 0.1–0.5% | 0–1% × market (income-threshold) | ~6–10% Tbilisi | GEL managed-float |
 
 ### Moldova's distinctive position

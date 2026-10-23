@@ -41,7 +41,7 @@ For the property's country, return:
 |---|---|---|
 | **PT** | **IFICI / NHR 2.0** (replaced classic NHR, closed to new entrants 1 Jan 2024 by Lei 82/2023) — research/innovation only; **pensions NO LONGER exempt under IFICI** (must pay PT progressive PIT) | EQF L6+ degree, scientific research / certified tech startup / export co only |
 | **GR** | **Foreign Pensioner Tax Regime** — 7% flat on foreign-source income for 15 years for new tax residents who haven't been GR tax resident in 5 of last 6 years | Apply to AADE (KEFODE Attica / Thessaloniki) by 31 Oct of the arrival year or the next year (AADE A.1192/2026, ΦΕΚ Β' 5767/24.09.2026); must move from a state with a tax administrative-cooperation agreement with GR; 7% covers all foreign-source income, not only the pension (not Greek-source income) |
-| **IT** | **Southern Italy 7% regime** — flat 7% for 9 years on foreign-source income for retirees moving to municipalities <20,000 pop in S Italy | First-time tax residency in IT in last 5 years |
+| **IT** | **Southern Italy 7% regime** — flat 7% for 9 years on foreign-source income for retirees moving to municipalities ≤30,000 pop in S Italy or in the 2009/2016 earthquake comuni (limit <20,000 until 6 Apr 2026; Agenzia delle Entrate, updated 8 May 2026) | First-time tax residency in IT in last 5 years |
 | **CY** | **17-year non-dom regime** — exempt SDC; foreign pension may be taxed at 5% flat (over €3,420 pa) OR Cyprus marginal rate | Choose annually |
 | **MT** | **MPRP residency** + flat 15% on foreign-remitted income (Maltese non-dom rule) | Min stay requirements |
 | **PA** | **Pensionado program** (most generous LatAm) — US$1,000/mo lifetime pension qualifies; no PA tax on foreign-source income (territorial system) | |
@@ -348,7 +348,7 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 | Country | Program | Threshold |
 |---|---|---|
 | GR | Foreign Pensioner Tax Regime | 7% flat on foreign-source for 15 yrs |
-| IT | Southern Italy 7% regime | 7% flat for 9 yrs (S municipalities <20k pop) |
+| IT | Southern Italy 7% regime | 7% flat for 9 yrs (S municipalities ≤30k pop since 7 Apr 2026) |
 | PT | IFICI (NHR 2.0) | Pensions NO LONGER exempt — narrower scope |
 | PA | Pensionado | $1,000/mo pension; massive discounts on services |
 | CR | Pensionado | $1,000/mo (lifetime pension); Rentista $2,500/mo |

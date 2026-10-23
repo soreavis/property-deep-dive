@@ -133,7 +133,7 @@ Country-specific tax terms:
 - Local existing competition (3–8 nearest comparable units)
 - Country-typical occupancy rates (rural / urban / coastal)
 - Country tax regime for short lets (with thresholds and abatements)
-- Classification benefits if any (e.g., FR meublé classé, IT CIR, ES VTV)
+- Classification benefits if any (e.g., FR meublé classé, IT CIN, ES VTV)
 
 **Output structure**:
 ```markdown
@@ -152,7 +152,7 @@ Country-specific tax terms:
 ### Tax regime
 - **Best regime**: <name + decision>
 - Thresholds: <country-specific>
-- Special status to claim: <e.g. classement, CIR, VTV>
+- Special status to claim: <e.g. classement, CIN, VTV>
 
 ### Strategic notes
 - <pool / view / wifi differentiators>
@@ -160,11 +160,11 @@ Country-specific tax terms:
 ```
 
 Country-specific regimes:
-- **FR**: Micro-BIC classé/non-classé, URSSAF 6%/21.2%, plafonds 15k/83.6k
+- **FR**: Micro-BIC classé/non-classé, URSSAF 6%/21.2%, plafonds 15k/83.6k; régime-réel amortisation cap pending in PLF 2027 art. 7 (bill, see regulatory-watch)
 - **DE**: Vermietung & Verpachtung Einkommensteuer; commercial threshold; gewerbesteuer if hotel-style
 - **UK**: Furnished Holiday Let (FHL) rules + new abolition 2025; income tax + property income allowance £1,000
-- **IT**: Cedolare secca 21% short-let; CIR registration mandatory
-- **ES**: VTV/VFT regional license; IRNR 19/24% for non-residents
+- **IT**: Cedolare secca short-let 26%, 21% on one unit the taxpayer names; max 2 short-let apartments from 2026 (above two = presumed business, partita IVA); national CIN mandatory since 1 Jan 2025 (a regional CIR only where a region adds it)
+- **ES**: VTV/VFT regional license; IRNR 19/24% for non-residents; 10% IVA on lets of 30 nights or fewer outside the landlord's habitual residence from 1 Dec 2026 (RDL 29/2026, pending convalidation)
 - **NL**: Box 3 imputed; B&B regulated by gemeente
 - **BE**: Régional licence (Brussels strict, Wallonia/Flanders moderate); IPP barème
 - **CH**: Cantonal patente; valeur locative impacts taxe
@@ -538,7 +538,7 @@ Country-specific authorities:
 ```
 
 **Cross-cutting traps to surface every time** (from `shared/language.md`):
-- Hague Apostille membership confusion — non-members (AE, EG, JO, KW, LB, QA, NG, KE, GH, TW, KH, LK, MV, MY, TH-until-late-2026, VN-until-Sept-2026) require full consular legalisation chain (4-8 weeks)
+- Hague Apostille membership confusion — non-members (AE, EG, JO, KW, LB, QA, NG, KE, GH, TW, KH, LK, MV, MY) and TH (Contracting Party since 30 Jun 2026; Convention not in force until 28 Feb 2027) require full consular legalisation chain (4-8 weeks); VN in force since 11 Sep 2026 except vs DE / AT / CZ (Art. 12(2) objections)
 - "Sworn translator" means three different regimes — statutory profession (FR/DE/ES/IT/...), court-admitted (ZA/JP/KR/IN), or notary-public-certified (IL/US/UK/IE/AU/NZ + most common-law)
 - Bilingual deeds — local-language version always controls (IT, DE, ID, MX, HU)
 - Diagnostic documents universally local-language-only — buyer pays own translation
@@ -583,7 +583,7 @@ Country-specific authorities:
 
 **Cross-cutting traps to surface every time** (from `shared/connectivity.md`):
 - "Fibre available" on the listing ≠ active line at this unit — verify regulator address-checker + ask seller for active line ID before signing
-- National FTTH percentages mask rural/urban gaps — ES 92% national vs 79% rural; UK 74% national but 90%+ urban with isolated rural gaps; BR 70% national but tier-1-skewed; AU mixes FTTP/FTTC/FTTN/HFC/FW/Sky Muster
+- National FTTH percentages mask rural/urban gaps — ES 92% national vs 79% rural; UK 78% national vs 81% urban / 61% rural (Jul 2025, Ofcom CN2025; 82% national by Jan 2026); BR 70% national but tier-1-skewed; AU mixes FTTP/FTTC/FTTN/HFC/FW/Sky Muster
 - Starlink legality varies and changes — banned (CN/IR/SY/RU/BY/AF/CU/KP), pending (SA/MA/EG/BH/KW/AM/AZ/GE/UZ/IL-security/IN/KR), grey (ZA-30%-BEE), not-licensed (BA-major-EU-absence, JM, TR), recently licensed (AE Aug 2026, JO Feb 2026, CO Apr 2024); status moves fast
 - 5G FWA does not replace fibre for upload-heavy work — symmetric-gigabit FTTH (IS Reykjavík Fibre, KR/JP/SG/HK/TW urban, CH FR symmetric add-ons) required for video conferencing at scale
 - Strata / HOA / riser approval — strong individual right-to-fibre laws (FR Loi Pintat, IT D.Lgs. 259/2003 + Law 12/2019, PT DL 123/2009, ES Ley 9/2014); assembly approval routinely required (DE Mietshaus, AT WEG, NL VvE, BE syndic, CH Stockwerkeigentum, SE BRF, FI taloyhtiö, CZ panelák SVJ, IL board, IN society/RWA, ZA body corp, AU Owners Corp, JP マンション 管理組合, KR 아파트 단지)
@@ -633,7 +633,7 @@ Country-specific authorities:
 - Wealth tax overlap on overseas property — most DTTs do NOT cover wealth tax; FR resident + ES property = IFI worldwide AND Patrimonio Spanish-situs (no relief)
 - Estate/inheritance-tax patchwork — US 16 treaties; UK ~10; DE 5; FR ~7; IT ~7; ES ~3 — most foreign property gets DOUBLE-taxed on death
 - Exit-tax events on direct foreign RE — YES in US (§ 877A) / CA (§ 128.1) / AU (CGT event I1) / IL (§ 100A) / ZA (§ 9H); NO in DE (§ 6 AStG shareholdings only) / FR (Art. 167 bis) / JP (§ 60-2) / KR (Art. 118-9)
-- Special-inbound-regime lock-in — IT 24-bis €100k/€200k 15y / IT 24-ter 7% pensioners / ES Beckham 24% / UK FIG 4y / IL Olim 10y + 2026 reporting reform / NL 30%-ruling → 27% from 2027
+- Special-inbound-regime lock-in — IT 24-bis €100k/€200k/€300k by transfer date (€300k from 1 Jan 2026) 15y / IT 24-ter 7% pensioners (comuni ≤30k) / ES Beckham 24% / UK FIG 4y / IL Olim 10y + 2026 reporting reform / NL 30%-ruling → 27% from 2027
 - Treaty FTC vs treaty exemption — exemption-with-progression (DE/AT/FR/CH most EU treaties) vs credit method (US/UK/CA/AU/JP/IN); DE-ES DTT 2013 atypically uses credit; verify per-treaty Article 24 method
 
 ---

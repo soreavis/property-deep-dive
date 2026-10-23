@@ -358,7 +358,7 @@ property-deep-dive/
 ├── config/
 │   ├── _regions.json                 # docs-build input — country region grouping
 │   ├── _tiers.json                   # refresh-cadence tier membership (A 90d / B 180d / C 365d)
-│   └── _visa-programs.json           # source of truth for --visa (201 records, 16 regions; shared/visa-programs.md auto-renders from this)
+│   └── _visa-programs.json           # source of truth for --visa (202 records, 16 regions; shared/visa-programs.md auto-renders from this)
 ├── .editorconfig                     # cross-editor consistency
 ├── .markdownlint.json                # markdown lint rules used by pr-validate
 ├── .gitignore

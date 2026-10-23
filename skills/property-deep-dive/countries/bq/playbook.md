@@ -380,7 +380,7 @@ Foundational law: **Belastingwet BES, Hoofdstuk VII Overdrachtsbelasting**. Tari
 | **🇨🇼 Curaçao** | Open; tax-incentive structures common | ~6–10% | OZB ~0.4–0.6% market | 4–6% | XCG (Carib. Guilder ex-ANG) |
 | **🇦🇼 Aruba** | Open | ~6–9% | Onroerendgoedbelasting progressive 0.4%+ | 4–6% | AWG |
 | **🇸🇽 Sint Maarten** | Open | ~6–10% | OZB modest | 4–6% | XCG (post-31 Mar 2025) |
-| **🇳🇱 Netherlands (European)** | Open | ~6–8% | OZB (municipal) + box-3 if second home | 3–4% | EUR |
+| **🇳🇱 Netherlands (European)** | Open | ~3–4% main home; ~10–11% second home (2026) | OZB (municipal) + box-3 if second home | 3–4% | EUR |
 
 ### BES distinctive position
 

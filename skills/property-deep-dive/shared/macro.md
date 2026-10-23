@@ -130,24 +130,24 @@ For each country, primary macro sources:
 
 | Country / region | Rate | Direction |
 |---|---|---|
-| **ECB Deposit Rate** | 2.50% | hold (post-2024 cuts paused on Iran energy shock) |
+| **ECB Deposit Rate** | 2.50% from 16 Sep 2026 (MRO 2.65%, MLF 2.90%; 2.00% at Apr 2026; 2.25% from 17 Jun 2026) (2026 data, source [ECB key rates](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html)) | raised twice in 2026 (Jun, Sep; Governing Council 10 Sep 2026); next decision 29 Oct 2026 |
 | **BoE Bank Rate** | 3.75% | hold (since Dec 2025) |
 | **SNB Policy Rate** | 0.00% | held; CHF safe-haven appreciation 2024-26 |
-| **Riksbank** | 1.75% | paused after Sep 2025 cut |
-| **Norges Bank** | 4.00% | hold |
-| **DNB** (DK) | 3.10% (effective via FX peg) | hold |
-| **CBI Iceland** | 7.50% | gradually cutting |
-| **CNB Czech** | 3.25% | held |
-| **NBP Poland** | 4.50% | held; FX-loan legacy concerns |
-| **MNB Hungary** | 6.50% | hold (HUF volatility-management) |
+| **Riksbank** | 1.75% (held 23 Sep 2026, applies from 30 Sep 2026) | hold since the Sep 2025 cut; guidance turned to tightening — expects to begin raising the rate in 2026 if the outlook holds; next decision 4 Nov 2026 (Riksbank, Sep 2026) |
+| **Norges Bank** | 4.50% | 4.00% → 4.25% (meeting 6 May 2026) → 4.50% (meeting 23 Sep 2026, published 24 Sep 2026; 2026 data, source [Norges Bank](https://www.norges-bank.no/en/topics/Monetary-policy/Policy-rate/)); tightening — prepared to raise further if warranted by the inflation outlook — next decision 5 Nov 2026 |
+| **DN** (Danmarks Nationalbank, DK) | 2.10% current-account rate from 11 Sep 2026 (1.60% at Apr 2026; 1.85% from 12 Jun 2026) (2026 data, source nationalbanken.dk) | raised twice in 2026 following ECB hikes; spread to the ECB deposit rate unchanged at -40 bp; next ECB decision 29 Oct 2026 |
+| **CBI Iceland** | 8.00% (2026 data, source cb.is — valid from 7 Oct 2026) | held 7 Oct 2026 after a +25 bp hike on 19 Aug 2026 — tightening, not cutting, in 2026; inflation 5.9% vs 2.5% target; next decision 18 Nov 2026 |
+| **CNB Czech** | 3.75% (since 19 Jun 2026; 3.50% in Apr 2026) | held Aug + Sep 2026 after +25 bp hike in Jun 2026 (2026 data, source CNB Bank Board decisions) |
+| **NBP Poland** | 3.75% (reference rate since the 25 bp cut of 4 Mar 2026) | held at the 6-7 Oct 2026 MPC; next MPC 3-4 Nov 2026 — verify on nbp.pl (2026 data, source nbp.pl) |
+| **MNB Hungary** | 5.50% | held 20 Oct 2026 (effective 21 Oct 2026) after four 25 bp cuts in 2026 (6.50% → 5.50%, last cut decided 25 Aug 2026); O/N deposit 4.50%, O/N collateralised loan 6.50% (2026 data, source MNB Monetary Council press releases) — next meeting 17 Nov 2026 |
 | **NBS Slovakia** | ECB-bound | ECB Deposit |
 | **BNR Romania** | 6.50% | hold (RON managed float) |
 | **BNB Bulgaria** | ECB-bound (since 1 Jan 2026) | ECB Deposit |
 | **HNB Croatia** | ECB-bound (since 1 Jan 2023) | ECB Deposit |
-| **NBS Serbia** | 5.50% | hold |
+| **NBS Serbia** | 5.75% (2026 data, source NBS press release 8 Oct 2026) | hold — unchanged since the 25 bp cut of 12 Sep 2024; deposit facility 4.5%, lending facility 7.0%; next meeting 12 Nov 2026 |
 | **CBCG Montenegro** | n/a (EUR unilateral) | ECB Deposit indirect |
 | **CBBH Bosnia** | n/a (currency board) | ECB Deposit indirect |
-| **NBRSM N. Macedonia** | 5.50% | hold |
+| **NBRSM N. Macedonia** | 4.25% (Central Bank bills; overnight loan 4.75%, overnight deposit 3.75%) | hold — raised +0.25pp from 4.00% on 16 Jun 2026, then held 28 Jul and 15 Sep 2026 (2026 data, source NBRSM Monetary Policy Executive Board releases; 30 Sep 2026 release `https://www.nbrm.mk/ns-newsarticle-soopstenie-30092026-en.nspx` + rates panel of the 15 Oct 2026 release `https://www.nbrm.mk/ns-newsarticle-soopstenie-15102026-en.nspx`); verify against the next Executive Board release |
 | **BoA Albania** | 2.75% | hold |
 | **BoC Canada** | 2.75% | held; review 2026 considering AU-style FIRB post-2027 |
 | **RBA Australia** | 4.10% | gradually cutting |
@@ -156,8 +156,8 @@ For each country, primary macro sources:
 | **BCB Brazil** | **14.75%** | cuts paused on Iran energy shock Mar 2026 |
 | **BCRA Argentina** | n/a (volatile post-Milei) | currency-band managed; effective lending rates 25-38% UVA |
 | **BCCR Costa Rica** | 3.50% | held |
-| **PA (USD-dollarized)** | follows Fed Funds 4.25-4.50% | Fed-bound |
-| **Fed Funds (US)** | 4.25-4.50% | hold (Fed paused after 2024 cuts; Q1 2026 print pending — verify FOMC) |
+| **PA (USD-dollarized)** | follows Fed Funds 3.75-4.00% (since 16 Sep 2026) | Fed-bound |
+| **Fed Funds (US)** | 3.75-4.00% | raised 25 bp from 3.50-3.75% on 16 Sep 2026, 12-0 vote (2026 data, source federalreserve.gov FOMC statement of 16 Sep 2026); next FOMC 27-28 Oct 2026 — verify |
 | **TCMB (Turkey)** | 37.00% | set 23 Jan 2026, held through PPK 10 Sep 2026 (TCMB 2026-38); eased from 50% Mar-2024 peak — verify against latest TCMB MPC |
 | **CBUAE (UAE)** | ~4.40% (EIBOR-aligned) | Fed-bound via AED/USD peg 3.6725 |
 | **BoJ (Japan)** | 1.25% | 0.50% (Jan 2025) → 0.75% (Dec 2025) → 1.0% (16 Jun 2026) → 1.25% (18 Sep 2026, effective 24 Sep 2026; 2026 data, source BoJ MPM k260918a); first hike cycle since 2007 — next MPM 29-30 Oct 2026 |
@@ -178,7 +178,7 @@ For each country, primary macro sources:
 | **MAS (Singapore)** | n/a (FX-based policy via S$NEER managed float) | macroprudential via SSD/ABSD/LTV; no policy rate — verify next MAS MPS https://www.mas.gov.sg |
 | **HKMA (Hong Kong)** | Base Rate ~4.75% est. (Fed-bound via LERS Convertibility Undertaking 7.75-7.85) | Fed-tracking; no independent policy rate — verify https://www.hkma.gov.hk |
 | **BOK (Korea)** | 2.75% est. | gradual cuts from 3.50% peak (2023) — verify next BOK MPC https://www.bok.or.kr |
-| **CBC (Taiwan)** | 2.00% est. (Discount Rate) | hold; macroprudential focus — verify https://www.cbc.gov.tw |
+| **CBC (Taiwan)** | 2.00% (rediscount rate, held 17 Sep 2026 per CBC release) | hold; 2nd-home LTV cap eased to 70% from 18 Sep 2026 — https://www.cbc.gov.tw/tw/cp-971-192865-5f8ca-1.html |
 | **SNB (Liechtenstein)** | 0.00% (CHF-bound via 1980 Currency Treaty) | SNB-bound; no independent monetary policy |
 | **AMCM (Macao)** | Base Rate ~4.75% est. (HKD-bound via MOP/HKD peg + LERS indirect Fed-bound) | Fed-tracking via double peg — verify https://www.amcm.gov.mo |
 | **n/a (Andorra)** | EUR-using (2011 Monetary Treaty); no central bank | ECB Deposit indirect |
@@ -318,9 +318,8 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 ## Cyclical phase classification (Apr 2026)
 
 ### Late-cycle / soft landing
-- Eurozone (ECB held 2.50% post-cuts)
+- Eurozone (ECB deposit rate 2.00% at Apr 2026, held since Jun 2025; raised to 2.25% Jun and 2.50% Sep 2026)
 - UK (BoE 3.75%)
-- US (Fed 4.25-4.50%)
 - CA (BoC 2.75%)
 - IL (BoI cautious; war-recovery)
 - HK (HKMA Fed-bound ~4.75%)
@@ -331,15 +330,18 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 ### Recovery / cutting
 - AU (RBA cutting 4.10%)
 - NZ (RBNZ cutting 3.50%)
-- IS (CBI cutting 7.50%)
 - MX (Banxico paused after 300 bps cuts)
 - CL (BCCh ~4.5% from 11.25% peak)
 - CO (BanRep ~9% from 13.25% peak)
+- BR (BCB Selic 13.75% since 17 Sep 2026, from 15.00% via 25 bp cuts starting 19 Mar 2026; BCB SGS 432)
 - PH (BSP ~5.75% mid-cut path)
 - ZA (SARB gradual cuts ~7.5%)
+- HU (MNB cutting 5.50% — four 25 bp cuts in 2026 from 6.50%, held 22 Sep and 20 Oct 2026)
 
 ### Active tightening / hold high
 - HU (MNB 6.50% — HUF volatility)
+- IS (CBI 8.00% — +25 bp hike 19 Aug 2026, held 7 Oct 2026; CPI 5.9% vs 2.5% target)
+- US (Fed 3.75-4.00% — 25 bp hike 16 Sep 2026; re-classify after the 27-28 Oct 2026 FOMC)
 - BR (BCB 14.75% — Selic on hold post-cuts)
 - TR (TCMB 37.0% — held 10 Sep 2026, eased from 50% Mar-2024 peak; CPI 31.51% YoY Aug 2026)
 - AR (volatile peso band)
@@ -412,7 +414,7 @@ PL: 3-4%
 RO: 4-5% (post-VAT-hike)
 TR: 31.51% YoY Aug 2026 (TÜFE, TÜİK via TCMB PPK summary 2026-42 — high-inflation regime, easing trajectory; verify TÜİK)
 AR: 30%+ (post-Milei normalization)
-BR: 4-5% (Selic on hold)
+BR: 4-5% (Selic being cut — 13.75% since 17 Sep 2026, BCB SGS 432)
 JP: ~2-3% (BoJ target met; first sustained 2%+ run since 1990s)
 TH: ~1-2% (sub-target)
 AE: ~2-3% (low; pegged regime)
@@ -461,7 +463,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 ### Tier-1 (PR #57)
 
-**US** — CPI ~2.5% YoY (Q1 2026 est., verify BLS https://www.bls.gov/cpi/); GDP ~2.5% (2025 BEA advance est., verify https://www.bea.gov); Fed Funds 4.25-4.50% (hold since Q4 2024); 10y UST ~4.30%; cyclical phase: late-cycle / soft-landing.
+**US** — CPI ~2.5% YoY (Q1 2026 est., verify BLS https://www.bls.gov/cpi/); GDP ~2.5% (2025 BEA advance est., verify https://www.bea.gov); Fed Funds 3.75-4.00% (25 bp hike 16 Sep 2026, federalreserve.gov; next FOMC 27-28 Oct 2026); 10y UST ~4.30%; cyclical phase: tightening (re-check after the 27-28 Oct 2026 FOMC).
 
 **TR** — TÜFE 31.51% YoY Aug 2026 (TÜİK via TCMB PPK summary 2026-42; high-inflation regime, easing from Oct-2022 peak 85.51%; verify TÜİK https://www.tuik.gov.tr); GDP ~3-4% (2025 est., verify); TCMB policy rate 37.00% (held at PPK 10 Sep 2026, TCMB 2026-38; cut from 50% Mar-2024 peak — verify against latest MPC https://www.tcmb.gov.tr); 10y TRY yield ~28-32%; USD eurobond ~7.5% — that's the cleaner foreign-buyer reference. Macro flag: **post-hyperinflation normalization, FX risk extreme** — TRY lost ~80% vs USD 2021-2024.
 
@@ -507,7 +509,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **KR** — CPI ~2.1% est. (Q1 2026 — verify KOSTAT); GDP ~2% (2025); BOK 2.75% est. (gradual cuts from 3.50% peak — verify next BOK MPC https://www.bok.or.kr); 10y KTB ~3.20%; AA-rated. Macro flag: **late-cycle / cutting**, demographic cliff (TFR 0.72 — lowest globally per KOSTAT 2024).
 
-**TW** — CPI ~2.0% est. (Q1 2026 — verify DGBAS https://www.dgbas.gov.tw); GDP ~3-4% (2025, AI-export driven); CBC Discount Rate 2.00% est. (hold; macroprudential focus on Taipei/New Taipei); 10y CGB ~1.60%; AA-rated. Macro flag: **stable expansion**, geopolitical premium (cross-Strait risk).
+**TW** — CPI ~2.0% est. (Q1 2026 — verify DGBAS https://www.dgbas.gov.tw); GDP ~3-4% (2025, AI-export driven); CBC rediscount rate 2.00% (held 17 Sep 2026 per CBC release; 2nd-home LTV cap eased to 70% from 18 Sep 2026); 10y CGB ~1.60%; AA-rated. Macro flag: **stable expansion**, geopolitical premium (cross-Strait risk).
 
 **LI** — CPI ~1.5% est. (CHF-bound, tracks CH; verify Statistik Liechtenstein https://www.llv.li/en/national-administration/office-of-statistics); GDP ~3-5% (2024 est. — small economy, verify); SNB-bound via 1980 Currency Treaty (no independent rate); no domestic sovereign issuance; AAA-rated. Macro flag: **stable / pegged via CHF**, OECD top-tier GDP/capita; tiny housing market (~40k pop per Statistik Liechtenstein 2024).
 

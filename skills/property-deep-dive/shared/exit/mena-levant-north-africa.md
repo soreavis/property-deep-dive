@@ -44,7 +44,7 @@
 
 ## 🇮🇱 Israel
 - **DOM**: Tel Aviv (Center/North TA/Ramat Gan) ~90-150 / Jerusalem 100-200 / Haifa 120-200 / Beersheba 150-300 / periphery longer
-- **Commission**: **2% each side + 17% VAT (Ma'am)** typical (some 1.5-2% buyer; 2% seller)
+- **Commission**: **2% each side + 18% VAT (Ma'am)** typical — VAT 18% since 1 Jan 2025, up from 17% (Israel Tax Authority VAT-rate history `https://www.gov.il/he/pages/vat-history`; 2026-10-21 verified) (some 1.5-2% buyer; 2% seller)
 - **Contract**: contract via עורך דין (orech din / lawyer-led) — both sides retain own attorney; Mas Rehisha (purchase tax) buyer-side
 - **MLS**: no formal MLS; Yad2 + Madlan + WinWin
 - **Discount**: 5-12% off asking; 2024-2026 conflict-cycle deeper in periphery
