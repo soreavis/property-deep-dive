@@ -92,6 +92,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - feat(url-liveness): DNS pre-pass with resolver-confirmed NXDOMAIN, HTTP-only fallback and meta-refresh following ([#445](https://github.com/soreavis/property-deep-dive/pull/445)) — by @soreavis
 
+- feat(ci): gate link labels that name a different host than their URL ([#446](https://github.com/soreavis/property-deep-dive/pull/446)) — by @soreavis
+
 ### Security
 
 - **CI Python lock bumped, clearing 25 advisories: pypdf `6.16.2` → `6.21.2` (8 high, 7 medium, 1 low), aiohttp `3.14.3` → `3.14.4` (3 high, 3 medium, 2 low), multidict `6.7.1` → `6.9.1` (1 medium).** yarl moves to `1.25.1` because aiohttp 3.14.4 requires it; no package is added or dropped. `requirements.in` floors now sit at the patched pypdf and aiohttp. Supersedes Dependabot #421, #438, #439 and #441, whose regeneration dropped `typing-extensions` (needed on Python 3.12) and failed the lock gate.
