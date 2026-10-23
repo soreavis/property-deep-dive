@@ -404,7 +404,7 @@ Service and works rows are illustrative est. ranges, not quoted figures — veri
 - **Federal foreign-buyer ban** until **1 Jan 2027** (Prohibition Act in force 1 Jan 2023; repeal deferred to 1 Jan 2027 by Budget Implementation Act, 2024, No. 1, S.C. 2024, c. 17, s. 149)
 - **Provincial fragmentation extreme** — each province has different cadastre, LTT, rent control, condo law
 - **BC vs ON major divergence** — BC PTT 1-3% + 2% over $3M + 20% APTT on foreign buyers (5 regional districts); ON LTT 0.5-2.5% + Toronto MLTT (up to 8.6% above $20M) + 25% ON NRST on foreign buyers (+10% Toronto MNRST)
-- **UHT REPEALED 26 Mar 2026** — no longer applies for 2025+ (file 2022-2024 obligations)
+- **UHT eliminated for 2025+** — no tax payable and no return required for 2025 and later calendar years (UHT Act ss. 1.1 and 6.1, S.C. 2026, c. 3); 2022–2024 returns and liabilities remain; the repeal of the Act itself (S.C. 2026, c. 3, s. 169) is listed as not in force (2026 data, source [Justice Laws — Underused Housing Tax Act](https://laws-lois.justice.gc.ca/eng/acts/U-0.5/FullText.html), current to 2026-09-30)
 - **BC SVT rates DOUBLED 2026** — foreign / untaxed worldwide earners 3%, Canadian citizens / PRs 1%; foreign rate 4% from the 2027 tax year (S.B.C. 2026, c. 5)
 - **Vancouver Empty Homes Tax 3%** + **Toronto Vacant Home Tax 3%**
 - **BC LOTR (Land Owner Transparency Registry)** — free public beneficial-owner search since Apr 2024 (UNIQUE in Canada)
@@ -458,7 +458,18 @@ Service and works rows are illustrative est. ranges, not quoted figures — veri
 
 ✅ **Fully populated** as of 2026-04-25 (Vancouver board name (Greater Vancouver REALTORS) corrected 2026-09-18 per gvrealtors.ca). Ownership tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 **Coverage check**: pricing (CREA + provincial boards), traffic, tax (extreme provincial divergence), rental (RTA per province), work, risks (wildfire + flood + earthquake + permafrost + radon), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for CREA HPI Mar 2026 + UHT repeal (Bill C-15 Royal Assent confirmed) + BC SVT 2026 doubling + Toronto MLTT graduated tier (1 Apr 2026) + foreign buyer ban extension; MEDIUM for post-2027 foreign-buyer review (in flux); MEDIUM for capital-gains inclusion rate (2/3 proposal paused).
+**Confidence**: HIGH for `--rental` (re-verified 2026-10-23), the Sep 2026 / Q3 2026 `--price` benchmark rows (each sourced to its board), the climate projections (ECCC Canada's Changing Climate Report 2026) and the tax facts re-checked on 2026-10-23: ON LTT + Toronto MLTT tiers from 1 Apr 2026, BC PTT / APTT, BC SVT 2026 doubling (S.B.C. 2026, c. 5), UHT eliminated for 2025+ (S.C. 2026, c. 3), 50% capital-gains inclusion (2/3 proposal cancelled 21 Mar 2025), foreign-buyer ban to 1 Jan 2027 (S.C. 2024, c. 17, s. 149); MEDIUM for the post-2027 foreign-buyer regime (review under way, nothing tabled located by Oct 2026), Montreal and Ottawa property-tax rows (est.), the combined marginal-rate range, `--work` salary ranges (est.), `--risks` build-era and sale-document rows, and `--traffic` city AADT layers (not re-verified); LOW for the Realtor.ca ~95% MLS share (no source found) and the illustrative contractor cost ranges (`--mains` costs, Cost benchmarks service and works rows; est., no primary source).
+
+### Per-section verification (overrides playbook-level date)
+
+| Section | Last verified | Verifier | Notes |
+|---|---|---|---|
+| `--rental` | 2026-10-23 | 2026-10-23 refresh wave | ON/BC/AB/QC rent rules, Vancouver / BC and Toronto STR rules, CITQ, Part XIII / NR6 and interest deductibility checked against primary sources; 10 changed, 11 confirmed |
+| Climate change projections (in `--risks`) | 2026-10-23 | 2026-10-23 refresh wave | Re-sourced to ECCC Canada's Changing Climate Report 2026; insurance-premium line carries no number |
+| Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | 11 templates checked by page content; LOTR redirect and Realtor.ca pattern updated |
+| Country profile — foreign-buyer ban line only | 2026-10-23 | 2026-10-23 refresh wave | 1 Jan 2027 end date matches Justice Laws (current to 2026-09-30); rest of the profile not fully re-verified |
+
+Other sections were partly refreshed on 2026-10-23 but keep unverified items, so they default to the Status footer date: Country profile, `--price`, `--traffic`, `--tax`, `--work`, `--risks`, `--mains`, Cost benchmarks, Active fiscal incentives, Common listing platforms, Caveats unique to CA, Reddit / forum sources, Verification authorities (see Update history).
 
 ## Extension TODOs
 
@@ -472,3 +483,27 @@ Service and works rows are illustrative est. ranges, not quoted figures — veri
 - [ ] Cross-border US/CA tax decision tree
 - [ ] Per-province RTA tenant protections summary
 - [ ] BC SVT vs Vancouver EHT scenario optimization
+
+## Update history
+
+- **2026-04-25** — Initial population
+- **2026-05-27** — Toronto MLTT high-value tiers, BC APTT, capital-gains inclusion, Section 116 and OSFI stress-test lines re-checked (stamps in the body)
+- **2026-09-18** — Vancouver board name corrected to Greater Vancouver REALTORS (gvrealtors.ca)
+- **2026-09-24** — Ownership tracker entries re-checked in the October regwatch wave (shared/regulatory-watch.md)
+- **2026-10-23** — Refresh wave. Playbook-level stamp not advanced: `--price`, `--tax`, `--work`, `--risks` and `--mains` keep unverified items. Facts changed / confirmed / unverifiable per section:
+  - Country profile 1 / 5 / 3 — CAD rate updated to the Bank of Canada 22 Oct 2026 rate; foreign-buyer ban end date (1 Jan 2027) confirmed against Justice Laws; postcode, admin units, BC PID and Indigenous leasehold not re-checked
+  - `--price` 11 / 3 / 1 — all 9 benchmark rows replaced with Sep 2026 board data (Montreal Q3 2026), each sourced; HPI-vs-average ratios computed; Realtor.ca ~95% MLS share unverified
+  - `--traffic` 4 / 1 / 2 — provincial count sources re-pointed to MTO, BC Traffic Data Program, Alberta highway traffic counts and Quebec MTMD pages; city AADT layers and verdict bands (curated) not re-checked
+  - `--tax` 29 / 34 / 4 — 2026 property-tax rates for Toronto, Vancouver, Calgary, Halifax and Edmonton; Toronto MLTT $10M–$20M tier 7.55%; Alberta fee $50 + $5 per $5,000; Quebec 2026 scale and Montréal tiers; NS HST 14%; UHT eliminated for 2025+; BC SVT 2026 rates and 4% foreign rate for 2027; Section 116 at 25% of the purchase price; Montreal and Ottawa rates, combined marginal-rate range and the $250k-threshold attribution unverified
+  - `--rental` 10 / 11 / 1 — ON guideline 2.1% (2026) / 1.9% (2027); BC STR registry fees; Toronto $390 registration, 6% MAT and fines; CITQ amendments; Part XIII / NR6; TAL name
+  - `--work` 2 / 2 / 3 — federal minimum wage $18.15 from 1 Apr 2026; federal incorporation $200; salary ranges kept as est.
+  - `--risks` 13 / 9 / 11 — hazard sources re-pointed; 2023 fire season (NRCan 14.6M ha and ECCC 18M ha both shown); 2023 evacuations; Cascadia; radon 2024 survey; asbestos ban 30 Dec 2018; vermiculite; BC PDS / AB RPR / QC DV wording; build-era rows, sale-document rows, tornado and WUI insurance unverified
+  - Climate change projections 4 / 0 / 1 — re-sourced to ECCC Canada's Changing Climate Report 2026
+  - `--mains` 2 / 0 / 5 — Metro Vancouver bulk-water role; Health Canada guideline edition; cost table stays illustrative est.
+  - Cost benchmarks 4 / 0 / 11 — transaction rows recomputed from `--tax` rates (ON split into Toronto and outside Toronto); service and works ranges labelled est.
+  - Active fiscal incentives 6 / 2 / 1 — FTHBI and Greener Homes marked CLOSED; federal FTHB GST/HST rebate and Ontario's temporary rebate (1 Apr 2026–31 Mar 2027) added
+  - Caveats unique to CA 5 / 6 / 0 — BC vs ON divergence, BC SVT, strata depreciation and CMHC lines updated; UHT line corrected (2025+ liability removed, repeal of the Act not in force); 'LOTR unique in Canada' not checked
+  - Common listing platforms 1 / 1 / 3 — HonestDoor coverage corrected; Realtor.ca share, Zolo, Sotheby's and Engel & Völkers unverified
+  - Reddit / forum sources 1 / 3 / 3 — r/VancouverRE replaced; claims rest on search listings
+  - Source URL templates 2 / 9 / 0 — LOTR redirect, Realtor.ca pattern
+  - Verification authorities 0 / 0 / 1 — no content change
