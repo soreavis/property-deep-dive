@@ -18,7 +18,7 @@
 - **Contract**: em regime de exclusividade 6 mo standard, max 24
 - **MLS**: no MLS; Idealista, Imovirtual, Casa Sapo
 - **Discount**: 5-10% off asking; rural deeper
-- **Sell-side**: residents taxed on 50% of gain at marginal (exempt if reinvested in PR within EU); non-residents 28% flat; commission 4-6%+VAT
+- **Sell-side**: residents taxed on 50% of gain at marginal (exempt if reinvested in PR within EU); non-residents also on 50% of gain at progressive rates since 1 Jan 2023 (rate set on worldwide income; old 28% flat gone — CIRS art. 72.º n.º 1 a) revoked by Lei 24-D/2022); commission 4-6%+VAT
 - **Liquidity**: 🟢 HIGH Lisbon/Porto/Algarve coastal; 🟠 MEDIUM Silver Coast; 🔴 LOW interior (Alentejo inland, Beira)
 - **Quirks**: NHR ended Dec 2023 — softening top-end Lisbon/Porto 2024-2026; Golden Visa real-estate route closed Oct 2023; AL (STR licence) freezes/non-renewal in Lisbon/Porto reshape investor exits
 
@@ -28,7 +28,7 @@
 - **Contract**: σύμβαση μεσιτείας exclusive 6 mo
 - **MLS**: no MLS; Spitogatos.gr + XE.gr
 - **Discount**: 8-15% off asking; islands narrower
-- **Sell-side**: **CGT on real estate suspended through 2026 (extended)**; commission 2%+VAT; ENFIA arrears must be cleared at sale
+- **Sell-side**: **CGT on real estate suspended through 31 Dec 2026 (2027 extension drafted, not enacted)**; commission 2%+VAT; ENFIA arrears must be cleared at sale
 - **Liquidity**: 🟢 MEDIUM-HIGH Athens centre/southern suburbs; 🟢 MEDIUM Thessaloniki + Cyclades/Ionian top islands; 🔴 LOW mainland rural; 🔴 VERY LOW less-touristed islands
 - **Quirks**: Golden Visa thresholds raised Sep 2024 cooling top-end; forest/coastal/archaeological zone overlays critical to verify; Ktimatologio rollout still incomplete in pockets
 

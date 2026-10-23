@@ -16,7 +16,7 @@ Examples: `2026.04.0`, `2026.04.1`, `2026.05.0`, `2027.01.0`.
 
 ### What triggers a new tag
 
-- **`.0` (monthly cycle)** — at end-of-month, an automated workflow tags `YYYY.0M.0` if any change landed on `main` since the previous tag. No-ops silently when nothing changed.
+- **`.0` (monthly cycle)** — at end-of-month, `auto-tag.yml` tags `YYYY.0M.0` if any change landed on `main` since the previous tag, once a release-cut PR has bumped the manifests to that month (its guard refuses to tag otherwise). No-ops silently when nothing changed.
 - **`.1`, `.2`, …** — manual, on factual corrections / URL replacement batches / regulatory-watch entries that supersede a Tier-1 ENDED programme.
 - **What does NOT trigger a tag** — typo fixes, formatting, internal refactors, README polish without skill content change.
 
@@ -31,9 +31,6 @@ This file follows [Keep a Changelog](https://keepachangelog.com/) adapted for Ca
 - ...
 
 ### Changed
-
-- **Link labels that still named hosts the September URL wave had already re-pointed.** Twenty-one link labels across 28 spots now name the live host, so a reader copying the label lands where the link goes: eight `*.uz` vanity domains → `gov.uz` paths, `uzbekistonmet.uz`, `seismos.uz`, `toshkent.uzsuv.uz` and `e-visa.gov.uz`; `bit.sikkou.go.jp` → `bit.courts.go.jp`; `aomp.judicial.gov.tw` → `aomp109`; `api-adresse.data.gouv.fr` → `data.geopf.fr`; `cvtelecom.cv` → `alou.cv`; `unitel.cv` → `uniteltmais.cv`; `rtarmenia.am` → `ovio.am`; plus the stale IndiceVille, Clearstream, KPMG, MICEN, DCE Monaco, Kominfo and Service-Public.ma labels.
-- **41 regulatory-watch entries added across 29 countries, nine under new country headers (AD, AW, IN, KR, LC, MO, NG, OM, QA).** Tier-1 rows cover the Irish STLR Bill, the Moroccan CFC ramp, NIIRA 2025, the Nigeria Tax Act 2025, the Telangana Bhu Bharati Act, the Saudi White Land and Vacant Property Fees regime and the Korean flood-control reattribution; the rest are agency renames, platform migrations and outage notices carrying their own revisit dates.
 - ...
 
 ### Fixed
@@ -55,6 +52,14 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ## [Unreleased]
 
+### Fixed
+
+- **Dependabot pip PRs no longer fail the required lock gate.** Dependabot renders `requirements.txt` on Python ≥ 3.13 and drops `typing-extensions` (`aiosignal` needs it on 3.12), so #421, #438 and #439 all failed `requirements.txt matches requirements.in`. A `relock` job in `dependabot-auto-merge.yml` re-runs `scripts/lock-requirements.py` under the CI-pinned uv, keeps Dependabot's new pins plus main's pin for the dropped package, and pushes the fix to the branch (using the existing `AUTOMERGE_TOKEN` Dependabot secret). The helper now resolves with `--no-build`.
+- **Siblings that still stated claims the corpus audit corrected are fixed (84 statements).** Examples: San Marino's euro basis is the 2012 Monetary Agreement, not the 2000 one; UK 2027-28 property rates and the 22 % finance-cost relief are enacted by Finance Act 2026; Greek resale costs now include the 0.5–0.6 % Ktimatologio fee (~6.6–8.2 %); Portugal taxes non-residents on 50 % of the gain. 23 country playbooks, 25 shared files, SKILL.md and `config/_visa-programs.json` changed.
+- **Corpus audit of 21 Oct 2026 applied: 309 of 335 confirmed findings patched, plus 18 errors found in sample briefs.** 22 were already fixed on main; 4 touch only playbooks re-verified separately. 50 country playbooks, 54 shared files, SKILL.md and `config/_visa-programs.json` (re-rendered) changed; regwatch grows from 441 to 580 entries. Status changes include the end of Latvia's real-estate residence route (15 Sep 2026), Panama's US$500k resale threshold and Mauritius's Act 13 of 2026 permit reset.
+
+## [2026.10.0] - 2026-10-23
+
 ### Added
 
 - **Greece: announced 15 % transfer tax for non-EU home buyers is now tracked (Tier 1, not legislated).** The government's 90th TIF measures page lists FMA 3 % → 15 % (15.45 % with the municipal contribution) on residential purchases by buyers outside the first-home-exemption list among new measures not yet legislated; the 1 Jul 2027 start and the natural-persons-only scope are news-tier. Watch notes added to the GR playbook, Golden Visa rows, `compare.md` and `notary-process.md`; the current 3.09 % is unchanged.
@@ -66,7 +71,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - **The source audit no longer hides PDF-extractor failures, and the PR gate's PyYAML install is hash-pinned.** A malformed PDF or a `pdftotext` timeout used to fail silently, looking the same as a scanned image; the extractor error and URL now go to stderr and the PDF_NO_TEXT note in `report.json`. `url-liveness` ignores only network errors while reading a page title. `pr-validate.yml` installs PyYAML with `--require-hashes` from `.github/requirements/pr-validate.txt`, which Dependabot tracks. Other code-scanning findings in the CI scripts are cleared with no change in behaviour.
 - **All 34 baselined link labels that named another host than their URL are fixed; the baseline is empty.** 31 labels named a dead or wrong host and now name the host the link opens; three hrefs now open the page their label names. The Faroese financial regulator is Tryggingareftirlitið (banks: Danish FSA), not a "Finansieringseftirlitið"; immigration now cites Útlendingastovan, not the Environment Agency. Plain-text mentions of the same dead hosts (FO, ES, SA, AT) and the two dead Faroese allowlist entries are corrected too.
-- **Dependabot pip PRs no longer fail the required lock gate.** Dependabot renders `requirements.txt` on Python ≥ 3.13 and drops `typing-extensions` (`aiosignal` needs it on 3.12), so #421, #438 and #439 all failed `requirements.txt matches requirements.in`. A `relock` job in `dependabot-auto-merge.yml` re-runs `scripts/lock-requirements.py` under the CI-pinned uv, keeps Dependabot's new pins plus main's pin for the dropped package, and pushes the fix to the branch (needs a `RELOCK_TOKEN` Dependabot secret). The helper now resolves with `--no-build`.
+- **118 citations to 67 dead domains re-pointed or deprecated.** A DNS re-check on 21 Oct 2026 found 67 cited hosts with no answer (NXDOMAIN, NODATA or SERVFAIL). Across 36 country playbooks and 9 shared files, 102 citations now point to the authority's successor site or an equivalent source, 12 carry a dated deprecation marker and 4 dead links were dropped with the text kept; the Cabo Verde police and Peru A la venta hosts were already marked.
+- **December regwatch wave, run early: 261 of 261 wave entries re-checked across 89 countries.** 163 corrected, 8 narrowed or downgraded, 90 confirmed unchanged. Ten keep a December revisit keyed to an event still ahead (AHV vote, GModG § 42a deadline, SNB, NFIP, AL revaluation window, IE STL register, GI Treaty plenary, Amsterdam Helmersbuurt decision, NL Box 3 ×2); SK-247, GR-282, CA-347, BB-685 and KH-709 (year-end commencements) were outside the wave. Siblings patched across 70 country playbooks, SKILL.md, 34 shared files and `config/_visa-programs.json` (re-rendered).
 - **November regwatch wave, run early: 131 of 133 due entries re-checked, plus the three October leftovers (GE-536, CO-497, ID-554).** 67 corrected, 13 narrowed or downgraded, 54 confirmed unchanged; GR-278 and IL-592 stay due (sources walled). Nine entries now revisit the day after a scheduled event (NFIP 11 Dec, KZ 23 Oct, RO 30 Sep VAT cut-off, Vienna Landtag vote) instead of on tier cadence. Siblings patched across 60 country playbooks, SKILL.md, 31 shared files and `config/_visa-programs.json` (re-rendered).
 - **Status changes found:** Trinidad & Tobago property-tax collection is halted (FY2026 Budget Statement) at a 2 % statutory rate; the Bahamas Real Property Tax (Amendment) Act 2026 creates a foreign owner-occupied class; Botswana's Citizenship (Amendment) Act 2025 has a commencement order listed; Beijing cut its purchase-restriction threshold to 1 year citywide; Switzerland's population-cap initiative was rejected on 14 Jun 2026; Cape Verde's transfer tax is Lei 54/X/2025, not Lei 55.
 - **Scope fixes that change buyer advice:** Georgia's USD 150k real-estate permit is a 1-year short-term permit (the 5-year one needs USD 300k); Indonesian Hak Pakai needs an immigration document, not a KITAS/KITAP, and runs 80 years only on state / HPL land; Bali's Perda 4/2026 nominee ban is administrative, not criminal; Penang short-lets are closed to foreign owners; Japan's vacant-house land-tax jump is capped by the 70 % rule (≈4.2×, not 6×); Egypt's CBI statute is cited as Law 140/2019 on GAFI's own form.
@@ -84,6 +90,28 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - feat(gr): track the announced 15 % transfer tax for non-EU home buyers (90th TIF, not legislated) ([#417](https://github.com/soreavis/property-deep-dive/pull/417)) — by @soreavis
 
 - chore(deps): bump the actions-minor-patch group with 4 updates ([#422](https://github.com/soreavis/property-deep-dive/pull/422)) — by @dependabot[bot]
+
+- fix(deps): bump pypdf 6.21.2, aiohttp 3.14.4, multidict 6.9.1 in the lock (security) ([#442](https://github.com/soreavis/property-deep-dive/pull/442)) — by @soreavis
+
+- chore(ci): clear open CodeQL findings and hash-pin the pr-validate PyYAML install ([#443](https://github.com/soreavis/property-deep-dive/pull/443)) — by @soreavis
+
+- feat(url-liveness): DNS pre-pass with resolver-confirmed NXDOMAIN, HTTP-only fallback and meta-refresh following ([#445](https://github.com/soreavis/property-deep-dive/pull/445)) — by @soreavis
+
+- feat(ci): gate link labels that name a different host than their URL ([#446](https://github.com/soreavis/property-deep-dive/pull/446)) — by @soreavis
+
+- fix(sources): correct the 34 baselined link labels that named the wrong host ([#447](https://github.com/soreavis/property-deep-dive/pull/447)) — by @soreavis
+
+- feat(ci): let lock-requirements.py upgrade named packages only ([#449](https://github.com/soreavis/property-deep-dive/pull/449)) — by @soreavis
+
+- fix(sources): re-point or deprecate 118 citations to dead domains ([#451](https://github.com/soreavis/property-deep-dive/pull/451)) — by @soreavis
+
+- chore(regwatch): December revisit wave run early — 261 of 261 entries re-checked ([#452](https://github.com/soreavis/property-deep-dive/pull/452)) — by @soreavis
+
+- chore(deps): bump aiohttp 3.14.4 -> 3.14.5 in the lock ([#454](https://github.com/soreavis/property-deep-dive/pull/454)) — by @soreavis
+
+- chore(deps): bump the actions-minor-patch group across 1 directory with 6 updates ([#448](https://github.com/soreavis/property-deep-dive/pull/448)) — by @dependabot[bot]
+
+- docs(install): point pin + verify snippets at 2026.09.1 ([#414](https://github.com/soreavis/property-deep-dive/pull/414)) — by @soreavis
 
 ### Security
 
@@ -125,6 +153,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - **Antigua's two registry-portal liveness notes were inverted.** Re-checked 2026-09-18: `legalaffairs.gov.ag` serves HTTP 200 with a valid certificate (the 2026-05-28 TLS error has cleared) while `lands.gov.ag` Landfolio times out and the apex host no longer resolves — the playbook asserted the stale TLS error in two places and the inverted portal claim in one. Title registration is now cited to the Title by Registration Act CAP. 429 text published at laws.gov.ag.
 
 ### Changed
+
+- **Link labels that still named hosts the September URL wave had already re-pointed.** Twenty-one link labels across 28 spots now name the live host, so a reader copying the label lands where the link goes: eight `*.uz` vanity domains → `gov.uz` paths, `uzbekistonmet.uz`, `seismos.uz`, `toshkent.uzsuv.uz` and `e-visa.gov.uz`; `bit.sikkou.go.jp` → `bit.courts.go.jp`; `aomp.judicial.gov.tw` → `aomp109`; `api-adresse.data.gouv.fr` → `data.geopf.fr`; `cvtelecom.cv` → `alou.cv`; `unitel.cv` → `uniteltmais.cv`; `rtarmenia.am` → `ovio.am`; plus the stale IndiceVille, Clearstream, KPMG, MICEN, DCE Monaco, Kominfo and Service-Public.ma labels.
+
+- **41 regulatory-watch entries added across 29 countries, nine under new country headers (AD, AW, IN, KR, LC, MO, NG, OM, QA).** Tier-1 rows cover the Irish STLR Bill, the Moroccan CFC ramp, NIIRA 2025, the Nigeria Tax Act 2025, the Telangana Bhu Bharati Act, the Saudi White Land and Vacant Property Fees regime and the Korean flood-control reattribution; the rest are agency renames, platform migrations and outage notices carrying their own revisit dates.
 
 - **162 geofenced or bot-walled hosts added to the liveness exclusion list.** Indian, Saudi, Qatari, Kuwaiti, Moroccan, Thai and Taiwanese government estates, plus Cloudflare, Imperva, Akamai and F5 fronts, refuse the GitHub runner's egress while serving current content through other routes; counting them as dead after a three-week streak was the main source of the score drift. Each entry carries the reason and a re-check note.
 

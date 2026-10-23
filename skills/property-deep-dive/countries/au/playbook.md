@@ -127,13 +127,14 @@ State-based, varies hugely:
 
 - Up to $25k: 1.4%
 - ... top tier 6.5% over $2M
-- **Off-the-plan apt < $1M**: stamp duty abolished
+- **Off-the-plan duty concession** (not an abolition): construction / refurbishment costs incurred on or after the contract date are subtracted from the dutiable value. **Temporary version** for contracts 21 Oct 2024 – 20 Apr 2027: all buyers incl. investors, companies and trusts, strata lots with common property only (apartments, units, townhouses), no value threshold, no owner-occupation — extended 6 months by the Building Legislation and Treasury Legislation (Tax Relief) Amendment Act 2026 (Royal Assent 23 Jun 2026); does NOT reduce foreign purchaser additional duty (FPAD is calculated on the pre-concession value). From 21 Apr 2027 (unless extended again) only the standard concession: individuals who qualify for the PPR concession or the first home buyer exemption / concession, post-concession dutiable value ≤ $750,000 (first home buyers) / ≤ $550,000 (other PPR), move in within 12 months and live there 12 months; the old $1M threshold covered contracts 1 Jul 2021 – 30 Jun 2023 only. SRO's 'Help to buy' page still shows a 20 Oct 2026 end — superseded by the Act (2026 data, source [SRO VIC off-the-plan concession](https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty/concessions-exemptions-and-waivers/plan-duty-concession-0/understanding-plan-duty-concession) + [SRO VIC Tax Relief Amendment Act 2026 news](https://www.sro.vic.gov.au/about-us/news-and-events/news/building-legislation-and-treasury-legislation-tax-relief-amendment-act-2026); 2026-10-21 verified)
 - **Vacant Residential Land Tax (VRLT)**: progressive 1% → 2% → 3% based on consecutive vacant years; **statewide from 1 Jan 2025**; metro Melbourne unimproved land subject **from 1 Jan 2026**
 - **VIC Short-Stay Levy 7.5%** (from 1 Jan 2025) on STR revenue
 
 #### QLD (sliding to 5.75%)
 
-- FHB exemption to $700k
+- **Home concessions limited to specified residents from 1 Aug 2026**: the home, first home, first home (new home) and first home vacant land concessions apply only to Australian citizens, permanent residents and specified foreign retirees (legacy subclass 405/410, already AFAD-exempt) for transactions signed on or after 1 Aug 2026 (contracts signed on or before 31 Jul 2026 unaffected whenever they settle); other temporary residents pay standard rates + the 8% AFAD where they are foreign acquirers — Revenue (Cost of Living Relief Locked-In Law) and Other Legislation Amendment Act 2026, Royal Assent 29 Jun 2026 (2026 data, source [QRO changes to home concessions](https://qro.qld.gov.au/event/changes-to-home-concessions) + [QLD Budget Paper No. 4 2026-27](https://budget.qld.gov.au/files/2026-27-budget-bp4-budget-measures.pdf); 2026-10-21 verified)
+- **First home concession** (established home, eligible buyers): no duty at or below $700,000, partial concession under $800,000; **first home (new home)** and **first home vacant land** concessions reduce duty to nil with no value cap for contracts from 1 May 2025 (2026 data, source [QRO first home concession](https://qro.qld.gov.au/duties/transfer-duty/concessions/homes/first-home); 2026-10-21 verified)
 
 ### Foreign owner surcharges (state)
 
@@ -141,7 +142,7 @@ State-based, varies hugely:
 |---|---:|
 | NSW | **+9%** |
 | VIC | **+8%** + 4% absentee owner land tax |
-| QLD | **+8%** |
+| QLD | **+8%** AFAD; from 1 Aug 2026 temporary residents (other than specified foreign retirees) also lose the home concessions |
 | WA | +7% |
 | SA | +7% |
 
@@ -155,9 +156,10 @@ State-based, varies hugely:
 
 ### Capital gains tax
 
-- Marginal income tax + **50% discount** for >12-month hold
+- Marginal income tax + **50% discount** for >12-month hold — **legislated change from 1 Jul 2027**: for individuals, trusts and partnerships the 50% discount is replaced by cost-base indexation + a 30% minimum tax on gains accruing from 1 Jul 2027; gains accrued before then keep the 50% discount; new-build investors may choose either regime; treatment of foreign, mixed and temporary residents is left to later tranches — Treasury Laws Amendment (Tax Reform No. 1) Act 2026, Act No. 49 of 2026, assent 26 Jun 2026 (2026 data, source [APH bill r7493](https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7493) + [ATO](https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax); 2026-10-21 verified)
 - **Main residence exemption** — full exemption owner-occupied
 - **Foreign residents**: **lost main residence exemption** since 30 Jun 2020
+- **FRCGW (vendor side)**: on every sale of Australian real property, no threshold (contracts from 1 Jan 2025), the buyer withholds 15% of the price at settlement unless the vendor hands over an ATO clearance certificate — a route open only to Australian-resident vendors (a foreign-resident vendor cannot get one; see the variation route in `shared/exit-seller-withholding.md`); regime broadened from 1 Oct 2026 by Act No. 86 of 2026 ('real property' definition, 365-day principal asset test, purchaser must consider whether a vendor declaration is false) (2026 data, source [ATO](https://www.ato.gov.au/about-ato/new-legislation/in-detail/businesses/strengthening-the-foreign-resident-cgt-regime); 2026-10-21 verified)
 
 ### GST
 
@@ -175,6 +177,7 @@ State-based, varies hugely:
 - FIRB ban extended to 30 Jun 2029 (realised — announced 2026-27 Federal Budget, from the original 31 Mar 2027 sunset; 2026-07-03 verified)
 - VIC VRLT scope expanding through 2026 (metro Melbourne unimproved land)
 - State stamp duty reform proposals (NSW First Home Buyer Choice repealed 2023; replaced by FHBAS)
+- **2027 negative-gearing + CGT reform** (legislated — Act No. 49 of 2026, applies from 1 Jul 2027; see `--rental` and the CGT block above): 'new residential dwelling' is defined by ministerial instrument; Treasury states the final definition will go into primary legislation via the Tax Reform No. 3 Bill 2026 (introduced 14 Oct 2026, not passed), whose 4 Aug 2026 exposure draft counts a dwelling as new if acquired within 24 months of its certificate of occupancy (12 months in the Budget) (2026 data, source [APH bill r7554](https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554) + [Treasury exposure-draft release](https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/consultation-next-tranche-tax-reform-legislation); 2026-10-21 verified)
 
 ---
 
@@ -208,9 +211,9 @@ State-based, varies hugely:
 ### Tax on rental
 
 - Marginal income tax on net rental
-- **Negative gearing**: deductible against other income (UNIQUE in AU/NZ)
+- **Negative gearing**: net rental losses deductible against other income up to the 2026-27 income year; from the **2027-28 income year**, for established dwellings acquired on or after 7:30pm AEST 12 May 2026 (contract date counts, not settlement), losses are deductible only against residential property income incl. capital gains, excess carried forward, never against salary, wages or business income (s 26-155 ITAA97, Act No. 49 of 2026); dwellings held before the cutoff are grandfathered and genuinely new dwellings bought on first sale stay negatively gearable, but later buyers of that dwelling lose both negative gearing and the 50% CGT discount (2026 data, source [ATO](https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax); 2026-10-21 verified)
 - BTL mortgage interest fully deductible
-- Capital gains 50% discount + foreign-resident exemption loss
+- Capital gains 50% discount (replaced for gains accruing from 1 Jul 2027 by indexation + 30% minimum tax — see `--tax`) + foreign-resident exemption loss
 
 ---
 
@@ -347,9 +350,9 @@ State-based, varies hugely:
 
 - **First Home Buyer Assistance Scheme (FHBAS)**: NSW exempt up to $800k (no public Revenue NSW statement confirming annual indexation — verify at Revenue NSW FHBAS guide)
 - **Help to Buy Scheme**: federal (2024+) — equity contribution up to 40% (new) / 30% (existing)
-- **First Home Owner Grant (FHOG)**: $10-15k per state (variable)
+- **First Home Owner Grant (FHOG)**: set per state — QLD $30,000 for new homes valued under $750,000 (contracts from 20 Nov 2023; $15,000 before), continued by the 2026-27 QLD Budget for four years beyond its scheduled 30 Jun 2026 end (2026 data, source [QLD Budget Paper No. 4 2026-27](https://budget.qld.gov.au/files/2026-27-budget-bp4-budget-measures.pdf); 2026-10-21 verified); other states est. $10-15k — verify at the relevant State Revenue Office
 - **First Home Super Saver (FHSS)**: $50k withdrawal from super for first home
-- **Stamp duty concessions**: state-specific (VIC off-the-plan abolished, etc.)
+- **Stamp duty concessions**: state-specific (QLD home concessions limited to citizens / PRs / specified foreign retirees from 1 Aug 2026, QLD first home (new home) and vacant land concessions uncapped from 1 May 2025; VIC off-the-plan concession — temporary all-buyer version for contracts to 20 Apr 2027, not an abolition; see `--tax`)
 - **Solar/Battery rebates**: federal STCs + state schemes
 
 ## Common listing platforms
@@ -363,20 +366,21 @@ State-based, varies hugely:
 
 - **Foreign-buyer established-dwelling ban 1 Apr 2025 – 30 Jun 2029** (FIRB — extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset; 2026-07-03 verified)
 - **State-by-state divergence is extreme** — stamp duty, land tax, foreign surcharges, RTA all differ massively
-- **Foreign owner surcharges**: NSW 9%, VIC 8%, QLD 8%, WA 7%, SA 7%
+- **Foreign owner surcharges**: NSW 9%, VIC 8%, QLD 8%, WA 7%, SA 7%; QLD temporary residents (other than specified foreign retirees) also lose the home / first home transfer-duty concessions for transactions signed from 1 Aug 2026
 - **VIC VRLT statewide from 1 Jan 2025** + metro Melbourne unimproved land from 2026
 - **VIC Short-Stay Levy 7.5%** from 1 Jan 2025
 - **NSW FHBAS** (annual indexation not confirmed by Revenue NSW — verify) (was First Home Buyer Choice 2022, repealed 2023)
 - **FIRB fees + vacancy fee** for foreign-owned dwellings
-- **Negative gearing** + **CGT 50% discount** are unique investor features
+- **Negative gearing** + **CGT 50% discount** both curtailed from 1 Jul 2027 (Act No. 49 of 2026): losses on established dwellings bought from 7:30pm AEST 12 May 2026 are quarantined to residential property income from the 2027-28 income year; the 50% discount is replaced by indexation + 30% minimum tax on gains accruing from 1 Jul 2027 (grandfathering and new-build carve-outs — see `--tax` / `--rental`)
 - **Bushfire BAL ratings** drive insurance + building code; high-BAL means $50k+ retrofit
 - **Pool safety certificate** mandatory pre-sale QLD
 - **NSW Bush Fire Prone Land** triggers special construction
 - **Section 32 (VIC)** + **Form 2 Seller Disclosure Statement (QLD, new 1 Aug 2025)** + **Contract for Sale (NSW)** — mandatory pre-sale disclosures
 - **Strata vs community title vs old-system title** — title quality varies
 - **Aluminium composite cladding (post-Grenfell)** — some buildings flagged for remediation
-- **Negative gearing** — deductible against other income
+- **Negative gearing** — from the 2027-28 income year deductible against other income only for grandfathered dwellings (held before 7:30pm AEST 12 May 2026) or new dwellings bought on first sale
 - **AHPRA + ABS data** drive professional registration verification
+- **AML/CTF Tranche 2 in force since 1 Jul 2026** — real-estate agents, conveyancers and lawyers are AUSTRAC reporting entities (AML/CTF program, CDD incl. PEP / targeted-financial-sanctions checks, suspicious-matter reporting); an agent brokering a sale treats both buyer and seller as customers, a conveyancer or lawyer screens only its own client — expect identity checks, and in a private sale screen the seller yourself against DFAT's Consolidated List (2026 data, source [AUSTRAC](https://www.austrac.gov.au/news-and-media/news/anti-money-laundering-and-counter-terrorism-laws-cover-thousands-more-businesses); 2026-10-21 verified)
 
 ## Reddit / forum sources
 
@@ -417,8 +421,8 @@ State-based, varies hugely:
 
 ✅ **Fully populated** (initially populated 2026-04-25).
 **Coverage check**: pricing (CoreLogic + ABS), traffic, tax (extreme state divergence), rental (state RTA), work, risks (bushfire + flood + cyclone + earthquake), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for CoreLogic Mar 2026 indices + foreign-buyer ban (1 Apr 2025 - 30 Jun 2029 confirmed — extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset) + foreign owner surcharges (NSW 9%, VIC 8%, QLD 8% confirmed) + VIC VRLT + Short-Stay Levy 7.5% + QLD Form 2 Seller Disclosure Statement (1 Aug 2025); MEDIUM for the FY2026-27 FIRB fee amounts (verify the current Schedule of Fees PDF on the FIRB fees page) and for market medians beyond the April 2026 Cotality print.
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; the federal-minimum-wage line was fully re-verified and re-stamped 2026-09-18 against the FWC Annual Wage Review 2026 decision [2026] FWCFB 3500 — the rest of the playbook keeps the 2026-07-03 date)
+**Confidence**: HIGH for CoreLogic Mar 2026 indices + foreign-buyer ban (1 Apr 2025 - 30 Jun 2029 confirmed — extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset) + foreign owner surcharges (NSW 9%, VIC 8%, QLD 8% confirmed) + VIC VRLT + Short-Stay Levy 7.5% + QLD Form 2 Seller Disclosure Statement (1 Aug 2025) + 2027 negative-gearing / CGT reform (Act No. 49 of 2026, legislated) + QLD home-concession residency rule (from 1 Aug 2026) + VIC temporary off-the-plan concession (contracts to 20 Apr 2027) + AML/CTF Tranche 2 (in force since 1 Jul 2026); MEDIUM for the final 'new residential dwelling' definition (Tax Reform No. 3 Bill 2026 not passed), for the FY2026-27 FIRB fee amounts (verify the current Schedule of Fees PDF on the FIRB fees page) and for market medians beyond the April 2026 Cotality print.
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; the federal-minimum-wage line was fully re-verified and re-stamped 2026-09-18 against the FWC Annual Wage Review 2026 decision [2026] FWCFB 3500 — the rest of the playbook keeps the 2026-07-03 date). Rental / visa tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Tax lines (2027 negative-gearing / CGT reform, VIC off-the-plan concession, QLD home-concession residency rule and FHOG, FRCGW 1 Oct 2026 changes) and the AML/CTF Tranche 2 caveat re-verified 2026-10-21 against APH / ATO / SRO VIC / QRO / AUSTRAC primary sources (see the AU entries in shared/regulatory-watch.md).
 
 ## Extension TODOs
 

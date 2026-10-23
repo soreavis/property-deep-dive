@@ -125,7 +125,7 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 
 Property tax base = **rayiç bedel** (declared/appraised value) updated every 4 years by belediye + annual yeniden değerleme oranı (revaluation coefficient, set by Hazine ve Maliye Bakanlığı per Resmi Gazete).
 
-- Latest 4-year valuation cycle: **2026–2029**. 2026 increases are now **capped by statute** — Law 7566 (RG 2025-12-19 No. 33112) added **geçici mad. 23** to the Emlak Vergisi Kanunu: 2026 emlak vergisi değeri = 2025 değeri × **1.12745** (+12.745 %, half the 25.49 % revaluation), and any 2026 value computed from the new takdir-komisyonu arsa/arazi birim değerleri **may not exceed 2× the 2025 vergi değeri** (implemented by Emlak Vergisi Genel Tebliğ Seri No 89, RG 2025-12-31 No. 33124 5. mükerrer). 2027–2029 matrahs chain off these capped 2026 values. Note: Law 7566 md 11 also raises the annual uplift in non-takdir years from half to the **full** yeniden değerleme oranı going forward (verify effective year in the law text). Payment: 1st taksit by 31 May, 2nd by 30 Nov. Rates unchanged (see table above). (2026-07-03 verified)
+- Latest 4-year valuation cycle: **2026–2029**. 2026 increases are now **capped by statute** — Law 7566 (RG 2025-12-19 No. 33112) added **geçici mad. 23** to the Emlak Vergisi Kanunu: 2026 bina/arazi vergi değerleri computed from the new takdir-komisyonu arsa/arazi birim değerleri **may not exceed the 2025 vergi değeri plus twice that amount (3×)** — statutory wording 'iki kat fazlasını geçemez'; Tebliğ 89 example: 2025 value 900,000 TL → 2026 cap 2,700,000 TL; values under the cap apply as computed, with no fixed multiplier (implemented by Emlak Vergisi Genel Tebliğ Seri No 89, RG 2025-12-31 No. 33124 5. mükerrer). 2027–2029 matrahs chain off these capped 2026 values. Note: Law 7566 md 11 also raises the annual uplift in non-takdir years from half to the **full** yeniden değerleme oranı (in force 19 Dec 2025 per the mevzuat.gov.tr consolidated text; it drives the 2027–2029 chain; the President may cut the uplift to zero, EVK Art. 29). Payment: 1st taksit by 31 May, 2nd by 30 Nov. Rates unchanged (see table above). (2026-07-03 verified)
 - Annual yeniden değerleme oranı 2025: **43.93 %** (RG 2024-12-30)
 - Annual yeniden değerleme oranı 2026: **25.49 %** (RG 2025-12-31, No. 33124 5. mükerrer)
 
@@ -199,7 +199,7 @@ Result: KDV **0 %** on qualifying purchase (saves up to 20 % on luxury new build
 
 ### Future risk
 
-- **2026–2029 rayiç bedel cycle**: Law 7566 (geçici mad. 23) now caps 2026 increases **statutorily** — 2025 değer × 1.12745, and the matrah may not exceed 2× the 2025 vergi değeri (see § base value) — superseding the earlier case-by-case Anayasa Mahkemesi capping. Watch for challenges to the FULL-rate uplift that md 11 introduces for non-takdir years. Source: Resmi Gazete + belediye ilan/notification. (2026-07-03 verified)
+- **2026–2029 rayiç bedel cycle**: Law 7566 (geçici mad. 23) now caps 2026 increases **statutorily** — the 2026 matrah may not exceed 3× the 2025 vergi değeri (2025 value plus twice that amount; see § base value) — superseding the earlier case-by-case Anayasa Mahkemesi capping. Watch for challenges to the FULL-rate uplift that md 11 introduces for non-takdir years. Source: Resmi Gazete + belediye ilan/notification. (2026-07-03 verified)
 - **KDV on housing** under continual reform pressure (especially the 1 % small-unit rate); verify Resmi Gazete + Hazine Bakanlığı bulletin annually.
 - **Değerli Konut Vergisi** brackets revalued annually — luxury İstanbul buyers should track.
 
@@ -522,7 +522,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
   - Conversion: must apply to TKGM after iskan issuance — sometimes delayed by years if developer disputes.
 - **İmar Durumu** (zoning status): always pull from belediye before purchase — specifies allowed yapı yüksekliği, taban alanı katsayısı (TAKS), kat alanı katsayısı (KAKS); non-permitted extensions on existing buildings are common and unauthorised.
 - **Iskan (Yapı Kullanma İzin Belgesi)** often missing on older buildings or kaçak ilave (illegal extensions); makes utility connection + sale harder.
-- **Bağımsız değerleme uzmanı** (SPK-licensed valuer) — required for CBI; must be on SPK list; report binds the deed declared value upward.
+- **Bağımsız değerleme uzmanı** (SPK-licensed valuer) — required for CBI; must be on SPK list; report binds the deed declared value upward. Since TKGM's Sep-2026 change (announcement 29 Sep 2026) any SPK-authorised valuation firm may prepare the report behind the Tutar Tespit Belgesi (TTB), requested via WebTapu/TADEBİS; the gap between TTB and the tapu application may not exceed 12 months (2026 data, source TKGM yourkeyturkiye.gov.tr/vatandaslik-kazanimi, read 2026-10-21).
 - **Bilirkişi (court-appointed expert)** for property tax disputes (rayiç bedel itiraz).
 - **Foreign-buyer 30-hectare cap nationwide per individual** under Tapu Kanunu mad. 35 — including all properties combined.
 - **Military-restricted zones**: TKGM checks against Genelkurmay before transferring to foreigners; ~5 % of country area; verifiable only at transaction time.
@@ -569,7 +569,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 - **MEDIUM** for parcel-level price benchmarks — TÜİK KFE is province-level only; mahalle-level requires Endeksa or sahibinden cenova haritası lookup per address.
 - **MEDIUM** for STR enforcement — Law 7464 mature but municipal enforcement variance; provisional permit transition (31 Dec 2024) closed but ongoing audit risk.
 
-**Last verified**: 2026-08-07 (§ --risks re-verified — Kahramanmaraş magnitudes corrected to the AFAD official pair Mw 7.7 + Mw 7.6, TBDY 2018 confirmed as the current code with no successor enacted, DASK compulsory-cover checkpoints confirmed; balance of the 2026-07-03 Tier-A quarterly refresh unchanged). Macro tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
+**Last verified**: 2026-08-07 (§ --risks re-verified — Kahramanmaraş magnitudes corrected to the AFAD official pair Mw 7.7 + Mw 7.6, TBDY 2018 confirmed as the current code with no successor enacted, DASK compulsory-cover checkpoints confirmed; balance of the 2026-07-03 Tier-A quarterly refresh unchanged). Macro tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md). Starlink (connectivity), Kahramanmaraş (risks), Emlak Vergisi 2026 status (tax) and CBI threshold (visa) tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs (deepen on first real run)
 

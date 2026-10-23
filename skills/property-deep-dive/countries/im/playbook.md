@@ -74,7 +74,7 @@ The Isle of Man **does not levy UK-style Stamp Duty Land Tax** ([Katz & Co Land 
 | | over £500,000 | £20 per £1,000 (2 %) |
 | **Resident Non-Owner Occupier** (resident with other property / investor) | up to £3,000,000 | £20 per £1,000 (2 %) |
 | | over £3,000,000 | £25 per £1,000 (2.5 %) |
-| **Non-Resident** (outside IoM tax residence) | up to £3,000,000 | £40 per £1,000 (4 %) |
+| **Non-Resident** (fails the Order's own residence test, arts 4-5 of SD 2023/0077: under 183 days present on the Island in the 364 days ending on the transaction date and no declared intent before the transaction to become resident within 183 days — not the income-tax residence test) | up to £3,000,000 | £40 per £1,000 (4 %) |
 | | over £3,000,000 | £45 per £1,000 (4.5 %) |
 
 **Worked example — £500,000 property**:
@@ -82,7 +82,7 @@ The Isle of Man **does not levy UK-style Stamp Duty Land Tax** ([Katz & Co Land 
 - Resident Non-Owner: £10,000 (= 500 × £20)
 - Non-Resident: £20,000 (= 500 × £40)
 
-(Exemptions: spouse/civil-partner transfers, charities, government bodies, certain probate transfers — verify with conveyancing advocate.)
+(Per SD 2023/0077: no duty for Government Departments or registered Charities (art 14); £250 fixed-fee transactions for a spouse/civil-partner gift of their sole residence, a matrimonial or civil-partnership dissolution order and a separating couple's buy-out (Sch 2 Pt 4 / Sch 3 Pt 1); £120 to register an assent or transmission on death (Sch 3 Pt 2); a single resident co-buyer moves a joint purchase from the non-resident to the non-owner-occupier rate and wholly or partly commercial property pays the non-owner-occupier rate (arts 9-10); minimum duty £250 in every tier — verify with conveyancing advocate.)
 
 ### No annual property tax (CGT/IHT/Wealth) — confirmed absent
 
@@ -334,7 +334,7 @@ Typical annual rates bill: a single-family home with rateable value £200 × Dou
 
 **Confidence**: MEDIUM — Tax/registry-duty/conveyancing/banking/flood data from primary gov.im + regulated entities (PwC, KPMG, IoM Law Society) and is HIGH-confidence. However, several content cells (£750k foreign-buyer-approval claim, parcel-specific rates examples, mortgage LTV figures, build-cost ranges) are MEDIUM and need cross-check with a Manx advocate or the seller's specific bills before any high-stakes decision.
 
-**Last verified**: 2026-05-27.
+**Last verified**: 2026-05-27. Tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Verification authorities**:
 - Isle of Man Treasury — Income Tax Division ([gov.im/incometax](https://www.gov.im/categories/tax-vat-and-your-money/income-tax-and-national-insurance/))
@@ -347,7 +347,7 @@ Typical annual rates bill: a single-family home with rateable value £200 × Dou
 
 **Quirks unique to IoM**:
 - VAT shared with UK under FERSA (1979 framework; **re-signed 11 April 2025**, supersedes 2020 agreement; IoM YE 31 Mar 2025 share £439.2M) — VAT rules identical to UK; revenue shared
-- No CGT, no IHT, no SDLT — but Land Registry duty (SD 2023/0077, May 2023) operates economically as a transaction tax with a 4× non-resident multiplier
+- No CGT, no IHT, no SDLT — but Land Registry duty (SD 2023/0077, May 2023) operates economically as a transaction tax: non-residents pay 4 % to £3,000,000 / 4.5 % above, twice the resident non-owner-occupier 2 % / 2.5 % (owner-occupier bands 0 / 1 / 2 %)
 - 1969-baseline rateable values still in use for local rates (vs UK England now using 1991/2003 bands)
 - Tax cap election (£220k / £440k joint) for HNW — 5- or 10-year binding under Income Tax Act 1970 §§2ZA–2ZC
 - Manx Gaelic mandated bilingual signage in newer developments — has no legal effect on title docs
@@ -360,7 +360,7 @@ Typical annual rates bill: a single-family home with rateable value £200 × Dou
 
 Add initial Isle of Man entries to `skills/property-deep-dive/shared/regulatory-watch.md`:
 
-1. **SD 2023/0077** — Land, Deeds & Probate Registries Fees & Duties Order 2023, effective **1 May 2023** — non-resident 4-4.5% duty introduced as 4× owner-occupier rate. Tier 2. Affected sections: `--tax --foreign-buyer-rules --notary`. Source: Tynwald + centralregistry.gov.im. Revisit: 2027-05-01.
+1. **SD 2023/0077** — Land, Deeds & Probate Registries Fees & Duties Order 2023, effective **1 May 2023** — non-resident 4-4.5% duty introduced at twice the resident non-owner-occupier 2-2.5% rate (owner-occupier bands 0/1/2%). Tier 2. Affected sections: `--tax --foreign-buyer-rules --notary`. Source: Tynwald + centralregistry.gov.im. Revisit: 2027-05-01.
 
 2. **FERSA re-signed 11 April 2025** — Final Expenditure Revenue Sharing Arrangement between IoM and UK; supersedes the 2020 provisional agreement; new splits 86.51% VAT / 13.49% other duties; IoM share YE 31 Mar 2025 = £439.2M. Tier 2. Affected sections: `--tax` (VAT subsection). Source: gov.im FERSA page + gov.uk HMRC IoM Account YE 31 Mar 2025. Revisit: 2027-04-11.
 

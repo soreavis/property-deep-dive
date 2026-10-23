@@ -26,7 +26,7 @@ ISO2: `tw`. Status: ✅ Fully populated (researched 2026-05).
 - **Recent reforms**:
   - **房地合一稅 2.0** (Real-Estate Combined Tax 2.0) — effective 2021-07-01 (Income Tax Act §4-4, §14-4 to §14-8). Tightens short-term holding penalty (45 % <2 yrs / 35 % 2–5 yrs / 20 % 5–10 yrs / 15 % >10 yrs), closes profit-via-corporation loopholes, applies to land + building combined gain. ([MoF source](https://www.mof.gov.tw/multiplehtml/2074))
   - **房屋稅 2.0** (House Tax 2.0) — effective 2024-07-01 (taxable from FY2025, first bills May 2025). 多屋族 (multi-home owners) taxed 2.0–4.8 % on non-self-use, nationally aggregated (was 1.5–3.6 % with per-municipality counting). Self-use cap ≤3 homes nationwide at 1.0–1.2 %. ([MoF source](https://www.mof.gov.tw/house/multiplehtml/41e7424fa26e4d41905ed1800fd9fabc); [Act amendment 2023-12-19](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340054))
-  - **平均地權條例修正** (Equalization of Land Rights Act amendment) — effective 2023-07-01. Tightens 預售屋 (pre-sale) contract transfer (assignment of pre-sale unit now requires application + restricted to limited grounds), introduces 私法人 (private legal entity) residential-purchase approval requirement, fines 100 K – 5 M TWD for hoarding/false advertising. ([MOI source](https://www.moi.gov.tw/News_Content.aspx?n=4&s=281267))
+  - **平均地權條例修正** (Equalization of Land Rights Act amendment) — promulgated 2023-02-08; pre-sale and 私法人 provisions effective 2023-07-01 (Executive Yuan order of 2023-06-09). Tightens 預售屋 (pre-sale) contract transfer (§47-4: a pre-sale or new-build contract signed from 2023-07-01 may not be assigned or resold except to a spouse, lineal relatives or second-degree collateral relatives, or in MOI-announced special cases approved by the local authority — fine NT$500K–3M per unit, §81-3 ¶1), introduces 私法人 (private legal entity) residential-purchase approval requirement (§79-1), and bans speculation under §47-5 (spreading false price information, staged or colluding transactions, illegal sales or continuous buying / marked-up resale that disrupts market order) — fine NT$1M–50M per unit or parcel, repeatable if not corrected (§81-3 ¶2, in force from promulgation) (2026-10-23 verified). ([MOI source](https://www.moi.gov.tw/News_Content.aspx?n=4&s=281267); [§81-3 — MOJ law database](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0060009&flno=81-3))
   - **臺灣地區與大陸地區人民關係條例 §69** — PRC nationals' real-estate ownership: case-by-case 內政部 approval; max 1 residential per person; 5-year hold/sale lock; banned in defense-sensitive zones. Tightened review since 2024. ([MOI source](https://www.moi.gov.tw/News_Content.aspx?n=8&s=14670))
   - **氣候變遷因應法 (Climate Change Response Act)** — effective 2023-02-15, replacing 溫室氣體減量及管理法. Net Zero 2050 statutory goal; 碳費 (carbon fee) collection from 2024; relevant to building energy code (建築技術規則 has been progressively tightening insulation + façade requirements). ([Climate Change Response Act — MOJ law database](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=O0020098))
 
@@ -92,7 +92,7 @@ ISO2: `tw`. Status: ✅ Fully populated (researched 2026-05).
 ### Trend Q4 2024 → Q1 2026
 
 - 2024-07 House Tax 2.0 took effect; first bills issued May 2025 → multi-home owners saw material increase, some sell-down pressure on non-self-use inventory in 2025
-- 央行 (CBC) successive macroprudential tightening rounds (Jun 2023, Jun 2024, Sep 2024) cooled investor leverage particularly in Taipei + New Taipei
+- 央行 (CBC) successive macroprudential tightening rounds (Jun 2023, Jun 2024, Sep 2024) cooled investor leverage particularly in Taipei + New Taipei; the first easing step, effective 2026-03-20, raised the nationwide 2nd-home LTV cap 50 % → 60 % (CBC release 115年3月19日), followed by 60 % → 70 % from 2026-09-18 (CBC 2026-09-17)
 - TSMC + 台積電 supply-chain expansion in 新竹 / 高雄 / 嘉義 / 桃園 → southern + northwest corridor outperforms Taipei core 2024–25
 - 2024-04-03 Hualien M7.4 earthquake: localized softness east coast; minimal national-level impact
 
@@ -294,13 +294,13 @@ Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcod
 | **旅館業 (Hotel/Inn) + 一般旅館 / 觀光旅館** | 發展觀光條例 §24 + 旅館業管理規則 | no cap | Full hotel zoning required (商業區/旅館用地). Building must satisfy 旅館 facility code (fire, accessibility). Hard for residential conversion |
 | **公寓大廈管理條例 §16** override | n/a | n/a | Apartment-building 管理委員會 (HOA) can ban any commercial / minpaku-style use via 規約 majority vote — very common in modern 大樓; check 規約 BEFORE buying intending STR |
 
-⚠️ **KEY TRAP**: pure 都市計畫住宅區 condos in Taipei/New Taipei/Taichung/Kaohsiung **CANNOT legally operate Airbnb-style STRs**. Most listings on Airbnb in central Taipei marked "Apartment" are operating either (a) without license = illegal, fines NT$100K–NT$500K under 發展觀光條例 §55-2 + crackdown active 2023-2026 (b) under 民宿 license in zones that don't actually qualify (also illegal). Actually-legal urban STR generally requires 旅館業 license + commercial-zoned building — high barrier.
+⚠️ **KEY TRAP**: pure 都市計畫住宅區 condos in Taipei/New Taipei/Taichung/Kaohsiung **CANNOT legally operate Airbnb-style STRs**. Most listings on Airbnb in central Taipei marked "Apartment" are operating either (a) without license = illegal — since the 2025-04-02 amendment, fines NT$100K–2M plus a cease order for an unlicensed 旅館 business (發展觀光條例 §55 ¶4; was NT$100K–500K) or NT$100K–1M plus a cease order for an unlicensed 民宿 (§55 ¶5), with repeat fines per violation and water / power cut-off, sealing or demolition if operation continues after the cease order (§55 ¶7) (2026-10-23 verified, [發展觀光條例 §55 — MOJ law database](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0110001&flno=55)) + crackdown active 2023-2026 (b) under 民宿 license in zones that don't actually qualify (also illegal). Actually-legal urban STR generally requires 旅館業 license + commercial-zoned building — high barrier.
 
 ### Tax + reporting obligations (民宿)
 
 - **Income**: 不動產租賃收入 if traditional lease; **執行業務 / 營業 income** if running 民宿 with services
 - **營業稅 (5 % VAT)**: registered if revenue > NT$200K/month (mandatory 營業人); below = 小規模營業人 1 % rate
-- **觀光旅館登記證 / 民宿登記證** must be displayed on every Airbnb/Booking/Agoda listing — observably enforced via platform takedowns since 2022
+- **觀光旅館登記證 / 民宿登記證** must be displayed on every Airbnb/Booking/Agoda listing — observably enforced via platform takedowns since 2022; posting operating information online for lodging that has no 旅館業 or 民宿 certificate is a separate offence — NT$100K–1.5M plus an order to remove the listing, repeat fines if not removed by the deadline (發展觀光條例 §55-1 as amended 2025-04-02; maximum was NT$300K)
 - **觀光署 民宿管理資訊系統**: `https://taiwanstay.net.tw/` — license verification
 
 ### Strategic notes
@@ -542,12 +542,12 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 - **凶宅 (incident home / haunted house)** disclosure is contractually required (不動產說明書 §13) — non-disclosure is a common dispute basis; 凶宅查詢網 + 591 凶宅標記 for cross-check; pricing discount est. ~20–40 % (market-anecdotal — no central registry of 凶宅 discounts; figure varies widely by case severity, locality, and time since incident)
 - **違建 (illegal additions)** are widespread — rooftop builds, balcony enclosures, pillared shop awnings; 違建 has zero registered area, may be priority demolition target; insist on 建物登記謄本 vs site visit cross-check
 - **Pre-sale 預售屋 unit assignment heavily restricted post-2023-07** — 紅單 flipping effectively dead; buyers must hold to handover or qualify for 5 strict carve-outs
-- **Mortgage CBC macroprudential** (post Sep 2024 7th-round selective credit control): **2nd-home LTV cap 50 % NATIONWIDE** (was 60 % in specific areas only); **3rd-home + high-value LTV 30 %** (was 40 %); **no grace period (寬限期) on 1st-home loans if borrower already owns another property**; tightening waves Jun 2023 + Jun 2024 + Sep 2024 (2026-05-27 verified, source: [CBC 2024-09-19 7th-round release](https://www.cbc.gov.tw/dl-212229-22f1e175e8ca45d7949c8f29dd777ce4.html))
+- **Mortgage CBC macroprudential** (selective credit controls as amended effective 2026-09-18): **natural-person 2nd-home LTV cap 70 %, no grace period** (raised from 60 % by the CBC board resolution of 2026-09-17; the 60 % level applied from 2026-03-20 per CBC release 115年3月19日, after the Sep 2024 7th round had set 50 % NATIONWIDE, previously 60 % in specific areas only); **3rd-home + high-value + corporate LTV 30 %, no grace period** (cut from 40 % in Sep 2024, unchanged in 2026); **no grace period (寬限期) on 1st-home loans if borrower already owns another property** (unchanged); tightening waves Jun 2023 + Jun 2024 + Sep 2024, easing steps Mar 2026 + Sep 2026 (2026-10-23 verified, source: [CBC 2026-09-17 release](https://www.cbc.gov.tw/tw/cp-971-192865-5f8ca-1.html); prior: [CBC 2024-09-19 7th-round release](https://www.cbc.gov.tw/dl-212229-22f1e175e8ca45d7949c8f29dd777ce4.html))
 - **No real-estate-based golden visa** — Investment Visa requires NT$6M actual operating-business capital, NOT property; buying a NT$30M condo for visa does NOT work
 - **No estate-based residency**: APRC requires **physical presence** ≥ 183 d/yr × 5 yrs continuous; Gold Card is the favored white-collar path
-- **典型住宅貸款 "宽限期" 5-yr interest-only** is common but tightening; CBC moral suasion 2024+ has narrowed bank tolerance for 寬限期 stacking with multi-property buyers
+- **典型住宅貸款 "宽限期" 5-yr interest-only** is common but tightening; CBC moral suasion 2024+ has narrowed bank tolerance for 寬限期 stacking with multi-property buyers; the CBC no-grace-period rule on 2nd-home loans and on 1st-home loans to borrowers who already own property still stands after the Sep 2026 easing (CBC 2026-09-17), and the home-switch (換屋) deadline to sell the original home is 18 months (extended from 1 year by CBC release 114年9月8日) for 1st- or 2nd-home loans booked on or after 2024-09-20, high-value loans excluded
 - **建商保固 (developer warranty)**: 1 yr structure-watertight + 5 yr structure standard; 預售屋 履約保證 required since 2007 reform — verify which of 5 mechanisms (價金信託/同業連帶/公會連帶/履約保證金/不動產開發信託) before signing
-- **居住正義 (housing justice)** is an active political theme (2025–26); expect more rounds of macroprudential + tax tightening on multi-property holders
+- **居住正義 (housing justice)** is an active political theme (2025–26); the CBC nonetheless eased the 2nd-home LTV cap twice in 2026 (50 % → 60 % from 2026-03-20, 60 % → 70 % from 2026-09-18) while keeping the 30 % caps on 3rd-home / high-value / corporate loans — the macroprudential direction can change at any quarterly CBC board meeting, so re-check the current rules before any leverage assumption
 
 ## Reddit / forum sources
 
@@ -594,7 +594,7 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 - **房屋稅 + 地價稅** are 兩套單 different bills + different schedules; do not confuse — and remember they can be in name of different family member if 戶籍 is split
 - **契約自簽 vs 履約保證** — TW historically had escrow gaps; current standard is 履約保證 (settlement guarantee) for purchase price flow via designated trustee; verify which of 5 mechanism types is used
 - **戶籍 (household registration)** is critical — 自用住宅 tax preferential rates require 戶籍 of owner/spouse/minor-child registered at the address; one transfer of 戶籍 to claim self-use status is a common audit trigger
-- **2024 央行 RMBS pull-back**: banks tightened LTV + scrutiny; some require dual income proof for second home; treat any "easy financing" pitch as red flag
+- **2024 央行 RMBS pull-back**: banks tightened LTV + scrutiny; some require dual income proof for second home; treat any "easy financing" pitch as red flag (2024 context — the CBC raised the 2nd-home LTV cap to 60 % from 2026-03-20 and to 70 % from 2026-09-18; the regulatory cap is a ceiling, each bank's own LTV and income checks still apply)
 
 ## Source URL templates
 
@@ -634,7 +634,7 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (debris-flow agency and torrent count, cadastral-portal name and Sinyi English front-end corrected 2026-09-18 per 246.ardswc.gov.tw + moi.gov.tw + sinyi.com.tw)
+**Last verified**: 2026-05-27 (debris-flow agency and torrent count, cadastral-portal name and Sinyi English front-end corrected 2026-09-18 per 246.ardswc.gov.tw + moi.gov.tw + sinyi.com.tw; CBC selective credit controls (--finance), 發展觀光條例 unlicensed-lodging fines (--rental) and 平均地權條例 §81-3 fine ranges re-verified and updated 2026-10-23 per cbc.gov.tw + law.moj.gov.tw — see shared/regulatory-watch.md)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
@@ -650,4 +650,4 @@ Source: [不動產經紀業管理條例](https://law.moj.gov.tw/LawClass/LawAll.
 - [ ] 土壤液化潛勢 polygon overlay (NCREE publishes 1:25,000 zone maps as web service; address-level lookup TODO)
 - [ ] 實價登錄 open-data delta watcher (monthly batches → comp-list refresh per address)
 - [ ] Foreign-buyer reciprocity-list change watcher (內政部 annual update)
-- [ ] CBC macroprudential round tracker (Jun 2023 / Jun 2024 / Sep 2024 → ongoing tightening cadence)
+- [ ] CBC macroprudential round tracker (tightening Jun 2023 / Jun 2024 / Sep 2024; easing Mar 2026 / Sep 2026)

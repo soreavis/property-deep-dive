@@ -111,7 +111,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 ### Personal income tax (PIT) framework
 
 - **Employment income**: 10% flat (after monthly non-taxable cap RSD 34,221 for 2025).
-- **Annual PIT top-up (synthetic on global net)**: **10% up to RSD 9,749,016** (~6× average annual salary); **15% above** that threshold. Filing threshold 2025 net: RSD 5,439,096.
+- **Annual PIT top-up (synthetic on global net)**: **10% on taxable income up to RSD 10,878,192** (6× the 2025 average annual salary of RSD 1,813,032); **15% above** that threshold (ZPDG art. 89). Filing threshold 2025 net: RSD 5,439,096 (3×). *(2025 income, Poreska uprava brochure Apr 2026, verified 2026-10-21; RSD 9,749,016 was the 2024-income 6× band)*
 - **Other categories** flat 10–20% (royalties 20%, capital gains 15%, rental 20% gross or 15% effective after 25% normative deduction). Young taxpayers <40 receive an extra allowance of RSD 5,439,096. *(2026-05-27 verified, source KPMG RS Annual PIT alert Feb 2026 + PwC Tax Summaries)*
 
 ### Capital gains
@@ -320,7 +320,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-08-07 (Svoj na svome legalizacija window re-verified — main filing window closed 8 Feb 2026, late filing only on proof of objective impediment until 24 Oct 2026; balance of the 2026-05-27 verification unchanged).
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-08-07 (Svoj na svome legalizacija window re-verified — main filing window closed 8 Feb 2026, late filing only on proof of objective impediment until 24 Oct 2026; balance of the 2026-05-27 verification unchanged). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (NBS + RZS + Investropa Q3-Q4 2025), traffic (JP Putevi PGDS), tax (porez na imovinu progressive 0.4-2% + 2.5% transfer + 20% VAT (10% first-sale residential) + 15% CGT 10-year exemption), rental (boravišna taksa + license), work (NSZ + Paušalna), risks (Kraljevo 2010 + 2014 Sava+Bosna floods + Belgrade winter PM2.5), mains (Belgrade vodovod + per-municipality).
 **Confidence**: HIGH for tax structure (PwC + Investropa confirm); HIGH for 2014 flood factual correction (Sava+Bosna not Drava); HIGH for 10-year CGT exemption; HIGH for foreign-buyer reciprocity rules; MEDIUM for "Vlasinsko zemljotres" zone naming (could not verify as official feature).
 

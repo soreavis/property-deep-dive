@@ -192,13 +192,13 @@ Daň = ročná sadzba/m² × výmera bytu/m²
 **MAJOR 2025 reform** (konsolidačný balíček; effective 1 Jan 2025, source Zákon 222/2004 § amend + Grant Thornton SK + financnasprava.sk, 2026-05-27 verified):
 - **23 %** standard rate (up from 20 %)
 - **19 %** reduced — NEW from 2025, replaces old 10 % bracket (food non-basic, electricity, restaurant non-alcoholic beverages)
-- **5 %** super-reduced applies to **accommodation services (ubytovanie)**, restaurant food services, fitness centres, sports events, books — NEW from 2025; plus basic foodstuffs, medicines, medical devices, and pre-existing state-supported social housing (Zákon 222/2004 Z. z. §85). **Not** a new first-time-buyer bracket.
-- Old rules: 20 % standard, no special accommodation rate
+- **5 %** super-reduced applies to **accommodation services (ubytovanie)**, restaurant food services, fitness centres, sports events, books — NEW from 2025; plus basic foodstuffs, medicines, medical devices, and supply / renovation of buildings in state-supported rental housing projects (štátom podporované nájomné bývanie, Zákon 222/2004 Z. z. § 27 ods. 3 písm. d / e, Finančná správa rates page, verified 2026-10-21). **Not** a new first-time-buyer bracket.
+- Old rules (to 31 Dec 2024): 20 % standard, 10 % reduced (abolished 1 Jan 2025; accommodation moved from 10 % to 5 %), 5 % reduced (retained and widened) — Finančná správa 8/DPH/2024/IM and 5/DPH/2024/I
 
 ### Future risk
 
 - VZN changes by obec are common (annual review possible)
-- **Konsolidačný balíček 2025** raised DPH significantly; further increases discussed
+- **Konsolidačný balíček** (zákon č. 278/2024 Z. z.) raised DPH from 1 Jan 2025; from 1 Jan 2026 zákon č. 261/2025 Z. z. and 385/2025 Z. z. moved high-sugar / high-salt foods from 19 % to 23 % (Finančná správa); the Finančná správa rates page shows no 2027 rate change (verified 2026-10-21)
 - Re-introduction of nadobúdacia daň occasionally proposed (currently rejected)
 
 ---
@@ -572,7 +572,7 @@ For SK-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25 (health-insurance payor row corrected 2026-09-18 — the Union / Dôvera merger is conditional on approvals and has not completed; the Zákon 580/2004 and S1 limbs were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+✅ **Fully populated** as of 2026-04-25 (health-insurance payor row corrected 2026-09-18 — the Union / Dôvera merger is conditional on approvals and has not completed; the Zákon 580/2004 and S1 limbs were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + cadastre + risk sources (all primary state agencies, multi-source corroborated). MEDIUM for short-let regulation (in transition: EU 2024/1028 SK transposition + 5 % DPH adjustment 2025 + Bratislava-specific rules pending).
 

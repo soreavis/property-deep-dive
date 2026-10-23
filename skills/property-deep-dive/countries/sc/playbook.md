@@ -13,7 +13,7 @@ ISO2: `sc`. Status: ✅ fully populated as of 2026-05-07.
 - **Cadastre / land registry**: **Seychelles Registration Office** (formerly Land Registration Division) — `https://registrationdivision.gov.sc/`. Operates two parallel registers under the **Land Registration Act, Cap 107** (consolidated 30 June 2014, see `https://seylii.org/akn/sc/act/1965/25`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row:
   - **Old Register** (deeds-of-title, French-derived, narrative chain) — most older Mahé / Praslin / La Digue parcels still here
   - **New Register** (Torrens-style title-by-registration) — progressive rollout; **Praslin + La Digue conversion launched June 2024** (per Seychelles News Agency reporting), Mahé gradual
-  - **WebGIS / Cadastre and Planning portal**: `https://www.webgis.gov.sc/index.phtml?config=default` — public planning + parcel viewer (**Seychelles Planning Authority**, Ministry of Lands and Housing — successor to the dissolved MHILT)
+  - **WebGIS / Cadastre and Planning portal**: `https://www.webgis.gov.sc/index.phtml?config=default` — public planning + parcel viewer (**Seychelles Planning Authority** — its site links the Ministry of Lands and Housing, whose Department of Lands, Department of Housing and Seychelles Infrastructure Agency sit in the Vice-President's portfolio since 6 Nov 2025; successor to the dissolved MHILT)
 - **Memberships**: African Union, Commonwealth, COMESA, SADC, IORA, UN; **NOT in EU**, NOT party to OECD CRS until 2017+ (now committed); FATCA Model 1 IGA with US.
 - **Ownership types**: **Freehold** (pleine propriété) for citizens broadly; **leasehold** typical for long-term land concessions (often **99 years**, esp. tourism/concession schemes — Chambers Real Estate 2025 Seychelles); **strata-title condominiums** (e.g., Eden Island residential apartments) for foreign buyers under specific developer schemes.
 
@@ -74,7 +74,7 @@ ISO2: `sc`. Status: ✅ fully populated as of 2026-05-07.
 
 ### Primary sources
 
-- **Ministry of Transport**: oversees roads via the **Land Transport Department**, with the arm's-length **Seychelles Land Transport Agency (SLTA)** — `https://transport.gov.sc/who-we-are/departments/department-of-land-transport` (2026-09-18 verified; the former MHILT no longer exists — `mhilt.gov.sc` does not resolve)
+- **Ministry of Transport, Ports and Civil Aviation** (name since the 6 Nov 2025 cabinet): oversees roads via the **Land Transport Department**; the **Seychelles Land Transport Agency (SLTA)** sat under the Ministry of Transport in the Office of the President directory updated 04.03.2025 — current reporting line not restated on the pages read — `https://transport.gov.sc/who-we-are/departments/department-of-land-transport` (2026-10-21 verified; the former MHILT no longer exists — `mhilt.gov.sc` does not resolve)
 - **Seychelles Land Transport Agency (SLTA)**: vehicle registration + road licensing (`https://www.sltagency.com/` or via `gov.sc` portal — verify)
 - **WebGIS Cadastre and Planning portal** for road class layer: `https://www.webgis.gov.sc/index.phtml?config=default`
 - **OSM `highway` class** as universal fallback (well-mapped on Mahé core routes; thinner on Praslin / La Digue interior tracks)
@@ -107,7 +107,7 @@ ISO2: `sc`. Status: ✅ fully populated as of 2026-05-07.
 
 ### Annual property tax — Immovable Property Tax (IPT)
 
-- **Legal basis**: **Immovable Property Tax Act 2019** (in force from 1 January 2020), as amended by the **Immovable Property Tax (Amendment) Act 2022** (rate doubled effective 1 January 2024)
+- **Legal basis**: **Immovable Property Tax Act 2019** (in force from 1 January 2020), with the rate raised from 0.25% to 0.50% from 1 January 2024 by **S.I. 39 of 2023 — Immovable Property Tax (Increase in Tax Rate) Order 2023** (made 18 May 2023 under s 7(2) of the Act); the **Immovable Property Tax (Amendment) Act 2022** (Act 14 of 2022) amended registration and foreign-currency valuation rules, not the rate
 - **Rate**: **0.50% of market value annually** (since 1 January 2024 rate doubling — was 0.25% from 1 January 2020). Source: SRC Tax System page `https://src.gov.sc/seychelles-tax-system/` + Christen Chambers commentary `https://christenchambers.net/immovable-property-tax-seychelles/` + Mondaq / Appleby practitioner alerts
 - **Applies to**: **non-Seychellois owners of residential immovable property** (the IPT is a **foreigner-targeted annual property tax**; Seychellois owners are NOT subject to it). Various exceptions (e.g., property held by Seychellois-majority entities; certain heritage/family transmissions) — verify with SRC + a Seychellois attorney for any specific holding
 - **First-year exemption**: foreign **first-time buyers** of residential property after 1 January 2020 receive a **one-year exemption** (Christen Chambers; verify currentness via SRC)
@@ -171,7 +171,7 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 ### Future risk
 
 - **OECD Pillar Two minimum-tax** alignment: Seychelles committed to BEPS framework; corporate-level base-erosion measures may evolve, indirectly affecting Seychelles International Business Companies (IBCs) used in property-holding structures
-- **IPT rate trajectory**: rate doubled 0.25% → 0.5% effective 2024; further increases not currently announced for 2026 but plausible given fiscal-consolidation pressures
+- **IPT rate trajectory**: rate doubled 0.25% → 0.5% effective 2024; MoF 2026 Budget documentation: "No direct policy change has been proposed for Immovable Property Tax for 2026" (2026-10-21 verified)
 - **Sanction Duty trajectory**: raised from 11% to 12% effective 20-Mar-2025 — further upward drift possible
 - **Sanction-process digitisation**: the moratorium-lift 2025 came with new operational guidance; expect ongoing procedural refinement
 
@@ -208,10 +208,10 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 
 ### Tourism Environmental Sustainability Levy (TESL)
 
-- **Effective 1 Aug 2023**: per-pax-per-night levy on licensed tourism accommodation — **small (1–24 rooms) SCR 25**; medium (25–50 rooms) SCR 75; large (51+ rooms) + yachts SCR 100. Levy charged on invoice, NOT advertised price
+- **Effective 1 Aug 2023**: per-pax-per-night levy on licensed tourism accommodation — **small (1–24 rooms) SCR 25**; medium (25–50 rooms) SCR 75; large (51+ rooms) + yachts + island resorts SCR 100 (S.I. 52 of 2023). The establishment must notify guests of the levy and list it in the guest invoice (reg 6)
 - **Effective 1 Jan 2026**: small establishments (1–24 rooms) **NO LONGER subject to levy** — yield-positive for foreign-owned villas (Eden Island apartments + typical Mahé/Praslin/La Digue villa lets all fall in the 1–24 room band)
 - Source: Tourism Seychelles + see `shared/regulatory-watch.md` SC entry 2026-01-01
-- **Practical**: levy savings on a typical 2-bed villa at ~60 % occupancy with 2 pax average ≈ SCR 4,500–9,000/yr — material on a USD 30k–60k gross *(2026-05-27 verified, source Tourism Seychelles + regwatch L525)*
+- **Practical**: levy savings on a typical 2-bed villa at ~60 % occupancy with 2 pax average ≈ SCR 10,950/yr est. (computed: 365 nights × 60 % occupancy × 2 pax × SCR 25 small-band rate, before exempt guests) — material on a USD 30k–60k gross *(2026-10-21 recomputed, source S.I. 52 of 2023 + S.I. 90 of 2025 + shared/regulatory-watch.md SC TESL entry)*
 
 ### Realistic configuration
 
@@ -276,7 +276,7 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Disaster Risk Management Department (DRMD)** | `https://www.drmd.sc/` | National DRR coordination, historical event chronology |
+| **Department of Risk and Disaster Management (DRDM, ex-DRMD — renamed Dec 2025)** | `https://www.drdm.sc/` | National DRR coordination, historical event chronology (`https://www.drdm.sc/disaster/`) |
 | **Seychelles Meteorological Authority** | via `https://www.meteo.gov.sc/` (verify) | Met data, cyclone tracking, advisories |
 | **Ministry of Environment, Climate, Energy and Natural Resources** | `https://environment.gov.sc/` | Climate Change Department + Coastal Zone Management |
 | **World Bank Climate Change Knowledge Portal — Seychelles** | `https://climateknowledgeportal.worldbank.org/country/seychelles` | Country profile, projections (CMIP6, CHAZ tropical-cyclone) |
@@ -462,7 +462,7 @@ Universal — see `shared/climate-projections.md`. Seychelles-specific override:
 - **Two seasons**: NW monsoon (Dec–Mar, wetter, warmer, more cyclone-period exposure) + SE trade-wind (May–Oct, drier, cooler, calmer seas)
 - **Rainfall**: ~2,400 mm/year on Mahé central highland; lower on coast + Praslin / La Digue
 - **Authoritative projections**: World Bank CCKP — `https://climateknowledgeportal.worldbank.org/country/seychelles`
-- **National framework**: **Ministry of Environment, Climate, Energy and Natural Resources** — Climate Change Department + **National Climate Change Strategy** (review cycle ongoing — status not re-verified; check the ministry's NDC pages) — `https://environment.gov.sc/climate-change-department/climate-change/` (2026-09-18 verified; the former MACCE domain `macce.gov.sc` no longer resolves)
+- **National framework**: **Ministry of Environment, Climate, Energy and Natural Resources** — Climate Change Department + **National Climate Change Strategy** (review cycle ongoing — status not re-verified; check the ministry's NDC pages) — `https://environment.gov.sc/climate-change-department/climate-change/` (2026-10-21 verified; the former MACCE domain `macce.gov.sc` does not resolve, although the State House cabinet page still lists it as the ministry's website)
 - **Carbon-neutral target**: Seychelles signed Paris Agreement + has filed NDCs (revised 2021); ambitious renewable-energy + Marine Spatial Plan (2020 — protected 30% of EEZ, world-leading)
 
 ---
@@ -613,10 +613,10 @@ For most international buyers, the actionable foreign-buyer routes are:
 | **Tourism Department** | Accommodation standards, star classification, licence recommendation to the SLA — `https://tourism.gov.sc/` |
 | **Central Bank of Seychelles (CBS)** | Monetary + FX + financial-stability — `https://www.cbs.sc/` |
 | **National Bureau of Statistics (NBS)** | Population, CPI, crime stats — `https://www.nbs.gov.sc/` |
-| **Disaster Risk Management Department (DRMD)** | Hazard history, DRR coordination — `https://www.drmd.sc/` |
+| **Department of Risk and Disaster Management (DRDM, ex-DRMD)** | Hazard history, DRR coordination — `https://www.drdm.sc/` |
 | **Ministry of Environment, Climate, Energy and Natural Resources** | Climate, Coastal Zone Management — `https://environment.gov.sc/` |
 | **Financial Services Authority (FSA)** | IBC + Trust + non-bank financial regulation — `https://www.fsaseychelles.sc/` |
-| **Ministry of Lands and Housing** (Seychelles Planning Authority) + **Ministry of Transport** (Land Transport Dept / SLTA) — successors to the dissolved MHILT | Building permits; roads, transport |
+| **Ministry of Lands and Housing** (Vice-President's portfolio since 6 Nov 2025; Seychelles Planning Authority) + **Ministry of Transport, Ports and Civil Aviation** (Land Transport Dept / SLTA) — successors to the dissolved MHILT | Building permits; roads, transport |
 | **Seychelles Police Force** | Crime stats — `https://www.police.gov.sc/` |
 | **Seychelles Bar Association** | Attorney directory — verify current URL |
 | **Seychelles Hospital + Anse Royale Hospital** | Healthcare access reference |
@@ -660,7 +660,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 | Immigration and Civil Status (ICS) | `https://www.ics.gov.sc/` |
 | ICS Residence Permit | `https://www.ics.gov.sc/permits/residence-permit` |
 | ICS GOP Section | `https://www.ics.gov.sc/faq/immigration-services/gop-section` |
-| Disaster Risk Management Department | `https://www.drmd.sc/` |
+| Department of Risk and Disaster Management (DRDM, ex-DRMD) | `https://www.drdm.sc/` |
 | Ministry of Environment + Climate | `https://environment.gov.sc/` |
 | World Bank CCKP — Seychelles | `https://climateknowledgeportal.worldbank.org/country/seychelles` |
 | Climate Central Coastal Risk Tool | `https://coastal.climatecentral.org/` |
@@ -678,7 +678,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 
 **Confidence**: MEDIUM — HIGH on the regulatory framework (SPA 20-Mar-2025 guidance is primary-source dated; SRC IPT 0.5% rate, 5% Stamp Duty, 12% Sanction Duty, residence-permit fees, GOP framework, PUC tariffs, Land Registration Act all confirmed against official .gov.sc + SeyLII / SRC / ICS / PUC primary sources). MEDIUM on price benchmarks (Seychelles publishes no equivalent of an IMSEE / STATEC / NHB Residex residential price index — sample-size-thin transaction volume + agency-listing reliance means USD price bands are `est.` cross-checked against Eden Island / RE/MAX / Sphere / Rightmove Overseas listings + Chambers Real Estate 2025 narrative; verify any specific deal via Land Registration Office search). MEDIUM on traffic (no public AADT database — modelled from OSM road class + agency anecdote). LOW on per-listing Eden Island unit pricing currentness (luxury-island product where headline figures move materially deal-to-deal — pull current asking from the Eden Island portal at point of analysis).
 
-**Last verified**: 2026-08-07 (PUC electricity Tariff-110 re-verified — schedule now stamped effective 15 July 2026, 401–600 and >600 bands corrected, SCR 0/kVA demand charge + fuel-price adjustment added; balance of the 2026-05-27 pass unchanged; accommodation-licensing chain, practitioner register, environment ministry and transport ministry corrected 2026-09-18 per Tourism Department policy + judiciary.sc + environment.gov.sc + statehouse.gov.sc)
+**Last verified**: 2026-08-07 (PUC electricity Tariff-110 re-verified — schedule now stamped effective 15 July 2026, 401–600 and >600 bands corrected, SCR 0/kVA demand charge + fuel-price adjustment added; balance of the 2026-05-27 pass unchanged; accommodation-licensing chain, practitioner register, environment ministry and transport ministry corrected 2026-09-18 per Tourism Department policy + judiciary.sc + environment.gov.sc + statehouse.gov.sc). Authority / rental / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Opus 4.7 (1M context, parallel-subagent batch 2026-05)
 

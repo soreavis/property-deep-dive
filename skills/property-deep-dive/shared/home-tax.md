@@ -2,7 +2,7 @@
 
 Buyer-nationality tax overlay for foreign property. Indexed by **buyer's tax-residence country** (not the property country). Covers 20+ buyer cohorts plus 10 cross-cutting structural traps. Companion to the property-country `--tax` layer (per-country playbook: taxe foncière / IBI / IMU / etc.) and `shared/finance.md` (mortgage availability for non-resident buyers).
 
-**Snapshot**: 2026-05-09. Tax law moves fast — every numeric claim is statute / form / circular-cited and date-stamped. Where a parliamentary bill is mid-flight (NL Wet WRBox3 → 2028; FR PLF 2026 exit-tax extension; IT 2026 PLF 24-bis to €300k; KR 2028 Inheritance Acquisition System; US TCJA estate-exemption sunset/OBBBA permanence) the document flags MEDIUM confidence and points to the parliamentary tracker.
+**Snapshot**: 2026-05-09. Tax law moves fast — every numeric claim is statute / form / circular-cited and date-stamped. Where a parliamentary bill is mid-flight (NL Wet WRBox3 → 2028; FR PLF 2026 exit-tax extension; KR 2028 Inheritance Acquisition System; US TCJA estate-exemption sunset/OBBBA permanence) the document flags MEDIUM confidence and points to the parliamentary tracker.
 
 **Anti-hallucination**: every cluster ends with `Confidence: HIGH/MEDIUM/LOW` and a `Last verified` date. Every numeric claim either cites a primary statute / form / circular OR is labelled `est.` with computation shown. Forbidden phrasings per `shared/anti-hallucination.md` § Forbidden phrasings are avoided throughout.
 
@@ -55,13 +55,13 @@ These appear across multiple buyer cohorts and warrant a flag whenever a buyer i
 
 2. **PFIC trap on foreign collective-investment vehicles (US-only)** — IRC § 1297. Spanish SOCIMI, French SCPI, German Offene Immobilienfonds, UK REIT, Australian LIT/MIT, Singapore/HK property funds → almost always PFIC for US individual holders. Three regimes (§ 1291 default punitive / § 1295 QEF requires PFIC Annual Information Statement / § 1296 mark-to-market only for marketable PFICs). Direct ownership avoids PFIC; pooled vehicles trigger it. Foreign-property-fund ETFs sold by Charles Schwab to US clients in their UK/AU/HK arms are still PFICs.
 
-3. **Wealth tax on overseas property — multi-country footprint** — most DTTs do NOT cover wealth tax. **FR IFI** worldwide for FR resident > €1.3M; **ES Patrimonio + ITSGF** worldwide > €700k base + ITSGF > €3M; **NO Formueskatt** worldwide > NOK 1.7M; **CH Vermögenssteuer** cantonal worldwide; **NL Box 3** deemed-return on worldwide assets; **IT IVIE** 1.06% asset-class-specific on foreign RE only; **DK Ejendomsværdiskat** uniquely applies to foreign property at Danish rates. A French resident buying a Madrid pied-à-terre is in scope for BOTH IFI (worldwide) AND ES Patrimonio (Spanish-situs) — overlap not eliminated by DTT.
+3. **Wealth tax on overseas property — multi-country footprint** — most DTTs do NOT cover wealth tax. **FR IFI** worldwide for FR resident > €1.3M; **ES Patrimonio + ITSGF** worldwide > €700k base + ITSGF > €3M; **NO Formueskatt** worldwide > NOK 1.9M (2026; NOK 1.99M proposed for 2027); **CH Vermögenssteuer** cantonal worldwide; **NL Box 3** deemed-return on worldwide assets; **IT IVIE** 1.06% asset-class-specific on foreign RE only; **DK Ejendomsværdiskat** uniquely applies to foreign property at Danish rates. **HU vagyonadó** is PROPOSED only (draft act out for consultation 6–14 Oct 2026, not adopted): 1% on net wealth > HUF 1bn (1.5% above HUF 100bn), whole wealth for HU residents, only HU real estate, related rights, shares in HU companies and shares in any company holding HU real estate for non-residents; first status date 31 Dec 2026 if enacted. A French resident buying a Madrid pied-à-terre is in scope for BOTH IFI (worldwide) AND ES Patrimonio (Spanish-situs) — overlap not eliminated by DTT.
 
 4. **Estate / inheritance-tax patchwork** — bilateral estate-tax treaties are RARE. US has 16 ([IRS estate & gift treaties](https://www.irs.gov/businesses/small-businesses-self-employed/estate-gift-tax-treaties-international)); UK ~10; DE 5 (DK · FR · CH · US · GR — SE 2007 / AT 2008 terminated); FR ~7; IT ~7; ES ~3; NL handful. Most foreign property held by a resident decedent gets DOUBLE-TAXED on death. State-level estate taxes (NY/MA/CT/IL/MN/OR/WA/RI/ME/VT/MD/HI/DC) layer on without treaty relief.
 
 5. **Departure / exit-tax events** — **direct foreign real estate is in exit-tax scope in US (§ 877A) / CA (ITA § 128.1) / AU (CGT event I1) / IL (§ 100A) / ZA (§ 9H)** and **OUT of scope in DE (§ 6 AStG only on shareholdings ≥ 1%) / FR (Art. 167 bis only on shareholdings > €800k or > 50%) / JP (§ 60-2 securities > ¥100M) / KR (Art. 118-9 securities > ₩500M)**. Verify before structuring exit. Holding foreign rental via a German GmbH brings DE § 6 AStG into scope on emigration even though direct property would not.
 
-6. **Special-inbound-regime lock-in** — IT 24-bis (€100k or €200k flat on foreign income, 15-year cap) / IT 24-ter (7% pensioners' Mezzogiorno, 9-year cap) / ES Beckham (24% flat 6 years) / UK FIG (4-year exemption post-non-dom abolition) / IL Olim (10-year foreign-income exemption + 2026 reporting reform) / NL 30%-ruling (→ 27% from 2027). Each has tight grandfathering windows and entry conditions; missing the window or breaking residency continuity loses the regime irrecoverably.
+6. **Special-inbound-regime lock-in** — IT 24-bis (€100k, €200k or €300k flat on foreign income by residence-transfer date, 15-year cap) / IT 24-ter (7% pensioners' Mezzogiorno, 9-year cap) / ES Beckham (24% flat 6 years) / UK FIG (4-year exemption post-non-dom abolition) / IL Olim (10-year foreign-income exemption + 2026 reporting reform) / NL 30%-ruling (→ 27% from 2027). Each has tight grandfathering windows and entry conditions; missing the window or breaking residency continuity loses the regime irrecoverably.
 
 7. **Treaty FTC vs treaty exemption — DTT cascade** — real-property income is allocated to *situs* country under OECD MTC Art. 6 but BOTH countries can typically tax (Art. 24 Methods). **Exemption-with-progression** (DE / AT / FR / CH for most EU treaties) → foreign income free but pushes domestic into higher band. **Credit method** (US / UK / CA / AU / JP / IN) → fully taxable with foreign-tax credit capped at home tax on that income. Excess credit carries forward 10y in US; 1-year carryback / 10-year carryforward; lost immediately in AU and NZ (no carryforward). The German Anrechnungsmethode applied to ES rental (DE-ES DTT 2013) is a CREDIT regime — atypical for DE. Verify each treaty's Article 24 method case-by-case.
 
@@ -178,9 +178,9 @@ Domicile is **gone** for income tax + CGT. Replaced by:
 [RFIG41000 introduction](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig41000) · [GOV.UK FIG regime claim guide](https://www.gov.uk/guidance/check-if-you-can-claim-the-4-year-foreign-income-and-gains-regime). HMRC manual still being populated; consultation responses still emerging.
 
 ### Foreign rental — overseas property business
-ITTOIA 2005 §§ 264-265 (overseas property business chargeable only if carried on by UK resident). Computed using UK-property-business rules; profits **pooled separately** — overseas losses cannot offset UK pool, only future overseas profits. Reported on **SA106 Foreign Pages**, in £-sterling.
+ITTOIA 2005 §§ 264-265 (overseas property business chargeable only if carried on by UK resident). Computed using UK-property-business rules; profits **pooled separately** — overseas losses cannot offset UK pool, only future overseas profits. Reported on **SA106 Foreign Pages**, in £-sterling. **From 2027-28** property income, overseas property business profits included, is taxed at separate property rates: basic 22% / higher 42% / additional 47% (Finance Act 2026 s.6, new ITA 2007 s.17A(2)(a), + s.7; [legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2026/11/section/7), 2026-10-23 verified).
 
-**Mortgage/finance-cost restriction** ITTOIA 2005 §§ 272A-B (FA No. 2 2015 § 24, fully phased in 6 Apr 2020): no deduction from rental for residential finance costs; replaced by 20% basic-rate tax reducer capped at lower of finance costs / property profits / total income above PA. **Applies equally to UK and overseas property** (§ 272A(7)).
+**Mortgage/finance-cost restriction** ITTOIA 2005 §§ 272A-B (FA No. 2 2015 § 24, fully phased in 6 Apr 2020): no deduction from rental for residential finance costs; replaced by a basic-rate tax reducer — 20% through 2026-27, 22% (the property basic rate) from 2027-28 (Finance Act 2026 s.6(8) + Sch 1 para 40, substituting PBR for BR in ITTOIA 2005 ss.274AA(5) and 274C(2); [legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2026/11/schedule/1/paragraph/40), 2026-10-23 verified) — capped at lower of finance costs / property profits / total income above PA. **Applies equally to UK and overseas property** (§ 272A(7)).
 
 **FTCR** under ITA 2007 §§ 793-806 / TIOPA 2010 Pt 2: credit foreign tax paid against UK income tax on same income, capped at UK tax payable. Excess foreign tax is unclaimable. Helpsheet HS263.
 
@@ -221,7 +221,7 @@ Important: 60-day reporting applies to **UK residential disposals only**. Foreig
 
 No US-style FBAR / 8938 / 720 equivalent — but **CRS** delivers HMRC automatic data from 100+ jurisdictions; from Jan 2024 Airbnb / Booking.com submitted UK host data via DAC7-equivalent rules. HMRC nudge-letter campaigns 2017-onward (foreign income, offshore structures, from 2024 specifically overseas-property rentals).
 
-### 2024-2026 reform calendar
+### 2024-2027 reform calendar
 
 | Date | Reform |
 |---|---|
@@ -231,6 +231,7 @@ No US-style FBAR / 8938 / 720 equivalent — but **CRS** delivers HMRC automatic
 | 6 Apr 2025 | IHT residence-based (LTR test) |
 | 6 Apr 2025 | FHL abolished UK + EEA |
 | 6 Apr 2025 | TRF opens 3-yr window |
+| 6 Apr 2027 | Property income (UK + overseas property business) taxed at property rates 22% / 42% / 47% — Finance Act 2026 ss.6-7 |
 
 **Confidence: HIGH** for statute / black-letter law; **MEDIUM** for FA 2025 transitional rules where HMRC manual content is still being populated.
 **Last verified**: 2026-05-09.
@@ -278,10 +279,10 @@ Resides test (common-law, primary), Domicile test, 183-day test, Cwlth super-fun
 FX translation Subdiv 960-C ITAA 1997 + functional-currency § 960-50: rental items translated at daily rate or yearly average (PCG 2017/4).
 
 ### Foreign rental — negative gearing into AU income
-**Foreign-loss quarantining REPEALED 1 Jul 2008** (Tax Laws Amendment (2007 Measures No. 4) Act 2007 Sch 1). Foreign rental losses can offset Australian salary, business, investment income — same negative-gearing as domestic. Deductible: interest, Div 40 depreciation (§ 40-27 prohibits depreciation on second-hand depreciating assets in residential rental post-9 May 2017 Budget — applies to foreign too), capital works Div 43 (2.5% × 40 yrs). **FITO** Div 770 — capped at AU tax on that income; AUD 1,000 de minimis; **no carry-forward**.
+**Foreign-loss quarantining REPEALED 1 Jul 2008** (Tax Laws Amendment (2007 Measures No. 4) Act 2007 Sch 1). Foreign rental losses can offset Australian salary, business, investment income — same negative-gearing as domestic (pre-reform position: from the 2027-28 income year the Treasury Laws Amendment (Tax Reform No. 1) Act 2026 quarantines net losses on residential dwellings acquired from 7:30pm AEST 12 May 2026 to residential property income, s 26-155 ITAA97; whether that quarantine reaches overseas dwellings owned by AU residents: not verified — check s 26-155 / s 26-160 ITAA97 or the EM before relying on foreign losses offsetting salary). Deductible: interest, Div 40 depreciation (§ 40-27 prohibits depreciation on second-hand depreciating assets in residential rental post-9 May 2017 Budget — applies to foreign too), capital works Div 43 (2.5% × 40 yrs). **FITO** Div 770 — capped at AU tax on that income; AUD 1,000 de minimis; **no carry-forward**.
 
 ### CGT — Div 855 ITAA 1997
-Australian residents subject to CGT on worldwide assets. CGT event A1 (§ 104-10) on disposal. **50% individual discount** § 115-25 for assets held > 12 months. Cost base in AUD (§ 960-50 daily-rate at incurrence). **Main Residence Exemption** § 118-110 extends to overseas dwelling — BUT **MRE for foreign residents REMOVED post-30 Jun 2020** (Treasury Laws Amendment (Reducing Pressure on Housing Affordability) Act 2019, RA 12 Dec 2019). Life-events test exception: foreign residency ≤ 6 continuous years AND qualifying life event.
+Australian residents subject to CGT on worldwide assets. CGT event A1 (§ 104-10) on disposal. **50% individual discount** § 115-25 for assets held > 12 months — for gains accruing from **1 Jul 2027** replaced by cost-base indexation + a 30% minimum tax (individuals, trusts, partnerships; Treasury Laws Amendment (Tax Reform No. 1) Act 2026, Act No. 49 of 2026, assent 26 Jun 2026); gains accrued before 1 Jul 2027 keep the 50% discount ([ATO](https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax), 2026). Cost base in AUD (§ 960-50 daily-rate at incurrence). **Main Residence Exemption** § 118-110 extends to overseas dwelling — BUT **MRE for foreign residents REMOVED post-30 Jun 2020** (Treasury Laws Amendment (Reducing Pressure on Housing Affordability) Act 2019, RA 12 Dec 2019). Life-events test exception: foreign residency ≤ 6 continuous years AND qualifying life event.
 
 **FRCGW** — threshold removed and rate raised to **15% from 1 Jan 2025** (TLA Bill, RA 10 Dec 2024). Applies to Australian RE only when expat sells. Threshold was AUD 750k @ 12.5% pre-change. Important ordering trap: this affects Aussies returning to sell their AU home while non-resident, NOT foreign-property sales by AU residents.
 
@@ -296,8 +297,10 @@ Estate/inheritance taxes abolished 1979. § 104-215 CGT event K3 deems disposal 
 
 ### 2024-2026 reforms
 - 1 Jan 2025: FRCGW 12.5% → 15%, threshold AUD 750k → 0 (AU RE only).
+- 1 Oct 2026: foreign resident CGT regime strengthened (Act No. 86 of 2026) — 'real property' definition, 365-day principal asset test, ATO notice for non-IARPI declarations on membership-interest disposals of AUD 50m or more; FRCGW rate and threshold unchanged.
 - 1 Jul 2024: Stage 3 personal-tax cuts.
 - 2024-25 Budget: ATO Tax Avoidance Taskforce funding increased.
+- 26 Jun 2026: Tax Reform No. 1 Act 2026 (Act No. 49 of 2026) assented — negative-gearing quarantine for established dwellings bought from 7:30pm AEST 12 May 2026 and CGT discount replaced by indexation + 30% minimum tax, both from 1 Jul 2027.
 - 2021 residency reform: NOT enacted.
 
 **Confidence: HIGH** (current law; reform stalled).
@@ -321,7 +324,7 @@ Reported on **IR3R schedule** + IR3 individual return. NZD conversion at IRD-pub
 Trap: NZ owner of FR SCI / ES SL holding a single property thinks "just a holding entity, ignore it" — actually FIF, deemed 5% income annually regardless of cash flow, plus rental income separately. Many foreign legal forms force entity ownership for civil-law reasons (succession, asset protection) — NZ tax tail can wag the structuring dog.
 
 ### Bright-line property test — § CB 6A — ALSO APPLIES TO OVERSEAS PROPERTY
-Residential land, NZ or overseas (for NZ tax residents): **2-year bright-line** for disposals on/after 1 Jul 2024 (Restoring Tax Deductibility for Residential Investment Property Bill, RA Jun 2024). Pre-1 Jul 2024 follow 5-/10-year tests under prior National-Labour see-saw. **The bright-line test also applies to NZ tax residents who buy and sell overseas residential property** (2026 data, source IRD `https://www.ird.govt.nz/property/buying-and-selling/when-you-need-to-pay/the-brightline-test`). Outside the bright-line period, foreign-property disposal gains are taxed only under intent-of-resale § CB 6, business of dealing § CB 7, or business of erecting buildings § CB 12. NZ has **no general CGT** — regime is intent-based plus bright-line proxy.
+Residential land, NZ or overseas (for NZ tax residents): **2-year bright-line** for disposals on/after 1 Jul 2024 (Restoring Tax Deductibility for Residential Investment Property Bill, RA Jun 2024). Pre-1 Jul 2024 follow 5-/10-year tests under prior National-Labour see-saw. **The bright-line test also applies to NZ tax residents who buy and sell overseas residential property** (2026 data, source IRD `https://www.ird.govt.nz/property/buying-and-selling/when-you-need-to-pay/the-brightline-test`). Outside the bright-line period, foreign-property disposal gains are taxed only under intent-of-resale § CB 6, business of dealing § CB 7, or business of erecting buildings § CB 12. NZ has **no general CGT** — regime is intent-based plus bright-line proxy (2026 election party proposals, incl. Labour's 28% tax on investment-property gains from 1 Jul 2027, are not law — see `shared/regulatory-watch.md` NZ).
 
 ### Estate — no inheritance/estate tax
 Estate Duty abolished 1992; Gift Duty abolished 1 Oct 2011. No deemed disposition on death. Foreign-jurisdiction estate tax may bite (FR 60% non-spouse non-direct, ES regional, etc.) — tax-treaty estate articles relevant.
@@ -330,7 +333,7 @@ Estate Duty abolished 1992; Gift Duty abolished 1 Oct 2011. No deemed dispositio
 - 1 Jul 2024: bright-line back to 2 years (NZ and overseas residential land held by NZ tax residents).
 - 1 Apr 2024: tax-bracket adjustments (10.5% to NZD 15,600; 17.5% to 53,500; 30% to 78,100; 33% to 180,000; 39% above) — first since 2010.
 - 1 Apr 2025: residential interest deductibility 100% restored.
-- Foreign-buyer ban (Overseas Investment Amendment Act 2018) still in force (NZ-purchase by non-residents prohibited; not relevant for NZ buyer abroad).
+- Foreign-buyer ban (Overseas Investment Amendment Act 2018) still in force for most overseas persons (narrow carve-out since 6 Mar 2026: AIP / Investor 1 / Investor 2 resident-visa holders may seek consent to buy a home over NZ$5m; not relevant for NZ buyer abroad).
 
 **Confidence: HIGH**.
 **Last verified**: 2026-05-09.
@@ -389,7 +392,7 @@ Resident if ANY of: foyer / lieu de séjour principal in France · main professi
 
 ### Foreign rental — formulaires 2047 + 2042 (+ 2044 unfurnished, + 2042-C-PRO furnished)
 - **Unfurnished foreign rental** → revenus fonciers (form 2044) + 2047 + 2042.
-- **Furnished foreign rental** → BIC under LMNP / LMP (form 2042-C-PRO + 2031).
+- **Furnished foreign rental** → BIC under LMNP / LMP (form 2042-C-PRO + 2031). Where BIC is computed in the régime réel, PLF 2027 art. 7 (bill, not adopted as of 2026-10-21) would cap amortisation at 2.5 % and €7,000/yr per foyer fiscal (1.5 % and €5,000 for a meublé de tourisme) — see shared/regulatory-watch.md (FR).
 - Most EU DTTs: **exonération avec taux effectif** (foreign rental exempt in France but counted to set the marginal rate on French-source income — exact French analogue of the German Progressionsvorbehalt).
 - DTT credit method applies for some non-EU treaties (US, etc.).
 
@@ -476,13 +479,13 @@ Resident if ANY of: foyer / lieu de séjour principal in France · main professi
 
 ### Special regimes
 - **Art. 24-bis TUIR — neo-resident lump-sum**:
-  - €100k/y flat tax on foreign income for individuals transferring residence to Italy who were non-resident for ≥ 9 of last 10 years.
-  - **Doubled to €200k/y** for residence-transfer **on/after 10 Aug 2024** (DL 113/2024 · Decreto Omnibus). Pre-10-Aug-2024 movers grandfathered at €100k for life of regime (15 years).
-  - Family-member add-on €25k each.
+  - Flat tax on foreign income for individuals transferring residence to Italy who were non-resident for ≥ 9 of last 10 years: €100k/y for transfers up to and including 10 Aug 2024 (later tiers below).
+  - **Doubled to €200k/y** for residence transfers **after 10 Aug 2024 and up to 31 Dec 2025** (DL 113/2024 art. 2 · Decreto Omnibus). Movers up to and including 10 Aug 2024 keep €100k for the life of the regime (15 years).
+  - Family-member add-on €25k each (€50k for transfers from 1 Jan 2026).
   - **Exempts from IVIE/IVAFE and Quadro RW** for assets covered.
-  - **2026 PLF (draft)** proposes raising to €300k for new opt-ins from 1 Jan 2026 — not yet law as of date stamp.
+  - **€300k/y for residence transfers from 1 Jan 2026** — L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 25-26, enacted and in force 1 Jan 2026; earlier movers keep €100k / €200k for the rest of the option. From 1 Jan 2027 the regime moves, still at €300k, to art. 246 of the new TUIR (D.Lgs. 117/2026); DL 38/2026 art. 2 (conv. L. 88/2026) bars combining it with the impatriati regime for transfers from tax period 2027 (2026-10-21 verified, source [Agenzia delle Entrate — neo-residenti](https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/opzione-per-i-neo-residenti/infogen-opzionale-neo-residenti)).
 - **Art. 24-ter TUIR — pensioners' 7% flat**:
-  - Foreign-pension recipients moving to Mezzogiorno (SI/CL/SA/CM/BA/AB/MO/PU) communes < 20,000 inhabitants → 7% flat tax on all foreign income, 9 years.
+  - Foreign-pension recipients moving to Mezzogiorno (SI/CL/SA/CM/BA/AB/MO/PU) communes ≤ 30,000 inhabitants (< 20,000 until 6 Apr 2026), or to 2009 L'Aquila / 2016 Centro Italia earthquake comuni ≤ 30,000 → 7% flat tax on all foreign income, 9 tax periods; one-off option in the return for the year of transfer, no annual re-confirmation (2026-10-21 verified, source [Agenzia delle Entrate — pensionati esteri](https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/regime-opzionale-per-i-pensionati-esteri-che-cose)).
   - **Population limit raised 20k → 30k by L. 34/2026 effective 7 Apr 2026** — broadens eligible communes.
 
 ### 2024-2026 reforms
@@ -491,9 +494,9 @@ Resident if ANY of: foyer / lieu de séjour principal in France · main professi
 - **DL 113/2024** (10 Aug 2024): 24-bis flat tax doubled to €200k.
 - **D.Lgs. 87/2024**: monitoring-violation penalties reformed (1 Sep 2024).
 - **L. 34/2026**: 24-ter Mezzogiorno 30k pop limit.
-- **PLF 2026 draft**: 24-bis → €300k under negotiation.
+- **L. 199/2025** (LdB 2026, art. 1 c. 25-26, in force 1 Jan 2026): 24-bis → €300k (family members €50k) for residence transfers from 1 Jan 2026.
 
-**Confidence: HIGH** (except 24-bis € figure pending PLF 2026 = MEDIUM) · **Last verified**: 2026-05-09
+**Confidence: HIGH** · **Last verified**: 2026-05-09 (24-bis and 24-ter lines re-verified 2026-10-21 against Agenzia delle Entrate)
 
 ---
 
@@ -508,8 +511,9 @@ ANY of: > 183 days in Spain in calendar year · centro de intereses económicos 
 
 ### Imputed income on **unrented** foreign property — Art. 85 LIRPF
 Resident must impute notional income annually on any foreign second home that is not rented out (treated like Spanish 2nd homes):
-- 1.1% of cadastral-equivalent value if revised in last 10 years; else 2%.
-- For foreign property without cadastral value: **1.1% × 50% of value used for Wealth Tax** (acquisition cost or higher FMV).
+- Through tax year 2026: 2% of the cadastral value, or 1.1% where revised cadastral values took effect in the tax year or the 10 prior years; DA 55.ª LIRPF, as amended by Real Decreto-ley 29/2026 (pending convalidation), extends to 2026 the 1.1% rate wherever revised values took effect from 1 Jan 2012.
+- For property without a cadastral value (e.g. foreign property) or one not notified to the owner: **1.1% × 50% of the greater of the value verified by the Administration for other taxes or the acquisition price** — not the Wealth Tax value.
+- **From 1 Jan 2027, if Real Decreto-ley 29/2026 is convalidated** (BOE-A-2026-20823; in force 8 Oct 2026, Diputación Permanente vote pending): a progressive scale on the **sum** of the values of all urban property that is neither the habitual residence, nor let or otherwise generating capital income, nor used in a business (also rural property with non-essential buildings; undeveloped land excluded; each value pro-rated by days) — up to €100,000: 1.1% · €100,000–500,000: €1,100 + 1.5% of the excess · €500,000–1,000,000: €7,100 + 2% of the excess · above €1,000,000: €17,100 + 3% of the excess. A property without a cadastral value enters the scale at the 50% base above. If the decree is not convalidated, the 2027 scale never applies (2026-10-21 verified; source [BOE-A-2026-20823](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823); tracked in `shared/regulatory-watch.md` ES).
 
 ### CGT on disposal — base ahorro
 - **Brackets from 1 Jan 2025**: 19% (≤ €6k) · 21% (6-50k) · 23% (50-200k) · 27% (200-300k) · **30% (> €300k)** — top bracket raised from 28% → 30%.
@@ -569,7 +573,7 @@ Facts-and-circumstances; family ties primary (where the family physically lives 
 ### Box 3 reform — the live constitutional crisis
 - **Hoge Raad 6 Jun 2024** (and 14 Jun 2024 follow-ups, then **20 Dec 2024**): existing Box 3 forfait still violates Art. 1 EP ECHR; **actual return** must cap the levy. **Voordeel wegens eigen gebruik** (own-use benefit) of real estate set to **NIL** for actual-return purposes.
 - **Tegenbewijsregeling** ("counter-proof rule"): from 2025 (covering 2017-2024 affected years; 2025+ forward), taxpayers can demonstrate actual return < forfait via **OWR — Opgaaf Werkelijk Rendement** (folded into regular IB return from tax year 2025).
-- **Wet werkelijk rendement box 3** — full move to actual-return basis: originally 2026 → postponed to 2027 → **postponed again to 1 Jan 2028**. Tweede Kamer adopted the bill 12 Feb 2026; the Eerste Kamer deferred its final vote on 30 Jun 2026 pending an announced novelle, and the Belastingplan 2027 bill of 15 Sep 2026 contains no Box 3 measure, with no novelle introduced (Eerste Kamer file 36.748, 17 Sep 2026); the cabinet's 14 Sep 2026 letter (EK 36.748, Q) asks the Senate to keep holding the bill and lists withdrawing it, with the forfaitaire system plus tegenbewijsregeling kept longer and a full vermogenswinstbelasting in 2030, as one of four scenarios. **Status as of 2026-09-17: bill (36.748) held in the Eerste Kamer; entry into force by royal decree with 1 Jan 2028 as an unsecured target — model the forfaitaire system with the tegenbewijsregeling for 2026 and 2027.**
+- **Wet werkelijk rendement box 3** — full move to actual-return basis: originally 2026 → postponed to 2027 → **postponed again to 1 Jan 2028**. Tweede Kamer adopted the bill 12 Feb 2026; the Eerste Kamer deferred its final vote on 30 Jun 2026 pending an announced novelle, and the Belastingplan 2027 bill of 15 Sep 2026 contains no Box 3 measure, with no novelle introduced (Eerste Kamer file 36.748, 17 Sep 2026); the cabinet's 14 Sep 2026 letter (EK 36.748, Q) asks the Senate to keep holding the bill and lists withdrawing it, with the forfaitaire system plus tegenbewijsregeling kept longer and a full vermogenswinstbelasting in 2030, as one of four scenarios. **Status as of 2026-10-21: bill (36.748) still held in the Eerste Kamer; the cabinet chose (Kamerbrief 29 Sep 2026) a novelle extending realisation-based vermogenswinst from real estate and start-up shares to all financial instruments from 1 Jan 2028 (the rest of box 3 on vermogensaanwas until an expected 2030 switch); the ministerraad adopted it 2 Oct 2026 and it is at the Raad van State for urgent advice, not yet introduced in the Tweede Kamer; both bills must pass both chambers by December 2026 for a 2028 start; funding not settled (2027 placeholder: heffingvrij vermogen €30,846, forfait overige bezittingen 7.87%) — model the forfaitaire system with the tegenbewijsregeling for 2026 and 2027 and treat 2028 as unsecured.**
 
 ### Box 1 — only if "more than asset management"
 If active landlord status (multiple foreign properties + professional involvement) → Box 1 progressive (2025 top rate 49.5%). High threshold; rare for individual foreign-property buyers.
@@ -590,7 +594,7 @@ NL has **no separate CGT** for individuals on real estate held privately. Box 3 
 
 ### 2024-2026 reforms
 - **30%-ruling**: original 2024 plan was 30/20/10 stair-step; **reversed by Tax Plan 2025** (Senate 17 Dec 2024) → flat **27% from 1 Jan 2027** with €50,436 income standard; existing 30% rulings grandfathered at 30% through 2026.
-- Box 3 actual-return Wet WRBox3 → 1 Jan **2028** target NOT secured (bill held in the Eerste Kamer; the cabinet's 14 Sep 2026 letter lists withdrawal as one of four scenarios — verify).
+- Box 3 actual-return Wet WRBox3 → 1 Jan **2028** target NOT secured (bill held in the Eerste Kamer; novelle extending vermogenswinst to all financial instruments adopted by the ministerraad 2 Oct 2026, at the Raad van State, must pass both chambers by December 2026 — verify).
 
 **Confidence: HIGH** for Box 3 thresholds + 30%-ruling timeline; **MEDIUM-LOW** for the actual-return effective date (still in parliamentary navette) · **Last verified**: 2026-05-09
 
@@ -612,7 +616,7 @@ NL has **no separate CGT** for individuals on real estate held privately. Box 3 
 - Residence (§ 2-1): > 183 d in any 12-mo OR > 270 d in 36 mo. Worldwide income for residents.
 - Foreign rental: kapitalinntekt **22%** (general rate 2024-26).
 - DTT method: **credit** (§ 16-20 ff.), not exemption.
-- **Formueskatt** (wealth tax): net worth > NOK 1.7M; rate 1.0% state + 0.7% municipal ~1.1% combined; surtax 0.4% > NOK 20M. Foreign property included at FMV; mortgage deductible. **Foreign property valuation cap**: taxable value capped at **30% of market value** (formuesverdi).
+- **Formueskatt** (wealth tax), income year 2026: net wealth > NOK 1,900,000 per person (NOK 3,800,000 jointly assessed couples); 0.35% municipal (a maximum) + 0.65% state = 1.0%, state 0.75% above NOK 21,500,000 = 1.1% (2025 return: NOK 1.76M, 0.525% + 0.475%, state 0.575% above NOK 20.7M). Primary residence valued at 25% of market value up to NOK 14,000,000 and 70% above (raised from NOK 10M by Prop. 95 LS (2025–2026)); secondary residence 100%. 2027: Prop. 1 LS (2026–2027), presented 7 Oct 2026, PROPOSES a NOK 1,990,000 floor with the rates and the NOK 14M / NOK 21.5M thresholds unchanged — not adopted by the Storting (2026 figures 2026-10-23 verified; sources [Skatteetaten — formuesskatt](https://www.skatteetaten.no/satser/formuesskatt/) + [Skatteetaten — formuesverdi bolig](https://www.skatteetaten.no/satser/formuesverdi-bolig) + [Prop. 1 LS (2026–2027)](https://www.regjeringen.no/no/dokumenter/prop.-1-ls-20262027/id3176120?ch=1)). Foreign property included at FMV; mortgage deductible. **Foreign property valuation cap**: taxable value capped at **30% of market value** (formuesverdi).
 - CGT (§ 9-3): primary-residence exemption requires owned ≥ 1y AND lived ≥ 1 of last 2 years; rule applies equally to foreign primary residence (Skatteetaten BFU practice). Otherwise 22%.
 - **Exit tax § 10-70 — substantially tightened 2024-25**: NOK 500k threshold replaced with NOK 3M basic allowance; mandatory 12-year payment cap; 70% of dividends must service exit-tax liability from 7 Oct 2024. **Shares only — not direct RE**.
 - **Inheritance tax: ABOLISHED 2014**.
@@ -915,11 +919,12 @@ Wealth tax rarely makes the buyer's checklist, but it bites hardest on cross-bor
 |---|---|---|---|
 | **FR** | IFI (Impôt sur la Fortune Immobilière) | €1.3M | YES — worldwide RE for FR-resident; FR-situs only for non-resident |
 | **ES** | Patrimonio + ITSGF | €700k base + €300k habitual; ITSGF > €3M | YES for resident; ES-situs only for non-resident |
-| **NO** | Formueskatt | NOK 1.7M (~€150k) | YES — worldwide net wealth |
+| **NO** | Formueskatt | NOK 1.9M (2026; NOK 1.99M proposed for 2027, not adopted) | YES — worldwide net wealth |
 | **CH** | Vermögenssteuer (cantonal) | varies by canton | YES — worldwide net wealth |
 | **NL** | Box 3 | €59,357 / €118,714 (2026) | YES — deemed-return on worldwide assets |
 | **IT** | IVIE on foreign RE | no threshold | 1.06% on foreign RE (NB: this is asset-class-specific, not net-wealth) |
 | **DK** | Ejendomsværdiskat | DKK 9.4M lower bracket | YES — Danish rates apply to foreign RE uniquely |
+| **HU** | Vagyonadó — PROPOSED, not adopted (MoF draft, consultation 6–14 Oct 2026; [kormany.hu](https://kormany.hu/dokumentumtar/tarsadalmi-egyeztetes-a-vagyonadorol-szolo-torvenyjavaslatrol)) | HUF 1bn net wealth (1% to HUF 100bn; 1.5% above) | Draft: YES — whole wealth for HU resident; non-resident only on HU real estate, related rights, shares in HU companies and shares in any company holding HU real estate |
 
 Limited estate / wealth-tax DTTs exist (FR-IT, FR-CH, ES-IT, FR-DE 2002 still in force) — but most DTTs allocate income only, not capital stock. **Practitioner trap**: a French resident buying a Madrid pied-à-terre is in scope for BOTH IFI (worldwide) AND Spanish Patrimonio (Spanish-situs) — the FR-ES treaty does not eliminate the overlap on the Madrid flat itself.
 
@@ -1033,7 +1038,7 @@ These work regardless of buyer's home country and prevent the most common cross-
 | CGT on foreign disposal | LTCG 0/15/20% + NIIT 3.8% | 18%/24% (post-Oct 2024) | § 23 EStG, 10y exempt | 22y IR / 30y soc. abated | 5y exempt | 19-30% (2025) | None for individuals | 22% | EBL § 1 | 50% inclusion |
 | Exit tax foreign RE | YES (§ 877A) | NO (FIG regime exit) | NO | NO | NO | NO | NO | NO | NO | YES (§ 128.1) | YES (CGT event I1) |
 | Inheritance worldwide | YES ($15M from 2026) | YES (LTR 10/20) | YES (decedent OR heir) | YES (decedent OR 6/10y heir) | YES (decedent) | YES (heir-resident) | YES + 10y emigrant | NO (abolished 2014) | YES (decedent) | NO (1979) | NO (deemed disposition § 70(5)) |
-| Special inbound regime | None | **FIG** 4y | None (post-2009) | None standalone | **24-bis** €200k / **24-ter** 7% | **Beckham** 24% | **30%-ruling** → 27% from 2027 | None | None | None | None |
+| Special inbound regime | None | **FIG** 4y | None (post-2009) | None standalone | **24-bis** €300k (transfers from 2026) / **24-ter** 7% | **Beckham** 24% | **30%-ruling** → 27% from 2027 | None | None | None | None |
 
 ---
 
@@ -1054,11 +1059,11 @@ These work regardless of buyer's home country and prevent the most common cross-
 
 ## Status
 
-**Confidence (overall)**: HIGH for the cited statutes and primary forms across all 20+ buyer cohorts; MEDIUM for items in active 2026 reform (NL Wet WRBox3 effective date · FR exit-tax PLF 2026 · IT 24-bis €300k PLF 2026 · KR 2028 Inheritance Acquisition System · CA UHT elimination · IL 10y olim survival · CH Eigenmietwert pre-2029 transition); LOW flagged inline (SA individual passive RE · OM PIT timing · § 988 personal-use treatment).
+**Confidence (overall)**: HIGH for the cited statutes and primary forms across all 20+ buyer cohorts; MEDIUM for items in active 2026 reform (NL Wet WRBox3 effective date · FR exit-tax PLF 2026 · KR 2028 Inheritance Acquisition System · CA UHT elimination · IL 10y olim survival · CH Eigenmietwert pre-2029 transition); LOW flagged inline (SA individual passive RE · OM PIT timing · § 988 personal-use treatment).
 
 **Last verified**: 2026-05-09.
 
-**Re-verify cadence**: every 6 months — these jurisdictions all have annual finance laws that move thresholds and rates. NL Box 3, FR exit tax, IL Olim reform, KR inheritance reform, US OBBBA technical corrections, and IT 24-bis PLF 2026 should be re-checked **after each parliamentary milestone**, not just on the 6-month timer.
+**Re-verify cadence**: every 6 months — these jurisdictions all have annual finance laws that move thresholds and rates. NL Box 3, FR exit tax, IL Olim reform, KR inheritance reform, US OBBBA technical corrections, and the IT Legge di Bilancio 2027 (24-bis / 24-ter amounts) should be re-checked **after each parliamentary milestone**, not just on the 6-month timer.
 
 **Re-stamp triggers (calendar-actionable)**:
 - 2026-Q4: HMRC FIG-regime manual stabilisation target.

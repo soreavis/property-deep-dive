@@ -216,7 +216,7 @@ For the property's locality, return:
 
 ### 🇨🇷 Costa Rica
 
-- **OIJ (Organismo de Investigación Judicial)**: `https://oij.poder-judicial.go.cr/` — annual statistics
+- **OIJ (Organismo de Investigación Judicial)**: `https://pjenlinea3.poder-judicial.go.cr/estadisticasoij` — Estadísticas Policiales open data (CC BY 4.0, updated daily; filter by date, provincia / cantón / distrito)
 - **Ministerio de Seguridad Pública**: `https://www.seguridadpublica.go.cr/`
 - **INEC Encuesta de Victimización** — victim survey
 - **Granularity**: per-province + per-cantón
@@ -955,7 +955,7 @@ For the property's locality, return:
 
 ### 🇹🇹 Trinidad & Tobago
 
-- **Trinidad & Tobago Police Service (TTPS)** — statistics + Commissioner of Police public reporting, typically surfaced via **Trinidad Express / Newsday** reporting of official TTPS figures (`https://newsday.co.tt/`)
+- **Trinidad & Tobago Police Service (TTPS)** — statistics + Commissioner of Police public reporting, published directly by TTPS as Crime Statistics — reported and detected offences by police division and month, reporting years 2018–2026, CSV download (`https://www.ttps.gov.tt/statistics/`); secondary press: **Trinidad Express** (`https://trinidadexpress.com/`) — Newsday was wound up by High Court order in January 2026 ([Trinidad Express](https://trinidadexpress.com/newsextra/after-32-years-court-approves-closure-of-newsday/article_f5165492-abef-41ca-a0dd-80b1d6c945f6.html))
 - **Central Bank of Trinidad and Tobago (CBTT)**: `https://www.central-bank.org.tt/` — population/economic context (final appeals go to the **UK Judicial Committee of the Privy Council, NOT the CCJ Appellate Jurisdiction**)
 - **Granularity**: national + Trinidad regional corporations / city-borough municipalities + Tobago (governed by the Tobago House of Assembly); **TTPS publishes aggregated totals (via Express/Newsday) but not parcel-level detail — verify with TTPS divisional statistics**
 - **Caveat**: **2024 was a record murder year (≈625, range 624–626; homicide rate ≈45.7/100k COMPUTED on the World Bank 1.37M denominator — do NOT mix with the ~1.5M aggregator denominator that yields ~41.7/100k)**; **2025 fell ~42% to 369 murders — lowest since 2014** (Newsday, 2 Jan 2026); crime is **highly localised** (parts of east Port of Spain, Laventille, Beetham, pockets of central/south Trinidad) — **Tobago materially LOWER violent crime; NEVER generalise the national rate to a neighbourhood**; **States of Emergency used in response to gang violence — verify current SoE status before relying**; burglary of unoccupied second homes a target; Caribbean-wide wire/impersonation fraud against international buyers — verify wire instructions verbally

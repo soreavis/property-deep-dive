@@ -95,7 +95,7 @@ This section determines whether a transaction is even legally possible — and w
 
 - **7th Heaven Properties** — `https://www.7thheavenproperties.com/`
 - **Caribbean Property Group / Luxury Locations Antigua** — `https://www.luxurylocations.com/`
-- **Tropical Properties Antigua** — `https://www.tropicalproperties.net/`
+- **Duffy & Company (Duffy's Real Estate)** — `https://www.duffy.ag/` — Jolly Harbour-based agency; villas, land, commercial, long-term rentals
 - **Sotheby's International Realty — Caribbean (Antigua)** — high-end / international syndication
 - **TheLatinvestor** (secondary aggregator commentary)
 - **Realtor / Knight Frank Caribbean** — international-buyer syndication
@@ -593,7 +593,7 @@ Antigua and Barbuda operates one of the established Eastern Caribbean **Citizens
 
 - **7th Heaven Properties** — `https://www.7thheavenproperties.com/`
 - **Luxury Locations Antigua** — `https://www.luxurylocations.com/`
-- **Tropical Properties Antigua** — `https://www.tropicalproperties.net/`
+- **Duffy & Company (Duffy's Real Estate)** — `https://www.duffy.ag/` — Jolly Harbour-based agency; villas, land, commercial, long-term rentals
 - **Sotheby's International Realty — Caribbean (Antigua desk)** — high-end syndication
 - **Knight Frank Caribbean — Antigua desk** — international syndication
 - **TheLatinvestor** — secondary aggregator + market commentary (⚠️ verify each figure is for Antigua & Barbuda, not Antigua, Guatemala)

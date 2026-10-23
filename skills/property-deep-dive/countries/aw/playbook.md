@@ -119,7 +119,7 @@ Aruba's recurring property tax is the **grondbelasting** (literally "land tax"),
 
 ### Transaction tax — Overdrachtsbelasting (Transfer Tax)
 
-Per **Landsverordening overdrachtsbelasting**, as amended by the **Landsverordening Belastingplan 2023** (AB 2022 no. 161, published in the *Afkondigingsblad van Aruba* of 21 December 2022), **in force from 1 January 2023**; levied by DIMP at notarial deed signing ([DIMP Belastingplan 2023](https://www.impuesto.aw/belastingplan_2023), primary source; 2026-09-18 verified — Belastingplan 2023 is still the most recent tax plan published on impuesto.aw):
+Per **Landsverordening overdrachtsbelasting**, as amended by the **Landsverordening Belastingplan 2023** (AB 2022 no. 161, published in the *Afkondigingsblad van Aruba* of 21 December 2022), **in force from 1 January 2023**; levied by DIMP at notarial deed signing ([DIMP Belastingplan 2023](https://www.impuesto.aw/belastingplan_2023), primary source; 2026-09-18 verified; the ordinance was amended again by the Landsverordening Belastingplan 2023 – Deel II (AB 2023 no. 25, dated 7 Jul 2023, in force 12 Jul 2023 with retroactive effect to 1 Jan 2023), which DIMP lists as its latest amendment — impuesto.aw was offline on 2026-10-21, so the limbs below marked 2026-09-18 were not re-checked then):
 
 | Property type | Up to AWG 250,000 | Above AWG 250,000 |
 |---|---:|---:|
@@ -128,7 +128,7 @@ Per **Landsverordening overdrachtsbelasting**, as amended by the **Landsverorden
 - **Tax base**: deed price (*koopsom*) OR *leggerwaarde* (DIMP-assessed value) — **whichever is higher**
 - **Notary files + remits within 15 days of deed** under penalty (up to AWG 2,500 late filing / AWG 10,000 non-payment)
 - **Scope widened on 1 Jan 2023** (Landsverordening Belastingplan 2023): transfer tax now also bites on acquisition of **economic ownership** and on **huurkoop**, and on **shares in a *vastgoedvennootschap*** — a company at least 30% of whose assets are Aruban real property where that property contributes at least 70% to acquisition / disposal / exploitation, with the share value floored at the *grondbelasting* value. Non-notarial transfers carry a **two-week reporting duty** (penalty up to AWG 100,000 or 10% of value) and a **12-month anti-cumulation credit** applies. ⚠️ A buyer structuring the purchase through a company therefore **no longer avoids overdrachtsbelasting** (2026-09-18 verified)
-- **Key exemptions** (per DIMP Belastingplan 2023):
+- **Key exemptions** (per DIMP Belastingplan 2023 — note the exemptions article, art. 4, was rewritten by AB 2023 no. 25 with retroactive effect to 1 Jan 2023; per the Wolters Kluwer InView consolidation (secondary) art. 4 now exempts acquisitions by Land-owned NV/VBA companies, certain partnership contributions, partitions between co-owners, art. 11 death-linked agreements without consideration, re-grant of an expired erfpacht on a plot carrying the acquirer's main residence, and an own home designated a protected monument; the items below that do not match art. 4 are not re-verified — check each with DIMP):
   - **Inheritance (*vererving*)** transfers — out of scope of transfer tax since 1 Jan 2023 (subject separately to inheritance tax); the primary says nothing about *schenking* (gift) — verify the gift limb with DIMP
   - **Acquisition by direct-line blood relative or surviving spouse of primary residence**
   - **Property transfer via marriage / divorce settlement** (exceptions for prenup-based)
@@ -541,7 +541,7 @@ MEDIUM — Aruba insurance market is small + Caribbean-distributed; figures abov
 | **🇨🇼 Curaçao** | Open, no restriction | similar 5–8% | property tax progressive | 5–8% | ANG (USD-pegged 1.79) |
 | **🇧🇶 Bonaire** | Open (Caribbean Netherlands — special municipality NL) | 6–8% | property tax | 5–8% | **USD** (legal tender since 2011) |
 | **🇰🇾 Cayman** | Open | 7.5% stamp duty + legal | NO annual property tax | 4–6% | KYD (USD-pegged 1.20) |
-| **🇧🇧 Barbados** | Open + 1% property-transfer-tax + 10% stamp duty above BBD 150k | 12–15% | Land tax progressive | 4–6% | BBD (USD-pegged 2.00) |
+| **🇧🇧 Barbados** | Open (foreign-currency inflow registered with the Central Bank); vendor pays 2.5% property transfer tax above BBD 150k (with building) + 1% stamp duty (Cap. 84A ss.5–7 + Cap. 91, per `countries/bb/playbook.md`) | ~2–3% (buyer; PTT + stamp duty vendor-paid) | Land tax progressive | 4–6% | BBD (USD-pegged 2.00) |
 | **🇩🇲 Dominica** | Open + CBI option from USD 200k | 8–12% | minimal property tax | 5–7% | XCD (USD-pegged 2.70) |
 
 ### Aruba's distinctive position
@@ -828,7 +828,7 @@ Aruba is a **strong retirement destination** for USD-comfortable retirees seekin
 - **MEDIUM** on: grondbelasting band-by-band rates (0.00% / 0.20% / 0.30% / 0.40% / 0.60% at AWG 120k/250k/500k/750k thresholds — primary `gobierno.aw` 2024 notice confirms DIMP authority + assessment cycle, but exact band-rate schedule synthesised from Global Property Guide aggregator cross-reference; verify per parcel at DIMP aanslag); investor-permit USD 200k threshold (multiple 2024-25 secondary sources converge — verify statutory quantum + qualifying property categories at DIMAS); non-resident bank-mortgage 35–40% down-payment norm (widely cited but bank-policy not statute — verify per bank); vacation-rental policy status (legislative final-phase 2024 announcement — verify AQHA implementation status); 12.5% tourism levy + USD 3/night special levy (multiple 2024-25 secondary cross-references).
 - **LOW** on: per-district €/m² granularity (no Aruba HPI; ranges synthesised from ARAB MLS + RE/MAX + Coldwell Banker active listings + Global Property Guide aggregator — verify any specific deal via Kadaster individual-deal extract + multiple agency comps); district-level crime granularity (KPA does not publish public mapping); WEB Aruba water tariff exact rates (verify on current tariff sheet at `https://webaruba.com/your-water-bill/understanding-your-bill`); historical hurricane strike-rate exact frequency for Aruba parcels (qualitative — verify via NOAA HURDAT for any specific risk underwriting).
 
-**Last verified**: 2026-05-27 (UBO-register date and overdrachtsbelasting regime corrected 2026-09-18 per arubachamber.com + impuesto.aw Belastingplan 2023)
+**Last verified**: 2026-05-27 (UBO-register date and overdrachtsbelasting regime corrected 2026-09-18 per arubachamber.com + impuesto.aw Belastingplan 2023). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Opus 4.7 (Batch C Phase B, 2026-05)
 

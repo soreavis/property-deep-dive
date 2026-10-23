@@ -35,16 +35,16 @@
 ## 🇸🇦 Saudi Arabia
 - **DOM**: Riyadh (DQ / Olaya / Al Malaz) ~120-200 / Jeddah (Al Hamra / Corniche) 150-250 / NEOM / Red Sea / AlUla / Diriyah Vision 2030 zones — phased delivery / regional 200-365+ [verify with Real Estate General Authority]
 - **Commission**: **2.5% seller-pays + 2.5% buyer-pays typical (Saudi Real Estate Brokers Code)** + 15% VAT
-- **Contract**: bilateral sale agreement → Saudi Real Estate Registration; **Mecca/Medina Muslim-only constitutional restriction**
+- **Contract**: bilateral sale agreement → Saudi Real Estate Registration; **Makkah/Madinah: individual ownership limited to Muslim natural persons** (RD M/14 art. 2(4))
 - **MLS**: NO MLS; **Bayut SA + Aqar + Wasalt** dominate; **Sahel STR licensing platform** for short-term rentals
 - **Discount**: 5-15% off asking; Vision 2030 mega-project zones narrower
 - **Sell-side**: **NO CGT** for individuals (NO PIT regime; Saudi Zakat 2.5% citizens / corporate 20% non-Saudi); **Real Estate Disposal Tax (RETT) 5% of sale value** (replacing prior VAT regime on resi); commission 2.5% + 15% VAT; deed registration straightforward
-- **Liquidity**: 🟢 MEDIUM-HIGH Riyadh DQ / Olaya / Al Malaz prime + Jeddah Corniche; 🟠 MEDIUM Vision 2030 mega-project deliveries (NEOM / Red Sea / AlUla / Diriyah / Roshn — phased 2024-2030); 🔴 LOW secondary cities; **Mecca/Medina Muslim-only** — non-Muslim buyers barred entirely
-- **Quirks**: **Mecca/Medina constitutional Muslim-only ownership** (non-Muslim foreigners barred from Holy Cities real estate entirely); **Premium Residency Vision 2030 SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M** — see `visa-programs.md`; SAR pegged USD 3.75 since Jun 1986; **Vision 2030 mega-projects (NEOM, Qiddiya, Diriyah, Red Sea, AlUla, Roshn)** drive employment + create concentration risk; Riyadh Metro Phase 1 launched Dec 2024; STC / Mobily / Zain 5G; **2009/2011 Jeddah catastrophic floods + 50°C+ summer + sandstorms + drought + groundwater depletion**; Tourism Law 2020 + Sahel STR licensing emerging
+- **Liquidity**: 🟢 MEDIUM-HIGH Riyadh DQ / Olaya / Al Malaz prime + Jeddah Corniche; 🟠 MEDIUM Vision 2030 mega-project deliveries (NEOM / Red Sea / AlUla / Diriyah / Roshn — phased 2024-2030); 🔴 LOW secondary cities; **Makkah/Madinah** — non-Muslim natural persons cannot take title (RD M/14 art. 2(4)); corporate routes per exec. reg. art. 8(3) / law art. 4
+- **Quirks**: **Makkah/Madinah: individual ownership limited to Muslim natural persons** (RD M/14 art. 2(4); Saudi-incorporated companies with foreign shareholders may own inside the designated scope incl. the two cities, exec. reg. art. 8(3); listed companies / funds under CMA rules, art. 4); **Premium Residency Vision 2030 SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M** — see `visa-programs.md`; SAR pegged USD 3.75 since Jun 1986; **Vision 2030 mega-projects (NEOM, Qiddiya, Diriyah, Red Sea, AlUla, Roshn)** drive employment + create concentration risk; Riyadh Metro Phase 1 launched Dec 2024; STC / Mobily / Zain 5G; **2009/2011 Jeddah catastrophic floods + 50°C+ summer + sandstorms + drought + groundwater depletion**; Tourism Law 2020 + Sahel STR licensing emerging
 
 ## 🇮🇱 Israel
 - **DOM**: Tel Aviv (Center/North TA/Ramat Gan) ~90-150 / Jerusalem 100-200 / Haifa 120-200 / Beersheba 150-300 / periphery longer
-- **Commission**: **2% each side + 17% VAT (Ma'am)** typical (some 1.5-2% buyer; 2% seller)
+- **Commission**: **2% each side + 18% VAT (Ma'am)** typical — VAT 18% since 1 Jan 2025, up from 17% (Israel Tax Authority VAT-rate history `https://www.gov.il/he/pages/vat-history`; 2026-10-21 verified) (some 1.5-2% buyer; 2% seller)
 - **Contract**: contract via עורך דין (orech din / lawyer-led) — both sides retain own attorney; Mas Rehisha (purchase tax) buyer-side
 - **MLS**: no formal MLS; Yad2 + Madlan + WinWin
 - **Discount**: 5-12% off asking; 2024-2026 conflict-cycle deeper in periphery
@@ -60,7 +60,7 @@
 - **Discount**: 10-20% off asking; Marrakech riad/medina deeper
 - **Sell-side**: **TPI (Taxe sur les Profits Immobiliers) 20% on net gain**; minimum 3% of sale price (whichever higher); exempt if **primary residence held 6+ yrs**; commission 2.5%+TVA; conservation foncière 1% buyer-side
 - **Liquidity**: 🟠 MEDIUM Casablanca prime / Marrakech expat zones; 🔴 LOW Rabat/Tangier/Agadir; VERY LOW medina/riad inventory
-- **Quirks**: **Office des Changes mandatory for repatriation** of sale proceeds — without proper documentation of original FX import, foreign-seller proceeds locked in MAD; medina/riad properties often have **fragmented inheritance ownership** (multi-heir consent required); melk (private freehold) vs habous/collective land critical distinction — foreigners restricted from agricultural land
+- **Quirks**: **Repatriation**: with foreign-currency financing the bank transfers net proceeds against the settlement justificatifs, acte d'achat / acte de vente copies and proof of taxes paid (IGOC 2026); without it a non-resident foreign seller's proceeds leave via a compte convertible à terme in four annual 25 % tranches; medina/riad properties often have **fragmented inheritance ownership** (multi-heir consent required); melk (private freehold) vs habous/collective land critical distinction — foreigners restricted from agricultural land
 
 ## 🇹🇳 Tunisia
 - **DOM**: Tunis (La Marsa / Carthage / Sidi Bou Said / Les Berges du Lac) ~120-250 / Sousse (Boujaffar / Hammam Sousse) 150-300 / Hammamet 150-300 / Djerba seasonal 150-365+ / Sfax 200-365+ [verify with Direction Générale des Impôts]
@@ -78,7 +78,7 @@
 - **Contract**: agency contracts informal; deed registration (shahr aqari) historically incomplete (<10% of properties registered as of 2020s reforms)
 - **MLS**: no MLS; OLX Egypt + Aqarmap + Property Finder Egypt
 - **Discount**: 15-30% off asking common (pricing fluid; EGP devaluation cycles)
-- **Sell-side**: **Law 175/2023 imposes CGT 2.5% of GROSS sale price** (replacing prior 10% on gain regime — material change); commission 1-3%; deed registration fee 3% (capped EGP 2,000 historically); **Form 4 mandatory for USD repatriation** via banking channels — without Form 4 documentation of original USD import, exit proceeds in EGP only
+- **Sell-side**: **2.5% tax on the GROSS disposal value under Income Tax Law 91/2005 Art. 42** (already in the 2005 text; article replaced by Law 151/2026 from 29 Jul 2026 — the contract value is the base, heirs' disposals are now taxed, payment due within 60 days); commission 1-3%; deed registration fee 3% (capped EGP 2,000 historically); **Form 4 mandatory for USD repatriation** via banking channels — without Form 4 documentation of original USD import, exit proceeds in EGP only
 - **Liquidity**: 🔴 LOW Cairo prime (compounds: Mivida, Palm Hills, Zamalek); VERY LOW everywhere else; coastal seasonal-only
 - **Quirks**: **EGP devaluation (Mar 2024: ~50% vs USD; ongoing)** = catastrophic exit if Form 4 not filed at purchase — proceeds trapped in depreciating EGP; New Capital + North Coast oversupply 2020-2026; **most properties UNREGISTERED** (informal sales via contracts) narrowing financed-buyer pool; foreign ownership requires Prime Minister approval in some zones; remittance restrictions episodic during FX crises
 

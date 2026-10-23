@@ -16,9 +16,9 @@ ISO2: `cl`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Servicio de Impuestos Internos (SII)** — fiscal property roll, maintains **avalúo fiscal** + **rol de avalúo** (comuna-rol-subrol). Portal: `https://www.sii.cl/servicios_online/1039-.html`.
 - **Identifier**: **Rol SII** (comuna code + rol + subrol) for tax; **Foja/N°/Año CBR** for title.
 - **Recent reforms**:
-  - **Ley 21.210 (2020)** — introduced **sobretasa** on aggregate residential property > 670 UTA (originally 0.075–0.275 %; raised to **0.275–0.425 %** post-ajustes).
+  - **Ley 21.210 (D.O. 24-Feb-2020)** — introduced the **sobretasa** (art. 7 bis Ley 17.235) on the sum of all the owner's avalúos fiscales > 670 UTA (marginal 0.075 % / 0.15 % / top 0.275 %); **Ley 21.420 (D.O. 4-Feb-2022)** raised the top tramo (> 1,510 UTA) to **0.425 %** from 1-Ene-2023 (2022 data, source SII Circular N°22/2022).
   - **Ley 21.442 (D.O. 13-Abr-2022; Reglamento DS N°7 MINVU D.O. 9-Ene-2025)** — new Copropiedad Inmobiliaria, replaced Ley 19.537.
-  - **Ley 21.435 (2022)** + **Ley 21.727 (D.O. 18-Feb-2025, plazos DAA → 6-Abr-2027)** (Ley 21.604 (2023) no re-verificada — verify at bcn.cl) — Reforma del Código de Aguas; uso prioritario consumo humano; nuevos DAA con plazo.
+  - **Ley 21.435 (2022)** + **Ley 21.841 (D.O. 9-Oct-2026, plazos DAA → 6-Abr-2032; pequeños productores agrícolas Ley 18.910 → 11 años)** (prórrogas previas: Ley 21.586 (D.O. 13-Jul-2023) → 6-Abr-2025; Ley 21.727 (D.O. 18-Feb-2025) → 6-Abr-2027) — Reforma del Código de Aguas; uso prioritario consumo humano; nuevos DAA con plazo.
   - **NCh 433 Of.96 mod. 2009 + DS 61/2011** — post-2010 Maule revision; reforzó estándar diseño sísmico.
 
 ---
@@ -57,7 +57,7 @@ ISO2: `cl`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
 - **Yapo.cl** (Adevinta) — privates: `https://www.yapo.cl/`
 - **Mercado Libre Inmuebles**: `https://inmuebles.mercadolibre.cl/`
 - **Mi Buen Vecino**: `https://www.mibuenvecino.cl/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — comuna-level evaluación.
-- **Zoominmobiliario**: `https://www.zoominmobiliario.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Chilepropiedades**: `https://chilepropiedades.cl/` — venta + arriendo; owners and registered corredores publish (listing platform, seller-controlled). Replaces Zoominmobiliario (Equifax-run portal), offline by Mar 2025 — domain no longer resolves (DNS 2026-10-21)
 
 ### UF/m² benchmarks — Gran Santiago + key regions (Q1-Q2 2026 listing observation)
 
@@ -144,11 +144,11 @@ Aplica al titular cuya **suma de avalúos fiscales totales** supere **UTA 670** 
 | Hasta 670 UTA | 0 % |
 | 670–1,175 UTA | **0.075 %** |
 | 1,175–1,510 UTA | **0.150 %** |
-| > 1,510 UTA | **0.275 %** (o **0.425 %** en topes superiores) |
+| > 1,510 UTA | **0.425 %** desde 1-Ene-2023 (Ley 21.420; 0.275 % en 2020–2022) |
 
-(2026-05-27 verified, source [SII Sobretasa](https://www.sii.cl/destacados/avaluaciones/sobretasa/2023/) + [Tesorería TGR](https://portal-ayuda.tgr.cl/ayuda/operativa-de-tramites/sobretasa-anual-de-impuesto-territorial). Prior playbook UF labels were a unit conflation — UTA and UF differ by ~12× scale.)
+(2026-05-27 verified, source [SII Sobretasa](https://www.sii.cl/destacados/avaluaciones/sobretasa/2023/) + [Tesorería TGR](https://portal-ayuda.tgr.cl/ayuda/operativa-de-tramites/sobretasa-anual-de-impuesto-territorial). Prior playbook UF labels were a unit conflation — UTA and UF differ by ~12× scale.) Tramos above are the statutory values: art. 7 bis raises each tramo by the same % as each reavalúo of the serie no agrícola, and SII's sobretasa page (2023 edition) applies **827 / 1,450 / 1,863 UTA** (≈ CLP 600M entry point per SII); the UTA is taken at its December value of the year before payment; habitacional and agrícola avalúos count in full, without deducting their exemption. The next reavalúo general no agrícola was postponed to 2027 by Ley 21.806 (published 5-Feb-2026, per SII) (2026-10-21 verified, source [SII Circular N°22/2022](https://www.sii.cl/normativa_legislacion/circulares/2022/circu22.pdf) + SII sobretasa page + [SII noticia 6-Feb-2026](https://www.sii.cl/noticias/2026/060226noti01pcr.htm)).
 
-**Reform risk**: Ley 21.713 (cumplimiento tributario, **publicada 24 Oct 2024 en Diario Oficial**, vigencia general 1 Nov 2024 + ciertas disposiciones 2 Ene 2026 — parte del **Pacto Fiscal 2024-2025**, BCN `https://www.bcn.cl/leychile/navegar?idNorma=1207746`) and recent reforma tributaria proposals continue to revise sobretasa thresholds.
+**Reform risk**: Ley 21.713 (cumplimiento tributario, **publicada 24 Oct 2024 en Diario Oficial**, vigencia general 1 Nov 2024 + ciertas disposiciones 2 Ene 2026 — parte del **Pacto Fiscal 2024-2025**, BCN `https://www.bcn.cl/leychile/navegar?idNorma=1207746`) does not amend the sobretasa — its BCN text has no reference to art. 7 bis or Ley 17.235 (2026-10-21 check). Sobretasa tramos move with each reavalúo no agrícola (see note above); the top rate last changed via Ley 21.420 (from 2023).
 
 ### Example — depto Las Condes 100 m² avalúo fiscal CLP 200,000,000 (≈ UF 5,200 a UF del día CLP 38,500)
 
@@ -201,8 +201,8 @@ Exención básica ~600 UTM por heredero línea recta + cónyuge.
 
 ### Future reform risk
 
-- Reforma tributaria **Ley 21.713 (parte del Pacto Fiscal 2024-2025, Min. Hacienda; publicada 24 Oct 2024, vigencia escalonada general 1 Nov 2024 + ciertas disposiciones 2 Ene 2026)** → más fiscalización avalúos. Próxima reaviorización residencial proyectada 2026-2028 (est. — fecha no confirmada oficialmente SII); expect avalúos al alza en zonas premium.
-- Sobretasa thresholds historically tightened — monitor.
+- Reforma tributaria **Ley 21.713 (parte del Pacto Fiscal 2024-2025, Min. Hacienda; publicada 24 Oct 2024, vigencia escalonada general 1 Nov 2024 + ciertas disposiciones 2 Ene 2026)** → más fiscalización avalúos. Reavalúo general no agrícola postergado a 2027 por Ley 21.806 (publicada 5-Feb-2026); los avalúos de la Res. SII 143/2021 siguen vigentes hasta 31-Dic-2026 y sólo se actualizan por IPC (2026 data, source [SII noticia 6-Feb-2026](https://www.sii.cl/noticias/2026/060226noti01pcr.htm)); ese reavalúo también reajusta los tramos de la sobretasa.
+- Sobretasa: top rate raised 0.275 → 0.425 % from 2023 (Ley 21.420); tramos (in UTA) are re-indexed upward with each reavalúo no agrícola — monitor the 2027 reavalúo.
 
 ---
 
@@ -340,8 +340,8 @@ Norma sísmica chilena: **NCh 433 Of.96 mod. 2009** + **DS 61/2011 MINVU** (post
 ### Sequía + Código de Aguas
 
 - **Mega-sequía central-norte (desde 2010)**: déficit hídrico prolongado en Chile central (cuencas Maipo, Aconcagua, Limarí) — severidad actual no re-verificada 2026-09; verify decretos de escasez hídrica vigentes at DGA `https://dga.mop.gob.cl/`.
-- **Reforma Código de Aguas** Ley 21.435 (publicada abr-2022 per DGA; Ley 21.604 (2023) no re-verificada 2026-09 — verify at bcn.cl/leychile): **uso prioritario consumo humano**; **derechos de aprovechamiento** ahora tienen plazo (no perpetuos para nuevos), caducidad por no uso, reasignación posible.
-- **Para propiedades rurales / agrícolas**: verificar **derechos de aprovechamiento de aguas (DAA)** inscritos en CBR (separados del dominio del suelo) y registrados en el Catastro Público de Aguas DGA — plazo de inscripción/registro y de regularización hasta **6-Abr-2027** por **Ley 21.727 (D.O. 18-Feb-2025)** (2025 data, source DGA); DAA sin inscribir al vencimiento = riesgo de caducidad — `https://dga.mop.gob.cl/CPADGA/Paginas/CPA.aspx`.
+- **Reforma Código de Aguas** Ley 21.435 (D.O. 6-Abr-2022 per BCN; plazos transitorios modificados por Ley 21.586 (2023), Ley 21.727 (2025) y Ley 21.841 (D.O. 9-Oct-2026)): **uso prioritario consumo humano**; **derechos de aprovechamiento** ahora tienen plazo (no perpetuos para nuevos), caducidad por no uso, reasignación posible.
+- **Para propiedades rurales / agrícolas**: verificar **derechos de aprovechamiento de aguas (DAA)** inscritos en CBR (separados del dominio del suelo) y registrados en el Catastro Público de Aguas DGA — plazo de inscripción CBR / acreditación ante la DGA y de inicio de regularización hasta **6-Abr-2032** por **Ley 21.841 (D.O. 9-Oct-2026)**; DAA no inscritos de pequeños productores agrícolas (Ley 18.910): 11 años desde la publicación de Ley 21.435 → 6-Abr-2033 (computado) (2026 data, source BCN LeyChile Ley 21.435 texto vigente + Diario Oficial Ley 21.841); DAA sin inscribir al vencimiento = riesgo de caducidad — `https://dga.mop.gob.cl/CPADGA/Paginas/CPA.aspx`.
 
 ### Mandatory diagnostics — documentos a exigir antes de oferta
 
@@ -456,9 +456,9 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 - **Avalúo fiscal típicamente 30-60 % bajo comercial** — no usar avalúo como proxy de mercado.
 - **NCh 433 watershed**: pre-1985 mucho más débil; post-2010 sustancialmente reforzado — exigir año Recepción Final.
 - **Tsunami CITSU costa Pacífico** — verificar cota inundación SHOA en cualquier propiedad costera.
-- **Mega-sequía + Reforma Código Aguas 2022 (Ley 21.435; plazos DAA hasta 6-Abr-2027 per Ley 21.727)** — DAA ahora con plazo, caducidad por no uso; rural sin DAA = limitación severa de uso.
+- **Mega-sequía + Reforma Código Aguas 2022 (Ley 21.435; plazos DAA hasta 6-Abr-2032 per Ley 21.841, D.O. 9-Oct-2026)** — DAA ahora con plazo, caducidad por no uso; rural sin DAA = limitación severa de uso.
 - **Border-zone DL 1939/1977**: extranjeros nacionales de países limítrofes (PE, BO, AR) **no pueden adquirir** dominio en franja fronteriza (10 km de la línea) y zonas costeras según decretos por excepción presidencial. Verificar si el predio cae en franja vía DOM + Ministerio Defensa. Texto: `https://www.bcn.cl/leychile/navegar?idNorma=6778`.
-- **Sobretasa conjunto > 670 UTA** — afecta a multipropietarios (residencial conjunto fiscal); actualizar tabla anual.
+- **Sobretasa conjunto > 670 UTA** (tramo legal; la página SII 2023 aplica 827 UTA tras el reajuste por reavalúo) — se calcula sobre la suma de los avalúos fiscales de todos los bienes raíces del titular (habitacionales y agrícolas cuentan íntegros); actualizar tabla en cada reavalúo.
 - **Ley 21.442 Copropiedad (D.O. 13-Abr-2022)** — nuevas reglas administración condominios; revisar reglamento copropiedad + acta asambleas + fondo reserva en compras de depto. Ley 21.842 (D.O. 23-Sep-2026) agrega Art. 43 bis: en unidades de vivienda sobre el primer piso donde residan niños de hasta 12 años o personas con necesidades especiales que presenten mayor riesgo de caída, el copropietario / arrendatario / ocupante debe instalar medidas de prevención de caídas, y el reglamento de copropiedad no puede prohibirlas (2026 data, source BCN LeyChile).
 - **DFL 2** — escudo tributario potente ≤140 m² (exención contribuciones + rentas exentas).
 - **Derechos de aguas separados del dominio del suelo** — siempre rastrear DAA en CBR + DGA en compras rurales.
@@ -509,7 +509,7 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 - **Sobretasa Ley 21.210** — adicional sobre conjunto > 670 UTA.
 - **DFL 2 vivienda económica** — escudo tributario ≤140 m².
 - **Border-zone DL 1939/1977** — restricción nacionales países limítrofes en franja fronteriza/costera.
-- **Derechos de aguas (DAA) separados del suelo** — Reforma Código Aguas 2022 (Ley 21.435); inscripción CBR + registro DGA hasta 6-Abr-2027 (Ley 21.727).
+- **Derechos de aguas (DAA) separados del suelo** — Reforma Código Aguas 2022 (Ley 21.435); inscripción CBR + registro DGA hasta 6-Abr-2032 (Ley 21.841, D.O. 9-Oct-2026).
 - **Recepción Definitiva DOM** ≠ permiso edificación; sin Recepción Final, obras irregulares.
 - **Red eléctrica**: 220V 50Hz, clavija tipo C/L.
 
@@ -553,8 +553,8 @@ Cobertura urbana **>99 % agua potable, >97 % alcantarillado** zonas reguladas SI
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: **HIGH** for cadastre (CBR + SII), seismic standards (NCh 433 evolution), UF/BCCh system, Conservador process, DGA/SHOA/SERNAGEOMIN/SENAPRED hazard sources, and Ley 18.101 / Ley 21.442 / DFL 2 frameworks.
-**MEDIUM** for: current 2026 sobretasa exact tramos (Ley 21.713 reform context — re-pull SII Circular each año), STR comuna-level enforcement (Las Condes / Providencia patente hospedaje + copropiedad bylaws in motion; Vitacura STR curbs unverified — no comuna-wide ordinance), boleta de honorarios retención escalonamiento (verify SII tabla annual).
-**Last verified**: 2026-05-27 (price-source attribution, PNCV cadence and RNVV volcano counts corrected 2026-09-18 per MINVU CECT + INE + MOP Vialidad + SERNAGEOMIN). Ley 21.442 publication date (D.O. 13-Apr-2022, per MINVU Reglamento DS N°7) and Código de Aguas DAA deadline (Ley 21.727) re-verified 2026-09-24 in the October regwatch wave; copropiedad STR limb narrowed (no hospedaje provision in the Reglamento; municipal fines secondary-sourced only); drought severity not re-verified. Finance tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**MEDIUM** for: current indexed sobretasa tramos in UTA (SII 2023 page shows 827 / 1,450 / 1,863 UTA; re-check after the 2027 reavalúo no agrícola), STR comuna-level enforcement (Las Condes / Providencia patente hospedaje + copropiedad bylaws in motion; Vitacura STR curbs unverified — no comuna-wide ordinance), boleta de honorarios retención escalonamiento (verify SII tabla annual).
+**Last verified**: 2026-05-27 (price-source attribution, PNCV cadence and RNVV volcano counts corrected 2026-09-18 per MINVU CECT + INE + MOP Vialidad + SERNAGEOMIN). Ley 21.442 publication date (D.O. 13-Apr-2022, per MINVU Reglamento DS N°7) and Código de Aguas DAA deadline (Ley 21.727) re-verified 2026-09-24 in the October regwatch wave; copropiedad STR limb narrowed (no hospedaje provision in the Reglamento; municipal fines secondary-sourced only); drought severity not re-verified. Finance tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Rental / risks / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early — sobretasa corrected (UTA not UF; 0.075 / 0.15 / 0.425 % marginal; Ley 21.713 does not amend it) per SII Circular N°22/2022; DAA deadlines moved to 6-Apr-2032 by Ley 21.841 (D.O. 9-Oct-2026) per BCN + Diario Oficial; STR limb re-checked (Ley 21.442 art. 8 letra j; Las Condes informe de uso de suelo); see shared/regulatory-watch.md).
 
 ## Extension TODOs
 

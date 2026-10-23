@@ -118,12 +118,12 @@ term_years: 25
 | ES | BdE guidance ~35% | yes |
 | PT | BdP ~40% | yes |
 | IT | BdI ~33% | yes |
-| UK | FCA Mortgage Market Review | yes (+3% above SVR) |
+| UK | FCA MCOB affordability rules (Mortgage Market Review); loans at 4.5x income or more capped at 15% of aggregate new lending, firm-level cap removed from 28 Oct 2026 (PRA PS19/26) | yes (assessed under FCA MCOB rules; the FPC +3 ppt SVR stress test was withdrawn 1 Aug 2022) |
 | NL | DNB LTI 4-5x | yes |
 | BE | banks ~33% | yes |
 | LU | banks ~40% | yes |
 | IE | CBI LTI 4x FTB / 3.5x sub | yes (+2% stress) |
-| SE | Riksbank: amortisation 2%/yr if LTV>50%, 3%/yr >70% | yes |
+| SE | Lag (2026:226) since 1 Apr 2026 (replaced the FI rules; not a Riksbank rule): amortisation ≥1%/yr if LTV>50%, ≥2%/yr >70%; extra 1 pp for debt >4.5x income removed; purchase LTV cap 90% | yes |
 | NO | Boligforskriften: DTI ≤5x, stress-test +3 ppts | yes |
 | LT | Bank of Lithuania DSTI ≤50% | yes |
 | LV | banks ~40% | yes |

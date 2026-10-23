@@ -6,7 +6,7 @@ ESG (Environmental, Social, Governance) overlay for property: energy class distr
 
 ## Why ESG matters for property
 
-1. **EU EPBD recast (2024/1275)** — Member State transposition by **29 May 2026**. Affects sale/rent disclosure and minimum energy performance for worst-performing buildings. **Class G/F buildings face rental bans** in many countries (FR already; others phasing in).
+1. **EU EPBD recast (2024/1275)** — Member State transposition was due **29 May 2026**; no member state met it in full, and the Commission sent letters of formal notice to all 27 on 15 Jul 2026 (DG ENER) — cite the national measure in force, not the directive. Affects sale/rent disclosure and minimum energy performance for worst-performing buildings. **Class G/F buildings face rental bans** in many countries (FR already; others phasing in).
 2. **Stranded asset risk** — buildings that can't be brought to minimum-class face value erosion ("brown discount")
 3. **Climate-risk premium** — insurers and lenders increasingly price physical-risk overlay (flood/EQ/wildfire)
 4. **Tenant preferences shifting** — younger tenants prefer A/B-class buildings; rental yield differentiates
@@ -57,7 +57,7 @@ Distribution of building stock by EPC class (residential). Source mix: **EU Buil
 | IE | 4% | 12% | 32% | 32% | 15% | 4% | 1% |
 | Nordic (SE/FI/NO/DK/IS) | 25-35% | 30-35% | 22-25% | 10-15% | 3-5% | 1-2% | 0-1% |
 
-**Disclaimer**: EPC class methodologies are NOT harmonised across countries (the same physical building can be class B in DE and class C in FR). EU EPBD recast 2024/1275 aims to converge — transposition deadline 29 May 2026.
+**Disclaimer**: EPC class methodologies are NOT harmonised across countries (the same physical building can be class B in DE and class C in FR). EU EPBD recast 2024/1275 aims to converge — transposition deadline 29 May 2026 passed unmet in all 27 member states (Commission letters of formal notice 15 Jul 2026).
 
 ### Non-EU energy-rating regimes (Tier-1 + Tier-2 expansion, Apr 2026)
 
@@ -95,7 +95,7 @@ EPC-style class distributions are not published by stat office for most non-EU r
 | 🇶🇦 QA | GSAS (Global Sustainability Assessment System, GORD-administered) | Mandatory for major QNV2030 / FIFA 2022 World Cup projects; voluntary private | Sub-5% of total stock — verify at gord.qa | gord.qa |
 | 🇸🇦 SA | Mostadam (national green building cert, since 2019) + LEED widely used in Vision 2030 mega-projects | Mostadam mandatory for selected government + Vision 2030 projects; voluntary private | Sub-5% of total stock — verify at mostadam.sa | mostadam.sa |
 | 🇵🇪 PE | Bono Mivivienda Sostenible + EDGE certifications | Bono incentive voluntary; EDGE voluntary | Coverage low — verify at mivivienda.com.pe | mivivienda.com.pe |
-| 🇪🇨 EC | No comprehensive national EPC regime as of May 2026 (per public sources); Quito Plan Maestro de Eficiencia Energética draft | Not yet mandatory | data not publicly available — verify at ambiente.gob.ec | ambiente.gob.ec |
+| 🇪🇨 EC | No comprehensive national EPC regime as of May 2026 (per public sources); Quito Plan Maestro de Eficiencia Energética draft | Not yet mandatory | data not publicly available — verify at rncc.ambiente.gob.ec (MAATE; www.ambiente.gob.ec fails TLS, 2026-10-21) | rncc.ambiente.gob.ec |
 | 🇵🇾 PY | No comprehensive national EPC regime as of May 2026 (per public sources) | — | data not publicly available — verify at mades.gov.py | mades.gov.py |
 | 🇦🇲 AM | Energy Efficiency Law 2004 framework + RA Code on Buildings amendments | Code mandatory for new builds; rating regime nascent | Distribution data not publicly available — verify at minenergy.am | minenergy.am |
 | 🇦🇿 AZ | National Energy Efficiency Law 2018 framework | Code mandatory for new builds; rating regime nascent | Distribution data not publicly available — verify at minenergy.gov.az | minenergy.gov.az |
@@ -104,7 +104,7 @@ EPC-style class distributions are not published by stat office for most non-EU r
 | 🇳🇬 NG | Nigerian Energy Efficiency Building Code (BEEC, 2017 framework, NESREA-led) — limited enforcement | Not yet effectively mandatory — limited inspection capacity | data not publicly available — verify at nesrea.gov.ng / energy.gov.ng | nesrea.gov.ng; energy.gov.ng |
 | 🇰🇪 KE | Energy Act 2019 + EPRA energy regulator + Kenya Green Building Society + EDGE certifications | Not yet mandatory at property level — voluntary EDGE/GBCK adoption | Coverage low — verify at epra.go.ke / kgbs.co.ke | epra.go.ke; kgbs.co.ke |
 | 🇯🇴 JO | Jordan Green Building Guide (JNBC) + EDGE certifications + Royal Scientific Society green-building program | JNBC voluntary; ENERCON role limited | Sub-5% of stock — verify at memr.gov.jo / rss.jo | memr.gov.jo; rss.jo |
-| 🇴🇲 OM | Oman Sustainable Building Council (OSBC) Mowasala rating + Estidama-style references; Vision 2040 sustainability axis | Voluntary; some Vision-2040 mega-project mandates | Sub-5% of stock — verify at oman2040.om / mhut.gov.om | oman2040.om; mhut.gov.om |
+| 🇴🇲 OM | Oman Sustainable Building Council (OSBC) Mowasala rating + Estidama-style references; Vision 2040 sustainability axis | Voluntary; some Vision-2040 mega-project mandates | Sub-5% of stock — verify at oman2040.om / gov.om/en/ministry-of-housing-and-urban-planning | oman2040.om; gov.om/en/ministry-of-housing-and-urban-planning |
 | 🇧🇭 BH | Bahrain Sustainability Code framework + LEED in scope; National Spatial Strategy 2050 sustainability axis | Voluntary; some NSS-2050 mandate scope | Sub-5% of stock — verify at moh.gov.bh / works.gov.bh | moh.gov.bh; works.gov.bh |
 | 🇰🇼 KW | Kuwait Energy Conservation Code (Code of Practice MEW R-6, MEW 2014/2018 updates) — mandatory for new buildings | Mandatory at building permit; rating regime nascent | Pre-2014 stock largely unrated — verify at mew.gov.kw / kfas.org | mew.gov.kw |
 | 🇱🇧 LB | Thermal Standard for Buildings (NL 14001, voluntary 2010) + Lebanon Center for Energy Conservation (LCEC) framework — implementation suspended post-2019 collapse + 2024 war | Not effectively mandatory; framework only | data not publicly available — verify at lcec.org.lb / energyandwater.gov.lb | lcec.org.lb; energyandwater.gov.lb |
@@ -127,7 +127,7 @@ EPC-style class distributions are not published by stat office for most non-EU r
 ### EU EPBD recast (2024/1275) — affects ALL EU/EEA
 - **Public + non-residential buildings**: minimum class to F by 2027; E by 2030
 - **Residential**: minimum class to E by 2030; D by 2033
-- Member State transposition deadline: **29 May 2026**
+- Member State transposition deadline: **29 May 2026** — missed by all 27; Commission letters of formal notice 15 Jul 2026 (DG ENER); nothing in this block binds an owner until national law transposes it
 
 ## Climate exposure index per country
 
@@ -263,7 +263,7 @@ Sources: IEA national reports + national grid operator data, latest available; f
 | 🇺🇾 UY | ~98% | Wind + hydro + solar — 2017 milestone; among highest in world | 2024 (UTE) |
 | 🇨🇴 CO | ~70% | Hydro-dominant; El Niño exposure | 2024 (XM) |
 | 🇨🇱 CL | ~55% | Solar (Atacama) + wind growth | 2024 (CNE) |
-| 🇿🇦 ZA | ~15% | Coal-heavy (Eskom); load-shedding still endemic | 2024 (Eskom) |
+| 🇿🇦 ZA | ~15% | Coal-heavy (Eskom); no national load-shedding since 16 May 2025 (Eskom, 16 Oct 2026), residual feeder-level load reduction | 2024 (Eskom) |
 | 🇲🇦 MA | ~40% | Noor Ouarzazate solar; wind Tarfaya — target 52% by 2030 | 2024 (ONEE) |
 | 🇺🇸 US | ~22% | Wide state variation: WA/OR ~70%+; WV/KY <5% | 2024 (EIA) |
 | 🇯🇵 JP | ~24% | Solar + hydro; nuclear restart trajectory | 2024 (METI) |
@@ -308,7 +308,7 @@ Sources: IEA national reports + national grid operator data, latest available; f
 
 Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watch.md`.
 
-- 🇺🇸 US — **IRA §25C / §25D residential energy credits TERMINATED 31 Dec 2025** per OBBBA (Jul 2025). Pre-31-Dec-2025 expenditures grandfathered. State programs (CA Title 24, NY LL97) unchanged.
+- 🇺🇸 US — **IRA §25C / §25D residential energy credits ended by OBBBA (PL 119-21, Jul 2025)**: §25C is not allowed for property placed in service after 31 Dec 2025; §25D is not allowed for expenditures made after 31 Dec 2025, an expenditure being treated as made when original installation is completed — a 2025 payment or deposit for a system installed in 2026 does not qualify (IRS FS-2025-05, 21 Aug 2025). §45L builder credit not allowed for new homes acquired after 30 Jun 2026 (IRS FS-2025-05). State programs (CA Title 24, NY LL97) unchanged.
 - 🇹🇷 TR — Climate Law (İklim Kanunu) parliamentary draft 2024-2025; ETS-style scheme proposed. Verify enacted form at csb.gov.tr.
 - 🇦🇪 AE — UAE Net Zero 2050 framework (announced 2021); COP28 hosted Nov 2023; National Climate Change Plan 2017-2050.
 - 🇯🇵 JP — **2025 Building Energy Conservation Act** mandates higher efficiency for all new builds Apr 2025. GX-ETS (carbon-pricing voluntary phase) launched 2023, mandatory 2026.
@@ -338,7 +338,7 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 - 🇶🇦 QA — **Qatar National Vision 2030 (QNV2030)** sustainability axis; National Climate Change Plan 2030 (Oct 2021); GSAS rating; Al Kharsaah 800 MW solar — verify at mecc.gov.qa.
 - 🇸🇦 SA — **Saudi Green Initiative** (Oct 2021) + Mostadam green building cert (since 2019); Vision 2030 mega-projects (NEOM, Diriyah, Red Sea, Riyadh) green-build mandates; ETS pilot in design — verify at vision2030.gov.sa / mostadam.sa.
 - 🇵🇪 PE — Política Nacional de Cambio Climático (DS 023-2021-MINAM); Ley Marco sobre Cambio Climático 30754 (2018); Bono Mivivienda Sostenible — verify at minam.gob.pe.
-- 🇪🇨 EC — Código Orgánico del Ambiente (COA, 2017); Estrategia Nacional de Cambio Climático 2012-2025; 2024 drought-driven energy rationing accelerated grid-diversification policy — verify at ambiente.gob.ec.
+- 🇪🇨 EC — Código Orgánico del Ambiente (COA, 2017); Estrategia Nacional de Cambio Climático 2012-2025; 2024 drought-driven energy rationing accelerated grid-diversification policy — verify at rncc.ambiente.gob.ec (MAATE).
 - 🇵🇾 PY — Política Nacional de Cambio Climático (Ley 5875/2017); Plan Nacional de Adaptación 2022 — verify at mades.gov.py.
 - 🇦🇲 AM — National Programme on Energy Saving and Renewable Energy 2007 (updated 2021); Updated NDC 2021 — verify at minenergy.am / mnp.am.
 - 🇦🇿 AZ — National Energy Efficiency Law 2018; Updated NDC 2023 (40% reduction by 2050 vs 1990); SOCAR Green pivot — verify at minenergy.gov.az.
@@ -388,7 +388,7 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 | 🇩🇴 DO 🇲🇾 MY 🇻🇳 VN 🇵🇭 PH 🇲🇦 MA 🇪🇬 EG 🇮🇩 ID 🇬🇪 GE | No comprehensive carbon tax on residential property as of Apr 2026 | data not publicly available — verify at each country's environment ministry |
 | 🇶🇦 QA | No carbon tax as of May 2026; QNV2030 sustainability axis relies on subsidies + GSAS mandates — verify at mecc.gov.qa | — |
 | 🇸🇦 SA | No carbon tax as of May 2026; Saudi Green Initiative + Mostadam mandates; ETS pilot in design — verify at sgi.gov.sa | — |
-| 🇨🇴 CO 🇨🇱 CL 🇺🇾 UY (existing entries) — Tier-4 LatAm: 🇵🇪 PE 🇪🇨 EC 🇵🇾 PY | No comprehensive carbon tax on residential property as of May 2026 | data not publicly available — verify at each country's environment ministry (minam.gob.pe / ambiente.gob.ec / mades.gov.py) |
+| 🇨🇴 CO 🇨🇱 CL 🇺🇾 UY (existing entries) — Tier-4 LatAm: 🇵🇪 PE 🇪🇨 EC 🇵🇾 PY | No comprehensive carbon tax on residential property as of May 2026 | data not publicly available — verify at each country's environment ministry (minam.gob.pe / rncc.ambiente.gob.ec / mades.gov.py) |
 | 🇦🇲 AM 🇦🇿 AZ | No comprehensive carbon tax as of May 2026 | data not publicly available — verify at minenergy.am / minenergy.gov.az |
 | 🇹🇳 TN | No comprehensive carbon tax as of May 2026; energy-subsidy reform under IMF EFF (program SUSPENDED Mar 2024) — verify at finances.gov.tn / anme.tn | — |
 | 🇸🇬 SG | Carbon Pricing Act (since 2019); applies to facilities emitting ≥25kt CO2e/yr (large emitters, NOT residential) | SGD 25/tCO2 (2024-25), SGD 45 (2026-27), SGD 50-80 by 2030 — verify at nccs.gov.sg |

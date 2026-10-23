@@ -5,17 +5,17 @@ ISO2: `eg`. Status: PARTIALLY RESTRICTED for foreign buyers + currency-volatile 
 ## Country profile
 
 - **Population**: ~110 million (2024 CAPMAS estimate, source `https://www.capmas.gov.eg/`); largest Arab-world country by population, 95%+ concentrated along Nile Valley + Delta + coastal strips
-- **Currency**: EGP (Egyptian Pound) — **managed float** since 6 March 2024 (IMF EFF approval USD 8 bn). Trajectory: EGP ~15.7/USD (2021) → EGP ~30/USD (early Mar 2024) → EGP ~50/USD (post-float Mar 2024) → EGP ~50–51/USD (2026-05-01) → all-time low ~54.9/USD (Mar 2026, Trading Economics intraday) → EGP ~49/USD (2026-07-02, CBE official 49.08 buy / 49.18 sell) → EGP ~51.4/USD (2026-09-23, CBE average market rate 51.3749 buy / 51.4749 sell) (CBE rates, source `https://www.cbe.org.eg/en/economic-research/statistics/exchange-rates`)
+- **Currency**: EGP (Egyptian Pound) — **managed float** since 6 March 2024 (IMF EFF approval USD 8 bn). Trajectory: EGP ~15.7/USD (2021) → EGP ~30/USD (early Mar 2024) → EGP ~50/USD (post-float Mar 2024) → EGP ~50–51/USD (2026-05-01) → weakest CBE average market rate since the float 54.6537 buy / 54.7537 sell (2026-04-07; the ~54.9 intraday low formerly quoted here is not in CBE data) → EGP ~49/USD (2026-07-01, CBE average market rate 49.0754 buy / 49.1754 sell) → EGP ~51.4/USD (2026-09-23, CBE average market rate 51.3749 buy / 51.4749 sell) → EGP ~54.4/USD (2026-10-21, CBE average market rate 54.3377 buy / 54.4377 sell) (CBE rates, source `https://www.cbe.org.eg/en/economic-research/statistics/exchange-rates`)
 - **Languages**: Arabic (official, MSA + Egyptian colloquial); English widely used in business, tourism, and gated-community sales offices; French in older elite circles
 - **Legal system**: Hybrid — civil law (Napoleonic-influenced via 1949 Civil Code) + Sharia for personal status (family, inheritance). Property/contract law is civil-code; **inheritance for Muslims is mandatory Sharia shares** (foreigners may opt for home-country law via prior declaration but Sharia applies by default to any Egyptian-titled real estate of a Muslim decedent)
-- **Cadastre / registry**: **Real Estate Publicity Authority (REPA — مصلحة الشهر العقاري والتوثيق)** under Ministry of Justice — `https://sherpa.gov.eg/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with moj.gov.eg (REPA under the Ministry of Justice — co-cited) and `https://moj.gov.eg/`. Two parallel registration systems still in transition:
+- **Cadastre / registry**: **Real Estate Publicity Authority (REPA — مصلحة الشهر العقاري والتوثيق)** under Ministry of Justice — `https://moj.gov.eg/` (the MoJ portal lists REPA's own site as rern.gov.eg, which was unreachable on 2026-10-21 and has no archived capture after 2022-08; the sherpa.gov.eg address cited earlier has no DNS record and no archived capture). Two parallel registration systems still in transition:
   - **Sijil al-shakhsi** (personal/deed-recording, السجل الشخصي) — older, name-based, ~95%+ of Egyptian properties historically
   - **Sijil al-‘ayni** (real/property-based, السجل العيني, "Torrens-like" parcel-based) — modernization since 1964, very low coverage (~5–10% nationally; mostly New Cairo, NAC, North Coast new developments)
   - **Practical implication**: most older properties have only a notarized contract chain (`عقد ابتدائي + عقد نهائي`) NOT a state-guaranteed title. Title insurance and chain-of-deed verification are critical
 - **Major reforms 2023–2024**:
   - **Citizenship by Investment — Law 140/2019** (number per GAFI's citizenship application form; some secondary sources cite 190/2019) (foundational CBI statute, GAFI-administered) + **Prime Ministerial Decree 876/2023 (2 March 2023)** implementing thresholds + **Law 26/1975 Articles 6+11 amendments (April 2023)** (nationality-law constitutional basis); **September 2023 Cabinet reversal restored the real-estate threshold to USD 500,000** (from the USD 300k March 2023 cut) (2026-05-27 verified, source [Library of Congress 2023-05-07](https://www.loc.gov/item/global-legal-monitor/2023-05-07/egypt-house-of-representatives-approves-new-amendments-to-citizenship-law/) + SIS.gov.eg + africanews.com). Note **Law 160/2023** is a SEPARATE statute amending Investment Law 72/2017 — governs investment incentives (Golden License, tax refunds, free zones), NOT CBI thresholds.
   - **EGP free-float March 2024** + IMF Extended Fund Facility (USD 8 bn) — collapsed parallel-market premium overnight
-  - **Real Estate Transaction Tax (RETT) — Law 30/2023** (15 June 2023, amends Income Tax Law 91/2005) — 2.5% on official tax-authority-assessed value OR actual sale price (whichever **higher**); raised first-home exemption EGP 2M → EGP 3M for properties under 200 m² (2026-05-27 verified, source PwC Egypt Law 30/2023 PDF + Wafeq + Lexology). NB: **Law 175/2023** is the personal-income-tax amendment (raised PIT exemption to EGP 45,000/year, cancelled 2.5% PIT bracket); NOT a property-CGT statute.
+  - **Real Estate Transaction Tax (RETT) — Income Tax Law 91/2005 Art. 42** (amended by Law 30/2023 of 15 June 2023; replaced by Law 151/2026, in force 29 Jul 2026 — 2026-10-21 verified on the ETA-hosted Gazette text) — 2.5% of the gross disposal value with no deductions — for disposals from 29 Jul 2026 the Law 151/2026 replacement text of Income Tax Law Art. 42 (gazetted as Art. 43) takes the value stated in the contract, the Tax Authority bearing the burden of proof if it disputes it; the earlier wording here (assessed value OR actual sale price, whichever higher) does not match that text; Law 30/2023 raised the first-home exemption EGP 2M → EGP 3M for properties under 200 m² (2026-05-27 verified, source PwC Egypt Law 30/2023 PDF + Wafeq + Lexology) — not in the Law 151/2026 replacement text; whether it survives: data not publicly available — verify at ETA. NB: **Law 175/2023** is the personal-income-tax amendment (raised PIT exemption to EGP 45,000/year, cancelled 2.5% PIT bracket); NOT a property-CGT statute.
   - **Real Estate Tax (Law 196/2008) — 2024–2026 amendments** raised the **primary-residence (owner-occupied) exemption to EGP 100,000/year of net annual rental value OR EGP 8M property value** (from the EGP 24,000/year general floor). Per Daily News Egypt 2026-02-15: only ~2M of 55M Egyptian properties now liable (2026-05-27 verified, source Wafeq + Daily News Egypt + Nawy blog).
 - **Foreign-buyer regime**: PARTIALLY RESTRICTED — see `## Foreign buyer eligibility` below
 
@@ -40,7 +40,7 @@ ISO2: `eg`. Status: PARTIALLY RESTRICTED for foreign buyers + currency-volatile 
 
 ### Forbidden / restricted zones for foreign ownership
 
-- **Sinai Peninsula (entire)** — North Sinai + South Sinai governorates (incl. Sharm El Sheikh, Dahab, Nuweiba, Taba). Special security regime under **Sinai Decree 2018** (Presidential Decree 444/2018 designating border/strategic areas). Foreigners can hold **usufruct (حق انتفاع) up to 50 years renewable** in designated tourist zones (e.g., parts of Sharm El Sheikh) but NOT freehold. (Source: Presidential Decree 444/2018 + amendments)
+- **Sinai Peninsula (entire)** — North Sinai + South Sinai governorates (incl. Sharm El Sheikh, Dahab, Nuweiba, Taba). Most of Sinai falls under **Law 14/2012 on Integrated Development of Sinai**: with Defence, Interior and General Intelligence approval, non-Egyptians may own built structures only, never the land, and hold **usufruct (حق انتفاع) of residential units for up to 50 years** (Art. 2; usufruct contracts up to 50 years renewable to a 75-year total, Art. 3; border-adjacent areas per Presidential Decree 444/2014 are closed). **Sharm El Sheikh, Dahab and the Gulf of Aqaba tourism sector** were taken out of Law 14/2012 by **Presidential Decree 128/2022** (in force 1 Apr 2022): land and built real estate there can be owned only by Egyptians and wholly Egyptian-owned companies, and state land is granted by usufruct of **up to 75 years in total**. NOT freehold for foreigners anywhere in Sinai. (Source: Law 14/2012 consolidated text, MIFT + Presidential Decree 128/2022, Government Printing Office text; verified 2026-10-21)
 - **Border governorates without security clearance** — Matrouh (parts), Red Sea (parts), New Valley, Aswan border belts: case-by-case Ministry of Defense + Interior security review
 - **Within 5 km of Suez Canal** — restricted under canal-zone strategic regulations
 - **Designated military / strategic zones** — case-by-case; gazetted by Presidential Decree (recent expansions 2017–2023 for "national projects" lands)
@@ -71,8 +71,8 @@ NB: **Law 160/2023 is a separate statute** (amends Investment Law 72/2017) gover
 ### Sinai usufruct workaround (when freehold is forbidden)
 
 In Sinai tourist zones (e.g., parts of Sharm El Sheikh, Dahab, El Gouna-style Sinai-side projects), foreigners commonly hold:
-- **حق انتفاع (usufruct)** — up to 50 years, renewable
-- Title remains with the Egyptian state / Tourism Development Authority (TDA)
+- **حق انتفاع (usufruct)** — rest of Sinai: residential-unit usufruct up to 50 years for non-Egyptians (Law 14/2012 Art. 2; usufruct contracts up to 50 years renewable to a 75-year total, Art. 3); Sharm El Sheikh / Dahab / Gulf of Aqaba: usufruct of state land up to 75 years in total (Presidential Decree 128/2022, in force 1 Apr 2022)
+- Title to the land stays with the state; in Sharm El Sheikh / Dahab / Gulf of Aqaba the grant is made by the competent land authority (the decree says جهات الولاية and does not name TDA); every grant or disposal needs Defence, Interior and General Intelligence approval or the contract is void
 - Bank financing extremely limited; resale market thinner than freehold
 
 Buyers of "Sinai apartments" should verify: is this freehold (likely VOID for foreigner) or usufruct (legal but not equivalent to ownership)? Many sales offices conflate the two.
@@ -89,7 +89,7 @@ Even when a foreign buyer is fully within Law 230/1996 quotas + outside forbidde
 
 - **CAPMAS housing & construction statistics** (`https://www.capmas.gov.eg/`) — population, housing stock by governorate, urban vs rural; building permits issued (annual). NOT transaction-price-level.
 - **Central Bank of Egypt (CBE) Real Estate Indicators** — `https://www.cbe.org.eg/en/economic-research/statistics` — aggregate mortgage origination + indicative residential trends
-- **REPA / Sherpa (real-estate publicity)** — `https://sherpa.gov.eg/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with moj.gov.eg (REPA under the Ministry of Justice — co-cited) — the registered transaction price is what the buyer + seller declared for tax purposes. **Egypt does NOT publish a public transaction-price database** comparable to UK Land Registry or FR DVF. Declared prices are also widely understood to be **understated** (to reduce stamp duty + CGT) — sometimes by 30–50% vs actual cash price (mainly an Egyptian-domestic dynamic; foreign-buyer USD-cash deals are often more transparent because Form 4 forces declaration of inflow)
+- **REPA (real-estate publicity)** — `https://moj.gov.eg/` (REPA's parent ministry; REPA's own site rern.gov.eg was unreachable on 2026-10-21; the price facts in this bullet were not confirmed against a primary source — verify with an Egyptian property lawyer) — the registered transaction price is what the buyer + seller declared for tax purposes. **Egypt does NOT publish a public transaction-price database** comparable to UK Land Registry or FR DVF. Declared prices are also widely understood to be **understated** (to reduce stamp duty + CGT) — sometimes by 30–50% vs actual cash price (mainly an Egyptian-domestic dynamic; foreign-buyer USD-cash deals are often more transparent because Form 4 forces declaration of inflow)
 - **Egyptian Federation for Construction & Building Contractors (EFCBC)** + **Egyptian Builders Association** — supply-side cost data, occasional asking-price surveys
 
 ### Listing platforms (asking prices, not transaction)
@@ -141,7 +141,7 @@ MEDIUM — asking-price listings are abundant, but **transaction-verified price 
 
 ### Primary sources
 
-- **General Authority for Roads, Bridges and Land Transport (GARBLT)** — `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — national highway network operator; publishes annual traffic flow summaries for tolled highways (Cairo–Alexandria Desert Road, Cairo–Suez, Cairo–Sokhna, regional ring roads)
+- **General Authority for Roads, Bridges and Land Transport (GARBLT)** — `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18 (SERVFAIL, re-checked 2026-10-21); the newer domain garb.gov.eg was defaced on 2026-02-25 and has returned HTTP 525 since 2026-04-29 (last clean capture `https://web.archive.org/web/20260201040108/https://garb.gov.eg/`) — verify with the Ministry of Transport `https://mot.gov.eg/` — national roads and bridges authority under the Ministry of Transport; runs the expressway toll stations (11 nationally, per that Feb 2026 capture). Annual traffic-flow summaries for tolled highways (Cairo–Alexandria Desert Road, Cairo–Suez, Cairo–Sokhna, regional ring roads): no such publication found on garb.gov.eg — verify with GARBLT before citing
 - **Ministry of Transport** — `https://mot.gov.eg/` — sectoral statistics
 - **CAPMAS Transport & Communications Yearbook** — `https://www.capmas.gov.eg/` — annual: vehicle registrations by governorate, road km by class, accident statistics
 - **Cairo Traffic Control Center / Cairo Governorate** — operational, NOT public-data
@@ -229,13 +229,14 @@ Even for a high-end Zamalek apartment with assessed annual rental EGP 200,000:
 
 ### Real Estate Transaction Tax (RETT — ضريبة التصرفات العقارية) on sale — colloquially "CGT" but technically a transaction tax on gross value
 
-Statute: **Law 30/2023** (15 June 2023, amends Income Tax Law 91/2005, real-estate disposal provisions) — NOT Law 175/2023 (which amends personal income tax brackets) (2026-05-27 verified, source PwC Egypt Law 30/2023 PDF + Wafeq).
+Statute: **Income Tax Law 91/2005 Art. 42** — 2.5% on the gross disposal value since the 2005 text; the article was replaced by **Law 151/2026** (Official Gazette No. 30 bis (A), 28 Jul 2026, in force 29 Jul 2026; gazetted as Art. 43, renumbered Art. 42 by a corrigendum of 8 Aug 2026 per NPI Egypt, secondary) — NOT Law 175/2023 (an income-tax amendment listed by GAFI) (2026-10-21 verified, source ETA-hosted Official Gazette text of Law 151/2026 + Income Tax Law 91/2005 Art. 42, MoF translation on WIPO Lex; corrigendum renumbering per NPI Egypt, secondary).
 
 | Item | Rate |
 |---|---|
-| **RETT on sale of built real estate (residential)** | **2.5%** of **official tax-authority-assessed value OR actual sale price (whichever HIGHER)** — NOT net gain |
-| **Withholding** | At REPA registration of resale |
-| **First-home exemption** | EGP **3,000,000** property value for properties under **200 m²** (raised from EGP 2M by Law 30/2023) |
+| **RETT on disposal of real estate / building land (villages excepted)** | **2.5%** of the **total disposal value stated in the contract**, no deductions — NOT net gain; the Tax Authority bears the burden of proof if it disputes the contract value (Law 151/2026, from 29 Jul 2026) |
+| **Withholding / payment** | At REPA registration of resale (prior wording, not re-verified); Law 151/2026: the disposer must pay within **60 days** of the disposal, late-payment charge under Art. 110 thereafter |
+| **First-home exemption** | EGP **3,000,000** property value for properties under **200 m²** (raised from EGP 2M by Law 30/2023) — not in the Art. 42 replacement text gazetted by Law 151/2026; whether it survives is data not publicly available — verify at ETA |
+| **Inherited property** | An heir's disposal of inherited property is now expressly taxed (Law 151/2026; the 2005 text exempted heirs) |
 
 **This is unusual internationally** — taxing gross sale value (not net gain) means even a loss-making sale is taxed. A USD 200k sale = USD 5k RETT regardless of original purchase price. Plan for this in any IRR model.
 
@@ -510,7 +511,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 - **Form 4 (نموذج 4) — capital flow tracking**: USD inflows for property purchase MUST be transferred via a CBE-authorized bank, with the bank issuing a **Form 4** documenting the inflow. Without Form 4, **future USD repatriation of sale proceeds is structurally blocked** (or severely restricted). This is the #1 procedural risk for foreign buyers — get the Form 4 at purchase or accept that exit liquidity may be EGP-only
 - **Off-plan completion delay risk**: Egyptian off-plan delivery is **routinely 1–4 years late**, sometimes more. Major developers (Mountain View, Sodic, Palm Hills, Talaat Mostafa) are more reliable; smaller developers have failed. Use developer-financed installment plans cautiously
 - **Dual pricing (USD vs EGP)**: foreign-buyer markets quote in USD/EUR with EGP for show. Confirm contract currency in writing
-- **Sinai-zone deed issues**: foreigners cannot freehold in Sinai (incl. Sharm El Sheikh, Dahab). What looks like "freehold" is usually 50-year usufruct from TDA. Many sales offices misrepresent this — verify with REPA + TDA
+- **Sinai-zone deed issues**: foreigners cannot freehold in Sinai (incl. Sharm El Sheikh, Dahab). What looks like "freehold" is usufruct at best — up to 50 years for a residential unit under Law 14/2012, up to 75 years in total on state land in Sharm El Sheikh / Dahab / Gulf of Aqaba under Presidential Decree 128/2022 — and is void without Defence, Interior and General Intelligence approval. Treat any "freehold" label offered to a foreigner as a red flag — verify with REPA and the competent land authority
 - **Sijil al-shakhsi vs sijil al-‘ayni**: most older properties have only a notarized contract chain, NOT a state-guaranteed real-property title. Demand REPA registration in sijil al-‘ayni where available
 - **Old rent law (إيجار قديم)**: do NOT buy property with pre-1996 tenants in place. Constitutional Court 2024 ruling means reform is coming but ejection remains legally + politically fraught. Verify tenant status pre-1996 vs post-1996
 - **Informal/illegal construction (مباني مخالفة)**: large share of Cairo stock is unpermitted. Insist on legalization certificate (تقنين) under Law 17/2019 / Law 1/2020 for any older urban property
@@ -568,7 +569,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 
 | Source | URL pattern |
 |---|---|
-| REPA / Sherpa (Real Estate Publicity Authority) | `https://sherpa.gov.eg/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with moj.gov.eg (REPA under the Ministry of Justice — co-cited) |
+| REPA (Real Estate Publicity Authority) | `https://moj.gov.eg/` (parent ministry; MoJ lists REPA's own site as rern.gov.eg, unreachable on 2026-10-21) |
 | Ministry of Justice (Law 230/1996 admin) | `https://moj.gov.eg/` |
 | Egyptian Tax Authority (real estate tax, CGT, stamp duty) | `https://eta.gov.eg/` |
 | Central Bank of Egypt (FX, mortgages, Form 4) | `https://www.cbe.org.eg/` |
@@ -581,7 +582,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 | Suez Canal Economic Zone | `https://sczone.eg/` |
 | Tourism Development Authority (TDA) | `https://www.tda.gov.eg/` |
 | HCWW (water + wastewater holding) | `https://www.hcww.com.eg/` |
-| GARBLT (roads + land transport) | `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| GARBLT (roads + land transport) | `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18 (SERVFAIL, re-checked 2026-10-21); newer domain garb.gov.eg was defaced on 2026-02-25 and has returned HTTP 525 since 2026-04-29 — verify with the Ministry of Transport `https://mot.gov.eg/` |
 | Ministry of Transport | `https://mot.gov.eg/` |
 | Ministry of Manpower (work permits) | `https://www.manpower.gov.eg/` |
 | NARSS (remote sensing, hazard mapping) | `https://www.narss.sci.eg/` |
@@ -602,9 +603,9 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 
 ✅ **Fully populated** as of 2026-05-01.
 
-**Confidence**: HIGH on the legal + foreign-buyer regime (Law 230/1996, Law 196/2008, Law 175/2023, Investment Law 160/2023, Form 4 rules — all primary government sources cross-verified). MEDIUM on price benchmarks (asking-side listing data only; no public transaction-price DB). MEDIUM on traffic (no published per-segment AADT). MEDIUM on STR + rental tax (regime is ambiguous, HOA-controlled, evolving). LOW on per-parcel risk verification (NARSS hazard layers not publicly granular; site visit + local expert mandatory).
+**Confidence**: HIGH on the legal + foreign-buyer regime (Law 230/1996, Law 196/2008, Income Tax Law 91/2005 Art. 42 as replaced by Law 151/2026, Investment Law 160/2023, Form 4 rules — all primary government sources cross-verified). MEDIUM on price benchmarks (asking-side listing data only; no public transaction-price DB). MEDIUM on traffic (no published per-segment AADT). MEDIUM on STR + rental tax (regime is ambiguous, HOA-controlled, evolving). LOW on per-parcel risk verification (NARSS hazard layers not publicly granular; site visit + local expert mandatory).
 
-**Last verified**: 2026-05-27 (validation sweep — CBI USD 500k threshold restored (Sept 2023); Law 190/2019 foundational + Law 30/2023 RETT; bank deposit USD 500k refundable 3-yr lock; RET primary-residence EGP 100k/yr exemption raise). Currency / visa tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27 (validation sweep — CBI USD 500k threshold restored (Sept 2023); Law 190/2019 foundational + Law 30/2023 RETT; bank deposit USD 500k refundable 3-yr lock; RET primary-residence EGP 100k/yr exemption raise). Currency / visa tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Currency / foreign-buyer / tax / visa tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 ### Extension TODOs (deepen on first real run)
 

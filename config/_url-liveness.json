@@ -144,14 +144,6 @@
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
     {
-      "host": "digitale-balie.kadaster.cw",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
-      "host": "www.cypruspropertypal.com",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
       "host": "www.eac.com.cy",
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
@@ -260,19 +252,7 @@
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
     {
-      "host": "www.kpicorp.co.kr",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
-      "host": "pam.gov.kw",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
       "host": "www.housing.gov.kw",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
-      "host": "www.kuwait.gov.kw",
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
     {
@@ -300,12 +280,8 @@
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
     {
-      "host": "kazavtozhol.kz",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
       "host": "www.beirutmunicipality.gov.lb",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+      "reason": "dead: NXDOMAIN on 1.1.1.1, 8.8.8.8 and 9.9.9.9 (2026-10-21); the corpus keeps the URL only behind a ❌ DEPRECATED marker"
     },
     {
       "host": "www.anapec.org",
@@ -364,14 +340,6 @@
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
     {
-      "host": "www.property.com.na",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
-      "host": "lasppa.lagosstate.gov.ng",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
       "host": "www.idaan.gob.pa",
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
@@ -381,7 +349,7 @@
     },
     {
       "host": "www.alaventa.pe",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+      "reason": "dead: NXDOMAIN on 1.1.1.1, 8.8.8.8 and 9.9.9.9 (2026-10-21); the corpus keeps the URL only behind a ❌ DEPRECATED marker"
     },
     {
       "host": "www.property24.com.ph",
@@ -420,15 +388,7 @@
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
     {
-      "host": "www.riyadhmetro.sa",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
       "host": "www.taqat.sa",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
-      "host": "www.simpsonbaysxm.com",
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
     {
@@ -600,14 +560,6 @@
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
     {
-      "host": "codulcivil.md",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
-      "host": "old.seylii.org",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
       "host": "www.lawreform.ie",
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
@@ -681,10 +633,6 @@
     },
     {
       "host": "spijlibre.minjus.gob.pe",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
-    },
-    {
-      "host": "www.justlanded.com",
       "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
     },
     {

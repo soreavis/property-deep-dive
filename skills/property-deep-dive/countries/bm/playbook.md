@@ -109,7 +109,7 @@ On grant of the ALL, a licence fee is payable as a **percentage of the purchase 
 - **Coldwell Banker Bermuda Realty** — `https://www.bermudarealty.com/`
 - **Rego Sotheby's International Realty** — `https://www.regosothebysrealty.com/`
 - **Sinclair Realty / Coldwell Banker** — `https://www.sinclairrealty.com/`
-- **L.P. Gutteridge** — `https://www.lpg.bm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **L.P. Gutteridge** — merged with Bermuda Realty, now **Coldwell Banker Bermuda Realty** (`https://coldwellbankerbermuda.com/`, listed above); the old `lpg.bm` domain no longer resolves (2026-10-21)
 - **Bermuda Property Link / KW Bermuda** — secondary aggregators
 - **JamesEdition / Christie's International** — ultra-prime international syndication (secondary)
 
@@ -581,7 +581,7 @@ HIGH for IPCC AR6 regional projections; MEDIUM for parcel-level surge/SLR specif
 - **Coldwell Banker Bermuda Realty** — `https://www.bermudarealty.com/`
 - **Rego Sotheby's International Realty** — `https://www.regosothebysrealty.com/`
 - **Sinclair Realty / Coldwell Banker** — `https://www.sinclairrealty.com/`
-- **L.P. Gutteridge** — `https://www.lpg.bm/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **L.P. Gutteridge** — merged with Bermuda Realty, now **Coldwell Banker Bermuda Realty** (`https://coldwellbankerbermuda.com/`, listed above); the old `lpg.bm` domain no longer resolves (2026-10-21)
 - **KW Bermuda / Bermuda Property Link** — secondary aggregators
 - **JamesEdition / Christie's International** — ultra-prime international syndication (secondary)
 
@@ -614,7 +614,7 @@ HIGH for IPCC AR6 regional projections; MEDIUM for parcel-level surge/SLR specif
 - **TripAdvisor Bermuda Forum** — practical Q&A
 - **The Royal Gazette** (`https://www.royalgazette.com/`) — Bermuda's newspaper of record (policy, crime stats, property market)
 - **Bernews** (`https://bernews.com/`) — local news + government announcements
-- **Bermuda-Online** (`https://www.bermuda-online.org/`) — long-running reference site (incl. property + the Bermuda roof; *secondary, dated in places*)
+- **Bermuda-Online** (`https://www.bermuda-online.org/`) ❌ DEPRECATED — dead on 2026-10-21; verify with the Government of Bermuda (gov.bm) — was a long-running reference site (incl. property + the Bermuda roof; *secondary, dated in places*)
 
 ## Verification authorities
 

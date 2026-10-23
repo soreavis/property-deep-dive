@@ -61,12 +61,12 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
 |---|---|---|
 | § 3 | Natural persons with **dansk indfødsret** (Danish citizenship) | Unrestricted — may acquire freely |
 | § 4 | Foreign nationals | ≥ 2 years fixed residence + `folkeregisteradresse` in Greenland **AND** ≥ 2 years full tax residency in Greenland |
-| § 5 | Regulated financial institutions | DK / GL / FO-headquartered banks, mortgage institutions, investment firms, insurers, pension funds under [Finanstilsynet](https://www.finanstilsynet.dk/) (Danish FSA) supervision |
+| § 5 | Regulated financial institutions | DK / GL / FO-domiciled banks, mortgage institutions, investment management companies, insurers, pension funds under [Finanstilsynet](https://www.finanstilsynet.dk/) (Danish FSA) or Tryggingareftirlitið supervision |
 | § 6 | Greenlandic capital companies | 100% of capital **and** voting rights held directly by persons qualifying under §§ 3-4 |
 | § 7 | Licensed sectoral operators | Holders of fishing / mineral / tourism / resource-extraction permits — for business use only |
 | § 8 | Greenlandic associations | Non-commercial societies registered ≥ 2 years in CVR with Greenland HQ |
 
-**§ 9 — Dispensation**: Naalakkersuisut may grant written conditional or time-limited permission to applicants who do not qualify under §§ 3-8. Discretionary, case-by-case. Dispensation channel: **Departementet for Boliger og Infrastruktur** — `box909@nanoq.gl`.
+**§ 9 — Dispensation**: Naalakkersuisut may grant written conditional or time-limited permission to applicants who do not qualify under §§ 3-8. Discretionary, case-by-case. Dispensation channel: **Departementet for Boliger og Infrastruktur** — `box909@nanoq.gl` (per the Feb 2025 Naalakkersuisut announcement; not re-confirmed for the enacted act — verify at naalakkersuisut.gl).
 
 **§ 15 — Entry into force**: 1 January 2026. Applies to agreements + arealtildeling applications **filed on or after** 1 January 2026. Pre-2026 agreements are grandfathered.
 
@@ -93,8 +93,8 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
    - Statbank: [bank.stat.gl](https://bank.stat.gl/) — series include `BOXBYG` (building permits), housing-stock, dwellings
 2. **Self-Government housing rents (Iserit A/S)** — sets the public-rental benchmark for towns: [iserit.gl](https://www.iserit.gl/)
 3. **Listing platforms (private market — thin)**:
-   - [boligportal.gl](https://www.boligportal.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — Nuuk + Sisimiut + Ilulissat (rentals + some sales)
-   - [estate.gl](https://www.estate.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — agency listings (verify URL liveness)
+   - [Netbolig](https://netbolig.gl/salg) — agency site (ejendomsmægler), not a multi-agency portal: sale listings in Nuuk, Nuussuaq, Sisimiut, Ilulissat and Aasiaat; rentals (Nuuk / Nuussuaq) at [netbolig.gl/leje](https://netbolig.gl/leje) — listing tier, seller-controlled asking prices (checked 2026-10-21)
+   - [Lynges](https://lynges.gl/koebbolig) — agency site selling in Nuuk, Ilulissat and Qaqortoq; states an agreement with Nykredit to value homes being mortgaged (realkredit) — listing tier, seller-controlled (checked 2026-10-21)
    - DBA / dba.dk Greenland filter — secondhand market
    - Facebook Marketplace "Sælges i Nuuk" — private-sale signal
 4. **Bank valuations**: [Grønlandsbanken](https://www.banken.gl/) + [BankNordik Grønland](https://www.banknordik.gl/) publish annual market commentary in Danish; treat as orientation, not transactional
@@ -104,7 +104,7 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
 - Nuuk house/apartment: ~DKK 25,000–45,000 / m² (~€3,350–€6,030 / m² at 2026 DKK/EUR ≈ 7.46) — `est.` from listing scrape; verify
 - Sisimiut / Ilulissat: ~DKK 15,000–28,000 / m² `est.`
 - Bygder (small settlements): often nominal building values DKK 100,000–500,000 — wood houses, no land value
-- `data not publicly available for parcel-level historical sale prices — verify with the bank's valuation desk or recent comparable on boligportal.gl`
+- `data not publicly available for parcel-level historical sale prices — verify with the bank's valuation desk or recent asking-price comparables on agency sites such as netbolig.gl / lynges.gl (seller-controlled)`
 
 **Caveat**: housing-shortage in Nuuk is structurally severe (Inatsisartutlov 78/2025 is partly a response). Listings turn over quickly; price discovery is opaque.
 
@@ -201,16 +201,16 @@ The brugsret / arealtildeling itself is NOT registered in tinglysning (it is adm
 
 ## Section: `--rental` (residential + short-let)
 
-**Residential rental** is regulated by **Greenland's own Inatsisartutlov om leje af boliger** (NOT the Danish Lejeloven). The current statute dates to 2005; a comprehensive replacement was put out for public consultation in **March 2026** (Naalakkersuisut høring): [naalakkersuisut.gl/Hoeringer/2026/03/0603_lejelov](https://naalakkersuisut.gl/Hoeringer/2026/03/0603_lejelov?sc_lang=da) — track this for the post-2026 regime. `Consultation phase as of 2026-05-27 — verify status before publish.`
+**Residential rental** is regulated by **Greenland's own Landstingsforordning nr. 2 af 12. maj 2005 om leje af boliger** (consolidated by Selvstyrets lovbekendtgørelse nr. 32 af 2. april 2025; NOT the Danish Lejeloven). Its replacement, **Forslag til Inatsisartutlov om leje af boliger**, was in public consultation 6 Mar – 3 Apr 2026 (Naalakkersuisut høring, 15 responses): [naalakkersuisut.gl/Hoeringer/2026/03/0603_lejelov](https://naalakkersuisut.gl/Hoeringer/2026/03/0603_lejelov?sc_lang=da), and is before Inatsisartut as [EM2026 punkt 242](https://ina.gl/da/samlinger/oversigt-over-samlinger/2025/em2026/punktliste/) (bill text dated 04.09.2026): 1st reading 25 Sep 2026; the Anlægsudvalget betænkning of 20 Oct 2026 recommends adoption with Naalakkersuisut's 13 Oct 2026 amendments; 2nd reading scheduled 23 Oct 2026, 3rd reading 3 Nov 2026. Draft § 72 would bring it into force on 1 Jan 2027 and repeal the 2005 forordning. `Bill NOT adopted as of 2026-10-21 — check the 3rd-reading result and promulgation on nalunaarutit.gl before publish.`
 
 Key features:
 
 - Strong tenant protections — terms reducing tenant rights below statutory minimum are **invalid**
 - Tenant cannot use dwelling for non-residential purposes / run a business from it without landlord consent
-- **Boligklagenævnet** (Housing Appeals Board) handles disputes — competence being expanded under the 2026 reform to cover certain private-rental disputes
+- **Boligklagenævnet** (Housing Appeals Board) handles disputes — the pending bill (EM2026 punkt 242, proposed in force 1 Jan 2027; not adopted as of 2026-10-21) would extend its competence to certain private-rental disputes
 - Public housing (**Iserit A/S** in former Sermersooq-area + **INI A/S** in northern/southern Greenland) dominates the rental stock
 - Private-market rentals are limited; rent levels approximately track public-rent benchmarks + premium
-- Sources: [Iserit A/S](https://www.iserit.gl/) · [Atuisartoqarnermut Unammilleqatigiinnermullu Aqutsisoqarfik / AUA — Consumer Authority housing section](https://aua.gl/bolig/) · [Naalakkersuisut høring 2026 (proposal text + bemærkninger)](https://naalakkersuisut.gl/-/media/horinger/2026/03/0603_lejelov/bemrkninger---forslag-til-inatsisartutlov-om-leje-af-boliger.pdf)
+- Sources: [Iserit A/S](https://www.iserit.gl/) · [Atuisartoqarnermut Unammilleqatigiinnermullu Aqutsisoqarfik / AUA — Consumer Authority housing section](https://aua.gl/bolig/) · [Naalakkersuisut høring 2026 (proposal text + bemærkninger)](https://naalakkersuisut.gl/-/media/horinger/2026/03/0603_lejelov/bemrkninger---forslag-til-inatsisartutlov-om-leje-af-boliger.pdf) · [Inatsisartut EM2026 punkt 242 bill text](https://www.ina.gl/media/muodzy1x/pkt242-em2026-leje-af-boliger-lov-da.pdf)
 
 **Short-term rental (Airbnb / cabin rental)**:
 
@@ -390,8 +390,8 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Common listing platforms
 
-- [boligportal.gl](https://www.boligportal.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — rentals + some sales
-- [estate.gl](https://www.estate.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — verify URL
+- [Netbolig](https://netbolig.gl/) — agency site: sales in Nuuk, Sisimiut, Ilulissat, Aasiaat + rentals in Nuuk (seller-controlled)
+- [Lynges](https://lynges.gl/) — agency site: sales in Nuuk, Ilulissat, Qaqortoq (seller-controlled)
 - [dba.dk](https://www.dba.dk/) (Greenland filter) — second-hand market incl. cabins (`hytter`)
 - Facebook Marketplace "Sælges i Nuuk" — private-sale signal
 
@@ -448,9 +448,9 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 - **LOW** on price/m² benchmarks (no open sales register equivalent to DVF; private-market data is opaque)
 - **LOW** on parcel-level permafrost / flood data (no national parcel-risk register; case-by-case via Asiaq + kommune)
 
-**Last verified**: 2026-05-27. Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27. Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Ownership tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Rental tracker entry (EM2026 punkt 242 bill) re-checked 2026-10-21; see shared/regulatory-watch.md.
 
-**On PR merge — regulatory-watch.md addition required** (currently zero GL entries): Tier-1 entry for **Inatsisartutlov nr. 78 af 21. november 2025 om erhvervelse af adkomst eller brugsret til fast ejendom**, effective 1 January 2026, affecting all foreign-buyer rules across `--ownership`, `--banking`, `--transaction`, `--rental`, `--work`, `--visa` sections; revisit cadence 12 months; source URL [nalunaarutit.gl](https://nalunaarutit.gl/groenlandsk-lovgivning/2025/inatsisartutlov-nr-78-af-21_11_2025?sc_lang=da). Companion entries: 2026 rental-law (lejelov) consultation — tier 3, revisit 6 months; Mineral Resources Act 2010 (last amended 2019) — tier 4 informational anchor.
+**Tracker entries**: three GL entries live in `shared/regulatory-watch.md` § GL — Inatsisartutlov nr. 78 af 21. november 2025 (ownership, in force 1 Jan 2026, tier 1); the rental bill EM2026 punkt 242 (pending, NOT adopted as of 2026-10-21, tier 3); and the no-private-land / Mineral Resources Act 2010 anchor (tier 4).
 
 ## ⚠️ Run quality notes
 
@@ -458,7 +458,7 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 - Tax-rate table sourced from PwC 2026 cross-reference; **primary citation now points to the aka.gl 2025 EN withholding guide (PDF, July 2025)** rather than PwC's reproduction. Re-verify the per-municipality column against the PDF before reliance.
 - The govmin.gl "no privately owned land" quote is `primary-verified` via independent Tavily search returning the verbatim snippet from the live MLSA page, even though direct WebFetch failed TLS during research. Confidence on this structural fact is HIGH.
 - Reddit signal: thin, as expected. Only one on-topic operator thread ([r/greenland 1cq7b5b](https://www.reddit.com/r/greenland/comments/1cq7b5b/buying_a_land_renting_in_greenland/)) corroborates the no-private-land claim; cited as community signal, not load-bearing.
-- The 2026 Greenlandic rental-law reform (`forslag til Inatsisartutlov om leje af boliger`) was in public consultation as of March 2026 — `verify status as of publish date`.
+- The Greenlandic rental-law reform (`forslag til Inatsisartutlov om leje af boliger`) was in public consultation 6 Mar – 3 Apr 2026 and is before Inatsisartut as EM2026 punkt 242 (2nd reading scheduled 23 Oct 2026, 3rd reading 3 Nov 2026; proposed in force 1 Jan 2027) — NOT adopted as of 2026-10-21; `verify status as of publish date`.
 - Price/m² figures in `--price` are orientation `est.` only — no sold-price register equivalent to DVF / Catastro exists for Greenland.
 - norden.org taxation-greenland page returned HTTP 403 during this research run; tax structure restated from aka.gl 2025 EN PDF (primary) + PwC (cross-reference) + ina.gl FFL URLs.
 - Cardelli et al. 2024 "39% of Ilulissat paved roads on highly hazardous frost-susceptible terrain" is a single-study figure — pre-purchase, consult Asiaq for parcel-specific frost-susceptibility data.

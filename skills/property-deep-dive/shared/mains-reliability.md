@@ -35,8 +35,8 @@ For the property's country, return:
 2. **Island grids = single-point-of-failure tail risk** — IS (2 Oct 2024 storm), TW (Apr 2024 near-blackout, 3% reserve), CY, MT, MV outer islands, BS Family Islands, BZ (CFE-import dependency). Top-tier reliability in most years masks catastrophic-event risk.
 3. **Synchronous decoupling reshapes everything** — Baltic states (EE/LV/LT) desynchronised from BRELL 8 Feb 2025 + synchronised with Continental EU 9 Feb 2025; SAIDI improved sharply (EE 142 min 2024 vs 453 min 2023). Equally, Iberian peninsula's weak FR-ES tie (~5% peak) caused 28 Apr 2025 ~10 hr blackout. Grid topology > generation mix when crisis hits.
 4. **Hydro-dependency = drought-correlated outage risk** — EC (78% hydro), CO (87% normal → 47% Apr 2024), CR (99% normal → 86% Q2 2024 drought), BR (worst-recorded 2024 drought), AL (98% hydro), CN-Sichuan (2022 anchor), VN-north summer. A "🟢 in normal year" rating can flip 🔴 in a drought year.
-5. **Tariff capping = silent outage subsidy** — HU rezsicsökkentés, AR Decree 55/2023 emergency subsidies, EG freeze through Jun 2026, KZ multi-year cap 2026-2032: when residential tariffs are political, utilities defer capex, outages worsen 2-3 years later. Look for tariff-vs-CPI gap.
-6. **Water-shedding shadows load-shedding** — ZA Gauteng water-shedding parallel to Eskom load-shedding since 2022; LB Litani 2024-25 inflows -80% vs avg + EDL collapse; MA 7th drought year + electricity reliability OK; ES Catalonia + Andalusia drought emergencies through 2024; RO ANAR rationed 449 localities 2024; BG 5.8% population on rationing 2024 (Pleven 51%, Lovech 56%). Foreign buyers should NOT assume "electricity reliability OK = water OK".
+5. **Tariff capping = silent outage subsidy** — HU rezsicsökkentés, AR Decree 55/2023 emergency subsidies, EG Aug 2024 household tariff held until April 2026 then catch-up hikes (top band +16% from April 2026; other bands above 50 kWh +12% average announced 31 Jul 2026), KZ multi-year cap 2026-2032: when residential tariffs are political, utilities defer capex, outages worsen 2-3 years later. Look for tariff-vs-CPI gap.
+6. **Water-shedding shadows load-shedding** — ZA Gauteng water-shedding since 2022, alongside intermittent Eskom load-shedding until 16 May 2025 (none nationally since, Eskom 16 Oct 2026); LB Litani 2024-25 inflows -80% vs avg + EDL collapse; MA 7th drought year + electricity reliability OK; ES Catalonia + Andalusia drought emergencies through 2024; RO ANAR rationed 449 localities 2024; BG 5.8% population on rationing 2024 (Pleven 51%, Lovech 56%). Foreign buyers should NOT assume "electricity reliability OK = water OK".
 7. **Tariff bands ≠ service-hour bands ≠ outage bands** — NG Apr 2024 introduced Bands A (20+ hr/day promised) / B (16) / C (12) / D (8) / E (4). 9 DisCos ordered to compensate Band A customers Apr 2025 for failing the 20-hr commitment. The marketed band is the price tier; the delivered hours are a separate question. Same applies to Caribbean utilities (BPL Family Islands, JPS Jamaica).
 
 ## Regional patterns
@@ -49,7 +49,7 @@ Synchronous Continental Europe + Nordic + GB-island + IS-island + IE All-Island.
 
 - **28 Apr 2025 Iberian peninsula blackout** — voltage-control failure + Granada substation transformer overvoltage trip; 56M+ people, ~10 hr typical recovery (up to 20 hr in some islands and zones); >€1.6 bn estimated economic loss. ENTSO-E expert panel final report 20 Mar 2026 attributed root cause to systemic voltage control + reactive power gaps; renewables share NOT root cause.
 - **NL grid congestion crisis** — TenneT 38 GW waitlist Q1 2025; new kWmaxweighted tariff Jan 2025; redispatch obligation ≥60 MW.
-- **DE Redispatch reform** — €2.2 bn grid-management costs Q1-3 2025; AgNes process mid-2026; new fee regime from 1 Jan 2029.
+- **DE grid-fee reform (AgNes — Allgemeine Netzentgeltsystematik Strom; not a redispatch reform)** — BNetzA interim status 27 May 2026; full draft Rahmenfestlegung (Az. GBK-25-01-1#3) consulted 6 Aug – 18 Sep 2026; final determination planned end-2026, follow-up determinations 2027; the new electricity grid-fee system replaces the StromNEV from 2029 (StromNEV rules expire 31 Dec 2028) — consulted, not yet adopted as of 2026-10-21 ([BNetzA press release 6 Aug 2026](https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260806_Agnes.html)). Separately, congestion-management (redispatch) costs were €3,071 m for full-year 2025 (preliminary) vs €2,954 m in 2024 (BNetzA/SMARD, 30 Mar 2026).
 - **UK NESO launch 1 Oct 2024** — £630m public acquisition of National Grid ESO division.
 - **CH Stromgesetz / Mantelerlass referendum 9 Jun 2024** (68.72% Yes); Energy Act amendments effective 1 Jan 2025; Electricity Supply Act amendments effective 1 Jan 2026.
 - **IS Jan-Apr 2024 H6 hydro curtailment** — Landsvirkjun curtailed industrial loads 19 Jan – 30 Apr 2024 (water-level-driven); plus 2 Oct 2024 storm outage worst since 2019.
@@ -114,7 +114,7 @@ Worst region by reliability metrics:
 - **🟢 High**: SA, BH, OM
 - **🟡 Stress**: KW (first load-shedding since 2006 in Aug 2024 — peak 17,640 MW @ +50°C from KNPC gas-processing shutdown disrupting 2 power plants + desal)
 - **🟡 War-strained**: IL — post-Oct-2023 grid strain, 2024 deployment slowdown, Gaza supply line cut
-- **🟠 Crisis-managed**: TR (Apr 2024 Black-Sea regional outage; tariff +25% Apr 2025; subsidy cap dropped to 5,000 kWh/yr Jan 2025), JO (water rationed-supply ~36 hr/week households + ToU tariff 2025-2026)
+- **🟠 Crisis-managed**: TR (Apr 2024 Black-Sea regional outage; tariff +25% Apr 2025; subsidy cap dropped to 5,000 kWh/yr Jan 2025), JO (water rationed-supply ~36 hr/week households + ToU tariff for selected non-residential sectors since Jul 2024 / Jan 2025; households not on ToU as of Oct 2026)
 - **🔴 Failed-grid**: **LB — EDL ~4 hr/day national average in 2024**; nationwide blackout 17 Aug 2024 (fuel depletion); private generator-mafia parallel grid de-facto national supply; rooftop solar 1.2-1.3 GW boom 2021-2024 (10× growth); Litani 2024-25 inflows ~65 MCM vs 320 MCM long-term avg (-80%).
 
 **Iraq-GCC interconnection energised end-2024** (Al-Wafrah KW ↔ Al-Faw IQ, 295 km / 500-600 MW).
@@ -148,11 +148,11 @@ Worst region by reliability metrics:
 
 ### Africa + Caucasus + Central Asia
 
-- **🟢 ZA improving**: **Eskom 300 consecutive days no load-shedding by 12 Mar 2026**; EAF 65.85% FY2025/26; diesel spend down R8.58bn (-57%) YoY; NTCSA carved out as separate transmission entity Mar 2025. NERSA approved +12.74% retail-tariff hike effective 1 Apr 2025 with more anticipated 2026-2027.
+- **🟢 ZA improving**: **no Eskom load-shedding since 16 May 2025 — 518 consecutive days as at 16 Oct 2026** (300 reached 12 Mar 2026); residual load reduction hits 2.7 % of Eskom's customer base (Eskom, 16 Oct 2026); EAF 65.85% FY2025/26; diesel spend down R8.58bn (-57%) YoY; NTCSA carved out as separate transmission entity Mar 2025. NERSA approved +12.74% retail-tariff hike effective 1 Apr 2025 with more anticipated 2026-2027.
 - **🟠 BW**: **BPC** (Morupule-coal-centric, net importer from Eskom/SAPP) runs a **LIVE, oscillating load-shedding regime** — cascaded 2025 unit failures (**Morupule B Unit 2 14 Feb 2025**, **Unit 4 22 Mar 2025**, Unit 3 in long-term planned outage) forced load management; **Unit 2 returned 5 Nov 2025** and SAPP imports let shedding cease, **then load-shedding RETURNED Dec 2025** (BPC schedule for 24 Dec 2025). National demand ~640 MW peak / ~440 MW off-peak. *Cite the dated BPC notice at purchase — status oscillates.* SAIDI/SAIFI not published; **WUC** water-supply outage metrics also an open gap (`verify at wuc.bw`). Water scarcity HIGH (semi-arid Kalahari, recurrent drought) is the dominant habitability hazard; **landlocked → no cyclone/coastal exposure.** Standby generator/inverter advisable. Band: **🟠 (managed)**. Confidence: HIGH on the BPC load-shed status, LOW on SAIDI + WUC metrics. (Source: gov.bw Daily News; BPC load-shed notices 2025 — playbook 2026-06-13.)
 - **🔴 NG**: 12+ grid collapses 2024-2025 + first 2026 collapse 23 Jan 2026; NERC ordered 9 DisCos to compensate Band A customers Apr 2025 for failing 20-hr/day commitment; Apr 2024 Band A tariff hiked >300% to ₦225/kWh.
 - **🔴 GH dumsor return Q1 2024**; PURC vs ECG public dispute over load-management timetable; ECG cash-collection reforms 2024-2025.
-- **🟠 EG**: daily 2-3 hr rotational load-shedding summer 2024 due to gas-import collapse; Aug 2024 tariff hike (residential up to +50%, commercial +23-46%, industry +21-31%); freeze extended through Jun 2026; LNG cargoes ~$3bn through 2026 to avoid summer 2025 repeat.
+- **🟠 EG**: daily 2-3 hr rotational load-shedding summer 2024 due to gas-import collapse; Aug 2024 tariff hike (residential up to +50%, commercial +23-46%, industry +21-31%); household freeze ENDED in 2026 — EgyptERA tariff from April 2026 raised only the >1,000 kWh band (223 → 258 pt/kWh, +16%; lower bands held at 68-210 pt) while commercial and industrial rose 17-31% (EgyptERA; IMF CR 26/224, 17 Jul 2026), then on 31 Jul 2026 the Ministry of Electricity announced an average +12% on every household band above 50 kWh (0-50 kWh held at 68 pt), reported from July 2026 consumption (press only; per-band figures conflict between outlets and EgyptERA still lists the April 2026 table as current on 2026-10-21 — quote band rates only once EgyptERA posts them; bracket review announced 10 Oct 2026, no decision as of 2026-10-21; see regulatory-watch.md EG); LNG cargoes ~$3bn through 2026 (figure not re-verified 2026-10-21).
 - **🟢 MU**: among Africa's most reliable; cyclone-related outages only (Cyclone Belal Jan 2024, Cyclone Chido Dec 2024); RE target revised 35%→60% by 2030 → 35% by 2028 (Jun 2025 budget reset).
 - **NA**: **NamPower** national utility + grid, **SAPP** member, and Namibia is a **net electricity importer** (historically a large share from South Africa/Eskom + region) → supply security is partly tied to regional generation adequacy. SAIDI/SAIFI **not publicly itemised** (`verify at nampower.com.na / Electricity Control Board ecb.org.na`); among world's highest solar irradiation → rooftop PV+battery widely viable. **Water is the binding constraint**: chronic drought (ThinkHazard HIGH) — Windhoek runs **direct potable water reclamation (Goreangab plant)**; supply-reliability + tariff specifics not primary-itemised (`verify at namwater.com.na` + local authority). Standby generator/inverter sensible for continuous-occupancy. Band: **inheritance/regional-stress — no published metric**. Confidence: LOW on SAIDI/outage frequency, HIGH on the net-importer structure + water-scarcity framing. (Source: playbook 2026-06-13.)
 - **CV ELECTRA unbundled 2023-2024** to EPEC (gen) + ONSEC (TSO) + EDEC (DSO); ARME 2024 tariff cut.
@@ -205,9 +205,11 @@ Calendar-actionable triggers for re-stamping affected playbook sections.
 - **17 Aug 2024**: LB nationwide blackout (EDL fuel depletion)
 - **End-2024**: Iraq-GCC interconnection energised (Al-Wafrah ↔ Al-Faw)
 - **16 Apr 2024**: UAE historic floods (254.8 mm Al Ain, 142 mm Dubai/24h)
-- **Aug 2024**: EG tariff hike up to +50% residential; freeze through Jun 2026 (Feb 2026 announcement)
+- **Aug 2024**: EG tariff hike up to +50% residential; household bands then held until April 2026
+- **Apr 2026**: EG EgyptERA tariff raises only the >1,000 kWh household band (223 → 258 pt/kWh); commercial / industrial +17-31% (IMF CR 26/224)
+- **31 Jul 2026**: EG Ministry of Electricity announces average +12% on household bands above 50 kWh (press-reported; EgyptERA table not posted as of 2026-10-21)
 - **Apr 2025**: TR retail electricity +25%; subsidy cap 5,000 kWh/yr Jan 2025
-- **1 Jan 2025**: JO ToU tariff covering 30% of consumption; full coverage by Sep 2026
+- **1 Jan 2025**: JO ToU tariff phase 2 (banks, private hospitals, water pumping, hotels; phase 1 from Jul 2024), coverage at least 30% of consumption, non-residential sectors only; household ToU was an IMF programme target for Sep 2026, not applied as of Oct 2026 (MEMR 21 Jan 2025; IMF CR 25/155 Jul 2025; IMF Fifth Review 2026; EMRC Sep 2026 bulletin)
 
 **Asia**:
 
@@ -230,7 +232,7 @@ Calendar-actionable triggers for re-stamping affected playbook sections.
 - **Apr 2024**: UZ Cabinet Resolution No. 252 (Energy Market Development and Regulation Agency formalized)
 - **Jun 2025**: AM ENA nationalization process begins
 - **Jan 2025**: AZ new tiered residential tariffs (8.4 / 10 / 15 qapik); Jan 2026 fixed monthly tariffs
-- **17 May 2025**: ZA load-shedding suspended; **300-day clear by 12 Mar 2026**
+- **16 May 2025**: ZA load-shedding suspended (518 consecutive days clear as at 16 Oct 2026, Eskom); **300-day clear by 12 Mar 2026**
 - **1 Apr 2025**: ZA NTCSA operationalized
 - **Apr 2024**: GH dumsor return Q1 2024
 - **Q1 2024**: EG summer 2024 daily blackouts begin
@@ -244,7 +246,7 @@ For foreign buyers, applicable across all 126 countries:
 3. **Cross-reference water reliability** — the 7th cross-cutting trap. Don't assume electricity-OK = water-OK. Same drought hits both. Check municipal water-rationing schedule + reservoir levels before signing.
 4. **Verify generation-mix exposure** — hydro-dominant markets (EC, CO, CR, BR, AL, CN-Sichuan, VN-north, NO) flip 🟢→🔴 in dry years. Get the most-recent reservoir levels before reliance.
 5. **Insurance + business-interruption riders** — extended outage events not always covered under standard property policy; verify rider availability for grid-failure-induced losses (food spoilage, business interruption, sump-pump failure → flood damage).
-6. **Tariff trajectory > current rate** — cheap tariff today can reflect under-investment that will surface as future outages OR steep hikes (KZ 2026-2032 caps, NG band-A vs band-E, EG freeze ending Jun 2026, ZA NERSA 2026-2027). Look at multi-year regulator decisions, not last-bill snapshot.
+6. **Tariff trajectory > current rate** — cheap tariff today can reflect under-investment that will surface as future outages OR steep hikes (KZ 2026-2032 caps, NG band-A vs band-E, EG freeze ended 2026 via a top-band hike in April and a wider household hike announced 31 Jul 2026, ZA NERSA 2026-2027). Look at multi-year regulator decisions, not last-bill snapshot.
 7. **Strata / HOA backup-power infrastructure** — apartment buildings in Tier-3+4 markets often have shared diesel generators with maintenance-fund implications. Verify generator condition + fuel-storage compliance + monthly service-fund accrual before bidding.
 
 ## Confidence labels

@@ -90,7 +90,7 @@ For the property's country, return:
 - **DO**: tourist 30-90 days; nomads use stay-extension workarounds
 - **ID**: B211A visa (60-day, multi-extend up to 6 mo); a 5-yr DNV was proposed 2022 but not enacted
 - **VN**: proposals tabled 2024-2025, none enacted; e-visa 90-day is the workaround
-- **PH**: SRRV (Special Resident Retiree Visa, US$10k-50k deposit) used as nomad alternative; DNV proposed 2024
+- **PH**: SRRV (Special Resident Retiree Visa, Classic US$15k-50k deposit, minimum age 40) used as nomad alternative; DNV proposed 2024
 - **IL**: B/2 tourist (3-mo, extendable); NO DNV
 - **MA**: Carte de Séjour (long-stay, 1-yr renewable) for nomads with 3-mo+ stay; DNV proposed 2024
 - **EG**: tourist 30-90 days only; no formal DNV proposed yet
@@ -99,7 +99,7 @@ For the property's country, return:
 - **QA**: NO formal DNV; **Investor Residency Law 21/2018 ≥QAR 730k → 5yr renewable** is the practical longer-term route; tourist 30-day visa-free / e-visa for ~95 nationalities — verify with MoI / Hayya
 - **SA**: NO formal DNV; **Premium Residency Vision 2030** (SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M) is the route; tourist e-visa 90 days for ~57 nationalities — verify with Premium Residency Center / Visit Saudi
 - **PE**: NO formal DNV; tourist 90-180 days for many nationalities; **Rentista Visa USD 1,500/mo** is the practical remote-work route; verify with MIGRACIONES Peru
-- **EC**: NO formal DNV; **Pensioner Visa USD 1,500/mo** + **Investor Visa USD 42,500** (~100×SBU 2026 SBU USD 470/mo) are the remote-work routes; tourist 90 days for many nationalities — verify with Cancillería Ecuador
+- **EC**: NO formal DNV; **Pensioner Visa USD 1,500/mo** + **Investor Visa USD 48,200** (100×SBU at 2026 SBU USD 482/mo) are the remote-work routes; tourist 90 days for many nationalities — verify with Cancillería Ecuador
 - **PY**: NO formal DNV; **Resolución SET 1186/2023 reformed PR** — formerly cheapest formal RBI (~USD 5,200) → now USD 70k SUACE business invest OR active SET RUC; tourist 90 days for many — verify with DGM
 - **AM**: NO formal DNV; visa-free 180d for ~92 nationalities (one of the most generous globally); **Investor Residency AMD 50M (~USD 130k) deposit OR property → 5yr renewable** is the longer-term route; **Citizenship by descent (Diaspora) Art. 13 streamlined** widely used by diaspora nomads — verify with Migration Service
 - **AZ**: NO formal DNV; visa-free 90d for ~70 nationalities + ASAN eVisa; **TRP via real estate ≥AZN 100k (~USD 60k) → 1yr renewable to 5+** is the practical route — verify with State Migration Service
@@ -270,7 +270,7 @@ Standard rule across most skill-supported countries:
 - 🇬🇪 GE: 183 days OR "high-net-worth status" — territorial-ish; foreign-source income often exempt for non-resident-of-source treaty cases
 - 🇹🇭 TH: 180 days = resident; **2024 reform** taxes foreign-source income brought into TH in same/later year (was previously exempt if remitted in next year) — verify with Revenue Department
 - 🇲🇾 MY: 182 days = resident; foreign-source income exemption extended to 2036 for individuals (per Budget 2024)
-- 🇺🇾 UY: **tax holiday** — new tax-residents can elect 11-yr exemption on foreign-source income (or 7% rate option)
+- 🇺🇾 UY: **tax holiday** — residents from 2026 can elect IRNR on foreign capital income for the arrival year + 10 years if they invest more than UI 12.5M in real estate or at least UI 625k a year in qualifying funds, or meet the 183-day test each year (Ley 20.446 art. 648); the 2020-2025 regime (10-yr IRNR or IRPF at 7%) 'podrá realizarse por única vez y hasta el 31 de diciembre de 2025' (art. 649)
 - 🇿🇦 ZA: 183 days + continuous-91 test; worldwide-income basis once resident
 - 🇺🇸 US: substantial presence test + citizenship-based — see top of section
 - 🇯🇵 JP: 1 yr + "domicile" test → resident; foreign-source income exempted for first 5 yrs as "non-permanent resident" if not remitted to JP

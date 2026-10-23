@@ -57,7 +57,7 @@
 - **Contract**: contrato de corretaje exclusivo 3-6 mo
 - **MLS**: no formal MLS; Lonjas (regional realtor associations) share among members; Finca Raíz + Metrocuadrado dominate portals
 - **Discount**: 10-15% off asking; coastal/Cartagena narrower
-- **Sell-side**: **ganancia ocasional 15% flat on gain** (Ley 2277/2022 lifted from 10% effective 2023); residents may exempt up to ~7,300 UVT if sale proceeds reinvested in housing within 12 mo; commission 3-5%+IVA; retención en la fuente 1% buyer-side
+- **Sell-side**: **ganancia ocasional 15% flat on gain** (Ley 2277/2022 lifted from 10% effective 2023); the first 5,000 UVT of gain on the sale of a casa or apartamento de habitación is exempt if the proceeds go to an AFC account and buy another home, or pay mortgage credits tied to the home sold (ET art. 311-1 as modified by Ley 2277/2022 art. 31); commission 3-5%+IVA; retención en la fuente 1% buyer-side
 - **Liquidity**: 🟢 MEDIUM Medellín Poblado / Bogotá Chicó-Chapinero; 🟠 MEDIUM Cartagena historic core; 🔴 LOW secondary cities
 - **Quirks**: **Medellín "digital nomad" demand 2021-2024 cooling 2025-2026** as STR licensing tightens (Ley 2068 + local restrictions); USD-pricing creep in Poblado/Cartagena; estrato (1-6 socioeconomic strata) affects utilities + resale pool
 
@@ -93,13 +93,13 @@
 
 ## 🇪🇨 Ecuador
 - **DOM**: Quito (La Floresta / Cumbayá / González Suárez) ~120-250 / Cuenca (Centro Histórico / Gringolandia) 100-180 (US/CA expat hub) / Guayaquil (Samborondón / Urdesa) 150-300 / Salinas / Olón coast seasonal 150-365 / regional 200-365+ [verify with SRI / Registro de la Propiedad]
-- **Commission**: **3-5% seller-pays typical** (AEPI - Asociación Ecuatoriana de Promotores Inmobiliarios) + 12% IVA on commission
+- **Commission**: **3-5% seller-pays typical** (AEPI - Asociación Ecuatoriana de Promotores Inmobiliarios) + 15% IVA on commission (general IVA rate 15 % since 1 Apr 2024 — SRI Circular NAC-DGECCGC25-00000006)
 - **Contract**: corretaje exclusivo 3-6 mo; escritura pública via notario → Registro de la Propiedad municipal registration
 - **MLS**: NO MLS; **Plusvalia + Inmobiliaria.com + Properati Ecuador** dominate; **Cuenca-specific portals** (Gringo Tree, Cuenca High Life classifieds) for expat market
 - **Discount**: 10-20% off asking; Cuenca expat segment narrower (US/CA buyer demand stable)
-- **Sell-side**: **Plusvalía Municipal sliding rate** on gain (varies by canton); national CGT integrated into PIT; commission 3-5% + 12% IVA; **alcabala 1% buyer-side**; **USD-dollarized since 2000** = no FX layer for USD-base sellers
+- **Sell-side**: **Plusvalía Municipal sliding rate** on gain (varies by canton); national income tax exempts occasional sales, max two per year, no holding period (LRTI art. 9 num. 14), otherwise the gain is taxable income; commission 3-5% + 15% IVA; **alcabala 1% buyer-side**; **USD-dollarized since 2000** = no FX layer for USD-base sellers
 - **Liquidity**: 🟢 MEDIUM Cuenca Centro Histórico / Gringolandia (**top US/CA expat retiree hub globally** per International Living indices — verify); 🟠 MEDIUM Quito La Floresta / Cumbayá; 🔴 LOW Guayaquil (post-2024 Internal Armed Conflict Declaration); VERY LOW regional / Salinas off-season
-- **Quirks**: **2024 Internal Armed Conflict Declaration** (Decree 111) — violent crime peaks Guayaquil / Esmeraldas / Manta (Quito/Cuenca relatively safer); **Pacific Ring seismic (2016 Pedernales M7.8) + Cotopaxi volcano active 2024 + Galapagos rising sea-temp + tsunami coastal**; **USD-dollarized since 2000** (no native currency — political-economy reversion-risk overhang); STR Decreto 042-2020 Quito; coworking Selina / IMPAQTO Quito + Cuenca; **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 42,500** (~100×SBU 2026 SBU USD 470/mo) — see `visa-programs.md`; 2yr Temporary → Permanent after 21mo; naturalization 3yr PR
+- **Quirks**: **2024 Internal Armed Conflict Declaration** (Decree 111) — violent crime peaks Guayaquil / Esmeraldas / Manta (Quito/Cuenca relatively safer); **Pacific Ring seismic (2016 Pedernales M7.8) + Cotopaxi volcano active 2024 + Galapagos rising sea-temp + tsunami coastal**; **USD-dollarized since 2000** (no native currency — political-economy reversion-risk overhang); STR Decreto 042-2020 Quito; coworking Selina / IMPAQTO Quito + Cuenca; **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 48,200** (100×SBU at 2026 SBU USD 482/mo) — see `visa-programs.md`; 2yr Temporary → Permanent after 21mo; naturalization 3yr PR
 
 ## 🇵🇾 Paraguay
 - **DOM**: Asunción (Carmelitas / Villa Morra / Las Lomas) ~150-300 / Encarnación 150-300 / Ciudad del Este 150-300 / Mennonite Chaco / interior 200-500+ [verify with SET / Dirección General de los Registros Públicos]

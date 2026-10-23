@@ -94,7 +94,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 - 🟠 8,000–20,000 v/d (Welfare Road / A.J.C. Brouwers / Bush Road — Philipsburg–Simpson Bay axis)
 - 🔴 > 20,000 v/d (Welfare Road peak hours; airport-corridor cruise-day surge — Simpson Bay drawbridge bottleneck)
 
-> ⚠️ **The Simpson Bay drawbridge is a single critical bottleneck** connecting the airport / Maho / Cupecoy / Mullet Bay west to Philipsburg + east half of island. Bridge openings (scheduled for yacht access; published at `https://www.simpsonbaysxm.com/`) generate predictable peak congestion; this is the single biggest commute-time variable for west-half residents. **No rail; no metro; bus + taxi dominant** for those without private vehicle.
+> ⚠️ **The Simpson Bay drawbridge is a single critical bottleneck** connecting the airport / Maho / Cupecoy / Mullet Bay west to Philipsburg + east half of island. Bridge openings (scheduled for yacht access; published by the bridge operator SLAC, the Simpson Bay Lagoon Authority Corporation, at `https://portstmaarten.com/slac`) generate predictable peak congestion; this is the single biggest commute-time variable for west-half residents. **No rail; no metro; bus + taxi dominant** for those without private vehicle.
 
 ---
 
@@ -536,7 +536,7 @@ MEDIUM-HIGH — Caribbean-regional insurance market is competitive but rate-shee
 | **🇲🇫 Saint-Martin (FR side)** | FR overlay — open, *droits* ~7–8% | 7–8% all-in | Taxe foncière + taxe d'habitation | 4–6% | EUR |
 | **🇰🇳 St Kitts & Nevis** | Open + CBI option (~US$250k+) | 6–10% | Modest property tax | 3–5% | XCD (peg) |
 | **🇦🇬 Antigua & Barbuda** | Alien Land-Holding Licence ~5% + CBI | 9–14% | Property tax + ALHL | 3–5% | XCD (peg) |
-| **🇧🇧 Barbados** | Foreign-buyer 0% transfer + 2.5% stamp | 4–6% | Property tax progressive | 3–5% | BBD (peg) |
+| **🇧🇧 Barbados** | Open; vendor pays 2.5% transfer tax above BBD 150k (with building) + 1% stamp | ~2–3% (buyer; PTT + stamp vendor-paid) | Property tax progressive | 3–5% | BBD (peg) |
 | **🇰🇾 Cayman** | Open, 7.5% stamp | ~7.5% | No annual property tax | 3–5% | KYD (peg) |
 | **🇧🇸 Bahamas** | Open + 10% VAT on > US$1M | 6–12% (slab) | Real property tax (progressive) | 3–6% | BSD (peg) |
 

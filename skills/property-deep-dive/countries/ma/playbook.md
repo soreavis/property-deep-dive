@@ -52,15 +52,15 @@ Morocco is **mostly permissive** for foreign buyers — but the **title status o
 
 ### Office des Changes — mandatory currency repatriation mechanics
 
-This is the second-biggest foreign-buyer trap. Get it right at *purchase* or you can't legally repatriate sale proceeds + rental income later.
+This is the second-biggest foreign-buyer trap. Get it right at *purchase*: only foreign-currency financing gives free transfer of sale proceeds and income. Without it, a non-resident foreign seller's net proceeds go to a compte convertible à terme and leave in four annual 25 % tranches (IGOC 2026).
 
 - **Office des Changes** (`https://www.oc.gov.ma`) is the FX regulator under the Ministry of Finance.
 - **At purchase**: funds MUST enter Morocco via an **authorised bank** (banque agréée intermédiaire), with the bank issuing an **avis d'opération** referencing the **Instruction Générale des Opérations de Change (IGOC 2026)** — Chapter on Investissements étrangers au Maroc — in force **1 January 2026** (consolidated FX rulebook; supersedes prior Instruction format) (2026-05-27 verified, source [Office des Changes 2026-01](https://www.oc.gov.ma/en/actualites/publication-de-l-instruction-generale-des-operations-de-change-2026) + Médias 24 + Upsilon Consulting IGOC 2026 guide).
-- The bank files a **déclaration d'investissement étranger** with the Office des Changes within prescribed deadlines.
+- The bank must issue the settlement justificatif (Formule 2 currency purchase, Formule 4 convertible-dirham debit, or avis de crédit) and give the client a copy; banks report to the Office des Changes through periodic déclarations bancaires. IGOC 2026's foreign-investment chapter sets out no separate investor filing with the Office des Changes.
 - **What this guarantees**: the right to repatriate, in foreign currency, **(a) sale proceeds** (capital + capital gain net of TPI), and **(b) rental income** net of Moroccan tax. This is the **garantie de transfert**.
-- **What you lose if skipped**: bringing cash/crypto/informal channels = no repatriation right. The dirham is *not* freely convertible for resident-owned funds.
-- **Documentation to keep forever**: bank's avis, déclaration d'investissement, notary deed referencing the bank wire, original Office des Changes file number.
-- **IGOC 2026 — legacy safety net**: foreign-resident investors who can't prove original foreign-currency funding (lost paperwork, pre-modern files) can now repatriate up to **2,000,000 MAD/year** of investment income for investments held **>10 years**. Not a substitute for proper documentation at purchase, but a relief valve for legacy positions. MRE (Moroccans abroad) financing cap also raised to **80%** of property value (up from 70%) (2026-05-27 verified, source IGOC 2026 + Upsilon Consulting).
+- **What you lose if skipped**: without foreign-currency financing there is no garantie de transfert. Net sale proceeds go to a resident seller in dirhams, or for a non-resident foreign seller into a **compte convertible à terme**, transferable in four equal 25 % tranches (first at once, the rest on each anniversary); rental income can still be paid to non-resident foreigners whatever the financing (IGOC 2026). The dirham is *not* freely convertible for resident-owned funds.
+- **Documentation to keep forever**: the bank's settlement justificatif (formule or avis de crédit), the notary deed referencing the bank wire, and the acte d'achat — IGOC 2026 requires the original settlement justificatifs plus copies of the acte d'achat and acte de vente and proof of taxes paid before a sale-proceeds transfer.
+- **IGOC 2026 — legacy safety net**: foreign-resident investors who can't prove original foreign-currency funding (lost paperwork, pre-modern files) can now repatriate up to **2,000,000 MAD/year** of investment income for investments held **at least 10 years**. Not a substitute for proper documentation at purchase, but a relief valve for legacy positions. MRE (Moroccans abroad) financing cap also raised to **80%** of property value (up from 70%) (2026-05-27 verified, source IGOC 2026 + Upsilon Consulting).
 
 ### Visa / residency
 
@@ -295,7 +295,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 - **Modern apartments in Hivernage / Anfa**: cleaner regulatory path, professional management available
 - **Coastal (Agadir, Saïdia, Essaouira)**: marked seasonality; July–August + winter high season for European retirees
 - **Casablanca**: business-traveller market — Anfa Place / Sidi Maârouf for executive serviced rentals
-- **Office des Changes repatriation of rental income**: only if the property was *registered* via authorised bank at purchase (see Foreign buyer eligibility § Office des Changes)
+- **Office des Changes repatriation of rental income**: free when the purchase was financed in foreign currency; for non-resident foreigners banks may pay rental income whatever the financing mode; resident foreigners without proof of FX financing need 10+ years of ownership and are capped at MAD 2,000,000 a year (IGOC 2026; see Foreign buyer eligibility § Office des Changes)
 
 ---
 
@@ -354,7 +354,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | **DGPC (Direction Générale de la Protection Civile)** | `https://www.protectioncivile.gov.ma/` | National civil protection, hazard awareness |
 | **Institut National de Géophysique (CNRST)** | `https://www.cnrst.ma/` and `https://earthquake.usgs.gov/earthquakes/map/` | Seismicity catalogue (Morocco is seismically active) |
 | **Centre National de Recherche Scientifique et Technique** | as above | Earthquake monitoring |
-| **Ministère de l'Équipement et de l'Eau — Direction des Bassins Versants** | `https://www.eau.gov.ma/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Flood-prone zone maps (PPRI equivalent) |
+| **Ministère de l'Équipement et de l'Eau — Direction des Bassins Versants** | `https://www.eau.gov.ma/` ❌ DEPRECATED — dead on 2026-10-21; verify with the Ministère de l'Équipement et de l'Eau (Département de l'Eau) or the competent ABH | Flood-prone zone maps (PPRI equivalent) |
 | **ABH (Agences de Bassin Hydraulique)** | **10 basin agencies** — Loukkos `https://abhl.ma/`, Sakia El Hamra–Oued Eddahab `https://abhshod.ma/`, Sebou `https://www.abhsebou.ma`, Souss-Massa `http://www.abhsm.ma/`, Bouregreg-Chaouia `https://abhbc.com/fr`, Draa-Oued Noun `https://www.abhdon.ma/`, Guir-Ziz-Rherriss `http://www.abhgzr.ma/`, Moulouya `http://www.abhmoulouya.ma/`, Oum-Er-Rbia `http://www.abhoer.ma/`, Tensift `https://abht.ma/` (2026-09-18 verified from the ABHSHOD official links page) | Flood risk mapping, water resource zoning — issued **per basin**, not centrally |
 | **Plan d'Aménagement Communal** | At each commune urbanisme office | Local zoning + risk overlays |
 | **HCP atlas du climat** | `https://www.hcp.ma/` + Copernicus C3S | Climate baseline data |
@@ -366,7 +366,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
   - **Northern Rif (Tangier, Tétouan, Al Hoceïma, Chefchaouen)**: highest hazard. **Al Hoceïma 2004 M 6.4** quake killed > 600. Rif EU-RM3 zone classification: high.
   - **Atlas system (High Atlas + Anti-Atlas)**: **Al Haouz / Marrakech 2023-09-08 M 6.8 earthquake** — most devastating in modern Moroccan history; epicentre ~70 km SW of Marrakech, killed > 2,900, damaged 50,000+ buildings, destroyed many traditional pisé / adobe rural villages and damaged Marrakech médina structures (mosquées, riads). USGS event page: `https://earthquake.usgs.gov/earthquakes/eventpage/us7000kufc`
   - **Agadir 1960 M 5.8 earthquake** killed > 12,000 (~1/3 of population at the time); Agadir entirely rebuilt to seismic standards post-1960
-- **Building seismic code**: **RPS 2000** (Règlement Parasismique Marocain), updated **RPS 2011** and **RPS 2024** (post-Al Haouz revision). Mandatory for new construction. Older buildings (pre-2000) and traditional rural pisé/adobe construction are highest-risk.
+- **Building seismic code**: **RPS 2000** (Règlement Parasismique Marocain), current version **RPS 2000 version 2011** (décret 2-12-682 of 28 May 2013); seismic zoning partly revised post-Al Haouz by **décret 2-24-766 of 22 Oct 2024** (BO n° 7351 of 11 Nov 2024) — there is no separate "RPS 2024" code, and a global revision is still pending (2026-10-21 verified, source Adala consolidated décret 2-02-177). Mandatory for new construction. Older buildings (pre-2000) and traditional rural pisé/adobe construction are highest-risk.
 - **Insurance**: **Loi 110-14** (2016, in force 2020) created a **mandatory natural-catastrophe coverage** add-on to home insurance via the **Régime de Couverture des Conséquences d'Événements Catastrophiques** (managed by the SCR — Société Centrale de Réassurance) and a **solidarity fund** for the uninsured. Coverage applies to earthquakes, floods, tsunami, terrorism. **Verify your home policy includes the CCEC add-on**.
 
 ### Flood risk
@@ -392,7 +392,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | **1980–2000** | RPS 2000 not yet enforced; informal builds widespread; quality very variable |
 | **2000–2011 (RPS 2000 applied)** | Modern standards if permitted; **informal/clandestin construction** still widespread in peri-urban quartiers |
 | **Post-2011 (RPS 2011)** | Up-to-date seismic; modern energy + fire code |
-| **Post-2024 (RPS 2024)** | Strengthened post-Al Haouz; not yet retroactive |
+| **Post-Nov 2024 (décret 2-24-766 zoning revision)** | Higher seismic zoning for the Al Haouz-affected communes; no retrofit obligation for existing buildings |
 
 ### Mandatory diagnostics at sale — Morocco specifics
 
@@ -524,14 +524,14 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 - **Riverbank (oued) zoning**: flash-flood corridors in High Atlas valleys + interior cities. Plan d'Aménagement should mark **zone non aedificandi** along oueds. Verify before any rural / valley purchase. (See `--risks` § Flood.)
 - **Habous parcels in old medinas**: cannot be sold to non-Muslims; bail emphytéotique (long lease) is the only structure — but resale + repatriation rights are weaker than freehold. (See Foreign buyer eligibility § habous row.)
 - **Agricultural land trap**: Dahir 1973 restriction on foreign acquisition outside urban perimeters. Even an SCI must be Moroccan-controlled for agri parcels. Many "country property" listings (Atlas valleys, Souss plain) are agri-classified — verify the Plan d'Aménagement reclassification status.
-- **Office des Changes registration at purchase**: skip it = no future repatriation right for sale proceeds + rental. Non-negotiable.
+- **Foreign-currency financing at purchase**: skip it = no garantie de transfert. Sale proceeds of a non-resident foreign seller then leave only through a compte convertible à terme in four annual 25 % tranches; rental income stays payable to non-resident foreigners (IGOC 2026).
 - **Infrastructure variation outside major cities**: water + sewer + reliable electricity + fibre internet drop sharply outside the Casablanca–Rabat–Marrakech–Tangier–Agadir axis. Don't assume EU norms in interior small towns.
 - **Mosque proximity (adhan call to prayer)**: 5× daily, amplified, audible 200–500 m. Pre-dawn (~5 AM) is the deal-breaker for many foreign buyers. Map the nearest mosque in person before offer.
 - **Insurance — CCEC mandatory cat-nat add-on (Loi 110-14, 2016)**: verify your home policy includes earthquake/flood/tsunami add-on. Coverage cap depends on policy.
 - **Construction informelle (clandestin)**: peri-urban + some rural construction lacks permis de construire. The building exists physically but cannot be legally registered or financed. Demand permis de construire + permis d'habiter (certificate of occupancy).
-- **Marrakech Al Haouz earthquake 2023-09-08 M 6.8**: ongoing reconstruction; structural assessment of riads + traditional buildings in the city + High Atlas valleys is strongly advised (skill guidance — no official end date for the elevated-risk period is published; the government portal maroc.ma reported on 8 Sep 2025 that 85% of damaged Marrakech homes, about 2,620 units, had been rebuilt) (2025 data, source maroc.ma) — rates/figures may have changed since.
+- **Marrakech Al Haouz earthquake 2023-09-08 M 6.8**: ongoing reconstruction; structural assessment of riads + traditional buildings in the city + High Atlas valleys is strongly advised (skill guidance — no official end date for the elevated-risk period is published; the government portal maroc.ma reported on 8 Sep 2025 that 85% of damaged Marrakech homes, about 2,620 units, had been rebuilt; the Agence de Développement du Haut Atlas (ADHA) reports 54,425 homes completed and more than 3,000 still under way, reference date 17 Mar 2026) (2025-2026 data, sources maroc.ma + adha.ma chiffres clés) — rates/figures may have changed since.
 - **Tramway lines (Casablanca, Rabat-Salé)**: pulls some surface traffic but creates noise + vibration corridor 50 m around alignment. Verify property's distance to the tramway track for affected quartiers.
-- **Currency repatriation timing**: dirham ≠ freely convertible. Repatriating large sale proceeds takes weeks (Office des Changes file processing). Plan for it.
+- **Currency repatriation timing**: dirham ≠ freely convertible. With foreign-currency financing the bank transfers net sale proceeds against the settlement justificatifs, copies of the acte d'achat and acte de vente and proof of taxes paid (IGOC 2026); without it a non-resident foreign seller's proceeds leave via a compte convertible à terme in four annual 25 % tranches. Transfer lead time: data not publicly available — verify with the bank.
 - **Notary practice — Adoul vs Notaire**: traditional Islamic notary (adoul) for melkia transactions; modern notary (notaire public) for titré transactions. For foreigners, **always use a notaire public** for the titré purchase deed, regardless of advice to "save money via adoul". The cost difference is trivial; the legal protection is not.
 
 ---
@@ -553,7 +553,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | Authority | When to call | URL |
 |---|---|---|
 | **ANCFCC (Conservation Foncière)** | Title extract, plan cadastral, owner verification, charges/hypothèques | `https://www.ancfcc.gov.ma/` |
-| **Office des Changes** | Foreign-investment registration, repatriation rights | `https://www.oc.gov.ma/` |
+| **Office des Changes** | FX regulator — IGOC 2026 rules on foreign-investment financing and repatriation (garantie de transfert) | `https://www.oc.gov.ma/` |
 | **DGI (Direction Générale des Impôts)** | Tax rates, TPI, registration duty, référentiel des prix | `https://www.tax.gov.ma/` |
 | **Bank Al-Maghrib** | FX, mortgage rates, residential price index (IPAI) | `https://www.bkam.ma/` |
 | **HCP (Haut-Commissariat au Plan)** | Population, IPAI, demographic data | `https://www.hcp.ma/` |
@@ -574,7 +574,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 
 - **Adoul vs notaire (mentioned above)**: foreigners always use notaire public for titré purchases.
 - **Hbous permission impossibility**: don't try to "structure around" habous parcels for non-Muslim acquisition — the Sharia-derived inalienability is the regulator's enforcement basis, and the Ministry of Habous does not negotiate.
-- **French-civil-law transfer process**: similar to France in general structure (compromis → délai de rétractation → acte authentique → registration), but the Moroccan equivalent is **compromis de vente → délai (often 60–90 days for foreign-currency transfer + Office des Changes file) → acte de vente notarié → enregistrement DGI → inscription ANCFCC**. Total timeline 3–6 months typical.
+- **French-civil-law transfer process**: similar to France in general structure (compromis → délai de rétractation → acte authentique → registration), but the Moroccan equivalent is **compromis de vente → délai (often 60–90 days for the foreign-currency transfer and the bank's settlement justificatif) → acte de vente notarié → enregistrement DGI → inscription ANCFCC**. Total timeline 3–6 months typical.
 - **Compromis de vente ≠ binding under all circumstances**: even after compromis, sellers can sometimes withdraw without the same penalties as in France. Negotiate a **clause pénale** (penalty clause) and substantial **arrhes** (earnest money) explicitly held by the notary in séquestre.
 - **Plomb (lead pipes) + amiante (asbestos) in pre-1980 buildings** — common, no statutory diagnostic; commission your own.
 - **Climatisation** essential for interior + south (Marrakech, Agadir, Ouarzazate); central heating less common — most properties use individual electric or gas heaters in winter
@@ -629,4 +629,4 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 ✅ **Fully populated** as of 2026-05-01.
 **Coverage check**: Foreign buyer eligibility (4-regime decision tree + Office des Changes mechanics), pricing, traffic, tax, rental, work, risks, mains all have primary government sources or transparent estimates with calibration.
 **Confidence**: HIGH for the title/regime framework + tax base rates + ANCFCC/Office des Changes process (all primary state agencies, multi-source). MEDIUM for short-let regulation (fragmented, in transition, enforcement uneven) and price benchmarks (listing-derived est. ranges, not transaction-data-grade). LOW only for the agricultural-land Vivendi authorisation specifics (case-by-case, no published criteria).
-**Last verified**: 2026-05-27 (validation sweep — droit d'enregistrement terrains nus 5% (CGI art. 133-I-B, LdF 2024); TPI primary-residence exemption 5 yrs + 4M MAD ceiling; IGOC 2026 in force 1 Jan 2026; CFC corporate-tax rate and basin-agency count corrected 2026-09-18 per CGI 2026 + ABHSHOD). Risks tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27 (validation sweep — droit d'enregistrement terrains nus 5% (CGI art. 133-I-B, LdF 2024); TPI primary-residence exemption 5 yrs + 4M MAD ceiling; IGOC 2026 in force 1 Jan 2026; CFC corporate-tax rate and basin-agency count corrected 2026-09-18 per CGI 2026 + ABHSHOD). Risks tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Foreign-buyer / risks tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).

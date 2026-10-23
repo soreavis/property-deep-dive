@@ -12,16 +12,18 @@ ISO2: `kr`. Status: ✅ Fully populated (researched 2026-05).
   - Separate **건축물대장 (geonchungmuldaejang — Building Register)** + **토지대장 (toji daejang — Land Register)** maintained by 시·군·구청 — online via **정부24** (`https://www.gov.kr/`)
   - Single-portal real-estate disclosure: **부동산종합공부시스템 (일사편리)** at `https://kras.go.kr/`
 - **Identifier**: 지번 (jibeon — lot number, e.g., `서울특별시 강남구 역삼동 678-1`) + post-2014 도로명주소 (doroname jusoroad name address, e.g., `서울특별시 강남구 테헤란로 152`); **고유번호** (19-digit unique property number) on 등기부
-- **Title concept**: 소유권 (소유권 — freehold) is dominant; 전세권 (jeonseigwon — registered jeonse lump-sum lease right) and 임차권 (imchaigwon — rental right) are encumbrances on the title. **Foreigners can hold freehold** subject to notification (see below).
-- **Foreign-buyer regime**: **외국인토지법 (Foreign Land Acquisition Act)** abolished 2017; replaced by **부동산 거래신고 등에 관한 법률 (Real Estate Transactions Reporting Act)** + **부동산 거래신고법 시행령** — open reciprocal regime. Foreigners (incl. EU/US/JP/CA/AU/UK nationals) may purchase freehold residential without permission, BUT must file **외국인 부동산 취득 신고** at city/gun/gu office within **60 days of contract** (MOLIT 국토교통부 form). ([source](https://www.law.go.kr/법령/부동산거래신고등에관한법률))
-  - Restricted/permission-required zones: 군사기지 및 군사시설 보호구역 (military protection zones), 문화재 보호구역 (cultural property), 생태·경관 보전지역 (ecological), 자연환경보전지역 — confirm via **토지이음 (LURIS 후신)** at `https://www.eum.go.kr/`
-  - Permission (허가) timeline if zone restricted: ~15 days
+- **Title concept**: 소유권 (소유권 — freehold) is dominant; 전세권 (jeonseigwon — registered jeonse lump-sum lease right) and 임차권 (imchaigwon — rental right) are encumbrances on the title. **Foreigners can hold freehold** subject to transaction reporting and, inside the foreigner 토지거래허가구역 (Seoul, 23 Gyeonggi 시·군 and 9 Incheon 자치구, to 25 Aug 2027), prior permission (see below).
+- **Foreign-buyer regime**: **외국인토지법 (Foreign Land Acquisition Act)** abolished 2017; replaced by **부동산 거래신고 등에 관한 법률 (Real Estate Transactions Reporting Act)** + **부동산 거래신고법 시행령** — reciprocal regime, open outside the permit zones. **Inside the foreigner-only 토지거래허가구역** (MOLIT; first designated 26 Aug 2025, extended unchanged on 20 Aug 2026 to run 26 Aug 2026 – 25 Aug 2027) — all of Seoul, 23 Gyeonggi 시·군 (all except 양주·이천·의정부·동두천·양평·여주·가평·연천) and 9 Incheon 자치구 (미추홀·연수·남동·부평·계양·서해·검단·영종·제물포, former 동구 area excluded) — a foreign buyer (individual without Korean nationality, foreign corporation or foreign government) of a 단독·다가구·다세대·연립·아파트 needs **permission from the 시장·군수·구청장 before signing** (land share above 6 m² in residential zones / 15 m² in commercial zones); a contract signed without permission has no effect; the buyer must move in within 4 months and live in the home for 2 years, and a breach brings a 3-month 이행명령 then a repeated 이행강제금 of up to 10 % of the acquisition price (2026-10-21 verified, source [korea.kr 정책브리핑 2026-08-21](https://www.korea.kr/news/customizedNewsView.do?newsId=148970419); move-in and residence duty per the MOLIT release of 21 Aug 2025). Since 10 Feb 2026 a foreign buyer's report must state 체류자격, Korean address and 183-day stay status, and a permit-zone purchase is reported with a 자금조달계획서. **Outside the zones** no permission is needed: a sale (매매) is reported within **30 days of contract** (부동산거래신고법 art. 3(1)); the **60-day 외국인 부동산 취득 신고** (art. 8(1)) applies to non-sale contracts (exchange, gift), and inheritance or auction acquisitions are reported within 6 months (art. 8(2)). ([source](https://www.law.go.kr/법령/부동산거래신고등에관한법률))
+  - Restricted/permission-required zones: foreigner 토지거래허가구역 (above, to 25 Aug 2027); all-buyer 토지거래허가구역 (all 25 Seoul wards + 12 Gyeonggi areas to 31 Dec 2026 — see `--tax`); 353 outlying islands incl. 울릉도 and 제주 우도 designated 20 Aug 2026 as defence-purpose foreigner land-permit zones, any land parcel ([Money Today 2026-08-20](https://www.mt.co.kr/estate/2026/08/20/2026082017200479712), secondary); 군사기지 및 군사시설 보호구역 (military protection zones), 문화재 보호구역 (cultural property), 생태·경관 보전지역 (ecological), 자연환경보전지역 — confirm via **토지이음 (LURIS 후신)** at `https://www.eum.go.kr/`
+  - Permission (허가) timeline if zone restricted: ~15 days (military / cultural / ecological zones; 토지거래허가 processing time not verified — confirm at the 시·군·구청)
 - **Recent reforms**:
   - **전세사기 피해자 지원 및 주거안정에 관한 특별법 (Jeonse Fraud Special Act)** — enacted 2023-05-25, effective 2023-06-01; extended Jun 2024; latest amendments through 2025 expanding compensation. ([MOLIT source](https://www.molit.go.kr/USR/policyData/m_34681/dtl.jsp?id=4694))
   - **공인중개사법 개정** (Licensed Real Estate Agent Act amendments 2024) — strengthened agent disclosure obligations re: jeonse risk, expanded fiduciary duty
   - **종합부동산세법 개정 2023** — Yoon administration cut multi-home surcharge rates and raised exemption thresholds (effective FY2023 onward)
+  - **2026 세제개편안 — PROPOSED** (재정경제부, 3 Aug 2026; bill under National Assembly review as of 21 Oct 2026): higher 종부세 for multi-home and non-resident holders from 2027 and temporary 양도세 surcharge easing for 2027–2028 sales; decree limbs (일시적 2주택 window in 조정대상지역 cut from 3 to 2 years) in force since 1 Oct 2026 — see `--tax`
   - **취득세법 시행령 개정 2024–2025** — multi-home acquisition tax restructuring; 8 %/12 % surcharge regime for 2nd/3rd+ homes in 조정대상지역 (regulated zones) modified
   - **반환보증보험 (Jeonse return-guarantee insurance) reform 2023–2024** via HUG (주택도시보증공사) — eligibility criteria tightened (공시가격 126 % cap on guarantee value)
+  - **Foreigner 토지거래허가구역** (26 Aug 2025; extended on 20 Aug 2026 to 25 Aug 2027) — prior permission + 2-year residence duty for foreign buyers of housing in Seoul, 23 Gyeonggi 시·군 and 9 Incheon 자치구; see Foreign-buyer regime above
 
 ## Section: `--price`
 
@@ -65,7 +67,7 @@ ISO2: `kr`. Status: ✅ Fully populated (researched 2026-05).
 | 인천 송도 (Songdo, Incheon) | ~₩7M–₩15M/m² | IFEZ free-zone effect |
 | 대구 수성구 | ~₩7M–₩14M/m² | "대구 강남" 학군 |
 | 세종특별자치시 | ~₩5M–₩10M/m² | 행정수도 효과 둔화 |
-| 제주특별자치도 | ~₩3M–₩8M/m² | 외국인 매수 제한 별도 검토 |
+| 제주특별자치도 | ~₩3M–₩8M/m² | 외국인 매수 제한 별도 검토 — 우도 designated a foreigner land-permit zone on 2026-08-20 (secondary) |
 | 지방 중소도시 평균 | ~₩2M–₩5M/m² | 지방 demographic decline 반영 |
 
 ⚠️ Korean convention is **₩/평** (1 평 = 3.3058 m²) for marketing; technical/legal docs use **₩/m²**. Conversion: ₩50M/평 ≈ ₩15.1M/m².
@@ -151,18 +153,19 @@ OSM `highway` class:
 
 Federal-level wealth tax on aggregate residential property value above thresholds, paid by individual to **국세청 (NTS — National Tax Service)** December each year.
 
-**2025-2026 thresholds + rates** ([NTS source](https://www.nts.go.kr/), 종합부동산세법):
+**2025-2026 thresholds + rates — current law, 2026-10-21 verified** ([NTS source](https://www.nts.go.kr/), 종합부동산세법):
 
 | Status | Exemption (공시가격 합산) | Progressive rate |
 |---|---|---|
 | **1세대 1주택자** (single-home household) | **₩1.2B (12억원)** | 0.5 %–2.7 % progressive (0.5/0.7/1.0/1.3/1.5/2.0/2.7) |
-| **다주택자** (multi-home, **2주택 이하 outside 조정대상지역**) | ₩900M (9억원) | same scale |
-| **3주택 이상 OR 조정대상지역 2주택 이상** | ₩900M | **0.5 %–5.0 %** punitive scale |
+| **다주택자** (multi-home, **2주택 이하**, incl. 조정대상지역 2주택 — its surcharge rate was abolished from 2023) | ₩900M (9억원) | same scale (0.5 %–2.7 %) |
+| **3주택 이상** | ₩900M | **0.5 %–5.0 %** punitive scale |
 
 - Multi-home punitive rates were cut materially in 2023 reform (Yoon administration); had peaked at 6 % under previous regime
-- **Surcharge bracket trigger**: 과세표준 multiplied by 공정시장가액비율 60 % (multi-home) or 45 % (single)
+- **공정시장가액비율 (종부세)**: 과세표준 = (aggregate 공시가격 − deduction) × **60 %** for all holders, 1세대1주택 included (NTS; 45 % is the 재산세 single-home ratio, not the 종부세 one)
 - 1세대 1주택 long-term-holding deduction: up to 80 % off 종부세 액 if held + occupied 15 + years and aged 70+
 - **Foreigners**: subject to 종부세 same as residents on Korea-situs property
+- **PROPOSED — 2026 세제개편안 (bill, NOT law; announced 3 Aug 2026, Cabinet-revised 1 Sep 2026, under National Assembly review as of 21 Oct 2026)**: house-value rate schedule replacing the house-count schedule (phased); 공정시장가액비율 60 % → 70 % in 2027, then from 2028 80 % for 3+ homes and other 조정대상지역 multi-home holders (70 % for 1세대1주택 and 1–2 homes outside the capital region); deductions — resident single home ₩1.2B → ₩1.4B, non-resident single home stays ₩1.2B, non-resident joint-owner couples ₩900M → ₩600M each, other holdings ₩900M → ₩400M + ₩500M × resident-home share; tax-burden cap stays 150 % ([재정경제부 2026 세제개편안](https://www.moef.go.kr/nw/mosfnw/detailInfograpView.do?searchNttId1=MOSF_000000000078819&menuNo=4040500) + [Newspim 2026-09-01](https://www.newspim.com/news/view/20260901001132), secondary). Re-check after the National Assembly budget-bill vote (revisit 2026-12-10).
 
 ### Capital Gains Tax — 양도소득세 (yangdosodeukse)
 
@@ -171,16 +174,16 @@ Rates depend on holding period + property count + zone classification ([NTS sour
 | Scenario | Rate |
 |---|---|
 | **1세대 1주택, 2-yr+ resident holding, sale price ≤ ₩1.2B** | **Exempt** |
-| **1세대 1주택, 2-yr+ holding, sale price > ₩1.2B** | progressive 6–45 % on gain *above* ₩1.2B-equivalent base, with 장기보유특별공제 (long-term holding deduction) up to 80 % at 10 yrs |
+| **1세대 1주택, 2-yr+ holding, sale price > ₩1.2B** | progressive 6–45 % on gain *above* ₩1.2B-equivalent base, with 장기보유특별공제 (long-term holding deduction) up to 80 % at 10 yrs; PROPOSED (2026 세제개편안): becomes a residence-based deduction (8 %/yr, max 80 %, from 2029) |
 | **General progressive (long-term, > 2 yrs)** | **6 %–45 %** national + 10 % local surcharge ≈ effective 6.6 %–49.5 % |
 | **Short-term: < 1 year holding** | **70 %** national |
 | **Short-term: 1–2 years** | **60 %** national |
-| **다주택자 조정대상지역 2주택** | base + **20 %p** surcharge (suspended 2022→ rolling extensions; verify status) |
-| **다주택자 조정대상지역 3주택+** | base + **30 %p** surcharge (similarly suspended/extended) |
+| **다주택자 조정대상지역 2주택** | base + **20 %p** surcharge, no 장기보유특별공제 — **applies again since 10 May 2026** (suspension lapsed); PROPOSED: +5 %p (2027) / +10 %p (2028) for homes held 2+ yrs, back to +20 %p from 2029 |
+| **다주택자 조정대상지역 3주택+** | base + **30 %p** surcharge — **applies again since 10 May 2026**; PROPOSED: +10 %p (2027) / +15 %p (2028) for homes held 2+ yrs, back to +30 %p from 2029 |
 | **비사업용토지 (non-business land)** | base + 10 %p |
 
-- **장기보유특별공제 (long-term holding deduction)**: 6 %/yr from year 3 (max 30 % for non-residence) or 4 %/yr × 2 (max 80 % for owner-occupied 1세대 1주택)
-- **양도세 multi-home surcharge moratorium EXPIRED 2026-05-09 without renewal** (Lee Jae-myung administration let it lapse). Multi-home owners selling **from 10 May 2026** face surcharges again, effective rate up to **82.5 %** (including local income surtax). (2026-05-27 verified, source [Seoul Economic Daily 2026-05-01](https://en.sedaily.com/finance/2026/05/01/koreas-capital-gains-tax-hike-on-multi-home-owners-returns) + [2026-05-09](https://en.sedaily.com/finance/2026/05/09/people-power-party-slams-end-of-multi-home-owner-tax)). Verify any one-off extensions at NTS pre-transaction.
+- **장기보유특별공제 (long-term holding deduction)**: 6 %/yr from year 3 (max 30 % for non-residence) or 4 %/yr × 2 (max 80 % for owner-occupied 1세대 1주택); PROPOSED (2026 세제개편안): residence-based deduction for homes (1주택 8 %/yr, max 80 %, from 2029; per Samil PwC, secondary, capped at ₩2B in 2028 and ₩1B from 2029)
+- **양도세 multi-home surcharge moratorium EXPIRED 2026-05-09 without renewal** (Lee Jae-myung administration let it lapse). Multi-home owners selling **from 10 May 2026** face surcharges again, effective rate up to **82.5 %** (including local income surtax). (2026-05-27 verified, source [Seoul Economic Daily 2026-05-01](https://en.sedaily.com/finance/2026/05/01/koreas-capital-gains-tax-hike-on-multi-home-owners-returns) + [2026-05-09](https://en.sedaily.com/finance/2026/05/09/people-power-party-slams-end-of-multi-home-owner-tax)). Verify any one-off extensions at NTS pre-transaction. **PROPOSED (2026 세제개편안, bill under National Assembly review as of 21 Oct 2026)**: surcharge cut for 조정대상지역 homes held 2+ years on sales from 1 Jan 2027 — 2 homes +5 %p (2027) / +10 %p (2028), 3+ homes +10 %p / +15 %p, reverting to +20 / +30 %p from 2029; surcharge-paid sales from 10 May 2026 to be resettled at the 2027 rates at the 2027 interim or May 2027 final filing; 양도세 basic deduction ₩2.5M → ₩25M for a single home of 10+ years' residence sold for ₩3B or less ([재정경제부](https://www.moef.go.kr/nw/mosfnw/detailInfograpView.do?searchNttId1=MOSF_000000000078819&menuNo=4040500); [Samil PwC 2026-08-03](https://www.pwc.com/kr/ko/insights/tax-news-flash/samilpwc_tax-news-flash_260803_kr.pdf), secondary). **IN FORCE since 1 Oct 2026** (시행령 amendments adopted by the Cabinet 29 Sep 2026 — verify the decree text at law.go.kr): the 조정대상지역 일시적 2주택 window for 양도세 and 종부세 single-home relief is 2 years, not 3 (homes acquired, or contracted with a deposit paid, by 3 Aug 2026 keep 3 years); the surcharge exclusion for registered-rental apartments in 조정대상지역 applies only to sales by 31 Dec 2027 (later where the mandatory rental term or a redevelopment is still running).
 
 ### Acquisition Tax — 취득세 (chwideukse)
 
@@ -202,7 +205,7 @@ Local tax (지방세) levied at contract / acquisition; paid within 60 days to �
 - **인지세 (stamp duty)** on contract: **₩150K–₩350K** flat by price band (over ₩1B = ₩350K)
 - **국민주택채권 (national housing bonds)** — buyer must purchase + immediately resell at market discount: effective cost ≈ 0.2–1.0 % of price depending on 시가표준액
 
-⚠️ Multi-home **8 %/12 % surcharge regime is the single largest fiscal lever** in KR property. **Status (2026-05-27 verified)**: 조정대상지역 **re-EXPANDED 2025-10-15** to all **25 Seoul wards + 12 Gyeonggi cities** + 투기과열지구 re-designations; 강남/서초/송파/용산 retain 토지거래허가구역 status to 2026-12-31 (source [korea.kr policy news 148950973](https://www.korea.kr/news/policyNewsView.do?newsId=148950973)). Earlier "narrowed to 강남3구+용산" framing was Yoon-era and is now outdated. Verify current zone list via NTS at transaction time.
+⚠️ Multi-home **8 %/12 % surcharge regime is the single largest fiscal lever** in KR property. **Status (2026-10-21 verified)**: 조정대상지역 + 투기과열지구 **re-EXPANDED 2025-10-15** to all 25 Seoul wards + 12 Gyeonggi areas, and from **1 Jul 2026** also 화성 동탄구, 용인 기흥구 and 구리시 — now **25 Seoul wards + 15 Gyeonggi areas** ([ChosunBiz 2026-10-13](https://biz.chosun.com/real_estate/real_estate_general/2026/10/13/Y6ETWIARNZD3FDP3FLQLHL7D4Q), secondary). **토지거래허가구역 — two overlapping layers, both expiring 31 Dec 2026**: (1) MOLIT zone (국토교통부공고 제2025-1219호, 15 Oct 2025; in force 20 Oct 2025 – 31 Dec 2026) — all 25 Seoul wards + 12 Gyeonggi areas (과천·광명·의왕·하남, 성남 분당·수정·중원, 수원 영통·장안·팔달, 안양 동안, 용인 수지), apartments and 연립·다세대 in complexes with at least one apartment block; (2) Seoul zone (서울특별시공고 제2025-2774호; 1 Oct 2025 – 31 Dec 2026) — apartments in 강남·서초·송파·용산 (source [korea.kr policy news 148950973](https://www.korea.kr/news/policyNewsView.do?newsId=148950973)). 경기도 added 화성 동탄구, 용인 기흥구 and 구리시 (apartments, 170.5 km²) from 5 Jul 2026 to 31 Dec 2027. A permitted buyer must in principle live in the home for 2 years and may not let it in that period (secondary). As of 20 Oct 2026 MOLIT had not decided on re-designation after 31 Dec 2026 (the Minister told the 7 Oct 2026 국정감사 there is some demand — [Yonhap](https://www.yna.co.kr/view/AKR20261007087651003), secondary). Foreign buyers also face the separate foreigner-only zone to 25 Aug 2027 (see Foreign-buyer regime above). Earlier "narrowed to 강남3구+용산" framing was Yoon-era and is now outdated. Verify current zone list via NTS at transaction time.
 
 ### Example calculations (worked, transparent inputs)
 
@@ -221,8 +224,8 @@ Local tax (지방세) levied at contract / acquisition; paid within 60 days to �
 
 - **취득세** (조정 2주택, 8 % regime if active): ₩2.5B × 8 % = **₩200M** one-time
 - **재산세** (공시 ₩1.75B × 60 % multi-home ratio = 과세표준 ₩1.05B): ₩570K + 0.4 % × ₩750M = **~₩3.57M/yr** + surcharges → **~₩4.6M/yr**
-- **종부세** (multi-home, 공시 over ₩900M threshold; (₩1.75B − ₩900M) × 60 % = 과세표준 ₩510M; 1.3 % bracket): **~₩6.6M/yr** before various credits
-- **Total Y1 transaction**: ~₩200M; **Annual recurring**: ~₩11M+ (~€7,100)
+- **종부세** (multi-home, 공시 over ₩900M threshold; (₩1.75B − ₩900M) × 60 % = 과세표준 ₩510M; 0.5 % to ₩300M then 0.7 % to ₩600M — 종부세법 art. 9(1)1, [law.go.kr](https://www.law.go.kr/법령/종합부동산세법), re-checked 2026-10-23): ₩1.5M + ₩210M × 0.7 % = **~₩2.97M/yr** before the art. 9(3) 재산세-overlap credit and other credits (current law; the PROPOSED 2026 세제개편안 would change the deduction and the 60 % ratio from 2027 — recompute on passage)
+- **Total Y1 transaction**: ~₩200M; **Annual recurring**: ~₩7.6M+ (₩4.6M 재산세 incl. surcharges + ₩2.97M 종부세; ~€4,900 est. at the ~₩1,550/€ implied in Example A)
 
 ⚠️ Examples illustrative; final numbers depend on 공시가격 (annual MOLIT release), exact 조정대상지역 status, household composition, and active deductions. Numbers cross-checked against NTS calculation flowchart but TAX FILING REQUIRES CPA (세무사) for non-residents.
 
@@ -247,8 +250,8 @@ Progressive **10 %–50 %** on aggregate inheritance value above ₩1B–₩5B+ 
 
 - 종부세 + 재산세 dual-layer continues to attract reform pressure; expect revisions every administration cycle
 - 공시가격 현실화 로드맵 (gradual alignment of 공시 to market) was paused 2022–2025; Yoon administration extended moratorium; long-term direction is upward → recurring tax bills will rise
-- 다주택자 양도세 중과세 (multi-home capital gains surcharge) suspension is rolling — verify status at any transaction
-- **2026 종부세 reform** under National Assembly review may further cut multi-home punitive bands
+- 다주택자 양도세 중과세 (multi-home capital gains surcharge): the suspension lapsed and the surcharge applies again since 10 May 2026; the 2026 세제개편안 (PROPOSED, bill before the National Assembly) would ease it for 2027–2028 sales — verify status at any transaction
+- **2026 세제개편안 (PROPOSED; announced 3 Aug 2026, Cabinet-revised 1 Sep 2026, under National Assembly review as of 21 Oct 2026)** RAISES holding tax for multi-home and non-resident holders — house-value 종부세 schedule, 공정시장가액비율 to 70 % (2027) / 80 % (2028, 3+ homes), lower deductions for non-single-home holdings (see 종부세 above); re-check after the budget-bill vote (revisit 2026-12-10)
 
 ---
 
@@ -321,8 +324,8 @@ Korea's rental market is bifurcated:
 ### Strategic notes
 
 - Pure-investment Airbnb ARRangement requires either: (a) commercial-zoned 생활숙박 building in tourist hot zone, OR (b) 외국인관광 도시민박 with foreigner-only marketing + 거주 status, OR (c) full 관광호텔 license — none easy
-- Jeonse arbitrage as investment strategy ("갭투자" gap-investment) became regulatorily disfavored post-2022 — surrounding tax + DSR penalties high
-- Cleanest foreign-investor route: 강남3구 apt for capital appreciation + 월세 (monthly rent), **NOT** jeonse (need to redeposit at end)
+- Jeonse arbitrage as investment strategy ("갭투자" gap-investment) became regulatorily disfavored post-2022 — surrounding tax + DSR penalties high; inside the 토지거래허가구역 (all-buyer and foreigner-only) the 2-year owner-occupation duty rules it out
+- Foreign-investor buy-to-let in 강남3구 (and anywhere in Seoul and most of Gyeonggi / Incheon) is not available for the first 2 years while the permit zones run: the foreigner 토지거래허가구역 (to 25 Aug 2027) and the all-buyer zone (to 31 Dec 2026) both impose a 2-year owner-occupation duty. Outside the zones, 월세 (monthly rent) beats jeonse for an investor (no redeposit at end)
 
 ---
 
@@ -540,11 +543,11 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 - **The 1988 (initial) and 2017 (Pohang post) seismic-code watersheds are the single most material build-year datums** — confirm 사용승인일 on 건축물대장
 - **공시가격 vs 시세 vs RTMS 실거래가**: three different value concepts — 공시 (~70 % of market) is tax base; 시세 is asking; RTMS is recorded transaction. **Use RTMS for buy/sell decisions.**
 - **전세 ≠ rent**: jeonse is an interest-free loan to landlord secured against the property; before signing, verify (mortgage + jeonse) ≤ **126 % of 공시가격** OR you can't get HUG insurance — and uninsured jeonse in 2026 = significant counterparty risk
-- **다주택자 punitive regime (8 %/12 % 취득세 + 양도세 중과)**: structurally hostile to investor-multi-home portfolios; verify current 조정대상지역 list at NTS pre-purchase
+- **다주택자 punitive regime (8 %/12 % 취득세 + 양도세 중과)**: structurally hostile to investor-multi-home portfolios; 양도세 중과 applies again since 10 May 2026 (2027–2028 easing PROPOSED in the 2026 세제개편안); verify current 조정대상지역 list at NTS pre-purchase
 - **분양가상한제 (price-cap zones)** — distort new-build pricing in 강남/서초/송파/용산 + select wards; resale at unlocked market triggers windfall tax
 - **재건축 초과이익환수제 (Reconstruction Surplus Recovery Levy)** — up to 50 % tax on redevelopment windfall; shapes older-complex valuations
 - **공동주택 관리비 + 장기수선충당금 trajectory**: older complexes' 장기수선충당금 rises sharply when 장기수선계획 (long-term repair plan) cycle hits; request 관리규약 + 장기수선계획서 + 회계감사보고서 for any ≥ 10-yr complex
-- **외국인 부동산 취득 신고 60일 기한 (foreign-buyer 60-day notification)**: failure → 과태료 ₩3M (지방자치단체 부과); separate from contract registration
+- **Foreign-buyer permit + reporting**: inside the foreigner 토지거래허가구역 (Seoul, 23 Gyeonggi 시·군 and 9 Incheon 자치구, to 25 Aug 2027) permission is required BEFORE the contract and an unpermitted contract has no effect; a sale is reported within 30 days (부동산거래신고법 art. 3(1)); the **60-day 외국인 부동산 취득 신고** (art. 8(1)) applies to non-sale contracts — failure → 과태료 ₩3M (지방자치단체 부과); separate from contract registration
 - **상속세 + 증여세 50 % top rate** is among the world's highest; estate planning critical for foreign owners with Korean assets
 - **생활숙박시설 trap**: marketed as residential but legally lodging — residential use illegal since 2021 with retroactive enforcement; ongoing 입주민 lawsuits
 - **DSR 40 % cap + LTV regime**: foreign non-resident buyers face stricter LTV (typically 40–50 % vs 70 % owner-occupier resident); KEB Hana, Woori, Shinhan, KB offer non-resident mortgages with constraints
@@ -593,7 +596,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 - **분양권 (bunyangkwon — pre-sale right)** vs **입주권 (ipjukwon — move-in right post-redevelopment)** — both are pre-completion contractual rights, traded actively; tax + transfer rules differ
 - **전세권 등기 vs 확정일자**: registered jeonse-right is stronger but 0.2 % registration tax cost; 확정일자 (date stamp) at 주민센터 + 전입신고 is cheaper but slightly weaker
 - **임대사업자 의무임대 8년/10년**: voluntary registered-landlord scheme — significant tax benefits for compliance period; tightening since 2020
-- **갭투자 (gap-investment)**: speculative purchase financed by jeonse deposit gap; structurally disfavored 2020+ via tax + DSR + LTV regime
+- **갭투자 (gap-investment)**: speculative purchase financed by jeonse deposit gap; structurally disfavored 2020+ via tax + DSR + LTV regime; barred inside the 토지거래허가구역 by the 2-year owner-occupation duty
 - **국민주택채권 매입의무** (national housing bonds compulsory purchase at acquisition): immediately resold at market discount → effective cost included in transaction
 - **일조권 + 조망권 (sunlight + view rights)**: civil-law concepts adjudicated case-by-case; high-rise next-door construction has triggered material lawsuits
 - **공동주택관리법 § 28 회계감사 (mandatory audit)**: ≥ 300-unit complex must file annual audit; recently expanded transparency
@@ -637,8 +640,8 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (cadastral/zoning portal identity and flood-control ministry corrected 2026-09-18 per kras.go.kr + eum.go.kr + mcee.go.kr)
+**Last verified**: 2026-05-27 (cadastral/zoning portal identity and flood-control ministry corrected 2026-09-18 per kras.go.kr + eum.go.kr + mcee.go.kr). Authority tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Foreign-buyer permit zones, the all-buyer 토지거래허가구역 and the 2026 세제개편안 re-checked 2026-10-21 (see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Pricing/transaction-tax/cadastre/seismic-standard/RTMS sources all anchored to MOLIT / NTS / 법원 등기소 / KMA / BoK / HUG primary URLs with date-stamped numerics + transparent computations. HIGH for cadastre + national tax + RTMS transparency (single best transaction-price disclosure regime among the 62 covered countries) + seismic code watersheds (1988/2017) + jeonse legal framework. MEDIUM for current 다주택자 surcharge status (verify 조정대상지역 list at NTS pre-transaction; suspension extensions are rolling), exact ratios on 공정시장가액비율 (changes by Yoon administration ongoing), and short-let permitted scope (생활숙박 enforcement evolving 2024–2026). LOW only for unverifiable parcel-level claims (apt-complex-specific RTMS comps require live IROS lookup; 공시가격 changes annually each Q1).
+**Notes**: Pricing/transaction-tax/cadastre/seismic-standard/RTMS sources all anchored to MOLIT / NTS / 법원 등기소 / KMA / BoK / HUG primary URLs with date-stamped numerics + transparent computations. HIGH for cadastre + national tax + RTMS transparency (single best transaction-price disclosure regime among the 62 covered countries) + seismic code watersheds (1988/2017) + jeonse legal framework. MEDIUM for current 다주택자 surcharge status (surcharge applies again since 10 May 2026; 2027–2028 easing PROPOSED, bill pending — verify 조정대상지역 list and status at NTS pre-transaction), exact ratios on 공정시장가액비율 (changes by Yoon administration ongoing), and short-let permitted scope (생활숙박 enforcement evolving 2024–2026). LOW only for unverifiable parcel-level claims (apt-complex-specific RTMS comps require live IROS lookup; 공시가격 changes annually each Q1).

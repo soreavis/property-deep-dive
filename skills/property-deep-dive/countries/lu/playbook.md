@@ -8,7 +8,7 @@
 
 ## Country profile
 
-Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property market in Europe at peak (mid-2022; Switzerland/Monaco have since edged ahead). **Sharp 2022-24 correction (~12-15% nominal)**, returned to growth Q1 2025 (+3.7% YoY apartments). Cross-border worker volume = ~228,000 = ~47% of LU workforce (STATEC frontaliers data — verify current quarterly release at STATEC) — but commuters live in FR/DE/BE precisely because LU housing is unaffordable, so they don't pressure rental demand. Bëllegen Akt €40k stamp-duty credit made permanent July 2025. Major tax-base reform (IFON, IMOB, INOL) phased 2026-2030. Cross-border commuter dynamic, trilingual notary-act language reality, and Esch-Belval contamination-legacy zones are key country-specific quirks.
+Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property market in Europe at peak (mid-2022; Switzerland/Monaco have since edged ahead). **Sharp 2022-24 correction (~12-15% nominal)**, returned to growth Q1 2025 (+3.7% YoY apartments). Cross-border worker volume = ~228,000 = ~47% of LU workforce (STATEC frontaliers data — verify current quarterly release at STATEC) — but commuters live in FR/DE/BE precisely because LU housing is unaffordable, so they don't pressure rental demand. Bëllegen Akt €40k stamp-duty credit made permanent July 2025. Major tax-base reform (IFON + IMOB in Bill 8082A, INOL in Bill 8082B) still in parliamentary committee as of Oct 2026; ministers' timing for 8082A: in force 2028, first real tax year 2030. Cross-border commuter dynamic, trilingual notary-act language reality, and Esch-Belval contamination-legacy zones are key country-specific quirks.
 
 ---
 
@@ -75,9 +75,9 @@ Luxembourg is a small Grand Duchy (~660k pop) with the most expensive property m
 - **Currently very low** — €100-€500/yr typical for residential, often <€200 in Luxembourg City. Based on 1941 unit values × commune coefficient
 - **Reform (Bill 8082A)**:
   - 17 July 2025: 66 amendments accelerating IMOB/IFON
-  - **IMOB (vacant-land mobilisation tax) applicable from January 2026** but at **0% for first 5 years** (effectively dormant)
-  - **New IFON (revalued land tax) earliest 2026, trial 2029, first real tax year 2030**
-  - **INOL (vacant-housing tax) earliest 2028**
+  - **IMOB (mobilisation tax on unbuilt building land)**: not yet voted (Bill 8082A in commission as of Oct 2026); per the 17 Jul 2025 commission presentation the first bulletin would go to owners in 2030 and the progressive rate applies for the first time only after five years
+  - **New IFON (revalued land tax): entry into force 2028, test year 2029, first real tax year 2030 (ministers' timing in commission, 17 Jul 2025) — Bill 8082A still in commission as of Oct 2026, no plenary vote**
+  - **INOL (vacant-housing tax)**: split off into separate Bill 8082B on 3 Jul 2025, still in commission and dependent on Bill 8086 (national and communal building and housing registers) — no date set; data not publicly available — verify at chd.lu dossier 8082B
 - **Practical**: 2026 buyers still pay legacy near-trivial impôt foncier; **budget for a real rise late-decade**
 
 ### Capital Gains Tax — corrected from common assumption
@@ -292,6 +292,7 @@ Universal — see `shared/climate-projections.md`.
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)
+- 2026-10-21: Tax tracker entry re-checked (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 ---
 

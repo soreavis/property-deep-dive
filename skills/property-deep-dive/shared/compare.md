@@ -142,7 +142,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 6. GE (open, registration <1 day, no permit)
 7. US (open, ITIN/SSN only; FIRPTA on resale)
 8. TR (open subject to reciprocity + military-zone clearance)
-9. KR (open to most foreigners; Foreigner's Land Acquisition Act notification only)
+9. KR (open to most foreigners outside the foreigner 토지거래허가구역 — housing in Seoul, 23 Gyeonggi 시·군 and 9 Incheon 자치구 needs prior permission + 2-yr residence to 25 Aug 2027; elsewhere 부동산거래신고 reporting only)
 10. TW (open subject to reciprocity per BOCA list — verify nationality eligibility)
 11. MD (open, foreigners can own buildings + non-agricultural land freely)
 12. AM (open to foreigners; equal property rights for non-citizens per Land Code Art. 4 — exceptions on agricultural and protected land)
@@ -153,7 +153,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 
 ### Highest acquisition friction (permit / restriction-heavy)
 1. CA (foreign-buyer ban through 1 Jan 2027)
-2. AU (established-homes ban 1 Apr 2025–31 Mar 2027)
+2. AU (established-homes ban 1 Apr 2025–30 Jun 2029, extended in the 2026-27 Budget)
 3. NZ (most existing homes banned since 2018)
 4. TH (no land freehold for foreigners; condo 49% quota)
 5. PH (no land for foreigners; condo 40% quota)
@@ -164,13 +164,13 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 10. AE (foreign ownership restricted to designated freehold zones)
 11. EG (max 2 properties × 4,000 m² total; Sinai/Suez excluded)
 12. SG (foreign Restricted Residential Property Act — foreigners barred from landed homes; condo-style strata only without SLA approval; ABSD 60% non-resident)
-13. HK (open but **BSD 15% + AVD up to 4.25%** non-PR surcharges; verified via IRD post-2024 cooling-measure rollback partial — verify per IRD)
+13. HK (open; BSD / SSD / NRSD abolished 28 Feb 2024 — every buyer pays the same AVD Scale 2, top band 6.5% above HK$109,574,470 for residential instruments executed on or after 26 Feb 2026 — IRD AVD FAQ)
 14. MO (open but post-2007 Investment Residence suspended — no residence pathway via property; foreign buyer pool thin)
 15. LI (Lex Koller-equivalent + EEA-only freehold; quota residency limits buyer pool)
 16. MC (open but Sûreté Publique residence verification + €500k bank deposit gates qualifying buyer pool)
 17. AD (open since 2012 reform; foreigners must register at Govern d'Andorra; **STR Llei 26/2024 + parish quotas** narrow short-let economics)
 18. TW (reciprocity-list-based; nationality determines eligibility — verify BOCA list)
-19. SA (Mecca/Medina constitutional Muslim-only ownership; Real-Estate-Owner Premium Residency requires SAR 4M; verify with Premium Residency Center / Real Estate General Authority)
+19. SA (Makkah/Madinah individual ownership Muslim natural persons only (RD M/14 art. 2(4)); Real-Estate-Owner Premium Residency requires SAR 4M; verify with Premium Residency Center / Real Estate General Authority)
 20. QA (foreigners limited to designated freehold zones — Pearl-Qatar / West Bay Lagoon / Lusail; rest leasehold; verify with MoJ Real Estate Registration)
 21. PE (border 50km Andean restriction per Constitution Art. 71 — foreigners need Supreme Decree authorization for border zones)
 22. EC (open generally but **2024 Internal Armed Conflict Declaration** requires extra title-due-diligence in conflict-affected provinces — Guayaquil/Esmeraldas/Manta)
@@ -202,9 +202,9 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 2. BE (~12-17% Brussels/Wallonia)
 3. ES (~10-13% existing)
 4. PH (~10% — CGT 6% gross + DST 1.5% + transfer + LTT)
-5. IL (~6-10% Mas Rechisha tiered + non-resident surcharge)
+5. IL (~10-13% non-resident all-in est. per il/playbook.md, driven by 8-10% Mas Rechisha — a temporary provision extended to purchases up to and including 10 Feb 2027)
 6. AT (~10-12%)
-7. GR (~10-12%; watch — ANNOUNCED, NOT LEGISLATED (90th TIF, Sep 2026): FMA 3.09% → 15.45% for non-EU/EEA natural-person home buyers who are not ομογενείς or long-term residents, intended from 1 Jul 2027 — see GR playbook)
+7. GR (~10-12%; watch — DRAFT BILL IN CONSULTATION, NOT LEGISLATED (90th-TIF bill, Oct 2026): FMA 3.09% → 15.45% on homes bought by natural persons tax-resident outside the EU/EEA, from 1 Jul 2027 per the draft — see GR playbook)
 8. UK (~10-15% with SDLT non-res surcharge)
 9. UY (~7-9%)
 10. ZA (~7-9% transfer duty tiered)
@@ -213,7 +213,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 13. TR (~6-8% — 4% tapu + notary + agent)
 14. JP (~6-7% — registration + acquisition tax + agent up to 3% + 6万円)
 15. SG (BSD 1-6% + ABSD 60% non-resident + agent + legal — non-resident total can reach **65-70%+** vs ~3-7% citizen)
-16. HK (AVD up to 4.25% + BSD 15% non-PR + Special Stamp Duty if <3 yrs — non-PR surcharges material; partial cooling-measure rollback Oct 2023-2024 — verify IRD)
+16. HK (~3-6% typical all-in per hk playbook — AVD Scale 2 only, same for every buyer since the BSD / SSD / NRSD abolition of 28 Feb 2024; HK$100 flat up to HK$4M, 6.5% top band above HK$109,574,470 since 26 Feb 2026 — IRD AVD FAQ)
 17. KR (~6-8% — acquisition tax 1-3% sliding by price + 0.2% local + agent ~0.4-0.9% + reg fee 0.6-1.5%)
 18. TW (~6-8% — deed tax 6% + agent 1-2% + reg + Land Value Increment Tax buyer-side rare)
 19. MC (~10-12% — 4.5% droits d'enregistrement + notary 1.5% + agent 3% + 20% TVA on agent fee — verify Direction des Services Fiscaux)
@@ -238,9 +238,9 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 11. MO (no annual property tax for residential; rental income subject to Property Tax 6-10% on rental net only)
 12. SG (Property Tax 0-32% progressive on Annual Value, owner-occupied 0-23% — modest effective % vs price for owner-occupiers; non-residential and investment higher)
 13. QA (no annual property tax for residential owner-occupiers; service charges per Pearl/Lusail master-plan only; verify with MME / MoJ)
-14. SA (no annual property tax for owner-occupiers; **White Land + Vacant Property Fees up to 10%/yr, banded 10/7.5/5/2.5/nil by urban-development priority zone, on undeveloped urban plots ≥5,000 m²** (Royal Decree M/4 1437 AH as amended 2025; executive regulation 22 Aug 2025))
+14. SA (no annual property tax for owner-occupiers; **White Land + Vacant Property Fees up to 10%/yr, banded 10/7.5/5/2.5/nil by urban-development priority zone, on undeveloped urban plots ≥5,000 m²**, and in announced zones only (none as at 2026-10-21) on long-vacant buildings up to 5% of value (Royal Decree M/4 1437 AH as amended 2025; executive regulations 22 Aug 2025 and 15 May 2026))
 15. PY (very low annual immobiliario; flat ~1% on register-value but register-value typically ~10-30% market — effective <0.3%)
-16. AM (low annual property tax — sliding 0-1% on cadastre value, exempt under AMD 3M threshold; verify SRC)
+16. AM (low annual property tax — progressive 0.05–1.5% marginal rates on cadastral value, 1.5% only above AMD 200M (Tax Code Art. 229); exemptions per Art. 230; verify SRC)
 
 ### Highest annual carry
 1. FR (taxe foncière + redevance audiovisuelle, dependent on commune)
@@ -307,17 +307,17 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 3. TR CBI (USD 400k property — citizenship, retain 3y)
 4. GE Investor Residency (USD 300k property — 5-yr, path to permanent)
 5. DO Investor Residency (USD 200k minimum via company / incentive-regime investment per DGM; direct property purchase not listed as a route — verify with DGM; CONFOTUR zones can shave taxes)
-6. PH SRRV (USD 10-50k deposit depending on age — retiree visa, not strictly RBI)
+6. PH SRRV (Classic USD 15-50k deposit depending on age and pension status — retiree visa, not strictly RBI)
 7. TH LTR — 4 categories (no fixed property threshold; passive-income or wealth route)
 8. MY MM2H (post-2024 reform: tiers USD 150k / 500k / 1M deposit + compulsory residence ≥ RM 600k / 1M / 2M)
 9. CY (€300k PR — distinct from ended CBI)
 10. MT MPRP (€375k lease/€750k purchase + fees)
-11. PA (Friendly Nations $200k / Qualified Investor $300k)
-12. LV (€250k Riga radius, built only)
-13. ID 2nd Home Visa (IDR 2B funds, 5-10 yr; not strictly property-tied)
+11. PA (Friendly Nations $200k / Qualified Investor $300k first-sale from the developer or $500k resale — Executive Decree 17/2026, in force 16 Sep 2026)
+12. ~~LV (€250k Riga radius, built only)~~ — real-estate route ENDED 15 Sep 2026 (new Immigration Law, PMLP); only the company-equity route (€50k / €100k + €10,000 state-budget payment) remains
+13. ID 2nd Home Visa (E33: US$130k state-bank deposit OR rumah susun / apartemen ≥ US$1M; first permit up to 5 yr, total ≤ 10 yr)
 14. EG (PM Decree 3099/2019 investor routes — state real-estate tier USD 500,000 per GAFI form vs USD 300,000 per US State Dept 2025 ICS; outcome citizenship vs permanent residency unreconciled)
-15. CO Migratorio M (350× SMLMV ≈ USD 195k property route at 2026 SMLMV + TRM 3,144.14)
-16. UY (no formal RBI; tax-residency 11-yr exemption is the actual draw)
+15. CO Migratorio M (350× SMLMV ≈ USD 194k property route at 2026 SMLMV + TRM 3,163.76, 2026-10-21)
+16. UY (no formal RBI; the draw is the IRNR election on foreign capital income for the year of change + 10 years — from 2026 it needs more than UI 12.5M in real estate, at least UI 625k a year in qualifying funds, or 183 days a year, Ley 20.446 art. 648)
 17. CL (no formal RBI; investor-visa via Sociedad)
 18. **HK CIES reactivated Mar 2024** — HK$30M total + ≤HK$10M residential (Investments Office, ImmD)
 19. **AD Residència Passiva** — ~€600k OR €350k + €50k AFA deposit (passive ≥90d/yr)
@@ -332,7 +332,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 28. **AZ TRP via real estate** — ≥AZN 100k (~USD 60k) → 1yr renewable to 5+; PR after 8yr continuous TRP; Strategic Investor Visa AZN 540k priority sectors
 29. **PY Resolución SET 1186/2023 reformed PR** — formerly cheapest formal RBI (~USD 5,200) → now USD 70k SUACE business invest OR active SET RUC; citizenship 3yr continuous PR
 30. **PE Investor Visa** — USD 30k BUSINESS activity (NOT real-estate exclusively) / **Rentista USD 1,500/mo passive**; PR after 3yr; passport after 2yr PR
-31. **EC Investor Visa** — USD 42,500 (~100×SBU 2026 SBU USD 470/mo) / **Pensioner Visa USD 1,500/mo**; PR after 21mo Temporary; naturalization 3yr PR
+31. **EC Investor Visa** — USD 48,200 (100×SBU at 2026 SBU USD 482/mo) / **Pensioner Visa USD 1,500/mo**; PR after 21mo Temporary; naturalization 3yr PR
 32. **TN Investor Residence Permit** — ≥TND 1M (~USD 320k); **Tunisia Investor Visa drafted 2024 NOT gazetted** — verify gazette status
 33. **IN — NO golden-visa via real estate (UNIQUE absence)**; OCI lifetime multi-entry for Indian-origin descendants only; foreign-buyer residential ban for non-NRI/non-OCI per FEMA 2018 Sch.I
 34. **NG — NO golden-visa via real estate**; STR-1 Investor visa USD 100k business is the practical pathway; naturalization 15+yr + Nigerian language + dual NOT allowed for native-born
@@ -345,7 +345,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 
 ### Cleanest 2026 tax reforms (helpful for buyers)
 1. CY (Comprehensive Tax Reform 1 Jan 2026 — CGT exemptions raised, SDC abolished)
-2. LU (Bëllegen Akt €40k credit per person made permanent)
+2. LU (Bëllegen Akt €40k credit per person made permanent; raise to €45k for deeds from 16 Jul 2026 pending in bill n°8806, not voted as of 21 Oct 2026)
 3. MT (UCA / vacant 0% on first €750k Jan 2025–Dec 2026)
 4. PT (IFICI replaced NHR — narrower but operational)
 5. LT (NTM 2026 progressive on non-main with main-dwelling threshold ≥€450k)
@@ -366,16 +366,16 @@ When comparing, surface country-level structural flags:
 - 🚩 RO: AMCCRS pre-1977 Bucharest Rs I class — insurance/mortgage refusal
 - 🚩 PA: 10km border restriction (constitutional)
 - 🚩 GR: Golden Visa thresholds vary by zone; "where" matters more than "how much"
-- 🚩 BG: non-EU cannot own ANY land directly
+- 🚩 BG: non-EU/EEA buyers cannot own land directly (only by treaty or inheritance by law) — buildings and apartments OK
 - 🚩 RO: non-EU cannot own land (buildings only)
 - 🚩 IT: non-resident purchase tax 9% vs resident 2% (cadastral)
 - 🚩 TH: condo 49% foreign-quota cap per building — title verification at Land Office mandatory
 - 🚩 PH: condo 40% foreign-quota cap per project — Master Deed must show available foreign allocation
 - 🚩 VN: 50-yr leasehold + 30%-units-per-building / 250-houses-per-ward foreign quotas (2024 Land Law)
 - 🚩 ID: Hak Milik freehold not available to foreigners — Hak Pakai or PMA structures only; nominee arrangements legally void
-- 🚩 MY: state-level minimum thresholds for foreigners (MYR 500k-2M depending on state and tier — see my/playbook.md) + foreigner MOT stamp duty flat 8% from 1 Jan 2026 (Budget 2026, per my/playbook.md — verify at LHDN)
+- 🚩 MY: state-level minimum thresholds for foreigners (MYR 500k-2M depending on state and tier — see my/playbook.md) + foreigner MOT stamp duty flat 8% on residential property for SPAs from 1 Jan 2026 (Finance Act 2025, Stamp Act item 32(ab); see my/playbook.md)
 - 🚩 IL: ~93% land is state-owned (RMI / Israel Land Authority) — most "purchases" are 49/98-yr capitalised leaseholds, not freehold
-- 🚩 IL: war-zone insurance via Karnit (state-backed compensation fund) — privates not always reachable for missile-impact zones
+- 🚩 IL: war and hostile-act damage is compensated by the Israel Tax Authority Compensation Fund (Property Tax and Compensation Fund Law 5721-1961 — statutory state compensation, not insurance; Karnit is the separate road-accident victims' fund) — private insurers not always reachable for missile-impact zones
 - 🚩 TR: military-restricted-zone clearance required — title transfer can be blocked even after deposit
 - 🚩 TR: reciprocity list — buyer's nationality determines eligibility (some nationalities barred)
 - 🚩 AE: foreign ownership only in designated freehold zones (Dubai/Abu Dhabi-specific lists); leaseholds elsewhere
@@ -388,13 +388,13 @@ When comparing, surface country-level structural flags:
 - 🚩 JP: foreign mortgage extremely limited (Shinsei/SBI only; large down-payment); cash-buy is the norm
 - 🚩 JP: shakkan / akiya (vacant-house) stock can carry undisclosed cleanup/demolition liabilities — pre-1981 builds also fail current seismic code
 - 🚩 DO: CONFOTUR (tourism-zone) properties can waive transfer + IPI taxes for 15 yr — verify project's CONFOTUR registration before closing
-- 🚩 CO: predial varies by municipio + estrato (socio-economic strata 1-6); dual cadastre (catastro multipropósito) rollout mid-2026
+- 🚩 CO: predial varies by municipio + estrato (socio-economic strata 1-6); catastro multipropósito is a multi-year rollout done municipio by municipio, with no single national date (IGAC 2022-2026 empalme balance, 27 Jul 2026: 369 municipios / 41.34% of the national territory formed or updated, 59.1% of the PND 2022-2026 70% goal) — assessed-value and predial jumps arrive when the predio's municipio is formed or updated
 - 🚩 UY: property contracts often denominated in USD, not UYU — confirm currency clause and parallel-rate mechanism
 - 🚩 CL: PE/BO/AR border 10-km restriction (Decree 1939/1977 + DL 1.939); foreigners need presidential authorisation
 - 🚩 US: FIRPTA — non-resident sellers face 15% withholding on gross sale price (not gain) at closing; refund via 1040-NR
 - 🚩 US: state-by-state divergence is the dominant variable — TX no income tax + 2.5% property tax vs CA 1% Prop-13 cap + 13.3% income tax
 - 🚩 SG: **ABSD (Additional Buyer's Stamp Duty) 60% non-resident** — among the highest globally; foreigners barred from landed homes (Restricted Residential Property Act); strata/condo only without SLA approval — verify with IRAS
-- 🚩 HK: **BSD 15% non-PR + AVD up to 4.25%** + Special Stamp Duty if <3 yrs — partial cooling-measure rollback Oct 2023-2024 (verify per IRD); Article 23 (NSL) Mar 2024 sentiment factor for some buyers
+- 🚩 HK: BSD / SSD / NRSD **abolished 28 Feb 2024** — every buyer pays AVD Scale 2 only (top band **6.5%** above HK$109,574,470 for residential instruments executed on or after 26 Feb 2026 — IRD AVD FAQ); Article 23 (NSL) Mar 2024 sentiment factor for some buyers
 - 🚩 KR: **jeonse rental-deposit system** unique risk (post-2022 HUG fraud-crisis reforms); comprehensive real estate tax 종부세 0.5-5% on multi-home owners — among most progressive globally
 - 🚩 TW: 2024 Hualien M7.4 earthquake — seismic disclosure increasingly priced in; reciprocity-list-based foreign-buyer eligibility (verify BOCA list)
 - 🚩 MO: Investment Residence SUSPENDED since 2007 — no residency pathway via property; tourism + casino-economy ~50% GDP creates high cyclicality; concessões 2022 renewed 10yr
@@ -403,7 +403,7 @@ When comparing, surface country-level structural flags:
 - 🚩 LI: quota-based residency (~28 EEA + ~17 third-country/year by lottery) — Lex-Koller-equivalent narrows buyer pool; Personal Residence Programme rare petition only
 - 🚩 MD: **Transnistria scope excluded** from any due-diligence on titles east of Dniester; CBI ENDED via Law 100/2020; Investor Residency Law 200/2010 (€250k) is the practical track; Romanian-citizenship-by-descent → EU passport path commonly used in parallel
 - 🚩 QA: foreigners limited to **designated freehold zones** (Pearl-Qatar / West Bay Lagoon / Lusail); rest leasehold; **NO citizenship-by-investment** (Law 38/2005); 88% expat population creates dependency-on-residency dynamics; **2018/2021/2024 Doha storm-surge floods + extreme heat 45°C+ + sandstorms** material to disclosure
-- 🚩 SA: **Mecca/Medina Muslim-only ownership** constitutional restriction — non-Muslim foreigners barred from Holy Cities real estate entirely; **Vision 2030 mega-projects (NEOM, Qiddiya, Diriyah, Red Sea, AlUla, Roshn)** drive employment but creates concentration risk; Premium Residency Real-Estate-Owner threshold SAR 4M; **2009/2011 Jeddah catastrophic floods + 50°C+ summer + sandstorms + drought + groundwater depletion**
+- 🚩 SA: **Makkah/Madinah: individual ownership limited to Muslim natural persons** (RD M/14 art. 2(4)) — Saudi-incorporated companies with foreign shareholders may own inside the designated scope incl. the two cities (exec. reg. art. 8(3)), listed companies / funds under CMA rules (art. 4); **Vision 2030 mega-projects (NEOM, Qiddiya, Diriyah, Red Sea, AlUla, Roshn)** drive employment but creates concentration risk; Premium Residency Real-Estate-Owner threshold SAR 4M; **2009/2011 Jeddah catastrophic floods + 50°C+ summer + sandstorms + drought + groundwater depletion**
 - 🚩 PE: **border 50km Andean restriction (Constitution Art. 71)** — foreigners need Supreme Decree authorization for border-zone property; **Pacific Ring of Fire HIGH seismic + tsunami coastal + 2017/2023 El Niño catastrophic floods + huaicos + volcanic Misti/Ubinas/Sabancaya south**; Lima STR Decree 001-2023 + Lima Miraflores/Barranco regs
 - 🚩 EC: **2024 Internal Armed Conflict Declaration** — violent crime peaks Guayaquil/Esmeraldas/Manta (Quito/Cuenca relatively safer); **Pacific Ring seismic (2016 Pedernales M7.8) + Cotopaxi volcano active 2024 + Galapagos rising sea-temp**; **USD-dollarized since 2000** (no native currency — political-economy reversion-risk overhang); STR Decreto 042-2020 Quito
 - 🚩 PY: **Resolución SET 1186/2023 reformed PR** — formerly cheapest RBI (~USD 5,200) now USD 70k SUACE business invest; **Río Paraguay flooding catastrophic 2014-15/2018/2019/2024 + Cerrado/Chaco wildfires 2019-20/2024 + drought**; **Itaipú/Yacyretá #2 net electricity exporter** (cheap energy attracts data centers but also water-rights tensions); border 50km restriction Ley 2532/2005
@@ -549,7 +549,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Foreign access to land | Yes (freehold) | NO (condo 49% quota only) | NO (condo 40% quota only) |
 | Total acquisition cost | ~6-7% | ~6-8% | ~10% |
 | Annual carry | 1.4% + 0.3% on assessed | 0.01-0.7% L+B | RPT munisipal — modest |
-| Retiree visa | None RBI; "Investor" requires active business | LTR (4 cat — passive-income route) | SRRV (USD 10-50k deposit by age) |
+| Retiree visa | None RBI; "Investor" requires active business | LTR (4 cat — passive-income route) | SRRV (Classic USD 15-50k deposit by age and pension) |
 | English usability | LOW outside Tokyo/Osaka | MEDIUM (tourist zones) | HIGH (lingua-franca) |
 | Currency stability | JPY weak vs USD/EUR 2024-26 — buyer tailwind | THB managed | PHP EM-volatile |
 | Climate trajectory | Rising heat + typhoon north-shift | Rising heat + flood (BKK) | Typhoon-belt + sea-rise |
@@ -573,7 +573,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 
 🥇 **CY** for clean tax-residence pivot with EU-passport upside (after long stay) + post-2026 reform clarity
 🥈 **AE** for fast-track 10-yr Golden Visa + zero income tax — at cost of EU access and lower liquidity in resale
-🥉 **IL** only for Jewish applicants (Aliyah-eligible) willing to accept war-zone insurance via Karnit + leasehold dominant tenure
+🥉 **IL** only for Jewish applicants (Aliyah-eligible) willing to accept war-zone risk (damage compensated by the Israel Tax Authority Compensation Fund, not Karnit) + leasehold dominant tenure
 
 **Confidence**: MEDIUM — CY 2026 tax-reform details still being clarified by Inland Revenue; AE Golden Visa thresholds stable since 2022; IL war-risk is dynamic.
 
@@ -585,15 +585,15 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Total acquisition cost | ~5-6% | ~6-8% (incl. fideicomiso setup) | ~5-6% |
 | Annual carry | Predial municipio + estrato | Predial municipio | IBI escalating brackets |
 | CGT | 15% ganancia ocasional | 25-35% on gain (or 25% gross option) | 3% + 10% capital gains structure |
-| Digital-nomad/RBI route | Migratorio M (350× SMLMV) | RNE / Temporary Resident | Friendly Nations USD 200k / Qualified Investor USD 300k |
+| Digital-nomad/RBI route | Migratorio M (350× SMLMV) | RNE / Temporary Resident | Friendly Nations USD 200k / Qualified Investor USD 300k first-sale / USD 500k resale |
 | Climate | Andean mild | Coastal hurricane belt (Pacific + Caribbean) | Caribbean+Pacific dual-coast hurricane fringe |
 | FX risk | COP EM-volatile | MXN EM-volatile | USD-denominated economy (no FX risk for USD buyers) |
 
 🥇 **PA** for USD-base investor wanting simplest visa + zero FX risk + Friendly Nations or Qualified Investor pathway
-🥈 **CO** for cheaper entry, moderate climate, but 2026 catastro-multipropósito rollout creates assessed-value uncertainty
+🥈 **CO** for cheaper entry, moderate climate, but the multi-year, municipio-by-municipio catastro-multipropósito rollout creates assessed-value uncertainty
 🥉 **MX** for buyer accepting fideicomiso friction in exchange for deeper market and proximity to US
 
-**Confidence**: MEDIUM — PA Qualified Investor program threshold verified Q1 2026; CO catastro reform cadence per municipio is uneven.
+**Confidence**: MEDIUM — PA Qualified Investor thresholds re-verified 2026-10-21 against Executive Decree 17 of 8 Sep 2026 (Gaceta Oficial 30613, in force 16 Sep 2026); CO catastro reform cadence per municipio is uneven.
 
 ### Example D — GE vs PT vs CY for EU-adjacent low-tax base
 
@@ -603,7 +603,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Foreign-buyer access | Open, fastest registration globally (<1 day) | Open (NIF only) | Open |
 | Acquisition cost | ~0.1-0.5% | ~7-8% (IMT + stamp + notary) | ~8-10% |
 | Annual property tax | Income-gated (only above GEL 40k household income) | IMI 0.3-0.45% | Municipal small |
-| CGT | None after 2-yr hold | 28% non-residents (50% inclusion residents) | Exempt above raised 2026 thresholds |
+| CGT | None after 2-yr hold | 50% of gain at progressive IRS rates — residents and, since 2023, non-residents | Exempt above raised 2026 thresholds |
 | Tax residency draw | Territorial — 1% small-business / 20% personal | IFICI replaced NHR (narrower) 2024+ | 60-day rule + non-dom 17 years |
 | Visa | Investor USD 300k property | D7/D8 (income-based, not property) | PR €300k property |
 | Risk | Russia border + currency exposure (GEL) | EU stability | TRNC title trap; banking-sector overhang |
@@ -619,8 +619,8 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Metric | SG | HK | MO |
 |---|---|---|---|
 | EU member? | NO (city-state) | NO (HK SAR China) | NO (MO SAR China) |
-| Foreign-buyer access | Strata only without SLA approval; **ABSD 60% non-resident** | Open + **BSD 15% non-PR + AVD up to 4.25%** | Open but Investment Residence SUSPENDED 2007 |
-| Total acquisition cost | **65-70%+ for non-residents** (BSD + ABSD + agent + legal); **3-7% citizen** | ~20-25% non-PR (AVD + BSD 15%); ~5-10% PR | ~5-8% (post-stamp duty + agent) |
+| Foreign-buyer access | Strata only without SLA approval; **ABSD 60% non-resident** | Open; **AVD Scale 2 only, same for every buyer** (BSD / SSD / NRSD abolished 28 Feb 2024; 6.5% top band above HK$109,574,470 since 26 Feb 2026) | Open but Investment Residence SUSPENDED 2007 |
+| Total acquisition cost | **65-70%+ for non-residents** (BSD + ABSD + agent + legal); **3-7% citizen** | ~3-6% typical for every buyer (AVD Scale 2 + agent + legal; hk playbook) | ~5-8% (post-stamp duty + agent) |
 | Annual property tax | Property Tax 0-23% on AV (owner-occupier) / up to 32% non-occupied | Rates ~5% on Rateable Value + Property Tax 15% on rental | None on residential; 6-10% Property Tax on rental net |
 | CGT | NONE | NONE for individuals (Profits Tax doesn't apply to personal capital gains) | NONE on personal property gain |
 | Personal income tax | Resident 0-22% progressive; foreign-source generally NOT taxed in SG | Salaries Tax 2-17% progressive / 15% standard; territorial — HK-source only | Macao Professional Tax territorial — MO-source only |
@@ -638,7 +638,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 
 | Metric | KR | TW |
 |---|---|---|
-| Foreign-buyer access | Open (Foreigner's Land Acquisition Act notification only) | Reciprocity-list-based — verify BOCA list per nationality |
+| Foreign-buyer access | Open outside permit zones; prior permission + 2-yr residence duty for housing in Seoul, 23 Gyeonggi 시·군 and 9 Incheon 자치구 (foreigner 토지거래허가구역, to 25 Aug 2027) | Reciprocity-list-based — verify BOCA list per nationality |
 | Total acquisition cost | ~6-8% (acquisition tax 1-3% sliding by price + 0.2% local + agent + reg fee) | ~6-8% (deed tax 6% + agent 1-2% + reg) |
 | Annual carry | jaesanse 0.1-0.4% + comprehensive real estate tax 종부세 0.5-5% on multi-home owners | House Tax 1.5-3.6% by use + Land Value Tax 1-5.5% |
 | CGT | Separate 6-45% + multi-home top rate up to 75% | AMT regime on foreign-source >NT$7M; 6% surtax on certain investment income |
@@ -701,7 +701,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 |---|---|---|---|
 | Personal income tax | **NONE** for individuals (corporate ~10%) | **NONE** for individuals (Saudi Zakat 2.5% / corporate 20% non-Saudi) | **NONE** for individuals (corporate 9% above AED 375k) |
 | CGT on resale | NONE | NONE | NONE |
-| Foreign-buyer access | Designated freehold zones only (Pearl-Qatar / West Bay Lagoon / Lusail) | Mecca/Medina constitutional Muslim-only; Premium Residency Real-Estate-Owner SAR 4M minimum | Designated freehold zones only (Dubai Designated Areas + Abu Dhabi investment zones) |
+| Foreign-buyer access | Designated freehold zones only (Pearl-Qatar / West Bay Lagoon / Lusail) | Makkah/Madinah individual ownership Muslim natural persons only (RD M/14 art. 2(4)); Premium Residency Real-Estate-Owner SAR 4M minimum | Designated freehold zones only (Dubai Designated Areas + Abu Dhabi investment zones) |
 | Visa pathway | **Investor Residency Law 21/2018 ≥QAR 730k → 5yr renewable**; PR Law 10/2018 ≥QAR 1M (capped ~100/yr); **NO CBI** | **Premium Residency Vision 2030** SAR 800k one-time / SAR 100k/yr / SAR 4M Real-Estate-Owner | **Golden Visa AED 2M property → 10yr renewable** |
 | Population | ~3.05M (12% Qatari + 88% expat) | ~36.4M (63% Saudi + 37% expat) | ~10.2M (~88% expat) |
 | Currency | QAR pegged USD 3.64 since Jul 2001 | SAR pegged USD 3.75 since Jun 1986 | AED pegged USD 3.6725 |
@@ -722,7 +722,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | EU member? | NO (CSTO suspension Feb 2024 — geopolitical pivot in flight) | NO |
 | Foreign-buyer access | Open (equal rights non-citizens per Land Code Art. 4); agricultural and protected land restricted | Open subject to TRP / Strategic Investor; agricultural and border-zone restricted |
 | Total acquisition cost | ~3-5% (State Registry + notary + agent) | ~5-8% (registration + notary + agent) |
-| Annual carry | Sliding 0-1% on cadastre value, AMD 3M threshold exempt | Modest property tax sliding by region |
+| Annual carry | Progressive 0.05–1.5% marginal rates on cadastral value, 1.5% only above AMD 200M (Tax Code Art. 229); exemptions per Art. 230 | Modest property tax sliding by region |
 | CGT | Within personal-tax regime (flat 21% PIT 2026 on residents) | Within progressive 14-25% PIT |
 | Visa pathway | **Investor Residency AMD 50M (~USD 130k) deposit OR property → 5yr renewable**; **Citizenship by descent (Diaspora) Art. 13 streamlined**; naturalization 3yr + dual since 2007 | **TRP via real estate ≥AZN 100k (~USD 60k) → 1yr renewable to 5+**; PR after 8yr; Strategic Investor AZN 540k; **dual citizenship LIMITED** |
 | Climate | Continental Yerevan -3 to +3°C / 28-35°C; **HIGH SEISMIC 1988 Spitak M6.8 baseline** | Caspian-moderate Baku 4-10°C / 27-33°C; **Caucasus + Caspian seismic + Absheron mud volcanoes (unique)** |
@@ -743,7 +743,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Total acquisition cost | ~7-10% (alcabala 3% + notary + Registros Públicos + agent) | ~7-10% (alcabala 1% + registry + notary + IVA 15% on services) | ~3-5% (ITBI ~1.5% + notarial + registration; among lowest LatAm) |
 | Annual carry | Sliding municipal predial | Sliding municipal predial | Very low ~1% on register-value (effective <0.3%) |
 | Pension tax | Worldwide for residents (>183 days); progressive 8-30%; foreign-source pre-arrival potentially exempt Art. 6 LIR | Worldwide for residents (>183 days); progressive 5-37%; potentially exempt Art. 9 LRTI if treaty | **Territorial PIT** — foreign-source NOT subject to PY IRP; flat 8/9/10% on PY-source only |
-| Visa pathway | **Investor Visa USD 30k BUSINESS** (NOT real-estate exclusively) / **Rentista USD 1,500/mo passive** | **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 42,500** (~100×SBU 2026 SBU USD 470/mo) | **SET 1186/2023 reformed PR** — formerly USD 5,200 → now USD 70k SUACE business OR active SET RUC |
+| Visa pathway | **Investor Visa USD 30k BUSINESS** (NOT real-estate exclusively) / **Rentista USD 1,500/mo passive** | **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 48,200** (100×SBU at 2026 SBU USD 482/mo) | **SET 1186/2023 reformed PR** — formerly USD 5,200 → now USD 70k SUACE business OR active SET RUC |
 | Path to citizenship | PR 3yr → passport 2yr PR | Naturalization 3yr PR | Citizenship 3yr continuous PR |
 | Currency | PEN BCRP-managed; USD-pricing common Lima Miraflores | **USD-dollarized since 2000** — no native currency | PYG BCP-managed; USD widely accepted Asunción |
 | Climate | Lima 16-26°C year-round (Pacific cool current); **HIGH seismic + tsunami + 2017/2023 El Niño** | Quito/Cuenca altitude-moderated 10-22°C; **Pacific Ring + Cotopaxi 2024 active** | Asunción humid subtropical 14-34°C; **Río Paraguay floods 2014-15/2018/2019/2024 + Cerrado wildfires** |
@@ -769,7 +769,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Climate | Tunis Mediterranean 11-32°C; **2018 Cap Bon floods + 2023-24 record drought + APAL coastal erosion** | Marrakech 18-22°C winter; Atlantic coast cooler | Hurghada/Sahel 18-35°C; very dry; summer extreme |
 | Expat density | Moderate FR/IT/DE/UK (FR cultural ties strong) | FR retirees dominant; UK/DE growing | RU/UA/DE/UK; **EGP currency volatility material** post-2024 devaluation |
 | Healthcare | CNAM + private (French-system); **medical-tourism destination** | AMO (2024-2026 expansion) + private (French-system) | New Universal Health Insurance (2018 phased); medivac for serious cases |
-| FX repatriation | Office des Changes documentation required (similar MA-style friction) | Office des Changes mandatory for repatriation | Form 4 mandatory for USD repatriation — without it, EGP-only exit during devaluation |
+| FX repatriation | Office des Changes documentation required (similar MA-style friction) | Garantie de transfert only with foreign-currency financing (IGOC 2026); otherwise non-resident sale proceeds leave in four annual 25 % tranches | Form 4 mandatory for USD repatriation — without it, EGP-only exit during devaluation |
 | Macro | **IMF EFF program SUSPENDED Mar 2024** | Stable | EGP devaluation cycles 2022-2024 |
 
 🥇 **MA** for cleanest acquisition stack + 80% abatement on foreign pension + established FR/UK/DE retiree communities (Marrakech / Essaouira / Tangier / Agadir); accept agricultural-land bar + `titré`-only-safely-transferable rule

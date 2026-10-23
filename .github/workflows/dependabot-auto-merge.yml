@@ -151,8 +151,9 @@ jobs:
         if: steps.relock.outputs.changed == 'true'
         env:
           # A PAT, not GITHUB_TOKEN: checks on a GITHUB_TOKEN push wait for manual
-          # approval. Dependabot-triggered runs read only the Dependabot secret store.
-          GH_TOKEN: ${{ secrets.RELOCK_TOKEN }}
+          # approval. Dependabot-triggered runs read only the Dependabot secret store,
+          # where AUTOMERGE_TOKEN already lives (fine-grained, this repo, Contents RW).
+          GH_TOKEN: ${{ secrets.AUTOMERGE_TOKEN }}
           HEAD_REF: ${{ github.head_ref }}
         # `[dependabot skip]` lets Dependabot keep rebasing over this commit; each
         # rebase re-triggers this job. After this push the PR's checks run as the PAT
@@ -161,7 +162,7 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "$GH_TOKEN" ]; then
-            echo "::error::RELOCK_TOKEN is missing from the Dependabot secret store (fine-grained PAT, this repo only, Contents read/write)."
+            echo "::error::AUTOMERGE_TOKEN is missing from the Dependabot secret store (fine-grained PAT, this repo only, Contents read/write)."
             exit 1
           fi
           git -c user.name='github-actions[bot]' \

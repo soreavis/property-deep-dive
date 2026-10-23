@@ -40,8 +40,8 @@ For the property's country, return:
 | Country | Regime | Threshold / conditions |
 |---|---|---|
 | **PT** | **IFICI / NHR 2.0** (replaced classic NHR, closed to new entrants 1 Jan 2024 by Lei 82/2023) — research/innovation only; **pensions NO LONGER exempt under IFICI** (must pay PT progressive PIT) | EQF L6+ degree, scientific research / certified tech startup / export co only |
-| **GR** | **Foreign Pensioner Tax Regime** — 7% flat on foreign-source income for 15 years for new tax residents who haven't been GR tax resident in 5 of last 6 years | Application via AADE; 7% covers worldwide income |
-| **IT** | **Southern Italy 7% regime** — flat 7% for 9 years on foreign-source income for retirees moving to municipalities <20,000 pop in S Italy | First-time tax residency in IT in last 5 years |
+| **GR** | **Foreign Pensioner Tax Regime** — 7% flat on foreign-source income for 15 years for new tax residents who haven't been GR tax resident in 5 of last 6 years | Apply to AADE (KEFODE Attica / Thessaloniki) by 31 Oct of the arrival year or the next year (AADE A.1192/2026, ΦΕΚ Β' 5767/24.09.2026); must move from a state with a tax administrative-cooperation agreement with GR; 7% covers all foreign-source income, not only the pension (not Greek-source income) |
+| **IT** | **Southern Italy 7% regime** — flat 7% for 9 years on foreign-source income for retirees moving to municipalities ≤30,000 pop in S Italy or in the 2009/2016 earthquake comuni (limit <20,000 until 6 Apr 2026; Agenzia delle Entrate, updated 8 May 2026) | First-time tax residency in IT in last 5 years |
 | **CY** | **17-year non-dom regime** — exempt SDC; foreign pension may be taxed at 5% flat (over €3,420 pa) OR Cyprus marginal rate | Choose annually |
 | **MT** | **MPRP residency** + flat 15% on foreign-remitted income (Maltese non-dom rule) | Min stay requirements |
 | **PA** | **Pensionado program** (most generous LatAm) — US$1,000/mo lifetime pension qualifies; no PA tax on foreign-source income (territorial system) | |
@@ -49,10 +49,10 @@ For the property's country, return:
 | **CR** | **Rentista visa** — US$2,500/mo income; CR doesn't tax foreign-source income for non-residents | |
 | **AE** | **Retirement Visa (5-yr renewable)** — NO income/pension tax; territorial system; Federal Decree-Law 47/2022 introduced 9% corporate tax but personal income (incl. foreign pensions) remains untaxed | Age 55+; AED 1M property OR AED 1M savings OR AED 20k/mo income (verify 2026 thresholds at GDRFA) |
 | **TH** | **LTR Wealthy Pensioner** — flat 17% on assessable income (most categories); foreign-source income remitted to TH may be taxable post-2024 reform — verify with Revenue Dept | Age 50+; USD 80k/yr passive income OR USD 40-80k + USD 250k investment |
-| **PH** | **SRRV (Special Resident Retiree's Visa)** — foreign pension NOT taxed by PH; territorial-style for non-resident-source income | Age 35+ (some classes); USD 10k–50k deposit depending on age/pension status |
+| **PH** | **SRRV (Special Resident Retiree's Visa)** — foreign pension NOT taxed by PH; territorial-style for non-resident-source income | Age 40+ (since Aug 2025); Classic USD 15k–50k deposit depending on age/pension status |
 | **MY** | **MM2H (Malaysia My Second Home)** — foreign-source income exempt under territorial principle (post-2022 amendments narrowed for residents — verify) | Silver/Gold/Platinum + SEZ/SFZ; FD USD 150k–1M (SEZ/SFZ USD 32k–65k) + compulsory residence purchase (2026 data, source MOTAC) |
 | **DO** | **Investor/Pensionado visa** — foreign pension exempt from DO tax; territorial system; 50% discount on transfer tax + property tax under retirement law | USD 1.5k/mo pension OR USD 200k investment route |
-| **UY** | **Tax residency** — 11-yr exemption on foreign-source interest+dividends (Ley 19.937); pension itself not exempt but progressive PIT modest; territorial-leaning | Investment OR 60-day physical presence routes |
+| **UY** | **Tax residency** — IRNR election on foreign capital income for the year of change + 10 years (Ley 19.904 for 2020-2025 residents; Ley 20.446 art. 648 from 2026 with investment or 183-day conditions); pension itself not exempt but progressive PIT modest; territorial-leaning | Investment OR 60-day physical presence routes |
 | **GE** | **Visa-free 1-year** for ~95 nationalities; territorial tax — foreign-source income not taxed | No formal retirement visa needed for most |
 | **EG** | **PM Decree 3099/2019 investor route** (outcome unreconciled: GAFI citizenship / US State Dept 2025 ICS permanent residency) — foreign-source pension generally not taxed by EG (territorial application varies) | USD 250k non-refundable Treasury contribution (GAFI form) |
 | **HK** | **Salaries Tax territorial — HK-source income only**; foreign pension generally NOT taxed; no global PIT regime | Tax residency by physical presence; pension articles in DTA network |
@@ -68,7 +68,7 @@ For the property's country, return:
 | **SA** | **NO personal income tax** for individuals (Saudi PIT regime is GCC-citizen Zakat 2.5% + corporate 20% non-Saudi); foreign pension NOT subject to SA PIT | Premium Residency Vision 2030: SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M; verify with ZATCA / Premium Residency Center |
 | **AE** | **NO income/pension tax** (already listed above — repeated for tier-4 cross-reference) | (see AE Retirement Visa row) |
 | **PE** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive PIT (2026: 8-30%); but foreign-source income earned BEFORE arrival can be claimed as non-taxable per Art. 6 LIR — verify with SUNAT | Investor Visa USD 30k BUSINESS activity (NOT real-estate exclusively); Rentista USD 1,500/mo passive; PR after 3yr continuous; passport after 2yr PR |
-| **EC** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive PIT (2026: 5-37%) but foreign pension may be exempt under Art. 9 LRTI if double-tax treaty + source-country pension already taxed; verify with SRI | Pensioner Visa USD 1,500/mo; Investor Visa USD 42,500 (~100×SBU 2026 SBU USD 470/mo); PR after 21mo Temporary; naturalization 3yr PR |
+| **EC** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at progressive PIT (2026: 5-37%) but foreign pension may be exempt under Art. 9 LRTI if double-tax treaty + source-country pension already taxed; verify with SRI | Pensioner Visa USD 1,500/mo; Investor Visa USD 48,200 (100×SBU at 2026 SBU USD 482/mo); PR after 21mo Temporary; naturalization 3yr PR |
 | **PY** | **Territorial PIT** — foreign-source pension NOT subject to PY IRP (Impuesto a la Renta Personal) for non-PY-source income; flat 8/9/10% PIT regime on PY-source only | Resolución SET 1186/2023 reformed PR — USD 70k SUACE business invest OR active SET RUC; citizenship 3yr continuous PR |
 | **AM** | **Worldwide income for tax residents** (>183 days); foreign pension taxable at flat 21% PIT (2026 — verify SRC); diaspora-repatriation incentives via Law on Foreign Investment | Investor Residency AMD 50M (~USD 130k) deposit OR property → 5yr renewable; Citizenship by descent (Diaspora) Art. 13 streamlined / naturalization 3yr PR + dual since 2007 |
 | **AZ** | **Worldwide income for tax residents** (>182 days); foreign pension taxable at progressive 14-25% PIT (2026 — verify Min. Tax) | TRP via real estate ≥AZN 100k (~USD 60k) → 1yr renewable; PR after 8yr continuous TRP; Strategic Investor Visa AZN 540k priority sectors; naturalization 5yr PR + Azeri language; dual citizenship LIMITED |
@@ -227,7 +227,7 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 - **EG (Hurghada, Sahel, Sharm)** — 18-35°C; very dry; summer extreme
 - **AE (Dubai, Abu Dhabi)** — 18-42°C; **summer 45°C+ near-uninhabitable outdoors May-Sep**
 - **QA (Doha)** — 18-42°C; **summer 45°C+ + sandstorms + 2018/2021/2024 Doha storm-surge floods**; FIFA World Cup 2022 legacy infra (Lusail metro)
-- **SA (Riyadh, Jeddah, Mecca, Medina, NEOM, Red Sea, AlUla)** — 12-45°C; **interior 50°C+ summer + sandstorms + 2009/2011 Jeddah catastrophic floods + drought + groundwater depletion**; Mecca/Medina constitutional Muslim-only; Riyadh Metro Phase 1 Dec 2024
+- **SA (Riyadh, Jeddah, Mecca, Medina, NEOM, Red Sea, AlUla)** — 12-45°C; **interior 50°C+ summer + sandstorms + 2009/2011 Jeddah catastrophic floods + drought + groundwater depletion**; Makkah/Madinah individual ownership Muslim natural persons only (RD M/14 art. 2(4)); Riyadh Metro Phase 1 Dec 2024
 - **TN (Tunis, Sousse, Sfax, Djerba)** — 11-32°C; Mediterranean coast milder; **2018 Cap Bon catastrophic floods + 2023-24 record drought (reservoirs <30%) + APAL coastal erosion**
 - **IN (Mumbai, Delhi NCR, Bengaluru, Goa, Kerala, Pondicherry)** — Mumbai 18-33°C / Delhi NCR 7-43°C / Bengaluru 16-33°C altitude-moderated / Kerala 23-31°C; **Indian monsoon Jun-Sep critical (Mumbai/Kerala flooding); Delhi PM2.5 crisis Oct-Feb annual; Bengaluru water-scarcity 2024+ acute; Joshimath subsidence 2023 + Himalayan flash floods**; cyclone exposure E coast (Chennai/Vizag); Bengaluru/Pune/Goa most retiree-amenable
 - **NG (Lagos, Abuja, Kano)** — Lagos 22-32°C tropical humid + flooding rainy season Apr-Oct / Abuja FCT 18-31°C savanna milder altitude / Kano 13-39°C Sahel hot-arid; **Lagos coastal flooding chronic + Atlantic surge events + Niger-delta climate stress + Sahel drought**
@@ -348,21 +348,21 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 | Country | Program | Threshold |
 |---|---|---|
 | GR | Foreign Pensioner Tax Regime | 7% flat on foreign-source for 15 yrs |
-| IT | Southern Italy 7% regime | 7% flat for 9 yrs (S municipalities <20k pop) |
+| IT | Southern Italy 7% regime | 7% flat for 9 yrs (S municipalities ≤30k pop since 7 Apr 2026) |
 | PT | IFICI (NHR 2.0) | Pensions NO LONGER exempt — narrower scope |
 | PA | Pensionado | $1,000/mo pension; massive discounts on services |
 | CR | Pensionado | $1,000/mo (lifetime pension); Rentista $2,500/mo |
 | MX | Temp/Permanent residency | Income/savings thresholds (UMA-based) |
 | MY | **MM2H (Silver/Gold/Platinum + SEZ/SFZ, post-2024 reform)** | Silver/Gold/Platinum — USD 150k / 500k / 1M fixed deposit + compulsory residence ≥ RM 600k / 1M / 2M; no income requirement on MOTAC category pages (2026 data, source MOTAC) |
 | TH | **LTR Wealthy Pensioner** + Retirement (Non-O) | LTR: USD 80k/yr OR USD 40-80k + USD 250k investment; Non-O: age 50+, THB 800k bank or THB 65k/mo |
-| PH | **SRRV (Special Resident Retiree's Visa)** | USD 10k–50k deposit (most generous SE-Asia); 4 sub-classes |
+| PH | **SRRV (Special Resident Retiree's Visa)** | Classic USD 15k–50k deposit; Classic + Courtesy options only since Aug 2025 |
 | ID | **Retirement KITAP** | Age 55+, USD 1.5k/mo pension proof, health insurance, hire local staff |
 | AE | **Retirement Visa (5-yr renewable)** | Age 55+; AED 1M property OR AED 1M savings OR AED 20k/mo income |
 | TR | **Turquoise Card / Long-stay residence** | No formal retirement program; Turquoise Card via investment route |
 | ZA | **Retired Person Visa** | Pension/income ZAR 37,000/mo (~USD 2k/mo) — verify 2026 threshold at DHA |
 | DO | **Pensionado / Rentista** | USD 1.5k/mo pension OR USD 2k/mo rentista; 50% discount on transfer + property tax |
 | CO | **Migrante M Visa — Pensionado** | MOH-recognized pension >COP 3× SMLMV (COP 5.25M ≈ USD 1,671/mo at the 2026 SMLMV COP 1,750,905 and TRM 3,144.14 — computed) |
-| UY | **Tax residency** (no formal retirement visa) | 11-yr foreign interest+dividend exemption (Ley 19.937) |
+| UY | **Tax residency** (no formal retirement visa) | year of change + 10-yr foreign capital-income holiday (Ley 19.904; Ley 20.446 art. 648 from 2026) |
 | CL | Standard residency | No retirement-specific program; 3-yr foreign-income exemption from arrival |
 | GE | **Visa-free 1 year** | ~95 nationalities; no retirement-specific scheme needed |
 | IL | **Aliyah (Olim)** | Direct citizenship for Jewish ancestry; 10-year tax holiday on foreign income (Amendment 168) |
@@ -380,9 +380,9 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 | LI | **Quota-based** | ~28 EEA + ~17 third-country/year via lottery; Personal Residence Programme rare petition; CH-integrated practice |
 | MD | **Investor Residency Law 200/2010** | €250k 5yr investment → naturalisation eligibility 8yr; CBI ENDED via Law 100/2020; **no formal Digital Nomad Visa as of 2026** |
 | QA | **NO citizenship-by-investment (Law 38/2005)**; **Investor Residency Law 21/2018 ≥QAR 730k → 5yr renewable**; PR Law 10/2018 ≥QAR 1M (capped ~100/yr) | Verify with MoI / GAT (General Authority of Customs); no formal pension-class visa |
-| SA | **Premium Residency Vision 2030** | SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M; Mecca/Medina Muslim-only ownership constitutional; verify with Premium Residency Center (Iqama Premium) |
+| SA | **Premium Residency Vision 2030** | SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M; Makkah/Madinah individual ownership Muslim natural persons only (RD M/14 art. 2(4)); verify with Premium Residency Center (Iqama Premium) |
 | PE | **Investor Visa USD 30k BUSINESS** (NOT real-estate exclusively) / **Rentista USD 1,500/mo** passive | PR after 3yr continuous; Peruvian passport after 2yr PR; verify with MIGRACIONES Peru |
-| EC | **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 42,500** (~100×SBU 2026 SBU USD 470/mo) | 2yr Temporary → Permanent after 21mo; naturalization 3yr PR; verify with Cancillería Ecuador |
+| EC | **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 48,200** (100×SBU at 2026 SBU USD 482/mo) | 2yr Temporary → Permanent after 21mo; naturalization 3yr PR; verify with Cancillería Ecuador |
 | PY | **Resolución SET 1186/2023 reformed PR** — formerly cheapest formal RBI (~USD 5,200) → now **USD 70k SUACE business invest** OR active SET RUC | Citizenship 3yr continuous PR; verify with DGM / SUACE |
 | AM | **Investor Residency AMD 50M (~USD 130k) deposit OR property → 5yr renewable**; **Citizenship by descent (Diaspora) Art. 13 streamlined** | Naturalization 3yr PR + dual citizenship since 2007; verify with Ministry of Foreign Affairs / Migration Service |
 | AZ | **TRP via real estate ≥AZN 100k (~USD 60k) → 1yr renewable to 5+** | PR after 8yr continuous TRP; Strategic Investor Visa AZN 540k priority sectors; naturalization 5yr PR + Azeri language; **dual citizenship LIMITED exceptions**; verify with State Migration Service |
@@ -407,7 +407,7 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 
 2. PENSION TAX → where will your pension be most tax-efficient?
    - Filter EU/territorial: GR 7%, IT 7% (S), PT IFICI (narrow), CY 5%, PA territorial, MX territorial, CR territorial
-   - Filter non-tax / favourable: AE (no PIT), UY (11-yr foreign-int+div), IL (10-yr Olim holiday), MA (80% abatement), GE (territorial), CL (3-yr new-resident exemption), DO/PA territorial-leaning
+   - Filter non-tax / favourable: AE (no PIT), UY (year + 10 foreign capital-income holiday), IL (10-yr Olim holiday), MA (80% abatement), GE (territorial), CL (3-yr new-resident exemption), DO/PA territorial-leaning
    - Caution: TH post-2024 remittance rules tightened — verify; JP has 5-yr "non-permanent resident" carve-out but limited
 
 3. HEALTHCARE → where will your healthcare be best/cheapest?
@@ -486,7 +486,7 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 - **Visa**: **Migrante M Visa Pensionado** — MOH-recognized pension >COP 3× SMLMV (COP 5.25M ≈ USD 1,671/mo at the 2026 SMLMV COP 1,750,905 and TRM 3,144.14 — computed) — see `visa-programs.md`
 
 ### 🇺🇾 UY
-- **Pension tax**: 11-year exemption on foreign interest+dividends (Ley 19.937, 2020+ reform); pension itself not exempt but progressive PIT modest; territorial-leaning
+- **Pension tax**: year of change + 10-year IRNR election on foreign capital income (Ley 19.904 of 2020; from 2026 Ley 20.446 art. 648, conditioned on more than UI 12.5M real estate, at least UI 625k a year in funds, or 183 days); pension itself not exempt but progressive PIT modest; territorial-leaning
 - **Healthcare**: Mutualistas (private cooperatives, ~USD 80-150/mo) excellent — most expats join; FONASA public for residents
 - **Climate**: Humid subtropical; Punta del Este/Montevideo 12-16°C winter, 22-28°C summer
 - **Expat density**: Moderate AR seasonal + permanent EU; Punta del Este, Colonia, Montevideo Carrasco
@@ -539,7 +539,7 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 - **Healthcare**: PhilHealth universal for residents; private (St. Luke's, Makati Med) strong in Metro Manila; provincial quality patchy
 - **Climate**: Tropical 25-32°C; **typhoon season Jun-Nov** (Davao less typhoon-exposed); Cebu/Bohol mid-exposure
 - **Expat density**: US/AU/JP/KR retirees; Cebu, Dumaguete, Bohol, Davao
-- **Visa**: **SRRV (most generous SE-Asia)** — USD 10k–50k deposit depending on age/pension status; 4 sub-classes — see `visa-programs.md`
+- **Visa**: **SRRV (most generous SE-Asia)** — Classic USD 15k–50k deposit depending on age/pension status; Classic + Courtesy options only since Aug 2025 — see `visa-programs.md`
 
 ### 🇮🇱 IL
 - **Pension tax**: New immigrants (Olim) get **10-year tax holiday** on foreign-source income+capital gains (Amendment 168, 2008); thereafter worldwide PIT
@@ -639,7 +639,7 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 ### 🇸🇦 SA
 - **Pension tax**: NO PIT for individuals (Saudi PIT regime is GCC-citizen Zakat 2.5% + corporate 20% non-Saudi); foreign pension NOT subject to SA PIT
 - **Healthcare**: MOH public for citizens; mandatory CCHI private health insurance for expats; private (Saudi German, Dr. Sulaiman Al Habib, King Faisal Specialist — JCI-accredited); Vision 2030 healthcare expansion
-- **Climate**: 12-45°C; **interior 50°C+ summer + sandstorms + 2009/2011 Jeddah catastrophic floods + drought + groundwater depletion**; **Mecca/Medina constitutional restriction (Muslim-only ownership)**
+- **Climate**: 12-45°C; **interior 50°C+ summer + sandstorms + 2009/2011 Jeddah catastrophic floods + drought + groundwater depletion**; **Makkah/Madinah: individual ownership limited to Muslim natural persons (RD M/14 art. 2(4))**
 - **Expat density**: Small UK/US/IN expat retiree community; ~36.4M pop (63% Saudi + 37% expat); Vision 2030 mega-projects (NEOM, Qiddiya, Diriyah, Red Sea, AlUla, Roshn) drive employment
 - **Visa**: **Premium Residency Vision 2030** — SAR 800k one-time / SAR 100k/yr renewable / Real-Estate-Owner SAR 4M; Riyadh Metro Phase 1 Dec 2024 — see `visa-programs.md`
 
@@ -655,7 +655,7 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 - **Healthcare**: IESS social security + private (Hospital Metropolitano, Hospital Vozandes — Quito; Hospital Monte Sinaí — Cuenca); Cuenca particularly strong for retiree healthcare per International Living indices — verify
 - **Climate**: Quito ~2,850m / Cuenca ~2,560m altitude-moderated 10-22°C year-round; **Pacific Ring seismic (2016 Pedernales M7.8) + Cotopaxi volcano active 2024 + Galapagos rising sea-temp + tsunami coastal**; Guayaquil hotter coastal
 - **Expat density**: **Cuenca top US/CA expat retiree hub globally** (International Living top-rank, verify); ~17.7M pop; Spanish + Kichwa/Shuar; English in Cuenca expat zone
-- **Visa**: **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 42,500** (~100×SBU 2026 SBU USD 470/mo); 2yr Temp → Perm after 21mo; naturalization 3yr PR; **2024 Internal Armed Conflict Declaration** — violent crime peaks Guayaquil/Esmeraldas/Manta; Quito/Cuenca relatively safer
+- **Visa**: **Pensioner Visa USD 1,500/mo** / **Investor Visa USD 48,200** (100×SBU at 2026 SBU USD 482/mo); 2yr Temp → Perm after 21mo; naturalization 3yr PR; **2024 Internal Armed Conflict Declaration** — violent crime peaks Guayaquil/Esmeraldas/Manta; Quito/Cuenca relatively safer
 
 ### 🇵🇾 PY
 - **Pension tax**: Territorial PIT — foreign-source pension NOT subject to PY IRP; flat 8/9/10% on PY-source only
@@ -755,4 +755,4 @@ Each profile lists: pension-tax regime · healthcare access · climate/lifestyle
 ## Status
 
 Last refreshed: 2026-05-01 (Tier-5 additions — 87 countries total; Tier-5 added: IN, NG, KE, JO, OM, BH, KW, LB).
-**Confidence**: MEDIUM — high-level regimes and visa names are sourced from current law where named (e.g., IL Amendment 168, MA Art. 76 CGI, Ley 19.937 UY, FDL 47/2022 AE, DL 824 CL, KR PIT Act Art. 18-2, MD Law 200/2010, HK CIES Mar 2024, QA Law 21/2018, SA Vision 2030 Premium Residency, PY SET 1186/2023, EC SBU 2026 ~USD 470/mo); specific thresholds (e.g., AED 1M, ZAR 37,000/mo, COP 3× SMLMV, USD 80k/yr LTR, HK$30M CIES, ₩600M F-2, AD ~€600k, MC ~€500k, MD €250k, QAR 730k, SAR 800k, AMD 50M, AZN 100k, TND 1M, USD 1,500/mo EC Pensioner) should be re-verified at issuing authority before user action since visa thresholds drift on 12-24 month cadence.
+**Confidence**: MEDIUM — high-level regimes and visa names are sourced from current law where named (e.g., IL Amendment 168, MA Art. 76 CGI, Ley 19.904 / Ley 20.446 UY, FDL 47/2022 AE, DL 824 CL, KR PIT Act Art. 18-2, MD Law 200/2010, HK CIES Mar 2024, QA Law 21/2018, SA Vision 2030 Premium Residency, PY SET 1186/2023, EC SBU 2026 ~USD 470/mo); specific thresholds (e.g., AED 1M, ZAR 37,000/mo, COP 3× SMLMV, USD 80k/yr LTR, HK$30M CIES, ₩600M F-2, AD ~€600k, MC ~€500k, MD €250k, QAR 730k, SAR 800k, AMD 50M, AZN 100k, TND 1M, USD 1,500/mo EC Pensioner) should be re-verified at issuing authority before user action since visa thresholds drift on 12-24 month cadence.

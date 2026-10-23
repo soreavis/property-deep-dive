@@ -115,22 +115,22 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 
 ### First-home VAT refund (art. 54a ZPDV) — IN FORCE, but CLOSED TO FOREIGN BUYERS
 
-- **Status**: **IN FORCE and claimable since 8 July 2026**. Art. 54a ZPDV was adopted by the **Predstavnički dom 3 Dec 2024** and the **Dom naroda 2 Apr 2025** (Sl. glasnik BiH 20/25) but self-suspended until its rulebook landed; the **UINO rulebook art. 105a was published 30 June 2026** (Sl. glasnik BiH 45/26) and entered force **8 July 2026** — claims are now open. Verify status: [UINO VAT refund](https://www.uino.gov.ba/portal/en/vat/vat-refund/) + [UINO — povrat PDV-a za kupnju prvog stambenog objekta](https://www.uino.gov.ba/portal/hr/novosti-hr/povrat-pdv-a-za-kupnju-prvog-stambenog-objekta) *(2026-08-07 verified, source KPMG TaxNewsFlash + VATupdate + UINO)*
+- **Status**: **IN FORCE and claimable since 8 July 2026**. Art. 54a ZPDV was adopted by the **Predstavnički dom 3 Dec 2024** and the **Dom naroda 2 Apr 2025** (Sl. glasnik BiH 20/25) but self-suspended until its rulebook landed; the **UINO rulebook art. 105a was published 30 June 2026** (Sl. glasnik BiH 45/26) and entered force **8 July 2026** — claims are now open. Verify status: [UINO VAT refund](https://www.uino.gov.ba/portal/en/vat/vat-refund/) + [UINO — povrat PDV-a za kupnju prvog stambenog objekta](https://www.uino.gov.ba/portal/hr/novosti-hr/povrat-pdv-a-za-kupnju-prvog-stambenog-objekta) *(2026-10-21 verified against the Sl. glasnik BiH 20/25 and 45/26 texts on uino.gov.ba + UINO notice; the notice cites the law as 25/25, but the gazette and UINO's legislation list say 20/25)*
 - **ELIGIBILITY IS ADULT BiH CITIZENS WITH PERMANENT BiH RESIDENCE ONLY — a foreign buyer CANNOT claim this refund** *(2026-08-07 verified)*. As a foreign buyer, budget the full 17 % VAT into the new-build purchase price
 - **Scope**: state-level — covers **FBiH + RS + Brčko**, **not FBiH-only**. New-build only, and only where the sale is itself subject to VAT
 - **Amount**: **40 m² for the buyer + 15 m² per family-household member** at **VAT 17 %**; refund **capped at 14.5299 % × (BiH average flat price incl. VAT, from the latest Agency for Statistics quarterly bulletin at contract date) × 55 m²**
-- **Conditions**: buyer must not have owned residential property in the **prior 7 years**; **5-year no-resale lock-in** running from service of the decision
-- **Deadline**: claims due by **30 June of the year after the sale is registered**; a **6-month transitional window (to ~8 Jan 2027)** covers sales registered between 20/25 and 45/26 taking effect
+- **Conditions**: buyer must not have owned a flat, house, apartment or other dwelling for living or letting in BiH in the **7 years before the claim date** (rulebook art. 105a(6)(a)); **5-year no-resale lock-in** running from service of the decision (art. 105a(14)). A resale inside 5 years means repaying the refund plus interest (art. 105a(15)), and art. 67 ZPDV sets a 5,000-10,000 KM fine
+- **Deadline**: claims due by **30 June of the year after the sale is registered**; a **6-month transitional window (to ~8 Jan 2027)** covers sales registered between 20/25 and 45/26 taking effect. Sales registered before 20/25 took effect are excluded unless the buyer was not at fault (rulebook art. 2). Claims go to the UINO regional centre for the seller's seat and are decided within 6 months
 
 ### Personal income tax (PIT) — flat, by entity
 
 | Entity | PIT rate |
 |---|---:|
 | **FBiH** | **10%** flat (Zakon o porezu na dohodak FBiH, Sl. novine FBiH 10/08 +) |
-| **RS entity** | **8%** flat (Zakon o porezu na dohodak RS, Sl. glasnik RS 60/15 +) |
+| **RS entity** | **8%** on employment income (lična primanja) only; **10%** self-employment; **13%** on capital income incl. rental, capital gains, author rights and other income (art. 4 Zakon o porezu na dohodak RS, Sl. glasnik RS 60/15 ... 114/25) |
 | **Brčko District** | **10%** flat |
 
-Personal allowances differ significantly across entities — RS + Brčko materially higher than FBiH. Small entrepreneurs: 2% of annual revenue. *(2026-05-27 verified, source PwC BA Individual — taxes on personal income, last reviewed 19 Feb 2026)*
+Basic personal allowances differ significantly across entities — FBiH **3,600 KM/yr** (300 KM/month, Porezna uprava FBiH); RS **12,000 KM/yr** + 1,800 KM/yr per dependent (art. 10(3) RS law, since Sl. glasnik RS 119/21); Brčko **14,400 KM/yr** (1,200 KM/month, art. 25 BD law, unofficial consolidated text through Sl. glasnik BD 5/25 — verify at Direkcija za finansije Brčko distrikta). PwC (last reviewed 23 Sep 2026) still shows RS and Brčko at 6,000 KM/yr (superseded by the law texts). RS small entrepreneurs: 2% of annual revenue. *(2026-10-21 verified against the RS and BD consolidated law texts + Porezna uprava FBiH + PwC BA Individual taxes)*
 
 ### Capital gains — DUAL ENTITY DIFFERENCE (cross-source conflict)
 
@@ -169,7 +169,7 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 
 ### Tax on rental
 
-- Resident: flat PIT — **FBiH 10% / RS 8% / Brčko 10%** (NOT progressive — see PIT table above)
+- Resident: flat rates, NOT progressive — **FBiH 10% / RS 13%** (rental is capital income under art. 31 RS law, taxed at 13% under art. 4(3) on income less 20% normed costs under art. 34 — NOT the 8% employment rate) **/ Brčko 10%** (tourist letting 10% without allowance) *(2026-10-21 verified, RS + BD consolidated law texts)*
 - Non-resident: verify treaty + withholding-schedule per entity at fmf.gov.ba / mf.vladars.net
 
 ---
@@ -357,8 +357,8 @@ Personal allowances differ significantly across entities — RS + Brčko materia
 
 ✅ **Fully populated** as of 2026-04-26.
 **Coverage check**: pricing (CBBH + BHAS + GPG 2024-2025), traffic (entity divisions), tax (DUAL ENTITY: FBiH BAM 0.5-3/m² + 0.05-5% transfer + 17% VAT first-sale + CGT NOT TAXABLE individuals; RS entity 0.2% market value + 0% transfer + 17% VAT + 13% CGT), rental (entity-specific), work (entity-specific), risks (Banja Luka 1969 + 2014 Sava+Bosna floods + BHMAC mine contamination + war-damage), mains.
-**Last verified**: 2026-08-07 (`--tax` first-home VAT refund re-verified — in force 8 Jul 2026, foreign buyers ineligible; balance of the 2026-05-27 sweep unchanged).
-**Confidence**: HIGH for BAM-EUR peg 1.95583 currency board; HIGH for entity divergence (FBiH 10 % / RS 8 % / Brčko 10 % PIT; FBiH cantonal transfer tax / RS no transfer tax); HIGH for mine contamination as ongoing diligence concern; HIGH for reciprocity regime under Zakon o stvarnim pravima FBiH + arable-land bar + d.o.o. workaround; HIGH for the first-home VAT refund being in force since 8 Jul 2026 and closed to foreign buyers (art. 54a ZPDV + UINO rulebook art. 105a, Sl. glasnik BiH 20/25 + 45/26); MEDIUM for FBiH CGT (PwC/Eurofast not-taxable vs CMS 2021 10 % — primary statute verification needed); MEDIUM for FBiH cantonal transfer tax 0.05–5 % floor; MEDIUM for Brčko property tax 0.05–1 % (PwC source — verify primary at bdcentral.net).
+**Last verified**: 2026-08-07 (`--tax` first-home VAT refund re-verified — in force 8 Jul 2026, foreign buyers ineligible; balance of the 2026-05-27 sweep unchanged). Tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+**Confidence**: HIGH for BAM-EUR peg 1.95583 currency board; HIGH for entity divergence (FBiH 10 % / RS 8 % employment, 13 % capital incl. rental / Brčko 10 % PIT; FBiH cantonal transfer tax / RS no transfer tax); HIGH for mine contamination as ongoing diligence concern; HIGH for reciprocity regime under Zakon o stvarnim pravima FBiH + arable-land bar + d.o.o. workaround; HIGH for the first-home VAT refund being in force since 8 Jul 2026 and closed to foreign buyers (art. 54a ZPDV + UINO rulebook art. 105a, Sl. glasnik BiH 20/25 + 45/26); MEDIUM for FBiH CGT (PwC/Eurofast not-taxable vs CMS 2021 10 % — primary statute verification needed); MEDIUM for FBiH cantonal transfer tax 0.05–5 % floor; MEDIUM for Brčko property tax 0.05–1 % (PwC source — verify primary at bdcentral.net).
 
 ## Extension TODOs
 

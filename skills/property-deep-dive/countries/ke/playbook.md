@@ -210,7 +210,7 @@ Annual property tax is **set by each county government** based on the **valuatio
 
 - Graduated PIT after Finance Act 2024 reforms: **10 % / 25 % / 30 % / 32.5 % / 35 %** brackets — top 35 % rate added by Finance Act 2023 (effective 1 July 2023; further refined Finance Act 2024)
 - Source: KRA PIT `https://www.kra.go.ke/individual`
-- Affordable Housing Levy: **1.5 % of gross salary employer + 1.5 % employee** (Finance Act 2023; **under judicial review 2024–2026** — Court of Appeal upheld revised levy structure but constitutional challenges ongoing; verify current status at `http://kenyalaw.org/`)
+- Affordable Housing Levy: **1.5 % of gross salary employer + 1.5 % employee**, plus **1.5 % of a person's gross income not caught by the salary limb** (Affordable Housing Act 2024 ss. 4(2) and 5, in force on assent 19 Mar 2024; the Finance Act 2023 levy was struck down 28 Nov 2023). **Upheld**: High Court 22 Oct 2024 ([2024] KEHC 13060); Court of Appeal dismissed the consolidated appeals 25 Sep 2026 ([2026] KECA 1821 (KLR)) — levy in force; no Supreme Court petition located as of 2026-10-21. Verify at `https://kenyalaw.org/akn/ke/act/2024/2/eng@2026-07-01`
 
 ### Total transaction cost (buyer side, urban)
 
@@ -256,6 +256,7 @@ For the same purchase with mortgage (70 % LTV): add mortgage stamp duty 0.1 % of
 
 - **Tourism Regulatory Authority (TRA)** under Tourism Act 2011 + Tourism Regulations 2014: STR providers technically require a TRA classification + license as "vacation rental" — `https://www.tourismauthority.go.ke/` — verify current registration thresholds
 - **County-level tourism levies**: many counties (Nairobi, Kwale, Kilifi) impose tourism / accommodation levies on short-term lets — verify per County Finance Act
+- **National 2 % Tourism Levy on STR — platform collection PLANNED, NOT IN FORCE**: the Tourism Fund announced collection at booking via Airbnb / Booking.com / Jumia slated for end-June 2026 (Business Daily, 26 Jan 2026), but the enabling regulations were not gazetted (Business Daily, 17 Sep 2026, news-tier); no new start date as of Oct 2026. The Fund's levy page applies 2 % to all regulated hotels, restaurants and regulated tourism activities, and furnished apartments / villas are listed in the 4th Schedule of the Tourism Regulations 2014 — model 2 % of gross as a possible liability for TRA-licensable STR; verify at `https://www.tourismfund.go.ke/levy` and the Kenya Gazette (confidence LOW; see shared/regulatory-watch.md)
 - **Body Corporate / sectional rules**: many Nairobi sectional schemes (Westlands, Kilimani) ban STR via by-laws — verify before purchasing for STR purpose
 - **Catastrophe Insurance Levy 0.05 %** on STR turnover (insurance-related — verify current under Insurance Act)
 - **Practical reality**: informal Airbnb market is large in Karen, Westlands, Kilimani, Diani, Watamu, Lamu — formal TRA registration is the minority; KRA pursues income-tax compliance via platform data-sharing under Finance Act 2023 digital-marketplace withholding (verify current implementation)
@@ -290,7 +291,7 @@ For the same purchase with mortgage (70 % LTV): add mortgage stamp duty 0.1 % of
 - **Turnover Tax (TOT)**: 3 % of gross for SMEs with turnover KES 1M–KES 25M (raised threshold via Finance Act 2023)
 - **NSSF (National Social Security Fund)**: tiered contributions per NSSF Act 2013 (post-2023 ramp-up); employee + employer
 - **NHIF / SHIF transition**: National Health Insurance Fund replaced by **Social Health Insurance Fund (SHIF)** under Social Health Insurance Act 2023 — effective 1 October 2024; **2.75 % of gross salary** to SHIF; verify at `https://www.sha.go.ke/`
-- **Affordable Housing Levy 1.5 % + 1.5 %** (Finance Act 2023) — under judicial review
+- **Affordable Housing Levy 1.5 % + 1.5 %** (Affordable Housing Act 2024) — upheld by the Court of Appeal 25 Sep 2026; in force
 
 ### Foreign worker permits — Department of Immigration Services
 
@@ -806,7 +807,7 @@ Kenya is an **established retirement destination** for European + American retir
 - **CGT 15 %** on Kenyan property disposal
 - **Stamp Duty 4 %/2 %** on property purchase
 - **VAT 16 %** standard
-- **Affordable Housing Levy 1.5 % + 1.5 %** on Kenyan-employment salary (under judicial review) — not applicable to foreign passive income
+- **Affordable Housing Levy 1.5 % + 1.5 %** on Kenyan-employment salary (Affordable Housing Act 2024, upheld by the Court of Appeal 25 Sep 2026); s. 4(2)(b) also levies 1.5 % on a person's gross income not caught by the salary limb — whether KRA applies it to a foreign owner's Kenyan rental or other passive income: data not publicly available — verify at KRA
 - **No wealth tax, no general inheritance tax** (Estate Duty Act repealed 1982); BUT **CGT 15 %** applies on transfer-on-death where deemed disposal applies — verify with advocate
 - DTAAs with UK, Germany, Canada, India, France, several others — verify per pension origin
 
@@ -861,7 +862,7 @@ Workable pathways for remote-working visitors:
 - **Tourist visit (90 days)** → no PIT exposure if no Kenya-source income
 - **183-day residency** triggers Kenyan tax residence on worldwide income (subject to DTAA reliefs); Class K holders typically structure to remain non-resident for tax where DTAA permits
 - **VAT 16 %** on services + consumption
-- **Catastrophe Insurance Levy + Affordable Housing Levy 1.5 %**: salary-based, not applicable to non-Kenyan salaries
+- **Catastrophe Insurance Levy**: salary-based, not applicable to non-Kenyan salaries; **Affordable Housing Levy 1.5 %** (Affordable Housing Act 2024): salary limb plus a 1.5 % limb on gross income not caught by it (s. 4(2)(b)) — whether it reaches a non-resident's income: data not publicly available — verify at KRA
 
 ### Verdict for digital-nomad-first buyers
 
@@ -886,8 +887,8 @@ Workable pathways for remote-working visitors:
 
 ### Trend drivers (2024–2026)
 
-- **Fiscal consolidation under IMF EFF/ECF**: Finance Acts 2023 + 2024 raised PIT top + introduced Affordable Housing Levy + restructured VAT — politically unpopular; **June 2024 Gen-Z protests** forced withdrawal of original Finance Bill 2024; modified Finance Act 2024 enacted
-- **Affordable Housing Programme** (President Ruto's flagship): 1M housing units target; Affordable Housing Levy 1.5 % + 1.5 % funds Public Housing Sector — under judicial review 2024–2026
+- **Fiscal consolidation under IMF EFF/ECF**: Finance Acts 2023 + 2024 raised PIT top + introduced Affordable Housing Levy (Finance Act 2023 levy struck down Nov 2023, re-enacted by the Affordable Housing Act 2024) + restructured VAT — politically unpopular; **June 2024 Gen-Z protests** forced withdrawal of original Finance Bill 2024; modified Finance Act 2024 enacted
+- **Affordable Housing Programme** (President Ruto's flagship): 1M housing units target; Affordable Housing Levy 1.5 % + 1.5 % funds Public Housing Sector — upheld by the Court of Appeal 25 Sep 2026
 - **Konza Technopolis** (south-east of Nairobi) — anchor smart-city / tech project
 - **SGR (Standard Gauge Railway)** Mombasa–Nairobi–Naivasha extension (Naivasha onward delayed); drives corridor RE values
 - **East African Community (EAC) integration**: free movement of goods + persons; partial common-market progress; affects regional trade
@@ -1083,7 +1084,7 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 - **Land Control Board consent for agricultural** — months-long process with denial risk; structure deal contingent on LCB consent
 - **National Land Commission revocation risk** — historical irregularly issued titles (esp. former public + community land allocated 1990s–2000s) face revocation risk; verify NLC notices on parcel
 - **Stamp Duty 4 % urban / 2 % rural** + endemic under-declaration — KRA increasingly assertive on valuation reassessment; assume declared = floor, not market clear
-- **Affordable Housing Levy 1.5 % + 1.5 %** — under judicial review 2024–2026; modified Finance Act 2024 + Court of Appeal rulings — final disposition pending; verify at `http://kenyalaw.org/`
+- **Affordable Housing Levy 1.5 % + 1.5 %** — Affordable Housing Act 2024, upheld by the High Court (22 Oct 2024) and the Court of Appeal (25 Sep 2026, [2026] KECA 1821); in force; no Supreme Court petition located as of 2026-10-21; verify at `http://kenyalaw.org/`
 - **CGT 15 %** on disposal (raised from 5 % by Finance Act 2022) — seller pays
 - **Rental Income Tax (MRI) 7.5 %** on residential gross rent KES 288k–15M
 - **VAT 16 %** on commercial; first-sale residential by developer 0 %; rental of residential exempt
@@ -1193,8 +1194,8 @@ If individual seller is engaged in regular trading (multiple flips / short hold)
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — stamp duty KRA → Ardhisasa migration anchored; legacy KRA 404 URL replaced; VAT 16% history refreshed; Directorate of Surveys attribution and Nairobi Expressway toll basis corrected 2026-09-18 per lands.go.ke + Kenya Gazette Notice 17419)
+**Last verified**: 2026-05-27 (validation sweep — stamp duty KRA → Ardhisasa migration anchored; legacy KRA 404 URL replaced; VAT 16% history refreshed; Directorate of Surveys attribution and Nairobi Expressway toll basis corrected 2026-09-18 per lands.go.ke + Kenya Gazette Notice 17419; Affordable Housing Levy legal basis and court status corrected 2026-10-21 per Kenya Law, [2026] KECA 1821; national STR Tourism Levy status added 2026-10-21 per tourismfund.go.ke + Business Daily)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Locked-in via primary government sources: 2010 Constitution Art. 65 (Parliament + Kenya Law Reports — **foundational regime: non-citizens leasehold-only max 99 yrs; pre-2010 freehold held by non-citizens automatically converted to 99-yr leasehold on 27 Aug 2010 promulgation date — flag prominently to any foreign buyer**); Land Act 2012 + Land Registration Act 2012; Stamp Duty Act Cap 480 (4 % urban / 2 % rural per KRA); CGT 15 % per Finance Act 2022 + Income Tax Act Eighth Schedule; MRI 7.5 % per Finance Act 2023; VAT 16 % per VAT Act 2013; Class K passive-income permit per Kenya Citizenship and Immigration Act 2011 + Department of Immigration Services. **Title fraud + double allocation flagged as material, frequent risk** — engage independent advocate; verify both Ardhisasa digital + County Land Registry paper records; survey beacon verification mandatory; NLC revocation risk for historically irregularly issued titles. **Affordable Housing Levy 1.5 % + 1.5 % under judicial review 2024–2026** — Court of Appeal upheld revised structure but constitutional challenges pending; verify final disposition. **Watch list 2026**: Ardhisasa digital-lands rollout per county (Nairobi + Murang'a piloted; phased nationwide); Affordable Housing Levy final court disposition; SHIF transition (replaced NHIF since 1 Oct 2024); Finance Bill 2026 (post-2024 protests political economy); SGR Naivasha–Kisumu extension; Konza Technopolis execution; Lamu County FCDO security advisory updates.
+**Notes**: Locked-in via primary government sources: 2010 Constitution Art. 65 (Parliament + Kenya Law Reports — **foundational regime: non-citizens leasehold-only max 99 yrs; pre-2010 freehold held by non-citizens automatically converted to 99-yr leasehold on 27 Aug 2010 promulgation date — flag prominently to any foreign buyer**); Land Act 2012 + Land Registration Act 2012; Stamp Duty Act Cap 480 (4 % urban / 2 % rural per KRA); CGT 15 % per Finance Act 2022 + Income Tax Act Eighth Schedule; MRI 7.5 % per Finance Act 2023; VAT 16 % per VAT Act 2013; Class K passive-income permit per Kenya Citizenship and Immigration Act 2011 + Department of Immigration Services. **Title fraud + double allocation flagged as material, frequent risk** — engage independent advocate; verify both Ardhisasa digital + County Land Registry paper records; survey beacon verification mandatory; NLC revocation risk for historically irregularly issued titles. **Affordable Housing Levy 1.5 % + 1.5 %** under the Affordable Housing Act 2024 — the Court of Appeal dismissed the consolidated appeals 25 Sep 2026 ([2026] KECA 1821); in force; watch for a Supreme Court petition. **Watch list 2026**: Ardhisasa digital-lands rollout per county (Nairobi + Murang'a piloted; phased nationwide); Affordable Housing Levy — any Supreme Court petition against [2026] KECA 1821; SHIF transition (replaced NHIF since 1 Oct 2024); Finance Bill 2026 (post-2024 protests political economy); SGR Naivasha–Kisumu extension; Konza Technopolis execution; Lamu County FCDO security advisory updates.

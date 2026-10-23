@@ -2,7 +2,7 @@
 
 ISO2: `bb`. Status: ✅ Fully populated (researched 2026-05-07).
 
-> **Critical framing — read first**: Barbados is an **English common-law island state** in the south-eastern Caribbean (outside the main hurricane track but still inside the Atlantic basin). The currency **BBD is pegged 2:1 to USD since 5 July 1975** — confirmed by [Central Bank of Barbados (CBB)](https://www.centralbank.org.bb/) and unbroken through 2026. **Foreign buyers face NO ownership restriction**: non-residents may buy freehold residential property on the same terms as Barbadians, **subject to** mandatory **registration of incoming foreign currency with the Central Bank of Barbados** (this is the gating step — without registered FX, capital and gains cannot be repatriated on resale). Property tax stack: **annual Land Tax** (banded, owner-occupied 0–1.0% on improved value, capped at BBD 100,000), **one-time Property Transfer Tax (PTT)** of **2.5%** on consideration above **BBD 150,000** (where a building exists; vacant land has no exemption), **one-time Stamp Duty** of **1%** on the gross consideration paid by the **seller**, and **17.5% VAT** on professional services (legal, agency) — but **VAT does NOT apply** to the property sale itself (real estate is VAT-exempt). **Citizenship-by-investment: NONE** (distinguish from St. Kitts, Dominica, Antigua & Barbuda, St. Lucia, Grenada). Residency routes are the **Welcome Stamp** (12-month digital-nomad visa, **USD 50,000+ income threshold**, renewable, tax-exempt on Barbados-sourced income from foreign employment — **renewed by Cabinet to 31 Dec 2026**) and the **Special Entry & Reside Permit (SERP)** (5-year renewable; Category 2 property-owner threshold **USD 300,000**). **Hurricane risk**: Barbados sits at **13.1°N, 59.5°W** — the easternmost Caribbean island, **south of the main Atlantic hurricane track** — but **Hurricane Beryl (1 July 2024)** passed ~150 km south as a Cat 3, generating heavy swell, storm surge and damaging the south + south-west coasts (~BBD 193M ECLAC-assessed effects; per ECLAC 2025 (LC/TS.2025/45) **50 homes** damaged (21 severely damaged / collapsed / unsafe) + **~240 of 312 active fishing vessels** totally or partially damaged + Bridgetown Port + Fisheries Marina + breakwater + airport damage) (2026-09-24 verified, source: [ECLAC 2025 (LC/TS.2025/45) Beryl Assessment](https://www.cepal.org/en/publications/82157-assessment-effects-and-impacts-hurricane-beryl-barbados-2024)). The prior comparable pass was Hurricane Ivan (7 Sep 2004) ~165 km south of Barbados at 100-105 kt / Cat 3 (est., computed from NHC best track 11.6N 59.4W 100 kt at 1200 UTC and 11.8N 61.1W 105 kt at 1800 UTC vs Bridgetown 13.10N 59.62W), with >176 Barbados homes completely destroyed (NHC TCR AL092004); post-Beryl insurance re-pricing: data not publicly available — verify with carriers and FSC Barbados. **Confirm** any current PTT band, Land Tax assessment, FX-registration status, and Welcome Stamp / SERP eligibility at primary sources **before any binding step**. Authoritative primary sources: **[Barbados Revenue Authority (BRA)](https://bra.gov.bb/)**, **[Central Bank of Barbados (CBB)](https://www.centralbank.org.bb/)**, **[Barbados Statistical Service (BSS)](https://stats.gov.bb)**, **[Immigration Department](https://immigration.gov.bb/)**, **[Lands and Surveys Department](https://www.landsandsurveys.gov.bb/)**, **[Invest Barbados](https://www.investbarbados.org/)**.
+> **Critical framing — read first**: Barbados is an **English common-law island state** in the south-eastern Caribbean (outside the main hurricane track but still inside the Atlantic basin). The currency **BBD is pegged 2:1 to USD since 5 July 1975** — confirmed by [Central Bank of Barbados (CBB)](https://www.centralbank.org.bb/) and unbroken through 2026. **Foreign buyers face NO ownership restriction**: non-residents may buy freehold residential property on the same terms as Barbadians, **subject to** mandatory **registration of incoming foreign currency with the Central Bank of Barbados** (this is the gating step — without registered FX, capital and gains cannot be repatriated on resale). Property tax stack: **annual Land Tax** (residential 2026-27: 0% up to BBD 400,000 improved value, then 0.1% / 0.7% / 1.0% bands — BRA, 24 Aug 2026; the often-quoted BBD 100,000 annual cap is in no primary source checked), **one-time Property Transfer Tax (PTT)** of **2.5%** on consideration above **BBD 150,000** (where a building exists; vacant land has no exemption), **one-time Stamp Duty** of **1%** on the gross consideration paid by the **seller**, and **17.5% VAT** on professional services (legal, agency) — but **VAT does NOT apply** to the property sale itself (real estate is VAT-exempt). **Citizenship-by-investment: NONE** (distinguish from St. Kitts, Dominica, Antigua & Barbuda, St. Lucia, Grenada). Residency routes are the **Welcome Stamp** (12-month digital-nomad visa, **USD 50,000+ income threshold**, renewable, no Barbados income tax on Stamp income generated outside Barbados — **renewed by Cabinet to 31 Dec 2026**, Cabinet decision of 26 Oct 2023 per the Ministry of Tourism) and the **Special Entry & Reside Permit (SERP)** (5-year renewable; Category 2 property-owner threshold **USD 300,000**). **Hurricane risk**: Barbados sits at **13.1°N, 59.5°W** — the easternmost Caribbean island, **south of the main Atlantic hurricane track** — but **Hurricane Beryl (1 July 2024)** passed ~150 km south as a Cat 3, generating heavy swell, storm surge and damaging the south + south-west coasts (~BBD 193M ECLAC-assessed effects; per ECLAC 2025 (LC/TS.2025/45) **50 homes** damaged (21 severely damaged / collapsed / unsafe) + **~240 of 312 active fishing vessels** totally or partially damaged + Bridgetown Port + Fisheries Marina + breakwater + airport damage) (2026-09-24 verified, source: [ECLAC 2025 (LC/TS.2025/45) Beryl Assessment](https://www.cepal.org/en/publications/82157-assessment-effects-and-impacts-hurricane-beryl-barbados-2024)). The prior comparable pass was Hurricane Ivan (7 Sep 2004) ~165 km south of Barbados at 100-105 kt / Cat 3 (est., computed from NHC best track 11.6N 59.4W 100 kt at 1200 UTC and 11.8N 61.1W 105 kt at 1800 UTC vs Bridgetown 13.10N 59.62W), with >176 Barbados homes completely destroyed (NHC TCR AL092004); post-Beryl insurance re-pricing: data not publicly available — verify with carriers and FSC Barbados. **Confirm** any current PTT band, Land Tax assessment, FX-registration status, and Welcome Stamp / SERP eligibility at primary sources **before any binding step**. Authoritative primary sources: **[Barbados Revenue Authority (BRA)](https://bra.gov.bb/)** (Land Tax, VAT, income tax), the **Registrar of the Supreme Court / Registrar of Titles** (PTT payment and Stamp Duty adjudication), **[Central Bank of Barbados (CBB)](https://www.centralbank.org.bb/)**, **[Barbados Statistical Service (BSS)](https://stats.gov.bb)**, **[Immigration Department](https://immigration.gov.bb/)**, **[Lands and Surveys Department](https://www.landsandsurveys.gov.bb/)**, **[Invest Barbados](https://www.investbarbados.org/)**.
 
 ## Country profile
 
@@ -25,7 +25,7 @@ ISO2: `bb`. Status: ✅ Fully populated (researched 2026-05-07).
   - **Resilience and Regeneration Fund** employee contribution **raised to 0.25% (from 0.10%)** of gross earnings effective **1 April 2025** ([2025 Budget](https://assets.kpmg.com/content/dam/kpmg/bb/pdf/Barbados%20budget%20review%202025.pdf)).
   - **2025 Budget**: **PTT removed for deeds of gift** to children/dependants for land < 1 acre (gifts only — does not affect arm's-length sales) ([KPMG TaxNewsFlash 2025-03](https://assets.kpmg.com/content/dam/kpmg/bb/pdf/Barbados%20budget%20review%202025.pdf)).
   - **Hurricane Beryl (1 July 2024)** passed ~150 km south of Barbados as Cat 3 — the prior comparable pass was Hurricane Ivan (7 Sep 2004) ~165 km south of Barbados at 100-105 kt / Cat 3 (est., computed from NHC best track 11.6N 59.4W 100 kt at 1200 UTC and 11.8N 61.1W 105 kt at 1800 UTC vs Bridgetown 13.10N 59.62W); post-Beryl insurance re-rating: data not publicly available — verify at [FSC Barbados](https://www.fsc.gov.bb/); ECLAC-assessed effects ~BBD 193M (~0.15% of GDP); damage concentrated south + south-west coasts + fishing infrastructure ([ECLAC, 2025 — LC/TS.2025/45](https://www.cepal.org/en/publications/82157-assessment-effects-and-impacts-hurricane-beryl-barbados-2024)).
-  - **Land Tax (Rate of Tax) Order, 2024** consolidated current bands ([S.I. 2024 No. 57 — BRA PDF](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024)).
+  - **Residential Land Tax 2026-27 — zero band widened from BBD 300,000 to BBD 400,000**: 0% up to BBD 400,000 / 0.1% to 550,000 / 0.7% to 950,000 / 1% above; residential bills for property valued above BBD 450,000 reissued dated 31 Aug 2026, discount deadlines 30 Sep / 30 Oct / 1 Dec 2026 (2026-10-21 verified, source: [BRA release, 24 Aug 2026](https://bra.gov.bb/News/Press-Releases/Lower-Land-Tax-Bills-Coming-for-Re)). The previous schedule was the **Land Tax (Rate of Tax) Order, 2024** ([S.I. 2024 No. 57 — BRA PDF](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024)).
   - **Republic transition** (30 November 2021): Barbados became a parliamentary republic; King replaced by President as ceremonial head of state. **No effect on property law** (Crown references in older statutes read as references to the State).
 
 ---
@@ -60,7 +60,7 @@ This section determines whether a transaction is even legally possible — and w
 
 | Route | Threshold (verify at Immigration Department) | Notes |
 |---|---|---|
-| **Welcome Stamp** (12-month DNV) | **USD 50,000 minimum annual income**, **employed/contracted outside Barbados**, mandatory health insurance | Individual fee **USD 2,000**; family fee **USD 3,000**; 12-month renewable; renewals receive 25% discount; **tax-exempt on Barbados-sourced presence for foreign-employment income**; processing ~7 business days; programme renewed by Cabinet to **31 Dec 2026** (verify at [Welcome Stamp portal](https://www.visitbarbados.org/barbados-welcome-stamp)) |
+| **Welcome Stamp** (12-month DNV) | **USD 50,000 minimum annual income**, **employed/contracted outside Barbados**, mandatory health insurance | Individual fee **USD 2,000**; family fee **USD 3,000**; 12-month renewable; renewals receive 25% discount (BDS$3,000 individual / BDS$4,500 family vs BDS$4,000 / BDS$6,000 first stamp — Remote Employment (Amendment) Act 2021 s.7A); **holder deemed not resident for income tax, and Stamp income generated outside Barbados is not income derived from Barbados — no Barbados income tax on it** (Remote Employment Act 2020-23 ss.4 and 6, per the [2020 bill as introduced](https://barbadosparliament.com/uploads/bill_resolution/1060cadd77eb3b54bb81b5b5b7ba1177.pdf)); processing ~7 business days; programme renewed by Cabinet to **31 Dec 2026** (Cabinet decision of 26 Oct 2023 — [Ministry of Tourism release](https://www.tourism.gov.bb/News/Press-Releases/Barbados-Welcome-Stamp-Statistics); the [Welcome Stamp portal](https://www.visitbarbados.org/barbados-welcome-stamp) publishes no end date) |
 | **SERP — Category 1 (high-net-worth)** | **USD 2M Barbados investment + USD 5M+ net worth** | Renewable 5-year permit; auto work-permit fee USD 15,000 (60+) or USD 20,000 (under 60) |
 | **SERP — Category 2 (property owner)** | **USD 300,000+ property value** | Renewable 5-year residence permit; no automatic right to work |
 | **SERP — Category 3 (special skills)** | Skills critical to Barbadian growth | Case-by-case |
@@ -204,46 +204,47 @@ Barbados does **NOT publish a public AADT (Annual Average Daily Traffic) portal*
 
 ## Section: `--tax`
 
-> **Headline**: Barbados has **moderate personal income tax** (**11.5% / 27.5%** bands with BBD 25,000 personal allowance, income year 2026 — reduced from 12.5% / 28.5%), **NO capital gains tax**, **NO inheritance tax**, **NO general wealth tax**. Real-estate-specific taxes: **annual Land Tax** (banded, owner-occupied 0–1.0% on improved value, capped at BBD 100,000 total annual tax), **one-time Property Transfer Tax** (2.5% on consideration > BBD 150,000 where a building exists), **one-time Stamp Duty** (1% on consideration, paid by seller), and **17.5% VAT** on professional services associated with the transaction (legal, agency) — but **VAT does NOT apply to the sale of real estate itself** (Cap. 87 Schedule 1 exemption).
+> **Headline**: Barbados has **moderate personal income tax** (**11.5% / 27.5%** bands with BBD 25,000 personal allowance, income year 2026 — reduced from 12.5% / 28.5%), **NO capital gains tax**, **NO inheritance tax**, **NO general wealth tax**. Real-estate-specific taxes: **annual Land Tax** (residential 2026-27: 0% up to BBD 400,000 improved value, then 0.1–1.0% banded; non-residential 0.95%), **one-time Property Transfer Tax** (2.5% on consideration > BBD 150,000 where a building exists), **one-time Stamp Duty** (1% on consideration, paid by seller), and **17.5% VAT** on professional services associated with the transaction (legal, agency) — but **VAT does NOT apply to the sale of real estate itself** (Cap. 87 Schedule 1 exemption).
 
 ### Annual property tax — Land Tax
 
-Governed by the **Land Tax Act, Cap. 78A** + the **Land Tax (Rate of Tax) Order, 2024** ([S.I. 2024 No. 57 — BRA PDF](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024)). Administered by the [BRA](https://bra.gov.bb/About/Tax-Types/Land-Tax/).
+Governed by the **Land Tax Act, Cap. 78A**. The residential bands below are the 2026-27 bands BRA bills and lists as current ([BRA release, 24 Aug 2026](https://bra.gov.bb/News/Press-Releases/Lower-Land-Tax-Bills-Coming-for-Re)); the release names no instrument, and the last Rate of Tax Order posted on the BRA legislation page is the **Land Tax (Rate of Tax) Order, 2024** ([S.I. 2024 No. 57 — BRA PDF](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024)). Administered by the [BRA](https://bra.gov.bb/About/Tax-Types/Land-Tax/).
 
 **Residential improved property** — graduated bands on **improved value**:
 
 | Improved value (BBD) | Annual Land Tax rate |
 |---|---|
-| First **$150,000** | **0%** (exempt) |
-| **$150,001 – $450,000** | **0.10%** |
-| **$450,001 – $850,000** | **0.70%** |
-| **Above $850,000** | **1.0%** (capped at **BBD 100,000 total annual tax** above this band) |
+| First **$400,000** | **0%** (exempt) |
+| **$400,001 – $550,000** | **0.1%** on the portion in this band |
+| **$550,001 – $950,000** | **0.7%** on the portion in this band |
+| **Above $950,000** | **1.0%** on the portion above $950,000 |
 
 **Residential unimproved (vacant) land** — site-value rates:
 
 | Site value / lot size (BBD) | Annual Land Tax rate |
 |---|---|
 | **< 4,000 sqft (≈371 m²)** | **0.80%** of site value |
-| **> 4,000 sqft, value up to $450,000** | **0.90%** of site value |
+| **> 4,000 sqft, value up to $450,000** | **0.90%** of site value (BRA FAQ; S.I. 2024 No. 57 sets 1.00% for all vacant land of 4,001 sq ft or more — primary sources conflict, verify with BRA) |
 | **> 4,000 sqft, value > $450,000** | **1.0%** of site value |
 
 **Non-residential (commercial/other)**: **0.95%** of improved value (no exemption).
 
-(Source: [BRA Land Tax — How is Land Tax calculated](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024) + Land Tax (Rate of Tax) Order 2024 — *VERIFY current bands at BRA before relying; bands apply 2024–2026 fiscal year per S.I. 2024 No. 57 — rates may change at next budget*)
+(Source: residential improved bands — [BRA release, 24 Aug 2026](https://bra.gov.bb/News/Press-Releases/Lower-Land-Tax-Bills-Coming-for-Re) (2026-10-21 verified); vacant-land and non-residential rates — [Land Tax (Rate of Tax) Order, 2024 (S.I. 2024 No. 57)](https://bra.gov.bb/attachment?file=Attachments%2FLand+Tax+%28Rate+of+Tax%29+Order%2C+2024.pdf&name=Land+Tax+%28Rate+of+Tax%29+Order%2C+2024) + BRA FAQ Current Land Tax Rates. Before 2026-27 the residential schedule was S.I. 2024 No. 57 (made 9 Sep 2024, deemed in operation 1 Apr 2023): 0% up to BBD 300,000 / 0.10% to 450,000 / 0.70% to 850,000 / 1.00% above; the 150,000 / 450,000 / 850,000 bands are the 2019-2020 schedule. **BBD 100,000 annual cap — UNVERIFIED**: stated only by PwC Tax Summaries (secondary, stale bands); absent from S.I. 2024 No. 57, the BRA FAQ and the Land Tax Act Cap. 78A text. *Rates may change at the 2027-28 Budget — verify at BRA before relying*)
 
 **Filing + payment**:
-- **Annual valuation** by BRA Valuation Department; **2025–2026 Land Tax bills issued 12 May 2025** ([BRA press release](https://bra.gov.bb/News/Press-Releases/BRA-RELEASES-2025-2026-LAND-TAX-BI)).
-- **Discounts for early payment**:
-  - In-person by **11 June 2025**: **10% discount**
-  - In-person by **11 July 2025**: **5% discount**
-  - Online via Land Tax portal through **10 August 2025**: **10% discount**
+- **Annual valuation** by BRA Valuation Department; **2026–2027 Land Tax bills and valuation notices dated 15 Jul 2026**; residential bills for property valued above BBD 450,000 were miscalculated, recalculated and **reissued dated 31 Aug 2026** ([BRA release, 24 Aug 2026](https://bra.gov.bb/News/Press-Releases/Lower-Land-Tax-Bills-Coming-for-Re)). The 2025–2026 bills were issued 12 May 2025 ([BRA press release](https://bra.gov.bb/News/Press-Releases/BRA-RELEASES-2025-2026-LAND-TAX-BI)).
+- **Discounts for early payment (2026–2027)**:
+  - Reissued bills: in person by **30 Sep 2026** — **10% discount**; in person by **30 Oct 2026** — **5% discount**; online (incl. wire transfers) by **1 Dec 2026** — **10% discount** ([BRA release, 24 Aug 2026](https://bra.gov.bb/News/Press-Releases/Lower-Land-Tax-Bills-Coming-for-Re))
+  - Original bills, as extended on 14 Aug 2026: 10% in person to 28 Aug, 5% to 27 Sep, 10% online to 13 Oct 2026 ([BRA release](https://bra.gov.bb/News/Press-Releases/Land-Tax-Discount-Deadlines-Extend))
+  - Overpayment: from **1 Sep 2026** owners who already paid a miscalculated bill may claim a refund or a credit against their 2027 bill or arrears
+  - 2025–2026 cycle (closed): 10% in person to 11 Jun 2025, 5% to 11 Jul 2025, 10% online to 10 Aug 2025
 - **Late-payment**: surcharge + interest accrual.
 - **Lien**: unpaid Land Tax can become a charge on the property; transfers blocked until cleared.
-- **Pensioner concession**: Barbadian residents 60+ may qualify for a Land Tax rebate on owner-occupied residence (verify current concession at BRA).
+- **Pensioner concession**: applicants aged 60+ who receive a pension and live in Barbados at least 6 months a year may qualify for a 60% Land Tax rebate (BRA FAQ — a residence test, not nationality; verify current concession at BRA).
 
 ### Property Transfer Tax (PTT) — one-time at sale
 
-Governed by the **Property Transfer Tax Act, Cap. 84A** ([statute id + amending Act at the Office of the Attorney General](https://oag.gov.bb/attachments/Property%20Transfer%20Tax%20(Amendment)%20Act,%202018-45.pdf); also listed at [CAIPO](https://caipo.gov.bb/legislation)). Administered by [BRA](https://bra.gov.bb/).
+Governed by the **Property Transfer Tax Act, Cap. 84A** ([statute id + amending Act at the Office of the Attorney General](https://oag.gov.bb/attachments/Property%20Transfer%20Tax%20(Amendment)%20Act,%202018-45.pdf); also listed at [CAIPO](https://caipo.gov.bb/legislation)). Administered by the **Registrar** — the Registrar of the Supreme Court or the Registrar of Titles (Cap. 84A s.2 and s.3(1); the Securities Commission for public-company securities, s.3(2)); PTT is paid to the Registrar (s.7(1), s.8(1)), who stamps the instrument (s.7(3)); where the consideration is doubted the Registrar has fair market value determined by the Commissioner of Valuations (s.9(1)) ([Cap. 84A text — Barbados Judicial System](https://www.barbadoslawcourts.gov.bb/assets/content/pdfs/statutes/PropertyTransferTaxCAP084A.pdf)). PTT is not among the enactments the BRA administers (BRA Act 2014-1 First Schedule); BRA's part in a transfer is the land-tax certificate and, where VAT Act s.48(3) applies, the VAT input-tax certificate the Registrar must see (Cap. 84A s.13(1)(iii)).
 
 | Transaction | PTT rate |
 |---|---|
@@ -256,11 +257,11 @@ Governed by the **Property Transfer Tax Act, Cap. 84A** ([statute id + amending 
 
 **Statutory liability**: **vendor pays PTT** (per Cap. 84A); commonly borne by vendor in practice.
 
-(Source: [PwC Worldwide Tax Summaries — Barbados Other Taxes](https://taxsummaries.pwc.com/barbados/corporate/other-taxes) + [BRA](https://bra.gov.bb/) + [Withers — Owning Property in Barbados](https://www.withersworldwide.com/en-gb/insight/read/owning-property-in-barbados-taxation-and-expenses) — *verify current threshold at BRA; threshold last revised by Stamp Duty/PTT amendment — confirm at signing*)
+(Source: [PwC Worldwide Tax Summaries — Barbados Other Taxes](https://taxsummaries.pwc.com/barbados/corporate/other-taxes) + [PTT Act Cap. 84A](https://www.barbadoslawcourts.gov.bb/assets/content/pdfs/statutes/PropertyTransferTaxCAP084A.pdf) + [Withers — Owning Property in Barbados](https://www.withersworldwide.com/en-gb/insight/read/owning-property-in-barbados-taxation-and-expenses) — *verify current threshold with the Registrar (Land Registry) and the conveyancing attorney; threshold last revised by Stamp Duty/PTT amendment — confirm at signing*)
 
 ### Stamp Duty — one-time at sale
 
-Governed by the **Stamp Duty Act, Cap. 91** (statute id cross-referenced on BRA's [Land Development Duty Act, Cap. 78](https://bra.gov.bb/About/Legislation-Regulations/Land-Development-Duty-Act-Cap-78) legislation page — "*Instruments of transfer are not deemed duly stamped under the Stamp Duty Act, Cap. 91…*"). Administered by [BRA](https://bra.gov.bb/).
+Governed by the **Stamp Duty Act, Cap. 91** (statute id cross-referenced on BRA's [Land Development Duty Act, Cap. 78](https://bra.gov.bb/About/Legislation-Regulations/Land-Development-Duty-Act-Cap-78) legislation page — "*Instruments of transfer are not deemed duly stamped under the Stamp Duty Act, Cap. 91…*"). Adjudicated by the **Registrar** — the Registrar of the Supreme Court, of Titles, or of Corporate Affairs and Intellectual Property (Cap. 91 s.2 and s.9(1); the Securities Exchange for public-company securities, s.9(1A)) ([Cap. 91 text — CAIPO](https://caipo.gov.bb/shared/assets/documents/legislation/3.-Stamp-Duty-Act-CAP91.pdf); [Barbados Judicial System — adjudication of documents for stamp duty](https://www.barbadoslawcourts.gov.bb/useful-links/for-public/other-services-and-registrations/adjudication-of-documents-for-stamp-duty-purposes)). Stamp Duty is not among the enactments the BRA administers (BRA Act 2014-1 First Schedule).
 
 - **Conveyance / sale of real estate**: **BBD 10 per BBD 1,000 (or part thereof)** = **1.0%** of gross consideration / fair market value (whichever higher).
 - **Statutory liability + custom**: **vendor pays** (per Cap. 91 — buyer does NOT pay Stamp Duty on a conveyance under Barbadian practice).
@@ -322,11 +323,11 @@ Governed by the **Stamp Duty Act, Cap. 91** (statute id cross-referenced on BRA'
 ### Future risk
 
 - **Personal Income Tax reduction** for income year 2026: **11.5%** (BBD 25,001–75,000) / **27.5%** (above BBD 75,000); BBD 25,000 allowance unchanged (2026-05-27 verified, source: BRA Policy Note 20 Apr 2026).
-- **Land Tax bands** historically restated by S.I.; next revision plausible at 2026 / 2027 budget.
+- **Land Tax bands**: residential zero band widened to BBD 400,000 for 2026-27 (BRA, 24 Aug 2026) with no Rate of Tax Order named; next revision possible at the 2027-28 Budget — check BRA's 2027-28 bill release.
 - **Hurricane levy / disaster-resilience charge** debated periodically post-Beryl 2024 — not enacted as of May 2026.
 - **OECD Pillar Two Global Minimum Tax (15% CIT for in-scope MNEs)**: Barbados has implemented in line with OECD framework — affects MNEs with €750M+ consolidated revenue, NOT individual property owners.
 
-⚠️ Verification: request seller's last **Land Tax receipt + Land Tax assessment**. Confirm current PTT, Stamp Duty, Land Tax bands, and any 2025/2026 PIT changes at [BRA](https://bra.gov.bb/) + attorney before contract.
+⚠️ Verification: request seller's last **Land Tax receipt + Land Tax assessment**. Confirm current Land Tax bands and PIT changes at [BRA](https://bra.gov.bb/), and PTT + Stamp Duty with the Registrar (Land Registry) and the conveyancing attorney, before contract.
 
 ---
 
@@ -718,7 +719,7 @@ See **Foreign buyer eligibility** above for full detail. Summary:
 
 | Route | Threshold | Notes |
 |---|---|---|
-| **Welcome Stamp** (12-month DNV) | **USD 50,000+ income** from foreign employment | USD 2,000 individual / USD 3,000 family fee; 25% renewal discount; tax-exempt on Barbados-sourced presence; Cabinet-renewed to **31 Dec 2026**; processing ~7 business days |
+| **Welcome Stamp** (12-month DNV) | **USD 50,000+ income** from foreign employment | USD 2,000 individual / USD 3,000 family fee; 25% renewal discount; no Barbados income tax on Stamp income generated outside Barbados (Remote Employment Act 2020-23); Cabinet-renewed to **31 Dec 2026** (Cabinet decision of 26 Oct 2023, Ministry of Tourism); processing ~7 business days |
 | **SERP Cat. 1 (HNW)** | **USD 2M Barbados investment + USD 5M+ net worth** | Renewable 5-year + auto work permit; permit fees USD 15,000 (60+) / USD 20,000 (under 60) |
 | **SERP Cat. 2 (Property Owner)** | **USD 300,000+ property** | Renewable 5-year residence; no automatic work right |
 | **SERP Cat. 3 (Special Skills)** | Critical skills | Case-by-case |
@@ -768,7 +769,7 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 
 ### Programme status
 
-- **Renewed by Cabinet to 31 December 2026** (verify current status at portal — Cabinet has renewed multiple times since 2020 launch).
+- **Renewed by Cabinet to 31 December 2026** — Cabinet decision of 26 Oct 2023 ([Ministry of Tourism release](https://www.tourism.gov.bb/News/Press-Releases/Barbados-Welcome-Stamp-Statistics), statistics as of 30 Apr 2024). The Visit Barbados portal publishes no end date, and no decision extending the programme past 31 Dec 2026 was published as of 2026-10-21 — check Ministry of Tourism / GIS releases from Dec 2026.
 - Pre-2026 Cabinet-level review cycles have consistently extended; programme has become a structural part of Barbados' tourism + ICT strategy.
 
 ### Property linkage
@@ -777,7 +778,7 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 - Many holders rent long-term (~6–12 month leases) on the south coast (Christ Church) — driving the **2024–2025 long-term-rental shift** documented by industry secondary sources (Hannah Properties, Spot Blue).
 - For property-buyers, the Welcome Stamp can serve as a **"try before you buy"** route — a year on-island assessing fit before committing to SERP Cat. 2 (USD 300,000+ property route).
 
-(Source: [Welcome Stamp portal — Visit Barbados](https://www.visitbarbados.org/barbados-welcome-stamp) + [Citizen Remote — Barbados DNV](https://citizenremote.com/visas/barbados-digital-nomad-visa/) + [TaxHackers — Barbados DNV 2025](https://taxhackers.io/blog/en-barbados-digital-nomad-visa) — primary portal + secondary aggregators; *verify current threshold + fee + Cabinet renewal status at portal before relying*)
+(Source: [Welcome Stamp portal — Visit Barbados](https://www.visitbarbados.org/barbados-welcome-stamp) + [Citizen Remote — Barbados DNV](https://citizenremote.com/visas/barbados-digital-nomad-visa/) + [TaxHackers — Barbados DNV 2025](https://taxhackers.io/blog/en-barbados-digital-nomad-visa) — primary portal + secondary aggregators; programme end date: [Ministry of Tourism release](https://www.tourism.gov.bb/News/Press-Releases/Barbados-Welcome-Stamp-Statistics) (Cabinet, 26 Oct 2023); tax position: Remote Employment Act 2020-23 ss.4 and 6 ([2020 bill as introduced](https://barbadosparliament.com/uploads/bill_resolution/1060cadd77eb3b54bb81b5b5b7ba1177.pdf)); renewal fee: s.7A ([2021 amendment bill](https://www.barbadosparliament.com/uploads/bill_resolution/5cf546de19afb115595baf6a91211d4e.pdf)); *verify current threshold + fee at the portal and Cabinet renewal status with the Ministry of Tourism before relying*)
 
 ---
 
@@ -794,7 +795,7 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 | Title insurance (optional, recommended) | ~0.5% of value |
 | **Total transaction cost — buyer side** | **~2.0–3.0% of price** |
 | **Total transaction cost — vendor side** | **~9.0–10.5% of price** |
-| **Annual Land Tax (owner-occupied, > BBD 150k improved value)** | 0.10–1.0% banded; capped at **BBD 100,000 total/year** |
+| **Annual Land Tax (residential, > BBD 400k improved value, 2026-27)** | 0.1–1.0% banded on the portion above BBD 400,000 (BRA, 24 Aug 2026); BBD 100,000 annual cap UNVERIFIED |
 | **HOA fees (Sandy Lane / Royal Westmoreland / Apes Hill / Port St. Charles)** | USD **5,000–25,000+/yr** typical (verify per development) |
 | Hurricane + all-risk insurance (post-Beryl) | **0.5–1.5% of insured value/yr** (verify with carriers; pre-Beryl was lower) |
 | Welcome Stamp application | USD 2,000 individual / USD 3,000 family |
@@ -809,7 +810,7 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 ### Tax-incentive regimes (real-estate-relevant)
 
 - **NO capital gains tax / inheritance tax / wealth tax** — universally applies.
-- **Welcome Stamp**: USD 50,000+ income; tax-exempt on Barbados-sourced foreign-employment income.
+- **Welcome Stamp**: USD 50,000+ income generated outside Barbados; no Barbados income tax on that income (Remote Employment Act 2020-23 ss.4 and 6).
 - **SERP Cat. 1 / 2 / 3 / 4**: residence-by-investment or skills route.
 - **Tourism Development Act** — incentives for hotel + ancillary tourism developments (NOT ordinary single-family vacation rentals): customs-duty + tax-incentive periods; targeted at developers building qualifying tourism developments.
 - **International Business Companies / Foundations**: Barbados retains a moderate-tax CIT regime (now aligned with OECD Pillar Two for in-scope MNEs) + extensive DTA network — relevant for buyers structuring through Barbadian holding companies for international tax planning (consult specialist).
@@ -843,7 +844,7 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 - **CBB Exchange Control registration is the foreign-buyer gating step**: not an ownership restriction, but a **mandatory administrative filing** (via attorney + authorised dealer) for the incoming purchase funds. **Failure to register at purchase blocks future repatriation of capital + gains on resale**. Always confirm in writing with attorney before completion.
 - **Vendor-heavy closing-cost structure**: **PTT 2.5% + Stamp Duty 1.0% + agent 5% + VAT** all fall on the vendor — total ~**9–10.5%** vendor side. Built into asking-price. **Buyer-side closing costs are unusually low** (~2–3%) by comparison.
 - **PTT exemption only above a building**: the BBD 150,000 PTT exemption applies **only where a building exists** on the land. **Vacant-land sales attract PTT on the full consideration** with no exemption.
-- **Land Tax cap BBD 100,000/year** above the BBD 850,000 band — a ceiling that makes Barbadian Land Tax the **lowest annual property tax burden in the Caribbean** for ultra-luxury holdings.
+- **Land Tax cap — UNVERIFIED**: the BBD 100,000/year ceiling quoted by PwC Tax Summaries appears in no primary source checked (S.I. 2024 No. 57, BRA FAQ, Land Tax Act Cap. 78A text). Do not base a lowest-burden verdict on it — model ultra-luxury holdings at 1% on improved value above BBD 950,000 (2026-27 residential bands, BRA 24 Aug 2026) unless BRA confirms a cap in writing.
 - **Title-system duality**: most parcels still on **deeds-recording / abstract-of-title**, not the Title Registration Act 1979 Torrens-style system. Specialist attorney essential. Land (Title Proceedings) Act 2011-7 modernised the judicial path to register clouded titles.
 - **Hurricane Beryl (1 July 2024)** is the **modern calibration event** — the prior comparable pass was Hurricane Ivan (7 Sep 2004, Cat 3 ~165 km south — est. from NHC best track; >176 homes destroyed per NHC TCR AL092004); post-Beryl premium re-pricing: data not publicly available — verify with carriers and FSC Barbados. **3+ insurance quotes** for any oceanfront / south-coast / south-east-coast parcel pre-contract is now mandatory practice.
 - **South + south-east coasts are the storm-surge-exposed coasts**: not the west coast (which faces away from prevailing storm tracks). St. Philip + south Christ Church + south St. Michael fishing villages were Beryl 2024 footprint.
@@ -873,10 +874,10 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 
 | Authority | When to call |
 |---|---|
-| **Barbados Revenue Authority (BRA)** | Land Tax + PTT + Stamp Duty + VAT + PIT |
+| **Barbados Revenue Authority (BRA)** | Land Tax + VAT + PIT + land valuation + the land-tax certificate the Registrar needs before stamping a conveyance |
 | **Central Bank of Barbados (CBB)** | Exchange Control registration + currency + mortgage prudential |
 | **Lands and Surveys Department (LSD)** | Survey plans + Crown Land + boundary verification |
-| **Land Registry / Registration Office** | Title deeds + abstract + Title Registration Act 1979 + Strata |
+| **Land Registry / Registration Office** | Title deeds + abstract + Title Registration Act 1979 + Strata; PTT payment + Stamp Duty adjudication (Registrar of the Supreme Court / Registrar of Titles — PTT Act Cap. 84A s.3(1), Stamp Duty Act Cap. 91 s.9(1)) |
 | **Immigration Department** | Welcome Stamp + SERP + work permits + residency |
 | **Town & Country Development Planning Office** | Building permits + planning approvals + zoning |
 | **Coastal Zone Management Unit (CZMU)** | Coastal setbacks + storm surge + erosion mapping |
@@ -895,7 +896,10 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 
 | Source | URL pattern |
 |---|---|
-| Barbados Revenue Authority (Land Tax + PTT + Stamp Duty + VAT + PIT) | `https://bra.gov.bb/` |
+| Barbados Revenue Authority (Land Tax + VAT + PIT) | `https://bra.gov.bb/` |
+| Property Transfer Tax Act Cap. 84A (Registrar administers) | `https://www.barbadoslawcourts.gov.bb/assets/content/pdfs/statutes/PropertyTransferTaxCAP084A.pdf` |
+| Stamp Duty Act Cap. 91 (Registrar adjudicates) | `https://caipo.gov.bb/shared/assets/documents/legislation/3.-Stamp-Duty-Act-CAP91.pdf` |
+| Barbados Judicial System — stamp-duty adjudication | `https://www.barbadoslawcourts.gov.bb/useful-links/for-public/other-services-and-registrations/adjudication-of-documents-for-stamp-duty-purposes` |
 | Central Bank of Barbados | `https://www.centralbank.org.bb/` |
 | CBB — Exchange Control | `https://www.centralbank.org.bb/foreign-exchange/exchange-control-guide` |
 | Lands and Surveys Department | `https://www.landsandsurveys.gov.bb/` |
@@ -922,11 +926,11 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 
 **Status**: ✅ fully populated as of 2026-08-06
 **Confidence**: MEDIUM-HIGH —
-- **HIGH** for legal/structural framework: Property Act Cap. 236, Title Registration Act Cap. 229 (1979), Land (Title Proceedings) Act 2011-7, Property Transfer Tax Act Cap. 84A, Stamp Duty Act Cap. 91, Land Tax Act Cap. 78A, Exchange Control Act Cap. 71, VAT Act Cap. 87 — all primary statutes cited and verifiable via [BRA](https://bra.gov.bb/) and [CBB](https://www.centralbank.org.bb/).
+- **HIGH** for legal/structural framework: Property Act Cap. 236, Title Registration Act Cap. 229 (1979), Land (Title Proceedings) Act 2011-7, Property Transfer Tax Act Cap. 84A, Stamp Duty Act Cap. 91, Land Tax Act Cap. 78A, Exchange Control Act Cap. 71, VAT Act Cap. 87 — all primary statutes cited; Land Tax, VAT and Income Tax texts via [BRA](https://bra.gov.bb/About/Legislation-Regulations), PTT Act Cap. 84A via the [Barbados Judicial System](https://www.barbadoslawcourts.gov.bb/assets/content/pdfs/statutes/PropertyTransferTaxCAP084A.pdf) and [CAIPO](https://caipo.gov.bb/legislation), Stamp Duty Act Cap. 91 via [CAIPO](https://caipo.gov.bb/shared/assets/documents/legislation/3.-Stamp-Duty-Act-CAP91.pdf), Exchange Control Act via [CBB](https://www.centralbank.org.bb/).
 - **HIGH** for the 2:1 BBD-USD peg since 5 July 1975 (CBB primary).
-- **HIGH** for Welcome Stamp eligibility (USD 50,000 income), fee structure (USD 2,000 individual / USD 3,000 family), and Cabinet renewal to 31 Dec 2026 (Visit Barbados portal primary + IMI Daily / Citizen Remote secondary aggregators agree).
-- **HIGH** for current Land Tax bands per Land Tax (Rate of Tax) Order 2024 (S.I. 2024 No. 57, BRA-published PDF) — bands cited as commonly published Q1 2026; verify next budget cycle.
-- **HIGH** for PTT structure (2.5% above BBD 150,000 with building) and Stamp Duty 1% on conveyance (vendor-paid) — PwC + Withers + Barbados Sotheby's all align with BRA primary.
+- **HIGH** for Welcome Stamp eligibility (USD 50,000 income), fee structure (USD 2,000 individual / USD 3,000 family), and Cabinet renewal to 31 Dec 2026 (Cabinet decision of 26 Oct 2023 per the [Ministry of Tourism release](https://www.tourism.gov.bb/News/Press-Releases/Barbados-Welcome-Stamp-Statistics); the Visit Barbados portal publishes no end date).
+- **HIGH** for 2026-27 residential Land Tax bands (0% up to BBD 400,000 / 0.1% / 0.7% / 1% above BBD 950,000 — BRA release 24 Aug 2026, 2026-10-21 verified); **MEDIUM** for vacant-land rates (S.I. 2024 No. 57 and the BRA FAQ disagree on the 0.90% band); **LOW** for the BBD 100,000 annual cap (no primary source).
+- **HIGH** for PTT structure (2.5% above BBD 150,000 with building) and Stamp Duty 1% on conveyance (vendor-paid) — PwC + Withers + Barbados Sotheby's (secondary) agree; PTT Act s.5 sets 2.5%; both taxes are administered / adjudicated by the Registrar (Cap. 84A s.3(1), Cap. 91 s.9(1)), not the BRA.
 - **HIGH** for Hurricane Beryl 2024 calibration (ECLAC primary assessment, ~BBD 193M effects, 50 homes damaged, ~240 of 312 active fishing vessels totally or partially damaged per ECLAC 2025 LC/TS.2025/45, south + south-west coast concentration) (2026-09-24 verified).
 - **HIGH** for CBB Exchange Control registration as the foreign-buyer gating step (CBB Exchange Control Guide primary).
 - **MEDIUM** for 2026 PIT band reduction (BRA Policy Note 20 April 2026 referenced; new bands not yet published in this draft) — verify when published.
@@ -936,14 +940,14 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 - **MEDIUM** for 2024 homicide rate (~17.7/100k, 50 cases) — RBPF primary aggregated by Caribbean Signal / Barbados Underground secondary; geographic concentration in St. Michael well documented.
 - **LOW** for parcel-level storm-surge / coastal-flood mapping outside CZMU priority areas — coverage uneven; verify per parcel via CZMU + DEM + engineering survey.
 - **LOW** for traffic AADT — no public AADT portal; OSM + on-site observation is the practical method.
-**Last verified**: 2026-08-06. Risks tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-08-06. Risks tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Risks tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Land Tax bands and the Welcome Stamp source and tax wording re-checked 2026-10-21 (see shared/regulatory-watch.md); PTT / Stamp Duty administering authority corrected 2026-10-21 against the PTT Act Cap. 84A and Stamp Duty Act Cap. 91 texts.
 
 ## Extension TODOs
 
 - [ ] BRA 2026 PIT band reduction — track Policy Note finalisation (referenced 20 April 2026)
-- [ ] Land Tax (Rate of Tax) next Order — track 2026/2027 budget cycle
+- [ ] Land Tax — identify the instrument behind the 2026-27 zero-band widening (BBD 300,000 → 400,000) and confirm or drop the BBD 100,000 cap; track the 2027-28 Budget and bill release (revisit 2027-04-01)
 - [ ] PTT threshold + Stamp Duty rate — track annual budget
-- [ ] Welcome Stamp post-31-Dec-2026 status — Cabinet renewal pattern (renewed multiple times since 2020 launch)
+- [ ] Welcome Stamp post-31-Dec-2026 status — check Ministry of Tourism / GIS releases on 2026-12-01 and in early Jan 2027 for a Cabinet decision beyond 31 Dec 2026 (renewed multiple times since 2020 launch)
 - [ ] SERP Cat. 1/2 thresholds — Immigration Department updates
 - [ ] Hurricane Beryl 2024 insurance market re-rating — FSC + carrier appetite update
 - [ ] Coastal Zone Management Act setback updates post-Beryl

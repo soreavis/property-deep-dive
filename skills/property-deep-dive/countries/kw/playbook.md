@@ -314,7 +314,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 ### Kafala (sponsorship) reform notes
 
 - Kuwait has been **slower** than UAE/Saudi/Qatar in reforming the kafala system
-- **Public Authority for Manpower (PAM — الهيئة العامة للقوى العاملة)** — administers the private-sector labour market under **Law 6/2010 on Labour in the Private Sector**. PAM's domain is `manpower.gov.kw` (the previously cited `pam.gov.kw` does not resolve); it refuses non-Kuwaiti traffic, so verify the law text and current procedures from a Kuwaiti connection or at the **Kuwait Central Statistical Bureau** [`https://csb.gov.kw/`](https://csb.gov.kw/) for wage and workforce data (2026-09-18 verified — DNS only for manpower.gov.kw; no page content retrieved). Note **PACI** (`https://www.paci.gov.kw/`) is a different body — the Public Authority for Civil Information, which issues the Civil ID and the national address register.
+- **Public Authority for Manpower (PAM — الهيئة العامة للقوى العاملة)** — administers the private-sector labour market under **Law 6/2010 on Labour in the Private Sector**. PAM's domain is `manpower.gov.kw` (the previously cited `pam.gov.kw` does not resolve); it refuses non-Kuwaiti traffic, so verify the law text and current procedures from a Kuwaiti connection or at the **Kuwait Central Statistical Bureau** [`https://csb.gov.kw/`](https://csb.gov.kw/) for wage and workforce data (2026-10-21: `pam.gov.kw` NXDOMAIN and no Wayback captures found; `manpower.gov.kw` resolves but timed out from a non-Kuwaiti connection; its Wayback capture of 21 Jan 2026 is titled الهيئة العامة للقوى العاملة). Note **PACI** (`https://www.paci.gov.kw/`) is a different body — the Public Authority for Civil Information, which issues the Civil ID and the national address register.
 - **No-objection certificate (NOC)** historically required to switch employers; recent administrative reforms have eased some categories but full Saudi/Qatar-style abolition not yet enacted
 - **Domestic worker law (Law 68/2015)** — formal protections for domestic workers; minimum wage KWD 60/month + working-hour limits
 
@@ -334,7 +334,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 - **White-collar expat (Kuwait City CBD, finance/tech/consulting/legal)**: **KWD 1,500–4,500/month**
 - **Senior manager / director (oil + gas, banking, top-tier consulting)**: **KWD 5,000–12,000+/month**
 - **KOC / KNPC / KPC senior**: **KWD 6,000–15,000+/month** + housing + transport + schooling
-- **Minimum wage (Kuwaiti private sector, 2018)**: KWD 75/month (verify [PAM](https://pam.gov.kw/))
+- **Minimum wage (Kuwaiti private sector, 2018)**: KWD 75/month (verify [PAM](https://manpower.gov.kw/) — timed out from outside Kuwait on 2026-10-21)
 - **Minimum wage (domestic workers, Law 68/2015)**: KWD 60/month + food/housing
 
 (Sources: Bayt.com Kuwait Salary Guide; GulfTalent annual reports; PAM minimum wage — *verify current at PAM*)
@@ -737,7 +737,7 @@ Kuwait uses a **civil-law notary system** (notary office under Ministry of Justi
 | Country | Foreign-buyer rule | Acquisition cost (typical) | Annual recurring | Yield (Q4 2025) | Currency | Visa via property |
 |---|---|---:|---:|---:|---|---|
 | **🇰🇼 Kuwait** | **Restricted — non-GCC individuals CANNOT own residential** | 3–4% (cash) where eligible | None | ~5–7% | KWD basket-managed | **NONE** |
-| **🇸🇦 Saudi Arabia** | Designated zones from Jan 2026 (Mecca/Medina excluded) | 5–8% | None on developed (White Land + Vacant Property Fees up to 10%/yr on undev ≥5,000 m²) | ~5.5–7.5% Riyadh | SAR pegged USD | Premium Residency SAR 4M |
+| **🇸🇦 Saudi Arabia** | Designated zones from Jan 2026 (Makkah/Madinah: Muslim natural persons only) | 5–8% | None on occupied developed (White Land + Vacant Property Fees up to 10%/yr on undev ≥5,000 m²; long-vacant buildings up to 5% of value in announced zones, none as at 2026-10-21) | ~5.5–7.5% Riyadh | SAR pegged USD | Premium Residency SAR 4M |
 | **🇦🇪 UAE** | Designated freehold zones (Dubai 2002+, Abu Dhabi 2019/2021) | 6–8% Dubai | None for owner-occ; service charges | ~6–8% Dubai | AED pegged USD | Golden Visa AED 2M |
 | **🇶🇦 Qatar** | 9 freehold + 16 leasehold designated zones | 3–4% | None for owner-occ | ~5–7% | QAR pegged USD | Investor Residency QAR 730k |
 | **🇧🇭 Bahrain** | Open freehold for foreigners in designated areas | 4–7% | None for owner-occ | ~6–8% | BHD pegged USD | Golden Residency BHD 200k |
@@ -1104,7 +1104,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 | Source | URL |
 |---|---|
-| Kuwait Government Portal | `https://www.kuwait.gov.kw/` |
+| Kuwait Government Online (national e-government portal) | `https://e.gov.kw/sites/kgoenglish/Pages/HomePage.aspx` |
 | Ministry of Justice (MOJ) | `https://www.moj.gov.kw/` |
 | PACI (Public Authority for Civil Information) | `https://www.paci.gov.kw/` |
 | Kuwait Municipality (Baladia) | `https://www.baladia.gov.kw/` |
@@ -1117,7 +1117,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Kuwait Meteorological Department (KMD) | `https://www.met.gov.kw/` |
 | Environment Public Authority (EPA) | `https://epa.gov.kw/` |
 | Kuwait Fire Force | `https://www.kff.gov.kw/` |
-| Public Authority for Manpower (PAM) | `https://pam.gov.kw/` |
+| Public Authority for Manpower (PAM) | `https://manpower.gov.kw/` |
 | Ministry of Interior (MOI) | `https://www.moi.gov.kw/` |
 | MOI eVisa | `https://evisa.moi.gov.kw/` |
 | Civil Service Bureau (CSB — for laws) | `https://www.csb.gov.kw/` |

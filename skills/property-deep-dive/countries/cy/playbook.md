@@ -39,8 +39,8 @@ Cyprus is a **divided island**: SOUTH = Republic of Cyprus (RoC), EU+eurozone si
 |---|---|---|
 | Bazaraki | https://www.bazaraki.com/ | #1 by listing volume (cars+property+jobs) |
 | Sale.com.cy | https://www.sale.com.cy/ ❌ DEPRECATED — primary source removed; verify with Department of Lands and Surveys, Cyprus (https://portal.dls.moi.gov.cy/) | Property + cars/general |
-| Cyprus Property Pal | https://www.cypruspropertypal.com/ | Dedicated property aggregator |
-| RealEstate.com.cy | https://www.realestate.com.cy/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Premium-positioned |
+| home.cy | https://home.cy/ | Dedicated residential sale/rent marketplace; listings advertised by estate agents, developers and other real-estate professionals; sister sites land.cy (land) and commercial.cy (per site, 2026-10-21 — listing platform, seller-controlled). Replaces "Cyprus Property Pal" (cypruspropertypal.com), which does not resolve (DNS 2026-10-21) and has no Wayback Machine capture, so it is unconfirmed that it ever operated |
+| INDEX.cy | https://index.cy/ | Aggregator of agency + developer sale/rent listings, plus bank-auction (repossession) notices with reserve prices (per site, 2026-10-21 — listing platform, seller-controlled). Replaces RealEstate.com.cy, a parked domain since at least 2017 that no longer resolves (DNS 2026-10-21) |
 | DOM | https://dom.com.cy/ | Russian-tinge, popular with CIS buyers |
 
 **Verdict bands**:
@@ -108,7 +108,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 
 ### Rental Income — `2026 REFORM`
 
-- **SDC on rental income: ABOLISHED from 1 Jan 2026** as part of the Tax Reform package in force 1 Jan 2026. (Pre-2026: 3% × 75% of gross rent = effective 2.25% for CY tax-resident AND domiciled individuals; non-doms exempt under 17-year regime) (2026-08-07 verified, source: Ministry of Finance / Cyprus Tax Department — enacting amending law not identified by the source consulted; **Law 242(I)/2025 amends the Capital Gains Tax Law and is NOT the SDC instrument**. Verify with the Cyprus Tax Department before citing any law number here)
+- **SDC on rental income: ABOLISHED from 1 Jan 2026** as part of the Tax Reform package in force 1 Jan 2026. (Pre-2026: 3% × 75% of gross rent = effective 2.25% for CY tax-resident AND domiciled individuals; non-doms exempt under 17-year regime) (2026-08-07 verified, source: Ministry of Finance / Cyprus Tax Department — enacting law: ο περί Έκτακτης Εισφοράς για την Άμυνα της Δημοκρατίας (Τροποποιητικός) (Αρ. 4) Νόμος του 2025, Law 245(I)/2025, Official Gazette Αρ. 5070 of 31 Dec 2025, in force 1 Jan 2026 — it deletes the rent definitions, replaces s.3 with a dividends-only charge and deletes «ή τα ενοίκια» from the s.4(2) proviso (2026-10-21 verified, source CyLaw https://www.cylaw.org/nomoi/arith/2025_1_245.pdf); **Law 242(I)/2025 amends the Capital Gains Tax Law and is NOT the SDC instrument**)
 - **Income tax** (progressive, above) still applies to rental profit (after 20% notional deduction + actual expenses + capital allowances)
 - **GHS contribution (GeSY)**: 2.65% on rental income for healthcare system
 
@@ -138,7 +138,7 @@ Applied on assessed market value (DLS valuation, not necessarily contract price)
 - **Penalties**: up to €5,000 + up to 1 year imprisonment for serious safety breaches
 - **2025 enforcement crackdown**: ~12,000–13,000 STR units estimated; only 8,375 registered (May 2025); active inspector raids in Limassol/Paphos
 - **No general bed-night tax** in RoC (unlike GR, IT). Some municipalities considering — verify per 2026
-- **Rental-income taxation**: see `--tax` § Rental Income — **SDC on rental income abolished from 1 Jan 2026** (2026 Tax Reform package; no law number cited — the primary source consulted does not name the SDC amending instrument); income tax + GHS still apply
+- **Rental-income taxation**: see `--tax` § Rental Income — **SDC on rental income abolished from 1 Jan 2026** (2026 Tax Reform package; SDC amending Law 245(I)/2025, Official Gazette Αρ. 5070 of 31 Dec 2025, in force 1 Jan 2026); income tax + GHS still apply
 
 ---
 
@@ -352,7 +352,7 @@ Some properties in RoC have pre-1974 Turkish-Cypriot owners (now under "Custodia
 
 **Confidence**: HIGH on 2026 Tax Reform (CGT exemption uplifts + SDC-on-rental abolition verified 2026-08-07 against the primary Cyprus Tax Department / Ministry of Finance source; PwC/KPMG/Sovereign retained as cross-checks), Hermes STR registration mandatory since 6 Feb 2023, 2021 Limassol wildfires (4 dead, ~55 km² / 5,500 ha, major DD anchor for foothill properties), 2025 worst-drought-since-1901 + reservoir levels, Russian-buyer post-2022 sanctions enforcement (CySEC C728 expanded 23 Sep 2025). MEDIUM on per-municipality local IPT (verify per locality), SDA-equivalent (no formal CY SDA list — different from MT), no real-estate-specific stamp-duty exceptions retained from the 2026 abolition — only judicial / court fees survive (verify per transaction). LOW on TRNC IPC application data + reunification negotiations (politically dynamic — snapshot only).
 
-**Last verified**: 2026-08-07 (scope: `--tax` CGT exemptions + SDC-on-rental abolition only, against the Cyprus Tax Department / Ministry of Finance primary source; the rest of the playbook stands as of its 2026-04-26 population and 2026-05-27 checks; flood-map authority (Water Development Department) corrected 2026-09-18 per gov.cy/moa-wdd). Ownership / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-08-07 (scope: `--tax` CGT exemptions + SDC-on-rental abolition only, against the Cyprus Tax Department / Ministry of Finance primary source; the rest of the playbook stands as of its 2026-04-26 population and 2026-05-27 checks; flood-map authority (Water Development Department) corrected 2026-09-18 per gov.cy/moa-wdd). Ownership / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Ownership / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)

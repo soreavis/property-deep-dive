@@ -105,7 +105,7 @@ Source: Banque du Liban (BDL) `https://www.bdl.gov.lb/`; Association of Banks in
 2. **Cabinet authorization Decree (non-Arab foreigners)** — copy of the published Decree (Official Gazette) authorizing the specific transaction. Without this, title cannot be registered.
 3. **Plot identifier triplet match** — verify Property Number + Lot + Cadastral Zone against deed and survey map.
 4. **Survey extract (مخطط مساحي)** — confirm boundaries; commission a licensed surveyor for plot/villa purchases.
-5. **Building permit + occupancy certificate (رخصة بناء + شهادة إشغال)** — issued by the local municipality (Beirut Municipality `https://www.beirutmunicipality.gov.lb/` for Beirut; relevant baladiya elsewhere).
+5. **Building permit + occupancy certificate (رخصة بناء + شهادة إشغال)** — issued by the local municipality (Beirut Municipality `https://www.beirutmunicipality.gov.lb/` ❌ DEPRECATED — dead on 2026-10-21; verify with Beirut Municipality (بلدية بيروت) for Beirut; relevant baladiya elsewhere).
 6. **War-damage assessment** — for properties in S Lebanon, Bekaa, Beirut Dahieh + immediate Beirut Port surroundings + any 2024-war-affected zone, commission an independent structural + remediation assessment. Verify any post-2024 reconstruction permits.
 7. **Real estate tax clearance (مخالصة ضريبة الأملاك المبنية)** — no outstanding annual property tax. Issued by municipality + Ministry of Finance.
 8. **Utility clearances** — Électricité du Liban (EDL `https://www.edl.gov.lb/` — chronic supply issues; private generators standard), water (regional water establishments), telecom.
@@ -129,7 +129,7 @@ Source: Banque du Liban (BDL) `https://www.bdl.gov.lb/`; Association of Banks in
 - **Order of Engineers and Architects in Beirut (OEA Beirut)** — `https://www.oea.org.lb/` — building permit data; architectural fee schedules.
 - **Order of Engineers and Architects in Tripoli (OEA Tripoli)** — `https://www.oea-tripoli.org.lb/` — North Lebanon coverage.
 - **Ministry of Finance cadastre directorate** — `https://www.finance.gov.lb/` — registers transaction declared values for tax purposes. **Lebanon does NOT publish a public address-level transaction-price database** comparable to UK Land Registry or FR DVF. Declared values understated for tax mitigation; fresh-USD-cash transactions tend to show wider declared-vs-actual gaps.
-- **Real estate consultancy reports**: **Ramco Real Estate** (`https://www.ramcolb.com/`), **ATG Real Estate**, **Plus Properties** (`https://www.plusproperties.com.lb/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row, **Berytech / RAMCO market reports**, **MEA Property** — quarterly + annual reports (secondary; verify methodology). Public summaries available; full reports paywalled.
+- **Real estate consultancy reports**: **Ramco Real Estate** (`https://www.ramcolb.com/`), **ATG Real Estate**, **Plus Properties** (`https://www.pluspropertieslebanon.com/`) (developer + sales agent; no market-report section on its site, checked 2026-10-21), **Berytech / RAMCO market reports**, **MEA Property** — quarterly + annual reports (secondary; verify methodology). Public summaries available; full reports paywalled.
 
 ### Listing platforms (asking prices, not transaction)
 
@@ -140,7 +140,7 @@ Source: Banque du Liban (BDL) `https://www.bdl.gov.lb/`; Association of Banks in
 | **Property Lebanon** (`https://www.propertylebanon.com/`) | National | Established; English-friendly |
 | **Beirut Property** | Beirut-focused | Premium listings |
 | **Lebanon Real Estate** | National | Cross-border; English |
-| **Plus Properties** (`https://www.plusproperties.com.lb/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Beirut + Mount Lebanon premium | Agency-direct; high-end villas + apartments |
+| **Plus Properties** (`https://www.pluspropertieslebanon.com/`) | Beirut + Mount Lebanon premium | Developer-direct (own projects + sales for third-party projects); high-end apartments |
 | **Ramco** (`https://www.ramcolb.com/`) | National + diaspora-targeted | Detailed market reports + listings |
 
 ### Price benchmarks — asking-side (2026, USD; LBP-denominated quotes are unreliable post-crisis)
@@ -232,7 +232,7 @@ OSM `highway` class (Lebanon OSM coverage is good in Beirut + Mount Lebanon, dec
 
 ### Annual property tax — Built Property Tax (ضريبة الأملاك المبنية / Mahriyet al-Mil'k al-Mabani)
 
-Administered jointly by **municipality + Ministry of Finance** under successive Built Property Tax laws (most recent significant reform **2018–2019** modified rates + bands). Source: Ministry of Finance `https://www.finance.gov.lb/`; Beirut Municipality `https://www.beirutmunicipality.gov.lb/` for Beirut; relevant baladiya elsewhere.
+Administered jointly by **municipality + Ministry of Finance** under successive Built Property Tax laws (most recent significant reform **2018–2019** modified rates + bands). Source: Ministry of Finance `https://www.finance.gov.lb/`; Beirut Municipality `https://www.beirutmunicipality.gov.lb/` ❌ DEPRECATED — dead on 2026-10-21; verify with Beirut Municipality (بلدية بيروت) for Beirut; relevant baladiya elsewhere.
 
 **Computed**: Tax assessed on **annual rental value** (`القيمة الإيجارية السنوية`) of the property — the committee-assessed rentable value, NOT actual rent received. Assessment incl. location, finish, age, services.
 
@@ -577,7 +577,7 @@ This is a **distinctive Lebanese quirk**. Even properties with mains EDL connect
 | **OLX Lebanon** (`https://olx.com.lb/`) | Largest classifieds; broad inventory |
 | **RealEstate.com.lb** (`https://www.realestate.com.lb/`) | Real-estate-focused; cleaner inventory |
 | **Property Lebanon** (`https://www.propertylebanon.com/`) | English-friendly |
-| **Plus Properties** (`https://www.plusproperties.com.lb/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Beirut + Mount Lebanon premium |
+| **Plus Properties** (`https://www.pluspropertieslebanon.com/`) | Beirut + Mount Lebanon premium (developer's own projects) |
 | **Ramco** (`https://www.ramcolb.com/`) | National + diaspora-targeted; market reports |
 | **Beirut Property** | Beirut-focused premium |
 | **Solidere SAL direct** (`https://www.solidere.com/`) | BCD primary + secondary market |
@@ -675,7 +675,7 @@ This is a **distinctive Lebanese quirk**. Even properties with mains EDL connect
 | Banque du Liban (BDL) | `https://www.bdl.gov.lb/` |
 | Central Administration of Statistics (CAS) | `http://www.cas.gov.lb/` |
 | Lebanese Customs | `https://www.customs.gov.lb/` |
-| Beirut Municipality | `https://www.beirutmunicipality.gov.lb/` |
+| Beirut Municipality | `https://www.beirutmunicipality.gov.lb/` ❌ DEPRECATED — dead on 2026-10-21; verify with Beirut Municipality (بلدية بيروت) |
 | Presidency of the Republic | `https://www.presidency.gov.lb/` |
 | Ministry of Interior and Municipalities | `https://www.moim.gov.lb/` |
 | General Security (Sûreté Générale) | `https://www.general-security.gov.lb/` |
@@ -704,7 +704,7 @@ This is a **distinctive Lebanese quirk**. Even properties with mains EDL connect
 | OLX Lebanon | `https://olx.com.lb/` |
 | RealEstate.com.lb | `https://www.realestate.com.lb/` |
 | Property Lebanon | `https://www.propertylebanon.com/` |
-| Plus Properties | `https://www.plusproperties.com.lb/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Plus Properties | `https://www.pluspropertieslebanon.com/` |
 | Ramco Real Estate Database | `https://www.ramcolb.com/` |
 | Bayt Lebanon (jobs) | `https://www.bayt.com/en/lebanon/` |
 | Hirelebanese (jobs) | `https://www.hirelebanese.com/` |

@@ -100,7 +100,7 @@ jobs:
       - name: Upload cache artifact (90-day retention)
         # Always upload — even on score below threshold — so next run has the
         # latest fail-streak state.
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
         with:
           name: url-liveness-cache
           path: _ci/cache.json
@@ -110,7 +110,7 @@ jobs:
       - name: Upload last-success timestamp (90-day retention)
         # Written only when the score met threshold this run; absent otherwise,
         # so the next run's "Previous successful run" line stays meaningful.
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
         with:
           name: url-liveness-last-success
           path: _ci/last-success.txt
@@ -118,7 +118,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: Upload full run artifact (90-day retention)
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
         with:
           name: url-liveness-${{ github.run_id }}
           path: _ci/

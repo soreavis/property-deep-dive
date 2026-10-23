@@ -628,14 +628,14 @@ Moldova is **civil-law**; **notar** mandatory for any immovable-property transfe
 | **🇲🇩 Moldova** | Open (residential); ag/forest banned for foreign individuals | 1.5–3% | 0.05–0.4% × cadastral value | ~5–8% Chișinău | MDL managed-float |
 | **🇷🇴 Romania** | EU/EEA full; non-EU buildings only (no land) | ~2–3% | ~0.1–0.3% × cadastral (rising 2026 reform) | ~5–7% Bucharest | RON managed-float |
 | **🇺🇦 Ukraine** | War conditions — DD highly disrupted | n/a (war) | n/a | n/a | UAH war regime |
-| **🇧🇬 Bulgaria** | EU/EEA full; non-EU residential OK; ag land restricted | ~3–5% | low | ~4–6% Sofia | BGN currency-board to EUR |
+| **🇧🇬 Bulgaria** | EU/EEA land OK (ag-land 5-yr residence rule contested, CJEU C-562/22); non-EU/EEA buildings only, no land except by treaty or inheritance | ~3–5% | low | ~4–6% Sofia | EUR (eurozone since 1 Jan 2026) |
 | **🇬🇪 Georgia** | Open (residential); ag banned post-2017 | 0.1–0.5% | 0–1% × market (income-threshold) | ~6–10% Tbilisi | GEL managed-float |
 
 ### Moldova's distinctive position
 
 - **Lower property-acquisition tax than Romania/Bulgaria** (1.5–3% vs Romania 2–3% post-2026 reform; Bulgaria 3–5% — though Georgia lower still at 0.1–0.5%, see table above)
 - **EU candidate (Jun 2022) + accession negotiations open (Jun 2024)** — accession path active; multi-year horizon; pricing today reflects "EU candidate discount" (BNS IPLR materially below regional EU peer per-€/m² comparison)
-- **Currency risk**: MDL managed-float more volatile than BGN (currency-board) or RON (managed); position-size accordingly
+- **Currency risk**: MDL managed-float more volatile than RON (managed), while Bulgaria has carried no local-currency risk for euro buyers since adopting the EUR on 1 Jan 2026; position-size accordingly
 - **Romania-citizenship adjacency**: large eligible-by-descent pool gives structural exit-optionality
 - **War-spillover risk premium**: 2022 demonstrated meaningful tail risk; insurance + cash-purchase prevalence reflect
 

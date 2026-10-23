@@ -182,7 +182,7 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 | Tax | Rate (non-resident) | Notes |
 |---|---:|---|
 | Annual property tax | <per-country> | Often higher rate for non-residents |
-| Imputed rental income | <e.g., ES IRNR 2% × cadastral value × 24%> | EU vs non-EU rates differ |
+| Imputed rental income | <e.g., ES IRNR (2% or 1.1%) × cadastral value × 24% non-EU / 19% EU; progressive scale on summed values from 2027 if RDL 29/2026 is convalidated> | EU vs non-EU rates differ |
 | Capital gains | <per-country> | Higher rate for non-residents (e.g., ES 19% non-EU vs 19% EU) |
 | Wealth tax (where applicable) | <e.g., ES IP, FR IFI> | Generally non-residents only on local assets |
 | Inheritance / gift tax | <per-country> | Often more punitive on non-resident heirs |
@@ -213,6 +213,7 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 - 🔴 Properties listed in foreign currency at unfavorable rate
 - 🔴 Pressure to skip independent legal counsel
 - 🔴 Cash-only / unusually low listed price (money-laundering red flag)
+- 🔴 Short-let income assumed to survive the purchase — some zones delete an STR registration on sale and block re-registration (e.g. GR: Athens 1st/2nd/3rd Municipal Districts and Thessaloniki A' Municipal Community, L.4446/2016 art. 111 par. 2Γ); check the country's `--rental` entries in `shared/regulatory-watch.md`
 ```
 
 ---
@@ -260,12 +261,13 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 
 ### Country-specific reliefs
 
-- 🇫🇷 **LMNP / LMP** (location meublée non-professionnelle): 50% abatement (micro-BIC) or real expenses (réel) + amortization
-- 🇮🇹 **Cedolare secca** 21% (long-term) / 26% (short-let)
+- 🇫🇷 **LMNP / LMP** (location meublée non-professionnelle): 50% abatement (micro-BIC) or real expenses (réel) + amortization — PLF 2027 art. 7 (bill, not adopted as of 2026-10-21) would cap réel amortisation at 2.5 % and €7,000/yr per foyer fiscal (1.5 % and €5,000 for a meublé de tourisme); see shared/regulatory-watch.md (FR)
+- 🇮🇹 **Cedolare secca**: long-term 21% (canone libero) / 10% (canone concordato, qualifying comuni); short-let 26%, cut to 21% for one unit the taxpayer names, max 2 short-let apartments from 2026 (above two the activity is presumed a business) (2026 data, source Agenzia delle Entrate)
 - 🇪🇸 **Reducción 60%** for long-term residential rental
 - 🇩🇪 **AfA** (Absetzung für Abnutzung): 2-3% depreciation
 - 🇬🇧 **Buy-to-let** mortgage interest restricted to 20% basic-rate credit
-- 🇮🇪 **FHL abolished April 2025** — short-let now standard property income
+- 🇬🇧 **FHL regime abolished** from 6 Apr 2025 (Income Tax, CGT) / 1 Apr 2025 (Corporation Tax) — furnished holiday lets now fall under the ordinary property-income rules (HMRC PIM4185)
+- 🇮🇪 **No FHL regime** — Revenue does not treat short-term guest accommodation (e.g. online-booking-site stays) as rental income: taxed under Case IV when occasional or Case I when run as a trade; capital allowances (12.5% a year over 8 years) only under Case I; Rent-a-Room relief does not apply (Revenue Irish rental income page, published 5 Dec 2025; Revenue TDM Part 04-01-20)
 - 🇵🇱 **Ryczałt 8.5%/12.5%** flat-rate
 - 🇸🇪 **Schablonavdrag** (template deduction) on private rental
 - 🇵🇹 **NHR retired 2024** — successor regime IFICI for innovation/research
@@ -349,7 +351,7 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 - 🇫🇷 **MaPrimeRénov'**: up to €70k for full renovation
 - 🇩🇪 **BAFA + KfW**: 40% subsidy on heat pumps + 70% on EE-loans
 - 🇪🇸 **PREE / Bono Reto Demográfico**: regional grants
-- 🇮🇹 **Ecobonus / Superbonus** (reduced 65-90% from 2024-2026)
+- 🇮🇹 **Ecobonus / Superbonus**: Ecobonus (art. 14 DL 63/2013) 65% / 50% to 31 Dec 2024; spese 2025-2026 50% on the abitazione principale / 36% other homes (fossil-fuel-only boilers excluded); 36% / 30% for spese 2027 under current law (L. 199/2025 art. 1 c. 22) — no extension adopted as of 2026-10-21. General Superbonus 110% → 90% (spese 2023) → 70% (2024) → 65% (spese to 31 Dec 2025, works started by 15 Oct 2024 only), no general 2026 rate; residual 110% on spese 2026 only in the 2009/2016 central-Italy earthquake crater, above the reconstruction contribution and with the discount / credit-transfer option exercised (DL 95/2025 art. 4 c. 2, conv. L. 118/2025) (2026 data, sources Camera dei deputati dossier + Agenzia delle Entrate)
 - 🇸🇪 **Skattereduktion ROT/RUT** (rotavdrag): 30% on labour
 - 🇫🇮 **ARA / Energy renovation grant**: up to €15k
 - 🇳🇴 **Enova**: heat pump, insulation, PV grants
@@ -420,12 +422,12 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 | Country | Optimal classification | Why |
 |---|---|---|
 | 🇫🇷 | **Atout France classement (1-5★)** | 50% abatement + 6% URSSAF (vs 30% + 21%) |
-| 🇮🇹 | CIN registration + cedolare secca 21% | Mandatory Jan 2025 |
+| 🇮🇹 | CIN registration + cedolare secca (26%, 21% on one unit the taxpayer names; max 2 short-let apartments from 2026) | CIN mandatory since 1 Jan 2025 |
 | 🇪🇸 | Vivienda turística (regional) | Per-CCAA different |
 | 🇵🇹 | AL registration | Lisbon suspension still active |
 | 🇬🇷 | AMA + primary-use status | Athens + Cyclades restrictions |
 | 🇩🇪 | Per-Kommune | Berlin/München strict |
-| 🇮🇪 | Failte Ireland register | RPZ rules |
+| 🇮🇪 | Fáilte Ireland STL register (once opened) | STL = material change of use nationwide (PDA 2000 s.3A); RPZs ended 1 Mar 2026 |
 
 ### Operating cost structure
 
@@ -512,7 +514,7 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 | 🇪🇸 Impuesto sucesiones | 7.65–34% | Per CCAA (huge variation) |
 | 🇩🇪 Erbschaftsteuer (children) | 7–30% | €400k abatement per child |
 | 🇬🇧 IHT | 40% | £325k nil-rate band |
-| 🇮🇪 CAT (Group A) | 33% | €335k threshold |
+| 🇮🇪 CAT (Group A) | 33% | €400k threshold; €420k from 7 Oct 2026 (Finance (No. 2) Bill 2026, not enacted) |
 | 🇸🇪 No inheritance tax | 0% | (abolished 2005) |
 | 🇳🇴 No inheritance tax | 0% | (abolished 2014) |
 | 🇵🇹 Imposto Selo | 10% (non-direct heirs) | Spouses + children exempt |
