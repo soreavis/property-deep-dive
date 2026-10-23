@@ -23,9 +23,9 @@ ISO2: `sa`. Status: ✅ Fully populated (researched 2026-05).
 - **Title concept**: Freehold (مُلك تام) is the dominant title for Saudi nationals + GCC; previously **near-total ban for non-GCC** with narrow exceptions (specific licensed activities + Premium Residency holders); **Foreign Real Estate Ownership Law — Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025), effective 22 Jan 2026** — opens designated zones to non-GCC — see Foreign-buyer eligibility below
 - **Foreign-buyer rule**: **MAJOR REFORM IN PROGRESS** — see dedicated Foreign-buyer eligibility section below
 - **Recent reforms (2024–2026 watershed)**:
-  - **18 Jun 2023 / 16 Dec 2023**: **Saudi Civil Transactions Law (نظام المعاملات المدنية) — Royal Decree M/191 of 29/11/1444 AH (18 Jun 2023), effective 16 Dec 2023** — first codified civil code in Saudi history (721 articles; codifies contract, sale, lease, construction, property rights; retrospective effect on pre-2023 contracts; introduces statutory limitation periods — 10y general, 5y certain professional claims) (2026-05-27 verified, source [laws.boe.gov.sa](https://laws.moj.gov.sa/) + Norton Rose Fulbright + Clifford Chance). Material backdrop for all post-2023 property transactions.
+  - **18 Jun 2023 / 16 Dec 2023**: **Saudi Civil Transactions Law (نظام المعاملات المدنية) — Royal Decree M/191 of 29/11/1444 AH (18 Jun 2023), effective 16 Dec 2023** — first codified civil code in Saudi history (721 articles; codifies contract, sale, lease, construction, property rights; retrospective effect on pre-2023 contracts; introduces statutory limitation periods — 10y general, 5y certain professional claims) (2026-05-27 verified, source [laws.moj.gov.sa](https://laws.moj.gov.sa/) + Norton Rose Fulbright + Clifford Chance). Material backdrop for all post-2023 property transactions.
   - **14 Jul 2025 / 22 Jan 2026**: **Foreign Real Estate Ownership Law (نظام تملك غير السعوديين للعقار) — Royal Decree M/14 of 19/01/1447 AH** — Council of Ministers approval 8 Jul 2025; gazetted Umm Al-Qura 25 Jul 2025; **effective 22 Jan 2026** (180 days post-gazette). Opens designated zones in Riyadh + Jeddah (priority) plus other major cities; scope includes residential, commercial, agricultural farms, NEOM/Qiddiya/Red Sea Global shares, and tokenised fractional ownership stakes. Implementing regulations + final per-zone list rolling out via REGA 2025–2026 (2026-05-27 verified, source [Library of Congress Global Legal Monitor 2026-02-11](https://www.loc.gov/item/global-legal-monitor/2026-02-11/saudi-arabia-new-law-opens-ownership-of-real-estate-properties-to-foreigners) + [White & Case](https://www.whitecase.com/insight-alert/saudi-arabia-approves-landmark-real-estate-ownership-law-non-saudis) + [King & Spalding](https://www.kslaw.com/news-and-insights/saudi-arabia-introduces-new-legal-framework-for-foreign-ownership-of-real-estate))
-  - **2024**: **Premium Residency (Iqama Khassa) expansion** — added Real-Estate-Owner, Investor, Entrepreneur, and Talent categories to original 2019 launch ([premiumresidency.sa](https://pr.gov.sa/) — official PRC portal under Premium Residency Centre)
+  - **2024**: **Premium Residency (Iqama Khassa) expansion** — added Real-Estate-Owner, Investor, Entrepreneur, and Talent categories to original 2019 launch ([pr.gov.sa](https://pr.gov.sa/) — official PRC portal under Premium Residency Centre)
   - **2020**: VAT raised from 5% to **15%** effective 1 Jul 2020 ([ZATCA — Zakat Tax & Customs Authority](https://zatca.gov.sa/))
   - **2020**: **Real Estate Disposition Tax (RETT — ضريبة التصرفات العقارية)** introduced at **5% on sale value** by [Royal Decree A/84 of 14/02/1442 AH (Oct 2020)](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Real-Estate-Disposal-Tax.aspx) — replaces VAT on most real-estate disposals (deductible mechanism)
   - **2016 / 2025**: **White Land and Vacant Property Fees Law (نظام رسوم الأراضي البيضاء والعقارات الشاغرة)** — originally Royal Decree M/4 of 12/02/1437 AH at 2.5%/yr on undeveloped urban land >10,000 m²; **amended by Council of Ministers decision of 29 Apr 2025, published in Umm Al-Qura 12 May 2025**, which renamed the law, raised the annual ceiling to **up to 10% of land value**, lowered the threshold to **5,000 m²** (single parcel or aggregate holding of one owner within a city), and extended the charge to **vacant buildings** at a share of market rent capped at **5% of property value**. The [executive regulation (اللائحة التنفيذية لرسوم الأراضي البيضاء), Umm Al-Qura 22 Aug 2025](https://www.uqn.gov.sa/details?p=27369) sets a five-band tariff by urban-development priority — **10% / 7.5% / 5% / 2.5% / nil** — with the band fixed per geographic zone by ministerial decision (2026-09-18 verified, source Umm Al-Qura + [MOMAH](https://momah.gov.sa/ar/node/14963)). Administered by the **Ministry of Municipalities and Housing (MOMAH)**.
@@ -67,7 +67,7 @@ This section determines whether a transaction is even legally possible. Saudi Ar
 
 ### Premium Residency (Iqama Khassa — إقامة مميزة) — property route
 
-Source: [premiumresidency.sa](https://pr.gov.sa/) (Premium Residency Centre, under Council of Economic Affairs).
+Source: [pr.gov.sa](https://pr.gov.sa/) (Premium Residency Centre, under Council of Economic Affairs).
 
 | Category | Threshold (2024 expansion — verify current) | Visa term |
 |---|---|---|
@@ -423,7 +423,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Saudi Green Initiative + Middle East Green Initiative (2021)
 
-- Announced Mar 2021 by Crown Prince Mohammed bin Salman ([greeninitiatives.gov.sa](https://sgi.gov.sa/))
+- Announced Mar 2021 by Crown Prince Mohammed bin Salman ([sgi.gov.sa](https://sgi.gov.sa/))
 - 50% emissions reduction by 2030; net-zero 2060
 - 10 billion trees planted (Saudi Arabia) + 50 billion (Middle East regional)
 - 30% land + sea protection by 2030
@@ -673,7 +673,7 @@ SAMA's USD foreign reserves ≈ USD 437B (Q4 2025; IMF data) supported by **hydr
 
 ### Premium Residency — material detail
 
-Source: [premiumresidency.sa](https://pr.gov.sa/) (Premium Residency Centre — Council of Economic Affairs).
+Source: [pr.gov.sa](https://pr.gov.sa/) (Premium Residency Centre — Council of Economic Affairs).
 
 - **Rights**: own real estate (excluding Mecca/Medina haram), invest in business, sponsor family (spouse + children + parents), multiple-entry, Saudi domicile, public+private services access
 - **Restrictions**: cannot hold government office; cannot work as Saudi national for citizenship-restricted roles; some sector limits
@@ -961,7 +961,7 @@ Workable pathways for remote-working visitors:
 
 ### Climate-transition exposure
 
-- **Saudi Green Initiative + Middle East Green Initiative** (Mar 2021 launch) — net-zero 2060 commitment; 50% renewable electricity by 2030 ([greeninitiatives.gov.sa](https://sgi.gov.sa/))
+- **Saudi Green Initiative + Middle East Green Initiative** (Mar 2021 launch) — net-zero 2060 commitment; 50% renewable electricity by 2030 ([sgi.gov.sa](https://sgi.gov.sa/))
 - **Buildings sector** ~20% of national CO₂; Mostadam (مستدام) green-building rating (since 2019) — Saudi-developed alternative to LEED + BREEAM
 - **Energy Efficiency Saudi Energy Efficiency Program (SEEP)** under Saudi Energy Efficiency Center (SEEC) — appliance + building standards
 - **Vision 2030 Quality of Life Program**: green spaces + walkability for urban areas
@@ -1197,4 +1197,4 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Locked-in via primary government sources: Foreign Real Estate Ownership Law — Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025), gazetted Umm Al-Qura 25 Jul 2025, effective 22 Jan 2026 (Library of Congress Global Legal Monitor 2026-02-11 + REGA implementation portal — **FAST-CHANGING: implementing regulations + designated-zone list rolling out through 2025–2026; re-verify at REGA before any reservation**); Saudi Civil Transactions Law (Royal Decree M/191 of 18 Jun 2023, eff. 16 Dec 2023 — 721 articles, first codified civil code); Premium Residency 2024 expansion (premiumresidency.sa); RETT 5% (Royal Decree A/84 of 1442 AH 2020 + ZATCA); White Land + Vacant Property Fees, up to 10% banded (Royal Decree M/4 of 1437 AH 2016 as amended 2025; executive regulation Umm Al-Qura 22 Aug 2025 + Ministry of Municipalities and Housing); VAT 15% (ZATCA, since Jul 2020); Saudi Building Code SBC 2018 + Mostadam (since 2019); SAMA macroprudential LTV; SAR-USD peg since 1986; Riyadh Metro Phase 1 (Dec 2024 — RCRC); Vision 2030 mega-project pipeline (PIF). **Mecca/Medina non-Muslim ownership prohibition flagged as constitutional/religious; tracks haram boundaries; not waivable**. **Watch list 2026**: final implementing regulations + per-zone designated-area list under Foreign Real Estate Ownership Law (Q2–Q4 2026 ongoing); Vacant Property Levy (proposed 2024, pending); Premium Residency threshold updates per PRC schedule; Saudization (Nitaqat) annual category recalibration; PIF mega-project absorption test 2026–2030.
+**Notes**: Locked-in via primary government sources: Foreign Real Estate Ownership Law — Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025), gazetted Umm Al-Qura 25 Jul 2025, effective 22 Jan 2026 (Library of Congress Global Legal Monitor 2026-02-11 + REGA implementation portal — **FAST-CHANGING: implementing regulations + designated-zone list rolling out through 2025–2026; re-verify at REGA before any reservation**); Saudi Civil Transactions Law (Royal Decree M/191 of 18 Jun 2023, eff. 16 Dec 2023 — 721 articles, first codified civil code); Premium Residency 2024 expansion (pr.gov.sa); RETT 5% (Royal Decree A/84 of 1442 AH 2020 + ZATCA); White Land + Vacant Property Fees, up to 10% banded (Royal Decree M/4 of 1437 AH 2016 as amended 2025; executive regulation Umm Al-Qura 22 Aug 2025 + Ministry of Municipalities and Housing); VAT 15% (ZATCA, since Jul 2020); Saudi Building Code SBC 2018 + Mostadam (since 2019); SAMA macroprudential LTV; SAR-USD peg since 1986; Riyadh Metro Phase 1 (Dec 2024 — RCRC); Vision 2030 mega-project pipeline (PIF). **Mecca/Medina non-Muslim ownership prohibition flagged as constitutional/religious; tracks haram boundaries; not waivable**. **Watch list 2026**: final implementing regulations + per-zone designated-area list under Foreign Real Estate Ownership Law (Q2–Q4 2026 ongoing); Vacant Property Levy (proposed 2024, pending); Premium Residency threshold updates per PRC schedule; Saudization (Nitaqat) annual category recalibration; PIF mega-project absorption test 2026–2030.

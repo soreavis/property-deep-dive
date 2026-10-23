@@ -556,7 +556,7 @@ For an Almaty Bostandyk 2-bed (70 m², asking KZT 55 M / ~$115k) under STR:
 
 ### Primary sources
 
-- **Ministry of Internal Affairs (МВД / ІІМ — Ішкі істер министрлігі)**: [gov.kz/memleket/entities/iim](https://www.gov.kz/memleket/entities/iim?lang=en) — national crime statistics; **Committee for Legal Statistics & Special Records under Prosecutor General's Office**: [pravstat.prokuror.gov.kz](https://qamqor.gov.kz/) — primary statistical aggregator (open-data portal)
+- **Ministry of Internal Affairs (МВД / ІІМ — Ішкі істер министрлігі)**: [gov.kz/memleket/entities/iim](https://www.gov.kz/memleket/entities/iim?lang=en) — national crime statistics; **Committee for Legal Statistics & Special Records under Prosecutor General's Office**: [qamqor.gov.kz](https://qamqor.gov.kz/) — primary statistical aggregator (open-data portal)
 - **BNS annual yearbook** — Justice + Crime chapter: [stat.gov.kz](https://stat.gov.kz/)
 - **General Prosecutor's Office (Бас прокуратура)**: [gov.kz/memleket/entities/prokuror](https://www.gov.kz/memleket/entities/prokuror?lang=en) — prosecutorial statistics
 - **UNODC + Numbeo** for cross-country comparison
@@ -750,7 +750,7 @@ KZ has a **free-floating tenge** since 20 August 2015 devaluation event. Key dyn
 | MEKS energy modernisation | [modernization.kz/en](https://modernization.kz/en/about) |
 | Ministry of Emergency Situations | [emer.gov.kz/en](https://emer.gov.kz/en) |
 | Kazhydromet | [kazhydromet.kz/en](https://www.kazhydromet.kz/en/) |
-| Pravstat (crime statistics) | [pravstat.prokuror.gov.kz](https://qamqor.gov.kz/) |
+| Pravstat (crime statistics) | [qamqor.gov.kz](https://qamqor.gov.kz/) |
 | AERC real-estate analytics | [aerc.org.kz/en](https://aerc.org.kz/en) |
 | Halyk Finance research | [halykfinance.kz](https://halykfinance.kz/) |
 

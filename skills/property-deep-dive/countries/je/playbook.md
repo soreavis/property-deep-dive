@@ -393,7 +393,7 @@ Jersey's conveyancing process is **closer to French notarial practice than Engli
 
 ### Advocates and solicitors of the Royal Court
 
-- Only members of the **Law Society of Jersey** ([lawsociety.je](https://www.jerseylawsociety.je)) can present a contract to the Royal Court
+- Only members of the **Law Society of Jersey** ([jerseylawsociety.je](https://www.jerseylawsociety.je)) can present a contract to the Royal Court
 - "Advocate" (rough analogue of barrister-solicitor) and "Solicitor" (English-trained, Jersey-admitted) — both can do conveyancing
 - **Typical residential conveyance fee** (2026, est.): £2,500–£6,000 for freehold; £1,500–£3,500 for share transfer — `verify with two quotes; ask for fixed-fee with cost-cap if disbursements unclear`
 
@@ -497,7 +497,7 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 - **Population Office** — Residential statuses, HVR, `2(1)(e)`: [gov.je Population](https://www.gov.je/Working/Contributions/RegistrationCards/pages/home.aspx)
 - **Locate Jersey** — HVR concierge: [gov.je/business/locate](https://www.gov.je/Home/RentingBuying/HousingLaws/pages/highvalueresidency.aspx)
 - **Jersey Financial Services Commission (JFSC)** — Bank/lender authorisation: [jerseyfsc.org](https://www.jerseyfsc.org/)
-- **Law Society of Jersey** — Advocates / Solicitors of the Royal Court: [lawsociety.je](https://www.jerseylawsociety.je)
+- **Law Society of Jersey** — Advocates / Solicitors of the Royal Court: [jerseylawsociety.je](https://www.jerseylawsociety.je)
 - **Jersey Property Holdings** — public land disposals: [gov.je/Government/JerseyPropertyHoldings](https://www.gov.je/Government/Departments/InfrastructureEnvironment/pages/property.aspx)
 - **Parish secretariats** — Foncier / Occupier rates: each of 12 parishes via [gov.je/Government/Parishes](https://www.gov.je/Home/Parish/pages/index.aspx)
 - **Planning and Building Services** — Island Plan 2022, planning permissions, flood maps: [gov.je/Planning](https://www.gov.je/PlanningBuilding/pages/default.aspx)
@@ -530,7 +530,7 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 | Island Plan 2022 | [gov.je Island Plan](https://www.gov.je/PlanningBuilding/LawsRegs/IslandPlan/pages/bridgingislandplan.aspx) |
 | Parishes hub | [gov.je Parishes](https://www.gov.je/Home/Parish/pages/index.aspx) |
 | JFSC (regulator) | [jerseyfsc.org](https://www.jerseyfsc.org/) |
-| Law Society of Jersey | [lawsociety.je](https://www.jerseylawsociety.je) |
+| Law Society of Jersey | [jerseylawsociety.je](https://www.jerseylawsociety.je) |
 | Jersey Water | [jerseywater.je](https://www.jerseywater.je/) |
 | Jersey Electricity | [jec.co.uk](https://www.jec.co.uk/) |
 | JT (telecom / FTTH) | [jtglobal.com](https://www.jtglobal.com/) |
