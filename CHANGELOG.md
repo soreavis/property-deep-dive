@@ -72,6 +72,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): add the 147 refresh patches #460 left out ([#461](https://github.com/soreavis/property-deep-dive/pull/461)) — by @soreavis
 
+- fix(playbooks): refresh the Slovenia playbook against primary sources (62 patches) ([#462](https://github.com/soreavis/property-deep-dive/pull/462)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
