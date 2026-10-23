@@ -146,25 +146,24 @@ def check(head: str, base: str | None, ym: tuple[int, int]) -> list[str]:
         try:
             by, bm, bmicro = parse(base)
         except ValueError:
-            by = bm = bmicro = None  # base unparseable — skip the monotonic checks
-        if by is not None:
-            if (hy, hm) == (by, bm):
-                if hmicro <= bmicro:
-                    errors.append(
-                        f"same month {head_ym} but MICRO did not increase "
-                        f"({base} -> {head}); use {by:04d}.{bm:02d}.{bmicro + 1}"
-                    )
-            elif (hy, hm) > (by, bm):
-                if hmicro != 0:
-                    errors.append(
-                        f"month rolled {by:04d}.{bm:02d} -> {head_ym} so MICRO must "
-                        f"reset to 0; use {head_ym}.0 (got {head})"
-                    )
-            else:
+            return errors  # base unparseable — skip the monotonic checks
+        if (hy, hm) == (by, bm):
+            if hmicro <= bmicro:
                 errors.append(
-                    f"version month went backwards "
-                    f"({by:04d}.{bm:02d} -> {head_ym}) — versions must not decrease"
+                    f"same month {head_ym} but MICRO did not increase "
+                    f"({base} -> {head}); use {by:04d}.{bm:02d}.{bmicro + 1}"
                 )
+        elif (hy, hm) > (by, bm):
+            if hmicro != 0:
+                errors.append(
+                    f"month rolled {by:04d}.{bm:02d} -> {head_ym} so MICRO must "
+                    f"reset to 0; use {head_ym}.0 (got {head})"
+                )
+        else:
+            errors.append(
+                f"version month went backwards "
+                f"({by:04d}.{bm:02d} -> {head_ym}) — versions must not decrease"
+            )
     return errors
 
 

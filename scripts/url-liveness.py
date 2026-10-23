@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import contextlib
 import json
 import os
 import random
@@ -378,13 +379,12 @@ async def _http_request(
             body_title = ""
             # Read a small slice only to look for challenge titles (cap 4KB)
             if method == "GET" and resp.content_type and "html" in resp.content_type.lower():
-                try:
+                # A body that dies mid-read still has a valid status — classify on that alone
+                with contextlib.suppress(aiohttp.ClientError, asyncio.TimeoutError):
                     chunk = await resp.content.read(4096)
                     m = _TITLE_RE.search(chunk.decode("utf-8", errors="replace"))
                     if m:
                         body_title = m.group(1).strip()
-                except Exception:
-                    pass
             return resp.status, body_title, headers, str(resp.url)
     except asyncio.TimeoutError:
         return 0, "", {}, url
@@ -652,7 +652,6 @@ async def run_check(
             fresh_checks += 1
             prev_streak = entry.get("fail_streak", 0) if entry else 0
             prev_cls = entry.get("cls", "") if entry else ""
-            new_streak = prev_streak
             if result.cls in (DEAD, TIMEOUT):
                 new_streak = prev_streak + 1 if prev_cls in (DEAD, TIMEOUT) else 1
             else:

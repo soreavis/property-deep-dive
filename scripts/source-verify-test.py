@@ -7,11 +7,15 @@ not here. Run: python3 scripts/source-verify-test.py
 
 from __future__ import annotations
 
+import contextlib
 import importlib.util
+import io
+import subprocess
 import sys
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from unittest import mock
 
 spec = importlib.util.spec_from_file_location("source_verify", str(Path(__file__).parent / "source-verify.py"))
 source_verify = importlib.util.module_from_spec(spec)
@@ -603,7 +607,7 @@ class TestAuditReport(unittest.TestCase):
              "content_changed": True, "prev_fetched_at": "2026-04-01T00:00:00+00:00"},
             {"scope": "de", "line_no": 3, "claim_text": "x", "source_url": "https://z.gov/a.pdf",
              "prior": "PDF_NO_TEXT", "missing_tokens": ["1"], "inline_stamp": None,
-             "content_changed": False, "prev_fetched_at": ""},
+             "content_changed": False, "prev_fetched_at": "", "fetch_note": "pypdf failed (PdfStreamError)"},
         ]
 
     def test_buckets(self):
@@ -611,6 +615,7 @@ class TestAuditReport(unittest.TestCase):
         self.assertEqual(len(rep["tokens_absent"]), 1)
         self.assertEqual(len(rep["content_changed"]), 1)
         self.assertEqual(len(rep["pdf_no_text"]), 1)
+        self.assertEqual(rep["pdf_no_text"][0]["note"], "pypdf failed (PdfStreamError)")
         self.assertEqual(rep["flagged"], 2)  # 1 absent + 1 changed
         self.assertEqual(rep["by_prior"]["TOKENS_ABSENT"], 1)
 
@@ -669,8 +674,27 @@ class TestPdfEdges(unittest.TestCase):
     def test_truncated_pdf_is_graceful(self):
         full = _make_min_pdf("Fee 1234")
         truncated = full[: len(full) // 2]            # half a PDF — must not raise
-        text, method = SV.pdf_to_text(truncated)
+        with contextlib.redirect_stderr(io.StringIO()):
+            text, method = SV.pdf_to_text(truncated)
         self.assertIsInstance(text, str)              # whatever it returns, no exception
+
+    @unittest.skipUnless(SV._HAS_PYPDF, "needs pypdf for the fallback")
+    def test_pdftotext_timeout_falls_back_and_names_url(self):
+        err = io.StringIO()
+        with mock.patch.object(SV, "_HAS_PDFTOTEXT", True), \
+                mock.patch.object(SV.subprocess, "run", side_effect=subprocess.TimeoutExpired("pdftotext", 60)), \
+                contextlib.redirect_stderr(err):
+            text, method = SV.pdf_to_text(_make_min_pdf("Fee 5720"), url="https://x.gov/fee.pdf")
+        self.assertEqual(method, "pypdf")
+        self.assertIn("5720", text)
+        self.assertIn("pdftotext failed (TimeoutExpired): https://x.gov/fee.pdf", err.getvalue())
+
+    @unittest.skipUnless(SV._HAS_PYPDF, "needs pypdf")
+    def test_extractor_error_returned_for_note(self):
+        with mock.patch.object(SV, "_HAS_PDFTOTEXT", False), \
+                mock.patch.object(SV.pypdf, "PdfReader", side_effect=ValueError), \
+                contextlib.redirect_stderr(io.StringIO()):
+            self.assertEqual(SV.pdf_to_text(b"%PDF-1.4 junk"), ("", "pypdf failed (ValueError)"))
 
     def test_max_pages_does_not_crash(self):
         text, _ = SV.pdf_to_text(_make_min_pdf("Page one 999"), max_pages=1)
@@ -720,7 +744,6 @@ class TestSettleChange(unittest.TestCase):
         c1, stable = SV._settle_change("OK", "B", last, stable)  # flux
         last = "B"
         c2, stable = SV._settle_change("OK", "B", last, stable)  # settled → flagged
-        last = "B"
         self.assertFalse(c1)
         self.assertTrue(c2)
         self.assertEqual(stable, "B")

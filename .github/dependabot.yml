@@ -33,13 +33,16 @@ updates:
           - minor
           - patch
 
-  # Python deps for the scripts/ helpers CI runs (requirements.txt at root).
+  # Python deps for the scripts/ helpers CI runs (requirements.txt at root) and
+  # pr-validate.yml's PyYAML (.github/requirements/).
   # Dependabot regenerates the hashes alongside the version pins, which an
   # inline `pip install` in a workflow step could never give us.
   # Per dependabot-auto-merge.yml these are a real runtime ecosystem: patch and
   # minor land unattended, but a MAJOR bump here waits for human review.
   - package-ecosystem: pip
-    directory: /
+    directories:
+      - /
+      - /.github/requirements
     schedule:
       interval: monthly
       time: "09:00"

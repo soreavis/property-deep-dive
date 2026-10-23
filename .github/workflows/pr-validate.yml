@@ -55,7 +55,8 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
 
       - name: Install PyYAML
-        run: pip install --quiet pyyaml
+        # Its own hash-pinned manifest, not requirements.txt: only this job needs it.
+        run: pip install --quiet --require-hashes -r .github/requirements/pr-validate.txt
 
       - name: Versions match and SKILL.md meets the Agent Skills spec
         # The skill ships to Claude Code, Codex, Cursor, Gemini CLI, Grok and the
