@@ -15,7 +15,7 @@ import sys
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from unittest import mock
+import unittest.mock as mock
 
 spec = importlib.util.spec_from_file_location("source_verify", str(Path(__file__).parent / "source-verify.py"))
 source_verify = importlib.util.module_from_spec(spec)
