@@ -77,6 +77,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): close the Slovenia refresh gaps in price, tax, rental and cost benchmarks ([#463](https://github.com/soreavis/property-deep-dive/pull/463)) — by @soreavis
 
+- fix(playbooks): re-date the Slovenia playbook after closing --risks and --mains ([#464](https://github.com/soreavis/property-deep-dive/pull/464)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
