@@ -636,7 +636,7 @@ Source: [Law Society of Hong Kong directory](https://www.hklawsoc.org.hk/) (~12,
 | **🇭🇰 Hong Kong** | Open since Feb 2024 (no BSD/SSD/NRSD); AVD Scale 2 only | 3–6% | Rates 5% RV + Gov Rent 3% RV + mgmt fee | **3.9%** | HKD pegged USD |
 | **🇸🇬 Singapore** | ABSD 60% for foreigners (post Apr 2023) | 60–65%+ | Property tax progressive 0–32% | ~3.2% | SGD managed-float |
 | **🇯🇵 Japan** | Open; no foreign-buyer surcharge | 6–10% | 固定資産税 1.4% + 都市計画税 0.3% | ~4.0% Tokyo central | JPY free-float |
-| **🇰🇷 South Korea** | Open; case-by-case minor | 5–10% | Acquisition + property taxes | ~3.5% | KRW free-float |
+| **🇰🇷 South Korea** | Open outside the permit zones; foreigner 토지거래허가구역 (all of Seoul, 23 Gyeonggi 시·군, 9 Incheon 자치구; to 25 Aug 2027) needs prior permission + 2-yr residence duty (MOLIT, 2026-10-21 verified — see `countries/kr/playbook.md`) | 5–10% | Acquisition + property taxes | ~3.5% | KRW free-float |
 | **🇹🇼 Taiwan** | Reciprocity rule; case-by-case | 6–8% | House tax + land value tax | ~2.0–3.0% | TWD managed-float |
 | **🇹🇭 Thailand** | Foreigners cannot own land; condo OK ≤49% foreign quota | 6–8% | Property tax low | ~5.0–7.0% | THB free-float |
 

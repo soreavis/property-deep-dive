@@ -240,7 +240,7 @@ HIGH: NZ (s 96 Building Act 2004, CoA scope, LIM limitation all primary-/council
 
 **Confidence**: see per-region `### Confidence` lines. HIGH where the concept, regularisation route and enforcement clock are primary-sourced (IT, ES, PT, FR, UK, DE, NL, IE, HK, JP, IN, US, AU, NZ, RS, HR, CZ); MEDIUM where the regime is identified but cost/feasibility is aggregator-tier; LOW where neither is publicly aggregated (much of the Caucasus, Central Asia, smaller MENA/African/Caribbean markets) — flagged `data not publicly available — verify` rather than estimated. Region-wide finding: **no UK-style legal-indemnity market exists across MENA/GCC, Latin America, or most of APAC** — stated by confirmed absence, not inferred.
 
-**Last verified**: 2026-05-15 (MU Building Control Act 2012 penalty figures and the MA gazette citation corrected 2026-09-18 per mauritiusassembly.govmu.org + sgg.gov.ma BO 6874; GE squatted-land recognition and ME legalisation deadlines corrected 2026-10-23 per matsne.gov.ge document 19780 + Law No 1328 and sluzbenilist.me Sl. list CG 18/26 + 117/26).
+**Last verified**: 2026-05-15 (MU Building Control Act 2012 penalty figures and the MA gazette citation corrected 2026-09-18 per mauritiusassembly.govmu.org + sgg.gov.ma BO 6874; GE squatted-land recognition and ME legalisation deadlines corrected 2026-10-23 per matsne.gov.ge document 19780 + Law No 1328 and sluzbenilist.me Sl. list CG 18/26 + 117/26; RS Svoj na svome entry corrected 2026-10-21 per svojnasvome.gov.rs + paragraf.rs consolidated text, Sl. glasnik RS 91/2025 i 80/2026, secondary).
 
 **Pairs strongly with**:
 - `--permits` (forward consenting — the mirror of this section's inherited illegality)

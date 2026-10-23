@@ -139,11 +139,12 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 - **Notary fees**: ~1.0–1.5% sliding scale
 - **Lawyer fees**: ~1% (recommended, sometimes mandatory for non-residents)
 - **Realtor**: typically ~2% per side (buyer + seller)
+- **Ktimatologio registration fee** (on registering the deed): 0.5% + €20 in the legacy Μεταγραφών και Υποθηκών books, 0.6% + €20 where the deed goes into the operating-Cadastre book — KYA 2/12-1-2026, ΦΕΚ Β' 64/13-1-2026 (see Cost benchmarks and shared/regulatory-watch.md 🇬🇷 GR)
 
 ### Total transaction cost (buyer side)
 
-- Resale: ~6–8% of price (3.09% transfer + 1-1.5% notary + 1% lawyer + 2% realtor) — watch, DRAFT BILL IN CONSULTATION, NOT LEGISLATED (90th-TIF bill, Oct 2026): for a natural person tax-resident outside the EU/EEA buying a home, from 1 Jul 2027 per the draft, computed 15.45% + 1–1.5% + 1% + 2% = 19.45–19.95% of price (see Transaction taxes)
-- New build (during VAT suspension): same as resale ~6–8% (VAT-suspended new builds bear transfer tax instead of VAT, so the draft 15% FMA for buyers tax-resident outside the EU/EEA, from 1 Jul 2027, would reach them too — reading of the draft per secondary sources, verify in the enacted text)
+- Resale: ~6.6–8.2% of price (computed: 3.09% transfer + 1-1.5% notary + 1% lawyer + 2% realtor + 0.5-0.6% Ktimatologio registration fee = 7.59–8.19%, or 6.59–7.19% without a lawyer; plus €20 per registered deed) — watch, DRAFT BILL IN CONSULTATION, NOT LEGISLATED (90th-TIF bill, Oct 2026): for a natural person tax-resident outside the EU/EEA buying a home, from 1 Jul 2027 per the draft, computed 15.45% + 1–1.5% + 1% + 2% + 0.5–0.6% registration fee = 19.95–20.55% of price (see Transaction taxes)
+- New build (during VAT suspension): same as resale ~6.6–8.2% (VAT-suspended new builds bear transfer tax instead of VAT, so the draft 15% FMA for buyers tax-resident outside the EU/EEA, from 1 Jul 2027, would reach them too — reading of the draft per secondary sources, verify in the enacted text)
 - New build (post-VAT-suspension, from 1 Jan 2027 unless the drafted extension to 31 Dec 2027 is enacted): 24% VAT + others
 
 ### Capital gains
@@ -371,8 +372,8 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 | Realtor | ~2% per side |
 | Foros Metavivasis | 3.09% (watch, DRAFT BILL IN CONSULTATION, NOT LEGISLATED (90th-TIF bill, Oct 2026): 15.45% on a home bought by a natural person tax-resident outside the EU/EEA from 1 Jul 2027 per the draft — see Transaction taxes) |
 | Ktimatologio registration fee (sale) | 0.6% + €20 where the deed goes into the operating-Cadastre book (0.5% + €20 in the legacy Μεταγραφών και Υποθηκών books) — KYA 2/12-1-2026, ΦΕΚ Β' 64/13-1-2026 |
-| **Total transaction cost (resale, buyer)** | **~6–8%** of price |
-| **Total transaction cost (new build during VAT suspension)** | **~6–8%** |
+| **Total transaction cost (resale, buyer)** | **~6.6–8.2%** of price (computed, incl. the registration fee — see Total transaction cost) |
+| **Total transaction cost (new build during VAT suspension)** | **~6.6–8.2%** |
 | Vothros to biological treatment | 4,000–10,000 |
 | Antiseismic retrofit | 30,000–80,000 |
 | Authairesia legalization | varies by amnesty |

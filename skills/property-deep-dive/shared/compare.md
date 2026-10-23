@@ -603,7 +603,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Foreign-buyer access | Open, fastest registration globally (<1 day) | Open (NIF only) | Open |
 | Acquisition cost | ~0.1-0.5% | ~7-8% (IMT + stamp + notary) | ~8-10% |
 | Annual property tax | Income-gated (only above GEL 40k household income) | IMI 0.3-0.45% | Municipal small |
-| CGT | None after 2-yr hold | 28% non-residents (50% inclusion residents) | Exempt above raised 2026 thresholds |
+| CGT | None after 2-yr hold | 50% of gain at progressive IRS rates — residents and, since 2023, non-residents | Exempt above raised 2026 thresholds |
 | Tax residency draw | Territorial — 1% small-business / 20% personal | IFICI replaced NHR (narrower) 2024+ | 60-day rule + non-dom 17 years |
 | Visa | Investor USD 300k property | D7/D8 (income-based, not property) | PR €300k property |
 | Risk | Russia border + currency exposure (GEL) | EU stability | TRNC title trap; banking-sector overhang |
@@ -722,7 +722,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | EU member? | NO (CSTO suspension Feb 2024 — geopolitical pivot in flight) | NO |
 | Foreign-buyer access | Open (equal rights non-citizens per Land Code Art. 4); agricultural and protected land restricted | Open subject to TRP / Strategic Investor; agricultural and border-zone restricted |
 | Total acquisition cost | ~3-5% (State Registry + notary + agent) | ~5-8% (registration + notary + agent) |
-| Annual carry | Sliding 0-1% on cadastre value, AMD 3M threshold exempt | Modest property tax sliding by region |
+| Annual carry | Progressive 0.05–1.5% marginal rates on cadastral value, 1.5% only above AMD 200M (Tax Code Art. 229); exemptions per Art. 230 | Modest property tax sliding by region |
 | CGT | Within personal-tax regime (flat 21% PIT 2026 on residents) | Within progressive 14-25% PIT |
 | Visa pathway | **Investor Residency AMD 50M (~USD 130k) deposit OR property → 5yr renewable**; **Citizenship by descent (Diaspora) Art. 13 streamlined**; naturalization 3yr + dual since 2007 | **TRP via real estate ≥AZN 100k (~USD 60k) → 1yr renewable to 5+**; PR after 8yr; Strategic Investor AZN 540k; **dual citizenship LIMITED** |
 | Climate | Continental Yerevan -3 to +3°C / 28-35°C; **HIGH SEISMIC 1988 Spitak M6.8 baseline** | Caspian-moderate Baku 4-10°C / 27-33°C; **Caucasus + Caspian seismic + Absheron mud volcanoes (unique)** |

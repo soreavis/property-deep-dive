@@ -176,15 +176,15 @@ For each country, primary macro sources:
 | **BAM (Morocco)** | 2.50% est. | hold; CPI near target — verify |
 | **CBE (Egypt)** | ~22-24% est. | held high post-Mar 2024 IMF devaluation; CPI declining from 30%+ — verify |
 | **MAS (Singapore)** | n/a (FX-based policy via S$NEER managed float) | macroprudential via SSD/ABSD/LTV; no policy rate — verify next MAS MPS https://www.mas.gov.sg |
-| **HKMA (Hong Kong)** | Base Rate ~4.75% est. (Fed-bound via LERS Convertibility Undertaking 7.75-7.85) | Fed-tracking; no independent policy rate — verify https://www.hkma.gov.hk |
+| **HKMA (Hong Kong)** | Base Rate 4.25% from 17 Sep 2026 (set by formula: Fed Funds lower bound + 50 bp, or the overnight/1-month HIBOR average if higher — HIBOR leg 2.50% at the time; Fed-bound via LERS Convertibility Undertaking 7.75-7.85) | Fed-tracking, reset after the 16 Sep 2026 Fed hike; no independent policy rate (2026 data, source [HKMA release 17 Sep 2026](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260917-3/)) |
 | **BOK (Korea)** | 2.75% est. | gradual cuts from 3.50% peak (2023) — verify next BOK MPC https://www.bok.or.kr |
 | **CBC (Taiwan)** | 2.00% (rediscount rate, held 17 Sep 2026 per CBC release) | hold; 2nd-home LTV cap eased to 70% from 18 Sep 2026 — https://www.cbc.gov.tw/tw/cp-971-192865-5f8ca-1.html |
 | **SNB (Liechtenstein)** | 0.00% (CHF-bound via 1980 Currency Treaty) | SNB-bound; no independent monetary policy |
-| **AMCM (Macao)** | Base Rate ~4.75% est. (HKD-bound via MOP/HKD peg + LERS indirect Fed-bound) | Fed-tracking via double peg — verify https://www.amcm.gov.mo |
+| **AMCM (Macao)** | Base Rate ~4.25% est. (= HKMA Base Rate 4.25% from 17 Sep 2026; AMCM moves its discount-window base rate in step with the HKMA to keep the MOP/HKD link, per its 18 Sep 2025 release cutting to 4.50%; HKD-bound via MOP/HKD peg + LERS indirect Fed-bound) | Fed-tracking via double peg; AMCM's own Sep 2026 notice not located — verify https://www.amcm.gov.mo |
 | **n/a (Andorra)** | EUR-using (2011 Monetary Treaty); no central bank | ECB Deposit indirect |
 | **n/a (Monaco)** | EUR-using (2002 Monetary Convention with FR); no central bank | ECB Deposit indirect |
 | **BNM (Moldova)** | 6.50% est. | hold/easing trajectory post-2022 inflation peak — verify next BNM MPC https://www.bnm.md |
-| **QCB (Qatar)** | ~5.00% est. (QCB Lending Rate) | Fed-bound via QAR/USD peg 3.64 since 2001 — verify https://www.qcb.gov.qa |
+| **QCB (Qatar)** | 4.60% (QMR lending rate; QMR deposit 4.10%, repo 4.35% — each +25 bp, effective 17 Sep 2026 per the QCB policy-rate panel, after the [QCB MPC resolution of 16 Sep 2026](https://www.qcb.gov.qa/en/News/Pages/16sep2026.aspx)) | Fed-bound via QAR/USD peg 3.64 since 2001 (2026-10-23 verified, qcb.gov.qa) |
 | **SAMA (Saudi Arabia)** | ~5.50% est. (SAMA Repo) | Fed-bound via SAR/USD peg 3.75 since 1986 — verify https://www.sama.gov.sa |
 | **BCRP (Peru)** | ~4.50% est. | mid-cycle cuts from 7.75% peak (2023) — verify https://www.bcrp.gob.pe |
 | **BCE (Ecuador)** | n/a (USD adopted Sep 2000) | Fed-bound; no monetary independence — verify https://www.bce.fin.ec |
@@ -195,9 +195,9 @@ For each country, primary macro sources:
 | **RBI (India)** | ~6.00% est. (Repo) | mid-cycle cuts from 6.50% peak; INR managed-float; FEMA + LRS USD 250k/yr cap — verify https://www.rbi.org.in |
 | **CBN (Nigeria)** | ~27.50% est. (MPR) | hold/easing post-NGN unification Jun 2023; CPI 30%+ — verify https://www.cbn.gov.ng |
 | **CBK (Kenya)** | ~10.75% est. (CBR) | gradual cuts as CPI eased to 6-7% — verify https://www.centralbank.go.ke |
-| **CBJ (Jordan)** | ~6.50% est. | Fed-bound via JOD/USD peg 0.7080 since 1995 — verify https://www.cbj.gov.jo |
+| **CBJ (Jordan)** | 6.00% (main policy rate from 21 Sep 2026, after a 25 bp rise on all policy instruments at the CBJ Open Market Operations Committee's 6th 2026 meeting, announced 20 Sep 2026) | Fed-bound via JOD/USD peg 0.7080 since 1995 (2026 data, source https://www.cbj.gov.jo rates panel + OMO Committee release) |
 | **CBO (Oman)** | ~5.50% est. | Fed-bound via OMR/USD peg 0.385 since 1986 — verify https://cbo.gov.om |
-| **CBB (Bahrain)** | ~6.00% est. (1-week deposit) | Fed-bound via BHD/USD peg 0.376 since 2001 — verify https://www.cbb.gov.bh |
+| **CBB (Bahrain)** | 4.75% (1-week deposit; O/N deposit 4.50%, O/N repo 5.50%) | Fed-bound via BHD/USD peg 0.376 since 2001 (2026-10-23 verified, CBB daily rates of 22 Oct 2026, https://www.cbb.gov.bh/facilities-interest-rates/) |
 | **CBK (Kuwait)** | ~4.25% est. (Discount Rate) | basket-managed since 20 May 2007 (was USD-pegged); KWD ≈ USD 3.25 (highest face-value globally) — verify https://www.cbk.gov.kw |
 | **BDL (Lebanon)** | n/a (multiple rates post-2019 collapse) | LBP unified 2023-24 around USD 89,500-90,000 (was 1,507.5 since 1997 → decoupled Sep 2019); de-facto USD-dollarized 80%+ prime — verify https://www.bdl.gov.lb |
 
@@ -322,8 +322,8 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - UK (BoE 3.75%)
 - CA (BoC 2.75%)
 - IL (BoI cautious; war-recovery)
-- HK (HKMA Fed-bound ~4.75%)
-- MO (AMCM Fed-bound ~4.75%)
+- HK (HKMA Base Rate 4.25% from 17 Sep 2026 — Fed-bound, reset after the 16 Sep 2026 Fed hike; HKMA release 17 Sep 2026)
+- MO (AMCM Fed-bound ~4.25% est. — tracks the HKMA Base Rate 4.25% from 17 Sep 2026; AMCM Sep 2026 notice not located)
 - TW (CBC Discount Rate 2.00%)
 - KR (BOK 2.75% mid-cut path)
 
@@ -505,7 +505,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **SG** — CPI ~2.4% est. (Mar 2026 — verify MAS CPI release https://www.mas.gov.sg); GDP ~3-4% (2025 est. — verify Singstat); MAS uses S$NEER managed-float band against undisclosed basket (no policy rate — macroprudential SSD/ABSD/LTV); 10y SGS ~2.80%; AAA-rated. Macro flag: **stable expansion**, financial-hub safe-haven; population ~5.94M (Singstat 2024).
 
-**HK** — CPI ~1.7% est. (Q1 2026 — verify https://www.censtatd.gov.hk); GDP recovering 2024-25 from China-tech / Article-23 NSL Mar 2024 sentiment drag; HKMA Base Rate ~4.75% est. (Fed-bound via Linked Exchange Rate System Convertibility Undertaking 7.75-7.85); 10y HKGB ~4.50%; AA+/AA-. Macro flag: **Fed-bound, sentiment-affected** — Article 23 National Security Law Mar 2024 added sovereign-risk premium for some foreign buyers.
+**HK** — CPI ~1.7% est. (Q1 2026 — verify https://www.censtatd.gov.hk); GDP recovering 2024-25 from China-tech / Article-23 NSL Mar 2024 sentiment drag; HKMA Base Rate 4.25% from 17 Sep 2026 (HKMA release 17 Sep 2026; Fed-bound via Linked Exchange Rate System Convertibility Undertaking 7.75-7.85); 10y HKGB ~4.50%; AA+/AA-. Macro flag: **Fed-bound, sentiment-affected** — Article 23 National Security Law Mar 2024 added sovereign-risk premium for some foreign buyers.
 
 **KR** — CPI ~2.1% est. (Q1 2026 — verify KOSTAT); GDP ~2% (2025); BOK 2.75% est. (gradual cuts from 3.50% peak — verify next BOK MPC https://www.bok.or.kr); 10y KTB ~3.20%; AA-rated. Macro flag: **late-cycle / cutting**, demographic cliff (TFR 0.72 — lowest globally per KOSTAT 2024).
 
@@ -513,7 +513,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **LI** — CPI ~1.5% est. (CHF-bound, tracks CH; verify Statistik Liechtenstein https://www.llv.li/en/national-administration/office-of-statistics); GDP ~3-5% (2024 est. — small economy, verify); SNB-bound via 1980 Currency Treaty (no independent rate); no domestic sovereign issuance; AAA-rated. Macro flag: **stable / pegged via CHF**, OECD top-tier GDP/capita; tiny housing market (~40k pop per Statistik Liechtenstein 2024).
 
-**MO** — CPI ~2% est. (verify DSEC https://www.dsec.gov.mo); GDP volatile (gaming-driven ~50% of GDP — recovering 2024-25 post-COVID); AMCM Base Rate ~4.75% est. (HKD-bound via MOP/HKD peg + LERS indirect Fed-bound); 10y MOP not actively traded; AA-rated. Macro flag: **Fed-bound via double peg, gaming-cycle exposed**.
+**MO** — CPI ~2% est. (verify DSEC https://www.dsec.gov.mo); GDP volatile (gaming-driven ~50% of GDP — recovering 2024-25 post-COVID); AMCM Base Rate ~4.25% est. (= HKMA Base Rate 4.25% from 17 Sep 2026, which AMCM follows in step per its 18 Sep 2025 release; HKD-bound via MOP/HKD peg + LERS indirect Fed-bound); 10y MOP not actively traded; AA-rated. Macro flag: **Fed-bound via double peg, gaming-cycle exposed**.
 
 **AD** — CPI ~3% est. (verify Estadística d'Andorra https://www.estadistica.ad); GDP ~1-2% (2024 est. — ski + retail + finance, verify); EUR-using via 2011 Monetary Treaty (not Eurozone, no ECB voting); ECB Deposit rate indirect; sovereign issuance via Treasury; BBB+ rated. Macro flag: **EUR-using, small economy**, ~85k pop.
 
@@ -523,7 +523,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 ### Tier-4 (added 2026-05-01)
 
-**QA** — CPI ~2.5% est. (Q1 2026 — verify at the National Planning Council https://www.npc.qa/, successor to the PSA; psa.gov.qa is egress-filtered); GDP ~1-2% (2025 est. — LNG-export driven, post-2022 World Cup base effect); QCB Lending Rate ~5.00% est. (Fed-bound via QAR/USD peg 3.64 since 2001 — verify https://www.qcb.gov.qa); 10y QAR not actively traded; USD eurobonds ~UST + 30-50 bps; AA-rated. Macro flag: **stable / pegged via USD**, hydrocarbon-buffered, Vision 2030 (QNV2030) infra-driven; LNG export competitiveness vs US/AU.
+**QA** — CPI ~2.5% est. (Q1 2026 — verify at the National Planning Council https://www.npc.qa/, successor to the PSA; psa.gov.qa is egress-filtered); GDP ~1-2% (2025 est. — LNG-export driven, post-2022 World Cup base effect); QCB QMR lending rate 4.60% (deposit 4.10%, repo 4.35%; effective 17 Sep 2026 after the QCB MPC resolution of 16 Sep 2026; Fed-bound via QAR/USD peg 3.64 since 2001 — https://www.qcb.gov.qa); 10y QAR not actively traded; USD eurobonds ~UST + 30-50 bps; AA-rated. Macro flag: **stable / pegged via USD**, hydrocarbon-buffered, Vision 2030 (QNV2030) infra-driven; LNG export competitiveness vs US/AU.
 
 **SA** — CPI ~2.0% est. (Q1 2026 — verify GASTAT https://www.stats.gov.sa); GDP ~3-4% (2025 est. — non-oil sector growing under Vision 2030 mega-projects: NEOM, Diriyah, Red Sea, Riyadh expansion); SAMA Repo ~5.50% est. (Fed-bound via SAR/USD peg 3.75 since 1986 — verify https://www.sama.gov.sa); 10y SAR ~5%; USD eurobonds ~UST + 50-80 bps; A-rated. Macro flag: **stable / pegged via USD**, Vision 2030 mega-project capex driving Riyadh + Jeddah + Eastern Province; aridification + extreme heat (50°C+) infra-stress.
 
@@ -547,11 +547,11 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **KE** — CPI ~6-7% est. (Q1 2026 — easing; verify KNBS https://www.knbs.or.ke); GDP ~5% (2025 est. — agriculture + services); CBK CBR ~10.75% est. (gradual cuts — verify https://www.centralbank.go.ke); 10y KES ~13.50%; USD eurobonds ~9-10%; B/Caa1 rated. Macro flag: **stable expansion**, KES managed-float ~2-5%/yr USD depreciation; ~55M pop (2019 census 47.6M, 2024 KNBS); M-PESA mobile money 95%+ adoption (financial inclusion best-in-class); SGR Mombasa-Nairobi corridor; coworking Nairobi Westlands/Karen/Kilimani (iHub/Nailab/Workstyle/The Mint Hub).
 
-**JO** — CPI ~2.5% est. (Q1 2026 — pegged regime low CPI; verify DOS https://dosweb.dos.gov.jo/); GDP ~2-3% (2025 est. — IMF EFF on track + tourism recovery despite regional war); CBJ ~6.50% est. (Fed-bound via JOD/USD peg 0.7080 since 1995 — verify https://www.cbj.gov.jo); 10y JOD ~5.50%; USD eurobonds ~6-7%; BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~11.4M pop (2024 DOS estimate including refugees); among most water-poor globally — Disi+Red-Dead project; aridification + Dead Sea declining 1m/yr; Vision 2025/2033.
+**JO** — CPI ~2.5% est. (Q1 2026 — pegged regime low CPI; verify DOS https://dosweb.dos.gov.jo/); GDP ~2-3% (2025 est. — IMF EFF on track + tourism recovery despite regional war); CBJ main policy rate 6.00% from 21 Sep 2026 (+25 bp, CBJ Open Market Operations Committee; Fed-bound via JOD/USD peg 0.7080 since 1995 — https://www.cbj.gov.jo); 10y JOD ~5.50%; USD eurobonds ~6-7%; BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~11.4M pop (2024 DOS estimate including refugees); among most water-poor globally — Disi+Red-Dead project; aridification + Dead Sea declining 1m/yr; Vision 2025/2033.
 
 **OM** — CPI ~1.5% est. (Q1 2026 — pegged regime; verify NCSI https://www.ncsi.gov.om); GDP ~1-2% (2025 est. — hydrocarbon-driven, Vision 2040 diversification); CBO ~5.50% est. (Fed-bound via OMR/USD peg 0.385 since 1986 — verify https://cbo.gov.om); 10y OMR not actively traded; USD eurobonds ~UST + 70-100 bps; BB+ rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~5.0M pop (NCSI 2024); cyclone exposure HIGH — Gonu 2007/Mekunu 2018/Shaheen 2021 catastrophic Muscat; Khareef monsoon Salalah Jul-Sep; Vision 2040.
 
-**BH** — CPI ~2.0% est. (Q1 2026 — pegged regime; verify iGA https://www.iga.gov.bh); GDP ~2-3% (2025 est. — financial-services + manufacturing); CBB 1-week deposit ~6.00% est. (Fed-bound via BHD/USD peg 0.376 since 2001 — verify https://www.cbb.gov.bh); 10y BHD ~5.80%; USD eurobonds ~UST + 200-300 bps; B+/BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk, UNIQUE highest face-value globally (BHD ≈ USD 2.66); ~1.49M pop (iGA 2024); minimal natural risk except 45°C+ heat + sandstorms; National Spatial Strategy 2050 + Saudi Causeway 2.
+**BH** — CPI ~2.0% est. (Q1 2026 — pegged regime; verify iGA https://www.iga.gov.bh); GDP ~2-3% (2025 est. — financial-services + manufacturing); CBB 1-week deposit 4.75% (CBB daily rates 22 Oct 2026; Fed-bound via BHD/USD peg 0.376 since 2001 — https://www.cbb.gov.bh/facilities-interest-rates/); 10y BHD ~5.80%; USD eurobonds ~UST + 200-300 bps; B+/BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk, UNIQUE highest face-value globally (BHD ≈ USD 2.66); ~1.49M pop (iGA 2024); minimal natural risk except 45°C+ heat + sandstorms; National Spatial Strategy 2050 + Saudi Causeway 2.
 
 **KW** — CPI ~3.0% est. (Q1 2026 — verify CSB https://www.csb.gov.kw); GDP ~2-3% (2025 est. — hydrocarbon-driven; future generations sovereign-fund FX-buffer ~US$700bn KIA est.); CBK Discount Rate ~4.25% est. (basket-managed since 20 May 2007 — was USD-pegged — verify https://www.cbk.gov.kw); 10y KWD ~4.50%; USD eurobonds ~UST + 30-50 bps; AA-rated. Macro flag: **stable / basket-managed**, KWD ≈ USD 3.25 — world's HIGHEST face-value currency; ~4.85M pop (2024 PACI); minimal seismic + extreme heat 50°C+ summers + sandstorms + Apr 2018 + 2024 catastrophic flash floods Wadi; Vision 2035 + Mubarak Al-Kabeer Port + Silk City planned.
 

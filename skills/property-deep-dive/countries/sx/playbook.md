@@ -536,7 +536,7 @@ MEDIUM-HIGH — Caribbean-regional insurance market is competitive but rate-shee
 | **🇲🇫 Saint-Martin (FR side)** | FR overlay — open, *droits* ~7–8% | 7–8% all-in | Taxe foncière + taxe d'habitation | 4–6% | EUR |
 | **🇰🇳 St Kitts & Nevis** | Open + CBI option (~US$250k+) | 6–10% | Modest property tax | 3–5% | XCD (peg) |
 | **🇦🇬 Antigua & Barbuda** | Alien Land-Holding Licence ~5% + CBI | 9–14% | Property tax + ALHL | 3–5% | XCD (peg) |
-| **🇧🇧 Barbados** | Foreign-buyer 0% transfer + 2.5% stamp | 4–6% | Property tax progressive | 3–5% | BBD (peg) |
+| **🇧🇧 Barbados** | Open; vendor pays 2.5% transfer tax above BBD 150k (with building) + 1% stamp | ~2–3% (buyer; PTT + stamp vendor-paid) | Property tax progressive | 3–5% | BBD (peg) |
 | **🇰🇾 Cayman** | Open, 7.5% stamp | ~7.5% | No annual property tax | 3–5% | KYD (peg) |
 | **🇧🇸 Bahamas** | Open + 10% VAT on > US$1M | 6–12% (slab) | Real property tax (progressive) | 3–6% | BSD (peg) |
 

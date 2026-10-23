@@ -18,7 +18,7 @@
 - **Contract**: em regime de exclusividade 6 mo standard, max 24
 - **MLS**: no MLS; Idealista, Imovirtual, Casa Sapo
 - **Discount**: 5-10% off asking; rural deeper
-- **Sell-side**: residents taxed on 50% of gain at marginal (exempt if reinvested in PR within EU); non-residents 28% flat; commission 4-6%+VAT
+- **Sell-side**: residents taxed on 50% of gain at marginal (exempt if reinvested in PR within EU); non-residents also on 50% of gain at progressive rates since 1 Jan 2023 (rate set on worldwide income; old 28% flat gone — CIRS art. 72.º n.º 1 a) revoked by Lei 24-D/2022); commission 4-6%+VAT
 - **Liquidity**: 🟢 HIGH Lisbon/Porto/Algarve coastal; 🟠 MEDIUM Silver Coast; 🔴 LOW interior (Alentejo inland, Beira)
 - **Quirks**: NHR ended Dec 2023 — softening top-end Lisbon/Porto 2024-2026; Golden Visa real-estate route closed Oct 2023; AL (STR licence) freezes/non-renewal in Lisbon/Porto reshape investor exits
 

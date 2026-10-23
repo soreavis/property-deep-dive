@@ -210,9 +210,9 @@ Ranges are est. blended indicators triangulated from the ONS "Private rent and h
 
 ### Tax on rental
 
-- **From 6 April 2027**: property income taxed at dedicated rates 2pp above main rates — basic 22% / higher 42% / additional 47% (Autumn Budget 2025). Finance-cost (mortgage-interest) relief also rises to 22%. (2026-07-03 verified; source [gov.uk technical note](https://www.gov.uk/government/publications/changes-to-tax-rates-for-property-savings-and-dividend-income/change-to-tax-rates-for-property-savings-and-dividend-income-technical-note))
+- **From 6 April 2027**: property income taxed at dedicated rates 2pp above main rates — basic 22% / higher 42% / additional 47% — **ENACTED** by Finance Act 2026 s.6 (new ITA 2007 s.6D, effect for 2027-28 and later years per s.6(8)) + s.7 (2027-28 rates); announced at Autumn Budget 2025. Finance-cost (mortgage-interest) relief also rises to 22% (FA 2026 Sch 1 para 40). (2026-10-23 verified; source [legislation.gov.uk FA 2026 s.7](https://www.legislation.gov.uk/ukpga/2026/11/section/7); announcement: [gov.uk technical note](https://www.gov.uk/government/publications/changes-to-tax-rates-for-property-savings-and-dividend-income/change-to-tax-rates-for-property-savings-and-dividend-income-technical-note))
 - Property income allowance £1,000/yr (de minimis)
-- Mortgage interest restricted to 20% basic rate credit (since 2020)
+- Mortgage interest restricted to a basic-rate tax credit (since 2020): 20% through 2026-27, 22% (the property basic rate) from 2027-28 — FA 2026 Sch 1 para 40 substitutes PBR for BR in ITTOIA 2005 ss.274AA(5) and 274C(2) ([legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2026/11/schedule/1/paragraph/40), 2026-10-23 verified)
 - ATED (>£500k single dwellings owned by company): annual charge
 - VAT 20% on furnished holiday let with serviced element
 

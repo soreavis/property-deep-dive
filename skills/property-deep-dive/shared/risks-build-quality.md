@@ -495,7 +495,7 @@ The **single most important LATAM innovation for off-plan buyers is Brazil's Pat
 - **01 Jan 2026** — US-CA — SB-326/SB-721 balcony EEE inspection deadlines (extended by AB 2579)
 - **01 Jan 2026** — CA-ON — Tarion full deposit-cap regime begins for late-registering purchasers ($10m annual sub-limit)
 - **02 Mar 2026** — AU-NSW — icare HBCF new Eligibility Manual + Tier 3 OJV (>$8m) + HBCF Portal launch
-- **31 Mar – 29 Jul 2026** — AU — AUSTRAC Tranche 2 enrolment window for real-estate professionals
+- **31 Mar 2026** — AU — AUSTRAC Tranche 2 enrolment opened for real-estate professionals, deadline 29 Jul 2026 for businesses providing designated services from 1 Jul 2026 — [AUSTRAC Tranche 2](https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms)
 - **01 Apr 2026** — CA-ON — Tarion 45-day-notice regime for new freehold purchasers fully in force
 - **01 Jul 2026** — AU — AUSTRAC Tranche 2 AML/CTF Act commenced for real-estate, legal, accounting, jeweller
 - **2025-2029** — CA-QC — GCR Inspection Programme: ≥3 inspections per new home incl. mandatory pre-wall-closure; phased rollout to early 2029

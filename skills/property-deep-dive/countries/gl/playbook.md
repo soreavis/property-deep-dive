@@ -450,7 +450,7 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 **Last verified**: 2026-05-27. Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Ownership tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Rental tracker entry (EM2026 punkt 242 bill) re-checked 2026-10-21; see shared/regulatory-watch.md.
 
-**On PR merge — regulatory-watch.md addition required** (currently zero GL entries): Tier-1 entry for **Inatsisartutlov nr. 78 af 21. november 2025 om erhvervelse af adkomst eller brugsret til fast ejendom**, effective 1 January 2026, affecting all foreign-buyer rules across `--ownership`, `--banking`, `--transaction`, `--rental`, `--work`, `--visa` sections; revisit cadence 12 months; source URL [nalunaarutit.gl](https://nalunaarutit.gl/groenlandsk-lovgivning/2025/inatsisartutlov-nr-78-af-21_11_2025?sc_lang=da). Companion entries: 2026 rental-law (lejelov) consultation — tier 3, revisit 6 months; Mineral Resources Act 2010 (last amended 2019) — tier 4 informational anchor.
+**Tracker entries**: three GL entries live in `shared/regulatory-watch.md` § GL — Inatsisartutlov nr. 78 af 21. november 2025 (ownership, in force 1 Jan 2026, tier 1); the rental bill EM2026 punkt 242 (pending, NOT adopted as of 2026-10-21, tier 3); and the no-private-land / Mineral Resources Act 2010 anchor (tier 4).
 
 ## ⚠️ Run quality notes
 
