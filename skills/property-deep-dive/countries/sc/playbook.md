@@ -276,7 +276,7 @@ Sanction Duty (the 12% surcharge — NOT the 5% Stamp Duty) is exempt for:
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Disaster Risk Management Department (DRMD)** | `https://www.drmd.sc/` | National DRR coordination, historical event chronology |
+| **Department of Risk and Disaster Management (DRDM, ex-DRMD — renamed Dec 2025)** | `https://www.drdm.sc/` | National DRR coordination, historical event chronology (`https://www.drdm.sc/disaster/`) |
 | **Seychelles Meteorological Authority** | via `https://www.meteo.gov.sc/` (verify) | Met data, cyclone tracking, advisories |
 | **Ministry of Environment, Climate, Energy and Natural Resources** | `https://environment.gov.sc/` | Climate Change Department + Coastal Zone Management |
 | **World Bank Climate Change Knowledge Portal — Seychelles** | `https://climateknowledgeportal.worldbank.org/country/seychelles` | Country profile, projections (CMIP6, CHAZ tropical-cyclone) |
@@ -613,7 +613,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 | **Tourism Department** | Accommodation standards, star classification, licence recommendation to the SLA — `https://tourism.gov.sc/` |
 | **Central Bank of Seychelles (CBS)** | Monetary + FX + financial-stability — `https://www.cbs.sc/` |
 | **National Bureau of Statistics (NBS)** | Population, CPI, crime stats — `https://www.nbs.gov.sc/` |
-| **Disaster Risk Management Department (DRMD)** | Hazard history, DRR coordination — `https://www.drmd.sc/` |
+| **Department of Risk and Disaster Management (DRDM, ex-DRMD)** | Hazard history, DRR coordination — `https://www.drdm.sc/` |
 | **Ministry of Environment, Climate, Energy and Natural Resources** | Climate, Coastal Zone Management — `https://environment.gov.sc/` |
 | **Financial Services Authority (FSA)** | IBC + Trust + non-bank financial regulation — `https://www.fsaseychelles.sc/` |
 | **Ministry of Lands and Housing** (Seychelles Planning Authority) + **Ministry of Transport** (Land Transport Dept / SLTA) — successors to the dissolved MHILT | Building permits; roads, transport |
@@ -660,7 +660,7 @@ For most international buyers, the actionable foreign-buyer routes are:
 | Immigration and Civil Status (ICS) | `https://www.ics.gov.sc/` |
 | ICS Residence Permit | `https://www.ics.gov.sc/permits/residence-permit` |
 | ICS GOP Section | `https://www.ics.gov.sc/faq/immigration-services/gop-section` |
-| Disaster Risk Management Department | `https://www.drmd.sc/` |
+| Department of Risk and Disaster Management (DRDM, ex-DRMD) | `https://www.drdm.sc/` |
 | Ministry of Environment + Climate | `https://environment.gov.sc/` |
 | World Bank CCKP — Seychelles | `https://climateknowledgeportal.worldbank.org/country/seychelles` |
 | Climate Central Coastal Risk Tool | `https://coastal.climatecentral.org/` |

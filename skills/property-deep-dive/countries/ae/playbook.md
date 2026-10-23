@@ -112,7 +112,7 @@ This section determines whether a transaction is even legally possible. Confirm 
 - **Bayut**: `https://www.bayut.com/`
 - **Property Finder**: `https://www.propertyfinder.ae/`
 - **Dubizzle Property**: `https://www.dubizzle.com/property-for-sale/`
-- **Houza**: `https://www.houza.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Houza** — challenger portal; ceased operations Feb 2024 per trade press (`https://www.onlinemarketplaces.com/articles/emirati-challenger-portal-houza-folds-as-investors-lose-appetite/`, 4 Apr 2024 — secondary) and `houza.com` no longer serves a website (2026-10-21 verified); no successor — use Bayut / Property Finder / Dubizzle above
 - **Luxhabitat**, **LuxuryProperty.com** (high-end)
 
 ### Dubai citywide benchmarks (verified 2026-07-03)
@@ -530,7 +530,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 - **Bayut** (largest by listings) — `https://www.bayut.com/`
 - **Property Finder** (UAE-wide, strong analytics) — `https://www.propertyfinder.ae/`
 - **Dubizzle Property** — `https://www.dubizzle.com/property-for-sale/`
-- **Houza** — `https://www.houza.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Houza** — challenger portal; ceased operations Feb 2024 per trade press (`https://www.onlinemarketplaces.com/articles/emirati-challenger-portal-houza-folds-as-investors-lose-appetite/`, 4 Apr 2024 — secondary) and `houza.com` no longer serves a website (2026-10-21 verified); no successor — use Bayut / Property Finder / Dubizzle above
 - **LuxHabitat** + **LuxuryProperty.com** + **Sotheby's UAE** (high-end)
 - **JustProperty.com** (Sharjah / Northern Emirates strong)
 - Developer direct portals (Emaar, Damac, Aldar, Nakheel, Sobha) for off-plan

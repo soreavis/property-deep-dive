@@ -28,8 +28,8 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Plusvalía**: [`https://www.plusvalia.com/`](https://www.plusvalia.com/) — DOMINANT national portal (Navent group)
 - **Properati Ecuador**: [`https://www.properati.com.ec/`](https://www.properati.com.ec/) — aggregator + price index
-- **OLX Ecuador**: [`https://www.olx.com.ec/inmuebles_c367`](https://www.olx.com.ec/inmuebles_c367) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — private sellers, mixed quality
-- **Mercado Libre Ecuador Inmuebles**, **Vivanuncios.com.ec**, **Inmobiliaria.com.ec**
+- **Mercado Libre Ecuador — Inmuebles**: [`https://inmuebles.mercadolibre.com.ec/`](https://inmuebles.mercadolibre.com.ec/) — general marketplace with an Inmuebles (property) category *(listing platform — seller-controlled; verify with cadastre / on visit)*. OLX Ecuador, previously listed here, is offline: `olx.com.ec` has no address record and the OLX country selector at olx.com lists no Ecuador site (2026-10-21 verified)
+- **Vivanuncios.com.ec**, **Inmobiliaria.com.ec** — both domains no longer resolve (2026-10-21 verified)
 - **Engel & Völkers Ecuador**, **RE/MAX Ecuador**, **Coldwell Banker Ecuador** — premium / international
 - ⚠️ Most listings tagged in **m² de construcción** (built area); confirm vs **m² útil** (usable / privative) on visit *(per listing — verify with cadastre / on visit)*
 
@@ -797,7 +797,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | INEC — Ecuador en Cifras | `https://www.ecuadorencifras.gob.ec/` |
 | SRI — Servicio de Rentas Internas | `https://www.sri.gob.ec/` |
 | MIDUVI — Hábitat y Vivienda | `https://www.habitatyvivienda.gob.ec/` |
-| MINTUR — Turismo | `https://www.turismo.gob.ec/` |
+| MDEP — Desarrollo Económico y Productivo (tourism remit of the former MINTUR now sits in its Viceministerio de Producción, Industria y Turismo; Decreto Ejecutivo 425/2026) | `https://www.economicoproductivo.gob.ec/` |
 | MAATE — Ambiente | `https://rncc.ambiente.gob.ec/` (❌ `www.ambiente.gob.ec` DEPRECATED) |
 | Cancillería — Movilidad Humana | `https://www.cancilleria.gob.ec/` |
 | Ministerio del Trabajo | `https://www.trabajo.gob.ec/` |
@@ -822,7 +822,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 | CELEC EP / CNEL EP / EPMAPS / Interagua / ETAPA / EEQ / CNT | `https://www.celec.gob.ec/` · `https://www.cnelep.gob.ec/` · `https://www.aguaquito.gob.ec/` · `https://www.interagua.com.ec/` · `https://www.etapa.net.ec/` · `https://www.eeq.com.ec/` · `https://www.cnt.gob.ec/` |
 | GAD Municipal Quito / Guayaquil / Cuenca | `https://www.quito.gob.ec/` · `https://www.guayaquil.gob.ec/` · `https://www.cuenca.gob.ec/` |
 | CAMICON — Cámara Construcción | `https://www.camicon.ec/` |
-| Plusvalía / Properati EC / OLX EC | `https://www.plusvalia.com/` · `https://www.properati.com.ec/` · `https://www.olx.com.ec/inmuebles_c367` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Plusvalía / Properati EC / Mercado Libre EC Inmuebles | `https://www.plusvalia.com/` · `https://www.properati.com.ec/` · `https://inmuebles.mercadolibre.com.ec/` |
 
 ## Status
 

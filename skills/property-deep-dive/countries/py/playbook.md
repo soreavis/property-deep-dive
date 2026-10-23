@@ -51,7 +51,7 @@ ISO2: `py`. Status: ✅ Fully populated (researched 2026-05).
 | **InfoCasas Paraguay** | `https://www.infocasas.com.py/` | Largest portal; agency + private; Asunción + Ciudad del Este coverage strong |
 | **Clasipar** | `https://clasipar.paraguay.com/` | National classifieds incl. inmuebles |
 | **MercadoLibre Inmuebles PY** | `https://inmuebles.mercadolibre.com.py/` | Wide coverage |
-| **Properati Paraguay** | `https://www.properati.com.py/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Paraguay portal (Properati does not operate in PY) | Aggregator |
+| **TuLugar Paraguay** | `https://tulugar.com/es/casas-en-venta/paraguay` | Aggregator — regional platform (19 LatAm countries); shows its own PY listings plus listings published on other PY portals (2026-10-21 verified). Replaces Properati, which does not operate in Paraguay (`properati.com.py` no longer resolves) |
 | **Remax Paraguay**, **Century 21 PY**, **Coldwell Banker PY** | various | Premium brokerages, Asunción + suburbs |
 | **Inmobiliaria del Este** (CDE focus) | regional | Ciudad del Este + Alto Paraná |
 
@@ -1199,7 +1199,7 @@ Paraguay as of 2026-05 has **no dedicated digital-nomad visa** comparable to PT 
 | InfoCasas PY | `https://www.infocasas.com.py/` |
 | Clasipar | `https://clasipar.paraguay.com/` |
 | MercadoLibre PY | `https://inmuebles.mercadolibre.com.py/` |
-| Properati PY | `https://www.properati.com.py/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Paraguay portal (Properati does not operate in PY) |
+| TuLugar PY | `https://tulugar.com/es/casas-en-venta/paraguay` |
 | CAPADEI | `https://capadei.org.py/` |
 
 ## Status

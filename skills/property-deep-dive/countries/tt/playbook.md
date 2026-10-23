@@ -339,7 +339,7 @@ The property thesis in T&T is mostly **second-home / returning-diaspora / energy
 
 ### Key context
 
-- **2025: 369 murders** (year ending 31 Dec 2025) — a **~42% decline vs 2024** and the **lowest since 2014**. (Source: [Newsday, 2 Jan 2026](https://newsday.co.tt/) reporting the TTPS figure; "Murders fall to 10-year low.")
+- **2025: 369 murders** (year ending 31 Dec 2025) — a **~42% decline vs 2024** and the **lowest annual murder toll in more than a decade**. (Source: [Ministry of Finance — Budget Statement 2027, 12 Oct 2026, pp. 21–22](https://www.finance.gov.tt/wp-content/uploads/2026/10/2026.10.12-2027-Budget-Statement-final-Minister-copy-formatted-002.pdf): "murders fell by 42 percent from 626 in 2024 to 369" — the PDF lead-in says "In 2026"; the [Trinidad Guardian transcript](https://www.guardian.co.tt/news/budget-2027-6.2.2688080.a04a032731) reads "In 2025".)
 - **2024: a record-high murder year, cited ≈625 (range 624–626 across outlets)** — present as **≈625 (2024, record)** rather than a single hard number, since outlets vary by ±1–2.
 - **2024 homicide rate ≈ 45.7 per 100,000** — **COMPUTED**: ≈625 murders ÷ **1,368,333** (World Bank 2024 population) × 100,000 ≈ **45.7/100k**. (Uses the same population denominator as the Country profile for internal consistency; the ~1.5M aggregator figures would yield ~41.7/100k and are projection-based — do NOT mix denominators.)
 - **State of Emergency**: T&T has used States of Emergency in response to gang violence in this period. → **Verify the current SoE status** at official government sources before relying on it. [VERIFY exact SoE dates/status]

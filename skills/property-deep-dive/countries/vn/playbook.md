@@ -611,7 +611,7 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 - **r/saigon**, **r/Hanoi**, **r/Danang** — city-specific
 - **r/expats** + **r/IWantOut** — long-stay / relocation
 - **r/digitalnomad** — DTV / Da Nang / Hoi An nomad threads
-- **VietnamExpats forum**: `https://www.vietnamexpats.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — long-running expat forum, real-estate threads
+- **expat.com Vietnam forum**: `https://www.expat.com/en/forum/asia/vietnam/` — active expat forum; rental, apartment-contract and land-use threads (anecdotal). Replaces the defunct VietnamExpats forum (vietnamexpats.com, domain listed for sale since at least Aug 2024)
 - **AsiaExpats / Living Vietnam** Facebook groups — many real-estate discussions, anecdotal
 - **Saigoneer** (English-language news + community): `https://saigoneer.com/`
 - ⚠️ Forum-quality caveat: many anecdotes about "company structure to own land" or "name-lender (mượn tên)" arrangements — these are illegal and have been increasingly enforced since 2018; treat older forum threads as outdated. Real-estate enforcement landscape changed materially with the 2023 Housing Law and 2024 Land Law (both in force **1 Aug 2024** — corrected 2026-08-07; previously mis-stated here as 2025-08-01).

@@ -336,7 +336,7 @@ RGD registration: ~LKR 5,000 (~USD 16)
 
 - **TopJobs.lk** — [`https://www.topjobs.lk/`](https://www.topjobs.lk/) — largest local jobs portal
 - **LinkedIn Sri Lanka** — strong in BPO/IT/finance, Colombo-centric
-- **Indeed Sri Lanka** — [`https://lk.indeed.com/`](https://lk.indeed.com/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **XpressJobs** — [`https://xpress.jobs/`](https://xpress.jobs/) — Sri Lankan jobs portal, listings by sector
 - **Department of Labour** — [`https://www.labourdept.gov.lk/`](https://www.labourdept.gov.lk/) — public-sector vacancies + labour regulations
 - **Sri Lanka Bureau of Foreign Employment** — [`https://www.slbfe.lk/`](https://www.slbfe.lk/) — primarily outbound migration
 
@@ -585,7 +585,7 @@ Sources: Department of Labour wage gazettes; CBSL Annual Report 2024; LinkedIn S
 - **Hitad.lk** — [`https://www.hitad.lk/`](https://www.hitad.lk/) — classifieds
 - **House.lk** — [`https://www.house.lk/`](https://www.house.lk/) — agent-curated
 - **Lamudi.lk** — [`https://www.lamudi.lk/`](https://www.lamudi.lk/)
-- **LandSale.lk** — [`https://landsale.lk/`](https://landsale.lk/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — land-focused
+- **LankaLand** — [`https://www.lankaland.lk/`](https://www.lankaland.lk/) — property classifieds with a dedicated Land section
 - **Property-srilanka.com** — foreign-buyer focused
 - **Akara Apartments** — [`https://www.akaraapartments.lk/`](https://www.akaraapartments.lk/) — luxury Colombo
 - **Colombo Realtors** — [`https://colomborealtors.lk/`](https://colomborealtors.lk/)

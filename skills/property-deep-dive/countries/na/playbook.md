@@ -87,7 +87,7 @@ This section determines whether a transaction is even legally possible — and w
 ### Listing platforms
 
 - **MyProperty Namibia** — `https://www.myproperty.com.na/`
-- **Property.com.na** — `https://www.property.com.na/`
+- **Property News Namibia** — `https://propertynews.com.na/` (listing platform — seller-controlled; estate-agent and homeowner listings plus a property magazine; formerly also served at `property.com.na`, which no longer resolves — DNS 2026-10-21)
 - **Property24 Namibia** — `https://www.property24.co.na/`
 - **Househunter Namibia** — `https://www.housefindernam.com/`
 - (Plus agency sites — Pam Golding Namibia, RE/MAX Namibia, Seeff Namibia, etc.)
@@ -639,7 +639,7 @@ Namibia operates a **Digital Nomad Visa**, run jointly by the **[NIPDB](https://
 ## Common listing platforms
 
 - **MyProperty Namibia** — `https://www.myproperty.com.na/`
-- **Property.com.na** — `https://www.property.com.na/`
+- **Property News Namibia** — `https://propertynews.com.na/` (listing platform — seller-controlled; estate-agent and homeowner listings plus a property magazine; formerly also served at `property.com.na`, which no longer resolves — DNS 2026-10-21)
 - **Property24 Namibia** — `https://www.property24.co.na/`
 - **Househunter Namibia** — `https://www.housefindernam.com/`
 - **Pam Golding Namibia** — agency

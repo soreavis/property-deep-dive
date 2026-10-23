@@ -187,7 +187,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Notes
 
-- **Riyadh Metro** (6 lines, 176 km, 85 stations) — Phase 1 inaugurated **Dec 2024**; full operations rolling 2024–2026 ([Royal Commission for Riyadh City](https://www.rcrc.gov.sa/) + [Riyadh Metro](https://www.riyadhmetro.sa/)); fundamentally re-rates property within ~800 m of stations
+- **Riyadh Metro** (6 lines, 176 km, 85 stations) — Phase 1 inaugurated **Dec 2024**; full operations rolling 2024–2026 ([Royal Commission for Riyadh City](https://www.rcrc.gov.sa/) + [RCRC — Riyadh Metro project page (AR)](https://www.rcrc.gov.sa/projects/riyadh-public-transport-project/)); fundamentally re-rates property within ~800 m of stations
 - **King Fahd Road (Riyadh)** — primary north-south spine; 200,000+ v/d at peak central segments; adjacency = chronic congestion + noise
 - **Jeddah Corniche** — coastal arterial; high tourist + leisure traffic, especially Thurs-Sat
 - **Mecca + Medina** — pilgrimage traffic spikes during **Hajj** (Dhu al-Hijjah, ~5 days/yr) and **Umrah season** (Ramadan + year-round) saturate haram-area roads

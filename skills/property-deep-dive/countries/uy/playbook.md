@@ -163,9 +163,9 @@ OSM `highway` class:
 
 - **Adicional para MIDES** (Ministerio de Desarrollo Social) — surcharge on certain Contribución brackets in some departamentos (variable; verify per Intendencia)
 - **Impuesto a la Educación Primaria** (school tax, national):
-  - Levied on padrón holders; rate scales with VRC
-  - Typical ~0.15% of VRC for residential; capped categories
-  - Source: ANEP / DGI, see `https://www.dgi.gub.uy/`
+  - Annual tax on urban and rural property, payable by owners, promitentes compradores, usufructuarios and poseedores; base is the DNC valor imponible on the cédula catastral (the same base used for Patrimonio and ITP)
+  - 2026 bands (2026 data, source DGI): exempt below UYU 282,612; UYU 282,612–494,568: 0.15%; 494,569–2,119,563: 0.2%; 2,119,564–4,945,638: 0.25%; 4,945,639 and above: 0.3% ("el padrón que vale más, paga más")
+  - Source: DGI, see `https://www.gub.uy/direccion-general-impositiva/impuesto-primaria/sobre-impuesto/porcentaje-se-aplica-base-calculo-del-impuesto` (payers, base and exemption floor: sibling pages under `https://www.gub.uy/direccion-general-impositiva/impuesto-primaria/sobre-impuesto`)
 - **Impuesto al Patrimonio (IP)** — wealth tax under Ley 18.083:
   - For natural persons resident in UY: levied on net worldwide assets (with exemptions for housing, vehicles, household goods up to thresholds)
   - 2025 minimum non-imponible (per persona física): ~UYU 6,500,000 (verify current at DGI; ~USD 165,000 at 2026 FX)
@@ -176,8 +176,8 @@ OSM `highway` class:
 
 - **ITP (Impuesto a las Transmisiones Patrimoniales)** — Title 19 of Texto Ordenado DGI:
   - **Total 4% of VRC** (NOT market price — major saving for buyers since VRC is typically 30–60% below market)
-  - Customarily split: **2% buyer + 2% seller** (negotiable but standard)
-  - Source: DGI `https://www.dgi.gub.uy/`
+  - Statutory split: **2% buyer (adquirente) + 2% seller (enajenante)** in onerous transfers (Art. 7 Título 19 T.O. 2023); the escribano withholds and files the ITP return (Art. 7 Dto. 252/998)
+  - Source: DGI `https://www.gub.uy/direccion-general-impositiva/comunicacion/publicaciones/impuesto-transmisiones-patrimoniales-0`
 - **Aportes a BPS (Banco de Previsión Social)** — for sellers selling new construction or recently-completed properties: contributions on labor used in construction (rare for second-hand)
 - **Inscripción en el Registro de la Propiedad** — registration fee:
   - ~0.55% of VRC (verify current arancel at Dirección General de Registros: `https://www.gub.uy/ministerio-educacion-cultura/politicas-y-gestion/direccion-general-registros`)
@@ -192,14 +192,15 @@ OSM `highway` class:
 
 - Sale of real estate by natural-person resident: **IRPF Cat I — 12% on indexed gain** (real gain after CPI indexation under UI mechanism)
 - Non-residents: **IRNR 12%** flat on indexed gain
-- **Primary residence exemption**: no automatic exemption like FR/UK, but if proceeds reinvested into new primary residence under specific conditions, deferral possible (consult escribano)
-- Source: DGI, `https://www.dgi.gub.uy/normativa-1/normativa-1`
+- **Primary residence relief is an exoneration, not a deferral**: the gain on selling the seller's vivienda permanente is exonerated only if ALL apply: sale value ≤ 1,200,000 UI; at least 50% of the proceeds buy a new vivienda permanente; no more than 12 months between sale and purchase; new home ≤ 1,800,000 UI; both homes are vivienda permanente (Lit. L art. 38 Título 7 T.O. 2023). Not automatic: the escribano still withholds and the seller then requests the refund from DGI
+- Urban property acquired before 1 Jul 2007: the seller may instead opt for the ficto method (taxable gain = 15% of the higher of sale price or DNC valor real)
+- Source: DGI guide (2024), `https://www.gub.uy/direccion-general-impositiva/comunicacion/publicaciones/irpf-incrementos-patrimoniales-inmuebles-urbanos` — the IRNR 12% rate above is not stated on this page; verify with DGI
 
 ### Inheritance / succession
 
 - **No inheritance tax in Uruguay** since 1976 (one of major tax-relocation attractions)
 - However: **ITP applies to inheritances** at reduced rates (typically 3% for direct ancestors/descendants, 4% for siblings)
-- Source: DGI Texto Ordenado, see `https://www.dgi.gub.uy/`
+- Source: DGI Texto Ordenado, see `https://www.gub.uy/direccion-general-impositiva/comunicacion/publicaciones/impuesto-transmisiones-patrimoniales-0`
 
 ### Example calculation — Carrasco apartment, USD 500,000 market, VRC USD 250,000 equivalent
 
@@ -208,16 +209,16 @@ Market price (asking):              USD 500,000
 VRC (estimated 50% of market):      USD 250,000  ← basis for ITP, IP, Contribución
 ITP (4%, split 2+2):                USD 10,000 total (USD 5k buyer)
 Contribución (~0.9% of VRC):        USD 2,250 / year
-Imp. a Primaria (~0.15% VRC):       USD 375 / year
+Imp. a Primaria (0.3% band, VRC):   USD 750 / year
 Notary (3% of price):               USD 15,000
 Inscripción (0.55% VRC):            USD 1,375
 Comisión 3% + IVA each side:        ~USD 18,300 buyer-side
 ─────────────────────────────────────────────
 Total buyer transaction cost:       ~USD 39,675 (~7.9% of price)
-Annual recurring tax:               ~USD 2,625
+Annual recurring tax:               ~USD 3,000
 ```
 
-(Computed example, inputs listed inline. Real VRC must be looked up per padrón at DNC.)
+(Computed example, inputs listed inline. Primaria: USD 250,000 VRC ≈ UYU 9.85M at ~UYU 39.4/USD (the rate implied by the IP line above), inside the DGI 2026 top band (4,945,639 and above: 0.3%); the DGI page does not say whether the bands apply marginally, which would give ~USD 640. Real VRC must be looked up per padrón at DNC.)
 
 ### Future risk
 
@@ -248,7 +249,7 @@ Annual recurring tax:               ~USD 2,625
 | **Non-resident** | IRNR | **12% statutory** on Uruguayan-source rental income; in practice **10.5% monthly retención** by tenant/immobiliaria operates as final tax (no DJ obligation if fully retained). Verify per-transaction with contador |
 | **Corporate (SA/SRL)** | IRAE | 25% on net + IP if applicable |
 
-Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi.gub.uy/`
+Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.gub.uy/direccion-general-impositiva/comunicacion/publicaciones/ingreso-alquileres-anuales-temporada`
 
 ### Short-term rentals (alquiler por temporada / Airbnb)
 
@@ -286,7 +287,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 - **Buscojobs.com.uy**: `https://www.buscojobs.com.uy/`
 - **Computrabajo Uruguay**: `https://www.computrabajo.com.uy/`
 - **LinkedIn Uruguay** — strong in IT, financial services, MNCs (Zonamerica + Aguada Park concentrations)
-- **Mercado Libre Empleos**: `https://empleos.mercadolibre.com.uy/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Vía Trabajo** (MTSS – Dirección Nacional de Empleo public employment service; free; workers register a profile and apply to vacancies posted by private-sector employers): `https://viatrabajo.mtss.gub.uy/viatrabajoweb/servlet/inicio` — service page `https://www.gub.uy/tramites/servicio-publico-apoyo-empleo`; the portal refused some connections with a firewall geo-block page (self-signed certificate) when checked 2026-10-21
 - **El Gallito Empleos**: `https://www.gallito.com.uy/empleos`
 - **El País Clasificados Empleos**: `https://trabajo.gallito.com.uy/`
 
@@ -383,7 +384,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | **Estudio de títulos (30-yr chain)** | Verify 30-year title chain — standard escribano practice | Escribano público (mandatory) |
 | **Plano de mensura registrado** | Cadastral plan registered at DNC | DNC `http://sede.catastro.gub.uy/Sede/` |
 | **Cédula catastral informada** | DNC valuation reference | DNC |
-| **Certificado único de DGI Inmuebles** | Confirms no IRPF/IRAE/Patrimonio debts on the padrón | DGI `https://www.dgi.gub.uy/` |
+| **Certificado único de DGI** | Taxpayer-level, not a padrón certificate: DGI states it certifies that taxpayers carrying out commercial, industrial, service or agricultural activities are up to date with DGI filings and taxes. Relevant when the seller is such a taxpayer; ask the escribano which fiscal controls apply to the transfer | DGI `https://www.gub.uy/tramites/solicitud-certificado-unico-direccion-general-impositiva` |
 | **Certificado común de BPS** | Confirms no labor + social-security debts (relevant for new construction) | BPS `https://www.bps.gub.uy/` |
 | **Certificado de OSE** | Confirms no water utility debts | OSE `https://www.ose.com.uy/` |
 | **Certificado de UTE** | Confirms no electric utility debts | UTE `https://portal.ute.com.uy/` |
@@ -565,7 +566,7 @@ Source: DGI Texto Ordenado Cap. IV (IRPF) + Cap. VI (IRNR), see `https://www.dgi
 | DNC Catastro | `http://sede.catastro.gub.uy/Sede/` |
 | Registro de la Propiedad (DGR) | `https://www.gub.uy/ministerio-educacion-cultura/politicas-y-gestion/direccion-general-registros` |
 | MEF | `https://www.gub.uy/ministerio-economia-finanzas/` |
-| DGI | `https://www.dgi.gub.uy/` |
+| DGI | `https://www.gub.uy/direccion-general-impositiva/` |
 | BPS | `https://www.bps.gub.uy/` |
 | BCU (UI value, FX) | `https://www.bcu.gub.uy/` |
 | INE Estadísticas Inmobiliarias | `https://www.ine.gub.uy/inmuebles` |

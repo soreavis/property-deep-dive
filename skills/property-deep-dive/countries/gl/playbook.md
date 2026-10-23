@@ -93,8 +93,8 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
    - Statbank: [bank.stat.gl](https://bank.stat.gl/) — series include `BOXBYG` (building permits), housing-stock, dwellings
 2. **Self-Government housing rents (Iserit A/S)** — sets the public-rental benchmark for towns: [iserit.gl](https://www.iserit.gl/)
 3. **Listing platforms (private market — thin)**:
-   - [boligportal.gl](https://www.boligportal.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — Nuuk + Sisimiut + Ilulissat (rentals + some sales)
-   - [estate.gl](https://www.estate.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — agency listings (verify URL liveness)
+   - [Netbolig](https://netbolig.gl/salg) — agency site (ejendomsmægler), not a multi-agency portal: sale listings in Nuuk, Nuussuaq, Sisimiut, Ilulissat and Aasiaat; rentals (Nuuk / Nuussuaq) at [netbolig.gl/leje](https://netbolig.gl/leje) — listing tier, seller-controlled asking prices (checked 2026-10-21)
+   - [Lynges](https://lynges.gl/koebbolig) — agency site selling in Nuuk, Ilulissat and Qaqortoq; states an agreement with Nykredit to value homes being mortgaged (realkredit) — listing tier, seller-controlled (checked 2026-10-21)
    - DBA / dba.dk Greenland filter — secondhand market
    - Facebook Marketplace "Sælges i Nuuk" — private-sale signal
 4. **Bank valuations**: [Grønlandsbanken](https://www.banken.gl/) + [BankNordik Grønland](https://www.banknordik.gl/) publish annual market commentary in Danish; treat as orientation, not transactional
@@ -104,7 +104,7 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
 - Nuuk house/apartment: ~DKK 25,000–45,000 / m² (~€3,350–€6,030 / m² at 2026 DKK/EUR ≈ 7.46) — `est.` from listing scrape; verify
 - Sisimiut / Ilulissat: ~DKK 15,000–28,000 / m² `est.`
 - Bygder (small settlements): often nominal building values DKK 100,000–500,000 — wood houses, no land value
-- `data not publicly available for parcel-level historical sale prices — verify with the bank's valuation desk or recent comparable on boligportal.gl`
+- `data not publicly available for parcel-level historical sale prices — verify with the bank's valuation desk or recent asking-price comparables on agency sites such as netbolig.gl / lynges.gl (seller-controlled)`
 
 **Caveat**: housing-shortage in Nuuk is structurally severe (Inatsisartutlov 78/2025 is partly a response). Listings turn over quickly; price discovery is opaque.
 
@@ -390,8 +390,8 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Common listing platforms
 
-- [boligportal.gl](https://www.boligportal.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — rentals + some sales
-- [estate.gl](https://www.estate.gl/) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — verify URL
+- [Netbolig](https://netbolig.gl/) — agency site: sales in Nuuk, Sisimiut, Ilulissat, Aasiaat + rentals in Nuuk (seller-controlled)
+- [Lynges](https://lynges.gl/) — agency site: sales in Nuuk, Ilulissat, Qaqortoq (seller-controlled)
 - [dba.dk](https://www.dba.dk/) (Greenland filter) — second-hand market incl. cabins (`hytter`)
 - Facebook Marketplace "Sælges i Nuuk" — private-sale signal
 

@@ -88,8 +88,8 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 - **Plut Properties** — `https://plutproperties.com/` — agency, residential + commercial
 - **Kwanda Real Estate** — `https://kwandarealestate.com/` — foreign-investor-oriented platform
 - **Kigali Inspectify** — `https://kigaliinspectify.com/` — inspection + listing
-- **Property24 Rwanda** — `https://www.property24.co.rw/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Rwanda portal (Property24 is South Africa-only) — regional Property24 instance
-- **Real Estate in Rwanda (REIR)** — `https://reir.rw/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with REIR association appears defunct — use RDB (rdb.rw) / RLMUA (lands.rw) for primary data — sector association
+- **Terra Real Estate** — `https://www.terra.rw/` — small listing marketplace run by a Kigali consultancy, with paid listing tiers (fewer than 100 live listings on 2026-10-21, spread across all five provinces); sellers post houses and land through its 'List Your House' / 'List Your Land' forms (replaces Property24 Rwanda: `property24.co.rw` NXDOMAIN on 2026-10-21, no Wayback Machine capture, and Property24's own country network lists no Rwanda site)
+- **Real Estate Professionals' Association of Rwanda (RWAREB)** — no website found; see `https://www.newtimes.co.rw/article/37540/news/housing/new-rules-to-regulate-real-estate-brokers` (The New Times, 21 Jul 2026) — brokers' sector association; its code of ethics is not legally enforceable, and a National Land Authority (NLA) broker-licensing framework was still in draft in Jul 2026 (replaces REIR: `reir.rw` NXDOMAIN on 2026-10-21, no Wayback Machine capture)
 
 ### Indicative price bands (2024–2025, Kigali — listing aggregation, est.)
 
@@ -325,7 +325,7 @@ PIT brackets (monthly employment income, post-Nov 2023):
 ### Job platforms
 
 - **JobinRwanda** — `https://www.jobinrwanda.com/` (largest)
-- **MyJobMag Rwanda** — `https://www.myjobmag.co.rw/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Rwandajob.com** — `https://www.rwandajob.com/` (AfricaTalents network; replaces MyJobMag Rwanda: `myjobmag.co.rw` NXDOMAIN on 2026-10-21, no Wayback Machine capture, and MyJobMag's homepage links no Rwanda site)
 - **LinkedIn Rwanda** — strong in NGO, finance, tech, hospitality
 - **Indeed Rwanda** — limited but growing
 - **RDB job board** — `https://rdb.rw/careers/` (RDB-internal only)
@@ -631,8 +631,8 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 - **Rwandan Houses** — `https://rwandanhouses.com/`
 - **Plut Properties** — `https://plutproperties.com/`
 - **Kwanda Real Estate** — `https://kwandarealestate.com/`
-- **Property24 Rwanda** — `https://www.property24.co.rw/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Rwanda portal (Property24 is South Africa-only)
-- **Real Estate in Rwanda (REIR)** — `https://reir.rw/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with REIR association appears defunct — use RDB (rdb.rw) / RLMUA (lands.rw) for primary data
+- **Terra Real Estate** — `https://www.terra.rw/` (replaces Property24 Rwanda: `property24.co.rw` NXDOMAIN on 2026-10-21)
+- **Real Estate Professionals' Association of Rwanda (RWAREB)** — no website found; see `https://www.newtimes.co.rw/article/37540/news/housing/new-rules-to-regulate-real-estate-brokers` (The New Times, 21 Jul 2026) (replaces REIR: `reir.rw` NXDOMAIN on 2026-10-21)
 - **Kigali Inspectify** — `https://kigaliinspectify.com/`
 
 ## Caveats unique to RW

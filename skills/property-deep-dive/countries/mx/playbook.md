@@ -371,7 +371,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|
 | SHF HPI | `https://www.gob.mx/shf` |
 | INEGI Vivienda | `https://www.inegi.org.mx/temas/viviendasat/` |
-| RPP CDMX | `https://rppyc.cdmx.gob.mx/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with the CDMX Consejería Jurídica RPPyC successor https://data.consejeria.cdmx.gob.mx/index.php/rppyc (search-confirmed live; fetch-verify from an unblocked network) |
+| RPP CDMX | `https://data.consejeria.cdmx.gob.mx/index.php/rppyc` (Consejería Jurídica y de Servicios Legales — RPPyC microsite) |
 | Catastro CDMX | `https://datos.cdmx.gob.mx/` |
 | RAN (ejido) | `https://www.gob.mx/ran` |
 | SSN seismic | `https://www.ssn.unam.mx/` |
