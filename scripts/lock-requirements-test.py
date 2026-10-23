@@ -69,6 +69,25 @@ class TestSeeding(unittest.TestCase):
         self.assertIn('--generate-hashes', self.fake.cmd)
         self.assertIn('--no-header', self.fake.cmd)
 
+    def test_resolution_never_builds_sdists(self):
+        # The Dependabot relock job resolves with a push token in reach, so a
+        # package's setup.py must never run.
+        lr.compile_body()
+        self.assertIn('--no-build', self.fake.cmd)
+
+    def test_base_pins_fill_in_packages_the_lock_lacks(self):
+        # Dependabot's lock drops typing-extensions; without main's pin as a preference
+        # uv takes its newest release, an unannounced bump inside the Dependabot PR.
+        with tempfile.TemporaryDirectory() as tmp:
+            base = Path(tmp) / 'base.txt'
+            base.write_text('pypdf==0.0.1 \\\n    --hash=sha256:aa\n'
+                            'Not_In.Lock==1.2.3 \\\n    --hash=sha256:bb\n    # via x\n',
+                            encoding='utf-8')
+            lr.compile_body(base=base)
+        self.assertTrue(self.fake.seed.startswith(lr.LOCK.read_text(encoding='utf-8').rstrip('\n')))
+        self.assertIn('\nNot_In.Lock==1.2.3 \\\n    --hash=sha256:bb\n    # via x\n', self.fake.seed)
+        self.assertNotIn('pypdf==0.0.1', self.fake.seed, 'a pin the lock already has must win')
+
 
 class TestUpgradePackage(unittest.TestCase):
     def setUp(self):

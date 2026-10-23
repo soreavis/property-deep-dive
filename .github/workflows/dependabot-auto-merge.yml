@@ -29,7 +29,12 @@ jobs:
   auto-merge:
     name: Auto-merge Dependabot patch/minor + major github_actions PRs once CI green
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]'
+    # Author and head repo, not just the actor: a fork's own Dependabot can push to
+    # a fork branch that has a PR open here.
+    if: >-
+      github.actor == 'dependabot[bot]'
+      && github.event.pull_request.user.login == 'dependabot[bot]'
+      && github.event.pull_request.head.repo.full_name == github.repository
     timeout-minutes: 3
     permissions:
       contents: write
@@ -95,3 +100,72 @@ jobs:
             if [ "$attempt" -lt 3 ]; then sleep 20; fi
           done
           echo "::warning::Auto-merge refused: GITHUB_TOKEN lacks the \`workflows\` scope needed for a PR touching .github/workflows/*. Dependabot retries on its next rebase; set the AUTOMERGE_TOKEN secret (PAT with \`workflow\` scope) to make this deterministic, or merge manually."
+
+  relock:
+    # Dependabot regenerates requirements.txt on Python >= 3.13, which drops
+    # typing-extensions (aiosignal needs it below 3.13), so every pip PR fails the
+    # byte-exact "requirements.txt matches requirements.in" gate. Re-render the lock
+    # with the repo helper, seeded so Dependabot's new pins are kept.
+    name: Relock requirements.txt on Dependabot pip PRs
+    runs-on: ubuntu-latest
+    # Same guard as auto-merge, so the head is Dependabot's own branch in this repo.
+    # The actor check also skips the run our own push triggers, so this cannot loop.
+    if: >-
+      github.actor == 'dependabot[bot]'
+      && github.event.pull_request.user.login == 'dependabot[bot]'
+      && github.event.pull_request.head.repo.full_name == github.repository
+      && startsWith(github.head_ref, 'dependabot/pip/')
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    concurrency:
+      group: relock-${{ github.event.pull_request.number }}
+      cancel-in-progress: true
+    steps:
+      - name: Checkout the Dependabot head
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          # Dependabot's commit sits directly on main; HEAD^ carries main's lock.
+          fetch-depth: 2
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+        with:
+          # Must match pr-validate.yml: the gate compares bytes, and uv's rendering
+          # can change between releases.
+          version: "0.12.2"
+
+      - name: Regenerate the lock
+        id: relock
+        # --base keeps main's pin for the package Dependabot dropped; without it uv
+        # takes the newest release, which could be a major the PR never announced.
+        run: |
+          set -euo pipefail
+          git show HEAD^:requirements.txt > "$RUNNER_TEMP/base-requirements.txt"
+          python3 scripts/lock-requirements.py --base "$RUNNER_TEMP/base-requirements.txt"
+          git diff --quiet -- requirements.txt || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Push the fix to the Dependabot branch
+        if: steps.relock.outputs.changed == 'true'
+        env:
+          # A PAT, not GITHUB_TOKEN: checks on a GITHUB_TOKEN push wait for manual
+          # approval. Dependabot-triggered runs read only the Dependabot secret store.
+          GH_TOKEN: ${{ secrets.RELOCK_TOKEN }}
+          HEAD_REF: ${{ github.head_ref }}
+        # `[dependabot skip]` lets Dependabot keep rebasing over this commit; each
+        # rebase re-triggers this job. After this push the PR's checks run as the PAT
+        # owner, outside Dependabot's sandbox: no PR-triggered job may install
+        # requirements.txt while secrets or write scopes are in reach.
+        run: |
+          set -euo pipefail
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::RELOCK_TOKEN is missing from the Dependabot secret store (fine-grained PAT, this repo only, Contents read/write)."
+            exit 1
+          fi
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -qm 'chore(deps): relock requirements.txt for Python 3.12 [dependabot skip]' -- requirements.txt
+          gh auth setup-git
+          git push origin "HEAD:refs/heads/${HEAD_REF}"
