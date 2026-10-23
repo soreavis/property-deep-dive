@@ -374,7 +374,7 @@ ISO2: `si`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25 (Ljubljana water / wastewater operator re-identified as JP VOKA SNAGA 2026-09-18; the si:286 connection-cost figures were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+✅ **Fully populated** as of 2026-04-25 (Ljubljana water / wastewater operator re-identified as JP VOKA SNAGA 2026-09-18; the si:286 connection-cost figures were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax (with the not-enacted 1.45% proposal note), rental, work, risks (incl. seismic cona zoning + August 2023 flood reference), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for posplošena vrednost reform (Bloomberg Adria, Kalko, N24, MojMojster, alfaelmas all confirm 13 May 2025 effective + €298B aggregate + +8% average); HIGH for cadastre + GeoZS sources; MEDIUM for the NOT-ENACTED status of the davek na nepremičnine 1.45% proposal (izhodišča of 23 Dec 2024 never advanced; re-verify any successor plan at MF gov.si before output).
 

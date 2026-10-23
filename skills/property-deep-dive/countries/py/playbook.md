@@ -693,7 +693,7 @@ Universal Copernicus / IPCC AR6 logic (`shared/climate-projections.md`) applies.
 
 ### NO real-estate-only visa
 
-⚠️ Historically Paraguay had **NO "golden visa" via residential RE alone** equivalent to PT/ES/UY 19.937 / GR / MT. As of May 2026 the **Paraguay Investor Pass** changes this — **USD 200,000 in qualifying real-estate projects now grants direct permanent residency** (see reforms anchor, line 24). The legacy RUE route still requires coupling RE with business activity / SUACE investment / RUC.
+⚠️ Historically Paraguay had **NO "golden visa" via residential RE alone** equivalent to PT/ES/GR/MT (Uruguay's UI 3.5M + 60-day real-estate route, Decreto 148/007 art. 5 Bis, confers tax residency only, not a residence permit). As of May 2026 the **Paraguay Investor Pass** changes this — **USD 200,000 in qualifying real-estate projects now grants direct permanent residency** (see reforms anchor, line 24). The legacy RUE route still requires coupling RE with business activity / SUACE investment / RUC.
 
 ### Cédula de Identidad para Extranjeros
 

@@ -309,7 +309,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27. CGT rate / base / exemptions re-verified 2026-09-24 against the UJP consolidated PIT Law in the October regwatch wave.
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27. CGT rate / base / exemptions re-verified 2026-09-24 against the UJP consolidated PIT Law in the October regwatch wave. Tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (MAKSTAT + NBRSM Q4 2025 + FRED), traffic (JP roads PGDS), tax (Danok na imot 0.10-0.20% + 2-4% transfer + 18% VAT (5% first-sale residential) + 10% CGT 5-yr OR 3yr+1yr-resident exemption), rental (license + 10% PIT), work (AVRSM + 10% flat PIT), risks (1963 Skopje M6.1 catastrophic + 2016 floods + winter air quality), mains (Skopje vodovod + per-municipality).
 **Confidence**: HIGH for 1963 Skopje earthquake reference (1,070+ deaths, 80% destruction, Tange masterplan, 14k prefabs); HIGH for MKD-EUR peg 61.5; HIGH for CGT 10% (NOT 15%) with proper exemption rules; HIGH for AKN centralized cadastre; MEDIUM for IMF property tax recommendations (Feb 2025 Article IV); MEDIUM for "Skopje 2014" reconstruction controversy framing.
 

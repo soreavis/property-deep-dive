@@ -161,9 +161,9 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Kataregisztráció** (lump-sum tax category) — STR operators register with NAV
 - **Budapest VI District (Terézváros)**: **BAN on STRs from 1 January 2026** (online referendum 2024 → 54% for ban → Supreme Court greenlit Nov 2025) — enforcement live since Jan 2026 (Terézváros + police + NAV inspections; fines up to several million HUF); only hotels, guesthouses, and community accommodations may operate legally
-- **Budapest VII District (Erzsébetváros)** — stage 1: building decree **33/2025 (IX.24)** (amends 25/2018 XII.21), in force **25 Sept 2025**, caps NEW commercial accommodation at **10% of a building's residential floor area**, ground-floor only, min room sizes + en-suite bath per room, guesthouses ≥6 rooms; existing registered permits exempt
+- **Budapest VII District (Erzsébetváros)** — stage 1: building decree **33/2025 (IX.24)** (amends 25/2018 XII.21), in force **25 Sept 2025**, caps NEW commercial accommodation at **10% of a building's residential floor area**, ground-floor only, rooms min 8 m² single / 12 m² double / +4 m² per extra bed, en-suite bathroom (WC, washbasin, shower) per room, panzió only with ≥6 rooms + breakfast room; the decree has no transitional clause — per THT (secondary) it applies to new authorisation procedures, so operating units may continue
 - **Budapest VII District** — stage 2: decree **46/2025 (XII.10)** sets STR usable days/yr to **ZERO from 1 Jan 2026** unless a **társasház** (condominium) agreement exists (then 365) — units registered by 31 Dec 2025 must file the agreement by 31 Dec 2026 (same zero-day mechanism as District VI, with a condo-consent carve-out)
-- **Budapest city-wide STR/NTAK registration moratorium 1 Jan 2025 – 31 Dec 2026** (city-wide, not national) — no new NTAK registration numbers issued; hosts registered by 31 Dec 2024 exempt; **expires 31 Dec 2026, extension uncertain — watch**
+- **Budapest city-wide STR/NTAK registration moratorium 1 Jan 2025 – 31 Dec 2026** (city-wide, not national) — the commercial authority may not register any new magánszálláshely or egyéb szálláshely (Kertv. 11/H (1), inserted by Act LVI of 2024, in force 1 Jan 2025), except where the classification request was filed by 31 Dec 2024 (11/H (2)); for units registered by 31 Dec 2024 a change of operator cannot be registered until 31 Dec 2026 (11/H (3)); **expires 31 Dec 2026 — the Kertv. text in force from 1 Oct 2026 still says 31 Dec 2026; extension uncertain — watch**
 - Other Budapest districts (e.g. V) reportedly considering similar moves
 - STR stock grew **+80% Budapest 2020-2024**; **>hotel rooms** in city
 - **Tax**: kata regime up to HUF 18M revenue (preferential)
@@ -354,7 +354,7 @@ ISO2: `hu`. Status: ✅ Fully populated (researched 2026-04).
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25 (geological-survey body (SZTFH Foldtani Szolgalat) corrected 2026-09-18 per sztfh.hu).
+✅ **Fully populated** as of 2026-04-25 (geological-survey body (SZTFH Foldtani Szolgalat) corrected 2026-09-18 per sztfh.hu). Rental tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (KSH + Ingatlan.com + MNB), traffic (Magyar Közút), tax (építményadó + telekadó local + 4% transfer + 27% VAT (5% new) + 15% CGT 5-yr exempt + fizetővendéglátó tételes átalányadó), rental (Terézváros STR ban from 1 Jan 2026), work, risks (flood 25% territory + drought + Soviet-era panelház), mains all have primary government sources.
 **Confidence**: HIGH for Otthon Start (1 Sep 2025) + Terézváros STR ban (1 Jan 2026 confirmed) + 4% transfer tax + 5% VAT extension to 2026; HIGH for Földforgalmi törvény amendment (24 Dec 2025) — agricultural lease structures broader; MEDIUM for HUF FX volatility forecasts (rapidly changing).
 

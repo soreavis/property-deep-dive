@@ -61,12 +61,12 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
 |---|---|---|
 | § 3 | Natural persons with **dansk indfødsret** (Danish citizenship) | Unrestricted — may acquire freely |
 | § 4 | Foreign nationals | ≥ 2 years fixed residence + `folkeregisteradresse` in Greenland **AND** ≥ 2 years full tax residency in Greenland |
-| § 5 | Regulated financial institutions | DK / GL / FO-headquartered banks, mortgage institutions, investment firms, insurers, pension funds under [Finanstilsynet](https://www.finanstilsynet.dk/) (Danish FSA) supervision |
+| § 5 | Regulated financial institutions | DK / GL / FO-domiciled banks, mortgage institutions, investment management companies, insurers, pension funds under [Finanstilsynet](https://www.finanstilsynet.dk/) (Danish FSA) or Tryggingareftirlitið supervision |
 | § 6 | Greenlandic capital companies | 100% of capital **and** voting rights held directly by persons qualifying under §§ 3-4 |
 | § 7 | Licensed sectoral operators | Holders of fishing / mineral / tourism / resource-extraction permits — for business use only |
 | § 8 | Greenlandic associations | Non-commercial societies registered ≥ 2 years in CVR with Greenland HQ |
 
-**§ 9 — Dispensation**: Naalakkersuisut may grant written conditional or time-limited permission to applicants who do not qualify under §§ 3-8. Discretionary, case-by-case. Dispensation channel: **Departementet for Boliger og Infrastruktur** — `box909@nanoq.gl`.
+**§ 9 — Dispensation**: Naalakkersuisut may grant written conditional or time-limited permission to applicants who do not qualify under §§ 3-8. Discretionary, case-by-case. Dispensation channel: **Departementet for Boliger og Infrastruktur** — `box909@nanoq.gl` (per the Feb 2025 Naalakkersuisut announcement; not re-confirmed for the enacted act — verify at naalakkersuisut.gl).
 
 **§ 15 — Entry into force**: 1 January 2026. Applies to agreements + arealtildeling applications **filed on or after** 1 January 2026. Pre-2026 agreements are grandfathered.
 
@@ -448,7 +448,7 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 - **LOW** on price/m² benchmarks (no open sales register equivalent to DVF; private-market data is opaque)
 - **LOW** on parcel-level permafrost / flood data (no national parcel-risk register; case-by-case via Asiaq + kommune)
 
-**Last verified**: 2026-05-27. Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27. Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Ownership tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **On PR merge — regulatory-watch.md addition required** (currently zero GL entries): Tier-1 entry for **Inatsisartutlov nr. 78 af 21. november 2025 om erhvervelse af adkomst eller brugsret til fast ejendom**, effective 1 January 2026, affecting all foreign-buyer rules across `--ownership`, `--banking`, `--transaction`, `--rental`, `--work`, `--visa` sections; revisit cadence 12 months; source URL [nalunaarutit.gl](https://nalunaarutit.gl/groenlandsk-lovgivning/2025/inatsisartutlov-nr-78-af-21_11_2025?sc_lang=da). Companion entries: 2026 rental-law (lejelov) consultation — tier 3, revisit 6 months; Mineral Resources Act 2010 (last amended 2019) — tier 4 informational anchor.
 

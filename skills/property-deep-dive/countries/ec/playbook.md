@@ -118,8 +118,8 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Capital gains (Plusvalía / IR aplicable)
 
-- **0 %** if held **>1 year** — UNIQUE LATAM exemption for natural persons selling habitual residence ([LRTI — Ley de Régimen Tributario Interno](https://www.sri.gob.ec/) art. 8 + reglamento, as amended by Ley Orgánica de Reforma Tributaria) *(2026-05-27 verified, source SRI + Ley Orgánica Reforma Tributaria)*
-- **<1 year**: gain folded into ordinary IR (PIT) at progressive scale up to 37 % residents / **flat 25 % non-residents** on Ecuador-source
+- **0 %** (income-tax exempt) on the gain from an **occasional** sale of real estate by a natural or legal person — **no holding period and no habitual-residence condition**; capped at **two (2) sales per year**; occasional = not part of the seller's ordinary business or habitual activity (lotización / urbanización / construcción / promoción businesses are habitual) ([LRTI](https://www.sri.gob.ec/) art. 9 num. 14 as substituted by the Ley Orgánica para el Alivio Financiero y el Fortalecimiento Económico de las Generaciones en el Ecuador, 5th supp. RO 699, 9 Dec 2024 + RLRTI art. 18) *(2026-10-21 verified, source SRI LRTI / RLRTI codifications + RO 699)*
+- **Taxable cases** (third or later sale in a year, or a habitual seller): the gain is taxable income — resident progressive scale tops out at 37 % (SRI LRTI codification, 2025 table); gain computation and non-resident rate: data not publicly available in the 2026-10-21 pass — verify at [SRI](https://www.sri.gob.ec/)
 - **Plusvalía Municipal** (separate, COOTAD art. 556-561): up to **5 %** on price increase between sales — but **suspended/derogated** under reforms since 2018; verify current at target Municipio
 
 ### Income tax — IR (resident) / Retención (non-resident)
@@ -208,7 +208,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 | **IGEPN — Instituto Geofísico EPN** | [`https://www.igepn.edu.ec/`](https://www.igepn.edu.ec/) | Seismic + volcanic monitoring (1 of LATAM's best-equipped) |
 | **INAMHI — Instituto Nacional de Meteorología e Hidrología** | [`https://www.inamhi.gob.ec/`](https://www.inamhi.gob.ec/) | Hydromet, El Niño, flood forecasting |
 | **INOCAR — Instituto Oceanográfico de la Armada** | [`https://www.inocar.mil.ec/`](https://www.inocar.mil.ec/) | Tsunami warning Pacific + Galápagos |
-| **MAE / MAATE — Ministerio del Ambiente** | [`https://rncc.ambiente.gob.ec/`](https://rncc.ambiente.gob.ec/) (❌ `www.ambiente.gob.ec` DEPRECATED — 301s to an unrelated agency) | Wildfire, biodiversity, climate adaptation |
+| **MAE / MAATE — Ministerio del Ambiente** | [`https://rncc.ambiente.gob.ec/`](https://rncc.ambiente.gob.ec/) (❌ `www.ambiente.gob.ec` DEPRECATED — fails the TLS handshake, 2026-10-21) | Wildfire, biodiversity, climate adaptation |
 | **GAD Municipal — Plan de Uso y Gestión del Suelo (PUGS)** | per cantón | Hazard zoning at parcel level |
 
 ### Specific risks
@@ -412,11 +412,11 @@ HIGH for BIESS framework + private-bank LTV ranges; MEDIUM for non-resident prod
 
 ## Section: `--visa`
 
-Universal logic per `shared/visa-programs.md`. Ecuador-specific routes (under [Ley Orgánica de Movilidad Humana 2017](https://www.gob.ec/) + reglamento):
+Universal logic per `shared/visa-programs.md`. Ecuador-specific routes (under [Ley Orgánica de Movilidad Humana](https://www.gob.ec/) arts. 59-60 + Reglamento arts. 47-50, 60, 66):
 
 ### Visa de Inversionista (Investor Visa) — Real Estate
 
-- **Investment minimum**: **USD 47,000** (= **100 × SBU** at SBU 2026 USD 470/mo = 100 × 470; verify current SBU multiple at Cancillería) in Ecuadorian real estate (or fixed-term productive activity) *(2026-05-27 verified, source decreto Ministerio del Trabajo Dec 2025)*
+- **Investment minimum**: **USD 48,200** (= **100 × SBU** at SBU 2026 USD 482/mo, Acuerdo Ministerial MDT-2025-195) via a registered Ecuadorian real-estate deed of at least 100 SBU, OR a deposit certificate of at least 730 days at a regulated Ecuadorian bank / cooperative, OR company shares of at least 100 SBU registered at the Superintendencia de Compañías, OR a current investment / gestión delegada / administrative contract with the State *(2026-10-21 verified, source gob.ec MREMH trámite page + Ministerio del Trabajo)*
 - **Permit**: 2-year **Residencia Temporal**; renewable; **Residencia Permanente** after 21 cumulative months physical residence
 - **Most common foreign-buyer route**
 
@@ -535,8 +535,8 @@ MEDIUM — Ecuadorian insurance market modest in scale; figures *est. from Super
 ### Ecuador's distinctive position
 
 - **Full USD economy** (since 2000) — UNIQUE in South America (Panama is Central America); **near-zero FX risk** for USD holders
-- **Tax-attractive holding**: predial typically <0.3 % avalúo; **0 % CGT after 1-year hold** (UNIQUE LATAM exemption — Ley Orgánica Reforma Tributaria); **no annual wealth tax**
-- **Visa pathway** USD ~47,000 (= 100 × SBU 470) (Inversionista) is among the lowest investment-residency thresholds globally
+- **Tax-attractive holding**: predial typically <0.3 % avalúo; **0 % income tax on occasional sales, max two per year, no holding period** (LRTI art. 9 num. 14, as substituted by RO 699 5S of 9 Dec 2024); **no annual wealth tax**
+- **Visa pathway** USD 48,200 (= 100 × SBU 2026 USD 482) (Inversionista) is among the lowest investment-residency thresholds globally
 - **Counter-balanced by**: 2024+ security situation (coastal cantones especially); 2024 IVA hike to 15 % (Decreto Ejecutivo 198/2024); ISD 5 % outbound; smaller + thinner RE market than CO/MX/CL/AR; power-grid uncertainty post-2024 drought
 - **Best fit**: USD-holding retirees + remote workers + Cuenca / Quito-Cumbayá / sierra mid-altitude buyers; HNW seeking dollar-denominated property without US-tax exposure
 - **Worse fit**: pure coastal speculation in 2024–26 security overhang; non-USD buyers without FX hedge framework
@@ -552,7 +552,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 ### Pathways
 
 1. **Visa de Rentista** (USD 1,500/mo pension or annuity) — most common retirement route
-2. **Visa de Inversionista** (USD ~47,000 (100×SBU 470) in real estate) — combine with property purchase
+2. **Visa de Inversionista** (USD 48,200 (100×SBU 2026 USD 482) in real estate) — combine with property purchase
 3. **Convención Mercosur** for relevant nationals — simplified path
 4. **Tercera Edad benefits** (post-65): tax + transport + utility discounts under [Ley del Anciano](https://www.gob.ec/sites/default/files/regulations/2018-10/Documento_Ley-Anciano-Reglamento.pdf) — IVA refund, transport 50 %, utility tariff reductions
 
@@ -566,7 +566,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 ### Tax position for retirees
 
 - **Foreign pension income**: Ecuador-resident IR (progressive 0–37 %); DTAs limited (Spain, Italy, Germany among them; **no Ecuador-US DTA** — material for US retirees)
-- **0 % CGT after 1-year hold** on habitual residence (Ley Orgánica Reforma Tributaria); **no wealth tax**
+- **0 % income tax on occasional sales, max two per year, no holding period** (LRTI art. 9 num. 14, as substituted by RO 699 5S of 9 Dec 2024); **no wealth tax**
 - Inheritance: progressive 0–35 % above ~USD 80k; spousal + descendant partial exemptions
 
 ### Verdict for retirement-first buyers
@@ -653,7 +653,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 ### Climate-transition exposure
 
-- **NDC under Paris Agreement**: **Second NDC 2026–2035** now operative — unconditional **8,800 kt CO₂-eq (7 %)** + conditional **10,600 kt CO₂-eq (8 %)** with international support, implementation budget and unconditional / conditional split not quoted from the RNCC page — verify there ([MAATE — RNCC](https://rncc.ambiente.gob.ec/rncc/news/segunda-contribucion-determinada-a-nivel-nacional-de-ecuador-2026-2035)) *(2026 data, source MAATE/RNCC; 2026-09-18 verified)*. First NDC (2019) target was 9 % unconditional / 20.9 % conditional by 2025 vs BAU (superseded; ⚠️ secondary sources — IEA policy database / Climate Analytics — not re-read on the RNCC page). ❌ `ambiente.gob.ec` DEPRECATED — 301s to an unrelated agency; use the `rncc.ambiente.gob.ec` subdomain
+- **NDC under Paris Agreement**: **Second NDC 2026–2035** now operative — unconditional **8,800 kt CO₂-eq (7 %)** + conditional **10,600 kt CO₂-eq (8 %)** with international support, implementation budget **USD 6,500 million**, 27 % unconditional / 73 % conditional financing ([MAATE — RNCC](https://rncc.ambiente.gob.ec/rncc/news/segunda-contribucion-determinada-a-nivel-nacional-de-ecuador-2026-2035)) *(2026 data, source MAATE/RNCC; 2026-10-21 verified)*. First NDC (2019) target was 9 % unconditional / 20.9 % conditional by 2025 vs BAU (superseded; ⚠️ secondary sources — IEA policy database / Climate Analytics — not re-read on the RNCC page). ❌ `ambiente.gob.ec` DEPRECATED — fails the TLS handshake (2026-10-21; it 301'd to an unrelated agency on 2026-09-18); use the `rncc.ambiente.gob.ec` subdomain
 - Power generation ~**85 % hydro** (high renewable share but hydrology-vulnerable; 2024 drought exposed grid fragility); thermal import contingency 2024–25
 - **Yasuní-ITT 2023 referendum**: Ecuadorians voted to halt Block 43 oil extraction — landmark climate-policy event; ongoing implementation
 - **Fuel subsidy phase-out**: gradual 2024–25 (Noboa government, IMF programme); diesel + gasoline subsidies historic political flashpoint (Oct 2019, Jun 2022 protests)
@@ -685,7 +685,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 - Estate agent commission: **3–5 %** + IVA 15 % on commission
 - Notario fee (seller portion of regulated arancel): smaller share
-- **CGT (IR aplicable)**: **0 %** if held >1 yr (UNIQUE LATAM exemption, Ley Orgánica Reforma Tributaria); progressive PIT scale otherwise
+- **CGT (IR aplicable)**: **0 %** on occasional sales, max two per year, no holding period (LRTI art. 9 num. 14, as substituted by RO 699 5S of 9 Dec 2024); taxable for a third or later sale in a year or a habitual seller
 - Mortgage early-discharge: USD 200–800 admin
 - ISD 5 % on outbound USD repatriation (with capital-import-traceable exemptions)
 - **Total exit cost**: typically **3.5–6 %** of price + CGT/ISD if applicable
@@ -752,13 +752,13 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 - **Cadastre is municipal** (no national portal); every check via target GAD Municipal
 - **Notario + Catastro Municipal + Registro de la Propiedad + Municipio Tesorería + SRI** all involved in any transaction — coordinate via lawyer + notario
 - **2024 IVA 15 %** (Decreto Ejecutivo 198/2024, raised from 12 %, security funding, eff 1 Apr 2024) — kept for 2025 (DE 470) and in force for 2026 until a new decree (SRI Circular NAC-DGECCGC25-00000006, 26 Dec 2025); decree floor 13 %
-- **0 % CGT after 1-year hold** (UNIQUE LATAM exemption for habitual residence, Ley Orgánica Reforma Tributaria)
+- **0 % income tax on occasional sales, max two per year, no holding period** (LRTI art. 9 num. 14, as substituted by RO 699 5S of 9 Dec 2024)
 - **ISD 5 %** on outbound transfers — material for non-resident repatriation
 - **2024 internal armed conflict** (Decreto Ejecutivo 111) — coastal security crisis material for Esmeraldas / Manabí / Guayas / El Oro / Los Ríos cantones; sierra centro relatively safer
 - **2024 power-grid drought crisis** — backup capacity (solar + inverter) advisable in Sierra
 - **Cotopaxi active-phase 2024–26** — verify lahar-corridor zoning for valles Latacunga / Salcedo / Chillos / Cumbayá
 - **NEC-15 seismic code** mandatory; pre-2000 stock requires retrofit assessment
-- **Visa de Inversionista** USD ~47,000 (= 100×SBU 470) is among lowest investment-residency thresholds globally
+- **Visa de Inversionista** USD 48,200 (= 100×SBU 2026 USD 482) is among lowest investment-residency thresholds globally
 - **No CBI / golden-passport**; naturalization requires 3+ years' permanent residency + civics + Spanish exam
 - **Listing m²**: convention is *m² de construcción* (built); confirm vs *área útil* on visit *(per listing — verify with cadastre / on visit)*
 
@@ -826,13 +826,13 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 ## Status
 
-**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (IVA 15% per Decreto Ejecutivo 198/2024 + Ley Orgánica Reforma Tributaria; CGT short-term test reduced 5y → 1y; Visa de Inversionista USD 47,000 (100×SBU 470); USD-dollarised currency since 2000; SRI tax-residency tests; Visa 10-II + Visa 11-VI investor / pensionado routes). MEDIUM on parcel-level municipal predial assessment values, current blackout duration (national hydropower-deficit-driven, oscillating 8–14 hr through 2025–2026 dry seasons — verify with CENACE at point of analysis), and STR municipal-level rules (no national statute; Quito + Cuenca + Galápagos varying). LOW on residential price benchmarks (no national HPI; aggregator listings + Numbeo + Properstar with broker bias).
+**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (IVA 15% per Decreto Ejecutivo 198/2024 + Ley Orgánica para Enfrentar el Conflicto Armado Interno; income-tax exemption for occasional real-estate sales, max two per year, no holding period (LRTI art. 9 num. 14); Visa de Inversionista USD 48,200 (100×SBU 482); USD-dollarised currency since 2000; SRI tax-residency tests; Visa 10-II + Visa 11-VI investor / pensionado routes). MEDIUM on parcel-level municipal predial assessment values, current blackout duration (national hydropower-deficit-driven, oscillating 8–14 hr through 2025–2026 dry seasons — verify with CENACE at point of analysis), and STR municipal-level rules (no national statute; Quito + Cuenca + Galápagos varying). LOW on residential price benchmarks (no national HPI; aggregator listings + Numbeo + Properstar with broker bias).
 
-**Last verified**: 2026-08-08 (crime + security section only — armed-conflict decree corrected to DE 111 of 9 Jan 2024 against Suplemento al Registro Oficial No. 474, DE 218 of 7 Apr 2024 added as the post-April basis, homicide series re-based to the 2025 peak; balance of the 2026-05-27 pass unchanged); NDC target corrected 2026-09-18 per MAATE/RNCC — Second NDC 2026–2035 supersedes the 2019 first NDC (registry name corrected 2026-09-18 per gob.ec/dinarp). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-08-08 (crime + security section only — armed-conflict decree corrected to DE 111 of 9 Jan 2024 against Suplemento al Registro Oficial No. 474, DE 218 of 7 Apr 2024 added as the post-April basis, homicide series re-based to the 2025 peak; balance of the 2026-05-27 pass unchanged); NDC target corrected 2026-09-18 per MAATE/RNCC — Second NDC 2026–2035 supersedes the 2019 first NDC (registry name corrected 2026-09-18 per gob.ec/dinarp). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). ESG / tax / visa tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Locked-in via primary government sources: foreign-buyer constitutional equality (Constitución 2008 art. 405-406 + Border-Zone 50 km SECOB authorization), USD dollarization since 9 Sep 2000 (Ley para la Transformación Económica del Ecuador, BCE confirmation), IVA 15 % since 1 Apr 2024 (Decreto Ejecutivo 198/2024 + Ley Orgánica para Enfrentar el Conflicto Armado Interno, SRI confirmation — *a decree can lower the general rate only to the 13 % floor (LRTI art. 65); SRI Circular NAC-DGECCGC25-00000006 keeps 15 % until a new decree*), Alcabala 1 % + COOTAD predial 0.25–5 ‰ bands (COOTAD art. 504-561 BOE), 0 % CGT after 1-year hold (LRTI art. 8 + reglamento, as amended by Ley Orgánica Reforma Tributaria), ISD 5 % outbound (Ley Reformatoria para la Equidad Tributaria 2007), Visa de Inversionista 100×SBU (= USD 47,000 at 2026 SBU 470/mo) + Rentista USD 1,500/mo (Ley Orgánica de Movilidad Humana 2017 + reglamento — *verify current SBU multiple at Cancillería*), NEC-15 seismic code mandatory (MIDUVI), MINTUR Catastro Turístico STR licensing under Decreto 1411/2020 + Decreto 803/2023, Decreto Ejecutivo 111/2024 internal-armed-conflict declaration (9 Jan 2024, amending the DE 110 estado de excepción; Min Interior). Galápagos LOREG and parish-level Catastro Municipal split confirmed via the DINARP (ex-DINARDAP) framework. **Re-verify each annual fiscal cycle** for IVA rate, SBU adjustment (Dec decreto MoT), Alcabala-per-cantón ordenanzas, predial bands per Municipio, and Border-Zone perimeter updates. **Watch list 2026**: Noboa fiscal reform package + Asamblea ratification; potential IVA 15 → 13 cut by decree (LRTI art. 65 floor 13 %) vs sustained 15 % (already at peak; further escalation politically improbable); internal-armed-conflict decree (DE 111 / DE 218) periodic renewal + security-situation evolution per cantón; 2025 election outcome regulatory continuity; Cotopaxi volcanic activity + IGEPN alert level; Galápagos LOREG residency-and-property reforms; power-grid generation status (CENACE) post-drought; ISD rate calibration (historic 0–5 % oscillation).
+**Notes**: Locked-in via primary government sources: foreign-buyer constitutional equality (Constitución 2008 art. 405-406 + Border-Zone 50 km SECOB authorization), USD dollarization since 9 Sep 2000 (Ley para la Transformación Económica del Ecuador, BCE confirmation), IVA 15 % since 1 Apr 2024 (Decreto Ejecutivo 198/2024 + Ley Orgánica para Enfrentar el Conflicto Armado Interno, SRI confirmation — *a decree can lower the general rate only to the 13 % floor (LRTI art. 65); SRI Circular NAC-DGECCGC25-00000006 keeps 15 % until a new decree*), Alcabala 1 % + COOTAD predial 0.25–5 ‰ bands (COOTAD art. 504-561 BOE), 0 % income tax on occasional real-estate sales, max two per year, no holding period (LRTI art. 9 num. 14 as substituted by RO 699 5S of 9 Dec 2024 + RLRTI art. 18), ISD 5 % outbound (Ley Reformatoria para la Equidad Tributaria 2007), Visa de Inversionista 100×SBU (= USD 48,200 at 2026 SBU USD 482/mo) + Rentista USD 1,500/mo (Ley Orgánica de Movilidad Humana 2017 + reglamento — *verify current SBU multiple at Cancillería*), NEC-15 seismic code mandatory (MIDUVI), MINTUR Catastro Turístico STR licensing under Decreto 1411/2020 + Decreto 803/2023, Decreto Ejecutivo 111/2024 internal-armed-conflict declaration (9 Jan 2024, amending the DE 110 estado de excepción; Min Interior). Galápagos LOREG and parish-level Catastro Municipal split confirmed via the DINARP (ex-DINARDAP) framework. **Re-verify each annual fiscal cycle** for IVA rate, SBU adjustment (Dec decreto MoT), Alcabala-per-cantón ordenanzas, predial bands per Municipio, and Border-Zone perimeter updates. **Watch list 2026**: Noboa fiscal reform package + Asamblea ratification; potential IVA 15 → 13 cut by decree (LRTI art. 65 floor 13 %) vs sustained 15 % (already at peak; further escalation politically improbable); internal-armed-conflict decree (DE 111 / DE 218) periodic renewal + security-situation evolution per cantón; 2025 election outcome regulatory continuity; Cotopaxi volcanic activity + IGEPN alert level; Galápagos LOREG residency-and-property reforms; power-grid generation status (CENACE) post-drought; ISD rate calibration (historic 0–5 % oscillation).
 
 ## Extension TODOs (deepen on first real run)
 

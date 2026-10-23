@@ -544,7 +544,7 @@ Subtotal: £198,000 + £90 documentary = **£198,090** est. — `verify on gov.j
 
 **Confidence**: MEDIUM-HIGH — tax / LTT / HVR / residential-status data sourced to gov.je primary pages and verified 2026-05-27. LTT 700k–1m band corrected (3 % standard, not 3.5 % — gov.je primary). 2026 Budget P.93/2025 (+3pp → +2pp higher-rate surcharge), HVR statutory-cap proposal P.19/2026 (rejected 26 Feb 2026), and 2026 mandatory independent taxation now integrated. Property-type and Royal-Court process verified against multiple secondary (Mourant, Viberts, Voisin) cross-referenced to jerseylaw.je primaries. **Parish rates**, **rented-dwellings licence fee**, **EPTT current band figures**, **HVR £3.5m/£1.75m thresholds (gov.je page does not expose figures — needs direct Locate Jersey lookup)**, **Voisin 2018 PDF staleness**, and **2026-specific allowance refresh** marked as `verify` placeholders — primary URL given.
 
-**Last verified**: 2026-07-02 (Public Registry fee schedule and drainage department corrected 2026-09-18 per courts.je + gov.je). Rental / tax / visa tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-07-02 (Public Registry fee schedule and drainage department corrected 2026-09-18 per courts.je + gov.je). Rental / tax / visa tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Rental / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Open follow-ups** (for next refresh cycle):
 

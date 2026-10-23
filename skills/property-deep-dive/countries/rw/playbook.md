@@ -10,37 +10,37 @@ ISO2: `rw`. Status: ✅ Fully populated (researched 2026-05).
 - **Currency**: **RWF — Rwandan franc**, **managed float** (no fixed peg). Exchange rate references: BNR daily/weekly bulletin (`https://www.bnr.rw/avgexchangerate`). **8 Aug 2025**: 1 USD ≈ **1,448.54 RWF** (BNR Weekly Bulletin 11 Aug 2025). 2024 depreciation est. ~10 % vs USD (est. from BNR year-start vs year-end average rate — verify against BNR annual report); trajectory still depreciating but BNR-managed (Reserves cover ~4 months imports per IMF Article IV). **Verify spot rate at signing.**
 - **Languages**: **Kinyarwanda** (universal national language), **English** (primary administrative + commercial language since 2008 switch from French), **French** (residual legal/older generation), **Swahili** (added as 4th official language 2017, used in EAC trade). Notarial deeds and the Land Registry operate in **English + Kinyarwanda**.
 - **Legal system**: Civil law (Belgian/French-derived) overlaid with extensive post-2003 reforms drawing on common-law commercial practice. Property transfers governed by **Law N° 27/2021 of 10/06/2021 governing land** (replacing 2013 Land Law) + **Law N° 28/2021 of 10/06/2021 governing land use and development planning**.
-- **Cadastre / land registry**: **Rwanda Land Management and Use Authority — RLMUA** (formerly RLMA — Rwanda Land Management Authority; rebranded 2021). Portal: `https://www.lands.rw/` (the former RLMA `rlma.rw` portal is defunct — superseded by RLMUA's lands.rw). Rwanda completed **systematic Land Tenure Regularisation (LTR) 2009–2013** under MINIRENA / DAI / DFID, demarcating **>10.4 M parcels** and issuing **8.8 M titles**. **Titling rate ~93 % (gender-equal)** — Rwanda is one of very few African countries with near-universal parcel-level digital cadastre. Land Administration Information System (LAIS, ESRI ArcGIS-based, version 4.0) operational; e-titles paperless from 2024.
+- **Cadastre / land registry**: **National Land Authority — NLA** (Ikigo cy’Igihugu Gishinzwe Ubutaka; established by Presidential Order N° 030/01 of 06/05/2022 under the Ministry of Environment; successor to the Rwanda Land Management and Use Authority — RLMUA). Portal: `https://www.lands.rw/` (the former RLMA `rlma.rw` portal is defunct — lands.rw is now operated by the NLA). Rwanda completed **systematic Land Tenure Regularisation (LTR) 2009–2013** under MINIRENA / DAI / DFID, demarcating **>10.4 M parcels** and issuing **8.8 M titles**. **Titling rate ~93 % (gender-equal)** — Rwanda is one of very few African countries with near-universal parcel-level digital cadastre. Land Administration Information System (LAIS, Esri ArcGIS-based, version 4.0 deployed 2019 per Esri ArcNews Spring 2021 vendor case study; current version not publicly stated) operational; **e-Title** (electronic certificate of land registration) launched **6 January 2023** — physical title issuance eliminated (MoE / NLA press release 6 Jan 2023).
 - **Postcode**: Rwanda **does not have a national postal code system** — addresses are by Cell / Sector / District / Province + landmark. RDB / RRA correspondence uses PO Boxes.
 - **Admin levels**: **5 provinces** (Kigali City + Eastern + Northern + Southern + Western) → **30 districts** → **416 sectors** → **2,148 cells** → **14,837 villages (umudugudu)** [NISR 2022 administrative inventory]. Each district has its own council that sets land-tax rates within RRA-prescribed bands.
-- **EAC / regional**: Rwanda is a member of **EAC (East African Community)**, **COMESA**, **CEPGL** (with DRC + Burundi). EAC + COMESA citizens get reduced investor thresholds (USD 100k vs USD 250k for OECD nationals).
+- **EAC / regional**: Rwanda is a member of **EAC (East African Community)**, **COMESA**, **CEPGL** (with DRC + Burundi). EAC + COMESA citizens get a lower RDB investment-certificate start-up capital guide (USD 100k for locals + EAC + COMESA vs USD 250k for overseas investors — RDB guidance, not the Law N° 006/2021 text).
 
 ### Major reforms tracked (2022–2026)
 
-- **Law N° 27/2021 (Land Law)** — extended **emphyteutic / leasehold term to 99 years** for both residential and investment use (previously 49 years for investment, 20 years for residential). Foreigners get **leasehold only**; freehold reserved for Rwandan citizens (subject to international convention reciprocity). Source: Official Gazette + RLMUA.
-- **Law N° 027/2022 of 20/10/2022 establishing taxes on income** (amended by **Law N° 051/2023 of 05/09/2023** and **Law N° 014/2025 of 27/05/2025**) — replaced 2018 Income Tax Law; restructured PIT brackets (see `--tax`); **CGT 10 %** (Art. 36 as amended by Law N° 014/2025, Official Gazette n° Special of 29/05/2025 — Art. 36 as promulgated read 5 %, which was the statute for 20/10/2022 – 28/05/2025) on the **Art. 37 base of shares, licences, debt instruments, options, guarantees and similar assets — immovable property is NOT in the CGT base**; commercial-property gains fall into business profit (Art. 19) at **CIT 28 %** (Art. 48 as amended by Law N° 051/2023) or PIT progressive to 30 %; residential individual sales captured through the 2 % / 2.5 % sale levy (see `--tax`); preserved **rental income tax** progressive scale. *(2026-08-07 verified, source Law 014/2025 + Law 027/2022 + Law 051/2023 gazettes + RRA Tax Handbook + PwC Worldwide Tax Summaries)*
-- **Law N° 006/2021 of 05/02/2021 on investment promotion and facilitation** (Investment Code 2021) — replaced 2015 Code; preferential CIT rates 3 / 15 / 25 %; **3 foreign-worker permits + residence permit for USD 250k+ registered investor**. Source: UNCTAD Investment Laws Navigator + RDB.
-- **Property Tax Reform — Cabinet-approved 20 April 2023; enacted as Law N° 048/2023 of 05/09/2023 (repeals Law N° 75/2018), in force on gazettement 14 Sept 2023 per Art. 60 (Official Gazette n° Special of 14/09/2023)** — land-rate implementing instrument **Ministerial Order n° 002/23/10/TC of 24/11/2023**; first tax period under the new rates = **calendar 2024**, RRA opened the 2024 declaration **20 August 2024** after District Council + City of Kigali rate approval, **annual deadline 31 December**. Land Tax rate compressed from FRW 0–300/m² to **FRW 0–80/m²** band (varies by district + use, set annually by District Council / City of Kigali); **Building Tax**: 0.5 % residential / 0.3 % commercial / 0.1 % industrial-SME of combined building + plot market value, with **0.25 %** for a residential plot + building of **three floors** and **0.1 %** **above three floors**; **one owner-occupied family dwelling exempt** (its land remains taxable); **Sale levy**: 2 % registered seller / 2.5 % unregistered, levied on the sale value **after deducting the first FRW 5,000,000** — use-based applicability of the deduction is not specified in the source; verify residential treatment with RRA. Source: Law N° 048/2023 (Law on Sources of Revenue for Decentralized Entities) `https://www.rra.gov.rw/fileadmin/user_upload/Law_of_2023_about_the_sources_of_Revenues_and_property_for_decentralized_entitied.pdf` + gov.rw Cabinet press release 20 Apr 2023 + RRA 2024 declaration notice *(rates re-confirmed unchanged 2026-08-07 against RRA Basic Information version 2025 + RRA Tax Handbook 2025; no amending law — the May-2025 package did not touch Law 048/2023)*
+- **Law N° 27/2021 (Land Law)** — extended **emphyteutic / leasehold term to 99 years** for both residential and investment use (previously 49 years for investment, 20 years for residential). Foreigners get **leasehold only**; freehold reserved for Rwandan citizens (subject to international convention reciprocity). Source: Official Gazette + NLA.
+- **Law N° 027/2022 of 20/10/2022 establishing taxes on income** (amended by **Law N° 051/2023 of 05/09/2023** and **Law N° 014/2025 of 27/05/2025**) — replaced 2018 Income Tax Law; restructured PIT brackets (see `--tax`); **CGT 10 %** (Art. 36 as amended by Law N° 014/2025, Official Gazette n° Special of 29/05/2025 — Art. 36 as promulgated read 5 %, which was the statute for 28/10/2022 – 28/05/2025, Law N° 027/2022 being in force on publication in the Official Gazette n° Special of 28/10/2022 per Art. 73) — charging Art. 35 (not amended) covers the direct or indirect sale or transfer of **shares**; amended Art. 37 (withholding + declaration) covers **shares, licences, debt instruments, options, guarantees and similar assets — immovable property is NOT in the CGT base**; commercial-property gains fall into business profit (Art. 19) at **CIT 28 %** (Art. 48 as amended by Law N° 051/2023) or PIT progressive to 30 %; residential sales by individuals are outside CGT and bear the Law N° 048/2023 Art. 17 sale tax instead — **2.5 %** where the seller is not registered for income tax, the 2 % rate covering only commercial-use property sold by an income-tax-registered seller (see `--tax`); preserved **rental income tax** progressive scale. *(2026-10-21 verified, source Law 014/2025 + Law 027/2022 + Law 051/2023 + Law 048/2023 gazettes + PwC Worldwide Tax Summaries)*
+- **Law N° 006/2021 of 05/02/2021 on investment promotion and facilitation** (Investment Code 2021) — replaced 2015 Code; preferential CIT rates 3 / 15 / 25 %; **a registered investor investing at least USD 250,000 may recruit 3 foreign employees without a labour-market test** (Annex § XXII); **high net worth individuals eligible for permanent residence on criteria set by the relevant laws, with nationality by acquisition open 5 years later while they keep investing at least USD 1,000,000 or owning a luxury property worth at least USD 500,000** (Annex § XXI). Source: Law N° 006/2021 gazette (Official Gazette n° 04 bis of 08/02/2021) `https://cma.rw/fileadmin/user_upload/Investment-code-2021.pdf` *(2026-10-21 verified)*.
+- **Property Tax Reform — Cabinet approval announced 20 April 2023 (gov.rw press release; meeting "held on Friday", date not stated); enacted as Law N° 048/2023 of 05/09/2023 (repeals Law N° 75/2018), in force on gazettement 14 Sept 2023 per Art. 60 (Official Gazette n° Special of 14/09/2023)** — land-rate implementing instrument **Ministerial Order n° 002/23/10/TC of 24/11/2023**; first tax period under the new rates = **calendar 2024**, RRA opened the 2024 declaration **20 August 2024** after District Council + City of Kigali rate approval, **annual deadline 31 December**. Land Tax rate compressed from FRW 0–300/m² to **FRW 0–80/m²** band (varies by district + use, set annually by District Council / City of Kigali); **Building Tax**: 0.5 % residential / 0.3 % commercial / 0.1 % industrial-SME of combined building + plot market value, with **0.25 %** for a residential plot + building of **three floors** and **0.1 %** **above three floors**; **one owner-occupied family dwelling exempt** (its land remains taxable); **Sale tax** (Art. 17): **2 %** on the sale value of immovable property **for commercial use** where the seller is registered for income tax / **2.5 %** on immovable property sold by a person not registered for income tax, both levied on the sale value **after deducting the first FRW 5,000,000** (Art. 17(2)); a residential sale by an income-tax-registered seller is not addressed in Art. 17 — verify with RRA. Source: Law N° 048/2023 (Law on Sources of Revenue for Decentralized Entities) `https://www.rra.gov.rw/fileadmin/user_upload/Law_of_2023_about_the_sources_of_Revenues_and_property_for_decentralized_entitied.pdf` + gov.rw Cabinet press release 20 Apr 2023 + RRA 2024 declaration notice *(rates re-checked 2026-10-21 against the Law 048/2023 gazette text + RRA Immovable Property Tax page; the RRA laws list shows no amending law — the May-2025 package did not touch Law 048/2023)*
 - **Law N° 015/2025 of 27 May 2025 — 3 % Tourism Levy (effective 1 July 2025)** — unanimous Parliament vote 28 Apr 2025; 3 % tax on accommodation (Art. 2: "a service which consists of providing a room or place to sleep or rest" — hotels, motels, lodges, guest houses, **apartments and similar**), charged on the amount paid or payable **exclusive of VAT** (Art. 3); declared + paid within 15 days of month-end. Materially affects short-let / serviced-apartment yields *(2026-05-27 verified, source Law 015/2025 + allAfrica + travelnews.africa)*
 - **e-Apostille launch (5 June 2024)** — MINAFFET + Irembo partnership; Rwanda became 126th HCCH Apostille Convention member (instrument of accession deposited 6 Oct 2023; entered into force 5 June 2024); first country to launch e-Apostille from day-one of accession; 1–3 day processing via `https://irembo.gov.rw/`. Material for foreign-buyer document chain (birth certificates, PoA, marriage certificates required for LAIS / RDB filings) *(2026-05-27 verified, source MINAFFET press release + Schmidt-Export accession tracker)*
 - **Kigali Master Plan 2050 (KMP 2050)** — adopted 2020; portal: `https://bpmis.gov.rw/asset_uplds/kigali_master_plan/` and `https://www.kigalicity.gov.rw/`. Reduced commercial zones from 9 → 3, residential zones from 7 → 5; introduced overlay districts encouraging mixed-use along future BRT corridors. **Strict enforcement** — building permits checked against KMP 2050 zoning.
-- **Electronic Land Title rollout (2024)** — all titles paperless via LAIS; physical printout fee FRW 5,000 abolished by default (charged only for special-print requests).
+- **e-Title launch (6 January 2023)** — electronic certificate of land registration replaces physical title deeds; the title is downloaded via Irembo / `https://landinformation.lands.rw/` after Land Registrar approval; the FRW 5,000 title-printing fee is no longer charged, and a printed copy requires a special written request to the NLA at FRW 5,000 (MoE / NLA press release 6 Jan 2023; print fee not re-confirmed on a 2026 primary page) *(2026-10-21 verified)*
 
 ---
 
 ## Foreign buyer eligibility (READ FIRST)
 
-Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, but freehold is constitutionally restricted. The framework is unusually transparent for sub-Saharan Africa thanks to RLMUA's digital cadastre.
+Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, but freehold is constitutionally restricted. The framework is unusually transparent for sub-Saharan Africa thanks to NLA's digital cadastre.
 
 ### What foreigners can and cannot buy
 
 | Asset | Foreigner-buyable? | Notes |
 |---|---|---|
-| **Urban titled apartment / villa (Kigali)** | ✅ YES (leasehold 99 years) | Default safe — Nyarutarama, Kacyiru, Kimihurura, Kibagabaga, Gacuriro, Kiyovu. Confirm title via LAIS / RLMUA. |
+| **Urban titled apartment / villa (Kigali)** | ✅ YES (leasehold 99 years) | Default safe — Nyarutarama, Kacyiru, Kimihurura, Kibagabaga, Gacuriro, Kiyovu. Confirm title via LAIS / NLA. |
 | **Off-plan / new-build apartment in Kigali** | ✅ YES (with care) | Most reputable developers (e.g., Vision City, Kigali Heights) operate on certified leaseholds. Verify developer's Class A/B/C licence + construction permit + KMP 2050 zoning compliance. |
 | **Lake Kivu / Rubavu / Karongi tourist property** | ✅ YES (leasehold) | Verify zoning (Lake Kivu has shoreline-protection bands); pollution risk monitored due to methane in Lake Kivu deeps. |
 | **Volcanoes National Park gateway (Musanze) tourism property** | ✅ YES (leasehold) | Strict zoning around park buffer; volcanic risk material (see `--risks`). |
-| **Agricultural / rural land outside urban plans** | ⚠️ CAUTION | Allowed via long-term lease, but rural Rwanda is **densely cultivated subsistence land**; consolidation / villagisation programmes can affect tenure. Verify with RLMUA + district authority. |
+| **Agricultural / rural land outside urban plans** | ⚠️ CAUTION | Allowed via long-term lease, but rural Rwanda is **densely cultivated subsistence land**; consolidation / villagisation programmes can affect tenure. Verify with NLA + district authority. |
 | **Freehold title (any asset)** | ❌ NO (foreigners) | Reserved for Rwandan citizens under **Constitution Article 29 (private property right)** + Land Law 2021. Only path: **bilateral reciprocity convention**. |
 | **Marshlands, protected wetlands** | ❌ NO | Inalienable public domain (Land Law 2021 + REMA — Rwanda Environment Management Authority). |
 | **Volcanoes / Akagera / Nyungwe National Park interiors** | ❌ NO | Protected; managed by RDB Tourism + RWCA (Rwanda Wildlife Conservation Authority). |
@@ -48,9 +48,9 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 ### Mandatory pre-purchase verification (foreigner)
 
 1. **TIN** (Tax Identification Number) — foreigner obtains from RRA via `https://www.rra.gov.rw/` or RDB One-Stop Centre. Free.
-2. **LAIS title check** — confirm seller is registered titleholder; verify leasehold term remaining; check for mortgage / caveat. RLMUA `https://www.lands.rw/`. Title certificate: **Certificate of Registration** (UPI = Unique Parcel Identifier).
+2. **LAIS title check** — confirm seller is registered titleholder; verify leasehold term remaining; check for mortgage / caveat. NLA `https://www.lands.rw/`. Title certificate: **Certificate of Registration** (UPI = Unique Parcel Identifier).
 3. **Land use plan check** — verify parcel's zoning under KMP 2050 (Kigali) or relevant district master plan. Portal: `https://bpmis.gov.rw/`.
-4. **Sale and Purchase Agreement (notarised)** — registered with RLMUA within 30 days of signing.
+4. **Sale and Purchase Agreement (notarised)** — registered with NLA within 30 days of signing.
 5. **Land Sub-lease deed** (for foreigners) — registered against UPI; confirms 99-year emphyteutic lease.
 6. **Building permit + Occupancy Certificate** (Habitable certificate) — issued by **City of Kigali / district** under KMP 2050 (Kigali Building Permit Management Information System — BPMIS, `https://bpmis.gov.rw/`).
 7. **Tax clearance from RRA** — confirms no outstanding immovable property tax / rental income tax.
@@ -67,7 +67,7 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 
 ### Confidence
 
-**HIGH** for the foreign-buyer leasehold framework, RLMUA digital cadastre, and Investment Code 2021 thresholds (multi-source: government law text + UNCTAD + US State Dept). **HIGH** for tax rates (RRA primary publication). **MEDIUM** for property-sale price benchmarks (no published RPPI; aggregated from listings + secondary press). **MEDIUM** for rural/peri-urban tenure transitions (consolidation programmes evolving district by district).
+**HIGH** for the foreign-buyer leasehold framework, NLA digital cadastre, and Investment Code 2021 thresholds (multi-source: government law text + UNCTAD + US State Dept). **HIGH** for tax rates (RRA primary publication). **MEDIUM** for property-sale price benchmarks (no published RPPI; aggregated from listings + secondary press). **MEDIUM** for rural/peri-urban tenure transitions (consolidation programmes evolving district by district).
 
 ---
 
@@ -78,7 +78,7 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 - **NISR — National Institute of Statistics of Rwanda** — `https://www.statistics.gov.rw/` — Construction Statistics, Establishment Census, GDP. **Does NOT publish a residential property price index** comparable to PT Confidencial Imobiliário or FR Notaires; Rwanda has no official RPPI.
 - **BNR — National Bank of Rwanda — Financial Stability Reports + Monetary Policy Reports** — `https://www.bnr.rw/` — credit-to-real-estate aggregates, mortgage market depth.
 - **RDB — Rwanda Development Board** — `https://rdb.rw/` — real-estate sector reports + investor briefs.
-- **RLMUA — LAIS** — sale-deed registrations are paid per-search; not in open data.
+- **NLA — LAIS** — sale-deed registrations are paid per-search; not in open data.
 - **RRA Immovable Property Tax matrix values** — fiscal-base values are valuation-roll-derived; typically **30–50 % below market** (use as floor only).
 
 ### Listing platforms (Kigali + national)
@@ -119,7 +119,7 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 
 1. Listing USD/m² = (Listing price in USD) / (advertised m² built area). **Note**: Rwandan listings often quote **plot size + built area separately** in m² or sometimes ares (1 are = 100 m²). Confirm which figure you're dividing by.
 2. Cross-check with seller's **Certificate of Registration** (UPI) for legal area.
-3. For accurate transacted price: paid LAIS search per UPI via RLMUA.
+3. For accurate transacted price: paid LAIS search per UPI via NLA.
 4. **Trap**: listing prices for foreigners are sometimes 10–20 % higher than equivalent local-buyer transaction. Anecdotal but reported across multiple agency sources; best counter is hire local conveyancing lawyer and request RRA matrix value for benchmarking.
 5. **Trap**: leasehold remaining term materially affects value. A 20-year-remaining 99-yr leasehold ≠ a fresh 99-yr leasehold. Verify start date on Certificate of Registration.
 
@@ -164,15 +164,15 @@ Rwanda is **broadly permissive** for foreign property buyers in **leasehold**, b
 
 ### Stamp / transfer levy (one-time, buyer or per agreement)
 
-- **Levy on sale of immovable property**: **2 %** of sale value (registered seller) / **2.5 %** (unregistered), levied **after deducting the first FRW 5,000,000** of the sale value — legal basis **Law N° 048/2023 of 05/09/2023**, in force on gazettement 14 Sept 2023 (Official Gazette n° Special of 14/09/2023); collected by RRA at registration. Use-based applicability of the FRW 5 M deduction is not specified in the source — verify residential treatment with RRA. Source: Law N° 048/2023 `https://www.rra.gov.rw/fileadmin/user_upload/Law_of_2023_about_the_sources_of_Revenues_and_property_for_decentralized_entitied.pdf` + RRA (prior secondary reporting: Kigali Times Finance Law 2024/2025) *(2026-08-07 verified)*
+- **Levy on sale of immovable property**: **2 %** of sale value for **commercial-use** property sold by a seller registered for income tax / **2.5 %** for property sold by a person not registered for income tax (Art. 17(1)), levied **after deducting the first FRW 5,000,000** of the sale value (Art. 17(2)) — legal basis **Law N° 048/2023 of 05/09/2023**, in force on gazettement 14 Sept 2023 (Official Gazette n° Special of 14/09/2023); collected by RRA at registration. The FRW 5 M deduction applies to both rates; a residential sale by an income-tax-registered seller is not addressed in Art. 17 — verify with RRA. Source: Law N° 048/2023 `https://www.rra.gov.rw/fileadmin/user_upload/Law_of_2023_about_the_sources_of_Revenues_and_property_for_decentralized_entitied.pdf` + RRA (prior secondary reporting: Kigali Times Finance Law 2024/2025) *(2026-08-07 verified)*
 
-### Land Registration / RLMUA fees
+### Land Registration / NLA fees
 
-- **Land transfer fee**: **FRW 20,000** residential / **FRW 30,000** commercial (RLMUA flat).
+- **Land transfer fee**: **FRW 20,000** residential / **FRW 30,000** commercial (NLA flat).
 - **Land registration fee** (post-transfer): **0.5 %** of declared property value.
-- **Title deed printout (electronic system 2024+)**: free by default; FRW 5,000 for special-print copy.
+- **Title deed printout (e-Title since 6 Jan 2023)**: e-Title download free by default; printed copy on special written request to the NLA at FRW 5,000 (MoE / NLA press release 6 Jan 2023).
 - **Notary fees**: regulated scale, typically **0.5–1 %** of sale value (anecdotal range; flat-rate component FRW 1,000–5,000 for simple deeds).
-- Source: RLMUA `https://www.lands.rw/land-transactions` (One Step One Day Transfer page).
+- Source: NLA `https://www.lands.rw/land-transactions` (One Step One Day Transfer page).
 
 ### Annual Immovable Property Tax (IPT) — RRA
 
@@ -214,23 +214,23 @@ Second residential house: **0.5 %** of combined market value.
 
 | Item | RWF | USD est. |
 |---|---:|---:|
-| Sale levy 2 % (registered; on RWF 290 M − RWF 5 M = RWF 285 M; the FRW 5 M deduction applies to the sale value, use-based applicability not specified in the source — verify residential treatment with RRA) | ~5,700,000 | ~$3,940 |
+| Sale levy 2.5 % (residential resale by a seller not registered for income tax, Law N° 048/2023 Art. 17(1)(b); on RWF 290 M − RWF 5 M = RWF 285 M — the 2 % rate covers only commercial-use property sold by an income-tax-registered seller; a residential sale by a registered seller is not addressed in Art. 17 — verify with RRA) | ~7,125,000 | ~$4,920 |
 | Land registration 0.5 % | ~1,450,000 | ~$1,000 |
 | Land transfer fee (residential flat) | 20,000 | ~$15 |
 | Notary fees ~0.75 % (mid-range est.) | ~2,175,000 | ~$1,500 |
-| Title printout / misc. | 5,000 | ~$4 |
-| **Total transaction cost** | ~9,450,000 | **~$6,500 (~3.3 % of price)** |
+| Title printout (optional printed copy; e-Title download free) / misc. | 5,000 | ~$4 |
+| **Total transaction cost** | ~10,775,000 | **~$7,440 (~3.7 % of price)** |
 
-(Law N° 048/2023 basis, first tax period calendar 2024; rates re-confirmed unchanged **2026-08-07** against RRA Basic Information version 2025 + RRA Tax Handbook 2025 — still verify current rates at RRA/RLMUA on day of transaction.)
+(Law N° 048/2023 basis, first tax period calendar 2024; sale-tax rate corrected to the Law N° 048/2023 Art. 17 text and rates re-checked **2026-10-21** against the Law N° 048/2023 gazette + RRA Immovable Property Tax page — still verify current rates at RRA/NLA on day of transaction.)
 
 ### Capital Gains Tax (CGT)
 
 - **CGT base** (Art. 37 of Law N° 027/2022, as amended): direct or indirect sale or transfer of **shares, licences, debt instruments, options, guarantees and similar assets**. **Immovable property is NOT in the CGT base.**
-- **Rate**: **10 %** of the capital gain (acquisition value vs selling / transfer price). Legal basis: **Law N° 014/2025 of 27/05/2025** (Official Gazette n° Special of 29/05/2025, in force from gazettement) amending **Art. 36 of Law N° 027/2022** — "The capital gain tax rate is 10% of the capital gain". Art. 36 as promulgated read **five percent (5 %)**, so **5 % was the primary statute for 20/10/2022 – 28/05/2025**. Source: Law 014/2025 + Law 027/2022 gazettes + RRA Tax Handbook + PwC Worldwide Tax Summaries 2026.
+- **Rate**: **10 %** of the capital gain (acquisition value vs selling / transfer price). Legal basis: **Law N° 014/2025 of 27/05/2025** (Official Gazette n° Special of 29/05/2025, in force from gazettement) amending **Art. 36 of Law N° 027/2022** — "The capital gain tax rate is 10% of the capital gain". Art. 36 as promulgated read **five percent (5 %)**, so **5 % was the primary statute for 28/10/2022 – 28/05/2025** (Law N° 027/2022 in force on publication, Official Gazette n° Special of 28/10/2022, Art. 73). Source: Law 014/2025 + Law 027/2022 gazettes + RRA Tax Handbook + PwC Worldwide Tax Summaries 2026.
 - **Commercial immovable property**: **not CGT at all** — the gain falls into **business profit** (Art. 19 of Law N° 027/2022, "proceeds of sale of any business asset"), taxed at **CIT 28 %** (Art. 48 as amended by **Law N° 051/2023 of 05/09/2023**, which cut CIT 30 % → 28 %) or at **PIT progressive to 30 %** (Art. 14 top band), depending on the seller. There is **no 30 % CGT on commercial immovable property** — the earlier framing here was wrong.
-- **Residential immovable property** (individual seller, non-business): **NOT a separate CGT** — gain is captured through the immovable-property sale levy (2 % registered / 2.5 % unregistered above the RWF 5 M exempt floor; see Transfer + Registration costs above). Verify your specific scenario with RRA — the residential-vs-commercial classification is fact-driven.
+- **Residential immovable property** (individual seller, non-business): **NOT a separate CGT** — the sale bears instead the Law N° 048/2023 Art. 17 sale tax on the sale value above the first FRW 5 M — **2.5 %** where the seller is not registered for income tax (the 2 % rate covers only commercial-use property sold by an income-tax-registered seller; see Transfer + Registration costs above). Verify your specific scenario with RRA — the residential-vs-commercial classification is fact-driven.
 - **Declaration deadline**: 15th of the month following the transaction.
-- Source: RRA Tax Handbook `https://www.rra.gov.rw/fileadmin/Folder_for_2025/RRA_Tax_Handbook_2025_Final.pdfhandbook/explanation-of-capital-gains-tax/` + PwC Rwanda Corporate Tax Summary 2026 `https://taxsummaries.pwc.com/rwanda/corporate/other-taxes` *(2026-08-07 re-verified — this corrects the note previously carried here: the "5 % flat" framing was **not** a pre-2022 confusion. Art. 36 of Law N° 027/2022 as promulgated read five percent (5 %), and Law N° 051/2023 amended only Arts. 9 + 48 (CIT 30 % → 28 %) without touching CGT, so 5 % was the primary statute for 20/10/2022 – 28/05/2025; the 10 % rate arrives only with Law N° 014/2025 of 27/05/2025)*
+- Source: RRA Tax Handbook `https://www.rra.gov.rw/fileadmin/Folder_for_2025/RRA_Tax_Handbook_2025_Final.pdfhandbook/explanation-of-capital-gains-tax/` + PwC Rwanda Corporate Tax Summary 2026 `https://taxsummaries.pwc.com/rwanda/corporate/other-taxes` *(2026-08-07 re-verified — this corrects the note previously carried here: the "5 % flat" framing was **not** a pre-2022 confusion. Art. 36 of Law N° 027/2022 as promulgated read five percent (5 %), and Law N° 051/2023 amended only Arts. 9 + 48 (CIT 30 % → 28 %) without touching CGT, so 5 % was the primary statute for 28/10/2022 – 28/05/2025; the 10 % rate arrives only with Law N° 014/2025 of 27/05/2025)*
 
 ### Rental Income Tax (RIT) — for landlords
 
@@ -272,7 +272,7 @@ PIT brackets (monthly employment income, post-Nov 2023):
 
 - **Property tax reform 2024 still bedding in** — district councils setting per-locality rates; some Kigali districts pushing toward upper end of building tax band.
 - **Rental income reporting compliance push** — RRA actively cross-checking AirBnB / hospitality registrations against rental tax filings (verify status 2026 at RRA news).
-- **Sale levy** — distinguishing 2 % vs 2.5 % depends on TIN registration status; foreigners typically pay 2 % once TIN issued.
+- **Sale levy** — the rate turns on the seller and the property's use: 2 % for commercial-use property sold by a seller registered for income tax, 2.5 % for property sold by a person not registered for income tax (Law N° 048/2023 Art. 17(1)); the buyer's TIN does not set the rate.
 
 ⚠️ **Verification**: request seller's last RRA Immovable Property Tax + Rental Income Tax clearance certificates before signing.
 
@@ -370,11 +370,11 @@ PIT brackets (monthly employment income, post-Nov 2023):
 - New applicant (1-tier): **FRW 150,000** — validity up to **2 years**.
 - Recurring applicant (3+ tier): **FRW 250,000** — validity up to **5 years**.
 
-**Investor incentive (Law N° 006/2021 Art. 14)**:
-- Registered investor with USD 250,000+ investment certificate → **residence permit + 3 foreign-worker permits without labour-market test**.
-- Investors from **EAC / COMESA member states**: reduced threshold to **USD 100,000**.
+**Investor incentive (Law N° 006/2021 Annex § XXII — Art. 14 only has RDB facilitate visas and work permits, with no threshold)**:
+- Registered investor investing at least USD 250,000 → **may recruit 3 foreign employees without demonstrating that their skills are lacking on the Rwandan labour market**. The investor's own permit is the DGIE Business investor permit, which requires the company's RDB investment certificate (fees above; DGIE publishes no investment threshold).
+- RDB guidance (not the Law text): minimum start-up capital for an investment certificate **USD 250,000** for overseas citizens / **USD 100,000** for locals and **EAC / COMESA** members.
 
-**Mackrell International Golden Visa overview** + **IMI Daily** + **Kwanda RE summaries** mention a **USD 500,000 luxury property route** + **USD 250,000 RDB investor route** — **note: the USD 500k "luxury property" path is sometimes described as the practical residence-by-investment route but is NOT a clearly published primary-source RDB programme; verify directly with RDB One-Stop Centre** (`https://rdb.rw/one-stop-centre/`) before relying on it for a specific transaction. The **USD 250k registered-investor + 3-permit-grant route under Law N° 006/2021** is the primary-source-confirmed path.
+**USD 500,000 luxury property — in the primary text (this corrects the earlier aggregator-only flag)**: Law N° 006/2021 Annex § XXI (Talent attraction incentives) makes **high net worth individuals** eligible for **permanent residence** "upon fulfilling eligibility criteria determined by the relevant laws", and lists investing at least **USD 1,000,000** in an investment activity in Rwanda or owning a **luxury property in Rwanda valued at least USD 500,000** as the category requirements a permanent resident must keep meeting to apply for **Rwandan nationality by acquisition 5 years after receiving permanent residence**. The permanent-residence criteria themselves: data not publicly available — verify at DGIE (its Permanent Permits page says to contact DGIE before applying). Mackrell / IMI Daily / Kwanda RE summaries describe this route; rely on the Law text. *(2026-10-21 verified, source `https://cma.rw/fileadmin/user_upload/Investment-code-2021.pdf`)*
 
 ### Salary benchmarks (2024–2025 Kigali, gross monthly RWF — listing/recruiter-aggregated, est.)
 
@@ -434,11 +434,11 @@ PIT brackets (monthly employment income, post-Nov 2023):
 
 | Document | When required | Authority |
 |---|---|---|
-| **Certificate of Registration (LAIS title)** | All sales | RLMUA — verify UPI online |
+| **Certificate of Registration (LAIS title)** | All sales | NLA — verify UPI online |
 | **Land use plan compliance** | Kigali + districts with KMP 2050 / district plans | City of Kigali / district BPMIS |
 | **Building permit + Occupancy Certificate** | All formal sales of buildings | City of Kigali / district |
 | **Tax clearance certificate (RRA)** | All sales | RRA |
-| **Sub-lease / leasehold deed** | Foreign buyers (always) | RLMUA |
+| **Sub-lease / leasehold deed** | Foreign buyers (always) | NLA |
 | **Architectural + structural drawings** (post-2009 builds) | Strongly recommended | Seller |
 | **Body corporate by-laws + financial statements** | Apartments / condominiums | Body corporate / managing agent |
 | **Proof of clear historical title** (Pre-1994 stock especially) | Strongly recommended | Conveyancing lawyer |
@@ -601,13 +601,13 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 
 | Work | Cost (USD est.) |
 |---|---:|
-| Sale levy 2 % (registered taxpayer) | 2 % of sale value after deducting the first FRW 5 M |
+| Sale levy 2 % (commercial-use property, income-tax-registered seller) / 2.5 % (seller not registered for income tax) | 2 % or 2.5 % of sale value after deducting the first FRW 5 M (Law N° 048/2023 Art. 17) |
 | Land registration 0.5 % | 0.5 % of price |
 | Land transfer fee (residential flat) | ~$15 (FRW 20,000) |
 | Notary fees (typical) | 0.5–1 % of price |
 | Conveyancing lawyer (foreign-buyer-grade) | $1,000–$3,000 |
 | Independent property inspection | $500–$1,500 |
-| Title search (LAIS via RLMUA) | < $50 |
+| Title search (LAIS via NLA) | < $50 |
 | Land surveyor (boundary verification) | $500–$2,000 |
 | Building permit application (City of Kigali) | $500–$5,000 (depends on scope) |
 | Architect (residential design) | $5,000–$30,000+ |
@@ -648,7 +648,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 - **No national postcode** — addresses are by Cell / Sector / District + landmark; UPI is the unambiguous identifier.
 - **Lake Kivu methane** (Karongi / Rubavu / Rusizi shoreline) — managed via methane extraction (KivuWatt); residual limnic-eruption risk is low but non-zero; for shoreline property factor in disaster awareness.
 - **Volcanic + seismic NW Rwanda** — Nyiragongo (DRC, 20 km from Gisenyi) is one of world's most active volcanoes; Rubavu / Musanze + parts of Western/Northern provinces face material multi-hazard exposure. **2021 eruption tremors felt in Kigali (90 km).**
-- **Investor visa "USD 500k luxury property" path** — appears in secondary-source aggregator articles (IMI Daily, Kwanda RE, Mackrell) but is **NOT a clearly-published primary RDB programme name**. The primary-source-confirmed path is the **Investment Code 2021 USD 250k registered-investor route** (Law N° 006/2021 Art. 14). **Verify with RDB One-Stop Centre** before relying on the property-only path.
+- **Investor visa "USD 500k luxury property" path** — in the primary text: Law N° 006/2021 Annex § XXI lists owning a luxury property in Rwanda valued at least USD 500,000 (or investing at least USD 1,000,000) as the high-net-worth category requirements a permanent resident must keep meeting to apply for nationality by acquisition after 5 years; permanent-residence eligibility is set by other laws and DGIE publishes no criteria — **verify with DGIE** before relying on the property-only path. The USD 250,000 figure (Annex § XXII) is a foreign-employee recruitment incentive, not a residence-by-investment threshold.
 - **Kigali utility reliability is exceptional for sub-Saharan Africa** — water, electricity, fibre, paved roads, cellular all near-EU-standard in central districts. Worth flagging as a structural advantage.
 
 ## Reddit / forum sources
@@ -667,7 +667,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 
 | Authority | When to call |
 |---|---|
-| **RLMUA** (Rwanda Land Management and Use Authority) | Title verification (LAIS); UPI lookup; sub-lease registration |
+| **NLA** (National Land Authority; formerly RLMUA) | Title verification (LAIS); UPI lookup; sub-lease registration |
 | **RDB** (Rwanda Development Board) | Investor certificate; One-Stop Centre; visa-by-investment |
 | **RRA** (Rwanda Revenue Authority) | TIN; property tax / rental tax / CGT clearance |
 | **City of Kigali — BPMIS** | Building permit; zoning compliance under KMP 2050 |
@@ -686,8 +686,8 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 ## Quirks to know
 
 - **UPI is everything** — Unique Parcel Identifier in LAIS is the single source of truth for any property; insist on UPI in all documentation.
-- **No paper titles since 2024** — all titles electronic; physical printout fee FRW 5,000 only for special copies.
-- **One Step One Day Transfer** — RLMUA's flagship target: simple residential transfers can complete within **one working day** at full LTR-coverage parcels. Verify this for your property's location.
+- **No paper titles issued since 6 Jan 2023 (e-Title)** — titles are issued electronically; a printed copy only on special written request to the NLA at FRW 5,000.
+- **One Step One Day Transfer** — NLA's flagship target: simple residential transfers can complete within **one working day** at full LTR-coverage parcels. Verify this for your property's location.
 - **Foreigner buys leasehold; Rwandan citizen buys freehold** — same physical property may have different available tenure types depending on buyer nationality.
 - **Investor-Certificate route is well-trodden** — RDB processes investor certificates within 2 working days once docs complete; the route is genuinely operational, not just nominal.
 - **Tax handbook online** — `https://www.rra.gov.rw/fileadmin/Folder_for_2025/RRA_Tax_Handbook_2025_Final.pdf` — primary RRA reference for all taxes; cite by section when computing.
@@ -695,15 +695,15 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 - **Construction quality varies pre-2009 / post-2009** — the National Building Code 2009/2019 raised standards; pre-2009 stock often lacks formal seismic detailing.
 - **Body corporate culture is nascent** — apartment / condominium body-corporate governance less mature than ZA / KE; demand bylaws + financials before buying in any building.
 - **Volcanic risk discussion is often understated** — even Kigali-resident agents sometimes downplay the NW border seismic / volcanic exposure; pull USGS + Smithsonian primary data.
-- **EAC / CEPGL passport benefits** — citizens of EAC / COMESA member states get reduced investor thresholds (USD 100k vs USD 250k for OECD nationals).
+- **EAC / CEPGL passport benefits** — citizens of EAC / COMESA member states get a lower RDB investment-certificate start-up capital guide (USD 100k for locals + EAC + COMESA vs USD 250k for overseas investors — RDB guidance, not the Law N° 006/2021 text).
 - **USD pricing parallel to RWF** — premium Kigali properties commonly listed in USD; ensure contract specifies which currency is the contract currency for default interpretation.
 
 ## Source URL templates
 
 | Source | URL |
 |---|---|
-| RLMUA — Lands portal | `https://www.lands.rw/` |
-| RLMUA — Rwanda Land Mgmt & Use Authority | `https://www.lands.rw/` |
+| NLA — Lands portal | `https://www.lands.rw/` |
+| NLA — National Land Authority (Presidential Order N° 030/01 of 06/05/2022; formerly RLMUA) | `https://www.lands.rw/` |
 | RDB — Rwanda Development Board | `https://rdb.rw/` |
 | RDB Business Procedures | `https://businessprocedures.rdb.rw/` |
 | RDB Investment Incentives | `https://rdb.rw/invest` |
@@ -730,5 +730,5 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 ## Status
 
 **Status**: ✅ fully populated as of 2026-05-07
-**Confidence**: HIGH — primary government sources (RLMUA, RRA, RDB, NISR, BNR, Migration / DGIE) are unusually accessible for sub-Saharan Africa; Land Tenure Regularisation 2009–2013 + LAIS digital cadastre give parcel-level title verification at a quality rare for the region. MEDIUM for residential price benchmarks (no published RPPI; ranges are listing-aggregator est.). MEDIUM for the "USD 500k luxury-property residence-by-investment" claim (secondary-source repeated; primary RDB programme name not publicly confirmed — verify via RDB One-Stop Centre).
-**Last verified**: 2026-08-07 (CGT re-verified — Law N° 014/2025 raised the Art. 36 rate 5 % → 10 % from 29/05/2025, immovable property confirmed outside the Art. 37 CGT base, standard CIT corrected 30 % → 28 %; prior full validation sweep 2026-05-27). Rental / tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Confidence**: HIGH — primary government sources (NLA, RRA, RDB, NISR, BNR, Migration / DGIE) are unusually accessible for sub-Saharan Africa; Land Tenure Regularisation 2009–2013 + LAIS digital cadastre give parcel-level title verification at a quality rare for the region. MEDIUM for residential price benchmarks (no published RPPI; ranges are listing-aggregator est.). MEDIUM for the USD 500k luxury-property route: it is in Law N° 006/2021 (Art. 2(22°) high-net-worth definition + Annex § XXI), but the permanent-residence criteria are not published — verify at DGIE (2026-10-21 verified).
+**Last verified**: 2026-08-07 (CGT re-verified — Law N° 014/2025 raised the Art. 36 rate 5 % → 10 % from 29/05/2025, immovable property confirmed outside the Art. 37 CGT base, standard CIT corrected 30 % → 28 %; prior full validation sweep 2026-05-27). Rental / tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Cadastre / rental / tax / visa tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).

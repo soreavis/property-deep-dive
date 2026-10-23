@@ -148,9 +148,9 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 ### Future risk — REFORMA TRIBUTÁRIA
 
 **Emenda Constitucional 132/2023** + **Lei Complementar 214/2025** (implementing statute, sanctioned January 2025) — major tax reform:
-- **2026: TEST YEAR** — CBS **0.9%** + IBS **0.1%** = **1.0% combined test rate** (creditable against PIS/COFINS so net collection ≈ zero)
-- **2027: CBS** goes live; CBS replaces **PIS + COFINS** (federal contributions) — **NOT IPI** (IPI is preserved with rates zeroed outside Zona Franca de Manaus under EC 132/2023 Art. 3º amending CF Art. 153 §3º)
-- **2029: IBS** (state+municipal, replaces ICMS/ISS) phased in
+- **2026: TEST YEAR** — CBS **0.9%** + IBS **0.1%** = **1.0% combined test rate** (amounts paid are offset against PIS/COFINS under ADCT art. 125 § 1, and LC 214/2025 art. 348 § 1 waives payment of 2026 IBS/CBS for taxpayers who meet the ancillary obligations, who stay liable for full PIS/COFINS)
+- **2027: CBS** goes live; CBS replaces **PIS + COFINS** (federal contributions) — **NOT IPI** (IPI is preserved but its rates are reduced to zero from 2027 except for products whose industrialisation is incentivised in the Zona Franca de Manaus — ADCT art. 126 III, inserted by EC 132/2023 art. 2; EC 132 does not amend CF art. 153 § 3)
+- **2029: IBS** (state+municipal, replaces ICMS/ISS) takes over as ICMS/ISS rates fall to 9/10 (2029), 8/10 (2030), 7/10 (2031) and 6/10 (2032) of their own statutory rates, both extinct from 2033 (ADCT arts. 128-129); IBS is already charged at 0.1% state in 2026 and at 0.05% state + 0.05% municipal in 2027-2028 (ADCT arts. 125 and 127)
 - **2033: full system in place** — combined CBS+IBS standard rate ceiling ~26.5%
 - **Real estate sector reductions (LC 214/2025 Art. 261)** (2026-05-27 verified, source: Planalto LC 214/2025):
   - **50% reduction** on standard rate for compra/venda + cessão de direitos sobre imóveis (effective ≈ 13.25%)
@@ -412,7 +412,7 @@ ISO2: `br`. Status: ✅ Fully populated (researched 2026-04).
 **Coverage check**: pricing (FIPE-ZAP Q1 2026), traffic (DNIT VMD), tax (IPTU + ITBI per município + IR + Reforma Tributária 2026-2033), rental (Lei do Inquilinato + STJ 2021 condo STR ban), work (MTE + MEI + Simples), risks (CEMADEN + Petrópolis 2022 + RS 2024 + Juiz de Fora 2026), mains (Marco Legal Saneamento 2033 target).
 **Confidence**: HIGH for FIPE-ZAP Q1 2026 figures + Reforma Tributária timeline (Emenda 132/2023 confirmed) + MCMV extension April 2026 (R$200B + R$13k income + R$600k cap + 35yr); HIGH for STJ 2021 condo STR ban; HIGH for CIB phasing (Jan 2026 federal administration + notarial/registry + state capitals & DF; Jan 2027 state administration + remaining municipalities — LC 214/2025 art. 266; instituted by IN RFB 2.030/2021, notarial/registry adoption IN RFB 2.275/2025); MEDIUM for IBS/CBS final real-estate sector rates (pilot 2026, finalization pending).
 
-**Last verified**: 2026-08-07 (CIB cadastre re-verified — LC 214/2025 art. 265/266 two-phase rollout, Jan 2026 federal administration + notarial/registry + capitals & DF → Jan 2027 state administration + remaining municipalities; CIB does not replace the cartórios; instituting instrument corrected to IN RFB 2.030/2021. Remainder of the playbook unchanged from the 2026-04-26 population date.)
+**Last verified**: 2026-08-07 (CIB cadastre re-verified — LC 214/2025 art. 265/266 two-phase rollout, Jan 2026 federal administration + notarial/registry + capitals & DF → Jan 2027 state administration + remaining municipalities; CIB does not replace the cartórios; instituting instrument corrected to IN RFB 2.030/2021. Remainder of the playbook unchanged from the 2026-04-26 population date.) Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs
 

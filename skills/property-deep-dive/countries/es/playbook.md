@@ -124,9 +124,9 @@ ISO2: `es`. Status: ✅ Fully populated (researched 2026-04; Tier-A quarterly re
 | **Castilla-La Mancha** | 9.0 % |
 | **Galicia** | 8.0 % |
 | **Murcia** | 8.0 % |
-| **Comunidad Valenciana** | **9.0 %** general (≤€1M) · **11 %** >€1M (pre-existing band, retained) — general rate cut 10 %→9 % by Ley 5/2025 (BOE-A-2025-11959), eff. 1 Jun 2026; AJD 1.5 %→1.4 % same date (2026-07-03 verified) |
+| **Comunidad Valenciana** | **9.0 %** general (≤€1M) · **11 %** >€1M (pre-existing band, retained) — general rate cut 10 %→9 % by Ley 5/2025 (BOE-A-2025-11959), eff. 1 Jun 2026; AJD 1.5 %→1.4 % same date; reduced TPO rates 8 % / 6 % (VPO régimen general, first home of buyers under 35, split at €180k) and 4 % / 3 % (VPO régimen especial, large or single-parent families, disability, gender-violence victims, split at €180k); AJD 0.1 % on vivienda habitual deeds (Ley 13/1997 arts. 13-14, consolidated text on BOE) (2026-10-21 verified) |
 | **Baleares** | 8.0–11.5 % progressive |
-| **Cataluña** (Decret-llei 5/2025, eff. 27 Jun 2025) | **10 %** ≤€600k · **11 %** €600k–€900k · **12 %** €900k–€1.5M · **13 %** >€1.5M · **20 %** flat for grans tenidors (large holders) · 5 % reduced rate for buyers under 35 (2026-05-27 verified; source [ATC](https://atc.gencat.cat/es/agencia/noticies/detall-noticia/20250627-mesures-fiscals-2025-itpajd-isd)) |
+| **Cataluña** (Decret-llei 5/2025, eff. 27 Jun 2025) | **10 %** ≤€600k · **11 %** €600k–€900k · **12 %** €900k–€1.5M · **13 %** >€1.5M · **20 %** flat for grans tenidors (large holders: more than 10 urban residential units or more than 1,500 m² residential in Catalonia, or 5+ urban residential units in tensioned-market municipalities, counted across different tensioned zones for taxable events from 14 Jul 2026 under Llei 11/2026) and for whole residential buildings (TEH) · 5 % reduced rate (TUJ) for a habitual-residence buyer aged 35 or under at accrual (32 before 27 Jun 2025; income cap applies) (2026-10-21 verified; source [ATC tarifes-tipus](https://atc.gencat.cat/ca/tributs/itpajd/tpo/tarifes-tipus)) |
 | **Canarias** | 6.5 % |
 | **Extremadura** | 8.0 % |
 | **La Rioja** | 7.0 % |
@@ -339,7 +339,7 @@ For obra nueva (new build, vendida by impresa):
 - **Deducciones IRPF for retrofit**: 20-60 % rebate over 5 yrs depending on energy class jump
 - **MOVES Plan III**: heat pump + renewable heating
 - **Ley de Vivienda 2023**: incentives in zonas tensionadas (long-let)
-- **Plan Estatal de Vivienda 2026-2030** (RD 326/2026, de 22 de abril, BOE-A-2026-8872): active state housing-aid framework (grants/rebates), first state plan under Ley 12/2023; 40 % of allocation to CCAA for public/affordable rental supply (2026-07-03 verified)
+- **Plan Estatal de Vivienda 2026-2030** (RD 326/2026, de 22 de abril, BOE-A-2026-8872): active state housing-aid framework (grants/rebates), in force 24 Apr 2026 (BOE 23 Apr 2026); first state plan under Ley 12/2023; 40 % of total allocation made available to CCAA for public/protected/affordable housing supply, mainly rental; €7,000M total, 60 % State / 40 % CCAA co-financing (2026-10-21 verified)
 
 ## Common listing platforms
 
@@ -403,7 +403,7 @@ For obra nueva (new build, vendida by impresa):
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-08-07 (Cataluña IEET tourist-tax tariff schedule re-verified against ATC — Llei 2/2026 rates in force 1 Apr 2026; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged). Rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-08-07 (Cataluña IEET tourist-tax tariff schedule re-verified against ATC — Llei 2/2026 rates in force 1 Apr 2026; prior Tier-A quarterly refresh 2026-07-03 — fast-moving claims re-verified; structural sections unchanged). Rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Rental / tax / visa tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (Catastro free + comprehensive; SNCZI maintained). MEDIUM for short-let regulation (CCAA-specific, evolving — Cataluña tightening, Madrid moderate). HIGH for Cataluña 2025 ITP reform (27 Jun 2025 effective, Decret llei 5/2025).
 

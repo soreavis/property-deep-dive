@@ -147,7 +147,7 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 
 - **Llei 3/2024** politically sensitive — parameters may change in 2026 budget
 - **OECD BEPS Pillar Two** — domestic minimum taxation implemented; corporate-vehicle structuring evolving
-- **EU Association Agreement** ([Govern AA portal](https://andorraue.ad/ca/acord-d-associacio)) — Council of the EU approved the text **16 July 2026**; **signature set for 19 October 2026 in Brussels**, then European Parliament consent, ratification by all 27 EU member states (Coreper confirmed the text is a MIXED agreement, 15 Jul 2026), a **consultative referendum** and ratification by the Consell General before entry into force; per Eunews (secondary, 16 Jul 2026) the Council decision also covers **provisional application** — scope and start not verified against the Council release, check consilium.europa.eu after signature — tax-cooperation tightening on ratification (2026 data, source Govern d'Andorra Secretaria d'Estat per a les Relacions amb la UE; 2026-09-18 verified)
+- **EU Association Agreement** ([Govern AA portal](https://andorraue.ad/ca/acord-d-associacio)) — Council of the EU approved the text **16 July 2026**; **signed 19 October 2026 in Brussels** (Commission IP/26/2182); next: European Parliament consent, then conclusion by the Council — the Council's 16 Jul 2026 release calls it a **MIXED agreement** (pre-signing by the member states); in Andorra a **consultative referendum** (Constitution art. 76) follows EP consent, and the text goes to the Consell General only if the yes vote wins; the Council authorised **provisional application** on 16 Jul 2026, but the Commission says the Agreement will be ready for provisional application only as soon as the ratification procedures in Andorra and San Marino allow, and the Govern says the signature itself brings neither entry into force nor provisional application — not in force and not provisionally applied as of 2026-10-21 — tax-cooperation tightening on ratification (2026 data, sources Commission IP/26/2182 + Council press release 16 Jul 2026 + Govern d'Andorra AA portal; 2026-10-21 verified)
 
 ---
 
@@ -605,7 +605,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ### Trend drivers (2024–2026)
 
-- **EU Association Agreement** (text approved by the Council of the EU 16 Jul 2026, signature scheduled 19 Oct 2026, not in force) — single-market spillover scenario if ratified
+- **EU Association Agreement** (Council authorised signature and provisional application 16 Jul 2026; signed 19 Oct 2026; not in force and not provisionally applied as of 2026-10-21) — single-market spillover scenario if ratified
 - **Tax-residency inflows** from ES (Catalonia 2025 wealth-tax + progressive ITP) + FR (IFI flight)
 - Tourism: 8–9M visits/year (≥100× population) — Llei 26/2024 tightening STR supply
 - IPH 2018–2024 nominal +5–8%/yr; cooling 2024–2025 with rate-cycle peak
@@ -743,7 +743,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 - **Avalanche-corridor zoning** in POUP — request parcel hazard layer from Comú before any chalet >1,500m
 - **Banking concentration** (4 banks) + Llei 14/2017 AML — non-resident account opening 4–8 weeks
 - **Catastre (parish) vs Registre (national)** split — must reconcile both pre-deed
-- **EU Association Agreement** — text approved by the Council of the EU 16 Jul 2026, signature scheduled 19 Oct 2026, not in force; single-market spillover scenario if ratified
+- **EU Association Agreement** — Council authorised signature and provisional application 16 Jul 2026; signed 19 Oct 2026; not in force and not provisionally applied as of 2026-10-21; single-market spillover scenario if ratified
 - **Listing m²**: convention is *m² construïts* (built); confirm vs *m² útils* on visit *(per listing — verify with cadastre / on visit)*
 
 ## Reddit / forum sources
@@ -790,7 +790,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 **Confidence**: MEDIUM — HIGH for the foundational legal/fiscal framework (ITP split 1% Govern + 0.50–3% Comú per Llei 1229/2000 art. 8.1+8.2, IEI two-tier 6%/10% post-Llei 5/2025, Llei 5/2025 "Llei Òmnibus" foreign-investor cap, negative-silence rule per Llei 3/2024, AFA deposit split, Passive-residency tier ladder €600k → €800k → possible €1m), bopa.ad primary statutes, and Comú-level transfer tax confirmation. MEDIUM for parcel-level Comú variation within the 0.50–3% ITP band (verify per parcel with Comú treasurer), Llei 2/2026 forward-flag detail, and 2026 minimum-wage / IRPF effective-rate parentheticals (verify at gov.ad). MEDIUM for residential price benchmarks (no national HPI; aggregator listing data with foreign-buyer bias).
 
-**Last verified**: 2026-05-27 (EU Association Agreement status corrected 2026-09-18 and 2026-09-24 per Govern d'Andorra AA portal)
+**Last verified**: 2026-05-27 (EU Association Agreement status corrected 2026-09-18, 2026-09-24 and 2026-10-21 per Govern d'Andorra AA portal + Commission IP/26/2182). EU-association tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

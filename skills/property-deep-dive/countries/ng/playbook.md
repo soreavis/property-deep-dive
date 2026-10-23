@@ -1060,7 +1060,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — Tax Reform Acts signed 26 Jun 2025 eff. 1 Jan 2026; VAT 7.5% retained + residential rent zero-rated; CGT progressive replacement; PIT bands restructured ₦800k tax-free; CBN MPR 26.5%; NGN/USD ~1,375; Lagos Blue Book 1 May 2026; FIRS → NRS rebrand; compulsory-insurance basis corrected 2026-09-18 per NIIRA 2025 ss. 75-76). Cross-references corrected 2026-09-24 from the EG-614 tracker entry (November regwatch wave, run early).
+**Last verified**: 2026-05-27 (validation sweep — Tax Reform Acts signed 26 Jun 2025 eff. 1 Jan 2026; VAT 7.5% retained + residential rent zero-rated; CGT progressive replacement; PIT bands restructured ₦800k tax-free; CBN MPR 26.5%; NGN/USD ~1,375; Lagos Blue Book 1 May 2026; FIRS → NRS rebrand; compulsory-insurance basis corrected 2026-09-18 per NIIRA 2025 ss. 75-76). Cross-references corrected 2026-09-24 from the EG-614 tracker entry (November regwatch wave, run early). Insurance / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

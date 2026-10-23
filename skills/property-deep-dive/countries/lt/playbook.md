@@ -303,6 +303,7 @@ Universal — see `shared/climate-projections.md`.
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)
+- 2026-10-21: Tax tracker entry re-checked (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 ---
 

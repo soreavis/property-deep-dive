@@ -397,7 +397,7 @@ Before buying any As Oy apartment, demand:
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-04-25. Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + cadastre sources (Maanmittauslaitos + Verohallinto definitive); HIGH for varainsiirtovero 2024 reform (3 % / 1.5 % confirmed). MEDIUM for short-let regulation (EU 2024/1028 transposition pending May 2026 deadline).
 

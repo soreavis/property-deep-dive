@@ -936,7 +936,7 @@ Barbados pioneered the modern Caribbean DNV with the Welcome Stamp launched **30
 - **MEDIUM** for 2024 homicide rate (~17.7/100k, 50 cases) — RBPF primary aggregated by Caribbean Signal / Barbados Underground secondary; geographic concentration in St. Michael well documented.
 - **LOW** for parcel-level storm-surge / coastal-flood mapping outside CZMU priority areas — coverage uneven; verify per parcel via CZMU + DEM + engineering survey.
 - **LOW** for traffic AADT — no public AADT portal; OSM + on-site observation is the practical method.
-**Last verified**: 2026-08-06. Risks tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-08-06. Risks tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Risks tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs
 
