@@ -99,6 +99,23 @@ jobs:
           python3 scripts/regwatch_parse-test.py
           python3 scripts/regwatch_parse.py --check
 
+  link-label-hosts:
+    name: Link labels name the host they link to
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: No new label/href host mismatches
+        # The #404 audit kept finding links labelled with one host that point at
+        # another, so a reader who trusts the label lands on a different site.
+        # Mismatches already on main are baselined in config/_link-label-baseline.json
+        # for a verified fix wave; only new ones fail, and fixed ones show as stale.
+        run: |
+          python3 scripts/check-link-labels-test.py
+          python3 scripts/check-link-labels.py
+
   markdownlint:
     name: Markdown lint
     runs-on: ubuntu-latest
