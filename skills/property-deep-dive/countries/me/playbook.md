@@ -365,7 +365,7 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 | MONSTAT | `https://www.monstat.org/` |
 | CBCG | `https://www.cbcg.me/` |
 | Realitica | `https://www.realitica.com/` |
-| Property Finder ME | `https://www.propertyfindermontenegro.com/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Montenegro portal (e.g. nekretnine.me) |
+| Oglasi.me — Nekretnine (classifieds; seller-controlled) | `https://oglasi.me/nekretnine` |
 | Putevi Crne Gore | `https://www.putevi.me/` |
 | ZZZCG | `https://www.zzzcg.me/` |
 | Poreska uprava CG | `https://www.gov.me/poreskauprava` |

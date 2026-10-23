@@ -174,7 +174,7 @@ Source: Ministry of Interior `https://www.moi.gov.jo/`; verify current at Invest
 |---|---|---|
 | **OpenSooq Jordan** (`https://jo.opensooq.com/`) | National; broad incl. resale | Largest classifieds aggregator in Jordan; Arabic + English; many duplicates |
 | **Aqar.fm Jordan** — data not publicly available: both endpoints are gone (`aqar.jo` NXDOMAIN; `www.aqar.fm/jordan` redirects to the Saudi property and 404s, 2026-09-18). No verified Jordanian replacement portal — verify listings against the **Department of Land and Survey (dls.gov.jo)** record for the parcel | — | — |
-| **Jordan Real Estate** (`https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct)) | National | Established; English-friendly |
+| **Amaken** (`https://www.amaken.jo/en`) — replaces the defunct `jordanrealestate.com.jo` (no longer resolves, 2026-10-21; no web-archive capture after 2000) | National, Amman-heavy (multi-agency marketplace) | English + Arabic; asking prices, agency-controlled |
 | **Property Finder Jordan** (limited regional presence — verify currency) | Amman-focused premium | Cross-border; English |
 | **Bayut Jordan** (where active) | National | Verify current activity in Jordan market |
 | **Housing Bank ePortal** (`https://www.hbtf.com/`) | Bank-listed REO + new developer launches | Useful for distressed/repossessed |
@@ -583,7 +583,7 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 |---|---|
 | **OpenSooq Jordan** (`https://jo.opensooq.com/`) | Largest classifieds; broad inventory |
 | **Aqar.fm Jordan** (`https://www.aqar.fm/jordan`) | Real-estate-focused; cleaner inventory |
-| **Jordan Real Estate** (`https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct)) | Established; English-friendly |
+| **Amaken** (`https://www.amaken.jo/en`) — replaces the defunct `jordanrealestate.com.jo` | Multi-agency marketplace (Amman-heavy); English + Arabic |
 | **Property Finder / Bayut Jordan** (where active) | Premium Amman; English-friendly |
 | **HBTF ePortal** (`https://www.hbtf.com/`) | Bank REO + new developer launches |
 | **Saraya Aqaba / Ayla Oasis / Marsa Zayed direct** | Aqaba branded developments |
@@ -696,7 +696,7 @@ This is a **distinctive Jordanian quirk**: even properties on mains receive wate
 | Jordan Ahli Bank | `https://www.ahli.com/` |
 | OpenSooq Jordan | `https://jo.opensooq.com/` |
 | Aqar.fm Jordan | `https://www.aqar.fm/jordan` |
-| Jordan Real Estate | `https://www.jordanrealestate.com.jo/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Jordan listing portal (site defunct) |
+| Amaken (replaces defunct jordanrealestate.com.jo) | `https://www.amaken.jo/en` |
 | Akhtaboot (jobs) | `https://www.akhtaboot.com/` |
 | Bayt Jordan (jobs) | `https://www.bayt.com/en/jordan/` |
 | Jordan Hotels Association | `https://johotels.org/` |

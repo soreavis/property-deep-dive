@@ -39,7 +39,7 @@ ISO2: `mo`. Status: ✅ Fully populated (researched 2026-05).
 - **Centaline Macau / 中原(澳門)**: `https://mo.centanet.com/`
 - **Midland Macau / 美聯(澳門)**: `https://www.midland.com.mo/`
 - **Ricacorp Macau / 利嘉閣(澳門)**: `https://www.ricacorp.com.mo/`
-- **HouseMacau / 澳門房屋網**: `https://www.housemacau.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **MaliMaliHome / 澳門地產資訊網**: `https://www.malimalihome.net/` (listing portal — asking prices are agent/seller-posted; replaces HouseMacau / 澳門房屋網, whose domain housemacau.com no longer resolves, checked 2026-10-21)
 - **macauproperty.com**: `https://www.macauproperty.com/`
 - **591 Macao**: `https://macao.591.com.hk/` ❌ DEPRECATED — primary source removed; verify with 591.com.hk (commercial listings aggregator)
 
@@ -215,7 +215,7 @@ Plus a **5% surcharge applied on the calculated stamp-duty amount** (NOT 0.5% of
 ### Job platforms
 
 - **DSAL / 勞工事務局**: `https://www.dsal.gov.mo/` — labour authority + job-matching for residents
-- **MyJob.mo**: `https://www.myjob.mo/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row · **Jobsdb Macau**: `https://www.jobsdb.com/macau` (smaller than HK)
+- **hello-jobs / 哈囉好工網**: `https://www.hello-jobs.com/` (Macau job board; replaces MyJob.mo, whose domain myjob.mo no longer resolves, checked 2026-10-21) · **Jobsdb Macau**: `https://www.jobsdb.com/macau` (smaller than HK)
 - **LinkedIn Macau**: thin pool but functional for finance, gaming, integrated-resort senior
 - **Casino-concession HR portals** — direct application: Sands / Galaxy / Wynn / MGM / SJM / Melco
 - **Government jobs**: [SAFP — Serviços de Administração e Função Pública](https://www.safp.gov.mo/)
@@ -925,7 +925,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 | Centaline Macau | `https://mo.centanet.com/` |
 | Midland Macau | `https://www.midland.com.mo/` |
 | Ricacorp Macau | `https://www.ricacorp.com.mo/` |
-| HouseMacau | `https://www.housemacau.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| MaliMaliHome (replaces defunct HouseMacau) | `https://www.malimalihome.net/` |
 | macauproperty.com | `https://www.macauproperty.com/` |
 | 591 Macao | `https://macao.591.com.hk/` ❌ DEPRECATED — primary source removed; verify with 591.com.hk (commercial listings aggregator) |
 

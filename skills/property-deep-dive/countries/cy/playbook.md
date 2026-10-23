@@ -39,8 +39,8 @@ Cyprus is a **divided island**: SOUTH = Republic of Cyprus (RoC), EU+eurozone si
 |---|---|---|
 | Bazaraki | https://www.bazaraki.com/ | #1 by listing volume (cars+property+jobs) |
 | Sale.com.cy | https://www.sale.com.cy/ ❌ DEPRECATED — primary source removed; verify with Department of Lands and Surveys, Cyprus (https://portal.dls.moi.gov.cy/) | Property + cars/general |
-| Cyprus Property Pal | https://www.cypruspropertypal.com/ | Dedicated property aggregator |
-| RealEstate.com.cy | https://www.realestate.com.cy/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row | Premium-positioned |
+| home.cy | https://home.cy/ | Dedicated residential sale/rent marketplace; listings advertised by estate agents, developers and other real-estate professionals; sister sites land.cy (land) and commercial.cy (per site, 2026-10-21 — listing platform, seller-controlled). Replaces "Cyprus Property Pal" (cypruspropertypal.com), which does not resolve (DNS 2026-10-21) and has no Wayback Machine capture, so it is unconfirmed that it ever operated |
+| INDEX.cy | https://index.cy/ | Aggregator of agency + developer sale/rent listings, plus bank-auction (repossession) notices with reserve prices (per site, 2026-10-21 — listing platform, seller-controlled). Replaces RealEstate.com.cy, a parked domain since at least 2017 that no longer resolves (DNS 2026-10-21) |
 | DOM | https://dom.com.cy/ | Russian-tinge, popular with CIS buyers |
 
 **Verdict bands**:

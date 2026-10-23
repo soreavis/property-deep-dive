@@ -57,7 +57,7 @@ ISO2: `cl`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
 - **Yapo.cl** (Adevinta) — privates: `https://www.yapo.cl/`
 - **Mercado Libre Inmuebles**: `https://inmuebles.mercadolibre.cl/`
 - **Mi Buen Vecino**: `https://www.mibuenvecino.cl/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — comuna-level evaluación.
-- **Zoominmobiliario**: `https://www.zoominmobiliario.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Chilepropiedades**: `https://chilepropiedades.cl/` — venta + arriendo; owners and registered corredores publish (listing platform, seller-controlled). Replaces Zoominmobiliario (Equifax-run portal), offline by Mar 2025 — domain no longer resolves (DNS 2026-10-21)
 
 ### UF/m² benchmarks — Gran Santiago + key regions (Q1-Q2 2026 listing observation)
 

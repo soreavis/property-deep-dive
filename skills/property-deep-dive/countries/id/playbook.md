@@ -149,10 +149,10 @@ Foreigners **cannot own freehold (Hak Milik) land in Indonesia**. The Basic Agra
 - **Rumah123** (largest, English+Indonesian): `https://www.rumah123.com/`
 - **Lamudi Indonesia**: `https://www.lamudi.co.id/`
 - **OLX Indonesia (Properti)**: `https://www.olx.co.id/properti_c5158`
-- **PropertyGuru Indonesia**: `https://www.propertyguru.co.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Indonesia portal (PropertyGuru/Rumah.com ceased Dec 2023)
+- **PropertyGuru Indonesia**: no longer runs a listing portal in Indonesia — PropertyGuru Group announced on 21 Aug 2023 that its Indonesian marketplace, Rumah.com, would cease operating on 30 Nov 2023 (`https://www.propertygurugroup.com/newsroom/a-message-from-group-ceo-and-managing-director-hari-v-krishnan/`), and `https://www.rumah.com/` now shows only a closure notice (verified 2026-10-21); use the other portals in this list
 - **99.co Indonesia**: `https://www.99.co/id/`
 - **Rumah.com**: `https://www.rumah.com/`
-- **Bali-specific (foreigner-marketed)**: `https://www.balirealty.com/`, `https://www.harcourtspurba.com/`, `https://www.exoticbali.com/`, `https://www.theagency-bali.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — heavily marketed to foreign buyers; prices in USD or AUD; confirm SHMRS / Hak Pakai eligibility before relying on listing terms
+- **Bali-specific (foreigner-marketed)**: `https://www.balirealty.com/`, `https://harcourtspurbabali.com/`, `https://www.exoticbali.com/` — heavily marketed to foreign buyers; prices in USD or AUD; confirm SHMRS / Hak Pakai eligibility before relying on listing terms
 
 ### Price benchmarks (Q1 2026 reference)
 
@@ -614,10 +614,10 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 - **Rumah123** — `https://www.rumah123.com/` — largest Indonesian-language platform
 - **Lamudi Indonesia** — `https://www.lamudi.co.id/`
 - **OLX Indonesia (Properti)** — `https://www.olx.co.id/properti_c5158`
-- **PropertyGuru Indonesia** — `https://www.propertyguru.co.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Indonesia portal (PropertyGuru/Rumah.com ceased Dec 2023) — English-friendly, foreign-buyer caveat: many listings are by Indonesian agents marketing to foreigners, verify SHMRS / Hak Pakai eligibility before deposit
+- **PropertyGuru Indonesia** — no longer runs a listing portal in Indonesia: PropertyGuru Group announced on 21 Aug 2023 that its Indonesian marketplace, Rumah.com, would cease operating on 30 Nov 2023 (`https://www.propertygurugroup.com/newsroom/a-message-from-group-ceo-and-managing-director-hari-v-krishnan/`), and `https://www.rumah.com/` now shows only a closure notice (verified 2026-10-21); use the other portals in this list, and on any agent listing marketed to foreigners verify SHMRS / Hak Pakai eligibility before deposit
 - **99.co Indonesia** — `https://www.99.co/id/`
 - **Rumah.com** — `https://www.rumah.com/`
-- **Bali foreign-buyer platforms** — `https://www.balirealty.com/`, `https://www.harcourtspurba.com/`, `https://www.exoticbali.com/`, `https://www.theagency-bali.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row, `https://www.ppbali.com/` — heavily marketed to foreign buyers in USD/AUD; verify legal structure independently; many "freehold villa" listings are technically leasehold or PT-PMA-held HGB
+- **Bali foreign-buyer platforms** — `https://www.balirealty.com/`, `https://harcourtspurbabali.com/`, `https://www.exoticbali.com/`, `https://www.ppbali.com/` — heavily marketed to foreign buyers in USD/AUD; verify legal structure independently; many "freehold villa" listings are technically leasehold or PT-PMA-held HGB
 
 ---
 
@@ -736,7 +736,7 @@ Sources: BPS `https://www.bps.go.id/`, JobStreet salary survey reports, Kementer
 | Rumah123 | `https://www.rumah123.com/` |
 | Lamudi Indonesia | `https://www.lamudi.co.id/` |
 | OLX Indonesia Properti | `https://www.olx.co.id/properti_c5158` |
-| PropertyGuru Indonesia | `https://www.propertyguru.co.id/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Indonesia portal (PropertyGuru/Rumah.com ceased Dec 2023) |
+| PropertyGuru Indonesia (exited — Rumah.com ceased 30 Nov 2023) | `https://www.propertygurugroup.com/newsroom/a-message-from-group-ceo-and-managing-director-hari-v-krishnan/` |
 | 99.co Indonesia | `https://www.99.co/id/` |
 
 ---

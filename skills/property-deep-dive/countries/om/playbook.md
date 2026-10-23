@@ -110,9 +110,9 @@ Per Royal Decree 12/2006 (as amended) — verify current designated list at **MH
 
 ### Listing platforms
 
-- **Property Finder Oman** — `https://www.propertyfinder.om/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Mawa** — `https://www.mawa.om/en` (listing platform — seller-controlled; replaces Property Finder Oman — `propertyfinder.om` dead on 2026-10-21)
 - **OpenSooq Oman** — `https://om.opensooq.com/`
-- **Bayut Oman** — limited presence; Property Finder dominates.
+- **Bayut Oman** — limited presence.
 - **Ezdan Oman** + **Justproperty Oman** — secondary aggregators.
 - Developer-direct: **Al Mouj Muscat** (`https://www.almouj.com/`), **Muriya** (Hawana / Jebel Sifah), **Saraya Oman**, **Muscat Hills Resort**.
 
@@ -367,7 +367,7 @@ What residents do pay annually:
 
 | Risk | Severity (Oman-wide) | Authority |
 |---|---|---|
-| **Cyclones (Indian Ocean)** | Recurrent — Cyclone Gonu 2007 (catastrophic Muscat), Mekunu 2018 (Salalah devastating), Shaheen 2021 (Muscat catastrophic) | Oman Meteorology — Civil Aviation Authority (`https://omd.met.gov.om/`) |
+| **Cyclones (Indian Ocean)** | Recurrent — Cyclone Gonu 2007 (catastrophic Muscat), Mekunu 2018 (Salalah devastating), Shaheen 2021 (Muscat catastrophic) | Oman Meteorology — Civil Aviation Authority (`https://met.caa.gov.om/en/cyclones/`) |
 | **Flash floods (wadi systems)** | Annual occurrence in monsoon + cyclone events; coastal Muscat + Batinah documented | Oman Met + Civil Defence |
 | **Extreme heat (TX > 45°C)** | Annual occurrence May–Sep; intensifying | Oman Met |
 | **Sandstorms (shamal winds)** | Recurrent Mar–Aug, less severe than UAE/KSA | Oman Met |
@@ -376,7 +376,7 @@ What residents do pay annually:
 | **Tsunami** | Background risk from Makran Subduction Zone — National Tsunami Warning Centre operational since 2008 | Oman Met + UNESCO Tsunami programme |
 | **Coastal SLR exposure** | Long-term decadal — Muscat Corniche, Al Mouj reclaimed land, Hawana Salalah coastal exposure | Ministry of Environment and Climate Affairs + IPCC AR6 |
 
-(Source: Oman Meteorology `https://omd.met.gov.om/`; Sultan Qaboos University Earthquake Monitoring Centre; Ministry of Environment and Climate Affairs.)
+(Source: Oman Meteorology `https://met.caa.gov.om/en/home/`; Sultan Qaboos University Earthquake Monitoring Centre; Ministry of Environment and Climate Affairs.)
 
 ### Recent cyclone / flood events
 
@@ -543,7 +543,7 @@ Universal logic per `shared/climate-projections.md`. Oman-specific overrides:
 
 - **Köppen-Geiger**: BWh (hot desert) — most of country; **Cwa-influenced** (subtropical) Salalah/Dhofar coast under khareef monsoon; BSh (semi-arid) Hajar mountain zones.
 - **Coastal exposure**: Sea of Oman / Gulf of Oman (north) + Arabian Sea (south); Muscat, Sohar, Sur, Salalah all <5 km from coast.
-- **Reference baseline**: Oman Meteorology (omd.met.gov.om) 1991–2020 normal series.
+- **Reference baseline**: Oman Meteorology (met.caa.gov.om) 1991–2020 normal series — WMO 1991–2020 Climate Normals, 11 Omani stations incl. Muscat International 41256 (NOAA NCEI archive `https://www.ncei.noaa.gov/data/oceans/archive/arc0216/0253808/6.6/data/0-data/Region-2-WMO-Normals-9120/Oman/CSV/`).
 - **Key projections** (IPCC AR6 + regional models, SSP2-4.5 / SSP5-8.5):
   - Annual mean temperature **+1.5 → +3.0 °C** by 2100 (Arabian Peninsula warming faster than global).
   - Hot days (Tmax ≥ 45 °C): currently ~30–60/yr in interior → 80–110/yr by 2100 SSP5-8.5.
@@ -1028,7 +1028,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 ## Common listing platforms
 
-- **Property Finder Oman** — `https://www.propertyfinder.om/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Mawa** — `https://www.mawa.om/en` (listing platform — seller-controlled; replaces Property Finder Oman — `propertyfinder.om` dead on 2026-10-21)
 - **OpenSooq Oman** — `https://om.opensooq.com/`
 - **Bayut Oman** (limited) — `https://www.bayut.om/`
 - Developer-direct: **Al Mouj Muscat** (`https://www.almouj.com/`), **Muriya** (Hawana / Jebel Sifah), **Saraya Oman**, **Muscat Hills Resort**, **Omran Group** (state developer).
@@ -1059,7 +1059,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **r/Muscat**
 - **InterNations Muscat** community — practical expat property + service-charge discussions
 - **ExpatWoman Oman** — `https://www.expatwoman.com/oman/`
-- **Property Finder Oman blog** — `https://www.propertyfinder.om/ ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this rowblog/`
+- **Bayut Oman blog** — `https://www.bayut.om/mybayut/en/` (listing-platform blog — seller-controlled; replaces Property Finder Oman blog — `propertyfinder.om` dead on 2026-10-21)
 
 ## Verification authorities
 
@@ -1116,7 +1116,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Financial Services Authority (FSA), Oman | `https://fsa.gov.om/` |
 | Dhamani (mandatory health insurance) | `https://fsa.gov.om/Dhamani/About` |
 | Authority for Public Services Regulation (APSR) | `https://www.apsr.om/` |
-| Oman Meteorology | `https://omd.met.gov.om/` |
+| Oman Meteorology | `https://met.caa.gov.om/en/home/` |
 | Muscat Municipality | `https://www.mm.gov.om/` |
 | Mwasalat (public bus) | `https://www.mwasalat.om/` |
 | Nama Group (electricity + water) | `https://www.nama.om/` |
@@ -1124,7 +1124,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Ooredoo Oman | `https://www.ooredoo.om/` |
 | Oman Post (postal codes) | `https://www.omanpost.om/` |
 | Vision 2040 | `https://gov.om/en/oman-vision-2040-implementation-support-unit` |
-| Property Finder Oman | `https://www.propertyfinder.om/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Mawa (listing platform — seller-controlled; replaces Property Finder Oman — `propertyfinder.om` dead on 2026-10-21) | `https://www.mawa.om/en` |
 | OpenSooq Oman | `https://om.opensooq.com/` |
 | Al Mouj Muscat | `https://www.almouj.com/` |
 | Muriya (Hawana / Jebel Sifah) | `https://www.muriya.om/` |

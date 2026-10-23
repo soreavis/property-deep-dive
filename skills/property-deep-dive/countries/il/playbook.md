@@ -383,7 +383,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Drushim (דרושים)**: `https://www.drushim.co.il/`
 - **JobMaster**: `https://www.jobmaster.co.il/`
 - **LinkedIn IL** — extremely active in tech, finance, Anglo-Olim networks
-- **Israemploy** — `https://www.israemploy.net/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with a current Israel job board (Israemploy ceased 2021) (Anglo-Olim focused, English)
+- **Janglo Jobs** — `https://www.janglo.net/jobs` (English-language jobs board for the Anglo community; employer-posted listings, dated postings seen 2026-10-21). Replaces Israemploy (Anglo-Olim focused, English), which posted a closure notice by Dec 2021 after 18+ years; its domain no longer resolves (DNS 2026-10-21)
 - **Nefesh B'Nefesh** — `https://www.nbn.org.il/` (Aliyah + employment for Anglo Olim)
 - **Government job portal** — `https://www.gov.il/he/departments/dynamiccollectors/jobs_for_civil_service_employees` (state employment)
 

@@ -94,7 +94,7 @@ Listings in Sint Maarten are typically quoted in **USD** (the de-facto property-
 - 🟠 8,000–20,000 v/d (Welfare Road / A.J.C. Brouwers / Bush Road — Philipsburg–Simpson Bay axis)
 - 🔴 > 20,000 v/d (Welfare Road peak hours; airport-corridor cruise-day surge — Simpson Bay drawbridge bottleneck)
 
-> ⚠️ **The Simpson Bay drawbridge is a single critical bottleneck** connecting the airport / Maho / Cupecoy / Mullet Bay west to Philipsburg + east half of island. Bridge openings (scheduled for yacht access; published at `https://www.simpsonbaysxm.com/`) generate predictable peak congestion; this is the single biggest commute-time variable for west-half residents. **No rail; no metro; bus + taxi dominant** for those without private vehicle.
+> ⚠️ **The Simpson Bay drawbridge is a single critical bottleneck** connecting the airport / Maho / Cupecoy / Mullet Bay west to Philipsburg + east half of island. Bridge openings (scheduled for yacht access; published by the bridge operator SLAC, the Simpson Bay Lagoon Authority Corporation, at `https://portstmaarten.com/slac`) generate predictable peak congestion; this is the single biggest commute-time variable for west-half residents. **No rail; no metro; bus + taxi dominant** for those without private vehicle.
 
 ---
 

@@ -8,7 +8,7 @@ ISO2: `eg`. Status: PARTIALLY RESTRICTED for foreign buyers + currency-volatile 
 - **Currency**: EGP (Egyptian Pound) — **managed float** since 6 March 2024 (IMF EFF approval USD 8 bn). Trajectory: EGP ~15.7/USD (2021) → EGP ~30/USD (early Mar 2024) → EGP ~50/USD (post-float Mar 2024) → EGP ~50–51/USD (2026-05-01) → all-time low ~54.9/USD (Mar 2026, Trading Economics intraday) → EGP ~49/USD (2026-07-02, CBE official 49.08 buy / 49.18 sell) → EGP ~51.4/USD (2026-09-23, CBE average market rate 51.3749 buy / 51.4749 sell) (CBE rates, source `https://www.cbe.org.eg/en/economic-research/statistics/exchange-rates`)
 - **Languages**: Arabic (official, MSA + Egyptian colloquial); English widely used in business, tourism, and gated-community sales offices; French in older elite circles
 - **Legal system**: Hybrid — civil law (Napoleonic-influenced via 1949 Civil Code) + Sharia for personal status (family, inheritance). Property/contract law is civil-code; **inheritance for Muslims is mandatory Sharia shares** (foreigners may opt for home-country law via prior declaration but Sharia applies by default to any Egyptian-titled real estate of a Muslim decedent)
-- **Cadastre / registry**: **Real Estate Publicity Authority (REPA — مصلحة الشهر العقاري والتوثيق)** under Ministry of Justice — `https://sherpa.gov.eg/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with moj.gov.eg (REPA under the Ministry of Justice — co-cited) and `https://moj.gov.eg/`. Two parallel registration systems still in transition:
+- **Cadastre / registry**: **Real Estate Publicity Authority (REPA — مصلحة الشهر العقاري والتوثيق)** under Ministry of Justice — `https://moj.gov.eg/` (the MoJ portal lists REPA's own site as rern.gov.eg, which was unreachable on 2026-10-21 and has no archived capture after 2022-08; the sherpa.gov.eg address cited earlier has no DNS record and no archived capture). Two parallel registration systems still in transition:
   - **Sijil al-shakhsi** (personal/deed-recording, السجل الشخصي) — older, name-based, ~95%+ of Egyptian properties historically
   - **Sijil al-‘ayni** (real/property-based, السجل العيني, "Torrens-like" parcel-based) — modernization since 1964, very low coverage (~5–10% nationally; mostly New Cairo, NAC, North Coast new developments)
   - **Practical implication**: most older properties have only a notarized contract chain (`عقد ابتدائي + عقد نهائي`) NOT a state-guaranteed title. Title insurance and chain-of-deed verification are critical
@@ -89,7 +89,7 @@ Even when a foreign buyer is fully within Law 230/1996 quotas + outside forbidde
 
 - **CAPMAS housing & construction statistics** (`https://www.capmas.gov.eg/`) — population, housing stock by governorate, urban vs rural; building permits issued (annual). NOT transaction-price-level.
 - **Central Bank of Egypt (CBE) Real Estate Indicators** — `https://www.cbe.org.eg/en/economic-research/statistics` — aggregate mortgage origination + indicative residential trends
-- **REPA / Sherpa (real-estate publicity)** — `https://sherpa.gov.eg/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with moj.gov.eg (REPA under the Ministry of Justice — co-cited) — the registered transaction price is what the buyer + seller declared for tax purposes. **Egypt does NOT publish a public transaction-price database** comparable to UK Land Registry or FR DVF. Declared prices are also widely understood to be **understated** (to reduce stamp duty + CGT) — sometimes by 30–50% vs actual cash price (mainly an Egyptian-domestic dynamic; foreign-buyer USD-cash deals are often more transparent because Form 4 forces declaration of inflow)
+- **REPA (real-estate publicity)** — `https://moj.gov.eg/` (REPA's parent ministry; REPA's own site rern.gov.eg was unreachable on 2026-10-21; the price facts in this bullet were not confirmed against a primary source — verify with an Egyptian property lawyer) — the registered transaction price is what the buyer + seller declared for tax purposes. **Egypt does NOT publish a public transaction-price database** comparable to UK Land Registry or FR DVF. Declared prices are also widely understood to be **understated** (to reduce stamp duty + CGT) — sometimes by 30–50% vs actual cash price (mainly an Egyptian-domestic dynamic; foreign-buyer USD-cash deals are often more transparent because Form 4 forces declaration of inflow)
 - **Egyptian Federation for Construction & Building Contractors (EFCBC)** + **Egyptian Builders Association** — supply-side cost data, occasional asking-price surveys
 
 ### Listing platforms (asking prices, not transaction)
@@ -141,7 +141,7 @@ MEDIUM — asking-price listings are abundant, but **transaction-verified price 
 
 ### Primary sources
 
-- **General Authority for Roads, Bridges and Land Transport (GARBLT)** — `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — national highway network operator; publishes annual traffic flow summaries for tolled highways (Cairo–Alexandria Desert Road, Cairo–Suez, Cairo–Sokhna, regional ring roads)
+- **General Authority for Roads, Bridges and Land Transport (GARBLT)** — `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18 (SERVFAIL, re-checked 2026-10-21); the newer domain garb.gov.eg was defaced on 2026-02-25 and has returned HTTP 525 since 2026-04-29 (last clean capture `https://web.archive.org/web/20260201040108/https://garb.gov.eg/`) — verify with the Ministry of Transport `https://mot.gov.eg/` — national roads and bridges authority under the Ministry of Transport; runs the expressway toll stations (11 nationally, per that Feb 2026 capture). Annual traffic-flow summaries for tolled highways (Cairo–Alexandria Desert Road, Cairo–Suez, Cairo–Sokhna, regional ring roads): no such publication found on garb.gov.eg — verify with GARBLT before citing
 - **Ministry of Transport** — `https://mot.gov.eg/` — sectoral statistics
 - **CAPMAS Transport & Communications Yearbook** — `https://www.capmas.gov.eg/` — annual: vehicle registrations by governorate, road km by class, accident statistics
 - **Cairo Traffic Control Center / Cairo Governorate** — operational, NOT public-data
@@ -568,7 +568,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 
 | Source | URL pattern |
 |---|---|
-| REPA / Sherpa (Real Estate Publicity Authority) | `https://sherpa.gov.eg/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with moj.gov.eg (REPA under the Ministry of Justice — co-cited) |
+| REPA (Real Estate Publicity Authority) | `https://moj.gov.eg/` (parent ministry; MoJ lists REPA's own site as rern.gov.eg, unreachable on 2026-10-21) |
 | Ministry of Justice (Law 230/1996 admin) | `https://moj.gov.eg/` |
 | Egyptian Tax Authority (real estate tax, CGT, stamp duty) | `https://eta.gov.eg/` |
 | Central Bank of Egypt (FX, mortgages, Form 4) | `https://www.cbe.org.eg/` |
@@ -581,7 +581,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 | Suez Canal Economic Zone | `https://sczone.eg/` |
 | Tourism Development Authority (TDA) | `https://www.tda.gov.eg/` |
 | HCWW (water + wastewater holding) | `https://www.hcww.com.eg/` |
-| GARBLT (roads + land transport) | `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| GARBLT (roads + land transport) | `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18 (SERVFAIL, re-checked 2026-10-21); newer domain garb.gov.eg was defaced on 2026-02-25 and has returned HTTP 525 since 2026-04-29 — verify with the Ministry of Transport `https://mot.gov.eg/` |
 | Ministry of Transport | `https://mot.gov.eg/` |
 | Ministry of Manpower (work permits) | `https://www.manpower.gov.eg/` |
 | NARSS (remote sensing, hazard mapping) | `https://www.narss.sci.eg/` |

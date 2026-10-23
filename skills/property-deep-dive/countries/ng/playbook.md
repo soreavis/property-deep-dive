@@ -253,7 +253,7 @@ Tax Reform Bills 2024-25 pending; state revenue intensification post-devaluation
 
 **Status**: undergoverned federally; growing Lagos Lekki/Ikoyi/VI + Abuja Maitama.
 
-- **Lagos State Tourism Promotion Authority** — STR licensing framework (rare formal compliance) — `https://lstpa.lagosstate.gov.ng/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Lagos State Ministry of Tourism, Arts and Culture** — hospitality licensing and registration scheme; the Hotel Registration Platform announced 2 Jun 2025 names hotels, nightclubs, bars, lounges and beach resorts, not short-lets (the platform domain named in that release no longer resolves) — confirm STR coverage with the ministry in writing (rare formal compliance) — `https://lagosstate.gov.ng/news/all/view/683f49165e4c9d6ceca78358` (2026-10-21 verified). The **Lagos State Tourism Promotion Agency** Law 2019 has not been operationalised (The Guardian Nigeria, 28 May 2026) and `lstpa.lagosstate.gov.ng` no longer resolves
 - **Estate / HOA covenants**: most gated estates (Banana Island, Lekki Phase 1, Ikoyi) **prohibit STR** via covenants — read estate by-laws BEFORE buying for STR
 - **VAT**: 7.5% applies if operator VAT-registered
 
@@ -1037,7 +1037,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 | CBN | `https://www.cbn.gov.ng/` |
 | Lagos State Lands Bureau | `https://landsbureau.lagosstate.gov.ng/` |
 | LIRS / Lagos LUC | `https://lirs.gov.ng/` + `https://luc.lagosstate.gov.ng/` |
-| LASRRA / LASPPPA | `https://registration.lagosresidents.gov.ng/` + `https://lasppa.lagosstate.gov.ng/` |
+| LASRRA / LASPPPA | `https://registration.lagosresidents.gov.ng/` + `https://lagosstate.gov.ng/government/mdas/all` (Lagos State MDA directory — LASPPPA's own `laspppa.lagosstate.gov.ng` returned HTTP 522 on 2026-10-21) |
 | AGIS Abuja / FCDA | `https://agis.fcta.gov.ng/` + `https://fcda.gov.ng/` |
 | FMHUD (Federal Ministry of Housing and Urban Development) / FMBN (NHF) | `https://fmhud.gov.ng/` + `https://fmbn.gov.ng/` |
 | NIS / Federal Ministry of Interior | `https://immigration.gov.ng/` + `https://www.interior.gov.ng/` |
@@ -1047,7 +1047,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 | NEMA / NIMET / NIHSA | `https://nema.gov.ng/` + `https://nimet.gov.ng/` + `https://nihsa.gov.ng/` |
 | Federal Ministry of Environment | `https://environment.gov.ng/` |
 | NERC / NCC / NAICOM | `https://nerc.gov.ng/` + `https://www.ncc.gov.ng/` + `https://naicom.gov.ng/` |
-| LAMATA / Lagos Tourism (LSTPA) | `https://lamata.ng/` + `https://lstpa.lagosstate.gov.ng/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| LAMATA / Lagos Ministry of Tourism, Arts and Culture | `https://lamata.ng/` + `https://lagosstate.gov.ng/services/tourism_culture` |
 | NIDCOM (Diaspora) | `https://nidcom.gov.ng/` |
 | PropertyPro.ng / Nigeria Property Centre | `https://www.propertypro.ng/` + `https://nigeriapropertycentre.com/` |
 | Eko Atlantic | `https://www.ekoatlantic.com/` |

@@ -339,7 +339,7 @@ Foreigners **cannot own land in Cambodia in their own name** under any direct st
 
 - **CamHR** (largest English-language): `https://www.camhr.com/` — Cambodian + foreign jobs
 - **BongThom.com**: `https://www.bongthom.com/` — long-running Cambodian classifieds (jobs, real estate)
-- **CamboJobs**: `https://www.cambojobs.com/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **National Employment Agency (NEA) job portal**: `https://www.nea.gov.kh/` — government vacancy search, job fairs and provincial job centres (NEA: Special Operating Agency under the MLVT-chaired National Training Board, Sub-Decree 67 RNK.BK of 27 Apr 2009). CamboJobs, previously listed here, is offline (`cambojobs.com` does not resolve, 2026-10-21)
 - **Pelprek**: `https://www.pelprek.com/`
 - **LinkedIn Cambodia**: active in NGO, finance, MNC, telecoms sectors
 - **CCC HR network** (NGOs): `https://www.ccc-cambodia.org/`
@@ -571,7 +571,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 - **Knight Frank Cambodia** — `https://www.knightfrank.com.kh/` — quarterly market reports + agency
 - **CBRE Cambodia** — `https://www.cbre.com.kh/` — quarterly market reports + agency
 - **Century 21 Cambodia** — agency network
-- **Bonna Realty** — `https://www.bonna.com.kh/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row
+- **Bonna Realty Group** — agency profile on Realestate.com.kh: `https://www.realestate.com.kh/offices/bonna-realty-group-co-ltd-1722/` *(listing platform — seller-controlled; on 2026-10-21 the profile showed one agent with no active listings, so whether the agency still trades is unconfirmed — verify before relying on it. No working company website: former domain `bonnarealty.com.kh` no longer resolves, and `bonnarealty.com` was a parked page by Dec 2024 and now refuses connections)*
 - **VTrust Appraisal** — `https://www.vtrustappraisal.com/`
 - **BongThom.com** — long-running classifieds (jobs + real estate)
 
@@ -690,7 +690,7 @@ Sources: NIS `https://www.nis.gov.kh/`, MLVT `https://www.mlvt.gov.kh/`, CamHR s
 | IPS Cambodia | `https://www.ips-cambodia.com/` |
 | Knight Frank Cambodia | `https://www.knightfrank.com.kh/` |
 | CBRE Cambodia | `https://www.cbre.com.kh/` |
-| Bonna Realty | `https://www.bonna.com.kh/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
+| Bonna Realty Group (agency profile on Realestate.com.kh) | `https://www.realestate.com.kh/offices/bonna-realty-group-co-ltd-1722/` |
 | BongThom.com | `https://www.bongthom.com/` |
 | PPWSA (Phnom Penh water) | `https://www.ppwsa.com.kh/` |
 
