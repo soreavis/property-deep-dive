@@ -464,7 +464,7 @@ This repo uses **CalVer** (`YYYY.0M.MICRO`), not SemVer. Each tag encodes the re
 **Why CalVer instead of SemVer**: this is a content repo, not an API. The "version" tracks how recently the _content_ was reviewed against primary sources, not API stability. Monthly grain aligns with how regulations actually drop — Finance Acts at fiscal year, ECJ rulings, EU Official Journal monthly L-series. The 30-day Tier-1 revisit cadence in `skills/property-deep-dive/shared/regulatory-watch.md` matches the same cadence.
 
 **Tag triggers**:
-- `YYYY.0M.0` (monthly) — automated; tags the end of each month if any change landed on `main` since the previous tag
+- `YYYY.0M.0` (monthly) — tagged at the end of each month by `auto-tag.yml` if any change landed on `main` since the previous tag, once a release-cut PR has bumped the manifests to that month
 - `YYYY.0M.1`, `.2`, … — manual; for material factual corrections / URL fixes / regulatory-watch entries that land mid-month
 - **Not tagged**: typo fixes, formatting, internal refactors, README polish without skill content change
 

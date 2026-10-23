@@ -16,7 +16,7 @@ Examples: `2026.04.0`, `2026.04.1`, `2026.05.0`, `2027.01.0`.
 
 ### What triggers a new tag
 
-- **`.0` (monthly cycle)** — at end-of-month, an automated workflow tags `YYYY.0M.0` if any change landed on `main` since the previous tag. No-ops silently when nothing changed.
+- **`.0` (monthly cycle)** — at end-of-month, `auto-tag.yml` tags `YYYY.0M.0` if any change landed on `main` since the previous tag, once a release-cut PR has bumped the manifests to that month (its guard refuses to tag otherwise). No-ops silently when nothing changed.
 - **`.1`, `.2`, …** — manual, on factual corrections / URL replacement batches / regulatory-watch entries that supersede a Tier-1 ENDED programme.
 - **What does NOT trigger a tag** — typo fixes, formatting, internal refactors, README polish without skill content change.
 
@@ -31,9 +31,6 @@ This file follows [Keep a Changelog](https://keepachangelog.com/) adapted for Ca
 - ...
 
 ### Changed
-
-- **Link labels that still named hosts the September URL wave had already re-pointed.** Twenty-one link labels across 28 spots now name the live host, so a reader copying the label lands where the link goes: eight `*.uz` vanity domains → `gov.uz` paths, `uzbekistonmet.uz`, `seismos.uz`, `toshkent.uzsuv.uz` and `e-visa.gov.uz`; `bit.sikkou.go.jp` → `bit.courts.go.jp`; `aomp.judicial.gov.tw` → `aomp109`; `api-adresse.data.gouv.fr` → `data.geopf.fr`; `cvtelecom.cv` → `alou.cv`; `unitel.cv` → `uniteltmais.cv`; `rtarmenia.am` → `ovio.am`; plus the stale IndiceVille, Clearstream, KPMG, MICEN, DCE Monaco, Kominfo and Service-Public.ma labels.
-- **41 regulatory-watch entries added across 29 countries, nine under new country headers (AD, AW, IN, KR, LC, MO, NG, OM, QA).** Tier-1 rows cover the Irish STLR Bill, the Moroccan CFC ramp, NIIRA 2025, the Nigeria Tax Act 2025, the Telangana Bhu Bharati Act, the Saudi White Land and Vacant Property Fees regime and the Korean flood-control reattribution; the rest are agency renames, platform migrations and outage notices carrying their own revisit dates.
 - ...
 
 ### Fixed
@@ -54,6 +51,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 ---
 
 ## [Unreleased]
+
+## [2026.10.0] - 2026-10-23
 
 ### Added
 
@@ -106,6 +105,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(deps): bump the actions-minor-patch group across 1 directory with 6 updates ([#448](https://github.com/soreavis/property-deep-dive/pull/448)) — by @dependabot[bot]
 
+- docs(install): point pin + verify snippets at 2026.09.1 ([#414](https://github.com/soreavis/property-deep-dive/pull/414)) — by @soreavis
+
 ### Security
 
 - **CI Python lock bumped, clearing 25 advisories: pypdf `6.16.2` → `6.21.2` (8 high, 7 medium, 1 low), aiohttp `3.14.3` → `3.14.4` (3 high, 3 medium, 2 low), multidict `6.7.1` → `6.9.1` (1 medium).** yarl moves to `1.25.1` because aiohttp 3.14.4 requires it; no package is added or dropped. `requirements.in` floors now sit at the patched pypdf and aiohttp. Supersedes Dependabot #421, #438, #439 and #441, whose regeneration dropped `typing-extensions` (needed on Python 3.12) and failed the lock gate.
@@ -146,6 +147,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 - **Antigua's two registry-portal liveness notes were inverted.** Re-checked 2026-09-18: `legalaffairs.gov.ag` serves HTTP 200 with a valid certificate (the 2026-05-28 TLS error has cleared) while `lands.gov.ag` Landfolio times out and the apex host no longer resolves — the playbook asserted the stale TLS error in two places and the inverted portal claim in one. Title registration is now cited to the Title by Registration Act CAP. 429 text published at laws.gov.ag.
 
 ### Changed
+
+- **Link labels that still named hosts the September URL wave had already re-pointed.** Twenty-one link labels across 28 spots now name the live host, so a reader copying the label lands where the link goes: eight `*.uz` vanity domains → `gov.uz` paths, `uzbekistonmet.uz`, `seismos.uz`, `toshkent.uzsuv.uz` and `e-visa.gov.uz`; `bit.sikkou.go.jp` → `bit.courts.go.jp`; `aomp.judicial.gov.tw` → `aomp109`; `api-adresse.data.gouv.fr` → `data.geopf.fr`; `cvtelecom.cv` → `alou.cv`; `unitel.cv` → `uniteltmais.cv`; `rtarmenia.am` → `ovio.am`; plus the stale IndiceVille, Clearstream, KPMG, MICEN, DCE Monaco, Kominfo and Service-Public.ma labels.
+
+- **41 regulatory-watch entries added across 29 countries, nine under new country headers (AD, AW, IN, KR, LC, MO, NG, OM, QA).** Tier-1 rows cover the Irish STLR Bill, the Moroccan CFC ramp, NIIRA 2025, the Nigeria Tax Act 2025, the Telangana Bhu Bharati Act, the Saudi White Land and Vacant Property Fees regime and the Korean flood-control reattribution; the rest are agency renames, platform migrations and outage notices carrying their own revisit dates.
 
 - **162 geofenced or bot-walled hosts added to the liveness exclusion list.** Indian, Saudi, Qatari, Kuwaiti, Moroccan, Thai and Taiwanese government estates, plus Cloudflare, Imperva, Akamai and F5 fronts, refuse the GitHub runner's egress while serving current content through other routes; counting them as dead after a three-week streak was the main source of the score drift. Each entry carries the reason and a re-check note.
 
