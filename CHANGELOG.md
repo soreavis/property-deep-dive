@@ -66,6 +66,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(corpus): carry the audit corrections into 84 sibling statements that still had the old claims ([#459](https://github.com/soreavis/property-deep-dive/pull/459)) — by @soreavis
 
+- feat(ci): relock Dependabot pip PRs so they pass the required lock gate ([#450](https://github.com/soreavis/property-deep-dive/pull/450)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
