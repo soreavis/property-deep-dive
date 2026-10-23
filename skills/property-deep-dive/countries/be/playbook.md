@@ -77,14 +77,14 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Sources
 
-- **SPW Mobilité** (Wallonie): `https://mobilite.wallonie.be/`
-- **MOW (Mobiliteit en Openbare Werken Vlaanderen)**: `https://mobiliteit.vlaanderen.be/`
-  - **Verkeerstellingen op Vlaamse gewestwegen**: open data
-- **Bruxelles Mobilité**: `https://mobilite-mobiliteit.brussels/`
+- **SPW Mobilité et Infrastructures** (Wallonie): `https://mobilite.wallonie.be/`
+- **Departement MOW (Mobiliteit en Openbare Werken Vlaanderen)**: `https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken` (the old `mobiliteit.vlaanderen.be` now redirects to `mobielvlaanderen.be`; updated 2026-10-23)
+  - **Vlaams Dataportaal Verkeersgegevens** (Vlaams Verkeerscentrum / AWV): `https://www.verkeerscentrum.be/data` — counts for snelwegen, gewestwegen, lokale wegen and fietspaden; free, login with a digital key such as itsme; AWV's fixed counting loops on gewestwegen were taken out of service end 2016 (sources: verkeerscentrum.be/data, wegenenverkeer.be/betrouwbaarheid/verkeerstellingen)
+- **Bruxelles Mobilité**: `https://mobilite-mobiliteit.brussels/` now redirects to `https://be.brussels/fr/transport-mobilite` (updated 2026-10-23); traffic-counter open data (counting loops + cameras, CC0 licence) at `https://data.mobility.brussels/` (source: data.mobility.brussels)
 
 ### Key term
 
-- **PJM (Pays Jour Moyen)** / **GMD (Gemiddelde Daagse Verkeersintensiteit)** = AADT-equivalent
+- **TJM (trafic journalier moyen)**, annual 0h–24h average = AADT-equivalent — term used in SPW mobility guidance (source: mobilite.wallonie.be Cémathèque n°23); Flemish count data are published as verkeersintensiteiten per kwartier / uur / dag per wegsegment (source: verkeerscentrum.be/data)
 
 ### Verdict bands
 
@@ -261,27 +261,28 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 | **Geopunt Vlaanderen** | `https://www.geopunt.be/` | Vlaanderen geo-data, hazard layers |
 | **WalOnMap** | `https://geoportail.wallonie.be/` | Wallonie geoportal |
 | **BruGIS** | `https://gis.urban.brussels/brugis` | Bruxelles geoportal |
-| **CIRGT Wallonie** | `https://environnement.wallonie.be/` | Risk maps Wallonie |
-| **OVAM** (Vlaanderen bodempolluties) | `https://www.ovam.be/` | Soil pollution Vlaanderen |
+| **SPW ARNE — carte de l'aléa d'inondation** | `https://environnement.wallonie.be/home/gestion-environnementale/risques-climatiques/inondations/urbanisme/cartes-inondations/carte-alea-inondation.html` | Wallonie reference flood-hazard map (river overflow + runoff axes); approved by the Gouvernement wallon 4 Mar 2021, rolling revision decided 17 Apr 2025; high-hazard zones = insurance 'zones à risques' (source: environnement.wallonie.be) |
+| **OVAM** (Vlaanderen bodempolluties) | `https://ovam.vlaanderen.be/` (updated 2026-10-23; `ovam.be` redirects) | Soil pollution, bodemattest, asbestattest Vlaanderen |
 | **Bruxelles Environnement** | `https://environnement.brussels/` | Bruxelles env data |
 | **IRM (Institut Royal Météorologique)** | `https://www.meteo.be/` | Climate, weather |
 | **AwAC** Wallonie air quality | `https://www.awac.be/` | Wallonie air |
-| **VMM** Vlaamse Milieumaatschappij | `https://www.vmm.be/` | Vlaanderen environment |
+| **VMM** Vlaamse Milieumaatschappij | `https://vmm.vlaanderen.be/` (updated 2026-10-23; `vmm.be` redirects) | Vlaanderen environment, sewer and treatment indicators |
 | **CELINE** | `https://www.irceline.be/` | National air quality |
+| **Waterinfo — informatieplicht** | `https://www.waterinfo.be/informatieplicht` | Vlaanderen flood report per parcel: P-score (perceel) + G-score (gebouw) (source: integraalwaterbeleid.be) |
 
 ### Specific risks
 
 - **Inondation / overstroming (flooding)** — major risk:
-  - July 2021 catastrophic floods (Wallonie): ~40 dead, ~€2B damage; Liège, Verviers, Pepinster, Theux
+  - July 2021 catastrophic floods (Wallonie): 39 dead (per police), 209 of 262 Walloon communes hit, nearly 48,000 buildings (of which 45,000 dwellings) affected, cost to the Région wallonne €2.8bn at that stage (2022 data, source Gouvernement wallon communiqué 4 Jul 2022 — rates/figures may have changed since); insured damage est. €2.4bn at 31 Dec 2022 (2022 data, source Assuralia, insurers' federation — industry source — rates/figures may have changed since); Liège, Verviers, Pepinster, Theux
   - Vesdre, Meuse, Ourthe basins
-  - **Plan PARGI / Bekkenbeheerplan** for adaptation
+  - Flood-risk plans: Wallonie **PGRI 2022-2027** (Plans de Gestion des Risques d'Inondation, approved by the Gouvernement wallon 19 Jan 2023; source environnement.wallonie.be); Vlaanderen overstromingsrisicobeheerplannen are integrated in the **stroomgebiedbeheerplannen 2022-2027** (adopted by the Vlaamse Regering 1 Jul 2022; source publicaties.vlaanderen.be)
 - **Bodemverontreiniging / pollution du sol**: extensive industrial legacy in Wallonie + Antwerpen + Charleroi
-- **Aardbeving / séisme**: low-moderate (Roer Valley fault); 1992 Roermond M 5.4 (felt in BE)
-- **Mijnverzakkingen** (mining subsidence): Limburg (coal), Wallonie (Borinage); historic
-- **Asbestos**: pre-1998 buildings extensively contaminated
-- **Loodleidingen** (lead pipes) — pre-1960 buildings
+- **Aardbeving / séisme**: low-moderate (Roer Valley Graben); 13 Apr 1992 Roermond (NL) ML 5.8, intensity VII, and 8 Nov 1983 Liège ML 5.0, intensity VII (source: Observatoire royal de Belgique instrumental catalogue, seismology.be)
+- **Mijnverzakkingen** (mining subsidence): Limburg (coal), Wallonie (Borinage); historic — in Wallonie the DRIGM subsoil information sheet covers mine shafts, karst, landslides and underground quarries per parcel (see Mandatory at sale)
+- **Asbestos**: broad Belgian ban 1998, complete ban by arrêté royal 23 Oct 2001 in force 1 Jan 2002 (source: SPF Emploi, emploi.belgique.be); buildings built before 2001 are the risk construction years for the Flemish asbestattest (source: OVAM)
+- **Loodleidingen** (lead pipes) — homes built before 1970 may still have lead plumbing; drinking-water limit 10 µg lead per litre since end 2013 (source: De Watergroep, dewatergroep.be); in Bruxelles no distribution main is lead but a small share of old lead service connections remains (source: vivaqua.be)
 - **Pollution de Charleroi-Mons-Liège axe**: heavy metal soil contamination
-- **Klimaatverandering**: +2.0–4.0 °C by 2100; precipitation +20% winter
+- **Klimaatverandering**: +0.7 to +5 °C by end of century vs 1961-1990, depending on scenario (source: IRM/KMI meteo.be, CORDEX.be ALARO model); markedly wetter winters (climat.be: up to +22% by 2100); for summer the IRM model gives on average no or only a slight decrease (RCP8.5), while climat.be cites down to −25% by 2100 — the two federal sources differ, both shown (sources: meteo.be; climat.be, SPF Santé — Changements climatiques); see Climate change projections
 
 ### Build-era hazards
 
@@ -289,29 +290,30 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|
 | **Pre-1900** | No DPC, lead, damp, asbestos cement starts |
 | **1900–1945** | Asbestos common, lead, weak insulation |
-| **1945–1990** | Asbestos very common (banned 1998); cuves à mazout (oil tanks) |
+| **1945–1990** | Asbestos very common (broad ban 1998, complete ban 1 Jan 2002 — source SPF Emploi); cuves à mazout (oil tanks) |
 | **1990s+** | Improved insulation; PEB phasing in |
-| **2014+** | PEB strict; Q-ZEN / BEN energy standards |
+| **2021+** | Near-zero-energy new builds by permit-application year: BEN (max E30) in Vlaanderen, Q-ZEN in Wallonie (sources: publicaties.vlaanderen.be EPB-eisen 2026 brochure; energie.wallonie.be Q-ZEN guide 2026) |
 
 ### Mandatory at sale
 
 | Document | Region | Required because | Validity |
 |---|---|---|---|
-| **PEB** (FR) / **EPC** (NL) | All | Energy cert | 10 years |
-| **Bodemattest** | Vlaanderen | Soil report | At sale (sale BLOCKED without it) |
-| **Asbestattest** | Vlaanderen | Mandatory since **23 Nov 2022** for sales | 10 years |
-| **Attestation du sol / bodemcertificaat** | Bruxelles | Mandatory | At sale |
-| **Pollution du sol** | Wallonie | Banque de Données de l'État des Sols | At sale |
-| **Contrôle électrique** | All | If wiring >25 yrs | 25 years |
+| **PEB** (FR) / **EPC** (NL) | All | Energy cert (Bruxelles: required before marketing any dwelling >18 m²; source environnement.brussels) | 10 years (Vlaanderen: since 2022 only EPCs drawn up after 2019 usable at sale; source vlaanderen.be) |
+| **Bodemattest** | Vlaanderen | OVAM soil certificate, required before the compromis for every land transfer; a risicogrond also needs an oriënterend bodemonderzoek (source: ovam.vlaanderen.be) | At sale (sale BLOCKED without it) |
+| **Asbestattest** | Vlaanderen | Mandatory since **23 Nov 2022** for sales of buildings built before 2001; VME common parts by 2027; every pre-2001 building by 2032 (source: OVAM, ovam.vlaanderen.be/asbestattest) | 10 years standard, shorter if high-risk asbestos is present (source: OVAM) |
+| **Overstromingsrapport / waterparagraaf** (P-score + G-score) | Vlaanderen | Flood-sensitivity information duty in adverts, compromis and deed (sale, lease >9 yrs, erfpacht / opstal); amended regime in force 1 Jan 2023 (source: integraalwaterbeleid.be, CIW) | Per transaction (report from waterinfo.be/informatieplicht) |
+| **Attestation du sol / bodemcertificaat** | Bruxelles | Mandatory to sell land (Bruxelles Environnement); base fee €48, indexed every 2 years, next indexation 2027 (2025 data, source environnement.brussels page dated 27 Mar 2025 — rates/figures may have changed since) | At sale |
+| **Extrait conforme BDES** (Banque de Données de l'État des Sols) | Wallonie | Required for land sales since 1 Jan 2019 (Décret sols art. 31); first extract €30, +€10 per extra parcel, capped at €320 (source: environnement.wallonie.be) | Up to 1 year for a notarial deed; void earlier if the parcel's BDES data change |
+| **Contrôle électrique** (RGIE) | All | At sale of a dwelling, for installations that had no (complete) conformity examination after 1 Oct 1981; if infractions are found the buyer has 18 months from the deed to fix them and have a new inspection (source: SPF Economie, economie.fgov.be) | Periodic inspection every 25 years after a conformity check (source: SPF Economie) |
 | **Citerne mazout** | Where applicable | Permit | Ongoing |
-| **CIGT** (Wallonie certificat) | Wallonie | If applicable | Per case |
+| **Fiche d'Informations du Sous-sol** (DRIGM, SPW ARNE) | Wallonie | Karst, landslide, mine-shaft, underground-quarry and Seveso major-accident information; the seller's notary must provide the available information at sale; free (source: wallonie.be démarche) | 6 months |
 
 ### Climate change projections
 
-- +2.0–4.0 °C by 2100
-- +20% winter precipitation, -20% summer
-- More extreme rainfall (Vesdre 2021 type)
-- Sea-level rise + coastal management Vlaamse Kust
+- +0.7 to +5 °C by end of century vs 1961-1990, depending on emissions scenario (RCP2.6 to RCP8.5); single-model estimate (source: IRM/KMI meteo.be 'Le climat à l'horizon 2100', CORDEX.be ALARO model)
+- Precipitation seasonality: markedly wetter winters (climat.be: up to +22% by 2100); for summer the IRM model gives on average no or only a slight decrease (RCP8.5, end of century), while climat.be cites down to −25% by 2100 — the two federal sources differ, both shown (sources: meteo.be; climat.be, SPF Santé — Changements climatiques)
+- More frequent and more intense heavy winter rain and violent summer storms, raising flood risk (source: climat.be) — Vesdre 2021 type
+- Sea level: storm-surge level at the Belgian coast +30 cm by 2050 and +80 cm by 2100 in the VMM middle scenario; the Flemish long-term Kustvisie even takes a 3 m sea-level-rise scenario into account (source: VMM, vmm.vlaanderen.be stijging zeewaterspiegel)
 
 ---
 
@@ -320,23 +322,23 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 ### Sources
 
 - **SWDE** (Société wallonne des eaux): `https://www.swde.be/` — Wallonie water
-- **IECBW** (Intercommunale eaux Centre Brabant wallon)
-- **IDEA** (Intercommunale développement économique Mons-Borinage)
-- **CILE** (Compagnie intercommunale liégeoise eaux)
-- **De Watergroep**, **Pidpa**, **Aquaduin** — Vlaanderen water
-- **Vivaqua / Hydrobru**: `https://www.vivaqua.be/` — Bruxelles
+- **in BW** (Brabant wallon; the former IECBW domain `iecbw.be` is parked, checked 2026-10-23): `https://www.inbw.be/` — drinking-water production and distribution plus wastewater treatment in Brabant wallon (source: inbw.be)
+- **IDEA** (agence de développement territorial des 27 communes du Cœur du Hainaut, Mons; water among its missions — source: idea.be)
+- **CILE** (Compagnie Intercommunale Liégeoise des Eaux): `https://www.cile.be/` — drinking-water distributor in 24 communes of the province of Liège (source: cile.be)
+- **De Watergroep**, **Farys**, **Pidpa**, **Water-link**, **Aquaduin**, **AGSO Knokke-Heist** — Vlaanderen drinking-water companies (2026 data, source VMM Waterregulator, vmm.vlaanderen.be)
+- **Vivaqua**: `https://www.vivaqua.be/` — Bruxelles drinking-water distribution and maintenance of the regional sewer network (source: vivaqua.be)
 - **Aquafin** (Vlaanderen wastewater): `https://www.aquafin.be/`
 
 ### Verification
 
 - Universal in urban areas across all three régions
 - Some rural Wallonie / Eifel border on individual systems (fosses septiques)
-- Vlaanderen ~97% mains coverage (est.)
-- Wallonie ~85% mains coverage
+- Vlaanderen: 94.2% of inhabitants connected to sewer (rioleringsgraad, Apr 2026); 88.6% collectively treated (zuiveringsgraad, end 2024); about 2% of residents live where an IBA (individual treatment unit) is required (2026 data, source VMM, vmm.vlaanderen.be indicator zuiveringsgraad)
+- Wallonie: collective treatment-plant equipment rate 92.5% at 31 Dec 2023 (459 stations, 4,127,033 population-equivalent capacity) — a capacity-vs-target measure, not the share of homes on sewer (2023 data, source IWEPS fiche A009 citing SPGE — rates/figures may have changed since)
 
 ### Costs
 
-| Scenario | Cost (€) |
+| Scenario | Cost (€, est. — contractor-quote ranges, no published tariff) |
 |---|---:|
 | Aansluiting riool / raccordement égout | 6,000–15,000 |
 | Septique / IBA installation | 8,000–15,000 |
@@ -425,17 +427,32 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 | Geopunt Vlaanderen | `https://www.geopunt.be/` |
 | WalOnMap | `https://geoportail.wallonie.be/` |
 | BruGIS | `https://gis.urban.brussels/brugis` |
-| OVAM Vlaanderen | `https://www.ovam.be/` |
+| OVAM Vlaanderen | `https://ovam.vlaanderen.be/` (updated 2026-10-23) |
 | Bruxelles Environnement | `https://environnement.brussels/` |
 | Immoweb | `https://www.immoweb.be/` |
-| MOW Vlaanderen traffic | `https://mobiliteit.vlaanderen.be/` |
+| Vlaams Verkeerscentrum traffic data | `https://www.verkeerscentrum.be/data` (replaces `mobiliteit.vlaanderen.be`, which now redirects to `mobielvlaanderen.be`; updated 2026-10-23) |
 | SPW Mobilité | `https://mobilite.wallonie.be/` |
+| Bruxelles Mobilité open data | `https://data.mobility.brussels/` |
+| Waterinfo flood report (Vlaanderen) | `https://www.waterinfo.be/informatieplicht` |
+| Wallonie flood-hazard map | `https://environnement.wallonie.be/home/gestion-environnementale/risques-climatiques/inondations/urbanisme/cartes-inondations/carte-alea-inondation.html` |
 
 ## Status
 
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing, traffic, tax (3 régions), rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for 2025 transfer tax reform (Beobank, Argenta, S-Team Law, ABM-Altos, Lexunion all confirm Vlaanderen 2% + Wallonie 3% from 1 Jan 2025), HIGH for asbestattest mandate (23 Nov 2022 Vlaanderen), HIGH for July 2021 flood as reform driver. MEDIUM for Bruxelles short-let (rapidly evolving + EU 2024/1028 transposition pending).
+**Confidence**: HIGH for `--price` (benchmark table rebuilt from Statbel H1 2026 medians, Statistiek Vlaanderen 2025 and the Fednot barometer of 13 Oct 2026). HIGH for the registration-duty rates in force (Vlaanderen 2% and Wallonie 3% since 1 Jan 2025; Bruxelles 12.5% with the €200,000 abattement — vlaanderen.be, wallonie.be, be.brussels), the asbestattest mandate (23 Nov 2022, Vlaanderen — vlaanderen.be, OVAM) and the July 2021 flood figures (Gouvernement wallon communiqué of 4 Jul 2022). MEDIUM for the Vlaanderen return to 3% for compromis from 1 Jan 2027 (VLABEL SP 26021 of 1 Oct 2026, onder voorbehoud of the decree, which is pending). MEDIUM for `--work` (VAT franchise, INASTI and PIT 2026 bands re-verified; salary figures are Statbel 2022 and SD Worx Jan 2026, secondary). MEDIUM for `--rental`: lease law and the three short-let regimes re-read on primary sources, but rental-tax mechanics rest on secondary accountants and banks, and neither the Bruxelles ordonnance of 1 Feb 2024 nor the Flemish and Walloon texts implementing EU Reg 2024/1028 (an EU regulation applying since 20 May 2026, not a directive to transpose) are confirmed in force. MEDIUM for `--risks` and `--mains`: source tables, flood, seismic, asbestos, lead and mandatory-at-sale rows re-sourced; the soil-pollution bullets, the citerne mazout row and Wallonie PEB validity remain unverified. LOW for précompte effective rates and typical bills, all-in transaction-cost totals, the 16.5% capital-gains rate on buildings (2017 source only) and the contractor and mains cost rows (est., no primary price source).
+
+### Per-section verification (overrides playbook-level date)
+
+| Section | Last verified | Verifier | Notes |
+|---|---|---|---|
+| `--price` | 2026-10-23 | 2026-10-23 refresh wave | Benchmark table from Statbel H1 2026 / Statistiek Vlaanderen 2025 / Fednot 13 Oct 2026; unsourced €/m² column dropped; Logic-Immo → Zimmo, Vlan → Immovlan; cadastre URL content not readable (captcha) |
+| `--work` | 2026-10-23 | 2026-10-23 refresh wave | VAT franchise €25,000, INASTI 2026 and PIT 2026 bands re-verified; forfait regime closed 2022; salary figures Statbel 2022 + SD Worx Jan 2026 (secondary) |
+| `--traffic` | 2026-10-23 | 2026-10-23 refresh wave | Source URLs re-checked; MOW and Bruxelles Mobilité URLs replaced; TJM replaces the unattested PJM / GMD terms; verdict bands are skill thresholds |
+| Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave | Immoweb, Zimmo, Realo live; Logic-Immo folded into Zimmo; Vlan replaced by Immovlan |
+| Active fiscal incentives | 2026-10-23 | 2026-10-23 refresh wave | Chèque-habitat, abattement + BE HOME, Mijn VerbouwLening 2026 and the Wallonie 1 Oct 2026 regime on primary sources; federal EE-loan ❌ DEPRECATED |
+| Caveats unique to BE | 2026-10-23 | 2026-10-23 refresh wave | Legal / fiscal caveats only (2025 reform + 2027 Vlaanderen 3%, asbestattest, RC 1975 reference period, 2002 regionalisation); PEB, flood and VME caveats not re-verified |
+| Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | All 11 URLs checked; OVAM and MOW replaced; 3 rows added; cadastre URL content behind a captcha |
 
 ## Extension TODOs
 
@@ -446,6 +463,18 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 - [ ] Vesdre 2021 flood-affected zones (rebuilding rules)
 - [ ] Bodemattest decision tree (clean/contaminated/in-progress)
 - [ ] Per-commune renovation premium eligibility
-- [ ] EU 2024/1028 short-let transposition tracker (3 régions)
+- [ ] EU Reg 2024/1028 implementation tracker per région (registration schemes, platform data, single digital entry point; a regulation, not a directive)
 - [ ] Brussels heritage building constraints per zone
 - [ ] German-speaking Eastern Cantons specific rules
+
+## Update history
+
+- **2026-04-25** — Initial population
+- **2026-05-01** — Statbel URL re-pointed (dead-URL repair)
+- **2026-05-27** — Tier-1 corrections: précompte base rates (Wallonie 1.25%, Vlaanderen 3.97%, Bruxelles 1.25%), Vlaanderen 1 Jan 2026 own-home conditions, 12% rate dated to 2022, 6% VAT demolition-reconstruction regime
+- **2026-05-29** — Anti-hallucination sweep: est. labels on précompte bills and cost benchmarks, VAT building-vs-land split, capital-gains caveats
+- **2026-09-18** — BruGIS URL re-pointed
+- **2026-10-23** — Refresh wave (market, tax-legal, risk-infra) plus audit findings; playbook-level date not re-stamped because `--tax`, `--rental`, `--risks` and `--mains` are not fully re-verified
+  - Re-verified (facts checked — changed / confirmed / unverifiable): `--price` 36 — 25 / 10 / 1; `--work` 12 — 6 / 6 / 0; `--traffic` 5 — 4 / 1 / 0; Common listing platforms 5 — 2 / 3 / 0; Active fiscal incentives 7 — 6 / 1 / 0; Caveats unique to BE 5 — 2 / 3 / 0 (legal / fiscal only); Source URL templates 11 — 2 / 9 / 0, plus 3 rows added
+  - Refreshed, not re-verified: `--tax` 52 — 31 / 12 / 9; Cost benchmarks 15 — 6 / 2 / 7; `--rental` 16 — 14 / 1 / 0; `--risks` 33 — 20 / 7 / 6; climate projections (in `--risks`) 4 — 4 / 0 / 0; `--mains` 14 — 7 / 2 / 5; Country profile 6 — 1 / 2 / 3; Reddit / forum sources 8 — 1 / 5 / 2; Verification authorities 6 — 0 / 2 / 2 (rows unchanged)
+  - Main changes: Statbel H1 2026 median price table replaces the unsourced ranges; Vlaanderen own-home duty back to 3% for compromis from 1 Jan 2027 (VLABEL SP 26021, decree pending); 2026 indexation coefficient 2.3000 and the Bruxelles agglomeration and communal centimes; BE HOME prime (€164 for 2026; €328 from 2027 announced, not enacted); short-let regimes of the three régions rewritten from primary sources, with EU Reg 2024/1028 described as a regulation in application since 20 May 2026 rather than a pending transposition; short-let VAT 6% → 12% on 1 Mar 2026; 565 communes; federal EE-loan ❌ DEPRECATED; CIRGT, Plan PARGI and CIGT entries replaced (not found in any source); IECBW replaced by in BW; mains cost rows labelled est.

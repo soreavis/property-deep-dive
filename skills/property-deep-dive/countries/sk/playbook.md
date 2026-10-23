@@ -105,9 +105,10 @@ ISO2: `sk`. Status: ✅ Fully populated (researched 2026-04).
 ### Primary sources
 
 - **SSC Celoštátne sčítanie dopravy 2022-2023**: `https://www.ssc.sk/sk/cinnosti/rozvoj-cestnej-siete/dopravne-inzinierstvo/celostatne-scitanie-dopravy-v-roku-2022-a-2023.ssc`
-  - 2,757 sčítacích miest covered
-  - Traffic increased +14 % since 2015 census across all road types
-- **Open data ArcGIS Hub**: `https://hub.arcgis.com/datasets/3fce14460a694592b06641d67d83d6c3`
+  - 2,752 sčítacích profilov on D, R, I. + II. triedy and part of III. triedy (2022-2023 data, source SSC)
+  - Traffic increased +14.3 % since the 2015 census across all road types (2022-2023 data, source SSC press release 9 Nov 2023)
+  - Latest national census: the SSC dopravné inžinierstvo page (updated 7 May 2025) lists CSD 2000, 2005, 2010, 2015 and 2022-2023, none later
+- **Open data ArcGIS Hub** (CSD 2022-2023 shapefile published 15 Feb 2024 by Trnavský samosprávny kraj, CC BY 4.0): `https://hub.arcgis.com/datasets/3fce14460a694592b06641d67d83d6c3`
 - **CDB (Cestná databanka)**: `https://www.cdb.sk/sk/Vystupy-CDB/Mapy-cestnej-siete-SR.alej`
   - Maps by správca (D + I + II + III triedy)
 - **NDS (Národná diaľničná spoločnosť)** — autostrade live + counts: `https://ndsas.sk/`
@@ -115,7 +116,7 @@ ISO2: `sk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Key terms
 
-- **TGM (Priemerná denná intenzita dopravy)** — Average Daily Traffic — same as Czech TGM
+- **RPDI (ročná priemerná denná intenzita dopravy)** — annual average daily traffic, in voz/24h (the term used in the SSC CSD 2022-2023 tables)
 - Road categories: D (diaľnice), R (rýchlostné cesty), I/II/III triedy (state roads), miestne komunikácie
 
 ### Verdict bands
@@ -127,15 +128,16 @@ ISO2: `sk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Bratislava extreme
 
-- Bypass section between Gagarinova–Galvaniho intersections: **>100,000 vehicles/day** (per SSC Celoštátne sčítanie dopravy 2022-2023, listed above — among the busiest counted segments in SK)
-- Bratislava ring D1/D2: 50,000–80,000 v/d typical
+- Highest RPDI in the eight SSC CSD 2022-2023 regional tables: D1 sčítací úsek 87023 (okres Bratislava II) — **101,407 voz/24h**, of which 18,284 nákladné vozidlá + autobusy (2022-2023 data, source SSC CSD table, Bratislavský kraj: `https://www.ssc.sk/files/documents/dopravne-inzinierstvo/csd_2022/ba/csd_tabulka_ba_2022_2023.pdf`); TASR via Startitup (secondary press, 15 Nov 2023) places the busiest stretch on the D1 bypass between the Gagarinova and Galvaniho junctions
+- D1 sections in okresy Bratislava II / III / V: 64,482–101,407 voz/24h; D2 sections in okresy Bratislava IV / V: 16,801–94,387 voz/24h (2022-2023 data, same SSC table)
 - City centre: heavy congestion at peak hours
 
 ### CSD 2022-2023 highlights
 
-- +14 % vs 2015 across all road types
-- D-network growth most pronounced
-- Heavy vehicles +16 %, cars +13 %
+- **+14.3 %** average traffic intensity vs CSD 2015, all road types
+- By class: I. triedy +13 % (avg 7,913 voz/deň), III. triedy +12.7 % (2,048), II. triedy +9.5 % (3,700), diaľnice + rýchlostné cesty +8.2 % (23,490) — D/R carry the highest volumes but grew the least
+- Nákladná doprava +16.3 %, osobná +13.8 %, motocykle +35.3 %; mix 82.2 % osobné, 17.1 % nákladné, 0.7 % motocykle
+- (2022-2023 data, source SSC press release 9 Nov 2023: `https://www.ssc.sk/files/documents/tlacove_spravy/ts_09_11_2023_dopravne_intenzity.pdf`)
 
 ---
 
@@ -338,25 +340,25 @@ Renting property is a živnosť when services other than the basic ones tied to 
 
 | Source | URL | What it gives |
 |---|---|---|
-| **SVP MPO/MPR** (Mapy povodňového ohrozenia + rizika) | `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/` | Q10/Q100/Q1000 flood hazard + risk maps for all SK rivers |
+| **SVP MPO/MPR** (Mapy povodňového ohrozenia + rizika) | `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/` | Q10/Q100/Q1000 flood hazard + risk maps, 1:10,000, for areas with potentially significant flood risk (zákon 7/2010 § 6 ods. 1) — not every watercourse |
 | **SVP MP-T portál** | `https://mpt.svp.sk/svp_vmapportal/` | Map portal supplementary |
 | **SHMÚ Hydro stupne aktivity** | `https://www.shmu.sk/sk/?page=1&id=hydro_stpa` | Real-time flood activity stages 1-3 |
 | **Minzp.sk povodňové mapy** | `https://www.minzp.sk/voda/ochrana-pred-povodnami/manazment-povodnovych-rizik/povodnove-mapy.html` | Ministry environment flood policy + maps |
-| **ŠGÚDŠ Geofyzikálne mapy radon** | `https://apl.geology.sk/radio/` | Radon natural radioactivity maps 1:50k–1:500k |
-| **ŠGÚDŠ map portal** | `https://www.geology.sk/maps-and-data/mapovy-portal/geophysical-maps/maps-of-natural-radioactivity/?lang=en` | Direct access to scaled radon maps |
-| **Geoportal.gov.sk radon** | `https://geoportal.gov.sk/articles/radonove-riziko` | Aggregated radon risk |
-| **GFÚ SAV (Geofyzikálny ústav SAV) seizmicita** | `https://www.seismology.sk/Maps/` | Seismic hazard map (475-yr return period PGA) |
+| **ŠGÚDŠ Mapy prírodnej rádioaktivity** | `https://app.geology.sk/radio/` | Natural-radioactivity + radon-risk map application, 1:500,000 and 1:200,000 (ŠGÚDŠ; the former `apl.geology.sk/radio/` host was unreachable on 2026-10-23) |
+| **ŠGÚDŠ map portal** | `https://www.geology.sk/maps-and-data/geophysical-maps/maps-of-natural-radioactivity/?lang=en` | Description + link to the natural-radioactivity / radon-risk maps (old `/mapovy-portal/` path 301-redirects here, 2026-10-23) |
+| **Geoportal.gov.sk radon** | `https://geoportal.gov.sk/articles/radonove-riziko` | Mapa radónového rizika SR 1:500,000 — indicative overview (Národný geoportál) |
+| **ÚVZ SAV seizmicita** (Ústav vied o Zemi SAV; Geofyzikálny ústav SAV merged into it 1 Jul 2015) | `https://www.seismology.sk/Maps/` | Seismic hazard maps for a 475-yr return period (PGA, GFÚ SAV 2012; macroseismic intensity) + epicentre map 1034–present |
 | **Ústav vied o Zemi SAV** | `https://geo.sav.sk/` | Earthquake research + recent activity |
 | **Geoportal KSK povodne** | `https://www.geoportalksk.sk/home/povodnove-ohrozenie-uzemia-ksk/` | Košický kraj specific |
 
 ### Flood zones (záplavové územia)
 
-SVP publishes maps for 3 probability levels:
+SVP publishes flood-hazard maps for the 3 statutory probability levels (zákon 7/2010 Z. z. § 6 ods. 2, version effective 1 Apr 2025):
 - **Q10**: high probability (every 10 yrs) — frequent flooding, major restrictions
-- **Q100**: medium probability (every 100 yrs) — insurance / building restrictions
-- **Q1000**: low probability (every 1,000 yrs) — extreme event reference
+- **Q100**: medium probability (every 100 yrs) — insurance / building restrictions; the Q100 flood line delimits the inundačné územie (§ 20)
+- **Q1000**: low probability (every 1,000 yrs or rarer, or a flood with an exceptionally dangerous course) — extreme event reference
 
-Verify parcel-level via SVP's flood-hazard and flood-risk maps (MPO/MPR, scale **1:10,000**, prepared under Directive 2007/60/EC) — `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/`. **The page has no municipality or parcel search; open the linked *Mapový portál* and locate the parcel on the map** (2026-09-18 verified).
+Verify parcel-level via SVP's flood-hazard and flood-risk maps (MPO/MPR, scale **1:10,000**, prepared under Directive 2007/60/EC) — `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/`. **The page has no municipality or parcel search; open the linked *Mapový portál* and locate the parcel on the map** (2026-10-23 verified). The law describes hazard-map flood extents as indicative (*orientačne*, zákon 7/2010 § 6 ods. 3) — confirm parcel-level exposure with SVP / the okresný úrad.
 
 ### Radon zones (radónové riziko)
 
@@ -382,10 +384,12 @@ Slovakia is **more seismically active than CZ** — five recognized active zones
 | Zone | Notable events |
 |---|---|
 | **Dobrá Voda (Malé Karpaty, north)** | Ongoing microseismicity |
-| **Komárno** | **1763 M 6.5** — historical major; 1783 aftershocks |
-| **Žilina** | **1858 M 5.7** — recent reminder |
+| **Komárno** | **1763** — strongest historical earthquake in SK, magnitude estimated 6.2–6.5, dozens of victims; a further earthquake twenty years later (1783) and aftershocks into the mid-19th century (ÚVZ SAV-hosted interview, 2026) |
+| **Žilina** | **15 Jan 1858**, epicentral intensity 7–8° EMS-98; damaged all houses in Žilina (ESC 2016 abstract, Kysel / Labák / Hammerl — magnitude not stated there) |
 | **Stredné Slovensko (B. Bystrica)** | Ongoing low-level |
-| **Východné Slovensko (Vihorlat / Humenné / Vranov / Michalovce)** | Recent Zemplín 2023 quake |
+| **Východné Slovensko (Vihorlat / Humenné / Vranov / Michalovce)** | **9 Oct 2023 Ďapalovce (okres Vranov nad Topľou)**: ML 4.9, depth 17.8 km, building damage (ÚVZ SAV-hosted interview, 2026) |
+
+**21 Feb 2026, Rohovce (near Šamorín)**: ML 4.3, depth ~4–4.5 km, 50 aftershocks located by 13 Mar 2026; a steep fault zone parallel to the Malé Karpaty, separate from the Komárno focal zone (2026 data, source ÚVZ SAV-hosted interview with RNDr. Ján Madarás: `https://geo.sav.sk/files/2026/Tema-2026-ked-sa-trasie-slovensko.pdf`).
 
 For most properties: 🟡 LOW–MEDIUM (zone-dependent). For Komárno + Vihorlat areas: 🟠 MEDIUM concern; for the rest: 🟢 negligible.
 
@@ -401,34 +405,34 @@ Map: `https://www.seismology.sk/Maps/` (475-year return period PGA map, 2012 GF�
 | **1990–2000 "kvalitná privátna výstavba"** | DIY craftsmanship variability; possible no-permit work |
 | **2000–2008** | Building boom — uneven quality |
 | **Post-2008** | Modern energy + fire standards |
-| **Post-2013 nZEB** | Energy efficiency standards tightening |
+| **Post-2013** | Energy-efficiency standards tightening toward nZEB; nZEB (budova s takmer nulovou potrebou energie) mandatory for all new buildings from 31 Dec 2020 (public-authority buildings after 31 Dec 2018) — zákon 555/2005 § 4b ods. 1 (2025 data, source Slov-Lex) |
 
-**Asbestos**: pre-1995 likely; obligatory remediation if friabile; cost €30–€80/m² roof.
+**Asbestos**: pre-1995 likely; obligatory remediation if friable; cost €30–€80/m² roof.
 
 ### Mandatory diagnostics at sale
 
 | Document | Required because | Penalty |
 |---|---|---|
-| **Energetický certifikát budovy (EC)** | All sales (with limited exceptions) | Up to **€2,000** |
-| **List vlastníctva aktuálny** | All sales (verify owner + ťarchy) | Free via katasterportal |
+| **Energetický certifikát budovy (EC)** | All sales (with limited exceptions) | Up to **€2,000** (natural-person owner, § 12); €500–€3,000 (legal person / FO-podnikateľ, § 11 ods. 3) |
+| **List vlastníctva aktuálny** | All sales (verify owner + ťarchy) | Informative view via ÚGKK `kataster.vugk.sk` / ZBGIS; legal-purpose LV via eSKN (katasterportal.com is a private map index, not an LV source) |
 | **Snímok z katastrálnej mapy** | All sales | Free via ZBGIS |
 | **Geometrický plán** | If parcela split / new build | Per-case |
 | **Znalecký posudok** | Often required by bank for mortgage | €100–€300 |
 | **Potvrdenie SVB o nedoplatkoch** | If apartment in SVB | At signing |
 | **PPV (potvrdenie o platených úhradách)** | If apartment | At signing |
 
-**EC platnosť**: 10 years.
-**EC obligation at sale / lease since 2013** under Zákon 555/2005 Z. z. § 7, § 8 (not 1 April 2025 — that date is the new Stavebný zákon 201/2022 effective date; see below). Pokuta **€500–€3,000** under § 12. (2026-05-27 verified, source SIEA)
+**EC platnosť**: max. 10 years; lapses earlier after construction works affecting energy performance (zákon 555/2005 § 7 ods. 7).
+**EC obligation at sale / lease**: certification mandatory for buildings sold or leased after 1 Jan 2008 (Zákon 555/2005 Z. z. § 5 ods. 2 + § 14, original text); since 1 Jan 2013 (zákon 300/2012 Z. z.) § 8 requires the owner to hold an EC by the day the sale / lease contract is concluded (§ 8 ods. 1 písm. c) and to hand the valid EC to the new owner (§ 8 ods. 2 písm. c) (not 1 April 2025 — that date is the effective date of the new Stavebný zákon 25/2025 Z. z.; see below). Pokuta: natural-person owner up to **€2,000** (priestupok, § 12 ods. 2); legal person / FO-podnikateľ **€500–€3,000** (§ 11 ods. 3); both unchanged in the version effective 1 Jan 2027 (2025 data, source Slov-Lex 555/2005 versions effective 1 Jan 2006, 1 Jan 2013, 1 Apr 2025 and 1 Jan 2027, verified 2026-10-23).
 
-**Stavebný zákon transition (1 April 2025)**: Zákon 50/1976 Zb. zrušený; replaced by **Zákon 201/2022 Z. z. o výstavbe** and **Zákon 200/2022 Z. z. o územnom plánovaní** (effective 1 April 2025). Late-2024 bridge novela Zákon 46/2024. Source: Úrad pre územné plánovanie a výstavbu SR `https://uupv.sk/`.
+**Stavebný zákon transition (1 April 2025)**: Zákon 50/1976 Zb. (old stavebný zákon) applied until 31 March 2025. From 1 April 2025 building regulation is **Zákon 25/2025 Z. z. (Stavebný zákon)**, which repealed the never-effective **Zákon 201/2022 Z. z. o výstavbe** (§ 86); obec remains the stavebný úrad (§ 15). Land-use planning: **Zákon 200/2022 Z. z. o územnom plánovaní** (core provisions effective 1 April 2024, remainder 1 April 2025). Zákon 46/2024 Z. z. (adopted 13 Feb 2024) amended 50/1976 for the transition. (2025 data, source Slov-Lex, verified 2026-10-23.) Authority: Úrad pre územné plánovanie a výstavbu SR `https://uupv.sk/`.
 
 ### Climate change projections (SHMÚ)
 
-- +1.5–3.0 °C by 2050 vs 1981–2010 baseline (RCP scenario)
-- More droughts (esp. Žitný ostrov, lowland SK)
-- Vysoké Tatry snow → less reliable lower altitudes
-- Heat waves: longer + more intense
-- Extreme rain events: more frequent
+- Annual mean temperature, southern Slovakia: +0.7–0.9 °C by 2030, ~+2.0–3.0 °C by 2050, +3.5–6.0 °C by 2100 vs 1991–2020, depending on RCP scenario (EURO-CORDEX ensemble, RCP2.6–RCP8.5; source SHMÚ *Scenáre budúcej klímy* `https://www.shmu.sk/sk/?page=1069`, read 2026-10-23)
+- More droughts, mainly in the southern half of SK (incl. Žitný ostrov lowlands) — spring + summer precipitation falling while temperatures rise (SHMÚ)
+- Snow: fewer days with snow cover + lower mean snow depth (SHMÚ) → Vysoké Tatry snow less reliable at lower altitudes
+- Heat waves: more frequent, longer + more intense; waves like 2003 / 2007 / 2015 expected 3–5× more often around 2050 (SHMÚ)
+- Extreme rain events: more frequent + more intense; totals and intensities of short-duration heavy rainfall +3 % to +35 % depending on RCP and horizon (RCP2.6 2051–2100: +3 to +5 %; RCP8.5 2051–2100: +25 to +35 %) (SHMÚ)
 - Wildfires: rising in Tatras + East SK forests
 
 ---
@@ -439,17 +443,19 @@ Map: `https://www.seismology.sk/Maps/` (475-year return period PGA map, 2012 GF�
 
 | Operator | Coverage |
 |---|---|
-| **BVS (Bratislavská vodárenská spoločnosť)** | Bratislavský kraj |
+| **BVS (Bratislavská vodárenská spoločnosť)** | Bratislava + western Slovakia: drinking water in 118 obcí, ~740,000 permanent customers (2026 data, source bvsas.sk *O spoločnosti*) |
 | **TAVOS (Trnavská vodárenská spoločnosť)** | Trnava + okolie |
-| **ZsVS (Západoslovenská vodárenská spoločnosť)** | Nitriansky kraj parts: Dunajská Streda, Galanta, Šaľa, Levice, Nové Zámky, Nitra, Zlaté Moravce, Topoľčany, Bánovce nad Bebravou, Partizánske |
-| **StVS / StVPS (Stredoslovenská vodárenská spoločnosť / prevádzková)** | Banskobystrický kraj |
-| **SEVAK (Severoslovenské vodárne a kanalizácie)** | Žilinský kraj |
-| **VVS (Východoslovenská vodárenská spoločnosť)** | Košický + Prešovský kraje (>2,000 employees) |
+| **ZsVS (Západoslovenská vodárenská spoločnosť)** | 11 okresy across Nitriansky, Trnavský + Trenčiansky kraje: Dunajská Streda, Galanta, Šaľa, Levice, Nové Zámky, Nitra, Zlaté Moravce, Topoľčany, Bánovce nad Bebravou, Partizánske, Komárno; drinking water to nearly 800,000 inhabitants (2026 data, source zsvs.sk *O spoločnosti*) |
+| **StVS / StVPS (Stredoslovenská vodárenská spoločnosť / prevádzková)** | StVS owns the infrastructure in all okresy of Banskobystrický kraj + okres Prievidza; StVPS operates it (2026 data, source stvs.sk) |
+| **SEVAK (Severoslovenské vodárne a kanalizácie)** | Okresy Žilina, Bytča, Kysucké Nové Mesto, Čadca (2026 data, source sevak.sk); the rest of Žilinský kraj has other operators, e.g. Liptovská vodárenská spoločnosť (Liptovský Mikuláš) |
+| **VVS (Východoslovenská vodárenská spoločnosť)** | Košický + Prešovský kraje — the okresy listed under PVS below are served by PVS; VVS supplies nearly 1 million inhabitants, >2,000 employees (2026 data, source vodarne.eu *Spoločnosť*) |
+| **PVS (Podtatranská vodárenská spoločnosť)** + operator PVPS | Okresy Poprad, Kežmarok, Stará Ľubovňa, Spišská Nová Ves, Levoča, Gelnica (2026 data, source pvsas.sk) |
+| **TVK (Trenčianske vodárne a kanalizácie)** | Okresy Trenčín, Nové Mesto nad Váhom, Myjava (2026 data, source tvkas.sk *Pôsobnosť*) |
 | Smaller obecné/mestské | Some smaller obce on local water utilities |
 
 ### Verification
 
-- ZsVS-style coverage portal: `https://www.zsvs.sk/sluzby/zivotna-situacia/pripojenie-na-verejny-vodovod-a-kanalizaciu`
+- ZsVS connection guide (pripojenie na verejný vodovod): `https://www.zsvs.sk/sluzby/zivotna-situacia/pripojenie-na-verejny-vodovod-a-kanalizaciu`
 - Or directly via obec website
 - **Most populated obce > 1,000 obyv have mains**; **vesnice < 500 obyv often lack mains sewer**
 - Listing language:
@@ -538,14 +544,14 @@ Map: `https://www.seismology.sk/Maps/` (475-year return period PGA map, 2012 GF�
 
 | Authority | When to call |
 |---|---|
-| **Kataster** (Okresný úrad — odbor katastrálny) | LV verification, parcela verification, vlastník/ťarchy |
-| **Obec / mesto / mestská časť** | Územný plán, daň z nehnuteľností (sadzby per VZN), kolaudácia |
-| **Notár / advokát** | Final compravendita, escrow, ťarchy check |
-| **Provozovateľ vodovodu** (regional water co.) | Mains drains verification |
+| **Kataster** (Okresný úrad, katastrálny odbor) | LV verification, parcela verification, vlastník/ťarchy |
+| **Obec / mesto / mestská časť** | Územný plán, daň z nehnuteľností (sadzby per VZN), kolaudácia (obec is the stavebný úrad and issues the kolaudačné osvedčenie — zákon 25/2025 § 15) |
+| **Notár / advokát** | Final kúpna zmluva, escrow (notárska / advokátska úschova), ťarchy check |
+| **Prevádzkovateľ verejného vodovodu** (regional water co.) | Mains drains verification |
 | **Okresný úrad — odbor životného prostredia** | Záplavové územia, povolenia |
 | **SHMÚ** | Hydrology + meteorology |
 | **ŠGÚDŠ** | Geological / radon information |
-| **GFÚ SAV** | Seismic information |
+| **ÚVZ SAV** (Ústav vied o Zemi SAV, Geofyzikálny odbor; GFÚ SAV merged into it 1 Jul 2015) | Seismic information |
 | **SVB** (apartment owners' assoc.) | Bezdlžnosť, fond opráv stav |
 | **Bytové družstvo** (if cooperative) | Different ownership rules |
 
@@ -569,17 +575,17 @@ Map: `https://www.seismology.sk/Maps/` (475-year return period PGA map, 2012 GF�
 | ÚGKK CICA (informative LV) | `https://kataster.vugk.sk` |
 | ÚGKK eSKN (electronic LV, login) | `https://kataster.skgeodesy.sk/eskn-portal/` |
 | ÚGKK ZBGIS map | `https://zbgis.skgeodesy.sk/mapka/sk/kataster` |
-| Katasterportal (free download) | `https://www.katasterportal.com/` |
-| Nehnutelnosti search | `https://www.nehnutelnosti.sk/<region>/<okres>/<obec>/` |
-| Reality.sk | `https://www.reality.sk/byty-na-predaj/<region>/<obec>/` |
+| Katasterportal.com (private index of cadastral-map links per obec, not ÚGKK; no LV download) | `https://www.katasterportal.com/` |
+| Nehnutelnosti search | `https://www.nehnutelnosti.sk/vysledky/<obec>` · byty na predaj: `https://www.nehnutelnosti.sk/vysledky/byty/<obec>/predaj` (the old `/<region>/<okres>/<obec>/` path redirects to kraj-level results, 2026-10-23) |
+| Reality.sk | `https://www.reality.sk/byty/<obec>/predaj/` (the old `/byty-na-predaj/<region>/<obec>/` path redirects to an all-types page; the slugs `bratislava` / `kosice` resolve to a single okres — Bratislava IV / Košice III — 2026-10-23) |
 | Realitný barometer | `https://www.realitnaunia.sk/realitny-barometer` |
 | NBS prices by region | `https://nbs.sk/en/statistics/selected-macroeconomics-indicators/residential-property-prices/residential-property-prices-by-regions/` |
 | SSC sčítanie dopravy | `https://www.ssc.sk/sk/cinnosti/rozvoj-cestnej-siete/dopravne-inzinierstvo/celostatne-scitanie-dopravy-v-roku-2022-a-2023.ssc` |
 | SVP povodňové mapy | `https://www.svp.sk/sk/uvodna-stranka/povodne/mpo-a-mpr-sr/` |
 | SHMÚ povodne aktivita | `https://www.shmu.sk/sk/?page=1&id=hydro_stpa` |
-| ŠGÚDŠ radon mapy | `https://apl.geology.sk/radio/` |
+| ŠGÚDŠ radon mapy | `https://app.geology.sk/radio/` |
 | Geoportal radon | `https://geoportal.gov.sk/articles/radonove-riziko` |
-| GFÚ SAV seismika | `https://www.seismology.sk/Maps/` |
+| ÚVZ SAV seismika (maps by former GFÚ SAV) | `https://www.seismology.sk/Maps/` |
 | Slovensko.sk daň pozemkov | `https://www.slovensko.sk/sk/zivotne-situacie/zivotna-situacia/_dan-z-pozemkov/` |
 | Finančná správa SR | `https://www.financnasprava.sk/` |
 | ZsVS (water W. SK) | `https://www.zsvs.sk/` |
@@ -594,7 +600,7 @@ For SK-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 |---|---|---|---|
 | Tax residence | Final-year daňové priznanie with foreign address per [Zákon 595/2003 Z. z.](https://www.slov-lex.sk/) o dani z príjmov § 2 písm. d); verify DTA tie-breaker if dual residence claimed by destination | Finančná správa SR | [financnasprava.sk](https://www.financnasprava.sk/) |
 | Civil register (trvalý pobyt) | **Odhlásenie z trvalého pobytu** via municipal *ohlasovňa pobytu* per [Zákon 253/1998 Z. z. § 6](https://www.slov-lex.sk/) — required if no longer resident in SR | Obecný / mestský úrad | [minv.sk — ohlasovne pobytu](https://portal.minv.sk/wps/wcm/connect/sk/site/main/zivotne-situacie/Cudzinci/Hlasenie-pobytu-cudzincov) |
-| Health insurance | Terminate verejné zdravotné poistenie per [Zákon 580/2004 Z. z.](https://www.slov-lex.sk/) — VšZP / Dôvera / Union; **Union and Dôvera are merging: the purchase agreement was signed 14 Jul 2026 and takes effect once the required institutional approvals are obtained, with Union's insureds transferring automatically to Dôvera from 1 January 2027 unless they file a change-of-insurer application by 30 September** (2026-09-18 verified); if EU/EEA/CH destination, S1 form bridges coverage | All-payor framework (**two payors from 1 Jan 2027 if the merger completes**) | [vszp.sk](https://www.vszp.sk/) · [dovera.sk](https://www.dovera.sk/) · [union.sk](https://www.union.sk/) |
+| Health insurance | Terminate verejné zdravotné poistenie per [Zákon 580/2004 Z. z.](https://www.slov-lex.sk/) — VšZP / Dôvera / Union; **Union and Dôvera are merging: the share purchase agreement signed 14 Jul 2026 takes effect once the required approvals are obtained (union.sk). ÚDZS gave its prior consent on 30 Sep 2026 for Dôvera to acquire 100 % of Union's shares and voting rights (zákon 581/2004 Z. z.; ÚDZS press release 30 Sep 2026). Dôvera acquires the shares only after the European Commission's opinion, and expects the merger itself est. ~mid-2027 (Dôvera, 1 Oct 2026: "v polovici budúceho roka" — the acquirer's own estimate, not a fixed date). Union's insureds pass to Dôvera automatically when the merger completes; union.sk gives no transfer date, and on Dôvera's timing Union is still a separate insurer on 1 Jan 2027. The 2026 change-of-insurer window (application by 30 Sep 2026 for cover from 1 Jan 2027, per union.sk) has closed** (checked 2026-10-23); if EU/EEA/CH destination, S1 form bridges coverage | All-payor framework (**three payors — VšZP, Dôvera, Union — until the Union / Dôvera merger completes, est. ~mid-2027 per Dôvera; two after**) | [vszp.sk](https://www.vszp.sk/) · [dovera.sk](https://www.dovera.sk/) · [union.sk](https://www.union.sk/) |
 | Social security | Sociálna poisťovňa coordination via S1 if EU/EEA/CH destination per [Reg 883/2004](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0883); bilateral totalisation outside coordination zone | Sociálna poisťovňa | [socpoist.sk](https://www.socpoist.sk/) |
 | **s.r.o. owner-manager** | If owner-manager moving abroad — **POEM / PE risk** under destination DTA Art. 4(3) + Art. 5; effective-management migration can make the s.r.o. treaty-resident in destination → destination corporate tax + SK exit-tax event. Engage **corporate-tax counsel BEFORE move**. | Slovenská komora daňových poradcov + destination tax counsel | [skdp.sk](https://www.skdp.sk/) |
 | Slovakia-treaty register (DTA lookup) | Find the relevant SK-destination ZZDP + tie-breaker article + MLI matches | Ministerstvo financií SR — Zmluvy o zamedzení dvojitého zdanenia | [mfsr.sk — ZZDP](https://www.mfsr.sk/sk/dane-cla-uctovnictvo/priame-dane/dane-z-prijmu/zmluvy-zamedzeni-dvojiteho-zdanenia/zmluvy-zamedzeni-dvojiteho-zdanenia/) |
@@ -603,9 +609,18 @@ For SK-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25 (health-insurance payor row corrected 2026-09-18 — the Union / Dôvera merger is conditional on approvals and has not completed; the Zákon 580/2004 and S1 limbs were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+✅ **Fully populated** as of 2026-04-25 (health-insurance payor row corrected 2026-09-18 and updated 2026-10-23 — ÚDZS gave prior consent on 30 Sep 2026, the European Commission's opinion is pending and the Union / Dôvera merger has not completed; the Zákon 580/2004 and S1 limbs were not re-verified). Tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for tax + cadastre + risk sources (all primary state agencies, multi-source corroborated). MEDIUM for short-let regulation (in transition: EU 2024/1028 SK transposition + 5 % DPH adjustment 2025 + Bratislava-specific rules pending).
+**Confidence**: HIGH for cadastre sources, statutory tax rules (Slov-Lex texts of zákony 582/2004, 595/2003, 145/1995, 222/2004), kraj-level price benchmarks (NBS) and work figures (ŠÚ SR wages, Sociálna poisťovňa / VšZP minimum contributions). MEDIUM for short-let regulation: the national register under zákon č. 133/2026 Z. z. (adopted 2 Jun 2026, in force 1 Jan 2027; existing platform hosts register by 28 Feb 2027) applies EU Regulation 2024/1028 — an EU regulation in opt-in/opt-out mode per the European Commission, not a directive awaiting transposition — while Bratislava MČ rules and per-obec daň za ubytovanie rates are not verified. MEDIUM for risk sources (portals re-checked; radon high-zone list, seismic-zone descriptions and build-era rows are curated, not verified). LOW for cost benchmarks, transaction-cost estimates, VZN tax ranges and mains connection costs (unsourced market estimates, labelled est.).
+
+### Per-section verification (overrides playbook-level date)
+
+| Section | Last verified | Verifier | Notes |
+|---|---|---|---|
+| `--price` | 2026-10-23 | 2026-10-23 refresh wave | NBS kraj series (2Q 2026) replaces the city table; listing-derived okres table labelled; cadastre + benchmark URLs checked; 5 % DPH compute step confirmed (Finančná správa) |
+| `--work` | 2026-10-23 | 2026-10-23 refresh wave | ŠÚ SR 2025 kraj wages; minimum wage 2026 / 2027; SZČO minimum contributions (Sociálna poisťovňa, VšZP); ZDP § 6 ods. 10 flat-rate expenses; job-board URLs |
+| Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave | Portals live; Lexxus → AVENUE; RE/MAX at remax-slovakia.sk; Realtbilliard deprecated; "largest" share claim not verified |
+| Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | All 20 URLs fetched with content checked; listing templates re-derived; radon map host → app.geology.sk |
 
 ## Extension TODOs (deepen on first real run)
 
@@ -617,3 +632,8 @@ For SK-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 - [ ] Predkupné právo + susedské vzťahy detection from LV
 - [ ] Žitný ostrov + národné parky construction limits
 - [ ] Hungarian-language listings (south Slovakia) — bilingual extraction
+
+## Update history
+
+- **2026-04-25** — Initial population
+- **2026-10-23** — Refresh wave; `--price`, `--work`, Common listing platforms and Source URL templates re-verified (see Per-section verification). `--tax`, `--rental`, `--risks` and `--mains` were refreshed but not fully re-verified, so the playbook-level date stays 2026-04-25. Counts (changed / confirmed / unverifiable): Country profile 2 / 2 / 4; `--price` 5 / 13 / 0; `--rental` 9 / 8 / 4; `--work` 8 / 4 / 0; Common listing platforms 1 / 7 / 1; Reddit / forum sources 0 / 3 / 5; `--tax` 10 / 9 / 14; Cost benchmarks 1 / 0 / 12; Active fiscal incentives 3 / 1 / 3; Caveats unique to SK 1 / 3 / 2; Quirks to know 3 / 1 / 2; `--traffic` 9 / 3 / 3; `--risks` 17 / 9 / 19; Climate projections (SHMÚ) 1 / 4 / 1; `--mains` 7 / 2 / 9; Verification authorities 5 / 2 / 1; Source URL templates 5 / 15 / 0. Main changes: NBS 2Q 2026 kraj price table replaces the 2025 city table; national short-term-rental register under zákon č. 133/2026 Z. z. from 1 Jan 2027 (registration by 28 Feb 2027 for existing platform hosts); rental income taxed under § 6 ods. 3 ZDP with the €500 exemption and the 2026 19 / 25 / 30 / 35 % brackets; kataster fee €100 (€50 e-filed), 15-day decision €300 (€150 e-filed); Bratislava daň z bytov 1.20–1.35 €/m²; Zelená domácnostiam II, Obnov dom mini+ and the § 33a bonus; energy-certificate duty at sale / lease dated to 1 Jan 2008 and Stavebný zákon 25/2025 Z. z. from 1 Apr 2025; SSC CSD 2022-2023 figures (2,752 profiles, +14.3 % vs 2015); SHMÚ temperature projections vs 1991–2020; water-operator coverage incl. PVS and TVK; Realtbilliard marked DEPRECATED; Union / Dôvera row updated with the ÚDZS consent of 30 Sep 2026 and the pending European Commission opinion; Confidence line no longer frames EU Regulation 2024/1028 as a transposition. Not verified and left as curated or est.: Hungarian minority share, radon high-zone list, seismic-zone descriptions, build-era rows, cost-benchmark rows, mains connection costs, VZN tax ranges, the Bratislava 60-day short-let cap proposal, Plyn-out, first-buyer Refundácia DPH, the Plán obnovy €630M figure and the Caveats "1.5–2.5×" Bratislava gradient.

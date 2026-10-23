@@ -66,10 +66,11 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 
 ### Primary sources
 
-- **Väylävirasto** (Finnish Transport Infrastructure Agency): `https://vayla.fi/`
-  - Open data via Liikennevirasto
-- **Liikennevirasto Open data portal**: `https://www.liikennetilanne.fi/` (real-time)
-- **Traficom** (traffic safety agency): `https://www.traficom.fi/`
+- **Väylävirasto** (Finnish Transport Infrastructure Agency; Liikennevirasto became Väylävirasto on 1 Jan 2019): `https://vayla.fi/` — road statistics (tietilastot) + open data (source vayla.fi; 2026-10-23 verified)
+- **Fintraffic Liikennetilanne** (official real-time traffic situation service, linked from vayla.fi): `https://liikennetilanne.fintraffic.fi/`
+  - LAM automatic traffic counts (volumes + speeds by vehicle class from road loops) as open data via Fintraffic Digitraffic: `https://www.digitraffic.fi/tieliikenne/` (source digitraffic.fi; 2026-10-23 verified)
+  - `https://www.liikennetilanne.fi/` is a privately run site (Youlearn it Oy) that reuses Fintraffic weather-camera data — not an authority source
+- **Traficom** (Finnish Transport and Communications Agency — licensing, registration, supervision): `https://www.traficom.fi/`
 
 ### Key term
 
@@ -220,26 +221,27 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 | Source | URL | What it gives |
 |---|---|---|
 | **SYKE (Suomen ympäristökeskus)** | `https://www.syke.fi/` | Environment institute |
-| **Tulvakartta** (flood maps) | `https://www.vesi.fi/vesitieto/tulvakarttapalvelu/` | Q10/Q100/Q1000 flood hazard |
+| **Tulvakartta** (flood maps) | `https://www.vesi.fi/vesitieto/tulvakarttapalvelu/` | Flood hazard maps by return period (e.g. 1/100a = 1 % annual probability): hazard + risk maps for significant flood-risk areas drawn up by the elinvoimakeskukset, hazard maps for 100+ other areas and the whole coast; mostly exclude climate change, so not a basis for minimum building heights (source vesi.fi; 2026-10-23 verified) |
 | **GTK (Geologinen tutkimuskeskus)** | `https://gtk.fi/` | Geology, radon |
 | **STUK (Säteilyturvakeskus)** | `https://www.stuk.fi/` | Radon program |
-| **STUK Radonkartta** | `https://stuk.fi/en/radon-in-finland` | Indoor radon levels — Finland highest in EU |
+| **STUK — Radon in Finland** | `https://stuk.fi/en/radon-in-finland` | Indoor radon — Finnish homes average ≈ 94 Bq/m³; higher than in most other countries (2026 data, source STUK; 2026-10-23 verified) |
 | **Ilmatieteen laitos (FMI)** | `https://www.ilmatieteenlaitos.fi/` | Climate, weather |
-| **Ympäristöministeriö** | `https://www.ymparisto.fi/` | Aggregated environment portal |
+| **Ymparisto.fi** (environmental administration web service; the ministry itself is at `https://ym.fi/`) | `https://www.ymparisto.fi/` | Aggregated environment portal |
 
 ### Specific risks
 
 - **Tulva (flooding)** — coastal Helsinki + Espoo, lake/river plains; Vuoksi basin (East FI)
-- **Radon — HIGHEST INDOOR LEVELS IN EU** on average:
-  - **Pirkanmaa, Päijät-Häme, Itä-Uusimaa, Etelä-Karjala, Kanta-Häme** worst-affected
-  - ~est. 7-9 % of single-family houses exceed the WHO 100 Bq/m³ reference level (per STUK radon program — see source table above; verify specific figure/year at stuk.fi)
-  - Mandatory testing in some kunnat
+- **Radon — Finland has higher indoor radon than most other countries**; average in homes ≈ **94 Bq/m³** (2026 data, source STUK "Radon in Finland"; 2026-10-23 verified):
+  - Highest bedrock/soil uranium: **Lahti region (Päijät-Häme), Itä-Uusimaa, Kymenlaakso**; lowest: Pohjois-Karjala, Kainuu, Pohjois-Pohjanmaa. Houses on gravel/sand ridges (harjut) read clearly higher than neighbours on other soils; STUK recommends measuring everywhere in Finland (source STUK)
+  - Reference levels: **300 Bq/m³** for dwellings, **200 Bq/m³** for designing and building new buildings (STM decree 1044/2018; source STUK; 2026-10-23 verified). WHO recommends a national reference level of 100 Bq/m³, at most 300 Bq/m³ (2023 data, source WHO radon fact sheet) — rates/figures may have changed since
+  - Share of homes above 300 Bq/m³: data not publicly available on the STUK pages checked — verify at stuk.fi
+  - No measurement duty for private homes. Employers must measure workplaces in municipalities / postcodes where more than 10 % of earlier measurements exceed 300 Bq/m³; STUK's list includes e.g. Helsinki, Espoo, Vantaa, Tampere, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Jyväskylä (Radiation Act 859/2018; source STUK workplace-radon pages; 2026-10-23 verified). Municipality / postcode level only — never a parcel-level reading
 - **Earthquake** — very low (stable Fennoscandian Shield)
 - **Roudan aiheuttama vaurio** (frost heave) — ground freezing affects shallow foundations
 - **Lumikuorma** (snow load) — heavy winters can cause roof collapse (esp. flat roofs)
 - **Maaston eroosio** (coastal erosion) — Baltic Sea coastline
 - **Luonnonpalo (wildfires)** — increasing climate risk
-- **Sea-level rise** + **post-glacial rebound**: net effect varies (positive uplift in Lapland, negative on south coast)
+- **Sea-level rise** + **post-glacial rebound**: land uplift ~90 cm per century in Merenkurkku (Kvarken), ~40 cm per century in Helsinki. South-coast sea level is no longer falling and is turning to rise; in the northern Gulf of Bothnia land still rises faster than the sea. 2100 vs present, south coast: +5–15 cm (low emissions), +20–30 cm (medium), +50–60 cm (high); Perämeri: sea level falls 20–30 cm (medium) (2025 data, source FMI ilmasto-opas.fi) — rates/figures may have changed since
 
 ### Build-era hazards
 
@@ -251,7 +253,7 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 | **Post-2010 (E-luokka)** | Energy efficiency standards |
 | **Post-2017 nZEB** | Strict |
 
-**Asbestos**: pre-1994 buildings highly likely (banned 1994); removal ~est. €30–€80/m² (see FI 2026 cost benchmarks below).
+**Asbestos**: used in Finnish construction 1922–1992, most commonly 1963–1979; manufacture/import of asbestos building materials banned from the start of 1993, sale/use from the start of 1994 (some stock may have been sold later) — treat every pre-1994 building as suspect (2026 data, source tyosuojelu.fi; 2026-10-23 verified); removal ~est. €30–€80/m² (see FI 2026 cost benchmarks below).
 
 **Putkiremontti (pipe renovation)**: ~50-year cycle for stamb (vertical pipe runs); buildings 1960s-1970s coming due now or already done; **cost per apartment €30,000-80,000+** for full renovation.
 
@@ -259,9 +261,9 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 
 | Document | Required because | Validity |
 |---|---|---|
-| **Energiatodistus** (energy certificate) | All sales since 2009 | 10 years |
+| **Energiatodistus** (energy certificate) | Required at sale or rental; energy class must appear in sale/rental ads (Act 50/2013; source ym.fi) | 10 years (source energiatodistusrekisteri.fi; 2026-10-23 verified) |
 | **Kuntotutkimus** (condition study) | Strongly recommended; sometimes required | Per case |
-| **Asbestikartoitus** (asbestos survey) | Pre-1994 buildings during renovation | Per case |
+| **Asbestikartoitus** (asbestos survey) | Pre-1994 buildings before removing or dismantling structures (new Government Decree on the Safety of Asbestos Work in force 21 Dec 2025, partly 21 Dec 2026; source tyosuojelu.fi; 2026-10-23 verified) | Per case |
 | **Yhtiöjärjestys** + **isännöitsijän todistus** | If As Oy | At sale |
 | **Yhtiön tilinpäätös** + **toimintakertomus** + **kunnossapitosuunnitelma** | If As Oy | At sale |
 | **Kaupanvahvistajan todistus** | All sales | At signing |
@@ -280,9 +282,9 @@ Before buying any As Oy apartment, demand:
 
 ### Climate change projections (FMI)
 
-- +2.0–4.0 °C by 2050 (RCP scenarios)
+- Warming under SSP2-4.5, 2070–2099 vs 1981–2010: winters +2–7 °C, summers +1–5 °C; precipitation likely up in every season (best estimate winter +14 %, summer +7 %) (2022 data, source FMI release 30 Mar 2022) — rates/figures may have changed since
 - More precipitation: winter rain increasing (less snow)
-- Sea-level rise (south coast): partial offset by isostatic rebound (north)
+- Sea-level rise: south coast turning to rise as uplift no longer keeps pace; northern Gulf of Bothnia still emerging (figures in the sea-level bullet under Specific risks; 2025 data, source FMI ilmasto-opas.fi) — rates/figures may have changed since
 - Drought: rare but increasing summer events
 - Forest fires: rising
 - Permafrost retreat in Lapland
@@ -293,24 +295,26 @@ Before buying any As Oy apartment, demand:
 
 ### Sources
 
-- **Vesilaitosyhdistys (VVY)**: `https://www.vvy.fi/` — national water utility association
+- **Suomen Vesilaitosyhdistys (VVY)**: `https://vesilaitosyhdistys.fi/` (vvy.fi redirects here) — national water utility association (2026-10-23 verified)
 - Each kunta manages own vesilaitos + viemärilaitos
-- Major: **HSY** (Helsinki region — Helsinki + Espoo + Vantaa + Kauniainen), **Tampereen Vesi**, **Turun Seudun Vesi**, **Oulun Vesi**
+- Major: **HSY** (Helsinki region — Helsinki + Espoo + Vantaa + Kauniainen; drinking water for over 1 million residents per hsy.fi), **Tampereen Vesi Oy**, **Turun Vesihuolto Oy** (Turku), **Oulun Vesi** (city liikelaitos). **Turun Seudun Vesi Oy** is a wholesale artificial-groundwater company owned by 9 Turku-region kunnat — connections are made through each kunta's own utility (sources hsy.fi, tampereenvesi.fi, turunvesihuolto.fi, ouka.fi/oulun-vesi, turunseudunvesi.fi; 2026-10-23 verified)
 
 ### Verification
 
 - Most populated areas: kunnan mains universal
 - Rural + mökki: own **porakaivo** (drilled well) + **saostuskaivot** (septic)
-- **Hajajätevesiasetus** (Government Decree 157/2017): strict requirements for cottages — must comply by 31 Oct 2019 (extensions possible)
+- **Haja-asutuksen jätevedet** (Ympäristönsuojelulaki 527/2014 §§ 154 b–156 d + Government Decree 157/2017): pre-2004 systems within 100 m of a water body / sea or on a water-supply groundwater area had to meet the basic treatment standard by 31 Oct 2019; elsewhere the standard applies when the system is renewed, a WC is built or permit-requiring renovation is done (156 b §); deviations possible (156 d §) (2026 data, source Finlex consolidated 527/2014; 2026-10-23 verified)
 
 ### Costs
 
 | Scenario | Cost (€) |
 |---|---:|
-| Liittymismaksu (mains connection) | 5,000–15,000 |
-| Saostuskaivo upgrade compliant | 5,000–15,000 |
-| Pienpuhdistamo (small treatment plant) | 8,000–18,000 |
-| Porakaivo (drilled well) | 6,000–12,000 |
+| Liittymismaksu (mains connection), HSY detached house, incl. 25.5 % ALV, plus separate connection-work fees | 9,538 (≤ 250 k-m²) / 16,346 (251–350 k-m²); from 1 Jan 2027: 10,213 / 17,507 (2026 data, source HSY vesihuollon hinnasto 2026 + 2027; 2026-10-23 verified) |
+| Saostuskaivo upgrade compliant | ~est. 5,000–15,000 |
+| Pienpuhdistamo (small treatment plant) | ~est. 8,000–18,000 |
+| Porakaivo (drilled well) | ~est. 6,000–12,000 |
+
+Connection fees are set by each kunta's utility (HSY figures apply only in its area). The other three rows are market estimates that vary with soil, depth and distance — get contractor quotes and check the kunta's ympäristönsuojelu rules.
 
 ---
 
@@ -391,7 +395,7 @@ Before buying any As Oy apartment, demand:
 | **As Oy isännöitsijä** | If apartment: financials, planned projects |
 | **STUK** | Radon information |
 | **GTK** | Geology |
-| **SYKE / ELY-keskus** | Floods, environment |
+| **SYKE / elinvoimakeskus** (the 15 ELY-keskukset closed on 31 Dec 2025; 10 elinvoimakeskukset took over, environmental permits + supervision went to Lupa- ja valvontavirasto) | Floods, environment |
 
 ## Quirks to know
 
@@ -415,8 +419,8 @@ Before buying any As Oy apartment, demand:
 | Tulvakartta | `https://www.vesi.fi/vesitieto/tulvakarttapalvelu/` |
 | GTK | `https://gtk.fi/` |
 | STUK Radon | `https://stuk.fi/en/radon-in-finland` |
-| Verohallinto Kiinteistövero | `https://www.vero.fi/henkiloasiakkaat/asuminen/kiinteistovero/` |
-| Liikennetilanne | `https://www.liikennetilanne.fi/` |
+| Verohallinto Kiinteistövero | `https://www.vero.fi/henkiloasiakkaat/omaisuus/kiinteistovero/` (updated 2026-10-23) |
+| Fintraffic Liikennetilanne | `https://liikennetilanne.fintraffic.fi/` (updated 2026-10-23) |
 
 ## Status
 

@@ -62,13 +62,14 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
 
 ### Primary sources
 
-- **Trafikverket**: `https://www.trafikverket.se/` — federal road authority
-- **NVDB (Nationell vägdatabas)**: `https://nvdb.trafikverket.se/` — open data, all road counts
+- **Trafikverket**: `https://www.trafikverket.se/` — national transport administration: plans road, rail, sea + air infrastructure and builds + runs state roads and railways (source: Trafikverket)
+- **NVDB (Nationell vägdatabas)** road data via **Lastkajen**: `https://lastkajen.trafikverket.se/` — download after registration + licence acceptance (source: Trafikverket)
+- **Vägtrafikflödeskartan** (ÅDT, MC + cycle flows, speeds; **state road network only**): `https://bransch.trafikverket.se/tjanster/trafiktjanster/Vagtrafik--och-hastighetsdata/fordonsfloden-och-hastigheter/`
 - City traffic: Stockholm `https://www.stockholm.se/`, Göteborg, Malmö city portals
 
 ### Key term
 
-**ÅDT (årsdygnstrafik)** = AADT-equivalent; sometimes "**ÅMDT**" (årsmedeldygnstrafik) — daily-average for the year
+**ÅDT (årsmedeldygnstrafik)** = AADT-equivalent — average vehicles per day over a year. On Trafikverket's flow map each road section shows the estimated ÅDT, the measurement year in brackets and an uncertainty value — check the measurement year before relying on the figure (source: Trafikverket)
 
 ### Verdict bands (SE coastal/urban-typical)
 
@@ -195,44 +196,45 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
 | Source | URL | What it gives |
 |---|---|---|
 | **SMHI** (meteorology + hydrology) | `https://www.smhi.se/` | Real-time + forecasts + hist. floods |
-| **MSB (Myndigheten för samhällsskydd och beredskap)** | `https://www.msb.se/` | Risk maps, civil protection |
-| **MSB Översvämningskartor** | `https://www.msb.se/sv/amnesomraden/skydd-mot-olyckor-och-farliga-amnen/naturolyckor-och-klimat/oversvamning/` | Flood hazard maps |
-| **SGU (Sveriges geologiska undersökning)** | `https://www.sgu.se/` | Geology, radon, sinkhole maps |
+| **MCF (Myndigheten för civilt försvar)** — replaced MSB on 1 Jan 2026; msb.se redirects | `https://www.mcf.se/` | Risk maps, civil protection |
+| **MCF Översvämningskarteringar** + Översvämningsportalen | `https://www.mcf.se/sv/amnesomraden/skydd-mot-olyckor-och-farliga-amnen/naturolyckor-och-klimat/oversvamning/oversvamningskarteringar/` | Flood hazard maps (rivers, coast, Vänern); GIS layers + reports in Översvämningsportalen |
+| **SGU (Sveriges geologiska undersökning)** | `https://www.sgu.se/` | Geology + soil maps, gamma-radiation (uranium) maps as a radon proxy, wells archive (Brunnsarkivet) |
 | **SSM (Strålsäkerhetsmyndigheten)** | `https://www.stralsakerhetsmyndigheten.se/` | Radon program |
-| **Boverket** | `https://www.boverket.se/` | Building regulations, BBR/BEN |
+| **Boverket** | `https://www.boverket.se/` | Building regulations (BBR, BFS 2011:6, repealed 1 Oct 2026 by BFS 2026:9; older rules allowed for bygglov applications filed before 1 Oct 2027), energy declarations |
 | **Klimatanpassning (SMHI)** | `https://www.klimatanpassning.se/` | Climate adaptation portal |
 | **SGI (Statens geotekniska institut)** | `https://www.sgi.se/` | Landslide + slope stability |
 
 ### Specific risks
 
-- **Skred (landslides)** — Vänern + Vättern shores, **Göta älv valley** (severe quick-clay zones, similar to Norway), west coast
+- **Skred (landslides)** — Vänern + Vättern shores, **Göta älv valley** (severe quick-clay zones, similar to Norway), west coast. SGI rates the Göta älv area as Sweden's highest ras/skred risk because of kvicklera (source: SGI)
 - **Översvämning (flooding)** — coastal + lake-shore + river plains; Mälaren risk for Stockholm
 - **Stigande havsnivå** (sea-level rise) — south + west coast (Skåne, Halland, Bohuslän)
-- **Skogsbrand (forest fire)** — increasing climate risk; Sala 2014, Ljusdal 2018 disasters
-- **Radon** — significant in granite areas (Småland, Bergslagen, Uppland, Stockholm bedrock); Sweden's measurement program is comprehensive
+- **Skogsbrand (forest fire)** — increasing climate risk; Västmanland 2014 (the burnt area includes the Hälleskogsbrännan reserve in Sala, Surahammar + Fagersta kommuner; source: Länsstyrelsen Västmanland), Ljusdal 2018 disasters
+- **Radon** — significant in granite areas (Småland, Bergslagen, Uppland, Stockholm bedrock — regional list unverified). Per SGU the drivers are uranium-rich rock (some granites, pegmatites, alum shale), permeable ground (very high values on gravel eskers / grusåsar) and **blåbetong** (alum-shale concrete used 1929–1978); many kommuner publish radonriskkartor. Reference level **200 Bq/m³** in homes; radon is found only by measuring, over at least 2 months between 1 Oct and 30 Apr (source: SGU; Strålsäkerhetsmyndigheten)
 - **Earthquake** — very low (Sweden on stable Baltic Shield)
-- **Storm/strong wind** — Atlantic depressions Skåne, Halland; Storm Hans (2023), Storm Eowyn (2025) reminders
-- **Strandskyddszon** (shoreline protection): 100m default, can be 300m sensitive — restricts construction near waters
-- **Saltvattensinträngning** (saltwater intrusion) — coastal wells affected
+- **Storm/strong wind** — Atlantic depressions Skåne, Halland; the north is exposed too. SMHI storm list: Gudrun (7 Jan 2005, gusts 42.0 m/s), Ingunn (1 Feb 2024, gusts 58.7 m/s, return period >100 yrs), Johannes (27 Dec 2025, Gästrikland + Hälsingland, gusts 47.1 m/s, return period >50 yrs, long power cuts); Hans (6–11 Aug 2023) was an extreme-rain event (source: SMHI)
+- **Strandskyddszon** (shoreline protection): 100 m from the shoreline on land + water by default; länsstyrelsen can extend it to 300 m (Miljöbalken 7 kap. 13–18 k §§) — restricts construction near waters. Since 1 Jul 2025 lakes ≤1 ha and watercourses ≤2 m wide have no general strandskydd, but länsstyrelsen can impose up to 100 m in individual cases; dispens via the kommun (some areas länsstyrelsen) (source: Boverket; Naturvårdsverket)
+- **Saltvattensinträngning** (saltwater intrusion) — coastal wells affected; deep wells or large withdrawals raise the risk, and a rising sea worsens coastal well quality (source: SGU; SMHI)
 
 ### Build-era hazards
 
 | Era | Hazards |
 |---|---|
 | **Pre-1960s** | Lead paint, asbestos, weak insulation |
-| **1965–1974 "miljonprogrammet"** | Panel concrete, asbestos in joints, energy-inefficient — major retrofit cost |
-| **1974–1989** | Asbestos still common, improving insulation |
-| **1989–2000** | Better insulation, modern wiring; some PCB issues in fugemassa (sealants) |
-| **Post-2008** | BBR + BEN energy standards; BBR 2020 stricter |
+| **1965–1974 "miljonprogrammet"** | Panel concrete, asbestos in joints, PCB in fogmassa (1956–1973 builds), energy-inefficient — major retrofit cost |
+| **1974–1989** | Asbestos likely until the 1982 ban, occasionally later; improving insulation |
+| **1989–2000** | Better insulation, modern wiring; PCB not expected (all new PCB use banned since 1978) |
+| **Post-2008** | BBR energy rules (BFS 2011:6; energy use determined per BEN, BFS 2016:12); BBR 29 (BFS 2020:4, in force 1 Sep 2020, older rules allowed for bygglov applications filed before 1 Sep 2021) moved the energy requirement to a primärenergital (source: Boverket) |
 | **Post-2017 nZEB** | Low-energy required for new builds |
+| **From 1 Oct 2026** | BFS 2026:9 energy rules (nZEB + zero-emission building definitions) replace BBR; older BBR still allowed for bygglov applications filed before 1 Oct 2027 |
 
-**Asbestos**: pre-1992 likely; **PCB in fugemassa** (caulking, expansion joints) banned 1973 but present in 1955-1973 builds.
+**Asbestos**: assume present in buildings built up to 1982, when Sweden banned it; stockpiled or imported products can turn up in later buildings (source: Arbetsmiljöverket). **PCB in fogmassa** (caulking, expansion joints) and anti-slip floor compound: owners of buildings built or renovated 1956–1973 must inventory them, but one- and two-dwelling houses owned by private individuals (småhus) are not covered by these rules; all new PCB use banned since 1978 (source: Naturvårdsverket). **Blåbetong** (alum-shale concrete, used 1929–1978) raises indoor radon (source: SGU).
 
 ### Mandatory diagnostics at sale
 
 | Document | Required because | Validity |
 |---|---|---|
-| **Energideklaration** (energy declaration) | All sales since 2009 | 10 years; penalty up to SEK 10,000 |
+| **Energideklaration** (energy declaration) | Before any sale of a building (Lag 2006:985 6 §); energy class must appear in the ad; for a bostadsrätt the BRF holds it and the seller shows it; new EPBD rules from 1 Oct 2026, class A0 since 25 May 2026 | 10 years; no fixed fine: Boverket can order it under vite, and a buyer refused one may commission it at the seller's cost within 6 months of tillträde (2026 data, source: Boverket) |
 | **Lagfartsbevis** | Title verification | At sale |
 | **Fastighetsutdrag** (property extract) | All sales | At sale |
 | **Besiktning** (independent survey) | NOT mandatory but strongly recommended | Per case |
@@ -253,9 +255,9 @@ Before buying any bostadsrätt, demand:
 
 ### Climate change projections (SMHI)
 
-- +1.5–4.5 °C by 2050 (RCP scenarios)
+- Annual mean temperature ~+3 °C (RCP4.5) / ~+6 °C (RCP8.5) by 2100 vs 1961–1990, largest rise in the north; the scenarios differ little for 2021–2050 (2015 data, source: SMHI report for Dricksvattenutredningen, AR5/RCP basis — rates/figures may have changed since). Sweden's warming since the 1800s has been twice the global rise of just over 1 °C (source: SMHI)
 - More precipitation: winter floods, summer drought
-- Sea-level rise affecting south + west coasts (+30-70 cm by 2100)
+- Sea-level rise: global mean +28–55 cm (SSP1-1.9) to +63–101 cm (SSP5-8.5) by 2100 vs 1995–2014, IPCC AR6 likely range; land uplift offsets it, so mean water level rises mainly in the south while parts of the Norrland coast still see it fall. Per-kustkommun projections adjusted for uplift: `https://www.smhi.se/klimat/framtidens-klimat/stigande-havsnivaer/framtida-medelvattenstand` (IPCC AR6 2021 data, current SMHI reference; source: SMHI)
 - Heat waves: Skåne + central SE more frequent
 - Forest fire risk rising sharply
 - Permafrost retreat: Norrland
@@ -274,17 +276,19 @@ Before buying any bostadsrätt, demand:
 
 - Most populated areas: kommunal mains universal
 - **Glesbygd (rural) + sommarstugor**: often **enskilt avlopp** (BDT + 3-chamber tank + filter)
-- **EU Urban Wastewater Directive 2026** may tighten rural requirements
+- **Recast EU Urban Wastewater Treatment Directive (EU) 2024/3019**: in force since 1 Jan 2025; requires collection + treatment in all urban areas of more than 1,000 inhabitants (source: European Commission DG ENV). Effect on rural enskilt avlopp depends on Swedish transposition — verify with the kommun's miljöförvaltning
 
 ### Costs
 
 | Scenario | Cost (SEK) |
 |---|---:|
-| Anslutning to mains | 30,000–80,000 |
-| Mains-line extension via kommun | 50,000–250,000+ |
-| Enskilt avlopp 3-chamber + filter | 80,000–250,000 |
-| Markbädd renovation | 60,000–150,000 |
-| Borrad brunn (drilled well) | 80,000–150,000 |
+| Anslutning to mains (anläggningsavgift, villa) | 196,290 mean / 184,779 median (2025) |
+| Mains-line extension via kommun | est. 50,000–250,000+ |
+| Enskilt avlopp 3-chamber + filter | est. 80,000–250,000 |
+| Markbädd renovation | est. 60,000–150,000 |
+| Borrad brunn (drilled well) | est. 80,000–150,000 |
+
+The connection fee is the one-off anläggningsavgift in each kommun's VA-taxa, so check the local taxa; highest for a villa in 2025: Sotenäs, Norrtälje, Uddevalla. Mean annual VA usage fee for a villa: SEK 11,658/yr (2025 data, source: Svenskt Vatten "2025 års taxestatistik", industry association covering all 290 kommuner — rates/figures may have changed since). `est.` rows: ranges carried from the 2026-04 research without a published source — get local quotes.
 
 ---
 
@@ -352,12 +356,12 @@ Before buying any bostadsrätt, demand:
 |---|---|
 | **Lantmäteriet** | Title verification, lagfart, fastighetsutdrag |
 | **Kommun byggnadsnämnd** | Permits, detaljplan, strandskydd |
-| **Kronofogden** | Pending lawsuits, encumbrances |
-| **Skatteverket** | Lagfartsskatt, capital gains |
+| **Kronofogden** | Debt enforcement: seller's debts, utmätning, evictions, auctions of seized property (lawsuits sit with the tingsrätt; inteckningar + servitut are registered by Lantmäteriet) |
+| **Skatteverket** | Taxeringsvärde, fastighetsavgift, capital gains (stämpelskatt on lagfart is calculated + invoiced by Lantmäteriet) |
 | **BRF styrelse + förvaltning** | If bostadsrätt: financial state, assessments |
 | **VA-bolag (kommunalt)** | Mains drains verification |
 | **Länsstyrelse** | Strandskydd, naturreservat |
-| **SGU** | Radon mapping |
+| **SGU** | Geology, gamma-radiation (uranium) maps, wells archive; radon-risk maps come from the kommun, indoor radon from measurement (SSM) |
 
 ## Quirks to know
 
@@ -381,10 +385,13 @@ Before buying any bostadsrätt, demand:
 | SCB Fastighetspriser | `https://www.scb.se/hitta-statistik/statistik-efter-amne/boende-bebyggelse-och-mark/fastigheter/fastighetspriser-och-lagfarter/` |
 | Mäklarstatistik | `https://www.maklarstatistik.se/` |
 | Skatteverket Fastighetsskatt | `https://www.skatteverket.se/privat/fastigheterochbostad/fastighetsavgiftochfastighetsskatt.html` |
-| MSB Översvämningskartor | `https://www.msb.se/sv/amnesomraden/skydd-mot-olyckor-och-farliga-amnen/naturolyckor-och-klimat/oversvamning/` |
-| SGU Radonkarta | `https://www.sgu.se/produkter-och-tjanster/kartor/kartvisaren/` |
+| MCF Översvämningskarteringar (ex-MSB) | `https://www.mcf.se/sv/amnesomraden/skydd-mot-olyckor-och-farliga-amnen/naturolyckor-och-klimat/oversvamning/oversvamningskarteringar/` |
+| SMHI framtida medelvattenstånd (per kustkommun) | `https://www.smhi.se/klimat/framtidens-klimat/stigande-havsnivaer/framtida-medelvattenstand` |
+| SGU Kartvisaren (gamma-radiation / uranium layers; no national radon map) | `https://www.sgu.se/produkter-och-tjanster/kartor/kartvisaren/` |
 | Boverket | `https://www.boverket.se/` |
 | Trafikverket | `https://www.trafikverket.se/` |
+| Trafikverket Vägtrafikflöden (ÅDT) | `https://bransch.trafikverket.se/tjanster/trafiktjanster/Vagtrafik--och-hastighetsdata/fordonsfloden-och-hastigheter/` |
+| Lastkajen (NVDB road data) | `https://lastkajen.trafikverket.se/` |
 | Klimatanpassning | `https://www.klimatanpassning.se/` |
 
 ## Status

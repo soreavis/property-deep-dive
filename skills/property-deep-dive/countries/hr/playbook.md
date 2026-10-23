@@ -5,12 +5,12 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 ## Country profile
 
 - **Postcode**: 5 digits (`10000` Zagreb central, `21000` Split, `20000` Dubrovnik, `52100` Pula)
-- **Admin levels**: 21 županije (counties) + 555 cities/municipalities
+- **Admin levels**: 21 županije (20 counties + Grad Zagreb, which has the special status of both city and county) + 555 other cities/municipalities (428 općine + 127 gradovi; 2015 data, source Government bill P.Z. 919, sabor.hr — rates/figures may have changed since). 2026 cross-check: the Porezna uprava property-tax tally counts 556 cities/municipalities including Grad Zagreb (41 + 12 + 503 = 556, computed), i.e. 555 + Grad Zagreb
 - **Currency**: **EUR (€)** — adopted 1 Jan 2023 (replaced HRK)
 - **Languages**: Croatian (official); Italian, Hungarian, Serbian (regional minorities)
 - **Cadastre**: **dual register** (Croatia famously has separate catastral + land registry — must reconcile both)
   - **DGU Geoportal**: `https://geoportal.dgu.hr/` — central spatial data
-  - **OSS — Zajednički informacijski sustav zemljišnih knjiga i katastra**: `https://oss.uredjenazemlja.hr/` (also via e-Građani) — the official cadastre + land-register route. First copy of a _posjedovni list_ carries no cash charge; each further copy is **EUR 0.66** (2026 data, source gov.hr/hr/posjedovni-list/1312; 2026-09-18 verified). Replaces the former commercial katastar.hr
+  - **OSS — Zajednički informacijski sustav zemljišnih knjiga i katastra**: `https://oss.uredjenazemlja.hr/` (also via e-Građani) — the official cadastre + land-register route. First copy of a _posjedovni list_ carries no cash charge; each further copy is **EUR 0.66** (2026 data, source gov.hr/hr/posjedovni-list/1312; 2026-10-23 verified). Replaces the former commercial katastar.hr
   - **OSS Uređena zemlja**: `https://oss.uredjenazemlja.hr/` — unified search (cadastre + ZK gruntovnica)
 - **Identifier**:
   - Cadastral parcel number `broj čestice` within cadastral municipality `k.o.`
@@ -22,7 +22,7 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Primary sources
 
-- **DZS (Croatian Bureau of Statistics)**: `https://podaci.dzs.hr/` — official residential price index
+- **DZS (Croatian Bureau of Statistics)**: `https://podaci.dzs.hr/` — official residential price index (quarterly; Grad Zagreb / Jadran / Ostalo split) + prices of new flats sold (half-yearly; Zagreb vs other settlements)
 - **HNB (Croatian National Bank)**: `https://www.hnb.hr/` — financial stability + housing market reports
 - **OSS Uređena zemlja**: `https://oss.uredjenazemlja.hr/` — unified cadastre + ZK
 - **Croatia Week property reports** + **Bilten nekretnina** (Eurofast)
@@ -35,7 +35,13 @@ ISO2: `hr`. Status: ✅ Fully populated (researched 2026-04).
 - **Indomio.hr** (REA Group): rising specialist
 - **Eurovilla.hr, dogma-nekretnine.com** — niche
 
-### 2025 price benchmarks (DZS + Njuškalo)
+### Price benchmarks
+
+**Transaction data (primary — DZS)**:
+- **New flats sold, H1 2026**: €2,994/m² national, €3,518/m² Zagreb, €2,754/m² other settlements; +8.7% YoY national, +18.9% YoY Zagreb (2026 data, source DZS GRAD-2026-4-1/1, 7 Sep 2026)
+- **House price index, Q2 2026 (provisional)**: +12.7% YoY national; Grad Zagreb +15.7%, Jadran (Adriatic) +9.0%, Ostalo (rest of country) +15.8%; new dwellings +9.2%, existing +14.1% (2026 data, source DZS CIJ-2026-2-1/2, 1 Oct 2026)
+
+**Asking prices** (listing platforms — secondary, seller-controlled; 2025 data, source Njuškalo — rates/figures may have changed since):
 
 | Region | Avg €/m² (apt asking) | Trend |
 |---|---:|---|
@@ -164,13 +170,16 @@ _(2026 amounts: Porezna uprava comparison table 2025/2026. A bill applies only t
 
 ### Short-let — MAJOR 2025 CRACKDOWN
 
-**2025 Hospitality Activities Act** (effective May 2025):
-- **80% co-owner consent** required to operate STR in multi-unit building (raised from 66% earlier in 2025 under Building Management Act)
-- **Plus immediate-neighbour approval** (units sharing walls/floors/ceilings)
-- **Mandatory unique national registration number** for all STRs
+**Zakon o upravljanju i održavanju zgrada** (NN 152/24, 47/26; in force 1 Jan 2025) + **Zakon o ugostiteljskoj djelatnosti** amendment (NN 152/24):
+- **Two-thirds co-owner consent** (prior, written) required to let a flat short-term in a multi-unit building (Art. 34); the MPGI model consent decision counts co-owners holding more than 66% of the total floor area of all special parts. The enacted text has no 80% threshold (2026 data, source Narodne novine NN 152/24 + zakon.hr consolidated text + mpgi.gov.hr model decision)
+- **Plus consent of every owner of an adjoining flat** (sharing walls/floors/ceilings); consent runs for a fixed term of at least 5 years, binds later owners, and can be revoked by simple majority after 3+ house-rule breaches within 2 years (Art. 34)
+- Flats already let short-term on 1 Jan 2025 must collect the consent within 5 years (Art. 63(2)); the household-accommodation approval requires it (Zakon o ugostiteljskoj djelatnosti Art. 34(2) point 4)
+- **Registration number — PROPOSED, not in force**: the new Zakon o ugostiteljskoj djelatnosti (P.Z.E. 315; Sabor accepted the first reading 3 Jul 2026, 78 for / 14 against / 37 abstentions) implements Regulation (EU) 2024/1028 — one registration number per accommodation unit, requested through the integrated tourism information system and shown in every platform listing; planned entry into force 1 Jan 2027 (2026 data, source sabor.hr P.Z.E. 315 bill text). The consolidated act in force (NN 85/15 … 152/24, source zakon.hr) has no unit registration number
 - **Result**: ~7,000 STR beds reported removed in one Dalmatian county (single secondary report — county/year unconfirmed); Adriatic supply contracting
 
-#### Categories (ATA classification via local Turistička zajednica)
+#### Categories
+
+_Approval (rješenje) and categorisation are issued by the county administrative office (in Zagreb, the Gradski ured za gospodarstvo), not by the Turistička zajednica (2026 data, source Porezna uprava — Iznajmljivač turistima)._
 
 - **Apartman** (apartment)
 - **Soba** (room)
@@ -179,9 +188,10 @@ _(2026 amounts: Porezna uprava comparison table 2025/2026. A bill applies only t
 
 #### Tax
 
-- Long-term rentals: 8% income tax
-- Short-term rentals: 10% income tax
-- Both with applicable indexation
+- **Long-term letting** (porez na dohodak od imovine): **12%** on rent less a flat **30%** expense allowance = 8.4% of gross rent (computed 0.12 × 0.70) (2026 data, source Porezna uprava — Najmodavac stambenog prostora)
+- **Tourist letting in a household** (owner-let, max 20 beds or 10 camp units, outside VAT): no % income tax — an annual **paušalni porez per bed** (tax = beds × per-bed amount), set by the local council by 15 Dec for the next year within ranges by tourism-development category (ITR): Cat I €100–300 (€200 if no decision), Cat II €70–200 (€135), Cat III €30–150 (€90), Cat IV/0 €20–100 (€60); paid quarterly (2026 data, source Porezna uprava — Iznajmljivač turistima)
+- **PROPOSED from 1 Jan 2027, not adopted**: Government bill P.Z. 339 (sent to Sabor 10 Sep 2026; ZPD still cited as NN 115/16 … 152/24 in Narodne novine 120/2026 of 21 Oct 2026) raises Cat I to €150–300 (default €225) and Cat II to €100–200 (default €150); Cat III and IV/0 unchanged; councils whose current amount falls outside the new range must adopt and file a new decision by 1 Mar 2027, otherwise the default applies (bill Arts 4, 13, 16; source sabor.hr P.Z. 339) — verify the enacted text in Narodne novine
+- Above those household limits, or once inside the VAT system (threshold €60,000 since 1 Jan 2025), letting income is taxed as self-employment from business books
 
 ---
 
@@ -190,23 +200,22 @@ _(2026 amounts: Porezna uprava comparison table 2025/2026. A bill applies only t
 ### Sources
 
 - **HZZ (Hrvatski zavod za zapošljavanje)**: `https://www.hzz.hr/` — employment service
-- **MojPosao.net** — biggest: `https://www.moj-posao.net/`
-- **Posao.hr**, **Bika.net**, **LinkedIn HR**
+- **MojPosao** — biggest: `https://mojposao.hr/` (moj-posao.net 301-redirects here, checked 2026-10-23; operator Alma Career Croatia d.o.o.)
+- **Posao.hr**, **Njuškalo Posao** (`https://www.njuskalo.hr/posao` — bika.net 301-redirects here, checked 2026-10-23), **LinkedIn HR**
 
 ### Self-employment
 
 - **Obrt** = sole trader (registered at HOK)
-- **D.o.o.** = limited; min €2,500 capital
-- **PDV (VAT)** registration: from €40,000 turnover
-- **Paušalni obrt**: flat-rate up to €40,000 turnover (preferential)
+- **D.o.o.** = limited; min €2,500 share capital; **j.d.o.o.** (simplified, max 5 members) min €1 (Zakon o trgovačkim društvima Arts 389(2), 390.a(3); 2026 data, source zakon.hr consolidated text)
+- **PDV (VAT)** registration: above €60,000 annual domestic turnover, since 1 Jan 2025 (2026 data, source Narodne novine NN 152/24 Art. 90(1) + Porezna uprava)
+- **Paušalni obrt**: flat-rate tax for obrtnici outside VAT with receipts up to €60,000/yr; 12% on a fixed bracket base, paid quarterly (2026 data, source Porezna uprava — Obrtnici paušalisti). **PROPOSED from 1 Jan 2027, not adopted** (P.Z. 339): recognised expenses cut from 85% to 70% for receipts €40,000.01–50,000 and to 55% for €50,000.01–60,000; brackets up to €40,000 unchanged (source sabor.hr P.Z. 339 bill text)
 
-### Salary benchmarks (2025)
+### Salary benchmarks (2026)
 
-- Median monthly gross:
-  - Zagreb: ~€1,700–€2,400
-  - Split / Rijeka / Osijek: ~€1,400–€1,900
-  - Smaller cities: ~€1,200–€1,600
-- **Minimum wage**: €970/month gross (2025)
+- **National** (employees of legal entities, June 2026): median gross **€1,850**/month, average gross €2,184; median net €1,345, average net €1,555 (2026 data, source DZS RAD-2026-1-1/6, 21 Aug 2026)
+- **Grad Zagreb** (city, May 2026): median gross €2,110, average gross €2,528 (2026 data, source City of Zagreb statistics bulletin of 12 Aug 2026, DZS data)
+- **County average gross, Q2 2026** (county of the employee's residence — county-level, not city-level): Grad Zagreb €2,604 (highest); Primorsko-goranska (Rijeka) €2,189; Splitsko-dalmatinska (Split) €2,085; Osječko-baranjska (Osijek) €2,034; Istarska €2,029; Dubrovačko-neretvanska €1,995; Virovitičko-podravska €1,865 (lowest) (2026 data, source DZS RAD-2026-1-6/2, 28 Aug 2026)
+- **Minimum wage**: €1,050/month gross for 2026 (Uredba o visini minimalne plaće za 2026., NN 132/2025); the 2027 amount is set by government decree by 31 Oct 2026 and cannot be lower than the 2026 amount (Zakon o minimalnoj plaći Arts 5–6) — verify the 2027 decree in Narodne novine
 
 ---
 
