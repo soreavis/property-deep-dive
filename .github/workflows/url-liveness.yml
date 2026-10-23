@@ -39,7 +39,10 @@ jobs:
     # Hard ceiling above the local-dry-run baseline of ~28 min cold (1,708s
     # against the live 6,586-URL corpus on 2026-05-26) and expected ~5-8 min
     # warm. 60 min gives ~2× headroom for CI network variability + GH-runner
-    # IP-specific upstream throttling.
+    # IP-specific upstream throttling. The baseline predates the meta-refresh
+    # check, which adds a GET after any 200 HTML HEAD with no or a ≤8 KB
+    # Content-Length; that extra volume is unmeasured, so re-baseline on the
+    # next cold run.
     timeout-minutes: 60
 
     steps:

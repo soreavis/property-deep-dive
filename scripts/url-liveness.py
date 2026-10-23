@@ -7,6 +7,9 @@ Async aiohttp checker that:
   * throttles per-host (config-driven; EUR-Lex 1@10s, legifrance 1@2s, gov-suffix 1@1s, default 2@500ms)
   * caps global throughput (default 10 req/s + 64 concurrent)
   * does HEAD-then-GET with retry/backoff/Retry-After respect
+  * resolves each host first; a "name not known" that public resolvers confirm as NXDOMAIN is its own class and skips the HTTP check
+  * follows short-delay <meta http-equiv="refresh"> on 200 HTML pages (same hop cap as redirects)
+  * retries plain http:// once when https fails or times out connecting (TCP/TLS) and marks a hit HTTP_ONLY
   * detects Cloudflare challenges (cf-ray header / "Just a moment" title) and marks INDETERMINATE
   * caches LIVE/REDIRECT_LIVE 30d, AUTH_REQUIRED 7d (TTL configurable); never caches DEAD/TIMEOUT/INDETERMINATE
   * uses 3-run rolling fail-streak before declaring DEAD
@@ -31,14 +34,17 @@ import json
 import os
 import random
 import re
+import socket
 import sys
 import time
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
+from html.parser import HTMLParser
 from pathlib import Path
-from typing import Any
-from urllib.parse import urlparse
+from typing import Any, NamedTuple
+from urllib.parse import urljoin, urlparse
 from urllib.robotparser import RobotFileParser
 
 try:
@@ -65,9 +71,17 @@ BOT_BLOCKED = "BOT_BLOCKED"
 RATE_LIMITED = "RATE_LIMITED"
 ROBOTS_EXCLUDED = "ROBOTS_EXCLUDED"
 EXCLUDED = "EXCLUDED"
+NXDOMAIN = "NXDOMAIN"
+HTTP_ONLY = "HTTP_ONLY"
 
 CACHEABLE_CLASSES = {LIVE, REDIRECT_LIVE, AUTH_REQUIRED}
 SCORE_EXCLUDED_CLASSES = {ROBOTS_EXCLUDED, EXCLUDED}
+FAIL_CLASSES = {DEAD, TIMEOUT, NXDOMAIN}
+
+CONNECT_FAILED = -1  # pseudo-status: TCP/TLS connection failed or timed out, no HTTP response
+CONNECT_TIMEOUT_S = 10
+MAX_REFRESH_DELAY_S = 10  # longer meta refreshes are session timeouts / periodic reloads, not redirect stubs
+REFRESH_STUB_MAX_BYTES = 8192
 
 
 # ── Config ───────────────────────────────────────────────────────────────────
@@ -273,6 +287,79 @@ class RobotsCache:
             return None
 
 
+# ── DNS ──────────────────────────────────────────────────────────────────────
+# Own pool: on the loop's default executor, a backlog of thousands of pre-pass lookups would
+# queue ahead of aiohttp's lookups and push robots.txt fetches past their timeout.
+_DNS_POOL = ThreadPoolExecutor(8)
+DNS_RESOLVERS = (("1.1.1.1", 53), ("8.8.8.8", 53))
+DNS_QUERY_TIMEOUT_S = 2
+DNS_QUERY_TRIES = 3  # one send each got no reply for 23 of 188 queries in a full-corpus run
+RCODE_NXDOMAIN = 3
+
+
+async def _rcode(host: str, resolver: tuple[str, int]) -> int | None:
+    """RCODE of an A query sent straight to resolver, past the OS resolver and its cache; None without a reply.
+
+    Non-blocking socket on the loop, so a resolver that never answers holds no _DNS_POOL thread.
+    """
+    try:
+        qid = os.urandom(2)
+        qname = b"".join(bytes([len(label)]) + label for label in host.rstrip(".").encode("idna").split(b"."))
+        # header: id, flags RD, one question; question: qname, root, type A, class IN
+        query = qid + b"\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00" + qname + b"\x00\x00\x01\x00\x01"
+        loop = asyncio.get_running_loop()
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
+            sock.setblocking(False)
+            sock.connect(resolver)
+            for _ in range(DNS_QUERY_TRIES):
+                await loop.sock_sendall(sock, query)
+                try:
+                    async with asyncio.timeout(DNS_QUERY_TIMEOUT_S):
+                        while True:
+                            reply = await loop.sock_recv(sock, 512)
+                            if len(reply) > 3 and reply[:2] == qid and reply[2] & 0x80:
+                                return reply[3] & 0x0F
+                except TimeoutError:
+                    pass
+    except (OSError, ValueError):  # a refused port is an OSError; ValueError: IDNA
+        pass
+    return None
+
+
+class DnsCache:
+    """One verdict per host, shared by concurrent callers.
+
+    NXDOMAIN needs an EAI_NONAME ("name not known") from getaddrinfo and RCODE 3 from every
+    resolver in DNS_RESOLVERS, queried directly. EAI_NONAME alone proves nothing: a lookup
+    failing under load comes back EAI_NONAME, macOS also folds SERVFAIL and no-address answers
+    into it, and mDNSResponder caches that negative, so asking the OS again repeats the wrong
+    answer. Two independent resolvers must agree because one alone returned a false NXDOMAIN
+    in an earlier sweep. SERVFAIL, NOERROR without an address, a resolver not replying, and any
+    other getaddrinfo failure (EAI_AGAIN etc.) leave the host to the normal HTTP check.
+    """
+
+    def __init__(self):
+        self._lookups: dict[str, asyncio.Future[bool]] = {}
+
+    async def is_nxdomain(self, host: str) -> bool:
+        if host not in self._lookups:
+            self._lookups[host] = asyncio.ensure_future(self._resolve(host))
+        return await self._lookups[host]
+
+    @staticmethod
+    async def _resolve(host: str) -> bool:
+        try:
+            await asyncio.get_running_loop().run_in_executor(_DNS_POOL, socket.getaddrinfo, host, None)
+            return False
+        except socket.gaierror as e:
+            if e.errno != socket.EAI_NONAME:
+                return False
+        except (OSError, ValueError):  # ValueError: IDNA rejects labels over 63 chars
+            return False
+        rcodes = await asyncio.gather(*(_rcode(host, ns) for ns in DNS_RESOLVERS))
+        return bool(rcodes) and all(rc == RCODE_NXDOMAIN for rc in rcodes)
+
+
 # ── Throttles ────────────────────────────────────────────────────────────────
 class GlobalRateLimiter:
     """Token-bucket: drip rate_per_sec tokens/s, capacity = rate_per_sec."""
@@ -327,6 +414,14 @@ class CheckResult:
     note: str = ""
 
 
+class Response(NamedTuple):
+    status: int
+    title: str
+    headers: dict
+    final_url: str
+    refresh: str = ""  # absolute meta-refresh target of a 200 HTML GET
+
+
 def _classify(status: int, body_title: str, headers: dict, cfg: Config) -> tuple[str, str]:
     if status in cfg.live_codes and 200 <= status < 300:
         return LIVE, ""
@@ -349,6 +444,8 @@ def _classify(status: int, body_title: str, headers: dict, cfg: Config) -> tuple
         return INDETERMINATE, f"indeterminate {status}"
     if status in (404, 410):
         return DEAD, f"http {status}"
+    if status == CONNECT_FAILED:
+        return TIMEOUT, "connection/TLS error or connect timeout"
     if status == 0:
         return TIMEOUT, "timeout/connection error"
     if 400 <= status < 500:
@@ -357,6 +454,46 @@ def _classify(status: int, body_title: str, headers: dict, cfg: Config) -> tuple
 
 
 _TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTALL)
+_REFRESH_CONTENT_RE = re.compile(r"\s*([\d.]+)\s*[;,]?\s*(?:url\s*=\s*)?(['\"]?)(.*?)\2\s*", re.IGNORECASE | re.DOTALL)
+
+
+class _MetaRefreshParser(HTMLParser):
+    """First refresh tag outside <noscript>, which browsers with scripting on ignore."""
+
+    def __init__(self):
+        super().__init__()
+        self.content = ""
+        self._noscript = 0
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == "noscript":
+            self._noscript += 1
+        elif tag == "meta" and not self._noscript and (a.get("http-equiv") or "").lower() == "refresh":
+            self.content = self.content or a.get("content") or ""
+
+    def handle_endtag(self, tag):
+        if tag == "noscript":
+            self._noscript = max(0, self._noscript - 1)
+
+
+def _meta_refresh_target(html: str, base_url: str) -> str:
+    """Absolute http(s) target of the first <meta http-equiv="refresh" content="N;url=..."> with
+    N <= MAX_REFRESH_DELAY_S, or "". N is the integer part, as browsers parse it."""
+    parser = _MetaRefreshParser()
+    parser.feed(html)
+    m = _REFRESH_CONTENT_RE.fullmatch(parser.content)
+    if not m or not m.group(3) or int(m.group(1).partition(".")[0] or 0) > MAX_REFRESH_DELAY_S:
+        return ""
+    target = urljoin(base_url, m.group(3))
+    return target if urlparse(target).scheme in ("http", "https") else ""
+
+
+def _may_be_refresh_stub(headers: dict) -> bool:
+    """HTML with no Content-Length or a stub-sized one; full-size pages are not worth a GET for a refresh."""
+    h = {k.lower(): v for k, v in headers.items()}
+    size = h.get("content-length", "")
+    return "html" in h.get("content-type", "").lower() and (not size.isdigit() or int(size) <= REFRESH_STUB_MAX_BYTES)
 
 
 async def _http_request(
@@ -364,34 +501,41 @@ async def _http_request(
     method: str,
     url: str,
     cfg: Config,
-) -> tuple[int, str, dict, str]:
-    """Return (status, body_title_or_empty, headers, final_url). status=0 on transport error."""
+) -> Response:
+    """status=0 on timeout or other transport error, CONNECT_FAILED when TCP/TLS setup fails or times out."""
     try:
         async with session.request(
             method,
             url,
-            timeout=aiohttp.ClientTimeout(total=cfg.request_timeout),
+            timeout=aiohttp.ClientTimeout(total=cfg.request_timeout, sock_connect=CONNECT_TIMEOUT_S),
             allow_redirects=True,
             max_redirects=cfg.follow_redirects_max,
             headers={"User-Agent": cfg.user_agent},
         ) as resp:
             headers = dict(resp.headers)
             body_title = ""
-            # Read a small slice only to look for challenge titles (cap 4KB)
+            refresh = ""
+            # Read a small slice only to look for challenge titles and meta refresh (cap 4KB)
             if method == "GET" and resp.content_type and "html" in resp.content_type.lower():
-                # A body that dies mid-read still has a valid status — classify on that alone
-                with contextlib.suppress(aiohttp.ClientError, asyncio.TimeoutError):
-                    chunk = await resp.content.read(4096)
-                    m = _TITLE_RE.search(chunk.decode("utf-8", errors="replace"))
+                # A body that dies mid-read still has a valid status — classify on that alone.
+                # ValueError: urljoin/urlparse reject a malformed refresh target.
+                with contextlib.suppress(aiohttp.ClientError, asyncio.TimeoutError, ValueError):
+                    chunk = (await resp.content.read(4096)).decode("utf-8", errors="replace")
+                    m = _TITLE_RE.search(chunk)
                     if m:
                         body_title = m.group(1).strip()
-            return resp.status, body_title, headers, str(resp.url)
+                    if resp.status == 200:
+                        refresh = _meta_refresh_target(chunk, str(resp.url))
+            return Response(resp.status, body_title, headers, str(resp.url), refresh)
+    except aiohttp.ConnectionTimeoutError:  # subclass of asyncio.TimeoutError, so caught first
+        return Response(CONNECT_FAILED, "", {}, url)
     except asyncio.TimeoutError:
-        return 0, "", {}, url
-    except aiohttp.ClientError:
-        return 0, "", {}, url
+        return Response(0, "", {}, url)
+    except aiohttp.ClientConnectorError as e:
+        # aiohttp wraps DNS failures here too; plain http cannot fix those.
+        return Response(0 if isinstance(e.os_error, socket.gaierror) else CONNECT_FAILED, "", {}, url)
     except Exception:
-        return 0, "", {}, url
+        return Response(0, "", {}, url)
 
 
 def _retry_after_seconds(headers: dict) -> float | None:
@@ -419,37 +563,47 @@ async def check_one(
     if not await robots.can_fetch(url):
         return CheckResult(url=url, status=0, cls=ROBOTS_EXCLUDED, checked_at=now_iso, note="robots.txt Disallow")
 
-    last_status = 0
-    last_final = url
-    last_cls = INDETERMINATE
-    last_note = ""
-    note = ""
+    async def get(target: str) -> Response:
+        await host_throttle.gate()
+        await rate_limiter.acquire()
+        return await _http_request(session, "GET", target, cfg)
+
+    resp = Response(0, "", {}, url)
+    cls, note = INDETERMINATE, ""
+    hops: list[str] = []
 
     for attempt in range(cfg.max_retries):
         await host_throttle.gate()
         async with host_throttle.sem:
             await rate_limiter.acquire()
             # HEAD first
-            status, title, headers, final_url = await _http_request(session, "HEAD", url, cfg)
+            resp = await _http_request(session, "HEAD", url, cfg)
             # GET fallback on any non-success: HEAD-method allergy (400/405/406), bot-detection
             # 404 (sites serving 404 to non-browser clients), 403/auth, transport error (0), 5xx, or
             # the long-tail non-standard 4xx codes some WAFs emit (466/468/421/412 etc). The HEAD
             # response is unreliable for many gov / tax-authority hosts (triage 2026-05-27 showed
             # 74 / 267 reported-DEAD URLs returned 200 on GET with browser UA).
-            head_succeeded_2xx_3xx = 200 <= status < 400
-            if not head_succeeded_2xx_3xx:
-                await host_throttle.gate()
-                await rate_limiter.acquire()
-                status, title, headers, final_url = await _http_request(session, "GET", url, cfg)
+            # A 200 HTML HEAD that may be a refresh stub also gets a GET, kept only if its body carries
+            # a meta refresh, so a blocked or slow GET cannot demote a live HEAD.
+            head_succeeded_2xx_3xx = 200 <= resp.status < 400
+            if not head_succeeded_2xx_3xx or (resp.status == 200 and _may_be_refresh_stub(resp.headers)):
+                got = await get(url)
+                if not head_succeeded_2xx_3xx or got.refresh:
+                    resp = got
+            # Meta-refresh hops are capped like redirects; a loop back to a visited URL stops at the current page.
+            hops = []
+            seen = {url, resp.final_url}
+            while resp.refresh and resp.refresh not in seen and len(hops) < cfg.follow_redirects_max:
+                hops.append(resp.refresh)
+                resp = await get(resp.refresh)
+                seen |= {hops[-1], resp.final_url}
 
-        last_status, last_final = status, final_url
-        cls, note = _classify(status, title, headers, cfg)
-        last_cls, last_note = cls, note
+        cls, note = _classify(resp.status, resp.title, resp.headers, cfg)
         if cls in (LIVE, REDIRECT_LIVE, AUTH_REQUIRED, BOT_BLOCKED, ROBOTS_EXCLUDED, DEAD):
             break
         # Retryable: TIMEOUT / RATE_LIMITED / INDETERMINATE 5xx
         if attempt < cfg.max_retries - 1:
-            ra = _retry_after_seconds(headers)
+            ra = _retry_after_seconds(resp.headers)
             if ra is not None:
                 sleep_for = min(ra, 60)
             else:
@@ -458,13 +612,21 @@ async def check_one(
                 sleep_for = base + random.uniform(-jitter, jitter)
             await asyncio.sleep(max(0.0, sleep_for))
 
+    if resp.status == CONNECT_FAILED and not hops and url.startswith("https://"):
+        async with host_throttle.sem:
+            plain = await get("http://" + url.removeprefix("https://"))
+        if 200 <= plain.status < 400:
+            resp, cls, note = plain, HTTP_ONLY, "https connection/TLS error; the http:// variant answers"
+    if hops:
+        note = "; ".join(filter(None, [note, "meta-refresh → " + " → ".join(hops)]))
+
     return CheckResult(
         url=url,
-        status=last_status,
-        cls=last_cls,
+        status=resp.status,
+        cls=cls,
         checked_at=now_iso,
-        final_url=last_final if last_final != url else "",
-        note=last_note,
+        final_url=resp.final_url if resp.final_url != url else "",
+        note=note,
     )
 
 
@@ -531,10 +693,10 @@ def compute_score(entries: dict[str, dict], cfg: Config) -> dict[str, Any]:
         if cls in SCORE_EXCLUDED_CLASSES:
             continue
         counted += 1
-        if cls in (DEAD, TIMEOUT) and fail_streak >= cfg.fail_streak_for_dead:
+        if cls in FAIL_CLASSES and fail_streak >= cfg.fail_streak_for_dead:
             confirmed_dead.append({"url": url, "cls": cls, "streak": fail_streak, "note": e.get("note", "")})
             by_host_dead[urlparse(url).netloc.lower()] += 1
-        elif cls in (DEAD, TIMEOUT):
+        elif cls in FAIL_CLASSES:
             pending_dead.append({"url": url, "cls": cls, "streak": fail_streak})
 
     confirmed_count = len(confirmed_dead)
@@ -617,6 +779,7 @@ async def run_check(
     connector = aiohttp.TCPConnector(limit=cfg.global_concurrency * 2, ssl=False)
     async with aiohttp.ClientSession(timeout=timeout, connector=connector) as session:
         robots = RobotsCache(session, cfg.user_agent)
+        dns = DnsCache()
 
         async def worker(url: str):
             nonlocal cache_hits, fresh_checks
@@ -636,24 +799,31 @@ async def run_check(
             if use_cached:
                 cache_hits += 1
                 return
-            policy = cfg.host_policy(host)
-            # Robots Crawl-delay can RAISE our floor; never lowers it
-            cd = await robots.crawl_delay(host)
-            if cd is not None and cd * 1000 > policy.interval_ms:
-                policy = HostPolicy(policy.concurrency, int(cd * 1000), policy.reason + f" + robots Crawl-delay {cd}s")
-            ht = host_throttles.get(host)
-            if ht is None:
-                ht = HostThrottle(policy.concurrency, policy.interval_ms)
-                host_throttles[host] = ht
+            hostname = urlparse(url).hostname
+            if hostname and await dns.is_nxdomain(hostname):
+                result = CheckResult(
+                    url=url, cls=NXDOMAIN, checked_at=datetime.now(timezone.utc).isoformat(),
+                    note=f"DNS: {hostname} does not exist (resolver NXDOMAIN)",
+                )
+            else:
+                policy = cfg.host_policy(host)
+                # Robots Crawl-delay can RAISE our floor; never lowers it
+                cd = await robots.crawl_delay(host)
+                if cd is not None and cd * 1000 > policy.interval_ms:
+                    policy = HostPolicy(policy.concurrency, int(cd * 1000), policy.reason + f" + robots Crawl-delay {cd}s")
+                ht = host_throttles.get(host)
+                if ht is None:
+                    ht = HostThrottle(policy.concurrency, policy.interval_ms)
+                    host_throttles[host] = ht
 
-            async with global_sem:
-                result = await check_one(session, url, cfg, ht, rate_limiter, robots)
+                async with global_sem:
+                    result = await check_one(session, url, cfg, ht, rate_limiter, robots)
 
             fresh_checks += 1
             prev_streak = entry.get("fail_streak", 0) if entry else 0
             prev_cls = entry.get("cls", "") if entry else ""
-            if result.cls in (DEAD, TIMEOUT):
-                new_streak = prev_streak + 1 if prev_cls in (DEAD, TIMEOUT) else 1
+            if result.cls in FAIL_CLASSES:
+                new_streak = prev_streak + 1 if prev_cls in FAIL_CLASSES else 1
             else:
                 new_streak = 0
             cache[url] = {
