@@ -1841,6 +1841,17 @@
       "region": "Africa"
     },
     {
+      "id": "mu-family-occupation-permit",
+      "country": "mu",
+      "programme": "~~Family Occupation Permit~~",
+      "status": "**ABOLISHED 13 Aug 2026**",
+      "min_threshold": "n/a (was a USD 250,000 contribution to the COVID-19 Projects Development Fund)",
+      "property_linked": "n/a",
+      "pr_citizenship": "n/a",
+      "caveats": "Act 13 of 2026 s.15(e)(ii) repeals EDB Act First Schedule Part II, in force 13 Aug 2026; Bill No. XIII of 2026 has no savings provision for existing holders — verify renewals with the EDB; Investor OP (USD 100,000) and Golden Visa (USD 1M) are separate routes",
+      "region": "Africa"
+    },
+    {
       "id": "cv-permanent-residence-for-foreign-investors-cape-verde-green-card",
       "country": "cv",
       "programme": "Permanent Residence for Foreign Investors (\"Cape Verde Green Card\")",

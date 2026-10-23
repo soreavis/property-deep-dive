@@ -180,7 +180,7 @@ Domicile is **gone** for income tax + CGT. Replaced by:
 ### Foreign rental — overseas property business
 ITTOIA 2005 §§ 264-265 (overseas property business chargeable only if carried on by UK resident). Computed using UK-property-business rules; profits **pooled separately** — overseas losses cannot offset UK pool, only future overseas profits. Reported on **SA106 Foreign Pages**, in £-sterling. **From 2027-28** property income, overseas property business profits included, is taxed at separate property rates: basic 22% / higher 42% / additional 47% (Finance Act 2026 s.6, new ITA 2007 s.17A(2)(a), + s.7; [legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2026/11/section/7), 2026-10-23 verified).
 
-**Mortgage/finance-cost restriction** ITTOIA 2005 §§ 272A-B (FA No. 2 2015 § 24, fully phased in 6 Apr 2020): no deduction from rental for residential finance costs; replaced by 20% basic-rate tax reducer capped at lower of finance costs / property profits / total income above PA. **Applies equally to UK and overseas property** (§ 272A(7)).
+**Mortgage/finance-cost restriction** ITTOIA 2005 §§ 272A-B (FA No. 2 2015 § 24, fully phased in 6 Apr 2020): no deduction from rental for residential finance costs; replaced by a basic-rate tax reducer — 20% through 2026-27, 22% (the property basic rate) from 2027-28 (Finance Act 2026 s.6(8) + Sch 1 para 40, substituting PBR for BR in ITTOIA 2005 ss.274AA(5) and 274C(2); [legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2026/11/schedule/1/paragraph/40), 2026-10-23 verified) — capped at lower of finance costs / property profits / total income above PA. **Applies equally to UK and overseas property** (§ 272A(7)).
 
 **FTCR** under ITA 2007 §§ 793-806 / TIOPA 2010 Pt 2: credit foreign tax paid against UK income tax on same income, capped at UK tax payable. Excess foreign tax is unclaimable. Helpsheet HS263.
 
@@ -479,7 +479,7 @@ Resident if ANY of: foyer / lieu de séjour principal in France · main professi
 
 ### Special regimes
 - **Art. 24-bis TUIR — neo-resident lump-sum**:
-  - €100k/y flat tax on foreign income for individuals transferring residence to Italy who were non-resident for ≥ 9 of last 10 years.
+  - Flat tax on foreign income for individuals transferring residence to Italy who were non-resident for ≥ 9 of last 10 years: €100k/y for transfers up to and including 10 Aug 2024 (later tiers below).
   - **Doubled to €200k/y** for residence transfers **after 10 Aug 2024 and up to 31 Dec 2025** (DL 113/2024 art. 2 · Decreto Omnibus). Movers up to and including 10 Aug 2024 keep €100k for the life of the regime (15 years).
   - Family-member add-on €25k each (€50k for transfers from 1 Jan 2026).
   - **Exempts from IVIE/IVAFE and Quadro RW** for assets covered.

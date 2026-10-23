@@ -224,8 +224,8 @@ Local tax (지방세) levied at contract / acquisition; paid within 60 days to �
 
 - **취득세** (조정 2주택, 8 % regime if active): ₩2.5B × 8 % = **₩200M** one-time
 - **재산세** (공시 ₩1.75B × 60 % multi-home ratio = 과세표준 ₩1.05B): ₩570K + 0.4 % × ₩750M = **~₩3.57M/yr** + surcharges → **~₩4.6M/yr**
-- **종부세** (multi-home, 공시 over ₩900M threshold; (₩1.75B − ₩900M) × 60 % = 과세표준 ₩510M; 1.3 % bracket): **~₩6.6M/yr** before various credits (current law; the PROPOSED 2026 세제개편안 would change the deduction and the 60 % ratio from 2027 — recompute on passage)
-- **Total Y1 transaction**: ~₩200M; **Annual recurring**: ~₩11M+ (~€7,100)
+- **종부세** (multi-home, 공시 over ₩900M threshold; (₩1.75B − ₩900M) × 60 % = 과세표준 ₩510M; 0.5 % to ₩300M then 0.7 % to ₩600M — 종부세법 art. 9(1)1, [law.go.kr](https://www.law.go.kr/법령/종합부동산세법), re-checked 2026-10-23): ₩1.5M + ₩210M × 0.7 % = **~₩2.97M/yr** before the art. 9(3) 재산세-overlap credit and other credits (current law; the PROPOSED 2026 세제개편안 would change the deduction and the 60 % ratio from 2027 — recompute on passage)
+- **Total Y1 transaction**: ~₩200M; **Annual recurring**: ~₩7.6M+ (₩4.6M 재산세 incl. surcharges + ₩2.97M 종부세; ~€4,900 est. at the ~₩1,550/€ implied in Example A)
 
 ⚠️ Examples illustrative; final numbers depend on 공시가격 (annual MOLIT release), exact 조정대상지역 status, household composition, and active deductions. Numbers cross-checked against NTS calculation flowchart but TAX FILING REQUIRES CPA (세무사) for non-residents.
 

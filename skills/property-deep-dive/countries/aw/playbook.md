@@ -541,7 +541,7 @@ MEDIUM — Aruba insurance market is small + Caribbean-distributed; figures abov
 | **🇨🇼 Curaçao** | Open, no restriction | similar 5–8% | property tax progressive | 5–8% | ANG (USD-pegged 1.79) |
 | **🇧🇶 Bonaire** | Open (Caribbean Netherlands — special municipality NL) | 6–8% | property tax | 5–8% | **USD** (legal tender since 2011) |
 | **🇰🇾 Cayman** | Open | 7.5% stamp duty + legal | NO annual property tax | 4–6% | KYD (USD-pegged 1.20) |
-| **🇧🇧 Barbados** | Open + 1% property-transfer-tax + 10% stamp duty above BBD 150k | 12–15% | Land tax progressive | 4–6% | BBD (USD-pegged 2.00) |
+| **🇧🇧 Barbados** | Open (foreign-currency inflow registered with the Central Bank); vendor pays 2.5% property transfer tax above BBD 150k (with building) + 1% stamp duty (Cap. 84A ss.5–7 + Cap. 91, per `countries/bb/playbook.md`) | ~2–3% (buyer; PTT + stamp duty vendor-paid) | Land tax progressive | 4–6% | BBD (USD-pegged 2.00) |
 | **🇩🇲 Dominica** | Open + CBI option from USD 200k | 8–12% | minimal property tax | 5–7% | XCD (USD-pegged 2.70) |
 
 ### Aruba's distinctive position

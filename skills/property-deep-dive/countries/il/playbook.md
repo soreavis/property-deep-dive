@@ -94,7 +94,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 - **Israeli-resident "single home" buyer**: progressive 0% / 3.5% / 5% / 8% / 10% scale up to ~ILS 6,055,070 (verify) — *not* available to non-residents.
 - **Bracket indexation FROZEN 2025-2027**: normally indexed annually on 16 January to the CBS housing price index, but indexation is **frozen for tax years 2025, 2026, 2027** under the Economic Efficiency Law / 2025 budget directives; January-2024 brackets remain fixed in nominal shekels through 15 January 2028 — restart planned thereafter, no backfill (2026-05-27 verified per Economic Efficiency Law late-2024 budget package; previously indexed source: Tax Authority circular page `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase`).
-- **CRITICAL**: the bracket numbers above are 2026 reference points; verify current values at the Tax Authority page before signing — they shift every year and have been adjusted mid-year by emergency wartime orders since October 2023.
+- **CRITICAL**: the bracket numbers above are 2026 reference points; verify current values at the Tax Authority page before signing — bracket amounts are frozen through 15 January 2028 (see above), the 8% / 10% non-resident scale is a temporary provision covering purchases up to and including 10 Feb 2027 (ITA notice 12 Oct 2026; see Future risk), and rates have been adjusted mid-year by emergency wartime orders since October 2023.
 
 ### Property Tax Compensation Fund (Israel Tax Authority) — wartime damage cover
 

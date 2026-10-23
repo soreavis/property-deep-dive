@@ -422,14 +422,14 @@ Confidence: MEDIUM-HIGH for SMG regional projections (extrapolated South China d
 | ≤ MOP 8,000,000 | **70%** |
 | > MOP 8,000,000 | **60%** |
 | Investment / second-home / non-self-use | typically **50%** |
-| Non-resident borrower | typically **50%** (case-by-case, more conservative) |
+| Non-resident borrower | no separate cap since **20 Apr 2024**: AMCM cancelled the non-resident counter-cyclical LTV measure and set one **70%** cap for residents and non-residents (residents buying economic housing stay at 90%); the GCS release on the 1 Jan 2026 rise to 80% says the new measures apply to adult Macao residents (permanent and non-permanent) and does not extend them to non-residents, so plan on 70% and confirm with the lender (2026-10-23 verified, source DSF / AMCM release 19 Apr 2024 [gov.mo](https://www.gov.mo/zh-hant/news/1058848/) + [GCS 20 Dec 2025](https://www.gcs.gov.mo/news/detail/en/N25LTlXdJh)) |
 
 - **DSR**: **50% of monthly income** (60% net-worth borrowers); +200bps stress-test framework
 - **Rate structure**: HIBOR-linked dominant (HKD interbank, since MOP pegs HKD pegs USD); HIBOR 1M Q1 2026 ≈ 4.0–4.5% → effective mortgage ≈ 3.5–4.5%
 - **30-year amortisation standard**; fixed-rate residential rare
 - **Foreigner mortgages**: most banks offer to non-residents but typically demand:
   - Macao bank account (passport + proof of address; AMCM AML tightening 2020+)
-  - 50% LTV maximum
+  - LTV set by bank policy, up to the AMCM cap; there has been no separate non-resident regulatory cap since 20 Apr 2024 (see table above)
   - Income evidence + tax returns from home country
   - Major non-resident-friendly: **BNU**, **Bank of China Macau**, **ICBC Macau**, **OCBC Wing Hang**, **BCM (Banco Comercial de Macau)**
 
@@ -572,7 +572,7 @@ Source: [DSAJ list of notários privados](https://www.dsaj.gov.mo/). State notar
 | **🇭🇰 Hong Kong** | Open since Feb 2024 (no BSD); AVD Scale 2 only | 3–6% | Rates 5% + Gov Rent 3% | ~3.9% | HKD→USD peg |
 | **🇸🇬 Singapore** | ABSD 60% for foreigners (Apr 2023) | 60–65%+ | Property tax progressive | ~3.2% | SGD managed-float |
 | **🇯🇵 Japan** | Open; no foreign-buyer surcharge | 6–10% | 固定資産税 1.4% + 都市計画税 0.3% | ~4.0% Tokyo | JPY free-float |
-| **🇰🇷 South Korea** | Open; case-by-case minor | 5–10% | Acquisition + property taxes | ~3.5% | KRW free-float |
+| **🇰🇷 South Korea** | Open outside the permit zones; foreigner 토지거래허가구역 (all of Seoul, 23 Gyeonggi 시·군, 9 Incheon 자치구; to 25 Aug 2027) needs prior permission + 2-yr residence duty (MOLIT, 2026-10-21 verified — see `countries/kr/playbook.md`) | 5–10% | Acquisition + property taxes | ~3.5% | KRW free-float |
 
 ### Macao's distinctive position
 
@@ -829,7 +829,7 @@ If DSF assesses sale as professional trading: Profissional Tax 7–12% progressi
 - **No additional buyer stamp duty** since 20 Apr 2024 (Lei n.º 5/2024) — residents, non-residents and companies pay the same 1–3% scale plus 5% on the duty; eligible resident first-home buyers keep the stamp-duty exemption up to MOP 6,000,000 (see `--tax`)
 - **Public/social/economic housing schemes** via [IH](https://www.ihm.gov.mo/) — subsidised resale ecosystem separate from private market
 - **Talent Programme (Talent Development Committee) — non-fiscal**: residence permit but does NOT confer property-tax preference
-- **No first-time-buyer stamp-duty rebate scheme** (compared to e.g., HK MIP top-up); standard stamp duty schedule applies
+- **No separate first-time-buyer rebate scheme** beyond the resident stamp-duty exemption on the first MOP 6,000,000 (above; see `--tax`); non-residents and companies pay the standard schedule
 
 ## Common listing platforms
 
