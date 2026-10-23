@@ -6,8 +6,11 @@ after, which is the real end-to-end. What is guarded here is the one property th
 broke main: the file handed to `uv pip compile` must already carry the current pins.
 """
 
+import contextlib
 import importlib.util
+import io
 import subprocess
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -65,6 +68,50 @@ class TestSeeding(unittest.TestCase):
             self.assertEqual(self.fake.cmd[self.fake.cmd.index(flag) + 1], value)
         self.assertIn('--generate-hashes', self.fake.cmd)
         self.assertIn('--no-header', self.fake.cmd)
+
+
+class TestUpgradePackage(unittest.TestCase):
+    def setUp(self):
+        self.fake = FakeCompile()
+        self._real = lr.subprocess.run, lr.LOCK
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        lr.subprocess.run = self.fake
+        lr.LOCK = Path(tmp.name) / 'requirements.txt'
+        lr.LOCK.write_text(self._real[1].read_text(encoding='utf-8'), encoding='utf-8')
+
+    def tearDown(self):
+        lr.subprocess.run, lr.LOCK = self._real
+
+    def rejected(self, *argv):
+        with self.assertRaises(SystemExit), contextlib.redirect_stderr(io.StringIO()):
+            lr.main(list(argv))
+        self.assertEqual(self.fake.cmd, [], 'uv ran despite the rejected arguments')
+
+    def test_named_packages_are_lifted_on_top_of_the_seed(self):
+        # The point of the option: a security bump moves one pin, not the whole lock.
+        with contextlib.redirect_stdout(io.StringIO()):
+            lr.main(['-P', 'aiohttp==3.14.4', '--upgrade-package', 'Typing_Extensions'])
+        self.assertIn('pypdf==', self.fake.seed)
+        self.assertNotIn('--upgrade', self.fake.cmd)
+        flags = [self.fake.cmd[i + 1] for i, a in enumerate(self.fake.cmd) if a == '--upgrade-package']
+        self.assertEqual(flags, ['aiohttp==3.14.4', 'Typing_Extensions'])
+
+    def test_combinations_that_make_no_sense_are_refused(self):
+        self.rejected('-P', 'aiohttp', '--upgrade')
+        self.rejected('-P', 'aiohttp', '--check')
+
+    def test_a_name_missing_from_the_lock_is_refused(self):
+        # uv ignores an unknown -P silently, so a typo would pass as a successful bump.
+        self.rejected('-P', 'aiohtp==3.14.4')
+
+    def test_uv_failure_surfaces_its_reason(self):
+        def fail(cmd, **kwargs):
+            raise subprocess.CalledProcessError(1, cmd, stderr='No solution found')
+        lr.subprocess.run = fail
+        with self.assertRaises(SystemExit) as ctx:
+            lr.compile_body(packages=['pypdf==7.0.0'])
+        self.assertIn('No solution found', str(ctx.exception.code))
 
 
 class TestHeader(unittest.TestCase):
