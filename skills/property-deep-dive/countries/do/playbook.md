@@ -15,7 +15,7 @@ ISO2: `do`. Status: ✅ Fully populated (researched 2026-05-01).
   - **Dirección Nacional de Mensuras Catastrales (DNMC)** — surveyor-side cadastre: `https://indomet.gob.do/`
 - **Identifier**: `Designación Catastral` (e.g., `parcela X, distrito catastral Y, municipio Z`) + `Matrícula` (modern post-saneamiento) OR legacy `Certificado de Título` numbering. After **saneamiento** (registration purification), title is held under a **Matrícula** in the unified Registry.
 - **Ownership types**: **Dominio pleno** (freehold; foreigners on equal footing per Constitución art. 51 + **Ley 195-69**); **Condominio** (**Ley 5038-58**); **SA / SRL** corporate holding (estate-planning, anonymity); **Fideicomiso inmobiliario** (Ley 189-11; common for development trusts + CONFOTUR); **Concesión** for state coastal bands — first 60 m from high-tide line is public (**Ley 305-68 Zona Marítima Terrestre**), all beachfront subject to setback rules.
-- **Recent reforms**: **Ley 108-05** Registro Inmobiliario (in force 2007 — Torrens-style title); **Ley 158-01 + 195-13** CONFOTUR; **Ley 155-17** AML (beneficial-owner + sworn source-of-funds); **Ley 189-11** trust law (fideicomiso); **Ley 358-05** General Consumer Protection Law (Pro Consumidor enforcement for developer-to-consumer purchases — new construction, off-plan); **DGII Norma 06-2017** digital IPI/transfer filing; annual DGII Resolución indexes IPI threshold (**DOP 10,695,494 for 2026** per DGII Resolución DG-AR1-2026-00001 — verify current year at filing) (2026-05-27 verified).
+- **Recent reforms**: **Ley 108-05** Registro Inmobiliario (in force 2007 — Torrens-style title); **Ley 158-01 + 195-13** CONFOTUR; **Ley 155-17** AML (intermediary due diligence on the client, the beneficiario final and the origen de los fondos — DGII Normas Generales 01-2018 / 03-2018 art. 5 g); **Ley 189-11** trust law (fideicomiso); **Ley 358-05** General Consumer Protection Law (Pro Consumidor enforcement for developer-to-consumer purchases — new construction, off-plan); **DGII Norma 06-2017** digital IPI/transfer filing; annual DGII Resolución indexes IPI threshold (**DOP 10,695,494 for 2026** per DGII Resolución DG-AR1-2026-00001 — verify current year at filing) (2026-05-27 verified).
 
 ---
 
@@ -319,7 +319,7 @@ Regulatory status (verified 2026-04):
 | **CAASD/INAPA/EDESUR/EDENORTE/EDEESTE no-debt** | Utility | Utilities can encumber |
 | **HOA `Estado de Cuenta`** | HOA | Outstanding HOA fees follow the unit |
 | **Permisos de Construcción + Uso de Suelo** | Ayuntamiento | Verifies legal construction + permitted use |
-| **Sworn declaration source of funds** (Ley 155-17) | Buyer notarised | AML compliance — non-resident buyers |
+| **Source-of-funds documentation** (Ley 155-17; DGII Norma General 03-2018 / 01-2018 art. 5 g) | Collected from the client by the agent, developer or lawyer-notario | AML due diligence on the client, the beneficiario final and the origen de los fondos; a buyer-signed sworn declaration is not named in either Norma — data not publicly available, verify at DGII |
 
 ### Risk dashboard — typical resort condo (Punta Cana / Bávaro)
 
@@ -434,7 +434,7 @@ URL hubs: `https://caasd.gob.do/`, `https://www.coraasan.gob.do/`, `https://inap
 - **Squatter / `acción reivindicatoria` / posesión**: vacant land buyers must verify possession history; **prescripción adquisitiva** can convert long-term occupants into legal owners. Walk the boundary; talk to neighbours; check for fence-lines that disagree with your survey.
 - **Sociedad inmobiliaria / SA / SRL holdings**: very common; affects beneficial-owner disclosure (Ley 155-17), CONFOTUR transferability, and the 1-%-with-no-threshold IPI on corporate holders.
 - **Beachfront 60-m public band (Ley 305-68)**: no private construction within 60 m of high-tide line; beachfront houses sit behind this band. Verify setback compliance with municipal `Uso de Suelo`.
-- **AML — Ley 155-17**: non-resident buyers must execute a **sworn declaration of source of funds** at notary; bank accounts opened to wire purchase price subject to KYC + UAF review.
+- **AML — Ley 155-17**: real-estate agents and construction companies intervening in a purchase or sale (DGII Norma General 03-2018 art. 6) and lawyers / notarios acting in compra o venta de inmuebles (Norma General 01-2018 art. 2) must take reasonable measures to identify the client, the **beneficiario final** and the **origen de los fondos** (art. 5 g of each Norma); cash operations of US$15,000 or more are reported to the UAF; a buyer-signed sworn declaration is not named in either Norma — data not publicly available, verify at DGII (dgii.gov.do); bank accounts opened to wire purchase price subject to KYC + UAF review.
 - **Drug-trafficking-adjacent provinces** (parts of border belt + some northern coast pockets) carry reputational + insurance flags — diligence on neighbourhood + sector matters.
 
 ## Reddit / forum sources
@@ -471,7 +471,7 @@ URL hubs: `https://caasd.gob.do/`, `https://www.coraasan.gob.do/`, `https://inap
 - **Saneamiento** is a judicial Torrens-style process; **vacant rural land** without saneamiento can have multiple claimants — adversarial proceedings can run 2-7 years.
 - **Acta de Mensura** must be done by a **DNMC-registered agrimensor**; older surveys may not match modern georeferencing.
 - **Sociedad Anónima ownership** is common — buyer should confirm SA's `nómina de accionistas`, that the SA has no other liabilities, AML disclosure of beneficial owner (Ley 155-17).
-- **Non-resident sworn declaration of source of funds** under Ley 155-17 + UAF (Unidad de Análisis Financiero) — wire transfers from offshore banks subject to enhanced review.
+- **Source-of-funds identification** under Ley 155-17 (agents, developers and lawyer-notarios identify the origen de los fondos and the beneficiario final — DGII Normas Generales 01-2018 / 03-2018 art. 5 g; reports go to the UAF, Unidad de Análisis Financiero); debida diligencia ampliada is mandatory for non-resident clients with cash operations above US$15,000 a day (Norma 03-2018 art. 27 e) — wire transfers from offshore banks subject to enhanced review.
 - **Notario público** authenticates only; the **abogado** (lawyer) does the legal due-diligence and represents the buyer.
 - **Cooperativa inmobiliaria / fideicomiso** structures common in newer developments under Ley 189-11 (trust law).
 - **`Cuota Litis`**: lawyer-engagement letter often specifies fees; common to bundle title-DD + closing for 1-1.5 %.
@@ -517,7 +517,7 @@ URL hubs: `https://caasd.gob.do/`, `https://www.coraasan.gob.do/`, `https://inap
 - **MEDIUM** for current resort-community service pricing — HOA fees, planta install, hurricane insurance — vary widely by development; figures are aggregator + market-survey est.
 - **MEDIUM** for 2025-2026 USD/m² benchmarks — secondary aggregator data; cross-check live SuperCasas + 3+ comparables before relying.
 - **LOW** for some rural municipal-level data (Permiso de Uso de Suelo, parcel-level flood plain in non-Yuna/Yaque basins) — limited online presence; verification requires on-site municipal request.
-**Last verified**: 2026-05-27. Risks: MIVHED CDCRD building-code row added 2026-09-24 in the October regwatch wave (Resolución 007-2026 from secondary press only); build-era rows citing R-001 / R-007 not re-verified. Visa tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27. Risks: MIVHED CDCRD building-code row added 2026-09-24 in the October regwatch wave (Resolución 007-2026 from secondary press only); build-era rows citing R-001 / R-007 not re-verified. Visa tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Finance / visa tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs
 

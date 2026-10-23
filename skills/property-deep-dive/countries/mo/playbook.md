@@ -269,7 +269,7 @@ Macao Peninsula is single-CBD-equivalent (Sé / NAPE / Praia Grande reachable in
 - **Pluvial flooding**: Black Rainstorm increasing frequency; low-lying Iao Hon / Areia Preta / Patane historically vulnerable
 - **Earthquake**: passive margin of South China Block — **LOW** historical risk (no >M6 within 100km); design level MMI VI–VII / PGA ~0.07g (per SMG monitoring)
 - **Subsidence (reclamation)**: **moderate-to-elevated** for reclaimed land — Macao expanded ~10km² (1840) → ~33km² (2025) via reclamation. **Cotai (entirely reclaimed 1990s–2000s)**, NAPE (1980s+), Areia Preta — verify pile-foundation + fill compaction history via DSOP records
-- **Heritage-zone restriction**: any property within UNESCO **Macao Historic Centre buffer zone** (22 buildings + 8 squares + 8 protection zones, listed 2005) faces strict modification + maintenance limits under [Lei de Salvaguarda do Património Cultural — Law 11/2013 (as amended by Law 5/2026)](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp); request [Instituto Cultural / 文化局](https://www.icm.gov.mo/) classification status before any renovation
+- **Heritage-zone restriction**: any property within UNESCO **Macao Historic Centre buffer zone** (22 buildings + 8 squares + 8 protection zones, listed 2005) faces strict modification + maintenance limits under [Lei de Salvaguarda do Património Cultural — Law 11/2013 (as amended by Law 5/2026)](https://bo.dsaj.gov.mo/bo/i/2013/36/lei11.asp) — works in protection zones need a binding IC opinion within 30 days (art. 31.1); since 1 Jul 2026 (Law 5/2026 art. 47, BO I série 13/2026) interior modification, conservation and repair works and exterior ones not on the published ruas pitorescas or on lots immediately adjacent to classified properties are exempt from that opinion; request [Instituto Cultural / 文化局](https://www.icm.gov.mo/) classification status before any renovation
 
 ### Build-era hazards
 
@@ -933,7 +933,7 @@ Centaline Macau · Midland Macau · Ricacorp Macau · HouseMacau · macaupropert
 
 **Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Property Tax 8% leased / 6% owner-occupier via Law 19/2022 since 2023; owner-occupier rebate fixed MOP 3,500 reduction; Stamp Duty effective rates 1.05% / 2.10% / 3.15% via 5% surcharge on calculated stamp duty; Law 24/2024 New Tax Code effective 1 Jan 2026; MOP-HKD peg since 1983 via Pataca de Macau; 2026 Policy Address resident exemption MOP 3M → MOP 6M + resident self-use LTV 70% → 80%). MEDIUM on Investment Residence Scheme 2007 suspension precise Boletim Oficial citation (verify at io.gov.mo), Estate Duty c.2001 precise repeal-law citation, LRT Hengqin Line operational status, and HK foreign-buyer comparison nuance. LOW on listing-level currentness in a luxury market (pull current asking from JLL/Centaline/Midland at point of analysis).
 
-**Last verified**: 2026-05-27 (Talent Programme body and Law 3/2010 scope corrected 2026-09-18 per cdqq.gov.mo + bo.dsaj.gov.mo; the <30-day short-let licensing threshold rests on Decree-Law 16/96/M, which was NOT re-read, and the heritage-law claims were not re-stamped)
+**Last verified**: 2026-05-27 (Talent Programme body and Law 3/2010 scope corrected 2026-09-18 per cdqq.gov.mo + bo.dsaj.gov.mo; the <30-day short-let licensing threshold rests on Decree-Law 16/96/M, which was NOT re-read, and the heritage-law claims were not re-stamped). Heritage tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

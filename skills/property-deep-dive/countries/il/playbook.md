@@ -2,7 +2,7 @@
 
 ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 
-> **🇮🇱 LEAD WARNING — read before any other section.** Israel is a **de facto restricted** market. **~93% of land in Israel is state-owned** and managed by the Israel Land Authority (Reshut Mekarkei Yisrael / RMI / רשות מקרקעי ישראל) on behalf of the State of Israel, the Jewish National Fund (KKL / קק״ל), and the Development Authority. **JNF (KKL) parcels are restricted by charter to Jewish lessees** (subject to ongoing litigation; non-Jewish lessees access KKL-equivalent state parcels via swap). Foreigners can buy private land + non-JNF state-leased land but pay a **non-resident purchase-tax surcharge**. **Active war footing** (Israel-Hamas Oct 2023, under a fragile US-brokered Oct 2025 Gaza ceasefire — the "Yellow Line" — as of July 2026; Israel-Hezbollah ceasefire Nov 2024; plus two Israel-Iran wars — the Jun 2025 "12-Day War" and a 2026 Iran war, ceasefire announced 7 Apr 2026 — whose Iranian ballistic-missile strikes drove the bulk of war-damage claims) — missile/rocket damage is partially covered by the **Property Tax Compensation Fund** (Israel Tax Authority; state-funded), but insurance markets are disrupted and land devaluation is not compensated. Six- to seven-figure decisions in Israel demand a licensed Israeli **עורך דין מקרקעין** (real-estate attorney) and a **שמאי מקרקעין** (licensed appraiser) — non-negotiable. Verify Tabu (Land Registry) AND RMI lease status — Israel runs a **dual title system** and a parcel can be missing from one register while present in the other.
+> **🇮🇱 LEAD WARNING — read before any other section.** Israel is a **de facto restricted** market. **~93% of land in Israel is state-owned** and managed by the Israel Land Authority (Reshut Mekarkei Yisrael / RMI / רשות מקרקעי ישראל) on behalf of the State of Israel, the Jewish National Fund (KKL / קק״ל), and the Development Authority. **JNF (KKL) parcels are restricted by charter to Jewish lessees** (subject to ongoing litigation; non-Jewish lessees access KKL-equivalent state parcels via swap). Foreigners can buy private land + non-JNF state-leased land but pay a **non-resident purchase-tax surcharge**. **Active war footing** (Israel-Hamas Oct 2023, under a fragile US-brokered Oct 2025 Gaza ceasefire — the "Yellow Line" — as of July 2026; Israel-Hezbollah ceasefire Nov 2024, broken when Hezbollah joined the 2026 Iran war on 2 Mar 2026, new ceasefire 21 Jun 2026 with Israel occupying part of southern Lebanon; plus two Israel-Iran wars — the Jun 2025 "12-Day War" and a 2026 Iran war, ceasefire announced 7 Apr 2026 — whose Iranian ballistic-missile strikes drove the bulk of war-damage claims) — missile/rocket damage is partially covered by the **Property Tax Compensation Fund** (Israel Tax Authority; state-funded), but insurance markets are disrupted and land devaluation is not compensated. Six- to seven-figure decisions in Israel demand a licensed Israeli **עורך דין מקרקעין** (real-estate attorney) and a **שמאי מקרקעין** (licensed appraiser) — non-negotiable. Verify Tabu (Land Registry) AND RMI lease status — Israel runs a **dual title system** and a parcel can be missing from one register while present in the other.
 
 ## Country profile
 
@@ -12,7 +12,7 @@ ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 - **Currency**: ILS (Israeli new shekel, ₪). 1 USD ≈ 3.6–3.8 ILS; 1 EUR ≈ 3.9–4.1 ILS (May 2026 BoI representative rate; FX volatile during wartime — verify at `https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/`). Free-floating; Bank of Israel intervenes only in extreme moves; no capital controls on residents/non-residents for property transactions but FET-equivalent KYC applies under the Anti-Money Laundering Order 5761-2000.
 - **Languages**: Hebrew + Arabic (both official in practice; Hebrew dominant in Tabu/RMI/tax filings). English widely used in Tel Aviv and among Anglo Olim; **all registered title documents are in Hebrew** — sworn translation required for non-Hebrew-reading buyers. Source: Basic Law: Israel as the Nation-State of the Jewish People (5778-2018) §4 (sets Hebrew as state language; Arabic as "special status").
 - **Cadastre / land registry**: **dual system** —
-- **Tabu / Land Registry (לשכת רישום מקרקעין)** — Ministry of Justice; tracks freehold (`חופשי`) and registered leases. Portal: `https://www.gov.il/he/departments/land_registration_and_settlement_of_rights_department` and online inquiries at `https://www.gov.il/he/service/land_registration_extract`. Nesach Tabu (נסח טאבו / title abstract) is ordered online at [gov.il — הפקת נסח טאבו](https://www.gov.il/he/service/land_registration_extract) → [מקרקעין ברשת](https://mekarkein-online.justice.gov.il/voucher/main); **the fee is not published on the authority's page** — it is charged "לפי המחיר המעודכן באתר התשלומים הממשלתי". Tariffs were re-indexed with effect from 1 Jan 2026 under הודעת המקרקעין (אגרות), התשפ"ו-2025 — data not publicly available on the landing page; verify the current amount at the Israeli government payments site / the Authority for Land Registration and Settlement of Rights (2026-09-18 verified).
+- **Tabu / Land Registry (לשכת רישום מקרקעין)** — Ministry of Justice; tracks freehold (`חופשי`) and registered leases. Portal: `https://www.gov.il/he/departments/land_registration_and_settlement_of_rights_department` and online inquiries at `https://www.gov.il/he/service/land_registration_extract`. Nesach Tabu (נסח טאבו / title abstract) is ordered online at [gov.il — הפקת נסח טאבו](https://www.gov.il/he/service/land_registration_extract) → [מקרקעין ברשת](https://mekarkein-online.justice.gov.il/voucher/main); the authority's page states no amount (payment "לפי המחיר המעודכן באתר התשלומים הממשלתי"), but the gazetted 2026 schedule sets **ILS 18** for an electronically signed nesach (item 7(א2)), ILS 88 for a certified nesach/copy not issued as an e-signed message (item 7(א)) and ILS 154 for a consolidated condominium nesach (item 7(א1)) — הודעת המקרקעין (אגרות), התשפ"ו-2026, Kovetz HaTakanot 12193, 5 Jan 2026, p. 732, in force 1 Jan 2026 ([gov.il notice](https://www.gov.il/he/pages/fees-2026); gazette text via [olaw.org.il](https://olaw.org.il/takanot/takanot-12193.pdf)); amounts re-index every 1 Jan by CPI under reg. 2(ב) of תקנות המקרקעין (אגרות), התשל"ה-1974 (2026-10-21 verified).
 - **Israel Land Authority / RMI (רשות מקרקעי ישראל)** — administers state-owned land leases (חכירה / hachira). Portal: `https://www.gov.il/he/departments/israel_land_authority`. RMI online services: `https://www.gov.il/he/departments/israel_land_authority`.
 - For ~93% of land, BOTH registers must be checked: Tabu shows the registered lease/owner, RMI shows lease terms, capitalization status, and Heskem Hadash conversion eligibility.
 - **Title types** (CRITICAL distinction for foreign buyers):
@@ -44,10 +44,10 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 ### State-land monopoly (~93%)
 
-- **Land ownership composition** (per RMI public communications and KKL annual reports — verify currency at `https://www.gov.il/he/departments/israel_land_authority` and `https://www.kkl.org.il/`):
+- **Land ownership composition** (per State Comptroller special report on KKL, 18 Jan 2017, as reproduced by the Knesset Research and Information Center, 19 Nov 2025 — verify currency at `https://www.gov.il/he/departments/israel_land_authority` and `https://www.kkl.org.il/`):
 - **State of Israel**: ~70% of total land area
-- **Jewish National Fund (JNF / KKL)**: ~12–13%
-- **Development Authority (רשות הפיתוח)**: ~10%
+- **Jewish National Fund (JNF / KKL)**: ~12% (~2.5M dunam)
+- **Development Authority (רשות הפיתוח)**: ~11%
 - **Combined RMI-managed**: ~93%
 - **Private (chofshi)**: ~7%
 - **Implication**: when buying residential property in Israel, the contract is overwhelmingly likely to involve a *registered lease on state-owned land* (managed by RMI) rather than a freehold purchase. The owner-of-record on Tabu is the **lessee**, not the underlying landowner.
@@ -63,23 +63,23 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 - **Legal basis**: KKL Charter (Memorandum and Articles of Association of Keren Kayemeth LeIsrael, registered as a charitable corporation in 1907 in the UK; transferred to Israel under the Keren Kayemet LeIsrael Law 5714-1953). Charter specifies land is held "for the benefit of the Jewish People."
 - **Practical effect**: KKL-titled parcels are leased only to Jewish lessees. RMI manages KKL land jointly with state-owned land but enforces the charter.
-- **Litigation**: HCJ 9205/04 *Adalah v ILA* (2004) and successor cases challenged the JNF restriction as discriminatory. The compromise reached: when a non-Jewish buyer wins a tender on a JNF parcel, RMI swaps that parcel for an equivalent state-owned (non-JNF) parcel from its inventory, allowing the non-Jewish buyer to receive a non-restricted lease while KKL retains an equivalent area. Source: Israeli Supreme Court database `https://supreme.court.gov.il/`.
+- **Litigation**: HCJ 9205/04 *Adalah v ILA* (2004) and successor cases challenged the JNF restriction as discriminatory. No ruling on HCJ 9205/04 located (Supreme Court docket not verified): under a May 2009 State-KKL agreement of principles, if an Arab citizen wins a tender on a KKL-controlled plot the State compensates KKL with state land, and the August 2009 land-reform law also addresses State-KKL land exchanges; HCJ 9205/04 is described as still pending by the petitioner (Adalah, `https://www.adalah.org/he/content/view/3180`, an interested party — secondary; Supreme Court docket status not verified, 2026-10-21).
 - **For foreign buyers**: the JNF restriction primarily affects Israeli Arab citizens. Foreign non-Jewish buyers face the same legal swap mechanism in theory but in practice rarely encounter raw JNF parcels in residential markets — most listed urban property is either chofshi or non-JNF state lease.
 - **Verification step**: ask the seller's attorney for a Nesach Tabu (`נסח טאבו`) AND a RMI lease extract (`פלט חכירה / pelet hachira`); the document will identify whether the underlying land is State, JNF (KKL), or Development Authority.
 
 ### Non-resident purchase-tax surcharge (Mas Rechisha)
 
 - **Foreign / non-resident buyers do NOT get the Israeli-resident or Olim discounted brackets**. They pay the **investor / second-home scale** — the highest applicable bracket structure.
-- **Bracket structure (effective from January 2026, indexed annually; verify current brackets at Tax Authority)**:
+- **Bracket structure** — s.9(c1f)(1) temporary provision covering any residential purchase by someone who is not an individual Israeli resident (and any non-single dwelling); amounts frozen; set by order to end 31 Dec 2026 and extended to purchases up to and including 10 Feb 2027 under s.38 Basic Law: The Knesset after the Knesset's dissolution (ITA notice 12 Oct 2026, `https://www.gov.il/he/pages/pa121026-2`; 2026-10-21 verified). The rate after 10 Feb 2027 depends on the new Knesset; if the provision lapses, the permanent non-single-dwelling scale returns (first bracket 5% per the Finance Ministry multi-year budget plan, Jan 2026):
 
 | Bracket | Threshold (ILS) | Rate (non-resident / investor scale) |
 |---|---|---:|
 | 1 | 0 – ~6,055,070 | 8% |
 | 2 | ~6,055,070+ | 10% |
 
-- **Olim (new immigrants) discount — Section 12 of the Real Estate Taxation Regulations**: a one-time, 7-year window (from 1 year before to 7 years after Aliyah date) reduced rate. **Restructured 12 August 2024** by Section 12 amendment — post-amendment regime (Olim arriving on/after 12 Aug 2024) (2026-05-27 verified, source: Nefesh B'Nefesh + Gornitzky GNY):
+- **Olim (new immigrants) discount — regulations 12 / 12A of the Purchase Tax Regulations**: a one-time, 7-year window (from 1 year before to 7 years after Aliyah date) reduced rate. **Restructured by the amendment in force 15 Aug 2024**, which added regulation 12A for a single residential dwelling (ITA press release 29 Jul 2024 `https://www.gov.il/he/pages/sa290724-1`; ITA Real Estate Taxation instruction 1/2025-3). Regulation 12A scale, amounts frozen 16 Jan 2025 to 15 Jan 2028 (ITA instruction 1/2026, 18 Jan 2026; 2026-10-21 verified):
 
-| Bracket | Threshold (ILS) | Rate (Olim, post-12-Aug-2024) |
+| Bracket | Threshold (ILS) | Rate (Olim, regulation 12A) |
 |---|---|---:|
 | 1 | 0 – ~1,978,745 | **0%** (full exemption) |
 | 2 | ~1,978,745 – ~6,055,070 | **0.5%** |
@@ -88,7 +88,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 - Benefit now applies **only to single-residency purchases**; Olim purchasing investment / additional properties pay standard rates
 - Benefit capped at properties ≤ ~ILS 20,183,565
-- **Grandfathering**: Olim who made Aliyah **before 12 Aug 2024** may elect old (0.5% / 5%) OR new (0% / 0.5% / 8%) rates for subsequent purchases; post-12-Aug-2024 Olim must use the new schedule only
+- **Grandfathering**: Olim whose Aliyah preceded the 15 Aug 2024 amendment may elect the pre-amendment regulation 12 scale (0.5% up to ILS 1,988,090 / 5% above) OR regulation 12A, but a dwelling already bought under the old wording cannot be switched (ITA press release 29 Jul 2024; ITA instruction 1/2025-3). Regulation 12 (0.5% up to ILS 1,988,090 / 5% above) also applies to an Oleh buying business premises (ITA instruction 1/2026)
 - 7-year window (1 year before to 7 years after Aliyah) unchanged
 
 - **Israeli-resident "single home" buyer**: progressive 0% / 3.5% / 5% / 8% / 10% scale up to ~ILS 6,055,070 (verify) — *not* available to non-residents.
@@ -106,15 +106,15 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Land devaluation** caused by proximity to active conflict (e.g., Otef Aza / Northern border post-October 2023) — owners cannot recover lost market value
 - Property-tax assessed value gap when a property's market value exceeds the assessed cap — the gap is uncovered
 - Damage from internal causes (fire, earthquake) — those go to private insurance / Mavat Ra'ash (national earthquake fund framework, separate)
-- **Funding**: state-funded (treasury allocation), supplemented historically by a property-tax surcharge. The fund has paid out an **est. tens of billions of ILS** since October 2023 for war damage in Otef Aza, Northern Israel, and central-Israel rocket-impact incidents (order-of-magnitude estimate — verify current figures at Compensation Fund publications). Documented claim volumes: **~1M cumulative war-damage claims across all fronts by April 2026** (Bloomberg, 2026-04-17); the 2026 Iran-war fighting alone logged **10,946 claims** by 15 March 2026 — 7,648 for structures, 1,179 for contents/equipment, 1,945 for vehicles, 174 other (Israel Tax Authority Compensation Fund update, `https://www.gov.il/en/pages/sa150326-1`).
+- **Funding**: state-funded (treasury allocation), supplemented historically by a property-tax surcharge. Since 7 October 2023 the fund has received **~168,000 direct-damage claims (~ILS 8.3bn paid)** and **~1 million indirect-damage claims (~ILS 30bn paid)** across the Iron Swords, Am KeLavi (Jun 2025) and Roaring Lion (2026) operations (Israel Tax Authority, 6 Oct 2026, `https://www.gov.il/he/pages/sa061026-1`; 2026-10-21 verified); the 2026 Iran-war fighting alone logged **10,946 claims** by 15 March 2026 — 7,648 for structures, 1,179 for contents/equipment, 1,945 for vehicles, 174 other (Israel Tax Authority Compensation Fund update, `https://www.gov.il/en/pages/sa150326-1`).
 - **Claim process**: **direct** property damage is filed via the Tax Authority Compensation Fund portal `https://www.gov.il/he/service/online-direct-damage-claim`. **Indirect (economic) damage** runs on separate, dated tracks indexed at [gov.il — מסלולי פיצויים בגין נזק עקיף](https://www.gov.il/he/Departments/DynamicCollectors/compensation-tracks); as at 2026-09-18 that index listed 66 tracks, including the May–June 2026 eligibility period for operation **שאגת הארי** with a filing deadline of **30 December 2026**. Deadlines are set per track and extended for active-conflict zones by emergency order — check the index for the period that applies (2026 data, source Israel Tax Authority; 2026-09-18 verified).
 - **Implication for foreign buyers**: the Compensation Fund substantially de-risks war-damage to the structure but does NOT compensate land-value loss — a property in or near an evacuated zone may retain Compensation Fund coverage for damage but suffer material market-value loss with no compensation pathway. (Magnitude of the value loss is not publicly indexed during the active-conflict period — verify against Tax Authority transaction data for the specific locality.)
 
 ### War footing — current status (as of July 2026)
 
 - **Israel-Hamas (Gaza) war**: started 7 October 2023; a **fragile US-brokered ceasefire (the "Yellow Line")** has held since October 2025, though the IDF continued expanding control beyond the Yellow Line as of July 2026 (Democracy Now, 2026-07-01); Otef Aza (Gaza envelope, ~30 km radius) communities partially repopulated, partial reconstruction.
-- **Israel-Hezbollah (Lebanon)**: hostilities September–November 2024; ceasefire 27 November 2024 (verify currency at Israeli Ministry of Foreign Affairs `https://www.gov.il/he/departments/ministry_of_foreign_affairs`); the ceasefire held until hostilities with Hezbollah resumed during the 2026 Iran war (Britannica); Northern border evacuees gradually returning.
-- **Israel-Iran wars**: two direct wars — the **June 2025 "12-Day War"** (Israel struck Iranian nuclear/military sites from 13 June 2025; Al Jazeera) and a **2026 Iran war** (Feb–Apr 2026 escalation; two-week ceasefire announced 7 April 2026; Wikipedia). Iranian **ballistic-missile strikes caused heavy damage to Israeli residential property** (e.g. Kiryat Ata near Haifa; Bloomberg) and are the **dominant driver of war-damage claims** — nearly 10,000 property-damage claims by the second day of the June 2025 war, and 9,115 missile-damage claims after 11 days of the 2026 fighting (Globes, 2026-03-10).
+- **Israel-Hezbollah (Lebanon)**: hostilities September–November 2024; ceasefire 27 November 2024 (verify currency at Israeli Ministry of Foreign Affairs `https://www.gov.il/he/departments/ministry_of_foreign_affairs`); the ceasefire held until Hezbollah joined the 2026 Iran war on 2 March 2026; a new ceasefire took effect 21 June 2026, but Israel occupies a swath of southern Lebanon and continues strikes and demolitions (ACLED 2026-09-30; AP 2026-10-14 — secondary); Northern border evacuees gradually returning.
+- **Israel-Iran wars**: two direct wars — the **June 2025 "12-Day War"** (Israel struck Iranian nuclear/military sites from 13 June 2025; Al Jazeera) and a **2026 Iran war** (Feb–Apr 2026 escalation; two-week ceasefire announced 7 April 2026; Wikipedia — the Israel-Iran ceasefire was still in place on 21 Oct 2026, with renewed US-Israeli strikes publicly threatened; JPost 2026-10-21, Iran International 2026-10-19, secondary). Iranian **ballistic-missile strikes caused heavy damage to Israeli residential property** (e.g. Kiryat Ata near Haifa; Bloomberg) and are the **dominant driver of war-damage claims** — nearly 10,000 property-damage claims by the second day of the June 2025 war, and 9,115 missile-damage claims after 11 days of the 2026 fighting (Globes, 2026-03-10).
 - **Houthi (Yemen) missile/UAV strikes**: intermittent strikes against central Israel through 2024–2026; air defense generally effective; occasional impacts.
 - **Insurance market**: many private insurers reduced or excluded war-coverage riders; **Compensation Fund central** for war-damage compensation; private insurance covers theft, fire, earthquake (separate framework), water damage. **Verify with the [Capital Market, Insurance and Savings Authority (רשות שוק ההון, ביטוח וחיסכון)](https://www.gov.il/he/departments/capital_market_authority/govil-landing-page)** — the regulator, which publishes the home-insurance comparison tooling — and with your private carrier. Note that **war-damage** cover is the Property Tax Compensation Fund's, not any private insurer's (see the Compensation Fund rows above).
 
@@ -129,7 +129,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 ### Buyer due diligence — minimum checklist
 
-1. **Nesach Tabu (טאבו abstract)** — verify ownership, encumbrances (`עיקולים`/garnishments, `משכנתאות`/mortgages, `הערות אזהרה`/warning notices). Nesach Tabu (נסח טאבו / title abstract) is ordered online at [gov.il — הפקת נסח טאבו](https://www.gov.il/he/service/land_registration_extract) → [מקרקעין ברשת](https://mekarkein-online.justice.gov.il/voucher/main); **the fee is not published on the authority's page** — it is charged "לפי המחיר המעודכן באתר התשלומים הממשלתי". Tariffs were re-indexed with effect from 1 Jan 2026 under הודעת המקרקעין (אגרות), התשפ"ו-2025 — data not publicly available on the landing page; verify the current amount at the Israeli government payments site / the Authority for Land Registration and Settlement of Rights (2026-09-18 verified).
+1. **Nesach Tabu (טאבו abstract)** — verify ownership, encumbrances (`עיקולים`/garnishments, `משכנתאות`/mortgages, `הערות אזהרה`/warning notices). Nesach Tabu (נסח טאבו / title abstract) is ordered online at [gov.il — הפקת נסח טאבו](https://www.gov.il/he/service/land_registration_extract) → [מקרקעין ברשת](https://mekarkein-online.justice.gov.il/voucher/main); the authority's page states no amount (payment "לפי המחיר המעודכן באתר התשלומים הממשלתי"), but the gazetted 2026 schedule sets **ILS 18** for an electronically signed nesach (item 7(א2)), ILS 88 for a certified nesach/copy not issued as an e-signed message (item 7(א)) and ILS 154 for a consolidated condominium nesach (item 7(א1)) — הודעת המקרקעין (אגרות), התשפ"ו-2026, Kovetz HaTakanot 12193, 5 Jan 2026, p. 732, in force 1 Jan 2026 ([gov.il notice](https://www.gov.il/he/pages/fees-2026); gazette text via [olaw.org.il](https://olaw.org.il/takanot/takanot-12193.pdf)); amounts re-index every 1 Jan by CPI under reg. 2(ב) of תקנות המקרקעין (אגרות), התשל"ה-1974 (2026-10-21 verified).
 2. **RMI lease extract (פלט חכירה)** — verify lease term, capitalization status, JNF vs State vs Development Authority, Heskem Hadash eligibility. Order at RMI office or via attorney.
 3. **Rishum Mekarkein** — alternate registry for some pre-1969 unsettled parcels (`רישום מקרקעין לא מוסדרים`); attorney must check both.
 4. **Building permit + completion certificate (היתר בנייה + טופס 4)** — issued by the local municipality; verifies the structure was legally built and inhabitable. Unauthorized additions (חריגות בנייה) are extremely common and **not always visible at viewing** — request the hetter and Form 4 directly from municipality.
@@ -292,11 +292,11 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 | 1 | 0 – ~6,055,070 | 8% |
 | 2 | ~6,055,070+ | 10% |
 
-**Non-resident / foreign buyer**: same as Israeli investor scale — **8% / 10%** (no discount).
+**Non-resident / foreign buyer**: same as Israeli investor scale — **8% / 10%** (no discount) — a s.9(c1f)(1) temporary provision extended to purchases up to and including 10 Feb 2027 (ITA notice 12 Oct 2026, `https://www.gov.il/he/pages/pa121026-2`); the rate after that date depends on the new Knesset.
 
-**Olim (within 7-year window — Section 12 of regulations, post-12-Aug-2024 reform)** (2026-05-27 verified, source: Nefesh B'Nefesh + Gornitzky GNY):
+**Olim (within 7-year window — regulation 12A, single residential dwelling, in force 15 Aug 2024)** (2026-10-21 verified, source: ITA Real Estate Taxation instruction 1/2026; amounts frozen to 15 Jan 2028):
 
-| Bracket | Threshold (ILS) | Rate (Olim, post-12-Aug-2024) |
+| Bracket | Threshold (ILS) | Rate (Olim, regulation 12A) |
 |---|---|---:|
 | 1 | 0 – ~1,978,745 | **0%** (full exemption) |
 | 2 | ~1,978,745 – ~6,055,070 | **0.5%** |
@@ -304,14 +304,14 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 | 4 | above ~20,183,565 | benefit DENIED |
 
 - Single-residency only; investment / additional purchases get standard rates
-- Olim who made Aliyah pre-12-Aug-2024 may elect old (0.5% / 5%) OR new (0% / 0.5% / 8%) scale
+- Olim whose Aliyah preceded the 15 Aug 2024 amendment may elect the old regulation 12 scale (0.5% up to ILS 1,988,090 / 5% above) OR regulation 12A (0% / 0.5% / 8%)
 
 #### Worked examples
 
 - **Foreign buyer, ILS 4,000,000 apartment**: 4,000,000 × 8% = **ILS 320,000 Mas Rechisha** (~$86,500 est.)
 - **Foreign buyer, ILS 8,000,000 apartment**: (6,055,070 × 8%) + (1,944,930 × 10%) = 484,406 + 194,493 = **~ILS 678,899** (~$183,500 est.)
-- **Oleh, ILS 4,000,000 apartment within 7-year window (post-12-Aug-2024 regime)**: (1,978,745 × 0%) + (2,021,255 × 0.5%) = 0 + 10,106 = **~ILS 10,106** (~$2,730 est.) (2026-05-27 verified — formerly ~ILS 113,230 under pre-amendment 0.5%/5% scale; grandfathered Olim may still elect that)
-- **Foreign vs Oleh on same ILS 4M apartment**: foreign pays ILS 320,000; Oleh (post-12-Aug-2024 single-residency) pays ILS 10,106 — **the Olim discount saves ~ILS 309,894 (~$83,800 est.)** on this transaction; the prior 0.5%/5% regime saved ~ILS 206,770.
+- **Oleh, ILS 4,000,000 apartment within 7-year window (regulation 12A)**: (1,978,745 × 0%) + (2,021,255 × 0.5%) = 0 + 10,106 = **~ILS 10,106** (~$2,730 est.) (2026-10-21 verified — under the pre-amendment regulation 12 scale at the ILS 1,988,090 threshold: (1,988,090 × 0.5%) + (2,011,910 × 5%) = 9,940 + 100,596 = ~ILS 110,536; grandfathered Olim may still elect that)
+- **Foreign vs Oleh on same ILS 4M apartment**: foreign pays ILS 320,000; Oleh (regulation 12A single dwelling) pays ILS 10,106 — **the Olim discount saves ~ILS 309,894 (~$83,800 est.)** on this transaction; the pre-amendment regulation 12 scale (ILS 1,988,090 threshold) would save ~ILS 209,464.
 
 ### Capital gains — Mas Shevach (מס שבח)
 
@@ -327,7 +327,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **VAT (מע"מ)**: 18% (effective 1 January 2025, raised from 17%; verify at `https://www.gov.il/he/departments/topics/vat_information`). Applies to **new-build sales by developers**, not to second-hand sales between individuals. New-build advertised prices may include or exclude VAT — clarify per listing.
 - **Heitel Hashbacha (היטל השבחה / betterment levy)**: 50% of the valuation uplift from a planning-permission upgrade (rezoning, density increase). **Seller pays** at sale. Verify with municipality whether any TBA (תב"ע) plan affects the parcel.
 - **Mas Mechira (מס מכירה)**: ABOLISHED 1 August 2007 for individuals (still applies in some corporate contexts; check with Tax Authority).
-- **Tabu registration fee**: variable, modest — `est.` ILS 1,500–3,000 for a standard apartment registration, **uncited**: the Land Registry service page `https://www.gov.il/he/service/land_registration_extract` states no registration-fee range, and tariffs were re-indexed with effect 1 Jan 2026 under הודעת המקרקעין (אגרות), התשפ"ו-2025 — verify the current amount at the Israeli government payments site / the Authority for Land Registration and Settlement of Rights (2026-09-18).
+- **Tabu registration fee**: modest, fixed per action under the gazetted 2026 schedule (in force 1 Jan 2026): sale/transfer registration **ILS 44** (item 1), he'arat azhara registration **ILS 188** and its deletion **ILS 127** (item 13), mortgage registration **ILS 188** (item 2(א)); redemption of a mortgage paid directly to the lender is fee-exempt (item 2(ג)(1)). Computed for one each of sale registration + caveat registration + caveat deletion + mortgage registration: 44 + 188 + 127 + 188 = **ILS 547** — the earlier `est.` ILS 1,500–3,000 is not supported by the schedule; attorney fees and Mas Rechisha are separate. Source: הודעת המקרקעין (אגרות), התשפ"ו-2026, Kovetz HaTakanot 12193, p. 732 ([gov.il notice](https://www.gov.il/he/pages/fees-2026); gazette text via [olaw.org.il](https://olaw.org.il/takanot/takanot-12193.pdf)); amounts re-index every 1 Jan by CPI (2026-10-21 verified).
 - **RMI consent / capitalization fee** (if state-leased): variable; ranges from negligible (pre-paid lease) to several percent of land value (Heskem Hadash conversion).
 - **Buyer attorney**: 0.5–2.0% + VAT (18%) typical; standardized minimum fees published by Israel Bar Association `https://www.israelbar.org.il/`.
 - **Real estate broker (תיווך)**: typical 2% + VAT each side (buyer + seller pay 2% each); regulated under the Real Estate Brokers Law 5756-1996 — broker must be licensed (`רישיון מתווך`).
@@ -430,13 +430,13 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 | **Ministry of Environmental Protection (המשרד להגנת הסביבה)** | `https://www.gov.il/he/departments/ministry_of_environmental_protection` | Air quality, contamination, environmental hazards |
 | **Israel Water Authority (רשות המים)** — hydrological observations + GIS | obs/forecast: `https://hydro.water.gov.il/` · national water GIS: `https://govextra.gov.il/water-authority/water-authority/home/` · authority: `https://www.gov.il/he/departments/water_authority` | Flood / wadi flood hazard data; arid-region flash-flood risk (2026 data, source gov.il Water Authority; 2026-09-18 verified) |
 | **Israel Meteorological Service (השירות המטאורולוגי)** | `https://ims.gov.il/` | Climate baseline + extreme weather |
-| **TAMA 38 / TAMA 70 plans (תמ"א 38 / 70)** | `https://www.gov.il/he/departments/topics/tama_38` | Earthquake-retrofit national outline plans (TAMA 38 sunset 1 Oct 2022 — replaced by TAMA 70 / local outline plans) |
+| **TAMA 38 (תמ"א 38) expiry decisions** | `https://www.gov.il/he/pages/decisions-tama38` | Earthquake-retrofit national outline plan — EXPIRED: lapsed 1 Oct 2023 in most planning areas and finally 18 May 2026 everywhere (Planning Administration, 2026-10-21 verified). TAMA 70 (`https://www.gov.il/he/pages/tama70`) is the Tel Aviv metro-station outline plan, not a TAMA 38 successor |
 
 ### Earthquake risk
 
 - **Israel sits on the Dead Sea Transform fault** — left-lateral fault running Aqaba → Dead Sea → Jordan Valley → Hula Valley → Lebanon. Historical major events: 1927 Jericho M 6.2; 1837 Galilee M 6.5–7.0; 1759 Galilee–Lebanon M 7.4.
 - **Standard SI 413** mandates earthquake-resistant design for new buildings since 1975 (revised 1995, 2004, 2013, 2020). Pre-1980 buildings frequently NOT compliant.
-- **TAMA 38** (National Outline Plan 38, in force 2005–2022): incentivized seismic-retrofit of pre-1980 buildings via density bonuses. **Sunset 1 October 2022**; replaced by local outline plans (תוכניות מתאר מקומיות) and TAMA 70. Many Tel Aviv buildings underwent or are awaiting TAMA 38 retrofit.
+- **TAMA 38** (National Outline Plan 38, approved 2005): incentivized seismic-retrofit of older buildings via added building rights. **EXPIRED** — the National Planning Council's 5 Nov 2019 decision set 1 Oct 2022, extended on 5 Apr 2022 to 1 Oct 2023, when it lapsed except in planning areas that met the Council's conditions; there it applied until 18 May 2026 or approval of a replacement plan (whichever came first), and the Planning Administration records final expiry on 18 May 2026 (`https://www.gov.il/he/pages/decisions-tama38`; 2026-10-21 verified). Plans approved under TAMA 38 section 23 do not lapse automatically unless the plan says so; approved section-23 plot plans in force Sept 2026 cover Hadera, Ramla, Yavne, Ra'anana, Kfar Saba, Petah Tikva, Lod (specific plots), Givatayim, Holon, Be'er Sheva and Ashdod (`https://www.gov.il/he/pages/tama38-changes-steps`). Successor route: local urban-renewal / section-23 plans and Planning and Building Law Amendment 139 ("Shaked alternative", 2022 — up to 400% of existing floor area for demolish-and-rebuild, up to 200% for strengthening; secondary sources). TAMA 70 is the national outline plan for Tel Aviv metro-station areas, not a TAMA 38 successor. Many Tel Aviv buildings underwent TAMA 38 retrofit.
 - **Risk ranking**: 🟠–🔴 in Jordan Valley / Beit She'an Valley / Galilee fault belt; 🟡 along central coast and Tel Aviv; 🟢 most Negev (lower fault density).
 - **Insurance**: standard homeowner policies (`ביטוח דירה`) typically include earthquake cover but verify per policy.
 
@@ -445,8 +445,8 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Compensation Fund-covered** (state-funded compensation for direct property damage) — see Foreign-buyer section above.
 - **Mamad (מ.מ.ד / shelter room)**: mandatory in all new residential construction since 1992 (Civil Defense Law 5711-1951 amendment). Pre-1992 buildings have public shelters (`מקלט ציבורי`) within 90 seconds run.
 - **Otef Aza (Gaza envelope)**: ~30 km radius around Gaza Strip; active rocket/missile/UAV threat from October 2023 until the fragile US-brokered October 2025 Gaza ceasefire (the "Yellow Line"); IDF operations continued past the Yellow Line as of July 2026 (Democracy Now, 2026-07-01). Compensation Fund claim volumes have run into tens of billions ILS since Oct 2023.
-- **Northern border (Galilee + Golan)**: Hezbollah hostilities Sep–Nov 2024; ceasefire Nov 2024 (held until hostilities resumed during the 2026 Iran war — Britannica); partial repopulation as of July 2026.
-- **Iranian ballistic-missile strikes**: two Israel-Iran wars — the June 2025 "12-Day War" and a 2026 Iran war (ceasefire 7 April 2026) — hit Israeli residential property directly and are the dominant driver of war-damage claims (nearly 10,000 claims by day two of the June 2025 war; 9,115 after 11 days of the 2026 fighting — Globes, 2026-03-10; ~1M cumulative war-damage claims across all fronts by April 2026 — Bloomberg, 2026-04-17). Heavy damage documented at Kiryat Ata near Haifa (Bloomberg).
+- **Northern border (Galilee + Golan)**: Hezbollah hostilities Sep–Nov 2024; ceasefire Nov 2024 (held until Hezbollah joined the 2026 Iran war on 2 Mar 2026; new ceasefire 21 Jun 2026, with Israel occupying part of southern Lebanon — ACLED 2026-09-30, AP 2026-10-14, secondary); partial repopulation as of July 2026.
+- **Iranian ballistic-missile strikes**: two Israel-Iran wars — the June 2025 "12-Day War" and a 2026 Iran war (ceasefire 7 April 2026) — hit Israeli residential property directly and are the dominant driver of war-damage claims (nearly 10,000 claims by day two of the June 2025 war; 9,115 after 11 days of the 2026 fighting — Globes, 2026-03-10; since 7 Oct 2023 ~168,000 direct-damage and ~1 million indirect-damage claims across all operations — Israel Tax Authority, 6 Oct 2026). Heavy damage documented at Kiryat Ata near Haifa (Bloomberg).
 - **Central Israel** (Tel Aviv–Gush Dan, Jerusalem corridor): Houthi (Yemen) UAV/missile strikes intermittent through 2024–2026; Iron Dome / Arrow / David's Sling intercept rates high but not 100%.
 
 ### Flood / wadi / flash-flood risk
@@ -472,7 +472,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 | Document | Required because | Notes |
 |---|---|---|
-| **Nesach Tabu (טאבו abstract)** | All sales | Ordered online via `https://www.gov.il/he/service/land_registration_extract` → `https://mekarkein-online.justice.gov.il/voucher/main`; **fee not published on the authority's page — data not publicly available; verify the current amount at the government payments site** (tariffs re-indexed 1 Jan 2026 under הודעת המקרקעין (אגרות), התשפ"ו-2025; 2026-09-18 verified) |
+| **Nesach Tabu (טאבו abstract)** | All sales | Ordered online via `https://www.gov.il/he/service/land_registration_extract` → `https://mekarkein-online.justice.gov.il/voucher/main`; **ILS 18 for the online e-signed nesach** (item 7(א2) of the 2026 schedule, הודעת המקרקעין (אגרות), התשפ"ו-2026, Kovetz HaTakanot 12193, p. 732, in force 1 Jan 2026; re-indexed every 1 Jan; the authority's page itself states no amount; 2026-10-21 verified) |
 | **RMI lease extract (פלט חכירה)** | If state-leased | At RMI office or via attorney |
 | **Building permit + Form 4 (היתר בנייה + טופס 4)** | All sales | From local municipality |
 | **Architectural drawings (תוכנית אדריכלית)** | Recommended | Verify built area matches permit |
@@ -539,14 +539,14 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 | Buyer attorney (סדר רכישה) | 0.5–2.0% of price + VAT (18%) |
 | Real-estate broker (תיווך) | 2% + VAT (each side) |
 | Licensed appraiser (שמאי מקרקעין) | 3,000–8,000 |
-| Tabu registration fee | `est.` 1,500–3,000 — uncited; fee range not published (verify) |
-| Nesach Tabu (online abstract) | fee not published on the authority's page — verify at the government payments site |
+| Tabu registration fee | 44 sale registration + 188 he'arat azhara + 188 mortgage registration (2026 gazetted schedule, in force 1 Jan 2026; re-indexed every 1 Jan) |
+| Nesach Tabu (online abstract) | 18 (2026 gazetted schedule, item 7(א2); re-indexed every 1 Jan) |
 | RMI lease extract / consent | 200–2,000 (varies) |
 | Heskem Hadash conversion (capitalization) | varies — % of land value (verify per parcel) |
 | **Mas Rechisha (foreign buyer)** | 8–10% of purchase price |
 | **Annual Arnona (90 m² Tel Aviv)** | ~6,500–10,000 |
 | Asbestos removal (200 m² roof) | 30,000–80,000 |
-| TAMA 38 / TAMA 70 retrofit cost (per unit, paid by developer in exchange for density bonus) | typically nil to owner; structured as construction-financed deal |
+| Legacy TAMA 38 (expired 18 May 2026) / successor urban-renewal retrofit cost (per unit, paid by developer in exchange for added building rights) | typically nil to owner; structured as construction-financed deal |
 | Mamad retrofit (adding shelter to existing apt) | 60,000–200,000 (often impractical) |
 | Earthquake retrofit (general structural strengthening) | 100,000–500,000+ |
 | Energy retrofit | 50,000–250,000 |
@@ -560,7 +560,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 - **Misrad HaKlita / Aliyah grants** — `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` — financial absorption package for Olim
 - **Periphery / Development Zone (אזור פיתוח א'/ב')** — tax incentives for businesses in designated peripheral zones; some affect personal income tax for residents
 - **Mas Hachnasa pension contributions** — tax-deductible contributions to קרן השתלמות + קופת גמל
-- **TAMA 38 / TAMA 70** — earthquake retrofit programs (developer-financed in exchange for density bonus); homeowner gets seismic upgrade + sometimes additional unit/floor/balcony
+- **TAMA 38 (expired 18 May 2026) / successor urban-renewal plans (section-23 plans, Amendment 139 "Shaked alternative")** — earthquake retrofit (developer-financed in exchange for added building rights); homeowner gets seismic upgrade + sometimes additional unit/floor/balcony. TAMA 70 is the Tel Aviv metro-station plan, not a retrofit programme
 - **Energy efficiency grants** — Ministry of Energy grants for solar PV, heat pumps, building envelope upgrades; verify currency at `https://www.gov.il/he/departments/ministry_of_energy`
 - **Bituach Leumi grants** — Mavtach LeNaghim (mortgage assistance for olim, large families, etc.)
 
@@ -578,7 +578,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 ## Caveats unique to IL
 
 - **State-land monopoly (~93%)**: most "sales" are technically lease transfers (with or without Heskem Hadash conversion). Always verify Tabu + RMI lease status.
-- **JNF restriction litigation**: ongoing legal contestation; non-Jewish buyers face the swap mechanism; watch HCJ rulings.
+- **JNF restriction litigation**: HCJ 9205/04 (filed Oct 2004) is described as pending by the petitioner Adalah, with no ruling located; the May 2009 State-KKL land-exchange principle (State compensates KKL with state land when an Arab citizen wins a KKL plot) operates meanwhile.
 - **Compensation Fund caps**: war-damage compensation has caps tied to property tax-assessed value, NOT market value — coverage gap can be material on premium properties.
 - **Land devaluation NOT compensated**: Otef Aza / Northern border properties may retain Compensation Fund cover for damage but suffer material market-value loss (magnitude not publicly indexed) with no compensation pathway.
 - **Settlement / Area C / East Jerusalem / Golan deeds**: international-law status disputed; some parcels registered under Jordanian or Ottoman pre-1967 systems; specialist counsel mandatory; foreign-buyer reputational risk consideration (some EU jurisdictions caution against settlement-area transactions).
@@ -586,7 +586,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 - **Tabu vs RMI dual system**: parcel must be verified in BOTH; pre-1969 unsettled parcels (`לא מוסדר`) need attorney verification.
 - **Unauthorized additions (חריגות בנייה)**: extremely common; sometimes municipality has no current record of as-built; verify against the original heter.
 - **VAT 18% on new-build (raised from 17% on 1 January 2025)**: clarify whether listing is gross or net of VAT.
-- **TAMA 38 sunset 2022**: existing pipeline projects continue under transitional rules; new earthquake retrofit under local outline plans + TAMA 70.
+- **TAMA 38 expired** (lapsed 1 Oct 2023 in most planning areas, finally 18 May 2026 everywhere — Planning Administration): approved section-23 plans continue unless the plan provides otherwise; new earthquake retrofit runs through local urban-renewal / section-23 plans and Planning and Building Law Amendment 139. TAMA 70 is the Tel Aviv metro-station plan, not a TAMA 38 successor.
 - **Bituach Leumi (national insurance)**: foreign property owners renting out to Israeli tenants may incur bituach leumi exposure if classified as business activity — verify with Israeli accountant.
 - **AML / source-of-funds**: Anti-Money Laundering Order 5761-2000 mandates KYC by attorneys + banks; non-resident buyers should expect comprehensive source-of-funds documentation requests.
 - **Wartime emergency tax orders**: temporary purchase-tax + Compensation Fund-funding adjustments since October 2023; verify at signing.
@@ -672,7 +672,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 **Coverage check**: foreign-buyer eligibility, pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for legal framework (Land Code via Reshumot; RMI structure via gov.il; Property Tax Compensation Fund via primary statute; Mas Rechisha brackets via Tax Authority — all primary state agencies). MEDIUM for current bracket numerical values (annual indexation 16 January; verify at signing). MEDIUM for war-zone insurability and Otef Aza / Northern-border pricing (active conflict period; data thin). LOW for settlement-area / disputed-jurisdiction deeds (specialist counsel mandatory; not commodity due-diligence).
 
-**Last verified**: 2026-07-02 (insurance regulator, ILA decisions database and hydrological-source attribution corrected 2026-09-18 per gov.il Capital Market Authority + apps.land.gov.il + Water Authority)
+**Last verified**: 2026-07-02 (insurance regulator, ILA decisions database and hydrological-source attribution corrected 2026-09-18 per gov.il Capital Market Authority + apps.land.gov.il + Water Authority). Foreign-buyer / registry-fee / risks / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 ## Extension TODOs (deepen on first real run)
 
@@ -680,7 +680,7 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 - [ ] Tax Authority real-estate transactions database walkthrough — automate per-street comp pulls
 - [ ] Heskem Hadash eligibility heatmap by RMI district
 - [ ] Compensation Fund claim-volume timeseries since Oct 2023 (from official publications)
-- [ ] TAMA 38 / TAMA 70 successor-plan tracking by city
+- [ ] TAMA 38 successor-plan (section-23 / urban-renewal) tracking by city
 - [ ] Bedouin unrecognized villages registry + due-diligence workflow
 - [ ] East Jerusalem / Golan / settlement deed-system primer
 - [ ] Va'ad Bayit by-law screening tool for STR-restricted buildings

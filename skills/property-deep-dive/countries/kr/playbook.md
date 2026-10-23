@@ -637,7 +637,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (cadastral/zoning portal identity and flood-control ministry corrected 2026-09-18 per kras.go.kr + eum.go.kr + mcee.go.kr)
+**Last verified**: 2026-05-27 (cadastral/zoning portal identity and flood-control ministry corrected 2026-09-18 per kras.go.kr + eum.go.kr + mcee.go.kr). Authority tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 

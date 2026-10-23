@@ -353,10 +353,10 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
   - Companies or other legal persons with their head office (høvuðssæti) in the Faroe Islands (§ 1 stk. 2)
 - **Permit required from the landsstýrismaður** (§ 2; logir.fo lists Løgmansskrivstovan as the responsible authority; delegable under § 11; no permit needed for inheritance, undivided estate, division of joint property or gifts in direct line, § 3; apply within 6 months of the final agreement, § 4) for all other foreign buyers, including:
   - EU/EEA citizens (Faroe is NOT in EU — no free-movement override)
-  - Nordic citizens (DK/IS/NO/SE/FI) other than under the 5-year DK-resident rule
+  - Nordic citizens (DK/IS/NO/SE/FI) other than under the 5-year DK-resident rule — Icelander caveat: § 2 stk. 4 lets the landsstýrismaður exempt persons and companies from the permit to meet treaty obligations, and the bill ([logting.fo document 48625](https://www.logting.fo/documents/48625)) names the Hoyvík Agreement as the only such treaty and states the intent to exempt Icelanders and Icelandic companies by kunngerð; whether that kunngerð has been issued: data not publicly available — verify at Løgmansskrivstovan / logir.fo (2021 bill, checked 2026-10-21)
   - Holiday-home purchases by non-residents
 
-**Permit criteria**: not exhaustively listed in published EN summaries — historical guidance suggests:
+**Permit criteria** (per [Leiðbeining nr. 8000 frá 24. mars 2022](https://logir.fo/Leidbeining/8000-fra-24-03-2022-um-treytir-fyri-at-kunna-keypa-fastogn-i-Foroyum), Løgmansskrivstovan guidance, Faroese only): the purpose of the purchase is examined; a permit can be expected where the property is to be a fixed residence in FO, and applicants from outside the Nordic countries must hold a residence permit; summer-house use counts against a permit unless the applicant documents a special connection to FO (earlier residence such as 4 years or family ties count; interest in Faroese culture alone does not); companies must carry on real business activity in FO for which the property is needed (2022 guidance, source logir.fo). Earlier secondary summaries suggested:
 
 - Demonstrable connection to the Faroe Islands (family, employment, longstanding visits)
 - Use case (primary residence > investment > pure holiday let)
@@ -569,7 +569,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 - **MEDIUM** for: municipal tax (kommunalskattur) range (EURAXESS / Norden 16–23% vs Global Expansion 2019 16–22% — same-tier aggregator disagreement, specific kommuna ceiling not verified); national progressive band floor (EURAXESS 13→30% vs Global Expansion 2019 15→30% — same-tier disagreement).
 - **LOW** for: capital gains on property holding-period rules (no English primary source); tinglýsingargjald specific rate (English source unavailable; DK reference rate 1.25% from 1 Jan 2026 likely NOT applicable as Faroe legislates independently); property tax / kommunal property charge specific rate (only secondary aggregator estimate 0.2–0.5% — verify with kommuna).
 
-**Last verified**: 2026-05-27 (employment-service body and telecom operator list corrected 2026-09-18 per als.fo + ft.fo + nema.fo; financial regulator (Tryggingareftirlitið; banks under the Danish FSA), immigration-office links and cadastre host (us.fo/matrikul) corrected 2026-10-21 per tryggingareftirlitid.fo + finanstilsynet.dk + utlendingastovan.fo + us.fo). Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27 (employment-service body and telecom operator list corrected 2026-09-18 per als.fo + ft.fo + nema.fo; financial regulator (Tryggingareftirlitið; banks under the Danish FSA), immigration-office links and cadastre host (us.fo/matrikul) corrected 2026-10-21 per tryggingareftirlitid.fo + finanstilsynet.dk + utlendingastovan.fo + us.fo). Ownership tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Ownership tracker entries re-checked 2026-10-21 (December regwatch wave, run early — Icelander / Hoyvík caveat added, permit practice sourced to Leiðbeining nr. 8000/2022; see shared/regulatory-watch.md).
 
 ### Regulatory-watch follow-up (on PR merge)
 

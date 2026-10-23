@@ -425,7 +425,7 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 | 🇵🇹 | AL registration | Lisbon suspension still active |
 | 🇬🇷 | AMA + primary-use status | Athens + Cyclades restrictions |
 | 🇩🇪 | Per-Kommune | Berlin/München strict |
-| 🇮🇪 | Failte Ireland register | RPZ rules |
+| 🇮🇪 | Fáilte Ireland STL register (once opened) | STL = material change of use nationwide (PDA 2000 s.3A); RPZs ended 1 Mar 2026 |
 
 ### Operating cost structure
 

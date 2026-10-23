@@ -158,7 +158,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ### VAT
 
 - New build houses: **13.5%**
-- New/completed **apartments**: **9%** (temporary, 8 Oct 2025 – 31 Dec 2030; Budget 2026 — per Citizens Information; confirm current rate in the Revenue VAT rates database) (2026-07-03 verified)
+- New/completed **apartments**: **9%** (second reduced rate, temporary to 31 Dec 2030; Finance Act 2025 s.70) only for apartments in a multi-storey building with ≥3 apartments sharing grouped or common access, and whole apartment blocks; from 26 Nov 2025 also student-accommodation blocks, qualifying sites and construction services until completion. A single apartment above a shop or under a duplex stays at **13.5%** (2025 data, source Revenue TDM *Supply and Construction of Qualifying Apartments and Apartment Blocks* + Finance Act 2025; 2026-10-21 verified)
 - Existing: VAT-exempt; Commercial new builds: 23%
 
 ### Capital gains
@@ -194,7 +194,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ### Long-term residential
 
 - **RTB (Residential Tenancies Board)**: `https://www.rtb.ie/` — registration mandatory within 1 month of new tenancy
-- **Rent controls — nationwide since 20 June 2025**: the Residential Tenancies (Amendment) Act 2025 extended Rent Pressure Zones to the whole country. **From 1 March 2026, RPZs are replaced by a permanent national rent-control system** (Residential Tenancies (Miscellaneous Provisions) Act 2026, No. 3 of 2026) covering all private + student-specific tenancies. Annual increase cap: **2% or CPI, whichever is lower**. **New-build private apartments** (construction commenced after 10 June 2025) are exempt from the 2% cap — CPI-linked only. New tenancies from 1 Mar 2026 run as **6-year "tenancies of minimum duration"**; landlords may reset to market rent only at the start of a new tenancy (not after a no-fault termination) or at the end of the 6-year cycle. **Large landlords** (4+ tenancies or a company) are barred from no-fault evictions for tenancies beginning on/after 1 Mar 2026. (2026-07-03 verified; source [RTB rental law changes from 1 March 2026](https://rtb.ie/renting/rental-law-changes-from-1-march-2/))
+- **Rent controls — nationwide since 20 June 2025**: the Residential Tenancies (Amendment) Act 2025 extended Rent Pressure Zones to the whole country. **From 1 March 2026, RPZs are replaced by a permanent national rent-control system** (Residential Tenancies (Miscellaneous Provisions) Act 2026, No. 3 of 2026) covering all private + student-specific tenancies. Annual increase cap: **2% or CPI, whichever is lower**. **New-build apartments and student-specific accommodation** (commencement notice or 7-day notice lodged with the building control authority on or after 10 June 2025; also extensions of 25%+ of floor area and change-of-use conversions) are exempt from the 2% cap — CPI-linked only (RTA 2004 s.19(4)(aa) inserted by Act 3 of 2026 s.8; 2026-10-21 verified). New tenancies from 1 Mar 2026 run as **6-year "tenancies of minimum duration"**; landlords may reset to market rent only at the start of a new tenancy (not after a no-fault termination) or at the end of the 6-year cycle. **Large landlords** (4+ tenancies or a company) are barred from no-fault evictions for tenancies beginning on/after 1 Mar 2026 once the first six months have passed (RTB: all landlords can end a tenancy in the first six months for any reason). (2026-07-03 verified; source [RTB rental law changes from 1 March 2026](https://rtb.ie/renting/rental-law-changes-from-1-march-2/))
 - **Cost Rental** scheme: state-subsidized below-market
 - **Tenancy types**:
   - Tenancies of unlimited duration (since 11 June 2022)
@@ -206,11 +206,11 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 **Irish short-let tax framework** (NOT UK FHL — there is no Irish FHL regime; classification is per-facts via Revenue Case I trading vs Case V rental test):
 - **Case I (trading) vs Case V (rental)**: facts-and-circumstances test on level of services, frequency, marketing. Case I treatment allows capital allowances 12.5% / 8 yrs on STR fittings.
 - **DAC7 platform reporting**: Airbnb/Booking/Vrbo report host earnings to Revenue from 2024 onward.
-- **Short-Term Letting Register (STLR)**: planned via the Short-Term Letting and Tourism Bill (General Scheme approved 15 Apr 2025). The Bill is **being progressed by the Department of Enterprise, Tourism and Employment and has not been introduced in the Oireachtas as of 2026-09-18**; Fáilte Ireland states registration "will open once the necessary legislation has been passed" and publishes **no opening or deadline date** (registration fees also unannounced). Hosts letting for ≤21 nights will have to register each unit and display a unique STL number. Currently no operational national register. (2026-09-18 verified; sources [Fáilte Ireland STLR page](https://www.failteireland.ie/registration-and-grading/short-term-letting-register-(STLR).aspx), [Oireachtas bill register](https://api.oireachtas.ie/v1/legislation?limit=400&bill_year=2026))
+- **Short-Term Letting Register (STLR)**: planned via the Short-Term Letting and Tourism Bill (General Scheme approved 15 Apr 2025). The Bill is **being progressed by the Department of Enterprise, Tourism and Employment and has not been introduced in the Oireachtas as of 2026-10-21**. DETE (press release 13 May 2026 + its STL page) announces that the register **opens 1 Dec 2026** and all hosts **must register by 31 Dec 2026** (platform obligations also from 31 Dec 2026; annual renewal; nominal annual fee, structure not yet published). These are announced targets, not yet law: Fáilte Ireland's own page still says registration "will open once the necessary legislation has been passed" and gives no dates. Both are primary sources, and the gap is the missing Bill. Hosts letting for ≤21 nights will have to register each unit and display a unique STL number. Currently no operational national register. (2026-10-21 verified; sources [DETE short-term letting page](https://enterprise.gov.ie/en/what-we-do/trade-investment/tourism/short-term-letting/), [Fáilte Ireland STLR page](https://www.failteireland.ie/registration-and-grading/short-term-letting-register-(STLR).aspx), [Oireachtas bill register](https://api.oireachtas.ie/v1/legislation?limit=400&bill_year=2026))
 
 ### Local short-let rules
 
-- **RPZ-linked 90-day short-let planning rules**: RPZ designations were replaced by the national rent-control system on 1 Mar 2026 — verify current short-let planning restrictions with the local authority; national STLR register opens 1 Dec 2026. (2026-07-03)
+- **Short-let planning rules (post-RPZ)**: RPZ designations ended 1 Mar 2026. PDA 2000 s.3A, as amended by the Residential Tenancies (Miscellaneous Provisions) Act 2026 s.30 (in force 1 Mar 2026, S.I. 67/2026), makes short-term letting (≤21 consecutive nights) of a house, part of a house or unit a material change of use **nationwide**. S.I. 130/2026 extended the principal-private-residence exemption nationwide: not more than 4 bedrooms, subject to conditions, or the whole PPR for up to 90 days cumulative while temporarily absent (per DETE). S.I. 500/2026 (in operation 29 Sep 2026) adds a simplified retention application (Form 24). Confirm the property's planning status with the local authority. The 1 Dec 2026 STLR opening is a DETE-announced target (see above). (2026-10-21 verified; sources [S.I. 67/2026](https://www.irishstatutebook.ie/eli/2026/si/67/made/en/print), [S.I. 130/2026](https://www.irishstatutebook.ie/eli/2026/si/130/made/en/print), [DETE STL page](https://enterprise.gov.ie/en/what-we-do/trade-investment/tourism/short-term-letting/))
 - **EU Regulation 2024/1028**: short-term rental data-sharing — applicable from 20 May 2026
 
 ### Tax on rental
@@ -380,7 +380,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 
 - **Eircode** (since 2015) — most reliable address identifier; many older systems still use townland+county
 - **Tailte Éireann merger 2023** — consolidated Property Registration Authority + Ordnance Survey + PSRA — historic landings under different systems
-- **No Irish FHL regime** — short-let classification is per-facts via Revenue Case I (trading) vs Case V (rental) test; DAC7 platform reporting from 2024; Short-Term Letting Register (STLR) opens 1 Dec 2026 (see Short-let section)
+- **No Irish FHL regime** — short-let classification is per-facts via Revenue Case I (trading) vs Case V (rental) test; DAC7 platform reporting from 2024; Short-Term Letting Register (STLR): DETE announces opening 1 Dec 2026 with registration by 31 Dec 2026, but the enabling Bill was not introduced as of 2026-10-21 (see Short-let section)
 - **LPT revaluation 2026-2030** — new bands, base rate 0.0906%, 96% stay in band
 - **Pyrite/Mica defective blocks scandal** — Mayo, Donegal, parts of Sligo, Clare, Limerick
   - DCBS up to €420,000 remediation
@@ -445,7 +445,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; the STLR row and the `--rental` IE row were fully re-verified and re-stamped 2026-09-18 per the Failte Ireland STLR page + the Oireachtas bill register — the rest of the playbook keeps the 2026-07-03 date).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; the STLR row and the `--rental` IE row were fully re-verified and re-stamped 2026-09-18 per the Failte Ireland STLR page + the Oireachtas bill register — the rest of the playbook keeps the 2026-07-03 date). Rent-control and STR-register (rental) and apartment-VAT (tax) tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax (LPT 2026 + stamp duty + VHT), rental, work, risks (incl. mica/pyrite + Storm Éowyn), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for LPT 2026-2030 cycle (gov.ie + Revenue.ie + irishtaxhub all confirm 0.0906% rate, 1 Nov 2025 valuation, 20% band widening, 96% stay-in-band); HIGH for stamp duty 6% above €1.5M from 2024; HIGH for DCBS €420k cap. MEDIUM for Storm Éowyn long-term insurance/property pricing impact (still emerging).
 
@@ -455,7 +455,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 - [ ] Pyrite/Mica defective block scheme (DCBS) eligibility per address
 - [ ] Per-county RPZ maps + rent caps
 - [ ] Group Water Scheme verification per address
-- [ ] STLR registration workflow (Fáilte Ireland register opens 1 Dec 2026)
+- [ ] STLR registration workflow (Fáilte Ireland register: DETE-announced opening 1 Dec 2026, deadline 31 Dec 2026; Bill not introduced as of 2026-10-21)
 - [ ] Folio vs Deed system per county
 - [ ] EU 2024/1028 Irish transposition (May 2026)
 - [ ] Help-to-Buy + LAAP + First Home Scheme decision tree

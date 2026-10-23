@@ -97,7 +97,7 @@ Coastal-average row is MONSTAT Q3 2025 (residential price index). All per-city /
 
 ### Transaction taxes — PROGRESSIVE since 1 Jan 2024
 
-**MAJOR CORRECTION**: previously flat 3%; now progressive **marginal** RETT — EUR 4,500 + 5% on the part above EUR 150k; EUR 22,000 + 6% on the part above EUR 500k (bands below are marginal, not whole-price slabs; 6% band + 1 Jan 2024 date per secondary quotes of art. 11 — verify enacted text at Službeni list CG / Poreska uprava):
+**MAJOR CORRECTION**: previously flat 3%; now progressive **marginal** RETT — EUR 4,500 + 5% on the part above EUR 150k; EUR 22,000 + 6% on the part above EUR 500k (bands below are marginal, not whole-price slabs; art. 11 as replaced by Sl. list CG 28/2023, in force 1 Jan 2024, verified on sluzbenilist.me 2026-10-21):
 
 | Property value (EUR) | Rate |
 |---|---:|
@@ -111,14 +111,17 @@ Coastal-average row is MONSTAT Q3 2025 (residential price index). All per-city /
 ### VAT (PDV)
 
 - **21% standard**; first-sale residential subject to 21% VAT in lieu of RETT (NOT a reduced rate)
-- **15% reduced bracket** (eff **1 Jan 2025**) for hotel/resort accommodation, restaurant food + non-alcoholic non-sugary drinks (excl. coffee), and books/serial publications — **material for short-let yield modelling** *(2026-05-27 verified, source KPMG ME Tax Alert Oct 2024 + Eurofast Tax Card 2025)*
-- **7% reduced** narrowed to essentials (basic food, medicines, drinking water, baby diapers, menstrual products, textbooks); **0%** export carve-out
-- New build: 21% VAT included in price
+- **15% reduced bracket** (eff **1 Jan 2025**) (art. 24a(2) as replaced by Sl. list CG 94/2024) for accommodation in hospitality accommodation facilities defined by the tourism law, food and drink service (excl. alcohol, sugared drinks and coffee), books/serial publications, author rights and education/arts services, art and antiques, cultural/sport tickets, non-profit sports facilities, marina services (until EU accession), solar panels and hairdressing — **material for short-let yield modelling**; the EUR 30,000 12-month small-supplier threshold (art. 42) does not apply to taxpayers seated outside Montenegro *(2026-10-21 verified, source Sl. list CG 94/2024 + Poreska uprava consolidated VAT text)*
+- **7% reduced** (art. 24a(1), 12 categories): basic food, medicines, orthotic/prosthetic aids, textbooks, non-bottled drinking water, daily press, public passenger transport, public hygiene, funeral services, animal feed and farm inputs, menstrual products, baby diapers; **0%** (art. 25): exports plus bread, flour, sunflower oil and Health Insurance Fund list medicines *(2026-10-21 verified, source Poreska uprava consolidated VAT text)*
+- New build: 21% VAT included in price (first transfer of a newly built object is taxable; later real-estate turnover is VAT-exempt, art. 27(2))
+- Building land: sale of building land (land with a building-permit act) by a VAT taxpayer is a VAT supply from 1 Apr 2026 (Sl. list CG 12/2026)
+- New VAT law Sl. list CG 104/2026 (in force 25 Jul 2026) applies only from the day of EU accession — same 21/15/7 rates *(2026-10-21 verified, source sluzbenilist.me)*
 - Resale: subject to RETT, not VAT
+- Building land (građevinsko zemljište) on which VAT is paid: outside RETT from 1 Apr 2026 (RETT law art. 6 as amended by Sl. list CG 33/2026) *(2026-10-21 verified, source sluzbenilist.me)*
 
 ### Personal income tax (PIT) — Porez na dohodak fizičkih lica
 
-Salary (gross/month) brackets effective since 1 Jan 2022 (Europe Now I), unchanged through 2026:
+Salary (gross/month) brackets effective since 1 Jan 2022 (Europe Now I), unchanged through 2026 (pending Government Euro-model bill of 18 Sep 2026 would drop the 15% band — 0% up to €700 / 9% above from 1 Jan 2027 — not adopted as of 2026-10-21):
 
 | Salary | Rate |
 |---|---:|
@@ -199,7 +202,7 @@ Plus **municipal surtax (prirez)** ~13% of PIT due → effective top rate ~17%. 
   - Podgorica: ~EUR 750–1,200
   - Tivat (tourism + luxury): ~EUR 700–1,300
   - Smaller cities: ~EUR 500–800
-- **Minimum wage**: EUR 600 (low qualification) / EUR 800 (high qualification) — Europe Now 2, eff 1 October 2024 (see Active fiscal incentives section). **Pending**: Government "Euro model" law package adopted at the 17 Sep 2026 Government session would set minimum NET wages of EUR 1,000 / 1,250 / 1,400 (basic / secondary / higher education) from January 2027 — parliamentary adoption not confirmed, verify at skupstina.me (2026 data, source gov.me)
+- **Minimum wage**: NET EUR 600 (jobs up to qualification level V) / EUR 800 (level VI and higher) — Labour Law art. 101(2) as amended by Sl. list CG 86/2024, eff 1 October 2024 (see Active fiscal incentives section). **Pending**: Government Euro-model bill of 18 Sep 2026 would set NET minimums of EUR 1,000 (qualification levels I-II) / 1,250 (III-IV) / 1,400 (V and higher) from 1 Jan 2027 — not in the Parliament register as of 2026-10-21, verify at skupstina.me (2026 data, source gov.me bill + zakoni.skupstina.me)
 
 ---
 
@@ -325,8 +328,8 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 - **CBI Programme ABOLISHED 31 Dec 2022** (was EUR 250k+ minimum) — major historical reference
 - **NEW investor residency (effective 17 January 2026)** (€150k property → 5 years to permanent → 10 to citizenship)
 - **Progressive RETT since 1 Jan 2024**: 3% / 5% / 6% marginal bands — €4,500 + 5% above €150k, €22,000 + 6% above €500k (not flat 3% as previously)
-- **VAT restructure (eff 1 Jan 2025)**: new **15% bracket** added (hotels/restaurants/books); 21% standard; 7% essentials-only; 21% on first-sale residential remains in lieu of RETT
-- **Europe Now 2 (eff 1 October 2024)**: minimum wage raised to **€600** (low qualification) / **€800** (high qualification); employee pension-and-disability contribution cut 15% → 10%; employer pension-and-disability contribution eliminated (was 5.5%). **Pending "Euro model"** (Government session 17 Sep 2026, to apply from January 2027): minimum NET wages EUR 1,000 / 1,250 / 1,400 + a further labour-tax cut announced — not yet enacted as read on 2026-09-24, verify at skupstina.me (2026 data, source gov.me)
+- **VAT restructure (eff 1 Jan 2025)**: new **15% bracket** added (accommodation, food and drink service, books and seven further categories); 21% standard; 7% for 12 listed categories; 0% for exports plus bread, flour, sunflower oil and Fund-list medicines; 21% on first-sale residential remains in lieu of RETT
+- **Europe Now 2 (eff 1 October 2024)**: NET minimum wage raised to **€600** (jobs up to qualification level V) / **€800** (level VI and higher); employee pension-and-disability contribution cut 15% → 10%; employer pension-and-disability contribution eliminated (was 5.5%). **Pending "Euro model"** (Government bills published 18 Sep 2026, to apply from 1 Jan 2027): NET minimum wages EUR 1,000 / 1,250 / 1,400 (qualification levels I-II / III-IV / V and higher); pension-and-disability, additional-service and unemployment-insurance contribution rates to 0%; PIT on employment income 0% to EUR 700 / 9% above — not in the Parliament register as of 2026-10-21, verify at skupstina.me (2026 data, source gov.me bills)
 - **Foreign-buyer rules** (Zakon o svojinsko-pravnim odnosima): foreign natural persons CANNOT own agricultural land, forests, or forest land. **Exception**: up to **5,000 m²** of such restricted land may be acquired if a residential building is on it and the transfer agreement covers residence + adjoining land. **Workaround**: incorporate a Montenegrin **d.o.o.** (domestic legal entity faces no restriction) — the dominant vehicle for agricultural/coastal portfolio buyers *(2026-05-27 verified, source Chambers Real Estate 2025 ME)*
 - **Russian buyer concentration post-2022** + EU buyer surge
 - **Coastal vs mountain divergence**: Adriatic 5-10× inland prices
@@ -388,7 +391,7 @@ Renovation/retrofit rows are `~est.` from regional contractor ranges — get a q
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27. Tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md).
+✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-05-27. Tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (MONSTAT Q3 2025 + CBCG + Realitica), traffic (Putevi PGDS), tax (porez na nepokretnost 0.25-1.0% + progressive RETT 3/5/6% since Jan 2024 + 21% VAT first-sale + 15% CGT), rental (Opština license + tourist tax + 15% PIT), work (ZZZCG), risks (1979 Adriatic M6.9 + Mediterranean wildfire + karst), mains (ViK per municipality).
 **Confidence**: HIGH for EUR informal adoption 2002 (no central-bank issuance UNIQUE); HIGH for progressive RETT 3/5/6% effective 1 Jan 2024; HIGH for CBI abolition 31 Dec 2022 + NEW Jan 2026 investor residency €150k; HIGH for cadastre URLs (gov.me/uzn + ekatastar.me); MEDIUM for MerkaturNekretnine listing platform (could not independently verify); MEDIUM for 21% VAT first-sale framing (in lieu of RETT, not reduced rate).
 

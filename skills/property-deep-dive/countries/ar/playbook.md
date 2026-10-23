@@ -378,7 +378,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 ## Status
 
 ✅ **Fully populated** as of 2026-04-26.
-**Last verified**: 2026-08-07.
+**Last verified**: 2026-08-07. Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (Reporte Inmobiliario + Zonaprop + TheLatinvestor 2026), traffic (DNV TMDA), tax (provincial inmobiliario + sellos + **ITI federal REPEALED 2024-07-08** by Ley 27.743 art. 67 + Bienes Personales reformed by Ley 27.743 art. 63 (single scale over Argentine + foreign assets, top bracket stepping down FY2025 1.00% → FY2026 0.75% → flat 0.25% from FY2027) with IPC-indexed 2026 thresholds + 15% CGT post-2018 + **AFIP→ARCA** rename Decreto 953/2024), rental (DNU 70 + Ley Bases liberalized), work (Monotributo K cap ARS 108M; SMVM ARS 357,800 Abr 2026), risks (INPRES Cuyo Zone 4 + Patagonia volcanic + flood Tigre; Ley 26.737 still in force, frozen DNU 70 repeal), mains (AySA + ABSA + provincial), cepo (Phase 3 lift 2025-04-14 with band ARS 1,000-1,400/USD).
 **Confidence**: HIGH for Bienes Personales reform schedule (Ley 27.743) + DNU 70/2023 + Ley Bases consolidation June 2024 + cepo partial lift April 2025; HIGH for Zonaprop + Reporte Inmobiliario market data; MEDIUM for provincial registry URL stability (varies); MEDIUM for further Milei tax-cut announcements (March 2026 unenacted as of writing).
 

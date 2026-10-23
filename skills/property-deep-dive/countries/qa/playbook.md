@@ -109,7 +109,7 @@ Non-Qataris **cannot acquire any registered interest** in real estate outside th
 
 ### Primary sources
 
-- **Qatar Central Bank (QCB)** Real Estate Price Index (REPI): `https://www.qcb.gov.qa/en/pages/realestatepriceindex.aspx` — **monthly index series** (one price level per month, Aug 2021 → current); QCB created the index and computes it from Ministry of Justice transaction data, methodology in the QCB **third Financial Stability Review** pp. 85-86 (2026 data, source QCB; 2026-09-18 verified)
+- **Qatar Central Bank (QCB)** Real Estate Price Index (REPI): `https://www.qcb.gov.qa/en/pages/realestatepriceindex.aspx` — **monthly index series** (one price level per month; the page read 2026-10-21 runs Sep 2021 → Aug 2026); QCB created the index and computes it from Ministry of Justice transaction data, methodology in the QCB **third Financial Stability Review** pp. 85-86 (2026 data, source QCB; 2026-09-18 verified)
 - **Qatar Central Bank (QCB)** — Real Estate Price Index supplements (Financial Stability Report): `https://www.qcb.gov.qa/`
 - **Ministry of Justice (REA)** — quarterly transaction-volume reports + weekly bulletins: `https://www.moj.gov.qa/`
 - **ValuStrat Qatar** + **Cushman & Wakefield Qatar** + **DTZ Qatar** — quarterly market reviews (consultancy aggregators using REA data)
@@ -125,8 +125,8 @@ Non-Qataris **cannot acquire any registered interest** in real estate outside th
 
 ### Citywide benchmarks (verified 2026-05-01)
 
-- **Doha residential apartments — citywide median asking price**: ~QAR 11,000–14,000 / sqm (~USD 3,000–3,850 / sqm) (per listing platforms 2025–2026 — *verify current quarter on PSA REPI*)
-- **PSA REPI**: Q4 2024 index showed continued post-World Cup price softening (-3 to -5% YoY across some quarters 2023–2024 as oversupply absorbed); **2025 trajectory mixed** — verify current PSA bulletin
+- **Doha residential apartments — citywide median asking price**: ~QAR 11,000–14,000 / sqm (~USD 3,000–3,850 / sqm) (per listing platforms 2025–2026 — *verify current trend on the QCB REPI*)
+- **QCB REPI** (computed from the monthly index values on qcb.gov.qa, read 2026-10-21; YoY of quarterly averages): 2024 Q1 +0.1% / Q2 −5.2% / Q3 +0.2% / Q4 +0.1% — the post-World Cup softening shows only in Q2 2024; 2025 Q1 +2.2% / Q2 +9.8% / Q3 +5.1% / Q4 −1.1% (annual average +3.9% vs 2024); 2026 Q1 +3.1% / Q2 +7.7%; Aug 2026 = 241.42 vs 226.80 in Aug 2025 (+6.4%) (2026 data, source QCB)
 - **REA monthly transaction volume**: typically QAR 1.5–3 bn/month total across all real estate (residential + commercial + land) — verify weekly REA bulletin
 
 ### Premium-zone benchmarks (per listing platforms — verify current month)
@@ -143,12 +143,12 @@ Non-Qataris **cannot acquire any registered interest** in real estate outside th
 | **Al Sadd** (leasehold) | apartment | ~QAR 8,000–12,000 | Mid-Doha; leasehold-only for foreigners |
 | **Al Wakra** (selected freehold plots) | villa | ~QAR 7,000–11,000 | Coastal south of Doha |
 
-(Sources: Property Finder QA + Hapondo + Qatar Living listings 2025–2026 — *per listing — verify with cadastre / on visit*; PSA REPI for citywide trend)
+(Sources: Property Finder QA + Hapondo + Qatar Living listings 2025–2026 — *per listing — verify with cadastre / on visit*; QCB REPI for citywide trend)
 
 ### Compute
 
 1. Listing QAR/sqm = listing QAR ÷ BUA sqm (BUA = Built-Up Area; Qatar listings sometimes show sellable area or land area for villas — clarify which)
-2. Cross-check with **PSA REPI** for the same quarter (citywide trend, not zone-level)
+2. Cross-check with the **QCB REPI** for the same months (citywide monthly index, not zone-level)
 3. Cross-check with **REA weekly transaction bulletin** for similar buildings/zones
 4. **Trap**: Off-plan list price ≠ ready market — apply 5–15% off-plan-to-handover discount when comparing
 5. **Trap**: Pearl-Qatar branded buildings (Tower 25, La Croisette plots) carry 30–80% premiums vs adjacent Porto Arabia mid-tier — don't average them in
@@ -628,8 +628,8 @@ Qatar urban property is essentially **always on mains** for water + electricity 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (validation sweep — Law 28/2023 Aqarat/RERA + Law 5/2024 Real Estate Registration Law + 2026-01 MoJ fee-cut entry; statute names refreshed; statistics authority (NPC), REPI publisher (QCB) and meteorology parent (QCAA) corrected 2026-09-18 per npc.qa + qcb.gov.qa + caa.gov.qa)
+**Last verified**: 2026-05-27 (validation sweep — Law 28/2023 Aqarat/RERA + Law 5/2024 Real Estate Registration Law + 2026-01 MoJ fee-cut entry; statute names refreshed; statistics authority (NPC), REPI publisher (QCB) and meteorology parent (QCAA) corrected 2026-09-18 per npc.qa + qcb.gov.qa + caa.gov.qa). Statistics-authority tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: HIGH confidence for federal-level structural facts — QAR/USD peg at 3.64 since 2001, 0% personal income tax, 0% recurring property tax, 0% capital gains tax, VAT not yet implemented, REA 0.25% registration fee, Investor Residency QAR 730k threshold (Law 21/2018), Permanent Residency QAR 1M threshold (Law 10/2018), foreign-buyer 9 freehold + 16 leasehold zones (Law 16/2018 + Cabinet Decision 28/2020), no citizenship by investment, Kafala reform via Law 17/2020 + Law 13/2018, QCB-regulated LTV ratios, Kahramaa monopoly utility provider. MEDIUM confidence for citywide pricing benchmarks (PSA REPI is quarterly and lags; listing-platform asking prices used as proxy with `per listing — verify with cadastre / on visit` tag), service-charge tier ranges (negotiated per OA — must verify per-building schedule), exact Tier-2 leasehold zone list (16 zones illustrative — verify current MCI list before reservation), VAT introduction timing (no announcement as of 2026-05; flagged as future risk), exact 2024 Cabinet Decision restating the freehold zone list (verify current MCI lookup). All numeric facts date-stamped against primary .gov.qa sources where available; listing claims tagged for in-person + cadastre verification; STR licensing path under Qatar Tourism noted with post-2022 enforcement caveat.
+**Notes**: HIGH confidence for federal-level structural facts — QAR/USD peg at 3.64 since 2001, 0% personal income tax, 0% recurring property tax, 0% capital gains tax, VAT not yet implemented, REA 0.25% registration fee, Investor Residency QAR 730k threshold (Law 21/2018), Permanent Residency QAR 1M threshold (Law 10/2018), foreign-buyer 9 freehold + 16 leasehold zones (Law 16/2018 + Cabinet Decision 28/2020), no citizenship by investment, Kafala reform via Law 17/2020 + Law 13/2018, QCB-regulated LTV ratios, Kahramaa monopoly utility provider. MEDIUM confidence for citywide pricing benchmarks (the QCB REPI is a citywide monthly index, not zone-level; listing-platform asking prices used as proxy with `per listing — verify with cadastre / on visit` tag), service-charge tier ranges (negotiated per OA — must verify per-building schedule), exact Tier-2 leasehold zone list (16 zones illustrative — verify current MCI list before reservation), VAT introduction timing (no announcement as of 2026-05; flagged as future risk), exact 2024 Cabinet Decision restating the freehold zone list (verify current MCI lookup). All numeric facts date-stamped against primary .gov.qa sources where available; listing claims tagged for in-person + cadastre verification; STR licensing path under Qatar Tourism noted with post-2022 enforcement caveat.

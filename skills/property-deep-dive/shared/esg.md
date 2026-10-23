@@ -95,7 +95,7 @@ EPC-style class distributions are not published by stat office for most non-EU r
 | 🇶🇦 QA | GSAS (Global Sustainability Assessment System, GORD-administered) | Mandatory for major QNV2030 / FIFA 2022 World Cup projects; voluntary private | Sub-5% of total stock — verify at gord.qa | gord.qa |
 | 🇸🇦 SA | Mostadam (national green building cert, since 2019) + LEED widely used in Vision 2030 mega-projects | Mostadam mandatory for selected government + Vision 2030 projects; voluntary private | Sub-5% of total stock — verify at mostadam.sa | mostadam.sa |
 | 🇵🇪 PE | Bono Mivivienda Sostenible + EDGE certifications | Bono incentive voluntary; EDGE voluntary | Coverage low — verify at mivivienda.com.pe | mivivienda.com.pe |
-| 🇪🇨 EC | No comprehensive national EPC regime as of May 2026 (per public sources); Quito Plan Maestro de Eficiencia Energética draft | Not yet mandatory | data not publicly available — verify at ambiente.gob.ec | ambiente.gob.ec |
+| 🇪🇨 EC | No comprehensive national EPC regime as of May 2026 (per public sources); Quito Plan Maestro de Eficiencia Energética draft | Not yet mandatory | data not publicly available — verify at rncc.ambiente.gob.ec (MAATE; www.ambiente.gob.ec fails TLS, 2026-10-21) | rncc.ambiente.gob.ec |
 | 🇵🇾 PY | No comprehensive national EPC regime as of May 2026 (per public sources) | — | data not publicly available — verify at mades.gov.py | mades.gov.py |
 | 🇦🇲 AM | Energy Efficiency Law 2004 framework + RA Code on Buildings amendments | Code mandatory for new builds; rating regime nascent | Distribution data not publicly available — verify at minenergy.am | minenergy.am |
 | 🇦🇿 AZ | National Energy Efficiency Law 2018 framework | Code mandatory for new builds; rating regime nascent | Distribution data not publicly available — verify at minenergy.gov.az | minenergy.gov.az |
@@ -338,7 +338,7 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 - 🇶🇦 QA — **Qatar National Vision 2030 (QNV2030)** sustainability axis; National Climate Change Plan 2030 (Oct 2021); GSAS rating; Al Kharsaah 800 MW solar — verify at mecc.gov.qa.
 - 🇸🇦 SA — **Saudi Green Initiative** (Oct 2021) + Mostadam green building cert (since 2019); Vision 2030 mega-projects (NEOM, Diriyah, Red Sea, Riyadh) green-build mandates; ETS pilot in design — verify at vision2030.gov.sa / mostadam.sa.
 - 🇵🇪 PE — Política Nacional de Cambio Climático (DS 023-2021-MINAM); Ley Marco sobre Cambio Climático 30754 (2018); Bono Mivivienda Sostenible — verify at minam.gob.pe.
-- 🇪🇨 EC — Código Orgánico del Ambiente (COA, 2017); Estrategia Nacional de Cambio Climático 2012-2025; 2024 drought-driven energy rationing accelerated grid-diversification policy — verify at ambiente.gob.ec.
+- 🇪🇨 EC — Código Orgánico del Ambiente (COA, 2017); Estrategia Nacional de Cambio Climático 2012-2025; 2024 drought-driven energy rationing accelerated grid-diversification policy — verify at rncc.ambiente.gob.ec (MAATE).
 - 🇵🇾 PY — Política Nacional de Cambio Climático (Ley 5875/2017); Plan Nacional de Adaptación 2022 — verify at mades.gov.py.
 - 🇦🇲 AM — National Programme on Energy Saving and Renewable Energy 2007 (updated 2021); Updated NDC 2021 — verify at minenergy.am / mnp.am.
 - 🇦🇿 AZ — National Energy Efficiency Law 2018; Updated NDC 2023 (40% reduction by 2050 vs 1990); SOCAR Green pivot — verify at minenergy.gov.az.
@@ -388,7 +388,7 @@ Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watc
 | 🇩🇴 DO 🇲🇾 MY 🇻🇳 VN 🇵🇭 PH 🇲🇦 MA 🇪🇬 EG 🇮🇩 ID 🇬🇪 GE | No comprehensive carbon tax on residential property as of Apr 2026 | data not publicly available — verify at each country's environment ministry |
 | 🇶🇦 QA | No carbon tax as of May 2026; QNV2030 sustainability axis relies on subsidies + GSAS mandates — verify at mecc.gov.qa | — |
 | 🇸🇦 SA | No carbon tax as of May 2026; Saudi Green Initiative + Mostadam mandates; ETS pilot in design — verify at sgi.gov.sa | — |
-| 🇨🇴 CO 🇨🇱 CL 🇺🇾 UY (existing entries) — Tier-4 LatAm: 🇵🇪 PE 🇪🇨 EC 🇵🇾 PY | No comprehensive carbon tax on residential property as of May 2026 | data not publicly available — verify at each country's environment ministry (minam.gob.pe / ambiente.gob.ec / mades.gov.py) |
+| 🇨🇴 CO 🇨🇱 CL 🇺🇾 UY (existing entries) — Tier-4 LatAm: 🇵🇪 PE 🇪🇨 EC 🇵🇾 PY | No comprehensive carbon tax on residential property as of May 2026 | data not publicly available — verify at each country's environment ministry (minam.gob.pe / rncc.ambiente.gob.ec / mades.gov.py) |
 | 🇦🇲 AM 🇦🇿 AZ | No comprehensive carbon tax as of May 2026 | data not publicly available — verify at minenergy.am / minenergy.gov.az |
 | 🇹🇳 TN | No comprehensive carbon tax as of May 2026; energy-subsidy reform under IMF EFF (program SUSPENDED Mar 2024) — verify at finances.gov.tn / anme.tn | — |
 | 🇸🇬 SG | Carbon Pricing Act (since 2019); applies to facilities emitting ≥25kt CO2e/yr (large emitters, NOT residential) | SGD 25/tCO2 (2024-25), SGD 45 (2026-27), SGD 50-80 by 2030 — verify at nccs.gov.sg |

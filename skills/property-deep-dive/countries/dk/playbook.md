@@ -411,7 +411,7 @@ _Renovation/abatement ranges are order-of-magnitude estimates (not from a publis
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated** as of 2026-04-25. Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax (with 2024 boligskat reform), rental, work, risks (incl. storm surge ratings + 20 Oct 2023 reference event), mains all have primary government sources.
 **Confidence**: HIGH for boligskat 2024 reform (Vurderingsportalen + Bolius confirm rates 0.51%/1.4% + 20% deduction); HIGH for tinglysning (1 unified register since 2009); HIGH for andelsbolig structure (DK-specific). MEDIUM for Boligreguleringsloven post-1 July 2022 transition specifics (rapidly changing).
 

@@ -264,7 +264,7 @@
       "min_threshold": "n/a",
       "property_linked": "n/a",
       "pr_citizenship": "n/a",
-      "caveats": "Treat as ENDED; verify Maltese gov compliance",
+      "caveats": "Treat as ENDED; repealed by Act XXI of 2025 (in force 24 Jul 2025); only discretionary citizenship by merit remains (LN 159 of 2025), not an investment route",
       "region": "Iberia, Mediterranean, Greece"
     },
     {
@@ -910,7 +910,7 @@
       "country": "co",
       "programme": "Migratorio M visa (real-estate route)",
       "status": "OPEN",
-      "min_threshold": "**≥350× SMLMV** (2026: COP 612.8M ≈ USD 195k at TRM 3,144.14, BanRep 2026-08-03; re-prices every 1 Jan with the SMLMV); FDI route >650× SMLMV; both routes accumulate 5 yrs toward Visa R (not automatic)",
+      "min_threshold": "**≥350× SMLMV** (2026: COP 612.8M ≈ USD 194k at TRM 3,163.76, Superfinanciera 2026-10-21; re-prices every 1 Jan with the SMLMV); FDI route >650× SMLMV; both routes accumulate 5 yrs toward Visa R (not automatic)",
       "property_linked": "YES",
       "pr_citizenship": "M-visa 3 yrs → R-visa PR after 5 yrs of M (or 2 yrs if Colombian-citizen spouse)",
       "caveats": "SMLMV adjusts annually; verify MinTrabajo",
@@ -941,12 +941,12 @@
     {
       "id": "uy-tax-residency-real-estate-route-decreto-138-020-153-020",
       "country": "uy",
-      "programme": "Tax Residency (real-estate route — Decreto 138/020 + 153/020)",
+      "programme": "Tax Residency (real-estate route — Decreto 148/007 art. 5 Bis per Decreto 163/020 + 174/020)",
       "status": "OPEN",
-      "min_threshold": "**UI 3,500,000** RE investment (~USD 470k) + 60 days/yr presence",
+      "min_threshold": "**above UI 3,500,000** RE investment made from 1 Jul 2020 + 60 days/yr presence",
       "property_linked": "YES",
       "pr_citizenship": "Tax-residency for IRPF; PR pathway separate via Migración",
-      "caveats": "**11-yr exemption on foreign interest+dividends (Ley 19.937)** — extends to 5+5 with 12% IRPF after; major wealth-relocation magnet",
+      "caveats": "Residency alone gives no holiday: from 2026 the IRNR election on foreign capital income (year of change + 10 years) needs **more than UI 12,500,000** in real estate (acquired from 1 Sep 2025, may coincide with the residency property) or at least UI 625,000 a year in qualifying funds, or the 183-day test (Ley 20.446 art. 648); then 5 yrs at 50% of the IRPF rate or a fixed annual IRPF of UI 1,875,000",
       "region": "Latin America"
     },
     {
@@ -1174,7 +1174,7 @@
       "country": "ae",
       "programme": "Golden Visa (Real-Estate route, Cabinet Decision 65/2022 expanded)",
       "status": "OPEN",
-      "min_threshold": "**AED 2,000,000** RE (single or aggregate); off-plan eligibility not stated on the GDRFA golden-residence page (route includes all types of properties) — verify with DLD",
+      "min_threshold": "**AED 2,000,000** RE (single or aggregate); off-plan units totalling AED 2M from an approved local developer accepted per ICP golden-residency guide (no paid-percentage stated) — confirm with DLD",
       "property_linked": "YES",
       "pr_citizenship": "10-yr renewable; family included; outside-residency allowed",
       "caveats": "NO citizenship path; 2-yr investor visa: AED 750k floor ABOLISHED 29 Apr 2026 (DLD) — no minimum for sole owners with title deed, AED 400k each for joint owners · ⚠️ 10-yr Golden needs AED 2M property (~AED 2.09M all-in); 'any property' = the 2-yr visa; see § Reality-check",
@@ -1221,7 +1221,7 @@
       "min_threshold": "None (Jewish ancestry / conversion)",
       "property_linked": "No",
       "pr_citizenship": "Direct citizenship on arrival; Olim 7-yr tax + purchase-tax incentives",
-      "caveats": "Olim purchase tax 0.5% on first ILS 1.92M / 5% above (vs non-resident 8% / 10%) — saves ~ILS 207k on ILS 4M flat est.",
+      "caveats": "Olim single-dwelling purchase tax (reg. 12A, from 15 Aug 2024): 0% to ILS 1,978,745 / 0.5% to ILS 6,055,070 / 8% to ILS 20,183,565, not available above (vs non-resident 8% to ILS 6,055,070 / 10% above, temporary provision extended to 10 Feb 2027) — computed saving ~ILS 309,894 on an ILS 4M flat",
       "region": "Türkiye & Middle East"
     },
     {
@@ -1328,7 +1328,7 @@
       "country": "id",
       "programme": "Second Home Visa (Permenkumham 22/2023)",
       "status": "OPEN",
-      "min_threshold": "**IDR 2,000,000,000** deposit in a state bank (~USD 130k); property route value contested in secondary sources (IDR 2B-equivalent vs IDR 5B vs ~USD 1M) — verify at Imigrasi",
+      "min_threshold": "**US$130,000** or equivalent kept in own-name account at a state bank, OR purchase of a rumah susun / apartemen worth at least **US$1,000,000** (Permenkumham 22/2023 Pasal 56(2); Imigrasi E33)",
       "property_linked": "YES",
       "pr_citizenship": "5–10-yr renewable",
       "caveats": "Uniquely combines visa + property pathway (LTR Wealthy Pensioner doesn't directly mirror this)",
@@ -1419,7 +1419,7 @@
       "min_threshold": "Capital injection into Vietnamese enterprise (case-by-case; ≥VND 3B common floor)",
       "property_linked": "NO (passive RE NOT sufficient)",
       "pr_citizenship": "1-5-10 yr by tier; PR after 3 yrs continuous (TT visa)",
-      "caveats": "NO Vietnam Golden Visa via real estate exists — common assumption is wrong",
+      "caveats": "NO Vietnam Golden Visa via real estate exists — common assumption is wrong; UĐ1/UĐ2 preferential visas (Law 118/2025/QH15, from 1 Jul 2026) cover digital-tech talent and statutory preference cases, not property buyers",
       "region": "Asia-Pacific"
     },
     {
@@ -1438,10 +1438,10 @@
       "country": "ph",
       "programme": "SRRV — Special Resident Retiree's Visa (PRA)",
       "status": "OPEN",
-      "min_threshold": "USD 10k–50k deposit by age + classic/smile/courtesy categories",
+      "min_threshold": "Classic USD 15k–50k deposit by age (40-49 / 50+) and pension status; Courtesy USD 1.5k–6k (PRA, Aug 2025)",
       "property_linked": "YES (deposit can convert to condo purchase under conditions)",
-      "pr_citizenship": "Indefinite renewable; multiple-entry; permits condo ownership",
-      "caveats": "Most generous SE-Asia retirement visa; 35+ for some tiers",
+      "pr_citizenship": "Multiple entry + indefinite stay; condo ownership comes from RA 4726 (40% foreign cap), not the visa",
+      "caveats": "Minimum age 40 since the Aug 2025 Expanded SRRV Program (Smile / Human Touch closed to new applicants); Classic deposit convertible to a condo of at least USD 50,000",
       "region": "Asia-Pacific"
     },
     {
@@ -1580,11 +1580,11 @@
       "id": "lk-golden-paradise-residence-visa",
       "country": "lk",
       "programme": "Golden Paradise Residence Visa",
-      "status": "OPEN — NEW (2024)",
-      "min_threshold": "**US$200,000** non-interest-bearing bank deposit OR **US$75,000 condominium** purchase (foreign remittance)",
+      "status": "OPEN (since 2022)",
+      "min_threshold": "**US$200,000** bank deposit (Golden Paradise Foreign Currency Account; up to 50% withdrawable after year 1); USD 75,000 (suburbs) / 150,000-200,000 (urban) condominium is a separate Investor Category residence-visa route",
       "property_linked": "YES (condominium route only — land freehold remains banned for foreigners)",
       "pr_citizenship": "10-yr renewable",
-      "caveats": "Launched 2024 replacing Resident Guest Scheme + pre-2022 schemes paused during crisis; verify at Department of Immigration & Emigration `https://eservices.immigration.gov.lk/golden-paradise-visa.html`",
+      "caveats": "Launched 2022 (original deposit US$100,000); Resident Guest Scheme + My Dream Home now extension only for existing visa holders; verify at Department of Immigration & Emigration `https://eservices.immigration.gov.lk/golden-paradise-visa.html`",
       "region": "South Asia"
     },
     {
@@ -1716,7 +1716,7 @@
       "min_threshold": "Property ownership + means-of-support proof OR work contract OR retirement income",
       "property_linked": "YES (property route possible but not statutorily required)",
       "pr_citizenship": "1–3-yr renewable; PR after 4 yrs continuous",
-      "caveats": "No formal Golden Visa; Office des Changes registration mandatory for repatriation",
+      "caveats": "No formal Golden Visa; repatriation rights (garantie de transfert) depend on foreign-currency financing of the purchase documented by the bank (IGOC 2026), not on an Office des Changes registration",
       "region": "Africa"
     },
     {
@@ -1900,10 +1900,10 @@
       "country": "rw",
       "programme": "Investor Visa / Investor Residence Permit",
       "status": "OPEN",
-      "min_threshold": "**USD 250,000** registered investment (USD 100,000 for EAC + COMESA citizens) per **Investment Code Law N° 006/2021 Art. 14**",
-      "property_linked": "Possibly (RE eligible if registered as investor with Rwanda Development Board)",
-      "pr_citizenship": "Renewable; PR pathway separate after thresholds",
-      "caveats": "RE-as-investor route exists but **clarify \"USD 500k luxury property\" route is secondary-aggregator only** — flag for primary-source verification with RDB; verify at `https://rdb.rw/`",
+      "min_threshold": "**USD 250,000** (overseas) / USD 100,000 (locals + EAC + COMESA) = RDB investment-certificate start-up capital guidance; Law N° 006/2021 Annex § XXII ties USD 250,000 to recruiting 3 foreign employees without a labour-market test (Art. 14 carries no threshold); DGIE Business investor permit requires the company RDB investment certificate",
+      "property_linked": "Yes for the high-net-worth limb (luxury property worth at least USD 500,000, Law N° 006/2021 Annex § XXI); otherwise only via an RDB-registered investment",
+      "pr_citizenship": "DGIE Business investor permit up to 2 years, recurring up to 5 years; high net worth individuals eligible for permanent residence on criteria set by other laws, then nationality by acquisition after 5 years (Annex § XXI)",
+      "caveats": "USD 500k luxury property limb is in the Law: Annex § XXI makes high net worth individuals eligible for permanent residence on criteria set by the relevant laws, and lists owning a luxury property worth at least USD 500,000 (or investing at least USD 1,000,000) as the category requirements a permanent resident must keep meeting to apply for nationality by acquisition after 5 years; PR criteria not published — verify at DGIE `https://migration.gov.rw/our-services/permit/permanent-permits`",
       "region": "Africa"
     },
     {
@@ -2065,10 +2065,10 @@
       "country": "uz",
       "programme": "5-year Investor Residence Permit (\"Golden Visa\") — eff. 1 June 2025",
       "status": "OPEN — NEW",
-      "min_threshold": "**US$250,000** payment (main applicant) + **US$150,000** per family member (spouse/children/parents) — no real-estate condition (lex.uz УП-67 passport); secondary sources describe it as a non-refundable donation. The US$300k Tashkent / US$200k six regions / US$100k other-regions property thresholds belong to the SEPARATE pre-existing UP-5611 real-estate-for-residence route",
+      "min_threshold": "**US$250,000** payment (main applicant) + **US$150,000** per family member (spouse/children/parents) — no real-estate condition (lex.uz УП-67 passport); IMI Daily calls it a donation to a state-designated account, Fragomen a one-off payment; the decree names no fund and neither it nor those sources states refundability. The US$300k Tashkent / US$200k six regions / US$100k other-regions property thresholds belong to the SEPARATE pre-existing UP-5611 real-estate-for-residence route",
       "property_linked": "NO — payment route with no property condition; real-estate residence is the separate UP-5611 route",
       "pr_citizenship": "5-yr (renewal rules pending an implementing Cabinet/MIA resolution per Savory & Partners, secondary; not found in sources read — verify at MIA)",
-      "caveats": "Per Presidential Decree УП-67 (PF-67) of 18 Apr 2025, in force 1 June 2025 (lex.uz doc 7485034); 'UP-89' was a wrong number. Implementing Cabinet/MIA resolution reported not adopted as of Oct 2025 — verify operational status at lex.uz / MIA before relying",
+      "caveats": "Per Presidential Decree УП-67 (PF-67) of 18 Apr 2025, in force 1 June 2025 (lex.uz doc 7485034); 'UP-89' was a wrong number. Implementing act reported not adopted as of Oct 2025 (Azizov & Partners); no published payment-procedure act as of 12 Oct 2026 (Pactum, secondary; not located on lex.uz 2026-10-21) — verify operational status at lex.uz / MIA before relying",
       "region": "Central Asia"
     },
     {
@@ -2133,7 +2133,7 @@
       "status": "OPEN",
       "min_threshold": "Open Market property (~1,600 dwellings, no quota); £50k Document Duty trigger ≈ £1.37M computed / £1.4M industry-typical; £60k annual Tax Cap; £160k / £320k worldwide caps",
       "property_linked": "Yes — must purchase Open Market property",
-      "pr_citizenship": "Population Management ladder: 8yrs Established Resident → 14yrs Permanent Resident (10-of-20 retention)",
+      "pr_citizenship": "Population Management ladder: 8yrs Established Resident → 14yrs Permanent Resident (Permanent Resident status survives absence)",
       "caveats": "Standard Charge rises £40k (2024) → £50k from year-of-charge 2026 (P.2025-121). Alderney Cap split: legacy £65k (2024 + 2025, ceased 31 Dec 2025) vs new £60k Alderney Property Tax Cap from 1 Jan 2025. NO CGT/IHT/GST.",
       "region": "Crown Dependencies & Autonomous Territories"
     },
@@ -2142,10 +2142,10 @@
       "country": "gi",
       "programme": "Cat-2 (Qualifying Category 2 Individuals)",
       "status": "OPEN",
-      "min_threshold": "£5M net worth for new applicants (HMGoG PR 469/2026, 18 Jun 2026; existing holders grandfathered at £2M); £118k income cap; £37k minimum annual tax / £42,380 maximum",
+      "min_threshold": "£5M net worth for new applicants (announced HMGoG PR 469/2026, 18 Jun 2026; administrative, not in the Rules text, which require 'substantial and sound financial standing'; existing holders grandfathered at £2M); £118k income cap; £37k minimum annual tax / £42,380 maximum",
       "property_linked": "Yes — approved Gibraltar residence required (Open Market only; Cat-2 applicants pre-arrival are categorically Open Market)",
       "pr_citizenship": "Renewable; NO direct PR/citizenship route from Cat-2 alone",
-      "caveats": "Qualifying (Category 2) Individuals Rules 2004 statutory basis. £5,000 application fee (HMGoG PR 469/2026; previously £1,233) + £42,380 refundable deposit. 5-yr non-residency window required pre-application. Frontier Treaty (provisionally applied since 15 Jul 2026) does NOT override Cat-2 physical-presence test. Residence Criteria framework (HMGoG PR 466/2026) in operation as the Residency Regulations 2026 (LN 166/2026) since 14 Jul 2026.",
+      "caveats": "Qualifying (Category 2) Individuals Rules 2004 statutory basis. £5,000 application fee (LN 127/2026, in operation 22 Jun 2026; previously £1,233) + £42,380 refundable deposit. 5-yr non-residency window required pre-application. Frontier Treaty (provisionally applied since 15 Jul 2026) does NOT override Cat-2 physical-presence test. Residence Criteria framework (HMGoG PR 466/2026) in operation as the Residency Regulations 2026 (LN 166/2026) since 14 Jul 2026.",
       "region": "Crown Dependencies & Autonomous Territories"
     },
     {
@@ -2187,9 +2187,9 @@
       "programme": "Citizenship by Investment — Development Support Programme (DSP / CIIP)",
       "status": "OPEN — CONTESTED",
       "min_threshold": "~USD 130,000 donation (single applicant; secondary — verify at Citizenship Office)",
-      "property_linked": "No (donation to the National Development Fund, NOT real estate)",
+      "property_linked": "No for DSP/CIIP (donations, NOT real estate; receiving fund named the National Development Fund by secondary sources only) — the separate REO route is property-linked",
       "pr_citizenship": "Direct citizenship (donation-based); no residence requirement",
-      "caveats": "EU PERMANENTLY revoked Vanuatu's visa-free Schengen access — Reg (EU) 2025/11 (Council adoption 12 Dec 2024), visa requirement applies from 3 Feb 2025; sustained OECD/EU scrutiny. Buying property does NOT confer citizenship",
+      "caveats": "EU PERMANENTLY revoked Vanuatu's visa-free Schengen access — Reg (EU) 2025/11 (Council adoption 12 Dec 2024), visa requirement applies from 3 Feb 2025; sustained OECD/EU scrutiny. Buying property confers citizenship only via the separate Real Estate Option Program (REO; purchase in a Vanuatu Government Approved Project, per the Vanuatu Citizenship Office), not via DSP/CIIP",
       "region": "Asia-Pacific"
     },
     {
