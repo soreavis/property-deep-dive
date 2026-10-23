@@ -71,6 +71,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): refresh 15 playbooks against primary sources — 1,035 refuted corrections ([#460](https://github.com/soreavis/property-deep-dive/pull/460)) — by @soreavis
 
+- fix(playbooks): add the 147 refresh patches #460 left out ([#461](https://github.com/soreavis/property-deep-dive/pull/461)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
