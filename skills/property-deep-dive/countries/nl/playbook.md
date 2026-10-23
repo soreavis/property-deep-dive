@@ -130,8 +130,8 @@ For primary residence:
 ### Transaction taxes — Overdrachtsbelasting
 
 - **Primary residence (owner-occupier)**: **2%**
-- **First-time buyer < €555,000 (2026)**: **0%** (jonge starter, 18-35 yrs; was €525k 2025, €510k 2024) (2026-05-27 verified; source [business.gov.nl Property transfer tax](https://business.gov.nl/regulation/property-transfer-tax/))
-- **Second home / BTL / investor**: **8%** from 1 Jan 2026 (Belastingplan 2026; was 10.4% in 2023-2025) (2026-05-27 verified; source [government.nl real-estate-transfer-tax-rates](https://business.gov.nl/regulations/property-transfer-tax/))
+- **First-time buyer < €555,000 (2026)**: **0%** (jonge starter, 18 to under 35, exemption not used before; was €525k 2025, €510k 2024); **ceiling €615,000 for deeds passed from 1 Jan 2027** — GAZETTED, Bijstellingsregeling indirecte belastingen en de Provinciewet 2026 (Staatscourant 2025, 40375, 24 Dec 2025); the date the notarial deed of transfer is signed decides which ceiling applies (2026-10-21 verified; sources [Belastingdienst — startersvrijstelling](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/woning/overdrachtsbelasting/startersvrijstelling/startersvrijstelling) + [Staatscourant 2025, 40375](https://zoek.officielebekendmakingen.nl/stcrt-2025-40375.html))
+- **Second home / BTL / investor**: **8%** from 1 Jan 2026 on any home the buyer will not use as a main residence, purchases via a BV included (Belastingplan 2025, Kamerstuk 36 602; was 10.4% in 2023-2025). **PROPOSED, NOT ADOPTED: 7% from 1 Jan 2027** in the Belastingplan 2027 bill (Kamerstuk 37 022, presented 15 Sep 2026); the Tweede Kamer and Eerste Kamer vote in November and December 2026, and the 8% rate applies to deeds passed in 2026 (2026-10-21 verified; sources [Belastingdienst — startersvrijstelling (2% / 8% / 10.4% rates)](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/woning/overdrachtsbelasting/startersvrijstelling/startersvrijstelling) + [Rijksoverheid — plan kabinet verlagen overdrachtsbelasting](https://www.rijksoverheid.nl/themas/belastingen-uitkeringen-en-toeslagen/belastingplan/plan-kabinet-voor-verlagen-overdrachtsbelasting-voor-woning-die-koper-niet-zelf-bewoont))
 - **Commercial**: 10.4%
 - Calculated on contract price
 
@@ -143,9 +143,9 @@ For primary residence:
 
 ### Total transaction cost (buyer side)
 
-- **First-time buyer < €555,000 (2026)**: **~1–2%** (no transfer tax + notaris + makelaar)
+- **First-time buyer < €555,000 (2026) / < €615,000 (from 1 Jan 2027)**: **~1–2%** (no transfer tax + notaris + makelaar)
 - **Mover, primary**: **~3–4%** (2% transfer + ~1–2% other)
-- **Second home / BTL**: **~10–11%** (8% transfer from 1 Jan 2026 + others)
+- **Second home / BTL**: **~10–11%** (8% transfer from 1 Jan 2026 + others); **~9–10%** for deeds from 1 Jan 2027 if the proposed 7% rate is adopted (computed: 7% + the same ~2–3% other costs)
 
 ### Capital gains
 
@@ -325,12 +325,12 @@ For primary residence:
 | Notaris (transport + hypotheek) | 1,500–3,000 |
 | Kadaster fees | 140–500 |
 | Makelaar (buyer, optional) | 1–2% |
-| **Overdrachtsbelasting (FTB <€555k, 2026)** | **0%** |
+| **Overdrachtsbelasting (FTB <€555k 2026, <€615k 2027)** | **0%** |
 | **Overdrachtsbelasting (eigen woning)** | **2%** |
-| **Overdrachtsbelasting (2nd home/BTL, 2026)** | **8%** |
+| **Overdrachtsbelasting (2nd home/BTL, 2026; 7% proposed for 2027, not adopted)** | **8%** |
 | **Total transaction cost (FTB)** | **~1–2%** |
 | **Total transaction cost (mover)** | **~3–4%** |
-| **Total transaction cost (BTL/2nd home)** | **~10–11%** |
+| **Total transaction cost (BTL/2nd home, 2026; ~9–10% if 7% is adopted for 2027)** | **~10–11%** |
 | Asbestos removal | 1,000–10,000 |
 | Funderingsherstel | 40,000–100,000+ |
 | IBA installatie | 5,000–20,000 |
@@ -340,7 +340,7 @@ For primary residence:
 
 ## Active fiscal incentives (2025-2026)
 
-- **NHG (Nationale Hypotheek Garantie)**: cap **€470,000** (2026; €498,200 with energy-saving uplift; was €450k 2025); fee 0.4% of mortgage (2026-05-27 verified; source [Rijksoverheid NHG 2026](https://www.volkshuisvestingnederland.nl/actueel/nieuws/2025/10/08/nhg-grens-stijgt-naar-470.000-euro-afsluitpremie-blijft-04))
+- **NHG (Nationale Hypotheek Garantie)**: cap **€470,000** (2026; €498,200 with energy-saving uplift; was €450k 2025); **€500,000 from 1 Jan 2027** (€530,000 with energy-saving measures), announced by NHG 13 Oct 2026 and set in the NHG Voorwaarden en Normen in force 1 Jan 2027 ([NHG — NHG-grens in 2027 naar 500.000 euro](https://www.nhg.nl/nhg-actueel/nhg-grens-in-2027-naar-500000-euro), 2026-10-23 verified); fee 0.4% of mortgage, unchanged for 2027 (2026-05-27 verified; source [Rijksoverheid NHG 2026](https://www.volkshuisvestingnederland.nl/actueel/nieuws/2025/10/08/nhg-grens-stijgt-naar-470.000-euro-afsluitpremie-blijft-04))
 - **Starterslening** (gemeente top-up loans for FTB)
 - **Energiesubsidie ISDE**: heat pumps, insulation
 - **30% ruling** for expat workers (60 months / 5 years; tapering repealed, flat 27% for full 60 months from 1 Jan 2027 — see `--work`)
@@ -355,7 +355,7 @@ For primary residence:
 
 ## Caveats unique to NL
 
-- **Overdrachtsbelasting 8% second home/BTL** (from 1 Jan 2026; was 10.4% in 2023-2025 — see `--tax`) — punitive on investor purchases
+- **Overdrachtsbelasting 8% second home/BTL** (from 1 Jan 2026; was 10.4% in 2023-2025; the Belastingplan 2027 bill proposes 7% from 1 Jan 2027, not adopted — see `--tax`) — punitive on investor purchases
 - **Erfpacht** (ground lease) — Amsterdam ~80% of housing; Den Haag, Utrecht common
   - Canon (annual ground rent) can be €0 (afgekocht) to €25,000+/yr
   - **AB2016 reform** (Amsterdam) lets owners switch from voortdurend to eeuwigdurend (perpetual buyout)
@@ -367,7 +367,7 @@ For primary residence:
 - **Wet werkelijk rendement Box 3 (targeted 2028 — NOT secured)** — major Box 3 reform; passed Tweede Kamer 12 Feb 2026 but stalled in the Eerste Kamer, final vote suspended pending the cabinet's novelle; the cabinet chose (29 Sep 2026) to extend vermogenswinst to all financial instruments from 2028 via a novelle, adopted by the ministerraad 2 Oct 2026 and at the Raad van State for urgent advice, not yet in the Tweede Kamer; both bills must pass by December 2026 for a 2028 start (2026-10-21 verified — see `--tax`)
 - **Wet betaalbare huur (1 Jul 2024)** — regulated mid-market up to 186 WWS points (**€1,228.07/mo**, 2026); WWS relief for private landlords (WOZ-prijsopslag, outdoor-space minus deleted, small rijksmonumenten) in force **1 Jan 2027** per Stb. 2026, 267 (see `--rental`); WWS amendment (Staatsblad 2026 nr. 267) in force 1 Jan 2027 — WOZ-prijsopslag for WOZ-capped homes, no-outdoor-space minus points scrapped (see `--rental`)
 - **Tijdelijke huur abolished** (1 Jul 2024) — flexible tenancy ending
-- **NHG cap €470,000 (2026)** — entry-level affordability (see `--tax` incentives)
+- **NHG cap €470,000 (2026), €500,000 from 1 Jan 2027** — entry-level affordability (see `--tax` incentives)
 - **30% ruling** — duration remains 5 years (60 months); tapering repealed, flat 27% for full 60 months from 1 Jan 2027 (see `--work`)
 - **Groningen** earthquake compensation programme — affects northern provinces specifically
 - **Climate adaptation** mandatory per gemeente — affects new build constraints
@@ -410,7 +410,7 @@ For primary residence:
 
 ## Status
 
-✅ **Fully populated** (initially populated 2026-04-25); **Last verified**: 2026-09-17 (Box 3 re-verified after Prinsjesdag — the Belastingplan 2027 bill carries no Box 3 measure and no novelle has been introduced, 1 Jan 2028 still not secured; previous stamp 2026-08-07; balance of the 2026-07-03 Tier-A quarterly refresh unchanged). Rental / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early — Box 3 novelle adopted by the ministerraad 2 Oct 2026 and at the Raad van State, not yet in the Tweede Kamer, funding not settled; WWS amendment Staatsblad 2026 nr. 267 in force 1 Jan 2027; Amsterdam 15-night draft for Helmersbuurt; see shared/regulatory-watch.md) and 2026-09-24 (November regwatch wave, run early — Box 3 file 36.748: cabinet letter 14 Sep 2026 (EK Q) asks the Senate to keep holding the bill and lists withdrawal as one of four scenarios; Senate Finance committee set a mondeling overleg on 22 Sep 2026; see shared/regulatory-watch.md).
+✅ **Fully populated** (initially populated 2026-04-25); **Last verified**: 2026-09-17 (Box 3 re-verified after Prinsjesdag — the Belastingplan 2027 bill carries no Box 3 measure and no novelle has been introduced, 1 Jan 2028 still not secured; previous stamp 2026-08-07; balance of the 2026-07-03 Tier-A quarterly refresh unchanged). Rental / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early — Box 3 novelle adopted by the ministerraad 2 Oct 2026 and at the Raad van State, not yet in the Tweede Kamer, funding not settled; WWS amendment Staatsblad 2026 nr. 267 in force 1 Jan 2027; Amsterdam 15-night draft for Helmersbuurt; see shared/regulatory-watch.md) and 2026-09-24 (November regwatch wave, run early — Box 3 file 36.748: cabinet letter 14 Sep 2026 (EK Q) asks the Senate to keep holding the bill and lists withdrawal as one of four scenarios; Senate Finance committee set a mondeling overleg on 22 Sep 2026; see shared/regulatory-watch.md). Transfer-tax and NHG lines re-checked 2026-10-21: the 8% non-owner-occupied home rate attributed to the Belastingplan 2025; the Belastingplan 2027 bill proposes 7% from 1 Jan 2027, not adopted; starter ceiling €615,000 gazetted for 2027; NHG limit €500,000 announced for 2027 (see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for Box 3 2026 rates (Belastingdienst + Van Lanschot + Deloitte confirm), HIGH for transfer tax (Belastingdienst), HIGH for Wet werkelijk rendement status (passed Tweede Kamer 12 Feb 2026; STALLED in the Eerste Kamer — final vote suspended 30 Jun 2026 pending the cabinet's novelle) but LOW for its 1 Jan 2028 start date (not secured; commencement by koninklijk besluit), HIGH for Wet betaalbare huur (1 Jul 2024 effective). MEDIUM for per-gemeente short-let licensing (rules change frequently).
 

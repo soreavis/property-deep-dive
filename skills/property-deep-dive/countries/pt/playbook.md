@@ -112,11 +112,15 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 | 106,346 – 145,470 | 2 % | 2 % |
 | 145,470 – 198,347 | 5 % | 5 % |
 | 198,347 – 330,539 | 7 % | 7 % |
-| 330,539 – 660,982 | 8 % | 8 % |
-| 660,982 – 1,150,853 | 6 % (taxa única) | 6 % |
+| 330,539 – 660,982 | 8 % | 8 % to 633,931; 6 % (taxa única) above |
+| 660,982 – 1,150,853 | 6 % (taxa única) | 6 % (taxa única; band starts at 633,931) |
 | > 1,150,853 | **7.5 % flat** | **7.5 % flat** |
 
-**IMT Jovem** (Lei 30-A/2024 + DL 48-A/2024, in force 1 Aug 2024): buyers aged ≤35 (not an IRS dependent that year; not owner of another habitational urban property — 3-year lookback per Santander 2026 explainer, verify condition wording with AT) making their FIRST acquisition of an urban property exclusively for own-permanent residence pay **€0 IMT and €0 Imposto do Selo** up to **€330,539** (2026 Continente value; €324,058 in 2025; RAs higher — €396,647); between €330,539 and €660,982 only the excess is taxed at 8 % marginal IMT while the IS exemption remains in full; no benefit above €660,982. One-time use. Land-for-construction excluded. (2026-07-03 verified; sources: Portal das Finanças IMT Jovem + PwC Guia Fiscal 2026 + ECO)
+*'Rate (other)' column per the AT consolidated CIMT art. 17.º n.º 1 c) (bracket values from Lei 73-A/2025, de 30 de dezembro): the non-HPP 8 % band ends at €633,931 and the 6 % taxa única runs €633,931–1,150,853 ([AT CIMT art. 17.º](http://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cimt/Pages/cimt17.aspx); 2026-10-23 verified).*
+
+**OE2027 — PROPOSED, NOT ADOPTED**: Proposta de Lei n.º 110/XVII/2.ª (Orçamento do Estado para 2027, delivered 8 Oct 2026) art. 65.º would index every CIMT art. 17.º n.º 1 bracket by 2.3 % for 2027 — HPP 0 % to €108,792 / 2 % to 148,816 / 5 % to 202,909 / 7 % to 338,141 / 8 % to 676,185 / 6 % taxa única to 1,177,323 / 7.5 % above; other habitational 1 % to 108,792, the same 2 / 5 / 7 % bands to 338,141, 8 % to 648,511, 6 % taxa única to 1,177,323, 7.5 % above; IMT Jovem 0 % to 338,141 and 8 % on the excess to 676,185 ([EY Tax Alert OE2027](https://www.ey.com/content/dam/ey-unified-site/ey-com/pt-pt/services/tax/documents/ey-taxalert2027.pdf) + [DN/Lusa 8 Oct 2026](https://www.dn.pt/pol%C3%ADtica/oe2027-leia-aqui-as-principais-medidas-includas-na-proposta-do-governo), secondary). Final global vote scheduled 24 Nov 2026; the 2026 table above applies until the LOE 2027 is published and in force (intended 1 Jan 2027). See `shared/regulatory-watch.md` (PT).
+
+**IMT Jovem** (Lei 30-A/2024 + DL 48-A/2024, in force 1 Aug 2024): buyers aged ≤35 (not an IRS dependent that year; not owner of another habitational urban property — 3-year lookback per Santander 2026 explainer, verify condition wording with AT) making their FIRST acquisition of an urban property exclusively for own-permanent residence pay **€0 IMT and €0 Imposto do Selo** up to **€330,539** (2026 Continente value; €324,058 in 2025; RAs higher — €396,647); between €330,539 and €660,982 only the excess is taxed at 8 % marginal IMT while the IS exemption remains in full; no benefit above €660,982 (OE2027 proposes €338,141 / €676,185 for 2027 — not adopted, see above). One-time use. Land-for-construction excluded. (2026-07-03 verified; sources: Portal das Finanças IMT Jovem + PwC Guia Fiscal 2026 + ECO)
 
 **Non-resident IMT surcharge — ENACTED**: DL 97/2026 (20 May 2026, under authorization Lei 9-A/2026) adds CIMT Art. 17.º/10 — flat **7.5 % IMT** on acquisition of urban habitational property by non-residents, **no exemption or reduction applies** (incl. no HPP brackets, no IMT Jovem). Exceptions (Art. 17.º/10 a-c): buyer has at **any earlier time** been PT tax resident under CIRS Art. 16.º (past residence suffices), or becomes resident within 2 years of purchase (refund), or lets the property at a moderate rent (within the DL 97/2026 Art. 2.º(2)-(3) limits — 2.5 × RMMG, 2.5 × EUR 920 RMMG 2026 (DL 139/2025) = EUR 2,300/month, updatable by portaria per the NRAU art. 24 factor — none found as of 2026-10-21) under a lease signed within 6 months and running ≥36 months within the first 5 years; refunds under the last two run through annulment (Art. 17.º/11) by reclamação graciosa within 6 months (Art. 17.º/12). **AT guidance — Ofício Circulado n.º 40131/2026 (4 Sep 2026)**: for spouses in a community-of-property regime the 7.5 % applies only where both are non-resident and neither has ever been PT-resident; co-owners are tested individually. **Effective 25 May 2026** — the IMT amendment is in Art. 6.º and Art. 18.º sets no special date for it (5th-day default; DL 97/2026 has no entrada-em-vigor article, so the Lei 74/98 art. 2(2) default applies; Art. 18.º read 2026-10-21 in the AT-published consolidated text: n.º 1 dates only the DL 68/2019 + 69/2019 revocation, CIA and RSAA to 1 Sep 2026, n.º 2 the CIRS / EBF 24.º-A / 45.º-C changes to 1 Jan 2026, nos. 4–8 the IVA provisions); the 1 Sep 2026 date in some summaries belongs to the CIA / RSAA provisions. Same diploma extends the IMT payment deadline to 30 days from liquidation. (2026-10-21 verified; sources [AT consolidated DL 97/2026](https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/diplomas_legislativos/Documents/decreto-lei-97-2026.pdf) + [AT CIMT Art. 17.º consolidated](http://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cimt/Pages/cimt17.aspx) + [Ofício Circulado 40131/2026](https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Documents/Oficio-circulado-40131-2026.pdf) + [DR DL 97/2026](https://diariodarepublica.pt/dr/detalhe/decreto-lei/97-2026-1124493227))
 
@@ -132,13 +136,13 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 ### IVA on new builds
 
 - 6 % AL (continental, accommodation services)
-- 6 % residential under specific schemes
+- 6 % residential under specific schemes (incl. the DL 97/2026 regime for homes built or rehabilitated for sale as the buyer's own permanent residence, sale price capped at the IMT bracket upper limit; OE2027 proposes €676,185 for 2027 — EY Tax Alert, secondary; not adopted)
 - 13 % AIM/IRC (Algarve etc., reduced)
 - 23 % standard
 
 ### IRS on rental + capital gains
 
-- **Categoria F (rental)**: 28 % flat (or option to add to general IRS)
+- **Categoria F (rental)**: housing leases **25 %** autonomous rate (CIRS art. 72.º n.º 2, Lei 56/2023), cut by 10 / 15 / 20 points for permanent-housing leases of ≥ 5 / ≥ 10 / ≥ 20 years (art. 72.º n.os 3–5), cuts that do not apply to leases signed from 1 Jan 2024 whose rent exceeds the Portaria 176/2019 limits by 50 % (n.º 23); **10 %** for housing leases whose monthly rent stays within the DL 97/2026 art. 2.º(2)-(3) limits (EUR 2,300/month in 2026, computed — see the IMT exception above), income earned up to 31 Dec 2029, effects from 1 Jan 2026, unless a more favourable rate applies (EBF art. 45.º-C, added by DL 97/2026 art. 9.º; the article sets no residence condition); other rental income 28 % (art. 72.º n.º 1 e)); residents may opt to aggregate with general IRS (2026-10-23 verified; sources [AT CIRS art. 72.º](https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs72.aspx) + [AT EBF art. 45.º-C](https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/bf_rep/Pages/EBF45C.aspx))
 - **Capital gains**: 50 % of gain added to IRS (for resident); **28 % flat for non-residents on PT-source gains**
 - Primary residence reinvestment: capital gains exempt under conditions
 
@@ -157,7 +161,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 - **NRAU (Novo Regime do Arrendamento Urbano)**: tenant protection moderate
 - Standard contract: 5-year minimum (loose)
 - **Pacto de preferência** (preemption rights for tenants under conditions)
-- Recent reforms 2023-2024: trying to encourage long-let supply
+- Recent reforms 2023-2026: trying to encourage long-let supply — rental-income rate 25 % for habitational leases (Lei 56/2023) and 10 % for moderate-rent housing leases on income earned 2026-2029 (EBF art. 45.º-C, DL 97/2026); see IRS on rental under `--tax`
 
 ### Short-let — Alojamento Local (AL)
 
@@ -176,9 +180,9 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 
 ### Tax on AL
 
-- **IRS Cat. F or B** depending on volume:
-  - Cat. F: simple, **28 % flat** rate (or option for general IRS)
-  - Cat. B (commercial): if 4+ properties or hotel-style services
+- **IRS**: AL income is **category B by default**, with an option to be taxed under category F rules:
+  - Cat. F (by option): whether the 25 % habitational rate or the 28 % rate (CIRS art. 72.º n.º 2 / n.º 1 e)) applies to AL under this option was not verified as of 2026-10-23 — verify with AT; AL does not qualify for the 10 % EBF art. 45.º-C rate (housing-only leases)
+  - Cat. B (default): taxed as business income
 - **IVA**: 6 % accommodation services (continental); 4 % Açores, 9 % Madeira
 - **Taxa turística**: per município (Lisboa €4/night/person, Porto €3, Faro €2 — confirm current rate with each Câmara Municipal)
 
@@ -311,8 +315,8 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 |---|---:|
 | Certificado Energético | 100–400 |
 | Notário + Registo | 0.5–1.5 % of price |
-| **IMT (primary, €300k bracket)** | **~€10,000** |
-| **IMT (other, same)** | **~€15,000** |
+| **IMT (primary, €300k bracket)** | **€10,542** (computed, 2026 HPP table) |
+| **IMT (other, same)** | **€11,605** (computed, 2026 non-HPP table; a non-resident buyer pays the flat 7.5 % unless a CIMT art. 17.º n.º 10 exception applies) |
 | **IS (Imposto do Selo)** | 0.8 % |
 | **Total transaction cost (primary residence)** | **~3–8 %** of price |
 | **Total transaction cost (other)** | **~5–10 %** |
@@ -393,7 +397,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-09-17 (non-resident IMT surcharge re-verified against AT consolidated CIMT + Ofício Circulado 40131/2026 — effective date settled at 25 May 2026, exception (a) corrected to past residence; balance unchanged) · previously 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; wildfire-hazard authority (DGT) corrected 2026-09-18 per dgterritorio.gov.pt). Rental / visa tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Rental / tax / visa tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-09-17 (non-resident IMT surcharge re-verified against AT consolidated CIMT + Ofício Circulado 40131/2026 — effective date settled at 25 May 2026, exception (a) corrected to past residence; balance unchanged) · previously 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged; wildfire-hazard authority (DGT) corrected 2026-09-18 per dgterritorio.gov.pt). Rental / visa tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Rental / tax / visa tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Rental-income IRS rates (CIRS art. 72.º 25 % / EBF art. 45.º-C 10 %) and the 2026 non-HPP IMT bands corrected 2026-10-23 per the AT consolidated codes; OE2027 IMT indexation proposal logged as not adopted. IRS-on-rental rates re-verified 2026-10-23 against AT CIRS art. 72.º and EBF art. 45.º-C (10 % moderate-rent housing-lease rate added).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + cadastre sources (Cadastro modernization ongoing but Finanças stable; APA + IPMA well-maintained). MEDIUM-HIGH for AL regulation (Lisbon RMAL containment in force since 6 Dec 2025; Porto + Algarve evolving).
 

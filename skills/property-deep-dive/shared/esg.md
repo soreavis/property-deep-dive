@@ -6,7 +6,7 @@ ESG (Environmental, Social, Governance) overlay for property: energy class distr
 
 ## Why ESG matters for property
 
-1. **EU EPBD recast (2024/1275)** — Member State transposition by **29 May 2026**. Affects sale/rent disclosure and minimum energy performance for worst-performing buildings. **Class G/F buildings face rental bans** in many countries (FR already; others phasing in).
+1. **EU EPBD recast (2024/1275)** — Member State transposition was due **29 May 2026**; no member state met it in full, and the Commission sent letters of formal notice to all 27 on 15 Jul 2026 (DG ENER) — cite the national measure in force, not the directive. Affects sale/rent disclosure and minimum energy performance for worst-performing buildings. **Class G/F buildings face rental bans** in many countries (FR already; others phasing in).
 2. **Stranded asset risk** — buildings that can't be brought to minimum-class face value erosion ("brown discount")
 3. **Climate-risk premium** — insurers and lenders increasingly price physical-risk overlay (flood/EQ/wildfire)
 4. **Tenant preferences shifting** — younger tenants prefer A/B-class buildings; rental yield differentiates
@@ -57,7 +57,7 @@ Distribution of building stock by EPC class (residential). Source mix: **EU Buil
 | IE | 4% | 12% | 32% | 32% | 15% | 4% | 1% |
 | Nordic (SE/FI/NO/DK/IS) | 25-35% | 30-35% | 22-25% | 10-15% | 3-5% | 1-2% | 0-1% |
 
-**Disclaimer**: EPC class methodologies are NOT harmonised across countries (the same physical building can be class B in DE and class C in FR). EU EPBD recast 2024/1275 aims to converge — transposition deadline 29 May 2026.
+**Disclaimer**: EPC class methodologies are NOT harmonised across countries (the same physical building can be class B in DE and class C in FR). EU EPBD recast 2024/1275 aims to converge — transposition deadline 29 May 2026 passed unmet in all 27 member states (Commission letters of formal notice 15 Jul 2026).
 
 ### Non-EU energy-rating regimes (Tier-1 + Tier-2 expansion, Apr 2026)
 
@@ -127,7 +127,7 @@ EPC-style class distributions are not published by stat office for most non-EU r
 ### EU EPBD recast (2024/1275) — affects ALL EU/EEA
 - **Public + non-residential buildings**: minimum class to F by 2027; E by 2030
 - **Residential**: minimum class to E by 2030; D by 2033
-- Member State transposition deadline: **29 May 2026**
+- Member State transposition deadline: **29 May 2026** — missed by all 27; Commission letters of formal notice 15 Jul 2026 (DG ENER); nothing in this block binds an owner until national law transposes it
 
 ## Climate exposure index per country
 
@@ -263,7 +263,7 @@ Sources: IEA national reports + national grid operator data, latest available; f
 | 🇺🇾 UY | ~98% | Wind + hydro + solar — 2017 milestone; among highest in world | 2024 (UTE) |
 | 🇨🇴 CO | ~70% | Hydro-dominant; El Niño exposure | 2024 (XM) |
 | 🇨🇱 CL | ~55% | Solar (Atacama) + wind growth | 2024 (CNE) |
-| 🇿🇦 ZA | ~15% | Coal-heavy (Eskom); load-shedding still endemic | 2024 (Eskom) |
+| 🇿🇦 ZA | ~15% | Coal-heavy (Eskom); no national load-shedding since 16 May 2025 (Eskom, 16 Oct 2026), residual feeder-level load reduction | 2024 (Eskom) |
 | 🇲🇦 MA | ~40% | Noor Ouarzazate solar; wind Tarfaya — target 52% by 2030 | 2024 (ONEE) |
 | 🇺🇸 US | ~22% | Wide state variation: WA/OR ~70%+; WV/KY <5% | 2024 (EIA) |
 | 🇯🇵 JP | ~24% | Solar + hydro; nuclear restart trajectory | 2024 (METI) |
@@ -308,7 +308,7 @@ Sources: IEA national reports + national grid operator data, latest available; f
 
 Date-stamped reform tracking — for revisit cadence see `shared/regulatory-watch.md`.
 
-- 🇺🇸 US — **IRA §25C / §25D residential energy credits TERMINATED 31 Dec 2025** per OBBBA (Jul 2025). Pre-31-Dec-2025 expenditures grandfathered. State programs (CA Title 24, NY LL97) unchanged.
+- 🇺🇸 US — **IRA §25C / §25D residential energy credits ended by OBBBA (PL 119-21, Jul 2025)**: §25C is not allowed for property placed in service after 31 Dec 2025; §25D is not allowed for expenditures made after 31 Dec 2025, an expenditure being treated as made when original installation is completed — a 2025 payment or deposit for a system installed in 2026 does not qualify (IRS FS-2025-05, 21 Aug 2025). §45L builder credit not allowed for new homes acquired after 30 Jun 2026 (IRS FS-2025-05). State programs (CA Title 24, NY LL97) unchanged.
 - 🇹🇷 TR — Climate Law (İklim Kanunu) parliamentary draft 2024-2025; ETS-style scheme proposed. Verify enacted form at csb.gov.tr.
 - 🇦🇪 AE — UAE Net Zero 2050 framework (announced 2021); COP28 hosted Nov 2023; National Climate Change Plan 2017-2050.
 - 🇯🇵 JP — **2025 Building Energy Conservation Act** mandates higher efficiency for all new builds Apr 2025. GX-ETS (carbon-pricing voluntary phase) launched 2023, mandatory 2026.

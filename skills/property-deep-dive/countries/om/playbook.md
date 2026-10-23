@@ -187,7 +187,7 @@ OSM `highway` class:
 
 ### Annual property tax
 
-**There is NO annual real-estate property tax in Oman** — neither at central nor governorate level. **This is consistent with the GCC norm** (UAE has municipal housing fees; Saudi has White Land + Vacant Property Fees for undeveloped land ≥5,000 m²; Bahrain has property tax for non-GCC; Oman has none).
+**There is NO annual real-estate property tax in Oman** — neither at central nor governorate level. **This is consistent with the GCC norm** (UAE has municipal housing fees; Saudi has White Land + Vacant Property Fees for undeveloped land ≥5,000 m² and, in announced zones only, long-vacant buildings; Bahrain has property tax for non-GCC; Oman has none).
 
 What residents do pay annually:
 

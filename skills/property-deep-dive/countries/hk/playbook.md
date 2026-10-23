@@ -25,6 +25,7 @@ ISO2: `hk`. Status: ✅ Fully populated (researched 2026-05).
   - **23 Mar 2024**: Safeguarding National Security Ordinance (Article 23 / SNSO) effective ([news.gov.hk 2024-03-19](https://www.news.gov.hk/eng/2024/03/20240319/20240319_191521_516.html)) — material to foreign-capital sentiment / cross-border data; not directly to property law
   - **16 Oct 2024**: HKMA unified the maximum LTV for all residential properties at a flat 70% regardless of value (the earlier tiered schedule no longer applies — see `--finance`) ([HKMA 2024-10-16](https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241016-4/))
   - **2024 Extension of Government Leases Bill** — settled the 2047 question for the vast majority of land (auto 50-yr extension, no premium)
+  - **26 Feb 2026**: AVD top band for residential instruments raised from 4.25% to 6.5% above HK$100M by the Stamp Duty (Amendment) Ordinance 2026 (gazetted 29 May 2026, retrospective); non-residential instruments moved to a new Scale 3 that keeps the 4.25% top rate — see `--tax` ([IRD AVD FAQ](https://www.ird.gov.hk/eng/faq/avd.htm))
 
 ## Section: `--price`
 
@@ -142,19 +143,23 @@ Non-domestic tenements: flat 5% (no progression).
 
 **Only Ad Valorem Stamp Duty (AVD) at Scale 2 applies** ([IRD AVD FAQ](https://www.ird.gov.hk/eng/faq/avd.htm)):
 
-| Consideration band | Scale 2 rate |
+| Consideration band (consideration or value, whichever is higher) | Scale 2 rate |
 |---|---:|
-| ≤ HK$3,000,000 | HK$100 (flat) → 1.5% (sliding by formula) |
-| HK$3M – HK$3.528M | HK$100 + 10% × excess over HK$3M |
-| > HK$3.528M – HK$4.5M | 1.5% |
-| > HK$4.5M – HK$4.935M | HK$67,500 + 10% × excess over HK$4.5M |
-| > HK$4.935M – HK$6M | 2.25% |
-| > HK$6M – HK$6.72M | HK$135,000 + 10% × excess over HK$6M |
-| > HK$6.72M – HK$20M | 3% |
-| > HK$20M – HK$21,739,120 | HK$600,000 + 10% × excess over HK$20M |
-| > HK$21,739,120 | **4.25%** flat on full consideration |
+| ≤ HK$4,000,000 | HK$100 (flat) |
+| HK$4,000,001 – HK$4,323,780 | HK$100 + 20% × excess over HK$4M |
+| HK$4,323,781 – HK$4,500,000 | 1.5% |
+| HK$4,500,001 – HK$4,935,480 | HK$67,500 + 10% × excess over HK$4.5M |
+| HK$4,935,481 – HK$6,000,000 | 2.25% |
+| HK$6,000,001 – HK$6,642,860 | HK$135,000 + 10% × excess over HK$6M |
+| HK$6,642,861 – HK$9,000,000 | 3% |
+| HK$9,000,001 – HK$10,080,000 | HK$270,000 + 10% × excess over HK$9M |
+| HK$10,080,001 – HK$20,000,000 | 3.75% |
+| HK$20,000,001 – HK$21,739,120 | HK$750,000 + 10% × excess over HK$20M |
+| HK$21,739,121 – HK$100,000,000 | 4.25% |
+| HK$100,000,001 – HK$109,574,470 | HK$4,250,000 + 30% × excess over HK$100M |
+| > HK$109,574,470 | **6.5%** flat on full consideration |
 
-(Source: [GovHK Stamp Duty Rates IRSD123(E)](https://www.gov.hk/en/residents/taxes/docs/IRSD123(E).pdf))
+(Residential table effective 26 Feb 2026 — 2026 data, source [IRD AVD FAQ](https://www.ird.gov.hk/eng/faq/avd.htm) + [GovHK Stamp Duty Rates IRSD123(E)](https://www.gov.hk/en/residents/taxes/docs/IRSD123(E).pdf) (5/2026 edition)). The flat-HK$100 band up to HK$4,000,000 applies to instruments executed on or after 26 Feb 2025 (2025-26 Budget). The 6.5% band above HK$100M applies to residential instruments executed on or after 26 Feb 2026 under the Stamp Duty (Amendment) Ordinance 2026 (passed by LegCo 20 May 2026, gazetted 29 May 2026, retrospective to 26 Feb 2026). From 26 Feb 2026 non-residential instruments use a new Scale 3: same bands to HK$21,739,120, then 4.25% flat.
 
 ⚠️ Same Scale 2 applies regardless of buyer status — HKPR, non-HKPR individual, corporate buyer all charged identically since 28 Feb 2024. Pre-28-Feb-2024 BSD 15% + AVD 7.5% + NRSD 15% layering is **historical only**; do not apply to any current transaction.
 
@@ -882,7 +887,7 @@ If IRD assesses sale as "trading" rather than capital disposal:
 | Solicitor (residential conveyancing, seller side) | HK$5,000–HK$10,000 |
 | Land Registry registration fee | HK$210–HK$1,030 (sliding) |
 | Estate agent commission (each side) | ~1% of price |
-| AVD Stamp Duty (Scale 2) | HK$100–4.25% per band |
+| AVD Stamp Duty (Scale 2) | HK$100–6.5% per band (6.5% only above HK$109,574,470) |
 | Mortgage instrument stamp | HK$5/HK$1,000 (cap ~HK$500) |
 | Pre-purchase building survey | HK$5,000–HK$25,000 |
 | Annual Rates (5% RV, typical 2-bed apt RV HK$300k) | ~HK$15,000/yr |
@@ -899,9 +904,10 @@ If IRD assesses sale as "trading" rather than capital disposal:
 
 - **HKMC Mortgage Insurance Programme (MIP)** — top-up to 80–90% LTV for properties ≤HK$10M (first-time HKPR buyer); insurance premium 2–5% capitalised
 - **Rates concession** (annual budget: 2025/26 HK$500/quarter Q1+Q2 per [info.gov.hk 2025-03 budget](https://www.info.gov.hk/gia/general/202503/14/P2025031300515.htm))
-- **Home Ownership Scheme (HOS)** — subsidized resale for HKPR low/middle-income; quotas via Housing Authority
+- **Home Ownership Scheme (HOS)** — subsidized resale for HKPR low/middle-income; quotas via Housing Authority; the 2026 Policy Address (16 Sep 2026, para 290(vi)) announced a 95% maximum mortgage LTV for White Form family applicants with newborns from the next HOS sale exercise ([info.gov.hk](https://www.info.gov.hk/gia/general/202609/16/P2026091600282.htm))
 - **Green Form** subsidy schemes for transition from public rental to ownership
-- **No first-time-buyer stamp-duty discount** (post-Feb-2024 reform — Scale 2 already low at ≤HK$3M consideration)
+- **No first-time-buyer stamp-duty discount** (post-Feb-2024 reform — Scale 2 charges a flat HK$100 up to HK$4,000,000 consideration, IRD AVD FAQ)
+- **Newborn-family stamp-duty concession — announced, NOT yet law** (2026 Policy Address, 16 Sep 2026, para 290(v)): a parent acquiring residential property on own behalf within 1 year before or 2 years after the Hong Kong birth of a child born on or after 16 Sep 2026, where either parent is an HKPR, would have AVD reduced by the lesser of the duty and HK$20,000 per eligible child (HK$40,000 cap for both parents on a jointly owned flat with two eligible children); takes effect only once a Stamp Duty amendment bill is enacted (none gazetted as at 21 Oct 2026) — duty is charged at current rates meanwhile, with refunds under IRD guidelines after passage ([IRD FAQ](https://www.ird.gov.hk/eng/faq/newbornconcession.htm))
 - **CIES property bucket** (post 17 Sept 2025 reform): minimum single-property transaction HK$30M (lowered from HK$50M); aggregate real-estate cap HK$15M (residential cap remains HK$10M; non-residential can fill the additional HK$5M); applies to purchases on/after 17 Sept 2025 (2026-05-27 verified, source [newcies.gov.hk Investment Requirement](https://www.newcies.gov.hk/en/application-procedures/application-to-investhk/investment-requirement/))
 - **BEAM Plus green-mortgage rate concession** — 5–15bps via select banks
 
@@ -1001,11 +1007,11 @@ If IRD assesses sale as "trading" rather than capital disposal:
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (HKMA foreign-reserve level and coverage multiple corrected 2026-09-18 per the HKMA press release of 7 May 2026)
+**Last verified**: 2026-05-27 (HKMA foreign-reserve level and coverage multiple corrected 2026-09-18 per the HKMA press release of 7 May 2026; AVD Scale 2 table replaced 2026-10-21 per the IRD AVD FAQ (residential table effective 26 Feb 2026) and IRSD123 (5/2026); newborn-family stamp-duty concession and HOS newborn LTV added 2026-10-21 as announced, not enacted, per the IRD newborn-concession FAQ and the 2026 Policy Address)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Locked-in via primary government sources: stamp-duty regime (IRD + 28 Feb 2024 government press release), HKMA LTV (Oct 2024 circular), Rates + Government Rent (RVD + Cap. 116 / Cap. 515), CIES rules (newcies.gov.hk), TTPS thresholds (ImmD), property crime (HKPF + Security Bureau), HKO climate projections, RVD HKPPI quarterly trend, Cap. 349 STR prohibition, Land Registry / IRIS fee schedule. **Re-verify each annual February budget speech** for Rates concession, any AVD adjustment, any CIES tweak, MIP threshold; **2047 lease question** materially resolved by 2024 Extension of Government Leases Bill (auto 50-yr, no premium) but individual lots' lease conditions vary — confirm via Lands Department lease search per parcel. **Watch list 2026**: any reintroduction of CGT (recurring budget topic; ruled out Feb 2025 but cyclical revisit); HKMA LTV further easing/tightening with property-cycle turn; SNSO downstream effects on cross-border buyer KYC; first-hand sales pipeline 2026–2030 (RVD HKPR2026 forecasts ~107k units) absorption test.
+**Notes**: Locked-in via primary government sources: stamp-duty regime (IRD + 28 Feb 2024 government press release), HKMA LTV (Oct 2024 circular), Rates + Government Rent (RVD + Cap. 116 / Cap. 515), CIES rules (newcies.gov.hk), TTPS thresholds (ImmD), property crime (HKPF + Security Bureau), HKO climate projections, RVD HKPPI quarterly trend, Cap. 349 STR prohibition, Land Registry / IRIS fee schedule. **Re-verify each annual February budget speech** for Rates concession, any AVD adjustment, any CIES tweak, MIP threshold; **2047 lease question** materially resolved by 2024 Extension of Government Leases Bill (auto 50-yr, no premium) but individual lots' lease conditions vary — confirm via Lands Department lease search per parcel. **Watch list 2026**: the newborn-family stamp-duty concession bill (announced 16 Sep 2026, none gazetted as at 21 Oct 2026 — see Active fiscal incentives); any reintroduction of CGT (recurring budget topic; ruled out Feb 2025 but cyclical revisit); HKMA LTV further easing/tightening with property-cycle turn; SNSO downstream effects on cross-border buyer KYC; first-hand sales pipeline 2026–2030 (RVD HKPR2026 forecasts ~107k units) absorption test.
 
 ## Extension TODOs (deepen on first real run)
 

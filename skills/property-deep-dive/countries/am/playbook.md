@@ -112,43 +112,44 @@ ISO2: `am`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 
 AMD, EUR/AMD ≈ 415–435 (Q1 2026 CBA, managed-float). Not in eurozone; no firm peg. CEPA-aligned but no ERM-II commitment (see `--currency`).
 
-### Annual property tax — Real Estate Tax / Անշարժ գույքի հարկ (Tax Code Section 13, Articles 224–238 as amended)
+### Annual property tax — Real Estate Tax / Անշարժ գույքի հարկ (Tax Code Section 11, Articles 224–238 as amended)
 
-Governed by [Tax Code of the Republic of Armenia](https://www.src.am/en/) Section 13 + **[Law HO-332-N, adopted 25 June 2020](https://www.arlis.am/hy/acts/143904)** (signed 30 June 2020, ՀՀՊՏ 2020.06.30/73(1628)) which introduced the major Real Estate Tax reform **in force 1 January 2021**, phased at 25 % of full rate for 2021, 30 % for 2022, 35 % for 2023, 50 % for 2024, 75 % for 2025 and 100 % from 2026 *(2026-09-18 verified, source ARLIS — Armenian Legal Information System)*. Rate **set as progressive AMD-bracket scale on cadastral value approaching market**, levied at **community level**:
+Governed by [Tax Code of the Republic of Armenia](https://www.src.am/en/) Section 11 + **[Law HO-332-N, adopted 25 June 2020](https://www.arlis.am/hy/acts/143904)** (signed 30 June 2020, ՀՀՊՏ 2020.06.30/73(1628)) which introduced the major Real Estate Tax reform **in force 1 January 2021**, phased at 25 % of full rate for 2021, 30 % for 2022, 35 % for 2023, 50 % for 2024, 75 % for 2025 and 100 % from 2026 *(2026-09-18 verified, source ARLIS — Armenian Legal Information System)*. Rate **set as progressive AMD-bracket scale on cadastral value approaching market**, levied at **community level**:
 
-**Residential apartments — 6 brackets (HO-332-N regime, Tax Code Art. 230; 2026-05-27 verified, source armenian-lawyer.com 2025 property-tax guide cross-checked vs src.am)**:
+**Residential apartments — 7 brackets (HO-332-N regime, Tax Code Art. 229(1)(3); 2026-10-23 verified, source [ARLIS consolidated Tax Code](https://www.arlis.am/en/acts/230455), edition in force since 1 Sep 2026)**:
 
 | Cadastral value bracket (AMD) | Rate |
 |---|---|
 | ≤ AMD 10M (~US$27k) | 0.05% |
 | AMD 10M – 25M | AMD 5,000 + 0.1% on amount above 10M |
 | AMD 25M – 47M | AMD 20,000 + 0.2% on amount above 25M |
-| AMD 47M – 120M | AMD 64,000 + 0.4% on amount above 47M |
-| AMD 120M – 200M | AMD 356,000 + 0.6% on amount above 120M |
-| > AMD 200M (~US$545k) | AMD 836,000 + 1.0% on amount above 200M |
+| AMD 47M – 75M | AMD 64,000 + 0.4% on amount above 47M |
+| AMD 75M – 100M | AMD 176,000 + 0.6% on amount above 75M |
+| AMD 100M – 200M | AMD 326,000 + 1.0% on amount above 100M |
+| > AMD 200M (~US$545k) | AMD 1,326,000 + 1.5% on amount above 200M |
 
-**Houses use a separate bracket schedule** (Tax Code Art. 230; 2026-05-27 verified, source armenian-lawyer.com): cut-offs at AMD 7M / 23M / 50M / 85M / 200M (not the apartment ones); confirm exact rate steps at src.am before final per-house computation. JAMnews-cited "1.5%" top rate conflates commercial schedule — residential cap is 1.0%.
+**Houses use a separate bracket schedule** (individual houses + garden houses, Tax Code Art. 229(1)(4); 2026-10-23 verified, source ARLIS consolidated Tax Code): ≤ AMD 7M 0.05%; AMD 7M–23M AMD 3,500 + 0.1% above 7M; AMD 23M–50M AMD 19,500 + 0.2% above 23M; AMD 50M–85M AMD 73,500 + 0.4% above 50M; AMD 85M–120M AMD 213,500 + 0.6% above 85M; AMD 120M–200M AMD 423,500 + 1.0% above 120M; > AMD 200M AMD 1,223,500 + 1.5% above 200M. The 1.5% top rate is residential: it applies to apartments and houses alike above AMD 200M (Art. 229(1)(3)–(4)).
 
 **Phased implementation 2021–2026**: HO-332-N introduced a phase-in coefficient applied to the calculated tax — 25% in 2021, 30% in 2022, 35% in 2023, 50% in 2024, 75% in 2025, **100% from 2026 onward** (verify current schedule via src.am — the headline reform is fully phased in for tax year 2026).
 
 **Cadastral value** maintained by Cadastre Committee on a market-approximation methodology since the HO-332-N reform — designed to converge to ~80–90% of market price for resale apartments (vs. pre-2021 nominal cadastral values often <30% of market). **Key 2026 effect**: full-rate first calendar year — many Yerevan owners will see materially higher property tax bills than 2024–2025 baselines.
 
-**Land tax** — separate (Tax Code Art. 235):
-- Agricultural land: per-hectare fixed rates by zone (cadastral category) — typically AMD 1,000–15,000/ha depending on irrigation + zone classification
-- Non-agricultural land (residential plot under house): 1.0% of cadastral value (set by Land Code + Tax Code; verify via community tariff schedule)
+**Land** — taxed within the real-estate tax, not a separate levy (Tax Code Art. 229(1)(1)–(2); Art. 235 governs information exchange between authorities):
+- Agricultural land: 15% of the calculated net income set by the Tax Code Annex 2 cadastral method (Art. 228(2) + Art. 229(1)(1)); the amount per hectare depends on zone + irrigation class — verify per parcel at the community tax office
+- Non-agricultural land without improvements (bare or fence-only plot) designated for residential development in settlements: **0.6%** of cadastral value (Art. 229(1)(2)(a)); public-development and other settlement land 1.0% (Art. 229(1)(2)(b)–(c)); confirm the plot's designation on the Cadastre Committee extract
 
 ### Example calculation
 
 A US$200,000 (≈ AMD 73.6M at 368 AMD/USD, 2026-05-27 verified) Yerevan Kentron 2-bed apartment, Cadastre Committee cadastral value ~AMD 66M (~90% of market in HO-332-N regime):
 
-- Apartment falls in **AMD 47M–120M bracket** (AMD 66M):
+- Apartment falls in **AMD 47M–75M bracket** (AMD 66M):
   - Calculated annual tax = AMD 64,000 + 0.4% × (66,000,000 – 47,000,000) = AMD 64,000 + AMD 76,000 = **AMD 140,000/yr**
   - **2026 fully phased in (100% coefficient)** → final bill ≈ **AMD 140,000 (~US$380 / ~€350)**
   - **2025 at 75% coefficient** → ≈ AMD 105,000 (~US$285)
 
 A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 - Falls in `> AMD 200M` bracket
-- Calculated annual tax = AMD 836,000 + 1.0% × (221,000,000 – 200,000,000) = AMD 1,046,000 (~US$2,840 / ~€2,600) at full 2026 phase-in
+- Calculated annual tax = AMD 1,326,000 + 1.5% × (221,000,000 – 200,000,000) = AMD 1,641,000 (~US$4,460 / ~€4,100) at full 2026 phase-in
 
 > Property tax in Armenia under HO-332-N is materially higher than the pre-2021 regime but still moderate by W. European standard. **2026 first-full-year effect** is the dominant variable for prospective buyers — verify per Cadastre Committee extract before underwriting.
 
@@ -157,10 +158,10 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 - **State duty (`petakan tursk` / պետական տուրք)** — Law on State Duty: **0.05% of purchase price** for cadastre registration of sale-purchase deed; nominal absolute amount even on US$500k transactions
 - **Notary fee** — Law on Notary + Notarial Chamber tariff: **AMD 50,000–150,000 fixed** for typical sale-purchase deed (~US$130–US$390); sliding for high-value deeds — among the cheapest notarial regimes regionally
 - **Cadastre Committee registration fee**: ~AMD 10,000–15,000 standard; faster express options (verify current tariff via cadastre.am)
-- **VAT (DDS / ԱԱՀ)** — Tax Code Title 4:
-  - **Standard rate 20%** (Art. 64)
-  - **Residential dwelling first-sale by VAT-registered developer EXEMPT** under Tax Code Art. 64.2.1 (specific VAT exemption for residential)
-  - Resale between individuals **exempt** (no VAT applies)
+- **VAT (ԱԱՀ)** — Tax Code Part 2, Section 4 (2026-10-23 verified, source [ARLIS consolidated Tax Code](https://www.arlis.am/en/acts/230455), edition in force since 1 Sep 2026):
+  - **Standard rate 20%** (Art. 63(1)); Art. 64 lists VAT-exempt transactions, Art. 65 the 0% rate
+  - **Developer first sale of new dwellings is VAT-TAXABLE at 20%** when the developer is a VAT payer: Art. 64(2) has no residential-sale exemption (point 2(1) is teaching services). Base floor: 80% of the Art. 228 real-estate-tax base, or, for a sale under a right-to-purchase contract registered after 1 Jan 2021, 80% of the value calculated under the cadastral-valuation method in force at that registration (Art. 62(8)). A developer on the turnover-tax regime (sales up to AMD 115M) pays turnover tax instead of VAT: 10% on income from alienating assets incl. immovable property (Art. 253 + Art. 258(1) item 9). Confirm in the contract whether the price includes VAT
+  - Resale by a natural person who is not an individual entrepreneur or notary: **outside VAT** because the seller is not a VAT payer (Art. 59(6)), not an Art. 64 exemption; an individual entrepreneur or notary selling own personal property is exempt (Art. 64(2)(39)). A resale by a VAT-payer company or individual entrepreneur is taxable at 20% (Art. 63(1)) on a base no lower than the Art. 62(8) floor
   - Construction services + materials remain at standard 20% VAT — feeds into developer cost stack
 - **Total transaction cost** (buyer side, individual–individual resale): typically **0.1–0.5% of price** — **among the lowest in the world** alongside Georgia
 
@@ -176,7 +177,7 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 - **20% flat PIT** for natural persons (Tax Code Art. 150) — adopted from 1 January 2020 transition, reaching final 20% flat rate from 2023 (vs prior 23%/26%/36% progressive). Effective 2024–2026.
 - **Corporate income tax (CIT)**: 18%
 - **Dividend WHT**: 5% (residents); 10% (non-residents)
-- **VAT-registration threshold**: AMD 115M annual turnover (~US$300k)
+- **VAT-payer threshold**: AMD 115M annual sales turnover (~US$300k) — above it an organisation or individual entrepreneur stops qualifying for turnover tax and pays VAT on the turnover above the threshold (Tax Code Art. 59(1)(5))
 
 ### IT-sector-specific incentive — Law on State Support to IT Sector
 
@@ -226,7 +227,7 @@ A US$600,000 Yerevan Kentron premium apartment (AMD ~221M cadastral value):
 #### Tax classification
 
 - **Individual host**: register at SRC, file annual; effective tax 5% turnover (if elected and under AMD 115M cap) OR 20% PIT on net
-- **Above AMD 115M annual turnover**: VAT registration mandatory (Tax Code Art. 60); STR over the threshold treated as accommodation services
+- **Above AMD 115M annual turnover**: the host stops being a turnover taxpayer and becomes a VAT payer from that moment, paying VAT on the turnover above AMD 115M (Tax Code Art. 59(1)(5)); this applies to hosts operating as an organisation or individual entrepreneur, since a natural person who is not an individual entrepreneur is not a VAT payer (Art. 59(6)); STR over the threshold treated as accommodation services
 - **CIT 18% if held via legal entity**; dividend WHT 5% on distribution
 
 #### Practical (2025–2026)
@@ -669,7 +670,7 @@ Armenia is **civil-law**; **notary** (`notar`) mandatory for any immovable-prope
 
 | Country | Foreign-buyer rule | Acquisition cost (typical) | Annual recurring | Yield (2024) | Currency |
 |---|---|---:|---:|---:|---|
-| **🇦🇲 Armenia** | Open (residential); ag banned for foreign individuals | 0.1–0.5% | 0.05–1.0% × cadastral value (HO-332-N progressive) | ~5–8% Yerevan | AMD managed-float |
+| **🇦🇲 Armenia** | Open (residential); ag banned for foreign individuals | 0.1–0.5% | 0.05–1.5% × cadastral value (HO-332-N progressive; 1.5% only above AMD 200M) | ~5–8% Yerevan | AMD managed-float |
 | **🇬🇪 Georgia** | Open (residential); ag banned post-2017 | 0.1–0.5% | 0–1% × market (income-threshold) | ~6–10% Tbilisi | GEL managed-float |
 | **🇦🇿 Azerbaijan** | Open w/ permit; ag banned for foreigners | 1–3% | low | ~5–7% Baku | AZN dollar-pegged |
 | **🇹🇷 Türkiye** | Open w/ reciprocity; min purchase USD 200k for residence | ~5–8% | ~0.1–0.6% × market | ~5–8% Istanbul | TRY free-float (volatile) |
@@ -921,14 +922,14 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 | Full apartment renovation (Yerevan mid-range, 80 m²) | US$15,000–US$35,000 |
 | Septic to mains connection | US$1,500–US$5,000 |
 | Annual property tax (Yerevan Kentron, market US$200k flat, 2026 phased-in) | ~US$300–US$500 |
-| Annual property tax (Yerevan Kentron, market US$600k flat, 2026 phased-in) | ~US$3,500–US$4,000 |
+| Annual property tax (Yerevan Kentron, market US$600k flat, 2026 phased-in) | ~US$3,600–US$4,500 (computed: cadastral value AMD ~199M–221M = 90–100% of market at 368 AMD/USD, Art. 229(1)(3) scale) |
 | **Total transaction cost (buyer side, residential resale)** | **~0.1–0.5% of price** — among the lowest globally |
 
 ## Active fiscal incentives (2025–2026)
 
 - **HO-105-N IT Sector** — 1% turnover tax in lieu of CIT + VAT for qualifying IT residents; 10% PIT (vs standard 20%) for IT employees; **extended to 31 December 2031**
 - **Individual-to-individual residential sale: PIT EXEMPT under Art. 147(1)(16)** regardless of holding period (2026-05-27 verified, source PwC + armenian-lawyer.com) — among the most generous CGT-free regimes globally
-- **VAT residential first-sale exemption** by VAT-registered developer (Tax Code Art. 64.2.1)
+- **No new-build VAT exemption**: a VAT-payer developer's first sale of dwellings is taxable at 20% (Tax Code Art. 63(1)); Art. 64(2) has no residential-sale exemption
 - **Free Economic Zones** (Meridian, Alliance, Meghri, ECOS) — exemption from CIT, VAT, customs duty for in-zone activity
 - **Investor Residence (AMD 50M / ~US$130k property purchase)** — 5-yr renewable residence permit
 - **Special Residence (10-year) for ethnic Armenians** — automatic for Diaspora applicants
@@ -1007,7 +1008,7 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 - **"Tuff-stone" Yerevan**: distinctive volcanic-rock cladding (pink/grey/black tuff) characteristic of Yerevan stalinka + post-Soviet stock; thermal-mass benefit + heritage character; tuff-cladding restoration cost premium for heritage listings
 - **Heat-network "jermut'yun" residual**: thin remnant in some Soviet-era Yerevan blocks; individual gas boilers ("inknavar") dominant
 - **Spitak earthquake 1988 baseline**: dominant residual seismic risk anchor; pre-1988 panelka stock requires structural survey
-- **HO-332-N RE-tax progressive scale**: bracket sensitivity at boundaries (AMD 10M, 25M, 47M, 120M, 200M for apartments; separate 7M/23M/50M/85M/200M for houses per Tax Code Art. 230); 2026 first-full-year cost increase
+- **HO-332-N RE-tax progressive scale**: bracket sensitivity at boundaries (AMD 10M, 25M, 47M, 75M, 100M, 200M for apartments; separate 7M/23M/50M/85M/120M/200M for houses per Tax Code Art. 229(1)(3)–(4)); 2026 first-full-year cost increase
 - **Diaspora buyer pattern**: many Yerevan apartments held by emigrant owners (Russia, US, France, Argentina) and managed by local relatives — verify owner is signing personally OR via apostilled PoA
 - **Russian-relocant 2022–2024 cohort**: drove price appreciation; partial 2024–2026 reversal; supply overhang in Yerevan Kentron premium segment
 - **CSTO suspension Feb 2024**: geopolitical realignment ongoing; EU candidacy discussion 2024–2026
@@ -1050,13 +1051,13 @@ Armenia is a **niche** retirement destination — primarily for **diaspora-retur
 
 ## Status
 
-**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Tax Code Art. 147(1)(16) individual-to-individual residential PIT-exemption; 10% WHT on price when buyer is legal entity / sole-proprietor tax agent (residential), 20% commercial; Tax Code Art. 230 property-tax brackets — separate schedules for apartments vs houses; CBA refinancing rate 6.5% (2026-05-27, source cba.am) following cutting cycle from 2024 ~10% peak; AMD ~368/USD ~395-410/EUR May 2026 per CBA reference rate). MEDIUM on parcel-level cadastre exact apartment vs house classification (verify at src.am for any specific deal), 2026 CBA forward-rate path, and recharacterisation risk for business-pattern traders (individual sales with high frequency may be re-classified as entrepreneurial income). LOW on residential listing benchmarks (no national HPI; List.am + Spyur aggregator-grade with broker bias).
+**Confidence**: MEDIUM — HIGH on foundational legal/fiscal framework (Tax Code Art. 147(1)(16) individual-to-individual residential PIT-exemption; 10% WHT on price when buyer is legal entity / sole-proprietor tax agent (residential), 20% commercial; Tax Code Art. 229 property-tax brackets — separate schedules for apartments vs houses; CBA refinancing rate 6.5% (2026-05-27, source cba.am) following cutting cycle from 2024 ~10% peak; AMD ~368/USD ~395-410/EUR May 2026 per CBA reference rate). MEDIUM on parcel-level cadastre exact apartment vs house classification (verify at src.am for any specific deal), 2026 CBA forward-rate path, and recharacterisation risk for business-pattern traders (individual sales with high frequency may be re-classified as entrepreneurial income). LOW on residential listing benchmarks (no national HPI; List.am + Spyur aggregator-grade with broker bias).
 
-**Last verified**: 2026-05-27 (real-estate-tax reform law corrected 2026-09-18 — HO-332-N of 25 June 2020, not HO-185-N of 25 December 2020, per ARLIS; risks-authority rows (MIA Rescue Service) and Veolia Jur operator identity corrected 2026-09-18 per mia.gov.am + veolia.am). Cross-references corrected 2026-09-24 from the GE-537 tracker entry (November regwatch wave, run early).
+**Last verified**: 2026-05-27 (real-estate-tax reform law corrected 2026-09-18 — HO-332-N of 25 June 2020, not HO-185-N of 25 December 2020, per ARLIS; risks-authority rows (MIA Rescue Service) and Veolia Jur operator identity corrected 2026-09-18 per mia.gov.am + veolia.am). Cross-references corrected 2026-09-24 from the GE-537 tracker entry (November regwatch wave, run early). VAT citations (Tax Code Arts 59, 62(8), 63, 64 — no residential-sale exemption) and real-estate-tax citations (Section 11; Art. 229 apartment + house scales, 1.5% residential top rate above AMD 200M) corrected 2026-10-23 per the ARLIS consolidated Tax Code (edition in force since 1 Sep 2026).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Primary sources verified — Civil Code Art. 184 + Art. 295 (residential foreign ownership open, mandatory notary), Land Code Art. 4 (foreign ag-land ban), Law on Real Property of 1999 + Law on State Registration HO-295-N (1999 Cadastre framework), Tax Code Art. 64 + 147 + 150 + 158 + Section 13 Articles 224–238 + Law HO-332-N of 25 June 2020 (Real Estate Tax progressive scale phased through 2026 to 100% coefficient), Law on Foreigners Art. 18.4 (Investor Residence AMD 50M ~US$130k) + Art. 21 (Special Residence 10-year for ethnic Armenians), Law on Citizenship Art. 13 (descent + 3-yr naturalisation; dual citizenship since 2007), Law HO-105-N "On State Support to IT Sector" (1% turnover regime extended to 31 December 2031), Law HO-80-N 2008 on AML (cash limit AMD 500,000), CEPA in force 1 March 2021, CSTO frozen February 2024, Spitak 1988 Mw 6.8 baseline + SNiP RA II-2.02-94 (1994) + 2020 update seismic code, NSSP microzoning Yerevan + Gyumri + Vanadzor. **Geopolitical context (2020 + 2023 Karabakh, ~120k displaced Sept 2023, Azerbaijan border tension Tavush/Syunik/Vayots Dzor, CSTO suspension Feb 2024, EU candidacy under discussion 2024–2026)** integrated as material risk + repricing variable; written non-partisan, factual. **Russian-relocant 2022–2024 wave** documented as drove ~50% peak nominal Yerevan appreciation 2021–2023 with 2024–2026 partial reversal. **HO-332-N first-full-year 2026 RE-tax effect** flagged repeatedly as dominant 2026 carrying-cost variable. **Re-verify each annual budget law amendment** for Tax Code (especially Art. 230 RE-tax brackets), CBA refinancing rate decisions, PSRC tariff schedules, Cadastre Committee tariffs, HO-105-N IT-sector eligibility scope. **Watch list 2026**: HO-332-N implementation actuals vs forecast tax bills, EU candidacy formalisation milestones (if any), Azerbaijan border status, CSTO formal exit progression, Russian-relocant cohort net-flow direction, HSBC Armenia exit completion + bank-sector consolidation. **Transnistria-equivalent zone**: none — Karabakh fully under Azerbaijani control post-Sept 2023 (out of Armenian cadastral scope by international consensus).
+**Notes**: Primary sources verified — Civil Code Art. 184 + Art. 295 (residential foreign ownership open, mandatory notary), Land Code Art. 4 (foreign ag-land ban), Law on Real Property of 1999 + Law on State Registration HO-295-N (1999 Cadastre framework), Tax Code Art. 59 + 62(8) + 63 + 64 (VAT payers, VAT base floor, 20% rate, exemptions — no residential-sale exemption) + 147 + 150 + 158 + Section 11 Articles 224–238 + Law HO-332-N of 25 June 2020 (Real Estate Tax progressive scale phased through 2026 to 100% coefficient), Law on Foreigners Art. 18.4 (Investor Residence AMD 50M ~US$130k) + Art. 21 (Special Residence 10-year for ethnic Armenians), Law on Citizenship Art. 13 (descent + 3-yr naturalisation; dual citizenship since 2007), Law HO-105-N "On State Support to IT Sector" (1% turnover regime extended to 31 December 2031), Law HO-80-N 2008 on AML (cash limit AMD 500,000), CEPA in force 1 March 2021, CSTO frozen February 2024, Spitak 1988 Mw 6.8 baseline + SNiP RA II-2.02-94 (1994) + 2020 update seismic code, NSSP microzoning Yerevan + Gyumri + Vanadzor. **Geopolitical context (2020 + 2023 Karabakh, ~120k displaced Sept 2023, Azerbaijan border tension Tavush/Syunik/Vayots Dzor, CSTO suspension Feb 2024, EU candidacy under discussion 2024–2026)** integrated as material risk + repricing variable; written non-partisan, factual. **Russian-relocant 2022–2024 wave** documented as drove ~50% peak nominal Yerevan appreciation 2021–2023 with 2024–2026 partial reversal. **HO-332-N first-full-year 2026 RE-tax effect** flagged repeatedly as dominant 2026 carrying-cost variable. **Re-verify each annual budget law amendment** for Tax Code (especially Art. 229 RE-tax brackets), CBA refinancing rate decisions, PSRC tariff schedules, Cadastre Committee tariffs, HO-105-N IT-sector eligibility scope. **Watch list 2026**: HO-332-N implementation actuals vs forecast tax bills, EU candidacy formalisation milestones (if any), Azerbaijan border status, CSTO formal exit progression, Russian-relocant cohort net-flow direction, HSBC Armenia exit completion + bank-sector consolidation. **Transnistria-equivalent zone**: none — Karabakh fully under Azerbaijani control post-Sept 2023 (out of Armenian cadastral scope by international consensus).
 
 ## Extension TODOs (deepen on first real run)
 

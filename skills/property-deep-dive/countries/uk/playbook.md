@@ -28,7 +28,7 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04). **Last r
 - **Office for National Statistics (ONS) — Private rent and house prices, UK** (formerly the "UK House Price Index" bulletin — renamed): `https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/latest`
 - **Registers of Scotland** sale prices: `https://www.ros.gov.uk/`
 - **Land & Property Services NI** (LPS): `https://www.nidirect.gov.uk/articles/valuation-domestic-properties-rates`
-- **Bank of England** mortgage statistics
+- **Bank of England** mortgage statistics. Macroprudential limit on high loan-to-income mortgages (4.5x income or more): from 28 Oct 2026 the 15% limit applies to aggregate new lending only — the firm-level cap is removed, so one lender may exceed 15% while the market stays within it; whether a lender offers 4.5x+ loans remains its own decision (2026 data, source [Bank of England PRA PS19/26](https://www.bankofengland.co.uk/prudential-regulation/publication/2026/october/high-loan-to-income-lending-policy-statement))
 - **Council Tax band lookup**: `https://www.gov.uk/council-tax-bands`
 
 ### Listing platforms
@@ -357,8 +357,9 @@ Ranges are est. blended indicators triangulated from the ONS "Private rent and h
 
 ## Active fiscal incentives (2025-2026)
 
-- **Help to Buy**: ended 2023 in England (Wales/Scotland separate schemes)
-- **First Homes scheme**: 30–50% discount for FTB key workers (England; gradual rollout)
+- **Help to Buy**: ended 2023 in England (applications closed end-Oct 2022); Help to Buy – Wales takes applications until 31 Mar 2027 (2026 data, source [gov.wales](https://www.gov.wales/help-buy-wales))
+- **Your First Home** — ANNOUNCED 26 Sep 2026, not legislated and not open: England-only equity loan for first-time buyers of a new-build home from a developer signed up to the scheme; 20% government-backed equity loan with an initial interest-free period (length not stated), expected to support 2.5% deposits; household income cap + local property price caps; caps, costs and start date to be set out at Budget 2026 on 28 Oct 2026 (2026 data, source [MHCLG](https://www.gov.uk/government/news/new-first-time-buyer-scheme-to-be-confirmed-at-budget); tracked in shared/regulatory-watch.md 🇬🇧 UK)
+- **First Homes scheme**: new-build homes sold at least 30% below market value (councils can require 40% or 50% where they show need) to first-time buyers in England; councils may prioritise key workers, but the scheme is not limited to them; the requirement that 25% of s106 affordable homes be First Homes no longer applies, though the option remains (2025 data, sources [gov.uk First Homes guidance](https://www.gov.uk/guidance/first-homes) + [government response to the NPPF consultation](https://www.gov.uk/government/consultations/proposed-reforms-to-the-national-planning-policy-framework-and-other-changes-to-the-planning-system/outcome/government-response-to-the-proposed-reforms-to-the-national-planning-policy-framework-and-other-changes-to-the-planning-system-consultation) — figures may have changed since)
 - **ECO4** (Energy Company Obligation): low-income energy-efficiency upgrades
 - **Boiler Upgrade Scheme**: £7,500 grant for heat pumps
 - **GBIS** (Great British Insulation Scheme)
@@ -382,7 +383,7 @@ Ranges are est. blended indicators triangulated from the ONS "Private rent and h
 - **Council Tax based on 1991 values** in England/Scotland (1991), 2003 in Wales — wildly outdated
 - **Empty/second home premium up to +100%** since April 2024
 - **Renters' Rights Act 2025** — Section 21 abolished (1 May 2026)
-- **Help to Buy ended** — no scheme replacement yet
+- **Help to Buy ended** (England, 2023) — successor **Your First Home** equity loan ANNOUNCED 26 Sep 2026 but not legislated or open; caps, interest-free period and start date due at Budget 2026 (28 Oct 2026) — do not price it into an offer until confirmed (see Active fiscal incentives)
 - **Northern Ireland** uses domestic rate system (capital value-based) — distinct from rest of UK
 - **Scotland LBTT + ADS 8%** — punitive on additional dwelling
 - **Brexit**: removed EU-resident buyer benefits; 2% non-resident SDLT surcharge
@@ -427,9 +428,9 @@ Ranges are est. blended indicators triangulated from the ONS "Private rent and h
 ## Status
 
 ✅ **Fully populated** (initially populated 2026-04-25).
-**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged). Leasehold / rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Leasehold / rental / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged). Leasehold / rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Leasehold / rental / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Active fiscal incentives (Your First Home, Help to Buy – Wales, First Homes) and the Bank of England / PRA high-LTI note re-checked 2026-10-21 (see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for SDLT 2025 reform (gov.uk, multiple solicitor sources confirm), HIGH for FHL abolition (HMRC + Deloitte tax briefings), HIGH for cladding/RAAC programmes, HIGH for Renters' Rights Act 2025 (in force; s21 abolished 1 May 2026); MEDIUM for HVCTS implementation detail (announced Autumn Budget 2025; design consultation closed 14 Jul 2026 with no government response yet — not yet legislated) and the later phased Renters’ Rights commencements (MHCLG roadmap).
+**Confidence**: HIGH for SDLT 2025 reform (gov.uk, multiple solicitor sources confirm), HIGH for FHL abolition (HMRC + Deloitte tax briefings), HIGH for cladding/RAAC programmes, HIGH for Renters' Rights Act 2025 (in force; s21 abolished 1 May 2026); MEDIUM for HVCTS implementation detail (announced Autumn Budget 2025; design consultation closed 14 Jul 2026 with no government response yet — not yet legislated) and the later phased Renters’ Rights commencements (MHCLG roadmap); LOW for Your First Home parameters (announced 26 Sep 2026, not legislated — caps, interest-free period and start date pending Budget 2026 on 28 Oct 2026).
 
 ## Extension TODOs
 

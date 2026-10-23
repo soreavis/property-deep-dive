@@ -434,7 +434,7 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 
 ✅ **Fully populated** as of 2026-07-03 (Tier-A quarterly refresh — fast-moving claims re-verified; structural sections unchanged).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for tax + risk + cadastre sources (HORA + Statistik Austria + Grundbuch all gold-standard). MEDIUM for short-let regulation (Wiener Bauordnung 2024 + EU 2024/1028 transposition still evolving).
+**Confidence**: HIGH for tax + risk + cadastre sources (HORA + Statistik Austria + Grundbuch all gold-standard). MEDIUM for short-let regulation (Wiener Bauordnung 2024 + EU 2024/1028 opt-in implementation by the Länder still evolving).
 **Last verified**: 2026-08-07 — `--tax` ownership caveats only (Grundverkehr approval regime + Tirol/Salzburg second-home share thresholds re-verified against RIS konsolidiertes Landesrecht); all other sections remain at 2026-07-03. Rental / tax tracker entries re-checked 2026-09-24 (November regwatch wave, run early; see shared/regulatory-watch.md). Finance / rental / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early — short-let / STR-VO paragraph corrected: Wien register law passed by the Landtag 20 Oct 2026, not yet gazetted; BMWET: Tirol and Wien expected to start during Q1 2027; see shared/regulatory-watch.md).
 
 ## Extension TODOs

@@ -28,7 +28,7 @@
 - **Contract**: σύμβαση μεσιτείας exclusive 6 mo
 - **MLS**: no MLS; Spitogatos.gr + XE.gr
 - **Discount**: 8-15% off asking; islands narrower
-- **Sell-side**: **CGT on real estate suspended through 2026 (extended)**; commission 2%+VAT; ENFIA arrears must be cleared at sale
+- **Sell-side**: **CGT on real estate suspended through 31 Dec 2026 (2027 extension drafted, not enacted)**; commission 2%+VAT; ENFIA arrears must be cleared at sale
 - **Liquidity**: 🟢 MEDIUM-HIGH Athens centre/southern suburbs; 🟢 MEDIUM Thessaloniki + Cyclades/Ionian top islands; 🔴 LOW mainland rural; 🔴 VERY LOW less-touristed islands
 - **Quirks**: Golden Visa thresholds raised Sep 2024 cooling top-end; forest/coastal/archaeological zone overlays critical to verify; Ktimatologio rollout still incomplete in pockets
 

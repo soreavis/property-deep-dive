@@ -38,7 +38,7 @@
 - **Contract**: alleinvermittlungsauftrag exclusive 3-6 mo
 - **MLS**: no MLS; willhaben.at + ImmoScout24
 - **Discount**: 5-8% off asking
-- **Sell-side**: ImmoESt 30% on gain (with indexation); commission 3.6%
+- **Sell-side**: ImmoESt 30% on gain (no inflation indexation in § 30 EStG); Altvermögen (land not steuerverfangen on 31 Mar 2012) effective 4.2% of proceeds (rezoned after 1987: 18%), rising to 6.0% / 21% for sales after 31 Dec 2026 under the Budgetbegleitgesetz 2027-2028, BGBl I 62/2026 (computed: 30% × 20% / 30% × 70%; 2026 data, RIS EStG § 30); commission 3.6%
 - **Liquidity**: 🟢 MEDIUM Vienna; 🟢 MEDIUM-HIGH ski resorts; 🟠 LOW Burgenland rural
 - **Quirks**: **Strict Ausländergrundverkehr in Tyrol/Vorarlberg/Salzburg** — non-EU/EEA buyers blocked or quota-limited, narrows future buyer pool
 

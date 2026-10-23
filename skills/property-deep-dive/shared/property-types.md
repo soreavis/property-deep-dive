@@ -443,12 +443,13 @@ A serviced-looking plot can be a financial trap. A listing that says "building p
 | Country | Listing levels | Authority | Tax incentive |
 |---|---|---|---|
 | 🇫🇷 | ISMH (inscrit), MH (classé), patrimoine remarquable | DRAC + ABF | Loi Malraux: deduct 22-30% of works for 4 yrs; Monuments historiques: 100% deductible if open to public |
-| 🇮🇹 | Vincolo + Beni culturali | Soprintendenza | Bonus 110% / Restauro 50% |
+| 🇮🇹 | Vincolo + Beni culturali | Soprintendenza | Superbonus: no general 2026 rate (65% ended with spese 2025); Bonus Ristrutturazione 50% abitazione principale / 36% other (spese 2026), 36% / 30% (spese 2027) |
 | 🇩🇪 | Denkmalschutz (per Bundesland) | Denkmalbehörde | §7i EStG: 9% × 8yrs + 7% × 4yrs depreciation on restoration |
 | 🇪🇸 | BIC (Bien de Interés Cultural) | Cultura + CCAA | IRPF 30% reduction + ICIO exemption |
 | 🇬🇧 | Grade I, II*, II | Historic England / Cadw / HES | VAT 5% on alterations, but full VAT on like-for-like repairs (post-2012) |
 | 🇮🇪 | Protected Structure | Local Planning Authority | Heritage Council grants |
 | 🇵🇹 | IIM / IIP / MN | Direção Geral do Património Cultural | IRS deduction up to €500/yr |
+| 🇬🇷 | Monument (μνημείο) under Law 4858/2021; unlisted buildings older than 100 years are also caught | Ministry of Culture service — Law 4858/2021 art. 6 par. 10: demolition, or any works that need a building permit (οικοδομική άδεια), on a building older than 100 years needs that service's approval even if it was never declared a monument; deemed granted if the publicity steps of a listing proposal are not completed within 4 months of notification ([ΦΕΚ Α' 220/19-11-2021 text, odap.gr copy](https://www.odap.gr/wp-content/uploads/2025/05/n.4858_2021.pdf), 2026-10-23 verified) | No verified current incentive — the Law 4030/2011 art. 44 relief covered only part of Metaxourgeio (Athens), with deadlines of 31 Dec 2014 / 31 Dec 2015 |
 | 🇸🇪 | K-märkt / byggnadsminne | Länsstyrelse | Limited grants |
 | 🇨🇭 | Per-canton | Kantonale Denkmalpflege | Various |
 
