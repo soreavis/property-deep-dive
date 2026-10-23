@@ -64,6 +64,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(corpus): apply the 21 Oct 2026 audit — 309 confirmed findings and 18 brief errors ([#458](https://github.com/soreavis/property-deep-dive/pull/458)) — by @soreavis
 
+- fix(corpus): carry the audit corrections into 84 sibling statements that still had the old claims ([#459](https://github.com/soreavis/property-deep-dive/pull/459)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
