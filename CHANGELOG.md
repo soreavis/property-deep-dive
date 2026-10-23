@@ -79,6 +79,10 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(deps): bump the actions-minor-patch group with 4 updates ([#422](https://github.com/soreavis/property-deep-dive/pull/422)) — by @dependabot[bot]
 
+### Security
+
+- **CI Python lock bumped, clearing 25 advisories: pypdf `6.16.2` → `6.21.2` (8 high, 7 medium, 1 low), aiohttp `3.14.3` → `3.14.4` (3 high, 3 medium, 2 low), multidict `6.7.1` → `6.9.1` (1 medium).** yarl moves to `1.25.1` because aiohttp 3.14.4 requires it; no package is added or dropped. `requirements.in` floors now sit at the patched pypdf and aiohttp. Supersedes Dependabot #421, #438, #439 and #441, whose regeneration dropped `typing-extensions` (needed on Python 3.12) and failed the lock gate.
+
 ## [2026.09.1] - 2026-09-24
 
 ### Fixed
