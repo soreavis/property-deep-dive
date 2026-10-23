@@ -69,6 +69,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - feat(ci): relock Dependabot pip PRs so they pass the required lock gate ([#450](https://github.com/soreavis/property-deep-dive/pull/450)) — by @soreavis
 
+- fix(playbooks): refresh 15 playbooks against primary sources — 1,035 refuted corrections ([#460](https://github.com/soreavis/property-deep-dive/pull/460)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
