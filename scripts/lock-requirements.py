@@ -58,6 +58,7 @@ LOCK = ROOT / 'requirements.txt'
 # Keep in step with `python-version:` in source-verify.yml + url-liveness.yml.
 PYTHON_VERSION = '3.12'
 PLATFORM = 'x86_64-unknown-linux-gnu'
+PIN = re.compile(r'^([A-Za-z0-9][\w.-]*)==.*(?:\n .*)*', re.M)
 
 
 def header_of(path: Path) -> str:
@@ -82,7 +83,13 @@ def name_of(spec: str) -> str:
     return re.sub(r'[-_.]+', '-', re.match(r'[\w.-]*', spec)[0]).lower()
 
 
-def compile_body(upgrade: bool = False, packages: Sequence[str] = ()) -> str:
+def missing_pins(base: str, lock: str) -> list[str]:
+    """Pin blocks (pin line plus its indented hashes) of `base` for packages `lock` lacks."""
+    have = {name_of(m[1]) for m in PIN.finditer(lock)}
+    return [m[0] for m in PIN.finditer(base) if name_of(m[1]) not in have]
+
+
+def compile_body(upgrade: bool = False, packages: Sequence[str] = (), base: Path | None = None) -> str:
     if not shutil.which('uv'):
         sys.exit("ERROR: `uv` not found. Install it (https://docs.astral.sh/uv/) "
                  "or regenerate with `pip-compile --generate-hashes`.")
@@ -97,10 +104,20 @@ def compile_body(upgrade: bool = False, packages: Sequence[str] = ()) -> str:
         # documented way to opt into bumps; `--upgrade-package` keeps the seed and
         # lifts only the named pins.
         if LOCK.exists() and not upgrade:
-            out.write_text(LOCK.read_text(encoding='utf-8'), encoding='utf-8')
+            seed = LOCK.read_text(encoding='utf-8')
+            # A package missing from the lock (Dependabot drops 3.12-only ones) has no
+            # pin to prefer, so uv would take its newest release, majors included.
+            # --base supplies the pin it had.
+            if base:
+                extra = missing_pins(base.read_text(encoding='utf-8'), seed)
+                seed = '\n'.join([seed.rstrip('\n'), *extra]) + '\n'
+            out.write_text(seed, encoding='utf-8')
+        # --no-build: resolving never runs a package's build code. The Dependabot
+        # relock job runs this with a push token in reach. (`uv pip compile` ignores
+        # UV_NO_BUILD, so the flag has to be on the command line.)
         cmd = ['uv', 'pip', 'compile', str(SRC), '--generate-hashes', '--no-header',
                '--python-version', PYTHON_VERSION, '--python-platform', PLATFORM,
-               '-o', str(out)]
+               '--no-build', '-o', str(out)]
         if upgrade:
             cmd.append('--upgrade')
         for spec in packages:
@@ -122,6 +139,9 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument('-P', '--upgrade-package', action='append', default=[], metavar='SPEC',
                     help='bump only this package, NAME or NAME==VERSION (repeatable); '
                          'every other pin is kept. Not with --upgrade or --check')
+    ap.add_argument('--base', type=Path, metavar='LOCK',
+                    help="also prefer this lock's pins for packages requirements.txt "
+                         "lacks (the Dependabot relock job passes main's)")
     args = ap.parse_args(argv)
 
     if args.upgrade_package:
@@ -136,7 +156,7 @@ def main(argv: list[str] | None = None) -> int:
     if not SRC.exists():
         sys.exit(f'ERROR: {SRC} not found')
 
-    rendered = header_of(LOCK) + '\n\n' + compile_body(args.upgrade, args.upgrade_package) + '\n'
+    rendered = header_of(LOCK) + '\n\n' + compile_body(args.upgrade, args.upgrade_package, args.base) + '\n'
 
     if args.check:
         if LOCK.exists() and LOCK.read_text(encoding='utf-8') == rendered:

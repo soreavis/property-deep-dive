@@ -29,10 +29,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     # Maintainer and automation PRs are never approval-gated, so they need no
-    # pre-approval summary.
+    # pre-approval summary. Dependabot is matched as the author, not the actor:
+    # the relock push in dependabot-auto-merge.yml arrives as the PAT owner.
     if: >-
       github.event.pull_request.author_association != 'OWNER'
-      && github.actor != 'dependabot[bot]'
+      && github.event.pull_request.user.login != 'dependabot[bot]'
       && github.actor != 'github-actions[bot]'
     steps:
       - name: Post / refresh risk summary

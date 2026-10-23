@@ -212,7 +212,7 @@ python3 scripts/audit-confidence.py # Confidence vs primary-source URLs
 
 `scripts/` helpers that CI runs need `aiohttp` and `pypdf`. Nothing here is needed to *use* the skill — it ships Markdown only.
 
-**Version bumps are Dependabot's job, not yours.** It watches the `pip` ecosystem, edits `requirements.in`, and regenerates the hashes in `requirements.txt` itself; patch/minor land unattended, a major waits for review.
+**Version bumps are Dependabot's job, not yours.** It watches the `pip` ecosystem and edits `requirements.in` / `requirements.txt`; the `relock` job in `dependabot-auto-merge.yml` then re-renders the lock with the helper below, because Dependabot resolves on a newer Python and drops 3.12-only dependencies. Patch/minor land unattended, a major waits for review.
 
 You only intervene to **add or remove a package**, or change a constraint:
 
