@@ -5,8 +5,9 @@ name: EU transposition deadline alerts
 # not-yet-passed threshold among:
 #   T-90 days · T-30 days · T-14 days · T-0 (effective today)
 #
-# One issue per (entry, threshold) pair — title includes the threshold so
-# subsequent runs don't duplicate. The full alert ladder gives the maintainer
+# One issue per (country, topic, date, threshold) title — entries that share
+# one are listed together, and the threshold in the title keeps subsequent
+# runs from duplicating. The full alert ladder gives the maintainer
 # three lead-time windows (quarter-out planning · final pass · last-chance)
 # plus the day-of marker that triggers the playbook patch.
 
@@ -70,8 +71,8 @@ jobs:
               # not-yet-passed threshold for this entry and fire one alert for it.
               # min() over thresholds still >= days_until selects the tightest window
               # (e.g. days_until=12 -> 14; days_until=0 -> 0). Idempotency is preserved
-              # because the issue title carries the threshold and the dup-search skips
-              # an already-opened (entry, threshold) pair.
+              # because the issue title carries the threshold and the dup check skips
+              # a title that already has an issue.
               thr = min((t for t in THRESHOLDS if t >= days_until), default=None)
               if thr is None:
                   continue
@@ -104,34 +105,46 @@ jobs:
               return;
             }
 
+            // Entries sharing country, topic and date share a title, so they share one issue.
+            const groups = new Map();
             for (const a of alerts) {
+              const title = `🔔 Transposition T-${String(a.threshold).padStart(2, '0')} · ${a.country} ${a.topic} · ${a.effective}`;
+              groups.set(title, [...(groups.get(title) ?? []), a]);
+            }
+
+            // Idempotency: skip titles that already have an issue (open OR closed). One listing
+            // instead of a search per alert: search allows 30 requests/min and lags new issues.
+            const existing = new Map((await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'transposition-alert',
+              state: 'all',
+              per_page: 100,
+            })).map(i => [i.title, i.number]));
+
+            for (const [title, group] of groups) {
+              if (existing.has(title)) {
+                core.notice(`Skipping duplicate: #${existing.get(title)} — ${title}`);
+                continue;
+              }
+              const a = group[0];
               const labelTier = (a.threshold === 0) ? '🚨 EFFECTIVE TODAY'
                               : (a.threshold <= 14) ? '⏰ FINAL PASS'
                               : (a.threshold <= 30) ? '📅 ONE MONTH OUT'
                               : '🗓 ONE QUARTER OUT';
-              const title = `🔔 Transposition T-${String(a.threshold).padStart(2, '0')} · ${a.country} ${a.topic} · ${a.effective}`;
-
-              // Idempotency: skip if an issue with this exact title already exists (open OR closed).
-              const search = await github.rest.search.issuesAndPullRequests({
-                q: `repo:${context.repo.owner}/${context.repo.repo} is:issue in:title "${title}"`,
-                per_page: 5,
-              });
-              const dup = search.data.items.find(i => i.title === title);
-              if (dup) {
-                core.notice(`Skipping duplicate: #${dup.number} — ${title}`);
-                continue;
-              }
 
               const body = [
                 `## ${labelTier} — ${a.country} ${a.topic}`,
                 ``,
                 `**Effective date**: \`${a.effective}\` (in **${a.days_until} day(s)**)`,
-                `**Tier**: ${a.tier}  ·  **Source**: ${a.source}`,
-                `**Affected sections**: \`${a.sections || '(none listed)'}\``,
-                ``,
-                `### Summary`,
-                ``,
-                a.summary,
+                group.map(e => [
+                  `**Tier**: ${e.tier}  ·  **Source**: ${e.source}`,
+                  `**Affected sections**: \`${e.sections || '(none listed)'}\``,
+                  ``,
+                  `### Summary`,
+                  ``,
+                  e.summary,
+                ].join('\n')).join('\n\n'),
                 ``,
                 `### What to do`,
                 ``,
