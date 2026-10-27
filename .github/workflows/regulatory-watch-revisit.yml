@@ -116,14 +116,15 @@ jobs:
             const body = fs.readFileSync('_overdue.md', 'utf-8');
             const title = '🔔 Regulatory-watch — overdue revisits';
 
-            const issues = await github.rest.issues.listForRepo({
+            // Transposition alerts share this label, so read every page or the tracker can be missed.
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'open',
               labels: 'regulatory-watch',
-              per_page: 20,
+              per_page: 100,
             });
-            const existing = issues.data.find(i => i.title === title);
+            const existing = issues.find(i => i.title === title);
 
             if (existing) {
               await github.rest.issues.update({
@@ -150,14 +151,14 @@ jobs:
         with:
           script: |
             const title = '🔔 Regulatory-watch — overdue revisits';
-            const issues = await github.rest.issues.listForRepo({
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'open',
               labels: 'regulatory-watch',
-              per_page: 20,
+              per_page: 100,
             });
-            const existing = issues.data.find(i => i.title === title);
+            const existing = issues.find(i => i.title === title);
             if (!existing) return;
             await github.rest.issues.createComment({
               owner: context.repo.owner,
