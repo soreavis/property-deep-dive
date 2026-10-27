@@ -98,6 +98,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(ci): stop transposition alerts hitting the search rate limit and opening duplicates ([#490](https://github.com/soreavis/property-deep-dive/pull/490)) — by @soreavis
 
+- fix(regwatch): clear the #503 overdue revisits and stop the tracker duplicating ([#505](https://github.com/soreavis/property-deep-dive/pull/505)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
