@@ -102,6 +102,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): 28 Oct 2026 wave — UK Budget, IT budget bill, RS, KZ, NL/BR/SI, JP, AD/SM ([#508](https://github.com/soreavis/property-deep-dive/pull/508)) — by @soreavis
 
+- fix(regwatch): 28 Oct 2026 wave 2 — UK Budget tax, MX cadastre law, SM/AD border agreements, EU FDI, 12 more countries ([#509](https://github.com/soreavis/property-deep-dive/pull/509)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
