@@ -270,7 +270,7 @@ Source: [遺產及贈與稅法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcod
 - **民法 §421-§463** — civil-code base of 租賃 contract; standard 1–2 yr term; 押金 (deposit) statutory cap 2 months
 - **內政部不動產資訊平台 — 租金實價登錄** since 2024-07-01 — mandatory rent disclosure for properties brokered/managed by 不動產經紀業 + 包租代管, plus household-direct lease above certain thresholds. Portal `https://lvr.land.moi.gov.tw/`.
 - **Customary tenant payments at signing**:
-  - 押金 (deposit): 2 months — statutory cap is **土地法 §99** (Land Act Art. 99), mirrored by 租賃住宅市場發展及管理條例; 民法 §432 covers tenant's duty of care, NOT deposits (2026-05-27 verified, source: [law.moj.gov.tw — 土地法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0060001))
+  - 押金 (deposit): 2 months — statutory cap is **土地法 §99** (Land Act Art. 99), mirrored by 租賃住宅市場發展及管理條例; 民法 §432 covers tenant's duty of care, NOT deposits (2026-05-27 verified, source: [law.moj.gov.tw — 土地法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0060001), [民法 §432](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=432))
   - 仲介費 (agent fee): typically **half-month each side** (negotiable; cap 1.5 months total per 不動產經紀業管理條例)
   - 保證人 (guarantor): often required — 連帶保證 (joint guarantor) or 履約保證金 (performance deposit) substitution
   - 公證費 (notarization): optional but increasingly used for high-rent leases; ~3,000–10,000 TWD
