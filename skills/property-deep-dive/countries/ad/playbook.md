@@ -547,7 +547,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ### Pathways
 
-1. **Residència passiva** (€800k investment per Llei 5/2025, eff. 16 April 2025 — up from superseded pre-2025 €600k, possibly €1m per Llei 2/2026; + AFA deposit; ≥90 days/yr) — most common retirement route
+1. **Residència passiva** (€800k investment per Llei 5/2025, eff. 16 April 2025 — up from superseded pre-2025 €600k, possibly €1m per Llei 2/2026; + AFA deposit; ≥90 days/yr) — most common retirement route. ⚠️ Pending EU–Andorra border-management agreement (not signed or applied as of 2026-10-28): once it applies, the investment alone would not establish the genuine connection a third-country national's permit needs (art. 24(2)); see `--visa`
 2. **Family reunification** (sponsored by AD-resident family)
 3. **Pre-existing residency** transitioned
 
@@ -574,7 +574,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ### Visa pathway
 
-- **No formal digital-nomad visa**. Workable pathways: (1) **Residència passiva** + foreign-employer remote-work — gray area (verify with Servei d'Immigració); (2) **Residència activa self-employed** via SL — clean route but full tax-residency + CASS + IS exposure; (3) Visitor entry (Andorra is NOT in Schengen but external-perimeter aligned) up to 90/180 days. ⚠️ Sustained "working from Andorra" without residency permit case-by-case risk
+- **No formal digital-nomad visa**. Workable pathways: (1) **Residència passiva** + foreign-employer remote-work — gray area (verify with Servei d'Immigració); (2) **Residència activa self-employed** via SL — clean route but full tax-residency + CASS + IS exposure; (3) Visitor entry (Andorra is NOT in Schengen but external-perimeter aligned) up to 90/180 days. ⚠️ Sustained "working from Andorra" without residency permit case-by-case risk. ⚠️ Route (1): once the pending EU–Andorra border-management agreement applies (not signed or applied as of 2026-10-28), the investment alone would not establish the genuine connection a third-country national's permit needs (art. 24(2)); see `--visa`
 
 ### Connectivity
 
@@ -791,7 +791,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 **Confidence**: MEDIUM — HIGH for the foundational legal/fiscal framework (ITP split 1% Govern + 0.50–3% Comú per Llei 1229/2000 art. 8.1+8.2, IEI two-tier 6%/10% post-Llei 5/2025, Llei 5/2025 "Llei Òmnibus" foreign-investor cap, negative-silence rule per Llei 3/2024, AFA deposit split, Passive-residency tier ladder €600k → €800k → possible €1m), bopa.ad primary statutes, and Comú-level transfer tax confirmation. MEDIUM for parcel-level Comú variation within the 0.50–3% ITP band (verify per parcel with Comú treasurer), Llei 2/2026 forward-flag detail, and 2026 minimum-wage / IRPF effective-rate parentheticals (verify at gov.ad). MEDIUM for residential price benchmarks (no national HPI; aggregator listing data with foreign-buyer bias).
 
-**Last verified**: 2026-05-27 (EU Association Agreement status corrected 2026-09-18, 2026-09-24 and 2026-10-21 per Govern d'Andorra AA portal + Commission IP/26/2182; amended EU–Andorra Monetary Agreement (signed 19 Oct 2026, entry into force not established) recorded in Currency status 2026-10-23 per Commission IP/26/2182; pending EU–Andorra border-management agreement and its residence-permit conditions added to `--visa` 2026-10-28 per COM(2026) 445 and annex (EU Publications Office Cellar) + Govern d'Andorra border-agreement page). EU-association tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27 (EU Association Agreement status corrected 2026-09-18, 2026-09-24 and 2026-10-21 per Govern d'Andorra AA portal + Commission IP/26/2182; amended EU–Andorra Monetary Agreement (signed 19 Oct 2026, entry into force not established) recorded in Currency status 2026-10-23 per Commission IP/26/2182; pending EU–Andorra border-management agreement and its residence-permit conditions added to `--visa` (cross-referenced from `--retirement` and `--digital-nomad`) 2026-10-28 per COM(2026) 445 and annex (EU Publications Office Cellar) + Govern d'Andorra border-agreement page). EU-association tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
