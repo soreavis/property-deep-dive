@@ -68,7 +68,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 | Item | Kuwait |
 |---|---|
 | **Investor / Golden Residency via real estate** | **NONE** — no real-estate-linked residency or investor-visa pathway |
-| **Citizenship by investment** | **NONE** — Kuwaiti citizenship governed by [Decree-Law 15/1959 on Kuwaiti Nationality](https://www.moi.gov.kw/) (verify at Ministry of Interior) — strictly hereditary; naturalisation extremely rare (typically requires 20+ yrs residence + Arabic + Muslim + valuable contribution; political process; Council of Ministers + Emir's approval) |
+| **Citizenship by investment** | **NONE** — Kuwaiti citizenship governed by [Decree-Law 15/1959 on Kuwaiti Nationality, as amended](https://www.moi.gov.kw/main/News/Index/111493) (verify at Ministry of Interior) — strictly hereditary; naturalisation extremely rare (typically requires 20+ yrs residence + Arabic + Muslim + valuable contribution; political process; Council of Ministers + Emir's approval) |
 | **Permanent residency for foreigners** | **NONE in formal sense** — Iqama under Decree-Law 17/1959 is renewable but tied to employer / family / property; some long-residing expats report informal recognition after 20+ yrs but not codified |
 | **Golden Visa equivalent** | **NONE** |
 
@@ -643,7 +643,7 @@ Account opening requires **valid Iqama + Kuwaiti mobile + Civil ID** for residen
 | **KDIPA Investor Iqama** | KDIPA-licensed business activity (NOT real estate) | Tied to investment | Tied |
 | **Tourist Visa** | 90-day single or multiple entry | Visit only | n/a |
 | **Permanent Residency** | **NOT formally available** | — | — |
-| **Citizenship** | **Effectively impossible** under [Decree-Law 15/1959 on Kuwaiti Nationality](https://www.moi.gov.kw/) (verify at Ministry of Interior) — strict naturalisation; rare exceptional grants by Council of Ministers + Emir | n/a | n/a |
+| **Citizenship** | **Effectively impossible** under [Decree-Law 15/1959 on Kuwaiti Nationality, as amended](https://www.moi.gov.kw/main/News/Index/111493) (verify at Ministry of Interior) — strict naturalisation; rare exceptional grants by Council of Ministers + Emir | n/a | n/a |
 | **Real-Estate-Linked Visa** | **NONE** | — | — |
 | **Golden Visa** | **NONE** | — | — |
 

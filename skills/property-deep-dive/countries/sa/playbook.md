@@ -187,7 +187,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Notes
 
-- **Riyadh Metro** (6 lines, 176 km, 85 stations) — Phase 1 inaugurated **Dec 2024**; full operations rolling 2024–2026 ([Royal Commission for Riyadh City](https://www.rcrc.gov.sa/) + [RCRC — Riyadh Metro project page (AR)](https://www.rcrc.gov.sa/projects/riyadh-public-transport-project/)); fundamentally re-rates property within ~800 m of stations
+- **Riyadh Metro** (6 lines, 176 km, 85 stations) — inaugurated **27 Nov 2024**; passenger service phased in from **1 Dec 2024** (Lines 1, 4, 6), all six lines running since 5 Jan 2025, some stations opening later (Western Station, May 2026) ([RCRC — Riyadh Metro project page (AR)](https://www.rcrc.gov.sa/projects/riyadh-public-transport-project/) + [RCRC — operation schedule, 27 Nov 2024](https://www.rcrc.gov.sa/en/rcrc-announces-sequential-operation-schedule-of-riyadh-metro-lines/) + [RCRC — Orange Line launch, 4 Jan 2025](https://www.rcrc.gov.sa/en/rcrc-announces-the-launch-of-riyadh-metros-orange-line-this-sunday-2/)); fundamentally re-rates property within ~800 m of stations
 - **King Fahd Road (Riyadh)** — primary north-south spine; 200,000+ v/d at peak central segments; adjacency = chronic congestion + noise
 - **Jeddah Corniche** — coastal arterial; high tourist + leisure traffic, especially Thurs-Sat
 - **Mecca + Medina** — pilgrimage traffic spikes during **Hajj** (Dhu al-Hijjah, ~5 days/yr) and **Umrah season** (Ramadan + year-round) saturate haram-area roads
@@ -394,7 +394,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 - **26 Jan 2011 Jeddah floods**: 11 deaths; second major event prompting accelerated drainage investment
 - **2021–2022 events**: recurring flash flooding in Jeddah's southern districts (Quwaiza, Jameaa, Bany Malek)
 - **23 Jan 2023 Mecca floods**: significant flooding around haram area
-- **Reform**: SAR 23+ billion (USD 6.1B) Jeddah Stormwater Drainage Programme phased through 2030 ([Ministry of Municipalities and Housing — MOMAH](https://momah.gov.sa/)); Vision 2030 city-resilience pillar
+- **Reform**: Jeddah Stormwater Drainage Programme — programme-wide budget: data not publicly available (no programme total found in a 2026-10-28 search; published figures are project- or phase-level) — verify at [Ministry of Municipalities and Housing — MOMAH](https://momah.gov.sa/) / Jeddah Municipality; Vision 2030 city-resilience pillar
 - **Implication for buyers**: low-elevation Jeddah districts + wadi-channel-adjacent Riyadh/Jeddah parcels carry persistent flood risk — verify drainage history with REGA + Civil Defence; demand floor-elevation evidence
 
 ### Build-quality / fire risk
@@ -424,7 +424,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Saudi Green Initiative + Middle East Green Initiative (2021)
 
-- Announced Mar 2021 by Crown Prince Mohammed bin Salman ([sgi.gov.sa](https://sgi.gov.sa/))
+- Announced Mar 2021 by Crown Prince Mohammed bin Salman ([sgi.gov.sa — SGI Day 2025](https://www.sgi.gov.sa/en/knowledge-hub/sgi-day-2025-promoting-a-culture-of-environmental-stewardship/))
 - 50% emissions reduction by 2030; net-zero 2060
 - 10 billion trees planted (Saudi Arabia) + 50 billion (Middle East regional)
 - 30% land + sea protection by 2030

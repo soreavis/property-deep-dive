@@ -334,7 +334,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 - **Individual Entrepreneur (IE / Yakka tartibdagi tadbirkor / ИП)**: register at any Tax Committee branch in 1–3 days; ~free
   - Default: 4 % turnover regime (up to ~UZS 500M)
   - Migration to OOO/LLC if turnover exceeds threshold
-- **LLC ("MChJ" / "ООО")**: register via [my.gov.uz](https://my.gov.uz/) in 1–5 business days; minimum capital UZS 400,000 (~US$32; lowered 2018+); 15 % CIT + 5–10 % dividend WHT
+- **LLC ("MChJ" / "ООО")**: register via [my.gov.uz](https://my.gov.uz/) in 1–5 business days; no minimum capital under the LLC Law — the charter sets it, and a minimum may be set in licensing requirements ([Law ZRU-1137 art. 15](https://lex.uz/ru/docs/8152146), in force 22 Jul 2026; same rule since ZRU-531 of 20 Mar 2019); 15 % CIT + 5–10 % dividend WHT ([Tax Code arts. 337, 353](https://lex.uz/ru/docs/4674893))
 - **IT Park resident**: register via [it-park.uz](https://www.it-park.uz/en/); unlocks **0 % CIT, 0 % VAT (on export services), 0 % PIT for resident IT employees, 0 % dividend WHT for non-residents** until **2040** (Presidential Decree on IT Park renewed periodically; verify current decree validity at it-park.uz)
 - **Free Economic Zones (FEZ / Erkin iqtisodiy hududlar)**: 21+ FEZs nationally (Navoi FEZ first 2008; Angren, Jizzakh, Urgut, Kokand etc.) — 3–10 year tax holidays + duty-free import for in-zone manufacturing
 - **Tax residency**: 183+ days in any 12-month period rolling

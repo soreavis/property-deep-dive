@@ -155,7 +155,7 @@ Mainland China has **NO nationwide recurring property tax** for residential prop
 
 | Pilot city | Effective | Scope | Rates (2024 reference) | Source |
 |---|---|---|---|---|
-| **上海 (Shanghai)** | 28 Jan 2011 | Newly-purchased 2nd+ residential by Shanghai-Hukou residents AND any newly-purchased residential by non-Shanghai-Hukou (incl. foreigners). 60 m² per family member exemption | **0.4 %** if unit price ≤ 2× prior-year city avg new-home price; **0.6 %** if above 2× | [Shanghai Tax Bureau](https://shanghai.chinatax.gov.cn/) |
+| **上海 (Shanghai)** | 28 Jan 2011 | Newly-purchased 2nd+ residential by Shanghai-Hukou residents AND any newly-purchased residential by non-Shanghai-Hukou (incl. foreigners). 60 m² per family member exemption | **0.4 %** if unit price ≤ 2× prior-year city avg new-home price; **0.6 %** if above 2× | [Shanghai Tax Bureau — 沪府发〔2011〕3号 text](https://shanghai.chinatax.gov.cn/zcfw/zcfgk/dcs/201101/t305661.html) |
 | **重庆 (Chongqing)** | 28 Jan 2011 | Newly-purchased high-end villas + newly-purchased 2nd home by non-Chongqing-Hukou + apartments above price threshold | **0.5 %** below 2× city avg; **1.0 %** 2–3×; **1.2 %** > 3× city avg | [Chongqing Tax Bureau](http://chongqing.chinatax.gov.cn/) |
 
 > Both pilots launched simultaneously 2011-01-28 ([State Council Notice on Pilot Reform](http://www.gov.cn/)). Coverage is narrow (newly-purchased, mostly upper segment); revenue is small (< 5 % of municipal own-source revenue in either city, 2024 estimates). Academic estimates ([Lincoln Institute 2024](https://www.lincolninst.edu/publications/articles/chinas-property-tax-reform/)) put the **Shanghai price effect at –11 to –15 %** in covered segments and **Chongqing at +10–12 %** in luxury (sustained demand offset).

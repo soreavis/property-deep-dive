@@ -150,7 +150,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Short-let (Airbnb / Booking)
 
-- **MINTUR — Ministerio de Turismo** — STR licensing portal at [gob.ec](https://www.gob.ec/) (former turismo.gob.ec ❌ DEPRECATED — domain now misrouted to an unrelated agency) under [Decreto Ejecutivo 1411 (2020)](https://www.gob.ec/) + a **2023 STR reform** (decree/acuerdo number requires verification at the Registro Oficial — the previously cited "Decreto 803" is a 2020 economic decree, not the STR reform): mandatory **Registro de Catastro Turístico** + LUAF (Licencia Única Anual de Funcionamiento) per Municipio
+- **MINTUR — Ministerio de Turismo** — STR licensing portal at [gob.ec](https://www.gob.ec/) (former turismo.gob.ec ❌ DEPRECATED — domain now misrouted to an unrelated agency) under the **Reglamento de Alojamiento Turístico en Inmuebles Habitacionales** — Acuerdo Ministerial 2023-011 (Registro Oficial No. 402, 22 Sep 2023), reformed by Acuerdo Ministerial 2 (Suplemento del Registro Oficial No. 548, 30 Apr 2024) (2023–2024 instruments, source [Registro Oficial, Edición Especial 351, 4 Jul 2025 — gazette recitals](https://esacc.corteconstitucional.gob.ec/storage/api/v1/10_DWL_FL/eyJjYXJwZXRhIjoicm8iLCJ1dWlkIjoiZmQzN2M1NjAtODllOC00ZDk3LTlmYjctOWUwNDEyODc3MGVlLnBkZiJ9)): mandatory **Registro de Catastro Turístico** + LUAF (Licencia Única Anual de Funcionamiento) per Municipio
 - **Quito DMQ — Decreto Metropolitano 042-2020**: STR-specific rules + community-vote requirement in régimen de propiedad horizontal (similar to AD/CO trend)
 - **Tasa turística** + **IVA 15 %** + **ICE** (servicios turísticos, where applicable)
 - ⚠️ Pre-2020 informal Airbnb listings now non-compliant — request **Catastro Turístico número** + LUAF before any STR pricing model
@@ -184,7 +184,7 @@ ISO2: `ec`. Status: ✅ Fully populated (researched 2026-05).
 - **RUC — Registro Único de Contribuyentes** at [SRI](https://www.sri.gob.ec/) — mandatory for any economic activity; ~1 day online
 - **RIMPE — Régimen Simplificado para Emprendedores y Negocios Populares** ([Ley de Desarrollo Económico 2021](https://www.sri.gob.ec/)) — single integrated tax for revenues < USD 300k (Emprendedor) / < USD 20k (Popular); rates 0–2 % on revenue
 - **Régimen general**: standard IR (PIT/CIT 25 %) + IVA 15 % if applicable
-- **IESS (Instituto Ecuatoriano de Seguridad Social)**: [`https://www.iess.gob.ec/documents/13718/54965/Tasasdeaportacion.pdf`](https://www.iess.gob.ec/) — mandatory; ~**11.15 % employer + 9.45 % worker** (employed); self-employed on declared base
+- **IESS (Instituto Ecuatoriano de Seguridad Social)**: [`https://www.iess.gob.ec/documents/13718/54965/Tasasdeaportacion.pdf`](https://www.iess.gob.ec/documents/13718/54965/Tasasdeaportacion.pdf) — mandatory; ~**11.15 % employer + 9.45 % worker** (employed); self-employed on declared base
 - **Sociedades**: SAS (Sociedad por Acciones Simplificada, since 2020) most common for foreign-buyer property holding; min capital ~USD 1; corporate tax 25 % standard
 
 ### Salary benchmarks (2026)

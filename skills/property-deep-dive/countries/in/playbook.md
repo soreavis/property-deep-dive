@@ -1128,7 +1128,7 @@ India has **NO formal "digital nomad visa"** (a notable absence vs Mauritius PA,
 
 ### Climate-transition exposure
 
-- **NDC (Nationally Determined Contribution) 2022 update**: 45 % reduction in emissions intensity of GDP by 2030 vs 2005; 50 % non-fossil installed electricity capacity by 2030; net-zero by 2070 (PM announcement Nov 2021 COP-26): [`https://moef.gov.in/`](https://moef.gov.in/)
+- **NDC (Nationally Determined Contribution) 2022 update**: 45 % reduction in emissions intensity of GDP by 2030 vs 2005; 50 % non-fossil installed electricity capacity by 2030; net-zero by 2070 (PM announcement Nov 2021 COP-26): [Cabinet / PIB, 3 Aug 2022](https://pib.gov.in/PressReleasePage.aspx?PRID=1847812); [PM COP26 statement / PIB, 1 Nov 2021](https://pib.gov.in/PressReleasePage.aspx?PRID=1768712)
 - **National Action Plan on Climate Change (NAPCC) 2008** + 8 missions
 - **Long-Term Low Emission Development Strategy (LT-LEDS)** 2022 — submitted at COP-27
 - **Renewables share of installed capacity**: non-fossil installed capacity **304,334 MW (~304 GW)** as on **31 Aug 2026** (incl. nuclear + large hydro + wind + solar) per [MNRE](https://mnre.gov.in/en/physical-progress/); non-fossil share **51.93 %** of 513,730 MW total installed as on **31 Dec 2025** per [Ministry of Power / PIB](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223720&reg=3&lang=2) — the 50 % milestone was reached **June 2025**, five years ahead of the NDC target *(2026-09-18 verified, sources MNRE + Ministry of Power)*; target 500 GW non-fossil by 2030
