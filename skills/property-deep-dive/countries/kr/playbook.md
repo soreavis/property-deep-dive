@@ -165,7 +165,7 @@ Federal-level wealth tax on aggregate residential property value above threshold
 - **공정시장가액비율 (종부세)**: 과세표준 = (aggregate 공시가격 − deduction) × **60 %** for all holders, 1세대1주택 included (NTS; 45 % is the 재산세 single-home ratio, not the 종부세 one)
 - 1세대 1주택 long-term-holding deduction: up to 80 % off 종부세 액 if held + occupied 15 + years and aged 70+
 - **Foreigners**: subject to 종부세 same as residents on Korea-situs property
-- **PROPOSED — 2026 세제개편안 (bill, NOT law; announced 3 Aug 2026, Cabinet-revised 1 Sep 2026, under National Assembly review as of 21 Oct 2026)**: house-value rate schedule replacing the house-count schedule (phased); 공정시장가액비율 60 % → 70 % in 2027, then from 2028 80 % for 3+ homes and other 조정대상지역 multi-home holders (70 % for 1세대1주택 and 1–2 homes outside the capital region); deductions — resident single home ₩1.2B → ₩1.4B, non-resident single home stays ₩1.2B, non-resident joint-owner couples ₩900M → ₩600M each, other holdings ₩900M → ₩400M + ₩500M × resident-home share; tax-burden cap stays 150 % ([재정경제부 2026 세제개편안](https://www.moef.go.kr/nw/mosfnw/detailInfograpView.do?searchNttId1=MOSF_000000000078819&menuNo=4040500) + [Newspim 2026-09-01](https://www.newspim.com/news/view/20260901001132), secondary). Re-check after the National Assembly budget-bill vote (revisit 2026-12-10).
+- **PROPOSED — 2026 세제개편안 (bill, NOT law; announced 3 Aug 2026, Cabinet-revised 1 Sep 2026, under National Assembly review as of 21 Oct 2026)**: house-value rate schedule replacing the house-count schedule from 2028; the 1세대1주택 holding-period 세액공제 becomes a residence-period credit (5+ years); 공정시장가액비율 60 % → 70 % in 2027, then from 2028 80 % for 3+ homes and other 조정대상지역 multi-home holders (70 % for 1세대1주택 and 1–2 homes outside the capital region); deductions — resident single home ₩1.2B → ₩1.4B, non-resident single home stays ₩1.2B, non-resident joint-owner couples ₩900M → ₩600M each, other holdings ₩900M → ₩400M + ₩500M × resident-home share; tax-burden cap stays 150 % ([재정경제부 2026 세제개편안](https://www.moef.go.kr/nw/mosfnw/detailInfograpView.do?searchNttId1=MOSF_000000000078819&menuNo=4040500) + [Newspim 2026-09-01](https://www.newspim.com/news/view/20260901001132), secondary). Re-check after the National Assembly budget-bill vote (revisit 2026-12-10).
 
 ### Capital Gains Tax — 양도소득세 (yangdosodeukse)
 
@@ -640,7 +640,7 @@ Korea is **low-to-moderate seismic** — long considered stable but Pohang 2017 
 
 **Confidence**: HIGH
 
-**Last verified**: 2026-05-27 (cadastral/zoning portal identity and flood-control ministry corrected 2026-09-18 per kras.go.kr + eum.go.kr + mcee.go.kr). Authority tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Foreign-buyer permit zones, the all-buyer 토지거래허가구역 and the 2026 세제개편안 re-checked 2026-10-21 (see shared/regulatory-watch.md).
+**Last verified**: 2026-05-27 (cadastral/zoning portal identity and flood-control ministry corrected 2026-09-18 per kras.go.kr + eum.go.kr + mcee.go.kr). Authority tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md). Foreign-buyer permit zones, the all-buyer 토지거래허가구역 and the 2026 세제개편안 re-checked 2026-10-21 (see shared/regulatory-watch.md). 2026 세제개편안 bill status (의안 2221046 / 2221042: in the 재정경제기획위원회 subcommittee since 28 Sep 2026, not passed) and the 1 Oct 2026 decree limbs (대통령령 제36737호 / 제36739호) re-checked 2026-10-28 (see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
