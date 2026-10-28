@@ -11,6 +11,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 - **Cadastre — fragmented per state (no national portal)**:
   - **RPP (Registro Público de la Propiedad)**: state-level (32 separate registries)
   - **Catastro**: municipal-level, separate from RPP, holds cadastral value
+  - **Federal harmonisation law in force 24 Oct 2026**: the Ley General para el Fortalecimiento y Armonización Catastral y Registral (DOF 23 Oct 2026) leaves registries with the states and cadastres with the state or municipal authorities, but requires a **Clave Única Catastral** per property, a **Cédula Única Catastral y Registral** linking it to the folio real, and ATDT-run national platforms that those authorities must adopt by 31 Dec 2026 to operate from 1 Jan 2027 on an ATDT calendar; it sets no predial rates. Until then use folio real + cuenta catastral as below (2026-10-28 verified, source: [DOF 23 Oct 2026 via SIDOF](https://sidof.segob.gob.mx/notas/5802078); tracked in `shared/regulatory-watch.md`)
   - **RAN (Registro Agrario Nacional)** for ejido land: `https://www.gob.mx/ran`
 - **Identifier**: **folio real** (per state) + **cuenta catastral** (municipal)
 - **Ownership types**:
