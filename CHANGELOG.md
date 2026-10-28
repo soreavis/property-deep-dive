@@ -106,6 +106,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): 28 Oct 2026 wave 3 — TT property tax repealed, GR draft bill, US Treasury rule, 11 more countries ([#510](https://github.com/soreavis/property-deep-dive/pull/510)) — by @soreavis
 
+- fix(sources): source-audit triage — 16 citation and figure fixes from the 28 Oct 2026 run ([#511](https://github.com/soreavis/property-deep-dive/pull/511)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
