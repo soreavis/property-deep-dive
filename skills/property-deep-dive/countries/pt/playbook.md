@@ -136,7 +136,7 @@ ISO2: `pt`. Status: ✅ Fully populated (researched 2026-04). **Last refreshed**
 ### IVA on new builds
 
 - 6 % AL (continental, accommodation services)
-- 6 % residential under specific schemes (incl. the DL 97/2026 regime for homes built or rehabilitated for sale as the buyer's own permanent residence, sale price capped at the IMT bracket upper limit; OE2027 proposes €676,185 for 2027 — EY Tax Alert, secondary; not adopted)
+- 6 % residential under specific schemes (incl. the DL 97/2026 regime for homes built or rehabilitated for sale as the buyer's own permanent residence, sale price capped at €660,982 — the upper limit of the 2nd bracket of CIMT art. 17.º n.º 1 b) in its Lei 73-A/2025 (OE2026) wording, fixed by DL 97/2026 art. 2.º n.º 2 b) and updatable by portaria (n.º 3); the OE2027 bill re-indexes the IMT tables but does not amend DL 97/2026, so it would not by itself move the cap to the €676,185 EY Tax Alert cites; 2026-10-28 verified, source [AT consolidated DL 97/2026](https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/diplomas_legislativos/Documents/decreto-lei-97-2026.pdf) art. 2.º + art. 8.º)
 - 13 % AIM/IRC (Algarve etc., reduced)
 - 23 % standard
 
