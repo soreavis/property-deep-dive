@@ -2,7 +2,7 @@
 
 ISO2: `tc`. Status: ✅ Fully populated (researched 2026-05-28).
 
-> **Critical framing — read first**: The Turks and Caicos Islands (TCI) is a **British Overseas Territory** in the northern Caribbean (a self-governing BOT under an English common-law / Torrens-registered-title system). The currency is the **US Dollar (USD)** — official tender, so there is **zero exchange-rate risk for USD-base buyers**. TCI is **OPEN to foreign freehold buyers with NO general restriction and NO prior government permission**: a foreigner may take freehold title in their own name, jointly, or via a **TCI-registered company** (a foreign individual/entity may own 100% of that company's shares; foreign *companies* cannot directly hold TCI land — they incorporate locally first). The fiscal headline is the inverse of most jurisdictions: **TCI has NO income tax, NO capital gains tax, NO inheritance tax, and NO annual property/real-estate tax**. The **entire** transaction tax is a one-time **stamp duty (transfer duty)** on the transfer, computed on a **slab basis on the FULL value** — Providenciales bands **6.5% / 8% / 10%** at the **$25k / $250k / $500k** thresholds; outer-island bands **5% / 6.5%** (Stamp Duty Ordinance, **Chapter 19.05** — *bands below are from editor-reviewed secondary sources; pull exact current bands from the statute before relying*). Stamp-duty **waivers/concessions** exist only for **TCI Status Card holders / British Overseas Territories Citizens (BOTC)** under a Citizen Homeowner Policy — **NOT for general foreign buyers**. The land register operates under the **Registered Land Ordinance, Chapter 9.01** (Ordinance 11 of 1967) — a **Torrens-style registered-title system** (use **"Ordinance"**, never "Act"). The dispute forum is the **Supreme Court of the Turks and Caicos Islands** (TCI's own superior court — *not* part of the Eastern Caribbean Supreme Court). The dominant physical risk is **hurricane** — **Hurricane Irma (Sept 2017) passed as a Category 5** and is the modern calibration event (followed ~2 weeks later by Maria). Power is supplied by **Pelican Energy TCI** (rebranded from FortisTCI, Sept 2025) at **~$0.45/kWh (Jan 2026)** — high by Caribbean standards; potable water is **RO-desalinated seawater**. **Property ownership confers NO residence, work, or status rights** — those are separate immigration tracks. **Confirm** any stamp-duty band, registry status, residence pathway, and insurance availability at primary sources **before any binding step**. Authoritative primary sources: **[gov.tc — Land Registry](https://gov.tc/landregistry/)**, **[gov.tc — Stamp Duty Ordinance Ch. 19.05](https://www.gov.tc/agc/component/edocman/19-05-stamp-duty-ordinance-2/viewdocument/1988?Itemid=)**, **[gov.tc — Hotel & Tourism Accommodation Tax](https://www.gov.tc/revenue/htt)**, **[Energy & Utilities Department (EUD)](https://eud.gov.tc/)**, **[Supreme Court of the Turks and Caicos Islands](https://judicial.tc/)**, **[Turks & Caicos Tourist Board — Accommodation Licensing](https://turksandcaicostourism.com/accommodation-licensing/)**.
+> **Critical framing — read first**: The Turks and Caicos Islands (TCI) is a **British Overseas Territory** in the northern Caribbean (a self-governing BOT under an English common-law / Torrens-registered-title system). The currency is the **US Dollar (USD)** — official tender, so there is **zero exchange-rate risk for USD-base buyers**. TCI is **OPEN to foreign freehold buyers with NO general restriction and NO prior government permission**: a foreigner may take freehold title in their own name, jointly, or via a **TCI-registered company** (a foreign individual/entity may own 100% of that company's shares; foreign *companies* cannot directly hold TCI land — they incorporate locally first). The fiscal headline is the inverse of most jurisdictions: **TCI has NO income tax, NO capital gains tax, NO inheritance tax, and NO annual property/real-estate tax**. The **entire** transaction tax is a one-time **stamp duty (transfer duty)** on the transfer, computed on a **slab basis on the FULL value** — Providenciales bands **6.5% / 8% / 10%** at the **$25k / $250k / $500k** thresholds; outer-island bands **5% / 6.5%** (Stamp Duty Ordinance, **Chapter 19.05** — *bands below are from editor-reviewed secondary sources; pull exact current bands from the statute before relying*). Stamp-duty **waivers/concessions** exist only for **TCI Status Card holders / British Overseas Territories Citizens (BOTC)** under a Citizen Homeowner Policy — **NOT for general foreign buyers**. The land register operates under the **Registered Land Ordinance, Chapter 9.01** (Ordinance 11 of 1967) — a **Torrens-style registered-title system** (use **"Ordinance"**, never "Act"). The dispute forum is the **Supreme Court of the Turks and Caicos Islands** (TCI's own superior court — *not* part of the Eastern Caribbean Supreme Court). The dominant physical risk is **hurricane** — **Hurricane Irma (Sept 2017) passed as a Category 5** and is the modern calibration event (followed ~2 weeks later by Maria). Power is supplied by **Pelican Energy TCI** (rebranded from FortisTCI, Sept 2025) at **~$0.42–0.59/kWh all-in (computed from the Jan–Aug 2026 base rate and fuel factors, see `--mains`)**; potable water is **RO-desalinated seawater**. **Property ownership confers NO residence, work, or status rights** — those are separate immigration tracks. **Confirm** any stamp-duty band, registry status, residence pathway, and insurance availability at primary sources **before any binding step**. Authoritative primary sources: **[gov.tc — Land Registry](https://gov.tc/landregistry/)**, **[gov.tc — Stamp Duty Ordinance Ch. 19.05](https://www.gov.tc/agc/component/edocman/19-05-stamp-duty-ordinance-2/viewdocument/1988?Itemid=)**, **[gov.tc — Hotel & Tourism Accommodation Tax](https://www.gov.tc/revenue/htt)**, **[Energy & Utilities Department (EUD)](https://eud.gov.tc/)**, **[Supreme Court of the Turks and Caicos Islands](https://judicial.tc/)**, **[Turks & Caicos Tourist Board — Accommodation Licensing](https://turksandcaicostourism.com/accommodation-licensing/)**.
 
 ## Country profile
 
@@ -269,7 +269,7 @@ TCI has an **active short-term / vacation-rental market** — it is common for U
   - **12% HTT** on accommodation;
   - **Management / rental-programme fees** (often **~20–35% of gross** for managed Grace Bay condos; sometimes higher for full hotel-operated programmes);
   - **Insurance** (high — hurricane peril, see `--risks`);
-  - **Power** (~$0.45/kWh — high by Caribbean standards, see `--mains`);
+  - **Power** (~$0.42–0.59/kWh all-in, computed — see `--mains`);
   - **HOA / condo fees** on resort units (can be substantial for branded residences).
 - **Seasonality**: peak winter season (Northern-hemisphere Dec–Apr) commands high ADR; summer + hurricane season (Jun–Nov) materially depresses occupancy.
 
@@ -360,7 +360,7 @@ The TCI property thesis is overwhelmingly **second-home / vacation-rental-invest
 | **Storm surge / coastal flood** | 🟠 (beachfront) / 🟡 (off-beach) | Verify elevation + surge zone; beachfront concentrates exposure |
 | **Insurance availability + cost** | 🟠 | High premiums; many owners historically uninsured; 3+ quotes essential pre-contract |
 | **Sea-level rise (long-term)** | 🟠 | 2050+ exposure for low-lying / beachfront parcels — model Climate Central |
-| **Freshwater / utility cost** | 🟡 | RO-desalinated water + ~$0.45/kWh power — high carrying cost |
+| **Freshwater / utility cost** | 🟡 | RO-desalinated water + ~$0.42–0.59/kWh power (computed) — high carrying cost |
 | **Title / registry** | 🟢 | Torrens register is low title-risk vs deeds systems |
 | **Seismic / volcanic** | 🟢 | Platform geology — low; standard structural review only |
 
@@ -372,7 +372,7 @@ The TCI property thesis is overwhelmingly **second-home / vacation-rental-invest
 
 | Operator | Coverage |
 |---|---|
-| **[Pelican Energy TCI](https://www.pelicanenergytci.com/)** (successor brand to **FortisTCI** — the utility's own site carries no rebrand notice, so the **Sept 2025** date is unsourced; verify against the dated rebrand announcement) | Sole public electricity supplier — "Pelican Energy TCI is the public electricity supplier in Turks and Caicos, serving the islands of Providenciales, North Caicos, Middle Caicos, South Caicos, East Caicos, Grand Turk, Salt Cay, and adjacent Cays" (2026 data, source Pelican Energy TCI; 2026-09-18 verified) |
+| **[Pelican Energy TCI](https://www.pelicanenergytci.com/)** (successor brand to **FortisTCI** — renamed when funds managed by Vision Ridge Partners acquired FortisTCI Ltd., per the utility's [3 Sep 2025 announcement](https://www.pelicanenergytci.com/news/vision-ridge-partners-acquires-turks-and-caicos-islands-electric-utility)) | Sole public electricity supplier — "Pelican Energy TCI is the public electricity supplier in Turks and Caicos, serving the islands of Providenciales, North Caicos, Middle Caicos, South Caicos, East Caicos, Grand Turk, Salt Cay, and adjacent Cays" (2026 data, source Pelican Energy TCI; 2026-09-18 verified) |
 | **[Energy & Utilities Department (EUD)](https://eud.gov.tc/)** | Electricity regulator |
 
 - ⚠️ **FortisTCI was acquired by Vision Ridge Partners and rebranded "Pelican Energy TCI" (Sept 2025).** Both names appear in current sources; the monopoly position + EUD regulation are unchanged.
@@ -396,7 +396,7 @@ The TCI property thesis is overwhelmingly **second-home / vacation-rental-invest
 | PWC water connection (where line exists, Provo) | `verify with PWC — varies` |
 | Cistern install (rainwater catchment) | $3,000–$12,000 (est. — `verify with TCI contractor`) |
 | Residential RO unit (optional, off-grid) | $4,000–$15,000 (est.) |
-| Solar PV 5–10 kW + inverter | $12,000–$35,000 (est. — strong payback given ~$0.45/kWh) |
+| Solar PV 5–10 kW + inverter | $12,000–$35,000 (est. — strong payback given ~$0.42–0.59/kWh, computed) |
 | Standby generator + inverter package | $8,000–$30,000 (est.) |
 | Hurricane shutters / impact glazing retrofit (medium home) | $12,000–$45,000 (est.) |
 
@@ -477,7 +477,7 @@ Universal logic per `shared/climate-projections.md`. TCI-specific overrides:
   - 🟠 Hurricane Cat 4–5 risk (Irma 2017 Cat-5 baseline)
   - 🟠 Insurance availability + premium escalation
   - 🟠 SLR exposure for low-lying coastal parcels (2050+ horizon)
-  - 🟡 Heat + cooling-load cost escalation (compounded by ~$0.45/kWh power)
+  - 🟡 Heat + cooling-load cost escalation (compounded by ~$0.42–0.59/kWh power, computed)
   - 🟡 Freshwater-supply stress (RO-dependent, dry climate)
 
 ### Climate verdict (typical Provo / Grace Bay residential)
@@ -551,7 +551,7 @@ HIGH for IPCC AR6 + CCCCC regional projections + Irma 2017 calibration; MEDIUM f
 | Buyer attorney's fees | **~1% of value** (typical) |
 | Land Registry registration / search fee | **~$25 per parcel** (2025) |
 | Charge (mortgage) registration (if financing) | **~1% of secured amount** |
-| Electricity (Provo, Jan 2026) | **~$0.45/kWh** (Pelican Energy TCI — high by Caribbean standards) |
+| Electricity (Provo, 2026) | **~$0.42–0.59/kWh all-in** (computed: residential base rate 26.0–28.9¢ + Provo fuel factor $0.1562–0.3017/kWh, Jan–Aug 2026 — Pelican Energy TCI bill factsheet and fuel-factor notices) |
 | Water | RO-desalinated (TCWC produces / PWC distributes Provo) — `verify rate with PWC` |
 | Broadband | from **~$99/mo** (Flow — advertised, undated; `verify current price`) |
 | Hurricane / windstorm insurance | high — `verify with TCI broker; major recurring cost` |
@@ -599,10 +599,10 @@ HIGH for IPCC AR6 + CCCCC regional projections + Irma 2017 calibration; MEDIUM f
 - **Dispute / enforcement forum is the Supreme Court of the Turks and Caicos Islands** — TCI's own superior court of record; **NOT part of the Eastern Caribbean Supreme Court**.
 - **Currency is USD** — no FX risk for USD buyers; no currency-control repatriation gate (unlike pegged-currency Caribbean jurisdictions). AML / source-of-funds still applies.
 - **Hurricane is the dominant risk** — **Irma 2017 was a Category 5** over TCI (Maria followed ~2 weeks later). Insurability + code-compliance (post-2002) + elevation are core diligence items. **Many owners were uninsured post-Irma** — obtain 3+ insurance quotes pre-contract; insurance is a major recurring cost.
-- **Power is high by Caribbean standards** — **~$0.45/kWh (Jan 2026, Pelican Energy TCI / ex-FortisTCI)** on a diesel-generation island grid; strong solar/PV economics. **FortisTCI rebranded to Pelican Energy TCI (Sept 2025)** — both names appear in current sources.
+- **Power is high by Caribbean standards** — **~$0.42–0.59/kWh all-in (computed from the residential base rate and the Jan–Aug 2026 Provo fuel factors, Pelican Energy TCI / ex-FortisTCI)** on a diesel-generation island grid; strong solar/PV economics. **FortisTCI rebranded to Pelican Energy TCI (Sept 2025)** — both names appear in current sources.
 - **Water is RO-desalinated** — no natural freshwater; TCWC produces, Provo Water Company distributes (~90% of Provo) from its Grace Bay RO plant; many villas have private cisterns.
 - **No official price index** — all $/sqft and median figures are **brokerage / secondary-aggregator** sourced (no government sold-price register). Treat as indicative; cross-check ≥ 3 live comparables.
-- **STR economics are net-driven** — model **HTT 12% + management 20–35% + insurance + ~$0.45/kWh power + HOA**, not headline ADR. All rentals must be **licensed** (Tourism Regulations) + business-licensed (Revenue).
+- **STR economics are net-driven** — model **HTT 12% + management 20–35% + insurance + ~$0.42–0.59/kWh power + HOA**, not headline ADR. All rentals must be **licensed** (Tourism Regulations) + business-licensed (Revenue).
 - **Medical access is limited** — serious cases are air-evacuated off-island; factor medical-evacuation insurance into any retirement / older-buyer thesis.
 - **Wire fraud against international buyers** — verify wire instructions verbally with the attorney via a known phone before sending funds.
 - ⚠️ **Population ~46k is an estimate** — verify current census/estimate at the TCI Department of Statistics.
@@ -668,7 +668,7 @@ HIGH for IPCC AR6 + CCCCC regional projections + Irma 2017 calibration; MEDIUM f
 - **HIGH** for the no-recurring-tax structure (NO income / CGT / inheritance / wealth / annual property tax) — consistent across legal500, visittci, RE/MAX TCI; audit VERIFIED.
 - **HIGH** for the registry statute = **Registered Land Ordinance Chapter 9.01** (Torrens; "Ordinance" not "Act") and forum = **Supreme Court of the Turks and Caicos Islands** (not ECSC) — statute text (FAO mirror) + judicial.tc + tcilii.org confirm; audit VERIFIED.
 - **HIGH** for **HTT 12%** (gov.tc/revenue/htt — PRIMARY) and the slab-stamp-duty structure (purchaser-paid, 30-day deadline).
-- **HIGH** for **Irma 2017 Cat-5** baseline (NOAA NHC TCR AL112017) and the **Pelican Energy TCI / FortisTCI ~$0.45/kWh (Jan 2026)** + RO-desalination (TCWC/PWC) utility picture.
+- **HIGH** for **Irma 2017 Cat-5** baseline (NOAA NHC TCR AL112017) and the RO-desalination (TCWC/PWC) utility picture. **MEDIUM** for power cost: Pelican Energy TCI publishes no standing rate table and the fuel factor moves monthly, so the ~$0.42–0.59/kWh all-in figure is computed from the Jan–Aug 2026 notices.
 - **MEDIUM** for the **exact stamp-duty bands** (6.5/8/10% Provo; 5/6.5% outer) — editor-reviewed secondary (visittci, cross-checked vs legal500); **pull exact current bands from the Stamp Duty Ordinance Ch. 19.05 (gov.tc/agc) to upgrade to primary**. Audit advised the same.
 - **MEDIUM** for the share-transfer anti-avoidance formula (A/B × C × 8%) — secondary (legal500); verify at statute.
 - **LOW–MEDIUM** for $/sqft + median prices — **no government index**; all brokerage/secondary-aggregator (visittci, jarniascyril 2025); cross-check ≥ 3 live comparables.
