@@ -581,7 +581,7 @@ Universal logic per `shared/climate-projections.md`. KSA-specific overrides:
 
 ### Confidence
 
-HIGH for IPCC AR6 + KAUST regional projections; MEDIUM for sub-2km flood-inundation specificity (Jeddah Stormwater Drainage Programme baseline data published 2018 + 2023 update; ongoing).
+HIGH for IPCC AR6 + KAUST regional projections; MEDIUM for sub-2km flood-inundation specificity (Jeddah drainage-programme baseline publication dates not verified; the Jeddah Municipality drainage programme is ongoing — Prince Fawaz network tender, bids due 15 Nov 2026, per MEED 14 Oct 2026, *secondary*).
 
 ---
 
@@ -962,7 +962,7 @@ Workable pathways for remote-working visitors:
 
 ### Climate-transition exposure
 
-- **Saudi Green Initiative + Middle East Green Initiative** (Mar 2021 launch) — net-zero 2060 commitment; 50% renewable electricity by 2030 ([sgi.gov.sa](https://sgi.gov.sa/))
+- **Saudi Green Initiative + Middle East Green Initiative** (Mar 2021 launch) — net-zero 2060 commitment; 50% renewable electricity by 2030 ([SGI — Reduce Carbon Emissions target](https://www.sgi.gov.sa/en/about-sgi/sgi-targets/reduce-carbon-emissions/))
 - **Buildings sector** ~20% of national CO₂; Mostadam (مستدام) green-building rating (since 2019) — Saudi-developed alternative to LEED + BREEAM
 - **Energy Efficiency Saudi Energy Efficiency Program (SEEP)** under Saudi Energy Efficiency Center (SEEC) — appliance + building standards
 - **Vision 2030 Quality of Life Program**: green spaces + walkability for urban areas
@@ -981,7 +981,7 @@ Workable pathways for remote-working visitors:
 - **Cooling-load growth**: +1.5–3.5°C → operating-cost trajectory upward; cooling = 50–70% of household electricity in Riyadh/Jeddah
 - **Sandstorm dust ingress**: HVAC filter + window-seal stress; Mostadam-rated stock has tighter specs
 - **Coastal SLR + storm surge** (Jeddah, Khobar Corniche, Red Sea Project): low-elevation stock progressively higher insurance + retrofit cost
-- **Flood resilience** (wadi-adjacent): Jeddah Stormwater Drainage Programme rolls out to 2030
+- **Flood resilience** (wadi-adjacent): Jeddah Municipality's stormwater-drainage programme is still rolling out (Prince Fawaz neighbourhood network tender, bids due 15 Nov 2026 — MEED, 14 Oct 2026, *secondary*); programme completion date not found in a 2026-10-29 search — verify a parcel's drainage coverage with Jeddah Municipality
 
 ### Social / governance factors
 
@@ -1098,7 +1098,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **Vision-2030 mega-projects** (NEOM, Diriyah, Red Sea, Qiddiya, Roshn) — first-generation execution + PIF-developer-concentration risk
 - **Premium Residency Real-Estate route** SAR 4M threshold — verify current PRC schedule
 - **Riyadh Metro Phase 1 (Dec 2024)** — material reset of property catchment values within 800 m of stations
-- **Jeddah flood history** (2009 + 2011 + recurring) — drainage upgrade phased to 2030; verify property elevation + wadi-adjacency
+- **Jeddah flood history** (2009 + 2011 + recurring) — drainage upgrade ongoing, no programme completion date found in a 2026-10-29 search (see `--esg`); verify property elevation + wadi-adjacency
 - **SAR pegged USD at 3.75 since 1986** — zero FX risk for USD asset holders; meaningful FX risk vs EUR / GBP / floating currencies
 - **Sharia-compliant Murabaha + Ijara** dominate mortgage market; conventional interest-bearing minority + foreign-bank-only
 - **Cash + bank-transfer** dominate property settlement; SAMA AML + ZATCA source-of-funds enforced at MOJ Notary

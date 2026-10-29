@@ -42,7 +42,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 - **[Decree-Law 74/1979 on Real Estate Ownership by Non-Kuwaitis (قانون رقم 74 لسنة 1979)](https://www.moj.gov.kw/)** (verify at Ministry of Justice Real Estate Registration Department) — primary statute regulating foreign ownership; **broadly prohibits non-Kuwaiti non-GCC ownership of residential real estate**
 - **Subsequent amendments** (Law 20/2002 + Council of Ministers resolutions) — narrow case-by-case exceptions; have not opened broad designated-zone schemes comparable to UAE Dubai / Qatar / Saudi Arabia 2026
 - **GCC Common Market 2008** — extends Kuwaiti-equivalent ownership rights to nationals of UAE, Bahrain, Saudi Arabia, Qatar, Oman (subject to reciprocity)
-- **Decree-Law 17/1959 on Aliens Residence (نظام إقامة الأجانب)** — governs expatriate residency (Iqama); does NOT confer property-purchase rights
+- **Amiri Decree 114/2024 on the Residence of Foreigners** (issued 28 Nov 2024; Art. 35 repeals Amiri Decree 17/1959, the old Aliens Residence law — [Amiri Diwan](https://www.da.gov.kw/en/news/1200-28_11_2024/)) — governs expatriate residency (Iqama); does NOT confer property-purchase rights
 - Administered jointly by **Ministry of Justice Real Estate Registration Department**, **Council of Ministers**, and (for commercial / FDI activities) **MOCI / KDIPA**
 
 ### Buyer category matrix
@@ -68,8 +68,8 @@ This section determines whether a transaction is even legally possible. Kuwait's
 | Item | Kuwait |
 |---|---|
 | **Investor / Golden Residency via real estate** | **NONE** — no real-estate-linked residency or investor-visa pathway |
-| **Citizenship by investment** | **NONE** — Kuwaiti citizenship governed by [Decree-Law 15/1959 on Kuwaiti Nationality, as amended](https://www.moi.gov.kw/main/News/Index/111493) (verify at Ministry of Interior) — strictly hereditary; naturalisation extremely rare (typically requires 20+ yrs residence + Arabic + Muslim + valuable contribution; political process; Council of Ministers + Emir's approval) |
-| **Permanent residency for foreigners** | **NONE in formal sense** — Iqama under Decree-Law 17/1959 is renewable but tied to employer / family / property; some long-residing expats report informal recognition after 20+ yrs but not codified |
+| **Citizenship by investment** | **NONE** — Kuwaiti citizenship governed by [Amiri Decree 15/1959 (Kuwaiti Nationality Law)](https://www.moi.gov.kw/main/News/Index/111493), as amended (incl. Decree-Laws 116/2024 and 158/2024, Dec 2024; 52/2026, Kuwait Al-Youm 13 Apr 2026; 79/2026, Kuwait Al-Youm 24 Aug 2026; dates per KUNA and press reports, gazette text not read) (verify at Ministry of Interior) — strictly hereditary; naturalisation extremely rare (typically requires 20+ yrs residence + Arabic + Muslim + valuable contribution; political process; Council of Ministers + Emir's approval) |
+| **Permanent residency for foreigners** | **NONE in formal sense** — Iqama under Amiri Decree 114/2024 (which repealed Amiri Decree 17/1959) is renewable but tied to employer / family / property; some long-residing expats report informal recognition after 20+ yrs but not codified |
 | **Golden Visa equivalent** | **NONE** |
 
 ### Compliance / AML
@@ -302,7 +302,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 
 | Visa | Eligibility | Authority |
 |---|---|---|
-| **Standard Work Permit / Iqama (Decree-Law 17/1959)** | Employer-sponsored; tied to employer (kafala) | Public Authority for Manpower (PAM) + MOI |
+| **Standard Work Permit / Iqama (Amiri Decree 114/2024, replacing 17/1959)** | Employer-sponsored; tied to employer (kafala) | Public Authority for Manpower (PAM) + MOI |
 | **Article 18 Iqama (private sector)** | Standard expat work permit | PAM + MOI |
 | **Article 17 Iqama (public sector)** | Government employment | PAM + MOI |
 | **Article 24 Iqama (domestic worker)** | Domestic-worker sponsorship | PAM + MOI |
@@ -643,7 +643,7 @@ Account opening requires **valid Iqama + Kuwaiti mobile + Civil ID** for residen
 | **KDIPA Investor Iqama** | KDIPA-licensed business activity (NOT real estate) | Tied to investment | Tied |
 | **Tourist Visa** | 90-day single or multiple entry | Visit only | n/a |
 | **Permanent Residency** | **NOT formally available** | — | — |
-| **Citizenship** | **Effectively impossible** under [Decree-Law 15/1959 on Kuwaiti Nationality, as amended](https://www.moi.gov.kw/main/News/Index/111493) (verify at Ministry of Interior) — strict naturalisation; rare exceptional grants by Council of Ministers + Emir | n/a | n/a |
+| **Citizenship** | **Effectively impossible** under [Amiri Decree 15/1959 (Kuwaiti Nationality Law)](https://www.moi.gov.kw/main/News/Index/111493), as amended (incl. Decree-Laws 116/2024 and 158/2024, Dec 2024; 52/2026, Kuwait Al-Youm 13 Apr 2026; 79/2026, Kuwait Al-Youm 24 Aug 2026; dates per KUNA and press reports, gazette text not read) (verify at Ministry of Interior) — strict naturalisation; rare exceptional grants by Council of Ministers + Emir | n/a | n/a |
 | **Real-Estate-Linked Visa** | **NONE** | — | — |
 | **Golden Visa** | **NONE** | — | — |
 
