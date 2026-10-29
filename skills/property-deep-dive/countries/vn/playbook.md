@@ -396,20 +396,20 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Vietnam Disaster Management Authority (Tổng cục Phòng chống Thiên tai)** under MARD | `https://phongchongthientai.mard.gov.vn/` | Hazard maps, disaster declarations, flood/typhoon history |
+| **Cục Quản lý đê điều và Phòng, chống thiên tai** (Department of Dyke Management and Disaster Prevention, Ministry of Agriculture and Environment — formerly the Vietnam Disaster Management Authority / Tổng cục Phòng chống Thiên tai under MARD) | `https://phongchongthientai.mard.gov.vn/` (legacy MARD host still serves the department portal; contact e-mail on the `mae.gov.vn` domain — 2026-10-29 verified) | Hazard maps, disaster declarations, flood/typhoon history |
 | **National Centre for Hydro-Meteorological Forecasting (Trung tâm Dự báo KTTV Quốc gia)** | `https://nchmf.gov.vn/` | Weather, typhoon, monsoon, climate-projection products |
 | **Ministry of Agriculture and Environment (MAE, Bộ NN&MT — merger of MONRE + MARD eff 1 Mar 2025)** | `https://en.mae.gov.vn/` | National adaptation plan, sea-level monitoring, EIA |
-| **Vietnam Institute of Geosciences and Mineral Resources (VIGMR)** | `http://www.vigmr.vn/` | Geology, landslide, fault mapping |
-| **General Statistics Office (GSO)** | `https://www.nso.gov.vn/en/homepage/` | Disaster damage statistics |
+| **Viện Khoa học Địa chất và Khoáng sản** (Vietnam Institute of Geosciences and Mineral Resources, VIGMR) | `https://www.vigmr.vn/` | Geology, landslide, fault mapping |
+| **National Statistics Office (NSO, Cục Thống kê — formerly General Statistics Office, GSO)** | `https://www.nso.gov.vn/en/homepage/` | Disaster damage statistics (national totals in the annual socio-economic report) |
 | **Cục Môi trường (Department of Environment), Ministry of Agriculture and Environment — formerly Vietnam Environment Administration / Tổng cục Môi trường (VEA)** | `https://vea.mae.gov.vn/` | Air & water quality monitoring |
-| **Provincial Department of Natural Resources and Environment (Sở TN&MT)** | per province | Land-use plans, local risk zoning |
+| **Provincial Department of Agriculture and Environment (Sở Nông nghiệp và Môi trường — replaced Sở TN&MT under Decree 45/2025/NĐ-CP of 28 Feb 2025, applied from 1 Mar 2025; remit includes land, disaster prevention, hydro-meteorology and climate change)** | per province | Land-use plans, local risk zoning |
 
 ### Flood & typhoon (lũ lụt và bão)
 
-- **Annual typhoon season**: June–November, with peak August–October. Vietnam's coast typically receives **6–10 typhoons or tropical storms per year**, mostly affecting central coast (Da Nang incl. former Quang Nam, Hue, Quang Ngai) and northern coast (Hai Phong, Quang Ninh).
-- **HCMC flooding**: chronic during the rainy season (May–Nov). HCMC subsidence is **2–5 cm/yr** in some districts (heavy groundwater extraction + sediment compaction in the Mekong Delta) — combined with sea-level rise 3–4 mm/yr, parts of HCMC face increasing tidal flooding (triều cường) at full-moon high tides. Source: Ho Chi Minh City Climate Change Bureau, Ho Chi Minh City Institute for Development Studies (HIDS).
+- **Annual typhoon season**: June–November, with peak August–October. Vietnam's coast receives est. **6–10 typhoons or tropical storms per year** (not matched to an NCHMF long-term-average table in the 2026-10-29 pass — verify at `https://nchmf.gov.vn/`), mostly affecting central coast (Da Nang incl. former Quang Nam, Hue, Quang Ngai) and northern coast (Hai Phong, Quang Ninh).
+- **HCMC flooding**: chronic during the rainy season (May–Nov). HCMC subsidence is est. **2–5 cm/yr** in some districts (heavy groundwater extraction + sediment compaction in the Mekong Delta; HCMC Climate Change Bureau / HIDS figure, not re-located in the 2026-10-29 pass) — combined with coastal sea-level rise of about 3.34 mm/yr at Vietnam's tide gauges in 1993–2014 (3.5 ± 0.7 mm/yr by satellite; MONRE 2016 scenario report), parts of HCMC face increasing tidal flooding (triều cường) at full-moon high tides.
 - **Hanoi flooding**: Red River basin flood risk; major historical floods (1971, 2008). Hanoi inner-city has improved drainage post-2008 but outlying districts remain exposed.
-- **Mekong Delta**: low-lying (mostly < 2 m above sea level); existential climate risk by mid-century — IPCC projects 50 cm sea-level rise + saltwater intrusion may displace 20% of population (Mekong Delta Plan 2013, Vietnam government + Netherlands).
+- **Mekong Delta**: low-lying (mostly < 2 m above sea level); existential long-term climate risk — with 100 cm sea-level rise and no adaptation, **38.9 %** of the Mekong Delta would be at high risk of inundation (MONRE Climate Change and Sea Level Rise Scenarios for Viet Nam, 2016, which projects coastal rise of about 22 cm (RCP4.5) to 25 cm (RCP8.5) by 2050 and 53 to 73 cm by 2100). The earlier "IPCC projects 50 cm sea-level rise + saltwater intrusion may displace 20 % of population (Mekong Delta Plan 2013)" claim is withdrawn — not verified in the 2026-10-29 pass.
 - **Verdict bands** (parcel-level requires provincial Sở TN&MT flood-zone map):
   - 🔴 Mekong Delta provinces (Cần Thơ city incl. former Sóc Trăng, Cà Mau, Vĩnh Long incl. former Bến Tre — 2025 province merger, NA Resolution 202/2025/QH15); HCMC low-lying (District 7 outer, District 4, Nhà Bè, Bình Chánh, parts of District 8 and Bình Tân)
   - 🟠 HCMC inner mid (Quận 1, 3, 4 — protected by drainage but tidal flooding episodes); central coast cities (Da Nang incl. Hoi An — former Quảng Nam merged into Đà Nẵng city in 2025 — and Hue; typhoon-exposed)
@@ -420,14 +420,14 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 
 - **Central coast (Da Nang incl. Hoi An, Hue)**: direct typhoon hits 2–4 per decade; storm surge + structural wind risk. New construction post-2010 typically built to higher wind-load standard.
 - **Northern coast (Hai Phong, Quang Ninh, Hanoi)**: typhoon tail-ends; flooding risk dominant
-- **HCMC and southern coast**: rarely directly hit by typhoons (Sunda Trench shielding similar to Bangkok); tropical depressions and monsoon flooding instead.
-- 2020 Typhoons (Linfa, Nangka, Saudel, Molave, Etau, Vamco — sequential October-November) caused est. USD ~1.3B damage (verify against Vietnam Disaster Management Authority / GSO disaster-damage statistics); 2024 Yagi (Sep) was a major typhoon impacting Hai Phong and Hanoi area severely.
+- **HCMC and southern coast**: rarely directly hit by typhoons; tropical depressions and monsoon flooding instead. (The earlier "Sunda Trench shielding similar to Bangkok" explanation is withdrawn — no source located in the 2026-10-29 pass.)
+- 2020 Typhoons (Linfa, Nangka, Saudel, Molave, Etau, Vamco — sequential October-November; the earlier "est. USD ~1.3B damage" figure is withdrawn — not matched to an official source in the 2026-10-29 pass); 2024 Yagi (storm No. 3, Sep 2024) was a major typhoon impacting Hải Phòng and the Hanoi area severely. **National disaster totals** (NSO annual socio-economic reports): **2024** — 570 dead and missing, property damage nearly VND 89,253.6 billion; **2025** — 489 dead and missing, 340.2 thousand houses collapsed or damaged, property damage nearly VND 102,665.3 billion (+15.0 % on 2024).
 
 ### Seismicity (động đất)
 
 - Most of Vietnam: low-to-moderate seismic risk; **NOT a major earthquake country** by global standards.
 - **Higher-risk fault zones** (per VIGMR active-fault map):
-  - **Sông Đà / Sông Mã faults** (northwest, Sơn La / Điện Biên / Lai Châu provinces): historical Điện Biên 1935 M6.75; Mường Lay 1983 M6.7
+  - **Northwest fault zones — Điện Biên – Mường Lay and Sông Mã – Tuần Giáo – Lai Châu** (Sơn La / Điện Biên / Lai Châu provinces): Điện Biên basin 1935 M6.9 (the 6.75 carried here earlier differs — magnitude estimates for this event vary), Tuần Giáo 1983 M6.7 (the earlier "Mường Lay 1983" label is corrected), Điện Biên Phủ 2001 M5.3 (Tiền Phong, 15 Aug 2022 — secondary; Institute of Geophysics catalogue not read)
   - **Sông Hồng (Red River) fault zone** (north): low-to-moderate
   - **Central coast faults**: Mw 4–5 occasional; rarely felt at urban level
   - HCMC and Hanoi: very low direct seismic source; soft-soil amplification possible for distant events
@@ -435,19 +435,24 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 
 ### Air quality (chất lượng không khí)
 
-- **Hanoi**: among the worst PM2.5 in Southeast Asia in winter inversions (Dec–Feb). Daily averages frequently 100–200 µg/m³ (WHO 24-hr guideline 15 µg/m³). Source: VEA + IQAir + US Embassy Hanoi monitor.
-- **HCMC**: chronic but lower than Hanoi; typically 40–80 µg/m³, peak 150+ during dry-season inversions.
+- **Hanoi**: among the worst PM2.5 in Southeast Asia in winter inversions (Dec–Feb). Daily averages est. 100–200 µg/m³ on bad days (no primary monitoring summary located in the 2026-10-29 pass — check live readings at Cục Môi trường / PAM Air). WHO Air Quality Guidelines (2021): PM2.5 24-hour average 15 µg/m³, annual average 5 µg/m³ (WHO, 2026-10-29 verified).
+- **HCMC**: chronic but lower than Hanoi; est. 40–80 µg/m³ typical, peak 150+ during dry-season inversions (no primary monitoring summary located 2026-10-29).
 - **Northern provinces** (Bắc Ninh, Hưng Yên, and the former Vĩnh Phúc and Hải Dương — merged into Phú Thọ and Hải Phòng city respectively in 2025): industrial + crop-burning + Hanoi spillover; among worst in Vietnam.
-- **Da Nang, Nha Trang, Phu Quoc**: significantly cleaner due to coastal ventilation — typical PM2.5 20–50 µg/m³.
-- Source: VEA `https://vea.mae.gov.vn/`, PAM Air `https://pamair.org/`.
+- **Da Nang, Nha Trang, Phu Quoc**: significantly cleaner due to coastal ventilation — est. PM2.5 20–50 µg/m³ (no primary monitoring summary located 2026-10-29).
+- Source: Cục Môi trường (formerly VEA) `https://vea.mae.gov.vn/`; PAM Air `https://pamair.org/` is a private sensor network (PAM Air Solutions, founded 2018 — secondary).
 
-### Climate-change projections (NCHMF + IPCC AR6 + MONRE National Adaptation Plan 2022)
+### Climate-change projections (MONRE 2016 scenarios + National Adaptation Plan, Decision 1055/QĐ-TTg of 20 Jul 2020, updated by Decision 1422/QĐ-TTg of 19 Nov 2024)
 
-- **Temperature**: +1.5–3.0 °C by 2050 vs 1986–2005 baseline (RCP4.5 → RCP8.5). Source: MAE (formerly MONRE) Climate Change & Sea Level Rise Scenarios for Vietnam (2020 update; pending MAE refresh post-2025 merger).
-- **Sea-level rise**: +25–75 cm by 2100 (medium SSP2-4.5 → high SSP5-8.5). Mekong Delta + HCMC + Hai Phong / Quang Ninh coast highly exposed; Mekong Delta could lose ~40% of land area to a 1m sea-level rise scenario.
+- **Temperature** (vs 1986–2005): mid-21st century +1.3–1.7 °C under RCP4.5 and +1.8–2.3 °C under RCP8.5 (2.0–2.3 °C North, 1.8–1.9 °C South); late century +1.7–2.4 °C (RCP4.5) and +3.0–4.0 °C (RCP8.5). Source: MONRE Climate Change and Sea Level Rise Scenarios for Viet Nam (2016 edition, summary hosted by IMHEN `https://imh.ac.vn/files/doc/KichbanBDKH/CCS_SPM_2016.pdf`). The 2020 update was not readable on 2026-10-29 (DCC host unreachable) and an MAE refresh after the 2025 merger is pending.
+- **Sea-level rise** (Vietnam coast, vs 1986–2005): by 2100 about **53 cm (32–76 cm) under RCP4.5** and **73 cm (49–103 cm) under RCP8.5** (MONRE 2016 — RCP scenarios, not SSP). Mekong Delta + HCMC + Hai Phong / Quang Ninh coast highly exposed; with 100 cm rise and no adaptation, 38.9 % of the Mekong Delta, 17.8 % of HCMC and 16.8 % of the Red River Delta would be at high risk of inundation (same source).
 - **Extreme rainfall**: typhoon intensity expected to increase; central coast wettest events increasing.
 - **Drought**: NE region dry-season severity increasing; Central Highlands coffee-region affected.
 - **Saltwater intrusion**: Mekong Delta — already a major issue 2016, 2020, 2024 dry seasons; long-term threat to agricultural land and freshwater supply.
+
+### Crime and public safety (tội phạm, an toàn công cộng)
+
+- No public crime-statistics series below national level was located in the 2026-10-29 pass (a search result, not a finding that none exists) — data not publicly available at ward level; verify at the Ministry of Public Security (Bộ Công an) `https://bocongan.gov.vn/`.
+- National safety figures from the NSO 2025 annual report: 3,182 fires and explosions, 108 deaths, 135 injured; traffic accidents averaged 50 a day, with 28 deaths and 33 injuries a day.
 
 ### Build-era hazards
 
@@ -458,7 +463,7 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 | **Post-2010** (TCVN seismic + fire codes more strictly enforced for high-rises) | Better; high-rises in HCMC/Hanoi post-2010 generally compliant with TCVN 9386:2012 seismic + fire codes |
 | **Post-2018** (new fire-code crackdown after Carina apartment fire 2018) | Stronger fire-code enforcement; mandatory inspections more rigorous |
 
-> **The 2018 Carina Plaza apartment fire** in HCMC (13 deaths, March 2018) prompted a nation-wide fire-code crackdown. Post-2018 buildings face stricter sprinkler / smoke-extraction / emergency-stair standards. Pre-2018 high-rises have been re-inspected and many flagged for non-compliance. **Verify the building's current fire-safety inspection certificate (Giấy chứng nhận thẩm duyệt và nghiệm thu PCCC) at the Sở Cảnh sát PCCC of the province.**
+> **The 2018 Carina Plaza apartment fire** in HCMC (13 deaths, March 2018) prompted a nation-wide fire-code crackdown. Post-2018 buildings face stricter sprinkler / smoke-extraction / emergency-stair standards. Pre-2018 high-rises have been re-inspected and many flagged for non-compliance. **Verify the building's current fire-safety inspection certificate (Giấy chứng nhận thẩm duyệt và nghiệm thu PCCC) at the Sở Cảnh sát PCCC of the province.** The fire law itself was replaced: **Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ** (Law on Fire Prevention, Fighting and Rescue, Law No. 55/2024/QH15, issued 29 Nov 2024, in force 1 Jul 2025 — Công báo, 2026-10-29 verified).
 
 ### Mandatory pre-purchase diagnostics
 
@@ -486,19 +491,28 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 
 ### Water supply
 
-- **Hanoi Water Supply Company (HAWACOM)** — covers Hanoi inner districts. `https://hawacom.vn/`
-- **Hanoi Water Limited (HAWACO)** — separate company covering parts of outer Hanoi
-- **Saigon Water Corporation (SAWACO)** — covers HCMC. `https://sawaco.com.vn/`
+- **Công ty TNHH MTV Nước sạch Hà Nội (Hanoi Water Limited, HAWACOM)** — Hanoi, through business units Ba Đình, Đống Đa, Hai Bà Trưng, Cầu Giấy and Hoàng Mai plus the Bắc Thăng Long, Hòa Lạc and Thường Tín teams; hotline 1900 4600. `https://hawacom.vn/`. **2026 household tariff** (effective 1 Jan 2026; VND/m³ excl. VAT and the domestic-wastewater environmental-protection fee): up to 10 m³/meter/month 8,500 (5,973 for policy, poor and near-poor households); 10–20 m³ 9,900; 20–30 m³ 16,000; over 30 m³ 27,000; business services 29,000 (HAWACOM notice 11/TB-NSHN-HTPT of 10 Jan 2026 under Hanoi PC Decision 6592/QĐ-UBND of 31 Dec 2025; 2026-10-29 verified at `https://hawacom.vn/thong-tin-gia-nuoc`).
+- **Other Hanoi suppliers** — HAWACOM is not the only water company in Hanoi (Ha Noi Water Supply Number 2 JSC, for example, is a separate company and a HAWACOM subsidiary since Nov 2016 — BSC company profile, secondary); confirm the supplier from the seller's water bill. (The "Hanoi Water Limited (HAWACO)" entry here earlier was HAWACOM itself — "Hanoi Water Limited Company" is HAWACOM's English name in press use, e.g. VietNamNet; its legal name is Công ty TNHH MTV Nước sạch Hà Nội.)
+- **Saigon Water Corporation (SAWACO, Tổng công ty Cấp nước Sài Gòn TNHH MTV)** — covers HCMC; head office (028) 3829 1777; households are billed by SAWACO member companies (Bến Thành, Chợ Lớn, Gia Định, Thủ Đức, Phú Hòa Tân, Nhà Bè, Tân Hòa, Trung An…). `https://sawaco.com.vn/`. Household tariff: 6,700 VND/m³ for the first 4 m³/person/month, 12,900 for the next 2 m³, 14,400 above, excl. 5 % VAT, plus a drainage and wastewater service charge of 30 % of the water price + 8 % VAT (SGGP 27 Mar 2025, quoting SAWACO — secondary; the 2026 schedule was not confirmed on a primary page — check SAWACO "Thông tin giá nước").
 - **Provincial water supply companies (Công ty Cấp nước tỉnh)** — one per province
-- **Rural** — many villages on shallow well + storage tank; quality variable; National Centre for Rural Water Supply and Sanitation under MARD `https://nchmf.gov.vn/` (different agency)
+- **Rural** — many villages on shallow well + storage tank; quality variable. Rural clean water sits outside the provincial Sở Xây dựng (Decree 150/2025/NĐ-CP, which replaced Decree 45/2025/NĐ-CP from 16 Jun 2025, gives it clean water supply "trừ nước sạch nông thôn" — except rural clean water); in Cần Thơ, for example, the rural water centre sits under the Sở Nông nghiệp và Môi trường. (The `nchmf.gov.vn` URL given here earlier is the hydro-meteorological forecasting centre, not the rural-water agency — removed; no current URL for the national rural-water centre verified.)
+
+### Electricity (EVN) and connectivity
+
+- **Supplier**: EVN (Tập đoàn Điện lực Việt Nam) through its regional power corporations `https://www.evn.com.vn/`.
+- **Residential tariff** (MOIT Decision 1279/QĐ-BCT of 9 May 2025, applied from 10 May 2025; average retail price 2,204.0655 VND/kWh excl. VAT; still the latest tariff decision listed by EVNSPC on 2026-10-29), VND/kWh excl. VAT: 0–50 kWh 1,984 · 51–100 kWh 2,050 · 101–200 kWh 2,380 · 201–300 kWh 2,998 · 301–400 kWh 3,350 · 401+ kWh 3,460 · prepaid meter 2,909.
+- **Landlord trap**: for student and worker tenants on leases under 12 months where the owner has not declared the occupants, all metered consumption is billed at the 101–200 kWh tier (bậc 3); where occupants are declared, every 4 persons count as one household for the tier allowance (EVN tariff page).
+- **Pending tier change**: Circular 60/2025/TT-BCT (2 Dec 2025, text on EVNSPC) defers its own tenant clause — undeclared short-lease tenants billed at bậc 2: 101–200 kWh — to the first average-price adjustment after PM Decision 14/2025/QĐ-TTg of 29 May 2025 (Art. 12(5)(c), 21(1)); its appendix tables use five residential tiers (up to 100 · 101–200 · 201–400 · 401–700 · 701+ kWh). EVNSPC listed no such adjustment on 2026-10-29 (latest: EVN Decision 599/QĐ-EVN of 7 May 2025), so the six tiers above remain the latest published — re-check after the next adjustment.
+- **Price changes**: Decree 72/2025/NĐ-CP as amended by Decree 278/2026/NĐ-CP (9 Jul 2026, in force the same day) — a computed fall under 1 % or rise under 2 % means no change; a fall of 1 % or more or a rise of 2 % to under 5 % lets EVN adjust after a MOIT review.
+- **Connectivity regulator**: the Ministry of Science and Technology (Bộ Khoa học và Công nghệ) now carries the post and telecom portfolio `https://mst.gov.vn/`; VNNIC (Trung tâm Internet Việt Nam) sits under it `https://vnnic.vn/`; at provincial level telecom is a Sở Khoa học và Công nghệ remit (Decree 150/2025/NĐ-CP, which replaced Decree 45/2025/NĐ-CP from 16 Jun 2025). Starlink was licensed 13 Feb 2026 and launched commercially 13 Aug 2026 (press reports — see `shared/regulatory-watch.md`). Fixed-line availability per address: ask the carriers (Viettel, VNPT, FPT Telecom) — no public address-level checker located in the 2026-10-29 pass.
 
 ### Sewer / wastewater
 
 **Vietnam has limited mains-sewer coverage compared to OECD baselines.**
 
-- **HCMC**: SAWACO / HCMC Sewerage Department reports **40–55 %** of generated wastewater is centrally collected and treated (range, varies by district; Yen Xa Treatment Plant + Tham Luong–Ben Cat + Binh Hung treatment plants — 2023 data, source HCMC People's Committee sanitation report). Older / outer districts often on individual septic + soakaway.
-- **Hanoi**: similar — Yen So Wastewater Treatment Plant + several others. Inner districts ~50–60% mains coverage, outer districts much lower.
-- **Provincial cities**: coverage drops sharply outside provincial seats. Most condo/apartment developments use **on-site treatment plants (Hệ thống xử lý nước thải tập trung của tòa nhà)** required by Vietnamese building code (QCVN 14:2008/BTNMT national wastewater discharge standard) for residential buildings above a threshold.
+- **HCMC**: as of Nov 2023 only **12.6 %** of urban wastewater (193,350 of about 1.5 million m³/day) was being treated, at Bình Hưng phase 1 (141,000 m³/day), Bình Hưng Hòa (30,000) and Tham Lương–Bến Cát (15,000) plus four decentralised stations; Bình Hưng phase 2 (469,000 m³/day) was then in trial operation and Nhiêu Lộc–Thị Nghè (480,000 m³/day) under construction; the city then expected 34 % for 2023 and 40.2 % by 2025 (HCMC Vice-Chairman, SGGP 2 Nov 2023 — secondary; whether those rates were reached not verified). The city's 2030 target is about 80 % collection and 40–45 % treated to standard (HCMC Department of Construction plan, Đại biểu Nhân dân 27 Jun 2026 — secondary). The earlier "40–55 % centrally collected and treated" figure is withdrawn, and Yên Xá is a Hanoi plant, not an HCMC one. Older / outer districts often on individual septic + soakaway.
+- **Hanoi**: Yên Sở plus **Yên Xá** (270,000 m³/day, inaugurated 19 Aug 2025, serving 20 inner wards — Tiền Phong, secondary); the city aims to lift the treated share above 50 %. The earlier "inner districts ~50–60 % mains coverage" figure was not confirmed by a primary source in the 2026-10-29 pass — data not publicly available; outer areas much lower.
+- **Provincial cities**: coverage drops sharply outside provincial seats. Most condo/apartment developments use **on-site treatment plants (Hệ thống xử lý nước thải tập trung của tòa nhà)** required by Vietnamese building code (QCVN 14:2025/BTNMT, which replaced QCVN 14:2008/BTNMT from 1 Sep 2025 under Circular 05/2025/TT-BTNMT; facilities already operating or permitted before then may keep QCVN 14:2008 until 31 Dec 2031 — luatvietnam summary, secondary) for residential buildings above a threshold.
 - **Rural / villa areas**: septic tank + soakaway is the norm. Modern villas typically have **3-stage septic + biological filter + soakaway**; older / informal may have simple cesspit (bể tự hoại đơn giản).
 - **Wastewater regulator**: MAE — Bộ Nông nghiệp và Môi trường (formerly MONRE) — through **Cục Môi trường / Department of Environment (formerly VEA)** `https://vea.mae.gov.vn/`.
 
@@ -509,14 +523,14 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
    - "Hệ thống xử lý nước thải tại chỗ" = on-site building treatment (typical apartment)
    - "Bể tự hoại" / "Hầm tự hoại" = septic tank
    - "Bể phốt" = older cesspit
-2. **HCMC**: contact SAWACO (1900 545454) for water; HCMC Sewerage Department for sewer (district-specific).
-3. **Hanoi**: contact HAWACOM (1900 6116) for water; Hanoi Sewerage and Drainage Co for sewer.
+2. **HCMC**: contact the SAWACO member company serving the ward for water (SAWACO head office (028) 3829 1777; e.g. Bến Thành 1900 068868, Gia Định 1900 1024, Thủ Đức 1900 1012 — SGGP 27 Mar 2025, secondary); for sewer, the HCMC Department of Construction (Sở Xây dựng — drainage and wastewater treatment under Decree 150/2025/NĐ-CP, which replaced Decree 45/2025/NĐ-CP from 16 Jun 2025). District framing is obsolete since 1 Jul 2025.
+3. **Hanoi**: contact HAWACOM (1900 4600) for water; Hanoi Sewerage and Drainage Co for sewer.
 4. **Province**: contact provincial Công ty Cấp nước for water; provincial Sở Xây dựng for sewer.
 5. **Da Nang / Nha Trang / Phu Quoc villas**: assume on-site treatment (apartment) or septic (villa); confirm with seller; verify condition.
 
 ### Cost benchmarks
 
-| Scenario | Cost (VND) | USD est. |
+| Scenario | Cost (VND, est. — no primary price source; re-checked 2026-10-29) | USD est. |
 |---|---:|---:|
 | Standard apartment monthly fee (water+sanitation in management fee) | 8,000–18,000 VND/m²/month service charge incl. utilities portion | $0.30–$0.70/m²/mo |
 | Septic install (3-stage, modern villa) | 30M–80M | $1,200–$3,140 |
@@ -594,7 +608,7 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 - **Sinking fund (Quỹ bảo trì 2 %)** scandals — multiple historical cases of developers absconding with the 2 % statutory maintenance fund. Verify joint control of the bank account.
 - **Fire-code post-2018** — Carina Plaza fire (March 2018, HCMC, 13 deaths) prompted re-inspections of existing high-rises. Pre-2018 buildings may carry remediation costs to bring up to current code; verify Giấy chứng nhận PCCC.
 - **HCMC subsidence + sea-level rise** — compound flood risk for low-lying districts (7, 4, Bình Chánh, Nhà Bè).
-- **Mekong Delta long-term climate risk** — IPCC projections for 50 cm sea-level rise + saltwater intrusion threaten ~20 % of Mekong Delta land area; foreign buyers should not consider Mekong Delta property for long-horizon holding.
+- **Mekong Delta long-term climate risk** — MONRE's 2016 scenarios put 38.9 % of the Mekong Delta at high risk of inundation with 100 cm sea-level rise and no adaptation (projected rise by 2100: 73 cm, range 49–103 cm, under RCP8.5); saltwater intrusion compounds it; foreign buyers should not consider Mekong Delta property for long-horizon holding.
 - **Visa-linked property structures** (e.g., "buy a condo, get a visa") do NOT exist in Vietnam — there is no Golden Visa via real estate.
 - **FX requirement** for foreign buyers is mandatory — funds must be remitted from abroad in foreign currency, converted to VND inside Vietnam, with bank documentation at notarization. Cash will not work.
 - **All title documents are in Vietnamese** — sworn translation + Vietnamese-licensed lawyer are mandatory for foreign buyers; do not skip.
@@ -635,7 +649,7 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 | **Provincial Sở Cảnh sát PCCC (Fire Police)** | Fire safety inspection certificate | per province |
 | **Cục Môi trường / Department of Environment, MAE (formerly VEA)** | Air & water quality | `https://vea.mae.gov.vn/` |
 | **National Centre for Hydro-Meteorological Forecasting (NCHMF)** | Typhoon, monsoon, climate | `https://nchmf.gov.vn/` |
-| **Vietnam Disaster Management Authority** under MARD | Flood / hazard / disaster history | `https://phongchongthientai.mard.gov.vn/` |
+| **Cục Quản lý đê điều và Phòng, chống thiên tai** (MAE; formerly Vietnam Disaster Management Authority under MARD) | Flood / hazard / disaster history | `https://phongchongthientai.mard.gov.vn/` |
 | **General Statistics Office (GSO)** | Population, CPI, real-estate index, urban housing | `https://www.nso.gov.vn/en/homepage/` |
 | **Ministry of Public Security (Bộ Công an) / Immigration Department** | Việt kiều status confirmation, criminal record | `https://bocongan.gov.vn/` |
 | **Vietnam Notary Association (Hiệp hội Công chứng viên Việt Nam)** | Find licensed notary | per province notary office (Phòng Công chứng) |
@@ -688,17 +702,20 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 | HCMC Sở Xây dựng | `https://soxaydung.hochiminhcity.gov.vn/` |
 | Hanoi Sở Xây dựng | `https://soxaydung.hanoi.gov.vn/` |
 | HCMC Sở Xây dựng (absorbed Sở GTVT) | `https://soxaydung.hochiminhcity.gov.vn/` |
-| Hanoi Sở GTVT | `https://soxaydung.hanoi.gov.vn/` |
+| Hanoi Sở Xây dựng (absorbed Sở GTVT — transport is a Sở Xây dựng remit under Decree 150/2025/NĐ-CP, which replaced Decree 45/2025/NĐ-CP from 16 Jun 2025; host timed out from a non-VN egress on 2026-10-29) | `https://soxaydung.hanoi.gov.vn/` |
 | SAWACO (HCMC water) | `https://sawaco.com.vn/` |
-| HAWACOM (Hanoi water) | `https://hawacom.vn/` |
-| GSO (statistics) | `https://www.nso.gov.vn/en/homepage/` |
+| EVN (electricity; tariff under EVN và Khách hàng › Giá điện) | `https://www.evn.com.vn/` |
+| Ministry of Science and Technology (telecom regulator) | `https://mst.gov.vn/` |
+| VNNIC (Internet resources, under MOST) | `https://vnnic.vn/` |
+| HAWACOM (Hanoi water; tariff page `https://hawacom.vn/thong-tin-gia-nuoc`) | `https://hawacom.vn/` |
+| NSO — National Statistics Office (Cục Thống kê, formerly GSO; annual report carries disaster totals) | `https://www.nso.gov.vn/en/homepage/` |
 | NCHMF (meteorology, typhoon) | `https://nchmf.gov.vn/` |
-| Vietnam Disaster Management Authority | `https://phongchongthientai.mard.gov.vn/` |
+| Cục Quản lý đê điều và Phòng, chống thiên tai (MAE; formerly Vietnam Disaster Management Authority) | `https://phongchongthientai.mard.gov.vn/` |
 | Cục Môi trường / Department of Environment (formerly VEA) | `https://vea.mae.gov.vn/` |
-| PAM Air (AQ) | `https://pamair.org/` |
-| Vietnam Post (postcode) | `https://www.vnpost.vn/` |
+| PAM Air (AQ; private sensor network — secondary) | `https://pamair.org/` |
+| Vietnam Post (postcode) | `https://vietnampost.vn/vi` (vnpost.vn redirects here) |
 | Batdongsan.com.vn | `https://batdongsan.com.vn/` |
-| Chotot Nha Dat | `https://www.chotot.com/mua-ban-bat-dong-san` |
+| Chợ Tốt property section (nhatot.com) | `https://www.nhatot.com/mua-ban-bat-dong-san` (the chotot.com property URL redirects here; bot-gated, HTTP 403 to scripts) |
 | PropertyGuru Vietnam | `https://batdongsan.com.vn/` |
 | Alonhadat | `https://alonhadat.com.vn/` |
 | Mogi | `https://mogi.vn/` |
