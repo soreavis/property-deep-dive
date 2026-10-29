@@ -19,52 +19,55 @@ ISO2: `at`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Statistik Austria Häuserpreisindex (HPI) + OOH PI**:
   - `https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/haeuserpreisindex-und-ooh-pi`
-  - Calculated from Grundbuch contracts; gold-standard
+  - Built from the purchase contracts lodged in the Grundbuch, private-household buyers only; quarterly. Q2 2026: 105.00 (2025 = 100), +5.1 % YoY, a new all-time high; next release (Q3 2026) on 18 Dec 2026 (2026 data, source Statistik Austria HPI page, updated 23 Sep 2026)
 - **OeNB (Österreichische Nationalbank) Wohnimmobilienpreisindex**:
-  - `https://www.oenb.at/Statistik/Standardisierte-Tabellen/Preise-Wettbewerbsfaehigkeit/immobilien/wohnimmobilienpreisindex.html`
-  - Vienna-specific separate series
-- **Statistik Austria Immobilien-Durchschnittspreise**:
+  - `https://www.oenb.at/daten-und-forschung/datenangebot/preise-wettbewerbsfaehigkeit/immobilien/6-6-wohnimmobilienpreisindex.html` (updated 2026-10-28; the old /Statistik/Standardisierte-Tabellen/ URL returns 404)
+  - Quarterly, 2000 = 100, separate series for Wien and Österreich ohne Wien; data basis is the broker software JUSTIMMO (since Q3 2017, per OeNB metadata), not Grundbuch contracts, so it can diverge from the Statistik Austria HPI
+- **Statistik Austria Immobilien-Durchschnittspreise** (annual; €/m² for houses and flats per Bezirk, plots also per Gemeinde, from Grundbuch contracts of private-household buyers; 2025 edition published 28 May 2026, next 28 May 2027; usable as the basis for Grunderwerbsteuer on unentgeltliche Erwerbe under the Grundstückswertverordnung):
   - `https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/immobilien-durchschnittspreise`
 - **Grundbuch (online via Justizportal)**:
-  - `https://www.justiz.gv.at/home/service/grundbuch~36.de.html`
-  - Paid abrufs (~€14 for Grundbuchauszug per EZ)
+  - `https://www.justiz.gv.at/service/datenbanken/grundbuch.96c.de.html` (updated 2026-10-28; the old grundbuch~36 URL now lands on an unrelated Erwachsenenvertretung page); online query via JustizOnline `https://justizonline.gv.at/jop/web/grundbuchabfrage` or a Verrechnungsstelle
+  - Paid queries: aktueller Grundbuchsauszug (Vollabfrage einer EZ) **€4.89**, Teilauszug (A-, B- or C-Blatt) €2.60, Urkundensammlung €1.52 per document, Suche nach Kaufverträgen je Katastralgemeinde €2.44, plus the Verrechnungsstelle's own charge; since 1 Oct 2026 owners can pull the Grundbuchauszug of their own property free on JustizOnline (2026 data, source oesterreich.gv.at 'Grundbuchsabfrage über das Internet', BMJ, updated 1 Oct 2026)
 
 ### Listing platforms
 
 - **Willhaben.at** — largest: `https://www.willhaben.at/iad/immobilien`
 - **ImmobilienScout24.at**: `https://www.immobilienscout24.at/`
 - **derStandard Immo**: `https://immobilien.derstandard.at/`
-- **Bazar.at**, **Quoka.at** — privates
+- **Bazar.at** — private classifieds with an Immobilien category (live 2026-10-28); **Quoka.at** now redirects to the German quoka.de (checked 2026-10-28)
 - Premium: **EHL Immobilien**, **Engel & Völkers AT**, **JP Immobilien** Wien
 
-### 2025 price benchmarks (Statistik Austria + OeNB)
+### Price benchmarks — Statistik Austria median €/m² Wohnfläche, 2025
 
-| City / Area | Wohnungen €/m² (2024-2025) | Häuser €/m² |
+| City / Area | Wohnungen median €/m² (2025) | Häuser median €/m² (2025) |
 |---|---:|---:|
-| **Wien (Gesamt)** | ~5,000–6,500 | ~4,000–5,500 |
-| Wien Innere Bezirke (1./4./7./8./9.) | 8,000–14,000 | n/a (kaum Häuser) |
-| **Salzburg** | 5,500–7,500 | 4,500–6,000 |
-| **Innsbruck** | 6,000–8,500 | 5,000–7,000 |
-| **Graz** | 3,500–5,500 | 3,000–4,500 |
-| **Linz** | 3,500–5,000 | 2,800–4,000 |
-| **Klagenfurt** | 3,000–4,500 | 2,500–3,500 |
-| **Bregenz** | 4,500–6,500 | 3,800–5,500 |
-| Rural Bundesländer (NÖ, Burgenland, Kärnten) | 1,500–3,500 | 1,200–2,500 |
+| **Wien** (Gemeinde = Bundesland) | 5,212 | 5,376 |
+| Wien inner Bezirke: 1. Innere Stadt / 4. Wieden / 7. Neubau / 8. Josefstadt / 9. Alsergrund | 11,576 / 7,243 / 6,110 / 6,028 / 6,096 (1. Bezirk volatile: 14,956 in 2024) | not published (under 10 transactions) |
+| **Salzburg** (Stadt) | 5,114 | 6,167 |
+| **Innsbruck** | 6,034 | 5,621 |
+| **Graz** | 3,193 | 4,034 |
+| **Linz** | 3,749 | 4,050 |
+| **Klagenfurt am Wörthersee** | 3,352 | 3,313 |
+| **Bregenz** (Gemeinde; Bezirk Bregenz 5,056 / 5,117) | 3,986 | 5,588 (no Gemeinde value published for 2024) |
+| Niederösterreich / Burgenland / Kärnten (whole Land, towns included) | 3,089 / 1,859 / 3,260 | 2,653 / 1,889 / 2,609 |
 
-National averages 2024 (Statistik Austria):
-- **Eigentumswohnung**: 4,000 €/m²
-- **Einfamilienhaus**: 2,709 €/m²
+(2025 data, source Statistik Austria Immobilien-Durchschnittspreise Sonderauswertung, created 28 May 2026: medians of € per m² Wohnfläche paid by private households, from Grundbuch purchase contracts. City rows are Gemeinde medians, inner-Bezirk rows Bezirk medians, the last row Land medians; no value is published where fewer than 10 transactions remain. Small-area medians mix price, quality and location effects. For a valuation use the Bezirk tables by build period and size in the Wohnungspreise / Häuserpreise 2025 files, which are geometric means.)
 
-### 2025 trend (OeNB)
+National medians 2025 (Statistik Austria, PM 28 May 2026; revised 2024 value in brackets):
+- **Eigentumswohnung**: 4,162 €/m² (2024: 3,986)
+- **Wohnhaus** (Häuser): 2,836 €/m² (2024: 2,711)
+- **Bebaubares Grundstück**: 135 €/m² Grundfläche (geometric mean; 2024: 123)
 
-- 2025 full year (OeNB, press release 29 Jan 2026): nominal **+2.1 % YoY**; real (vs 3.8 % inflation) **≈ −1.7 %** — prices fell in real terms again
-- Wien **+2.9 %** vs Austria-ex-Wien **+1.6 %**; new Wien apartments +3.8 %, used +2.8 %
-- OeNB Wohnimmobilienpreisindex **272.2 in Q1 2026 (record high)** — market stabilizing/recovering after 2022-24 correction (2026-07-03 verified)
+### 2025–2026 trend (Statistik Austria HPI + OeNB)
+
+- **Statistik Austria HPI** (Grundbuch contracts): 2025 annual average **+2.5 %** (revised; the PM of 26 Mar 2026 said +2.6 %), about −1.1 % real against 3.6 % CPI inflation (computed: 1.025 / 1.036 − 1); **H1 2026 +3.9 %** YoY (total index Q2 2026 +5.1 %), and Q2 2026 is a new all-time high above the Q3 2022 peak (PM 23 Sep 2026)
+- **OeNB Wohnimmobilienpreisindex** (2000 = 100): 2025 annual average 266.9, **+1.0 %** (Wien +1.4 %, Österreich ohne Wien +0.7 %), about −2.5 % real against 3.6 % CPI (computed: 1.010 / 1.036 − 1). The OeNB release of 29 Jan 2026 reported +2.1 % for '2025' (Wien +2.9 %, rest of Austria +1.6 %): these equal the Q4 2025 year-on-year rates in OeNB table 6.6, and the 3.8 % inflation formerly paired with them is the December 2025 rate, not the 3.6 % annual average (release text not retrieved this run; figures per ORF, secondary)
+- OeNB index **274.0 in Q2 2026** (+3.6 % YoY; Wien 307.8, Österreich ohne Wien 266.2; Q1 2026: 272.2): the Österreich total is still below its Q3 2022 peak of 278.3, so not a record on the OeNB headline series (Österreich ohne Wien is just above its Q3 2022 level of 265.4), while the Statistik Austria HPI is at a record; the two series use different data (JUSTIMMO broker data vs Grundbuch contracts) (OeNB table 6.6, read 2026-10-28)
 
 ### Compute
 
-1. Listing €/m² = listing price / Wohnnutzfläche (per WEG/Wohnungsgemeinnützigkeitsgesetz)
-2. **Trap**: Nutzfläche includes Lager, Keller — check what's counted
+1. Listing €/m² = listing price / Nutzfläche (§ 2 Abs 7 WEG 2002); Statistik Austria benchmarks use the Wohnfläche from the purchase contract, supplemented from the Gebäude- und Wohnungsregister
+2. **Trap**: under § 2 Abs 7 WEG 2002 the Nutzfläche excludes stairs, open balconies and terraces and Zubehörobjekte (separate Keller- or Dachbodenräume, Hausgärten, Lagerplätze, § 2 Abs 3); Keller- and Dachbodenräume count only if fitted out for living or business use — check what the listing counts
 3. **Trap**: Quadratmeterpreis vs Pauschalpreis — Vienna Altbau often pauschal
 4. Compare to Statistik Austria for the Bezirk
 5. Grundbuchauszug needed for definitive ownership + encumbrances
@@ -75,7 +78,7 @@ National averages 2024 (Statistik Austria):
 
 ### Primary sources
 
-- **ASFINAG** — autobahnen + Schnellstraßen: `https://www.asfinag.at/`
+- **ASFINAG** — Autobahnen + Schnellstraßen: `https://www.asfinag.at/`; counts at `https://www.asfinag.at/verkehr-sicherheit/verkehrszaehlung/` — about 300 automatic Dauerzählstellen, monthly Verkehrsstatistik plus annual files back to 2012, DTV in Kfz/24h by day type (Mo–So, Mo–Fr, Sa, Sonn- und Feiertage) and vehicle class (≤ / > 3.5 t) (read 2026-10-28)
 - **Bundesländer Verkehrszählung**:
   - Wien Stadtinformation: `https://www.wien.gv.at/`
   - Tirol: `https://www.tirol.gv.at/`
@@ -85,7 +88,7 @@ National averages 2024 (Statistik Austria):
 
 ### Key term
 
-**JDTV (Jährlicher durchschnittlicher täglicher Verkehr)** = AADT-equivalent
+**JDTV (Jährlicher durchschnittlicher täglicher Verkehr)** = AADT-equivalent; ASFINAG's annual Verkehrsstatistik uses the term and gives no JDTV for a counter with more than 100 days of a year lacking counted or estimated values (Verkehrsstatistik 2025, published 30 Mar 2026)
 
 ### Verdict bands
 
@@ -175,7 +178,8 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 
 ### Vienna-specific (most regulated)
 
-- **Wiener Wohnen** (Gemeindewohnungen): ~220,000 units est., regulated rent (verify at wienerwohnen.at)
+- **Wiener Wohnen** (Gemeindewohnungen): about 220,000 Gemeindewohnungen ("rund 220.000"), home to about 500,000 people, regulated rent (source Wiener Wohnen 'Über uns', read 2026-10-28)
+- **Average rents** (Statistik Austria Mikrozensus, Hauptmietwohnungen, rents paid by tenant households under contracts of all ages, not asking rents): **€10.5/m²** incl. Betriebskosten in Q2 2026 (+3.3 % YoY; €7.9/m² net of Betriebskosten). Net rent by segment, Q2 2026: private Altbau (pre-1945) €8.5, private post-1945 €10.7, Genossenschaft €6.5, Gemeindewohnung €5.7 per m². 2025 incl. Betriebskosten by Bundesland: Salzburg 12.2 · Tirol 12.0 · Vorarlberg 11.8 · Wien 10.6 · Steiermark 9.8 · Oberösterreich 9.3 · Niederösterreich 9.2 · Kärnten 8.1 · Burgenland 7.7 €/m²; contracts under 2 years €12.4/m² vs €6.5/m² for 30+ years (2025/2026 data, sources Statistik Austria PM 8 Sep 2026, PM 10 Jun 2026 and Wohnkosten Mikrozensus table)
 - **Genossenschaft** (cooperative): regulated rent + Eigenmittel
 - **Privatmarkt** Vollanwendung: Richtwertmietzins per Bundesland, max +25 % zone bonus
 - **2026 Richtwert Wien: €6.74/m²** (from €6.67, ~+1 % valorization eff. 1 Apr 2026), max +25 % zone bonus. **Mieten-Wertsicherungsgesetz (MieWeG), in force 1 Jan 2026** (via 5. Mietrechtliches Inflationslinderungsgesetz, 5. MILG): caps existing contractual Wertsicherungsklauseln (creates no adjustment right of its own) — regulated MRG rents capped at **1 % (2026), 2 % (2027)**; from 2028, index-linked residential contracts in multi-unit buildings incl. free-market rents pass on only half of any inflation portion above 3 % (e.g. 4.5 % inflation → max 3.75 %); adjustment once/yr, earliest 1 April (Richtwert increases effective 1 May). Excludes Ein-/Zweifamilienhäuser and WGG/Genossenschaft rents (own regime). (2026-07-03 verified)
@@ -205,32 +209,32 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 ### Job platforms
 
 - **AMS (Arbeitsmarktservice)**: `https://www.ams.at/`
-- **karriere.at**, **stepstone.at**, **LinkedIn AT**, **derStandard Karriere**
-- **Bundeskanzleramt Karriere** (public sector): `https://www.bka.gv.at/`
+- **karriere.at**, **stepstone.at**, **LinkedIn AT**, **derStandard Jobs** (`https://jobs.derstandard.at/`; the old karriere.derstandard.at host no longer resolves, checked 2026-10-28)
+- **Jobbörse der Republik Österreich** (federal public-sector vacancies): `https://www.jobboerse.gv.at/` (replaces the bka.gv.at pointer, which now redirects to the Bundeskanzleramt home page; checked 2026-10-28)
 
 ### Self-employment regimes
 
 - **Selbstständig (Gewerbeschein)**: standard self-employed; **SVS** (Sozialversicherung der Selbstständigen) mandatory
-  - 2025 min. Beitragsgrundlage: ~€7,824/yr → ~€1,680/yr SVS minimum
-- **Neue Selbstständige**: § 109a EStG, pension+health via SVS
-- **Freier Beruf** (liberal): doctors, lawyers, architects — own Kammern + own Sozialversicherung
-- **GmbH**: min €10,000 capital (paid up €5,000)
-- **EPU (Einzelpersonenunternehmen)**: ~70 % of OE-Selbstständige
+  - 2026 Mindestbeitragsgrundlage **€551.10/month** in PV and KV (€6,613.20/yr, computed ×12); minimum contributions PV €101.95 (18.5 %) + KV €37.48 (6.8 %) + Selbständigenvorsorge €8.43 (1.53 %) + UV €12.95 flat = **€160.81/month** (€1,929.72/yr, computed ×12); provisional contributions in the first three years are charged on this minimum (2026 data, source SVS Beitragstabelle 2026 + WKO 'Gewerbliche Sozialversicherungsbeiträge', Stand 1 Jan 2026; one SVS page gives UV €12.96)
+- **Neue Selbstständige**: compulsory insurance under § 2 Abs 1 Z 4 GSVG for self-employed income (§§ 22 Z 1–3 and 5, 23 EStG) not already insured under another law; pension + health via SVS. § 109a EStG is only the client's Mitteilung (reporting) duty for such fees
+- **Freier Beruf** (liberal): doctors, lawyers, architects — own Kammern; Ärzte, Apotheker, Patentanwälte and Ziviltechniker are pension-insured with the SVS under the FSVG (PV 20 % in 2026); other professions' own schemes not re-verified
+- **GmbH**: min Stammkapital €10,000 (§ 6 Abs 1 GmbHG), of which at least €5,000 of the cash contributions must be paid in (§ 10 Abs 1 GmbHG) (RIS, Fassung vom 28.10.2026)
+- **EPU (Ein-Personen-Unternehmen)**: about 376,000 in 2025, **62.1 %** of all Austrian enterprises (WKO, Datenstand 12/2025, source WKO 'EPU: Zahlen, Daten, Fakten')
 - **Pauschalierung**: simplified tax regime for small businesses
 
-### Salary benchmarks (2025)
+### Salary benchmarks (2024 data, Statistik Austria)
 
-- Median monthly gross:
-  - Wien: ~€3,800
-  - Salzburg, Innsbruck: ~€3,600
-  - Steiermark, OÖ, NÖ: ~€3,200
-  - Burgenland, Kärnten: ~€2,900
-- **Mindestkollektivvertragslöhne**: vary by branch, typical €1,800–€2,200 für Einsteiger
+- Median monthly gross, all employees incl. part-time, incl. 1/12 of the 13th + 14th salary (2024 annual average, Statistik Austria Monatseinkommen table M4, created 11 Dec 2025): **Österreich €3,713**; full-time full-year employees: median **€55,678** gross per year (2024, Statistik Austria Jährliche Personeneinkommen)
+  - Wien: €3,682
+  - Salzburg (Land): €3,620 · Tirol (Land, incl. Innsbruck): €3,564
+  - Steiermark: €3,612 · Oberösterreich: €3,707 · Niederösterreich: €3,869 · Vorarlberg: €3,913
+  - Burgenland: €3,841 · Kärnten: €3,698 — Land (NUTS 2) values, not city values
+- **Mindestkollektivvertragslöhne**: no statutory minimum wage; set per branch in the Kollektivvertrag — at least **€1,900 gross/month** in most KVs, about €2,217 on a 12-month basis because of 14 payments (Stand 2025, AMS citing WKO); look up the applicable KV at `https://www.kollektivvertrag.at/`
 
 ### Cultural quirks
 
-- **13. + 14. Gehalt** standard (taxed at lower rate)
-- **Kollektivvertrag** governs ~95 % of salaried jobs
+- **13. + 14. Gehalt** standard (taxed at lower rate: as sonstige Bezüge within the Jahressechstel, the first €620 at 0 % and the next €24,380 at 6 %, then 27 % and 35.75 % bands — § 67 Abs 1 EStG, version in force from 17 Oct 2026)
+- **Kollektivvertrag** governs about 98 % of employment relationships (WKO Steiermark, updated 11 Nov 2024 — a social-partner figure)
 
 ---
 
@@ -362,7 +366,7 @@ Austria's **HORA** is a free, all-hazards-in-one-place natural-hazard portal (EU
 - **Willhaben.at** — biggest, full extraction
 - **ImmobilienScout24.at**
 - **derStandard Immo**
-- **Bazar.at, Quoka.at** — privates
+- **Bazar.at** — privates (live 2026-10-28); **Quoka.at** now redirects to the German quoka.de (checked 2026-10-28)
 - **EHL, JP Immobilien, Otto Immobilien** — premium agency Wien
 - **immo.tt.com** Tirol-specific
 
