@@ -23,41 +23,57 @@ ISO2: `uk` (or `gb`). Status: ✅ Fully populated (researched 2026-04). **Last r
 
 ### Primary sources
 
-- **HM Land Registry Price Paid Data** (FREE, official sales since 1995): `https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads`
-- **Land Registry Search for Free**: `https://search-property-information.service.gov.uk/` — title summary
-- **Office for National Statistics (ONS) — Private rent and house prices, UK** (formerly the "UK House Price Index" bulletin — renamed): `https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/latest`
+- **HM Land Registry Price Paid Data** (FREE; sales in England and Wales lodged for registration, 1 Jan 1995 onwards, updated monthly — Scotland and NI not covered): `https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads` (2026-10-28 verified)
+- **HM Land Registry — Search for land and property information** (England and Wales): `https://search-property-information.service.gov.uk/` — title summary viewable online (title number, owner, price paid, tenure, lender); title register and title plan cost £7 each as online copies, £11 each as official copies (2026-10-28 verified; source [gov.uk Search the register](https://www.gov.uk/get-information-about-property-and-land/search-the-register))
+- **Office for National Statistics (ONS) — Private rent and house prices, UK** (monthly; successor to the ONS "UK House Price Index" bulletin; carries UK HPI house prices and Price Index of Private Rents (PIPR) rents): `https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/latest`
+- **HM Land Registry — UK House Price Index** (monthly data by region, local authority and property type; joint HM Land Registry / LPS NI / ONS / Registers of Scotland production; Northern Ireland quarterly): `https://www.gov.uk/government/collections/uk-house-price-index-reports` — interactive search: `https://landregistry.data.gov.uk/app/ukhpi` (2026-10-28 verified)
 - **Registers of Scotland** sale prices: `https://www.ros.gov.uk/`
 - **Land & Property Services NI** (LPS): `https://www.nidirect.gov.uk/articles/valuation-domestic-properties-rates`
 - **Bank of England** mortgage statistics. Macroprudential limit on high loan-to-income mortgages (4.5x income or more): from 28 Oct 2026 the 15% limit applies to aggregate new lending only — the firm-level cap is removed, so one lender may exceed 15% while the market stays within it; whether a lender offers 4.5x+ loans remains its own decision (2026 data, source [Bank of England PRA PS19/26](https://www.bankofengland.co.uk/prudential-regulation/publication/2026/october/high-loan-to-income-lending-policy-statement))
-- **Council Tax band lookup**: `https://www.gov.uk/council-tax-bands`
+- **Council Tax band lookup** (England and Wales; Scotland via the Scottish Assessors website): `https://www.gov.uk/council-tax-bands`
 
 ### Listing platforms
 
-- **Rightmove** — biggest: `https://www.rightmove.co.uk`
-- **Zoopla** — second + Zed-Index: `https://www.zoopla.co.uk`
+- **Rightmove** — self-described "UK's number one property portal" (Rightmove plc); sold-price history from HM Land Registry / Registers of Scotland: `https://www.rightmove.co.uk`
+- **Zoopla** — sold prices from HM Land Registry data + Zoopla house-price estimates: `https://www.zoopla.co.uk`
 - **OnTheMarket**: `https://www.onthemarket.com`
 - **PrimeLocation** (high-end)
 - **PropertyData** (paid analytics)
 
-### Price benchmarks (≈ April 2026 data)
+### Price benchmarks (UK House Price Index, August 2026 data; Northern Ireland Q2 2026)
 
-| Region | est. £/m² (apt) | est. £ (semi-detached house) |
-|---|---:|---:|
-| **London Zone 1-2** | ~8,000–18,000+ | ~800,000–2,500,000+ |
-| **London Zone 3-6** | ~5,000–10,000 | ~500,000–1,200,000 |
-| **Manchester / Birmingham core** | ~3,200–5,000 | ~280,000–550,000 |
-| **Edinburgh / Bristol** | ~4,000–6,500 | ~400,000–800,000 |
-| **Glasgow / Liverpool / Leeds** | ~2,500–4,000 | ~220,000–400,000 |
-| **Smaller cities** | ~1,800–3,200 | ~180,000–320,000 |
-| **Rural England (S/SW)** | ~2,500–4,500 | ~350,000–650,000 |
-| **Rural Wales / Scotland / NI** | ~1,200–2,500 | ~150,000–300,000 |
+| Area (UK HPI geography) | Average price, all types | Semi-detached | Flat / maisonette | 12-month change (all types) |
+|---|---:|---:|---:|---:|
+| **United Kingdom** | £273,037 | £278,675 | £194,148 | +0.9% |
+| **England** | £293,525 | £291,962 | £218,563 | +0.4% |
+| **Inner London** (statistical area E13000001, not TfL fare zones) | £624,824 | £1,126,078 | £522,200 | -6.6% |
+| Kensington and Chelsea (prime end) | £1,204,072 | £2,995,521 | £947,855 | -13.8% |
+| **Outer London** (E13000002) | £510,931 | £689,402 | £334,010 | -0.1% |
+| **Manchester** | £256,760 | £334,231 | £199,005 | +2.1% |
+| **Birmingham** | £234,867 | £276,268 | £143,861 | +1.5% |
+| **City of Edinburgh** | £301,313 | £454,000 | £244,953 | +2.8% |
+| **City of Bristol** | £353,596 | £448,153 | £242,445 | +0.9% |
+| **City of Glasgow** | £194,382 | £304,427 | £163,643 | +1.8% |
+| **Liverpool** | £188,427 | £238,914 | £128,941 | +4.7% |
+| **Leeds** | £246,385 | £269,544 | £151,317 | +2.4% |
+| Smaller cities — e.g. City of Kingston upon Hull | £136,593 | £159,857 | £79,470 | +6.6% |
+| Smaller cities — e.g. York | £311,865 | £335,176 | £180,669 | +0.7% |
+| **South West** (region) | £304,139 | £325,573 | £173,470 | 0.0% |
+| Rural South West — e.g. Cornwall | £274,570 | £275,595 | £144,637 | -2.9% |
+| **Wales** | £216,363 | £215,812 | £130,206 | +3.1% |
+| Rural Wales — e.g. Powys | £237,042 | £214,384 | £95,706 | +1.4% |
+| **Scotland** | £198,397 | £226,592 | £138,886 | +2.9% |
+| Rural Scotland — e.g. Highland | £224,574 | £215,076 | £126,614 | +7.4% |
+| **Northern Ireland** (Q2 2026) | £202,487 | £204,283 | £148,475 | +9.2% |
 
-Ranges are est. blended indicators triangulated from the ONS "Private rent and house prices, UK" bulletin (latest) + Rightmove/Zoopla asking data — verify per-postcode against HM Land Registry Price Paid Data. (ONS reports UK average house price ~£270,000, +3.8% in the 12 months to April 2026, provisional; 2026-07-03 verified.)
+Source: UK House Price Index (UK HPI), August 2026 — HM Land Registry / ONS release of 21 Oct 2026 ([data downloads](https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-august-2026--2): `Average-prices-2026-08.csv`, `Average-prices-Property-Type-2026-08.csv`); Northern Ireland is quarterly (Q2 2026). UK HPI averages come from completed, registered sales (not asking prices) through a hedonic, mix-adjusted model; below regional level they are 3-month moving averages, and the latest months are provisional (the first estimate uses around 40% of the transactions eventually registered), so local-authority figures revise. The UK HPI publishes no £/m² figure — compute £/m² per comparable as the HM Land Registry Price Paid sale price ÷ the floor area on its EPC. ONS headline: "Average UK house prices increased by 0.9%, to £273,000, in the 12 months to August 2026 (provisional estimate)". Rents (ONS PIPR, provisional): UK average £1,406/month, +3.8% in the 12 months to September 2026; England £1,466, Wales £848, Scotland £1,011; Northern Ireland £879 (July 2026, advertised new lets); local-authority rents are in the bulletin's local-area data. (2026-10-28 verified; sources [ONS Private rent and house prices, UK: October 2026](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/october2026) + [About the UK HPI](https://www.gov.uk/government/publications/about-the-uk-house-price-index/about-the-uk-house-price-index))
+
+Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 population for orientation only, on its older area definitions): London Zone 1-2 ~8,000–18,000+ · Zone 3-6 ~5,000–10,000 · Manchester / Birmingham core ~3,200–5,000 · Edinburgh / Bristol ~4,000–6,500 · Glasgow / Liverpool / Leeds ~2,500–4,000 · smaller cities ~1,800–3,200 · rural England (S/SW) ~2,500–4,500 · rural Wales / Scotland / NI ~1,200–2,500.
 
 ### Compute
 
 1. £/m² = price / **GIA (Gross Internal Area)** — UK standard; check EPC for verified m²
-2. **Leasehold trap**: lease <80 yrs reduces value 10–30% (marriage value); <60 yrs near unmortgageable
+2. **Leasehold trap**: once a flat lease has 80 years or less unexpired, marriage value is payable on a statutory lease extension (LRHUDA 1993 Sch 13 para 4(2A): marriage value is nil only where the unexpired term "exceeds eighty years"; LAFRA 2024 abolishes marriage value but is not yet commenced — see `--tax` Future risk); value hit est. 10–30% (unsourced est.); est. hard to mortgage below 60 years (lender minimum unexpired terms vary)
 3. **Ground rent doubling clauses** (pre-2017 leases) — major value killer
 4. Cross-check sold-price history on Rightmove + Land Registry PPD
 
@@ -74,14 +90,14 @@ Ranges are est. blended indicators triangulated from the ONS "Private rent and h
 
 ### Sources
 
-- **Department for Transport (DfT) — Road Traffic Statistics**: `https://roadtraffic.dft.gov.uk` — interactive AADT count points
-- **TfL** (London transport flow + count maps): `https://tfl.gov.uk/info-for/open-data-users/our-open-data`
-- **Transport Scotland**, **Transport for Wales**, **NI Department for Infrastructure**
-- OSM `highway`: motorway / A-road / B-road / unclassified
+- **Department for Transport (DfT) — Road Traffic Statistics**: `https://roadtraffic.dft.gov.uk` — street-level Annual Average Daily Flow (AADF) at count points on Great Britain's roads (England, Scotland, Wales; every major-road link plus a sample of minor roads), count-point downloads 2000–2025; figures marked "Counted" are more reliable than "Estimated" ones (2026-10-28 verified)
+- **TfL open data** (London: Tube and bus journeys and station footfall, PTAL public-transport-access grid at 100 m intervals, road network and live disruptions; London road traffic counts are in the DfT data above): `https://tfl.gov.uk/info-for/open-data-users/our-open-data` (2026-10-28 verified)
+- **Transport Scotland**, **Transport for Wales** (their roads are already in the DfT data), **NI Department for Infrastructure** — Northern Ireland is not in the DfT data; DfI publishes its own traffic census reports in AADT ([Traffic and Travel Information 2023](https://www.infrastructure-ni.gov.uk/sites/default/files/publications/infrastructure/traffic-and-travel-information-report-2023.pdf): 67 census points; latest edition found on 2026-10-29)
+- OSM `highway`: `motorway`; `trunk` (A-roads with primary status, green signs) / `primary` (other A-roads); `secondary` (B-roads); `tertiary` / `unclassified` (minor roads) — UK convention per the OSM wiki "Roads in the United Kingdom"
 
 ### Key term
 
-**AADT (Annual Average Daily Traffic)** — vehicles/day at count point.
+**AADF (Annual Average Daily Flow)** — DfT's measure: "The average over a full year of the number of vehicles passing a point in the road network each day" (both directions). NI DfI reports use AADT for the same idea.
 
 ### Verdict bands
 
@@ -223,15 +239,16 @@ Ranges are est. blended indicators triangulated from the ONS "Private rent and h
 ### Sources
 
 - **gov.uk Find a Job**: `https://findajob.dwp.gov.uk/`
-- **Indeed.co.uk**, **LinkedIn UK**, **Reed.co.uk**, **Totaljobs**, **CV-Library**
-- **Profession bodies**: RIBA, GMC, NMC, ACCA, RIBA, Bar Council, etc.
+- **Indeed** (`uk.indeed.com`; indeed.co.uk redirects there), **LinkedIn UK**, **Reed.co.uk**, **Totaljobs**, **CV-Library**
+- **Profession bodies**: RIBA, GMC, NMC, ACCA, Bar Council, etc.
+- **Salary benchmark — ONS ASHE 2026** (April 2026, provisional; final figures October 2027): median gross weekly earnings for full-time employees £811.20 (+5.8% on April 2025); median gross annual earnings £40,911 for full-time employees in the same job for at least a year; London had the fastest full-time growth (8.2%). Occupation and local-authority medians are in the ASHE datasets (2026-10-28 verified; source [ONS Employee earnings in the UK: 2026](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2026))
 
 ### Self-employment
 
-- **Sole trader**: HMRC self-assessment + Class 2 (£3.45/wk if profits >£12,570) + Class 4 NI (6% on £12,570–£50,270; 2% above) — 2024-25 HMRC rates; verify at HMRC (National Insurance rates and letters)
-- **Limited company**: Companies House registration; corporation tax 19–25% (2024-2026)
-- **VAT registration**: from £90,000 turnover (2024)
-- **Personal allowance**: £12,570 (frozen until 2028)
+- **Sole trader**: HMRC Self Assessment + Class 4 NI at 6% on profits £12,570–£50,270 and 2% above (2026-27). Class 2 is no longer compulsory: with profits of £7,105 or more it is treated as paid; below that, voluntary Class 2 is £3.65/wk (2026-27). Budget 2026 announced 2027-28 voluntary Class 2 at £3.80/wk and the Small Profits Threshold at £7,355, with Class 4 limits unchanged (announced, set by the annual NICs regulations) (2026-10-28 verified; sources [gov.uk self-employed NI rates](https://www.gov.uk/self-employed-national-insurance-rates) + [Budget 2026 Annex A](https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances) + [OOTLAR](https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/budget-2026-overview-of-tax-legislation-and-rates-ootlar))
+- **Limited company**: Companies House registration; Corporation Tax 19% small profits rate (profits £50,000 or less), 25% main rate (over £250,000), Marginal Relief in between (thresholds cut for short accounting periods and associated companies); Budget 2026 keeps 25% / 19% for the financial year from 1 Apr 2028 (Finance Bill 2026-27) (2026-10-28 verified; sources [gov.uk Corporation Tax rates](https://www.gov.uk/corporation-tax-rates) + [OOTLAR 1.38](https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/budget-2026-overview-of-tax-legislation-and-rates-ootlar))
+- **VAT registration**: compulsory once taxable turnover goes over £90,000 in the last 12 months (or is expected to in the next 30 days); deregistration threshold £88,000; both unchanged for April 2027 per Budget 2026 Annex A (2026-10-28 verified; sources [gov.uk Register for VAT](https://www.gov.uk/register-for-vat) + [Annex A](https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar/annex-a-rates-and-allowances))
+- **Personal allowance**: £12,570, frozen through 2030-31 (Finance Act 2026 s.10 extends the FA 2021 freeze to 2028-29, 2029-30 and 2030-31); reduced by £1 for every £2 of adjusted net income over £100,000 (2026-10-28 verified; sources [legislation.gov.uk FA 2026 s.10](https://www.legislation.gov.uk/ukpga/2026/11/section/10) + [gov.uk Income Tax rates](https://www.gov.uk/income-tax-rates))
 - **IR35** (off-payroll working) rules for contractors via PSC
 
 ---
@@ -367,8 +384,8 @@ Ranges are est. blended indicators triangulated from the ONS "Private rent and h
 
 ## Common listing platforms
 
-- **Rightmove** — biggest, default
-- **Zoopla** — second + sold-price history
+- **Rightmove** — self-described "UK's number one property portal" (Rightmove plc); sold prices from HM Land Registry / Registers of Scotland
+- **Zoopla** — sold-price history from HM Land Registry data + Zoopla house-price estimates
 - **OnTheMarket** — alternative
 - **PrimeLocation** — high-end
 - **PropertyData** — paid analytics
