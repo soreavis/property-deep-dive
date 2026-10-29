@@ -19,43 +19,44 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ### Primary sources
 
 - **Tailte Éireann**: `https://tailte.ie/`
-- **Property Price Register (PPR)** (FREE, official sales register since 2010): `https://www.propertypriceregister.ie/`
-  - Every residential sale since 2010 recorded; searchable by Eircode/town/county
-- **Daft.ie** (largest listings): `https://www.daft.ie/`
-  - Quarterly Daft Reports (rent + sales)
-- **MyHome.ie**: `https://www.myhome.ie/` — second-largest
-- **CSO (Central Statistics Office) RPPI** quarterly: `https://www.cso.ie/`
-- **BPFI (Banking & Payments Federation Ireland)** — mortgage indices: `https://bpfi.ie/`
+- **Residential Property Price Register (PPR)** (free; produced by the **Property Services Regulatory Authority (PSRA)** under s.86 Property Services (Regulation) Act 2011; date of sale, price and address of every residential purchase since 1 Jan 2010, as declared to Revenue for stamp duty): `https://www.propertypriceregister.ie/`
+  - Search by address text, county, year and month (no Eircode search field); the CSV downloads carry an Eircode column, filled on 76.4% of 2026 records (35,176 of 46,020; computed from PPR-ALL.csv, register updated 28 Oct 2026). No floor area or room count (the CSV has only a coarse size band, on 2010–2018 new-home records); the PSRA says the register "is not intended as a Property Price Index"; new-home prices are shown exclusive of VAT (the PSRA note cites 13.5%; qualifying new apartments are at 9%, see `--tax`), and sales not at full market price are marked ** (2026-10-29 verified)
+- **Daft.ie** (listing platform, asking prices; self-described "Ireland's No. 1 Property Website"): `https://www.daft.ie/`
+  - Quarterly Daft.ie Sales and Rental Reports (list and asking prices, plus a transaction-price measure in the Sales Report; secondary): `https://www.daft.ie/report` — latest Sales Report Q3 2026 (published Sept 2026) and Rental Report Q2 2026 (published Aug 2026) (2026-10-29 checked)
+- **MyHome.ie**: `https://www.myhome.ie/` — self-described "Ireland's Leading Property Portal" (no independent market-share data found); quarterly MyHome Property Report with Bank of Ireland (latest Q3 2026)
+- **CSO (Central Statistics Office) RPPI** — **monthly** national and regional indices (new vs existing dwellings quarterly, national only), plus median prices by county (Dublin split into its four council areas; Cork, Galway, Limerick and Waterford into city and county) and by Eircode area (tables HPM07, HPM08): `https://www.cso.ie/en/statistics/prices/residentialpropertypriceindex/` (2026-10-29 verified)
+- **BPFI (Banking & Payments Federation Ireland)** — industry body; monthly Mortgage Approvals and quarterly Mortgage Drawdowns reports (volumes and values, not price indices; latest: September 2026 approvals and Q3 2026 drawdowns, both published 23 Oct 2026): `https://bpfi.ie/`
 - **Revenue.ie** for tax + LPT data
 
 ### Listing platforms
 
-- **Daft.ie** — DOMINANT
-- **MyHome.ie** — second
-- **Sherry FitzGerald**, **DNG**, **Savills**, **REA**, **Lisney**, **Hooke & MacDonald**, **Coonan** — agency networks
+- **Daft.ie** — self-described "Ireland's No. 1 Property Website"; no independent market-share data found (2026-10-29)
+- **MyHome.ie** — self-described "Ireland's Leading Property Portal"
+- **Sherry FitzGerald**, **DNG**, **Savills**, **REA** (Real Estate Alliance), **Lisney** (residential arm: Lisney Sotheby's International Realty), **Hooke & MacDonald**, **Coonan** (Coonan Property: Maynooth, Celbridge and Naas) — agency networks; sites listed under Common listing platforms (all live 2026-10-29)
 
-### 2025 price benchmarks (PPR + Daft + CSO)
+### Median prices paid by area (CSO, 12 months to August 2026)
 
-| Region | Avg €/m² (apt) | Avg total (semi-detached) |
+| Area (CSO RPPI region) | Median price, all dwellings (€) | Selected Eircode-area medians (€) |
 |---|---:|---:|
-| **Dublin City Centre** | 5,500–9,000+ | 700,000–1,500,000+ |
-| **Dublin South County** | 5,000–7,500 | 600,000–1,100,000 |
-| **Dublin North County** | 4,500–6,500 | 480,000–800,000 |
-| **Dublin commuter (Kildare/Wicklow/Meath)** | 3,500–5,000 | 380,000–600,000 |
-| **Cork city** | 3,500–5,000 | 380,000–650,000 |
-| **Galway city** | 3,500–5,000 | 380,000–650,000 |
-| **Limerick / Waterford** | 2,500–3,500 | 250,000–420,000 |
-| **Smaller cities** | 1,800–2,800 | 180,000–320,000 |
-| **Rural Connemara / Donegal / Mayo** | 1,200–2,200 | 150,000–280,000 |
+| **Dublin City** | 475,000 | D01 370,000 · D02 492,500 · D07 449,835 · D08 413,500 · D04 690,000 · D06 750,000 |
+| **Dún Laoghaire-Rathdown** (highest in the State) | 685,000 | A94 Blackrock 851,500 · A96 Glenageary 703,500 · D18 583,119 |
+| **Fingal** / **South Dublin** | 485,000 / 490,000 | K67 Swords 492,000 · K32 Balbriggan 355,000 · A41 Ballyboughal 865,000 (highest Eircode area) · K78 Lucan 499,892 · D24 426,750 |
+| **Commuter counties**: Kildare / Meath / Wicklow | 450,000 / 430,000 / 480,000 | W91 Naas 450,000 · C15 Navan 405,000 · A63 Greystones 580,000 · A98 Bray 560,000 |
+| **Cork City** / Cork County | 354,000 / 403,450 | T12 Cork Southside 425,000 · T23 Cork Northside 381,446 |
+| **Galway City** / Galway County | 420,000 / 375,000 | H91 Galway 425,001 · H65 Athenry 397,500 |
+| **Limerick City** / **Waterford City** | 295,000 / 315,000 | V94 Limerick 349,000 · X91 Waterford 327,720 |
+| **Kilkenny / Sligo / Westmeath** (county-wide) | 350,000 / 282,000 / 335,000 | R95 Kilkenny 360,000 · F91 Sligo 285,000 · N37 Athlone 325,000 |
+| **Donegal / Mayo** (lowest county: Longford 199,000) | 215,000 / 245,000 | H71 Clifden (Co. Galway) 300,000 · F92 Letterkenny 250,000 · F28 Westport 320,000 · F93 Lifford 180,000 · F45 Castlerea (Co. Roscommon) 160,000 (lowest Eircode area) |
 
-- **CSO RPPI (latest)**: national prices **+6.2% YoY to April 2026** (April 2026 data, source CSO RPPI April 2026 release). From the March 2026 release: Dublin +5.7%, outside Dublin +7.2%; national median dwelling price **€390,461** (12 months to March 2026, source CSO, published 13 May 2026). (2026-07-03 verified)
+- **CSO RPPI (latest)**: national prices **+5.1% YoY to August 2026** (Dublin +3.9%, outside Dublin +6.2%; houses +4.9%, apartments +6.6%; the lowest annual rise since December 2023); national median dwelling price **€400,000** (12 months to August 2026). Table medians: household market purchases filed with Revenue in the 12 months to August 2026 (August 2026 data, source [CSO RPPI August 2026](https://www.cso.ie/en/releasesandpublications/ep/p-rppi/residentialpropertypriceindexaugust2026/), published 13 Oct 2026; tables HPM07 and HPM08). The latest three months are provisional; the September 2026 release is due mid-November 2026. (2026-10-29 verified)
+- CSO: "Neither median nor mean prices are appropriate for measuring the evolution of property prices" (the index is). Neither the CSO median tables nor the PPR give floor area (the PPR CSV has only coarse size bands, on 2010–2018 new-home records), so neither yields a €/m² figure; the former €/m² ranges had no traceable source and were dropped
 
 ### Compute
 
-1. €/m² = price / **GIA (Gross Internal Area)** — Irish standard
+1. €/m² = price / floor area: use the agent's stated floor area (per listing — verify on visit) or ask for the BER assessor's figure (SEAI BER data record the dwelling's total floor area in m², per CSO; the new-format BER certificate shows energy use per m² but no floor-area field); compare against PPR sale prices of similar homes, since neither the CSO nor the PPR publishes a €/m² series
 2. **PPR cross-check**: official sale prices since 2010 (every sale)
 3. **Folio vs Deed** affects conveyancing speed + cost
-4. **BER (Building Energy Rating)** A-G: B-rated minimum for many lenders 2026
+4. **BER (Building Energy Rating)**: SEAI scale **A0–G** under the simplified scale introduced 24 May 2026 (certificates dated before then use the A1–G sub-bands). Not a lending minimum at the lenders checked: AIB's green fixed rates need A1–B3, or A0, A or B on certificates dated after 24 May 2026; Bank of Ireland's EcoSaver fixed rate is tiered by BER ("The better your BER, the better your fixed interest rate") (2026-10-29 verified; sources [SEAI BER](https://www.seai.ie/ber), [AIB green mortgage](https://aib.ie/our-products/mortgages/green-mortgage), [Bank of Ireland mortgages](https://personalbanking.bankofireland.com/borrow/mortgages/))
 
 ### Key terms
 
@@ -73,7 +74,7 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ### Sources
 
 - **TII (Transport Infrastructure Ireland)**: `https://www.tii.ie/` — motorways + national roads
-- **National Traffic Monitoring (NTM)** counts
+- **TII Traffic Count Data**: `https://trafficdata.tii.ie/` — counters on the national primary and secondary roads, with per-site reports and data exports; TII's data.gov.ie listing puts the network at "almost 300" active counters (listing last updated 2018 — figure may have changed since) (2026-10-29 verified)
 - **OpenStreetMap** + Local authorities for regional/local roads
 
 ### Key term
@@ -199,6 +200,13 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 
 ## Section: `--rental`
 
+### Market rents
+
+- **RTB/ESRI Rent Index Q1 2026** (standardised average rent from RTB tenancy registrations, analysed by the ESRI; latest edition on the RTB page on 2026-10-29): new tenancies **€1,839/month nationally (+9.1% YoY)**; existing tenancies €1,513 (+4.2%); new tenancies in Dublin €2,335 (+7.8%), Greater Dublin Area excl. Dublin €1,806, outside the GDA €1,432; Dún Laoghaire-Rathdown €2,629 (highest in Dublin), Dublin City €2,301, Galway City €2,004. The RTB notes the jump coincided with the 1 Mar 2026 rules letting rents reset between tenancies and says it is too early to tell how much is a one-off adjustment (Q1 2026 data, source [RTB Rent Index Q1 2026](https://rtb.ie/wp-content/uploads/2026/09/RTB-Rent-Index-Q1-2026.pdf); 2026-10-29 verified)
+- **CSO CPI private rents**: +4.7% in the 12 months to September 2026, against +4.1% for all items (September 2026 data, source [CSO CPI September 2026](https://www.cso.ie/en/releasesandpublications/ep/p-cpi/consumerpriceindexseptember2026/), published 8 Oct 2026)
+- **Gross yield**: not published by the CSO or the RTB in the sources read. Rough cross-check, est. ~5.5% gross nationally (= 12 × €1,839 RTB national new-tenancy rent ÷ €400,000 CSO national median price; the two cover different dwelling mixes, so compute per area for a real case)
+- **Daft.ie Rental Report** (asking rents, secondary): quarterly at `https://www.daft.ie/report`, latest Q2 2026
+
 ### Long-term residential
 
 - **RTB (Residential Tenancies Board)**: `https://www.rtb.ie/` — register a new tenancy within one month of its start date, then **every year on the anniversary** of the start date (annual registration since 4 April 2022, Residential Tenancies (Amendment) Act 2019); late fees accrue per month (2026-10-29 verified; source [RTB when to register](https://rtb.ie/register-tenancies/register-a-tenancy/when-to-register/))
@@ -237,25 +245,25 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 
 ### Sources
 
-- **Jobs.ie**, **Indeed.ie**, **LinkedIn IE**, **IrishJobs.ie**
-- **Department of Social Protection** — INTREO offices: `https://www.gov.ie/en/organisation/department-of-social-protection/`
+- **Jobs.ie**, **Indeed** (`ie.indeed.com`; indeed.ie redirects there), **LinkedIn IE**, **IrishJobs.ie** (2026-10-29)
+- **Department of Social Protection** — Intreo, the public employment service: `https://www.gov.ie/en/department-of-social-protection/` (moved from the old /organisation/ URL, which redirects; 2026-10-29)
 - **Profession bodies**: Engineers Ireland, RIAI, Law Society of Ireland, RICS Ireland, Medical Council, etc.
 
 ### Self-employment
 
 - **Sole trader**: register at **Revenue** + Companies Registration Office (if business name)
-- **Limited company**: min €1 capital
+- **Limited company**: min €1 capital (not re-verified 2026-10-29 — confirm at the CRO, `https://cro.ie/registration/company/company-types/`)
 - **PRSI Class S** for self-employed
-- **VAT registration**: from **€42,500 services / €85,000 goods** (2025-2026)
+- **VAT registration**: from **€42,500 services / €85,000 goods** (Revenue page published 27 Oct 2026; 2026-10-29 verified; [Revenue VAT thresholds](https://www.revenue.ie/en/vat/vat-registration/who-should-register-for-vat/persons-required-register-goods-services-abroad.aspx))
 - **Tax return Form 11** annual
 
 ### Salary benchmarks (2025)
 
-- Median annual gross:
-  - Dublin: ~€48,000–€68,000
-  - Cork / Galway: ~€42,000–€58,000
-  - Smaller cities: ~€36,000–€48,000
-- **National minimum wage**: €14.15/hr (from 1 Jan 2026); €13.50 (2025); €12.70 (2024) (2026-07-03 verified; source gov.ie / DETE)
+- Median annual gross earnings per employment, by county of residence (2025 data; employments active 50+ weeks in the year; source [CSO Earnings Analysis using Administrative Data Sources 2025](https://www.cso.ie/en/releasesandpublications/ep/p-eaads/earningsanalysisusingadministrativedatasources2025/annualearnings/), 6 Oct 2026, table NEA08); State **€46,305** (+3.3% on 2024):
+  - Dublin €50,474; Kildare €50,043; Meath €48,011; Wicklow €48,000
+  - Cork €48,328; Limerick €46,426; Galway €46,000; Waterford €44,681
+  - Kilkenny €45,401; Sligo €44,400; Mayo €42,503; Longford €40,481; Donegal €38,739; Monaghan €38,517 (lowest county)
+- **National minimum wage**: €14.15/hr (from 1 Jan 2026, +€0.65); €13.50 (2025); €12.70 (2024). **€14.94 from 1 Jan 2027** (+€0.79, announced in Budget 2027) is set by the National Minimum Wage Order 2026 (S.I. No. 533 of 2026, signed 15 Oct 2026); not in force until 1 Jan 2027 (2026-10-29 verified; sources [S.I. No. 533 of 2026](https://www.irishstatutebook.ie/eli/2026/si/533/made/en/pdf), [Citizens Information](https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/minimum-wage/), DETE Budget releases [2027](https://enterprise.gov.ie/en/news-and-events/department-news/2026/october/20261007.html), [2026](https://enterprise.gov.ie/en/news-and-events/department-news/2025/october/20251008.html), [2025](https://enterprise.gov.ie/en/news-and-events/department-news/2024/october/011020241.html), [2024](https://enterprise.gov.ie/en/news-and-events/department-news/2023/october/10102023.html))
 
 ---
 
@@ -385,9 +393,9 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 
 ## Common listing platforms
 
-- **Daft.ie** — biggest
-- **MyHome.ie** — second
-- **Sherry FitzGerald, DNG, Savills, REA, Lisney, Hooke & MacDonald, Coonan**
+- **Daft.ie** (`https://www.daft.ie/`) — self-described "Ireland's No. 1 Property Website"; no independent market-share data found
+- **MyHome.ie** (`https://www.myhome.ie/`) — self-described "Ireland's Leading Property Portal"
+- Agencies (sites live 2026-10-29): **Sherry FitzGerald** (`https://www.sherryfitz.ie/`), **DNG** (`https://www.dng.ie/`), **Savills Ireland** (`https://www.savills.ie/`), **REA — Real Estate Alliance** (`https://www.realestatealliance.ie/`), **Lisney** (residential arm Lisney Sotheby's International Realty; `https://lisney.com/`), **Hooke & MacDonald** (`https://hookemacdonald.ie/`), **Coonan Property** (Maynooth, Celbridge and Naas; `https://coonan.com/`)
 
 ## Caveats unique to IE
 
