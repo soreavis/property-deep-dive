@@ -118,6 +118,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): Tier-A refresh of promoted GI, VN, SA and GH — about 670 checked changes ([#516](https://github.com/soreavis/property-deep-dive/pull/516)) — by @soreavis
 
+- fix(playbooks): Uzbekistan Tier-A refresh and 21 regulatory-watch entries from the 29 Oct refresh ([#517](https://github.com/soreavis/property-deep-dive/pull/517)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
