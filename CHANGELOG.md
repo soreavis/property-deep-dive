@@ -114,6 +114,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - docs: correct README counts after #513 ([#514](https://github.com/soreavis/property-deep-dive/pull/514)) — by @soreavis
 
+- fix: 29 Oct 2026 follow-ups — new UK/FR/AE/CN entries, AG/KW/AU/ES corrections, GI market ([#515](https://github.com/soreavis/property-deep-dive/pull/515)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
