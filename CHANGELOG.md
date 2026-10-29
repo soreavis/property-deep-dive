@@ -120,6 +120,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): Uzbekistan Tier-A refresh and 21 regulatory-watch entries from the 29 Oct refresh ([#517](https://github.com/soreavis/property-deep-dive/pull/517)) — by @soreavis
 
+- fix(source-verify): blank URLs before extracting claim figures ([#518](https://github.com/soreavis/property-deep-dive/pull/518)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
