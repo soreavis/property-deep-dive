@@ -256,53 +256,54 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 | Source | URL | What it gives |
 |---|---|---|
-| **EPPO / OASP** (Earthquake Planning & Protection Organization) | `https://oasp.gr` | Seismic policy, code |
-| **HSGME** (formerly IGME) — Hellenic Survey of Geology and Mineral Exploration | `https://www.eagme.gr/` | Geology, faults, **active faults DB**: `https://activefaults.eagme.gr/en/` |
-| **Civil Protection** | `https://civilprotection.gov.gr/en/xartis` | **Daily fire risk map** May–Oct |
-| **NOA** (National Observatory of Athens) | `http://hl-ntwc.gein.noa.gr/en/` | **Tsunami warnings**, seismicity |
-| **ISMOSAV** (Santorini Volcano Monitoring Institute) | per NOA | Santorini + Kolumbo monitoring |
-| **EYDAP** (Athens water): `https://www.eydap.gr` |
-| **EYATH** (Thessaloniki water): `https://www.eyath.gr` |
+| **EPPO / OASP** (Οργανισμός Αντισεισμικού Σχεδιασμού & Προστασίας, Earthquake Planning & Protection Organization) | `https://oasp.gr` | Seismic policy; seismic codes (EAK-2000, Eurocodes, older codes: `https://oasp.gr/kanonismoi`); volcanic-hazard assessment for the Hellenic Volcanic Arc |
+| **HSGME / ΕΑΓΜΕ** (Ελληνική Αρχή Γεωλογικών & Μεταλλευτικών Ερευνών, formerly IGME) — Hellenic Survey of Geology & Mineral Exploration | `https://www.eagme.gr/` | Geology, faults, **Hellenic DataBase of Active Faults (HeDBAF)**: `https://activefaults.eagme.gr/en/` |
+| **Civil Protection** (Υπουργείο Κλιματικής Κρίσης και Πολιτικής Προστασίας, Ministry of Climate Crisis and Civil Protection) | `https://civilprotection.gov.gr/en/xartis` | **Daily fire risk forecast map** (Ημερήσιος Χάρτης Πρόβλεψης Κινδύνου Πυρκαγιάς) May–Oct; past maps: `https://civilprotection.gov.gr/arxeio-imerision-xartwn`. The site returns HTTP 403 to scripted requests and opens in a browser |
+| **NOA** (National Observatory of Athens, Institute of Geodynamics) | `http://hl-ntwc.gein.noa.gr/en/` (HTTP only; the HTTPS address fails with a certificate-name mismatch, checked 2026-10-29) | **Tsunami warnings** (HL-NTWC, 24/7 since 28 Aug 2012), seismicity |
+| **ISMOSAV / ΙΜΠΗΣ** (Ινστιτούτο Μελέτης και Παρακολούθησης του Ηφαιστείου Σαντορίνης, Institute for the Study and Monitoring of the Santorini Volcano; non-profit, founded 1995) | `https://ismosav.gr/en/home/` | Santorini volcano observatory and monitoring networks (seismic, geodetic, satellite, thermal, chemical) |
+| **EYDAP** (Athens water) | `https://www.eydap.gr` | Water and sewerage, Attica (see `--mains`) |
+| **EYATH** (Thessaloniki water) | `https://www.eyath.gr` | Water and sewerage, Thessaloniki (see `--mains`) |
 
 ### Specific risks
 
 #### Seismic (HIGH)
 
-- **Eurocode 8 Greek National Annex** uses 2003 zonation map: 3 zones, **PGA 0.16–0.36g**
-  - Revision in progress proposes 5 zones (PGA 0.13–0.37g)
+- **Seismic zone map** (Χάρτης Ζωνών Σεισμικής Επικινδυνότητας) of the national seismic code **ΕΑΚ-2000**, revised by ΦΕΚ Β' 1154/12.08.2003: **3 zones** (the previous map had 4), design ground acceleration **A = 0.16g / 0.24g / 0.36g** for zones I / II / III. Its Table 2.1 assigns prefectures, and in many prefectures individual (pre-2011) municipalities and communities, to zones, e.g. Δ. Αθηναίων and Δ. Θεσσαλονίκης zone I, Δ. Θήρας (Santorini) zone II. **Eurocode 8** with its Greek National Annex has been approved as an alternative since ΦΕΚ Β' 1457/05.06.2014: the owner picks either the national codes or the Eurocodes and may not mix them (2003 / 2014 texts, source [OASP](https://oasp.gr/kanonismoi/ellinikos-antiseismikos-kanonismos-2000); 2026-10-29 verified)
+  - Revision under way as of Oct 2023: on 25 Oct 2023 OASP requested a budget commitment to commission a roadmap for drafting and updating Greece's seismic hazard maps (the specifications stage of its hazard-map committee); later progress not confirmed. The "5 zones, PGA 0.13–0.37g" proposal is unverified — no primary source found 2026-10-29
 - **Recent significant events**:
-  - **Athens 1999** (Mw 5.9, Parnitha)
-  - **Lefkada 2003 + 2015**
+  - **Athens 1999** (7 Sep, Mw 6.0 per USGS, Parnitha / Fyli)
+  - **Lefkada 2003 + 2015** (14 Aug 2003 Mw 6.3; 17 Nov 2015 Mw 6.5, USGS)
   - **Samos-Izmir 2020** (Mw 7.0, generated tsunami alert)
-  - **Crete 2021** (Heraklion)
-  - **Santorini swarm Jan-Feb 2025** — UNESCO-IOC monitoring; mass exodus + emergency declaration
+  - **Crete 2021** (27 Sep, Arkalochori area, Heraklion; Mw 6.0, USGS)
+  - **Santorini swarm Jan-Feb 2025** — civil-protection state of emergency for the Municipality of Thera, declared 6 Feb 2025 by the Civil Protection Secretary General and in force 1 Feb–3 Mar 2025 (news-tier, state news agency: [ANA-MPA 6 Feb 2025](https://www.amna.gr/en/article/882226/State-of-emergency-declared-on-Santorini-due-to-earthquakes)); many residents and workers left the island (news-tier). Volcano monitoring is by OASP (with INGV) and ISMOSAV (the earlier "UNESCO-IOC monitoring" is withdrawn — no source located in the 2026-10-29 pass)
 
 #### Volcanic — Hellenic Volcanic Arc
 
-- **Methana, Milos, Santorini, Nisyros, Kolumbo** (submarine, 7 km NE of Santorini)
-- **Santorini caldera** + **Kolumbo** monitored continuously
-- **2025 Santorini swarm** caused mass exodus; emergency declared
+- **Methana, Milos, Santorini, Nisyros, Kolumbo** (submarine, 6.5 km offshore of Thera; its 1650 eruption caused a strong tsunami — ISMOSAV)
+- **Santorini caldera** + **Kolumbo** monitored continuously (ISMOSAV networks; OASP and INGV installed a permanent CO2-flux station on Nea Kameni in Jun 2025). Last eruption Nea Kameni 1950; unrest 2011 and 2024–2025 (ISMOSAV)
+- **2025 Santorini swarm**: state of emergency 1 Feb–3 Mar 2025 (see Seismic above); many left the island (news-tier)
 
 #### Wildfire (CATASTROPHIC RISK)
 
 - **Civil Protection daily fire risk map** May–Oct: `https://civilprotection.gov.gr/en/xartis`
-- **Mati 2018**: 104 dead, 5,000 ha (Eastern Attica)
+- **Mati 2018** (23 Jul, Eastern Attica): 104 dead (news-tier, [Capital.gr 29 Apr 2024](https://www.capital.gr/english/3804425/six-out-of-21-defendants-found-guilty-in-deadly-mati-fire)); burnt area of the Mati fire **1,260 ha** per NOA's BEYOND centre (WorldView-3 mapping, 30 Jul 2018; [BEYOND newsletter](https://beyond-eocenter.eu/images/docs/Newsletters/BEYOND_Newsletter_electronic_v10.html)). The earlier 5,000 ha is withdrawn — no source located in the 2026-10-29 pass
 - **Recent**: Rhodes 2023, Evia 2021, Attica 2024
-- **AntiNero programme**: 12,000 km of forest treated by end-2024 across 39 plans
+- **Anti-nero programme** (forest-fire prevention, YPEN, RRF-funded "Greece 2.0", since 2022): by 26 Nov 2024 about 190,000 στρέμματα (≈19,000 ha, computed at 0.1 ha per στρέμμα) of forest had been cleared, forest roads on 309,000 στρ. and firebreaks on more than 53,000 στρ. were being improved and maintained, and 67,600 στρ. of new mixed firebreaks were being opened; 42 / 47 / 74 contracts signed under the Anti-nero 2022 / 2023 / 2024 rounds (2024 data, source [YPEN press release 26 Nov 2024](https://ypen.gov.gr/perissotera-apo-750-ekat-evro-gia-draseis-prostasias-ton-dason/) — figures may have changed since). The earlier "12,000 km … 39 plans" is withdrawn — no source located in the 2026-10-29 pass
 
 #### Tsunami
 
 - **HL-NTWC** (Hellenic National Tsunami Warning Centre, NOA): `http://hl-ntwc.gein.noa.gr/en/`
-- Part of UNESCO-IOC NEAMTWS
+- One of four accredited Tsunami Service Providers in UNESCO-IOC's NEAMTWS (accredited 27 Jun 2017); sends warnings to the General Secretariat for Civil Protection 24/7 since 28 Aug 2012 (HL-NTWC)
 - **High-risk zones**: Hellenic Arc (E and W), Aegean fault zones, Gulf of Corinth
 - **Coastal Crete, Rhodes, Karpathos, Cyclades** flagged
 
 #### Other risks
 
-- **Floods**: Attica + Thessaloniki + Peloponnese; **EU Directive 2007/60/EC**: `http://floods.ypeka.gr`
+- **Floods**: Attica + Thessaloniki + Peloponnese; **EU Directive 2007/60/EC** Flood Risk Management Plans (Σχέδια Διαχείρισης Κινδύνων Πλημμύρας, ΣΔΚΠ): the 1st revision (2nd cycle) is approved for all 14 river-basin districts by ministerial decisions in ΦΕΚ Β' Apr–Jun 2025 (e.g. EL06 Attica ΦΕΚ Β' 2752/04.06.2025, EL10 Central Macedonia ΦΕΚ Β' 2480/21.05.2025); plans are reviewed every 6 years. Flood hazard and flood risk maps from the revision are on the geoportal `https://floods.ypeka.gr/geoportal/` (portal `https://floods.ypeka.gr/`; 2025 data, 2026-10-29 verified)
 - **Soil erosion** + landslide: Pindos mountains, Peloponnese
 - **Coastal erosion** + sea-level rise — major Greek islands
-- **Air pollution**: Thessaloniki winter PM10 (wood burning ~70%); Athens nephos summer
+- **Air pollution**: Thessaloniki winter PM10 (wood burning ~70% — unverified, no primary or peer-reviewed source for that share found 2026-10-29); Athens nephos summer
+- **Crime**: Hellenic Police (Ελληνική Αστυνομία) statistics page with annual statistical yearbooks (Στατιστικές επετηρίδες): `https://www.astynomia.gr/statistika-stoicheia/` (HTTP 403 to scripts, opens in a browser). No street-level crime map was found 2026-10-29
 
 ### Build-era hazards
 
@@ -310,25 +311,25 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 |---|---|
 | **Pre-1940s** | No DPC, lead, asbestos cement starts |
 | **1950s-1980s "polykatoikia" boom** | Asbestos very common, weak seismic compliance, illegal additions (authairesia) |
-| **Post-1985 EAK** | Earthquake code introduced |
-| **Post-2003 EAK 2003** | Stricter seismic |
+| **Post-1985** | Supplementary seismic articles (1984) applied exclusively from 1985; not the first code — Greece's first national seismic code dates from 1959 (Β.Δ. 19.2.1959, ΦΕΚ Α' 36/1959) (OASP) |
+| **Post-1995 / post-2001** | NEAK applied exclusively from 1995; EAK-2000 in force from 2001; new 3-zone hazard map from 2003 (ΦΕΚ Β' 1154/2003) (OASP) |
 | **Post-2010 KENAK** | Energy efficiency required |
 
 ### Mandatory at sale
 
 | Document | Required because | Validity |
 |---|---|---|
-| **PEA (Pistopoiitiko Energeiakis Apodosis)** | Energy certificate, mandatory since 2010 (Law 3851/2010, 4122/2013) | 10 years |
-| **Mihaniki Vevaiosi** (engineer's statement) | Required since Law 4014/2011, currently Law 4495/2017 | At sale |
-| **Topographic diagram** with EGSA '87 coordinates | Cadastre transactions | Per case |
+| **PEA (Pistopoiitiko Energeiakis Apodosis)** | Energy certificate; issued for a sale or a new lease and handed to the buyer or tenant, and the energy class must appear in every sale or letting advert (L.4122/2013 art. 12 par. 1(γ)-(δ), 2 and 4); in place since 2010 per the playbook (start date not re-verified) | 10 years at most; ends early on a major renovation (L.4122/2013 art. 11 par. 6) |
+| **Mihaniki Vevaiosi** (βεβαίωση μηχανικού, engineer's certificate) + owner's solemn declaration (υπεύθυνη δήλωση) | Required since Law 4014/2011; now art. 368 of the Spatial and Urban Planning Code ν. 5306/2026 (ΦΕΚ Α' 88/08.06.2026), which carries over art. 83 of L.4495/2017: attached to every inter-vivos deed transferring or creating a real right, after electronic filing that gives the property a unique number | Valid 2 months from signature (art. 368 par. 6) |
+| **Topographic diagram** with EGSA '87 coordinates | Accompanies the engineer's certificate, tied to the state coordinate system (ν. 5306/2026 art. 368 par. 4); not needed e.g. for in-plan units with a horizontal-property deed or building permit made before L.4178/2013 (par. 5) | Per case |
 | **ENFIA paid certificate** | Tax clearance | Annual |
 | **ΤΑΠ / ΤΤΑ (municipal property levy)** | No clearance certificate since 13 Dec 2023 (art. 33 par. 1 Ν.5076/2023); the Cadastre notifies the municipality after registration, and levy owed up to the transfer date is borne by the seller (Ν.5314/2026 art. 392); ΤΑΠ until 31 Dec 2026, ΤΤΑ from 1 Jan 2027 | Not a deed document |
 | **Authairesia** review (illegal construction regularization) | If applicable | Per case |
 
 ### Climate change projections
 
-- +2.0–3.5 °C by 2050
-- Sea-level rise: +20–60 cm by 2100
+- +2.0–3.5 °C by 2050 (est. — unverified, no primary source found 2026-10-29; verify against the Bank of Greece Climate Change Impacts Study Committee report)
+- Sea-level rise: +15–20 cm by mid-century and +20–80 cm by 2100 per the latest update of the Bank of Greece report "The Environmental, Economic and Social Impacts of Climate Change in Greece" (news-tier, [To Vima 14 Aug 2024](https://www.tovima.com/society/climate-change-hits-greek-economy-hard-severe-risks-ahead/); primary report not read). The earlier +20–60 cm is withdrawn — no source located in the 2026-10-29 pass
 - More extreme heat events
 - Increased wildfire risk + intensity
 - Reduced water availability
@@ -339,10 +340,13 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 ### Sources
 
-- **EYDAP** (Athens, Attica): `https://www.eydap.gr` — exclusive provider until 2040
-- **EYATH** (Thessaloniki): `https://www.eyath.gr`
-- **Elsewhere**: ~230 municipal **DEYA** (Demotiki Epicheirisi Hydreusis Apochetefsis) companies serve ~4M people
+- **EYDAP** (Athens, Attica): `https://www.eydap.gr` — exclusive right to provide water and sewerage services until **31 Dec 2040** (L.4812/2021 art. 114 par. 1; EYDAP's EGM of 24 Dec 2021 ratified the board's authorisation to sign the renewal contract, ATHEX filing). **2026 household tariff** (ΦΕΚ Β' 7188/30-12-2025, in force 1 Jan 2026), €/m³ by monthly consumption: 0–5 m³ €0.35, 5–20 €0.64, 20–27 €1.83, 27–35 €2.56, over 35 €3.20 (minimum charge 2 m³/month); sewer-use charge 75% of the water value; fixed €2.00/month water (½"–¾" meter) + €1.00/month sewer; VAT 13% on water and the environmental fee, 24% on the fixed charges and the sewer-use charge (2026 data, source [EYDAP tariff](https://www.eydap.gr/CustomerSupport/normalrates/))
+- **EYATH** (Thessaloniki): `https://www.eyath.gr` — household tariff for the 2025–2029 regulatory period (ΦΕΚ Β' 3555/18.06.2026), €/m³ by 4-month consumption: 0–10 m³ €0.49, 11–40 €0.706, 41–60 €0.813, 61–120 €1.343, 121–160 €3.890, 161 and over €4.74; sewer-use charge 80% of the water value; fixed €2.00/month water (½"–¾") + €1.00/month sewer; billed every 4 months (2026 data, source [EYATH tariff](https://www.eyath.gr/plirofories-gia-to-timologio/))
+- **Elsewhere**: municipal **DEYA** (Demotiki Epicheirisi Hydreusis Apochetefsis) companies — the DEYA union ΕΔΕΥΑ says it represents 122 of the 126 DEYA operating outside Athens and Thessaloniki, covering 5,222,077 residents (undated ΕΔΕΥΑ profile page, read 2026-10-29: `https://www.edeya.gr/index.php/el/edeya/parousiasi/profile`); the earlier "~230 DEYA serving ~4M people" is withdrawn
 - No single national database — must contact local DEYA or municipality
+- **Regulator**: ΡΑΑΕΥ (Ρυθμιστική Αρχή Αποβλήτων, Ενέργειας και Υδάτων, Regulatory Authority for Waste, Energy and Water; formerly RAE): `https://www.raaey.gr/`. Its supplier-tariff comparison for household electricity and gas: `https://energycost.gr/`
+- **Electricity grid connection**: HEDNO / ΔΕΔΔΗΕ (distribution network operator), online low-voltage connection application at `https://www.deddie.gr/en/`
+- **Connectivity**: telecoms regulator EETT (`https://www.eett.gr/`); no EETT per-address coverage checker was found 2026-10-29, so check each provider's own address tool
 - Rural / out-of-plan properties: cesspool/septic still common
 
 ### Verification
@@ -355,9 +359,9 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 | Scenario | Cost (€) |
 |---|---:|
-| EYDAP / DEYA connection | 2,500–8,000 |
-| Mains-line extension | 8,000–25,000 |
-| Vothros to compliant biological treatment | 4,000–10,000 |
+| EYDAP / DEYA connection | 605.68 for a standard EYDAP water connection (κοινή παροχή; €63.12 paid on application; EYDAP procedures page, read 2026-10-29); DEYA fees vary; the earlier 2,500–8,000 range is est. (no official source) |
+| Mains-line extension | est. 8,000–25,000 (no official price source) |
+| Vothros to compliant biological treatment | est. 4,000–10,000 (no official source) |
 
 ---
 
@@ -375,8 +379,8 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 | Ktimatologio registration fee (sale) | 0.6% + €20 where the deed goes into the operating-Cadastre book (0.5% + €20 in the legacy Μεταγραφών και Υποθηκών books) — KYA 2/12-1-2026, ΦΕΚ Β' 64/13-1-2026 |
 | **Total transaction cost (resale, buyer)** | **~6.6–8.2%** of price (computed, incl. the registration fee — see Total transaction cost) |
 | **Total transaction cost (new build during VAT suspension)** | **~6.6–8.2%** |
-| Vothros to biological treatment | 4,000–10,000 |
-| Antiseismic retrofit | 30,000–80,000 |
+| Vothros to biological treatment | est. 4,000–10,000 (no official source; see `--mains`) |
+| Antiseismic retrofit | est. 30,000–80,000 (no official source; scope depends on the engineer's assessment) |
 | Authairesia legalization | varies by amnesty |
 | Roof renovation | 8,000–25,000 |
 | Energy retrofit (Class C → A) | 25,000–60,000 |
@@ -423,7 +427,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
   - **STR ban on GV property (post-reform acquisitions)**: residences acquired under the post-Law-5100/2024 Golden Visa regime may NOT be short-let or sub-let — breach → residence-permit revocation + **€50,000** administrative fine on the owners/holders (Law 5100/2024 **Art. 64**, adding para 7A to Art. 100 of Immigration Code Law 5038/2023). Min. Migration **Circular 1/2026 (prot. 72019, 21 Apr 2026)** narrowed the scope: banned = lettings **<60 days** with no services beyond accommodation + bed linen; long-term leases and hotel-type leases-with-services remain permitted; **properties bought under the pre-Sept-2024 thresholds or in the transitional window are NOT subject to the ban** (statute's "or renewal" wording had suggested otherwise — one advisory source still claims renewals of older permits must comply `(superseded by the circular)`). Circular also refers cash-back GV deals (real price below the legal minimum) to the competent tax and/or law-enforcement authorities + the Hellenic AML Authority. (2026-07-03 verified)
 - **VAT 24%** on new builds suspended through 31 Dec 2026 (2027 extension drafted, not enacted)
 - **Capital gains 15%** suspended through 31 Dec 2026 (2027 extension drafted, not enacted)
-- **Eurocode 8** seismic compliance mandatory for new builds; older buildings highly variable
+- **Seismic design** mandatory for new builds under either EAK-2000 or Eurocode 8 with its Greek National Annex — the owner picks one framework and cannot mix them (ΦΕΚ Β' 1457/05.06.2014 par. 4 and 6); older buildings highly variable (first national seismic code 1959, supplementary articles applied from 1985 — see Build-era hazards)
 - **Wildfire risk extreme** May–Oct — evacuation zones critical
 - **Tsunami coastal risk** for Hellenic Arc + Aegean
 - **Short-term letting of 3+ properties = business activity** (13% VAT + obligations; ΚΦΕ art. 39Α par. 1 + VAT Code art. 11 par. 2(α)) — long-term letting is not caught by this test
@@ -459,8 +463,8 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 | Source | URL pattern |
 |---|---|
-| Ktimatologio | `https://www.ktimatologio.gov.gr/` |
-| gov.gr property registry | `https://www.gov.gr/en/ipiresies/periousia-kai-phorologia/ktematographese` |
+| Ktimatologio | `https://ktimatologio.gr/` (`www.ktimatologio.gov.gr` returned 503 Server Unavailable on 2026-10-29, scripted and in a browser) |
+| gov.gr property registry | `https://www.gov.gr/en/categories/periousia-kai-phorologia/ktematographese` (the old `/en/ipiresies/` path redirects here) |
 | Bank of Greece RPPI | `https://www.bankofgreece.gr/en/statistics/real-estate-market` |
 | Spitogatos | `https://www.spitogatos.gr/en` |
 | EPPO seismic | `https://oasp.gr` |
@@ -470,7 +474,12 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 | EYDAP | `https://www.eydap.gr` |
 | ELSTAT | `https://www.statistics.gr` |
 | AADE | `https://www.aade.gr/` |
-| Floods (EU dir.) | `http://floods.ypeka.gr` |
+| Floods (EU dir.) | `https://floods.ypeka.gr/` (flood hazard and risk maps: `https://floods.ypeka.gr/geoportal/`) |
+| ISMOSAV (Santorini volcano) | `https://ismosav.gr/en/home/` |
+| EYDAP tariff | `https://www.eydap.gr/CustomerSupport/normalrates/` |
+| EYATH tariff | `https://www.eyath.gr/plirofories-gia-to-timologio/` |
+| RAAEY energy tariff comparison | `https://energycost.gr/` |
+| Hellenic Police statistics | `https://www.astynomia.gr/statistika-stoicheia/` |
 
 ## Status
 
