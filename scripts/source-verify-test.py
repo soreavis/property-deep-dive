@@ -146,6 +146,16 @@ class TestValueExtraction(unittest.TestCase):
         vals = SV.extract_values(SV.mask_inline_stamps("confirm figures as of 2026-05-28 at IRD"))
         self.assertEqual([v for v in vals if v.salient], [])
 
+    def test_url_digits_masked(self):
+        line = ("top rate 5% under [CAP. 429](https://laws.gov.ag/wp-content/uploads/2018/08/cap-429.pdf) "
+                "and [table](https://example.gov/2024-05-01/table-12.5%25.html)")
+        vals = SV.extract_values(SV.mask_urls(SV.mask_inline_stamps(line)))
+        needles = [n for v in vals if v.salient for n in v.needles]
+        self.assertNotIn("2024-05-01", needles)
+        self.assertNotIn("12.5", needles)
+        self.assertIn("5", needles)
+        self.assertIn("429", needles)  # the link label's statute number is still a figure
+
     def test_stamp_only_line_yields_no_salient(self):
         line = "(2026-05-27 verified, source [DIR RPT FAQs](https://inlandrevenue.finance.gov.bs/x))"
         vals = SV.extract_values(SV.mask_inline_stamps(line))
