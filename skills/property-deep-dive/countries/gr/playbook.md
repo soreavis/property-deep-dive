@@ -20,50 +20,50 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 ### Primary sources
 
-- **Ktimatologio (Hellenic Cadastre)**: `https://www.ktimatologio.gov.gr/`
-  - **Status (2025-2026)**: 60% complete; full activation slipped from Nov 2025 to **2026**
-  - 201 of 392 legacy mortgage offices closed in 2024
-  - Free 24-hr search of registered parcels
+- **Ktimatologio (Hellenic Cadastre)**: `https://ktimatologio.gr/` (updated 2026-10-29 — `https://www.ktimatologio.gov.gr/` returns "Server Unavailable")
+  - **Status (Oct 2026)**: 99% of the country's KAEK posted for review (Ποσοστό Ανάρτησης) and 81% completed (Ποσοστό Περαίωσης) per the Ktimatologio homepage counter; Ktimatologio expects the cadastral survey (κτηματογράφηση) to be completed in **December 2026** (2026-10-29 verified, source [Ktimatologio homepage](https://ktimatologio.gr/) + [Ktimatologio release 9 Sep 2026](https://ktimatologio.gr/grafeio-tipou/deltia-tipou/1776)). Check the parcel's area and office at ktimatologio.gr › Αναζήτηση Περιοχών/Γραφείων
+  - All **392** legacy mortgage offices (υποθηκοφυλακεία) abolished and 616.5 million pages of their books digitised (Ktimatologio Director-General, 5 Sep 2026, per the [release of 9 Sep 2026](https://ktimatologio.gr/grafeio-tipou/deltia-tipou/1776); 2026-10-29 verified)
+  - In operating areas the cadastral base is searched online only and certificates and copies are issued digitally 24/7, with uniform nationwide on-site research hours of 08:30–13:30 ([Ktimatologio release 26 Oct 2026](https://ktimatologio.gr/grafeio-tipou/deltia-tipou/1780), on Magnesia and Sporades; 2026-10-29 verified); "free" is not confirmed — certificate fees were not re-checked
   - Buyer requests **Apospasma Ktimatologikou Diagrammatos** (cadastral excerpt) + **Ktimatologiko Fyllo** (property sheet)
-- **gov.gr digital property registry** (launched 2025): `https://www.gov.gr/en/ipiresies/periousia-kai-phorologia/ktematographese`
-  - Integrates cadastre + tax + utility + forestry + energy data
+- **gov.gr Land registration services** (Κτηματογράφηση): `https://www.gov.gr/en/categories/periousia-kai-phorologia/ktematographese` (updated 2026-10-29 — the old `/en/ipiresies/…` path redirects here)
+  - Links to Hellenic Cadastre e-services, forest maps, NATURA 2000 certificates, shoreline maps, orthophotos and the archaeological cadastre (2026-10-29 verified). The earlier "launched 2025, integrates tax + utility + energy data" description is not supported: Ktimatologio's Director-General said on 5 Sep 2026 that a single KAEK-keyed property hub on gov.gr (Ενιαίος Κόμβος Ακινήτων) is still being built ([release 9 Sep 2026](https://ktimatologio.gr/grafeio-tipou/deltia-tipou/1776))
 - **Bank of Greece RPPI** (the authoritative price index): `https://www.bankofgreece.gr/en/statistics/real-estate-market`
-  - Quarterly index built from ~951k bank valuations
-  - **Q4 2025**: apartments +7.6% YoY (Athens +5.9%, Thessaloniki +8.0%, other cities +10.5%, other areas +8.6%; new apts +7.4%, old +7.8%); full-year 2025 avg +7.8% vs +9.1% in 2024 (Bank of Greece press release 19 Mar 2026; 2026-07-03 verified)
-- **ELSTAT (Hellenic Statistical Authority)**: `https://www.statistics.gr` — building permits, construction cost
-- **Hellenic Land Registry** for legacy mortgage records (where cadastre not yet operational)
+  - Quarterly apartment-price index built from bank valuations reported under Governor's Act 2610/31.10.2008: 971.8 thousand valuations up to end-June 2026 (65.3% apartments) ([BoG press release 15 Sep 2026](https://www.bankofgreece.gr/en/news-and-media/press-office/news-list/news?announcement=ac5ae869-3e94-4550-b486-ef00c4292e07); 2026-10-29 verified)
+  - **Q2 2026** (provisional): apartments +5.5% YoY (Athens +5.0%, Thessaloniki +4.7%, other cities +5.4%, other areas +7.1%; new apts +6.2%, old +5.0%; all urban areas +5.3%); full-year 2025 average +8.3% (revised) vs +9.1% in 2024 ([Bank of Greece press release 15 Sep 2026](https://www.bankofgreece.gr/en/news-and-media/press-office/news-list/news?announcement=ac5ae869-3e94-4550-b486-ef00c4292e07); 2026-10-29 verified). The latest residential release as of 2026-10-29 (Q3 2026 not yet out)
+- **ELSTAT (Hellenic Statistical Authority, ΕΛΣΤΑΤ)**: `https://www.statistics.gr` — building permits (Building activity survey, SOP03), construction cost indices of new residential buildings (DKT63), CPI rents (DKT87) (2026-10-29 verified)
+- **Legacy mortgage-office records** (υποθηκοφυλακεία, where the cadastre is not yet operational): the offices are abolished and their books digitised (see above); archive searches run through Ktimatologio's service for lawyers and court bailiffs (Υπηρεσία έρευνας αρχείων υποθηκοφυλακείων) ([ktimatologio.gr](https://ktimatologio.gr/), 2026-10-29)
 
 ### Listing platforms
 
-- **Spitogatos.gr** — DOMINANT (consolidated Spitogatos + Spiti24 + Tospitimou + HomeGreekHome): `https://www.spitogatos.gr/en`
-  - Has price index by area at /property-index
+- **Spitogatos.gr** — largest network: Spitogatos Network = Spitogatos + Spiti24 + Tospitimou + Spitogatos.com.cy, with Spiti24 and Tospitimou still run as separate sites and homegreekhome.com redirecting to spitogatos.gr/en; self-reported "Over 90% of the available properties for sale in Greece are listed on Spitogatos Network" (listing tier, [About Spitogatos](https://www.spitogatos.gr/en/page/aboutUs), 2026-10-29): `https://www.spitogatos.gr/en`
+  - Spitogatos Price Index (SPI — average asking price €/m² by area; headline table by quarter, data updated monthly): `https://www.spitogatos.gr/en/property-index` (Greek page `https://www.spitogatos.gr/deiktis-timon`; 2026-10-29). Asking, not sale, prices: Q3 2026 vs Q3 2025 Attica +5%, Thessaloniki +6.8%, rest of Greece +6.8%; lowest prefecture Kastoria €577/m², highest Athens south suburbs €4,257/m². The Bank of Greece residential series are indices, not €/m² levels
 - **XE.gr** — second major aggregator: `https://www.xe.gr/property`
 - **Indomio.gr**: `https://www.indomio.gr/`
-- **Goldenhome.gr**: `https://www.goldenhome.gr/`
+- **Goldenhome.gr** (a real-estate agency, not a portal — site title "Μεσιτικά Γραφεία | Golden Home"): `https://goldenhome.gr/` (2026-10-29)
 - **Plot.gr**, **Remax.gr**
 
-### 2025 price benchmarks (Bank of Greece + Spitogatos)
+### Price benchmarks (est. ranges + Spitogatos SPI asking prices)
 
-| Region | Avg €/m² (apt) | Avg total (single-family) |
-|---|---:|---:|
-| **Athens centro (Plaka, Syntagma, Kolonaki)** | 3,500–6,000+ | 400,000–1,200,000+ |
-| **Athens northern suburbs (Kifissia, Marousi)** | 2,800–4,500 | 380,000–800,000 |
-| **Athens southern suburbs (Glyfada, Voula)** | 3,200–5,500 | 420,000–950,000 |
-| **Athens western suburbs** | 1,500–2,500 | 180,000–350,000 |
-| **Thessaloniki centro** | 1,800–2,800 | 200,000–400,000 |
-| **Thessaloniki suburbs** | 1,500–2,200 | 180,000–320,000 |
-| **Patras** | 1,200–1,800 | 130,000–250,000 |
-| **Crete (Heraklion / Chania)** | 1,800–3,500 | 220,000–500,000 |
-| **Mykonos / Santorini** | 5,000–15,000+ | 800,000–5,000,000+ |
-| **Cyclades (other)** | 2,500–5,000 | 350,000–800,000 |
-| **Rural Peloponnese / Epirus** | 800–1,500 | 100,000–250,000 |
+| Region | est. €/m² (apt; unsourced 2026-04 ranges) | SPI avg asking €/m², Q3 2026 (whole SPI area; listing tier) | est. total (single-family; unsourced) |
+|---|---:|---:|---:|
+| **Athens centro (Plaka, Syntagma, Kolonaki)** | 3,500–6,000+ | 2,553 (Αθήνα - Κέντρο, whole sector) | 400,000–1,200,000+ |
+| **Athens northern suburbs (Kifissia, Marousi)** | 2,800–4,500 | 3,505 (Αθήνα - Βόρεια Προάστια) | 380,000–800,000 |
+| **Athens southern suburbs (Glyfada, Voula)** | 3,200–5,500 | 4,257 (Αθήνα - Νότια Προάστια) | 420,000–950,000 |
+| **Athens western suburbs** | 1,500–2,500 | 2,315 (Αθήνα - Δυτικά Προάστια) | 180,000–350,000 |
+| **Thessaloniki centro** | 1,800–2,800 | 2,740 (Θεσσαλονίκη - Δήμος, municipality) | 200,000–400,000 |
+| **Thessaloniki suburbs** | 1,500–2,200 | 2,140 (Θεσσαλονίκη - Περιφ/κοί δήμοι) | 180,000–320,000 |
+| **Patras** | 1,200–1,800 | 1,505 (Achaia prefecture, whole prefecture) | 130,000–250,000 |
+| **Crete (Heraklion / Chania)** | 1,800–3,500 | 1,955 (Heraklion prefecture) / 3,125 (Chania prefecture) | 220,000–500,000 |
+| **Mykonos / Santorini** | 5,000–15,000+ | — (no island figure; SPI area "Cyclades" 4,091) | 800,000–5,000,000+ |
+| **Cyclades (other)** | 2,500–5,000 | 4,091 (SPI area "Cyclades", incl. Mykonos / Santorini) | 350,000–800,000 |
+| **Rural Peloponnese / Epirus** | 800–1,500 | — | 100,000–250,000 |
 
 ### Compute
 
 1. €/m² = price / **καθαρή ωφέλιμη επιφάνεια** (net usable area)
-2. **Antikeimeniki Axia** (Objective Value) — official cadastral assessment, **frozen until 2027**
+2. **Antikeimeniki Axia** (Αντικειμενική Αξία, Objective Value) — the tax zone-price (τιμή ζώνης) system, a tax value rather than a market value; last realigned June 2021, and the government reportedly decided not to realign it before 2027 at the earliest (news-tier: [Protothema 30 Apr 2025](https://www.protothema.gr/economy/article/1632303/akinita-pagonoun-oi-adikeimenikes-axies-mehri-to-2027/); a policy choice reported in the press, not a gazetted freeze — none found 2026-10-29) — figures may have changed since
 3. **Cross-check** Bank of Greece RPPI for area trend
-4. **Settle objective value vs market**: market often 40-60% above objective
+4. **Settle objective value vs market**: the gap varies by area (est.); two prime sales reported by the press ran 54–60% above the zone price — Kolonaki €6,642/m² vs €4,150, Glyfada €6,553/m² vs €4,250 (computed +60% and +54%; news-tier: [Protothema 30 Apr 2025](https://www.protothema.gr/economy/article/1632303/akinita-pagonoun-oi-adikeimenikes-axies-mehri-to-2027/)) — use the parcel's own zone price, not a rule of thumb; figures may have changed since
 
 ### Key terms
 
@@ -80,14 +80,14 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 ### Sources
 
-- **NEK** (Greek roads operator) for motorways
+- **Motorway concessionaires** for motorway traffic (no Greek roads operator called "NEK" was found, 2026-10-29): GEK TERNA reports one average daily number of passages per motorway (ADT, «μέσος ημερήσιος αριθμός διελεύσεων» — not a per-section AADT), H1 2026: Attiki Odos 290,775, Egnatia Odos 219,458 (New Egnatia concession perimeter), Nea Odos 117,869, Kentriki Odos 43,695 ([GEK TERNA ATHEX announcement 27 Jul 2026](https://athens.euronext.com/sites/default/files/hermes_3/2026-07/el/7a5875d6-2313-49f0-9875-d62313a9f02d/227_5558_2026_Greek_1.pdf), regulated-issuer disclosure; 2026-10-29 verified)
 - **Hellenic Statistical Authority** for transport data
 - **Ministry of Infrastructure** roads section
 - **OpenStreetMap** + Google Maps Live for urban arterials
 
 ### Key term
 
-**ΜΕΗΚ (Μέση Ετήσια Ημερήσια Κυκλοφορία)** = AADT-equivalent.
+**ΕΜΗΚ (Ετήσια Μέση Ημερήσια Κυκλοφορία)** = AADT-equivalent — the acronym used in Greek road-design teaching material (e.g. DUTH course notes, 2026-10-29); motorway concessionaires report «μέσος ημερήσιος αριθμός διελεύσεων (ADT)» instead.
 
 ### Verdict bands
 
@@ -182,6 +182,11 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 - Tenant moderate protection
 - Rent caps in some Athens neighborhoods (proposed 2025-2026) (UNVERIFIED — no primary source found for any rent-cap proposal in the 2026-10-29 pass; treat as unconfirmed until a bill is published)
 
+### Market figures (rents, yields)
+
+- **Rent inflation**: CPI "Rentals for dwellings" +5.9% year on year in September 2026, against headline CPI +5.0% ([ELSTAT CPI press release, 9 Oct 2026](https://www.statistics.gr/en/statistics/-/publication/DKT87/-); 2026-10-29 verified)
+- **Asking rents and gross yields** (listing tier — asking, not contracted, rents; Spitogatos SPI Q3 2026, read 2026-10-29): asking rents from €4.76/m² (Kilkis) to €13.45/m² (Athens south suburbs) per month (period inferred — the page gives €/m² only); indicative gross yield (annual asking rent ÷ asking price) Athens Centre 5.74%, Piraeus 4.95%, Chalandri 4.18%, Kifissia 4.14%, Glyfada 3.57% ([SPI](https://www.spitogatos.gr/deiktis-timon)). The Bank of Greece and ELSTAT releases checked give no rent levels or yields
+
 ### Short-let (Airbnb / Vrachychronia Misthosi)
 
 **MAJOR REFORMS 2024-2025**:
@@ -228,7 +233,7 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 ### Sources
 
-- **OAED / DYPA** (Greek labour ministry job platform)
+- **DYPA / ex-OAED** (Δημόσια Υπηρεσία Απασχόλησης, Public Employment Service): `https://www.dypa.gov.gr/` (2026-10-29; some legacy e-services still run on oaed.gr)
 - **kariera.gr**, **Skywalker.gr**, **JobFind.gr**
 - **LinkedIn GR**
 
@@ -236,17 +241,17 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 - **Atomiki epicheirisi** (sole trader): EFKA registration
 - **Eteria periorismenis efthynis (EPE)**: limited liability
-- **VAT (FPA)**: from €10,000 turnover (most sectors)
-- **Personal tax** (2026 reform, effective 1 Jan 2026): **9% / 20% / 26% / 34% / 39% / 44%** (new 39% band at €40-60k; pre-2026 was 9/22/28/36/44; under-25s now 0% to €20k) (2026-05-27 verified, source [TaxRavens Greece Personal Income Tax 2026](https://taxravens.com/en/blog/greece-personal-taxation) + [Immigrant Invest 2026 Tax Guide](https://immigrantinvest.com/blog/taxes-in-greece/))
+- **VAT (FPA)**: small-business exemption up to €10,000 annual turnover (VAT Code ν.5144/2024 art. 44α par. 1; not for special-scheme farmers, new means of transport or occasional property sales) (2026-10-29 verified, codified text via [taxheaven](https://www.taxheaven.gr/law/5144/2024/arthro/44%CE%B1))
+- **Personal tax** (2026 reform, effective 1 Jan 2026): **9% / 20% / 26% / 34% / 39% / 44%** (new 39% band at €40-60k; pre-2026 was 9/22/28/36/44; under-25s now 0% to €20k) (scale re-verified 2026-10-29 against the codified [ΚΦΕ art. 15 par. 1](https://www.taxheaven.gr/law/4172/2013/arthro/15) — breaks at €10k / €20k / €30k / €40k / €60k; 26–30-year-olds pay 9% up to €20k; Law 5246/2025 in force 1 Jan 2026 per [PwC Tax Summaries](https://taxsummaries.pwc.com/greece/individual/significant-developments); the pre-2026 scale was not re-checked; earlier sources [TaxRavens](https://taxravens.com/en/blog/greece-personal-taxation) + [Immigrant Invest](https://immigrantinvest.com/blog/taxes-in-greece/))
 - **EFKA contributions** mandatory
 
 ### Salary benchmarks (2025)
 
-- Median monthly gross:
+- Median monthly gross (est. — no regional primary series found, 2026-10-29; national anchor: e-EFKA average full-time monthly pay of private-law employees in ordinary enterprises (construction projects excluded), regular earnings only, €1,397.49 in March 2026 — a mean, not a median ([e-EFKA monthly employment statistics, March 2026, Table 2](https://www.e-efka.gov.gr/sites/default/files/2026-09/apasxolisi_03_2026.pdf), issued 09/2026)):
   - Athens: ~€1,300–€2,000
   - Thessaloniki: ~€1,200–€1,800
   - Smaller cities: ~€1,000–€1,500
-- **Minimum wage**: **€920/mo gross** (14 payments; €1,073.33 on a 12-month basis), effective 1 Apr 2026 (Ministerial Decision 8934/27.3.2026, ΦΕΚ Β΄ 1759 — up from €880, +4.55%; blue-collar daily wage €39.30 → €41.09; source ypergasias.gov.gr); government-stated target €950 by 2027 (news-tier) (2026-07-03 verified)
+- **Minimum wage**: **€920/mo gross** (14 payments; €1,073.33 on a 12-month basis), effective 1 Apr 2026 (Ministerial Decision 8934/27.3.2026, ΦΕΚ Β΄ 1759 — up from €880, +4.55%; blue-collar daily wage €39.30 → €41.09; source ypergasias.gov.gr); government target €950 by 2027 (Labour Minister Kerameos, [ypergasias.gov.gr 17 Oct 2024](https://ypergasias.gov.gr/ypeka-niki-kerameos-sto-proto-programma-syzitoume-poso-kai-pos-tha-afxanetai-o-katotatos-misthos-pano-apo-ta-950-evro-meta-to-2027/): «η δέσμευση είναι να φτάσει στα 950 ευρώ το 2027») (2026-10-29 re-verified against the [ypergasias.gov.gr minimum-wage page](https://ypergasias.gov.gr/ergasiakes-scheseis/syllogikes-ergasiakes-sxeseis/katotatos-misthos/))
 
 ---
 
@@ -396,9 +401,9 @@ ISO2: `gr`. Status: ✅ Fully populated (researched 2026-04; **Tier-A quarterly 
 
 ## Common listing platforms
 
-- **Spitogatos** — biggest
-- **XE.gr** — second
-- **Indomio**, **Goldenhome**, **Plot**, **Remax**
+- **Spitogatos** — biggest (self-reported network share; see `--price` › Listing platforms)
+- **XE.gr** — second (ranking unverified — no traffic or listing-count source was checked)
+- **Indomio**, **Goldenhome** (agency), **Plot**, **Remax** (all live 2026-10-29)
 
 ## Caveats unique to GR
 
