@@ -400,7 +400,7 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
 - **Japanese knotweed** — disclosed by the seller on the TA6 form (q.8.6–8.7), not recorded by HM Land Registry; lenders may want a treatment plan; treatment 5-yr programme (est.)
 - **SDLT additional dwelling 5% surcharge** (since Oct 2024) — punitive on BTL
 - **FHL abolition April 2025** — major change for short-let economics
-- **Council Tax based on 1991 values** in England/Scotland, 2003 values in Wales — wildly outdated; Wales revalues in 2028 (then every 5 years) and Scotland plans two bands above £1M from April 2028 (not yet legislated) — see `--tax` Future risk
+- **Council Tax based on 1991 values** in England/Scotland, 2003 values in Wales — wildly outdated; the Welsh revaluation legislated for 2028 (then every 5 years) is to be deferred to the next Senedd term (announced 20 Oct 2026, not yet law; no new year given) and Scotland plans two bands above £1M from April 2028 (not yet legislated) — see `--tax` Future risk
 - **Empty/second home premium**: England up to +100% on homes empty 1 year+ (since April 2024; up to +300% after 10 years) and on second homes (since April 2025); Wales up to +300% since April 2023
 - **Renters' Rights Act 2025** — Section 21 abolished (1 May 2026)
 - **Help to Buy ended** (England, 2023) — successor **Your First Home** equity loan confirmed at Budget 2026 (28 Oct 2026) but applications not open until Feb 2027 (pre-registration by end-Dec 2026, first sales Apr 2027); the local price-cap list and full eligibility rules are not yet published — do not price it into an offer until they are (see Active fiscal incentives)

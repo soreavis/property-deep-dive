@@ -42,7 +42,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 - **[Decree-Law 74/1979 on Real Estate Ownership by Non-Kuwaitis (قانون رقم 74 لسنة 1979)](https://www.moj.gov.kw/)** (verify at Ministry of Justice Real Estate Registration Department) — primary statute regulating foreign ownership; **broadly prohibits non-Kuwaiti non-GCC ownership of residential real estate**
 - **Subsequent amendments** (Law 20/2002 + Council of Ministers resolutions) — narrow case-by-case exceptions; have not opened broad designated-zone schemes comparable to UAE Dubai / Qatar / Saudi Arabia 2026
 - **GCC Common Market 2008** — extends Kuwaiti-equivalent ownership rights to nationals of UAE, Bahrain, Saudi Arabia, Qatar, Oman (subject to reciprocity)
-- **Amiri Decree 114/2024 on the Residence of Foreigners** (issued 28 Nov 2024; Art. 35 repeals Amiri Decree 17/1959, the old Aliens Residence law — [Amiri Diwan](https://www.da.gov.kw/en/news/1200-28_11_2024/)) — governs expatriate residency (Iqama); does NOT confer property-purchase rights
+- **Amiri Decree 114/2024 on the Residence of Foreigners** (issued 28 Nov 2024; gazetted in Kuwait Al-Youm No. 1715 of 1 Dec 2024, indexed there as a decree-law (مرسوم بقانون) from p. 32 — gazette index read, text not read; in-force date not confirmed; Art. 35 repeals Amiri Decree 17/1959, the old Aliens Residence law — [Amiri Diwan](https://www.da.gov.kw/en/news/1200-28_11_2024/)) — governs expatriate residency (Iqama); does NOT confer property-purchase rights
 - Administered jointly by **Ministry of Justice Real Estate Registration Department**, **Council of Ministers**, and (for commercial / FDI activities) **MOCI / KDIPA**
 
 ### Buyer category matrix
