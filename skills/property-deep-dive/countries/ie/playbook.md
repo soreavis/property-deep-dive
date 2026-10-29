@@ -95,11 +95,11 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 
 **MAJOR REVALUATION 2026-2030 cycle**:
 - **Valuation date**: 1 November 2025
-- **Filing deadline**: 7 November 2025 (extended to 12 Nov 2025)
+- **Filing deadline**: 7 November 2025, extended by Revenue to 17:30 on 12 November 2025 ([Revenue, 7 Nov 2025](https://www.revenue.ie/en/corporate/press-office/press-releases/2025/pr-110725-lpt-filing-deadline.aspx)); a property not liable on 1 Nov 2025 but liable on 1 Nov 2026 needs a return by 2 December 2026 (Citizens Information)
 - Applies to LPT charges 2026–2030
 - **Bands widened by 20%** to soften impact of price rises
-- **96% of properties remain in their existing band**
-- **New base rate**: **0.0906%** (was 0.10286%)
+- **An estimated 96% of properties remain in their existing band** (Department of Finance estimate, [press release](https://www.gov.ie/en/department-of-finance/press-releases/minister-donohoe-announces-changes-to-local-property-tax-to-ensure-fairness/))
+- **New base rate**: **0.0906%** (was 0.1029% for 2022–2025)
 
 #### LPT bands (2026-2030 cycle)
 
@@ -112,19 +112,18 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 | 3 | €315,001–€420,000 | €333 |
 | 4 | €420,001–€525,000 | €428 |
 | 5 | €525,001–€630,000 | €523 |
-| ... | ... | ... |
-| 19+ | up to €2.1M | progressive |
+| 6–19 | €630,001–€2,100,000 | €618 (Band 6) up to €3,110 (Band 19); per-band charges on Revenue's page |
 
 **Above €2.1M**: 0.0906% on first €1.26M + 0.25% on €1.26M-€2.1M + 0.30% above
 
 - Properties under €525k pay **€5–€25 extra**
-- **LAVL** (Local Authority Variation): each county can adjust **±15%**
+- **Local Adjustment Factor (LAF)**: each local authority can raise the basic rate by up to **25%** or cut it by up to **15%** (from 2026; it was ±15% for 2022–2025; Finance (LPT) Act 2012 s.20(5) as substituted by Act 6 of 2025 s.9). 2027 factors run from −15% (Dún Laoghaire-Rathdown) to +25% (Cavan, Leitrim, Sligo); Revenue's calculator applies them (2026-10-29 verified; sources [Revenue LPT bands and LAF table](https://www.revenue.ie/en/property/local-property-tax/valuing-your-property/valuation-bands-rates.aspx), [LPT Act revised](https://revisedacts.lawreform.ie/eli/2012/act/52/revised/en/html))
 - Significantly lower than UK Council Tax
-- (2026-07-03 verified; source [Revenue.ie LPT valuation bands and rates](https://www.revenue.ie/en/property/local-property-tax/valuing-your-property/valuation-bands-rates.aspx))
+- (2026-10-29 verified; sources [Revenue.ie LPT valuation bands and rates](https://www.revenue.ie/en/property/local-property-tax/valuing-your-property/valuation-bands-rates.aspx) (published 27 Oct 2026), [Department of Finance LPT changes](https://www.gov.ie/en/department-of-finance/press-releases/minister-donohoe-announces-changes-to-local-property-tax-to-ensure-fairness/) for the 20% widening, the 96% estimate and the €5–€25 figure)
 
 ### Vacant Homes Tax (VHT)
 
-- Additional charge on dwellings occupied <30 days in a chargeable period. **2026 rate = 7× the base LPT** (Finance Act 2024; was 3× 2022-23, 5× 2023-24). Self-assessed; separate from LPT. (2026-07-03 verified; source [Revenue.ie VHT rate](https://www.revenue.ie/en/property/vacant-homes-tax/apply/rate.aspx))
+- Additional charge on a dwelling in use as a dwelling for fewer than 30 days in a 12-month chargeable period (1 November–31 October). **Rate = 7× the basic LPT charge** (before the local adjustment factor) for the chargeable periods from 1 Nov 2024 to 31 Oct 2027 (Finance Act 2024; was 3× 2022-23, 5× 2023-24). Self-assessed; separate from LPT. (2026-10-29 verified; sources [Revenue.ie VHT rate](https://www.revenue.ie/en/property/vacant-homes-tax/apply/rate.aspx), [when VHT applies](https://www.revenue.ie/en/property/vacant-homes-tax/apply/apply-property.aspx))
 
 ### Residential Zoned Land Tax (RZLT)
 
@@ -151,29 +150,29 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 
 ### Conveyancing
 
-- **Solicitor fees**: **€1,500–€2,500** typical
-- **Searches**: ~€100–€300
-- **Land Registry fees**: €20–€910 (sliding scale)
-- **Engineer's report**: €300–€600 (recommended)
+- **Solicitor fees**: ~**€1,500–€2,500** + 23% VAT (est.; no official fee schedule, get written quotes)
+- **Searches**: ~€100–€300 (est.)
+- **Land Registry (Tailte Éireann) fees** for registered land: transfer on sale **€400** (price up to €50,000), **€600** (to €200,000), **€700** (to €400,000), **€800** (above €400,000); registering a mortgage charge **€175**, but no fee for a charge lodged electronically from 1 Jan 2024 to 31 Dec 2026 (S.I. 380/2012 Sch. items 1 and 10; S.I. 677/2023) (2026-10-29 verified; sources [Tailte Éireann schedule of fees](https://tailte.ie/land-registration-schedule-of-fees-fees-order-2012/), [S.I. 677/2023](https://www.irishstatutebook.ie/eli/2023/si/677/made/en/print))
+- **Engineer's report**: ~€300–€600 (est.; recommended)
 - **VAT 23%** on professional fees
 
 ### Total transaction cost (buyer)
 
-- Resale primary residence: ~**2–4%** typical (low compared to W. Europe)
-- Commercial: ~9–10%
-- High-value (>€1.5M): up to ~9%
+- Resale home €250,000–€1M: ~**1.3–3%** (computed: 1% stamp duty + Land Registry €400–€800 + est. solicitor, search and survey fees with 23% VAT on professional fees, i.e. €2,314–€4,113; €250,000 ≈ 2.2–2.9%, €400,000 ≈ €7,000–€8,800 or 1.8–2.2%, €1M ≈ 1.3–1.5%); below €250,000 the fixed fees weigh more (€150,000 ≈ 2.9–4.1%)
+- Commercial: ~9–10% (est.: 7.5% stamp duty plus legal, survey and registration fees; no official source)
+- High-value (>€1.5M): the 6% band applies only to the part above €1.5M, so stamp duty is **2.5%** of a €2M price, **3.7%** of €3M and **4.6%** of €5M, approaching but never reaching 6%; with the fees above, total ≈ 2.7% (€2M) to 4.7% (€5M) (computed)
 
 ### VAT
 
 - New build houses: **13.5%**
 - New/completed **apartments**: **9%** (second reduced rate, temporary to 31 Dec 2030; Finance Act 2025 s.70) only for apartments in a multi-storey building with ≥3 apartments sharing grouped or common access, and whole apartment blocks; from 26 Nov 2025 also student-accommodation blocks, qualifying sites and construction services until completion. A single apartment above a shop or under a duplex stays at **13.5%** (2025 data, source Revenue TDM *Supply and Construction of Qualifying Apartments and Apartment Blocks* + Finance Act 2025; 2026-10-21 verified)
-- Existing: VAT-exempt; Commercial new builds: 23%
+- Existing (second-hand): generally VAT-exempt. **New commercial property: 13.5%**, not 23% — the reduced rate covers the supply of non-residential immovable goods (VATCA 2010 s.46(1)(c), Sch. 3 para 15(1)); 23% is the standard rate, e.g. on professional fees (2026-10-29 verified; source [VATCA 2010 revised](https://revisedacts.lawreform.ie/eli/2010/act/31/revised/en/html))
 
 ### Capital gains
 
-- **CGT**: **33%** standard rate (s.28(3) TCA 1997). **Budget 2027**: Finance (No. 2) Bill 2026 s.36 (initiated 19 Oct 2026, **NOT enacted as of 2026-10-23**) cuts it to **31% for disposals on or after 7 Oct 2026** once enacted; development-land gains stay at **33%** (s.649A, not amended by the Bill; per Deloitte, secondary). (2026-10-23 verified; source [Finance (No. 2) Bill 2026 Explanatory Memorandum](https://data.oireachtas.ie/ie/oireachtas/bill/2026/98/eng/memo/b9826d-memo.pdf))
-- **Principal Private Residence (PPR) relief**: full exemption for owner-occupied primary
-- **Annual personal exemption**: €1,270
+- **CGT**: **33%** standard rate (s.28(3) TCA 1997). **Budget 2027**: Finance (No. 2) Bill 2026 s.36 (initiated 19 Oct 2026, **NOT enacted as of 2026-10-29**) cuts it to **31% for disposals on or after 7 Oct 2026** once enacted; Revenue's CGT pages already apply 31% from that date. Development-land gains stay at **33%** (s.649A, not amended by the Bill; Revenue lists 33% for development land). (2026-10-29 verified; sources [Finance (No. 2) Bill 2026 Explanatory Memorandum](https://data.oireachtas.ie/ie/oireachtas/bill/2026/98/eng/memo/b9826d-memo.pdf), [Revenue how to calculate CGT](https://www.revenue.ie/en/gains-gifts-and-inheritance/transfering-an-asset/how-to-calculate-cgt.aspx), [Oireachtas bill record](https://api.oireachtas.ie/v1/legislation?bill_year=2026&bill_no=98))
+- **Principal Private Residence (PPR) relief**: full CGT exemption only if the home was your only or main residence for the whole period of ownership (the last 12 months always count), plus up to 1 acre of grounds excluding the house site; restricted for periods not occupied, partial business use or development value (2026-10-29 verified; source [Revenue PPR relief](https://www.revenue.ie/en/gains-gifts-and-inheritance/cgt-reliefs/principal-private-residence-ppr-relief.aspx))
+- **Annual personal exemption**: €1,270 (individuals only, not transferable to a spouse; [Revenue](https://www.revenue.ie/en/gains-gifts-and-inheritance/transfering-an-asset/what-is-exempt-from-cgt.aspx); 2026-10-29 verified)
 
 ### Capital Acquisitions Tax (CAT)
 
@@ -185,8 +184,8 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 
 ### Local Authority charges
 
-- **NPPR** (Non-Principal Private Residence) — abolished
-- **Household Charge** (2012) — abolished, replaced by LPT
+- **NPPR** (Non-Principal Private Residence charge, from 2009) — no longer charged from 2014; outstanding NPPR charges and fees expired on 31 March 2025, so a seller no longer has to prove NPPR was paid (2026-10-29 verified; source [Citizens Information LPT](https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/local-property-tax/))
+- **Household Charge** (2012) — abolished from 1 January 2013 and replaced by LPT; arrears unpaid by 1 July 2013 were converted into LPT (Citizens Information; LPT Act 2012 ss.155–156)
 - Various commercial rates apply
 
 ### Future risk
@@ -202,19 +201,20 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 
 ### Long-term residential
 
-- **RTB (Residential Tenancies Board)**: `https://www.rtb.ie/` — registration mandatory within 1 month of new tenancy
+- **RTB (Residential Tenancies Board)**: `https://www.rtb.ie/` — register a new tenancy within one month of its start date, then **every year on the anniversary** of the start date (annual registration since 4 April 2022, Residential Tenancies (Amendment) Act 2019); late fees accrue per month (2026-10-29 verified; source [RTB when to register](https://rtb.ie/register-tenancies/register-a-tenancy/when-to-register/))
 - **Rent controls — nationwide since 20 June 2025**: the Residential Tenancies (Amendment) Act 2025 extended Rent Pressure Zones to the whole country. **From 1 March 2026, RPZs are replaced by a permanent national rent-control system** (Residential Tenancies (Miscellaneous Provisions) Act 2026, No. 3 of 2026) covering all private + student-specific tenancies. Annual increase cap: **2% or CPI, whichever is lower**. **New-build apartments and student-specific accommodation** (commencement notice or 7-day notice lodged with the building control authority on or after 10 June 2025; also extensions of 25%+ of floor area and change-of-use conversions) are exempt from the 2% cap — CPI-linked only (RTA 2004 s.19(4)(aa) inserted by Act 3 of 2026 s.8; 2026-10-21 verified). New tenancies from 1 Mar 2026 run as **6-year "tenancies of minimum duration"**; landlords may reset to market rent only at the start of a new tenancy (not after a no-fault termination) or at the end of the 6-year cycle. **Large landlords** (4+ tenancies or a company) are barred from no-fault evictions for tenancies beginning on/after 1 Mar 2026 once the first six months have passed (RTB: all landlords can end a tenancy in the first six months for any reason). (2026-07-03 verified; source [RTB rental law changes from 1 March 2026](https://rtb.ie/renting/rental-law-changes-from-1-march-2/))
 - **Cost Rental** scheme: state-subsidized below-market
 - **Tenancy types**:
-  - Tenancies of unlimited duration (since 11 June 2022)
-  - Pre-existing fixed-term tenancies grandfathered
+  - Created **from 1 Mar 2026**: small landlords (1–3 tenancies) — rolling 6-year Tenancies of Minimum Duration; large landlords (4+ tenancies) — tenancy of unlimited duration after 6 months
+  - Created **11 Jun 2022 – 28 Feb 2026**: tenancy of unlimited duration after 6 months, whatever the landlord's size
+  - Part 4 tenancies started 25 Dec 2016 – 10 Jun 2022 run in 6-year cycles: the landlord can end one at the end of its cycle without giving a reason, otherwise it becomes a tenancy of unlimited duration; RTB says all these cycles end by 11 June 2028 (2026-10-29 verified; source [RTB tenant's right to stay](https://rtb.ie/renting/rights-responsibilities/tenants-right-to-stay-in-a-rented-property/))
 - **Notice periods strict**
 
 ### Short-let (Airbnb / tourist accommodation)
 
 **Irish short-let tax framework** (NOT UK FHL — there is no Irish FHL regime; Revenue does not treat short-term guest accommodation as Case V rental income):
 - **Case IV (other income) vs Case I (trading)**: guests are licensees, not tenants with exclusive possession, so short-term guest income (e.g. via an online booking site) is not Case V rental income. It is taxed under **Case IV** when the letting is occasional, even with extra services, and under **Case I** when it is a trade (let frequently and regularly on a commercial basis with a view to profit); Case V applies only where a genuine tenancy exists. Case I allows wear-and-tear capital allowances of **12.5% a year over 8 years** on fixtures and fittings (s.284(1) TCA 1997). Under Case IV no capital allowances are available and only direct costs of the accommodation service (e.g. booking commission, cleaning) are deductible, not insurance, general maintenance or pre-letting costs. Rent-a-Room relief does not apply to short-term guests. (2026-10-23 verified; sources [Revenue Irish rental income](https://www.revenue.ie/en/property/rental-income/irish-rental-income/index.aspx), [Revenue TDM Part 04-01-20](https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-04/04-01-20.pdf))
-- **DAC7 platform reporting**: Airbnb/Booking/Vrbo report host earnings to Revenue from 2024 onward.
+- **DAC7 platform reporting**: platforms (Airbnb, Booking, Vrbo) report hosts' rental-of-immovable-property income for each calendar year by 31 January of the next year, to Revenue or to the EU tax authority where the platform is registered, which exchanges it with Revenue; the first reports covered 2023 (TCA s.891I; 2026-10-29 verified; source [Revenue DAC7/MRDP](https://www.revenue.ie/en/companies-and-charities/international-tax/aeoi/dac7/index.aspx))
 - **Short-Term Letting Register (STLR)**: planned via the Short-Term Letting and Tourism Bill (General Scheme approved 15 Apr 2025). The Government **published the Bill on 6 Oct 2026** (DETE): it gives full effect to EU Reg 2024/1028, gives Fáilte Ireland registration and inspection powers, and requires platforms to display registration numbers, run random checks, share data and remove non-compliant listings. The Bill was **initiated in Dáil Éireann on 23 Oct 2026 as Bill 101 of 2026** ([as initiated](https://data.oireachtas.ie/ie/oireachtas/bill/2026/101/eng/initiated/b10126d.pdf)) and is **NOT enacted as of 2026-10-23**; once enacted it commences by ministerial order (s.1(2)). DETE (press releases 13 May and 6 Oct 2026 + its STL page) announces that the register **opens 1 Dec 2026** and all hosts **must register by 31 Dec 2026** (platform obligations also from 31 Dec 2026; annual renewal; nominal annual fee, structure not yet published). These are announced targets, not yet law: Fáilte Ireland's own page still says registration "will open once the necessary legislation has been passed" and gives no dates. Both are primary sources, and the gap is the Bill, initiated 23 Oct 2026 but not yet enacted or commenced. Hosts letting for ≤21 nights will have to register each unit and display a unique STL number. Currently no operational national register. (2026-10-23 verified; sources [DETE short-term letting page](https://enterprise.gov.ie/en/what-we-do/trade-investment/tourism/short-term-letting/), [DETE release 6 Oct 2026](https://enterprise.gov.ie/en/news-and-events/department-news/2026/october/20261006.html), [Fáilte Ireland STLR page](https://www.failteireland.ie/registration-and-grading/short-term-letting-register-(STLR).aspx), [Oireachtas bill register](https://api.oireachtas.ie/v1/legislation?limit=400&bill_year=2026))
 
 ### Local short-let rules
@@ -225,8 +225,9 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ### Tax on rental
 
 - **Income tax**: progressive 20-40%
-- **USC (Universal Social Charge)** + **PRSI** Class S (**4.1 % from Jan 2025; 4.2 % from 1 Oct 2025; 4.35 % from 1 Oct 2026** — gradual pension-funding increase)
-- **NLWT (Non-Resident Landlord Withholding Tax)**: tenant or designated collection agent must withhold **20%** of gross rent under the NLWT system, in force since **1 July 2023** (collection agent remits within 21 days via ROS/myAccount). (2026-05-27 verified; source [Revenue.ie NLWT](https://www.revenue.ie/en/property/rental-income/nlwt/index.aspx))
+- **USC (Universal Social Charge)** + **PRSI** on rental income (Class S if self-employed; Class K for employees and occupational pensioners under 66 whose only extra income is unearned, such as rent): **4.1% until 30 Sep 2025, 4.2% from 1 Oct 2025, 4.35% from 1 Oct 2026**; 2026 self-assessed income uses a blended 4.2375%; Class S minimum €650 (2026-10-29 verified; sources [Revenue PRSI](https://www.revenue.ie/en/self-assessment-and-self-employment/guide-to-self-assessment/prsi-need-pay.aspx), [DSP notice June 2025](https://assets.gov.ie/static/documents/20250620_Mid_Year_Advance_Notice_-_June_2025.pdf), [DSP notice June 2026](https://assets.gov.ie/static/documents/64de05a7/20260623_20250620_Mid_Year_Advance_Notice_-_June_2026_final.pdf_FINAL_3.pdf), [Citizens Information Class S](https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/class-s-prsi/))
+- **NLWT (Non-Resident Landlord Withholding Tax)**: since **1 July 2023**, a tenant paying rent directly to a non-resident landlord must withhold **20%** and remit it with a Rental Notification in ROS/myAccount. A collection agent (must be Irish-resident) either withholds 20% the same way or registers with Revenue as a chargeable agent and withholds nothing. The withheld tax is a credit on the landlord's Form 11 / CT1. (2026-10-29 verified; sources [Revenue NLWT](https://www.revenue.ie/en/property/rental-income/nlwt/index.aspx), [collection agents](https://www.revenue.ie/en/property/rental-income/nlwt/collection-agents.aspx))
+- **Residential Premises Rental Income Relief (RPRIR)** for individual landlords: income-tax relief of up to **€600 (2024), €800 (2025), €1,000 (2026 and 2027)**, capped at 20% of Case V rental profit and one relief a year however many properties. On 31 December the landlord must hold a tax clearance certificate and be LPT-compliant, and the property must be let under an **RTB-registered tenancy** (or to a local authority, or actively marketed for rent), not to a connected person. Clawed back on a sale or gift within 4 years of the first claim, or a switch to e.g. holiday letting. Income tax only, not USC or PRSI. (2026-10-29 verified; sources [Revenue RPRIR](https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/land-and-property/rprir/index.aspx), [conditions](https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/land-and-property/rprir/qualifying-conditions.aspx), [amount](https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/land-and-property/rprir/how-much-can-you-claim.aspx), [clawback](https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/land-and-property/rprir/clawback.aspx))
 - **Revenue.ie eForm 11** for self-assessment
 - **Rent-a-Room scheme** (s.216A TCA 1997): up to **€14,000/yr** (2026) exempt from income tax, PRSI and USC for rooms let long-term in your sole or main residence; if gross receipts exceed the limit, the whole amount is taxed. Short-term stays via B&Bs, guesthouses or online booking sites do not qualify. Budget 2027 (Finance (No. 2) Bill 2026 s.16, **NOT enacted as of 2026-10-23**) would raise the limit to **€16,000 from 1 Jan 2027** (main residence and any auxiliary dwelling combined) and extend the relief, for 27 Jul 2026 – 31 Dec 2030, to rooms in an **auxiliary dwelling** in the grounds of the main residence (32–45 m², installed after 27 Jul 2026, per the Department of Finance). (2026-10-23 verified; sources [Revenue Rent-a-Room — what type of residence qualifies](https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/land-and-property/rent-a-room-relief/what-type-of-residence-qualifies.aspx), [Explanatory Memorandum](https://data.oireachtas.ie/ie/oireachtas/bill/2026/98/eng/memo/b9826d-memo.pdf))
 
@@ -357,13 +358,13 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 | Work | Cost (€) |
 |---|---:|
 | BER cert | 150–300 |
-| Solicitor (conveyancing) | 1,500–2,500 |
-| Searches + Land Registry | 100–910 |
-| Engineer's report | 300–600 |
-| Stamp duty (residential, €400k) | 4,000 |
-| **Total transaction cost (residential primary, ≤€1M)** | **~2–4%** of price |
-| **Total transaction cost (residential >€1.5M)** | **~7–9%** |
-| **Total transaction cost (commercial)** | **~9–10%** |
+| Solicitor (conveyancing) | ~1,500–2,500 + VAT (est.) |
+| Searches + Land Registry | ~500–1,100 (Land Registry €400–€800 by price band, S.I. 380/2012; searches ~€100–€300 est.) |
+| Engineer's report | ~300–600 (est.) |
+| Stamp duty (residential, €400k) | 4,000 (= 1% × €400,000) |
+| **Total transaction cost (residential, ≤€1M)** | **~1.3–3%** of price at €250k–€1M, more below that (computed in `--tax` above; €150k ≈ 2.9–4.1%, €400k ≈ 1.8–2.2%) |
+| **Total transaction cost (residential >€1.5M)** | **~2.7–4.7%** at €2M–€5M (stamp duty 2.5% of €2M, 4.6% of €5M; computed) |
+| **Total transaction cost (commercial)** | **~9–10%** (est.: 7.5% stamp duty + fees) |
 | **Pyrite/Mica remediation** | **100,000–462,000+** (lower bound est.; DCBS grant cap 462,000 from 23 Oct 2024, S.I. 577/2024) |
 | Septic to mains | 5,000–15,000 (est.; Uisce Éireann standard single-domestic wastewater connection alone is 3,929 up to 10 m) |
 | Roof slate (200 m²) | 25,000–50,000 |
@@ -374,13 +375,13 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ## Active fiscal incentives (2025-2026, incl. Budget 2027 proposals)
 
 - **Help-to-Buy (HTB)**: rebate for first-time buyers of a new home, the lesser of **€35,000**, 10% of the price (completion value for self-builds) and income tax + DIRT paid over the prior 4 years, for contracts or first self-build drawdowns **7 Oct 2026 – 31 Dec 2029** (€30,000 cap 23 Jul 2020 – 6 Oct 2026). The €35,000 cap is Budget 2027, in Finance (No. 2) Bill 2026 s.17 (amending s.477C TCA 1997), **NOT enacted as of 2026-10-23**. (2026-10-23 verified; sources [Revenue.ie HTB — how much can you claim](https://www.revenue.ie/en/property/help-to-buy-incentive/how-much-can-you-claim.aspx), [Explanatory Memorandum](https://data.oireachtas.ie/ie/oireachtas/bill/2026/98/eng/memo/b9826d-memo.pdf))
-- **First Home Scheme** (shared equity): up to 30% of price; reduces mortgage burden
-- **Local Authority Affordable Purchase (LAAP)**: discounted home purchase
+- **First Home Scheme** (shared equity): up to **30%** of the price or build cost of a new home, or **20%** if also claiming Help to Buy; the equity share is a fixed percentage, so the € amount to redeem moves with the home's value (2026-10-29 verified; source [firsthomescheme.ie](https://www.firsthomescheme.ie/))
+- **Local Authority Affordable Purchase (LAAP)**: local authorities sell new homes below open market value and keep an equity share equal to the discount. The official portal (affordablehomes.ie now redirects to newstarterhomes.ie, Department of Housing + Housing Agency) describes this mechanism, under the Affordable Housing Act 2021, as the **Starter Home Purchase Scheme**; that this is the LAAP scheme under a new name is an inference, since no page says it was renamed (2026-10-29 verified; sources [Starter Home Purchase Scheme](https://newstarterhomes.ie/starter-home-purchase/about/), [FAQ](https://newstarterhomes.ie/starter-home-purchase/faq/))
 - **SEAI Better Energy Homes**: heat pump, insulation, solar grants
-- **Better Energy Warmer Homes**: free upgrades for low-income
-- **Defective Concrete Blocks Scheme (DCBS)**: up to €420,000 remediation
+- **SEAI fully funded upgrades**: homeowners on certain Department of Social Protection payments who meet the eligibility rules can get fully funded energy upgrades, or higher grants; separately, the National Home Energy Upgrade Scheme gives a grant, deducted from the cost upfront, for a complete upgrade to at least BER B managed by a registered One Stop Shop (SEAI home grants page, 2026-10-29; the 'Better Energy Warmer Homes' name is no longer used there)
+- **Defective Concrete Blocks Scheme (DCBS)**: overall grant cap **€462,000**; dwellings in Carlow, Clare, Donegal, Limerick, Mayo, Sligo and parts of Fingal, Meath and Wexford; principal private residences, or one rented dwelling per household with an RTB tenancy registered on or before 1 Nov 2021 (2026-10-29 verified; source [gov.ie DCBS](https://www.gov.ie/en/department-of-housing-local-government-and-heritage/services/defective-concrete-blocks-grant-scheme/), updated 2 Sep 2026)
 - **Rent Tax Credit**: €1,000 (single) / €2,000 (jointly assessed) for 2026 — extended to end of 2028 (Budget 2026). Budget 2027 proposes **€1,150 / €2,300 for 2027 and 2028**, other conditions unchanged (Finance (No. 2) Bill 2026 s.4, amending s.473B TCA 1997; **NOT enacted as of 2026-10-23**). (2026-10-23 verified; sources [Revenue.ie Rent Tax Credit](https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/land-and-property/rent-credit/index.aspx), [Explanatory Memorandum](https://data.oireachtas.ie/ie/oireachtas/bill/2026/98/eng/memo/b9826d-memo.pdf))
-- **Mortgage Interest Tax Credit**: relief on 2025-2026 interest increase vs 2022; 2025 max €1,250/property, 2026 max €625/property (tapering out; per Citizens Information Budget 2026 — confirm at Revenue.ie). (2026-07-03 verified)
+- **Mortgage Interest Tax Credit**: for homeowners with a principal-residence mortgage balance of €80,000–€500,000 on 31 Dec 2022; relief at 20% on the increase in interest over 2022, max **€1,250 per property for 2023–2025**; for **2026** (Finance Act 2025) on 50% of the increase, max **€625**. No extension to 2027 appears in the Budget 2027 guide or the Finance (No. 2) Bill 2026 Explanatory Memorandum (2026-10-29 verified; source [Revenue MITC](https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/land-and-property/mortgage/index.aspx))
 
 ## Common listing platforms
 
@@ -391,9 +392,9 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 ## Caveats unique to IE
 
 - **Eircode** (since 2015) — most reliable address identifier; many older systems still use townland+county
-- **Tailte Éireann merger 2023** — consolidated Property Registration Authority + Ordnance Survey + PSRA — historic landings under different systems
-- **No Irish FHL regime** — short-term guest income is not Case V rental income: Revenue taxes it under Case IV (occasional) or Case I (trade); DAC7 platform reporting from 2024; Short-Term Letting Register (STLR): DETE announces opening 1 Dec 2026 with registration by 31 Dec 2026, but the enabling Bill (Bill 101 of 2026), published by the Government on 6 Oct 2026 and initiated in the Dáil on 23 Oct 2026, is not enacted as of 2026-10-23 (see Short-let section)
-- **LPT revaluation 2026-2030** — new bands, base rate 0.0906%, 96% stay in band
+- **Tailte Éireann merger 2023** — took over the Property Registration Authority and Ordnance Survey Ireland (both dissolved) and the Commissioner of Valuation's functions (Tailte Éireann Act 2022, No. 50 of 2022); the PSRA was not part of it — historic landings under different systems
+- **No Irish FHL regime** — short-term guest income is not Case V rental income: Revenue taxes it under Case IV (occasional) or Case I (trade); DAC7 platform reporting (first reports covered 2023); Short-Term Letting Register (STLR): DETE announces opening 1 Dec 2026 with registration by 31 Dec 2026, but the enabling Bill (Bill 101 of 2026), published by the Government on 6 Oct 2026 and initiated in the Dáil on 23 Oct 2026, is not enacted as of 2026-10-23 (see Short-let section)
+- **LPT revaluation 2026-2030** — new bands, base rate 0.0906%, an estimated 96% stay in band; local adjustment factor now up to +25% / −15%
 - **Pyrite/Mica defective blocks scandal** — DCBS-designated: Clare, Donegal, Limerick, Mayo, Sligo, Carlow, and parts of Fingal, Meath and Wexford (2026-10-29 verified; gov.ie DCBS)
   - DCBS grant cap €462,000 (€420,000 before 23 Oct 2024; S.I. 577/2024)
   - Some properties uninhabitable
@@ -404,12 +405,14 @@ ISO2: `ie`. Status: ✅ Fully populated (researched 2026-04; Tier-A refresh 2026
 - **Help-to-Buy (HTB)** scheme for first-time buyers (€30k rebate cap to 6 Oct 2026; €35k from 7 Oct 2026 under Finance (No. 2) Bill 2026, not enacted)
 - **First Home Scheme + LAAP** combined creates complex affordability math
 - **Ribbon development restrictions** in many counties (rural one-off houses)
-- **An Bord Pleanála** appeals process can stall sales/extensions
+- **An Coimisiún Pleanála** (formerly An Bord Pleanála; renamed by the Planning and Development Act 2024 s.495(1)(b)) appeals process can stall sales/extensions
 - **Storm Éowyn 24 January 2025** as recent reform-driver event
 - **No NPPR / Household Charge anymore** — recurring charges are LPT, plus VHT on vacant dwellings and RZLT on in-scope zoned serviced land (Derelict Property Tax proposed in Finance (No. 2) Bill 2026, not enacted)
 - **Rent-a-Room scheme** €14,000/yr tax-free (2026; €16,000 from 2027 proposed in Finance (No. 2) Bill 2026, not enacted) — long-term lodgers only, not short-term guests
 - **Stamp duty 6% above €1.5M** introduced 2024
 - **Bulk-purchase 15% stamp duty** anti-investor measure (10+ residential properties, apartments excluded)
+- **Mortgage limits (Central Bank of Ireland mortgage measures)**: loan-to-income cap **4×** gross income for first-time buyers and **3.5×** for second and subsequent buyers; minimum deposit **10%** for both and **30%** for buy-to-let, which has no LTI cap; lenders may exceed the limits on 15% of first-time and of second/subsequent-buyer lending and 10% of buy-to-let lending (2026-10-29 verified; source [Central Bank mortgage measures](https://www.centralbank.ie/financial-system/financial-stability/macro-prudential-policy/mortgage-measures))
+- **Immigrant Investor Programme (IIP) ENDED**: closed to new applications from close of business 15 Feb 2023. Non-EEA retirees use **Stamp 0** (independent means): an individual income of €50,000 a year, access to a lump sum for major expenses (the guidance gives the price of a home as an example), private medical insurance, applied for before arriving (2026-10-29 verified; sources [ISD IIP closure](https://www.irishimmigration.ie/minister-harris-announces-closure-of-the-immigrant-investor-programme/), [ISD retiring to Ireland](https://www.irishimmigration.ie/coming-to-live-in-ireland/i-want-to-retire-to-ireland/))
 
 ## Reddit / forum sources
 
