@@ -381,7 +381,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 |---|---|---|
 | **Sandstorms / dust storms** | Recurrent; major events Mar-May + Oct-Nov | [National Center for Meteorology (NCM — المركز الوطني للأرصاد)](https://ncm.gov.sa/) |
 | **Extreme heat (T > 50°C)** | Annual occurrence Jun-Aug across most of country | NCM + IPCC AR6 Persian Gulf projections |
-| **Flash floods** | Documented major events: **Jeddah floods Nov 2009** (>120 deaths) + **Jeddah floods Jan 2011** + repeat 2021/2022 + **Mecca floods Jan 2023** | [Saudi Geological Survey (SGS — هيئة المساحة الجيولوجية)](https://sgs.gov.sa/) + General Directorate of Civil Defence (الدفاع المدني) — flood-event dates per contemporaneous disaster records (verify at Civil Defence) |
+| **Flash floods** | Documented major events: **Jeddah floods 25 Nov 2009** (Civil Defence official toll 118 on 11 Dec 2009; later press reports at least 122) + **Jeddah floods Jan 2011** + **Jeddah 24 Nov 2022** (NCM: 179 mm in 6 h, more than the 2009 flood; 2 deaths) + **Mecca flash flooding Dec 2022 / early 2023** (exact date not verified) | [Saudi Geological Survey (SGS — هيئة المساحة الجيولوجية)](https://sgs.gov.sa/) + General Directorate of Civil Defence (الدفاع المدني) — flood-event dates per contemporaneous disaster records (verify at Civil Defence) |
 | **Drought + groundwater depletion** | Severe; Saudi aquifer crisis (Saq, Disi); agriculture water-policy reform 2016+ | [Ministry of Environment, Water & Agriculture (MEWA)](https://www.mewa.gov.sa/) |
 | **Seismicity** | **LOW-MODERATE**: Western Arabia (Red Sea Rift) M3-4 events common; **Riyadh + central low-risk**; **Tabuk + Madinah moderate** | [Saudi Geological Survey (SGS — هيئة المساحة الجيولوجية)](https://sgs.gov.sa/) — National Center for Earthquakes & Volcanoes |
 | **Volcanic** | Western Saudi has **Quaternary volcanic fields (harrats)** — Harrat Khaybar, Harrat Rahat (Madinah), Harrat Lunayyir, Harrat al-Sham; **Madinah Harrat Rahat 1256 AD eruption** historical; **Lunayyir 2009 seismic-volcanic crisis** | SGS Volcano Hazard Maps |
@@ -390,16 +390,16 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Jeddah floods — what changed (key recent events)
 
-- **25 Nov 2009 Jeddah floods**: 124 confirmed deaths, ~10,000 homes affected; rainfall ~70mm in 4 hrs overwhelmed inadequate drainage; led to Royal Court investigation + 50+ municipal officials prosecuted
-- **26 Jan 2011 Jeddah floods**: 11 deaths; second major event prompting accelerated drainage investment
-- **2021–2022 events**: recurring flash flooding in Jeddah's southern districts (Quwaiza, Jameaa, Bany Malek)
-- **23 Jan 2023 Mecca floods**: significant flooding around haram area
+- **25 Nov 2009 Jeddah floods**: Civil Defence's official toll was 118 dead with 48 still missing (Arab News, 11 Dec 2009, which counted at least 125); later press gives at least 122 dead and some 3,000 vehicles swept away or damaged (Saudi Gazette, 24 Nov 2022) — secondary reports; the ~10,000 homes, ~70 mm in 4 hrs and 50+ officials prosecuted figures are not verified from a primary source
+- **26 Jan 2011 Jeddah floods**: the earlier "11 deaths" is not verified — the official flood media centre put the toll at 10 dead and 114 injured, with 5 still missing, a week after the flood (Arab News, 2 Feb 2011, secondary; the final toll was not checked); second major event prompting accelerated drainage investment
+- **24 Nov 2022 Jeddah floods**: NCM recorded 179 mm in the six hours 8 a.m.–2 p.m., more than in the Nov 2009 flood and the highest ever recorded in the city; Civil Defence confirmed 2 deaths (Saudi Gazette + Arab News, 24 Nov 2022 — secondary reports of the NCM and Civil Defence figures); the earlier district list for 2021–2022 events (Quwaiza, Jameaa, Bany Malek) is not verified
+- **Mecca flash flooding (Dec 2022 / early 2023)**: the earlier "23 Jan 2023" date is not confirmed by any source read on 2026-10-29 — Wikipedia (tertiary) dates a Mecca flash flood to 23 Dec 2022, citing Middle East Eye; verify the date and extent with NCM / Civil Defence
 - **Reform**: Jeddah Stormwater Drainage Programme — programme-wide budget: data not publicly available (no programme total found in a 2026-10-28 search; published figures are project- or phase-level) — verify at [Ministry of Municipalities and Housing — MOMAH](https://momah.gov.sa/) / Jeddah Municipality; Vision 2030 city-resilience pillar
 - **Implication for buyers**: low-elevation Jeddah districts + wadi-channel-adjacent Riyadh/Jeddah parcels carry persistent flood risk — verify drainage history with REGA + Civil Defence; demand floor-elevation evidence
 
 ### Build-quality / fire risk
 
-- **Saudi Building Code (SBC)** in force since 2007; major revisions 2018 (SBC 2018 series) tightened structural + fire + energy
+- **Saudi Building Code (SBC)**: the Saudi Building Code Center's site lists the **2024 edition** (SBC 201 general building code through SBC 1401, incl. SBC 801 fire protection and SBC 601/602 energy conservation) as its code set (sbc.gov.sa, 2026-10-29 verified); the 2007 first issue and 2018 revision are from earlier research and not re-verified
 - **Pre-2007 stock** (especially Jeddah villas built 1970s-1990s): variable quality; cooling-system retrofit common
 - **Fire safety**: Civil Defence (الدفاع المدني) inspects + permits; high-rise ACP-cladding inventory unclear post-Grenfell era — request developer/owner Civil Defence Fire Compliance certificate
 
@@ -416,17 +416,17 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Climate to 2050 (IPCC AR6 + KAUST research)
 
-- **+1.5–3.5°C** by 2050 vs 1981–2010 baseline (SSP scenarios) — Arabian Peninsula warming faster than global average
-- **Wet-bulb 35°C survivability threshold**: projected to be approached in **southern Red Sea coast + eastern coast** by 2070+ under high-emissions ([Pal & Eltahir 2015](https://www.nature.com/articles/nclimate2833) + IPCC AR6 WG1)
+- Saudi Arabia annual mean temperature, 2040–2059 vs 1995–2014, CMIP6 multi-model median: **+1.60 °C (SSP1-2.6), +1.86 °C (SSP2-4.5), +1.98 °C (SSP3-7.0), +2.46 °C (SSP5-8.5)**; 10th–90th percentile spread from +0.92 °C (SSP1-2.6) to +2.97 °C (SSP5-8.5) (World Bank Climate Change Knowledge Portal API, cmip6-x0.25, fetched 2026-10-29 — secondary data portal; baseline taken as the portal's 1995–2014 historical period). The earlier "+1.5–3.5 °C vs 1981–2010" range had no source; "warming faster than the global average" is not re-verified
+- **Wet-bulb 35°C survivability threshold**: extremes of wet-bulb temperature in the region around the Arabian Gulf are likely to approach and exceed it under business-as-usual emissions ([Pal & Eltahir 2015](https://www.nature.com/articles/nclimate2833), *Nature Climate Change* 6, 197–200); the abstract names the Gulf region only — the "southern Red Sea coast" and "by 2070+" details are not in it, verify in the paper
 - More extreme rainfall events for western Arabia (Jeddah-2009-type)
-- Sea-level rise: ~30 cm by 2050 (median); affects Jeddah Corniche, Red Sea Project shoreline, Eastern Province Corniche
-- **Drought intensification**: ag + groundwater stress; Saudi Green Initiative 2021 commits to 10B trees by 2030 + 30% land protection
+- Sea-level rise: IPCC AR6 global mean rise by 2050 vs 1995–2014 is a median of 0.18 m (SSP1-1.9) to 0.23 m (SSP5-8.5), likely range 0.15–0.29 m across scenarios (IPCC AR6 data as tabulated by the Hong Kong Observatory); local Red Sea and Gulf values may differ — the earlier "~30 cm by 2050 (median)" was above every scenario median; affects Jeddah Corniche, Red Sea Project shoreline, Eastern Province Corniche
+- **Drought intensification**: ag + groundwater stress; the Saudi Green Initiative (launched 2021) targets 10 billion trees across Saudi Arabia over the coming decades, with 600+ million planted by 2030, and 30% of land and sea protected by 2030 ([SGI](https://www.sgi.gov.sa/en/about-sgi/)) — the earlier "10B trees by 2030" misstated the horizon
 
 ### Saudi Green Initiative + Middle East Green Initiative (2021)
 
 - Announced Mar 2021 by Crown Prince Mohammed bin Salman ([sgi.gov.sa — SGI Day 2025](https://www.sgi.gov.sa/en/knowledge-hub/sgi-day-2025-promoting-a-culture-of-environmental-stewardship/))
-- 50% emissions reduction by 2030; net-zero 2060
-- 10 billion trees planted (Saudi Arabia) + 50 billion (Middle East regional)
+- Cut CO₂-equivalent emissions by more than 278 mtpa by 2030 (NDC); net zero by 2060 ([SGI — Reduce Carbon Emissions](https://www.sgi.gov.sa/en/about-sgi/sgi-targets/reduce-carbon-emissions/)) — the earlier "50% emissions reduction by 2030" has no source
+- Tree targets, not trees planted: 10 billion in Saudi Arabia "in the upcoming decades" plus 40 billion more across the Middle East under the Middle East Green Initiative, a 50 billion regional programme restoring 200 million hectares (Crown Prince announcement, 27 Mar 2021, sgi.gov.sa)
 - 30% land + sea protection by 2030
 - Renewable energy: 50% of electricity by 2030
 - **Property implication**: Vision 2030 mega-projects (NEOM Line, Red Sea, Diriyah) are designed as zero-carbon / low-carbon districts; conventional Riyadh/Jeddah stock faces transition risk
@@ -463,15 +463,15 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Universal in serviced areas
 
-Major Saudi cities (Riyadh, Jeddah, Mecca, Medina, Dammam-Khobar) are **fully reticulated** for water + electricity; sewerage coverage is high but variable in outer districts and rural areas. Desalinated water dominates (~50% of national supply via SWCC).
+Major Saudi cities (Riyadh, Jeddah, Mecca, Medina, Dammam-Khobar) are **fully reticulated** for water + electricity; sewerage coverage is high but variable in outer districts and rural areas. Desalinated water was 50% of distributed water in 2023 (44% in 2022) but 22% of total water supply from natural resources, where non-renewable groundwater was 62% (GASTAT Water Accounts 2023, released 5 Jan 2025 — figures may have changed since).
 
 | Service | Provider |
 |---|---|
-| **Electricity** (national) | **Saudi Electricity Company (SEC — الشركة السعودية للكهرباء)** `https://www.se.com.sa/` — sole licensed electricity distributor (vertically-integrated, partly privatised; PIF major shareholder) |
+| **Electricity** (national) | **Saudi Energy (السعودية للطاقة — formerly Saudi Electricity Company, SEC / الشركة السعودية للكهرباء)** `https://www.se.com.sa/` — calls itself "the primary source of electricity in the Kingdom" (generation, transmission, distribution); regulated by the **Saudi Electricity Regulatory Authority (SERA — الهيئة السعودية لتنظيم الكهرباء)**; the earlier "sole licensed distributor" wording is not supported; partly privatised, PIF major shareholder (not re-verified) |
 | **Water + Wastewater** | **National Water Company (NWC — شركة المياه الوطنية)** `https://www.nwc.com.sa/` — national operator (Riyadh, Jeddah, Mecca, Medina, Eastern Province operations) |
-| **Saline water + desalination** | **Saudi Water Authority / SWCC (المؤسسة العامة لتحلية المياه المالحة)** — bulk producer feeding NWC `https://www.swcc.gov.sa/` |
+| **Saline water + desalination** | **Saudi Water Authority (الهيئة السعودية للمياه)** — converted from SWCC (المؤسسة العامة لتحلية المياه المالحة) by Council of Ministers decision of 7 May 2024 and tasked with water-sector policy, planning and licensing standards (Arab News, 8 May 2024, secondary); a Jun 2022 Cabinet decision ordered the transfer of SWCC's assets to **Water Solutions Company (شركة حلول المياه)**, wholly PIF-owned — current bulk-production arrangements not verified; legacy site `https://www.swcc.gov.sa/` (Cloudflare block on 2026-10-29) |
 | **District cooling** | **Saudi Tabreed** (Vision 2030 mega-project areas) + **National Central Cooling Co.** + private utility partners |
-| **Telecom + fiber** | **STC (Saudi Telecom Company)** + **Mobily** + **Zain KSA** (privatised; CITC regulator) |
+| **Telecom + fiber** | **STC (Saudi Telecom Company)** + **Mobily** + **Zain KSA** (privatised; regulator: **Communications, Space & Technology Commission — CST**, formerly CITC; `https://www.cst.gov.sa/`) |
 
 ### Verification
 
@@ -482,14 +482,14 @@ Major Saudi cities (Riyadh, Jeddah, Mecca, Medina, Dammam-Khobar) are **fully re
 
 ### Tariffs (residential indicative, 2026)
 
-- **SEC residential electricity**: tiered; 1–6,000 kWh/month at SAR 0.18/kWh; >6,000 kWh at SAR 0.30/kWh — verify [SEC tariff schedule](https://www.se.com.sa/)
-- **NWC water**: tiered; first 15 m³/month low (~SAR 1/m³), rising to ~SAR 6/m³ at high consumption
-- **NWC wastewater**: ~25% of water bill
-- **District cooling** (Vision-2030 mega-project districts): SAR 200–500/month flat capacity + consumption charge
+- **Saudi Energy (ex-SEC) residential electricity**: current tariff 18 halalas (SAR 0.18)/kWh for 1–6,000 kWh/month, 30 halalas above ([consumption tariffs](https://www.se.com.sa/en/Ourservices/ColumnC/Bills-and-Consumption/ConsumptionTariffs/CT1)); **from 1 Jan 2027**: 21 / 33 halalas plus a fixed monthly charge by breaker capacity — SAR 70 (20 to under 100 A), 80 (100 to under 200 A), 90 (200 to under 300 A), 100 (300 A and above), all excluding 15% VAT ([tariff after adjustment](https://www.se.com.sa/ar-SA/Ourservices/ColumnC/Bills-and-Consumption/ConsumptionTariffs/CT2/CT2), 2026-10-29 verified); per the company's guide as reported by Ajel (25 Oct 2026, secondary) the fixed charge replaces the meter reading, maintenance and billing fee
+- **NWC water** (residential): the schedule set by the Dec 2015 Council of Ministers revision, as tabulated by Argaam (27 Mar 2016, secondary — not re-checked against NWC, whose site blocked automated access on 2026-10-29), is SAR 0.10 / 1.00 / 3.00 / 4.00 / 6.00 per m³ for ≤15 / 16–30 / 31–45 / 46–60 / >60 m³ a month; **from 1 Jan 2027** (NWC announcement via SPA, 25 Oct 2026): four tiers at SAR 1 / 2 / 4 / 6 per m³ for ≤15 / 15–30 / 30–45 / >45 m³, plus a fixed monthly charge by meter diameter from SAR 20 (≤20 mm) to SAR 100 (>100 mm) and SAR 20 per extra unit (tier and charge figures per Ajel and Al Eqtisadiah, 25–26 Oct 2026, secondary — verify at [NWC adjusted tariff](https://www.nwc.com.sa/EN/pages/adujstedwaterandwastewaterservicesrate.aspx))
+- **NWC wastewater**: charged per m³ at half the water rate in each tier — SAR 0.05 / 0.50 / 1.50 / 2.00 / 3.00 on the 2016 schedule (Argaam, secondary) and SAR 0.5 / 1 / 2 / 3 plus a fixed charge from SAR 10 a month from 1 Jan 2027 (Ajel, secondary) — not "~25% of water bill"
+- **District cooling** (Vision-2030 mega-project districts): est. SAR 200–500/month flat capacity + consumption charge (unsourced — get the provider's tariff sheet before signing)
 
 ### Costs
 
-| Scenario | Cost (SAR) |
+| Scenario | Cost (SAR, est. — unsourced, not re-verified 2026-10-29) |
 |---|---:|
 | Connection (already serviced area) | SAR 200–1,500 (deposit + activation) |
 | Off-plan handover utility activation | Often included; verify with developer |
@@ -509,7 +509,7 @@ Major Saudi cities (Riyadh, Jeddah, Mecca, Medina, Dammam-Khobar) are **fully re
 
 ### Key context
 
-Saudi Arabia is **one of the safest major countries globally** by per-capita crime metrics. **Homicide rate ~1.5 per 100,000** (2018 latest UNODC global data + Saudi sources; far below world median). Property crime rates low; petty theft + vehicle theft localized. **Hudud (criminal) penalties under Sharia + strong Public Security presence** create strong deterrence. **CCTV deployment expanding** in major cities under Vision 2030 Smart City framework (Riyadh smart-city sensor network 2022–2026).
+Saudi Arabia is **one of the safest major countries globally** by per-capita crime metrics. **Homicide rate 0.94 per 100,000 in 2019** (0.74 in 2018; UNODC data via the World Bank WDI series, 2019 the latest year published, checked 2026-10-29 — figures may have changed since). Property crime rates low; petty theft + vehicle theft localized. **Hudud (criminal) penalties under Sharia + strong Public Security presence** create strong deterrence. **CCTV deployment expanding** in major cities under Vision 2030 Smart City framework (Riyadh smart-city sensor network 2022–2026).
 
 ### Specific risk vectors
 
@@ -563,12 +563,12 @@ Universal logic per `shared/climate-projections.md`. KSA-specific overrides:
 - **Coastal exposure**: Red Sea (west) + Persian/Arabian Gulf (east) coasts; Jeddah, Yanbu, Red Sea Project, Khobar/Dammam Corniche all <5km from coast
 - **Reference baseline**: NCM + GASTAT 1991–2020 normal series
 - **Key projections** (IPCC AR6 + KAUST regional models, SSP2-4.5 / SSP5-8.5):
-  - Annual mean temperature **+1.5 → +3.5°C** by 2100 (Arabian Peninsula warming faster than global)
-  - Hot days (Tmax ≥ 45°C): currently ~30–60/yr in interior Riyadh → 80–120/yr by 2100 SSP5-8.5
-  - Hot nights (Tmin ≥ 28°C): doubling/tripling
-  - **Wet-bulb 35°C threshold**: projected to be approached in southern Red Sea coast + eastern Gulf coast by 2070+ under high-emissions
-  - Sea-level rise: +0.30 → +0.85m by 2100 SSP2-4.5; +0.45 → +1.10m SSP5-8.5
-  - Extreme rainfall hourly intensity: +20–40% in western Arabia
+  - Annual mean temperature, 2080–2099 vs 1995–2014, CMIP6 multi-model median: **+1.49 °C (SSP1-2.6), +2.81 °C (SSP2-4.5), +4.15 °C (SSP3-7.0), +5.67 °C (SSP5-8.5)**; SSP5-8.5 90th percentile +7.0 °C (World Bank CCKP API, cmip6-x0.25, fetched 2026-10-29 — secondary data portal) — the earlier "+1.5 → +3.5 °C by 2100" understated the high-emission scenarios
+  - Hot days (Tmax > 45 °C), Saudi national average: 8.96/yr (1995–2014 model median) → 49.47/yr (SSP2-4.5) and 94.62/yr (SSP5-8.5) by 2080–2099 (World Bank CCKP API `hd45`, fetched 2026-10-29 — secondary data portal); interior-Riyadh counts (earlier "~30–60/yr → 80–120/yr") not verified
+  - Hot nights (Tmin > 29 °C), Saudi national average: 19.78/yr (1995–2014 model median) → 77.6/yr (SSP2-4.5) and 130.43/yr (SSP5-8.5) by 2080–2099 (World Bank CCKP API `tr29`, fetched 2026-10-29 — secondary data portal); the portal has no 28 °C threshold, so the earlier "Tmin ≥ 28 °C: doubling/tripling" is replaced
+  - **Wet-bulb 35°C threshold**: extremes around the Arabian Gulf are likely to approach and exceed it under business-as-usual emissions (Pal & Eltahir 2015, abstract); the "southern Red Sea coast" and "by 2070+" details are not in the abstract — verify in the paper
+  - Sea-level rise (global mean, vs 1995–2014): likely **0.44–0.76 m by 2100 under SSP2-4.5** (median 0.56 m) and **0.63–1.01 m under SSP5-8.5** (median 0.77 m); a rise approaching 2 m by 2100 under SSP5-8.5 cannot be ruled out (low confidence) (IPCC AR6 WG1 SPM B.5.3; medians from AR6 Table 9.9 via the Hong Kong Observatory); local Red Sea and Gulf values may differ
+  - Extreme rainfall hourly intensity: +20–40% in western Arabia (unsourced — not verified 2026-10-29)
   - Drought intensification: moderate-to-severe groundwater stress increases
 - **Acute-event flags**:
   - 🔴 Coastal property < 5m elevation (Jeddah Corniche frontage, Khobar Corniche, low-lying Red Sea Project sectors) under SSP5-8.5
@@ -577,7 +577,7 @@ Universal logic per `shared/climate-projections.md`. KSA-specific overrides:
 
 ### Climate verdict (typical urban Riyadh apt > 200m from wadi, > 5m elevation)
 
-🟠 **Adapt** — material cooling-load growth (already SAR 8,000–25,000/yr cooling for 200m² villa); insurance premium trajectory upward; building-envelope thermal-stress.
+🟠 **Adapt** — material cooling-load growth (est. SAR 8,000–25,000/yr cooling for a 200 m² villa — unsourced; the Cost benchmarks table gives the same range for a 300 m² villa); insurance premium trajectory upward; building-envelope thermal-stress.
 
 ### Confidence
 
@@ -1159,20 +1159,21 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | GASTAT (statistics) | `https://www.stats.gov.sa/` |
 | Ministry of Finance | `https://www.mof.gov.sa/` |
 | Ministry of Municipalities and Housing (MOMAH) | `https://momah.gov.sa/` |
-| Ministry of Tourism + Tourism.sa STR licensing (ex-Sahel) | `https://mt.gov.sa/` + `https://tourism.sa/` |
+| Ministry of Tourism + Tourism.sa STR licensing (ex-Sahel) | `https://mt.gov.sa/` + `https://tourism.sa/` (mt.gov.sa returned HTTP 500 and www.mt.gov.sa "this page is not accessible from an external network" on 2026-10-29; tourism.sa loads) |
 | Ministry of Hajj and Umrah | `https://www.haj.gov.sa/` |
 | Royal Commission for Riyadh City | `https://www.rcrc.gov.sa/` |
 | Saudi Geological Survey (SGS) | `https://sgs.gov.sa/` |
 | NCM (meteorology) | `https://ncm.gov.sa/` |
-| Civil Defence | `https://www.998.gov.sa/` |
+| Civil Defence | `https://www.998.gov.sa/` (timed out from a non-Saudi network on 2026-10-29 — not re-verified) |
 | MHRSD + Qiwa (labour) | `https://www.hrsd.gov.sa/` + `https://www.qiwa.sa/` |
-| TAQAT (jobs gateway) | `https://www.taqat.sa/` |
-| SEC (electricity) | `https://www.se.com.sa/` |
-| NWC (water) | `https://www.nwc.com.sa/` |
-| SWCC (desalination) | `https://www.swcc.gov.sa/` |
+| TAQAT (jobs gateway) | `https://www.taqat.sa/` (timed out from a non-Saudi network on 2026-10-29 — current status not verified) |
+| Saudi Energy (ex-SEC — electricity; consumption tariffs) | `https://www.se.com.sa/` + `https://www.se.com.sa/en/Ourservices/ColumnC/Bills-and-Consumption/ConsumptionTariffs/CT1` |
+| NWC (water) | `https://www.nwc.com.sa/` + adjusted tariff from 1 Jan 2027 `https://www.nwc.com.sa/EN/pages/adujstedwaterandwastewaterservicesrate.aspx` (both returned a Cloudflare 403 to automated requests on 2026-10-29) |
+| SWCC (desalination) — now the Saudi Water Authority (الهيئة السعودية للمياه), since 7 May 2024 | `https://www.swcc.gov.sa/` (Cloudflare 403 on 2026-10-29; the authority's current domain not verified) |
 | Saudi Post (national addressing) | `https://www.splonline.com.sa/` |
+| CST — Communications, Space & Technology Commission (telecom regulator, ex-CITC) | `https://www.cst.gov.sa/` |
 | Saudi Real Estate Refinance Co. | `https://www.srco.com.sa/` |
-| REDF (Real Estate Development Fund) | `https://www.redf.gov.sa/` |
+| REDF (Real Estate Development Fund) | `https://www.redf.gov.sa/` (timed out from a non-Saudi network on 2026-10-29 — not re-verified) |
 | Mostadam (green building) | `https://mostadam.sa/` |
 | Saudi Green Initiative | `https://sgi.gov.sa/` |
 | Vision 2030 | `https://www.vision2030.gov.sa/` |
@@ -1183,12 +1184,12 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Red Sea Global | `https://www.redseaglobal.com/` |
 | Aqar listings | `https://sa.aqar.fm/` |
 | Bayut Saudi listings | `https://www.bayut.sa/` |
-| Wasalt listings | `https://wasalt.com/` |
+| Wasalt listings | `https://wasalt.sa/` (wasalt.com redirects there; bot wall 403 to automated requests on 2026-10-29) |
 | Tourist eVisa | `https://visa.visitsaudi.com/` |
 | Absher (citizen / resident services) | `https://www.absher.sa/` |
 | Ejar (tenancy registration) | `https://www.ejar.sa/` |
 | Saudi Press Agency (SPA — official news) | `https://www.spa.gov.sa/` |
-| Bureau of Experts at the Council of Ministers (laws) | `https://laws.moj.gov.sa/` |
+| Bureau of Experts at the Council of Ministers (laws) | `https://laws.boe.gov.sa/` (timed out from a non-Saudi network on 2026-10-29) — the Ministry of Justice legal portal (البوابة القانونية) is `https://laws.moj.gov.sa/` |
 
 ## Status
 
