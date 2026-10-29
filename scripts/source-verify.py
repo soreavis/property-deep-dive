@@ -125,6 +125,16 @@ def mask_inline_stamps(line: str) -> str:
         line = rx.sub(lambda m: m.group(0).replace(m.group(1), " " * len(m.group(1))), line)
     return line
 
+
+URL_RE = re.compile(r"https?://[^\s)`>\]]+")
+
+
+def mask_urls(line: str) -> str:
+    """Blank every URL before value extraction: path segments like `/uploads/2018/08/` or
+    `table-12.5%25.html` are addresses, not figures the cited page must contain. Same-length
+    blanking keeps offsets valid for attribute_values."""
+    return URL_RE.sub(lambda m: " " * len(m.group(0)), line)
+
 # ── Value extraction ─────────────────────────────────────────────────────────
 PCT_RE = re.compile(r"(?<![\w.])\d{1,3}(?:[.,]\d+)?\s?(?:%|pp\b|percentage points)")
 MONEY_SYMBOL_RE = re.compile(
@@ -470,7 +480,7 @@ def extract_claims(
                 continue
             if only_section and only_section.lower() not in section.lower():
                 continue
-            values = extract_values(mask_inline_stamps(line))
+            values = extract_values(mask_urls(mask_inline_stamps(line)))
             salient = [v for v in values if v.salient]
             if len(salient) < sv.min_salient:
                 continue
