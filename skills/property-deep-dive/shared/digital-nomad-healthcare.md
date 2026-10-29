@@ -158,7 +158,7 @@ The **Caucasus is a parallel haven**: Armenia offers 180-day visa-free entry to 
 
 **AL (Albania)** — Unique Permit (Type D + residence) under Law 79/2021, operational 2022; mandatory private health insurance valid in AL, ≥€30k coverage, no travel-insurance substitute; public-system access only after formal residency + tax registration; trap: AL outside Schengen so insurance must be AL-specific (Schengen policies do not auto-cover); **Confidence: MEDIUM** (gov. data sparse, intermediary sources dominate).
 
-**AM (Armenia)** — No formal DN visa; 180-day visa-free for most OECD/EU nationalities per [MFA AM](https://www.mfa.am/en/visa/), then register as "private entrepreneur" → 1-yr (temporary) or 5-yr (permanent) residence permit with national-healthcare access on residency; trap: 180-day clock is per calendar year, not rolling; private-clinic spend low (often $30–100/mo working-age) but no sourced primary tariff; **Confidence: MEDIUM**.
+**AM (Armenia)** — No formal DN visa; 180-day visa-free for most OECD/EU nationalities per [MFA AM](https://www.mfa.am/en/visa/), then register as "private entrepreneur" → 1-yr (temporary) or 5-yr (permanent) residence permit with national-healthcare access on residency; trap: the MFA page allows "no more than 180 days during one year" and does not say whether that year is a calendar year or a rolling 12 months — confirm how days are counted before planning back-to-back stays; private-clinic spend low (often $30–100/mo working-age) but no sourced primary tariff; **Confidence: MEDIUM**.
 
 **AZ (Azerbaijan)** — No DN visa; eVisa (ASAN) for short stays, standard 1-yr Temporary Residence for longer; mandatory medical certification within 10 days of arrival for work-permit holders applying from abroad; state insurance only after residency + employment; trap: very limited public English-language guidance, sourcing for specific DN-pathway tariffs sparse — **Confidence: LOW**.
 
@@ -534,7 +534,7 @@ HIGH for AU/CA/NZ/US/ZA/MU/BW (BW on the no-DN-visa finding; MEDIUM on healthcar
 
 **Confidence**: HIGH for ~73 of 126 countries (DN visa terms + healthcare access + recent reforms published in primary languages with English commentary); MEDIUM for ~27 countries (DN visa absent or recent, public-vs-private interaction creates execution gaps, common-law schemes vary by state); LOW for ~5 countries (LB active crisis with healthcare sector collapse, KH limited regulatory framework, MV tourism-focused construction with sparse English regulator data, RW small market, AZ/UZ post-Soviet civil-codes with sparse English commentary). Per-country confidence labels appear in each one-liner above.
 
-**Last verified**: 2026-05-10.
+**Last verified**: 2026-05-10 (AM 180-day wording aligned to the MFA visa page 2026-10-29).
 
 **Pairs strongly with**:
 - `--retirement` (retirement-age healthcare layer in `shared/retirement.md`) — companion age-tier doc

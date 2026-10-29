@@ -31,7 +31,7 @@ ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-07-0
   - **VAT** introduced 1 Jan 2018 at 5%; first supply of new residential (sale or lease) 0%-rated if made within 3 years of completion; subsequent residential supplies exempt; commercial standard-rated at 5% (MoF VAT page + FTA Real Estate Guide VATGRE1)
   - **Federal Corporate Tax** for financial years starting on or after **1 June 2023**: 0% up to AED 375,000 taxable income, 9% above (Cabinet Decision 116/2022). A natural person's Real Estate Investment income (sale, leasing or renting of UAE property not conducted, or required to be conducted, under a licence) is **not** a taxable business (Cabinet Decision 49/2023); non-resident juridical persons earning UAE immovable-property income have a nexus (Cabinet Decision 56/2023)
   - **Dubai Smart Rental Index** revamped Jan 2025 — every residential building rated **1–5 stars** by AI (~60 criteria: condition, finishes, maintenance, amenities, FM quality, location); star rating influences allowed rent increases at renewal (NOT A/B/C/D) (2026-05-27 verified, source DLD Smart Rental Index portal + Driven Properties + Kaizen AMS)
-  - **Dubai Tasreef stormwater plan** (AED ~30 bn / USD 8 bn) approved post-Apr 2024 floods; phased to 2033
+  - **Dubai Tasreef stormwater plan** (AED 30 bn ≈ USD 8.2 bn at the 3.6725 peg, computed) approved 24 Jun 2024 after the Apr 2024 floods; phased to 2033 (Dubai Media Office, 24 Jun 2024)
   - **Dubai Law No. 2 of 2025** — DIFC Courts Enforcement Judge has jurisdiction over enforcement of DIFC-registered non-Muslim wills inside or outside the DIFC (Art. 31(5)); for assets outside the DIFC (e.g. DLD-registered property) execution still runs through the Dubai Courts Enforcement Judge (Art. 32), which the DIFC Courts Wills FAQ calls a standard formality (2025 law, source DIFC Courts)
 
 ---
@@ -216,11 +216,11 @@ What residents do pay annually:
 | Item | Rate / amount | Authority |
 |---|---|---|
 | **Dubai Municipality Housing Fee** | **5% of annual rental value**, billed monthly via DEWA in 12 instalments | Dubai Municipality (collected via DEWA) |
-| Owner-occupier housing fee equivalent (Dubai) | 5% of RERA-assessed average rental value of comparable property | Dubai Municipality |
+| Owner-occupier housing fee equivalent (Dubai) | 5% of a rental value Dubai Municipality applies to owned units (DM "Adjust Housing Fees" service); how that value is set (e.g. RERA index) has no primary source — UNVERIFIED, check the DEWA bill / Dubai Municipality (see `--mains`) | Dubai Municipality |
 | Abu Dhabi municipality fee (tenants; UAE nationals exempt on residential leases) | **5% of annual rental value** (u.ae: rental value or rental index, whichever is higher), minimum AED 450, added to the monthly water and electricity bill over 12 months | Executive Council Chairman Resolution 49/2018 Art. 4 (ADREC-hosted text) + u.ae |
 | **UAE nationals** | Exempt from housing fee on owner-occupied property | — |
 | **Service charges** (HOA equivalent — mandatory) | **AED 3–70 / sqft / yr** depending on community/tier | DLD Mollak system regulates Dubai |
-| **Chiller / district cooling** (often separate) | AED 10–18 / sqft / yr (residential, district cooling) OR AED 400–1,000 / month flat | Empower / Tabreed / Emicool (provider-dependent) |
+| **Chiller / district cooling** (often separate) | est. AED 10–18 / sqft / yr (residential, district cooling) OR est. AED 400–1,000 / month flat (no published source; Empower bills a demand charge per contracted RT + a consumption charge, see `--mains`) | Empower / Tabreed / Emicool (provider-dependent) |
 
 (Sources: Dubai Municipality / DEWA; DLD Service Charge Index `https://dubailand.gov.ae/`; Empower / Tabreed tariffs)
 
@@ -541,7 +541,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 
 - **Freehold-zone-only restriction crucial** — non-GCC outside designated freehold zones cannot acquire freehold title; verify zone status before any reservation
 - **Off-plan completion risk** — RERA escrow + Project Status register protects buyer funds, but **delays of 12–36+ months** are common; verify developer track record (Emaar / Aldar / Nakheel / Damac historically reliable; smaller developers higher variance)
-- **Service charges + chiller can be 25–40% of gross rental yield** in high-end towers — model NET, never gross
+- **Service charges + chiller can be 25–40% of gross rental yield** in high-end towers (est., no published source) — model NET, never gross
 - **Building OA short-term-rental policy is the single biggest STR gate** — verify BEFORE buying if STR is the strategy
 - **No income tax personally; 9% corporate tax from Jun 2023** for property held in a juridical person above AED 375k profit
 - **DIFC / ADGM Wills are critical for non-Muslim foreign owners** — without one, a non-Muslim resident's estate follows Federal Decree-Law 41/2022 or the home-country law they elected, and Abu Dhabi applies its own non-Muslim personal status law (u.ae, updated 30 Sep 2026, which covers residents only); a registered will removes that uncertainty, especially for non-resident owners — confirm with a UAE lawyer
