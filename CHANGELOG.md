@@ -130,6 +130,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - regwatch(gr): Santorini permit suspension extended; cadastre fee cites the gazette ([#522](https://github.com/soreavis/property-deep-dive/pull/522)) — by @soreavis
 
+- fix(corpus): Kuwait owner residence permit (Decree-Law 114/2024) and Turks and Caicos water supply ([#523](https://github.com/soreavis/property-deep-dive/pull/523)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
