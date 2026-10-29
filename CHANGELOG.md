@@ -126,6 +126,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(corpus): Kuwait residence law, Turks and Caicos power cost, Welsh revaluation deferral ([#520](https://github.com/soreavis/property-deep-dive/pull/520)) — by @soreavis
 
+- fix(playbooks): Tier-A refresh of GR and IE, missed by the October cycle — about 256 checked changes ([#521](https://github.com/soreavis/property-deep-dive/pull/521)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
