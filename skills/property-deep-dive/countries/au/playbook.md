@@ -6,7 +6,8 @@ ISO2: `au`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Postcode**: 4 digits (`2000` Sydney CBD, `3000` Melbourne CBD, `4000` Brisbane, `6000` Perth)
 - **Admin levels**: 6 states + 2 territories + 537 LGAs (Local Government Areas)
-- **Currency**: **AUD** (Australian dollar); 1 EUR ≈ 1.55–1.70 AUD
+- **Currency**: **AUD** (Australian dollar); 1 EUR = 1.5830 AUD (ECB euro reference rate, 28 Oct 2026; ECB range over the 12 months to that date 1.583–1.788)
+- **Finance**: RBA cash rate target **4.60%** (+0.25 pp effective 30 Sep 2026; 3.60% in Dec 2025); APRA mortgage serviceability buffer **3 percentage points**; APRA debt-to-income limit since 1 Feb 2026 — banks may write at most 20% of new mortgage lending at debt of six times income or more (2026 data, source [RBA cash rate](https://www.rba.gov.au/statistics/cash-rate/) + [APRA DTI limit, 27 Nov 2025](https://www.apra.gov.au/news-and-publications/apra-limit-high-debt-income-home-loans-constrain-riskier-lending) + [APRA Corporate Plan 2026-27](https://www.apra.gov.au/apra-corporate-plan-2026-27/our-strategic-objectives); 2026-10-28 verified)
 - **Languages**: English (de facto)
 - **Cadastre**: **Torrens system** — state-administered (no national portal)
   - **NSW**: NSW Land Registry Services `https://www.nswlrs.com.au` (Vol/Folio)
@@ -106,12 +107,12 @@ Land tax = **rate × land value** above threshold.
 
 | State | 2026 threshold | Rate (above threshold) |
 |---|---:|---|
-| NSW | $1,075,000 (frozen 2025-26 budget) | 1.6% (+ premium 2% over **$6,571,000** — premium threshold also frozen since 2025-26 budget) (2026-05-27 verified, source [Revenue NSW thresholds and rates](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/land-tax/understanding-land-tax/thresholds-and-rates) — prior $7,067k figure was incorrect) |
-| VIC | **$50,000** (temp. COVID-debt threshold cut from $300k, 2024–2033) | ~0.3–2.65% sliding (+ fixed levy component) (2026-07-03 verified, source [SRO VIC current rates](https://www.sro.vic.gov.au/land-tax-current-rates)) |
-| QLD | $600k | 1.0% sliding to 2.75% |
-| WA | $300k | 0.25-2.67% sliding |
-| SA | $668k | 0.5-2.4% sliding |
-| TAS | $99,999 | 0.55-1.5% |
+| NSW | $1,075,000 (fixed at the 2024 value from the 2025 land tax year — freeze announced in the 2024-25 NSW Budget) | $100 + 1.6% above $1,075,000 (+ premium: $88,036 + 2% above **$6,571,000**, also frozen) (2026-10-28 verified, source [Revenue NSW thresholds and rates](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/land-tax/understanding-land-tax/thresholds-and-rates), updated 16 Mar 2026 — the earlier '2025-26 budget' attribution was wrong) |
+| VIC | **$50,000** (temp. COVID-debt threshold cut from $300k, land tax years 2024–2033) | $500 flat ($50k–<$100k), $975 flat ($100k–<$300k), then $1,350 + 0.3% above $300k rising to $31,650 + 2.65% above $3M (the flat amounts carry the COVID Debt Repayment Plan surcharge, legislated to 30 Jun 2033; trusts have their own scale) (2026-10-28 verified, source [SRO VIC land tax current rates](https://www.sro.vic.gov.au/about-us/rates-and-statistics/current-rates/land-tax-current-rates), updated 29 Sep 2026 + [SRO VIC COVID Debt Repayment Plan](https://www.sro.vic.gov.au/about-us/rates-and-statistics/covid-debt-repayment-plan)) |
+| QLD | $600,000 (individuals) | $500 + 1% above $600,000; marginal 1.65% from $1M, 1.25% from $3M, 1.75% from $5M, top 2.25% above $10M; absentees: $350,000 threshold, own scale (marginal 1.7% from $350,000, 1.5% from $2.25M, 2% from $5M, top 2.5% above $10M) + 3% absentee surcharge (2026 data, source [QRO individual rates](https://qro.qld.gov.au/land-tax/calculate/individual/) + [QRO absentee rates](https://qro.qld.gov.au/land-tax/calculate/absentee/); 2026-10-28 verified — the individual scale has no 2.75% band) |
+| WA | $300,000 | $300 flat to $420,000, then 0.25% marginal rising to 2.67% above $11M (2025-26 scale, source [WA DTF Overview of State Taxes and Royalties 2025-26](https://www.wa.gov.au/system/files/2025-11/ostr-2025-26.pdf), Nov 2025; 2026-27 scale not re-read — verify at RevenueWA) |
+| SA | $936,000 (2026-27; indexed each year to site values — $833,000 in 2025-26) | 0.5% above $936,000, 1% above $1,504,000, 2% above $2,188,000, 2.4% above $3,504,000 (general rates; trust scale from $25,000) (2026 data, source [RevenueSA rates and thresholds](https://www.revenuesa.sa.gov.au/land-tax/rates-and-thresholds), read via its 21 Jun 2026 Wayback capture — the live page blocks scripted access) |
+| TAS | $125,000 (since 1 Jul 2024) | $50 + 0.45% above $125,000; $1,737.50 + 1.5% above $500,000 (rates from 1 Jul 2025, source [SRO TAS rates of land tax](https://www.sro.tas.gov.au/land-tax/rates-of-land-tax); 2026-10-28 verified) |
 
 **Principal place of residence (PPR)**: typically exempt.
 
@@ -123,19 +124,19 @@ Per LGA — est. **~0.2-0.4%** of land value annually + waste/water/services (se
 
 State-based, varies hugely:
 
-#### NSW (sliding to 5.5%)
+#### NSW (sliding to 5.5%; 7% premium duty)
 
-- Up to $14,000: 1.25%
-- ... up to top tier: 5.5% over $1M
+- Up to $18,000: $1.25 per $100 (min $20) — 2026-27 brackets (by contract date), CPI-indexed each 1 Jul
+- ... $11,602 + 4.5% above $387,000 to $1,290,000; $52,237 + 5.5% above $1,290,000; **premium duty** on residential property $194,137 + 7% above $3,870,000 — a $1M purchase pays $39,187 (2026 data, source [Revenue NSW calculate transfer duty](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty/understanding-transfer-duty/calculate-transfer-duty), updated 6 Oct 2026; 2026-10-28 verified)
 - **FHB Assistance Scheme (FHBAS)**: full exemption up to $800k, concessional up to $1M — **in place since 1 July 2023**; no public Revenue NSW statement that thresholds are annually indexed — verify at [Revenue NSW FHBAS guide](https://www.revenue.nsw.gov.au/property-professionals-resource-centre/duties-guides/first-home-buyers-assistance-scheme-guide) (2026-05-27 verified)
 
 #### VIC (sliding to 6.5%)
 
 - Up to $25k: 1.4%
-- ... top tier 6.5% over $2M
+- ... $2,870 + 6% above $130,000 to $960,000; **5.5% of the whole dutiable value** from $960,000 to $2M; top tier $110,000 + 6.5% above $2M (general rates, contracts from 1 Jul 2021; 2026 data, source [SRO VIC non-PPR duty rates](https://www.sro.vic.gov.au/about-us/rates-and-statistics/current-rates/land-transfer-duty-non-principal-place-residence-current-rates), updated 29 Sep 2026)
 - **Off-the-plan duty concession** (not an abolition): construction / refurbishment costs incurred on or after the contract date are subtracted from the dutiable value. **Temporary version** for contracts 21 Oct 2024 – 20 Apr 2027: all buyers incl. investors, companies and trusts, strata lots with common property only (apartments, units, townhouses), no value threshold, no owner-occupation — extended 6 months by the Building Legislation and Treasury Legislation (Tax Relief) Amendment Act 2026 (Royal Assent 23 Jun 2026); does NOT reduce foreign purchaser additional duty (FPAD is calculated on the pre-concession value). From 21 Apr 2027 (unless extended again) only the standard concession: individuals who qualify for the PPR concession or the first home buyer exemption / concession, post-concession dutiable value ≤ $750,000 (first home buyers) / ≤ $550,000 (other PPR), move in within 12 months and live there 12 months; the old $1M threshold covered contracts 1 Jul 2021 – 30 Jun 2023 only. SRO's 'Help to buy' page still shows a 20 Oct 2026 end — superseded by the Act (2026 data, source [SRO VIC off-the-plan concession](https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty/concessions-exemptions-and-waivers/plan-duty-concession-0/understanding-plan-duty-concession) + [SRO VIC Tax Relief Amendment Act 2026 news](https://www.sro.vic.gov.au/about-us/news-and-events/news/building-legislation-and-treasury-legislation-tax-relief-amendment-act-2026); 2026-10-21 verified)
-- **Vacant Residential Land Tax (VRLT)**: progressive 1% → 2% → 3% based on consecutive vacant years; **statewide from 1 Jan 2025**; metro Melbourne unimproved land subject **from 1 Jan 2026**
-- **VIC Short-Stay Levy 7.5%** (from 1 Jan 2025) on STR revenue
+- **Vacant Residential Land Tax (VRLT)**: 1% → 2% → 3% of capital improved value by consecutive years liable (residential land with a home vacant more than 6 months of the previous year); **statewide from 2025** (before 2025, only 16 Melbourne council areas, at a flat 1%); **from 1 Jan 2026** also land in metropolitan Melbourne undeveloped for 5+ years and capable of residential development, at a flat 1% (2026 data, source [SRO VIC VRLT](https://www.sro.vic.gov.au/owning-property/vacant-residential-land-tax/understanding-vacant-residential-land-tax), updated 22 Oct 2026 + [VRLT current rates](https://www.sro.vic.gov.au/about-us/rates-and-statistics/current-rates/vacant-residential-land-tax-current-rates))
+- **VIC Short-Stay Levy 7.5%** (from 1 Jan 2025) of the total booking fee for each stay of less than 28 consecutive days (see `--rental` and `shared/regulatory-watch.md`)
 
 #### QLD (sliding to 5.75%)
 
@@ -144,27 +145,32 @@ State-based, varies hugely:
 
 ### Foreign owner surcharges (state)
 
-| State | Foreign buyer surcharge |
+| State | Foreign buyer surcharge (duty) + annual foreign-owner land tax surcharge |
 |---|---:|
-| NSW | **+9%** |
-| VIC | **+8%** + 4% absentee owner land tax |
-| QLD | **+8%** AFAD; from 1 Aug 2026 temporary residents (other than specified foreign retirees) also lose the home concessions |
-| WA | +7% |
-| SA | +7% |
+| NSW | **+9%** surcharge purchaser duty + **5%** surcharge land tax a year on residential land, no threshold (2025 land tax year onward; 4% in 2023–24) |
+| VIC | **+8%** foreign purchaser additional duty (contracts from 1 Jul 2019) + **4%** absentee owner surcharge on land tax |
+| QLD | **+8%** AFAD + **3%** absentee land tax surcharge (land ≥ $350,000); from 1 Aug 2026 temporary residents (other than specified foreign retirees) also lose the home concessions |
+| WA | +7% foreign buyers duty |
+| SA | +7% foreign ownership surcharge (on top of duty) |
+| TAS | **+8%** foreign investor duty surcharge (residential, agreements from 1 Apr 2020; 1.5% primary production) + **2%** foreign investor land tax surcharge (land acquired from 1 Jul 2022; payable even below the land tax threshold) |
+| ACT | no duty surcharge; **0.75%** a year land tax surcharge on residential land owned by foreign persons (on Average Unimproved Value, from 1 Jul 2018) |
+| NT | no duty surcharge; no land tax |
+
+(2026 data; sources: Revenue NSW, SRO VIC, QRO, RevenueWA and SRO TAS pages read 2026-10-28; RevenueSA ([Mar 2025 Wayback capture](https://web.archive.org/web/20250331003923/https://www.revenuesa.sa.gov.au/stamp-duty-land/FOS/calculation-of-surcharge)) and ACT Revenue ([Dec 2025 Wayback capture](https://web.archive.org/web/20251206000812/https://www.revenue.act.gov.au/land-tax/foreign-ownership-surcharge)) because both live sites block scripted access; ACT / NT duty and NT land tax from the [WA DTF interstate comparison, Nov 2025](https://www.wa.gov.au/system/files/2025-11/ostr-2025-26.pdf))
 
 ### FIRB approval (federal)
 
 **Foreign Investment Review Board** — required for foreign buyers:
 - **Established dwelling ban: 1 Apr 2025 – 30 Jun 2029** (cannot buy resale homes; extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset; 2026-07-03 verified, source ATO / foreigninvestment.gov.au)
-- **New dwelling / vacant land**: allowed with FIRB approval + fees
-- **Fees scaled by value** (`https://foreigninvestment.gov.au/guidance/general/fees` — schedule re-indexed each 1 Jul; FY2026-27 schedule applies to applications 1 Jul 2026 – 30 Jun 2027; 2026-07-03 verified)
-- **Vacancy fee**: 2× application fee (annual, if dwelling vacant >6 months)
+- **New dwelling / vacant land**: allowed with FIRB approval + fees; vacant land is generally conditional on construction being completed within 4 years (FIRB residential land guidance, updated 1 Jul 2026)
+- **Fees scaled by value** (`https://foreigninvestment.gov.au/guidance/general/fees` — re-indexed each 1 Jul). FY2026-27 (applications 1 Jul 2026 – 30 Jun 2027), new dwellings / vacant land: $4,600 under $75,000; **$15,600** up to $1M; $31,300 up to $2M; $62,600 up to $3M, then +$31,300 per further $1M (max $1,245,500 over $40M); established dwellings (only the ban's exception categories): $13,800 under $75,000, $46,800 up to $1M (2026 data, source [FIRB Schedule of Fees v8, 1 Jul 2026](https://foreigninvestment.gov.au/sites/foreigninvestment.gov.au/files/2026-06/schedule-of-fees-v8.pdf); 2026-10-28 verified)
+- **Vacancy fee**: annual, if the dwelling is occupied for fewer than 183 days in a vacancy year; **double the original application fee** for vacancy years starting on or after 9 Apr 2024 (equal to it before); a vacancy fee return is due to the ATO within 30 days of the end of each vacancy year, and a late return triggers the fee even if the dwelling was occupied (source [FIRB Guidance Note 10 v12, 19 Sep 2026](https://foreigninvestment.gov.au/sites/foreigninvestment.gov.au/files/2026-09/guidance-note-10-fees-v12.pdf); 2026-10-28 verified)
 
 ### Capital gains tax
 
 - Marginal income tax + **50% discount** for >12-month hold — **legislated change from 1 Jul 2027**: for individuals, trusts and partnerships the 50% discount is replaced by cost-base indexation + a 30% minimum tax on gains accruing from 1 Jul 2027; gains accrued before then keep the 50% discount; new-build investors may choose either regime; treatment of foreign, mixed and temporary residents is left to later tranches — Treasury Laws Amendment (Tax Reform No. 1) Act 2026, Act No. 49 of 2026, assent 26 Jun 2026 (2026 data, source [APH bill r7493](https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7493) + [ATO](https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax); 2026-10-21 verified)
 - **Main residence exemption** — full exemption owner-occupied
-- **Foreign residents**: **lost main residence exemption** since 30 Jun 2020
+- **Foreign residents**: no main residence exemption for property sold after 30 Jun 2020 unless the life events test is met; no full 50% CGT discount for foreign or temporary residents on gains made after 8 May 2012 (apportioned for periods of Australian residency) (2026 data, source [ATO main residence exemption for foreign residents](https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/foreign-residents-and-capital-gains-tax/main-residence-exemption-for-foreign-residents), updated 22 Jun 2026 + [ATO CGT discount](https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/cgt-discount), updated 29 Jun 2026; read via Oct 2026 Wayback captures — ato.gov.au blocks scripted access)
 - **FRCGW (vendor side)**: on every sale of Australian real property, no threshold (contracts from 1 Jan 2025), the buyer withholds 15% of the price at settlement unless the vendor hands over an ATO clearance certificate — a route open only to Australian-resident vendors (a foreign-resident vendor cannot get one; see the variation route in `shared/exit-seller-withholding.md`); regime broadened from 1 Oct 2026 by Act No. 86 of 2026 ('real property' definition, 365-day principal asset test, purchaser must consider whether a vendor declaration is false) (2026 data, source [ATO](https://www.ato.gov.au/about-ato/new-legislation/in-detail/businesses/strengthening-the-foreign-resident-cgt-regime); 2026-10-21 verified)
 
 ### GST
@@ -173,15 +179,15 @@ State-based, varies hugely:
 
 ### Total transaction cost (buyer side)
 
-- NSW domestic ($1M): ~5-6% (stamp duty + legal + LMI if applicable)
-- VIC domestic ($1M): ~6% (stamp duty + legal)
-- VIC foreign ($1M): ~14% (8% surcharge added)
-- NSW foreign ($1M): ~15% (9% surcharge)
+- NSW domestic ($1M): ~4.1–4.2% (= $39,187 transfer duty 2026-27 + est. $1,500–$3,000 legal), plus LMI if the deposit is under 20%
+- VIC domestic ($1M): ~5.7–5.8% (= $55,000 duty — 5.5% of the whole value in the $960k–$2M band — + est. $1,500–$3,000 legal)
+- VIC foreign ($1M new dwelling — established dwellings banned to 30 Jun 2029): ~15.2–15.4% (= $55,000 duty + $80,000 FPAD 8% + $15,600 FIRB fee FY2026-27 + est. legal; before any off-the-plan concession, which does not reduce FPAD)
+- NSW foreign ($1M new dwelling): ~14.6–14.8% (= $39,187 transfer duty + $90,000 surcharge purchaser duty 9% + $15,600 FIRB fee + est. legal)
 
 ### Future risk
 
 - FIRB ban extended to 30 Jun 2029 (realised — announced 2026-27 Federal Budget, from the original 31 Mar 2027 sunset; 2026-07-03 verified)
-- VIC VRLT scope expanding through 2026 (metro Melbourne unimproved land)
+- VIC VRLT expansion realised: metropolitan Melbourne land undeveloped for 5+ years is liable from 1 Jan 2026 (flat 1% of capital improved value)
 - State stamp duty reform proposals (NSW First Home Buyer Choice repealed 2023; replaced by FHBAS)
 - **2027 negative-gearing + CGT reform** (legislated — Act No. 49 of 2026, applies from 1 Jul 2027; see `--rental` and the CGT block above): 'new residential dwelling' is defined by ministerial instrument; Treasury states the final definition will go into primary legislation via the Tax Reform No. 3 Bill 2026 (introduced 14 Oct 2026, not passed), whose 4 Aug 2026 exposure draft counts a dwelling as new if acquired within 24 months of its certificate of occupancy (12 months in the Budget) (2026 data, source [APH bill r7554](https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554) + [Treasury exposure-draft release](https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/consultation-next-tranche-tax-reform-legislation); 2026-10-21 verified)
 
@@ -192,8 +198,8 @@ State-based, varies hugely:
 ### Long-term residential
 
 - **State Residential Tenancies Acts** govern (RTA NSW, RTA VIC, RTA QLD, etc.)
-- **Tenant protections strengthening** (no-fault eviction abolished VIC, NSW reform)
-- **Rent caps**: limited (CPI-linked in some states)
+- **No-grounds evictions ended**: NSW from 19 May 2025 (landlords must give a valid reason, incl. for tenancies that began earlier — [NSW Fair Trading](https://www.nsw.gov.au/departments-and-agencies/fair-trading/news/changes-to-rental-laws)); VIC from 25 Nov 2025 (no notice to vacate without a valid reason, even at the end of a fixed term; the lease rolls to periodic — [Consumer Affairs Victoria](https://www.consumer.vic.gov.au/housing/renting/new-changes-to-rental-laws), updated 14 Oct 2026); other states — verify with the state tenancy authority
+- **Rent increases**: NSW (all lease types, from 31 Oct 2024 — [NSW Fair Trading](https://www.nsw.gov.au/departments-and-agencies/fair-trading/news/changes-to-rental-laws)), VIC (in most cases — agreements from 19 Jun 2019; [CAV](https://www.consumer.vic.gov.au/housing/renting/rent-bond-bills-and-condition-reports/rent/rent-increases)) and QLD ([RTA QLD](https://www.rta.qld.gov.au/rental-law-changes)) allow at most one increase every 12 months; the ACT also caps the amount — generally no more than 10% above the growth in Canberra's rents CPI (the 'prescribed amount' — [ACT Government, Oct 2025 Wayback capture](https://web.archive.org/web/20251027123524/https://www.act.gov.au/housing-planning-and-property/renting/rent-increases)); no CPI-linked amount cap appears on the NSW Fair Trading, CAV or RTA QLD pages read 2026-10-28 — verify other states with their tenancy authority
 - **Bond board**: state-administered (RTBA, etc.)
 
 ### Rental market benchmarks
@@ -206,25 +212,25 @@ State-based, varies hugely:
 
 #### NSW
 
-- 180-night cap unhosted Greater Sydney
-- STRA Property ID via NSW Planning Portal ($65 first 12 months)
-- **Byron Shire 60 nights** from 23 Sep 2024 (tighter than statewide)
+- 180-night cap on non-hosted STRA (exempt development pathway) in Greater Sydney, Ballina, certain land in Clarence Valley and certain land in Muswellbrook ([NSW Planning](https://www.planning.nsw.gov.au/the-planning-system/housing/short-term-rental-accommodation))
+- STRA Property ID via NSW Planning Portal ($65 first 12 months; renewed annually, renewal fee $25 — [Planning Portal](https://www.planningportal.nsw.gov.au/stra))
+- **Byron Shire 60 nights** from 23 Sep 2024 (tighter than statewide), except two 365-day mapped precincts in and around Byron Bay Town Centre and at Brunswick Heads
 
 #### VIC
 
 - 7.5% Short-Stay Levy from 1 Jan 2025
-- 180-night statewide cap (from 2025)
-- Mornington Peninsula moving to 90 nights
+- 180-night statewide cap (from 2025) — not confirmed by a Victorian primary source in the 2026-10-28 check (SRO VIC and Consumer Affairs Victoria pages read; the 180-night cap above is a NSW rule) — verify with Consumer Affairs Victoria / the council planning scheme before relying on it
+- Mornington Peninsula moving to 90 nights — not confirmed by a primary source in the 2026-10-28 check — verify with Mornington Peninsula Shire
 
 #### QLD
 
-- Council-by-council (Brisbane, Gold Coast, Sunshine Coast register required)
+- Council-by-council (Brisbane, Gold Coast, Sunshine Coast register required — registration requirements not re-checked against council sources on 2026-10-28; verify with the council)
 
 ### Tax on rental
 
 - Marginal income tax on net rental
 - **Negative gearing**: net rental losses deductible against other income up to the 2026-27 income year; from the **2027-28 income year**, for established dwellings acquired on or after 7:30pm AEST 12 May 2026 (contract date counts, not settlement), losses are deductible only against residential property income incl. capital gains, excess carried forward, never against salary, wages or business income (s 26-155 ITAA97, Act No. 49 of 2026); dwellings held before the cutoff are grandfathered and genuinely new dwellings bought on first sale stay negatively gearable, but later buyers of that dwelling lose both negative gearing and the 50% CGT discount (2026 data, source [ATO](https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax); 2026-10-21 verified)
-- BTL mortgage interest fully deductible
+- BTL mortgage interest deductible against rental income; for established dwellings bought from 7:30pm AEST 12 May 2026, net losses incl. interest are quarantined to residential property income from the 2027-28 income year (see above)
 - Capital gains 50% discount (replaced for gains accruing from 1 Jul 2027 by indexation + 30% minimum tax — see `--tax`) + foreign-resident exemption loss
 
 ---
@@ -345,14 +351,14 @@ State-based, varies hugely:
 
 | Work | Cost (AUD) |
 |---|---:|
-| Building + pest inspection | $500–$1,000 |
-| Strata report | $300–$500 |
-| Conveyancer / solicitor | $1,500–$3,000 |
+| Building + pest inspection | est. $500–$1,000 |
+| Strata report | est. $300–$500 |
+| Conveyancer / solicitor | est. $1,500–$3,000 |
 | Stamp duty (varies massively) | see above |
-| LMI (if <20% deposit) | $5,000–$30,000 |
-| **Total transaction cost (NSW $1M)** | **~$50–55k (5%)** |
-| **Total transaction cost (VIC $1M)** | **~$60k (6%)** |
-| **Total transaction cost (foreign NSW $1M)** | **~$140k (14%)** |
+| LMI (if <20% deposit) | est. $5,000–$30,000 |
+| **Total transaction cost (NSW $1M)** | **~$40.7–42.2k (~4.1–4.2%)** = $39,187 duty 2026-27 + est. legal; + LMI if deposit < 20% |
+| **Total transaction cost (VIC $1M)** | **~$56.5–58k (~5.7–5.8%)** = $55,000 duty + est. legal |
+| **Total transaction cost (foreign NSW $1M, new dwelling)** | **~$146.3–147.8k (~14.6–14.8%)** = $39,187 duty + $90,000 surcharge + $15,600 FIRB fee + est. legal |
 | Roof restoration | $5,000–$15,000 |
 | Re-paint | $5,000–$15,000 |
 | Bushfire-resilient retrofit | $10,000–$50,000 |
@@ -362,11 +368,12 @@ State-based, varies hugely:
 
 ## Active fiscal incentives (2025-2026)
 
-- **First Home Buyer Assistance Scheme (FHBAS)**: NSW exempt up to $800k (no public Revenue NSW statement confirming annual indexation — verify at Revenue NSW FHBAS guide)
-- **Help to Buy Scheme**: federal (2024+) — equity contribution up to 40% (new) / 30% (existing)
-- **First Home Owner Grant (FHOG)**: set per state — QLD $30,000 for new homes valued under $750,000 (contracts from 20 Nov 2023; $15,000 before), continued by the 2026-27 QLD Budget for four years beyond its scheduled 30 Jun 2026 end (2026 data, source [QLD Budget Paper No. 4 2026-27](https://budget.qld.gov.au/files/2026-27-budget-bp4-budget-measures.pdf); 2026-10-21 verified); other states est. $10-15k — verify at the relevant State Revenue Office
-- **First Home Super Saver (FHSS)**: $50k withdrawal from super for first home
-- **Stamp duty concessions**: state-specific (QLD home concessions limited to citizens / PRs / specified foreign retirees from 1 Aug 2026, QLD first home (new home) and vacant land concessions uncapped from 1 May 2025; VIC off-the-plan concession — temporary all-buyer version for contracts to 20 Apr 2027, not an abolition; see `--tax`)
+- **First Home Buyer Assistance Scheme (FHBAS)**: NSW exempt up to $800,000, concessional under $1M (vacant land exempt up to $350,000, concessional under $450,000; contracts from 1 Jul 2023) (no public Revenue NSW statement confirming annual indexation — verify at Revenue NSW FHBAS guide)
+- **Help to Buy Scheme**: federal (2024+) — equity contribution up to 40% (new) / 30% (existing); 10,000 places a year, minimum 2% deposit, property price caps by location ([firsthomebuyers.gov.au](https://firsthomebuyers.gov.au/australian-government-help-buy-scheme), 2026-10-28 verified)
+- **First Home Owner Grant (FHOG)**: set per state — QLD $30,000 for new homes valued under $750,000 (contracts from 20 Nov 2023; $15,000 before), continued by the 2026-27 QLD Budget for four years beyond its scheduled 30 Jun 2026 end (2026 data, source [QLD Budget Paper No. 4 2026-27](https://budget.qld.gov.au/files/2026-27-budget-bp4-budget-measures.pdf); 2026-10-21 verified); NSW $10,000 (new homes up to $600,000; land + build up to $750,000 — [Revenue NSW](https://www.revenue.nsw.gov.au/grants-schemes/first-home-owner-new-homes-grant)); VIC $10,000 (new homes up to $750,000 — [SRO VIC](https://www.sro.vic.gov.au/about-us/rates-and-statistics/current-rates/first-home-owner-grant-current-rates)); WA cap raised to $800,000 south of the 26th parallel for transactions from 7 May 2026 ([RevenueWA](https://www.wa.gov.au/government/announcements/2026-27-housing-taxation-package)); other states — verify at the relevant State Revenue Office
+- **First Home Super Saver (FHSS)**: voluntary super contributions of up to $15,000 a financial year and $50,000 in total can be withdrawn, with associated earnings, for a first-home deposit ([firsthomebuyers.gov.au](https://firsthomebuyers.gov.au/first-home-super-saver-scheme))
+- **Australian Government 5% Deposit Scheme** (formerly the Home Guarantee Scheme): first home buyers with a 5% deposit (single parents / legal guardians 2%); from 1 Oct 2025 no income caps, no waitlists and no LMI; property price caps by location ([firsthomebuyers.gov.au](https://firsthomebuyers.gov.au/australian-government-5-percent-deposit-scheme), 2026-10-28 verified)
+- **Stamp duty concessions**: state-specific (QLD home concessions limited to citizens / PRs / specified foreign retirees from 1 Aug 2026, QLD first home (new home) and vacant land concessions uncapped from 1 May 2025; VIC off-the-plan concession — temporary all-buyer version for contracts to 20 Apr 2027, not an abolition; WA first home owner rate from 7 May 2026: no duty up to $600,000, concessional up to $800,000, vacant land nil up to $450,000 / concessional up to $550,000, and WA off-the-plan concession extended to 30 Jun 2028 ([RevenueWA](https://www.wa.gov.au/government/announcements/2026-27-housing-taxation-package)); see `--tax`)
 - **Solar/Battery rebates**: federal STCs + state schemes
 
 ## Common listing platforms
@@ -380,8 +387,8 @@ State-based, varies hugely:
 
 - **Foreign-buyer established-dwelling ban 1 Apr 2025 – 30 Jun 2029** (FIRB — extended in the 2026-27 Federal Budget from the original 31 Mar 2027 sunset; 2026-07-03 verified)
 - **State-by-state divergence is extreme** — stamp duty, land tax, foreign surcharges, RTA all differ massively
-- **Foreign owner surcharges**: NSW 9%, VIC 8%, QLD 8%, WA 7%, SA 7%; QLD temporary residents (other than specified foreign retirees) also lose the home / first home transfer-duty concessions for transactions signed from 1 Aug 2026
-- **VIC VRLT statewide from 1 Jan 2025** + metro Melbourne unimproved land from 2026
+- **Foreign owner surcharges**: duty NSW 9%, VIC 8%, QLD 8%, TAS 8%, WA 7%, SA 7% (none in ACT / NT); annual land tax surcharges NSW 5%, VIC 4% (absentee owners), QLD 3% (absentees), TAS 2%, ACT 0.75%; QLD temporary residents (other than specified foreign retirees) also lose the home / first home transfer-duty concessions for transactions signed from 1 Aug 2026
+- **VIC VRLT statewide from 1 Jan 2025** + metro Melbourne land undeveloped for 5+ years from 1 Jan 2026
 - **VIC Short-Stay Levy 7.5%** from 1 Jan 2025
 - **NSW FHBAS** (annual indexation not confirmed by Revenue NSW — verify) (was First Home Buyer Choice 2022, repealed 2023)
 - **FIRB fees + vacancy fee** for foreign-owned dwellings
