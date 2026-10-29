@@ -124,6 +124,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(source-verify): treat the Federal Register CAPTCHA page as a challenge ([#519](https://github.com/soreavis/property-deep-dive/pull/519)) — by @soreavis
 
+- fix(corpus): Kuwait residence law, Turks and Caicos power cost, Welsh revaluation deferral ([#520](https://github.com/soreavis/property-deep-dive/pull/520)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
