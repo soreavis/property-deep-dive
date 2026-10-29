@@ -108,6 +108,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(sources): source-audit triage — 16 citation and figure fixes from the 28 Oct 2026 run ([#511](https://github.com/soreavis/property-deep-dive/pull/511)) — by @soreavis
 
+- fix(ci): read the playbook date from the Status footer, not the first 'as of' in the file ([#512](https://github.com/soreavis/property-deep-dive/pull/512)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
