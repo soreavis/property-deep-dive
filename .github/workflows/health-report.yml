@@ -67,7 +67,11 @@ jobs:
             # Extract first stamp matching either "as of YYYY-MM-DD" or "**Last verified**: YYYY-MM-DD".
             # `|| true` swallows grep's exit-1 (no match) so `set -e + pipefail` doesn't abort the whole job
             # for a single missing-stamp playbook — that case is handled below as tier=UNKNOWN.
-            stamped=$(grep -oE '(as of +|\*\*Last verified\*\*: *)[0-9]{4}-[0-9]{2}-[0-9]{2}' "$playbook" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1 || true)
+            # The playbook-level date lives in the ## Status footer (shared/updater.md resolution order);
+            # body text such as "not adopted as of <date>" must not re-date the playbook.
+            stamp_re='(as of +|\*\*Last verified\*\*: *)[0-9]{4}-[0-9]{2}-[0-9]{2}'
+            stamped=$(sed -n '/^## Status/,$p' "$playbook" | grep -oE "$stamp_re" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1 || true)
+            [ -n "$stamped" ] || stamped=$(grep -oE "$stamp_re" "$playbook" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1 || true)
             off="—"
             if [ -z "$stamped" ]; then
               stamped="(none)"
