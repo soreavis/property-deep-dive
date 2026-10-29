@@ -108,7 +108,7 @@ Legal anchor: [Code de commerce, Section 3 — Tarifs des notaires, articles A44
 
 **Total *frais d'acquisition* — what the buyer actually pays at signing:**
 
-The *frais de notaire* line on the *acte authentique* is mostly *droits de mutation à titre onéreux (DMTO)* + small *émoluments*. Because DMTO is the dominant share (~5–5.8% of the price for second-hand) and is set by *département*, total *frais* land **similar to métro (~7–8% for second-hand, ~2–3% for new-build VEFA)**, with the *émoluments* uplift adding a marginal premium (typically ~0.1–0.3% of the headline price in absolute terms — ~est. computed from a typical 1% *émoluments* base × the 23–40% uplift). Verify the exact line items in the *projet d'acte* before signing.
+The *frais de notaire* line on the *acte authentique* is mostly *droits de mutation à titre onéreux (DMTO)* + small *émoluments*. Because DMTO is the dominant share and is set by *département* (second-hand, DGFiP table of 1 June 2026: **≈6.32 %** in Martinique, Guyane and La Réunion — 5.00 % département share under art. 116 LF 2025, acts to 31 Mar 2028; **≈5.81 %** in Guadeloupe and Mayotte — 4.50 % share; primo-accédants buying a main residence pay the 4.50 % share in all five DROM; totals add the 1.20 % commune tax and frais d'assiette, computed as in `countries/fr/playbook.md` — [impots.gouv.fr DMTO PDF](https://www.impots.gouv.fr/sites/default/files/media/1_metier/3_partenaire/notaires/dmto/dmto_2026-06.pdf); the [1 Jan 2026 table](https://www.impots.gouv.fr/sites/default/files/media/1_metier/3_partenaire/notaires/dmto/dmto_2026-01.pdf) still had Martinique at 4.50 % and Mayotte at 3.80 %), total *frais* land **similar to métro (~7–8% for second-hand, ~2–3% for new-build VEFA)**, with the *émoluments* uplift adding a marginal premium (typically ~0.1–0.3% of the headline price in absolute terms — ~est. computed from a typical 1% *émoluments* base × the 23–40% uplift). Verify the exact line items in the *projet d'acte* before signing.
 
 > **Rule for the skill:** when a user lists "frais de notaire" for a DROM, do NOT silently apply a metro 7–8% template. Pull the *émoluments* uplift from the table above, and verify *DMTO départemental* against the [conseil départemental / DGFiP](https://www.impots.gouv.fr/) page for the specific DROM (rates can be temporarily increased per LFI provisions — see metro playbook for the same mechanism).
 
@@ -242,7 +242,7 @@ Primary source: [**Cerema — Guide foncier Outre-Mer (2023)**](https://outil2am
 | `gf` Guyane | **MEDIUM-HIGH** | Cadastre coverage gaps in interior; flood-plain mapping varies by commune; no TVA but octroi de mer applies |
 | `yt` Mayotte | **MEDIUM** | Cadastre very deficient (Cerema 2023); informal-housing prevalence; seismic + volcanic context active and not yet fully reflected in pre-2019 zonation; full census Nov 2025–Feb 2026 will update demographic baseline |
 
-**Last verified:** 2026-05-27 (DROM paracyclonique construction rules corrected 2026-09-18 per Legifrance CCH arts. R.132-2-1 to R.132-2-5; GP / MQ arrêté du 5 juillet 2024 and seismic-attestation scope corrected 2026-10-21).
+**Last verified:** 2026-05-27 (DROM paracyclonique construction rules corrected 2026-09-18 per Legifrance CCH arts. R.132-2-1 to R.132-2-5; GP / MQ arrêté du 5 juillet 2024 and seismic-attestation scope corrected 2026-10-21; DROM DMTO rates corrected 2026-10-29 per the DGFiP table of 1 June 2026).
 
 **Maintenance cadence:**
 - TVA rates / *octroi de mer* — verify annually against LFI (loi de finances initiale) revisions.
