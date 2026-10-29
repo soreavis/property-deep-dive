@@ -37,12 +37,12 @@ ISO2: `uz`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Primary sources
 
-- **State Statistics Committee (Davlat statistika qoʻmitasi — Stat.uz)** at [stat.uz](https://stat.uz/en/) — Real Estate Price Index, transaction volumes, regional breakdowns; published as "Construction and real estate" thematic statistical reports. Russian + Uzbek primary; English summaries available for selected releases.
-- **Central Bank of Uzbekistan (CBU — Oʻzbekiston Respublikasi Markaziy banki)** at [cbu.uz](https://cbu.uz/en/) — Financial Stability Report covers mortgage debt + housing-credit channel commentary; CBU Real Estate Market Reports issued semi-annually.
-- **Cadastre Agency** at [kadastr.uz](https://kadastr.uz/en) — public e-Kadastr access (registration required); published transaction volume statistics; cadastral valuation reports per region.
-- **Ministry of Economy and Finance** at [mineconomy.uz](https://www.mineconomy.uz/en) — sectoral real-estate market analysis (Concept Notes for Housing Sector Strategy).
-- **Uzbuild industry portal** at [uzbuild.uz/en](https://uzbuild.uz/en/about-exhibition) — secondary aggregator covering construction sector + price commentary.
-- **Kun.uz** + **UzDaily.uz** + **Gazeta.uz** — leading English-language news outlets reporting CBU + Stat.uz monthly real-estate prints.
+- **National Statistics Committee (Oʻzbekiston Respublikasi Milliy statistika qoʻmitasi — Stat.uz; formerly the State Statistics Committee)** at [stat.uz](https://stat.uz/en/official-statistics/prices-and-indexes) — quarterly **housing price index** (total, primary and secondary market; previous quarter = 100; by region; calculated since 2022) — an index, not US$/m² levels; transaction counts were not found on its prices or construction pages (checked 2026-10-29). Latest print Q1 2026 (published 9 Apr 2026): national **103.1**, Tashkent city **103.3**, after four quarterly falls in 2025 (national 98.7 / 98.4 / 98.7 / 99.4, ≈ −4.7 % over the year, computed; Tashkent city ≈ −4.1 %, computed) (2026 data, source [stat.uz SIAT dataset 1305](https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1305.json); 2026-10-29 verified). Russian + Uzbek + English dataset labels.
+- **Central Bank of Uzbekistan (CBU — Oʻzbekiston Respublikasi Markaziy banki)** at [cbu.uz](https://cbu.uz/en/) — **quarterly** real-estate market review (not semi-annual): transaction counts, primary / secondary price changes in soum and US$, a Tashkent hedonic price index (Feb 2022 = 100; 137.4 at end-2025, US$ terms), an apartment rental price index, and mortgage volumes (UZS 21.2 trn disbursed in 2025, +29 %; 22 % of transactions) (Q4 2025 review per [UzDaily 26 Mar 2026](https://www.uzdaily.uz/en/uzbekistans-real-estate-market-accelerates-in-q4-2025/); Q2 2026 review per [Kun.uz 29 Sep 2026](https://kun.uz/en/news/2026/09/29/uzbekistans-housing-prices-rise-more-than-6-year-on-year-in-june) — secondary press; cbu.uz did not respond to this run on 2026-10-29, so the review was not read at source).
+- **Cadastre Agency** at [kadastr.uz](https://kadastr.uz/en) (did not respond on 2026-10-29, nor on 2026-10-21 per shared/regulatory-watch.md; agency page on the government portal: [gov.uz/en/kadastr](https://gov.uz/en/kadastr)) — e-Kadastr extracts and cadastral valuation; the corpus claims of published transaction-volume statistics and per-region valuation reports were not re-verified.
+- **Ministry of Economy and Finance (Iqtisodiyot va moliya vazirligi)** at [imv.uz](https://www.imv.uz/en) (the old `mineconomy.uz` did not respond on 2026-10-29) — sectoral housing and real-estate policy; the "Concept Notes for Housing Sector Strategy" title was not re-verified.
+- **UzBuild** at [uzbuild.uz/en](https://uzbuild.uz/en/about-exhibition) — the annual Uzbekistan International Construction Exhibition in Tashkent (its site advertises the 28th edition, UzBuild 2027); a trade show, not a price-data source (2026-10-29 verified).
+- **Kun.uz** + **UzDaily.uz** + **Gazeta.uz** — English-language news outlets (secondary) that report the CBU quarterly market review and the monthly reviews of the Center for Economic Research and Reforms (CERR, a state think tank); the US$/m² averages they carry come from CERR, not from Stat.uz, which publishes an index.
 
 ### Price benchmarks (Q3–Q4 2025 reference, USD-denominated)
 
@@ -50,33 +50,33 @@ Most Uzbekistan real-estate listings **price in USD** despite contracts settling
 
 | Locality | Primary new-build avg US$/m² | Secondary resale avg US$/m² | Source |
 |---|---:|---:|---|
-| **Tashkent** (city, all districts) | **~US$1,200** (H1 2025 avg) | **~US$1,082** (July 2025 avg) | [Gazeta.uz Jul 2025](https://www.gazeta.uz/en/2025/07/19/real-estate/); [Kun.uz Mar 2025](https://kun.uz/en/news/2025/03/15/housing-prices-vs-rental-costs-how-long-does-it-take-to-afford-an-apartment-in-tashkent) |
+| **Tashkent** (city, all districts) | ~US$1,200 (H1 2025, est. — **unverified**: neither cited article gives a new-build US$/m² level; CERR reports Tashkent new-build prices up **more than 9 %** in 2025) | **US$1,075** (June 2025, CERR) → **over US$1,100** (2025, CERR annual review) | [Gazeta.uz 19 Jul 2025](https://www.gazeta.uz/en/2025/07/19/real-estate/) (CERR); [Kun.uz 23 Jan 2026](https://kun.uz/en/news/2026/01/23/uzbekistans-housing-sales-rise-15-as-tashkent-leads-the-market) (CERR annual review) |
 | Tashkent — premium (Mirabad, Yakkasaray, Yashnabad, Mirzo Ulugbek) | ~US$1,400–US$2,200 | ~US$1,300–US$1,900 | Uybor.uz aggregate Q4 2025 *(per listing — verify with cadastre / on visit)* |
 | Tashkent — mid (Chilanzar, Yunusabad, Shaikhantakhur) | ~US$1,000–US$1,400 | ~US$900–US$1,200 | Uybor.uz aggregate Q4 2025 *(per listing — verify with cadastre / on visit)* |
 | Tashkent — outer (Bektemir, Sergeli, Yangihayot) | ~US$700–US$950 | ~US$600–US$850 | Uybor.uz aggregate Q4 2025 *(per listing — verify with cadastre / on visit)* |
-| **Samarkand** | ~US$650–US$1,100 | ~US$500–US$900 | Uybor.uz + Stat.uz; **+19.2 %** regional growth 2025 ([UzDaily Q4 2025](https://www.uzdaily.uz/en/uzbekistans-real-estate-market-accelerates-in-q4-2025/)) |
-| **Bukhara** | ~US$550–US$950 | ~US$400–US$700 | Uybor.uz + Stat.uz; **+25.6 %** regional growth 2025 (UzDaily) |
+| **Samarkand** | ~US$650–US$1,100 | ~US$500–US$900 (Samarkand region secondary average **US$834/m²** in 2025, CERR via [Kun.uz 23 Jan 2026](https://kun.uz/en/news/2026/01/23/uzbekistans-housing-sales-rise-15-as-tashkent-leads-the-market)) | Uybor.uz est.; **+19.2 %** is 2025 growth in the region's **transaction count**, not prices (CBU Q4 2025 review via [UzDaily 26 Mar 2026](https://www.uzdaily.uz/en/uzbekistans-real-estate-market-accelerates-in-q4-2025/)); Stat.uz housing price index for Samarkand region ≈ −4.7 % over 2025 (computed), +4.3 % in Q1 2026 |
+| **Bukhara** | ~US$550–US$950 | ~US$400–US$700 | Uybor.uz est.; **+25.6 %** is 2025 growth in the region's **transaction count**, not prices (CBU Q4 2025 review via UzDaily 26 Mar 2026); Stat.uz housing price index for Bukhara region ≈ −5.7 % over 2025 (computed), +1.7 % in Q1 2026 |
 | **Namangan / Andijan / Fergana** (Fergana Valley) | ~US$500–US$800 | ~US$350–US$650 | Uybor.uz aggregate 2025 |
 | **Khiva** (UNESCO heritage, tourism) | ~US$450–US$800 | ~US$300–US$550 | Uybor.uz 2025 |
-| **Nukus / Karakalpakstan** | ~US$300–US$550 | ~US$200–US$400 | Uybor.uz 2025 |
+| **Nukus / Karakalpakstan** | ~US$300–US$550 | ~US$200–US$400 (Karakalpakstan secondary average about **US$378/m²** in 2025, CERR via Kun.uz 23 Jan 2026) | Uybor.uz 2025 est. |
 | **Rural settlements (kishlak)** | n/a (largely self-built) | ~US$10,000–US$50,000 outright | OLX.uz + 4321property.com aggregate |
 
-> All US$/m² ranges other than the Tashkent headline are **est.** (calibration: cross-checked against Uybor.uz + OLX.uz district-segment medians + Stat.uz regional growth percentages; primary-source US$/m² not consistently published per district by Stat.uz). Tashkent secondary US$1,082/m² (July 2025) and primary US$1,200/m² (H1 2025) are sourced to Gazeta.uz + Kun.uz reporting of Stat.uz prints — re-verify against current month at stat.uz before relying.
+> All US$/m² ranges other than the Tashkent headline are **est.** (calibration: Uybor.uz + OLX.uz district-segment medians; not re-sampled 2026-10-29). Stat.uz publishes a price **index**, not US$/m² levels. The Tashkent secondary figures are CERR (Center for Economic Research and Reforms) numbers reported by Gazeta.uz and Kun.uz (secondary press), not Stat.uz prints: US$1,075/m² in June 2025 and over US$1,100/m² in CERR's 2025 annual review; the US$1,200/m² new-build figure is unverified. For district spreads, the CBU's 2025 hedonic regression prices Mirabad 23.7 % above and Bektemir 24.4 % below otherwise comparable Almazar units (Q4 2025 review via [UzDaily 26 Mar 2026](https://www.uzdaily.uz/en/uzbekistans-real-estate-market-accelerates-in-q4-2025/)).
 
 ### Price trend (2020 → 2025)
 
-- **Tashkent secondary market**: nominal prices roughly **doubled in USD terms 2020 → 2025** (~US$550/m² → ~US$1,082/m²), driven by post-COVID recovery + Russian-relocation wave 2022–2024 + IT Park-driven Tashkent gentrification + persistent inflation. Cumulative ~+96 % nominal USD over 5 years.
-- **2025 dynamics**: prices began **cooling** in Tashkent secondary (Stat.uz Q3 2025 print showed mild MoM declines after the spring peak per Gazeta.uz Jul 2025), while regional cities **continued accelerating** — the strongest 2025 H1 growth was **Bukhara +25.6 %** + Sirdaryo **+23.1 %** + Samarkand **+19.2 %** (UzDaily Q4 2025 release). This reflects post-tourism-boom in heritage cities + Tashkent's mid-segment saturation.
-- **2025 H1 housing volume +10.6 %** vs H1 2024 (Gazeta.uz); 2025 full-year Tashkent housing sales **+15 %** YoY ([Kun.uz Q3 2025](https://kun.uz/en/51877141)).
-- **Russian-relocation impact**: ~100,000–150,000 Russian nationals relocated to Uzbekistan 2022–2024 (estimates vary; Tashkent + Samarkand absorbed the bulk); structural lift to mid-segment Tashkent rents + sale prices, partial unwinding 2024–2025 as cohort either naturalised, moved on, or returned.
+- **Tashkent secondary market**: the corpus figure of a doubling in USD terms 2020 → 2025 (~US$550/m² → ~US$1,082/m², ~+96 %) is **unverified** — no source was found for the 2020 level, and CERR's 2025 annual review puts the level at over US$1,100/m². Sourced series: the CBU's Tashkent hedonic index (Feb 2022 = 100, US$ terms) reached 136.4 in Feb 2024, corrected, and ended 2025 at 137.4 (CBU Q4 2025 review via UzDaily 26 Mar 2026); nationwide nominal US$ price growth was 23.6 % in 2022 and 6.2 % in 2024 ([Kun.uz 15 Mar 2025](https://kun.uz/en/news/2025/03/15/housing-prices-vs-rental-costs-how-long-does-it-take-to-afford-an-apartment-in-tashkent), an article built on a CERR analysis). The corpus drivers (post-COVID recovery, the 2022–2024 Russian relocation, IT Park demand, inflation) are not quantified by any source read.
+- **2025–2026 dynamics**: Stat.uz's housing price index fell in every quarter of 2025 (national ≈ −4.7 %, Tashkent city ≈ −4.1 % over the year, computed) and rose 3.1 % nationally in Q1 2026 (Tashkent city +3.3 %) ([stat.uz SIAT 1305](https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1305.json)). Other sources disagree on 2025: CERR reports Tashkent secondary prices −4.8 % YoY in June 2025 ([Gazeta.uz 19 Jul 2025](https://www.gazeta.uz/en/2025/07/19/real-estate/)) but +0.6 % in 2025, with new-build prices up more than 9 % (Kun.uz 23 Jan 2026); the CBU puts Q4 2025 primary / secondary prices at +5.7 % / +7.9 % in US$ but −1.3 % / +0.7 % in soum, which it attributes to soum appreciation (UzDaily 26 Mar 2026). Stat.uz is the official statistical series; the CBU's Tashkent indices are a hedonic regression index and a listings-weighted combined index (same review). In June 2026 the CBU put new-build prices +6.2 % YoY in soum (+12 % in US$) and secondary +6.3 % (+12.2 %), with the regions rising faster than Tashkent ([Kun.uz 29 Sep 2026](https://kun.uz/en/news/2026/09/29/uzbekistans-housing-prices-rise-more-than-6-year-on-year-in-june)). CORRECTION: Bukhara +25.6 %, Sirdaryo +23.1 % and Samarkand +19.2 % are full-year 2025 growth in **transaction counts**, not prices (CBU Q4 2025 review).
+- **Transaction volumes**: H1 2025 136,500 units, +10.6 % YoY (CERR via Gazeta.uz 19 Jul 2025). Full-year 2025: CERR counts **295,000** transactions, more than +15 %, with Tashkent about 84,000 (+18.2 %, about 30 % of the total) ([Kun.uz 23 Jan 2026](https://kun.uz/en/news/2026/01/23/uzbekistans-housing-sales-rise-15-as-tashkent-leads-the-market)); the CBU counts **319,500**, +15.8 % (UzDaily 26 Mar 2026) — the two counts differ and neither source explains the gap. Jan–Aug 2026: 222,500 transactions, +18.4 % YoY, Tashkent +27.5 % (CERR via [Kun.uz 22 Sep 2026](https://kun.uz/en/news/2026/09/22/uzbekistans-housing-market-records-184-growth-in-first-eight-months)); Q2 2026: 74,400, +0.1 % YoY (CBU via Kun.uz 29 Sep 2026). CORRECTION: the +15 % is the national figure, not Tashkent's.
+- **Russian-relocation impact**: ~100,000–150,000 Russian nationals relocated to Uzbekistan 2022–2024 (est., no source cited — not verified 2026-10-29; Tashkent + Samarkand absorbed the bulk); structural lift to mid-segment Tashkent rents + sale prices, partial unwinding 2024–2025 as cohort either naturalised, moved on, or returned.
 
 ### Listing platforms
 
 - **Uybor.uz** ([uybor.uz/en](https://uybor.uz/en)) — leading real-estate-specific portal (residential + commercial); Russian + Uzbek + limited English UI; smart-search + map-based filters; map-based search; agency + private listings *(per listing — verify with cadastre / on visit)*
 - **OLX.uz** ([olx.uz](https://www.olx.uz/)) — largest general classifieds; broad real-estate category; sale + rent + commercial *(per listing — verify with cadastre / on visit)*
 - **Uylar Sales / Uylarsales.com** ([uylarsales.com](https://www.uylarsales.com/)) — Tashkent-focused agency aggregator with English UI for foreign buyers *(per listing — verify with cadastre / on visit)*
-- **Tradin.uz**, **Uybor.uz**, **DOM.uz**, **Salom.uz** — smaller portals + classifieds
-- **Telegram channels** (`t.me/uybor`, `t.me/tashkent_realty`, `t.me/samarkand_arenda`) — high volume, unverified
+- ❌ **Tradin.uz** (the domain does not resolve — NXDOMAIN), ❌ **DOM.uz** (DNS lookup fails, SERVFAIL), **Salom.uz** (now the Salom Telecom internet-provider site, not a property portal) — not usable as listing sources (checked 2026-10-29); Uybor.uz is listed above
+- **Telegram channels**: `t.me/uybor` is Uybor's official channel (2,808 subscribers on 2026-10-29); `t.me/tashkent_realty` does not exist, and `t.me/samarkand_arenda` has 23 subscribers under the title "Gruppa sotiladi" ("group for sale") — Telegram listings are unverified and seller-controlled
 - **Developer-direct portals**: **Murad Buildings** + **Akay Group** + **Glorent** + **Goldenhouse** + **NRG** + **Akfa Development** + **Golden House** (Tashkent premium) — direct sales typical for new builds *(per listing — verify with cadastre / on visit)*
 - **Diaspora-return Facebook groups**: "Real Estate Tashkent", "Uzbekistan Property" — anecdotal-grade
 
@@ -90,8 +90,8 @@ Most Uzbekistan real-estate listings **price in USD** despite contracts settling
 ### Compute
 
 1. US$/m² = USD listing ÷ m² advertised. Convert to UZS at CBU rate on contract day if needed.
-2. Compare to Stat.uz quarterly print + Uybor.uz district median.
-3. **Trap — "общая площадь" (total area, общая) vs "жилая площадь" (living area)**: Soviet/post-Soviet convention typically advertises "общая" including walls + balconies + corridors. 100 m² total ≈ 70–75 m² living. Confirm which figure before per-m² comparison.
+2. Compare to the Stat.uz quarterly housing price index (direction only — it has no US$/m² levels), the CERR averages and CBU district premia above, and the Uybor.uz district median.
+3. **Trap — "общая площадь" (total area, общая) vs "жилая площадь" (living area)**: Soviet/post-Soviet convention typically advertises "общая" including walls + balconies + corridors. 100 m² total ≈ 70–75 m² living (est., rule of thumb — no source). Confirm which figure before per-m² comparison.
 4. **Trap — "черновая отделка" (rough finish / shell+core) for new-builds**: Tashkent + regional new-builds frequently sold without internal finishing (no flooring, internal walls in some cases, no plumbing fixtures). Finishing budget: typically **US$200–US$400/m²** (est., Tashkent contractor quotes 2024–2025) to reach habitable; verify per developer schedule.
 5. **Trap — under-declared transaction value**: historically common practice to declare a notarial purchase price below true contract value to reduce notary fee + future CGT base; tightening 2024–2026 with cadastral value floors (Tax Code Art. 412 per-m² minimum value — Tashkent 3.53M UZS/m² from 1 Jan 2026; it applies to legal-entity property and individuals' non-residential business premises, not to flats). For foreign buyers, **always declare full true value** — under-declaration creates AML + future-sale CGT exposure.
 6. **Trap — parking**: rarely included in Tashkent new-build prices; expect US$8,000–US$25,000 for an underground space in central Tashkent (est., developer schedules 2024–2025 — verify per development).
@@ -104,8 +104,8 @@ Most Uzbekistan real-estate listings **price in USD** despite contracts settling
 
 ### Primary sources
 
-- **Ministry of Transport of the Republic of Uzbekistan (Transport vazirligi)** at [mintrans.uz](https://www.mintrans.uz/en) — sectoral plans, road master plans
-- **Republican Joint-Stock Company "Oʻzavtoyoʻl"** ("Uzavtoyul" — formerly "Uzavtoyul" State Committee for Highways) — national highway operator under Ministry of Transport; manages M-prefix (republican) + A-prefix (regional) roads; publishes traffic surveys for international + state highways. **Note**: comprehensive AADT-equivalent open data is **not consistently published online** — primary surveys often available only on request from regional Uzavtoyul offices.
+- **Ministry of Transport of the Republic of Uzbekistan (Transport vazirligi)** at [gov.uz/en/mintrans](https://gov.uz/en/mintrans) (the old `mintrans.uz` now redirects to the government portal; updated 2026-10-29) — sectoral plans, road master plans
+- **Committee for Roads under the Ministry of Transport (Transport vazirligi huzuridagi Avtomobil yoʻllari qoʻmitasi)** at [gov.uz/en/uzavtoyul](https://gov.uz/en/uzavtoyul) (the old `uzavtoyul.uz` redirects there; the corpus called it the Republican Joint-Stock Company "Oʻzavtoyoʻl"; checked 2026-10-29) — national road administration. Road classes since 1 Jan 2025 (Cabinet Resolution No. 383 of 4 Jul 2024, [lex.uz](https://lex.uz/docs/6999488)): **international** roads carry M and A numbers (3,833 km), **state** roads D numbers (14,316 km), and local roads total 24,222 km. **Note**: comprehensive AADT-equivalent open data is **not consistently published online** — primary surveys often available only on request from regional road offices.
 - **Tashkent City Khokimiyat (Toshkent shahar hokimligi)** at [tashkent.uz](https://tashkent.uz/) — Tashkent transport, metro, bus + BRT (Bus Rapid Transit) data
 - **Toshkent Metropolitan (Tashkent Metro)** — operated under Ministry of Transport; 4 operating lines (Chilanzar, Uzbekistan, Yunusabad, Circle Line — opened 2020 phased) + ground extensions ongoing
 - **Yandex Maps** + **2GIS** — only commercial-grade real-time traffic in UZ (Yandex dominant; 2GIS strong street-level for Tashkent/Samarkand). Google Traffic patchy outside Tashkent CBD.
@@ -118,13 +118,13 @@ Most Uzbekistan real-estate listings **price in USD** despite contracts settling
 
 - 🟢 < 1,000 v/d (rural side road, mahalla side street, Tashkent residential cul-de-sac in "массив" inner blocks)
 - 🟡 1,000–5,000 v/d (small municipal road, secondary urban street)
-- 🟠 5,000–20,000 v/d (urban arterial, A-prefix regional road, Tashkent inner ring like Buyuk Ipak Yoʻli, Furqat, Mukimi, Sharaf Rashidov)
-- 🔴 > 20,000 v/d (M-prefix republic highways: M39 Tashkent–Termez–Afghanistan border via Samarkand, M37 Tashkent–Bukhara–Turkmen border, M34 Tashkent–Kazakh border; Tashkent main avenues: Amir Temur, Mustaqillik, Bobur, Shota Rustaveli, Olmazor, Mukimi, Halqlar Doʻstligi)
+- 🟠 5,000–20,000 v/d (urban arterial, A-numbered international road (e.g. A373 Tashkent–Osh) or D-numbered state road, Tashkent inner ring like Buyuk Ipak Yoʻli, Furqat, Mukimi, Sharaf Rashidov)
+- 🔴 > 20,000 v/d (M-numbered international highways: M39 Tashkent–Termez–Afghanistan border via Samarkand, M37 Samarkand–Bukhara–Turkmen border (via Olot), M34 Tashkent–Gulistan–Tajik border (Tashkent–Dushanbe; the Kazakh-border approach from Shymkent is part of M39 — Cabinet Resolution No. 383 of 2024, appendix 1); Tashkent main avenues: Amir Temur, Mustaqillik, Bobur, Shota Rustaveli, Olmazor, Mukimi, Halqlar Doʻstligi)
 
 ### Coarse fallback (OSM `highway` class)
 
-- `motorway` = M-prefix republic highway
-- `trunk`/`primary` = A-prefix regional / inter-viloyat road
+- `motorway` = M-numbered international highway (M34 / M37 / M39 / M41)
+- `trunk`/`primary` = A-numbered international road or D-numbered state road (classes per Cabinet Resolution No. 383 of 4 Jul 2024, in force 1 Jan 2025)
 - `secondary` = viloyat / tuman road
 - `tertiary` = local connector
 - `residential` = mahalla / massive street
@@ -133,7 +133,7 @@ Most Uzbekistan real-estate listings **price in USD** despite contracts settling
 
 - **Tashkent Metro**: 4 lines + ~50 stations (2024–2025 expansion); properties within ~600 m of station carry ~10–15 % premium (est., Uybor.uz district analysis 2024 — verify per listing). Circle Line (Halqa yoʻli, opened phased 2020–2023) above-ground, runs around Tashkent city.
 - **Tashkent BRT** (Bus Rapid Transit): launched 2017 on selected corridors; ongoing expansion.
-- **Tashkent Ring Road / Big Tashkent Ring Road**: bypass corridor; properties along corridor see freight noise + improved access.
+- **Tashkent Ring Road (Toshkent halqa yoʻli, state road D001, 67 km plus a 5 km branch — Cabinet Resolution No. 383 of 2024, appendix 2) / Big Tashkent Ring Road (not verified)**: bypass corridor; properties along corridor see freight noise + improved access.
 - **Soviet-era arterial layout**: Tashkent (rebuilt entirely after the **26 April 1966 Mw 5.2 earthquake** — see `--risks`) retains wide Soviet boulevards (Amir Temur, Mustaqillik, Olmazor) → fast traffic + significant noise on properties within 200 m of arterials.
 - **Trap — "5 minut metrodan" / "5 минут от метро"** (5 minutes from metro): Tashkent metro coverage thicker than Almaty's but still patchy in outer districts (Sergeli, Bektemir, Yangihayot) — confirm walking distance not "marshrutka" / shared-taxi distance.
 - **Trap — Fergana Valley (Andijan, Namangan, Fergana)**: dense rural population; main inter-city roads carry significant freight + agricultural traffic during harvest seasons (cotton + fruit logistics).
@@ -292,13 +292,13 @@ A Uybor.uz listing: Tashkent Yashnabad 70 m² 2-bedroom apartment, 2018 build, a
 
 ### Strategic notes
 
-- **Tashkent prime districts (Mirabad, Yakkasaray, Yashnabad, Mirzo Ulugbek)**: highest year-round STR + LTR yield combination
-- **Samarkand + Bukhara historic centres**: peak tourist STR yield (~9–12 % gross per [Jarniascyril Uzbekistan secondary-residence brief](https://www.jarniascyril.com/international-real-estate/investing-in-uzbekistan-real-estate-market-guide-returns/secondary-homes-market-uzbekistan-investment-return/) 2024 — verify; aggregator-grade); seasonal swing significant
-- **Khiva**: smaller market, ~21–22 % occupancy historic-listings (Jarniascyril) — niche
-- **STR rate benchmarks** (per Jarniascyril 2024 + Airdna scrape — secondary aggregator data; verify):
+- **Tashkent rents**: average asking rent **US$9.5/m²/month** in June 2026 (about UZS 114,000; +5.8 % YoY in soum, +11.6 % in US$) (CBU Q2 2026 review via [Kun.uz 30 Sep 2026](https://kun.uz/en/news/2026/09/30/rental-prices-in-uzbekistan-accelerate-growth-in-q2-central-bank), secondary press); the same article reports the highest rents in Mirobod, Shaykhantahur and Yakkasaray, and median asking rents from the Institute of Macroeconomic and Regional Studies' May 2026 analysis of US$400 (1-room), US$500 (2-room), US$700 (3-room) and US$800 (4+ rooms). The corpus claim that Mirabad, Yakkasaray, Yashnabad and Mirzo Ulugbek give the highest combined STR + LTR yield is unsourced.
+- **Samarkand + Bukhara historic centres**: peak tourist STR yield (per the [Jarniascyril Uzbekistan secondary-residence brief](https://www.jarniascyril.com/international-real-estate/investing-in-uzbekistan-real-estate-market-guide-returns/secondary-homes-market-uzbekistan-investment-return/), published 3 Mar 2026: 10–15 % gross in the high season for Samarkand guesthouses / historic-centre flats, 8–11 % for Bukhara short-term rentals in the high season — aggregator-grade, verify); seasonal swing significant
+- **Khiva**: smaller market — niche; no occupancy figure found (the ~21–22 % previously attributed to Khiva is Jarniascyril's Bukhara figure, and the page does not mention Khiva)
+- **STR rate benchmarks** (per Jarniascyril, published 3 Mar 2026 — secondary aggregator data; the page names no data provider, so the "Airdna scrape" attribution is unsupported; verify):
   - Samarkand average daily rate ~US$48; occupancy ~27.5 % (~111 listings active)
   - Bukhara average daily rate ~US$56–57; occupancy ~21–22 % (~51 listings active)
-- **Long-term residential gross yields** (per Jarniascyril 2024 + Uybor.uz aggregate):
+- **Long-term residential gross yields** (est.: Jarniascyril, 3 Mar 2026, secondary, gives 6–8 % gross in the city centre and 8–10 % on the periphery in its Tashkent section — stated after a worked example for an Istanbul flat — and Samarkand 6–8 % net for classic rentals; the business / comfort / renovated-Soviet and Bukhara splits below are unsourced; Tashkent's rental yield was **9 %** in US$ terms in Dec 2024, a price equal to 11.2 years of rent on 1 Jan 2025 — [Kun.uz 15 Mar 2025](https://kun.uz/en/news/2025/03/15/housing-prices-vs-rental-costs-how-long-does-it-take-to-afford-an-apartment-in-tashkent), an article built on a CERR analysis):
   - Tashkent business class: ~6–8 %
   - Tashkent comfort/middle: ~7–9 %
   - Tashkent renovated Soviet apartments: ~8–10 %
@@ -315,7 +315,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 | STR 60 % occupancy × US$45/night | ~US$9,855 | ~US$9,461 | ~US$8,672 |
 | Premium STR (renovated, Mirabad), 50 % × US$80/night | ~US$14,600 | ~US$14,016 | ~US$12,848 |
 
-> Net figures **est.** — exclude utility costs, building common-area dues (kommunalka), agency management (~15–25 %), platform fees (~15–18 % Airbnb + Booking). Verify per listing + per regime. From 1 Jan 2026 an IE's rental income is taxed at 12 % PIT (Tax Code Art. 465 pt 7), so use the PIT 12 % column.
+> Net figures **est.** — exclude utility costs, building common-area dues (kommunalka), agency management (~15–25 %), platform fees (~15–18 % Airbnb + Booking). Verify per listing + per regime. From 1 Jan 2026 an IE's rental income is taxed at 12 % PIT (Tax Code Art. 465 pt 7), so use the PIT 12 % column. USD figures use ~12,500 UZS/USD: at the CBU rate of 12,012.30 on 21 Oct 2026, UZS 5.5M ≈ US$458 (computed), below the May 2026 median 2-room asking rent of US$500 in Tashkent (Institute of Macroeconomic and Regional Studies via Kun.uz 30 Sep 2026, secondary press).
 
 ---
 
@@ -325,7 +325,7 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 - **OLX Jobs Uzbekistan** ([olx.uz/rabota/](https://www.olx.uz/rabota/)) — largest classifieds-style job board
 - **HeadHunter Uzbekistan** ([hh.uz](https://hh.uz/)) — major board; Russian/Uzbek UI
-- **Mygov.uz / Single portal of public services** — official government employment portal under Ministry of Employment + Labour Relations ([mehnat.uz](https://www.mehnat.uz/))
+- **Mygov.uz / Single portal of public services** — official government employment portal under the employment ministry ([mehnat.uz](https://www.mehnat.uz/) redirected to `ecosys.mehnat.uz`, which did not respond, on 2026-10-29; the ministry's current name was not re-verified)
 - **LinkedIn Uzbekistan** — active in IT (especially IT Park resident companies), banking, oil/gas, BPO, NGO/IGO sectors
 - **IT Park Uzbekistan** ([it-park.uz/en/](https://www.it-park.uz/en/)) — IT-sector focused; resident-company hiring; IT Visa application portal
 
@@ -341,15 +341,15 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 ### Tech / IT-specific incentives
 
-- **IT Park Uzbekistan** (largest tech hub, Tashkent-based with Samarkand + Namangan + Bukhara branches): tax holiday until 2040; **38,600+ employees end-2024** ([IT Park 2024 results](https://www.it-park.uz/en/itpark/news/)); 104+ new export-oriented residents H1 2025
+- **IT Park Uzbekistan** (largest tech hub, Tashkent-based with Samarkand + Namangan + Bukhara branches): tax holiday until 1 Jan 2028 under Decree UP-5099; from 1 Jan 2028 to 1 Jan 2040 the exemption from all taxes except VAT continues only for residents whose exports exceed 50 % of income and for IT-education providers placing half their graduates with exporting residents (Tax Code art. 483, [lex.uz](https://lex.uz/ru/docs/4674893), Russian text an unofficial translation); the 38,600+ employees (end-2024) and 104+ new export-oriented residents (H1 2025) figures were not found on the [IT Park news](https://www.it-park.uz/en/itpark/news/) pages read on 2026-10-29 — unverified
 - **IT Visa** (3-year multi-entry): for IT specialists earning ≥ US$30k/year in IT, IT Park resident-company founders + employees + investors (≥ US$10k); allows real-estate purchase at any value; reside any region without re-registration
 
 ### Salaried benchmarks
 
-- **Average monthly nominal wage 2024 Q4 (Stat.uz)**: ~UZS 5.0M/month gross (~US$400 USD); 2025 levels expected ~UZS 5.5M–6.0M
-- **Tashkent CBD finance + IT mid-level**: ~UZS 12M–35M/month (HH.uz reports 2024–2025; ~US$960–US$2,800)
-- **IT Park senior engineering**: ~US$2,500–US$8,000/month equivalent (industry sources; outsourcing-revenue-driven)
-- **Minimum wage 2025**: UZS 1,155,000/month (~US$92; verify current at [mehnat.uz](https://www.mehnat.uz/))
+- **Average monthly nominal accrued wage (Stat.uz)**: **UZS 5,179,326** for 2025 (annual series; 2024: UZS 4,404,168), ≈ US$431 (computed at CBU 12,012.30 UZS/USD, 21 Oct 2026); the quarterly series, which excludes agriculture and small businesses, reads **UZS 7,274,102** for 2026-Q3 (preliminary), Tashkent city **UZS 12,300,801** (≈ US$606 and US$1,024, computed) (2026 data, source [stat.uz SIAT 500](https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_500.json) + [SIAT 522](https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_522.json); 2026-10-29 verified)
+- **Tashkent CBD finance + IT mid-level**: ~UZS 12M–35M/month (est., HH.uz reports 2024–2025 — not re-verified 2026-10-29; ≈ US$1,000–US$2,914 at 12,012.30, computed)
+- **IT Park senior engineering**: ~US$2,500–US$8,000/month equivalent (est., no named source — unverified 2026-10-29)
+- **Minimum wage (минимальный размер оплаты труда)**: **UZS 1,360,000/month from 1 Sep 2026** ([Presidential Decree UP-115 of 23 Jun 2026, item 3(b)(i)](https://lex.uz/ru/docs/8283680)), ≈ US$113 (computed at 12,012.30 UZS/USD); the same item sets the base calculation value (BCV) at UZS 440,000
 
 ### Catchment heuristics
 
@@ -552,11 +552,11 @@ For parcel-level: visit the **mahalla committee (mahalla qoʻmitasi)** + **distr
 Universal — see `shared/amenities-osm.md`. Uzbekistan is **moderately well-mapped on OpenStreetMap** in Tashkent + Samarkand + Bukhara + Khiva urban cores; thinner in oblast-centre + rural areas (mahalla street-level granularity uneven). **Russian-Cyrillic `name:ru` is the dominant tag** with `name:uz` (Uzbek-Latin) increasingly added; Uzbek-Cyrillic legacy also present. **Yandex Maps + 2GIS (commercial)** provide more granular street-level data than Google Maps in non-Tashkent cities — cross-check rural OSM results before relying.
 
 Brand-chain conventions:
-- **Korzinka.uz** = largest hypermarket chain (food + general); **Makro** = mid-tier; **Magnum Cash & Carry** (KZ entrant) = mid-tier
+- **Korzinka.uz** = largest hypermarket chain (food + general); **Makro** = mid-tier; **Magnum Cash & Carry** (KZ entrant) = mid-tier (Uzbek presence not verified 2026-10-29; `magnum.uz` is an unrelated site)
 - **Havas** + **Magnum** + **OOSON Smart Market** = supermarket chains
 - **Doʻstlik** + **Apteka.uz** + **Maxima Pharm** = pharmacy chains
 - **Mediapark** + **Texnomart** = consumer electronics + appliances
-- Banks: Uzpromstroybank (Uzbek industrial), Asaka Bank, Hamkorbank, Ipotekabank (mortgage-focused), Anor Bank (digital), Kapitalbank — ATMs + branches widespread in Tashkent; rural networks thinner
+- Banks: SQB (Oʻzsanoatqurilishbank, formerly Uzpromstroybank), Asaka Bank, Hamkorbank, Ipoteka Bank (OTP Group), Anorbank (digital), Kapitalbank (SQB, Ipoteka Bank and Anorbank names per their own sites, 2026-10-29) — ATMs + branches widespread in Tashkent; rural networks thinner
 - **Click + Payme + Uzum** = dominant fintech super-apps (banking + marketplace + payments) — required for friction-free utility/tax/cadastre interactions
 
 ---
@@ -615,9 +615,9 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 
 - **Uybor.uz** — leading real-estate-specific portal with map search *(per listing — verify with cadastre / on visit)*
 - **OLX.uz** — largest general classifieds, RE category *(per listing — verify with cadastre / on visit)*
-- **Uylarsales.com**, **DOM.uz**, **Tradin.uz** *(per listing — verify with cadastre / on visit)*
+- **Uylarsales.com** *(per listing — verify with cadastre / on visit)*; ❌ DOM.uz and Tradin.uz no longer resolve (checked 2026-10-29)
 - Developer-direct: **Murad Buildings**, **Akay Group**, **Glorent**, **Goldenhouse**, **NRG**, **Akfa Development** *(per listing — verify with cadastre / on visit)*
-- **Telegram channels** (`t.me/uybor`, `t.me/tashkent_realty`, `t.me/samarkand_arenda`) — high volume, unverified
+- **Telegram channels**: `t.me/uybor` (Uybor's official channel, 2,808 subscribers on 2026-10-29); `t.me/tashkent_realty` does not exist and `t.me/samarkand_arenda` has 23 subscribers under the title "Gruppa sotiladi" ("group for sale") — unverified, seller-controlled
 
 ## Caveats unique to UZ
 
