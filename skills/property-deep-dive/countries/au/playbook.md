@@ -271,61 +271,66 @@ State-based, varies hugely:
 | Source | URL | What it gives |
 |---|---|---|
 | **Bureau of Meteorology (BoM)** | `https://www.bom.gov.au` | Fire Danger Ratings, flood maps, climate |
-| **Geoscience Australia** | `https://www.ga.gov.au` | Australian Flood Risk Information Portal (AFRIP), earthquake catalogue |
+| **Geoscience Australia** | `https://www.ga.gov.au` | Australian Flood Risk Information Portal (AFRIP) — a catalogue of council / state flood studies contributed up to 2018, now served through the Digital Atlas of Australia; not a current flood map, so get current mapping from the state tools below or the council (source [GA AFRIP page](https://www.ga.gov.au/scientific-topics/community-safety/projects/afrip), updated 12 Jan 2026; 2026-10-28 verified); earthquake catalogue |
 | **NSW Rural Fire Service** | `https://www.rfs.nsw.gov.au` | Bush Fire Prone Land mapping (mandatory disclosure trigger) |
-| **Climate Council Climate Risk Map** | `https://www.climatecouncil.org.au/resources/climate-risk-map/` | Six hazards by suburb |
+| **Climate Council Climate Risk Map** | `https://www.climatecouncil.org.au/resources/climate-risk-map/` | Six hazards (riverine flooding, surface-water flooding, coastal inundation, bushfire, extreme wind, tropical-cyclone wind) by area — NGO tool on Climate Valuation modelling, data as of Jan 2025; secondary, not a government overlay (2026-10-28 verified) |
 | **AFAC Seasonal Bushfire Outlook** | `https://www.afac.com.au/seasonal-outlook` | Pre-season risk forecast |
 | **CSIRO National Bushfire Intelligence Capability** | `https://research.csiro.au/nbic` | Research + projections |
-| **ARPANSA** | `https://www.arpansa.gov.au/` | Radon (lower than EU; not a major issue) |
+| **ARPANSA** | `https://www.arpansa.gov.au/` | Radon — generally lower than the worldwide average in Australia (ARPANSA, read via a 10 Jul 2026 web-archive copy because the live site refuses scripted requests; 2026-10-28 verified) |
+| **NSW Planning Portal Spatial Viewer** | `https://www.planningportal.nsw.gov.au/spatialviewer/` | NSW Government planning map viewer (loads 2026-10-28; layer content not checked from a scripted fetch); the formal disclosure is the s 10.7(2) planning certificate (Environmental Planning and Assessment Act 1979), a mandatory part of NSW conveyancing (source [DPHI practice note, 1 Jul 2026](https://www.planningportal.nsw.gov.au/sites/default/files/documents/2026/Practice%20Note%20-%20Guidance%20on%20section%2010.7%20planning%20certificate%20notations%20%281%29.pdf); 2026-10-28 verified) |
+| **VicPlan** | `https://mapshare.vic.gov.au/vicplan/` | Victorian Government planning map viewer (loads 2026-10-28; zone / overlay content not checked from a scripted fetch) |
+| **FloodCheck Queensland** | `https://floodcheck.information.qld.gov.au/` | Historic QLD flood studies and data; FloodCheck itself says it should not be used to determine the potential for flooding at the property level, and a replacement FloodCheck Information Portal is in development; current flood information comes from the local council (2026-10-28 verified) |
 
 ### Specific risks
 
 - **Bushfire** — extreme + increasing:
-  - Black Saturday 2009 (173 dead, VIC)
-  - Black Summer 2019-20 (33 dead, 18.6M ha burned)
-  - **NSW Bush Fire Prone Land** mapping triggers building/disclosure rules (BAL-12.5 to FZ ratings)
+  - Black Saturday, 7 Feb 2009 (173 dead, VIC) (source [2009 Victorian Bushfires Royal Commission summary](https://knowledge.aidr.org.au/media/4457/vbrc_summary.pdf) + [BoM](https://media.bom.gov.au/social/blog/2025/remembering-black-saturday-the-extraordinary-weather-behind-victorias-2009-bushfires/); 2026-10-28 verified)
+  - Black Summer 2019-20 (33 dead, over 24M ha burned, over 3,000 homes destroyed) (source [Royal Commission into National Natural Disaster Arrangements report](https://www.royalcommission.gov.au/natural-disasters/report), 28 Oct 2020; 2026-10-28 verified — the old 18.6M ha figure is below the Royal Commission's)
+  - **NSW Bush Fire Prone Land** mapping triggers building/disclosure rules — Bush Fire Attack Level runs BAL-LOW, BAL-12.5, BAL-19, BAL-29, BAL-40, BAL-FZ (flame zone); construction standard AS 3959 (source [NSW RFS](https://www.rfs.nsw.gov.au/plan-and-prepare/building-on-bush-fire-prone-land/building-after-bush-fire/your-level-of-risk), read via 2026 web-archive copies because rfs.nsw.gov.au refuses scripted requests; 2026-10-28 verified)
   - Insurance premiums rising for high BAL ratings
 - **Flood** — major risk:
-  - **NSW + QLD 2022** floods (Lismore, Brisbane)
+  - **NSW + QLD 2022** floods (Lismore, Brisbane) (source [BoM Special Climate Statement 76](https://www.bom.gov.au/climate/current/statements/scs76.pdf), 25 May 2022; 2026-10-28 verified)
   - **Tropical North**: cyclone-driven
   - **Murray-Darling basin**: river flooding
-- **Cyclone**: QLD + WA tropical north (Cyclone Tracy 1974, Yasi 2011)
-- **Drought**: severe + long-duration (Millennium Drought 2001-2009)
-- **Earthquake**: low-moderate; Newcastle 1989 (M5.6, 13 dead); Adelaide hill faults
+- **Cyclone**: QLD, NT + WA tropical north (Cyclone Tracy, Darwin, 21–25 Dec 1974; Yasi, QLD, 30 Jan – 3 Feb 2011) (source BoM [Tracy](https://www.bom.gov.au/cyclone/history/tracy.shtml) + [Yasi](https://www.bom.gov.au/cyclone/history/yasi.shtml); 2026-10-28 verified)
+- **Drought**: severe + long-duration (Millennium Drought 1997–2009, peak 2001–2009; BoM puts the dry period at late 1996 to mid-2010) (source [BoM](https://www.bom.gov.au/climate/updates/articles/a010-southern-rainfall-decline.shtml); 2026-10-28 verified)
+- **Earthquake**: low-moderate; Newcastle 28 Dec 1989 (ML 5.6 / Mw 5.4, 13 dead) (source [Geoscience Australia](https://www.ga.gov.au/news/30-years-on-commemorating-the-1989-newcastle-earthquake); 2026-10-28 verified); Adelaide hill faults (not re-verified)
 - **Storm surge** + sea-level rise: coastal communities (Gold Coast, Sunshine Coast)
-- **Heatwaves**: increasing; Melbourne 46.4°C, Sydney 47.3°C records
+- **Heatwaves**: increasing; records Melbourne 46.4°C (7 Feb 2009) and Sydney basin 48.9°C at Penrith Lakes AWS (4 Jan 2020; replaces the old 47.3°C figure) (source BoM [Black Saturday](https://media.bom.gov.au/social/blog/2025/remembering-black-saturday-the-extraordinary-weather-behind-victorias-2009-bushfires/) + [Sydney Jan 2020](https://www.bom.gov.au/climate/current/month/nsw/archive/202001.sydney.shtml); 2026-10-28 verified)
 - **Coastal erosion**: NSW, Gold Coast
 
 ### Build-era hazards
 
 | Era | Hazards |
 |---|---|
-| **Pre-1900** | Lead paint, lead pipes |
-| **1920s–1980s** | Asbestos very common (white asbestos used until 1987, blue/brown until 1985) |
-| **1980s–1990s** | Some asbestos in renos |
+| **Pre-1970** | Lead-based paint (NSW EPA names houses built before 1970); some old plumbing solder contained lead (2024 data, source NSW EPA [1](https://www.epa.nsw.gov.au/sites/default/files/24p4541-lead-gardening-and-home-renovations.pdf) + [2](https://www.epa.nsw.gov.au/sites/default/files/24p4542-lead-your-health-around-the-home.pdf); 2026-10-28 verified) |
+| **1940s–1980s** | Asbestos very common — peak residential use mid-1940s to late 1980s; crocidolite (blue) and amosite (brown) bans phased in from the late 1970s; asbestos mining stopped by 1983; total ban on all forms, incl. chrysotile (white), from 31 Dec 2003; asbestos is in 1 in 3 homes (2025 data, source [ASSEA facts and figures guidance](https://www.asbestossafety.gov.au/sites/default/files/2025-11/ASSEA_Asbestos_Facts_and_Figures_Guidance_2025.pdf), read via web-archive copy; 2026-10-28 verified — the old 'white until 1987, blue/brown until 1985' dates are not in it) |
+| **1980s–2003** | Phased out of building products by 1990; a home built or renovated before 1990 might contain asbestos, a building constructed after 2003 is not expected to (ASSEA, same source + [householder guide](https://web.archive.org/web/20260912165204/https://www.asbestossafety.gov.au/about-asbestos/practical-guidance/householders-and-home-renovators)) |
 | **2000s+** | Modern code; energy improvements |
-| **AAC blocks (post-2000)** | Performance issues some buildings |
-| **Aluminium composite cladding (post-Grenfell)** | Some buildings flagged |
+| **2023+ (NCC 2022)** | New homes: thermal performance equivalent to 7 stars NatHERS plus a whole-of-home annual energy budget; state adoption varies — NSW Enhanced BASIX 1 Oct 2023, ACT 15 Jan 2024, VIC 1 May 2024, SA 1 Oct 2024, WA 1 May 2025, NT limited to 5-star, TAS housing provisions not adopted, QLD via Queensland Modern Homes (source ABCB [overview](https://www.abcb.gov.au/news/2022/overview-changes-energy-efficiency-and-condensation) + [adoption dates](https://www.abcb.gov.au/ncc-2022-state-and-territory-adoption-dates), table correct as at 22 Sep 2023 — dates may have changed since; 2026-10-28 verified) |
+| **AAC blocks (post-2000)** | Performance issues some buildings (unverified — no primary source found 2026-10-28) |
+| **Building defects (NSW)** | Home Building Act 1989 statutory warranties: 6 years for major defects, 2 years for other defects, from completion of the work, plus 6 months if the breach appears in the last 6 months; Building Commission NSW handles complaints (2026 data, source [Building Commission NSW](https://www.nsw.gov.au/departments-and-agencies/building-commission/about-us/building-defect-complaints); 2026-10-28 verified) |
+| **Aluminium composite cladding (post-Grenfell)** | Some buildings flagged — NSW Project Remediate is a voluntary (opt-in) program to replace flammable cladding on eligible class 2 apartment buildings confirmed by the Cladding Taskforce as high-risk, with a 10-year interest-free loan; registrations have closed and new registration enquiries are no longer accepted (2026 data, source [Building Commission NSW](https://www.nsw.gov.au/departments-and-agencies/building-commission/replace-flammable-cladding-through-project-remediate), updated 29 Jun 2026; 2026-10-28 verified); other states not re-verified |
 
 ### Mandatory at sale
 
 | Document | State | Required because |
 |---|---|---|
-| **Section 32 / Vendor Statement** | VIC | Sale of Land Act 1962 mandatory |
-| **Contract for Sale + s.10.7 zoning cert + drainage diagram + title** | NSW | Conveyancing Act |
-| **Form 2 (Seller Disclosure Statement)** under Property Law Act 2023 (Qld) (effective 1 Aug 2025) | QLD | Replaces old contract warranties (2026-05-27 verified, source [Holding Redlich on Property Law Act 2023](https://www.holdingredlich.com/queensland-s-property-law-act-new-seller-disclosure-requirements-from-1-august-2025) — prior "Form 1" reference was wrong) |
-| **Strata report** | NSW | Strata Schemes Management Act |
-| **Owners Corporation cert (s.151)** | VIC | Owners Corporation Act |
-| **Pool safety certificate** | QLD | Mandatory pre-sale |
-| **Smoke alarm compliance** | QLD | From 1 Jan 2022 |
+| **Section 32 / Vendor Statement** | VIC | Sale of Land Act 1962 s 32 — given to the buyer before the buyer signs (source [Consumer Affairs Victoria](https://www.consumer.vic.gov.au/housing/buying-and-selling-property/selling-property/conveyancing-and-contracts-for-sellers); 2026-10-28 verified) |
+| **Contract for Sale + s 10.7 planning certificate + drainage diagram + title search + smoke-alarm and loose-fill asbestos notice (+ for a pool: certificate of compliance, occupation certificate with evidence of pool registration, or certificate of non-compliance — except strata / community schemes of more than two lots and off-the-plan)** | NSW | Conveyancing Act 1919 s 52A + Conveyancing (Sale of Land) Regulation 2022 Sch 1; if a document is missing the buyer may rescind within 14 days of exchange (source [NSW Government — sales contracts](https://www.nsw.gov.au/housing-and-construction/property-professionals/working-as-an-agent/sales-contracts); 2026-10-28 verified) |
+| **Form 2 (Seller Disclosure Statement)** under Property Law Act 2023 (Qld) (effective 1 Aug 2025) + prescribed certificates | QLD | Given before the buyer signs; flooding history, structural soundness and past approvals are not required, so check flood risk separately (source [Queensland Government](https://www.qld.gov.au/housing/buying-owning-home/seller-disclosure-scheme); 2026-10-28 verified); replaces old contract warranties (per [Holding Redlich](https://www.holdingredlich.com/queensland-s-property-law-act-new-seller-disclosure-requirements-from-1-august-2025), law firm, 2026-05-27) |
+| **Strata search report + s 184 certificate** (buyer's own checks, not a vendor disclosure) | NSW | Strata Schemes Management Act — NSW Government tells buyers to get a strata report and building inspection before buying; the s 184 certificate comes from the owners corporation (source [NSW Government](https://www.nsw.gov.au/housing-and-construction/strata/buying-a-strata-property); 2026-10-28 verified) |
+| **Owners corporation certificate (s 151)** | VIC | Owners Corporations Act 2006 s 151; goes in the Section 32 statement; issued within 10 business days of a written request and fee (source [Consumer Affairs Victoria](https://www.consumer.vic.gov.au/housing/owners-corporations/finance-insurance-and-record-keeping/records) + [Act version 024](https://www.legislation.vic.gov.au/in-force/acts/owners-corporations-act-2006); 2026-10-28 verified) |
+| **Pool safety certificate or Form 36** | QLD | With a current certificate the seller gives the buyer a copy before settlement; without one the seller lodges a Form 36 (notice of no pool safety certificate) with QBCC and gives the buyer a copy before settlement (before the contract at auction), and the buyer must get a certificate within 90 days of settlement (body corporate for shared pools) (source [QBCC](https://www.qbcc.qld.gov.au/home-owner-hub/swimming-pools/buy-sell-lease-property-pool); 2026-10-28 verified) |
+| **Interconnected photoelectric smoke alarms** | QLD | Required once an agreement to transfer the land is made after 31 Dec 2021 (Fire Services Act 1990 s 147Z, prev s 104RBA); every dwelling by 1 Jan 2027 (source [Queensland legislation](https://www.legislation.qld.gov.au/view/whole/html/current/act-1990-010) + [qld.gov.au](https://www.qld.gov.au/emergency/safety/fire/smoke-alarms); 2026-10-28 verified) |
 
 ### Climate change projections
 
-- **Sydney/Melbourne**: +2.0–3.5°C by 2050; +3-6 hot days >35°C
-- **Sea-level rise**: +20–80 cm by 2100
-- **Bushfire**: significant elevation (FFDI +20-50% by 2050)
-- **Drought**: increasing in MDB
-- **Cyclone**: poleward shift; Brisbane increasingly cyclone-vulnerable
+- **Temperature**: Australia has warmed 1.51 ± 0.23 °C since national records began in 1910; more extremely hot days projected, with larger warming inland than near the coast (source [BoM/CSIRO State of the Climate 2024](https://www.bom.gov.au/sites/default/files/2024-10/state-of-the-climate-2024.pdf); 2026-10-28 verified). City figures 'Sydney/Melbourne +2.0–3.5°C by 2050; +3-6 hot days >35°C' unverified — not in that report
+- **Sea-level rise**: global mean sea level up over 22 cm since 1900, now rising close to 4 cm per decade (1993–2023); extreme sea levels that were 1-in-100-year events projected to become annual by 2100 under lower emissions and by mid-century under higher emissions (same source). '+20–80 cm by 2100' unverified
+- **Bushfire**: dangerous fire weather days (FFDI above the 90th percentile) more frequent across most regions over the last 75 years; longer fire season and more dangerous fire weather days projected for much of the south and east (same source). 'FFDI +20-50% by 2050' unverified
+- **Drought**: more time in drought likely across many regions of southern and eastern Australia as cool-season rainfall falls (same source)
+- **Cyclone**: fewer tropical cyclones but a greater proportion of high intensity, with heavier rain and higher seas amplifying impacts (same source); 'poleward shift; Brisbane increasingly cyclone-vulnerable' unverified
 
 ---
 
@@ -335,15 +340,16 @@ State-based, varies hugely:
 
 - **Sydney Water**, **Hunter Water**, **Yarra Valley Water (Melbourne)**, **Melbourne Water**, **Urban Utilities (QLD)**, **SA Water**, **Water Corporation (WA)**
 - Universal in metro areas; rural may have rainwater tanks + septic
+- **Electricity price caps 2026-27** (1 Jul 2026 – 30 Jun 2027; standing-offer / reference prices, not the cheapest market deal): AER Default Market Offer (DMO 8, published 26 May 2026), residential flat rate per year — Ausgrid $1,899 (3,900 kWh), Endeavour $2,328 (4,900 kWh), Essential $2,604 (4,600 kWh), Energex (SE QLD) $1,988 (4,600 kWh), SA Power Networks $2,334 (4,000 kWh); the DMO covers only those five networks. Victoria: ESC Victorian Default Offer, average $1,591/yr on a flat tariff at 4,000 kWh, 5% lower (2026 data, source [AER final determination](https://www.aer.gov.au/system/files/2026-05/AER%20-%20Final%20determination%20-%20Default%20market%20offer%202026%E2%80%9327.pdf) Table 2.1, read via a 26 Oct 2026 web-archive copy because aer.gov.au refused scripted requests, + [ESC](https://www.esc.vic.gov.au/media-centre/regulator-reduces-victorian-default-electricity-prices), 25 May 2026; 2026-10-28 verified); elsewhere check the state regulator
 
 ### Costs
 
 | Scenario | Cost (AUD) |
 |---|---:|
-| Mains connection | $5,000–$15,000 |
-| Septic upgrade | $15,000–$35,000 |
-| Rainwater tank | $2,000–$8,000 |
-| Bored well | $10,000–$30,000 |
+| Mains connection | est. $5,000–$15,000 |
+| Septic upgrade | est. $15,000–$35,000 |
+| Rainwater tank | est. $2,000–$8,000 |
+| Bored well | est. $10,000–$30,000 |
 
 ---
 
@@ -394,7 +400,7 @@ State-based, varies hugely:
 - **FIRB fees + vacancy fee** for foreign-owned dwellings
 - **Negative gearing** + **CGT 50% discount** both curtailed from 1 Jul 2027 (Act No. 49 of 2026): losses on established dwellings bought from 7:30pm AEST 12 May 2026 are quarantined to residential property income from the 2027-28 income year; the 50% discount is replaced by indexation + 30% minimum tax on gains accruing from 1 Jul 2027 (grandfathering and new-build carve-outs — see `--tax` / `--rental`)
 - **Bushfire BAL ratings** drive insurance + building code; high-BAL means $50k+ retrofit
-- **Pool safety certificate** mandatory pre-sale QLD
+- **QLD pool sale**: a current pool safety certificate, or a Form 36 lodged with QBCC and given to the buyer before settlement (the buyer then has 90 days to get the certificate) — see the sale-documents table
 - **NSW Bush Fire Prone Land** triggers special construction
 - **Section 32 (VIC)** + **Form 2 Seller Disclosure Statement (QLD, new 1 Aug 2025)** + **Contract for Sale (NSW)** — mandatory pre-sale disclosures
 - **Strata vs community title vs old-system title** — title quality varies
@@ -429,14 +435,20 @@ State-based, varies hugely:
 |---|---|
 | realestate.com.au | `https://www.realestate.com.au/<region>` |
 | Domain | `https://www.domain.com.au/` |
-| CoreLogic | `https://www.corelogic.com.au/our-data/corelogic-indices` |
-| ABS RPPI | `https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/residential-property-price-indexes-eight-capital-cities/` |
+| Cotality (formerly CoreLogic) | `https://www.cotality.com/au/our-data/indices` (the old corelogic.com.au URL redirects here; checked 2026-10-28) |
+| ABS Total Value of Dwellings | `https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/total-value-dwellings` (successor to the Residential Property Price Indexes: Eight Capital Cities, which ceased after the Dec 2021 release; latest Jun qtr 2026; checked 2026-10-28) |
 | FIRB | `https://foreigninvestment.gov.au` |
 | BoM | `https://www.bom.gov.au/` |
 | Geoscience Australia | `https://www.ga.gov.au/` |
-| NSW RFS BFP Land | `https://www.rfs.nsw.gov.au/plan-and-prepare/building-in-a-bush-fire-area` |
+| NSW RFS BFP Land | `https://www.rfs.nsw.gov.au/plan-and-prepare/building-on-bush-fire-prone-land` (the old building-in-a-bush-fire-area path redirects here per a Dec 2025 web-archive capture; the live site refuses scripted requests; checked 2026-10-28) |
 | Climate Council | `https://www.climatecouncil.org.au/resources/climate-risk-map/` |
 | ATO | `https://www.ato.gov.au/` |
+| AER Default Market Offer 2026-27 | `https://www.aer.gov.au/system/files/2026-05/AER%20-%20Final%20determination%20-%20Default%20market%20offer%202026%E2%80%9327.pdf` (NSW / SE QLD / SA electricity reference prices; aer.gov.au refused scripted requests 2026-10-28, PDF read via web archive) |
+| ESC Victorian Default Offer 2026-27 | `https://www.esc.vic.gov.au/electricity-and-gas/prices-tariffs-and-benchmarks/victorian-default-offer/victorian-default-offer-price-review-2026-27` |
+| nbn address check | `https://www.nbnco.com.au/check-address` (the old check-your-address path redirects here; checked 2026-10-28) |
+| NSW crime statistics (BOCSAR) | `https://bocsar.nsw.gov.au/` |
+| VIC crime statistics (Crime Statistics Agency) | `https://www.crimestatistics.vic.gov.au/` |
+| Building Commission NSW | `https://www.nsw.gov.au/departments-and-agencies/building-commission` |
 
 ## Status
 
