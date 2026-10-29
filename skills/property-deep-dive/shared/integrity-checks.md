@@ -182,7 +182,7 @@ When unresolvable: surface both, let buyer verify in person.
 | 🇨🇿 | `https://nahlizenidokn.cuzk.cz/` (free) |
 | 🇸🇰 | `https://www.katasterportal.sk/` (free) |
 | 🇦🇹 | Grundbuch via `https://www.justiz.gv.at/home/service/grundbuch~36.de.html` (paid) |
-| 🇬🇷 | `https://www.ktimatologio.gov.gr/` |
+| 🇬🇷 | `https://ktimatologio.gr/` |
 | 🇵🇱 | `https://ekw.ms.gov.pl/` (KW number; paid certified) |
 
 ### Output template
