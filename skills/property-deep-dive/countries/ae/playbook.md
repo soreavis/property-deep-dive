@@ -2,7 +2,7 @@
 
 ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-07-03 — Tier-A quarterly refresh).
 
-> **Critical framing**: The UAE is a **foreign-buyer-restricted market**. Non-GCC nationals can only acquire **freehold** in **designated freehold / investment zones** that vary by emirate. Outside those zones the maximum interest is leasehold or 99-year usufruct (Sharjah). Always confirm zone status with the relevant cadastre (DLD / ADREC / Sharjah Real Estate Reg.) **before** signing any reservation form. Currency risk vs USD is structurally zero — AED is pegged at **3.6725 to the USD since 1997** (Central Bank of the UAE).
+> **Critical framing**: The UAE is a **foreign-buyer-restricted market**. Non-GCC nationals can only acquire **freehold** in **designated freehold / investment zones** that vary by emirate. Outside those zones the maximum interest is leasehold or usufruct (up to 100 years, Sharjah). Always confirm zone status with the relevant cadastre (DLD / ADREC / Sharjah Real Estate Reg.) **before** signing any reservation form. Currency risk vs USD is structurally zero — AED is pegged at **3.6725 to the USD since 1997** (Central Bank of the UAE).
 
 ## Country profile
 
@@ -27,9 +27,9 @@ ISO2: `ae`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-07-0
 - **Recent reforms** (12-month watchlist):
   - **Abu Dhabi Law 13/2019** (effective 16 Apr 2019, amending Abu Dhabi Law 19/2005) — non-GCC freehold ownership in Abu Dhabi designated investment areas (NB: there is no Federal Decree-Law 21/2021 on this topic; the reform is an emirate-level Abu Dhabi law, not federal) (2026-05-27 verified, source Al Tamimi & Co + Library of Congress Global Legal Monitor)
   - **Dubai 2040 Urban Master Plan** (effective 2021–2040) — zoning + density evolution
-  - **Golden Visa expansions** Oct 2022 + further easing 2024 (mortgage financing portion now counted)
-  - **VAT** introduced 1 Jan 2018 at 5%; first-sale residential 0%-rated; subsequent residential exempt; commercial standard-rated
-  - **Federal Corporate Tax** introduced for periods starting **1 June 2023** at 9% above AED 375k taxable profit. Personal income from real estate held in own name is **excluded** (CT applies only to business activity); juridical non-residents earning UAE immovable-property income create a nexus
+  - **Golden Visa** property route (10 yr, AED 2M): ICP accepts bank-loan financing from an approved local bank and off-plan units bought from an approved developer (ICP golden-residency guide, updated 10 Sep 2026); the "further easing 2024" date previously given here is unverified — not found in the primary sources read for the Oct 2026 refresh
+  - **VAT** introduced 1 Jan 2018 at 5%; first supply of new residential (sale or lease) 0%-rated if made within 3 years of completion; subsequent residential supplies exempt; commercial standard-rated at 5% (MoF VAT page + FTA Real Estate Guide VATGRE1)
+  - **Federal Corporate Tax** for financial years starting on or after **1 June 2023**: 0% up to AED 375,000 taxable income, 9% above (Cabinet Decision 116/2022). A natural person's Real Estate Investment income (sale, leasing or renting of UAE property not conducted, or required to be conducted, under a licence) is **not** a taxable business (Cabinet Decision 49/2023); non-resident juridical persons earning UAE immovable-property income have a nexus (Cabinet Decision 56/2023)
   - **Dubai Smart Rental Index** revamped Jan 2025 — every residential building rated **1–5 stars** by AI (~60 criteria: condition, finishes, maintenance, amenities, FM quality, location); star rating influences allowed rent increases at renewal (NOT A/B/C/D) (2026-05-27 verified, source DLD Smart Rental Index portal + Driven Properties + Kaizen AMS)
   - **Dubai Tasreef stormwater plan** (AED ~30 bn / USD 8 bn) approved post-Apr 2024 floods; phased to 2033
   - **Dubai Law No. 2 of 2025** — DIFC Courts Enforcement Judge has jurisdiction over enforcement of DIFC-registered non-Muslim wills inside or outside the DIFC (Art. 31(5)); for assets outside the DIFC (e.g. DLD-registered property) execution still runs through the Dubai Courts Enforcement Judge (Art. 32), which the DIFC Courts Wills FAQ calls a standard formality (2025 law, source DIFC Courts)
@@ -60,7 +60,7 @@ This section determines whether a transaction is even legally possible. Confirm 
 - **Non-GCC nationals** (incl. non-Arab): freehold available **in designated zones only** per **Sharjah Law 2/2022 + Executive Council Decision 30/2022** (Aljada, Maryam Island, Al Mamsha and other approved projects). Outside designated zones, 100-year usufruct (intifa') is the maximum interest, renewable. (2026-05-27 verified, source Afridi & Angell + Lexology)
 - **Arab nationals** (non-GCC, but holding Arab country passport): freehold permitted in selected designated zones.
 - **GCC nationals**: freehold across most of the emirate.
-- **June 2025 update**: SRERD dropped the **residency-visa prerequisite** for non-UAE nationals purchasing in designated zones (procedural relaxation under Decision 30/2022 framework); underlying ownership statute itself dates to Sharjah Law 2/2022.
+- **Residency visa**: Khaleej Times reported on 6 May 2018 that Sharjah opened purchases to non-Arab investors without a UAE residence visa (secondary). The "June 2025" SRERD relaxation previously cited here could not be confirmed (no Sharjah government source found, and SRERD's site timed out in the Oct 2026 refresh) — UNVERIFIED; confirm current rules with SRERD. The ownership statute is Sharjah Law 2/2022.
 
 ### Other Northern Emirates
 
@@ -76,17 +76,17 @@ This section determines whether a transaction is even legally possible. Confirm 
 | **2-year Property Investor Visa** | **Sole owners**: no minimum property value (completed property + registered title deed); **joint owners**: ≥ AED 400,000 each (DLD reform 29 Apr 2026 — the prior AED 750k floor was **abolished**) (2026-05-27 verified, source VisaHQ + LuxHabitat Journal + DLD announcement 29 Apr 2026) |
 | **Mortgage financing allowed** | Yes — ICP: loan financing allowed if from an approved local bank; GDRFA Dubai: mortgaged property acceptable. DLD Golden Visa (Investor) e-service asks for a bank no-objection letter stating paid amount and balance, while its description asks for a bank letter showing AED 2M paid — confirm the paid-amount rule with DLD before relying on a mortgaged unit (2026-10-21 verified, ICP + GDRFA + DLD service pages) |
 | **Off-plan eligible** | Yes per ICP golden-residency guide: one or more off-plan units totalling ≥ AED 2,000,000 bought from an approved local real estate company authorised by the competent local authority; no paid-percentage stated (2026-10-21 verified, source `https://icp.gov.ae/en/services/uae-golden-residency`). The GDRFA Dubai and DLD Golden Visa pages state no off-plan terms — confirm with DLD before relying |
-| **Family inclusion** | Spouse + children (no age cap for unmarried daughters; sons up to 25); domestic workers covered |
+| **Family inclusion** | Spouse and children regardless of age, plus parents; domestic workers may be sponsored under the applicable rules (ICP golden-residency guide, updated 10 Sep 2026). The unmarried-daughters / sons-under-25 limit is the standard resident-family rule, not the Golden rule |
 | **Authority** | ICP (Federal Authority for Identity, Citizenship, Customs and Port Security) — `https://icp.gov.ae/` + GDRFA Dubai for Dubai applications |
 
-**Retirement Visa (5 yr)** — age ≥ 55 + 15 years' work history:
-- Property ≥ AED 1,000,000 + savings ≥ AED 1,000,000, **OR**
-- Annual income ≥ AED 180,000 (federal floor; Dubai's "Retire in Dubai" accepts AED 15k/month).
+**Retirement Visa (5 yr, renewable)** — ICP: at least 15 years' service before retirement (inside or outside the UAE) **or** age ≥ 55; GDRFA Dubai's service page and u.ae say 15 years **and** age 55 — confirm with the issuing authority:
+- Property ≥ AED 1,000,000 (purchase or market value; a mortgaged title deed counts once AED 1M has been paid towards release) **or** a deposit ≥ AED 1,000,000 placed with a UAE financial institution within 60 days of issuance (ICP; GDRFA Dubai's terms and u.ae join property and savings with "and"), **OR**
+- Fixed annual income ≥ AED 240,000 (= AED 20,000/month), from inside or outside the UAE, with 6 months of bank statements (ICP + GDRFA Dubai service pages read 2026-10-28). u.ae (updated 28 Jul 2026) gives AED 180,000 as the general floor and AED 240,000 for Dubai applications; the issuing authorities' AED 240,000 is used here.
 
 ### Compliance / AML
 
-- Federal AML rules (UAE Anti-Money-Laundering and Counter-Terrorism Financing Law — Federal Decree-Law 20/2018) require **source-of-funds documentation** for every property transaction; DLD trustee offices enforce this at sale registration.
-- Cash transactions > AED 55,000 trigger reporting under FATF-aligned thresholds (per Ministry of Economy Real Estate Regulator guidelines 2022+).
+- Federal AML rules (Federal Decree by Law No. 10 of 2025 on Anti-Money Laundering and Combating the Financing of Terrorism and Proliferation Financing, which repealed Federal Decree-Law 20/2018; executive regulations Cabinet Resolution 134/2025 — MoET AML page) require **source-of-funds documentation** for every property transaction; DLD trustee offices enforce this at sale registration (source-of-funds and trustee-office limbs not re-verified in the Oct 2026 refresh).
+- Freehold purchases paid in physical cash of **AED 55,000 or more** (one or several payments, for all or part of the price), or wholly or partly in virtual assets, oblige the broker or agent to keep ID and contract records and file a Real Estate Activity Report (REAR) on the FIU's goAML platform (Ministry of Economy Circular 05/2022, effective 1 Jul 2022; still listed on MoET's AML page; Art. 41(3) of Decree by Law 10/2025 keeps circulars issued under 20/2018 effective insofar as they do not conflict with it, until superseded).
 
 **Verification path**:
 1. Confirm property is in a designated zone for your nationality (DLD/ADREC/SRERD lookup).
@@ -217,7 +217,7 @@ What residents do pay annually:
 |---|---|---|
 | **Dubai Municipality Housing Fee** | **5% of annual rental value**, billed monthly via DEWA in 12 instalments | Dubai Municipality (collected via DEWA) |
 | Owner-occupier housing fee equivalent (Dubai) | 5% of RERA-assessed average rental value of comparable property | Dubai Municipality |
-| Abu Dhabi rental fee (tenants only, expats) | 3% of annual rent (added to Tawtheeq registration; municipal levy) | Abu Dhabi Municipality |
+| Abu Dhabi municipality fee (tenants; UAE nationals exempt on residential leases) | **5% of annual rental value** (u.ae: rental value or rental index, whichever is higher), minimum AED 450, added to the monthly water and electricity bill over 12 months | Executive Council Chairman Resolution 49/2018 Art. 4 (ADREC-hosted text) + u.ae |
 | **UAE nationals** | Exempt from housing fee on owner-occupied property | — |
 | **Service charges** (HOA equivalent — mandatory) | **AED 3–70 / sqft / yr** depending on community/tier | DLD Mollak system regulates Dubai |
 | **Chiller / district cooling** (often separate) | AED 10–18 / sqft / yr (residential, district cooling) OR AED 400–1,000 / month flat | Empower / Tabreed / Emicool (provider-dependent) |
@@ -241,33 +241,34 @@ What residents do pay annually:
 | Item | Amount | Notes |
 |---|---|---|
 | **DLD Transfer Fee — Dubai** | **4% of purchase price** | Statutory split 2%+2% buyer/seller; market practice = buyer pays full 4% (verify in MOU) |
-| **ADREC Transfer Fee — Abu Dhabi** | **2% of purchase price** | Lower than Dubai |
+| **ADREC Transfer Fee — Abu Dhabi** | **2% of value** | ADREC fee schedule for off-plan sales: 2% split equally between seller and buyer, capped at AED 2M per transaction; Resolution 49/2018 lets the Executive Committee set the sale fee at 1–4%, split equally unless agreed — confirm the ready-property rate with ADREC. ADREC Trustee Office transfer fee AED 1,050 incl. VAT |
 | **Sharjah / RAK / Ajman fees** | 2–4% (varies — confirm with local cadastre) | — |
-| **DLD Title Deed issuance fee** | AED 580 (residential ready); AED 250 (off-plan oqood) | DLD fixed |
-| **DLD Knowledge + Innovation fees** | AED 20 + 10 | DLD fixed |
-| **Trustee office fee** (mandatory for secondary-market Dubai transfers) | AED 4,000 (price > AED 500k) / AED 2,000 (price < AED 500k) + 5% VAT | Per DLD trustee |
-| **Mortgage registration** (if mortgaged) | **0.25% of mortgage amount + AED 290** | DLD |
+| **DLD Title Deed issuance fee** | AED 250 title deed certificate + AED 250 map fee (villas and apartments; land: AED 225 Dubai Municipality unified map / AED 100 outside DM); off-plan initial (Oqood) sale page lists no title-deed fee; it lists an AED 1,000 self-registration fee for developers using the Oqood portal | DLD e-service pages (Property Sale Registration; Request to register the initial sale), site updated 14 Oct 2026 |
+| **DLD Knowledge + Innovation fees** | AED 10 + AED 10 | DLD fixed |
+| **Trustee office fee** (mandatory for secondary-market Dubai transfers) | AED 4,000 + VAT (sale value AED 500,000 or more) / AED 2,000 + VAT (below AED 500,000) | DLD Property Sale Registration page (service partner fees) |
+| **Mortgage registration** (if mortgaged) | **0.25% of mortgage value** + AED 250 title deed + AED 10 knowledge + AED 10 innovation; service-partner fee AED 4,000 + VAT (AED 5,000 + VAT on an Oqood) | DLD Mortgage registration e-service |
 | **Bank mortgage processing fee** | 0.5–1% of loan | Per bank |
+| **Mortgage LTV caps** | Expats: 80% first home ≤ AED 5M, 70% above AED 5M, 60% second home or investment; UAE nationals: 85% first home ≤ AED 5M, 75% above, 65% second home or investment; off-plan 50% for every buyer; maximum tenor 25 years | CBUAE Regulations Regarding Mortgage Loans Art. 3 (Circular 31/2013; LTV bands as amended by Board Resolution 31/2/2020) |
 | **Property valuation** (mortgaged) | AED 2,500–3,500 | Bank-appointed valuer |
 | **Conveyancer / lawyer** (optional) | AED 5,000–15,000 typical | UAE has no notary system for property — DLD Trustee + lawyers handle conveyancing |
 | **Real estate agent commission** | 2% of price + 5% VAT (typical Dubai) | Buyer-side or seller-side, negotiable |
 | **VAT** | First sale of new residential **0%-rated**; subsequent residential **exempt**; commercial property **5%** standard-rated | Federal Tax Authority |
 
-(Sources: DLD fees portal `https://dubailand.gov.ae/en/eservices/`; FTA VAT Public Clarification VATP002 on real estate)
+(Sources: DLD e-service pages under `https://dubailand.gov.ae/en/eservices/` (sale, initial sale, mortgage registration); FTA Real Estate VAT Guide VATGRE1 (19 Apr 2021) + MoF VAT page; CBUAE Rulebook for LTV caps)
 
 ### Federal Corporate Tax 2023+ — when it touches property
 
-- **Personal income** from real estate (rentals, capital gains on sale) held in **own name** by a **natural person** is **OUT OF SCOPE** of CT — explicit FTA guidance.
-- **Natural persons conducting business**: CT applies only if annual turnover > **AED 1 million** AND the activity qualifies as a business — pure passive rental income from properties held in own name is generally excluded.
-- **Property held in a UAE company / juridical person**: 9% CT on profits above AED 375,000 threshold.
+- **Real Estate Investment income** of a **natural person** — any sale, leasing, sub-leasing or renting of UAE land or property that is not conducted, and does not need to be conducted, under a licence from a Licensing Authority — is not a taxable Business (Cabinet Decision 49/2023 Art. 1 and 2(2)(c)); rentals and gains held in own name are out of scope on that condition.
+- **Natural persons conducting business**: CT applies only where business turnover exceeds **AED 1,000,000** in a Gregorian calendar year (Cabinet Decision 49/2023 Art. 2(1)); Real Estate Investment income does not count towards that turnover, but a property activity run under, or requiring, a licence falls outside the exclusion.
+- **Property held in a UAE company / juridical person**: 0% on taxable income up to AED 375,000, 9% above (Cabinet Decision 116/2022).
 - **Non-resident juridical persons**: earning income from UAE immovable property creates a nexus → 9% CT applies (Cabinet Decision 56/2023).
 
 (Source: FTA `https://tax.gov.ae/`, MoF Corporate Tax pages `https://mof.gov.ae/`)
 
 ### Inheritance
 
-- **Non-Muslim expats**: since 2020 federal reforms + Dubai Law 2/2025, **DIFC Wills** and **ADGM Wills** allow English-law-style testamentary freedom over UAE assets — overrides Sharia default.
-  - DIFC Will registration: **AED 10,000** single-will (Standard Will) — DIFC Courts Wills Service Centre.
+- **Non-Muslim expats**: Federal Decree-Law 41/2022 on Civil Personal Status (executive regulations Cabinet Resolution 122/2023) covers inheritance and wills for non-Muslim residents, who may instead opt for their home-country law; Abu Dhabi also has its own non-Muslim personal status law (u.ae, updated 30 Sep 2026). A registered **DIFC Will** or **ADGM Will** sets out how UAE assets pass.
+  - DIFC Will registration: **AED 10,000** for a single Full Will (AED 15,000 for mirror Full Wills); a Property Will costs AED 7,500 single / AED 10,000 mirror — DIFC Courts Wills Service fee pages (read 2026-10-28).
   - ADGM Wills: equivalent framework in Abu Dhabi.
   - Dubai Law 2/2025 gives the DIFC Courts Enforcement Judge jurisdiction over DIFC-registered wills inside or outside the DIFC (Art. 31(5)); outside the DIFC the writ is executed via the Dubai Courts Enforcement Judge (Art. 32) — a standard formality per the DIFC Courts Wills FAQ, not a bypass (2025 law, source DIFC Courts).
 - **Muslims**: Sharia inheritance applies as default; can be modified within Sharia limits (1/3 testamentary share max).
@@ -275,7 +276,7 @@ What residents do pay annually:
 
 ### Future risk
 
-- 5% VAT review periodically discussed (no concrete change as of 2026-05) — federal scope.
+- VAT standard rate still 5% (MoF VAT page read 2026-10-28); no rate change found in the MoF or FTA pages read for the Oct 2026 refresh — federal scope.
 - Potential extension of corporate tax to passive real estate income for individuals above thresholds — speculative (no announcement).
 - Dubai service charge cap discussion has surfaced periodically; no statutory cap yet.
 
@@ -286,8 +287,8 @@ What residents do pay annually:
 ### Long-term residential
 
 - **Mandatory tenancy registration**:
-  - **Dubai**: **Ejari** (RERA's tenancy registration system) — tenant or landlord registers contract; AED 220 typical fee. Required for DEWA connection, school enrolment, visa renewals.
-  - **Abu Dhabi**: **Tawtheeq** — equivalent system run by DMT.
+  - **Dubai**: **Ejari** (RERA's tenancy registration system) — tenant or landlord registers contract; AED 220 at a real estate trustee centre or AED 177.75 via the Dubai REST app / DLD website (AED 100 + AED 10 knowledge + AED 10 innovation + service-partner fee and VAT; DLD e-service page, site updated 14 Oct 2026). Required for DEWA connection, school enrolment, visa renewals.
+  - **Abu Dhabi**: **Tawtheeq** — the emirate's tenancy-contract register; landlords register the lease, which triggers the 5% municipality fee (u.ae); ADREC publishes the tenancy rules and the Tawtheeq fee schedule.
   - **Sharjah**: registered with the Sharjah Municipality Tenancy Contract section.
 - **Rent increase cap (Dubai)** — RERA Smart Rental Index 2025 brackets:
 
@@ -309,11 +310,11 @@ What residents do pay annually:
   - Property must be furnished + inspected; building NOC required (some OAs / towers prohibit short-let).
   - **Initial registration fee**: AED 1,520 (incl. AED 10 Knowledge + AED 10 Innovation); **Annual permit fee**: from AED 370 per unit (size-dependent for larger units) (2026-05-27 verified, source DET portal + Houst + KeyOne 2025/2026 schedules — prior AED 3,720 figure was stale).
   - **Tourism Dirham**: AED 10/bedroom/night (collected from guest, remitted to DET).
-  - **Municipality fee**: 10% of booking revenue (separate from Tourism Dirham).
-  - **Guest registration**: every guest must be registered on DTCM portal within 3 hours of check-in.
+  - **Municipality fee**: 10% of booking revenue (separate from Tourism Dirham). (UNVERIFIED — DET pages returned HTTP 403 in the Oct 2026 refresh; confirm with DET)
+  - **Guest registration**: every guest must be registered on DTCM portal within 3 hours of check-in. (UNVERIFIED — DET pages returned HTTP 403 in the Oct 2026 refresh; confirm with DET)
   - **VAT**: 5% applies to short-term rental revenue if total taxable supplies > AED 375k/yr (FTA mandatory registration threshold).
   - **Penalties**: AED 10,000–50,000+ for unlicensed operation; OTAs (Airbnb, Booking) audited by DET.
-  - Owners may hold permits directly for up to **8 properties**; beyond that requires a licensed operator.
+  - Owners may hold permits directly for up to **8 properties**; beyond that requires a licensed operator. (UNVERIFIED — DET pages returned HTTP 403 in the Oct 2026 refresh; confirm with DET)
 - **Abu Dhabi**: **DCT Abu Dhabi** Holiday Home licence (Department of Culture and Tourism).
 - **Sharjah / RAK / Ajman**: per-emirate tourism authority; less-developed STR market outside RAK Marjan Island.
 
@@ -334,7 +335,7 @@ What residents do pay annually:
 - **Service charge + chiller = 25–40% of gross yield** in many high-end towers — model NET yield, not gross
 - **Building OA approval** for STR is the single biggest gate — confirm BEFORE buying if STR is the strategy
 - **VAT on commercial leases (5%)** but residential is exempt
-- **PIT = 0%** federally (no income tax) — but US/UK/EU tax residents will face their own home-country tax on UAE rental income (treaty network limited)
+- **PIT = 0%** federally (no income tax) — but US/UK/EU tax residents will face their own home-country tax on UAE rental income; the UAE has concluded 137 double taxation agreements (MoF), so check whether your country has one and how it treats income from immovable property
 
 ---
 
@@ -353,7 +354,7 @@ What residents do pay annually:
 | Visa | Eligibility | Authority |
 |---|---|---|
 | **Standard Work Permit** | Employment offer from UAE entity | MOHRE (Ministry of Human Resources & Emiratisation) |
-| **Green Visa (5 yr)** | Skilled employee, freelancer, or self-employed (Bachelor's + AED 15k/month income, or relevant freelance permit) | ICP / GDRFA |
+| **Green Visa (5 yr)** | Skilled worker: UAE employment contract, MoHRE skill level 1–3, bachelor's degree, salary ≥ AED 15,000/month; freelancer / self-employed: MoHRE freelance or self-employment permit, bachelor's or specialised diploma, annual freelance income over the previous two years ≥ AED 360,000; investors and business partners also eligible (ICP Green Residence Guide, updated 12 Sep 2026) | ICP / GDRFA |
 | **Golden Visa (10 yr)** | Property AED 2 M, OR investor/entrepreneur, OR specialised talent / scientist / doctor / outstanding student | ICP |
 | **Freelance Permit** | Specific free zones (DMCC, TECOM, twofour54, Fujairah Creative City, etc.) | Per free zone authority |
 
@@ -361,7 +362,7 @@ What residents do pay annually:
 
 - **Mainland company** (DED licence) — can trade UAE-wide; historically required local 51% sponsor — **abolished for most activities since 1 June 2021** (Federal Decree-Law 26/2020); now 100% foreign ownership for ~1,000+ activities.
 - **Free Zone company** — 100% foreign ownership, 0% personal income tax, easier setup, but limited mainland trade (must use mainland distributor or open mainland branch).
-- 9% Corporate Tax applies to free zone entities EXCEPT "Qualifying Free Zone Persons" earning "Qualifying Income" (FTA Decision 100/2023) — narrow conditions.
+- 9% Corporate Tax applies to free zone entities EXCEPT "Qualifying Free Zone Persons", which pay 0% on "Qualifying Income" (Cabinet Decision 100/2023, not an FTA decision; MoF CT page) — narrow conditions.
 
 ### Catchment heuristics
 
@@ -498,9 +499,9 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 |---|---:|
 | **DLD transfer fee (Dubai)** | **4% of price** |
 | **ADREC transfer fee (Abu Dhabi)** | **2% of price** |
-| **Title Deed issuance** | AED 580 |
-| **Trustee office fee** | AED 4,000 (price > AED 500k) + 5% VAT |
-| **Mortgage registration (DLD)** | 0.25% of mortgage + AED 290 |
+| **Title Deed issuance** | AED 250 (+ AED 250 map fee for villas and apartments) |
+| **Trustee office fee** | AED 4,000 + VAT (sale value AED 500,000 or more); AED 2,000 + VAT below |
+| **Mortgage registration (DLD)** | 0.25% of mortgage + AED 270 (AED 250 title deed + AED 10 + AED 10) + service-partner fee AED 4,000 + VAT |
 | **Bank mortgage processing** | 0.5–1% of loan |
 | **Property valuation (mortgage)** | AED 2,500–3,500 |
 | **Real estate agent commission** | 2% + 5% VAT (typical) |
@@ -511,19 +512,20 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | **District cooling (annual)** | AED 10–18 / sqft / yr (residential) |
 | **Annual housing fee (Dubai)** | 5% of annual rental value (via DEWA) |
 | **Annual property tax** | **None** |
-| **Total transaction cost (buyer side, Dubai cash secondary)** | **~6–8% of price** (4% DLD + ~2% agent + trustee + AED 1k DLD admin + lawyer) |
+| **Total transaction cost (buyer side, Dubai cash secondary)** | **~6–8% of price** (est.: 4% DLD + 2% agent + 5% VAT on the commission + AED 4,200 trustee incl. VAT + AED 520 DLD title-deed, map, knowledge and innovation fees + optional lawyer; assumes the buyer pays the full 4%) |
 | **Total transaction cost (Dubai with mortgage)** | ~8–10% of price |
 
 ## Active fiscal incentives (2026)
 
 - **Golden Visa (10-year)**: property ≥ AED 2 M (single or aggregate)
 - **Investor Visa (2-year)**: sole owners — no minimum property value; joint owners — ≥ AED 400,000 each (prior AED 750k floor abolished, DLD 29 Apr 2026)
-- **Retirement Visa (5-year, age ≥ 55)**: property ≥ AED 1 M + savings AED 1 M, OR AED 180k/yr income
+- **Retirement Visa (5-year)**: 15 years' service or age ≥ 55 (ICP; GDRFA Dubai and u.ae say both); property ≥ AED 1 M or an AED 1 M deposit (ICP; GDRFA Dubai and u.ae join them with "and"), OR fixed income ≥ AED 240k/yr (ICP + GDRFA Dubai; u.ae gives AED 180k, AED 240k for Dubai)
 - **Green Visa (5-year)**: skilled workers / freelancers
 - **0% personal income tax** on rental income (federal — but check home-country tax residency obligations)
-- **0% VAT first sale of new residential**; subsequent residential exempt
-- **0% capital gains tax** on individual property sales (not within scope of CT for natural persons)
-- **Free Zone "Qualifying Income"** 0% CT (narrow conditions)
+- **0% VAT first sale of new residential** (within 3 years of completion); subsequent residential exempt
+- **0% capital gains tax** on individual property sales (a natural person's Real Estate Investment income is outside CT unless conducted, or required to be conducted, under a licence — Cabinet Decision 49/2023)
+- **Free Zone "Qualifying Income"** 0% CT (narrow conditions; Cabinet Decision 100/2023)
+- **Dubai First-Time Home Buyer Programme** (DLD): UAE residents of any nationality, 18+, owning no freehold residential property in Dubai, buying below AED 5M — priority access to new launches, preferential prices on off-plan units from participating developers, credit-card instalments for registration fees, and offers from 5 participating banks (DLD e-service page, site updated 14 Oct 2026)
 
 ## Common listing platforms
 
@@ -542,10 +544,10 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 - **Service charges + chiller can be 25–40% of gross rental yield** in high-end towers — model NET, never gross
 - **Building OA short-term-rental policy is the single biggest STR gate** — verify BEFORE buying if STR is the strategy
 - **No income tax personally; 9% corporate tax from Jun 2023** for property held in a juridical person above AED 375k profit
-- **DIFC / ADGM Wills are critical for non-Muslim foreign owners** — without one, Sharia inheritance rules apply by default to your UAE assets
+- **DIFC / ADGM Wills are critical for non-Muslim foreign owners** — without one, a non-Muslim resident's estate follows Federal Decree-Law 41/2022 or the home-country law they elected, and Abu Dhabi applies its own non-Muslim personal status law (u.ae, updated 30 Sep 2026, which covers residents only); a registered will removes that uncertainty, especially for non-resident owners — confirm with a UAE lawyer
 - **Apr 2024 floods exposed drainage limits** — verify drainage history of low-lying communities; Tasreef plan phased to 2033
 - **Cladding (towers 2000–2017)**: demand Civil Defence Fire NOC; multiple historical cladding fires
-- **Federal AML rules require source-of-funds documentation** — bank statements, employment records, prior asset sale proof; cash transactions > AED 55k trigger reporting
+- **Federal AML rules require source-of-funds documentation** — bank statements, employment records, prior asset sale proof; freehold purchases paid with AED 55,000 or more in physical cash, or in virtual assets, must be reported by the broker on goAML (REAR, MoE Circular 05/2022)
 - **Currency**: AED pegged to USD at 3.6725 — **no FX risk vs USD**; meaningful FX risk vs EUR / GBP / other floating currencies
 - **No federal cadastre** — each emirate has its own register; cross-emirate portfolio requires multi-cadastre lookup
 - **VAT 5% on commercial property** (and STR if turnover > AED 375k/yr) — easy to forget for foreign investors
@@ -571,7 +573,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | **ICP** (Federal Authority for Identity, Citizenship, Customs and Port Security) | Golden Visa, Green Visa, Retirement Visa applications |
 | **GDRFA Dubai** | Dubai-specific residency processing |
 | **Federal Tax Authority (FTA)** | VAT clarifications, Corporate Tax registration |
-| **MOEC** (Ministry of Economy — Real Estate Regulator) | Federal-level consumer protection in real estate, AML enforcement |
+| **MoET** (Ministry of Economy and Tourism, formerly Ministry of Economy / MOEC — `moet.gov.ae`) | AML/CFT supervisor for real estate agents and brokers (REAR filings on goAML) |
 | **Dubai Police** | Off-plan / real estate fraud reports |
 | **DIFC Wills Service Centre** | Non-Muslim wills (Dubai/UAE assets) |
 | **ADGM Wills Service** | Non-Muslim wills (Abu Dhabi-anchored) |
