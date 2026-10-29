@@ -122,6 +122,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(source-verify): blank URLs before extracting claim figures ([#518](https://github.com/soreavis/property-deep-dive/pull/518)) — by @soreavis
 
+- fix(source-verify): treat the Federal Register CAPTCHA page as a challenge ([#519](https://github.com/soreavis/property-deep-dive/pull/519)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
