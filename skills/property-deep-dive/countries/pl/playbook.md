@@ -485,7 +485,7 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 - [ ] Eternit removal progress per gmina (2032 deadline)
 - [ ] Mining subsidence zones overlay (USCB + Bełchatów + Polkowice)
 - [ ] Radon zone overlay per powiat
-- [ ] EU 2024/1028 implementing-act tracker (Sejm print 2865 passed the Sejm 8 Oct 2026; Senate stage, presidential signature and Dz.U. position not yet logged; not in Dz.U. 2026 through poz. 1390 of 22 Oct 2026; revisit 2026-11-20)
+- [ ] EU 2024/1028 implementing-act tracker (Sejm print 2865 passed the Sejm 8 Oct 2026; joint Senate committees took it up in late Oct 2026 with amendment proposals, Senate vote due Nov 2026 (press); presidential signature and Dz.U. position not yet logged; not in Dz.U. 2026 through poz. 1417 of 28 Oct 2026; revisit 2026-11-09)
 - [ ] CHF "frankowicze" case law summary
 - [ ] Czyste Powietrze 31 Mar 2025 gas-boiler transition
 - [ ] First-home PCC exemption decision tree
