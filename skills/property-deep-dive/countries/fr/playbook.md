@@ -187,19 +187,19 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 
 **Data sources** (in order of recommended individual-query path):
 
-1. **ERRIAL — parcel-level synthesis (PRIMARY for individual address lookup)**: [errial.georisques.gouv.fr](https://errial.georisques.gouv.fr/) — form-based, address lookup, returns full PDF with all 11 risk categories pre-filled. **This is the canonical individual-buyer entry point**; use first before going to file/PDF or API.
+1. **ERRIAL — parcel-level synthesis (PRIMARY for individual address lookup)**: [errial.georisques.gouv.fr](https://errial.georisques.gouv.fr/) — free state service (since Feb 2021): from an address or cadastral parcel number it generates a pre-filled état des risques, ready to download; the owner must check it, complete it from the préfecture's website where needed, and add any natural- or technological-disaster indemnity paid on the property (source: georisques.gouv.fr IAL page, checked 2026-10-28). **This is the canonical individual-buyer entry point**; use first before going to file/PDF or API.
 2. **DICRIM (commune-level statutory doc)**: `https://files.georisques.fr/DICRIM/DICRIM_<INSEE>.pdf` — download with curl (verify file exists, not all communes publish), render with pdftoppm if scanned
-3. **IAL (Information Acquéreurs Locataires) — département-level zoning maps**: `https://www.<dept>.gouv.fr/.../IAL_Risques-zones+par+commune.pdf`
-4. **Géorisques portal (general risk lookup)**: `https://www.georisques.gouv.fr/mes-risques/connaitre-les-risques-pres-de-chez-moi`
-5. **Géorisques API** (developer): API endpoints exist (`api/v1/...`) but are not officially-documented; **use the ERRIAL portal for individual queries** unless you need batch-scale extraction. If invoking the API: respect [robots.txt](https://www.georisques.gouv.fr/robots.txt) + add `User-Agent: <descriptive>` header.
-5. **IRSN potentiel radon**: `https://recherche-expertise.asnr.fr/savoir-comprendre/environnement/connaitre-potentiel-radon-ma-commune`
+3. **IAL (Information Acquéreurs Locataires) — préfecture arrêtés and commune information**: on the préfecture site `https://www.<dept>.gouv.fr/` (paths and file names vary by département — search the site for 'IAL'); Géorisques tells owners to complete the ERRIAL output from it
+4. **Géorisques portal (general risk lookup)**: `https://www.georisques.gouv.fr/` — 'Connaître les risques près de chez moi' search by address, map or cadastral parcel on the home page (updated 2026-10-28: the old `/mes-risques/connaitre-les-risques-pres-de-chez-moi` URL now redirects to the generic 'M'informer sur un risque' page)
+5. **Géorisques API** (developer): officially documented (OpenAPI) at [georisques.gouv.fr/doc-api](https://www.georisques.gouv.fr/doc-api) — `api/v1/...` open, limited to 5 calls/s (1 call/s for `resultats_rapport_risque` and `rapport_pdf`); `api/v2/...` needs a Bearer token, 20 calls/s (source: Géorisques API spec v1.12.2, checked 2026-10-28); **use the ERRIAL portal for individual queries** unless you need batch-scale extraction. If invoking the API: respect [robots.txt](https://www.georisques.gouv.fr/robots.txt) + add `User-Agent: <descriptive>` header.
+5. **ASNR potentiel radon** (published by the ASNR, created 1 Jan 2025; the commune map is the cartography established by the IRSN): `https://recherche-expertise.asnr.fr/savoir-comprendre/environnement/connaitre-potentiel-radon-ma-commune`
 6. **DRIAS climate**: `https://www.drias-climat.fr/`
-7. **PPI nucléaire** (if any plant within 50 km): EDF site + préfecture
+7. **PPI nucléaire** (if any plant within 50 km): EDF site + préfecture — the PPI around nuclear power plants covers 20 km (extended from 10 km in 2019; source ASNR)
 8. **OSM industrial overlay**: Overpass query within 5 km
 
-**11 risk categories to evaluate** (DICRIM standard):
+**11 risk categories to evaluate** (skill checklist, not a statutory DICRIM list; Géorisques' own list also covers coastal, cyclone, avalanche, volcanic, glacial, mining and polluted-soil risks — source georisques.gouv.fr 'M'informer sur un risque'):
 1. Inondation
-2. Mouvement de terrain (RGA argiles)
+2. Mouvement de terrain (RGA argiles) — the national RGA exposure map was replaced by the arrêté du 9 janvier 2026 (JO n° 26 du 31 Jan 2026) to take in recent claims; it applies to promesses / deeds for buildable land and to house-building contracts signed from 1 Jul 2026 (CCH L132-4 ff.: soil studies before building in medium / strong zones); covers metropolitan France except the city of Paris (sources: Géorisques 2026 map page; INERIS AIDA text)
 3. Sismicité (zone 1-5)
 4. Tempête / grand froid / canicule
 5. Cavités souterraines
@@ -213,28 +213,28 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 **Build-era hazards**:
 - < 1949: lead paint (CREP), often poor foundations
 - 1949–1997: asbestos very likely (slates, flue, vinyl, fibrocement)
-- 1949–1980: poor thermal envelope
-- 1975–1995: aluminum wiring potential
-- After 2000: modern standards but check if RT2012 compliant for thermal
+- 1949–1980: poor thermal envelope (first French thermal regulation: 1974 — ecologie.gouv.fr)
+- 1975–1995: aluminum wiring potential (est. — no French primary source found; the électricité diagnostic is the check)
+- After 2000: modern standards but check if RT2012 compliant for thermal (RT2012 attestations are drawn up at the permit application and at completion — ask for them); RE2020 in force for houses and apartment buildings from 1 Jan 2022 (source: ecologie.gouv.fr)
 
-**Climate change to 2050 (Vienne basin example, similar across rural FR)**:
-- +1.6 °C (RCP 4.5) to +2.2 °C (RCP 8.5)
-- +5 to +10 drought days/summer
+**Climate change to 2050** — national reference (TRACC adaptation trajectory; Météo-France 2024 figures in SDES Chiffres clés du climat 2025, national medians): metropolitan France +2.7 °C in 2050 vs 1900-1930 (+2.1 °C vs 1976-2005), annual rainfall +4 %, summer rainfall −8 %, +3.1 days with maximum above 35 °C (vs 1976-2005); +2 °C by 2030 and +4 °C by 2100. Per-commune TRACC indicators: Météo-France Climadiag Commune (`https://meteofrance.com/climadiag-commune`). The Vienne basin example below is unsourced (est.):
+- +1.6 °C (RCP 4.5) to +2.2 °C (RCP 8.5) (est. — no source or baseline found; check DRIAS or Climadiag Commune)
+- +5 to +10 drought days/summer (est. — no source found)
 - Less summer rain, more winter rain
 - More heatwaves (longer + hotter)
 - Forest fire risk rising
 
 **Verdict logic for radon**:
 - Zone 1 / Faible: 🟢 negligible
-- Zone 2 / Moyen: 🟡 test recommended
-- Zone 3 / Significatif: 🟠 test required, may need VMC/ventilation upgrade
+- Zone 2 / Faible, but with geological factors (major faults, underground mine workings) that can ease radon's transfer into buildings — the official label is not 'moyen' (ASNR): 🟡 test recommended
+- Zone 3 / Significatif: 🟠 test strongly advised (no legal test duty for a private home, but zone 3 must be disclosed in the état des risques); above 300 Bq/m³ works or measures are needed — mechanical ventilation or regular airing, sealing of basements and pipes (sources: service-public F20599; ASNR: over 10 % of buildings on these formations exceed 300 Bq/m³)
 
 ---
 
 ## Section: `--mains`
 
 **Data sources**:
-1. **Sispea** (national registry): `https://www.services.eaufrance.fr/commune/<INSEE>/<latest_year>` — confirms which services exist
+1. **Sispea** (national registry): `https://www.services.eaufrance.fr/commune/<INSEE>/<latest_year>` — confirms which services exist (checked 2026-10-28 on Poitiers: year 2025 showed 'Donnée non disponible', 2024 — prices at 1 Jan 2025 — was the latest with prices; step back a year when the latest is empty)
 2. **Selectra** mirror: `https://eau.selectra.info/commune/<INSEE>` — operator details
 3. **Listing language** for assainissement keywords ("tout-à-l'égout", "fosse septique", "assainissement individuel")
 4. **PLU / Géoportail Urbanisme**: `https://www.geoportail-urbanisme.gouv.fr/` — for zonage assainissement when published
@@ -250,14 +250,14 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 1. Call **Mairie de <commune>**: phone in DICRIM
 2. Ask: « Est-ce que la parcelle au <address> est en zone d'assainissement collectif et raccordée au réseau ? »
 3. Request from seller:
-   - Collective: certificat de conformité du branchement
-   - ANC: diagnostic ANC < 3 years old (mandatory at sale)
+   - Collective: certificat de conformité du branchement (a connection check is compulsory at sale only where a municipal arrêté — or, in Île-de-France, certain listed territories — imposes it; the SPAC report then serves as the diagnostic, at most 10 years old at the deed — service-public F31685)
+   - ANC: diagnostic ANC < 3 years old at the deed (mandatory at sale); if non-conform, works within 1 year of the deed — by the seller, or by the buyer if bought as is (source: service-public F31685)
 
 **Cost ranges (rural FR 2026)**:
-- On collective, conform: redevance ≈ €1.50–2.50/m³ + connection fixed
-- On collective, non-conform branchement (1975 build typical): €2,000–€5,000 upgrade
-- In collective zone, not connected: €2,500–€8,000 + PFAC fee
-- Outside collective (ANC septic to install or replace): €7,000–€15,000
+- On collective, conform: redevance ≈ €1.50–2.50/m³ + connection fixed (est. range; Sispea national average for assainissement collectif €2.37 TTC/m³ at 1 Jan 2025, on 120 m³/yr with the fixed part included — Vienne département €2.39; read the commune's own figure on Sispea)
+- On collective, non-conform branchement (1975 build typical): €2,000–€5,000 upgrade (est., no primary price source)
+- In collective zone, not connected: €2,500–€8,000 + PFAC fee (est., no primary price source)
+- Outside collective (ANC septic to install or replace): €7,000–€15,000 (est., no primary price source)
 
 ---
 
@@ -265,26 +265,28 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 
 | Diagnostic | Required because | Validity |
 |---|---|---|
-| DPE | All sales | 10 years |
-| Audit énergétique | DPE = E/F/G | 5 years |
-| ERP / ERRIAL | All sales | 6 months |
-| Amiante | Built before 1 July 1997 | Indefinite if no amiante; 3 yrs if found |
+| DPE | All sales (a house under 50 m² of floor area is exempt) | 10 years; DPEs made 1 Jan 2018–30 Jun 2021 are no longer valid since 1 Jan 2025 (service-public F16096, F10798) |
+| Audit énergétique | House or single-owner building (not a flat in a copropriété) with DPE E, F or G; D added from 1 Jan 2034 (DROM: F/G, E from 1 Jan 2028) | 5 years (service-public F37110) |
+| État des risques (ERRIAL; ex-ERP) | Property in a natural / mining / technological PPR zone (approved or prescribed), seismic zone 2–5, radon zone 3, coastal-retreat zone or brush-clearing (OLD) zone; hand it over at the first visit (service-public F12239) | 6 months |
+| Amiante | Building permit issued before 1 July 1997 | Unlimited; list-A materials under periodic monitoring need a new assessment within 3 years (service-public F742) |
 | Plomb (CREP) | Built before 1 Jan 1949 | 1 year if positive, indefinite if negative |
 | Termites | Commune in arrêté préfectoral | 6 months |
 | Électricité | Installation > 15 yrs old | 3 years |
 | Gaz | Installation > 15 yrs old (if gas) | 3 years |
 | Assainissement non-collectif | Rural, no mains | 3 years |
-| Mérule | Commune in arrêté zone | 6 months |
+| Mérule | Commune in a prefectoral mérule zone | Mention in the promesse / acte, not a diagnostic — no set validity (service-public F10798) |
+| Bruit (aéroport) | Housing or buildable land in an airport PEB zone A–D (service-public F35266) | — |
+| Carnet d'information du logement (CIL) | Permit or déclaration préalable filed from 1 Jan 2023, or renovation works since then (service-public F10798, F36759) | Handed over by the deed at the latest |
 
-⚠️ **DPE recalculated from 1 Jan 2026** (arrêté du 13 août 2025, JO 26 Aug 2025): electricity primary-energy conversion coefficient lowered 2.3 → 1.9. Officially ~850,000 homes exit F/G with no works (base 1 Jan 2023, of 4.8M passoires; a Nov 2025 reassessment reported ~700,000 — secondary source, verify at ONRE); no label is downgraded, and only electric-heated homes benefit (the label stays the worse of the energy/GES scales — oil/gas-heated rural homes gain nothing). DPEs edited from 1 Jan 2026 auto-apply the new coefficient; pre-2026 DPEs stay valid and a re-labelling attestation is free (no new visit) via the ADEME Observatoire DPE-Audit. (2026-07-03 verified; source [economie.gouv.fr](https://www.economie.gouv.fr/actualites/un-nouveau-dpe-au-1er-janvier-2026-pour-favoriser-le-chauffage-electrique) + notaires.fr)
+⚠️ **DPE recalculated from 1 Jan 2026** (arrêté du 13 août 2025, JO 26 Aug 2025): electricity primary-energy conversion coefficient lowered 2.3 → 1.9. Officially ~850,000 homes exit F/G with no works (base 1 Jan 2023, of 4.8M passoires; the SDES simulation published 12 Nov 2025 gives ~700,000 fewer passoires among principal residences — 3.2M, 10.4 % of them, on 1 Jan 2025 figures); no label is downgraded, and every home's primary-energy figure falls, but a better label is not systematic and is most likely where heating and/or hot water are electric (heat pump, thermodynamic or electric water heater, electric heating) — the label stays the worse of the energy and GES scales, and the GES label does not change. DPEs edited from 1 Jan 2026 auto-apply the new coefficient; pre-2026 DPEs stay valid and a re-labelling attestation is free (no new visit) via the ADEME Observatoire DPE-Audit. **Second cut from 1 Jan 2027**: arrêté du 19 août 2026 (JORF n°0198 du 26 Aug 2026) lowers the coefficient again, 1.9 → 1.7; a DPE still valid can get an ADEME attestation with the new label, otherwise it stays valid to its end date; the ministry's press release of 31 Aug 2026 gives no count of homes affected (press figures of ~300,000, attributed to the draft's impact sheet, not found on a primary source). (2026-10-28 verified; sources Légifrance JORFTEXT000052134589 + JORFTEXT000054747079, [ecologie.gouv.fr DPE FAQ](https://www.ecologie.gouv.fr/actualites/evolutions-du-calcul-du-dpe-reponses-vos-questions) (updated 23 Jul 2025), [ecologie.gouv.fr press release 31 Aug 2026](https://www.ecologie.gouv.fr/presse/dpe-audits-energetiques-publication-larrete-abaissant-facteur-conversion-lelectricite-17-1er), SDES 12 Nov 2025, service-public F16096; [economie.gouv.fr](https://www.economie.gouv.fr/actualites/un-nouveau-dpe-au-1er-janvier-2026-pour-favoriser-le-chauffage-electrique) and notaires.fr not re-read — economie.gouv.fr returns 403 to automated checks)
 
 ## Cost benchmarks (rural FR, 2026)
 
 | Work | Cost |
 |---|---:|
 | Asbestos removal (small) | €1,500–€5,000 |
-| Septic tank replacement | €7,000–€15,000 |
-| Mains drains connection | €2,500–€8,000 |
+| Septic tank replacement (est., no primary price source) | €7,000–€15,000 |
+| Mains drains connection (est., no primary price source) | €2,500–€8,000 |
 | Full electrical rewire (200 m²) | €12,000–€20,000 |
 | Roof replacement (slate, 150 m²) | €18,000–€30,000 |
 | Insulation upgrade DPE E→D | €15,000–€25,000 |
@@ -328,7 +330,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 - Rural communes' collective sewer often only covers Rue Principale + immediate adjacent streets
 - Many small départements only count traffic on D-roads with > 500 v/d; smaller D-roads are absent from the count program
 - Departmental TFPB rate was merged into communal in the 2021 reform — current rates already reflect this
-- Termites zone in Vienne 86 covers 117 communes (arrêté 14 Oct 2020) — but the diagnostic may still be common practice elsewhere
+- Termites zone in Vienne 86 covers 117 of 266 communes (arrêté 14 Oct 2020, per the Cerema national register of termite arrêtés, checked 2026-10-28; the map still on vienne.gouv.fr shows the earlier arrêté 2015-DDT-5, 115 communes) — but the diagnostic may still be common practice elsewhere
 
 ## Verification authorities
 
