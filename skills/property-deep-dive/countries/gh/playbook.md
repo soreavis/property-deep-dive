@@ -75,12 +75,12 @@ Per Lands Commission classification, ~78% of land in Ghana is held under **custo
 
 ### Primary sources
 
-- **Ghana Statistical Service (GSS)** (`https://statsghana.gov.gh/`) — CPI Housing component, Census housing tabulations; limited transaction-price index
-- **Bank of Ghana (BoG)** (`https://www.bog.gov.gh/`) — Real Sector Surveys; macro RE trends
-- **Lands Commission** (`https://lc.gov.gh/`) — Indenture / Lease records (paid; not openly indexed)
+- **Ghana Statistical Service (GSS)** (`https://statsghana.gov.gh/`) — no house-price or transaction-price index: its price-index releases are the CPI, PPI, Prime Building Cost Index (PBCI), industrial production and food-price series. Proxies: the CPI division "Housing, water, electricity, gas and other fuels" (weight 10.2) rose 10.3% YoY in September 2026 against 5.2% headline (September 2026 data, source GSS CPI COICOP Annexes `https://statsghana.gov.gh/api/minio/file?key=data_statistics/economic/Price%20Indices/CPI/CPI%20Coicop%20Annexes/September%202026%20CPI%20COICOP%20Annexes.xlsx`); the PBCI (construction inputs, 2023 = 100) rose 5.1% YoY in September 2026 (source GSS PBCI Bulletin `https://statsghana.gov.gh/api/minio/file?key=data_statistics/economic/Price%20Indices/PBCI/PBCI%20Bulletin/PBCI%20-%20Bulletin%20September%202026.pdf`); 2021 Census housing tabulations (2026-10-29 verified)
+- **Bank of Ghana (BoG)** (`https://www.bog.gov.gh/`) — no house-price series; the Monetary Policy Report carries sectoral bank credit (construction 10.7% of total credit at end-June 2026), cement sales as the construction-activity proxy (−19.1% YoY in May 2026) and a Credit Conditions Survey that covers loans for house purchase (June 2026 round: stance eased) (2026 data, source BoG Monetary Policy Report July 2026 `https://www.bog.gov.gh/wp-content/uploads/2026/08/Monetary-Policy-Report-July-2026.pdf`; 2026-10-29 verified)
+- **Lands Commission** (`https://lc.gov.gh/`) — Indenture / Lease records are not openly indexed; parcel history comes through a paid search (Consolidated / Administrative Search for a Greater Accra residential plot GH₵237.50 on the Commission's fee page, which is undated — `https://www.lc.gov.gh/fees-charges/`; 2026-10-29 verified)
 - **Land Valuation Division** (Lands Commission) — official valuations for stamp duty / property rates
 - ⚠️ **Ghana Real Estate Developers Association (GREDA)** — trade association, **secondary** source (`https://gredaghana.org/`) — developer-side market notes; not a government publisher (2026 data, source gredaghana.org; 2026-09-18 verified)
-- **Knight Frank Ghana, Broll Ghana, JLL Sub-Saharan Africa** — quarterly/annual private market briefings (methodology disclosed)
+- **Knight Frank, Broll Ghana, JLL Sub-Saharan Africa** — private market research, **secondary**. Knight Frank's biennial *Africa Report* (7th edition, 2026/27) carries Ghana prime rents and yields (`https://content.knightfrank.com/research/155/documents/en/africa-report-202627-12847.pdf`); Broll operates in Ghana (Broll Ghana's CEO is quoted on `https://www.broll.com/`) but no Ghana market report was found; no JLL Ghana publication found (2026-10-29 checked)
 
 ### Listing platforms
 
@@ -88,12 +88,12 @@ Per Lands Commission classification, ~78% of land in Ghana is held under **custo
 - **Tonaton.com** (`https://tonaton.com/`) — classifieds incl. property
 - **Jiji.com.gh** (`https://jiji.com.gh/real-estate`)
 - **Property24 Ghana** (`https://www.property24.com.gh/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with meQasa (meqasa.com — Property24 is South Africa-only))
-- **Lamudi Ghana** (reduced footprint post-2024)
+- **Lamudi Ghana** (`https://www.lamudi.com.gh/`) — live 2026-10-29 with sale, rent and new-development listings; the "reduced footprint post-2024" note is unverified
 - **Developer-direct**: Devtraco Plus, Regimanuel Gray, Goldkey Properties, Trasacco Estates, Manet, Lakeside Estate, Clifton Homes — off-plan installment culture; verify delivery track-record + completion warranties
 
 ### Price benchmarks — asking-side (2025-2026, USD/m² and GHS/m²)
 
-**Listing-side** sampled from meQasa.com + Property24 Ghana + Knight Frank Ghana commentary 2025-2026 — NOT registered transaction prices. GHS figures volatile post-2022 depreciation; USD/m² more stable as foreign-buyer benchmark.
+**Listing-side** estimates from meQasa.com listings + Knight Frank commentary — NOT registered transaction prices, and not re-sampled on 2026-10-29. Property24 Ghana, cited as an input, no longer resolves (❌ DEPRECATED, see Listing platforms). GHS figures volatile post-2022 depreciation; USD/m² more stable as foreign-buyer benchmark.
 
 | Market | Asking USD/m² (mid-range est., 2025-2026) |
 |---|---:|
@@ -103,26 +103,26 @@ Per Lands Commission classification, ~78% of land in Ghana is held under **custo
 | **Labone / Osu Ringway** (urban premium) | ~$1,800–$4,000 |
 | **Ridge / Roman Ridge** (mature premium) | ~$2,000–$4,500 |
 | **Trasacco Valley / Trasacco Heights** (gated estate) | ~$2,500–$5,000 |
-| **Cantonments / Tema Community 1-3** (Tema port, premium) | ~$1,000–$2,500 |
+| **Tema Community 1-3** (Tema port, premium) | ~$1,000–$2,500 |
 | **Spintex / Sakumono / Community 18-25 Tema** (mid-tier coastal) | ~$700–$1,800 |
 | **Adenta / Madina / Oyarifa / Pokuase** (peri-urban Accra growth corridors) | ~$400–$1,200 |
 | **Kumasi Ahodwo / Nhyiaeso / Kentinkrono** (Ashanti premium) | ~$600–$1,800 |
 | **Sekondi-Takoradi premium** (oil-services boom-bust zones) | ~$500–$1,500 |
 | **Cape Coast central + heritage zone** | ~$300–$900 |
 
-(Source: meQasa.com + Property24 Ghana + Knight Frank Ghana commentary 2025-2026 listing window — asking, **NOT** transaction-verified — rates may have changed since.)
+(Source: est. from the meQasa.com listing window 2025-2026 + Knight Frank commentary — asking, **NOT** transaction-verified; Property24 Ghana is dead — rates may have changed since.)
 
 ### Compute
 
 1. **Listing GHS/m² or USD/m²** = price ÷ m² built. Clarify "built-up area" vs "plot size"; **plot size convention**: 1 plot ≈ 70 ft × 100 ft ≈ 21.34 m × 30.48 m ≈ ~650 m² is the most common Accra/Kumasi residential plot — verify per listing as conventions vary.
-2. Convert GHS ↔ USD at **BoG official mid-rate** (`https://www.bog.gov.gh/economic-data/exchange-rate/`) — managed-float regime; spread to commercial-bank rate typically 1-3%.
-3. Cross-check 3+ listings + developer-direct quote + Knight Frank/Broll quarterly note before underwriting.
+2. Convert GHS ↔ USD at the **BoG inter-bank rate** (`https://www.bog.gov.gh/economic-data/exchange-rate/` — end-September 2026: GHS 11.71/USD; 2026-10-29 verified) — managed-float regime; spread to commercial-bank rate est. 1-3% (unsourced).
+3. Cross-check 3+ listings + developer-direct quote + Knight Frank's biennial Africa Report (secondary) before underwriting.
 4. **Trap — dual-currency**: Cantonments / Airport / East Legon often quote in USD with GHS for show; USD price typically binding — confirm currency in writing in Indenture.
-5. **Trap — off-plan vs cash**: headline GHS 1,200,000 off-plan may be 24-48 mo installment; cash-equivalent often 15-30% lower — demand cash-equivalent quote and delivery warranties.
-6. **Trap — plot vs m² confusion**: "half-plot at GHS 600,000" in Pokuase ≈ 325 m² nominal but actual surveyed area can deviate ±10% — demand registered Site Plan with surveyed coordinates.
-7. **Trap — declared vs actual**: stamp-duty declared often 20-40% below actual cash price (informal practice); verify per Lands Commission Land Valuation Division.
+5. **Trap — off-plan vs cash**: headline GHS 1,200,000 off-plan may be 24-48 mo installment; cash-equivalent est. 15-30% lower (unsourced) — demand cash-equivalent quote and delivery warranties.
+6. **Trap — plot vs m² confusion**: "half-plot at GHS 600,000" in Pokuase ≈ 325 m² nominal but actual surveyed area can deviate (est. ±10%, unsourced) — demand registered Site Plan with surveyed coordinates.
+7. **Trap — declared vs actual**: stamp-duty declared est. 20-40% below actual cash price (informal practice; unsourced); verify per Lands Commission Land Valuation Division, which assesses stamp duty.
 
-**Confidence**: MEDIUM — asking listings abundant in Accra/Kumasi; **transaction-verified price data not publicly available** (Lands Commission records paid + parcel-by-parcel). Foreign buyers should commission a local lawyer + valuer for 3-5 sold-comparables + cross-check Knight Frank/Broll quarterly.
+**Confidence**: MEDIUM — asking listings abundant in Accra/Kumasi; **transaction-verified price data not publicly available** (Lands Commission records paid + parcel-by-parcel). Foreign buyers should commission a local lawyer + valuer for 3-5 sold-comparables + cross-check Knight Frank's biennial Africa Report.
 
 ---
 
@@ -133,7 +133,7 @@ Per Lands Commission classification, ~78% of land in Ghana is held under **custo
 - **Ghana Highway Authority (GHA)** (`https://www.highways.gov.gh/`) — trunk roads (N, R-prefix); limited open AADT data
 - **Department of Urban Roads (DUR)** (under Ministry of Roads & Highways `https://mrh.gov.gh/`) — urban roads
 - **Department of Feeder Roads (DFR)** — rural feeder roads
-- **National Road Safety Authority (NRSA)** (`https://nrsa.gov.gh/`) ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row — accident statistics, blackspot maps
+- **National Road Safety Authority (NRSA)** (`https://nrsa.gov.gh/`) — live again on 2026-10-29 (was dead on 2026-09-18); its Research and Publication page (`https://nrsa.gov.gh/publications-and-research/`) carries crash statistics, the latest seen being the *Road Traffic Crashes in Ghana Statistics 2020* executive summary (2020 data — figures may have changed since); its Statistics page (`https://nrsa.gov.gh/statistics/`) has script-loaded Geo View, Charts and Time Series views that were not read, so blackspot mapping is unverified
 - **Greater Accra Regional Coordinating Council** — Accra urban traffic
 - **OSM `highway` fallback**: best practical proxy for parcel-level traffic class
 
@@ -156,9 +156,9 @@ Per Lands Commission classification, ~78% of land in Ghana is held under **custo
 ### Accra-specific notes
 
 - **Spintex Road** + **Tema Beach Road / George W. Bush Highway** + **Tetteh Quarshie Interchange / N1 corridor**: peak gridlock 6:30-9am / 4:30-7pm; 2-hour one-way commutes Tema↔central Accra possible at peak.
-- **Accra-Tema Motorway (N1)**: tolled (since 2022 modernisation discussion ongoing — verify GHA toll status); peak congestion eastbound AM, westbound PM.
+- **Accra-Tema Motorway (N1)**: not tolled at present — the 2022 Budget (presented 17 Nov 2021) zero-rated tolls "on all public roads and bridges" (`https://mofep.gov.gh/sites/default/files/budget-statements/2022_Budget_Statement_v3.pdf` ¶306). The 2026 Mid-Year Review says negotiations with the selected concessionaire for reintroducing road and bridge tolls are concluded and the agreement is expected before end-2026 (`https://mofep.gov.gh/sites/default/files/budget-statements/2026-Mid-Year-Fiscal-Policy-Review.pdf.pdf` ¶675-676); the 2026 Budget expects construction on the Accra-Tema Motorway transformation project (PPP) to start in 2026 (`https://mofep.gov.gh/sites/default/files/budget-statements/2026-Budget-Statement-and-Economic-Policy.pdf` ¶518) (2026-10-29 verified). Peak congestion eastbound AM, westbound PM.
 - **Kumasi outer ring** (Kejetia, Tech, Asokwa-Atonsu corridor): chronic peak congestion.
-- **Bus Rapid Transit (Aayalolo)**: Accra Amasaman-CBD corridor operational since 2016 (Greater Accra Passenger Transport Executive — modest network coverage).
+- **Bus Rapid Transit (Aayalolo)**: Accra Amasaman-CBD corridor (Greater Accra Passenger Transport Executive — modest network coverage; 2016 start not re-verified). The 2026 Budget says the fleet "resumed full operation in Greater Accra, carrying over 10 million passengers between January and September 2025", and plans to expand the BRT network in 2026 (`https://mofep.gov.gh/sites/default/files/budget-statements/2026-Budget-Statement-and-Economic-Policy.pdf` ¶545-546; 2026-10-29 verified).
 - **Site visit during peak hours** (Mon-Fri 6:30-9am, 4:30-7pm) is the most reliable signal for parcel-level traffic exposure.
 
 ### Confidence
@@ -250,13 +250,14 @@ Tax-revenue intensification (the E-Levy itself was repealed 2 Apr 2025) carried 
 - **Ghana Tourism Authority (GTA)** (`https://gta.gov.gh/`) — Tourism Act 2011 (Act 817) registration framework for accommodation enterprises (license tier varies by establishment class); STR formal compliance rare in practice — verify scope.
 - **VAT**: 15% applies if operator is VAT-registered (turnover threshold).
 - **Estate / HOA covenants**: Trasacco / East Legon Hills / gated estates often **prohibit STR** via covenants — read estate by-laws BEFORE buying for STR strategy.
-- **Year of Return / Beyond the Return** lifted Accra STR demand 2019-2024; sustained but moderating 2025-26.
+- **Year of Return / Beyond the Return** lifted Accra STR demand 2019-2024; sustained but moderating 2025-26 (unsourced; not re-verified 2026-10-29).
 
 ### Strategic notes
 
-- **Long-term gross yields** (USD-priced premium, Accra Cantonments/Airport/East Legon): ~5-8% USD nominal
-- **Long-term gross yields** (mid-tier Accra suburbs in GHS): ~8-14% nominal GHS, materially eroded by inflation/depreciation
-- **STR gross yields**: Cantonments/Airport/East Legon ~10-18% headline USD; **net after security + power backup + estate fees + management often half of gross**
+- **Long-term gross yields** (USD-priced premium, Accra Cantonments/Airport/East Legon): est. ~5-8% USD nominal (unsourced). Knight Frank's Africa Report 2026/27 puts Ghana prime residential yields at 8%–11%, averaging about 9.0%, and prime rents for three- to four-bedroom homes at US$3,000–4,500/month (2026 data, secondary, `https://content.knightfrank.com/research/155/documents/en/africa-report-202627-12847.pdf`) — figures may have changed since
+- **Long-term gross yields** (mid-tier Accra suburbs in GHS): est. ~8-14% nominal GHS (unsourced), materially eroded by inflation/depreciation; for scale, the GSS CPI housing-and-utilities division rose 10.3% YoY in September 2026 against 5.2% headline (source GSS CPI COICOP Annexes `https://statsghana.gov.gh/api/minio/file?key=data_statistics/economic/Price%20Indices/CPI/CPI%20Coicop%20Annexes/September%202026%20CPI%20COICOP%20Annexes.xlsx`)
+- **Renter share**: 34.6% of households rent nationally, 47.6% in Greater Accra and 40.6% in Ashanti (2021 data, source GSS 2021 Population and Housing Census, Housing Characteristics `https://statsghana.gov.gh/api/minio/file?key=publications/census/HOUSING%20CHARACTERISTICS.pdf`; 2026-10-29 verified) — figures may have changed since
+- **STR gross yields**: Cantonments/Airport/East Legon est. ~10-18% headline USD (unsourced); **net after security + power backup + estate fees + management est. half of gross**. Occupancy check: GSS measured Greater Accra room occupancy at 33.4–40.0% and ADR at GH¢1,852–2,102 across licensed and unlicensed establishments (hotels, guest houses, serviced apartments, homestays) in July–October 2025; serviced apartments nationally ran at 65.3–87.6% room occupancy (Jul–Oct 2025 data, source GSS Accommodation Occupancy Report `https://statsghana.gov.gh/api/minio/file?key=publications/survey/Accommodation%20Occupancy%20Report%20%282025%29%20July%20to%20October.pdf`) — figures may have changed since
 - **Energy autonomy overlay** (see `--mains`): generators + LPG + solar — must price into underwriting
 - **"Dumsor" (load-shedding)** legacy: less acute since 2017 but recurrent during fiscal/dollar squeezes (most recent material spell 2023-24); back-up infra is standard premium-property kit
 
@@ -276,22 +277,22 @@ Tax-revenue intensification (the E-Levy itself was repealed 2 Apr 2025) carried 
 ### Foreign-worker regimes
 
 - **Work Permit + Resident Permit** — Ghana Immigration Service (GIS — `https://www.gis.gov.gh/`); 1-2 yr renewable; tied to employer + role (Immigration Act 2000 Act 573 + Regulations)
-- **Quota system**: Ghana Investment Promotion Centre (GIPC `https://gipc.gov.gh/`) administers automatic-quota visas tied to FDI thresholds (verify current threshold + automatic-quota schedule at GIPC — varies USD 200,000–500,000+ FDI band per the GIPC Act 2013 Act 865)
-- **Investor pathway** (GIPC Act 2013 Act 865): foreign-owned enterprise registration with GIPC + minimum capital requirements (USD 200,000 for joint venture; USD 500,000 for wholly foreign-owned trading; verify current thresholds at GIPC)
+- **Quota system**: the Ghana Investment Promotion Authority (GIPA, `https://gipa.gov.gh/`; the old `gipc.gov.gh` redirects there) administers automatic expatriate quotas. The Ghana Investment Promotion Authority Act, 2026 (Act 1173), assented 15 Jul 2026, repealed the GIPC Act 2013 (Act 865) and expanded the expatriate quota thresholds — the new schedule is not on the GIPA pages checked; verify at GIPA (source `https://gipa.gov.gh/ghana-investment-promotion-centre-gipc-now-an-authority/`; 2026-10-29 verified)
+- **Investor pathway** (GIPA Act 2026, Act 1173): enterprise registration with GIPA, now renewed annually. Act 1173 removed the blanket minimum foreign capital for joint ventures and wholly foreign-owned enterprises (the USD 200,000 / USD 500,000 Act 865 figures quoted here before no longer apply) and keeps a reduced threshold for trading enterprises — amount not on the GIPA pages checked; verify at GIPA (sources `https://gipa.gov.gh/ghana-investment-promotion-centre-gipc-now-an-authority/` + `https://gipa.gov.gh/about-gipc/`; 2026-10-29 verified)
 - **Self-employment as non-resident**: requires Ghanaian company registration via Office of the Registrar of Companies (`https://orc.gov.gh/`) under Companies Act 2019 (Act 992)
 
 ### Salaried benchmarks (2025-2026, gross monthly)
 
-- **National Daily Minimum Wage**: **GHS 19.97/day** (effective 2025; National Tripartite Committee — verify current figure at Ministry of Employment & Labour Relations `https://www.melr.gov.gh/`); ~GHS 519/month assuming 26 working days
-- **Median Accra white-collar**: ~GHS 4,000–12,000/month (~USD 270-800 at GHS 15/USD; cross-check BoG mid-rate)
-- **Senior tech / fintech Accra**: GHS 15,000–40,000/month (~USD 1,000-2,700)
-- **Mining / oil & gas expat package**: USD 6,000-20,000/month + housing + schooling
-- **GSS Labour Force Survey** baseline (`https://statsghana.gov.gh/`)
+- **National Daily Minimum Wage**: **GHS 21.77/day** from 1 Jan 2026, +9% on the 2025 rate of GHS 19.97 (National Tripartite Committee communiqué of 9 Nov 2025, published by the Fair Wages and Salaries Commission `https://fairwages.gov.gh/wp-content/uploads/2025/11/2026-National-Daily-Minimum-Wage.pdf`; 2026-10-29 verified); ~GHS 566/month (computed: 21.77 × 26 working days). The ministry is now the Ministry of Labour, Jobs and Employment (`https://www.melr.gov.gh/`)
+- **Median Accra white-collar**: est. ~GHS 4,000–12,000/month (unsourced — the GSS quarterly labour releases checked 2026-10-29 carry no earnings data; ~USD 340–1,025 at the BoG end-September 2026 inter-bank rate of GHS 11.71/USD)
+- **Senior tech / fintech Accra**: est. GHS 15,000–40,000/month (unsourced; ~USD 1,280–3,415 at GHS 11.71/USD)
+- **Mining / oil & gas expat package**: est. USD 6,000-20,000/month + housing + schooling (unsourced)
+- **GSS Labour Force Survey** (`https://statsghana.gov.gh/`) — unemployment 13.0% in Q3 2025 (GSS home-page indicator, 2026-10-29); the GSS quarterly labour releases checked 2026-10-29 report employment and unemployment, not earnings, so the salary lines above stay estimates
 - **Note**: GHS depreciation 2022-23 cratered USD-equivalent local salaries — date-stamp + verify monthly GHS/USD before any USD conversion
 
 ### Catchment
 
-Greater Accra ~5.4M (full salaried market — banking, tech, NGO, oil & gas services); Ashanti / Kumasi ~5.6M (commerce, manufacturing); Western / Sekondi-Takoradi ~2.1M (oil & gas hub since 2010 Jubilee field, boom-bust); Central / Cape Coast ~2.9M (heritage tourism, education); Northern / Tamale ~2M+ (commerce, agriculture).
+Greater Accra 6.29M (full salaried market — banking, tech, NGO, oil & gas services); Ashanti / Kumasi 5.82M (commerce, manufacturing); Western / Sekondi-Takoradi 2.29M (oil & gas hub since 2010 Jubilee field, boom-bust); Central / Cape Coast 3.24M (heritage tourism, education); Northern / Tamale 2.75M (commerce, agriculture) — 2026 projections on the 2021 Census base (source GSS Population Projections 2021-2050, Table 6.1, `https://statsghana.gov.gh/api/minio/file?key=publications/census/POPULATION%20PROJECTIONS%202021-2050%20GREATER%20ACCRA%20REGION.pdf`; 2026-10-29 verified).
 
 **Confidence**: MEDIUM — wage benchmarks shift with GHS volatility; verify USD-equivalent at transaction + cross-check with employer.
 
@@ -463,7 +464,7 @@ Public-good adjacency: schools, healthcare, retail, transit.
 ### Sources
 
 - **Ministry of Education** (`https://moe.gov.gh/`); **Ministry of Health** (`https://www.moh.gov.gh/`)
-- **Ghana Health Service** (`https://ghs.gov.gh/`) — hospital + clinic registry
+- **Ghana Health Service** (`https://ghs.gov.gh/`) — Facility Finder locator; for licence status of public and private facilities use the **Health Facilities Regulatory Agency** (HeFRA, Health Institutions and Facilities Act 2011, Act 829) Licensed Facilities list (`https://hefra.gov.gh/licensed-facilities/`; 2026-10-29 verified)
 - **MMDA listings** for licensed schools/clinics
 - **OSM / Google Maps** as practical first-pass
 
@@ -475,12 +476,12 @@ Public-good adjacency: schools, healthcare, retail, transit.
 
 ### International schools (Accra / Kumasi)
 
-Accra: Ghana International School, Lincoln Community School, Galaxy International, American International School of Accra, SOS-Hermann Gmeiner International College, Lycée Français Jacques Prévert, German Swiss International School. Kumasi: Ridge International, SOS Hermann Gmeiner International (SOS in both cities). Tuition typically USD 8,000-25,000/yr top international — confirm with school directly.
+Accra: Ghana International School, Lincoln Community School, Galaxy International (Ashaley Botwe and East Legon campuses), American International School of Accra, Lycée Français Jacques Prévert, German Swiss International School (the last two not re-checked 2026-10-29). Tema: SOS International College, formerly SOS-Hermann Gmeiner International College (PMB Community 6, Tema — `https://sosic.edu.gh/contact-us-3/`). Kumasi: Ridge International and an SOS school are not re-verified. Tuition: Lincoln Community School charges USD 16,985 (Pre-K) to USD 29,589 (Grades 11-12) for 2026-27, plus a USD 2,000 yearly maintenance fee and a one-off USD 10,000 K-12 registration fee (`https://www.lincoln.edu.gh/fees/`; 2026-10-29 verified); the USD 8,000 lower bound for other schools is unverified — confirm with school directly.
 
 ### Healthcare
 
 - **Accra premium private**: Trust Hospital, Lister Hospital, Bank Hospital, Nyaho Medical, Korle-Bu Polyclinic
-- **Kumasi premium private**: KATH (Komfo Anokye Teaching Hospital — also major public), Komfo Anokye + private clinics
+- **Kumasi**: Komfo Anokye Teaching Hospital (KATH, 1,200 beds, `https://kath.gov.gh/`) is the public teaching hospital (see Public below), not a private one; no premium private hospital re-verified 2026-10-29 — check private clinics locally
 - **Public**: Korle-Bu Teaching Hospital (Accra) + KATH (Kumasi) + Tamale Teaching Hospital + Cape Coast Teaching Hospital — flagship; quality variable + waitlists
 - **Medical evacuation** to UK/SA/UAE for serious conditions; expat international evac insurance recommended
 
@@ -967,7 +968,7 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 - **Property24 Ghana** (`https://www.property24.com.gh/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with meQasa (meqasa.com — Property24 is South Africa-only))
 - **Tonaton.com** (`https://tonaton.com/`) — classifieds
 - **Jiji Ghana** (`https://jiji.com.gh/`)
-- **Lamudi Ghana** (reduced footprint)
+- **Lamudi Ghana** (`https://www.lamudi.com.gh/` — live 2026-10-29; "reduced footprint" unverified)
 - **Developer-direct**: Devtraco Plus, Regimanuel Gray, Goldkey Properties, Trasacco Estates, Manet, Lakeside Estate, Clifton Homes, Rehoboth, Blue Rose
 
 ---
