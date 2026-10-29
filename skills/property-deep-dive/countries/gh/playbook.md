@@ -301,14 +301,14 @@ Greater Accra ~5.4M (full salaried market — banking, tech, NGO, oil & gas serv
 
 ### Primary national sources
 
-- **NADMO — National Disaster Management Organisation** (`https://nadmo.gov.gh/`) — disaster response, flood response
-- **Ghana Meteorological Agency (GMet)** (`https://www.meteo.gov.gh/`) — weather, seasonal rainfall
-- **Environmental Protection Agency (EPA Ghana)** (`https://www.epa.gov.gh/`) — environmental clearance, EIA, coastal erosion
+- **NADMO — National Disaster Management Organisation** (`https://nadmo.gov.gh/`) — disaster response, flood response, alerts and an online **Disaster Map** (`https://nadmo.gov.gh/map`, flood areas and relief centres); national emergency number **112** (nadmo.gov.gh; 2026-10-29 verified)
+- **Ghana Meteorological Agency (GMet)** (`https://www.meteo.gov.gh/`) — weather, seasonal rainfall, impact-based forecasts; **Ghana Climate Atlas** with a projection map viewer (`https://www.meteo.gov.gh/climate-atlas/climate-change/`) (2026-10-29 verified)
+- **Environmental Protection Authority (EPA Ghana)** (`https://www.epa.gov.gh/`, redirects to `/new/`) — environmental permits, EIA, coastal erosion. The **Environmental Protection Act, 2025 (Act 1124)** "establish[es] the Environmental Protection Authority" (long title) and provides for a Ghana Carbon Registry (UNEP LEAP / FAOLEX record; 2026-10-29 verified)
 - **Lands Commission** (`https://lc.gov.gh/`) + **Land Valuation Division** — title overlap surface
-- **LUSPA — Land Use & Spatial Planning Authority** (`https://luspa.gov.gh/`) — zoning, spatial planning conflicts
+- **LUSPA — Land Use & Spatial Planning Authority** (`https://luspa.gov.gh/`) — zoning, spatial planning and development-permit rules under the Land Use and Spatial Planning Act, 2016 (Act 925) and the Land Use and Spatial Planning Regulations, 2019 (L.I. 2384); a service delivery agency under the Ministry of Local Government, Decentralisation and Rural Development (luspa.gov.gh/law; 2026-10-29 verified)
 - **Climate Central Coastal Risk** (`https://coastal.climatecentral.org/`) — Accra/Volta coastal SLR
 - **IPCC AR6 Atlas** (`https://interactive-atlas.ipcc.ch/`)
-- **UK FCDO + US State Dept** — security baseline (Ghana generally classed as stable; localised cautions)
+- **UK FCDO + US State Dept** — security baseline. FCDO (updated 2 Jul 2026) advises against all but essential travel to the **Bawku Municipal area** (Upper East region) and says terrorist attacks in Ghana "cannot be ruled out", naming northern border areas. The US State Dept advisory returned 403 to a scripted fetch on 2026-10-29 — level not re-verified; check travel.state.gov
 
 ### Stool-land + customary tenure overlay — the dominant due-diligence trap
 
@@ -324,22 +324,22 @@ Greater Accra ~5.4M (full salaried market — banking, tech, NGO, oil & gas serv
 
 ### Flood + coastal risk
 
-- **Accra urban flooding**: chronic during May-Jul main rains; severe events 2015 (Goil flood + fire deaths >150 — NADMO), 2018, 2022 — Odaw River + Korle Lagoon catchment, Kaneshie / Circle / Alajo / Achimota / Adenta corridors particularly exposed
-- **Coastal erosion**: West African coastal zone losing 1-3 m/year in places (Atlantic Centre for Marine Sciences / EPA); Keta / Ada Foah / Aboadze / Cape Coast western segments most exposed; sea defence works at Keta + planned for Volta-region coast
-- **Volta Lake levels** influence Akosombo Dam-area properties + flood plain communities downstream during peak releases
+- **Accra urban flooding**: chronic during the main rains (May-Jul window est.); recent events include the **29 Jun 2026 floods** in Greater Accra, which NADMO calls "devastating" and which flooded the Mallam and Achimota primary substations, cutting power to "several parts of the Greater Accra Region" (NADMO 12 Aug 2026; PURC 29 Jun 2026). Earlier severe events 2015 (Goil flood + fire, deaths >150), 2018 and 2022 rest on press records — not re-verified on a NADMO page in this run. Odaw River + Korle Lagoon catchment, Kaneshie / Circle / Alajo / Achimota / Adenta corridors particularly exposed. Under the **Greater Accra Resilient and Integrated Development (GARID) Project** government is dredging the Odaw channel, has started drainage works at Achimota, Nima-Paloma and Kaneshie and is building a Flood Early Warning Response System (FEWS) for Accra (MoFEP 2025 Programme Based Budget, Ministry of Works, Housing and Water Resources; 2026-10-29 verified — progress may have changed since)
+- **Coastal erosion**: West African coastal zone losing 1-3 m/year in places (Atlantic Centre for Marine Sciences / EPA — rate unverified: no primary page confirming it was found in this run); Keta / Ada Foah / Aboadze / Cape Coast western segments most exposed (qualitative). Sea-defence programme per the 2025 budget: Dansoman, Komenda and Elmina (Phase III) coastal protection "practically completed"; Anomabu 80 %, Cape Coast 88 %, Dixcove 42 %, Aboadze Phase II 70 % and Ningo-Prampram 92 % complete; 2.59 km of coastline protected in 2024 (MoFEP 2025 Programme Based Budget, MWHWR; 2026-10-29 verified — progress may have changed since). Keta sea defence not re-verified
+- **Volta Lake levels** influence Akosombo Dam-area properties + flood plain communities downstream during peak releases. VRA's 2023 **controlled spillage from the Akosombo and Kpong dams** displaced downstream communities: NADMO began recording displaced persons on 12 Sep 2023 and coordinated response in 8 districts (Mepe, Adidome and Ada named), and government is building 1,010 housing units for victims in North, Central and South Tongu (NADMO Director-General statement, 27 Oct 2023, hosted by VRA; MoFEP 2025 PBB). Elsewhere, FCDO notes flooding is common in the Upper West, North East, Northern and Savannah regions in the March–November rainy season (2026-10-29 verified)
 
 ### Climate change (summary)
 
-NDC: 64 GHG mitigation actions, ~64% conditional emissions reduction by 2030 vs BAU (Ghana NDC Update 2021 to UNFCCC; verify EPA + Ministry of Environment, Science, Technology & Innovation). Sea-level rise + coastal squeeze; northern Sahel-edge heat extremes; rainfall variability rising.
+NDC: Ghana's updated NDC (Nov 2021, UNFCCC registry) sets 19 policy actions that translate into **47 programmes of action** (13 adaptation, 34 mitigation) for an absolute GHG reduction of **64 MtCO2e by 2030** — 24.6 MtCO2e from nine unconditional and 39.4 MtCO2e from 25 conditional mitigation measures (2021 data; 2026-10-29 verified). A 2025–2035 NDC was presented to stakeholders for validation in May 2026 ahead of UNFCCC submission (GNA, 17 May 2026, secondary — submission not confirmed). Lead ministry: Ministry of Environment, Science and Technology (MEST — `https://mesti.gov.gh/`). GMet's Ghana Climate Atlas projects a rise in mean sea level that "may lead to an increase in coastal erosion and flooding", and year-round warming with the most increase in the dry season (see `--climate`).
 
 ### Power grid — back-up infrastructure standard
 
-National grid (ECG — Electricity Company of Ghana, NEDCo Northern Electricity, GRIDCo transmission) suffered chronic load-shedding ("dumsor") 2014-17, materially improved since but recurrent during fiscal/dollar squeezes (most recent material 2023-24). Premium Accra/Kumasi properties typically include:
+National grid (ECG — Electricity Company of Ghana, NEDCo Northern Electricity, GRIDCo transmission) suffered chronic load-shedding ("dumsor") 2014-17 (press record, not re-verified), recurring in 2024: on 18 Mar 2024 PURC directed ECG to submit a load-management timetable by 2 Apr 2024, while ECG blamed 630 overloaded transformers (Citi Newsroom, secondary). 2026: a **23 Apr 2026 fire at GRIDCo's Akosombo switching station** caused "a significant loss of generation capacity and power outages across several regions" (all six Akosombo units back by 4 May — PURC 4 May 2026), and the **29 Jun 2026 floods** forced the Mallam and Achimota primary substations offline (PURC 29 Jun 2026). ECG's status feed on 2026-10-29 lists planned maintenance and fault outages, with no load-shedding timetable posted (ecg.com.gh). Premium Accra/Kumasi properties typically include:
 - Standby diesel/petrol generator (5-15 kVA)
 - Increasingly: solar + lithium battery (Bui Power Authority / private installers)
 - LPG cooking standard (vs grid-electric)
 
-Cost overlay (mid-tier Accra home, 2025-26):
+Cost overlay (mid-tier Accra home, 2025-26 — est., no primary price source; verify by quote; grid tariff in `--mains`):
 - Generator runtime fuel: GHS 800-3,000/month during outages
 - Solar + 5-10 kWh battery capex: GHS 80,000-300,000+ (verify quote)
 - Monthly LPG: GHS 200-500
@@ -351,10 +351,10 @@ Cost overlay (mid-tier Accra home, 2025-26):
 |---|---|
 | Pre-1980 | Asbestos cement roofing; lead pipes; minimal seismic/code |
 | 1980-2000 | Variable; mix formal/informal pre-current Building Code |
-| 2006+ (NBR adoption) | National Building Regulations 1996 LI 1630 baseline; enforcement uneven outside premium developers |
+| 1996+ | National Building Regulations 1996 (L.I. 1630) baseline (the earlier "2006+ adoption" date is unsourced and the L.I. citation was not re-verified); since 2019 the Land Use and Spatial Planning Regulations (L.I. 2384, gazetted 28 May 2019) govern development permits; enforcement uneven outside premium developers (qualitative) |
 | Post-2010 gated estates | Generally better-engineered; private quality standards higher |
 
-**Informal/unauthorized construction**: insist on **Development / Building Permit** from MMDA Town & Country Planning + LUSPA + occupancy certification.
+**Informal/unauthorized construction**: under L.I. 2384 reg. 45 no physical development may proceed without a **development permit**, which "comprises both a planning permission and a building permission"; on completion the District Planning Authority (MMDA) issues a **Certificate of Habitation**. Ask for both, plus the LUSPA zoning position (L.I. 2384, luspa.gov.gh; 2026-10-29 verified).
 
 ### Mandatory diagnostics — documents to demand pre-offer
 
@@ -367,9 +367,9 @@ Cost overlay (mid-tier Accra home, 2025-26):
 | **Title Certificate** (Title Registration districts) OR **Registered Deed** | Lands Commission | Definitive (Title) vs evidentiary (Deed) |
 | **Property Rate Tax Clearance** | MMDA | No outstanding property rate |
 | **Stool/Family Allocation Note + customary witnesses** | Stool / family head | Customary chain |
-| **Building / Development Permit** | MMDA + LUSPA | Confirms legal building |
+| **Development Permit + Certificate of Habitation** | District Planning Authority (MMDA), L.I. 2384 reg. 45 | Confirms legal building and completion per permit |
 | **Estate / HOA dues + by-laws** | Estate management | STR rules + arrears |
-| **Utility clearance (ECG, GWCL)** | Distributors | No outstanding bills |
+| **Utility clearance (ECG / NEDCo, GWL)** | Distributors | No outstanding bills |
 | **GhanaCard verification (Ghanaian seller)** | National Identification Authority | Identity confirmation |
 | **Independent legal search** | Lawyer (GBA) | Cross-check |
 
@@ -381,9 +381,9 @@ Cost overlay (mid-tier Accra home, 2025-26):
 
 ### National framework
 
-- **Ghana Water Company Limited (GWCL)** — `https://www.gwcl.com.gh/` — urban water; treats + distributes
-- **Community Water and Sanitation Agency (CWSA)** — `https://www.cwsa.gov.gh/` — small towns + rural
-- **Public Utilities Regulatory Commission (PURC)** — `https://www.purc.com.gh/` — utility tariffs
+- **Ghana Water Limited (GWL)** — formerly Ghana Water Company Limited (GWCL); state-owned urban water utility under the Ministry of Works, Housing and Water Resources (MoFEP 2025 Programme Based Budget; 2026-10-29 verified). Old site `https://www.gwcl.com.gh/` ❌ DEPRECATED — primary source removed ("Account Suspended", verified 2026-10-29); verify with PURC (`https://www.purc.com.gh/`) or the local GWL district office
+- **Community Water and Sanitation Agency (CWSA)** — `https://www.cwsa.gov.gh/` — small towns + rural, under the Community Water and Sanitation Act, 1998 (Act 564): small-town piped systems, mechanised boreholes, hand-dug wells (MoFEP 2025 PBB; 2026-10-29 verified)
+- **Public Utilities Regulatory Commission (PURC)** — `https://www.purc.com.gh/` — utility tariffs, reviewed quarterly; the 2026–2030 Multi-Year Tariff Order took effect 1 Jan 2026. **Q4 2026 tariffs (effective 1 Oct 2026, unchanged from Q3)**: residential electricity GHp 203.7509/kWh for 0–300 kWh and GHp 269.2235/kWh above 300 kWh, plus a GHp 1,073.0886 (GH¢10.73) monthly service charge; lifeline 0–30 kWh GHp 89.9315/kWh. Residential water GHp 598.5381/m³ for 0–5 m³ (lifeline) and GHp 1,058.9413/m³ above 5 m³, plus GH¢10.00 a month. Example: 300 kWh/month = GH¢621.98 (300 × GH¢2.037509 + GH¢10.73, computed; levies and taxes on the bill are not in the PURC table). Q3 2026 had raised electricity 3.49 % and water 0.85 % (PURC press releases 22 Jun and 24 Sep 2026; TUC–PURC statement 30 Dec 2025; 2026-10-29 verified — check for the Q1 2027 decision)
 - **Electricity Company of Ghana (ECG)** — `https://www.ecg.com.gh/` — distribution south
 - **Northern Electricity Distribution Company (NEDCo)** — `https://www.nedcogh.com/` — north
 - **GRIDCo** — `https://www.gridcogh.com/` — transmission
@@ -391,13 +391,13 @@ Cost overlay (mid-tier Accra home, 2025-26):
 
 ### Coverage realities
 
-- **Greater Accra**: piped GWCL water nominal coverage urban core ~80%+ but **intermittent service** in many neighborhoods (rationing common); **most premium households on borehole + overhead "polytank" / cistern + GWCL backup**; sewer mains very limited (most properties on **septic tanks + soakaway**)
+- **Greater Accra**: piped GWL water; nominal urban-core coverage est. ~80%+ (unverified — no primary coverage figure found in this run) but **intermittent service** in many neighborhoods (rationing common); **most premium households on borehole + overhead "polytank" / cistern + GWL backup** (qualitative); sewer mains very limited (most properties on **septic tanks + soakaway**)
 - **Kumasi**: similar pattern; urban core GWCL + private boreholes ubiquitous in suburbs
 - **Tema**: better water + sanitation infra (industrial planning legacy); some sewered estates
 - **Sekondi-Takoradi / Cape Coast / regional capitals**: piped water nominal but intermittent; private borehole + overhead tank standard
 - **Rural**: CWSA-managed boreholes + hand-dug wells dominant
-- **Electricity**: ECG/NEDCo grid availability typically 18-22 hr/day urban (varies per feeder + season); load-shedding recurrent during fiscal/dollar squeezes; standby genset + inverter increasingly + solar/lithium standard kit
-- **Internet**: fibre (MTN, Vodafone/Telecel, AirtelTigo) widely available Accra/Kumasi/Tema premium; 4G ubiquitous urban; National Communications Authority (NCA — `https://nca.org.gh/`)
+- **Electricity**: ECG/NEDCo grid availability est. 18-22 hr/day urban (unverified — varies per feeder + season; no feeder-level supply hours found on PURC or ECG pages); 2026 outages included the GRIDCo Akosombo fire (23 Apr) and flooded substations (29 Jun) — see `--risks`; PURC's Q4 2026 tariff assumes a 24.25 % hydro / 75.75 % thermal generation mix (PURC 24 Sep 2026); standby genset + inverter increasingly + solar/lithium standard kit
+- **Internet**: NCA lists three mobile/fixed data operators — **MTN Ghana** (Scancom PLC), **Telecel** (Ghana Telecommunications Company Limited) and **AT** (Airtel Ghana Limited). July 2026: 30.8M mobile-data subscriptions (90.23 % penetration; MTN 80.02 % share) against only **225,456 fixed-data subscriptions** (0.66 %; MTN 117,859, Telecel 107,285, AT 312), so fixed broadband reaches few homes — confirm fibre on the specific street (NCA Monthly Industry Data, Jan–Jul 2026; 2026-10-29 verified). National Communications Authority (NCA — `https://nca.org.gh/`)
 
 ### Verification
 
@@ -420,7 +420,7 @@ Listing language: "borehole + polytank/poly tank" = private water (premium-subur
 
 (GHS figures inflation-sensitive post-2022; cross-check at quote — rates may have changed since.)
 
-**Confidence**: MEDIUM — GWCL + ECG/NEDCo + PURC authoritative frameworks; coverage data not standardized at parcel level. Energy + water autonomy is the dominant practical cost overlay for premium properties.
+**Confidence**: MEDIUM — GWL + ECG/NEDCo + PURC authoritative frameworks; Q4 2026 PURC tariffs and NCA July 2026 data primary-verified; coverage data not standardized at parcel level. Energy + water autonomy is the dominant practical cost overlay for premium properties.
 
 ---
 
@@ -428,15 +428,15 @@ Listing language: "borehole + polytank/poly tank" = private water (premium-subur
 
 ### Sources
 
-- **Ghana Police Service** (`https://police.gov.gh/`) — limited public data; crime statistics released periodically
+- **Ghana Police Service** (`https://police.gov.gh/`, redirects to `/en/`) — no crime-statistics page or dataset found on the site on 2026-10-29; HQ +233 302 773906 / +233 302 787373
 - **Ghana Statistical Service** (`https://statsghana.gov.gh/`) — Census housing tabulations + safety perception (limited)
-- **UK FCDO** (`https://www.gov.uk/foreign-travel-advice/ghana`) — practical baseline (Ghana generally rated "exercise normal precautions" with localised cautions)
-- **US State Dept** (`https://travel.state.gov/`) — Ghana typically Level 1-2 advisory (verify current)
+- **UK FCDO** (`https://www.gov.uk/foreign-travel-advice/ghana`) — practical baseline; updated 2 Jul 2026: advises against all but essential travel to the Bawku Municipal area (Upper East); no other area warning, but see the crime guidance below (the earlier "exercise normal precautions" label is not FCDO wording)
+- **US State Dept** (`https://travel.state.gov/`) — Ghana typically Level 1-2 advisory (verify current — the page returned 403 to a scripted fetch on 2026-10-29, level not re-verified)
 - **Numbeo Crime Index** — Accra entries (anecdotal; secondary aggregator)
 
-### Verdict bands (qualitative — per FCDO + Police data + contextual)
+### Verdict bands (qualitative skill assessment, est. — no district-level police data found; FCDO cautions below take precedence)
 
-- 🟢 Premium gated estates Accra (Trasacco, East Legon Hills, Roman Ridge gated, Cantonments, Airport Residential), Kumasi premium (Ahodwo, Nhyiaeso) — lowest perceived risk
+- 🟢 Premium gated estates Accra (Trasacco, East Legon Hills, Roman Ridge gated, Cantonments, Airport Residential), Kumasi premium (Ahodwo, Nhyiaeso) — lowest perceived risk — but FCDO reports burglaries in Airport Residential, Cantonments, Ridge and Kokrobite, "with greater frequency over the Christmas period"
 - 🟡 Accra premium non-gated (Labone, Osu Ringway, Airport Hills general), Kumasi general premium, Cape Coast central
 - 🟠 Accra Mainland general (Madina, Adenta, Spintex, Tema general), Kumasi general
 - 🔴 Specific Accra hotspots (Nima, parts of James Town / Ussher Town historic), Sekondi-Takoradi specific corridors during oil-services slow-cycles
@@ -444,9 +444,9 @@ Listing language: "borehole + polytank/poly tank" = private water (premium-subur
 ### Practical context
 
 - Petty crime + opportunistic theft + fraud (incl. romance / 419-style) most common urban risks
-- Armed robbery rare but does occur; home invasions in non-gated premium segments more reported during fiscal squeezes
-- Ghana significantly safer than several West African neighbours but security overlay (gated estate + private security + alarm) is standard for premium
-- Ghana Police 24-hr toll-free emergency: **191** (verify current)
+- FCDO (2 Jul 2026): "Cases of robbery, burglary and serious assault have become more common since 2021, and in some cases involve the use of weapons"; foreign nationals have been robbed at gunpoint; attacks on vehicles are increasing, and police flag roads including Graphic Road, George Walker Bush Highway, Accra Mall roundabout, Pokuase-Amasaman Road, Teshie-Nungua Road and the GIMPA road area; media report criminal kidnaps in Accra, Takoradi and Kumasi (supersedes the earlier "armed robbery rare" wording)
+- Comparative safety vs West African neighbours: skill assessment, not sourced; security overlay (gated estate + private security + alarm) is standard for premium. FCDO: terrorist attacks "cannot be ruled out", with JNIM active in southern Burkina Faso near the northern border
+- Emergency numbers: **112** (national, per NADMO and FCDO); Ghana Police also listed **191** and **18555** (with 112 and 0302-773906) in a 31 Dec 2025 advisory (GNA, secondary); FCDO also lists 999 and 192 (police) — dial 112 first (2026-10-29 verified)
 
 ### Verification
 
@@ -490,7 +490,7 @@ Accra: Ghana International School, Lincoln Community School, Galaxy Internationa
 
 ## Section: `--climate`
 
-### Climate by zone
+### Climate by zone (temperature ranges and month windows est. — not on a primary page fetched; GMet basics under Sources)
 
 - **Coastal South (Accra, Tema, Cape Coast, Takoradi)**: tropical savannah; ~24-32°C year-round; main rains Apr-Jul + minor rains Sep-Oct; harmattan Dec-Feb (dust + cooler)
 - **Forest / Middle Belt (Kumasi)**: tropical wet/dry; ~22-30°C; bimodal rains Apr-Jul + Sep-Oct, generally wetter than coast
@@ -498,22 +498,22 @@ Accra: Ghana International School, Lincoln Community School, Galaxy Internationa
 
 ### Sources
 
-- **Ghana Meteorological Agency (GMet)** — `https://www.meteo.gov.gh/`
-- **EPA Ghana** — `https://www.epa.gov.gh/` — climate adaptation
+- **Ghana Meteorological Agency (GMet)** — `https://www.meteo.gov.gh/`; **Ghana Climate Atlas** (`https://www.meteo.gov.gh/climate-atlas/climate-change/`): rainfall is bimodal in southern Ghana and unimodal in the north; in the dry season NE winds bring "dry and dusty conditions across the country"; temperatures typically peak in March and are lowest in August (2026-10-29 verified)
+- **Environmental Protection Authority (EPA Ghana)** — `https://www.epa.gov.gh/` — climate adaptation (the Agency became an Authority under the Environmental Protection Act, 2025, Act 1124)
 - **Climate Central Coastal Risk** — `https://coastal.climatecentral.org/`
 - **IPCC AR6 Atlas** — `https://interactive-atlas.ipcc.ch/`
 
-### Projections (IPCC AR6 + Ghana NDC)
+### Projections (GMet Ghana Climate Atlas + IPCC AR6)
 
-- **Warming**: ~+1.5-2.5°C by 2050 (SSP2-4.5 / RCP4.5); +2.5-4.5°C by 2100 (SSP5-8.5)
-- **Accra / coastal SLR**: 30-50 cm by 2050 likely; 60-100+ cm by 2100 (high emissions) — exposure for Keta, Ada Foah, parts of central Accra coast (Korle Gonno, James Town historic), Tema port + adjacent
-- **Coastal erosion**: West African coastal squeeze 1-3 m/year shoreline retreat in places (EPA Ghana + Centre for Coastal Management UCC) — affects parcels < 200 m from current shoreline materially
-- **Heat days**: Northern Ghana +20-40 additional days >40°C/year by 2050 likely
-- **Rainfall variability**: increasing intensity of extreme rainfall events → urban flood implications (Accra Odaw catchment chronic)
+- **Warming**: GMet projects average annual temperature to rise by **1.5 °C (range 1.2–1.9) by 2081–2100 under RCP4.5**, from a 1991–2020 mean of 27.8 °C to about 29.3 °C, with the "most increase during the dry season", and by 3.7 °C (2.7–4.4) under its high-emission scenario (Ghana Climate Atlas; 2026-10-29 verified). The earlier "+1.5-2.5 °C by 2050 (SSP2-4.5 / RCP4.5)" is not supported by GMet (no 2050 figure; 1.5 °C is its end-of-century medium value) and is withdrawn
+- **Accra / coastal SLR**: GMet's Ghana Climate Atlas gives a rise in mean sea level along Ghana's coast of **0.4–0.7 m** by end of century (2081–2100: 0.52 m [0.38–0.72] medium emission, 0.69 m [0.53–0.92] high emission); IPCC AR6 global likely range by 2100 vs 1995–2014 is 0.44–0.76 m (SSP2-4.5) and 0.63–1.01 m (SSP5-8.5) (GMet Climate Atlas; IPCC AR6 WGI SPM B.5.3; 2026-10-29 verified). The earlier "30-50 cm by 2050" is unverified (est.; GMet gives no 2050 figure). Exposure for Keta, Ada Foah, parts of central Accra coast (Korle Gonno, James Town historic), Tema port + adjacent (place list qualitative)
+- **Coastal erosion**: West African coastal squeeze 1-3 m/year shoreline retreat in places (EPA Ghana + Centre for Coastal Management UCC — rate unverified, no primary page found in this run); GMet says sea-level rise "may lead to an increase in coastal erosion and flooding"; affects parcels < 200 m from current shoreline materially (skill heuristic)
+- **Heat days**: Northern Ghana +20-40 additional days >40°C/year by 2050 (unverified — not in the GMet Climate Atlas summary; est.)
+- **Rainfall**: GMet projects total annual rainfall "will likely increase by 1.8%" (Jul–Sep +13.9 %, Sep–Nov +3.6 %, Apr–Jun −1.7 %) and says Ghana already sees "a growing number of extreme events such as floods, droughts, and coastal erosion" → urban flood implications (Accra Odaw catchment chronic) (Ghana Climate Atlas; 2026-10-29 verified)
 
 ### Implications
 
-Accra coastal: AC year-round; SLR exposure for parcels < 5 m elevation, particularly central Accra coast + Tema; chronic flood-prone areas (Odaw catchment, Kaneshie/Circle/Alajo/Achimota) need elevation + drainage diligence. Kumasi: more temperate forest belt, AC seasonal. Northern: extreme heat — thermal performance + cooling design critical; harmattan particulates affect HVAC.
+Accra coastal: AC year-round; SLR exposure for parcels < 5 m elevation (skill heuristic), particularly central Accra coast + Tema; chronic flood-prone areas (Odaw catchment, Kaneshie/Circle/Alajo/Achimota) need elevation + drainage diligence. Kumasi: more temperate forest belt, AC seasonal. Northern: extreme heat — thermal performance + cooling design critical; harmattan particulates affect HVAC.
 
 **Confidence**: HIGH for IPCC + GMet frameworks; MEDIUM for parcel-level Accra SLR (verify Climate Central + EPA Ghana coastal report on visit + LUSPA elevation maps).
 
@@ -983,9 +983,9 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 - **Akwaaba / Right of Abode + PAID**: African-descent diaspora pathway (Immigration Act 2000 ss. 17-18 as amended Act 848 2012); does NOT confer freehold rights despite secondary-aggregator language often equating it; verify directly at GIS.
 - **No golden-visa via passive RE**: GIPC investor route requires USD 200-500k+ in registered going-concern enterprise.
 - **BoG capital-flow documentation**: foreign capital inflow MUST be authorized-dealer-bank-documented for future USD repatriation — #1 procedural risk.
-- **Energy / water autonomy** standard cost overlay (borehole + polytank + generator + LPG + increasingly solar): GHS 1,500-4,500/mo for mid-tier Accra premium home.
-- **Accra urban floods** (Odaw catchment — Kaneshie, Circle, Alajo, Achimota, Adenta corridors): chronic during May-Jul main rains; verify drainage + insurance flood wording.
-- **Coastal erosion**: West African shoreline retreat 1-3 m/yr in places (Keta, Ada Foah, Aboadze) — verify EPA Ghana coastal report + Climate Central for parcels < 200 m from shore.
+- **Energy / water autonomy** standard cost overlay (borehole + polytank + generator + LPG + increasingly solar): est. GHS 1,500-4,500/mo (no primary price source) for mid-tier Accra premium home.
+- **Accra urban floods** (Odaw catchment — Kaneshie, Circle, Alajo, Achimota, Adenta corridors): chronic during the main rains (e.g. 29 Jun 2026 — NADMO, PURC); verify drainage + insurance flood wording.
+- **Coastal erosion**: West African shoreline retreat 1-3 m/yr in places (rate unverified; Keta, Ada Foah, Aboadze) — verify EPA Ghana coastal report + Climate Central for parcels < 200 m from shore.
 - **GhanaCard + TIN integration**: required for property + bank transactions.
 - **MMDA property rate** (0.5-3% assessed value range; AMA / KMA digitization underway via ghana.gov).
 - **Stool succession + family-elders disputes**: surface customary chain disputes pre-purchase via Houses of Chiefs + family elders + lawyer.
@@ -1019,9 +1019,9 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 | **NIA** | GhanaCard verification |
 | **FIC** | AML reporting |
 | **Ghana Police Service** | Security incidents |
-| **NADMO / GMet / EPA** | Disaster, weather, environmental |
+| **NADMO / GMet / EPA (Environmental Protection Authority)** | Disaster (national emergency 112), weather, environmental |
 | **ECG / NEDCo / GRIDCo / Energy Commission** | Electricity |
-| **GWCL / CWSA / PURC** | Water + sanitation + utility tariffs |
+| **GWL (formerly GWCL) / CWSA / PURC** | Water + sanitation + utility tariffs |
 | **NIC** | Insurance |
 | **NCA** | Telecom |
 | **OASL** | Stool-land ground rent + customary administration |
@@ -1066,23 +1066,28 @@ Agent 5-10% (often seller-borne) + CGT 15% on net realised gain + lawyer 1-2% + 
 | Ministry of Finance | `https://www.mofep.gov.gh/` |
 | Ministry of the Interior | `https://mint.gov.gh/` |
 | Ghana Immigration Service (GIS) | `https://www.gis.gov.gh/` |
-| Ghana Investment Promotion Centre (GIPC) | `https://gipc.gov.gh/` |
+| Ghana Investment Promotion Authority (GIPA; formerly GIPC) | `https://gipa.gov.gh/` (old `gipc.gov.gh` redirects here) |
 | NIA (GhanaCard) | `https://nia.gov.gh/` |
 | FIC (AML) | `https://www.fic.gov.gh/` |
-| Ministry of Works & Housing | `https://mwh.gov.gh/` |
+| Ministry of Works, Housing and Water Resources (MWHWR; formerly Works & Housing) | `https://mwhwr.gov.gh/` (old `mwh.gov.gh` shows an empty "Index of /" listing, verified 2026-10-29) |
 | Ministry of Foreign Affairs | `https://www.mfa.gov.gh/` |
 | Ghana Tourism Authority (GTA) | `https://gta.gov.gh/` |
 | Accra Metropolitan Assembly (AMA) | `https://ama.gov.gh/` |
 | Ghana.gov (digital portal) | `https://www.ghana.gov.gh/` |
 | Ghana Highway Authority | `https://www.highways.gov.gh/` |
 | Ministry of Roads & Highways | `https://mrh.gov.gh/` |
-| NRSA (Road Safety) | `https://nrsa.gov.gh/` ❌ DEPRECATED — dead on 2026-09-18; verify with the authority named in this row |
-| NADMO / GMet / EPA Ghana | `https://nadmo.gov.gh/` + `https://www.meteo.gov.gh/` + `https://www.epa.gov.gh/` |
-| Ministry of Environment, Science, Technology & Innovation | `https://mesti.gov.gh/` |
+| NRSA (Road Safety) | `https://nrsa.gov.gh/` (live again on 2026-10-29: "Home - National Road Safety Authority"; earlier marked dead on 2026-09-18) |
+| NADMO / GMet / Environmental Protection Authority | `https://nadmo.gov.gh/` + `https://www.meteo.gov.gh/` + `https://www.epa.gov.gh/` (redirects to `/new/`) |
+| Ministry of Environment, Science and Technology (MEST; formerly MESTI) | `https://mesti.gov.gh/` |
 | ECG / NEDCo / GRIDCo / Energy Commission | `https://www.ecg.com.gh/` + `https://www.nedcogh.com/` + `https://www.gridcogh.com/` + `https://www.energycom.gov.gh/` |
-| GWCL / CWSA / PURC | `https://www.gwcl.com.gh/` + `https://www.cwsa.gov.gh/` + `https://www.purc.com.gh/` |
-| NIC (Insurance) / NCA (Telecom) | `https://www.nicgh.org/` + `https://nca.org.gh/` |
-| Ghana Free Zones Authority (GFZA) | `https://gfzb.gov.gh/` |
+| GWL (formerly GWCL) / CWSA / PURC | `https://www.gwcl.com.gh/` ❌ DEPRECATED — primary source removed ("Account Suspended", verified 2026-10-29); verify with PURC + `https://www.cwsa.gov.gh/` + `https://www.purc.com.gh/` |
+| PURC tariff decisions (quarterly press releases) | `https://www.purc.com.gh/categ/news-and-media/subcategories/press-releases` |
+| GMet Ghana Climate Atlas | `https://www.meteo.gov.gh/climate-atlas/climate-change/` |
+| NCA industry statistics (monthly data) | `https://nca.org.gh/mobile-data/` |
+| LUSPA laws (Act 925, L.I. 2384) | `https://luspa.gov.gh/law/` |
+| VRA Akosombo spillage archive | `https://www.vra.com/media/2023-Dam-Spilling-Exercise.php` |
+| NIC (Insurance) / NCA (Telecom) | `https://nic.gov.gh/` (old `nicgh.org` redirects here; `www.nicgh.org` returns 403) + `https://nca.org.gh/` |
+| Ghana Free Zones Authority (GFZA) | `https://gfza.gov.gh/` (old `gfzb.gov.gh` returns 403, 2026-10-29) |
 | Office of the Registrar of Companies | `https://orc.gov.gh/` |
 | Ghana Police Service | `https://police.gov.gh/` |
 | meQasa / Property24 Ghana / Tonaton / Jiji | `https://meqasa.com/` + `https://www.property24.com.gh/` ❌ DEPRECATED — link dead (verified 2026-06-13); verify with meQasa (meqasa.com — Property24 is South Africa-only) + `https://tonaton.com/` + `https://jiji.com.gh/` |
