@@ -59,18 +59,18 @@ This section determines whether a transaction is even legally possible. Kuwait's
 ### What this means in practice
 
 - The "buy a residence in Kuwait → own it freehold" pitch is **NOT legally available** for non-GCC foreign individuals
-- The "buy property → get a residency / golden visa" pitch is **NOT available at all** — Kuwait has **no real-estate-linked residency programme** (uniquely absent in the GCC)
+- The "buy property → get a residency / golden visa" pitch **does not work for non-GCC buyers** — Kuwait has **no golden visa** (no purchase-price residence scheme). The residence law does let the Interior Ministry grant **real-estate owners (ملاك العقارات) a permit of up to 10 years** (Amiri Decree 114/2024 Art. 13 — discretionary: يجوز, "may"), but a non-GCC individual can only qualify through the narrow ownership exceptions above; see `--visa`
 - For non-GCC expatriates, the practical residential pathway is **rental** (Decree-Law 35/1978 tenancy law) or **long-term lease** (≤30 yrs renewable) — both subject to employer-Iqama maintenance
 - Commercial / industrial property can be held via a **KDIPA-licensed entity** with 100% foreign ownership for permitted business activities — but **not residential**
 
-### Visa via property — NONE (uniquely absent in GCC)
+### Visa via property — no golden visa; owner permit only for lawful owners
 
 | Item | Kuwait |
 |---|---|
-| **Investor / Golden Residency via real estate** | **NONE** — no real-estate-linked residency or investor-visa pathway |
+| **Investor / Golden Residency via real estate** | **No golden visa** (no purchase-price threshold). **Owner permit**: Amiri Decree 114/2024 **Art. 13** allows (يجوز, "may") a residence permit of **up to 10 years** for owners of real estate in Kuwait, exempt from the six-month absence lapse. The [Amiri Diwan](https://www.da.gov.kw/ar/news/1200-28_11_2024/) summary confirms the discretionary 10-year owner permit; the article number, the absence exemption and the bylaw text below come from a law firm's copy of the gazette pages (secondary; official gazette text not read). Bylaw **قرار وزاري رقم 2249 لسنة 2025 (Ministerial Resolution 2249/2025)**, Kuwait Al-Youm No. 1766 of 23 Nov 2025 per the gazette index, in force 23 Dec 2025 (one month after publication, Art. 41): Art. 25 conditions it on proof of ownership, on top of the general passport and health-insurance rules (Arts. 6–7); fee KWD 50/yr. Not a purchase route for non-GCC individuals, who generally cannot own (table above); no issuance figures found (checked 2026-10-29). Investor residence of up to 15 years is for investors under FDI Law 116/2013 — not via real estate |
 | **Citizenship by investment** | **NONE** — Kuwaiti citizenship governed by [Amiri Decree 15/1959 (Kuwaiti Nationality Law)](https://www.moi.gov.kw/main/News/Index/111493), as amended (incl. Decree-Laws 116/2024 and 158/2024, Dec 2024; 52/2026, Kuwait Al-Youm 13 Apr 2026; 79/2026, Kuwait Al-Youm 24 Aug 2026; dates per KUNA and press reports, gazette text not read) (verify at Ministry of Interior) — strictly hereditary; naturalisation extremely rare (typically requires 20+ yrs residence + Arabic + Muslim + valuable contribution; political process; Council of Ministers + Emir's approval) |
 | **Permanent residency for foreigners** | **NONE in formal sense** — Iqama under Amiri Decree 114/2024 (which repealed Amiri Decree 17/1959) is renewable but tied to employer / family / property; some long-residing expats report informal recognition after 20+ yrs but not codified |
-| **Golden Visa equivalent** | **NONE** |
+| **Golden Visa equivalent** | **NONE** — the closest thing via property is the discretionary owner permit above, which needs lawful ownership first |
 
 ### Compliance / AML
 
@@ -305,7 +305,7 @@ This section determines whether a transaction is even legally possible. Kuwait's
 | **Standard Work Permit / Iqama (Amiri Decree 114/2024, replacing 17/1959)** | Employer-sponsored; tied to employer (kafala) | Public Authority for Manpower (PAM) + MOI |
 | **Article 18 Iqama (private sector)** | Standard expat work permit | PAM + MOI |
 | **Article 17 Iqama (public sector)** | Government employment | PAM + MOI |
-| **Article 24 Iqama (domestic worker)** | Domestic-worker sponsorship | PAM + MOI |
+| **Article 20 Iqama (domestic worker)** | Domestic-worker sponsorship | PAM + MOI |
 | **Family Visa (Article 22)** | Sponsored by working family member meeting salary threshold (typically KWD 800/month for senior roles) | MOI |
 | **Investor Residency** | **NOT linked to real estate**; via KDIPA-licensed business activity only | KDIPA + MOI |
 | **Permanent Residency** | **NOT formally available** for foreigners | — |
@@ -632,26 +632,26 @@ Account opening requires **valid Iqama + Kuwaiti mobile + Civil ID** for residen
 
 ### Talent + investor schemes (most relevant for property-acquisition decision)
 
-⚠️ **Kuwait has NO real-estate-linked residency or investor visa.** This is uniquely absent in the GCC — UAE, Saudi, Qatar, Bahrain, Oman all offer some property-linked pathway; Kuwait does not.
+⚠️ **Kuwait has no golden visa a foreign buyer can buy into.** UAE, Saudi, Qatar, Bahrain and Oman all offer some property-linked pathway to foreign buyers; Kuwait does not. Its residence law does provide a discretionary permit of up to 10 years for real-estate owners (Amiri Decree 114/2024 Art. 13; bylaw Ministerial Resolution 2249/2025 Art. 25, in force 23 Dec 2025; article numbers per a law firm's copy of the gazette pages — secondary), but non-GCC individuals generally cannot own residential property (Decree-Law 74/1979), so only someone within the narrow ownership exceptions can use it. Investor residence (up to 15 yrs, Art. 13) runs through FDI Law 116/2013 licensing, not property.
 
 | Scheme | Threshold | Visa | PR path |
 |---|---|---|---|
 | **Standard Iqama (Article 18 — private sector)** | Employer-sponsored work permit | 1–2 yr renewable | Tied to employer; no automatic PR |
 | **Article 17 Iqama (public sector)** | Government employment | Renewable | Tied to employment |
 | **Article 22 Family Visa** | Sponsored by family member meeting salary threshold (typically KWD 800/month for senior categories) | Renewable | Tied to sponsor |
-| **Article 24 Domestic Worker** | Domestic-worker sponsorship | Renewable | Tied to employer |
+| **Article 20 Domestic Worker** | Domestic-worker sponsorship | Renewable | Tied to employer |
 | **KDIPA Investor Iqama** | KDIPA-licensed business activity (NOT real estate) | Tied to investment | Tied |
 | **Tourist Visa** | 90-day single or multiple entry | Visit only | n/a |
 | **Permanent Residency** | **NOT formally available** | — | — |
 | **Citizenship** | **Effectively impossible** under [Amiri Decree 15/1959 (Kuwaiti Nationality Law)](https://www.moi.gov.kw/main/News/Index/111493), as amended (incl. Decree-Laws 116/2024 and 158/2024, Dec 2024; 52/2026, Kuwait Al-Youm 13 Apr 2026; 79/2026, Kuwait Al-Youm 24 Aug 2026; dates per KUNA and press reports, gazette text not read) (verify at Ministry of Interior) — strict naturalisation; rare exceptional grants by Council of Ministers + Emir | n/a | n/a |
-| **Real-Estate-Linked Visa** | **NONE** | — | — |
+| **Real-estate owner permit (Art. 13; bylaw Art. 25)** | Proof of owning real estate in Kuwait; discretionary; for non-GCC individuals only via the narrow ownership exceptions | Up to 10 yrs, renewable; KWD 50/yr; exempt from the six-month absence lapse | No PR; no issuance figures found (checked 2026-10-29) |
 | **Golden Visa** | **NONE** | — | — |
 
 ### Key facts
 
 - **Citizenship**: Decree-Law 15/1959 — Kuwaiti citizenship is hereditary; naturalisation requires 20+ yrs residence + Arabic + Muslim + valuable contribution; political process; cap of ~4,000 naturalisations/yr (politically-driven). **Practically not available** for routine expatriate property buyers.
 - **Permanent Residency**: not formally codified; some long-residing expats (20+ yrs) report informal recognition but not equivalent to UAE Golden Visa or Saudi Premium Residency
-- **Property-linked path**: NONE
+- **Property-linked path**: exists in law, narrow in practice — Amiri Decree 114/2024 Art. 13 allows (does not require) a permit of up to 10 years for real-estate owners and Ministerial Resolution 2249/2025 Art. 25 conditions it on proof of ownership, but non-GCC individuals generally cannot own residential property. MOI officials described the category on state TV in Jan 2025 and Jan 2026 (Times Kuwait, Kuwait Times — press reports); no issuance figures found, and the MOI residence page still links the repealed 957/2019 bylaw (checked 2026-10-29)
 - **Tourist eVisa**: available to ~50+ nationalities including most EU, UK, US, Canada, Australia, Japan, GCC; 90 days per visit, 1-yr multiple-entry per [MOI eVisa portal](https://evisa.moi.gov.kw/)
 
 ---
@@ -746,7 +746,7 @@ Kuwait uses a **civil-law notary system** (notary office under Ministry of Justi
 ### Kuwait's distinctive position (2026)
 
 - **Most foreign-buyer-restricted GCC market for residential private housing** — Decree-Law 74/1979 was materially amended by **Decree No. 195 of 2025** (corporate / fund / portfolio pathway opened, residential private-housing exclusivity preserved); does not yet match Saudi 2026 / UAE 2002–2019 / Qatar 2018 in scope for individual non-GCC buyers (2026-05-27 verified)
-- **No real-estate-linked residency or golden visa** — uniquely absent in the GCC
+- **No golden visa, and no purchase route to residence for non-GCC buyers** — uniquely absent in the GCC; the discretionary owner permit (up to 10 yrs, Amiri Decree 114/2024 Art. 13) needs lawful ownership first
 - **No personal income tax + no recurring property tax + no CGT + VAT not yet implemented** — among the most tax-favourable globally for those eligible to own
 - **High face-value currency (KWD)** — basket-managed, modest FX appreciation since 2007
 - **Kuwait Investment Authority (KIA) ~USD 1.0T (Jul 2025 Global SWF ranking — up from ~USD 846B Jul 2024; KIA is the 5th-largest SWF globally, 3rd in Gulf behind PIF and ADIA; 2026-05-27 verified)** — among the world's largest sovereign wealth funds; underpins macro stability
@@ -763,7 +763,7 @@ For **GCC structural similarity**, see `countries/qa/playbook.md` (Qatar — fel
 
 ### Retirement to Kuwait scenario
 
-Kuwait is **not a traditional retirement destination** in the international sense, and the **absence of a real-estate-linked residency pathway** materially constrains retirement-via-property strategies for non-GCC foreigners.
+Kuwait is **not a traditional retirement destination** in the international sense, and the **lack of a property-linked residency pathway open to non-GCC buyers** materially constrains retirement-via-property strategies for non-GCC foreigners (the owner permit under Amiri Decree 114/2024 Art. 13 needs lawful ownership, which they generally cannot obtain).
 
 Practical pathways (limited):
 
@@ -786,7 +786,7 @@ Practical pathways (limited):
 
 - **No PIT, no CGT, no estate/inheritance tax** for individuals
 - **No tax on foreign pension income** received in Kuwait
-- **No real-estate-linked residency** — long-term residence depends on family / employer Iqama maintenance
+- **No property-linked residency open to non-GCC buyers** — the owner permit (up to 10 yrs, Art. 13) needs lawful ownership; long-term residence otherwise depends on family / employer Iqama maintenance, or on the Art. 24 residence without work on proof of means (Ministerial Resolution 2249/2025, fee KWD 500/yr per its Art. 39; gazette scans via a law-firm copy, secondary — conditions not re-verified 2026-10-29)
 
 ### Healthcare access
 
@@ -795,7 +795,7 @@ Practical pathways (limited):
 
 ### Verdict for retirement-first buyers
 
-🔴 **Avoid** — for non-GCC foreigners seeking to retire in Kuwait via property purchase, **the legal pathway is not available**; Kuwait does not offer real-estate-linked residency. For GCC nationals retiring, viable. Other GCC destinations (UAE Golden Visa, Saudi Premium Residency, Qatar Investor Residency, Bahrain Golden Residency, Oman Investor Residency) offer property-linked retirement pathways that Kuwait does not.
+🔴 **Avoid** — for non-GCC foreigners seeking to retire in Kuwait via property purchase, **the legal pathway is not available**; the owner permit (up to 10 yrs, Amiri Decree 114/2024 Art. 13) requires lawful ownership, which non-GCC individuals generally cannot obtain. For GCC nationals retiring, viable. Other GCC destinations (UAE Golden Visa, Saudi Premium Residency, Qatar Investor Residency, Bahrain Golden Residency, Oman Investor Residency) offer property-linked retirement pathways that Kuwait does not.
 
 ---
 
@@ -1025,7 +1025,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **PAHW (Public Authority for Housing Welfare)** subsidies for **Kuwaiti nationals only** — government-allocated villas + interest-free Credit Bank of Kuwait housing loans
 - **Sharia-compliant Murabaha + Ijara** mortgage structures alongside conventional
 - **KDIPA-licensed business activity**: 100% foreign ownership permitted in licensed sectors (NOT residential real estate); 5–10 yr tax holiday on qualifying investments under FDI Law 116/2013
-- **NO real-estate-linked residency or golden visa** — uniquely absent
+- **NO golden visa and no purchase route to residence for non-GCC buyers** — uniquely absent; the owner permit (up to 10 yrs, Amiri Decree 114/2024 Art. 13) needs lawful ownership first
 
 ## Mortgage market
 
@@ -1050,7 +1050,7 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 - **Decree-Law 74/1979 on Real Estate Ownership by Non-Kuwaitis**: **non-GCC foreign individuals CANNOT generally own residential property** — among the most restrictive regimes globally; verify any claimed exception with Council of Ministers / MOJ before any binding step
 - **GCC reciprocity required** for GCC-national ownership — verify per nationality
-- **NO real-estate-linked residency or golden visa** — uniquely absent in the GCC (UAE, Saudi, Qatar, Bahrain, Oman all offer property-linked pathways)
+- **NO golden visa and no purchase route to residence for non-GCC buyers** — uniquely absent in the GCC (UAE, Saudi, Qatar, Bahrain, Oman all offer property-linked pathways); the discretionary owner permit (up to 10 yrs, Amiri Decree 114/2024 Art. 13) helps only someone who already owns lawfully
 - **Citizenship effectively impossible** for foreigners (Decree-Law 15/1959); naturalisation strict
 - **NO recurring property tax + NO PIT + NO CGT for individuals** — among world's most tax-favourable
 - **NO VAT (yet)** — Kuwait + Qatar are the only two GCC states yet to implement; expect 5% introduction at some point — verify timing
@@ -1143,4 +1143,4 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Kuwait is the **most foreign-buyer-restricted GCC market** — non-GCC foreign individuals **cannot generally own residential property** under Decree-Law 74/1979, with only narrow case-by-case exceptions (diplomats, Council of Ministers approvals, inheritance with disposal). **GCC nationals** (Saudi, UAE, Bahrain, Qatar, Oman) treated equivalently subject to reciprocity. **NO real-estate-linked residency or golden visa** — uniquely absent in the GCC (UAE, Saudi, Qatar, Bahrain, Oman all offer property-linked pathways). HIGH confidence for federal-level structural facts: Decree-Law 74/1979 foreign-ownership prohibition; KWD managed-float since 20 May 2007 (was USD-pegged); 0% personal income tax; 0% recurring property tax; 0% capital gains tax for individuals; VAT not yet implemented (Kuwait + Qatar deferred); MOJ Real Estate Registration ~0.5–2% banded fee; CBK macroprudential LTV; MEW utility monopoly; Kuwait Investment Authority ~USD 1.0T (Jul 2025 Global SWF ranking — up from ~USD 846B Jul 2024; KIA is the 5th-largest SWF globally, 3rd in Gulf behind PIF and ADIA; 2026-05-27 verified); ~30%/70% Kuwaiti/expat population split (PACI 2024). MEDIUM confidence for citywide pricing benchmarks (CSB + MOJ data less granular than UAE / Saudi / Qatar; listing-platform asking prices used as proxy with `per listing — verify with cadastre / on visit` tag); exact MOJ registration fee bands (verify per transaction); VAT introduction timing (no announcement as of 2026-05); STR licensing pathway (no dedicated regime; informal tolerance); foreign-ownership reform horizon (no enacted reform; periodic Council-of-Ministers debate). All numeric facts date-stamped against primary .gov.kw / .gov.kw + KIA + CBK + KMD sources where available; foreign-ownership restriction flagged prominently in country profile + foreign-buyer eligibility + visa + retirement + digital-nomad + exit sections per the central anti-hallucination contract.
+**Notes**: Kuwait is the **most foreign-buyer-restricted GCC market** — non-GCC foreign individuals **cannot generally own residential property** under Decree-Law 74/1979, with only narrow case-by-case exceptions (diplomats, Council of Ministers approvals, inheritance with disposal). **GCC nationals** (Saudi, UAE, Bahrain, Qatar, Oman) treated equivalently subject to reciprocity. **NO golden visa and no purchase route to residence for non-GCC buyers** — uniquely absent in the GCC (UAE, Saudi, Qatar, Bahrain, Oman all offer property-linked pathways); Amiri Decree 114/2024 Art. 13 provides a discretionary owner permit (up to 10 yrs) for those who can own lawfully, issuance volume unconfirmed (2026-10-29). HIGH confidence for federal-level structural facts: Decree-Law 74/1979 foreign-ownership prohibition; KWD managed-float since 20 May 2007 (was USD-pegged); 0% personal income tax; 0% recurring property tax; 0% capital gains tax for individuals; VAT not yet implemented (Kuwait + Qatar deferred); MOJ Real Estate Registration ~0.5–2% banded fee; CBK macroprudential LTV; MEW utility monopoly; Kuwait Investment Authority ~USD 1.0T (Jul 2025 Global SWF ranking — up from ~USD 846B Jul 2024; KIA is the 5th-largest SWF globally, 3rd in Gulf behind PIF and ADIA; 2026-05-27 verified); ~30%/70% Kuwaiti/expat population split (PACI 2024). MEDIUM confidence for citywide pricing benchmarks (CSB + MOJ data less granular than UAE / Saudi / Qatar; listing-platform asking prices used as proxy with `per listing — verify with cadastre / on visit` tag); exact MOJ registration fee bands (verify per transaction); VAT introduction timing (no announcement as of 2026-05); STR licensing pathway (no dedicated regime; informal tolerance); foreign-ownership reform horizon (no enacted reform; periodic Council-of-Ministers debate). All numeric facts date-stamped against primary .gov.kw / .gov.kw + KIA + CBK + KMD sources where available; foreign-ownership restriction flagged prominently in country profile + foreign-buyer eligibility + visa + retirement + digital-nomad + exit sections per the central anti-hallucination contract.
