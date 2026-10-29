@@ -381,28 +381,28 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 | Source | URL | What it gives |
 |---|---|---|
 | **Ministry of Emergency Situations (FVV — Favqulodda vaziyatlar vazirligi)** | [gov.uz/en/fvv](https://gov.uz/en/fvv) | Operational hazard data, flood/earthquake/fire response, civil protection plans |
-| **Institute of Seismology, Academy of Sciences of the Republic of Uzbekistan** | [seismos.uz](https://www.seismos.uz/) (URL not re-probed — verify) | Real-time + historic seismicity, fault maps, intensity zoning, Tashkent + Fergana Valley active fault catalogue |
-| **Centre of Hydrometeorological Service (Uzhydromet — Oʻzgidromet)** | [meteo.uz](https://www.meteo.uz/en) | Weather, flood warnings, climate baseline, drought monitoring (Aral basin) |
+| **Institute of Seismology named after G.O. Mavlonov, Academy of Sciences of the Republic of Uzbekistan** | [seismos.uz](https://www.seismos.uz/) | Real-time + historic seismicity, fault maps, intensity zoning, Tashkent + Fergana Valley active fault catalogue |
+| **Agency of Hydrometeorological Service under the National Committee on Ecology and Climate Change (Uzhydromet — Oʻzgidromet)** | [gov.uz/en/hydromet](https://gov.uz/en/hydromet) (meteo.uz redirects to a port-9000 address that did not load, 2026-10-29) | Weather, flood warnings, climate baseline, drought monitoring (Aral basin) |
 | **National Committee on Ecology and Climate Change of the Republic of Uzbekistan** (hotline 1157; formerly styled a ministry) | [gov.uz/en/eco](https://gov.uz/en/eco) | Environmental risk reports, Aral Sea region monitoring, climate adaptation |
-| **State Architectural and Construction Inspectorate** | under Ministry of Construction | Building-code enforcement (KMK / ҚМҚ — Қурилиш меъёрлари ва қоидалари series, equivalent to Russian SNiP); seismic-design certification |
-| **Cadastre Agency** | [kadastr.uz](https://kadastr.uz/en) | Cadastre + zoning + restricted-zone flag (border / strategic) |
+| **Inspection for Control in Construction and Housing and Communal Services under the Cabinet of Ministers** (Qurilish va uy-joy kommunal xoʻjaligi sohasida nazorat qilish inspeksiyasi; its seismic-safety powers are set out in amendments to the seismic-safety law that take effect three months after official publication, UzA 29 Sep 2026) | under the Cabinet of Ministers; see also the [Ministry of Construction and Housing and Communal Services](https://gov.uz/en/mc) | Building-code enforcement (KMK / ҚМҚ — Қурилиш меъёрлари ва қоидалари series, equivalent to Russian SNiP); seismic-design certification |
+| **Cadastre Agency** | [kadastr.uz](https://kadastr.uz/en) (timed out 2026-10-29) · [gov.uz/en/kadastr](https://gov.uz/en/kadastr) | Cadastre + zoning + restricted-zone flag (border / strategic) |
 
 ### Seismicity — material concern, especially Tashkent + Fergana Valley
 
 - Uzbekistan sits on the **southern Tian Shan + Pamir collision zone** with active deformation. Seismicity is **moderate-to-high in the south + east** (Tashkent, Fergana Valley, Surxondaryo, Samarkand) and lower in the western desert + Karakalpakstan.
-- **1966 Tashkent earthquake (26 April 1966, Mw 5.2, depth 3–8 km, epicentre central Tashkent)**: foundational event in Uzbek seismic awareness. Despite moderate magnitude, the **shallow focal depth + dense unreinforced adobe + masonry housing stock** caused **massive destruction** — most pre-1966 buildings were damaged or destroyed, 200,000–300,000 left homeless, 15–200 deaths (low casualty count attributed to early-morning timing + low collapse-fatality of single-storey adobe). Reconstruction was a Soviet all-Union effort 1966–1976; modern Tashkent's wide boulevards + concrete-panel housing dominate as legacy. Source: [1966 Tashkent earthquake, Wikipedia](https://en.wikipedia.org/wiki/1966_Tashkent_earthquake) + [ReliefWeb 50-year retrospective](https://reliefweb.int/report/uzbekistan/1966-2016-50-years-tashkent-earthquake) + [seismic-risk assessment Nature Sci Rep 2026](https://www.nature.com/articles/s41598-026-44585-3).
-- **Current seismic risk** ([Nature Sci Rep 2026 paper on Tashkent's residential buildings, 1966 scenario]): approximately **4.0 % of Tashkent housing stock** — primarily brick + adobe buildings constructed before 1966 — may experience severe damage under a **Mw 5.5 earthquake scenario**. Post-1966 Soviet panel + post-2000 frame construction performs significantly better; **independent structural survey strongly advised** for any pre-1966 structure (rare in central Tashkent post-reconstruction but present in old mahalla quarters of Samarkand + Bukhara).
-- **Fergana Valley** (Andijan, Fergana, Namangan): high regional seismicity; **1902 Andijan Mw 6.4** earthquake (~4,500 deaths); densely populated with mixed-age housing stock. Buyers should request seismic-zoning certification from regional khokimiyat / Institute of Seismology before deposit.
-- **Building code**: **KMK 2.01.03-19 "Construction in seismic regions"** + earlier KMK seismic codes — partial Eurocode 8 alignment ongoing. Seismic-resistance class is required disclosure on building registration certificates per Ministry of Construction order — verify on technical passport.
+- **1966 Tashkent earthquake (26 April 1966, Mw 5.2, depth 3–8 km, epicentre central Tashkent)**: foundational event in Uzbek seismic awareness. Despite moderate magnitude, the **shallow focal depth + dense unreinforced adobe + masonry housing stock** caused **massive destruction** — most pre-1966 buildings were damaged or destroyed, 200,000 to more than 300,000 left homeless (Wikipedia range; ReliefWeb 2016 and the 2026 Sci Rep paper give more than 300,000 of 1.5 million residents), 15–200 deaths per Wikipedia (official toll 15; the Sci Rep paper gives an official toll of eight and about 200 hospitalised) (low casualty count attributed to early-morning timing + low collapse-fatality of single-storey adobe). Reconstruction was a Soviet all-Union effort; ReliefWeb (3 May 2016) says the capital was completely rebuilt in three and a half years; modern Tashkent's wide boulevards + concrete-panel housing dominate as legacy. Source: [1966 Tashkent earthquake, Wikipedia](https://en.wikipedia.org/wiki/1966_Tashkent_earthquake) + [ReliefWeb 50-year retrospective](https://reliefweb.int/report/uzbekistan/1966-2016-50-years-tashkent-earthquake) + [seismic-risk assessment Nature Sci Rep 2026](https://www.nature.com/articles/s41598-026-44585-3).
+- **Current seismic risk** ([Scientific Reports, published 28 Apr 2026 — seismic risk of Tashkent's residential buildings, 1966 scenario](https://www.nature.com/articles/s41598-026-44585-3)): about **4.0 % of Tashkent housing stock** — primarily brick + adobe buildings constructed before 1966 — may experience severe damage under a **Mw 5.5 earthquake scenario**. Post-1966 Soviet panel + post-2000 frame construction performs significantly better; **independent structural survey strongly advised** for any pre-1966 structure (rare in central Tashkent post-reconstruction but present in old mahalla quarters of Samarkand + Bukhara).
+- **Fergana Valley** (Andijan, Fergana, Namangan): high regional seismicity; **1902 Andijan earthquake** (16 Dec 1902, surface-wave magnitude **Ms 6.4**; death estimates 700–4,880, over 4,000 in the article text — [Wikipedia](https://en.wikipedia.org/wiki/1902_Andijan_earthquake), secondary); densely populated with mixed-age housing stock. Buyers should request seismic-zoning certification from regional khokimiyat / Institute of Seismology before deposit.
+- **Building code**: **norm 2.01.03-19 "Construction in seismic regions"** (with 3.02.01-97 and 2.02.01-98, cited by the Ministry of Construction's press secretary, Anhor 10 Feb 2023; series prefix KMK / ShNK not confirmed) + earlier KMK seismic codes; per the same briefing, objects of the fourth complexity level (power plants, oil and gas) also need a seismic review by the Institute of Seismology. **Cabinet of Ministers Resolution No. 727 of 17 Nov 2025** ([lex.uz](https://lex.uz/uz/docs/-7842771), items 3–4): the Ministry of Construction and Housing and Communal Services introduces design from regional accelerogram databases from 1 Dec 2025 and approves by 1 Oct 2027 the object types for which design with special seismic-protection devices gets priority in MSK-64 zones of 8+ points; from 1 Feb 2026 the fee for seismic-resistance scientific conclusions (Resolution No. 603 of 2022) is halved. Eurocode 8 alignment and a seismic-resistance-class disclosure on registration certificates were not verified — check the technical passport.
 - **Soviet panel-block stock** (5-storey + 9-storey + 16-storey panels constructed 1970s–1980s): retrofit status uneven; documented vulnerability of poorly-detailed joints in some series. Independent structural survey advised for pre-1991 panel buildings.
 
 ### Flood + drought + water-scarcity (climate-driven)
 
 - **Major rivers**: Syr Darya (Fergana Valley → Aral basin), Amu Darya (south + west → Aral basin), Zarafshan (Samarkand–Bukhara), Surxondaryo, Chirchiq (Tashkent region) — all transboundary.
-- **Drought + water-stress** is the dominant hydrological hazard, not flood — Uzbekistan has been dramatically affected by the **Aral Sea crisis** (sea volume reduced ~90 % since 1960; eastern Aral basin is now the **Aralqum desert**, ~60,000 km²), and central Asia faces accelerating **water-deficit risk by 2050** ([UNEP Atlas + ADB Climate Adaptive Water Resources Management report](https://www.adb.org/sites/default/files/linked-documents/53120-001-ssa.pdf)): water supply forecast to drop **57 → 52–54 billion m³** while demand rises **59 → 62–63 billion m³** — water deficit growing from ~2 billion m³ to **11–13 billion m³** by 2050.
-- **Glacier loss in Pamir + Tian Shan headwaters**: severe by 2050 — projected **1.75–2.25 °C** mean temperature increase; reduced reservoir inflows; **GLOF (glacial-lake outburst flood) risk** elevated in transition phase.
-- **Spring snowmelt + flash-flood events**: increasing intensity per UNEP + Uzhydromet projections; precipitation more extreme but less frequent. Tashkent + Samarkand + Fergana cities historically buffered by reservoir + canal systems but suburban gully-floods + mahalla drainage failures during cloudburst events documented 2020–2025.
-- **2025–2026 drought watch**: ongoing reduced precipitation in Surxondaryo + Karakalpakstan; agricultural-water stress affecting rural property utility supply.
+- **Drought + water-stress** is the dominant hydrological hazard, not flood — Uzbekistan has been dramatically affected by the **Aral Sea crisis** (sea volume down more than 90 % from the 1950s to 2009 per the [UNESCAP Aral Sea Resilience Portal](https://rrp.unescap.org/aral-sea); eastern Aral basin is now the **Aralqum desert**, ~60,000 km² — area not verified), and central Asia faces accelerating **water-deficit risk by 2050** ([ADB sector assessment for the Climate Adaptive Water Resources Management project, 53120-001](https://www.adb.org/sites/default/files/linked-documents/53120-001-ssa.pdf), citing 2005–2050 climate projections): water supply forecast to drop **57 → 52–54 billion m³** while demand rises **59 → 62–63 billion m³** — water deficit growing from ~2 billion m³ to **11–13 billion m³** by 2050.
+- **Glacier loss in Pamir + Tian Shan headwaters**: severe by 2050 (UNEP Atlas, 25 Nov 2025: glacier melt "severely affected by 2050"; runoff can fall 25–50 % in extremely hot, dry years) — projected mean warming **+1.8 °C (SSP2-4.5) to +2.3 °C (SSP5-8.5)** for 2040–2059, country average (World Bank CCKP API, CMIP6 ensemble median, fetched 2026-10-29 — secondary data portal; 1995–2014 baseline inferred, not stated with the data); reduced reservoir inflows; **GLOF (glacial-lake outburst flood) risk** elevated in transition phase.
+- **Spring snowmelt + flash-flood events**: floods in Central Asia "more severe and prolonged" per the UNESCAP Aral Sea portal (a region-wide statement, not specific to snowmelt or flash floods; UNEP and Uzhydromet projections to this effect not located); precipitation more extreme but less frequent. Tashkent + Samarkand + Fergana cities historically buffered by reservoir + canal systems but suburban gully-floods + mahalla drainage failures during cloudburst events documented 2020–2025.
+- **Drought frequency**: six dry years between 2019 and 2024, and Uzbekistan ranks among the top 20 drought-prone countries (UNEP Atlas, 25 Nov 2025); a 2025–2026 drought watch for Surxondaryo + Karakalpakstan was not verified — check Uzhydromet bulletins; agricultural-water stress affects rural property utility supply.
 
 ### Aral Sea region (Karakalpakstan) — chronic environmental hazard
 
@@ -412,8 +412,8 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 ### Air quality — Tashkent winter pollution (chronic concern)
 
-- Tashkent ranks among Central Asia's **most-polluted capitals** in winter (Nov–Mar): coal + gas-fired CHPP emissions, vehicle fleet (~700k cars), residential coal heating in suburban "private sector" (chastny sektor / xususiy sektor), seasonal inversion in the Tashkent basin.
-- Winter PM2.5 spikes routinely **>100–250 μg/m³** (vs WHO 24-hr guideline 15 μg/m³); 2024 + 2025 episodes triggered school-closure advisories.
+- Tashkent ranks among Central Asia's **most-polluted capitals** in winter (Nov–Mar): coal + gas-fired CHPP emissions, vehicle fleet (size not verified), residential coal heating in suburban "private sector" (chastny sektor / xususiy sektor), seasonal inversion in the Tashkent basin.
+- Winter PM2.5 at Uzhydromet's automatic stations in Tashkent reached **143 μg/m³ (11 Nov 2025)** and **202 μg/m³ (20 Nov 2025)** vs a national limit of 60 μg/m³ (SanPiN 0053-23, adopted May 2024) and the WHO guideline of 15 μg/m³; the advisories asked residents to limit time outdoors and wear masks (Kun.uz; Fergana). Uzhydromet has published Tashkent PM2.5 / PM10 on its Telegram channel since 10 Nov 2025. A presidential decree on the "Clean Air" National Project (reported 1 Apr 2026, Asia-Plus via Podrobno.uz) provides for cancelling outdoor classes in schools and kindergartens and moving state bodies to remote work during severe pollution, with a single regulatory act for these measures due for submission by 30 Dec 2026; no 2024–2025 school-closure order was found in sources read.
 - Property buyers in Tashkent should factor air filtration (HEPA + activated carbon) + double-glazing into renovation budget; suburban + foothill (Bostanlik) cleaner than valley floor.
 
 ### Build-era hazards
@@ -439,18 +439,18 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 | **Building completion / commissioning act (foydalanishga topshirish dalolatnomasi)** | New builds + extensions | Confirms construction completed legally; **often missing** for pre-2007 self-built ("samoyqurma") objects → affects future renovation / extension |
 | **No-debt certificate** (utilities, building common-area dues) | Apartments in managed buildings | From building management association / owners' association — ensure no debt attached |
 | **Spousal consent (notarial razilik)** | When seller is married | Mandatory under Civil Code + Family Code |
-| **Heritage listing check** | Old Samarkand + Bukhara + Khiva + Tashkent old-mahalla buildings | UNESCO inscription + Ministry of Culture register — listing imposes severe renovation restrictions; verify at [madaniyat.uz](https://madaniyat.uz/) (Ministry of Culture) before any renovation plan |
+| **Heritage listing check** | Old Samarkand + Bukhara + Khiva + Tashkent old-mahalla buildings | UNESCO inscription + Ministry of Culture register — listing imposes severe renovation restrictions; verify at [gov.uz/en/madaniyat](https://gov.uz/en/madaniyat) (Ministry of Culture; madaniyat.uz now only says the site has moved) before any renovation plan |
 | **Currency-control declaration**: in some non-resident purchases | Where contract value > thresholds | Per Currency Regulation Law ZRU-573; AML monitoring through CBU + Department for Combating Economic Crimes |
 | **Land-lease confirmation** | Houses + plots | Verify the underlying land plot's lease status (49-year typical) + remaining term + lease holder |
 
 ### Climate change projections
 
-- **Mean annual temperature**: **+1.75–2.25 °C** by 2050 (UNEP Atlas + ADB); summer warming faster (+2 to +2.75 °C) than winter (+1.5 to +2 °C)
-- **Precipitation**: shifts to more intense but less frequent events; **+5 to +20 % annual mean** by 2050 but with strong seasonal + regional variation — winter precipitation up 5–25 % across Aral basin; summer slightly down in south, up in north
-- **Glacier loss in Tian Shan + Pamir**: severe by 2050; reduced reservoir inflows; long-run water-deficit growing 2 → 11–13 billion m³ by 2050 (UNEP / ADB)
-- **Heat**: Tashkent summer days >40 °C projected to **double** by 2050; agricultural-yield + rural-water stress
+- **Mean annual temperature**: **+1.8 °C (SSP2-4.5) to +2.3 °C (SSP5-8.5)** for 2040–2059; summer (Jun–Aug) +2.0 to +2.8 °C, faster than winter (Dec–Feb) +1.4 to +1.9 °C (World Bank CCKP API, CMIP6 ensemble median, country average, fetched 2026-10-29 — secondary data portal; the 1995–2014 baseline and the season-to-month mapping are inferred, not stated with the data). Observed: +1.6 °C over six decades, up to 1.8–2.5 °C in the Aral Sea region (UNEP Atlas, 25 Nov 2025)
+- **Precipitation**: shifts to more intense but less frequent events (not verified); CMIP6 ensemble median **+10.3 % annual (SSP2-4.5; +8.3 % SSP5-8.5)** for 2040–2059, largest in winter (+11.1 %) and smallest in summer (+4.8 %) under SSP2-4.5 (World Bank CCKP API, country average, fetched 2026-10-29 — secondary data portal; 1995–2014 baseline and season mapping inferred); the north / south split was not verified
+- **Glacier loss in Tian Shan + Pamir**: severe by 2050; reduced reservoir inflows; long-run water-deficit growing 2 → 11–13 billion m³ by 2050 (ADB sector assessment; glacier outlook per UNEP Atlas)
+- **Heat**: days above 40 °C (country average) **7.0 a year (1995–2014) → 19.1 a year (2040–2059, SSP2-4.5)** per the World Bank CCKP API, CMIP6 ensemble median (`hd40`, fetched 2026-10-29 — secondary data portal); no Tashkent-specific projection was verified; agricultural-yield + rural-water stress
 - **Aral basin desertification**: continuing; salt + dust storms increasing intensity; Karakalpakstan + Khorezm + Bukhara north periphery affected
-- **NDC**: Uzbekistan **Updated NDC 2021** targeted 35 % reduction in GHG emissions per unit GDP by 2030 (vs 2010 baseline); Carbon Neutrality strategy 2050 under preparation; National Climate Adaptation Strategy under development
+- **NDC**: **NDC 3.0** (endorsed by the Cabinet of Ministers 5 Nov 2025, submitted at COP30 in Nov 2025) commits to cut GHG emissions per unit of GDP **50 % from 2010 levels by 2035**, oriented toward carbon neutrality by 2055 (National Committee on Ecology and Climate Change); it replaces the 2021 updated NDC target of 35 % by 2030. National Climate Adaptation Strategy status not verified
 
 ---
 
@@ -458,17 +458,17 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 ### National database + operators
 
-- **Tariff regulator**: [Cabinet of Ministers + Ministry of Energy](https://www.energy.uz/) — sets utility tariffs (electricity, gas, water, heating)
-- **Electricity transmission**: **JSC "National Electric Grid of Uzbekistan"** ([uzbekistonmet.uz](https://www.uzbekistonmet.uz/en)) — successor to Uzbekenergo (split 2019); distribution via regional electricity companies (REC) per viloyat:
-  - Tashkent: **Tashkent City Electric Networks** + retail
-  - Other regions: regional REC subsidiaries
-- **Gas distribution**: **JSC "Hududgazta'minot"** + **JSC "Uztransgaz"** (national transmission) under Ministry of Energy
+- **Tariff setting**: household electricity and gas prices are set by Cabinet of Ministers resolution (latest: **No. 243 of 15 May 2026**, new prices from 1 Jun 2026, [lex.uz](https://lex.uz/uz/docs/-8195731)); under item 5 the Interdepartmental Tariff Commission under the Cabinet was to review and approve gas and electricity generation, transmission, distribution and sales tariffs by 1 Jul 2026, and under item 2 the [Ministry of Energy](https://gov.uz/en/minenergy) communicates the new prices. Water and sewer tariffs are set by decisions of the regional / Tashkent city councils of people's deputies (Anhor; Spot), and Spot reports that a commission under the Cabinet will approve them from 2027. (energy.uz, linked here before, is a private market-intelligence site published by a Tashkent energy consultancy — "Figures are indicative and provided without warranty" — not the ministry.)
+- **Electricity transmission**: **JSC "National Electric Grid of Uzbekistan"** (site title: National Power Grid of Uzbekistan; [uzbekistonmet.uz](https://www.uzbekistonmet.uz/en)) — created under the Uzbekenergo reorganisation approved on 27 Mar 2019, from its Uzelectroset and Energosotish units (UzDaily, 28 Mar 2019); distribution and sales to end consumers via **JSC "Hududiy elektr tarmoqlari" (Regional Electric Networks)** and its territorial enterprises (UzDaily 2019; named in Cabinet Resolution No. 243 of 15 May 2026, item 3):
+  - Tashkent: the Tashkent city territorial enterprise of Hududiy elektr tarmoqlari (enterprise name not verified)
+  - Other regions: Hududiy elektr tarmoqlari territorial enterprises per viloyat
+- **Gas distribution**: **JSC "Hududgazta'minot"** (named in Cabinet Resolution No. 243 of 15 May 2026, item 3) + **JSC "Uztransgaz"** (national transmission; not re-checked this pass) under Ministry of Energy
 - **Water + sewerage**:
-  - **Tashkent city**: **JSC "Toshkent Shahar Suv Ta'minoti" (TSST)** — city water + sewer operator since corporatisation; legacy/colloquial name "Suvsoz" still in informal use. **SUEZ Tashkent Water Transformation Plan** (7-year €142M contract) in operation since **Aug 2023** modernising the city network. (2026-05-27 verified, source SUEZ press release + uzsuv.uz.)
-  - **Tashkent province (viloyat)**: separate operator **"Toshkent Viloyati Suv Ta'minoti"** ([toshkent.uzsuv.uz](https://toshkent.uzsuv.uz)) — distinct from TSST city.
+  - **Tashkent city**: **JSC "Toshkent Shahar Suv Ta'minoti" (TSST)** — city water + sewer operator since corporatisation; legacy/colloquial name "Suvsoz" still in informal use. **SUEZ Tashkent Water Transformation Plan** (7-year €142M contract) in operation since **Aug 2023** modernising the city network (SUEZ, 22 Sep 2023; re-checked 2026-10-29). Site: [toshkent.uzsuv.uz](https://toshkent.uzsuv.uz) (its tariff API names АО "Toshkent shahar suv ta'minoti"; office: Tashkent city, Fidokor street 2).
+  - **Tashkent province (viloyat)**: separate operators **"Toshkent viloyati suv taʼminoti" AJ** and **"Chimgan-Chorbogʻ"** (trunk supply) — distinct from TSST city. Household tariff from October 2026: **UZS 3,472/m³ water and UZS 1,680/m³ sewer incl. VAT** (UZS 3,100 / 1,500 excl. VAT) for Toshkent viloyati suv taʼminoti, per Tashkent Regional Council decision VII-43-127-10-0-K/26 of 16 Sep 2026 (Anhor gives 3 Oct as the start, Spot 1 Oct; press reports of the council decision). The site toshkent.uzsuv.uz serves TSST (city) data, not this operator.
   - **Other regions**: wider brand **O'zsuvta'minot AJ** ([uzsuv.uz](https://uzsuv.uz)) + regional vodokanal subsidiaries.
-- **District heating**: **JSC "Toshissiqquvvati"** (Tashkent) + regional CHPP plants — Tashkent CHPP-1 + CHPP-2; modernisation ongoing under Ministry of Energy / National Project for Modernisation of Heat-Power Sector
-- **Sewerage**: managed by regional vodokanal + Suvsoz in Tashkent
+- **District heating**: Tashkent — **Veolia Energy Tashkent** operates, maintains and manages the city network (1,926 km of pipes, heat and hot water for some 1.2 million residents) under a **30-year public-private partnership** signed 29–30 Sep 2021 with the Ministry of Finance and the Tashkent city administration, taking over from the state enterprise "Toshissiqquvvati"; regional CHPP / boiler plants elsewhere (Tashkent CHPP-1 + CHPP-2 and the national modernisation project not re-checked)
+- **Sewerage**: managed by regional vodokanal + TSST in Tashkent
 
 ### Verification
 
@@ -499,18 +499,18 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 
 | Utility | Tariff (residential, indicative) |
 |---|---|
-| **Electricity (residential, social-norm tier)** | ~UZS 450/kWh (~US$0.036/kWh) up to social-norm consumption; higher tiers for excess — **the transmission operator publishes no residential tariff schedule ([uzbekistonmet.uz](https://www.uzbekistonmet.uz/en), 2026-09-18 verified); verify the current schedule with your regional electricity company (REC)** |
-| **Natural gas residential** | ~UZS 850–1,200/m³ (~US$0.07–US$0.10/m³) — heavily subsidised historically; gradual liberalisation 2024–2026 |
-| **Water + sewer (Tashkent Suvsoz)** | ~UZS 1,800–2,800/m³ for water; ~UZS 1,200–2,000/m³ for sewer (verify suvsoz.uz current tariff) |
-| **District heating** | varied by CHPP; subsidised; verify per region |
+| **Electricity (residential, social-norm tier)** | From 1 Jun 2026, households pay **UZS 650/kWh up to 200 kWh a month** (the base norm), UZS 900 for 201–500 kWh, 1,100 for 501–1,000, 1,600 for 1,001–5,000, 1,900 for 5,001–10,000 and 2,200 above 10,000 kWh; flats with central electric cookers pay 325 / 450 / 550 / 800 / 950 / 1,100 on the same bands (prices incl. VAT; [Cabinet Resolution No. 243 of 15 May 2026](https://lex.uz/uz/docs/-8195731); 200 kWh norm per Resolution No. 204 of 16 Apr 2024). UZS 650 ≈ US$0.054/kWh (computed at 12,012.30 UZS/USD, CBU 21 Oct 2026). Earlier steps: 450 → 600 on 1 May 2025, 600 → 650 on 1 Jun 2026 (Interfax, citing the Ministry of Energy) |
+| **Natural gas residential** | From 1 Jun 2026, metered households pay **UZS 1,100/m³ up to 500 m³ a month in the heating season** (Nov–Feb; Oct–Feb in Karakalpakstan + Khorezm) **and up to 100 m³ a month otherwise**, then UZS 2,000 to 2,500 m³, 2,300 to 5,000, 2,700 to 10,000 and 3,300 above; unmetered households pay 2,000 for cooking / hot water and 1,550 for heating (incl. VAT; Cabinet Resolutions No. 243 of 2026 and No. 204 of 2024). UZS 1,100 ≈ US$0.092/m³ (computed at 12,012.30). Household gas went 650 → 1,000 on 1 May 2025 and 1,000 → 1,100 on 1 Jun 2026 (Interfax) |
+| **Water + sewer (Tashkent city, TSST)** | **UZS 1,400/m³ water; UZS 1,000/m³ sewer** for households (UZS 3,000 / 2,200 for legal entities), per TSST's tariff page ([toshkent.uzsuv.uz](https://toshkent.uzsuv.uz), read 2026-10-29); the levels match the Tashkent city council decision of 24 Nov 2023 (Anhor); VAT treatment not stated. ≈ US$0.12 / US$0.08 per m³ (computed at 12,012.30). Tashkent province charges more — see the operator note above |
+| **District heating** | varied by operator; subsidised. Tashkent: households pay about 18 % of the full tariff, the rest is a city-budget subsidy; the household tariff rose twice by 15 % in 2024, and a phase-out of the subsidy by 2030 is planned (Veolia Energy Tashkent's director, Kun.uz 13 Aug 2025); the current UZS rate per Gcal / m² was not verified |
 
-(Tariffs indicative — UZ utility prices have been **suppressed below cost-recovery for decades** under populist tariff regime; **gradual liberalisation 2024–2026** with tariff catchup expected through Energy Sector reform programme. **Material upward pressure on holding cost over 2026–2030.**)
+(UZ household utility prices rose rarely before 2024: the May 2024 household rise (electricity 295 → 450 UZS/kWh, gas 380 → 650 UZS/m³) was the first since August 2019, followed by May 2025 and June 2026 rises (Interfax, citing the Ministry of Energy). The 2026 resolution cites the financial stabilisation of energy companies; Spot reports water tariffs move to a Cabinet commission from 2027. **Expect further increases over 2026–2030** (est., based on the yearly steps since 2024).)
 
 ### Energy supply context
 
-- Uzbekistan is a **net energy producer + exporter** (gas + uranium + cotton-derivative chemicals); domestic gas-supply seasonally constrained — **2022–2024 winter gas shortages** in Tashkent + outlying regions led to public discontent + emergency import from Turkmenistan + Russia
-- **Power mix**: gas-dominant (~80 %) + hydro (~10 %) + coal (~10 %); first nuclear plant (Russian Rosatom-built, near Bukhara) under construction phase 2024–2030
-- **Renewables push**: large solar + wind tenders (UAE Masdar, Saudi ACWA Power, EDF) launched 2020–2024; **8+ GW solar + wind under construction or commissioned 2024–2025**
+- Uzbekistan produces gas and uranium but now **imports Russian gas**: Gazprom delivered 5.64 bcm in 2024 (4.4× the 2023 volume) and has a contract to supply 7.7 bcm a year (Russian government via Kun.uz, 17 Oct 2025); domestic gas supply is seasonally constrained — **2022–2024 winter gas shortages** in Tashkent + outlying regions (not re-verified this pass); "net exporter" status not verified
+- **Power mix**: gas-dominant; hydro + solar + wind produced **23 %** of generation in 1 Jan–22 Oct 2025 (14.52 bn kWh, Ministry of Energy via Kun.uz); the ~80 / 10 / 10 gas / hydro / coal split was not verified. **First nuclear plant**: Rosatom-built small plant with two RITM-200N units (55 MW each) in **Farish district, Jizzakh region** — first concrete poured 24 Mar 2026; the same site is later to host two VVER-1000 units of 1 GW each, for 2.1 GW across the whole project (Kun.uz, 11 Oct 2025 and 25 Mar 2026, citing Uzatom)
+- **Renewables push**: large solar + wind tenders (UAE Masdar, Saudi ACWA Power, EDF) launched 2020–2024; **12 solar PV + 5 wind plants in operation, 4,682 MW combined (Oct 2025, Ministry of Energy via Kun.uz)**; the 8+ GW pipeline figure was not verified
 - **Modernisation**: heating networks + electricity grids **highly worn**; National Project on Modernisation of Energy and Communal Sectors continuing through 2030
 
 ---
@@ -520,17 +520,17 @@ For a Tashkent Yashnabad 70 m² 2-bed (asking US$95,000) under STR:
 ### Primary sources
 
 - **Ministry of Internal Affairs (IIV — Ichki ishlar vazirligi)**: [gov.uz/uz/iiv](https://gov.uz/uz/iiv) — national crime statistics + district inspector (uchastkovy / mahalla inspektor) network
-- **State Statistics Committee — Crime and Justice section** ([stat.uz/en/official-statistics/crime-and-justice](https://stat.uz/en/official-statistics/crime-and-justice))
+- **National Committee on Statistics — Crime and Justice section** ([stat.uz/en/official-statistics/crime-and-justice](https://stat.uz/en/official-statistics/crime-and-justice)) — registered crimes by region 2010–2025 as XLSX / CSV downloads
 - **Prosecutor General's Office (Bosh prokuratura)**: [prokuratura.uz](https://www.prokuratura.uz/) — prosecutorial statistics
 - **Department for Combating Economic Crimes**: AML + financial crime
 - **UNODC + Numbeo** for cross-country comparison
 
-### Headline (2024 IIV + Stat.uz data)
+### Headline (2024–2025 IIV + Stat.uz data)
 
-- Uzbekistan registered **132,298 crimes in 2024** (+27.1 % vs 2023; +19.1 % vs 2021) per [UzDaily summary of Stat.uz](https://www.uzdaily.uz/en/the-number-of-crimes-in-uzbekistan-in-2024-exceeded-132000-cases/) — **partly reflecting reporting reform + digitalisation**, not pure crime increase
-- Rate per 10,000: **35.6 nationally (2024)** vs 28.3 (2023) vs 31.8 (2021) per Stat.uz
-- **Tashkent city** highest rate: **104.3 per 10,000** (2024) — urban concentration + reporting accessibility effect
-- **Top growth categories 2024**: drug trafficking +36.8 %, illegal gambling +21.6 %, vehicle theft +8.5 %
+- Uzbekistan registered **132,298 crimes in 2024** (+27.1 % vs 2023; +19.1 % vs 2021) per [UzDaily summary of Stat.uz](https://www.uzdaily.uz/en/the-number-of-crimes-in-uzbekistan-in-2024-exceeded-132000-cases/) and **155,002 in 2025** (+17.2 % vs 2024, computed: 155,002 ÷ 132,298) per the Stat.uz regional series ([CSV](https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_800.csv)) — **partly reflecting reporting reform + digitalisation**, not pure crime increase; the MIA reported 49.6 % of 2025 crimes were committed using digital platforms (Senate review, Daryo 12 Mar 2026)
+- Rate per 10,000: **41.3 nationally (2025**; computed from 412.9 per 100,000 in the MIA report to the Senate, Daryo 12 Mar 2026) vs **35.6 (2024)** vs 28.3 (2023) vs 31.8 (2021) per Stat.uz
+- **Tashkent city** highest rate: **104.3 per 10,000** (2024; 32,106 crimes per Stat.uz) and **94.3 per 10,000 (2025**; computed from 942.6 per 100,000, MIA via Daryo; 30,600 crimes per Stat.uz) — urban concentration + reporting accessibility effect
+- **Top growth categories 2024**: drug trafficking +36.8 %, illegal gambling +21.6 %, vehicle theft +8.5 %; registered drug-related crimes 12,278 (2024) → **15,412 (2025)** per Stat.uz
 - **Tourist-zone safety**: high in Tashkent CBD, Samarkand Registan + tourist zones, Bukhara historic centre; standard urban scam awareness applies (taxi-meter scams, currency-exchange traps in non-bank kiosks)
 - **Expat safety**: no expat-community kidnapping cases are publicly reported (verify against the current U.S. State Dept Uzbekistan Travel Advisory at travel.state.gov); organised crime largely insulated from foreigners; street-crime reports appear to have risen 2022–2025 (per Stat.uz registered-crime categories cited above — partly reflecting reporting reform + digitalisation; verify)
 
@@ -563,7 +563,7 @@ Brand-chain conventions:
 
 ## Section: `--climate`
 
-Universal — see `shared/climate-projections.md`. National sources: **Uzhydromet** ([meteo.uz](https://www.meteo.uz/en)) + UZ UNFCCC National Communications + UNEP Climate Change Atlas Uzbekistan. Key projections: **+1.75–2.25 °C** by 2050; severe glacier loss in Pamir + Tian Shan headwaters; water-deficit growing 2 → 11–13 billion m³ by 2050; Aral basin desertification continuing; Tashkent summer >40 °C days doubling by 2050; **carbon-intensity reduction 35 % by 2030** target (Updated NDC 2021); Carbon Neutrality 2050 strategy under preparation. **Drought + water-scarcity is the dominant climate hazard, not flood**, distinct from many neighbouring countries.
+Universal — see `shared/climate-projections.md`. National sources: **Uzhydromet** ([gov.uz/en/hydromet](https://gov.uz/en/hydromet)) + UZ UNFCCC National Communications + UNEP Atlas of Environmental Change for Uzbekistan (25 Nov 2025). Key projections: **+1.8 °C (SSP2-4.5) to +2.3 °C (SSP5-8.5)** for 2040–2059 (World Bank CCKP API, CMIP6 ensemble median, fetched 2026-10-29 — secondary data portal; 1995–2014 baseline inferred); observed +1.6 °C over six decades (UNEP); severe glacier loss in Pamir + Tian Shan headwaters; water-deficit growing 2 → 11–13 billion m³ by 2050; Aral basin desertification continuing; days above 40 °C (country average) 7 → 19 a year by 2040–2059 under SSP2-4.5 (World Bank CCKP API, secondary data portal); **GHG emissions per unit of GDP −50 % by 2035 vs 2010** (NDC 3.0, Nov 2025, replacing the 2021 target of −35 % by 2030), oriented toward carbon neutrality by 2055. **Drought + water-scarcity is the dominant climate hazard, not flood**, distinct from many neighbouring countries.
 
 ---
 
@@ -693,28 +693,28 @@ Uzbekistan has a **managed-float UZS** since the **2 September 2017 currency lib
 
 | Source | URL pattern |
 |---|---|
-| State Statistics Committee (Stat.uz) | [stat.uz/en](https://stat.uz/en/) |
+| National Committee on Statistics (Stat.uz) | [stat.uz/en](https://stat.uz/en/) |
 | Single portal of public services (my.gov.uz) | [my.gov.uz](https://my.gov.uz/) |
 | Lex.uz legal information system | [lex.uz](https://lex.uz/) |
 | Tax Committee (formerly State Tax Committee / STC) | [gov.uz/en/soliq](https://gov.uz/en/soliq) |
 | Central Bank of Uzbekistan | [cbu.uz/en](https://cbu.uz/en/) |
-| Cadastre Agency | [kadastr.uz/en](https://kadastr.uz/en) |
+| Cadastre Agency | [kadastr.uz/en](https://kadastr.uz/en) (timed out 2026-10-29) · [gov.uz/en/kadastr](https://gov.uz/en/kadastr) |
 | Uybor.uz listings | [uybor.uz/en](https://uybor.uz/en) |
 | OLX.uz listings | [olx.uz](https://www.olx.uz/) |
-| MFA visa info | [mfa.uz](https://www.mfa.uz/) |
+| MFA visa info | [gov.uz/en/mfa](https://gov.uz/en/mfa) |
 | e-Visa portal | [e-visa.gov.uz](https://e-visa.gov.uz/) |
 | IT Park Uzbekistan | [it-park.uz/en](https://www.it-park.uz/en/) |
-| Tashkent Khokimiyat | [tashkent.uz](https://tashkent.uz/) |
-| Tashkent water utility | [toshkent.uzsuv.uz](https://toshkent.uzsuv.uz) |
+| Tashkent Khokimiyat | [tashkent.uz](https://tashkent.uz/) (returned a country block to a non-UZ visitor, 2026-10-29) |
+| Tashkent city water utility (TSST) | [toshkent.uzsuv.uz](https://toshkent.uzsuv.uz) |
 | National Electric Grid of Uzbekistan (electricity) | [uzbekistonmet.uz](https://www.uzbekistonmet.uz/en) |
 | Ministry of Emergency Situations | [gov.uz/en/fvv](https://gov.uz/en/fvv) |
-| Uzhydromet | [meteo.uz/en](https://www.meteo.uz/en) |
+| Uzhydromet (Agency of Hydrometeorological Service) | [gov.uz/en/hydromet](https://gov.uz/en/hydromet) |
 | National Committee on Ecology and Climate Change | [gov.uz/en/eco](https://gov.uz/en/eco) |
-| Ministry of Investments and Foreign Trade | [invest.gov.uz](https://invest.gov.uz/) |
-| Ministry of Foreign Affairs | [mfa.uz](https://www.mfa.uz/) |
-| Ministry of Construction | [gov.uz/en/mc](https://gov.uz/en/mc) |
-| Ministry of Justice (Adliya) | [adliya.uz](https://www.adliya.uz/) |
-| Ministry of Energy | [energy.uz](https://www.energy.uz/) |
+| Investment Promotion Agency (Ministry of Investment, Industry and Trade) | [invest.gov.uz](https://invest.gov.uz/en) |
+| Ministry of Foreign Affairs | [gov.uz/en/mfa](https://gov.uz/en/mfa) |
+| Ministry of Construction and Housing and Communal Services | [gov.uz/en/mc](https://gov.uz/en/mc) |
+| Ministry of Justice (Adliya) | [gov.uz/en/adliya](https://gov.uz/en/adliya) |
+| Ministry of Energy | [gov.uz/en/minenergy](https://gov.uz/en/minenergy) |
 | Ministry of Internal Affairs | [gov.uz/uz/iiv](https://gov.uz/uz/iiv) |
 | Norma legal aggregator | [norma.uz](https://www.norma.uz/) |
 | Tax-legal.uz | [tax-legal.uz/en](https://tax-legal.uz/en/) |
