@@ -390,22 +390,22 @@ What residents do pay annually:
 | **Sandstorms** | Recurrent (esp. shamal winds Mar-Aug) | NCM (National Center of Meteorology) `https://www.ncm.gov.ae/` |
 | **Extreme heat (TX > 45°C)** | Increasing — annual occurrence Jun-Sep | NCM + IPCC AR6 Persian Gulf projections |
 | **Flash floods / drainage failure** | Documented Apr 2024 record event | Dubai Municipality + NCM |
-| **Seismicity** | Generally low; northern emirates closer to active Iranian Zagros fault zone | NCESI (National Centre of Earthquake Studies and Information — under NCM) |
-| **Coastal SLR exposure** | Long-term (decades) for low-lying reclaimed islands | NCCS not formally federal; IPCC AR6 + Climate Central |
+| **Seismicity** | Generally low; northern emirates closer to active Iranian Zagros fault zone | NCM Seismology Department (Seismic Monitoring Section; event map `https://earthquakes.ncm.gov.ae/`) — ncm.gov.ae lists no body called NCESI (checked 2026-10-28) |
+| **Coastal SLR exposure** | Long-term (decades) for low-lying reclaimed islands | IPCC AR6 sea-level projections (see Climate to 2050) + Climate Central (secondary); the earlier "NCCS not formally federal" note cited no source and is withdrawn |
 | **Subsidence** | Some reclaimed/coastal areas anecdotal | No federal cadastre — confirm geotechnical with developer / consultant |
 
 ### April 2024 flood event — what changed
 
-- **Apr 16, 2024**: 254 mm of rain in 48 hrs in parts of UAE — **heaviest rainfall in 75 years of records** (NCM); record loss-of-life event with at least 4 deaths in UAE + 19 in Oman.
-- **Cause** (per Met Office + Newcastle U research, Nature 2025): mesoscale convective system; climate-change attribution increases likelihood ~10–40%.
-- **Reform — Dubai "Tasreef" stormwater plan**: ~AED 30 bn (USD 8 bn), approved Jun 2024 by Sheikh Mohammed bin Rashid; phased to **2033**.
+- **16 Apr 2024**: 254 mm in less than 24 hours at Khatm Al Shakla (Al Ain), in the 24 hours to 9 pm on 16 Apr — the **heaviest rainfall since UAE data collection began in 1949** (NCM statement via WAM, as carried by Gulf News, 17 Apr 2024); at least four deaths in the UAE and at least 20 in Oman (World Weather Attribution, 25 Apr 2024 — secondary).
+- **Cause / attribution** (scientific studies — secondary): World Weather Attribution (25 Apr 2024) finds from observations that the event was 10–40% more intense than it would have been in an El Niño year in a 1.2 °C cooler climate, but says model–observation disagreement prevents concluding with certainty that human-induced climate change was the main driver. The Met Office + Newcastle University study (Davies et al., *Weather and Climate Extremes* vol. 51, Mar 2026 issue, online 11 Dec 2025) traces the rainfall to mesoscale convective systems in a deeply saturated atmosphere and applies the Davies four-stage, three-layered conceptual model — it is not a *Nature* paper and gives no climate-attribution likelihood figure.
+- **Reform — Dubai "Tasreef" stormwater plan**: AED 30 bn (≈ USD 8.2 bn at the 3.6725 peg, computed), approved 24 Jun 2024 by Sheikh Mohammed bin Rashid; drainage capacity +700%, completed in phases by **2033** (Dubai Media Office, 24 Jun 2024). Phase 3: Dubai Municipality awarded AED 3 bn of contracts for about 100 km of main stormwater lines in Jumeirah, Umm Suqeim, Al Safa, Al Manara, Al Quoz, Al Barsha, Al Wasl, Za'abeel, Al Bada'a, Al Satwa and Al Marmoom (Dubai Media Office, 25 Oct 2026).
 - **Neighbourhood project (not emirate-wide)**: AED 277 m sewerage + rainwater drainage network in Nad Al Sheba 3 completed Jun 2025 (2025 data, source Dubai Media Office) — 24 km sewerage + 31 km gravity rainwater network; Dubai Municipality frames it within the Tasreef and sewerage programmes.
 - **Implication for buyers**: low-lying communities (some Mirdif, Al Quoz, Sharjah border areas, IMPZ) experienced multi-day water-logging — verify drainage history with OA + developer.
 
 ### Build-quality / fire risk
 
-- **Cladding fires** historical: Marina Torch (2015), Address Downtown (2015), Sulafa Tower (2016), 23 Marina (2017) — non-compliant ACP cladding.
-- **UAE Fire & Life Safety Code 2017** (UAE Civil Defence) tightened cladding rules; **2018 update** mandated retrofits for non-compliant towers (multiple emirates).
+- **Cladding fires** (press reports — secondary): The Torch, Dubai Marina (Feb 2015, again Aug 2017), The Address Downtown (New Year's Eve 2015 — a senior Dubai Civil Defence officer said its cladding did not meet fire safety standards), Sulafa Tower (Jul 2016), 8 Boulevard Walk, Downtown (Nov 2022). The earlier "23 Marina (2017)" entry is not confirmed by any source found and is dropped.
+- **UAE Fire and Life Safety Code of Practice** (UAE Civil Defence), introduced Jan 2017: aluminium composite panel cladding prohibited and non-combustible cladding required on new buildings; further updates came into effect the following year. Dubai: retrofit is **not** mandatory for buildings built before the code, and existing cladding fitted before the updated standards is legal (Dubai Civil Defence as reported by The National, 24 Jan 2023 — secondary). Sharjah: Sharjah Civil Defence told existing buildings over 23 m to replace their cladding with non-flammable material (2016 orders), and the Ruler approved AED 100 m to re-clad 40 high-risk buildings, with 163 more to follow (Gulf News, 24 Apr 2023 — secondary). The earlier "2018 update mandated retrofits" claim is withdrawn — verify the current rule with the emirate's Civil Defence.
 - Verify cladding certification + fire NOC (Civil Defence) for towers built 2000–2017.
 
 ### Build-era hazards
@@ -416,14 +416,14 @@ What residents do pay annually:
 | **2000–2008 boom** | Rapid construction phase — uneven quality, cladding risk (see above) |
 | **2008–2014 GFC stalled** | Many off-plan projects cancelled or delayed years; verify Title Deed transferred + project completed |
 | **2014–2020** | Modernised codes; better quality |
-| **Post-2020** | UAE Sustainable Building Code + tightened fire/structural standards |
+| **Post-2020** | Tightened fire standards (Fire and Life Safety Code of Practice, Jan 2017 + later updates), Dubai Building Code (approved by the Dubai Executive Council 7 Oct 2020, Dubai Media Office) and emirate green-building rules (e.g. Al Sa'fat – Dubai Green Building System, Dubai Municipality); federal green building codes from the Ministry of Energy and Infrastructure (launched Mar 2022) target government buildings (press — secondary); verify the applicable code with the emirate municipality |
 
 ### Climate to 2050 (IPCC AR6 Persian Gulf)
 
-- +1.5–3.0 °C by 2050 vs 1981–2010 baseline (SSP scenarios)
-- Wet-bulb temperatures projected to approach **35°C survivability threshold** in Persian Gulf summers by 2070+ under high-emissions scenarios (Pal & Eltahir 2015 + IPCC AR6 AR6 WG1)
+- UAE annual mean temperature, 2040–2059, CMIP6 multi-model median anomaly: +1.52 °C (SSP1-2.6), +1.72 °C (SSP2-4.5), +1.83 °C (SSP3-7.0), +2.24 °C (SSP5-8.5); 10th–90th percentile spread from +0.92 °C (SSP1-2.6) to +3.13 °C (SSP5-8.5) (World Bank Climate Change Knowledge Portal API, cmip6-x0.25, fetched 2026-10-28 — secondary data portal). Baseline not stated with the anomaly data: 1995–2014 is inferred (the portal's only historical reference period), not confirmed. The earlier "+1.5–3.0 °C vs 1981–2010" range had no source
+- Extremes of wet-bulb temperature around the Arabian Gulf are likely to approach and exceed the **35 °C survivability threshold** under business-as-usual emissions (Pal & Eltahir, *Nature Climate Change* 6, 197–200, online 26 Oct 2015); the "by 2070+" timing is not stated in the abstract — verify in the paper
 - More extreme rain events (April 2024 type) — drainage capacity planning is now policy priority
-- Sea-level rise: ~30 cm by 2050 (median) → exposure for Palm Jumeirah outer fronds, Yas low-lying, Saadiyat coastal villas — verify elevation vs SLR projection at parcel level
+- Sea-level rise: IPCC AR6 global mean rise by 2050 vs 1995–2014 is a median of 0.18 m (SSP1-1.9) to 0.23 m (SSP5-8.5), likely range 0.15–0.29 m across scenarios (IPCC AR6 data as tabulated by the Hong Kong Observatory); local Gulf values may differ — the earlier "~30 cm by 2050 (median)" was above every scenario median → exposure for Palm Jumeirah outer fronds, Yas low-lying, Saadiyat coastal villas — verify elevation vs SLR projection at parcel level
 
 ### Mandatory diagnostics at sale
 
@@ -436,7 +436,7 @@ What residents do pay annually:
 | **Affection Plan** | Cadastral plot info | Dubai Municipality / equivalent |
 | **Building Completion Certificate** (off-plan completion) | Project legally complete | Master developer |
 | **Fire NOC / Civil Defence certificate** | Cladding + fire compliance | Dubai Civil Defence / MoI General Command of Civil Defence |
-| **DEWA / ADDC clearance** | No outstanding utility bills | DEWA / ADDC |
+| **DEWA / TAQA Distribution clearance** | No outstanding utility bills (DEWA sends the clearance certificate automatically once the final bill is settled) | DEWA / TAQA Distribution (ex-ADDC / AADC) |
 
 (Note: The UAE has no mandatory energy performance certificate equivalent for resale yet; sustainability ratings exist for new builds (DM Green Building, Estidama Pearl) but are not retroactive.)
 
@@ -463,33 +463,33 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | Emirate | Provider |
 |---|---|
 | **Dubai** | **DEWA** (Dubai Electricity & Water Authority) `https://www.dewa.gov.ae/` |
-| **Abu Dhabi** | **ADDC** (Abu Dhabi Distribution Company) `https://www.addc.ae/` |
-| **Al Ain** | **AADC** (Al Ain Distribution Company) |
+| **Abu Dhabi** | **TAQA Distribution** — ADDC (Abu Dhabi Distribution Company) and AADC brought under one brand, operating as a single entity serving customers throughout Abu Dhabi; new brand on bills from Jan 2025 (TAQA via Abu Dhabi Media Office, 16 Sep 2024) `https://taqadistribution.com/` |
+| **Al Ain** | **TAQA Distribution** (formerly AADC, Al Ain Distribution Company — `aadc.ae` redirects to `taqadistribution.com`, checked 2026-10-28) |
 | **Sharjah** | **SEWA** (Sharjah Electricity, Water & Gas Authority) `https://www.sewa.gov.ae/` |
-| **Northern Emirates** (Ajman, RAK, UAQ, Fujairah) | **EtihadWE** (Etihad Water and Electricity — established 2020 by Federal Law No. 31 of 2020, replacing FEWA) `https://etihadwe.ae/en/Pages/default.aspx` |
+| **Northern Emirates** (Ajman, RAK, UAQ, Fujairah) | **EtihadWE** (Etihad Water and Electricity — established 2020 under Federal Decree-Law No. 31 per EtihadWE's About page, earlier cited here as Federal Law No. 31 of 2020; builds on the former Federal Electricity & Water Authority, FEWA) `https://etihadwe.ae/en/Pages/default.aspx` |
 | **District cooling** | **Empower** (Dubai dominant), **Tabreed** (UAE-wide), **Emicool** (Dubai) — separate bill |
 
 ### Verification
 
-1. Pull existing **DEWA / ADDC / SEWA / EtihadWE** account info from seller — confirms active mains + no overdue
+1. Pull existing **DEWA / TAQA Distribution (ex-ADDC / AADC) / SEWA / EtihadWE** account info from seller — confirms active mains + no overdue
 2. Off-plan: confirm developer has utility connection on the master plan (verify NOC at handover)
 3. Some compounds use **TSE (treated sewage effluent)** for landscape irrigation — separate cost line
 4. Rural / undeveloped Northern Emirates plots: may not yet have utility connection; verify with EtihadWE + master developer
 
 ### Tariffs (residential indicative)
 
-- **DEWA**: tiered; first 2,000 kWh/month at AED 0.23/kWh; > 6,000 kWh at AED 0.38/kWh + fuel surcharge (~5–7 fils/kWh) — verify current rate at `https://www.dewa.gov.ae/`
-- **District cooling** (Empower / Tabreed): split into **capacity charge** (fixed, based on contracted RT) + **consumption charge** — typical residential AED 10–18/sqft/year all-in
-- **Housing fee (Dubai)**: 5% of annual rent or RERA rental-equivalent value, billed via DEWA monthly
+- **DEWA** (residential, per month): electricity AED 0.23/kWh for 0–2,000 kWh, 0.28 for 2,001–4,000, 0.32 for 4,001–6,000, 0.38 above 6,000; water AED 7.70/m³ for 0–27 m³, 8.80 for 27–54, 10.12 above 54; plus a fuel surcharge that DEWA publishes monthly (Sep 2026: AED 0.060/kWh and AED 1.100/m³, the same figures in every archived copy checked back to May 2025) and 5% VAT (DEWA slab-tariff page `https://www.dewa.gov.ae/en/consumer/billing/slab-tariff`, Sep 2026 — returns 403 to non-UAE automated requests)
+- **District cooling**: split into a fixed **demand (capacity) charge** per contracted RT + a **consumption charge**. Empower (Dubai): demand charge AED 750 per RT per year billed monthly in advance; consumption AED 0.568 per RT-hour (page wording: "AED 0.568 fils per RT per hour"); meter maintenance AED 50 per quarter or AED 30 per month; 5% VAT (Empower Charges Explanation page, checked 2026-10-28). Tabreed / Emicool rates: verify with the provider. All-in cost per sqft: est. AED 10–18/sqft/year — no published source; depends on contracted RT and usage
+- **Housing fee (Dubai)**: tenants pay 5% of the yearly rent to Dubai Municipality, added to the monthly electricity and water bill (u.ae, checked 2026-10-29); Dubai Municipality also applies it to owned units on the basis of rental value (DM "Adjust Housing Fees" service) — no primary source for how an owner's rental value is set (e.g. RERA index) was found in the Oct 2026 check; verify with Dubai Municipality
 
 ### Costs
 
 | Scenario | Cost |
 |---|---:|
-| Connection (already serviced area) | AED 1,000–3,000 (deposit + activation) |
+| Connection (already serviced area, Dubai) | AED 2,155 flat / AED 4,155 villa = refundable DEWA security deposit AED 2,000 / 4,000 + AED 155 activation (small meters; large meters AED 300 + fees) (DEWA Move-in page, Oct 2026); other emirates: verify with the provider |
 | Off-plan handover utility activation | Often included; verify with developer |
-| Chiller "freeze" between tenants (capacity charge continues) | AED 400–1,500/month |
-| Disconnection / clearance certificate | AED 100–300 |
+| Chiller "freeze" between tenants (capacity charge continues) | Empower: demand charge AED 750 per contracted RT per year, billed monthly by days in the month (≈ AED 62.50 per RT per month, computed) + meter maintenance (AED 50 per quarter or AED 30 per month, depending on location) + 5% VAT, still charged while disconnected — e.g. 6 RT ≈ AED 375 a month + meter maintenance before VAT (computed); voluntary disconnection AED 150 per instance (Empower, checked 2026-10-28); other providers: verify |
+| Disconnection / clearance certificate (Dubai) | DEWA move-out AED 145 (small meters: 125 + 10 knowledge + 10 innovation fee) or AED 320 (large meters: 300 + 20), computed from DEWA's fee list; clearance certificate sent automatically once the final bill is settled (DEWA Move-out page, May 2026) |
 
 ---
 
@@ -509,7 +509,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | **DIFC Will registration** (single) | AED 10,000 |
 | **Holiday Home Permit (DET)** | initial registration AED 1,520; annual permit from ~AED 370/unit |
 | **Service charges (annual)** | AED 3–70 / sqft / yr (tier-dependent) |
-| **District cooling (annual)** | AED 10–18 / sqft / yr (residential) |
+| **District cooling (annual)** | est. AED 10–18 / sqft / yr (residential; no published source — Empower bills AED 750 per contracted RT per year + AED 0.568 per RT-hour, see `--mains`) |
 | **Annual housing fee (Dubai)** | 5% of annual rental value (via DEWA) |
 | **Annual property tax** | **None** |
 | **Total transaction cost (buyer side, Dubai cash secondary)** | **~6–8% of price** (est.: 4% DLD + 2% agent + 5% VAT on the commission + AED 4,200 trustee incl. VAT + AED 520 DLD title-deed, map, knowledge and innovation fees + optional lawyer; assumes the buyer pays the full 4%) |
@@ -604,15 +604,15 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | DLD Open Data | `https://dubailand.gov.ae/en/open-data/` |
 | Dubai REST app (mobile) | `https://dubailand.gov.ae/en/eservices/dubai-rest/` |
 | ADREC | `https://adrec.gov.ae/` |
-| Sharjah Real Estate Registration | `https://www.shjrerd.gov.ae/` |
+| Sharjah Real Estate Registration | `https://www.shjrerd.gov.ae/` ⚠️ timed out from outside the UAE (checked 2026-10-28) |
 | ICP (Federal — visas) | `https://icp.gov.ae/` |
 | GDRFA Dubai | `https://www.gdrfad.gov.ae/` |
 | Federal Tax Authority | `https://tax.gov.ae/` |
 | Ministry of Finance (Corporate Tax) | `https://mof.gov.ae/` |
-| MOEC (consumer protection / real estate regulator) | `https://www.moec.gov.ae/` |
+| MOET — Ministry of Economy and Tourism, formerly MOEC (consumer protection / real estate regulator) | `https://www.moet.gov.ae/en/` (moec.gov.ae redirects here, checked 2026-10-28) |
 | NCM (weather / climate) | `https://www.ncm.gov.ae/` |
-| DEWA | `https://www.dewa.gov.ae/` |
-| ADDC | `https://www.addc.ae/` |
+| DEWA | `https://www.dewa.gov.ae/` ⚠️ returns 403 to non-UAE automated requests (checked 2026-10-28) |
+| TAQA Distribution (ex-ADDC / AADC, Abu Dhabi) | `https://taqadistribution.com/` (addc.ae returns 403 to automated requests; aadc.ae redirects here — checked 2026-10-28) |
 | SEWA | `https://www.sewa.gov.ae/` |
 | EtihadWE (formerly FEWA) | `https://etihadwe.ae/en/Pages/default.aspx` |
 | Dubai Municipality | `https://www.dm.gov.ae/` |
@@ -622,7 +622,7 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 | Dubai Civil Defence (emirate-level; UAE federal body is the MoI General Command of Civil Defence) | `https://www.dcd.gov.ae/` ⚠️ reachable from the UAE only |
 | DIFC Courts Wills Service | `https://www.difccourts.ae/difc-courts-wills/` |
 | ADGM | `https://www.adgm.com/` |
-| DET (holiday home permits, Dubai) | `https://www.dubaidet.gov.ae/` |
+| DET (holiday home permits, Dubai) | `https://www.dubaidet.gov.ae/` ⚠️ returns 403 to non-UAE automated requests (checked 2026-10-28) |
 | Bayut Index | `https://www.bayut.com/index/` |
 | Property Finder | `https://www.propertyfinder.ae/` |
 | Property Monitor | `https://propertymonitor.com/` |
