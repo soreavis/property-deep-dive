@@ -1887,12 +1887,12 @@
     {
       "id": "gh-investor-residence-ghana-investment-promotion-centre",
       "country": "gh",
-      "programme": "Investor Residence (Ghana Investment Promotion Centre)",
+      "programme": "Investor Residence (Ghana Investment Promotion Authority)",
       "status": "OPEN",
-      "min_threshold": "**USD 200,000** equity (joint-venture with Ghanaians) OR **USD 500,000** wholly-foreign",
+      "min_threshold": "No blanket minimum foreign capital since the GIPA Act 2026 (Act 1173, 15 Jul 2026) repealed the Act 865 USD 200,000 / 500,000 floors; a **trading** enterprise needs **USD 500,000** cash equity and at least 75% skilled Ghanaian staff (s.31)",
       "property_linked": "Possibly",
       "pr_citizenship": "Renewable; tied to active business",
-      "caveats": "Standard sectoral framework under GIPC Act 865 (2013); RE alone insufficient",
+      "caveats": "GIPA registration renewed every year (s.34(4)); expatriate quota scales with investment (s.49); RE alone insufficient; verify at `https://gipa.gov.gh/`",
       "region": "Africa"
     },
     {
@@ -1900,7 +1900,7 @@
       "country": "gh",
       "programme": "Permit-A (Quota Permits)",
       "status": "OPEN",
-      "min_threshold": "Per GIPC sector / quota",
+      "min_threshold": "Per GIPA expatriate quota (GIPA Act 2026 s.49: USD 50,000–500,000 invested → 2 expatriates, rising to 12 above USD 10M)",
       "property_linked": "No",
       "pr_citizenship": "Renewable; PR after sustained employment",
       "caveats": "Standard route for skilled employment",
