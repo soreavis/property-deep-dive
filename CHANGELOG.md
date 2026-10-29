@@ -110,6 +110,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(ci): read the playbook date from the Status footer, not the first 'as of' in the file ([#512](https://github.com/soreavis/property-deep-dive/pull/512)) — by @soreavis
 
+- refresh: Tier-A refresh of FR, UK, AT, AE and AU (#423) — about 530 checked changes ([#513](https://github.com/soreavis/property-deep-dive/pull/513)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
