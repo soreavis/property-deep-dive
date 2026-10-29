@@ -106,17 +106,17 @@ National medians 2025 (Statistik Austria, PM 28 May 2026; revised 2024 value in 
 **Very low** compared to W. Europe — residential **~€100–€500/yr est.** (derived from the Einheitswert × Steuermesszahl × Hebesatz formula below; verify on the seller's Grundsteuerbescheid).
 
 ```
-Grundsteuer = Einheitswert × Steuermesszahl × Hebesatz × 1.4 (Bundeszuschlag)
+Grundsteuer = Einheitswert × Steuermesszahl × Hebesatz
 ```
 
-- **Einheitswert**: very outdated valuation (mostly 1973 base) — est. ~5–20 % of market value
-- **Steuermesszahl**: 0.05 % – 0.2 %
-- **Hebesatz**: set by Gemeinde, ~500 % est.
-- **Bundeszuschlag**: factor 1.4
+- **Einheitswert**: very outdated valuation — Grundvermögen is still valued under the BewG 1955 rules in force from 1 Jan 1973 (BGBl 447/1972), raised by a flat 35 vH from 1 Jan 1983 (Art II Abs 1 BGBl 570/1982) — est. ~5–20 % of market value
+- **Steuermesszahl**: 0.05 % – 0.2 % (§ 19 GrStG 1955: 2 v.T. in general; Einfamilienhaus 0.5 v.T. on the first €3,650 and 1 v.T. on the next €7,300 of Einheitswert; Mietwohn- and gemischtgenutzte Grundstücke 1 v.T. then 1.5 v.T. on the first two €3,650 bands)
+- **Hebesatz**: set by the Gemeinde, **at most 500 %** (§ 17 Abs 1 FAG 2024; § 27 GrStG) — the USP worked example uses 500 %
+- **No separate Bundeszuschlag factor**: the 35 vH uplift from 1 Jan 1983 (Art II Abs 1 BGBl 570/1982) is already in the Einheitswert on the Bescheid; the bill is Einheitswert × Steuermesszahl = Messbetrag, × Hebesatz (USP example: €50 × 500 % = €250/yr)
 
 ### Reform pending
 
-Long-debated Grundsteuerreform — multiple political parties want full revaluation. As of 2026: **not yet enacted**.
+Long-debated Grundsteuerreform (revaluation of the Einheitswerte). As of 28 Oct 2026: **not enacted** — the GrStG 1955 was last amended by BGBl I 135/2024 and the 500 % Hebesatz cap in § 17 Abs 1 FAG 2024 is unchanged (RIS consolidated versions of 28 Oct 2026).
 
 ### Transaction taxes — Grunderwerbsteuer (GrESt)
 
@@ -143,27 +143,27 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 
 ### Notarkosten / Anwaltskosten
 
-- 1.0–2.5 % typical (regulated by RATG)
+- About 1–3 % of the price for contract drafting and the Grundbuch filing, set by the fee schedules of the respective chambers; a flat fee can be agreed (oesterreich.gv.at, BMJ, last update 1 Aug 2026). Notaries' statutory tariff is the Notariatstarifgesetz (NTG)
 
 ### Maklerprovision
 
-- Typically 3 % buyer + 3 % seller (excl. VAT 20 %); since 1 Sep 2023, **Bestellerprinzip** in residential — usually paid by who hired
+- Purchase: capped at **3 %** of the price for prices above €48,448.51 (4 % up to €36,336.42; €1,453.46 in between), plus 20 % USt; the broker may charge both buyer and seller up to that cap each, and if no commission is agreed with the other side the one agreed may exceed the cap by up to 100 %, but not a commission agreed with the Wohnungssuchender (buyer) of a Wohnung or Einfamilienhaus (§§ 12 Abs 1–3, 15 Abs 2 Immobilienmakler-Verordnung; oesterreich.gv.at). The **Bestellerprinzip** (since **1 Jul 2023**, § 17a MaklerG, BGBl I 24/2023) covers residential **rental** contracts only — whoever first commissions the broker pays; it does not apply to purchases
 
 ### Total transaction cost (buyer side)
 
-- 3.5 % GrESt + 1.1 % Eintragung + 1.0–2.5 % Notar + 3.6 % Makler = **~9–11 %**
+- 3.5 % GrESt + 1.1 % Eintragung + 1–3 % Notar/Anwalt + 3.6 % Makler (3 % + 20 % USt) = **~9.2–11.2 %** (computed); add 1.2 % of the registered Pfandrecht if mortgage-financed (TP 9 lit b Z 4 GGG)
 
 ### VAT (USt.)
 
 - 20 % standard
 - 10 % reduced (food, books, residential rent)
-- New residential property: 20 %; existing: exempt
+- Sale of land and buildings, new or existing: VAT-exempt (§ 6 Abs 1 Z 9 lit a UStG), but a business seller (e.g. a developer) may opt to charge 20 % (§ 6 Abs 2) — check whether the price is quoted 'zzgl. USt'; there is no automatic 20 % rate on new builds
 
 ### Future risk
 
-- **Grundsteuerreform** likely 2026–2028 — could 5–10× annual bills for properties with low Einheitswert
+- **Grundsteuerreform**: not enacted as of 28 Oct 2026 (see Reform pending above); a re-basing of the 1973-based Einheitswerte would raise bills most where the Einheitswert lags market value furthest — the size depends on the bill, so do not assume a multiple (the earlier '5–10×' had no source)
 - **Erbschaftsteuer** abolished 2008, but periodic political resurfacing of reintroduction debate
-- **Wegzugsbesteuerung** for emigrants
+- **Wegzugsbesteuerung** for emigrants (§ 27 Abs 6 Z 1 EStG) covers capital assets, derivatives and crypto — not privately held Austrian real estate, which stays taxable in Austria when sold (beschränkte Steuerpflicht, § 98 Abs 1 Z 7 EStG)
 
 ---
 
@@ -172,35 +172,35 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 ### Long-term residential — MRG categories
 
 **Mietrechtsgesetz (MRG)** divides rentals:
-- **Vollanwendung** (full application): pre-1953 buildings, Genossenschaftswohnungen, Gemeindewohnungen → strict rent control + protection
-- **Teilanwendung** (partial): post-1953 mostly → indexed rent, max-rent rules
-- **Nichtanwendung** (no application): Eigentumswohnungen, single-family homes → free market
+- **Vollanwendung** (full application): rented flats in buildings built under a Baubewilligung before 1 Jul 1953 and in post-1953 buildings erected with public funds (e.g. many Gemeindewohnungen), unless a Teil- or Nichtanwendung case below applies (e.g. Eigentumswohnungen in buildings permitted after 8 May 1945, later Dachboden or Zubau units) → Richtwert / Kategorie rent caps (§ 16) + Kündigungsschutz. Genossenschafts- (GBV-) Wohnungen: the MRG applies only as § 20 WGG provides (§ 1 Abs 3 MRG)
+- **Teilanwendung** (partial, § 1 Abs 4 MRG): buildings built without public funds under a Baubewilligung after 30 Jun 1953, Dachboden conversions permitted after 31 Dec 2001, Zubauten permitted after 30 Sep 2006, and Eigentumswohnungen in buildings permitted after 8 May 1945 → only §§ 14, 16b, 29–36, 45, 46, 49 apply: Kündigungsschutz, Befristung and Kaution rules, but **no rent cap** (free rent; index clauses capped by the MieWeG below)
+- **Nichtanwendung** (§ 1 Abs 2 MRG): buildings with no more than two independent units (Ein-/Zweifamilienhäuser; later Dachboden units not counted), Beherbergung, Dienstwohnungen, holiday second homes, and fixed lets of up to six months of a category A/B flat as a work-related second home → ABGB only, free market. Eigentumswohnungen are **not** exempt as such — outside the cases above they fall under Voll- or Teilanwendung by permit date
 
 ### Vienna-specific (most regulated)
 
 - **Wiener Wohnen** (Gemeindewohnungen): about 220,000 Gemeindewohnungen ("rund 220.000"), home to about 500,000 people, regulated rent (source Wiener Wohnen 'Über uns', read 2026-10-28)
 - **Average rents** (Statistik Austria Mikrozensus, Hauptmietwohnungen, rents paid by tenant households under contracts of all ages, not asking rents): **€10.5/m²** incl. Betriebskosten in Q2 2026 (+3.3 % YoY; €7.9/m² net of Betriebskosten). Net rent by segment, Q2 2026: private Altbau (pre-1945) €8.5, private post-1945 €10.7, Genossenschaft €6.5, Gemeindewohnung €5.7 per m². 2025 incl. Betriebskosten by Bundesland: Salzburg 12.2 · Tirol 12.0 · Vorarlberg 11.8 · Wien 10.6 · Steiermark 9.8 · Oberösterreich 9.3 · Niederösterreich 9.2 · Kärnten 8.1 · Burgenland 7.7 €/m²; contracts under 2 years €12.4/m² vs €6.5/m² for 30+ years (2025/2026 data, sources Statistik Austria PM 8 Sep 2026, PM 10 Jun 2026 and Wohnkosten Mikrozensus table)
 - **Genossenschaft** (cooperative): regulated rent + Eigenmittel
-- **Privatmarkt** Vollanwendung: Richtwertmietzins per Bundesland, max +25 % zone bonus
-- **2026 Richtwert Wien: €6.74/m²** (from €6.67, ~+1 % valorization eff. 1 Apr 2026), max +25 % zone bonus. **Mieten-Wertsicherungsgesetz (MieWeG), in force 1 Jan 2026** (via 5. Mietrechtliches Inflationslinderungsgesetz, 5. MILG): caps existing contractual Wertsicherungsklauseln (creates no adjustment right of its own) — regulated MRG rents capped at **1 % (2026), 2 % (2027)**; from 2028, index-linked residential contracts in multi-unit buildings incl. free-market rents pass on only half of any inflation portion above 3 % (e.g. 4.5 % inflation → max 3.75 %); adjustment once/yr, earliest 1 April (Richtwert increases effective 1 May). Excludes Ein-/Zweifamilienhäuser and WGG/Genossenschaft rents (own regime). (2026-07-03 verified)
+- **Privatmarkt** Vollanwendung: Richtwertmietzins per Bundesland (§ 16 Abs 2 MRG) plus or minus Zu- und Abschläge; the **Lagezuschlag** is not a fixed percentage — up to 0.33 vH per m² and month of the difference in Grundkostenanteil, only for an above-average Lage disclosed in writing at signing (§ 16 Abs 3–4); fixed-term leases: maximum rent **−25 %** (Befristungsabschlag, § 16 Abs 7)
+- **2026 Richtwert Wien: €6.74/m²** (from €6.67; +1 %, the statutory cap for 1 Apr 2026, § 5 Abs 2 RichtWG; Statistik Austria publication, effective 1 Apr 2026); Lagezuschlag and Befristungsabschlag as above — no fixed % zone bonus. **Mieten-Wertsicherungsgesetz (MieWeG, BGBl I 114/2025), in force 1 Jan 2026** (via 5. Mietrechtliches Inflationslinderungsgesetz, 5. MILG): caps contractual Wertsicherungsklauseln in residential leases under the MRG incl. Teilanwendung (§ 1 Abs 1) — adjustments only on 1 April, by the prior year's average CPI change, with any part above 3 % passed on only by half (e.g. 4.5 % inflation → max 3.75 %, computed: 3 + 1.5 ÷ 2), for increases from 1 Jan 2026 (§ 1 Abs 2 Z 1, § 4 Abs 2) — this already covers free-market (Teilanwendung) rents; leases under MRG rent caps additionally count 2025 CPI at most 1 % and 2026 CPI at most 2 % (§ 1 Abs 3), and the Richtwerte rise at most 1 % on 1 Apr 2026 and 2 % on 1 Apr 2027, with the half-above-3 % rule from 1 Apr 2028 (§ 5 Abs 2 RichtWG). The new Richtwert itself takes effect on 1 Apr 2026, not 1 May; under a Vollanwendung (MRG rent-cap) lease with a Wertsicherung clause the raised rent is owed only from the Zinstermin after the index change, on a written request at least 14 days before (§ 16 Abs 9 MRG) — with the default Zinstermin on the 5th of the month (§ 15 Abs 3 MRG) that is 5 May 2026 at the earliest (computed). Excludes Ein-/Zweifamilienhäuser (outside the MRG, § 1 Abs 2 Z 5) and WGG/Genossenschaft rents (own regime — not re-verified 2026-10-28). (2026-10-28 verified, RIS MieWeG + RichtWG § 5 + MRG § 16 + Statistik Austria)
 
 ### Short-term rentals (Ferienwohnung / Airbnb)
 
 **Wien**:
-- **Wiener Bauordnungsnovelle 2023** (short-let limits city-wide from 1 Jul 2024): max 90 days per calendar year for temporary short-let of a dwelling without giving up one's residence (legal persons cannot use the 90-day allowance); above that, outside a Wohnzone only with an Ausnahmebewilligung under § 129 Abs 1a BO limited to five years, inside a Wohnzone only as a Beherbergungsstätte after an Umwidmung under § 7a Abs 5 BO (2026 data, source MA 37 Merkblatt Kurzzeitvermietung + Stadt Wien press release 2026-09-19); registration number from 1 Jan 2027 under the Wiener register law passed by the Landtag on 20 Oct 2026 (not yet in the LGBl as of 2026-10-21 — see STR-VO note below); the same law narrows the 90-day allowance to one dwelling per host (MA 37 Merkblatt, Stand Oct 2026)
+- **Wiener Bauordnungsnovelle 2023** (short-let limits city-wide from 1 Jul 2024): max 90 days per calendar year for temporary short-let of a dwelling without giving up one's residence (legal persons cannot use the 90-day allowance); above that, outside a Wohnzone only with an Ausnahmebewilligung under § 129 Abs 1a BO limited to five years, inside a Wohnzone only as a Beherbergungsstätte after an Umwidmung under § 7a Abs 5 BO (2026 data, source MA 37 Merkblatt Kurzzeitvermietung + Stadt Wien press release 2026-09-19); registration number from 1 Jan 2027 under the Wiener register law passed by the Landtag on 20 Oct 2026 (not yet in the LGBl as of 2026-10-28 — see STR-VO note below); the same law narrows the 90-day allowance to one dwelling per host (MA 37 Merkblatt, Stand Oct 2026)
 - WEG approval typically required
 - Penalty: up to €50,000 (§ 135 Abs 1 BO); each repeated short-let offence at least €2,000 under the 20 Oct 2026 amendment (MA 37 Merkblatt, Stand Oct 2026 — not yet in the RIS consolidated text)
 
-**Salzburg, Innsbruck**: similar restrictions
+**Salzburg (whole Land)**: using an existing Wohnung for touristische Beherbergung is a Zweckentfremdung (change of use) that needs a Bewilligung (§ 31b Abs 1 ROG 2009), except in designated Zweitwohnungsgebiete, pre-1973 Apartmentbauten, farm dwellings, Privatzimmervermietung and flats demonstrably already let to tourists before 1 Jan 2018 where that was lawful (§ 31b Abs 2). **Tirol / Innsbruck**: a Wohnung used only temporarily for holidays is a Freizeitwohnsitz (restricted, see caveats) unless it is a Gastgewerbebetrieb, Privatzimmervermietung or a small Ferienwohnung building (max three Wohnungen / twelve beds; for buildings permitted after 1 Feb 1996 only if the landlord has the Hauptwohnsitz there) (§ 13 Abs 1 TROG 2022). (2026-10-28 verified, RIS konsolidiertes Landesrecht)
 
-**EU 2024/1028 (STR-VO)**: opt-in in Austria — the Wirtschaftsministerium (BMWET) says each Bundesland decides whether and from when the STR-VO applies; **Tirol and Wien** are expected ("voraussichtlich") to create the legal, organisational and technical prerequisites and start implementation **during Q1 2027**, with host registration and platform data duties there from a date still to be set; BMWET names no Land where it already applies and is building the Single Digital Entry Point; no national STR registration-number regime. Substantive rules (Gewerbeordnung, Privatzimmervermietung, Raumordnung) stay untouched by the regulation in every Land. **Wien — law passed, not yet gazetted**: the Wiener Landtag passed on **20 Oct 2026** (SPÖ, NEOS, FPÖ and Grüne for, ÖVP against; no Begutachtung) the law amending the Bauordnung für Wien and setting up a Wiener Register für Kurzzeitvermietungen (announced 19 Sep 2026 as the WKVRG); no LGBl Wien publication on RIS as of 2026-10-21. Per Stadt Wien: register law in force **1 Jan 2027**; listings already online have until the **end of March 2027**; every unit registered separately and the number shown in every platform listing, even below 90 days; platforms must spot-check registrations, remove impermissible listings and pass information to the Magistrat; fines up to €50,000 per violation of the register law. Bauordnung side: each repeated short-let offence at least €2,000 (MA 37 Merkblatt, Stand Oct 2026); new § 7g BO — conversions into Beherbergungsstätten anywhere in Wien need at least 80 % of the building's Nutzflächen to stay residential, at least three Zimmereinheiten close together and a separate street entrance (only classic hotels exempt), applied to applications filed from 11 Oct 2026 (sources [Rathauskorrespondenz 2026-10-20](https://presse.wien.gv.at/presse/2026/10/20/15-wiener-landtag-14) + [Stadt Wien OTS 2026-10-20](https://www.ots.at/presseaussendung/OTS_20261020_OTS0019/verschaerftes-regulativ-fuer-kurzzeitvermietung-in-wien-stadt-wien-sichert-wohnraum-nachhaltig-ab); final wording to be checked in the LGBl). (2026-10-21 verified; source [BMWET STR-VO](https://www.bmwet.gv.at/Themen/Tourismus/kurzzeitvermietung.html))
+**EU 2024/1028 (STR-VO)**: opt-in in Austria — the Wirtschaftsministerium (BMWET) says each Bundesland decides whether and from when the STR-VO applies; **Tirol and Wien** are expected ("voraussichtlich") to create the legal, organisational and technical prerequisites and start implementation **during Q1 2027**, with host registration and platform data duties there from a date still to be set; BMWET names no Land where it already applies and is building the Single Digital Entry Point; no national STR registration-number regime. Substantive rules (Gewerbeordnung, Privatzimmervermietung, Raumordnung) stay untouched by the regulation in every Land. **Wien — law passed, not yet gazetted**: the Wiener Landtag passed on **20 Oct 2026** (SPÖ, NEOS, FPÖ and Grüne for, ÖVP against; no Begutachtung) the law amending the Bauordnung für Wien and setting up a Wiener Register für Kurzzeitvermietungen (announced 19 Sep 2026 as the WKVRG); no LGBl Wien publication on RIS as of 2026-10-28 (latest LGBl Wien: No 38/2026 of 21 Oct 2026). Per Stadt Wien: register law in force **1 Jan 2027**; listings already online have until the **end of March 2027**; every unit registered separately and the number shown in every platform listing, even below 90 days; platforms must spot-check registrations, remove impermissible listings and pass information to the Magistrat; fines up to €50,000 per violation of the register law. Bauordnung side: each repeated short-let offence at least €2,000 (MA 37 Merkblatt, Stand Oct 2026); new § 7g BO — conversions into Beherbergungsstätten anywhere in Wien need at least 80 % of the building's Nutzflächen to stay residential, at least three Zimmereinheiten close together and a separate street entrance (only classic hotels exempt), applied to applications filed from 11 Oct 2026 (sources [Rathauskorrespondenz 2026-10-20](https://presse.wien.gv.at/presse/2026/10/20/15-wiener-landtag-14) + [Stadt Wien OTS 2026-10-20](https://www.ots.at/presseaussendung/OTS_20261020_OTS0019/verschaerftes-regulativ-fuer-kurzzeitvermietung-in-wien-stadt-wien-sichert-wohnraum-nachhaltig-ab); final wording to be checked in the LGBl). (2026-10-21 verified; source [BMWET STR-VO](https://www.bmwet.gv.at/Themen/Tourismus/kurzzeitvermietung.html))
 
 ### Tax treatment
 
 - **§ 28 EStG (Vermietung & Verpachtung)** for non-commercial private rental
-- **Gewerbliche Vermietung**: Gewerbesteuer + Sozialversicherung (SVS) if hotel-style services
-- VAT: 10 % reduced for short-stay accommodation
-- **Tourismusabgabe**: per night, set by Gemeinde (Wien ~€3.50/night/person)
+- **Gewerbliche Vermietung**: depending on the type of letting (e.g. hotel-style services), the income is Einkünfte aus Gewerbebetrieb instead of V&V (oesterreich.gv.at, updated 31 Aug 2026; the BMF treats tourist short-term platform letting as V&V 'grundsätzlich'); a Gewerbeberechtigung brings Wirtschaftskammer membership and GSVG insurance via the SVS (§ 2 Abs 1 Z 1 GSVG). Austria levies no Gewerbesteuer — the Gewerbesteuergesetz 1953 is not in force (RIS)
+- VAT: 10 % reduced for short-stay accommodation (Beherbergung, § 10 Abs 2 Z 3 lit c UStG; residential long lets also 10 %, lit a); Kleinunternehmer turnover limit €55,000 (§ 6 Abs 1 Z 27 UStG)
+- **Ortstaxe / Nächtigungsabgabe**: per stay, under each Land's tourism law (rates vary). **Wien**: Ortstaxe as a % of the accommodation charge excl. USt and breakfast (§ 12 WTFG) — 3.2 % until 30 Jun 2026, **5 % from 1 Jul 2026**, **8 % from 1 Jul 2027** (§ 14 WTFG as amended by LGBl 2/2026; RIS 2026-10-28) — not a flat per-night amount
 
 ---
 
@@ -339,11 +339,11 @@ Austria's **HORA** is a free, all-hazards-in-one-place natural-hazard portal (EU
 | Work | Cost (€, est. 2026) |
 |---|---:|
 | Energieausweis | ~250–600 |
-| Notar / Anwalt | 1.0–2.5 % of price |
+| Notar / Anwalt | 1–3 % of price (oesterreich.gv.at) |
 | Grunderwerbsteuer | 3.5 % |
 | Eintragungsgebühr Grundbuch | 1.1 % |
 | Maklerprovision (3 % each side excl. VAT) | ~3.6 % typical |
-| **Total transaction cost** | **9–11 %** of price |
+| **Total transaction cost** | **~9.2–11.2 %** of price (computed from the rows above; +1.2 % of the Pfandrecht if financed) |
 | Lawinenverbauung repair (alpine specific) | varies |
 | Asbestsanierung (small house) | ~15,000–60,000 |
 | Energetische Sanierung Klasse C → A | ~50,000–120,000 |
@@ -354,12 +354,12 @@ Austria's **HORA** is a free, all-hazards-in-one-place natural-hazard portal (EU
 
 ## Active fiscal incentives (2025-2026)
 
-- **Sanierungsoffensive 2024–2030** (federal + Bundesländer): up to ~€15,000 est. for fossil → renewable heating (verify current cap at umweltfoerderung.at)
+- **Sanierungsoffensive** (federal, run by KPC; annual programme): the 2026 budget ran out on 10 Jul 2026 and the Sanierungsbonus (thermal renovation) is closed; a re-launched **Kesseltausch 2026** for Ein-/Zweifamilien- and Reihenhäuser takes registrations from 2 Nov to 31 Dec 2026 (works from 7 Oct 2026) with maximum grants of **€4,000** (Nah-/Fernwärme), **€5,000** (Wärmepumpe) and **€6,000** (Holzzentralheizung), plus €2,500 for solar thermal and €5,000 for a deep borehole or well with a brine- or water-source heat pump (Infoblatt Version 10/2026); the programme continues in 2027 with applications from 4 Jan 2027 and Kesseltausch amounts unchanged (sanierungsoffensive.gv.at). Länder run their own grants — verify per Bundesland
 - **Wohnbauförderung** (per Bundesland) — varies massively
-- **Sonder-AfA** for new Mietwohnungen
-- **Klimaticket Effizienzhaus** subsidy
-- **Investitionsfreibetrag (IFB)**: 10 % deduction for retrofit
-- **Erneuerbare-Wärme-Gesetz (EWG)** from 2024: oil/gas heating bans phasing in
+- **Beschleunigte AfA für Wohngebäude**: let residential buildings completed 1 Jan 2024 – 31 Dec 2026 that meet at least klimaaktiv 'Gebäudestandard Bronze' may deduct up to 3× the 1.5 % AfA (= 4.5 %) in the first year and the two following years — after a purchase only if the seller had not yet used the building to earn income (§ 124b Z 451 EStG); other buildings acquired or built after 30 Jun 2020: up to 3× in year one and 2× in year two (§ 16 Abs 1 Z 8 lit e EStG)
+- **Öko-Zuschlag** (extra 15 % deduction for thermal renovation or replacing fossil heating in let residential buildings, § 124b Z 452 EStG) — EXPIRED for V&V landlords: it covered only costs incurred in 2024 and 2025; for business income only the first fiscal year starting after 31 Dec 2023 and the next one
+- **Investitionsfreibetrag (IFB, § 11 EStG)**: 10 % (15 % for ökologische investments) of acquisition costs — raised to 20 % / 22 % for costs falling between 1 Nov 2025 and 31 Dec 2026 (§ 124b Z 480 EStG) — for business income only (not V&V letting); buildings are excluded (§ 11 Abs 3 Z 2) except heat pumps, biomass boilers, district-heating transfer stations and micro-grids for buildings — not a general retrofit deduction for private landlords
+- **Erneuerbare-Wärme-Gesetz (EWG, BGBl I 8/2024)**: in force since the day after its publication, bans installing heating systems that can run on fossil fuels — and connections to non-quality-assured district heat — in **new buildings** only (§ 3 Abs 1); it replaced the Ölkesseleinbauverbotsgesetz 2019 (§ 6 Abs 1) and sets no phase-out for existing oil or gas heating
 
 ## Common listing platforms
 
@@ -377,12 +377,13 @@ Austria's **HORA** is a free, all-hazards-in-one-place natural-hazard portal (EU
 - **Naturschutz** restrictions on alpine constructions — strict
 - **MRG categories** make rental investment math depend heavily on building age
 - **Mietkauf** model (rent-to-own via Genossenschaft) common
+- **Mortgage lending rules (`--finance`)**: the binding KIM-Verordnung caps expired on **30 Jun 2025**; the FMA WIK-Rundschreiben (26 Jun 2025) keeps max **90 % Beleihungsquote**, max **40 %** of annual net income as debt service and max **35-year** term as the standard, but banks may now deviate where lending stays solid (FMA). FMSG monitoring of loans outside these criteria: see shared/regulatory-watch.md (AT finance entry; no FMSG press release after the 50th session of 14 Sep 2026 as of 2026-10-28)
 - **HORA portal is free, all-hazards-in-one-place, with a HORA-Pass for any location** — use it as the first screen, not the single source of truth: BMLUK calls it a complement to the parcel-sharp Gefahrenzonenpläne, so also check the Gemeinde's Gefahrenzonenplan and the WISA RMP2027 flood maps
 - **Erbenermittlung** can stall purchases for months if Grundbuch unclear
 - **Bauernhof** (farm) special restrictions; Anerbenrecht
-- **Schenkungsmeldegesetz** since 2008 — mandatory disclosure for gifts
+- **Schenkungsmeldepflicht** (§ 121a BAO as introduced by BGBl I 85/2008, for gifts after 31 Jul 2008): gifts of cash, receivables, shares, businesses, movables and intangibles must be notified to the Finanzamt (exempt up to €50,000 a year between relatives, €15,000 within five years otherwise); land is not on the list — a gift of land falls under the GrESt Stufentarif instead (see `--tax`)
 - **Tourismusabgabe** per Gemeinde — affects rental margins
-- **Lex Koller-style** restrictions in some Bundesländer
+- **Grundverkehr** approval for non-EU/EEA buyers in some Bundesländer (esp. Tirol, Salzburg, Vorarlberg) — see Ausländergrunderwerb above; an approval regime, not a quota
 - **Almhütten** + **Bauernhöfe** subject to special rural property law
 
 ## Reddit / forum sources
@@ -419,7 +420,7 @@ Austria's **HORA** is a free, all-hazards-in-one-place natural-hazard portal (EU
 - **Schillingbescheid**: legacy 1995 property tax base in some files
 - **Grundverkehr** restrictions in Tirol/Salzburg/Vorarlberg — approval (Genehmigungspflicht), not a quota
 - **Pflegeregress** (since 2018, abolished — but check older estates)
-- **Anerbenrecht**: peasant inheritance rules in Tirol, Salzburg, Kärnten
+- **Anerbenrecht**: the federal Anerbengesetz governs inheritance of Erbhöfe in every Land except Kärnten and Tirol (§ 21 AnerbenG), which have the Kärntner Erbhöfegesetz 1990 and the Tiroler Höfegesetz
 
 ## Source URL templates
 
