@@ -23,40 +23,46 @@ ISO2: `au`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Primary sources
 
-- **CoreLogic (Cotality) Indices**: `https://www.corelogic.com.au/our-data/corelogic-indices` — daily HPI per region
-- **ABS Residential Property Price Indexes** (cat 6432.0): `https://www.abs.gov.au/`
-- **Domain HPI**: quarterly + monthly
-- **REIA Real Estate Market Facts**: `https://www.reia.com.au/`
-- **CMP (CoreLogic Property Reports)** — paid
+- **Cotality (formerly CoreLogic) Home Value Index**: `https://www.cotality.com/au/our-data/indices` (the old corelogic.com.au URL redirects here) — daily index for the major capitals and the combined capitals (Canberra, Hobart, Darwin in the monthly series only); monthly HVI report, e.g. the Oct 2026 edition with data to 30 Sep released 1 Oct 2026; hedonic, revised for 12 months — secondary aggregator
+- **ABS Total Value of Dwellings** (quarterly; cat. 6432.0 per its table files): `https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/total-value-dwellings/latest-release` — mean dwelling price by state and median transfer prices by capital city and rest of state; successor to the **Residential Property Price Indexes: Eight Capital Cities** (cat. 6416.0), which ceased with the Dec qtr 2021 issue; latest Jun qtr 2026 (released 8 Sep 2026), next Sep qtr 2026 on 1 Dec 2026
+- **Domain House Price Report**: quarterly (`https://www.domain.com.au/research/house-price-report/`; the site blocks scripted access, contents not read on 2026-10-28; no monthly Domain price series confirmed) — listing-platform data, secondary
+- **REIA Real Estate Market Facts (REMF)**: `https://www.reia.com.au/research/remf` — quarterly report on residential markets across major cities; Sep qtr 2026 edition due 16 Dec 2026; underlying data sold separately
+- **Cotality Property Reports** (formerly CoreLogic) — paid, per property or suburb: `https://www.cotality.com/au/products/property-report`
+- **NSW Rent and Sales Report** (NSW Department of Communities and Justice): `https://dcj.nsw.gov.au/about-us/families-and-communities-statistics/housing-rent-and-sales/rent-and-sales-report.html` — sales tables (latest Mar qtr 2026) and new-bond rent tables (latest Jun qtr 2026) (primary, NSW only)
 
 ### Listing platforms
 
-- **realestate.com.au** — DOMINANT (REA Group, ~4.4M monthly): `https://www.realestate.com.au`
-- **Domain.com.au** — #2 (Nine Entertainment): `https://www.domain.com.au`
+- **realestate.com.au** — DOMINANT (REA Group): reached 11.8 million Australians in Aug 2026, 4.4 million more than its nearest competitor, #1 portal in every state and territory (REA Group release of 14 Oct 2026 citing Ipsos iris — the platform's own claim; Ipsos iris trend break from Jul 2026): `https://www.realestate.com.au`
+- **Domain.com.au** — #2; owned by **CoStar Group** since 27 Aug 2025 (no longer Nine Entertainment), 'an average of 7 million Australians each month' per CoStar's completion release (Aug 2025, platform owner's claim — figures may have changed since): `https://www.domain.com.au`
 - Coverage near-universal across both
 
-### 2026 price benchmarks (CoreLogic/Cotality + ABS, early 2026 — STALE, refresh pending)
+### Price benchmarks — ABS (Jun qtr 2026) and Cotality (30 Sep 2026)
 
-*(YoY column is stale: May 2026 Cotality HVI has national values flat at 0.0% MoM — Sydney -0.9% / Melbourne -0.8% MoM, 2.1% / 3.2% below their Nov-2025 peaks; annual growth spread Perth +25.8% vs Melbourne +0.5%. Combined-dwelling medians (May 2026, Cotality HVI): Sydney $1.28M, Melbourne $813k, Brisbane $1.13M, Perth $1.05M — house/unit split medians below need a dedicated `--price` refresh from a Cotality house/unit source. 2026-07-03 verified, source [Cotality HVI May 2026](https://discover.cotality.com/hubfs/Article-Reports/COTALITY%20HVI%20JUNE%202026%20FINAL.pdf))*
+| Capital (Greater Capital City) | ABS established house median, Jun qtr 2026 | ABS attached dwelling median, Jun qtr 2026 | Cotality house median value, 30 Sep 2026 | Cotality unit median value, 30 Sep 2026 | Cotality annual change, dwellings |
+|---|---:|---:|---:|---:|---:|
+| **Sydney** | $1,487,600 | $840,000 | $1,466,060 | $867,597 | -7.0% |
+| **Melbourne** | $850,000 | $590,000 | $915,119 | $624,740 | -6.2% |
+| **Brisbane** | $1,155,000 | $830,100 | $1,146,078 | $834,627 | +5.9% |
+| **Adelaide** | $975,000 | $725,000 | $990,531 | $674,188 | +6.5% |
+| **Perth** | $1,010,000 | $730,000 | $1,017,734 | $714,265 | +10.1% |
+| **Hobart** | $750,000 | $600,000 | $790,406 | $591,795 | +7.0% |
+| **Darwin** | $752,500 | $445,500 | $747,252 | $480,748 | +11.9% |
+| **Canberra** | $1,030,000 | $615,000 | $1,006,269 | $582,245 | -1.6% |
+| **Combined regional** | — | — | $775,024 | $669,770 | +5.6% |
+| **National** | — | — | $979,193 | $727,818 | 0.0% |
 
-| Region | House median | Unit median | YoY |
-|---|---:|---:|---:|
-| **Sydney** | $1.41M | $865k | +3.2% |
-| **Melbourne** | $977k | $603k | -0.6% |
-| **Brisbane** | $1.18M | $845k | +6.5% |
-| **Adelaide** | $830k | $552k | +5.0% |
-| **Perth** | $880k | $540k | +18.3% |
-| **Hobart** | $710k | $545k | +1.5% |
-| **Darwin** | $620k | $440k | +1.0% |
-| **Canberra** | $1.04M | $635k | -1.0% |
-| **Combined regional** | $635k | — | +5.5% |
+(ABS columns: [Total Value of Dwellings, Jun qtr 2026, Table 2](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/total-value-dwellings/jun-quarter-2026/643202.xlsx) — unstratified medians of established house and attached dwelling transfers by Greater Capital City, released 8 Sep 2026; current-quarter figures are preliminary and revised in later releases; ABS publishes rest-of-state medians per state but no combined regional figure. Cotality columns: [Home Value Index, Oct 2026](https://discover.cotality.com/hubfs/Article-Reports/COTALITY%20HVI%20OCT%202026%20FINAL.pdf) — hedonic modelled median values as at 30 Sep 2026, secondary aggregator, revised for 12 months. Sources disagree because they differ in date (Jun qtr vs 30 Sep), method (median of recorded transfers vs hedonic model) and dwelling split (ABS 'attached dwellings' vs Cotality 'units'); neither values a specific property.)
+
+- **Direction (Cotality, secondary)**: national values -1.1% in Sep 2026, the sixth straight monthly fall, 5.2% below the Mar 2026 peak; Sydney 8.6% below its Feb 2026 peak; Jul–Sep quarter Sydney -4.9%, Melbourne -3.4%, Brisbane and Perth -4.7%; combined regionals +5.6% over the year vs combined capitals -1.8% (Cotality HVI, 1 Oct 2026)
+- **ABS annual change, established houses, Jun qtr 2026 vs Jun qtr 2025** (computed from the ABS medians, Jun qtr 2026 preliminary): Sydney -2.1%, Melbourne +1.2%, Brisbane +18.8%, Adelaide +13.2%, Perth +18.8%, Hobart +4.9%, Darwin +21.4%, Canberra +3.0% — these end in June, before the Jul–Sep falls above
+- **ABS mean dwelling price, Jun qtr 2026** (all dwellings, by state): NSW $1,304,900 · VIC $918,400 · QLD $1,130,600 · SA $979,600 · WA $1,123,700 · TAS $733,200 · NT $614,400 · ACT $981,700 · Australia $1,100,400 (2026 data, source [ABS Total Value of Dwellings](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/total-value-dwellings/latest-release), released 8 Sep 2026; next release 1 Dec 2026)
 
 ### Compute
 
 1. AUD/sqm = price / **internal area sqm** (or per sq ft in some markets)
-2. Cross-check **CoreLogic** sold-price + Domain HPI
-3. **Strata levies** for units add ~$3-15k/yr (read sinking fund + admin fund)
-4. Foreign buyer surcharge ~+8% (state stamp duty)
+2. Cross-check **Cotality** modelled values against the ABS capital-city transfer medians above and the Domain House Price Report
+3. **Strata levies** for units add est. ~$3-15k/yr (est., no primary source; levies are set per scheme — read the admin fund + sinking / capital works fund budgets in the strata report)
+4. Foreign purchaser surcharge on top of state stamp duty: rate set per state (see the `--tax` foreign owner surcharges table; it is not a flat ~8%)
 
 ### Key terms
 
@@ -73,15 +79,15 @@ ISO2: `au`. Status: ✅ Fully populated (researched 2026-04).
 ### Sources
 
 - **State DOT traffic counts**:
-  - NSW: **TfNSW Traffic Volume Viewer** `https://www.transport.nsw.gov.au/`
-  - VIC: **VicRoads Open Data**
-  - QLD: **TMR Open Data**
-  - WA: **Main Roads WA Open Data**
-- **City open-data portals**: Sydney, Melbourne, Brisbane all have AADT layers
+  - NSW: **TfNSW Traffic Volume Viewer** `https://maps.transport.nsw.gov.au/egeomaps/traffic-volumes/index.html` (selected permanent and sample counting stations; API and hourly counts since 2006 on `https://opendata.transport.nsw.gov.au/data/dataset/nsw-roads-traffic-volume-counts-api`; TfNSW warns of data-quality and sensor-availability issues and a rebuild with no completion date — checked 2026-10-28)
+  - VIC: **Department of Transport and Planning open data** `https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume` — AADT per declared-road segment for 2001–2019 only; later years only as raw telemetry, TIRTL and traffic-signal counts on `https://opendata.transport.vic.gov.au/` (checked 2026-10-28)
+  - QLD: **TMR traffic census** for the state-declared road network (annual average traffic and heavy-vehicle counts; 2025 data published 6 Aug 2026): `https://www.data.qld.gov.au/dataset/traffic-census-for-the-queensland-state-declared-road-network`
+  - WA: **Main Roads WA trafficmap** `https://trafficmap.mainroads.wa.gov.au/` — short-term samples and continuous counts on state roads, significant local roads and cycle paths over the past six years (checked 2026-10-28)
+- **City open-data portals**: no AADT layers found — City of Melbourne's traffic counts cover 2014–2017 only, Brisbane City Council publishes key-corridor traffic volume reports, and a search of the City of Sydney portal returned no traffic-count dataset (checked 2026-10-28); use the state datasets above
 
 ### Key term
 
-**AADT** — same as US/UK.
+**AADT** (annual average daily traffic) — term used in Victoria's DTP datasets; TfNSW and TMR publish 'annual average' traffic counts (same concept as US/UK AADT).
 
 ### Verdict bands
 
@@ -190,6 +196,12 @@ State-based, varies hugely:
 - **Rent caps**: limited (CPI-linked in some states)
 - **Bond board**: state-administered (RTBA, etc.)
 
+### Rental market benchmarks
+
+- **ABS CPI Rents**: +3.6% in the 12 months to Sep 2026 (2026 data, source [ABS CPI, Sep 2026](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release), released 28 Oct 2026); the CPI measures rents paid by new and existing tenants, while advertised-rent measures track asking rents for new tenancies only ([ABS](https://www.abs.gov.au/articles/latest-insights-rental-market)), so the two diverge
+- **NSW new-bond median weekly rent, Apr–Jun 2026**: Greater Sydney $780 (houses $800, flats/units $760; +5.4% YoY) · Rest of State $540 · NSW $720 (+5.9% YoY) (2026 data, source [NSW Rent and Sales Report](https://dcj.nsw.gov.au/about-us/families-and-communities-statistics/housing-rent-and-sales/rent-and-sales-report.html), DCJ, from bonds lodged; per-LGA and per-postcode tables)
+- **Cotality, Sep 2026 (secondary)**: national rents +5.5% YoY; national vacancy rate 2.0% (Hobart 3.0%, Adelaide 1.4%); gross rental yields, dwellings, 3.9% nationally, from 3.4% in Sydney to 6.5% in Darwin (source [Cotality HVI Oct 2026](https://discover.cotality.com/hubfs/Article-Reports/COTALITY%20HVI%20OCT%202026%20FINAL.pdf))
+
 ### Short-let (Airbnb)
 
 #### NSW
@@ -221,7 +233,7 @@ State-based, varies hugely:
 
 ### Sources
 
-- **JobActive / Workforce Australia**: `https://www.workforceaustralia.gov.au/`
+- **Workforce Australia** (replaced jobactive from 1 Jul 2022): `https://www.workforceaustralia.gov.au/` (connection timed out from outside Australia on 2026-10-28; DNS resolves)
 - **Seek.com.au** — biggest: `https://www.seek.com.au/`
 - **Indeed.com.au**, **LinkedIn AU**, **CareerOne**, **Adzuna**
 - **AHPRA** for healthcare, **Engineers Australia** for engineering, etc.
@@ -229,17 +241,19 @@ State-based, varies hugely:
 ### Self-employment
 
 - **Sole trader**: ABN registration via ABR
-- **Pty Ltd**: ASIC; min $1 capital
-- **GST**: register at $75,000 turnover
+- **Pty Ltd**: ASIC registration — share structure, number and class of shares issued, and at least one member; ASIC's registration and shares pages set no minimum capital amount (checked 2026-10-28)
+- **GST**: register at $75,000 GST turnover ($150,000 for non-profits; taxi and ride-sourcing drivers regardless of turnover) (2026 data, source [business.gov.au](https://business.gov.au/registrations/register-for-taxes/register-for-goods-and-services-tax-gst))
 - **PAYG instalments**: ATO collects
 
-### Salary benchmarks (2025)
+### Salary benchmarks (ABS)
 
-- Median annual gross:
-  - Sydney: ~$95,000–$130,000
-  - Melbourne: ~$85,000–$115,000
-  - Brisbane / Perth: ~$75,000–$100,000
-  - Smaller cities: ~$65,000–$85,000
+- **Median weekly earnings, full-time employees, main job, Aug 2025** (ABS Employee Earnings, released 12 Dec 2025, latest edition — figures may have changed since; annual figures computed as weekly × 52):
+  - Greater Sydney: $1,846/wk (~$96,000/yr)
+  - Greater Melbourne: $1,701/wk (~$88,500/yr)
+  - Greater Brisbane: $1,750/wk (~$91,000/yr) · Greater Perth: $1,923/wk (~$100,000/yr)
+  - Greater Adelaide: $1,646/wk (~$85,600/yr) · Greater Hobart: $1,700/wk (~$88,400/yr) · ACT: $1,818/wk (~$94,500/yr) · NT (whole territory): $1,750/wk (~$91,000/yr)
+  - Australia: $1,741/wk (~$90,500/yr); all employees incl. part-time: $1,425/wk (source [ABS Employee Earnings](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/employee-earnings/latest-release), Table 2)
+- **Average weekly ordinary time earnings, full-time adults, May 2026** (a mean, so above the median): Australia $2,083.70/wk seasonally adjusted, +3.7% YoY (~$108,400/yr); by state (original): NSW $2,108.80 · VIC $2,041.10 · QLD $2,039.70 · SA $1,970.20 · WA $2,227.40 · TAS $1,846.30 · NT $1,984.10 · ACT $2,290.20 (2026 data, source [ABS Average Weekly Earnings](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/average-weekly-earnings-australia/latest-release), released 13 Aug 2026)
 - **Federal minimum wage**: $26.44/hr ($1,004.90/38-hr week) from 1 Jul 2026 — FWC *Annual Wage Review 2026* **[2026] FWCFB 3500** (2 Jun 2026): **modern award minimum wages +4.75%**, with a structural adjustment that lifts the lowest ongoing-employment award rate to the same $1,004.90 / $26.44 and the six-month entry-level rate to **$978.10/wk ($25.74/hr)**; the NMW figure is set to maintain alignment with the C13 classification rate rather than by a stated percentage (2026 data, source [FWC decision [2026] FWCFB 3500](https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwcfb3500.pdf) + [Fair Work Ombudsman](https://www.fairwork.gov.au/about-us/workplace-laws/annual-wage-review/annual-wage-review-2026); 2026-09-18 verified)
 
 ---
@@ -358,9 +372,9 @@ State-based, varies hugely:
 ## Common listing platforms
 
 - **realestate.com.au** — biggest
-- **Domain.com.au** — second
-- **Allhomes.com.au** (ACT focus)
-- **Property.com.au**, **Homely**
+- **Domain.com.au** — second (CoStar Group since 27 Aug 2025)
+- **Allhomes.com.au** (ACT focus; a Domain brand, so CoStar Group since Aug 2025)
+- **Property.com.au** (an REA Group site), **Homely**
 
 ## Caveats unique to AU
 
