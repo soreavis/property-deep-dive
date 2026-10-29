@@ -240,33 +240,34 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 
 | Source | URL | What it gives |
 |---|---|---|
-| **HORA** (Natural Hazard Overview & Risk Assessment) | `https://hora.gv.at/` | Floods, earthquakes, storms, hail, lightning, snow, landslides — UNIQUE all-in-one portal |
-| **HORA 3D** (interactive) | from `https://hora.gv.at/` | Address-level 3D risk visualization |
-| **WISA Hochwasser-Risiko** | `https://maps.wisa.bmluk.gv.at/gefahren-und-risikokarten-zweiter-zyklus?g_card=hwrisiko_gefahren_ueff` | Detailed Q30/Q100/Q300 |
-| **AGES Radonkarte** | `https://geogis.ages.at/GEOGIS_RADON.html` | Radon hazard per Gemeinde |
+| **HORA** (Natural Hazard Overview & Risk Assessment Austria) | `https://hora.gv.at/` | Flood (incl. Starkregen surface runoff), earthquake, landslides (Rutschungen), storm, lightning, hail, snow and, since 2026, heat — a HORA-Pass for any location; a screening tool, not parcel-sharp |
+| **HORA 3D** (interactive) | from `https://hora.gv.at/` | 3D flood simulations, 30- to 300-year events, along almost 40,000 river km (since 2023) |
+| **WISA Hochwasser-Risiko** | `https://maps.wisa.bmluk.gv.at/rmp2027/` | 3rd-cycle (RMP2027) Hochwassergefahren- und -risikokarten (hazard maps dated 17 Mar 2026 in the map app): Überflutungsflächen for HQ30 / HQ100 / HQ300 plus Wassertiefen and Fließgeschwindigkeiten; defences are designed to HQ100, so protected settlements show no HQ30 / HQ100 area, only HQ300 (the 2nd-cycle RMP2021 set stays online at `maps.wisa.bmluk.gv.at/gefahren-und-risikokarten-zweiter-zyklus`) |
+| **AGES Radonkarte** | `https://geogis.ages.at/GEOGIS_RADON.html` | Radonschutzgebiet / Radonvorsorgegebiet status per Gemeinde (Radonschutzverordnung, BGBl II 470/2020) |
 | **GeoSphere Austria** (formerly ZAMG + GBA) | `https://www.geosphere.at/` | Earthquake + climate + geology |
 | **Naturgefahren-Bundesländer** | per state geoportal | Lawinen, Mure, Steinschlag |
 | **OEROK-Atlas Hochwasserrisiko** | `https://www.oerok-atlas.at/` | Aggregated indicators |
 
 ### HORA — the gold standard
 
-Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-place natural hazards portals in the EU. Initiated 2002 after the disaster Donau flood; managed by BMLUK + VVO (Versicherungsverband). Free, address-level, all hazards in one place.
+Austria's **HORA** is a free, all-hazards-in-one-place natural-hazard portal (EU comparison not re-verified; BMLUK calls it an internationally recognised flagship project). The Wasserministerium and the Versicherungsverband Österreich (VVO) started it as a public-private partnership shortly after the August 2002 Jahrhunderthochwasser; it went live in 2006 and is run by BMLUK with VVO. A HORA-Pass can be generated for any location in Austria. HORA 3D (2023) adds 3D flood simulations; the 2026 update added a heat layer (Hitzetage, Tropennächte, Hitzeepisoden on 1991–2020 normals), an updated Starkregen surface-runoff map (new hydrodynamic model; 100-year, 30-minute rain), a hail map (largest hailstones for 10-, 20- and 30-year return periods) and a revised earthquake map (peak ground acceleration with a 10 % chance of being exceeded in 50 years). **Not parcel-sharp**: BMLUK calls HORA a complement to the parcel-sharp Gefahrenzonenpläne, and the runoff map is a first estimate that does not replace detailed analysis (BMLUK HORA pages, read 2026-10-28).
 
 ### Specific risks
 
-- **Hochwasser**: Donau, Drau, Mur, Inn, Salzach valleys — recurring; 2002, 2013, 2024 major events
-- **Lawinen** (avalanche): Tirol, Salzburg, Vorarlberg alpine — strict zoning
+- **Hochwasser**: recurring; large-scale events in August 2002, June 2013 and 12–20 September 2024 (Vb-type weather; NÖ and Wien hit hardest, 300 to over 400 mm in five days between the Mostviertel and the Wienerwald, many river peaks far above a 100-year event; on the Kamp the 7 Aug 2002 peak was a 1,000- to 1,500-year event) (BMLUK Hydrographie, September 2024 event page); river list (Donau, Drau, Mur, Inn, Salzach) not re-verified
+- **Lawinen** (avalanche): Tirol, Salzburg, Vorarlberg alpine — zoning through the Gefahrenzonenpläne of the Wildbach- und Lawinenverbauung (die.wildbach), built on a 150-year design event: **Rote Zone** where permanent use for settlement or traffic is not possible, or only at disproportionate cost; **Gelbe Zone** building only under conditions set by an expert opinion of the Gebietsbauleitung in the building procedure (BMLUK Gefahrenzonenplan page, read 2026-10-28)
 - **Mure** (mudslides): alpine + Pre-alpine
 - **Erdrutsch** (landslide): widespread in Voralpen + Alpen
 - **Steinschlag** (rockfall): alpine slopes
-- **Earthquakes** — moderate:
-  - **Wienerwald** (Vienna western suburbs): M 4-5 historical
-  - **Mur-Mürz-Tal** (Steiermark): seismically active
-  - **Kärnten**: low-moderate
-  - 2024 Vienna M 4.1 reminder
-- **Hagel** (hail): increasing damage Süden + Westen
+- **Earthquakes** — moderate seismicity (GeoSphere Austria): about 70 quakes a year are felt, light building damage is expected about every two to three years and heavily damaging quakes about every 100 years; most quakes occur in the Rheintal (Vorarlberg), the Inntal and its side valleys, the Mur- und Mürztal, the Semmering area and the Wiener Becken:
+  - **Wienerwald / Wiener Becken** (NÖ): 15 Sep 1590 Ried am Riederberg — intensities VIII and IX, reconstructed M 5.8; 8 Oct 1927 Schwadorf — intensity VIII; 16 Apr 1972 Seebenstein — M 5.3
+  - **Mur-Mürz-Tal + Semmering** (Steiermark / NÖ): 1267 Kindberg (less well documented); 27 Oct 1964 Semmering — M 5.3
+  - **Kärnten**: 4 Dec 1690 north of Villach — intensity VIII, reconstructed M 6.4, the highest magnitude in GeoSphere's list of documented Austrian quakes; 1201 Katschberg (less well documented)
+  - **Tirol / Vorarlberg**: 17 Jul 1670 Hall in Tirol — intensity VIII; 7 Oct 1930 Namlos — M 5.3; Rheintal and Inntal are among GeoSphere's most active zones
+  - Recent felt quake: Semmering, 1 Feb 2024, M 4.5 (GeoSphere Austria)
+- **Hagel** (hail): increasing damage Süden + Westen (trend not re-verified against a primary source); HORA's 2026 hail map gives the largest hailstones for 10-, 20- and 30-year return periods per location
 - **Sturm/Orkan**: Atlantic + Mediterranean depressions
-- **Radon**: Austria has elevated levels; granite Mühlviertel + Waldviertel + parts of Tirol/Salzburg
+- **Radon**: "Österreich weist eine der höchsten Radonbelastungen weltweit auf" (Austria has one of the highest radon burdens worldwide) and high indoor levels can occur anywhere (radon.gv.at). Reference level 300 Bq/m³ annual mean in living rooms (§ 3 Abs 1 Radonschutzverordnung, RnV, BGBl II 470/2020). **104 Gemeinden are Radonschutzgebiete** (RnV Anlage 1 A: 37 in OÖ, e.g. Bad Leonfelden, Bad Zell; 30 in NÖ, e.g. Arbesbach, Weitra; 26 in Tirol; 4 in Salzburg, all in the Pinzgau, e.g. Krimml; 3 in Kärnten; 3 in the Steiermark; Schruns in Vorarlberg), where radon protection is mandatory in new builds and Generalsanierungen. **Radonvorsorgegebiete** (preventive measures in all new builds under Land law implementing OIB-Richtlinie 3) cover all of Kärnten, Salzburg and Tirol; Burgenland except Bezirke Güssing, Jennersdorf, Neusiedl am See and Oberwart; NÖ except Bezirk Bruck an der Leitha; OÖ except Bezirk Ried im Innkreis; the Steiermark except Bezirk Südoststeiermark; and Bezirk Bludenz in Vorarlberg; none in Wien. Check the Gemeinde on the AGES Radonkarte; BMLUK offers a free two-detector home measurement (order in calendar week 28 or 48)
 - **Hangrutsch** (slope movements): post-storm + heavy rain
 
 ### Build-era hazards
@@ -283,19 +284,18 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 
 | Document | Required because | Validity |
 |---|---|---|
-| **Energieausweis (EAW)** | All sales | 10 years; penalty up to ~€1,450 est. — verify current cap |
+| **Energieausweis (EAW)** — Energieausweis-Vorlage-Gesetz 2012 (EAVG 2012) | Sales and lettings (In-Bestand-Gabe; lease extensions too from 1 Jul 2026): shown before the buyer or tenant signs, handed over within 14 days of the contract (§ 4); ads published from 1 Jul 2026 must state Heizwärmebedarf, Endenergiebedarf and Gesamtenergieeffizienzklasse (§ 3 as amended by BGBl I 38/2026; Heizwärmebedarf + fGEE before, still allowed with an older certificate); exemptions in § 5 (e.g. detached buildings under 50 m², buildings only kept frost-free, demolition-ready buildings on sale) | At most 10 years old at signing (§ 4 Abs 1); fine up to €1,450 (§ 9); without an EAW, at least the energy performance usual for the building's age and type counts as agreed (§ 7 Abs 1) (RIS EAVG 2012, Fassung vom 28.10.2026) |
 | **Grundbuchauszug** | Verify owner + Lasten | At sale |
 | **Lageplan / Mappenkopie** | Boundaries | Per case |
-| **WEG-Vereinbarung + Nutzwertgutachten** | If Wohnungseigentum | At sale |
+| **Wohnungseigentumsvertrag (§ 3 Abs 1 Z 1 WEG 2002) + Nutzwertgutachten (§ 9 Abs 1 WEG 2002)** | If Wohnungseigentum | At sale |
 | **Hausverwaltung Auskunft** (Rücklage, Hausgeld) | If apartment | At sale |
-| **Wohnnutzwertgutachten** | If WEG | At sale |
-| **Gefahrenzonenplan** | If alpine / flood-prone | Per case |
+| **Gefahrenzonenplan** (die.wildbach under the Forstgesetz 1975; flood zones under § 42a WRG 1959 / WRG-GZPV, BGBl II 145/2014) | If alpine / flood-prone — a planning instrument; the die.wildbach plan is open to public inspection at the Gemeinde, the Bezirksverwaltungsbehörde, the Landesregierung and the die.wildbach office | Per case |
 
 ### Climate change projections (GeoSphere Austria)
 
-- +2.0–3.5 °C by 2050 (RCP scenarios)
+- ÖKS15, the official national scenarios (2016), run about 1 °C below observed warming (klimaszenarien.at), so GeoSphere Austria's data hub says their direct use can no longer be recommended without reservation (editorial note May 2026); successor ÖKS26 expected during 2027. Example (ÖKS15, Wien, vs the 1971–2000 mean of 10.2 °C): +1.2 °C to +1.5 °C for 2021–2050 and +2.2 °C (climate-protection scenario) or +3.8 °C (business as usual) for 2071–2100 — 2016 data, figures may have changed since. Observed temperature in Austria is currently rising at almost 0.7 °C per decade (klimaszenarien.at ÖKS15 recommendations, July 2026, citing the AAR2 report)
 - Heat waves: longer + more intense
-- Precipitation: more extreme events; +Starkregen
+- Precipitation: one-hour extreme rain now brings about 15 % more rain than before (vs 1981–2010), directly linked to warming (GeoSphere Austria); 12–16 Sep 2024 brought 25 % more rain almost area-wide in Wien, NÖ and OÖ than earlier five-day extremes, locally 120–160 % more (GeoSphere Austria)
 - **Lawinen**: less reliable below 1,500m altitude
 - **Wasser**: drought risk Pannonisches Becken (Burgenland, Niederösterreich)
 - **Schnee**: ski-season decreasing in lower Alps
@@ -306,15 +306,16 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 
 ### Sources
 
-- Each Gemeinde has Wasserwerk + Abwasserverband
-- **ÖVGW (Österreichischer Vereinigung für das Gas- und Wasserfach)**: `https://www.ovgw.at/`
-- Major operators: Wien Wasser, Linz AG, Salzburg AG, IKB Innsbruck
+- Drinking water: about 93 % of residents are on central supply systems run by about 5,500 Wasserversorgungsunternehmen (kommunale Anlagen, Wasserverbände, Genossenschaften); the other 7 % use their own Hausbrunnen or Quellen, which are not a public responsibility, so owners should test the water themselves (BMLUK, read 2026-10-28)
+- **ÖVGW (Österreichische Vereinigung für das Gas- und Wasserfach)**: `https://www.ovgw.at/`
+- Major operators: Wiener Wasser (MA 31), Linz AG, Salzburg AG, IKB (Innsbrucker Kommunalbetriebe)
+- **Electricity / gas**: compare supplier offers with the **E-Control Tarifkalkulator** (`https://www.e-control.at/tarifkalkulator`). Electricity network charges (Systemnutzungsentgelte) are set by the E-Control Regulierungskommission in the Systemnutzungsentgelte-Verordnung (SNE-V), except the one-off Netzzutrittsentgelt, which covers the network operator's reasonable costs of a first connection or a capacity upgrade; a new connection also triggers the lump-sum Netzbereitstellungsentgelt (E-Control, read 2026-10-28)
 
 ### Verification
 
-- Most populated areas: städtische mains universal
+- Public sewers: 96.5 % of residents connected to a kommunale Kläranlage at end-2024, 91 % to almost 100 % by Bundesland; 100 % is not realistic given the many Streusiedlungen (BMLUK Lagebericht Kommunales Abwasser 2026) — national / Land rates only, never a parcel-level claim
 - Almhütten + Maiensässe + Streusiedlungen alpine: Hauskläranlage / Senkgrube
-- **Anschlussbescheid** required at sale
+- **Anschlussbescheid**: the Bau- und Kanalanschlussgesetze of the Länder oblige buildings to connect to an existing public sewer (BMLUK Lagebericht 2026); a statutory duty to hand over an Anschlussbescheid at sale is not verified — ask the seller or the Gemeinde for it
 
 ### Costs
 
@@ -372,7 +373,7 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 - **Naturschutz** restrictions on alpine constructions — strict
 - **MRG categories** make rental investment math depend heavily on building age
 - **Mietkauf** model (rent-to-own via Genossenschaft) common
-- **HORA portal is free, address-level, all-hazards-in-one-place** — use it as the single source of truth for risks
+- **HORA portal is free, all-hazards-in-one-place, with a HORA-Pass for any location** — use it as the first screen, not the single source of truth: BMLUK calls it a complement to the parcel-sharp Gefahrenzonenpläne, so also check the Gemeinde's Gefahrenzonenplan and the WISA RMP2027 flood maps
 - **Erbenermittlung** can stall purchases for months if Grundbuch unclear
 - **Bauernhof** (farm) special restrictions; Anerbenrecht
 - **Schenkungsmeldegesetz** since 2008 — mandatory disclosure for gifts
@@ -398,6 +399,7 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 | **Notar** | Final transfer, escrow |
 | **Wasserwerk Gemeinde** | Mains drains verification |
 | **Bundesland Wasserrechtsbehörde** | Flood zone confirmation |
+| **die.wildbach (Wildbach- und Lawinenverbauung) Gebietsbauleitung** | Wildbach / Lawinen Gefahrenzonenplan; building conditions in a Gelbe Zone |
 | **AGES** | Radon, food safety |
 | **GeoSphere Austria** | Seismic + climate |
 | **Wohnungseigentumsverwaltung (WEG)** | Hausgeld, Rücklage, Beschlüsse |
@@ -420,15 +422,18 @@ Austria's **HORA** is one of the few free, address-level, all-hazards-in-one-pla
 | Source | URL pattern |
 |---|---|
 | HORA | `https://hora.gv.at/` |
-| WISA Hochwasser | `https://maps.wisa.bmluk.gv.at/gefahren-und-risikokarten-zweiter-zyklus` |
+| WISA Hochwasser (RMP2027, 3rd cycle) | `https://maps.wisa.bmluk.gv.at/rmp2027/` |
 | AGES Radon | `https://geogis.ages.at/GEOGIS_RADON.html` |
 | GeoSphere Austria | `https://www.geosphere.at/` |
 | Statistik Austria HPI | `https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/haeuserpreisindex-und-ooh-pi` |
-| OeNB Wohnimmobilienpreis | `https://www.oenb.at/Statistik/Standardisierte-Tabellen/Preise-Wettbewerbsfaehigkeit/immobilien/wohnimmobilienpreisindex.html` |
+| OeNB Wohnimmobilienpreis | `https://www.oenb.at/daten-und-forschung/datenangebot/preise-wettbewerbsfaehigkeit/immobilien/6-6-wohnimmobilienpreisindex.html` (updated 2026-10-28) |
 | Willhaben Immobilien | `https://www.willhaben.at/iad/immobilien/<typ>/<bundesland>/<bezirk>` |
-| ImmobilienScout24.at | `https://www.immobilienscout24.at/regional/<bundesland>/<bezirk>` |
-| Justizportal Grundbuch | `https://www.justiz.gv.at/home/service/grundbuch~36.de.html` |
+| ImmobilienScout24.at | `https://www.immobilienscout24.at/regional/<bundesland>/<bezirk>/<typ>` (typ e.g. `wohnung-kaufen`, `haus-kaufen`, `wohnung-mieten`) |
+| Justizportal Grundbuch | `https://www.justiz.gv.at/service/datenbanken/grundbuch.96c.de.html` (updated 2026-10-28) |
 | BMF Finanzonline | `https://finanzonline.bmf.gv.at/` |
+| E-Control Tarifkalkulator (electricity / gas) | `https://www.e-control.at/tarifkalkulator` |
+| Breitbandatlas (broadband availability) | `https://breitbandatlas.gv.at/` |
+| BKA Polizeiliche Kriminalstatistik (reported offences only) | `https://www.bundeskriminalamt.at/501/start.html` |
 
 ## Status
 
