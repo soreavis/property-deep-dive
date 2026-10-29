@@ -99,13 +99,13 @@ This section determines whether a transaction is even legally possible. Confirm 
 
 ### Primary sources
 
-- **DLD Open Data Portal** (Dubai): `https://dubailand.gov.ae/en/open-data/` — transaction-level sales data, downloadable
+- **DLD Open Data Portal** (Dubai): `https://dubailand.gov.ae/en/open-data/` — transaction-level sales data, downloadable; DLD's official Residential Properties index (quarterly and annual; general / flats / villas) at `https://dubailand.gov.ae/en/open-data/indexes-home/` and annual research reports at `https://dubailand.gov.ae/en/open-data/research/` (checked 2026-10-28)
 - **DLD Smart Rental Index** (rentals): `https://dubailand.gov.ae/en/eservices/rental-index/`
 - **ADREC** open data: `https://adrec.gov.ae/`
 - **Property Monitor** (consultancy aggregator using DLD data): `https://propertymonitor.com/`
-- **Bayut Index**: `https://www.bayut.com/index/` — apartment + villa quarterly updates
+- **Bayut Index**: `https://www.bayut.com/property-market-analysis/index/` (the old `/index/` path redirects here, checked 2026-10-28) — listing-based price index (listing-platform tier) per emirate, community and property type; latest month Sep 2026
 - **Property Finder** market reports: `https://www.propertyfinder.ae/blog/`
-- **REIDIN** Residential Market Sales Price Index: tracks Dubai monthly
+- **REIDIN** Residential Market Sales Price Index (2014 Jan = 100): monthly *UAE Residential Property Price Report* at `https://reidin.com/category/reports` (Sep 2026 = edition 214; Dubai, Abu Dhabi, Sharjah, Ajman, RAK) — secondary aggregator; REIDIN prepared DLD's 2025 Annual Data Review with DLD
 
 ### Listing platforms
 
@@ -115,26 +115,26 @@ This section determines whether a transaction is even legally possible. Confirm 
 - **Houza** — challenger portal; ceased operations Feb 2024 per trade press (`https://www.onlinemarketplaces.com/articles/emirati-challenger-portal-houza-folds-as-investors-lose-appetite/`, 4 Apr 2024 — secondary) and `houza.com` no longer serves a website (2026-10-21 verified); no successor — use Bayut / Property Finder / Dubizzle above
 - **Luxhabitat**, **LuxuryProperty.com** (high-end)
 
-### Dubai citywide benchmarks (verified 2026-07-03)
+### Dubai citywide benchmarks (verified 2026-10-28)
 
-- **Citywide weighted-avg residential (ready)**: **AED ~1,691 / sqft (~USD 460)** as of Q1 2026 — **+5.62% YoY** (ValuStrat Q1 2026, via Global Property Guide). Off-plan ran hotter: AED 2,030/sqft, +12.22% YoY. Growth has cooled sharply from the +19.8% YoY printed for Dec 2025 — note that figure was REIDIN/Property Monitor, a different index, so read the deceleration as directional (corroborated: REIDIN +10.79% YoY Feb 2026): the price *level* held while momentum normalised. (2026-07-03 verified) — cross-check current month on DLD Open Data / REIDIN.
-- **Q1 2026 residential transaction value**: **AED ~137–143 bn (+19–22% YoY)** across ~45k residential deals (Property Monitor: AED 143.1 bn, +22.2% YoY, 44,743 units; REIDIN: AED 137.3 bn / 45,221 transactions, off-plan AED 103.4 bn of that). All-property incl. land/commercial ~AED 176.5 bn per DXBinteract (aggregator social post — verify on dxbinteract.com). (2026-07-03 verified — quarterly figure, re-pull each quarter.)
-- **Villas outperformed apartments**: villas **+15.16%** vs apartments **+12.52%** YoY in REIDIN index (Dec 2025); the villa/apartment gap widened into 2026 as apartment momentum cooled faster (Property Monitor Q1 2026)
+- **Citywide average residential price (DLD, primary)**: units **AED 20,666/sq m (≈ AED 1,920/sq ft = 20,666 ÷ 10.764)**, villas **AED 16,791/sq m (≈ AED 1,560/sq ft)** in 2025 — units +6%, villas +15% vs 2024 (DLD *Dubai Real Estate Market — Annual Data Review 2025*, 12 Oct 2026). DLD's official Residential Properties index: +8.90% YoY in Q4 2025 and +9.81% for 2025; no 2026 quarter published yet (DLD Open Data → Indexes, checked 2026-10-28). **2026 has turned negative**: REIDIN Residential Market Sales Price Index −1.27% YoY in Sep 2026 (+0.25% MoM), and ValuStrat's VPI 218.6 points in Q3 2026, −4.5% YoY, its first annual fall since the pandemic (ValuStrat via Global Property Guide) — both secondary. Global Property Guide (Oct 2026) names the regional war that began in late Feb 2026 as the turning point. The +19.8% for 2025 matches ValuStrat's figure (Dubai Outlook 2026); REIDIN printed +12.88% YoY for Dec 2025. Cross-check the current month on REIDIN / DLD before relying on any 2025 level.
+- **Transaction volume (DLD, primary)**: 2025 — 270,328 real estate transactions worth AED 917 bn (+20% YoY), of which sales 217,889 worth AED 680 bn (DLD Annual Data Review 2025). **2026 by quarter (secondary)**: Q1 AED 137.3 bn of residential sales across 45,221 deals, +18.8% YoY in value, off-plan AED 103.4 bn (REIDIN Q1 2026 Market Overview); Q2 fewer than 37,000 residential sales worth AED 88 bn, about −43% YoY in value (CBRE via Global Property Guide); Q3 about 34,500 residential sales worth AED 70.8 bn (Savills from DLD data, via Global Property Guide). Property Monitor's Q1 figure (AED 143.1 bn) and the DXBinteract all-property figure were not re-verified and are dropped. (2026-10-28 verified — re-pull each quarter.)
+- **Villas outperformed apartments**: villas **+15.16%** vs apartments **+12.52%** YoY in REIDIN's index (Dec 2025); DLD's official index shows the same split for Q4 2025 — villas +13.16% vs flats +6.73% YoY. By Sep 2026 REIDIN had villas +1.06% and apartments −1.65% YoY, so villas kept outperforming apartments as prices fell (2026-10-28 verified, REIDIN Dec 2025 + Sep 2026 reports; DLD Open Data → Indexes)
 
-### Premium-zone benchmarks (Q4 2025 / latest cited)
+### Premium-zone benchmarks (REIDIN Q1 2026 transacted / Bayut Index Sep 2026 asking)
 
 | Zone | Type | AED/sqft (avg) | Notes |
 |---|---|---:|---|
-| **Dubai Marina** | apartment | ~AED 2,188 (range 1,800–2,900 by tier) | Bayut Index 2025 — verify current month |
-| **Downtown Dubai** | apartment | ~AED 2,900 (recent transactions) | Burj Khalifa premium pulls avg up |
-| **Business Bay** | apartment | ~AED 2,307 | Bayut Index 2025 |
-| **Palm Jumeirah** | villa | ~AED 6,160 | Bayut Index — beachfront premium |
-| **Palm Jumeirah** | apartment | ~AED 3,500–5,500 | Tier-dependent (Shoreline vs branded) |
-| **Emirates Hills / Dubai Hills** | villa | ~AED 2,200–3,500 | High-end suburban |
-| **JVC / Damac Hills 2** | apartment | ~AED 1,200–1,500 | Mid-market freehold |
-| **International City / Dubai Silicon Oasis** | apartment | ~AED 700–1,000 | Entry-level freehold |
+| **Dubai Marina** | apartment | AED 2,001 transacted (REIDIN Q1 2026) · AED 2,435 asking (Bayut Index Sep 2026) | Asking runs above transacted; Bayut 12-month change −3.33% |
+| **Downtown Dubai** | apartment | AED 2,959 transacted (REIDIN Q1 2026) · AED 3,468 asking (Bayut Index Sep 2026) | Burj Khalifa premium pulls avg up; Bayut 12-month −2.24%; CBRE Q2 2026 Downtown apartments about −7% QoQ (via Global Property Guide) |
+| **Business Bay** | apartment | AED 2,211 transacted (REIDIN Q1 2026) · AED 2,516 asking (Bayut Index Sep 2026) | Bayut 12-month +1%; CBRE Q2 2026 about −7% QoQ (via Global Property Guide) |
+| **Palm Jumeirah** | villa | AED 6,428 transacted (REIDIN Q1 2026) · AED 7,029 asking (Bayut Index Sep 2026) | Beachfront premium; Bayut 12-month +7.73% |
+| **Palm Jumeirah** | apartment | AED 3,512 transacted (REIDIN Q1 2026) · AED 4,625 asking (Bayut Index Sep 2026) | Tier-dependent (Shoreline vs branded); CBRE Q2 2026 Palm apartments about −9% QoQ (via Global Property Guide) |
+| **Emirates Hills / Dubai Hills** | villa | Emirates Hills AED 3,571 · Dubai Hills Estate AED 2,758 transacted (REIDIN Q1 2026); asking AED 5,195 / AED 3,114 (Bayut Index Sep 2026) | High-end suburban; CBRE Q2 2026 Dubai Hills villas −5% QoQ (via Global Property Guide) |
+| **JVC / Damac Hills 2** | apartment | asking AED 1,488 (JVC) · AED 1,261 (DAMAC Hills 2) (Bayut Index Sep 2026) | Mid-market freehold; not in REIDIN's top-10 average-price tables — check DLD transactions for a transacted figure |
+| **International City / Dubai Silicon Oasis** | apartment | asking AED 1,053 (International City) · AED 1,330 (DSO) (Bayut Index Sep 2026) | Entry-level freehold; Bayut 12-month +26.28% (IC) / −7.96% (DSO) — volatile listing mix |
 
-(Sources: Bayut Index `https://www.bayut.com/index/`, Property Monitor monthly reports — *2025 data; figures may have shifted; cross-check current month on DLD Open Data*)
+(Sources: REIDIN *Dubai Residential Real Estate Q1 2026 Market Overview* top-10 community tables — transacted, secondary aggregator of DLD data, `https://reidin.com/wp-content/uploads/2026/04/Dubai-Residential-Real-Estate-Q1-2026-Market-Overview.pdf`; Bayut Index `https://www.bayut.com/property-market-analysis/index/` — asking prices, listing platform, Sep 2026; transacted figures rounded. Asking runs above transacted in every row, and the Q1 2026 transacted levels predate the Q2–Q3 2026 falls — *cross-check the current quarter on DLD transactions / REIDIN* (2026-10-28 verified))
 
 ### Abu Dhabi benchmarks
 
@@ -143,33 +143,33 @@ This section determines whether a transaction is even legally possible. Confirm 
 | Zone | Type | AED/sqft | Source · period | YoY |
 |---|---|---:|---|---:|
 | **Saadiyat Island** | villa (luxury slice — HIDD Al Saadiyat, Mamsha, beachfront) | ~AED 2,061 | Bayut FY 2025 report | +12.9% |
-| **Saadiyat Island** | villa (whole-island incl. Reserve/Lagoons) | ~AED 1,631 | Bayut Index Apr 2026 | −6.0% |
+| **Saadiyat Island** | villa (whole-island incl. Reserve/Lagoons) | ~AED 1,764 | Bayut Index Sep 2026 (asking) | −3.68% |
 | **Saadiyat Island** | apartment (luxury) | ~AED 2,932 | Bayut FY 2025 report | +27.0% |
-| **Saadiyat Island** | apartment (whole-island) | ~AED 3,344 | Bayut Index Apr 2026 | +4.6% |
+| **Saadiyat Island** | apartment (whole-island) | ~AED 3,472 | Bayut Index Sep 2026 (asking) | −0.09% |
 | **Yas Island** | villa | ~AED 1,528 | Bayut FY 2025 report | +10.9% |
 | **Yas Island** | apartment | ~AED 1,818 | Bayut FY 2025 report | +24.3% |
-| **Yas Island** | apartment (live index — branded/waterfront uplift) | ~AED 2,370 | Bayut Index Apr 2026 | +27.7% |
+| **Yas Island** | apartment (live index — branded/waterfront uplift) | ~AED 2,342 | Bayut Index Sep 2026 (asking) | +6.8% |
 | **Al Reem Island** | apartment (mid-tier — Reem is overwhelmingly apartment stock) | ~AED 1,352 | Bayut FY 2025 report | +18.9% |
-| **Al Reem Island** | apartment (live index) | ~AED 1,767 | Bayut Index Apr 2026 | +26.9% |
+| **Al Reem Island** | apartment (live index) | ~AED 1,778 | Bayut Index Sep 2026 (asking) | +13.31% |
 | **Abu Dhabi citywide** | apartment | ~AED 1,296 | Knight Frank Q2 2025 | +17.3% |
 | **Abu Dhabi citywide** | villa | ~AED 1,103 | Knight Frank Q2 2025 | (+42.3% since Q1 2020) |
-| **Abu Dhabi citywide** | blended (all stock, hedonic index) | ~AED 1,005 | ValuStrat Q3 2025 | +9.0% |
+| **Abu Dhabi citywide** | blended (all stock, valuation-based VPI) | ~AED 1,005 | ValuStrat Q3 2025 (not re-verified 2026-10-28 — report gated) | +9.0% |
 
-**Abu Dhabi citywide (Q1 2026, ValuStrat via Global Property Guide):** ready homes ~AED 1,507/sqft (~USD 410) — **+25.06% YoY**; off-plan ~AED 2,191/sqft (~USD 597), +17.99% YoY. AD momentum now outpaces Dubai. Pair with the Jun 2026 ADREC rent freeze (see `--rental`), which caps AD rental growth for any yield read-across. (2026-07-03 verified)
+**Abu Dhabi citywide (H1 2026, ADREC — primary):** repeat-sales prices +20% YoY for apartments and +12% for villas; residential unit sales AED 70.4 bn vs AED 25.3 bn in H1 2025; off-plan 89% of sales value and 82% of deals; Hudayriyat Island AED 19 bn (27% of value), Saadiyat AED 13.3 bn, Al Reem + Al Maryah AED 10.5 bn, Yas AED 7.3 bn (ADREC H1 2026 market report release, 18 Aug 2026). Later, secondary: ValuStrat Q2 2026 index +17.8% YoY (apartments +24.1%, villas +12%), ready homes AED 1,442/sqft (≈ USD 393) (via Global Property Guide, Oct 2026); REIDIN sales index +11.17% YoY in Sep 2026, down from +27.76% in April. AD still outpaces Dubai, but growth is slowing. Pair with the Jun 2026 ADREC rent freeze (see `--rental`), which caps AD rental growth for any yield read-across. (2026-10-28 verified)
 
-**Rental yields (Bayut FY 2025 — ROI on listed prices, gross):** Saadiyat villa 4.47% · Saadiyat apt 4.05% · Yas villa 5.43% · Yas apt 7.07% · Al Reem apt **7.49%** (the highest mid-tier yield in Abu Dhabi).
+**Rental yields (Bayut FY 2025 — ROI on listed prices, gross):** Saadiyat villa 4.47% · Saadiyat apt 4.05% · Yas villa 5.43% · Yas apt 7.07% · Al Reem apt **7.49%** · Masdar City apt 8.45% (Masdar, not Al Reem, has the highest yield in Bayut's mid-tier apartment table; affordable Al Reef apt 9.68%). Market-wide gross yield (REIDIN, Sep 2026, secondary): Abu Dhabi 5.89%, Dubai 6.17%.
 
-**Methodology notes:** (a) Knight Frank uses transaction-weighted close prices; ValuStrat uses a hedonic index across all stock — the AED 1,005 vs AED 1,296 citywide spread is methodology, not error. (b) Bayut "luxury segment" carves out the top tier; the live Bayut Index is the whole-zone median including mid-tier sub-communities — for Saadiyat this pulls villa median below the luxury slice (AED 1,631 vs AED 2,061). (c) ADREC per-zone AED/sqft is **not** exposed in static press releases. (d) Off-plan list price ≠ ready market — apply 5–15% off-plan-to-handover discount.
+**Methodology notes:** (a) Knight Frank uses transaction-weighted close prices; ValuStrat's VPI is valuation-based (a marked-to-market sample of properties, per ValuStrat) — the AED 1,005 vs AED 1,296 citywide spread is methodology, not error. (b) Bayut "luxury segment" carves out the top tier; the live Bayut Index is a whole-zone figure including mid-tier sub-communities — for Saadiyat this pulls the villa figure below the luxury slice (AED 1,764 Sep 2026 vs AED 2,061 FY 2025). (c) ADREC per-zone AED/sqft is **not** exposed in static press releases. (d) Off-plan list price ≠ ready market — est. 5–15% off-plan-to-handover discount (rule of thumb, no primary source; calibrate per project).
 
-*— 2025–April 2026 data; rates/figures may have shifted; cross-check current month on Bayut Index, Knight Frank quarterly review, or the ADREC dashboard. (2026-05-27 verified, sources [Knight Frank H1 2025](https://www.knightfrank.ae/newsroom/article/2025/8/abu-dhabi-residential-market-review-h1-2025) + [Bayut FY 2025](https://www.bayut.com/mybayut/abu-dhabi-sales-market-report-2025/) + [ADREC 2025 annual report](https://www.zawya.com/en/press-release/research-and-studies/adrec-releases-abu-dhabi-real-estate-market-report-2025-n8imcrtw))*
+*— 2025–Sep 2026 data; cross-check the current month on Bayut Index, the REIDIN monthly report or the ADREC dashboard. (2026-10-28 verified, sources [Knight Frank H1 2025](https://www.knightfrank.ae/newsroom/article/2025/8/abu-dhabi-residential-market-review-h1-2025) + [Bayut FY 2025](https://www.bayut.com/mybayut/abu-dhabi-sales-market-report-2025/) + [ADREC 2025 annual report](https://www.zawya.com/en/press-release/research-studies/adrec-releases-abu-dhabi-real-estate-market-report-2025-359182) (old Zawya URL redirects here) + [ADREC H1 2026 report release](https://adrec.gov.ae/en/news/press-29---adrec-releases-the-abu-dhabi-real-estate-market-report-for-h1-2026) + [Bayut Index](https://www.bayut.com/property-market-analysis/index/) Sep 2026; ValuStrat Q3 2025 row not re-verified)*
 
 ### Compute
 
 1. Listing AED/sqft = listing AED ÷ BUA sqft (BUA = Built-Up Area; some listings show sellable area instead of BUA — clarify which)
 2. Cross-check with Bayut Index for the same community + property type
 3. Cross-check with **DLD transaction history** for the same building (DLD Dubai REST app shows recent sold prices building-by-building)
-4. **Trap**: Off-plan list price ≠ ready market — apply 5–15% off-plan-to-handover discount when comparing
-5. **Trap**: Branded residences (Bulgari, Armani, Atlantis The Royal) carry 50–150% premiums vs peer non-branded — don't average them in
+4. **Trap**: Off-plan list price ≠ ready market — est. 5–15% off-plan-to-handover discount when comparing (rule of thumb, no primary source)
+5. **Trap**: Branded residences (Bulgari, Armani, Atlantis The Royal) carry est. 50–150% premiums vs peer non-branded (unsourced rule of thumb — calibrate on DLD / REIDIN comps for the same community) — don't average them in
 6. **Trap**: Service-charge-included vs net rent for rental yield calcs — verify
 
 ---
@@ -180,7 +180,7 @@ This section determines whether a transaction is even legally possible. Confirm 
 
 - **RTA Dubai** (Roads and Transport Authority): `https://www.rta.ae/` — open data portal `https://www.rta.ae/wps/portal/rta/ae/home/open-data`
 - **Department of Municipalities and Transport — Abu Dhabi (DMT)**: `https://www.tamm.abudhabi/` (TAMM is the unified Abu Dhabi services platform; transport open data via DMT)
-- **Federal Ministry of Energy and Infrastructure** (federal road network): `https://moei.gov.ae/`
+- **Federal Ministry of Energy and Infrastructure** (federal road network): `https://moei.gov.ae/` ⚠️ did not load in the 2026-10-28 check (timeout from a script and from a browser) — may be reachable from the UAE only
 
 ### Coarse fallback
 
@@ -199,9 +199,9 @@ OSM `highway` class:
 
 ### Notes
 
-- Dubai-side Sheikh Zayed Road carries 200,000+ v/d at peak in central segments (RTA data). Adjacency = guaranteed noise + congestion.
+- Dubai-side Sheikh Zayed Road central segments: the 200,000+ v/d figure is unverified — no RTA count located in the 2026-10-28 check; RTA's open-data page sends specific data requests to Dubai Pulse (`https://www.dubaipulse.gov.ae/`). Treat as est.; adjacency means noise + congestion regardless of the exact count.
 - Salik (Dubai toll) gantries: presence near a property often signals a major arterial.
-- Metro Red + Green lines (RTA) and forthcoming Blue Line (target opening 2029) materially affect catchment + price for stations within ~800 m.
+- Metro Red + Green lines (RTA) and the **Blue Line** under construction — 30 km, 14 stations (9 elevated, 5 underground), interchanges at Creek (Green Line), Centrepoint (Red Line) and International City 1; RTA's project page reports 10% complete, 30% expected by end-2026 and 200,000 daily users expected in 2030 (checked 2026-10-28). Operations are set to start on 9 Sep 2029 per RTA's announcement (Gulf News, 19 Dec 2024 — secondary; the RTA project page itself gives no date). Stations within est. ~800 m materially affect catchment + price.
 
 ---
 
@@ -326,13 +326,13 @@ What residents do pay annually:
 | Palm Jumeirah | ~5–7% | ~9–12% (premium) |
 | JVC / Damac Hills 2 | ~7–9% | ~9–12% |
 | Downtown | ~5–7% | ~10–13% |
-| Saadiyat (Abu Dhabi) | ~5–7% | ~7–10% |
+| Saadiyat (Abu Dhabi) | 4.05% apt · 4.47% villa (Bayut FY 2025, on listed prices) | ~7–10% (est., unsourced) |
 
-(Source: Bayut + Property Finder yield indices; verify current month — *yields gross of service charge, chiller, OA fees, vacancy*)
+(Dubai rows: Bayut + Property Finder yield indices, not re-verified 2026-10-28 — treat the ranges as est.; short-let column unsourced est. — *yields gross of service charge, chiller, OA fees, vacancy*. Calibration: DLD 2025 citywide averages give ≈ 5.5% gross for units (AED 1,141 rent ÷ AED 20,666 price per sq m) and ≈ 4.7% for villas (AED 791 ÷ AED 16,791) — computed, mixes rent and sale samples; REIDIN gross yield Sep 2026: Dubai 6.17%, Abu Dhabi 5.89%. Dubai rents are falling — REIDIN rent index −6.81% YoY in Sep 2026 — and Dubai hotel revenue per room fell 35.2% in H1 2026 (Global Property Guide, Oct 2026), so the short-let column is likely stale.)
 
 ### Strategic notes
 
-- **Service charge + chiller = 25–40% of gross yield** in many high-end towers — model NET yield, not gross
+- **Service charge + chiller can take est. 25–40% of gross yield** in many high-end towers (unsourced rule of thumb — pull the building's Mollak budget) — model NET yield, not gross
 - **Building OA approval** for STR is the single biggest gate — confirm BEFORE buying if STR is the strategy
 - **VAT on commercial leases (5%)** but residential is exempt
 - **PIT = 0%** federally (no income tax) — but US/UK/EU tax residents will face their own home-country tax on UAE rental income; the UAE has concluded 137 double taxation agreements (MoF), so check whether your country has one and how it treats income from immovable property
@@ -347,7 +347,7 @@ What residents do pay annually:
 - **GulfTalent** — `https://www.gulftalent.com/`
 - **LinkedIn UAE** — extremely active, especially for white-collar / tech / finance
 - **Naukrigulf** — `https://www.naukrigulf.com/` (strong for South Asian diaspora networks)
-- **Indeed UAE**, **Monster Gulf**, **Dubizzle Jobs**
+- **Indeed UAE**, **foundit Gulf** (formerly Monster Gulf — `monstergulf.com` redirects to `https://www.founditgulf.com/`, checked 2026-10-28), **Dubizzle Jobs**
 
 ### Visa routes for working
 
@@ -360,7 +360,7 @@ What residents do pay annually:
 
 ### Free Zone vs Mainland
 
-- **Mainland company** (DED licence) — can trade UAE-wide; historically required local 51% sponsor — **abolished for most activities since 1 June 2021** (Federal Decree-Law 26/2020); now 100% foreign ownership for ~1,000+ activities.
+- **Mainland company** (DED licence) — can trade UAE-wide; historically required local 51% sponsor — **abolished for most activities since 1 June 2021** (Federal Decree-Law 26/2020); now 100% foreign ownership for ~1,000+ activities (not re-verified 2026-10-28 — the date, statute and activity count were not confirmed at a primary source in this pass; check the activity with the emirate's licensing authority).
 - **Free Zone company** — 100% foreign ownership, 0% personal income tax, easier setup, but limited mainland trade (must use mainland distributor or open mainland branch).
 - 9% Corporate Tax applies to free zone entities EXCEPT "Qualifying Free Zone Persons", which pay 0% on "Qualifying Income" (Cabinet Decision 100/2023, not an FTA decision; MoF CT page) — narrow conditions.
 
@@ -368,16 +368,16 @@ What residents do pay annually:
 
 - Within 30 min drive of Sheikh Zayed Road / Downtown / DIFC: full white-collar opportunity
 - Sharjah residents commuting to Dubai: 60–90 min peak — common but tiring
-- Abu Dhabi: separate labour market from Dubai (90 min between centres, light commute population)
+- Abu Dhabi: separate labour market from Dubai (est. 90 min between centres, light commute population)
 - Northern Emirates (RAK / Fujairah): thin mainland labour markets; remote work + property as Golden Visa anchor more typical
 
 ### Income benchmarks
 
-- Median expatriate professional salary 2025–2026: AED 15,000–35,000/month (white-collar mainland) — varies massively by sector
+- Expatriate professional salary 2025–2026: est. AED 15,000–35,000/month (white-collar mainland; secondary salary guides, not a computed median) — varies massively by sector
 - Tech / finance / law senior roles in DIFC / ADGM: AED 40,000–120,000/month + bonuses
 - Free zone freelancers: variable; common AED 8,000–25,000/month equivalent invoicing
 
-(Sources: Bayt.com salary guides, GulfTalent annual reports — verify current year)
+(Sources: Bayt.com salary guides, GulfTalent annual reports — secondary, not re-verified 2026-10-28; all three income figures above are est. Benchmark against the ICP Green Visa floor of AED 15,000/month for skilled workers)
 
 ---
 
@@ -529,12 +529,12 @@ UAE urban property is essentially **always on mains** for water + electricity + 
 
 ## Common listing platforms
 
-- **Bayut** (largest by listings) — `https://www.bayut.com/`
+- **Bayut** — `https://www.bayut.com/` (blocks scripted requests with HTTP 503; loads in a browser, checked 2026-10-28)
 - **Property Finder** (UAE-wide, strong analytics) — `https://www.propertyfinder.ae/`
 - **Dubizzle Property** — `https://www.dubizzle.com/property-for-sale/`
 - **Houza** — challenger portal; ceased operations Feb 2024 per trade press (`https://www.onlinemarketplaces.com/articles/emirati-challenger-portal-houza-folds-as-investors-lose-appetite/`, 4 Apr 2024 — secondary) and `houza.com` no longer serves a website (2026-10-21 verified); no successor — use Bayut / Property Finder / Dubizzle above
 - **LuxHabitat** + **LuxuryProperty.com** + **Sotheby's UAE** (high-end)
-- **JustProperty.com** (Sharjah / Northern Emirates strong)
+- **JustProperty.com** — `justproperty.com` now 301-redirects to `https://www.propertyfinder.com` (checked 2026-10-28); no separate portal — use Property Finder
 - Developer direct portals (Emaar, Damac, Aldar, Nakheel, Sobha) for off-plan
 
 ## Caveats unique to UAE
