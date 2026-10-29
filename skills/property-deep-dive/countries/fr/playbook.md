@@ -90,16 +90,16 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 3. **Third-party aggregator** (use only if DGFiP open data lookup fails for the specific commune): `https://www.impots-locaux.org/impots-locaux-<commune-slug>-<postcode>/`
 4. **WebSearch fallback**: `"<commune>" taxe fonciere taux <year>` + TEOM rate
 
-**Confidence note**: department-level data (e.g., "Dordogne avg TFPB 47.34%") is HIGH; commune-specific extrapolation when DGFiP open data lookup is sparse is MEDIUM. State explicitly which you're using.
+**Confidence note**: department-level data (e.g., Dordogne TFPB taux de prélèvement 61.38 % in 2025 — DGFiP ratio of taxes principales + taxes annexes + frais to bases nettes, not a voted rate; 2025 data, source DGFiP xlsx updated 05/05/2026) is HIGH; commune-specific extrapolation when DGFiP open data lookup is sparse is MEDIUM. State explicitly which you're using.
 
 **Compute**:
-1. Estimate VLC (Valeur Locative Cadastrale): for rural 1970s build, tarif ≈ €15–25/m²/yr after current revaluations (varies by commune category 5/6/7).
+1. Estimate VLC (Valeur Locative Cadastrale): for rural 1970s build, tarif est. €15–25/m²/yr after current revaluations (varies by commune category 5/6/7) — unsourced heuristic: take the real base from the seller's avis de taxe foncière.
 2. Annual taxe foncière = `VLC × 50% × (taux_communal + taux_interco) + TEOM_amount`
-3. Annual taxe d'habitation RS = `VLC × 100% × (taux_communal + taux_syndicat)`. Surcharge majoration 5–60 % if zone tendue (verify on liste).
-4. Frais de notaire on €P (FAI minus agency fee): ≈ 7.5–8 % for ancien
-   - DMTO: **6.32 %** in the large majority of départements since Apr 2025 (5.00 % département + 1.20 % commune + ~0.12 % frais d'assiette, computed as 2.37 % × dept rate) — the +0.5 pp département-share hike (art. 116, LOI n° 2025-127) applies **only to acts signed 1 Apr 2025 – 31 Mar 2028**; for acts from 1 Apr 2028 rates revert to the previously voted level. A shrinking minority still holds **5.81 %** — 10 départements as of 1 Apr 2026 (Hautes-Alpes, Alpes-Maritimes, Ardèche, Charente, Drôme, Lozère, Oise, Hautes-Pyrénées, Saône-et-Loire, Guadeloupe; per impots.gouv.fr rate table as relayed by professional trackers) — and Indre + Mayotte keep the 3.80 % dept share (**≈5.09 %** total). Départements re-vote annually (delib changes typically effective ~1 June) — **always pull the current [impots.gouv.fr DMTO PDF](https://www.impots.gouv.fr/sites/default/files/media/1_metier/3_partenaire/notaires/dmto/dmto_2026-02.pdf) edition for the live rate**. **Primo-accédants** (no main-residence ownership in the prior 2 years, buying as main residence) are statutorily exempt from the +0.5 pp hike. (2026-07-03 verified; sources [Légifrance LF 2025 art. 116](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051169081) + impots.gouv.fr DMTO PDF + [AN question n° 5129](https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE5129)) **PTZ (prêt à taux zéro) — pending**: PLF 2027 art. 7 (bill, not adopted as of 2026-10-21) would let a household expecting a child or caring for a child under 3 take a PTZ without the first-ownership condition, once per beneficiary and under the PTZ income conditions; PTZ finances a primary residence only — see shared/regulatory-watch.md (FR) ([AN projet de loi n° 3210](https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi)).
-   - Émoluments notaire: dégressif ~0.8–1.2 %
-   - Débours + sécurité immobilière: €600–1,500
+3. Annual taxe d'habitation RS = `VLC × 100% × (taux_communal + taux_syndicat)`. Surcharge (majoration) of 5–60 % on the communal share, by council vote, only in eligible communes — for 2026 the TLV-list communes (3,689 eligible, 1,666 applied it, 688 at 60 % — DGFiP, Jul 2026); from 2027 impositions the communes in CGI art. 1406 bis I B (art. 1407 ter as rewritten by LFI 2026 art. 108) — check the commune's deliberation.
+4. Frais de notaire on €P (FAI minus agency fee): 7–8 % for ancien per notaires.fr — on €145,000 in a 6.32 % département the DMTO, émoluments TTC and CSI alone come to 7.71 % (computed: 6.32 % + 1.29 % + 0.10 %, inputs below), before formalités and débours
+   - DMTO: **6.32 %** in 87 of the 99 rate areas of the 1 June 2026 table (5.00 % département + 1.20 % commune + ~0.12 % frais d'assiette, computed as 2.37 % × dept rate) — the +0.5 pp département-share hike (art. 116, LOI n° 2025-127) applies **only to acts signed 1 Apr 2025 – 31 Mar 2028**; for acts from 1 Apr 2028 the rate in force on 31 Jan 2025 applies. **5.81 %** (4.50 % dept share) applies in 11 départements under the 1 June 2026 table (Hautes-Alpes, Alpes-Maritimes, Ardèche, Charente, Drôme, Lozère, Oise, Hautes-Pyrénées, Saône-et-Loire, Guadeloupe, Mayotte — Mayotte moved from 3.80 % to 4.50 % on 1 June 2026) — and only Indre keeps the 3.80 % dept share (**≈5.09 %** total). Ordinary art. 1594 D votes take effect on 1 June; art. 116 hikes notified 16 Apr–30 Nov 2026 apply to acts from 1 Jan 2027 (art. 116 III as rewritten by LFI 2026 art. 121) — **always pull the current [impots.gouv.fr DMTO PDF](https://www.impots.gouv.fr/sites/default/files/media/1_metier/3_partenaire/notaires/dmto/dmto_2026-06.pdf) edition for the live rate**. **Primo-accédants** (no main-residence ownership in the prior 2 years, buying as main residence) are statutorily exempt from the +0.5 pp hike and pay the art. 1594 D rate (4.50 % in most départements → ≈5.81 %); foreign residents qualify when the first-ownership test is met on French territory (BOFiP). (2026-10-28 verified; sources [BOFiP BOI-ENR-DMTOI-10-20-20260617](https://bofip.impots.gouv.fr/bofip/3311-PGP.html/identifiant=BOI-ENR-DMTOI-10-20-20260617) + [Légifrance LF 2025 art. 116](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051169081) + impots.gouv.fr DMTO PDF + [AN question n° 5129](https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE5129)) **PTZ (prêt à taux zéro) — pending**: PLF 2027 art. 7 I.A (bill, not adopted as of 2026-10-28; Assemblée vote on the first part set for 3 Nov 2026) would let a household expecting a child or caring for a child under 3 take a PTZ without the first-ownership condition, once per beneficiary and under the PTZ income conditions; PTZ finances a primary residence only — see shared/regulatory-watch.md (FR) ([AN projet de loi n° 3210](https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi)).
+   - Émoluments notaire: barème proportionnel (Code de commerce art. A444-91, rates applicable since 1 Jan 2021) 3.870 % to €6,500, 1.596 % to €17,000, 1.064 % to €60,000, 0.799 % above, + 20 % TVA → €1,555.80 HT / €1,866.96 TTC on €145,000 (computed; about 0.84–1.20 % HT between €100,000 and €1M)
+   - Contribution de sécurité immobilière 0.10 % of the price (CGI art. 881 K; €145 on €145,000) + émoluments de formalités and débours: est. €600–1,500 in total — unsourced range, ask the notaire for the état prévisionnel
 5. Future risk: **Révision des Valeurs Locatives des Locaux d'Habitation (RVLLH)** ⚠️ postponed to **2028 declarations → 2030 new values → 2031 tax impact** by **LFI 2026** (art. 106 II, LOI n° 2026-103 du 19 février 2026, rewriting the years in art. 146 LF 2020 — CGI art. 1518 A quinquies A, created by the same art. 106, concerns professional premises, not housing) — *not* PLF 2024/2025; no official taxe foncière impact figure has been published — data not publicly available, verify at DGFiP (impots.gouv.fr); the Government's Sénat written answer of 14 May 2026 gives none, and the unofficial +20–40 % rural figure is withdrawn as unsourced. Nothing rolls in 2026–2028; the Government's report to Parliament is now due **1 Sept 2029** (was 1 Sept 2026), and Sénat rapport l25-312 notes this volet would not be fully executed before **c.2040** — parliamentary commentary, not statute, but it is the realistic horizon for any buyer treating this as a live cost. Dates per [ANIL — analyse LF 2026 art. 106](https://www.anil.org/aj-loi-finances-2026/) + [Légifrance art. 106](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053508773) (2026-10-21 verified — dates; the 1 Jul 2028 declaration deadline applies to owners of let-out dwellings, art. 146 VI)
 
 **Decision tree for residence type**:
@@ -128,20 +128,20 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 3. Realistic year-3 stabilised gross: 16–22 weeks × commune-typical rate (est. — skill heuristic; INSEE's occupancy survey does not cover gîtes, so calibrate on the competition mapped in step 1)
 4. Apply tax regime:
    - Below €15k AND non-classé → micro-BIC 30 % abatement
-   - Classé (or chambres d'hôtes) → micro-BIC **50 %** abatement (a non-classé above the €15k plafond cannot use micro-BIC → régime réel; 2025 data, source Service-Public A17883) (classement via organisme accrédité COFRAC) — plafond **€83,600 for 2026 income onward** (€77,700 applies to 2025 income declared in 2026; classé + chambres d'hôtes, per Loi Le Meur 2024-1039 en vigueur 1 Jan 2025 — was €188,700 pre-reform — then the 2026-2028 triennial revaluation). (2026-07-03 verified; sources [Légifrance Loi 2024-1039](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711) + [Service-Public entreprendre A18813](https://entreprendre.service-public.gouv.fr/actualites/A18813))
-   - Above €23k revenue → URSSAF 6 % (classé) or 21.2 % (non-classé)
-   - Above €83.6k (2026 income; €77.7k for 2025 income) → régime réel
+   - Classé (or chambres d'hôtes) → micro-BIC **50 %** abatement (a non-classé above the €15k plafond cannot use micro-BIC → régime réel; 2025 data, source Service-Public A17883) (classement by a COFRAC-accredited or agréé organisme) — plafond **€83,600 for 2026 income onward** (€77,700 applies to 2025 income declared in 2026; classé + chambres d'hôtes, per Loi Le Meur 2024-1039 en vigueur 1 Jan 2025 — was €188,700 pre-reform — then the 2026-2028 triennial revaluation). (2026-10-28 verified; sources [BOFiP ACTU-2025-00127](https://bofip.impots.gouv.fr/bofip/14765-PGP.html/ACTU-2025-00127) + [Légifrance Loi 2024-1039](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711) + [Service-Public entreprendre A18813](https://entreprendre.service-public.gouv.fr/actualites/A18813))
+   - Social contributions: classé meublé de tourisme — micro-social 6 % of turnover, due once annual turnover exceeds €23,000; chambres d'hôtes — 21.2 % from 1 Jan 2026 (was 12.3 %), due once income exceeds 13 % of the PASS (€6,123 in 2025); a non-classé meublé de tourisme can no longer use the micro-entrepreneur regime from 1 Jan 2026 (régime réel des travailleurs indépendants, contributions due above €23,000) (2026 data, sources URSSAF 4 Nov 2025 + Service-Public F39451)
+   - Above €83.6k (2026 income; €77.7k for 2025 income) two calendar years running → régime réel
    - **Pending, not law — PLF 2027 art. 7 (bill, not adopted as of 2026-10-28; Assemblée vote on the first part set for 3 Nov 2026)**: in the régime réel (a non-classé above €15k, or any gîte above €83.6k) amortisation of a meublé de tourisme would be deductible at most at 1.5 % and €5,000/yr per foyer fiscal (2.5 % and €7,000 for other furnished lets); a commission amendment allowing none for meublés de tourisme acquired from 1 Jan 2027 is not in the text the Assemblée is debating — the commission rejected the whole first part on 9 Oct 2026, so the séance works on the government text, where art. 7 was still unexamined after the 27 Oct sittings. Keep projections on current law until LFI 2027 is promulgated — see shared/regulatory-watch.md (FR) ([AN projet de loi n° 3210](https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi))
 
 5. Subtract 35–45 % operating costs (cleaning, linen, utilities, commissions) (est. — skill heuristic, not a published benchmark)
 6. Compute net at TMI 11 % and TMI 30 %
-7. Note: classement = 50 % abatement + 6 % URSSAF + plafond €83,600 (2026 income onward; €77,700 for 2025 income) vs 30 %/21.2 %/€15k unclassified (Loi Le Meur 2024-1039 + 2026-2028 triennial revaluation)
+7. Note: classement = 50 % abatement + 6 % URSSAF + plafond €83,600 (2026 income onward; €77,700 for 2025 income) vs 30 % / no micro-social regime from 2026 / €15k unclassified (Loi Le Meur 2024-1039 + 2026-2028 triennial revaluation; URSSAF 4 Nov 2025)
 
 **Strategic levers**:
-- **Classify it** — free in most departments via the ADT (Agence Départementale du Tourisme)
+- **Classify it** — voluntary, 1–5 étoiles, valid 5 years; the inspection visit is paid by the owner and done by a COFRAC-accredited or agréé organisme of their choice (DGE; Service-Public F39451) — fee example, one département only: €180 TTC per meublé at the Aude ADT (note of 16 Jan 2026; lower rates only for several meublés in the same commune); ask the chosen organisme or the ADT (Agence Départementale du Tourisme) for its fee
 - **Pool / spa** — a candidate revenue lever (unquantified — compare the pool / no-pool tariffs of the competition mapped in step 1)
 - **Service à la personne** registration if you also offer in-person services
-- **Taxe foncière exonération** under CGI art. 1383 E bis — many rural communes allow exoneration of meublés classés
+- **Taxe foncière exonération** under CGI art. 1383 E bis — a commune or EPCI may exempt classé meublés de tourisme and chambres d'hôtes in a France Ruralités Revitalisation (ZFRR) zone by délibération taken before 1 October; not automatic and TEOM stays due (Service-Public F59)
 
 **Caveats**:
 - Loi Le Meur (Nov 2024) lowered non-classé thresholds drastically (was 77.7k → now 15k)
@@ -274,7 +274,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 | Termites | Commune in arrêté préfectoral | 6 months |
 | Électricité | Installation > 15 yrs old | 3 years |
 | Gaz | Installation > 15 yrs old (if gas) | 3 years |
-| Assainissement non-collectif | Rural, no mains | 3 years |
+| Assainissement non-collectif | Not connected to the public sewer | 3 years |
 | Mérule | Commune in a prefectoral mérule zone | Mention in the promesse / acte, not a diagnostic — no set validity (service-public F10798) |
 | Bruit (aéroport) | Housing or buildable land in an airport PEB zone A–D (service-public F35266) | — |
 | Carnet d'information du logement (CIL) | Permit or déclaration préalable filed from 1 Jan 2023, or renovation works since then (service-public F10798, F36759) | Handed over by the deed at the latest |
@@ -297,7 +297,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 | Pool (above-ground 6×3) | €5,000–€10,000 |
 | Pool (in-ground 8×4 with deck) | €25,000–€45,000 |
 | Building inspection (independent surveyor) | €600–€1,200 |
-| Notary fees on €145k ancien | €10,500–€11,200 |
+| Notary fees on €145k ancien | est. €11,600–€12,500 at 6.32 % DMTO; €10,900–€11,800 at 5.81 % (computed: DMTO €9,162 / €8,420 + émoluments €1,867 TTC + CSI and débours est. €600–1,500) |
 
 ## Common listing platforms
 
@@ -319,10 +319,10 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 ## Caveats unique to FR
 
 - RVLLH cadastral reform ⚠️ postponed by LFI 2026 (art. 106) to **2028 declarations → 2031 tax impact** → no official taxe foncière impact figure published — data not publicly available, verify at DGFiP (2026-10-21 verified — dates per Légifrance art. 106 LFI 2026 + ANIL LF 2026)
-- DPE F (2028) and E (2034) banned for rental
+- DPE G (since 1 Jan 2025), F (from 1 Jan 2028) and E (from 1 Jan 2034) fall below the décence floor for residential leases in metropolitan France (calendar restated in the contrat-type annex in force since 1 Oct 2026)
 - Loi Le Meur (Nov 2024) tightens short-let regime
-- Service à la personne credit = 50 % deduction for client (huge competitive lever)
-- Auto-entrepreneur plafonds change by activity (BIC ≠ BNC ≠ chambres d'hôtes)
+- Service à la personne: clients get a 50 % income-tax credit (crédit d'impôt, CGI art. 199 sexdecies) on expenses up to €12,000/yr (+€1,500 per child or over-65 household member, max €15,000; sub-caps such as €5,000 small gardening) — a large competitive lever (2026 data, source Service-Public F12)
+- Micro-entreprise plafonds by activity (2026–2028): €83,600 for services and BNC and for all furnished letting including classé meublés de tourisme and chambres d'hôtes; €15,000 for non-classé meublés de tourisme; €203,100 for sales and hotel-type lodging (BOFiP 19 Aug 2026 + Service-Public entreprendre F39451 + URSSAF 4 Nov 2025; Service-Public entreprendre A18813 still lists chambres d'hôtes under €203,100, which conflicts with them)
 
 ## Quirks to know
 
@@ -346,7 +346,7 @@ For FR-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 | Register | Action | Authority | URL |
 |---|---|---|---|
-| Tax residence | File final-year déclaration with foreign address; verify CGI Art. 4 B residence test against destination DTA tie-breaker; flag CGI Art. 167 bis exit-tax check (shareholdings > €800k or > 50% interest) | DGFiP — Particulier international | [impots.gouv.fr/international-particulier](https://www.impots.gouv.fr/les-conventions-internationales) |
+| Tax residence | File final-year déclaration with foreign address; verify CGI Art. 4 B residence test against destination DTA tie-breaker; flag CGI Art. 167 bis exit-tax check (holdings worth over €800,000 or at least 50 % of a company's profits, for taxpayers French-resident in at least 6 of the 10 years before leaving) | DGFiP — Particulier international | [impots.gouv.fr/international-particulier](https://www.impots.gouv.fr/les-conventions-internationales) |
 | Tax address change | Change adresse fiscale via espace particulier | DGFiP | [impots.gouv.fr](https://www.impots.gouv.fr/) |
 | Civil register | No central FR civil register; tax-address change is the binding state notice. Mairie of last residence may also be informed (informal). | Mairie | (commune-level) |
 | Health insurance | Notify CPAM; if EU/EEA/CH destination, request **S1 form** via [Reg 883/2004](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0883) for transition coverage | Assurance Maladie / CPAM | [ameli.fr](https://www.ameli.fr/) |
