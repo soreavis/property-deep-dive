@@ -116,19 +116,19 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 ### Primary sources
 
-- **General Statistics Office (Tổng cục Thống kê, GSO)** — official real estate price indices, construction CPI, urban housing surveys.
+- **National Statistics Office (Cục Thống kê, NSO — formerly the General Statistics Office / Tổng cục Thống kê; reorganised as a department of the Ministry of Finance from 1 Mar 2025 under Quyết định 384/QĐ-BTC of 26 Feb 2025)** — CPI, construction and population / housing statistics. The NSO's national-indicator metadata defines a quarterly / annual real-estate price index (chỉ số giá bất động sản; lead agency the statistics office, with the Ministry of Construction and the Ministry of Finance), but no published series was located in the 2026-10-29 pass — data not publicly available as a time series; verify at the NSO portal.
   - Portal: `https://www.nso.gov.vn/en/homepage/`
   - English summaries: `https://www.nso.gov.vn/en/statistical-data/`
 - **State Bank of Vietnam (SBV)** — quarterly real-estate credit reports + financial-stability monitors. `https://www.sbv.gov.vn/`
-- **Ministry of Construction (Bộ Xây dựng)** — quarterly housing market reports, price band updates by city. `https://moc.gov.vn/`
-- **Provincial Sở Xây dựng** — local market reports (HCMC `https://soxaydung.hochiminhcity.gov.vn/`, Hanoi `https://soxaydung.hanoi.gov.vn/`).
-- **MAE (formerly MONRE) provincial land price tables (Bảng giá đất)** — the provincial People's Council (HĐND) decides the land-price table on the provincial People's Committee's submission (2024 Land Law Art. 159(3); Decree 71/2024/ND-CP); under NA Resolution 254/2025/QH15 Art. 7(3) (in force 1 Jan 2026) the tables apply from 1 Jan 2026 and are amended when necessary rather than rebuilt every year, and the provincial People's Committee issues a land-price adjustment coefficient from 1 Jan each year (Art. 8(2)). These are the **statutory tax-base values**, typically 30–60% of market prices in major cities. Verify at provincial Sở TN&MT.
+- **Ministry of Construction (Bộ Xây dựng)** — quarterly report publishing housing and real-estate market information (latest located: Q2 2026, released 21 Aug 2026 — 100,005 transactions, 71.5 % of Q1; secondary-market apartment, villa and land-plot prices edging down, land plots −2–3 %; real-estate lending rates commonly 12–14 % a year, floating up to 15–16 % in places), plus the national Housing and Real-Estate Market Information System `https://thongtinbds.moc.gov.vn/` (lists commercial and social-housing projects disclosed by the developer before sale, and electronic property-ID lookup; checked 2026-10-29). `https://moc.gov.vn/`
+- **Provincial Sở Xây dựng** — local market reports (HCMC `https://soxaydung.hochiminhcity.gov.vn/`, Hanoi `https://soxaydung.hanoi.gov.vn/`). HCMC portal loads; the Hanoi portal did not load from outside Vietnam by script or browser on 2026-10-29 — re-probe from a VN egress.
+- **MAE (formerly MONRE) provincial land price tables (Bảng giá đất)** — the provincial People's Council (HĐND) decides the land-price table on the provincial People's Committee's submission (2024 Land Law Art. 159(3); Decree 71/2024/ND-CP); under NA Resolution 254/2025/QH15 Art. 7(3) (in force 1 Jan 2026) the tables apply from 1 Jan 2026 and are amended when necessary rather than rebuilt every year, and the provincial People's Committee issues a land-price adjustment coefficient from 1 Jan each year (Art. 8(2)). First tables under the 2024 Land Law: HCMC Nghị quyết 87/2025/NQ-HĐND of 26 Dec 2025 (top residential value VND 687.2M/m² on Đồng Khởi, Nguyễn Huệ and Lê Lợi, unchanged from Decision 79/2024) and the Hanoi table adopted by the city People's Council on 26 Nov 2025, both applied from 1 Jan 2026 (Government portal). These are the **statutory tax-base values**; the often-quoted 30–60 % of market price in major cities is **est.** (no primary source compares the tables with market prices, and the gap varies by street). Verify at the provincial Sở Nông nghiệp và Môi trường (ex-Sở TN&MT).
 
 ### Listing platforms (secondary, listings = seller-controlled)
 
-- **Batdongsan.com.vn** — largest real estate portal in Vietnam, owned by PropertyGuru Group (via Property Guru Vietnam). Bilingual VN/EN. `https://batdongsan.com.vn/`
-- **Chotot Nha Dat** — classifieds-style, very high listing volume but mixed quality. `https://www.chotot.com/mua-ban-bat-dong-san`
-- **PropertyGuru Vietnam** — foreign-buyer-facing, English-dominant, premium / international developments. `https://batdongsan.com.vn/`
+- **Batdongsan.com.vn** — PropertyGuru Group's Vietnam marketplace (site footer: Công ty Cổ phần PropertyGuru Việt Nam). Vietnamese-language only — no English version on the site (checked 2026-10-29). `https://batdongsan.com.vn/`
+- **Nhà Tốt (Chợ Tốt's property section, formerly listed here as 'Chotot Nha Dat')** — classifieds-style, mixed quality; operator Công ty TNHH Chợ Tốt. `https://www.nhatot.com/mua-ban-bat-dong-san` (the old chotot.com path 301-redirects here, checked 2026-10-29)
+- **PropertyGuru Vietnam — no separate portal**: PropertyGuru Group lists Batdongsan as its only Vietnam marketplace, and propertyguru.vn / propertyguru.com.vn did not respond on 2026-10-29 — use Batdongsan (above); the 'English-dominant, foreign-buyer-facing' description no longer applies.
 - **Alonhadat.com.vn** — Vietnamese-language, broad coverage. `https://alonhadat.com.vn/`
 - **Nhadat24h, Mogi.vn, Homedy.com** — secondary platforms
 - **Developer-direct websites** — Vinhomes (Vingroup), Novaland, Sun Group, Masterise, Phu My Hung, CapitaLand, Keppel Land — for new launches; broker listings of new launches are often not the developer's "official" channel and may carry premium markups.
@@ -137,7 +137,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 > **Source warning**: Vietnam has no equivalent of REIC's quarterly transfer-price index at the granularity of Bangkok/Tokyo. Listing-platform averages are seller-controlled; the closest realized-price reference is the MAE (formerly MONRE) provincial land price table (statutory) and Ministry of Construction quarterly reports (aggregate). Use Batdongsan.com.vn for comp shopping, Ministry of Construction for verdicts.
 
-| Locality | Segment | VND/m² range | USD/m² est. (25,500 VND/USD) | Source |
+| Locality | Segment | VND/m² range (est., listing-derived; rows not re-verified 2026-10-29) | USD/m² est. (25,500 VND/USD) | Source |
 |---|---|---|---|---|
 | **HCMC central** (Quận 1, Quận 3, Quận 4, partial Quận 7 Phú Mỹ Hưng) | New apartment, premium developer | 100–250M VND/m² | ≈ $3,920–$9,800 | Batdongsan + MOC Q1 2026 [verify per project] |
 | **HCMC central** | Resale apartment 5–10 yr | 60–150M VND/m² | ≈ $2,350–$5,880 | Batdongsan + Chotot Q1 2026 |
@@ -151,20 +151,20 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 | **Phu Quoc** (foreign-eligible developments) | Condo / villa | 40–150M VND/m² | ≈ $1,570–$5,880 | PropertyGuru VN |
 | **Hoi An / former Quang Nam, now Đà Nẵng city** (limited foreign-eligible projects) | Villa | 35–80M VND/m² | ≈ $1,370–$3,140 | Batdongsan |
 
-> Ranges are listing-derived; verify realized vs listing using MOC quarterly reports and the provincial land price table (Bảng giá đất; applied from 1 Jan 2026, amended when necessary under NA Resolution 254/2025/QH15) as the statutory tax-base floor.
+> Ranges are listing-derived; verify realized vs listing using MOC quarterly reports and the provincial land price table (Bảng giá đất; applied from 1 Jan 2026, amended when necessary under NA Resolution 254/2025/QH15) as the statutory tax-base floor. **Calibration (checked 2026-10-29)**: MOC's Q2 2026 report puts the average apartment selling price at about VND 123M/m² in Hanoi and VND 108M/m² in HCMC (as reported by VTC News, 21 Aug 2026 — MOC's own summary page carries no city prices and the full report was not located), with secondary-market prices edging down from Q1. Batdongsan Q3 2026 (listing-based, secondary): HCMC apartment asking prices VND 69M/m² (−1 % QoQ), Da Nang VND 67M/m² (−1 %), Hanoi apartment asking prices −5 % QoQ (resale index −15 % year-to-September, new-build −9 %). Both point to a cooling market since the Q1 2026 reference behind the table.
 
 ### Compute
 
-1. Listing price/m² = listing VND ÷ usable area (diện tích sử dụng / "carpet area"). **Trap**: many Vietnamese listings advertise on **diện tích thông thủy (interior wall-to-wall, similar to carpet)** OR **diện tích tim tường (centerline of walls, ~5–10% larger)** — clarify which. Historically developers preferred tim-tường (lower price/m² appearance); since 2014 thông thủy is the standard for tax computation, but listings vary.
+1. Listing price/m² = listing VND ÷ usable area (diện tích sử dụng / "carpet area"). **Trap**: many Vietnamese listings advertise on **diện tích thông thủy (interior wall-to-wall, similar to carpet)** OR **diện tích tim tường (centerline of walls, ~5–10% larger)** — clarify which. Historically developers preferred tim-tường (lower price/m² appearance); the Housing Law 2023 (27/2023/QH15) itself sets how apartment usable area is calculated — Art. 3(4) bans applying a wrong calculation of usable area 'prescribed in this Law', and VTC News (14 Dec 2024, secondary) cites Art. 143(1): usable area by thông thủy dimensions, counting balconies, loggias and internal partition walls but not party or external walls, columns or technical shafts. The older 'since 2014' and 'used for tax' claims are **not verified**, and listings still vary — confirm which area the sale contract and the Pink Book state. The 5–10 % tim-tường uplift is est.
 2. Compare to MOC quarterly housing report for the same district.
 3. Compare to nearest 3–5 same-project / same-street listings on Batdongsan.com.vn or Chotot.
-4. Pull the provincial **land price table** (current version — amended when necessary, NA Resolution 254/2025/QH15 Art. 7(3)) for the parcel — statutory tax base, often 30–60% of market.
-5. **Trap (foreign quota premium)**: apartment units sold within foreign quota frequently list 5–15 % higher than the same-floor Vietnamese-quota equivalent (limited supply). Verify whether the unit is "foreign-eligible" (suất ngoại) or not — they are NOT interchangeable for foreign buyers.
-6. **Trap (developer pre-sale risk)**: many new launches sell off-plan with 70–95 % paid before handover. The 2023 Real Estate Business Law tightened developer escrow rules but completion delays remain common — discount accordingly.
+4. Pull the provincial **land price table** (current version — amended when necessary, NA Resolution 254/2025/QH15 Art. 7(3)) for the parcel — statutory tax base; est. 30–60 % of market (no primary comparison — varies by street).
+5. **Trap (foreign quota premium)**: apartment units sold within foreign quota frequently list est. 5–15 % higher (no primary source) than the same-floor Vietnamese-quota equivalent (limited supply). Verify whether the unit is "foreign-eligible" (suất ngoại) or not — they are NOT interchangeable for foreign buyers.
+6. **Trap (developer pre-sale risk)**: many new launches sell off-plan. The Real Estate Business Law 2023 (Law No. 29/2023/QH15, in force 1 Aug 2024 per Law 43/2024/QH15) caps payments for future housing (nhà ở hình thành trong tương lai): a deposit of at most 5 % of the price, taken only once the project qualifies for sale (Art. 23(5)); a first instalment of at most 30 % of the contract value including the deposit, then payments by construction progress, at most 70 % before handover (50 % if the seller is a foreign-invested economic organisation under Art. 10(4)); and at most 95 % until the buyer's certificate (Pink Book) is issued (Art. 25(1), (3)). A Real Estate Business Law (amended) bill is before the Oct–Nov 2026 National Assembly session (see `shared/regulatory-watch.md`), so re-check these caps. Completion delays remain common — discount accordingly.
 
 ### Confidence
 
-**MEDIUM** for HCMC and Hanoi central ranges (Batdongsan + MOC + provincial tables broadly agree within ±15 %). **MEDIUM-LOW** for Da Nang / Phu Quoc / Nha Trang (data dominated by foreign-buyer-facing platforms; less transparent realized-price data). **LOW** for tier-2/3 cities and rural land (effectively unreachable for foreign buyers anyway).
+**MEDIUM** for HCMC and Hanoi central ranges — listing-derived and not re-verified row by row; city-wide calibration points (MOC Q2 2026 via VTC News, Batdongsan Q3 2026) are in the note under the table; the provincial land-price tables are a statutory base, not a market check (the earlier 'agree within ±15 %' claim had no source). **MEDIUM-LOW** for Da Nang / Phu Quoc / Nha Trang (data dominated by foreign-buyer-facing platforms; less transparent realized-price data). **LOW** for tier-2/3 cities and rural land (effectively unreachable for foreign buyers anyway).
 
 ---
 
@@ -179,7 +179,7 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 ### Verdict bands (vehicles per day, mixed motorbike + car)
 
-> **Vietnam-specific note**: vehicle counts in Vietnam dominantly mean **motorbikes (xe máy)** — Vietnam has ~70+ million registered motorbikes vs ~6M cars (2024 GSO). A "10,000 v/d" Vietnamese street is overwhelmingly two-wheeler traffic with very different noise / pollution / safety profile vs an OECD car-dominant equivalent.
+> **Vietnam-specific note**: vehicle counts in Vietnam dominantly mean **motorbikes (xe máy)** — registrations stood at **84,003,180 motorbikes vs 7,134,939 cars** (Traffic Police / Cục CSGT data as reported by VOV, 8 Jul 2026 — state media, secondary). A "10,000 v/d" Vietnamese street is overwhelmingly two-wheeler traffic with very different noise / pollution / safety profile vs an OECD car-dominant equivalent.
 
 - 🟢 < 1,000 v/d: rural lane, ngõ / hẻm (alley), commune road
 - 🟡 1,000–10,000 v/d: small provincial road, urban side street
@@ -197,15 +197,15 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 ### HCMC-specific quirks
 
 - HCMC traffic is severe and chronic; AADT alone understates exposure because of stop-and-go congestion + motorbike density.
-- **Air quality** — HCMC arterials in dry season (Dec–Apr) show PM2.5 frequently 60–120 µg/m³ (WHO 24-hr guideline 15 µg/m³). Source: PAM Air `https://pamair.org/` and US Embassy AQI monitor.
+- **Air quality** — HCMC arterials in dry season (Dec–Apr) show PM2.5 est. 60–120 µg/m³ on bad days (not re-verified 2026-10-29 — read current station data before relying on it) (WHO 2021 24-hour guideline 15 µg/m³, confirmed). Source: PAM Air `https://pamair.org/` and US Embassy AQI monitor.
 - **Hẻm (alley) properties** — historic neighborhoods (Quận 1, Quận 3, Quận 5) are dense alley networks. A property in a deep hẻm has very low traffic but limited vehicle access (motorbike only past a certain depth).
-- Elevated highways (e.g., Bến Lức – Long Thành expressway) over residential areas generate noise + particulate exposure 24/7.
+- Elevated highways (e.g., Bến Lức – Long Thành expressway, ~58 km, scheduled to open end to end from the evening of 30 Sep 2026 per a same-day Đại biểu Nhân dân report) over residential areas generate noise + particulate exposure 24/7.
 
 ### Hanoi-specific quirks
 
-- Hanoi **odd-even motorbike restriction** trials and ongoing inner-city motorbike phase-out plan (target: city-center motorbike ban by 2030, originally 2025 but delayed) — verify at `https://hanoi.gov.vn/`.
-- Old Quarter (Quận Hoàn Kiếm) — pedestrianized weekends around Hoan Kiem Lake; residential properties here have fluctuating noise profiles weekday vs weekend.
-- Ring Roads 1, 2, 2.5, 3, 3.5, 4 (4 still under construction) — properties within 200 m of any ring road see significant traffic and pollution exposure.
+- Hanoi **low-emission zone (vùng phát thải thấp) inside Ring Road 1** — PM Directive 20/CT-TTg (12 Jul 2025) set a target of no fossil-fuel motorbikes inside Ring Road 1 from 1 Jul 2026; the scheme Hanoi adopted instead (city People's Council, 15 Jun 2026; zone maps in Quyết định 3273/QĐ-UBND) moves the ban on substandard petrol motorbikes to 1 Jan 2028 and phases it: **Phase 1** (1 Jul–31 Dec 2026) pilot in Areas 1–2 of Hoàn Kiếm ward, Area 1 closed to all motor vehicles 19:00–24:00 every Fri–Sun; **Phase 2** (2027) Areas 1–3 in Hoàn Kiếm and Cửa Nam wards, where fossil-fuel app-based motorbikes, fossil-fuel cars below emission level 4 and trucks over 3.5 t are barred; **Phase 3** (1 Jan 2028–31 Dec 2029) all of Ring Road 1 (9 wards: Hoàn Kiếm, Cửa Nam, Ba Đình, Giảng Võ, Ngọc Hà, Tây Hồ, Ô Chợ Dừa, Hai Bà Trưng, Văn Miếu - Quốc Tử Giám) — fossil-fuel app-based motorbikes, motorbikes below emission level 3 (QCVN 99:2025/BNNMT) and fossil-fuel cars below level 4 (QCVN 85:2025/BNNMT) barred, trucks over 3.5 t banned (Government portal, 5 Jul 2026). For a property in these wards, check vehicle access and parking for the address — verify at `https://hanoi.gov.vn/`.
+- Old Quarter (former Quận Hoàn Kiếm; the core Old Quarter wards Hàng Bạc, Hàng Bồ, Hàng Buồm, Hàng Đào, Hàng Gai and Hàng Mã were merged into phường Hoàn Kiếm under UBTVQH Resolution 1656/NQ-UBTVQH15, and the district tier was abolished on 1 Jul 2025) — pedestrianized weekends around Hoan Kiem Lake, and during the low-emission-zone pilot (to 31 Dec 2026) Area 1 of Hoàn Kiếm ward is closed to all motor vehicles 19:00–24:00 Fri–Sun (see above); residential properties here have fluctuating noise profiles weekday vs weekend.
+- Ring Roads 1, 2, 2.5, 3, 3.5, 4 (Ring Road 4 – Capital Region still under construction; its Hồng Hà and Mễ Sở Red River bridges are targeted for 2027 — Bộ Xây dựng, 23 Apr 2026) — properties within est. 200 m of a ring road see significant traffic and pollution exposure (heuristic, no measured source).
 
 ### Confidence
 
@@ -315,9 +315,9 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 ### Strategic notes
 
-- **HCMC central apartments (Quận 1, 2, 3, 7)**: long-term yields ~3–5 % gross; STR explicitly forbidden by most premium-building Ban Quản trị.
-- **Hanoi central apartments**: ~3–5 % gross long-term.
-- **Da Nang beachfront condotels**: developer-managed pool yields theoretically 6–10 % gross, but condotel legal structure (separate from standard residential) involves additional disclosure risk — many condotels were marketed pre-2018 with guaranteed returns that subsequently failed (Co Co Bay scandal 2019, Empire Group). Verify any condotel deal with VN-licensed lawyer.
+- **HCMC central apartments (Quận 1, 2, 3, 7)**: long-term yields est. 3–5 % gross (no primary yield statistic; Batdongsan's Q3 2026 report, listing-based, puts the city-wide old-HCMC apartment rental yield at 3.4 % and street-front shophouse yields at 2.3 % central / 3.1 % near-central); STR explicitly forbidden by most premium-building Ban Quản trị.
+- **Hanoi central apartments**: est. 3–5 % gross long-term (no primary yield statistic; Batdongsan's Q3 2026 report, listing-based, puts the city-wide Hanoi apartment rental yield at 2.4 %, below this range).
+- **Da Nang beachfront condotels**: developer-managed pool yields est. 6–10 % gross (no measured source; Batdongsan's Q3 2026 report puts ordinary Da Nang apartment rental yields at 4.5 %), but condotel legal structure (separate from standard residential) involves additional disclosure risk — many condotels were marketed pre-2018 with guaranteed returns that subsequently failed (Cocobay Đà Nẵng — its developer Empire Group, which had promised up to 12 %/yr, said in Nov 2019 it would stop paying committed returns from 1 Jan 2020). Verify any condotel deal with VN-licensed lawyer.
 - **Phu Quoc, Nha Trang resort developments**: similar — high-yield marketing, real returns vary widely; many failed-completion cases since 2018.
 - **Hoi An**: limited foreign-eligible projects; old-quarter homestays popular but legal complexity high (UNESCO heritage zone restrictions + foreign-eligibility limits).
 
@@ -331,12 +331,12 @@ Foreigners **do not need to be resident** in Vietnam to qualify — entering leg
 
 ### Job platforms
 
-- **VietnamWorks** (Navigos Group): `https://www.vietnamworks.com/` — largest in Vietnam, English+Vietnamese, MNC-heavy
+- **VietnamWorks** (operator Công ty Cổ phần Navigos Group Việt Nam, per the site footer 2026-10-29): `https://www.vietnamworks.com/` — Vietnamese and English interfaces (English at `https://www.vietnamworks.com/en`, checked 2026-10-29), MNC-heavy
 - **TopCV** (Vietnamese-language dominant): `https://www.topcv.vn/`
-- **CareerBuilder Vietnam**: `https://careerbuilder.vn/`
+- **CareerViet** (formerly CareerBuilder Vietnam): `https://careerviet.vn/` — careerbuilder.vn redirects here (checked 2026-10-29)
 - **LinkedIn Vietnam**: very active in tech, finance, MNCs, HCMC-and-Hanoi-centric
 - **Glints Vietnam**: `https://glints.com/vn` — startup/tech focused
-- **JobStreet Vietnam** (now SEEK/JobsDB Asia group): `https://www.jobstreet.vn/`
+- **JobStreet Vietnam — defunct**: `jobstreet.vn` 301-redirects to `jora.com` (checked 2026-10-29); no Vietnam JobStreet portal
 - **Department of Employment / Cục Việc làm**: under the **Ministry of Home Affairs (Bộ Nội vụ)** since **1 March 2025** — Nghị định 25/2025/NĐ-CP of 21 Feb 2025 (in force 1 Mar 2025) vested state management of *lao động, tiền lương, bảo hiểm xã hội; việc làm; an toàn, vệ sinh lao động* in Bộ Nội vụ, dissolving MOLISA's portfolio into it; it was replaced from 8 Jul 2026 by Nghị định 276/2026/NĐ-CP, which keeps the same fields in Bộ Nội vụ, gives it unified management of foreign workers in Vietnam (Art. 2(12)(a)) and lists Cục Việc làm among its units (2026 data, source Government Portal; 2026-10-21 verified) — `https://moha.gov.vn/`. **The former `vieclamvietnam.gov.vn` government job portal has no published successor — data not publicly available; verify at the [Ministry of Home Affairs](https://moha.gov.vn/).**
 
 ### Work permit & visa
@@ -348,9 +348,9 @@ Key requirements:
 2. The employer's report explaining the need for the foreign worker goes inside the work-permit dossier; the competent authority approves the need and issues the permit within 10 working days of a complete dossier (Decree 219/2025/NĐ-CP Art. 18(1), Art. 22(3))
 3. Category tests (Decree 219/2025/NĐ-CP Art. 3): expert = university degree + at least 2 years' relevant experience (1 year in finance / science / technology / innovation / national digital transformation or other designated priority fields); executive director heading a field = at least 3 years in that field; technical worker = at least 1 year's training + 2 years' experience, or at least 3 years' experience; manager = enterprise manager under Enterprise Law Art. 4(24) or head / deputy head of an organisation
 4. Health certificate, criminal record check, work-experience confirmation
-5. Validity: up to **2 years**, renewable
+5. Validity: up to **2 years** (Decree 219/2025/NĐ-CP Art. 21(1)), extendable **once only** for up to 2 more years (Labour Code Art. 155)
 
-**Exemptions** (no work permit needed): senior managers of foreign-invested companies, intra-company transferees with WTO commitments, lawyers with practicing certificate, married to Vietnamese with TRC, foreign students in internship at Vietnamese branch of foreign employer, etc. (Article 7 Decree 219/2025/NĐ-CP, whose clause 1 incorporates Labour Code Art. 154 clauses 3-8; Art. 7(2)-(3) set a VND 3 billion capital-contribution floor for LLC owners / members and JSC board chairs / members; list above not re-verified item by item against Art. 7).
+**Exemptions** (no work permit needed; Decree 219/2025/NĐ-CP Art. 7, whose clause 1 incorporates Labour Code Art. 154 clauses 3-8): foreign lawyers licensed under the Law on Lawyers; foreigners married to a Vietnamese citizen and living in Vietnam (no TRC condition in the text); heads of representative offices / projects of international organisations and foreign NGOs; stays under 3 months to offer services or to fix complex technical incidents; owners / members of an LLC and board chairs / members of a JSC with a capital contribution of VND 3 billion or more (Art. 7(2)-(3)); managers, executive directors, experts and technical workers in Vietnam for under 90 days in a calendar year, or intra-corporate transferees in the 11 WTO-committed service sectors employed by the foreign enterprise for at least 12 continuous months (Art. 7(13)); students / trainees with an internship agreement or job offer (Art. 7(7)); people confirmed by a ministry or provincial People's Committee to work in finance, science, technology, innovation, national digital transformation or priority fields (Art. 7(15)); plus other listed cases (ODA advisers, accredited journalists, volunteers, official-passport holders). Labour Code Art. 154(8a), added by Law 71/2025/QH15 from 1 Jan 2026, also exempts high-quality digital-technology-industry personnel. (Re-verified item by item 2026-10-29; 'senior managers of foreign-invested companies' is not an exemption as such.)
 
 ### Visa pathways relevant to property buyers
 
@@ -370,17 +370,17 @@ Key requirements:
 
 - A foreign freelancer in Vietnam still legally needs a work permit if working physically in Vietnam for Vietnamese clients.
 - Working remotely for foreign employers from Vietnam is in a grey zone — increasingly tolerated under tourist / DT visa, but no formal "digital nomad visa" exists as of 2026-05-01 (multiple proposals tabled in 2024–2025; verify at `https://chinhphu.vn/`).
-- Foreign entrepreneur incorporating a Vietnamese enterprise: needs IRC + Enterprise Registration Certificate (ERC) + minimum capital (varies by sector, typically USD 10k–50k), then can self-sponsor a DT visa.
+- Foreign entrepreneur incorporating a Vietnamese enterprise: needs IRC + Enterprise Registration Certificate (ERC) + minimum capital (varies by sector; est. USD 10k–50k in practice — no general statutory minimum verified), then can self-sponsor a DT visa.
 
 ### Salary benchmarks (HCMC + Hanoi 2025–2026)
 
-| Role | Median monthly gross VND | USD est. (25,500 VND/USD) |
+| Role | Monthly gross VND (est. unless a source is named) | USD est. (25,500 VND/USD) |
 |---|---:|---:|
 | Software engineer (mid-senior, MNC) | 35–80M | $1,370–$3,140 |
 | English teacher (degree, certified) | 25–50M | $980–$1,960 |
 | Hotel mgmt (mid) | 25–60M | $980–$2,350 |
-| HCMC median (all sectors, 2024 GSO) | ~10–13M | ~$390–$510 |
-| **Minimum wage 2026 (Region I, HCMC + Hanoi urban)** | 4.96M VND/month (Decree 74/2024/ND-CP, effective 1 Jul 2024) | ~$195 |
+| National average monthly income, all workers (NSO Labour Force Survey, Q3 2026; no HCMC-specific figure in the release) | 9.2M (urban 10.9M); wage employees, 9 months 2026: 10.1M (urban 11.2M) | ~$361 (urban ~$427); ~$396 (urban ~$439) |
+| **Minimum wage 2026 (Region I — the urban Hanoi / HCMC wards and communes listed in the decree's Appendix)** | 5.31M VND/month, 25,500 VND/hour (Decree 293/2025/NĐ-CP of 10 Nov 2025, in force 1 Jan 2026, replacing Decree 74/2024/NĐ-CP); a Ministry of Home Affairs draft would raise Region I to 5.7M from 1 Jan 2027 (+7.8 % average) — proposal only, no decree found as at 2026-10-29 | ~$208 |
 
 Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov.vn/en/homepage/`, **Ministry of Home Affairs (Bộ Nội vụ, formerly MOLISA)** `https://moha.gov.vn/`, VietnamWorks salary surveys.
 
@@ -584,16 +584,16 @@ Sources: **NSO** (National Statistics Office, formerly GSO) `https://www.nso.gov
 
 ## Common listing platforms
 
-- **Batdongsan.com.vn** — `https://batdongsan.com.vn/` — largest, English+Vietnamese, all segments, owned by PropertyGuru
-- **Chotot Nha Dat** — `https://www.chotot.com/mua-ban-bat-dong-san` — classifieds-style, very high volume but mixed quality
-- **PropertyGuru Vietnam** — `https://batdongsan.com.vn/` — foreign-buyer focused, English-dominant, premium / international developments
+- **Batdongsan.com.vn** — `https://batdongsan.com.vn/` — Vietnamese-language only (no English version, checked 2026-10-29), all segments; PropertyGuru Group's Vietnam marketplace (operator Công ty Cổ phần PropertyGuru Việt Nam)
+- **Nhà Tốt (Chợ Tốt property, formerly 'Chotot Nha Dat')** — `https://www.nhatot.com/mua-ban-bat-dong-san` — classifieds-style, mixed quality (the old chotot.com path 301-redirects here, checked 2026-10-29)
+- **PropertyGuru Vietnam — no separate portal** — PropertyGuru Group's only Vietnam marketplace is Batdongsan (above); propertyguru.vn / propertyguru.com.vn did not respond on 2026-10-29
 - **Alonhadat.com.vn** — `https://alonhadat.com.vn/` — Vietnamese-language, broad coverage
 - **Mogi.vn** — `https://mogi.vn/`
 - **Homedy.com** — `https://homedy.com/`
 - **Nhadat24h** — `https://nhadat24h.net/`
-- **Developer-direct websites** — Vinhomes (`https://vinhomes.vn/`), Novaland (`https://novaland.com.vn/`), Sun Group (`https://sungroup.com.vn/`), Masterise Homes (`https://masterisehomes.com/`), Phu My Hung (`https://phumyhung.com.vn/`), CapitaLand Vietnam, Keppel Land Vietnam — for new launches; broker listings of new launches are often not the developer's "official" channel and may carry premium markups
+- **Developer-direct websites** — Vinhomes (`https://vinhomes.vn/`), Novaland (`https://novaland.com.vn/`), Sun Group (`https://sungroup.com.vn/`), Masterise Homes (`https://masterisehomes.com/`), Phu My Hung (`https://phumyhung.vn/` — the old phumyhung.com.vn did not load on 2026-10-29), CapitaLand Vietnam, Keppel Land Vietnam — for new launches; broker listings of new launches are often not the developer's "official" channel and may carry premium markups
 
-> **Developer-direct vs secondary market caveat**: in Vietnam most new-launch sales go through developer-appointed brokerage networks (Đại lý phân phối) — multiple brokers may list the same unit at different prices. Verify the headline price against the developer's official sales gallery (Phòng kinh doanh) and the official price schedule (Bảng giá chính thức) signed by the chủ đầu tư. **Trap**: secondary-market resales (đã có Sổ Hồng / ready Pink Book) are a different liquidity profile from off-plan (chưa có Sổ Hồng / Pink Book pending) — off-plan units may list 10–25 % below comparable Pink-Book-ready units to compensate for completion-and-issuance risk.
+> **Developer-direct vs secondary market caveat**: in Vietnam most new-launch sales go through developer-appointed brokerage networks (Đại lý phân phối) — multiple brokers may list the same unit at different prices. Verify the headline price against the developer's official sales gallery (Phòng kinh doanh) and the official price schedule (Bảng giá chính thức) signed by the chủ đầu tư. **Trap**: secondary-market resales (đã có Sổ Hồng / ready Pink Book) are a different liquidity profile from off-plan (chưa có Sổ Hồng / Pink Book pending) — off-plan units may list est. 10–25 % below comparable Pink-Book-ready units to compensate for completion-and-issuance risk.
 
 ---
 
