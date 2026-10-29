@@ -108,52 +108,52 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Primary sources
 
-- **REGA Real Estate Indicators (مؤشرات العقار)**: `https://rei.rega.gov.sa/en` — official transaction-level data, by city + district + property type, monthly + quarterly reports
-- **REGA Real Estate Market Report** (quarterly): published via [REGA publications](https://rega.gov.sa/en/Publications)
-- **GASTAT (General Authority for Statistics — الهيئة العامة للإحصاء)**: `https://www.stats.gov.sa/` — Real Estate Price Index (RPPI) quarterly + annual housing surveys
+- **REGA Real Estate Indicators (مؤشرات العقار)**: `https://rei.rega.gov.sa/en` — official platform on Ministry of Justice + Real Estate Registry deeds and Ejar leases: daily sales-transaction indicators, quarterly city and district average price per m² and average deal value by unit type, a residential price index (base 2023), a quarterly rental price index and a monthly average rent per unit (read 2026-10-29)
+- **REGA Periodic Bulletins and Reports**: [rega.gov.sa — Periodic Bulletins and Reports](https://rega.gov.sa/en/rega/reports/periodic-bulletins-and-reports/) (the old `rega.gov.sa/en/Publications` link now lands on REGA's Arabic home page); a quarterly market-report cadence is not re-verified
+- **GASTAT (General Authority for Statistics — الهيئة العامة للإحصاء)**: `https://www.stats.gov.sa/` — Real Estate Price Index (REPI), quarterly, base year 2023, methodology built with REGA, the Ministry of Justice and SAMA ([Q3 2026 edition](https://stats.gov.sa/documents/20117/2435267/RPI+Q3+2026-EN.pdf/bb3d3d86-89c4-d57a-c6a0-c2f0995b6312): +1.2% YoY); housing surveys not re-checked
 - **SAMA Financial Stability Report** (annual, [SAMA](https://www.sama.gov.sa/en-US)) — mortgage + price-to-income series
-- **Knight Frank Saudi Arabia** + **JLL MENA** + **Colliers** + **CBRE** — secondary market reports (commercial-grade, cited by REGA)
+- **Knight Frank Saudi Arabia** + **JLL MENA** + **Colliers** + **CBRE** — secondary market reports (commercial-grade; not re-checked 2026-10-29; the earlier 'cited by REGA' is unverified — REGA's bulletins page describes its data as coming from government entities such as SAMA, CMA and GASTAT)
 
 ### Listing platforms
 
-- **Aqar (عقار)**: `https://sa.aqar.fm/` — largest residential listings platform
+- **Aqar (عقار)**: `https://sa.aqar.fm/` — major listings platform (its home page showed 88,781 Riyadh listings on 2026-10-29; the earlier 'largest' claim is unverified)
 - **Bayut Saudi Arabia**: `https://www.bayut.sa/` — established UAE-origin platform extended to KSA
 - **Property Finder Saudi**: `https://www.propertyfinder.sa/`
-- **Wasalt (وصلت)**: `https://wasalt.com/` — Roshn-affiliated, large primary-market integration
-- **Saudi Real Estate Co. (Al Akaria — العقارية)**: `https://www.alakaria.com/` — listed developer + listings
+- **Wasalt (وصلت)**: `https://wasalt.sa/` (`wasalt.com` redirects there) — REGA-licensed portal (Jul 2023) with Infath-licensed online auctions; its corporate page does not mention Roshn, so the earlier 'Roshn-affiliated' label is dropped as unsupported
+- **Saudi Real Estate Co. (Al Akaria — العقارية)**: `https://www.al-akaria.com/` (marketplace `https://marketplace.al-akaria.com/en`) — listed developer (Tadawul 4020) + listings; the old `alakaria.com` domain is parked
 - Developer-direct portals: **Roshn** (`https://www.roshn.sa/`), **NEOM** (`https://www.neom.com/`), **Diriyah** (`https://www.diriyah.sa/`), **Red Sea Global** (`https://www.redseaglobal.com/`)
 
-### City benchmarks (Q4 2025 / Q1 2026 reference, REGA + GASTAT RPPI)
+### City benchmarks (Q3 2026, REGA Real Estate Indicators — recorded sale deeds)
 
-| City | Type | SAR/m² (typical range) | est. EUR/m² | Notes |
+| City | Type | SAR/m² (REGA avg Q3 2026 unless another quarter is noted or marked est.) | est. EUR/m² | Notes |
 |---|---|---:|---:|---|
-| **Riyadh** (citywide avg residential) | apartment | 4,500–9,500 | ≈ 1,100–2,300 | Vision-2030-driven; +10–15% YoY 2024–2025 (REGA Q4 2025) |
-| **Riyadh — King Abdullah Financial District (KAFD)** | apartment | 12,000–25,000+ | ≈ 2,900–6,000+ | premium |
-| **Riyadh — Diplomatic Quarter / Hittin / Yasmin** | villa | 8,000–18,000 | ≈ 1,900–4,400 | high-end |
-| **Riyadh — North Riyadh (Malqa, Sahafa, Yarmouk)** | villa | 5,500–11,000 | ≈ 1,300–2,700 | mid-to-upper |
-| **Jeddah** (citywide avg residential) | apartment | 4,000–8,500 | ≈ 950–2,000 | Coastal premium for Corniche frontage |
-| **Jeddah — North Obhur / Al Shati** | villa | 6,000–14,000 | ≈ 1,400–3,400 | beachfront |
-| **Jeddah — Al Hamra / Al Rawdah** | apartment | 5,500–10,000 | ≈ 1,300–2,400 | central |
-| **Mecca** (Makkah) | apartment | 6,000–25,000+ | ≈ 1,400–6,000+ | pilgrimage premium for haram-proximate; non-Muslim foreign cannot own |
-| **Medina** (Madinah) | apartment | 5,000–18,000 | ≈ 1,200–4,300 | non-Muslim foreign cannot own |
-| **Dammam / Khobar / Dhahran** (Eastern Province) | apartment | 3,500–7,500 | ≈ 850–1,800 | oil-sector core |
-| **Khobar — Corniche / Aqrabia** | villa | 4,500–10,000 | ≈ 1,100–2,400 | family-affluent |
+| **Riyadh** (citywide avg residential) | apartment | 6,212 | ≈ 1,490 | REGA Q3 2026: 3,970 deeds, avg deal SAR 776,762, avg 134 m²; citywide villa 4,599 (2,480 deeds); REGA Riyadh residential index +0.7% YoY Q3 2026 after +17.7% in the year to Q4 2024 (see Trend) |
+| **Riyadh — King Abdullah Financial District (KAFD)** | apartment | est. 12,000–25,000+ | ≈ 2,900–6,000+ | premium; KAFD is not a district in REGA's data, so this range is unverified; for comparison REGA district averages: Al Aqiq 10,879 (Q4 2025, 20 deeds), Al Olaya 20,602 (Q2 2025, 31 deeds) |
+| **Riyadh — Diplomatic Quarter / Hittin / Yasmin** | villa | 4,962–13,314 | ≈ 1,190–3,190 | high-end; REGA: Al Yasmin 4,962 (Q3 2026, 54 deeds; 9,708 in Q1 2025), Hittin 13,314 (Q1 2025, 23 deeds — the latest quarter REGA displays); the Diplomatic Quarter is not a REGA district |
+| **Riyadh — North Riyadh (Malqa, Sahafa, Yarmouk)** | villa | 3,937–10,651 | ≈ 940–2,550 | mid-to-upper; REGA Q3 2026: Al Malqa 10,651 (31 deeds), Al Yarmouk 3,937 (27 deeds); As Sahafah 10,529 (Q1 2025, 25 deeds — latest displayed) |
+| **Jeddah** (citywide avg residential) | apartment | 4,004 | ≈ 960 | REGA Q3 2026: 4,384 deeds, avg deal SAR 609,561, avg 153 m²; citywide villa 4,925 (368 deeds); coastal premium for Corniche frontage (not quantified) |
+| **Jeddah — North Obhur / Al Shati** | villa | est. 6,000–14,000 | ≈ 1,400–3,400 | beachfront; REGA displays no villa average for Northern Obhur or Ash Shati for Q1 2025–Q3 2026, so the range is unverified (Jeddah citywide villa: 4,925) |
+| **Jeddah — Al Hamra / Al Rawdah** | apartment | 5,895–6,609 | ≈ 1,410–1,580 | central; REGA Q3 2026: Ar Rawdah 5,895 (261 deeds), Al Hamra 6,609 (52 deeds) |
+| **Mecca** (Makkah) | apartment | 2,976 (city avg) | ≈ 710 | REGA Q3 2026: 901 deeds, avg deal SAR 551,092; a haram-proximate premium is not visible in the city average and is unverified; non-Muslim foreign cannot own |
+| **Medina** (Madinah) | apartment | 3,518 (city avg) | ≈ 840 | REGA Q3 2026: 633 deeds, avg deal SAR 595,277; non-Muslim foreign cannot own |
+| **Dammam / Khobar / Dhahran** (Eastern Province) | apartment | 3,365 Dammam / 4,402 Khobar | ≈ 810 / 1,050 | REGA Q3 2026: Dammam 1,371 deeds, Khobar 695 deeds; Dhahran is not a separate city on the platform (it is listed as a district of Dammam); oil-sector core |
+| **Khobar — Corniche / Aqrabia** | villa | est. 4,500–10,000 | ≈ 1,100–2,400 | family-affluent; REGA displays no villa average for Al Corniche or Al Aqrabiyah, so the range is unverified; Khobar citywide villa 3,177 (Q3 2026, 231 deeds) |
 | **NEOM (under construction)** | n/a residential listings | n/a | n/a | not yet retail; PIF-developer-direct |
 
-(Sources: REGA Q4 2025 + Q1 2026 quarterly reports `https://rei.rega.gov.sa/en`, GASTAT RPPI, Bayut Saudi index — *Q4 2025 / Q1 2026 figures; rates may have shifted; cross-check current quarter on the REGA Real Estate Indicators platform*)
+(Source: REGA Real Estate Indicators city pages `https://rei.rega.gov.sa/en/cities/<City>` — 'Average Price Per Meter for Real Estate Sales Transactions', quarterly, Ministry of Justice + Real Estate Registry deeds, read 2026-10-29. REGA divides 'total square meter prices by the number of transactions after excluding outliers', so figures are per m² of the deed area — for villas (average deed area 450–530 m² in these cities) that is likely the plot, not the built-up area. District quarters with few deeds are not displayed. EUR at ~4.17 SAR (see Compute). Rows marked est. are carried over unsourced — verify on the platform)
 
 ### Trend 2022 → 2026
 
-- **Riyadh price index**: REGA RPPI shows sustained appreciation 2022–2025; the specific "Q4 2024 +10.6% residential / +21% apartments" figures are not retrievable on REGA's crawlable site (Publications page is a JS-only shell) — data not publicly available; verify current index at [REGA](https://rei.rega.gov.sa/en) / GASTAT RPPI
-- **Jeddah**: more moderate +5–8% YoY 2024–2025
-- **Dammam/Khobar**: +3–6% YoY
-- **Drivers**: Vision 2030 employment migration, mega-project hiring (NEOM, Roshn), expat retention via Premium Residency, anticipated foreign-buyer reform (Jan 2025 → Jan 2026 effective)
+- **Riyadh price index**: REGA's Riyadh residential index (base 2023 = 100) rose **+17.7%** in the year to Q4 2024 (99.76 → 117.45), peaked at 127.72 in Q1 2025, rose +1.9% in the year to Q4 2025 and stood at 121.24 in Q3 2026 (**+0.7% YoY**; flats +10.9%, villas −6.4%) ([REGA Real Estate Indicators — Riyadh](https://rei.rega.gov.sa/en/cities/Riyadh), read 2026-10-29). GASTAT's REPI puts **Riyadh Region at +4.6% YoY** in Q3 2026 (all property types; nationally residential +2.3%, apartments +1.7%, villas −7.7%) ([GASTAT REPI Q3 2026](https://stats.gov.sa/documents/20117/2435267/RPI+Q3+2026-EN.pdf/bb3d3d86-89c4-d57a-c6a0-c2f0995b6312)). The unretrievable 'Q4 2024 +10.6% / +21%' figures are dropped
+- **Jeddah**: REGA's Jeddah residential index rose +1.0% in the year to Q4 2024, +2.3% to Q4 2025 and +2.0% YoY in Q3 2026 (102.97; villas −10.9%) ([REGA — Jeddah](https://rei.rega.gov.sa/en/cities/Jeddah))
+- **Dammam/Khobar**: REGA's Dammam residential index rose +4.5% in the year to Q4 2024 and +8.1% to Q4 2025, then −0.8% YoY in Q3 2026 (villas −15.4%) ([REGA — Dammam](https://rei.rega.gov.sa/en/cities/Dammam)); GASTAT's REPI has the Eastern Province at −3.7% YoY in Q3 2026 (all property types)
+- **Drivers**: Vision 2030 employment migration, mega-project hiring (NEOM, Roshn), expat retention via Premium Residency, foreign-ownership law in force since 22 Jan 2026 (see Foreign-buyer eligibility)
 - **Headwind**: oil-price cyclicality + government capex pacing + Saudization (Nitaqat) labour-market tightening
 
 ### Compute
 
 1. **SAR/m²** = listing SAR ÷ property m² (built-up area — البناء)
-2. **EUR/m²** ≈ SAR/m² ÷ ~4.05 (SAR/EUR Q1 2026 indicative; SAR pegged USD so EUR rate moves with USD/EUR cross)
+2. **EUR/m²** ≈ SAR/m² ÷ ~4.17 (ECB reference rate 28 Oct 2026: USD 1.1133 per EUR × 3.75 SAR per USD; SAR pegged USD so EUR rate moves with USD/EUR cross)
 3. Cross-check the **REGA Real Estate Indicators** platform for the same district + property type (transaction-recorded prices, not asking)
 4. **Trap**: listing m² may quote land area (مساحة الأرض) for villas vs built-up area (مساحة البناء) — clarify which
 5. **Trap**: off-plan sales by master developers (Roshn, NEOM, Diriyah) have promotional incentives + payment plans → headline price inflated vs cash equivalent
@@ -166,10 +166,10 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Primary sources
 
-- **Roads General Authority (RGA / الهيئة العامة للطرق)**: `https://rga.gov.sa/` — road-sector regulator (Saudi Road Code, network classification). ⚠️ Host is unreachable from outside the Kingdom (verified 2026-09-18). **Public traffic-count data: not publicly available at the authority's portal on this check — verify with the Roads General Authority (RGA) or the Ministry of Transport and Logistic Services.**
+- **Roads General Authority (RGA / الهيئة العامة للطرق)**: `https://rga.gov.sa/` — road-sector regulator (Saudi Road Code, network classification). ⚠️ Host is unreachable from outside the Kingdom (verified 2026-09-18; connection timed out again 2026-10-29). **Public traffic-count data: not publicly available at the authority's portal on this check — verify with the Roads General Authority (RGA) or the Ministry of Transport and Logistic Services.**
 - **Riyadh: Royal Commission for Riyadh City (RCRC)**: `https://www.rcrc.gov.sa/` — Riyadh-specific transport master plan + Riyadh Metro
 - **Ministry of Transport and Logistic Services**: `https://mot.gov.sa/`
-- **Saudi Open Data Portal**: `https://open.data.gov.sa/`
+- **Saudi Open Data Portal**: `https://open.data.gov.sa/` — ⚠️ connection timed out from a non-Saudi connection on 2026-10-29 (same pattern as RGA); retry from inside the Kingdom
 
 ### Coarse fallback (OSM `highway`)
 
@@ -188,7 +188,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 ### Notes
 
 - **Riyadh Metro** (6 lines, 176 km, 85 stations) — inaugurated **27 Nov 2024**; passenger service phased in from **1 Dec 2024** (Lines 1, 4, 6), all six lines running since 5 Jan 2025, some stations opening later (Western Station, May 2026) ([RCRC — Riyadh Metro project page (AR)](https://www.rcrc.gov.sa/projects/riyadh-public-transport-project/) + [RCRC — operation schedule, 27 Nov 2024](https://www.rcrc.gov.sa/en/rcrc-announces-sequential-operation-schedule-of-riyadh-metro-lines/) + [RCRC — Orange Line launch, 4 Jan 2025](https://www.rcrc.gov.sa/en/rcrc-announces-the-launch-of-riyadh-metros-orange-line-this-sunday-2/)); fundamentally re-rates property within ~800 m of stations
-- **King Fahd Road (Riyadh)** — primary north-south spine; 200,000+ v/d at peak central segments; adjacency = chronic congestion + noise
+- **King Fahd Road (Riyadh)** — primary north-south spine; est. 200,000+ v/d at peak central segments (unsourced — no published count located 2026-10-29; RGA portal unreachable); adjacency = chronic congestion + noise
 - **Jeddah Corniche** — coastal arterial; high tourist + leisure traffic, especially Thurs-Sat
 - **Mecca + Medina** — pilgrimage traffic spikes during **Hajj** (Dhu al-Hijjah, ~5 days/yr) and **Umrah season** (Ramadan + year-round) saturate haram-area roads
 - Saudi Arabia has near-universal car-dependency outside Riyadh Metro corridor; **no national traffic-noise mapping** comparable to EU END Directive — request developer noise study for any property < 200 m from a primary arterial
@@ -287,19 +287,19 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 - **Standard tenancy structure**: 1-year fixed term renewable; **1-year advance payment** common (especially for non-Muslim expat workers historically); 2-month security deposit; landlord pays municipality fees, tenant pays utilities
 - **Mortgage rent guarantee**: Saudi Real Estate Refinance Co. (SRC) + REDF subsidies for Saudi nationals only
 
-### Yield benchmarks (per listing platforms — verify per building)
+### Yield benchmarks (computed from REGA rent and sale averages, Q3 2026 — gross; verify per building)
 
 | City / area | Long-let gross yield | Notes |
 |---|---:|---|
-| **Riyadh** (citywide apartment) | ~5.5–7.5% | tighter for premium central; wider for outer districts |
-| **Riyadh — KAFD / Hittin / Diplomatic Quarter** | ~4.5–6.0% | premium-low |
-| **Riyadh — North/Outer Ring** | ~6.5–8.5% | mid-to-upper-range |
-| **Jeddah** (citywide) | ~5.5–7.0% | |
-| **Jeddah — Corniche / Obhur** | ~4.5–6.0% | premium-low |
-| **Mecca / Medina** (Muslim owners only — non-Muslim foreigners cannot own) | ~6–9% (pilgrimage premium) | Hajj/Umrah season heavily concentrated revenue |
-| **Dammam / Khobar / Dhahran** | ~6–8% | oil-sector core |
+| **Riyadh** (citywide apartment) | ~3.8% (computed) | = SAR 29,840 average Ejar rent per apartment ÷ SAR 776,762 average apartment deal, Q3 2026; villas ~4.3% (SAR 87,310 ÷ SAR 2,018,824); tighter for premium central, wider for outer districts (qualitative, unverified) |
+| **Riyadh — KAFD / Hittin / Diplomatic Quarter** | est. ~4.5–6.0% | premium-low; not re-verified (district rents not read) — sits above the ~3.8% citywide computed yield |
+| **Riyadh — North/Outer Ring** | est. ~6.5–8.5% | mid-to-upper-range; not re-verified — well above the ~3.8% (apartment) / ~4.3% (villa) citywide computed yields, treat with caution |
+| **Jeddah** (citywide) | ~4.1% (computed) | = SAR 24,780 average Ejar rent per apartment ÷ SAR 609,561 average apartment deal, Q3 2026 |
+| **Jeddah — Corniche / Obhur** | est. ~4.5–6.0% | premium-low; not re-verified (district rents not read) |
+| **Mecca / Medina** (Muslim owners only — non-Muslim foreigners cannot own) | ~3.3% Makkah / ~3.1% Madinah (computed, long-let) | = SAR 18,190 ÷ SAR 551,092 (Makkah) and SAR 18,630 ÷ SAR 595,277 (Madinah), apartments, Q3 2026; Ejar long-lets only — Hajj/Umrah hospitality revenue (licensed separately) is not captured, so the earlier ~6–9% 'pilgrimage premium' figure is unverified |
+| **Dammam / Khobar / Dhahran** | ~3.3% Dammam / ~3.5% Khobar (computed) | = SAR 19,070 ÷ SAR 573,648 (Dammam) and SAR 22,120 ÷ SAR 634,734 (Khobar), apartments, Q3 2026; oil-sector core |
 
-(Source: Aqar + Bayut Saudi yield indices Q4 2025, REGA Pulse — *yields gross of REGA registration, agency, building maintenance, vacancy*)
+(Sources: REGA Real Estate Indicators, read 2026-10-29 — 'Average Rental Value per Unit' (Ejar Network; 'total rental values' ÷ 'number of rented units'; the platform does not label the period, read here as the annual contract value) and city 'Average Price Per Meter' sale-deed records (Ministry of Justice + Real Estate Registry). Rented and sold units are different samples with no size or age matching, so treat the yields as indicative. Rent trend: REGA's Riyadh residential rental index went from 1.46 in Q3 2025 to 1.41 in Q3 2026 (about −3% YoY, computed from the published two-decimal values; apartments 1.41 → 1.34, about −5%) and Riyadh's rent-to-income ratio fell from 17.91% to 15.23% over the same year; Jeddah 1.07 → 1.05 (about −2%; rent-to-income 17.92% in Q3 2026). The 'Aqar + Bayut yield indices Q4 2025' and 'REGA Pulse' cited earlier could not be located on 2026-10-29. *Yields gross of REGA registration, agency, building maintenance, vacancy*)
 
 ### Short-term rentals (Airbnb / vacation rentals)
 
@@ -311,7 +311,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 - **Tax**: 15% VAT on STR revenue once taxable supplies exceed SAR 375,000 in any 12 months (mandatory registration threshold); holiday homes and short-term accommodation do not get the residential-lease exemption (ZATCA VAT real-estate guideline, May 2026); "5% Tourism Levy + Municipal fees" UNVERIFIED — no primary source located 2026-10-29
 - **Hajj/Umrah hospitality**: Mecca + Medina STR governed by **special Hajj hospitality framework** under Ministry of Hajj and Umrah + Ministry of Tourism — licensed houses (الإسكان المعتمد) only; non-licensed pilgrim accommodation prohibited
 - **Penalties**: Tourism Law art. 16 — warning, closure, downgrade, licence suspension up to 1 year or cancellation, and fines up to **SAR 1,000,000** (on-the-spot fines up to SAR 10,000 per the minister's schedule); the earlier "SAR 25,000+" figure had no source; platform data-sharing claim not re-verified
-- **Ramadan + Hajj season** are peak — pricing 2-5x off-peak in Mecca/Medina markets
+- **Ramadan + Hajj season** are peak — pricing est. 2-5x off-peak in Mecca/Medina markets (unsourced; verify with licensed operators)
 
 ### Strategic notes
 
@@ -331,7 +331,7 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 - **LinkedIn Saudi Arabia** — surge in tech/finance/consulting roles 2024–2026 with mega-project hiring
 - **Naukrigulf**: `https://www.naukrigulf.com/` (South Asian diaspora networks)
 - **Indeed Saudi Arabia** + **Mihnati (مهنتي)** local platform
-- **TAQAT (طاقات)** — National Labour Gateway portal (`https://www.taqat.sa/`)
+- **Jadarat (جدارات)** — Unified National Employment Platform for Saudi job seekers (HRDF eligibility: 'The applicant must be a Saudi national'), run by the Human Resources Development Fund under Cabinet Decision 241 of 18/3/1445 AH; it replaced the former Jadara platform (`https://jadarat.sa/` — returned a Cloudflare block to this check). The older **TAQAT** portal (`https://www.taqat.sa/`) timed out on 2026-10-29
 
 ### Visa routes for working
 
@@ -344,27 +344,27 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Saudization (Nitaqat — نطاقات)
 
-- **Nitaqat program**: requires private-sector firms to maintain quotas of Saudi nationals — categories from **Platinum** (highest Saudi share) to **Red** (non-compliant; severe restrictions on visa renewal)
-- 2024 rules: minimum 4–40% Saudization depending on sector + size; certain professions are **fully Saudized** (e.g., HR, gold-jewellery sales, mobile-phone retail, communications-counter staff)
+- **Nitaqat program**: requires private-sector firms to maintain quotas of Saudi nationals — categories from **Platinum** (highest Saudi share) to **Red** (non-compliant; severe restrictions on visa renewal) (category structure not re-verified 2026-10-29 — check Qiwa)
+- 2024 rules (not re-verified 2026-10-29): minimum 4–40% Saudization depending on sector + size; certain professions are **fully Saudized** (e.g., HR, gold-jewellery sales, mobile-phone retail, communications-counter staff)
 - **Source**: MHRSD Nitaqat portal `https://www.qiwa.sa/`
 
 ### Catchment heuristics (commute)
 
-- **Riyadh**: car-dependent historically; Riyadh Metro Phase 1 (Dec 2024) opens up 800m-radius properties around stations to non-car commute; KAFD + city centre + Olaya are now metro-served
-- **Jeddah**: car-dependent; Jeddah Metro under planning
+- **Riyadh**: car-dependent historically; Riyadh Metro (passenger service from 1 Dec 2024, all six lines since 5 Jan 2025 — see `--traffic`) opens up 800m-radius properties around stations to non-car commute; KAFD (King Abdullah Financial Center station), Qasr Al Hokm (city centre) and STC–Olaya stations are on the network (RCRC)
+- **Jeddah**: car-dependent; Jeddah Metro under planning (status not re-verified 2026-10-29)
 - **Eastern Province (Dammam-Khobar-Dhahran triangle)**: car-dependent; Saudi Aramco compound + KFUPM dominate hire market
 - **NEOM / Red Sea / AlUla / Diriyah**: company-housing-anchored; not standard commuter markets
 
-### Salary benchmarks (median monthly gross 2024–2025, GASTAT Labour Market + Bayt salary survey)
+### Salary benchmarks (GASTAT Labour Force Survey averages, Q2 2026; higher bands Bayt 2024-derived, not re-verified)
 
-- **Saudi national median monthly wage** 2024 Q4: ~SAR 11,000–13,000 (private sector)
-- **Expat median monthly wage**: ~SAR 4,500–7,500 (reflecting large lower-skilled cohort)
-- **White-collar expat (Riyadh CBD, finance/tech/consulting)**: SAR 25,000–55,000/month
-- **Senior manager / director (Riyadh, top-tier consulting + finance)**: SAR 60,000–120,000/month + benefits
-- **PIF / NEOM / Roshn / Aramco senior**: SAR 80,000–250,000/month + housing + schooling + transport
-- **Saudi minimum wage for nationals (Nitaqat)**: SAR 4,000/month (2024 update; verify [MHRSD](https://www.hrsd.gov.sa/))
+- **Saudi average monthly wage** (paid employees, main job, all sectors) Q2 2026: **SAR 11,424** (men 12,104, women 9,249) — GASTAT Labour Force Survey, Table 6-1-1; an average, not a median
+- **Non-Saudi average monthly wage** Q2 2026: **SAR 4,090** (all paid employees SAR 5,794) — same GASTAT table; reflects the large lower-paid expatriate cohort
+- **White-collar expat (Riyadh CBD, finance/tech/consulting)**: est. SAR 25,000–55,000/month (Bayt 2024-derived, not re-verified)
+- **Senior manager / director (Riyadh, top-tier consulting + finance)**: est. SAR 60,000–120,000/month + benefits (not re-verified)
+- **PIF / NEOM / Roshn / Aramco senior**: est. SAR 80,000–250,000/month + housing + schooling + transport (not re-verified)
+- **Saudi minimum wage for nationals (Nitaqat)**: SAR 4,000/month (not re-verified 2026-10-29; the '2024 update' date is unsourced — verify [MHRSD](https://www.hrsd.gov.sa/))
 
-(Sources: [GASTAT Labour Market reports](https://www.stats.gov.sa/en/814) + Bayt 2024 KSA Salary Guide — verify current year)
+(Sources: [GASTAT Labor Market Statistics — Labour Force Survey publications](https://stats.gov.sa/en/statistics-tabs?tab=436312&category=417515) (Q2 2026 workbook, Table 6-1-1) + Bayt 2024 KSA Salary Guide (not re-checked); the old GASTAT link `stats.gov.sa/en/814` now returns 'Forbidden')
 
 ### Foreign worker note
 
@@ -537,12 +537,12 @@ MEDIUM. Saudi Arabia does NOT publish granular district-level crime statistics i
 Universal OSM Overpass logic per `shared/amenities-osm.md`. KSA-specific brand-chain conventions:
 
 - **Supermarket / hypermarket**: Carrefour, Panda (Savola group), Tamimi, Lulu, Othaim, Hyper Panda, Danube, Manuel; tag `shop=supermarket` / `shop=mall`
-- **Convenience**: 7-Eleven (entered KSA 2024), Tamimi Markets, Al Othaim Express
+- **Convenience**: 7-Eleven (KSA entry year not re-verified), Tamimi Markets, Al Othaim Express
 - **Pharmacy**: **Nahdi (نهدي)**, **Al-Dawaa (الدواء)**, Boots; tag `amenity=pharmacy`
 - **Hospital** (public + private): Ministry of Health (Vision 2030 HSTP reform); private leaders Saudi German Hospital, Dr. Sulaiman Al-Habib Medical Group, Dallah Hospital, King Faisal Specialist Hospital (research); tag `amenity=hospital`
 - **Schools**: International schools concentrated Riyadh + Jeddah (Saudi Arabian International / British International / American / Indian / French / Manarat), Mecca/Madinah local-Islamic dominant; tag `amenity=school`
 - **Mosque**: ubiquitous; **Masjid al-Haram (Mecca) + Masjid al-Nabawi (Medina)** are the two haramayn; tag `amenity=place_of_worship` `religion=muslim`
-- **Public transport**: Riyadh Metro (Phase 1 Dec 2024) `railway=subway` + SAPTCO bus + Careem/Uber dominant ride-hailing; tag `amenity=ride_share` for ride-hail stops common
+- **Public transport**: Riyadh Metro (six lines, passenger service from 1 Dec 2024 — see `--traffic`) `railway=subway` + SAPTCO bus + Careem/Uber dominant ride-hailing (`amenity=ride_share` has 0 uses and no wiki page on taginfo, so it is not a usable tag for ride-hail pick-ups)
 
 ### Verdict bands (KSA — adjusted for car-dependent urbanism)
 
@@ -1081,9 +1081,9 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 - **Aqar (عقار)**: `https://sa.aqar.fm/`
 - **Bayut Saudi Arabia**: `https://www.bayut.sa/`
 - **Property Finder Saudi**: `https://www.propertyfinder.sa/`
-- **Wasalt (وصلت — Roshn)**: `https://wasalt.com/`
-- **Saudi Real Estate Co. (Al Akaria)**: `https://www.alakaria.com/`
-- Developer-direct: **Roshn**, **NEOM**, **Diriyah**, **Red Sea Global**, **AlUla Development Authority**
+- **Wasalt (وصلت)**: `https://wasalt.sa/` (`wasalt.com` redirects there; its corporate page does not mention Roshn)
+- **Saudi Real Estate Co. (Al Akaria)**: `https://www.al-akaria.com/` (the old `alakaria.com` domain is parked)
+- Developer-direct: **Roshn**, **NEOM**, **Diriyah**, **Red Sea Global**, **AlUla Development Company (UDC)** (`https://www.udc.sa/` — a PIF company that builds and operates hospitality, residential, retail and commercial assets in AlUla with the Royal Commission for AlUla; read 2026-10-29)
 
 ## Caveats unique to KSA
 
