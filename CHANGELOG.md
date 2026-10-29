@@ -116,6 +116,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix: 29 Oct 2026 follow-ups — new UK/FR/AE/CN entries, AG/KW/AU/ES corrections, GI market ([#515](https://github.com/soreavis/property-deep-dive/pull/515)) — by @soreavis
 
+- fix(playbooks): Tier-A refresh of promoted GI, VN, SA and GH — about 670 checked changes ([#516](https://github.com/soreavis/property-deep-dive/pull/516)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
