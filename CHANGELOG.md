@@ -128,6 +128,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): Tier-A refresh of GR and IE, missed by the October cycle — about 256 checked changes ([#521](https://github.com/soreavis/property-deep-dive/pull/521)) — by @soreavis
 
+- regwatch(gr): Santorini permit suspension extended; cadastre fee cites the gazette ([#522](https://github.com/soreavis/property-deep-dive/pull/522)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
