@@ -25,12 +25,12 @@ ISO2: `sa`. Status: ✅ Fully populated (researched 2026-05).
 - **Recent reforms (2024–2026 watershed)**:
   - **18 Jun 2023 / 16 Dec 2023**: **Saudi Civil Transactions Law (نظام المعاملات المدنية) — Royal Decree M/191 of 29/11/1444 AH (18 Jun 2023), effective 16 Dec 2023** — first codified civil code in Saudi history (721 articles; codifies contract, sale, lease, construction, property rights; retrospective effect on pre-2023 contracts; introduces statutory limitation periods — 10y general, 5y certain professional claims) (2026-05-27 verified, source [laws.moj.gov.sa](https://laws.moj.gov.sa/) + Norton Rose Fulbright + Clifford Chance). Material backdrop for all post-2023 property transactions.
   - **14 Jul 2025 / 22 Jan 2026**: **Foreign Real Estate Ownership Law (نظام تملك غير السعوديين للعقار) — Royal Decree M/14 of 19/01/1447 AH** — Council of Ministers approval 8 Jul 2025; gazetted Umm Al-Qura 25 Jul 2025; **effective 22 Jan 2026** (180 days post-gazette). Opens designated zones in Riyadh + Jeddah (priority) plus other major cities; scope includes residential, commercial, agricultural farms, NEOM/Qiddiya/Red Sea Global shares, and tokenised fractional ownership stakes. Executive regulation (CoM Decision 43 of 8/1/1448 AH) and the geographic scopes approved by the Council of Ministers 23 Jun 2026, regulation published Umm Al-Qura 3 Jul 2026; in force 22 Jan 2026 per REGA's notice of that date (2026-10-21 verified, source REGA + Umm Al-Qura) (2026-05-27 verified, source [Library of Congress Global Legal Monitor 2026-02-11](https://www.loc.gov/item/global-legal-monitor/2026-02-11/saudi-arabia-new-law-opens-ownership-of-real-estate-properties-to-foreigners) + [White & Case](https://www.whitecase.com/insight-alert/saudi-arabia-approves-landmark-real-estate-ownership-law-non-saudis) + [King & Spalding](https://www.kslaw.com/news-and-insights/saudi-arabia-introduces-new-legal-framework-for-foreign-ownership-of-real-estate))
-  - **2024**: **Premium Residency (Iqama Khassa) expansion** — added Real-Estate-Owner, Investor, Entrepreneur, and Talent categories to original 2019 launch ([pr.gov.sa](https://pr.gov.sa/) — official PRC portal under Premium Residency Centre)
+  - **2024**: **Premium Residency (Iqama Khassa) expansion** — the Premium Residency Center (founded January 2019 by Council of Ministers resolution) now lists Special Talent, Gifted, Investor, Entrepreneur and Real Estate Owner products beside Limited / Unlimited Duration ([pr.gov.sa](https://pr.gov.sa/pr), read 2026-10-29; the 2024 launch year is not stated on the portal)
   - **2020**: VAT raised from 5% to **15%** effective 1 Jul 2020 ([ZATCA — Zakat Tax & Customs Authority](https://zatca.gov.sa/))
-  - **2020**: **Real Estate Disposition Tax (RETT — ضريبة التصرفات العقارية)** introduced at **5% on sale value** by [Royal Decree A/84 of 14/02/1442 AH (Oct 2020)](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Real-Estate-Disposal-Tax.aspx) — replaces VAT on most real-estate disposals (deductible mechanism)
+  - **2020 / 2025**: **Real Estate Disposition Tax (RETT — ضريبة التصرفات العقارية; ZATCA: Real Estate Transaction Tax)** introduced at **5%** by Royal Order A/84 of 14/02/1442 AH from 4 Oct 2020, when real-estate sales became VAT-exempt; replaced by the [RETT Law, Royal Decree M/84 of 19/03/1446 AH, in force 10 Apr 2025](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/RETTRegulation.aspx) (2026-10-29 verified, source ZATCA)
   - **2016 / 2025**: **White Land and Vacant Property Fees Law (نظام رسوم الأراضي البيضاء والعقارات الشاغرة)** — originally Royal Decree M/4 of 12/02/1437 AH at 2.5%/yr on undeveloped urban land >10,000 m²; **amended by Royal Decree M/244 of 7/11/1446 AH on Council of Ministers approval of 29 Apr 2025, published in Umm Al-Qura 12 May 2025**, which renamed the law, raised the annual ceiling to **up to 10% of land value**, lowered the threshold to **5,000 m²** (single parcel or aggregate holding of one owner within a city), and extended the charge to **vacant buildings** at a share of market rent capped at **5% of property value** (the Council of Ministers may raise that cap to 10% on the ministerial committee's proposal; vacant-property executive regulation Umm Al-Qura 15 May 2026, fee applies only in zones the Minister announces — none located as at 2026-10-21). The [executive regulation (اللائحة التنفيذية لرسوم الأراضي البيضاء), Umm Al-Qura 22 Aug 2025](https://www.uqn.gov.sa/details?p=27369) sets a five-band tariff by urban-development priority — **10% / 7.5% / 5% / 2.5% / nil** — with the band fixed per geographic zone by ministerial decision (2026-09-18 verified, source Umm Al-Qura + [MOMAH](https://momah.gov.sa/ar/node/14963)). Administered by the **Ministry of Municipalities and Housing (MOMAH)**.
   - **2019**: **Mostadam (مستدام) green building rating** launched — Saudi-developed sustainability certification ([mostadam.sa](https://mostadam.sa/) under Ministry of Municipal Affairs)
-  - **2020**: Tourism Law ([Royal Decree M/61 of 22/04/1441 AH](https://laws.moj.gov.sa/)) + 2021 STR Registration Decree — short-term rentals require Ministry of Tourism licensing — filed on **Tourism.sa** since 28 Aug 2026 (the earlier Sahel route is superseded)
+  - **2022**: Tourism Law (نظام السياحة) — [Royal Decree M/18 of 26/1/1444 AH](https://cdn.mt.gov.sa/mtportal/mt-fe-production/content/policies-regulations/documents/tourism-regulations/Saudi-Tourism-Regulation-Ar-V014.pdf), replacing the 1436 AH law (Royal Decree M/2) — short-term rentals require Ministry of Tourism licensing — filed on **Tourism.sa** since 28 Aug 2026 (the earlier Sahel route is superseded); the "2021 STR Registration Decree" cited earlier was not located on a primary source 2026-10-29
   - **Vision 2030 mega-project pipeline**: NEOM (Tabuk Province), Qiddiya (Riyadh), The Line (NEOM), Red Sea Global, AlUla, Diriyah Gate, Roshn (PIF developer), Sedra — material drivers of property values in primary cities
 
 ---
@@ -60,31 +60,31 @@ This section determines whether a transaction is even legally possible. Saudi Ar
 | **Excluded geographies** | **Mecca + Medina closed to non-Muslim natural persons** (M/14 art. 2(4) limits ownership in the two cities to Muslim natural persons, and the art. 2(3) resident's-home route excludes both cities; unlisted Saudi companies with foreign shareholders may own there only inside the designated scope, exec. reg. art. 8 — 2026-10-21 verified, source REGA); strategic / military zones; agricultural land outside designated zones |
 | **Scope** | Residential, commercial, **agricultural farms**, NEOM/Qiddiya/Red Sea Global development shares, **tokenised fractional ownership** stakes — broader than prior law |
 | **Investment thresholds** | The executive regulation published 3 Jul 2026 (14 articles + penalty annex) sets **no minimum investment amount**; per-zone controls (maximum ownership percentages, permitted right types, maximum usufruct periods) come from the Cabinet geographic-scope decision of 23 Jun 2026 and are shown on the scope maps of REGA's Saudi Properties portal — verify per parcel at REGA (2026-10-21 verified, source REGA + Umm Al-Qura) |
-| **Tax treatment** | REGA non-Saudi disposal fee (law art. 9, cap 5%): **2%** of the value of a non-Saudi's disposal of real rights in the city of Riyadh, the city of Makkah, the city of Madinah and Jeddah governorate, **0%** elsewhere and for estate partition, gratuitous transfers to a waqf and other listed cases (exec. reg. arts 9-10, 2026-10-21 verified, source REGA); plus the standard regime: 5% RETT at acquisition, 15% VAT on commercial first sale, White Land + Vacant Property Fees (up to 10%/yr, banded) if undeveloped ≥5,000 m², or up to 5% of value on a long-vacant building in an announced zone (none announced as at 2026-10-21), no recurring property tax on occupied developed property, no individual income tax on rental income — verify ZATCA rulings |
+| **Tax treatment** | REGA non-Saudi disposal fee (law art. 9, cap 5%): **2%** of the value of a non-Saudi's disposal of real rights in the city of Riyadh, the city of Makkah, the city of Madinah and Jeddah governorate, **0%** elsewhere and for estate partition, gratuitous transfers to a waqf and other listed cases (exec. reg. arts 9-10, 2026-10-21 verified, source REGA); plus the standard regime: 5% RETT at acquisition, no VAT on any real-estate sale (15% VAT on commercial and short-stay leases; ZATCA, May 2026), White Land + Vacant Property Fees (up to 10%/yr, banded) if undeveloped ≥5,000 m², or up to 5% of value on a long-vacant building in an announced zone (none announced as at 2026-10-21), no recurring property tax on occupied developed property, no individual income tax on rental income — verify ZATCA rulings |
 | **Authority** | REGA (Real Estate General Authority) + MOJ Notary — confirm zone status and eligibility BEFORE reservation; **Etmam is MOMAH's developer platform, not a foreign-investor channel** — verify the foreign-investor route with MISA (Ministry of Investment) |
 
 ⚠️ **Critical caveat**: The executive regulation (اللائحة التنفيذية) was approved by the Council of Ministers on 23 Jun 2026 (Decision 43 of 8/1/1448 AH) and published in Umm Al-Qura on 3 Jul 2026; the same session approved the geographic scopes. **Ownership percentages, right types and usufruct limits are set per zone** — re-verify the parcel on REGA's Saudi Properties portal before any binding step (2026-10-21 verified, source REGA + Umm Al-Qura).
 
 ### Premium Residency (Iqama Khassa — إقامة مميزة) — property route
 
-Source: [pr.gov.sa](https://pr.gov.sa/) (Premium Residency Centre, under Council of Economic Affairs).
+Source: Premium Residency Center product pages on [pr.gov.sa](https://pr.gov.sa/pr) (read 2026-10-29; the Center states "All conditions are subject to change").
 
-| Category | Threshold (2024 expansion — verify current) | Visa term |
+| Category | Threshold (PRC product pages, 2026-10-29) | Visa term |
 |---|---|---|
-| **Permanent (Limited)** | **One-time SAR 800,000** (~USD 213,000) payment to Premium Residency Centre | **Permanent**, renewable identity card every 10 yrs |
-| **Renewable Annual** | **SAR 100,000/yr** payment | 1 yr renewable |
-| **Real-Estate-Owner Premium Residency** (added 2024) | Property purchase ≥ **SAR 4,000,000** (~USD 1.07 M) in REGA-registered designated zone | Tied to property holding |
-| **Investor Premium Residency** | Specified investment in licensed enterprise | Tied to investment |
+| **Unlimited Duration** | **One-time SAR 800,000** (~USD 213,000 at the 3.75 peg) | **Permanent** |
+| **Limited Duration** | **SAR 100,000 for each year** | 1 to 5 years, renewable |
+| **Real Estate Owner Residency** | Ownership or usufruct of an **existing residential** property worth ≥ **SAR 4,000,000** (~USD 1.07 M), not mortgaged and not to be mortgaged (land plots excluded); or one off-plan residential unit ≥ SAR 4,000,000 from a REGA-approved developer with at least SAR 1,000,000 or 10% paid (whichever is higher), no mortgage; one-time fee SAR 4,000 | Valid while the ownership or usufruct continues (off-plan: title must transfer within 5 years) |
+| **Investor Residency** | MISA-licensed investment with the applicant's share ≥ **SAR 7,000,000**, capital injected, 10 employees; one-time fee SAR 4,000 | Permanent, conditional on keeping SAR 7M and 10 employees for the first two years |
 | **Entrepreneur / Talent Premium Residency** | Specific qualifying tracks | Variable |
 
 **Holder rights**:
 - Right to own real estate (subject to Mecca/Medina restriction) including in designated zones
-- Family sponsorship of spouse + children + parents
+- Residence with family members: parents, spouses and children under 25
 - Visit-visa issuance authority
 - Multiple-entry travel
 - Property + business ownership without local sponsor
 
-⚠️ Specific real-estate threshold (SAR 4M) reportedly under the 2024 expansion **— verify against current PRC schedule before relying on this for a residency strategy**. Some sources cite SAR 1M / 4M / 5M tiers depending on category and date of update.
+⚠️ The SAR 4M real-estate threshold is confirmed on the PRC product page (2026-10-29); the PRC page shows no separate SAR 1M or 5M tier; SAR 1M appears only as the minimum payment on an off-plan unit. The PRC states all conditions are subject to change — re-check before relying on it for a residency strategy.
 
 ### GCC nationals — practical equivalence
 
@@ -214,8 +214,8 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 - Applies to **undeveloped (white) land** of **≥ 5,000 m²** — single parcel or one owner's aggregate holding — inside a city subject to the fee (threshold cut from 10,000 m² by the 2025 amendment)
 - Annual fee banded by urban-development priority zone: **10% / 7.5% / 5% / 2.5% / nil** of ministry-assessed land value, ceiling **10%** (was a flat 2.5%)
 - Also reaches **vacant buildings** inside the approved urban boundary, at a share of fair rent (أجرة المثل) capped at **5% of property value** — the vacant-property executive regulation (ministerial decision 4700822503/1, Umm Al-Qura 15 May 2026, in force on publication) treats a building as vacant after 6 months' non-use in the reference year and applies the fee only in zones the Minister announces after at least 12 months of market monitoring; no zone announcement located as at 2026-10-21 — verify at MOMAH
-- Designed as **anti-speculation incentive** to push hoarded land into development → significant policy lever; effective since 2017 (Phase 1 Riyadh; expanded phases 2020–2024)
-- Penalty for non-payment: levy + statutory interest + can lead to forced public auction
+- Designed as **anti-speculation incentive** to push hoarded land into development → significant policy lever; phase history (2017 Riyadh start, 2020–2024 expansion) not re-verified on a primary source 2026-10-29
+- Penalty for non-payment: levy + statutory interest + possible forced public auction — UNVERIFIED (penalty article not re-read 2026-10-29; the transfer gate below is the verified consequence)
 - **Transfer gate (Council of Ministers Decision 263 of 12/3/1448 AH, Umm Al-Qura 4 Sep 2026)**: no disposal transferring ownership of land subject to the law is documented until the fees due are verified as paid; a mortgage or other non-transfer disposition is documented so as to protect the state's right to collect the fees — clear the fees before scheduling a sale (2026-10-21 verified, source [Umm Al-Qura](https://www.uqn.gov.sa/decisions-and-regulations/4001765))
 - Source: [executive regulation, Umm Al-Qura 22 Aug 2025](https://www.uqn.gov.sa/details?p=27369) + [Ministry of Municipalities and Housing](https://momah.gov.sa/ar/node/14963) (2026-09-18 verified)
 
@@ -223,27 +223,27 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 | Item | Rate | Statute / source |
 |---|---|---|
-| **Real Estate Disposition Tax (RETT — ضريبة التصرفات العقارية)** | **5% of disposal value** | [Royal Decree A/84 of 14/02/1442 AH (Oct 2020)](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Real-Estate-Disposal-Tax.aspx); paid by **seller** (statutory) but commercially negotiable |
-| **Title Deed registration / MOJ Notary fees** | Nominal (SAR 200–2,000 typical) | MOJ schedule; recently digitalised via [najiz.sa](https://www.najiz.sa/) |
-| **Real estate agent / broker commission** | **2.5% of price + 15% VAT** typical (negotiable; capped by Suhail/REGA practice direction) | REGA brokers Suhail platform |
+| **Real Estate Disposition Tax (RETT — ضريبة التصرفات العقارية; ZATCA: Real Estate Transaction Tax)** | **5% of disposal value** | [RETT Law, Royal Decree M/84 of 19/03/1446 AH, in force 10 Apr 2025](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/RETTRegulation.aspx) (first introduced by Royal Order A/84 of 14/02/1442 AH, 4 Oct 2020); paid by **seller** (art. 7) but the parties may agree otherwise; due on or before notarisation (2026-10-29 verified, source ZATCA) |
+| **Title Deed registration / MOJ Notary fees** | est. nominal (SAR 200–2,000 — no published schedule located 2026-10-29) | First registration in the Real Estate Registry is free; later registration services are charged per a Council of Ministers-approved schedule (Real Estate Registration Law art. 34); transfers via [najiz.sa](https://www.najiz.sa/) |
+| **Real estate agent / broker commission** | **2.5% of price** unless agreed otherwise in writing, borne by the party that hired the broker; a broker hired by both sides may not take more than 2.5% in total; plus 15% VAT on the fee | [Real Estate Brokerage Law (نظام الوساطة العقارية), Royal Decree M/130 of 30/11/1443 AH, art. 14](https://rega.gov.sa/en/laws-and-decisions/regulations-and-by-laws/rules/real-estate-brokerage-law/) |
 | **Mortgage registration fee** | ~0.5% of loan amount typical | Per lender + SAMA |
 | **Property valuation fee (mortgage)** | SAR 1,500–4,000 | Saudi Authority for Accredited Valuers (Taqeem) panel |
 | **Lawyer / conveyancer (optional)** | SAR 5,000–25,000 typical | Saudi Bar Association registered |
 
 ### RETT — important detail
 
-- Replaces VAT on most real-estate disposals (was 5% VAT pre-Oct-2020; raised to 15% Jul 2020 then carved out as 5% RETT Oct 2020)
+- Replaces VAT on all real-estate sales (VAT 5% from 1 Jan 2018, 15% from 1 Jul 2020; from 4 Oct 2020 Royal Order A/84 made sales VAT-exempt and subject to 5% RETT); since 10 Apr 2025 RETT is levied under the RETT Law (Royal Decree M/84)
 - 5% applied to **disposal value** (sale price); statutory burden on seller but commercially passed to buyer per agreement
-- **First-home exemption**: Saudi national first-time owner-occupiers exempt from RETT on properties up to SAR 1 million (some categories) — verify per ZATCA ruling
-- **Inheritance + gift transfers between specific relatives** generally exempt from RETT
-- Source: [ZATCA RETT page](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Real-Estate-Disposal-Tax.aspx)
+- **First home (citizens)**: the State bears the RETT on up to SAR 1,000,000 of the price of a Saudi citizen's first home, on an eligibility certificate; the buyer becomes jointly liable if the eligibility proves wrong (ZATCA RETT guideline v6, May 2026)
+- **Exempt** (RETT Law art. 3(a)): estate partition within the legal shares; a notarised gift to a spouse or a relative up to the third degree (lost if the donee passes it within 3 years to someone who would not qualify); a transfer executing a documented Sharia will
+- Source: [ZATCA RETT Law page](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/RETTRegulation.aspx) + [RETT Law text (Arabic)](https://zatca.gov.sa/ar/RulesRegulations/Taxes/Documents/RETTrgulations.pdf) + [ZATCA detailed RETT guideline, v6 May 2026](https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Detailed-Guideline-for-RETT-In-accordance-with-provision-of-RETT-Law-and-its-Implementing-Regulations.pdf) (2026-10-29 verified)
 
-### VAT (general — applies to commercial real estate + first-sale developments)
+### VAT (applies to commercial and short-stay leases and real-estate services; real-estate sales are exempt)
 
-- Standard rate: **15%** (raised from 5% effective 1 Jul 2020) — [ZATCA VAT Law](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/VAT.aspx)
-- **Residential rental: VAT EXEMPT**
-- **First sale of new residential by VAT-registered developer**: **VAT-exempt + RETT 5% applies** instead
-- **Commercial property sale + lease**: standard 15% VAT
+- Standard rate: **15%** (raised from 5% effective 1 Jul 2020) — [ZATCA VAT real-estate guideline, Issue 3.0, May 2026](https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-For-the-Real-Estate-Sector-under-VAT-Provision.pdf)
+- **Residential rental: VAT EXEMPT** where the unit is a permanent residence used as a primary residence; serviced apartments, hotels and holiday homes are standard-rated at 15%
+- **Sale of any real estate** (residential, commercial, land; new or resale): **VAT-exempt since 4 Oct 2020; 5% RETT applies** instead
+- **Commercial property lease**: standard 15% VAT (a commercial sale is VAT-exempt and pays RETT)
 - **Mixed-use developments**: bifurcated treatment per ZATCA guidance
 
 ### Income tax / Zakat
@@ -251,11 +251,11 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 | Status | Rate |
 |---|---|
 | **Saudi national / GCC individual** | **No personal income tax** on rental income; **Zakat 2.5%** on net wealth (incl. property held for trading) — Muslim citizens; collected by ZATCA |
-| **Non-Saudi non-GCC individual** | **No personal income tax** on rental income (territorial system; no PIT on individuals) |
+| **Non-Saudi non-GCC individual** | **No personal income tax** on salary; rental income of a resident individual — UNVERIFIED: ZATCA's WHT guideline (May 2026, Example 11) says visiting expatriates' non-employment earnings from temporary work in the Kingdom are subject to income tax at 20% (or 15% WHT), so a blanket 'no PIT on individuals' cannot be assumed; no primary ruling on rental income of non-Saudi individuals located 2026-10-29 — confirm with ZATCA before relying on 0% |
 | **Saudi/GCC corporate** | **Zakat 2.5%** on Zakat base |
 | **Foreign-owned corporate** | **20% Corporate Income Tax** on Saudi-source business profits — relevant for foreign-investor SPVs holding property |
 | **Mixed Saudi/foreign corporate** | Zakat on Saudi share + CIT on foreign share |
-| **Withholding Tax (WHT)** on rent paid to non-resident | **5%** WHT on rent paid to non-resident lessor by Saudi tenant (per [ZATCA WHT](https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Withholding-Tax.aspx)) |
+| **Withholding Tax (WHT)** on rent paid to non-resident | **5%** of rent paid to a non-resident lessor, withheld by a resident company, public body or a natural person paying in the course of business — an individual renting for personal use does not withhold ([ZATCA General Guideline for Withholding Tax, May 2026](https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/General-Guideline-for-Withholding-Tax-In-accordance-with-the-provisions-of-the-Income-Tax-Law-and-its-Implementing-Regulations.pdf)) |
 
 ⚠️ **No personal income tax** in Saudi Arabia for individuals (Saudi or foreign) — among the world's most favourable individual tax regimes. **But foreign-owned corporates pay 20% CIT** on business profit including rental income from real estate held in the company.
 
@@ -279,11 +279,11 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Long-term residential
 
-- **Tenancy registration**: **Ejar (إيجار) platform** — `https://www.ejar.sa/` — mandatory unified electronic tenancy registration since 2018, run by Ministry of Housing in partnership with REGA
-  - All long-term residential leases (12+ months) must be registered on Ejar within 60 days of signing
-  - Registration fee: **0.5% of annual rent + VAT** (paid by tenant typically, sometimes split)
-  - Failure to register: contract not enforceable in court; reduced tenant protection
-- **Rent increase regulation**: **No statutory rent cap** for new leases; mid-term increases for existing tenancies generally limited to local market norms by Ejar arbitration; tenant rights are weaker than UAE Dubai RERA bracket system
+- **Tenancy registration**: **Ejar (إيجار) platform** — `https://www.ejar.sa/` — the electronic rental-services network created under Council of Ministers Decision 131 of 3/4/1435 AH (then Ministry of Housing), now listed among REGA's platforms; start year of mandatory registration not re-verified
+  - Landlords must apply to register any lease not yet on Ejar, and the tenant may file it too; the other party has 60 days from notification to object, after which the registered details stand (REGA rental provisions, 25 Sep 2025)
+  - Registration fee: not confirmed on a primary source (ejar.sa blocked automated reads 2026-10-29); Bayut's guide (listing platform) gives **SAR 125 per year** for a residential contract — the earlier 0.5%-of-rent figure is unverified; check the fee Ejar shows before payment
+  - Failure to register: an unregistered lease is not treated as a valid contract producing administrative or judicial effects (Council of Ministers Decision 292 of 16/5/1438 AH)
+- **Rent increase regulation — Riyadh frozen**: for 5 years from 25 Sep 2025, no increase in the total rent of existing or new residential and commercial leases inside Riyadh's urban boundary; a vacant, previously let unit is fixed at its last Ejar rent (never-let units by agreement); landlords may object to the fixed rent (not for existing contracts) after substantial renovation, where the last lease predates 2024, or in other cases REGA's Board sets; fines up to 12 months' rent; REGA's Board may extend the freeze to other cities with CEDA approval (REGA's Ejar FAQ, read 2026-10-29, still limits it to Riyadh). Elsewhere, increases follow the contract by mutual agreement. **Automatic renewal** Kingdom-wide unless either side gives 60 days' notice; in Riyadh the landlord may refuse renewal only for non-payment, certified structural defects, own or first-degree-relative use, or other cases set by REGA's Board (2026-10-29 verified, source REGA)
 - **Standard tenancy structure**: 1-year fixed term renewable; **1-year advance payment** common (especially for non-Muslim expat workers historically); 2-month security deposit; landlord pays municipality fees, tenant pays utilities
 - **Mortgage rent guarantee**: Saudi Real Estate Refinance Co. (SRC) + REDF subsidies for Saudi nationals only
 
@@ -303,19 +303,19 @@ Per [GCC Common Market 2008 + Resolution of GCC Supreme Council](https://www.gcc
 
 ### Short-term rentals (Airbnb / vacation rentals)
 
-⚠️ **REGULATED** under [Tourism Law (Royal Decree M/61 of 22/04/1441 AH — 2020)](https://laws.moj.gov.sa/) + 2021 STR Registration Decree.
+⚠️ **REGULATED** under the [Tourism Law (نظام السياحة), Royal Decree M/18 of 26/1/1444 AH](https://cdn.mt.gov.sa/mtportal/mt-fe-production/content/policies-regulations/documents/tourism-regulations/Saudi-Tourism-Regulation-Ar-V014.pdf) (replaced the 1436 AH law); the "2021 STR Registration Decree" cited earlier was not located on a primary source 2026-10-29.
 
 - **Authority**: [Ministry of Tourism (وزارة السياحة)](https://mt.gov.sa/) — tourism licensing and classification, including tourist hospitality facilities. **Since 28 August 2026 all new licensing and classification applications are filed on the Tourism.sa platform** (`https://tourism.sa/`); the legacy licensing portal [tlg.mt.gov.sa](https://tlg.mt.gov.sa/) is retained only to complete in-flight files, via National Single Sign-On. The older **Sahel** route is superseded (2026-09-18 verified, source: migration banner on the Ministry of Tourism licensing portal).
 - **Required licence**: Tourism Hospitality Licence — class differs by property size + type
 - **Registration**: every STR property must be registered with the Ministry of Tourism — new applications go through **Tourism.sa** since 28 Aug 2026 (formerly Sahel); building NOC may be required (some stratas / buildings prohibit STR)
-- **Tax**: 15% VAT on STR revenue if turnover > SAR 375,000/yr (mandatory VAT registration threshold per ZATCA); 5% Tourism Levy + Municipal fees
+- **Tax**: 15% VAT on STR revenue once taxable supplies exceed SAR 375,000 in any 12 months (mandatory registration threshold); holiday homes and short-term accommodation do not get the residential-lease exemption (ZATCA VAT real-estate guideline, May 2026); "5% Tourism Levy + Municipal fees" UNVERIFIED — no primary source located 2026-10-29
 - **Hajj/Umrah hospitality**: Mecca + Medina STR governed by **special Hajj hospitality framework** under Ministry of Hajj and Umrah + Ministry of Tourism — licensed houses (الإسكان المعتمد) only; non-licensed pilgrim accommodation prohibited
-- **Penalties**: SAR 25,000+ for unlicensed operation; platform-data sharing arrangements with Airbnb + Booking emerging 2024–2025
+- **Penalties**: Tourism Law art. 16 — warning, closure, downgrade, licence suspension up to 1 year or cancellation, and fines up to **SAR 1,000,000** (on-the-spot fines up to SAR 10,000 per the minister's schedule); the earlier "SAR 25,000+" figure had no source; platform data-sharing claim not re-verified
 - **Ramadan + Hajj season** are peak — pricing 2-5x off-peak in Mecca/Medina markets
 
 ### Strategic notes
 
-- **Non-Saudi/non-GCC foreign owners pre-2026**: rental income generally requires Saudi-licensed property manager; consider 5% WHT exposure if non-resident
+- **Non-Saudi/non-GCC foreign owners pre-2026**: rental income generally requires Saudi-licensed property manager; if non-resident, a company or business tenant withholds 5% WHT from the rent (an individual renting for personal use does not)
 - **Post-2026 designated-zone foreign buyers**: full rental rights subject to Ejar + Ministry of Tourism registration via Tourism.sa (ex-Sahel); 15% VAT on commercial rental + STR; 0% PIT
 - **Building NOC + DMC equivalent**: Saudi residential compounds (مجمعات سكنية) often have private association rules limiting STR — verify
 - **Currency**: SAR-pegged-USD income; US/UK/EU tax-resident owners pay home-country tax on rental (treaty network: limited; KSA has DTAs with ~50 countries)
@@ -589,7 +589,7 @@ HIGH for IPCC AR6 + KAUST regional projections; MEDIUM for sub-2km flood-inundat
 
 ### Mortgage market
 
-- **Regulator**: [SAMA — Saudi Central Bank (البنك المركزي السعودي)](https://www.sama.gov.sa/) — sets macroprudential LTV + DSR via [SAMA Real Estate Finance Rules](https://www.sama.gov.sa/en-US/Laws/Pages/Banking-Rules.aspx) (2014 + 2018 amendments)
+- **Regulator**: [SAMA — Saudi Central Bank (البنك المركزي السعودي)](https://www.sama.gov.sa/) — sets the LTV ceiling under art. 11 of the Implementing Regulations of the Real Estate Finance Law (70% default, SAMA may change it), amended by circulars of 1437 AH, 1438 AH and [391000048362 of 14 Jan 2018](https://rulebook.sama.gov.sa/en/increase-maximum-mortgage-citizens-own-first-home) (in force per the SAMA Rulebook, 2026-10-29)
 - **Mortgage law basis**: [Real Estate Finance Law M/50 of 13/08/1433 AH (2012)](https://laws.moj.gov.sa/) + Registered Real Estate Mortgage Law M/49 of 13/08/1433 AH
 - **Refinancer**: [Saudi Real Estate Refinance Co. (SRC — الشركة السعودية لإعادة التمويل العقاري)](https://www.srco.com.sa/) — PIF-owned; provides liquidity to retail mortgage market
 - **Subsidy**: [Real Estate Development Fund (REDF — صندوق التنمية العقاري)](https://www.redf.gov.sa/) — Saudi-national-only down-payment + interest subsidy programs
@@ -598,19 +598,19 @@ HIGH for IPCC AR6 + KAUST regional projections; MEDIUM for sub-2km flood-inundat
 
 | Borrower | LTV cap |
 |---|---:|
-| **Saudi national, first home** | **90%** (SAMA + REDF subsidy combined) |
-| **Saudi national, subsequent home** | 70% |
-| **GCC national** | 70% (typical) |
-| **Non-GCC expatriate (resident with valid Iqama)** | 60–70% (case-by-case; SAMA macroprudential) |
+| **Saudi national, first home** | **90%** (SAMA cap for citizens' first home, circular of 14 Jan 2018) |
+| **Saudi national, subsequent home** | 70% from banks, 85% from real-estate finance companies |
+| **GCC national** | no GCC-specific SAMA rule located 2026-10-29; second and later homes 70% (banks) / 85% (finance companies) as for all beneficiaries; the 90% tier is for citizens only |
+| **Non-GCC expatriate (resident with valid Iqama)** | SAMA ceiling 70% (banks) / 85% (finance companies) for second and later homes; first-home ceiling for non-citizens not stated in the 2018 circular; lender practice case-by-case (60–70% est., not re-verified) |
 | **Non-resident foreign individual** | **rarely available** pre-2026; case-by-case for Premium Residency holders |
-| **Investment / non-self-use** | typically 50–60% |
+| **Investment / non-self-use** | est. 50–60% (lender practice; no separate SAMA tier located 2026-10-29) |
 
 ### Rate structure
 
 - **Murabaha (مرابحة)** + **Ijara (إجارة)** Sharia-compliant structures dominate (cost-plus-profit + lease-to-own) — interest-bearing conventional mortgages also available but minority
 - **Fixed-rate residential** common: 3–7 year fixed reset; 25–30 year amortization standard
 - **Indicative rate Q1 2026**: ~4.5–6.5% Murabaha equivalent (tracking SAIBOR + Fed cycle via SAR-USD peg)
-- **SAIBOR (Saudi Arabian Interbank Offered Rate)** Q1 2026: 1M ~ 4.5%, 12M ~ 5.0% — verify current at SAMA
+- **SAMA policy rates** (Sep 2026): repo **4.5%**, reverse repo **4.0%** (source SAMA economic indicators); SAIBOR tenors not re-verified 2026-10-29 — the earlier Q1 2026 figures (1M ~4.5%, 12M ~5.0%) are unverified; check SAMA
 
 ### Foreigner mortgages
 
@@ -662,24 +662,24 @@ SAMA's USD foreign reserves ≈ USD 437B (Q4 2025; IMF data) supported by **hydr
 
 | Scheme | Threshold | Visa | PR path |
 |---|---|---|---|
-| **Premium Residency — Permanent (Limited)** | One-time SAR 800,000 (~USD 213,000) | **Permanent** ID card | n/a — already permanent |
-| **Premium Residency — Renewable Annual** | SAR 100,000/yr | 1-yr renewable | renewable indefinitely |
-| **Premium Residency — Real-Estate-Owner** (2024 expansion) | Property ≥ SAR 4,000,000 (~USD 1.07M) in REGA-designated zone | Tied to property | Tied to ownership |
-| **Premium Residency — Investor** | Specified investment in licensed enterprise | Tied to investment | Tied |
+| **Premium Residency — Unlimited Duration** | One-time SAR 800,000 (~USD 213,000) | **Permanent** | n/a — already permanent |
+| **Premium Residency — Limited Duration** | SAR 100,000 for each year | 1 to 5 years, renewable | renewable |
+| **Premium Residency — Real Estate Owner** | Existing residential property ≥ SAR 4,000,000 (~USD 1.07M), unmortgaged (or off-plan unit ≥ SAR 4M with ≥ SAR 1M or 10% paid, whichever is higher); fee SAR 4,000 | Tied to property | Tied to ownership |
+| **Premium Residency — Investor** | MISA-licensed investment ≥ SAR 7,000,000 (applicant's share) + 10 employees; fee SAR 4,000 | Permanent | Conditional on keeping both for 2 years |
 | **Premium Residency — Talent / Entrepreneur** (2024 expansion) | Specific qualifying tracks (high-skill, R&D, cultural) | Variable | Tied |
 | **Standard Iqama (Work Residence)** | Employment offer + sponsor (kafeel) | 1–2 yr renewable | Tied to employer; no automatic PR |
 | **Hajj / Umrah Visa** | Pilgrimage purpose only (Mecca/Medina) | Single-use | n/a |
-| **Tourist eVisa** (since 2019) | 50+ eligible nationalities | 90 days/visit, 1 yr multiple | n/a |
+| **Tourist eVisa** (since 2019) | 68 eligible countries | 90 days/visit, 1 yr multiple | n/a |
 | **Special Privilege Iqama** (older 2019 program; now folded into Premium Residency) | Various | Various | various |
 
 ### Premium Residency — material detail
 
-Source: [pr.gov.sa](https://pr.gov.sa/) (Premium Residency Centre — Council of Economic Affairs).
+Source: Premium Residency Center product pages on [pr.gov.sa](https://pr.gov.sa/pr) (read 2026-10-29).
 
-- **Rights**: own real estate (excluding Mecca/Medina haram), invest in business, sponsor family (spouse + children + parents), multiple-entry, Saudi domicile, public+private services access
+- **Rights**: own and usufruct real estate (the Makkah / Madinah limits in the Foreign-buyer section apply), conduct business under the Investment Law, reside with parents, spouses and children under 25, visit visas for relatives, exit and re-entry without a visa, exemption from expat and dependant fees
 - **Restrictions**: cannot hold government office; cannot work as Saudi national for citizenship-restricted roles; some sector limits
-- **Holders**: ~30,000+ Premium Residencies issued cumulatively 2019–2024 (PRC public statements; precise number not public)
-- **Real-Estate-Owner pathway specific risk**: tied to property; if property sold without re-qualifying, residency may lapse
+- **Holders**: ~30,000+ issued 2019–2024 — UNVERIFIED (no PRC statement located 2026-10-29)
+- **Real-Estate-Owner pathway specific risk**: validity is linked to continued ownership or usufruct of the residential unit, and the unit may not be mortgaged — a sale or a later mortgage ends eligibility
 - **Pathway to citizenship**: Saudi citizenship is not a normal path for Premium Residents; very rare exceptional grants by Royal Decree
 
 ### Hajj / Umrah pilgrimage visa context
@@ -691,7 +691,7 @@ Source: [pr.gov.sa](https://pr.gov.sa/) (Premium Residency Centre — Council of
 
 ### Tourist eVisa
 
-Available to 60+ nationalities (incl. EU, UK, US, Australia, Canada, Japan, GCC tourist categories) — single-application via [visa.visitsaudi.com](https://visa.visitsaudi.com/). Allows 90 days per visit, 1-year multiple-entry. **Does NOT confer property-purchase or work rights.**
+Available to nationals of 68 countries (incl. EU, UK, US, Australia, Canada, Japan) — single-application via [visa.visitsaudi.com](https://visa.visitsaudi.com/). Allows 90 days per visit, 1-year multiple-entry. **Does NOT confer property-purchase or work rights.**
 
 ---
 
@@ -740,21 +740,21 @@ Saudi Arabia uses a **civil-law notary system**: the [Notary Public (Kateb Adl �
 
 | Step | Day | What happens |
 |---|---|---|
-| 1. Reservation / preliminary agreement | D0 | Initial deposit (typically 10% of price) to seller; non-binding pending due diligence |
+| 1. Reservation / preliminary agreement | D0 | Down payment (عربون) agreed by the parties — through a licensed broker it may not exceed 5% of the price, any excess counts as an advance payment; forfeited if the buyer withdraws without cause, refunded otherwise (Real Estate Brokerage Law art. 13) |
 | 2. Due diligence | D0–D14 | Title Deed verification (Sakk), encumbrance check, White Land + Vacant Property Fees clearance (a legal precondition for notarising a land transfer, Council of Ministers Decision 263 of 2026), building permits, NOC from developer/Body Corporate |
 | 3. Mortgage approval (if applicable) | D7–D45 | Bank Murabaha/Ijara approval + valuation |
 | 4. **Notary appointment (Kateb Adl / Najiz)** | D30–D60 | All parties present (or PoA); seller + buyer + witnesses; new Sakk issued in buyer name; payment transferred via SAMA-monitored channel |
-| 5. RETT 5% paid by seller within 30 days | D30–D90 | ZATCA filing |
+| 5. RETT 5% paid to ZATCA (seller liable; the parties may agree who pays) | by step 4 | Due on the notarisation date or earlier; the notary may not document the transfer without proof of payment or exemption (RETT Law arts 4, 5, 19(2)) |
 | 6. Title transfer recorded in Real Estate Registry | D60–D90 | MOJ Real Estate Registry electronic ID issued (if applicable region) |
 
 ### Costs
 
 | Item | Cost (SAR) |
 |---|---|
-| Notary registration fee | ~SAR 200–2,000 (modest) |
-| Real Estate Registry fee | ~SAR 500–1,500 |
+| Notary registration fee | est. SAR 200–2,000 (no published schedule located 2026-10-29) |
+| Real Estate Registry fee | first registration free; later services per a Council of Ministers-approved schedule (Real Estate Registration Law art. 34) — est. SAR 500–1,500, schedule not located 2026-10-29 |
 | RETT 5% (statutory seller, often passed) | 5% of price |
-| Real estate broker commission | 2.5% + 15% VAT = ~2.875% effective per side |
+| Real estate broker commission | 2.5% + 15% VAT = ~2.875% (default, unless agreed otherwise in writing; one broker serving both sides is capped at 2.5% in total — Brokerage Law art. 14) |
 | Mortgage registration | ~0.5% of loan |
 | Property valuation (Taqeem) | SAR 1,500–4,000 |
 | Lawyer (optional, foreign buyer recommended) | SAR 5,000–25,000 typical |
@@ -764,7 +764,7 @@ Saudi Arabia uses a **civil-law notary system**: the [Notary Public (Kateb Adl �
 
 ### Foreign buyer practical (post-2026 designated-zone)
 
-- **Najiz electronic notary** typically requires Saudi National ID / Iqama; foreign non-resident buyer needs **Power of Attorney (Wakalah)** notarized at Saudi embassy in home country + apostille
+- **Non-Saudi route**: applications go through REGA's **Saudi Properties** portal (saudiproperties.rega.gov.sa), with a remote route for individuals outside the Kingdom; payments must be electronic under SAMA rules and title is issued through the Real Estate Registry (REGA guide, updated 23 Jun 2026). A **Power of Attorney (Wakalah)** signed abroad in a Convention state needs an apostille (Saudi Arabia joined the Apostille Convention, in force for it 7 Dec 2022 — HCCH); for other states verify the legalisation route with the Saudi mission
 - **Beneficial ownership disclosure**: corporate buyers must register with Saudi Companies Registry + ZATCA; UBO ID per AML
 - **AML / source-of-funds**: bank statements + employment evidence + prior asset sale evidence — enforced at notary level
 
@@ -1009,9 +1009,9 @@ Workable pathways for remote-working visitors:
 | Item | Cost |
 |---|---|
 | **Real Estate Disposition Tax (RETT 5%)** | **5% of sale price** (statutory seller, often passed) |
-| Estate agent commission (seller side) | typically 2.5% of sale price + 15% VAT (~2.875% effective) |
+| Estate agent commission (seller side) | 2.5% of sale price by default + 15% VAT (~2.875% effective; Brokerage Law art. 14, unless agreed otherwise in writing) |
 | Notary registration fee | ~SAR 200–2,000 |
-| MOJ Real Estate Registry fee | ~SAR 500–1,500 |
+| MOJ Real Estate Registry fee | est. SAR 500–1,500 (schedule not located 2026-10-29) |
 | Mortgage early-discharge fee | typically 1–3% of outstanding (Sharia-compliant Murabaha clawback differs from conventional) |
 | Lawyer (optional) | SAR 5,000–25,000 |
 | **NO CGT** for individuals — capital gain not separately taxed |
@@ -1047,9 +1047,9 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 | Item | Cost (SAR) |
 |---|---:|
 | **Real Estate Disposition Tax (RETT 5%)** | **5% of price** (statutory seller; often passed to buyer) |
-| Notary registration fee | SAR 200–2,000 |
-| Real Estate Registry fee | SAR 500–1,500 |
-| Real estate agent commission (per side) | 2.5% + 15% VAT (~2.875%) |
+| Notary registration fee | est. SAR 200–2,000 (schedule not located 2026-10-29) |
+| Real Estate Registry fee | est. SAR 500–1,500 (first registration free; schedule not located 2026-10-29) |
+| Real estate agent commission (per side) | 2.5% + 15% VAT (~2.875%); default unless agreed otherwise, one broker serving both sides capped at 2.5% total |
 | Mortgage registration | ~0.5% of loan |
 | Property valuation (Taqeem accredited) | SAR 1,500–4,000 |
 | Lawyer (optional, foreign buyer recommended) | SAR 5,000–25,000 |
@@ -1066,13 +1066,13 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 
 ## Active fiscal incentives (2026)
 
-- **Premium Residency** routes: Real-Estate-Owner (≥SAR 4M), Permanent (SAR 800k one-time), Renewable Annual (SAR 100k/yr), Investor, Talent, Entrepreneur
+- **Premium Residency** routes: Real Estate Owner (≥SAR 4M existing residential, unmortgaged), Unlimited Duration (SAR 800k one-time), Limited Duration (SAR 100k per year), Investor (≥SAR 7M), Special Talent, Gifted, Entrepreneur (PRC, 2026-10-29)
 - **REDF (Real Estate Development Fund)** subsidies for **Saudi nationals only**: down-payment + interest-rate subsidy for first-home buyers
-- **Saudi national first-home RETT exemption** for properties up to SAR 1M (verify per ZATCA ruling)
+- **Saudi citizen first home**: the State bears RETT on up to SAR 1M of the price (ZATCA RETT guideline v6, May 2026)
 - **0% personal income tax** on rental income (universal — Saudi + foreign)
 - **0% capital gains tax** for individuals (RETT 5% on disposal applies)
 - **0% recurring property tax** on developed residential
-- **VAT exempt** for residential rental + some first-sale residential (RETT instead)
+- **VAT exempt** for residential rental (primary residence) and for every real-estate sale (RETT instead)
 - **Sharia-compliant Murabaha + Ijara** mortgage structures
 - **Vision-2030 mega-project special economic zones**: NEOM SEZ + Special Integrated Logistics Zone (SILZ) Riyadh + Cloud Computing SEZ — varied tax + employment incentives
 
@@ -1088,15 +1088,15 @@ If individual seller is engaged in regular trading (multiple flips / short-hold)
 ## Caveats unique to KSA
 
 - **Foreign Real Estate Ownership Law — Royal Decree M/14 of 19/01/1447 AH (14 Jul 2025), effective 22 Jan 2026** — executive regulation (CoM Decision 43 of 8/1/1448 AH) published Umm Al-Qura 3 Jul 2026 and geographic scopes approved by the Council of Ministers 23 Jun 2026; verify per-parcel against the scope maps at REGA before any reservation
-- **Mecca + Medina closed to non-Muslim natural persons** — RD M/14 art. 2(4) limits individual ownership in the cities of Makkah and Madinah to Muslim natural persons; unlisted Saudi-incorporated companies with foreign shareholders may own there inside the designated scope (exec. reg. art. 8(3)) and listed companies / funds / SPEs under CMA rules (art. 4) (2026-10-21 verified, source REGA + Umm Al-Qura)
+- **Mecca + Medina closed to non-Muslim natural persons** — RD M/14 art. 2(4) limits individual ownership in the cities of Makkah and Madinah to Muslim natural persons; unlisted Saudi-incorporated companies with foreign shareholders may own there inside the designated scope (exec. reg. art. 8(3)) and listed companies / funds / SPEs under CMA rules (art. 4) (2026-10-21 verified, source REGA + Umm Al-Qura); REGA's guide (updated 23 Jun 2026) states that ownership there by Muslim individuals and Saudi companies is limited to residential properties
 - **Sharia-default inheritance** — DIFC/ADGM Wills NOT enforceable; foreign property holders need separate Saudi-jurisdiction estate planning
 - **No personal income tax + no recurring property tax** — among world's most tax-favourable
-- **5% RETT on disposal** (statutory seller) — primary transaction tax; replaces VAT on most real-estate disposals since 2020
-- **15% VAT** on commercial real estate + STR + first-sale developments by VAT-registered developer
+- **5% RETT on disposal** (statutory seller) — primary transaction tax; real-estate sales VAT-exempt since 4 Oct 2020; RETT Law (Royal Decree M/84) in force 10 Apr 2025; must be paid before the notary documents the transfer
+- **15% VAT** on commercial and short-stay leases (incl. STR) and real-estate services; no VAT on any real-estate sale
 - **White Land + Vacant Property Fees up to 10%/yr** on undeveloped urban parcels ≥5,000 m² (banded by priority zone), and up to 5% of value on long-vacant buildings once their zone is announced (none as at 2026-10-21) — material anti-speculation lever
 - **Saudization (Nitaqat)** — labour-market quota system; affects rental demand from expat workforce
 - **Vision-2030 mega-projects** (NEOM, Diriyah, Red Sea, Qiddiya, Roshn) — first-generation execution + PIF-developer-concentration risk
-- **Premium Residency Real-Estate route** SAR 4M threshold — verify current PRC schedule
+- **Premium Residency Real-Estate route** SAR 4M threshold (existing residential, unmortgaged; confirmed on the PRC portal 2026-10-29) — validity is tied to continued ownership or usufruct, and the property may not be mortgaged later
 - **Riyadh Metro Phase 1 (Dec 2024)** — material reset of property catchment values within 800 m of stations
 - **Jeddah flood history** (2009 + 2011 + recurring) — drainage upgrade ongoing, no programme completion date found in a 2026-10-29 search (see `--esg`); verify property elevation + wadi-adjacency
 - **SAR pegged USD at 3.75 since 1986** — zero FX risk for USD asset holders; meaningful FX risk vs EUR / GBP / floating currencies
