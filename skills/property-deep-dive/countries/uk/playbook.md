@@ -259,12 +259,12 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
 
 | Source | URL | What it gives |
 |---|---|---|
-| **Environment Agency long-term flood risk** | `https://check-long-term-flood-risk.service.gov.uk` | Postcode flood risk |
-| **SEPA (Scotland) flood maps** | `https://map.sepa.org.uk/floodmap/map.htm` | Scotland flood |
-| **Natural Resources Wales** | `https://naturalresources.wales/flooding/` | Wales flood |
-| **DfI Rivers (NI)** | `https://www.infrastructure-ni.gov.uk/topics/rivers-and-flooding` | NI flood |
-| **Coal Authority** | `https://www2.groundstability.com/` | Coal mining search (former mining areas) |
-| **HSE COMAH** | `https://www.hse.gov.uk/comah/` | Seveso-equivalent industrial sites |
+| **Environment Agency long-term flood risk** (England) | `https://check-long-term-flood-risk.service.gov.uk` | Long-term flood risk by postcode from rivers and the sea and surface water (both on the new NaFRA data published 28 Jan 2025) and from reservoirs — "the flood risk of an area, not a specific property" (gov.uk, read 2026-10-28) |
+| **SEPA (Scotland) flood maps** | `https://map.sepa.org.uk/floodmaps` | Long-term flood risk for an area in Scotland from rivers, the sea and surface water — not for a specific property; the older viewer at `https://map.sepa.org.uk/floodmap/map.htm` is SEPA's flood risk management maps, "for responsible authorities" (SEPA, read 2026-10-28) |
+| **Natural Resources Wales — Flood Risk Assessment Wales map** | `https://naturalresources.wales/flooding/check-your-flood-risk-on-a-map-flood-risk-assessment-wales-map/?lang=en` | Wales flood risk from rivers, the sea, surface water and small watercourses, and reservoirs, plus flood defences and coastal erosion; no official status for planning (use the Flood Map for Planning) (NRW, read 2026-10-28) |
+| **DfI Rivers (NI) — Flood Maps NI** | `https://www.infrastructure-ni.gov.uk/topics/flood-maps-ni` | NI flood hazard map viewer — "the latest flood hazard information available from government" (DfI, read 2026-10-28) |
+| **Mining Remediation Authority** (the Coal Authority until 28 Nov 2024) | `https://www.gov.uk/check-if-property-is-affected-by-coal-mining` | Free check whether a property is in a former coal mining area, then a paid coal mining report from £27 + VAT (mine entries within 20 m of the boundary, mine gas, other hazards, future mining); the old `www2.groundstability.com` address now redirects to `www.miningremediation.co.uk`, which blocks automated checks (gov.uk, read 2026-10-28) |
+| **HSE COMAH** | `https://www.hse.gov.uk/comah/comah-establishments.htm` | Search public information on major-hazard establishments in your area under the COMAH Regulations 2015, which implement the EU Seveso III Directive 2012/18/EU (HSE + SI 2015/483 explanatory note, read 2026-10-28) |
 | **UK Health Security Agency Radon** | `https://www.ukradon.org` | Radon affected areas postcode lookup |
 | **British Geological Survey** | `https://www.bgs.ac.uk/` | Geology, sinkholes, ground stability |
 | **Met Office** | `https://www.metoffice.gov.uk/` | Weather, climate |
@@ -272,16 +272,16 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
 
 ### Specific risks
 
-- **Flooding** — major risk:
+- **Flooding** — major risk: 6.3 million properties in England are in areas at risk of flooding from rivers, the sea or surface water (about 4.6 million from surface water, about 2.4 million from rivers and the sea); with climate change the total could reach about 8 million — one in four properties — by mid-century (2024 data, source [Environment Agency NaFRA, 17 Dec 2024](https://www.gov.uk/government/news/environment-agency-publishes-major-update-to-national-flood-and-coastal-erosion-risk-assessment)). These are area-level counts — check the address on the national maps above:
   - Tidal: Thames, Severn, Humber estuaries; East Anglian coast
   - River: Yorkshire (2007, 2015, 2019), Cumbria (Storm Desmond 2015)
   - Surface water: urban areas, storm drains
-- **Subsidence**: clay soils (London, SE England); 2022 + 2023 + 2024 droughts elevated claims
-- **Coastal erosion**: East Yorkshire (Holderness), Norfolk, North Wales
-- **Radon**: Cornwall + Devon + Derbyshire + parts of Aberdeenshire — UK Radon affected area maps
-- **Coal mining subsidence**: South Wales valleys, Yorkshire, Notts, Durham, Lanarkshire
-- **Japanese knotweed**: identified in Land Registry; mortgage-blocking
-- **Storms**: Atlantic depressions; Storm Éowyn Jan 2025 (record damage), Storm Babet 2023
+- **Subsidence**: clay soils (London, SE England) (not re-verified); subsidence claims rise after dry summers (not re-verified). The Environment Agency declared drought in parts of England in Aug 2022, in 2025 (Yorkshire became the second region on 12 Jun 2025) and again in 2026 — "a second consecutive summer drought", half of England by 29 Jul 2026 and Yorkshire from 9 Oct 2026 (sources [EA 12 Aug 2022](https://www.gov.uk/government/news/environment-agency-chairs-national-drought-group-as-parts-of-country-move-into-drought), [EA 12 Jun 2025](https://www.gov.uk/government/news/yorkshire-second-region-in-england-to-move-into-drought-status), [EA 29 Jul 2026](https://www.gov.uk/government/news/drought-declared-in-half-of-england), [EA 9 Oct 2026](https://www.gov.uk/government/news/environment-agency-declares-drought-status-in-yorkshire))
+- **Coastal erosion**: in England, East Riding of Yorkshire (Holderness coast, e.g. Aldbrough, Skipsea), North Norfolk and Cornwall have some of the highest numbers of properties at risk; 3,500 properties are in areas at risk to 2055 and 10,100 to 2105 if Shoreline Management Plans are delivered (present-day climate; 5,200 and 19,700 with climate change; 32,800 and 65,100 without the plans) (2024 data, source [EA National assessment of flood and coastal erosion risk in England 2024](https://www.gov.uk/government/publications/national-assessment-of-flood-and-coastal-erosion-risk-in-england-2024/national-assessment-of-flood-and-coastal-erosion-risk-in-england-2024)); Wales: see NRW's coastal erosion risk map (North Wales not re-verified)
+- **Radon**: Cornwall + Devon + Derbyshire + parts of Aberdeenshire (regions not re-verified) — check the UKHSA/BGS Affected Area map at ukradon.org (launched 1 Dec 2022; Isle of Man added 22 Oct 2025); radon is "attributed to 1,100 lung cancer deaths per year" in the UK; the map does not apply to basements or cellars, which should be treated as higher risk (sources [UKradon maps](https://www.ukradon.org/information/ukmaps) + [UKHSA/BGS, 2 Dec 2022](https://www.gov.uk/government/news/ukhsa-and-bgs-publish-updated-radon-map-for-great-britain)); the seller discloses radon tests and remedial work on TA6 q.8.3–8.4
+- **Coal mining subsidence**: South Wales valleys, Yorkshire, Notts, Durham, Lanarkshire (coalfield list not re-verified) — "property near to past mining activities may be at risk of being on unstable ground"; a conveyancer usually orders a coal mining search in affected areas (Mining Remediation Authority check, see table above; gov.uk, read 2026-10-28)
+- **Japanese knotweed**: disclosed by the seller on the TA6 (6th edition) property information form, q.8.6–8.7 (presence, survey report, management plan); the Law Society notes a property is usually considered at risk if knotweed grows on it or within 3 m of its boundary, and many sellers answer "not known" because a rhizome can be present with no visible growth (2026 data, source [Law Society TA6 explanatory notes](https://www.lawsociety.org.uk/topics/property/ta6-6th-edition-explanatory-notes)); effect on mortgage lending not re-verified — check the lender's policy
+- **Storms**: Atlantic depressions; Storm Éowyn (24 Jan 2025) — "the UK’s most powerful windstorm for over a decade", with red warnings and fatalities; Storm Babet (18–21 Oct 2023) — the main impacts came from rain, 150–200 mm in the wettest parts of eastern Scotland and two red rain warnings (sources [Met Office storm season 2024/25](https://weather.metoffice.gov.uk/warnings-and-advice/uk-storm-centre/uk-storm-season-2024-25) + [2023/24](https://weather.metoffice.gov.uk/warnings-and-advice/uk-storm-centre/uk-storm-season-2023-24))
 
 ### Build-era hazards
 
@@ -290,31 +290,31 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
 | **Pre-1900** | Damp, no DPC, lead paint, lath-and-plaster, single-skin walls |
 | **1900–1939** | Shallow foundations, lath-and-plaster, asbestos cement starts |
 | **1945–1965** | Prefab/non-traditional concrete (Cornish, Wates, Airey — some condemned), asbestos |
-| **1960s–1980s** | Asbestos very common (garages, soffits, AIB); High-Alumina Cement (HAC) concern; **RAAC** (reinforced autoclaved aerated concrete) — major scandal in schools/hospitals 2023-2024 |
+| **1960s–1980s** | Asbestos very common (garages, soffits, AIB); High-Alumina Cement (HAC) concern; **RAAC** (reinforced autoclaved aerated concrete) — major scandal in schools/hospitals 2023-2024; for homes, the Regulator of Social Housing wrote on 7 Sep 2023 that RAAC failure is a risk in some public buildings constructed between the 1950s and 1980s, that it "is not widespread in social housing" but may be present in a small number of buildings, "particularly in flat roof and panel structures" ([RSH letter](https://www.gov.uk/government/publications/letter-to-registered-providers-about-raac)) |
 | **1980s–2000s** | Cavity wall insulation issues (damp bridging); modern wiring; some asbestos remains |
 | **Post-2010** | Building Regs Part L energy; Part E acoustic |
-| **Post-Grenfell (2017)** | Cladding crisis — EWS1 form for flats >18m; recladding programme ongoing |
+| **Post-Grenfell (2017)** | Cladding crisis — the EWS1 form was first designed for buildings over 18 m but can be asked for on blocks of any height (see Mandatory at sale); remediation ongoing: at end-Sep 2026, 4,732 residential buildings 11 m+ in England with unsafe cladding were monitored, 55% started or completed and 40% completed (2026 data, source [MHCLG Building Safety Remediation data release, Sep 2026](https://www.gov.uk/government/publications/building-safety-remediation-monthly-data-release-september-2026)) |
 
 ### Mandatory at sale
 
 | Document | Required because | Validity |
 |---|---|---|
-| **EPC** (Energy Performance Certificate) | Required since 2008 | 10 years |
-| **Property Information Form (TA6)** | Standard pre-contract enquiry | At sale |
-| **Fittings & Contents Form (TA10)** | What's included | At sale |
-| **Leasehold Information Form (TA7)** | Leasehold only | At sale |
+| **EPC** (Energy Performance Certificate) | Required on sale or let in England and Wales — phased in from 1 Jun 2007, all remaining cases from 1 Oct 2008 (SI 2007/991 Sch 1); rated A–G; reformed EPCs with four new headline metrics now launch in the second half of 2027 (gov.uk, 9 Mar 2026) | 10 years (gov.uk) |
+| **Property Information Form (TA6, 6th edition 2025)** | Standard pre-contract enquiry (Law Society form); mandatory for Conveyancing Quality Scheme members on instructions from 30 Mar 2026 | At sale |
+| **Fittings & Contents Form (TA10, 3rd edition 2013)** | What's included | At sale |
+| **Leasehold Information Form (TA7, 5th edition 2025)** | Leasehold only; mandatory for Conveyancing Quality Scheme members on instructions from 30 Mar 2026 | At sale |
 | **Searches**: Local, Drainage & Water (CON29DW), Environmental, Chancel | Solicitor-ordered | Per case |
-| **EWS1** | Required for flats in tall buildings post-Grenfell | 5 years |
+| **EWS1** | Asked for by the lender's valuer on flats in multi-storey, multi-occupancy buildings with cladding; RICS's 2nd-edition standard (published 12 May 2026, effective 1 Nov 2026) sets when, with thresholds for over 6, 5–6 and 4-or-fewer storeys, and lets a PAS 9980 FRAEW summary replace it in some cases; "not a fire safety certificate" — ask for the building's fire risk assessment (RICS) | 5 years, whole building — in Scotland it can be flat by flat (RICS FAQ) |
 | **Cavity wall insulation guarantee** | If installed | Per case |
 
-- **MEES (private rented sector, England and Wales)** — a let property must reach **EPC C by 1 Oct 2030** (single compliance date; Warm Homes Plan / DESNZ response 21 Jan 2026). Cost cap **£10,000** per property (exemption valid 10 yrs); homes valued <£100k → cap is the lower of £10k or 10% of value. Sub-EPC-C stock faces upgrade cost or unlettability — see `--rental`. (2026-07-03 verified; source [gov.uk PRS MEES consultation response](https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update))
+- **MEES (private rented sector, England and Wales)** — proposed: a let property must reach **EPC C by 1 Oct 2030** (single compliance date; Warm Homes Plan / DESNZ response 21 Jan 2026). Cost cap **£10,000** per property (exemption valid 10 yrs); homes valued <£100k → cap is the lower of £10k or 10% of value; short-term lets out of scope. Not yet law (see shared/regulatory-watch.md 🇬🇧 UK) — until the higher standard applies on 1 Oct 2030, landlords must keep meeting the current EPC E standard with a £3,500 cap ([gov.uk landlord guidance](https://www.gov.uk/guidance/domestic-private-rented-property-minimum-energy-efficiency-standard-landlord-guidance), updated 5 May 2026). Sub-EPC-C stock faces upgrade cost or unlettability — see `--rental`. (2026-10-28 verified; source [gov.uk PRS MEES consultation response](https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update))
 
 ### Climate change projections (UKCP18)
 
-- +1.5–4.4 °C by 2050s (RCP8.5)
-- Sea-level rise: +20–70 cm by 2080
-- Increased flood risk + storm intensity
-- Hot summers more frequent (2022 record 40.3°C)
+- Seasonal warming by 2070 under the high-emission scenario (UK average, 10–90% range): **+1.3 to +5.1 °C in summer**, **+0.6 to +3.8 °C in winter** (source [UKCP18 Headline Findings v4.0, Aug 2022](https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/research/ukcp/ukcp18_headline_findings_v4_aug22.pdf) — still the Met Office's current headline summary, read 2026-10-28)
+- Sea-level rise by 2100 vs 1981–2000: **London 0.29–0.70 m** (low emissions) / **0.53–1.15 m** (high); Edinburgh 0.08–0.49 m / 0.30–0.90 m — larger in the south than the north (UKCP18 Headline Findings v4.0, §4.1–4.3)
+- An increased chance of warmer, wetter winters and hotter, drier summers, with more frequent and more intense extremes (UKCP18 Headline Findings v4.0, §3); properties in England in areas at flood risk could rise from 6.3 million to about 8 million by mid-century (EA NaFRA, 17 Dec 2024)
+- Hot summers more frequent: the chance of a summer as hot as 2018 is already 12–25% and rises to about 50–60% by mid-century (UKCP18 §3.1.3); UK record 40.3 °C at Coningsby, Lincolnshire, 19 Jul 2022 — still the record in the [Met Office UK climate extremes table](https://www.metoffice.gov.uk/research/climate/maps-and-data/uk-climate-extremes) (read 2026-10-28)
 
 ---
 
@@ -322,7 +322,7 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
 
 ### Sources
 
-- **Drainage & Water search (CON29DW)** — solicitor-ordered, ~£60–£90; specifies sewer connection
+- **Drainage & Water search (CON29DW)** — solicitor-ordered, est. ~£60–£90 (not re-verified — no water-company price list could be read on 2026-10-28); specifies sewer connection
 - **Local water company**:
   - **Thames Water** (London + Thames Valley)
   - **Severn Trent** (Midlands)
@@ -331,13 +331,15 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
   - **Welsh Water (Dŵr Cymru)**, **South West Water**, **Wessex Water**, **Southern Water**
   - **Scottish Water** (Scotland)
   - **NI Water** (Northern Ireland)
+  - Full list of England and Wales water companies (incl. Affinity, Bristol, Hafren Dyfrdwy, Portsmouth, SES, South East) at [CCW Find your water company](https://www.ccw.org.uk/advice-and-support/households/water-companies/); a new-build site may be served by a NAV company approved by Ofwat "to provide water and/or sewerage services to specific sites instead of the usual water company" (CCW, read 2026-10-28) — ask the seller who supplies the property
+- **Energy (England, Scotland and Wales) — Ofgem price cap, 1 Oct–31 Dec 2026**: **£1,723/yr** for typical consumption paid by Direct Debit (+4% on the previous period); average Direct Debit rates — electricity 26.32p/kWh + 54.83p/day standing charge, gas 7.97p/kWh + 29.68p/day; no VAT on electricity from 1 Oct 2026 to 31 Mar 2027, 5% on gas. The cap covers standard variable tariffs only — not fixed deals, heat networks or heating oil. Ofgem resets it every 3 months and standing charges vary by region (2026 data, source [Ofgem](https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges))
 
 ### Verification
 
 - Most urban / suburban UK = **mains drains universal**
 - Rural may be **septic tank**, **cesspool**, or **package treatment plant**
-- **General Binding Rules** (since Sept 2020): all septic discharges to surface water must be replaced by compliant systems
-- **Septic Tank Inspection** required for Environmental Permit if discharge >2,000 litres/day
+- **General Binding Rules** (England; which rules apply depends on whether the discharge started before 1 Jan 2015, before 2 Oct 2023 or later): a septic tank must not discharge directly to a watercourse — "as soon as possible" connect to the public foul sewer, replace it with a small sewage treatment plant or install a drainage field, with plans in place to do the work "within a reasonable timescale, usually 12 months"; on a sale, buyer and seller should agree who will be responsible for replacing or upgrading the system, as a condition of sale (gov.uk GBR guidance). Scotland, Wales and NI have their own rules (gov.uk)
+- **Environmental permit** (England): needed only if the system cannot meet the General Binding Rules — e.g. a discharge over 2 m³ (2,000 l)/day to ground or 5 m³ (5,000 l)/day to surface water — and the EA will not issue one where connecting to the public foul sewer is reasonable (gov.uk 'Septic tanks and sewage treatment plants', updated 29 Jan 2025)
 
 ### Costs
 
@@ -435,10 +437,19 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
 | Find Title | `https://search-property-information.service.gov.uk/` |
 | Council Tax bands | `https://www.gov.uk/council-tax-bands` |
 | Long-term flood risk | `https://check-long-term-flood-risk.service.gov.uk` |
-| EPC register (England + Wales) | `https://find-energy-certificate.service.gov.uk/` |
-| Coal Authority search | `https://www2.groundstability.com/` |
+| SEPA flood maps (Scotland) | `https://map.sepa.org.uk/floodmaps` |
+| NRW Flood Risk Assessment Wales map | `https://naturalresources.wales/flooding/check-your-flood-risk-on-a-map-flood-risk-assessment-wales-map/?lang=en` |
+| Flood Maps NI (DfI) | `https://www.infrastructure-ni.gov.uk/topics/flood-maps-ni` |
+| EPC register (England + Wales) | `https://www.gov.uk/find-energy-certificate` (the old service address redirects here, 2026-10-28) |
+| Mining Remediation Authority (ex-Coal Authority) property check | `https://www.gov.uk/check-if-property-is-affected-by-coal-mining` |
 | UK Radon | `https://www.ukradon.org` |
-| BGS GeoIndex | `https://www.bgs.ac.uk/map-viewers/bgs-geology-viewer/` |
+| BGS Geology Viewer | `https://www.bgs.ac.uk/map-viewers/bgs-geology-viewer/` |
+| HSE COMAH establishments search | `https://www.hse.gov.uk/comah/comah-establishments.htm` |
+| Ofgem price cap rates by region | `https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges` |
+| CCW Find your water company | `https://www.ccw.org.uk/advice-and-support/households/water-companies/` |
+| Police crime map | `https://www.police.uk/` (blocks automated checks; open data at `https://data.police.uk/`, latest month August 2026 per its API on 2026-10-28) |
+| ONS Crime in England and Wales | `https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/latest` |
+| Ofcom broadband checker | `https://checker.ofcom.org.uk/en-gb/broadband-coverage` |
 | DfT traffic counts | `https://roadtraffic.dft.gov.uk` |
 | Companies House | `https://www.gov.uk/government/organisations/companies-house` |
 | HMRC SDLT | `https://www.gov.uk/stamp-duty-land-tax` |
