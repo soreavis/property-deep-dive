@@ -21,7 +21,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 
 1. **DVF Etalab — canonical actual sale prices** (DGFiP open data via Etalab):
    - Map portal: `https://app.dvf.etalab.gouv.fr/` (form-based; search by commune)
-   - Bulk dataset: [data.gouv.fr DVF](https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres/) (CSV per département per year, ~3-yr lag)
+   - Bulk dataset: [data.gouv.fr DVF](https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres/) — DGFiP publishes one national pipe-separated `.txt` file per year over a rolling five years, replaced in full every April and October (latest 12 Oct 2026, covering 2021 S2 to 2026 S1, so the lag is about one semester); Etalab's derived [DVF géolocalisées](https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/) gives clean geocoded CSV, one file per year plus a five-year file. **Not covered: Alsace (67, 68), Moselle (57) and Mayotte (976)** — no DVF comps there (2026 data, source DGFiP / data.gouv.fr; checked 2026-10-28)
    - Clean passthrough UI: [immo-dvf.fr](https://www.immo-dvf.fr/) (same DVF data, easier to read; commune-level page is `/prix-immobilier/<region>/<dept>/<commune>-<postcode>/`)
 2. **Aggregator estimates** (cross-check only — methodology + freshness varies):
    - [meilleursagents.com](https://www.meilleursagents.com/prix-immobilier/) — €/m² + history
@@ -30,18 +30,19 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
    - [immobilier.lefigaro.fr prix-immobilier](https://immobilier.lefigaro.fr/prix-immobilier/)
    - [pap.fr](https://www.pap.fr/vendeur/prix-m2/) — backup
 3. **WebSearch live listings**: `"<commune>" maison à vendre prix` for current comp listings
-4. **Avoid for primary data**: third-party DVF API mirrors (e.g., `api.cquest.org`) — frequently return non-JSON or stale; prefer Etalab + immo-dvf.fr passthrough
+4. **Avoid for primary data**: third-party DVF API mirrors (e.g., `api.cquest.org`, which returned HTTP 502 on 2026-10-28) — unreliable or stale; prefer Etalab + immo-dvf.fr passthrough
+5. **National / province trend (primary — context only, never a commune value)**: Notaires-INSEE index of existing-home prices, Q2 2026 (provisional): −1.0 % on the quarter (seasonally adjusted) and −0.8 % on the year for France excl. Mayotte; province −1.0 % on the year (houses −1.3 %, apartments −0.3 %); 958,000 existing-home sales in the 12 months to end-June 2026 ([INSEE Informations Rapides n° 216](https://www.insee.fr/fr/statistiques/9040119), 8 Sep 2026; Q3 release due 24 Nov 2026). City-level medians (apartment €/m², house price per agglomeration) are in the Notaires de France [quarterly price maps](https://www.notaires.fr/fr/article/marche-de-limmobilier-indices-et-cartes-de-prix-au-m2-2e-trimestre-2026) (Q2 2026, *Note de conjoncture immobilière* n° 73, Oct 2026) and on the [immobilier.notaires.fr price map](https://www.immobilier.notaires.fr/fr/prix-immobilier)
 
-**Sparse-DVF fallback**: rural communes <1,000 pop typically have <10 transactions/year — DVF median for the commune is statistically noisy. **Use the nearest larger market town (sub-prefecture or chef-lieu de canton) as the reference** and apply a **0.7–0.85× rural correction factor** for outlying lieu-dit (depends on distance + amenities). Document the extrapolation explicitly + flag confidence MEDIUM, NOT HIGH.
+**Sparse-DVF fallback**: rural communes <1,000 pop typically have <10 transactions/year — computed for Vienne (86): of 173 communes under 1,000 inhabitants, the median recorded 6 house/apartment sales in 2025 and 124 (72 %) recorded fewer than 10 (DVF géolocalisées 2025, April 2026 delivery × geo.api.gouv.fr populations; one département, so an indication only) — DVF median for the commune is statistically noisy. **Use the nearest larger market town (sub-prefecture or chef-lieu de canton) as the reference** and apply a **0.7–0.85× rural correction factor (est. — skill heuristic, not a published coefficient)** for outlying lieu-dit (depends on distance + amenities). Document the extrapolation explicitly + flag confidence MEDIUM, NOT HIGH.
 
 **Compute**:
 - Price/m² = listing FAI / surface m² (Carrez)
 - Discount/premium vs commune average: `(commune_avg - listing_psqm) / commune_avg`
-- Walk-away price = listing × (1 − reasonable_discount). For 1970s-1990s rural homes "à rafraîchir," reasonable_discount = 5–10 %.
+- Walk-away price = listing × (1 − reasonable_discount). For 1970s-1990s rural homes "à rafraîchir," reasonable_discount = 5–10 % (est. — skill heuristic, not a measured negotiation margin).
 
 **Caveats**:
-- Rural communes have thin DVF samples (5–20 sales/yr); flag confidence as low if <10 transactions
-- The "FAI" (Frais d'Agence Inclus) price includes the agency fee (~5–6 %); compute against the net seller price for notary fees
+- Rural communes have thin DVF samples (5–20 sales/yr; Vienne 2025: 112 of 173 communes under 1,000 inhabitants (65 %) recorded 5–20 house/apartment sales and 58 (34 %) fewer than 5 — computed from DVF géolocalisées); flag confidence as low if <10 transactions
+- The "FAI" (Frais d'Agence Inclus) price includes the agency fee (~5–6 % est., agency-specific — read the actual fee in the listing or mandate); compute against the net seller price for notary fees
 
 ---
 
@@ -51,14 +52,14 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 - OSM Overpass for the way's `ref`, `highway`, `maxspeed` (already in pre-flight)
 - Conseil Départemental traffic count PDF — search `"département <name>" comptage routier carte trafic <year>` and download
 - Examples:
-  - Vienne 86: `https://www.lavienne86.fr/fileadmin/medias/.../A1_Trafic_<year>.pdf` (~27 MB)
-  - Most départements publish annually as A1 QGIS-rendered PDFs
+  - Vienne 86: the yearly maps are listed on [lavienne86.fr — Le réseau routier départemental](https://www.lavienne86.fr/au-quotidien/routes-deplacements/le-reseau-routier-departemental); latest `A1_Trafic_2025.pdf` (about 31 MB, one A1 page, file dated 27 Apr 2026). File names are not consistent (2021, 2024 and 2025 follow `A1_Trafic_<year>.pdf`; 2022 and 2023 do not), so start from the index page (checked 2026-10-28)
+  - Only the Vienne product was checked (2025: a one-page A1 PDF exported from QGIS); check each département's own roads page rather than assuming the same format or frequency
 
 **Extraction technique**:
 1. `curl -sL -o trafic.pdf <url>`
-2. `pdftotext -layout trafic.pdf - | grep "^.*D<road>"` → finds TMJA values in tabular form
+2. `pdftotext -layout trafic.pdf - | grep "^.*D<road>"` → finds TMJA values in tabular form **only where labels are real text** — on the Vienne 2025 map it returns just the legend headings (TMJA labels and count tables are drawn, not text), so go straight to step 3
 3. For map labels (village names): `pdftoppm -png -r 200 trafic.pdf p` then crop to the commune location and read images
-4. Color legend (most depts identical):
+4. Color legend (Vienne 2025 map — TMJA "tous véhicules et sens confondus"; labels in bold italic underlined were measured in 2025, the others were not measured that year; check each département's own legend):
    - 🟧 orange: < 500 v/d
    - 🟦 cyan: 500–1500 v/d
    - 🟩 green: 1500–3000 v/d
@@ -66,10 +67,10 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 
 **Compute**:
 - TMJA on property's road (or estimated from nearest measured)
-- Vehicle/hour daylight ≈ TMJA × 0.06; night ≈ TMJA × 0.01
-- Heavy vehicles (PL) often listed alongside as percentage
+- Vehicle/hour daylight ≈ TMJA × 0.06; night ≈ TMJA × 0.01 (est. — skill heuristic; no published coefficient found in this pass)
+- Heavy vehicles (PL): the Vienne 2025 count tables (postes secondaires, postes permanents) give the PL count and % PL for each station they list (road, PR, TMJA, PL, % PL); the map labels themselves are TMJA only
 
-**Verdict bands for rural FR**:
+**Verdict bands for rural FR** (skill thresholds, not an official classification):
 - 🟢 < 200 v/d
 - 🟡 200–800 v/d
 - 🟠 800–3000 v/d
@@ -113,9 +114,9 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 **Data sources**:
 - Local tourism office hébergements guide PDF — search `"<département>" hébergements meublés tourisme PDF`
 - `https://www.airbnb.fr/<commune>-france/stays`
-- `https://www.gitesdefrance-<dept-name>.com`
+- Gîtes de France: national site `https://www.gites-de-france.com` (gitesdefrance.fr redirects there); départemental sites use inconsistent domains (e.g. `gitesdefrance-vienne.com` but `gites-de-france-dordogne.com`; `gitesdefrance-dordogne.com` does not resolve) — search `Gîtes de France <département>` (checked 2026-10-28)
 - Tourism observatoire PDF for occupancy rates: `<dept>.fr/.../tourisme/observatoire/`
-- INSEE saison touristique data
+- INSEE monthly survey of collective tourist accommodation (hotels, campsites, other collective accommodation such as résidences de tourisme) — a seasonality proxy only: gîtes and other meublés are outside its scope ([INSEE source s2287](https://www.insee.fr/fr/metadonnees/source/operation/s2287/presentation))
 - Reddit/forums for honest operator income reports
 
 **Compute**:
@@ -124,7 +125,7 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
    - Convert one wing/basement → smaller unit, sleeps 4–6
    - Whole-house gîte → sleeps 8–12
    - Chambres d'hôtes → up to 5 rooms with breakfast
-3. Realistic year-3 stabilised gross: 16–22 weeks × commune-typical rate
+3. Realistic year-3 stabilised gross: 16–22 weeks × commune-typical rate (est. — skill heuristic; INSEE's occupancy survey does not cover gîtes, so calibrate on the competition mapped in step 1)
 4. Apply tax regime:
    - Below €15k AND non-classé → micro-BIC 30 % abatement
    - Classé (or chambres d'hôtes) → micro-BIC **50 %** abatement (a non-classé above the €15k plafond cannot use micro-BIC → régime réel; 2025 data, source Service-Public A17883) (classement via organisme accrédité COFRAC) — plafond **€83,600 for 2026 income onward** (€77,700 applies to 2025 income declared in 2026; classé + chambres d'hôtes, per Loi Le Meur 2024-1039 en vigueur 1 Jan 2025 — was €188,700 pre-reform — then the 2026-2028 triennial revaluation). (2026-07-03 verified; sources [Légifrance Loi 2024-1039](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711) + [Service-Public entreprendre A18813](https://entreprendre.service-public.gouv.fr/actualites/A18813))
@@ -132,13 +133,13 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
    - Above €83.6k (2026 income; €77.7k for 2025 income) → régime réel
    - **Pending, not law — PLF 2027 art. 7 (bill, not adopted as of 2026-10-28; Assemblée vote on the first part set for 3 Nov 2026)**: in the régime réel (a non-classé above €15k, or any gîte above €83.6k) amortisation of a meublé de tourisme would be deductible at most at 1.5 % and €5,000/yr per foyer fiscal (2.5 % and €7,000 for other furnished lets); a commission amendment allowing none for meublés de tourisme acquired from 1 Jan 2027 is not in the text the Assemblée is debating — the commission rejected the whole first part on 9 Oct 2026, so the séance works on the government text, where art. 7 was still unexamined after the 27 Oct sittings. Keep projections on current law until LFI 2027 is promulgated — see shared/regulatory-watch.md (FR) ([AN projet de loi n° 3210](https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi))
 
-5. Subtract 35–45 % operating costs (cleaning, linen, utilities, commissions)
+5. Subtract 35–45 % operating costs (cleaning, linen, utilities, commissions) (est. — skill heuristic, not a published benchmark)
 6. Compute net at TMI 11 % and TMI 30 %
 7. Note: classement = 50 % abatement + 6 % URSSAF + plafond €83,600 (2026 income onward; €77,700 for 2025 income) vs 30 %/21.2 %/€15k unclassified (Loi Le Meur 2024-1039 + 2026-2028 triennial revaluation)
 
 **Strategic levers**:
 - **Classify it** — free in most departments via the ADT (Agence Départementale du Tourisme)
-- **Pool / spa** is the single biggest revenue lever
+- **Pool / spa** — a candidate revenue lever (unquantified — compare the pool / no-pool tariffs of the competition mapped in step 1)
 - **Service à la personne** registration if you also offer in-person services
 - **Taxe foncière exonération** under CGI art. 1383 E bis — many rural communes allow exoneration of meublés classés
 
@@ -153,17 +154,17 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 
 **Data sources** (depending on profession):
 - **Healthcare**: Doctolib, ARS, ordres professionnels (Conseil de l'Ordre)
-- **Teaching**: Pôle Emploi, écoles de musique régionales, conservatoires CRR/CRD/CIOL, EMIG-style intercommunal schools
+- **Teaching**: France Travail (Pôle emploi until 1 Jan 2024), écoles de musique régionales, conservatoires CRR/CRD/CIOL, EMIG-style intercommunal schools
 - **Trades**: Chambre de Métiers et de l'Artisanat, INSEE artisans, Pages Jaunes
-- **Tech / cadres**: APEC, LinkedIn, Welcome to the Jungle, AppelService
+- **Tech / cadres**: APEC, LinkedIn, Welcome to the Jungle
 - **Tutoring / private**: Superprof, Aladom, Apprentus, Allegro Musique, Spectable
-- **Salaries general**: INSEE DADS / DSN, Hellowork, JournaldDuNet salaire
+- **Salaries general**: INSEE *base Tous salariés* (built from employers' DSN declarations) — 2025 private-sector net salary in full-time equivalent: mean **€2,797/month**, median **€2,238** (excl. agriculture and household employers; [Insee Première n° 2132](https://www.insee.fr/fr/statistiques/9087193), 22 Oct 2026); Hellowork, Journal du Net salaire (secondary)
 
 **Legal status options** (always include):
-- **Auto-entrepreneur (BNC libéral)**: simple, ~22.2 % charges (rate NOT re-verified in this pass and may be stale — verify current rate at URSSAF before relying), plafond **€83,600** (2026-2028 triennium; was €77,700 through 2025) — BIC services and BNC libéral share the €83,600 services plafond per [URSSAF seuils 2026](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/toutes-les-actualites/2026--modification-des-seuils-de.html) (2026-07-03 verified — plafond only)
-- **Service à la personne (SAP)**: 50 % tax credit for client; activate via URSSAF
-- **CCN ÉCLAT (associative music schools)**: coefficient 265 × point ~€6.85 ≈ €1,815/mo gross full-time — point value is a renegotiated collective-agreement figure; verify current point at the convention's latest avenant salaires before relying on
-- **CDI public conservatoire**: needs DE + concours
+- **Auto-entrepreneur (BNC libéral)**: simple, social contributions **25.6 %** of turnover for BNC services outside the Cipav from 1 Jan 2026 (**23.2 %** for professions libérales réglementées affiliated to the Cipav), plus 0.2 % CFP (2026 data, source [URSSAF — l'essentiel du statut](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/lessentiel-du-statut.html)), plafond **€83,600** (2026-2028 triennium; was €77,700 through 2025) — BIC services and BNC libéral share the €83,600 services plafond per [URSSAF seuils 2026](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/toutes-les-actualites/2026--modification-des-seuils-de.html) (2026-10-28 verified — rate and plafond)
+- **Service à la personne (SAP)**: clients get a 50 % income-tax credit on what they pay (service-public F12, vérifié 15 Apr 2026) only if the provider is declared — the declaration is made on the téléservice **NOVA** (nova.entreprises.gouv.fr), not with URSSAF, and quotes and invoices must carry the declaration reference (servicesalapersonne.gouv.fr, updated 18 Dec 2025)
+- **CCN ÉCLAT (associative music schools)**: *professeur* = coefficient 265 on the grille spécifique, full time = 24 h of service a week → **€1,912.59/mo gross minimum from 1 Jan 2026** (computed: 257 group-A points × V1 €7.23 + 8 × V2 €6.81). Two point values since avenant n° 182 of 1 Oct 2020 (in force 1 Jan 2022); V1 / V2 per avenant n° 208 of 23 Jun 2025, extended by arrêté of 9 Oct 2025 ([Légifrance](https://www.legifrance.gouv.fr/conv_coll/id/KALITEXT000052447622)); the 257 / 265 / 24 h grid is per fiche-paie.fr (secondary, updated 11 Oct 2026). *Animateur technicien* (257 points, 26 h) computes to €1,858.11, below the SMIC (€1,867.02 since 1 Jun 2026, URSSAF), so the SMIC applies
+- **Public conservatoire (fonction publique territoriale)**: titular posts go through a concours — the external concours sur titres for *assistant d'enseignement artistique principal de 2e classe* (musique) is a 30-minute interview on a professional dossier that includes the candidate's diplôme d'État de professeur de musique or DUMI, or an equivalence (décret n° 2012-437; CDG concours brochure, June 2025)
 - **Association loi 1901**: for community projects, no income to self
 - **Régime réel BNC**: above €83.6k (2026 income onward; €77.7k for 2025 income)
 - **Profession libérale réglementée** (médecin, avocat, etc.): specific regimes
@@ -301,11 +302,10 @@ If the address resolves to one of the five **DROM** — postcode prefix **971 Gu
 ## Common listing platforms
 
 - **SAFTI** — clean fields, full extraction
-- **SeLoger** — JS-heavy, prefer mobile version
-- **Leboncoin** — sparse, often need manual reading
+- **SeLoger** — JS-heavy and bot-protected (HTTP 403 to scripted requests); the old mobile host `m.seloger.com` no longer resolves (NXDOMAIN, checked 2026-10-28), so read listings in a normal browser
+- **Leboncoin** — sparse, often need manual reading; also carries private sales (particulier à particulier)
 - **ParuVendu, Logic-Immo, Bien'ici** — standard
 - **Orpi, Century 21, IAD, Capifrance** — standard agency
-- **Le Bon Coin** — private sales
 
 ## Reddit / forum sources for operator stories
 
