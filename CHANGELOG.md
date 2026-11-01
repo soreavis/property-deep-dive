@@ -132,6 +132,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(corpus): Kuwait owner residence permit (Decree-Law 114/2024) and Turks and Caicos water supply ([#523](https://github.com/soreavis/property-deep-dive/pull/523)) — by @soreavis
 
+- chore(deps): bump pypdf from 6.21.2 to 6.21.4 in the pip-minor-patch group across 1 directory ([#526](https://github.com/soreavis/property-deep-dive/pull/526)) — by @dependabot[bot]
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
