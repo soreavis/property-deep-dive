@@ -134,6 +134,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(deps): bump pypdf from 6.21.2 to 6.21.4 in the pip-minor-patch group across 1 directory ([#526](https://github.com/soreavis/property-deep-dive/pull/526)) — by @dependabot[bot]
 
+- chore(deps): bump the actions-minor-patch group across 1 directory with 5 updates ([#527](https://github.com/soreavis/property-deep-dive/pull/527)) — by @dependabot[bot]
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
