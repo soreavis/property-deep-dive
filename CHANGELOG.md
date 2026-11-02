@@ -98,6 +98,46 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(ci): stop transposition alerts hitting the search rate limit and opening duplicates ([#490](https://github.com/soreavis/property-deep-dive/pull/490)) — by @soreavis
 
+- fix(regwatch): clear the #503 overdue revisits and stop the tracker duplicating ([#505](https://github.com/soreavis/property-deep-dive/pull/505)) — by @soreavis
+
+- fix(regwatch): 28 Oct 2026 wave — UK Budget, IT budget bill, RS, KZ, NL/BR/SI, JP, AD/SM ([#508](https://github.com/soreavis/property-deep-dive/pull/508)) — by @soreavis
+
+- fix(regwatch): 28 Oct 2026 wave 2 — UK Budget tax, MX cadastre law, SM/AD border agreements, EU FDI, 12 more countries ([#509](https://github.com/soreavis/property-deep-dive/pull/509)) — by @soreavis
+
+- fix(regwatch): 28 Oct 2026 wave 3 — TT property tax repealed, GR draft bill, US Treasury rule, 11 more countries ([#510](https://github.com/soreavis/property-deep-dive/pull/510)) — by @soreavis
+
+- fix(sources): source-audit triage — 16 citation and figure fixes from the 28 Oct 2026 run ([#511](https://github.com/soreavis/property-deep-dive/pull/511)) — by @soreavis
+
+- fix(ci): read the playbook date from the Status footer, not the first 'as of' in the file ([#512](https://github.com/soreavis/property-deep-dive/pull/512)) — by @soreavis
+
+- refresh: Tier-A refresh of FR, UK, AT, AE and AU (#423) — about 530 checked changes ([#513](https://github.com/soreavis/property-deep-dive/pull/513)) — by @soreavis
+
+- docs: correct README counts after #513 ([#514](https://github.com/soreavis/property-deep-dive/pull/514)) — by @soreavis
+
+- fix: 29 Oct 2026 follow-ups — new UK/FR/AE/CN entries, AG/KW/AU/ES corrections, GI market ([#515](https://github.com/soreavis/property-deep-dive/pull/515)) — by @soreavis
+
+- fix(playbooks): Tier-A refresh of promoted GI, VN, SA and GH — about 670 checked changes ([#516](https://github.com/soreavis/property-deep-dive/pull/516)) — by @soreavis
+
+- fix(playbooks): Uzbekistan Tier-A refresh and 21 regulatory-watch entries from the 29 Oct refresh ([#517](https://github.com/soreavis/property-deep-dive/pull/517)) — by @soreavis
+
+- fix(source-verify): blank URLs before extracting claim figures ([#518](https://github.com/soreavis/property-deep-dive/pull/518)) — by @soreavis
+
+- fix(source-verify): treat the Federal Register CAPTCHA page as a challenge ([#519](https://github.com/soreavis/property-deep-dive/pull/519)) — by @soreavis
+
+- fix(corpus): Kuwait residence law, Turks and Caicos power cost, Welsh revaluation deferral ([#520](https://github.com/soreavis/property-deep-dive/pull/520)) — by @soreavis
+
+- fix(playbooks): Tier-A refresh of GR and IE, missed by the October cycle — about 256 checked changes ([#521](https://github.com/soreavis/property-deep-dive/pull/521)) — by @soreavis
+
+- regwatch(gr): Santorini permit suspension extended; cadastre fee cites the gazette ([#522](https://github.com/soreavis/property-deep-dive/pull/522)) — by @soreavis
+
+- fix(corpus): Kuwait owner residence permit (Decree-Law 114/2024) and Turks and Caicos water supply ([#523](https://github.com/soreavis/property-deep-dive/pull/523)) — by @soreavis
+
+- chore(deps): bump pypdf from 6.21.2 to 6.21.4 in the pip-minor-patch group across 1 directory ([#526](https://github.com/soreavis/property-deep-dive/pull/526)) — by @dependabot[bot]
+
+- chore(deps): bump the actions-minor-patch group across 1 directory with 5 updates ([#527](https://github.com/soreavis/property-deep-dive/pull/527)) — by @dependabot[bot]
+
+- chore(deps): bump DavidAnson/markdownlint-cli2-action from 24.2.0 to 25.0.0 ([#528](https://github.com/soreavis/property-deep-dive/pull/528)) — by @dependabot[bot]
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
