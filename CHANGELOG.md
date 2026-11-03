@@ -166,6 +166,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - docs: use the documented owner/repo form for /plugin marketplace add ([#541](https://github.com/soreavis/property-deep-dive/pull/541)) — by @soreavis
 
+- docs: give the plugin skill's namespaced command and fix the ChatGPT zip row ([#542](https://github.com/soreavis/property-deep-dive/pull/542)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
