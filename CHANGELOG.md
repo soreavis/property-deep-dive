@@ -174,6 +174,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - ci: lint added playbook lines and re-stamps; run Scorecard weekly only ([#545](https://github.com/soreavis/property-deep-dive/pull/545)) — by @soreavis
 
+- feat(maintenance): evidence ledger and a scripts-first maintenance pipeline ([#546](https://github.com/soreavis/property-deep-dive/pull/546)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
