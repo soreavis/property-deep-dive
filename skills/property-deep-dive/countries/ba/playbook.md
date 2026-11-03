@@ -238,8 +238,8 @@ Basic personal allowances differ significantly across entities — FBiH **3,600 
 
 #### Floods
 
-- **May 2014 catastrophic floods** (rain 14–19 May): Sava + Bosna rivers (same Tamara/Yvette cyclone as Serbia), the heaviest rainfall in 120 years; ~90,000 people displaced, about a third of the country affected across FBiH, RS and Brčko; total economic impact **BAM 3.98 bn** *(2014 data, source BiH/EU/UN/World Bank Recovery Needs Assessment, via ILO + PreventionWeb)*
-- **3–4 Oct 2024 flash floods + landslides** (Herzegovina-Neretva + Central Bosnia cantons): **27 dead**; ~1,660 households damaged — Konjic 594, Kiseljak 284, Jablanica 252, Kreševo 244, Fojnica 218, Mostar 68; worst damage in Donja Jablanica, Zlate and Buturović Polje *(2024 data, source IFRC DREF final report MDRBA017)*
+- **May 2014 catastrophic floods** (rain 14–19 May): Sava + Bosna rivers (same Tamara/Yvette cyclone as Serbia), the heaviest rainfall in 120 years; ~90,000 people displaced, about a third of the country affected across FBiH, RS and Brčko; total economic impact **BAM 3.98 bn** *(2014 data, source BiH/EU/UN/World Bank Recovery Needs Assessment, via ILO + PreventionWeb) — rates/figures may have changed since*
+- **3–4 Oct 2024 flash floods + landslides** (Herzegovina-Neretva + Central Bosnia cantons): **27 dead**; ~1,660 households damaged — Konjic 594, Kiseljak 284, Jablanica 252, Kreševo 244, Fojnica 218, Mostar 68; worst damage in Donja Jablanica, Zlate and Buturović Polje *(2024 data, source IFRC DREF final report MDRBA017) — rates/figures may have changed since*
 - **Flood maps**: FBiH Sava-basin hazard + risk maps at `https://www.voda.ba/mape-rizika` — check the parcel against the mapped extent; an unmapped stream is not evidence of no risk
 
 #### Mine contamination — UNIQUE

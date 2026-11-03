@@ -203,7 +203,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 #### Floods
 
 - **Vardar river** (Skopje + central MK)
-- 6–7 Aug 2016 Skopje flash flood: 22 dead, ~3,500 homes flooded, ~93 mm of rain overnight; worst hit Stajkovci, Aračinovo, Butel and the ring road near Stajkovci (2016 data, sources AP via VOA / RFE/RL 9 Aug 2016 + Copernicus EMS EMSR174 maps via ReliefWeb)
+- 6–7 Aug 2016 Skopje flash flood: 22 dead, ~3,500 homes flooded, ~93 mm of rain overnight; worst hit Stajkovci, Aračinovo, Butel and the ring road near Stajkovci (2016 data, sources AP via VOA / RFE/RL 9 Aug 2016 + Copernicus EMS EMSR174 maps via ReliefWeb) — rates/figures may have changed since
 - Climate change increasing extreme events
 
 #### Wildfires

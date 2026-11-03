@@ -587,7 +587,7 @@ Ecuador is among the **most popular retirement-first destinations in LATAM** for
 
 ### Connectivity
 
-- **FTTH coverage** strong in Quito + Cuenca + Guayaquil + Loja (CNT, Netlife, Claro, Tuenti); fibre = **88.3 % of all fixed-internet connections** at end-2024 — a technology-share-of-accounts metric, not household coverage; fixed internet itself reaches only ~17.5 % of the population (2024 data, source [ARCOTEL Boletín cierre 2024](https://www.arcotel.gob.ec/wp-content/uploads/2015/01/Boletin-cierre-2024_compressed-1.pdf))
+- **FTTH coverage** strong in Quito + Cuenca + Guayaquil + Loja (CNT, Netlife, Claro, Tuenti); fibre = **88.3 % of all fixed-internet connections** at end-2024 — a technology-share-of-accounts metric, not household coverage; fixed internet itself reaches only ~17.5 % of the population (2024 data, source [ARCOTEL Boletín cierre 2024](https://www.arcotel.gob.ec/wp-content/uploads/2015/01/Boletin-cierre-2024_compressed-1.pdf)) — rates/figures may have changed since
 - Gigabit fibre USD 25–60/mo; 5G mobile launching 2024–26 (Claro, Movistar)
 - ⚠️ **2024 power-grid blackouts** (Sep–Dec, 8–14 hr/day) materially disrupted remote-work reliability; budget for UPS + inverter + solar backup; situation improved 2025 but residual risk persists during La Niña drought years
 - Co-working: **Impaqto Quito**, **Selina Cuenca / Selina Cumbayá** (chain), **Hub UDLA**, **Comuna Coworking**, **Cuenca Coworking** — USD 100–300/mo hot desk

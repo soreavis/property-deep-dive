@@ -16,7 +16,7 @@ ISO2: `cl`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Servicio de Impuestos Internos (SII)** — fiscal property roll, maintains **avalúo fiscal** + **rol de avalúo** (comuna-rol-subrol). Portal: `https://www.sii.cl/servicios_online/1039-.html`.
 - **Identifier**: **Rol SII** (comuna code + rol + subrol) for tax; **Foja/N°/Año CBR** for title.
 - **Recent reforms**:
-  - **Ley 21.210 (D.O. 24-Feb-2020)** — introduced the **sobretasa** (art. 7 bis Ley 17.235) on the sum of all the owner's avalúos fiscales > 670 UTA (marginal 0.075 % / 0.15 % / top 0.275 %); **Ley 21.420 (D.O. 4-Feb-2022)** raised the top tramo (> 1,510 UTA) to **0.425 %** from 1-Ene-2023 (2022 data, source SII Circular N°22/2022).
+  - **Ley 21.210 (D.O. 24-Feb-2020)** — introduced the **sobretasa** (art. 7 bis Ley 17.235) on the sum of all the owner's avalúos fiscales > 670 UTA (marginal 0.075 % / 0.15 % / top 0.275 %); **Ley 21.420 (D.O. 4-Feb-2022)** raised the top tramo (> 1,510 UTA) to **0.425 %** from 1-Ene-2023 (2022 data, source SII Circular N°22/2022) — rates/figures may have changed since.
   - **Ley 21.442 (D.O. 13-Abr-2022; Reglamento DS N°7 MINVU D.O. 9-Ene-2025)** — new Copropiedad Inmobiliaria, replaced Ley 19.537.
   - **Ley 21.435 (2022)** + **Ley 21.841 (D.O. 9-Oct-2026, plazos DAA → 6-Abr-2032; pequeños productores agrícolas Ley 18.910 → 11 años)** (prórrogas previas: Ley 21.586 (D.O. 13-Jul-2023) → 6-Abr-2025; Ley 21.727 (D.O. 18-Feb-2025) → 6-Abr-2027) — Reforma del Código de Aguas; uso prioritario consumo humano; nuevos DAA con plazo.
   - **NCh 433 Of.96 mod. 2009 + DS 61/2011** — post-2010 Maule revision; reforzó estándar diseño sísmico.
