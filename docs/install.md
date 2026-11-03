@@ -11,7 +11,7 @@
 ## Claude Code (slash commands)
 
 ```
-/plugin marketplace add github:soreavis/property-deep-dive
+/plugin marketplace add soreavis/property-deep-dive
 /plugin install property-deep-dive@property-deep-dive
 ```
 
@@ -21,7 +21,7 @@ The skill is now invocable via `/property-deep-dive` in any Claude Code session.
 
 Cowork installs plugins from its own in-app plugin browser. Per [Anthropic's launch post](https://claude.com/blog/cowork-plugins) (2026-01-30): _"Easily install these directly from Cowork, browse the full collection on our website, or upload your own plugin."_
 
-To install this third-party plugin, follow Cowork's "upload your own plugin" path with the GitHub URL `github:soreavis/property-deep-dive`. The exact UI may evolve — defer to the [linked blog post](https://claude.com/blog/cowork-plugins) and [Anthropic's curated plugin repo](https://github.com/anthropics/knowledge-work-plugins) for the current flow.
+To install this third-party plugin, follow Cowork's "upload your own plugin" path with the GitHub URL `https://github.com/soreavis/property-deep-dive`. The exact UI may evolve — defer to the [linked blog post](https://claude.com/blog/cowork-plugins) and [Anthropic's curated plugin repo](https://github.com/anthropics/knowledge-work-plugins) for the current flow.
 
 > **Cowork install scope (as of 2026-04)**: plugins save **locally per user**, not workspace-wide. Each teammate installs their own copy. Anthropic notes _"better support for org-wide sharing and management … coming in the weeks ahead"_ — this page will be updated when that lands.
 
