@@ -685,7 +685,27 @@ class FetchResult:
     prev_fetched_at: str = ""
 
 
+# Circuit breaker. A government host that stops answering costs ~1 min per cited URL (15 s
+# timeout x 3 tries + backoff) and gov hosts are fetched one request at a time, so one dead
+# host with 40 cited pages held a run for ~45 min. After HOST_FAIL_LIMIT consecutive
+# no-response fetches its remaining URLs are UNAVAILABLE for the rest of the run.
+HOST_FAIL_LIMIT = 2
+_host_fails: dict[str, int] = {}
+
+
+def _host_down(host: str) -> bool:
+    return _host_fails.get(host, 0) >= HOST_FAIL_LIMIT
+
+
 async def fetch_text(session, url, ul_cfg, sv: SVConfig, robots, throttles, rate_limiter, global_sem) -> FetchResult:
+    host = urlparse(url).netloc.lower()
+    fr = await _fetch_text(session, url, ul_cfg, sv, robots, throttles, rate_limiter, global_sem)
+    if fr.note != "host unresponsive this run — skipped":
+        _host_fails[host] = _host_fails.get(host, 0) + 1 if fr.status == "UNAVAILABLE" else 0
+    return fr
+
+
+async def _fetch_text(session, url, ul_cfg, sv: SVConfig, robots, throttles, rate_limiter, global_sem) -> FetchResult:
     now = datetime.now(timezone.utc).isoformat()
     host = urlparse(url).netloc.lower()
     if host in ul_cfg.excluded_hosts:
@@ -709,6 +729,8 @@ async def fetch_text(session, url, ul_cfg, sv: SVConfig, robots, throttles, rate
         try:
             await ht.gate()
             async with ht.sem, global_sem:
+                if _host_down(host):  # checked after the per-host queue: siblings queued behind it
+                    return FetchResult(url, "UNAVAILABLE", note="host unresponsive this run — skipped", fetched_at=now)
                 await rate_limiter.acquire()
                 async with session.get(
                     url,
