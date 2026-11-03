@@ -160,6 +160,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(deps): bump DavidAnson/markdownlint-cli2-action from 24.2.0 to 25.0.0 ([#528](https://github.com/soreavis/property-deep-dive/pull/528)) — by @dependabot[bot]
 
+- fix(regwatch): re-verify the four overdue entries in #525 (NL NHG, BoJ, JP minpaku, SI ZGos-1) ([#539](https://github.com/soreavis/property-deep-dive/pull/539)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
