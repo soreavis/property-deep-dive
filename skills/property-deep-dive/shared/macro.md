@@ -160,7 +160,7 @@ For each country, primary macro sources:
 | **Fed Funds (US)** | 3.75-4.00% | raised 25 bp from 3.50-3.75% on 16 Sep 2026, 12-0 vote (2026 data, source federalreserve.gov FOMC statement of 16 Sep 2026); next FOMC 27-28 Oct 2026 — verify |
 | **TCMB (Turkey)** | 37.00% | set 23 Jan 2026, held through PPK 10 Sep 2026 (TCMB 2026-38); eased from 50% Mar-2024 peak — verify against latest TCMB MPC |
 | **CBUAE (UAE)** | ~4.40% (EIBOR-aligned) | Fed-bound via AED/USD peg 3.6725 |
-| **BoJ (Japan)** | 1.25% | 0.50% (Jan 2025) → 0.75% (Dec 2025) → 1.0% (16 Jun 2026) → 1.25% (18 Sep 2026, effective 24 Sep 2026; 2026 data, source BoJ MPM k260918a); first hike cycle since 2007 — next MPM 29-30 Oct 2026 |
+| **BoJ (Japan)** | 1.25% | 0.50% (Jan 2025) → 0.75% (Dec 2025) → 1.0% (16 Jun 2026) → 1.25% (18 Sep 2026, effective 24 Sep 2026; 2026 data, source BoJ MPM k260918a); held at 1.25% on 30 Oct 2026 (8-1; 2026 data, source BoJ MPM k261030a); first hike cycle since 2007 — next MPM 17-18 Dec 2026 |
 | **BoT (Thailand)** | 2.50% | hold; cut path debated as THB strengthens |
 | **BCRD (DR)** | 6.00% est. | gradual easing; verify latest BCRD comunicado |
 | **BanRep (Colombia)** | ~9.00% est. | mid-cycle cuts from 13.25% peak (Dec 2023) — verify |
