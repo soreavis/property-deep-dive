@@ -170,6 +170,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): re-check the second 15 April-stamped playbooks against primary sources ([#543](https://github.com/soreavis/property-deep-dive/pull/543)) — by @soreavis
 
+- fix(playbooks): close the fast-section gaps in 15 refreshed playbooks; re-date CZ EE FI IS SE SK ([#544](https://github.com/soreavis/property-deep-dive/pull/544)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
