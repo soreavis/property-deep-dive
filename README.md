@@ -398,7 +398,7 @@ property-deep-dive/
 │       ├── _tier-refresh.yml            # reusable workflow (workflow_call) shared by tier-a/b/c
 │       ├── visa-programs-audit.yml      # render-check + claim-audit on config/_visa-programs.json
 │       ├── codeql.yml                   # GitHub CodeQL static analysis (Actions + Python)
-│       ├── scorecard.yml                # OpenSSF Scorecard, weekly + on push to main
+│       ├── scorecard.yml                # OpenSSF Scorecard, weekly + on branch-protection changes
 │       ├── labels-sync.yml              # syncs labels.yml on changes
 │       ├── labeler.yml                  # path-based PR labels
 │       ├── stale.yml                    # mark stale at 60d, close at 90d (with exemptions)
@@ -438,7 +438,7 @@ property-deep-dive/
 ```
 
 **Skill content** (under `skills/property-deep-dive/`): 199 markdown files, ~104,900 lines (SKILL.md + shared/ section library + 126 country playbooks).
-**Repo total**: 227 markdown files, ~112,000 lines (skill content + community / governance files + CHANGELOG) · 40 YAML config files (32 workflows + 5 issue forms + dependabot + labels + labeler).
+**Repo total**: 454 markdown files, ~225,000 lines (skill content + community / governance files + CHANGELOG) · 40 YAML config files (32 workflows + 5 issue forms + dependabot + labels + labeler).
 
 ## Contributing
 

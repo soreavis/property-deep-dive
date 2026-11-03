@@ -246,6 +246,14 @@ jobs:
           [ "$fail" -eq 1 ] && exit 1
           echo "✅ All changed playbooks have Status footer stamps."
 
+      - name: Process notes, stale data, arithmetic and re-stamp consistency
+        if: github.event_name == 'pull_request'
+        # Lines added by the PR only (legacy text never blocks an unrelated PR); the re-stamp
+        # check reads each changed playbook whole. Replaces an agent pass per maintenance run.
+        run: |
+          python3 scripts/check-playbooks-test.py
+          python3 scripts/check-playbooks.py --base "origin/${{ github.base_ref }}"
+
   personal-data:
     name: Personal-data leak guard
     runs-on: ubuntu-latest

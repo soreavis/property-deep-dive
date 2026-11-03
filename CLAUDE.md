@@ -40,6 +40,7 @@ When two same-tier sources disagree → output BOTH, explain the gap, name which
 - **Parcel vs commune**: never silently elevate commune-level data to parcel-level claims (see `skills/property-deep-dive/shared/anti-hallucination.md` § Address-vs-commune trap)
 - **Listing claims**: tag with `(per listing — verify with cadastre / on visit)`
 - **Status footer**: every playbook ends with `## Status` + `**Confidence**: HIGH/MEDIUM/LOW` + ideally `**Last verified**: YYYY-MM-DD`
+- **Lint before the PR**: `python3 scripts/check-playbooks.py` checks the lines you added for fetch-process notes (status codes, bot walls, fetch tools), stale-year data without the may-have-changed suffix and `computed` arithmetic that does not hold, and checks a "re-verified as of" footer against its Per-section verification table. CI runs the same script.
 
 ## When a regulation changes
 
