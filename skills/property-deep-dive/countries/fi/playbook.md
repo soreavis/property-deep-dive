@@ -17,46 +17,47 @@ ISO2: `fi`. Status: ✅ Fully populated (researched 2026-04).
 ### Primary sources
 
 - **Maanmittauslaitos e-services**: `https://www.maanmittauslaitos.fi/en/e-services` — Property Transaction Service (convey own property, apply for mortgages; strong authentication; some parts charged), free real-estate transaction price statistics (kauppahintatilasto), MapSite (property identifiers + boundaries) (2026-10-23 verified, source: NLS e-services page)
-- **KTJ Kiinteistörekisteri** (cadastre records): paid extracts
+- **KTJ Kiinteistörekisteri** (cadastre records): lainhuutotodistus (certificate of title), rasitustodistus (mortgages and encumbrances) and kiinteistörekisteriote (cadastre extract) €16 each via the NLS e-service, €19 from customer service or the online form; huoneistotietojärjestelmä extracts and share lists for As Oy flats cost the same; no VAT (2026 data, source: Maanmittauslaitos price list, charges from 1 Jan 2026)
+- **Maanmittauslaitos — Kiinteistökauppojen tilastopalvelu (REST)**: `https://khr.maanmittauslaitos.fi/tilastopalvelu/rest/1.1/` — open, no registration; sale counts, median and mean prices by kunta, maakunta and postcode for asuinpientalo, lomakiinteistö and other property types, from the kauppahintarekisteri; representative sales only, real property only (no As Oy shares, no houses on leased plots), no figure where a cell has fewer than 3 sales (source: Maanmittauslaitos service description)
 - **Tilastokeskus — Osakeasuntojen hinnat** (StatFin `ashi`): old As Oy dwelling €/m² by kunta (table 13mx) and postcode (table 13mu), annual + quarterly — API `https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/ashi/`
 - **Tilastokeskus — Kiinteistöjen hinnat** (StatFin `kihi`): old detached-house €/m² and floor area by area class (table 15hw)
 
 ### Listing platforms
 
-- **Etuovi.com** — largest: `https://www.etuovi.com/`
+- **Etuovi.com** — self-described as Finland's largest property search with over 100,000 listings, while Oikotie calls itself Finland's most popular housing service; competing self-descriptions, not a market-share measure (sites, Nov 2026, listing platform ⚠️): `https://www.etuovi.com/`
   - Search by kunta + alueet + asunto-tyyppi
 - **Oikotie**: `https://asunnot.oikotie.fi/`
 - **Vuokraovi.com** (rentals)
 - **Habita, Sp-Koti, OP Koti** (formerly OPKK; `opkk.fi` redirects to `op-koti.fi`) — agency networks
-- **Kiinteistömaailma**, **Huoneistokeskus** — premium agencies
+- **Kiinteistömaailma**, **Huoneistokeskus** — nationwide agency chains (self-described: Kiinteistömaailma agents in over 100 localities, Huoneistokeskus hundreds of professionals across Finland; agency sites, Nov 2026 ⚠️)
 
 ### 2025 price benchmarks (Tilastokeskus + Maanmittauslaitos)
 
-As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all house types (2025 data, source: Tilastokeskus StatFin tables 13mx by kunta and 13mu by postcode). Small-house column: built asuinpientalo on own plot in asemakaava areas, Maanmittauslaitos kauppahintatilasto 2025 as reported by Yle on 25 Feb 2026 (secondary) — capital-region figures are medians, the others averages. Municipal / postcode averages, not a valuation of any specific property.
+As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all house types (2025 data, source: Tilastokeskus StatFin tables 13mx by kunta and 13mu by postcode). Small-house column, city rows: median sale price of built asuinpientalo properties (own plot) in asemakaava areas, 2025, representative sales only; 65 (Mikkeli) to 255 (Vantaa) sales per city, so treat single-city medians as indicative; means run higher, e.g. Helsinki €535,186, Tampere €363,485 (2025 data, source: Maanmittauslaitos kauppahintarekisteri, Kiinteistökauppojen tilastopalvelu REST indicators 2311 / 2313 / 2314). The two municipality-size rows (Tilastokeskus 15hw) and the leisure row carry their own sources. Municipal / postcode figures, not a valuation of any specific property.
 
-| Region | As Oy €/m² (2025 avg) | Asuinpientalo, asemakaava area (2025) |
+| Region | As Oy €/m² (2025 avg) | Asuinpientalo, asemakaava area (2025; city rows median) |
 |---|---:|---:|
 | **Helsinki** | 4,983 (kerrostalo flats 5,225; central postcodes 00100–00180 flats 6,493–9,653 by postcode and flat size) | median €468,500 |
 | **Espoo** | 3,773 | median €612,500 |
 | **Vantaa** | 2,675 | median €368,000 |
-| **Tampere** | 2,979 | avg €310,000 |
-| **Turku** | 2,653 | avg €272,500 |
-| **Oulu** | 2,105 | avg €254,000 |
-| **Jyväskylä** | 2,038 | avg €215,500 |
-| **Kuopio** | 2,086 | avg €207,000 |
-| **Rovaniemi** | 1,953 | avg €169,000 |
-| **Lahti** / **Pori** | 1,675 / 1,325 | not in source |
-| Kouvola / Kotka / Mikkeli | 1,088 / 1,184 / 1,459 | not in source |
+| **Tampere** | 2,979 | median €310,000 |
+| **Turku** | 2,653 | median €272,500 |
+| **Oulu** | 2,105 | median €254,000 |
+| **Jyväskylä** | 2,038 | median €215,500 |
+| **Kuopio** | 2,086 | median €207,000 |
+| **Rovaniemi** | 1,953 | median €169,000 |
+| **Lahti** / **Pori** | 1,675 / 1,325 | median €165,000 / €125,000 |
+| Kouvola / Kotka / Mikkeli | 1,088 / 1,184 / 1,459 | median €97,500 / €91,000 / €152,000 |
 | Municipalities 20,000–59,999 inhabitants (Tilastokeskus class) | — | est. ≈ €228,000 old detached house (1,810 €/m² × 125.7 m², 2025 sales-weighted, Tilastokeskus table 15hw) |
 | Municipalities < 20,000 inhabitants (Tilastokeskus class) | — | est. ≈ €130,000 old detached house (1,128 €/m² × 114.9 m², 2025 sales-weighted, Tilastokeskus table 15hw) |
-| Rural / mökki (vapaa-ajan asunto) | ~700–1,500 €/m² (est., unsourced — rates/figures may have changed since) | ~€80,000–€200,000; Lapland resort mökit can exceed €500k (est., unsourced — rates/figures may have changed since; verify at Maanmittauslaitos kauppahintatilasto) |
+| Leisure property (lomakiinteistö, built, under 2 ha), whole country | — (MML gives whole-property prices for built leisure properties, not €/m²) | median €92,000 with own shore in yleis- or ranta-asemakaava areas (2,741 sales; Uusimaa €183,000 from 109 sales, Lappi €60,000 from 111), €74,000 with own shore in haja-asutusalue (851); without own shore €55,000 in yleis- or ranta-asemakaava areas (617) and €33,000 in haja-asutusalue (730); resort holiday flats held as As Oy shares are not included (2025 data, source: Maanmittauslaitos kauppahintarekisteri, REST indicators 5111–5513) |
 
-**Trend**: old As Oy prices 2026 Q2 (preliminary) −3.9 % year on year nationally, −4.3 % Helsinki, −3.3 % Tampere, −0.9 % Oulu (2026 data, source: Tilastokeskus StatFin table 15is).
+**Trend**: old As Oy prices 2026 Q3 (preliminary) −3.2 % year on year nationally, −2.2 % Helsinki, −2.2 % Tampere, −0.8 % Oulu; Q3 average 2,432 €/m² nationally, 4,811 €/m² Helsinki (2026 data, source: Tilastokeskus StatFin table 15is, release of 28 Oct 2026). Preliminary quarters get revised: Q2 2026 nationally now reads −4.0 % (earlier release −3.9 %).
 
 ### Compute
 
-1. Listing €/m² = price / **asuinpinta-ala** (residential area, includes interior walls)
-2. **Trap**: asuinpinta-ala vs huoneistoala (apartment area, slightly different) vs kerrosala (gross floor)
+1. Listing €/m² = price / **asuinpinta-ala** (area of the living spaces). A sale ad by an agent or other business must state it with the room count, and the brochure must split area into living spaces and other spaces (source: Finlex, Valtioneuvoston asetus asuntojen markkinoinnissa annettavista tiedoista 130/2001, 2 § and 7–8 §). Tilastokeskus measures a dwelling's area from the inner surfaces of its bounding walls, counting utility rooms, bathrooms and sauna but not garage, cellar, cold storage, balcony or porch (source: Tilastokeskus käsitteet, "Asunnon pinta-ala")
+2. **Trap**: asuinpinta-ala vs huoneistoala vs **kerrosala** (gross floor area, bounded by the outer wall surfaces, so larger than the living area); for a kesämökki Tilastokeskus uses kerrosala as the area. Huoneistoala has no single meaning: Tilastokeskus defines it per statistic, so ask how a listing's figure was measured (source: Tilastokeskus käsitteet, "Kerrosala", "Asunnon pinta-ala", "Huoneistoala")
 3. **As Oy math**: you buy **shares** (osake) in housing company; each share = € amount; **yhtiövastike** (monthly fee) covers building maintenance + sometimes shared mortgage
 4. **Yhtiölaina** (housing company loan) tied to apartment — apartment carries portion of building debt
 
@@ -104,7 +105,7 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 
 **Calculation base**: Verohallinto's verotusarvo — buildings from jälleenhankinta-arvo (replacement cost, on yearly VM decree bases), land from its area and type (vero.fi, updated 31 Mar 2026).
 
-**Valuation reform**: at its 1 Sep 2026 budget session the Orpo government decided to keep studying the kiinteistövero valuation reform but not to take it forward in the 2023–2027 electoral term, citing too little time for owners to prepare; the study is left to the next government (valtioneuvosto.fi budget-session release, 1 Sep 2026). The 2027 budget proposal (given 21 Sep 2026) lists no kiinteistövero change among its 2027 tax measures (budjetti.vm.fi). A kunta can still raise its rate within the bands above.
+**Valuation reform**: at its 1 Sep 2026 budget session the Orpo government decided to keep studying the kiinteistövero valuation reform but not to take it forward in the 2023–2027 electoral term, citing too little time for owners to prepare; the study is left to the next government (2026 data, source: valtioneuvosto.fi budget-session release "Orpon hallitus: Talous kasvaa, ja hallitus vauhdittaa kasvua täsmätoimilla", 1 Sep 2026, archived 2026-09-01). The 2027 budget proposal (given 21 Sep 2026) lists no kiinteistövero change among its 2027 tax measures (budjetti.vm.fi). A kunta can still raise its rate within the bands above.
 
 **Bills**: the decision is sent in March to whoever owned the property on 1 Jan; a tax of €170 or more is split automatically into two instalments, with due dates set by the month the owner's kiinteistöverotus ends — for most owners August + October (6 Aug / 6 Oct 2026) or September + November (7 Sep / 6 Nov 2026); every assessment ends by 31 Oct, so the latest pair is 7 Dec 2026 + 8 Feb 2027 (2026 data, source: vero.fi Kiinteistövero and Maksuohjeet pages, updated 24 Apr 2026 / 1 Jan 2026).
 
@@ -118,7 +119,7 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 |---|---:|---:|
 | **Kiinteistö (real estate)** | 4.0 % | **3.0 %** |
 | **Asunto-osakeyhtiö (As Oy) shares** | 2.0 % | **1.5 %** |
-| **Other securities (incl. real-estate-company shares)** | 1.6 % / 2.0 % | **1.5 %** (unified from 1 Jan 2024) (2026 data, source: vero.fi varainsiirtovero page, updated 1 Jan 2026) |
+| **Kiinteistöyhtiö shares** (keskinäinen kiinteistöosakeyhtiö, other real-estate companies) / **other securities** (e.g. liikeosakkeet) | 2.0 % / 1.6 % | **1.5 %** for both (deeds signed from 12 Oct 2023; law in force 1 Jan 2024) (2026 data, source: vero.fi syventävä ohje "Varainsiirtovero arvopapereiden luovutuksessa", VH/6665/00.01.00/2025, issued 1 Jan 2026 — also the source for the As Oy 2.0 % → 1.5 % row) |
 
 **First-time buyer exemption ABOLISHED** from 1 Jan 2024 — the 0 % treatment for 18–39-year-old first-time buyers now applies only where the binding deed was signed before 1 Jan 2024 (vero.fi first-time-buyer guidance).
 
@@ -127,7 +128,7 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 - **No notary** in Finland real estate; transactions handled by **kaupanvahvistaja** (purchase witness)
 - Kaupanvahvistajan palkkio: **€143** per purchase or other conveyance; a deed made in MML's electronic Kiinteistövaihdannan palvelu instead costs a **€236** service fee that includes the lainhuuto fee (2026 data, source: MML price list, read 2026-10-23)
 - Maanmittauslaitos lainhuuto (title registration, kiinteistö): **€172**, unchanged on 1 Jan 2026; kiinnitys (mortgage-deed confirmation) €47; As Oy purchase: ownership registration in MML's huoneistotietojärjestelmä **€92** per osakehuoneisto, up from €89 (2026 data, source: MML fee notice of 17 Dec 2025)
-- Real estate agent (välittäjä) fee: **est. 2.5–4.0 %** of price (market practice; negotiable), paid by seller
+- Real estate agent (välittäjä) fee: no statutory tariff — the commission is agreed with the agency, must be reasonable (kohtuullinen) and can be charged only to the toimeksiantaja (Laki kiinteistöjen ja vuokrahuoneistojen välityksestä 1074/2000 § 20, Finlex), most often the seller (huoneistokeskus.fi). Example list price: Huoneistokeskus 4.95 % of the velaton hinta incl. 25.5 % ALV "or as agreed", minimum €3,765–€5,020 incl. ALV depending on region (2026 data, source: huoneistokeskus.fi price list ⚠️ — one agency, undated page, list price before negotiation); negotiated fees **est. 2.5–4.0 %** of price (curated range, wisdom, not data — not drawn from any published market average; VAT basis unstated)
 
 ### Capital gains — Luovutusvoittovero
 
@@ -149,11 +150,11 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 
 - Real estate freehold: est. 3 % varainsiirtovero + €362 fixed fees (€143 kaupanvahvistus + €172 lainhuuto + €47 for one kiinnitys) — €250,000 → €7,862 ≈ 3.1 %; €80,000 → €2,762 ≈ 3.5 % (before optional kuntotarkastus, legal review and loan fees)
 - As Oy shares: est. 1.5 % varainsiirtovero + €92 MML ownership registration — €250,000 → €3,842 ≈ 1.5 % (before optional surveys and loan fees)
-- Among the **lower** in EU (after 2024 reform)
+- Among the **lower** in the EU after the 2024 reform (curated comparison — wisdom, not data)
 
 ### Future risk
 
-- Kiinteistövero valuation reform: not taken forward in the 2023–2027 term (government decision at the 1 Sep 2026 budget session, valtioneuvosto.fi); any revival depends on the government formed after the Eduskunta election of 18 Apr 2027 (third Sunday of April, Vaalilaki 714/1998) — verify against the government programme agreed after that election
+- Kiinteistövero valuation reform: not taken forward in the 2023–2027 term (government decision at the 1 Sep 2026 budget session; source valtioneuvosto.fi release of 1 Sep 2026, archived 2026-09-01); any revival depends on the government formed after the Eduskunta election of 18 Apr 2027 (election day is the third Sunday of April under Vaalilaki 714/1998, Finlex; 18 Apr is that Sunday in 2027) — verify against the government programme agreed after that election
 - ALV: the general rate rose 24 % → 25.5 % on 1 Sep 2024 and the reduced rate fell 14 % → 13.5 % on 1 Jan 2026 (vero.fi)
 - Vapaa-ajan asunto: taxed in the muu asuinrakennus band (0.93–2.00 %), so a kunta can raise it up to 2.00 % without any change in the law (Kiinteistöverolaki 654/1992 § 13)
 
@@ -164,26 +165,26 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 ### Long-term residential
 
 - **Laki asuinhuoneiston vuokrauksesta** (481/1995, Tenancy Act), amended with effect from 1 Oct 2026
-- Tenant protection moderate (less strict than DE/SE/AT)
+- Tenant protection moderate (less strict than DE/SE/AT) — curated comparison, wisdom, not data
 - **Toistaiseksi voimassa oleva** (indefinite term) common
 - **Määräaikainen** (fixed-term): binds both parties for the whole term; early exit only on statutory grounds, otherwise damages are usually owed. Leases made from 1 Oct 2026 may run for an agreed fixed period and then continue as indefinite; notice given during the fixed period takes effect at the earliest at its end
 - **Notice periods**: tenant 1 month. Landlord, leases made from 1 Oct 2026: 4 months if the tenancy has lasted ≥ 2 years, otherwise 3 months; leases made before 1 Oct 2026: 6 months if ≥ 1 year, otherwise 3 months (2026-10-23 verified, source: KKV "Vuokrasopimuksen irtisanominen")
 - **Rent levels** — free-financed (vapaarahoitteinen) average rent €/m²/month, 2026 Q3: whole country 15.99 · Helsinki 21.37 · Espoo-Kauniainen 18.86 · Vantaa 17.78 · Tampere 16.98 · Turku 15.64 · Kuopio 14.97 · Jyväskylä 14.66 · Oulu 14.19 · Lahti 13.35 · Pori 10.89; Helsinki studios (yksiöt) 26.70; year on year +0.1 % nationally, −0.2 % Helsinki (2026 data, source: Tilastokeskus StatFin `asvu` table 15fa)
-- Kunta / postcode rents: `https://asuntojen.hintatiedot.fi/` (Ympäristöministeriö; average rents paid by Kela general-housing-allowance recipients, updated Feb / May / Aug / Nov)
+- Kunta / postcode rents: `https://asuntojen.hintatiedot.fi/` (Ympäristöministeriö; average rents paid by Kela general-housing-allowance recipients, updated Feb / May / Aug / Nov; source: asuntojen.hintatiedot.fi service page, 2026)
 
 ### Short-let (Airbnb / Booking)
 
-- **Housing company (As Oy)**: the amended asunto-osakeyhtiölaki in force since 1 Oct 2026 does not ban short-letting, but lets the yhtiökokous take a flat into the company's possession (hallintaanotto) for up to 3 years if short-letting causes the company or shareholders extra costs or harm beyond ordinary residential use, of more than minor significance (secondary: Lakitoimisto KPF quoting new AOYL 8:2 § 1 mom. 4 kohta; Suomen Kiinteistölehti partner content 12 Oct 2026 — verify at finlex.fi). Read the yhtiöjärjestys and ask the isännöitsijä about past short-let disputes before buying to short-let
-- **Pending national 90-day rule — HE 83/2026 vp** (Rakentamislaki amendment, given 30 Apr 2026): short-letting = letting a furnished dwelling for under 28 days at a time; in asemakaava areas, short-letting a dwelling more than 90 days per calendar year would be a change of use needing a permit; the kunta could raise the limit up to 180 days for special local reasons; the holder must record short-let days and show them to building control on request. Excluded: ranta-asemakaava areas, vapaa-ajan asunnot anywhere, dwellings in residential use. Proposed start of the 90-day limit and record duty: 1 Jan 2027. Status: still in Ympäristövaliokunta, committee statements TaVL 20/2026 and PeVL 52/2026 issued, no committee report (mietintö); last recorded step 22 Oct 2026, when the committee asked the Ministry of the Environment for a supplementary response — final text may differ (source: eduskunta.fi HE 83/2026 vp)
+- **Housing company (As Oy)**: the amended asunto-osakeyhtiölaki in force since 1 Oct 2026 does not ban short-letting, but lets the yhtiökokous take a flat into the company's possession (hallintaanotto) for up to 3 years if short-letting causes the company or shareholders extra costs or harm beyond ordinary residential use, unless the breach is only of minor significance, and only after a written warning from the hallitus that is also served on the tenant (source: Finlex, asunto-osakeyhtiölaki 1599/2009 8 luku 2 § 1 mom. 4 kohta and 3 §, as amended by 535/2026). Read the yhtiöjärjestys and ask the isännöitsijä about past short-let disputes before buying to short-let
+- **Pending national 90-day rule — HE 83/2026 vp** (Rakentamislaki amendment, given 30 Apr 2026): short-letting = letting a furnished dwelling for under 28 days at a time; in asemakaava areas, short-letting a dwelling more than 90 days per calendar year would be a change of use needing a permit; the kunta could raise the limit up to 180 days for special local reasons; the holder must record short-let days and show them to building control on request. Excluded: ranta-asemakaava areas, vapaa-ajan asunnot anywhere, dwellings in residential use. Proposed start of the 90-day limit and record duty: 1 Jan 2027. Status: still in Ympäristövaliokunta, committee statements TaVL 20/2026 and PeVL 52/2026 issued, no committee report (mietintö); last recorded step 22 Oct 2026, when the committee asked the Ministry of the Environment for a supplementary response — final text may differ (source: eduskunta.fi HE 83/2026 vp, processing record of 22 Oct 2026)
 - **EU Regulation 2024/1028** (STR data sharing): applies since 20 May 2026; as a Regulation it needs no transposition. Opt-in/opt-out: a Member State need not set up STR registration, but any registration scheme or platform-data request must go through the Regulation (European Commission DG GROW news, 20 May 2026). HE 83/2026 uses a day-count record duty, not a registration scheme
 
 ### Tax on rental
 
 - **Pääomatulo (capital income)**: 30 % up to €30k, 34 % above (2026-10-23 verified, source: vero.fi Pääomatulot)
-- **Vähennykset** (deductions): kunnossapito, korjaukset, hoitovastike (pääoma- / rahoitusvastike only where the As Oy books it as income, not where it is capitalised), korot on the loan taken to acquire the rental property
+- **Vähennykset** (deductions): kunnossapito, korjaukset, hoitovastike (pääoma- / rahoitusvastike only where the As Oy books it as income, not where it is capitalised), korot on the loan taken to acquire the rental property (claimed under Velan korot, not under Vuokratulot); vuosikorjaus is deducted in the year paid; perusparannus the landlord pays on an As Oy flat goes in 10-year straight-line instalments, on a let building (kiinteistö) it is added to the building's acquisition cost and depreciated at 4 % a year of the undepreciated balance (residential building), or in either case deducted at sale (2026 data, source: vero.fi "Vähennykset", updated 26 May 2026)
 - **Kalustevähennys** (furnished let — optional lump sum instead of actual furnishing costs): €40/month for a furnished room or studio, €60/month for a two-room or larger flat; occasional letting €1.30/day or €2.00/day (2026-10-23 verified, source: vero.fi syventävä ohje "Vuokratulojen verotus")
-- **Sähkölämmitys** (electric heating) typically not deductible separately
-- **No de-minimis exemption for rental income** — all rent is capital income (30 %/34 %), reportable even when net is zero after deductions (2026-05-27 verified, source: vero.fi rental-income guidance)
+- **Sähkö- ja lämpömaksut** (electricity and heating charges) the landlord pays are deductible, like water, waste-water and road charges, kiinteistövero and vuosikorjausmenot; if only part of the home is let, only the let share counts, split by floor area or, for shared rooms, per occupant (2026 data, source: vero.fi syventävä ohje "Vuokratulojen verotus", VH/7418/00.01.00/2025 of 12 Jan 2026, § 3.2–3.3)
+- **No de-minimis exemption for rental income** — all rent is capital income (30 %/34 %), reportable even when net is zero after deductions (2026 data, source: vero.fi "Ilmoitus- ja maksuohjeet": rental income and its costs must always be reported, even when no tax remains after deductions)
 
 ---
 
@@ -230,17 +231,17 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 
 ### Specific risks
 
-- **Tulva (flooding)** — coastal Helsinki + Espoo, lake/river plains; Vuoksi basin (East FI)
+- **Tulva (flooding)** — 18 merkittävää tulvariskialuetta (significant flood-risk areas) for 2024–2030, named by the Ministry of Agriculture and Forestry (MMM) on 19 Dec 2024: 4 coastal (Hamina–Kotka, Helsinki–Espoo, Turku, Kemi) and 14 on rivers — lower Kymijoki; Kokemäenjoki (Huittinen, Pori); Lapväärtinjoki-Isojoki (Lapväärtti); Laihianjoki (Laihia-Tuovila-Runsor); Kyrönjoki (Ilmajoki-Seinäjoki, Ylistaro-Koivulahti); Kalajoki (Alavieska-Ylivieska); lower Pyhäjoki; Iijoki (Pudasjärvi); Tornionjoki-Muonionjoki (Tornio); Kemijoki (Rovaniemi, Kittilä); Ivalojoki (Ivalo). Pori (river delta + sea) is among the worst, Rovaniemi the worst inland; the Vuoksi basin is not on the list. Harmful floods can also happen outside these areas, and hulevesi (stormwater) flooding is managed by the kunta (2024 data, source vesi.fi / SYKE "Tulvariskialueet" + 2024–2030 map, vesi.fi "Tulvariskien hallinta"; 2026-10-23 verified)
 - **Radon — Finland has higher indoor radon than most other countries**; average in homes ≈ **94 Bq/m³** (2026 data, source STUK "Radon in Finland"; 2026-10-23 verified):
   - Highest bedrock/soil uranium: **Lahti region (Päijät-Häme), Itä-Uusimaa, Kymenlaakso**; lowest: Pohjois-Karjala, Kainuu, Pohjois-Pohjanmaa. Houses on gravel/sand ridges (harjut) read clearly higher than neighbours on other soils; STUK recommends measuring everywhere in Finland (source STUK)
   - Reference levels: **300 Bq/m³** for dwellings, **200 Bq/m³** for designing and building new buildings (STM decree 1044/2018; source STUK; 2026-10-23 verified). WHO recommends a national reference level of 100 Bq/m³, at most 300 Bq/m³ (2023 data, source WHO radon fact sheet) — rates/figures may have changed since
   - Share of homes above 300 Bq/m³: data not publicly available on the STUK pages checked — verify at stuk.fi
   - No measurement duty for private homes. Employers must measure workplaces in municipalities / postcodes where more than 10 % of earlier measurements exceed 300 Bq/m³; STUK's list includes e.g. Helsinki, Espoo, Vantaa, Tampere, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Jyväskylä (Radiation Act 859/2018; source STUK workplace-radon pages; 2026-10-23 verified). Municipality / postcode level only — never a parcel-level reading
-- **Earthquake** — very low (stable Fennoscandian Shield)
-- **Roudan aiheuttama vaurio** (frost heave) — ground freezing affects shallow foundations
-- **Lumikuorma** (snow load) — heavy winters can cause roof collapse (esp. flat roofs)
-- **Maaston eroosio** (coastal erosion) — Baltic Sea coastline
-- **Luonnonpalo (wildfires)** — increasing climate risk
+- **Earthquake** — very low (stable Fennoscandian Shield) (qualitative — wisdom, not data)
+- **Roudan aiheuttama vaurio** (frost heave) — ground freezing affects shallow foundations (qualitative — wisdom, not data)
+- **Lumikuorma** (snow load) — heavy winters can cause roof collapse (esp. flat roofs) (qualitative — wisdom, not data)
+- **Maaston eroosio** (coastal erosion) — Baltic Sea coastline (qualitative — wisdom, not data)
+- **Luonnonpalo (wildfires)** — climate change raises forest-fire risk in Fennoscandia, although annual burned areas have stayed small in recent decades (2022 data, source FMI + Ministry for Foreign Affairs infographic on ilmasto-opas.fi, based on FMI Reports 2021:3)
 - **Sea-level rise** + **post-glacial rebound**: land uplift ~90 cm per century in Merenkurkku (Kvarken), ~40 cm per century in Helsinki. South-coast sea level is no longer falling and is turning to rise; in the northern Gulf of Bothnia land still rises faster than the sea. 2100 vs present, south coast: +5–15 cm (low emissions), +20–30 cm (medium), +50–60 cm (high); Perämeri: sea level falls 20–30 cm (medium) (2025 data, source FMI ilmasto-opas.fi) — rates/figures may have changed since
 
 ### Build-era hazards
@@ -250,12 +251,12 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 | **Pre-1960s** | Lead paint, asbestos, weak insulation |
 | **1960s–1980s "betonilähiö"** (concrete suburbs) | Asbestos very common (joints, isolation), low energy efficiency |
 | **1980s–2000s** | Improved insulation, modern wiring, formaldehyde from particleboard |
-| **Post-2010 (E-luokka)** | Energy efficiency standards |
-| **Post-2017 nZEB** | Strict |
+| **Permits from 1 Jul 2012 (E-luku)** | Whole-building energy limit (E-luku) for new buildings — YM decree 2/11 = RakMK D3 2012, given 30 Mar 2011, in force 1 Jul 2012; permit applications pending before 1 Jul 2012 could use the earlier rules (decree and date: Finlex regulation collection; in-force date: decree text, copy hosted by Pilkington ⚠️; 2026-10-23 verified) |
+| **Permits from 1 Jan 2018 (nZEB)** | New buildings must be lähes nollaenergiarakennus (nearly zero-energy): MRL 117 g § as amended by 1151/2016 (earlier rules applied to 31 Dec 2017) + YM decree 1010/2017 (new E-luku limits) in force 1 Jan 2018; projects pending on that date stayed on the earlier rules (source Finlex; 2026-10-23 verified) |
 
 **Asbestos**: used in Finnish construction 1922–1992, most commonly 1963–1979; manufacture/import of asbestos building materials banned from the start of 1993, sale/use from the start of 1994 (some stock may have been sold later) — treat every pre-1994 building as suspect (2026 data, source tyosuojelu.fi; 2026-10-23 verified); removal ~est. €30–€80/m² (see FI 2026 cost benchmarks below).
 
-**Putkiremontti (pipe renovation)**: ~50-year cycle for stamb (vertical pipe runs); buildings 1960s-1970s coming due now or already done; **cost per apartment €30,000-80,000+** for full renovation.
+**Putkiremontti (pipe renovation)**: ~50-year cycle for stamb (vertical pipe runs); buildings 1960s-1970s coming due now or already done (rule of thumb — wisdom, not data). In 2025, 15 % of responding housing companies planned a domestic-water pipe renovation and 12 % a sewer renovation within the next 10 years (2025 data, source Tilastokeskus StatFin table 15ga; 2026-10-23 verified). **Cost per apartment ~est. €30,000-80,000+** for full renovation (curated range — wisdom, not data: no primary source publishes a per-flat figure; it scales with flat size, method (full linjasaneeraus vs pipe relining) and bathroom scope) — get the housing company's cost estimate per share before bidding.
 
 ### Mandatory diagnostics at sale
 
@@ -266,28 +267,28 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 | **Asbestikartoitus** (asbestos survey) | Pre-1994 buildings before removing or dismantling structures (new Government Decree on the Safety of Asbestos Work in force 21 Dec 2025, partly 21 Dec 2026; source tyosuojelu.fi; 2026-10-23 verified) | Per case |
 | **Yhtiöjärjestys** + **isännöitsijän todistus** | If As Oy | At sale |
 | **Yhtiön tilinpäätös** + **toimintakertomus** + **kunnossapitosuunnitelma** | If As Oy | At sale |
-| **Kaupanvahvistajan todistus** | All sales | At signing |
+| **Kaupanvahvistajan todistus** (purchase-witness confirmation) | Kiinteistö sales on a paper deed: the kaupanvahvistaja confirms the sale with all signatories present; a deed made in the statutory electronic kaupankäyntijärjestelmä needs none, and the rule sits in Maakaari's kiinteistö chapter, so As Oy share sales are outside it (Maakaari 540/1995 2:1 §; source Finlex consolidated; 2026-10-23 verified) | At signing |
 
 ### As Oy diligence (CRITICAL)
 
 Before buying any As Oy apartment, demand:
 1. **Yhtiöjärjestys** — articles of association
-2. **Isännöitsijän todistus** (manager's certificate, valid 3 months)
+2. **Isännöitsijän todistus** (manager's certificate) — content set by Asunto-osakeyhtiölaki 1599/2009 7:27 §: the company's finances, known condition of its buildings and of the flat, the owner's overdue unpaid charges, loan liabilities where they fall differently on different shares; the Act sets no validity period, so ask for a recently issued one (source Finlex consolidated; 2026-10-23 verified)
 3. **3-vuoden tilinpäätös** + **toimintakertomus**
-4. **PTS (Pitkän tähtäimen kunnossapitosuunnitelma)** — long-term maintenance plan
-5. **Yhtiölaina** (building debt allocated to your share) — often €30k–€100k+
+4. **PTS (Pitkän tähtäimen kunnossapitosuunnitelma)** — long-term maintenance plan; not named in the Act — the statutory minimum is the board's written report on maintenance needs for the next 5 years, plus a report on major works done, presented to every annual general meeting (AOYL 6:3 §; source Finlex consolidated; 2026-10-23 verified)
+5. **Yhtiölaina** (building debt allocated to your share) — often ~est. €30k–€100k+ (curated range — wisdom, not data: no primary statistic publishes per-flat yhtiölaina; the figure scales with the company's outstanding loans and the flat's portion under the yhtiöjärjestys — read the share's portion in the isännöitsijäntodistus and the company's tilinpäätös)
 6. **Tulevat hankkeet** — upcoming putkiremontti, julkisivu, katto
 
-**Red flags**: yhtiölaina > €100k/apt without recent renovation, deferred putkiremontti for 1970s building, monthly yhtiövastike >€8/m².
+**Red flags**: yhtiölaina > €100k/apt without recent renovation, deferred putkiremontti for 1970s building, monthly yhtiövastike >€8/m² (thresholds are curated rules of thumb — wisdom, not data). For scale, residential hoitovastike averaged €4.49/m²/month across Finnish housing companies in 2025 — €4.88 in kerrostalo companies, €5.32 in buildings completed before 1960 — before any rahoitusvastike (loan charge) (2025 data, source Tilastokeskus StatFin table 15gi; 2026-10-23 verified).
 
 ### Climate change projections (FMI)
 
 - Warming under SSP2-4.5, 2070–2099 vs 1981–2010: winters +2–7 °C, summers +1–5 °C; precipitation likely up in every season (best estimate winter +14 %, summer +7 %) (2022 data, source FMI release 30 Mar 2022) — rates/figures may have changed since
-- More precipitation: winter rain increasing (less snow)
+- More precipitation: winter rain increasing (less snow) (qualitative — wisdom, not data)
 - Sea-level rise: south coast turning to rise as uplift no longer keeps pace; northern Gulf of Bothnia still emerging (figures in the sea-level bullet under Specific risks; 2025 data, source FMI ilmasto-opas.fi) — rates/figures may have changed since
-- Drought: rare but increasing summer events
-- Forest fires: rising
-- Permafrost retreat in Lapland
+- Drought: rare but increasing summer events (qualitative — wisdom, not data)
+- Forest fires: rising risk (2022 data, source FMI infographic on ilmasto-opas.fi; see Luonnonpalo under Specific risks)
+- Permafrost retreat in Lapland (qualitative — wisdom, not data)
 
 ---
 
@@ -296,12 +297,12 @@ Before buying any As Oy apartment, demand:
 ### Sources
 
 - **Suomen Vesilaitosyhdistys (VVY)**: `https://vesilaitosyhdistys.fi/` (vvy.fi redirects here) — national water utility association (2026-10-23 verified)
-- Each kunta manages own vesilaitos + viemärilaitos
-- Major: **HSY** (Helsinki region — Helsinki + Espoo + Vantaa + Kauniainen; drinking water for over 1 million residents per hsy.fi), **Tampereen Vesi Oy**, **Turun Vesihuolto Oy** (Turku), **Oulun Vesi** (city liikelaitos). **Turun Seudun Vesi Oy** is a wholesale artificial-groundwater company owned by 9 Turku-region kunnat — connections are made through each kunta's own utility (sources hsy.fi, tampereenvesi.fi, turunvesihuolto.fi, ouka.fi/oulun-vesi, turunseudunvesi.fi; 2026-10-23 verified)
+- ~1,110 vesihuoltolaitokset (utilities) under the Water Services Act (2026 data, source SYKE via VVY "Vesihuolto Suomessa lyhyesti" ⚠️ industry association; 2026-10-23 verified); ~400 of them are municipally owned and the rest customer-owned cooperatives, and the ~80 largest supply nearly 80 % of water services (undated figures, source VVY ⚠️; read 2026-11-03)
+- Major: **HSY** (Helsingin seudun ympäristöpalvelut — a kuntayhtymä whose member municipalities are Helsinki, Espoo, Vantaa and Kauniainen, with water services one of its units; drinking water for over 1 million residents per hsy.fi), **Tampereen Vesi Oy**, **Turun Vesihuolto Oy** (Turku), **Oulun Vesi** (city liikelaitos). **Turun Seudun Vesi Oy** is a wholesale artificial-groundwater company owned by 9 Turku-region kunnat — connections are made through each kunta's own utility (sources hsy.fi, tampereenvesi.fi, turunvesihuolto.fi, ouka.fi/oulun-vesi, turunseudunvesi.fi; 2026-10-23 verified)
 
 ### Verification
 
-- Most populated areas: kunnan mains universal
+- Network coverage: ~90 % of Finns are on a utility water network and ~85 % on a sewer network (undated figures, source VVY "Vesihuolto Suomessa lyhyesti" ⚠️ industry association; read 2026-10-23). The owner or occupier is responsible for a property's water services; inside a utility's toiminta-alue (operating area, approved by the kunta) the property must connect to the water and sewer networks — no sewer connection is needed where there is no WC and wastewater is handled under Ympäristönsuojelulaki 527/2014, and the kunta's ympäristönsuojeluviranomainen can grant exemptions, which lapse when the property changes owner or holder or its use raises the need for the utility's services (Vesihuoltolaki 119/2001 §§ 6, 8, 10, 11; source Finlex consolidated; 2026-10-23 verified, § 11 lapse rule 2026-11-03). Ask the vesilaitos whether the parcel is inside the toiminta-alue
 - Rural + mökki: own **porakaivo** (drilled well) + **saostuskaivot** (septic)
 - **Haja-asutuksen jätevedet** (Ympäristönsuojelulaki 527/2014 §§ 154 b–156 d + Government Decree 157/2017): pre-2004 systems within 100 m of a water body / sea or on a water-supply groundwater area had to meet the basic treatment standard by 31 Oct 2019; elsewhere the standard applies when the system is renewed, a WC is built or permit-requiring renovation is done (156 b §); deviations possible (156 d §) (2026 data, source Finlex consolidated 527/2014; 2026-10-23 verified)
 
@@ -322,22 +323,24 @@ Connection fees are set by each kunta's utility (HSY figures apply only in its a
 
 | Work | Cost (€) — est. market range unless a source is given |
 |---|---:|
-| Energiatodistus | 300–700 |
-| Kuntotarkastus (condition survey) | 400–800 |
-| Kuntotutkimus (deeper) | 1,000–3,000 |
-| Asbestikartoitus | 200–500 |
+| Energiatodistus | ~est. 300–700 |
+| Kuntotarkastus (condition survey) | ~est. 400–800 |
+| Kuntotutkimus (deeper) | ~est. 1,000–3,000 |
+| Asbestikartoitus | ~est. 200–500 |
 | Kaupanvahvistaja (public purchase witness) | 143 (2026 data, source: MML price list) |
 | Maanmittauslaitos lainhuuto (title registration, kiinteistö) | 172 (2026 data, source: MML) |
 | MML ownership registration (As Oy osakehuoneisto) | 92 (from 1 Jan 2026, was 89; source: MML) |
-| **Varainsiirtovero (kiinteistö)** | **3 % of price** |
-| **Varainsiirtovero (As Oy shares)** | **1.5 % of price** |
+| **Varainsiirtovero (kiinteistö)** | **3 % of price** (2026 data, source: vero.fi) |
+| **Varainsiirtovero (As Oy shares)** | **1.5 % of price** (2026 data, source: vero.fi) |
 | **Total transaction cost (kiinteistö)** | **est. ≈ 3.1–3.5 %** of price (3 % + €362 fixed fees, €250k → €80k; see `--tax`) |
 | **Total transaction cost (As Oy)** | **est. ≈ 1.5–1.6 %** of price (1.5 % + €92, €250k → €80k; see `--tax`) |
-| Saostuskaivo upgrade compliant | 5,000–15,000 |
-| Roof (steel sheet, 150 m²) | 15,000–30,000 |
-| Asbestos removal (200 m²) | 4,000–10,000 |
-| Putkiremontti per apartment (As Oy) | 30,000–80,000 |
-| Energy retrofit (Class C → A) | 40,000–90,000 |
+| Saostuskaivo upgrade compliant | ~est. 5,000–15,000 |
+| Roof (steel sheet, 150 m²) | ~est. 15,000–30,000 |
+| Asbestos removal (200 m²) | ~est. 4,000–10,000 |
+| Putkiremontti per apartment (As Oy) | ~est. 30,000–80,000 |
+| Energy retrofit (Class C → A) | ~est. 40,000–90,000 |
+
+The ~est. rows are curated 2026 ranges with no primary source behind them, not quotes; survey and contractor prices vary with region, building size, age and condition — use them as orders of magnitude and get written quotes that state whether 25.5 % ALV is included before budgeting.
 
 ## Active fiscal incentives (2026-2027)
 
@@ -351,8 +354,8 @@ Connection fees are set by each kunta's utility (HSY figures apply only in its a
 
 ## Common listing platforms
 
-- **Etuovi.com** — biggest, full extraction
-- **Oikotie** — major listings portal (`https://asunnot.oikotie.fi/`)
+- **Etuovi.com** — self-described as Finland's largest property search (site, Nov 2026, listing platform ⚠️); full extraction
+- **Oikotie** — major listings portal (`https://asunnot.oikotie.fi/`), self-described as Finland's most popular housing service (site, Nov 2026, listing platform ⚠️)
 - **Vuokraovi** — rentals
 - **OP Koti** (formerly OPKK), **Sp-Koti**, **Habita**, **Aktia LKV** — agency networks
 - **Tori.fi** — private sellers; **Huutokaupat.com** — online auctions, incl. Ulosottolaitos (enforcement) sales of seized kiinteistöt and asunto-osakkeet (2026-10-23 verified, source: huutokaupat.com listings)
@@ -424,9 +427,9 @@ Connection fees are set by each kunta's utility (HSY figures apply only in its a
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25. Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+✅ **Fully populated**; fast-changing sections re-verified as of 2026-10-23, figures with no current primary source labelled est., curated wisdom or verify-at, and older-source figures marked 'may have changed since' (initial population 2026-04-25; `--price`, `--rental`, `--tax`, `--risks`, `--mains` and Cost benchmarks closed by a gap-closing pass on 2026-11-03). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for the cadastre and transaction-cost facts re-fetched 2026-10-23 (varainsiirtovero 3 % / 1.5 %, kiinteistövero statutory bands, MML fees, pääomatulo 30 % / 34 %; Maanmittauslaitos + Verohallinto definitive), for `--work` and for the Active fiscal incentives figures. MEDIUM for `--price` (As Oy and small-house figures are Tilastokeskus / MML 2025 data; mökki row est.), for `--risks` + `--mains` (radon, flood maps, asbestos dates and HSY tariffs re-verified; putkiremontti, yhtiölaina and private-system cost ranges unsourced) and for the kiinteistövero reform shelving (government decision of 1 Sep 2026; the valtioneuvosto.fi release could not be re-read on 2026-10-23). MEDIUM for short-let regulation: HE 83/2026 vp (90-day permit threshold, raisable by the kunta to 180 days, plus a record-keeping duty, both proposed from 1 Jan 2027) is still in Ympäristövaliokunta with no committee report — on 22 Oct 2026 the committee asked the Ministry of the Environment for a supplementary response — so the final text may differ (eduskunta.fi, read 2026-10-23); EU Reg 2024/1028 has applied since 20 May 2026 and is opt-in for Member States, so nothing is pending transposition (European Commission, 20 May 2026). LOW for the construction and survey rows in Cost benchmarks (est. market ranges).
+**Confidence**: HIGH for the cadastre and transaction-cost facts re-fetched 2026-10-23 (varainsiirtovero 3 % / 1.5 %, kiinteistövero statutory bands, MML fees, pääomatulo 30 % / 34 %; Maanmittauslaitos + Verohallinto definitive), for `--work`, for the Active fiscal incentives figures and for the kiinteistövero reform shelving (government decision of 1 Sep 2026, read in the valtioneuvosto.fi budget-session release through its 2026-09-01 archive). MEDIUM for `--price` (As Oy, small-house and leisure-property figures are Tilastokeskus / MML 2025 data; single-city small-house medians rest on 65–255 sales each, and the 2026 Q3 trend is preliminary) and for `--risks` + `--mains` (radon, flood maps and flood-risk areas, asbestos dates, AOYL / Maakaari / Vesihuoltolaki rules and HSY tariffs re-verified; putkiremontti, yhtiölaina and private-system cost ranges have no primary source and are labelled est. or curated). MEDIUM for short-let regulation: HE 83/2026 vp (90-day permit threshold, raisable by the kunta to 180 days, plus a record-keeping duty, both proposed from 1 Jan 2027) is still in Ympäristövaliokunta with no committee report — on 22 Oct 2026 the committee asked the Ministry of the Environment for a supplementary response — so the final text may differ (eduskunta.fi, read 2026-10-23); EU Reg 2024/1028 has applied since 20 May 2026 and is opt-in for Member States, so nothing is pending transposition (European Commission, 20 May 2026). LOW for the construction and survey rows in Cost benchmarks (est. market ranges).
 
 ### Per-section verification (overrides playbook-level date)
 
@@ -435,6 +438,12 @@ Connection fees are set by each kunta's utility (HSY figures apply only in its a
 | `--work` | 2026-10-23 | 2026-10-23 refresh wave | Työmarkkinatori replaces TE-toimisto and MOL.fi; YEL threshold €9,423.09 (2026, ETK); Tilastokeskus 2024 maakunta medians; Oy / Oyj capital rule (Suomi.fi); "no statutory minimum wage" rests on secondary search results only |
 | Active fiscal incentives | 2026-10-23 | 2026-10-23 refresh wave | Kotitalousvähennys 2026–2027 (vero.fi); energia-avustus (Varke); ASP and housing-loan state guarantee (Valtiokonttori); PV support marked data not publicly available |
 | Foreign-buyer rule (non-EU/EEA permit bullet under Caveats only) | 2026-10-23 | 2026-10-23 refresh wave | Laki kiinteistöhankintojen valvonnasta 470/2019, amended by 328/2025 (Finlex); the rest of Caveats is not re-verified |
+| `--price` | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | Small-house column re-sourced from Yle to MML kauppahintarekisteri 2025 medians (city cells relabelled median; Lahti, Pori, Kouvola, Kotka and Mikkeli added); est. mökki row replaced by MML leisure-property medians; KTJ extract fees (MML 2026 price list) and Compute area terms (Finlex VNA 130/2001, Tilastokeskus) sourced; trend moved to 2026 Q3 preliminary (15is); Etuovi, Oikotie and agency claims labelled self-descriptions |
+| `--rental` | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | Landlord-paid electricity and heating corrected to deductible (vero.fi syventävä ohje § 3.3); perusparannus split into As Oy 10-year instalments vs kiinteistö depreciation; AOYL short-let ground re-sourced to Finlex (8:2 § 1 mom. 4 kohta and 8:3 §, as amended by 535/2026); HE 83/2026 status (last step 22 Oct 2026, no mietintö) and the no-de-minimis line re-read; tenant-protection comparison labelled wisdom |
+| `--tax` | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | Reform shelving read in the valtioneuvosto.fi release of 1 Sep 2026 (archived 2026-09-01); pre-2024 rates confirmed in the vero.fi syventävä ohje and the row label corrected (real-estate-company shares 2.0 %, other securities 1.6 %); agent fee re-based on Laki 1074/2000 § 20 plus one agency list price ⚠️; "lower in the EU" labelled wisdom; buyer-side totals recomputed |
+| Cost benchmarks (FI 2026) | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | Fiscal rows confirmed (MML €143 / €172 / €92; vero.fi 3 % / 1.5 %); nine construction and survey rows labelled ~est. with a calibration sentence |
+| `--risks` | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | 18 significant flood-risk areas for 2024–2030 (MMM, 19 Dec 2024) replace the hotspot list; E-luku (1 Jul 2012) and nZEB (1 Jan 2018) era dates; kaupanvahvistaja scope (Maakaari 2:1 §); isännöitsijän todistus content (AOYL 7:27 §, no validity period) and the 5-year maintenance report (6:3 §); putkiremontti, yhtiölaina and red-flag figures labelled est. or curated, with StatFin 15ga / 15gi context; the renovation-loan guarantee proposal (YM013:00/2026) is not yet in As Oy item 5 |
+| `--mains` | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | HSY member municipalities confirmed (hsy.fi); "each kunta its own vesilaitos" and "mains universal" replaced by VVY utility counts and network coverage (⚠️ industry association) and Vesihuoltolaki §§ 6, 8, 10, 11 (Finlex); private-system cost rows stay ~est. |
 
 ## Extension TODOs
 
@@ -465,4 +474,5 @@ Connection fees are set by each kunta's utility (HSY figures apply only in its a
   - `--risks` 9 / 6 / 14 — STUK radon (home average ≈ 94 Bq/m³), Tulvakartta, land uplift and sea level, asbestos dates, energiatodistus and asbestikartoitus rows; FMI climate projections 2 / 1 / 3 (2022 SSP2-4.5 figures)
   - `--mains` 7 / 3 / 4 — VVY URL, Turku utilities, hajajätevesi scope, HSY 2026 / 2027 connection fees
   - Verification authorities 1 / 6 / 2 — ELY-keskus → elinvoimakeskus; Source URL templates 2 / 5 / 2 — vero.fi path, Fintraffic URL
-  - Totals 103 changed / 65 confirmed / 60 unverifiable. Playbook-level date left at 2026-04-25: `--price`, `--tax`, `--rental`, `--risks` and `--mains` still carry unverified items (mökki prices, agent fee, putkiremontti / yhtiölaina and private-system cost ranges); re-verified sections are dated in the Per-section verification table.
+  - Totals 103 changed / 65 confirmed / 60 unverifiable. Playbook-level date re-stamped 2026-10-23: every fast-changing section is now re-verified — `--work` in the refresh, `--price`, `--rental`, `--tax`, Cost benchmarks, `--risks` and `--mains` in the gap-closing pass below; re-verified sections are dated in the Per-section verification table.
+  - Gap-closing pass, run 2026-11-03 (confirmed / changed / relabelled): `--price` 0 / 14 / 5; `--rental` 4 / 2 / 1; `--tax` 2 / 1 / 2; Cost benchmarks 2 / 0 / 2; `--risks` 0 / 5 / 6; `--mains` 1 / 2 / 0 — all six closed; total 9 / 24 / 16. Main changes: small-house column re-sourced to MML kauppahintarekisteri 2025 medians and the est. mökki row replaced by MML leisure-property medians; trend moved to 2026 Q3 (preliminary); landlord-paid electricity and heating corrected to deductible; pre-2024 transfer-tax row label corrected; 18 significant flood-risk areas for 2024–2030 replace the hotspot list; the isännöitsijän todistus '3 months' validity removed (AOYL 7:27 § sets none); VVY utility counts and Vesihuoltolaki duties replace 'mains universal'; construction, survey, putkiremontti and yhtiölaina figures labelled est. or curated

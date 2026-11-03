@@ -16,20 +16,20 @@ ISO2: `se`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Primary sources
 
-- **Lantmäteriet "Min fastighet"**: `https://www.lantmateriet.se/sv/fastighet-och-mark/information-om-fastigheter/Min-fastighet/` — own-property full extracts, requires BankID
+- **Lantmäteriet "Min fastighet"**: `https://www.lantmateriet.se/sv/fastighet-och-mark/information-om-fastigheter/Min-fastighet/` — details of your own property (area, inteckningar, taxeringsvärde, plans, servitut); login needs a Swedish personnummer or samordningsnummer and BankID or Freja+ e-ID; documents (akter) are ordered separately (2026, source: Lantmäteriet)
 - **Lantmäteriet open data**: `https://geotorget.lantmateriet.se/`
 - **SCB (Statistiska centralbyrån) Fastighetspriser**: `https://www.scb.se/hitta-statistik/statistik-efter-amne/boende-bebyggelse-och-mark/fastigheter/fastighetspriser-och-lagfarter/` — småhus price index Q3 2026 (preliminary) 986 (1981=100), +4 % y/y and +2 % q/q (2026 data, source: SCB, published 23 Oct 2026)
-- **Svensk Mäklarstatistik**: `https://www.maklarstatistik.se/` — sales reported daily by brokers from ~1,500 offices (secondary aggregator, per maklarstatistik.se 2026)
-- **Värderingsdata** + **Booli Pris** valuation tools
+- **Svensk Mäklarstatistik**: `https://www.maklarstatistik.se/` — 1,500 reporting broker offices send contract data daily, covering over 95 % of home sales handled by brokers; SCB processes the monthly statistics; owned by the brokers' association Mäklarsamfundet since 2020 (secondary aggregator, per maklarstatistik.se 2026)
+- Valuation tools: **Värderingsdata** (`https://www.varderingsdata.se/`) — AVM valuations, the Ortspris sold-price service and BRF information for brokers and banks, behind a login (per varderingsdata.se 2026); **Booli** — sold prices and an online home valuation ("värdera din bostad", per sbab.se 2026)
 
 ### Listing platforms
 
 - **Hemnet** — dominant: 82 % of 2025 home sales (139,063 of SCB's 170,415) were advertised on Hemnet, down from 86–90 % in 2019–2024 (2025 data, preliminary until Jul 2027; source: Hemnet Group press release 3 Jul 2026, company-reported against SCB): `https://www.hemnet.se/`
-  - Includes "Salda objekt" (sold prices) searchable per kommun + område
-  - URL: `https://www.hemnet.se/bostader?location_ids[]=<id>&item_types[]=bostadsratt|villa|...`
+  - Sold prices: the "Slutpriser" tab at `https://www.hemnet.se/salda/bostader`, filterable by area (source: hemnet.se, archived 2026-03-12)
+  - URL (sold): `https://www.hemnet.se/salda/bostader?location_ids[]=<id>&item_types[]=bostadsratt` (pattern per Wayback Machine captures of 2026-05-04 and 2026-10-01); for-sale search `https://www.hemnet.se/bostader`, canonical `https://www.hemnet.se/till-salu` (archived 2026-03-12). The live site could not be read for verification — check it directly
 - **Booli** (part of SBAB's services; operated by Booli Search Technologies AB, per booli.se 2026): `https://www.booli.se/` — sold prices map + valuation
 - **Blocket Bostad**: `https://www.blocket.se/bostad` — rentals only, now merged into **Qasa** (`https://qasa.com/se/sv`); not a for-sale channel (per blocket.se/bostad, 2026)
-- Agency networks: **Fastighetsbyrån** (largest), **Svensk Fastighetsförmedling**, **Mäklarhuset**, **Notar** (Stockholm, central Sweden + Skåne), **SkandiaMäklarna**
+- Agency networks: **Fastighetsbyrån** (Swedbank subsidiary; calls itself the leading chain, with ~270 offices, ~39,000 homes brokered in Sweden in 2025 and about one in four Swedish home sales — company-reported, per fastighetsbyran.com 2026), **Svensk Fastighetsförmedling**, **Mäklarhuset**, **Notar** (Stockholm, central Sweden + Skåne), **SkandiaMäklarna**
 
 ### Price benchmarks (bostadsrätt: Svensk Mäklarstatistik, rolling 12 months, update of 8 Oct 2026; villa: SCB 2025)
 
@@ -46,14 +46,14 @@ ISO2: `se`. Status: ✅ Fully populated (researched 2026-04).
 | Norrland (rural inland/border kommuner, Norrbotten + Jämtland) | 2,700–7,300 (1–51 sales per kommun) | 642,000–1,434,000 |
 | Sommarstuga (fritidshus) | n/a | 1,565,000 (Övre Norrland) – 4,401,000 (Stockholms län); national avg 2,519,000 |
 
-Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sales over a rolling 12 months (2026 data, secondary aggregator; Svensk Mäklarstatistik area pages updated 8 Oct 2026); Stockholm suburbs span Nynäshamn 25,317 – Lidingö 66,107. Rural Norrland bostadsrätt values rest on 1–51 sales per kommun in 12 months; Svensk Mäklarstatistik treats fewer than 25 sales as too few for statistical relevance. Villa = SCB average köpeskilling for permanent småhus excl. tomträtt; fritidshus = SCB regional averages (2025 data, source: SCB Statistikdatabasen TAB1169 + TAB1152). Ski resorts break the Norrland pattern (Åre bostadsrätt 60,152 SEK/m², rolling 12 months, update of 8 Oct 2026).
+Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sales over the last 12 months (the area pages' "12 månader" column; their 3-month column covers Jul–Sep 2026) (2026 data, secondary aggregator; Svensk Mäklarstatistik area pages updated 8 Oct 2026); Stockholm suburbs span Nynäshamn 25,317 – Lidingö 66,107. Rural Norrland bostadsrätt values rest on 1–51 sales per kommun in 12 months; Svensk Mäklarstatistik treats fewer than 25 sales as too few for statistical relevance. Villa = SCB average köpeskilling for permanent småhus excl. tomträtt; fritidshus = SCB regional averages (2025 data, source: SCB Statistikdatabasen TAB1169 + TAB1152). Ski resorts break the Norrland pattern (Åre bostadsrätt 60,152 SEK/m², rolling 12 months, update of 8 Oct 2026).
 
 ### Compute
 
 1. Listing SEK/m² = price / **boarea (BOA)**, the legal living area definition
 2. **Trap**: BOA + biarea (BIA: basement, garage, attic) = useful total but not for €/m² comparison
 3. **Trap**: Bostadsrätt has **andelstal** (share %) determining BRF voting rights + monthly avgift portion
-4. **Bostadsrätt math**: monthly **avgift** (€100–€800/mo typical) covers BRF mortgage + maintenance — affects "true" cost
+4. **Bostadsrätt math**: monthly **avgift** covers BRF mortgage + maintenance — affects "true" cost. Bostadsrätt households paid the BRF SEK 59,728/yr on average (± 1,508; ≈ SEK 4,977/mo = 59,728 / 12), from SEK 34,559/yr (≤ 50 m²) to SEK 90,436/yr (≥ 131 m²) (2024 data, source: SCB Hushållens boendeutgifter, table HE0202T15, sample survey — rates/figures may have changed since); new-build bostadsrätter completed in 2024 averaged SEK 865/m²/yr and SEK 5,115/mo per dwelling (10,250 dwellings, 846 of them småhus) (2024 data, source: SCB table BoRattLgh — rates/figures may have changed since). Compare the listing's avgift per m² with the BRF's årsredovisning
 5. Tomträtt apartments: separate **tomträttsavgäld** (ground rent, increases periodically)
 
 ---
@@ -84,7 +84,7 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
 
 ### Annual property charge — Fastighetsavgift (CAPPED)
 
-**Sweden has a unique CAP-based property charge** (replaced traditional property tax for residential in 2008):
+**Sweden has a unique CAP-based property charge** (the kommunal fastighetsavgift replaced the statlig fastighetsskatt on finished homes from 1 Jan 2008 — Lag 2007:1398 om kommunal fastighetsavgift, in force 1 Jan 2008; the statlig fastighetsskatt, Lag 1984:1052, still applies to e.g. homes under construction and unbuilt plots) (source: riksdagen.se, SFS 2007:1398 and SFS 1984:1052):
 
 **Småhus (villa, 2025–2026)**:
 - 0.75 % of taxeringsvärde (assessed value, set at 75 % of the probable market value in the property's värdeområde two years before the taxation year; next småhus taxering 2027, at the 2025 price level) (2026 data, source: Skatteverket)
@@ -108,7 +108,7 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
   - For bostadsrätt: no lagfart and no stämpelskatt; the BRF may charge an överlåtelseavgift (and a pantsättningsavgift) only if its stadgar provide for it, at the level the stadgar set — read them before signing (Bostadsrättslag 1991:614, 7 kap. 14 §; a later wording, Lag 2026:486, in force on a date the government sets, drops the pantsättningsavgift) (2026 data, source: riksdagen.se)
 - **Pantbrev** (mortgage deed): **2 % stämpelskatt on the new inteckning amount** (whole thousands, rounded down) + expeditionsavgift SEK 375 per inteckning (only on new pantbrev; existing pantbrev pass with the property) (2026 data, source: Lantmäteriet)
 - **No general transfer tax** beyond lagfart
-- **Mäklare** (broker): **2–4 %** typical, paid by seller; negotiable
+- **Mäklare** (broker): hired and paid by the seller; no set fee level — commission is negotiated, usually a % of the sale price (flat, tiered, or with a minimum) or a fixed price, quoted incl. moms to a consumer seller (2026 data, source: Fastighetsmäklarinspektionen). Seller-reported fees: 1.0–5.4 % of price / SEK 38,500–120,000 overall, villa 1.0–6.0 % / SEK 50,000–146,000, apartment 1.0–5.0 % / SEK 36,800–100,000 (5th–95th percentile of sales over the preceding two years) (2026 data, source: Hittamäklare by Booli/SBAB, secondary aggregator ⚠️ — compare written quotes)
 
 ### Capital gains
 
@@ -121,15 +121,16 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
 
 - 25 % standard
 - 12 % reduced (restaurant / café service, hotel room letting)
-- 6 % super-reduced (food incl. takeaway from 1 Apr 2026; books; domestic passenger transport)
+- 6 % super-reduced (food incl. takeaway, temporarily cut from 12 % for 1 Apr 2026 – 31 Dec 2027 by Lag 2026:118; 12 % returns on 1 Jan 2028 under Lag 2026:119 (source: riksdagen.se, SFS 2023:200 9 kap.; Prop. 2025/26:55); books; domestic passenger transport)
 - Sale or letting of property, residential or commercial: VAT-exempt
 - Commercial letting: 25 % on the rent only where the landlord opts in (frivillig beskattning, tenant running a VAT-liable business) (2026 data, source: Skatteverket)
 
 ### Future risk
 
-- Periodic political debate about reintroducing classical property tax (would hit Stockholm/Göteborg homeowners hard)
-- Pantbrev system stable
-- No transfer tax changes pending
+- Property-tax debate continues in opposition motions: on 11 Mar 2026 the Riksdag rejected, after a vote, Vänsterpartiet's call for an inquiry to design a fastighetsskatt (motion 2025/26:2783 yrkande 4) and Miljöpartiet's call for an inquiry into a lower fastighetsavgift for owners who carried out energy-efficiency measures (motion 2025/26:3547 yrkande 10) (bet. 2025/26:SkU15 punkt 9, source: riksdagen.se). A tax tied to full value would weigh most on high-value Stockholm/Göteborg homes, which the cap now shields (inference from the cap mechanics above)
+- Lagfart / pantbrev stamp duty: motions to review or cut it (M 2025/26:348; C 2025/26:3184 yrkande 34) were rejected in the same decision (bet. 2025/26:SkU15 punkt 9, source: riksdagen.se)
+- Capital gains on home sales: motions to cut or review the tax (e.g. KD 2025/26:3457) were rejected on 11 Mar 2026 (bet. 2025/26:SkU15 punkt 10, source: riksdagen.se)
+- No transfer-tax or fastighetsavgift change pending: no amendment awaits entry into force in Lag 1984:404 om stämpelskatt vid inskrivningsmyndigheter (consolidated to SFS 2025:391) or Lag 2007:1398 (consolidated to SFS 2012:743) (source: riksdagen.se); none of the tax proposals the government sent out for consultation ahead of the 2027 budget concerns property (source: regeringen.se, published 18 May 2026); the 2027 budget bill, due by 12 Nov 2026 in the election year, had not been tabled as at 2026-11-03 (sources: riksdagen.se, regeringen.se)
 
 ---
 
@@ -140,14 +141,14 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
 - **Hyresreglering** (rent control) — STRICT especially in major cities
 - **Bruksvärdesystem**: rent set by negotiation between Hyresgästföreningen + Fastighetsägarna; newbuilds can use **presumtionshyra** (negotiated rent set for the first 15 years), and since 1 Jan 2026 landlords have more room to adjust it during that period (2026 data, source: Riksdag decision 2025/26:CU5, 19 Nov 2025)
 - **First-hand contract (förstahandskontrakt)** in regulated rental: hard to obtain — Stockholm's Bostadsförmedlingen let 20,861 homes in 2025, with an average queue time of 9.0 years for ordinary rentals and 12.4 years within Stockholms stad (2025 data, source: Bostadsförmedlingen i Stockholm)
-- **Andrahandsuthyrning** (subletting your own bostadsrätt): still needs consent from the BRF board or hyresnämnden and a reason for subletting; before the reform most BRFs granted one year and then often refused further sublets; since 1 Jul 2026 hyresnämnden can grant permission for longer periods than were normally given, and earlier sublets count against a new application only if they were substantial (bostadsrättslagen 7 kap. 11 §; Prop. 2025/26:187; Riksdag decision 2025/26:CU31, 20 May 2026)
+- **Andrahandsuthyrning** (subletting your own bostadsrätt): still needs consent from the BRF board or, if it refuses, time-limited permission from hyresnämnden, which requires a reason for subletting and no justified ground for the BRF to refuse; before the reform, permission was most often given for one year and then in many cases refused even when the reason remained (Prop. 2025/26:187, section 5.1); since 1 Jul 2026 hyresnämnden can grant permission for longer periods than were normally given, and earlier sublets count against a new application only if they were substantial (bostadsrättslagen 7 kap. 11 § as amended by Lag 2026:776; Riksdag decision 2025/26:CU31, 20 May 2026)
 - **Privatuthyrningslag (2026:772)**, in force 1 Jul 2026, replaced lagen (2012:978) om uthyrning av egen bostad, which still governs contracts made under it: covers a private person or dödsbo letting a house or part of a house (e.g. an apartment) as a home, up to two lettings outside their own home; not a hyresrätt sublet and not leisure lets. Rent is agreed freely, but hyresnämnden can cut a rent that is *väsentligt högre* than for comparable homes; 3-month notice for both sides on open-ended contracts (source: SFS 2026:772 via data.riksdagen.se; Riksdag decision 2025/26:CU31, 20 May 2026)
 
 ### Short-let (Airbnb, Booking)
 
-- **Hemförsäkring** disclosure required
-- **BRF approval** typically required for cooperative apartments — most BRFs ban or strictly limit short-let
-- **Stockholm + Göteborg**: no city-level cap yet but BRF rules + tax authority tightening
+- **Hemförsäkring**: check with the insurer how cover applies during the let and whether an uthyrningsskydd add-on is needed; a standard policy normally does not cover theft by the guest or damage the guest does to your belongings, and regular letting can count as förvärvsmässig, which puts disputes with the guest outside the policy's rättsskydd (2026, source: Konsumenternas Försäkringsbyrå "Hyra, låna eller hyra ut – så gäller försäkringarna"; the bureau is a foundation whose board includes Konsumentverket, Finansinspektionen and the insurers' association Svensk Försäkring)
+- **BRF consent** (styrelsens samtycke) is required to let a bostadsrätt in andra hand for independent use; since 1 Jul 2026, letting all or part of a flat the owner does not use as a permanent home (or otherwise to a considerable extent) always counts as independent use. If the board refuses, only hyresnämnden can grant permission, limited in time (bostadsrättslagen 7 kap. 10–11 §§ as amended by Lag 2026:776, source: riksdagen.se)
+- **Stockholm + Göteborg**: no city-level cap — Sweden has no rules restricting short-let supply on housing-supply grounds (see EU 2024/1028 below); for a bostadsrätt the limit is BRF consent (above). Skatteverket can receive data from digital platforms on what hosts were paid and shows it in Mina inkomstuppgifter; the host must still declare any surplus (2026, source: Skatteverket "Hyra ut privatbostad")
 - **EU Regulation 2024/1028** (short-term-rental data sharing): an EU regulation applying since 20 May 2026, so nothing to transpose. A Member State needs a registration procedure only if it requires platforms to transmit data; Sweden has introduced none, and has no rules restricting short-let supply on housing-supply grounds (2026 data, source: Regeringskansliet faktapromemoria 2026/27:FPM1, 14 Oct 2026). Watch: the Commission's proposed affordable-housing regulation COM(2026) 599 (9 Sep 2026) would set an EU framework for local short-let limits; Swedish remiss runs to 14 Nov 2026 (same source)
 - Income tax: standard deduction (schablonavdrag) **SEK 40,000/yr per dwelling** (not per person), plus 20 % of the rent for a villa/ägarlägenhet or the BRF avgift for the let period of a bostadsrätt; rent below that total is effectively tax-free, and any surplus is capital income (2026, source: Skatteverket "Hyra ut privatbostad")
 
@@ -155,7 +156,7 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
 
 - Surplus after the deductions: 30 % tax on capital income (2026 data, source: Skatteverket Belopp och procent 2026)
 - Computed example: villa let for SEK 50,000/yr → deduction 40,000 + 20 % × 50,000 = 50,000 → taxable surplus SEK 0 (rules: Skatteverket "Hyra ut privatbostad")
-- Residential commercial-style rental: subject to standard tax + sometimes moms
+- Hotel-like letting (furnished, more than occasionally, short stays, priced per night or week or with cleaning / linen services): 12 % moms once annual turnover exceeds SEK 120,000 in the calendar year or either of the two years before, counted per co-owner. A home that does not count as a privatbostad (main test: owner or close family use more than half the floor area, 40 % for a tvåfamiljshus) is taxed as näringsverksamhet on bilaga NE (2026, source: Skatteverket "Hyra ut privatbostad")
 
 ---
 
@@ -208,9 +209,9 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
 
 - **Skred (landslides)** — Vänern + Vättern shores, **Göta älv valley** (severe quick-clay zones, similar to Norway), west coast. SGI rates the Göta älv area as Sweden's highest ras/skred risk because of kvicklera (source: SGI)
 - **Översvämning (flooding)** — coastal + lake-shore + river plains; Mälaren risk for Stockholm
-- **Stigande havsnivå** (sea-level rise) — south + west coast (Skåne, Halland, Bohuslän)
-- **Skogsbrand (forest fire)** — increasing climate risk; Västmanland 2014 (the burnt area includes the Hälleskogsbrännan reserve in Sala, Surahammar + Fagersta kommuner; source: Länsstyrelsen Västmanland), Ljusdal 2018 disasters
-- **Radon** — significant in granite areas (Småland, Bergslagen, Uppland, Stockholm bedrock — regional list unverified). Per SGU the drivers are uranium-rich rock (some granites, pegmatites, alum shale), permeable ground (very high values on gravel eskers / grusåsar) and **blåbetong** (alum-shale concrete used 1929–1978); many kommuner publish radonriskkartor. Reference level **200 Bq/m³** in homes; radon is found only by measuring, over at least 2 months between 1 Oct and 30 Apr (source: SGU; Strålsäkerhetsmyndigheten)
+- **Stigande havsnivå** (sea-level rise) — mean water level rises mainly along Sweden's southern coasts, where land uplift is slower than sea-level rise; along the Norrland coast faster uplift still lowers it for now (source: SMHI)
+- **Skogsbrand (forest fire)** — increasing climate risk; Västmanland 2014 (the burnt area includes the Hälleskogsbrännan reserve in Sala, Surahammar + Fagersta kommuner; source: Länsstyrelsen Västmanland); summer 2018 brought Sweden's most extensive fires in modern times: 25,000 ha burnt, nearly ten times the 2000s average, and the Ljusdal kommun fires (Gävleborg), which began on 14 Jul 2018 after a lightning strike, covered 9,500 ha (source: SOU 2019:7 Skogsbränderna sommaren 2018)
+- **Radon** — per SGU the drivers are uranium-rich rock (some granites, pegmatites, alum shale), permeable ground (very high values on gravel eskers / grusåsar) and **blåbetong** (alum-shale concrete used 1929–1978); uranium-rich alum shale occurs in Skåne, Västergötland, Östergötland, Öland, Närke and along the mountain range. SGU's radon pages name no granite regions: check SGU's "Gammastrålning, uran" map viewer and the kommun's radonriskkarta (many kommuner publish one), and note that a house leaky against the ground can exceed the reference level even in a lågriskområde. Reference level **200 Bq/m³** in homes; radon is found only by measuring, over at least 2 months between 1 Oct and 30 Apr; SSM estimates close to 400,000 dwellings exceed the reference level (no data year given, SSM page updated 4 Sep 2026; sources: SGU; Strålsäkerhetsmyndigheten)
 - **Earthquake** — very low (Sweden on stable Baltic Shield)
 - **Storm/strong wind** — Atlantic depressions Skåne, Halland; the north is exposed too. SMHI storm list: Gudrun (7 Jan 2005, gusts 42.0 m/s), Ingunn (1 Feb 2024, gusts 58.7 m/s, return period >100 yrs), Johannes (27 Dec 2025, Gästrikland + Hälsingland, gusts 47.1 m/s, return period >50 yrs, long power cuts); Hans (6–11 Aug 2023) was an extreme-rain event (source: SMHI)
 - **Strandskyddszon** (shoreline protection): 100 m from the shoreline on land + water by default; länsstyrelsen can extend it to 300 m (Miljöbalken 7 kap. 13–18 k §§) — restricts construction near waters. Since 1 Jul 2025 lakes ≤1 ha and watercourses ≤2 m wide have no general strandskydd, but länsstyrelsen can impose up to 100 m in individual cases; dispens via the kommun (some areas länsstyrelsen) (source: Boverket; Naturvårdsverket)
@@ -220,13 +221,13 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
 
 | Era | Hazards |
 |---|---|
-| **Pre-1960s** | Lead paint, asbestos, weak insulation |
-| **1965–1974 "miljonprogrammet"** | Panel concrete, asbestos in joints, PCB in fogmassa (1956–1973 builds), energy-inefficient — major retrofit cost |
+| **Pre-1960s** | Lead paint (unverified: no Swedish authority source located; test before sanding or stripping old paint), asbestos (assume present, see below), weak insulation; blåbetong possible from 1929 (source: SGU) |
+| **1965–1974 "miljonprogrammet"** | Panel concrete, asbestos in joints, PCB in fogmassa (1956–1973 builds), energy-inefficient — major retrofit cost. 1,005,578 dwellings were built 1965–1974, close to a fifth of the housing stock, a third of them villas and other småhus (source: Boverket, page updated 2 Dec 2025) |
 | **1974–1989** | Asbestos likely until the 1982 ban, occasionally later; improving insulation |
 | **1989–2000** | Better insulation, modern wiring; PCB not expected (all new PCB use banned since 1978) |
-| **Post-2008** | BBR energy rules (BFS 2011:6; energy use determined per BEN, BFS 2016:12); BBR 29 (BFS 2020:4, in force 1 Sep 2020, older rules allowed for bygglov applications filed before 1 Sep 2021) moved the energy requirement to a primärenergital (source: Boverket) |
-| **Post-2017 nZEB** | Low-energy required for new builds |
-| **From 1 Oct 2026** | BFS 2026:9 energy rules (nZEB + zero-emission building definitions) replace BBR; older BBR still allowed for bygglov applications filed before 1 Oct 2027 |
+| **Post-2008** | BBR energy rules (BFS 2011:6; energy use determined per BEN, BFS 2016:12) (source: Boverket) |
+| **Post-2017** | Energy requirement as a primärenergital (EPpet, kWh/m² Atemp per year): BBR 25 (BFS 2017:5, in force 1 Jul 2017; older rules allowed for bygglov applications filed before 1 Jul 2018) set småhus 90, flerbostadshus 85, lokaler 80 with primärenergifaktorer; BBR 29 (BFS 2020:4, in force 1 Sep 2020; older section 9 rules allowed for bygglov applications filed before 1 Sep 2021) switched to viktningsfaktorer per energibärare and set småhus 90–100 by size, flerbostadshus 75, lokaler 70, with småhus Um 0.40 → 0.30 W/m²K (source: Boverket, BFS 2017:5 + BFS 2020:4) |
+| **From 1 Oct 2026** | BFS 2026:9 energy rules (nZEB + zero-emission building definitions) replace BBR; older BBR still allowed for bygglov applications filed before 1 Oct 2027, provided all the older rules are applied (2026 data, source: Boverket, BFS 2026:9 transitional provisions) |
 
 **Asbestos**: assume present in buildings built up to 1982, when Sweden banned it; stockpiled or imported products can turn up in later buildings (source: Arbetsmiljöverket). **PCB in fogmassa** (caulking, expansion joints) and anti-slip floor compound: owners of buildings built or renovated 1956–1973 must inventory them, but one- and two-dwelling houses owned by private individuals (småhus) are not covered by these rules; all new PCB use banned since 1978 (source: Naturvårdsverket). **Blåbetong** (alum-shale concrete, used 1929–1978) raises indoor radon (source: SGU).
 
@@ -235,11 +236,11 @@ Kommun / district averages, not parcel values. Bostadsrätt = broker-reported sa
 | Document | Required because | Validity |
 |---|---|---|
 | **Energideklaration** (energy declaration) | Before any sale of a building (Lag 2006:985 6 §); energy class must appear in the ad; for a bostadsrätt the BRF holds it and the seller shows it; new EPBD rules from 1 Oct 2026, class A0 since 25 May 2026 | 10 years; no fixed fine: Boverket can order it under vite, and a buyer refused one may commission it at the seller's cost within 6 months of tillträde (2026 data, source: Boverket) |
-| **Lagfartsbevis** | Title verification | At sale |
-| **Fastighetsutdrag** (property extract) | All sales | At sale |
+| **Lagfart** (title registration at Lantmäteriet) | Buyer applies with the original köpehandling; for purchases from 1 Jul 2026 the buyer needs a Swedish personnummer, samordningsnummer or organisationsnummer, and a legal-person buyer must show its verklig huvudman registration | Within 3 months of the purchase (2026 data, source: Lantmäteriet) |
+| **Fastighetsutdrag** (extract from Lantmäteriet's fastighetsregistret) | Checks that the seller is the registered owner; also shows rights attached to the property, buildings, taxering and plans such as detaljplan or naturreservat; registerkarta boundaries can be imprecise and the förrättningsakt prevails (source: Lantmäteriet) | Order a fresh one before signing |
 | **Besiktning** (independent survey) | NOT mandatory but strongly recommended | Per case |
-| **Stadgar + årsredovisning + senaste årsmöte protokoll** (BRF) | If bostadsrätt | At sale |
-| **Underhållsplan** (maintenance plan, BRF) | If bostadsrätt | At sale |
+| **Stadgar + årsredovisning + senaste årsmöte protokoll** (BRF) | If bostadsrätt — buyer's due-diligence request (curated practice; no statutory source located) | Before signing |
+| **Underhållsplan** (maintenance plan, BRF) | If bostadsrätt — buyer's due-diligence request (curated practice; no statutory source located) | Before signing |
 
 ### BRF financial health (CRITICAL for bostadsrätt buyers)
 
@@ -251,16 +252,16 @@ Before buying any bostadsrätt, demand:
 5. **Avgift per m² historisk** (avgift trend)
 6. **Stora kommande projekt** (planned major repairs — stamb, fasad, tak)
 
-**Red flags**: BRF debt > 70 % of property value, deferred maintenance, multi-year avgift increases, < 10 % own capital.
+**Red flags** (curated buyer heuristics — wisdom, not data; thresholds unsourced): BRF debt > 70 % of property value, deferred maintenance, multi-year avgift increases, < 10 % own capital.
 
 ### Climate change projections (SMHI)
 
 - Annual mean temperature ~+3 °C (RCP4.5) / ~+6 °C (RCP8.5) by 2100 vs 1961–1990, largest rise in the north; the scenarios differ little for 2021–2050 (2015 data, source: SMHI report for Dricksvattenutredningen, AR5/RCP basis — rates/figures may have changed since). Sweden's warming since the 1800s has been twice the global rise of just over 1 °C (source: SMHI)
-- More precipitation: winter floods, summer drought
+- Precipitation: more across Sweden, most in the north, while some scenarios show no or only a slight rise in Götaland's summer rain; heavier extremes, both skyfall and multi-day rain. Days with low river flows fall in the north but rise in the south, most in eastern Götaland; summer soil moisture falls nationwide, milder winters raise winter flows in the north, and spring groundwater may drop, mainly in south-east Sweden (source: Klimatanpassning.se, run by SMHI; pages updated 9 Dec 2025)
 - Sea-level rise: global mean +28–55 cm (SSP1-1.9) to +63–101 cm (SSP5-8.5) by 2100 vs 1995–2014, IPCC AR6 likely range; land uplift offsets it, so mean water level rises mainly in the south while parts of the Norrland coast still see it fall. Per-kustkommun projections adjusted for uplift: `https://www.smhi.se/klimat/framtidens-klimat/stigande-havsnivaer/framtida-medelvattenstand` (IPCC AR6 2021 data, current SMHI reference; source: SMHI)
-- Heat waves: Skåne + central SE more frequent
-- Forest fire risk rising sharply
-- Permafrost retreat: Norrland
+- Heat waves: more frequent and stronger; SMHI calculates that extreme heat seen once in 20 years on average so far could occur every 3–5 years by the end of the century, and 40 °C could occur once in 20 years in southern Sweden. SMHI's definition: a daily maximum of at least 25 °C on at least five days in a row (source: Klimatanpassning.se, SMHI; page updated 22 Apr 2026)
+- Forest fire risk rises in a warmer climate, most in the south and along the Norrland coast, and climate change makes it more likely that the high-risk season starts earlier and lasts longer; 2,000–8,000 fires in skog och mark each year, mostly human-caused (source: Klimatanpassning.se, SMHI; page updated 9 Sep 2026). Close to a doubling of days with high fire risk in south-east Sweden by 2100 (2019 data, source: SOU 2019:7 citing the national risk assessment — rates/figures may have changed since)
+- Permafrost retreat: Norrland (qualitative, not confirmed against an SMHI or SGU source — verify at `https://www.klimatanpassning.se/`)
 
 ---
 
@@ -269,26 +270,26 @@ Before buying any bostadsrätt, demand:
 ### Sources
 
 - **Svenskt Vatten** (national association): `https://www.svensktvatten.se/`
-- Each kommun manages own water + sewer
-- Major: **Stockholm Vatten och Avfall**, **Göteborg Kretslopp och Vatten**, **NSVA** (Nordvästra Skånes Vatten och Avlopp), **VA SYD** (Malmö-Lund)
+- Public water + sewer is the kommun's responsibility under 6 § lag (2006:412) om allmänna vattentjänster (source: Naturvårdsverket). Neighbouring kommuner can share the work: NSVA runs operations as a jointly owned municipal company while each kommunfullmäktige still decides taxor, investments and the verksamhetsområde (source: nsva.se); VA SYD, a kommunalförbund, is huvudman and owner of the public VA facilities in its member kommuner (source: vasyd.se, archived 2026-01-20)
+- Major: **Stockholm Vatten och Avfall**, **Göteborg Kretslopp och Vatten**, **NSVA** (Nordvästra Skånes Vatten och Avlopp, municipal company for Bjuv, Båstad, Helsingborg, Landskrona, Perstorp, Svalöv, Åstorp + Örkelljunga; source: nsva.se), **VA SYD** (kommunalförbund for Malmö, Lund, Burlöv, Eslöv, Lomma and, since 1 Jan 2025, Svedala; also household waste in Malmö + Burlöv; source: vasyd.se, archived 2026-01-20)
 
 ### Verification
 
 - Most populated areas: kommunal mains universal
 - **Glesbygd (rural) + sommarstugor**: often **enskilt avlopp** (BDT + 3-chamber tank + filter)
-- **Recast EU Urban Wastewater Treatment Directive (EU) 2024/3019**: in force since 1 Jan 2025; requires collection + treatment in all urban areas of more than 1,000 inhabitants (source: European Commission DG ENV). Effect on rural enskilt avlopp depends on Swedish transposition — verify with the kommun's miljöförvaltning
+- **Recast EU Urban Wastewater Treatment Directive (EU) 2024/3019**: in force since 1 Jan 2025; requires collection + treatment in all urban areas of more than 1,000 inhabitants (source: European Commission DG ENV). Sweden must transpose it by 31 Jul 2027; Naturvårdsverket's proposal (29 Jan 2026, not yet law) extends the collecting-system duty from 2,000 to 1,000 pe agglomerations, first applied to those of 1,000–2,000 pe on 31 Dec 2035, and inside such an avloppstätort allows an individual system only if it protects health and the environment as well as secondary or tertiary treatment (2026 data, source: Naturvårdsverket). Whether a rural property lies inside such an avloppstätort decides the effect — verify with the kommun's miljöförvaltning
 
 ### Costs
 
 | Scenario | Cost (SEK) |
 |---|---:|
-| Anslutning to mains (anläggningsavgift, villa) | 196,290 mean / 184,779 median (2025) |
+| Anslutning to mains (anläggningsavgift, villa) | 204,954 mean / 192,418 median (2026) |
 | Mains-line extension via kommun | est. 50,000–250,000+ |
 | Enskilt avlopp 3-chamber + filter | est. 80,000–250,000 |
 | Markbädd renovation | est. 60,000–150,000 |
 | Borrad brunn (drilled well) | est. 80,000–150,000 |
 
-The connection fee is the one-off anläggningsavgift in each kommun's VA-taxa, so check the local taxa; highest for a villa in 2025: Sotenäs, Norrtälje, Uddevalla. Mean annual VA usage fee for a villa: SEK 11,658/yr (2025 data, source: Svenskt Vatten "2025 års taxestatistik", industry association covering all 290 kommuner — rates/figures may have changed since). `est.` rows: ranges carried from the 2026-04 research without a published source — get local quotes.
+The connection fee is the one-off anläggningsavgift in each kommun's VA-taxa, so check the local taxa; highest for a villa in 2026: Sotenäs (SEK 422,890), Uddevalla, Vaxholm; lowest Överkalix (SEK 44,000). Mean annual VA usage fee for a villa: SEK 12,537/yr, +8 % on 2025 (2026 data, source: Svenskt Vatten "2026 års taxestatistik", report R2026-02 revised June 2026, industry association covering all 290 kommuner; villa = typhus A, 150 m² on an 800 m² plot, 150 m³ water/yr). The median is computed from Svenskt Vatten's per-kommun file for 2026 (290 kommuner), because the report's figure caption repeats the 2025 median of 184,779. `est.` rows: ranges carried from the 2026-04 research without a published source — get local quotes.
 
 ---
 
@@ -296,18 +297,18 @@ The connection fee is the one-off anläggningsavgift in each kommun's VA-taxa, s
 
 | Work | Cost (SEK) |
 |---|---:|
-| Energideklaration | 4,000–10,000 |
-| Mäklare (seller-paid typically) | 2–4 % of price |
+| Energideklaration | 1,500–4,000 for a villa; 5,000–15,000+ for larger buildings / BRF (Jan 2026 price guide, Offerta quote platform ⚠️, before the 1 Oct 2026 rules); Boverket publishes no price, which the certified energiexpert sets (2026, source: Boverket) |
+| Mäklare (seller-paid; no set fee level, per FMI) | 1.0–5.4 % of price / SEK 38,500–120,000 (5th–95th percentile of seller-reported sales; 2026 data, Hittamäklare by Booli/SBAB ⚠️) |
 | **Lagfart (buyer): stämpelskatt + expeditionsavgift** (juridisk person: 4.25 % + 825) | **1.5 % + 825** |
 | Pantbrev (new mortgage) | 2 % of new pantbrev amount + 375 |
-| Besiktning | 5,000–15,000 |
+| Besiktning (överlåtelsebesiktning, villa) | ~7,000–15,000 (SBAB buyer guide updated 5 Feb 2026, lender guide ⚠️) |
 | **Total transaction cost (buyer, new mortgage at 70 % LTV, no reusable pantbrev)** | **est. ~3 %** of price (1.5 % + 2 % × 0.70 = 2.9 %, plus fees + besiktning) |
 | **Total transaction cost (cash buyer)** | **est. ~2 %** of price (1.5 % + SEK 825 + besiktning) |
-| Enskilt avlopp installation | 80,000–250,000 |
-| Roof concrete tile (150 m²) | 250,000–500,000 |
-| Energy retrofit (Class C → A, classes as defined before the 1 Oct 2026 energideklaration rules) | 600,000–1,500,000 |
-| Asbestos abatement (small house) | 100,000–400,000 |
-| BRF stamb-renovation per apartment | 100,000–300,000 |
+| Enskilt avlopp installation | ~80,000–150,000, some higher: 80,000 is a low estimate and ~150,000 not unusual, depending on technique and site (Avloppsguiden FAQ updated 14 Sep 2026, secondary aggregator ⚠️) |
+| Roof concrete tile (150 m²) | est. ~210,000–480,000 incl. moms (150 m² × SEK 1,400–3,200/m² for a new tiled roof, concrete or clay, materials + labour; the network mean of SEK 1,600/m² gives ~240,000) (2026 price guide, Byggstart contractor platform ⚠️) |
+| Energy retrofit (Class C → A, classes as defined before the 1 Oct 2026 energideklaration rules) | data not publicly available — scope-dependent; price the energideklaration's recommended measures with contractor quotes (verify at https://www.boverket.se/sv/energideklaration/energideklaration/) |
+| Asbestos abatement (small house) | ~5,000–20,000 for a small job such as pipe insulation; ~30,000–100,000+ for a whole roof or facade (Feb 2026 price guide, Offerta quote platform ⚠️); whole-house scope: data not publicly available — get written quotes |
+| BRF stamb-renovation per apartment | ~150,000–400,000; most BRFs land at 250,000–300,000 with a standard bathroom (Sep 2026 price guide, Offerta quote platform ⚠️) |
 
 ## Active fiscal incentives (2025-2026)
 
@@ -329,14 +330,14 @@ The connection fee is the one-off anläggningsavgift in each kommun's VA-taxa, s
 
 - **Bostadsrätt vs äganderätt**: bostadsrätt is share in BRF housing cooperative; ~60 % of urban dwellings in major cities
 - **BRF financial health audit MANDATORY** — bad BRF can wipe out apartment value
-- **BRF stamb-renovation cycle** ~50 years — buildings approaching this can have €25-50k assessment per apartment
+- **BRF stamb-renovation cycle**: new pipes last ~50–70 years per the industry figures Offerta cites — a stambyte costs ~SEK 150,000–400,000 per apartment, most BRFs 250,000–300,000 with a standard bathroom (≈ €13,500–36,000 = SEK 150,000–400,000 / 11.112 per EUR, ECB 22 Oct 2026) (2026 data, Offerta quote platform ⚠️, guide dated 25 Sep 2026)
 - **Hyresreglering** kills long-let yield in major cities
 - **Strandskydd** (shoreline protection): 100 m from the shoreline by default, extendable by länsstyrelsen to max 300 m; no new buildings inside the zone (Miljöbalken 7 kap. 14–15 §§). Since Lag 2025:512, no strandskydd by default at lakes of 1 ha or less or streams 2 m wide or narrower (länsstyrelsen can reinstate it, max 100 m), nor at waters created after 30 Jun 1975 (7 kap. 13 a–13 c §§) (2026 data, source: riksdagen.se)
 - **Tomträtt** apartments (Stockholm, Göteborg older areas): separate ground rent that increases
 - **Bolånetak (belåningstak) 90 %** of market value for a new housing credit such as a purchase loan, up from 85 %, and **tilläggslån** (top-up on an existing mortgage) capped at 80 %, for loans taken from 1 Apr 2026 under lag (2026:226) om begränsning av bostadskrediter, which replaced Finansinspektionen's föreskrifter and allmänna råd (repealed 31 Mar 2026). **Amorteringskrav**: at least 2 %/yr above 70 % LTV, 1 %/yr above 50 % up to 70 %, none at or below 50 %; the extra 1 pp for housing debt above 4.5× gross income is abolished, but on existing loans it ends only when the borrower agrees new terms with the bank. Revaluing the home to change the amortisation pace, or now to raise borrowing room, is as a rule allowed only once every five years (2026 data, sources: Finansinspektionen 2026-03-19, regeringen.se 2026-03-05)
 - **Sommarstuga** (summer cottage) often has different regime + utilities + strandskydd
 - **Fjällstugor** (mountain cabins): even stricter restrictions + reindeer-husbandry concerns (Sami)
-- **Hög radon** especially Stockholm + Småland — measurement before buying recommended
+- **Hög radon**: per SGU the drivers are uranium-rich rock — alum shale, found in Skåne, Västergötland, Östergötland, Öland, Närke and along the fjällkedjan (mountain chain), and some granites and pegmatites, for which SGU names no regions — permeable ground such as gravel eskers (grusåsar), and blåbetong houses (1929–1978); many kommuner publish radonriskkartor; measurement before buying recommended (source: SGU)
 - **Quick clay (kvicklera)** along Göta älv valley + west coast — Skredkommissionen
 - **Andelsboende** rare; common is BRF cooperative
 - **Tax-free first-time buyer schemes** — none currently
@@ -396,9 +397,9 @@ The connection fee is the one-off anläggningsavgift in each kommun's VA-taxa, s
 
 ## Status
 
-✅ **Fully populated** as of 2026-04-25.
+✅ **Fully populated**; fast-changing sections (`--price`, `--tax`, `--rental`, `--work`, `--risks`, `--mains`, Cost benchmarks) re-verified as of 2026-10-23; figures with no current primary source carry their source tier (secondary ⚠️, company-reported) or an est., curated, unverified, data-not-publicly-available or verify-at label (initial population 2026-04-25).
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for cadastre + admin geography (Lantmäteriet, SCB), for the fiscal and statutory figures re-checked on primary sources on 2026-10-23 — fastighetsavgift caps, stämpelskatt + expeditionsavgift, pantbrev, capital gains + uppskov, VAT rates (the food-VAT end date: secondary source only), ROT/RUT and the lag (2026:226) mortgage caps (Skatteverket, Lantmäteriet, regeringen.se, Finansinspektionen) — and for the `--work` figures (SCB, Skatteverket, Bolagsverket). MEDIUM for `--price` (bostadsrätt benchmarks come from a secondary aggregator, Svensk Mäklarstatistik; the Hemnet share is company-reported; the avgift range is unverified), `--rental` (the 2026 statutory changes are primary-sourced; the short-let insurance and tax-enforcement bullets are unverified; EU 2024/1028 has applied directly since 20 May 2026, so there is nothing to transpose — source: European Commission), `--risks` + `--mains` (authority sources re-checked; the regional radon list, part of the build-era table, the BRF red-flag thresholds and the est. mains build costs are unverified) and `--traffic` (verdict bands are curated thresholds). LOW for the market-price rows in Cost benchmarks (energideklaration, mäklare, besiktning, avlopp, roof, retrofit, asbestos, stamb), which have no published source.
+**Confidence**: HIGH for cadastre + admin geography (Lantmäteriet, SCB), for the fiscal and statutory figures re-checked on primary sources on 2026-10-23 — fastighetsavgift caps, stämpelskatt + expeditionsavgift, pantbrev, capital gains + uppskov, VAT rates (the food-VAT cut to 31 Dec 2027 on the SFS texts, Lag 2026:118 + 2026:119), ROT/RUT and the lag (2026:226) mortgage caps (Skatteverket, Lantmäteriet, riksdagen.se, regeringen.se, Finansinspektionen) — for the `--rental` rules and figures (SFS 2026:772 + 2026:776, Prop. 2025/26:187, Riksdag decisions 2025/26:CU5 + CU31, Skatteverket, Bostadsförmedlingen, Regeringskansliet; the hemförsäkring bullet rests on Konsumenternas Försäkringsbyrå; EU 2024/1028 has applied directly since 20 May 2026, so there is nothing to transpose; the hyresreglering bullet is qualitative) and for the `--work` figures (SCB, Skatteverket, Bolagsverket). MEDIUM for `--price` (bostadsrätt benchmarks come from a secondary aggregator, Svensk Mäklarstatistik; the Hemnet share and the Fastighetsbyrån figures are company-reported; the Hemnet sold-price URL rests on archived captures), `--risks` + `--mains` (authority sources re-checked — SGU, SSM, Boverket BFS texts, SOU 2019:7, Klimatanpassning.se, Lantmäteriet, Naturvårdsverket; the VA fees come from Svenskt Vatten 2026, an industry association; lead paint and permafrost are labelled unverified, the BRF document rows and red-flag thresholds are curated practice, the four mains build-cost rows stay est. without a published source, and the Swedish UWWTD transposition rules rest on a Naturvårdsverket proposal that is not yet law) and `--traffic` (verdict bands are curated thresholds). LOW for the market-price rows in Cost benchmarks (energideklaration, mäklare, besiktning, avlopp, roof, asbestos, stamb): each rests on one secondary or commercial source (Offerta, Hittamäklare, SBAB, Avloppsguiden, Byggstart), not a primary source; the energy-retrofit row has no published figure.
 
 ### Per-section verification (overrides playbook-level date)
 
@@ -408,8 +409,14 @@ The connection fee is the one-off anläggningsavgift in each kommun's VA-taxa, s
 | Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave | Hemnet share, Booli owner (SBAB), Blocket Bostad (rentals, Qasa) and the Länsförsäkringar name + URL corrected; agency sites live |
 | Active fiscal incentives (2025-2026) | 2026-10-23 | 2026-10-23 refresh wave | ROT 30 %, RUT 50 % with the SEK 75,000 combined cap, grön teknik, Boverket småhus energy grant and the 0.10 pp bank discount checked against Skatteverket, Boverket, SBAB + Nordea |
 | Verification authorities | 2026-10-23 | 2026-10-23 refresh wave | Kronofogden, Skatteverket and SGU roles corrected; other rows confirmed |
+| `--price` | 2026-10-23 | 2026-10-23 gap-closing pass | SCB Q3 2026 index, the bostadsrätt figures (Svensk Mäklarstatistik, update of 8 Oct 2026; the rural Norrland row stays from the refresh) and the SCB 2025 villa averages re-read; avgift range replaced by SCB 2024 averages in SEK; Min fastighet login and valuation tools corrected; Hemnet sold-price URL (archived captures) and Fastighetsbyrån figures (company-reported) labelled |
+| `--rental` | 2026-10-23 | 2026-10-23 gap-closing pass | SFS 2026:772 and bostadsrättslagen 7 kap. 10–11 §§ (Lag 2026:776) re-read; schablonavdrag SEK 40,000 and 30 % re-confirmed (Skatteverket); hemförsäkring, platform-reporting and 12 % moms (above SEK 120,000) bullets replace the unverified ones; pre-reform sublet benchmark aligned to Prop. 2025/26:187 |
+| `--tax` | 2026-10-23 | 2026-10-23 gap-closing pass | 2008 origin (SFS 2007:1398) and food-VAT window (Lag 2026:118 + 2026:119) read in the SFS texts; mäklare 2–4 % replaced by FMI (no set fee level) plus a labelled Hittamäklare range; Future-risk bullets checked against bet. 2025/26:SkU15 |
+| Cost benchmarks (SE 2026) | 2026-10-23 | 2026-10-23 gap-closing pass | Market-price rows sourced to Offerta, Hittamäklare + FMI, SBAB, Avloppsguiden and Byggstart (secondary ⚠️, 2026); energy retrofit is data not publicly available; lagfart + pantbrev (Lantmäteriet) and both est. totals hold |
+| `--risks` | 2026-10-23 | 2026-10-23 gap-closing pass | Ljusdal 2018 (SOU 2019:7); radon regions replaced by SGU's alum-shale list; primärenergital start corrected to BBR 25 (BFS 2017:5); BFS 2026:9 transition confirmed; climate bullets from Klimatanpassning.se (SMHI); lagfart + fastighetsutdrag rows sourced to Lantmäteriet; lead paint, permafrost, BRF document rows and red-flag thresholds labelled |
+| `--mains` | 2026-10-23 | 2026-10-23 gap-closing pass | VA SYD (archived 2026-01-20) and NSVA's member kommuner confirmed; Svenskt Vatten 2026 edition: mean 204,954 / median 192,418 (computed from the per-kommun file), usage fee 12,537; UWWTD transposition deadline 31 Jul 2027 (Naturvårdsverket); the Swedish rules are a proposal, not yet law; four build-cost rows stay est. |
 
-Sections without a row default to the Status footer date (2026-04-25). Country profile, `--price`, `--traffic`, `--tax`, `--rental`, `--risks`, `--mains`, Cost benchmarks, Caveats, Quirks, Source URL templates and Reddit / forum sources were partly re-checked on 2026-10-23 but keep unverified items (see Update history), so they keep the footer date.
+Sections without a row default to the Status footer date, except Country profile, `--traffic` (5-year re-research cadence), Caveats, Quirks, Source URL templates and Reddit / forum sources: they were partly re-checked on 2026-10-23 but keep unverified items (see Update history), so they keep the initial-population date (2026-04-25).
 
 ## Extension TODOs
 
@@ -425,7 +432,7 @@ Sections without a row default to the Status footer date (2026-04-25). Country p
 ## Update history
 
 - **2026-04-25** — Initial population
-- **2026-10-23** — Refresh wave: fast-changing sections + audit findings re-checked against primary sources (secondary sources labelled). Counts per section are changed / confirmed / unverifiable. The playbook-level date is not re-stamped because `--price`, `--tax`, `--rental`, `--risks` and `--mains` keep unverified items.
+- **2026-10-23** — Refresh wave: fast-changing sections + audit findings re-checked against primary sources (secondary sources labelled). Counts per section are changed / confirmed / unverifiable. Playbook-level date re-stamped 2026-10-23: every fast-changing section is now re-verified — `--work` in the refresh, `--price`, `--rental`, `--tax`, Cost benchmarks, `--risks` and `--mains` in the gap-closing pass; Country profile, `--traffic` (5-year re-research cadence), Caveats, Quirks, Source URL templates and Reddit / forum sources stay refreshed, not re-verified.
   - Country profile (3 / 3 / 2): parish unit → distrikt; EUR/SEK re-based on ECB reference rates; minority languages per Språklag (2009:600). Unverified: postcode examples, fastighetsbeteckning pattern.
   - `--price` (28 / 3 / 5): benchmark table rebuilt (bostadsrätt: Svensk Mäklarstatistik, secondary; villa: SCB 2025); Hemnet share ~90 % → 82 % of 2025 sales (company-reported); Booli owner Schibsted → SBAB; Blocket Bostad now rentals only (Qasa); SCB småhus price index Q3 2026 added. Unverified: avgift range, Fastighetsbyrån "(largest)", Hemnet sold-search feature + URL pattern, Min fastighet BankID login, "Booli Pris" name.
   - `--traffic` (3 / 2 / 2): Trafikverket remit; dead NVDB URL → Lastkajen + Vägtrafikflödeskartan; ÅDT definition. Unverified: verdict bands (curated thresholds), E-road anchor.
@@ -440,3 +447,4 @@ Sections without a row default to the Status footer date (2026-04-25). Country p
   - Quirks to know (2 / 1 / 2): klimatdeklaration basis; SBC = Sveriges BostadsrättsCentrum (was "Specialfastigheter"). Unverified: Riksbyggen/HSB, Förenade Hyresgäster.
   - Common listing platforms (4 / 3 / 0); Verification authorities (3 / 5 / 0); Source URL templates (3 / 7 / 2: MSB → MCF, SGU row relabelled, Trafikverket ÅDT + Lastkajen rows added; Hemnet + Booli return 403 to automated requests); Reddit / forum sources (1 / 1 / 5: Bostadsrätterna described as a BRF organisation; subreddits blocked, two forum names untraced).
   - Status: EU 2024/1028 wording corrected (audit); Confidence recomputed; per-section verification table added.
+  - Gap-closing pass (confirmed / changed / relabelled): `--price` 29 / 3 / 2; `--rental` 8 / 4 / 0; `--tax` 2 / 2 / 0; Cost benchmarks 0 / 7 / 1; `--risks` 2 / 8 / 5; `--mains` 2 / 4 / 0 — all closed; total 43 / 28 / 8. Main changes: avgift range → SCB 2024 averages in SEK, Min fastighet login and valuation tools corrected, Hemnet sold-price URL (archived captures) and Fastighetsbyrån figures (company-reported) labelled; hemförsäkring, platform reporting, 12 % moms above SEK 120,000 and BRF consent (Lag 2026:776) re-sourced; 2008 origin and food-VAT window on the SFS texts, mäklare 2–4 % → FMI (no set fee level) + Hittamäklare range; market-price cost rows sourced to secondary price guides (⚠️), energy retrofit → data not publicly available; Ljusdal 2018 (SOU 2019:7), radon regions → SGU alum-shale list, primärenergital start corrected to BBR 25 (2017), climate bullets from Klimatanpassning.se, lead paint, permafrost and BRF rows labelled; VA SYD + NSVA confirmed, Svenskt Vatten 2026 figures (mean 204,954 / median 192,418), UWWTD transposition deadline 31 Jul 2027 (Naturvårdsverket proposal). Caveats: radon line aligned with SGU (alum-shale regions; no granite regions named) and stamb line with the Offerta 2026 range.
