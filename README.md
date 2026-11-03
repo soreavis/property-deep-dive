@@ -334,11 +334,11 @@ The GitHub Actions in `.github/workflows/` automate the read-only parts:
 
 | Workflow | Cadence | What it does |
 |---|---|---|
-| `url-liveness.yml` | weekly (Mon 09:17 UTC) | `scripts/url-liveness.py` (aiohttp) over every URL in every Markdown file in the repo — ~6,600 URLs in ~17 min cold / ~5 min warm, robots.txt + per-host throttling + Retry-After, 30-day result cache, 3-run rolling fail-streak before a URL counts as dead; opens/updates a rolling issue when the score falls below 90%. Re-enabled 2026-05-26 after the Python rewrite replaced the serial-bash checker that hit the 90-min cap |
+| `url-liveness.yml` | weekly (Mon 09:17 UTC) | `scripts/url-liveness.py` (aiohttp) over every URL in every Markdown file in the repo — ~10,000 URLs (weekly runs took 16–19 min in Oct–Nov 2026), robots.txt + per-host throttling + Retry-After, 30-day result cache, 3-run rolling fail-streak before a URL counts as dead; opens/updates a rolling issue when the score falls below 90%. Re-enabled 2026-05-26 after the Python rewrite replaced the serial-bash checker that hit the 90-min cap |
 | `health-report.yml` | monthly | parses `Last verified` dates, renders decay matrix with cadence-tier column, posts to pinned issue |
 | `tier-a-refresh.yml` | quarterly | opens tracking issue listing the 16 Tier-A countries due for refresh |
 | `tier-b-refresh.yml` | semi-annual | opens tracking issue listing the 38 Tier-B countries due for refresh |
-| `tier-c-refresh.yml` | annual | opens tracking issue listing the 49 Tier-C countries due for refresh |
+| `tier-c-refresh.yml` | annual | opens tracking issue listing the 72 Tier-C countries due for refresh |
 | `feed-watcher.yml` | daily | EC Press Corner + EP adopted texts + EP legislative procedures + CJEU press feeds → opens issue when property-relevant items land |
 
 These are **detection-only**; the fix step (re-research, URL replacement, regulatory-watch entry) still requires human + Claude in the loop.
