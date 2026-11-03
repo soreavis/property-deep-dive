@@ -15,7 +15,7 @@
 /plugin install property-deep-dive@property-deep-dive
 ```
 
-The skill is now invocable via `/property-deep-dive` in any Claude Code session. The plugin manifest pins to a specific [CalVer](#pinning-to-a-specific-release) release — you'll get updates only when a new version is published, not on every commit.
+The skill is now invocable as `/property-deep-dive:property-deep-dive` (Claude Code names plugin skills `/<plugin>:<skill>`), or just describe what you want and Claude loads it. The short `/property-deep-dive` used in the examples is the name when the skill is installed as a personal skill (see the manual symlink section). The plugin manifest pins to a specific [CalVer](#pinning-to-a-specific-release) release — you'll get updates only when a new version is published, not on every commit.
 
 ## Claude Cowork (in-app)
 
