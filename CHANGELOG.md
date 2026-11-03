@@ -178,6 +178,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - feat(maintenance): fetch circuit breaker and a monthly report-only maintenance plan ([#547](https://github.com/soreavis/property-deep-dive/pull/547)) — by @soreavis
 
+- fix(playbooks): add the may-have-changed suffix to 90 data tags two or more years old ([#548](https://github.com/soreavis/property-deep-dive/pull/548)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
