@@ -64,6 +64,32 @@ class Ledger(unittest.TestCase):
         self.assertEqual(entry["d"], "2026-11-03")
         self.assertEqual([led["urls"][i] for i in entry["u"]], ["https://www.vero.fi/new"])
 
+    def _pages(self, text):
+        return lambda urls: {u: EL.SV.FetchResult(u, "OK", text=text) for u in urls}
+
+    def test_agent_confirmed_lines_enter_only_when_a_script_reads_them(self):
+        line = "- Transfer tax **3 %** of price (2026 data, source vero.fi)"
+        real = EL.fetch_all
+        try:
+            EL.fetch_all = self._pages("Varainsiirtovero 3 % kiinteistön kauppahinnasta.")
+            self.assertEqual(EL.add_confirmed_lines("fi", [(line, ["https://www.vero.fi/a"])], "2026-12-01"), 1)
+            EL.fetch_all = self._pages("No such figure on this page.")
+            self.assertEqual(EL.add_confirmed_lines("fi", [(line, ["https://www.vero.fi/b"])], "2026-12-01"), 0)
+            self.assertEqual(EL.add_confirmed_lines("fi", [("- a line not in the playbook 5 %", ["https://x"])], "2026-12-01"), 0)
+        finally:
+            EL.fetch_all = real
+
+    def test_inline_urls_are_the_fallback_evidence(self):
+        self.assertEqual(EL.inline_urls("rate 3 % (source `https://www.vero.fi/x`)"), ["https://www.vero.fi/x"])
+
+    def test_named_sources_resolve_through_the_source_table(self):
+        lines = [("", "## Source URL templates"), ("", "| Source | URL |"), ("", "|---|---|"),
+                 ("", "| **Destatis** HPI | `https://www.destatis.de/hpi` |"), ("", "## Status")]
+        named = EL.named_sources(lines)
+        self.assertEqual(named, [("Destatis", "https://www.destatis.de/hpi")])
+        self.assertEqual(EL.candidate_urls("index +3.1 % (2026 data, source Destatis)", named), ["https://www.destatis.de/hpi"])
+        self.assertEqual(EL.candidate_urls("index +3.1 % (source destatistics blog)", named), [])
+
     def test_settled_lines_need_no_agent(self):
         self.assertTrue(EL.SETTLED.search("- Notary fee ~est. 500 (no tariff)"))
         self.assertTrue(EL.SETTLED.search("total (computed: 3 % + €362)"))

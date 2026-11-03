@@ -119,15 +119,7 @@ def cmd_add(paths: list[Path], date: str) -> int:
                 k = line_key(line)
                 if k not in current[cc] or not salient_values(line):
                     continue  # superseded later, or no figure to re-check
-                idx = []
-                for u in urls:
-                    if u not in led["urls"]:
-                        led["urls"].append(u)
-                    idx.append(led["urls"].index(u))
-                prev = led["lines"].get(k)
-                if prev and prev["d"] > date:
-                    continue
-                led["lines"][k] = {"u": sorted(set(idx) | set(prev["u"] if prev else [])), "d": date}
+                put(led, k, urls, date)
                 added += 1
     for cc, led in ledgers.items():
         save(cc, led)
@@ -135,37 +127,81 @@ def cmd_add(paths: list[Path], date: str) -> int:
     return 0
 
 
+def inline_urls(line: str) -> list[str]:
+    return [(m.group("url") or m.group("bare")).rstrip(".,;:)") for m in SV.CITE_RE.finditer(line)]
+
+
+SOURCE_TABLES = re.compile(r"^## .*(Source URL|Verification authorit|Primary sources)", re.I)
+
+
+def named_sources(lines: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """(distinctive name word, URL) from the playbook's source / authority tables, so a line that
+    says "source: Destatis" can be checked against the Destatis row's page by script."""
+    out, on = [], False
+    for _, line in lines:
+        if line.startswith("## "):
+            on = bool(SOURCE_TABLES.match(line))
+        elif on and line.startswith("|"):
+            urls = inline_urls(line)
+            name = re.sub(r"[*`]", "", line.strip("|").split("|")[0]).strip()
+            word = next((w for w in re.findall(r"[^\W\d_][\w-]{2,}", name) if w[0].isupper() or not w.isascii()), None)
+            if urls and word:
+                out.append((word, urls[0]))
+    return out
+
+
+def candidate_urls(line: str, named: list[tuple[str, str]]) -> list[str]:
+    urls = inline_urls(line)
+    if urls:
+        return urls
+    return list(dict.fromkeys(u for w, u in named if re.search(rf"(?<![\w-]){re.escape(w)}(?![\w-])", line)))[:3]
+
+
+def covered_values(values: list[dict], urls: list[str], fetches: dict) -> tuple[set[int], dict]:
+    """Indices of the values that sit together on one of the pages (each page may hold its own
+    share of a line that cites several sources), plus the fetch status per URL."""
+    needles = SV.confirm_needles(values)
+    covered, status = set(), {}
+    if not needles or not any(SV.is_confirm_strong(n) for v in needles for n in v):
+        return covered, status
+    for u in urls:
+        fr = fetches.get(u)
+        status[u] = fr.status if fr else "NOT_FETCHED"
+        if not (fr and fr.status == "OK"):
+            continue
+        found = [i for i, v in enumerate(needles) if any(n in fr.text for n in v)]
+        span = SV.min_cover_span(fr.text, [needles[i] for i in found]) if found else None
+        if span is not None and span <= SV.cover_window(len(needles)):
+            covered |= set(found)
+    return covered, status
+
+
+def fetch_all(urls) -> dict:
+    urls = sorted(set(urls))
+    sv = SV.load_sv_config()
+    return asyncio.run(SV.fetch_unique(urls, SV.UL.load_config(SV.UL.read_plugin_version()), sv)) if urls else {}
+
+
 def check(cc: str, touch_date: str | None = None) -> dict:
-    """Machine-check every fast-section line; with touch_date, re-date the confirmed entries."""
-    led, sv = load(cc), SV.load_sv_config()
-    rows = []
-    for section, line in playbook_lines(cc):
+    """Machine-check every fast-section line; with touch_date, re-date the confirmed entries.
+    A line with no ledger entry is tried against the URLs it cites itself, else against the
+    source-table rows whose name it mentions; a hit is ledgered."""
+    led, lines = load(cc), playbook_lines(cc)
+    named, rows = named_sources(lines), []
+    for section, line in lines:
         vals = salient_values(line)
         if not vals or not any(k in section.lower() for k in FAST):
             continue
         e = led["lines"].get(line_key(line))
         if not e and SETTLED.search(line):
             continue
-        rows.append({"section": section, "line": line.strip(), "values": vals,
-                     "urls": [led["urls"][i] for i in e["u"]] if e else [], "ledger_date": e["d"] if e else None})
-    urls = sorted({u for r in rows for u in r["urls"]})
-    fetches = asyncio.run(SV.fetch_unique(urls, SV.UL.load_config(SV.UL.read_plugin_version()), sv)) if urls else {}
+        rows.append({"section": section, "line": line.strip(), "values": vals, "ledgered": bool(e),
+                     "urls": [led["urls"][i] for i in e["u"]] if e else candidate_urls(line, named)})
+    fetches = fetch_all(u for r in rows for u in r["urls"])
     for r in rows:
-        r["status"] = "NO_EVIDENCE" if not r["urls"] else "NOT_CONFIRMED"
-        needles = [v["needles"] for v in r["values"]]
-        if not r["urls"] or not any(SV._is_strong(n) for v in needles for n in v):
-            continue
-        covered: set[int] = set()
-        for u in r["urls"]:
-            fr = fetches.get(u)
-            r.setdefault("fetch", {})[u] = fr.status if fr else "NOT_FETCHED"
-            if not (fr and fr.status == "OK"):
-                continue
-            found = [i for i, v in enumerate(needles) if any(n in fr.text for n in v)]
-            span = SV.min_cover_span(fr.text, [needles[i] for i in found]) if found else None
-            if span is not None and span <= SV.COVER_WINDOW:
-                covered |= set(found)  # this page holds its share of the line's figures together
-        if len(covered) == len(needles):
+        r["status"] = "NOT_CONFIRMED" if r["urls"] else "NO_EVIDENCE"
+        covered, r["fetch"] = covered_values(r["values"], r["urls"], fetches)
+        if covered and len(covered) == len(SV.confirm_needles(r["values"])):
             r["status"] = "CONFIRMED"
         elif covered:
             r["confirmed_values"] = [r["values"][i]["raw"] for i in sorted(covered)]
@@ -177,10 +213,43 @@ def check(cc: str, touch_date: str | None = None) -> dict:
     confirmed = [r for r in rows if r["status"] == "CONFIRMED"]
     if touch_date and confirmed:
         for r in confirmed:
-            led["lines"][line_key(r["line"])]["d"] = max(touch_date, led["lines"][line_key(r["line"])]["d"])
+            k = line_key(r["line"])
+            if k in led["lines"]:
+                led["lines"][k]["d"] = max(touch_date, led["lines"][k]["d"])
+            else:
+                put(led, k, r["urls"], touch_date)
         save(cc, led)
     return {"country": cc, "fast_lines": len(rows), "confirmed": len(confirmed), "by_section": by,
             "confirmed_rows": confirmed, "worklist": [r for r in rows if r["status"] != "CONFIRMED"]}
+
+
+def put(led: dict, key: str, urls: list[str], date: str) -> None:
+    idx = []
+    for u in urls:
+        if u not in led["urls"]:
+            led["urls"].append(u)
+        idx.append(led["urls"].index(u))
+    prev = led["lines"].get(key)
+    if prev and prev["d"] > date:
+        return
+    led["lines"][key] = {"u": sorted(set(idx) | set(prev["u"] if prev else [])), "d": date}
+
+
+def add_confirmed_lines(cc: str, pairs: list[tuple[str, list[str]]], date: str) -> int:
+    """Ledger lines an agent confirmed WITHOUT patching them, but only those whose figures a
+    script re-reads together on the given page: agent claims never enter the ledger unchecked."""
+    current = {line_key(l): l for _, l in playbook_lines(cc)}
+    pairs = [(l, [u for u in urls if u.startswith("http")]) for l, urls in pairs if line_key(l) in current]
+    fetches = fetch_all(u for _, urls in pairs for u in urls)
+    led, n = load(cc), 0
+    for line, urls in pairs:
+        vals = salient_values(line)
+        covered, _ = covered_values(vals, urls, fetches)
+        if vals and len(covered) == len(SV.confirm_needles(vals)):
+            put(led, line_key(line), urls, date)
+            n += 1
+    save(cc, led)
+    return n
 
 
 def cmd_check(cc: str, out: Path | None) -> int:

@@ -859,7 +859,12 @@ def _is_strong(needle: str) -> bool:
     return len(needle.replace(" ", "")) >= 3
 
 
-COVER_WINDOW = 600  # chars: a table row or a paragraph, not "somewhere on the page"
+COVER_WINDOW = 600  # chars for a 1-2 figure claim: a table row or a paragraph, not "the page"
+COVER_PER_FIGURE, COVER_MAX = 300, 1500  # a 4-figure table row may span more; never the whole page
+
+
+def cover_window(n_values: int) -> int:
+    return min(COVER_MAX, max(COVER_WINDOW, COVER_PER_FIGURE * n_values))
 
 
 def min_cover_span(text: str, values: list[list[str]]) -> int | None:
@@ -877,7 +882,7 @@ def min_cover_span(text: str, values: list[list[str]]) -> int | None:
             return None
     hits.sort()
     need, have, best, lo = len(values), {}, None, 0
-    for hi, (_, end, vi) in enumerate(hits):
+    for _, end, vi in hits:
         have[vi] = have.get(vi, 0) + 1
         while len(have) == need:
             span = end - hits[lo][0]
@@ -890,17 +895,37 @@ def min_cover_span(text: str, values: list[list[str]]) -> int | None:
     return best
 
 
+def confirm_needles(values: list[dict]) -> list[list[str]]:
+    """Needles for machine confirmation. A percentage must match WITH its sign ('3 %', '3,0%'):
+    a bare '3' is noise on any page, '3 %' is a specific token."""
+    out = []
+    for v in values:
+        if not (v.get("salient", True) and v.get("needles")):
+            continue
+        m = re.match(r"\s*(\d{1,3}(?:[.,]\d+)?)\s?%", v["raw"]) if v["type"] == "pct" else None
+        if m:
+            ds = {m[1], m[1].replace(".", ","), m[1].replace(",", ".")}
+            out.append(sorted({f"{d}{sep}%" for d in ds for sep in ("", " ", "\u00a0", "\u202f")}, key=len, reverse=True))
+        else:
+            out.append(v["needles"])
+    return out
+
+
+def is_confirm_strong(needle: str) -> bool:
+    return _is_strong(needle) or "%" in needle
+
+
 def machine_confirmed(claim: ClaimRecord, text: str) -> bool:
-    """True when the cited page holds every salient value of the claim within COVER_WINDOW
-    characters, and at least one value is strong (3+ digits). That is the figure read on its
-    source, not a URL that answered 200, so a maintenance run can skip an agent for it.
-    A missing value, values scattered across the page, or only 1-2 digit needles stay with
-    the agent."""
-    vals = [v["needles"] for v in claim.values if v["salient"] and v["needles"]]
-    if not vals or not any(_is_strong(n) for v in vals for n in v):
+    """True when the cited page holds every salient value of the claim within cover_window()
+    characters, and at least one value is specific (3+ digits, or a percentage with its sign).
+    That is the figure read on its source, not a URL that answered 200, so a maintenance run can
+    skip an agent for it. A missing value, values scattered across the page, or only bare 1-2
+    digit needles stay with the agent."""
+    vals = confirm_needles(claim.values)
+    if not vals or not any(is_confirm_strong(n) for v in vals for n in v):
         return False
     span = min_cover_span(text or "", vals)
-    return span is not None and span <= COVER_WINDOW
+    return span is not None and span <= cover_window(len(vals))
 
 
 def build_prior(claim: ClaimRecord, fetch: FetchResult, sv: SVConfig) -> dict:
