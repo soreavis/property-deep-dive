@@ -91,6 +91,9 @@ _ul_spec.loader.exec_module(url_liveness)
 UL = url_liveness
 
 MD_LINK_RE = re.compile(r"\[(?P<text>[^\]]+)\]\((?P<url>https?://[^)\s]+)\)")
+# Most playbooks cite as "(2026 data, source X `https://…`)", not as markdown links; without this
+# the extractor found zero claims in fi/rs/mx and every figure there fell to an agent.
+CITE_RE = re.compile(MD_LINK_RE.pattern + r"|`(?P<bare>https?://[^`\s]+)`")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*$")
 # Inline stamp: "(2026-05-27 verified; source …)" or "(2026-05-27 stale-marker)". The keyword
 # is followed by ";" in the verified form and ")" in the marker form — match either, so don't
@@ -206,6 +209,11 @@ def _num_needles(raw: str) -> list[str]:
         bare = _thousands_stripped(d)
         if bare:
             out.add(bare)
+            # Most EU statistics offices group thousands with a (no-break / narrow) space:
+            # a claimed '468,500' sits on the page as '468 500'.
+            groups = re.split(r"[.,]", d)
+            for sep in (" ", "\u00a0", "\u202f"):
+                out.add(sep.join(groups))
     return sorted(out, key=len, reverse=True)
 
 
@@ -474,7 +482,7 @@ def extract_claims(
             if hm:
                 section = hm.group(2).strip()
                 continue
-            if "](http" not in line:
+            if "](http" not in line and "`http" not in line:
                 continue
             if any(sk in section.lower() for sk in sv.skip_headings):
                 continue
@@ -488,10 +496,10 @@ def extract_claims(
             sm = STAMP_RE.search(line)
             if sm:
                 stamp = {"date": sm.group(1), "kind": sm.group(2).lower().replace("re-verified", "verified")}
-            links = list(MD_LINK_RE.finditer(line))
+            links = list(CITE_RE.finditer(line))
             per_link = attribute_values(values, [lm.span() for lm in links])
             for i, (lm, link_values) in enumerate(zip(links, per_link)):
-                url = lm.group("url").rstrip(".,;:)")
+                url = (lm.group("url") or lm.group("bare")).rstrip(".,;:)")
                 host = urlparse(url).netloc
                 tier = source_tier(host, allowlist)
                 if primary_only and tier is None:
@@ -829,6 +837,50 @@ def _is_strong(needle: str) -> bool:
     return len(needle.replace(" ", "")) >= 3
 
 
+COVER_WINDOW = 600  # chars: a table row or a paragraph, not "somewhere on the page"
+
+
+def min_cover_span(text: str, values: list[list[str]]) -> int | None:
+    """Length of the shortest stretch of text holding one needle of EVERY value (the classic
+    minimum-window-cover sweep over all needle positions, O(n log n) for the sort), or None when
+    some value has no needle on the page."""
+    hits = []
+    for vi, needles in enumerate(values):
+        found = False
+        for n in needles:
+            for m in re.finditer(re.escape(n), text):
+                hits.append((m.start(), m.end(), vi))
+                found = True
+        if not found:
+            return None
+    hits.sort()
+    need, have, best, lo = len(values), {}, None, 0
+    for hi, (_, end, vi) in enumerate(hits):
+        have[vi] = have.get(vi, 0) + 1
+        while len(have) == need:
+            span = end - hits[lo][0]
+            best = span if best is None or span < best else best
+            lv = hits[lo][2]
+            have[lv] -= 1
+            if not have[lv]:
+                del have[lv]
+            lo += 1
+    return best
+
+
+def machine_confirmed(claim: ClaimRecord, text: str) -> bool:
+    """True when the cited page holds every salient value of the claim within COVER_WINDOW
+    characters, and at least one value is strong (3+ digits). That is the figure read on its
+    source, not a URL that answered 200, so a maintenance run can skip an agent for it.
+    A missing value, values scattered across the page, or only 1-2 digit needles stay with
+    the agent."""
+    vals = [v["needles"] for v in claim.values if v["salient"] and v["needles"]]
+    if not vals or not any(_is_strong(n) for v in vals for n in v):
+        return False
+    span = min_cover_span(text or "", vals)
+    return span is not None and span <= COVER_WINDOW
+
+
 def build_prior(claim: ClaimRecord, fetch: FetchResult, sv: SVConfig) -> dict:
     salient_needles: list[str] = []
     for v in claim.values:
@@ -869,7 +921,8 @@ def build_prior(claim: ClaimRecord, fetch: FetchResult, sv: SVConfig) -> dict:
     else:
         prior = "WEAK_MATCH"             # only bare 1-2 digit needles matched (noise-prone) — LLM must resolve
     return {"prior": prior, "matched_tokens": matched, "strong_matched": strong_matched,
-            "missing_tokens": missing, "excerpts": excerpts}
+            "missing_tokens": missing, "excerpts": excerpts,
+            "machine_confirmed": machine_confirmed(claim, fetch.text)}
 
 
 # ── Worklist orchestration ───────────────────────────────────────────────────
