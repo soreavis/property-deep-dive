@@ -17,7 +17,7 @@ ISO2: `nz`. Status: ✅ Fully populated (researched 2026-04).
   - **Leasehold** — Cornwall Park (Auckland), Glasgow Crescent, Cashmere Hills; **99-year leases common on Māori land** under Te Ture Whenua Māori Act 1993
   - **Cross-lease** — ~10% of Auckland; clunky shared ownership of section + flat plan
   - **Unit title** — apartments, body corporate
-- **Foreign-buyer ban**: Overseas Investment Amendment Act 2018 — still applies to most overseas persons. No consent needed for Australian or Singaporean citizens (residential or lifestyle land; must be ordinarily resident in NZ if the land is also otherwise sensitive) or for Australian / Singaporean permanent residents ordinarily resident in NZ ([LINZ — Buying residential property to live in](https://www.linz.govt.nz/guidance/overseas-investment/buying-residential-property-live), updated 6 Mar 2026). Off-the-plan apartments in large developments with a developer exemption certificate: overseas buyers may buy before construction is complete but cannot live in the apartment, and the developer may sell up to 60% to overseas people ([LINZ — Investing in apartments](https://www.linz.govt.nz/guidance/overseas-investment/ways-invest/investing-apartments), updated 10 Sep 2025). **$5 million plus house pathway — in force since 6 Mar 2026** (Overseas Investment (National Interest Test and Other Matters) Amendment Act, Royal Assent 19 Dec 2025): Active Investor Plus (AIP), Investor 1 and Investor 2 resident-visa holders can apply for OIA consent to buy residential land with a dwelling for more than NZ$5,000,000, or land under NZ$5M where land + construction exceeds NZ$5M; the District Valuation Roll category must be residential or lifestyle (code starting R or L); land sensitive for other reasons (e.g. next to a beach, river, lake or reserve) is excluded; offers must be conditional on consent; fees NZ$2,040 (existing dwelling, price over $5M) / NZ$3,500 (all other cases); statutory timeframe 15 working days, LINZ aims to decide most within 5 (2026 data, sources: [LINZ — Investing in residential land over $5 million](https://www.linz.govt.nz/guidance/overseas-investment/ways-invest/pathways-migrants-and-visa-holders/investing-residential-land-over-5-million), updated 27 Mar 2026; [LINZ — Reform of the Overseas Investment Act](https://www.linz.govt.nz/our-work/overseas-investment-regulation/reform-overseas-investment-act), updated 28 Aug 2026). One such property per visa holder (secondary, law firm: [Bell Gully OIA update](https://www.bellgully.com/insights/overseas-investment-act-update-door-opens-for-investor-visa-holders-buying-residential-land/), 23 Dec 2025)
+- **Foreign-buyer ban**: Overseas Investment Amendment Act 2018 — still applies to most overseas persons. No consent needed for Australian or Singaporean citizens (residential or lifestyle land; must be ordinarily resident in NZ if the land is also otherwise sensitive) or for Australian / Singaporean permanent residents ordinarily resident in NZ ([LINZ — Buying residential property to live in](https://www.linz.govt.nz/guidance/overseas-investment/buying-residential-property-live), updated 6 Mar 2026). Off-the-plan apartments in large developments with a developer exemption certificate: overseas buyers may buy before construction is complete but cannot live in the apartment, and the developer may sell up to 60% to overseas people ([LINZ — Investing in apartments](https://www.linz.govt.nz/guidance/overseas-investment/ways-invest/investing-apartments), updated 10 Sep 2025). **$5 million plus house pathway — in force since 6 Mar 2026** (Overseas Investment (National Interest Test and Other Matters) Amendment Act, Royal Assent 19 Dec 2025): Active Investor Plus (AIP), Investor 1 and Investor 2 resident-visa holders can apply for OIA consent to buy residential land with a dwelling for more than NZ$5,000,000, or land under NZ$5M where land + construction exceeds NZ$5M; the District Valuation Roll category must be residential or lifestyle (code starting R or L); land sensitive for other reasons (e.g. next to a beach, river, lake or reserve) is excluded; offers must be conditional on consent; fees NZ$2,040 (existing dwelling, price over $5M) / NZ$3,500 (all other cases); statutory timeframe 15 working days, LINZ aims to decide most within 5 (2026 data, sources: [LINZ — Investing in residential land over $5 million](https://www.linz.govt.nz/guidance/overseas-investment/ways-invest/pathways-migrants-and-visa-holders/investing-residential-land-over-5-million), updated 27 Mar 2026; [LINZ — Reform of the Overseas Investment Act](https://www.linz.govt.nz/our-work/overseas-investment-regulation/reform-overseas-investment-act), updated 28 Aug 2026). Only one property per visa holder may be bought in reliance on the visa — any other such property must first be sold; where a partner also holds the visa, each visa may be relied on (2026 data, source: [LINZ — Detailed information for investor visa holders buying a house](https://www.linz.govt.nz/sites/default/files/doc/guidance-investor-visa-holders-long-form-march2026-v3.pdf), 26 Mar 2026)
 
 ## Section: `--price`
 
@@ -26,14 +26,14 @@ ISO2: `nz`. Status: ✅ Fully populated (researched 2026-04).
 - **REINZ (Real Estate Institute of New Zealand) HPI**: `https://www.reinz.co.nz/Web/Web/Data-and-Products/REINZ-HPI-Report.aspx` — monthly, authoritative
 - **Quotable Value (QV)**: `https://www.qv.co.nz/price-index/` — monthly QV House Price Index (average value + 3- and 12-month change by district); QV also carries out council rating revaluations (e.g. Kāpiti Coast, Mackenzie, Waitaki — Oct 2026 QV news), the CV basis for rates
 - **Cotality NZ** (formerly CoreLogic NZ; corelogic.co.nz redirects to cotality.com): `https://www.cotality.com/nz` — separate private provider of dwelling-value and rent indices
-- **Stats NZ**: `https://www.stats.govt.nz/` — house price + rental indices
-- **OneRoof Property Report**: `https://www.oneroof.co.nz/` (NZ Herald)
+- **Stats NZ**: `https://www.stats.govt.nz/` — its Housing topic lists no house price index (use REINZ / QV for prices); it publishes rental price indexes (stock and flow measures of rental property, monthly in Selected price indexes — Sep 2026: stock +0.1% YoY, flow +0.9% YoY, released 16 Oct 2026), property transfer statistics (transfers by New Zealanders and overseas people) and building consents (2026 data, sources [Stats NZ — Housing](https://www.stats.govt.nz/topics/housing/); [Stats NZ — Selected price indexes: September 2026](https://www.stats.govt.nz/information-releases/selected-price-indexes-september-2026/))
+- **OneRoof Property Report**: `https://www.oneroof.co.nz/` — NZME, publisher of the NZ Herald (OneRoof footer "powered by nzme"; NZ Herald © 2026 NZME Publishing Limited; Oct 2026); media-company data, not official statistics
 
 ### Listing platforms
 
-- **Trade Me Property**: `https://www.trademe.co.nz/property` — ~39k listings
-- **realestate.co.nz**: `https://www.realestate.co.nz` — industry-owned, ~35k listings
-- **OneRoof** (NZ Herald) — secondary
+- **Trade Me Property**: `https://www.trademe.co.nz/a/property/residential` (trademe.co.nz/property redirects here) — ~39k listings (2026-04 research figure, no source attached, not re-confirmed — listing platform ⚠️; the archived search page below shows no total count, so read the live search count; for scale, REINZ national inventory from realestate.co.nz month-end data was 34,001 at end-Sep 2026, see below); self-described "New Zealand's largest range of houses and properties for sale" (listing platform ⚠️, [Trade Me — Houses & properties for sale](https://www.trademe.co.nz/a/property/residential/sale), archived 2026-10-26)
+- **realestate.co.nz**: `https://www.realestate.co.nz` — industry-owned: launched in 1996 as a 50/50 joint venture between REINZ and the Auckland Multiple Listed Bureau; in 2005 PPL (Property Page Limited — Bayleys, Barfoot & Thompson, Ray White, Harcourts, LJ Hooker) joined the shareholding (self-described, [realestate.co.nz — About us](https://realestate.co.nz/about/about-us), archived 2026-07-06; the current shareholding split is not stated there). National inventory 34,001 listings at end-Sep 2026 (+10.7% YoY), from realestate.co.nz month-end data (Sep 2026 data, source [REINZ — September 2026 property report release](https://www.reinz.co.nz/Web/Web/News/News-Articles/Market-updates/Measured_national_picture_continues_alongside_strong_regional_results.aspx))
+- **OneRoof** (NZME, publisher of the NZ Herald) — secondary
 - **Homes.co.nz** — sold-price specialty
 
 ### 2026 price benchmarks (REINZ + QV, September 2026)
@@ -101,25 +101,25 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 
 **No central property tax** — rates are local-authority-only.
 
-| City | Annual rates (~2024-2025 est., typical — rates/figures may have changed since) |
+| City | Council rates, residential — 2026/27 rating year unless the row says otherwise |
 |---|---:|
-| Auckland Council | ~0.30% of CV (median ~$3,500) |
-| Wellington | ~0.65% of CV (median ~$4,500) |
-| Christchurch | ~0.60% (median ~$3,800) |
-| Queenstown Lakes | ~0.45% (median ~$5,500) |
+| Auckland Council | $4,375.12 for the average-value home (CV $1,281,500) — ≈0.34% of CV (computed: 4,375.12 / 1,281,500); +7.9% on 2025/26 ($4,054.96) |
+| Wellington City Council | 0.341964 cents per $ of CV incl. GST (general 0.313034 + sector targeted 0.02893) — $3,419.64 on a $1,000,000 CV; excludes the sludge levy, Greater Wellington Regional Council rates (+9.7% average, collected on the WCC invoice) and water (billed by Tiaki Wai from 1 Jul 2026); WCC rates +5.9% average, which includes a 2% average sludge-levy increase |
+| Christchurch City Council | $4,547.11 incl. GST for the average-value home in the draft plan (+7.4% on $4,231.84); $5,307.12 on a $1,000,000 2025 CV (≈0.53%, computed: 5,307.12 / 1,000,000); excludes Environment Canterbury rates; adopted: 7.35% for homeowners (secondary) |
+| Queenstown Lakes | ~0.45% (median ~$5,500) — 2024-2025 est., not re-verified — rates/figures may have changed since; verify at `https://www.qldc.govt.nz/services/rates` |
 
-Figures are estimates — confirm the current year's rates demand against each council's rates schedule (Auckland Council / Wellington City Council / Christchurch City Council / Queenstown Lakes District Council).
+2026 data, sources: Auckland — [AK Have Your Say — Changes to rates, fees and charges](https://akhaveyoursay.aucklandcouncil.govt.nz/annual-plan-2026-2027/changes-rates-fees-charges) (Annual Plan 2026/2027 consultation figure) + [OurAuckland — final rates increase adopted](https://ourauckland.aucklandcouncil.govt.nz/news/2026/07/auckland-council-secures-sustainable-rates-pathway-while-funding-crucial-infrastructure/) (1 Jul 2026: 7.9% for the average-value residential property, as proposed; archived 2026-07-02); Wellington — [WCC — Rates for 2026/2027](https://wellington.govt.nz/property-rates-and-building/rates/rates-explained/rates-for-current-rating-year) + its rates-in-the-dollar PDF (2026/27 rates use the 1 Sep 2024 revaluation; next city-wide revaluation 2027); Christchurch — [CCC Draft Annual Plan 2026/27 — rates proposal](https://letstalk.ccc.govt.nz/annualplan/how-we-propose-fund-activities-services-and-projects) (draft, Feb 2026) + adopted 7.35% per [Chris Lynch Media](https://www.chrislynchmedia.com/news-items/christchurch-homeowners-face-7-35-percent-rates-rise-as-council-backs-cathedral-funding/) (24 Jun 2026, secondary). Fixed per-property charges make the effective % of CV fall as CV rises (CCC draft: $1,874.81 on a $300,000 CV = 0.62% vs $24,920.30 on $5,000,000 = 0.50%); a specific property's rates are on the council's property search.
 
-**Rates frozen** in some councils 2024-2025 due to crisis politics — not matched to a named council annual plan; verify with the council — rates/figures may have changed since.
+**Rates rising, not frozen, at the three city councils above for 2026/27**: average increases Auckland +7.9% (average-value residential), Wellington City +5.9% (WCC rates only, incl. the sludge-levy rise), Christchurch +7.35% for homeowners as adopted (secondary; +7.4% in the draft) (2026 data, sources above). Other councils: check the council's annual plan.
 
 **Auckland — short-term letting shifts the rating category**: peer-to-peer STR moves the property onto a graduated business-rating share of general rates + CATTR once it is let 29+ nights in the 1 Jul – 30 Jun year; the Accommodation Provider Targeted Rate (APTR) itself has been suspended since 2020 and is NOT reinstated for 2026/2027. Bands and deadlines in `--rental` § Auckland (2026-08-07 verified, source: [Auckland Council — Accommodation Provider Targeted Rate](https://www.aucklandcouncil.govt.nz/en/property-rates-valuations/accommodation-provider-targeted-rate.html))
 
 ### Transaction taxes
 
-- **NO STAMP DUTY** (abolished 1999) — UNIQUE in OECD; Te Pāti Māori proposes a 5% residential stamp duty (election proposal only — see § Future risk)
-- Legal fees: $1,500–$3,000
-- LIM report: $300–$500
-- Building report: $500–$1,000
+- **NO STAMP DUTY**: stamp duty, including conveyance duty on land transfers (Part 2 of the Stamp and Cheque Duties Act 1971), was repealed on 20 May 1999 by s 6 of the Stamp Duty Abolition Act 1999 (1999 No 61) (sources: [legislation.govt.nz — Stamp and Cheque Duties Act 1971](https://legislation.govt.nz/act/public/1971/0051/latest/whole.html), version as at 1 Apr 2025, archived 2025-11-19; [Stamp Duty Abolition Act 1999](https://www.legislation.govt.nz/act/public/1999/61/en/latest/), archived 2026-08-04). The Real Estate Authority's list of additional buying costs names lawyer / conveyancer fees, LIM + building inspection reports, bridging finance and moving costs — no transfer duty among them (2026 data, source: [settled.govt.nz — Thinking about your finances](https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/)). Te Pāti Māori proposes a 5% residential stamp duty (election proposal only — see § Future risk)
+- Legal fees: ~$1,500–$3,000 est. (2026-04 research range, no primary source; calibration: a listing-platform guide gives "Lawyer's fees ($800+)" — Trade Me ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since); get quotes from a lawyer or registered conveyancer
+- LIM report: set by each council — e.g. $575.50 residential at Wellington City Council (2026/27, incl. GST; fast-track +$288) (2026 data, source: [WCC Annual Plan 2026/27 — fees and user charges](https://wellington.govt.nz/-/media/news-and-events/news-and-information/news/files/2026/annual-plan-2026-27-fees-and-user-charges.pdf)); other councils differ — check the council's fees schedule
+- Building report: ~$500–$1,000 est. (2026-04 research range, no primary source; calibration: a Trade Me guide gives "from $400" ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since)
 
 ### Capital gains tax — BRIGHT-LINE TEST
 
@@ -128,9 +128,9 @@ Figures are estimates — confirm the current year's rates demand against each c
 | Bright-line period | When applicable |
 |---|---|
 | **2 years** | Property sold on/after 1 Jul 2024 (current; was 5/10) (2026-10-23 verified, source: [IRD — bright-line test](https://www.ird.govt.nz/property/buying-and-selling/when-you-need-to-pay/the-brightline-test)) |
-| 5 years | Acquired 29 Mar 2018 – 26 Mar 2021, sold before 1 Jul 2024 (2024 data, source IRD) |
-| 10 years (5 for qualifying new builds) | Acquired on/after 27 Mar 2021, sold before 1 Jul 2024 (2024 data, source IRD) |
-| 2 years | Earlier regime for acquisitions before 29 Mar 2018 — start date not verified; verify at https://www.ird.govt.nz/property/buying-and-selling/when-you-need-to-pay/the-brightline-test/property-sold-before-1-july-2024 |
+| 5 years | Acquired 29 Mar 2018 – 26 Mar 2021, sold before 1 Jul 2024 (2026 data, source: [IRD — property sold before 1 July 2024](https://www.ird.govt.nz/property/buying-and-selling/when-you-need-to-pay/the-brightline-test/property-sold-before-1-july-2024), updated 21 Aug 2025) |
+| 10 years (5 for qualifying new builds) | Acquired on/after 27 Mar 2021, sold before 1 Jul 2024 (2026 data, same IRD page) |
+| 2 years | Acquired 1 Oct 2015 – 28 Mar 2018 — the first bright-line test, in force from 1 Oct 2015 (source: [IRD Tax Technical — QB 17/02](https://www.taxtechnical.ird.govt.nz/questions-we-ve-been-asked/2017/qb-1702-income-tax-date-of-acquisition-of-land-and-start-date-for-2-year-bright-line-test), issued 30 Mar 2017; replaced by QB 25/10 + QB 25/11 for disposals on/after 1 Jul 2024) |
 
 - Bright-line period (standard purchase/sale) starts when title transfers to the buyer (generally settlement) and ends when the seller enters a binding sale and purchase agreement; off-the-plan and gifts follow different rules (2026-10-23 verified, source: [IRD — bright-line test](https://www.ird.govt.nz/property/buying-and-selling/when-you-need-to-pay/the-brightline-test))
 - Main home exclusion (sales on/after 1 Jul 2024): applies only if the property was used as the main home for more than 50% of its area AND more than 50% of the bright-line period; not available if already used twice in the 2 years before the sale (2026-10-23 verified, source: [IRD — exclusions](https://www.ird.govt.nz/property/buying-and-selling/when-you-need-to-pay/the-brightline-test/exclusions-to-the-brightline-test), updated 11 Sep 2024)
@@ -138,7 +138,7 @@ Figures are estimates — confirm the current year's rates demand against each c
 
 ### GST
 
-- **15%** on new builds; resale exempt
+- **15%** when a GST-registered seller sells land as part of its taxable activity (IRD's example: a property developer selling a house); no GST when the seller is not GST-registered (e.g. a private owner reselling); generally no GST on the seller's main residence and its curtilage (unless GST was claimed on them); no GST on a dwelling used only as a residential rental for 5+ years (exempt supply); a sale between GST-registered parties is zero-rated (0%) only when the buyer will use the land to make taxable supplies and neither the buyer nor a relative intends to use it as their main residence (2026 data, sources: [IRD — GST on property transactions](https://www.ird.govt.nz/gst/charging-gst/gst-on-property-transactions) + flowchart IR730, May 2025; [IRD — exempt supplies](https://www.ird.govt.nz/gst/charging-gst/exempt-supplies), updated 1 Apr 2026)
 - From **1 Apr 2024**: GST collected by online STR marketplaces at 15% (8.5% passed to non-GST-registered hosts) (2026-10-23 verified, source: [IRD — GST for listed services](https://www.ird.govt.nz/sharing-economy/sellers-of-listed-services/gst-for-listed-services), updated 14 Aug 2025)
 
 ### Interest deductibility (BTL)
@@ -151,16 +151,16 @@ Figures are estimates — confirm the current year's rates demand against each c
 - AU + SG citizens — residential or lifestyle land without consent (treaty exemption); AU + SG permanent residents once ordinarily resident
 - Residence class visa holders who are **ordinarily resident** (lived in NZ for at least the last 12 months + tax resident, present more than 183 days in the last 12 months); residence visa holders not yet ordinarily resident can apply for consent to buy or build one home
 - Off-the-plan apartments in developments whose developer holds an exemption certificate (purchase before construction is complete) ([LINZ — Exemptions from the need for consent](https://www.linz.govt.nz/guidance/overseas-investment/apply-consent-variation-or-exemption/application-forms-and-information-sheets/exemptions-need-consent))
-- **$5 million plus house pathway (in force 6 Mar 2026)**: Active Investor Plus, Investor 1 + Investor 2 resident visa holders can apply for consent to buy residential or lifestyle land (not otherwise sensitive — e.g. not on an island or beside a beach, river, lake or reserve) priced more than NZ$5m, or land + build where land + construction price exceeds NZ$5m; offer must be conditional on consent; interim fees NZ$2,040 (existing dwelling) / NZ$3,500 (all other cases); statutory timeframe 15 working days, LINZ aims for ~5 (2026-10-23 verified, sources: [LINZ — $5m pathway](https://www.linz.govt.nz/guidance/overseas-investment/ways-invest/pathways-migrants-and-visa-holders/investing-residential-land-over-5-million), updated 27 Mar 2026; [LINZ — OIA reform](https://www.linz.govt.nz/our-work/overseas-investment-regulation/reform-overseas-investment-act), updated 28 Aug 2026; [Cabinet paper LEG-26-SUB-0001](https://www.treasury.govt.nz/sites/default/files/2026-05/cabinet-paper-leg-26-sub-0001.pdf)). One-property limit reported by [Bell Gully](https://www.bellgully.com/insights/overseas-investment-act-update-door-opens-for-investor-visa-holders-buying-residential-land/) (secondary) — not stated on the LINZ page
+- **$5 million plus house pathway (in force 6 Mar 2026)**: Active Investor Plus, Investor 1 + Investor 2 resident visa holders can apply for consent to buy residential or lifestyle land (not otherwise sensitive — e.g. not on an island or beside a beach, river, lake or reserve) priced more than NZ$5m, or land + build where land + construction price exceeds NZ$5m; offer must be conditional on consent; interim fees NZ$2,040 (existing dwelling) / NZ$3,500 (all other cases); statutory timeframe 15 working days, LINZ aims for ~5 (2026-10-23 verified, sources: [LINZ — $5m pathway](https://www.linz.govt.nz/guidance/overseas-investment/ways-invest/pathways-migrants-and-visa-holders/investing-residential-land-over-5-million), updated 27 Mar 2026; [LINZ — OIA reform](https://www.linz.govt.nz/our-work/overseas-investment-regulation/reform-overseas-investment-act), updated 28 Aug 2026; [Cabinet paper LEG-26-SUB-0001](https://www.treasury.govt.nz/sites/default/files/2026-05/cabinet-paper-leg-26-sub-0001.pdf)). Only one property per visa holder may be bought in reliance on the visa — any other such property must be sold first; where a partner also holds the visa, each visa may be relied on (2026 data, source: [LINZ — Detailed information for investor visa holders buying a house](https://www.linz.govt.nz/sites/default/files/doc/guidance-investor-visa-holders-long-form-march2026-v3.pdf), Mar 2026)
 
 ### Total transaction cost (buyer side)
 
-- Resale primary: ~$3,000–$5,000 fixed (legal + searches + LIM) — **lowest in OECD**
-- New build with GST: 15% + ~$3,000 fees
+- Resale: ~$2,600–$4,600 est. (computed: legal ~$1,500–$3,000 est. + building report ~$500–$1,000 est. + LIM $575.50 at Wellington City Council; other councils' LIM fees differ) — no stamp duty on top (see § Transaction taxes)
+- New build from a GST-registered developer: GST at 15% applies to the sale (see § GST) + the same fees
 
 ### Future risk
 
-- **7 Nov 2026 general election — party proposals only**: none is government policy, introduced or legislated; any change needs coalition agreement + legislation (per [Nexia — 2026 election tax policies](https://www.nexia.co.nz/2026-election-tax-policies-new-zealand/), 28 Sep 2026, secondary; [KPMG Election 2026 party tax policy tracker](https://assets.kpmg.com/content/dam/kpmgsites/nz/pdf/2026/09/2026-election-policy-tracker-v4.pdf), updated 3 Sep 2026, secondary)
+- **7 Nov 2026 general election** (Saturday 7 November 2026, source: [Electoral Commission — vote.nz](https://vote.nz/), archived 2026-10-23) **— party proposals only**: none is government policy, introduced or legislated; any change needs coalition agreement + legislation (per [Nexia — 2026 election tax policies](https://www.nexia.co.nz/2026-election-tax-policies-new-zealand/), 28 Sep 2026, secondary; [KPMG Election 2026 party tax policy tracker](https://assets.kpmg.com/content/dam/kpmgsites/nz/pdf/2026/09/2026-election-policy-tracker-v4.pdf), updated 3 Sep 2026, secondary)
   - **Labour**: 28% CGT on profit made after 1 Jul 2027 when residential investment or commercial property is sold; family home, farms, inheritances / gifts, KiwiSaver, shares, businesses + personal items excluded; will not reinstate the interest-deduction denial
   - **Greens**: restore the 10-year bright-line + deny landlord interest deductibility; Capital Acquisitions Tax (33%) on assets / gifts received over $1,000,000 (family homes + farms exempt); 2.5% tax on net assets above $10m (family homes exempt)
   - **Te Pāti Māori**: 5% stamp duty on residential sales (first-home buyers under $1m exempt); 33% land-banking tax; 2% vacant-house tax; wealth tax 1.5–2.5% on net assets above $2m
@@ -186,13 +186,13 @@ Figures are estimates — confirm the current year's rates demand against each c
 #### Queenstown Lakes
 
 - **Residential Visitor Accommodation registration** required
-- **Night cap is zone-specific**: e.g. Lower Density Suburban Residential allows a cumulative 90 nights/yr from initial registration (PDP ch.7 std 7.5.18.1, Jun 2023 Decisions Version); operating beyond your zone's standards needs a resource consent - check the parcel's zone on QLDC ePlan (2026 data, source [QLDC STVA](https://www.qldc.govt.nz/services/rates-property/short-term-visitor-accommodation))
+- **Night cap is zone-specific**: e.g. Lower Density Suburban Residential allows a cumulative 90 nights/yr from initial registration (PDP ch.7 std 7.5.18.1, Jun 2023 Decisions Version; non-compliance = restricted discretionary); QLDC's rule sheet applies the same 90-night limit in the Medium Density Residential, Arrowtown Residential Historical Management and Large Lot Residential zones; operating beyond your zone's standards needs a resource consent - check the parcel's zone on QLDC ePlan (2026 data, sources [QLDC STVA](https://www.qldc.govt.nz/services/rates-property/short-term-visitor-accommodation); [QLDC — RVA rules, LDSR / MDR / ARHM / LLR zones](https://www.qldc.govt.nz/media/jj4hluqj/lower-density-suburban-residential-zone.pdf); [QLDC PDP ch.7, Decisions Version Jun 2023](https://www.qldc.govt.nz/media/jqvcbekq/pdp-chapter-07-lower-density-suburban-residential-jun-2023.pdf))
 - **Rates**: no change if available to short-term guests for up to 28 days/yr cumulative; under 180 days = rated Mixed Use (+25-35%); 181-365 days = rated Accommodation (+50-80%); a Homestay = Mixed Use (+25-35%); changes apply from the next rating year beginning 1 Jul (2026 data, source [QLDC STVA](https://www.qldc.govt.nz/services/rates-property/short-term-visitor-accommodation))
 
 #### Auckland
 
 - Unitary Plan visitor accommodation rules
-- **APTR (Accommodation Provider Targeted Rate) suspended since 2020 — NOT reinstated for 2026/2027.** The live cost is a **graduated general-rates + CATTR business uplift** on peer-to-peer STR, nights counted **1 Jul – 30 Jun** (2026-08-07 verified, source: [Auckland Council — Accommodation Provider Targeted Rate](https://www.aucklandcouncil.govt.nz/en/property-rates-valuations/accommodation-provider-targeted-rate.html))
+- **APTR (Accommodation Provider Targeted Rate) suspended since 2020 — NOT reinstated for 2026/2027.** The live cost is a **graduated general-rates + CATTR business uplift** on peer-to-peer STR booked for more than 28 nights, nights counted **1 Jul – 30 Jun** of the previous year (2026/2027 rates use nights booked 1 Jul 2025 – 30 Jun 2026); new providers who do not declare are assessed at the 29–135-night level (75% residential / 25% business) (2026 data, sources: [Auckland Council — Accommodation Provider Targeted Rate](https://www.aucklandcouncil.govt.nz/en/property-rates-valuations/accommodation-provider-targeted-rate.html); suspension year: [OurAuckland — Auckland Council welcomes APTR decision](https://ourauckland.aucklandcouncil.govt.nz/news/2023/05/auckland-council-welcomes-aptr-decision/), 12 May 2023, archived 2026-05-20)
 
 | Nights let (1 Jul – 30 Jun) | Rating split |
 |---|---|
@@ -201,12 +201,13 @@ Figures are estimates — confirm the current year's rates demand against each c
 | **136–180** | 50% residential / 50% business |
 | **more than 180** | 100% business |
 
-- **Declare before 1 Jul** to land on the first instalment bill; **remove the listing before 30 Jun** to stay residential
-- Supreme Court upheld the original 2017/18–2018/19 APTR on **12 May 2023** ([2023] NZSC 53)
+- **Declare before 1 Jul** to land on the first instalment bill (changes apply from 1 Jul and show on the August bill); **permanently stop operating and remove the listing before 30 Jun** to stay residential for the coming rating year (2026 data, source: Auckland Council APTR page above)
+- Supreme Court upheld the original 2017/18–2018/19 APTR on **12 May 2023** (*Auckland Council v C P Group Ltd* [2023] NZSC 53, SC 158/2021: appeal allowed unanimously, Court of Appeal decision set aside and High Court decision reinstated; source [Supreme Court — media release](https://www.courtsofnz.govt.nz/assets/cases/2023/MR-2023-NZSC-53.pdf))
 
 #### Other councils
 
-- Wellington, Christchurch tightening discussions
+- **Wellington City**: the 2026/27 Annual Plan (adopted 25 Jun 2026) adds a short-term accommodation general-rates differential of 2.6× the base rate (commercial differential: 3.7×); as consulted, it covers houses or units let, or available, for stays under one month for more than 60 days in the financial year, other commercial targeted rates still apply, and single rooms, granny flats, sleepouts and dual-key homes that do not meet the criteria are excluded (2026 data, sources [WCC — Annual Plan adopted](https://wellington.govt.nz/news-and-events/news-and-information/our-wellington/2026/06/wellington-city-confirms-lowest-rates-increase-in-six-years), 25 Jun 2026; [Let's Talk Wellington — Key proposal 1: Short-term accommodation](https://www.letstalk.wellington.govt.nz/mahere-tau-annual-plan-202627/key-proposal-1-short-term-accommodation)). Start date: 1News reports "from July next year" (read against its 12 Jul 2026 date: Jul 2027; secondary ⚠️, [1News](https://www.1news.co.nz/2026/07/12/short-term-accommodation-rate-hike-pressures-airbnb-owners-in-wellington/)) — verify with Wellington City Council rates
+- **Christchurch**: District Plan Plan Change 4, rules effective 24 Jul 2023 — hosted visitor accommodation for up to 8 guests generally permitted in most residential and rural zones (notify Council, keep records); unhosted in residential zones up to 60 nights/yr without resource consent (max 8 guests, notify Council, keep records, appoint a local manager), more nights or guests need a resource consent; unhosted in rural zones up to 180 nights/yr; other rules apply in the airport noise contour and to heritage buildings (2023 rules, source [CCC Newsline — Final rules released for short-term visitor accommodation](https://newsline.ccc.govt.nz/news/story/final-rules-released-for-short-term-visitor-accommodation), 26 Jul 2023, archived 2025-05-15 — rates/figures may have changed since; verify at `https://www.ccc.govt.nz/consents-and-licences/resource-consents/residential-and-housing/providing-guest-accommodation`)
 
 ### Tax on rental
 
@@ -223,20 +224,20 @@ Figures are estimates — confirm the current year's rates demand against each c
 ### Sources
 
 - **Work and Income (WINZ)**: `https://www.workandincome.govt.nz/`
-- **Trade Me Jobs**: `https://www.trademe.co.nz/jobs`
-- **Seek.co.nz** — biggest: `https://www.seek.co.nz/`
+- **Trade Me Jobs**: `https://www.trademe.co.nz/a/jobs` (trademe.co.nz/jobs redirects here)
+- **SEEK** — self-described "New Zealand's no. 1 Employment, Career and Recruitment site" (company claim ⚠️, no independent market-share source attached; archived 2026-09-29): `https://nz.seek.com/` (www.seek.co.nz redirects here, archived 2026-10-05)
 - **JobSpace** (`https://jobspace.co.nz/`; myjobspace.co.nz redirects here; NZ-owned since 2006), **Indeed NZ** (`https://nz.indeed.com/`; indeed.co.nz redirects here), **LinkedIn NZ**; JobAve ❌ DEPRECATED — jobave.co.nz does not resolve (dead on 2026-10-23); verify with Seek / Trade Me Jobs
 - **Immigration New Zealand** (work visas for migrants): `https://www.immigration.govt.nz/`
 
 ### Self-employment
 
 - **Sole trader**: IRD + GST (above $60k turnover)
-- **Limited company**: Companies Office; min $1 capital
+- **Limited company**: Companies Office; must have at least one shareholder and issue at least one share — no minimum capital amount is stated (2026 data, source [Companies Office — Issuing shares in a company](https://companies-register.companiesoffice.govt.nz/help-centre/starting-a-company/issuing-shares-in-a-company/))
 - **Working for Families** tax credits
 
 ### Salary benchmarks (2025 est.)
 
-- Median annual gross (est. ranges, no primary source attached — verify against Stats NZ Labour market statistics (income) and current Seek / Trade Me Jobs salary data; 2025 data — rates/figures may have changed since):
+- Median annual gross (est. ranges, no primary source for the city splits — verify against Stats NZ Labour market statistics (income) and current Seek / Trade Me Jobs salary data; 2025 data — rates/figures may have changed since). Calibration anchor: national median weekly earnings from wages and salaries (all wage and salary earners, part-time included) were $1,419 in the June 2026 quarter (+2.8% YoY), ≈ $73,800/yr (computed: $1,419 × 52); median hourly earnings $35.96 (full-time $38.00, part-time $28.49) (2026 data, source [Stats NZ — Labour market statistics (income): June 2026 quarter](https://www.stats.govt.nz/information-releases/labour-market-statistics-income-june-2026-quarter/)). The city ranges below are est. positions around that national anchor, not published regional medians:
   - Auckland: ~$80,000–$110,000
   - Wellington (govt): ~$85,000–$120,000
   - Christchurch / Hamilton / Tauranga: ~$70,000–$95,000
@@ -252,24 +253,24 @@ Figures are estimates — confirm the current year's rates demand against each c
 | Source | URL | What it gives |
 |---|---|---|
 | **GeoNet** | `https://www.geonet.org.nz` | Earthquake / volcano / tsunami real-time |
-| **Earth Sciences NZ** (GNS Science + NIWA merged 1 Jul 2025) | `https://www.earthsciences.nz` (legacy GNS site `https://www.gns.cri.nz` still linked from it) | National Seismic Hazard Model (2022 update raised hazard ~50% nationally; 2022 data, source GNS Science — rates/figures may have changed since) |
+| **Earth Sciences NZ** (GNS Science + NIWA merged 1 Jul 2025) | `https://www.earthsciences.nz` (legacy GNS site `https://www.gns.cri.nz` still linked from it) | National Seismic Hazard Model (2022 revision: shaking hazard up throughout most of the country — on average by 50% or more vs previous modelling, from almost no change to more than doubling in some areas; source [GNS Science — NSHM](https://www.gns.cri.nz/research-projects/national-seismic-hazard-model/), archived 2026-10-05) |
 | **Natural Hazards Commission Toka Tū Ake** (formerly EQC) | `https://www.naturalhazards.govt.nz` | NHCover up to **$300,000 +GST** residential building cap per natural-hazard event (2026 data, source [NHC — About NHCover](https://www.naturalhazards.govt.nz/insurance-and-claims/about-nhcover/)) |
 | **Natural Hazards Portal** (NHC Toka Tū Ake) | `https://www.naturalhazardsportal.govt.nz/` | Look up natural hazard insurance property claims across NZ (settled-claims map), incl. whether a home has had an NHC claim; natural hazard maps for Bay of Plenty only (pilot), more regions to be added as they become available (2026 data, source [Natural Hazards Portal](https://www.naturalhazardsportal.govt.nz/) + [settled.govt.nz — Natural hazards](https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/)) |
 | **NIWA** (part of Earth Sciences NZ since 1 Jul 2025) | `https://niwa.co.nz` | Climate, flood, drought, sea-level rise |
-| **Council hazard registers** | per council | Auckland Hazard Viewer, Wellington Hazards Mapper |
+| **Council hazard information** | per council | The local council should have hazard information for the property — some may be free of charge, or order a LIM; some councils may provide flood maps (2026 data, source [settled.govt.nz — Natural hazards](https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/)); council map-tool names (curated: Auckland Hazard Viewer, Wellington Hazards Mapper) not confirmed — check the council's website |
 
 ### Specific risks
 
 #### Earthquake — EXTREME
 
 - **NZ sits on Pacific Ring of Fire / plate boundary**
-- **National Seismic Hazard Model 2022**: raised hazard estimates ~50% nationally (2022 data, source GNS Science — rates/figures may have changed since)
+- **National Seismic Hazard Model, 2022 revision**: likelihood of future earthquake shaking increased throughout most of the country — on average by 50% or more vs previous modelling, ranging from almost no change to more than doubling in some areas; the NSHM does not describe impact or assess risk (source [GNS Science — NSHM](https://www.gns.cri.nz/research-projects/national-seismic-hazard-model/), archived 2026-10-05; model outputs freely available at `https://nshm.gns.cri.nz`)
 - **Historical major events**:
-  - **Christchurch (Canterbury) 2010-11** (M7.1 Darfield 4 Sep 2010 + ML 6.3 Christchurch 22 Feb 2011 — 185 deaths, per [GeoNet](https://www.geonet.org.nz/earthquake/story/3468575); ~$40B total damage est. — verify cost with Treasury / Toka Tū Ake; insurer claims only, accumulated 2010-2011: NZ$22.9B excl. GST, NZ$32.0B inflation-adjusted (2026 data, source [ICNZ (insurance-industry body) — Cost of natural disasters](https://www.icnz.org.nz/industry/cost-of-natural-disasters/)))
+  - **Christchurch (Canterbury) 2010-11** (M7.1 Darfield 4 Sep 2010 + ML 6.3 Christchurch 22 Feb 2011 — 185 deaths, per [GeoNet](https://www.geonet.org.nz/earthquake/story/3468575); rebuild cost $40B — Treasury estimate announced by the Prime Minister on 28 Apr 2013 for Budget 2013, covering capital costs incurred by the Government and private business (2013 data, source [RNZ, 28 Apr 2013](https://www.rnz.co.nz/news/emergencies_national/133745/christchurch-rebuild-cost-put-at-$40b) — secondary, not confirmed on a Treasury page; rates/figures may have changed since; verify with Treasury `https://www.treasury.govt.nz`); insurer claims only, accumulated 2010-2011: NZ$22.9B excl. GST, NZ$32.0B inflation-adjusted (2026 data, source [ICNZ (insurance-industry body) — Cost of natural disasters](https://www.icnz.org.nz/industry/cost-of-natural-disasters/)))
   - **Kaikōura 2016** (M7.8, 14 Nov 2016 — fault rupture; local tsunami with 6.9 m run-up at Goose Bay, per [GeoNet](https://www.geonet.org.nz/earthquake/story/2016p858000); port damage; insured losses NZ$2.27B (2026 data, source [ICNZ (insurance-industry body) — Cost of natural disasters](https://www.icnz.org.nz/industry/cost-of-natural-disasters/)))
   - **Hawke's Bay 1931** (Mw 7.4–7.6 / Ms 7.8 — 256 killed, the largest loss of life of any NZ earthquake, per [GeoNet](https://www.geonet.org.nz/earthquake/story/2178228))
-- **Wellington fault**: high probability of major event in coming decades
-- **Auckland**: lower risk (volcanic field replaces tectonic faults)
+- **Wellington Fault** (Wellington–Hutt Valley segment): estimated rupture probability ~11% in the next 100 years (sensitivity results 4–15%) and ~5% in the next 50 years; the new data cut earlier estimates by ~50% or more (2011 data, source [NZSEE Bulletin Vol. 44 No. 2 — Rhoades, Van Dissen et al. (GNS Science)](https://bulletin.nzsee.org.nz/article/view/238), peer-reviewed — rates/figures may have changed since); curated wording "high probability of a major event in coming decades" (superseded); for the location's shaking likelihood see the NSHM (`https://nshm.gns.cri.nz`)
+- **Auckland**: lower earthquake risk (curated — volcanic field replaces tectonic faults; not confirmed against a primary source; check site-specific shaking likelihood in the NSHM)
 - **NHCover** mandatory natural-disaster insurance via property insurance — covers up to **$300,000 +GST** building damage per event; land cover is limited (generally land within 8 m of the home + the main access way up to 60 m; retaining walls capped at $50,000 +GST, bridges/culverts at $25,000 +GST) (2026 data, source [NHC — About NHCover](https://www.naturalhazards.govt.nz/insurance-and-claims/about-nhcover/))
 
 #### Volcanic
@@ -277,24 +278,24 @@ Figures are estimates — confirm the current year's rates demand against each c
 - **Taupō Volcanic Zone** — Taupō volcano last erupted ~1,800 years ago, "the most violent eruption in the world in the last 5,000 years" (2026 data, source [GeoNet — Taupō](https://www.geonet.org.nz/about/volcano/taupo))
 - **Mount Ruapehu**: active stratovolcano (Whakapapa ski field); most recent eruption 25 Sep 2007; Crater Lake water ejected in eruptions causes lahars (2026 data, source [GeoNet — Ruapehu](https://www.geonet.org.nz/about/volcano/ruapehu))
 - **Auckland Volcanic Field**: 53 volcanic centres; most recent eruption Rangitoto ~600 years ago; existing volcanoes are unlikely to reactivate but the field itself is young and still active — an eruption is low-probability, high-consequence (2026 data, source [GeoNet — Auckland Volcanic Field](https://www.geonet.org.nz/about/volcano/aucklandvolcanicfield))
-- **Whakaari/White Island 2019** eruption (22 dead — tourists)
+- **Whakaari/White Island**: fatal explosive eruption at 2:11pm on 9 Dec 2019 — some visitors and guides on the island were killed (source [GeoNet — Whakaari](https://www.geonet.org.nz/about/volcano/whiteisland)); of the 47 people on the island, 22 were killed and 25 harmed (source [WorkSafe, 30 Nov 2020](https://www.worksafe.govt.nz/about-us/news-and-media/13-parties-charged-by-worksafe-new-zealand-over-whakaariwhite-island-tragedy/) + [WorkSafe statement on sentencing, 1 Mar 2024](https://www.worksafe.govt.nz/about-us/news-and-media/statement-on-sentencing-of-whakaari-defendants/))
 
 #### Tsunami
 
-- Pacific Ocean origin; Kaikoura 2016 generated local tsunami
-- Risk: East Coast, Cook Strait, Bay of Plenty
-- Council tsunami evacuation zones mandatory
+- About 10 tsunami higher than 5 m have hit NZ since 1840 — some from distant earthquakes, most from seafloor earthquakes not far from the coast; people who see the sea recede may have as little as 5 minutes to reach higher ground (2026 data, source [GeoNet — Tsunami FAQ](https://www.geonet.org.nz/tsunami/faq)); Kaikōura 2016 generated a local tsunami (see Earthquake)
+- Higher-exposure coasts (curated: East Coast, Cook Strait, Bay of Plenty) — not confirmed against a national primary source; check the regional Civil Defence tsunami evacuation maps
+- Tsunami evacuation zones: check the property against the council / regional Civil Defence tsunami evacuation zone map; the curated claim that the zones are "mandatory" is not confirmed against a primary source — verify with NEMA (`https://getready.govt.nz`)
 
 #### Flood + landslip
 
 - Auckland Anniversary Weekend floods, 27 Jan – 2 Feb 2023 (state of emergency; insured losses NZ$1.98B over 59,189 claims, excl. GST; claims to 1 Mar 2024, source [ICNZ (insurance-industry body) — Cost of natural disasters](https://www.icnz.org.nz/industry/cost-of-natural-disasters/), table as published 2026)
 - Cyclone Gabrielle, 11–17 Feb 2023 (Hawke's Bay, Tairāwhiti; insured losses NZ$1.84B over 58,848 claims, excl. GST; claims to 1 Mar 2024, source ICNZ)
-- Sub-tropical climate: heavy rainfall events increasing
+- The frequency and severity of storms and cyclones bringing heavy rainfall, damaging winds, waves and storm surge to NZ has increased (2026 data, source [settled.govt.nz — Natural hazards](https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/))
 - Steep terrain landslip risk (Kaikoura, Wellington)
 
 #### Coastal erosion + sea-level rise
 
-- +20-80 cm by 2100 (NIWA SLR)
+- Projected sea-level rise 0.55 m (RCP4.5) to 0.79 m (RCP8.5) by 2090, 1.05 m under RCP8.5+ allowing for ice-sheet instability (IPCC AR5-era projections on an undated page, identical in all 7 NIWA regional zone snapshots; source [NIWA — Climate Change Adaptation Toolbox, Zone 1](https://niwa.co.nz/climate-change-adaptation-toolbox/projected-regional-climate-change-hazards/regional-projections-zone-1) — rates/figures may have changed since)
 - Coastal Hazards Susceptibility (per council mapping)
 - Site-specific sea-level rise projections to 2300 for every 2 km of coast, combined with vertical land movement (subsidence / uplift): NZ SeaRise programme ([searise.nz](https://searise.nz/), online tool by Takiwā) (2026 data, source [NIWA — Sea-level rise](https://niwa.co.nz/hazards/sea-level-rise))
 
@@ -302,19 +303,19 @@ Figures are estimates — confirm the current year's rates demand against each c
 
 | Era | Hazards |
 |---|---|
-| **Pre-1900** | Lead paint, lead pipes |
+| **1980s or earlier** | Lead-based paint: presume a building built in the 1980s or earlier has been painted with lead-based paint; no abrasive blasting of properties built or painted before 1970 (2026 data, source [Health NZ — Lead-based paint](https://www.healthnz.govt.nz/health-topics/keeping-healthy/healthy-homes-environments/hazardous-substances/lead/lead-based-paint)); lead pipes: no NZ primary source confirmed — ask the building inspector / plumber |
 | **Mid-1940s–mid-1980s** (any pre-2000 build) | Asbestos: popular building material mid-1940s to mid-1980s (settled.govt.nz); a building built before 1 Jan 2000 probably contains some asbestos materials (2026 data, source [WorkSafe — Where asbestos can be found](https://www.worksafe.govt.nz/topic-and-industry/asbestos/where-asbestos-can-be-found/)) |
 | **Late 1970s–early 1980s** | Dux Quest plumbing (built or re-plumbed late 1970s–early 1980s; prone to leaking) + Weatherside cladding (popular early 1980s; prone to swelling and rot — the only full fix is replacing the cladding) (2026 data, source [settled.govt.nz — Problem building materials](https://www.settled.govt.nz/buying-a-home/researching-the-property/learning-about-problem-building-materials/)) |
-| **Late 1980s–mid-2000s** | **Leaky homes crisis** — high-risk builds are mostly plaster-style monolithic cladding, especially Mediterranean style without eaves and with flat roofs: water ingress + rot (2026 data, source [settled.govt.nz — Leaky buildings](https://www.settled.govt.nz/buying-a-home/researching-the-property/learning-about-leaky-buildings/)); ~$11B+ national damage est. — verify with PwC / Dept of Building & Housing estimate |
-| **Post-2003 H1** | Tightened weathertightness rules |
-| **Post-2018** | Updated insulation + Healthy Homes |
-| **Cross-lease titles** | ~10% Auckland — shared ownership complications |
+| **Late 1980s–mid-2000s** | **Leaky homes crisis** — high-risk builds are mostly plaster-style monolithic cladding, especially Mediterranean style without eaves and with flat roofs: water ingress + rot (2026 data, source [settled.govt.nz — Leaky buildings](https://www.settled.govt.nz/buying-a-home/researching-the-property/learning-about-leaky-buildings/)); a review of the size and cost of the problem estimated 42,000 homes likely to be leaky, with a total economic cost (repair + transaction costs) to remediate them that could be $11.3B — the Department of Building and Housing commissioned PricewaterhouseCoopers to study the problem (2010 data, source [DBH Regulatory Impact Statement — leaky homes financial assistance package](https://regulation.govt.nz/assets/RIS-Documents/ris-dbh-faplh-nov10.pdf) — rates/figures may have changed since) |
+| **Building Code E2 / H1** | Weathertightness is clause E2 External moisture (E2/AS1 4th edition effective 28 Jul 2025), not H1; H1 is energy efficiency — MBIE flagged new roof, window, wall and underfloor insulation requirements in Oct 2022; H1/AS1 6th edition effective 27 Nov 2025, 5th edition (from 4 Aug 2022) usable until 26 Nov 2026 (source [building.govt.nz — E2](https://www.building.govt.nz/building-code-compliance/e-moisture/e2-external-moisture/) + [H1](https://www.building.govt.nz/building-code-compliance/h-energy-efficiency/h1-energy-efficiency/), archived 2026-01-13 / 2026-06-23); the date the post-leaky-homes E2 rules took effect is not confirmed — verify at building.govt.nz |
+| **Rentals (any era)** | Ceiling and underfloor insulation compulsory in all rental homes since 1 Jul 2019; all private rentals must meet the healthy homes standards (heating, insulation, ventilation, moisture ingress and drainage, draught stopping) from 1 Jul 2025 (2026 data, source [Tenancy Services — Healthy homes compliance](https://www.tenancy.govt.nz/healthy-homes/healthy-homes-compliance/)) |
+| **Cross-lease titles** | Buyer becomes part owner of every building on the plot with the other leaseholders; leases usually 999 years; structural changes need all owners' agreement; check the title's footprint plan matches the buildings (source [settled.govt.nz — Cross lease ownership](https://www.settled.govt.nz/blog/what-you-need-to-know-about-cross-lease-ownership/), 1 Nov 2018 article); cross leases were 18% of all Auckland titles (100,148 titles, 47% of NZ's 215,958) and 18% of Christchurch titles, on LINZ title data as at 15 Mar 2016 (2016 data, source [Auckland Council technical report TR2017/025](https://knowledgeauckland.org.nz/media/xigdqs5h/tr2017-025-arrested-redevelopment-cross-lease-unit-titles-auckland.pdf), Oct 2017 — rates/figures may have changed since); curated ~10% Auckland (superseded) |
 
 ### Mandatory at sale
 
 | Document | Notes |
 |---|---|
-| **LIM (Land Information Memorandum)** | From council; ~$300-500; mandatory in practice |
+| **LIM (Land Information Memorandum)** | From council; fee set by each council (fast-tracking may cost extra), processing may take several days; does not show issues the council has not been told about, e.g. an unreported weathertightness problem (source [settled.govt.nz — What is a LIM report](https://www.settled.govt.nz/blog/what-is-a-lim-report/), 4 Apr 2019 article); e.g. Tauranga City Council residential LIM $395 (10-day email service) or $680 (5-day), incl. GST (2026 data, source [Tauranga City Council — LIM fees, as at 1 Jul 2026](https://www.tauranga.govt.nz/council/fees-and-charges/land-information-memoranda-fees)); ~$300–500 est. for a standard residential LIM elsewhere — calibrated on Tauranga's $395 only, fees vary by council and urgency; check the council's fees and charges; mandatory in practice |
 | **Project Information Memorandum (PIM)** | For consents (build/extension) |
 | **Body Corporate disclosure** | Unit title only |
 | **Vendor warranty re weathertightness** | Leaky-building disclosure expected |
@@ -322,10 +323,10 @@ Figures are estimates — confirm the current year's rates demand against each c
 
 ### Climate change projections
 
-- **+1.5–4.0°C** by 2100
-- **Sea-level rise**: +20–80 cm by 2100
-- **Heavy rainfall**: ~+20-30% est. by 2100 (verify against NIWA / MfE projection scenario); extreme rainfall from ex-tropical cyclones up to ~30–35% higher by end of century under a high-emissions scenario (~3°C warming) (2025 data, source [Earth Sciences NZ, 7 Aug 2025](https://www.earthsciences.nz/news/rain-from-tropical-cyclones-to-increase-under-warmer-climate))
-- **Drought**: increasing eastern regions
+- **Temperature**: annual average air temperature +1.3–1.4°C (RCP4.5) to +2.8–3.1°C (RCP8.5) by 2090 (IPCC AR5-era downscaled projections, identical in all 7 NIWA regional zone snapshots; source [NIWA — Climate Change Adaptation Toolbox, Zone 1](https://niwa.co.nz/climate-change-adaptation-toolbox/projected-regional-climate-change-hazards/regional-projections-zone-1)); NIWA completed updated CMIP6-based national projections (SSP1-2.6 to SSP5-8.5, to 2100) in mid-2024, data published by MfE — newer figures may differ, verify at [NIWA — Updated national climate projections](https://niwa.co.nz/climate-and-weather/updated-national-climate-projections-new-zealand)
+- **Sea-level rise**: 0.55 m (RCP4.5) / 0.79 m (RCP8.5) / 1.05 m (RCP8.5+, allowing for ice-sheet instability) by 2090; 0.24 / 0.28 / 0.37 m by 2040 (IPCC AR5-era projections on an undated page, source [NIWA — Climate Change Adaptation Toolbox, Zone 1](https://niwa.co.nz/climate-change-adaptation-toolbox/projected-regional-climate-change-hazards/regional-projections-zone-1) — rates/figures may have changed since); site-specific figures incl. vertical land movement: NZ SeaRise (see Coastal erosion above)
+- **Heavy rainfall**: short-duration extremes (1-in-100-year, 1-hour) +13.6% and long-duration events (1-in-2-year, 120-hour) +4.8% per 1°C of warming (source [NIWA — Climate Change Adaptation Toolbox, Zone 1](https://niwa.co.nz/climate-change-adaptation-toolbox/projected-regional-climate-change-hazards/regional-projections-zone-1)); est. at the 2090 warming above, linear scaling: ≈ +18–19% (RCP4.5: 13.6% × 1.3–1.4°C) to ≈ +38–42% (RCP8.5: 13.6% × 2.8–3.1°C) for 1-hour 1-in-100-year rainfall — local changes vary; extreme rainfall from ex-tropical cyclones up to ~30–35% higher by end of century under a high-emissions scenario (~3°C warming) (2025 data, source [Earth Sciences NZ, 7 Aug 2025](https://www.earthsciences.nz/news/rain-from-tropical-cyclones-to-increase-under-warmer-climate))
+- **Drought**: NIWA's regional snapshots give two different figures — time spent in drought in eastern and northern NZ projected to double or triple by 2040 (RCP4.5, ~2050) (Zone 1 notes), but +5–20% time spent in drought, with drought probability up 50–70% (Zone 1 at 2090 under RCP8.5; Zone 3, eastern lower North Island, notes); the pages do not explain the gap (IPCC AR5-era projections, source [NIWA — Zone 1](https://niwa.co.nz/climate-change-adaptation-toolbox/projected-regional-climate-change-hazards/regional-projections-zone-1) + [Zone 3](https://niwa.co.nz/climate-change-adaptation-toolbox/projected-regional-climate-change-hazards/regional-projections-zone-3) — rates/figures may have changed since)
 - **Insurance premiums rising** for high-risk zones
 
 ---
@@ -336,7 +337,7 @@ Figures are estimates — confirm the current year's rates demand against each c
 
 - **Watercare** (Auckland): `https://www.watercare.co.nz/`
 - **Tiaki Wai** (Wellington metro — Wellington, Hutt, Upper Hutt and Porirua; council-owned, absorbed Wellington Water from 1 Jul 2026): `https://www.tiakiwai.co.nz/` — water services charges are removed from council rates bills and billed separately by Tiaki Wai (quarterly; councils run the billing in the first year) (2026 data, source [Tiaki Wai](https://www.tiakiwai.co.nz/) + [Upper Hutt City Council, 30 Oct 2025](https://www.upperhutt.govt.nz/News/New-chapter-for-water-services-in-metropolitan-Wellington))
-- **Christchurch City Council Water**, **DCC Water (Dunedin)**
+- **Christchurch City Council** and **Dunedin City Council** keep water supply, wastewater and stormwater in-house (in-house business units) under Local Water Done Well; water services delivery plans accepted by the Secretary for Local Government on 28 Oct 2025 (CCC) and 10 Nov 2025 (DCC) (2026 data, source [Ministry for Cities, Environment, Regions and Transport — Water services delivery plans](https://www.mcert.govt.nz/our-work/local-government/water-services/water-services-delivery-plans/) + [CCC — Local Water Done Well](https://ccc.govt.nz/services/water-and-drainage/local-water-done-well), archived 2025-11-27)
 - Universal in cities; rural may have rainwater tanks + septic
 
 ### Costs
@@ -348,24 +349,28 @@ Figures are estimates — confirm the current year's rates demand against each c
 | Rainwater tank | $3,000–$8,000 |
 | Bored well | $10,000–$25,000 |
 
+est. — unsourced ballpark ranges; no primary source confirmed. Actual cost depends on site access, ground conditions, distance to the network, tank size / well depth, and council consent and development-contribution fees. In Auckland a new connection (or an existing connection that increases its use) also pays Watercare's one-off Infrastructure Growth Charge, which funds bulk infrastructure, not local network upgrades (2026 data, source [Watercare — Infrastructure Growth Charge](https://www.watercare.co.nz/builders-and-developers/tools-fees-and-resources/infrastructure-growth-charge)). Verify with 2–3 local contractor quotes and the council / water provider's current fees.
+
 ---
 
 ## Cost benchmarks (NZ 2026)
 
-| Work | Cost (NZD, est. — contractor-quote ranges, no primary source; verify with local quotes) |
+| Work | Cost (NZD; est. = contractor / practitioner quote range from the 2026-04 research, no primary source — verify with 2–3 local quotes) |
 |---|---:|
-| Building report | $500–$1,000 |
-| LIM report | $300–$500 |
-| Solicitor / conveyancer | $1,500–$3,000 |
-| Body Corporate disclosure | $300–$700 |
-| **Total transaction cost (buyer)** | **~$3,000–$5,000 (lowest in OECD)** |
-| Roof restoration | $5,000–$15,000 |
-| Earthquake strengthening (older builds) | $30,000–$200,000+ |
-| Asbestos abatement | $5,000–$30,000 |
-| Leaky home remediation | $100,000–$500,000+ |
-| Insulation upgrade | $5,000–$15,000 |
-| Heat pump | $2,500–$5,000 |
-| Solar PV (5kW) | $10,000–$15,000 |
+| Building report | ~$500–$1,000 est. (Trade Me guide: from $400 ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since) |
+| LIM report | council fee — e.g. $575.50 Wellington City Council residential, 2026/27 incl. GST (see `--tax` § Transaction taxes) |
+| Solicitor / conveyancer | ~$1,500–$3,000 est. (Trade Me guide: $800+ ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since) |
+| Body Corporate disclosure | ~$300–$700 est. |
+| **Total transaction cost (buyer)** | **~$2,600–$4,600 est.** (computed in `--tax` § Total transaction cost) |
+| Roof restoration | ~$5,000–$15,000 est. |
+| Earthquake strengthening (older builds) | ~$30,000–$200,000+ est. |
+| Asbestos abatement | ~$5,000–$30,000 est. |
+| Leaky home remediation | ~$100,000–$500,000+ est. |
+| Insulation upgrade | ~$5,000–$15,000 est. |
+| Heat pump | ~$2,500–$5,000 est. |
+| Solar PV (5kW) | ~$10,000–$15,000 est. |
+
+Calibration: est. rows have not been re-quoted since the 2026-04 research — rates/figures may have changed since; the one row checked against a primary fee schedule (LIM, $575.50 at Wellington City Council for 2026/27) came in above the earlier $300–$500 range.
 
 ## Active fiscal incentives (2025-2026)
 
@@ -466,7 +471,7 @@ Figures are estimates — confirm the current year's rates demand against each c
 
 - **2026-04-25** — Initial population.
 - **2026-08-07 to 2026-10-21** — Auckland APTR re-check (2026-08-07) and rental / tax regwatch tracker re-checks (2026-09-24, 2026-10-21); details in the Status footer.
-- **2026-10-23** — Refresh wave, partial: the playbook-level date is not re-stamped because `--price`, `--tax`, `--rental`, `--work`, `--risks` and `--mains` each still hold claims that could not be re-checked against a fetched source. Facts checked / changed / confirmed / unverifiable per section:
+- **2026-10-23** — Refresh wave, partial: the playbook-level date is not re-stamped because `--risks` still holds curated qualitative lines with no fetched source (insurance premiums rising for high-risk zones, steep-terrain landslip risk, Coastal Hazards Susceptibility per council mapping, vendor warranty re weathertightness); `--price`, `--tax`, `--rental`, `--work`, `--mains` and Cost benchmarks were closed in the follow-up gap-closing pass (last sub-bullet). Facts checked / changed / confirmed / unverifiable per section:
   - **Country profile** — 10 / 2 / 1 / 7: EUR/NZD set to the ECB reference rate (22 Oct 2026); foreign-buyer line rewritten against LINZ (9 / 6 / 3 / 0 for that line alone) — the $5m+ investor-visa pathway is in force since 6 Mar 2026, replacing "Order in Council expected early 2026"; the one-property limit stays, sourced to Bell Gully (secondary). Unverified: postcode examples, 16 regions / 67 TAs, LRS $8 fee, leasehold place names, cross-lease ~10% of Auckland.
   - **`--price`** — 19 / 14 / 2 / 3: benchmark table (all 9 rows) moved to REINZ + QV September 2026; QV / Cotality source lines and Compute steps 3–4 rewritten (Wellington City ~-30.6% computed from the Jan 2022 QV HPI peak, replacing ~-26% est.). Unverified: Trade Me ~39k and realestate.co.nz ~35k listing counts, "industry-owned", a Stats NZ house price index.
   - **`--traffic`** — 3 / 1 / 0 / 1: NZTA open-data AADT + heavy-vehicle source added; the NZTA traffic-volumes page is bot-walled (kept); verdict bands are curated thresholds, not sourced facts.
@@ -481,3 +486,4 @@ Figures are estimates — confirm the current year's rates demand against each c
   - **Common listing platforms** — 4 / 0 / 1 / 3 and **Reddit / forum sources** — 7 / 0 / 0 / 7: unchanged; only Homes.co.nz confirmed, subreddit URLs checked for liveness only.
   - **Verification authorities** — 7 / 3 / 4 / 0 (fully re-verified): Earth Sciences NZ / GeoNet partnership, NHC claim-history checks, lawyer or registered conveyancer (settled.govt.nz).
   - **Source URL templates** — 11 / 3 / 7 / 1: GNS re-pointed to earthsciences.nz and NIWA to niwa.co.nz; NZTA open data, Natural Hazards Portal and Tiaki Wai added; the NZTA traffic-volumes page could not be checked (bot wall).
+  - **Gap-closing pass** (sources read by 2026-11-03) — confirmed / changed / relabelled: `--price` 2 / 2 / 1, `--rental` 4 / 1 / 0, `--work` 0 / 2 / 2, `--tax` 4 / 7 / 4, Cost benchmarks 0 / 2 / 10, `--mains` 1 / 0 / 1 — all six closed; `--risks` 3 / 10 / 9, still open (curated lines above); totals 14 / 24 / 27. Council rates table rebuilt for 2026/27 from Auckland, Wellington City and Christchurch sources (Queenstown Lakes stays est.); LIM fee now given as set by each council (e.g. Wellington City Council $575.50, 2026/27) and the buyer total recomputed to ~$2,600–$4,600 est.; Auckland APTR bands, [2023] NZSC 53 and the QLDC 90-night cap confirmed; NIWA (AR5-era) climate and sea-level figures replace the unsourced ranges; the $5m pathway's one-property limit (Country profile and `--tax`) re-sourced from Bell Gully (secondary) to LINZ investor-visa guidance (26 Mar 2026).

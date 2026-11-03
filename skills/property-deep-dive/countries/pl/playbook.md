@@ -25,7 +25,7 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Primary sources
 
-- **NBP BaRN database** (since Q3 2006): `https://nbp.pl/publikacje/cykliczne-materialy-analityczne-nbp/rynek-nieruchomosci/informacja-kwartalna/`
+- **NBP BaRN database** (Baza cen nieruchomości mieszkaniowych, III kw. 2006 – II kw. 2026; source NBP, archived 2026-09-16): `https://nbp.pl/publikacje/cykliczne-materialy-analityczne-nbp/rynek-nieruchomosci/informacja-kwartalna/` — data file `https://static.nbp.pl/dane/rynek-nieruchomosci/ceny_mieszkan.xlsx` (offer and transaction prices per m² of flats, primary and secondary market, 16 voivodeship capitals + Gdynia, incl. VAT; secondary-market transaction series revised back in II kw. 2026 after BaRN was merged with AMRON, CRCM and RCN data)
   - Quarterly residential price reports — National Bank of Poland authoritative data
 - **AMRON-SARFiN** (Polish Banking Association): `https://amron.pl/raporty/`
   - Bank valuation + transaction + mortgage finance data; quarterly
@@ -40,11 +40,11 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 - **Morizon Group** (Morizon + Gratka + Noweinwestycje.pl; Morizon + Gratka run by Grupa Morizon-Gratka Sp. z o.o.) — 2.25M real users (2023 data, Gemius Mediapanel April 2023 via Otodom Analytics — rates/figures may have changed since): `https://www.morizon.pl/`
 - **Nieruchomosci-online** — 1.94M real users (2023 data, Gemius Mediapanel April 2023 via Otodom Analytics — rates/figures may have changed since): `https://nieruchomosci-online.pl/`
 - **Domiporta** — 1.19M real users (2023 data, Gemius Mediapanel April 2023 via Otodom Analytics — rates/figures may have changed since): `https://www.domiporta.pl/`
-- **OLX Nieruchomości** within OLX Group: `https://www.olx.pl/nieruchomosci/`
+- **OLX Nieruchomości** within OLX Group — classifieds category for flats, houses and plots (listing platform ⚠️, source olx.pl, archived 2026-10-25): `https://www.olx.pl/nieruchomosci/`
 
-### 2025 price benchmarks (est. ranges — calibrated against the GUS 2025 city medians below)
+### 2025 price benchmarks (big-city PLN/m² rows est., calibrated against the GUS 2025 and NBP II kw. 2026 city figures below; smaller-city and rural-east PLN/m² computed from GUS 2025 powiat medians; single-family totals est.)
 
-| Region | Avg PLN/m² (apt) | Avg total (single-family) |
+| Region | Avg PLN/m² (apt) | Avg total (single-family, est.) |
 |---|---:|---:|
 | **Warszawa centrum** | 17,000–25,000+ | 1,800,000–4,500,000+ |
 | **Warszawa periphery** | 12,000–17,000 | 1,200,000–2,200,000 |
@@ -54,10 +54,16 @@ ISO2: `pl`. Status: ✅ Fully populated (researched 2026-04).
 | **Gdańsk / Gdynia / Sopot** | 12,000–18,000 | 1,100,000–2,200,000 |
 | **Poznań** | 10,000–14,000 | 950,000–1,600,000 |
 | **Łódź** | 7,500–11,000 | 700,000–1,200,000 |
-| **Smaller cities** | 6,000–9,500 | 550,000–1,000,000 |
-| **Rural eastern PL** | 3,000–5,500 | 250,000–550,000 |
+| **Smaller cities** (other city powiats) | 5,771–7,499 (GUS 2025 quartiles, see below) | 550,000–1,000,000 |
+| **Rural eastern PL** (land powiats incl. towns, 5 eastern voivodeships) | 4,905–6,787 (GUS 2025 quartiles, see below) | 250,000–550,000 |
 
 GUS anchor — median price per m² of dwellings sold in market transactions, whole city (2025 data, source GUS BDL `https://bdl.stat.gov.pl/`, subject P3787; primary-market prices include VAT): primary + secondary — Warszawa 15,449 · Kraków 14,561 · Gdańsk 12,523 · Wrocław 12,426 · Gdynia 11,659 · Poznań 11,291 · Łódź 8,735 · Sopot 19,384 · Poland 8,774 PLN/m²; secondary market only — Warszawa 15,885 · Kraków 14,368 · Gdańsk 12,839 · Wrocław 12,219 · Poznań 10,782 · Łódź 7,709 · Poland 7,724 PLN/m². These are city-wide medians, not district- or parcel-level. GUS P3787 has no centrum/periphery split and covers flats only, so the table's district splits and single-family totals are est. Three city medians fall outside the table's est. ranges: Kraków (14,561) is above the Kraków periphery range (10,000–14,000); Gdynia (11,659) is below and Sopot (19,384) above the Gdańsk / Gdynia / Sopot range (12,000–18,000). For these cities, use the GUS median over the table.
+
+Computed rows — GUS P3787 all-market medians per powiat (2025 data, source GUS Dziedzinowa Baza Wiedzy API `https://api-dbw.stat.gov.pl/`, variable 307, section 485; same series as BDL — the national 8,774 and secondary-market 7,724 match): **Smaller cities** = quartiles of the 46 city-powiat (miasto na prawach powiatu) medians, excluding Warszawa, Kraków, Łódź, Wrocław, Poznań, Gdańsk, Gdynia, Sopot, Szczecin, Bydgoszcz, Toruń, Lublin, Białystok, Katowice, Kielce, Olsztyn, Opole, Rzeszów, Zielona Góra and Gorzów Wielkopolski — 25th percentile 5,771 · median 6,688.5 · 75th percentile 7,499; full range 4,391 (Bytom) – 11,680 (Świnoujście). **Rural eastern PL** = quartiles of the 87 land-powiat (powiat ziemski) medians in lubelskie, podkarpackie, podlaskie, świętokrzyskie and warmińsko-mazurskie — 25th percentile 4,905 · median 5,882 · 75th percentile 6,787; full range 3,641 (powiat chełmski) – 8,034 (powiat augustowski). Quartiles use the exclusive method. Land powiats include the towns that are not city powiats. Voivodeship-wide all-market medians: lubelskie 8,488 · podlaskie 8,361 · podkarpackie 7,752 · świętokrzyskie 7,500 · warmińsko-mazurskie 6,625 PLN/m². These are powiat-level medians for flats, not prices for a village, a house or a parcel.
+
+NBP cross-check — average transaction price per m² of flats, II kw. 2026 (notations March–May 2026; flats in multi-family buildings within city limits, incl. VAT; source NBP BaRN `https://static.nbp.pl/dane/rynek-nieruchomosci/ceny_mieszkan.xlsx`): secondary market — Warszawa 16,723 · Kraków 14,792 · Gdańsk 14,035 · Wrocław 12,590 · Gdynia 12,267 · Poznań 10,891 · Łódź 8,020 · 10 other cities (Białystok, Bydgoszcz, Katowice, Kielce, Lublin, Olsztyn, Opole, Rzeszów, Szczecin, Zielona Góra; stock-weighted) 9,125; primary market — Warszawa 16,783 · Kraków 15,923 · Gdańsk 14,491 · Wrocław 14,312 · Gdynia 12,887 (district-population-weighted) · Poznań 12,766 · Łódź 9,945 · 10 other cities 11,037 PLN/m². City-wide averages, not district- or parcel-level; BaRN does not cover Sopot. In both markets each of the seven city averages lies within the table's span for that city: Warszawa's in the periphery range, Kraków's in the centrum range and above the periphery range.
+
+Single-family totals are est. carried over from the initial 2026-04 research (inputs not recorded); GUS and NBP BaRN publish no house prices by city or district (BaRN covers flats in multi-family buildings only). National cross-check only: mean value per sale of built-up land (nieruchomości gruntowe zabudowane: land with a house or another building; the GUS RCN table gives no split by building use, so this is not a house-only figure) ~PLN 809,000 (computed: 75,733 mln zł / 93,561 transactions; 2025 preliminary data from the Rejestr Cen Nieruchomości, source GUS Obrót nieruchomościami w 2025 r., 8 Jul 2026, `https://stat.gov.pl/obszary-tematyczne/infrastruktura-komunalna-nieruchomosci/nieruchomosci-budynki-infrastruktura-komunalna/obrot-nieruchomosciami-w-2025-r-,8,9.html`). Verify a specific house against recorded sale prices in the Rejestr Cen Nieruchomości, the public register of notarial-deed prices kept by the starosta (source GUS glossary `https://stat.gov.pl/metainformacje/slownik-pojec/pojecia-stosowane-w-statystyce-publicznej/4491,pojecie.html`).
 
 ### Compute
 
@@ -233,7 +239,7 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 | **ISOK flood maps** | `https://wody.isok.gov.pl/` | Flood hazard maps |
 | **IMGW** (meteorology + hydrology) | `https://www.imgw.pl/` | Weather, climate |
 | **PIG-PIB** (Geological Institute) | `https://www.pgi.gov.pl/` | Geology, mining subsidence |
-| **PAA (Państwowa Agencja Atomistyki)** | `https://monitoring.paa.gov.pl/maps-portal/` | Radon |
+| **PAA (Państwowa Agencja Atomistyki)** | `https://monitoring.paa.gov.pl/maps-portal/` | Current radiation situation: gamma dose-rate map (per PAA, `https://www.gov.pl/web/paa`) — not a radon map; radon maps are on Poznaj Radon (below) |
 | **Państwowa Inspekcja Sanitarna** (Sanepid / GIS) | `https://www.gov.pl/web/gis` | Radon: GIS leads identification of high-radon areas (Prawo atomowe art. 23e) |
 | **GIOŚ** (env protection) | `https://www.gov.pl/web/gios` | Air, water, soil quality |
 | **Polski Alarm Smogowy** | `https://polskialarmsmogowy.pl/` | Air-quality rankings built on GIOŚ data (NGO — secondary) |
@@ -245,11 +251,11 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 ### Specific risks
 
 - **Floods** — major risk:
-  - **Wisła (Vistula), Odra (Oder), Warta** river basins
-  - **Storm Boris September 2024**: catastrophic flooding in Kłodzko, Nysa, Opolskie, Dolnośląskie, Śląskie, Małopolskie
+  - **Wisła (Vistula), Odra (Oder), Warta** — the rivers where significant floods occurred most often in 1946–2017, with floods more frequent on the mountain left-bank tributaries of the Odra and the Carpathian tributaries of the Wisła (source PGW Wody Polskie, WORP 3rd-cycle report prepared by IMGW-PIB, 20 Mar 2025)
+  - **Storm Boris September 2024** (flood 13 Sep–4 Oct 2024): flooding mainly in Dolnośląskie (incl. Kłodzko), Opolskie (incl. Nysa), Śląskie and Lubuskie, and in small parts of Małopolskie, Zachodniopomorskie and Wielkopolskie (source PGW Wody Polskie, WORP 3rd-cycle annex 7 'Powódź we wrześniu 2024', 24 Jan 2025); the flood-recovery special rules cover listed gminas in Dolnośląskie, Lubuskie, Opolskie and Śląskie only (consolidated text Dz.U. 2026 poz. 948, 15 Jul 2026)
     - 9 dead (Polish Police count as of 29 Sep 2024, via Demagog fact-check); ~57,000 directly affected and 6,544 evacuated as of 19 Sep 2024 (Prime Minister's Office figures, via IFRC DREF MDRPL003)
     - State of natural disaster declared 16 Sep 2024 (Rozporządzenie Rady Ministrów, Dz.U. 2024 poz. 1365) over parts of Dolnośląskie, Opolskie and Śląskie; later extended to part of Lubuskie (consolidated text of 22 Sep 2024, Dz.U. 2024 poz. 1395) — Małopolskie was not in the declared zone
-  - 1997 "Powódź tysiąclecia" + 2010 events as historic references
+  - Historic references: July–August 1997 ("Powódź tysiąclecia") and May–June 2010 are both listed among the catastrophic river floods of the Odra and Wisła basins in 1946–2017 (source PGW Wody Polskie, WORP 3rd-cycle report, 20 Mar 2025)
 - **Smog / PM2.5** — major Polish issue:
   - National annual-mean PM10 concentration **+7% in 2024 vs 2023** (2024 data, source Polski Alarm Smogowy ranking on GIOŚ measurements, via Gramwzielone.pl 20 Oct 2025 — secondary); in 2025 more areas again exceeded PM10/PM2.5 limits (2025 data, source PAS comparison of GIOŚ annual assessments, via Gramwzielone.pl 18 Jun 2026 — secondary)
   - Emissions fell while concentrations rose: national PM10 emissions −7% and PM2.5 −9% in 2024 vs 2023 (2024 data, source KOBiZE 'Krajowy bilans emisji … 1990–2024', 2026)
@@ -262,25 +268,25 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
     - Stoves/fireplaces must meet ecodesign or ≥80% thermal efficiency since 1 May 2024
 - **Mining subsidence (szkody górnicze)**:
   - **Górnośląskie Zagłębie Węglowe (GZW / USCB)** — ~1,500 tremors/yr of energy E ≥ 10⁵ J (1,765 in 2014; 2,000–3,000/yr in the 1960s–80s); ~70,000 such tremors catalogued 1974–2009 (2015 data, source GIG-PIB GRSS — rates/figures may have changed since; live map `https://grss.gig.eu/mapa-wstrzasow/`)
-  - **Bełchatów lignite** — strongest mining-induced tremor recorded in Poland: M 4.6 (29 Nov 1980; magnitude + year per GIG-PIB and IGF PAN); ~60 tremors/yr (undated estimate — rates/figures may have changed since)
-  - **KGHM copper** Polkowice/Rudna/Lubin in Dolnośląskie (LGOM) — strongest tremor M 4.5 (1977); most M ≥ 3.0 mining events occur here (2010 data, source IGF PAN — rates/figures may have changed since)
+  - **Bełchatów lignite** — strongest mining-induced tremor recorded in Poland: M 4.6 (1980; 2010 data, source IGF PAN poster 'Wstrząsy indukowane', also GIG-PIB 'Sejsmiczność indukowana' — rates/figures may have changed since); example of a later event: M 3.7 on 22 Jan 2010 (same IGF PAN source); annual tremor count: no figure given — verify in the Bełchatów section of IGF PAN's yearly Seismological Bulletin (`https://pub.igf.edu.pl/`)
+  - **KGHM copper** Polkowice/Rudna/Lubin in Dolnośląskie (LGOM) — strongest tremor M 4.5 (1977); about 20 mining events of M ≥ 3.0 in 2010, most of them here (2010 data, source IGF PAN 'Wstrząsy indukowane' — rates/figures may have changed since)
   - Regulated under Prawo geologiczne i górnicze
 - **Radon**:
-  - **PAA radiation map**: `https://monitoring.paa.gov.pl/maps-portal/`
+  - **PAA radiation map** (gamma dose rate, not radon): `https://monitoring.paa.gov.pl/maps-portal/`
   - **Radon-specific**: `https://www.gov.pl/web/poznajradon/mapy-radonowe2`
   - **Hotspots** (national radon action plan, M.P. 2021 poz. 169, citing PIG-PIB): Karkonosze + Strzegom granites, Izera Mountains gneisses, Kaczawa Mountains + Kłodzko Basin metamorphic/igneous rocks; NE glacial deposits, highest in Suwalszczyzna
   - **Reference level 300 Bq/m³** (Prawo atomowe); priority powiaty for radon measurement listed in Rozporządzenie Ministra Zdrowia z 18.06.2020 (Dz.U. 2020 poz. 1139, in force per Sejm ELI/ISAP, Oct 2026) — powiat-level screening, not a parcel verdict; only a measurement settles a building
 - **Earthquake**: low natural seismicity — largest instrumentally recorded natural quake M 4.7, Podhale, 30 Nov 2004 (source IGF PAN); mining-induced tremors (above) are the main shaking risk
-- **Heatwaves + drought**: increasing climate risk
-- **Storm damage**: increasing frequency in NE + central PL
+- **Heatwaves + drought**: 2025 mean temperature 9.5 °C, +0.8 °C vs the 1991–2020 normal; warming since 1951 put at 2.4 °C; 2025 was a dry year — 546 mm of precipitation (89.3% of normal) and a negative climatic water balance over most of the country in the growing season, below −300 mm locally on the Mazovian Lowland, Polesie, the Lublin Upland and part of the Sudetes (2025 data, source IMGW-PIB 'Klimat Polski 2025', 2026)
+- **Storm damage**: severe convective storms can sweep most of the country in one day — e.g. 23 Jun 2025: gusts above 100 km/h, locally 115 km/h, and over 5,000 fire-service call-outs, most in Śląskie, Zachodniopomorskie and Wielkopolskie (2025 data, source IMGW-PIB 'Klimat Polski 2025', 2026); regional trend in storm-damage frequency: data not publicly available (Klimada 2.0 listed wind-speed projections as still in preparation, 2020) — verify at IMGW-PIB `https://imgw.pl/edukacja/raporty-klimatyczne-dla-polski/`
 
 ### Build-era hazards
 
 | Era | Hazards |
 |---|---|
 | **Pre-1939 kamienica** | Lead paint, lead pipes, no DPC, damp, structural settlement |
-| **PRL Wielka Płyta (1957–1990)** | ~12M residents in ~60,000 panel blocks (2019 figure, source money.pl — secondary; verify with GUS census housing data — rates/figures may have changed since); thermal bridges, slab-joint leaks, acoustic; durability originally estimated at **~50 years** (money.pl 2019 — secondary); ITB examined 300 blocks and found systemic technological defects; the ministry stated no threat to structure or safety, though not unconditionally — periodic inspections under the ITB diagnostic procedure are recommended (2019, source money.pl — secondary) |
-| **Eternit/asbestos roofing** | Programme 2002 → Program Oczyszczania Kraju z Azbestu na lata 2009–2032, target **31 Dec 2032**; 9.214 Mt inventoried, 7.005 Mt still to remove, removal pace ~200 kt/yr (2026 data, source MRiT answer to interpelacja nr 16053, 15 Apr 2026); draft asbestos act (UC60) sets no deadline and keeping or moving the 2032 date is open for the programme update |
+| **PRL Wielka Płyta (1957–1990)** | ~60,000 large-panel buildings, ~50,000 (80%) of them three-layer panels; ITB examined 300 buildings in Mazowieckie, Łódzkie, Śląskie and Dolnośląskie; the ministry stated there is no threat to their structure or safety, and ITB issued guidance for checking panel-specific elements during the periodic building inspections; potential national investment in thermo-modernisation plus façade-layer anchoring PLN 25.8 bn (PLN 17.2 bn + PLN 8.6 bn) (2019 data, source Ministry of Investment and Development, 'Wielka płyta jest bezpieczna', 30 Jan 2019, gov.pl — rates/figures may have changed since); ~12M residents (2019 figure, source money.pl — secondary; verify with GUS census housing data — rates/figures may have changed since); durability originally estimated at **~50 years** (2019, RynekPierwotny.pl experts via money.pl — secondary); ITB report found systemic technological defects (2019, ITB report as quoted by money.pl — secondary); thermal bridges, slab-joint leaks, acoustic |
+| **Eternit/asbestos roofing** | Program usuwania azbestu (adopted by the Rada Ministrów 14 May 2002) → Program Oczyszczania Kraju z Azbestu na lata 2009–2032, its continuation (uchwała RM nr 122/2009, text per uchwała nr 39/2010; source programme text, Ministerstwo Gospodarki 2010, on bazaazbestowa.gov.pl), target **31 Dec 2032**; 9.214 Mt inventoried, 7.005 Mt still to remove, removal pace ~200 kt/yr (2026 data, source MRiT answer to interpelacja nr 16053, 15 Apr 2026); draft asbestos act (UC60) sets no deadline and keeping or moving the 2032 date is open for the programme update |
 | **1990s–2000s** | Improved insulation; some asbestos remains |
 | **Post-2017 WT** | Tighter energy limits — EP(H+W) ≤ 95 kWh/(m²·yr) single-family / ≤ 85 multi-family from 1 Jan 2017 (WT, consolidated Dz.U. 2022 poz. 1225) |
 | **Post-2021** | WT 2021 limits — EP(H+W) ≤ 70 kWh/(m²·yr) single-family / ≤ 65 multi-family from 31 Dec 2020 (WT, consolidated Dz.U. 2022 poz. 1225) |
@@ -291,7 +297,7 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 |---|---|---|
 | **Świadectwo charakterystyki energetycznej (CEN)** | Handover at sale/rent required under art. 11 Ustawa o charakterystyce energetycznej budynków as amended from **28 April 2023** (Ustawa z 7.10.2022, Dz.U. 2022 poz. 2206); buyer/tenant cannot waive it (art. 11 ust. 4) | 10 years (art. 14 ust. 1); lapses earlier if works change the energy performance |
 | **KW outprint (odpis z księgi wieczystej)** | Title verification | Current |
-| **Zaświadczenie o wymeldowaniu** | Confirms no one registered at address | ≤2-3 days old |
+| **Zaświadczenie o wymeldowaniu** | Confirms no one registered at address; the gmina discloses the names of all persons registered at an address to an applicant who shows a legal interest (art. 47 ust. 1 and 4 with art. 46 ust. 2 pkt 1 ustawy o ewidencji ludności, consolidated Dz.U. 2026 poz. 384) | No statutory validity period (the act sets none for this disclosure); how recent it must be is practice, not statute — confirm with the notary (and the lender, if any) |
 | **Wypis z rejestru gruntów + kartoteki lokali** | Cadastre extract | Current |
 | **Podstawa nabycia** | Acquisition basis (prior deed) | Per case |
 | **Zaświadczenie o braku zaległości czynszowych** | If apartment | Current |
@@ -300,8 +306,8 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 ### Climate change projections
 
 - Mean annual temperature **+1.3 °C (RCP4.5) to >3 °C (RCP8.5)** by 2100 vs the 2011–2020 decade (2020 data, source IOŚ-PIB Klimada 2.0 short report — rates/figures may have changed since)
-- Reduced summer precipitation, increased winter
-- More extreme rainfall (Boris 2024 type)
+- Annual precipitation up ~30 mm (RCP4.5) to ~50 mm (RCP8.5) by 2060 and ~50 mm to ~100 mm by 2100 — most in the east, the mountains and on the coast, least in the centre-west; the largest seasonal changes fall in summer (June–August); the report gives no summer-drier / winter-wetter split (same source)
+- More extreme rainfall (Boris 2024 type) — days with > 20 mm/day rise under both scenarios, about 1 day more under RCP8.5 than RCP4.5 (same source)
 - More frequent heatwaves — hot days (Tmax > 30 °C) roughly ×2 (RCP4.5) to >×3 (RCP8.5) by 2100 (same source)
 - Shorter winters, less snow — frost days (Tmin < 0 °C) ~95 → ~70/yr by the 2090s under RCP4.5, ~60 fewer under RCP8.5 (same source)
 
@@ -312,19 +318,19 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 ### Sources
 
 - **WPK (Wodociągi i Kanalizacja)** per gmina (Miejskie/Gminne Przedsiębiorstwo Wodociągów i Kanalizacji)
-- **Cesspits emptying** ~40 PLN/m³ (vs ~10 PLN/m³ on mains) — economic disincentive
-- **Eastern + southern rural areas** worst-served
+- **Cesspit emptying** — the owner must hold a contract with a licensed haulier, and the gmina sets upper rates for emptying by uchwała (art. 6 ust. 1–2 ustawy o utrzymaniu czystości i porządku w gminach, consolidated Dz.U. 2025 poz. 733); the sewer price per m³ is in the water company's tariff, approved by the PGW Wody Polskie regional director (art. 24b ust. 1 and art. 27a ustawy o zbiorowym zaopatrzeniu w wodę, consolidated Dz.U. 2024 poz. 757); est. ~40 PLN/m³ emptied vs ~10 PLN/m³ sewer charge — an economic disincentive (unsourced, undated estimate; both prices vary by gmina and no national price series is publicly available — verify in the gmina's upper-rate uchwała and the approved tariff)
+- **Eastern + central rural areas** worst-served: rural sewer use ≤50% of residents in the eastern and central voivodeships vs 68.2% in Pomorskie and 62.1% in Podkarpackie, >50% in Zachodniopomorskie, Opolskie, Wielkopolskie, Dolnośląskie and Śląskie (2024 data, source GUS 'Gospodarka mieszkaniowa i infrastruktura komunalna w 2024 r.', 17 Nov 2025); sewer-network density lowest in Podlaskie (20.7 km per 100 km²) and Lubelskie (32.6), highest in Śląskie (154.5) and Małopolskie (133.8) (2025 data, source GUS 'Infrastruktura komunalna – wodociągowa i kanalizacyjna w 2025 r.', 26 Jun 2026) — voivodeship averages, not a parcel verdict
 
 ### Verification
 
-- **Major cities**: universal mains
+- **Towns and cities**: mains not universal — 78.1% of urban residential buildings connected to the sewer and 88.9% to mains water (2025 data, source GUS 'Infrastruktura komunalna – wodociągowa i kanalizacyjna w 2025 r.', 26 Jun 2026); urban averages — confirm the building's own connection
 - **Sewerage coverage**: **46.9%** of the rural population uses the sewer network vs 91.3% urban, 73.3% national; rural mains water 86.8% (2025 data, source GUS BDL P2433 'Korzystający z instalacji w % ogółu ludności') — national averages; confirm the parcel's own connection with the gmina WPK
 - **Suburbs**: mixed; check whether the gmina's aglomeracja and planned works appear in the national **Krajowy Program Oczyszczania Ścieków Komunalnych (KPOŚK)** — current 6th update (AKPOŚK 2022), 1,524 agglomerations, progress reported yearly by PGW Wody Polskie: `https://www.gov.pl/web/wody-polskie/krajowy-program-oczyszczania-sciekow-komunalnych`
-- **Szambo** (cesspit) common in rural east + south
+- **Szambo** (cesspit) is the main on-site system: 2,088,736 cesspits = 80.1% of 2,608,428 on-site systems, the other 519,692 (19.9%) being home treatment plants (computed from GUS BDL P3197 'zbiorniki bezodpływowe' and 'oczyszczalnie przydomowe', state on 31 Dec 2025); GUS 'Infrastruktura komunalna – wodociągowa i kanalizacyjna w 2025 r.' (26 Jun 2026) gives the same 80.0% / 20.0% split but prints counts of 2,283.8k / 324.2k that do not match it — the BDL counts are used here; 76.3% of the 46.1 hm³ of cesspit sewage collected in 2025 came from rural areas (2025 data, same GUS release); home-treatment-plant share highest in Kujawsko-Pomorskie (34.5%), lowest in Podkarpackie (11.5%) (2024 data, source GUS 'Gospodarka mieszkaniowa i infrastruktura komunalna w 2024 r.', 17 Nov 2025); the owner must connect to an existing sewer, except that connection is not mandatory for a property with a compliant home treatment plant; where building a sewer is technically or economically unjustified, a cesspit or home treatment plant is required instead (art. 5 ust. 1 pkt 2 ustawy o utrzymaniu czystości i porządku w gminach, consolidated Dz.U. 2025 poz. 733)
 
 ### Costs
 
-| Scenario | Cost (PLN) |
+| Scenario | Cost (PLN, est.) |
 |---|---:|
 | Przyłącze do sieci wodociągowej | 5,000–15,000 |
 | Przyłącze do kanalizacji | 8,000–25,000 |
@@ -332,27 +338,32 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 | Przydomowa oczyszczalnia ścieków | 10,000–25,000 |
 | Studnia głębinowa | 8,000–20,000 |
 
+All rows are est. — undated ranges with no primary price source. The owner pays for building the przyłącze (art. 15 ust. 2 ustawy o zbiorowym zaopatrzeniu w wodę, consolidated Dz.U. 2024 poz. 757), and the water company must connect the property once the warunki przyłączenia in its regulamin are met and connection is technically possible (art. 15 ust. 4); get a quote against those conditions.
+
 ---
 
 ## Cost benchmarks (PL 2026)
 
 | Work | Cost (PLN) |
 |---|---:|
-| Świadectwo CEN | 600–1,500 |
+| Świadectwo CEN | 350–650 flat / 600–1,300 house (Jan 2026 average prices, comparison portal rankomat.pl ⚠️ secondary; cross-check 430–815 net, marketplace oferteo.pl, 2026 ⚠️); Czyste Powietrze grant cap for the post-works CEN: 400 at the 100% level (2026 data, source czystepowietrze.gov.pl "Na co i ile") |
 | Notariusz (max taxa, flat sale) | 1,949.55 incl. VAT on a 600,000 sale (≈0.33%, computed) |
-| KW + sąd fees | 200–500 |
+| KW + sąd fees | 200–500 (computed: 200 ownership entry, + 100 to open a new KW, + 200 mortgage entry; art. 42 ust. 1, art. 44 ust. 1 pkt 1, art. 45 ust. 1) (2026 data, source ustawa o kosztach sądowych w sprawach cywilnych, consolidated text Dz.U. 2025 poz. 1228; the 2026 amendments Dz.U. 2026 poz. 346, 473 and 1003 leave these articles unchanged) |
 | PCC (resale, non-FTB) | 2% |
-| Realtor | est. 2–3% per side (market practice, negotiable; no official source) |
+| Realtor | est. 1.5–3% buyer side, 2–5% seller side; 1.5–2% per side when both pay (2026 market guides ⚠️ secondary: cenauslug.pl Sep 2026, agency fee most often 2–4% of the value and 1.5–3% for a buyer's agent; pewnylokal.pl Feb 2026, 1.5–3% standard, 2–5% on a flat sale, 1.5–2% per side when split; commission not regulated by law per pewnylokal.pl, negotiable) |
 | **Total transaction cost (FTB exempt, excl. agent)** | **≈0.4%** (computed, 600,000 flat) |
 | **Total transaction cost (resale, second home, excl. agent)** | **≈2.4%** (computed, 600,000 flat) |
 | **Total transaction cost (new build, 8% VAT included, excl. agent)** | **≈0.4–0.8%** (computed, 600,000 flat) |
-| Asbestos eternit removal | 4,000–15,000 |
-| Wielka Płyta refurbishment | 30,000–80,000 |
-| Roof renovation | 15,000–50,000 |
-| Energy retrofit (Class E → A) | 60,000–150,000 |
-| Boiler upgrade (kotła ekodesignowy) | 12,000–30,000 |
-| Heat pump | 35,000–70,000 |
-| Solar PV | 25,000–60,000 |
+| Asbestos eternit removal (dismantling + transport + disposal) | est. 4,000–14,000 for a 100 m² roof (computed: 100 m² × ~40–140 PLN/m²; low end cenauslug.pl Aug 2026: dismantling 35–55 PLN/m² + disposal incl. transport 500–850 PLN/t at 11–15 kg/m²; high end kb.pl Jan 2026: dismantling 60–80 + wrapping, transport and disposal 35–60 PLN/m²; 2026 price guides ⚠️ secondary that disagree, so the range spans both) |
+| Wielka Płyta flat, general renovation (installations, bathroom, kitchen, finishes) | est. 75,000–250,000 for 50 m² (computed: 50 m² × 1,500–5,000 PLN/m², kb.pl Apr 2026 ⚠️ secondary); 110,000–160,000 for 50 m² at mid standard, ~2,400–3,200 PLN/m² (muratordom.pl Sep 2026 ⚠️ secondary, AI-assisted article); a refresh that keeps the installations costs less — verify with 2–3 contractor quotes |
+| Roof renovation (re-covering) | est. 16,000–45,000 metal tile / 21,000–60,000 ceramic tile for a 100–150 m² roof (computed: removal 30–50 + new covering with battens and membrane 80–150 + material 50–100 metal / 100–200+ ceramic PLN/m²; 2026 price guide, contractor marketplace oferteo.pl ⚠️ secondary; inputs cover the covering only, not rafter repairs); the same page puts whole orders at most often 1,000–33,000, typical ~7,000, with no roof size or scope stated |
+| Deep energy retrofit, single-family house (insulation + windows + heat source) | est. 60,000–150,000 (LOW confidence: unsourced estimate from the 2026-04 initial population); calibration: Czyste Powietrze worked examples of the maximum grant at the 100% level, building above 140 kWh/(m²·yr), are 140,300 (air/water heat pump + thermo-modernisation) and 170,100 (ground-source pump + thermo-modernisation), thermo-modernisation capped at 83,000 (2026 data, source czystepowietrze.gov.pl "Na co i ile") |
+| Boiler upgrade (pellet ekoprojekt or gas condensing) | 22,000–32,000 pellet / 20,000–28,000 gas condensing, incl. installation, 150 m² house (Mar 2026, trade press muratordom.pl ⚠️ secondary); Czyste Powietrze grant cap for a pellet boiler: 20,500 at the 100% level, incl. chimney and buffer tank (2026 data, source czystepowietrze.gov.pl) |
+| Heat pump (incl. installation, ~150 m² house) | air/water 35,000–55,000; ground-source 55,000–90,000 (2026 price guides ⚠️ secondary: cenauslug.pl Aug 2026 35,000–45,000 / 70,000–90,000 incl. boreholes; muratordom.pl Mar 2026 38,000–55,000 / 55,000–85,000); Czyste Powietrze grant caps at the 100% level: 35,200 air/water (higher efficiency class), 45,000 + 20,000 lower source for ground-source (2026 data, source czystepowietrze.gov.pl) |
+| Solar PV (rooftop, on-grid) | 20,000–28,000 for 5 kWp; 38,000–52,000 for 10 kWp; a 5–10 kWh battery adds 15,000–40,000 (May 2026 price guide, trade press muratordom.pl ⚠️ secondary, AI-assisted article); cross-check 14,000–25,000 for 5 kW and 35,000–60,000 for 10 kW, gross incl. installation (marketplace oferteo.pl, 2026 ⚠️ secondary) |
+
+- Renovation and equipment rows are market prices that no primary source publishes: ranges come from 2026 secondary price guides (⚠️) or are labelled est.; the Czyste Powietrze grant caps are the primary cross-check where one exists
+- Polish energy certificates carry no A–G letter class yet: the recast EPBD's classes (transposition deadline 29 May 2026) are still in draft (trade press muratordom.pl, 5 Oct 2026 ⚠️ secondary; no 2026 regulation on energy-performance certificates in Dz.U. through poz. 1445 of 2 Nov 2026, api.sejm.gov.pl, checked 2026-11-03; EU-wide status in `shared/regulatory-watch.md`)
 
 ## Active fiscal incentives (2025-2026)
 
@@ -457,8 +468,8 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 ## Status
 
 ✅ **Fully populated** as of 2026-04-25.
-**Coverage check**: pricing (GUS BDL 2025 city medians + AMRON-SARFiN + Otodom; NBP BaRN), traffic (GDDKiA GPR 2025 SDRR), tax (PoN 2025 reform + 2026 and 2027 max rates per MF obwieszczenia M.P. 2025 poz. 726 and M.P. 2026 poz. 741), rental (najem types + EU 2024/1028 implementing act, Sejm print 2865), work (ZUS, PIT, GUS 2025 wages), risks (smog + Boris 2024 + radon + mining + climate projections), mains (GUS BDL 2025 sewerage) cite primary government sources where stated; the `--price` benchmark splits, the `--mains` connection-cost table and the renovation rows of Cost benchmarks are estimates with no primary source.
-**Confidence**: HIGH for `--tax` (re-verified 2026-10-23 against statute and gazette text: PoN 2025 budynek/budowla definitions per Dz.U. 2024 poz. 1757, 2026 and 2027 max rates per M.P. 2025 poz. 726 and M.P. 2026 poz. 741, PCC 2% / 6% and first-home exemption, 8% VAT limits, notary taxa and court fees); HIGH for the `--rental` tax rules and `--work` figures (re-verified 2026-10-23: ryczałt 8.5% / 12.5%, VAT exemption limit PLN 240,000, ZUS 2026, GUS 2025 wages); MEDIUM for short-term-let rules (EU 2024/1028 implementing act, Sejm print 2865, passed the Sejm 8 Oct 2026; not in Dz.U. 2026 through poz. 1390 of 22 Oct 2026; Senate stage not confirmed, so the fines, listing-ID duty and dates may still change); HIGH for świadectwo CEN mandate (28 Apr 2023), Storm Boris 2024 core figures and Małopolska anti-smog deadlines (re-checked 2026-10-23); MEDIUM for `--price` city-level ranges (est., anchored to GUS 2025 city medians) and LOW for its district splits, single-family totals and smaller-city / rural ranges (no primary source; NBP BaRN not readable on 2026-10-23); MEDIUM for `--risks` (partly refreshed 2026-10-23; 11 items unverified, incl. Bełchatów tremor count, storm-damage trend and the Wielka Płyta figures, which rest on a secondary source); MEDIUM for `--mains` (rural sewerage from GUS BDL 2025; connection-cost table and cesspit cost are unsourced estimates); LOW for forum sources (subreddits unverifiable).
+**Coverage check**: pricing (GUS BDL 2025 city medians + GUS DBW 2025 powiat medians + NBP BaRN II kw. 2026 transaction means + AMRON-SARFiN + Otodom), traffic (GDDKiA GPR 2025 SDRR), tax (PoN 2025 reform + 2026 and 2027 max rates per MF obwieszczenia M.P. 2025 poz. 726 and M.P. 2026 poz. 741), rental (najem types + EU 2024/1028 implementing act, Sejm print 2865), work (ZUS, PIT, GUS 2025 wages), risks (smog + Boris 2024 and WORP 2025 flood history + radon + mining tremors + IMGW-PIB 2025 climate + Klimada 2.0 projections), mains (GUS BDL 2025 sewerage and on-site systems + GUS 2024 / 2025 regional and urban connection shares) cite primary government sources where stated; the `--price` centrum / periphery splits and single-family totals, the `--mains` connection-cost table and cesspit rates, and the CEN, realtor and renovation rows of Cost benchmarks are estimates or secondary price guides ⚠️ with no primary price source.
+**Confidence**: HIGH for `--tax` (re-verified 2026-10-23 against statute and gazette text: PoN 2025 budynek/budowla definitions per Dz.U. 2024 poz. 1757, 2026 and 2027 max rates per M.P. 2025 poz. 726 and M.P. 2026 poz. 741, PCC 2% / 6% and first-home exemption, 8% VAT limits, notary taxa and court fees); HIGH for the `--rental` tax rules and `--work` figures (re-verified 2026-10-23: ryczałt 8.5% / 12.5%, VAT exemption limit PLN 240,000, ZUS 2026, GUS 2025 wages); MEDIUM for short-term-let rules (EU 2024/1028 implementing act, Sejm print 2865, passed the Sejm 8 Oct 2026; not in Dz.U. 2026 through poz. 1390 of 22 Oct 2026; Senate stage not confirmed, so the fines, listing-ID duty and dates may still change); HIGH for świadectwo CEN mandate (28 Apr 2023), Storm Boris 2024 core figures and Małopolska anti-smog deadlines (re-checked 2026-10-23); MEDIUM for `--price` city-level ranges (est., calibrated against GUS 2025 city medians and NBP BaRN II kw. 2026 transaction means); HIGH for its smaller-city and rural-east PLN/m² rows as powiat-level figures (computed from GUS 2025 powiat medians, not parcel-level); LOW for its centrum / periphery splits and single-family totals (est., no primary source at that level; national GUS RCN 2025 cross-check only); HIGH for `--risks` items sourced to primary bodies (re-verified 2026-10-23 and closed by the 2026-11-03 gap-closing pass: WORP 2025 flood history, IGF PAN and GIG-PIB tremor records, IMGW-PIB 2025 climate data, ministry Wielka Płyta figures, Klimada 2.0 projections); MEDIUM for its NGO / secondary items (PAS smog rankings, ~2.5M kopciuchy, the secondary Wielka Płyta resident count, durability and ITB-defect items) and curated build-era rows; the regional storm-damage trend is marked data not publicly available, and the Bełchatów annual tremor count gives no figure, with a pointer to IGF PAN's yearly Seismological Bulletin; MEDIUM for `--mains` (rural sewerage from GUS BDL 2025; connection-cost table and cesspit cost are unsourced estimates); LOW for forum sources (subreddits unverifiable).
 
 ### Per-section verification (overrides playbook-level date)
 
@@ -468,12 +479,12 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 | `--rental` | 2026-10-23 | 2026-10-23 refresh wave | 10 changed, 6 confirmed, 2 unverifiable (Kraków uchwała krajobrazowa; Sopot / Gdańsk / Wrocław rules); STR implementing act passed the Sejm 8 Oct 2026, not in force |
 | `--work` | 2026-10-23 | 2026-10-23 refresh wave | 6 changed, 3 confirmed, 2 unverifiable (job-board and Urząd Pracy pointers); ZUS 2026, VAT limit PLN 240,000, GUS 2025 wages |
 | `--traffic` | 2026-10-23 | 2026-10-23 refresh wave | 2 changed, 2 confirmed; GPR 2025 calibration added; verdict bands are curated wisdom, not data |
-| Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave | 5 confirmed, 1 unverifiable (OLX Nieruchomości returned HTTP 403) |
+| Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | 5 confirmed, 1 unverifiable in the refresh (OLX Nieruchomości could not be read for verification); OLX category page confirmed from an archived capture (2026-10-25) in the `--price` gap-closing pass |
 | Verification authorities | 2026-10-23 | 2026-10-23 refresh wave | 3 confirmed; GDDKiA (GPR) and GIG-PIB GRSS rows added |
 | Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | 14 existing URLs live with content checked; 7 URLs added |
-| `--price` | 2026-04-25 | initial population | Partly refreshed 2026-10-23 (6 changed, 5 confirmed, 4 unverifiable), not re-verified: NBP BaRN unreadable, OLX 403, benchmark splits are est. with no primary source |
-| `--risks` | 2026-04-25 | initial population | Partly refreshed 2026-10-23 (12 changed, 27 confirmed, 11 unverifiable), not re-verified |
-| `--mains` | 2026-04-25 | initial population | Partly refreshed 2026-10-23 (2 changed, 1 confirmed, 9 unverifiable), not re-verified: cost table and cesspit cost unsourced |
+| `--price` | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | NBP BaRN coverage (III kw. 2006 – II kw. 2026) and URL confirmed from the data file and an archived capture (2026-09-16), II kw. 2026 city transaction means added as a cross-check; OLX Nieruchomości confirmed from an archived capture (2026-10-25); smaller-city and rural-east PLN/m² computed from GUS 2025 powiat medians (GUS DBW variable 307); centrum / periphery splits and single-family totals stay est. |
+| `--risks` | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | Boris flood area corrected (WORP annex 7: Małopolskie flooded only in small parts); 1997 / 2010 floods and flood-prone rivers (WORP 3rd cycle), KGHM 2010 M ≥ 3.0 count, 2002 asbestos programme and Klimada extreme-rain trend confirmed; unsourced seasonal-precipitation split removed; PAA map relabelled gamma dose rate, not radon; heatwave, drought and storm lines rebased on IMGW-PIB 'Klimat Polski 2025'; Wielka Płyta row on ministry figures, secondary items attributed; Bełchatów exact day dropped and annual count given a verify-at pointer (IGF PAN Seismological Bulletin); regional storm trend marked data not publicly available; wymeldowanie freshness marked practice, not statute |
+| `--mains` | 2026-10-23 | 2026-10-23 refresh wave + 2026-11-03 gap-closing pass | Worst-served regions corrected to eastern + central (GUS 2024); urban connection shares (GUS 2025) replace "universal mains"; cesspit count and share computed from GUS BDL P3197 (2025); cesspit rates and cost table labelled est. with the statutory price setters (UCPG art. 6, water-supply act art. 15) |
 
 ## Extension TODOs
 
@@ -496,8 +507,9 @@ Computed for a PLN 600,000 flat, excluding agent commission (inputs: PCC 2%, not
 - **2026-05-27** — Tier-1 validation sweep: PCC 6% bulk-buyer rate added; najem prywatny ryczałt, Bezpieczny Kredyt 2% and successor schemes, wspólnota threshold, foreign-buyer regime and okres ochronny rewritten
 - **2026-05-29** — Anti-hallucination consistency sweep: Group I inheritance exemption and kopciuchy PM2.5 share relabelled est.
 - **2026-09-18** — Citation-repair wave: GIOŚ URLs re-pointed to `https://www.gov.pl/web/gios`
-- **2026-10-23** — Refresh wave. Playbook-level date not re-stamped: `--price`, `--risks` and `--mains` were not fully re-verified. Counts per section (changed / confirmed / unverifiable):
+- **2026-10-23** — Refresh wave plus a gap-closing pass. Playbook-level date not re-stamped: Cost benchmarks remains open — its KW court fees are confirmed and its notary, PCC and total rows rest on the re-verified `--tax` section, but the CEN, realtor and renovation rows rest on secondary price guides ⚠️ or est. labels with no primary price source, and the deep energy retrofit row is an unsourced LOW-confidence est.; `--price`, `--risks` and `--mains` were closed by the gap-closing pass below. Counts per section (changed / confirmed / unverifiable):
   - Re-verified: `--tax` 17 / 14 / 2; `--rental` 10 / 6 / 2; `--work` 6 / 3 / 2; `--traffic` 2 / 2 / 0; Common listing platforms 0 / 5 / 1; Verification authorities 0 / 3 / 0 (2 rows added); Source URL templates 0 / 14 / 0 (7 URLs added)
-  - Partly refreshed, not re-verified: Country profile 2 / 3 / 4; `--price` 6 / 5 / 4; `--risks` 12 / 27 / 11; `--mains` 2 / 1 / 9; Cost benchmarks 5 / 2 / 8; Active fiscal incentives 10 / 2 / 5; Caveats unique to PL 6 / 6 / 1; foreign-buyer regime 4 / 1 / 1; Reddit / forum sources 2 / 2 / 7
+  - Partly refreshed, not re-verified by the refresh (`--price`, `--risks` and `--mains` closed in the gap-closing pass below; Cost benchmarks still open): Country profile 2 / 3 / 4; `--price` 6 / 5 / 4; `--risks` 12 / 27 / 11; `--mains` 2 / 1 / 9; Cost benchmarks 5 / 2 / 8; Active fiscal incentives 10 / 2 / 5; Caveats unique to PL 6 / 6 / 1; foreign-buyer regime 4 / 1 / 1; Reddit / forum sources 2 / 2 / 7
   - Main changes: EU 2024/1028 implementing act (Sejm print 2865) passed the Sejm 8 Oct 2026 and is not in force, and the "15 Oct 2026" deadline is removed; 2027 PoN max rates added (M.P. 2026 poz. 741); notary fee and transaction-cost totals recomputed from statute (≈0.4% first home, ≈2.4% resale second home, ≈0.4–0.8% new build, excl. agent; previously ~3–4% / ~6–8% / ~3–4%); VAT exemption limit PLN 240,000 from 1 Jan 2026; ZUS 2026 and GUS 2025 average wages; NBP FX and GUS admin counts; price table relabelled est. with a GUS 2025 city-median anchor; Gemius 2023 listing-audience figures (stale-suffixed); Czyste Powietrze 2026 rules, Mój Prąd closed with Przydomowe Magazyny Energii as successor; foreign-buyer permit conditions restated from the 1920 act; Małopolska anti-smog resolution number corrected to XXXII/452/17; USCB tremor and climate-projection figures replaced (GIG-PIB GRSS, Klimada 2.0); WT energy limits replace "energy class C"; rural sewerage 46.9% (GUS BDL 2025); GPR 2025 traffic calibration; DomPlus.pl deprecated; CHF court-procedure act (Dz.U. 2026 poz. 985) and SN III CZP 25/22 date added
   - Status footer: Coverage check and Confidence recomputed; per-section verification table added
+  - Gap-closing pass (checks dated 2026-11-03): `--price`, `--risks` and `--mains` closed, Cost benchmarks still open. Facts confirmed / changed / relabelled: `--price` 2 / 2 / 3, `--risks` 5 / 6 / 3, `--mains` 0 / 3 / 3, Cost benchmarks 1 / 0 / 9 (total 8 / 11 / 18). Main changes: NBP BaRN coverage (III kw. 2006 – II kw. 2026) confirmed from the data file and an archived capture, with II kw. 2026 city transaction means added as a cross-check; OLX Nieruchomości confirmed from an archived capture; smaller-city and rural-east PLN/m² rows computed from GUS 2025 powiat medians (6,000–9,500 → 5,771–7,499; 3,000–5,500 → 4,905–6,787); Storm Boris flood area corrected (Małopolskie flooded only in small parts), PAA map relabelled gamma dose rate, heatwave / drought / storm lines rebased on IMGW-PIB 2025 data, the unsourced seasonal-precipitation split removed, the Wielka Płyta row rebased on ministry figures and the Bełchatów exact day dropped; `--mains` worst-served regions corrected to eastern + central, GUS urban connection shares and cesspit counts added, cost rows labelled est. with the statutory price setters; KW court fees confirmed (Dz.U. 2025 poz. 1228), CEN, realtor and renovation rows re-based on dated secondary price guides ⚠️ or computed / LOW-confidence est., four of them cross-checked against Czyste Powietrze 2026 grant caps, and the "Class E → A" label dropped. Status footer Coverage check, Confidence and per-section rows updated to match.

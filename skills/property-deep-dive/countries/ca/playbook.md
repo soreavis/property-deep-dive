@@ -29,18 +29,18 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 ### Primary sources
 
 - **CREA MLS Home Price Index (HPI)**: `https://www.crea.ca/housing-market-stats/mls-home-price-index/` — national + regional benchmark
-- **Teranet-NBC HPI**: `https://housepriceindex.ca` — repeat-sales index, monthly
+- **Teranet-NBC HPI**: `https://housepriceindex.ca` — repeat-sales index, monthly public release (2026 data, source [Teranet–National Bank methodology](https://housepriceindex.ca/about/our-methodology/))
 - **CMHC Housing Market Information Portal**: `https://www03.cmhc-schl.gc.ca/hmip-pimh/`
 - **Statistics Canada (StatCan)**: `https://www.statcan.gc.ca/en/subjects-start/housing` — house price index + rental
 - **Provincial price boards**:
   - Toronto: TRREB `https://trreb.ca` (Toronto Regional Real Estate Board)
   - Vancouver: **Greater Vancouver REALTORS® (GVR)** — formerly the Real Estate Board of Greater Vancouver (REBGV) — `https://www.gvrealtors.ca/` (monthly benchmark price / HPI package under market intelligence) (2026 data, source GVR; 2026-09-18 verified)
   - Calgary: CREB `https://www.creb.com`
-  - Montreal: APCIQ `https://apciq.ca`
+  - Montreal: QPAREB / APCIQ (Quebec Professional Association of Real Estate Brokers; Centris data) `https://apciq.ca` (2026 data, source [apciq.ca/en](https://apciq.ca/en/))
 
 ### Listing platforms
 
-- **Realtor.ca** — DOMINANT (CREA, ~95% MLS coverage): `https://www.realtor.ca`
+- **Realtor.ca** — CREA's consumer listing site, run since Jan 2025 by REALTOR.ca Canada Inc., a wholly owned CREA subsidiary (2026 data, source [CREA — REALTOR.ca for Canadians](https://www.crea.ca/technology/realtor-ca-for-canadians/)); share of MLS® listings it carries: data not publicly available — verify at [CREA](https://www.crea.ca/): `https://www.realtor.ca`
 - **Centris.ca** — Quebec only (QPAREB): `https://www.centris.ca`
 - **Royal LePage**, **RE/MAX**, **Zolo** — agency networks
 
@@ -48,13 +48,13 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 
 | Region | Benchmark / price (CAD) | YoY change | Source (2026 data) |
 |---|---:|---:|---|
-| **National composite** | $666,538 (avg, not seasonally adjusted); HPI dollar level not stated in the release | -3.4% (HPI) / -1.6% (avg) | [CREA release, 16 Oct 2026](https://creastats.crea.ca/en-CA/) |
+| **National composite** | $651,400 (Composite MLS® HPI benchmark) / $666,538 (avg); both not seasonally adjusted | -3.4% (HPI) / -1.6% (avg) | [CREA release, 16 Oct 2026](https://creastats.crea.ca/en-CA/) + [CREA MLS® HPI data, Oct 2026 release (zip: Not Seasonally Adjusted (M).xlsx, sheet AGGREGATE)](https://assets.ctfassets.net/gm6df3h7p862/0UIFBeTwRyEBUSyDl4IcO/0a3e0152751219f93b4fcaa398480e5b/MLS_HPI_Oct_2026.zip) |
 | **Toronto (TRREB, all areas)** | $917,600 (HPI composite) / $1,006,409 (avg) | -4.65% (HPI) / -5.1% (avg) | [TRREB MLS HPI tables, Sep 2026](https://trreb.ca/wp-content/files/market-stats/home-price-index/TRREB_MLS_HPI_Public_Tables_0926.pdf) + [TRREB Market Watch](https://trreb.ca/market-data/market-watch/) |
 | **Vancouver (Metro, GVR)** | $1,075,900 (HPI composite) | -5.5% | [GVR stats package, 2 Oct 2026](https://members.gvrealtors.ca/news/GVR-Stats-Package-September-2026.pdf) |
-| **Calgary (city, CREB)** | $566,700 (total residential benchmark) | just under -1% ("nearly one per cent lower") | [CREB release, 1 Oct 2026](https://www.creb.com/News/Media_Releases/2026/October/September_2026_Stats) |
+| **Calgary (city, CREB)** | $566,700 (total residential benchmark) / $646,198 (avg) | -0.82% (benchmark) / +4.9% (avg) | [CREB release, 1 Oct 2026](https://www.creb.com/News/Media_Releases/2026/October/September_2026_Stats) + [CREB Calgary monthly stats package, Sep 2026](https://www.creb.com/Housing_Statistics/documents/09_2026_Calgary_Monthly_Stats_Package.pdf) |
 | **Montreal (CMA, QPAREB)** | $645,500 (single-family median, Q3) / $435,000 (condo median, Q3) | +2% / +2% | [QPAREB Q3 release, 14 Oct 2026](https://apciq.ca/en/quebecs-residential-real-estate-market-continues-to-transition-yet-most-markets-remain-seller-friendly) (Centris data) |
 | **Ottawa (OREB)** | $623,500 (HPI composite) / $685,640 (avg) | -0.3% (HPI) / -1.0% (avg) | [CREA stats — Ottawa board, Sep 2026](https://creastats.crea.ca/board/otta) |
-| **Halifax-Dartmouth (NSAR)** | $585,650 (avg) | +0.4% | [NSAR MLS Statistical Report, Sep 2026](https://www.nsrealtors.ca/common/Uploaded%20files/NSAR%20PDF%20document/Web%20-%20Public/Stats/stats0926.pdf) |
+| **Halifax-Dartmouth (NSAR)** | $541,700 (HPI composite, CREA's Halifax-Dartmouth series) / $585,650 (avg) | -4.1% (HPI, computed: $541,700 / $565,100 in Sep 2025) / +0.4% (avg) | [CREA MLS® HPI data, Oct 2026 release (zip: Not Seasonally Adjusted (M).xlsx, sheet HALIFAX_DARTMOUTH)](https://assets.ctfassets.net/gm6df3h7p862/0UIFBeTwRyEBUSyDl4IcO/0a3e0152751219f93b4fcaa398480e5b/MLS_HPI_Oct_2026.zip) + [NSAR MLS Statistical Report, Sep 2026](https://www.nsrealtors.ca/common/Uploaded%20files/NSAR%20PDF%20document/Web%20-%20Public/Stats/stats0926.pdf) |
 | **Edmonton (RAE)** | $423,100 (HPI composite) / $466,080 (avg) | -0.3% (HPI) / +2.9% (avg) | [CREA stats — Edmonton board, Sep 2026](https://creastats.crea.ca/board/edmo) |
 | **Winnipeg (WRREB)** | $467,687 (detached avg, YTD) / $288,751 (condo avg, YTD); HPI not shown on the board page | +3% / +2% (YTD) | [CREA stats — Winnipeg board, YTD to Sep 2026](https://creastats.crea.ca/board/winn) |
 
@@ -62,7 +62,7 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 
 1. CAD/sq ft = price / **square footage** (sqft is dominant unit, not m²)
 2. Cross-check **Realtor.ca** sold-price history + Teranet for closed sales
-3. **HPI vs average**: HPI strips out luxury/distressed; average runs above HPI (est. 5–15%). Computed from the Sep 2026 table above: TRREB +9.7% ($1,006,409 / $917,600), Ottawa +10.0% ($685,640 / $623,500), Edmonton +10.2% ($466,080 / $423,100)
+3. **HPI vs average**: HPI strips out luxury/distressed; average runs above HPI. Computed from the Sep 2026 table above: TRREB +9.7% ($1,006,409 / $917,600), Ottawa +10.0% ($685,640 / $623,500), Edmonton +10.2% ($466,080 / $423,100), Calgary +14.0% ($646,198 / $566,700), Halifax-Dartmouth +8.1% ($585,650 / $541,700), national +2.3% ($666,538 / $651,400). The gap moves with each market's sales mix, so compute it from the target board's own HPI and average instead of applying a fixed range
 4. **Convert CAD to EUR/USD** at current FX
 
 ### Key terms
@@ -105,19 +105,19 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 
 Property tax = **mill rate × assessed value** (assessed by MPAC in ON, BC Assessment in BC, and municipal assessors in AB, e.g. City of Calgary / City of Edmonton).
 
-Residential rates are set annually by each municipality. Toronto, Vancouver, Calgary, Halifax and Edmonton rows show published 2026 rates; Montreal and Ottawa rows remain est. magnitudes (verify the current year on the municipal tax bill / city budget):
+Residential rates are set annually by each municipality. Toronto, Vancouver, Calgary, Halifax and Edmonton rows show published 2026 rates; the Montreal row is computed from the city's 2026 billing open data for all 19 boroughs; the Ottawa row is an est. from draft-budget figures (verify the current year on the municipal tax bill / city budget):
 
 | Province / City | Residential rate | Assessment basis |
 |---|---:|---|
 | Toronto | 0.767% total = 0.605% city + 0.009% City Building Fund + 0.153% education (2026 data, source toronto.ca property tax rates) | MPAC — 2026 taxes still use 1 Jan 2016 current values (province-wide reassessment postponed; source mpac.ca) |
 | Vancouver (City) | 0.336% total ($3.36394 per $1,000, incl. $0.98001 provincial school tax) (2026 data, source vancouver.ca residential rates; City council report 28 Apr 2026, Appendix A) | BC Assessment annual (2026 roll = market value at 1 Jul 2025) |
 | Calgary | 0.665% total = 0.389% city + 0.276% provincial (2026 data, source calgary.ca, Property Tax Bylaw 9M2026) | Annual (City of Calgary assessment) |
-| Montreal | ~0.60% (est., basis unverified — rates/figures may have changed since) | Triennial roll 2026-2028, value change phased in by thirds (source montreal.ca) |
-| Ottawa | ~1.02% (est., unverified — rates/figures may have changed since) | MPAC (1 Jan 2016 current values) |
+| Montreal | 0.623–0.740% municipal (residential, 5 dwellings or fewer), computed for all 19 boroughs from each borough's most common rate stack = city-wide 0.4631% general + 0.0831% water + 0.0070% ARTM + 0.0024% roads, plus borough services and investment taxes and the former-city debt tax; e.g. Ville-Marie 0.623% (lowest), Outremont 0.634%, Plateau-Mont-Royal 0.651%, Rosemont–La Petite-Patrie 0.659%, Rivière-des-Prairies–Pointe-aux-Trembles 0.710%, Montréal-Nord 0.738%, Anjou 0.740% (highest) (2026 data, source [Ville de Montréal open data — Imposition annuelle de taxes municipales](https://donnees.montreal.ca/dataset/0a912de3-9307-4b63-bf19-3a4594f87e1f), first 2026 billing, published 2026-02-20); school tax billed separately (see below) | Triennial roll 2026-2028, value change phased in by thirds (source montreal.ca) |
+| Ottawa | ~1.26% total, est. = ~1.107% municipal (computed: $4,593 2026 taxation ÷ $415,000 average urban-home assessment, [City of Ottawa Draft Budget 2026](https://documents.ottawa.ca/sites/default/files/FINAL%202026%20Budget%20Magazine%20English.pdf), Table 1, Nov 2025 draft-stage figures; the table's increases are city-wide, police and transit only, so education is taken as excluded) + the province-set education rate (0.153% in Toronto's 2026 breakdown above); adopted 2026 rate table not reachable — verify at ottawa.ca/taxes. Residential bills also carry a $267/yr solid-waste fee for curbside homes (2026 data, source [City of Ottawa 2026 final tax bill insert](https://documents.ottawa.ca/sites/default/files/26-048_Ottawa_Property-taxes_E-print_EN.pdf)) | MPAC (1 Jan 2016 current values; reassessment still postponed per the City's Draft Budget 2026) |
 | Halifax | 1.113% urban, computed: $0.687 general + $0.015 supplementary education + $0.016 climate action + $0.095 local transit (within 1 km walk of a transit stop) + $0.300 provincial per $100 (2026/27 data, source halifax.ca); fire protection ($0.014, within 1,200 ft of a hydrant), right-of-way ($0.008, mapped area) and community area rates extra | PVSC annual |
 | Edmonton | 1.036% total = 0.774% municipal + 0.254% education + 0.008% requisition allowance (2026 data, source edmonton.ca) | Annual (City of Edmonton assessment) |
 
-**Education portion**: included in the sourced totals above (2026: Ontario 0.153%, Vancouver provincial school tax 0.098%, Calgary provincial 0.276%, Edmonton 0.254% + 0.008%, Halifax provincial $0.300 per $100 incl. $0.290 education); Quebec school tax and other municipalities — verify on the municipal tax bill.
+**Education portion**: included in the sourced totals above (2026: Ontario 0.153%, Vancouver provincial school tax 0.098%, Calgary provincial 0.276%, Edmonton 0.254% + 0.008%, Halifax provincial $0.300 per $100 incl. $0.290 education); Quebec school tax is billed separately at one province-wide rate: $0.07899 per $100 of standardized value for 2026-2027 (was $0.08423 in 2025-2026), first $25,000 of taxable value exempt (2026 data, source [Centre de services scolaire des Hautes-Rivières, 2 Jul 2026](https://www.cssdhr.gouv.qc.ca/wp-content/uploads/2026/07/2026-07-02_Comm_Pres_Taxe_Scol.pdf)); other municipalities — verify on the municipal tax bill.
 
 ### Transaction taxes (LTT — Land Transfer Tax)
 
@@ -130,7 +130,7 @@ Tiered 0.5% to 2.5% — provincial:
 - $400k-$2M: 2.0%
 - > $2M: 2.5% — only on land with one or two single-family residences (2026 data, source [ontario.ca — calculating LTT](https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax), updated 2026-04-22)
 
-**Toronto Municipal LTT (MLTT)**: graduated rates with **new high-value tier from 1 Apr 2026** (passed by Council 17 Dec 2025): **4.4%** ($3M–$4M), **5.45%** ($4M–$5M), **6.5%** ($5M–$10M), **7.55%** ($10M–$20M), **8.6%** (>$20M) — single-family residences only (other residential stays at 0.5–2.0%), on top of base 0.5–2.5% (2026-10-23 verified, source: [toronto.ca — MLTT rates](https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/)).
+**Toronto Municipal LTT (MLTT)**: graduated rates with **new high-value tier from 1 Apr 2026** (amendment passed by City Council on 17 Dec 2025): **4.4%** ($3M–$4M), **5.45%** ($4M–$5M), **6.5%** ($5M–$10M), **7.55%** ($10M–$20M), **8.6%** (>$20M) — properties with one or two single-family residences only (all other residential stays at 0.5–2.0%), on top of base 0.5–2.5%; MLTT administration fee $102.56 + HST per transaction (2026-11-03 verified, source: [toronto.ca — MLTT rates](https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/), modified 2026-04-07).
 
 **FTB rebate**: up to $4,000 ON (LTT refund, transactions from 1 Jan 2017; source ontario.ca, updated 2026-02-10) + $4,475 Toronto (MLTT rebate; source toronto.ca, modified 2025-12-18).
 
@@ -143,7 +143,7 @@ Tiered:
 - $200k–$2M: 2%
 - $2M+: 3%
 - **+2% over $3M** (additional, residential portion only) (2026 data, source [gov.bc.ca — Property transfer tax](https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax), updated 2025-12-03)
-- **Foreign buyer Additional Property Transfer Tax: 20%** in the specified Regional Districts: Capital (CRD), Fraser Valley, Metro Vancouver, Central Okanagan, Nanaimo (2026-05-27 verified, source: [gov.bc.ca — Additional Property Transfer Tax](https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/additional-property-transfer-tax))
+- **Foreign buyer Additional Property Transfer Tax: 20%** in the specified Regional Districts: Capital (CRD), Fraser Valley, Metro Vancouver, Central Okanagan, Nanaimo, on the foreign national's, foreign corporation's or taxable trustee's proportionate share of fair market value; not on Tsawwassen First Nation treaty lands (2026-11-03 verified, source: [gov.bc.ca — Additional Property Transfer Tax](https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/additional-property-transfer-tax), page last updated 2025-06-20)
 
 #### Alberta — Land Title Transfer Fee
 
@@ -163,21 +163,21 @@ Provincial scale (2026, indexed yearly): 0.5% to $62,900, 1% $62,900–$315,000,
   - BC-resident credit raised $2k → $4k (offsets the tax on the first $400,000 of assessed value)
   - Declaration due 31 Mar of the following year; tax due in July (2025 tax was due 2 Jul 2026)
   - **2027+**: foreign / untaxed-worldwide-earner rate **4%** (Budget Measures Implementation Act, 2026, S.B.C. 2026, c. 5, Royal Assent 16 Apr 2026); $250 non-refundable late-declaration penalty from 1 Jan 2027 (sources: gov.bc.ca SVT tax rates page, updated 2026-07-03; gov.bc.ca Budget 2026 tax changes; BC 2025 Financial and Economic Review)
-- **Vancouver Empty Homes Tax**: **3%** of assessed taxable value for the 2025 tax year, unchanged since the 2021 vacancy year (separate from BC SVT) (2025 data, source vancouver.ca Declaring your property status + City EHT annual report 2024)
+- **Vancouver Empty Homes Tax**: **3%** of assessed taxable value for the 2025 tax year, unchanged since the 2021 vacancy year (separate from BC SVT) (2025 reference year, source vancouver.ca Empty Homes Tax page, archived 2026-10-17: 3% of the 2025 assessed taxable value, declaration deadline 3 Feb 2026; City EHT annual report 2024 for the history; 2026 reference-year rate not shown — verify at vancouver.ca)
 - **Toronto Vacant Home Tax**: **3%** of Current Value Assessment from the 2024 taxation year; declaration due 30 Apr (2026 data, source toronto.ca Vacant Home Tax, modified 2026-07-22)
-- **Foreign buyer ban**: runs to **1 Jan 2027** — extension announced 4 Feb 2024 (CMHC) and enacted by S.C. 2024, c. 17, s. 149; the repeal (S.C. 2022, c. 10, s. 236) is still listed as not in force on Justice Laws (current to 2026-09-30). The Housing Minister confirmed a formal review of the post-2027 regime in Dec 2025 (secondary: MoneySense, 2 Oct 2026); the Finance Minister said on 7 Oct 2026 that all options remain under review (news-only: Bloomberg); no extension, repeal or replacement located as tabled at Oct 2026 — flag as "in flux"
+- **Foreign buyer ban**: runs to **1 Jan 2027** — extension announced 4 Feb 2024 (CMHC) and enacted by S.C. 2024, c. 17, s. 149; the repeal (S.C. 2022, c. 10, s. 236) is still listed as not in force on Justice Laws (Act current to 2026-10-19). The Housing Minister confirmed a formal review of the post-2027 regime in Dec 2025 (secondary: MoneySense, 2 Oct 2026); Finance Minister Champagne said on 7 Oct 2026 "We're looking at all the options that we have in front of us" (news: [Global News, 7 Oct 2026](https://globalnews.ca/news/12091696/canada-foreign-home-buyer-ban-expiry/)); no extension, repeal or replacement located as tabled at 2026-11-03; Finance Canada set federal Budget 2026 for tabling on 5 Nov 2026 ([Finance Canada, 20 Oct 2026](https://www.canada.ca/en/department-finance/news/2026/10/government-of-canada-to-release-budget-2026-on-november-5-2026.html)) — flag as "in flux" and check Budget 2026 for any post-2027 measure
 
 ### Capital gains
 
-- Federal: **50% inclusion rate** (2/3 inclusion proposal **CANCELLED 21 Mar 2025** by PM Carney announcement; the $250k/yr threshold was part of the cancelled package and also fell away) (2026-05-27 verified, source: [PM news release](https://www.pm.gc.ca/en/news/news-releases/2025/03/21/prime-minister-mark-carney-cancels-proposed-capital-gains-tax-increase))
-- Marginal rates: ~25–53% combined federal+provincial
+- Federal: **50% inclusion rate** — a taxable capital gain is ½ of the gain (Income Tax Act s. 38(a), Justice Laws, Act current to 2026-10-19); the 2/3 inclusion proposal was **CANCELLED 21 Mar 2025** by PM Carney announcement (source: [PM news release](https://www.pm.gc.ca/en/news/news-releases/2025/03/21/prime-minister-mark-carney-cancels-proposed-capital-gains-tax-increase)). The $250,000 annual threshold, below which individuals' gains would have stayed at ½, existed only inside that proposal ([Finance Canada deferral release, 31 Jan 2025](https://www.canada.ca/en/department-finance/news/2025/01/government-of-canada-announces-deferral-in-implementation-of-change-to-capital-gains-inclusion-rate.html)), so it has no effect now that the hike is cancelled (2026-11-03 verified)
+- Marginal rates (2026): federal 14% to 33%; provincial / territorial 4% (NU) to 21.8% (NL); Quebec rates are set by Revenu Québec (2026 data, source [CRA tax rates and income brackets](https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html), modified 2026-06-25). Computed top combined rates: 54.8% NL (33% + 21.8%), 54% NS (33% + 21%), 53.5% BC (33% + 20.5%), 48% AB (33% + 15%) — Ontario surtax and the Quebec federal abatement not included (verify at canada.ca / revenuquebec.ca); with ½ inclusion, the tax on a capital gain is half the marginal rate (e.g. 26.75% at BC's top rate, computed)
 - **Principal residence exemption** — full exemption for years owner-occupied
 - **Non-residents**: only tax years in which the owner was resident in Canada count toward the principal residence exemption, and the "1 +" bonus year applies only if resident in Canada in the year of acquisition (dispositions on or after 3 Oct 2016) (source: CRA Income Tax Folio S1-F3-C2 ¶2.20, ¶2.50)
 - **Non-resident disposition — Section 116 clearance**: when a non-resident DISPOSES of Canadian real property, the buyer is liable for **25% of the purchase price** (50% for depreciable taxable Canadian property such as a rental building, and for real property that is not capital property), reduced to the excess over the certificate limit once CRA issues a certificate of compliance (requested on Form T2062); the vendor must notify CRA no later than 10 days after the disposition (CRA recommends 30 days before a proposed one); CRA states no fixed processing time — certificates issue "at the earliest possible date" once documents and payment / security are validated, and appraisals "may take several months" (2026-10-23 verified, source: [CRA IC72-17R6 — Section 116](https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/ic72-17/ic72-17r6-procedures-concerning-disposition-taxable-canadian-property-non-residents-canada-section-116.html))
 
 ### Total transaction cost (buyer side)
 
-Computed from the rates above; fees = lawyer / notary + title insurance + inspection from the Cost benchmarks rows ($2,100–$4,400):
+Computed from the rates above; fees = lawyer / notary + title insurance + inspection from the Cost benchmarks est. rows ($2,100–$4,400, est.):
 
 - ON resale $800k outside Toronto: ~1.8–2.1% (LTT $12,475 + fees)
 - ON resale $800k in Toronto: ~3.4–3.7% (LTT $12,475 + MLTT $12,475 + fees)
@@ -189,7 +189,7 @@ Computed from the rates above; fees = lawyer / notary + title insurance + inspec
 
 ### Future risk
 
-- Foreign buyer ban: the Act is repealed on 1 Jan 2027 unless Parliament acts; post-2027 regime under review, nothing located as tabled at Oct 2026 (see Other taxes above)
+- Foreign buyer ban: the Act is repealed on 1 Jan 2027 unless Parliament acts; post-2027 regime under review, nothing located as tabled at 2026-11-03; federal Budget 2026 is due 5 Nov 2026 (see Other taxes above)
 - BC SVT foreign / untaxed-worldwide-earner rate rises 3% → 4% for the 2027 tax year (enacted, S.B.C. 2026, c. 5)
 - Federal capital-gains inclusion-rate 2/3 proposal **CANCELLED 21 Mar 2025** (no longer in policy pipeline)
 
@@ -244,8 +244,8 @@ Computed from the rates above; fees = lawyer / notary + title insurance + inspec
 ### Sources
 
 - **Job Bank Canada**: `https://www.jobbank.gc.ca/`
-- **Indeed.ca**, **LinkedIn CA**, **Glassdoor**, **Workopolis**, **Eluta**
-- **Provincial workers' compensation boards**: WSIB ON, WorkSafeBC, etc.
+- **Indeed.ca**, **LinkedIn CA**, **Glassdoor**, **Workopolis** (part of the Indeed site, per its footer; source workopolis.com, archived 2026-10-17), **Eluta**
+- **Provincial workers' compensation boards**: WSIB ON `https://www.wsib.ca`, WorkSafeBC `https://www.worksafebc.com`; other provinces and territories via the Association of Workers' Compensation Boards of Canada `https://awcbc.org`
 
 ### Self-employment
 
@@ -253,14 +253,14 @@ Computed from the rates above; fees = lawyer / notary + title insurance + inspec
 - **Federal incorporation**: Corporations Canada (ISED); online incorporation **$200**, certificate within one business day (2026 data, source [ISED — Benefits of incorporating](https://ised-isde.canada.ca/site/corporations-canada/en/benefits-incorporating))
 - **Provincial incorporation**: similar
 - **GST/HST registration**: required once taxable supplies exceed **$30,000** in a single calendar quarter or over the last four consecutive calendar quarters (small-supplier threshold) (2026 data, source [CRA RC4022](https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4022/general-information-gst-hst-registrants.html))
-- **Professional bodies**: per profession (CA, MD, P.Eng, etc.)
+- **Professional bodies**: per profession (CPA — the CA, CGA and CMA designations were unified under CPA; in BC the three legacy bodies were amalgamated into CPABC, source [CPABC legacy page](https://www.bccpa.ca/legacy/); MD, P.Eng, etc.)
 
-### Salary benchmarks (est.)
+### Salary benchmarks
 
-- Median annual gross (est. ranges, not tied to a published median — check the occupation's regional wage data on [Job Bank](https://www.jobbank.gc.ca/) — rates/figures may have changed since):
-  - Toronto / Vancouver: ~$70,000–$95,000
-  - Calgary / Montreal / Ottawa: ~$60,000–$80,000
-  - Smaller cities: ~$50,000–$65,000
+- Median employment income, people aged 25–54 with employment income, by census metropolitan area (2024 data, 2024 constant dollars, source [StatCan Table 11-10-0239-01](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110023901), released 2026-04-29 — rates/figures may have changed since). It includes part-time and part-year earners, so it is not a full-time salary benchmark — check the occupation's regional wage data on [Job Bank](https://www.jobbank.gc.ca/):
+  - Toronto $59,200 · Vancouver $58,200
+  - Calgary $58,800 · Montréal $57,700 · Ottawa-Gatineau $70,800
+  - Edmonton $57,500 · Winnipeg $53,200 · Québec City $65,300 · Canada $58,600
 - Federal minimum wage: **$18.15/hr from 1 Apr 2026** (federally regulated private-sector employers only; where a provincial minimum is higher, the higher rate applies) (2026 data, source [ESDC news release, Mar 2026](https://www.canada.ca/en/employment-social-development/news/2026/03/government-of-canada-raises-the-federal-minimum-wage.html))
 
 ---
@@ -275,8 +275,8 @@ Computed from the rates above; fees = lawyer / notary + title insurance + inspec
 | **Public Safety Canada — National Risk Profile** | `https://www.publicsafety.gc.ca/cnt/mrgnc-mngmnt/ntnl-rsk-prfl/` | First report covers floods, wildland fires and earthquakes; next edition: heat events, hurricanes, space weather (page modified 2025-08-07) |
 | **GEO.CA flood polygons** | `https://geo.ca/emergency/` | "Floods in Canada – Archive": NRCan satellite-derived flood-extent polygons for past floods; Canadian Disaster Database (events since 1900) |
 | **BC PreparedBC hazard map** | `https://www2.gov.bc.ca/gov/content/safety/emergency-management/preparedbc/know-your-hazards/hazard-map` | BC hazards |
-| **ECCC weather/storm** | `https://climate.weather.gc.ca/` | Climate, weather data |
-| **Canadian Wildland Fire Information System** | `https://cwfis.cfs.nrcan.gc.ca/` | Wildfire (FWI, hot spots) |
+| **ECCC historical climate data** | `https://climate.weather.gc.ca/` | Historical hourly, daily and monthly weather data, extremes and Climate Normals (page modified 2026-10-22) |
+| **Canadian Wildland Fire Information System** | `https://cwfis.cfs.nrcan.gc.ca/` | Daily national fire weather (Fire Weather Index System), fire behaviour and fire occurrence maps since 1994, from 2,500+ weather stations in Canada and the US; Fire M3 satellite detection of actively burning fires (source [NRCan — Current wildland fire activity: the CWFIS](https://natural-resources.canada.ca/forests-forestry/wildland-fires/current-wildland-fire-activity-cwfis), modified 2026-06-26) |
 | **Health Canada radon** | `https://www.canada.ca/en/health-canada/services/health-risks-safety/radiation/radon.html` | Radon zones |
 
 ### Specific risks
@@ -285,7 +285,7 @@ Computed from the rates above; fees = lawyer / notary + title insurance + inspec
   - BC, AB, ON (boreal), Atlantic
   - 2023 record fire season: >6,800 fires burned >14.6M ha of forest area and >230,000 people were evacuated; annual average >2.1M ha (2023 data, source [NRCan — Forest fires](https://natural-resources.canada.ca/forests-forestry/wildland-fires/forest-fires), National Burned Area Composite). ECCC's top 10 weather stories of 2023 states >18M ha without naming its dataset — the NRCan mapped figure is used here
   - 2023 evacuations included Yellowknife (20,000 residents), the West Kelowna and Bush Creek fire areas (22,000+ residents under orders or alerts; structures also lost in Kelowna) and Sept-Îles (2023 data, source [ECCC — Canada's top 10 weather stories of 2023](https://www.canada.ca/en/environment-climate-change/services/top-ten-weather-stories/2023.html))
-  - **Increased home insurance exclusions** in WUI zones
+  - **Insurance**: standard homeowner's and tenant's policies cover fire damage, including wildfire, plus additional living expenses from a mandatory evacuation; insurers may temporarily limit new policies, deductible and limit changes in areas under imminent threat, and more remote properties are generally more costly to insure (2026 data, source [IBC — Wildfires and insurance](https://www.ibc.ca/stay-protected/severe-weather-centre/wildfire-season) — insurer trade association ⚠️); FCAC lists fire, including wildfires, among events a home policy may cover (source [FCAC](https://www.canada.ca/en/financial-consumer-agency/services/insurance/unexpected-events-disasters.html), page modified 2026-07-14)
 - **Flood** — major risk:
   - **Toronto**: urban flash flooding (2013, 2024)
   - **Calgary**: 2013 disaster
@@ -299,31 +299,31 @@ Computed from the rates above; fees = lawyer / notary + title insurance + inspec
 - **Permafrost**: Yukon + NWT + northern BC/AB; thaw-triggered building damage
 - **Ice storms**: Eastern (Quebec 1998 ice storm)
 - **Hurricane**: Atlantic Canada (Fiona 2022)
-- **Tornado**: Prairie + Southern ON
+- **Tornado**: recorded in every province and territory, most common in southern Alberta, Saskatchewan, Manitoba, Ontario, Quebec and western New Brunswick; Canada averages 97 tornadoes a year (Northern Tornadoes Project figure), the strongest generally May–August (2026 data, source Government of Canada Get Prepared — [Tornadoes](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/tornados.html), modified 2026-02-10, and [How to prepare](https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/tornados/how-prepare.html), modified 2026-06-18)
 - **Radon**: Health Canada guideline 200 Bq/m³; the 2024 Cross-Canada Survey (Evict Radon National Study with Health Canada, CAREX Canada and BCCDC) found 1 in 5 (17.8%) houses at or above it (2024 data, source [Health Canada](https://www.canada.ca/en/health-canada/services/environmental-workplace-health/reports-publications/radiation/cross-canada-survey-radon-concentrations-homes-final-report-health-canada-2012.html)). Highest shares of tested homes above 200 Bq/m³ in Health Canada's earlier survey: New Brunswick 24.8%, Manitoba 23.7%, Yukon 19.6%, Saskatchewan 16.3% (BC 7.9%, AB 6.6%) (2009–2011 data, source Health Canada Cross-Canada Survey final report, Mar 2012 — rates/figures may have changed since). Province-level shares only — test the specific home
 
 ### Build-era hazards
 
 | Era | Hazards |
 |---|---|
-| **Pre-1950** | Asbestos cement, lead paint, lead pipes, knob-and-tube wiring |
-| **1950s–1970s** | Asbestos very common — federal ban on import, sale and use in force 30 Dec 2018 (SOR/2018-196); asbestos built into a structure before that date is not covered (source [ECCC](https://www.canada.ca/en/environment-climate-change/services/management-toxic-substances/list-canadian-environmental-protection-act/asbestos/information-prohibition-regulations.html)); UFFI insulation 1977-1980 — advertising, sale and import prohibited since Dec 1980 under the Hazardous Products Act (source [Health Canada](https://www.canada.ca/en/health-canada/services/consumer-product-safety/advisories-warnings-recalls/letters-notices-information-industry/canadian-prohibition-urea-formaldehyde-foam-insulation.html)) |
-| **1980s–1990s** | Some asbestos in older renos; Poly-B plumbing (class-action) |
+| **Pre-1950** | Asbestos (used before 1990 mainly to insulate buildings and homes) may be in older siding, cement and plaster, floor and ceiling tiles, roofing products and hot-water pipe insulation (source [Health Canada — Asbestos and your health](https://www.canada.ca/en/health-canada/services/air-quality/indoor-air-contaminants/health-risks-asbestos.html)); lead-based paint probable if built before 1960, exterior paint may contain lead if built 1960–1990 (source [Health Canada — Lead-based paint](https://www.canada.ca/en/health-canada/services/home-safety/lead-based-paint.html)); lead pipes allowed by the National Plumbing Code until 1975 and lead solder until 1986, and some homes may have a lead service line (source [Health Canada — Drinking water: what about lead?](https://www.canada.ca/en/health-canada/services/environmental-workplace-health/reports-publications/water-quality/what-about-lead.html)); knob-and-tube wiring (early 1900s–1940s) is safe if maintained by a licensed electrical contractor, but many insurers will not provide or renew coverage (source [ESA, Ontario's electrical safety regulator](https://esasafe.com/home-renovation-buying-and-selling/knob-and-tube/)) |
+| **1950s–1970s** | Asbestos very common — federal ban on import, sale and use in force 30 Dec 2018 (SOR/2018-196); asbestos built into a structure before that date is not covered (source [ECCC](https://www.canada.ca/en/environment-climate-change/services/management-toxic-substances/list-canadian-environmental-protection-act/asbestos/information-prohibition-regulations.html)); UFFI insulation (widely used in the 1970s) — advertising, sale and import prohibited since Dec 1980 under the Hazardous Products Act (source [Health Canada](https://www.canada.ca/en/health-canada/services/consumer-product-safety/advisories-warnings-recalls/letters-notices-information-industry/canadian-prohibition-urea-formaldehyde-foam-insulation.html)) |
+| **1980s–1990s** | Some asbestos in older renos; Poly-B (polybutylene) water piping — introduced to Alberta construction in the mid-1970s (not in a home built before 1975 unless re-plumbed), production stopped in 1998; no longer listed in current plumbing codes, but codes are not retroactive, so previously accepted products remain acceptable if they pose no health or safety hazard (source [Alberta Municipal Affairs — Safety Tips: Poly-B](https://open.alberta.ca/dataset/2e99ffe2-4810-413d-8a9f-c3cdb00f5951/resource/87384378-8df5-4f73-b2b4-3fd47e32ab38/download/2016-safety-tips-polybutylene-poly-b-pressure-water-piping-august-2016.pdf), reviewed Aug 2016, archived 2023-02-05 — rates/figures may have changed since); class actions in BC, ON and QC: DuPont settled first, then Shell ($20M settlement announced 11 Jun 2004; claim forms had to be postmarked by 18 Jun 2005, so that claim window has closed; proceedings continued against a remaining defendant) (source court-approved notice and press release posted by class counsel [Siskinds](https://www.siskinds.com/cmsfiles/PDF/Product/PolyPipe/Shell_Legal_Notice.pdf) — law firm ⚠️) |
 | **2000s+** | Modern code; energy improvements |
 | **Vermiculite / Zonolite attic insulation** | Pre-1990 — may contain asbestos (Libby-mine ore, 1920s–1990, mostly sold as Zonolite; not all pre-1990 vermiculite does); avoid disturbing it, flag for testing (source Health Canada advisory, Apr 2004) |
-| **Cladding fires** (post-Grenfell era) | Some buildings flagged |
+| **Cladding fires** (post-Grenfell era) | Which buildings carry combustible cladding: data not publicly available (no public register located, Oct 2026) — ask the condo corporation / strata for building-envelope and fire-inspection records; code rules at [NRC Codes Canada](https://nrc.canada.ca/en/certifications-evaluations-standards/codes-canada) (archived 2026-10-11) |
 
 ### Mandatory at sale
 
 | Document | Province | Notes |
 |---|---|---|
 | **Property Disclosure Statement (PDS)** | BC voluntary (BCREA form; seller may give a "Property No Disclosure Statement" instead) | Known material latent defects must still be disclosed before contract; a no-disclosure form signals extra due diligence (source [BCFSA](https://www.bcfsa.ca/public-resources/real-estate/buying-home/search)) |
-| **SPIS (Sellers' Property Information Statement)** | ON voluntary | Optional but common |
+| **SPIS (Seller Property Information Statement)** | ON voluntary (some sellers prepare one; how often: data not publicly available) | If the seller gives the agent a statement meant for buyers, the agent must tell every interested buyer and give a copy on request (source [RECO](https://www.reco.on.ca/consumers/information-for-sellers/property-information-statements/), archived 2026-07-13) |
 | **Real Property Report (RPR) + compliance** | AB standard-contract term (not statutory; conventional condo units generally exempt) | Survey of structures + municipal compliance; seller cannot swap in title insurance without buyer consent (2026 data, source Berjak Law RPR guide — secondary, law firm) |
 | **Déclaration du vendeur** (DV; DVD for divided co-ownership) | QC mandatory in brokered sales by an individual of a chiefly residential immovable with <5 dwellings, since Jul 2012 | OACIQ form signed with the brokerage contract; seller declares to the best of their knowledge (source [OACIQ](https://www.oaciq.com/en/broker/brokerage-forms-clauses/how-to-use-the-mandatory-form-declarations-by-the-seller-of-the-immovable)) |
-| **Title insurance** | ON near-universal | Replaces survey/expert opinion |
-| **Strata documents (Form B/F)** | BC condos | HOA disclosure |
-| **Status Certificate** | ON condos | Condo health snapshot |
+| **Title insurance** | ON optional — lawyers must advise it is not mandatory and not the only option (LSO Rules of Professional Conduct r. 3.2-9.4); uptake share: data not publicly available | Survey coverage may remove the need for a new survey and is acceptable to most lenders instead of a survey or RPR; exclusions include problems only a new survey or inspection would reveal (source [FSRA](https://www.fsrao.ca/consumers/property-and-other-insurance/understanding-title-insurance), archived 2026-09-04; [LSO](https://lso.ca/about-lso/legislation-and-rules/rules-of-professional-conduct/chapter-3), archived 2026-10-14) |
+| **Strata documents (Form B / Form F)** | BC strata lots | Form B Information Certificate: strata fees, owner's arrears, contingency reserve fund balance, court proceedings, insurance summary — due within 7 days of a request, max $35 + up to 25¢ per page; Form F Certificate of Payment: required by the Land Title Office on transfer, max $15, current for 60 days (2026 data, source BC Government — [Form B](https://www2.gov.bc.ca/gov/content/housing-tenancy/strata-housing/renting-buying-selling/buying-and-selling-strata/paperwork-for-buyers-and-sellers/form-b-information-certificate), [Form F](https://www2.gov.bc.ca/gov/content/housing-tenancy/strata-housing/renting-buying-selling/buying-and-selling-strata/paperwork-for-buyers-and-sellers/form-f-certificate-of-payment)) |
+| **Status Certificate** | ON condos (Condominium Act, 1998, s. 76) | Anyone can request it; the corporation must provide it within 10 days, for up to $100 incl. taxes; covers the current budget and last audited financial statements, reserve fund study and fund state, the unit's arrears, special assessments and ongoing litigation (2026 data, source [Condominium Authority of Ontario](https://www.condoauthorityontario.ca/condo-living/corporate-records/status-certificates/)) |
 
 ### Climate change projections
 
@@ -341,15 +341,15 @@ Computed from the rates above; fees = lawyer / notary + title insurance + inspec
 
 - Per-municipality water utilities (Toronto Water, City of Calgary, Service de l'eau Montreal); in Metro Vancouver the regional district supplies treated bulk water and member municipalities run local distribution to homes (source [Metro Vancouver — The Regional System](https://metrovancouver.org/services/water/the-regional-system))
 - Health Canada **Guidelines for Canadian Drinking Water Quality** (summary tables, Dec 2025 edition)
-- Universal in urban; rural may have wells + septic
+- Municipal water is the norm: 90% of households in the provinces had a municipal main water source and 9% a private well (2023 data, source [Statistics Canada — Table 38-10-0274-01, Households and the Environment Survey](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810027401), released 2025-12-09); Health Canada estimates ~4 million people in Canada rely on a private well, and the owner is responsible for its water quality (2025 data, source [Health Canada — Well water and health](https://www.canada.ca/en/health-canada/services/environment/drinking-water/well.html)). Rural homes off the municipal network may also rely on an on-site septic system — ask for its permit and pumping records
 
 ### Costs
 
-Illustrative contractor estimates, not quoted figures — verify with local quotes:
+Illustrative contractor estimates, not quoted figures — verify with local quotes. Only the urban-connection row is calibrated, against the City of Toronto 2026 fee schedule; no government cost figure for mains extensions, septic or wells was found (Nova Scotia's septic homeowner guide, Nov 2009, says only that replacing a system costs "thousands of dollars" and advises three written quotes):
 
 | Scenario | Cost (CAD, est.) |
 |---|---:|
-| Water/sewer connection (urban) | $5,000–$15,000 |
+| Water/sewer connection (urban), per service | ~$5,000–$15,000 (est.; Toronto 2026 City fees: new 25 mm water service + meter $6,818.29, new sanitary sewer connection in the road allowance $14,718.78 → $21,537.07 for both (computed); source [City of Toronto — Water rates & fees](https://www.toronto.ca/services-payments/property-taxes-utilities/utility-bill/water-rates-fees/), effective 1 Jan 2026) |
 | Mains-line extension | $20,000–$60,000+ |
 | Septic replacement | $15,000–$35,000 |
 | Bored well | $8,000–$20,000 |
@@ -358,14 +358,14 @@ Illustrative contractor estimates, not quoted figures — verify with local quot
 
 ## Cost benchmarks (CA 2026)
 
-Service and works rows are illustrative est. ranges, not quoted figures — verify with local quotes; transaction-cost rows are computed from the `--tax` rates.
+Service and works rows are illustrative est. ranges, not quoted figures (no primary source publishes these ranges; contractor and professional fees vary by province, city and house size) — verify with local quotes; where CMHC's homebuyer guide gives a figure it is shown in the row ([CMHC — How much will my home really cost?](https://cmhc-schl.gc.ca/en/finance-and-investing/mortgage-loan-insurance/the-resource/how-much-will-my-home-really-cost), page undated, viewed 2026-11-03). FCAC tells buyers to budget 1.5–4% of the purchase price for upfront closing costs, naming home inspection, legal fees, property tax adjustments and title insurance as examples (land transfer tax not mentioned) ([canada.ca — Buying a home](https://www.canada.ca/en/financial-consumer-agency/services/buying-home.html), page dated 2025-10-20 — rates/figures may have changed since). Transaction-cost rows are computed from the `--tax` rates.
 
 | Work | Cost (CAD, est.) |
 |---|---:|
-| Home inspection | $400–$700 |
+| Home inspection | $400–$700 (est.; CMHC: "around $500") |
 | Title insurance | $200–$700 |
-| Real estate lawyer / notary | $1,500–$3,000 |
-| Survey / RPR | $700–$2,500 |
+| Real estate lawyer / notary | $1,500–$3,000 (est.; CMHC gives only a $500 minimum) |
+| Survey / RPR / certificate of location | $700–$2,500 (est.; CMHC range $1,000–$2,000) |
 | Land Transfer Tax (varies) | see above |
 | **Total transaction cost (ON outside Toronto, $1M, FTB)** | **~$15–17k (1.5–1.7%)**, computed: LTT $16,475 − $4,000 refund + fees |
 | **Total transaction cost (Toronto, $1M, FTB)** | **~$27–29k (2.7–2.9%)**, computed: LTT $16,475 − $4,000 + MLTT $16,475 − $4,475 + fees |
@@ -377,7 +377,7 @@ Service and works rows are illustrative est. ranges, not quoted figures — veri
 | Vermiculite removal | $10,000–$40,000+ |
 | Knob-and-tube re-wire | $8,000–$15,000 |
 | Energy retrofit | $30,000–$80,000 |
-| Heat pump installation | $8,000–$20,000 (with rebates) |
+| Heat pump installation | $8,000–$20,000 (est., stated as net of rebates; rebate basis unverified — federal Greener Homes Grant CLOSED, see Active fiscal incentives) |
 
 ## Active fiscal incentives (2025-2026)
 
@@ -393,7 +393,7 @@ Service and works rows are illustrative est. ranges, not quoted figures — veri
 
 ## Common listing platforms
 
-- **Realtor.ca** — DOMINANT, ~95% MLS
+- **Realtor.ca** — CREA's consumer listing site, run since Jan 2025 by REALTOR.ca Canada Inc., a wholly owned CREA subsidiary (2026 data, source [CREA — REALTOR.ca for Canadians](https://www.crea.ca/technology/realtor-ca-for-canadians/)); share of MLS® listings: data not publicly available — verify at [CREA](https://www.crea.ca/)
 - **Centris.ca** — Quebec only
 - **Royal LePage, RE/MAX, Sotheby's, Engel & Völkers** — agency networks
 - **Zolo** — alternative
@@ -458,18 +458,23 @@ Service and works rows are illustrative est. ranges, not quoted figures — veri
 
 ✅ **Fully populated** as of 2026-04-25 (Vancouver board name (Greater Vancouver REALTORS) corrected 2026-09-18 per gvrealtors.ca). Ownership tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 **Coverage check**: pricing (CREA + provincial boards), traffic, tax (extreme provincial divergence), rental (RTA per province), work, risks (wildfire + flood + earthquake + permafrost + radon), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for `--rental` (re-verified 2026-10-23), the Sep 2026 / Q3 2026 `--price` benchmark rows (each sourced to its board), the climate projections (ECCC Canada's Changing Climate Report 2026) and the tax facts re-checked on 2026-10-23: ON LTT + Toronto MLTT tiers from 1 Apr 2026, BC PTT / APTT, BC SVT 2026 doubling (S.B.C. 2026, c. 5), UHT eliminated for 2025+ (S.C. 2026, c. 3), 50% capital-gains inclusion (2/3 proposal cancelled 21 Mar 2025), foreign-buyer ban to 1 Jan 2027 (S.C. 2024, c. 17, s. 149); MEDIUM for the post-2027 foreign-buyer regime (review under way, nothing tabled located by Oct 2026), Montreal and Ottawa property-tax rows (est.), the combined marginal-rate range, `--work` salary ranges (est.), `--risks` build-era and sale-document rows, and `--traffic` city AADT layers (not re-verified); LOW for the Realtor.ca ~95% MLS share (no source found) and the illustrative contractor cost ranges (`--mains` costs, Cost benchmarks service and works rows; est., no primary source).
+**Confidence**: HIGH for `--rental` (re-verified 2026-10-23), the Sep 2026 / Q3 2026 `--price` benchmark rows (each sourced to CREA or its board), the `--work` StatCan 2024 CMA medians and federal minimum wage, the `--risks` rows sourced to government and regulator pages, the climate projections (ECCC Canada's Changing Climate Report 2026) and the tax facts re-checked in the 2026-10-23 refresh and gap-closing pass: ON LTT + Toronto MLTT tiers from 1 Apr 2026, BC PTT / APTT, BC SVT 2026 doubling (S.B.C. 2026, c. 5), UHT eliminated for 2025+ (S.C. 2026, c. 3), 50% capital-gains inclusion (2/3 proposal cancelled 21 Mar 2025), CRA 2026 marginal-rate brackets, Montreal 2026 rates computed from the city's billing data, foreign-buyer ban to 1 Jan 2027 (S.C. 2024, c. 17, s. 149); MEDIUM for the post-2027 foreign-buyer regime (review under way, nothing tabled located by 2026-11-03), the Ottawa property-tax row (est. from draft-budget figures), the AB RPR row (law-firm source), the Cost benchmarks inspection / lawyer / survey ranges (est.; CMHC figures shown in the rows: inspection "around $500", lawyer $500 minimum, survey $1,000–$2,000), the `--mains` urban connection range (est., calibrated on Toronto 2026 fees) and `--traffic` city AADT layers (not re-verified); LOW for the contractor cost ranges with no primary price source (`--mains` extension, septic and well rows; Cost benchmarks title-insurance and works rows; est.).
 
 ### Per-section verification (overrides playbook-level date)
 
 | Section | Last verified | Verifier | Notes |
 |---|---|---|---|
+| `--price` | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | All 9 benchmark rows sourced to CREA or the boards (Montreal and Winnipeg from the refresh, the others re-checked 2026-11-03); national Composite MLS® HPI $651,400 and Halifax-Dartmouth HPI $541,700 added from CREA's HPI data; Calgary -0.82% and $646,198 avg from the CREB stats package; HPI-vs-average ratios recomputed; Teranet and QPAREB confirmed; Realtor.ca MLS share relabelled data not publicly available |
+| `--tax` | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | Montreal computed for all 19 boroughs from the city's 2026 billing data, Quebec school tax 2026-2027 added; Ottawa est. ~1.26% with inputs shown; CRA 2026 brackets (federal 14–33%); 50% inclusion read in ITA s. 38(a), $250k threshold re-attributed to Finance Canada; Toronto MLTT council date confirmed; Bloomberg attribution replaced by Global News; BC APTT and Vancouver EHT re-confirmed |
 | `--rental` | 2026-10-23 | 2026-10-23 refresh wave | ON/BC/AB/QC rent rules, Vancouver / BC and Toronto STR rules, CITQ, Part XIII / NR6 and interest deductibility checked against primary sources; 10 changed, 11 confirmed |
+| `--work` | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | City salary ranges replaced by StatCan Table 11-10-0239-01 2024 CMA medians (ages 25–54); federal minimum wage re-read on the ESDC release (2026-11-03); $200 incorporation and $30,000 GST/HST threshold confirmed; Workopolis (part of Indeed, archived 2026-10-17), WSIB, WorkSafeBC and AWCBC checked; CA designation updated to CPA |
+| `--risks` | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | Tornado, WUI insurance, pre-1950, UFFI, Poly-B, SPIS, title insurance, Form B / F, Status Certificate, CWFIS and ECCC rows sourced to Get Prepared, IBC / FCAC, Health Canada / ESA, Alberta Municipal Affairs and the court-approved Shell notice, RECO, LSO / FSRA, BC Gov, the Condominium Authority of Ontario, NRCan and ECCC; cladding register relabelled data not publicly available; radon figures re-read on Health Canada; dated events (Toronto 2013 / 2024, Calgary 2013, Charlevoix 1925 M6.2, 1998 ice storm, Fiona 2022) rest on the 2026-10-23 refresh; other lines with no source carry no figures |
 | Climate change projections (in `--risks`) | 2026-10-23 | 2026-10-23 refresh wave | Re-sourced to ECCC Canada's Changing Climate Report 2026; insurance-premium line carries no number |
 | Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | 11 templates checked by page content; LOTR redirect and Realtor.ca pattern updated |
 | Country profile — foreign-buyer ban line only | 2026-10-23 | 2026-10-23 refresh wave | 1 Jan 2027 end date matches Justice Laws (current to 2026-09-30); rest of the profile not fully re-verified |
+| Cost benchmarks (CA 2026) | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | 4 computed transaction rows re-derived from the `--tax` rates; CMHC figures added to the inspection, lawyer and survey rows; title insurance and works rows stay est. (no primary price source) |
 
-Other sections were partly refreshed on 2026-10-23 but keep unverified items, so they default to the Status footer date: Country profile, `--price`, `--traffic`, `--tax`, `--work`, `--risks`, `--mains`, Cost benchmarks, Active fiscal incentives, Common listing platforms, Caveats unique to CA, Reddit / forum sources, Verification authorities (see Update history).
+Other sections were partly refreshed on 2026-10-23 but keep unverified items, so they default to the Status footer date: Country profile, `--traffic`, `--mains`, Active fiscal incentives, Common listing platforms, Caveats unique to CA, Reddit / forum sources, Verification authorities (see Update history).
 
 ## Extension TODOs
 
@@ -490,7 +495,7 @@ Other sections were partly refreshed on 2026-10-23 but keep unverified items, so
 - **2026-05-27** — Toronto MLTT high-value tiers, BC APTT, capital-gains inclusion, Section 116 and OSFI stress-test lines re-checked (stamps in the body)
 - **2026-09-18** — Vancouver board name corrected to Greater Vancouver REALTORS (gvrealtors.ca)
 - **2026-09-24** — Ownership tracker entries re-checked in the October regwatch wave (shared/regulatory-watch.md)
-- **2026-10-23** — Refresh wave. Playbook-level stamp not advanced: `--price`, `--tax`, `--work`, `--risks` and `--mains` keep unverified items. Facts changed / confirmed / unverifiable per section:
+- **2026-10-23** — Refresh wave. Playbook-level stamp not advanced: `--mains` stays open after the gap-closing pass (wells line re-sourced to StatCan Table 38-10-0274-01, 2023 data, and the urban connection row calibrated on Toronto 2026 fees, but the section is not confirmed closed) and `--traffic` city AADT layers were not re-checked; `--price`, `--tax`, `--work`, `--risks` and Cost benchmarks were closed in the gap-closing pass and `--rental` was re-verified in the refresh. Facts changed / confirmed / unverifiable per section:
   - Country profile 1 / 5 / 3 — CAD rate updated to the Bank of Canada 22 Oct 2026 rate; foreign-buyer ban end date (1 Jan 2027) confirmed against Justice Laws; postcode, admin units, BC PID and Indigenous leasehold not re-checked
   - `--price` 11 / 3 / 1 — all 9 benchmark rows replaced with Sep 2026 board data (Montreal Q3 2026), each sourced; HPI-vs-average ratios computed; Realtor.ca ~95% MLS share unverified
   - `--traffic` 4 / 1 / 2 — provincial count sources re-pointed to MTO, BC Traffic Data Program, Alberta highway traffic counts and Quebec MTMD pages; city AADT layers and verdict bands (curated) not re-checked
@@ -507,3 +512,4 @@ Other sections were partly refreshed on 2026-10-23 but keep unverified items, so
   - Reddit / forum sources 1 / 3 / 3 — r/VancouverRE replaced; claims rest on search listings
   - Source URL templates 2 / 9 / 0 — LOTR redirect, Realtor.ca pattern
   - Verification authorities 0 / 0 / 1 — no content change
+  - Gap-closing pass (confirmed / changed / relabelled): `--price` 1 / 2 / 4, `--tax` 4 / 5 / 3, `--work` 3 / 2 / 0, `--risks` 1 / 11 / 1 and Cost benchmarks 4 / 0 / 5 — closed; `--mains` 0 / 1 / 2 — patched, still open; total 13 / 21 / 15. Main changes: national and Halifax-Dartmouth MLS® HPI levels from CREA's HPI data, Calgary YoY and average from the CREB stats package, HPI-vs-average ratios recomputed, Realtor.ca MLS share relabelled data not publicly available (also in Common listing platforms); city salary ranges replaced by StatCan 2024 CMA medians, Workopolis, WSIB, WorkSafeBC and AWCBC checked, CA designation updated to CPA; Montreal property tax computed for all 19 boroughs, Quebec school tax added, Ottawa est. with inputs shown, CRA 2026 marginal-rate brackets, $250k threshold re-attributed to Finance Canada, Bloomberg attribution replaced by Global News, Budget 2026 date added; CMHC figures added to three Cost benchmarks rows; tornado, WUI insurance, build-era, condo and strata document, title insurance, SPIS and CWFIS rows sourced, cladding register relabelled; `--mains` wells shares from StatCan 2023 data and the urban connection row calibrated on Toronto 2026 fees

@@ -25,8 +25,8 @@ ISO2: `no`. Status: ✅ Fully populated (researched 2026-04).
 - **Eiendomsregisteret** (Kartverket consumer portal; the old Se eiendom address `https://seeiendom.kartverket.no/` now redirects here): `https://eiendomsregisteret.kartverket.no/`
   - FREE lookup of any property in Norway by address, road name or gnr/bnr; login via ID-porten (MinID, BankID) required (2026 data, source kartverket.no/eiendom/eiendomsinformasjon)
 - **Eiendom Norge** (industry body) — monthly market reports: `https://eiendomnorge.no/`
-- **SSB (Statistics Norway) Boligprisindeks**: `https://www.ssb.no/`
-- **Norges Bank** financial stability reports
+- **SSB (Statistics Norway) Boligprisindeks** (prisindeks for brukte boliger): `https://www.ssb.no/priser-og-prisindekser/boligpriser-og-boligprisindekser/statistikk/prisindeks-for-brukte-boliger`
+- **Norges Bank** Financial Stability Report, H1 and H2 editions (latest 2026 H1, 12 May 2026; before it 2025 H2, 12 Nov 2025): `https://www.norges-bank.no/en/news-events/publications/Financial-Stability-report/` (2026 data, source Norges Bank publications list)
 - **Realkredittforeningen** mortgage data — ❌ DEPRECATED — dead on 2026-10-23 (realkredittforeningen.no does not resolve; no Norwegian body of this name could be confirmed); verify with SSB
 - **SSB table 10748** — renter på nye boliglån (new mortgage rates), monthly: `https://www.ssb.no/statbank/table/10748`
 
@@ -52,7 +52,7 @@ Average kr/m² BRA-i for resales, selveier + borettslag combined (borettslag pri
 | **Tromsø** | 67,506 (76,243) | 39,220 (43,591) |
 | **Drammen / Sandefjord** | 55,062 / 45,209 (54,686 / 43,854) | 32,352 / 30,917 (33,704 / 31,674) |
 | **Norway (all kommuner)** | 70,168 (71,644) | 29,590 (29,924) |
-| **Rural / hytte** | not covered by the SSB kr/m² series | est. from NOK 1,500,000 (mountain cabin) to NOK 20,000,000+ (coastal/luxury) — unsourced, verify per listing |
+| **Rural / hytte** | not covered by the SSB kr/m² series | fritidseiendom med bygning, fritt salg: average NOK 2,719,000 per sale nationally in 2025 (computed: NOK 30,877,779,000 / 11,358 sales, of which 2,411 on festet grunn); fylke averages from NOK 1,015,000 (Finnmark, 152 of 251 sales on festet grunn) to NOK 4,624,000 (Vestfold) (2025 data, source SSB table 11694, updated 27 Aug 2026 — `https://www.ssb.no/statbank/table/11694`); averages per sale, not per m² and not parcel values, and SSB notes that the mix of size, standard and location of the cabins sold varies (table 09332) — verify per listing |
 
 - **12-month change**, SSB price index for resales, Q3 2025 → Q3 2026: Norway +3.3 %, Oslo med Bærum +0.1 %, Bergen +11.2 %, Stavanger +5.7 %, Trondheim +2.8 %, Nord-Norge +6.6 % (computed from SSB table 07221 index values, e.g. Bergen 147.9 → 164.4; 2026 data, source SSB).
 - **Villa total price**: compute = enebolig kr/m² × the listing's BRA-i (e.g. 150 m² in Trondheim × NOK 38,078 ≈ NOK 5.7M); these SSB tables publish no average total price per villa.
@@ -62,14 +62,14 @@ Average kr/m² BRA-i for resales, selveier + borettslag combined (borettslag pri
 1. Listing NOK/m² = price (for borettslag: innskudd + andel fellesgjeld, as SSB computes it) / **BRA-i (internt bruksareal)**
 2. **Trap**: **BRA-i** (NS 3940:2023) = usable area inside the unit's enclosing walls, including internal storage rooms and closets; the older **P-rom (primærrom)** = primary rooms only (excl. storage); **S-rom (sekundærrom)** = secondary. SSB computed kr/m² on P-rom for 2008–2024 and on BRA-i from Q1 2025, so kr/m² before and after are not directly comparable (2026 data, source SSB prisindeks for brukte boliger)
 3. **Borettslag math**: the asking price (prisantydning) does not include the unit's share of **fellesgjeld** (cooperative shared debt): the broker's salgsoppgave must list prisantydning, andel fellesgjeld and all fees and costs separately, plus their sum (totalpris) (eiendomsmeglingsloven § 6-7 (2) nr. 13; source: Lovdata, 2026); SSB records kjøpesum and fellesgjeld separately (table 11504). The TRUE total cost = innskudd + fellesgjeld + felleskostnader future stream
-4. **Eierseksjon math**: own apartment + share in common parts (sameie); separate sameieavgift
+4. **Eierseksjon math**: an eierseksjon is an ownership share in the whole seksjonert property with the exclusive right to use one bruksenhet (eierseksjonsloven § 4 bokstav a); felleskostnader are split by sameiebrøk as the main rule and paid as an akontobeløp set by the årsmøte or the styre (§ 29); the salgsoppgave must state the fellesgjeld loan terms and monthly felleskostnader, the sameie's relevant rights and obligations under law, vedtekter, vedtak and agreements, and essential budget and accounts information (eiendomsmeglingsloven § 6-7 (4), applying (3) nr. 1, 5 and 6) (source: Lovdata, 2026)
 
 ### Borettslag specific (CRITICAL)
 
 For borettslag, always compute:
 - **Innskudd** (your share value, like down payment) — what listing typically shows; SSB average kjøpesum per borettslag sale in fritt salg NOK 3,571,000 nationally / NOK 5,031,000 in Oslo (2026 Q2 data, source SSB table 11504)
-- **Fellesgjeld** (cooperative shared building debt) — SSB average NOK 402,000 per sale nationally / NOK 373,000 in Oslo (2026 Q2; NOK 420,000–459,000 per quarter nationally in 2025) (2026 data, source SSB table 11504); est. NOK 500,000–3,000,000 per apartment for newer borettslag (unsourced — check the salgsoppgave)
-- **Felleskostnader** (monthly common costs) — typically NOK 3,000–10,000+/mo
+- **Fellesgjeld** (cooperative shared building debt) — SSB average NOK 402,000 per sale nationally / NOK 373,000 in Oslo (2026 Q2; NOK 420,000–459,000 per quarter nationally in 2025) (2026 data, source SSB table 11504); est. NOK 500,000–3,000,000 per apartment for newer borettslag (wisdom, not data: no published source; the SSB averages above mix old and new borettslag, so they do not calibrate this range — the unit's andel fellesgjeld is in the salgsoppgave, eiendomsmeglingsloven § 6-7 (2) nr. 12–13)
+- **Felleskostnader** (monthly common costs; the styre sets each andelseier's monthly amount, shared by the value of the homes or per the building and financing plan — borettslagslova § 5-19; source: Lovdata, 2026) — SSB survey average for andels- or aksjeeier households that pay fellesutgifter NOK 72,077 a year in 2025 ≈ NOK 6,006/month (computed: 72,077 / 12; 698 households answered, data collected Jan–May 2025); selveiere paying fellesutgifter to a sameie or similar NOK 34,089 a year (2025 data, source SSB table 14065, levekårsundersøkelsen — `https://www.ssb.no/statbank/table/14065`); a national survey mean, not a figure for any one borettslag — the unit's amount is in the salgsoppgave (spesifikasjon over faste løpende kostnader, eiendomsmeglingsloven § 6-7 (2) nr. 11)
 - **Total acquisition** = Innskudd + Fellesgjeld (SSB national average 2026 Q2: NOK 3,571,000 + 402,000 = NOK 3,973,000 'totalpris inkludert fellesgjeld', source SSB table 11504)
 - **Forretningsfører** + årsmøte protokoller for due-diligence
 
@@ -111,13 +111,15 @@ For borettslag, always compute:
 
 **Major kommuner with eiendomsskatt**:
 - Oslo: yes (on all fixed property since 2017); 2026 rate **1.7 ‰** for boliger/fritidsboliger (down from 2.35 ‰ in 2025), bunnfradrag up to NOK 4,900,000, base 70 % of Skatteetaten's market value (2026 data, source: Oslo kommune — Om eiendomsskatt i Oslo)
-- Bergen 2.6 ‰ (bunnfradrag NOK 750,000); Trondheim 2.65 ‰ (bunnfradrag NOK 700,000); Stavanger 1.0 ‰, on boliger from 2026, no bunnfradrag (2026 data, source: SSB table 14674)
+- Bergen 2.6 ‰ (bunnfradrag NOK 750,000); Trondheim 2.65 ‰ (bunnfradrag NOK 700,000); Stavanger 1.0 ‰, reintroduced on boliger in 2026 after a 2025 pause (whole-kommune eiendomsskatt in 2023–2024, only næringseiendom / kraftanlegg etc. in 2025), no bunnfradrag (2023–2026 data, source: SSB table 14674)
 - Many smaller kommuner: yes
 - Bærum, Asker (Oslo wealthy suburbs): NO eiendomsskatt at all — also none in Drammen, Lier, Nordre Follo, Sandefjord, Tønsberg, Larvik, Færder, Sola (28 kommuner in total) (2026 data, source: SSB Kommuner uten eiendomsskatt)
 
 ### Transaction taxes — Dokumentavgift (MAJOR)
 
 **2.5 % of the property's market value at tinglysing** — the sales value incl. buildings, not the price paid where they differ, e.g. gift or debt takeover (2026 check, source: Kartverket — Dokumentavgift ved overføring av fast eigedom, page dated 2023-09-27; rate set by Stortinget's dokumentavgift resolution, dokumentavgiftsloven § 1) — significant! Buyer (erverver of grunnbokshjemmel, § 6) pays.
+
+**New-build rule**: on the first transfer of a wholly new building not yet taken into use, and on a transfer of a building under construction, dokumentavgift is charged on the plot's (tomt) sales value only; conversion, rehabilitation and extensions of an existing building pay on the full value of tomt + bygg (2026 data, source: Prop. 1 LS (2026–2027) ch. 20.2, citing Stortinget's dokumentavgift resolution § 3 for 2026, which moves to særavgiftsforskriften from 1 Jan 2027; regjeringen.no, archived 2026-10-21)
 
 **CRITICAL EXEMPTION**: **Borettslag NOT subject to dokumentavgift** (only selveier + eierseksjon).
 - Saving = 2.5 % of value — e.g. NOK 125,000 on a NOK 5,000,000 purchase (computed: 5,000,000 × 2.5 %)
@@ -127,20 +129,20 @@ For borettslag, always compute:
 
 ### Other transaction costs
 
-- **Megler** (broker): est. ~1.5–3 % of price, paid by seller (or split in negotiation) — compare quotes; the written oppdragsavtale must state the fee and a total cost estimate (eiendomsmeglingsloven § 6-4)
+- **Megler** (broker): the fee is set by agreement. Finanstilsynet's broker statistics give NOK 8,577,346,971 in meglervederlag on NOK 539,002,605,001 of homes sold through eiendomsmeglingsforetak in 2023 ≈ **1.59 %** of price (computed; NOK 62,996 per sale; county averages computed from the same file run from 1.28 % in Oslo to 2.27 % in Innlandet); the newest file, first half 2024, gives 2.13 % (computed: NOK 6,935,200,200 / NOK 325,544,730,927; its Rogaland row alone is 6.11 %) (2023–2024 data, source: Finanstilsynet — Statistikk for eigedomsmekling, "Totalt 2023" and første halvår 2024 files) — rates/figures may have changed since. The figure to rely on is the specified total cost estimate the written oppdragsavtale must contain (eiendomsmeglingsloven § 6-4 (1) nos. 4–6). Paid by the seller as oppdragsgiver: the fee and outlays cannot be agreed to be paid by anyone else, e.g. the buyer (§ 7-2 (4)); a commission whose percentage rises with the price is banned (§ 7-2 (1)), and the megler must also offer an hourly-rate quote (§ 7-2 (2)) (2026 data, source: Lovdata — eiendomsmeglingsloven, as amended to LOV-2025-06-20-106)
 - **Legal/conveyancing**: most use megler + standard contracts; full lawyer rare
-- **Boligkjøperforsikring** (buyer insurance): voluntary; ~NOK 5,000–15,000 — **highly recommended**
+- **Boligkjøperforsikring** (buyer insurance): voluntary; est. ~NOK 5,000–15,000 — insurer pricing, not from an official price statistic; check the insurer's written price and terms before bidding — **highly recommended**
 
 ### Total transaction cost (buyer side)
 
-- **Selveier / eierseksjon**: ≈ 2.6–2.8 % on a NOK 5,000,000 purchase (computed: 2.5 % dokumentavgift = NOK 125,000 + 2 × NOK 545 tinglysing for skjøte + pantedokument + est. NOK 5,000–15,000 boligkjøperforsikring)
+- **Selveier / eierseksjon (resale)**: ≈ 2.6–2.8 % on a NOK 5,000,000 purchase (computed: 2.5 % dokumentavgift = NOK 125,000 + 2 × NOK 545 tinglysing for skjøte + pantedokument + est. NOK 5,000–15,000 boligkjøperforsikring); a new build pays dokumentavgift on the plot value only (see Dokumentavgift), so its total is lower
 - **Borettslag**: ≈ 0.2–0.5 % on a NOK 3,000,000 andel (computed: 2 × NOK 545 + est. NOK 5,000–15,000 boligkjøperforsikring; no dokumentavgift; fees charged by the borettslag's forretningsfører not included)
 
 ### Capital gains
 
 - **22 %** as alminnelig inntekt (18.5 % in the Troms og Finnmark tiltakssone) (2026 data, source: Skatteetaten — satser, alminnelig inntekt)
 - **Primary residence exemption**: owned **more than 1 year** when the sale is made or agreed + whole property used as own home **at least 1 of the last 2 years** → fully exempt; covers selveier, andel in borettslag and aksjeleilighet (2026 data, source: Lovdata — skatteloven § 9-3 (2))
-- **Fritidsbolig exemption**: owned more than 5 years + used as own fritidsbolig at least 5 of the last 8 years (skatteloven § 9-3 (4))
+- **Fritidsbolig exemption**: owned more than 5 years (and more than 5 years since it was taken into use or completed) + used as own fritidsbolig at least 5 of the last 8 years (2026 data, source: Lovdata — skatteloven § 9-3 (4))
 - Investment property: full 22 % on gain
 
 ### VAT (mva)
@@ -148,14 +150,16 @@ For borettslag, always compute:
 - 25 % standard
 - 15 % reduced (food)
 - 12 % reduced (passenger transport, accommodation, public broadcasting, admission to cinema, sports events, amusement parks, experience centres); 15 % also on water + sewerage services (2026 rates, source: Skatteetaten — satser, merverdiavgift)
-- Residential property sales: **VAT-exempt** (excl. specific commercial)
+- Sale and letting of fast eiendom: **exempt from the VAT act** (merverdiavgiftsloven § 3-11 (1)); § 3-11 (2) brings back in e.g. hotel-type room letting, parking in a parking business and letting under a voluntary registration (§ 2-3). A business building or renovating for sale or letting on its own account must compute uttak VAT on the goods and services it uses (§ 3-26) (2026 data, source: Lovdata — merverdiavgiftsloven, as amended to LOV-2025-12-22-121)
 
 ### Future risk
 
-- Eiendomsskatt residential cap at **4 ‰ (0.4 %)** (eskl. § 11, last amended from tax year 2021); the 2027 budget proposal (7 Oct 2026) adds no new eiendomsskatt (source: Estate Nyheter, 7 Oct 2026 — secondary)
-- **Formueskatt (wealth tax) — 2026**: no tax below **NOK 1,900,000 single / NOK 3,800,000 couples** taxed jointly; above that 0.35 % kommune + 0.65 % state = 1.0 %; state rate 0.75 % above NOK 21,500,000 → 1.1 % (2026 data, source: Skatteetaten — satser, formuesskatt). Boligverdsetting: primærbolig 25 % of market value up to **NOK 14,000,000** and 70 % above (raised from NOK 10M, Prop. 95 LS (2025–2026)); sekundærbolig 100 %; fritidsbolig separate lower regime (2026 data, source: Skatteetaten — satser, formuesverdi bolig). Updated valuation model from the 2026 income year uses sales data per grunnkrets instead of per kommune (source: Skatteetaten — formuesverdi). The 2025 return still uses NOK 1,760,000 / 3,520,000, 0.525 % kommune + 0.475 % state (0.575 % above NOK 20,700,000) and the NOK 10M primærbolig threshold (source: Skatteetaten — satser, year 2025). **2027 (proposal only)**: Prop. 1 LS (2026–2027), presented 7 Oct 2026, raises the bunnfradrag slightly and keeps housing thresholds, incl. the NOK 14M primærbolig threshold, nominally unchanged (source: Huseierne + Estate Nyheter, 7 Oct 2026 — secondary); not adopted — exact 2027 figures: verify at regjeringen.no Prop. 1 LS (2026–2027) or Stortinget's skattevedtak for 2027 (December 2026)
-- **Utflyttingsskatt (2024 exit-tax reform)** — latent gains on shares, aksjesparekonto and similar holdings when leaving Norway, not real property (§ 10-70 (2)): applies to exits from 20 Mar 2024 (further changes from 7 Oct 2024); 12-year limit on deferred payment regardless of realisation; **NOK 3M basic allowance** — only net gain above NOK 3,000,000 is taxed; pay now, or defer up to 12 years incl. a 1/12-per-year instalment option (2026 data, source: Lovdata — skatteloven § 10-70 (2), (4), (7), as amended by lov 20 des 2024 nr. 86)
-- **Borettslag exemption from dokumentavgift** — periodically debated but stable
+- Eiendomsskatt residential cap at **4 ‰ (0.4 %)** (eskl. § 11, last amended from tax year 2021); Prop. 1 LS (2026–2027) restates the 4 ‰ maximum for bolig and fritidsbolig in 2026 and none of its Del II proposals changes eiendomsskatt (source: Prop. 1 LS (2026–2027) ch. 2.3.4 + contents, regjeringen.no, archived 2026-10-21; Estate Nyheter, 7 Oct 2026 — secondary)
+- **Formueskatt (wealth tax) — 2026**: no tax below **NOK 1,900,000 single / NOK 3,800,000 couples** taxed jointly; above that 0.35 % kommune + 0.65 % state = 1.0 %; state rate 0.75 % above NOK 21,500,000 → 1.1 % (2026 data, source: Skatteetaten — satser, formuesskatt). Boligverdsetting: primærbolig 25 % of market value up to **NOK 14,000,000** and 70 % above (raised from NOK 10M, Prop. 95 LS (2025–2026)); sekundærbolig 100 % (2026 data, source: Skatteetaten — satser, formuesverdi bolig). Fritidsbolig is not valued, as primær- and sekundærbolig are, at a share of Skatteetaten's estimated market value: a new one is valued at 30 % of kostpris incl. tomt (or 30 % of market value); an earlier value can carry over to a new owner and rises with nybygg / påkostning, but never above 30 % of market value — the owner can claim it down to 30 % of documented market value; no annual adjustment was adopted for income year 2025 (2026 check, source: Skatteetaten — Formuesverdi av fritidseiendom; Prop. 1 LS (2026–2027) ch. 2.3.4, regjeringen.no, archived 2026-10-21). Updated valuation model from the 2026 income year uses sales data per grunnkrets instead of per kommune (source: Skatteetaten — formuesverdi). The 2025 return still uses NOK 1,760,000 / 3,520,000, 0.525 % kommune + 0.475 % state (0.575 % above NOK 20,700,000) and the NOK 10M primærbolig threshold (source: Skatteetaten — satser, year 2025). **2027 (proposal only, not adopted)**: Prop. 1 LS (2026–2027) raises the bunnfradrag by NOK 90,000 to **NOK 1,990,000 single / NOK 3,980,000 couples** and keeps the rates (0.35 % kommune maximum + 0.65 % state, 0.75 % state above NOK 21,500,000), the NOK 21.5M trinn-2 threshold, the NOK 14M primærbolig threshold and the 25 / 70 / 100 % valuation shares unchanged (source: Prop. 1 LS (2026–2027) table 1.5, ch. 4.2 and draft skattevedtak 2027 §§ 2-1, 2-3, regjeringen.no, archived 2026-10-21); final figures: Stortinget's skattevedtak for income year 2027
+- **Utflyttingsskatt (2024 exit-tax reform)** — latent gains on shares, aksjesparekonto and similar holdings when leaving Norway, not real property (§ 10-70 (2)): applies to exits from 20 Mar 2024 (further changes from 7 Oct 2024); **NOK 3M basic allowance** — only net gain above NOK 3,000,000 is taxed on exit; transfers to a person or entity abroad are taxed once the year's net gain exceeds NOK 100,000; pay at exit or defer for up to 12 years (security required — for moves within the EEA only where collection is at real risk), either 1/12 a year interest-free or in full at the end of the period with interest; the deferral ends after 12 years even without a sale, and earlier on realisation (2026 data, source: Lovdata — skatteloven § 10-70 (2), (4), (7), (8), as amended by lov 20 des 2024 nr. 86; Prop. 1 LS (2026–2027) ch. 2.3.1, regjeringen.no, archived 2026-10-21)
+- **Borettslag exemption from dokumentavgift** — in force: the avgift attaches to tinglysing of a document transferring hjemmel to fast eiendom, and the draft 2027 resolution keeps 2.5 % plus NOK 1,000 per transfer when a borettslag or boligaksjeselskap is dissolved. Prop. 1 LS (2026–2027) proposes no dokumentavgift change for 2027: Skattekommisjonen (NOU 2026: 9) asked for a review of the new-build rule (plot value only) and the ministry declined (source: Prop. 1 LS (2026–2027) ch. 10.22, ch. 20 + draft dokumentavgift resolution 2027 §§ 1–2, regjeringen.no, archived 2026-10-21)
+- **Inherited / gifted homes (2027 proposal, not adopted)**: a bolig or fritidsbolig the deceased or giver could have sold tax-free would give neither taxable gain nor deductible loss if the heir or recipient sells within one year of the inheritance or gift (new skatteloven § 9-7 (5) fifth sentence, from income year 2027) (source: Prop. 1 LS (2026–2027) ch. 3.3, regjeringen.no, archived 2026-10-21)
+- **Tax reform pending**: the government is assessing Skattekommisjonen's NOU 2026: 9 (consultation closed 24 Sep 2026) and will report to Stortinget on its follow-up early in 2027 (a white paper on comprehensive tax reform), so it proposes only minor formuesskatt changes for 2027 (source: Prop. 1 LS (2026–2027) ch. 1.1 + 4.1, regjeringen.no, archived 2026-10-21)
 
 ---
 
@@ -166,13 +170,13 @@ For borettslag, always compute:
 - **Husleieloven** (Tenancy Act): tenant-protective
 - **Tidsbestemt** (fixed-term) lease for bolig: minimum **3 years**; 1 year allowed for a loft or basement unit in an enebolig / tomannsbolig where the landlord lives in the same house; no minimum where the landlord or a household member will use the home, or the landlord has another objective reason, stated in writing at signing; a lease breaching the rule counts as tidsubestemt (husleieloven § 9-3; source: Lovdata, 2026)
 - **Husleieloven** rent changes: KPI indexation at most once a year with at least 1 month's written notice (§ 4-2); adjustment to gjengs leie (market rent) once the lease has run 2 years 6 months with no other change (§ 4-3) (source: Lovdata, 2026)
-- **Boligbyggelagene** (BBL) cooperatives manage many borettslag
+- **Boligbyggelagene** (BBL): NBBL's 36 member boligbyggelag have over 1,350,000 members and manage just over 650,000 homes in over 17,500 boligselskap (housing companies) (2026 data, source NBBL, industry body ⚠️ — `https://www.nbbl.no/om-oss/`)
 
 ### Short-let (Airbnb / Booking)
 
-**Skatteetaten rules** (significant):
-- **Sekundærbolig** (secondary housing): **31-day rental cap** for short-let in some kommuner without commercial license (unverified, no source cited — check with the kommune; the national statutory caps are the borettslag and eierseksjon rules below)
-- **Oslo**: ongoing debate about 30/60/90-day caps
+**Letting rules** (significant):
+- **Sekundærbolig** (secondary housing): no fixed day limit marks when short-letting becomes næringsvirksomhet — the kommune weighs the whole (how often, how it is organised, services offered, effects on neighbours), and hotel-like use can require a søknad om bruksendring under plan- og bygningsloven (source: Kommunal- og distriktsdepartementet press release, 24 Mar 2026, archived 2026-04-20 — `https://www.regjeringen.no/no/aktuelt/lanserer-veileder-om-kortidsutleie/id3153968/`); letting within the eierseksjon 90-day cap below can still require one (source: KDD veileder «Korttidsutleie: Når går boligen fra å være et hjem til å bli næringsvirksomhet?», Mar 2026, archived 2026-08-31 — `https://www.regjeringen.no/contentassets/725a26fdd68f4009b3cc069b0109e0d5/no/pdfs/veileder-kortidsutleie.pdf`). A hjemmel for local day limits, and one for limiting short-let of sekundærboliger, are among the new legal bases kommuner ask for; one local example: Stryn kommune decided in Dec 2025 that homes on kommunale boligtomter may be short-let at most 30 days a year without the kommune's consent (source: Husbanken, «Korttidsutleie som styringsutfordring», oppdrag 11/2025, Mar 2026 — `https://biblioteket.husbanken.no/arkiv/dok/Komp/Korttidsutleie%20som%20styringsutfordring%20kommunenes%20erfaringer%20og%20behov%20for%20regulering.pdf`)
+- **Oslo**: per Oslo kommune, 3 % of the city's dwelling stock — ca. 12,000 homes in June 2025, most in the city centre — was listed for short-let, and reports of illegal short-letting are rising (9 new cases in January 2026 alone) (2025–2026 data, per Oslo kommune as reported in the Husbanken report above). Nationally, Stortingsvedtak nr. 1221 (2024–2025) asks the government to study during 2026 powers for kommuner to ban short-letting in all or part of the kommune, and for borettslag and sameier to limit and enforce short-let rules better (source: Husbanken report above); KDD is studying plan- og bygningsloven changes, among them powers to require data from platforms and landlords on the number of lets and nights when illegal short-letting is suspected, and tools for local regulation (source: KDD press release, 22 Dec 2025, archived 2026-08-14 — `https://www.regjeringen.no/no/aktuelt/det-skal-bli-enklere-a-regulere-og-folge-opp-ulovlig-korttidsutleie/id3144320/`) — status of any bill: verify at `https://www.regjeringen.no/no/dep/kdd/id504/`
 - **Borettslag**: an andelseier who lives in the home may let parts of it, and may let the whole home for up to **30 days a year** (borettslagslova § 5-4); any other letting needs the board's consent (§ 5-3) (in force since 1 Jan 2020; source: Lovdata)
 - **Eierseksjon**: korttidsutleie (lets of up to 30 consecutive days) of a whole boligseksjon is capped at **90 days a year**; the vedtekter can move the cap to between 60 and 120 days by a two-thirds majority at the årsmøte; the cap does not apply in sameier where all units are fritidsboliger (eierseksjonsloven § 24; in force since 1 Jan 2020; source: Lovdata)
 
@@ -240,12 +244,12 @@ For borettslag, always compute:
   - **Snøskred** (snow avalanche)
   - **Jordskred** (mud / earth slide)
   - **Steinskred** (rockfall)
-  - **Kvikkleireskred** (quick clay slide) — devastating; quick clay can occur anywhere below the marine limit (0–220 m a.s.l.); triggered by stream/river erosion or by excavation at the slope toe / fill on the slope top (source NVE, checked 2026-10-23)
-  - Especially: **fjordmark + western Norway + Trøndelag + arctic regions**
+  - **Kvikkleireskred** (quick clay slide) — devastating; quick clay can occur anywhere below the marine limit (source NVE, page updated 2026-04-30), which lies 0–220 m above today's sea level depending on location (source NGU); triggered by stream/river erosion or by excavation at the slope toe / fill on the slope top (source NVE)
+  - Where: quick clay is most common in **Trøndelag + Østlandet**, and occurs in many smaller areas of valley, fjord and shore landscapes (source NGU); for snø-, stein- and jordskred, screen the address on NVE's skred i bratt terreng map (above)
+  - **Fjellskred + flodbølge** (rock avalanche into a fjord): Loen 1905 + 1936 cost 134 lives; the 1934 Tafjorden slide sent waves up to 61 m above sea level onto land (17 m in Tafjord itself), 22 dead in Tafjord + 18 in Fjørå (source NVE fjellskred veileder, revised 2024-05-07). NVE monitors 10 unstable mountainsides continuously and 23 periodically (source NVE, page updated 2026-04-17); the continuous ones are in Møre og Romsdal (Åknes, Mannen, Hegguraksla), Vestland (Joasetbergi, Tussafoten, Stiksmoen), Kåfjord kommune (Gámanjunni 3, Jettan, Indre Nordnes) and Vang (Skutshorn) (source NVE, list updated 2026-06-19)
   - **Gjerdrum quick-clay slide, 30 Dec 2020** (11 dead, source NVE): kvikkleire reminder
 - **Flom (flooding)**:
-  - River plains: Glomma, Drammenselva, Otra
-  - Fjord communities
+  - River floods: ekstremværet Hans (Aug 2023) broke historic water-level records in several places, with the longest-lasting impact in the lower Drammensvassdraget + Glommavassdraget (source NVE, Tørke-, flom- og jordskredåret 2023, updated 2024-01-09); for the address, use NVE's aktsomhetskart for flom / faresonekart flom (above)
   - Snowmelt (spring) + rain floods — spring floods have come earlier in recent decades; rain floods have increased, especially in Sør-Norge + Vestlandet (2025 data, source Norsk klimaservicesenter — Klima i Norge 2025)
 - **Kystflom + havnivåstigning** (coastal flood + sea-level rise)
 - **Radon — DSA recommends that every homeowner measure** (only 20 % report having measured; source DSA, page updated 2026-10-05):
@@ -261,12 +265,12 @@ For borettslag, always compute:
 
 | Era | Hazards |
 |---|---|
-| **Pre-1960s** | Lead paint, asbestos, no thermal envelope |
-| **1960s–1980s panelhus + concrete** | Asbestos very common |
-| **1990s–2000s** | Better insulation, modern wiring |
-| **Post-2010 TEK10** | Low-energy standards |
-| **Post-2017 TEK17** (in force 1 Jul 2017, FOR-2017-06-19-840) | Strict energy + accessibility |
-| **Wood construction** | Common — fire risk + moisture; brannsmitte |
+| **Pre-1960s** | Asbestos possible (see Asbestos row); old facade paint may contain lead — some buildings have paint high in heavy metals such as bly and sink, banned substances still found on older buildings (source Bergen kommune, page updated 2025-05-27; Bergen guidance, not a national survey) — test before sanding or stripping old paint; little insulation by today's standards — curated wisdom, not data |
+| **1960s–1980s panelhus + concrete** | Asbestos possible — the period of heaviest use ran from after WWII to c. 1980 (source Arbeidstilsynet; see Asbestos row) |
+| **1990s–2000s** (byggeforskrift 1987 until TEK97, FOR-1997-01-22-33, in force 1 Jul 1997) | Better insulation and wiring than older stock — curated wisdom, not data |
+| **Post-2010 TEK10** (FOR-2010-03-26-489, in force 1 Jul 2010) | Energy requirements in kap. 14 (§ 14-2 krav til energieffektivitet); § 14-4 as amended by FOR-2015-11-12-1290 (in force 1 Jan 2016) bars installing heating for fossil fuel (source Lovdata) |
+| **Post-2017 TEK17** (in force 1 Jul 2017, FOR-2017-06-19-840) | Energy requirements in kap. 14 (no fossil-fuel heating installations, § 14-4) + tilgjengelig boenhet in buildings that must have a heis, where for units up to 50 m² BRA at least 50 % of them suffice (§ 12-2) (source Lovdata) |
+| **Wood construction** | Common — fire risk + moisture; brannsmitte — curated wisdom, not data |
 | **Asbestos** | Used c. 1920–1985, heaviest post-WWII to 1980; total ban 1985 — survey any building erected before 1985 (source Arbeidstilsynet, checked 2026-10-23) |
 
 ### Mandatory diagnostics at sale
@@ -275,10 +279,10 @@ For borettslag, always compute:
 |---|---|---|
 | **Energimerking** (energiattest) | Mandatory at sale + letting; owner duty since 1 Jul 2010; shown to buyer before contract, else buyer may order one at seller's cost within 1 year (energimerkeforskriften §§ 5, 23) | Up to 10 years (§ 4) |
 | **Tilstandsrapport** (condition report) | **Not legally mandatory** (DiBK) — voluntary, but since 1 Jan 2022 the buyer is deemed to know what an approved report clearly shows (avhendingslova § 3-10), so a seller without one is more easily liable for defects (DiBK) | Max 1 year old when the buyer commits (forskrift § 1-6) |
-| **Egenerklæring** (seller's declaration) | All sales | At sale |
-| **Egenmelding skadedyr** (pest declaration) | No statutory basis found (checked 2026-10-23) — verify with megler | At sale |
-| **Eierskifteforsikring** (seller's insurance) | Recommended — protects seller from buyer claims | Per case |
-| **Boligsalgsrapport** (older format) | Replaced by tilstandsrapport for 2022+ | n/a for new |
+| **Egenerklæring** (seller's declaration) | Not required by avhendingslova, eiendomsmeglingsloven, eiendomsmeglingsforskriften or FOR-2021-06-08-1850; the duty behind it is statutory — the property is defective if the buyer was not told something the seller knew or ought to have known and the buyer had reason to expect to be told (avhendingslova § 3-7), or if it differs from what the seller stated (§ 3-8), in both cases only where this can be assumed to have affected the contract | At sale |
+| **Egenmelding skadedyr** (pest declaration) | No statutory basis found (checked 2026-10-23) — verify with megler; an approved tilstandsrapport must look for spor etter skadedyr in våtrom, takkonstruksjon and rom under terreng (forskrift §§ 2-2, 2-9, 2-15) | At sale |
+| **Eierskifteforsikring** (seller's insurance) | Optional — no statutory duty found; meglere may not broker it for a fee (eiendomsmeglingsforskriften § 5-1 (2) a) | Per case |
+| **Boligsalgsrapport** (older format) | Pre-2022 report format with no statutory definition (curated wisdom, not data); since 1 Jan 2022 a tilstandsrapport counts as approved for avhendingslova § 3-10 if it meets FOR-2021-06-08-1850, and ubetydelige deviations from the forskrift's kap. 2 do not remove that effect (forskrift § 1-5) | n/a for new |
 
 ### Tilstandsrapport (CRITICAL post-2022)
 
@@ -310,13 +314,13 @@ Source for every bullet: Norsk klimaservicesenter, *Klima i Norge 2025* summarie
 ### Sources
 
 - **Norsk Vann**: `https://www.norskvann.no/` — national water utility association
-- Each kommune manages own vannverk + avløpssystem
-- Major: **Oslo VAV** (Vann- og avløpsetaten), **Bergen Vann** (Bergen kommune), **Trondheim kommune**, **Stavanger kommune** (vann og avløp); **IVAR IKS** (Stavanger-based) delivers drinking water to 12 kommuner — check whether it supplies the target kommune (checked 2026-10-23)
+- Kommunal vann og avløp is run by the kommune itself or through an inter-municipal company (IKS, e.g. IVAR below)
+- Major: **Oslo VAV** (Vann- og avløpsetaten), **Bergen Vann** (Bergen kommune), **Trondheim kommune** (contact: Trondheim bydrift), **Stavanger kommune** (vann og avløp); **IVAR IKS** (Stavanger-based) delivers drinking water to 12 kommuner — check whether it supplies the target kommune (checked 2026-10-23)
 
 ### Verification
 
-- Most populated areas: kommunal mains universal
-- **Hytter (cabins) + rural**: own **brønn** (well) + **slamavskiller** (septic)
+- Kommunal vannforsyning reaches 85.2 % of the population (2025 data, source SSB, updated 2026-06-15) and kommunal avløp 86.4 % (2025 data, source SSB, updated 2026-10-23). Innlandet fylke ≈73.2 % on kommunal vann, computed from SSB table 11787 (kommune-reported connected inhabitants, 2025: 277,901) ÷ SSB table 07459 (population on 1 Jan 2026: 379,488). City figures in table 11787 are rounded and repeated year to year (Bergen 264,230 for 2020–2025, Trondheim 182,000 for 2021–2025), so they give no current city share. Fylke-level shares are not proof that a given address is connected: ask the kommune
+- **Hytter (cabins) + rural**: own **brønn** (well) + **slamavskiller** (septic) — 738,298 inhabitants are on one of 321,207 small avløpsanlegg under 50 pe (2025 data, source SSB tables 05272 + 05274, updated 2026-10-23)
 - **Private avløpsanlegg** (bolig, hytte, < 50 pe) fall under forurensningsforskriften kap. 12: the kommune is the pollution authority (§ 12-2); discharges established before 1 Jan 2007 stay lawful unless the kommune sets a deadline by forskrift or enkeltvedtak (§ 12-16) → ask the kommune about any pålegg om oppgradering
 
 ### Costs
@@ -329,7 +333,7 @@ Source for every bullet: Norsk klimaservicesenter, *Klima i Norge 2025* summarie
 | Pre-renseanlegg / minirenseanlegg | 150,000–400,000 |
 | Borebrønn (drilled well) | 80,000–150,000 |
 
-Unsourced est. ranges — the one-off connection fee (engangsgebyr for tilknytning) is a kommunal VA-gebyr (forurensningsforskriften kap. 16, § 16-3): take the target kommune's gebyrregulativ plus contractor quotes.
+Unsourced est. ranges (contractor-market prices) — get contractor quotes. The kommunal part is published: the one-off tilknytningsgebyr (forurensningsforskriften kap. 16, § 16-3) for a standard 120 m² bolig, ekskl. mva, is NOK 10,957 for vann + NOK 11,656 for avløp in SSB's national ('Landet') figure for the one-rate (én sats) fee, but NOK 114,870 + 76,518 in Oslo, 3,540 + 3,540 in Bergen, 6,886 + 6,886 in Trondheim and 5,112 + 7,644 in Stavanger (2026 data, source SSB table 12842, updated 2026-06-15). Oslo's two fees alone (NOK 191,388) exceed the Tilkobling row's range, so take the target kommune's gebyrregulativ.
 
 ---
 
@@ -337,20 +341,22 @@ Unsourced est. ranges — the one-off connection fee (engangsgebyr for tilknytni
 
 | Work | Cost (NOK) |
 |---|---:|
-| Energimerking | est. ~5,000–12,000 |
+| Energimerking (energiattest) | 0 when the owner self-registers an existing home (Enova, 2026); hired expert est. ~5,000–12,000 |
 | Tilstandsrapport | est. ~15,000–35,000 |
-| Megler (seller-paid typically) | est. ~1.5–3 % of price |
+| Megler (paid by the seller, eiendomsmeglingsloven § 7-2 (4)) | ≈ 1.59 % of price on average, NOK 62,996 per sale (2023, Finanstilsynet; computed in `--tax`) |
 | **Dokumentavgift (selveier + eierseksjon; borettslag exempt)** | **2.5 % of market value** (Kartverket) |
 | Tinglysningsgebyr | 545 per document (2026, Kartverket) |
 | Boligkjøperforsikring (recommended) | est. ~5,000–15,000 |
-| **Total transaction cost (selveier)** | **≈ 2.6–2.8 %** on NOK 5,000,000 (computed in `--tax`) |
+| **Total transaction cost (selveier, resale)** | **≈ 2.6–2.8 %** on NOK 5,000,000 (computed in `--tax`; new builds pay dokumentavgift on the plot value only) |
 | **Total transaction cost (borettslag)** | **≈ 0.2–0.5 %** on NOK 3,000,000 (computed in `--tax`) |
 | Slamavskiller upgrade | est. ~100,000–250,000 |
 | Roof (concrete tile, 150 m²) | est. ~250,000–500,000 |
 | Asbestos abatement (small house) | est. ~100,000–400,000 |
 | Energy retrofit (Class C → A) | est. ~600,000–1,500,000 |
-| Radon mitigation | est. ~30,000–80,000 |
+| Radon mitigation | 20,000–49,999 for 44 % of households that acted (DSA survey, 2023 data — see note) |
 | Brann + lyd retrofit (apartment) | est. ~50,000–200,000 |
+
+*Energimerking: the owner may register an existing home in Enova's energimerkesystem (energimerkeforskriften § 12) and receives the energiattest free; new homes must be marked by an expert (2026 data, source: Enova — Energimerk din bolig; Lovdata — energimerkeforskriften). Attests issued from 1 Jan 2026 use a new A–G scale with a new calculation method (NS 3031:2025), so a pre-2026 attest's letter is on a different scale from a 2026 one; attests under the old model stay valid until their expiry date; the energy-retrofit row's C → A does not say which scale it uses (source: Enova — Ny karakterskala, scale documents dated 2025-12-19; Enova — Om energimerkeordningen 2026). Radon (computed): DSA's autumn-2023 survey of 582 respondents who had measured above 100 Bq/m³ in the previous ten years — of those that had acted, 11 % reported NOK 20,000–29,999, 21 % NOK 30,000–39,999 and 12 % NOK 40,000–49,999 (11 + 21 + 12 = 44 %), and 11 % NOK 1,000–4,999; DSA-info reports no other brackets; the sample is not representative (72 % from Østlandet, mostly eneboliger) (2023 data, source: DSA-info 11/2024) — rates/figures may have changed since. Megler: Finanstilsynet broker statistics, computed in `--tax` (2023 data) — rates/figures may have changed since. The expert-energimerking, tilstandsrapport, boligkjøperforsikring, slamavskiller, roof, asbestos, energy-retrofit and brann + lyd ranges are order-of-magnitude estimates, not taken from a published Norwegian tariff, price book or survey; calibrate against written quotes. Dokumentavgift and tinglysingsgebyr: 2026 data, source Kartverket; totals computed in `--tax`.*
 
 ## Active fiscal incentives (2025-2026)
 
@@ -362,7 +368,7 @@ Unsourced est. ranges — the one-off connection fee (engangsgebyr for tilknytni
 
 ## Common listing platforms
 
-- **Finn.no** — DOMINANT (~95 %), full extraction
+- **Finn.no** — DOMINANT (market-share figure: data not publicly available; per SSB, FINN.no-advertised homes make up ≈ 70 % of housing transactions in fritt salg — see `--price`), full extraction
 - **DNB Eiendom, Krogsveen, Aktiv, EiendomsMegler 1, Privatmegleren** — agency networks
 - **Hjem.no** — alternative
 - **NE.no** — commercial premises to let and commercial property for sale (naeringseiendom.no redirects here): `https://ne.no/`
@@ -451,21 +457,24 @@ Unsourced est. ranges — the one-off connection fee (engangsgebyr for tilknytni
 
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for the country profile, `--work`, active fiscal incentives, the legal + fiscal caveats, quirks, verification authorities and source URL templates (re-verified 2026-10-23 against SSB, Kartverket, Norges Bank, Brønnøysundregistrene, Arbeidstilsynet, Lovdata, Skatteetaten, Enova, Husbanken, NVE and DSA). HIGH for the figures re-sourced on 2026-10-23 inside `--price` (SSB price tables), `--tax` (dokumentavgift, tinglysingsgebyr, eiendomsskatt cap + SSB kommune counts, capital-gains and formuesskatt rates) and `--risks` (Gjerdrum toll, radon, earthquake zones, Klima i Norge 2025; tilstandsrapport not legally mandatory per DiBK), but MEDIUM for those sections overall: megler %, boligkjøperforsikring, the residential VAT exemption, fritidsbolig wealth valuation, felleskostnader, the Finn.no share, the skred / flood regional emphasis and the build-era rows are not source-verified. MEDIUM for the `--traffic` verdict bands (curated heuristic, no published threshold). LOW for the est. cost ranges (`--mains`, Cost benchmarks, tilstandsrapport cost) and for the subreddit list (not fetchable). MEDIUM for short-let regulation: the statutory letting and short-let tax rules were re-sourced on 2026-10-23 (Lovdata, Skatteetaten), but the 31-day kommune cap and the Oslo 30/60/90-day debate rest on no source. EU Regulation 2024/1028 applies in the EU since 20 May 2026 in opt-in/opt-out mode — Member States are not obliged to apply it (2026 data, source European Commission DG GROW, 20 May 2026) — and is not yet part of the EEA Agreement: EEA-Lex lists it as under scrutiny for incorporation by Iceland, Liechtenstein and Norway, with no Joint Committee decision (2026 data, source EFTA EEA-Lex 32024R1028), so it does not bind Norway until incorporated.
+**Confidence**: HIGH for the country profile, `--work`, active fiscal incentives, the legal + fiscal caveats, quirks, verification authorities and source URL templates (re-verified 2026-10-23 against SSB, Kartverket, Norges Bank, Brønnøysundregistrene, Arbeidstilsynet, Lovdata, Skatteetaten, Enova, Husbanken, NVE and DSA). HIGH for `--price`: every material number is confirmed on SSB, Norges Bank or Lovdata pages, computed with inputs shown, or labelled (Finn.no share: data not publicly available, beside SSB's ≈ 70 % coverage statement; fellesgjeld range for newer borettslag: est., wisdom not data). HIGH for the figures re-sourced on 2026-10-23 inside `--tax` (dokumentavgift incl. the new-build rule, tinglysingsgebyr, eiendomsskatt cap + SSB kommune counts, capital-gains and formuesskatt rates, the VAT exemption, fritidsbolig valuation, the 2027 Prop. 1 LS proposal, the megler fee from Finanstilsynet's 2023 statistics), `--risks` (Gjerdrum toll, radon, earthquake zones, Klima i Norge 2025, NGU + NVE skred and flood material, TEK97 / TEK10 / TEK17, asbestos, sale-document rules; tilstandsrapport not legally mandatory per DiBK) and `--mains` (SSB connection shares + tilknytningsgebyr, forurensningsforskriften kap. 12 + 16), but MEDIUM for those sections overall: they are not yet confirmed as fully re-verified, boligkjøperforsikring stays est., and several build-era and sale-document rows carry curated wisdom, not data. MEDIUM for the `--traffic` verdict bands (curated heuristic, no published threshold). LOW for the est. cost ranges (`--mains`, Cost benchmarks, tilstandsrapport cost) and for the subreddit list (not fetchable). HIGH for `--rental`: the statutory letting and short-let tax rules were re-sourced on 2026-10-23 (Lovdata, Skatteetaten); the sekundærbolig and Oslo short-let lines rest on KDD (regjeringen.no, archived) and Husbanken material, the BBL line on NBBL (industry body ⚠️). EU Regulation 2024/1028 applies in the EU since 20 May 2026 in opt-in/opt-out mode — Member States are not obliged to apply it (2026 data, source European Commission DG GROW, 20 May 2026) — and is not yet part of the EEA Agreement: EEA-Lex lists it as under scrutiny for incorporation by Iceland, Liechtenstein and Norway, with no Joint Committee decision (2026 data, source EFTA EEA-Lex 32024R1028), so it does not bind Norway until incorporated.
 
 ### Per-section verification (overrides playbook-level date)
 
 | Section | Last verified | Verifier | Notes |
 |---|---|---|---|
 | Country profile | 2026-10-23 | 2026-10-23 refresh wave | EUR/NOK, Nynorsk share, selveier + borettslag household shares re-sourced (Norges Bank, SSB); postcodes, 15 fylker / 357 kommuner, gnr/bnr identifier and EEA status confirmed; 3 qualitative ownership-form lines unverified |
+| `--price` | 2026-10-23 | 2026-10-23 refresh wave + gap-closing pass | Price table (SSB 14545 / 14310 / 07221), borettslag kjøpesum + fellesgjeld (SSB 11504), hytte averages (SSB 11694), felleskostnader (SSB 14065), Norges Bank FSR editions and the salgsoppgave, eierseksjon and borettslag cost rules (Lovdata) confirmed or re-sourced; Finn.no share "data not publicly available"; newer-borettslag fellesgjeld range labelled est. (wisdom, not data) |
+| `--rental` | 2026-10-23 | 2026-10-23 refresh wave + gap-closing pass | husleieloven, borettslagslova, eierseksjonsloven and skatteloven § 7-2 rules re-confirmed on Lovdata, 22 % / 50.6 % rates per Skatteetaten; the unsourced 31-day kommune cap and Oslo 30/60/90-day debate replaced with KDD (archived) + Husbanken material; BBL line re-sourced to NBBL (industry body) |
 | `--work` | 2026-10-23 | 2026-10-23 refresh wave | AS NOK 30,000 (Brønnøysundregistrene) and 2025 median earnings (SSB 12852) re-sourced; minimum-wage regime per Arbeidstilsynet; Karriereguiden deprecated; platform rankings and the NUF line unverified |
 | Active fiscal incentives (2025-2026) | 2026-10-23 | 2026-10-23 refresh wave | Enova programmes + grant caps, Husbanken products, BSU limits, 22 % interest-deduction value and skatteloven § 6-1 checked on primary pages |
+| Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave + gap-closing pass | Finn.no share relabelled "data not publicly available" beside SSB's ≈ 70 % coverage statement; Næringseiendom.no → NE.no; agency networks + Hjem.no confirmed |
 | Caveats unique to NO (legal + fiscal lines) | 2026-10-23 | 2026-10-23 refresh wave | Dokumentavgift, avhendingslova 2022 reform, konsesjon + boplikt thresholds, foreign-buyer rule and 100 m building limit checked (Lovdata, Kartverket); fellesgjeld EUR range, NOK swing and the kvikkleire line not re-checked |
 | Quirks to know | 2026-10-23 | 2026-10-23 refresh wave | Konsesjon (§§ 4, 7, 15), strandsone (pbl § 1-8) and oppdragsavtale (eiendomsmeglingsloven § 6-5) checked on Lovdata; the Kvikkleirefare-soner line not re-checked |
 | Verification authorities | 2026-10-23 | 2026-10-23 refresh wave | Eiendomsskatt reassigned to the kommune (Skatteetaten); VA, NVE and DSA rows refined; role-only rows not re-checked |
 | Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | All 13 URLs checked; Se Eiendom + Skrednett rows replaced (301 redirects); DSA + Skatteetaten deepened; Temakart, NGU radon, Klima i Norge 2025, Vegkart and Trafikkdata rows added |
 
-Sections without a row (`--price`, `--traffic`, `--tax`, `--rental`, `--risks`, `--mains`, Cost benchmarks, Common listing platforms, Reddit / forum sources) were refreshed on 2026-10-23 but still carry unverified claims, so they keep the playbook-level date 2026-04-25.
+Sections without a row (`--traffic`, `--tax`, `--risks`, `--mains`, Cost benchmarks, Reddit / forum sources) were refreshed on 2026-10-23 but are not confirmed as fully re-verified (`--traffic` verdict bands and the subreddit list stay unverified), so they keep the playbook-level date 2026-04-25.
 
 ## Extension TODOs
 
@@ -485,7 +494,7 @@ Sections without a row (`--price`, `--traffic`, `--tax`, `--rental`, `--risks`, 
 - **2026-04-25** — Initial population
 - **2026-05-27** — Tier-1 corrections: fylker 11 → 15, eiendomsskatt kommune count and 4 ‰ residential cap, formuesskatt 2025 bands and the 2024 exit-tax reform added
 - **2026-05-29** — Anti-hallucination sweep: source + year tags added to tax, rental and work figures
-- **2026-10-23** — Refresh wave (market, tax-legal and risk-infra clusters) plus audit patches; playbook-level date kept at 2026-04-25 because `--price`, `--tax`, `--rental`, `--risks` and `--mains` still carry unverified claims:
+- **2026-10-23** — Refresh wave (market, tax-legal and risk-infra clusters) plus audit patches and a gap-closing pass; playbook-level date kept at 2026-04-25 because `--tax`, Cost benchmarks, `--risks` and `--mains` remain open (not confirmed as fully re-verified); `--price`, `--rental` and Common listing platforms are closed:
   - Country profile — 12 checked: 4 changed (EUR/NOK 10.49 on 22 Oct 2026, Nynorsk share, selveier + borettslag household shares), 5 confirmed, 3 unverifiable
   - `--price` — 22 checked: 9 changed (price table re-sourced to SSB 14545 / 14310 / 07221; borettslag kjøpesum + fellesgjeld from SSB 11504; BRA-i area measure; Se eiendom → Eiendomsregisteret; Realkredittforeningen deprecated, SSB 10748 added), 8 confirmed, 5 unverifiable (Finn.no share — now "data not publicly available" beside SSB's ≈ 70 % coverage statement; felleskostnader range; hytte range — now est.; Norges Bank reports line; ownership-form math)
   - `--traffic` — 10 checked: 2 changed (NVDB ÅDT layer in Vegkart, Trafikkdataportalen), 3 confirmed, 5 unverifiable (verdict bands are a curated heuristic; ÅDT gloss)
@@ -503,3 +512,4 @@ Sections without a row (`--price`, `--traffic`, `--tax`, `--rental`, `--risks`, 
   - Verification authorities — 9 checked: 4 changed (eiendomsskatt → kommune; VA, NVE, DSA rows), 1 confirmed, 4 unverifiable (role-only rows)
   - Source URL templates — 13 checked: 4 changed (Se Eiendom + Skrednett rows replaced after 301 redirects; DSA + Skatteetaten deepened; rows added), 9 confirmed
   - Status — short-let confidence line corrected (EU 2024/1028 is opt-in/opt-out in the EU and under scrutiny for EEA incorporation, not "transposition pending"); Confidence recomputed
+  - Gap-closing pass (confirmed / changed / relabelled) — 21 / 27 / 13: `--price` 5 / 4 / 1 (Norges Bank FSR editions, hytte averages SSB 11694, eierseksjon rules, felleskostnader SSB 14065; newer-borettslag fellesgjeld range est.), `--rental` 5 / 3 / 1 (31-day kommune cap + Oslo debate replaced with KDD + Husbanken material, BBL line per NBBL), `--tax` 3 / 8 / 1 (VAT exemption, fritidsbolig valuation, 2027 bunnfradrag proposal NOK 1,990,000 / 3,980,000, megler ≈ 1.59 % per Finanstilsynet 2023, new-build dokumentavgift rule, exit-tax deferral rules; boligkjøperforsikring est.), Cost benchmarks 0 / 3 / 2 (energimerking self-registration, radon DSA survey), `--risks` 7 / 7 / 6 (NGU + NVE skred and flood, TEK97 / TEK10 / TEK17, sale-document rows), `--mains` 1 / 2 / 1 (SSB connection shares, SSB 12842 tilknytningsgebyr), Common listing platforms 0 / 0 / 1 (Finn.no share); Status Confidence and per-section rows updated

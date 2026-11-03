@@ -99,28 +99,28 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Annual property tax — Précompte immobilier / Onroerende voorheffing
 
-**Three regional regimes** (base = RC/KI × indexation coefficient **2.3000** for 2026 — 2026 data, source vlaanderen.be / be.brussels):
+**Three regional regimes** (base = RC/KI × indexation coefficient **2.3000** for 2026 — 2026 data, source vlaanderen.be / be.brussels / wallonie.be):
 
 #### Wallonie
 
-- Base: indexed RC × **1.25%** (régional SPW Fiscalité) + opcentimes provinciales + opcentimes communales (2026-05-27 verified, source: finances.wallonie.be)
-- SPW Fiscalité has collected Wallonia précompte since 1 Jan 2021 (previously SPF Finances)
-- Effective rate ~30–60% of indexed RC depending on commune
-- Typical residential: **~€600–€2,500/yr est.** (indexed RC × ~30–60% effective rate above — verify on your own RC)
+- Base: indexed RC × **1.25%** (régional SPW Fiscalité) + opcentimes provinciales + opcentimes communales (2026 data, source wallonie.be)
+- SPW Fiscalité has collected Wallonia précompte since 1 Jan 2021 (previously SPF Finances) (source interieur.wallonie.be, circulaire budgétaire 2027 des provinces)
+- Effective rate (computed): indexed RC × 1.25% × (1 + (provincial + communal centimes)/100). Inputs: communal centimes 1,200–3,200, average 2,584 (2025 data, source UVCW fiche on the additionnels au précompte immobilier, updated 10 Oct 2025 — association of Walloon municipalities, secondary — rates/figures may have changed since); provincial centimes Hainaut **1,895** (2026 data, source Bulletin provincial du Hainaut, 16 Dec 2025), Liège **1,750** (2025 data, source Province de Liège resolution — rates/figures may have changed since); the provincial budget circular recommends at most **1,500** provincial centimes — a ceiling, not a floor (source interieur.wallonie.be, circulaire budgétaire 2027 des provinces) → at the average communal rate: **~52%** of indexed RC with a province at 1,500 (1.25% × (1 + 15.00 + 25.84)), **~55%** in Liège (1.25% × (1 + 17.50 + 25.84)), **~57%** in Hainaut (1.25% × (1 + 18.95 + 25.84)), less in a province below 1,500; **~65%** with the highest communal and provincial rates found (1.25% × (1 + 18.95 + 32.00)); Namur, Luxembourg and Brabant wallon provincial rates: verify with SPW Fiscalité (finances.wallonie.be) or on the avertissement-extrait de rôle
+- Bill per €1,000 of non-indexed RC (computed, 2026, before reductions): €2,300 indexed RC × 52.3–57.2% = **~€1,200–€1,320/yr** at the average communal rate with 1,500–1,895 provincial centimes — scale to the property's own RC (on the deed or in MyMinfin)
 - **Réductions** (2026 data, source wallonie.be): habitation modeste 25% of the précompte (50% for the first 5 yrs of a new home built or bought without a Walloon premium) if total non-indexed RC ≤ €745; €125 per dependent child (min. 2 children); €250 per disabled dependent
 
 #### Vlaanderen
 
-- Base: indexed KI × **3.97%** (basisheffing VLABEL) + opcentiemen provincie + opcentiemen gemeente (2026-05-27 verified, source: VLABEL belastingen.vlaanderen.be — highest regional base rate in BE)
-- Effective rate ~35–65% of indexed KI
-- Typical residential: **~€700–€2,800/yr est.** (indexed KI × ~35–65% effective rate above — verify on your own KI)
-- **Vermindering** for primary residence + dependents
+- Base: indexed KI × **3.97%** (basisheffing VLABEL) + opcentiemen provincie + opcentiemen gemeente (2026 data, source vlaanderen.be — Vlaamse Belastingdienst; highest regional base rate in BE)
+- Effective rate (computed, 2026): indexed KI × 3.97% × (1 + (provincial + communal opcentiemen)/100). Provincial opcentiemen 2026: Antwerpen 160, Limburg 214.52, Oost-Vlaanderen 148.47, Vlaams-Brabant 171.75, West-Vlaanderen 186.22; communal 472 (Zaventem; also the lowest of Sint-Martens-Latem's three categories) to 1,417 (Alveringem), unweighted average 916.03 of the 285 communes' headline rates (the Vlaamse Belastingdienst overview gives 939.77 averaged over its category rows, and lists a 0 category in Antwerpen and Herk-de-Stad without saying which property types it covers) (2026 data, source vlaanderen.be — Vlaamse Belastingdienst opcentiemen overview and Lokaal Bestuur 'Aanslagvoeten per gemeente') → **~28.6% (Sint-Martens-Latem, lowest category) / ~29.5% (Zaventem) to ~67.6% (Alveringem)** of indexed KI; **~46–49%** at the 916.03 average communal rate, depending on the province
+- Bill per €1,000 of non-indexed KI (computed, 2026, before reductions): €2,300 indexed KI × 28.6–67.6% = **~€660–€1,555/yr** (~€1,060–€1,125 at the average communal rate) — scale to the property's own KI; exact bill via the Vlaamse Belastingdienst simulator (belastingen.fenb.be/ui/public/simulaties/ov)
+- **Verminderingen** (2026 data, source vlaanderen.be): bescheiden woning 25% for an owner domiciled in the home whose total non-indexed KI in Vlaanderen is ≤ €745; children with family allowance (min. 2 domiciled on 1 Jan): €8.80 base per child for aanslagjaar 2026, plus the provincial and communal opcentiemen on that amount; persons with a disability (≥66% or 9 points); war victims; energy-efficient new or renovated buildings (low E-peil)
 
 #### Bruxelles-Capitale
 
 - Base: indexed RC × **1.25%** (régional) + **989** centimes additionnels de l'Agglomération (= 12.3625% of indexed RC) + centimes communaux (2026: **2,440** Auderghem to **4,191** Schaerbeek; regional average 3,599) (2026 data, source Bruxelles Fiscalité fiche précompte immobilier, updated 2 Mar 2026)
 - Effective rate **~44–66% of indexed RC** in 2026 (computed: 1.25% × (1 + 9.89 + 24.40…41.91); regional average ~58.6%)
-- Typical residential: **~€1,000–€3,500/yr est.** (indexed RC × ~44–66% effective rate above, before reductions — verify on your own RC)
+- Bill per €1,000 of non-indexed RC (computed, 2026, before reductions): €2,300 indexed RC × 44.1–66.0% = **~€1,015–€1,520/yr** (~€1,350 at the regional average) — scale to the property's own RC; the reductions below come off this
 - **Reductions** (2026 data, source be.brussels): **BE HOME prime €164** (exercice 2026) deducted from the bill for Brussels residents who own the home they live in; habitation modeste 25% (non-indexed RC ≤ €745, only Brussels property); 10% per child with family allowance (min. 2 children); 20% per disabled person; ten communes add a housing prime (2026: €100–€212.24)
 - **BE HOME doubling — announced, not enacted**: €164 → **€328 from exercice d'imposition 2027**; first draft approved by the Brussels Government (be.brussels, 13 Aug 2026; first reading 18 Jun 2026 per Forum for the Future — secondary); still needs Conseil d'État and social-partner opinions and the Brussels Parliament's vote
 
@@ -140,7 +140,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 - **Habitation propre et unique (own home, primary)**: **3%** (down from 12.5%) for authentic deeds from 1 Jan 2025; also for a building plot or a dwelling on plan / under construction (2026 data, source fin.belgium.be / wallonie.be FAQ)
   - Conditions: buy the whole property in full ownership; own no other dwelling outright in full ownership (BE or abroad) unless it is sold within 3 yrs; establish main residence within 3 yrs (5 yrs for a building plot) and keep it ≥3 yrs — otherwise the 12.5% − 3% difference is due (2026 data, source fin.belgium.be / wallonie.be FAQ)
-  - **Trade-off**: chèque-habitat abolished for homes acquired or built from 2025 (existing beneficiaries keep it — wallonie.be FAQ); the abattement première habitation (art. 46bis C. enr.) and the 6% / 5% modest-housing rates also abolished (décret wallon 5 Dec 2024, circulaire 2025/C/42 of 5 Jul 2025 — per Nisaba commentary, secondary)
+  - **Trade-off**: chèque-habitat abolished for homes acquired or built from 2025 (existing beneficiaries keep it — wallonie.be FAQ); the abattement première habitation (art. 46bis C. enr.; €40,000 of the price exempt below €350,000, tapering to €20,000 above €500,000, max saving €5,000) and the 6% modest-housing / 5% social-loan rates ended on 1 Jan 2025 (source fin.belgium.be 'Droit d'enregistrement en Région wallonne : réductions d'impôt supprimées', archived 2025-10-07; décret wallon 5 Dec 2024 and circulaire 2025/C/42 of 5 Jul 2025 per Nisaba commentary — secondary)
 - **Other (second home / BTL)**: **12.5%** (2026 data, source fin.belgium.be / wallonie.be FAQ)
 
 #### Bruxelles-Capitale
@@ -151,28 +151,33 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Frais de notaire / notariskosten
 
-- ~1.5–2% est. on top of registration duties (notary honoraria + admin costs + 21% VAT + disbursements; a mortgage deed adds more)
-- Honoraria fixed by royal decree as a degressive % of price — the notary may charge neither more nor less: ~1.3% at €125,000, ~1% at €200,000, 0.057% on the slice above €250,095 (2022 data, source notaire.be — rates/figures may have changed since)
+- Honoraria fixed by the tariff annexed to the AR of 16 Dec 1950 (as amended, most recently by the AR of 22 Nov 2022; amounts as consolidated after the 1 Jan 2026 indexation) — the notary may charge neither more nor less (2026 data, source notaire.be unofficial consolidation of 9 Feb 2026):
+  - **Barème Jbis** (natural persons buying, in full ownership, their own and only home, domiciled there within 1 yr — otherwise the difference to barème J is due): fixed €257 + 2.5% to €17,500, 2% to €30,000, 1.5% to €45,495, 0.5% to €64,090, 0.485% to €250,095, 0.30% to €500,000, 0.20% above
+  - **Barème J** (other purchases): fixed €285 + 2.5% to €17,500, 1.75% to €30,000, 1.71% to €45,495, 1.14% to €64,090, 0.57% to €250,095, 0.20% above
+  - Plus a flat **€855** for administrative costs and non-individualisable disbursements (€627 per linked deed from the second one, e.g. the mortgage deed); honoraria and flat fee are set excl. VAT and carry 21% VAT (Chamber doc. 54 3060/001, 26 Apr 2018; 21% confirmed as the standard rate by fin.belgium.be 'Acheter avec TVA', archived 2026-04-18)
+- Notary costs computed from the above (honoraria + €855, + 21% VAT): €200,000 → ~€3,370 (1.7%) under Jbis / ~€3,690 (1.8%) under J; €300,000 → ~€3,840 (1.3%) / ~€4,150 (1.4%); €400,000 → ~€4,210 (1.05%) / ~€4,400 (1.1%). Individualisable disbursements (searches, registry fees) and any mortgage deed come on top — the notary's provisional cost statement gives the exact figure
 
 ### TVA / BTW (new builds)
 
-- **21%** on a new dwelling bought from a promoter (or from a private seller who opts for VAT) — replaces droits d'enregistrement; a dwelling is 'new' until 31 Dec of the 2nd year after first occupation (2026 data, source fin.belgium.be)
-- Land sold with the new dwelling: in principle also 21% VAT when three cumulative conditions are met; otherwise registration duty on the land at 12% (Vlaanderen) or 12.5% (Wallonie, Bruxelles) (2026 data, source fin.belgium.be)
+- **21%** on a new dwelling bought from a promoter (or from a private seller who opts for VAT) — replaces droits d'enregistrement; a dwelling is 'new' until 31 Dec of the 2nd year after first occupation (2026 data, source fin.belgium.be 'Acheter avec TVA', archived 2026-04-18)
+- Land sold with the new dwelling: in principle also 21% VAT when three cumulative conditions are met; otherwise registration duty on the land at 12% (Vlaanderen) or 12.5% (Wallonie, Bruxelles) (2026 data, source fin.belgium.be 'Acheter avec TVA', archived 2026-04-18)
 - **6% demolition + reconstruction — permanent regime from 1 Jul 2025, Belgium-wide** (2026 data, source fin.belgium.be): (1) owner-builder natural person, sole own home ≤**200 m²**, domicile ≥5 yrs (unchanged since 1 Jan 2024); (2) social rental ≥15 yrs via a social letting agency / social housing body (no surface cap); (3) private rental ≥15 yrs to a person domiciled there, ≤200 m²; (4) new from 1 Jul 2025: **sale** of the reconstructed dwelling at 6% to a natural person who lives there (≤**175 m²**, sole own home), or for 15-yr social or private rental (private: ≤175 m²); above 175 m² at first occupation → 21%
 
 ### Total transaction cost (buyer side)
 
 | Region | Primary residence | Second home / BTL |
 |---|---:|---:|
-| **Vlaanderen** | ~3.5–4.5% (~4.5–5.5% est. for compromis from 1 Jan 2027, decree pending) | ~13.5–14.5% |
-| **Wallonie** | ~5–6% | ~14.5–16% |
-| **Bruxelles** | ~8–11% est. at €400k–600k with the abattement (duty alone: 6.25% at €400k, 8.33% at €600k; no abattement above €600k) | ~14.5–16% |
+| **Vlaanderen** | ~3.1–3.7% (2% + notary Jbis); ~4.1–4.7% for compromis from 1 Jan 2027 (3%, decree pending) | ~13.1–13.8% (12% + notary J) |
+| **Wallonie** | ~4.1–4.7% (3% + notary Jbis) | ~13.6–14.3% (12.5% + notary J) |
+| **Bruxelles** | ~7.3% at €400k, ~9.1% at €600k with the abattement (duty alone: 6.25% at €400k, 8.33% at €600k; no abattement above €600k) | ~13.6–14.3% (12.5% + notary J) |
+
+Computed at €400,000–€200,000 unless stated (2026 data): registration duty + notary costs as above (honoraria under barème Jbis or J + €855 flat fee, + 21% VAT). Excludes individualisable disbursements and any mortgage deed, so the real total is higher.
 
 ### Capital gains
 
 - **Own-home sale**: exempt if it was the seller's own home for ≥12 uninterrupted months right before the month of sale (2026 data, source fin.belgium.be — explications déclaration 2026)
 - **Buildings held >5 yrs**: exempt — taxable only if sold within 5 yrs of a purchase for value (new builds: construction started within 5 yrs of buying the land and the whole sold within 5 yrs of first occupation or letting) (2026 data, source fin.belgium.be)
-- **Buildings sold within 5 yrs**: 16.5% (+ communal surcharges) (SPF Finances Mémento fiscal 2017 — rates/figures may have changed since). The 10% capital-gains tax in force from 1 Jan 2026 covers financial assets, not real estate (law published in the Moniteur belge 21 Apr 2026, per RSM Belgium — secondary)
+- **Buildings sold within 5 yrs**: **16.5%** (+ communal surcharges) (source notaire.be 'Taxes sur les plus-values immobilières', undated page; same rate in SPF Finances Mémento fiscal 2017 — rates/figures may have changed since; verify the current CIR 92 text with SPF Finances, Fisconetplus). The 10% capital-gains tax in force from 1 Jan 2026 covers financial assets, not real estate (loi du 6 avril 2026 introduisant un impôt sur les plus-values sur les actifs financiers, Moniteur belge 21 Apr 2026, effective 1 Jan 2026 per its art. 35 — source ejustice.just.fgov.be)
 - **Land sold within 8 yrs**: **33%** if sold ≤5 yrs after purchase, **16.5%** if sold after 5 yrs (+ communal surcharges) (2026 data, source fin.belgium.be — explications déclaration 2026)
 
 ### Future risk
@@ -201,16 +206,16 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 #### Bruxelles-Capitale
 
-- **Prior registration** with **Bruxelles Économie et Emploi** is required before any paid tourist let of 1 night to 90 days, for individuals and companies alike; operating unregistered is illegal (2026 data, source economie-emploi.brussels)
-- The registration file includes a commune attestation that the tourist use complies with urban-planning rules (ordonnance 8 May 2014 art. 4 + arrêté 24 Mar 2016 art. 7 — secondary summary, droitbelge.be)
+- **Prior registration** with **Bruxelles Économie et Emploi** is required before any paid tourist let of 1 night to 90 days, for individuals and companies alike, the host's own main residence included; operating unregistered is illegal (2026 data, source economie-emploi.brussels host pages and FAQ)
+- The registration file needs an urban-planning attestation from the commune's urbanisme service (every category, the host's main residence included), a fire attestation from the mayor, renewed every 5 years (a simplified-check attestation when the operator runs fewer than 6 tourist accommodations at once and all tourist accommodation in the building together takes fewer than 10 guests, otherwise a fire-safety attestation) and, in a copropriété, the general assembly's written consent; the registration number is tied to one operator and one address, so a buyer must apply for a new one; administrative fines €416–€41,600 (décimes additionnels included) for offences found from 1 Feb 2026 (2026 data, source economie-emploi.brussels host pages and FAQ)
 - **Ordonnance of 1 Feb 2024** on tourist accommodation repeals and replaces the 2014 ordonnance once in force; its entry-into-force date is left to the Government (art. 45, etaamb.openjustice.be) — verify at economie-emploi.brussels which regime applies on the purchase date
 - **EU Reg 2024/1028** is a directly applicable regulation, applying since 20 May 2026 — nothing to transpose; Member States are not obliged to apply it, but any registration scheme or platform-data request must go through it (2026 data, source European Commission DG GROW, 20 May 2026)
 
 #### Wallonie
 
-- **Code wallon du Tourisme (CWT)** — décret of 8 Feb 2024 + arrêté of 16 May 2024, in force 1 Jul 2025: every hébergement touristique must be **registered with Tourisme Wallonie**; registration replaced the declaration duty in force since 2017 (2026 data, source Data Protection Authority opinion 113/2026 of 4 Jun 2026)
-- Registration needs a fire-safety attestation (ASI) from the mayor of the commune (Arius law firm, secondary); Tourisme Wallonie issues a unique registration number, which platforms such as Airbnb and Booking.com ask for (CPDT/IGEAT methodological note, Dec 2024)
-- **Pending**: an avant-projet de décret aligning the CWT with EU Reg 2024/1028 (immediate registration with ex-post checks, platform verification of numbers, activity data to Tourisme Wallonie) was before the Data Protection Authority in Jun 2026; adoption not confirmed on 2026-10-23 — verify at wallex.wallonie.be
+- **Code wallon du Tourisme (CWT)** — décret of 8 Feb 2024 + arrêté of 16 May 2024, in force 1 Jul 2025: every hébergement touristique must be **registered with Tourisme Wallonie**; registration replaced the declaration duty in force since 2017 (2026 data, source Data Protection Authority opinion 113/2026 of 4 Jun 2026; entry into force on 1 Jul 2025 set by the arrêté of 16 May 2024 — wallex.wallonie.be); accommodation declared on 1 Jul 2025 is deemed registered without a new application as long as its fire-safety or simplified-check attestation is still valid, and attestations issued under the old code stay valid until they expire (2026 data, source decree of 8 Feb 2024 art. 22 as amended by the decree of 30 May 2025, consolidated text on wallex.wallonie.be)
+- Registration needs a fire-safety attestation (ASI, issued by the mayor, valid 5 years) or, where applicable, a simplified-check attestation (ACS), plus a criminal-record extract under 6 months old; Tourisme Wallonie gives each accommodation a unique registration number, whose proof must be displayed (2026 data, source CWT art. D.III.21–D.III.24 and D.III.73–D.III.74, consolidated text on wallex.wallonie.be; wallonie.be 'Créer et gérer un hébergement touristique'); platforms such as Airbnb and Booking.com ask for the number (CPDT/IGEAT methodological note, Dec 2024). Since 2023 the Walloon planning code also requires some tourist accommodation to obtain an urban-planning permit from the commune (2026 data, source wallonie.be)
+- **Pending**: an avant-projet de décret aligning the CWT with EU Reg 2024/1028 (immediate registration with ex-post checks, platform verification of numbers, activity data to Tourisme Wallonie) was before the Data Protection Authority in Jun 2026; not in the consolidated CWT on wallex.wallonie.be on 2026-10-23 (version in force from 1 Sep 2026, last amended by the decree of 18 Jun 2026, with no reference to EU Reg 2024/1028) — verify adoption at wallex.wallonie.be
 
 #### Vlaanderen
 
@@ -220,10 +225,10 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Tax on rental
 
-- **Residential rental to a private tenant who does not use it professionally**: taxed on indexed RC/KI × 1.40, not on the rent received; often substantially below market — **major tax-optimization advantage**; indexation coefficient 2.2446 for 2025 income (2025 data, source Keytrade Bank / Accountable — secondary; fin.belgium.be 'Un bien immobilier que je mets en location' sets the treatment by tenant type)
-- **Furnished let**: the furniture share of the rent is movable income — 40% of the rent if the lease sets no split, then a 50% flat cost deduction, taxed at 30% (2026 data, source Viseeon accountants — secondary)
-- **Professional tenant / company**: actual rent minus a 40% flat cost allowance (capped at 2/3 of the revalorised RC/KI), never below indexed RC/KI × 1.40, taxed at progressive rates (2026 data, source Viseeon, Accountable — secondary)
-- **Short-let**: VAT on furnished accommodation with hotel-type services (reception, linen or daily breakfast) rose from **6% to 12% on 1 Mar 2026** (2026 data, source SPF Finances VAT FAQ as reproduced by Forum for the Future). Income tax for a private host: KI-based property income on the let part + movable income on the furniture share + miscellaneous income if extra services such as cleaning or linen are provided (Airbnb Belgium tax guide 2026 — platform tier, verify with an accountant)
+- **Residential rental to a private tenant who does not use it professionally**: taxed on indexed RC/KI × 1.40, not on the rent received, at the progressive income-tax rates; often substantially below market — **major tax-optimization advantage**; indexation coefficient 2.2446 for 2025 income (tax year 2026) and 2.3000 for 2026 income (2026 data, source SPF Finances 'Kadastraal inkomen: wat en waarvoor', fin.belgium.be, archived 2026-05-10; × 1.40 formula: SPF Finances 'Verhuur aan een persoon die het goed niet voor het beroep gebruikt', archived 2025-10-03 — rates/figures may have changed since)
+- **Furnished let** (private tenant, outside a professional activity): the building is taxed as above; the furniture share is movable income — 40% of the total rent unless the lease sets another split, minus a 50% flat cost deduction (or actual costs, interest excluded), taxed at 30% in principle (2025 data, source SPF Finances 'Verhuur aan een persoon die het goed niet voor het beroep gebruikt', fin.belgium.be, archived 2025-10-03 — rates/figures may have changed since)
+- **Professional tenant / company**: taxed on the higher of (a) gross rent minus a 40% flat cost deduction, the deduction capped at 2/3 × non-indexed RC/KI × revalorisation coefficient (5.63 for 2025 income, 5.75 for 2026 income), and (b) indexed RC/KI × 1.40 (2026 data, source SPF Finances 'Verhuur aan een persoon die het goed voor het beroep gebruikt of aan een rechtspersoon of vereniging', fin.belgium.be, archived 2026-05-17), at progressive rates (SPF Finances 'Verhuur aan een persoon die het goed niet voor het beroep gebruikt', archived 2025-10-03)
+- **Short-let**: VAT on furnished accommodation let for less than 3 months in hotels and similar establishments that provide at least one hotel-type service (physical reception of guests, bed linen, daily breakfast) rose from **6% to 12% on 1 Mar 2026** (2026 data, source arrêté royal of 14 Feb 2026, Moniteur belge 23 Feb 2026, p. 9168 — ejustice.just.fgov.be). Income tax for a private host letting outside a professional activity: KI-based property income on the let part (pro rata to the area and days let) + movable income on the furniture share (as above) + miscellaneous income, taxed at 33% in principle, on paid extra services such as cleaning or breakfast; letting with services through a recognised sharing-economy platform may fall under the sharing-economy regime, and regular, professionally organised letting is taxed as professional income (2025 data, source SPF Finances 'Verhuur aan een persoon die het goed niet voor het beroep gebruikt', fin.belgium.be, archived 2025-10-03 — rates/figures may have changed since; verify with an accountant)
 
 ---
 
@@ -267,7 +272,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 | **IRM (Institut Royal Météorologique)** | `https://www.meteo.be/` | Climate, weather |
 | **AwAC** Wallonie air quality | `https://www.awac.be/` | Wallonie air |
 | **VMM** Vlaamse Milieumaatschappij | `https://vmm.vlaanderen.be/` (updated 2026-10-23; `vmm.be` redirects) | Vlaanderen environment, sewer and treatment indicators |
-| **CELINE** | `https://www.irceline.be/` | National air quality |
+| **CELINE** | `https://www.irceline.be/fr` | National air quality |
 | **Waterinfo — informatieplicht** | `https://www.waterinfo.be/informatieplicht` | Vlaanderen flood report per parcel: P-score (perceel) + G-score (gebouw) (source: integraalwaterbeleid.be) |
 
 ### Specific risks
@@ -276,36 +281,38 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
   - July 2021 catastrophic floods (Wallonie): 39 dead (per police), 209 of 262 Walloon communes hit, nearly 48,000 buildings (of which 45,000 dwellings) affected, cost to the Région wallonne €2.8bn at that stage (2022 data, source Gouvernement wallon communiqué 4 Jul 2022 — rates/figures may have changed since); insured damage est. €2.4bn at 31 Dec 2022 (2022 data, source Assuralia, insurers' federation — industry source — rates/figures may have changed since); Liège, Verviers, Pepinster, Theux
   - Vesdre, Meuse, Ourthe basins
   - Flood-risk plans: Wallonie **PGRI 2022-2027** (Plans de Gestion des Risques d'Inondation, approved by the Gouvernement wallon 19 Jan 2023; source environnement.wallonie.be); Vlaanderen overstromingsrisicobeheerplannen are integrated in the **stroomgebiedbeheerplannen 2022-2027** (adopted by the Vlaamse Regering 1 Jul 2022; source publicaties.vlaanderen.be)
-- **Bodemverontreiniging / pollution du sol**: extensive industrial legacy in Wallonie + Antwerpen + Charleroi
-- **Aardbeving / séisme**: low-moderate (Roer Valley Graben); 13 Apr 1992 Roermond (NL) ML 5.8, intensity VII, and 8 Nov 1983 Liège ML 5.0, intensity VII (source: Observatoire royal de Belgique instrumental catalogue, seismology.be)
+- **Bodemverontreiniging / pollution du sol**: check the parcel in each region's register. Vlaanderen: on average 20% of risicogronden given a first oriënterend bodemonderzoek need a beschrijvend onderzoek, and about half of those then need remediation; typical risk sites include a large heating-oil tank, a garage workshop, a petrol station, a dry cleaner or a former gasworks (source: OVAM, ovam.vlaanderen.be/risicogronden, page undated). Wallonie: the BDES lists 46,888 'pêche' parcels subject to Décret sols obligations — in most cases because of an environmental permit for a soil-risk activity, so not necessarily polluted — of which 17,786 in Hainaut and 12,484 in Liège province (37.9% and 26.6%, computed: 17,786 / 46,888 and 12,484 / 46,888) (2026 data, source SPW ARNE BDES parcel list on ODWB, data processed 11 Mar 2026; colour meaning per environnement.wallonie.be). Bruxelles: inventaire de l'état du sol in 5 categories, searchable by address (source: environnement.brussels)
+- **Aardbeving / séisme**: low-moderate (Roer Valley Graben); 13 Apr 1992 Roermond (NL) ML 5.8, intensity VII, and 8 Nov 1983 Liège ML 5.0, intensity VII (sources: KNMI, knmi.nl 'Aardbeving Roermond 1992' — 5.8 on the Richter scale, intensity just over VII; Observatoire royal de Belgique, astro.oma.be 'Commemoration of the Liège 1983 earthquake', 7 Nov 2023 — local magnitude 5.0, EMS-98 intensity VII); USGS catalogue: Roermond Mw 5.4, Liège mb 5.0 (source: earthquake.usgs.gov events usp00055q3 and usp0001zn0)
 - **Mijnverzakkingen** (mining subsidence): Limburg (coal), Wallonie (Borinage); historic — in Wallonie the DRIGM subsoil information sheet covers mine shafts, karst, landslides and underground quarries per parcel (see Mandatory at sale)
 - **Asbestos**: broad Belgian ban 1998, complete ban by arrêté royal 23 Oct 2001 in force 1 Jan 2002 (source: SPF Emploi, emploi.belgique.be); buildings built before 2001 are the risk construction years for the Flemish asbestattest (source: OVAM)
 - **Loodleidingen** (lead pipes) — homes built before 1970 may still have lead plumbing; drinking-water limit 10 µg lead per litre since end 2013 (source: De Watergroep, dewatergroep.be); in Bruxelles no distribution main is lead but a small share of old lead service connections remains (source: vivaqua.be)
-- **Pollution de Charleroi-Mons-Liège axe**: heavy metal soil contamination
+- **Charleroi–Mons–Liège industrial axis**: the communes with the most BDES 'pêche' parcels are Charleroi (1,888), Mons (1,654) and Liège (1,458) (2026 data, source SPW ARNE BDES parcel list on ODWB) — raw commune counts, not adjusted for commune size and not a statement about any single parcel. The highest cadmium concentrations in Walloon soils result mainly from historical atmospheric fallout, notably from non-ferrous metallurgy (zinc, lead, cadmium); most agricultural parcels are below 0.5 mg/kg outside historically impacted zones; probable-cadmium map for agricultural and forest topsoil (top 30 cm, 100 m grid) on the Géoportail de la Wallonie (source: environnement.wallonie.be, 8 Apr 2026)
 - **Klimaatverandering**: +0.7 to +5 °C by end of century vs 1961-1990, depending on scenario (source: IRM/KMI meteo.be, CORDEX.be ALARO model); markedly wetter winters (climat.be: up to +22% by 2100); for summer the IRM model gives on average no or only a slight decrease (RCP8.5), while climat.be cites down to −25% by 2100 — the two federal sources differ, both shown (sources: meteo.be; climat.be, SPF Santé — Changements climatiques); see Climate change projections
 
 ### Build-era hazards
 
+Curated wisdom, not data, except where a source is named.
+
 | Era | Hazards |
 |---|---|
-| **Pre-1900** | No DPC, lead, damp, asbestos cement starts |
+| **Pre-1900** | No DPC, lead, damp; any asbestos cement is a later addition (process patented 1900; Eternit factories in Belgium by 1910 — secondary: Wikipedia 'Ludwig Hatschek' ⚠️) |
 | **1900–1945** | Asbestos common, lead, weak insulation |
 | **1945–1990** | Asbestos very common (broad ban 1998, complete ban 1 Jan 2002 — source SPF Emploi); cuves à mazout (oil tanks) |
-| **1990s+** | Improved insulation; PEB phasing in |
+| **1990s+** | Improved insulation; energy-performance requirements for permit applications from 1 Jan 2006 in Vlaanderen (source: vlaanderen.be EPB page) and 2 Jul 2008 in Bruxelles (source: Bruxelles Environnement fiche 'Exigences PEB 2008-2014'); Wallonie transitional PEB phase from 1 Sep 2008, second phase from 1 May 2010 (secondary: CMS Belgium article on lexgo.be, 31 May 2010 ⚠️) |
 | **2021+** | Near-zero-energy new builds by permit-application year: BEN (max E30) in Vlaanderen, Q-ZEN in Wallonie (sources: publicaties.vlaanderen.be EPB-eisen 2026 brochure; energie.wallonie.be Q-ZEN guide 2026) |
 
 ### Mandatory at sale
 
 | Document | Region | Required because | Validity |
 |---|---|---|---|
-| **PEB** (FR) / **EPC** (NL) | All | Energy cert (Bruxelles: required before marketing any dwelling >18 m²; source environnement.brussels) | 10 years (Vlaanderen: since 2022 only EPCs drawn up after 2019 usable at sale; source vlaanderen.be) |
+| **PEB** (FR) / **EPC** (NL) | All | Energy cert (Bruxelles: required before marketing any dwelling >18 m²; source environnement.brussels) | 10 years maximum (Wallonie: required before a dwelling is put up for sale or rent, indicators in every advert; source wallonie.be démarche n° 2606, 2026. Vlaanderen: since 2022 only EPCs drawn up after 2019 usable at sale; source vlaanderen.be) |
 | **Bodemattest** | Vlaanderen | OVAM soil certificate, required before the compromis for every land transfer; a risicogrond also needs an oriënterend bodemonderzoek (source: ovam.vlaanderen.be) | At sale (sale BLOCKED without it) |
 | **Asbestattest** | Vlaanderen | Mandatory since **23 Nov 2022** for sales of buildings built before 2001; VME common parts by 2027; every pre-2001 building by 2032 (source: OVAM, ovam.vlaanderen.be/asbestattest) | 10 years standard, shorter if high-risk asbestos is present (source: OVAM) |
 | **Overstromingsrapport / waterparagraaf** (P-score + G-score) | Vlaanderen | Flood-sensitivity information duty in adverts, compromis and deed (sale, lease >9 yrs, erfpacht / opstal); amended regime in force 1 Jan 2023 (source: integraalwaterbeleid.be, CIW) | Per transaction (report from waterinfo.be/informatieplicht) |
 | **Attestation du sol / bodemcertificaat** | Bruxelles | Mandatory to sell land (Bruxelles Environnement); base fee €48, indexed every 2 years, next indexation 2027 (2025 data, source environnement.brussels page dated 27 Mar 2025 — rates/figures may have changed since) | At sale |
 | **Extrait conforme BDES** (Banque de Données de l'État des Sols) | Wallonie | Required for land sales since 1 Jan 2019 (Décret sols art. 31); first extract €30, +€10 per extra parcel, capped at €320 (source: environnement.wallonie.be) | Up to 1 year for a notarial deed; void earlier if the parcel's BDES data change |
 | **Contrôle électrique** (RGIE) | All | At sale of a dwelling, for installations that had no (complete) conformity examination after 1 Oct 1981; if infractions are found the buyer has 18 months from the deed to fix them and have a new inspection (source: SPF Economie, economie.fgov.be) | Periodic inspection every 25 years after a conformity check (source: SPF Economie) |
-| **Citerne mazout** | Where applicable | Permit | Ongoing |
+| **Citerne mazout / stookolietank** | All (rules differ by region) | Vlaanderen: no inspection certificate required at sale, but the latest inspection certificates and reports must be available to show; a tank under 6,000 L is inspected every 5 years if underground, and since 1 Mar 2009 only at installation if above ground (source: vlaanderen.be). Wallonie: 3,000–24,999 L is a classe 3 establishment (declaration + periodic inspection by an approved technician, AGW 17 Jul 2003), 25,000 L and more needs an environmental permit, and an unproven capacity counts as over 3,000 L (source: wallonie.be démarche n° 2514, 2026). Bruxelles: declaration for a buried tank up to 10,000 L or an above-ground tank of 3,000–10,000 L, environmental permit above 10,000 L (source: environnement.brussels, page dated 2 May 2022) | Wallonie, tanks of 3,000 L and more (and smaller ones in a drinking-water catchment prevention zone): leak test every 3 years (single wall) or 10 years (double protection) (source: environnement.wallonie.be 'Une citerne en règle'); Vlaanderen by volume and placement (see left) |
 | **Fiche d'Informations du Sous-sol** (DRIGM, SPW ARNE) | Wallonie | Karst, landslide, mine-shaft, underground-quarry and Seveso major-accident information; the seller's notary must provide the available information at sale; free (source: wallonie.be démarche) | 6 months |
 
 ### Climate change projections
@@ -331,18 +338,20 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Verification
 
-- Universal in urban areas across all three régions
-- Some rural Wallonie / Eifel border on individual systems (fosses septiques)
+- Bruxelles: every wastewater producer must connect to the sewer; the commune can exempt a building only where connection is not technically or economically feasible, and an individual treatment system is then required; treatment plants Nord (since 2006) and Sud (since 2000) (source: environnement.brussels, page dated 8 Nov 2023)
+- Wallonie: about 180,000 dwellings — nearly 12% of Walloons potentially concerned — lie in a zone d'assainissement autonome, where a new dwelling must have an individual treatment system (SEI) instead of a sewer connection (2019 data, source État de l'environnement wallon fiche EAU 20 citing the PASH — rates/figures may have changed since)
 - Vlaanderen: 94.2% of inhabitants connected to sewer (rioleringsgraad, Apr 2026); 88.6% collectively treated (zuiveringsgraad, end 2024); about 2% of residents live where an IBA (individual treatment unit) is required (2026 data, source VMM, vmm.vlaanderen.be indicator zuiveringsgraad)
 - Wallonie: collective treatment-plant equipment rate 92.5% at 31 Dec 2023 (459 stations, 4,127,033 population-equivalent capacity) — a capacity-vs-target measure, not the share of homes on sewer (2023 data, source IWEPS fiche A009 citing SPGE — rates/figures may have changed since)
 
 ### Costs
 
-| Scenario | Cost (€, est. — contractor-quote ranges, no published tariff) |
+| Scenario | Cost (€) |
 |---|---:|
-| Aansluiting riool / raccordement égout | 6,000–15,000 |
-| Septique / IBA installation | 8,000–15,000 |
-| Cuve mazout removal | 1,500–4,000 |
+| Aansluiting riool — Vlaanderen, Fluvius areas (Fluvius Antwerpen, Limburg, West, Riobra) | standard connection: 1,144.25 incl. 21% VAT flat commissioning fee; complex connection (diam. 200): 1,896.59 incl. 21% VAT base fee plus trench reinstatement 187.44–458.76 per m in the roadway (2026 data, source Fluvius 'Aansluitingstarieven Riolering 2026') |
+| Aansluiting riool / raccordement égout — all-in incl. works on the plot, other operators | est. 6,000–15,000 — unsourced contractor-quote range, order of magnitude only; works on the plot are not in the Fluvius tariff sheet; get the local sewer operator's tariff and contractor quotes |
+| IBA — Vlaanderen, Fluvius areas | household IBA where no sewer will come (individueel te optimaliseren buitengebied): supplied and installed at the standard-connection fee, 1,144.25 incl. 21% VAT; IBA for a single-family house in collectief te optimaliseren buitengebied: 8,093.53 incl. 21% VAT (2026 data, source Fluvius 'Aansluitingstarieven Riolering 2026') |
+| Septique / IBA / SEI installation — elsewhere | est. 8,000–15,000 — unsourced contractor-quote range; the Fluvius collectief-buitengebied fee above sits at its low end; in Wallonie an installation or rehabilitation prime exists under the SPGE's GPAA scheme (source: wallonie.be GPAA démarche, updated 23 Jul 2026) |
+| Cuve mazout removal | est. 1,500–4,000 — unsourced contractor-quote range, no published tariff; depends on volume, underground vs above ground and extraction vs neutralisation in place |
 
 ---
 
@@ -350,22 +359,22 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 | Work | Cost (€) |
 |---|---:|
-| PEB / EPC | 150–350 |
-| Asbestattest (Vlaanderen) | 350–600 |
+| PEB / EPC | ~150–350 est. (no fixed price in Vlaanderen — set by the energy expert, source vlaanderen.be EPC page; range not from a price source — compare quotes) |
+| Asbestattest (Vlaanderen) | ~350–600 est. (no legal price — set by the certified asbestos expert; includes the €59 OVAM retributie since 5 Feb 2025, source vlaanderen.be; range not from a price source — compare quotes) |
 | Bodemattest (Vlaanderen) | 73.05 per full parcel; 275.05 per part of a parcel (since 1 Jan 2026, source vlaanderen.be) |
-| Notaris fees | ~1.5–2% of price est. (honoraria + admin + 21% VAT; honoraria alone ~1% at €200,000 — 2022 data, notaire.be — rates/figures may have changed since) |
+| Notaris fees | own and only home (barème Jbis): ~€3,370 at €200,000 (1.7%), ~€3,840 at €300,000 (1.3%), ~€4,210 at €400,000 (1.05%) — computed: honoraria + €855 flat fee + 21% VAT (2026 tariff, source notaire.be); disbursements extra |
 | Registration duties (primary, Vlaanderen) | 2% (since 1 Jan 2025); 3% for compromis from 1 Jan 2027 (decree pending) |
 | Registration duties (primary, Wallonie) | 3% (since 1 Jan 2025) |
 | Registration duties (Bruxelles) | 12.5% (first €200,000 exempt for an own home priced ≤ €600,000) |
-| **Total transaction cost (Vlaanderen primary)** | **~3.5–4.5%** (~4.5–5.5% est. from 1 Jan 2027, decree pending) |
-| **Total transaction cost (Wallonie primary)** | **~5–6%** |
-| **Total transaction cost (Bruxelles primary)** | **~8–11%** est. at €400k–600k with abattement |
-| **Total transaction cost (second home)** | **~13.5–16%** |
-| Septic to mains | 6,000–15,000 |
-| Cuve mazout removal | 1,500–4,000 |
-| Roof renovation | 15,000–30,000 |
-| Asbestos removal | 1,000–10,000 |
-| Energy retrofit (Class C → A) | 25,000–60,000 |
+| **Total transaction cost (Vlaanderen primary)** | **~3.1–3.7%** at €400k–€200k (~4.1–4.7% for compromis from 1 Jan 2027, decree pending) — computed, excl. disbursements |
+| **Total transaction cost (Wallonie primary)** | **~4.1–4.7%** at €400k–€200k — computed, excl. disbursements |
+| **Total transaction cost (Bruxelles primary)** | **~7.3–9.1%** at €400k–€600k with abattement — computed, excl. disbursements |
+| **Total transaction cost (second home)** | **~13.1–14.3%** at €400k–€200k (12% / 12.5% duty + notary barème J) — computed, excl. disbursements |
+| Septic to mains | ~6,000–15,000 est. (contractor range, not from a price source — get ≥3 quotes) |
+| Cuve mazout removal | ~1,500–4,000 est. (contractor range, not from a price source — get ≥3 quotes) |
+| Roof renovation | ~15,000–30,000 est. (contractor range, not from a price source — get ≥3 quotes) |
+| Asbestos removal | ~1,000–10,000 est. (contractor range, not from a price source; for a given property in Vlaanderen, OVAM's prijsramingstool gives a price fork from the asbestattest data — ovam.vlaanderen.be/asbest-prijsramingstool) |
+| Energy retrofit (Class C → A) | ~25,000–60,000 est. (contractor range, not from a price source — get ≥3 quotes) |
 
 ## Active fiscal incentives (2025-2026)
 
@@ -440,7 +449,7 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing, traffic, tax (3 régions), rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for `--price` (benchmark table rebuilt from Statbel H1 2026 medians, Statistiek Vlaanderen 2025 and the Fednot barometer of 13 Oct 2026). HIGH for the registration-duty rates in force (Vlaanderen 2% and Wallonie 3% since 1 Jan 2025; Bruxelles 12.5% with the €200,000 abattement — vlaanderen.be, wallonie.be, be.brussels), the asbestattest mandate (23 Nov 2022, Vlaanderen — vlaanderen.be, OVAM) and the July 2021 flood figures (Gouvernement wallon communiqué of 4 Jul 2022). MEDIUM for the Vlaanderen return to 3% for compromis from 1 Jan 2027 (VLABEL SP 26021 of 1 Oct 2026, onder voorbehoud of the decree, which is pending). MEDIUM for `--work` (VAT franchise, INASTI and PIT 2026 bands re-verified; salary figures are Statbel 2022 and SD Worx Jan 2026, secondary). MEDIUM for `--rental`: lease law and the three short-let regimes re-read on primary sources, but rental-tax mechanics rest on secondary accountants and banks, and neither the Bruxelles ordonnance of 1 Feb 2024 nor the Flemish and Walloon texts implementing EU Reg 2024/1028 (an EU regulation applying since 20 May 2026, not a directive to transpose) are confirmed in force. MEDIUM for `--risks` and `--mains`: source tables, flood, seismic, asbestos, lead and mandatory-at-sale rows re-sourced; the soil-pollution bullets, the citerne mazout row and Wallonie PEB validity remain unverified. LOW for précompte effective rates and typical bills, all-in transaction-cost totals, the 16.5% capital-gains rate on buildings (2017 source only) and the contractor and mains cost rows (est., no primary price source).
+**Confidence**: HIGH for `--price` (benchmark table rebuilt from Statbel H1 2026 medians, Statistiek Vlaanderen 2025 and the Fednot barometer of 13 Oct 2026). HIGH for the registration-duty rates in force (Vlaanderen 2% and Wallonie 3% since 1 Jan 2025; Bruxelles 12.5% with the €200,000 abattement — vlaanderen.be, wallonie.be, be.brussels), the asbestattest mandate (23 Nov 2022, Vlaanderen — vlaanderen.be, OVAM) and the July 2021 flood figures (Gouvernement wallon communiqué of 4 Jul 2022). MEDIUM for the Vlaanderen return to 3% for compromis from 1 Jan 2027 (VLABEL SP 26021 of 1 Oct 2026, onder voorbehoud of the decree, which is pending). MEDIUM for `--work` (VAT franchise, INASTI and PIT 2026 bands re-verified; salary figures are Statbel 2022 and SD Worx Jan 2026, secondary). MEDIUM for `--rental`: lease law, the three short-let regimes and the rental-tax rules rest on primary sources (SPF Finances rental-tax pages read in archived copies of 2025-10-03, 2026-05-10 and 2026-05-17; short-let VAT in the arrêté royal of 14 Feb 2026), but neither the Bruxelles ordonnance of 1 Feb 2024 nor the Flemish and Walloon texts implementing EU Reg 2024/1028 (an EU regulation applying since 20 May 2026, not a directive to transpose) are confirmed in force. MEDIUM for `--risks`: source tables, flood, seismic (KNMI, Observatoire royal de Belgique), asbestos, lead and mandatory-at-sale rows re-sourced, the soil-pollution bullets rebuilt on OVAM and SPW ARNE BDES data (province and commune counts, not parcel-level), the citerne mazout row set out per région and Wallonie PEB validity confirmed on wallonie.be; the build-era rows are curated wisdom except where a source is named, and the 'low-moderate' seismic label and the mining-subsidence bullet are qualitative. MEDIUM for `--mains`: coverage statements sourced (Bruxelles Environnement, SPW fiche EAU 20 with 2019 data, VMM, IWEPS) and Fluvius 2026 connection and IBA tariffs for the Fluvius areas. MEDIUM for précompte effective rates and bills per €1,000 of RC/KI (computed from the 2026 Vlaamse Belastingdienst opcentiemen, the 2026 Bruxelles centimes and, for Wallonie, the 2025 UVCW communal centimes (secondary) with the Hainaut and Liège provincial centimes; Namur, Luxembourg and Brabant wallon provincial centimes not sourced) and for the all-in transaction-cost totals (computed from the 2026 notary tariff, excl. disbursements). LOW for the 16.5% capital-gains rate on buildings (undated notaire.be page and the 2017 Mémento fiscal only) and every est. cost row (contractor works, PEB / EPC, asbestattest, and mains connection, IBA and tank-removal costs outside the Fluvius tariff).
 
 ### Per-section verification (overrides playbook-level date)
 
@@ -448,6 +457,10 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 |---|---|---|---|
 | `--price` | 2026-10-23 | 2026-10-23 refresh wave | Benchmark table from Statbel H1 2026 / Statistiek Vlaanderen 2025 / Fednot 13 Oct 2026; unsourced €/m² column dropped; Logic-Immo → Zimmo, Vlan → Immovlan; cadastre URL content not readable (captcha) |
 | `--work` | 2026-10-23 | 2026-10-23 refresh wave | VAT franchise €25,000, INASTI 2026 and PIT 2026 bands re-verified; forfait regime closed 2022; salary figures Statbel 2022 + SD Worx Jan 2026 (secondary) |
+| `--tax` | 2026-10-23 | 2026-10-23 gap-closing pass | Précompte effective rates and bills per €1,000 of RC/KI computed from the 2026 Vlaamse Belastingdienst opcentiemen, the 2026 Bruxelles centimes and the Walloon communal (UVCW 2025, secondary) and provincial centimes; Flemish reductions corrected; notary fees and buyer-side totals recomputed from the 2026 notary tariff; CGT law confirmed in the Moniteur belge of 21 Apr 2026; 16.5% kept with the may-have-changed suffix; Namur, Luxembourg and Brabant wallon provincial centimes verify-at; Flemish 2027 3% and BE HOME doubling stay pending |
+| `--rental` | 2026-10-23 | 2026-10-23 gap-closing pass | Rental-tax rules on SPF Finances pages (archived 2025-10-03, 2026-05-10, 2026-05-17); short-let VAT 6% → 12% on 1 Mar 2026 in the arrêté royal of 14 Feb 2026 (Moniteur belge 23 Feb 2026); Bruxelles and Wallonie registration rules on economie-emploi.brussels, the consolidated CWT (Wallex) and wallonie.be; lease law, Vlaanderen short-let rules and EU Reg 2024/1028 from the refresh; Bruxelles ordonnance of 1 Feb 2024, Flemish Logiesdecreet amendment and Walloon EU-alignment draft labelled pending |
+| `--risks` | 2026-10-23 | 2026-10-23 gap-closing pass | Soil bullets on OVAM and SPW ARNE BDES data (ODWB; province and commune counts, not parcel-level); seismic values on KNMI, astro.oma.be and USGS; citerne mazout rules per région; Wallonie PEB 10-year validity on wallonie.be; pre-1900 and 1990s build-era rows corrected, the rest labelled curated wisdom; CELINE URL re-pointed |
+| Cost benchmarks (BE 2026) | 2026-10-23 | 2026-10-23 gap-closing pass | Notary row and the four total rows computed from the 2026 notary tariff (excl. disbursements); registration-duty rows confirmed in the refresh (vlaanderen.be, wallonie.be, be.brussels) and bodemattest fee re-confirmed (vlaanderen.be); PEB / EPC and asbestattest est. (no fixed price in Vlaanderen; the asbestattest includes the €59 OVAM retributie); contractor rows est., not from a price source |
 | `--traffic` | 2026-10-23 | 2026-10-23 refresh wave | Source URLs re-checked; MOW and Bruxelles Mobilité URLs replaced; TJM replaces the unattested PJM / GMD terms; verdict bands are skill thresholds |
 | Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave | Immoweb, Zimmo, Realo live; Logic-Immo folded into Zimmo; Vlan replaced by Immovlan |
 | Active fiscal incentives | 2026-10-23 | 2026-10-23 refresh wave | Chèque-habitat, abattement + BE HOME, Mijn VerbouwLening 2026 and the Wallonie 1 Oct 2026 regime on primary sources; federal EE-loan ❌ DEPRECATED |
@@ -474,7 +487,8 @@ ISO2: `be`. Status: ✅ Fully populated (researched 2026-04).
 - **2026-05-27** — Tier-1 corrections: précompte base rates (Wallonie 1.25%, Vlaanderen 3.97%, Bruxelles 1.25%), Vlaanderen 1 Jan 2026 own-home conditions, 12% rate dated to 2022, 6% VAT demolition-reconstruction regime
 - **2026-05-29** — Anti-hallucination sweep: est. labels on précompte bills and cost benchmarks, VAT building-vs-land split, capital-gains caveats
 - **2026-09-18** — BruGIS URL re-pointed
-- **2026-10-23** — Refresh wave (market, tax-legal, risk-infra) plus audit findings; playbook-level date not re-stamped because `--tax`, `--rental`, `--risks` and `--mains` are not fully re-verified
+- **2026-10-23** — Refresh wave (market, tax-legal, risk-infra) plus audit findings, then a gap-closing pass (corrections re-checked 2026-11-03); playbook-level date not re-stamped because `--mains` stays open: its coverage statements and the Fluvius-area connection and IBA tariffs are now sourced, but connection, IBA and tank-removal costs elsewhere stay est. (no Farys or Vivaqua tariff sourced); `--tax`, `--rental`, `--risks` and Cost benchmarks were closed by the gap-closing pass
   - Re-verified (facts checked — changed / confirmed / unverifiable): `--price` 36 — 25 / 10 / 1; `--work` 12 — 6 / 6 / 0; `--traffic` 5 — 4 / 1 / 0; Common listing platforms 5 — 2 / 3 / 0; Active fiscal incentives 7 — 6 / 1 / 0; Caveats unique to BE 5 — 2 / 3 / 0 (legal / fiscal only); Source URL templates 11 — 2 / 9 / 0, plus 3 rows added
   - Refreshed, not re-verified: `--tax` 52 — 31 / 12 / 9; Cost benchmarks 15 — 6 / 2 / 7; `--rental` 16 — 14 / 1 / 0; `--risks` 33 — 20 / 7 / 6; climate projections (in `--risks`) 4 — 4 / 0 / 0; `--mains` 14 — 7 / 2 / 5; Country profile 6 — 1 / 2 / 3; Reddit / forum sources 8 — 1 / 5 / 2; Verification authorities 6 — 0 / 2 / 2 (rows unchanged)
   - Main changes: Statbel H1 2026 median price table replaces the unsourced ranges; Vlaanderen own-home duty back to 3% for compromis from 1 Jan 2027 (VLABEL SP 26021, decree pending); 2026 indexation coefficient 2.3000 and the Bruxelles agglomeration and communal centimes; BE HOME prime (€164 for 2026; €328 from 2027 announced, not enacted); short-let regimes of the three régions rewritten from primary sources, with EU Reg 2024/1028 described as a regulation in application since 20 May 2026 rather than a pending transposition; short-let VAT 6% → 12% on 1 Mar 2026; 565 communes; federal EE-loan ❌ DEPRECATED; CIRGT, Plan PARGI and CIGT entries replaced (not found in any source); IECBW replaced by in BW; mains cost rows labelled est.
+  - Gap-closing pass (confirmed / changed / relabelled): `--rental` 6 / 2 / 1; `--tax` 8 / 4 / 1; Cost benchmarks 1 / 2 / 2; `--risks` 1 / 4 / 4 — closed; `--mains` 0 / 0 / 3 — patched, still open; total 16 / 12 / 11. Main changes: rental-tax rules re-sourced to SPF Finances (archived pages) and short-let VAT to the arrêté royal of 14 Feb 2026; Bruxelles and Wallonie short-let registration rules read on economie-emploi.brussels, the consolidated CWT and wallonie.be (Wallonie: fire-safety ASI or ACS plus a criminal-record extract); précompte effective rates recomputed from the 2026 Flemish opcentiemen and the Walloon communal and provincial centimes, the 'typical residential' bills replaced by computed bills per €1,000 of RC/KI and the Flemish reductions line corrected; notary fees and buyer-side totals recomputed from the 2026 notary tariff; soil-pollution bullets rebuilt on OVAM and SPW ARNE BDES data, seismic values re-sourced to KNMI and the Observatoire royal de Belgique, the citerne mazout row set out per région, the pre-1900 asbestos-cement and 1990s PEB rows corrected; `--mains` coverage bullets sourced and Fluvius 2026 connection and IBA tariffs added; PEB / EPC, asbestattest and contractor rows labelled est.
