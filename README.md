@@ -11,7 +11,7 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/soreavis/property-deep-dive/badge)](https://scorecard.dev/viewer/?uri=github.com/soreavis/property-deep-dive)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12655/badge)](https://www.bestpractices.dev/projects/12655)
 
-**Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and same `/property-deep-dive` invocation in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
+**Runs in [Claude Code](https://docs.claude.com/claude-code) and [Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — same plugin format and the same skill in both. Install UX differs: Claude Code uses slash commands, Cowork uses its in-app plugin browser (see [Install](#install)).
 
 **Pre-purchase property due diligence across 126 countries** — tax, risks, rental yield, visa, mortgage, broadband, buyer-nationality home-country tax overlay, foreign-buyer remote-execution mechanisms, 90-day post-completion relocation logistics, international schools + catchment areas, and 16 other facets per address. Sourced from primary government data, every claim dated and confidence-labelled. **41 user-invocable sections**, **4 cross-cutting layers** (integrity / journey / type / update), and a regulatory-watch system that surfaces reforms before they invalidate the data.
 
@@ -104,7 +104,7 @@ Use your platform's native plugin or skill manager where one exists; those lanes
 | **Copilot / GitHub CLI** | `gh skill install soreavis/property-deep-dive property-deep-dive` | `gh skill update property-deep-dive` |
 | **Grok** | `grok plugin marketplace add soreavis/property-deep-dive` then `grok plugin install soreavis/property-deep-dive --trust` | `grok plugin update property-deep-dive` |
 | **Claude web / Desktop / Cowork** | Customize → Plugins → **+** → Add marketplace → `https://github.com/soreavis/property-deep-dive` | automatic on marketplace sync |
-| **ChatGPT** | Skills → **Create** → **Upload from your computer**, using the [release zip](https://github.com/soreavis/property-deep-dive/releases/latest) | re-upload the newer zip |
+| **ChatGPT** | Skills → **Create** → **Upload from your computer**, using a zip built with `./scripts/build-skill-zips.sh` (see the note below; releases do not ship a zip) | rebuild and re-upload the zip |
 | **Other agents** | `npx skills add soreavis/property-deep-dive --skill property-deep-dive` | `npx skills update` |
 
 > [!NOTE]
@@ -120,7 +120,7 @@ The two Claude lanes are documented in more detail below.
 /plugin install property-deep-dive@property-deep-dive
 ```
 
-The skill is now invocable via `/property-deep-dive`. The plugin manifest pins to a specific [CalVer](#versioning) release — you'll get updates only when a new version is published, not on every commit.
+The skill is now invocable as `/property-deep-dive:property-deep-dive` (Claude Code names plugin skills `/<plugin>:<skill>`), or just describe what you want and Claude loads it. The short `/property-deep-dive` used in the examples is the name when the skill is installed as a personal skill (see the manual symlink below). The plugin manifest pins to a specific [CalVer](#versioning) release — you'll get updates only when a new version is published, not on every commit.
 
 ### Claude Cowork (in-app)
 
@@ -174,6 +174,8 @@ Paste any of these into Claude Code or Claude Cowork after installing:
 See [Usage](#usage) below for the full flag reference and more examples.
 
 ## Usage
+
+The examples use the personal-skill name `/property-deep-dive`. After a plugin install, type `/property-deep-dive:property-deep-dive` instead, or ask in plain words.
 
 ```
 /property-deep-dive 1 Rue Principale, 86430 Adriers, France --all
