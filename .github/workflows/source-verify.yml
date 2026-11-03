@@ -56,8 +56,42 @@ jobs:
           python3 scripts/evidence-ledger-test.py
           python3 scripts/maintain-test.py
 
+  maintenance-plan:
+    # Which playbook clusters still need an agent this month. Re-reads every ledgered figure
+    # on the page that proved it (config/_evidence/); reports only, never edits or re-dates.
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: |
+          python3 -m pip install --quiet --require-hashes -r requirements.txt
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Plan
+        run: |
+          set -euo pipefail
+          codes=$(ls config/_evidence | sed 's/\.json$//' | paste -sd, -)
+          python3 scripts/maintain.py plan --countries "$codes" --date "$(date -u +%F)" --out _ci/maint | tee _ci/plan.txt
+          { echo '## Maintenance plan'; echo; echo '```'; cat _ci/plan.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload worklists
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
+        with:
+          name: maintenance-plan
+          path: _ci/maint/
+          retention-days: 45
+
   audit:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     runs-on: ubuntu-24.04
     # ~3-4 min cold expected; 30 min gives ~8x headroom for runner network variability.
     timeout-minutes: 30

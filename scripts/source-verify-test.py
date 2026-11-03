@@ -523,6 +523,26 @@ class TestBacktickCitationsAndMachineConfirm(unittest.TestCase):
         self.assertEqual(SV.min_cover_span(text, [["143"], ["172"]]), len("172 then 143"))
 
 
+class TestHostCircuitBreaker(unittest.TestCase):
+    def test_consecutive_failures_trip_and_success_resets(self):
+        import asyncio
+        replies = iter(["UNAVAILABLE", "OK", "UNAVAILABLE", "UNAVAILABLE"])
+
+        async def stub(session, url, *rest):
+            return SV.FetchResult(url, next(replies))
+
+        real, SV._fetch_text = SV._fetch_text, stub
+        try:
+            SV._host_fails.clear()
+            run = lambda: asyncio.run(SV.fetch_text(None, "https://slow.gov/a", None, None, None, None, None, None))
+            run(); self.assertFalse(SV._host_down("slow.gov"))   # 1 failure
+            run(); self.assertFalse(SV._host_down("slow.gov"))   # success resets
+            run(); run(); self.assertTrue(SV._host_down("slow.gov"))  # 2 in a row trip it
+        finally:
+            SV._fetch_text = real
+            SV._host_fails.clear()
+
+
 class TestHtmlToText(unittest.TestCase):
     def test_strips_script_and_tags(self):
         html = "<html><head><title>T</title></head><body><script>var x=6.32;</script><p>Rate is 6.32 %</p></body></html>"
