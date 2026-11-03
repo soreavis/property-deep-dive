@@ -20,7 +20,6 @@ Workflow: scripts/workflows/pdd-maintain.js (research + refute per cluster; no s
 from __future__ import annotations
 
 import argparse
-import asyncio
 import importlib.util
 import json
 import re
@@ -97,15 +96,12 @@ def cmd_plan(codes: list[str], date: str, out: Path) -> int:
 # ── precheck ─────────────────────────────────────────────────────────────────
 def cmd_precheck(path: Path) -> int:
     items = json.loads(path.read_text())
-    urls = sorted({e["url"] for it in items for e in it.get("evidence", []) if str(e.get("url", "")).startswith("http")})
-    sv = SV.load_sv_config()
-    fetches = asyncio.run(SV.fetch_unique(urls, SV.UL.load_config(SV.UL.read_plugin_version()), sv)) if urls else {}
+    fetches = EL.fetch_all(e["url"] for it in items for e in it.get("evidence", []) if str(e.get("url", "")).startswith("http"))
     for i, it in enumerate(items):
-        needles = [v["needles"] for line in it["new"].splitlines() for v in EL.salient_values(line)]
-        ok = bool(needles) and any(
-            (fr := fetches.get(e["url"])) and fr.status == "OK"
-            and (span := SV.min_cover_span(fr.text, needles)) is not None and span <= SV.COVER_WINDOW
-            for e in it.get("evidence", []) if e.get("url") in fetches)
+        vals = [v for line in it["new"].splitlines() for v in EL.salient_values(line)]
+        urls = [e["url"] for e in it.get("evidence", []) if e.get("url") in fetches]
+        covered, _ = EL.covered_values(vals, urls, fetches)
+        ok = bool(vals) and len(covered) == len(SV.confirm_needles(vals))
         print(f"{i}\t{'MACHINE_CONFIRMED' if ok else 'REFETCH'}\t{it.get('section', '')[:40]}")
     return 0
 
@@ -243,6 +239,10 @@ def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
     (result.parent / "conflicts.json").write_text(json.dumps(conflicts, ensure_ascii=False, indent=1))
     print(f"applied {applied}, conflicts {len(conflicts)} (→ {result.parent / 'conflicts.json'})")
     EL.cmd_add([result], date)
+    for p in res["playbooks"]:
+        pairs = [(c["line"], [c["url"]]) for cl in p["clusters"] for c in cl.get("confirmed_lines", [])]
+        if pairs:
+            print(f"{p['code']}: ledgered {EL.add_confirmed_lines(p['code'], pairs, date)} of {len(pairs)} confirmed-unchanged lines")
     codes = {p["code"] for p in res["playbooks"]} | {json.loads(f.read_text())["country"]
                                                        for f in plan_dir.glob("*.json") if f.name != "plan.json"}
     for cc in sorted(codes):

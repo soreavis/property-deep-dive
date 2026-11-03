@@ -523,6 +523,22 @@ class TestBacktickCitationsAndMachineConfirm(unittest.TestCase):
         self.assertEqual(SV.min_cover_span(text, [["143"], ["172"]]), len("172 then 143"))
 
 
+class TestConfirmNeedles(unittest.TestCase):
+    def test_percent_must_match_with_its_sign(self):
+        v = [{"type": "pct", "raw": "3 %", "norm": "3 %", "needles": ["3"], "salient": True}]
+        self.assertIn("3 %", SV.confirm_needles(v)[0])
+        self.assertNotIn("3", SV.confirm_needles(v)[0])
+        c = SV.ClaimRecord(id="x", scope="fi", section="Tax", line_no=1, claim_text="x", values=v,
+                           source_url="", source_host="", source_tier="", inline_stamp=None)
+        self.assertTrue(SV.machine_confirmed(c, "Varainsiirtovero on 3 % kauppahinnasta."))
+        self.assertFalse(SV.machine_confirmed(c, "Page 3 of the tax guide."))
+
+    def test_window_grows_with_figures_but_is_capped(self):
+        self.assertEqual(SV.cover_window(1), SV.COVER_WINDOW)
+        self.assertEqual(SV.cover_window(4), 1200)
+        self.assertEqual(SV.cover_window(20), SV.COVER_MAX)
+
+
 class TestHostCircuitBreaker(unittest.TestCase):
     def test_consecutive_failures_trip_and_success_resets(self):
         import asyncio

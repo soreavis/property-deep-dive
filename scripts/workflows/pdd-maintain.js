@@ -30,6 +30,7 @@ const RESEARCH = { type: 'object', properties: {
     remaining: { type: 'array', items: { type: 'string' } },
   }, required: ['section', 'closed', 'note'] } },
   shared_requests: { type: 'array', items: { type: 'object', properties: { file: { type: 'string' }, request: { type: 'string' }, evidence: { type: 'string' } }, required: ['file', 'request'] } },
+  confirmed_lines: { type: 'array', items: { type: 'object', properties: { line: { type: 'string' }, url: { type: 'string' } }, required: ['line', 'url'] } },
 }, required: ['items', 'sections'] }
 const VERDICT = { type: 'object', properties: {
   items: { type: 'array', items: { type: 'object', properties: {
@@ -47,6 +48,7 @@ a. Confirmed against a primary source, unchanged → kind asof-confirmed (refres
 b. No primary source publishes it → kind relabelled: "est." with inputs and a calibration sentence, its real tier and date, or "data not publicly available — verify at <authority URL>".
 c. A primary source exists but cannot be read → keep the figure and tag, add the may-have-changed suffix if due, point to it ("verify at <URL>").
 For a and c give evidence[] with the exact deep URL that shows the figure: it goes into the evidence ledger so the next run can confirm it by script.
+A worklist line you confirmed without changing it gets no patch: list it in confirmed_lines (the exact current line text + the deep URL showing its figures). maintain.py ledgers it only if a script re-reads those figures on that page, so the next run skips it.
 Report sections[] for ${it.sections.join(', ')}: closed=true only if every worklist line there is now confirmed or labelled.
 Touch only these sections; never the Status footer, Per-section table or Update history (maintain.py writes them). Shared-file changes go in shared_requests with evidence.`,
   { label: `research:${it.code}:${it.cluster}`, phase: 'Research', schema: RESEARCH, model: M })
@@ -74,6 +76,7 @@ const settle = (it, res, v) => {
     }),
     sections: res.sections.map(s => ({ ...s, closed: !!(s.closed && v && (flags.get(s.section) || { closed_ok: true }).closed_ok) })),
     shared_requests: res.shared_requests || [],
+    confirmed_lines: res.confirmed_lines || [],
   }
 }
 
