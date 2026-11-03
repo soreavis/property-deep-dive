@@ -118,7 +118,7 @@ These three ranges are **est.**, not published bill figures. A plot's bill is it
 - Tallinn 100m² apt with land share: **~€100–€500/yr** before relief (est. — at Tallinn's 0.50 % residential rate this implies a €20,000–€100,000 assessed value for the apartment's land share; 10 % annual cap; homeowner relief €1,000 per property, so a registered-resident owner whose computed tax is €1,000 or less pays €0)
 - Tartu single-family with 1,000m² plot: **~€200–€600/yr** before relief (est. — at Tartu's 1.00 % rate this implies a €20,000–€60,000 assessed value, €20–€60/m²; 50 % annual cap; homeowner relief €500 in 2026, €850 in 2027)
 - Pärnu coastal villa with 2,000m² plot: **~€500–€1,500/yr** before relief (est. — at Pärnu's 1.00 % rate this implies a €50,000–€150,000 assessed value, €25–€75/m²; 10 % annual cap; homeowner relief €600 in 2026, €1,000 in 2027)
-- Spread of assessed values in the 2022 valuation (basis for land tax 2024–2027): residential land above €300/m² in central Tallinn and Tartu, mostly €0.3–€1.0/m² in the lowest of eight location classes, which covers most of Estonia (2022 data, source [Maa- ja Ruumiamet 2022 valuation brochure](https://maaruum.ee/sites/default/files/documents/2024-12/Maa%20korraline%20hindamine%20voldik%202022.pdf)); the 2026 valuation, used from 2028, raised the national residential-land total by 35 % (see Future risk)
+- Spread of assessed values in the 2022 valuation (basis for land tax 2024–2027): residential land above €300/m² in central Tallinn and Tartu, mostly €0.3–€1.0/m² in the lowest of eight location classes, which covers most of Estonia (2022 data, source [Maa- ja Ruumiamet 2022 valuation brochure](https://maaruum.ee/sites/default/files/documents/2024-12/Maa%20korraline%20hindamine%20voldik%202022.pdf)) — rates/figures may have changed since; the 2026 valuation, used from 2028, raised the national residential-land total by 35 % (see Future risk)
 
 ### Transaction taxes
 
@@ -264,7 +264,7 @@ Curated era guide (wisdom, not data) — confirm with a building survey. Anchors
 
 - **Tallinna Vesi**: `https://www.tallinnavesi.ee/` (Tallinn water/sewer)
 - **Per-omavalitsus** (municipality) utilities: AS Tartu Veevärk (Tartu, `https://tartuvesi.ee/`), AS Pärnu Vesi (Pärnu city + Tori parish, `https://www.parnuvesi.ee/`)
-- Coverage: **85 %** of residents on a public water supply and **84 %** on a public (urban) wastewater collecting system in 2024 (2024 data, source Eurostat env_wat_pop + env_ww_con); the other ~15–16 % (computed) use private wells and individual systems — **kogumiskaev** (sealed holding tank), septic tank or small treatment plant. Eurostat gives no urban / rural split: "near-universal in cities, individual systems common in rural areas" is a curated reading, not data
+- Coverage: **85 %** of residents on a public water supply and **84 %** on a public (urban) wastewater collecting system in 2024 (2024 data, source Eurostat env_wat_pop + env_ww_con) — rates/figures may have changed since; the other ~15–16 % (computed) use private wells and individual systems — **kogumiskaev** (sealed holding tank), septic tank or small treatment plant. Eurostat gives no urban / rural split: "near-universal in cities, individual systems common in rural areas" is a curated reading, not data
 
 ### Costs
 

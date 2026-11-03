@@ -7,7 +7,7 @@ ISO2: `mx`. Status: ✅ Fully populated (researched 2026-04).
 - **Postcode (Código Postal)**: 5 digits (`06000` CDMX Centro, `64000` Monterrey, `44100` Guadalajara, `77780` Tulum, `37700` San Miguel de Allende)
 - **Admin levels**: 32 federal entities (31 states + Mexico City) + 2,478 municipios and CDMX demarcaciones territoriales (alcaldías) (2025 data, source [INEGI CNGMD 2025 results, 19 Mar 2026](https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/cngmd/CNGMD_RR_25.pdf))
 - **Currency**: **MXN** (Mexican peso); 1 USD = 18.7962 MXN (Banxico FIX as published in the DOF; DOF indicators dated 3 Nov 2026 — 2026 data, source [DOF indicadores](https://dof.gob.mx/indicadores.php)); 1 EUR ≈ 20.75–20.79 MXN (market quotes 27 Oct 2026, secondary — Diario del Yaqui; verify at Banxico SIE). Both move daily
-- **Languages**: Spanish (de facto); 68 indigenous agrupaciones lingüísticas with 364 variantes, all recognised as lenguas indígenas nacionales (Náhuatl, Maya/Yucateco, Zapoteco) (2008 data — INALI Catálogo de las Lenguas Indígenas Nacionales, as cited in [INALI, 31 Mar 2015](https://www.inali.gob.mx/detalle/las-364-variantes-de-las-lenguas-indigenas-nacionales-con-algun-riesgo-de-desaparecer-inali); 68 agrupaciones and the Lenguas Indígenas Nacionales status still shown on the [INALI Atlas](https://atlas.inali.gob.mx/inicio), 2026-11-03 verified)
+- **Languages**: Spanish (de facto); 68 indigenous agrupaciones lingüísticas with 364 variantes, all recognised as lenguas indígenas nacionales (Náhuatl, Maya/Yucateco, Zapoteco) (2008 data — INALI Catálogo de las Lenguas Indígenas Nacionales, as cited in [INALI, 31 Mar 2015](https://www.inali.gob.mx/detalle/las-364-variantes-de-las-lenguas-indigenas-nacionales-con-algun-riesgo-de-desaparecer-inali); 68 agrupaciones and the Lenguas Indígenas Nacionales status still shown on the [INALI Atlas](https://atlas.inali.gob.mx/inicio), 2026-11-03 verified) — rates/figures may have changed since
 - **Cadastre — fragmented per state (no national portal)**:
   - **RPP (Registro Público de la Propiedad)**: state-level (32 separate registries)
   - **Catastro**: municipal-level, separate from RPP, holds cadastral value
@@ -287,7 +287,7 @@ YoY = Índice SHF (appraisals of mortgage-financed homes), Q2 2026 vs Q2 2025, f
 ### Sources
 
 - **CONAGUA** federal regulator
-- **SEGIAGUA** (Secretaría de Gestión Integral del Agua, CDMX) — created by decree in Gaceta Oficial CDMX 3 Oct 2024, with **SACMEX** (Sistema de Aguas, water + drainage) sectorised under it and legal references to SACMEX read as SEGIAGUA (2024 data, source Gaceta Oficial CDMX 3 Oct 2024 transitorios Décimo Tercero + Décimo Noveno, PAOT copy — `https://paot.org.mx/centro/leyes/df/pdf/2024/GOCDMX_03_10_2024_6_14.pdf`; later restructuring not re-verified — check segiagua.cdmx.gob.mx)
+- **SEGIAGUA** (Secretaría de Gestión Integral del Agua, CDMX) — created by decree in Gaceta Oficial CDMX 3 Oct 2024, with **SACMEX** (Sistema de Aguas, water + drainage) sectorised under it and legal references to SACMEX read as SEGIAGUA (2024 data, source Gaceta Oficial CDMX 3 Oct 2024 transitorios Décimo Tercero + Décimo Noveno, PAOT copy — `https://paot.org.mx/centro/leyes/df/pdf/2024/GOCDMX_03_10_2024_6_14.pdf`; later restructuring not re-verified — check segiagua.cdmx.gob.mx) — rates/figures may have changed since
 - Municipal / state operators, e.g. **Agua de Hermosillo** (AguaH, Sonora), **JAPAY** (Junta de Agua Potable y Alcantarillado de Yucatán)
 
 ### Verification

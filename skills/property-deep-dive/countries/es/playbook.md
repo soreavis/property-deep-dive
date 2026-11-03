@@ -194,7 +194,7 @@ For obra nueva (new build, vendida by impresa):
 
 | CCAA | Status |
 |---|---|
-| **Cataluña** | Strict; HUTV / HUT licenses; many municipios moratorium incl. Barcelona (BCN: all 10,101 HUT (2024 data, source Ajuntament de Barcelona Mesura de Govern 2024-2027) lose their habilitation in November 2028 under the Generalitat's Decret llei 3/2023 DT2 — no calendar day is sourced; on 21 Jun 2024 the Ajuntament announced it will grant no llicència urbanística (a municipal announcement, not a municipal decree); DT2.2 allows one owner-requested extension of up to five years) |
+| **Cataluña** | Strict; HUTV / HUT licenses; many municipios moratorium incl. Barcelona (BCN: all 10,101 HUT (2024 data, source Ajuntament de Barcelona Mesura de Govern 2024-2027) — rates/figures may have changed since lose their habilitation in November 2028 under the Generalitat's Decret llei 3/2023 DT2 — no calendar day is sourced; on 21 Jun 2024 the Ajuntament announced it will grant no llicència urbanística (a municipal announcement, not a municipal decree); DT2.2 allows one owner-requested extension of up to five years) |
 | **Baleares** | Mallorca + Ibiza near impossible to obtain new licenses |
 | **Canarias** | Strict in Tenerife, Gran Canaria |
 | **Madrid** | License + community approval; pressure from city hall |

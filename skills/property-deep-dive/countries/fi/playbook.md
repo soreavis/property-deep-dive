@@ -204,9 +204,9 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 - **Sairausvakuutus** + **TyEL/YEL** social
 - **Verohallinto Y-tunnus** business ID needed
 
-### Salary benchmarks (2024 data — latest Tilastokeskus palkkarakenne release)
+### Salary benchmarks (2024 data — latest Tilastokeskus palkkarakenne release) — rates/figures may have changed since
 
-- Median total monthly earnings (kokonaisansio), full-time employees, by maakunta — regional, not city-level (2024 data, source: Tilastokeskus StatFin table 15b2):
+- Median total monthly earnings (kokonaisansio), full-time employees, by maakunta — regional, not city-level (2024 data, source: Tilastokeskus StatFin table 15b2) — rates/figures may have changed since:
   - Whole country: €3,615
   - Uusimaa (incl. Helsinki): €3,967
   - Pirkanmaa (incl. Tampere): €3,558; Varsinais-Suomi (incl. Turku): €3,435
@@ -231,7 +231,7 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 
 ### Specific risks
 
-- **Tulva (flooding)** — 18 merkittävää tulvariskialuetta (significant flood-risk areas) for 2024–2030, named by the Ministry of Agriculture and Forestry (MMM) on 19 Dec 2024: 4 coastal (Hamina–Kotka, Helsinki–Espoo, Turku, Kemi) and 14 on rivers — lower Kymijoki; Kokemäenjoki (Huittinen, Pori); Lapväärtinjoki-Isojoki (Lapväärtti); Laihianjoki (Laihia-Tuovila-Runsor); Kyrönjoki (Ilmajoki-Seinäjoki, Ylistaro-Koivulahti); Kalajoki (Alavieska-Ylivieska); lower Pyhäjoki; Iijoki (Pudasjärvi); Tornionjoki-Muonionjoki (Tornio); Kemijoki (Rovaniemi, Kittilä); Ivalojoki (Ivalo). Pori (river delta + sea) is among the worst, Rovaniemi the worst inland; the Vuoksi basin is not on the list. Harmful floods can also happen outside these areas, and hulevesi (stormwater) flooding is managed by the kunta (2024 data, source vesi.fi / SYKE "Tulvariskialueet" + 2024–2030 map, vesi.fi "Tulvariskien hallinta"; 2026-10-23 verified)
+- **Tulva (flooding)** — 18 merkittävää tulvariskialuetta (significant flood-risk areas) for 2024–2030, named by the Ministry of Agriculture and Forestry (MMM) on 19 Dec 2024: 4 coastal (Hamina–Kotka, Helsinki–Espoo, Turku, Kemi) and 14 on rivers — lower Kymijoki; Kokemäenjoki (Huittinen, Pori); Lapväärtinjoki-Isojoki (Lapväärtti); Laihianjoki (Laihia-Tuovila-Runsor); Kyrönjoki (Ilmajoki-Seinäjoki, Ylistaro-Koivulahti); Kalajoki (Alavieska-Ylivieska); lower Pyhäjoki; Iijoki (Pudasjärvi); Tornionjoki-Muonionjoki (Tornio); Kemijoki (Rovaniemi, Kittilä); Ivalojoki (Ivalo). Pori (river delta + sea) is among the worst, Rovaniemi the worst inland; the Vuoksi basin is not on the list. Harmful floods can also happen outside these areas, and hulevesi (stormwater) flooding is managed by the kunta (2024 data, source vesi.fi / SYKE "Tulvariskialueet" + 2024–2030 map, vesi.fi "Tulvariskien hallinta"; 2026-10-23 verified) — rates/figures may have changed since
 - **Radon — Finland has higher indoor radon than most other countries**; average in homes ≈ **94 Bq/m³** (2026 data, source STUK "Radon in Finland"; 2026-10-23 verified):
   - Highest bedrock/soil uranium: **Lahti region (Päijät-Häme), Itä-Uusimaa, Kymenlaakso**; lowest: Pohjois-Karjala, Kainuu, Pohjois-Pohjanmaa. Houses on gravel/sand ridges (harjut) read clearly higher than neighbours on other soils; STUK recommends measuring everywhere in Finland (source STUK)
   - Reference levels: **300 Bq/m³** for dwellings, **200 Bq/m³** for designing and building new buildings (STM decree 1044/2018; source STUK; 2026-10-23 verified). WHO recommends a national reference level of 100 Bq/m³, at most 300 Bq/m³ (2023 data, source WHO radon fact sheet) — rates/figures may have changed since
@@ -241,7 +241,7 @@ As Oy column: old (resale) As Oy dwellings, 2025 annual average €/m², all hou
 - **Roudan aiheuttama vaurio** (frost heave) — ground freezing affects shallow foundations (qualitative — wisdom, not data)
 - **Lumikuorma** (snow load) — heavy winters can cause roof collapse (esp. flat roofs) (qualitative — wisdom, not data)
 - **Maaston eroosio** (coastal erosion) — Baltic Sea coastline (qualitative — wisdom, not data)
-- **Luonnonpalo (wildfires)** — climate change raises forest-fire risk in Fennoscandia, although annual burned areas have stayed small in recent decades (2022 data, source FMI + Ministry for Foreign Affairs infographic on ilmasto-opas.fi, based on FMI Reports 2021:3)
+- **Luonnonpalo (wildfires)** — climate change raises forest-fire risk in Fennoscandia, although annual burned areas have stayed small in recent decades (2022 data, source FMI + Ministry for Foreign Affairs infographic on ilmasto-opas.fi, based on FMI Reports 2021:3) — rates/figures may have changed since
 - **Sea-level rise** + **post-glacial rebound**: land uplift ~90 cm per century in Merenkurkku (Kvarken), ~40 cm per century in Helsinki. South-coast sea level is no longer falling and is turning to rise; in the northern Gulf of Bothnia land still rises faster than the sea. 2100 vs present, south coast: +5–15 cm (low emissions), +20–30 cm (medium), +50–60 cm (high); Perämeri: sea level falls 20–30 cm (medium) (2025 data, source FMI ilmasto-opas.fi) — rates/figures may have changed since
 
 ### Build-era hazards
@@ -287,7 +287,7 @@ Before buying any As Oy apartment, demand:
 - More precipitation: winter rain increasing (less snow) (qualitative — wisdom, not data)
 - Sea-level rise: south coast turning to rise as uplift no longer keeps pace; northern Gulf of Bothnia still emerging (figures in the sea-level bullet under Specific risks; 2025 data, source FMI ilmasto-opas.fi) — rates/figures may have changed since
 - Drought: rare but increasing summer events (qualitative — wisdom, not data)
-- Forest fires: rising risk (2022 data, source FMI infographic on ilmasto-opas.fi; see Luonnonpalo under Specific risks)
+- Forest fires: rising risk (2022 data, source FMI infographic on ilmasto-opas.fi; see Luonnonpalo under Specific risks) — rates/figures may have changed since
 - Permafrost retreat in Lapland (qualitative — wisdom, not data)
 
 ---

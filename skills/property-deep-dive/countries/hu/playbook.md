@@ -305,8 +305,8 @@ Rules of thumb (wisdom, not data) — era boundaries are rough; inspect the spec
 ### Sources
 
 - **Víziközmű-szolgáltatók** — regional or municipal water + sewer operators (OVF list of 41), e.g. **Fővárosi Vízművek Zrt.** (Budapest water) + **Fővárosi Csatornázási Művek Zrt.** (Budapest sewer), **Debreceni Vízmű Zrt.**, DMRV, ALFÖLDVÍZ (source vizugy.hu Víziközmű üzemeltetők list, page © 2013–2021 — rates/figures may have changed since; named Budapest + Debrecen operators' sites live, 2026-10-23 verified)
-- Sewer connection: **84.6% of population** connected to urban wastewater collecting systems (2024 data, source Eurostat env_ww_con, updated 2026-09-18); lower in villages
-- Rural: **szippantós (cesspit)** common — **8.7% of population** relies on storage tanks emptied by truck to treatment plants (2024 data, source Eurostat env_ww_con, IND_TANK)
+- Sewer connection: **84.6% of population** connected to urban wastewater collecting systems (2024 data, source Eurostat env_ww_con, updated 2026-09-18) — rates/figures may have changed since; lower in villages
+- Rural: **szippantós (cesspit)** common — **8.7% of population** relies on storage tanks emptied by truck to treatment plants (2024 data, source Eurostat env_ww_con, IND_TANK) — rates/figures may have changed since
 
 ### Costs
 

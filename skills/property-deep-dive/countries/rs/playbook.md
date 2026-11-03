@@ -215,13 +215,13 @@ Bands are marginal: each rate applies only to the part of the base above the ban
 
 #### Floods
 
-- **2014 catastrophic floods** (May 2014): in Serbia the Sava, Tamnava, Kolubara, Jadar, Zapadna Morava, Velika Morava, Mlava and Pek rose; the **Bosna** flooded in BiH and fed the Sava (NOT Drava — common confusion). Disaster effects EUR 1.5 billion in the 24 assessed municipalities, EUR 1.7 billion including the other affected municipalities *(2014 data, source Government of Serbia / EU / UN / World Bank Recovery Needs Assessment, July 2014)*
+- **2014 catastrophic floods** (May 2014): in Serbia the Sava, Tamnava, Kolubara, Jadar, Zapadna Morava, Velika Morava, Mlava and Pek rose; the **Bosna** flooded in BiH and fed the Sava (NOT Drava — common confusion). Disaster effects EUR 1.5 billion in the 24 assessed municipalities, EUR 1.7 billion including the other affected municipalities *(2014 data, source Government of Serbia / EU / UN / World Bank Recovery Needs Assessment, July 2014) — rates/figures may have changed since*
 - Obrenovac (a Belgrade city municipality) was flooded when Kolubara and Tamnava dikes failed; the Kolubara rose about 7 m on 14–16 May and the Sava about 3.5 m on 14–20 May, receding over 2–3 weeks *(same RNA; dike breaches per MDPI Sustainability 2020, secondary)*
 - Climate change increasing extreme rainfall
 
 #### Air quality
 
-- **Belgrade agglomeration air was category III (over-polluted) in 2024**: PM10, PM2.5 and NO2 limit values exceeded, arsenic and benzo(a)pyrene above target values; Novi Sad, Niš, Pančevo, Smederevo, Bor, Kosjerić and Užice also category III. Particulate concentrations are far higher in the heating season *(2024 data, source SEPA Godišnji izveštaj o stanju kvaliteta vazduha 2024)*
+- **Belgrade agglomeration air was category III (over-polluted) in 2024**: PM10, PM2.5 and NO2 limit values exceeded, arsenic and benzo(a)pyrene above target values; Novi Sad, Niš, Pančevo, Smederevo, Bor, Kosjerić and Užice also category III. Particulate concentrations are far higher in the heating season *(2024 data, source SEPA Godišnji izveštaj o stanju kvaliteta vazduha 2024) — rates/figures may have changed since*
 - Main particulate source nationally: small heating plants (< 50 MW) and household stoves, mostly firewood — 83% of PM2.5 and 66% of PM10 emissions; road traffic gives 25% of NOx *(2023 emissions data, same SEPA report)*
 
 ### Build-era hazards

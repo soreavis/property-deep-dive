@@ -204,7 +204,7 @@ Standard universal `--work=<profession>` resolution. Strongest demand: tech (Vil
 Soviet-built; substantially modernized. Network heat losses dropped from **33% → 15%** on average (1996–2018 series, source LSTA — rates/figures may have changed since); ~46% of the 2,700 km DH pipe network replaced with pre-insulated pipes; DH serves over 700,000 customers and heats over half the population (2025 data, source IEA Energy Policy Review Lithuania 2025).
 - **LSTA stats**: https://lsta.lt/en/about-dh-sector/ (browser-OK)
 - **IEA Lithuania 2025 review**: https://iea.blob.core.windows.net/assets/0f37fbed-856d-4fde-8f2b-4db10d9bfd2a/Lithuania2025.pdf
-- Bioenergy share of national DH production: over 70% in 2023, up from ~7% in 2005; target 90% renewable DH by 2030 (2023 data, source IEA Energy Policy Review Lithuania 2025). National figure — verify the Vilnius/Kaunas/Klaipėda share with the local DH supplier
+- Bioenergy share of national DH production: over 70% in 2023, up from ~7% in 2005; target 90% renewable DH by 2030 (2023 data, source IEA Energy Policy Review Lithuania 2025) — rates/figures may have changed since. National figure — verify the Vilnius/Kaunas/Klaipėda share with the local DH supplier
 
 **Soviet-era multi-apartment quirk**: Many old blocks have **single-pipe vertical heating risers** — no per-apartment metering or shut-off; bills allocated by m². "Renovated" (apkainotas) blocks have horizontal distribution + individual meters.
 

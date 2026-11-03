@@ -222,7 +222,7 @@ Special-rate income tax of **30 %** on private property-sale gains (since 1 Jan 
 - **EPU (Ein-Personen-Unternehmen)**: about 376,000 in 2025, **62.1 %** of all Austrian enterprises (WKO, Datenstand 12/2025, source WKO 'EPU: Zahlen, Daten, Fakten')
 - **Pauschalierung**: simplified tax regime for small businesses
 
-### Salary benchmarks (2024 data, Statistik Austria)
+### Salary benchmarks (2024 data, Statistik Austria) — rates/figures may have changed since
 
 - Median monthly gross, all employees incl. part-time, incl. 1/12 of the 13th + 14th salary (2024 annual average, Statistik Austria Monatseinkommen table M4, created 11 Dec 2025): **Österreich €3,713**; full-time full-year employees: median **€55,678** gross per year (2024, Statistik Austria Jährliche Personeneinkommen)
   - Wien: €3,682
