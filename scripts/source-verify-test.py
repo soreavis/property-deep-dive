@@ -490,6 +490,39 @@ class TestExcerptsAndPrior(unittest.TestCase):
         self.assertEqual(prior["prior"], "SOURCE_UNAVAILABLE")
 
 
+class TestBacktickCitationsAndMachineConfirm(unittest.TestCase):
+    """Playbooks mostly cite with backtick URLs; a claim is machine-confirmed only when the
+    cited page carries every salient value within one short window."""
+
+    def test_backtick_url_is_a_citation(self):
+        line = "Transfer tax **3 %** of price (2026 data, source vero.fi `https://www.vero.fi/varainsiirtovero`)"
+        urls = [(m.group("url") or m.group("bare")) for m in SV.CITE_RE.finditer(line)]
+        self.assertEqual(urls, ["https://www.vero.fi/varainsiirtovero"])
+
+    def _claim(self, needles_per_value):
+        return SV.ClaimRecord(
+            id="x", scope="fi", section="Tax", line_no=1, claim_text="x",
+            values=[{"type": "money", "raw": n[0], "norm": n[0], "needles": n, "salient": True}
+                    for n in needles_per_value],
+            source_url="https://x.gov", source_host="x.gov", source_tier="primary-gov", inline_stamp=None)
+
+    def test_all_values_in_one_excerpt_confirms(self):
+        c = self._claim([["143"], ["172"]])
+        self.assertTrue(SV.machine_confirmed(c, "…witness fee 143 euros, title registration 172 euros…"))
+
+    def test_values_split_or_missing_do_not_confirm(self):
+        c = self._claim([["143"], ["172"]])
+        self.assertFalse(SV.machine_confirmed(c, "fee 143 euros." + " filler" * 200 + " registration 172 euros"))
+        self.assertFalse(SV.machine_confirmed(c, "…fee 143 euros…"))
+
+    def test_only_weak_needles_do_not_confirm(self):
+        self.assertFalse(SV.machine_confirmed(self._claim([["4"], ["20"]]), "rate 4 of 20"))
+
+    def test_min_cover_span_finds_the_tightest_window(self):
+        text = "143 ... far away ... " + "x" * 50 + " 172 then 143 again"
+        self.assertEqual(SV.min_cover_span(text, [["143"], ["172"]]), len("172 then 143"))
+
+
 class TestHtmlToText(unittest.TestCase):
     def test_strips_script_and_tags(self):
         html = "<html><head><title>T</title></head><body><script>var x=6.32;</script><p>Rate is 6.32 %</p></body></html>"

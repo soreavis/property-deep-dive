@@ -65,6 +65,17 @@ The auto-downgrade rule (in [`shared/updater.md`](./skills/property-deep-dive/sh
 
 Always run `--diff` first if you're uncertain. `--interactive` is the safest mode for batch updates.
 
+**Batch re-verification (the cheap way).** Scripts do everything that needs no judgment; agents get only what is left:
+
+```
+python3 scripts/maintain.py plan --countries=fi,rs --date=YYYY-MM-DD --out=DIR   # ledger re-check → per-cluster worklists + plan.json
+# Workflow scripts/workflows/pdd-maintain.js with args {root, dir: DIR, date, items: <plan.json>}
+python3 scripts/maintain.py apply RESULT.json --date=YYYY-MM-DD --plan=DIR      # patches, footers, ledger
+python3 scripts/check-playbooks.py                                              # same lint CI runs
+```
+
+`plan` re-reads every fast-section figure on the page that proved it last time (`config/_evidence/`), so a cluster whose figures all re-confirm gets no agent. `apply` writes the Per-section rows, the Update history bullet and the playbook date (the oldest fast-section date), and ledgers the new evidence for next time. Never hand-edit `config/_evidence/`.
+
 ## Cutting a release — compute the version, don't reason about it
 
 CalVer `YYYY.0M.MICRO`: **`0M` is the current calendar month**, and `MICRO` **resets to 0 when the month rolls**. Never bump `plugin.json` into a stale month (the `2026.05.71`-in-June drift is exactly what this prevents). When bumping `plugin.json` or cutting a release, get the number from the helper — it is the single source of truth:

@@ -13,10 +13,18 @@ on:
     # :00 are most likely dropped under load. Monthly: gov-source change-rate doesn't warrant weekly.
     - cron: '23 9 1 * *'
   workflow_dispatch:
+  # Unit tests only, and only when the verifier or the scripts built on it change.
+  pull_request:
+    paths:
+      - 'scripts/source-verify*.py'
+      - 'scripts/evidence-ledger*.py'
+      - 'scripts/maintain*.py'
+      - 'config/_source-verify.json'
 
 concurrency:
-  group: source-verify
-  cancel-in-progress: false
+  # PR test runs must not queue behind a 30-minute monthly audit.
+  group: ${{ github.event_name == 'pull_request' && format('source-verify-pr-{0}', github.ref) || 'source-verify' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 permissions:
   contents: read
@@ -24,6 +32,30 @@ permissions:
   actions: read  # list/download the prior cache artifact
 
 jobs:
+  unit-tests:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: python3 -m pip install --quiet --require-hashes -r requirements.txt
+
+      - name: Verifier, evidence ledger and maintenance driver tests
+        run: |
+          python3 scripts/source-verify-test.py
+          python3 scripts/evidence-ledger-test.py
+          python3 scripts/maintain-test.py
+
   audit:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04

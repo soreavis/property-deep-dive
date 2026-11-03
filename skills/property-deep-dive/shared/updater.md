@@ -113,7 +113,15 @@ For each country, re-research the **fast-changing sections**:
 | `--traffic` | Every 5 yrs | Major recensus / CSD updates |
 | `--work` | Annually | Job platforms still relevant, salary benchmarks |
 
-Use **WebSearch + Tavily** to verify each numeric fact:
+**Machine-check first, research second.** Before any web research, run (repo checkout only):
+
+```
+python3 scripts/evidence-ledger.py check --country=<iso2> --out worklist.json
+```
+
+`config/_evidence/<iso2>.json` remembers the page that proved each fast-section line in the last run. The script re-fetches those pages and re-reads each line's figures on them. A line counts as confirmed when every salient figure appears within a 600-character window of its cited page: the figure read on its source, not a URL that answered 200. Lines already labelled `est.`, `verify at` or `computed` are skipped. Research only the `worklist` entries. After the run, record the evidence for every line you verified (`python3 scripts/evidence-ledger.py add <result.json> --date=<YYYY-MM-DD>`), so the next run can machine-check it too.
+
+Use **WebSearch + Tavily** to verify each numeric fact on the worklist:
 - Old fact: `IMU seconda casa max 1.06 %`
 - Search: `"IMU seconda casa" 2025 aliquota massima`
 - New fact: confirm or update
