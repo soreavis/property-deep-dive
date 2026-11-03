@@ -162,6 +162,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): re-verify the four overdue entries in #525 (NL NHG, BoJ, JP minpaku, SI ZGos-1) ([#539](https://github.com/soreavis/property-deep-dive/pull/539)) — by @soreavis
 
+- docs: fix the new-issue page link and two stale README counts ([#540](https://github.com/soreavis/property-deep-dive/pull/540)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
