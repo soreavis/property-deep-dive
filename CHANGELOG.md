@@ -168,6 +168,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - docs: give the plugin skill's namespaced command and fix the ChatGPT zip row ([#542](https://github.com/soreavis/property-deep-dive/pull/542)) — by @soreavis
 
+- fix(playbooks): re-check the second 15 April-stamped playbooks against primary sources ([#543](https://github.com/soreavis/property-deep-dive/pull/543)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
