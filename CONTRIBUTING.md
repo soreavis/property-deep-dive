@@ -332,4 +332,4 @@ uploader rejects unknown fields.
 4. **Refresh `docs/install.md`** release-tag references to the new tag (separate follow-up PR, *after* the release assets publish — the install snippet downloads the signed tarball).
 5. **Optionally update the plugin manifest description / keywords** if the release adds new countries or sections.
 
-The plugin manifest lives at `.claude-plugin/plugin.json`. The marketplace stub at `.claude-plugin/marketplace.json` makes the repo self-installable via `/plugin marketplace add github:soreavis/property-deep-dive`.
+The plugin manifest lives at `.claude-plugin/plugin.json`. The marketplace stub at `.claude-plugin/marketplace.json` makes the repo self-installable via `/plugin marketplace add soreavis/property-deep-dive`.
