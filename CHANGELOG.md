@@ -180,6 +180,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): add the may-have-changed suffix to 90 data tags two or more years old ([#548](https://github.com/soreavis/property-deep-dive/pull/548)) — by @soreavis
 
+- feat(maintenance): stricter percentage matching and fallback evidence for unledgered lines ([#549](https://github.com/soreavis/property-deep-dive/pull/549)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
