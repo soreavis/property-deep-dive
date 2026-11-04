@@ -24,6 +24,7 @@ import importlib.util
 import json
 import math
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -341,8 +342,11 @@ def apply_result(result: Path) -> dict:
 
 
 def cmd_apply_shared(result: Path) -> int:
-    """Settled patches to shared files, from batches of pdd-maintain.js: no footers, no ledger."""
+    """Settled patches to shared files, from batches of pdd-maintain.js: no footers, no ledger.
+    Shared files feed generated ones, so those are refreshed here, or CI finds them stale."""
     apply_result(result)
+    for script in ("render-visa-programs.py", "render-match-index.py", "sync-docs.py"):
+        subprocess.run([sys.executable, str(ROOT / "scripts" / script)], check=True)
     return 0
 
 
