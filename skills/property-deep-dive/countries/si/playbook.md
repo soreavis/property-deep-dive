@@ -327,7 +327,7 @@ est. — no primary source found that publishes connection-works prices: they de
 - **Eko sklad loans only** (no grant): small wastewater plants (MČN), connection to the public sewer or water mains, asbestos-roof replacement (same list)
 - **Stanovanjski sklad RS**: no open loan call for individual buyers on its javni pozivi page (read 2026-10-23); its current calls cover public rental housing, including Javni najem, a standing call for offers from dwelling owners (Razpis zbiranja ponudb najemodajalcev) — verify at ssrs.si before citing any buyer loan
 - **Subvencije za mlade** (young families) per občina
-- **MČN subsidies at občina level**: not verified — ask the občina (the Eko sklad MČN offer is a loan)
+- **MKČN subsidies at občina level**: not verified — ask the občina (the Eko sklad small-plant offer is a loan)
 
 ## Common listing platforms
 
@@ -343,10 +343,10 @@ est. — no primary source found that publishes connection-works prices: they de
 - **Posplošena vrednost reform 2025** — new mass-appraised values effective 13 May 2025
 - **Davek na nepremičnine NOT ENACTED** — the Dec 2024 1.45% izhodišča never advanced; NUSZ + ZDO davek od premoženja remain payable
 - **EU 2007 currency** — no FX risk (vs CZ/PL/HU)
-- **Adriatic coast (Koper-Piran)**: tourist premium + sea-level rise concern
+- **Adriatic coast (Koper-Piran)**: tourist premium; mean sea level on the Slovene coast has risen 3.5 mm/yr on average since 1995, and ARSO cites an estimated Mediterranean rise of 40–60 cm by the end of the 21st century (1961–2023 data, source ARSO Kazalci okolja MR02 Višina morja, `https://kazalci.arso.gov.si/sl/content/visina-morja-6`) — rates/figures may have changed since; see `--risks`
 - **Karst** specific construction issues — caves, sinkholes
 - **Triglav National Park** strict construction limits
-- **Mali Krasovi** (small karst formations) widespread; cave/sinkhole risk
+- **Karst water protection**: karst areas hold 42% of Slovenia's protected water sources and 53% of its water-protection zones (2013/2017 data, source GeoZS) — rates/figures may have changed since; karst-polje floods are covered in `--risks`
 - **Yugoslav-era apartment buildings** (1960s-1980s): variable seismic compliance
 - **DPN paid by seller** — the seller stays the taxpayer even where the contract shifts payment to the buyer (FURS 2026)
 - **No statutory realtor-fee cap since 2 Sep 2025**: the Constitutional Court (U-I-205/19, U-I-230/19) annulled the 4% cap in ZNPosr Art. 5; only the bar on charging a party that did not engage the agency remains (iusinfo.si, pfp.law — secondary)

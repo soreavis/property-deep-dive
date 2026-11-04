@@ -134,14 +134,14 @@ EPC-style class distributions are not published by stat office for most non-EU r
 (Composite of Climate Central sea-level rise risk + Copernicus heat-stress + Copernicus drought index + GFW wildfire activity)
 
 ### Highest exposure
-- 🇮🇸 IS — Reykjanes volcanic series since Dec 2023 (9 eruptions); Grindavík evacuated
+- 🇮🇸 IS — Reykjanes volcanic series since Dec 2023 (9 eruptions); Grindavík evacuated; no eruption since the 16 Jul – 5 Aug 2025 event as of the 27 Oct 2026 update; magma under Svartsengi ≈29.1 million m³ (model estimate for 17 Jul 2025 – 16 Aug 2026, range 28.3–29.9); alert level 2 (orange); Grindavík in the considerable hazard category (2026 data, source Veðurstofan, https://en.vedur.is/about-imo/news/ground-uplift-and-magma-accumulation-continue-beneath-svartsengi)
 - 🇲🇹 MT — water scarcity acute; sea-level rise on low-lying coastal SDAs
-- 🇨🇾 CY — drought-stressed (2025 worst since 1901); wildfire risk Limassol foothills
+- 🇨🇾 CY — drought-stressed (2024/25 rainfall 62% of normal; 18 major dams 10.5% Nov 2025, 35.0% Nov 2026): fourth consecutive drought year as of Feb 2026 (Cyprus Mail, secondary); 2024–25 hydrological year 8th driest by rainfall since 1901 (Kitasweather via Sigmalive, secondary), while dam inflows were the lowest since hydrological records began in 1901 as of Feb 2026 (2026 data, source EU Space Programme / Copernicus, https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/severe-drought-cyprus-february-2026); reservoirs 13.8% on 11 Feb 2026 and 39.3% on 1 Sep 2026 (WDD via Cyprus Mail and CNA, secondary); wildfire risk Limassol foothills
 - 🇮🇹 IT — south heatwaves + drought; coastal Veneto/Liguria flood
 - 🇪🇸 ES — drought-stressed Andalucía/Murcia; coastal flood; DANA 2024 reference
 - 🇵🇹 PT — Algarve drought; wildfire interior
 - 🇬🇷 GR — wildfire (2023 worst on record); coastal islands tourism+water
-- 🇧🇬 BG — 2024 worst-recorded wildfire year (~600 fires)
+- 🇧🇬 BG — 2024 burnt area the highest in over a decade: 595 forest fires and 17,116 ha in the national report, 45,435 ha mapped by EFFIS from 256 fires (2024 data, source JRC EUR 40516, https://publications.jrc.ec.europa.eu/repository/handle/JRC144093 — rates/figures may have changed since)
 - 🇭🇷 HR — Adriatic coastal flood + wildfire interior
 - 🇦🇱 AL — coastal flood + 2019 Durrës earthquake legacy
 - 🇲🇪 ME — coastal flood + earthquake risk

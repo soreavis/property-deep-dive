@@ -224,7 +224,7 @@ For the property's locality, return:
 
 ### 🇵🇦 Panama
 
-- **MINGOB (Ministerio de Gobierno)** crime stats: `https://www.mingob.gob.pa/`
+- **SIEC (Sistema Nacional Integrado de Estadísticas Criminales), Ministerio de Seguridad Pública**: `https://siec.minseg.gob.pa/estadisticas/` — homicides, annual crime report, executive summaries of high-impact crimes
 - **Policía Nacional**: `https://www.policia.gob.pa/`
 - **INEC Estadísticas Sociodemográficas**
 - **Granularity**: per-province + per-distrito
@@ -253,7 +253,7 @@ For the property's locality, return:
 
 ### 🇲🇰 North Macedonia
 
-- **MAKSTAT (Drzaven zavod za statistika) — Pravosudna i kriminalna statistika**: `https://www.stat.gov.mk/`
+- **MAKSTAT (Drzaven zavod za statistika) — Pravosudna i kriminalna statistika**: `https://www.stat.mk/`
 - **MVR (Ministerstvo za vnatresni raboti)**: `https://www.mvr.gov.mk/`
 - **Granularity**: per-region + per-municipality + Skopje sub-municipalities
 - **Caveat**: small population = small absolute numbers
@@ -326,43 +326,43 @@ For the property's locality, return:
 
 ### 🇱🇹 Lithuania
 
-- **Informatikos ir ryšių departamentas (ITKD) — Police**: `https://www.ird.lt/` — primary crime statistics portal
+- **Informatikos ir ryšių departamentas (IRD) prie Vidaus reikalų ministerijos** (Interior Ministry department, not the Police): `https://www.ird.lt/` — primary crime statistics portal; registered and cleared offences and rates per 100,000 residents by municipality, 2004–2026, CSV export: `https://www.ird.lt/lt/atviri-duomenys-2/nusikalstamumas-pagal-savivaldybes`
 - **Statistics Lithuania (OSP)**: `https://osp.stat.gov.lt/` — Crime tables; bot-blocked on HEAD, browser-OK
-- **Granularity**: per-apskritis (county) + per-savivaldybė (municipality) + Vilnius/Kaunas/Klaipėda district-level
+- **Granularity**: per-apskritis (county) + per-savivaldybė (municipality)
 - **Caveat**: post-2022 RU/BY-buyer dynamics affect Klaipėda + border-zone reporting
 
 ### 🇱🇻 Latvia
 
 - **Iekšlietu ministrija (MoI) — Valsts policija (State Police)**: `https://www.vp.gov.lv/` — primary crime portal
-- **CSP (Central Statistical Bureau)**: `https://stat.gov.lv/en` — crime / justice tables
-- **Granularity**: per-statistical-region (Riga / Pierīga / Vidzeme / Kurzeme / Zemgale / Latgale) + per-novads (municipality)
+- **CSP (Central Statistical Bureau)**: `https://stat.gov.lv/en/statistics-themes/population/crimes` — crime theme page; NOR010 national totals (data from the Information Centre of the Ministry of the Interior): `https://data.stat.gov.lv/sq/12032`; NOR023 recorded crimes and rates per 10,000 population by state city and municipality, 2021–2025: `https://data.stat.gov.lv/pxweb/en/OSP_PUB/START__POP__NO__NOR/NOR023/`
+- **Granularity**: per-state-city + per-novads (municipality) in NOR023; statistical-region totals (Riga / Pierīga / Vidzeme / Kurzeme / Zemgale / Latgale) are not in NOR010 or NOR023 — verify with the Information Centre of the Ministry of the Interior
 - **Caveat**: Latgale (E border) Russian-speaking-majority districts have different demographics; do not over-interpret regional-only data
 
 ### 🇷🇴 Romania
 
 - **Inspectoratul General al Poliției Române (IGPR)**: `https://www.politiaromana.ro/` — annual crime statistics, by județ (county) + main cities
 - **INS (Institutul Național de Statistică)**: `https://www.insse.ro/` — Justiție și criminalitate tables
-- **AMCCRS Bucharest seismic + crime overlay** (informal): https://www.hartablocuri.ro/ — community-augmented map (year of construction + crime hot-spots)
+- **hartablocuri.ro** (volunteer personal project, not linked to any state institution; not a crime source): https://www.hartablocuri.ro/ — block map with construction years, apartment plans and seismic-risk classes
 - **Granularity**: per-județ (42) + Bucharest sectors (1-6) + main cities
 - **Caveat**: Bucharest sector-level data is the de-facto granularity for capital; rural commune data often suppressed
 
 ### 🇧🇬 Bulgaria
 
 - **MVR (Ministry of Interior)**: `https://www.mvr.bg/` — primary crime data
-- **NSI (Statistical Institute)**: `https://www.nsi.bg/en/` — Public order and security
+- **NSI (Statistical Institute)**: `https://www.nsi.bg/statistical-data/152` — Правосъдие и престъпност (justice and crime); counts crimes in court cases closed in the year (2025: 28,414; 2025 data, source NSI release of 10 Jul 2026), not police-recorded crime
 - **Granularity**: per-oblast (28 provinces) + main cities + Sofia districts
 - **Caveat**: Black Sea coast resort municipalities (Nesebar, Sozopol, Pomorie, Varna, Burgas) inflate rates seasonally; Sofia districts vary substantially (Ovcha kupel/Lyulin vs central)
 
 ### 🇱🇺 Luxembourg
 
-- **Police Grand-Ducale**: `https://police.public.lu/` — annual statistics + transparency portal
-- **STATEC**: `https://statistiques.public.lu/` — Délinquance et sécurité tables
-- **Granularity**: per-circonscription de police + per-commune (102) + Luxembourg City quarters
+- **Police Grand-Ducale**: `https://police.public.lu/` — annual statistics + transparency portal; latest national source is the annual Rapport d'activités (`https://police.public.lu/fr/votre-police/rapports-activite.html`): 2025 report, 41,489 cases (+1.3%), 47.2% clearance, inhabited-house burglaries 1,576 (1,539 in 2024); the Chiffres de la délinquance series runs 2012–2023
+- **STATEC**: `https://statistiques.public.lu/` — Délinquance et sécurité tables; LUSTAT table DF_C5201, police-recorded general crime, national by offence type (64,626 in 2025, 61,976 in 2024; not the same count as the Police case total): `https://lustat.statec.lu/vis?df%5Bds%5D=ds-release&vw=tb&df%5Bag%5D=LU1&df%5Bid%5D=DF_C5201`
+- **Granularity**: national totals by offence type in the sources read on 2026-11-04 (Police 2025 report, STATEC DF_C5201); per-circonscription, per-commune (100 communes, Ministère des Affaires intérieures 2024 report — rates/figures may have changed since) and Luxembourg City quarter figures were not found there — ask the Police Grand-Ducale before using them
 - **Caveat**: Luxembourg City Gare district has elevated rates; cross-border commuter dynamic affects daytime vs resident-population denominator
 
 ### 🇨🇾 Cyprus
 
-- **Cyprus Police**: `https://www.police.gov.cy/police/police.nsf/cyens.aspx` — annual crime report
+- **Cyprus Police**: `https://www.gov.cy/police/en/documents/statistical-data/criminality-statistic-data/` — annual crime report
 - **CyStat**: `https://www.cystat.gov.cy/` — Justice and security
 - **Granularity**: per-district (Lefkosia / Lemesos / Larnaka / Pafos / Famagusta-RoC) + main cities
 - **Caveat**: Limassol Russian/CIS HNW concentration affects financial-crime + IT/cyber categories; tourist-zone Ayia Napa/Paralimni inflates summer rates; **TRNC/north not covered by RoC police statistics**

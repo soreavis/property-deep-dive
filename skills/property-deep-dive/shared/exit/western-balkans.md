@@ -20,7 +20,7 @@
 ## 🇧🇦 Bosnia & Herzegovina
 - **DOM**: Sarajevo 120-200 / Banja Luka 150-200 / Mostar 150-250 / rural 300-700+ [verify]
 - **Commission**: BOTH SIDES PAY 2-3% each (informal; lighter regulation)
-- **MLS**: no; Olx.ba
+- **MLS**: no; Pik.ba (ex-OLX.ba)
 - **Sell-side**: FBiH ~10% on gain (>5 yrs exempt); RS-entity differs
 - **Liquidity**: 🔴 LOW Sarajevo central; VERY LOW rest
 - **Quirks**: **Cadastral fragmentation drags transactions** — two entities + Brčko + dual land-book/cadastre legacy; minefield zones near former front lines (check IMSMA database)

@@ -321,7 +321,7 @@
     },
     {
       "host": "www.ssn.unam.mx",
-      "reason": "geofenced or bot-walled: refuses GitHub-runner egress but confirmed alive via another route in the 2026-09-18 citation-repair wave; re-check annually"
+      "reason": "HTTPS (port 443) refused connections when checked on 2026-11-04 while plain HTTP served live data; the mx playbook cites http://www.ssn.unam.mx/ for the special reports; re-check annually"
     },
     {
       "host": "www.jkr.gov.my",

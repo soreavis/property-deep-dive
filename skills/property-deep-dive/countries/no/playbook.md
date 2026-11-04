@@ -342,7 +342,7 @@ Unsourced est. ranges (contractor-market prices) — get contractor quotes. The 
 | Work | Cost (NOK) |
 |---|---:|
 | Energimerking (energiattest) | 0 when the owner self-registers an existing home (Enova, 2026); hired expert est. ~5,000–12,000 |
-| Tilstandsrapport | est. ~15,000–35,000 |
+| Tilstandsrapport | ~7,000–25,000 (2026 data, source meglersmart.no — aggregator); one firm's 2026 list 12,100 (flat up to 100 m²) to 29,200 (house 351–450 m²), incl. VAT (Takstmannen AS) |
 | Megler (paid by the seller, eiendomsmeglingsloven § 7-2 (4)) | ≈ 1.59 % of price on average, NOK 62,996 per sale (2023, Finanstilsynet; computed in `--tax`) |
 | **Dokumentavgift (selveier + eierseksjon; borettslag exempt)** | **2.5 % of market value** (Kartverket) |
 | Tinglysningsgebyr | 545 per document (2026, Kartverket) |

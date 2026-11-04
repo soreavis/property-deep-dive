@@ -272,7 +272,7 @@
       "country": "mt",
       "programme": "MPRP (Permanent Residence)",
       "status": "OPEN — VERIFY",
-      "min_threshold": "€375k lease / €750k purchase + €60k govt + €50k charity",
+      "min_threshold": "€375k purchase or €14k/yr lease + €60k admin fee + €37k contribution + €2k donation (+€7.5k per dependant; spouse, minor and disabled adult children exempt)",
       "property_linked": "YES (purchase route)",
       "pr_citizenship": "PR; no auto citizenship",
       "caveats": "Distinct from MEIN; verify EU pressure post-ECJ",
@@ -550,7 +550,7 @@
       "min_threshold": "**€150,000 tax-assessed value** (not contract price)",
       "property_linked": "YES",
       "pr_citizenship": "1-yr renewable → PR 5 yrs",
-      "caveats": "**Pre-Jan-2026 holders grandfathered**",
+      "caveats": "**Pre-Jan-2026 holders grandfathered** · renewal needs proof taxes were paid during the permit (art. 64 as amended by Sl. list CG 3/26) · permit lapses after more than 30 days outside Montenegro (art. 65(1)(3); 3/26 limited the art. 65(2) exception to family-reunification permits on humanitarian grounds) · qualifying property: family house, weekend house, villa, flat, hospitality object, residential-business building or business premises (art. 56), so not bare land",
       "region": "Western Balkans"
     },
     {
@@ -825,18 +825,18 @@
       "min_threshold": "**US$2,500/mo** (24 months) OR **US$60,000** CR bank deposit",
       "property_linked": "No",
       "pr_citizenship": "2-yr temp; PR 3 yrs; citizenship 7 yrs",
-      "caveats": "⚠️ reality-check: the $2,500/mo must be BANK-GUARANTEED for 24 mo (~US$60,000 deposit), not a salary; see § Reality-check",
+      "caveats": "⚠️ reality-check: the $2,500/mo must be BANK-GUARANTEED for 24 mo (~US$60,000 deposit), not a salary; see § Reality-check · Decreto 43926 added to Reglamento art. 2 that a bank deposit returned in monthly instalments is not renta, so the US$60k deposit route is uncertain — confirm with DGME",
       "region": "Latin America"
     },
     {
       "id": "cr-inversionista-visa",
       "country": "cr",
       "programme": "Inversionista Visa",
-      "status": "OPEN",
+      "status": "OPEN — VERIFY",
       "min_threshold": "**US$150,000** investment (RE / business / shares / VC / tourism)",
       "property_linked": "YES (RE eligible)",
       "pr_citizenship": "2-yr renewable; PR 3 yrs; citizenship 7 yrs",
-      "caveats": "",
+      "caveats": "Ley 9996 art. 5 incentive window closed 14 Jul 2026 and whether US$150k survives is contested (art. 8 sets it only for the term of the law; Reglamento 43926 art. 4 states it with no end date) — confirm with DGME · real estate must be in the applicant's own name, not a company (Reglamento 43926 art. 7(A)(1))",
       "region": "Latin America"
     },
     {
@@ -844,10 +844,10 @@
       "country": "pa",
       "programme": "Friendly Nations Visa (reformed Aug 2021)",
       "status": "OPEN",
-      "min_threshold": "**US$200,000** RE OR term deposit OR combo + economic ties",
+      "min_threshold": "**US$200,000** RE (may be bank-financed) OR US$200,000 fixed deposit (min 3 yrs) OR job with a Panamanian employer + MITRADEL work permit",
       "property_linked": "YES (RE eligible)",
       "pr_citizenship": "2-yr provisional → PR after 2 yrs; citizenship 5 yrs",
-      "caveats": "Reform replaced \"any of 50 nations\" rule with investment requirement",
+      "caveats": "Reform replaced \"any of 50 nations\" rule with investment requirement · DE 197 + DE 226 in force 7 Aug 2021 · Ecuador added by DE 16 of 31 Aug 2026 (Gaceta Oficial 30601-B)",
       "region": "Latin America"
     },
     {
@@ -867,9 +867,9 @@
       "programme": "Pensionado",
       "status": "OPEN",
       "min_threshold": "US$1,000/mo lifetime pension",
-      "property_linked": "No",
+      "property_linked": "Partial (property over B/.100,000 lowers the pension floor)",
       "pr_citizenship": "Direct PR; citizenship 5 yrs",
-      "caveats": "Strong tax/discount perks",
+      "caveats": "Strong tax/discount perks · B/.750/mo if real estate over B/.100,000 was bought in own name · +B/.250/mo per dependent · pension from a foreign government, international organisation or private company, granted for life · permit indefinite, no renewal needed",
       "region": "Latin America"
     },
     {
@@ -877,10 +877,10 @@
       "country": "pa",
       "programme": "Self-Solvent",
       "status": "OPEN",
-      "min_threshold": "US$300,000 PA bank fixed-term (3 yrs)",
-      "property_linked": "No",
-      "pr_citizenship": "Temp → PR",
-      "caveats": "",
+      "min_threshold": "US$300,000 PA bank fixed-term (3 yrs) OR real estate OR a mix of both",
+      "property_linked": "YES (RE route)",
+      "pr_citizenship": "2-yr provisional → PR",
+      "caveats": "+B/.2,000 per dependent",
       "region": "Latin America"
     },
     {

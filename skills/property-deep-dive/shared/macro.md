@@ -342,7 +342,7 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - HU (MNB 6.50% — HUF volatility)
 - IS (CBI 8.00% — +25 bp hike 19 Aug 2026, held 7 Oct 2026; CPI 5.9% vs 2.5% target)
 - US (Fed 3.75-4.00% — 25 bp hike 16 Sep 2026; re-classify after the 27-28 Oct 2026 FOMC)
-- BR (BCB 14.75% — Selic on hold post-cuts)
+- BR (BCB 13.75% since 17 Sep 2026 — high level, but easing: see Recovery / cutting above; BCB SGS 432)
 - TR (TCMB 37.0% — held 10 Sep 2026, eased from 50% Mar-2024 peak; CPI 31.51% YoY Aug 2026)
 - AR (volatile peso band)
 - EG (CBE ~22-24% post-IMF Mar 2024 devaluation; CPI declining from 30%+)

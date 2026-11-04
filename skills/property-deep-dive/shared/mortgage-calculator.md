@@ -106,8 +106,8 @@ term_years: 25
 
 - Monthly P&I: **€808**
 - Total interest: €89,400
-- Bank of Lithuania DSTI check (≤50% of net income): household must earn min €1,616/mo net
-- Stress-test at 6%: monthly P&I → €984
+- Bank of Lithuania DSTI check (≤50% of net income, at an interest rate of at least 6% since 1 Aug 2026): household must earn min €1,972/mo net (computed: €986 P&I at 6% ÷ 0.50)
+- Stress-test at 6%: monthly P&I → €986
 
 ## Affordability rules per country (cross-reference `--finance`)
 
@@ -125,7 +125,7 @@ term_years: 25
 | IE | CBI LTI 4x FTB / 3.5x sub | yes (+2% stress) |
 | SE | Lag (2026:226) since 1 Apr 2026 (replaced the FI rules; not a Riksbank rule): amortisation ≥1%/yr if LTV>50%, ≥2%/yr >70%; extra 1 pp for debt >4.5x income removed; purchase LTV cap 90% | yes |
 | NO | Boligforskriften: DTI ≤5x, stress-test +3 ppts | yes |
-| LT | Bank of Lithuania DSTI ≤50% | yes |
+| LT | Bank of Lithuania DSTI ≤50%, at an interest rate of at least 6% since 1 Aug 2026 (up to 60% for at most 5% of a lender's new housing loans); max maturity 30 years | yes |
 | LV | banks ~40% | yes |
 | EE | banks ~40% | yes |
 | CZ | CNB DSTI ~45% | yes |

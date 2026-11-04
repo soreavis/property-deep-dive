@@ -28,7 +28,7 @@
 - **Contract**: oppdragsavtale exclusive 6 mo (statutory max)
 - **MLS**: no MLS; Finn.no near-monopoly
 - **Discount**: bidding-up common; sale often equals/exceeds asking
-- **Sell-side**: CGT 22% on gain (exempt if owned 1 yr + lived 1 of last 2); **tilstandsrapport mandatory since 2022**
+- **Sell-side**: CGT 22% on gain (exempt if owned 1 yr + lived 1 of last 2); **tilstandsrapport not legally mandatory** (DiBK), but since 1 Jan 2022 the buyer is deemed to know what clearly appears in an approved report (avhendingslova § 3-10 (1); FOR-2021-06-08-1850), so a seller who skips it is more easily liable for defects
 - **Liquidity**: 🟢 HIGH Oslo/Bergen/Trondheim/Stavanger; 🟠 MEDIUM rest
 - **Quirks**: Mandatory pre-sale condition report shifted defect liability to seller; concessions law (konsesjonsloven) on rural/agri >100 dekar
 

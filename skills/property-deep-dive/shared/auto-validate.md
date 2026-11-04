@@ -86,7 +86,7 @@ If 2+ critical sources fail simultaneously for one country, escalate to immediat
 - 109 countries validated
 - 41 healthy 🟢
 - 2 acceptable 🟡 (LV, AL)
-- 1 degraded 🟠 (RO — INSSE intermittent 503)
+- 1 degraded 🟠 (RO — INSSE bot wall, 503)
 - 0 failing 🔴
 
 ## Per-country detail
@@ -97,8 +97,8 @@ If 2+ critical sources fail simultaneously for one country, escalate to immediat
 
 ### 🇷🇴 RO — score 78% 🟠
 - 42 URLs · 33× 200 · 4× 403-bot · 3× 503 · 2× 404
-- **Critical failures**: insse.ro (503 intermittent — last 7 days), afm.ro (503 intermittent)
-- **Action**: monitor 7 more days; if persists, contact sources or find replacement
+- **Critical failures**: insse.ro, afm.ro (persistent 503 JavaScript bot wall, not outages; both listed under `excluded_hosts` in `config/_url-liveness.json`)
+- **Action**: check both in a browser; find a replacement only if they fail there too
 - **Replaced 2 dead URLs** since last run: anaf.ro/path-x → anaf.ro/path-x-new
 
 ### 🇱🇻 LV — score 88% 🟡

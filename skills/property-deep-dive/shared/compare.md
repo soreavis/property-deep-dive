@@ -184,11 +184,11 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 
 ### Lowest acquisition cost (% of price)
 1. GE (~0.1-0.5% — lowest tracked globally; Public Service Hall registration GEL 50-200)
-2. EE (~1-2% no transfer tax)
-3. LT (~1-1.5% no transfer tax)
+2. LT (under ~1% est. buyer side, before agent and legal costs: notary ≈0.45% incl. VAT (computed: 0.37% × 1.21) + registration; no transfer tax)
+3. EE (~1-2% no transfer tax)
 4. CZ (~2-4% transfer tax abolished 2020)
 5. SK (~2-4% no transfer tax since 2005)
-6. NO (~3-4% dokumentavgift 2.5%)
+6. NO (≈2.6–2.8% on a NOK 5M selveier / eierseksjon resale, computed in the NO playbook: dokumentavgift 2.5% + 2 × NOK 545 tinglysing + est. NOK 5,000–15,000 boligkjøperforsikring; borettslag pay no dokumentavgift)
 7. CL (~3-4% notarial + Conservador de Bienes Raíces)
 8. VN (~3-5% registration + notary)
 9. US (~3-6% varies by state — CA escrow vs NY mansion-tax extremes)
@@ -311,7 +311,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 7. TH LTR — 4 categories (no fixed property threshold; passive-income or wealth route)
 8. MY MM2H (post-2024 reform: tiers USD 150k / 500k / 1M deposit + compulsory residence ≥ RM 600k / 1M / 2M)
 9. CY (€300k PR — distinct from ended CBI)
-10. MT MPRP (€375k lease/€750k purchase + fees)
+10. MT MPRP (€375k purchase / €14k-yr lease + fees)
 11. PA (Friendly Nations $200k / Qualified Investor $300k first-sale from the developer or $500k resale — Executive Decree 17/2026, in force 16 Sep 2026)
 12. ~~LV (€250k Riga radius, built only)~~ — real-estate route ENDED 15 Sep 2026 (new Immigration Law, PMLP); only the company-equity route (€50k / €100k + €10,000 state-budget payment) remains
 13. ID 2nd Home Visa (E33: US$130k state-bank deposit OR rumah susun / apartemen ≥ US$1M; first permit up to 5 yr, total ≤ 10 yr)
@@ -679,8 +679,8 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 |---|---|---|
 | EU candidate? | YES (Jun 2022) | GE Dec 2023 (accession de facto halted Jun 2024); RS/ME accession negotiations open |
 | COL | **Lowest in Europe** (Numbeo 2024-2026) | GE/RS/ME mid-low |
-| Personal income tax | Flat 12% (one of lowest in Europe) | GE territorial-leaning; RS 10-25% progressive; ME 9-15% progressive |
-| Acquisition cost | ~2-4% (notary + State Registration Chamber) | GE 0.1-0.5% (lowest globally); RS 5-7%; ME 5-7% |
+| Personal income tax | Flat 12% (one of lowest in Europe) | GE territorial-leaning; RS flat 10% on salary (ZPDG Art. 16) + annual top-up only above 3× the average annual salary: 10% up to 6×, 15% above (Art. 87, 89); ME 9-15% progressive |
+| Acquisition cost | ~2-4% (notary + State Registration Chamber) | GE 0.1-0.5% (lowest globally); RS ~3% resale where the contract puts the 2.5% transfer tax on the buyer, before agency and attorney fees (see RS playbook); ME 5-7% |
 | Foreign-buyer access | Open for buildings + non-agricultural land | All three open |
 | Visa pathway | **Investor Residency Law 200/2010** — €250k 5yr → naturalisation 8yr | GE Investor Residency USD 300k; RS/ME standard residence |
 | Romanian-citizenship-by-descent → EU passport | YES (widely used) | NO equivalent |

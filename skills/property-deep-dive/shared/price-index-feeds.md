@@ -37,7 +37,7 @@ For each country, return:
 |---|---|---|---|---|---|
 | **FR** | INSEE | Indice des prix des logements | https://www.insee.fr/fr/statistiques/serie/000857179 | quarterly | Q4 2025 |
 | **IT** | ISTAT | Indice dei prezzi delle abitazioni | https://www.istat.it/it/files/abitazioni/ | quarterly | Q4 2025 |
-| **CZ** | ČSÚ | Cenové indexy bytů | https://csu.gov.cz/ | quarterly | Q4 2025 |
+| **CZ** | ČSÚ | Cenové indexy bytů | https://csu.gov.cz/produkty/indexy-realizovanych-cen-bytu-2-ctvrtleti-2026 | quarterly | Q2 2026 (released 14 Sep 2026) |
 | **SK** | NBS / ŠÚ SR | RBNV | https://nbs.sk/statisticke-udaje/ + https://slovak.statistics.sk/ | quarterly | Q4 2025 |
 | **DE** | Destatis | Häuserpreisindex | https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreisindex/ | quarterly | Q4 2025 |
 | **AT** | Statistik Austria + OeNB | Wohnimmobilien | https://www.statistik.at/ + https://www.oenb.at/ | quarterly | Q4 2025 |
@@ -63,9 +63,9 @@ For each country, return:
 | **LV** | CSP + Latvijas Banka | HPI | https://stat.gov.lv/en + https://www.bank.lv/ | quarterly | Q4 2025: 224.02 (+8.4% YoY through Q3) |
 | **RO** | INS | IPL (Indicele prețurilor locuințelor) | https://www.insse.ro/ | quarterly | Q4 2025: 168.99 |
 | **BG** | NSI | HPI | https://www.nsi.bg/en/metadata/house-price-index-hpi-227 | quarterly | Q4 2025: 256.71 |
-| **LU** | STATEC + Observatoire de l'Habitat | HPI | https://statistiques.public.lu/en/publications/series/logement-chiffres.html | quarterly | Q1 2025: apartments €8,094/m² (+3.7% YoY) |
-| **CY** | Central Bank of Cyprus | RPPI | https://www.centralbank.cy/en/publications/residential-property-price-indices | quarterly | Q4 2025: +2.3% QoQ; house +7.1% YoY; Limassol apt 150.1 |
-| **MT** | NSO + Central Bank of Malta | RPPI | https://nso.gov.mt/property/ + https://www.centralbankmalta.org/ | quarterly | Q4 2025: 177.36 (+6.1% YoY) |
+| **LU** | STATEC + Observatoire de l'Habitat | HPI | https://statistiques.public.lu/en/publications/series/logement-chiffres.html + https://data.public.lu/fr/organizations/ministere-du-logement-et-de-lamenagement-du-territoire-observatoire-de-lhabitat/ (commune level) | quarterly | Q2 2026: existing apartments €7,795/m² (−2.2% YoY), VEFA €9,809/m² (−6.7% YoY); STATEC general index −2.2% YoY, +1.1% QoQ |
+| **CY** | Central Bank of Cyprus | RPPI | https://www.centralbank.cy/en/publications/residential-property-price-indices | quarterly | Q2 2026: 109.7 (2010Q1=100), +2.4% QoQ / +8.5% YoY; houses +5.8% YoY; apartments +8.9% YoY; Limassol apt 154.1 |
+| **MT** | NSO + Central Bank of Malta | RPPI | https://nso.gov.mt/property/ + https://www.centralbankmalta.org/real-economy-indicators (advertised-price index) + Eurostat prc_hpi_q, geo=MT | quarterly | Q2 2026: 183.86 (2015=100) / 105.94 (2025=100), +6.9% YoY |
 
 ## European microstates / non-EU enclaves
 
@@ -83,7 +83,7 @@ For each country, return:
 | RS | NBS price index | RPPI | https://www.nbs.rs/ | quarterly |
 | ME | MONSTAT + CBCG | HPI | https://www.monstat.org/eng/ + https://www.cbcg.me/en | quarterly |
 | BA | BHAS + entity statistics offices | HPI | https://bhas.gov.ba/ | annual / quarterly |
-| MK | MAKSTAT + NBRSM | HPI | https://www.stat.gov.mk/ | quarterly |
+| MK | BIS, national source (no HPI in MakStat's price folders) | RPPI, new and existing flats in Skopje only (Q.MK.N.628 nominal, Q.MK.R.628 real; 2010=100) | https://stats.bis.org/api/v1/data/WS_SPP/Q.MK.N.628/all + FRED QMKN628BIS | quarterly |
 | AL | INSTAT + Bank of Albania (Fischer HPI) | HPI | https://www.instat.gov.al/en/ + https://www.bankofalbania.org/ | quarterly |
 
 ## Anglo non-EU

@@ -180,7 +180,7 @@ When unresolvable: surface both, let buyer verify in person.
 | 🇳🇱 | `https://www.kadaster.nl/` (€2.95 per inzage) |
 | 🇧🇪 | `https://finances.belgium.be/fr/particuliers/habitation/cadastre` |
 | 🇨🇿 | `https://nahlizenidokn.cuzk.cz/` (free) |
-| 🇸🇰 | `https://www.katasterportal.sk/` (free) |
+| 🇸🇰 | `https://zbgis.skgeodesy.sk/mapka/sk/kataster` (free, ÚGKK cadastre map viewer) |
 | 🇦🇹 | Grundbuch via `https://www.justiz.gv.at/home/service/grundbuch~36.de.html` (paid) |
 | 🇬🇷 | `https://ktimatologio.gr/` |
 | 🇵🇱 | `https://ekw.ms.gov.pl/` (KW number; paid certified) |
