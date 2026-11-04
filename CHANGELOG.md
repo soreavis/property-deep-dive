@@ -188,6 +188,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): close the second-15 gap pass and first-15 round 2; re-date 14 playbooks ([#553](https://github.com/soreavis/property-deep-dive/pull/553)) — by @soreavis
 
+- fix(shared): apply 582 refuted shared-file changes from the refresh runs ([#554](https://github.com/soreavis/property-deep-dive/pull/554)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
