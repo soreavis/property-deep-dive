@@ -182,6 +182,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - feat(maintenance): stricter percentage matching and fallback evidence for unledgered lines ([#549](https://github.com/soreavis/property-deep-dive/pull/549)) — by @soreavis
 
+- feat(maintenance): risk-based skipping, per-line fingerprints, agent packing and BM25 hints ([#551](https://github.com/soreavis/property-deep-dive/pull/551)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
