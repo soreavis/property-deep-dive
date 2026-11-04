@@ -1045,10 +1045,10 @@
       "confidence": "MEDIUM",
       "scores": {
         "acquisition-cost": {
-          "band": 96,
-          "rank": 2,
+          "band": 92,
+          "rank": 3,
           "k": 13,
-          "src": "compare.md:Lowest acquisition cost#2"
+          "src": "compare.md:Lowest acquisition cost#3"
         },
         "fx": {
           "band": 100,
@@ -2143,10 +2143,10 @@
       "confidence": "MEDIUM",
       "scores": {
         "acquisition-cost": {
-          "band": 92,
-          "rank": 3,
+          "band": 96,
+          "rank": 2,
           "k": 13,
-          "src": "compare.md:Lowest acquisition cost#3"
+          "src": "compare.md:Lowest acquisition cost#2"
         },
         "annual-carry": {
           "band": 79,
