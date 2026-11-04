@@ -51,6 +51,9 @@ MAX_UNCHANGED_DAYS = 365  # an unchanged page proves nothing new for ever: an ag
 CHANGE_RATE_PER_DAY = 0.00525
 AUDIT_SHARE = 0.10  # of the lines skipped as freshly proved, this share still goes to an agent
 HINTS, HINT_WIDTH, K1 = 3, 300, 1.2
+MONTHS = "jan feb mar apr may jun jul aug sep oct nov dec".split()
+FORWARD = re.compile(r"\b(?:next|upcoming|scheduled|planned|expected|expires?|will)\b[^.|;]{0,50}?"
+                     r"(?:(20\d\d)-(\d\d)-(\d\d)|(?:(\d{1,2}) )?([A-Z][a-z]{2})[a-z]* (20\d\d))")
 SEGMENT = re.compile(r"\n+|(?<=[.;!?])\s+")
 TOKEN = re.compile(r"\d[\d.,\u00a0\u202f]*\d|\d|[^\W\d_]{4,}")
 _spec = importlib.util.spec_from_file_location("source_verify", Path(__file__).parent / "source-verify.py")
@@ -235,6 +238,19 @@ def freshly_proved(entry: dict | None, urls: list[str], fetches: dict, today: st
     return not (entry.get("h") and pages_read(urls, fetches))
 
 
+def expired_promise(line: str, today: str) -> str | None:
+    """A line that looks forward to a date now past is stale whatever its figures say, and no
+    figure match can see that: "next meeting 12 Nov" keeps matching a page long after 12 Nov."""
+    for m in FORWARD.finditer(line):
+        y, mo, d, day, name, year = m.groups()
+        if name and name.lower() not in MONTHS:
+            continue
+        date = f"{y}-{mo}-{d}" if y else f"{year}-{MONTHS.index(name.lower()) + 1:02d}-{int(day or 28):02d}"
+        if date < today:
+            return date
+    return None
+
+
 def in_audit_sample(key: str, today: str) -> bool:
     """Deterministic and unbiased: the same run picks the same lines, the next run others."""
     return int(hashlib.sha1(f"{key}{today}".encode()).hexdigest()[:8], 16) / 0xFFFFFFFF < AUDIT_SHARE
@@ -275,6 +291,26 @@ def add_hints(rows: list[dict], fetches: dict) -> None:
                 break
 
 
+def classify(r: dict, entry: dict | None, fetches: dict, today: str, max_risk: float) -> None:
+    """Set a row's status: CONFIRMED, FRESH, NOT_CONFIRMED or NO_EVIDENCE, with what is known."""
+    r["status"] = "NOT_CONFIRMED" if r["urls"] else "NO_EVIDENCE"
+    covered, r["fetch"] = covered_values(r["values"], r["urls"], fetches)
+    r["expired"] = expired_promise(r["line"], today)
+    if not r["expired"]:
+        if covered and len(covered) == len(SV.confirm_needles(r["values"])):
+            r["status"] = "CONFIRMED"
+        elif unchanged(entry, r["line"], r["urls"], fetches, today):
+            r["status"], r["unchanged"] = "CONFIRMED", True
+        elif freshly_proved(entry, r["urls"], fetches, today, max_risk):
+            if in_audit_sample(line_key(r["line"]), today):
+                r["audit"] = max(age_days(entry, today), 1)
+            else:
+                r["status"], r["proved"] = "FRESH", entry["d"]
+    if covered and r["status"] == "NOT_CONFIRMED":
+        r["confirmed_values"] = [r["values"][i]["raw"] for i in sorted(covered)]
+        r["missing_values"] = [v["raw"] for i, v in enumerate(r["values"]) if i not in covered]
+
+
 def check(cc: str, touch_date: str | None = None, max_risk: float = 0.0) -> dict:
     """Machine-check every fast-section line; with touch_date, re-date the lines whose figures
     were re-read. A line is confirmed when its figures stand together on a page, or when the
@@ -297,20 +333,7 @@ def check(cc: str, touch_date: str | None = None, max_risk: float = 0.0) -> dict
                      "urls": [led["urls"][i] for i in e["u"]] if e else candidate_urls(line, named)})
     fetches = fetch_all(u for r in rows for u in r["urls"])
     for r in rows:
-        r["status"] = "NOT_CONFIRMED" if r["urls"] else "NO_EVIDENCE"
-        covered, r["fetch"] = covered_values(r["values"], r["urls"], fetches)
-        if covered and len(covered) == len(SV.confirm_needles(r["values"])):
-            r["status"] = "CONFIRMED"
-        elif unchanged(entry := led["lines"].get(line_key(r["line"])), r["line"], r["urls"], fetches, today):
-            r["status"], r["unchanged"] = "CONFIRMED", True
-        elif freshly_proved(entry, r["urls"], fetches, today, max_risk):
-            if in_audit_sample(line_key(r["line"]), today):
-                r["audit"] = max(age_days(entry, today), 1)
-            else:
-                r["status"], r["proved"] = "FRESH", entry["d"]
-        if covered and r["status"] == "NOT_CONFIRMED":
-            r["confirmed_values"] = [r["values"][i]["raw"] for i in sorted(covered)]
-            r["missing_values"] = [v["raw"] for i, v in enumerate(r["values"]) if i not in covered]
+        classify(r, led["lines"].get(line_key(r["line"])), fetches, today, max_risk)
     by: dict[str, dict] = {}
     for r in rows:
         by.setdefault(r["section"], {}).setdefault(r["status"], 0)

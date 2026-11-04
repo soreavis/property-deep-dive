@@ -19,6 +19,7 @@ on:
       - 'scripts/source-verify*.py'
       - 'scripts/evidence-ledger*.py'
       - 'scripts/maintain*.py'
+      - 'scripts/provenance*.py'
       - 'config/_source-verify.json'
 
 concurrency:
@@ -55,6 +56,7 @@ jobs:
           python3 scripts/source-verify-test.py
           python3 scripts/evidence-ledger-test.py
           python3 scripts/maintain-test.py
+          python3 scripts/provenance-test.py
 
   maintenance-plan:
     # Which playbook clusters still need an agent this month. Re-reads every ledgered figure
