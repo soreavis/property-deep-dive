@@ -36,9 +36,9 @@ Lithuania is a small Baltic state (2,887,592 pop. on 1 Jan 2026 — 2026 data, s
 | Ober-Haus | https://www.ober-haus.lt/ | premium agency + market reports |
 
 **Verdict bands** (cmd: `--price`):
-- 🟢 within ±10% of OHBI city avg for comparable district + condition
-- 🟡 within ±20%
-- 🟠 within ±30%
+- 🟢 within ±10% of OHBI city avg for comparable district + condition (est.: this skill's screening convention, set by judgement; no published standard or OHBI dispersion statistic was found to back the ±10/20/30% bands) (est.: this skill's screening convention, set by judgement; no published standard or OHBI dispersion statistic was found to back the ±10/20/30% bands)
+- 🟡 within ±20% (est. screening band, see 🟢) (est. screening band, see 🟢)
+- 🟠 within ±30% (est. screening band, see 🟢) (est. screening band, see 🟢)
 - 🔴 >±30% — investigate (could be: deferred maintenance, restitution flag, encumbrance, or genuine bargain — verify with Registrų centras extract)
 
 **⚠️ Caveat**: Ober-Haus publishes nominal apt €/m² level for 5 cities (level series); Eurostat HPI is a quality-adjusted index (base=100). **Use whichever fits the question; don't compare growth rates across the two.**
@@ -65,14 +65,14 @@ Lithuania is a small Baltic state (2,887,592 pop. on 1 Jan 2026 — 2026 data, s
 | Item | Amount |
 |---|---|
 | Notary fee | 0.37% of the price stated in the contract, min €76, max €5,000, listed excl. VAT (Government Resolution No. 498 of 28 Jun 2023, tariff item 25.1; 2026 data, source Vilnius 12th notary office tariff page); ≈0.45% of price if 21% VAT is charged (0.37% × 1.21, computed) |
-| Registrų centras registration | ~€50–€200 standard (~0.03–0.5% of value) |
+| Registrų centras registration | €17.19 per registered object for ownership registration, whatever its value, not a share of price (excerpt of the Registrų centras price list seen on 2026-11-04, undated; same amount from 1 Oct 2020 per Chamber of Notaries information via teise.pro, Mar 2021 — secondary). The full list could not be read for verification on 2026-11-04 — check it directly: https://www.registrucentras.lt/p/nt-registravimo-ikainiai. Buyer total ~€50–€200 est., not derived from the list: that range equals about 3–12 objects (computed: 50 ÷ 17.19 ≈ 2.9; 200 ÷ 17.19 ≈ 11.6), and a flat with one parking space comes to less (computed: 2 × 17.19 = 34.38), before any other register fees |
 | **Total round-trip cost** | **under ~1% buyer side, est.** — notary ≈0.45% incl. VAT (computed above) plus Registrų centras registration and register-check fees (amounts not re-verified); excludes agent, legal, valuation and mortgage-notary costs |
 
 Sources: notary tariff list — https://www.paupionotaras.lt/index.php/ikainiai (Vilnius 12th notary office, regulated entity); Lithuanian Notary Chamber — https://www.notarurumai.lt/en/ (no fee schedule on that page)
 
 ### Annual immovable property tax (NTM) — **MAJOR REFORM 1 Jan 2026**
 
-**Pre-2026 (now historical)**: residents tax-exempt up to €150,000 total residential value (€200k for families w/ 3+ children); above that 0.5–2% municipal. Most owner-occupiers paid €0.
+**Pre-2026 (now historical)**: individuals' non-commercial property was exempt up to €150,000 of total taxable value (€200,000 for people raising 3+ children under 18 or a disabled child); above that, statutory bands applied: 0.5% to €300,000, 1% to €500,000, 2% above (0.5% to €390,000, 1% to €650,000, 2% above at the €200,000 level) (2025 data, source VMI NTM page, version of 1 Jun 2025). Most owner-occupiers paid €0 (est., inferred from the size of the allowance; no official count found).
 
 **From 1 Jan 2026** (NTMĮ art. 6, as published by VMI), marginal bands on the **total** taxable value of an individual's **non-main** residential (plus garages, gardens and other listed non-commercial) property:
 - 0% up to €50,000
@@ -82,7 +82,7 @@ Sources: notary tariff list — https://www.paupionotaras.lt/index.php/ikainiai 
 - 0.8% €600k–€1,000,000
 - 1% above €1,000,000 (2026 data, source VMI NTM page; same bands in the Seimas press release of 26 Jun 2025 and the VMI 2026-changes summary updated 2026-01-15)
 
-**Main dwelling**: municipal-set rate 0.1–1% on portion above municipal threshold (min €450,000); councils may differentiate by tax value and the owner's economic/social situation. Where a council set no threshold or rate by 1 Dec 2025, 0.1% applies in 2026 to the value above €450,000 (2026 data, source Seimas press release 26 Jun 2025 — https://www.lrs.lt/sip/portal.show?p_r=35403&p_k=1&p_t=292208). Per-person or large-family credits: none stated in the Seimas release or the VMI 2026-changes summary — check the council decision and https://www.vmi.lt/evmi/nekilnojamojo-turto-mokestis2. Main dwelling = the property where the owner has declared residence on the last day of the calendar month (VMI).
+**Main dwelling**: municipal-set rate 0.1–1% on portion above municipal threshold (min €450,000); councils may differentiate by tax value and the owner's economic/social situation. Where a council set no threshold or rate by 1 Dec 2025, 0.1% applies in 2026 to the value above €450,000 (2026 data, source Seimas press release 26 Jun 2025 — https://www.lrs.lt/sip/portal.show?p_r=35403&p_k=1&p_t=292208). The floor works per owner: €450,000 with one owner, €900,000 with two co-owners (2026 data, source PwC, last reviewed 1 Oct 2026 — secondary). For spouses in joint ownership, VMI applies it to the share of each spouse who has declared residence there; the share of a spouse without declared residence falls under the non-main bands above (VMI 2026 Q&A, items 5–6: https://www.vmi.lt/evmi/5722). In 2026 most municipalities in a BNS survey charge 0.1% above €450,000, including Vilnius, Kaunas, Klaipėda, Šiauliai and Panevėžys, but Neringa charges 0.5% and Birštonas 0.7% (BNS via LRT, 2 Dec 2025 — secondary: https://www.lrt.lt/naujienos/verslas/4/2763027/nauji-nt-tarifai-miestuose-nuo-mokesciu-lengvatu-iki-0-7-proc-bustui-birstone) — verify at the municipality. Vilnius City Council's decision No. 1-1551 of 19 Nov 2025 on 2026 rates sets no general main-dwelling threshold or rate; its one €450,000 item (3.1) is a relief for a sole family home in premises used not according to their purpose, with 0.5% above that value (https://vilnius.lt/savivaldybe/finansai-ir-turtas/mokesciai-ir-parama/nekilnojamojo-turto-mokestis). Large-family credits: none stated in the Seimas release or the VMI 2026-changes summary — check the council decision and https://www.vmi.lt/evmi/nekilnojamojo-turto-mokestis2. Main dwelling = the property where the owner has declared residence on the last day of the calendar month (VMI).
 
 Sources:
 - Ministry of Finance: https://finmin.lrv.lt/en/news/amendments-to-tax-laws-adopted-by-the-seimas/
@@ -129,8 +129,8 @@ Sources: PwC Worldwide Tax Summaries (last reviewed 1 Oct 2026) — https://taxs
 
 ### STR / Airbnb
 
-**Vilnius city tax**: **€2 per person per night** from 1 Jan 2024 (was €1 since 1 Jul 2018); stays of 30+ days exempt (2026 data, source Go Vilnius). Airbnb collects it and transfers it to Vilnius City Municipality directly; from 15 Jun 2026 Booking.com also collects it from guests on new bookings and pays it to the provider with the payout, and the provider still declares and remits it (2026 data, source Go Vilnius). Vilnius was the first Baltic city with an Airbnb auto-collection deal, from 1 Feb 2020 (per BNS via Delfi, 15 Jan 2020 — secondary).
-- https://www.govilnius.lt/plan-your-trip/city-tax
+**Vilnius city tax**: **€2 per person per night** from 1 Jan 2024 (was €1 since 1 Jul 2018); long stays exempt, worded both as 30 days or more and as 1 month or longer (2026 data, source Go Vilnius). Airbnb collects it and transfers it to Vilnius City Municipality directly; from 15 Jun 2026 Booking.com also collects it from guests on new bookings and pays it to the provider with the payout, and the provider still declares and remits it (2026 data, source Go Vilnius). Vilnius was the first Baltic city with an Airbnb auto-collection deal, from 1 Feb 2020 (Airbnb Newsroom, 16 Jan 2020; BNS via Delfi, 15 Jan 2020 — secondary).
+- https://www.govilnius.lt/visit-vilnius/plan-your-trip/city-tax
 - https://www.airbnb.com/help/article/2702
 
 **Host tax routes** (VMI distinguishes letting — *nuoma* — from accommodation services — *apgyvendinimo paslaugos*; which applies depends on the services provided):
@@ -143,7 +143,7 @@ Sources: PwC Worldwide Tax Summaries (last reviewed 1 Oct 2026) — https://taxs
 
 **2025-2026 reform watch**:
 - Regulation (EU) 2024/1028 on STR data collection applies from 20 May 2026 in opt-in/opt-out mode: Member States are not obliged to apply it, but any STR registration procedure or platform-data request they introduce must go through it, with registration fully online and platform data shared via a national Single Digital Entry Point (European Commission DG GROW, 20 May 2026). Lithuania: no national STR registration-number scheme or implementing act found as of 2026-10-21 (LOW — see `shared/regulatory-watch.md` § LT); a host-practitioner blog (Modernus svetingumas, 17 Jun 2026, anecdotal) reports that a separate STR registration was discussed but not introduced, and that the number Booking.com asks LT hosts for is the Registrų centras unique property number (unikalus daikto numeris), not an STR registration number — verify at e-tar.lt / eimin.lrv.lt
-- Government draft (Ministry of Environment) re-regulating use of buildings and premises not according to their purpose, with a planned entry into force of 1 Nov 2026 (Kauno diena, 7 Oct 2026 — secondary); per the Lithuanian Business Confederation's comments of 18 Sep 2026 (stakeholder submission — secondary), the draft would require consent from the owners in the stairwell and of adjoining units for accommodation in apartments. Adoption not confirmed as of 2026-11-03 — verify at e-tar.lt / am.lrv.lt
+- Government draft (Ministry of Environment) re-regulating use of buildings and premises not according to their purpose, with a planned entry into force of 1 Nov 2026 (Kauno diena, 7 Oct 2026 — secondary); per the Lithuanian Business Confederation's comments of 18 Sep 2026 (stakeholder submission — secondary), the draft would require consent from the owners in the stairwell and of adjoining units for accommodation in apartments; the Confederation asked to move the entry into force to 1 Jan 2027. The 1 Nov 2026 date has passed with no adoption found as of 2026-11-04 — verify at e-tar.lt / am.lrv.lt
 - No Vilnius-wide cap or zoning ban found as of 2026-11-03 (unlike Lisbon/Barcelona) — verify at vilnius.lt
 
 Sources: https://single-market-economy.ec.europa.eu/news/new-rules-bring-increased-transparency-short-term-rentals-sector-2026-05-20_en (European Commission) + EUR-Lex CELEX 32024R1028: https://eur-lex.europa.eu/eli/reg/2024/1028/oj/eng
@@ -168,7 +168,7 @@ Standard universal `--work=<profession>` resolution. Strongest demand: tech (Vil
 - Klaipėda + Curonian Spit (Neringa) — sea-level rise + storm surge; compound coastal-river risk documented (MDPI Water 2022)
 
 ### Seismic
-- Negligible. Baltic Shield craton — peak ground acceleration ~<0.04g est. for 475-year return (European seismic hazard maps — verify at ESHM); ThinkHazard earthquake level **Very low** — under 2% chance of potentially-damaging shaking in 50 years (2026 data, source ThinkHazard https://thinkhazard.org/en/report/147-lithuania/EQ); **no building seismic code requirement**
+- Very low, not nil. Lithuania lies in the western part of the East European Craton, an intracratonic area of low seismicity (Lazauskienė et al., *Geologija* 54, 2012). The 21 Sep 2004 Kaliningrad earthquakes (up to magnitude 5.2) caused smaller damage in southern and western Lithuania (Gregersen et al. 2007), and the Lithuanian Geological Survey has now confirmed natural tectonic earthquakes inside the country: magnitudes 2.7 and 2.4 in western Lithuania on 14 Dec 2025 (BNS via LRT, 6 Oct 2026 — secondary). Peak ground acceleration ~<0.04g est. for 475-year return (European seismic hazard maps — verify at ESHM); ThinkHazard earthquake level **Very low** — under 2% chance of potentially-damaging shaking in 50 years (2026 data, source ThinkHazard https://thinkhazard.org/en/report/147-lithuania/EQ); **no building seismic code requirement**
 
 ### Forest fire
 - Highest in **Dzūkija** (SE LT — Varėna, Alytus, Lazdijai, Druskininkai districts) — Scots pine on infertile sandy soils + Čepkeliai peatland
@@ -239,17 +239,17 @@ Universal — see `shared/climate-projections.md`.
 
 ---
 
-## Cost benchmarks (Apr 2026)
+## Cost benchmarks (LT 2026)
 
 | Item | Range / typical |
 |---|---|
 | Vilnius apt €/m² avg | €3,197 (OHBI Sep 2026) |
 | Kaunas / Klaipėda | €2,339 / €2,103 (OHBI Sep 2026), i.e. 27% / 34% below Vilnius (computed: 1 − 2,339/3,197; 1 − 2,103/3,197) |
 | Notary fee | 0.37% of price, min €76, max €5,000, excl. VAT (2026 data, Government Resolution No. 498 tariff) |
-| Registration fee | ~€50–€200 |
+| Registration fee | €17.19 per registered object for ownership registration (price-list excerpt, see `--tax`); buyer total ~€50–€200 est., calibration in `--tax`. The full Registrų centras price list could not be read for verification on 2026-11-04 — check it directly: https://www.registrucentras.lt/p/nt-registravimo-ikainiai |
 | Total acquisition costs | under ~1% est. (notary ≈0.45% incl. 21% VAT + Registrų centras fees — see `--tax`) |
 | Annual property tax (main, ≤€450k) | €0 (statutory non-taxable value ≥€450,000; 2026 data, source Seimas / VMI) |
-| EPC certificate | ~€150–€400 |
+| EPC certificate | from €150 for an existing flat or house (agenturadede.lt, sertifikatas123.lt), €300–€400 for a new-building handover by class (agenturadede.lt; sertifikatas123.lt lists A class from €300) (2026 data, source private certifier price lists — secondary; indicative, the final price depends on the object) |
 
 ---
 
@@ -258,7 +258,7 @@ Universal — see `shared/climate-projections.md`.
 - **No transfer tax** — already a structural incentive
 - **Declared-residence ≥2yr CGT exemption** OR **>5yr holding exemption** for any LT/EEA real estate (10 years for sales before 1 Jan 2026) (2026 data, source VMI; PwC)
 - **Reinvestment relief**: declared residence under 2 years, proceeds reinvested within 1 year in another EEA home (timing detail: see `--tax`)
-- **5% individual-activity flat tax** for STR if registered
+- **Individual-activity tax credit** for registered STR hosts: effective ≈5% PIT on taxable income up to €20,000, rising to 20% at €42,500, then aggregated at 20/25/32% (2026 data, source PwC Worldwide Tax Summaries, reviewed 1 Oct 2026 — secondary; see `--tax`)
 
 ---
 
@@ -316,17 +316,23 @@ Universal — see `shared/climate-projections.md`.
 - 2026-04-26: full population (Batch 3 of skill expansion)
 - 2026-10-21: Tax tracker entry re-checked (December regwatch wave, run early; see shared/regulatory-watch.md).
 - 2026-10-23: refresh wave (market, tax-legal, risk-infra) plus audit corrections; per section, facts changed / confirmed / unverifiable. Re-verified (see the per-section table): Country profile 4 / 1 / 1 (population 2,887,592 on 1 Jan 2026, Eurostat; Vilnius €3,197/m², +12.2% YoY, OHBI Sep 2026; BRELL disconnection 8 Feb 2025 and synchronisation 9 Feb 2025, Litgrid); `--price` 3 / 6 / 0 (OHBI Sep 2026 figures replace Dec 2025; Ober-Haus labelled a brokerage series, secondary; 2026 market-report URL); `--price` listings 3 / 2 / 0 (rank claims marked as portal self-descriptions, Domoplius '#2' dropped); Active fiscal incentives 3 / 1 / 0 (holding exemption 5 years from 2026, 10 before; reinvestment timing detail moved to `--tax`); Source URL templates 3 / 3 / 0 (cadastral and radon templates replaced); `--amenities` / `--climate` pointers confirmed. Partly re-verified, still on the 2026-04-26 playbook date: `--tax` 12 / 7 / 6 (2026 GPM 15% up to 12 VDU then 20% / 25% / 32%; notary tariff 0.37% excl. VAT, min €76, max €5,000, replacing 0.45% / ~€5,800; main-dwelling NTM default 0.1% above €450,000; Bank of Lithuania LTV 90% for first-time buyers from 1 Aug 2026; accommodation VAT 9% → 12%); `--rental` 9 / 4 / 3 (VMI tax routes; Booking.com collects the Vilnius city tax from 15 Jun 2026; Reg (EU) 2024/1028 described as an opt-in regulation applying since 20 May 2026, replacing the 'Lithuania will introduce' prediction); `--work` 1 / 0 / 1 (Klaipėda 'free port' → Free Economic Zone); Cost benchmarks 5 / 0 / 2 (price, notary, total-cost and main-dwelling tax rows; registration and EPC rows unverified; heading '(Apr 2026)' unchanged); Foreign-buyer rules 4 / 1 / 4 (land criteria re-read against NŽT and ELRA); Country-specific quirks 4 / 3 / 3 (FEZ 0% income tax for 10 years, then 8% for 6 years; non-resident LTV reference updated); `--traffic` 3 / 1 / 1 (lakd.lt replaced by Via Lietuva; Trafi is a transit app, not a congestion feed; A1–A21); `--risks` 6 / 7 / 7 (vanduo.gamta.lt mirror ❌ DEPRECATED; 54 flood areas → 56 rivers; ThinkHazard flood High / earthquake Very low; radonas.lt, a radiator firm, replaced by the Radiation Protection Centre); `--mains` 6 / 5 / 7 (NTR extract €2.64 / €5.28 / €3.04; ESO one of three DSOs; DH bioenergy over 70% nationally in 2023; post-synchronisation price surge per IEA); `--crime` 1 / 1 / 1 (IRD under the Ministry of the Interior); Verification authorities 2 / 3 / 1 (radon and Migration Department rows → rsc.lrv.lt / migracija.lrv.lt). Status footer (sources read 2026-11-03): STR-registration limb restated as LOW with no Lithuanian scheme found, and the 2026 main-dwelling NTM limb settled for the Vilnius, Kaunas and Klaipėda city municipalities (statutory 0.1% above €450,000); Confidence line recomputed. Playbook-level date not re-stamped: `--tax`, `--rental`, `--risks`, `--mains` and `--work` still hold claims not re-fetched.
+- **2026-11-04** — Maintenance run: closed `--price`, `--tax`, `--rental`, `--work=<profession>`, `--mains`, Cost benchmarks (LT 2026); still open `--risks`.
 
 ### Per-section verification (overrides playbook-level date)
 
 | Section | Last verified | Verifier | Notes |
 |---|---|---|---|
 | Country profile | 2026-10-23 | 2026-10-23 refresh wave | Eurostat population (1 Jan 2026); OHBI Sep 2026 Vilnius figures; BRELL disconnection / synchronisation dates (Litgrid); PIT 20 / 25 / 32% (PwC); "most foreign buyers in Vilnius" unsourced |
-| `--price` (incl. listings) | 2026-10-23 | 2026-10-23 refresh wave | OHBI Sep 2026 (Ober-Haus release of 12 Oct 2026, brokerage series, secondary); BIS / FRED index to Q1 2026; OSP and Bank of Lithuania sites not readable to bots; listing ranks marked as portal self-descriptions |
+| `--price` | 2026-10-23 | 2026-11-04 maintenance run | The ±10/20/30% verdict bands are labelled as this skill's screening convention, since no published standard sets them. |
 | Active fiscal incentives | 2026-10-23 | 2026-10-23 refresh wave | 2-year residence and 5-year holding exemptions and the reinvestment window checked against VMI and PwC; reinvestment timing detail in `--tax` |
 | `--amenities` | 2026-10-23 | 2026-10-23 refresh wave | Pointer only — `shared/amenities-osm.md` |
 | `--climate` | 2026-10-23 | 2026-10-23 refresh wave | Pointer only — `shared/climate-projections.md` |
 | Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | Cadastral template → NTR extract service; radon → RSC radon map; Vilnius city-tax URL follows its redirect; PwC, KPMG and flood-map URLs live (no figures in this table) |
+| `--tax` | 2026-10-23 | 2026-11-04 maintenance run | NTM bands, the €450,000 main-dwelling floor and the 0.1% default were re-read on the Seimas release of 26 Jun 2025 and the VMI NTM page, and the pre-2026 regime now shows its statutory bands (VMI, 2025 version); the 2025 €253,065 threshold stands on PwC's 2025 summary. The Registrų centras price list could not be read for verification on 2026-11-04, so its fee stays an estimate. |
+| `--rental` | 2026-10-23 | 2026-11-04 maintenance run | Go Vilnius confirms the €2 city tax, the long-stay exemption and Booking.com collection from 15 Jun 2026. The planned 1 Nov 2026 start of the Government draft on use of premises has passed with no adoption found as of 2026-11-04, so check e-tar.lt. |
+| `--work=<profession>` | 2026-11-04 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| `--mains` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| Cost benchmarks (LT 2026) | 2026-10-23 | 2026-11-04 maintenance run | EPC prices now come from private certifier price lists (2026, secondary), and the registration fee is marked as an estimate pending the Registrų centras price list. |
 
 ---
 

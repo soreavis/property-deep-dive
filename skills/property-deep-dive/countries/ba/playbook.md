@@ -31,7 +31,7 @@ ISO2: `ba`. Status: ✅ Fully populated (researched 2026-04).
 - **CBBH (Centralna banka BiH)**: `https://www.cbbh.ba/` — Financial Stability Reports
 - **Agencija za statistiku BiH (BHAS)**: `https://bhas.gov.ba/` — quarterly prices of new dwellings sold
 - **Entity statistics**: Federalni zavod za statistiku FBiH (`https://fzs.ba/`) + Republički zavod za statistiku RS (`https://www.rzs.rs.ba/`) — quarterly new-dwelling prices with Sarajevo / Banja Luka rows
-- **Registered-sale price registers**: FGU Registar cijena nekretnina, FBiH (`https://katastar.ba/rcn`, half-yearly and annual reports by municipality; resale contracts only, first sales excluded) + RGURS Registar cijena nepokretnosti, RS (`https://www.rgurs.org/sr-lat/stranica/reg-cijena-nepokretn`)
+- **Registered-sale price registers**: FGU Registar cijena nekretnina, FBiH (`https://katastar.ba/rcn`, half-yearly and annual reports by municipality; resale contracts only, first sales excluded; Geoportal RCN is open only to registered katastar.ba users, FGU notice of 6 May 2026) + RGURS Registar cijena nepokretnosti, RS (`https://www.rgurs.org/sr-lat/stranica/reg-cijena-nepokretn`)
 - **Global Property Guide**, **Investropa** — secondary aggregators
 
 ### Listing platforms
@@ -164,7 +164,7 @@ Basic personal allowances differ significantly across entities — FBiH **3,600 
 ### Future risk
 
 - EU accession reforms may align entities (slowly)
-- First-home VAT refund is state-level and already IN FORCE (8 Jul 2026) — the part still moving is the transitional claim window, which closes ~8 Jan 2027
+- First-home VAT refund is state-level and already IN FORCE (8 Jul 2026) — the part still moving is the transitional claim window, which closes ~8 Jan 2027 (computed: 6 months from the rulebook's entry into force on 8 Jul 2026, art. 105a(19)) (computed: 6 months from the rulebook's entry into force on 8 Jul 2026, art. 105a(19))
 
 ---
 
@@ -231,7 +231,7 @@ Basic personal allowances differ significantly across entities — FBiH **3,600 
 
 #### Earthquake
 
-- **27 Oct 1969 Banja Luka M6.6** (after an M5.6 foreshock on 26 Oct): **15 dead, 1,117 injured, 86,000 flats destroyed or heavily damaged** — the strongest quake recorded in BiH *(source RHMZ RS, "57 godina od katastrofalnog zemljotresa u Banjoj Luci", 2026)*
+- **27 Oct 1969 Banja Luka M6.6** (after an M5.6 foreshock on 26 Oct): **15 dead, 1,117 injured, 86,000 flats destroyed or heavily damaged** — the strongest quake recorded in BiH *(source RHMZ RS, "57 godina od katastrofalnog zemljotresa u Banjoj Luci", 2026)*. USGS ComCat (ISC-GEM catalogue) lists both the 26 Oct and the 27 Oct shocks at Mw 6.1: RHMZ RS reports 5.6 and 6.6 on the Richter scale, USGS moment magnitude, so the figures are on different scales, and RHMZ RS calls the 27 Oct shock far stronger while USGS rates the two equal; M6.6 stays here as the RHMZ RS figure. USGS ComCat (ISC-GEM catalogue) lists both the 26 Oct and the 27 Oct shocks at Mw 6.1: RHMZ RS reports 5.6 and 6.6 on the Richter scale, USGS moment magnitude, so the figures are on different scales, and RHMZ RS calls the 27 Oct shock far stronger while USGS rates the two equal; M6.6 stays here as the RHMZ RS figure
 - **Background activity**: about 3 instrument-only quakes a day (below Mercalli III), roughly ten a year felt or damaging; 1,084 quakes above M3.0 recorded since 1900 *(source FHMZ BiH — Seizmičnost teritorije BiH, page undated — rates/figures may have changed since)*
 - **Highest-hazard zones** over a 100-yr+ horizon: south-east Herzegovina (**Trebinje, Neum**), **Banja Luka**, **Treskavica** mountain (south of Sarajevo); regional faults include Bugojno, Višegrad, **Neretva** and Banja Luka, and quakes near Dubrovnik, Makarska, Knin and Montenegro also reach BiH *(source FHMZ BiH)* — south-east Herzegovina is among the highest-hazard zones, not a low one
 - **Site value**: BAS EN 1998-1/NA:2018 reference ground acceleration at `https://eurokodovi.ba/` (enter coordinates) — a zone value for the location, not an assessment of the building
@@ -254,7 +254,7 @@ Basic personal allowances differ significantly across entities — FBiH **3,600 
 
 - **Landslides**: Bosnian highlands — set off across the country in May 2014 and in the Oct 2024 Jablanica/Konjic event (above)
 - **Wildfires**: Herzegovina karst
-- **Air quality**: Sarajevo (basin temperature inversions) + Tuzla winter smog from household coal/wood heating; >90 % of Sarajevo Canton residents (391,406) live where the PM10 daily limit was exceeded at least 35 times *(source UNDP / Sarajevo Canton solid-fuel strategy executive summary, Jan 2025)*; ~3,300 premature deaths a year in BiH from PM2.5 *(source EEA, Europe's environment 2025)*
+- **Air quality**: Sarajevo (basin temperature inversions) + Tuzla winter smog from household coal/wood heating; >90 % of Sarajevo Canton residents (391,406) live where the PM10 daily limit was exceeded at least 35 times *(source UNDP / Sarajevo Canton solid-fuel strategy executive summary, Jan 2025)*; ~3,300 premature deaths a year in BiH from PM2.5 *(source World Bank, Air Pollution Management in Bosnia and Herzegovina, 2019, quoted in EEA, Europe's environment 2025) — rates/figures may have changed since*; the EEA's fact sheets give 4,783 attributable deaths in 2023 (95% CI 3,675–5,318) *(2023 data, source EEA, Air pollution country fact sheets 2025) — rates/figures may have changed since*. The ~3,300 is an older World Bank estimate, not an EEA series, so the gap is not a trend; use the dated 2023 one
 
 ### Build-era hazards
 
@@ -335,11 +335,11 @@ Basic personal allowances differ significantly across entities — FBiH **3,600 
 - **FBiH transfer tax up to 5 %** (cantonal; the buyer pays in some cantons, the seller in others) vs **RS entity and Brčko: NO transfer tax** — major divergence *(2026 data, PwC BA Corporate — other taxes + cantonal law texts)*
 - **CGT on a property sale**: FBiH and Brčko **10 %**, but not on the seller's own home or after a 3-year hold; RS entity **13 %**, not after a 7-year hold (see `--tax`)
 - **Mine contamination from Yugoslav Wars 1992-1995** — verify BHMAC for rural properties
-- **2014 floods** Sava + Bosna rivers (massive event)
+- **2014 floods** Sava + Bosna rivers (massive event); **Oct 2024** Jablanica/Konjic flash floods + landslides, 27 dead *(2024 data, source IFRC DREF final report MDRBA017) — rates/figures may have changed since*; **Oct 2024** Jablanica/Konjic flash floods + landslides, 27 dead *(2024 data, source IFRC DREF final report MDRBA017) — rates/figures may have changed since*
 - **EU candidate Dec 2022** — slow reform pace
 - **First-home VAT refund**: BiH state-level (covers FBiH + RS + Brčko) — **IN FORCE and claimable since 8 Jul 2026** (art. 54a ZPDV, Sl. glasnik BiH 20/25; UINO rulebook art. 105a, Sl. glasnik BiH 45/26); 40 m² + 15 m² per family-household member at 17 % VAT, capped; **restricted to adult BiH citizens with permanent BiH residence — a foreign buyer cannot claim it** *(not "FBiH House" — state-level under uino.gov.ba; 2026-08-07 verified)*
 - **EU Reform Agenda** adopted by the BiH Council of Ministers 30 Sep 2025, approved by the European Commission 4 Dec 2025 (see Active fiscal incentives)
-- **Banja Luka 1969** earthquake reference (M6.6)
+- **Banja Luka 1969** earthquake reference (6.6 Richter per RHMZ RS; Mw 6.1 per USGS ComCat)
 - **Mostar UNESCO** Old Bridge area = strict construction
 - **Foreign-buyer regime is RECIPROCITY-BASED** under **Zakon o stvarnim pravima FBiH (Sl. novine FBiH 66/13, 100/13, 32/19 — Constitutional Court decision)** art. 15 + RS counterpart. Reciprocity is **presumed**; the Federal Ministry of Justice publishes the list of countries **without** reciprocity by **31 January** each year (art. 15(2)). Its list of 27 Jul 2023 and supplement of 10 Nov 2023 mark e.g. **Switzerland, Lithuania**, Kuwait, Qatar, China, Sri Lanka and the UAE as no-reciprocity (no 2026 list found — rates/figures may have changed since). A person **born in BiH, or a descendant** of one, is not treated as a foreign person (art. 15(3)). **Agricultural land is barred** to foreign natural and legal persons unless a treaty says otherwise (art. 7 Zakon o poljoprivrednom zemljištu FBiH, Sl. novine FBiH 52/09) but can be inherited (art. 99); areas designated by law under art. 16 are barred too. **Inheritance** of other real estate is outside the reciprocity test (art. 15(2)). In Brčko the reciprocity list is published by the Pravosudna komisija BD. **Workaround**: incorporate a BA **d.o.o.** (domestic legal entity, not subject to reciprocity test) *(2026 data, sources: law texts on paragraf.ba + mpsv-hnz-k.ba, FMP reciprocity list of 27 Jul 2023 + 10 Nov 2023 supplement on fmp.gov.ba, BD property law on skupstinabd.ba; d.o.o. route per DLA Piper REALWORLD + Multilaw)*
 - **Sarajevo Stari Grad** UNESCO buffer
@@ -385,6 +385,8 @@ Basic personal allowances differ significantly across entities — FBiH **3,600 
 
 ## Status
 
+✅ Fast-changing sections re-verified as of 2026-10-23; each section's date is in the Per-section verification table.
+
 ✅ **Fully populated** as of 2026-04-26.
 **Coverage check**: pricing (BHAS / FZS / RZS RS new-dwelling prices + FGU registered sales, Q2 / H1 2026), traffic (JP Ceste FBiH 2025 counts; entity road operators), tax (DUAL ENTITY: FBiH cantonal property tax, BAM 0.5–3/m² range per PwC + cantonal transfer tax up to 5 % + 17 % VAT first-sale + 10 % CGT, not on the owner's home or after a 3-year hold; RS entity property tax up to 0.20 % of assessed market value + no transfer tax + 17 % VAT + 13 % CGT), rental (entity-specific), work (entity-specific), risks (Banja Luka 1969 + 2014 Sava+Bosna floods + BHMAC mine contamination + war-damage), mains.
 **Last verified**: 2026-08-07 (`--tax` first-home VAT refund re-verified — in force 8 Jul 2026, foreign buyers ineligible; balance of the 2026-05-27 sweep unchanged). Tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
@@ -394,9 +396,14 @@ Basic personal allowances differ significantly across entities — FBiH **3,600 
 
 | Section | Last verified | Verifier | Notes |
 |---|---|---|---|
-| `--price` | 2026-10-23 | 2026-10-23 refresh wave | Benchmark table rebuilt from BHAS Q2 2026, FZS Q2 2026, RZS RS Q2 2026 and FGU RCN H1 2026 releases (GPG figures superseded; Bijeljina row secondary); entity statistics offices and the FBiH / RS price registers added; Sasomange.ba and Pojdimo.ba ❌ DEPRECATED; Investropa not checked |
-| `--work` | 2026-10-23 | 2026-10-23 refresh wave | 2026 minimum wages (FBiH flat, RS tiered by required education), PDV threshold BAM 50,000 → 100,000 (since 2 Dec 2023), d.o.o. capital set per entity, 2026 average wages from the statistics offices replace the unsourced medians; employment-service names corrected; Posao.ba ❌ DEPRECATED; LinkedIn BA not checked |
+| `--price` | 2026-10-23 | 2026-11-04 maintenance run | Pricing on usable area (korisna površina) matches how the BHAS new-dwelling releases and the FGU RCN report state area. The FGU register entry now notes that Geoportal RCN is open only to registered katastar.ba users. |
+| `--work=<profession>` | 2026-10-23 | 2026-11-04 maintenance run | Banja Luka and Bijeljina wages (RZS RS, Gradovi i opštine 2025, 2024 data) and the BiH Q2 2026 net wage (BHAS release of 18 Aug 2026) were confirmed; no newer edition of either was found on 2026-11-04. |
 | Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave | OLX.ba renamed PIK.ba (still served at olx.ba); Nađi stan and Realitica added; Sasomange.ba and Pojdimo.ba ❌ DEPRECATED; dominance rests on PIK.ba's own unaudited figures |
+| `--tax` | 2026-10-23 | 2026-11-04 maintenance run | The 17 % VAT rate, the art. 54a first-home refund (adoption dates, eligibility, conditions, deadlines) and the income tax rates by entity were confirmed against the Sl. glasnik BiH 20/25 and 45/26 texts on uino.gov.ba, the ZPDV consolidated text and the FBiH, RS and Brčko income tax laws. No rate changed; the ~8 Jan 2027 closing date is now shown as computed from the rulebook. |
+| `--rental` | 2026-11-04 | 2026-11-04 maintenance run | Resident rental tax rates (FBiH 10 %, RS 13 % after 20 % normed costs, Brčko 10 %) were confirmed against the FBiH, RS and Brčko income tax law texts. |
+| `--risks` | 2026-10-23 | 2026-11-04 maintenance run | The 1992-1995 mine legacy was confirmed against BiH's Convention on Cluster Munitions extension request and the BHMAC Mine Action Strategy, and the Sarajevo Canton air figures against UNDP. The EEA's dated 2023 figure of 4,783 PM2.5 deaths now stands beside its undated ~3,300, and USGS Mw 6.1 beside the RHMZ RS 6.6 Richter reading for Banja Luka 1969. |
+| `--mains` | 2026-11-04 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| Cost benchmarks (BA 2026) | 2026-10-23 | 2026-11-04 maintenance run | The 0 % RS entity transfer tax was confirmed against PwC BA Corporate — other taxes (last reviewed 23 Sep 2026), a secondary source. |
 
 ## Extension TODOs
 
@@ -425,3 +432,4 @@ Basic personal allowances differ significantly across entities — FBiH **3,600 
   - Main changes: official BHAS / FZS / RZS RS Q2 2026 and FGU RCN H1 2026 price table replaces the GPG figures; OLX.ba → PIK.ba, with Sasomange.ba, Pojdimo.ba, Posao.ba and Banja Luka News ❌ DEPRECATED; 2026 minimum wages, PDV threshold BAM 100,000, d.o.o. capital per entity and 2026 average wages; euro-peg history, katastar.ba geoportal login and EU accession-negotiation status; FBiH CGT 10 % from the statute (the "not taxable" reading superseded), Brčko CGT 10 % and the RS holding-period exemption; no FBiH-wide property tax (Sarajevo Canton law minimums), RS property tax up to 0.20 %; FBiH transfer tax up to 5 % with the payer by canton; notary fees and buyer-side totals computed from the FBiH and RS tariffs; VAT-refund cap computed with the BHAS Q2 2026 average; IPA III and Reform Agenda status; reciprocity line rebuilt from the law texts and the FMP list; road operators renamed and the traffic bands calibrated on JP Ceste FBiH 2025 counts; 1969 Banja Luka quake toll 15 (not ~20) and south-east Herzegovina corrected to one of the highest seismic-hazard zones; 2014 recovery-needs figures and the Oct 2024 floods; BHMAC suspected hazardous area 774.69 km² (Jan 2026); notarial form optional in FBiH since U-15/10; energy-certificate duty per entity; FBiH title at the municipal-court gruntovnica
   - Follow-up consistency fixes: Status coverage and Confidence lines and four Extension TODOs (cantonal transfer tax, FBiH property tax, RS property tax, CGT) aligned with `--tax`
   - Not re-verified: postcodes, RGURS unit counts, the official-language line, fgu.com.ba reachability, Investropa, the Brčko rental rate and short-let lines, LinkedIn BA, the Reddit communities, land-register / cadastre fees, the transfer-tax rate and payer in six cantons, the art. 67 ZPDV fine, the 🔴 traffic examples, the est. work and mains cost rows, the demining-certificate and Brčko notarial-form rows, the Općina and Poreska uprava authority rows
+- **2026-11-04** — Maintenance run: closed `--price`, `--tax`, `--rental`, `--work=<profession>`, `--risks`, `--mains`, Cost benchmarks (BA 2026). Playbook-level date now 2026-10-23.

@@ -8,7 +8,7 @@
 
 ## Country profile
 
-Latvia is the middle Baltic state (1.845M pop at the start of 2026; 2026 data, source CSP). **Cadastre and Land Book are SEPARATE registers** (unlike Lithuania's unified Registrų centras) — VZD = physical/fiscal description; Zemesgrāmata = legal title. Both must be checked. Riga apartment €/m² is structurally lower than Vilnius — slower post-2008 recovery + supply mix dominated by Soviet "khrushchyovkas". Riga standard-type (Soviet-series) apartments averaged €978/m² asking in Sep 2026, still ~40% below the 1 Sep 2007 peak of €1,620/m² (2026 data, source Arco Real Estate). No like-for-like Vilnius figure verified — compare the same segment at Ober-Haus / Registrų centras. Critical Latvia-specific gotcha: **compulsory land lease (dalītais īpašums)** — many Soviet-era blocks in Riga have apartments owned separately from underlying land (often pre-1940 owner via restitution). EU + eurozone + Schengen. Major 2025 reform (in force 1 Jan 2025, rates unchanged for 2026): PIT to 25.5%/33% + capital-income to 25.5% (was 20%) (2026 data, source VID).
+Latvia is the middle Baltic state (1.845M pop at the start of 2026; 2026 data, source CSP). **Cadastre and Land Book are SEPARATE registers** (unlike Lithuania's unified Registrų centras) — VZD = physical/fiscal description; Zemesgrāmata = legal title. Both must be checked. Riga apartment €/m² is structurally lower than Vilnius — slower post-2008 recovery + supply mix dominated by Soviet "khrushchyovkas". Riga standard-type (Soviet-series) apartments averaged €978/m² (asking-vs-transaction basis not stated) in Sep 2026, still ~40% below the 1 Sep 2007 peak of €1,620/m² (2026 data, source Arco Real Estate). No like-for-like Vilnius figure verified — compare the same segment at Ober-Haus / Registrų centras. Critical Latvia-specific gotcha: **compulsory land lease (dalītais īpašums)** — many Soviet-era blocks in Riga have apartments owned separately from underlying land (often pre-1940 owner via restitution). EU + eurozone + Schengen. Major 2025 reform (in force 1 Jan 2025, rates unchanged for 2026): PIT to 25.5%/33% + capital-income to 25.5% (was 20%) (2026 data, source VID).
 
 ---
 
@@ -40,7 +40,7 @@ Latvia is the middle Baltic state (1.845M pop at the start of 2026; 2026 data, s
 | Varianti | https://www.varianti.lv/ | Real-estate classifieds portal (agency + private listings, new-projects directory) |
 | Realto | https://www.realto.lv/ | Owner-operator site — leases/sells its own commercial property (13 business quarters); not a residential aggregator |
 
-**Verdict bands**:
+**Verdict bands** (est.: this skill's screening heuristic, not a published statistic or legal threshold; calibrate each deal on like-for-like local comparables):
 - 🟢 within ±10% of CSP/local-segment €/m²
 - 🟡 ±20%, possibly compulsory-land-lease (dalītais īpašums) discount
 - 🟠 ±30%, investigate land-ownership / encumbrance
@@ -66,9 +66,9 @@ Latvia is the middle Baltic state (1.845M pop at the start of 2026; 2026 data, s
 - **Gift**: 3%, same cap (pt 5.3); **close relatives** (children, spouses, parents, siblings, grandchildren, grandparents and others listed in pt 6): 0.5%, same cap, for a purchase or gift
 - **Buyers supported by state housing aid** (mortgage with a lender's confirmation of state support for a person raising at least one child or expecting one): 0.5% of value up to €100,000, then €500 + 1.5% of the excess (pts 7.1–7.2) (2026 data, source likumi.lv)
 - Plus Land Book office fees (kancelejas nodeva): €15 per person for registering the new ownership right (90% of that when filed electronically) + €8 for a Land Book certificate (Zemesgrāmatu likums Art. 107, version in force 1 Jan 2022; 2026 data, source likumi.lv)
-- **Notary fee** for purchase contract: **€117–€272** (modest — far cheaper than LT's % notary fee)
+- **Notary fee** for a notarial purchase deed: **0.5% of the deal sum, minimum €140**, plus VAT; the tariff includes filing the right at the Land Book (Cabinet Regulation No. 737 pts 5–6, as amended by Regulation No. 200 of 14 Apr 2026; 2026 data, source likumi.lv). https://likumi.lv/ta/id/259604-noteikumi-par-zverinatu-notaru-atlidzibas-taksem-un-to-noteiksanas-kartibu
 
-**Total round-trip cost**: ~1.7–2.2% individual buyer
+**Total acquisition cost, individual buyer**: ≈2.1% with a notarial deed (computed for a €100,000 deal: €1,500 + €605 + €23 = €2,128, where duty is 1.5%, the notary €500 × 1.21 = €605 with 21% VAT and office fees €15 + €8 = €23; legal, agent and mortgage costs excluded)
 
 Sources:
 - State fee: https://likumi.lv/ta/id/200087-noteikumi-par-valsts-nodevu-par-ipasuma-tiesibu-un-kilas-tiesibu-nostiprinasanu-zemesgramata
@@ -80,7 +80,7 @@ Sources:
 - **Default rate**: **1.5%** of cadastral value for land, buildings and engineering structures where the municipality has not set its own rate; municipal rate rules are published by 1 November of the preceding year (law "Par nekustamā īpašuma nodokli" Art. 3; 2026 data, source likumi.lv + VID)
 - **Residential buildings**: progressive **0.2% / 0.4% / 0.6%** of cadastral value
   - Statutory default brackets: 0.2% up to €56,915, 0.4% on the part €56,915–€106,715, 0.6% above €106,715 (law Art. 3(1)(2); 2026 data, source likumi.lv)
-  - Municipalities have flexibility 0.2%–3.0% within statutory band
+  - Municipalities may set rates of 0.2%–3.0% within the statutory band, and a rate above 1.5% only where the property is not maintained as the rules require (law Art. 3(1); 2026 data, source likumi.lv)
 - Local councils set actual rates in binding regulations. **Riga**: 0.2% up to €57,000, 0.4% on the part €57,000–€107,000, 0.6% above €107,000 for an apartment or single-dwelling house not used for business — only if on 1 January (00:00) of the tax year at least one person who is a Latvian citizen or non-citizen, an EU/EEA/Swiss citizen or a Latvian permanent-residence-permit holder has declared residence there; otherwise **1.5%** for the whole year (a declaration by a non-EU temporary-residence-permit holder alone does not qualify). Companies get the reduced rate only for a dwelling let for living with the lease registered in the Land Book. **3%** for degrading, collapsed or unsafe buildings, unmaintained land or property, and construction past its legal time limit (Riga Council binding regulations No. 148, version in force 1 Jun 2023, source likumi.lv; reduced-rate rule confirmed for 2026 by the Riga Finance Department, 16 Dec 2025)
 
 **2025 cadastral value reform**: since 1 Jan 2025 two cadastral values exist — **fiscal** (used for taxes incl. NĪN, state fees and other payments to the state or municipal budget, except the fee for statutory land use; calculated on the 2024 cadastral-value base, which reflects 2012 market data) and **universal** (2022 market level from transactions between 2012 and mid-2022, capped at 80% of the average price level on 1 Jul 2022; used for ground rent under forced divided ownership and other non-fiscal purposes such as accounting). Tax still uses fiscal value, so NĪN remains low relative to actual prices (Cadastre Law transitional pts 43.1–43.3, 2026 data, source likumi.lv; 2012 market basis per Ministry of Justice, 22 Nov 2024; fiscal value still the NĪN base in 2026 per kadastra.lv, Jul 2026 — secondary).
@@ -111,7 +111,7 @@ Sources: https://www.vid.gov.lv/lv/ienakuma-nodoklis-no-kapitala-pieauguma + htt
 - **Standard 21%** (2026 data, source VID VAT-rates page, updated 30 Sep 2026)
 - **Unused property (nelietots nekustamais īpašums, VAT Law Art. 1(12))**: a new or renovated building not used since commissioning, or used and first sold within 1 year of commissioning, or not yet commissioned — 21% VAT, charged together with the land under it; building land (apbūves zeme) is also taxable (VID)
 - Resale of "used" buildings: VAT-exempt (VAT Law Art. 52(1)(24)); the option to charge VAT exists only where a registered VAT payer sells to a registered VAT payer (Art. 144(1)) (VID)
-- 12% reduced rate does NOT apply to property
+- 12% reduced rate does NOT apply to property sales; it does apply to accommodation services in tourist accommodation, which matters for VAT-registered short-let hosts (VAT Law Art. 42(10); 2026 data, source VID VAT-rates page, updated 30 Sep 2026) sales; it does apply to accommodation services in tourist accommodation, which matters for VAT-registered short-let hosts (VAT Law Art. 42(10); 2026 data, source VID VAT-rates page, updated 30 Sep 2026)
 
 ---
 
@@ -192,7 +192,7 @@ Riga financial-services hub (post-2018 ABLV scandal still recovering — ECB dec
 
 ### District heating
 
-Dominant in cities (Riga, Daugavpils, Liepāja, Jelgava). **Rīgas siltums (RS)**: https://rs.lv/ (updated 2026-10-23)
+In Riga 76% of apartment buildings are connected to district heating, according to a reply in the Riga Energy Agency's REK2030 consultation report (consultation 22 Nov 2021–20 Jan 2022). The reply gives no data year or base, so reading it as Riga's whole apartment stock is an inference — rates/figures may have changed since. https://rea.riga.lv/wp-content/uploads/2024/03/bdf163da5b991590d5a806b580470c3204d0061b.pdf SPRK-regulated operators also serve Daugavpils (Daugavpils siltumtīkli), Liepāja (Liepājas enerģija) and Jelgava (Gren Jelgava); no share verified for those cities (2026 data, source SPRK tariff decisions for May and September 2026). https://www.sprk.gov.lv/events/maija-siltumenergijas-tarifu-izmainas-apstiprinatas-deviniem-regulejamiem-komersantiem https://www.sprk.gov.lv/lv/jaunums/septembri-siltumenergijas-tarifu-izmainas-apstiprinatas-divpadsmit-regulejamiem-komersantiem **Rīgas siltums (RS)**: https://rs.lv/ (updated 2026-10-23)
 
 **EIB programme**: 4-year €135M rehabilitation of Riga DH network (€47M EIB finance; signed 15 Apr 2026) (2026 data, source EIB). https://www.eib.org/en/projects/all/20240344
 
@@ -229,17 +229,17 @@ Universal — see `shared/climate-projections.md`.
 
 ---
 
-## Cost benchmarks (Apr 2026)
+## Cost benchmarks (Nov 2026)
 
 | Item | Range / typical |
 |---|---|
-| Riga apt €/m² (standard segment) | €978 asking (Sep 2026, Arco Real Estate — agency data, secondary) |
+| Riga apt €/m² (standard segment) | €978 average, asking-vs-transaction basis not stated (Sep 2026, Arco Real Estate — agency data, secondary) |
 | Riga centre €/m² (2025 transactions) | €1,874 avg; top deal almost €6,000 (Arco) |
 | Stamp duty (individual) | 1.5% of the higher of price or cadastral value (cap €50k; 2026 data, source likumi.lv) |
-| Notary fee | €117–€272 |
-| Total acquisition costs | ~1.7–2.2% |
+| Notary fee | 0.5% of the deal sum, min €140, plus VAT, for a notarial deed (2026 data, source likumi.lv) |
+| Total acquisition costs | ≈2.1% with a notarial deed (computed in `--tax`: €2,128 on a €100,000 deal) |
 | Annual NĪN (residential) | 0.2–0.6% of fiscal cadastral value (Riga, qualifying declared resident on 1 Jan; otherwise 1.5%) |
-| EPC certificate | ~€280+ |
+| EPC certificate | ~€280–380 est. for an independent expert's conclusion on a certificate (BAU Fonds temporary-certificate page, undated); ~€300–1,500 est. for a multi-apartment building (2026 data, source Alteko blog, 23 Jun 2026). Provider prices, not an official tariff: the quote depends on building size, location and complexity |
 
 ---
 
@@ -312,7 +312,9 @@ Universal — see `shared/climate-projections.md`.
 
 ## Status
 
-**Confidence**: HIGH for the `--tax` statutory rules re-checked on primary sources on 2026-10-23 (stamp duty 1.5% / 2% with the €50,000 cap plus the gift, close-relative and housing-aid rates, Land Book office fees, the NĪN default rate, statutory brackets and Riga's declared-residence condition, the 2025 fiscal / universal cadastral-value split, PIT 25.5% / 33% + 3%, CGT 25.5% and the 60-month + 12-month exemption, the 10% rental route, VAT — likumi.lv, VID, Ministry of Justice); for the foreign-buyer statutes (land-acquisition consent rules, the RU/BY acquisition ban in force 3 Jul 2025, and the investor-permit real-estate route ENDED 15 Sep 2026 under the new Immigration Law — PMLP, likumi.lv id 370622); for the cadastre + Land Book separation and the forced-divided-ownership buyout law (likumi.lv); and for the `--work` wages (CSP Q2 2026), `--mains` (SPRK tariff, State Audit Office, EIB, ENTSO-E), `--crime` (CSP NOR023) and `--traffic` (LVC) sources. MEDIUM for `--price` (CSP Q2 2026 HPI, BIS/FRED and the Latvijas Banka Financial Stability Report 2026 are primary; the Riga €/m² figures are Arco Real Estate agency data; the SS.lv ranking, the City24 description and the Jūrmala premium line are unverified), `--rental` (the VID 10% route, the 2026 Tourism Law amendments, the opt-in status of Regulation (EU) 2024/1028 and the Riga tourist fee are primary-sourced; rents are agency data; Riga's no-ban / licensing / zoning line and whether the 10% route covers short lets are unverified), `--risks` (flood, seismic, fire-map, EPC and radon rules re-sourced; the LT forest-fire comparison, the pre-sale radon-test line and the asbestos line are unverified) and the lines carried from the initial population without re-verification (RU/BY disposal scrutiny, the LT comparison, defence-area permits, the restitution completion year, the UNESCO year, NKMP approval and the qualitative `--mains` lines). LOW for the notary fee (€117–€272), the ~1.7–2.2% acquisition-cost total, the EPC ~€280+ row (no source fetched) and per-locality rental yield benchmarks. Regulatory-watch LV entries (PIT reform, RU/BY ban, investor permit) last re-checked 2026-10-21 (see shared/regulatory-watch.md).
+✅ Fast-changing sections re-verified as of 2026-10-23; each section's date is in the Per-section verification table.
+
+**Confidence**: HIGH for the `--tax` statutory rules re-checked on primary sources on 2026-10-23 (stamp duty 1.5% / 2% with the €50,000 cap plus the gift, close-relative and housing-aid rates, Land Book office fees, the NĪN default rate, statutory brackets and Riga's declared-residence condition, the 2025 fiscal / universal cadastral-value split, PIT 25.5% / 33% + 3%, CGT 25.5% and the 60-month + 12-month exemption, the 10% rental route, VAT — likumi.lv, VID, Ministry of Justice); for the foreign-buyer statutes (land-acquisition consent rules, the RU/BY acquisition ban in force 3 Jul 2025, and the investor-permit real-estate route ENDED 15 Sep 2026 under the new Immigration Law — PMLP, likumi.lv id 370622); for the cadastre + Land Book separation and the forced-divided-ownership buyout law (likumi.lv); and for the `--work` wages (CSP Q2 2026), `--mains` (SPRK tariff, State Audit Office, EIB, ENTSO-E), `--crime` (CSP NOR023) and `--traffic` (LVC) sources. MEDIUM for `--price` (CSP Q2 2026 HPI, BIS/FRED and the Latvijas Banka Financial Stability Report 2026 are primary; the Riga €/m² figures are Arco Real Estate agency data; the SS.lv ranking, the City24 description and the Jūrmala premium line are unverified), `--rental` (the VID 10% route, the 2026 Tourism Law amendments, the opt-in status of Regulation (EU) 2024/1028 and the Riga tourist fee are primary-sourced; rents are agency data; Riga's no-ban / licensing / zoning line and whether the 10% route covers short lets are unverified), `--risks` (flood, seismic, fire-map, EPC and radon rules re-sourced; the LT forest-fire comparison, the pre-sale radon-test line and the asbestos line are unverified) and the lines carried from the initial population without re-verification (RU/BY disposal scrutiny, the LT comparison, defence-area permits, the restitution completion year, the UNESCO year, NKMP approval and the qualitative `--mains` lines). HIGH for the notary tariff (0.5%, minimum €140, plus VAT; likumi.lv). LOW for the EPC price row (provider prices only, no official tariff) and per-locality rental yield benchmarks. Regulatory-watch LV entries (PIT reform, RU/BY ban, investor permit) last re-checked 2026-10-21 (see shared/regulatory-watch.md).
 
 **Update history**:
 - 2026-04-26: full population (Batch 3 of skill expansion)
@@ -322,6 +324,7 @@ Universal — see `shared/climate-projections.md`.
   - Refreshed, not re-verified: `--price` 12 / 3 / 2 (Listings table 2 / 1 / 2); `--tax` 11 / 7 / 2; `--rental` 9 / 3 / 2; `--risks` 11 / 2 / 3; Cost benchmarks: price rows 2 / 0 / 0, tax rows 2 / 1 / 4; Foreign-buyer rules 6 / 0 / 3; Country-specific quirks 2 / 0 / 3. The playbook has no Reddit / forum section
   - Main changes: CSP Q2 2026 HPI, BIS/FRED Q1 2026 and the Latvijas Banka Financial Stability Report 2026 replace the Q4 2025 Trading Economics figure and the "Real Estate Market Surveillance Reports" (no publication of that name found); Riga standard segment ~€865 → €978/m² (Arco, Sep 2026) and Arco 2025 centre and new-project figures added; Realto and Varianti rows corrected; unsourced Vilnius comparison removed; stamp-duty base restated and the gift, close-relative and housing-aid rates added (Cabinet Reg. No. 1250); Land Book certificate fee €7 → €8; NĪN default rate and Riga's declared-residence condition (otherwise 1.5%); CGT exemption counted from Land Book registration, with ≥12 consecutive months of declared residence; the 10% rental route allows no expense deduction except NĪN (was "deduction-allowed"); VAT unused-property rule; Tourism Law amendments in force 10 Jul 2026; Regulation (EU) 2024/1028 described as opt-in and applying since 20 May 2026 (was "mandatory by May 2026"); Riga tourist fee €0.89 + VAT capped at €8.90 (was €1 / €10), €1.78 + VAT from 1 Jan 2027; RU/BY acquisition ban restated from the 2025 national-security statute (was "post-2022 sanctions"); investor-permit real-estate route ENDED 15 Sep 2026 under the new Immigration Law, unsourced approval counts dropped; forced-divided-ownership law cited (likumi.lv 328166); flood figures from LVĢMC SPRN 2025 and PRIS; seismic "negligible" → low, with a peer-reviewed source; VMD fire-danger map; EPC apartment rule; radon reference level 200 → 300 Bq/m³; Rīgas siltums tariff and the State Audit Office 2026 finding; Elektrum brand; BRELL synchronisation 9 Feb 2025 (was 8 Feb); Mobills.lv ❌ DEPRECATED; CSP crime table NOR023
   - Status: Confidence recomputed, with the investor-permit limb (audit); per-section verification table added; Extension TODOs STR line reworded to the opt-in status (audit, re-checked 2026-11-03)
+- **2026-11-04** — Maintenance run: closed `--price`, `--tax`, `--rental`, `--work=<profession>`, `--risks`, `--mains`, Cost benchmarks (Nov 2026). Playbook-level date now 2026-10-23.
 
 ### Per-section verification (overrides playbook-level date)
 
@@ -329,27 +332,26 @@ Universal — see `shared/climate-projections.md`.
 |---|---|---|---|
 | Country profile | 2026-10-23 | 2026-10-23 refresh wave | 2 changed, 2 confirmed, 1 unverifiable; CSP 2026 population, Arco Sep 2026 Riga standard segment, VID 2026 rates; unsourced Vilnius comparison removed |
 | `--traffic` | 2026-10-23 | 2026-10-23 refresh wave | 2 changed, 1 confirmed; LVC traffic map added; Mobills.lv ❌ DEPRECATED; Waze and OSM not re-checked |
-| `--work` | 2026-10-23 | 2026-10-23 refresh wave | 2 changed, 1 confirmed, 1 unverifiable ("remote/hybrid common"); CSP Q2 2026 wages; ABLV 2018 per ECB |
-| `--mains` | 2026-10-23 | 2026-10-23 refresh wave | 6 changed, 7 confirmed, 4 unverifiable (qualitative: Land Book subordination, Lursoft pricing, DH dominance, rural well + septic); SPRK tariff, State Audit Office 2026, Elektrum brand, BRELL dates |
+| `--work=<profession>` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| `--mains` | 2026-10-23 | 2026-11-04 maintenance run | The district-heating line now rests on a Riga Energy Agency figure (76% of apartment buildings, 2022) and 2026 SPRK tariff decisions naming the regulated operators in Daugavpils, Liepāja and Jelgava. No comparable share was verified for those three cities. |
 | `--crime` | 2026-10-23 | 2026-10-23 refresh wave | 1 changed, 1 confirmed; CSP table NOR023 (municipality level) |
 | `--amenities` | 2026-10-23 | 2026-10-23 refresh wave | Pointer to `shared/amenities-osm.md` confirmed |
 | `--climate` | 2026-10-23 | 2026-10-23 refresh wave | Pointer to `shared/climate-projections.md` confirmed |
 | Active fiscal incentives | 2026-10-23 | 2026-10-23 refresh wave | 2 changed, 1 confirmed; CGT exemption, 10% rental route and fiscal cadastral value per VID and the Ministry of Justice |
 | Verification authorities | 2026-10-23 | 2026-10-23 refresh wave | 1 changed, 7 confirmed; LVĢMC URL replaced; SPRK row added |
 | Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | 2 changed, 5 confirmed; flood maps moved to PRIS; EPC-law and RU/BY-statute rows added |
-| `--price` | 2026-04-26 | initial population | Refreshed 2026-10-23 (12 changed, 3 confirmed, 2 unverifiable), not re-verified: SS.lv ranking, City24 description, Jūrmala premium line |
-| `--tax` | 2026-04-26 | initial population | Refreshed 2026-10-23 (11 changed, 7 confirmed, 2 unverifiable), not re-verified: notary fee, ~1.7–2.2% acquisition-cost total |
-| `--rental` | 2026-04-26 | initial population | Refreshed 2026-10-23 (9 changed, 3 confirmed, 2 unverifiable), not re-verified: Riga no-ban / licensing / zoning line, 10% route for short lets |
-| `--risks` | 2026-04-26 | initial population | Refreshed 2026-10-23 (11 changed, 2 confirmed, 3 unverifiable), not re-verified: LT forest-fire comparison, pre-sale radon test, asbestos line |
+| `--price` | 2026-10-23 | 2026-11-04 maintenance run | Arco Real Estate's Sep 2026 standard-type apartment prices were re-confirmed on its market review. The verdict bands are labelled as this skill's screening heuristic, not a published statistic. |
+| `--tax` | 2026-10-23 | 2026-11-04 maintenance run | The notary tariff is corrected to 0.5% of the deal sum, minimum €140, plus VAT (Cabinet Regulation No. 737, likumi.lv), which puts a notarial-deed purchase at ≈2.1% in total. PIT, capital-gains and reduced-VAT rules were re-confirmed on VID pages and the NĪN municipal rate band on likumi.lv. |
+| `--rental` | 2026-10-23 | 2026-11-04 maintenance run | The 2025 rent figures were re-confirmed on Arco Real Estate's rental market review (agency tier), including the €938/month average and the new-project €/m² ranges. |
+| `--risks` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
 | Foreign-buyer rules | 2026-04-26 | initial population | Refreshed 2026-10-23 (6 changed, 3 unverifiable); investor-permit real-estate route ENDED 15 Sep 2026 per PMLP + likumi.lv; not re-verified: RU/BY disposal scrutiny, LT comparison, defence-area permits |
 | Country-specific quirks | 2026-04-26 | initial population | Refreshed 2026-10-23 (2 changed, 3 unverifiable), not re-verified: restitution completion year, UNESCO year, NKMP approval rule |
-| Cost benchmarks | 2026-04-26 | initial population | Price, stamp-duty and NĪN rows refreshed 2026-10-23; notary fee, acquisition-cost total and EPC rows unsourced |
+| Cost benchmarks (Nov 2026) | 2026-10-23 | 2026-11-04 maintenance run | Notary and total-cost rows now follow the likumi.lv tariffs and a computed €100,000 example. The EPC row shows provider prices (BAU Fonds, Alteko) because no official tariff was found, and the Riga €978/m² row states that Arco Real Estate does not give its price basis. |
 
 ---
 
 ## Extension TODOs
 
-- Riga municipal NĪN brackets exact 2025 lookup
 - National STR register — Regulation (EU) 2024/1028 has applied since 20 May 2026 in opt-in/opt-out mode, so Member States are not obliged to set one up (European Commission, 20 May 2026); the Tourism Law amendments in force 10 Jul 2026 add none (likumi.lv id 369280). Track any Latvian register, implementing act or single digital entry point (see `--rental`)
 - Compulsory-land-lease (dalītais īpašums) buyout calculator pattern
 - LV/LT/EE Baltic comparison primer

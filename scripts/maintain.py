@@ -141,7 +141,7 @@ def apply_items(items: list[dict]) -> tuple[int, list[dict]]:
     cache: dict[Path, str] = {}
     applied, conflicts = 0, []
     for it in items:
-        rel = re.sub(r"^.*?(skills/property-deep-dive/)", r"\1", it["file"])
+        rel = re.sub(r"^.*?((?:skills/property-deep-dive|config)/)", r"\1", it["file"])
         if rel.startswith("/") or ".." in rel.split("/"):
             sys.exit(f"refusing path outside the repo: {it['file']}")
         p = ROOT / rel
@@ -263,7 +263,7 @@ def restatements(items: list[dict], text: str) -> list[dict]:
     for it in items:
         gone = numbers(it["old"]) - numbers(it["new"])
         anchors = set(ANCHOR.findall(it["old"]))
-        forms = {f for n in gone if n >= 1000 for f in roundings(n)}
+        forms = {f for n in gone if n >= 1000 and not 1900 <= n <= 2100 for f in roundings(n)}  # a year is no figure
         for line in text.splitlines():
             if forms & numbers(line) and anchors & set(ANCHOR.findall(line)) and line not in it["new"]:
                 found.append({"file": it["file"], "replaced": sorted(gone), "line": line.strip()})
@@ -326,17 +326,29 @@ def hold_ungrounded(res: dict, items: list[dict]) -> tuple[list[dict], list[dict
     return kept, held
 
 
-def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
+def apply_result(result: Path) -> dict:
+    """Hold, apply and report the settled patches of a workflow result; returns the result."""
     res = json.loads(result.read_text())
     res = res.get("result", res)
     items = [i for p in res["playbooks"] for c in p["clusters"] for i in c["items"] if i.get("status") != "DROP"]
     items, held = hold_ungrounded(res, items)
-    (result.parent / "held.json").write_text(json.dumps(held, ensure_ascii=False, indent=1))
-    print(f"held {len(held)} patch(es) with figures no evidence page shows (→ {result.parent / 'held.json'})")
     applied, conflicts = apply_items(items)
+    (result.parent / "held.json").write_text(json.dumps(held, ensure_ascii=False, indent=1))
     (result.parent / "conflicts.json").write_text(json.dumps(conflicts, ensure_ascii=False, indent=1))
-    print(f"applied {applied}, conflicts {len(conflicts)} (→ {result.parent / 'conflicts.json'})")
-    report_audit(items, plan_dir)
+    print(f"applied {applied}, held {len(held)}, conflicts {len(conflicts)} (→ {result.parent})")
+    res["applied_items"] = items
+    return res
+
+
+def cmd_apply_shared(result: Path) -> int:
+    """Settled patches to shared files, from batches of pdd-maintain.js: no footers, no ledger."""
+    apply_result(result)
+    return 0
+
+
+def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
+    res = apply_result(result)
+    report_audit(res["applied_items"], plan_dir)
     follow = [f for p in res["playbooks"] for f in restatements(
         [i for c in p["clusters"] for i in c["items"] if i.get("status") != "DROP" and i["kind"] == "fact-changed"],
         (EL.COUNTRIES / p["code"] / "playbook.md").read_text(encoding="utf-8"))]
@@ -348,7 +360,7 @@ def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
         if pairs:
             print(f"{p['code']}: ledgered {EL.add_confirmed_lines(p['code'], pairs, date)} of {len(pairs)} confirmed-unchanged lines")
     codes = {p["code"] for p in res["playbooks"]} | {json.loads(f.read_text())["country"]
-                                                       for f in plan_dir.glob("*.json") if f.name != "plan.json"}
+                                                       for f in plan_dir.glob("??.json")}
     for cc in sorted(codes):
         secs = [s for p in res["playbooks"] if p["code"] == cc for c in p["clusters"] for s in c.get("sections", [])]
         d = render_footer(cc, date, secs, plan_dir)
@@ -370,11 +382,15 @@ def main() -> int:
     c.add_argument("result", type=Path)
     c.add_argument("--date", required=True)
     c.add_argument("--plan", type=Path, required=True)
+    d = sub.add_parser("apply-shared")
+    d.add_argument("result", type=Path)
     args = ap.parse_args()
     if args.cmd == "plan":
         return cmd_plan(args.countries.split(","), args.date, args.out, args.max_risk)
     if args.cmd == "precheck":
         return cmd_precheck(args.patches)
+    if args.cmd == "apply-shared":
+        return cmd_apply_shared(args.result)
     return cmd_apply(args.result, args.date, args.plan)
 
 

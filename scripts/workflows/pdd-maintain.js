@@ -51,12 +51,19 @@ b. No primary source publishes it → kind relabelled: "est." with inputs and a 
 c. A primary source exists but cannot be read → keep the figure and tag, add the may-have-changed suffix if due, point to it ("verify at <URL>").
 For a and c give evidence[] with the exact deep URL that shows the figure, and in quote up to 25 words copied exactly from that page around the figure, in the page's language: never a paraphrase, a script checks it. Scripts also check that every new figure of a patch stands on its evidence pages, and hold the patch if it does not, so list every page a figure came from. An expired field on a line means a date it looks forward to has passed: update what happened.
 A worklist line you confirmed without changing it gets no patch: list it in confirmed_lines (the exact current line text + every deep URL its figures rest on). The refuter checks it, then the ledger stores a fingerprint of those pages, so the next run skips the line while they stay unchanged.
+The worklist entry may hold pending: requests earlier runs left for this playbook, with their evidence. Treat each as a lead, not a fact: check it, patch it if it still holds, skip it if it is done or wrong.
 Report sections[] for ${it.sections.join(', ')}: closed=true only if every worklist line there is now confirmed or labelled. Each section's note is printed in the playbook: one or two sentences for a reader on what was confirmed or changed, naming sources, with no word about this run (worklist, patch, ledger, refuter).
 Touch only these sections, with one exception: a line anywhere else in this playbook (Country profile, quirks, other sections, the Status Confidence paragraph) that restates a figure you changed or now contradicts your patch gets its own patch, with section set to where it sits. Never the Status stamp, Per-section table or Update history (maintain.py writes them). Changes to shared files go in shared_requests with evidence.`,
   { label: `research:${it.code}:${it.cluster}`, phase: 'Research', schema: RESEARCH, model: M })
 
+const researchShared = it => agent(`${BASE}
+Requests from earlier runs: ${args.dir}/${it.code}.json → requests[] (target file, request, evidence). Each is a lead an agent left unverified, not a fact, and several may repeat one change.
+For each: read the target (a path relative to skills/property-deep-dive/shared/, or config/ or countries/) and skip it if the file already says this. Otherwise confirm it on a primary source and return one patch, with file as the full repo path; merge repeats into one. A request you cannot confirm gets no patch: put it in sections[] with closed=false and say why in note.
+regulatory-watch.md: follow its "When adding an entry" rules, match the rows already in that country's block, and include the source URL, verified date ${args.date}, revisit date and impact tier. config/_visa-programs.json: keep valid JSON. Keep each patch small; never rewrite a passage to add a fact.`,
+  { label: `research:${it.code}`, phase: 'Research', schema: RESEARCH, model: M })
+
 const refute = (it, res) => agent(`${BASE}
-You are the adversarial refuter for the "${it.cluster}" patches on ${pb(it.code)} (worklist ${args.dir}/${it.code}.json). Default to ok=false when in doubt.
+You are the adversarial refuter for the patches ${it.batch ? `to shared files from batch ${it.code}` : `on ${pb(it.code)} ("${it.cluster}", worklist ${args.dir}/${it.code}.json)`}. Default to ok=false when in doubt.
 First write PROPOSED.items to a temp JSON file and run: python3 ${args.root}/scripts/maintain.py precheck <file>. MACHINE_CONFIRMED means the patch's figures stand together on its evidence page: check only meaning (scope, date, legal status, label honesty) from the evidence and re-fetch only if that check needs the page. REFETCH means re-fetch and confirm the page shows exactly what the new text says. FLAGGED means a script could not trace a figure, and names it: "near miss" gives the number the page has instead, so a digit was probably miscopied; treat every flagged figure as wrong until you read it on the page yourself, and fix it in corrected_new. List in flags_cleared the index of each flagged patch whose final figures you did read, and say where in reason: a flagged patch not listed there is held back.
 Relabelled patches fail most often (half needed a fix in past runs): check that no est. hides a figure a primary source publishes, inputs and a calibration sentence are present, nothing curated was deleted.
 Also check old is exact and unique, tables keep their pipe counts, the prose rules above. corrected_new, when you give one, is a full replacement for the patch's new; never change old.
@@ -84,7 +91,7 @@ const settle = (it, res, v) => {
   }
 }
 
-const settled = await pipeline(args.items, it => research(it), (res, it) => refute(it, res).then(v => settle(it, res, v)))
+const settled = await pipeline(args.items, it => (it.batch ? researchShared(it) : research(it)), (res, it) => refute(it, res).then(v => settle(it, res, v)))
 const byCode = {}
 settled.forEach((c, i) => { if (c) (byCode[args.items[i].code] = byCode[args.items[i].code] || []).push(c) })
 const dropped = args.items.filter((_, i) => !settled[i]).map(it => `${it.code}:${it.cluster}`)
