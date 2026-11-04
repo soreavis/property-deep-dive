@@ -190,6 +190,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(shared): apply 582 refuted shared-file changes from the refresh runs ([#554](https://github.com/soreavis/property-deep-dive/pull/554)) — by @soreavis
 
+- fix(maintenance): refresh generated files after shared patches ([#555](https://github.com/soreavis/property-deep-dive/pull/555)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
