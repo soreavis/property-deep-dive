@@ -61,6 +61,28 @@ class Packing(unittest.TestCase):
         self.assertEqual(packed["market+tax-legal"]["sections"], ["a", "b"])
 
 
+class Hold(unittest.TestCase):
+    def test_a_patch_with_an_untraceable_figure_stays_out_and_its_section_stays_open(self):
+        page = M.SV.FetchResult("https://x", "OK", text="Stopa 2,5 %" + " tekst bez brojeva" * 30)
+        real, M.EL.fetch_all = M.EL.fetch_all, lambda urls: {"https://x": page}
+        good = {"file": "a", "section": "Section: `--tax`", "old": "- x", "new": "- Tax 2.5%", "kind": "fact-changed",
+                "evidence": [{"url": "https://x", "fact": "f"}]}
+        bad = {**good, "section": "Section: `--price`", "new": "- Price €9,999"}
+        res = {"playbooks": [{"clusters": [{"items": [good, bad], "sections": [
+            {"section": "Section: `--tax`", "closed": True}, {"section": "Section: `--price`", "closed": True}]}]}]}
+        try:
+            kept, held = M.hold_ungrounded(res, [good, bad])
+        finally:
+            M.EL.fetch_all = real
+        self.assertEqual((kept, [h["new"] for h in held]), ([good], ["- Price €9,999"]))
+        self.assertEqual([s["closed"] for s in res["playbooks"][0]["clusters"][0]["sections"]], [True, False])
+        M.EL.fetch_all = lambda urls: {"https://x": page}
+        try:
+            self.assertEqual(M.hold_ungrounded(res, [{**bad, "flag_cleared": True}])[1], [])
+        finally:
+            M.EL.fetch_all = real
+
+
 class Restatements(unittest.TestCase):
     ITEM = {"file": "x", "old": "- **Belair**: €14,489/m²", "new": "- **Belair**: €12,951/m²"}
 

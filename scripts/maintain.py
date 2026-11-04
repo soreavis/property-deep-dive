@@ -38,11 +38,13 @@ def _load(name: str, file: str):
 
 
 EL = _load("evidence_ledger", "evidence-ledger.py")
+PV = _load("provenance", "provenance.py")
 SV = EL.SV
 CLUSTERS = {"market": ("price", "rental", "work"), "tax-legal": ("tax", "cost benchmark"), "risk-infra": ("risks", "mains")}
 TABLE_HEAD = "### Per-section verification (overrides playbook-level date)"
 STAMP_LINE = "✅ Fast-changing sections re-verified as of {d}; each section's date is in the Per-section verification table."
 AGENT_LINES = 40
+HOLD = ("ungrounded", "near miss", "quote not on page")
 RUN_TALK = re.compile(r"worklist|confirmed_lines|refuter|line_errors|check-playbooks|ledger|\bpatch|old string", re.I)
 DEFAULT_NOTE = "Figures re-read on their sources or labelled."
 
@@ -101,7 +103,7 @@ def cmd_plan(codes: list[str], date: str, out: Path, max_risk: float) -> int:
                 if r["section"] not in c["sections"]:
                     c["sections"].append(r["section"])
                 c["lines"].append({x: r[x] for x in ("section", "line", "status", "urls", "confirmed_values",
-                                                     "missing_values", "audit", "hints") if r.get(x)})
+                                                     "missing_values", "audit", "expired", "hints") if r.get(x)})
         by_cluster = pack(by_cluster)
         fresh: dict[str, str] = {}
         for r in res["fresh"]:
@@ -129,7 +131,8 @@ def cmd_precheck(path: Path) -> int:
         urls = [e["url"] for e in it.get("evidence", []) if e.get("url") in fetches]
         covered, _ = EL.covered_values(vals, urls, fetches)
         ok = bool(vals) and len(covered) == len(SV.confirm_needles(vals))
-        print(f"{i}\t{'MACHINE_CONFIRMED' if ok else 'REFETCH'}\t{it.get('section', '')[:40]}")
+        flags = "; ".join(f"{f['kind']}: {f['figure']} {f.get('page_has') or ''}".strip() for f in PV.audit_patch(it, fetches)["findings"])
+        print(f"{i}\t{'FLAGGED' if flags else 'MACHINE_CONFIRMED' if ok else 'REFETCH'}\t{it.get('section', '')[:40]}\t{flags}")
     return 0
 
 
@@ -305,10 +308,31 @@ def report_audit(items: list[dict], plan_dir: Path) -> None:
         print(f"audit sample: {x} of {n} freshly proved lines changed, {rate:.5f}/day against {EL.CHANGE_RATE_PER_DAY}/day in use")
 
 
+def hold_ungrounded(res: dict, items: list[dict]) -> tuple[list[dict], list[dict]]:
+    """A patch whose new figures no evidence page shows stays out, unless the refuter says it read
+    them itself, and its section stays open, so the line returns to the next run."""
+    fetches = EL.fetch_all(e["url"] for i in items for e in i.get("evidence", []) if str(e.get("url", "")).startswith("http"))
+    kept, held = [], []
+    for it in items:
+        bad = [] if it.get("flag_cleared") else [f for f in PV.audit_patch(it, fetches)["findings"] if f["kind"] in HOLD]
+        (held if bad else kept).append({**it, "findings": bad} if bad else it)
+    open_keys = {(h["file"], fast_key(h["section"])) for h in held}
+    for p in res["playbooks"]:
+        for c in p["clusters"]:
+            files = {i["file"] for i in c["items"]}
+            for s in c.get("sections", []):
+                if any((f, fast_key(s["section"])) in open_keys for f in files):
+                    s["closed"] = False
+    return kept, held
+
+
 def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
     res = json.loads(result.read_text())
     res = res.get("result", res)
     items = [i for p in res["playbooks"] for c in p["clusters"] for i in c["items"] if i.get("status") != "DROP"]
+    items, held = hold_ungrounded(res, items)
+    (result.parent / "held.json").write_text(json.dumps(held, ensure_ascii=False, indent=1))
+    print(f"held {len(held)} patch(es) with figures no evidence page shows (→ {result.parent / 'held.json'})")
     applied, conflicts = apply_items(items)
     (result.parent / "conflicts.json").write_text(json.dumps(conflicts, ensure_ascii=False, indent=1))
     print(f"applied {applied}, conflicts {len(conflicts)} (→ {result.parent / 'conflicts.json'})")

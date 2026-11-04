@@ -133,6 +133,15 @@ class Ledger(unittest.TestCase):
         self.assertEqual(EL.check("fi", max_risk=0.10, touch_date="2026-11-04")["fresh"], [])
         self.assertFalse(EL.freshly_proved({"d": "2026-11-01", "h": "old"}, ["https://x"], EL.fetch_all(["https://x"]), "2026-11-04", 0.10))
 
+    def test_a_forward_looking_date_now_past_is_stale_whatever_the_figures_say(self):
+        self.assertEqual(EL.expired_promise("next rate meeting 12 Nov 2026", "2026-12-01"), "2026-11-12")
+        self.assertEqual(EL.expired_promise("will apply from 2026-01-01", "2026-12-01"), "2026-01-01")
+        self.assertIsNone(EL.expired_promise("next rate meeting 12 Nov 2026", "2026-11-04"))
+        self.assertIsNone(EL.expired_promise("in force since 12 Nov 2020", "2026-11-04"))
+        line = "- Key rate 3 %, next meeting 12 Nov 2026"
+        res = self._confirmed_on("Key rate 3 %, next meeting 12 Nov 2026", line, today="2026-12-01")
+        self.assertEqual((res["confirmed"], res["worklist"][0]["expired"]), (0, "2026-11-12"))
+
     def test_hints_rank_the_passage_holding_the_figure_first(self):
         fetches = {"https://a": EL.SV.FetchResult("https://a", "OK", text="Kirchberg asunnot 11 161 euroa " + "muu " * 400),
                    "https://b": EL.SV.FetchResult("https://b", "OK", text="Kirchberg average 12,542 per square metre")}
