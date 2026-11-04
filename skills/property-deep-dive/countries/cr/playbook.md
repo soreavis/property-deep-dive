@@ -38,8 +38,8 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 | Region | USD/m² (typical) | Notes |
 |---|---:|---|
 | **Escazú/Santa Ana houses** | $1,662 median (n=4,033) | Premium Central Valley; median asking price $590,000 |
-| **Escazú/Santa Ana condos** | $2,169 median (n=836); apartments $2,407 (n=2,088) | Premium condos |
-| **Gran San José (Heredia · Alajuela · Cartago) houses** | $1,414 median (n=5,889); apartments $2,505 (n=1,746) | GAM outside Escazú/Santa Ana |
+| **Escazú/Santa Ana condos** | $2,168 median (n=841); apartments $2,409 (n=2,082) | Premium condos; 4 Nov 2026 snapshot |
+| **Gran San José (Heredia · Alajuela · Cartago) houses** | $1,414 median (n=5,851); apartments $2,513 (n=1,738) | GAM outside Escazú/Santa Ana; 4 Nov 2026 snapshot |
 | **San José central** † | mixed (older stock) | $800–$1,500 |
 | **Tamarindo / Nosara / Coco condos** | $3,083–$3,756 median by zone (Coco · Papagayo · Liberia $3,083, n=379; Nosara · Sámara $3,238, n=63; Tamarindo $3,756, n=340) | Pacific coast premium |
 | **Tamarindo / Nosara / Coco houses** | $2,798–$3,229 median by zone (Coco · Papagayo · Liberia $2,798; Nosara · Sámara $2,973; Tamarindo $3,229) | median asking price $650,000 (Nosara · Sámara) to $987,500 (Tamarindo); varies hugely |
@@ -142,7 +142,7 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 ### Future risk
 
 - **Investor visa threshold CONTESTED after 14 Jul 2026**: Ley 9996 art. 8 set US$150k (down from US$200k) "por el plazo que establece la presente ley", and art. 12 let applicants opt into the art. 5 incentives only during the first five years — a window that closed 14 Jul 2026 (computed from publication in La Gaceta 135 of 14 Jul 2021). Reglamento 43926 art. 4 states US$150k with no end date, and its art. 31 repealed Reglamento de Extranjería art. 87, where the US$200k floor sat; CR lawyers disagree on whether US$150k survives (AG Legal / PropScan: yes, DGME web page showing it on 6 Oct 2026 per PropScan; Mora Yglesias, Aug 2026: open question). Confirm in writing with DGME before committing capital (2026-10-23 verified, source Ley 9996 text via vLex + Reglamento 43926 Gaceta text + named secondary opinions).
-- **CGT framework stable** (Ley 9635 reform retained — primary residence exempt, 15% on other gains or 2.25% of price on the first sale of pre-Jul-2019 assets, business-held property inside the profits tax at the 30% general corporate rate).
+- **CGT framework stable for property in CR** (Ley 9635 reform retained — primary residence exempt, 15% on other gains or 2.25% of price on the first sale of pre-Jul-2019 assets, business-held property inside the profits tax at the 30% general corporate rate, with lower scales for small companies and self-employed sellers) (2026 data, source PGR Ley 9635 text + PwC Tax Summaries CR, reviewed 30 Jun 2026). **Bill to watch**: expediente 25.796, filed by the Executive on 22 Sep 2026 and published 30 Sep 2026, would tax CR tax residents on passive foreign-source income, including rents and capital gains from assets abroad; no enactment found as of 2026-11-04, so check its status with the Asamblea Legislativa (2026 data, source KPMG Costa Rica + PwC tax alerts).
 
 ---
 
@@ -154,7 +154,7 @@ ISO2: `cr`. Status: ✅ Fully populated (researched 2026-04).
 - **Tenant protection moderate**
 - **Minimum term 3 years**: housing leases agreed for less, or with no term, are deemed 3-year leases; tacit renewal for a further 3 years unless the landlord gives ≥3 months' notice before expiry (Ley 7527 arts. 70–71, statute text via bufetedecostarica.com, 2026)
 - **Annual rent-increase cap** (Ley 7527 art. 67, reformed by Ley 9354/2016): housing leases priced in colones may rise once per contract year by at most the 12-month CPI inflation (MIVAH sets the rate when inflation exceeds 10%); MIVAH publishes the index to apply — **0.34%** for September 2026 (2026 data, source MIVAH *Reajuste Precio Alquiler de Vivienda* `https://www.mivah.go.cr/Reajuste_Precio_Alquileres_Vivienda.shtml`). Housing leases priced in a foreign currency (e.g. USD) keep the agreed rent for the whole term, with no annual increase (art. 67 last paragraph, statute text via bufetedecostarica.com)
-- **Asking rents** (median, listing aggregate): Gran San José $1,450/mo (n=4,781); Jacó · Los Sueños $1,800/mo (n=94); Tamarindo $2,146/mo (n=105) (2026 data, source Realty ONE Group CR market report — asking, not contracted rents)
+- **Asking rents** (median, listing aggregate): Gran San José $1,450/mo (n=4,807); Jacó · Los Sueños $1,800/mo (n=102); Tamarindo $2,200/mo (n=108) (2026 data, source Realty ONE Group CR market report, 4 Nov 2026 snapshot — asking, not contracted rents)
 
 ### Short-let
 
@@ -284,11 +284,11 @@ RSN lists five active volcanoes: Rincón de la Vieja, Arenal, Poás, Irazú and 
 
 | Scenario | Cost (USD, est.) |
 |---|---:|
-| Mains connection | ~$500–$2,000 |
-| Pozo + bomba | ~$2,500–$8,000 |
-| Tanque séptico | ~$2,000–$6,000 |
+| Mains connection | est. ~$500–$2,000 hookup fee with the main at the boundary, pipe from meter to house extra; est. ~$5,000–$15,000 if the line must be extended |
+| Pozo + bomba | hand-dug est. ~$470/m (10 m ≈ $4,700); drilled est. ~$160/m at 40–180 m, total est. ~$30,000 with permit, mobilization, pump test and concession, depending on depth; pump itself not priced |
+| Tanque séptico | est. ~$3,000–$8,000 installed (standard biodigester system); est. ~$8,000–$15,000 with poor percolation or a high water table |
 
-*Est. ranges (AyA connection + local contractor quotes) — verify on quote.*
+*Est. ranges from secondary sources, not a national tariff: connection and septic from the Build Tropical builder guide (2026 data, trade site, written for coastal lots); wells from a Langston Realty broker post (2023 data — rates/figures may have changed since). One operator's published charge sits below the guide's low end: ASADA Playa Potrero's meter connection fee of CRC 138,798 (2022 data, source ASADA requirements sheet — rates/figures may have changed since), ≈ $304 at CRC 456 per USD (computed: 138,798 ÷ 456 ≈ 304). AyA's own connection tariff could not be read for verification on 2026-11-04 — check it directly. Get the availability letter and connection charge from the AyA or ASADA office and a contractor quote before budgeting; the same guide says AyA has frozen new connections in some areas.*
 
 ---
 
@@ -387,7 +387,7 @@ RSN lists five active volcanoes: Rincón de la Vieja, Arenal, Poás, Irazú and 
 | BCCR | `https://www.bccr.fi.cr/` |
 | INEC | `https://www.inec.cr/` |
 | Encuentra24 CR | `https://www.encuentra24.com/costa-rica` |
-| MLS Costa Rica | `https://www.mlscostarica.com/` |
+| MLS Costa Rica | ❌ DEPRECATED — dead on 2026-10-23 (domain parked); verify with Registro Nacional (SIRI) |
 | OVSICORI volcanic | `https://www.ovsicori.una.ac.cr/` |
 | RSN seismic | `https://rsn.ucr.ac.cr/` |
 | CNE emergencies | `https://www.cne.go.cr/` |
@@ -414,6 +414,10 @@ RSN lists five active volcanoes: Rincón de la Vieja, Arenal, Poás, Irazú and 
 | Climate + Climate change projections (in `--risks`) | 2026-10-23 | 2026-10-23 refresh wave | IMN 2021 regionalised projections, IMN-AECID Dec 2024 sea-level study and IPCC AR6 SPM B.5.3 |
 | Active fiscal incentives — Tax incentives | 2026-10-23 | 2026-10-23 refresh wave | CGT exemption limited to the vivienda habitual; territorial rule (PwC Tax Summaries); Ley 9996 incentives marked CLOSED; Ley 7509 art. 4(e) *bien único* exemption |
 | Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave | Encuentra24, Properties in Costa Rica and Coldwell Banker CR live; MLS Costa Rica (parked domain) and CRPropertyExpert (no DNS) ❌ DEPRECATED; Realty ONE Group CR added |
+| `--rental` | 2026-10-23 | 2026-11-04 maintenance run | Asking-rent medians come from the Realty ONE Group CR zone reports of 4 Nov 2026: Tamarindo rose to $2,200/mo, while Gran San José and Jacó held at $1,450 and $1,800. |
+| `--work=<profession>` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| `--risks` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| Cost benchmarks (CR 2026) | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
 
 Other sections were partly refreshed on 2026-10-23 but keep unverified items, so they default to the Status footer date: `--price`, `--traffic`, `--tax` › Future risk, `--rental`, `--work`, `--risks`, `--mains`, Cost benchmarks, Residency programs, Caveats unique to CR, Reddit / forum sources, Verification authorities, Source URL templates (see Update history).
 
@@ -439,3 +443,4 @@ Other sections were partly refreshed on 2026-10-23 but keep unverified items, so
   - Re-verified: Country profile 11 — 6 / 4 / 1; `--tax` annual property tax 6 — 3 / 2 / 1, transaction taxes 7 — 6 / 1 / 0, IVA + Impuesto Solidario 13 — 6 / 7 / 0, capital gains 6 — 3 / 3 / 0, total transaction cost 3 — 2 / 0 / 1; Climate + Climate change projections 5 — 5 / 0 / 0; Tax incentives 3 — 3 / 0 / 0; Common listing platforms 5 — 3 / 3 / 0
   - Refreshed, not re-verified: `--price` 19 — 11 / 4 / 5; `--rental` 9 — 7 / 0 / 2; `--work` 12 — 4 / 5 / 4; `--tax` future risk 3 — 2 / 1 / 1; `--traffic` 8 — 4 / 2 / 2; `--risks` 29 — 16 / 5 / 8; `--mains` 8 — 5 / 1 / 3; Cost benchmarks 8 — 2 / 1 / 5; Residency programs 10 — 6 / 4 / 2; Caveats unique to CR 9 — 5 / 4 / 1 (legal / fiscal only); Reddit / forum sources 7 — 0 / 5 / 2; Verification authorities 8 — 1 / 2 / 5; Source URL templates 11 — 1 / 9 / 2, plus 3 rows added; no `--crime` or `--amenities` section exists
   - Main changes: price table rebuilt on Realty ONE Group CR zone asking medians, with the San José central, Liberia / Guanacaste interior and Limón rows marked † (not re-verified); MLS Costa Rica and CRPropertyExpert ❌ DEPRECATED; FX 1 USD ≈ 449–456 CRC (BCCR); IVA restated (the sale is outside IVA; 13% on construction services); four Impuesto Solidario bracket limits corrected; the 2.25% option limited to the first sale and the non-domiciled 2.5% withholding re-sourced to MH-DGT-RES-0051-2025; seller + buyer transaction cost recomputed at ≈3.4–3.5%; investor-visa threshold contested after the Ley 9996 window closed on 14 Jul 2026; the Pensionado per-dependent add-on, the US$100k forestry tier and the annual-entry rule removed (not in the statute texts); ZMT concession limits (more than 50% foreign capital, under 5 years' residence) and the 2 km border strip replace the 51% / 49% and 10 km lines; Ley 7527 3-year minimum lease term and mandatory ICT registration under Ley 9742; 2026 minimum wages (Decreto 45303-MTSS); RSN's five active volcanoes, CSCR code history and the IMN rain-season regimes; climate projections from IMN 2021 + IPCC AR6; no-debt certificates attributed to the actual utility (ARESEP is the regulator); Caveats, the Status coverage line and Extension TODOs aligned with the five-volcano, 2 km border-strip and utility-operator corrections
+- **2026-11-04** — Maintenance run: closed `--rental`, `--work=<profession>`, `--risks`, Cost benchmarks (CR 2026); still open `--price`, `--tax`, `--mains`.

@@ -57,7 +57,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Compute
 
-1. EUR/m² = price / **korisna površina** (usable area)
+1. EUR/m² = price / **korisna površina** (usable area). Serbia's design norms define a flat's size as its neto korisna površina, computed under SRPS U.C2.100:2002 (Pravilnik o uslovima i normativima za projektovanje stambenih zgrada i stanova, Art. 2); RGZ's Statistika cena does not say which area its EUR/m² divides by *(2026-11-04 verified, source Pravilnik consolidated text on paragraf.rs + RGZ Statistika cena nepokretnosti za I polugodište 2026)*
 2. **Currency**: residential typically transacted in RSD or EUR-equivalent; commercial often EUR-denominated
 3. **Belgrade Waterfront** ongoing development — premium tier
 4. Cross-check the **RGZ index / Statistika cena** (closed sales) against **HaloOglasi** / **4zida** asking prices (seller-controlled)
@@ -100,7 +100,7 @@ ISO2: `rs`. Status: ✅ Fully populated (researched 2026-04).
 
 | Property value | Rate (max) |
 |---|---:|
-| Up to RSD 10M (~€85k) | **0.4%** |
+| Up to RSD 10M (≈ €85k at RSD 117.37/EUR, NBS middle rate 9 Oct 2026, computed) | **0.4%** |
 | RSD 10–25M | **0.6%** |
 | RSD 25–50M | **1.0%** |
 | > RSD 50M | **2.0%** |
@@ -113,8 +113,8 @@ Bands are marginal: each rate applies only to the part of the base above the ban
 
 ### Transaction taxes
 
-- **Porez na prenos apsolutnih prava** (transfer): **2.5%** on resale (ZPI Art. 30). **Seller is statutorily liable** (Art. 25); the buyer is a subsidiary guarantor by law and becomes jointly liable once the contract puts the tax on them (Art. 42). Contracts routinely shift it to the buyer — read the ugovor carefully *(2026-11-03 verified, source paragraf.rs consolidated ZPI; practice per PwC Tax Summaries + CMS)*
-- **First-apartment exemption** (transfer tax): adult RS citizen with permanent residence, first apartment ≤40 m² → exempt from 2.5 % transfer tax; +15 m² per qualifying family member who hasn't owned since 1 July 2006. Above the cap, tax due on excess area only. The buyer must not have owned a flat in Serbia since 1 July 2006, so foreign buyers do not qualify *(2026-11-03 verified, source ZPI Art. 31a, paragraf.rs)*
+- **Porez na prenos apsolutnih prava** (transfer): **2.5%** on resale (ZPI Art. 30). **Seller is statutorily liable** (Art. 25); the buyer is a subsidiary guarantor by law and becomes jointly liable once the contract puts the tax on them (Art. 42). Contracts can shift it to the buyer and, per one agency blog, often do — read the ugovor carefully *(2026-11-04 verified, source paragraf.rs consolidated ZPI; practice is lower tier, not official: CMS Expert Guide to commercial real estate, updated 24 Apr 2018 — rates/figures may have changed since — and City Expert agency blog, 25 Jul 2025)*
+- **First-apartment exemption** (transfer tax): adult RS citizen with permanent residence, first apartment ≤40 m² → exempt from transfer tax; +15 m² per qualifying family member who hasn't owned since 1 July 2006. Above the cap, tax due on excess area only. The buyer must not have owned a flat in Serbia since 1 July 2006; citizenship is a condition, so foreign buyers do not qualify *(2026-11-04 verified, source ZPI Art. 31a, paragraf.rs)*
 - **PDV (VAT)**: **20%** standard; **10% on first-sale residential** (transfer of the right of disposal on residential buildings and economically divisible units, ZPDV Art. 23; replaces transfer tax). Refund for a first-apartment buyer — adult Serbian citizen resident in Serbia who has not owned a flat in Serbia since 1 July 2006 and has paid the full price to the seller's account: VAT on up to 40 m² + 15 m² per household member who also has not owned one (ZPDV Art. 56a) *(2026-11-03 verified, source paragraf.rs consolidated ZPDV to Sl. glasnik RS 80/2026)*
 - **Notary fees** (solemnizacija of the sale contract): a value scale, not a percentage — RSD 25,920 incl. VAT for a RSD 5–7M deal, RSD 36,288 for RSD 10–14M, then +RSD 1,296 (60% of RSD 2,160) per started RSD 1M above 14M; the scale fee is capped at RSD 864,000, so solemnizacija tops out at RSD 518,400 (60%, computed) *(Javnobeležnička tarifa in force since 19 Jul 2025, source paragraf.rs tabular tariff)*. Computed at RSD 117.37/EUR (NBS middle rate 9 Oct 2026): €50k ≈ 0.44%, €100k ≈ 0.31%, €200k ≈ 0.21% of price
 - **Cadastre registration** (RGZ): the notary sends the solemnised contract to the cadastre ex officio via e-šalter (Zakon o postupku upisa u katastar nepokretnosti i katastar infrastrukture Art. 22) and the buyer, in whose favour the entry is made, pays the fee (Art. 30) — RSD 7,010 for a change of owner on one document + RSD 2,100 per further document in the chain + RSD 430 request fee (Zakon o republičkim administrativnim taksama TB 215b + TB 1, dinar amounts adjusted by Sl. glasnik RS 54/2026) ≈ €63 *(2026 data, source paragraf.rs consolidated texts)*
@@ -133,8 +133,8 @@ Bands are marginal: each rate applies only to the part of the base above the ban
 
 ### Total transaction cost (buyer side)
 
-- Resale: ~3% before agency and attorney fees (computed: 2.5% transfer tax where the contract puts it on the buyer + notary ≈ 0.2–0.45% + RGZ ≈ €63)
-- New build: 10% VAT included in the price, no transfer tax + notary ≈ 0.2–0.45% + RGZ ≈ €63 (computed as above)
+- Resale: ~3% before agency and attorney fees (computed: 2.5% transfer tax where the contract puts it on the buyer + notary ≈ 0.21–0.44% + RGZ ≈ €63, which gives 2.7–3.1% on a €50k–€200k price)
+- New build: 10% VAT included in the price, no transfer tax + notary ≈ 0.21–0.44% + RGZ ≈ €63, which gives 0.24–0.57% on top of a €50k–€200k price (computed as above)
 
 ### Future risk
 
@@ -155,14 +155,15 @@ Bands are marginal: each rate applies only to the part of the base above the ban
 ### Short-let (Airbnb)
 
 - **Tourist tax (boravišna taksa)**: **RSD 240/person/day in Belgrade from 15 October 2026** (was RSD 160 since 2020; ≈ €2.04 at the NBS middle rate of 117.3892 RSD/EUR, 14 Oct 2026). Belgrade is a category-I tourist place; the Government Uredba o najvišem i najnižem iznosu boravišne takse (Sl. glasnik RS 90/2026) sets RSD 190–240 for that category and the city chose the maximum. Guests aged 7–15 pay 50% (Zakon o ugostiteljstvu). A natural-person host in domaća radinost pays the tax as an annual lump sum instead (Art. 71) *(2026 data, source Grad Beograd draft Odluka o izmeni Odluke o boravišnoj taksi Oct 2026 + Paragraf 13 Oct 2026 + Zakon o ugostiteljstvu consolidated text on paragraf.rs)*
-- **Categorisation**: the host needs a rešenje o kategorizaciji from the local self-government before the first guest (Zakon o ugostiteljstvu Art. 31) and must post name + phone at the entrance; guests are registered through eTurista (per practitioner guides; secondary). A duty to show a registration number on listings is not confirmed — verify with the local tourism inspectorate
+- **Categorisation**: the host needs a rešenje o kategorizaciji from the local self-government before the first guest (Zakon o ugostiteljstvu Arts 20 + 31; valid three years, Art. 20) and must post name + phone at the entrance (Art. 31); guests are registered through E-turista, the central information system (Arts 2 + 15). That law has no provision requiring a registration number on listings; the rešenje's number goes into the host's contract with an intermediary (Art. 33). Other laws, bylaws and local rules may add one — verify with the local tourism inspectorate *(2026 data, source Zakon o ugostiteljstvu consolidated text on paragraf.rs)*
 - **Belgrade tightening 2024-2025** *(wisdom, not data — verify with Grad Beograd)*
 
 ### Tax on rental
 
 - Resident: **effective 15% on gross rental** after the 25% normative-cost deduction (20% × 75% = 15%); actual costs may be claimed instead, on proof (ZPDG Arts 65v + 65g) *(2026 data, source ZPDG consolidated text on paragraf.rs + PwC Tax Summaries reviewed 7 Aug 2026)*
 - Letting a flat or room for more than 30 days without hospitality services is rental income; accommodation for up to 30 days is excluded and taxed under ZPDG Art. 84b (Art. 65v st. 2)
-- Non-resident: 20% withholding
+- Non-resident individual: the same tax as a resident on Serbian rent, 20% after the 25% normative-cost deduction, effective 15% of gross (20% × 75% = 15%) (ZPDG Arts 8, 65v + 65g; Ministry of Finance opinion 430-00-274/2017-04 of 26 Feb 2018). The tax is withheld only when the tenant is a legal entity or entrepreneur (ZPDG Art. 99 st. 1 tač. 4). With a private tenant the non-resident self-assesses and files a return (ZPDG Arts 96 + 100a) and must name a resident tax proxy (poreski punomoćnik) to the Tax Administration within 10 days of the first income (ZPPPA Art. 14 st. 2); no proxy is needed for income taxed at source with no return to file (ZPPPA Art. 14 st. 3). On withheld tax, treaty relief needs proof of treaty residence and beneficial ownership (ZPDG Art. 107a) *(2026 data, source ZPDG + ZPPPA consolidated texts on paragraf.rs; 2018 opinion reproduced on aktivasistem.com, secondary — rates/figures may have changed since)*
+- Non-resident company: 20% withholding on rent for Serbian real estate paid by a resident legal entity, unless a tax treaty provides otherwise; 25% for a recipient in a preferential-tax jurisdiction (ZPDPL Art. 40 st. 1 + 4). Where the payer need not withhold, the company pays the 20% by assessment, filing through a tax proxy within 30 days (ZPDPL Art. 40 st. 8 + 10) *(2026 data, source ZPDPL consolidated text on paragraf.rs + PwC Tax Summaries reviewed 7 Aug 2026)*
 
 ---
 
@@ -178,7 +179,7 @@ Bands are marginal: each rate applies only to the part of the base above the ban
 - **Preduzetnik** (sole trader)
 - **DOO** (limited): min RSD 100 capital (Zakon o privrednim društvima Art. 145) *(2026-11-03 verified, source Paragraf Lex consolidated text)*
 - **Paušalna obaveza** (flat rate) for small business
-- **PDV** registration: mandatory once turnover in the previous 12 months exceeds RSD 8,000,000 (ZPDV Art. 38) *(2026 data, source ZPDV Art. 38 text quoted in the 2026 amending bill on parlament.gov.rs)*
+- **PDV** registration: mandatory once turnover in the previous 12 months exceeds RSD 8,000,000 (ZPDV Art. 38) *(2026 data, source ZPDV consolidated text through Sl. glasnik RS 80/2026 on paragraf.rs)*
 
 ### Salary benchmarks (RZS, August 2026)
 
@@ -209,7 +210,7 @@ Bands are marginal: each rate applies only to the part of the base above the ban
 #### Earthquake — moderate
 
 - **2010 Kraljevo** (3 Nov 2010): **Mw 5.5** (RSZ catalogue; RSZ local magnitude 5.4), epicentral intensity 7–8 *(RSZ report of 1 Dec 2010)*. About 16,000 damage reports for as many objects, more than 1,500 objects unusable and 400–500 houses to be demolished (minister for public administration and local self-government, RTV/Tanjug 22 Nov 2010; secondary); damage estimated at more than EUR 100 million (IFRC 31 Aug 2011 via ReliefWeb; secondary)
-- **1922 Lazarevac Mw 5.7** (24 Mar; the 6.0 often quoted is the catalogue's surface-wave Ms), **1927 Rudnik Mw 5.8** (15 May), **1980 Kopaonik Mw 5.9** (18 May), **1998 Mionica Mw 5.5** (29 Sep) *(homogenised Mw, source RSZ Katalog zemljotresa Mw ≥ 3.5, May 2018 revision)*
+- **1922 Lazarevac Mw 5.7** (24 Mar; the 6.0 often quoted is the catalogue's surface-wave Ms), **1927 Rudnik Mw 5.8** (15 May), **1980 Kopaonik Mw 5.9** (18 May), **1998 Mionica Mw 5.5** (29 Sep) *(homogenised Mw, source RSZ Katalog zemljotresa Mw ≥ 3.5, entries to Aug 2017)*
 - Belgrade felt intensity 4 during the 2010 Kraljevo quake *(RSZ field survey, report of 1 Dec 2010)*
 - **Vlasinsko / Pirot** zone elevated; Belgrade lower
 
@@ -221,8 +222,8 @@ Bands are marginal: each rate applies only to the part of the base above the ban
 
 #### Air quality
 
-- **Belgrade agglomeration air was category III (over-polluted) in 2024**: PM10, PM2.5 and NO2 limit values exceeded, arsenic and benzo(a)pyrene above target values; Novi Sad, Niš, Pančevo, Smederevo, Bor, Kosjerić and Užice also category III. Particulate concentrations are far higher in the heating season *(2024 data, source SEPA Godišnji izveštaj o stanju kvaliteta vazduha 2024) — rates/figures may have changed since*
-- Main particulate source nationally: small heating plants (< 50 MW) and household stoves, mostly firewood — 83% of PM2.5 and 66% of PM10 emissions; road traffic gives 25% of NOx *(2023 emissions data, same SEPA report)*
+- **Belgrade agglomeration air was category II (polluted) in 2025**: PM10, PM2.5 and NO2 limit values exceeded, benzo(a)pyrene and ground-level ozone above target values; Novi Sad, Niš, Pančevo, Smederevo, Bor, Kosjerić and Užice also category II. Category II is now the worst class: the Zakon o zaštiti vazduha (Sl. glasnik RS 51/2025, Art. 20) keeps only two categories, so the step down from category III (over-polluted), which these same eight agglomerations had in 2024, is a change of scale, not by itself cleaner air. Particulate concentrations are far higher in the heating season *(2025 data, source SEPA Godišnji izveštaj o stanju kvaliteta vazduha 2025, `https://sepa.gov.rs/wp-content/uploads/2026/10/Vazduh2025.pdf`; 2024 category and heating-season pattern from the 2024 report) — rates/figures may have changed since*
+- Main particulate source nationally: small heating plants (< 50 MW) and household stoves, mostly firewood (per SEPA's 2024 report) — 83% of PM2.5 and 64% of PM10 emissions; road traffic gives 25% of NOx *(2024 emissions data, source SEPA Godišnji izveštaj o stanju kvaliteta vazduha 2025) — rates/figures may have changed since*
 
 ### Build-era hazards
 
@@ -232,7 +233,7 @@ Bands are marginal: each rate applies only to the part of the base above the ban
 | **Yugoslav era 1945-1990** | Asbestos common, panel buildings (paneli) |
 | **Pre-1964** | Designed before the provisional seismic rules of Sl. list SFRJ 39/64 (30 Sep 1964); the earlier 1948 provisional loading regulations came with a seismic zoning map (Sl. list FNRJ 61/48, per a 1CroCEE conference paper, secondary). A public-use building designed before 39/64 must meet current seismic rules after reconstruction |
 | **1964 – Jun 1982** | Provisional seismic rules, Sl. list SFRJ 39/64 |
-| **Jun 1982 – Dec 2019** | Buildings (visokogradnja): Pravilnik o tehničkim normativima za izgradnju objekata visokogradnje u seizmičkim područjima, Sl. list SFRJ 31/81 (published 5 Jun 1981, in force one year later), 49/82, 29/83, 21/88, 52/90; it replaced the 39/64 rules for buildings *(source: its Art. 116–117 via paragraf.rs; publication date per the 1CroCEE paper)* |
+| **Jun 1982 – Dec 2019** | Buildings (visokogradnja): Pravilnik o tehničkim normativima za izgradnju objekata visokogradnje u seizmičkim područjima, Sl. list SFRJ 31/81 (published 5 Jun 1981, in force one year later), 49/82, 29/83, 21/88, 52/90; it replaced the 39/64 rules for buildings *(source: its Art. 116–117 via paragraf.rs; publication date per the reprint on the University of Belgrade Faculty of Civil Engineering site, and Frontiers in Built Environment 2020, secondary)* |
 | **Since 26 Dec 2019** | Eurocode-based Pravilnik za građevinske konstrukcije (Sl. glasnik RS 89/2019, 52/2020, 122/2020; seismic design per SRPS EN 1998) repealed both; permit files lodged within 3 months could still use the old rules *(source: Pravilnik Art. 24, 99, 100 via paragraf.rs + Institut za standardizaciju Srbije)* |
 | **Belgrade Waterfront 2014+** | Premium new-build standards |
 
@@ -272,9 +273,9 @@ The est. ranges are planning figures with no published tariff behind them; calib
 | Work | Cost (EUR) |
 |---|---:|
 | Energetski pasoš | 100–250 |
-| Notar fees (solemnizacija) | ≈0.2–0.45% (computed from the tariff scale, €50k–€200k) |
+| Notar fees (solemnizacija) | ≈0.21–0.44% (computed from the tariff scale, €50k–€200k) |
 | Transfer tax | 2.5% |
-| **Total transaction cost (buyer)** | **~3%** of price before agency/attorney fees (computed) |
+| **Total transaction cost (buyer)** | **~3%** of price before agency/attorney fees (computed for a resale with the transfer tax on the buyer, adding the RGZ fee ≈ €63 from `--tax`: 2.7–3.1% at €50k–€200k) |
 | Roof renovation | 4,000–12,000 |
 | Energy retrofit | 8,000–25,000 |
 | Heat pump | 5,000–10,000 |
@@ -349,21 +350,27 @@ Energetski pasoš and works rows are est. contractor ranges from the 2026-04 res
 
 ## Status
 
+✅ Fast-changing sections re-verified as of 2026-11-04; each section's date is in the Per-section verification table.
+
 ✅ **Fully populated** as of 2026-04-26. **Last verified**: 2026-10-28 (RGZ counter filing re-verified — 10 request types walk-in since 12 Oct 2026, every other registration still via professional users; Svoj na svome legalizacija window re-verified 2026-10-27 — main filing window closed 8 Feb 2026, late-filing window closed 24 Oct 2026 with no extension; balance of the 2026-05-27 verification unchanged). Tax tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing (RGZ closed-sale statistics H1 2026 + RGZ index; FRED / BIS and Investropa / Global Property Guide secondary), traffic (Putevi Srbije PGDS 2025), tax (porez na imovinu progressive 0.4-2% + 2.5% transfer + 20% VAT (10% first-sale residential) + 15% CGT 10-year exemption), rental (boravišna taksa + license), work (NSZ + Paušalna), risks (Kraljevo 2010 + 2014 Sava+Bosna floods + Belgrade winter PM2.5), mains (Belgrade vodovod + per-municipality).
-**Confidence**: HIGH for `--price` benchmarks (RGZ closed-sale apartment prices H1 2026 + RGZ index Q2 2026; KO / city averages, never parcel values), for the `--tax` statutory rates and caps (ZPI, ZPDV and ZPDG consolidated texts, notary tariff, Poreska uprava 2026 PIT brochure, NBS; each local self-government sets its own property-tax rate up to the caps), for the 10-year CGT exemption (ZPDG Art. 72a), for `--work` (ZPD Art. 145, ZPDV Art. 38, RZS August 2026 salaries), for Active fiscal incentives (youth first-home guarantee-scheme law), for the foreign-buyer reciprocity rule (ZOSPO Arts 82a–82v), for the 2014 flood correction (Sava + Bosna, not Drava) and for the BVK 2026 tariff. MEDIUM for `--rental` (Belgrade boravišna taksa, 20% rate and 25% normative costs re-verified; non-resident withholding mechanics, the listing-number duty, "Belgrade tightening" and the long-term tenancy lines not verified), for `--risks` (RSZ magnitudes, 2014 flood figures, SEPA 2024 air-quality category, seismic-code eras, energetski pasoš and notary rules re-sourced; Vlasinsko / Pirot zone naming, the rainfall trend, three build-era rows and the geodetski snimak / list nepokretnosti rows not verified), for `--traffic` (PGDS 2025 values and operator re-verified; verdict bands curated, no published Boulevard Vojvode Stepe count), for the transfer-tax burden-shifting practice (PwC / CMS, not refetched) and for the Svoj na svome caveat (91/2025 i 80/2026 citation, Art. 8 fees, windows and application count re-checked; the 4 Feb 2026 extension notice, "RGZ priority registration" and the 80/2026 implementing bylaws not re-verified). LOW for the `--mains` connection / septic / well ranges and for the energetski pasoš and works rows in Cost benchmarks (est., no published tariff).
+**Confidence**: HIGH for `--price` benchmarks (RGZ closed-sale apartment prices H1 2026 + RGZ index Q2 2026; KO / city averages, never parcel values), for the `--tax` statutory rates and caps (ZPI, ZPDV and ZPDG consolidated texts, notary tariff, Poreska uprava 2026 PIT brochure, NBS; each local self-government sets its own property-tax rate up to the caps), for the 10-year CGT exemption (ZPDG Art. 72a), for `--work` (ZPD Art. 145, ZPDV Art. 38, RZS August 2026 salaries), for Active fiscal incentives (youth first-home guarantee-scheme law), for the foreign-buyer reciprocity rule (ZOSPO Arts 82a–82v), for the 2014 flood correction (Sava + Bosna, not Drava) and for the BVK 2026 tariff. MEDIUM for `--rental` (Belgrade boravišna taksa, 20% rate and 25% normative costs re-verified; non-resident withholding mechanics, the listing-number duty, "Belgrade tightening" and the long-term tenancy lines not verified), for `--risks` (RSZ magnitudes, 2014 flood figures, SEPA 2025 air-quality category, seismic-code eras, energetski pasoš and notary rules re-sourced; Vlasinsko / Pirot zone naming, the rainfall trend, three build-era rows and the geodetski snimak / list nepokretnosti rows not verified), for `--traffic` (PGDS 2025 values and operator re-verified; verdict bands curated, no published Boulevard Vojvode Stepe count), for the transfer-tax burden-shifting practice (CMS Expert Guide updated 24 Apr 2018 and City Expert agency blog 25 Jul 2025, lower tier) and for the Svoj na svome caveat (91/2025 i 80/2026 citation, Art. 8 fees, windows and application count re-checked; the 4 Feb 2026 extension notice, "RGZ priority registration" and the 80/2026 implementing bylaws not re-verified). LOW for the `--mains` connection / septic / well ranges and for the energetski pasoš and works rows in Cost benchmarks (est., no published tariff).
 
 ### Per-section verification (overrides playbook-level date)
 
 | Section | Last verified | Verifier | Notes |
 |---|---|---|---|
 | Country profile | 2026-10-23 | 2026-10-23 refresh wave | Admin levels, NBS middle rate (14 Oct 2026), managed float and EU dates re-checked; languages list not re-checked; eKatastar URL kept (could not be read for verification, still linked from RGZ) |
-| `--price` | 2026-10-23 | 2026-10-23 refresh wave | Benchmarks from RGZ closed-sale apartment prices H1 2026 + RGZ index Q2 2026 (KO / city averages, not parcel values); NBS label corrected; HaloOglasi share and the residential-currency line not verified |
-| `--tax` | 2026-10-23 | 2026-10-23 refresh wave | ZPI, ZPDV and ZPDG consolidated texts (paragraf.rs), notary tariff, Poreska uprava 2026 PIT brochure and NBS re-read; transfer-tax burden-shifting practice not refetched |
-| `--work` | 2026-10-23 | 2026-10-23 refresh wave | DOO capital (ZPD Art. 145), PDV threshold (ZPDV Art. 38), RZS August 2026 salaries, 2026 / 2027 minimum wage |
+| `--price` | 2026-11-04 | 2026-11-04 maintenance run | Seven city and KO rows match Tables 1 and 2 of the RGZ H1 2026 PDF; national +5.25% and Belgrade region +5.65% match the RGZ release, with no Q3 index published by 27 Oct 2026. Sasomange stays deprecated. |
+| `--tax` | 2026-11-04 | 2026-11-04 maintenance run | ZPI, ZPDV and ZPDG consolidated texts, cadastre registration law, notary tariff, administrative fee tariff, Poreska uprava PIT brochure (Apr 2026) and NBS press release (8 Oct 2026) re-read; all rates, caps and fees unchanged. Transfer-tax shifting relabelled lower tier (CMS 2018, City Expert 2025) and the PwC attribution dropped; first-apartment exclusion of foreigners now tied to citizenship; buyer cost ranges recomputed |
+| `--work=<profession>` | 2026-11-04 | 2026-11-04 maintenance run | RZS release of 26.10.2026: 161,953 / 117,282, median 93,325 and Beogradski region 198,684 / 143,965; euro values computed at 117.3892. Minimum wage from the Socijalno-ekonomski savet page. |
 | Active fiscal incentives | 2026-10-23 | 2026-10-23 refresh wave | Youth first-home guarantee-scheme law, MRE / World Bank energy subsidy and Expo 2027 dates replace three stale bullets |
 | Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave | Sasomange deprecated, KupujemProdajem added, BeoBuild relabelled a news site; HaloOglasi "DOMINANT" remains wisdom, not data |
 | Reddit / forum sources | 2026-10-23 | 2026-10-23 refresh wave | Subreddits and news sites live; no change |
+| `--rental` | 2026-11-04 | 2026-11-04 maintenance run | Tourist tax confirmed: RSD 240 from 15 Oct 2026 (Sl. glasnik 90/2026). The final Belgrade decision's gazette number was not found, so the tag keeps the draft plus Paragraf. |
+| `--risks` | 2026-11-04 | 2026-11-04 maintenance run | SEPA's 2025 report supersedes both air-quality lines; the drop from category III to II comes from a new two-category law, not a reported improvement. |
+| `--mains` | 2026-11-04 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| Cost benchmarks (RS 2026) | 2026-11-04 | 2026-11-04 maintenance run | Transfer tax re-read at ZPI Art. 30; notary and buyer-total rows recomputed from the tariff at RSD 117.37/EUR, the total now stating that it assumes a resale with the tax on the buyer; energetski pasoš and works rows remain est. |
 
 ## Extension TODOs
 
@@ -390,3 +397,4 @@ Energetski pasoš and works rows are est. contractor ranges from the 2026-04 res
   - Totals 73 changed / 92 confirmed / 32 unverifiable. Status footer date unchanged: `--rental`, `--risks` and `--mains` are not fully re-verified
 - **2026-10-27** — Svoj na svome late-filing window re-verified (closed 24 Oct 2026, no extension)
 - **2026-10-28** — RGZ counter filing re-verified (10 walk-in request types since 12 Oct 2026)
+- **2026-11-04** — Maintenance run: closed `--price`, `--tax`, `--rental`, `--work=<profession>`, `--risks`, `--mains`, Cost benchmarks (RS 2026). Playbook-level date now 2026-11-04.

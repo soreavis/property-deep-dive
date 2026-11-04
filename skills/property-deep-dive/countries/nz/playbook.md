@@ -103,7 +103,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 
 | City | Council rates, residential — 2026/27 rating year unless the row says otherwise |
 |---|---:|
-| Auckland Council | $4,375.12 for the average-value home (CV $1,281,500) — ≈0.34% of CV (computed: 4,375.12 / 1,281,500); +7.9% on 2025/26 ($4,054.96) |
+| Auckland Council | $4,375.12 for the average-value home (CV $1,281,500) — ≈0.34% of CV (computed: 4,375.12 / 1,281,500); +7.9% on 2025/26 ($4,054.96; computed: 4,375.12 - 320.16 = 4,054.96) |
 | Wellington City Council | 0.341964 cents per $ of CV incl. GST (general 0.313034 + sector targeted 0.02893) — $3,419.64 on a $1,000,000 CV; excludes the sludge levy, Greater Wellington Regional Council rates (+9.7% average, collected on the WCC invoice) and water (billed by Tiaki Wai from 1 Jul 2026); WCC rates +5.9% average, which includes a 2% average sludge-levy increase |
 | Christchurch City Council | $4,547.11 incl. GST for the average-value home in the draft plan (+7.4% on $4,231.84); $5,307.12 on a $1,000,000 2025 CV (≈0.53%, computed: 5,307.12 / 1,000,000); excludes Environment Canterbury rates; adopted: 7.35% for homeowners (secondary) |
 | Queenstown Lakes | ~0.45% (median ~$5,500) — 2024-2025 est., not re-verified — rates/figures may have changed since; verify at `https://www.qldc.govt.nz/services/rates` |
@@ -119,7 +119,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 - **NO STAMP DUTY**: stamp duty, including conveyance duty on land transfers (Part 2 of the Stamp and Cheque Duties Act 1971), was repealed on 20 May 1999 by s 6 of the Stamp Duty Abolition Act 1999 (1999 No 61) (sources: [legislation.govt.nz — Stamp and Cheque Duties Act 1971](https://legislation.govt.nz/act/public/1971/0051/latest/whole.html), version as at 1 Apr 2025, archived 2025-11-19; [Stamp Duty Abolition Act 1999](https://www.legislation.govt.nz/act/public/1999/61/en/latest/), archived 2026-08-04). The Real Estate Authority's list of additional buying costs names lawyer / conveyancer fees, LIM + building inspection reports, bridging finance and moving costs — no transfer duty among them (2026 data, source: [settled.govt.nz — Thinking about your finances](https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/)). Te Pāti Māori proposes a 5% residential stamp duty (election proposal only — see § Future risk)
 - Legal fees: ~$1,500–$3,000 est. (2026-04 research range, no primary source; calibration: a listing-platform guide gives "Lawyer's fees ($800+)" — Trade Me ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since); get quotes from a lawyer or registered conveyancer
 - LIM report: set by each council — e.g. $575.50 residential at Wellington City Council (2026/27, incl. GST; fast-track +$288) (2026 data, source: [WCC Annual Plan 2026/27 — fees and user charges](https://wellington.govt.nz/-/media/news-and-events/news-and-information/news/files/2026/annual-plan-2026-27-fees-and-user-charges.pdf)); other councils differ — check the council's fees schedule
-- Building report: ~$500–$1,000 est. (2026-04 research range, no primary source; calibration: a Trade Me guide gives "from $400" ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since)
+- Building report: ~$400–$1,000 est. for a standard home (no primary source; inspection firms publish $299–$800 ⚠️ ([Alert Building Inspections](https://alertbuildinginspections.co.nz/building-inspection-costs-explained), 26 Oct 2026), $400–$800 ⚠️ ([Jim's Building Inspections](https://jimsbuildinginspections.co.nz/blog/importance-of-pre-purchase-building-inspection-in-new-zealand), 17 Jun 2025) and $450–$1,000 ⚠️ ([NZ Building Inspections](https://nzbuildinginspections.com/common-building-defects-found-in-nz-homes), undated); price varies with size, age and location; Trade Me guides give around $550 for a standard report, within $350 to over $1,000 ⚠️ ([Trade Me — building report costs](https://www.trademe.co.nz/c/property/article/Building-report-cost-in-nz-)), and "from $400" ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since)
 
 ### Capital gains tax — BRIGHT-LINE TEST
 
@@ -155,7 +155,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 
 ### Total transaction cost (buyer side)
 
-- Resale: ~$2,600–$4,600 est. (computed: legal ~$1,500–$3,000 est. + building report ~$500–$1,000 est. + LIM $575.50 at Wellington City Council; other councils' LIM fees differ) — no stamp duty on top (see § Transaction taxes)
+- Resale: ~$2,500–$4,600 est. (computed, rounded to $100: legal ~$1,500–$3,000 est. + building report ~$400–$1,000 est. + LIM $575.50 at Wellington City Council; other councils' LIM fees differ) — no stamp duty on top (see § Transaction taxes)
 - New build from a GST-registered developer: GST at 15% applies to the sale (see § GST) + the same fees
 
 ### Future risk
@@ -206,7 +206,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 
 #### Other councils
 
-- **Wellington City**: the 2026/27 Annual Plan (adopted 25 Jun 2026) adds a short-term accommodation general-rates differential of 2.6× the base rate (commercial differential: 3.7×); as consulted, it covers houses or units let, or available, for stays under one month for more than 60 days in the financial year, other commercial targeted rates still apply, and single rooms, granny flats, sleepouts and dual-key homes that do not meet the criteria are excluded (2026 data, sources [WCC — Annual Plan adopted](https://wellington.govt.nz/news-and-events/news-and-information/our-wellington/2026/06/wellington-city-confirms-lowest-rates-increase-in-six-years), 25 Jun 2026; [Let's Talk Wellington — Key proposal 1: Short-term accommodation](https://www.letstalk.wellington.govt.nz/mahere-tau-annual-plan-202627/key-proposal-1-short-term-accommodation)). Start date: 1News reports "from July next year" (read against its 12 Jul 2026 date: Jul 2027; secondary ⚠️, [1News](https://www.1news.co.nz/2026/07/12/short-term-accommodation-rate-hike-pressures-airbnb-owners-in-wellington/)) — verify with Wellington City Council rates
+- **Wellington City**: the 2026/27 Annual Plan (adopted 25 Jun 2026) adds a short-term accommodation general-rates differential of 2.6× the base rate (commercial differential: 3.7×); as consulted, it covers houses or units let, or available, for stays under one month for more than 60 days in the financial year, other commercial targeted rates still apply, and single rooms, granny flats, sleepouts and dual-key homes that do not meet the criteria are excluded (2026 data, sources [WCC — Annual Plan adopted](https://wellington.govt.nz/news-and-events/news-and-information/our-wellington/2026/06/wellington-city-confirms-lowest-rates-increase-in-six-years), 25 Jun 2026; [Let's Talk Wellington — Key proposal 1: Short-term accommodation](https://www.letstalk.wellington.govt.nz/mahere-tau-annual-plan-202627/key-proposal-1-short-term-accommodation)). Start date: 1News reports "from July next year" (read against its 12 Jul 2026 date: Jul 2027; secondary ⚠️, [1News](https://www.1news.co.nz/2026/07/12/short-term-accommodation-rate-hike-pressures-airbnb-owners-in-wellington/)); WCC's Rates for 2026/27 sheet shows no short-term accommodation category and no general rate at 2.6× the base ([WCC — Rates for 2026/27](https://wellington.govt.nz/-/media/property-rates-and-building/rates-and-property/rates/files/wellington-city-council-rates-2026-2027.pdf)) — verify with Wellington City Council rates
 - **Christchurch**: District Plan Plan Change 4, rules effective 24 Jul 2023 — hosted visitor accommodation for up to 8 guests generally permitted in most residential and rural zones (notify Council, keep records); unhosted in residential zones up to 60 nights/yr without resource consent (max 8 guests, notify Council, keep records, appoint a local manager), more nights or guests need a resource consent; unhosted in rural zones up to 180 nights/yr; other rules apply in the airport noise contour and to heritage buildings (2023 rules, source [CCC Newsline — Final rules released for short-term visitor accommodation](https://newsline.ccc.govt.nz/news/story/final-rules-released-for-short-term-visitor-accommodation), 26 Jul 2023, archived 2025-05-15 — rates/figures may have changed since; verify at `https://www.ccc.govt.nz/consents-and-licences/resource-consents/residential-and-housing/providing-guest-accommodation`)
 
 ### Tax on rental
@@ -231,17 +231,17 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 
 ### Self-employment
 
-- **Sole trader**: IRD + GST (above $60k turnover)
+- **Sole trader**: IRD + GST (registration required once turnover was at least $60,000 in the last 12 months or is expected to reach it in the next 12) (2026-11-04 verified, source: [IRD — Registering for GST](https://www.ird.govt.nz/gst/registering-for-gst), updated 13 Feb 2025)
 - **Limited company**: Companies Office; must have at least one shareholder and issue at least one share — no minimum capital amount is stated (2026 data, source [Companies Office — Issuing shares in a company](https://companies-register.companiesoffice.govt.nz/help-centre/starting-a-company/issuing-shares-in-a-company/))
 - **Working for Families** tax credits
 
 ### Salary benchmarks (2025 est.)
 
-- Median annual gross (est. ranges, no primary source for the city splits — verify against Stats NZ Labour market statistics (income) and current Seek / Trade Me Jobs salary data; 2025 data — rates/figures may have changed since). Calibration anchor: national median weekly earnings from wages and salaries (all wage and salary earners, part-time included) were $1,419 in the June 2026 quarter (+2.8% YoY), ≈ $73,800/yr (computed: $1,419 × 52); median hourly earnings $35.96 (full-time $38.00, part-time $28.49) (2026 data, source [Stats NZ — Labour market statistics (income): June 2026 quarter](https://www.stats.govt.nz/information-releases/labour-market-statistics-income-june-2026-quarter/)). The city ranges below are est. positions around that national anchor, not published regional medians:
-  - Auckland: ~$80,000–$110,000
-  - Wellington (govt): ~$85,000–$120,000
-  - Christchurch / Hamilton / Tauranga: ~$70,000–$95,000
-  - Smaller cities: ~$60,000–$80,000
+- Median annual gross (est. ranges, no primary source for the city splits — verify against Stats NZ Labour market statistics (income) and current Seek / Trade Me Jobs salary data; 2025 data — rates/figures may have changed since). Calibration anchor: national median weekly earnings from wages and salaries (all wage and salary earners, part-time included) were $1,419 in the June 2026 quarter (+2.8% YoY), ≈ $73,800/yr (computed: $1,419 × 52); median hourly earnings $35.96 (full-time $38.00, part-time $28.49) (2026 data, source [Stats NZ — Labour market statistics (income): June 2026 quarter](https://www.stats.govt.nz/information-releases/labour-market-statistics-income-june-2026-quarter/)). Full-time median hourly earnings of $38.00 give ≈ $79,040/yr (computed: $38.00 × 40 × 52 = $79,040, assuming a 40-hour week). Regional medians, part-time included, as MoneyHub reports them from Stats NZ's New Zealand Income Survey, June 2025 release: Wellington $76,544, Auckland $72,800, Canterbury $69,836, Bay of Plenty $66,924, Waikato $66,560 ([MoneyHub](https://www.moneyhub.co.nz/average-salary-new-zealand.html) ⚠️, updated 11 Jan 2026, 2025 data — rates/figures may have changed since; Stats NZ's own regional table could not be read for verification on 2026-11-04 — check it directly). MoneyBalance gives lower figures (Auckland $68,000, Wellington $75,000, Canterbury $63,000, Waikato $60,000, Bay of Plenty $62,000), but by its own note they are approximate and not tied to a named published dataset, so MoneyHub's are used here ([MoneyBalance](https://moneybalance.co.nz/income/average-salary-new-zealand) ⚠️, updated Oct 2026). The city ranges below are unsourced est. positions, not published regional medians; the three main-centre ranges sit above these regional medians:
+  - Auckland: ~$80,000–$110,000 est.; regional median $72,800 ⚠️ (MoneyHub, from Stats NZ) est.; regional median $72,800 ⚠️ (MoneyHub, from Stats NZ)
+  - Wellington (govt): ~$85,000–$120,000 est.; regional median, all sectors, $76,544 ⚠️ (MoneyHub, from Stats NZ) est.; regional median, all sectors, $76,544 ⚠️ (MoneyHub, from Stats NZ)
+  - Christchurch / Hamilton / Tauranga: ~$70,000–$95,000 est.; regional medians $66,560–$69,836 ⚠️ (MoneyHub, from Stats NZ) est.; regional medians $66,560–$69,836 ⚠️ (MoneyHub, from Stats NZ)
+  - Smaller cities: ~$60,000–$80,000 est.; other regions' medians $63,232–$72,800 ⚠️ (MoneyHub, from Stats NZ) est.; other regions' medians $63,232–$72,800 ⚠️ (MoneyHub, from Stats NZ)
 - **Minimum wage**: **$23.95/hr from 1 Apr 2026** (previously $23.50, +45c); starting-out and training minimum wages $19.16/hr (2026-10-23 verified, source: [Employment NZ — Minimum wage rates and types](https://www.employment.govt.nz/pay-and-hours/pay-and-wages/minimum-wage/minimum-wage-rates-and-types); [MBIE — Minimum wage set for 2026](https://www.mbie.govt.nz/about/news/minimum-wage-set-for-2026))
 
 ---
@@ -271,7 +271,7 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
   - **Hawke's Bay 1931** (Mw 7.4–7.6 / Ms 7.8 — 256 killed, the largest loss of life of any NZ earthquake, per [GeoNet](https://www.geonet.org.nz/earthquake/story/2178228))
 - **Wellington Fault** (Wellington–Hutt Valley segment): estimated rupture probability ~11% in the next 100 years (sensitivity results 4–15%) and ~5% in the next 50 years; the new data cut earlier estimates by ~50% or more (2011 data, source [NZSEE Bulletin Vol. 44 No. 2 — Rhoades, Van Dissen et al. (GNS Science)](https://bulletin.nzsee.org.nz/article/view/238), peer-reviewed — rates/figures may have changed since); curated wording "high probability of a major event in coming decades" (superseded); for the location's shaking likelihood see the NSHM (`https://nshm.gns.cri.nz`)
 - **Auckland**: lower earthquake risk (curated — volcanic field replaces tectonic faults; not confirmed against a primary source; check site-specific shaking likelihood in the NSHM)
-- **NHCover** mandatory natural-disaster insurance via property insurance — covers up to **$300,000 +GST** building damage per event; land cover is limited (generally land within 8 m of the home + the main access way up to 60 m; retaining walls capped at $50,000 +GST, bridges/culverts at $25,000 +GST) (2026 data, source [NHC — About NHCover](https://www.naturalhazards.govt.nz/insurance-and-claims/about-nhcover/))
+- **NHCover** natural-disaster cover, automatic with a home insurance policy that includes fire — covers up to **$300,000 +GST** building damage per event; land cover is limited (generally land within 8 m of the home + the main access way up to 60 m; retaining walls capped at $50,000 +GST, bridges/culverts at $25,000 +GST) (2026 data, source [NHC — About NHCover](https://www.naturalhazards.govt.nz/insurance-and-claims/about-nhcover/))
 
 #### Volcanic
 
@@ -344,9 +344,9 @@ Rates = **general rate × Capital Value (CV) or Land Value (LV)** + targeted rat
 
 | Scenario | Cost (NZD, est. — unsourced) |
 |---|---:|
-| Mains connection | $5,000–$15,000 |
-| Septic upgrade | $15,000–$30,000 |
-| Rainwater tank | $3,000–$8,000 |
+| Mains connection | ~$5,000–$15,000 est. (no primary all-in figure found; council fee alone e.g. $1,800 or $2,470 for a 20mm water connection, 2026 data, source [Waikato District Council — Service connections](https://www.waikatodistrict.govt.nz/services-facilities/water/building-development-and-tradewaste/service-connections), and a development contribution may apply) |
+| Septic upgrade | ~$15,000–$30,000 est. (calibration: one drainlayer's guide lists system $14,000–$22,000 + wastewater report $900–$1,800 + consent fees $1,000–$3,000, all + GST; computed: 14,000 + 900 + 1,000 = 15,900 and 22,000 + 1,800 + 3,000 = 26,800 + GST ⚠️, undated guide filed under Jul 2024, 2024 data, source [Woods Drainage — Septic Tank Guide](https://woodsdrainage.co.nz/wp-content/uploads/2024/07/Septic-Tank-Guide.pdf) — rates/figures may have changed since) |
+| Rainwater tank | ~$3,000–$8,000 est. (calibration: 25,000-litre plastic tank on sale at $3,295, was $3,495, or $4,895 with accessories, was $5,845.80 ⚠️ vendor prices, 2026 data, source [Big Water Tanks](https://bigwatertanks.co.nz); upper end unsourced; check what delivery and installation add) |
 | Bored well | $10,000–$25,000 |
 
 est. — unsourced ballpark ranges; no primary source confirmed. Actual cost depends on site access, ground conditions, distance to the network, tank size / well depth, and council consent and development-contribution fees. In Auckland a new connection (or an existing connection that increases its use) also pays Watercare's one-off Infrastructure Growth Charge, which funds bulk infrastructure, not local network upgrades (2026 data, source [Watercare — Infrastructure Growth Charge](https://www.watercare.co.nz/builders-and-developers/tools-fees-and-resources/infrastructure-growth-charge)). Verify with 2–3 local contractor quotes and the council / water provider's current fees.
@@ -357,11 +357,11 @@ est. — unsourced ballpark ranges; no primary source confirmed. Actual cost dep
 
 | Work | Cost (NZD; est. = contractor / practitioner quote range from the 2026-04 research, no primary source — verify with 2–3 local quotes) |
 |---|---:|
-| Building report | ~$500–$1,000 est. (Trade Me guide: from $400 ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since) |
+| Building report | ~$400–$1,000 est. (see `--tax` § Transaction taxes; Trade Me guide: from $400 ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since) |
 | LIM report | council fee — e.g. $575.50 Wellington City Council residential, 2026/27 incl. GST (see `--tax` § Transaction taxes) |
 | Solicitor / conveyancer | ~$1,500–$3,000 est. (Trade Me guide: $800+ ⚠️, 2024 data, updated 29 Oct 2024 — rates/figures may have changed since) |
 | Body Corporate disclosure | ~$300–$700 est. |
-| **Total transaction cost (buyer)** | **~$2,600–$4,600 est.** (computed in `--tax` § Total transaction cost) |
+| **Total transaction cost (buyer)** | **~$2,500–$4,600 est.** (computed in `--tax` § Total transaction cost) |
 | Roof restoration | ~$5,000–$15,000 est. |
 | Earthquake strengthening (older builds) | ~$30,000–$200,000+ est. |
 | Asbestos abatement | ~$5,000–$30,000 est. |
@@ -389,7 +389,7 @@ Calibration: est. rows have not been re-quoted since the 2026-04 research — ra
 
 ## Caveats unique to NZ
 
-- **NO STAMP DUTY** (abolished 1999) — UNIQUE in OECD; transaction cost ~$3-5k
+- **NO STAMP DUTY** since 20 May 1999 (Stamp Duty Abolition Act 1999); buyer transaction cost ~$2,500–$4,600 est. (computed in `--tax` § Total transaction cost)
 - **NO general CGT** but **bright-line test 2 years** (property sold on/after 1 Jul 2024) — sells within 2 years = ordinary income
 - **7 Nov 2026 election proposals** (none legislated): Labour 28% CGT from 1 Jul 2027 on residential investment + commercial property; Greens 10-year bright-line + interest denial; Te Pāti Māori 5% residential stamp duty — see `--tax` § Future risk
 - **Foreign-buyer ban (2018)** — AU + SG citizens exempt; off-the-plan apartments only in developments with a developer exemption certificate; **since 6 Mar 2026** AIP / Investor 1 / Investor 2 resident visa holders can seek consent for a home priced more than NZ$5m (see `--tax` § Foreign-buyer regime)
@@ -403,7 +403,7 @@ Calibration: est. rows have not been re-quoted since the 2026-04 research — ra
 - **GST on STR via platforms** since 1 Apr 2024
 - **Cyclone Gabrielle 2023** + Auckland floods 2023 — major recent reform drivers
 - **NHCover building cap $300k+GST** — high-value houses need top-up insurance
-- **LIM report ~$300-500** mandatory in practice
+- **LIM report** (council-set fee, e.g. $575.50 residential at Wellington City Council, 2026/27 incl. GST; see `--tax` § Transaction taxes) mandatory in practice
 - **Māori land** (Te Ture Whenua Māori Act 1993) — unique constraints, often 99-year leases
 - **Rating valuations** (CV/LV) at least every 3 years per council (source: [LINZ — Property valuation in NZ](https://www.linz.govt.nz/guidance/property-valuation/property-valuation-new-zealand)); not market value
 - **Rental loss ring-fencing** — cannot offset other income
@@ -451,8 +451,18 @@ Calibration: est. rows have not been re-quoted since the 2026-04 research — ra
 
 ✅ **Fully populated** as of 2026-04-25.
 **Coverage check**: pricing (REINZ HPI + QV + Trade Me), traffic, tax (rates + bright-line + GST + zero stamp duty), rental (RTA + Healthy Homes), work, risks (NSHM 2022 + Cyclone Gabrielle 2023 + leaky homes), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for REINZ + QV September 2026 price benchmarks + bright-line 2-yr (property sold on/after 1 Jul 2024) + interest deductibility 100% from 1 Apr 2025 + foreign-buyer ban (AU+SG exempt) with the $5m+ investor-visa pathway in force since 6 Mar 2026 + NHCover $300k+GST cap + STR GST collection from 1 Apr 2024 + minimum wage $23.95/hr from 1 Apr 2026 (each re-checked 2026-10-23 against REINZ / QV / IRD / LINZ / NHC / Employment NZ); MEDIUM for the Auckland APTR night bands (last re-checked 2026-08-07), the $5m pathway's one-property limit (secondary source only) and the 7 Nov 2026 election proposals (secondary sources; party proposals, not law); LOW for the council rates table + "rates frozen" line, listing-platform counts, city salary ranges, cost and mains-cost benchmarks (est., unsourced), the leaky-homes damage est. and the climate / sea-level projections (not re-verified).
+**Confidence**: HIGH for REINZ + QV September 2026 price benchmarks + bright-line 2-yr (property sold on/after 1 Jul 2024) + interest deductibility 100% from 1 Apr 2025 + foreign-buyer ban (AU+SG citizens exempt) with the $5m+ investor-visa pathway in force since 6 Mar 2026 + NHCover $300k+GST cap + STR GST collection from 1 Apr 2024 + minimum wage $23.95/hr from 1 Apr 2026 (each re-checked 2026-10-23 against REINZ / QV / IRD / LINZ / NHC / Employment NZ); MEDIUM for the Auckland APTR night bands (last re-checked 2026-08-07), the $5m pathway's one-property limit (secondary source only) and the 7 Nov 2026 election proposals (secondary sources; party proposals, not law); LOW for the council rates table + "rates frozen" line, listing-platform counts, city salary ranges, cost and mains-cost benchmarks (est., unsourced), the leaky-homes damage est. and the climate / sea-level projections (not re-verified).
 **Last verified**: 2026-08-07 (Auckland APTR suspension since 2020 + graduated general-rates/CATTR STR business uplift re-verified against Auckland Council; other sections unchanged). Rental / tax tracker entries re-checked 2026-09-24 (October and November regwatch waves, the November wave run early; see shared/regulatory-watch.md). Rental / tax tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
+
+### Per-section verification (overrides playbook-level date)
+
+| Section | Last verified | Verifier | Notes |
+|---|---|---|---|
+| `--price` | 2026-10-23 | 2026-11-04 maintenance run | Hamilton's QV average ($776,357 in the QV series; the September release text prints $776,537) and its -0.3% annual change were confirmed against QV's September 2026 release and HPI data. The floor-area method for price per sqm matches Stats NZ's definition. |
+| `--rental` | 2026-10-23 | 2026-11-04 maintenance run | Queenstown Lakes rating bands and Auckland's night-based rating split were confirmed against QLDC and Auckland Council. Wellington's 2.6× short-term accommodation differential was confirmed against Wellington City Council; its Jul 2027 start still rests on 1News, and the council's 2026/27 rates sheet shows no such rate yet. |
+| `--risks` | 2026-10-23 | 2026-11-04 maintenance run | The Earth Sciences NZ merger and the 2022 National Seismic Hazard Model finding were confirmed against its site and the archived GNS page. NHCover is now described as automatic with a fire-inclusive home policy, per the Natural Hazards Commission. |
+| `--mains` | 2026-10-23 | 2026-11-04 maintenance run | The three cost ranges remain estimates because no primary source publishes all-in figures. Each now carries a calibration from a council fee (Waikato District Council) or supplier prices (Woods Drainage, Big Water Tanks). |
+| Cost benchmarks (NZ 2026) | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
 
 ## Extension TODOs
 
@@ -487,3 +497,4 @@ Calibration: est. rows have not been re-quoted since the 2026-04 research — ra
   - **Verification authorities** — 7 / 3 / 4 / 0 (fully re-verified): Earth Sciences NZ / GeoNet partnership, NHC claim-history checks, lawyer or registered conveyancer (settled.govt.nz).
   - **Source URL templates** — 11 / 3 / 7 / 1: GNS re-pointed to earthsciences.nz and NIWA to niwa.co.nz; NZTA open data, Natural Hazards Portal and Tiaki Wai added; the NZTA traffic-volumes page could not be checked (bot wall).
   - **Gap-closing pass** (sources read by 2026-11-03) — confirmed / changed / relabelled: `--price` 2 / 2 / 1, `--rental` 4 / 1 / 0, `--work` 0 / 2 / 2, `--tax` 4 / 7 / 4, Cost benchmarks 0 / 2 / 10, `--mains` 1 / 0 / 1 — all six closed; `--risks` 3 / 10 / 9, still open (curated lines above); totals 14 / 24 / 27. Council rates table rebuilt for 2026/27 from Auckland, Wellington City and Christchurch sources (Queenstown Lakes stays est.); LIM fee now given as set by each council (e.g. Wellington City Council $575.50, 2026/27) and the buyer total recomputed to ~$2,600–$4,600 est.; Auckland APTR bands, [2023] NZSC 53 and the QLDC 90-night cap confirmed; NIWA (AR5-era) climate and sea-level figures replace the unsourced ranges; the $5m pathway's one-property limit (Country profile and `--tax`) re-sourced from Bell Gully (secondary) to LINZ investor-visa guidance (26 Mar 2026).
+- **2026-11-04** — Maintenance run: closed `--price`, `--rental`, `--risks`, `--mains`, Cost benchmarks (NZ 2026); still open `--tax`, `--work=<profession>`.

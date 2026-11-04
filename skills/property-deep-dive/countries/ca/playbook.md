@@ -60,7 +60,7 @@ ISO2: `ca`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Compute
 
-1. CAD/sq ft = price / **square footage** (sqft is dominant unit, not m²)
+1. CAD/sq ft = price / **square footage** (sq ft is the customary listing unit, not m²: a listing-platform convention, no official statistic found; Alberta's regulator has licensees report RMS size in square metres or square feet, source [RECA — Guide to the Residential Measurement Standard](https://www.reca.ca/wp-content/uploads/Residential-Measurement-Standard-Licensee-Guide-1-2.pdf), Fifth Edition, January 2024 — rates/figures may have changed since)
 2. Cross-check **Realtor.ca** sold-price history + Teranet for closed sales
 3. **HPI vs average**: HPI strips out luxury/distressed; average runs above HPI. Computed from the Sep 2026 table above: TRREB +9.7% ($1,006,409 / $917,600), Ottawa +10.0% ($685,640 / $623,500), Edmonton +10.2% ($466,080 / $423,100), Calgary +14.0% ($646,198 / $566,700), Halifax-Dartmouth +8.1% ($585,650 / $541,700), national +2.3% ($666,538 / $651,400). The gap moves with each market's sales mix, so compute it from the target board's own HPI and average instead of applying a fixed range
 4. **Convert CAD to EUR/USD** at current FX
@@ -156,7 +156,7 @@ Provincial scale (2026, indexed yearly): 0.5% to $62,900, 1% $62,900–$315,000,
 ### Other taxes
 
 - **Federal GST 5%** on new builds; HST provinces charge the harmonized rate instead — **13% ON, 14% NS** (cut from 15% on 1 Apr 2025), **15% NB / NL / PE**; BC is not an HST province (GST 5% applies; BC's 7% PST is a separate provincial sales tax) (2026 data, source CRA GST/HST rates page, last modified 2025-04-01)
-- **Underused Housing Tax (UHT)**: **ELIMINATED for 2025 and later calendar years** by Bill C-15, Budget 2025 Implementation Act, No. 1 (S.C. 2026, c. 3, Royal Assent 26 Mar 2026): no tax payable and no return required for 2025+ (UHT Act ss. 1.1, 6.1); 2022-2024 returns and liabilities remain. Repeal of the UHT Act itself is enacted but not in force until 1 Jan 2035 (S.C. 2026, c. 3, s. 169) (sources: Justice Laws UHT Act, modified 2026-10-15; Justice Laws S.C. 2026, c. 3; Finance Canada C-15 briefing binder)
+- **Underused Housing Tax (UHT)**: **ELIMINATED for 2025 and later calendar years** by Bill C-15, Budget 2025 Implementation Act, No. 1 (S.C. 2026, c. 3, Royal Assent 26 Mar 2026): no tax payable and no return required for 2025+ (UHT Act ss. 1.1, 6.1); 2022-2024 returns and liabilities remain. Repeal of the UHT Act itself is enacted but not in force until 1 Jan 2035 (S.C. 2026, c. 3, s. 169) (sources: Justice Laws UHT Act, current to 2026-10-19, last amended 2026-03-26; Justice Laws S.C. 2026, c. 3; Finance Canada C-15 briefing binder)
 - **BC Speculation & Vacancy Tax (SVT)**: **rates DOUBLED for 2026**:
   - Foreign owners + untaxed worldwide earners (incl. satellite families): **3%** (was 2%)
   - Canadian citizens / PRs who are not untaxed worldwide earners: **1%** (was 0.5%)
@@ -350,20 +350,20 @@ Illustrative contractor estimates, not quoted figures — verify with local quot
 | Scenario | Cost (CAD, est.) |
 |---|---:|
 | Water/sewer connection (urban), per service | ~$5,000–$15,000 (est.; Toronto 2026 City fees: new 25 mm water service + meter $6,818.29, new sanitary sewer connection in the road allowance $14,718.78 → $21,537.07 for both (computed); source [City of Toronto — Water rates & fees](https://www.toronto.ca/services-payments/property-taxes-utilities/utility-bill/water-rates-fees/), effective 1 Jan 2026) |
-| Mains-line extension | $20,000–$60,000+ |
-| Septic replacement | $15,000–$35,000 |
-| Bored well | $8,000–$20,000 |
+| Mains-line extension | ~$20,000–$60,000+ (est.; illustrative contractor range, no general government cost figure found: municipal charges are set per project, e.g. Peel Region splits 100% of the actual cost among benefiting properties by lot frontage, [Peel Region — Owner-initiated local improvements](https://peelregion.ca/construction/projects/owner-initiated-local-improvements), viewed 2026-11-04 — verify with local quotes) |
+| Septic replacement | ~$15,000–$35,000 (est.; illustrative contractor range, no government cost figure found — verify with local quotes) |
+| Bored well | ~$8,000–$20,000 (est.; illustrative contractor range, no government cost figure found — verify with local quotes) |
 
 ---
 
 ## Cost benchmarks (CA 2026)
 
-Service and works rows are illustrative est. ranges, not quoted figures (no primary source publishes these ranges; contractor and professional fees vary by province, city and house size) — verify with local quotes; where CMHC's homebuyer guide gives a figure it is shown in the row ([CMHC — How much will my home really cost?](https://cmhc-schl.gc.ca/en/finance-and-investing/mortgage-loan-insurance/the-resource/how-much-will-my-home-really-cost), page undated, viewed 2026-11-03). FCAC tells buyers to budget 1.5–4% of the purchase price for upfront closing costs, naming home inspection, legal fees, property tax adjustments and title insurance as examples (land transfer tax not mentioned) ([canada.ca — Buying a home](https://www.canada.ca/en/financial-consumer-agency/services/buying-home.html), page dated 2025-10-20 — rates/figures may have changed since). Transaction-cost rows are computed from the `--tax` rates.
+Service and works rows are illustrative est. ranges, not quoted figures (no primary source publishes these ranges; contractor and professional fees vary by province, city and house size) — verify with local quotes; where CMHC's homebuyer guide gives a figure it is shown in the row ([CMHC — How much will my home really cost?](https://cmhc-schl.gc.ca/en/finance-and-investing/mortgage-loan-insurance/the-resource/how-much-will-my-home-really-cost), page undated; viewed 2026-11-04). FCAC tells buyers to budget 1.5–4% of the purchase price for upfront closing costs, naming home inspection, legal fees, property tax adjustments and title insurance as examples (land transfer tax not mentioned) ([canada.ca — Buying a home](https://www.canada.ca/en/financial-consumer-agency/services/buying-home.html), page dated 2025-10-20 — rates/figures may have changed since). Transaction-cost rows are computed from the `--tax` rates.
 
 | Work | Cost (CAD, est.) |
 |---|---:|
 | Home inspection | $400–$700 (est.; CMHC: "around $500") |
-| Title insurance | $200–$700 |
+| Title insurance | ~$200–$700 (est.; no single market price: FSRA says the one-time premium varies with property value and insurer and gives no figure, [FSRA — Understanding title insurance](https://www.fsrao.ca/consumers/property-and-other-insurance/understanding-title-insurance), archived 2026-09-04. Calibration, one Ontario insurer: TitlePLUS base premiums $175.00 new condo, $195.00 resale condo, $338.89 new house, $385.74 resale house, plus $0.90 per $1,000 of price over $500K, 8% PST extra; a $1M resale house is $385.74 + 500 × $0.90 = $835.74 before PST (computed), above this range, [TitlePLUS (LAWPRO) — Ontario Residential Premiums at a Glance](https://cdnc.heyzine.com/files/uploaded/3fb88f43468d2a6720f324d0d93dcf6beec4860b.pdf), effective 1 Mar 2025 — rates/figures may have changed since) |
 | Real estate lawyer / notary | $1,500–$3,000 (est.; CMHC gives only a $500 minimum) |
 | Survey / RPR / certificate of location | $700–$2,500 (est.; CMHC range $1,000–$2,000) |
 | Land Transfer Tax (varies) | see above |
@@ -371,12 +371,12 @@ Service and works rows are illustrative est. ranges, not quoted figures (no prim
 | **Total transaction cost (Toronto, $1M, FTB)** | **~$27–29k (2.7–2.9%)**, computed: LTT $16,475 − $4,000 + MLTT $16,475 − $4,475 + fees |
 | **Total transaction cost (BC, $1.5M)** | **~$30–32k (2.0–2.2%)**, computed: PTT $28,000 + fees |
 | **Total transaction cost (BC foreign, $1.5M, APTT district)** | **~$330–332k (22%)**, computed: PTT $28,000 + 20% APTT $300,000 + fees |
-| Roof (asphalt shingle) | $8,000–$15,000 |
-| Window replacement | $500–$1,200 each |
-| Asbestos abatement | $5,000–$30,000+ |
-| Vermiculite removal | $10,000–$40,000+ |
-| Knob-and-tube re-wire | $8,000–$15,000 |
-| Energy retrofit | $30,000–$80,000 |
+| Roof (asphalt shingle) | ~$8,000–$15,000 (est.; illustrative contractor range, no primary source — verify with local quotes) |
+| Window replacement | ~$500–$1,200 each (est.; illustrative contractor range, no primary source — verify with local quotes) |
+| Asbestos abatement | ~$5,000–$30,000+ (est.; illustrative contractor range, no primary source — verify with local quotes) |
+| Vermiculite removal | ~$10,000–$40,000+ (est.; illustrative contractor range, no primary source — verify with local quotes) |
+| Knob-and-tube re-wire | ~$8,000–$15,000 (est.; illustrative contractor range, no primary source — verify with local quotes) |
+| Energy retrofit | ~$30,000–$80,000 (est.; illustrative contractor range, no primary source — verify with local quotes) |
 | Heat pump installation | $8,000–$20,000 (est., stated as net of rebates; rebate basis unverified — federal Greener Homes Grant CLOSED, see Active fiscal incentives) |
 
 ## Active fiscal incentives (2025-2026)
@@ -404,7 +404,7 @@ Service and works rows are illustrative est. ranges, not quoted figures (no prim
 - **Federal foreign-buyer ban** until **1 Jan 2027** (Prohibition Act in force 1 Jan 2023; repeal deferred to 1 Jan 2027 by Budget Implementation Act, 2024, No. 1, S.C. 2024, c. 17, s. 149)
 - **Provincial fragmentation extreme** — each province has different cadastre, LTT, rent control, condo law
 - **BC vs ON major divergence** — BC PTT 1-3% + 2% over $3M + 20% APTT on foreign buyers (5 regional districts); ON LTT 0.5-2.5% + Toronto MLTT (up to 8.6% above $20M) + 25% ON NRST on foreign buyers (+10% Toronto MNRST)
-- **UHT eliminated for 2025+** — no tax payable and no return required for 2025 and later calendar years (UHT Act ss. 1.1 and 6.1, S.C. 2026, c. 3); 2022–2024 returns and liabilities remain; the repeal of the Act itself (S.C. 2026, c. 3, s. 169) is listed as not in force (2026 data, source [Justice Laws — Underused Housing Tax Act](https://laws-lois.justice.gc.ca/eng/acts/U-0.5/FullText.html), current to 2026-09-30)
+- **UHT eliminated for 2025+** — no tax payable and no return required for 2025 and later calendar years (UHT Act ss. 1.1 and 6.1, S.C. 2026, c. 3); 2022–2024 returns and liabilities remain; the repeal of the Act itself (S.C. 2026, c. 3, s. 169) is listed as not in force (2026 data, source [Justice Laws — Underused Housing Tax Act](https://laws-lois.justice.gc.ca/eng/acts/U-0.5/FullText.html), current to 2026-10-19)
 - **BC SVT rates DOUBLED 2026** — foreign / untaxed worldwide earners 3%, Canadian citizens / PRs 1%; foreign rate 4% from the 2027 tax year (S.B.C. 2026, c. 5)
 - **Vancouver Empty Homes Tax 3%** + **Toronto Vacant Home Tax 3%**
 - **BC LOTR (Land Owner Transparency Registry)** — free public beneficial-owner search since Apr 2024 (UNIQUE in Canada)
@@ -456,6 +456,8 @@ Service and works rows are illustrative est. ranges, not quoted figures (no prim
 
 ## Status
 
+✅ Fast-changing sections re-verified as of 2026-10-23; each section's date is in the Per-section verification table.
+
 ✅ **Fully populated** as of 2026-04-25 (Vancouver board name (Greater Vancouver REALTORS) corrected 2026-09-18 per gvrealtors.ca). Ownership tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md).
 **Coverage check**: pricing (CREA + provincial boards), traffic, tax (extreme provincial divergence), rental (RTA per province), work, risks (wildfire + flood + earthquake + permafrost + radon), mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for `--rental` (re-verified 2026-10-23), the Sep 2026 / Q3 2026 `--price` benchmark rows (each sourced to CREA or its board), the `--work` StatCan 2024 CMA medians and federal minimum wage, the `--risks` rows sourced to government and regulator pages, the climate projections (ECCC Canada's Changing Climate Report 2026) and the tax facts re-checked in the 2026-10-23 refresh and gap-closing pass: ON LTT + Toronto MLTT tiers from 1 Apr 2026, BC PTT / APTT, BC SVT 2026 doubling (S.B.C. 2026, c. 5), UHT eliminated for 2025+ (S.C. 2026, c. 3), 50% capital-gains inclusion (2/3 proposal cancelled 21 Mar 2025), CRA 2026 marginal-rate brackets, Montreal 2026 rates computed from the city's billing data, foreign-buyer ban to 1 Jan 2027 (S.C. 2024, c. 17, s. 149); MEDIUM for the post-2027 foreign-buyer regime (review under way, nothing tabled located by 2026-11-03), the Ottawa property-tax row (est. from draft-budget figures), the AB RPR row (law-firm source), the Cost benchmarks inspection / lawyer / survey ranges (est.; CMHC figures shown in the rows: inspection "around $500", lawyer $500 minimum, survey $1,000–$2,000), the `--mains` urban connection range (est., calibrated on Toronto 2026 fees) and `--traffic` city AADT layers (not re-verified); LOW for the contractor cost ranges with no primary price source (`--mains` extension, septic and well rows; Cost benchmarks title-insurance and works rows; est.).
@@ -464,15 +466,16 @@ Service and works rows are illustrative est. ranges, not quoted figures (no prim
 
 | Section | Last verified | Verifier | Notes |
 |---|---|---|---|
-| `--price` | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | All 9 benchmark rows sourced to CREA or the boards (Montreal and Winnipeg from the refresh, the others re-checked 2026-11-03); national Composite MLS® HPI $651,400 and Halifax-Dartmouth HPI $541,700 added from CREA's HPI data; Calgary -0.82% and $646,198 avg from the CREB stats package; HPI-vs-average ratios recomputed; Teranet and QPAREB confirmed; Realtor.ca MLS share relabelled data not publicly available |
-| `--tax` | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | Montreal computed for all 19 boroughs from the city's 2026 billing data, Quebec school tax 2026-2027 added; Ottawa est. ~1.26% with inputs shown; CRA 2026 brackets (federal 14–33%); 50% inclusion read in ITA s. 38(a), $250k threshold re-attributed to Finance Canada; Toronto MLTT council date confirmed; Bloomberg attribution replaced by Global News; BC APTT and Vancouver EHT re-confirmed |
-| `--rental` | 2026-10-23 | 2026-10-23 refresh wave | ON/BC/AB/QC rent rules, Vancouver / BC and Toronto STR rules, CITQ, Part XIII / NR6 and interest deductibility checked against primary sources; 10 changed, 11 confirmed |
-| `--work` | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | City salary ranges replaced by StatCan Table 11-10-0239-01 2024 CMA medians (ages 25–54); federal minimum wage re-read on the ESDC release (2026-11-03); $200 incorporation and $30,000 GST/HST threshold confirmed; Workopolis (part of Indeed, archived 2026-10-17), WSIB, WorkSafeBC and AWCBC checked; CA designation updated to CPA |
-| `--risks` | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | Tornado, WUI insurance, pre-1950, UFFI, Poly-B, SPIS, title insurance, Form B / F, Status Certificate, CWFIS and ECCC rows sourced to Get Prepared, IBC / FCAC, Health Canada / ESA, Alberta Municipal Affairs and the court-approved Shell notice, RECO, LSO / FSRA, BC Gov, the Condominium Authority of Ontario, NRCan and ECCC; cladding register relabelled data not publicly available; radon figures re-read on Health Canada; dated events (Toronto 2013 / 2024, Calgary 2013, Charlevoix 1925 M6.2, 1998 ice storm, Fiona 2022) rest on the 2026-10-23 refresh; other lines with no source carry no figures |
+| `--price` | 2026-10-23 | 2026-11-04 maintenance run | Square feet is now described as a listing convention, not a measured fact; RECA's Residential Measurement Standard guide shows Alberta licensees report size in both square metres and square feet. |
+| `--tax` | 2026-10-23 | 2026-11-04 maintenance run | Vancouver, Toronto, Calgary, Edmonton and Halifax rates, the Ontario, Toronto and BC transfer-tax scales and the first-time buyer rebates match the municipal and provincial pages. The Underused Housing Tax entry now cites the Act as current to 2026-10-19, and the foreign buyer ban still has no successor measure ahead of Budget 2026 on 5 Nov 2026. |
+| `--rental` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| `--work=<profession>` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| `--risks` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
 | Climate change projections (in `--risks`) | 2026-10-23 | 2026-10-23 refresh wave | Re-sourced to ECCC Canada's Changing Climate Report 2026; insurance-premium line carries no number |
 | Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | 11 templates checked by page content; LOTR redirect and Realtor.ca pattern updated |
 | Country profile — foreign-buyer ban line only | 2026-10-23 | 2026-10-23 refresh wave | 1 Jan 2027 end date matches Justice Laws (current to 2026-09-30); rest of the profile not fully re-verified |
-| Cost benchmarks (CA 2026) | 2026-10-23 | 2026-10-23 refresh + gap-closing pass | 4 computed transaction rows re-derived from the `--tax` rates; CMHC figures added to the inspection, lawyer and survey rows; title insurance and works rows stay est. (no primary price source) |
+| Cost benchmarks (CA 2026) | 2026-10-23 | 2026-11-04 maintenance run | CMHC's homebuyer figures and FCAC's 1.5–4% closing-cost guide are unchanged. Title insurance and works rows are marked as est. because no primary source publishes them, and FSRA says title premiums vary by property value and insurer. |
+| `--mains` | 2026-10-23 | 2026-11-04 maintenance run | Mains extension, septic and bored well rows are marked as illustrative contractor est. ranges, since no government cost figure was found; verify with local quotes. |
 
 Other sections were partly refreshed on 2026-10-23 but keep unverified items, so they default to the Status footer date: Country profile, `--traffic`, `--mains`, Active fiscal incentives, Common listing platforms, Caveats unique to CA, Reddit / forum sources, Verification authorities (see Update history).
 
@@ -513,3 +516,4 @@ Other sections were partly refreshed on 2026-10-23 but keep unverified items, so
   - Source URL templates 2 / 9 / 0 — LOTR redirect, Realtor.ca pattern
   - Verification authorities 0 / 0 / 1 — no content change
   - Gap-closing pass (confirmed / changed / relabelled): `--price` 1 / 2 / 4, `--tax` 4 / 5 / 3, `--work` 3 / 2 / 0, `--risks` 1 / 11 / 1 and Cost benchmarks 4 / 0 / 5 — closed; `--mains` 0 / 1 / 2 — patched, still open; total 13 / 21 / 15. Main changes: national and Halifax-Dartmouth MLS® HPI levels from CREA's HPI data, Calgary YoY and average from the CREB stats package, HPI-vs-average ratios recomputed, Realtor.ca MLS share relabelled data not publicly available (also in Common listing platforms); city salary ranges replaced by StatCan 2024 CMA medians, Workopolis, WSIB, WorkSafeBC and AWCBC checked, CA designation updated to CPA; Montreal property tax computed for all 19 boroughs, Quebec school tax added, Ottawa est. with inputs shown, CRA 2026 marginal-rate brackets, $250k threshold re-attributed to Finance Canada, Bloomberg attribution replaced by Global News, Budget 2026 date added; CMHC figures added to three Cost benchmarks rows; tornado, WUI insurance, build-era, condo and strata document, title insurance, SPIS and CWFIS rows sourced, cladding register relabelled; `--mains` wells shares from StatCan 2023 data and the urban connection row calibrated on Toronto 2026 fees
+- **2026-11-04** — Maintenance run: closed `--price`, `--tax`, `--rental`, `--work=<profession>`, `--risks`, `--mains`, Cost benchmarks (CA 2026). Playbook-level date now 2026-10-23.

@@ -48,7 +48,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 | **CABA Caballito** | avg $2,428 (Sep 2026) | n/a |
 | **Tigre municipio, incl. Nordelta** (GBA Norte) | avg $2,771 (Sep 2026) | +4.2% YoY |
 | **Pilar municipio** (GBA Norte) | avg $1,940 (Sep 2026) | −0.7% YoY |
-| **Mendoza city** | median $1,092 (TuLugar, Oct 2026); by sección $538–$2,179 | $1,091 Sep vs $1,118 Aug 2026; no YoY series |
+| **Mendoza city** | median $1,092 (TuLugar, Nov 2026); by sección $538–$2,179 | $1,091 Sep vs $1,118 Aug 2026; no YoY series |
 | **Córdoba city** | avg $1,474 (Zonaprop, Mar 2026, latest quarterly); median $1,420 (TuLugar, Oct 2026) | +8.8% YoY USD to Mar 2026 |
 | **Bariloche apartments** | portal medians $3,051–$3,398 (TuLugar $3,398 Sep 2026; TheLatinvestor Oct 2026 compilation: TuLugar $3,067, Roomix $3,051, PubliqueInmuebles $3,300) | n/a — thin, volatile samples |
 | **Bariloche premium** (Carihue, Melipal, Villa Catedral, Arelauquen; lake-view Playa Bonita / Llao Llao / along Bustillo) | medians $3,571 (Arelauquen) – $4,060 (Carihue) (TuLugar via TheLatinvestor, Oct 2026); lake-view units ask est. $3,500–$6,500 (TheLatinvestor estimate from Zonaprop + Properati listings) | n/a |
@@ -56,7 +56,7 @@ ISO2: `ar`. Status: ✅ Fully populated (researched 2026-04).
 | **Bariloche houses** | $1,482/m² (TuLugar, Oct 2026) vs about $2,000/m² built (TheLatinvestor, Oct 2026); 56% of all listings ask < $200k | n/a — sources disagree |
 | **Mar del Plata** | median $1,902 (TuLugar, Oct 2026) | $1,901 Sep vs $1,912 Aug 2026; no YoY series |
 
-Sources (2026 data): Zonaprop Index CABA + GBA Norte September 2026 reports and Córdoba Q1 2026 report (`https://www.zonaprop.com.ar/blog/zpindex`) — listing platform, asking prices, apartments; Índice M² Real September 2026 (`https://www.reporteinmobiliario.com/`) — closing prices from concluded sales; TuLugar market pages October 2026 (`https://tulugar.com/es/mercado/argentina/<city>`) — listing aggregator medians; TheLatinvestor Bariloche guides (updated October 2026; area medians quoted from TuLugar, lake-view and outer-barrio ranges are its own estimates from listings) — secondary aggregator. Asking prices are seller-controlled and run above closings (CABA gap −4.75%, Sep 2026). Barrio / municipio / city figures are area-level averages or medians, not a valuation of any specific parcel.
+Sources (2026 data): Zonaprop Index CABA + GBA Norte September 2026 reports and Córdoba Q1 2026 report (`https://www.zonaprop.com.ar/blog/zpindex`) — listing platform, asking prices, apartments; Índice M² Real September 2026 (`https://www.reporteinmobiliario.com/`) — closing prices from concluded sales; TuLugar market pages October–November 2026 (`https://tulugar.com/es/mercado/argentina/<city>`) — listing aggregator medians; TheLatinvestor Bariloche guides (updated October 2026; area medians quoted from TuLugar, lake-view and outer-barrio ranges are its own estimates from listings) — secondary aggregator. Asking prices are seller-controlled and run above closings (CABA gap −4.75%, Sep 2026). Barrio / municipio / city figures are area-level averages or medians, not a valuation of any specific parcel.
 
 ### Compute
 
@@ -232,7 +232,7 @@ Computed with the 2026 sellos rates above, assuming a 50/50 sellos split (custom
 | **SEGEMAR** | `https://www.argentina.gob.ar/economia/segemar` (legacy `www.segemar.gov.ar` fails over HTTPS and HTTP-redirects here, 2026-10-23) | Geology + geohazards; performs INPRES functions since Decreto 396/2025 |
 | **OAVV — Observatorio Argentino de Vigilancia Volcánica (SEGEMAR)** | `https://oavv.segemar.gob.ar/` | Volcanic alerts; monitors Copahue, Domuyo, Laguna del Maule, Lanín, Maipo, Planchón-Peteroa, San José, Tromen, Tupungatito, Isla Decepción; 2024 volcanic-risk ranking |
 | **OVDAS Chile** (cross-border Patagonia) | — | Volcanic monitoring |
-| **SMN (Servicio Meteorológico Nacional)** | `https://www.smn.gob.ar/` (could not be read for verification on 2026-10-23 — check it directly; institutional page `https://www.argentina.gob.ar/smn`) | Weather, climate |
+| **SMN (Servicio Meteorológico Nacional)** | `https://www.smn.gob.ar/` (could not be read for verification on 2026-11-04 — check it directly; institutional page `https://www.argentina.gob.ar/smn`) | Weather, climate |
 | **INA (Instituto Nacional del Agua)** — an organizational unit of the Secretaría de Obras Públicas since Decreto 396/2025 | `https://www.argentina.gob.ar/ina` (legacy `www.ina.gob.ar` redirects here) | Hydrology, flood; Alerta Hidrológico Cuenca del Plata |
 
 ### Specific risks
@@ -301,10 +301,10 @@ Computed with the 2026 sellos rates above, assuming a 50/50 sellos split (custom
 
 | Scenario | Cost (USD) |
 |---|---:|
-| Mains connection | $2,000–$5,000 |
-| Septic + cámara | $3,000–$8,000 |
-| Pozo negro | $1,000–$3,000 |
-| Bored well (Patagonia) | $4,000–$10,000 |
+| Mains connection | AySA area, operator's charge only: water ≈ USD 453–679, sewer ≈ USD 710–1,129 per connection (2026 data, computed: 284.25 × 2,432.5294 = ARS 691,446 and 426.53 × 2,432.5294 = ARS 1,037,547 for DN 13–32 mm water; 445.81 × 2,432.5294 = ARS 1,084,446 and 709.34 × 2,432.5294 = ARS 1,725,490 for sewer; lower figure in the near pavement, higher in the opposite pavement or roadway; RANT art. 17 base tariffs `https://www.argentina.gob.ar/sites/default/files/anexo_7095631_2.pdf` × ERAS coefficient K of 2026-11-01 `https://www.argentina.gob.ar/argentina.gob.ar/eras/institucional/informacion-tecnica/regimen-tarifario-eras`, at ARS 1,527.85/USD); other operators: data not publicly available — get the operator's written quote |
+| Septic + cámara | data not publicly available — get local quotes |
+| Pozo negro | data not publicly available — get local quotes |
+| Bored well (Patagonia) | est. ~$4,000–$10,000: no Patagonia price found; 2026 national guide gives USD 2,500–6,000 for a domestic well to 60 m, USD 8,000–25,000 for a farm or medium irrigation well of 60–150 m (secondary: GEXPLO) — depth and rock set the bill, get a local driller's quote |
 
 ---
 
@@ -312,17 +312,17 @@ Computed with the 2026 sellos rates above, assuming a 50/50 sellos split (custom
 
 | Work | Cost (USD typical) |
 |---|---:|
-| Inspection (relevamiento) | $300–$700 |
-| Escribano fees | 1.5–2.5% of price |
+| Inspection (relevamiento) | CABA suggested fee by time: ARS 192,021 for the first 5 hours (≈ USD 126), then ARS 38,404 per extra hour (≈ USD 25) at ARS 1,527.85/USD (2026 data, source CPAU Art. 1.13, July 2026 table `https://static.cpau.org/.newsite/ejercicio_profesional/honorarios_sugeridos/2026/julio/CUADROS-ICC-JUNIO-2026.pdf`); architects in CABA only, elsewhere data not publicly available — get a written quote from a registered architect or engineer |
+| Escribano fees | est. ~1–2% of price: national-jurisdiction tariff 2% of the deed amount (1987 data, source Decreto 1208/87 art. 2 via Colegio de Escribanos CABA — rates/figures may have changed since); a 2026 guide gives 1–1.5% in CABA, Córdoba and Mendoza, 1–2% in PBA (listing platform: Roomix, Apr 2026) — get the escribano's written quote |
 | Sellos provincial | 1.0–3.5% (2026: Córdoba 1.0%, PBA 2.0%, Mendoza 2.0%, CABA 2.7–3.5%) |
 | ITI federal | REPEALED 2024-07-08 (Ley 27.743 art. 67) — no longer applies |
 | Realtor commission | CABA freely agreed (Ley 2340 art. 11 inc. 2); PBA 1.5–3% per party (Ley 10.973 art. 54); est. ~3–4% buyer side in CABA market use (secondary: broker guides 2026) |
-| **Total transaction cost (buyer CABA)** | **est. ~6.75–9.25%** of price = 1.75% sellos half-share (3.5% rate) + 1.5–2.5% escribano + 0.5–1% other + 3–4% broker |
-| Roof renovation | $5,000–$15,000 |
-| Asbestos abatement | $3,000–$10,000 |
-| Earthquake retrofit (Cuyo) | $20,000–$80,000 |
-| Energy retrofit | $10,000–$40,000 |
-| Solar PV (5kW) | $5,000–$10,000 |
+| **Total transaction cost (buyer CABA)** | **est. ~6.25–8.75%** of price = 1.75% sellos half-share (3.5% rate) + 1–2% escribano + 0.5–1% other + 3–4% broker |
+| Roof renovation | est. ~$4,000–$16,000 for a 100 m² house: ARS 6–14 million with new sheets on a sound structure, ARS 15–25 million or more if the structure is rebuilt (Los Andes, Jul 2026, secondary press); July ARS prices converted at the later BCRA rate of ARS 1,527.85/USD of 2026-10-22, so the USD range is indicative; no official price series — get ≥3 quotes |
+| Asbestos abatement | data not publicly available — no public price source (secondary: CAEDE guide `https://caede.com.ar/demolicion/demolicion-con-asbesto`, checked 2026-11-02); get written quotes from firms licensed for asbestos work, with removal, packing, transport and disposal itemised |
+| Earthquake retrofit (Cuyo) | data not publicly available — get a structural engineer's assessment against INPRES-CIRSOC 103 first, then quotes (verify at `https://www.inpres.gob.ar/`) |
+| Energy retrofit | data not publicly available — scope it per house and get ≥3 quotes |
+| Solar PV (5kW) | est. ~$5,000–$10,000: 2026 installer list shows on-grid 4.6–5.8 kW from USD 5,200–5,900, 10 panels + 5 kWh battery from USD 7,700 (secondary: TodoEnergías); no official price series — get ≥3 quotes |
 
 ## Active fiscal incentives (2025-2026)
 
@@ -399,7 +399,7 @@ Computed with the 2026 sellos rates above, assuming a 50/50 sellos split (custom
 | DNV TMDA (national-road traffic) | `https://www.argentina.gob.ar/transporte/vialidad-nacional/institucional/informacion-publica/tmda` |
 | SEGEMAR | `https://www.argentina.gob.ar/economia/segemar` (legacy `www.segemar.gov.ar` HTTP-redirects here) |
 | OAVV volcano observatory | `https://oavv.segemar.gob.ar/` |
-| SMN | `https://www.smn.gob.ar/` (could not be read for verification on 2026-10-23; institutional page `https://www.argentina.gob.ar/smn`) |
+| SMN | `https://www.smn.gob.ar/` (could not be read for verification on 2026-11-04; institutional page `https://www.argentina.gob.ar/smn`) |
 | AySA (CABA water) | `https://www.aysa.com.ar/` |
 | ARBA (PBA cadastre) | `https://www.arba.gov.ar/` |
 
@@ -414,11 +414,12 @@ Computed with the 2026 sellos rates above, assuming a 50/50 sellos split (custom
 
 | Section | Last verified | Verifier | Notes |
 |---|---|---|---|
-| `--tax` (Impuesto Inmobiliario, Sellos, ITI, Bienes Personales, Capital gains, COTI) | 2026-10-23 | 2026-10-23 refresh wave | 2026 Leyes Impositivas of CABA, PBA, Mendoza and Córdoba; ITI repeal and BP step-down in the Ley 27.743 text; FY2025 BP amounts per ARCA; individuals' sales exempt from 2026-01-01 (Ley 27.802 art. 192 + Decreto 406/2026); COTI abrogated (RG 5697/2025). Total transaction cost (buyer side) not re-verified: escribano and other-cost shares are est. |
-| `--rental` | 2026-10-23 | 2026-10-23 refresh wave | DNU 70/2023 regime re-read on InfoLEG; Ley Bases ratification claim corrected; CABA short-let rewritten from Ley 6255; 21% non-resident rate computed from LIG arts. 103 + 104 g; Ganancias exemption for casa-habitación rent from 2026 added (Ley 27.802 art. 192 + Decreto 406/2026, checked 2026-11-03); residents' progressive-scale line not re-checked |
-| `--work` | 2026-10-23 | 2026-10-23 refresh wave | Monotributo scale (ARCA, from 2026-08-01), SIPA Jul 2026 and OEDE May 2026 salaries, SMVM and labour-authority URL re-sourced; Indeed and LinkedIn not checked |
+| `--tax` | 2026-10-23 | 2026-11-04 maintenance run | Mendoza's 2026 inmobiliario scale and ARS 43,645 minimum (Ley 9680 art. 2), PBA's 2.0% sellos (Ley 15.558), ARCA's FY2025 Bienes Personales scale and the Ley 27.743 provisions (ITI repeal, rate step-down, single scale for foreign and domestic assets) were re-read at source and are unchanged. |
+| `--rental` | 2026-10-23 | 2026-11-04 maintenance run | InfoLEG's text of DNU 70/2023 shows the 2023-12-21 publication and the art. 249 repeal of Ley 27.551; Dentons (secondary) gives 2023-12-29 as its entry into force under the eighth-day rule. |
+| `--work=<profession>` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
 | Verification authorities | 2026-10-23 | 2026-10-23 refresh wave | ARCA date per Decreto 953/2024 art. 12; INTRA replaced by the Dirección Nacional de Asuntos Técnicos de Fronteras; PRT replaced by the Ente de Turismo registry (Ley 6.255); registry, escribano and municipal rows not re-checked |
 | Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | All 12 URLs checked; SEGEMAR replaced; SMN and Zonaprop could not be read for verification (kept); OAVV and DNV TMDA rows added |
+| `--risks` | 2026-10-23 | 2026-11-04 maintenance run | The SMN institutional page on argentina.gob.ar was read; SMN's own site could not be read for verification on 2026-11-04 and should be checked directly. |
 
 ## Extension TODOs
 
@@ -445,3 +446,4 @@ Computed with the 2026 sellos rates above, assuming a 50/50 sellos split (custom
   - Refreshed, not re-verified: Country profile 2 / 4 / 4; `--price` 17 / 6 / 2; `--tax` total transaction cost 3 / 0 / 2; Cost benchmarks 3 / 1 / 7; Active fiscal incentives 3 / 0 / 2; Caveats unique to AR 5 / 3 / 2; `--traffic` 2 / 2 / 4; `--risks` 14 / 4 / 11; `--mains` 3 / 4 / 6; Common listing platforms 0 / 5 / 1 (URL liveness only); Reddit / forum sources 1 / 6 / 2
   - Main changes: gobiernos locales 2,259 → more than 2,300 (ReFeGLo) and Decreto 953/2024 in force on its 2024-10-24 issue (art. 12), not 2024-11-05; price table rebuilt from Zonaprop Index Sep 2026, Índice M² Real, TuLugar and TheLatinvestor (12 rows replaced, 4 added; unsourced trends → n/a); 2026 Impuesto Inmobiliario scales; sellos PBA 3.6% → 2.0%, Mendoza 3.0% → 2.0%, Córdoba "varies" → 1.0% / 0.70%, CABA 3.5% plus a 2.7% tier and the vivienda-única exemption; FY2025 Bienes Personales mínimo, casa-habitación and tramo bounds corrected (ARCA) and REIBP restated as a fixed 0.45% × 5; individuals' property sales exempt from Ganancias from 2026-01-01 (Ley 27.802 art. 192 + Decreto 406/2026), replacing the 15% / 13.5% lines for later sales; COTI abrogated (RG 5697/2025); "consolidated by Ley Bases" corrected — the lease regime rests on DNU 70/2023; CABA short-let rewritten from Ley 6255; Monotributo category K cap ARS 108,357,084.05 → ARS 126,610,838.75 (from 2026-08-01); SIPA and OEDE salary data replace unsourced ranges; INPRES merged into SEGEMAR and INA made a unit (Decreto 396/2025); seismic zoning per INPRES-CIRSOC 103 (2018) Anexo A at department level; volcanic list per the SEGEMAR/OAVV 2024 ranking; 2008 Chaitén line replaced by Cordón Caulle 2011; certificate validity 15 / 25 / 30 days (Ley 17.801 art. 24); AySA privatization award and ABSA coverage (95 localities, 53 municipalities); PROCREAR trust fund dissolved (Decreto 1018/2024); Ley 26.737 status rewritten (CSJN 2026, secondary press); "INTRA" and "PRT" replaced by the Dirección Nacional de Asuntos Técnicos de Fronteras and the Ente de Turismo registry; r/PERSONAL_FINANCE_AR ❌ DEPRECATED; SEGEMAR URL replaced; OAVV and DNV TMDA sources added
 - **2026-11-03** — Follow-up checks: Ganancias exemption for casa-habitación rent from 2026-01-01 added to `--rental` (Ley 27.802 art. 192 + Decreto 406/2026); Ley Bases "now permanent" caveat and short-let line corrected (Ley 27.742 text has no lease chapter); Extension TODOs: INTRA and Ley 4631 references replaced; Status Coverage check and Confidence recomputed; per-section verification table added
+- **2026-11-04** — Maintenance run: closed `--tax`, `--rental`, `--work=<profession>`, `--risks`; still open `--price`, `--mains`, Cost benchmarks (AR 2026).
