@@ -26,11 +26,15 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import datetime
+import functools
 import hashlib
 import importlib.util
 import json
+import math
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -40,6 +44,15 @@ FAST = ("price", "tax", "rental", "risks", "mains", "work", "cost benchmark")
 # Lines whose figures are not claims about a source page: honest estimates, pointers and
 # arithmetic (check-playbooks.py checks that) need no agent re-read.
 SETTLED = re.compile(r"(~\s*est\.|\best\.|≈|\bverify (at|with)\b|data not publicly available|\bcomputed\b|curated wisdom)", re.I)
+MAX_UNCHANGED_DAYS = 365  # an unchanged page proves nothing new for ever: an agent re-reads the line once a year
+# Poisson change model (Cho & Garcia-Molina 2003): rate = -ln((n-X+0.5)/(n+0.5)) / t. Measured on
+# the 65 refuted LU and RS lines re-researched 12 days later, 4 of them changed. maintain.py apply
+# prints the same estimate from each run's audit sample, so this number can be revised.
+CHANGE_RATE_PER_DAY = 0.00525
+AUDIT_SHARE = 0.10  # of the lines skipped as freshly proved, this share still goes to an agent
+HINTS, HINT_WIDTH, K1 = 3, 300, 1.2
+SEGMENT = re.compile(r"\n+|(?<=[.;!?])\s+")
+TOKEN = re.compile(r"\d[\d.,\u00a0\u202f]*\d|\d|[^\W\d_]{4,}")
 _spec = importlib.util.spec_from_file_location("source_verify", Path(__file__).parent / "source-verify.py")
 SV = sys.modules["source_verify"] = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(SV)
@@ -74,7 +87,7 @@ def save(cc: str, led: dict) -> None:
     used = sorted({i for e in led["lines"].values() for i in e["u"]})
     remap = {old: new for new, old in enumerate(used)}  # drop URLs no line cites any more
     led = {"urls": [led["urls"][i] for i in used],
-           "lines": {k: {"u": [remap[i] for i in e["u"]], "d": e["d"]} for k, e in sorted(led["lines"].items())}}
+           "lines": {k: {**e, "u": [remap[i] for i in e["u"]]} for k, e in sorted(led["lines"].items())}}
     j = lambda o: json.dumps(o, ensure_ascii=False, separators=(",", ":"))
     urls = ",\n".join(j(u) for u in led["urls"])
     lines = ",\n".join(f"{j(k)}:{j(e)}" for k, e in led["lines"].items())
@@ -103,7 +116,7 @@ def iter_items(path: Path):
 def cmd_add(paths: list[Path], date: str) -> int:
     current: dict[str, set[str]] = {}
     ledgers: dict[str, dict] = {}
-    added = 0
+    found: list[tuple[str, str, list[str]]] = []
     for path in paths:
         for it in iter_items(path):
             m = re.search(r"countries/([a-z]{2})/playbook\.md$", it["file"])
@@ -114,16 +127,15 @@ def cmd_add(paths: list[Path], date: str) -> int:
             if cc not in current:
                 current[cc] = {line_key(l) for _, l in playbook_lines(cc)}
                 ledgers[cc] = load(cc)
-            led = ledgers[cc]
-            for line in it["new"].splitlines():
-                k = line_key(line)
-                if k not in current[cc] or not salient_values(line):
-                    continue  # superseded later, or no figure to re-check
-                put(led, k, urls, date)
-                added += 1
+            # a line superseded later, or with no figure to re-check, stays out
+            found += [(cc, line, urls) for line in it["new"].splitlines()
+                      if line_key(line) in current[cc] and salient_values(line)]
+    fetches = fetch_all(u for _, _, urls in found for u in urls)
+    for cc, line, urls in found:
+        put(ledgers[cc], line_key(line), urls, date, support_hash(line, urls, fetches))
     for cc, led in ledgers.items():
         save(cc, led)
-    print(f"ledgered {added} line-evidence pairs across {len(ledgers)} playbook(s)")
+    print(f"ledgered {len(found)} line-evidence pairs across {len(ledgers)} playbook(s)")
     return 0
 
 
@@ -182,12 +194,98 @@ def fetch_all(urls) -> dict:
     return asyncio.run(SV.fetch_unique(urls, SV.UL.load_config(SV.UL.read_plugin_version()), sv)) if urls else {}
 
 
-def check(cc: str, touch_date: str | None = None) -> dict:
-    """Machine-check every fast-section line; with touch_date, re-date the confirmed entries.
-    A line with no ledger entry is tried against the URLs it cites itself, else against the
-    source-table rows whose name it mentions; a hit is ledgered."""
+def pages_read(urls: list[str], fetches: dict) -> bool:
+    frs = [fetches.get(u) for u in urls]
+    return bool(frs) and all(f and f.status == "OK" and f.text for f in frs)
+
+
+@functools.lru_cache(maxsize=256)
+def segments(text: str) -> tuple[str, ...]:
+    return tuple(s.strip() for s in SEGMENT.split(text) if s.strip())
+
+
+def support_hash(line: str, urls: list[str], fetches: dict) -> str | None:
+    """Fingerprint of what the pages say about this line: every sentence or table row holding one
+    of its values. Exact page hashes are too brittle (a quarter of 180 pages differed after six
+    days, menus and news lists included); these segments move only when the line's own context
+    does, and a changed figure drops its segment. None unless every page was read and one holds
+    a value: a copy showing none of them is a shell or a login wall, and says nothing."""
+    needles = [n for v in SV.confirm_needles(salient_values(line)) for n in v]
+    if not pages_read(urls, fetches):
+        return None
+    kept = sorted({seg for u in urls for seg in segments(fetches[u].text) if any(n in seg for n in needles)})
+    return hashlib.sha1("\0".join(kept).encode()).hexdigest()[:12] if kept else None
+
+
+def age_days(entry: dict, today: str) -> int:
+    return (datetime.date.fromisoformat(today) - datetime.date.fromisoformat(entry["d"])).days
+
+
+def unchanged(entry: dict | None, line: str, urls: list[str], fetches: dict, today: str) -> bool:
+    return bool(entry and entry.get("h") and entry["h"] == support_hash(line, urls, fetches)
+                and age_days(entry, today) <= MAX_UNCHANGED_DAYS)
+
+
+def freshly_proved(entry: dict | None, urls: list[str], fetches: dict, today: str, max_risk: float) -> bool:
+    """P(line changed since its proof) = 1 - e^(-rate * age) stays under max_risk, and no page
+    contradicts that. Called after unchanged(), so a stored fingerprint here did not match: on
+    pages that were read, that is a change signal."""
+    if not entry or 1 - math.exp(-CHANGE_RATE_PER_DAY * age_days(entry, today)) >= max_risk:
+        return False
+    return not (entry.get("h") and pages_read(urls, fetches))
+
+
+def in_audit_sample(key: str, today: str) -> bool:
+    """Deterministic and unbiased: the same run picks the same lines, the next run others."""
+    return int(hashlib.sha1(f"{key}{today}".encode()).hexdigest()[:8], 16) / 0xFFFFFFFF < AUDIT_SHARE
+
+
+def tokens(text: str) -> list[str]:
+    return [re.sub(r"[.,\u00a0\u202f]", "", t) if t[0].isdigit() else t.lower() for t in TOKEN.findall(text)]
+
+
+def add_hints(rows: list[dict], fetches: dict) -> None:
+    """BM25 over fixed-width passages of the pages this plan already read, so an agent starts from
+    the likely passage instead of searching. A figure is a rare token, so it outranks the words;
+    the width is fixed, so BM25's length term drops out."""
+    wanted = {t for r in rows for t in tokens(r["line"])}
+    passages, postings = [], {}
+    for url, fr in fetches.items():
+        text = " ".join((fr.text or "").split()) if fr.status == "OK" else ""
+        for start in range(0, len(text), HINT_WIDTH // 2):
+            chunk = text[start:start + HINT_WIDTH]
+            counts = Counter(t for t in tokens(chunk) if t in wanted)
+            passages.append((url, chunk))
+            for t, tf in counts.items():
+                postings.setdefault(t, []).append((len(passages) - 1, tf))
+    for r in rows:
+        scores: Counter = Counter()
+        for t in set(tokens(r["line"])):
+            hits = postings.get(t, [])
+            idf = math.log(1 + (len(passages) - len(hits) + 0.5) / (len(hits) + 0.5))
+            for pid, tf in hits:
+                scores[pid] += idf * tf * (K1 + 1) / (tf + K1)
+        seen, r["hints"] = set(), []
+        for pid, _ in scores.most_common(200):
+            url, chunk = passages[pid]
+            if url not in seen:
+                seen.add(url)
+                r["hints"].append({"url": url, "text": chunk})
+            if len(seen) == HINTS:
+                break
+
+
+def check(cc: str, touch_date: str | None = None, max_risk: float = 0.0) -> dict:
+    """Machine-check every fast-section line; with touch_date, re-date the lines whose figures
+    were re-read. A line is confirmed when its figures stand together on a page, or when the
+    pages that proved it are byte-for-byte what they were then (the date stays that of the last
+    real read, so MAX_UNCHANGED_DAYS applies). With max_risk, a line an agent proved recently is
+    skipped too (status FRESH, date unchanged) unless it falls in the audit sample. A line with
+    no ledger entry is tried against the URLs it cites itself, else against the source-table rows
+    whose name it mentions."""
     led, lines = load(cc), playbook_lines(cc)
     named, rows = named_sources(lines), []
+    today = touch_date or datetime.date.today().isoformat()
     for section, line in lines:
         vals = salient_values(line)
         if not vals or not any(k in section.lower() for k in FAST):
@@ -203,7 +301,14 @@ def check(cc: str, touch_date: str | None = None) -> dict:
         covered, r["fetch"] = covered_values(r["values"], r["urls"], fetches)
         if covered and len(covered) == len(SV.confirm_needles(r["values"])):
             r["status"] = "CONFIRMED"
-        elif covered:
+        elif unchanged(entry := led["lines"].get(line_key(r["line"])), r["line"], r["urls"], fetches, today):
+            r["status"], r["unchanged"] = "CONFIRMED", True
+        elif freshly_proved(entry, r["urls"], fetches, today, max_risk):
+            if in_audit_sample(line_key(r["line"]), today):
+                r["audit"] = max(age_days(entry, today), 1)
+            else:
+                r["status"], r["proved"] = "FRESH", entry["d"]
+        if covered and r["status"] == "NOT_CONFIRMED":
             r["confirmed_values"] = [r["values"][i]["raw"] for i in sorted(covered)]
             r["missing_values"] = [v["raw"] for i, v in enumerate(r["values"]) if i not in covered]
     by: dict[str, dict] = {}
@@ -211,19 +316,24 @@ def check(cc: str, touch_date: str | None = None) -> dict:
         by.setdefault(r["section"], {}).setdefault(r["status"], 0)
         by[r["section"]][r["status"]] += 1
     confirmed = [r for r in rows if r["status"] == "CONFIRMED"]
-    if touch_date and confirmed:
+    fresh = [r for r in rows if r["status"] == "FRESH"]
+    worklist = [r for r in rows if r["status"] not in ("CONFIRMED", "FRESH")]
+    if touch_date:
         for r in confirmed:
-            k = line_key(r["line"])
-            if k in led["lines"]:
-                led["lines"][k]["d"] = max(touch_date, led["lines"][k]["d"])
-            else:
-                put(led, k, r["urls"], touch_date)
+            if not r.get("unchanged"):
+                put(led, line_key(r["line"]), r["urls"], touch_date, support_hash(r["line"], r["urls"], fetches))
+        for r in fresh:  # gives the line a change signal from now on; its date stays the proof's
+            h = support_hash(r["line"], r["urls"], fetches)
+            if h:
+                led["lines"][line_key(r["line"])]["h"] = h
         save(cc, led)
-    return {"country": cc, "fast_lines": len(rows), "confirmed": len(confirmed), "by_section": by,
-            "confirmed_rows": confirmed, "worklist": [r for r in rows if r["status"] != "CONFIRMED"]}
+        add_hints(worklist, fetches)
+    return {"country": cc, "fast_lines": len(rows), "confirmed": len(confirmed), "fresh": fresh,
+            "unchanged": sum(1 for r in confirmed if r.get("unchanged")), "by_section": by,
+            "confirmed_rows": confirmed, "worklist": worklist}
 
 
-def put(led: dict, key: str, urls: list[str], date: str) -> None:
+def put(led: dict, key: str, urls: list[str], date: str, page_hash: str | None = None) -> None:
     idx = []
     for u in urls:
         if u not in led["urls"]:
@@ -232,21 +342,24 @@ def put(led: dict, key: str, urls: list[str], date: str) -> None:
     prev = led["lines"].get(key)
     if prev and prev["d"] > date:
         return
-    led["lines"][key] = {"u": sorted(set(idx) | set(prev["u"] if prev else [])), "d": date}
+    if page_hash:  # the fingerprint covers exactly these pages, so older URLs go
+        led["lines"][key] = {"u": sorted(set(idx)), "d": date, "h": page_hash}
+    else:
+        led["lines"][key] = {"u": sorted(set(idx) | set(prev["u"] if prev else [])), "d": date}
 
 
 def add_confirmed_lines(cc: str, pairs: list[tuple[str, list[str]]], date: str) -> int:
-    """Ledger lines an agent confirmed WITHOUT patching them, but only those whose figures a
-    script re-reads together on the given page: agent claims never enter the ledger unchecked."""
-    current = {line_key(l): l for _, l in playbook_lines(cc)}
+    """Ledger lines an agent confirmed WITHOUT patching them and the refuter accepted. Each is
+    stored with the fingerprint of its pages, so the next run needs no agent for it while those
+    pages stay the same. A page the script cannot read leaves the line out."""
+    current = {line_key(l) for _, l in playbook_lines(cc)}
     pairs = [(l, [u for u in urls if u.startswith("http")]) for l, urls in pairs if line_key(l) in current]
     fetches = fetch_all(u for _, urls in pairs for u in urls)
     led, n = load(cc), 0
     for line, urls in pairs:
-        vals = salient_values(line)
-        covered, _ = covered_values(vals, urls, fetches)
-        if vals and len(covered) == len(SV.confirm_needles(vals)):
-            put(led, line_key(line), urls, date)
+        h = support_hash(line, urls, fetches)
+        if h:
+            put(led, line_key(line), urls, date, h)
             n += 1
     save(cc, led)
     return n

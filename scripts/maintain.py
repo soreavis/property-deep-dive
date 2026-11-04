@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import math
 import re
 import sys
 from pathlib import Path
@@ -41,6 +42,9 @@ SV = EL.SV
 CLUSTERS = {"market": ("price", "rental", "work"), "tax-legal": ("tax", "cost benchmark"), "risk-infra": ("risks", "mains")}
 TABLE_HEAD = "### Per-section verification (overrides playbook-level date)"
 STAMP_LINE = "✅ Fast-changing sections re-verified as of {d}; each section's date is in the Per-section verification table."
+AGENT_LINES = 40
+RUN_TALK = re.compile(r"worklist|confirmed_lines|refuter|line_errors|check-playbooks|ledger|\bpatch|old string", re.I)
+DEFAULT_NOTE = "Figures re-read on their sources or labelled."
 
 
 def fast_key(name: str) -> str | None:
@@ -68,11 +72,27 @@ def fast_sections(text: str) -> dict[str, str]:
 
 
 # ── plan ─────────────────────────────────────────────────────────────────────
-def cmd_plan(codes: list[str], date: str, out: Path) -> int:
+def pack(clusters: dict[str, dict]) -> dict[str, dict]:
+    """First-fit decreasing into agents of at most AGENT_LINES lines. Measured on the first
+    pipeline run, an agent costs about 510k weighted tokens before its first line and 11k per
+    line, so fewer, fuller agents win until the context limit bites."""
+    bins: list[dict] = []
+    for name, c in sorted(clusters.items(), key=lambda kv: -len(kv[1]["lines"])):
+        b = next((b for b in bins if len(b["lines"]) + len(c["lines"]) <= AGENT_LINES), None)
+        if b:
+            b["name"] += f"+{name}"
+            b["sections"] += c["sections"]
+            b["lines"] += c["lines"]
+        else:
+            bins.append({"name": name, **c})
+    return {b.pop("name"): b for b in bins}
+
+
+def cmd_plan(codes: list[str], date: str, out: Path, max_risk: float) -> int:
     out.mkdir(parents=True, exist_ok=True)
-    plan, totals = [], [0, 0]
+    plan, totals = [], [0, 0, 0]
     for cc in codes:
-        res = EL.check(cc, touch_date=date)
+        res = EL.check(cc, touch_date=date, max_risk=max_risk)
         by_cluster: dict[str, dict] = {}
         for r in res["worklist"]:
             k = fast_key(r["section"])
@@ -81,15 +101,22 @@ def cmd_plan(codes: list[str], date: str, out: Path) -> int:
                 if r["section"] not in c["sections"]:
                     c["sections"].append(r["section"])
                 c["lines"].append({x: r[x] for x in ("section", "line", "status", "urls", "confirmed_values",
-                                                     "missing_values") if r.get(x)})
-        (out / f"{cc}.json").write_text(json.dumps({"country": cc, "date": date, "clusters": by_cluster,
+                                                     "missing_values", "audit", "hints") if r.get(x)})
+        by_cluster = pack(by_cluster)
+        fresh: dict[str, str] = {}
+        for r in res["fresh"]:
+            k = fast_key(r["section"])
+            if k:
+                fresh[k] = min(fresh.get(k, r["proved"]), r["proved"])
+        (out / f"{cc}.json").write_text(json.dumps({"country": cc, "date": date, "clusters": by_cluster, "fresh": fresh,
                                                     "machine_confirmed": res["by_section"]}, ensure_ascii=False, indent=1))
         plan += [{"code": cc, "cluster": c, "sections": v["sections"], "lines": len(v["lines"])} for c, v in by_cluster.items()]
-        totals[0] += res["fast_lines"]; totals[1] += res["confirmed"]
-        print(f"{cc}: {res['confirmed']}/{res['fast_lines']} fast lines confirmed by script; "
-              f"agent clusters: {', '.join(f'{c} ({len(v['lines'])})' for c, v in by_cluster.items()) or 'none'}")
+        totals[0] += res["fast_lines"]; totals[1] += res["confirmed"]; totals[2] += len(res["fresh"])
+        print(f"{cc}: {res['confirmed']}/{res['fast_lines']} confirmed by script ({res['unchanged']} on unchanged pages), "
+              f"{len(res['fresh'])} freshly proved; agents: {', '.join(f'{c} ({len(v['lines'])})' for c, v in by_cluster.items()) or 'none'}")
     (out / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=1))
-    print(f"total: {totals[1]}/{totals[0]} confirmed by script; {len(plan)} cluster agent(s) instead of {3 * len(codes)}")
+    print(f"total: {totals[1]}/{totals[0]} confirmed by script, {totals[2]} freshly proved, "
+          f"{sum(p['lines'] for p in plan)} lines for {len(plan)} research agent(s)")
     return 0
 
 
@@ -154,7 +181,14 @@ def upsert_rows(text: str, rows: dict[str, str]) -> str:
     return text[:head] + "\n".join(lines[:i + 1] + body + lines[end:])
 
 
+def reader_note(note: str) -> str:
+    """Section notes come from agents: keep the sentences about the facts, drop those about the run."""
+    kept = [s for s in re.split(r"(?<=[.;])\s+", note) if not RUN_TALK.search(s)]
+    return " ".join(kept).replace("|", "/").strip() or DEFAULT_NOTE
+
+
 def section_dates(text: str) -> dict[str, str]:
+    """A `--price` › Listings row dates that subsection, not the section."""
     head = text.find("### Per-section verification")
     out = {}
     if head < 0:
@@ -163,7 +197,7 @@ def section_dates(text: str) -> dict[str, str]:
         if l.startswith("|"):
             cells = [c.strip() for c in l.strip("|").split("|")]
             k = fast_key(cells[0])
-            if k and len(cells) > 1 and re.fullmatch(r"\d{4}-\d{2}-\d{2}", cells[1]):
+            if k and "›" not in cells[0] and len(cells) > 1 and re.fullmatch(r"\d{4}-\d{2}-\d{2}", cells[1]):
                 out[k] = min(out.get(k, cells[1]), cells[1])
         elif out:
             break
@@ -205,18 +239,47 @@ def restamp(text: str) -> tuple[str, str | None]:
     return text[:s] + "\n## Status" + body, d
 
 
+NUMBER = re.compile(r"\d{1,3}(?:[,\u00a0\u202f]\d{3})+|\d{3,}")
+ANCHOR = re.compile(r"\b[A-Z][a-zà-ÿ]{3,}\b")
+
+
+def numbers(text: str) -> set[int]:
+    return {int(re.sub(r"\D", "", n)) for n in NUMBER.findall(text)}
+
+
+def roundings(n: int) -> set[int]:
+    """14489 → {14489, 14490, 14500, 14000}: the forms a restatement elsewhere may round it to,
+    down to two significant digits."""
+    return {n} | {round(n, -k) for k in range(1, len(str(n)) - 1)}
+
+
+def restatements(items: list[dict], text: str) -> list[dict]:
+    """Lines still quoting a figure a patch replaced, exactly or rounded, and naming the same
+    thing (a shared capitalised word). A changed figure that survives elsewhere contradicts it."""
+    found = []
+    for it in items:
+        gone = numbers(it["old"]) - numbers(it["new"])
+        anchors = set(ANCHOR.findall(it["old"]))
+        forms = {f for n in gone if n >= 1000 for f in roundings(n)}
+        for line in text.splitlines():
+            if forms & numbers(line) and anchors & set(ANCHOR.findall(line)) and line not in it["new"]:
+                found.append({"file": it["file"], "replaced": sorted(gone), "line": line.strip()})
+    return found
+
+
 def render_footer(cc: str, date: str, sections: list[dict], plan_dir: Path) -> str | None:
     p = EL.COUNTRIES / cc / "playbook.md"
     text = p.read_text(encoding="utf-8")
     keys = fast_sections(text)
     planned = json.loads((plan_dir / f"{cc}.json").read_text()) if (plan_dir / f"{cc}.json").exists() else {"clusters": {}}
+    fresh = planned.get("fresh", {})
     researched = {fast_key(s) for c in planned["clusters"].values() for s in c["sections"]}
     rows, closed, still_open = {}, [], []
     for k, name in keys.items():
         s = next((x for x in sections if fast_key(x["section"]) == k), None)
         if k not in researched or (s and s.get("closed")):
-            note = s["note"] if s else "every figure re-read on its recorded source by scripts/evidence-ledger.py"
-            rows[k] = f"| {name} | {date} | {date} maintenance run | {note.replace('|', '/').strip()} |"
+            note = reader_note(s["note"]) if s else "Every figure re-read on its recorded source, or the source unchanged."
+            rows[k] = f"| {name} | {min(date, fresh.get(k, date))} | {date} maintenance run | {note} |"
             closed.append(name)
         elif k in researched:
             still_open.append(name)
@@ -231,6 +294,17 @@ def render_footer(cc: str, date: str, sections: list[dict], plan_dir: Path) -> s
     return d
 
 
+def report_audit(items: list[dict], plan_dir: Path) -> None:
+    """Change-rate estimate from the audit sample, to compare with EL.CHANGE_RATE_PER_DAY."""
+    plans = [json.loads(f.read_text()) for f in plan_dir.glob("??.json")]
+    ages = {EL.line_key(l["line"]): l["audit"] for p in plans for c in p["clusters"].values() for l in c["lines"] if l.get("audit")}
+    if ages:
+        changed = {EL.line_key(l) for it in items if it["kind"] == "fact-changed" for l in it["old"].splitlines()} & set(ages)
+        n, x = len(ages), len(changed)
+        rate = -math.log((n - x + 0.5) / (n + 0.5)) / (sum(ages.values()) / n)
+        print(f"audit sample: {x} of {n} freshly proved lines changed, {rate:.5f}/day against {EL.CHANGE_RATE_PER_DAY}/day in use")
+
+
 def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
     res = json.loads(result.read_text())
     res = res.get("result", res)
@@ -238,9 +312,15 @@ def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
     applied, conflicts = apply_items(items)
     (result.parent / "conflicts.json").write_text(json.dumps(conflicts, ensure_ascii=False, indent=1))
     print(f"applied {applied}, conflicts {len(conflicts)} (→ {result.parent / 'conflicts.json'})")
+    report_audit(items, plan_dir)
+    follow = [f for p in res["playbooks"] for f in restatements(
+        [i for c in p["clusters"] for i in c["items"] if i.get("status") != "DROP" and i["kind"] == "fact-changed"],
+        (EL.COUNTRIES / p["code"] / "playbook.md").read_text(encoding="utf-8"))]
+    (result.parent / "followups.json").write_text(json.dumps(follow, ensure_ascii=False, indent=1))
+    print(f"{len(follow)} line(s) may still quote a replaced figure (→ {result.parent / 'followups.json'})")
     EL.cmd_add([result], date)
     for p in res["playbooks"]:
-        pairs = [(c["line"], [c["url"]]) for cl in p["clusters"] for c in cl.get("confirmed_lines", [])]
+        pairs = [(c["line"], c["urls"]) for cl in p["clusters"] for c in cl.get("confirmed_lines", [])]
         if pairs:
             print(f"{p['code']}: ledgered {EL.add_confirmed_lines(p['code'], pairs, date)} of {len(pairs)} confirmed-unchanged lines")
     codes = {p["code"] for p in res["playbooks"]} | {json.loads(f.read_text())["country"]
@@ -259,6 +339,7 @@ def main() -> int:
     a.add_argument("--countries", required=True)
     a.add_argument("--date", required=True)
     a.add_argument("--out", type=Path, required=True)
+    a.add_argument("--max-risk", type=float, default=0.10, help="skip a proved line while P(changed since) stays under this")
     b = sub.add_parser("precheck")
     b.add_argument("patches", type=Path)
     c = sub.add_parser("apply")
@@ -267,7 +348,7 @@ def main() -> int:
     c.add_argument("--plan", type=Path, required=True)
     args = ap.parse_args()
     if args.cmd == "plan":
-        return cmd_plan(args.countries.split(","), args.date, args.out)
+        return cmd_plan(args.countries.split(","), args.date, args.out, args.max_risk)
     if args.cmd == "precheck":
         return cmd_precheck(args.patches)
     return cmd_apply(args.result, args.date, args.plan)

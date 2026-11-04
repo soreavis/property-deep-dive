@@ -533,6 +533,10 @@ class TestConfirmNeedles(unittest.TestCase):
         self.assertTrue(SV.machine_confirmed(c, "Varainsiirtovero on 3 % kauppahinnasta."))
         self.assertFalse(SV.machine_confirmed(c, "Page 3 of the tax guide."))
 
+    def test_two_decimal_percentages_also_match_bare(self):
+        v = [{"type": "pct", "raw": "9.86%", "norm": "9.86%", "needles": ["9.86"], "salient": True}]
+        self.assertIn("9,86", SV.confirm_needles(v)[0])
+
     def test_window_grows_with_figures_but_is_capped(self):
         self.assertEqual(SV.cover_window(1), SV.COVER_WINDOW)
         self.assertEqual(SV.cover_window(4), 1200)

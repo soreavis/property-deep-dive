@@ -143,7 +143,7 @@ PCT_RE = re.compile(r"(?<![\w.])\d{1,3}(?:[.,]\d+)?\s?(?:%|pp\b|percentage point
 MONEY_SYMBOL_RE = re.compile(
     r"[€£$¥₹](?:\s?\d[\d.,]*)(?:\s?(?:k|m|bn|million|billion))?", re.IGNORECASE
 )
-_CCY = r"USD|EUR|GBP|CHF|AED|SAR|JPY|CNY|HKD|SGD|AUD|NZD|CAD|ZAR|INR|BRL|MXN|TRY|PLN|CZK|HUF|RON|SEK|NOK|DKK|ILS|KRW|THB|IDR|MYR|PHP|VND|BHD|KWD|QAR|OMR|MUR|XCD|KYD|BMD"
+_CCY = r"USD|EUR|GBP|CHF|AED|SAR|JPY|CNY|HKD|SGD|AUD|NZD|CAD|ZAR|INR|BRL|MXN|TRY|PLN|CZK|HUF|RON|SEK|NOK|DKK|ILS|KRW|THB|IDR|MYR|PHP|VND|BHD|KWD|QAR|OMR|MUR|XCD|KYD|BMD|RSD|BAM|MKD|BGN|ISK|UAH|ARS|CRC|CLP|UYU"
 MONEY_CODE_RE = re.compile(
     rf"(?:(?:{_CCY})\s?\d[\d.,]*(?:\s?(?:k|m|bn|million|billion))?"
     rf"|\d[\d.,]*\s?(?:k|m|bn)?\s?(?:{_CCY}))",
@@ -897,7 +897,7 @@ def min_cover_span(text: str, values: list[list[str]]) -> int | None:
 
 def confirm_needles(values: list[dict]) -> list[list[str]]:
     """Needles for machine confirmation. A percentage must match WITH its sign ('3 %', '3,0%'):
-    a bare '3' is noise on any page, '3 %' is a specific token."""
+    a bare '3' is noise on any page, '3 %' is a specific token. Two decimals may match bare."""
     out = []
     for v in values:
         if not (v.get("salient", True) and v.get("needles")):
@@ -905,7 +905,10 @@ def confirm_needles(values: list[dict]) -> list[list[str]]:
         m = re.match(r"\s*(\d{1,3}(?:[.,]\d+)?)\s?%", v["raw"]) if v["type"] == "pct" else None
         if m:
             ds = {m[1], m[1].replace(".", ","), m[1].replace(",", ".")}
-            out.append(sorted({f"{d}{sep}%" for d in ds for sep in ("", " ", "\u00a0", "\u202f")}, key=len, reverse=True))
+            forms = {f"{d}{sep}%" for d in ds for sep in ("", " ", "\u00a0", "\u202f")}
+            if re.search(r"[.,]\d\d", m[1]):  # specific enough bare: statistics tables put the % in the header
+                forms |= ds
+            out.append(sorted(forms, key=len, reverse=True))
         else:
             out.append(v["needles"])
     return out
