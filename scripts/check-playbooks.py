@@ -34,7 +34,7 @@ PROCESS = re.compile(
     r"\b(automated (requests?|fetch\w*|reads?|checks?|clients?)|bot[- ]?(wall|check)\w*"
     r"|scripted clients?|non-browser|curl\b|tavily|webfetch|wayback machine snapshots?"
     r"|read (through|via) wayback|(returns?|returned|answers?) (http )?[45]\d\d\b"
-    r"|HTTP [45]\d\d\b|ECONNREFUSED)", re.I)
+    r"|HTTP [45]\d\d\b|ECONNREFUSED|worklists?\b|confirmed_lines|refuters?\b)", re.I)
 DATA_YEAR = re.compile(r"\((20\d\d) data\b")
 STALE_OK = "may have changed since"
 
@@ -134,7 +134,7 @@ def restamp_errors(text: str) -> list[str]:
         key = next((k for k in FAST if k in head.lower()), None)
         if not key:
             continue
-        dated = [d for name, d in rows.items() if key in name]
+        dated = [d for name, d in rows.items() if key in name and "›" not in name]
         if not dated:
             errs.append(f"re-stamp {stamp[1]}: fast section `{head}` is missing from the Per-section table")
         elif min(dated) < stamp[1]:

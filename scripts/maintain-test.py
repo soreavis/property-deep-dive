@@ -53,7 +53,36 @@ class FastKeys(unittest.TestCase):
         self.assertEqual(list(M.fast_sections(HEAD)), ["price", "tax", "cost benchmark"])
 
 
+class Packing(unittest.TestCase):
+    def test_clusters_merge_up_to_the_cap_and_big_ones_stay_alone(self):
+        c = lambda n, s: {"sections": [s], "lines": [{}] * n}
+        packed = M.pack({"market": c(30, "a"), "tax-legal": c(8, "b"), "risk-infra": c(5, "c")})
+        self.assertEqual({k: len(v["lines"]) for k, v in packed.items()}, {"market+tax-legal": 38, "risk-infra": 5})
+        self.assertEqual(packed["market+tax-legal"]["sections"], ["a", "b"])
+
+
+class Restatements(unittest.TestCase):
+    ITEM = {"file": "x", "old": "- **Belair**: €14,489/m²", "new": "- **Belair**: €12,951/m²"}
+
+    def test_a_rounded_restatement_of_a_replaced_figure_is_found(self):
+        text = "| LU-City Belair €/m² | ~€14,500 |\n- Limpertsberg €14,500\n- **Belair**: €12,951/m²"
+        self.assertEqual([f["line"] for f in M.restatements([self.ITEM], text)], ["| LU-City Belair €/m² | ~€14,500 |"])
+
+    def test_roundings_keep_two_significant_digits(self):
+        self.assertEqual(M.roundings(14489), {14489, 14490, 14500, 14000})
+
+
 class Footer(unittest.TestCase):
+    def test_reader_note_drops_sentences_about_the_run(self):
+        note = "All 3 worklist lines are patched. IFON enters into force on 1 Jan 2029. Each old string occurs once."
+        self.assertEqual(M.reader_note(note), "IFON enters into force on 1 Jan 2029.")
+        self.assertEqual(M.reader_note("All worklist lines closed."), M.DEFAULT_NOTE)
+
+    def test_a_subsection_row_does_not_date_the_section(self):
+        table = "### Per-section verification\n\n| Section | Last verified | Verifier | Notes |\n|---|---|---|---|\n" \
+                "| `--price` › Listings | 2026-10-23 | w | n |\n| `--tax` | 2026-10-23 | w | n |\n"
+        self.assertEqual(M.section_dates(table), {"tax": "2026-10-23"})
+
     def test_table_created_when_missing_and_rows_upserted(self):
         t = M.upsert_rows(HEAD + HISTORY_SECTION, {"tax": row("`--tax`")})
         self.assertIn(M.TABLE_HEAD, t)
