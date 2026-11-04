@@ -8,7 +8,7 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 - **Admin levels**: 8 regions (landshlutar) + 62 sveitarfélög (municipalities; municipal structure at 1 Jan 2026) (2026 data, source Hagstofa MAN03250 + MAN02005)
 - **Currency**: **ISK** (Icelandic króna); 1 EUR ≈ 136 ISK (Central Bank official rate EUR 136.20, read 2026-10-23; volatile — re-check at `https://www.cb.is/`) (2026 data, source cb.is)
 - **Languages**: Icelandic (official); English widely understood
-- **Cadastre**: **HMS (Húsnæðis- og mannvirkjastofnun)** + **Þjóðskrá Íslands** (national registry)
+- **Cadastre**: **HMS (Húsnæðis-, mannvirkja- og skipulagsstofnun)** + **Þjóðskrá Íslands** (national registry)
 - **Identifier**: **fasteignanúmer** (property number) + **landnúmer** (land number)
 - **Ownership types**:
   - **Eignaríbúð** (freehold apartment)
@@ -376,8 +376,8 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 
 - **VOLCANIC + SEISMIC RISK IS REAL AND ACTIVE**:
   - Reykjanes 2023-2025 series destroyed homes in Grindavík
-  - **9 eruptions since Dec 2023** at Sundhnúkur
-  - **"New Reykjanes Fires"** potentially multi-century period
+  - **9 eruptions since Dec 2023** at Sundhnúkur; no new eruption through 27 Oct 2026, and a new magma intrusion, possibly an eruption, remains the most likely scenario (Veðurstofan update of 27 Oct 2026)
+  - **Long eruptive period**: Veðurstofan says eruptive episodes on the peninsula "can last for decades or centuries"; the last one, Reykjaneseldar, ran from ≈ 950 to 1240
   - Property in Reykjanes peninsula carries elevated risk
 - **Mandatory natural-hazard insurance (NTÍ)** is automatic via property insurance — major buyer protection
 - **Geothermal heating** universal in populated areas — extremely cheap energy, but check connection
@@ -443,7 +443,7 @@ ISO2: `is`. Status: ✅ Fully populated (researched 2026-04).
 
 ✅ **Fully populated**; fast-changing sections re-verified as of 2026-10-23, figures with no current primary source labelled by source tier (⚠️), est., curated wisdom, data not publicly available or verify-at, and older-source figures marked 'may have changed since' (initial population 2026-04-25). Rental tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md). Rental tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 **Coverage check**: pricing, traffic, tax, rental, work, risks (incl. live volcanic eruption series), mains all have primary government sources + cost benchmarks + caveats.
-**Confidence**: HIGH for country profile, `--traffic`, the foreign-buyer rules and the verification authorities (re-verified 2026-10-23 against Hagstofa, cb.is, EFTA EEA-Lex, Vegagerðin, government.is and skatturinn.is — see the per-section table). HIGH for the individual facts refreshed 2026-10-23 that carry an inline primary source: statutory tax rates and fees (skatturinn.is, island.is, samband.is, reykjavik.is), heimagisting caps, notice periods and rental-income tax (island.is, skatturinn.is), the Reykjanes eruption count, Grindavík buyback and NTÍ cover (Veðurstofan, torkatla.is, island.is), national wages and company capital (Hagstofa, skatturinn.is), Veitur connection tariffs and the Central Bank key rate (cb.is). `--price`, `--tax`, `--rental`, `--work`, `--risks` and `--mains` are not re-stamped: each still holds lines that could not be re-checked, so they keep the 2026-04-25 date. MEDIUM for the 2025 ISK/m² price table (HMS not reachable for re-check; only a Hagstofa index re-anchor to Sep 2026 was added), the fasteignamat-to-market ratio, the listing-platform and agency lines, the build-era table, the "New Reykjanes Fires" framing and the other hazard descriptions not re-checked, and the foreign-currency-mortgage ban. Est. only (no published index) for the broker fee, söluyfirlýsing, construction / retrofit and mains-extension ranges and the regional salary split. MEDIUM for currency-related advisories (ISK volatile).
+**Confidence**: HIGH for country profile, `--traffic`, the foreign-buyer rules and the verification authorities (re-verified 2026-10-23 against Hagstofa, cb.is, EFTA EEA-Lex, Vegagerðin, government.is and skatturinn.is — see the per-section table). HIGH for the individual facts refreshed 2026-10-23 that carry an inline primary source: statutory tax rates and fees (skatturinn.is, island.is, samband.is, reykjavik.is), heimagisting caps, notice periods and rental-income tax (island.is, skatturinn.is), the Reykjanes eruption count, Grindavík buyback and NTÍ cover (Veðurstofan, torkatla.is, island.is), national wages and company capital (Hagstofa, skatturinn.is), Veitur connection tariffs and the Central Bank key rate (cb.is). Section dates are in the Per-section verification table. HIGH for the ISK/m² price table (contracts signed Oct 2025–Sep 2026) and the fasteignamat-to-market ratio (contracts signed Jan–Sep 2026), computed from HMS Kaupskrá fasteigna. MEDIUM for the listing-platform and agency lines (confirmed; market share not publicly available), the agency-fee rows (price lists ⚠️) and the older build-era rows (wisdom). Est. only (no published index) for the construction / retrofit ranges and the regional salary split, now calibrated on Hagstofa TEK01002. MEDIUM for currency-related advisories (ISK volatile).
 
 ### Per-section verification (overrides playbook-level date)
 

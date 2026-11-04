@@ -136,7 +136,7 @@ For each country, return:
 | URL | https://www.lantmateriet.se/ |
 | Mode | per-property paid; aggregate free via SCB |
 | Cost | per-property lookup ~SEK 50 |
-| Quirks | **Hemnet** publishes "slutpris" for ~85% of market — effectively free sold-price dataset. **Booli** (Hemnet subsidiary) has free archive back to ~2007. |
+| Quirks | **Hemnet** publishes "slutpris" — effectively free sold-price dataset; slutpris coverage not verified (82% of homes sold in 2025 (preliminary) were advertised on Hemnet, 86–90% in 2019–2024, Hemnet Group 3 Jul 2026). **Booli** (SBAB subsidiary, Booli Search Technologies AB) has free archive back to ~2007. |
 
 ### 🇫🇮 Finland
 
@@ -264,11 +264,11 @@ For each country, return:
 
 | Field | Value |
 |---|---|
-| Authority | **Maa-amet** |
-| URL | https://maaruum.ee/en/land-registry-and-land-valuation/real-estate-transactions/real-estate-transaction-statistics |
-| Mode | **fully public open data** |
-| Granularity | parcel + cadastral unit |
-| Coverage | **2003 → present** |
+| Authority | **Maa- ja Ruumiamet** (MaRu; Maa-amet until 31 Dec 2024) |
+| URL | https://maaruum.ee/en/land-registry-and-land-valuation/real-estate-transactions/real-estate-transaction-statistics · https://statistika.kataster.ee/kinnisvara/ |
+| Mode | **aggregate public statistics** (query site + statistics API since 15 Oct 2026); per-transaction data restricted by law (Land Cadastre Act § 6) |
+| Granularity | aggregates by area, property type and period; value figures shown only where at least 5 transactions |
+| Coverage | transaction database from **1996** (1 Jan 2002–19 Jul 2003: state pre-emption deals only); price indices from Q3 2003 |
 | Cost | free |
 | Quirks | Most digital + transparent property data regime in Baltics. Filterable by type, use, m², year built. |
 
@@ -391,10 +391,10 @@ For each country, return:
 | Field | Value |
 |---|---|
 | Authority | FBiH + RS-entity + Brčko (3 separate cadastres) |
-| URL | https://www.katastar.ba/ · https://www.rgurs.org/ |
-| Mode | per-property paid; **NO public aggregate** |
+| URL | https://www.katastar.ba/ · https://katastar.ba/rcn · https://www.rgurs.org/ |
+| Mode | per-property paid; public aggregates (FGU reports by municipality, BHAS new dwellings) |
 | Cost | extract ~€5 |
-| Quirks | **3 parallel land book + cadastre systems**. BHAS publishes construction cost only. Olx.ba + nekretnine.ba are listing-only. |
+| Quirks | **3 parallel land book + cadastre systems**. BHAS publishes quarterly prices of new dwellings sold (BiH 3,311 KM/m², Q2 2026 data). FGU's FBiH Registar cijena nekretnina publishes half-yearly reports by municipality (FBiH apartments 3,100 KM/m², n = 678, H1 2026 data); RGURS runs a Registar cijena nepokretnosti map for RS. Pik.ba (ex-OLX.ba) + nekretnine.ba are listing-only. |
 
 ### 🇲🇰 North Macedonia
 
@@ -507,16 +507,16 @@ For each country, return:
 
 | Tier | Countries | Characteristic |
 |---|---|---|
-| **A — Open address-level** | UK, IE, DK, IS, EE, SI, FR | Free CSV, address/parcel-level, monthly to semi-annual |
-| **B — Open aggregate, paid per-property** | NL, BE, LU, MT, NO, SE, FI, ES, PT, IT, DE, AT, CH, PL, HR, HU, LT, LV, CY, SK, AU (NSW free) | Granular aggregate (commune/postcode/suburb) free; address-level requires extract |
+| **A — Open address-level** | UK, IE, DK, IS, SI, FR | Free CSV, address/parcel-level, monthly to semi-annual |
+| **B — Open aggregate, paid per-property** | NL, BE, LU, MT, NO, SE, FI, ES, PT, IT, DE, AT, CH, PL, HR, HU, LT, LV, CY, SK, BA, EE (aggregates only; extract access restricted by law), AU (NSW free) | Granular aggregate (commune/postcode/suburb) free; address-level requires extract |
 | **C — Per-property paid only, weak aggregate** | CZ, RO, BG, GR, RS, MK, CA (most provinces), AU (most states), NZ, MX, BR (pre-CIB) | Sale price in deed but no open dataset; private aggregators dominate |
-| **D — No public sold-price source** | ME, BA, AL, AR, CR, PA | Construction cost or asking-price proxies only |
+| **D — No public sold-price source** | ME, AL, AR, CR, PA | Construction cost or asking-price proxies only |
 
 ## Real-terms (inflation-adjusted) historical reconstruction
 
 For the handful of **Tier-A** markets with deep, open, address-level transaction history, a sold-price series can be reconstructed in **real terms** (constant purchasing power) rather than nominal — the most useful long-run signal a buyer can derive from this registry. It is a transparent **computation**, not a new dataset:
 
-1. **Pull the nominal series** from the Tier-A source for the locality (commune / postcode / address): **UK** Price Paid Data (1995 →), **DK** OIS (1992 →), **SI** (2007 →), **IS** (2006 →), **EE** (2003 →), **IE** (Jan 2010 →), **FR** DVF (2014 →). Deep-history sources outside this registry's open-CSV core: **JP** Reinfolib / MLIT (2005 →, free API key), **AU**-NSW free bulk sales CSV.
+1. **Pull the nominal series** from the Tier-A source for the locality (commune / postcode / address): **UK** Price Paid Data (1995 →), **DK** OIS (1992 →), **SI** (2007 →), **IS** (2006 →), **IE** (Jan 2010 →), **FR** DVF (2014 →). Deep-history sources outside this registry's open-CSV core: **JP** Reinfolib / MLIT (2005 →, free API key), **AU**-NSW free bulk sales CSV, **EE** MaRu aggregates (no per-transaction data).
 2. **Deflate by the national CPI / HICP** — use the consumer-price index catalogued per country in `macro.md` (national statistics office / Eurostat HICP). Rebase the CPI to your target year, then compute `real €/m²(t) = nominal €/m²(t) × CPI(target) ÷ CPI(t)`, showing the inputs inline (anti-hallucination computed-number rule). Name the as-of year of each index.
 3. **Or skip the recompute** — for cross-country *real* growth, cite the ready-made **BIS Residential Property Price** real series / FRED, already cross-referenced in `price-index-feeds.md` § *BIS / FRED cross-references (international comparable)*, rather than rebuilding what BIS publishes.
 

@@ -8,7 +8,7 @@
 - **Contract**: exclusividad 3-6 mo
 - **MLS**: **partial MLS** in select metros (AMPI MLS Vallarta, Cabo, Mérida, Monterrey); CDMX fragmented
 - **Discount**: 8-15% off asking
-- **Sell-side**: ISR 25-35% on gain for residents (with allowances + indexation; primary residence exemption up to 700k UDIs); 25%/35% non-residents; commission 4-7%+IVA; notary buyer-side
+- **Sell-side**: ISR 25-35% on gain for residents (with allowances + indexation; primary residence exemption caps the sale proceeds, not the gain, at 700k UDIs (≈ MXN 6.23M — computed: 700,000 × UDI 8.893123 = MXN 6,225,186, Banxico value for 8 Nov 2026), excess taxed pro rata, once per 3 years, sale formalised before a notary (LISR art. 93 XIX a)); 25%/35% non-residents; commission 4-7%+IVA; notary buyer-side
 - **Liquidity**: 🟠 MEDIUM CDMX prime / Guadalajara / Monterrey; 🟢 MEDIUM-HIGH Riviera Maya tourist core; 🔴 LOW secondary towns
 - **Quirks**: **Fideicomiso (bank trust) required for foreigners in restricted zone** (50 km coast / 100 km border) — future foreign buyer needs trust setup, adds cost/time; ejido land cannot be freely sold (verify dominio pleno)
 

@@ -70,7 +70,7 @@ For each country, return:
 | **IE** | Daft.ie | partner-only API + scrape | commercial API exists |
 | **EE** | KV.ee + City24 | none | open |
 | **CA** | Realtor.ca | partner-only API | CREA owns |
-| **MX** | Inmuebles24 | partner-only | OLX-owned |
+| **MX** | Inmuebles24 | partner-only | QuintoAndar group since its Dec 2021 Navent purchase (2021 data, source QuintoAndar release — rates/figures may have changed since) |
 | **BR** | ZAP / VivaReal | partner-only | OLX-owned |
 | **AR** | Zonaprop / Argenprop / MercadoLibre | partner-only | OLX-owned |
 | **CR** | Encuentra24 | partner-only | OLX-owned |

@@ -195,7 +195,7 @@ S1 form lets you access host-country state healthcare while it's billed back to 
 2. **ES (Costa del Sol, Costa Blanca, Canarias)** — 17-22°C winter
 3. **GR (Crete, Cyprus, southern Peloponnese)** — 15-20°C winter
 4. **IT (Sicily, Calabria, Puglia)** — 12-18°C winter; rising heatwave concern
-5. **MT, CY** — 14-20°C winter; **water scarcity rising** (CY 2025 worst drought)
+5. **MT, CY** — 14-20°C winter; **water scarcity rising** (CY 2024/25 drought)
 6. **TR (Aegean coast — Bodrum, Antalya, Fethiye)** — 14-19°C winter; summer heatwaves rising
 7. **MA (Marrakech, Essaouira, Tangier)** — 18-22°C winter; Atlantic coast cooler than interior
 8. **CL (Coquimbo, Ñuble coast)** — 12-18°C winter; Mediterranean climate; arid trend (drought)
