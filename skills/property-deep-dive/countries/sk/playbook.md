@@ -517,7 +517,7 @@ Rows marked est. without a tariff calibration are curated market estimates from 
 - **Refundácia DPH** for first-time buyers — no primary source located (checked 2026-10-23); the 5 % DPH rate on buildings is limited to state-supported rental housing (Zákon 222/2004 Z. z. § 27 ods. 3 písm. d / e), so verify any refund scheme with Finančná správa before relying on it
 - **Daňový bonus na zaplatené úroky** (§ 33a ZDP, úver na bývanie concluded from 1 Jan 2024): borrower aged 18–35 at application, average monthly income ≤ 1.6× the prior-year average wage; **50 %** of the interest paid, max **€1,200/yr**, for 5 consecutive years; own permanent housing only (2026 data, source Slov-Lex ZDP 595/2003)
 - **5 % DPH** for accommodation services (FROM 2025) — major win for short-let (2026 data, source Finančná správa sadzby dane)
-- **Obnova budov programu** Plán obnovy a odolnosti — €630M over 2024-2026 (not re-verified: planobnovy.sk returned 404 on 2026-10-23; the family-house calls are listed under „Archív plánu obnovy“ on obnovdom.sk)
+- **Obnova budov programu** Plán obnovy a odolnosti — €630M over 2024-2026 (not re-verified: planobnovy.sk could not be read for verification on 2026-10-23; the family-house calls are listed under „Archív plánu obnovy“ on obnovdom.sk)
 
 ## Common listing platforms
 

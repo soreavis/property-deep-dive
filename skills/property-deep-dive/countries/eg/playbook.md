@@ -141,7 +141,7 @@ MEDIUM — asking-price listings are abundant, but **transaction-verified price 
 
 ### Primary sources
 
-- **General Authority for Roads, Bridges and Land Transport (GARBLT)** — `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18 (SERVFAIL, re-checked 2026-10-21); the newer domain garb.gov.eg was defaced on 2026-02-25 and has returned HTTP 525 since 2026-04-29 (last clean capture `https://web.archive.org/web/20260201040108/https://garb.gov.eg/`) — verify with the Ministry of Transport `https://mot.gov.eg/` — national roads and bridges authority under the Ministry of Transport; runs the expressway toll stations (11 nationally, per that Feb 2026 capture). Annual traffic-flow summaries for tolled highways (Cairo–Alexandria Desert Road, Cairo–Suez, Cairo–Sokhna, regional ring roads): no such publication found on garb.gov.eg — verify with GARBLT before citing
+- **General Authority for Roads, Bridges and Land Transport (GARBLT)** — `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18 (SERVFAIL, re-checked 2026-10-21); the newer domain garb.gov.eg was defaced on 2026-02-25 and has not been reachable since 2026-04-29 (last clean capture `https://web.archive.org/web/20260201040108/https://garb.gov.eg/`) — verify with the Ministry of Transport `https://mot.gov.eg/` — national roads and bridges authority under the Ministry of Transport; runs the expressway toll stations (11 nationally, per that Feb 2026 capture). Annual traffic-flow summaries for tolled highways (Cairo–Alexandria Desert Road, Cairo–Suez, Cairo–Sokhna, regional ring roads): no such publication found on garb.gov.eg — verify with GARBLT before citing
 - **Ministry of Transport** — `https://mot.gov.eg/` — sectoral statistics
 - **CAPMAS Transport & Communications Yearbook** — `https://www.capmas.gov.eg/` — annual: vehicle registrations by governorate, road km by class, accident statistics
 - **Cairo Traffic Control Center / Cairo Governorate** — operational, NOT public-data
@@ -582,7 +582,7 @@ MEDIUM — HCWW + governorate operators are the authoritative source per parcel;
 | Suez Canal Economic Zone | `https://sczone.eg/` |
 | Tourism Development Authority (TDA) | `https://www.tda.gov.eg/` |
 | HCWW (water + wastewater holding) | `https://www.hcww.com.eg/` |
-| GARBLT (roads + land transport) | `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18 (SERVFAIL, re-checked 2026-10-21); newer domain garb.gov.eg was defaced on 2026-02-25 and has returned HTTP 525 since 2026-04-29 — verify with the Ministry of Transport `https://mot.gov.eg/` |
+| GARBLT (roads + land transport) | `https://garblt.gov.eg/` ❌ DEPRECATED — dead on 2026-09-18 (SERVFAIL, re-checked 2026-10-21); newer domain garb.gov.eg was defaced on 2026-02-25 and has not been reachable since 2026-04-29 — verify with the Ministry of Transport `https://mot.gov.eg/` |
 | Ministry of Transport | `https://mot.gov.eg/` |
 | Ministry of Manpower (work permits) | `https://www.manpower.gov.eg/` |
 | NARSS (remote sensing, hazard mapping) | `https://www.narss.sci.eg/` |

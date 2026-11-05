@@ -304,7 +304,7 @@ The first three bullets are curated heuristics (wisdom, not data), not drawn fro
 | **ČGS Svahové nestability (landslides)** | `https://mapy.geology.cz/svahove_nestability/` | Landslide registry + susceptibility |
 | **ČGS Geofond sesuvy** | `https://mapy.geology.cz/arcgis/rest/services/Geohazardy/sesuvy_Geofond/MapServer` | API access |
 | **ČGS / SÚRO Radon mapa** | `http://www.geology.cz/demo/CD_RADON50/index/info.htm` + `https://www.suro.cz/cz/prirodnioz/radonove-mapy` | Radon index 1-3 of geological substrate |
-| **ČGS Radon web map** | `https://mapy.geology.cz/radon/` (updated 2026-10-23: replaces `http://www.geologicke-mapy.cz/radon/`, HTTP 404; linked from SÚRO) | Updated 1:50 000 radon maps of the geological subsoil (per SÚRO) |
+| **ČGS Radon web map** | `https://mapy.geology.cz/radon/` (updated 2026-10-23: replaces `http://www.geologicke-mapy.cz/radon/`, no longer available; linked from SÚRO) | Updated 1:50 000 radon maps of the geological subsoil (per SÚRO) |
 | **Geofyzikální ústav AV ČR seismicita** | `https://www.ig.cas.cz/vyzkum-a-vyuka/observatore/ceska-regionalni-seismicka-sit/` (updated 2026-10-23: old `/observatorie/` path redirects to an image) | Earthquake monitoring |
 | **SeismickaMapa.cz** | `https://seismickamapa.cz/` (⚠️ operator not identified, tier unverified; could not be read for verification on 2026-11-03 — rely on the GFÚ AV ČR pages above) | Aggregated hazard map |
 | **WEBNET West Bohemia swarms** | `https://www.ig.cas.cz/vyzkum-a-vyuka/observatore/lokalni-seismicka-sit-webnet/` (updated 2026-10-23: old `/observatorie/` path redirects to an image) | West-Bohemia microseism |
@@ -498,7 +498,7 @@ Veolia ČR group = largest operator: 2.7 million residents supplied with drinkin
 - **r/Prague** (main English-language Prague subreddit), **r/praguecity**, **r/czechrepublic**
 - **Bezrealitky blog** (platform articles, not a forum)
 - **CenovaMapa.cz**: commercial valuation / price-map app, not a community; treat as a secondary aggregator
-- Expat: **InYourPocket Prague** (city guide), **Expats.cz** (English-language news and guides; no forum found, `expats.cz/forum` returns 404 as of 2026-10-23)
+- Expat: **InYourPocket Prague** (city guide), **Expats.cz** (English-language news and guides; no forum found, `expats.cz/forum` no longer exists as of 2026-10-23)
 - Facebook: "Bydlení v Praze", "Reality bez realitky"
 
 ## Verification authorities
@@ -534,8 +534,8 @@ Veolia ČR group = largest operator: 2.7 million residents supplied with drinkin
 | ČÚZK DPN (unregistered) | `https://dpn.cuzk.gov.cz/` |
 | ČÚZK Dálkový přístup do KN (paid, registered) | `https://cuzk.gov.cz/aplikace-dp` |
 | Sreality search | `https://www.sreality.cz/hledani/prodej/byty/<region>/<obec>` |
-| Sreality cenová mapa | `https://www.sreality.cz/cenova-mapa` (single-page map; `/cenova-mapa/<region>` paths return 404 on 2026-10-23) |
-| Bezrealitky | `https://www.bezrealitky.cz/vypis/nabidka-prodej/<byt-dum-pozemek>/<obec>` (updated 2026-10-23: old `/<region>/<obec>` pattern returned 404 when tested with `/praha`) |
+| Sreality cenová mapa | `https://www.sreality.cz/cenova-mapa` (single-page map; `/cenova-mapa/<region>` paths no longer exist on 2026-10-23) |
+| Bezrealitky | `https://www.bezrealitky.cz/vypis/nabidka-prodej/<byt-dum-pozemek>/<obec>` (updated 2026-10-23: old `/<region>/<obec>` pattern no longer works, tested with `/praha`) |
 | ČSÚ ceny bytů | `https://csu.gov.cz/produkty/indexy-realizovanych-cen-bytu-<X>-ctvrtleti-<year>` |
 | ŘSD sčítání dopravy (CSD2020 web map) | `https://scitani.rsd.cz/CSD_2020/pages/informations/default.aspx` |
 | ŘSD CSD 2025 results (XLSX + PDF maps) | `https://www.rsd.cz/silnice-a-dalnice/scitani-dopravy` |
@@ -547,7 +547,7 @@ Veolia ČR group = largest operator: 2.7 million residents supplied with drinkin
 | ČGS Radon web map | `https://mapy.geology.cz/radon/` (updated 2026-10-23: replaces dead `geologicke-mapy.cz/radon/`) |
 | SÚRO radonové mapy | `https://www.suro.cz/cz/prirodnioz/radonove-mapy` |
 | Geofyzikální ústav seismika | `https://www.ig.cas.cz/vyzkum-a-vyuka/observatore/ceska-regionalni-seismicka-sit/` (updated 2026-10-23) |
-| eTurista (NOT in operation) | `https://eturista.gov.cz/` (HTTP 503 on 2026-10-23; no amendment to zákon č. 159/1999 Sb. enacting the register appears in the psp.cz Sbírka record) |
+| eTurista (NOT in operation) | `https://eturista.gov.cz/` (could not be read for verification on 2026-10-23; no amendment to zákon č. 159/1999 Sb. enacting the register appears in the psp.cz Sbírka record) |
 | Finanční správa daň z nemovitostí | `https://financnisprava.gov.cz/cs/dane/dane/dan-z-nemovitych-veci` |
 | SOVAK (water operators) | `https://www.sovak.cz/` |
 | MMR ČR (housing policy) | `https://mmr.gov.cz/` |

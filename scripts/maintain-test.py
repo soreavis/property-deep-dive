@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import sys
 import tempfile
 import unittest
@@ -107,6 +108,41 @@ class OpenSections(unittest.TestCase):
         self.assertIn("citation not on the page", clusters["tax-legal"]["pending"][0]["request"])
         M.record_open_sections("fi", [{"section": "Section: `--tax`", "closed": True}])
         self.assertEqual(M.EL.load("fi").get("open", {}), {})
+
+
+class RequestQueue(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.real, M.REQUESTS = M.REQUESTS, Path(self.tmp.name) / "q.json"
+
+    def tearDown(self):
+        M.REQUESTS = self.real
+        self.tmp.cleanup()
+
+    def test_unconfirmed_batch_items_and_new_requests_are_kept(self):
+        res = {"playbooks": [{"clusters": [
+            {"cluster": "shared", "items": [], "sections": [
+                {"section": "CA row", "closed": False, "note": "n", "remaining": ["minister statement"]},
+                {"section": "BE row", "closed": False, "note": "no primary source"},
+                {"section": "FI row", "closed": True, "note": "ok"}]},
+            {"cluster": "market", "items": [], "sections": [{"section": "`--tax`", "closed": False, "note": "x"}],
+             "shared_requests": [{"file": "shared/finance.md", "request": "add a row"}]}]}]}
+        self.assertEqual({r["request"] for r in M.leftovers(res)}, {"minister statement", "no primary source", "add a row"})
+
+    def test_a_settled_request_leaves_the_queue_and_repeats_merge(self):
+        one = {"target": "a", "request": "r1", "evidence": ""}
+        M.queue_requests([one, {**one, "request": "r2"}])
+        M.queue_requests([one])
+        self.assertEqual(len(M.load_requests()), 2)
+        M.queue_requests([], {"r1"})
+        self.assertEqual([r["request"] for r in M.load_requests()], ["r2"])
+
+    def test_the_queue_becomes_batches_for_the_workflow(self):
+        M.queue_requests([{"target": "a", "request": f"r{i}", "evidence": ""} for i in range(M.REQUEST_BATCH + 1)])
+        out = Path(self.tmp.name) / "out"
+        M.cmd_requests(out)
+        plan = json.loads((out / "plan.json").read_text())
+        self.assertEqual([(p["code"], p["lines"], p["batch"]) for p in plan], [("shared-01", M.REQUEST_BATCH, True), ("shared-02", 1, True)])
 
 
 class Restatements(unittest.TestCase):

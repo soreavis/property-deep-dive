@@ -263,7 +263,7 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
 | **SEPA (Scotland) flood maps** | `https://map.sepa.org.uk/floodmaps` | Long-term flood risk for an area in Scotland from rivers, the sea and surface water — not for a specific property; the older viewer at `https://map.sepa.org.uk/floodmap/map.htm` is SEPA's flood risk management maps, "for responsible authorities" (SEPA, read 2026-10-28) |
 | **Natural Resources Wales — Flood Risk Assessment Wales map** | `https://naturalresources.wales/flooding/check-your-flood-risk-on-a-map-flood-risk-assessment-wales-map/?lang=en` | Wales flood risk from rivers, the sea, surface water and small watercourses, and reservoirs, plus flood defences and coastal erosion; no official status for planning (use the Flood Map for Planning) (NRW, read 2026-10-28) |
 | **DfI Rivers (NI) — Flood Maps NI** | `https://www.infrastructure-ni.gov.uk/topics/flood-maps-ni` | NI flood hazard map viewer — "the latest flood hazard information available from government" (DfI, read 2026-10-28) |
-| **Mining Remediation Authority** (the Coal Authority until 28 Nov 2024) | `https://www.gov.uk/check-if-property-is-affected-by-coal-mining` | Free check whether a property is in a former coal mining area, then a paid coal mining report from £27 + VAT (mine entries within 20 m of the boundary, mine gas, other hazards, future mining); the old `www2.groundstability.com` address now redirects to `www.miningremediation.co.uk`, which blocks automated checks (gov.uk, read 2026-10-28) |
+| **Mining Remediation Authority** (the Coal Authority until 28 Nov 2024) | `https://www.gov.uk/check-if-property-is-affected-by-coal-mining` | Free check whether a property is in a former coal mining area, then a paid coal mining report from £27 + VAT (mine entries within 20 m of the boundary, mine gas, other hazards, future mining); the old `www2.groundstability.com` address now redirects to `www.miningremediation.co.uk`, which could not be read for verification (gov.uk, read 2026-10-28) |
 | **HSE COMAH** | `https://www.hse.gov.uk/comah/comah-establishments.htm` | Search public information on major-hazard establishments in your area under the COMAH Regulations 2015, which implement the EU Seveso III Directive 2012/18/EU (HSE + SI 2015/483 explanatory note, read 2026-10-28) |
 | **UK Health Security Agency Radon** | `https://www.ukradon.org` | Radon affected areas postcode lookup |
 | **British Geological Survey** | `https://www.bgs.ac.uk/` | Geology, sinkholes, ground stability |
@@ -447,7 +447,7 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
 | HSE COMAH establishments search | `https://www.hse.gov.uk/comah/comah-establishments.htm` |
 | Ofgem price cap rates by region | `https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges` |
 | CCW Find your water company | `https://www.ccw.org.uk/advice-and-support/households/water-companies/` |
-| Police crime map | `https://www.police.uk/` (blocks automated checks; open data at `https://data.police.uk/`, latest month August 2026 per its API on 2026-10-28) |
+| Police crime map | `https://www.police.uk/` (could not be read for verification; open data at `https://data.police.uk/`, latest month August 2026 per its API on 2026-10-28) |
 | ONS Crime in England and Wales | `https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/latest` |
 | Ofcom broadband checker | `https://checker.ofcom.org.uk/en-gb/broadband-coverage` |
 | DfT traffic counts | `https://roadtraffic.dft.gov.uk` |
@@ -474,9 +474,9 @@ Est. £/m² for flats — UNVERIFIED (no primary source; kept from the 2026-04 p
 | Climate projections (UKCP18, in `--risks`) | 2026-10-28 | 2026-10-28 Tier-A refresh | Warming, sea-level and hot-summer figures from UKCP18 Headline Findings v4.0; 40.3 °C record confirmed (Met Office); NaFRA mid-century flood projection |
 | `--mains` | 2026-10-28 | 2026-10-28 Tier-A refresh | Partly re-verified: General Binding Rules and permit limits (gov.uk), water-company list (CCW), Ofgem cap for 1 Oct–31 Dec 2026 added; no water-bill figure (Ofwat and Water UK unreadable); CON29DW price, the urban-mains line and the four cost rows stay est. or not re-verified |
 | Active fiscal incentives | 2026-10-28 | 2026-10-28 Tier-A refresh | ECO4 end date, BUS grants and GBIS closure (Ofgem, gov.uk); Your First Home, Help to Buy – Wales and Lifetime ISA re-checked 2026-10-28 against Budget 2026 publications and SI 2026/1130 (regwatch); First Homes last re-checked 2026-10-21 (regwatch) |
-| Common listing platforms | 2026-10-28 | 2026-10-28 Tier-A refresh | Rightmove (own claim), Zoopla, OnTheMarket and PropertyData live; PrimeLocation "high-end" positioning not verified (site returns 403) |
+| Common listing platforms | 2026-10-28 | 2026-10-28 Tier-A refresh | Rightmove (own claim), Zoopla, OnTheMarket and PropertyData live; PrimeLocation "high-end" positioning not verified (site could not be read) |
 | Caveats unique to UK | 2026-10-28 | 2026-10-28 Tier-A refresh | Legal / fiscal lines only; premium dates, the 1991 / 2003 base years (with the 2028 Welsh and Scottish reforms) and the non-resident surcharge corrected; leasehold, cladding, RAAC and knotweed caveats not checked — the cladding and knotweed lines still carry wording `--risks` has since corrected |
-| Source URL templates | 2026-10-28 | 2026-10-28 Tier-A refresh | 11 rows checked, 3 changed (EPC register, Mining Remediation Authority, BGS Geology Viewer); 10 rows added; police.uk and Find Title block automated checks |
+| Source URL templates | 2026-10-28 | 2026-10-28 Tier-A refresh | 11 rows checked, 3 changed (EPC register, Mining Remediation Authority, BGS Geology Viewer); 10 rows added; police.uk and Find Title could not be read for verification |
 
 ## Extension TODOs
 

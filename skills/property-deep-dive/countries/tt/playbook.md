@@ -96,7 +96,7 @@ This section determines whether a transaction is even legally possible — and w
 ### Reality
 
 - **Pricing currency**: residential listings are commonly quoted in **TTD**; higher-end / foreign-targeted stock (esp. Tobago, Port of Spain prestige) sometimes in **USD**. Regardless of listing currency, FIA s.10(1) requires the foreign buyer to **pay in hard currency through an authorised dealer**.
-- **NO verified per-m² benchmark is published in this playbook.** No dated TTD or USD per-m² figure was captured at a primary source this pass (Global Property Guide returned 403; CBTT RPPI + Terra Caribbean report not extracted). → **data not publicly available in this playbook — the user MUST pull a dated figure from the [CBTT RPPI](https://www.central-bank.org.tt/) and/or [Terra Caribbean](https://terracaribbean.com/lets-talk-property-prices/) before publishing or relying on any per-m² price or yield.** Do NOT assert a per-m² price from memory. [OPEN GAP — dated price benchmark]
+- **NO verified per-m² benchmark is published in this playbook.** No dated TTD or USD per-m² figure was captured at a primary source this pass (Global Property Guide could not be read for verification; CBTT RPPI + Terra Caribbean report not extracted). → **data not publicly available in this playbook — the user MUST pull a dated figure from the [CBTT RPPI](https://www.central-bank.org.tt/) and/or [Terra Caribbean](https://terracaribbean.com/lets-talk-property-prices/) before publishing or relying on any per-m² price or yield.** Do NOT assert a per-m² price from memory. [OPEN GAP — dated price benchmark]
 - **Market context (secondary / brokerage commentary — verify with CBTT RPPI)**: the prestige West Trinidad corridor (Westmoorings, Maraval, St. Clair, Goodwood Park) and Tobago coastal (Mt. Irvine, Black Rock, Bacolet) command the top of market; the East-West Corridor is mid-market; values are TTD-denominated and have been relatively flat in real terms given the energy-driven macro + FX drag. (per brokerage commentary — verify with CBTT RPPI.)
 
 ### Compute
@@ -177,7 +177,7 @@ Administered by the **Inland Revenue Division (IRD) / Board of Inland Revenue (B
 
 ### Stamp Duty (transfer) — purchase of residential property
 
-- Levied on the higher of consideration / market value; collected by BIR. **First-time buyer: TT$0 stamp duty on residential house+land up to TT$2,000,000** (threshold raised from TT$1.5M by **Finance Act 2020, effective 1 Jan 2021**, for deeds executed from that date); tiered % above. (Source: Cornerstone "TT Stamp Duty Rates"; [IRD/BIR Stamp Duty FAQ](https://www.ird.gov.tt/) — pull the exact band % from ird.gov.tt before publication; the IRD page ECONNREFUSED this pass but is the primary authority.)
+- Levied on the higher of consideration / market value; collected by BIR. **First-time buyer: TT$0 stamp duty on residential house+land up to TT$2,000,000** (threshold raised from TT$1.5M by **Finance Act 2020, effective 1 Jan 2021**, for deeds executed from that date); tiered % above. (Source: Cornerstone "TT Stamp Duty Rates"; [IRD/BIR Stamp Duty FAQ](https://www.ird.gov.tt/) — pull the exact band % from ird.gov.tt before publication; the IRD page could not be read for verification but is the primary authority.)
 - **Whether FOREIGN-investor buyers qualify for the first-time-buyer exemption**: **data not publicly available — verify foreign-buyer eligibility for the first-time-buyer stamp-duty exemption at the [IRD/BIR](https://www.ird.gov.tt/).** Do NOT assert they qualify or don't. [MUST-HEDGE]
 
 ### Capital Gains Tax (CGT)
@@ -234,7 +234,7 @@ Source: [KPMG TaxNewsFlash Jan 2026](https://kpmg.com/us/en/taxnewsflash/news/20
 
 ### Yield benchmarks
 
-- **NO verified gross-yield figure is published here.** No dated yield was captured at a primary source this pass (Global Property Guide returned 403). → **data not publicly available in this playbook — derive any yield from the [CBTT RPPI](https://www.central-bank.org.tt/) + brokerage rent data ([Terra Caribbean](https://terracaribbean.com/lets-talk-property-prices/)), and net out income tax (no property tax from 2026 — the Property Tax Act was repealed with effect from 1 Jan 2026) + the Landlord Business Surcharge (a timing cost only up to the landlord's annual income-tax liability).** Do NOT quote a yield % without a dated source. [OPEN GAP — dated yield]
+- **NO verified gross-yield figure is published here.** No dated yield was captured at a primary source this pass (Global Property Guide could not be read for verification). → **data not publicly available in this playbook — derive any yield from the [CBTT RPPI](https://www.central-bank.org.tt/) + brokerage rent data ([Terra Caribbean](https://terracaribbean.com/lets-talk-property-prices/)), and net out income tax (no property tax from 2026 — the Property Tax Act was repealed with effect from 1 Jan 2026) + the Landlord Business Surcharge (a timing cost only up to the landlord's annual income-tax liability).** Do NOT quote a yield % without a dated source. [OPEN GAP — dated yield]
 
 ### Strategic notes
 

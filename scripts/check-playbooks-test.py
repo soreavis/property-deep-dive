@@ -24,6 +24,10 @@ class ProcessNotes(unittest.TestCase):
                      "bot-walled", "the site sent empty replies to automated requests", "returned 404"):
             self.assertTrue(errs(line), line)
 
+    def test_a_command_to_run_is_an_instruction_not_a_fetch_note(self):
+        self.assertEqual(CP.line_errors("1. `curl -sL -o trafic.pdf <url>`", TODAY), [])
+        self.assertTrue(CP.line_errors("read with curl on 2026-10-23", TODAY))
+
     def test_reader_facing_wording_passes(self):
         for line in ("could not be read for verification on 2026-11-03 — check it directly",
                      "archived copy of 14 Jul 2026", "M.Of. 403 of 11 May 2023", "403 households"):

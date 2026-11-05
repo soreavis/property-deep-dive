@@ -33,7 +33,7 @@ FAST = ("price", "tax", "rental", "risks", "mains", "work", "cost benchmark")
 
 PROCESS = re.compile(
     r"\b(automated (requests?|fetch\w*|reads?|checks?|clients?)|bot[- ]?(wall|check)\w*"
-    r"|scripted clients?|non-browser|curl\b|tavily|webfetch|wayback machine snapshots?"
+    r"|scripted clients?|non-browser|(?<!`)curl\b|tavily|webfetch|wayback machine snapshots?"
     r"|read (through|via) wayback|(returns?|returned|answers?) (http )?[45]\d\d\b"
     r"|HTTP [45]\d\d\b|ECONNREFUSED|worklists?\b|confirmed_lines|refuters?\b)", re.I)
 DATA_YEAR = re.compile(r"\((20\d\d) data\b")

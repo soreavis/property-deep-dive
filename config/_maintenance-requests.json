@@ -1,0 +1,422 @@
+[
+ {
+  "target": "BA Brčko: Sl. glasnik BD 33/2026 guidelines limb",
+  "request": "Read Sl. glasnik BD 33/2026 of 27 Oct 2026",
+  "evidence": "The paragraf.ba issue listing shows only 34/2026 (3 Nov 2026), so the 33/2026 guidelines could not be confirmed. The 0.05-1% rate wording was also left out of the watch row because the BA playbook already has it."
+ },
+ {
+  "target": "BA foreign-buyer: Brčko reciprocity list limb",
+  "request": "Confirm who publishes the Brčko reciprocity list",
+  "evidence": "No source for the Pravosudna komisija BD publishing the list was read on 2026-11-04. The BA playbook carries the claim, so it stays out of the row until checked."
+ },
+ {
+  "target": "BR limbs: RE 1.412.419, Rio STR bill, CC arts. 1.336 IV and 1.351",
+  "request": "RE 1.412.419 status at the STF",
+  "evidence": "None of these appeared on the pages read, so they are left out. The Rio bill was optional in the request."
+ },
+ {
+  "target": "CR request 13 (bill expediente 25.239)",
+  "request": "Check expediente 25.239 at asamblea.go.cr and add a pending entry if it is still live",
+  "evidence": "No patch. The only source is Delfino.cr of Oct 2025 (secondary); no Asamblea Legislativa record of the bill or its status was found, so a watch entry could not be confirmed on a primary source."
+ },
+ {
+  "target": "CR short-let IVA",
+  "request": "Read the resolution at https://ovitribucr.hacienda.go.cr/listas-de-interes",
+  "evidence": "No patch: the primary resolution MH-DGT-OF-0592-2026 could not be read. The Hacienda list page loads only in a browser, and a search of hacienda.go.cr, the Imprenta Nacional and PGR found nothing. La Nación names the resolution, 181 providers and Booking.com, Expedia and Agoda from 8 Sep 2026; Cámara CIC and ATC Auditores confirm the resolution and date. Ready to add if a primary-source rule allows secondary here."
+ },
+ {
+  "target": "CY electricity market",
+  "request": "Read CERA Decision 185/2025",
+  "evidence": "No patch: CERA Decision 185/2025 could not be read. The CERA announcement page came back with navigation text only, and a CERA/TSOC search found nothing usable. Harris Kyriakides and the Cyprus Institute both give 1 Oct 2025 (secondary)."
+ },
+ {
+  "target": "CY overnight-stay levy (regulatory-watch)",
+  "request": "National overnight-stay levy of €2.50: confirm in the Official Gazette Part I(I) or a Ministry of Finance statement before adding a row",
+  "evidence": "No patch. The €2.50 levy rests on one outlet from Jan and Apr 2025 (fastforward.com.cy), both over 18 months old. Greek and English searches on 2026-11-04 found no bill, Gazette text or ministry statement, and nothing newer."
+ },
+ {
+  "target": "EU-wide table: (EU) 2024/1028 EEA note",
+  "request": "Re-read https://www.efta.int/eea-lex/32024R1028 live and restamp the note, or update it if a Joint Committee decision exists.",
+  "evidence": "efta.int could not be read live. Patch dates the status to Norway's list of 5 Dec 2025 and EEA-Lex of 3 Jul 2025, not to 2026-10-23 as the request claimed."
+ },
+ {
+  "target": "HU 5% new-home VAT (regulatory-watch)",
+  "request": "Confirm the VAT clause and its T/ number on parlament.hu, then add the pending row",
+  "evidence": "No patch. Only RSM says the bill keeps the 5% rate; the Andersen page read has no such line, and the other reports cover the 19 Oct announcement, which the HU playbook already carries as not legislated. One unconfirmed secondary source does not meet the bar."
+ },
+ {
+  "target": "IS: Caveats alert level",
+  "request": "Confirm the current alert level on the IMO or Civil Protection page if the caveat should carry it",
+  "evidence": "Not added. The request suggested 'alert level 2', but the IMO text read on 2026-11-04 gives no alert level."
+ },
+ {
+  "target": "LT EPC scale (EPBD)",
+  "request": "Read the 2026 edition at e-seimas or e-tar before the next --risks refresh",
+  "evidence": "No patch: the consolidated STR 2.01.02:2016 text from 2026-01-01 could not be read. A search found only a 2024 copy of the certificate form and a provider FAQ, both still showing A++ to G, which says nothing about the current edition."
+ },
+ {
+  "target": "LT noise amendments",
+  "request": "Read the XVP-1808 text and status at e-seimas",
+  "evidence": "Row added. New: the law is named and the draft is XVP-1808, seen only as an e-seimas search excerpt. Adoption status at e-seimas could not be read."
+ },
+ {
+  "target": "LT request 26 (Russian citizens' property ban)",
+  "request": "Read law XIV-1888 art. 3(6) as in force and its validity term, then add the ownership row as tier 1",
+  "evidence": "No patch. The law text (No XIV-1888) could not be read for verification on 2026-11-04 on e-tar, e-seimas or Infolex, so the rule rests on an undated ELRA page. Search results show a version change from 2026-05-03 and a draft amendment of art. 3 dated 1 Oct 2026 that also names Belarus, so the current wording and term are unconfirmed."
+ },
+ {
+  "target": "LT request 26 (optional NTM additions)",
+  "request": "Confirm both figures on VMI, then append them to the LT NTM row",
+  "evidence": "No patch. The €900,000 for two co-owners (PwC) and the 15 Mar 2027 deadline (KPMG) are secondary only; the VMI real-estate-tax page could not be read for verification on 2026-11-04."
+ },
+ {
+  "target": "LU interest caps: rental and 2017-cap limbs",
+  "request": "Source the 2017 caps if the row should name what they replaced",
+  "evidence": "The ACD page cited does not state that rental interest is unlimited or give the 2017 caps (€2,000 / €1,500 / €1,000), so both limbs are left out."
+ },
+ {
+  "target": "ME Europe Now: bill art. 101a / art. 218g limb",
+  "request": "Art. 101a and art. 218g of the Labour Law bill: check the text directly on gov.me",
+  "evidence": "The bill scan on wapi.gov.me and the gov.me document page could not be read for verification on 2026-11-04, so the qualification-downgrade bar gets no patch. The status part of the request is patched."
+ },
+ {
+  "target": "ME annual property tax (optional)",
+  "request": "Later amendments 49/22, 152/22 and 118/25 were not re-read",
+  "evidence": "Row added from the 2019 text."
+ },
+ {
+  "target": "MK building code",
+  "request": "Read Sl. vesnik 181/2025 or the ISRSM instrument, then add the row with the playbook's dates if confirmed",
+  "evidence": "No patch. The lead (Eurocodes only from Sep 2024) is a forward-looking line in a 2024 IISEE list and conflicts with the mk playbook, which records coexistence extended to 7 years by Sl. vesnik 181/2025, est. to ~Sep 2027. Neither could be confirmed: a gazette search and the JRC country page gave nothing, and ISRSM was not reached."
+ },
+ {
+  "target": "MT causa mortis EUR 400,000",
+  "request": "Find the legal notice or Act that raised the threshold",
+  "evidence": "No patch. Only PwC (secondary) was found, and the mt playbook already states it. The EUR 400,000 in S.L. 364.12 art. 5 is a different relief, and the cached Cap. 364 text does not show the figure."
+ },
+ {
+  "target": "MX CDMX rent cap",
+  "request": "Whether party names stay in the registry: SCJN text and press differ; both are stated in the row",
+  "evidence": "Row added. The lead's open conflict on 2448 F is settled: the amparo was denied on both articles. New since the lead: jurisprudence P./J. 210 and 211/2026."
+ },
+ {
+  "target": "PA Casco Antiguo",
+  "request": "Body of Gaceta 30513 could not be read; in-force date (28 or 29 Apr 2026) is unresolved",
+  "evidence": "Lead was stale: Ley 519 was published 28 Apr 2026, so the row records it as enacted."
+ },
+ {
+  "target": "PL entry d (Czyste Powietrze, Mój Prąd, PME 2)",
+  "request": "Confirm the Mój Prąd closure on a primary source before adding it.",
+  "evidence": "Czyste Powietrze and PME 2 are confirmed and patched. Mój Prąd closure is not confirmed: mojprad.gov.pl could not be read and no other page read states it."
+ },
+ {
+  "target": "Request 11: lu VAT 3% '≤400m²'",
+  "request": "Read the consolidated règlement grand-ducal of 30 Jul 2002 on TVA logement and either confirm or remove '≤400m²' from the lu row",
+  "evidence": "No patch. The AED page states the €50,000 cap and no surface limit, but it refers to the 30 Jul 2002 regulation, which could not be read for verification on 2026-11-04: the guessed legilux address resolved to an unrelated act and the PDF address was missing. One secondary site (immostep.org) does state 400 m², so dropping it is not justified either."
+ },
+ {
+  "target": "Request 21 — MX, title-monitoring.md",
+  "request": "Read the law text in the DOF and check for any owner-notification provision",
+  "evidence": "Lines 222 and 318 patched. The sidof page confirms only the decree title, and the law's body could not be read for verification on 2026-11-04, so the content rests on the regulatory-watch entry and the text says no national owner alert is 'confirmed'."
+ },
+ {
+  "target": "Request 28 — CR, visa-programs.md",
+  "request": "Check the CCSS ~9-10% figure",
+  "evidence": "Row and line 464 patched. The decree text was read on a secondary host, and the DGME position is unconfirmed, which is why the row says to verify. The CCSS ~9-10% figure was not checked."
+ },
+ {
+  "target": "Request 28 — CR, visa-programs.md",
+  "request": "Confirm the deposit route and the US$150k threshold with DGME",
+  "evidence": "Row and line 464 patched. The decree text was read on a secondary host, and the DGME position is unconfirmed, which is why the row says to verify. The CCSS ~9-10% figure was not checked."
+ },
+ {
+  "target": "Requests 0, 8 — CY, rental-yield-delta.md",
+  "request": "Confirm the 12,000-13,000 estimate at the Cyprus Mail article of 26 May 2025 or the parliamentary record",
+  "evidence": "Penalty, renewal window, overnight fees, register count and art. 16B are patched. The 12,000-13,000 units-on-offer figure is left out: I found it only in a blog summary, and the Cyprus Mail original it cites did not turn up in search. The 8,464 count is via Politis, since the Audit Office report itself was not read."
+ },
+ {
+  "target": "Requests 0, 8 — CY, rental-yield-delta.md",
+  "request": "Read the Audit Office special report directly",
+  "evidence": "Penalty, renewal window, overnight fees, register count and art. 16B are patched. The 12,000-13,000 units-on-offer figure is left out: I found it only in a blog summary, and the Cyprus Mail original it cites did not turn up in search. The 8,464 count is via Politis, since the Audit Office report itself was not read."
+ },
+ {
+  "target": "Requests 19, 20 — MT, title-monitoring.md",
+  "request": "Find a primary source for the 54% share",
+  "evidence": "Both landsregistry.mt citations replaced and the €30 search added. The 54% and 2035 claims are relabelled to match the playbook; the 54% stays secondary. The 15-day duty is confirmed by lra.mt/news/test/, which says 'typically done by a notary within 15 days', so the existing wording stands. The LRS online platform note is not added because its source was not read."
+ },
+ {
+  "target": "Requests 19, 20 — MT, title-monitoring.md",
+  "request": "Read CIR 06/26 if the LRS platform note is wanted",
+  "evidence": "Both landsregistry.mt citations replaced and the €30 search added. The 54% and 2035 claims are relabelled to match the playbook; the 54% stays secondary. The 15-day duty is confirmed by lra.mt/news/test/, which says 'typically done by a notary within 15 days', so the existing wording stands. The LRS online platform note is not added because its source was not read."
+ },
+ {
+  "target": "Requests 2, 3, 10 — LV, rental-yield-delta.md",
+  "request": "Re-check the Vecrīga gross-yield figure",
+  "evidence": "Merged into two patches on likumi.lv text. Request 2's claim that Latvia does not apply Reg 2024/1028 registration (Cabinet annotation to bill 1135/Lp14) was not confirmed, so the line says no scheme was found, matching the LV playbook. The Vecrīga 7.95-9.81% yield was not re-checked."
+ },
+ {
+  "target": "Requests 2, 3, 10 — LV, rental-yield-delta.md",
+  "request": "Read the bill 1135/Lp14 annotation on the Saeima site",
+  "evidence": "Merged into two patches on likumi.lv text. Request 2's claim that Latvia does not apply Reg 2024/1028 registration (Cabinet annotation to bill 1135/Lp14) was not confirmed, so the line says no scheme was found, matching the LV playbook. The Vecrīga 7.95-9.81% yield was not re-checked."
+ },
+ {
+  "target": "countries/be/playbook.md",
+  "request": "Check the --rental section against the Brussels regime in force 1 Jan 2027 (ordonnance of 1 Feb 2024 and arrêté of 9 Jul 2026), including the 3-year limit on existing fire-safety certificates.",
+  "evidence": "https://www.ejustice.just.fgov.be/mopdf/2026/10/27_1.pdf (art. 100, art. 104)"
+ },
+ {
+  "target": "countries/fi/playbook.md",
+  "request": "Check the --rental notice periods and Caveats against 531/2026 and 535/2026, both in force 1 Oct 2026.",
+  "evidence": "https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2026/531 ; https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2026/535"
+ },
+ {
+  "target": "countries/pl/playbook.md",
+  "request": "--risks Build-era hazards rows 'Post-2017 WT' and 'Post-2021' (lines 291-292) cite WT consolidated Dz.U. 2022 poz. 1225 as the standing source. Add that the 2002 regulation lapsed and that art. 102a-102c Prawo budowlane allow the old rules for 18 months from 20 Sep 2026, then re-stamp the section.",
+  "evidence": "https://api.sejm.gov.pl/eli/acts/DU/2002/690 (uznany za uchylony, repealDate 2026-09-21); https://api.sejm.gov.pl/eli/acts/DU/2026/1161/text.pdf (art. 102a-102c)"
+ },
+ {
+  "target": "countries/pl/playbook.md",
+  "request": "--risks build-era rows 'Post-2017 WT' and 'Post-2021' cite Dz.U. 2022 poz. 1225: note that this regulation is shown as repealed from 2026-09-21, with no successor for budynki in Dz.U. as of 2026-11-04, and that arts 102a-102c of Prawo budowlane allow the old rules for 18 months from 20 Sep 2026.",
+  "evidence": "https://api.sejm.gov.pl/eli/acts/DU/2002/690 + https://api.sejm.gov.pl/eli/acts/DU/2026/1161/text.pdf"
+ },
+ {
+  "target": "countries/ro/playbook.md",
+  "request": "--rental should carry Legea 212/2022 art. 5(3)-(4): renting or lending a dwelling in an RsI building is banned from classification until the works are received, and running contracts end by law 30 days after classification.",
+  "evidence": "https://legislatie.just.ro/Public/DetaliiDocument/257526"
+ },
+ {
+  "target": "digital-nomad-healthcare.md ME (requests 15, 16)",
+  "request": "Read the digital-nomad Rulebook text to confirm the 3× minimum wage basis and which wage level applies",
+  "evidence": "Patch removes the wrong €2,010 figure: 3 × €600 = €1,800 and 3 × €800 = €2,400. The income basis is confirmed only by a secondary site. digitalnomads.gov.me subpages timed out, and the Rulebook was not found in the gazette search. The gazette page for 86/2024 showed metadata only, so the amounts rest on the repo's regulatory-watch.md entry."
+ },
+ {
+  "target": "dk: --crime, --amenities, --climate sections (request 17)",
+  "request": "Research and add DK --crime, --amenities and --climate in a separate pass",
+  "evidence": "No patch. These are new sections needing their own research, not a correction. SKILL.md registers them as universal flags, and only 52 and 51 of 126 playbooks have --crime and --amenities headings, so their absence from DK is not an error. The other two earlier DK requests need nothing."
+ },
+ {
+  "target": "exit-seller-withholding.md CR (request 28)",
+  "request": "Locate the DGT clarification BDO cites and confirm or remove the 2.25% withholding",
+  "evidence": "Patch states the statute: 2.5% withholding, 2.25% elective tax rate. BDO reports DGT clarifications of a 2.25% withholding, so the old sentence was not simply invented, and the patch keeps it as a labelled secondary claim."
+ },
+ {
+  "target": "exit-seller-withholding.md LT (request 1)",
+  "request": "VMI's summary does not separately address non-residents; confirm the 12 VDU band applies to them at VMI.",
+  "evidence": "Patched. The request's 'acquired and sold from 1 Jan 2026' was not used because sources tie the 5-year rule to sales from 2026. Also fixed the same line's stale 15% CIT and withholding (17% from 1 Jan 2026, PwC). New LT regulatory-watch row added first."
+ },
+ {
+  "target": "hu: KSH WBL005 all-dwellings panel figure (request 19)",
+  "request": "Find a KSH final-census table of all dwellings by outer-wall material",
+  "evidence": "Could not confirm 569,576. The WBL005 endpoint gives only national totals (4,580,538 and two others) and no wall-type query was found after trying parameter and path variants. A search and KSH's preliminary publication gave only occupied-dwelling wall data. The --risks wording stays, and it remains true of the cited table 2.2.6."
+ },
+ {
+  "target": "insurance.md PA premium re-check (requests 28, 29)",
+  "request": "Premium range and earthquake-cover uptake, to check directly with the Superintendencia de Seguros y Reaseguros.",
+  "evidence": "No published Superintendencia earthquake premium rate was found, so '~0.15-0.30% [verify]' stays as it is. Earthquake-cover uptake also unconfirmed: Infobae (13 Oct 2026) gives regulator counts for fire and allied lines, not earthquake cover."
+ },
+ {
+  "target": "notary-process BR (request 5)",
+  "request": "Fortaleza ITBI rate on the primary municipal law",
+  "evidence": "São Paulo and Rio 3% patched from primary pages. Fortaleza 4% not patched: the only located source (Jusbrasil) says 2% and cites reductions to 2% in LC 318/2021 art. 306, and no primary text was read."
+ },
+ {
+  "target": "notary-process LT (request 11)",
+  "request": "Check the €76 minimum on Resolution 498 item 25.1; one secondary page gives €33",
+  "evidence": "Patched and labelled: the primary tariff text could not be read after three routes."
+ },
+ {
+  "target": "regulatory-watch FI — kiinteistövero release date",
+  "request": "Re-read the valtioneuvosto.fi release and confirm its date",
+  "evidence": "valtioneuvosto.fi could not be read for verification on 2026-11-04, so the 1 Sep 2026 release date stays unconfirmed; the row says so."
+ },
+ {
+  "target": "regulatory-watch MX — CDMX enacted Código Fiscal text",
+  "request": "Confirm the 2025 factor and the registry threshold",
+  "evidence": "The art. 113 and art. 130 figures and the MXN 25,098 fee come from the initiative; the enacted 19 Dec 2025 decree was not read. The 8.679% 2025 factor and MXN 1,407,720 registry threshold got no patch: their pages could not be read for verification on 2026-11-04."
+ },
+ {
+  "target": "regulatory-watch MX — CDMX enacted Código Fiscal text",
+  "request": "Read the enacted Código Fiscal decree (Gaceta Oficial CDMX 19 Dec 2025) and confirm the tariff",
+  "evidence": "The art. 113 and art. 130 figures and the MXN 25,098 fee come from the initiative; the enacted 19 Dec 2025 decree was not read. The 8.679% 2025 factor and MXN 1,407,720 registry threshold got no patch: their pages could not be read for verification on 2026-11-04."
+ },
+ {
+  "target": "regulatory-watch RS — 2014 floods sub-claims",
+  "request": "No patch for 'the Bosna flood was in BiH and fed the Sava' or 'Obrenovac flooded from Kolubara/Tamnava dike failures': the assessment read does not state either. Bosna was dropped from the row, NOT-Drava kept.",
+  "evidence": "No patch for 'the Bosna flood was in BiH and fed the Sava' or 'Obrenovac flooded from Kolubara/Tamnava dike failures': the assessment read does not state either. Bosna was dropped from the row, NOT-Drava kept."
+ },
+ {
+  "target": "regulatory-watch § CY (flood APSFR 38 to 43, CERA electricity market)",
+  "request": "Confirm the 43-area APSFR list on a WDD publication",
+  "evidence": "No patch. Only Politis (23 Oct 2026, secondary) reports the 43 areas, and it says the updated list is not formally published. The WDD flood-directive home page and a search limited to government domains showed no such list; the interactive maps were not read. The optional CERA Decision 185/2025 item was not researched."
+ },
+ {
+  "target": "regulatory-watch § CY (flood APSFR 38 to 43, CERA electricity market)",
+  "request": "Optional: CERA Decision 185/2025 for --mains",
+  "evidence": "No patch. Only Politis (23 Oct 2026, secondary) reports the 43 areas, and it says the updated list is not formally published. The WDD flood-directive home page and a search limited to government domains showed no such list; the interactive maps were not read. The optional CERA Decision 185/2025 item was not researched."
+ },
+ {
+  "target": "regulatory-watch § LT (Resolution 1178 draft)",
+  "request": "Read draft 25-19577 and the current Resolution 1178 version at e-tar.lt or e-seimas, then add the entry",
+  "evidence": "No patch. The draft (reg. no. 25-19577(4) amending Government Resolution 1178) is known only from a Lithuanian Business Confederation letter of 18 Sep 2026 and Kauno diena. e-tar could not be read on two routes, and searches limited to lrv.lt, e-seimas and e-tar found neither the draft nor an adopted text, so its content and any adoption around 1 Nov 2026 stay unconfirmed."
+ },
+ {
+  "target": "regulatory-watch § LV (Regulation 2024/1028 watch item)",
+  "request": "Confirm at em.gov.lv / likumi.lv whether a Latvian registration scheme exists",
+  "evidence": "No separate row. One search found no Latvian STR register or single digital entry point, which does not establish that none exists. The new Tourism Law row states only that those amendments do not mention the Regulation."
+ },
+ {
+  "target": "req 4 PA self-solvent and pensionado",
+  "request": "Holders may switch to Qualified Investor within 12 months of DE 17/2026: confirm in the DE 17/2026 text",
+  "evidence": "Both records patched from SNM sheets. The 12-month switch to Qualified Investor stays out: only the Kraemer Law lead supports it, and the EY alert read does not mention it."
+ },
+ {
+  "target": "req 9 ME residency by property",
+  "request": "½ co-ownership minimum (art. 56(2), Sl. list CG 3/19): the 3/19 text was not re-read in this run",
+  "evidence": "Art. 64, art. 65 and the art. 56 property list patched from gazette page images (OCR)."
+ },
+ {
+  "target": "shared/macro.md NBRSM row",
+  "request": "Read the Nov 2026 Monetary Policy Executive Board release at nbrm.mk directly, then re-stamp row 150 with its date.",
+  "evidence": "The 4.25% rate is already applied, so the two finding requests are done. No re-stamp patch: nbrm.mk could not be read for verification on 2026-11-04 by release, Macedonian page or archive. Secondary reports dated 3 Nov 2026 (SeeNews headline, Sloboden Pechat via time.mk) say the rate stayed at 4.25%, but they disagree on whether the session was on 2 or 3 Nov. Line 244 'MK 5.00%' needs no change: it sits in the 10-yr yield table, not a policy-rate table."
+ },
+ {
+  "target": "si: MČN term in Active fiscal incentives (request 14)",
+  "request": "Eko sklad loans-only line still says small wastewater plants (MČN): confirm the term on Eko sklad's current incentive list",
+  "evidence": "The 'Subvencija za izgradnjo MČN' text no longer exists. The občina line is patched to MKČN. The Eko sklad loans line keeps its term because Eko sklad's own list was not found on the page read, so its wording could not be confirmed."
+ },
+ {
+  "target": "skills/property-deep-dive/SKILL.md",
+  "request": "Line 288 matched the search for 'worst-recorded' or '600 fires' on Bulgaria, and lines 290 and 540 carry the Cyprus 'worst drought since 1901' claim (line 540: '2025 worst drought since 1901'). Apply the same corrections as esg.md: highest burnt area in over a decade, and 8th driest hydrological year since 1901.",
+  "evidence": "JRC EUR 40516 https://publications.jrc.ec.europa.eu/repository/handle/JRC144093 ; https://en.sigmalive.com/cyprus-records-eighth-driest-hydrological-year-since-1901"
+ },
+ {
+  "target": "skills/property-deep-dive/countries/ar/playbook.md",
+  "request": "Caveats line says the Ley 26.737 restoring bill passed Diputados on 2026-10-22; the vote was on 2026-10-21. The --rental line says the eviction is processed within 10 further business days, which no page read on 2026-11-04 supports; check it against the bill text.",
+  "evidence": "https://www.parlamentario.com/2026/10/21/diputados-devolvio-al-senado-el-proyecto-de-inviolabilidad-de-la-propiedad-privada-con-la-restitucion-de-la-ley-de-tierras ; https://www.cfin.com.ar/destacados/ley-propiedad-privada-desalojos-expropiaciones-tierras"
+ },
+ {
+  "target": "skills/property-deep-dive/countries/be/playbook.md",
+  "request": "Line 211 says the entry-into-force date of the Brussels Ordonnance of 1 Feb 2024 is left to the Government. Two secondary sources report an implementing arrêté of 9 Jul 2026 (Moniteur belge 27 Oct 2026) applying from 1 Jan 2027, with lighter rules for hosts in their own home. Confirm on ejustice, then update the playbook and add a regulatory-watch.md entry.",
+  "evidence": "https://www.droitbelge.be/news_detail.asp?id=1202 ; https://juriup.be/actualite-juridique/locations-touristiques-bruxelles-regles-2027"
+ },
+ {
+  "target": "skills/property-deep-dive/countries/be/playbook.md",
+  "request": "The playbook does not give the Brussels regional tourist-accommodation tax. Add €5 per unit (standard) and €4 (home-hosted) from tax year 2026.",
+  "evidence": "https://be.brussels/fr/impots-financement/impots-et-taxes/fiscalite-des-entreprises-et-activites-professionnelles/taxe-regionale-sur-les-etablissements-dhebergement-touristique"
+ },
+ {
+  "target": "skills/property-deep-dive/countries/me/playbook.md",
+  "request": "Check that the residency section notes bill EPA 1219 art. 278 (applies only from EU accession) if it mentions the bill at all; this was not checked.",
+  "evidence": "https://zakoni.skupstina.me/download/5b8a1ee5-9dcd-4cf8-8db2-0d9b31066ae7 (art. 278: 'primjenjivaće se danom pristupanja Crne Gore Evropskoj uniji')."
+ },
+ {
+  "target": "skills/property-deep-dive/countries/mk/playbook.md",
+  "request": "Line 105 says it is not verified whether the 33/19 amendment changed the notary bands. The amendment touches only Arts 26 and 27 of the tariff, so that caveat can be dropped.",
+  "evidence": "Sl. vesnik 33, 8 Feb 2019, item 587, linked from https://www.nkrm.org.mk/index.php/news-and-events/news-and-events-3"
+ },
+ {
+  "target": "skills/property-deep-dive/countries/pa/playbook.md",
+  "request": "Check the Ley 519 in-force date against the Gaceta 30513 text: the playbook says 29 Apr 2026 and PMA Lawyers says 28 Apr 2026. The transfer-exemption end date (~29 Apr 2028) depends on it.",
+  "evidence": "https://www.pmalawyers.com/post/ley-519-de-2026-nuevos-incentivos-para-la-revitalizaci%C3%B3n-del-patrimonio-hist%C3%B3rico-en-panam%C3%A1 ('La Ley entró en vigor el día siguiente a su promulgación, el 28 de abril de 2026'); Gaceta contents page dates the law 27 Apr and the issue 28 Apr 2026."
+ },
+ {
+  "target": "skills/property-deep-dive/countries/rs/playbook.md",
+  "request": "Tourist-tax line 157 tag and the Per-section note say the final Belgrade decision's gazette number was not found. Cite Sl. list Grada Beograda 82/2026 of 7 Oct 2026 (no. 43-689/26-S) in place of the draft.",
+  "evidence": "https://www.sllistbeograd.rs/pdf/2026/82-2026.pdf"
+ },
+ {
+  "target": "skills/property-deep-dive/countries/sk/playbook.md",
+  "request": "After the new SK regulatory-watch row lands, update the 'no NOZ-style overhaul' statements in Country profile and Caveats unique to SK, and note that § 140 becomes § 1512 and § 120 ods. 2 becomes § 29 ods. 2 from 1 Jul 2027. Line numbers in the lead (14, 525, 562, 567) were not re-checked this run.",
+  "evidence": "https://static.slov-lex.sk/static/SK/ZZ/2026/260/vyhlasene_znenie.html"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/notary-process.md",
+  "request": "CY row, process cell, still says 'contract stamped'. Stamp duty was repealed from 1 Jan 2026, so review whether that wording should change for contracts signed from 2026. Not patched: no request covered it and the current lodging step was not checked.",
+  "evidence": "https://www.gov.cy/mof-tax/documents/chartosima"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/regulatory-watch.md",
+  "request": "Add a Luxembourg entry for the planned withholding at source on real-estate capital gains from tax year 2028 (budget bill 8800 revenue commentary, filed 7 Oct 2026); planned only, no enacted text found. Add a Lithuania check that 17% foreign-entity withholding on immovable property from 1 Jan 2026 is logged.",
+  "evidence": "https://wdocs-pub.chd.lu/docs/Dossier_Projet_de_loi8800/20261007_Depot.pdf ; https://taxsummaries.pwc.com/lithuania/corporate/withholding-taxes"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/regulatory-watch.md",
+  "request": "BG ЗИД на ЗДДС row: the draft threshold is given as EUR 75,000, but a Mediapool report on the 23 Oct 2026 tripartite meeting says the rise will be to EUR 60,000 instead. Unverified lead: confirm on a primary source before changing the row or the BG playbook.",
+  "evidence": "https://www.mediapool.bg/biznes/pragat-po-dds-dogodina-shte-se-vdigne-na-60-000-evro-a-ne-na-75-000-evro (headline: 'Прагът по ДДС догодина ще се вдигне на 60 000 евро, а не на 75 000 евро')"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/regulatory-watch.md",
+  "request": "EU-wide table, EPBD row: status verified 2026-07-31 says deadline unmet everywhere. Luxembourg published a transposition notice on 18 Sep 2026 (A 470); re-check the row and the Rule under the table.",
+  "evidence": "https://legilux.public.lu/eli/etat/leg/pa/2026/09/18/a470/jo"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/regulatory-watch.md",
+  "request": "HU Kertv. 11/H moratorium entry (2025-01-01): add that MAKE, FATOSZ, FMKE and FSZKSZ jointly asked on 14 Oct 2026 for an extension to 31 Dec 2027, and that no bill or government decision was reported (secondary).",
+  "evidence": "https://jogihirek.hu/ingatlan/lejar-az-airbnb-moratorium-mi-valtozik-januar-1-jetol-budapesten : 'A szakmai szervezetek (MAKE, FATOSZ, FMKE, FSZKSZ) október 14-én közös állásfoglalásban kérték, hogy a moratóriumot 2027. december 31-ig hosszabbítsák meg.'"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/regulatory-watch.md",
+  "request": "HU wealth-tax entry (2026-12-15, bill T/930): change 'no wealth-tax act in Magyar Közlöny up to issue 2026/164 of 3 Nov 2026' to 'up to issue 2026/165 of 4 Nov 2026'.",
+  "evidence": "https://magyarkozlony.hu/ shows 'Magyar Közlöny 2026. évi 165. szám 2026. november 4.' as the latest issue; its only content is government decision 1368/2026. (XI. 4.) on a school."
+ },
+ {
+  "target": "skills/property-deep-dive/shared/regulatory-watch.md",
+  "request": "In the ME 2024-10-01 Europe Now 2 entry (line 699), the sentence 'None of these bills appears in the Parliament register as of 4 Nov 2026 or on the plenary agendas of 9, 13 and 29 Oct 2026' could not be re-verified on 2026-11-05: the Parliament register path returned a not-found page and the session page held no usable list. Re-check it or label it, and add the gazette fact: none of the six bills is in Sl. list CG through issue 163/2026 of 3 Nov 2026. Also state that the bills were settled at the Government's telephone session of 17 Sep 2026 and published on gov.me on 18 Sep 2026.",
+  "evidence": "https://www.sluzbenilist.me/registri/399833 (issue 163/2026, 03.11.2026; issues 136/2026-163/2026 list 21 laws, none on PIT, contributions, labour or pensions); https://www.ronalegal.com/en/blog/montenegro-euro-model-2027-zero-contributions-minimum-wage (session 17.09.2026, gov.me publication 18.09.2026, secondary)"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/rental-yield-delta.md",
+  "request": "Line 110 says District I is weighing rules after a poll, but HU playbook line 211 records a published draft zero-day decree (consultation from 22 Oct 2026). Align after confirming it.",
+  "evidence": "skills/property-deep-dive/countries/hu/playbook.md:211"
+ },
+ {
+  "target": "watch-01 BE (VAT, Flanders, Wallonia, Brussels, asbestattest)",
+  "request": "Royal decree text for the 12% VAT rate",
+  "evidence": "Brussels changed from the request: the arrêté of 9 Jul 2026 (Moniteur belge 27 Oct 2026, art. 104) sets entry into force at 1 Jan 2027, so the row is dated, not pending. The VAT row rests on the SPF FAQ as reproduced by a secondary site, and the royal decree was not read. Flanders: 'competent authority' wording and adoption in the Vlaams Parlement not confirmed, left out. Wallonia: platform-verification and activity-data details were not in the passages read, left out."
+ },
+ {
+  "target": "watch-01 BE (VAT, Flanders, Wallonia, Brussels, asbestattest)",
+  "request": "Vlaams Parlement adoption of the Logiesdecreet amendment",
+  "evidence": "Brussels changed from the request: the arrêté of 9 Jul 2026 (Moniteur belge 27 Oct 2026, art. 104) sets entry into force at 1 Jan 2027, so the row is dated, not pending. The VAT row rests on the SPF FAQ as reproduced by a secondary site, and the royal decree was not read. Flanders: 'competent authority' wording and adoption in the Vlaams Parlement not confirmed, left out. Wallonia: platform-verification and activity-data details were not in the passages read, left out."
+ },
+ {
+  "target": "watch-01 CA foreign-buyer re-stamp",
+  "request": "Finance Minister statement of 7 Oct 2026 on reviewing the options",
+  "evidence": "Re-stamped to Justice Laws current to 2026-10-19, repeal still not in force. The Finance Minister's 7 Oct 2026 remark was not found in any source this run, so it gets no patch."
+ },
+ {
+  "target": "watch-01 DK (personskat, ApS, rental, tinglysning, institutional)",
+  "request": "Lov om leje § 205 and repeal list at retsinformation.dk",
+  "evidence": "Most confirmed on skat.dk, skm.dk, plst.dk, Erhvervsstyrelsen, Naturskaderådet. ApS date changed from 2025-01-01 to 2025-02-27 on a secondary source. Lov om leje: statutory text could not be read, so the repeal of LBK 927/2019 and 929/2019 and the 'no substantive change' claim are left out. LBK 400/2024 and lov nr. 168/2020 citations were not on the pages read, left out. 'Indexed every second year' not confirmed, left out. The kyst.dk privacy page cited in the request no longer loads, so the row says only that coast pages now sit on mst.dk."
+ },
+ {
+  "target": "watch-01 EE (EPBD, land valuation, 2024/1028 wording, tax row)",
+  "request": "Estonian EPBD transposition act and date",
+  "evidence": "EPBD: scale change and deadline confirmed, Estonian transposition status not confirmed, row marked pending. Tartu's maamaks page no longer loads, so the 2027 limits are labelled ERR secondary. The 2027 minimum-wage watch item has no figure and gets no patch."
+ },
+ {
+  "target": "watch-01 FI (tenancy, AOYL x2, elinvoimakeskukset, kotitalousvähennys, 470/2019)",
+  "request": "Lupa- ja valvontavirasto occupational-safety department claim",
+  "evidence": "Confirmed on Finlex, KKV, Vero and vesi.fi. Amending act numbers found: 531/2026 and 535/2026. The AOYL requests merged. The tyosuojelu.fi occupational-safety claim could not be read, so it is left out of the row. The 2027 budget-proposal source for kotitalousvähennys was not read, left out."
+ },
+ {
+  "target": "watch-08 › EE (requests 8, 10, 11)",
+  "request": "EMTA 2027 cap table (https://ncfailid.emta.ee/s/8gyxyJd9eTRnmga) not read, so no patch for 100% caps in Kohtla-Järve, Ruhnu and Tori or 50% in Tartu.",
+  "evidence": "Requests 8 and 10 and the new maamaks row are done. Open: the optional note on the existing maamaks row (EMTA 2027 cap table)."
+ },
+ {
+  "target": "watch-08 › HU (requests 17, 18)",
+  "request": "Decree 26/2024 text with its fine amounts was not read.",
+  "evidence": "Wealth-tax status moved to Magyar Közlöny issue 2026/164 and the 3 Nov plenary agenda. District VI ban confirmed on the district page, but the enforcement and fine claim is now marked UNVERIFIED."
+ },
+ {
+  "target": "watch-08 › NZ (requests 24-26)",
+  "request": "Check the live H1 page at the 2026-11-27 revisit.",
+  "evidence": "Three rows added. Wellington start date is secondary only; H1 read on an archived copy. Optional Christchurch PC4 entry left out."
+ },
+ {
+  "target": "watch-08 › NZ (requests 24-26)",
+  "request": "Confirm the Wellington start date on a council source by 2026-12-15.",
+  "evidence": "Three rows added. Wellington start date is secondary only; H1 read on an archived copy. Optional Christchurch PC4 entry left out."
+ }
+]

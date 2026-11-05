@@ -30,7 +30,7 @@ Source: Inatsisartutlov nr. 17 af 17. november 2010 om planlægning og arealanve
 
 > "In Greenland there is no privately owned land, all rights to any use of land is administered by the Government of Greenland."
 
-Source: [govmin.gl Mineral Resources Act page](https://govmin.gl/exploitation/get-an-exploitation-licence/mineral-resources-act/) — `primary-verified` (Tavily-confirmed verbatim; direct WebFetch failed TLS during research but the snippet is verbatim-attested by an independent search engine). Community corroboration: one on-topic r/greenland thread ([1cq7b5b](https://www.reddit.com/r/greenland/comments/1cq7b5b/buying_a_land_renting_in_greenland/)) where locals confirm "no one's able to buy land here" — anecdotal, not load-bearing but consistent with primary.
+Source: [govmin.gl Mineral Resources Act page](https://govmin.gl/exploitation/get-an-exploitation-licence/mineral-resources-act/) — `primary-verified` (confirmed verbatim in a search snippet; the page itself could not be read but the snippet is verbatim-attested by an independent search engine). Community corroboration: one on-topic r/greenland thread ([1cq7b5b](https://www.reddit.com/r/greenland/comments/1cq7b5b/buying_a_land_renting_in_greenland/)) where locals confirm "no one's able to buy land here" — anecdotal, not load-bearing but consistent with primary.
 
 The system is sometimes summarised in legal commentary as a "legal anachronism" (Arctic Institute) because Greenland never developed Roman / feudal land-ownership concepts; land allocation is administrative-customary, descended from Inuit common-use practice and codified into the modern brugsret regime.
 
@@ -120,7 +120,7 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
 2. **Skattetræk i Grønland** (Skattestyrelsen, **September 2026 edition — Danish only; the English edition has been withdrawn**), which states "Vejledningen indeholder de regler, der gælder pr. 1. januar 2025": index page [aka.gl — Vejledninger Skat](https://aka.gl/emner/borger/skat/vejledninger-skat) → current PDF `skattetraek-i-groenland-dk-sept26.pdf`. Cite the index page, not the media URL — aka.gl serves its PDFs off a rotating Umbraco Cloud host (2026 data, source aka.gl; 2026-09-18 verified)
 3. **Sullissivik (citizen portal)**: [sullissivik.gl](https://sullissivik.gl/) — self-service tax + business
 4. **Naalakkersuisut finance laws**: [naalakkersuisut.gl](https://naalakkersuisut.gl/) — annual Finanslov (`FFL`, the Finance Act)
-5. **Nordic cooperation Greenland tax overview**: [norden.org / info-norden / taxation-greenland](https://www.norden.org/en/info-norden/taxation-greenland) — useful EN overview (HTTP 403 during research run — verify directly); cross-check with aka.gl
+5. **Nordic cooperation Greenland tax overview**: [norden.org / info-norden / taxation-greenland](https://www.norden.org/en/info-norden/taxation-greenland) — useful EN overview (could not be read for verification — check it directly); cross-check with aka.gl
 6. **Inatsisartut tax laws (DA full text)**: [ina.gl](https://ina.gl/) — Greenland's parliament; published FFL carry rate tables
 7. **PwC Worldwide Tax Summaries — Greenland** (cross-reference, not primary): [taxsummaries.pwc.com/greenland](https://taxsummaries.pwc.com/greenland/individual/taxes-on-personal-income) — note PwC table reproduces 2020-era rate structure; use aka.gl 2025 PDF as the authoritative current source
 
@@ -179,7 +179,7 @@ The system is sometimes summarised in legal commentary as a "legal anachronism" 
 
 ## Section: `--registry` (Land + building title)
 
-**There is NO Greenland land-title registry.** Land is not titled — primary-confirmed by MLSA (Mineral Licence and Safety Authority, govmin.gl, under Naalakkersuisut): *"In Greenland there is no privately owned land, all rights to any use of land is administered by the Government of Greenland."* ([govmin.gl Mineral Resources Act page](https://govmin.gl/exploitation/get-an-exploitation-licence/mineral-resources-act/)) — `primary-verified` via Tavily verbatim snippet.
+**There is NO Greenland land-title registry.** Land is not titled — primary-confirmed by MLSA (Mineral Licence and Safety Authority, govmin.gl, under Naalakkersuisut): *"In Greenland there is no privately owned land, all rights to any use of land is administered by the Government of Greenland."* ([govmin.gl Mineral Resources Act page](https://govmin.gl/exploitation/get-an-exploitation-licence/mineral-resources-act/)) — `primary-verified` via a verbatim search snippet.
 
 For **buildings**, ownership + mortgages are recorded in the Danish national tinglysning system administered by:
 
@@ -456,9 +456,9 @@ For GL-resident buyers moving abroad. **Doorway only** — see [`shared/cross-bo
 
 - Inatsisartutlov nr. 78/2025 was identified during validation (2026-05-27) as having been **enacted** on 21 November 2025 with effective date 1 January 2026 — superseding the 3 Feb 2025 FFL annotation that the original draft treated as the operative source. The `--ownership` section has been rewritten against the primary statute (nalunaarutit.gl) and forarbejder; the 3 Feb 2025 announcement is retained as a policy-rationale source.
 - Tax-rate table sourced from PwC 2026 cross-reference; **primary citation now points to the aka.gl 2025 EN withholding guide (PDF, July 2025)** rather than PwC's reproduction. Re-verify the per-municipality column against the PDF before reliance.
-- The govmin.gl "no privately owned land" quote is `primary-verified` via independent Tavily search returning the verbatim snippet from the live MLSA page, even though direct WebFetch failed TLS during research. Confidence on this structural fact is HIGH.
+- The govmin.gl "no privately owned land" quote is `primary-verified` via a verbatim search snippet from the live MLSA page, though the page itself could not be read. Confidence on this structural fact is HIGH.
 - Reddit signal: thin, as expected. Only one on-topic operator thread ([r/greenland 1cq7b5b](https://www.reddit.com/r/greenland/comments/1cq7b5b/buying_a_land_renting_in_greenland/)) corroborates the no-private-land claim; cited as community signal, not load-bearing.
 - The Greenlandic rental-law reform (`forslag til Inatsisartutlov om leje af boliger`) was in public consultation 6 Mar – 3 Apr 2026 and is before Inatsisartut as EM2026 punkt 242 (2nd reading listed for 23 Oct 2026 put on hold and the bill re-referred to committee; 2nd reading now 3 Nov 2026, 3rd reading 12 Nov 2026; proposed in force 1 Jan 2027) — NOT adopted as of 2026-10-28; `verify status as of publish date`.
 - Price/m² figures in `--price` are orientation `est.` only — no sold-price register equivalent to DVF / Catastro exists for Greenland.
-- norden.org taxation-greenland page returned HTTP 403 during this research run; tax structure restated from aka.gl 2025 EN PDF (primary) + PwC (cross-reference) + ina.gl FFL URLs.
+- norden.org taxation-greenland page could not be read for verification; tax structure restated from aka.gl 2025 EN PDF (primary) + PwC (cross-reference) + ina.gl FFL URLs.
 - Cardelli et al. 2024 "39% of Ilulissat paved roads on highly hazardous frost-susceptible terrain" is a single-study figure — pre-purchase, consult Asiaq for parcel-specific frost-susceptibility data.

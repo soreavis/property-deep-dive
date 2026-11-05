@@ -21,7 +21,7 @@ ISO2: `at`. Status: ✅ Fully populated (researched 2026-04).
   - `https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/haeuserpreisindex-und-ooh-pi`
   - Built from the purchase contracts lodged in the Grundbuch, private-household buyers only; quarterly. Q2 2026: 105.00 (2025 = 100), +5.1 % YoY, a new all-time high; next release (Q3 2026) on 18 Dec 2026 (2026 data, source Statistik Austria HPI page, updated 23 Sep 2026)
 - **OeNB (Österreichische Nationalbank) Wohnimmobilienpreisindex**:
-  - `https://www.oenb.at/daten-und-forschung/datenangebot/preise-wettbewerbsfaehigkeit/immobilien/6-6-wohnimmobilienpreisindex.html` (updated 2026-10-28; the old /Statistik/Standardisierte-Tabellen/ URL returns 404)
+  - `https://www.oenb.at/daten-und-forschung/datenangebot/preise-wettbewerbsfaehigkeit/immobilien/6-6-wohnimmobilienpreisindex.html` (updated 2026-10-28; the old /Statistik/Standardisierte-Tabellen/ URL no longer exists)
   - Quarterly, 2000 = 100, separate series for Wien and Österreich ohne Wien; data basis is the broker software JUSTIMMO (since Q3 2017, per OeNB metadata), not Grundbuch contracts, so it can diverge from the Statistik Austria HPI
 - **Statistik Austria Immobilien-Durchschnittspreise** (annual; €/m² for houses and flats per Bezirk, plots also per Gemeinde, from Grundbuch contracts of private-household buyers; 2025 edition published 28 May 2026, next 28 May 2027; usable as the basis for Grunderwerbsteuer on unentgeltliche Erwerbe under the Grundstückswertverordnung):
   - `https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/immobilien-durchschnittspreise`
@@ -459,9 +459,9 @@ Austria's **HORA** is a free, all-hazards-in-one-place natural-hazard portal (EU
 | `--risks` | 2026-10-28 | 2026-10-28 Tier-A refresh | WISA RMP2027 flood maps, HORA scope and 2026 layers, GeoSphere earthquake record, Radonschutzverordnung (104 Radonschutzgebiete), the 2002 / 2013 / 2024 floods, die.wildbach zones, EAVG 2012 as amended by BGBl I 38/2026 and the ÖKS15 Wien example on primary sources; river list, hail trend and the qualitative hazard and climate bullets unsourced; build-era table not re-researched |
 | `--mains` | 2026-10-28 | 2026-10-28 Tier-A refresh | BMLUK supply shares, Lagebericht 2026 sewer connection (96.5 %), operator names and E-Control electricity network charges re-verified; Anschlussbescheid sale duty not verified; cost rows est. |
 | Active fiscal incentives | 2026-10-28 | 2026-10-28 Tier-A refresh | Sanierungsoffensive 2026 (budget exhausted 10 Jul 2026, Kesseltausch re-launch), § 124b Z 451 / 452 / 480 EStG, IFB scope and the EWG new-build ban on primary sources; "Klimaticket Effizienzhaus" removed (not found in any source); Wohnbauförderung per Land not checked |
-| Common listing platforms | 2026-10-28 | 2026-10-28 Tier-A refresh | Bazar.at live, Quoka.at redirects to quoka.de, the others live; willhaben content behind a bot wall |
+| Common listing platforms | 2026-10-28 | 2026-10-28 Tier-A refresh | Bazar.at live, Quoka.at redirects to quoka.de, the others live; willhaben content could not be read for verification |
 | Caveats unique to AT | 2026-10-28 | 2026-10-28 Tier-A refresh | Grundverkehr line relabelled as an approval regime and the second-home thresholds confirmed on RIS; § 121a BAO scope corrected; `--finance` bullet added (KIM-V expired 30 Jun 2025, FMA standard); HORA line re-sourced; Naturschutz, Mietkauf, Erbenermittlung and Almhütten caveats unsourced |
-| Source URL templates | 2026-10-28 | 2026-10-28 Tier-A refresh | All 10 rows checked: WISA RMP2027, OeNB and Justiz URLs replaced, ImmoScout24 pattern fixed; E-Control, Breitbandatlas and BKA rows added; willhaben behind a bot wall |
+| Source URL templates | 2026-10-28 | 2026-10-28 Tier-A refresh | All 10 rows checked: WISA RMP2027, OeNB and Justiz URLs replaced, ImmoScout24 pattern fixed; E-Control, Breitbandatlas and BKA rows added; willhaben could not be read for verification |
 
 ## Extension TODOs
 
