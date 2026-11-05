@@ -54,6 +54,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Fixed
 
+- **Generated-file checks run on every PR, and the playbook lint sees uncommitted edits.** The match-index and doc-sync checks lose their path filters so they can be required; `check-playbooks.py` diffs from the fork point, so a run before the commit no longer reports 0 files; `maintain.py apply` refreshes generated files too.
 - **Generated files refreshed after the shared-file changes, and `maintain.py apply-shared` now does it itself.** `_match-index.json` and the README line counts had gone stale; `apply-shared` runs the visa, match-index and doc-sync generators so CI cannot find them stale again.
 - **Shared files catch up with 582 refuted changes left over from the refresh runs.** Requests agents raised for regulatory-watch.md, SKILL.md and about 40 other files were merged, re-checked on primary sources and refuted, so the watch file gains the reforms the playbooks already reflected. A further 21 proposals failed the refuter and were dropped, and 65 could not be confirmed and stay out.
 - **BA BE BG BR CA CY DK HU LV MX NO PL RO re-dated to 2026-10-23 and RS to 2026-11-04: 304 refuted changes across 24 playbooks.** The scripts-first pipeline closed the second-15 gap pass and the first-15 round 2 in one run. AR CR HR LT LU ME MK MT NZ PA keep their date: at least one fast section stays open. Section dates show the oldest proof, not the run date.

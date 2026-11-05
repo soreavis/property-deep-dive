@@ -5,15 +5,8 @@ name: Match index audit
 # and runs the render-script unit tests. Mirrors visa-programs-audit.yml.
 
 on:
+  # no path filter: a required check must report on every PR
   pull_request:
-    paths:
-      - 'config/_match-index.json'
-      - 'config/_match-extracted.json'
-      - 'config/_visa-programs.json'
-      - 'skills/property-deep-dive/shared/compare.md'
-      - 'scripts/render-match-index.py'
-      - 'scripts/render-match-index-test.py'
-      - '.github/workflows/match-index-audit.yml'
   push:
     branches: [main]
     paths:

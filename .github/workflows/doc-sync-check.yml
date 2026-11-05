@@ -1,17 +1,9 @@
 name: Doc sync check
 
 on:
+  # no path filter: a required check must report on every PR
   pull_request:
     branches: [main]
-    paths:
-      - 'skills/property-deep-dive/**'
-      - 'README.md'
-      - 'CONTRIBUTING.md'
-      - 'SECURITY.md'
-      - 'config/_regions.json'
-      - 'config/_visa-programs.json'
-      - 'scripts/sync-docs.py'
-      - '.github/workflows/doc-sync-check.yml'
   schedule:
     # Tuesday 09:00 UTC — separate day from url-liveness (Mon) and link-check (Fri)
     - cron: '0 9 * * 2'

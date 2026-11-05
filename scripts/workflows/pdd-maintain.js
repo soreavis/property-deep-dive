@@ -8,7 +8,8 @@ export const meta = {
   ],
 }
 
-// args: { root: repo checkout, dir: plan output dir, date: 'YYYY-MM-DD', items: plan.json entries }
+// args: { root: repo checkout, dir: plan output dir, date: 'YYYY-MM-DD', items: plan.json entries,
+//         researchModel?, researchEffort?: for cost comparisons; refuters always stay on M }
 const M = 'opus'
 const pb = cc => `${args.root}/skills/property-deep-dive/countries/${cc}/playbook.md`
 
@@ -54,7 +55,7 @@ A worklist line you confirmed without changing it gets no patch: list it in conf
 The worklist entry may hold pending: requests earlier runs left for this playbook, with their evidence. Treat each as a lead, not a fact: check it, patch it if it still holds, skip it if it is done or wrong.
 Report sections[] for ${it.sections.join(', ')}: closed=true only if every worklist line there is now confirmed or labelled. Each section's note is printed in the playbook: one or two sentences for a reader on what was confirmed or changed, naming sources, with no word about this run (worklist, patch, ledger, refuter).
 Touch only these sections, with one exception: a line anywhere else in this playbook (Country profile, quirks, other sections, the Status Confidence paragraph) that restates a figure you changed or now contradicts your patch gets its own patch, with section set to where it sits. Never the Status stamp, Per-section table or Update history (maintain.py writes them). Changes to shared files go in shared_requests with evidence.`,
-  { label: `research:${it.code}:${it.cluster}`, phase: 'Research', schema: RESEARCH, model: M })
+  { label: `research:${it.code}:${it.cluster}`, phase: 'Research', schema: RESEARCH, model: args.researchModel || M, ...(args.researchEffort ? { effort: args.researchEffort } : {}) })
 
 const researchShared = it => agent(`${BASE}
 Requests from earlier runs: ${args.dir}/${it.code}.json → requests[] (target file, request, evidence). Each is a lead an agent left unverified, not a fact, and several may repeat one change.
