@@ -21,6 +21,7 @@ blocks an unrelated PR. RE-STAMP reads each changed playbook whole.
 """
 import argparse
 import datetime
+import json
 import re
 import subprocess
 import sys
@@ -113,11 +114,19 @@ def line_errors(line: str, today: datetime.date) -> list[str]:
     return errs + arithmetic_errors(line)
 
 
-def restamp_errors(text: str) -> list[str]:
+def open_objections(path: str) -> list[str]:
+    """Sections a refuter refused to close, from the evidence ledger."""
+    ledger = ROOT / "config" / "_evidence" / f"{Path(path).parent.name}.json"
+    return list(json.loads(ledger.read_text()).get("open", {})) if ledger.exists() else []
+
+
+def restamp_errors(text: str, objections: tuple[str, ...] = ()) -> list[str]:
     status = text[text.find("\n## Status"):] if "\n## Status" in text else ""
     stamp, table = STAMP.search(status), TABLE_HEAD.search(text)
     if not (stamp and table):
         return []
+    if objections:
+        return [f"re-stamp {stamp[1]}: `{', '.join(objections)}` still carries a refuter's objection"]
     rows = {}
     for row in text[table.end():].splitlines()[1:]:
         if not row.strip():
@@ -180,7 +189,7 @@ def main() -> int:
         text = (ROOT / f).read_text(encoding="utf-8")
         lines = list(enumerate(text.splitlines(), 1)) if a.all else added_lines(since, f)
         fails += [f"{f}:{n}: {e}" for n, l in lines for e in line_errors(l, today)]
-        fails += [f"{f}: {e}" for e in restamp_errors(text)]
+        fails += [f"{f}: {e}" for e in restamp_errors(text, tuple(open_objections(f)))]
     for e in fails:
         print(e)
     print(f"{'✘' if fails else '✔'} {len(fails)} playbook check failure(s) in {len(files)} file(s)")

@@ -54,6 +54,7 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 ### Fixed
 
+- **HR LT LU ME PA re-dated to 2026-10-23 with 66 more refuted changes; HU's date withdrawn.** Objections on BE, PL and RO were answered, so those dates stand. HU, re-dated too early in #553, keeps a refuter's objection on `--tax` and returns to its earlier date. AR CR HU MK MT NZ stay open. The lint now rejects a re-stamp on a playbook whose ledger holds an open objection.
 - **A section a refuter left open no longer lets its playbook be re-dated.** `maintain.py` dated BE, HU, PL and RO from older table rows while a section was still open. It now holds the date, and the ledger keeps each objection so the next run sends it back to an agent, however well the lines pass the scripts.
 - **Generated-file checks run on every PR, and the playbook lint sees uncommitted edits.** The match-index and doc-sync checks lose their path filters so they can be required; `check-playbooks.py` diffs from the fork point, so a run before the commit no longer reports 0 files; `maintain.py apply` refreshes generated files too.
 - **Generated files refreshed after the shared-file changes, and `maintain.py apply-shared` now does it itself.** `_match-index.json` and the README line counts had gone stale; `apply-shared` runs the visa, match-index and doc-sync generators so CI cannot find them stale again.

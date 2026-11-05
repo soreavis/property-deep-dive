@@ -85,6 +85,10 @@ class Restamp(unittest.TestCase):
     def test_a_subsection_row_does_not_cover_the_section(self):
         self.assertTrue(CP.restamp_errors(PLAYBOOK.format(tax="| `--tax` › Rates | 2026-10-23 | pass | n |")))
 
+    def test_an_open_objection_rejects_the_stamp_however_complete_the_table(self):
+        text = PLAYBOOK.format(tax="| `--tax` | 2026-10-23 | pass | n |")
+        self.assertTrue(CP.restamp_errors(text, ("tax",)))
+
     def test_missing_or_older_section_fails(self):
         self.assertTrue(CP.restamp_errors(PLAYBOOK.format(tax="")))
         self.assertTrue(CP.restamp_errors(PLAYBOOK.format(tax="| `--tax` | 2026-04-25 | pass | n |")))

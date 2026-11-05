@@ -34,7 +34,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 | Region | EUR/m² | YoY |
 |---|---:|---:|
-| **Skopje city center (Centar)** | est. 1,800–2,300; resale average 119,914 MKD/m² ≈ €1,946 (AKN, reported Aug 2026) | +10.3% Q3 2026 (NBRSM index, all Skopje) |
+| **Skopje city center (Centar)** | est. 1,800–2,300; resale average 119,914 MKD/m² ≈ €1,946 (computed: 119,914 ÷ 61.6177 ≈ 1,946; racin.mk, 31 Aug 2026, which names no source for this average and credits AKN only for its Q1 2026 Skopje figure — verify at https://www.katastar.gov.mk/registar-ceni-zakupnini-nedviznostite) | +10.3% Q3 2026 (NBRSM index, all Skopje) |
 | **Skopje Centar premium peak** | **3,360** (206,640 MKD/m², 50 m² new build sold by the developer, Q2 2026; AKN report as quoted by press24.mk and republika.mk — verify at https://www.katastar.gov.mk/registar-ceni-zakupnini-nedviznostite) | — (single transaction) |
 | **Skopje Karpoš / Aerodrom** | est. 1,500–2,000; resale average Karpoš 111,806 / Aerodrom 108,081 MKD/m² ≈ €1,815 / €1,754 (AKN, reported Aug 2026) | +10.3% Q3 2026 (NBRSM index, all Skopje) |
 | **Skopje suburbs** | est. 900–1,400 | no sub-city index published |
@@ -49,7 +49,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Compute
 
-1. EUR/m² = price / **korisna povrshina** (usable area)
+1. EUR/m² = price / **korisna povrshina** (usable area) — this playbook's working formula, not a published rule; the area a quoted price per m² rests on: data not publicly available — verify at https://www.katastar.gov.mk/registar-ceni-zakupnini-nedviznostite
 2. **Currency**: MKD-EUR de facto peg ≈ 61.5 = predictable conversion (NBRSM middle rate 61.6177 on 22 Oct 2026)
 3. **Ohrid UNESCO** premium est. ~2.9× over inland Bitola (computed from the table's est. ranges: Ohrid lakefront 1,800–3,500+, midpoint 2,650; Bitola 700–1,100, midpoint 900; 2,650 ÷ 900 ≈ 2.9. Lakefront against all of Bitola, so not like for like, and the open top end makes it a floor; both ranges are unsourced planning figures with no official Ohrid or Bitola index)
 4. Cross-check **AKN** cadastre data + **Reklama5/Pazar3** listings
@@ -141,7 +141,7 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 
 ### Tax on rental
 
-- Resident: **10 % PIT on net rental**, with **10 % standard deduction (unfurnished)** OR **15 % deduction (furnished)** of gross income (PIT Law Art. 53(1)–(2)). Effective: **9 % of gross (unfurnished) / 8.5 % of gross (furnished)**. *(2026 data, source Zakon za danokot na licen dohod Art. 53, consolidated text through Sl. vesnik 274/22, read on a private copy at mojkonsultant.mk + PwC Tax Summaries — income determination, last reviewed 23 Jul 2026 — the 30 % deduction figure circulated for MK is actually Serbia's; MK is 10/15 %)*
+- Resident: **10 % PIT on net rental**, with **10 % standard deduction (unfurnished)** OR **15 % deduction (furnished)** of gross income (PIT Law Art. 53(1)–(2)). Effective: **9 % of gross (unfurnished) / 8.5 % of gross (furnished)**. *(2026 data, source Zakon za danokot na licen dohod Art. 53, consolidated text through Sl. vesnik 274/22, as published by UJP (https://www.ujp.gov.mk/-/regulativa/opis/425) + PwC Tax Summaries — income determination, last reviewed 23 Jul 2026 — a 30 % deduction figure has circulated for MK, but the law sets 10/15 %)*
 - Non-resident: taxed on MK-source rental income at the same flat **10 %**; the payer withholds the PIT where the tenant is a domestic company or other book-keeping taxpayer *(2026 data, source PwC Tax Summaries — taxes on personal income + tax administration, last reviewed 23 Jul 2026)*
 
 ---
@@ -343,16 +343,16 @@ ISO2: `mk`. Status: ✅ Fully populated (researched 2026-04).
 | Section | Last verified | Verifier | Notes |
 |---|---|---|---|
 | Country profile | 2026-10-23 | 2026-10-23 refresh wave | 4 changed, 3 confirmed, 2 unverifiable (katastar.gov.mk refused connections; "parcela + KO" not checked); admin units, Law on the Use of Languages (2019), servitude term and EU accession status corrected; peg confirmed (NBRSM 61.6177 on 22 Oct 2026) |
-| `--work=<profession>` | 2026-10-23 | 2026-11-04 maintenance run | MAKSTAT's August 2026 wages stand, and the euro equivalents are now shown as computed at the NBRSM middle rate of 61.6177. |
+| `--work=<profession>` | 2026-11-05 | 2026-11-05 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
 | `--traffic` | 2026-10-23 | 2026-10-23 refresh wave | 5 changed, 1 confirmed, 1 unverifiable (city traffic data for Skopje, Bitola, Ohrid); ЈПДП name + URL, TDPS counters, 2011 road categorisation; band examples recalibrated to 2022 counts (busiest counted state-road section 18,406 PGDS); thresholds are curated, not data |
 | Common listing platforms | 2026-10-23 | 2026-10-23 refresh wave | 2 changed, 2 confirmed; Reklama5 + Pazar3 live; Skopjeshome + Domis.mk deprecated (no DNS record); Imotko.mk added |
 | Verification authorities | 2026-10-23 | 2026-10-23 refresh wave | 1 changed, 2 confirmed; Notar role rewritten; Advokat (> €10,000) and licensed energy auditor rows added; UJP and Council of Skopje rows not re-checked |
 | Source URL templates | 2026-10-23 | 2026-10-23 refresh wave | 8 confirmed (katastar.gov.mk and nbrm.mk confirmed only indirectly); 4 rows added (ЈПДП, TDPS, Seismological Observatory, UHMR); MAKSTAT row moved to stat.mk (checked 2026-11-03) |
-| `--tax` | 2026-10-23 | 2026-11-04 maintenance run | The 5 % DDV rate to 31 Dec 2028 is confirmed by the Ministry of Finance, and the 15 % gambling-only rate and Art. 63 exemptions by the PIT Law text. PwC reads the inheritance exemption differently from the law, so both are shown, and the notary's deposit-account route for transfer tax is added. |
-| `--rental` | 2026-10-23 | 2026-11-04 maintenance run | The 10 % and 15 % rental deductions are confirmed in PIT Law Art. 53 as well as PwC Tax Summaries (reviewed 23 Jul 2026), so the effective 9 % and 8.5 % of gross stand. |
-| `--risks` | 2026-10-23 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
-| `--mains` | 2026-11-04 | 2026-11-04 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
-| Cost benchmarks (MK 2026) | 2026-10-23 | 2026-11-04 maintenance run | The MKD 1,250 AKN fee rests on Faktor.mk and A1on reports of AKN's October 2024 announcement; AKN's own tariff could not be read for verification on 2026-11-04 — check it directly. |
+| `--tax` | 2026-10-23 | 2026-11-05 maintenance run | The Ministry of Finance and PwC confirm 10 % on all income except 15 % on gambling winnings. The Art. 63 exemptions and the 1 Jan 2023 gift rule match UJP's consolidated text of the Personal Income Tax Law. |
+| `--rental` | 2026-10-23 | 2026-11-05 maintenance run | The 10 % and 15 % normed deductions in Art. 53 are confirmed in the Personal Income Tax Law as published by UJP (consolidated to Sl. vesnik 274/22) and by PwC, reviewed 23 Jul 2026. The attribution of the 30 % figure to Serbia was removed. |
+| `--risks` | 2026-10-23 | 2026-11-05 maintenance run | The 1965 competition result (Tange 60%, Miščević and Wenzler 40%) and the partial build-out are confirmed in Spomenik Database, Wikipedia and MoMA post, all secondary sources. |
+| `--mains` | 2026-11-05 | 2026-11-05 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| Cost benchmarks (MK 2026) | 2026-10-23 | 2026-11-05 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
 
 Sections without a row default to the Status footer date. `--price`, `--tax`, `--rental`, `--risks`, `--mains`, Cost benchmarks, Active fiscal incentives, Caveats unique to MK and Reddit / forum sources were partly refreshed on 2026-10-23 but keep unverified items (see Update history), so they keep the footer date.
 
@@ -383,3 +383,4 @@ Sections without a row default to the Status footer date. `--price`, `--tax`, `-
   - Not verified, left as curated or est.: EUR/m² ranges, the Ohrid 1.5–2× premium and regional price trends outside Skopje; short-let licence, tourist tax and Ohrid UNESCO restrictions; tenant protection and contract length; the Skopje city tax reform and Ohrid UNESCO Future-risk lines; the three original fiscal-incentive bullets; seismic zoning for Ohrid, Bitola and the Vardar valley; climate, wildfire and build-era rows; works and mains cost ranges; MIA liveness
   - Status and consistency: Coverage check and Confidence recomputed; per-section verification table added; `--price` key term "Vlasnicki list" → imoten list and MAKSTAT URL template → stat.mk, matching the refreshed sections (checked 2026-11-03)
 - **2026-11-04** — Maintenance run: closed `--tax`, `--rental`, `--work=<profession>`, `--risks`, `--mains`, Cost benchmarks (MK 2026); still open `--price`.
+- **2026-11-05** — Maintenance run: closed `--tax`, `--rental`, `--work=<profession>`, `--risks`, `--mains`, Cost benchmarks (MK 2026); still open `--price`.

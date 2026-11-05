@@ -78,7 +78,8 @@ const settle = (it, res, v) => {
   const flags = new Map((v ? v.section_flags : []).map(f => [f.section, f]))
   return {
     cluster: it.cluster,
-    items: res.items.map((p, i) => {
+    items: res.items.map((raw, i) => {
+      const p = it.batch ? raw : { ...raw, file: `skills/property-deep-dive/countries/${it.code}/playbook.md` }
       const b = verdicts.get(i)
       if (!v) return { ...p, status: 'DROP', refuter: 'no refuter verdict' }
       const cleared = v.flags_cleared.includes(i)
