@@ -341,12 +341,16 @@ def apply_result(result: Path) -> dict:
     return res
 
 
-def cmd_apply_shared(result: Path) -> int:
-    """Settled patches to shared files, from batches of pdd-maintain.js: no footers, no ledger.
-    Shared files feed generated ones, so those are refreshed here, or CI finds them stale."""
-    apply_result(result)
+def refresh_generated() -> None:
+    """Playbooks and shared files feed generated ones, which CI requires to be in step."""
     for script in ("render-visa-programs.py", "render-match-index.py", "sync-docs.py"):
         subprocess.run([sys.executable, str(ROOT / "scripts" / script)], check=True)
+
+
+def cmd_apply_shared(result: Path) -> int:
+    """Settled patches to shared files, from batches of pdd-maintain.js: no footers, no ledger."""
+    apply_result(result)
+    refresh_generated()
     return 0
 
 
@@ -369,6 +373,7 @@ def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
         secs = [s for p in res["playbooks"] if p["code"] == cc for c in p["clusters"] for s in c.get("sections", [])]
         d = render_footer(cc, date, secs, plan_dir)
         print(f"{cc}: footer written{f', playbook date {d}' if d else ''}")
+    refresh_generated()
     return 0
 
 

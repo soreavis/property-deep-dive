@@ -142,8 +142,15 @@ def restamp_errors(text: str) -> list[str]:
     return errs
 
 
-def added_lines(base: str, path: str) -> list[tuple[int, str]]:
-    diff = subprocess.run(["git", "diff", "-U0", f"{base}...HEAD", "--", path], cwd=ROOT,
+def fork_point(base: str) -> str:
+    """Diffing from here covers commits and uncommitted edits alike, so a check run before the
+    commit sees the same lines CI will."""
+    return subprocess.run(["git", "merge-base", base, "HEAD"], cwd=ROOT, capture_output=True, text=True,
+                          check=True).stdout.strip()
+
+
+def added_lines(since: str, path: str) -> list[tuple[int, str]]:
+    diff = subprocess.run(["git", "diff", "-U0", since, "--", path], cwd=ROOT,
                           capture_output=True, text=True).stdout
     out, n = [], 0
     for l in diff.splitlines():
@@ -162,15 +169,16 @@ def main() -> int:
     ap.add_argument("--all", action="store_true", help="every playbook, every line (report only)")
     a = ap.parse_args()
     today = datetime.date.today()
+    since = "" if a.all else fork_point(a.base)
     if a.all:
         files = sorted(str(p.relative_to(ROOT)) for p in ROOT.glob(PLAYBOOKS))
     else:
-        files = subprocess.run(["git", "diff", "--name-only", "--diff-filter=ACMR", f"{a.base}...HEAD",
+        files = subprocess.run(["git", "diff", "--name-only", "--diff-filter=ACMR", since,
                                 "--", PLAYBOOKS], cwd=ROOT, capture_output=True, text=True).stdout.split()
     fails = []
     for f in files:
         text = (ROOT / f).read_text(encoding="utf-8")
-        lines = list(enumerate(text.splitlines(), 1)) if a.all else added_lines(a.base, f)
+        lines = list(enumerate(text.splitlines(), 1)) if a.all else added_lines(since, f)
         fails += [f"{f}:{n}: {e}" for n, l in lines for e in line_errors(l, today)]
         fails += [f"{f}: {e}" for e in restamp_errors(text)]
     for e in fails:
