@@ -194,6 +194,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(ci): run generated-file checks on every PR; lint sees uncommitted edits ([#556](https://github.com/soreavis/property-deep-dive/pull/556)) — by @soreavis
 
+- fix(maintenance): an open section blocks re-dating and its objection persists ([#557](https://github.com/soreavis/property-deep-dive/pull/557)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
