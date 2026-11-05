@@ -198,6 +198,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): resolve objections on 14 playbooks; re-date HR LT LU ME PA; withdraw HU's date ([#558](https://github.com/soreavis/property-deep-dive/pull/558)) — by @soreavis
 
+- fix(playbooks): reword old fetch notes; keep unfinished shared requests in a queue ([#559](https://github.com/soreavis/property-deep-dive/pull/559)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
