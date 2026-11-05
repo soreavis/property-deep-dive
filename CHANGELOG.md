@@ -192,6 +192,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(maintenance): refresh generated files after shared patches ([#555](https://github.com/soreavis/property-deep-dive/pull/555)) — by @soreavis
 
+- fix(ci): run generated-file checks on every PR; lint sees uncommitted edits ([#556](https://github.com/soreavis/property-deep-dive/pull/556)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
