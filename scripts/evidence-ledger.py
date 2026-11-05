@@ -89,12 +89,14 @@ def save(cc: str, led: dict) -> None:
     LEDGER_DIR.mkdir(parents=True, exist_ok=True)
     used = sorted({i for e in led["lines"].values() for i in e["u"]})
     remap = {old: new for new, old in enumerate(used)}  # drop URLs no line cites any more
+    open_sections = led.get("open")
     led = {"urls": [led["urls"][i] for i in used],
            "lines": {k: {**e, "u": [remap[i] for i in e["u"]]} for k, e in sorted(led["lines"].items())}}
     j = lambda o: json.dumps(o, ensure_ascii=False, separators=(",", ":"))
     urls = ",\n".join(j(u) for u in led["urls"])
     lines = ",\n".join(f"{j(k)}:{j(e)}" for k, e in led["lines"].items())
-    (LEDGER_DIR / f"{cc}.json").write_text(f'{{"urls":[\n{urls}\n],\n"lines":{{\n{lines}\n}}}}\n')  # one entry per line
+    tail = f',\n"open":{j(open_sections)}' if open_sections else ""
+    (LEDGER_DIR / f"{cc}.json").write_text(f'{{"urls":[\n{urls}\n],\n"lines":{{\n{lines}\n}}{tail}}}\n')  # one entry per line
 
 
 def iter_items(path: Path):

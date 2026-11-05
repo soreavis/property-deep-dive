@@ -52,7 +52,7 @@ b. No primary source publishes it → kind relabelled: "est." with inputs and a 
 c. A primary source exists but cannot be read → keep the figure and tag, add the may-have-changed suffix if due, point to it ("verify at <URL>").
 For a and c give evidence[] with the exact deep URL that shows the figure, and in quote up to 25 words copied exactly from that page around the figure, in the page's language: never a paraphrase, a script checks it. Scripts also check that every new figure of a patch stands on its evidence pages, and hold the patch if it does not, so list every page a figure came from. An expired field on a line means a date it looks forward to has passed: update what happened.
 A worklist line you confirmed without changing it gets no patch: list it in confirmed_lines (the exact current line text + every deep URL its figures rest on). The refuter checks it, then the ledger stores a fingerprint of those pages, so the next run skips the line while they stay unchanged.
-The worklist entry may hold pending: requests earlier runs left for this playbook, with their evidence. Treat each as a lead, not a fact: check it, patch it if it still holds, skip it if it is done or wrong.
+The worklist entry may hold pending: requests earlier runs left for this playbook, with their evidence, and objections that kept a section open. Treat each as a lead, not a fact: check it, patch it if it still holds, skip it if it is done or wrong. A section with an objection closes only once the objection is answered.
 Report sections[] for ${it.sections.join(', ')}: closed=true only if every worklist line there is now confirmed or labelled. Each section's note is printed in the playbook: one or two sentences for a reader on what was confirmed or changed, naming sources, with no word about this run (worklist, patch, ledger, refuter).
 Touch only these sections, with one exception: a line anywhere else in this playbook (Country profile, quirks, other sections, the Status Confidence paragraph) that restates a figure you changed or now contradicts your patch gets its own patch, with section set to where it sits. Never the Status stamp, Per-section table or Update history (maintain.py writes them). Changes to shared files go in shared_requests with evidence.`,
   { label: `research:${it.code}:${it.cluster}`, phase: 'Research', schema: RESEARCH, model: args.researchModel || M, ...(args.researchEffort ? { effort: args.researchEffort } : {}) })
@@ -86,7 +86,10 @@ const settle = (it, res, v) => {
       if (b && !b.ok && ['major', 'fatal'].includes(b.severity)) return { ...p, status: 'DROP', refuter: b.reason }
       return { ...p, status: 'APPLY', flag_cleared: cleared }
     }),
-    sections: res.sections.map(s => ({ ...s, closed: !!(s.closed && v && (flags.get(s.section) || { closed_ok: true }).closed_ok) })),
+    sections: res.sections.map(s => {
+      const flag = flags.get(s.section) || { closed_ok: true }
+      return { ...s, closed: !!(s.closed && v && flag.closed_ok), objection: flag.closed_ok ? undefined : flag.reason }
+    }),
     shared_requests: res.shared_requests || [],
     confirmed_lines: v ? (res.confirmed_lines || []).filter((_, i) => !v.confirmed_rejected.includes(i)) : [],
   }

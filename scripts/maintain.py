@@ -86,9 +86,34 @@ def pack(clusters: dict[str, dict]) -> dict[str, dict]:
             b["name"] += f"+{name}"
             b["sections"] += c["sections"]
             b["lines"] += c["lines"]
+            b["pending"] = b.get("pending", []) + c.get("pending", [])
         else:
             bins.append({"name": name, **c})
     return {b.pop("name"): b for b in bins}
+
+
+def add_open_sections(cc: str, by_cluster: dict[str, dict]) -> None:
+    """A section a refuter refused to close goes back to an agent with the objection, however
+    well its lines pass the scripts: an objection can concern what no figure check sees."""
+    headings = fast_sections((EL.COUNTRIES / cc / "playbook.md").read_text(encoding="utf-8"))
+    for k, why in EL.load(cc).get("open", {}).items():
+        c = by_cluster.setdefault(cluster_of(k), {"sections": [], "lines": []})
+        if not any(fast_key(s) == k for s in c["sections"]):
+            c["sections"].append(headings[k])
+        c.setdefault("pending", []).append({"request": f"{headings[k]} was left open, resolve this before closing it: {why}", "evidence": ""})
+
+
+def record_open_sections(cc: str, sections: list[dict]) -> None:
+    led = EL.load(cc)
+    still = led.get("open", {})
+    for s in sections:
+        k = fast_key(s["section"])
+        if k and s.get("closed"):
+            still.pop(k, None)
+        elif k:
+            still[k] = (s.get("objection") or s.get("note") or "not closed")[:700]
+    led["open"] = still
+    EL.save(cc, led)
 
 
 def cmd_plan(codes: list[str], date: str, out: Path, max_risk: float) -> int:
@@ -105,6 +130,7 @@ def cmd_plan(codes: list[str], date: str, out: Path, max_risk: float) -> int:
                     c["sections"].append(r["section"])
                 c["lines"].append({x: r[x] for x in ("section", "line", "status", "urls", "confirmed_values",
                                                      "missing_values", "audit", "expired", "hints") if r.get(x)})
+        add_open_sections(cc, by_cluster)
         by_cluster = pack(by_cluster)
         fresh: dict[str, str] = {}
         for r in res["fresh"]:
@@ -290,7 +316,7 @@ def render_footer(cc: str, date: str, sections: list[dict], plan_dir: Path) -> s
     if not rows:
         return None
     text = upsert_rows(text, rows)
-    text, d = restamp(text)
+    text, d = (text, None) if still_open else restamp(text)  # an older row must not date an open section
     text = add_history(text, f"- **{date}** — Maintenance run: closed {', '.join(closed)}"
                              + (f"; still open {', '.join(still_open)}" if still_open else "")
                              + (f". Playbook-level date now {d}." if d else "."))
@@ -371,6 +397,7 @@ def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
                                                        for f in plan_dir.glob("??.json")}
     for cc in sorted(codes):
         secs = [s for p in res["playbooks"] if p["code"] == cc for c in p["clusters"] for s in c.get("sections", [])]
+        record_open_sections(cc, secs)
         d = render_footer(cc, date, secs, plan_dir)
         print(f"{cc}: footer written{f', playbook date {d}' if d else ''}")
     refresh_generated()

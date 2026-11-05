@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import importlib.util
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -81,6 +82,31 @@ class Hold(unittest.TestCase):
             self.assertEqual(M.hold_ungrounded(res, [{**bad, "flag_cleared": True}])[1], [])
         finally:
             M.EL.fetch_all = real
+
+
+class OpenSections(unittest.TestCase):
+    PLAYBOOK = "# X\n## Section: `--tax`\n- a\n## Status\n"
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        root = Path(self.tmp.name)
+        (root / "countries" / "fi").mkdir(parents=True)
+        (root / "countries" / "fi" / "playbook.md").write_text(self.PLAYBOOK)
+        self.real = M.EL.COUNTRIES, M.EL.LEDGER_DIR
+        M.EL.COUNTRIES, M.EL.LEDGER_DIR = root / "countries", root / "ledger"
+
+    def tearDown(self):
+        M.EL.COUNTRIES, M.EL.LEDGER_DIR = self.real
+        self.tmp.cleanup()
+
+    def test_an_objection_survives_in_the_ledger_and_returns_to_an_agent_until_closed(self):
+        M.record_open_sections("fi", [{"section": "Section: `--tax`", "closed": False, "objection": "citation not on the page"}])
+        clusters = {}
+        M.add_open_sections("fi", clusters)
+        self.assertEqual(clusters["tax-legal"]["sections"], ["`--tax`"])
+        self.assertIn("citation not on the page", clusters["tax-legal"]["pending"][0]["request"])
+        M.record_open_sections("fi", [{"section": "Section: `--tax`", "closed": True}])
+        self.assertEqual(M.EL.load("fi").get("open", {}), {})
 
 
 class Restatements(unittest.TestCase):
