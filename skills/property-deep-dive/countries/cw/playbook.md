@@ -119,7 +119,7 @@ Curaçao's recurring property tax is the **OZB (Onroerendezaakbelasting)**, whic
 
 - **Overdrachtsbelasting** (real estate transfer tax) = **4% of the purchase price** of the property, paid by the **buyer** at the *akte van levering* (notarial deed), withheld and remitted by the notary to Belastingdienst Curaçao
 - Cross-referenced across multiple secondary sources (Moret Real Estate, eenhuisinhetbuitenland.nl, At Home Curaçao, Century 21, Affidata, Fung-A-Loi & Samandar Notarissen, Acacia Estate March 2025 tax brochure) — **consistent 4% rate**. The 2025 Acacia Estate tax brochure (`https://acaciaestatecuracao.com/wp-content/uploads/2025/04/Tax-Brochure-CUR-March-2025.pdf`) is the most recent professional advisory aggregation
-- ⚠️ **2026-05 status**: the Belastingdienst Curaçao primary URL for the overdrachtsbelasting tariff schedule is not cleanly indexed in publicly accessible English-language form (HTTP 403 on direct Kadaster fetch attempt during research). Multi-source professional convergence on **4%** is **HIGH confidence**; verify at the *akte van levering* via the notary's pre-deed *kostenoverzicht* (cost overview)
+- ⚠️ **2026-05 status**: the Belastingdienst Curaçao primary URL for the overdrachtsbelasting tariff schedule is not cleanly indexed in publicly accessible English-language form (the Kadaster page could not be read for verification). Multi-source professional convergence on **4%** is **HIGH confidence**; verify at the *akte van levering* via the notary's pre-deed *kostenoverzicht* (cost overview)
 - Curaçao Rekenkamer (Court of Audit) issued a 2024–2025 critique of Belastingdienst Curaçao's overdrachtsbelasting collection (per `https://curacao.nu/`) — administrative remediation in progress; no indication of rate change
 
 ### VAT-equivalent — Omzetbelasting (OB)
@@ -901,7 +901,7 @@ Curaçao operates **no foreign-buyer restrictions** on residential or commercial
 **Researched by**: Opus 4.7 (1M context) — Batch C Phase B, 2026-05-27
 
 **Notes**: Watch list 2026 —
-1. **Verify Belastingdienst Curaçao primary statute citation** for 4% overdrachtsbelasting and 3rd-bracket OZB marginal rate — direct .cw URL pulls returned 403 / archive-page only during this research pass
+1. **Verify Belastingdienst Curaçao primary statute citation** for 4% overdrachtsbelasting and 3rd-bracket OZB marginal rate — .cw sources could not be read for verification, archived pages only
 2. **Investor Permit threshold revision** (2024 lowering to ANG 250k floor referenced but not cleanly confirmed) — re-verify at Servisio di Imigrashon at next refresh
 3. **Short-let regulatory tightening** expected 2026–2028 (cross-Caribbean trend; verify Curaçao Tourist Board posture)
 4. **Aqualectra 2025–2026 tariff cycle** — RAC publishes monthly; re-verify at refresh

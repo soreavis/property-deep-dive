@@ -59,7 +59,7 @@ Touch only these sections, with one exception: a line anywhere else in this play
 
 const researchShared = it => agent(`${BASE}
 Requests from earlier runs: ${args.dir}/${it.code}.json → requests[] (target file, request, evidence). Each is a lead an agent left unverified, not a fact, and several may repeat one change.
-For each: read the target (a path relative to skills/property-deep-dive/shared/, or config/ or countries/) and skip it if the file already says this. Otherwise confirm it on a primary source and return one patch, with file as the full repo path; merge repeats into one. A request you cannot confirm gets no patch: put it in sections[] with closed=false and say why in note.
+For each: read the target (a path relative to skills/property-deep-dive/shared/, or config/ or countries/) and skip it if the file already says this. Otherwise confirm it on a primary source and return one patch, with file as the full repo path; merge repeats into one. A request you cannot confirm gets no patch: put it in sections[] with closed=false, state the open question in remaining and say why in note. Never list finished work there: remaining goes back to a queue for a later run.
 regulatory-watch.md: follow its "When adding an entry" rules, match the rows already in that country's block, and include the source URL, verified date ${args.date}, revisit date and impact tier. config/_visa-programs.json: keep valid JSON. Keep each patch small; never rewrite a passage to add a fact.`,
   { label: `research:${it.code}`, phase: 'Research', schema: RESEARCH, model: M })
 

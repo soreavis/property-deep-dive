@@ -72,6 +72,7 @@ python3 scripts/maintain.py plan --countries=fi,rs --date=YYYY-MM-DD --out=DIR  
 # Workflow scripts/workflows/pdd-maintain.js with args {root, dir: DIR, date, items: <plan.json>}
 python3 scripts/maintain.py apply RESULT.json --date=YYYY-MM-DD --plan=DIR      # patches, footers, ledger
 python3 scripts/check-playbooks.py                                              # same lint CI runs
+python3 scripts/maintain.py requests --out=DIR2                                 # batches from config/_maintenance-requests.json; same workflow; then apply-shared RESULT.json --plan=DIR2
 ```
 
 `apply` holds a patch whose new figures no evidence page shows (`scripts/provenance.py`), unless the refuter says it read them itself. `plan` re-reads every fast-section figure on the page that proved it last time (`config/_evidence/`) and compares a fingerprint of the sentences around each line, so a line whose figures or context still stand gets no agent. A line proved recently is skipped while its modelled risk of change stays under `--max-risk` (10 % of those are still audited). Remaining lines are packed into agents of up to 40, each with BM25 passage hints. `apply` writes the Per-section rows, the Update history bullet and the playbook date (the oldest fast-section date), and ledgers the new evidence for next time. Never hand-edit `config/_evidence/`.

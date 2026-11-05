@@ -44,6 +44,8 @@ SV = EL.SV
 CLUSTERS = {"market": ("price", "rental", "work"), "tax-legal": ("tax", "cost benchmark"), "risk-infra": ("risks", "mains")}
 TABLE_HEAD = "### Per-section verification (overrides playbook-level date)"
 STAMP_LINE = "✅ Fast-changing sections re-verified as of {d}; each section's date is in the Per-section verification table."
+REQUESTS = ROOT / "config" / "_maintenance-requests.json"
+REQUEST_BATCH = 15
 AGENT_LINES = 40
 HOLD = ("ungrounded", "near miss", "quote not on page")
 RUN_TALK = re.compile(r"worklist|confirmed_lines|refuter|line_errors|check-playbooks|ledger|\bpatch|old string", re.I)
@@ -146,6 +148,7 @@ def cmd_plan(codes: list[str], date: str, out: Path, max_risk: float) -> int:
     (out / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=1))
     print(f"total: {totals[1]}/{totals[0]} confirmed by script, {totals[2]} freshly proved, "
           f"{sum(p['lines'] for p in plan)} lines for {len(plan)} research agent(s)")
+    print(f"{len(load_requests())} shared-file request(s) wait in {REQUESTS.name} (maintain.py requests --out DIR)")
     return 0
 
 
@@ -373,9 +376,49 @@ def refresh_generated() -> None:
         subprocess.run([sys.executable, str(ROOT / "scripts" / script)], check=True)
 
 
-def cmd_apply_shared(result: Path) -> int:
+def load_requests() -> list[dict]:
+    return json.loads(REQUESTS.read_text(encoding="utf-8")) if REQUESTS.exists() else []
+
+
+def queue_requests(new: list[dict], done: set[str] = frozenset()) -> None:
+    """Shared-file work a run left unfinished survives here until a later batch settles it."""
+    entries = {r["request"]: r for r in load_requests() if r["request"] not in done}
+    entries.update({r["request"]: r for r in new})
+    REQUESTS.write_text(json.dumps(sorted(entries.values(), key=lambda r: (r["target"], r["request"])),
+                                   ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+def leftovers(res: dict) -> list[dict]:
+    """New shared-file requests of a run, and what a shared batch could not confirm."""
+    out = []
+    for p in res["playbooks"]:
+        for c in p["clusters"]:
+            out += [{"target": r["file"], "request": r["request"], "evidence": str(r.get("evidence") or "")}
+                    for r in c.get("shared_requests", [])]
+            if c["cluster"] == "shared":
+                out += [{"target": s["section"], "request": str(x), "evidence": s["note"]}
+                        for s in c["sections"] if not s["closed"] for x in s.get("remaining") or [s["note"]]]
+    return out
+
+
+def cmd_requests(out: Path) -> int:
+    """Write the queue as batches for pdd-maintain.js; apply-shared --plan clears what they settle."""
+    out.mkdir(parents=True, exist_ok=True)
+    queue, plan = load_requests(), []
+    for i in range(0, len(queue), REQUEST_BATCH):
+        part, code = queue[i:i + REQUEST_BATCH], f"shared-{i // REQUEST_BATCH + 1:02d}"
+        (out / f"{code}.json").write_text(json.dumps({"requests": part}, ensure_ascii=False, indent=1), encoding="utf-8")
+        plan.append({"code": code, "cluster": "shared", "batch": True, "sections": [], "lines": len(part)})
+    (out / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"{len(queue)} request(s) in {len(plan)} batch(es) → {out / 'plan.json'}")
+    return 0
+
+
+def cmd_apply_shared(result: Path, plan_dir: Path) -> int:
     """Settled patches to shared files, from batches of pdd-maintain.js: no footers, no ledger."""
-    apply_result(result)
+    res = apply_result(result)
+    done = {r["request"] for f in plan_dir.glob("shared-*.json") for r in json.loads(f.read_text())["requests"]}
+    queue_requests(leftovers(res), done)
     refresh_generated()
     return 0
 
@@ -400,6 +443,7 @@ def cmd_apply(result: Path, date: str, plan_dir: Path) -> int:
         record_open_sections(cc, secs)
         d = render_footer(cc, date, secs, plan_dir)
         print(f"{cc}: footer written{f', playbook date {d}' if d else ''}")
+    queue_requests(leftovers(res))
     refresh_generated()
     return 0
 
@@ -420,13 +464,18 @@ def main() -> int:
     c.add_argument("--plan", type=Path, required=True)
     d = sub.add_parser("apply-shared")
     d.add_argument("result", type=Path)
+    d.add_argument("--plan", type=Path, required=True)
+    e = sub.add_parser("requests")
+    e.add_argument("--out", type=Path, required=True)
     args = ap.parse_args()
     if args.cmd == "plan":
         return cmd_plan(args.countries.split(","), args.date, args.out, args.max_risk)
     if args.cmd == "precheck":
         return cmd_precheck(args.patches)
+    if args.cmd == "requests":
+        return cmd_requests(args.out)
     if args.cmd == "apply-shared":
-        return cmd_apply_shared(args.result)
+        return cmd_apply_shared(args.result, args.plan)
     return cmd_apply(args.result, args.date, args.plan)
 
 

@@ -300,7 +300,7 @@ Universal — see `shared/climate-projections.md`.
 | Impôt foncier | https://guichet.public.lu/en/citoyens/fiscalite/immobilier/impots-taxes-plus-value/impot-foncier.html |
 | CPE / Energiepass | https://guichet.public.lu/fr/citoyens/logement/construction-renovation-transformation/certificats-energiepass/demande-passeport-energetique.html |
 | VAT 3% direct | https://pfi.public.lu/fr/citoyen/tva/logement/application-directe-taux-3.html |
-| Property reform dossier (Bill 8082A) | https://www.chd.lu/fr/dossier/8082A (updated 2026-10-23; the former maint.gouvernement.lu dossier URL returns 404) |
+| Property reform dossier (Bill 8082A) | https://www.chd.lu/fr/dossier/8082A (updated 2026-10-23; the former maint.gouvernement.lu dossier URL no longer exists) |
 | Flood maps | https://eau.gouvernement.lu/fr/domaines-activite/inondations/cartes-des-zones-inondables-et-cartes-des-risques-dinondation.html |
 | Radon commune map | https://map.geoportail.lu/communes/Luxembourg/carte_radon_communes/?lang=fr |
 | HQ100 flood data | https://data.public.lu/fr/datasets/flood-hazard-maps-100-year-flood/ |

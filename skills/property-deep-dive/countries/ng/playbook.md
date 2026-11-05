@@ -357,7 +357,7 @@ National grid (NEPA → PHCN → DisCos post-2013 unbundling) notoriously unreli
 | 2006+ | Nigerian Building Code 2006 introduced; uneven enforcement |
 | Post-2010 gated estates | Generally better-engineered; private standards higher |
 
-**Informal/unauthorized construction**: insist on building permit + occupancy certificate from the State Physical Planning agency (Lagos: **LASPPPA — Lagos State Physical Planning Permit Authority**, `https://laspppa.lagosstate.gov.ng/` ⚠️ the `*.lagosstate.gov.ng` Cloudflare estate was returning HTTP 522 on 2026-09-18 — if unreachable, verify via `https://lagosstate.gov.ng/`).
+**Informal/unauthorized construction**: insist on building permit + occupancy certificate from the State Physical Planning agency (Lagos: **LASPPPA — Lagos State Physical Planning Permit Authority**, `https://laspppa.lagosstate.gov.ng/` ⚠️ the `*.lagosstate.gov.ng` Cloudflare estate was unreachable on 2026-09-18 — if unreachable, verify via `https://lagosstate.gov.ng/`).
 
 ### Mandatory diagnostics — documents to demand pre-offer
 
@@ -1037,7 +1037,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 | CBN | `https://www.cbn.gov.ng/` |
 | Lagos State Lands Bureau | `https://landsbureau.lagosstate.gov.ng/` |
 | LIRS / Lagos LUC | `https://lirs.gov.ng/` + `https://luc.lagosstate.gov.ng/` |
-| LASRRA / LASPPPA | `https://registration.lagosresidents.gov.ng/` + `https://lagosstate.gov.ng/government/mdas/all` (Lagos State MDA directory — LASPPPA's own `laspppa.lagosstate.gov.ng` returned HTTP 522 on 2026-10-21) |
+| LASRRA / LASPPPA | `https://registration.lagosresidents.gov.ng/` + `https://lagosstate.gov.ng/government/mdas/all` (Lagos State MDA directory — LASPPPA's own `laspppa.lagosstate.gov.ng` was unreachable on 2026-10-21) |
 | AGIS Abuja / FCDA | `https://agis.fcta.gov.ng/` + `https://fcda.gov.ng/` |
 | FMHUD (Federal Ministry of Housing and Urban Development) / FMBN (NHF) | `https://fmhud.gov.ng/` + `https://fmbn.gov.ng/` |
 | NIS / Federal Ministry of Interior | `https://immigration.gov.ng/` + `https://www.interior.gov.ng/` |

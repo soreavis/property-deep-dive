@@ -56,7 +56,7 @@ ISO2: `tw`. Status: ✅ Fully populated (researched 2026-05).
   - 永慶房屋 `https://buy.yungching.com.tw/`
   - 住商不動產 `https://www.hbhousing.com.tw/`
 - **DDproperty Taiwan** — `https://www.ddproperty.com/zh-tw/` — English UI partial
-- **Foreigner-friendly English platforms**: limited; main route is 591 + brokerage chains. **Sinyi Realty no longer operates an English front-end** — `en.sinyi.com.tw` no longer resolves and both `/en` and `/english` return 404 on the live Chinese site [sinyi.com.tw](https://www.sinyi.com.tw/) (2026-09-18 verified). Budget for a Chinese-reading agent or translator.
+- **Foreigner-friendly English platforms**: limited; main route is 591 + brokerage chains. **Sinyi Realty no longer operates an English front-end** — `en.sinyi.com.tw` no longer resolves and both `/en` and `/english` no longer exist on the live Chinese site [sinyi.com.tw](https://www.sinyi.com.tw/) (2026-09-18 verified). Budget for a Chinese-reading agent or translator.
 
 ### Premium-area benchmarks (Q1–Q2 2025 reference, MOI 實價登錄 + 信義/永慶 房價指標)
 

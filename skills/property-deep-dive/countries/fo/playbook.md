@@ -565,7 +565,7 @@ Source: [hagstova.fo news bulletin (2022)](https://hagstova.fo/en/news/house-sal
 
 **Confidence**: **LOW-MEDIUM** overall.
 
-- **HIGH** for: foreign-buyer rule architecture (multi-source — local.fo English coverage + multiple confirming aggregators); Hagstova property-price anchors (2022 official statistics, Tavily-verified); VAT/MVG rate 25% (TAKS primary source verified).
+- **HIGH** for: foreign-buyer rule architecture (multi-source — local.fo English coverage + multiple confirming aggregators); Hagstova property-price anchors (2022 official statistics, verified); VAT/MVG rate 25% (TAKS primary source verified).
 - **MEDIUM** for: municipal tax (kommunalskattur) range (EURAXESS / Norden 16–23% vs Global Expansion 2019 16–22% — same-tier aggregator disagreement, specific kommuna ceiling not verified); national progressive band floor (EURAXESS 13→30% vs Global Expansion 2019 15→30% — same-tier disagreement).
 - **LOW** for: capital gains on property holding-period rules (no English primary source); tinglýsingargjald specific rate (English source unavailable; DK reference rate 1.25% from 1 Jan 2026 likely NOT applicable as Faroe legislates independently); property tax / kommunal property charge specific rate (only secondary aggregator estimate 0.2–0.5% — verify with kommuna).
 
@@ -588,7 +588,7 @@ During the research run for this playbook:
 - **Wikipedia tax page** quotes "20% government tax on incomes up to DKK 500,000" — this contradicts EURAXESS's DKK 65,000 / 13–30% progressive bands. EURAXESS is more recent and more granular; Wikipedia appears stale and was not used.
 - **Tinglýsingargjald** specific 2026 rate: no English primary source located. Do NOT assume Danish 1.25% (from 1 Jan 2026) applies — Faroe legislates independently. Verify with Sorinskrivari or via the Faroese advokat handling the transaction.
 - **Reddit** was not run during validation (budget + thin-signal — Faroese community is small). Future maintenance run may use the `reddit-fetch` skill; not blocking for promotion.
-- **`guidetofaroeislands.fo`** foreign-buyer process page returned 404 during this run.
+- **`guidetofaroeislands.fo`** foreign-buyer process page no longer exists.
 
 ---
 

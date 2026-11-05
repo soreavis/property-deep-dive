@@ -141,7 +141,7 @@ Bucharest IT/services hub; Cluj tech hub ("Silicon Valley of Eastern Europe"); T
 
 ### Forest fires
 - Less affected than Mediterranean peers but Carpathian/Apuseni dry seasons rising (wisdom, not data — burnt-area statistics by country: EFFIS https://forest-fire.emergency.copernicus.eu/apps/effis.statistics)
-- AFM (Administrația Fondului pentru Mediu): https://www.afm.ro/ (JavaScript browser-verification wall — HTTP 503 "Verifying your browser" to non-JS clients, the same wall as insse.ro; 2026-10-23 check)
+- AFM (Administrația Fondului pentru Mediu): https://www.afm.ro/ (opens in a browser only, like insse.ro; 2026-10-23 check)
 
 ### Government risk hub
 - https://inundatii.ro/ (MMAP / ANAR flood-risk site; map viewer https://harticiclul2.inundatii.ro/map; GET and HEAD both answered 200 on 2026-10-23, no browser check)
