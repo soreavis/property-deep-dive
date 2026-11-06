@@ -255,7 +255,7 @@ Net: 4 states do not authorise their own notaries to perform RON (AL, GA, MS, SC
   - **Ontario** — virtual VOI permanent from **1 Jan 2024** (Law Society of Ontario by-law amendment); remote commissioning of affidavits permanent.
   - **BC retired COVID remote witnessing 30 Sept 2023** — back to in-person rules under POA Act / Land Title Act unless new regulation. **TRAP**: foreign buyers must ensure POA was executed under standing POA Act formalities (including apostille post-2024-01-11).
   - Alberta, NS, others — varying retention.
-- **Mortgage**: CIBC / RBC / TD / BMO / Scotiabank generally accept POA + solicitor for non-resident closings; foreign-buyer ban (Prohibition on the Purchase of Residential Property by Non-Canadians Act) extended to **1 Jan 2027**.
+- **Mortgage**: CIBC / RBC / TD / BMO / Scotiabank generally accept POA + solicitor for non-resident closings; foreign-buyer ban (Prohibition on the Purchase of Residential Property by Non-Canadians Act) extended to **1 Jan 2027** (Budget 2026 proposes 1 Jan 2029 for existing homes, new homes exempt; not enacted at 2026-11-06).
 - **Foreign-buyer pattern**: Canadian lawyer (province-specific) + apostilled POA + e-conveyancing (Teraview/myLTSA/etc.) + bank-side ID via consular witness or video.
 - **Confidence**: HIGH.
 

@@ -20,7 +20,7 @@
 - **Discount**: hot markets 2021-2022 sold over-asking; 2024-2026 reset = 2-7% off
 - **Sell-side**: capital gains 50% inclusion at marginal rate (66.7% above $250k as of 2024 reform); primary residence exempt (PRE); commission 4-6%
 - **Liquidity**: 🟢 HIGH GTA/GVA/Montreal/Calgary/Ottawa; 🟠 MEDIUM smaller cities; 🔴 LOW remote
-- **Quirks**: **Foreign Buyer Ban extended to Jan 2027** — narrows exit pool if non-Canadian; assignment-sale taxation (since 2022); BC speculation tax + ON NRST + Vancouver empty-homes tax compress non-resident options
+- **Quirks**: **Foreign Buyer Ban extended to Jan 2027** (Budget 2026 proposes Jan 2029 for existing homes, new homes exempt; not enacted at 2026-11-06) — narrows exit pool if non-Canadian; assignment-sale taxation (since 2022); BC speculation tax + ON NRST + Vancouver empty-homes tax compress non-resident options
 
 ## 🇦🇺 Australia
 - **DOM**: Sydney ~30-40 / Melbourne ~35 / Brisbane ~30 / Perth ~25 (hot 2024-2026) / Adelaide ~30

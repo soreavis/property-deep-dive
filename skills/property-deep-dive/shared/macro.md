@@ -149,7 +149,7 @@ For each country, primary macro sources:
 | **CBBH Bosnia** | n/a (currency board) | ECB Deposit indirect |
 | **NBRSM N. Macedonia** | 4.25% (Central Bank bills; overnight loan 4.75%, overnight deposit 3.75%) | hold — raised +0.25pp from 4.00% on 16 Jun 2026, then held 28 Jul and 15 Sep 2026 (2026 data, source NBRSM Monetary Policy Executive Board releases; 30 Sep 2026 release `https://www.nbrm.mk/ns-newsarticle-soopstenie-30092026-en.nspx` + rates panel of the 15 Oct 2026 release `https://www.nbrm.mk/ns-newsarticle-soopstenie-15102026-en.nspx`); verify against the next Executive Board release |
 | **BoA Albania** | 2.75% | hold |
-| **BoC Canada** | 2.75% | held; review 2026 considering AU-style FIRB post-2027 |
+| **BoC Canada** | 2.75% | held; Budget 2026 proposes extending the foreign-buyer ban to 1 Jan 2029 for existing homes, new homes exempt; not enacted at 2026-11-06 |
 | **RBA Australia** | 4.10% | gradually cutting |
 | **RBNZ NZ** | 3.50% | gradually cutting |
 | **Banxico** | 7.00% | post-300bps-cut-in-2025; pausing |

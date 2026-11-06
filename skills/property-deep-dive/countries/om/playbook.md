@@ -747,7 +747,7 @@ Oman uses a **civil-law notary system**: the **Public Notary** under the **Minis
 | **🇧🇭 Bahrain** | Open freehold for foreigners in designated areas (Seef, Amwaj, Reef, Durrat) | 4–7% | Service charges | ~6–8% | BHD pegged USD |
 | **🇶🇦 Qatar** | Designated freehold + leasehold zones (Pearl, Lusail, Msheireb) | 3–4% | None for owner-occ | ~5–7% | QAR pegged USD |
 | **🇸🇦 Saudi Arabia** | Designated zones from Jan 2026 (Mecca/Medina excluded for non-Muslim) | 5–8% (cash) | None (developed land) | ~5.5–7.5% Riyadh | SAR pegged USD |
-| **🇰🇼 Kuwait** | Restricted — foreigners cannot generally own freehold; GCC only | n/a | None | ~5–6% | KWD basket-pegged |
+| **🇰🇼 Kuwait** | Restricted — foreigners cannot generally own freehold; GCC nationals OK | n/a | None | ~5–6% | KWD basket-pegged |
 
 ### Oman's distinctive position (2026)
 
