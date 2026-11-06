@@ -358,7 +358,7 @@ For an Almaty Bostandyk 2-bed (70 m², asking KZT 55 M / ~$115k) under STR:
 - **Average monthly nominal wage 2024 Q4 (BNS)**: **~KZT 411,000/month gross** (~$855 USD) economy-wide; 2025 levels expected ~KZT 460–490k
 - **Almaty/Astana CBD finance + IT mid-level**: ~KZT 800,000–2,500,000/month (HH.kz reports 2024–2025)
 - **Oil & gas (Tengizchevroil / KazMunayGas / Karachaganak / NCOC Kashagan)**: ~KZT 1,500,000–6,000,000/month senior technical (industry sources)
-- **Minimum wage 2025**: **KZT 85,000/month** (~$177; unchanged since 2024 per [Moore Kazakhstan tax brief](https://kazakhstan.moore-global.com/tax-legislation-changes-effective-from-2025/))
+- **Minimum wage 2025**: **KZT 85,000/month** (~$177; unchanged since 2024 per [Moore Kazakhstan tax brief](https://kazakhstan.moore-global.com/tax-legislation-changes-effective-from-2025/)); the President's Address of 28 Oct 2026 instructs a rise to KZT 110,000 from 1 Jan 2027, not yet law ([Akorda, 28 Oct 2026](https://www.akorda.kz/ru/poslanie-prezidenta-kasym-zhomarta-tokaeva-narodu-kazahstana-aktualnye-zadachi-kazahstana-v-novom-istoricheskom-cikle-2894356))
 - **MCI 2025**: **KZT 3,932** (raised from KZT 3,692 in 2024) — base unit for tax brackets, fees, fines
 
 ### Catchment heuristics

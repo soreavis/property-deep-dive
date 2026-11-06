@@ -261,7 +261,7 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 
 ### Country-specific reliefs
 
-- 🇫🇷 **LMNP / LMP** (location meublée non-professionnelle): 50% abatement (micro-BIC) or real expenses (réel) + amortization — PLF 2027 art. 7 (bill, not adopted as of 2026-10-21) would cap réel amortisation at 2.5 % and €7,000/yr per foyer fiscal (1.5 % and €5,000 for a meublé de tourisme); see shared/regulatory-watch.md (FR)
+- 🇫🇷 **LMNP / LMP** (location meublée non-professionnelle): 50% abatement (micro-BIC) or real expenses (réel) + amortization — PLF 2027 art. 7 (bill, not adopted as of 2026-11-06; rejected by the Assemblée on 4 Nov 2026, the Senate takes up the government text from 20 Nov) would cap réel amortisation at 2.5 % and €7,000/yr per foyer fiscal (1.5 % and €5,000 for a meublé de tourisme); see shared/regulatory-watch.md (FR)
 - 🇮🇹 **Cedolare secca**: long-term 21% (canone libero) / 10% (canone concordato, qualifying comuni); short-let 26%, cut to 21% for one unit the taxpayer names, max 2 short-let apartments from 2026 (above two the activity is presumed a business) (2026 data, source Agenzia delle Entrate)
 - 🇪🇸 **Reducción 60%** for long-term residential rental
 - 🇩🇪 **AfA** (Absetzung für Abnutzung): 2-3% depreciation
@@ -351,7 +351,7 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 - 🇫🇷 **MaPrimeRénov'**: up to €70k for full renovation
 - 🇩🇪 **BAFA + KfW**: 40% subsidy on heat pumps + 70% on EE-loans
 - 🇪🇸 **PREE / Bono Reto Demográfico**: regional grants
-- 🇮🇹 **Ecobonus / Superbonus**: Ecobonus (art. 14 DL 63/2013) 65% / 50% to 31 Dec 2024; spese 2025-2026 50% on the abitazione principale / 36% other homes (fossil-fuel-only boilers excluded); 36% / 30% for spese 2027 under current law (L. 199/2025 art. 1 c. 22) — no extension adopted as of 2026-10-21. General Superbonus 110% → 90% (spese 2023) → 70% (2024) → 65% (spese to 31 Dec 2025, works started by 15 Oct 2024 only), no general 2026 rate; residual 110% on spese 2026 only in the 2009/2016 central-Italy earthquake crater, above the reconstruction contribution and with the discount / credit-transfer option exercised (DL 95/2025 art. 4 c. 2, conv. L. 118/2025) (2026 data, sources Camera dei deputati dossier + Agenzia delle Entrate)
+- 🇮🇹 **Ecobonus / Superbonus**: Ecobonus (art. 14 DL 63/2013) 65% / 50% to 31 Dec 2024; spese 2025-2026 50% on the abitazione principale / 36% other homes (fossil-fuel-only boilers excluded); 36% / 30% for spese 2027 under current law (L. 199/2025 art. 1 c. 22) — no extension adopted as of 2026-11-06 (budget bill A.C. 3174-bis art. 4 would keep 50% / 36% for spese 2027; bill, not law). General Superbonus 110% → 90% (spese 2023) → 70% (2024) → 65% (spese to 31 Dec 2025, works started by 15 Oct 2024 only), no general 2026 rate; residual 110% on spese 2026 only in the 2009/2016 central-Italy earthquake crater, above the reconstruction contribution and with the discount / credit-transfer option exercised (DL 95/2025 art. 4 c. 2, conv. L. 118/2025) (2026 data, sources Camera dei deputati dossier + Agenzia delle Entrate)
 - 🇸🇪 **Skattereduktion ROT/RUT** (rotavdrag): 30% on labour
 - 🇫🇮 **ARA / Energy renovation grant**: up to €15k
 - 🇳🇴 **Enova**: heat pump, insulation, PV grants
