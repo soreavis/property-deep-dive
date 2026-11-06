@@ -200,6 +200,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): reword old fetch notes; keep unfinished shared requests in a queue ([#559](https://github.com/soreavis/property-deep-dive/pull/559)) — by @soreavis
 
+- fix(regwatch): 59-entry check, 6 Nov 2026 wave, and Kuwait's ownership wording ([#560](https://github.com/soreavis/property-deep-dive/pull/560)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
