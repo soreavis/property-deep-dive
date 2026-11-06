@@ -202,6 +202,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): 59-entry check, 6 Nov 2026 wave, and Kuwait's ownership wording ([#560](https://github.com/soreavis/property-deep-dive/pull/560)) — by @soreavis
 
+- fix(regwatch): Ireland's Derelict Property Tax amendments and Taito-ku's minpaku rules ([#561](https://github.com/soreavis/property-deep-dive/pull/561)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
