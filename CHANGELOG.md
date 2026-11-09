@@ -160,6 +160,50 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - chore(deps): bump DavidAnson/markdownlint-cli2-action from 24.2.0 to 25.0.0 ([#528](https://github.com/soreavis/property-deep-dive/pull/528)) — by @dependabot[bot]
 
+- fix(regwatch): re-verify the four overdue entries in #525 (NL NHG, BoJ, JP minpaku, SI ZGos-1) ([#539](https://github.com/soreavis/property-deep-dive/pull/539)) — by @soreavis
+
+- docs: fix the new-issue page link and two stale README counts ([#540](https://github.com/soreavis/property-deep-dive/pull/540)) — by @soreavis
+
+- docs: use the documented owner/repo form for /plugin marketplace add ([#541](https://github.com/soreavis/property-deep-dive/pull/541)) — by @soreavis
+
+- docs: give the plugin skill's namespaced command and fix the ChatGPT zip row ([#542](https://github.com/soreavis/property-deep-dive/pull/542)) — by @soreavis
+
+- fix(playbooks): re-check the second 15 April-stamped playbooks against primary sources ([#543](https://github.com/soreavis/property-deep-dive/pull/543)) — by @soreavis
+
+- fix(playbooks): close the fast-section gaps in 15 refreshed playbooks; re-date CZ EE FI IS SE SK ([#544](https://github.com/soreavis/property-deep-dive/pull/544)) — by @soreavis
+
+- ci: lint added playbook lines and re-stamps; run Scorecard weekly only ([#545](https://github.com/soreavis/property-deep-dive/pull/545)) — by @soreavis
+
+- feat(maintenance): evidence ledger and a scripts-first maintenance pipeline ([#546](https://github.com/soreavis/property-deep-dive/pull/546)) — by @soreavis
+
+- feat(maintenance): fetch circuit breaker and a monthly report-only maintenance plan ([#547](https://github.com/soreavis/property-deep-dive/pull/547)) — by @soreavis
+
+- fix(playbooks): add the may-have-changed suffix to 90 data tags two or more years old ([#548](https://github.com/soreavis/property-deep-dive/pull/548)) — by @soreavis
+
+- feat(maintenance): stricter percentage matching and fallback evidence for unledgered lines ([#549](https://github.com/soreavis/property-deep-dive/pull/549)) — by @soreavis
+
+- feat(maintenance): risk-based skipping, per-line fingerprints, agent packing and BM25 hints ([#551](https://github.com/soreavis/property-deep-dive/pull/551)) — by @soreavis
+
+- feat(maintenance): number provenance gate and expired forward-date check ([#552](https://github.com/soreavis/property-deep-dive/pull/552)) — by @soreavis
+
+- fix(playbooks): close the second-15 gap pass and first-15 round 2; re-date 14 playbooks ([#553](https://github.com/soreavis/property-deep-dive/pull/553)) — by @soreavis
+
+- fix(shared): apply 582 refuted shared-file changes from the refresh runs ([#554](https://github.com/soreavis/property-deep-dive/pull/554)) — by @soreavis
+
+- fix(maintenance): refresh generated files after shared patches ([#555](https://github.com/soreavis/property-deep-dive/pull/555)) — by @soreavis
+
+- fix(ci): run generated-file checks on every PR; lint sees uncommitted edits ([#556](https://github.com/soreavis/property-deep-dive/pull/556)) — by @soreavis
+
+- fix(maintenance): an open section blocks re-dating and its objection persists ([#557](https://github.com/soreavis/property-deep-dive/pull/557)) — by @soreavis
+
+- fix(playbooks): resolve objections on 14 playbooks; re-date HR LT LU ME PA; withdraw HU's date ([#558](https://github.com/soreavis/property-deep-dive/pull/558)) — by @soreavis
+
+- fix(playbooks): reword old fetch notes; keep unfinished shared requests in a queue ([#559](https://github.com/soreavis/property-deep-dive/pull/559)) — by @soreavis
+
+- fix(regwatch): 59-entry check, 6 Nov 2026 wave, and Kuwait's ownership wording ([#560](https://github.com/soreavis/property-deep-dive/pull/560)) — by @soreavis
+
+- fix(regwatch): Ireland's Derelict Property Tax amendments and Taito-ku's minpaku rules ([#561](https://github.com/soreavis/property-deep-dive/pull/561)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
