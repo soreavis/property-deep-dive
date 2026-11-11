@@ -124,19 +124,31 @@ jobs:
       - name: Restore content cache from latest prior artifact
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
           mkdir -p _local/source-verify/content-cache
-          last_run=$(gh run list --workflow source-verify.yml --status success --limit 1 --json databaseId --jq '.[0].databaseId // empty')
+          # The run that holds the newest cache artifact, not the newest successful run: pull_request
+          # runs upload none, and a cold start silently re-baselines every page. Only main runs of this
+          # repository count, so no pull-request or fork run can supply the cache, and never this run's
+          # own: a re-run of failed jobs still lists the cache its first attempt uploaded.
+          last_run=$(gh api "repos/${GH_REPO}/actions/artifacts?name=source-verify-cache&per_page=100" \
+            --jq '[.artifacts[] | select((.expired | not) and .workflow_run.head_branch == "main"
+              and .workflow_run.head_repository_id == .workflow_run.repository_id
+              and .workflow_run.id != (env.GITHUB_RUN_ID | tonumber))] | max_by(.created_at) | .workflow_run.id // empty')
           if [ -n "${last_run:-}" ]; then
-            if gh run download "$last_run" --name source-verify-cache --dir _local/source-verify/content-cache/ 2>/dev/null; then
-              echo "Restored content-cache index from run $last_run"
+            if gh run download "$last_run" --name source-verify-cache --dir _local/source-verify/content-cache/; then
+              outcome="Restored content cache from run $last_run"
+              echo "$outcome"
             else
-              echo "No source-verify-cache artifact on run $last_run — cold start (no content-change baseline)"
+              outcome="Could not download source-verify-cache from run $last_run — cold start (no content-change baseline)"
+              echo "::warning::$outcome"
             fi
           else
-            echo "No prior successful run — cold start"
+            outcome="No unexpired source-verify-cache artifact from an earlier main run — cold start (no content-change baseline)"
+            echo "::warning::$outcome"
           fi
+          echo "$outcome" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Run deterministic audit
         id: audit
@@ -146,11 +158,13 @@ jobs:
         if: always()
         run: python3 scripts/check-citations.py | tee _ci/source-verify/linter.txt || true
 
-      - name: Upload content-cache artifact (90-day retention; index only — hashes for change-detection)
+      - name: Upload content-cache artifact (90-day retention; index + last-run time — hashes for change-detection)
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
         with:
           name: source-verify-cache
-          path: _local/source-verify/content-cache/index.json
+          path: |
+            _local/source-verify/content-cache/index.json
+            _local/source-verify/content-cache/last-run.txt
           retention-days: 90
           if-no-files-found: error
 
