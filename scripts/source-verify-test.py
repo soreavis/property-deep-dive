@@ -198,6 +198,37 @@ class TestValueExtraction(unittest.TestCase):
         self.assertNotIn("year", types)
 
 
+class TestCheckDateMasking(unittest.TestCase):
+    """The repo's own check dates in their other spellings, from real playbook lines: 12 of the
+    75 TOKENS_ABSENT flags in the 2026-11-01 audit (#529) were only such a date. A date the
+    source itself states stays a figure."""
+
+    def test_check_dates_masked(self):
+        for line in (
+            "since the 2010 reform (2026 data, source gob.ec/dinarp; 2026-09-18 verified)",  # ec:13
+            "names Provo Water Company, Leeward Water Services and Fifth Avenue (read 2026-10-29).",  # tc:386
+            "(TLS-cert error observed 2026-05-28 — cite carefully)",  # ag:5
+            "cited earlier was not located on a primary source 2026-10-29.",  # sa:306
+            "its BCN text has no reference to art. 7 bis or Ley 17.235 (2026-10-21 check)",  # cl:151
+            "workforce data (2026-10-21: `pam.gov.kw` NXDOMAIN and no Wayback captures found",  # kw:318
+            "No Gibraltar-published seismic hazard map was found in this check (2026-10-29)",  # gi:235
+            "scenario was NOT confirmed on the CIU page (2026-05-28) → treat unverified-CBI-structuring",  # scams:164
+        ):
+            self.assertIsNone(SV.ISO_DATE_RE.search(SV.mask_inline_stamps(line)), line)
+
+    def test_source_dates_stay_figures(self):
+        for line, date in (
+            ("- IPI is **brand-new** (effective 2026-01-01). Implementation friction", "2026-01-01"),  # cv:223
+            ("Art. 359 § 1** (effective 2021-01-01): when residential LUR expires", "2021-01-01"),  # cn:20
+            ('Since Com. "A" 8336 (2025-09-26) individuals accessing the official FX market', "2025-09-26"),  # ar:330
+            ("moved ±1% monthly to 2025-12-31; from 2026-01-01 floor and ceiling slide each month", "2026-01-01"),  # ar:330
+            ("→ EGP ~50–51/USD (2026-05-01) → weakest CBE average market rate", "2026-05-01"),  # eg:8
+            ("source SERNAGEOMIN RNVV, página editada 2026-09-03; 2026-09-18 verified).", "2026-09-03"),  # cl:331
+        ):
+            vals = SV.extract_values(SV.mask_inline_stamps(line))
+            self.assertIn(date, [n for v in vals if v.salient for n in v.needles], line)
+
+
 class TestSourceTier(unittest.TestCase):
     def setUp(self):
         self.allow = {"bom.mu", "centralbankbahamas.com", "cbb.bb"}

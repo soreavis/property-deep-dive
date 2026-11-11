@@ -99,9 +99,24 @@ HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*$")
 # is followed by ";" in the verified form and ")" in the marker form — match either, so don't
 # anchor on a trailing ")".
 STAMP_RE = re.compile(r"\((\d{4}-\d{2}-\d{2})\s+(re-verified|verified|stale-marker|stale|updated)\b", re.IGNORECASE)
-# The tracker's own "as of YYYY-MM-DD" freshness stamps — the same self-referential class as
-# STAMP_RE's "(YYYY-MM-DD verified" form.
-ASOF_STAMP_RE = re.compile(r"\b(?:as of|checked|re-checked)\s+(\d{4}-\d{2}-\d{2})\b", re.IGNORECASE)
+# The tracker's own check dates in their other spellings — the same self-referential class as
+# STAMP_RE's "(YYYY-MM-DD verified" form. A check word before the date: "as of 2026-05-28",
+# "(read 2026-10-29)", "TLS-cert error observed 2026-05-28", "not located on a primary source 2026-10-29".
+ASOF_STAMP_RE = re.compile(
+    r"\b(?:as of|checked|re-checked|verified|read|observed|fetched|retrieved|sourced|located|confirmed"
+    r"|primary source)(?:\s+on)?\s+(\d{4}-\d{2}-\d{2})\b",
+    re.IGNORECASE,
+)
+# After the date: "…; 2026-09-18 verified)", "(2026-10-29 check)".
+CHECK_AFTER_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\s+(?:re-verified|verified|check)\b", re.IGNORECASE)
+# A fetch note that opens with its date: "(2026-09-18: legalaffairs.gov.ag serves HTTP 200 …)".
+FETCH_NOTE_RE = re.compile(r"\((\d{4}-\d{2}-\d{2}):")
+# A bare "(YYYY-MM-DD)" only when it closes a search result ("no hazard map was found in this check
+# (2026-10-29)"). Elsewhere it is the source's own date — 'Com. "A" 8336 (2025-09-26)', a rate's
+# "(2026-05-01)" — and stays a figure.
+SEARCH_RESULT_RE = re.compile(
+    r"\b(?:found|located|confirmed|resolves)\b[^.;()]{0,40}\((\d{4}-\d{2}-\d{2})\)", re.IGNORECASE
+)
 
 
 # A "verify at <authority>" pointer: the clause exists to say the figure is NOT published at the
@@ -124,7 +139,7 @@ def mask_inline_stamps(line: str) -> str:
     """Blank the DATE inside the tracker's own verification stamps ("(2026-05-27 verified…",
     "as of 2026-05-28") before value extraction: the audit's own dates are metadata about the
     tracker, never figures the cited page must contain (2026-07 TOKENS_ABSENT FP class)."""
-    for rx in (STAMP_RE, ASOF_STAMP_RE):
+    for rx in (STAMP_RE, ASOF_STAMP_RE, CHECK_AFTER_RE, FETCH_NOTE_RE, SEARCH_RESULT_RE):
         line = rx.sub(lambda m: m.group(0).replace(m.group(1), " " * len(m.group(1))), line)
     return line
 
