@@ -209,6 +209,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): Ireland's Derelict Property Tax amendments and Taito-ku's minpaku rules ([#561](https://github.com/soreavis/property-deep-dive/pull/561)) — by @soreavis
 
+- fix(regwatch): 7-entry check, 11 Nov 2026 wave ([#581](https://github.com/soreavis/property-deep-dive/pull/581)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
