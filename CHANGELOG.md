@@ -213,6 +213,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(source-verify): restore the newest cache artifact; mask the repo's own check dates ([#582](https://github.com/soreavis/property-deep-dive/pull/582)) — by @soreavis
 
+- fix(regwatch): Ireland's short-let Bill passed the Dáil, 12 Nov 2026 wave ([#583](https://github.com/soreavis/property-deep-dive/pull/583)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
