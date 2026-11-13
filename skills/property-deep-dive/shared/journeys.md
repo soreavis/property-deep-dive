@@ -182,7 +182,7 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 | Tax | Rate (non-resident) | Notes |
 |---|---:|---|
 | Annual property tax | <per-country> | Often higher rate for non-residents |
-| Imputed rental income | <e.g., ES IRNR (2% or 1.1%) × cadastral value × 24% non-EU / 19% EU; progressive scale on summed values from 2027 if RDL 29/2026 is convalidated> | EU vs non-EU rates differ |
+| Imputed rental income | <e.g., ES IRNR (2% or 1.1%) × cadastral value × 24% non-EU / 19% EU; progressive scale on summed values from 2027 under RDL 29/2026, convalidated 12 Nov 2026> | EU vs non-EU rates differ |
 | Capital gains | <per-country> | Higher rate for non-residents (e.g., ES 19% non-EU vs 19% EU) |
 | Wealth tax (where applicable) | <e.g., ES IP, FR IFI> | Generally non-residents only on local assets |
 | Inheritance / gift tax | <per-country> | Often more punitive on non-resident heirs |

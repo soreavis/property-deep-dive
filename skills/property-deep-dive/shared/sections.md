@@ -164,7 +164,7 @@ Country-specific regimes:
 - **DE**: Vermietung & Verpachtung Einkommensteuer; commercial threshold; gewerbesteuer if hotel-style
 - **UK**: Furnished Holiday Let (FHL) rules + new abolition 2025; income tax + property income allowance £1,000
 - **IT**: Cedolare secca short-let 26%, 21% on one unit the taxpayer names; max 2 short-let apartments from 2026 (above two = presumed business, partita IVA); national CIN mandatory since 1 Jan 2025 (a regional CIR only where a region adds it)
-- **ES**: VTV/VFT regional license; IRNR 19/24% for non-residents; 10% IVA on lets of 30 nights or fewer outside the landlord's habitual residence from 1 Dec 2026 (RDL 29/2026, pending convalidation)
+- **ES**: VTV/VFT regional license; IRNR 19/24% for non-residents; 10% IVA on lets of 30 nights or fewer outside the landlord's habitual residence from 1 Dec 2026 (RDL 29/2026, convalidated 12 Nov 2026)
 - **NL**: Box 3 imputed; B&B regulated by gemeente
 - **BE**: Régional licence (Brussels strict, Wallonia/Flanders moderate); IPP barème
 - **CH**: Cantonal patente; valeur locative impacts taxe
