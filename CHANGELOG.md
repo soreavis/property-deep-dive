@@ -217,6 +217,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): record the 12 Nov votes on the Spanish decrees and the Belastingplan ([#584](https://github.com/soreavis/property-deep-dive/pull/584)) — by @soreavis
 
+- fix(regwatch): Ireland's short-let Bill in the Seanad and Sri Lanka's 2027 Budget, 13 Nov 2026 wave ([#586](https://github.com/soreavis/property-deep-dive/pull/586)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
