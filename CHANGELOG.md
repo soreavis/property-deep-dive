@@ -220,6 +220,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): Ireland's short-let Bill in the Seanad and Sri Lanka's 2027 Budget, 13 Nov 2026 wave ([#586](https://github.com/soreavis/property-deep-dive/pull/586)) — by @soreavis
 
+- fix(regwatch): NL box 3 novelle passed the Tweede Kamer, start now proposed for 2029 ([#587](https://github.com/soreavis/property-deep-dive/pull/587)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
