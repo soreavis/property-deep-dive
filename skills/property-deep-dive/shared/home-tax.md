@@ -2,7 +2,7 @@
 
 Buyer-nationality tax overlay for foreign property. Indexed by **buyer's tax-residence country** (not the property country). Covers 20+ buyer cohorts plus 10 cross-cutting structural traps. Companion to the property-country `--tax` layer (per-country playbook: taxe foncière / IBI / IMU / etc.) and `shared/finance.md` (mortgage availability for non-resident buyers).
 
-**Snapshot**: 2026-05-09. Tax law moves fast — every numeric claim is statute / form / circular-cited and date-stamped. Where a parliamentary bill is mid-flight (NL Wet WRBox3 → 2028; FR PLF 2026 exit-tax extension; KR 2028 Inheritance Acquisition System; US TCJA estate-exemption sunset/OBBBA permanence) the document flags MEDIUM confidence and points to the parliamentary tracker.
+**Snapshot**: 2026-05-09. Tax law moves fast — every numeric claim is statute / form / circular-cited and date-stamped. Where a parliamentary bill is mid-flight (NL Wet WRBox3 → 2029 proposed, not secured; FR PLF 2026 exit-tax extension; KR 2028 Inheritance Acquisition System; US TCJA estate-exemption sunset/OBBBA permanence) the document flags MEDIUM confidence and points to the parliamentary tracker.
 
 **Anti-hallucination**: every cluster ends with `Confidence: HIGH/MEDIUM/LOW` and a `Last verified` date. Every numeric claim either cites a primary statute / form / circular OR is labelled `est.` with computation shown. Forbidden phrasings per `shared/anti-hallucination.md` § Forbidden phrasings are avoided throughout.
 
@@ -573,7 +573,7 @@ Facts-and-circumstances; family ties primary (where the family physically lives 
 ### Box 3 reform — the live constitutional crisis
 - **Hoge Raad 6 Jun 2024** (and 14 Jun 2024 follow-ups, then **20 Dec 2024**): existing Box 3 forfait still violates Art. 1 EP ECHR; **actual return** must cap the levy. **Voordeel wegens eigen gebruik** (own-use benefit) of real estate set to **NIL** for actual-return purposes.
 - **Tegenbewijsregeling** ("counter-proof rule"): from 2025 (covering 2017-2024 affected years; 2025+ forward), taxpayers can demonstrate actual return < forfait via **OWR — Opgaaf Werkelijk Rendement** (folded into regular IB return from tax year 2025).
-- **Wet werkelijk rendement box 3** — full move to actual-return basis: originally 2026 → postponed to 2027 → **postponed again to 1 Jan 2028**. Tweede Kamer adopted the bill 12 Feb 2026; the Eerste Kamer deferred its final vote on 30 Jun 2026 pending an announced novelle, and the Belastingplan 2027 bill of 15 Sep 2026 contains no Box 3 measure, with no novelle introduced (Eerste Kamer file 36.748, 17 Sep 2026); the cabinet's 14 Sep 2026 letter (EK 36.748, Q) asks the Senate to keep holding the bill and lists withdrawing it, with the forfaitaire system plus tegenbewijsregeling kept longer and a full vermogenswinstbelasting in 2030, as one of four scenarios. **Status as of 2026-10-21: bill (36.748) still held in the Eerste Kamer; the cabinet chose (Kamerbrief 29 Sep 2026) a novelle extending realisation-based vermogenswinst from real estate and start-up shares to all financial instruments from 1 Jan 2028 (the rest of box 3 on vermogensaanwas until an expected 2030 switch); the ministerraad adopted it 2 Oct 2026 and it is at the Raad van State for urgent advice, not yet introduced in the Tweede Kamer; both bills must pass both chambers by December 2026 for a 2028 start; funding not settled (2027 placeholder: heffingvrij vermogen €30,846, forfait overige bezittingen 7.87%) — model the forfaitaire system with the tegenbewijsregeling for 2026 and 2027 and treat 2028 as unsecured.**
+- **Wet werkelijk rendement box 3** — full move to actual-return basis: originally 2026 → postponed to 2027 → postponed to 1 Jan 2028 → **now proposed for 1 Jan 2029**. Tweede Kamer adopted the bill 12 Feb 2026; the Eerste Kamer deferred its final vote on 30 Jun 2026 pending an announced novelle; the cabinet's 14 Sep 2026 letter (EK 36.748, Q) asked the Senate to keep holding the bill and listed withdrawing it, with the forfaitaire system plus tegenbewijsregeling kept longer and a full vermogenswinstbelasting in 2030, as one of four scenarios. **Status as of 2026-11-14: bill (36.748) still held in the Eerste Kamer; the Novelle uitbreiding vermogenswinstbelasting box 3 (Kamerstuk 37 053, introduced 3 Nov 2026), extending realisation-based vermogenswinst from real estate and start-up shares to all financial instruments (the rest of box 3 on vermogensaanwas until an expected 2030 switch), passed the Tweede Kamer on 12 Nov 2026, Eerste Kamer vote pending; its memorie van toelichting proposes the new system from 1 Jan 2029, with 2028 still on the forfait plus tegenbewijsregeling; the cabinet keeps 1 Jan 2028 open (nrs. 5 and 8); commencement by koninklijk besluit; the 2027 placeholder coverage (heffingvrij vermogen €30,846, forfait overige bezittingen 7.87%) is dropped, and for 2027 the Belastingplan 2027 only limits the indexation of box 3 amounts such as the heffingvrij vermogen (factor 1.015548, Eerste Kamer pending); Belastingplan 2027 amendment nr. 80 (passed the Tweede Kamer 12 Nov 2026, Eerste Kamer pending) sets box 3 rates of 35.5% on box 3 income up to €60,000 and 38.5% above from 2029 — model the forfaitaire system with the tegenbewijsregeling for 2026 and 2027 (and 2028 as proposed), and treat the 2029 start as proposed, not secured.**
 
 ### Box 1 — only if "more than asset management"
 If active landlord status (multiple foreign properties + professional involvement) → Box 1 progressive (2025 top rate 49.5%). High threshold; rare for individual foreign-property buyers.
@@ -594,7 +594,7 @@ NL has **no separate CGT** for individuals on real estate held privately. Box 3 
 
 ### 2024-2026 reforms
 - **30%-ruling**: original 2024 plan was 30/20/10 stair-step; **reversed by Tax Plan 2025** (Senate 17 Dec 2024) → flat **27% from 1 Jan 2027** with €50,436 income standard; existing 30% rulings grandfathered at 30% through 2026.
-- Box 3 actual-return Wet WRBox3 → 1 Jan **2028** target NOT secured (bill held in the Eerste Kamer; novelle extending vermogenswinst to all financial instruments adopted by the ministerraad 2 Oct 2026, at the Raad van State, must pass both chambers by December 2026 — verify).
+- Box 3 actual-return Wet WRBox3 → 1 Jan **2029** proposed, NOT secured (bill held in the Eerste Kamer; the novelle extending vermogenswinst to all financial instruments (Kamerstuk 37 053) passed the Tweede Kamer 12 Nov 2026, Eerste Kamer pending; 1 Jan 2028 still open if the cabinet finds it feasible; commencement by koninklijk besluit — verify).
 
 **Confidence: HIGH** for Box 3 thresholds + 30%-ruling timeline; **MEDIUM-LOW** for the actual-return effective date (still in parliamentary navette) · **Last verified**: 2026-05-09
 
@@ -1052,7 +1052,7 @@ These work regardless of buyer's home country and prevent the most common cross-
 - **OM individual income tax** — proposed for 2024 introduction, repeatedly deferred; unconfirmed as of May 2026.
 - **CA UHT elimination** — Bill C-15 tabled 18 Nov 2025 proposes elimination 2025+; Royal Assent timing pending.
 - **AU residency reform 2021 proposal** — not enacted as of May 2026; treat current 4-test framework as authoritative.
-- **NL Wet WRBox3 actual-return** — bill in First Chamber as of date stamp; effective date 1 Jan 2028 not yet locked.
+- **NL Wet WRBox3 actual-return** — bill in First Chamber; its novelle (Kamerstuk 37 053) passed the Second Chamber 12 Nov 2026; start now proposed for 1 Jan 2029 (2028 still open), not yet locked (status 2026-11-14).
 - **FR exit-tax PLF 2026** — National Assembly amendment proposes restoring 15-y holding period; awaiting parliamentary navette completion.
 
 ---
@@ -1067,7 +1067,7 @@ These work regardless of buyer's home country and prevent the most common cross-
 
 **Re-stamp triggers (calendar-actionable)**:
 - 2026-Q4: HMRC FIG-regime manual stabilisation target.
-- 2026-12-31: NL Wet WRBox3 First-Chamber adoption deadline for 2028 effective date.
+- 2026-12-31: NL Wet WRBox3 + novelle (Kamerstuk 37 053) First-Chamber adoption target — needed for the novelle's box 2 coverage from 1 Jan 2027 and, per the cabinet, to arrange bank data for a 2029 start (status 2026-11-14).
 - 2027-01-01: NL 30%-ruling flat 27% goes live.
 - 2028: KR Inheritance Acquisition System target.
 - 2029-01-01: CH Eigenmietwert abolished.
