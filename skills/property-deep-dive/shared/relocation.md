@@ -563,7 +563,7 @@ These work regardless of the destination country and prevent the most common 90-
 - **PL Kraków LEZ Constitutional Tribunal challenge** — ongoing Feb 2026; court rejected attempt to overturn but verify status quarterly.
 - **CA UHT elimination** — Bill C-15 tabled Nov 2025 proposes elimination 2025+; Royal Assent timing pending (cross-references `--home-tax`).
 - **AU residency reform 2021 proposal** — not enacted as of May 2026; treat current 4-test framework as authoritative.
-- **NL Wet WRBox3 actual-return** — bill in First Chamber as of date stamp; effective date 1 Jan 2028 not yet locked (cross-references `--home-tax`).
+- **NL Wet WRBox3 actual-return** — bill in First Chamber; its novelle (Kamerstuk 37 053) passed the Second Chamber 12 Nov 2026; start now proposed for 1 Jan 2029 (2028 still open), not yet locked (status 2026-11-14; cross-references `--home-tax`).
 - **ZA contradicts own gov sites on PR-DL-conversion deadline** (1 yr vs 5 yr) — verify per province.
 - **Caribbean per-country duty rates** (BS, BB, BZ, DO) assembled from secondary aggregators where primary government PDFs are slow/intermittent — verify at primary-domain before quoting.
 - **GCC vehicle age caps** — frequently mis-cited; verify with destination customs ≤30 days pre-departure.
