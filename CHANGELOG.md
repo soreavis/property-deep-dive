@@ -210,6 +210,18 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): Ireland's Derelict Property Tax amendments and Taito-ku's minpaku rules ([#561](https://github.com/soreavis/property-deep-dive/pull/561)) — by @soreavis
 
+- fix(regwatch): 7-entry check, 11 Nov 2026 wave ([#581](https://github.com/soreavis/property-deep-dive/pull/581)) — by @soreavis
+
+- fix(source-verify): restore the newest cache artifact; mask the repo's own check dates ([#582](https://github.com/soreavis/property-deep-dive/pull/582)) — by @soreavis
+
+- fix(regwatch): Ireland's short-let Bill passed the Dáil, 12 Nov 2026 wave ([#583](https://github.com/soreavis/property-deep-dive/pull/583)) — by @soreavis
+
+- fix(regwatch): record the 12 Nov votes on the Spanish decrees and the Belastingplan ([#584](https://github.com/soreavis/property-deep-dive/pull/584)) — by @soreavis
+
+- fix(regwatch): Ireland's short-let Bill in the Seanad and Sri Lanka's 2027 Budget, 13 Nov 2026 wave ([#586](https://github.com/soreavis/property-deep-dive/pull/586)) — by @soreavis
+
+- fix(regwatch): NL box 3 novelle passed the Tweede Kamer, start now proposed for 2029 ([#587](https://github.com/soreavis/property-deep-dive/pull/587)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
