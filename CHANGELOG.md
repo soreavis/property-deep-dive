@@ -224,6 +224,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): NL box 3 novelle passed the Tweede Kamer, start now proposed for 2029 ([#587](https://github.com/soreavis/property-deep-dive/pull/587)) — by @soreavis
 
+- fix(regwatch): Florida Amendment 3 certified on 17 Nov 2026, takes effect 1 Jan 2027 ([#594](https://github.com/soreavis/property-deep-dive/pull/594)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
