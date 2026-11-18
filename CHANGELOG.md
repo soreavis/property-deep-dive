@@ -226,6 +226,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): Florida Amendment 3 certified on 17 Nov 2026, takes effect 1 Jan 2027 ([#594](https://github.com/soreavis/property-deep-dive/pull/594)) — by @soreavis
 
+- fix(regwatch): Ireland's short-let Bill amended by the Seanad, 18 Nov 2026 wave ([#595](https://github.com/soreavis/property-deep-dive/pull/595)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
