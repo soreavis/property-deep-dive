@@ -235,6 +235,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): NL box 3 Eerste Kamer planning, 2026 forfait rates corrected ([#598](https://github.com/soreavis/property-deep-dive/pull/598)) — by @soreavis
 
+- fix(regwatch): Vietnam's Housing Law passed, apartments only from 1 Jul 2027 ([#599](https://github.com/soreavis/property-deep-dive/pull/599)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
