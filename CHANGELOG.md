@@ -227,6 +227,16 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): NL box 3 novelle passed the Tweede Kamer, start now proposed for 2029 ([#587](https://github.com/soreavis/property-deep-dive/pull/587)) — by @soreavis
 
+- fix(regwatch): Florida Amendment 3 certified on 17 Nov 2026, takes effect 1 Jan 2027 ([#594](https://github.com/soreavis/property-deep-dive/pull/594)) — by @soreavis
+
+- fix(regwatch): Ireland's short-let Bill amended by the Seanad, 18 Nov 2026 wave ([#595](https://github.com/soreavis/property-deep-dive/pull/595)) — by @soreavis
+
+- fix(regwatch): Ireland's short-let Bill passed the Seanad, 23 Nov 2026 wave ([#597](https://github.com/soreavis/property-deep-dive/pull/597)) — by @soreavis
+
+- fix(regwatch): NL box 3 Eerste Kamer planning, 2026 forfait rates corrected ([#598](https://github.com/soreavis/property-deep-dive/pull/598)) — by @soreavis
+
+- fix(regwatch): Vietnam's Housing Law passed, apartments only from 1 Jul 2027 ([#599](https://github.com/soreavis/property-deep-dive/pull/599)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
