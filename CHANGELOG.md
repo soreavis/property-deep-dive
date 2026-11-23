@@ -233,6 +233,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): Ireland's short-let Bill passed the Seanad, 23 Nov 2026 wave ([#597](https://github.com/soreavis/property-deep-dive/pull/597)) — by @soreavis
 
+- fix(regwatch): NL box 3 Eerste Kamer planning, 2026 forfait rates corrected ([#598](https://github.com/soreavis/property-deep-dive/pull/598)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
