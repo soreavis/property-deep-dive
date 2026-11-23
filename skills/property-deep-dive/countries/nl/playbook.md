@@ -118,9 +118,9 @@ For primary residence:
 ### Box 3 — Vermogensrendementsheffing (savings + investment tax)
 
 **MAJOR REFORM in progress**:
-- **2026 forfaitair rendement (deemed yield)**:
+- **2026 forfaitair rendement (deemed yield)** ([Belastingdienst](https://www.belastingdienst.nl/wps/wcm/connect/nl/box-3/content/berekening-box-3-inkomen-2026); bank and debt rates provisional until fixed early 2027):
   - Bank deposits: **1.28%**
-  - Other assets (incl. property, stocks): **6.00%** (down from 7.78% 2025)
+  - Other assets (incl. property, stocks): **6.00%**, final (up from 5.88% in 2025 — [Belastingdienst rates 2017–2025](https://www.belastingdienst.nl/wps/wcm/connect/nl/box-3/content/berekening-box-3-inkomen-fictief-rendement))
   - Debts: 2.70%
 - Tax rate: **36%** of deemed return
 - Tax-free allowance: **€59,357 per fiscal partner** (2026); **2027**: the cut to €30,846 and the forfait overige bezittingen (incl. second homes / buy-to-let) of **7.87%** proposed on 29 Sep 2026 are **DROPPED** (cabinet letter 3 Nov 2026), replaced by lower box 2 rates; the box 3 novelle (Kamerstuk 37 053, passed by the Tweede Kamer 12 Nov 2026) changes no 2027 Box 3 parameter; the Belastingplan 2027 as passed by the Tweede Kamer indexes the €59,357 by 1.015548 for 2027 instead of the full inflation correction (computed: €59,357 × 1.015548 ≈ €60,280 before rounding; Eerste Kamer pending), and the 2027 amount is not yet published by the Belastingdienst (2026-11-14 verified; sources [Eerste Kamer — brief 3 Nov 2026, EK 36.748 / 37.022, R](https://www.eerstekamer.nl/behandeling/20261103/brief_van_de_minister_en/document3/f=/vn2cinzzckx2.pdf) + [Tweede Kamer 37 053](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel%3A37053) + [Tweede Kamer 37 022](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel%3A37022) + [Kamerstuk 37 022 nr. 29](https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(bff5fa6d-2c2a-466b-9803-d3a70ef59c07)/resource) + [Wet IB 2001 art. 10.1](https://wetten.overheid.nl/BWBR0011353/2026-01-01/0/Hoofdstuk10/Artikel10.1))
