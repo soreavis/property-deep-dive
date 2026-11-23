@@ -566,7 +566,7 @@ Facts-and-circumstances; family ties primary (where the family physically lives 
 ### Foreign real estate — **Box 3 (vermogensbelasting via fictief rendement)**
 - Box 3 = deemed (fictitious) return on net wealth on 1 Jan reference date. Not capital gains; not actual rent.
 - **Threshold 2026: heffingsvrij vermogen €59,357 / €118,714 fiscal partners** (raised from €57,000 / €114,000 in 2024).
-- **Forfait rates 2026**: 1.44% on bank savings · **6.04% on overige bezittingen (incl. real estate, both Dutch and foreign)** · 2.62% on debts.
+- **Forfait rates 2026** ([Belastingdienst](https://www.belastingdienst.nl/wps/wcm/connect/nl/box-3/content/berekening-box-3-inkomen-2026)): 1.28% on bank savings · **6.00% on overige bezittingen (incl. real estate, both Dutch and foreign)** · 2.70% on debts; 6.00% is final, the bank and debt rates are provisional until fixed early 2027.
 - Foreign real estate enters at FMV minus mortgage debt. Most DTTs allocate to situs country with NL **vrijstelling met progressievoorbehoud** (treaty exemption with averaging effect on the Box 3 rate calc).
 - Valuation: **Hoge Raad** confirmed WOZ-equivalent / market value; for property available for own use, market rental value may be added from 2026.
 
@@ -1033,7 +1033,7 @@ These work regardless of buyer's home country and prevent the most common cross-
 | Topic | US | UK | DE | FR | IT | ES | NL | NO | DK | AU | CA |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Worldwide income | ✅ citizenship-based | ✅ post-FIG year 4 | ✅ § 1 EStG | ✅ Art. 4 B CGI | ✅ Art. 3 TUIR | ✅ Art. 2 LIRPF | ✅ Art. 2.1 IB 2001 | ✅ § 2-1 | ✅ KSL § 1 | ✅ § 6-5 ITAA | ✅ § 2 ITA |
-| Annual on foreign RE | ❌ (federal) | ❌ | ❌ (1997) | **IFI** > €1.3M | **IVIE** 1.06% | **IP + ITSGF** | **Box 3** 6.04% RE | **Formueskatt** | **EVS** 0.51-1.4% | ❌ | ❌ |
+| Annual on foreign RE | ❌ (federal) | ❌ | ❌ (1997) | **IFI** > €1.3M | **IVIE** 1.06% | **IP + ITSGF** | **Box 3** 6.00% RE ([2026](https://www.belastingdienst.nl/wps/wcm/connect/nl/box-3/content/berekening-box-3-inkomen-2026)) | **Formueskatt** | **EVS** 0.51-1.4% | ❌ | ❌ |
 | Foreign-asset disclosure | **8938 + FBAR** | None comprehensive (CRS) | None for direct RE | **Form 3916** (accounts) | **Quadro RW** (everything) | **Modelo 720** | None comprehensive | None comprehensive | Item 20 | **T1135** > CAD 100k (rental) |
 | CGT on foreign disposal | LTCG 0/15/20% + NIIT 3.8% | 18%/24% (post-Oct 2024) | § 23 EStG, 10y exempt | 22y IR / 30y soc. abated | 5y exempt | 19-30% (2025) | None for individuals | 22% | EBL § 1 | 50% inclusion |
 | Exit tax foreign RE | YES (§ 877A) | NO (FIG regime exit) | NO | NO | NO | NO | NO | NO | NO | YES (§ 128.1) | YES (CGT event I1) |
