@@ -245,6 +245,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): Vietnam's Housing Law passed, apartments only from 1 Jul 2027 ([#599](https://github.com/soreavis/property-deep-dive/pull/599)) — by @soreavis
 
+- fix(regwatch): Hungary's wealth tax adopted by parliament, not yet promulgated ([#604](https://github.com/soreavis/property-deep-dive/pull/604)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
