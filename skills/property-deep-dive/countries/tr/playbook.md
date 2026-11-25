@@ -8,7 +8,7 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
   - First 2 digits: il (province) plaka kodu (matches license-plate code 01–81)
   - Last 3 digits: ilçe + mahalle cluster
 - **Admin levels**: 81 il (province) → 973 ilçe (district) → ~32,000 mahalle/köy (neighbourhood/village). 30 of the 81 are **Büyükşehir Belediyesi** (metropolitan municipality).
-- **Currency**: TRY (Türk lirası). **Foreign-buyer transactions widely quoted in USD or EUR** because of TRY hyperinflation (CPI hit 85.51 % YoY Oct 2022, re-peaked ~75 % YoY May 2024, ~44 % by end-2024, low-30s by late 2025, ~32.6 % YoY May 2026, **31.51 % YoY Aug 2026** per TÜİK (2026 data, quoted in TCMB PPK summary 2026-42) — the June-2026 rent-cap 12-month-average TÜFE ceiling of 32.24 % corroborates; CBRT one-week repo rate peaked 50 % Mar 2024, eased through 2025–26 to **36.0 %** — cut from 37 % at the 22 Oct 2026 PPK per TCMB Basın Duyurusu 2026-45 (37 % had been held at the 10 Sep 2026 PPK, 2026-38; checked 2026-11-25); rates may have changed since — re-check TÜİK monthly). **Verify TRY vs FX pricing on every listing.** (2026-09-24 verified)
+- **Currency**: TRY (Türk lirası). **Foreign-buyer transactions widely quoted in USD or EUR** because of TRY hyperinflation (CPI hit 85.51 % YoY Oct 2022, re-peaked ~75 % YoY May 2024, ~44 % by end-2024, low-30s by late 2025, ~32.6 % YoY May 2026, **31.51 % YoY Aug 2026** per TÜİK (2026 data, quoted in TCMB PPK summary 2026-42) — TÜİK's Aug-2026 bulletin puts the 12-month-average TÜFE (the rent-cap basis) at 31.79 %; CBRT one-week repo rate peaked 50 % Mar 2024, eased through 2025–26 to **36.0 %** — cut from 37 % at the 22 Oct 2026 PPK per TCMB Basın Duyurusu 2026-45 (37 % had been held at the 10 Sep 2026 PPK, 2026-38; checked 2026-11-25); rates may have changed since — re-check TÜİK monthly). **Verify TRY vs FX pricing on every listing.** (2026-09-24 verified)
 - **Languages**: Turkish (official); English usable in tourist zones (İstanbul, Antalya, Bodrum, Alanya, Fethiye); Kurdish substantial in southeast (admin Turkish only).
 - **Cadastre**: **TKGM** (Tapu ve Kadastro Genel Müdürlüğü) — title is **`Tapu Senedi`**. Online: `https://www.tkgm.gov.tr/` + **Web Tapu** (e-Devlet integration at `https://webtapu.tkgm.gov.tr/`).
 - **Identifier**: `Tapu Senedi` carries `il / ilçe / mahalle/köy / ada no / parsel no / bağımsız bölüm no` (last for apartments).
@@ -40,19 +40,19 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 - **hepsiemlak.com** — full-broker: `https://www.hepsiemlak.com/<il>-<ilce>-satilik`
 - **emlakjet.com**, **zingat.com**, **hurriyetemlak.com**
 
-### Price benchmarks (Q4 2025 reference, TÜİK + Globalpropertyguide aggregations)
+### Price benchmarks (Q4 2025 reference, TCMB average m² prices)
 
 | Region / city | TRY/m² (Q4 2025 avg) | USD/m² (≈) | YoY change |
 |---|---:|---:|---:|
-| **Türkiye geneli** | ~45,447 | $973 | +26.0 % |
-| **İstanbul** | ~74,101 | $1,587 | +24.5 % |
-| **Ankara** | data not publicly available — verify TÜİK monthly bulletin | est. $850–$1,100 | +38.7 % |
-| **İzmir** | data not publicly available — verify TÜİK monthly bulletin | est. $1,000–$1,400 | mid-20s % |
+| **Türkiye geneli** | ~45,457 | $973 | +26.1 % |
+| **İstanbul** | ~74,153 | $1,588 | +33.6 % |
+| **Ankara** | ~41,274 | $884 | +38.7 % |
+| **İzmir** | ~49,584 | $1,062 | +30.8 % (TCMB KFE index, Dec 2025 — not a Q4 m² price change like the rows above) |
 | **Antalya / Muğla coast** | est. mid-tier with foreign-buyer premium | est. $1,200–$2,000 | mid-20s % |
 
-(Q4 2025 reference levels, source TÜİK KFE + GlobalPropertyGuide; the two index-row USD figures re-anchored at ~46.7 TRY/USD, 2026-07-02 rate — TRY/m² levels are inflation-eroded; est ranges are judgment bands; rates may have changed since — re-pull TCMB KFE monthly)
+(Q4 2025 reference levels: TCMB average m² prices (TRY/m²) as reported by Bigpara/Hürriyet on 19 Jan 2026, a secondary report of the TCMB figures; YoY = Q4 2025 vs Q4 2024 m² price, computed: Türkiye 45,457 ÷ 36,061 = 1.261, İstanbul 74,153 ÷ 55,503 = 1.336, Ankara 41,274 ÷ 29,764 = 1.387; the İzmir and coast rows show the TCMB KFE index change to Dec 2025 instead (İzmir 30.8 %; Antalya–Burdur–Isparta 24.2 %, Aydın–Denizli–Muğla 25.4 %); USD figures computed at ~46.7 TRY/USD (TCMB indicative rate of 2 Jul 2026: 46.6080 buying / 46.6920 selling), e.g. 45,457 ÷ 46.7 ≈ 973 — TRY/m² levels are inflation-eroded; est ranges are judgment bands; rates may have changed since — re-pull TCMB's quarterly m² prices)
 
-**By August 2026** (TCMB RPPI Aug-2026 bulletin, primary) nominal YoY had eased to **+23.0 % nationally** (İstanbul +26.3 %, Ankara +24.8 %, İzmir +23.3 %), but **real YoY was −6.5 %** (May 2026: +24.5 % nominal / −6.1 % real) — Turkish housing is rising in TRY yet losing value against inflation. Re-pull TCMB KFE monthly; cross-check TÜİK KFE. (2026-09-24 verified, TCMB RPPI Aug 2026)
+**By October 2026** (TCMB KFE Oct-2026 bulletin, primary) nominal YoY had eased to **+21.1 % nationally** (İstanbul +24.8 %, Ankara +22.7 %, İzmir +17.9 %), but **real YoY was −6.6 %** — Turkish housing is rising in TRY yet losing value against inflation. Re-pull TCMB KFE monthly; cross-check TÜİK KFE. (2026-11-25 verified, TCMB KFE Oct 2026)
 
 ### İstanbul district hierarchy (foreign-buyer relevant; verify per-district at sahibinden cenova haritası)
 
@@ -63,7 +63,7 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Compute
 
-1. Listing price/m² = listing price ÷ `brüt m²` (gross — includes wall thickness, common areas) OR `net m²` (interior only). **Clarify which on every listing — gap is typically 15–25 %**.
+1. Listing price/m² = listing price ÷ `brüt m²` (gross — includes wall thickness, common areas) OR `net m²` (interior only). **Clarify which on every listing — gap est. 15–25 %** (judgment band: brüt adds wall thickness and a share of common areas, so the gap widens with shared space; take both figures from the project's area table, not the listing).
 2. Compare to TÜİK KFE for the il (province-level only — not parcel-specific).
 3. Compare to Endeksa neighbourhood machine-valuation (mahalle-level granularity).
 4. **Trap**: `0+1` = studio (no separate bedroom), `1+1` = one bed, `2+1` = two bed + lounge, `3+1` etc. — Turkish convention.
@@ -114,7 +114,7 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 |---|---:|---:|
 | **Residential (mesken/konut)** | **0.1 %** | **0.2 %** |
 | **Commercial (işyeri)** | 0.2 % | 0.4 % |
-| **Land with construction permit (arsa)** | 0.3 % | 0.6 % |
+| **Building plot (arsa — land parcelled by the belediye)** | 0.3 % | 0.6 % |
 | **Agricultural land (arazi)** | 0.1 % | 0.2 % |
 
 (source GİB Emlak Vergisi Kanunu mad. 8; rates confirmed **unchanged for 2026** — Büyükşehir ×2 also unchanged; only the base values were re-set, see below. 2026-07-03 verified)
@@ -126,38 +126,39 @@ ISO2: `tr`. Status: ✅ Fully populated (researched 2026-05).
 Property tax base = **rayiç bedel** (declared/appraised value) updated every 4 years by belediye + annual yeniden değerleme oranı (revaluation coefficient, set by Hazine ve Maliye Bakanlığı per Resmi Gazete).
 
 - Latest 4-year valuation cycle: **2026–2029**. 2026 increases are now **capped by statute** — Law 7566 (RG 2025-12-19 No. 33112) added **geçici mad. 23** to the Emlak Vergisi Kanunu: 2026 bina/arazi vergi değerleri computed from the new takdir-komisyonu arsa/arazi birim değerleri **may not exceed the 2025 vergi değeri plus twice that amount (3×)** — statutory wording 'iki kat fazlasını geçemez'; Tebliğ 89 example: 2025 value 900,000 TL → 2026 cap 2,700,000 TL; values under the cap apply as computed, with no fixed multiplier (implemented by Emlak Vergisi Genel Tebliğ Seri No 89, RG 2025-12-31 No. 33124 5. mükerrer). 2027–2029 matrahs chain off these capped 2026 values. Note: Law 7566 md 11 also raises the annual uplift in non-takdir years from half to the **full** yeniden değerleme oranı (in force 19 Dec 2025 per the mevzuat.gov.tr consolidated text; it drives the 2027–2029 chain; the President may cut the uplift to zero, EVK Art. 29). Payment: 1st taksit by 31 May, 2nd by 30 Nov. Rates unchanged (see table above). (2026-07-03 verified)
-- Annual yeniden değerleme oranı 2025: **43.93 %** (RG 2024-12-30)
-- Annual yeniden değerleme oranı 2026: **25.49 %** (RG 2025-12-31, No. 33124 5. mükerrer)
+- Yeniden değerleme oranı used for 2025 amounts (set for 2024): **43.93 %** (VUK Genel Tebliği Sıra No 574, RG 2024-11-27 No. 32735)
+- Yeniden değerleme oranı used for 2026 amounts (set for 2025): **25.49 %** (VUK Genel Tebliği Sıra No 585, RG 2025-11-27 No. 33090; the Değerli Konut Vergisi amounts rise by half of it, 12.745 %, per Emlak Vergisi Genel Tebliği Seri No 88)
 
 ### Example calculation
 
-100 m² konut, rayiç bedel 4,000,000 TRY, in **İstanbul (Büyükşehir)**:
+100 m² konut, illustrative emlak vergisi değeri (rayiç bedel) 4,000,000 TRY, in **İstanbul (Büyükşehir)** — computed:
 - Annual Emlak Vergisi = 4,000,000 × 0.002 = **8,000 TRY/yr** (~$171 at 1 USD ≈ 46.7 TRY, 2026-07 rate)
 
-100 m² konut in **Bartın (small belediye, not Büyükşehir)**, rayiç 1,500,000 TRY:
-- Annual Emlak Vergisi = 1,500,000 × 0.001 = **1,500 TRY/yr** (~$32 at ~46.7 TRY/USD, 2026-07 rate)
+100 m² konut in **Bartın (not a Büyükşehir)**, illustrative emlak vergisi değeri (rayiç) 1,500,000 TRY — computed:
+- Annual Emlak Vergisi = 1,500,000 × 0.001 = **1,500 TRY/yr** (computed; ~$32 at 46.67 TRY/USD, TCMB USD selling rate of 1 Jul 2026)
 
 ### Çevre Temizlik Vergisi (Environmental Cleaning / sanitation fee)
 
-- Residential: **flat fee** by water consumption brand (collected via su faturası — water bill); typically 50–500 TRY/yr per household
+- Residential: charged **per m³ of water used** and collected on the su faturası (water bill): **4 TRY/m³ in Büyükşehir belediyeleri, 3 TRY/m³ in other belediyeler, 1.50 TRY/m³ in belediyeler under 5,000 people or in kalkınmada öncelikli yöreler (2026)** (Belediye Gelirleri Kanunu mük. md 44; Genel Tebliğ Seri No 59, RG 2025-12-31)
+- Computed example (illustrative 120 m³ of water a year in a Büyükşehir): 120 × 4 = 480 TRY/yr
 - Commercial: progressive by m² + activity tier
 
 ### High-Value Residential Tax — Değerli Konut Vergisi (since 2020)
 
-For residences with rayiç bedel > **15,709,000 TRY (2025 threshold per GİB Genel Tebliğ Seri No 86)** / **17,711,000 TRY (2026 threshold per GİB rehberi)** (2026-05-27 verified, source [GİB 2026 Değerli Konut Vergisi Rehberi PDF](https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Degerli_Konut_Vergisi_Rehberi.pdf)):
+For residences whose **bina vergi değeri** (the emlak vergisi value, not the market price) exceeds **15,709,000 TRY (2025)** / **17,711,000 TRY (2026; Emlak Vergisi Kanunu Genel Tebliği Seri No 88)** (2026-11-25 verified, source [GİB 2026 Değerli Konut Vergisi Rehberi PDF](https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Degerli_Konut_Vergisi_Rehberi.pdf)):
 
 | Bracket 2026 (TRY rayiç bedel) | Rate |
 |---|---:|
-| 17,711,000 – 26,567,000 | 3.35 ‰ (0.335 %) on excess |
-| 26,567,000 – 35,425,000 | 6.3 ‰ (0.63 %) on excess (+ tier above) |
-| > 35,425,000 | 10 ‰ (1.0 %) on excess (+ tiers above) |
+| 17,711,000 – 26,567,000 | 3 ‰ (binde 3) on the part above 17,711,000 |
+| 26,567,000 – 35,425,000 | 6 ‰ (binde 6) on the part above 26,567,000, plus 26,568 TL for the first tier |
+| > 35,425,000 | 10 ‰ (1.0 %) on the part above 35,425,000, plus 79,716 TL for the tiers below |
 
-(2026 thresholds + rates per GİB Genel Tebliğ Seri No 88 / Emlak Vergisi Kanunu mad. 42; brackets revalued annually by yeniden değerleme oranı; rates expressed in per-mille ‰ in the official tebliğ)
+(2026 threshold per Emlak Vergisi Kanunu Genel Tebliği Seri No 88 / Emlak Vergisi Kanunu mad. 42; rates and tier amounts per mad. 44, in per-mille (binde) in the law; thresholds and tier limits rise each year by half the yeniden değerleme oranı)
 
 ### Transaction tax — Tapu Harcı (Title Deed Transfer Fee)
 
-- **Total: 4 % of declared sale value** (Tapu Harçları Kanunu Ek Tarifesi 4.a)
-- Statutory split: **2 % buyer + 2 % seller**; in practice, **buyer often pays full 4 %** (negotiable)
+- **Total: 4 % of the declared sale value**, which may not be below the emlak vergisi değeri (492 sayılı Harçlar Kanunu, (4) sayılı tarife, 20(a): binde 20 from each party)
+- Statutory split: **2 % buyer + 2 % seller**; in practice the parties often agree that the **buyer pays the full 4 %** (negotiable; curated wisdom from market practice, not statute)
 - Calculated on declared sale value (must be ≥ rayiç bedel — under-declaration triggers GİB audit + ceza)
 - Paid at TKGM Tapu Müdürlüğü on transfer day
 
@@ -167,11 +168,11 @@ For NEW property sold by developer (yapı müteahhidi):
 
 | Property net m² + class | KDV rate |
 |---|---:|
-| Net ≤ 150 m², "lüks olmayan" (non-luxury) in low/mid-cost city | **1 %** |
-| Net ≤ 150 m², standard in metropolitan areas | **10 %** |
-| Net > 150 m² OR "lüks" classification (per arsa birim m² value tier) | **20 %** |
+| Law 6306 urban-transformation project (risky building or risk/reserve area), building permit from 1 Apr 2022 — part of net area up to 150 m² | **1 %** |
+| Standard new build, building permit from 1 Apr 2022 — part of net area up to 150 m² (any location) | **10 %** |
+| Part of net area above 150 m² (permit from 1 Apr 2022); the whole unit if net > 150 m² and the permit predates 1 Apr 2022 | **20 %** |
 
-(2026 rates, source KDV Kanunu mad. 28 + BKK 2007/13033 + 7491 KDV reform Dec 2023; tier definitions revised — verify with developer's current `KDV oranı` declaration)
+(rates per BKK 2007/13033 as amended by CB Kararı 5359 for permits from 1 Apr 2022 and CB Kararı 7346, which raised 8 %/18 % to 10 %/20 % from 10 Jul 2023 — GİB consolidated KDV rate list; units with a building permit from before 1 Apr 2022 keep the old rules: net ≤ 150 m² at 1 % outside büyükşehir and 1 %, 10 % or 20 % inside büyükşehir for luxury or first-class builds by arsa birim m² vergi değeri — verify with the developer's invoice)
 
 **Resale (ikinci el)**: generally KDV exempt unless seller is a registered KDV mükellefi.
 
@@ -182,25 +183,25 @@ Conditions (cumulative):
 2. Property is **first sale** (ilk teslim) — direct from developer or from Turkish citizen who acquired ≥3 years earlier
 3. Property purchase **paid in foreign currency, transferred from abroad** to Turkish bank account (proof: dekont)
 4. Property is **konut (residential) or işyeri (commercial)** — not arsa (land)
-5. **Holding period: minimum 3 years** from acquisition (was 1 year pre-2023; raised by Law 7456 of Jul 2023). Early sale triggers retroactive KDV + ceza + faiz.
+5. **Holding period: minimum 3 years** from acquisition (was 1 year; raised to 3 years by Law 7394 of 8 Apr 2022). Selling within 3 years requires paying the exempted KDV plus tecil faizi (6183 sayılı Kanun md 48) before the tapu transfer; if the conditions were not met, buyer and seller are jointly liable for the KDV, vergi ziyaı cezası and gecikme faizi.
 
-Result: KDV **0 %** on qualifying purchase (saves up to 20 % on luxury new build).
+Result: KDV **0 %** on qualifying purchase (saves the KDV the unit would otherwise carry, up to 20 %: for a konut with a building permit from 1 Apr 2022, 10 % on the part of the net area up to 150 m² and 20 % on the part above; 1 % in Law 6306 urban-transformation projects).
 
 ### Capital gains tax (Değer Artış Kazancı)
 
 - Residential property held **> 5 years**: **EXEMPT** (Gelir Vergisi Kanunu mük. mad. 80)
 - Held ≤ 5 years: gain (sale − indexed acquisition cost − allowable expenses) added to other income; progressive **15–40 %** brackets (2026 non-wage: 15 % to 190k, 20 % to 400k, 27 % to 1M, 35 % to 5.3M, 40 % above — wage-income bands differ, 27 % band runs to 1.5M; GİB Gelir Vergisi Genel Tebliği Seri No 332)
-- Annual istisna for capital gains (other-income): **150,000 TRY (2026)** (was 120,000 in 2025; GİB Tebliğ Seri No 332) — applies to non-residential gains primarily. (2026-07-03 verified)
+- Annual istisna for değer artışı kazancı: **150,000 TRY (2026)** (120,000 in 2025) — it applies to gains on real estate sold within 5 years, per GİB's 2026 guide to declaring real-estate gains. (2026-11-25 verified)
 
 ### Inheritance + gift tax — Veraset ve İntikal Vergisi
 
 - Inheritance progressive **1–10 %**; gift progressive **10–30 %** (Veraset ve İntikal Vergisi Kanunu)
-- Spouse + children istisna: **2,907,136 TL per heir (2026)**; spouse alone, no descendants: **5,817,845 TL (2026)** (Veraset ve İntikal VK Genel Tebliği Seri No 57, RG 2025-12-31 No. 33124 5. mükerrer). Note: 2025 was 2,316,628 TL; the 1,609,552 TL previously shown here as "2025" was the 2024 figure. (2026-07-03 verified)
+- Spouse + children istisna: **2,907,136 TL per heir (2026)**; spouse alone, no descendants: **5,817,845 TL (2026)** (Veraset ve İntikal VK Genel Tebliği Seri No 57, RG 2025-12-31 No. 33124 5. mükerrer); 2025 was 2,316,628 TL per heir. (2026-11-25 verified)
 
 ### Future risk
 
-- **2026–2029 rayiç bedel cycle**: Law 7566 (geçici mad. 23) now caps 2026 increases **statutorily** — the 2026 matrah may not exceed 3× the 2025 vergi değeri (2025 value plus twice that amount; see § base value) — superseding the earlier case-by-case Anayasa Mahkemesi capping. Watch for challenges to the FULL-rate uplift that md 11 introduces for non-takdir years. Source: Resmi Gazete + belediye ilan/notification. (2026-07-03 verified)
-- **KDV on housing** under continual reform pressure (especially the 1 % small-unit rate); verify Resmi Gazete + Hazine Bakanlığı bulletin annually.
+- **2026–2029 rayiç bedel cycle**: Law 7566 (geçici mad. 23) now caps 2026 increases **statutorily** — the 2026 matrah may not exceed 3× the 2025 vergi değeri (2025 value plus twice that amount; see § base value). Watch for challenges to the FULL-rate annual uplift that Law 7566 md 11 introduces for 2027–2029 (EVK md 29 now applies the whole yeniden değerleme oranı, no longer half). Source: Resmi Gazete + belediye ilan/notification. (2026-11-25 verified)
+- **KDV on housing** is set by presidential decree and changes often: the 1 % rate for net ≤ 150 m² units ended for building permits from 1 Apr 2022 (except Law 6306 urban-transformation projects), and the 8 %/18 % rates became 10 %/20 % on 10 Jul 2023 — verify at https://www.gib.gov.tr/ (KDV oranları list) before signing.
 - **Değerli Konut Vergisi** brackets revalued annually — luxury İstanbul buyers should track.
 
 ---
@@ -217,12 +218,12 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 - Applies once across all residential properties combined
 - **Lost** if: (a) total income from all sources exceeds the high-bracket threshold, or (b) rental income not declared by deadline
 
-(2026 threshold per GİB Gelir Vergisi Genel Tebliği Seri No 332, RG 2025-12-31 No. 33124 5. mükerrer; verify GİB annual update. 2026-07-03 verified)
+(2026 threshold per GİB Gelir Vergisi Genel Tebliği Seri No 332, RG 2025-12-31 No. 33124 5. mükerrer; verify GİB annual update. 2026-11-25 verified)
 
 #### Rent-increase cap (Türk Borçlar Kanunu mad. 344)
 
-- Annual rent increases on existing residential leases are capped at the **12-month-average TÜFE** (CPI). The temporary 25 % ceiling (in force 2022 → 30 Jun 2024) **expired 1 Jul 2024**; the cap reverted to the TBK mad. 344 12-month-average TÜFE ceiling.
-- **June 2026 legal ceiling: 32.24 %** (TÜİK 12-month-average TÜFE) — the applicable ceiling resets monthly; verify the renewal month's TÜFE 12-month average. (2026-07-03 verified)
+- Annual rent increases on existing residential leases are capped at the **12-month-average TÜFE** (CPI). The temporary 25 % ceiling (TBK geçici md. 1–2, added by Laws 7409 and 7456) covered renewal periods from June 2022 up to and including **1 Jul 2024**; from 2 Jul 2024 the cap reverted to the TBK mad. 344 12-month-average TÜFE ceiling.
+- **October 2026 legal ceiling: 31.23 %** (12-month-average TÜFE from TÜİK's Oct-2026 CPI bulletin, as reported by Alomaliye — secondary; TÜİK's own Aug-2026 bulletin gave 31.79 %) — the applicable ceiling resets monthly; verify the renewal month's TÜFE 12-month average at `https://veriportali.tuik.gov.tr/`. (2026-11-25 checked)
 
 #### Cost methods (must be uniform across all GMSİ)
 
@@ -239,7 +240,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 | 1,000,001 – 5,300,000 | 35 % |
 | > 5,300,000 | 40 % |
 
-(2026 non-wage/GMSİ brackets per GİB Gelir Vergisi Genel Tebliği Seri No 332; revalued annually by yeniden değerleme oranı. **Wage-income upper bands differ** — the 27 % band runs to 1,500,000 and the 35 % band 1,500,000–5,300,000. 2026-07-03 verified)
+(2026 non-wage/GMSİ brackets per GİB Gelir Vergisi Genel Tebliği Seri No 332; revalued annually by yeniden değerleme oranı. **Wage-income upper bands differ** — the 27 % band runs to 1,500,000 and the 35 % band 1,500,000–5,300,000. 2026-11-25 verified)
 
 #### Non-resident foreign owner
 
@@ -249,11 +250,11 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 ### Short-term rentals (gunluk konut kiralama / Airbnb / Booking)
 
-**Status as of 2026: heavily regulated. Law 7464 enforcement now mature.**
+**Status as of 2026: permit-only regime.** Law 7464's permit rules have applied since 1 Jan 2024, and KTB provincial directorates publish the 2026 fine amounts (180,617–1,806,177 TRY).
 
-#### Law 7464 (Konutların Turizm Amaçlı Kiralanmasına Dair Kanun)
+#### Law 7464 (Konutların Turizm Amaçlı Kiralanmasına ve Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun)
 
-- Published Resmi Gazete **2 Nov 2023**, effective **1 Jan 2024**: `https://www.resmigazete.gov.tr/eskiler/2023/11/20231102-1.htm`
+- Published Resmi Gazete **2 Nov 2023** (No. 32357); its short-term-rental articles (mad. 1–6) in force **1 Jan 2024**: `https://www.resmigazete.gov.tr/eskiler/2023/11/20231102-16.htm`
 - Implementing regulation (Yönetmelik): RG 28 Dec 2023
 - **Definition**: konut kiralama for ≤ 100 nights consecutively to same tenant for tourism purposes
 - **Mandatory İzin Belgesi** (Turizm Amaçlı Kiralanan Konut İzin Belgesi) issued by **Kültür ve Turizm Bakanlığı** via e-Devlet
@@ -262,18 +263,18 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 #### Conditions for İzin Belgesi
 
 1. Building "kat malikleri kurulu" (apartment owners' assembly) **unanimous consent** in writing — single objection blocks the permit
-2. Maximum **25 % of units** in any one apartment block can be turism amaçlı (some local exemptions for blocks built after 2023 designed for it)
+2. In buildings with more than three units, at most **25 % of the units** can be permitted to the **same owner** (kiraya veren); more than five units for one owner in one building also needs an işyeri açma ve çalışma ruhsatı (Law 7464 mad. 3(4)). Serviced high-end residences (yüksek nitelikli konutlar: reception, security and daily cleaning, with short lets allowed in the building's yönetim planı) are exempt from this cap and from the unanimous-consent rule above (mad. 3)
 3. Turkish citizen or registered legal entity as license holder (foreign owners use TR-resident company or attorney)
 4. Building must have **iskan (Yapı Kullanma İzin Belgesi)** — no permit on kat irtifakı stage
 
-#### Penalties (Law 7464 mad. 5)
+#### Penalties (Law 7464 mad. 4)
 
 | Violation | Fine (TRY) |
 |---|---:|
-| Operating without İzin Belgesi — **3-stage progressive ladder** (NOT discretionary range) | Statutory base **Stage 1: 100,000 TRY/property + 15-gün süre to obtain permit; Stage 2 (still no permit): 500,000 TRY/property + 15-gün süre; Stage 3 (continued violation): 1,000,000 TRY/property** (2026-05-27 verified, source [Lexpera Law 7464 consolidated text Mad. 4 §1(a-e)](https://www.lexpera.com.tr/mevzuat/kanunlar/konutlarin-turizm-amacli-kiralanmasina-ve-bazi-kanunlarda-degisiklik-yapilmasina-dair-kanun-7464)). **Base fines are revalued annually by yeniden değerleme oranı — 2026 applied amounts are 180,617 / 903,088 / 1,806,177 TRY per property** (uniform ×1.80617 factor; new figures land each January) (2026-07-02 verified, source [KTB Denizli İl Kültür ve Turizm Müdürlüğü 2026 idari para cezaları](https://denizli.ktb.gov.tr/TR-437107/turizm-amacli-kiralanan-konutlara-iliskin-mevzuat-hakki-.html) + Kaymakamlık ceza duyurusu) |
-| Misleading property description (konum/nitelik/fiziksel özellikler) | **100,000 TRY** separate |
+| Operating without İzin Belgesi — **3-stage progressive ladder** (NOT discretionary range) | Statutory base **Stage 1: 100,000 TRY/property + 15-gün süre to obtain permit; Stage 2 (still no permit): 500,000 TRY/property + 15-gün süre; Stage 3 (continued violation): 1,000,000 TRY** (Law 7464 mad. 4(1)(a), (b) and (f); [consolidated text](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.7464.pdf), 2026-11-25 verified). **Base fines are revalued annually by yeniden değerleme oranı — 2026 applied amounts are 180,617 / 903,088 / 1,806,177 TRY** (about ×1.806, rounded down; new figures land each January) (2026-11-25 verified, source [KTB Sakarya İl Kültür ve Turizm Müdürlüğü](https://sakarya.ktb.gov.tr/TR-362923/turizm-amacli-konut-ve-basvurulari.html)) |
+| Misleading property description (konum/nitelik/fiziksel özellikler) | **100,000 TRY** statutory base, permit holders (mad. 4(2)(ç)); the 2026 revalued amount is not on the KTB pages checked — the other bases rose by about ×1.806 |
 | Listing on platform without permit | **100,000 per property + access blocking after 24h notice** |
-| Provisional permit lapse (post 31 Dec 2024 transition) | sanctions began Jan 2025 |
+| Existing operators who missed the transition (geçici md. 1: apply within one month of 1 Jan 2024; applications decided within three months) | mad. 4 fines apply; rejected applicants must stop, though current guests' contracts run to term |
 | Failure to remove unlicensed listing within 24h after Bakanlık notice | platform fine + listing removal |
 
 #### Hosts on platforms (Airbnb, Booking)
@@ -284,9 +285,9 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 #### Tax regime for short-term rental income
 
-- **If Turkish-tax-resident**: rental income is "ticari kazanç" (commercial earnings) per Danıştay 2024 ruling — NOT GMSİ. Triggers Bağ-Kur (social security) registration; defter tutma; KDV mükellefi if revenue threshold; dafarbey gelir vergisi 15–40 %.
+- **If Turkish-tax-resident**: GİB's Genel Yazı No. 7877 of 24 Jan 2025 treated short-term letting as ticari kazanç (commercial earnings, with KDV), but the Danıştay suspended it (3rd Chamber, 27 Oct 2025; 3rd and 7th Chambers jointly, 8 Apr 2026; GİB's objection rejected 29 Jun 2026): without a hotel-style commercial organisation the income stays GMSİ and no konaklama vergisi is due. No ruling on the merits was found as of 18 Nov 2026 (Alomaliye, secondary) — confirm the current position with a mali müşavir.
 - **Non-resident foreign owner**: still GMSİ-eligible per practice; verify with mali müşavir.
-- **Konaklama Vergisi** (accommodation tax, since 1 Jan 2023): **2 %** of accommodation revenue — collected by host, declared monthly to GİB
+- **Konaklama Vergisi** (accommodation tax, since 1 Jan 2023): **2 %** of accommodation revenue in the law, cut to **1 % from 1 May to 31 Dec 2026** (CBK 11263, RG 1 May 2026), back to 2 % from 2027 unless a new decision extends it; declared monthly. Under the Danıştay stay above, letting a dwelling without a commercial organisation is not subject.
 
 ### Strategic notes
 
@@ -309,15 +310,15 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 ### Self-employment regimes
 
 - **Şahıs Şirketi** (sole proprietorship) — simplest, registered at vergi dairesi; basit usul or gerçek usul gelir vergisi
-  - Basit usul: cap on revenue (~3.4M TRY 2025); 15 % flat-ish; no defter tutma but yıl sonu defter beyan
+  - Basit usul (small traders): 2026 limits — annual purchases ≤ 1,200,000 TRY or sales ≤ 1,900,000 TRY (trading), gross receipts ≤ 600,000 TRY (services), workplace rent ≤ 99,000 TRY/yr inside büyükşehir limits (60,000 elsewhere); the business profit (ticari kazanç) is exempt from income tax (GVK mükerrer 20/A, Law 7338); records kept through the Defter-Beyan Sistemi
   - Gerçek usul: full ledger; brackets 15–40 %
-- **Limited Şirket (Ltd. Şti.)** — corporate, 50,000 TRY minimum capital (2025 floor); kurumlar vergisi **25 %** (30 % for finance; revalued); kar dağıtımı stopaj 10 %
+- **Limited Şirket (Ltd. Şti.)** — corporate, 50,000 TRY minimum capital (since 1 Jan 2024, CBK 7887); kurumlar vergisi **25 %** (30 % for banks, finance, insurance and similar firms, KVK mad. 32); kâr payı stopajı **15 %** (raised from 10 % on 22 Dec 2024, CBK 9286)
 - **Anonim Şirket (A.Ş.)** — joint stock, 250,000 TRY minimum; same kurumlar vergisi
-- **Bağ-Kur (4-b SGK)** social security: mandatory for self-employed; 2025 monthly minimum ~6,500 TRY contribution
+- **Bağ-Kur (4/1-b SGK)** social security: mandatory for self-employed; 2026 monthly minimum **11,808.23 TRY** (10,156.73 TRY with the 5-point discount for those who pay on time), on the 33,030 TRY minimum earnings base
 
 ### Salaried benchmarks (2025 brüt avg)
 
-- **Asgari ücret 2026 (minimum wage)**: **33,030.00 TRY/ay brüt** (net ~28,075.50 TRY, günlük brüt 1,101.00 TRY) — **+27 %** vs 2025 (22,104.67 brüt); Asgari Ücret Tespit Komisyonu Kararı, effective 1 Jan 2026 (RG Aralık 2025). 2026-07-03 verified.
+- **Asgari ücret 2026 (minimum wage)**: **33,030.00 TRY/ay brüt** (net 28,075.50 TRY, günlük brüt 1,101.00 TRY) — **+27 %** vs 2025 (26,005.50 brüt / 22,104.67 net); Asgari Ücret Tespit Komisyonu Kararı, effective 1 Jan 2026 (RG 26 Dec 2025 No. 33119). 2026-11-25 verified.
 - **Median brüt 2025**: data not publicly available — verify TÜİK Hanehalkı İşgücü Anketi
 - **İstanbul beyaz yaka median**: est. 50,000–80,000 TRY/ay (mid-career, white-collar sectors)
 - **IT/finance senior İstanbul**: est. 100,000–250,000 TRY/ay; FX-indexed comp common
@@ -368,8 +369,8 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 | **1998 (DBYBHY-98) post-Marmara prep** | Updated post-Erzincan; still inadequate vs Marmara 1999 reality |
 | **1999 Marmara M7.6** | ~17,000 deaths — code revised 2007 (DBYBHY-2007) |
 | **2007 (DBYBHY-2007)** | Improved but still using 1996 hazard map; widespread non-compliance |
-| **2018 (TBDY-2018 — RG 18 Mar 2018 No. 30364 mükerrer, in force 1 Jan 2019)** | Site-specific spectra, modern hazard map, tall-building + base-isolation provisions; **the watershed code** — still the effective baseline, no successor code enacted (re-confirmed on AFAD's own page, 2026-08-07) |
-| **Post-2023 Kahramanmaraş** | Yapı denetim tightening, "kentsel dönüşüm" (urban transformation) acceleration via Law 6306 |
+| **2018 (TBDY-2018 — RG 18 Mar 2018 No. 30364 mükerrer, in force 1 Jan 2019)** | Site-specific spectra, modern hazard map, tall-building + base-isolation provisions; **the watershed code** and the current baseline (AFAD's TBDY page, 2026-11-25 checked: published 18 Mar 2018, in force 1 Jan 2019) |
+| **Post-2023 Kahramanmaraş** | "kentsel dönüşüm" (urban transformation) accelerated by Law 7471 (RG 9 Nov 2023 No. 32364), which amended Law 6306: decisions now need a simple majority of shares (was two-thirds), and the Ministry's powers under the law passed to the Kentsel Dönüşüm Başkanlığı |
 
 **Practical rule**: pre-1999 buildings in seismic zones = high risk unless visibly güçlendirme (retrofit/strengthening) certified; post-2018 buildings designed to TBDY-2018 are substantially safer (subject to actual construction quality — verify yapı denetim raporu).
 
@@ -380,12 +381,12 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 | **Tapu Senedi (deed)** | Always — TKGM verifies ownership + encumbrances | Web Tapu allows e-verification |
 | **DASK Poliçesi (earthquake insurance)** | Mandatory for residential (Zorunlu Deprem Sigortası) — still compulsory, enforced at electricity/water subscription and tapu/konut-kredisi checkpoints (2026-08-07 verified) | See cost block below; 2026 tariff live and ÜFE-indexed monthly |
 | **Yapı Kullanma İzin Belgesi (iskan)** | Confirms building completed + permit-compliant | Older buildings may lack — flag |
-| **Enerji Kimlik Belgesi (EKB)** | Mandatory at sale + rental since **1 Jan 2020** (was scheduled 2 May 2017, postponed) per Enerji Verimliliği Kanunu | 10-year validity; classes A–G |
+| **Enerji Kimlik Belgesi (EKB)** | Required in sale and rental transactions since **1 Jan 2020** — BEP Yönetmeliği mad. 25(15), deferred to that date by geçici md. 5 (RG 28 Apr 2017); existing buildings originally had ten years from the Enerji Verimliliği Kanunu (RG 2 May 2007), i.e. to 2 May 2017, to get one | 10-year validity; classes A–G |
 | **İmar Durumu Belgesi** | Issued by belediye — confirms zoning + permitted use | Needed if buyer plans extension |
 | **Kat Mülkiyeti vs Kat İrtifakı** | Tapu type — see Quirks | Pre-iskan → kat irtifakı |
 | **Site/Apartman Aidat Borcu Yoktur Yazısı** | If kat mülkiyetli site/apartman | At signing |
 
-**EKB penalty**: sale/rental forbidden without EKB since 1 Jan 2020 — but enforcement varies; buyer should insist.
+**EKB at sale**: the owner must give the buyer or tenant a copy (BEP Yönetmeliği mad. 25(15)); do not count on the tapu office to check it — buyer should insist.
 
 ### Climate change projections
 
@@ -442,16 +443,16 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 |---|---:|
 | **DASK** (100 m² betonarme) | **~830–3,200/yr** by risk zone — computed: insured sum 1,135,700 (100 m² × 11,357 TL/m², 01.07.2026 birim) × zone rate 0.73–2.82‰; high-hazard Marmara/İstanbul at upper end (verify per address via dask.gov.tr adres kodu lookup; before renewal discounts). 2026-07-03 verified |
 | **DASK** (200 m² betonarme) | **~1,660–6,400/yr** (same method; insured sum 2,271,400 TL) |
-| **DASK azami teminat (July 2026)** | up to **2,407,723 TRY** total cover per policy — revalued **monthly** at TÜİK ÜFE (per DASK tarife; 01.01.2026 was 2,095,462; verify indexation start date at dask.gov.tr); betonarme birim ~11,357 TRY/m² (01.07.2026). 2026-07-03 verified |
-| **Avukat / hukuki danışman** (transaction lawyer) | 1–3 % of price (negotiable) |
+| **DASK azami teminat (Nov 2026)** | up to **2,605,100 TRY** total cover per policy (from 01.11.2026; 2,648,084 from 01.12.2026) — revalued **monthly** by TÜİK Yİ-ÜFE since 1 Jan 2024 (DASK tarife; 01.01.2026 was 2,095,462, 01.07.2026 was 2,407,723); betonarme birim 12,288 TRY/m² (01.11.2026; 11,357 on 01.07.2026). 2026-11-25 verified |
+| **Avukat / hukuki danışman** (transaction lawyer) | ~1–3 % of price est. (negotiable; market practice, not a legal tariff — calibration: the range foreign-buyer guides quote, no official survey of conveyancing fees was found; minimum fees: yearly Avukatlık Asgari Ücret Tarifesi, verify at https://www.barobirlik.org.tr/) |
 | **Tapu Harcı total** | 4 % of declared sale value |
 | **Tercüman (sworn translator)** for foreign buyer at TKGM | 2,000–5,000/transaction |
 | **EKB (Enerji Kimlik Belgesi)** for rodun tip residential | 500–2,500 |
-| **Yapı Denetim raporu** (for newbuilds) | 1–4 % of construction cost (statutory) |
+| **Yapı denetim hizmet bedeli** (newbuilds; agreed in the owner's yapı denetimi contract) | 1.75 % of approximate construction cost up to 1,000 m² built area, 1.5 % up to 50,000 m², 1.25 % above; up to 3.5 % for jobs not assigned electronically (Law 4708 md 5) |
 | **Bağımsız değerleme raporu** (SPK-licensed valuation, mandatory for CBI) | 5,000–25,000 depending on property |
 | **Notary (noter)** for satış vaadi sözleşmesi (preliminary contract) | 1,500–8,000 |
 | **Konut sigortası** (full home insurance, optional) | 2,000–10,000/yr per 100 m² |
-| **Total transaction cost (foreign buyer side)** | **~5–8 % of price** (Tapu Harcı + lawyer + valuation + translator) |
+| **Total transaction cost (foreign buyer side)** | **~5–8 % of price est.** when the buyer pays the full 4 % Tapu Harcı (4 % + lawyer 1–3 % + valuation 5,000–25,000 + translator 2,000–5,000 TRY, about 0.2–0.8 % of a 4,000,000 TRY home); **~3–6 % est.** if the 2 % / 2 % statutory split holds. Calibration: built from the rows above, not from a survey |
 
 (2025–2026 estimates; verify current quotes — TRY inflation rapidly outdates these)
 
@@ -483,7 +484,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 - **TBDY 2018 is the building-quality watershed**: post-2019 in-force = substantially safer in design; pre-1999 = high risk unless retrofit-certified.
 - **Post-Kahramanmaraş 2023 regulatory tightening**: yapı denetim audits, DASK enforcement, kentsel dönüşüm acceleration via Law 6306 — buyers should expect more scrutiny on older buildings.
 - **Web Tapu enables online deed transfer** (since 2018) but in-person at TKGM Tapu Müdürlüğü still standard for foreigners + transactions involving foreign currency.
-- **KDV exemption for foreign first-time buyers** has strict conditions: (a) FX bring-in proof via dekont, (b) 3-year holding period (raised from 1 year July 2023), (c) first-sale (ilk teslim) only, (d) buyer non-resident.
+- **KDV exemption for foreign first-time buyers** has strict conditions: (a) FX bring-in proof via dekont, (b) 3-year holding period (raised from 1 year by Law 7394 of 8 Apr 2022), (c) first-sale (ilk teslim) only, (d) buyer non-resident.
 - **Foreign-buyer 30-hectare cap nationwide per individual** (Tapu Kanunu mad. 35); plus military restricted zones (verify with Genelkurmay confirmation via TKGM).
 - **Reciprocity list** (~183 countries permitted): some nationalities (e.g., Syria, Armenia, North Korea, Cuba) restricted; verify current list with TKGM + İçişleri Bakanlığı.
 - **Kat irtifakı vs kat mülkiyeti** — buying a unit on kat irtifakı (pre-iskan) means the building lacks final occupancy permit; bank financing limited; resale risk; insist on iskan before close.
@@ -571,6 +572,13 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 
 **Last verified**: 2026-08-07 (§ --risks re-verified — Kahramanmaraş magnitudes corrected to the AFAD official pair Mw 7.7 + Mw 7.6, TBDY 2018 confirmed as the current code with no successor enacted, DASK compulsory-cover checkpoints confirmed; balance of the 2026-07-03 Tier-A quarterly refresh unchanged). Macro tracker entries re-checked 2026-09-24 in the October regwatch wave (see shared/regulatory-watch.md). Starlink (connectivity), Kahramanmaraş (risks), Emlak Vergisi 2026 status (tax) and CBI threshold (visa) tracker entries re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
+### Per-section verification (overrides playbook-level date)
+
+| Section | Last verified | Verifier | Notes |
+|---|---|---|---|
+| `--mains` | 2026-11-25 | 2026-11-25 maintenance run | Every figure re-read on its recorded source, or the source unchanged. |
+| Cost benchmarks (TR 2026) | 2026-11-25 | 2026-11-25 maintenance run | DASK cover now 2,605,100 TL (November 2026, DASK tariff page); yapı denetim fees follow Law 4708 md 5; lawyer and total transaction costs are estimates built from the table's rows. |
+
 ## Extension TODOs (deepen on first real run)
 
 - [ ] Per-Büyükşehir Emlak Vergisi rayiç bedel revaluation (2026–2029 cycle) — capture per-belediye new declared values
@@ -580,3 +588,7 @@ Gelir Vergisi Kanunu §70–74. Tax declared via annual Gelir Vergisi Beyannames
 - [ ] Post-Kahramanmaraş kentsel dönüşüm (Law 6306) per-il subsidy + risk-building list
 - [ ] Yabancı uyruklu (foreign-buyer) transaction stats per il (TÜİK quarterly)
 - [ ] DASK premium calculator integration for parcel-level estimate (gross m² × construction class × city-zone)
+
+## Update history
+
+- **2026-11-25** — Maintenance run: closed `--mains`, Cost benchmarks (TR 2026); still open `--price`, `--tax`, `--rental`, `--work=<profession>`, `--risks`.
