@@ -204,7 +204,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 4. PH (~10% — CGT 6% gross + DST 1.5% + transfer + LTT)
 5. IL (~10-13% non-resident all-in est. per il/playbook.md, driven by 8-10% Mas Rechisha — a temporary provision extended to purchases up to and including 10 Feb 2027)
 6. AT (~10-12%)
-7. GR (~10-12%; watch — BILL TABLED, NOT LEGISLATED (90th-TIF bill, Nov 2026): FMA 3.09% → 15.45% on homes bought by natural persons tax-resident outside the EU/EEA, art. 42 first-home beneficiaries excepted, from 1 Jul 2027 per the bill — see GR playbook)
+7. GR (~10-12%; watch — ENACTED, Law 5355/2026 art. 16: FMA 3.09% → 15.45% on homes bought by natural persons tax-resident outside the EU/EEA, art. 42 first-home beneficiaries excepted, on final contracts from 1 Jul 2027 — see GR playbook)
 8. UK (~10-15% with SDLT non-res surcharge)
 9. UY (~7-9%)
 10. ZA (~7-9% transfer duty tiered)
