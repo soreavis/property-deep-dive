@@ -177,7 +177,7 @@ When unresolvable: surface both, let buyer verify in person.
 | 🇸🇮 | `https://ipi.eprostor.gov.si/jv/` (free) |
 | 🇮🇪 | `https://tailte.ie/` Land Registry / Registry of Deeds |
 | 🇬🇧 | `https://search-property-information.service.gov.uk/` |
-| 🇳🇱 | `https://www.kadaster.nl/` (€2.95 per inzage) |
+| 🇳🇱 | `https://www.kadaster.nl/` (€3.70 per inzage) |
 | 🇧🇪 | `https://finances.belgium.be/fr/particuliers/habitation/cadastre` |
 | 🇨🇿 | `https://nahlizenidokn.cuzk.cz/` (free) |
 | 🇸🇰 | `https://zbgis.skgeodesy.sk/mapka/sk/kataster` (free, ÚGKK cadastre map viewer) |

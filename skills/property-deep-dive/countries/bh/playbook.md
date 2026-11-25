@@ -20,7 +20,7 @@ ISO2: `bh`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Title Deed (Wathiqat Mulkiyya — وثيقة ملكية)** — issued by SLRB at registration; bears Parcel No. + Block No. + Governorate
   - **Sale and Purchase Agreement (SPA)** — pre-registration binding; for off-plan sales the developer provides a RERA-registered interim allocation document until final Title Deed at handover
   - **CPR (Central Population Register)** — Bahrain national/resident ID — required for any registration; expats need a valid CPR
-- **Population**: ~1.49 M (2024 — Information & eGovernment Authority `https://www.iga.gov.bh/`); ~52% Bahraini nationals + ~48% expatriates (Indian + Pakistani + Bangladeshi + Filipino + Egyptian + GCC largest expat communities, per IGA Census 2020 + 2024 bulletins)
+- **Population**: ~1.59 M (2024 — 1,588,670 per the [Bahrain National Portal facts page](https://www.bahrain.bh/wps/portal/en/!ut/p/z0/fYy7DoJAEAB_5RrqPTEClj4S0UJMLMRrzAILnOAej8X4-dLYWs5kMmAgBcP4thWKdYztzHcTPBbHlY6jndbx-bLXQRJHoR9ul8nahysxnMD8j-aLffa92YDJHQt9BNKMuwexpzFzkyipSTWWq8K9firDekA7FwO1KFQocZ3NR0-XmMuokAtV2moaaISuOdy-NcQ8qw!!); Information & eGovernment Authority `https://www.iga.gov.bh/`); ~47% Bahraini nationals + ~53% expatriates (Indian + Pakistani + Bangladeshi + Filipino + Egyptian + GCC largest expat communities, per IGA Census 2020 + 2024 bulletins)
 - **Recent reforms** (12-month watchlist):
   - **Legislative Decree No. 2 of 2001 + Legislative Decree No. 43 of 2003** (amended by Edicts 67/2006 + 38/2023) — primary foreign-freehold statutes (NOT Law 27/2017, which is the real-estate-sector regulator) (2026-05-27 verified, source Baker McKenzie + Manal Dhahi Legal Consultants)
   - **Legislative Decree No. 40/1999** — Ownership of GCC Nationals of Constructed Property and Land — grants GCC nationals near-Bahraini-national treatment
@@ -325,7 +325,7 @@ OSM `highway` class:
 - **Municipal Tax 7–10% on rental income** is a Bahrain-specific drag vs Qatar/UAE — bake into NET model
 - **Building OA approval** for STR is the single biggest gate — confirm BEFORE buying if STR is the strategy
 - **PIT = 0%** in Bahrain — but US/UK/EU tax residents will face their own home-country tax on Bahrain rental income (Bahrain's DTA network is mid-sized — 45+ DTAs, including UK, France, Singapore, China, India; check yours)
-- **Tenant pool**: ~48% of population is expatriate, mobile (1–3 year contracts common, tied to employment); Juffair + Amwaj + Seef + Saar are core expat catchments; US-naval-base community concentrated in Juffair
+- **Tenant pool**: ~53% of population is expatriate, mobile (1–3 year contracts common, tied to employment); Juffair + Amwaj + Seef + Saar are core expat catchments; US-naval-base community concentrated in Juffair
 
 ---
 

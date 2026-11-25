@@ -637,7 +637,7 @@ Peru has 28 of the 32 Holdridge life zones — extreme heterogeneity:
 ### Rate history + outlook
 
 - **PEN/USD 2020-2026 range**: ~3.30 (2020 floor) → 4.10 (2021-2022 peak post-elections) → ~3.50-3.85 (2024-2026 stabilizing).
-- **BCRP policy rate**: peaked 7.75 % in 2023; cut sequentially to ~5.50 % by Q4 2025 (verify current at `https://www.bcrp.gob.pe/`).
+- **BCRP policy rate**: peaked 7.75 % in 2023; cut sequentially to ~4.25 % by Q4 2025 (verify current at `https://www.bcrp.gob.pe/`).
 - **Inflation target**: 1-3 % per BCRP charter; 2024-2025 within band post-2022-23 spike.
 
 ### For property buyers
@@ -875,7 +875,7 @@ Peru as of 2026-05 has **no dedicated digital-nomad visa** comparable to Portuga
 - **GDP growth 2024**: ~2.8 % (BCRP / INEI estadísticas anuales) — recovering from 2023 contraction (-0.6 %) post-political-crisis 2022-23.
 - **GDP growth 2025 est.**: ~2.5-3.5 % (BCRP Reporte de Inflación Q4 2025 — verify current).
 - **Inflation (IPC Lima Metro)**: ~2.0-2.5 % YoY 2025 (within BCRP 1-3 % target).
-- **BCRP policy rate**: ~5.50 % (Q4 2025 — verify monthly Programa Monetario `https://www.bcrp.gob.pe/`).
+- **BCRP policy rate**: ~4.25 % (Q4 2025 — verify monthly Programa Monetario `https://www.bcrp.gob.pe/`).
 - **Unemployment (urbano)**: ~6-7 % INEI ENAHO; informal employment ~70 %.
 - **PEN/USD**: ~3.50-3.85 range Q4 2025.
 - **Soberano risk (EMBI+ Peru)**: ~150-200 bps over US Treasury (verify daily).

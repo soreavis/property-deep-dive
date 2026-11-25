@@ -186,7 +186,7 @@ For each country, primary macro sources:
 | **BNM (Moldova)** | 6.50% est. | hold/easing trajectory post-2022 inflation peak — verify next BNM MPC https://www.bnm.md |
 | **QCB (Qatar)** | 4.60% (QMR lending rate; QMR deposit 4.10%, repo 4.35% — each +25 bp, effective 17 Sep 2026 per the QCB policy-rate panel, after the [QCB MPC resolution of 16 Sep 2026](https://www.qcb.gov.qa/en/News/Pages/16sep2026.aspx)) | Fed-bound via QAR/USD peg 3.64 since 2001 (2026-10-23 verified, qcb.gov.qa) |
 | **SAMA (Saudi Arabia)** | ~5.50% est. (SAMA Repo) | Fed-bound via SAR/USD peg 3.75 since 1986 — verify https://www.sama.gov.sa |
-| **BCRP (Peru)** | ~4.50% est. | mid-cycle cuts from 7.75% peak (2023) — verify https://www.bcrp.gob.pe |
+| **BCRP (Peru)** | ~4.25% est. | mid-cycle cuts from 7.75% peak (2023) — verify https://www.bcrp.gob.pe |
 | **BCE (Ecuador)** | n/a (USD adopted Sep 2000) | Fed-bound; no monetary independence — verify https://www.bce.fin.ec |
 | **BCP (Paraguay)** | ~6.00% est. | hold; CPI ~4% Q1 2026 — verify https://www.bcp.gov.py |
 | **CBA (Armenia)** | ~7.00% est. | gradual cuts as CPI near target — verify https://www.cba.am |
@@ -385,7 +385,7 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - EC (USD adopted Sep 2000 — Fed-bound, no monetary independence)
 
 ### Recovery / cutting (additional Tier-4)
-- PE (BCRP ~4.50% mid-cycle cuts from 7.75% peak 2023)
+- PE (BCRP ~4.25% mid-cycle cuts from 7.75% peak 2023)
 - PY (BCP ~6.00% hold)
 
 ### Tier-5 additions (2026-05-01)
@@ -527,7 +527,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **SA** — CPI ~2.0% est. (Q1 2026 — verify GASTAT https://www.stats.gov.sa); GDP ~3-4% (2025 est. — non-oil sector growing under Vision 2030 mega-projects: NEOM, Diriyah, Red Sea, Riyadh expansion); SAMA Repo ~5.50% est. (Fed-bound via SAR/USD peg 3.75 since 1986 — verify https://www.sama.gov.sa); 10y SAR ~5%; USD eurobonds ~UST + 50-80 bps; A-rated. Macro flag: **stable / pegged via USD**, Vision 2030 mega-project capex driving Riyadh + Jeddah + Eastern Province; aridification + extreme heat (50°C+) infra-stress.
 
-**PE** — CPI ~2.5% est. (Q1 2026 — within BCRP 1-3% target; verify INEI https://www.inei.gob.pe); GDP ~3% (2025 est. — recovery post-2023 contraction); BCRP ~4.50% est. (mid-cycle cuts from 7.75% peak 2023 — verify https://www.bcrp.gob.pe); 10y PEN ~6.50%; USD eurobonds ~5-6%; BBB-rated. Macro flag: **cutting cycle**, IG-rated, Pacific Ring of Fire seismic + Andean glacier retreat physical-risk overlay.
+**PE** — CPI ~2.5% est. (Q1 2026 — within BCRP 1-3% target; verify INEI https://www.inei.gob.pe); GDP ~3% (2025 est. — recovery post-2023 contraction); BCRP ~4.25% est. (mid-cycle cuts from 7.75% peak 2023 — verify https://www.bcrp.gob.pe); 10y PEN ~6.50%; USD eurobonds ~5-6%; BBB-rated. Macro flag: **cutting cycle**, IG-rated, Pacific Ring of Fire seismic + Andean glacier retreat physical-risk overlay.
 
 **EC** — CPI ~1.5% est. (Q1 2026 — USD-dollarized low-CPI regime; verify INEC https://www.ecuadorencifras.gob.ec); GDP ~1-2% (2025 est. — security-crisis + drought-driven energy rationing 2024); BCE n/a (USD adopted Sep 2000 — Fed-bound, no monetary independence); 10y USD eurobonds ~9% est., distressed-trading post-2024 default proximity — verify; B-/CCC. Macro flag: **USD-dollarized, sovereign-distress** — 2024 violent-crime peak Guayaquil/Esmeraldas/Manta + Cotopaxi/Tungurahua/Reventador volcanic + INOCAR tsunami coastal exposure.
 
@@ -549,9 +549,9 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **JO** — CPI ~2.5% est. (Q1 2026 — pegged regime low CPI; verify DOS https://dosweb.dos.gov.jo/); GDP ~2-3% (2025 est. — IMF EFF on track + tourism recovery despite regional war); CBJ main policy rate 6.00% from 21 Sep 2026 (+25 bp, CBJ Open Market Operations Committee; Fed-bound via JOD/USD peg 0.7080 since 1995 — https://www.cbj.gov.jo); 10y JOD ~5.50%; USD eurobonds ~6-7%; BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~11.4M pop (2024 DOS estimate including refugees); among most water-poor globally — Disi+Red-Dead project; aridification + Dead Sea declining 1m/yr; Vision 2025/2033.
 
-**OM** — CPI ~1.5% est. (Q1 2026 — pegged regime; verify NCSI https://www.ncsi.gov.om); GDP ~1-2% (2025 est. — hydrocarbon-driven, Vision 2040 diversification); CBO ~5.50% est. (Fed-bound via OMR/USD peg 0.385 since 1986 — verify https://cbo.gov.om); 10y OMR not actively traded; USD eurobonds ~UST + 70-100 bps; BB+ rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~5.0M pop (NCSI 2024); cyclone exposure HIGH — Gonu 2007/Mekunu 2018/Shaheen 2021 catastrophic Muscat; Khareef monsoon Salalah Jul-Sep; Vision 2040.
+**OM** — CPI ~1.5% est. (Q1 2026 — pegged regime; verify NCSI https://www.ncsi.gov.om); GDP ~1-2% (2025 est. — hydrocarbon-driven, Vision 2040 diversification); CBO ~5.50% est. (Fed-bound via OMR/USD peg 0.385 since 1986 — verify https://cbo.gov.om); 10y OMR not actively traded; USD eurobonds ~UST + 70-100 bps; BB+ rated. Macro flag: **stable / pegged via USD**, NO FX risk; ~5.2M pop (NCSI 2024); cyclone exposure HIGH — Gonu 2007/Mekunu 2018/Shaheen 2021 catastrophic Muscat; Khareef monsoon Salalah Jul-Sep; Vision 2040.
 
-**BH** — CPI ~2.0% est. (Q1 2026 — pegged regime; verify iGA https://www.iga.gov.bh); GDP ~2-3% (2025 est. — financial-services + manufacturing); CBB 1-week deposit 4.75% (CBB daily rates 22 Oct 2026; Fed-bound via BHD/USD peg 0.376 since 2001 — https://www.cbb.gov.bh/facilities-interest-rates/); 10y BHD ~5.80%; USD eurobonds ~UST + 200-300 bps; B+/BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk, UNIQUE highest face-value globally (BHD ≈ USD 2.66); ~1.49M pop (iGA 2024); minimal natural risk except 45°C+ heat + sandstorms; National Spatial Strategy 2050 + Saudi Causeway 2.
+**BH** — CPI ~2.0% est. (Q1 2026 — pegged regime; verify iGA https://www.iga.gov.bh); GDP ~2-3% (2025 est. — financial-services + manufacturing); CBB 1-week deposit 4.75% (CBB daily rates 22 Oct 2026; Fed-bound via BHD/USD peg 0.376 since 2001 — https://www.cbb.gov.bh/facilities-interest-rates/); 10y BHD ~5.80%; USD eurobonds ~UST + 200-300 bps; B+/BB- rated. Macro flag: **stable / pegged via USD**, NO FX risk, UNIQUE highest face-value globally (BHD ≈ USD 2.66); ~1.59M pop (iGA 2024); minimal natural risk except 45°C+ heat + sandstorms; National Spatial Strategy 2050 + Saudi Causeway 2.
 
 **KW** — CPI ~3.0% est. (Q1 2026 — verify CSB https://www.csb.gov.kw); GDP ~2-3% (2025 est. — hydrocarbon-driven; future generations sovereign-fund FX-buffer ~US$700bn KIA est.); CBK Discount Rate ~4.25% est. (basket-managed since 20 May 2007 — was USD-pegged — verify https://www.cbk.gov.kw); 10y KWD ~4.50%; USD eurobonds ~UST + 30-50 bps; AA-rated. Macro flag: **stable / basket-managed**, KWD ≈ USD 3.25 — world's HIGHEST face-value currency; ~4.85M pop (2024 PACI); minimal seismic + extreme heat 50°C+ summers + sandstorms + Apr 2018 + 2024 catastrophic flash floods Wadi; Vision 2035 + Mubarak Al-Kabeer Port + Silk City planned.
 

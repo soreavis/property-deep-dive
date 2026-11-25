@@ -234,7 +234,7 @@ Second residential house: **0.5 %** of combined market value.
 
 ### Rental Income Tax (RIT) — for landlords
 
-**Source**: RRA `https://www.rra.gov.rw/fileadmin/img/rental-income-tax.html` + Law 027/2022.
+**Source**: RRA `https://www.rra.gov.rw/en/taxes-fees/local-government-taxes/rental-income-tax` + Law N° 048/2023 of 05/09/2023 (sources of revenue and property of decentralised entities).
 
 | Annual rental income (RWF) | Rate |
 |---|---:|
@@ -710,7 +710,7 @@ Use universal `shared/amenities-osm.md` Overpass queries.
 | RRA — Rwanda Revenue Authority | `https://www.rra.gov.rw/` |
 | RRA Tax Handbook | `https://www.rra.gov.rw/fileadmin/Folder_for_2025/RRA_Tax_Handbook_2025_Final.pdf` |
 | RRA Immovable Property Tax page | `https://www.rra.gov.rw/index.php?id=64&L=27` |
-| RRA Rental Income Tax page | `https://www.rra.gov.rw/fileadmin/img/rental-income-tax.html` |
+| RRA Rental Income Tax page | `https://www.rra.gov.rw/en/taxes-fees/local-government-taxes/rental-income-tax` |
 | BNR — National Bank of Rwanda | `https://www.bnr.rw/` |
 | BNR exchange rates | `https://www.bnr.rw/avgexchangerate` |
 | NISR — Statistics | `https://www.statistics.gov.rw/` |
