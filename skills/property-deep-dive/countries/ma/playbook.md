@@ -184,7 +184,7 @@ Source: aggregated from Mubawab + Sarouty + agency listings, Q1–Q2 2025. For *
 | Item | Rate / amount | Source |
 |---|---|---|
 | **Droits d'enregistrement** (registration duty) | **4 %** standard residential; **3 %** for first acquisition of social housing under conditions; **5 %** for terrains nus ou comportant des constructions destinées à être démolies (CGI art. 133-I-B, LdF 2024); **0 %** for VEFA primary residence under specific Loi de finances incentives | DGI — Code Général des Impôts art. 133 (2026-05-27 verified, source CGI 2024 PDF + AMDIE + sfm.ma LdF 2024 dispositions; verify at `https://www.tax.gov.ma`) |
-| **Conservation foncière (taxe de la conservation foncière)** | **1.5 %** of price + **150 MAD** fixed certificate fee | ANCFCC tariff (`https://www.ancfcc.gov.ma`) |
+| **Conservation foncière (taxe de la conservation foncière)** | **1.5 %** of price + **100 MAD** fixed fee per property + **100 MAD** per property certificate | ANCFCC tariff, Décret 2.16.375 (`https://www.ancfcc.gov.ma/media/1234/Tarifs.pdf`) |
 | **Notaire (notarial fees)** | **0.5–1.0 %** of price + **20 % VAT (TVA)** on the fee | `est.` — **no fee barème is published by the CNONM**; Moroccan notary fees are set by decree — verify in the Bulletin Officiel via the [SGG](https://www.sgg.gov.ma/) |
 | **Timbre (stamp duty on the deed)** | ~20 MAD per page + small fixed amounts | Code de l'enregistrement |
 | **Honoraires d'agent immobilier** | **2.5 %** of price + **20 % TVA** typical (negotiable; sometimes split 50/50 buyer/seller, sometimes seller pays) | Market practice |
@@ -474,7 +474,7 @@ Net yields after TPI + management + maintenance + commune taxes typically 50–6
 | Work | Cost (MAD, est.) |
 |---|---:|
 | Notary fees | 0.5–1.0 % of price + 20 % TVA |
-| Conservation foncière | 1.5 % of price + 150 MAD |
+| Conservation foncière | 1.5 % of price + 100 MAD + 100 MAD certificate |
 | Registration duty | 4 % standard residential |
 | Estate agent fee | 2.5 % + 20 % TVA |
 | **Total transaction cost (buyer side)** | **~6.5–8 %** of price |

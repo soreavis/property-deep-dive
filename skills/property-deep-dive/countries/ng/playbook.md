@@ -189,7 +189,7 @@ LOW — per-segment AADT comparable to EU/UK datasets is **not publicly availabl
 
 | Item | Rate | Authority |
 |---|---|---|
-| **Stamp Duty (federal)** | **1.5–3% sliding** | NRS (Nigeria Revenue Service, formerly FIRS) — Stamp Duty Act + Finance Act 2019/2020; `https://www.nrs.gov.ng/` |
+| **Stamp Duty (federal)** | **1.5%** flat on a conveyance or transfer on sale, paid by the transferee; exempt where the property is worth NGN 10M or less | NRS (Nigeria Revenue Service, formerly FIRS) — Nigeria Tax Act 2025 (repeals the Stamp Duties Act), Ninth Schedule item 15; `https://www.nrs.gov.ng/` |
 | **CGT (federal, seller)** | **Regime change eff 1 Jan 2026 (Nigeria Tax Act 2025)** — flat 10 % REPLACED. Individuals: progressive PIT bands (0–25 %); Corporates: 30 % CIT-aligned. Primary-residence exemption now **once-in-a-lifetime** for dwelling-house + ~1 acre adjoining land (verify at NRS, 2026-05-27 verified) | NRS (formerly FIRS) — Nigeria Tax Act 2025; pre-2026: CGT Act Cap C1 LFN 2004 |
 | **Governor's Consent Fee — STATE-LEVEL** | **Lagos 8–15% sliding (superseded by 2026 Blue Book — Consent-Fee headline now ~1.5% of uplifted FMV; see --foreign-buyer); FCT 8%; smaller states 3–5%** | State Lands Bureau / AGIS |
 | **Registration Fee — STATE-LEVEL** | Lagos ~0.5–1%; varies | State Lands Registry |
@@ -665,7 +665,7 @@ Nigeria operates **English common-law conveyancing**, not civil-law notariat:
 2. Buyer solicitor due diligence: title search at LSLB; C of O chain verification; encumbrance check; Survey Plan + boundary
 3. Independent legal search at LSLB Land Information Office (paid)
 4. Deed of Assignment drafted by buyer solicitor + reviewed by seller solicitor
-5. Stamp Duty assessment + payment at the NRS (Nigeria Revenue Service, formerly FIRS) (1.5-3% sliding)
+5. Stamp Duty assessment + payment at the NRS (Nigeria Revenue Service, formerly FIRS) (1.5% flat; property worth NGN 10M or less exempt)
 6. **Governor's Consent application** to LSLB — LUA s. 22; **major delay point** — Lagos historically 3-12 months (digitizing 2024-26); FCT AGIS 1-3 months
 7. Governor's Consent + Consent Fee paid (Lagos 8-15% — superseded by 2026 Blue Book, Consent-Fee headline now ~1.5% of uplifted FMV; FCT 8%)
 8. Registration at State Lands Registry → Registration Fee
@@ -678,7 +678,7 @@ Lagos: 4-12+ months (Consent is critical path); FCT Abuja: 2-6 months; other sta
 
 ### Costs (Lagos foreign-buyer, USD 200k example)
 
-- Stamp Duty 2% = USD 4,000
+- Stamp Duty 1.5% = USD 3,000
 - Governor's Consent ~10% mid-tier = USD 20,000
 - Registration ~0.5-1% = USD 1,000-2,000
 - Solicitor 5% = USD 10,000
@@ -909,7 +909,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 
 | Item | Cost | Source |
 |---|---:|---|
-| Stamp Duty (federal) | **1.5–3% sliding** | NRS (formerly FIRS) — Stamp Duty Act + Finance Acts |
+| Stamp Duty (federal) | **1.5% flat** (exempt at NGN 10M or less) | NRS (formerly FIRS) — Nigeria Tax Act 2025, Ninth Schedule |
 | Governor's Consent Fee — Lagos | **8–15% sliding (superseded by 2026 Blue Book — headline now ~1.5% of uplifted FMV; see --foreign-buyer)** | LSLB (LUA s. 22) |
 | Governor's Consent — FCT / other states | **~8% / ~3-5%** | AGIS / state Lands |
 | Registration Fee — Lagos | **~0.5–1%** | LSLR |
@@ -1064,4 +1064,4 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Framework-level confidence is HIGH for federal Land Use Act 1978 (LUA s. 22 Governor's Consent), Stamp Duty Act + Finance Act 2019/2020/2021/2023 (NRS, formerly FIRS), chargeable gains taxed as income under the Nigeria Tax Act 2025 from 1 Jan 2026 (the flat 10% CGT Act rate is repealed), VAT Act 7.5% (raised by Finance Act 2019), Lagos State Land Use Charge Law 2018 (0.076-0.394% sliding), CBN Form A/M/NCX FX framework, Immigration Act 2015 STR/CERPAC pathway, NHF/FMBN 6% subsidized rate. **Two non-negotiable foreign-buyer caveats surfaced prominently**: (1) **security situation is honestly serious + state-heterogeneous** (Northeast insurgency, Northwest banditry, periodic kidnap-for-ransom expats Lagos/Abuja — practical universe is Lagos + FCT + Port Harcourt with mandatory gated-estate + private-security overlay), and (2) **state-level Governor's Consent Fee variance is the dominant closing-cost item** (Lagos 8-15% sliding, FCT 8%, smaller states 3-5%) — total Lagos foreign-buyer cost ~10-20% of price. Naira volatility post-Jun 2023 float means USD informal pricing dominates prime Lagos/Abuja RE; CBN Form documentation at capital inflow is the #1 procedural item gating future repatriation. MEDIUM confidence on 2026 NGN values + asking-price benchmarks (volatile post-float; verify CBN daily + cross-check 3+ listings). LOW confidence on parcel-level crime / flood / SLR exposure (federal data not parcel-granular; mandatory site visit + local broker). All numeric facts dated and sourced; per anti-hallucination contract, listing claims tagged + LUA s. 22 Consent trap surfaced + omo onile peri-urban risk surfaced + forged C of O fraud surfaced + CBN Form repatriation trap surfaced.
+**Notes**: Framework-level confidence is HIGH for federal Land Use Act 1978 (LUA s. 22 Governor's Consent), stamp duty under the Nigeria Tax Act 2025, which repeals the Stamp Duties Act (NRS, formerly FIRS), chargeable gains taxed as income under the Nigeria Tax Act 2025 from 1 Jan 2026 (the flat 10% CGT Act rate is repealed), VAT Act 7.5% (raised by Finance Act 2019), Lagos State Land Use Charge Law 2018 (0.076-0.394% sliding), CBN Form A/M/NCX FX framework, Immigration Act 2015 STR/CERPAC pathway, NHF/FMBN 6% subsidized rate. **Two non-negotiable foreign-buyer caveats surfaced prominently**: (1) **security situation is honestly serious + state-heterogeneous** (Northeast insurgency, Northwest banditry, periodic kidnap-for-ransom expats Lagos/Abuja — practical universe is Lagos + FCT + Port Harcourt with mandatory gated-estate + private-security overlay), and (2) **state-level Governor's Consent Fee variance is the dominant closing-cost item** (Lagos 8-15% sliding, FCT 8%, smaller states 3-5%) — total Lagos foreign-buyer cost ~10-20% of price. Naira volatility post-Jun 2023 float means USD informal pricing dominates prime Lagos/Abuja RE; CBN Form documentation at capital inflow is the #1 procedural item gating future repatriation. MEDIUM confidence on 2026 NGN values + asking-price benchmarks (volatile post-float; verify CBN daily + cross-check 3+ listings). LOW confidence on parcel-level crime / flood / SLR exposure (federal data not parcel-granular; mandatory site visit + local broker). All numeric facts dated and sourced; per anti-hallucination contract, listing claims tagged + LUA s. 22 Consent trap surfaced + omo onile peri-urban risk surfaced + forged C of O fraud surfaced + CBN Form repatriation trap surfaced.

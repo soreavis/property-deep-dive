@@ -122,7 +122,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 ### Mortgage / financing for non-residents
 
 - **Bank of Israel limits** (Banking Supervision Department, Proper Conduct of Banking Business Directive 329):
-- **Non-resident foreign buyer**: maximum LTV typically **50%** (varies by bank; some go to 60% with strong credit). Source: BoI directive page `https://www.boi.org.il/en/`.
+- **Non-resident foreign buyer**: maximum LTV **50%** (a regulatory ceiling, banks may lend less): BoI Directive 329 treats any home bought by a nonresident (anyone outside its Israeli-citizen definition, which also covers Israeli residents) as an investment dwelling, capped at 50%. Source: [BoI Directive 329](https://boi.org.il/media/uckpqztg/329_et.pdf).
 - **Israeli first home**: up to 75% LTV
 - **Israeli second home / investor**: up to 50% LTV
 - **Currency**: most non-resident mortgages offered in ILS; some banks offer USD/EUR-denominated mortgages with FX conversion at drawdown — discuss with the lender.

@@ -22,7 +22,7 @@ ISO2: `nl`. Status: ✅ Fully populated (researched 2026-04).
 ### Primary sources
 
 - **Kadaster** (cadastre + transfer register): `https://www.kadaster.nl`
-  - **Online inzage** for €2.95: title + price paid
+  - **Online inzage** for €3.70: title + price paid
   - **Kadastraal recht (cadastral right)**: 4-page extract for verified transfers
 - **WOZ-waardeloket** (FREE WOZ value lookup): `https://www.wozwaardeloket.nl/`
   - Annual gemeente assessment; basis for OZB + Box 1 + Box 3

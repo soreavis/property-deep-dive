@@ -19,7 +19,7 @@ ISO2: `om`. Status: ✅ Fully populated (researched 2026-04 / verified 2026-05-0
   - **Title Deed (Sanad Mulkiyya — سند ملكية)** — paper + electronic; bears Plot No. + Block + Sector + Wilayat + Governorate.
   - **Sale and Purchase Agreement (SPA)** — pre-registration binding contract; off-plan sales typically use a developer Reservation Agreement → SPA → MHUP registration on handover.
   - **MHUP Property Registration Certificate** — issued at transfer; supersedes the prior Title Deed.
-- **Population**: **~5.0 million** (2024 — National Centre for Statistics and Information, NCSI `https://ncsi.gov.om/`); ~62% Omani nationals + ~38% expatriates (largest expat communities: Indian, Bangladeshi, Pakistani, Egyptian, Filipino).
+- **Population**: **~5.2 million** (2024 — National Centre for Statistics and Information, NCSI `https://ncsi.gov.om/`); ~57% Omani nationals + ~43% expatriates (largest expat communities: Indian, Bangladeshi, Pakistani, Egyptian, Filipino).
 - **Recent reforms** (12-month watchlist):
   - **Royal Decree 89/2021 — Investor Residency Programme** — formalised 5-yr (≥OMR 250,000) and 10-yr (≥OMR 500,000) renewable residency tied to qualifying investment incl. ITC freehold property; major attractor for non-GCC foreign buyers since launch.
   - **Royal Decree 12/2006 (as amended)** — primary statute for non-GCC freehold ownership in ITCs; subsequent ministerial decisions expanded the ITC list (notably 2010, 2018, 2023–2024 designations).
@@ -860,7 +860,7 @@ Workable pathways for remote-working visitors:
 - **Unemployment 2025 Q4**: ~4–5% Omani nationals; ~3% overall (NCSI).
 - **Public debt / GDP**: ~36% (declining from 64% peak in 2020 — Vision 2040 fiscal consolidation).
 - **Sovereign rating**: Moody's Ba1 (stable, Apr 2024 upgrade); S&P BB+ (positive, 2024); Fitch BB+ (positive, 2024).
-- **Population**: ~5.0M (2024 NCSI mid-year); ~62% Omani national + ~38% expat.
+- **Population**: ~5.2M (2024 NCSI mid-year); ~57% Omani national + ~43% expat.
 
 ### Trend drivers (2024–2026)
 
@@ -881,9 +881,9 @@ Workable pathways for remote-working visitors:
 
 ### Population structure (2024 NCSI mid-year + 2020 census)
 
-- **Total** (2024 prelim): ~5.0M.
-- **Omani nationals**: ~62% (~3.1M).
-- **Expatriates**: ~38% (~1.9M).
+- **Total** (2024 prelim): ~5.2M.
+- **Omani nationals**: ~57% (~3.0M).
+- **Expatriates**: ~43% (~2.2M).
 - **Major expat communities**: Indian, Bangladeshi, Pakistani, Egyptian, Filipino, Sri Lankan, Sudanese, Indonesian.
 - **Median age**: ~30 years.
 - **Age 0–14**: ~31%.
@@ -894,8 +894,8 @@ Workable pathways for remote-working visitors:
 
 ### Geographic distribution
 
-- **Muscat Governorate**: ~1.7M (~34% of total) — largest; Muscat Metro is the dominant urban centre.
-- **Al Batinah North + South**: ~1.0M combined.
+- **Muscat Governorate**: ~1.5M at end-2024 (~28% of the end-2024 total, NCSI) — largest; Muscat Metro is the dominant urban centre.
+- **Al Batinah North + South**: ~1.5M combined at end-2024 (NCSI).
 - **Dhofar (Salalah + region)**: ~0.5M.
 - **Ad Dakhiliyah, Ash Sharqiyah North + South, Ad Dhahirah, Al Buraimi, Musandam, Al Wusta**: ~1.8M combined.
 
