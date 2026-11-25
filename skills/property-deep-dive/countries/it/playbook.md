@@ -51,7 +51,7 @@ ISO2: `it`. Status: ✅ Fully populated (researched 2026-04).
 - North (Milano, Bologna, Firenze, Torino): high €/m², high liquidity
 - Centro (Roma, Pisa, Perugia): mixed
 - Sud (Napoli, Palermo, Bari, Cagliari): lower €/m², lower liquidity
-- **Borghi a 1 euro** schemes — mandatory renovation timeline + caution funds (Sicilia, Calabria, Sardegna, Abruzzo, Molise)
+- **Borghi a 1 euro** schemes — run comune by comune, with no national register or standard terms: the comune's own bando sets the renovation deadline and any guarantee deposit or polizza fideiussoria (data not publicly available nationally — verify in the comune's bando on its albo pretorio)
 - **Centro storico** premium — but heavy Soprintendenza restrictions on any work
 
 ---
@@ -97,12 +97,12 @@ ISO2: `it`. Status: ✅ Fully populated (researched 2026-04).
 - **Seconda casa**: aliquota base 8.6‰ (0.86%); il comune può azzerarla o aumentarla fino a 10.6‰ (1.06%), e fino a 11.4‰ nei soli comuni con ex-maggiorazione TASI (L. 160/2019 art. 1 c. 754-755). Verify the current rate on the comune's IMU page (2026-07-03 verified, source Gazzetta Ufficiale L. 160/2019)
 - **Calcolo**: `IMU = rendita catastale × 1.05 × 160 × aliquota`
 - Bills: 16 giugno (acconto) + 16 dicembre (saldo), or full payment by giugno
-- Reduction for canone concordato: 75% of IMU
+- Canone concordato (L. 431/1998): IMU ridotta al 75 % — the owner pays 75 % of the IMU computed at the comune's rate (L. 160/2019 art. 1 c. 760; 2026-11-25 verified, source [Dipartimento delle Finanze — IMU agevolazioni](https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Imposta-municipale-propria-IMU/disciplina-del-tributo/agevolazioni))
 - Affitto: comune può abbassare al 4‰
 
 **TASI**: merged into IMU since 2020 (no separate bill)
 
-**TARI (rifiuti)**: communal, ~€100–€500/yr, varies by surface + family size
+**TARI (rifiuti)**: communal, set by each comune on surface + household size. For a 3-person household in a 100 m² owned home the bill ran from €196 (Cremona) to €602 (Catania) across the provincial capitals, national average €340 (2025 data, source [Cittadinanzattiva — Osservatorio Prezzi & Tariffe](https://www.cittadinanzattiva.it/comunicati/17448-presentato-il-rapporto-2025-di-cittadinanzattiva-sui-rifiuti.html), secondary — the comune's TARI page has the actual tariff)
 
 ### Transaction taxes (one-time at purchase)
 
@@ -117,9 +117,9 @@ For **new builds (vendita da impresa)**:
 - IVA 4 % (prima casa) or 10 % (standard) or 22 % (lusso)
 - Imposta di registro €200, ipotecaria €200, catastale €200
 
-**Notaio fees**: 1.5–2.5 % of price (negotiable; fee tariff abolished 2012)
+**Notaio fees**: est. 1.5–2.5 % of price — unsourced skill heuristic, no binding tariff: DL 1/2012 art. 9 abolished the tariffs of the regulated professions (ministerial parameters apply only when a judge settles the fee), so the fee is agreed and the notaio must give a written preventivo di massima listing every cost item in advance — use that figure (2026-11-25 verified, source [DL 1/2012 art. 9](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-01-24;1~art9))
 
-**Total transaction cost**: typically **+10–13 % on top of price** for prima casa, **+13–17 %** for seconda casa.
+**Total transaction cost**: no official figure — build it per deal. Taxes, computed on Agenzia delle Entrate's own example (rendita €900, price €200,000, prezzo-valore rule): prima casa registro 900 × 1.05 × 110 × 2 % = €2,079, then €2,079 + €50 + €50 = €2,179 with ipotecaria and catastale, and €2,179 ÷ €200,000 ≈ 1.1 % of price; seconda casa registro 900 × 1.05 × 120 × 9 % = €10,206, then €10,206 + €50 + €50 = €10,306, and €10,306 ÷ €200,000 ≈ 5.2 % of price. Add the notaio (above) and any agency fee (unregulated, set in the mandate) — data not publicly available, take both from written quotes (2026-11-25 verified, source [AdE — L'acquisto della casa, June 2024](https://www.agenziaentrate.gov.it/portale/documents/20143/3949367/Guida_acquisto__Casa_imposte_e_agevolazioni_5062024.pdf/2a30330e-bc04-b486-ba96-c870c60ac66f))
 
 ### Future risk
 
@@ -133,21 +133,21 @@ For **new builds (vendita da impresa)**:
 ### Short-term rentals (locazioni turistiche / affitti brevi ≤30 giorni)
 
 **Mandatory: CIN (Codice Identificativo Nazionale) since 1 Jan 2025** (2026-08-07 verified, sources [Ministero del Turismo — Avviso di entrata in funzione della BDSR](https://www.ministeroturismo.gov.it/cin-pubblicato-lavviso-di-entrata-in-funzione-della-banca-dati-strutture-ricettive-e-del-portale-telematico-per-lassegnazione-del-codice); Ministero del Turismo BDSR FAQ, updated 11 May 2026):
-- **Legal basis**: art. 13-ter DL 145/2023 conv. L. 191/2023 — became applicable 2 Nov 2024, the 60th day after the Avviso attesting entry into function of the BDSR and its telematic portal was published in Gazzetta Ufficiale (3 Sep 2024); the portal had already opened earlier region-by-region in a sanction-free pilot phase. Obligation to hold a CIN in force from 1 Jan 2025 (Ministero del Turismo notice 22 Oct 2024)
-- Does NOT replace regional/provincial codes (CIR etc.): where a regional or provincial code is required, both codes must be obtained and displayed (Ministero del Turismo BDSR FAQ 1.3, updated 11 May 2026)
+- **Legal basis**: art. 13-ter DL 145/2023 conv. L. 191/2023 — became applicable 2 Nov 2024, the 60th day after the Avviso attesting entry into function of the BDSR and its telematic portal was published in Gazzetta Ufficiale (3 Sep 2024); the portal had already opened earlier region-by-region in a sanction-free pilot phase. Obligation to hold a CIN in force from 1 Jan 2025 (Ministero del Turismo notice 22 Oct 2024, cited in the BDSR FAQ; 2026-11-25 verified, sources [Ministero del Turismo](https://www.ministeroturismo.gov.it/cin-pubblicato-lavviso-di-entrata-in-funzione-della-banca-dati-strutture-ricettive-e-del-portale-telematico-per-lassegnazione-del-codice) + [BDSR FAQ](https://www.ministeroturismo.gov.it/faq-banca-dati-strutture-ricettive-bdsr/) + [DL 145/2023 art. 13-ter c. 15](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-12-18;145~art13ter))
+- Does NOT replace regional/provincial codes (CIR etc.): where a regional or provincial code is required, both codes must be obtained and displayed (Ministero del Turismo BDSR FAQ 1.3, updated 11 May 2026; 2026-11-25 verified, source [Ministero del Turismo — FAQ BDSR](https://www.ministeroturismo.gov.it/faq-banca-dati-strutture-ricettive-bdsr/))
 - Apply at: `https://bdsr.ministeroturismo.gov.it/` (BDSR — Banca Dati Strutture Ricettive)
 - Login via SPID or CIE
 - Required for: ALL short-term rentals, B&B, casa vacanze, locazione turistica
 - Without CIN: cannot list on Airbnb / Booking / Vrbo (platforms must verify)
-- **Sanctions applicable from 2 Jan 2025**: €800–€8,000 for absence of CIN; €500–€5,000 for non-display or non-indication of the code — per structure or unit — plus immediate removal of the irregular listing
+- **Sanctions applicable from 2 Jan 2025**: €800–€8,000 for absence of CIN; €500–€5,000 for non-display or non-indication of the code — per structure or unit — plus immediate removal of the irregular listing (DL 145/2023 art. 13-ter c. 9; 2026-11-25 verified, source [Normattiva](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-12-18;145~art13ter))
 - Does NOT replace or abolish regional licensing / codes (some regioni still need additional notice to comune)
 - Free; alphanumeric code
 
-**Tax regime — Cedolare secca (sostitutiva)** (2026-08-07 verified, sources [L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 17](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199) modifying L. 178/2020 art. 1 c. 595; rate scheme set by L. 213/2023 art. 1 c. 63; underlying regime DL 50/2017 art. 4 commi 2-3; [Agenzia Entrate Locazioni Brevi e Cedolare Secca](https://www.agenziaentrate.gov.it/portale/le-locazioni-brevi-e-la-cedolare-secca)):
+**Tax regime — Cedolare secca (sostitutiva)** (2026-11-25 verified, sources [L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 17](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199) modifying L. 178/2020 art. 1 c. 595; rate scheme set by L. 213/2023 art. 1 c. 63; underlying regime DL 50/2017 art. 4 commi 2-3; [Agenzia Entrate Locazioni Brevi e Cedolare Secca](https://www.agenziaentrate.gov.it/portale/le-locazioni-brevi-e-la-cedolare-secca)):
 - **1° immobile**: 21 % flat (cedolare ridotta) on the income of the one unit the taxpayer names in the tax return — also available when a second unit is let short-term at 26 % (L. 213/2023 art. 1 c. 63, per Agenzia delle Entrate); platforms and intermediaries always withhold 21 % as an advance (acconto), whatever regime the owner chooses (AdE circolare 10/E of 10 May 2024)
 - **2° immobile**: 26 % flat (cedolare ordinaria)
 - **Soglia dal 1 gen 2026**: max 2 immobili in cedolare secca per contribuente per periodo d'imposta (era 4 fino al 2025; ridotto da L. 199/2025 art. 1 c. 17). Il ≤2-cap e la presunzione di impresa ≥3 sono la **stessa soglia espressa in due modi**, non due limiti distinti
-- **3°+ immobile**: presunzione di legge di attività imprenditoriale ex art. 2082 c.c. → P.IVA obbligatoria, SCIA al comune, tassazione come reddito d'impresa (non IRPEF ordinaria sul reddito da locazione), perdita del regime cedolare (per Guida AdE aprile 2026)
+- **3°+ immobile**: presunzione di legge di attività imprenditoriale (L. 178/2020 art. 1 c. 595 as amended by L. 199/2025 art. 1 c. 17) → P.IVA obbligatoria, SCIA al SUAP del comune (DL 145/2023 art. 13-ter c. 8), tassazione come reddito d'impresa (non IRPEF ordinaria sul reddito da locazione), perdita del regime cedolare (2026-11-25 verified, sources [Agenzia delle Entrate](https://www.agenziaentrate.gov.it/portale/le-locazioni-brevi-e-la-cedolare-secca) + [DL 145/2023 art. 13-ter](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-12-18;145~art13ter))
 - **Nessun rinvio**: la proroga di sei mesi al 1 lug 2026, circolata come emendamento al Milleproroghe, NON è stata approvata — il testo coordinato del DL 200/2025 conv. L. 26/2026 (GU 28 feb 2026) non contiene alcuna disposizione sulle locazioni brevi; la soglia dei 2 immobili si applica dal 1 gen 2026 (2026-08-07 verified, sources Agenzia delle Entrate + Gazzetta Ufficiale)
 - Only for contracts ≤ 30 days
 - Optional alternative: regime ordinario IRPEF on rental income
@@ -155,12 +155,12 @@ For **new builds (vendita da impresa)**:
 **Other obligations**:
 - **Tassa di soggiorno**: collected from guests, set per comune — e.g. Milan 2026 €9.50/n per person for locazioni brevi / B&B (2026 data, source Confcommercio Milano, secondary — verify at the comune's imposta di soggiorno page)
 - **Comunicazione alle autorità di PS** — ogni guest registered via Alloggiati Web (Polizia)
-- **Ricevuta** issued to guest with marca da bollo if ≥€77.47
+- **Ricevuta** issued to guest: €2 imposta di bollo when the amount exceeds €77.47 (DPR 642/1972 Tariffa parte I art. 13; 2026-11-25 verified, sources [AdE Risposta 491/2021](https://www.agenziaentrate.gov.it/portale/documents/20143/0/Risposta_491_20.07.2021.pdf/c0a023c7-7c30-1e11-8cf8-16460212d92a) + [Agenzia delle Entrate](https://www.agenziaentrate.gov.it/portale/aspetti-generali))
 
 ### Long-term residential
 
 - **Cedolare secca canone libero**: 21 %
-- **Cedolare secca canone concordato**: 10 % — in comuni con carenze di disponibilità abitative (DL 551/1988 art. 1 c. 1 lett. a-b) and comuni ad alta tensione abitativa individuati dal CIPE (2026-10-21 verified, source Agenzia delle Entrate cedolare secca scheda). Watch: budget bill A.C. 3174-bis art. 5 (tabled 30 Oct 2026) would cut this rate to 5 % for leases signed in 2027, on rents due 2027-2031, and to 1 % if the tenant is under 36 at signing — bill, not law; 10 % applies until the budget law is enacted (2026-11-06 verified, source [Camera — A.C. 3174-bis](https://www.camera.it/leg19/126?leg=19&idDocumento=3174-bis); see shared/regulatory-watch.md)
+- **Cedolare secca canone concordato**: 10 % — in comuni con carenze di disponibilità abitative (DL 551/1988 art. 1 c. 1 lett. a-b) and comuni ad alta tensione abitativa individuati dal CIPE (2026-11-25 verified, source [Agenzia delle Entrate cedolare secca scheda](https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/cedolare-secca/scheda-informativa-cedolare-secca)). Watch: budget bill A.C. 3174-bis art. 5 (tabled 30 Oct 2026, in V Commissione since 12 Nov 2026) would cut this rate to 5 % for leases signed in 2027, on rents due 2027-2031, and to 1 % if the tenant is under 36 at signing — bill, not law; 10 % applies until the budget law is enacted (2026-11-25 verified, source [Camera — A.C. 3174-bis](https://www.camera.it/leg19/126?leg=19&idDocumento=3174-bis); see shared/regulatory-watch.md)
 - **Regime ordinario IRPEF**: marginal rate
 
 ### Strategic notes
@@ -169,7 +169,7 @@ For **new builds (vendita da impresa)**:
 - South (Sicilia, Puglia coast, Sardegna): high seasonality (4-month season concentration)
 - **Firenze centro storico STR ban IN FORCE** — regolamento (Del. C.C. 27/2025, in force 31 May 2025; underlying Variante al Piano Operativo Del. C.C. 19 & 20/2025) bans NEW short-term rentals in the UNESCO Nucleo Storico (Zona A): units legally let for tourism in 2024 may continue only under the Tuscan Testo Unico transitional derogation expiring 31 May 2028; adds 5-yr authorisations (lapsing after 12 months' inactivity unless let on contracts over 30 days), 28 sqm minimum apartment size, €1,000–€10,000 sanctions (2025 regolamento, source Comune di Firenze); authorisations are tied to both owner and unit and lapse on sale (Comune di Firenze press release 5 May 2025); the keybox/keypad ban sits in the Regolamento di Polizia Urbana (amended Feb 2025) and was upheld by the TAR on 14 May 2026 (Comune di Firenze press release 14 May 2026). UPHELD, not overturned: Corte Cost. sent. 186/2025 (16 Dec 2025) validated the framework, then TAR Toscana 14 May 2026 dismissed the appeals (18 per the Comune di Firenze press release, 19 per press reports; sent. 916 & 925/2026); TAR Toscana sent. 1028/2026 (May 2026) upheld the Ex Bufalini owner's appeal (~150 flats, via Bufalini / piazza Brunelleschi) for lack of coordination between the Variante's transitional saving clause and the regolamento, and the Comune has appealed to the Consiglio di Stato (per la Repubblica Firenze 6 Oct 2026, news-only); TAR Toscana Sez. I sent. 1752/2026 (9 Sep 2026) again rejected the challenge to the Variante but held a use 'insediato' from the formation of its building title (e.g. SCIA edilizia), so a title formed before the Variante's adoption escapes the ban (one SUAP refusal annulled). EXTENDED to A3/A4 subzones (Campo di Marte, San Jacopino, Gavinana, Statuto-Rifredi, Libertà, Bronzino and other first-ring districts — 67,780 homes / 11.21 km², 2026 data, source Comune di Firenze) by Del. C.C. 28 del 4 Jun 2026, in force 21 Jun 2026 (2026-07-02 verified, sources [Comune di Firenze](https://www.comune.firenze.it/novita/area-stampa/comunicati-stampa/modifica-al-regolamento-affitti-turistici-brevi-il-consiglio); [DirittoPA](https://www.dirittopa.it/it/interventi/urbanistica/affitti-turistici-e-poteri-di-regolazione-comunale))
 - Venezia caps tightening
-- **Venezia — Contributo di Accesso NOT currently applied**: the €5 day-tripper access fee (€10 if paid in the 3 days before the access day) applied to the **Città antica only** — minor lagoon islands excluded. Exempt: overnight guests in imposta-di-soggiorno accommodation, Venezia/Veneto residents, under-14s, and workers incl. commuters and students. The 2026 run was 60 non-consecutive days, 3 Apr–26 Jul (Fri–Sun plus the 24–30 Apr and 1–7 Jun blocks), under the new regolamento approved by Del. C.C. 190/2025. That sperimentazione **TERMINATED** — the contributo has **NOT been applied since 27 Jul 2026**, with no payment and no exemption request needed; application in 2027 or later requires fresh Comune di Venezia provvedimenti, none approved as of 2026-08-07 (2026-08-07 verified, source [Comune di Venezia — Contributo di Accesso](https://cda.ve.it/it/))
+- **Venezia — Contributo di Accesso NOT applied until 26 Mar 2027**: the €5 day-tripper access fee (€10 if paid in the 3 days before the access day) applied to the **Città antica only** — minor lagoon islands excluded. Exempt: overnight guests in imposta-di-soggiorno accommodation, Venezia/Veneto residents, under-14s, and workers incl. commuters and students. The 2026 run was 60 non-consecutive days, 3 Apr–26 Jul (Fri–Sun plus the 24–30 Apr and 1–7 Jun blocks), under the new regolamento approved by Del. C.C. 190/2025. That sperimentazione **TERMINATED** — the contributo has **NOT been applied since 27 Jul 2026**, with no payment and no exemption request needed. It **returns in 2027** on 72 days, computed 4 + 17 + 15 + 15 + 14 + 7 = 72 (March to August), from 26 Mar to 15 Aug 2027, 08:30–16:30; the 2027 arrangements (modalità) are to be announced by 31 Dec 2026 (2026-11-25 verified, sources [Comune di Venezia — Contributo di Accesso](https://cda.ve.it/it/) + [2027 calendar](https://www.comune.venezia.it/it/content/contributo-accesso-cda))
 - **Pool / view / parcheggio** = top revenue levers
 - **CIR/CIN registration** is the gating step — start there
 
@@ -187,7 +187,7 @@ For **new builds (vendita da impresa)**:
 ### Self-employment
 
 **Partita IVA**:
-- **Regime forfettario**: 15 % flat (5 % first 5 yrs) up to €85,000/yr revenue
+- **Regime forfettario**: 15 % flat (5 % first 5 yrs, for qualifying new activities) up to €85,000/yr revenue (2026-11-25 verified, source [Agenzia delle Entrate — regime forfetario](https://www.agenziaentrate.gov.it/portale/regime-forfetario-le-regole-2020-/infogen-regime-forfetario-le-regole-2020-))
 - **Regime ordinario**: marginal IRPEF + INPS gestione separata
 - Profession-specific casse (architects, ingegneri, avvocati, etc.)
 
@@ -263,7 +263,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 | Document | Required because | Risk if missing |
 |---|---|---|
 | **APE (Attestato Prestazione Energetica)** | All sales (announcement must show class) | Sale cannot complete |
-| **Conformità urbanistica** | Post-17 March 1985 builds — must declare titoli abilitativi | **NULLITÀ DELL'ATTO** |
+| **Conformità urbanistica** | Deed must state the building's titoli abilitativi: permesso di costruire or sanatoria if building began after 17 March 1985 (art. 46 DPR 380/2001); licenza, concessione or concessione in sanatoria for earlier builds, or a substitute declaration (dichiarazione sostitutiva di atto notorio) for works begun before 1 September 1967 (art. 40 L. 47/1985) (2026 data, source Normattiva) | **NULLITÀ DELL'ATTO** |
 | **Conformità catastale** | DL 78/2010, all sales | **NULLITÀ** |
 | **Certificato impianti** (elettrico, idrico, termico) | DM 37/2008, all installations after 1990 | Sale possible but acquirente liability |
 | **Libretto impianto termico** | All boilers + AC | Mandatory transfer |
@@ -279,7 +279,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 - Pre-rogito: technician must verify conformità urbanistica vs catastale vs stato di fatto
 - Common abusi: verandas, soppalchi, frazionamenti, cambi destinazione d'uso
 
-**Always commission a tecnico (geometra/architetto)** for pre-rogito conformità check on any property >20 yrs old. Cost: €300–€1,000.
+**Always commission a tecnico (geometra/architetto)** for pre-rogito conformità check on any property >20 yrs old. Cost: est. €300–€2,000 (calibration: a trade guide puts a relazione tecnica at a few hundred euros for a simple property and over €1,000 when the records are complex ([Edilizia.com, 2026](https://www.edilizia.com/leggi-normative/relazione-tecnica-di-compravendita-cose-quando-e-obbligatoria-quanto-costa)); a Tuscan practice quotes €800–€2,000 for a flat ([Studio Madera, 2026](https://www.studiomadera.it/relazione-tecnica-notarile)); commercial estimates, so get a written quote).
 
 ### Climate change projections (CMCC / ISPRA)
 
@@ -324,10 +324,10 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 
 | Scenario | Cost |
 |---|---:|
-| Connection to mains where available | €1,500–€4,000 |
-| Septic to mains conversion | €5,000–€15,000 |
-| New fossa biologica + filtro | €3,000–€8,000 |
-| Imhoff replacement | €5,000–€10,000 |
+| Connection to mains where available | est. €1,500–€4,000 (calibration: the gestori's own list prices for the public side up to a pozzetto at the boundary: Nuove Acque, Arezzo, 2026: €894.11 for the first 3 m under an asphalt road plus €113.92 per extra metre ([listino](https://nuoveacque.it/listino-allacciamenti)); Astea, Macerata, 2025: €1,000 up to 10 m plus a €70 connection right ([tariffario](https://www.asteaspa.it/wp-content/uploads/2025/01/Tariffario-prestazioni-accessorie-2025.pdf)); pipework inside the plot is extra and each gestore sets its own prices) |
+| Septic to mains conversion | est. €2,000–€15,000 (calibration: the est. €1,500 low end of the connection row above plus emptying the old tank, priced in the Imhoff replacement row below; the upper end covers a long rural run at per-metre rates like Nuove Acque's €113.92 and re-routing the house drains, so get quotes) |
+| New fossa biologica + filtro | est. €3,000–€8,000 for tank, dispersal or filter, project and discharge permit (calibration: the Piemonte 2026 regional price list, as cited by [Ristrutturalo, 2026](https://ristrutturalo.it/fossa-imhoff-regole-scarico-costi), prices a 5-person polyethylene Imhoff at €426.90 plus €245.97 for digging and laying, €672.87 before VAT, and a complete 5-person phytodepuration system, supplied and laid, at €5,163.23 where regional rules require one; the guide finds no list price for the dispersal trench, the project or the permit (D.Lgs. 152/2006 art. 124), so get quotes) |
+| Imhoff replacement | from €1,119.95 before VAT (computed: €672.87 + €447.08 = €1,119.95, a 5-person polyethylene tank supplied and laid plus emptying the old tank, up to 8 m³ within 20 km, both on the Piemonte 2026 regional price list as cited by [Ristrutturalo, 2026](https://ristrutturalo.it/fossa-imhoff-regole-scarico-costi)); a larger tank, removing the old one, renewing the dispersal, the project and the permit are extra and often cost the most, so get quotes |
 
 ---
 
@@ -335,20 +335,20 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 
 | Work | Cost |
 |---|---:|
-| APE | €100–€300 |
-| Visura catastale (FREE since 2025 via SPID) | €0 |
-| Notaio | 1.5–2.5 % of price |
+| APE | est. €100–€300 (unsourced skill heuristic; no regulated fee since DL 1/2012 art. 9 — get 2–3 quotes from certified energy assessors) |
+| Visura catastale online (free via SPID, CIE or CNS — D.Lgs. 139/2024 made many telematic catasto consultation services free; 2026-11-25 verified, sources [Agenzia delle Entrate](https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/visura-catastale/visura-catastale-online) + [AdE Bilancio 2025](https://www.agenziaentrate.gov.it/portale/documents/20143/10180328/All.1+Bilancio_2025.pdf/13cbde69-c718-0946-3b8a-393f60474275?t=1782285298605)) | €0 |
+| Notaio | est. 1.5–2.5 % of price (unsourced skill heuristic; no tariff since DL 1/2012 art. 9 — ask for the written preventivo) |
 | Imposta di registro (prima casa) | 2 % of valore catastale |
 | Imposta di registro (seconda casa) | 9 % of valore catastale |
 | IVA new build (standard) | 10 % |
-| Tecnico per conformità (geometra) | €300–€1,000 |
-| Septic to mains | €5,000–€15,000 |
-| Roof (terracotta tiles, 200 m²) | €15,000–€30,000 |
-| Antiseismic retrofit (small house) | €30,000–€80,000 (Sismabonus 50 % abitazione principale / 36 % other nel 2025-2026; 36 % / 30 % per spese 2027) |
-| Asbestos removal (200 m² roof) | €5,000–€15,000 |
-| Energy retrofit (Ecobonus 50 % abitazione principale / 36 % other 2025-2026; 36 % / 30 % per spese 2027) | €20,000–€60,000 |
-| **Total transaction cost (prima casa)** | ~10–13 % over price |
-| **Total transaction cost (seconda casa)** | ~13–17 % over price |
+| Tecnico per conformità (geometra) | est. €300–€2,000 (see `--risks`; no tariff since DL 1/2012 art. 9 — ask for the written preventivo) |
+| Septic to mains | est. €2,000–€15,000 (see `--mains`; get the gestore idrico's and a contractor's quote) |
+| Roof (terracotta tiles, 200 m²) | est. €15,000–€30,000 (unsourced skill heuristic — get 2–3 contractor quotes) |
+| Antiseismic retrofit (small house) | est. €30,000–€80,000 (unsourced skill heuristic — get 2–3 quotes); Sismabonus 50 % abitazione principale / 36 % other nel 2025-2026; 36 % / 30 % per spese 2027 under current law (2026-11-25 verified, source [L. 199/2025 art. 1 c. 22](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199)) |
+| Asbestos removal (200 m² roof) | est. €5,000–€15,000 (unsourced skill heuristic — get 2–3 quotes from licensed removal firms) |
+| Energy retrofit (Ecobonus 50 % abitazione principale / 36 % other 2025-2026; 36 % / 30 % per spese 2027 under current law — 2026-11-25 verified, source [L. 199/2025 art. 1 c. 22](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199)) | est. €20,000–€60,000 (unsourced skill heuristic — get 2–3 quotes) |
+| **Total transaction cost (prima casa)** | taxes €2,179 ÷ €200,000 ≈ 1.1 % of price on AdE's example (registro €2,079 plus €50 ipotecaria and €50 catastale, computed in `--tax`); notaio + any agency fee on top — no official total, get written quotes |
+| **Total transaction cost (seconda casa)** | taxes €10,306 ÷ €200,000 ≈ 5.2 % of price on AdE's example (registro €10,206 plus €50 ipotecaria and €50 catastale, computed in `--tax`); notaio + any agency fee on top — no official total, get written quotes |
 
 ## Active fiscal incentives (2026-2027)
 
@@ -432,6 +432,16 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 **Coverage check**: pricing, traffic, tax, rental, work, risks, mains all have primary government sources + cost benchmarks + caveats.
 **Confidence**: HIGH for tax + risk + rental sources (multi-source corroborated). MEDIUM for work catchment heuristics (region-dependent).
 
+### Per-section verification (overrides playbook-level date)
+
+| Section | Last verified | Verifier | Notes |
+|---|---|---|---|
+| `--price` | 2026-11-25 | 2026-11-25 maintenance run | Borghi a 1 euro terms are set comune by comune in each bando; no national register lists them. |
+| `--work=<profession>` | 2026-11-25 | 2026-11-25 maintenance run | Regime forfetario rates and the €85,000 threshold are confirmed against Agenzia delle Entrate. |
+| `--risks` | 2026-11-25 | 2026-11-25 maintenance run | The deed-nullity rule now cites both laws on Normattiva: art. 46 DPR 380/2001 for builds begun after 17 March 1985 and art. 40 L. 47/1985 for earlier ones; Legge 64/1974 and the DM of 3 March 1975 were confirmed. The tecnico's fee is an estimate calibrated on 2026 trade and practice pages. |
+| `--mains` | 2026-11-25 | 2026-11-25 maintenance run | Sewer and septic costs are estimates: connections are calibrated on the published tariffs of Nuove Acque (2026) and Astea (2025), tanks on the Piemonte 2026 regional price list and emptying on a commercial price list. The Imhoff replacement is now a computed floor, since a laid tank costs far less than the old figure. |
+| Cost benchmarks (IT 2026) | 2026-11-25 | 2026-11-25 maintenance run | Registro and IVA rates are confirmed against Agenzia delle Entrate and the bonus rates against L. 199/2025; works and professional-fee ranges are labelled as unsourced estimates to calibrate with local quotes. |
+
 ## Extension TODOs (deepen on first real run)
 
 - [ ] Per-regione CIN/short-let regional addenda (Veneto, Lombardia, Toscana, Lazio specifics)
@@ -440,3 +450,7 @@ L'Aquila (2009), Amatrice/Norcia (2016) are the recent reminders.
 - [ ] Sanatoria / abuso edilizio detection workflow (likely needs tecnico in person)
 - [ ] Local IMU aliquota per comune (need scraping per ~7,900 comuni — start with top 100)
 - [ ] Nord/Sud cost-benchmark differentiation (renovation prices differ ~30–50 %)
+
+## Update history
+
+- **2026-11-25** — Maintenance run: closed `--price`, `--work=<profession>`, `--risks`, `--mains`, Cost benchmarks (IT 2026); still open `--tax`, `--rental`.

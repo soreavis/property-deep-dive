@@ -336,6 +336,11 @@
  },
  {
   "target": "skills/property-deep-dive/shared/regulatory-watch.md",
+  "request": "AU 2027-07-01 negative-gearing / CGT entry: replace 'Tax Reform No. 3 Bill 2026 introduced 14 Oct 2026, NOT passed' with 'Tax Reform No. 3 Bill 2026 introduced 14 Oct 2026, passed the House 29 Oct 2026; in the Senate the second reading and 6 Government amendments were agreed 25 Nov 2026 — NOT yet passed by both Houses' and re-stamp the verified date 2026-11-25.",
+  "evidence": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7554 — 'Third reading agreed to 29 Oct 2026 Senate Introduced and read a first time 16 Nov 2026'; 'Second reading agreed to 25 Nov 2026 Third reading agreed to : Amendment details: 6 Government agreed to 25 Nov 2026'; 'Status Before Senate' (read 2026-11-25)"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/regulatory-watch.md",
   "request": "Add a Luxembourg entry for the planned withholding at source on real-estate capital gains from tax year 2028 (budget bill 8800 revenue commentary, filed 7 Oct 2026); planned only, no enacted text found. Add a Lithuania check that 17% foreign-entity withholding on immovable property from 1 Jan 2026 is logged.",
   "evidence": "https://wdocs-pub.chd.lu/docs/Dossier_Projet_de_loi8800/20261007_Depot.pdf ; https://taxsummaries.pwc.com/lithuania/corporate/withholding-taxes"
  },
@@ -363,6 +368,16 @@
   "target": "skills/property-deep-dive/shared/regulatory-watch.md",
   "request": "In the ME 2024-10-01 Europe Now 2 entry (line 699), the sentence 'None of these bills appears in the Parliament register as of 4 Nov 2026 or on the plenary agendas of 9, 13 and 29 Oct 2026' could not be re-verified on 2026-11-05: the Parliament register path returned a not-found page and the session page held no usable list. Re-check it or label it, and add the gazette fact: none of the six bills is in Sl. list CG through issue 163/2026 of 3 Nov 2026. Also state that the bills were settled at the Government's telephone session of 17 Sep 2026 and published on gov.me on 18 Sep 2026.",
   "evidence": "https://www.sluzbenilist.me/registri/399833 (issue 163/2026, 03.11.2026; issues 136/2026-163/2026 list 21 laws, none on PIT, contributions, labour or pensions); https://www.ronalegal.com/en/blog/montenegro-euro-model-2027-zero-contributions-minimum-wage (session 17.09.2026, gov.me publication 18.09.2026, secondary)"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/regulatory-watch.md",
+  "request": "UK leasehold entry (2026-01-27, line 209): the Commonhold and Leasehold Reform Bill was introduced in the Commons on 19 Nov 2026 as Bill 189 (1st reading 19 Nov 2026, 2nd reading not yet scheduled); replace 'still not introduced' and the before-Christmas note; the introduced Bill keeps the £250 ground-rent cap falling to a peppercorn after 40 years.",
+  "evidence": "https://bills-api.parliament.uk/api/v1/Bills/4331/Stages ; https://bills-api.parliament.uk/api/v1/Bills/4331/Publications ; https://www.gov.uk/government/publications/guide-to-the-commonhold-and-leasehold-reform-bill/guide-to-the-commonhold-and-leasehold-reform-bill"
+ },
+ {
+  "target": "skills/property-deep-dive/shared/regulatory-watch.md",
+  "request": "Update the Venice Contributo di Accesso entry (rental row, verified 2026-08-07): replace 'application in 2027 and later requires fresh Comune di Venezia provvedimenti, none approved as of 2026-08-07' with 'the Comune has set the 2027 calendar: 72 days, 26 Mar–15 Aug 2027, 08:30–16:30, amounts and rules to be announced by 31 Dec 2026'; set verified 2026-11-25 and revisit by 2027-01-05.",
+  "evidence": "https://www.comune.venezia.it/it/content/contributo-accesso-cda — 'Il Contributo sarà nuovamente dovuto a partire dal 2027, con le modalità che verranno rese note entro il 31.12, nelle seguenti giornate:' followed by the day lists for marzo–agosto 2027 and '08:30→16:30 Fascia oraria di applicazione'."
  },
  {
   "target": "skills/property-deep-dive/shared/rental-yield-delta.md",
