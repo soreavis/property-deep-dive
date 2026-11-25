@@ -190,10 +190,10 @@ For each country, primary macro sources:
 | **BCE (Ecuador)** | n/a (USD adopted Sep 2000) | Fed-bound; no monetary independence — verify https://www.bce.fin.ec |
 | **BCP (Paraguay)** | ~6.00% est. | hold; CPI ~4% Q1 2026 — verify https://www.bcp.gov.py |
 | **CBA (Armenia)** | ~7.00% est. | gradual cuts as CPI near target — verify https://www.cba.am |
-| **CBAR (Azerbaijan)** | ~7.25% est. (Refinancing Rate) | hold; AZN de-facto pegged USD 1.70 since 2017 — verify https://www.cbar.az |
+| **CBAR (Azerbaijan)** | 6.5% (Refinancing Rate, corridor 5–7.5%) from 24 Sep 2026 | AZN de-facto pegged USD 1.70 since 2017 — verify https://www.cbar.az |
 | **BCT (Tunisia)** | 8.00% est. | hold; CPI ~7-8% post-2022-23 shock; IMF EFF SUSPENDED Mar 2024 — verify https://www.bct.gov.tn |
 | **RBI (India)** | ~6.00% est. (Repo) | mid-cycle cuts from 6.50% peak; INR managed-float; FEMA + LRS USD 250k/yr cap — verify https://www.rbi.org.in |
-| **CBN (Nigeria)** | ~27.50% est. (MPR) | hold/easing post-NGN unification Jun 2023; CPI 30%+ — verify https://www.cbn.gov.ng |
+| **CBN (Nigeria)** | 23% (MPR, since 22 Sep 2026, retained 24 Nov 2026) | hold/easing post-NGN unification Jun 2023; CPI 30%+ — verify https://www.cbn.gov.ng |
 | **CBK (Kenya)** | ~10.75% est. (CBR) | gradual cuts as CPI eased to 6-7% — verify https://www.centralbank.go.ke |
 | **CBJ (Jordan)** | 6.00% (main policy rate from 21 Sep 2026, after a 25 bp rise on all policy instruments at the CBJ Open Market Operations Committee's 6th 2026 meeting, announced 20 Sep 2026) | Fed-bound via JOD/USD peg 0.7080 since 1995 (2026 data, source https://www.cbj.gov.jo rates panel + OMO Committee release) |
 | **CBO (Oman)** | ~5.50% est. | Fed-bound via OMR/USD peg 0.385 since 1986 — verify https://cbo.gov.om |
@@ -285,7 +285,7 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 | EC | ~9.00% est. | (USD-dollarized) — USD eurobonds; B-/CCC distressed-trading post-2024 default proximity — verify |
 | PY | ~7.50% est. | (PYG); USD eurobonds ~6-7%; BB+ rated |
 | AM | ~8.50% est. | (AMD); USD eurobonds ~6-7%; BB- rated |
-| AZ | ~7.00% est. | (AZN de-facto pegged USD); USD eurobonds ~5-6%; BB+ rated; SOFAZ FX-buffer ~US$60bn |
+| AZ | ~7.00% est. | (AZN de-facto pegged USD); USD eurobonds ~5-6%; BB+ rated; SOFAZ FX buffer US$74.0bn (30 Sep 2026) |
 | TN | ~12-14% est. | (TND); USD eurobonds ~10-12% distressed-trading post-IMF EFF suspension Mar 2024; CCC+ — verify |
 | IN | ~6.80% est. | (INR); G-Sec 10y benchmark; USD eurobonds limited (capital-controls + FEMA); BBB- rated |
 | NG | ~18-20% est. | (NGN) post-Jun 2023 unified-float; USD eurobonds ~9-11%; B-/Caa1 rated; CPI 30%+ overlay |
@@ -343,7 +343,7 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - IS (CBI 8.00% — +25 bp hike 19 Aug 2026, held 7 Oct 2026; CPI 5.9% vs 2.5% target)
 - US (Fed 3.75-4.00% — 25 bp hike 16 Sep 2026; re-classify after the 27-28 Oct 2026 FOMC)
 - BR (BCB 13.75% since 17 Sep 2026 — high level, but easing: see Recovery / cutting above; BCB SGS 432)
-- TR (TCMB 36.0% — cut 100 bp on 22 Oct 2026, high level but easing from the 50% Mar-2024 peak; CPI 31.51% YoY Aug 2026)
+- TR (TCMB 36.0% — cut 100 bp on 22 Oct 2026, high level but easing from the 50% Mar-2024 peak; CPI 29.77% YoY Oct 2026)
 - AR (volatile peso band)
 - EG (CBE ~22-24% post-IMF Mar 2024 devaluation; CPI declining from 30%+)
 - UY (BCU 8.5% — restrictive)
@@ -377,7 +377,7 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - MD (BNM 6.50% post-2022 war shock; MDL volatile)
 - TN (BCT 8.00% post-2022-23 inflation shock; CPI 7-8%; IMF EFF SUSPENDED Mar 2024)
 - AM (CBA ~7.00% gradual cuts as CPI near target)
-- AZ (CBAR ~7.25% hold; AZN de-facto pegged USD)
+- AZ (CBAR 6.5% from 24 Sep 2026; AZN de-facto pegged USD)
 
 ### Stable / pegged (additional Tier-4)
 - QA (QAR pegged USD 3.64 since 2001 — Fed-bound)
@@ -391,7 +391,7 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 ### Tier-5 additions (2026-05-01)
 
 #### Active tightening / hold high (Tier-5)
-- NG (CBN ~27.50% est. post-NGN unification Jun 2023; CPI 30%+)
+- NG (CBN 23% since 22 Sep 2026, retained 24 Nov 2026; post-NGN unification Jun 2023; CPI 30%+)
 - KE (CBK ~10.75% gradual cuts; KES managed-float ~2-5%/yr USD depreciation)
 - IN (RBI ~6.00% mid-cycle cuts; INR managed-float; FEMA + LRS USD 250k/yr cap)
 
@@ -412,7 +412,7 @@ US: ~2.5% est. (Q1 2026 print pending — verify BLS CPI release)
 HU: 4-5% (HUF volatility)
 PL: 3-4%
 RO: 4-5% (post-VAT-hike)
-TR: 31.51% YoY Aug 2026 (TÜFE, TÜİK via TCMB PPK summary 2026-42 — high-inflation regime, easing trajectory; verify TÜİK)
+TR: 29.77% YoY Oct 2026 (TÜFE, TÜİK via the TCMB CPI table — high-inflation regime, easing trajectory; verify TÜİK)
 AR: 30%+ (post-Milei normalization)
 BR: 4-5% (Selic being cut — 13.75% since 17 Sep 2026, BCB SGS 432)
 JP: ~2-3% (BoJ target met; first sustained 2%+ run since 1990s)
@@ -465,7 +465,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **US** — CPI ~2.5% YoY (Q1 2026 est., verify BLS https://www.bls.gov/cpi/); GDP ~2.5% (2025 BEA advance est., verify https://www.bea.gov); Fed Funds 3.75-4.00% (25 bp hike 16 Sep 2026, federalreserve.gov; next FOMC 27-28 Oct 2026); 10y UST ~4.30%; cyclical phase: tightening (re-check after the 27-28 Oct 2026 FOMC).
 
-**TR** — TÜFE 31.51% YoY Aug 2026 (TÜİK via TCMB PPK summary 2026-42; high-inflation regime, easing from Oct-2022 peak 85.51%; verify TÜİK https://www.tuik.gov.tr); GDP ~3-4% (2025 est., verify); TCMB policy rate 36.00% (cut from 37% at PPK 22 Oct 2026, TCMB 2026-45; down from the 50% Mar-2024 peak — verify against latest MPC https://www.tcmb.gov.tr); 10y TRY yield ~28-32%; USD eurobond ~7.5% — that's the cleaner foreign-buyer reference. Macro flag: **post-hyperinflation normalization, FX risk extreme** — TRY lost ~80% vs USD 2021-2024.
+**TR** — TÜFE 29.77% YoY Oct 2026 (TÜİK via the TCMB CPI table; high-inflation regime, easing from Oct-2022 peak 85.51%; verify TÜİK https://www.tuik.gov.tr); GDP ~3-4% (2025 est., verify); TCMB policy rate 36.00% (cut from 37% at PPK 22 Oct 2026, TCMB 2026-45; down from the 50% Mar-2024 peak — verify against latest MPC https://www.tcmb.gov.tr); 10y TRY yield ~28-32%; USD eurobond ~7.5% — that's the cleaner foreign-buyer reference. Macro flag: **post-hyperinflation normalization, FX risk extreme** — TRY lost ~80% vs USD 2021-2024.
 
 **AE** — CPI ~2-3% (low, pegged regime); GDP ~3-4% (2025); CBUAE EIBOR ~4.40% — Fed-bound via AED/USD peg 3.6725 (no independent monetary policy); USD-equivalent 10y ~4.40%. Macro flag: **stable / pegged**, USD-correlated.
 
@@ -535,7 +535,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **AM** — CPI ~2.5% est. (Q1 2026 — near CBA target; verify ARMSTAT https://www.armstat.am); GDP ~5-7% (2024-25 — Russian capital + IT boom post-2022); CBA ~7.00% est. (gradual cuts; verify https://www.cba.am); 10y AMD ~8.50%; USD eurobonds ~6-7%; BB-rated. Macro flag: **expansion / cutting**, AMD strengthened materially 2022-24 from Russian capital + IT inflow; HIGH seismic (1988 Spitak Mw 6.8 baseline); ~7M global diaspora structural FX inflow.
 
-**AZ** — CPI ~3% est. (Q1 2026 — verify SSC https://www.stat.gov.az); GDP ~2-3% (2025 est. — hydrocarbon-driven; SOFAZ State Oil Fund FX-buffer ~US$60bn); CBAR Refinancing Rate ~7.25% est. (hold — verify https://www.cbar.az); 10y AZN ~7%; USD eurobonds ~5-6%; BB+ rated. Macro flag: **stable / de-facto pegged via AZN/USD 1.70 since 2017** (NOT formal currency-board, breached 2015 twice); Caspian sea-level falling 2010-24 ~1m + Absheron mud volcanoes (unique physical-risk profile); Republic Seismological Survey Center + AzDTN 2.4-1 2010 code (2000 Baku Mw 6.8 baseline).
+**AZ** — CPI 5.2% YoY Oct 2026 (CBAR https://www.cbar.az/home?language=en, checked 2026-11-25; SSC https://www.stat.gov.az); GDP ~2-3% (2025 est. — hydrocarbon-driven; SOFAZ State Oil Fund FX buffer US$74.0bn at 30 Sep 2026, https://www.oilfund.az/en/fund/press-room/news-archive/1782); CBAR Refinancing Rate 6.5% (corridor 5–7.5%) from 24 Sep 2026 (CBAR, checked 2026-11-25); 10y AZN ~7%; USD eurobonds ~5-6%; BB+ rated. Macro flag: **stable / de-facto pegged via AZN/USD 1.70 since 2017** (NOT formal currency-board, breached 2015 twice); Caspian sea-level falling 2010-24 ~1m + Absheron mud volcanoes (unique physical-risk profile); Republic Seismological Survey Center + AzDTN 2.4-1 2010 code (2000 Baku Mw 6.8 baseline).
 
 **TN** — CPI ~7-8% est. (Q1 2026 — post-2022-23 shock; verify INS https://www.ins.tn); GDP ~1-2% (2025 est. — IMF EFF SUSPENDED Mar 2024 leaves financing gap); BCT 8.00% est. (hold — verify https://www.bct.gov.tn); 10y TND ~12-14%; USD eurobonds ~10-12% distressed-trading; CCC+ — verify. Macro flag: **post-IMF-suspension financing-gap stress**, TND semi-convertible (capital controls), CPI elevated, low-mod seismic (ONM); APAL coastal-erosion overlay.
 
@@ -543,7 +543,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **IN** — CPI ~4-5% est. (Q1 2026 — within RBI 4±2% target; verify NSO/MoSPI https://www.mospi.gov.in); GDP ~6-7% (2025 est. — among highest among major EM); RBI Repo ~6.00% est. (mid-cycle cuts from 6.50% peak — verify https://www.rbi.org.in); 10y G-Sec ~6.80%; BBB- rated. Macro flag: **expansion**, INR managed-float capital controls via FEMA + LRS USD 250k/yr cap; **NHB Residex 50+ cities + RBI HPI 10-city quarterly**; ~1.428B pop (2011 last full census, 2021 deferred to 2025-26); India Stack (Aadhaar + UPI + DigiLocker + ONDC) digital infrastructure; coworking Bengaluru/Hyderabad/Mumbai/Pune/Gurgaon (WeWork/Awfis/91springboard).
 
-**NG** — CPI ~30%+ est. (Q1 2026 — post-NGN unification Jun 2023 shock easing; verify NBS https://nigerianstat.gov.ng); GDP ~3% (2025 est. — devaluation drag + non-oil recovery); CBN MPR ~27.50% est. (hold/easing — verify https://www.cbn.gov.ng); 10y NGN ~18-20%; USD eurobonds ~9-11%; B-/Caa1 rated. Macro flag: **post-FX-unification stabilization, hyperinflation-adjacent regime** — NGN/USD 460→1,500+ peak post-Jun 2023 unified-float (was dual-rate); ~227M pop (UN 2024 proj — 2006 was last full census); 2024-25 grid collapses recurring; coworking Lagos VI/Ikoyi (Workstation/Capital Square/Workbench).
+**NG** — CPI ~30%+ est. (Q1 2026 — post-NGN unification Jun 2023 shock easing; verify NBS https://nigerianstat.gov.ng); GDP ~3% (2025 est. — devaluation drag + non-oil recovery); CBN MPR 23% since 22 Sep 2026, retained 24 Nov 2026 (hold/easing — verify https://www.cbn.gov.ng); 10y NGN ~18-20%; USD eurobonds ~9-11%; B-/Caa1 rated. Macro flag: **post-FX-unification stabilization, hyperinflation-adjacent regime** — NGN/USD 460→1,500+ peak post-Jun 2023 unified-float (was dual-rate); ~227M pop (UN 2024 proj — 2006 was last full census); 2024-25 grid collapses recurring; coworking Lagos VI/Ikoyi (Workstation/Capital Square/Workbench).
 
 **KE** — CPI ~6-7% est. (Q1 2026 — easing; verify KNBS https://www.knbs.or.ke); GDP ~5% (2025 est. — agriculture + services); CBK CBR ~10.75% est. (gradual cuts — verify https://www.centralbank.go.ke); 10y KES ~13.50%; USD eurobonds ~9-10%; B/Caa1 rated. Macro flag: **stable expansion**, KES managed-float ~2-5%/yr USD depreciation; ~55M pop (2019 census 47.6M, 2024 KNBS); M-PESA mobile money 95%+ adoption (financial inclusion best-in-class); SGR Mombasa-Nairobi corridor; coworking Nairobi Westlands/Karen/Kilimani (iHub/Nailab/Workstyle/The Mint Hub).
 

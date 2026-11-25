@@ -27,8 +27,8 @@ ISO2: `il`. Status: ✅ Fully populated (researched 2026-04 / 2026-05).
 
 - **Major reforms / regulatory landscape** (verify date-stamps in `shared/regulatory-watch.md`):
 - **Heskem Hadash (Decision 1185 / החלטה 1185)** — ILA Council Decision 2009 enabling lessees to convert built-up state-leased land to freehold for a capitalization fee. Source: **מאגר החלטות מועצת מקרקעי ישראל** — [apps.land.gov.il/CouncilDecisions](https://apps.land.gov.il/CouncilDecisions/#/main) (search "החלטה 1185" there; the old ILA SharePoint search form has been retired). Subsequent updates via decisions 1370, 1456 etc. — verify currency at [gov.il — רשות מקרקעי ישראל](https://www.gov.il/he/departments/israel_land_authority) (2026-09-18 verified).
-- **Land Taxation (Appreciation and Purchase) Law 5723-1963** — חוק מיסוי מקרקעין; Mas Rechisha (purchase tax) + Mas Shevach (appreciation/capital gains tax). Source: Israel Tax Authority `https://www.gov.il/he/departments/topics/real_estate_taxation`.
-- **Buyer's tax brackets — non-resident scale** — normally re-indexed by the Tax Authority each 16 January to the CBS housing index, but indexation is frozen for tax years 2025-2027 (brackets fixed through 15 January 2028); the non-resident 8% / 10% scale is a s.9(c1f)(1) temporary provision extended to purchases up to and including 10 Feb 2027 (see the Mas Rechisha section below). Verify current brackets at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` (page often updated mid-January).
+- **Land Taxation (Appreciation and Purchase) Law 5723-1963** — חוק מיסוי מקרקעין; Mas Rechisha (purchase tax) + Mas Shevach (appreciation/capital gains tax). Source: Israel Tax Authority `https://www.gov.il/he/departments/topics/realty_taxation`.
+- **Buyer's tax brackets — non-resident scale** — normally re-indexed by the Tax Authority each 16 January to the CBS housing index, but indexation is frozen for tax years 2025-2027 (brackets fixed through 15 January 2028); the non-resident 8% / 10% scale is a s.9(c1f)(1) temporary provision extended to purchases up to and including 10 Feb 2027 (see the Mas Rechisha section below). Verify current brackets at `https://www.gov.il/he/pages/pa121026-2` (ITA notice 12 Oct 2026).
 - **Olim 7-year purchase-tax incentive** — Section 12 of the Land Taxation Regulations, anchored in the Aliyah & Integration framework. Source: Ministry of Aliyah & Integration `https://www.gov.il/he/departments/ministry_of_aliyah_and_integration` and Tax Authority guidance.
 - **Property Tax Compensation Fund (Israel Tax Authority)** — Property Tax and Compensation Fund Law 5721-1961 (מס רכוש וקרן פיצויים); pays for direct war/missile damage to property (structures + contents up to caps). Source: `https://www.gov.il/en/departments/topics/compensation_fund` and `https://www.gov.il/he/service/online-direct-damage-claim` (Tax Authority portal).
 - **Wartime tax measures (2023–2026)**: temporary purchase-tax bracket adjustments under Order 5784; Compensation Fund claim deadlines extended for evacuee zones (Otef Aza, Northern border). Verify currency at Tax Authority and Knesset legislation database `https://main.knesset.gov.il/Activity/Legislation/Pages/default.aspx`.
@@ -93,7 +93,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - 7-year window (1 year before to 7 years after Aliyah) unchanged
 
 - **Israeli-resident "single home" buyer**: progressive 0% / 3.5% / 5% / 8% / 10% scale up to ~ILS 6,055,070 (verify) — *not* available to non-residents.
-- **Bracket indexation FROZEN 2025-2027**: normally indexed annually on 16 January to the CBS housing price index, but indexation is **frozen for tax years 2025, 2026, 2027** under the Economic Efficiency Law / 2025 budget directives; January-2024 brackets remain fixed in nominal shekels through 15 January 2028 — restart planned thereafter, no backfill (2026-05-27 verified per Economic Efficiency Law late-2024 budget package; previously indexed source: Tax Authority circular page `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase`).
+- **Bracket indexation FROZEN 2025-2027**: normally indexed annually on 16 January to the CBS housing price index, but indexation is **frozen for tax years 2025, 2026, 2027** under the Economic Efficiency Law / 2025 budget directives; January-2024 brackets remain fixed in nominal shekels through 15 January 2028 — restart planned thereafter, no backfill (2026-05-27 verified per Economic Efficiency Law late-2024 budget package; previously indexed source: Tax Authority circular page `https://www.gov.il/BlobFolder/policy/inst-01-2025-3/he/realestate_inst-01-2025-3.pdf`).
 - **CRITICAL**: the bracket numbers above are 2026 reference points; verify current values at the Tax Authority page before signing — bracket amounts are frozen through 15 January 2028 (see above), the 8% / 10% non-resident scale is a temporary provision covering purchases up to and including 10 Feb 2027 (ITA notice 12 Oct 2026; see Future risk), and rates have been adjusted mid-year by emergency wartime orders since October 2023.
 
 ### Property Tax Compensation Fund (Israel Tax Authority) — wartime damage cover
@@ -272,7 +272,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 
 ### Transaction tax — Mas Rechisha (מס רכישה)
 
-**Mas Rechisha is the buyer's purchase tax.** Brackets normally indexed annually on **16 January** to CBS housing index, but indexation is **FROZEN for tax years 2025-2027** under the Economic Efficiency Law / 2025 budget directives; January-2024 brackets remain fixed in nominal shekels through 15 January 2028 (2026-05-27 verified per late-2024 budget package). Verify current values at `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase`.
+**Mas Rechisha is the buyer's purchase tax.** Brackets normally indexed annually on **16 January** to CBS housing index, but indexation is **FROZEN for tax years 2025-2027** under the Economic Efficiency Law / 2025 budget directives; January-2024 brackets remain fixed in nominal shekels through 15 January 2028 (2026-05-27 verified per late-2024 budget package). Verify current values at `https://www.gov.il/he/service/real_eatate_taxsimulator`.
 
 #### 2026 reference brackets (verify before signing — indexation frozen through 15 January 2028; the 8% / 10% scale is a temporary provision for purchases up to and including 10 Feb 2027)
 
@@ -319,7 +319,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Legal basis**: Land Taxation (Appreciation and Purchase) Law 5723-1963, Chapter Three.
 - **Standard rate**: 25% on the real (CPI-indexed) capital gain for individuals; 23% for corporations (matching corporate tax rate).
 - **Linear formula**: gain accrued before 7 November 2001 is taxed at the marginal income-tax rate of the seller (up to 50%); gain accrued from 7 November 2001 onward is taxed at the flat 25%. Sellers compute via the official Mas Shevach Linear Calculator at the Tax Authority site.
-- **Primary residence exemption (פטור מדירה יחידה)**: Israeli-resident sellers who own a single residential dwelling and have held it ≥ 18 months may claim a full Mas Shevach exemption (subject to ownership-history conditions). Source: Tax Authority `https://www.gov.il/he/departments/topics/real_estate_taxation`.
+- **Primary residence exemption (פטור מדירה יחידה)**: Israeli-resident sellers who own a single residential dwelling and have held it ≥ 18 months may claim a full Mas Shevach exemption (subject to ownership-history conditions). Source: Tax Authority form 2988 (seller's declaration for the s.49B(2) single-dwelling exemption) `https://www.gov.il/BlobFolder/service/real-estate-tax-inst-2988/he/Service_Pages_Real_Estate_Taxation_misui2988.pdf`.
 - **Non-resident sellers**: typically pay 25% on the post-2001 gain; primary-residence exemption rarely applies (requires Israeli residency conditions).
 - **Withholding at sale**: buyer's attorney withholds an interim Mas Shevach (`ניכוי במקור`) at closing and remits to Tax Authority; final assessment within 4 years.
 
@@ -400,7 +400,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 - **Average monthly gross 2025**: ~ILS 13,500 (verify CBS current; pre-tax)
 - **Tel Aviv tech sector**: ~ILS 25,000–50,000/month (senior engineer / mid-level PM)
 - **Periphery / non-tech**: ~ILS 8,000–15,000/month
-- **Minimum wage 2026**: ~ILS 5,880/month (verify; updated periodically; current at `https://www.gov.il/he/departments/ministry_of_economy_and_industry`)
+- **Minimum wage 2026**: ILS 6,443.85/month from 1 April 2026 (ILS 6,247.67 from 1 April 2025; verify; updated periodically; current at Bituach Leumi `https://www.btl.gov.il/Mediniyut/GeneralData/Pages/%D7%A9%D7%9B%D7%A8%20%D7%9E%D7%99%D7%A0%D7%99%D7%9E%D7%95%D7%9D.aspx`)
 
 ### Anglo-Olim profession quirks
 
@@ -467,7 +467,7 @@ Foreign nationals **may legally purchase residential property in Israel** subjec
 | **Post-2005 TAMA 38 era** | Many pre-1980 buildings retrofitted seismically |
 | **Post-2020 SI 413 revision** | Strongest earthquake standards |
 
-- **Asbestos**: pre-1990 buildings frequently contain asbestos (roofs, pipe insulation, wall panels). Removal regulated by Asbestos Hazards Prevention Law 5771-2011; mandatory licensed contractor for friable asbestos. Source: `https://www.gov.il/he/departments/topics/asbestos_dust_pollution`.
+- **Asbestos**: pre-1990 buildings frequently contain asbestos (roofs, pipe insulation, wall panels). Removal regulated by Asbestos Hazards Prevention Law 5771-2011; mandatory licensed contractor for friable asbestos. Source: `https://www.gov.il/he/pages/prevention_of_hazards_from_asbestos_and_harmful_dust_law`.
 
 ### Mandatory diagnostics at sale
 
@@ -644,8 +644,8 @@ Israel has **near-universal mains water + sewer in urban areas** but verificatio
 | Tabu Land Registry | `https://www.gov.il/he/service/land_registration_extract` |
 | Land Registry main page | `https://www.gov.il/he/departments/land_registration_and_settlement_of_rights_department` |
 | RMI / Israel Land Authority | `https://www.gov.il/he/departments/israel_land_authority` |
-| Tax Authority real estate | `https://www.gov.il/he/departments/topics/real_estate_taxation` |
-| Mas Rechisha brackets | `https://www.gov.il/he/departments/dynamiccollectors/tax-rates-real-estate-purchase` |
+| Tax Authority real estate | `https://www.gov.il/he/departments/topics/realty_taxation` |
+| Mas Rechisha brackets | `https://www.gov.il/he/service/real_eatate_taxsimulator` |
 | Tax Authority transactions database | `https://www.gov.il/he/departments/dynamiccollectors/realestate_purchase_data` |
 | CBS dwelling price index | `https://www.cbs.gov.il/he/subjects/Pages/מחירי-דירות.aspx` |
 | Bank of Israel financial stability | `https://www.boi.org.il/en/communication-and-publications/regular-publications/financial-stability/` |

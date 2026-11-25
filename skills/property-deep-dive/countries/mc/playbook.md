@@ -8,7 +8,7 @@
 
 ## Country profile
 
-Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE — see `--demographics`). Constitutional monarchy under House of Grimaldi. **Most expensive resale market in the world**: 2024 IMSEE "Marché Immobilier Monégasque" weighted-average resale **€51,418/m²** (2023: €51,103). Civil-law jurisdiction descended from French Code Napoléon — notarial transfer process tracks France closely (notaire monégasque mandatory). **Three structural quirks set Monaco apart from every neighbour**: (1) NO annual property tax (taxe foncière), (2) NO capital-gains tax on resale, (3) NO personal income tax for Monaco residents (except French nationals under the 1963 bilateral). All three are stable since the 1963 fiscal convention with France and confirmed by `gouv.mc` 2024-25. Critical 2024 reform: **Loi n° 1.560 (3 December 2024)** closed the SCI loophole that historically let buyers pay 7.5% via opaque civil-society structures — now uniformly 4.5% droits d'enregistrement on the underlying property whether the vehicle is direct or SCI. Foreign-buyer regime is **OPEN** (no nationality restriction in the private sector / domaine privé); the SECTEUR DOMANIAL (state-owned social housing reserved for Monégasques) is closed to non-Monégasques and irrelevant to foreign-buyer analysis.
+Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE — see `--demographics`). Constitutional monarchy under House of Grimaldi. **Most expensive resale market in the world**: 2024 IMSEE "Marché Immobilier Monégasque" weighted-average resale **€51,418/m²** (2023: €51,103). Civil-law jurisdiction descended from French Code Napoléon — notarial transfer process tracks France closely (notaire monégasque mandatory). **Three structural quirks set Monaco apart from every neighbour**: (1) NO annual property tax (taxe foncière), (2) NO capital-gains tax on resale, (3) NO personal income tax for Monaco residents (except French nationals under the 1963 bilateral). All three are stable since the 1963 fiscal convention with France and confirmed by `gouv.mc` 2024-25. Critical 2023 reform: **Loi n° 1.548 (6 July 2023)**, for acts registered from 1 Oct 2023, raised the reduced droits d'enregistrement from 4.5% to 4.75% (natural persons and transparent Monaco sociétés civiles) and set 10% where the buying entity's beneficial owners are not identified; 7.5% remains the standard rate. Foreign-buyer regime is **OPEN** (no nationality restriction in the private sector / domaine privé); the SECTEUR DOMANIAL (state-owned social housing reserved for Monégasques) is closed to non-Monégasques and irrelevant to foreign-buyer analysis.
 
 ---
 
@@ -76,11 +76,11 @@ Microstate of ~2.08 km² on the Côte d'Azur (~38,367 residents end-2023, IMSEE 
 
 ### Transfer tax on purchase (droits d'enregistrement)
 
-- **Standard 4.5%** of the higher of price / market value, on resale acquisition by a private buyer (residents and non-residents alike). Source: Code de l'enregistrement; rate confirmed `monservicepublic.gouv.mc` 2024-25 (2026-05-27 verified, source `monservicepublic.gouv.mc` — post-PR #184 portal rename from `service-public-particuliers.gouv.mc`).
+- **Reduced rate 4.75%** (4.5% before 1 Oct 2023) of the higher of price / market value, on resale acquisition by a natural person or a transparent Monaco société civile (residents and non-residents alike). Source: Loi n° 580 art. 12 as amended by Loi n° 1.548 of 6 Jul 2023 art. 9 (Journal de Monaco n° 8651); the `monservicepublic.gouv.mc` page still shows the pre-2023 4.5% (2026-05-27 verified, source `monservicepublic.gouv.mc` — post-PR #184 portal rename from `service-public-particuliers.gouv.mc`).
 - **Reduced 1%** for acquisitions by Monégasques and certain qualifying residents (specific schemes — verify per-buyer with the notaire; do NOT assume).
-- **Loi n° 1.560 du 3 décembre 2024**: closed the SCI / civil-society loophole that historically let opaque vehicles attract 7.5% (the higher rate that applied when the vehicle owner was anonymous / non-named). After the reform, **transfers via SCI / société civile particulière are taxed at the same 4.5%** as direct acquisitions, **provided beneficial owners are identified to the tax administration**. Where beneficial ownership cannot be identified (anonymous foreign trusts, opaque offshore vehicles), the **7.5% rate continues to apply** as the punitive default — verify the exact rate applicable to any non-SCI / non-direct vehicle with the notaire monégasque before signing the compromis. Source: Journal de Monaco published text — verify exact effective date and transitional regime with the notaire for any SCI-held transaction in 2024-25 (2026-05-27 verified, source Cases & Lacambra + Journal de Monaco).
+- **Loi n° 1.548 du 6 juillet 2023** (acts registered from 1 Oct 2023): the reduced rate for a natural person or a Monaco société civile whose partners are exclusively identified natural persons rose from 4.5% to **4.75%** (Loi n° 580 art. 12); other buyers pay the **7.5%** standard rate (art. 13 bis, which also taxes transfers of shares in Monaco sociétés civiles holding Monaco property); where the buying entity's beneficial owners are not identified to the Direction des Services Fiscaux (anonymous foreign trusts, opaque offshore vehicles) the rate is **10%** (art. 16 2°). Loi n° 1.560 (2 Jul 2024) regulates marchands de biens, not SCI acquisitions — verify the exact rate applicable to any non-SCI / non-direct vehicle with the notaire monégasque before signing the compromis. Source: Journal de Monaco published text — verify exact effective date and transitional regime with the notaire for any SCI-held transaction in 2024-25 (2026-05-27 verified, source Cases & Lacambra + Journal de Monaco).
 - **Notaire fees (émoluments)**: regulated by **Loi n° 1.014 du 4 mai 1981** governing the profession of notaire monégasque + subsequent grand-ducal-equivalent ordinances. Practitioner-quoted band: **~1.5% of price** all-in for typical resale (variable by price tranche; degressive scale similar to French notarial barème). **Always request the notaire's projet d'émoluments before signing the compromis**.
-- **Total acquisition cost** (resale, private buyer, no SCI): typically ~6% all-in (4.5% droits + ~1.5% notaire + minor débours). New-build: see VAT below — TVA 20% replaces droits d'enregistrement on first sale by promoter to end-buyer.
+- **Total acquisition cost** (resale, private buyer, no SCI): typically ~6.25% all-in (4.75% droits + ~1.5% notaire + minor débours). New-build: see VAT below — TVA 20% replaces droits d'enregistrement on first sale by promoter to end-buyer.
 
 ### Annual property tax (taxe foncière)
 
@@ -271,7 +271,7 @@ Universal logic in `shared/notary-process.md`. Monaco-specific:
 - Profession governed by **Loi n° 1.014 du 4 mai 1981** + accompanying ordonnances. Small profession (~3-5 active études).
 - **Timeline**: compromis de vente → 6-10 weeks notarial searches → acte authentique. 10% deposit standard at compromis.
 - **Title search**: notaire pulls full historical chain at Direction de l'Enregistrement et du Timbre; buyer cannot self-serve (no public cadastre).
-- **Closing costs**: ~6% all-in resale (4.5% droits + ~1.5% émoluments + minor débours). New-build: 20% TVA replaces droits; émoluments lower.
+- **Closing costs**: ~6.25% all-in resale (4.75% droits + ~1.5% émoluments + minor débours). New-build: 20% TVA replaces droits; émoluments lower.
 - **Cooling-off**: not codified the same way as FR's loi SRU 10-day window — negotiate explicitly in the compromis.
 - **Title insurance**: not customary (notaire's chain-of-deeds search is the warranty); UK/US-style title insurance not in market.
 
@@ -324,14 +324,14 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 | Fontvieille €/m² | ~€42,000 |
 | New-build apex floors (Mareterra / Testimonio II) | >€100,000/m² (per agency, verify per listing) |
 | Prime gross rental yield | ~2-3% |
-| Droits d'enregistrement (resale, private) | 4.5% |
+| Droits d'enregistrement (resale, private) | 4.75% |
 | Notaire émoluments | ~1.5% |
 | TVA on new-build first sale | 20% |
 | Taxe foncière (annual) | €0 (none) |
 | Personal income tax | 0% (except FR nationals) |
 | CGT on Monaco property resale | 0% |
 | Inheritance, direct line | 0% |
-| Total acquisition costs (resale) | ~6% all-in |
+| Total acquisition costs (resale) | ~6.25% all-in |
 
 ---
 
@@ -350,7 +350,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 
 **Open regime** — no nationality restriction on private real-estate acquisition in **secteur libre / domaine privé**. EU and non-EU buyers treated identically for ownership rights.
 
-- **No quota, no preapproval, no foreign-buyer surcharge.** Same 4.5% droits d'enregistrement applies to all private buyers.
+- **No quota, no preapproval, no foreign-buyer surcharge.** Same 4.75% droits d'enregistrement applies to all private buyers (natural persons or transparent Monaco sociétés civiles).
 - **Restricted segment**: **secteur domanial / secteur protégé** (state-owned and rent-controlled stock for Monégasques and long-term residents) — closed to non-Monégasques and not relevant to foreign-buyer transactional analysis.
 - **Mortgage practice (lender-imposed, not legal restriction)** — Monaco's mortgage lending is **private-bank-led** (BNP Paribas Wealth Management Monaco, Société Générale Private Banking Monaco, Crédit Foncier de Monaco, EFG Bank Monaco, J. Safra Sarasin Monaco, CMB Monaco):
   - Non-resident foreign buyer: typical **LTV ~60%** subject to bank's wealth/AUM relationship; commonly conditioned on **assets-under-management** at the same bank
@@ -385,7 +385,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 - **Single-notaire transaction model** — one notaire can act for both buyer and seller (vs FR's typical 2-notaire arrangement). Buyer-side legal review by an avocat conseil is standard for non-French-speaking buyers.
 - **Compromis de vente (preliminary contract) → acte authentique (final deed)**: typical timeline 6-10 weeks; deposit 10% standard; rétractation cooling-off period not codified the same way as FR's 10-day SRU window — **negotiate explicitly in the compromis**.
 - **French national fiscal exception** — Convention 1963 makes France-passport residents the only nationality not benefiting from Monaco's 0% PIT. Investment thesis for FR-passport buyers is materially different (Monaco residency does NOT shield from FR income tax). Naturalisation to a non-FR citizenship before establishing Monaco residency is a recurring tax-planning lever — discuss with FR-MC dual-tax adviser.
-- **SCI ownership** — historically routed through SCI to anonymise beneficial owner and (pre-2024) reduce certain transactional friction; **Loi n° 1.560 (Dec 2024) closed the rate-arbitrage** between direct and SCI acquisition (now both 4.5%). SCI still useful for succession-planning continuity; consult notaire.
+- **SCI ownership** — historically routed through SCI to anonymise beneficial owner and reduce certain transactional friction; a transparent Monaco SCI pays the same 4.75% as a direct buyer, an entity whose beneficial owners are not identified 10% (**Loi n° 1.548, 2023**). SCI still useful for succession-planning continuity; consult notaire.
 - **Bank-of-residency dependency** — opening a Monaco-licensed bank account is a prerequisite for residency, mortgage, and rent payment; banks operate selectively (KYC-heavy, AUM minimums commonly €500k-€1M for retail private bank, higher for full wealth-management). Choosing the bank is a strategic decision that long-precedes the property choice.
 - **Domaine privé vs secteur domanial** — strictly separate stock; foreign buyers cannot acquire domanial units regardless of price offered. Listings on the open market are by definition domaine privé.
 - **Earthquake of 1887 Ligurian** — last significant felt event; damage to Mentone-Monaco coastal masonry. Eurocode 8 enforced for new builds; older Rocher / Condamine stock built to pre-modern seismic standards.
@@ -422,7 +422,7 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 | IMSEE Marché Immobilier | https://www.monacostatistics.mc/Logement-Immobilier |
 | Fiscalité particuliers | https://monservicepublic.gouv.mc/Fiscalite |
 | Résidence (foreign-buyer) | https://monservicepublic.gouv.mc/en/events-in-your-life/settling-in-monaco |
-| Loi n° 1.560 (SCI reform) | https://journaldemonaco.gouv.mc/ (search by loi number) |
+| Loi n° 1.548 (2023 duty rates) | https://journaldemonaco.gouv.mc/Journaux/2023/Journal-8651/Loi-n-1.548-du-6-juillet-2023-portant-diverses-dispositions-d-ordre-fiscal |
 | Convention fiscale FR-MC 1963 | https://www.legifrance.gouv.fr/ + https://gouv.mc/Gouvernement-et-Institutions |
 | Plan Climat | https://transition-energetique.gouv.mc/ |
 | Real-estate agent directory | https://www.chambre-immobiliere-monaco.mc/ |
@@ -431,20 +431,20 @@ Universal logic in `shared/exit.md`. Monaco-specific:
 
 ## Status
 
-**Confidence**: MEDIUM — HIGH on foundational legal framework (Code Civil + Loi 1.014 notarial barème + Ordonnance Souveraine droits d'enregistrement 4.5% / 7.5% trust+offshore vehicles, monservicepublic.gouv.mc portal as primary admin gateway, EUR adoption via 2001/2011 monetary agreement, no income tax for residents except French nationals under 1963 convention). MEDIUM for notarial émolument exact bands (verify per deal at Chambre des Notaires), practitioner-quoted LTV bands (no public mortgage-stats publication), and CAP 39's interaction with parcel-level cadastre. LOW on residential listing-price currentness (luxury market with high deal-to-deal variance — pull current asking from agent at point of analysis).
+**Confidence**: MEDIUM — HIGH on foundational legal framework (Code Civil + Loi 1.014 notarial barème + droits d'enregistrement 4.75% / 7.5% / 10% unidentified-beneficial-owner vehicles (Loi n° 580 as amended by Loi n° 1.548), monservicepublic.gouv.mc portal as primary admin gateway, EUR adoption via 2001/2011 monetary agreement, no income tax for residents except French nationals under 1963 convention). MEDIUM for notarial émolument exact bands (verify per deal at Chambre des Notaires), practitioner-quoted LTV bands (no public mortgage-stats publication), and CAP 39's interaction with parcel-level cadastre. LOW on residential listing-price currentness (luxury market with high deal-to-deal variance — pull current asking from agent at point of analysis).
 
 **Last verified**: 2026-05-27
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: HIGH on no annual property tax (gouv.mc + PwC + OECD multi-source), no CGT on Monaco real estate, 4.5% droits d'enregistrement standard rate, Convention fiscale franco-monégasque 1963 carving French nationals out of the PIT exemption, IMSEE 2024 weighted-average resale ~€51,400/m², open foreign-buyer regime in secteur libre / domaine privé. MEDIUM on per-quartier €/m² figures (IMSEE publishes weighted averages but small-cohort quartiers like Monaco-Ville have wide CIs — always pull latest IMSEE PDF before quoting), exact Loi n° 1.560 transitional regime for SCI transactions in 2024-25 (verify with notaire monégasque), residency financial-means bar of ~€500k bank deposit (practitioner-quoted, NOT statutory; varies by bank). LOW on DPE / energy-diagnostic mandatoriness (Monaco does not yet have an EPC regime equivalent to French DPE for sale disclosure as of 2025; PNEC may evolve — confirm with notaire). LOW on per-listing new-build apex prices (Mareterra / Testimonio II >€100k/m² figures originate from agency reporting, not IMSEE — `(per listing — verify with notaire monégasque)`).
+**Notes**: HIGH on no annual property tax (gouv.mc + PwC + OECD multi-source), no CGT on Monaco real estate, 4.75% droits d'enregistrement reduced rate, Convention fiscale franco-monégasque 1963 carving French nationals out of the PIT exemption, IMSEE 2024 weighted-average resale ~€51,400/m², open foreign-buyer regime in secteur libre / domaine privé. MEDIUM on per-quartier €/m² figures (IMSEE publishes weighted averages but small-cohort quartiers like Monaco-Ville have wide CIs — always pull latest IMSEE PDF before quoting), exact rate for SCI and other-vehicle transactions under Loi n° 1.548 (verify with notaire monégasque), residency financial-means bar of ~€500k bank deposit (practitioner-quoted, NOT statutory; varies by bank). LOW on DPE / energy-diagnostic mandatoriness (Monaco does not yet have an EPC regime equivalent to French DPE for sale disclosure as of 2025; PNEC may evolve — confirm with notaire). LOW on per-listing new-build apex prices (Mareterra / Testimonio II >€100k/m² figures originate from agency reporting, not IMSEE — `(per listing — verify with notaire monégasque)`).
 
 ---
 
 ## Extension TODOs
 
 - IMSEE per-quartier resale series tracker (auto-pull the annual PDF, extract weighted averages per quartier with sample-size flag)
-- Loi n° 1.560 SCI-reform follow-up: monitor 2025-26 Journal de Monaco for transitional-regime amendments
+- Droits d'enregistrement follow-up: monitor the Journal de Monaco for amendments to Loi n° 580 arts. 12 / 13 bis / 16 (arts. 12 and 16 last changed by Loi n° 1.548, 2023)
 - Mareterra delivery cohort price tracker (programme just delivered 2024 — first resale liquidity 2026-2028)
 - Convention fiscale FR-MC 1963 ratification monitor (no current renegotiation announced, but periodic FR-side noise about updating the bilateral)
 - DPE / EPC regulatory introduction monitor (Plan Climat 2050 may pull energy-disclosure mandate forward)

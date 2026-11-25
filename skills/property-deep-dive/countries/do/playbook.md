@@ -9,7 +9,7 @@ ISO2: `do`. Status: ✅ Fully populated (researched 2026-05-01).
 - **Currency**: **DOP** (Peso dominicano). 1 USD ≈ 60–63 DOP (2025 BCRD reference range — verify daily). **USD parallel pricing universal** in resort/tourist property; high-end Punta Cana, Cap Cana, Las Terrenas, Casa de Campo deals are USD-denominated. Non-tourist housing (Santo Domingo middle market, Santiago, San Cristóbal) typically priced in DOP.
 - **Languages**: Spanish (official). English widely used in Punta Cana, Las Terrenas, Sosúa, Cabarete, Cap Cana resort sectors. French + Italian common in Las Terrenas (large expat colony).
 - **Cadastre / land registry**:
-  - **Jurisdicción Inmobiliaria** (Land Registration Jurisdiction, est. by **Ley 108-05** of 2005, in force 2007): `https://ji.gob.do/`
+  - **Jurisdicción Inmobiliaria** (Land Registration Jurisdiction, est. by **Ley 108-05** of 2005, in force 2007): `https://ri.gob.do/` (Registro Inmobiliario; ji.gob.do redirects there)
   - **Tribunal Superior de Tierras (TST)**: appellate court for title; sits in 4 regional jurisdictions (Norte, Central, Departamento Este, Departamento Noreste)
   - **Registro de Títulos**: per-jurisdiction title office issuing `Certificado de Título`
   - **Dirección Nacional de Mensuras Catastrales (DNMC)** — surveyor-side cadastre: `https://indomet.gob.do/`
@@ -481,7 +481,7 @@ URL hubs: `https://caasd.gob.do/`, `https://www.coraasan.gob.do/`, `https://inap
 
 | Source | URL pattern |
 |---|---|
-| Jurisdicción Inmobiliaria | `https://ji.gob.do/` |
+| Jurisdicción Inmobiliaria (Registro Inmobiliario) | `https://ri.gob.do/` |
 | Registro de Títulos (per jurisdicción) | via JI portal |
 | DNMC catastro | `https://indomet.gob.do/` |
 | DGII (IPI + transfer + RNC) | `https://www.dgii.gov.do/` |

@@ -228,7 +228,7 @@ Regime change eff 1 Jan 2026 under Nigeria Tax Act 2025 — flat 10 % REPLACED (
 
 ### Future risk
 
-Tax Reform Bills 2024-25 pending; state revenue intensification post-devaluation (Lagos LUC re-assessments + other states tenement digitization).
+Nigeria Tax Act 2025 (2025 No. 7) enacted, VAT kept at 7.5% (s. 148); state revenue intensification post-devaluation (Lagos LUC re-assessments + other states tenement digitization).
 
 **Confidence**: HIGH for federal framework (Stamp Duty + CGT + VAT + Finance Acts — all NRS, formerly FIRS); MEDIUM for state-level Consent Fee + Registration sliding scales (Lagos LSLB best-documented, rates evolve — verify per transaction); MEDIUM for 2026 LUC assessed values (Lagos re-assessment cycle ongoing).
 
@@ -245,7 +245,7 @@ Tax Reform Bills 2024-25 pending; state revenue intensification post-devaluation
 
 ### Tax on rental income
 
-- **Resident landlord**: PIT progressive on net rental — restructured bands eff 1 Jan 2026 (₦800k tax-free threshold; 0/7/11/15/.../25% top; pre-2026 7-24% scale superseded — see --tax); state IRS administers, e.g., LIRS
+- **Resident landlord**: PIT progressive on net rental — restructured bands eff 1 Jan 2026 (₦800k tax-free threshold; 0–25% bands, Nigeria Tax Act 2025 Fourth Schedule; pre-2026 7-24% scale superseded — see --tax); state IRS administers, e.g., LIRS
 - **Non-resident landlord**: rental income Nigeria-sourced → 10% withholding when tenant is a withholding agent; verify NRS + state IRS per case
 - **Deductions**: maintenance, repairs (not capital improvements), management commission, mortgage interest
 
@@ -557,7 +557,7 @@ Lagos coastal: AC year-round; SLR exposure for parcels <5 m elevation; flood-pro
 
 - **NGN — Nigerian Naira** (₦, ISO 4217 NGN)
 - **Régime**: **managed float since Jun 2023** (CBN unified dual rate system at "willing buyer/willing seller"); previously multi-window pre-Jun 2023
-- **CBN MPR**: **26.5 % (May 2026, MPC 305th meeting communique 20 May 2026)** — cut from late-2025 27.50 % stance (verify monthly `https://www.cbn.gov.ng/monetary-policy/`; 2026-05-27 verified)
+- **CBN MPR**: **23 % since 22 Sep 2026, retained 24 Nov 2026** ([CBN MPC Communiqué No. 165](https://www.cbn.gov.ng/Out/2026/CCD/MPC%20Communique%20No%20165%20of%20November%202026.pdf)); earlier 26.5 % (May 2026, MPC 305th meeting communique 20 May 2026) — cut from late-2025 27.50 % stance (verify monthly `https://www.cbn.gov.ng/monetary-policy/`; 2026-05-27 verified)
 - **Capital controls**: structural — CBN FEMA Act 1995 governs FX; inbound documented via **CBN Form A (services) / Form M (imports) / Form NCX (capital)**; outbound subject to CBN approval. Documented inflow = repatriation eligible (analogous to Egyptian Form 4)
 
 ### USD in RE
@@ -789,7 +789,7 @@ Lagos (Lekki Phase 1 / VI / Ikoyi): coworking + amenity dense; security overlay 
 
 - **GDP growth 2024**: ~3.4% (NBS); 2025 est. ~3.0-3.5% (CBN + IMF Article IV; verify Q4 2025)
 - **Inflation (CPI YoY)**: peaked >34 % mid-2024; **15.69 % NBS CPI April 2026** (food 16.06 %; core 15.86 %); 2025 NBS CPI rebasing reset the index (2026-05-27 verified)
-- **CBN MPR**: **26.5 % (May 2026, MPC 305th meeting)** — cut from late-2025 27.50 % (verify monthly at CBN MPC Communiqué; 2026-05-27 verified)
+- **CBN MPR**: **23 % since 22 Sep 2026, retained 24 Nov 2026**; earlier 26.5 % (May 2026, MPC 305th meeting) — cut from late-2025 27.50 % (verify monthly at CBN MPC Communiqué; 2026-05-27 verified)
 - **Unemployment**: NBS revised methodology 2023-24 puts urban unemployment ~5-6%; underemployment higher
 - **NGN/USD**: **~NGN 1,370–1,400/USD May 2026 (CBN official, 20 May 2026)** — appreciation from 2024 ~₦1,650+ peak (verify daily; 2026-05-27 verified)
 - **Sovereign rating**: B-/B / Caa1 (S&P/Fitch/Moody's mid-2024); verify 2026
@@ -919,7 +919,7 @@ Agent 5% + CGT on net gain (progressive PIT 0–25% / 30% CIT-aligned eff 1 Jan 
 | CGT on sale | **Progressive PIT 0–25% / 30% CIT on net gain (eff 1 Jan 2026; pre-2026 flat 10% superseded)** | NRS — Nigeria Tax Act 2025 |
 | VAT first-sale residential / commercial | **0% / 7.5%** | NRS (formerly FIRS) — Finance Act 2019 |
 | NHF mortgage rate | **6%** (federal employees + NHF) | FMBN |
-| Commercial NGN / USD mortgage rate | **22–32% / ~7–10%** | CBN MPR 26.5% (May 2026, MPC 305th meeting) / Stanbic+Ecobank |
+| Commercial NGN / USD mortgage rate | **22–32% / ~7–10%** | CBN MPR 23% since 22 Sep 2026, retained 24 Nov 2026 / Stanbic+Ecobank |
 | Energy autonomy stack — mid Lagos home/mo | **NGN 200k–800k** | Diesel + inverter + LPG + solar |
 | Generator (5-15 kVA mid home) | NGN 1.5M–6M | Vendor |
 | Solar + 5-10 kWh battery | NGN 5M–25M | REA installers |

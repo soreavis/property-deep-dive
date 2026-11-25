@@ -112,7 +112,7 @@ For the property's country, return:
 - **TW**: **Gold Card** (4-yr work + residency, no investment, high-skill applicants — 8 categories) is the practical DN-equivalent for qualifying skill-sets; standard visitor visa otherwise — verify with NIA / BOCA
 - **LI**: NO DNV; quota-based residency only (~28 EEA + ~17 third-country/year); short-stay via Schengen extension 2011 for ≤90 days
 - **MO**: NO DNV; tourist 30-90 days for many nationalities; Talent Programme 2024 NOT remote-work-targeted
-- **AD**: NO formal DNV; **Residència Passiva** (~€600k OR €350k + €50k AFA) used as remote-base by some nomads; passive ≥90d/yr / active ≥183d/yr
+- **AD**: NO formal DNV; **Residència Passiva** (€1M minimum investment + €50k non-refundable contribution + €12k per dependant, Llei 2/2026) used as remote-base by some nomads; passive ≥90d/yr / active ≥183d/yr
 - **MC**: NO DNV; carte de séjour (~€500k bank deposit) is the residency route; visitor 90 days for Schengen-eligible nationalities
 - **MD**: NO formal DNV as of 2026 (proposals raised 2023-2024 but not enacted as of May 2026); tourist 90 days visa-free for many; Investor Residency Law 200/2010 (€250k 5yr) is the practical longer-term route
 
@@ -292,7 +292,7 @@ Standard rule across most skill-supported countries:
 - 🇦🇿 AZ: 182 days = resident; worldwide income at progressive 14-25% (2026 — verify Min. Tax)
 - 🇹🇳 TN: 183 days = resident; worldwide income at progressive 0-35% (2026 — verify Direction Générale des Impôts); 80% abatement on foreign pension under Art. 36 Code IRPP — verify
 - 🇮🇳 IN: 182 days = resident (60-day shorter rule for Indian citizens with India-sourced income); worldwide income for residents at progressive 0-30% + surcharge + 4% cess; **LRS USD 250k/yr cap on outbound remittance**; treaty relief under DTAA — verify CBDT
-- 🇳🇬 NG: 183 days = resident; worldwide income for residents at progressive 7-24% + 2.5% NHF (2026 — verify NRS, the Nigeria Revenue Service, formerly FIRS); minimal treaty network
+- 🇳🇬 NG: 183 days = resident; worldwide income for residents at PIT 0-25% bands (Nigeria Tax Act 2025, Fourth Schedule) + 2.5% NHF (2026 — verify NRS, the Nigeria Revenue Service, formerly FIRS); minimal treaty network
 - 🇰🇪 KE: 183 days OR ≥122 days/yr × 3 yrs = resident; worldwide income at progressive 10-35% PIT (2026 — verify KRA)
 - 🇯🇴 JO: 183 days = resident; worldwide income at progressive 5-30% + 1% national-contribution PIT (2026 — verify ISTD / Income & Sales Tax Dept)
 - 🇴🇲 OM: 183 days = resident (per Royal Decree 28/2009 / Tax Authority practice); **NO PIT for individuals** (Oman individual income-tax law drafted 2022 NOT enacted as of May 2026 — verify Tax Authority); foreign pension/income NOT subject to OM personal taxation

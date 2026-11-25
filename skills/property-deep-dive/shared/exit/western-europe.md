@@ -68,7 +68,7 @@
 - **Contract**: mandat de vente exclusive 3-6 mo
 - **MLS**: NO MLS; thin market; **Chambre Immobilière de Monaco + Riviera-aligned portals** (FNAIM-style cross-listings to FR Côte d'Azur) — agent-driven
 - **Discount**: 5-10% off asking; ultra-prime narrower
-- **Sell-side**: **NO CGT** on real-estate gain in MC (NO PIT regime — except FR nationals via 1963 Convention); droits d'enregistrement ~4.5% + notaire ~1.5% (typically buyer-side); commission 3% each + 20% TVA
+- **Sell-side**: **NO CGT** on real-estate gain in MC (NO PIT regime — except FR nationals via 1963 Convention); droits d'enregistrement ~4.75% + notaire ~1.5% (typically buyer-side); commission 3% each + 20% TVA
 - **Liquidity**: 🟢 MEDIUM-HIGH Monte-Carlo / La Condamine / Larvotto core (UHNW global demand sustained 2020-2026); 🟠 MEDIUM Fontvieille; thin secondary
 - **Quirks**: **Sûreté Publique due-diligence** required for non-resident buyers/sellers (KYC + source-of-funds); **carte de séjour pathway requires ~€500k bank deposit** + property purchase or rental practitioner; **NO PIT/CGT is the principal draw** sustaining global UHNW demand; sea-level rise concern (Plan Bleu / Plan Climat); cross-border seasonal demand from FR (Nice/Menton) and IT (Imperia)
 
@@ -80,7 +80,7 @@
 - **Discount**: 5-12% off asking; village stock deeper
 - **Sell-side**: **plusvàlua municipal sliding** (parish-by-parish; commune-level; 0% after long hold); IRPF 0/5/10% on gain at AD-resident progressive rates — verify Departament de Tributs i Fronteres; commission 3-5%
 - **Liquidity**: 🟠 MEDIUM Andorra la Vella / Escaldes-Engordany core; 🟠 MEDIUM-HIGH ski-zone (La Massana / Encamp / Canillo) seasonal Dec-Apr; 🔴 LOW village stock off-season
-- **Quirks**: **Llei 26/2024 STR regulation + parish quotas** narrow short-let economics (verify per parròquia at Govern d'Andorra); foreign-buyer registration at Govern d'Andorra mandatory since 2012 reform; **20yr to naturalisation** (longest in Western Europe); CASS social-security mandatory for residents; high mountain isolation; ~75% non-Andorran of ~85k pop sustains buyer-pool diversity (ES/FR/PT/UK)
+- **Quirks**: **Llei 16/2017 STR regulation (as amended by Llei 5/2025) + parish quotas** narrow short-let economics (verify per parròquia at Govern d'Andorra); foreign-buyer registration at Govern d'Andorra mandatory since 2012 reform; **20yr to naturalisation** (longest in Western Europe); CASS social-security mandatory for residents; high mountain isolation; ~75% non-Andorran of ~85k pop sustains buyer-pool diversity (ES/FR/PT/UK)
 
 ## 🇸🇲 San Marino
 - **DOM**: Città di San Marino (UNESCO historic centre) ~120-300+ (preservation-zone constraints — long absorption) / Borgo Maggiore + Serravalle (commercial / largest castelli) 90-180 / Domagnano / Acquaviva / Faetano residential 90-180 / Fiorentino / Chiesanuova / Montegiardino smaller 150-300+ [verify with UTCC + Conservatoria dei Registri Immobiliari]

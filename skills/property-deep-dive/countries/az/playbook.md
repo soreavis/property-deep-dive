@@ -493,7 +493,7 @@ Universal — see `shared/climate-projections.md`. National source: National Hyd
 
 ### Mortgage market
 
-- **Regulator**: [CBAR — Central Bank of Azerbaijan Republic](https://www.cbar.az/) — sets prudential rules, monetary-policy rate (refinancing rate 7.25 % Q1 2026 — verify), loan-classification rules
+- **Regulator**: [CBAR — Central Bank of Azerbaijan Republic](https://www.cbar.az/) — sets prudential rules, monetary-policy rate (refinancing rate 6.5 %, corridor 5–7.5 %, from 24 Sep 2026 — verify), loan-classification rules
 - **Major banks** (CBAR 2024 supervisory list — 26 licensed banks):
   - **Kapital Bank** (largest retail; PASHA Holding)
   - **PASHA Bank** (corporate + retail; PASHA Holding)
@@ -554,8 +554,8 @@ Universal — see `shared/climate-projections.md`. National source: National Hyd
 
 ### CBAR FX reserves + oil-revenue stabilisation
 
-- **State Oil Fund (SOFAZ — Dövlət Neft Fondu)**: `https://www.oilfund.az/` — sovereign-wealth fund holding ~US$60bn (Q1 2026), dominant FX-buffer
-- CBAR + SOFAZ: combined FX reserves ~US$75bn, providing peg-defence capacity for cyclical oil-price pressure (verify current at cbar.az + oilfund.az)
+- **State Oil Fund (SOFAZ — Dövlət Neft Fondu)**: `https://www.oilfund.az/` — sovereign-wealth fund holding US$74.0bn at 30 Sep 2026 (US$73.5bn at 1 Jan 2026; [SOFAZ statement, 20 Oct 2026](https://www.oilfund.az/en/fund/press-room/news-archive/1782)), dominant FX-buffer
+- CBAR + SOFAZ: combined FX reserves ~US$89bn (CBAR [US$15.4bn at 30 Oct 2026](https://www.cbar.az/infoblocks/money_reserve_usd?language=en) + SOFAZ [US$74.0bn at 30 Sep 2026](https://www.oilfund.az/en/fund/press-room/news-archive/1782), computed), providing peg-defence capacity for cyclical oil-price pressure (verify current at cbar.az + oilfund.az)
 - Policy implication: AZN peg is robust under "ordinary" oil-price cycles; sustained sub-$50 oil for 12+ months would test it (last test 2015–16 → forced devaluation)
 
 ### Tail risks
@@ -689,7 +689,7 @@ AZ is **civil-law**; **notar (notarius)** mandatory for any immovable-property t
 - **Lowest property-acquisition tax in the immediate region** (1–2 % vs Türkiye 5–8 %)
 - **Currency stability under de-facto USD peg** since 2017 — among the most stable regional currencies for USD-denominated buyers (vs GEL/AMD floats and TRY hyperinflation)
 - **AZN 100,000 real-estate-linked TRP** comparable to Georgia US$150k (US$100k before 1 Mar 2026); lowest in Caucasus + Caspian region
-- **Oil + gas economy** provides macro buffer (SOFAZ ~US$60bn) but creates concentrated commodity-price tail risk
+- **Oil + gas economy** provides macro buffer (SOFAZ US$74.0bn at 30 Sep 2026) but creates concentrated commodity-price tail risk
 - **Karabakh + East Zangezur reintegration zones** (2024–2030 reconstruction) create subsidised investment opportunities for qualified investors
 - **No CBI** unlike Türkiye + Caribbean peers — naturalisation requires actual residence + language + dual-citizenship renunciation
 - **Restricted dual citizenship + ag/border bans** narrow long-term-resident foreign buyers
@@ -783,8 +783,8 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 - **Inflation 2025**: ~3.0–4.5 % headline (CBAR target ~4 %)
 - **Unemployment 2024 Q4**: ~5.5 % (SSC) — masked by high informal-economy participation
 - **Public debt / GDP**: ~18 % (Ministry of Finance) — low by regional standard, oil-revenue-buffered
-- **CBAR refinancing rate Q1 2026**: 7.25 % (verify current at cbar.az)
-- **SOFAZ assets (Q1 2026)**: ~US$60bn
+- **CBAR refinancing rate**: 6.5 % from 24 Sep 2026, corridor 5–7.5 % (verify current at cbar.az)
+- **SOFAZ assets**: US$73.5bn at 1 Jan 2026, US$74.0bn at 30 Sep 2026
 
 ### Trend drivers (2024–2030)
 
@@ -793,7 +793,7 @@ AZ is a **niche** retirement destination — primarily for diaspora-return + Rus
 - **Karabakh + East Zangezur reconstruction**: ~AZN 30bn (~US$18bn) committed 2024–2030; major infrastructure + housing pipeline
 - **COP29 (Baku, Nov 2024)**: signalled climate-finance + green-investment positioning; LT-LEDS 2050 net-zero
 - **Middle Corridor / Trans-Caspian transit**: post-2022 EU-Asia logistics shift increases AZ corridor volume → port + rail + road infrastructure tailwind
-- **CBAR + SOFAZ buffer**: combined FX reserves ~US$75bn — robust cyclical defence
+- **CBAR + SOFAZ buffer**: combined FX reserves ~US$89bn (CBAR 30 Oct 2026 + SOFAZ 30 Sep 2026, computed) — robust cyclical defence
 
 ### IMF Article IV (latest)
 

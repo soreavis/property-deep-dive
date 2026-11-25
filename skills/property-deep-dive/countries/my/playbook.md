@@ -61,7 +61,7 @@ Foreigners can purchase residential property in their own name (freehold or leas
 | **Pahang** | **MYR 1,000,000** (residential, post-2020 EXCO); some hill-resort exceptions | Pahang State Authority | State Land Office |
 | **Terengganu** | **MYR 1,000,000** (residential, est.) | Terengganu State Authority | State Land Office |
 | **Kelantan** | **MYR 1,000,000** (residential, est.) | Kelantan State Authority | State Land Office |
-| **Sabah** | **MYR 600,000** (residential, current EXCO); separate Sabah Land Ordinance regime | Sabah State Authority | Sabah Lands & Surveys Dept `https://jtu.sabah.gov.my` |
+| **Sabah** | **MYR 600,000** for one high-rise unit (apartment, condominium or high-rise commercial suite in a mixed development; Part VI 7.2) and **MYR 1,000,000** for other residential land and units (para 5(e)–(f)), under the Sabah State Secretary's circular on the 2022 guideline on property acquisition by foreign interests, in force 1 Apr 2022, per a law-firm summary and a third-party copy of the circular (the sabah.gov.my copy returned an error; not verified to a primary source — 2026-11-25); separate Sabah Land Ordinance regime | Sabah State Authority | Sabah Lands & Surveys Dept `https://jtu.sabah.gov.my` |
 | **Sarawak** | **MYR 600,000–1,000,000** depending on division and category; separate Sarawak Land Code regime | Sarawak State Authority | Sarawak Lands & Survey Dept `https://landsurvey.sarawak.gov.my/` |
 
 > Where a band shows "est." or "verify", the state EXCO circular is the only citable source — these numbers shift after each state budget cycle. **Always treat the table as the floor for triage; the SPA-binding number must come from the state circular as of the offer date.**
