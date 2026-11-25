@@ -261,7 +261,7 @@ Combine with country playbook output: `/property-deep-dive <addr> --all --journe
 
 ### Country-specific reliefs
 
-- 🇫🇷 **LMNP / LMP** (location meublée non-professionnelle): 50% abatement (micro-BIC) or real expenses (réel) + amortization — PLF 2027 art. 7 (bill, not adopted as of 2026-11-06; rejected by the Assemblée on 4 Nov 2026, the Senate takes up the government text from 20 Nov) would cap réel amortisation at 2.5 % and €7,000/yr per foyer fiscal (1.5 % and €5,000 for a meublé de tourisme); see shared/regulatory-watch.md (FR)
+- 🇫🇷 **LMNP / LMP** (location meublée non-professionnelle): 50% abatement (micro-BIC) or real expenses (réel) + amortization — PLF 2027 art. 7 (bill, not adopted as of 2026-11-25; rejected by the Assemblée on 4 Nov 2026; the Senate adopted art. 7 amended on 24 Nov 2026) would cap réel amortisation at 2.5 % and €7,000/yr per foyer fiscal (1.5 % and €5,000 for a meublé de tourisme), in the Senate first-reading text not for lets begun by 1 Oct 2026 while the owner is unchanged; see shared/regulatory-watch.md (FR)
 - 🇮🇹 **Cedolare secca**: long-term 21% (canone libero) / 10% (canone concordato, qualifying comuni); short-let 26%, cut to 21% for one unit the taxpayer names, max 2 short-let apartments from 2026 (above two the activity is presumed a business) (2026 data, source Agenzia delle Entrate)
 - 🇪🇸 **Reducción 60%** for long-term residential rental
 - 🇩🇪 **AfA** (Absetzung für Abnutzung): 2-3% depreciation
