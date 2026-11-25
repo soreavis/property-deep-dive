@@ -251,6 +251,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): TCMB cut Türkiye's policy rate to 36%, and other follow-ups ([#606](https://github.com/soreavis/property-deep-dive/pull/606)) — by @soreavis
 
+- fix(source-audit): Nigeria's stamp duty is a flat 1.5%, and other corrections ([#607](https://github.com/soreavis/property-deep-dive/pull/607)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
