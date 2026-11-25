@@ -247,6 +247,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): Hungary's wealth tax adopted by parliament, not yet promulgated ([#604](https://github.com/soreavis/property-deep-dive/pull/604)) — by @soreavis
 
+- fix(regwatch): Greece's Law 5355/2026 enacts the 15% non-EU/EEA transfer tax ([#605](https://github.com/soreavis/property-deep-dive/pull/605)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
