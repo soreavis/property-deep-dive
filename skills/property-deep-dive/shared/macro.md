@@ -158,7 +158,7 @@ For each country, primary macro sources:
 | **BCCR Costa Rica** | 3.50% | held |
 | **PA (USD-dollarized)** | follows Fed Funds 3.75-4.00% (since 16 Sep 2026) | Fed-bound |
 | **Fed Funds (US)** | 3.75-4.00% | raised 25 bp from 3.50-3.75% on 16 Sep 2026, 12-0 vote (2026 data, source federalreserve.gov FOMC statement of 16 Sep 2026); next FOMC 27-28 Oct 2026 — verify |
-| **TCMB (Turkey)** | 37.00% | set 23 Jan 2026, held through PPK 10 Sep 2026 (TCMB 2026-38); eased from 50% Mar-2024 peak — verify against latest TCMB MPC |
+| **TCMB (Turkey)** | 36.00% | cut 100 bp from 37% at PPK 22 Oct 2026 (TCMB 2026-45; 37% had applied from 23 Jan 2026); eased from 50% Mar-2024 peak; next PPK 10 Dec 2026 — verify against latest TCMB MPC |
 | **CBUAE (UAE)** | ~4.40% (EIBOR-aligned) | Fed-bound via AED/USD peg 3.6725 |
 | **BoJ (Japan)** | 1.25% | 0.50% (Jan 2025) → 0.75% (Dec 2025) → 1.0% (16 Jun 2026) → 1.25% (18 Sep 2026, effective 24 Sep 2026; 2026 data, source BoJ MPM k260918a); held at 1.25% on 30 Oct 2026 (8-1; 2026 data, source BoJ MPM k261030a); first hike cycle since 2007 — next MPM 17-18 Dec 2026 |
 | **BoT (Thailand)** | 2.50% | hold; cut path debated as THB strengthens |
@@ -343,7 +343,7 @@ Approximate (verify on FRED / Refinitiv / each central bank's website):
 - IS (CBI 8.00% — +25 bp hike 19 Aug 2026, held 7 Oct 2026; CPI 5.9% vs 2.5% target)
 - US (Fed 3.75-4.00% — 25 bp hike 16 Sep 2026; re-classify after the 27-28 Oct 2026 FOMC)
 - BR (BCB 13.75% since 17 Sep 2026 — high level, but easing: see Recovery / cutting above; BCB SGS 432)
-- TR (TCMB 37.0% — held 10 Sep 2026, eased from 50% Mar-2024 peak; CPI 31.51% YoY Aug 2026)
+- TR (TCMB 36.0% — cut 100 bp on 22 Oct 2026, high level but easing from the 50% Mar-2024 peak; CPI 31.51% YoY Aug 2026)
 - AR (volatile peso band)
 - EG (CBE ~22-24% post-IMF Mar 2024 devaluation; CPI declining from 30%+)
 - UY (BCU 8.5% — restrictive)
@@ -465,7 +465,7 @@ The 18 countries below were added to the skill in 2026-Q1/Q2 (Tier-1 PR #57; Tie
 
 **US** — CPI ~2.5% YoY (Q1 2026 est., verify BLS https://www.bls.gov/cpi/); GDP ~2.5% (2025 BEA advance est., verify https://www.bea.gov); Fed Funds 3.75-4.00% (25 bp hike 16 Sep 2026, federalreserve.gov; next FOMC 27-28 Oct 2026); 10y UST ~4.30%; cyclical phase: tightening (re-check after the 27-28 Oct 2026 FOMC).
 
-**TR** — TÜFE 31.51% YoY Aug 2026 (TÜİK via TCMB PPK summary 2026-42; high-inflation regime, easing from Oct-2022 peak 85.51%; verify TÜİK https://www.tuik.gov.tr); GDP ~3-4% (2025 est., verify); TCMB policy rate 37.00% (held at PPK 10 Sep 2026, TCMB 2026-38; cut from 50% Mar-2024 peak — verify against latest MPC https://www.tcmb.gov.tr); 10y TRY yield ~28-32%; USD eurobond ~7.5% — that's the cleaner foreign-buyer reference. Macro flag: **post-hyperinflation normalization, FX risk extreme** — TRY lost ~80% vs USD 2021-2024.
+**TR** — TÜFE 31.51% YoY Aug 2026 (TÜİK via TCMB PPK summary 2026-42; high-inflation regime, easing from Oct-2022 peak 85.51%; verify TÜİK https://www.tuik.gov.tr); GDP ~3-4% (2025 est., verify); TCMB policy rate 36.00% (cut from 37% at PPK 22 Oct 2026, TCMB 2026-45; down from the 50% Mar-2024 peak — verify against latest MPC https://www.tcmb.gov.tr); 10y TRY yield ~28-32%; USD eurobond ~7.5% — that's the cleaner foreign-buyer reference. Macro flag: **post-hyperinflation normalization, FX risk extreme** — TRY lost ~80% vs USD 2021-2024.
 
 **AE** — CPI ~2-3% (low, pegged regime); GDP ~3-4% (2025); CBUAE EIBOR ~4.40% — Fed-bound via AED/USD peg 3.6725 (no independent monetary policy); USD-equivalent 10y ~4.40%. Macro flag: **stable / pegged**, USD-correlated.
 
