@@ -253,6 +253,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(source-audit): Nigeria's stamp duty is a flat 1.5%, and other corrections ([#607](https://github.com/soreavis/property-deep-dive/pull/607)) — by @soreavis
 
+- fix(playbooks): Tier-A refresh of 11 playbooks, 450 refuted changes; re-date ES and UK ([#608](https://github.com/soreavis/property-deep-dive/pull/608)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
