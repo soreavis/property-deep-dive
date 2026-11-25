@@ -249,6 +249,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): Greece's Law 5355/2026 enacts the 15% non-EU/EEA transfer tax ([#605](https://github.com/soreavis/property-deep-dive/pull/605)) — by @soreavis
 
+- fix(regwatch): TCMB cut Türkiye's policy rate to 36%, and other follow-ups ([#606](https://github.com/soreavis/property-deep-dive/pull/606)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
