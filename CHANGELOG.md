@@ -255,6 +255,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(playbooks): Tier-A refresh of 11 playbooks, 450 refuted changes; re-date ES and UK ([#608](https://github.com/soreavis/property-deep-dive/pull/608)) — by @soreavis
 
+- fix(source-audit): Andorra's 6%/10% tax and €1M residency floor, and other corrections ([#609](https://github.com/soreavis/property-deep-dive/pull/609)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
