@@ -183,7 +183,7 @@ LOW — per-segment traffic counts comparable to EU/UK datasets are **not public
 
 ### Annual property tax — Real Estate Tax (الضريبة العقارية)
 
-**Law 196/2008** as amended (most recently 2020) — administered by the **Real Estate Tax Authority** under Ministry of Finance + Egyptian Tax Authority (`https://eta.gov.eg/`).
+**Law 196/2008** as amended (most recently 2026, by Law 3 of 2026, issued 2 Apr 2026 and in force from the day after publication — law number and date not verified to a primary source — 2026-11-25; the Ministry of Finance's 6 Oct 2026 explainer puts the primary-home exemption at one unit worth up to EGP 8M, with EGP 100,000 deducted from its net rental value ([mof.gov.eg](https://mof.gov.eg/ar/media/learn-more/news-2)), and a Finance Ministry statement of 11 Oct 2026 extended the window for dispute settlement and the late-charge waiver to 2 Apr 2027 ([rta.gov.eg](https://www.rta.gov.eg/news/%D9%85%D8%AF-%D9%81%D8%AA%D8%B1%D8%A9-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A5%D9%82%D8%B1%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B6%D8%B1%D8%A7%D8%A6%D8%A8-%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D9%8A%D8%A9-%D8%AD%D8%AA%D9%89-%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D9%A2%D9%A0%D9%A2%D9%A6))) — administered by the **Real Estate Tax Authority** under Ministry of Finance + Egyptian Tax Authority (`https://eta.gov.eg/`).
 
 **Formula (residential)**:
 ```

@@ -58,7 +58,7 @@ ISO2: `sm`. Status: ✅ Fully populated (researched 2026-05).
 - *Atto pubblico di compravendita* = notarial deed
 - *Visura catastale* = cadastral extract
 - *Imposta di registro* = registration tax
-- *Imposta straordinaria sugli immobili (ISI)* = annual property tax (see `--tax`)
+- *Imposta straordinaria sugli immobili (ISI)* = extraordinary property levy, decreed for single years (see `--tax`)
 
 ---
 
@@ -88,21 +88,21 @@ ISO2: `sm`. Status: ✅ Fully populated (researched 2026-05).
 
 ## Section: `--tax`
 
-### Annual property tax — Imposta Straordinaria sugli Immobili (ISI)
+### Property tax — Imposta Straordinaria sugli Immobili (ISI), an extraordinary levy
 
-San Marino's recurring property tax is the **ISI (Imposta Straordinaria sugli Immobili)**, introduced by **Legge di Bilancio 22 dicembre 2011 n.200** (later amended; consolidated framework via Decreto Delegato 30 aprile 2018 n.44 — `https://www.consigliograndeegenerale.sm/on-line/home/documento17100638.html`).
+San Marino's property tax is the **ISI (Imposta Straordinaria sugli Immobili)**, an extraordinary levy decreed for single years, not an annual tax: for the 2012 financial year under **Legge di Bilancio 22 dicembre 2011 n.200** art. 36 as amended by Legge 21 dicembre 2012 n.150 art. 36 (`https://www.consigliograndeegenerale.sm/on-line/home/in-evidenza-in-home-page/documento17054533.html`), on the cadastre at 31 Dec 2012 and paid in 2013 (Decreto Delegato 23 luglio 2013 n.90 — `https://www.pa.sm/docs/circApplISI.pdf`); for the 2018 financial year on the cadastre at 31 Dec 2017 (Decreto Delegato 30 aprile 2018 n.44 — `https://www.consigliograndeegenerale.sm/on-line/home/documento17100638.html`, ratified with amendments as DD 25 giugno 2018 n.71 — `https://www.consigliograndeegenerale.sm/on-line/home/documento17101870.html`); and in 2020 on companies only, again on the cadastre at 31 Dec 2017 (Decreto Delegato 30 gennaio 2020 n.8, under art. 48 of Legge 24 dicembre 2018 n.173 — `https://gov.sm/pub2/GovSM/dam/jcr:99fdb91e-ec67-410f-9776-714ec1587e9b/24118571CIRCOLAREPATRIMO.pdf`). Legge 150/2012 art. 36 also extended the 2012 levy to the 2013 fiscal year; no decree applying that extension, and no ISI decree after 2020, was found on 2026-11-25 (not verified to a primary source — 2026-11-25).
 
-- **Primary residence (abitazione principale)**: **EXEMPT** — small/medium primary homes actually inhabited by the owner are not subject to ISI. ~85% of Sammarinese residents are owner-occupiers, so ISI primarily catches second homes + non-resident-held stock + larger/luxury primary residences exceeding the size threshold
-- **Second home / non-resident-held residential**: ISI applies; rate depends on cadastral category + class with **a fixed component + a variable component** assessed on the *rendita catastale* (cadastral rental value) — published per-category bands in the Decreto Delegato schedule
-- **150 EUR deduction** for owners holding a mortgage or lease contract on the property
-- **Rate range (est.)**: effective combined ISI on a typical second-home apartment trends around **0.3–0.8% of cadastral value/yr** (rendita-based, NOT market-value based — cadastral values typically substantially below market) → in cash terms **a few hundred to low-four-digit € annually for typical apartments** — verify per parcel with Ufficio Tributario
-- **Verification**: ask the seller for the most recent **avviso di pagamento ISI** (assessment notice) — single cleanest evidence of the actual annual ISI bill
+- **Primary residence (abitazione principale)**: **not exempt** — the 2018 levy charged the household's registered-residence home 50% of the computed amount (75% for other property) and gave it a deduction of up to €400 (categories A1–A4, A7; +€50 per household member from the fifth) (DD 44/2018 as ratified by DD 71/2018, art. 1(5) and art. 3 — `https://www.consigliograndeegenerale.sm/on-line/home/documento17101870.html`)
+- **Second home / non-resident-held residential**: in the 2012 and 2018 levies ISI applied without the residence deduction (and in 2018 at 75% of the computed sum, against 50% for the registered-residence home); the 2020 levy fell on companies only; the amount depended on cadastral category + class with **a fixed component + a variable component** assessed on the *rendita catastale* (cadastral rental value) — per-category tables in each levy's law or decree (DD 44/2018 as ratified by DD 71/2018, arts. 1(5), 2 and 3 — `https://www.consigliograndeegenerale.sm/on-line/home/documento17101870.html`; circular to DD 90/2013 — `https://www.pa.sm/docs/circApplISI.pdf`; circular to DD 8/2020 — `https://gov.sm/pub2/GovSM/dam/jcr:99fdb91e-ec67-410f-9776-714ec1587e9b/24118571CIRCOLAREPATRIMO.pdf`)
+- **Other deductions (2018 levy)**: up to €400 on a unit that is the seat of the owner's own business, or a single fixed quota for such units (DD 44/2018 as ratified by DD 71/2018, art. 3(1)(c)–(d) — `https://www.consigliograndeegenerale.sm/on-line/home/documento17101870.html`); the decree lists no deduction for a mortgage or lease contract
+- **How it is computed**: dwellings pay (fixed quota by category and class + a percentage of the revalued *rendita catastale*) × 125/100 — e.g. A2 €110–150 + 20%, A1 €300–330 + 30%, A4 €100 + 10% — where the revalued rendita is the 1954 cadastral rendita × 60 for ordinary categories; the 2018 levy then charged 75% of that sum (50% on the household's registered-residence home); there is no single '% of cadastral value' rate (DD 44/2018 as ratified by DD 71/2018, arts. 1(5) and 2 — `https://www.consigliograndeegenerale.sm/on-line/home/documento17101870.html`; circular to DD 90/2013 — `https://www.pa.sm/docs/circApplISI.pdf`) — verify per parcel with Ufficio Tributario
+- **Verification**: ask the seller for the **ISI calculation statement (prospetto) and payment receipt** from the last levy — evidence of what was charged and that it was paid
 
-> ⚠️ The exact ISI rates per category/class are set in the consolidated Decreto Delegato schedule + annual Legge di Bilancio adjustments; treat the 0.3–0.8% headline as `est.` indicative and verify the parcel-specific rendita + applicable rate at Ufficio Tributario (`https://www.gov.sm/pub2/GovSM/La-PA-Risponde/FAQ.html?tema=Tributario`) before relying on a pro-forma annual cost.
+> ⚠️ The ISI fixed quotas and percentages per category/class are set in each levy's own law or decree (Legge 200/2011 art. 36, with DD 90/2013 art. 7 for the B categories, for 2012 — `https://www.pa.sm/docs/circApplISI.pdf`; DD 44/2018 art. 2 for 2018 — `https://www.consigliograndeegenerale.sm/on-line/home/documento17101870.html`; DD 8/2020 art. 2 for companies in 2020 — `https://gov.sm/pub2/GovSM/dam/jcr:99fdb91e-ec67-410f-9776-714ec1587e9b/24118571CIRCOLAREPATRIMO.pdf`); a new levy needs a new law or decree, so budget no recurring ISI unless one is enacted, and verify the parcel-specific rendita at Ufficio Tributario (`https://www.gov.sm/pub2/GovSM/La-PA-Risponde/FAQ.html?tema=Tributario`) before relying on a pro-forma cost.
 
-### Imposta Patrimoniale (annual wealth tax)
+### Imposta Patrimoniale Straordinaria (one-off wealth levy, 2018)
 
-- **Imposta Patrimoniale Straordinaria** (Legge 21 dicembre 2017 n.147 art. 48) levies on **net wealth of residents** including (a) real estate, (b) financial assets globally, (c) net assets of Sammarinese companies — **applies to RESIDENTS** principally; non-resident foreign owners subject to ISI on the property only, not to Imposta Patrimoniale on global wealth
+- **Imposta Patrimoniale Straordinaria** (Legge 21 dicembre 2017 n.147 art. 48; DD 44/2018 as ratified by DD 25 giugno 2018 n.71 — `https://www.consigliograndeegenerale.sm/on-line/home/documento17101870.html`) was a one-off levy for 2018 on holdings at 31 Dec 2017: (a) real estate — the 2018 ISI, due from all owners except companies paying (c), (b) financial assets wherever held, 0.5%, from residents only (new residents since 2015 and elective or economic residents: San Marino-held assets only), (c) net assets of Sammarinese companies, 0.3% — non-resident foreign owners paid only the ISI on their property
 - Practical: relevant for buyers establishing San Marino tax residency; not a non-resident concern
 
 ### Transaction taxes — Imposta di Registro + Catastale + Ipotecaria
@@ -174,7 +174,7 @@ Foundational law: **Legge 16 dicembre 2013 n.166** as amended (most recent mater
 
 - Rental income → IGR (residents progressive 9–35%); non-residents on SM-source rental — verify rate band + DTA coordination with home country
 - **No cedolare-secca-equivalent flat regime** comparable to Italy's 21%/26% — full progressive IGR applies
-- Deductibles: maintenance, mortgage interest, ISI on the rented property, agency fees — per IGR rules
+- Deductibles: maintenance, mortgage interest, agency fees — per IGR rules; ISI cannot be deducted from income (DD 44/2018 as ratified by DD 71/2018, art. 8(2) — `https://www.consigliograndeegenerale.sm/on-line/home/documento17101870.html`; circular to DD 8/2020 — `https://gov.sm/pub2/GovSM/dam/jcr:99fdb91e-ec67-410f-9776-714ec1587e9b/24118571CIRCOLAREPATRIMO.pdf`)
 - **Tenant-side relief (Legge 141/2025)**: a fiscally-resident tenant using the dwelling as their *dimora effettiva* claims an IGR *detrazione* of **15% on 50% of the annual canone, up to a €6,000 canone ceiling** — renter relief, not a landlord deduction. (2026-07-02 verified, source HLB San Marino digest of Legge 141/2025.)
 
 ### Yields (est.)
@@ -563,15 +563,15 @@ If any check fails, the deed is **null and void** — the notary's verification 
 
 | Country | Foreign-buyer rule | Acquisition cost (typical, resident) | Annual recurring | Yield (mid-tier) | Currency |
 |---|---|---:|---:|---:|---|
-| **🇸🇲 San Marino** | Open post-2018 (Legge 173/2018), 2-property cap, clean record + concession tax | 5–9% (resident) / 6–11% (non-resident) | ISI second-home (~0.3–0.8% cadastral est.); primary res. exempt | 3–5% | EUR (Mon. Agreement 2012) |
+| **🇸🇲 San Marino** | Open post-2018 (Legge 173/2018), 2-property cap, clean record + concession tax | 5–9% (resident) / 6–11% (non-resident) | No annual ISI: extraordinary levy only (2012, 2018; companies 2020) — fixed quota + 10–30% of revalued rendita for dwellings; primary res. deduction, not exemption | 3–5% | EUR (Mon. Agreement 2012) |
 | **🇮🇹 Italy** (adjacent Rimini province) | Open; *codice fiscale* required | 9–15% | IMU 0.4–1.06% catastral | 3–5% | EUR (Eurozone) |
-| **🇦🇩 Andorra** | Authorisation (Llei 10/2012) + non-resident progressive surcharge | 5.5–7% (resident) / 8–14%+ (non-resident) | Parish prop. tax low + Foc i Lloc + community fees | 3.5–5% | EUR (Mon. Agreement 2011) |
-| **🇲🇨 Monaco** | Open but supply-constrained; max-CoL | ~6% (4.5% droits + ~1.5% notaire) | minimal recurring; no income tax | 2–3% | EUR (Mon. Agreement 2002) |
+| **🇦🇩 Andorra** | Authorisation (Llei 5/2025) + foreign RE investment tax 6% on the first property / 10% beyond (Llei 3/2024 as amended by Llei 2/2026) | 5.5–7% (resident) / 11.5–17% (non-resident, computed) | Parish prop. tax low + Foc i Lloc + community fees | 3.5–5% | EUR (Mon. Agreement 2011) |
+| **🇲🇨 Monaco** | Open but supply-constrained; max-CoL | ~6.25% (4.75% droits + ~1.5% notaire) | minimal recurring; no income tax | 2–3% | EUR (Mon. Agreement 2002) |
 | **🇱🇮 Liechtenstein** | GVG-restricted — non-resident foreigners effectively excluded | 2–6% | Vermögenssteuer / Sollertrag | 3–5% | CHF |
 
 ### San Marino's distinctive position
 
-- **Lowest transaction-tax stack of the European microstate quartet** in resident-buyer terms; non-resident concession tax adds friction but is a flat €1,000 fee rather than the ~10% Andorran progressive surcharge
+- **Lowest transaction-tax stack of the European microstate quartet** in resident-buyer terms; non-resident concession tax adds friction but is a flat €1,000 fee rather than Andorra's foreign RE investment tax of 6% on the first property / 10% beyond
 - **Counter-balanced by**: small + thin RE market (low-three-digit annual transactions), 2-property cap for foreign individuals, IGR personal income tax up to 35% (less competitive than Monaco 0% / Andorra 10% top), 30-year naturalisation, no Schengen membership (de facto open ITA border but separate immigration regime)
 - **Best fit**: tax-residency seekers wanting Italian-speaking environment with materially lower IGR than Italy's IRPEF (43% top); HNW retirees / remote-workers compatible with mountain-Adriatic-hinterland lifestyle; entrepreneurs setting up SM company under Residenza per Motivi Economici (51% + employees + €75k/€150k deposit)
 - **Worse fit**: pure non-resident investment-only buyers seeking >2 properties; CBI/passport-driven investors (no programme); buyers needing Schengen membership for visa-free non-EU travel from a passport
@@ -601,7 +601,7 @@ San Marino is a **viable retirement destination** for HNW retirees seeking Itali
 
 ### Tax position for retirees
 
-- **No standalone wealth tax** for non-residents on SM property (Imposta Patrimoniale Straordinaria targets residents)
+- **No standalone wealth tax** for non-residents on SM property (the one-off 2018 Imposta Patrimoniale Straordinaria taxed residents' financial assets; non-resident foreign owners paid only its ISI part on their property)
 - **No standalone inheritance tax in direct line** between qualifying heirs (verify with notary for collateral cases)
 - Foreign pension income: SM-resident IGR (progressive 9–35%); DTA with Italy (in force 2013) eliminates most overlap; verify with home-country DTA
 
@@ -663,7 +663,7 @@ San Marino is a **viable retirement destination** for HNW retirees seeking Itali
 - **Geographic distribution**: Serravalle ~32% / Borgo Maggiore ~20% / Città di San Marino ~12% / Domagnano ~10% / Fiorentino ~8% / Acquaviva ~6% / Faetano ~3.5% / Chiesanuova ~3.4% / Montegiardino ~2%
 - **Sammarinese vs foreign**: Sammarinese decreasing (low TFR ~1.0–1.2 — among lowest EU); foreign in-migration (predominantly Italian, with smaller East-EU + non-EU components) drives net population growth
 - **Median age**: ~46–48 (ageing; aligned with ITA + AD profile)
-- **Households**: ~14,000–15,000; avg size ~2.3; high owner-occupier rate (~85% per ISI exemption justification)
+- **Households**: ~14,000–15,000; avg size ~2.3; high owner-occupier rate (~85%, not verified to a primary source — 2026-11-25)
 
 ### Implication for property
 
@@ -738,8 +738,8 @@ San Marino is a **viable retirement destination** for HNW retirees seeking Itali
 | Imposta Monofase (new-build first sale) | 17% of price (in lieu of Registro) |
 | Estate agent commission (each side, where engaged) | 3% of price |
 | APE certificate | 200–500 |
-| Annual ISI (second home, est.) | 0.3–0.8% of cadastral value |
-| Annual ISI (primary residence, owner-occupied) | EXEMPT |
+| ISI (extraordinary levy, 2012 and 2018; companies 2020) | fixed €100–600 + 10–30% of revalued rendita (dwellings), × 125/100; in 2018 then × 75% (DD 71/2018) |
+| ISI (primary residence, owner-occupied) | not exempt: 50% of the computed ISI less a deduction up to €400 (2018, DD 71/2018); €350 deduction in 2012 |
 | Condominium fees (mid-tier apt) | €60–€200/month |
 | Fire insurance + home contents (70 m² apt) | €280–€900/year combined |
 | Renovation (basic refresh / full retrofit, 70 m² apt) | €25k–€65k / €80k–€220k |
@@ -800,7 +800,7 @@ Pre-2018, all non-citizen acquisitions required **prior authorisation of the Con
 - **Italian-language closing documents** — non-Italian-speaking buyers need sworn translator + commercialista
 - **No standalone HPI / OMI-equivalent index** — cross-reference adjacent ITA Rimini-province OMI for benchmarking
 - **APE mandatory at sale** — aligned with EU EPBD
-- **ISI primary residence exemption** structural; second-home and non-resident-held stock taxed
+- **ISI is an extraordinary levy, not annual** (2012, 2018; companies 2020); primary residences got a deduction (up to €400 in 2018), not an exemption
 - **IGR top 35% (residents) — Legge 141/2025 reform effective 2026**; less competitive than MC/AD but materially below ITA IRPEF 43%
 - **Small notarial profession** — handful of practising notai; pre-book at deal-stage
 - **UNESCO centro storico Città di San Marino** — heritage-protection layer; alteration restrictions
@@ -862,13 +862,13 @@ Pre-2018, all non-citizen acquisitions required **prior authorisation of the Con
 
 **Status**: ✅ fully populated as of 2026-05-07
 
-**Confidence**: MEDIUM — small market with thin publicly accessible price/transaction data. Primary-source confidence HIGH on legal framework (Legge 173/2018 + DD 105/2019 + Legge 154/2019 foreign-buyer regime; Legge 200/2011 + DD 44/2018 ISI; Legge 166/2013 + Legge 141/2025 IGR; Legge 94/2017 Residenza Elettiva; EU–San Marino Monetary Agreement 2012 (amendments signed 19 Oct 2026, entry into force not established); EU customs union since 1991), institutional URLs (gov.sm + statistica.sm + finanze.sm + bcsm.sm + esteri.sm + iss.sm + aass.sm), and population (~33,987 Sept 2024 per Ufficio Statistica). MEDIUM on transaction-tax exact rates (Imposta di Registro band varies by deal type — verify per deal at Ufficio del Registro), ISI category-specific rates (~0.3–0.8% headline est. — verify per parcel rendita), Tassa di Concessione Governativa current quantum (verify at notary). LOW on per-Castello €/m² granularity (no SM HPI; ranges synthesised from listing aggregators + Tecnocasa notes + cross-border ITA OMI Rimini context — verify any specific deal via UTCC visura + bank appraisal + multiple agency comps).
+**Confidence**: MEDIUM — small market with thin publicly accessible price/transaction data. Primary-source confidence HIGH on legal framework (Legge 173/2018 + DD 105/2019 + Legge 154/2019 foreign-buyer regime; Legge 200/2011 + DD 44/2018 ISI; Legge 166/2013 + Legge 141/2025 IGR; Legge 94/2017 Residenza Elettiva; EU–San Marino Monetary Agreement 2012 (amendments signed 19 Oct 2026, entry into force not established); EU customs union since 1991), institutional URLs (gov.sm + statistica.sm + finanze.sm + bcsm.sm + esteri.sm + iss.sm + aass.sm), and population (~33,987 Sept 2024 per Ufficio Statistica). MEDIUM on transaction-tax exact rates (Imposta di Registro band varies by deal type — verify per deal at Ufficio del Registro), ISI (an extraordinary levy — 2012, 2018, companies 2020; no later decree found 2026-11-25 — check for a new one before budgeting), Tassa di Concessione Governativa current quantum (verify at notary). LOW on per-Castello €/m² granularity (no SM HPI; ranges synthesised from listing aggregators + Tecnocasa notes + cross-border ITA OMI Rimini context — verify any specific deal via UTCC visura + bank appraisal + multiple agency comps).
 
 **Last verified**: 2026-05-27 (chamber-of-commerce body name (ASE-CC) corrected 2026-09-18 per camcom.sm; EU Association Agreement status corrected 2026-09-24 per esteri.sm + Govern d'Andorra AA portal; 19 Oct 2026 signature recorded 2026-10-21 per Commission IP/26/2182 + Govern d'Andorra AA portal; amended EU–San Marino Monetary Agreement (signed 19 Oct 2026, entry into force not established) recorded in Currency status 2026-10-23 per Commission IP/26/2182, and Monetary Agreement CELEX corrected 2026-10-23 to 22012A0426(01) per EU Publications Office Cellar; provisional-application terms and San Marino ratification route added 2026-10-23 per Council doc ST 5290/25 (linked from esteri.sm) + strategic.sm; "Schengen-association negotiations" corrected 2026-10-28 to the EU–San Marino border-management agreement, with its pending residence-permit conditions added to `--visa` (cross-referenced from `--retirement` and `--digital-nomad` 2026-10-28), per OJ Council Decision (EU) 2024/1733 + COM(2026) 442 and annex, read via EU Publications Office Cellar). EU-association tracker entry re-checked 2026-10-23 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Opus 4.7 (microstate-batch, 2026-05)
 
-**Notes**: Watch list 2026 — (1) **EU Association Agreement** ratification (signed 19 Oct 2026; not in force or provisionally applied — watch the Consiglio Grande e Generale ratification, which gates provisional application (Oct–Dec 2026 expected per secondary press), then EP consent and ratification by all parties — major regulatory-spillover event if ratified, single-market alignment scenarios); (2) **EU–San Marino border-management agreement** (Council mandate 30 May 2024, Decision (EU) 2024/1733; concluded 26 Jan 2026; Commission signing and provisional-application proposal COM(2026) 442 of 7 Sep 2026 — watch the Council signing decision and EP consent, procedure 2026/0246(NLE); once applied, third-country residence permits need a genuine connection and an Italian security check, which reaches Residenza Elettiva); (3) **Legge 141/2025 IGR reform** in force 2026 — top rate 35% individuals / 18% corporate (was 17%); (4) annual Legge di Bilancio adjustments to ISI bands + Imposta di Registro rates; (5) Legge 64/2025 "Emergenza Casa" State-Guarantee mortgage rollout via banks. **Re-verify each annual budget law** for ISI/Registro/Monofase adjustments, Residenza Elettiva quantum decreto delegato, and any updates to the Legge 173/2018 foreign-buyer schedule.
+**Notes**: Watch list 2026 — (1) **EU Association Agreement** ratification (signed 19 Oct 2026; not in force or provisionally applied — watch the Consiglio Grande e Generale ratification, which gates provisional application (Oct–Dec 2026 expected per secondary press), then EP consent and ratification by all parties — major regulatory-spillover event if ratified, single-market alignment scenarios); (2) **EU–San Marino border-management agreement** (Council mandate 30 May 2024, Decision (EU) 2024/1733; concluded 26 Jan 2026; Commission signing and provisional-application proposal COM(2026) 442 of 7 Sep 2026 — watch the Council signing decision and EP consent, procedure 2026/0246(NLE); once applied, third-country residence permits need a genuine connection and an Italian security check, which reaches Residenza Elettiva); (3) **Legge 141/2025 IGR reform** in force 2026 — top rate 35% individuals / 18% corporate (was 17%); (4) any new ISI levy (ISI is extraordinary, decreed for single years: 2012, 2018, companies 2020) + annual Legge di Bilancio adjustments to Imposta di Registro rates; (5) Legge 64/2025 "Emergenza Casa" State-Guarantee mortgage rollout via banks. **Re-verify each annual budget law** for any new ISI levy and Registro/Monofase adjustments, Residenza Elettiva quantum decreto delegato, and any updates to the Legge 173/2018 foreign-buyer schedule.
 
 ## Extension TODOs (deepen on first real run)
 

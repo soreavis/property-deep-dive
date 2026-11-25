@@ -168,7 +168,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 14. MO (open but post-2007 Investment Residence suspended — no residence pathway via property; foreign buyer pool thin)
 15. LI (Lex Koller-equivalent + EEA-only freehold; quota residency limits buyer pool)
 16. MC (open but Sûreté Publique residence verification + €500k bank deposit gates qualifying buyer pool)
-17. AD (open since 2012 reform; foreigners must register at Govern d'Andorra; **STR Llei 26/2024 + parish quotas** narrow short-let economics)
+17. AD (open since 2012 reform; foreigners must register at Govern d'Andorra; **STR Llei 16/2017 (as amended by Llei 5/2025) + parish quotas** narrow short-let economics)
 18. TW (reciprocity-list-based; nationality determines eligibility — verify BOCA list)
 19. SA (Makkah/Madinah individual ownership Muslim natural persons only (RD M/14 art. 2(4)); Real-Estate-Owner Premium Residency requires SAR 4M; verify with Premium Residency Center / Real Estate General Authority)
 20. QA (foreigners limited to designated freehold zones — Pearl-Qatar / West Bay Lagoon / Lusail; rest leasehold; verify with MoJ Real Estate Registration)
@@ -216,7 +216,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 16. HK (~3-6% typical all-in per hk playbook — AVD Scale 2 only, same for every buyer since the BSD / SSD / NRSD abolition of 28 Feb 2024; HK$100 flat up to HK$4M, 6.5% top band above HK$109,574,470 since 26 Feb 2026 — IRD AVD FAQ)
 17. KR (~6-8% — acquisition tax 1-3% sliding by price + 0.2% local + agent ~0.4-0.9% + reg fee 0.6-1.5%)
 18. TW (~6-8% — deed tax 6% + agent 1-2% + reg + Land Value Increment Tax buyer-side rare)
-19. MC (~10-12% — 4.5% droits d'enregistrement + notary 1.5% + agent 3% + 20% TVA on agent fee — verify Direction des Services Fiscaux)
+19. MC (~10-12% — 4.75% droits d'enregistrement + notary 1.5% + agent 3% + 20% TVA on agent fee — verify Direction des Services Fiscaux)
 20. LI (~5-7% — Handänderungssteuer ~2% + commune + Grundbuchamt registration; CH-aligned)
 21. QA (~6-9% — ~0.25% transfer + notary + agent + freehold-zone-only restriction + verify with MoJ Real Estate Registration)
 22. SA (~5-8% — 5% transfer tax (Real Estate Disposal Tax / RETT 5%) + notary + agent; Premium Residency real-estate-owner SAR 4M minimum)
@@ -320,7 +320,7 @@ These are computed from the per-country playbooks and refreshed on `--update`. T
 16. UY (no formal RBI; the draw is the IRNR election on foreign capital income for the year of change + 10 years — from 2026 it needs more than UI 12.5M in real estate, at least UI 625k a year in qualifying funds, or 183 days a year, Ley 20.446 art. 648)
 17. CL (no formal RBI; investor-visa via Sociedad)
 18. **HK CIES reactivated Mar 2024** — HK$30M total + ≤HK$10M residential (Investments Office, ImmD)
-19. **AD Residència Passiva** — ~€600k OR €350k + €50k AFA deposit (passive ≥90d/yr)
+19. **AD Residència Passiva** — €1M minimum investment + €50k non-refundable contribution + €12k per dependant (Llei 2/2026; passive ≥90d/yr)
 20. **MC carte de séjour** — ~€500k bank deposit + property/rental practitioner (Sûreté Publique)
 21. **MD Investor Residency Law 200/2010** — €250k 5yr → naturalisation eligibility 8yr; CBI ENDED via Law 100/2020
 22. **KR F-2 Investor** — ₩600M property/business via designated route, 5yr → F-5 PR
@@ -398,7 +398,7 @@ When comparing, surface country-level structural flags:
 - 🚩 KR: **jeonse rental-deposit system** unique risk (post-2022 HUG fraud-crisis reforms); comprehensive real estate tax 종부세 0.5-5% on multi-home owners — among most progressive globally
 - 🚩 TW: 2024 Hualien M7.4 earthquake — seismic disclosure increasingly priced in; reciprocity-list-based foreign-buyer eligibility (verify BOCA list)
 - 🚩 MO: Investment Residence SUSPENDED since 2007 — no residency pathway via property; tourism + casino-economy ~50% GDP creates high cyclicality; concessões 2022 renewed 10yr
-- 🚩 AD: **Llei 26/2024** STR regulation + parish quotas narrow short-let economics; **20yr to naturalisation** (longest in Western Europe); CASS social-security mandatory for residents
+- 🚩 AD: **Llei 16/2017** STR regulation (as amended by Llei 5/2025) + parish quotas narrow short-let economics; **20yr to naturalisation** (longest in Western Europe); CASS social-security mandatory for residents
 - 🚩 MC: residence pathway requires Sûreté Publique due-diligence + ~€500k bank deposit + property purchase or rental practitioner; **NO PIT** is the principal draw (except FR nationals via 1963 Convention)
 - 🚩 LI: quota-based residency (~28 EEA + ~17 third-country/year by lottery) — Lex-Koller-equivalent narrows buyer pool; Personal Residence Programme rare petition only
 - 🚩 MD: **Transnistria scope excluded** from any due-diligence on titles east of Dniester; CBI ENDED via Law 100/2020; Investor Residency Law 200/2010 (€250k) is the practical track; Romanian-citizenship-by-descent → EU passport path commonly used in parallel
@@ -659,19 +659,19 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | EU member? | NO (Monetary Treaty 2011, EUR) | NO (Monetary Treaty, EUR) | NO (EEA member; CHF currency union with CH) |
 | Schengen | NO | YES (Schengen via FR) | YES (via 2011 extension) |
 | Personal income tax | IRPF 0/5/10% — **lowest in Western Europe** | **NONE** (except FR nationals via 1963 Convention) | ~2.5-22.4% combined federal + commune (among lowest CH-area) |
-| CGT | 10% within IRPF | NONE | Within personal-tax regime |
-| Acquisition cost | ~3-5% (ITP 4% + notari + Govern registration) | ~10-12% (4.5% droits + notary + agent + 20% TVA on agent) | ~5-7% (Handänderungssteuer ~2% + commune + Grundbuchamt) |
-| Visa pathway | **Residència Passiva ~€600k** OR €350k + €50k AFA; passive ≥90d/yr | **Carte temporaire** ~€500k bank deposit + property practitioner | **Quota-based lottery** (~28 EEA + ~17 third-country/year); Personal Residence Programme rare petition only |
+| CGT | IRPF 10% + surcharge 10% <2y / 5% 2–5y, not taxed 10y+ (residents); IRNR 25% <2y / 20% 2–5y / 15% 5–10y / 10% from 10y (non-residents) | NONE | Within personal-tax regime |
+| Acquisition cost | ~3-5% resident (ITP 4% + notari + Govern registration); non-resident buyers add the foreign RE investment tax, 6% on the first property / 10% beyond (Llei 3/2024 as amended by Llei 2/2026) | ~10-12% (4.75% droits + notary + agent + 20% TVA on agent) | ~5-7% (Handänderungssteuer ~2% + commune + Grundbuchamt) |
+| Visa pathway | **Residència Passiva €1M** minimum investment + €50k non-refundable contribution + €12k per dependant (Llei 2/2026); passive ≥90d/yr | **Carte temporaire** ~€500k bank deposit + property practitioner | **Quota-based lottery** (~28 EEA + ~17 third-country/year); Personal Residence Programme rare petition only |
 | Naturalisation | 20 yrs (longest in Western Europe) | 10 yrs after privilégiée; rare in practice | 10 yrs (after surrendering prior citizenship — verify with Ausländer- und Passamt) |
 | Population | ~85k (~75% non-Andorran) | ~38k (~70% non-Monégasque) | ~40k |
 | Climate | Alpine 0-8°C winter, 18-25°C summer | Mediterranean 8-15°C winter, 24-29°C summer (mildest of three) | Alpine 0-5°C winter, 18-24°C summer |
 | Healthcare | CASS mandatory; cross-border to FR/ES | Caisses Sociales + CHPG; cross-border to FR/IT | KVG-equivalent; cross-border to CH |
 
 🥇 **MC** for ultra-high-net-worth wanting **NO PIT/CGT** + Mediterranean climate + Schengen access — at cost of highest COL globally and strict Sûreté Publique due-diligence
-🥈 **AD** for HNWI accepting alpine isolation in exchange for IRPF 0/5/10% (lowest in Western Europe) and lowest acquisition cost of the three; **20yr naturalisation** is the long-game catch
+🥈 **AD** for HNWI accepting alpine isolation in exchange for IRPF 0/5/10% (lowest in Western Europe) and lowest acquisition cost of the three for resident buyers (non-residents add the 6% / 10% foreign RE investment tax); **20yr naturalisation** is the long-game catch
 🥉 **LI** only for lottery-winning EEA candidates or rare Personal Residence Programme petitioners; CH-integrated practice for healthcare/banking
 
-**Confidence**: MEDIUM — AD Llei 26/2024 STR + parish quotas still rolling out per parròquia; MC Sûreté Publique due-diligence threshold drift on FX cycles; LI quota allocation publicly disclosed annually but qualifying-criteria opaque. Verify all thresholds at issuing authority.
+**Confidence**: MEDIUM — AD Llei 16/2017 STR (as amended by Llei 5/2025) + parish quotas still rolling out per parròquia; MC Sûreté Publique due-diligence threshold drift on FX cycles; LI quota allocation publicly disclosed annually but qualifying-criteria opaque. Verify all thresholds at issuing authority.
 
 ### Example H — MD vs UA-adjacent EU-candidates for low-COL Eastern European base
 
@@ -765,7 +765,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Pension tax | Worldwide resident progressive 0-35%; **80% abatement on foreign pension transferred permanently in TND** (Art. 36 Code IRPP — verify) | Foreign pensions: **80% abatement if transferred permanently in DH** (Art. 76 CGI) | Foreign-source pension generally not taxed by EG (territorial application varies) |
 | Visa pathway | Investor Residence Permit ≥TND 1M (~USD 320k); **Tunisia Investor Visa drafted 2024 NOT gazetted** | Carte de Séjour (long-stay) standard residence permit | **PM Decree 3099/2019** USD 250k non-refundable Treasury contribution — outcome unreconciled (GAFI: citizenship / US State Dept 2025 ICS: permanent residency) |
 | Citizenship | 5yr continuous PR + Arabic; dual since 2014 | 5yr continuous PR | PM Decree 3099/2019 investor routes (outcome unreconciled — verify with the Citizenship Applications Assessment Unit) |
-| Population | ~12.07M (Tunis Metro ~2.7M, Sfax ~1M, Sousse ~290k, Djerba ~165k) | ~37M | ~110M |
+| Population | ~11.97M (2024 census; Grand Tunis ~2.89M, Sfax governorate ~1.05M; Sousse ~290k, Djerba ~165k not verified to a primary source — 2026-11-25) | ~37M | ~110M |
 | Climate | Tunis Mediterranean 11-32°C; **2018 Cap Bon floods + 2023-24 record drought + APAL coastal erosion** | Marrakech 18-22°C winter; Atlantic coast cooler | Hurghada/Sahel 18-35°C; very dry; summer extreme |
 | Expat density | Moderate FR/IT/DE/UK (FR cultural ties strong) | FR retirees dominant; UK/DE growing | RU/UA/DE/UK; **EGP currency volatility material** post-2024 devaluation |
 | Healthcare | CNAM + private (French-system); **medical-tourism destination** | AMO (2024-2026 expansion) + private (French-system) | New Universal Health Insurance (2018 phased); medivac for serious cases |
@@ -806,7 +806,7 @@ These illustrate how the matrix is used. Numbers are from individual playbooks a
 | Population | ~1.428B (Mumbai 21M / Delhi NCR 33M / Bengaluru 13M) | ~218M (Lagos 22M largest African city) | ~55M (Nairobi Metro 5M, Mombasa 1.4M) |
 | Foreign-buyer access | **Foreign-buyer residential ban for non-NRI/non-OCI per FEMA 2018 Sch.I**; agricultural / plantation / farmhouse barred even for NRIs/OCIs | **Land Use Act 1978 — all land vested in state Governor** — only Statutory Right of Occupancy 99-yr leasehold; Governor's consent required for transfers | Open to foreigners (residential freehold); **agricultural land restricted to citizens per Constitution Art. 65**; 99-yr leasehold cap on non-citizen freehold-equivalents |
 | Total acquisition cost | ~7-12% (stamp duty 5-8% state-varied + registration 1% + GST 5-12% on under-construction + brokerage 1-2%) | ~10-15% (stamp duty + Governor's consent fee + agent + legal — varies by state) | ~7-12% (4% stamp duty + 0.1% LRA + agent 1.5-3% + legal 1-2%) |
-| Personal income tax | Worldwide for residents (>182 days); progressive 0-30% + surcharge + 4% cess; **LRS USD 250k/yr outbound cap** | Worldwide for residents (>183 days); progressive 7-24% + 2.5% NHF | Worldwide for residents (>183 days OR ≥122d × 3yr); progressive 10-35% PIT |
+| Personal income tax | Worldwide for residents (>182 days); progressive 0-30% + surcharge + 4% cess; **LRS USD 250k/yr outbound cap** | Worldwide for residents (>183 days); PIT 0-25% bands (Nigeria Tax Act 2025, Fourth Schedule) + 2.5% NHF | Worldwide for residents (>183 days OR ≥122d × 3yr); progressive 10-35% PIT |
 | CGT on resale | Long-term (>24 months) 20% with indexation OR 12.5% without; short-term per slab | CGT: the flat 10% charge was repealed by the Nigeria Tax Act 2025 — chargeable gains taxed as income from 1 Jan 2026 | CGT 15% flat (post-2023 reform; verify KRA) |
 | Visa pathway | **NO golden-visa via real estate (UNIQUE absence)** — OCI lifetime multi-entry for Indian-origin descendants only | **NO golden-visa via real estate** — STR-1 Investor visa USD 100k business is the pathway | **NO golden-visa via real estate (UNIQUE absence in EAC)** — **Class K Resident KES 200k+/yr passive** is the practical retiree pathway |
 | Path to citizenship | Naturalization 11+yr (very strict); **dual citizenship NOT allowed** | Naturalization 15+yr + Nigerian language + dual NOT allowed for native-born | Citizenship 7yr + Swahili (dual allowed since 2010) |

@@ -160,7 +160,7 @@ For the property's country, return:
 |---|---:|---:|---:|---:|---|---|
 | MA | ~37.9 (2024 HCP census) | ~30 (2024 HCP) | 2.1 (2023 HCP, declining from 2.5 in 2010) | 339 reading (PISA 2022, near-bottom of participants) | Lower | Mid (14-week maternity leave; French/Arabic public schools; private French/American dominant in Casablanca/Rabat) |
 | EG | ~110 (2024 CAPMAS) | ~25 (2024 CAPMAS) | 2.85 (2023 CAPMAS, declining from 3.5 peak 2014) | not in PISA — TIMSS 2019: below international median | Lower | Lower (4-month maternity leave; public schools severely under-resourced; private/IGCSE/American schools dominant in Cairo elite) |
-| TN | ~12.07 (2024 INS) | ~33 (2024 INS) | ~2.0 est. (2023 INS, near replacement) | 365 reading (PISA 2022) | Lower (Arabic + French in business/legal) | Mid (30-day maternity leave — short by region; French-Arabic bilingual public; Tunis private French/American schools dominant for elite; IMF EFF SUSPENDED Mar 2024 affecting public-sector funding) |
+| TN | ~11.97 (2024 census, INS) | 35 (2024 census, INS) | ~2.0 est. (2023 INS, near replacement) | 365 reading (PISA 2022) | Lower (Arabic + French in business/legal) | Mid (30-day maternity leave — short by region; French-Arabic bilingual public; Tunis private French/American schools dominant for elite; IMF EFF SUSPENDED Mar 2024 affecting public-sector funding) |
 
 ### Sub-Saharan Africa
 

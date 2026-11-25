@@ -431,7 +431,7 @@ Austria's **HORA** is a free, all-hazards-in-one-place natural-hazard portal (EU
 | AGES Radon | `https://geogis.ages.at/GEOGIS_RADON.html` |
 | GeoSphere Austria | `https://www.geosphere.at/` |
 | Statistik Austria HPI | `https://www.statistik.at/statistiken/volkswirtschaft-und-oeffentliche-finanzen/preise-und-preisindizes/haeuserpreisindex-und-ooh-pi` |
-| OeNB Wohnimmobilienpreis | `https://www.oenb.at/daten-und-forschung/datenangebot/preise-wettbewerbsfaehigkeit/immobilien/6-6-wohnimmobilienpreisindex.html` (updated 2026-10-28) |
+| OeNB Wohnimmobilienpreis | `https://www.oenb.at/daten-und-forschung/datenangebot/preise-wettbewerbsfaehigkeit/immobilien/6-6-wohnimmobilienpreisindex.html` (table last changed 2026-11-03, read 2026-11-25) |
 | Willhaben Immobilien | `https://www.willhaben.at/iad/immobilien/<typ>/<bundesland>/<bezirk>` |
 | ImmobilienScout24.at | `https://www.immobilienscout24.at/regional/<bundesland>/<bezirk>/<typ>` (typ e.g. `wohnung-kaufen`, `haus-kaufen`, `wohnung-mieten`) |
 | Justizportal Grundbuch | `https://www.justiz.gv.at/service/datenbanken/grundbuch.96c.de.html` (updated 2026-10-28) |

@@ -14,7 +14,7 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 - **Land registry**: **Registre de la Propietat** at the Justícia courts (Cort, Andorra la Vella) — separate from Comú cadastre
 - **Identifier**: parish-level reference (parcel + Comú); Registre folio number on title
 - **Key documents**: *escriptura pública* (notarial deed), *certificat del Comú* (parish certificate), *nota simple del Registre* (registry extract)
-- **Foreign-investor regime** (CRITICAL): non-residents need prior **autorització d'inversió estrangera** from Govern under [Llei 10/2012 d'inversió estrangera](https://www.bopa.ad/Documents/Detall?doc=GD20120607_15_45_22) before any RE acquisition; **Llei 3/2024** added a new tax on non-resident RE investment (see `--tax`)
+- **Foreign-investor regime** (CRITICAL): non-residents need prior **autorització d'inversió estrangera** from Govern under [Llei 5/2025](https://portaljuridicandorra.ad/L2025005) art. 8, whose disposició derogatòria repealed [Llei 10/2012 d'inversió estrangera](https://www.bopa.ad/Documents/Detall?doc=7821A), before any RE acquisition; **Llei 3/2024** added a new tax on non-resident RE investment (see `--tax`)
 
 ## Section: `--price`
 
@@ -105,11 +105,11 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 
 ### IEI — Impost sobre l'inversió estrangera en immobles (Llei 3/2024 + Llei 5/2025 "Llei Òmnibus")
 
-- **Llei 3/2024 del 29 de febrer** introduced an **additional RE tax** on non-residents. **Llei 5/2025 del 6 de març ("Llei Òmnibus", BOPA 26 March 2025, EIF 16 April 2025)** replaced the prior progressive scale with a **two-tier**:
+- **Llei 3/2024 de l'1 de febrer** introduced an **additional RE tax** on non-residents. **Llei 5/2025 del 6 de març ("Llei Òmnibus", BOPA 26 March 2025, EIF 16 April 2025)** replaced the prior progressive scale; **Llei 2/2026** ([BOPA](https://www.bopa.ad/) n° 15 of 12 Feb 2026, in force 13 Feb 2026) raised its rates from 3% (first dwelling) / 5% (second) / 10% (further units) to a **two-tier** ([Portal Jurídic, Llei 3/2024 art. 8](https://portaljuridicandorra.ad/L2024003)):
   - **6%** for first property (single home / apartment / studio + permitted annexes per personal-use threshold)
   - **10%** for additional properties beyond the first
 - **Foreign-investor property cap (Llei 5/2025)**: max **1 single-family home** OR **2 apartments/studios + 3 storage units + 3 parking spaces per unit** (or 6 parking + 1 commercial unit alternative). Exception for 10-year affordable-rental commitments.
-- Combined ITP + IEI: **non-resident acquisition tax floor ~10%** on first property (4% ITP + 6% IEI); **~14% on each additional** (4% + 10%). Verify current rate at [tributs.ad](https://www.tributs.ad/) + Govern d'Andorra BOPA before any non-resident purchase. (2026-05-27 verified, source [Llei 5/2025 — leslleis](https://www.leslleis.com/L2025005) + Cases & Lacambra.)
+- Combined ITP + IEI: **non-resident acquisition tax floor ~10%** on first property (4% ITP + 6% IEI); **~14% on each additional** (4% + 10%); IEI rates per [Portal Jurídic, Llei 3/2024 art. 8](https://portaljuridicandorra.ad/L2024003) as amended by Llei 2/2026. Verify current rate at [tributs.ad](https://www.tributs.ad/) + Govern d'Andorra BOPA before any non-resident purchase. (2026-05-27 verified, source [Llei 5/2025 — leslleis](https://www.leslleis.com/L2025005) + Cases & Lacambra.)
 - **Authorisation silence rule** (Llei 3/2024 disposició final quarta): the prior **positive silence** under Llei 10/2012 art. 18.3 became **negative silence** — if Govern fails to expressly resolve within 2 months (+ possible extension), the foreign-investment authorisation is **deemed DENIED**, not granted. Build hard timeline pads + escalation contact at Servei d'Immigració. (2026-05-27 verified, source Augé Legal & Fiscal.)
 - **Llei 2/2026 del 22 de gener ("Omnibus 2")** further tightened residency parameters — verify current values at BOPA before relying.
 
@@ -119,7 +119,7 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Capital gains — Plusvàlua immobiliària (within IRPF framework)
 
-- [Llei 21/2014 + Llei 5/2014](https://www.bopa.ad/) sliding scale by holding period: <1y ~15% / 1–2y ~13% / 2–10y gradient ~10%→~1% / **>10y exempt**
+- [Llei 5/2014 IRPF art. 27 bis + disposició addicional novena](https://www.bopa.ad/Documents/Detall?doc=CGL_2025_03_24_10_37_43) as amended by Llei 5/2025 ([Llei 5/2023](https://www.bopa.ad/Documents/Detall?doc=CGL20230206_12_17_34) repealed the Llei 21/2006 plusvàlues tax from 1 Jan 2024 and moved these gains into IRPF / IS / IRNR) — resident individual: gain taxed at the 10% IRPF rate + special surcharge **10%** (held <2y) / **5%** (2–5y); gain multiplied by 0.8 / 0.6 / 0.4 / 0.2 for 6–7 / 7–8 / 8–9 / 9–10 years held; **>10y not taxed** (effective ~20% <2y / ~15% 2–5y / 10% 5–6y / 8%→2% 6–10y, computed)
 - **Primary-residence exemption** with reinvestment in another habitual AD residence — verify at [tributs.ad](https://www.tributs.ad/)
 
 ### Income tax — IRPF (resident) / IRNR (non-resident)
@@ -135,12 +135,12 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 ### Total transaction cost (buyer side)
 
 - **Resale, resident**: ~**5.5–7%** (4% ITP + 1–2% notary/registry)
-- **Resale, non-resident**: ~**8–14%+** (with Llei 3/2024 progressive surcharge)
+- **Resale, non-resident**: ~**11.5–13%** on a first property, ~**15.5–17%** beyond it (computed: resident 5.5–7% + the foreign RE investment tax, 6% on the first property / 10% beyond — Llei 3/2024 as amended by Llei 2/2026)
 - **New build (first sale)**: ~**6.5–8%** (4.5% IGI + notary/registry + parish levies)
 
 ### Wealth + inheritance
 
-- **No wealth tax** (abolished); **no inheritance tax** between direct heirs per [Llei 21/2014](https://www.bopa.ad/); collateral inheritances may attract minor parish-level fees
+- **No wealth tax** (abolished); **no inheritance tax**: IRPF does not tax acquisitions by inheritance or gift (Llei 5/2014 art. 4.4 as reworded by [Llei 5/2023](https://www.bopa.ad/Documents/Detall?doc=CGL20230206_12_17_34)) and ITP covers only inter vivos transfers ([ITP text refós 2017](https://www.bopa.ad/Documents/Detall?doc=GL20170406_13_06_29) art. 3.1); collateral inheritances may attract minor parish-level fees
 - Central to Andorra's tax-residency appeal vs ES/FR
 
 ### Future risk
@@ -155,12 +155,12 @@ ISO2: `ad`. Status: ✅ Fully populated (researched 2026-05).
 
 ### Long-term residential
 
-- **Llei 1/2024, de l'arrendament d'habitatge** ([BOPA Mar 2024](https://www.bopa.ad/)) — new tenancy law: **5-year minimum term**, tenant break clause from year 1, indexation capped to **IPC d'Andorra** (CPI, typically 2–4% recent), 1-month security deposit standard
+- **Llei 15/2022, del 23 de maig, de text consolidat d'arrendaments de finques urbanes** ([BOPA 14 Jun 2022](https://www.bopa.ad/Documents/Detall?doc=CGL20220608_12_16_55)) — tenancy law: **5-year minimum term**, tenant break clause from year 1, indexation capped to **IPC d'Andorra** (CPI, typically 2–4% recent), 1-month security deposit standard
 - Rental income taxed within IRPF (resident, 0/5/10%) / **10% IRNR** (non-resident) — see `--tax`
 
 ### Short-let (Habitatge d'ús turístic / HUT)
 
-- **Llei 26/2024** ([BOPA 2024](https://www.bopa.ad/)) — short-let regime now tight: mandatory **HUT registration** with [Departament de Turisme](https://www.turisme.ad/) + parish *autorització*, **community-of-owners vote** required in multi-unit buildings, **quotas / moratoria** in saturated parishes (**Andorra la Vella** restricted new HUT permits 2024), nightly *taxa turística* per guest
+- **Llei 16/2017, del 13 de juliol, general de l'allotjament turístic**, as amended by Llei 5/2025 ([BOPA — Llei 5/2025](https://www.bopa.ad/Documents/Detall?doc=CGL_2025_03_24_10_37_43)) — short-let regime now tight: mandatory **HUT registration** with [Departament de Turisme](https://www.turisme.ad/) + parish *autorització*, **community-of-owners vote** required in multi-unit buildings, **quotas / moratoria** in saturated parishes (**Andorra la Vella** restricted new HUT permits 2024), nightly *taxa turística* per guest
 - ⚠️ Pre-2024 informal Airbnb listings now non-compliant — request **número de registre HUT** before any STR pricing model. Penalties €3,000–€30,000 for unregistered operation
 - **IGI 4.5%** on rental revenue may apply if hotel-like services (verify with Departament de Turisme)
 
@@ -374,7 +374,7 @@ HIGH for OPCC + Servei Meteorològic projection envelopes (Pyrenees amongst best
 - **Rate structure**: variable (Euribor + spread 1.5–3.0%) dominant; some banks offer fixed (mostly 5–10y); long fixed (>15y) rare. Q1 2026 effective mortgage rate ≈ **3.5–4.5%** all-in (Euribor 12M ≈ 2.3–2.8% + spread)
 - **Stress test**: AFA expectations include +200bps stress; banks apply own DSR (debt-service ratio) caps typically **35–40% gross income**
 - **Foreign-buyer mortgages**: available but tighter — most retail banks require:
-  - Proof of foreign-investment authorisation already issued (Llei 10/2012)
+  - Proof of foreign-investment authorisation already issued (Llei 5/2025, which repealed Llei 10/2012)
   - Andorran bank account (open with passport + proof of foreign residence + tax declaration)
   - 50–60% LTV ceiling
   - Income evidence + 2 years' tax returns from home country
@@ -419,9 +419,9 @@ Universal logic per `shared/visa-programs.md`. Andorra-specific:
 
 ### Residència Passiva (sense activitat lucrativa)
 
-- [Llei 9/2012 d'inversions estrangeres + Reglament](https://www.bopa.ad/), reformed 2022 + 2024 + **Llei 5/2025 ("Llei Òmnibus", eff. 16 April 2025)** + **Llei 2/2026 del 22 de gener ("Omnibus 2")**.
-- **Investment required**: **€600,000 (pre-2025)** → **€800,000 (Llei 5/2025, eff. 16 April 2025)** → **possibly €1,000,000 (Llei 2/2026, eff. early 2026)** in Andorran assets (RE, public debt, shares, deposits, life insurance); within that, qualifying share can be in Andorran RE — remainder diversified into local financial assets. *Verify current floor at [immigracio.ad](https://www.immigracio.ad/) before relying.* (2026-05-27 verified, source carlotapastora + Cases & Lacambra + Advantia on Omnibus 2.)
-- **AFA deposit restructure (post-Llei 5/2025)**: principal-holder portion split into **€30,000 NON-REIMBURSABLE state contribution + €20,000 AFA deposit (refundable)**. Each dependant: **€6,000 non-reimbursable + €6,000 refundable**. The non-refundable portion is sunk cost — model as such in retirement / digital-nomad NPV. (2026-05-27 verified, source Altaveu + carlotapastora.)
+- [Llei 9/2012, del 31 de maig, de modificació de la Llei qualificada d'immigració + Reglament](https://www.bopa.ad/Documents/Detall?doc=77CB2), reformed 2022 + 2024 + **Llei 5/2025 ("Llei Òmnibus", eff. 16 April 2025)** + **Llei 2/2026 del 22 de gener ("Omnibus 2")**.
+- **Investment required**: **€1,000,000 minimum investment** (Llei 2/2026, in force 13 Feb 2026; €600,000 until 12 Feb 2026) in Andorran assets (RE, public debt, shares, deposits, life insurance); real estate counts only at over €800,000 per unit, and the floor is €400,000 if invested in the Fons d'Habitatge (art. 96.1 of Llei 9/2012 as amended by Llei 2/2026 art. 10), plus a **€50,000 non-refundable contribution + €12,000 per dependant** ([Portal Jurídic, Llei 2/2026](https://portaljuridicandorra.ad/L2026002) art. 10); within that, qualifying share can be in Andorran RE — remainder diversified into local financial assets. *Verify current floor at [immigracio.ad](https://www.immigracio.ad/) before relying.* (2026-05-27 verified, source carlotapastora + Cases & Lacambra + Advantia on Omnibus 2.)
+- **AFA contribution (Llei 2/2026)**: **€50,000 non-refundable contribution** for the principal holder + **€12,000 per dependant**, paid to the AFA ([Portal Jurídic, Llei 2/2026](https://portaljuridicandorra.ad/L2026002) art. 10); until 12 Feb 2026 the same €50,000 + €12,000 per dependant was a refundable deposit at the AFA, counted within the €600,000 investment (Llei 5/2025 art. 37). The contribution is sunk cost — model as such in retirement / digital-nomad NPV. (2026-05-27 verified, source Altaveu + carlotapastora.)
 - Permit: 1-year initial → 3 + 3 + 7y renewals
 - **Residency obligation**: ≥**90 days/year** physical presence (passive — no work)
 - ⚠️ **Pending EU–Andorra border-management agreement** (Commission proposal COM(2026) 445, 7 Sep 2026; not signed or applied as of 2026-10-28; not Schengen membership): once applied, a third-country national's permit is issued or renewed only on a **genuine connection — "actual and regular physical presence"; "predetermined investments having been made in the Principality of Andorra's economy or real estate" do not qualify** (art. 24(2)) — and only after a French or Spanish security check, 28 days extendable to 42 (art. 25). Govern d'Andorra FAQ on the agreement: passive or investment residence "s'ha de basar en una vinculació real i efectiva amb Andorra. No n'hi ha prou amb una inversió econòmica o un pagament administratiu per si sols" (must rest on a real, effective link; an investment or administrative payment alone is not enough), and every residence card must be replaced within the first two years of the agreement's application. "Third-country national" excludes EU, EEA-EFTA, Swiss, Sammarinese and Monegasque citizens (art. 9(16)). A third-country-national buyer should not count on the qualifying investment alone to obtain or renew a permit once the agreement applies (see shared/regulatory-watch.md)
@@ -430,7 +430,7 @@ Universal logic per `shared/visa-programs.md`. Andorra-specific:
 ### Residència Activa
 
 - Work + reside permit; quota-bound; employer-sponsored (see `--work=`)
-- **Self-employed**: SL min capital €3,000 + CCIS + CASS registration + business plan + AFA deposit ~€15,000 (verify current)
+- **Self-employed**: SL min capital €3,000 + CCIS + CASS registration + business plan + €50,000 non-refundable contribution paid to the AFA (Llei 2/2026)
 - Residency obligation: >**183 days/year**
 
 ### NOT a citizenship-by-investment jurisdiction
@@ -440,7 +440,7 @@ Universal logic per `shared/visa-programs.md`. Andorra-specific:
 
 ### Confidence
 
-HIGH for Llei 9/2012 + 10/2012 framework + 20-year naturalisation rule (constitutional, multi-decade stable). MEDIUM-HIGH for current quantum (€800k floor per Llei 5/2025 — up from superseded pre-2025 €600k, possibly €1m per Llei 2/2026; + AFA deposits) — *verify exact current quantum at AFA + BOPA before application*.
+HIGH for Llei 9/2012 + 10/2012 framework + 20-year naturalisation rule (constitutional, multi-decade stable). MEDIUM-HIGH for current quantum (€1M floor + €50k non-refundable contribution + €12k per dependant per Llei 2/2026 — up from €600k until 12 Feb 2026) — *verify exact current quantum at AFA + BOPA before application*.
 
 ---
 
@@ -488,7 +488,7 @@ MEDIUM — Andorran insurance market is small + relatively opaque on aggregate p
 | Step | Day | What happens |
 |---|---|---|
 | 1. Reserva / contracte privat | D0 | Buyer pays **deposit ~10%**; private contract drawn |
-| 2. Foreign-investor authorisation (Llei 10/2012) | D7–D45 | If non-resident: file with Govern → **typical 2–4 weeks** for residential |
+| 2. Foreign-investor authorisation (Llei 5/2025) | D7–D45 | If non-resident: file with Govern → **typical 2–4 weeks** for residential |
 | 3. Mortgage approval (if applicable) | D14–D45 | Bank valuation + offer letter |
 | 4. *Certificat del Comú* (no-debt) + *nota simple del Registre* | D30–D50 | Notari requests both pre-deed |
 | 5. Escripturació (deed signing) at notari | D45–D75 | Buyer pays balance; notari withholds ITP + non-resident surcharge if applicable |
@@ -503,11 +503,11 @@ MEDIUM — Andorran insurance market is small + relatively opaque on aggregate p
 | **Notari fee** | regulated arancel; ~0.5–1.5% of price (caps for high-value) |
 | **Registre de la Propietat** | ~0.1–0.5% of price |
 | **ITP** (resale, resident-buyer) | ~4% of price (1% Govern + 0.50–3% Comú, most parishes 3% — per Llei 1229/2000 art. 8) |
-| **Llei 3/2024 surcharge** (non-resident) | progressive, up to ~10% (verify current bands) |
+| **Llei 3/2024 surcharge** (non-resident) | 6% on the first property / 10% beyond (Llei 3/2024 as amended by Llei 2/2026) |
 | **Foreign-investment file fee** | ~€500–€2,000 admin |
 | **IGI** (new build first sale) | 4.5% of price (in lieu of ITP) |
 | **Total transaction cost (buyer side, resident, resale)** | **~5.5–7%** of price |
-| **Total transaction cost (buyer side, non-resident, resale)** | **~8–14%+** of price (rises with non-resident progressive surcharge) |
+| **Total transaction cost (buyer side, non-resident, resale)** | **~11.5–13%** of price on a first property, **~15.5–17%** beyond it (computed; rises with the non-resident foreign RE investment tax, 6% on the first property / 10% beyond) |
 
 ### Foreign buyer practical
 
@@ -523,7 +523,7 @@ MEDIUM — Andorran insurance market is small + relatively opaque on aggregate p
 
 | Country | Foreign-buyer rule | Acquisition cost (typical, resident) | Annual recurring | Yield (mid-tier) | Currency |
 |---|---|---:|---:|---:|---|
-| **🇦🇩 Andorra** | Authorisation required (Llei 10/2012) + non-resident progressive surcharge to ~10% | 5.5–7% (resident) / 8–14%+ (non-resident) | Parish prop. tax low + Foc i Lloc + community fees | 3.5–5% | EUR (Mon. Agreement 2011) |
+| **🇦🇩 Andorra** | Authorisation required (Llei 5/2025) + foreign RE investment tax 6% on the first property / 10% beyond (Llei 3/2024 as amended by Llei 2/2026) | 5.5–7% (resident) / 11.5–17% (non-resident, computed) | Parish prop. tax low + Foc i Lloc + community fees | 3.5–5% | EUR (Mon. Agreement 2011) |
 | **🇪🇸 Spain** | Open; **NIE** required; some regional AJD | 8–14% | IBI 0.4–1.1% catastral | 3–5% (varies CCAA) | EUR (Eurozone) |
 | **🇫🇷 France** | Open; *fiscale* + notary process | 7–9% | Taxe foncière + Taxe d'habitation | 2.5–4.5% | EUR (Eurozone) |
 | **🇲🇨 Monaco** | Open but supply-constrained; max-CoL | ~8–12% | minimal recurring; no income tax (resident regime) | 1.5–3% | EUR (Mon. Agreement) |
@@ -533,7 +533,7 @@ MEDIUM — Andorran insurance market is small + relatively opaque on aggregate p
 - **Lowest IGI/VAT in Europe** (4.5%) + **0%/5%/10% IRPF** + **no wealth tax** + **no inheritance tax** (direct heirs) → headline tax-residency value-prop
 - **Counter-balanced by**: small + thin RE market, foreign-buyer authorisation friction, Llei 3/2024 non-resident surcharge raising acquisition cost materially, no CBI/golden-passport route, 20-year naturalisation
 - **Best fit**: tax-residency seekers willing to spend ≥183 days/yr (or ≥90 for passive route), high-net-worth professionals + retirees + remote workers compatible with mountain location
-- **Worse fit**: pure non-resident investment-only buyers (post Llei 3/2024 surcharge, IRR squeezed); short-flip strategies (sliding CGT scale 0–15% on holding period)
+- **Worse fit**: pure non-resident investment-only buyers (post Llei 3/2024 surcharge, IRR squeezed); short-flip strategies (IRPF 10% + surcharge 10% <2y / 5% 2–5y, tapering to 0 at 10y (residents); IRNR 25% → 10% (non-residents))
 
 ### Comparative reference
 
@@ -547,7 +547,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ### Pathways
 
-1. **Residència passiva** (€800k investment per Llei 5/2025, eff. 16 April 2025 — up from superseded pre-2025 €600k, possibly €1m per Llei 2/2026; + AFA deposit; ≥90 days/yr) — most common retirement route. ⚠️ Pending EU–Andorra border-management agreement (not signed or applied as of 2026-10-28): once it applies, the investment alone would not establish the genuine connection a third-country national's permit needs (art. 24(2)); see `--visa`
+1. **Residència passiva** (€1M minimum investment + €50k non-refundable contribution + €12k per dependant, Llei 2/2026; ≥90 days/yr) — most common retirement route. ⚠️ Pending EU–Andorra border-management agreement (not signed or applied as of 2026-10-28): once it applies, the investment alone would not establish the genuine connection a third-country national's permit needs (art. 24(2)); see `--visa`
 2. **Family reunification** (sponsored by AD-resident family)
 3. **Pre-existing residency** transitioned
 
@@ -562,11 +562,11 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 - **No wealth tax, no inheritance tax (direct heirs)** — headline appeal
 - Foreign pension income: Andorran-resident IRPF (0/5/10%); DTAs with ES (2016) + FR (2014) eliminate most overlap
-- **No CGT after 10-year hold**; sliding 0–15% below
+- **No CGT after a 10-year hold for residents**: IRPF 10% + surcharge 10% <2y / 5% 2–5y, tapering to 0 at 10y (residents); IRNR 25% → 10% (non-residents)
 
 ### Verdict for retirement-first buyers
 
-🟢 **Go** for HNW retirees (€800k+ liquid per Llei 5/2025, EUR-denominated, Spanish/Catalan competence) seeking low-tax mountain base with EU-proximity healthcare; 🟡 **Watch** for moderate-wealth (sub-€800k investible) — passive-residency floor + CoL above Portugal/Spain/Greece equivalents on lifestyle-per-euro.
+🟢 **Go** for HNW retirees (€1M+ liquid per Llei 2/2026, EUR-denominated, Spanish/Catalan competence) seeking low-tax mountain base with EU-proximity healthcare; 🟡 **Watch** for moderate-wealth (sub-€1M investible) — passive-residency floor + CoL above Portugal/Spain/Greece equivalents on lifestyle-per-euro.
 
 ---
 
@@ -590,7 +590,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ### Verdict for digital-nomad-first buyers
 
-🟡 **Watch** — strong infrastructure + low CoL + 4.5% IGI / 0–10% IRPF, but tight visa framework (no DNV, gray area sub-residency). Best fit: HN remote-workers committing to ≥183 days active or ≥90 days passive (and €800k investment per Llei 5/2025).
+🟡 **Watch** — strong infrastructure + low CoL + 4.5% IGI / 0–10% IRPF, but tight visa framework (no DNV, gray area sub-residency). Best fit: HN remote-workers committing to ≥183 days active or ≥90 days passive (and €1M minimum investment + €50k non-refundable contribution per Llei 2/2026).
 
 ---
 
@@ -608,7 +608,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 - **EU Association Agreement** (Council authorised signature and provisional application 16 Jul 2026; signed 19 Oct 2026; not in force and not provisionally applied as of 2026-10-21) — single-market spillover scenario if ratified
 - **Tax-residency inflows** from ES (Catalonia 2025 wealth-tax + progressive ITP) + FR (IFI flight)
-- Tourism: 8–9M visits/year (≥100× population) — Llei 26/2024 tightening STR supply
+- Tourism: 8–9M visits/year (≥100× population) — Llei 5/2025 (amending Llei 16/2017) tightening STR supply
 - IPH 2018–2024 nominal +5–8%/yr; cooling 2024–2025 with rate-cycle peak
 
 [IMF 2024 Article IV](https://www.imf.org/en/Countries/AND) flags external dependence (ES + FR macro), banking-sector concentration (4 banks), and labour-quota tightness as structural watch items.
@@ -669,7 +669,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 - Estate agent commission: ~**3–5%** + IGI 4.5% on commission
 - Notari fee (seller portion of regulated arancel): smaller share
-- **Plusvàlua / CGT**: sliding 0–15% by holding period; **10y+ exempt**; primary-residence exemption with reinvestment
+- **Plusvàlua / CGT**: taxed in IRPF / IRNR since 1 Jan 2024 (Llei 5/2023), bands as amended by Llei 5/2025 — resident: 10% + special surcharge 10% <2y / 5% 2–5y; gain × 0.8→0.2 for 6–10y held; **10y+ not taxed**; primary-residence exemption with reinvestment; non-resident (IRNR): 25% <2y / 20% 2–5y / 15% 5–10y / 10% general rate from 10y
 - Mortgage early-discharge: ~€500–€2,000 admin + bank clawback
 - **Total exit cost**: typically **3.5–6%** + CGT if any
 
@@ -698,9 +698,9 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 | Registre de la Propietat fee | 0.1–0.5% of price |
 | Estate agent commission (each side) | 3–5% of price |
 | ITP resale, resident | ~4% (1% Govern + 0.50–3% Comú, most parishes 3% — Llei 1229/2000 art. 8) |
-| Llei 3/2024 non-resident surcharge | progressive, est. up to ~10% |
+| Llei 3/2024 non-resident surcharge | 6% on the first property / 10% beyond (Llei 3/2024 as amended by Llei 2/2026) |
 | IGI (new build first sale) | 4.5% of price |
-| Foreign-investment file (Llei 10/2012) | 500–2,000 admin |
+| Foreign-investment file (Llei 5/2025) | 500–2,000 admin |
 | Cèdula d'habitabilitat / CEE | 150–500 each |
 | Annual property tax (parish, residential) | €0.30–€1.50 per m² built |
 | Foc i Lloc + Higiene (parish levies) | 100–500/year combined |
@@ -709,7 +709,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 | Renovation (basic refresh / full retrofit, 70 m² apt) | 30k–80k / 100k–300k |
 | Avalanche-corridor structural reinforcement | 20,000–80,000 |
 | **Total transaction cost (resident, resale)** | **~5.5–7%** of price |
-| **Total transaction cost (non-resident, resale)** | **~8–14%+** of price |
+| **Total transaction cost (non-resident, resale)** | **~11.5–17%** of price (resident 5.5–7% + the 6% / 10% foreign RE investment tax, computed) |
 | **Total transaction cost (new build first sale)** | **~6.5–8%** of price |
 
 ## Active fiscal incentives (2025–26)
@@ -718,7 +718,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 - **Solar PV residential incentive** (limited-quota; renewed annually)
 - **No first-time-buyer ITP discount** as standard, but parish-level *bonificacions* exist (e.g., young-family programmes in some Comús)
 - **CASS health-coverage transitions** for new residents (gap-cover periods; verify with CASS)
-- **Llei 9/2012 passive residency** route still open; investment floor now **€800k (Llei 5/2025, eff. 16 April 2025)** — €600k is superseded (pre-2025), possibly rising to €1m (Llei 2/2026); subject to AFA quantum verification
+- **Llei 9/2012 passive residency** route still open; investment floor now **€1M (Llei 2/2026, in force 13 Feb 2026)** + €50k non-refundable contribution + €12k per dependant — €600k applied until 12 Feb 2026; subject to AFA quantum verification
 
 ## Common listing platforms
 
@@ -729,7 +729,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ## Caveats unique to AD
 
-- **Foreign-investor authorisation (Llei 10/2012)**: non-residents need prior Govern authorisation (~2–4 weeks residential) before any RE acquisition
+- **Foreign-investor authorisation (Llei 5/2025, which repealed Llei 10/2012)**: non-residents need prior Govern authorisation (~2–4 weeks residential) before any RE acquisition
 - **Llei 3/2024 non-resident surcharge** (≈ up to 10% est. ceiling): layered on 4% ITP — *verify exact current bands at tributs.ad*
 - **Cadastre is parish-level**: every check goes to the target Comú; no single national portal
 - **Notari + Registre + Comú + Govern all involved** in any transaction — coordinate via the notari from day 1
@@ -737,9 +737,9 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 - **No CBI / golden-passport**, **20-year naturalisation**, dual-nationality not recognized
 - **No piped natural gas**: heating is electric / heat-pump / wood / LPG; legacy resistive in pre-2000 ski-blocks expensive
 - **Ski-corridor base-elevation risk**: climate trajectory pressuring sub-1,800m resorts (Vallnord-Arinsal exposed)
-- **Llei 26/2024 STR**: HUT registration + community vote + parish quota (Andorra la Vella restricted)
-- **Llei 1/2024 long-let**: 5-year min term, IPC-capped indexation
-- **No CGT after 10y hold** (sliding 0–15% below); **no wealth tax, no inheritance tax** (direct heirs)
+- **Llei 16/2017 STR (as amended by Llei 5/2025)**: HUT registration + community vote + parish quota (Andorra la Vella restricted)
+- **Llei 15/2022 long-let**: 5-year min term, IPC-capped indexation
+- **Gains**: IRPF 10% + surcharge 10% <2y / 5% 2–5y, tapering to 0 at 10y (residents); IRNR 25% → 10% (non-residents); **no wealth tax, no inheritance tax** (direct heirs)
 - **Top IRPF 10%, IS 10%, IGI 4.5%** — among Western Europe's lowest
 - **Avalanche-corridor zoning** in POUP — request parcel hazard layer from Comú before any chalet >1,500m
 - **Banking concentration** (4 banks) + Llei 14/2017 AML — non-resident account opening 4–8 weeks
@@ -765,7 +765,7 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 | **Notari** | Mandatory closing, ITP/IGI withholding, Llei 3/2024 surcharge calc |
 | **Tributs i de Fronteres** | IRPF/IS/IGI/ITP guidance, AML source-of-funds |
 | **AFA** | Banking + investor-residency deposit |
-| **Servei d'Immigració** | Foreign-investment authorisation (Llei 10/2012), residency permits |
+| **Servei d'Immigració** | Foreign-investment authorisation (Llei 5/2025), residency permits |
 | **Departament de Turisme** | HUT registration + tourist tax |
 | **CASS** | Social-security registration (employed + self-employed) |
 | **Cos de Policia / Bombers / Servei Meteorològic** | Crime stats / wildfire response / avalanche+snow+climate baseline |
@@ -789,20 +789,20 @@ Andorra is a **viable retirement-first destination** for HNW retirees seeking lo
 
 ## Status
 
-**Confidence**: MEDIUM — HIGH for the foundational legal/fiscal framework (ITP split 1% Govern + 0.50–3% Comú per Llei 1229/2000 art. 8.1+8.2, IEI two-tier 6%/10% post-Llei 5/2025, Llei 5/2025 "Llei Òmnibus" foreign-investor cap, negative-silence rule per Llei 3/2024, AFA deposit split, Passive-residency tier ladder €600k → €800k → possible €1m), bopa.ad primary statutes, and Comú-level transfer tax confirmation. MEDIUM for parcel-level Comú variation within the 0.50–3% ITP band (verify per parcel with Comú treasurer), Llei 2/2026 forward-flag detail, and 2026 minimum-wage / IRPF effective-rate parentheticals (verify at gov.ad). MEDIUM for residential price benchmarks (no national HPI; aggregator listing data with foreign-buyer bias).
+**Confidence**: MEDIUM — HIGH for the foundational legal/fiscal framework (ITP split 1% Govern + 0.50–3% Comú per Llei 1229/2000 art. 8.1+8.2, IEI two-tier 6%/10% (Llei 3/2024 as amended by Llei 2/2026), Llei 5/2025 "Llei Òmnibus" foreign-investor cap, negative-silence rule per Llei 3/2024, €50k + €12k per dependant non-refundable AFA contribution and passive-residency floor €1M (Llei 2/2026; €600k until 12 Feb 2026)), bopa.ad primary statutes, and Comú-level transfer tax confirmation. MEDIUM for parcel-level Comú variation within the 0.50–3% ITP band (verify per parcel with Comú treasurer), Llei 2/2026 forward-flag detail, and 2026 minimum-wage / IRPF effective-rate parentheticals (verify at gov.ad). MEDIUM for residential price benchmarks (no national HPI; aggregator listing data with foreign-buyer bias).
 
 **Last verified**: 2026-05-27 (EU Association Agreement status corrected 2026-09-18, 2026-09-24 and 2026-10-21 per Govern d'Andorra AA portal + Commission IP/26/2182; amended EU–Andorra Monetary Agreement (signed 19 Oct 2026, entry into force not established) recorded in Currency status 2026-10-23 per Commission IP/26/2182; pending EU–Andorra border-management agreement and its residence-permit conditions added to `--visa` (cross-referenced from `--retirement` and `--digital-nomad`) 2026-10-28 per COM(2026) 445 and annex (EU Publications Office Cellar) + Govern d'Andorra border-agreement page). EU-association tracker entry re-checked 2026-10-21 (December regwatch wave, run early; see shared/regulatory-watch.md).
 
 **Researched by**: Sonnet 4.6 + Opus 4.7 (parallel-subagent batch, 2026-05)
 
-**Notes**: Locked-in via primary government sources: foreign-investor authorisation regime (Llei 10/2012 BOPA + Servei d'Immigració), Llei 3/2024 non-resident RE surcharge (BOPA Feb 2024 — *exact progressive bands have been adjusted multiple times in 2024 and remain politically sensitive; verify current rate at tributs.ad before any non-resident purchase*), ITP ~4% split 1% Govern + 0.50–3% Comú (most parishes 3%) per Llei 1229/2000 art. 8.1+8.2 (BOPA + Comú confirmation), IGI 4.5% (Llei 11/2012), IRPF 0/5/10 + IS 10 (Llei 5/2014), residency-by-investment quantum €800k current (Llei 5/2025; €600k superseded pre-2025, possibly €1m per Llei 2/2026) + AFA deposit (Llei 9/2012 — verify current AFA deposit at afa.ad), Llei 1/2024 long-let + Llei 26/2024 short-let HUT (BOPA 2024), EUR Monetary Agreement (EU/Andorra 2011 OJ), parish cadastre split (Comú-by-Comú, no national portal), Cos de Policia annual Memòria for crime, Servei Meteorològic + OPCC for climate. **Re-verify each annual budget law (Llei de Pressupostos)** for any ITP/IGI/IRPF adjustment, the Llei 3/2024 surcharge bands, AFA deposit quantum, and the salari mínim decree. **Watch list 2026–27**: EU Association Agreement ratification (negotiations concluded Dec 2023 per the European Commission; signed 19 Oct 2026 in Brussels; not in force and not provisionally applied as of 2026-10-21 — watch the European Parliament consent vote, the date of the consultative referendum (none set as of 2026-10-21), the Consell General vote that follows only a yes result, and the start of provisional application; major regulatory-spillover event if ratified; see shared/regulatory-watch.md AD entry); Llei 3/2024 surcharge potential adjustment with pre-2027 budget cycle; any Pas de la Casa ski-station refurbishment + altitude-base climate-adaptation programme; new POUP cycles per parish (avalanche zoning + new-build limits).
+**Notes**: Locked-in via primary government sources: foreign-investor authorisation regime (Llei 5/2025, which repealed Llei 10/2012; BOPA + Servei d'Immigració), Llei 3/2024 foreign RE investment tax, 6% on the first property / 10% beyond as amended by Llei 2/2026 (BOPA n° 15 of 12 Feb 2026, in force 13 Feb 2026 — *verify current rate at tributs.ad before any non-resident purchase*), ITP ~4% split 1% Govern + 0.50–3% Comú (most parishes 3%) per Llei 1229/2000 art. 8.1+8.2 (BOPA + Comú confirmation), IGI 4.5% (Llei 11/2012), IRPF 0/5/10 + IS 10 (Llei 5/2014), residency-by-investment quantum €1M current (Llei 2/2026; €600k until 12 Feb 2026) + €50k non-refundable contribution + €12k per dependant (Llei 2/2026), Llei 15/2022 long-let + Llei 16/2017 short-let HUT (as amended by Llei 5/2025), EUR Monetary Agreement (EU/Andorra 2011 OJ), parish cadastre split (Comú-by-Comú, no national portal), Cos de Policia annual Memòria for crime, Servei Meteorològic + OPCC for climate. **Re-verify each annual budget law (Llei de Pressupostos)** for any ITP/IGI/IRPF adjustment, the Llei 3/2024 surcharge bands, AFA deposit quantum, and the salari mínim decree. **Watch list 2026–27**: EU Association Agreement ratification (negotiations concluded Dec 2023 per the European Commission; signed 19 Oct 2026 in Brussels; not in force and not provisionally applied as of 2026-10-21 — watch the European Parliament consent vote, the date of the consultative referendum (none set as of 2026-10-21), the Consell General vote that follows only a yes result, and the start of provisional application; major regulatory-spillover event if ratified; see shared/regulatory-watch.md AD entry); Llei 3/2024 surcharge potential adjustment with pre-2027 budget cycle; any Pas de la Casa ski-station refurbishment + altitude-base climate-adaptation programme; new POUP cycles per parish (avalanche zoning + new-build limits).
 
 ## Extension TODOs (deepen on first real run)
 
 - [ ] Per-parròquia property-tax rate matrix (7 Comús × residential band)
 - [ ] Llei 3/2024 progressive-band table once stable (post-2026 budget)
 - [ ] Avalanche-corridor + landslide POUP layer extraction (per parish)
-- [ ] HUT registry quota tracking by parish (Llei 26/2024 implementation)
+- [ ] HUT registry quota tracking by parish (Llei 16/2017 as amended by Llei 5/2025)
 - [ ] Pas de la Casa pre-2000 ski-block retrofit cost benchmark
 - [ ] 4-bank non-resident mortgage product comparison
 - [ ] EU Association Agreement single-market spillover scenario modelling

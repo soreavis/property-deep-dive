@@ -8,7 +8,7 @@ Residency-by-investment + citizenship-by-investment + property-linked visa lands
 
 ## EU / EEA / CH free-movement prelude — read first if you hold an EU/EEA/Swiss passport
 
-If your nationality is in the **EU 27 + EEA non-EU 3 (IS / LI / NO) + CH** free-movement bloc AND your destination is also in the same bloc, **this section does NOT apply to you**. You move under treaty free-movement rules — there is **no visa to obtain**. France abolished mandatory residence cards for EU citizens by the [Loi du 26 nov 2003](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000795707/), and the same logic applies bloc-wide under the directives below.
+If your nationality is in the **EU 27 + EEA non-EU 3 (IS / LI / NO) + CH** free-movement bloc AND your destination is also in the same bloc, **this section does NOT apply to you**. You move under treaty free-movement rules — there is **no visa to obtain**. France abolished mandatory residence cards for EU citizens by the [Loi du 26 nov 2003](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000795635), and the same logic applies bloc-wide under the directives below.
 
 ### Legal basis
 
@@ -38,7 +38,7 @@ Umbrella resource: [Your Europe — Residence formalities](https://europa.eu/you
 | 🇩🇰 DK | Registreringsbevis | Bekendtgørelse om opholdsbevis | [SIRI Styrelsen for International Rekruttering](https://www.nyidanmark.dk/) |
 | 🇪🇪 EE | Tähtajaline elamisõigus EU citizen | VMS § 18 | [Politsei- ja Piirivalveamet](https://www.politsei.ee/en/) |
 | 🇫🇮 FI | EU-kansalaisen rekisteröinti | Ulkomaalaislaki § 159 | [Migri](https://migri.fi/en/eu-citizen) |
-| 🇫🇷 FR | Carte de séjour "Citoyen UE/EEE/Suisse" — **OPTIONAL** | CESEDA L233-1 (since [Loi du 26 nov 2003](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000795707/)) | [Service Public — Titre de séjour citoyen UE](https://www.service-public.fr/particuliers/vosdroits/F2653) |
+| 🇫🇷 FR | Carte de séjour "Citoyen UE/EEE/Suisse" — **OPTIONAL** | CESEDA L233-1 (since [Loi du 26 nov 2003](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000795635)) | [Service Public — Titre de séjour citoyen UE](https://www.service-public.fr/particuliers/vosdroits/F2653) |
 | 🇩🇪 DE | Anmeldung beim Einwohnermeldeamt (Freizügigkeitsbescheinigung abolished 2013) | FreizügG/EU + Bundesmeldegesetz | [BMI](https://www.bmi.bund.de/) |
 | 🇬🇷 GR | Βεβαίωση εγγραφής πολίτη της ΕΕ | PD 106/2007 | [Υπουργείο Μετανάστευσης](https://migration.gov.gr/en/) |
 | 🇭🇺 HU | Regisztrációs igazolás | 2007. évi I. törvény | [OIF Országos Idegenrendészeti Főigazgatóság](https://oif.gov.hu/) |

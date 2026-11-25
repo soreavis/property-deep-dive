@@ -4,7 +4,7 @@ ISO2: `tn`. Status: RESTRICTED for foreign buyers (governor authorisation regime
 
 ## Country profile
 
-- **Population**: ~12.07 M (2024 INS estimate, source `https://www.ins.tn/`); coastal concentration (Tunis–Sfax–Sousse axis ~60 % of population)
+- **Population**: **11,972,169** at the 6 Nov 2024 census (RGPH 2024, [INS Bilan démographique](https://www.ins.tn/sites/default/files-ftp3/files/publication/pdf/Bilan_D%C3%A9mographique.pdf)); coastal concentration (Tunis–Sfax–Sousse axis ~60 % of population)
 - **Currency**: TND (Tunisian dinar) — **managed float, semi-convertible**. Not a freely-convertible currency for residents; capital controls under Code des Changes administered by the **Banque Centrale de Tunisie (BCT)** (`https://www.bct.gov.tn/`). 1 EUR ≈ 3.30–3.45 TND (2025–2026 range). Informal/parallel forex premium typically 5–15 % above official BCT rate during stress periods. **IMF EFF programme** — staff-level agreement Oct 2022 (USD 1.9 bn / SDR 1.472 bn over 48 months); **President Saied publicly rejected the IMF terms in April 2023** citing sovereignty + opposition to subsidy reform; the EFF programme was **formally suspended Mar 2024** and negotiations remained in limbo through 2024–2026 with Tunisia pursuing bilateral alternatives (Saudi USD 500m, World Bank USD 520m, AfDB €92m, EU MoU €150m) (2026-05-27 verified, source IMF country page + ORF + The National) — keep monitoring.
 - **Languages**: Arabic (official, Tunisian dialect + MSA); **French dominant in business + property + legal practice** (notarial deeds drafted in French or bilingual); Tamazight in southern + interior pockets; English growing in tech + tourism but not in cadastre/notary practice
 - **Legal system**: Civil-law tradition (French-influenced via Protectorate 1881–1956). Property law codified in **Code des Droits Réels (CDR)** (Decree-Law of 12 Sept 1957, repeatedly amended; major reforms 1965, 1992, 2024). Sharia governs personal status (Code du Statut Personnel 1956 — Tunisia's relatively progressive family-law code).
@@ -408,7 +408,7 @@ Note: TND devaluation 2018–2024 has cratered real local salaries in EUR/USD te
 
 ### Catchment heuristics
 
-- **Tunis Grand Tunis (Tunis + Ariana + Ben Arous + Manouba)**: ~2.7 M population — full job market for any profession
+- **Tunis Grand Tunis (Tunis + Ariana + Ben Arous + Manouba)**: ~2.89 M population (2024 census, INS) — full job market for any profession
 - **Sfax**: ~1 M — petrochemical + light manufacturing + commerce
 - **Sousse–Monastir conurbation**: ~700 k — tourism + textile + IT (technopole El Ghazala/Sousse)
 - **Bizerte**: ~140 k — port + petrochemical

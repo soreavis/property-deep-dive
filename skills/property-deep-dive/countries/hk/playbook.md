@@ -222,7 +222,7 @@ Non-domestic tenements: flat 5% (no progression).
 | Stay duration | Regulation | Practical reality |
 |---|---|---|
 | **≥ 28 consecutive days** | Outside HAGAO scope — ordinary tenancy regime applies | Serviced-apartment market (e.g., Tai Koo Shing, Sky Tower, Citybase) operates legally |
-| **< 28 consecutive days, unlicensed** | **ILLEGAL** — Cap. 349 § 5 offence; max fine HK$200,000 + 2 yrs imprisonment | Most Airbnb listings in HK private residential operate in violation; OLA (Office of Licensing Authority) sweeps regularly |
+| **< 28 consecutive days, unlicensed** | **ILLEGAL** — Cap. 349 § 5 offence; max fine HK$500,000 + 3 yrs imprisonment (plus HK$20,000 for each day the offence continues; maximum raised by the 2020 amendment, in force 1 Dec 2020) | Most Airbnb listings in HK private residential operate in violation; OLA (Office of Licensing Authority) sweeps regularly |
 | **< 28 consecutive days, licensed** | Hotel Licence or Guesthouse Licence required from **Office of the Licensing Authority (HADLA)** under Home Affairs Department | Most residential buildings prohibit guesthouse use via DMC; licence application typically requires fire-safety + building-modification works and DMC consent |
 
 - **Authority**: [HADLA — Hotel & Guesthouse Licensing Authority](https://www.hadla.gov.hk/en/hotels/index.html)
@@ -363,7 +363,7 @@ PR after 7 years' continuous ordinary residence (immigration test + intent to st
 ### Operators
 
 - 100% public: WSD (water) + DSD (sewer) — no private operators
-- WSD imports ~70% of fresh water from Dongjiang (Guangdong) under [Dongjiang Water Supply Agreement](https://www.wsd.gov.hk/en/core-businesses/water-resources/dongjiang-water/index.html); ~30% local catchment
+- WSD imports about 70–80% of fresh water from Dongjiang (Guangdong) under [Dongjiang Water Supply Agreement](https://www.wsd.gov.hk/en/core-businesses/water-resources/dongjiang-water/index.html) ([WSD facts](https://www.wsd.gov.hk/en/publications-and-statistics/pr-publications/the-facts/index.html)); the rest is mostly local catchment — in 2024 local catchments, Dongjiang, desalination and seawater for flushing gave 17%, 60%, 1% and 22% of total water consumption ([WSD](https://www.wsd.gov.hk/en/core-businesses/water-resources/index.html)), about 22% of fresh water from local catchments (computed); Tseung Kwan O desalination since Dec 2023 (WSD facts)
 
 ### Verification
 
@@ -550,7 +550,7 @@ HKMA's [USD foreign reserves](https://www.hkma.gov.hk/eng/news-and-media/press-r
 
 ### Permanent Residence
 
-7 years' continuous ordinary residence + intent to make HK permanent home → apply for **Right of Abode** under [Immigration Ordinance Cap. 115 § 2(4)](https://www.elegislation.gov.hk/hk/cap115). Failure of intent test (e.g., never primary residence, no family ties, no employment) → application refused even at 7-year mark.
+7 years' continuous ordinary residence + intent to make HK permanent home → apply for **Right of Abode** under [Immigration Ordinance Cap. 115 Schedule 1 para. 2(d) + para. 3](https://www.elegislation.gov.hk/hk/cap115). Failure of intent test (e.g., never primary residence, no family ties, no employment) → application refused even at 7-year mark.
 
 ### Article 23 / SNSO consideration (cross-section)
 

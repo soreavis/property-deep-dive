@@ -192,7 +192,7 @@ ISO2: `py`. Status: ✅ Fully populated (researched 2026-05).
 - **IDU — Impuesto a Dividendos y Utilidades**: 8 % on distributions to individuals + 15 % to non-residents (when entity holds property).
 - **Non-resident individuals**: subject to **IR** retención at notary on **gross sale price** (rate per Ley 6.380/2019 + reglamento — typically 4.5 % effective on gross, verify current SET resolution).
 
-(Source: Ley 6.380/2019 + Decretos reglamentarios + SET — `https://www.set.gov.py/`)
+(Source: Ley 6.380/2019 + Decretos reglamentarios + DNIT, formerly SET — `https://www.dnit.gov.py/`)
 
 ### Inheritance / herencia
 
@@ -252,7 +252,7 @@ Annual recurring tax:                    ~USD 330–415
 
 ⚠️ **IRP threshold**: Paraguayan IRP only applies above ~36 monthly minimum wages (~PYG 90 M/year ≈ USD 12,500/year at 2026 FX) accumulated income — **most small landlords below threshold pay nothing**; verify with contador as threshold updates.
 
-(Source: Ley 6.380/2019 + Decreto 3.184/2019 + SET — `https://www.set.gov.py/`)
+(Source: Ley 6.380/2019 + Decreto 3.184/2019 + DNIT, formerly SET — `https://www.dnit.gov.py/`)
 
 ### Short-term rentals (alquiler temporal / Airbnb)
 
@@ -303,7 +303,7 @@ Annual recurring tax:                    ~USD 330–415
 
 ### Self-employment / business regimes
 
-- **RUC** (Registro Único del Contribuyente) at SET — mandatory for any economic activity (`https://www.set.gov.py/`).
+- **RUC** (Registro Único del Contribuyente) at DNIT (formerly SET) — mandatory for any economic activity (`https://www.dnit.gov.py/`).
 - **IRP — Impuesto a la Renta Personal**: 8 % flat above ~36 SM mínimo accumulated yearly — Ley 6.380/2019.
 - **IRE — Impuesto a la Renta Empresarial**: 10 % flat on net (Ley 6.380/2019); applies to SA/SRL/EAS (Empresa por Acciones Simplificada).
 - **IDU — Impuesto a Dividendos y Utilidades**: 8 % residents / 15 % non-residents on distributions.
@@ -617,7 +617,7 @@ Universal Copernicus / IPCC AR6 logic (`shared/climate-projections.md`) applies.
 - **PYG — guaraní paraguayo** (símbolo ₲, ISO 4217 PYG). One of South America's longest-running stable currencies post-1990s.
 - **Régimen cambiario**: **flotación administrada**; BCP intervenes selectively at Mesa de Cambios; no fixed peg.
 - **Capital controls**: **none significantly** at retail level; inbound/outbound transfers free in either currency.
-- **Reporting**: **SEPRELAD — Secretaría de Prevención de Lavado de Dinero o Bienes** (`https://www.seprelad.gov.py/`) + SET reporte for transactions >USD 10,000 inflow/outflow (Ley 1.015/1997 + Ley 6.452/2019 amendments). Banks ROS automatic.
+- **Reporting**: **SEPRELAD — Secretaría de Prevención de Lavado de Dinero o Bienes** (`https://www.seprelad.gov.py/`) + DNIT (formerly SET) reporte for transactions >USD 10,000 inflow/outflow (Ley 1.015/1997 + Ley 6.452/2019 amendments). Banks ROS automatic.
 
 ### USD usage
 
@@ -1170,7 +1170,7 @@ Paraguay as of 2026-05 has **no dedicated digital-nomad visa** comparable to PT 
 | DGRP (Registro Inmobiliario) | `https://www.pj.gov.py/contenido/144-direccion-general-de-los-registros-publicos/144` |
 | SNC (Catastro) | `https://www.catastro.gov.py/` |
 | MEF | `https://www.mef.gov.py/` |
-| SET (Tributación) | `https://www.set.gov.py/` |
+| DNIT (Tributación, formerly SET) | `https://www.dnit.gov.py/` |
 | BCP | `https://www.bcp.gov.py/` |
 | ESSAP | `https://www.essap.com.py/` |
 | ANDE | `https://www.ande.gov.py/` |
