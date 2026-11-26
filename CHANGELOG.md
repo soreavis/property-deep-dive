@@ -257,6 +257,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(source-audit): Andorra's 6%/10% tax and €1M residency floor, and other corrections ([#609](https://github.com/soreavis/property-deep-dive/pull/609)) — by @soreavis
 
+- fix(regwatch): Ireland's short-let Bill has passed both Houses ([#610](https://github.com/soreavis/property-deep-dive/pull/610)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
