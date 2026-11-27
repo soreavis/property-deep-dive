@@ -259,6 +259,8 @@ When a release ends a programme (golden visa scrapped, NHR-style regime closed),
 
 - fix(regwatch): Ireland's short-let Bill has passed both Houses ([#610](https://github.com/soreavis/property-deep-dive/pull/610)) — by @soreavis
 
+- fix(regwatch): Budapest's District VIII has adopted its short-let caps ([#612](https://github.com/soreavis/property-deep-dive/pull/612)) — by @soreavis
+
 ## [2026.10.0] - 2026-10-23
 
 ### Added
